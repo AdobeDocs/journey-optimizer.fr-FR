@@ -1,24 +1,24 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Gérer la liste de suppression
+title: Gestion de la liste de suppression
 description: Découvrez comment accéder à la liste de suppression de Journey Optimizer et la gérer
 feature: Deliverability, Channel Configuration
 topic: Administration
 role: Admin
 level: Experienced
-keywords: suppression, liste, bounce, e-mail, optimizer, quarantaine
+keywords: suppression, liste, rebond, email, optimisation, mise en quarantaine
 exl-id: 430a2cd4-781d-4d37-a75d-405f5ed82377
-source-git-commit: b4fda6a0bd3e633811c16ef6dc3a3171b3b350c8
-workflow-type: ht
-source-wordcount: '1595'
-ht-degree: 100%
+source-git-commit: 0ba1af43f5447df861e419b56f34a418cfbce241
+workflow-type: tm+mt
+source-wordcount: '1599'
+ht-degree: 97%
 
 ---
 
 # Gérer la liste de suppression {#manage-suppression-list}
 
-Avec [!DNL Journey Optimizer], vous pouvez surveiller toutes les adresses e-mail qui sont automatiquement exclues de l’envoi dans un parcours ou une campagne, telles que les hard bounces, les soft bounces et les réclamations relatives au spam.
+Avec [!DNL Journey Optimizer], vous pouvez surveiller toutes les adresses e-mail qui sont automatiquement exclues de l’envoi dans un parcours ou une campagne, telles que les rebonds définitifs, les rebonds temporaires et les réclamations relatives au spam.
 
 Ces adresses e-mail sont automatiquement collectées dans la **liste de suppression** de Journey Optimizer. Une liste de suppression se compose d’adresses et de domaines à exclure de vos audiences. Elle rassemble les adresses e-mail et les domaines supprimés de tous les mailings dans un seul environnement client, c’est-à-dire spécifiques à un ID d’organisation associé à un ID de sandbox.
 
@@ -28,7 +28,7 @@ Pour en savoir plus sur le concept et l’utilisation de la liste de suppression
 >
 >Adobe tient à jour une liste des adresses erronées connues qui se sont avérées préjudiciables à l’engagement et à la réputation du publipostage, et s’assure que les e-mails ne leur sont pas remis. Cette liste est gérée dans une liste de suppression globale qui est commune à tous les clients Adobe. Les adresses et les noms de domaine contenus dans la liste de suppression globale sont masqués. Seul le nombre de destinataires exclus est indiqué dans les rapports de diffusion.
 
-En outre, vous pouvez tirer parti de l’**API REST de suppression** Journey Optimizer pour contrôler vos messages sortants à l’aide des listes de suppression et des listes autorisées. [Découvrez comment utiliser l’API REST de suppression.](https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/monitor-reputation/manage-suppression-list.html?lang=fr)
+En outre, vous pouvez tirer parti de Journey Optimizer **API REST de suppression** pour contrôler vos messages sortants à l’aide de la suppression et des listes autorisées. [Découvrez comment utiliser l’API REST de suppression](https://developer.adobe.com/journey-optimizer-apis/references/suppression/){target="_blank"}
 
 ## Accéder à la liste de suppression {#access-suppression-list}
 
@@ -57,7 +57,7 @@ Lorsqu&#39;un message ne parvient pas à être envoyé à une adresse e-mail, [!
 
 Les catégories de suppression sont les suivantes :
 
-* **Hard** : un hard bounce indique une adresse e-mail non valide (c’est-à-dire une adresse e-mail qui n’existe pas). Un message de rebond du serveur de messagerie de réception indique explicitement que l’adresse n’est pas valide. L’adresse e-mail est immédiatement envoyée à la liste de suppression.
+* **Définitif** : un rebond définitif indique une adresse e-mail non valide (c’est-à-dire une adresse e-mail qui n’existe pas). Un message de rebond du serveur de messagerie de réception indique explicitement que l’adresse n’est pas valide. L’adresse e-mail est immédiatement envoyée à la liste de suppression.
 
   Lorsque l&#39;erreur est le résultat d&#39;une plainte de spam, elle est également classée dans la catégorie **Hard**. L’adresse e-mail du destinataire ayant émis la plainte est immédiatement envoyée à la liste de suppression.
 
@@ -74,9 +74,9 @@ Les motifs possibles d’un échec de diffusion sont les suivants :
 | Motif | Description | Catégorie |
 | --- | --- | --- |
 | **[!UICONTROL Destinataire non valide]** | Le destinataire n&#39;est pas valide ou n&#39;existe pas. | Hard |
-| **[!UICONTROL Soft Bounce]** | Le message a fait l&#39;objet d&#39;un soft bounce pour un motif autre que les erreurs soft répertoriées dans ce tableau, par exemple lors d&#39;un envoi supérieur au taux autorisé recommandé par un FAI. | Soft |
-| **[!UICONTROL Échec du DNS]** | Le message a fait l&#39;objet d&#39;un bounce en raison d&#39;un échec du DNS. | Soft |
-| **[!UICONTROL Boîte pleine]** | Le message a fait l&#39;objet d&#39;un bounce, car la boîte du destinataire était pleine et ne pouvait pas accepter d&#39;autres messages. | Soft |
+| **[!UICONTROL Rebond temporaire]** | Le message a fait l’objet d’un rebond temporaire pour un motif autre que les erreurs temporaires répertoriées dans ce tableau, par exemple lors d’un envoi supérieur au taux autorisé recommandé par un FAI. | Soft |
+| **[!UICONTROL Échec du DNS]** | Le message a fait l’objet d’un rebond en raison d’un échec du DNS. | Soft |
+| **[!UICONTROL Boîte pleine]** | Le message a fait l’objet d’un rebond, car la boîte du destinataire était pleine et ne pouvait pas accepter d’autres messages. | Soft |
 | **[!UICONTROL Relais refusé]** | Le message a été bloqué par le destinataire, car le relais n&#39;est pas autorisé. | Soft |
 | **[!UICONTROL Réponse au défi]** | Le message est une enquête de réponse au défi. | Soft |
 | **[!UICONTROL Plainte relative à un spam]** | Le message a été bloqué car marqué comme étant indésirable par le destinataire. | Hard |
@@ -103,7 +103,7 @@ Dans la **[!UICONTROL Liste de suppression]**, vous pouvez également modifier l
 >title="Ajouter des e-mails ou des domaines à la liste de suppression"
 >abstract="Pour renseigner la liste de suppression, vous pouvez ajouter manuellement des adresses e-mail ou des domaines, individuellement ou en bloc par le biais d’un téléchargement de fichier CSV. Ces adresses e-mail et/ou domaines spécifiques seront exclus de votre envoi."
 
-Lorsqu’un message ne parvient pas à être envoyé à une adresse e-mail, cette adresse est automatiquement ajoutée à la liste de suppression en fonction de la règle de suppression définie ou du nombre de bounces.
+Lorsqu’un message ne parvient pas à être envoyé à une adresse e-mail, cette adresse est automatiquement ajoutée à la liste de suppression en fonction de la règle de suppression définie ou du nombre de rebonds.
 
 Cependant, vous pouvez également remplir manuellement la liste de suppression [!DNL Journey Optimizer] pour exclure des adresses e-mail et/ou domaines spécifiques de votre envoi.
 
@@ -224,7 +224,7 @@ Pour supprimer une adresse de la liste de suppression, utilisez le bouton **[!UI
 >
 >Procédez avec attention lorsque vous envisagez de supprimer une adresse e-mail ou un domaine. En cas de doute, contactez un expert en délivrabilité.
 
-Par exemple, dans le cas d’une panne du fournisseur d’accès Internet (FAI), les e-mails sont marqués à tort comme hard bounces, car ils ne peuvent pas être envoyés avec succès à leur destinataire. Ces adresses e-mail doivent être supprimées de la liste de suppression.
+Par exemple, dans le cas d’une panne du fournisseur d’accès Internet (FAI), les e-mails sont marqués à tort comme rebonds définitifs, car ils ne peuvent pas être envoyés avec succès à leur destinataire. Ces adresses e-mail doivent être supprimées de la liste de suppression.
 
 Pour récupérer ces adresses, exécutez une requête spécifique avec des paramètres personnalisés en fonction du contexte de la panne. [En savoir plus dans cet exemple](../data/datasets-query-examples.md#isp-outage-query).
 
