@@ -7,18 +7,18 @@ feature: Deliverability, Channel Configuration
 topic: Administration
 role: Admin
 level: Experienced
-keywords: reprises, bounce, soft, optimizer, erreur
+keywords: reprises, rebond, temporaire, optimizer, erreur
 exl-id: 05564a99-da50-4837-8dfb-bb1d3e0f1097
 source-git-commit: 8579acfa881f29ef3947f6597dc11d4c740c3d68
 workflow-type: tm+mt
-source-wordcount: '459'
+source-wordcount: '467'
 ht-degree: 100%
 
 ---
 
 # Reprises {#retries}
 
-Lorsqu’un e-mail échoue en raison d’une erreur temporaire **Soft bounce**, plusieurs reprises sont effectuées. Chaque erreur incrémente un compteur d&#39;erreurs. Lorsque ce compteur atteint le seuil limite, l&#39;adresse est ajoutée à la liste de suppression.
+Lorsqu’un e-mail échoue en raison d’une erreur de type **Rebond temporaire**, plusieurs tentatives sont effectuées. Chaque erreur incrémente un compteur d&#39;erreurs. Lorsque ce compteur atteint le seuil limite, l&#39;adresse est ajoutée à la liste de suppression.
 
 >[!NOTE]
 >
@@ -37,7 +37,7 @@ Si une diffusion réussit après une reprise, le compteur d&#39;erreurs de l&#39
 >[!CONTEXTUALHELP]
 >id="ajo_admin_suppression_list_bounces"
 >title="Mettre à jour le seuil de reprise"
->abstract="Si la valeur par défaut ne correspond pas à vos besoins, vous pouvez modifier le nombre autorisé de soft bounces consécutifs. Lorsque le compteur de reprises atteint le seuil d’erreur pour une adresse e-mail spécifique, cette adresse est ajoutée à la liste de suppression."
+>abstract="Si la valeur par défaut ne correspond pas à vos besoins, vous pouvez modifier le nombre autorisé de rebonds temporaires consécutifs. Lorsque le compteur de reprises atteint le seuil d’erreur pour une adresse e-mail spécifique, cette adresse est ajoutée à la liste de suppression."
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/reporting/deliverability/suppression-list.html?lang=fr" text="Comprendre la liste de suppression"
 
 Si la valeur par défaut de 5 ne correspond pas à vos besoins, vous pouvez modifier le seuil d’erreur en procédant comme suit.
@@ -48,7 +48,7 @@ Si la valeur par défaut de 5 ne correspond pas à vos besoins, vous pouvez mod
 
    ![](assets/suppression-list-edit-retries.png)
 
-1. Modifiez le nombre autorisé de soft bounces consécutifs en fonction de vos besoins.
+1. Modifiez le nombre autorisé de rebonds temporaires consécutifs en fonction de vos besoins.
 
    ![](assets/suppression-list-edit-soft-bounces.png)
 
@@ -60,7 +60,7 @@ Si la valeur par défaut de 5 ne correspond pas à vos besoins, vous pouvez mod
 
 ## Période de reprise {#retry-duration}
 
-La **période de reprise** est la période pendant laquelle tout message électronique de la diffusion ayant rencontré une erreur temporaire ou un soft bounce sera repris.
+La **période de reprise** est la période pendant laquelle tout message électronique de la diffusion ayant rencontré une erreur ou un rebond temporaire sera repris.
 
 Par défaut, les reprises seront effectuées pendant **3,5 jours** (ou **84 heures**) à partir du moment où le message a été ajouté à la file d’attente des e-mails.
 
