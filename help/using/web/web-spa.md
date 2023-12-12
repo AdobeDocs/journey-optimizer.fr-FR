@@ -8,7 +8,7 @@ level: Intermediate
 exl-id: b33e4bca-d2e9-4610-9f04-008d47f686d0
 source-git-commit: 45f19563c79d298eeec6cb757636a9ce47e54adf
 workflow-type: tm+mt
-source-wordcount: '481'
+source-wordcount: '461'
 ht-degree: 100%
 
 ---
@@ -33,7 +33,7 @@ Une configuration unique du développeur est nécessaire pour définir les vues 
 
 ## Définition des vues dans l’implémentation du SDK web {#define-views}
 
-Les vues XDM peuvent être exploitées dans Adobe [!DNL Journey Optimizer] pour permettre aux spécialistes du marketing d’exécuter des campagnes de personnalisation et d’expérimentation web sur une application à une seule page via l’éditeur visuel web. [En savoir plus](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/ajo/web-spa-implementation.html?lang=fr){target="_blank"}
+Les vues XDM peuvent être exploitées dans Adobe [!DNL Journey Optimizer] pour permettre aux spécialistes du marketing d’exécuter des campagnes de personnalisation et d’expérimentation web sur une application à une seule page via l’éditeur visuel web. [En savoir plus](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/ajo/web-spa-implementation.html?lang=fr){target="_blank"}.
 
 Pour créer des vues dans l’interface utilisateur de [!DNL Journey Optimizer] et y accéder, suivez les étapes répertoriées dans [cette section](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/ajo/web-spa-implementation.html?lang=fr#implement-xdm-views){target="_blank"}.
 

@@ -15,7 +15,7 @@ exl-id: c2434086-2ed4-4cd0-aecd-2eea8f0a55f6
 source-git-commit: 9d48213d8367fdc6c0fae62b73d1706bc4983d9d
 workflow-type: tm+mt
 source-wordcount: '1522'
-ht-degree: 79%
+ht-degree: 100%
 
 ---
 
@@ -98,7 +98,7 @@ Vous trouverez ci-dessous un exemple de fichier contenant un plan de préchauffa
 
 ### Onglet Plan de préchauffage d’adresses IP {#ip-warmup-plan-tab}
 
-* Dans cet exemple, un plan a été préparé sur 17 jours (appelé &quot;&quot;**exécutions**&quot;) pour atteindre un volume cible de plus d’un million de profils.
+* Dans cet exemple, un plan a été préparé sur 17 jours (appelé « **exécutions** ») pour atteindre un volume cible de plus d’un million de profils.
 
 * Ce plan est exécuté en six **phases**, chacune d’elles contenant au moins une exécution.
 
@@ -131,49 +131,64 @@ Les groupes de domaines principaux prêts à l’emploi que vous pouvez ajouter 
 * Apple
 -->
 
-+++ Gmail gmail.com;google.com;googlemail.com;googlemail.co.uk
++++ Gmail
+gmail.com;google.com;googlemail.com;googlemail.co.uk
 +++
 
-+++ Adobe adobe.com
++++ Adobe
+adobe.com
 +++
 
-+++WP wp.pl;o2.pl
++++WP
+wp.pl;o2.pl
 +++
 
-+++Comcast comcast.net
++++Comcast
+comcast.net
 +++
 
-+++Yahoo aol.fi;games.com;cs.com;yahoo.com.in;y7mail.com;yahoo.co.uk;yahoo.hu;yahoo.co.hu;yahoogroups.com.sg;yahoogroups.com.au;yahoo.com.au;email;email;yahoo.hu;htm;yahoo.com.vn;yahoo.hk;aol.co.nz;yahoo.com.br;aolpoland.pl;aolnorge.no;yahoo.ne.jp;yahoo.fi;ymail.com;netscape.com;htm;htm o.hr;aol.cz;yahoo.ee;aol.be;aolcom.tr;yahoo.si;yahoo.com.pe;aol.it;yahoo.co.id;citlink.net;yahoo.es;yahoo.dk;yahoogroups.ca;wmconnect.com;aol.kr;yahoo.ie;aol.jp;yahoo.com.jp;yahoo.ahoo.ahoo.ahoo.ahoo;yahoo.com.hk;aol.nl;aol.com.br;yahoo.bg;yahoo.co.kr;yahoo.com.ar;aol.se;ygm.com;yahoo.de;yahoo.co.nz;aol.com;goowy.com;rocketmail.com;email;yahoo.nl;frontiernet.net;aol.dk;aim.com;aol.cl;htm;yahoo.no;yahoogroups.co.in;htm;yahoo.cz;netscape.net;;yahoogroups.de;yahoo.gr;luckymail.com;yahoo.co.jp;htm;yahoo.ro;yahoo.com.kr;htm;yahoo.at;yahoo.co.za;verizon.net;aol.com.ve;aol.com.ar;aol.com.co;wild4music.com;htm;ahoo.in;aiol.in;yahoogroups.com.cn;yahoo.rs;aol.de;yahoo.com.co;PÉahoo.jaol.jol;wow.com;yahoo.pt;yahoo.com;yahooxtra.co.nz;yahoogrupper.dk;yahoo.fr;yahoo.com.mx;yahoo.com.ph;email;yahoogruppi.it;sky.com;email;ahoo.ch;aol.com.mx;aol.com.au;aolpolcka.pl;aolchina.com;htm;yahoogruppi.it;yahoo.com.net;yahoo.cl;yahoo.com.tw;talk21.com;compuserve.com;yahoo.be;yahoo.com.sg;htm;aol.tw;yahoogroups.com.tw;htm;htm;htm;htm;htm;htm;frontier.com;htm;htm;htm;htm;email;aol.ru;yahoo.co.in;htm;yahoo.lv;aolpolska.pl;aol.at;yahoo.pl
++++Yahoo
+aol.fi;games.com;cs.com;yahoo.com.in;y7mail.com;yahoo.co.uk;yahoo.hu;yahoo.co.hu;yahoo.cn;yahoogroups.com.sg;yahoogroups.com.au;aol.es;yahoo.com.au;yahoo.com.vn;yahoo.ca;aol.hk;aol.co.nz;yahoo.com.br;aolpoland.pl;aolnorge.no;yahoo.ne.jp;yahoo.fi;ymail.com;netscape.com;yahoo.com.pe;yahoo.hr;aol.cz;yahoo.ee;aol.be;aolcom.tr;yahoo.si;yahoo.co.id;aol.it;citlink.net;wmconnect.com;yahoo.es;yahoo.dk;yahoogroups.ca;yahoo.com.jp;yahoo.com.hk;aol.kr;yahoo.ie;aol.jp;aol.com.br;yahoo.lt;yahoo.co.kr;aol.nl;yahoo.com.ar;yahoo.bg;ygm.com;yahoo.co.nz;aol.se;aol.com;yahoo.de;goowy.com;rocketmail.com;frontiernet.net;aim.com;yahoo.nl;yahoogroups.co.in;aol.dk;netscape.net;aol.cl;luckymail.com;yahoo.no;yahoo.co.jp;yahoo.com.kr;yahoo.cz;yahoo.co.za;yahoo.sk;verizon.net;yahoogroups.de;yahoo.gr;aol.com.ve;aol.com.ar;yahoo.ro;aol.com.co;wild4music.com;yahoo.at;yahoogroups.com.cn;yahoo.com.co;wow.com;aol.fr;yahoo.in;aol.in;yahoo.com;yahoo.rs;aol.de;yahooxtra.co.nz;yahoo.com.mx;yahoo.com.ph;sky.com;aol.com.mx;aol.com.au;yahoo.se;myaol.jp;aolchina.com;yahoo.pt;yahoo.com.net;yahoo.com.tw;yahoogrupper.dk;yahoo.fr;talk21.com;compuserve.com;aol.pl;yahoo.com.sg;yahoogroups.com.tw;aol.ch;yahoo.it;frontier.com;yahoo.co.in;aolpolcka.pl;yahoo.co.il;verizon.net.in;yahoogruppi.it;yahoo.com.tr;yahoo.cl;yahoogroups.com.hk;yahoogroups.co.uk;yahoo.com.biz;yahoo.com.hr;yahoo.be;aol.co.uk;ybb.ne.jp;aol.tw;yahoogroups.co.kr;yahoo.com.my;rogers.com;gte.net;yahoogroups.com;yahoo.co.th;yahoo.com.cn;love.com;bellatlantic.net;aol.ru;yahoo.com.ve;yahoo.com.ua;yahoo.lv;aolpolska.pl;aol.at;yahoo.pl
 +++
 
-+++Bigpond bigpond.com;bigpond.com.au;bigpond.net;telstra.com;bigpond.net.au
++++Bigpond
+bigpond.com;bigpond.com.au;bigpond.net;telstra.com;bigpond.net.au
 +++
 
-+++Orange voila.com;francetelecom.com;orange.com;orange.fr;wanadoo.fr;voila.fr
++++Orange
+voila.com;francetelecom.com;orange.com;orange.fr;wanadoo.fr;voila.fr
 +++
 
-+++Softbank c.vodafone.ne.jp;jp-h.ne.jp;k.vodafone.ne.jp;jp-d.ne.jp;jp-c.ne.jp;t.vodafone.ne.jp;h.vodafone.ne.jp;r.vodafone.ne.jp;q.vodafone.ne.jp;jp-t.ne.jp;jp-q.ne.jp;s.vodafone.ne.jp;jp-s.ne.jp;jp-r.ne.jp;jp-k.ne.jp;htm;n.vodafone.ne.jp;d.vodafone.ne.jp;softbank.ne.jp;htm;jp-n.ne.jp;;;
++++Softbank
+c.vodafone.ne.jp;jp-h.ne.jp;k.vodafone.ne.jp;jp-d.ne.jp;jp-c.ne.jp;t.vodafone.ne.jp;h.vodafone.ne.jp;r.vodafone.ne.jp;q.vodafone.ne.jp;jp-t.ne.jp;jp-q.ne.jp;s.vodafone.ne.jp;jp-s.ne.jp;jp-r.ne.jp;jp-k.ne.jp;n.vodafone.ne.jp;d.vodafone.ne.jp;softbank.ne.jp;jp-n.ne.jp
 +++
 
-+++Docomo docomo.ne.jp
++++Docomo
+docomo.ne.jp
 +++
 
-+++United Internet gmx.de;1and1.com;gmx.fr;mail.com;1und1.de;gmx.com;gmx.net;gmx.at;web.de;gmx.ch
++++United Internet
+gmx.de;1and1.com;gmx.fr;mail.com;1und1.de;gmx.com;gmx.net;gmx.at;web.de;gmx.ch
 +++
 
-+++Microsoft hotmail.com.tr;live.de;live.ru;live.nl;windowslive.com;live.jp;mts.net;xbox.com;hotmail.fr;hotmail.cl;hotmail.jp;live.cl;live.at;live.com.au;hotmail.co.th;hotmail.com.au;live.hk;hotmail.com;live.com.my;hotmail.co.kr;htm;outlook.com.br;séjour.ie;hotmail.co.il;live.co.kr;email.dk;live.co.uk;htm;htm;;live.com.mx;hotmail.co.uk;hotmail.es;live.fr;live.no;live.dk;hotmail.it;live.com.sg;live.se;msn.com;live.be;hotmail.co.jp;live.in;hotmail.se;live.co.za;hotmail.ch;live.com.pt;email.gr;live.it;outlook.com;hotmail.ca;live.com;email.ca;live.com.ar;email.htm;email.ca;email.de
++++Microsoft
+hotmail.com.tr;live.de;live.ru;live.nl;windowslive.com;live.jp;mts.net;xbox.com;hotmail.fr;hotmail.cl;hotmail.jp;live.cl;live.at;live.com.au;hotmail.co.th;live.hk;hotmail.com.au;hotmail.com;live.com.my;hotmail.co.kr;live.ie;outlook.com.br;hotmail.co.il;hotmail.dk;live.co.kr;live.co.uk;live.com.mx;outlook.ie;live.cn;hotmail.co.uk;live.com.sg;hotmail.es;live.fr;live.no;live.dk;hotmail.it;msn.com;live.se;hotmail.co.jp;live.be;live.co.za;live.in;hotmail.se;live.com.pt;hotmail.ch;outlook.com;live.com;hotmail.gr;live.it;live.com.ar;hotmail.ca;hotmail.com.br;hotmail.com.ar;live.ca;hotmail.de
 +++
 
-+++KDDI au.com;ezweb.ne.jp;uqmobile.jp
++++KDDI
+au.com;ezweb.ne.jp;uqmobile.jp
 +++
 
-+++Italia Online inwind.it;blu.it;virgilio.it;giallo.it;iol.it;libero.it
++++Italia Online
+inwind.it;blu.it;virgilio.it;giallo.it;iol.it;libero.it
 +++
 
-+++La Poste laposte.net
++++La Poste
+laposte.net
 +++
 
-+++Apple mac.com;icloud.com;apple.com;me.com
++++Apple
+mac.com;icloud.com;apple.com;me.com
 +++
 
 ### Onglet Groupe de domaines personnalisés {#custom-domain-group-tab}
@@ -241,7 +256,7 @@ Chaque domaine s’affiche désormais dans une colonne différente sur la même 
 
    * **Pas démarré** : aucune exécution n’a été activée pour le moment. [En savoir plus](ip-warmup-execution.md#define-runs)
    * **Actif** : le plan passe à ce statut dès que la première exécution de la première phase a été activée avec succès. [En savoir plus](ip-warmup-execution.md#define-runs)
-   * **Terminé**: le plan a été marqué comme terminé. <!--This option is only available if all the runs in the plan are in **[!UICONTROL Completed]** or **[!UICONTROL Draft]** status (no run can be **[!UICONTROL Live]**).--> [En savoir plus](ip-warmup-execution.md#mark-as-completed)
+   * **Terminé** : le plan a été marqué comme terminé.<!--This option is only available if all the runs in the plan are in **[!UICONTROL Completed]** or **[!UICONTROL Draft]** status (no run can be **[!UICONTROL Live]**).--> [En savoir plus](ip-warmup-execution.md#mark-as-completed)
      <!--* **Paused**: to check (user action)-->
 
 1. Pour supprimer un plan de préchauffage d’adresses IP, sélectionnez l’icône **[!UICONTROL Supprimer]** en regard du nom d’un plan et confirmez la suppression.

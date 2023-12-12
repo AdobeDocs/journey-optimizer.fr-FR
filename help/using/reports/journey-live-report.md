@@ -10,7 +10,7 @@ level: Intermediate
 exl-id: e3781f79-7c8d-4512-b44f-835639b1471f
 source-git-commit: 9245d6a93aaaa85bee56e2291a53ca7495b6ba9e
 workflow-type: tm+mt
-source-wordcount: '1344'
+source-wordcount: '1349'
 ht-degree: 100%
 
 ---
@@ -32,7 +32,7 @@ La page **[!UICONTROL Rapport dynamique]** sur les parcours s’affiche avec les
 
 * [Parcours](#journey-live)
 * [E-mail](#email-live)
-* [Push](#push-live)
+* [Notification push](#push-live)
 * [SMS](#sms-live)
 * [In-app](#in-app-live)
 
@@ -79,7 +79,7 @@ Le widget **[!UICONTROL Statistiques d’envoi des e-mails]** présente les prin
 
 * **[!UICONTROL Livrés]** : nombre de messages envoyés avec succès.
 
-* **[!UICONTROL Bounces]** : nombre total des erreurs comptabilisées lors de la diffusion et du traitement automatique des retours.
+* **[!UICONTROL Rebonds]** : nombre total des erreurs comptabilisées lors de la diffusion et du traitement automatique des retours.
 
 * **[!UICONTROL Erreurs]** : nombre total d’erreurs survenues au cours d’une diffusion, l’empêchant d’être envoyée à des profils.
 
@@ -89,7 +89,7 @@ Le tableau **[!UICONTROL Envoi de mesures par e-mail]** et le graphique **[!UICO
 
 * **[!UICONTROL Livrés]** : nombre de messages envoyés avec succès.
 
-* **[!UICONTROL Bounces]** : nombre total des erreurs comptabilisées lors de la diffusion et du traitement automatique des retours.
+* **[!UICONTROL Rebonds]** : nombre total des erreurs comptabilisées lors de la diffusion et du traitement automatique des retours.
 
 * **[!UICONTROL Erreurs]** : nombre total d’erreurs survenues au cours d’une diffusion, l’empêchant d’être envoyée à des profils.
 
@@ -103,9 +103,9 @@ Le tableau **[!UICONTROL Envoi de mesures par e-mail]** et le graphique **[!UICO
 
 Les widgets **[!UICONTROL Causes des bounces]**, **[!UICONTROL Catégories des bounces]** et **[!UICONTROL Hard bounce et bounce - par e-mail]** contiennent les données disponibles relatives aux messages ayant fait l&#39;objet d&#39;un rebond, notamment :
 
-* **[!UICONTROL Hard bounce]** : nombre total d’erreurs permanentes, telles qu’une adresse e-mail incorrecte. Un message d&#39;erreur indique explicitement que l&#39;adresse n&#39;est pas valide, comme Utilisateur inconnu.
+* **[!UICONTROL Rebond définitif]** : nombre total d’erreurs permanentes, telles qu’une adresse e-mail incorrecte. Un message d&#39;erreur indique explicitement que l&#39;adresse n&#39;est pas valide, comme Utilisateur inconnu.
 
-* **[!UICONTROL Soft bounces]** : nombre total d&#39;erreurs temporaires, telles qu&#39;une boîte de réception pleine.
+* **[!UICONTROL Rebond temporaire]** : nombre total d’erreurs temporaires, telles qu’une boîte de réception pleine.
 
 * **[!UICONTROL Ignorées]** : nombre total d&#39;erreurs temporaires (par exemple, Absent(e) du bureau) ou techniques (par exemple, si le type d&#39;expéditeur est administrateur).
 
@@ -140,7 +140,7 @@ Les widgets **[!UICONTROL Performances d’envoi des notifications push]**, **[!
 
 * **[!UICONTROL Livrés]** : nombre de messages envoyés avec succès.
 
-* **[!UICONTROL Bounces]** : nombre total des erreurs comptabilisées lors de la diffusion et du traitement automatique des retours.
+* **[!UICONTROL Rebonds]** : nombre total des erreurs comptabilisées lors de la diffusion et du traitement automatique des retours.
 
 * **[!UICONTROL Erreurs]** : nombre total d’erreurs survenues au cours d’une diffusion, l’empêchant d’être envoyée à des profils.
 
@@ -152,7 +152,7 @@ Les widgets **[!UICONTROL Performances d’envoi des notifications push]**, **[!
 
 Les graphiques et tableaux **[!UICONTROL Raisons de l&#39;erreur]** et **[!UICONTROL Exclure des raisons]** vous permettent de voir quelles erreurs et exclusions ont eu lieu au cours de votre diffusion.
 
-Le widget **[!UICONTROL Statistiques d’envoi - Échec]** vous permet de voir combien d’erreurs et de bounces se sont produits.
+Le widget **[!UICONTROL Statistiques d’envoi - Échec]** vous permet de voir combien d’erreurs et de rebonds se sont produits.
 
 Les graphiques et tableaux **[!UICONTROL Suivi par plateforme]**, **[!UICONTROL Envoi par plateforme]** et **[!UICONTROL Répartition par plateforme]** décrivent le succès de votre notification push en fonction du système opérationnel.
 +++
@@ -175,13 +175,13 @@ Le tableau **[!UICONTROL SMS - Statistiques d’envoi]** détaille la réussite 
 
 * **[!UICONTROL Clics]** : nombre de clics sur un contenu dans une diffusion.
 
-* **[!UICONTROL Bounces]** : nombre total des erreurs comptabilisées lors de la diffusion et du traitement automatique des retours.
+* **[!UICONTROL Rebonds]** : nombre total des erreurs comptabilisées lors de la diffusion et du traitement automatique des retours.
 
 * **[!UICONTROL Erreurs]** : nombre total d’erreurs survenues au cours d’une diffusion, l’empêchant d’être envoyée à des profils.
 
 Le graphique **[!UICONTROL Synthèse des SMS]** détaille la réussite de votre diffusion :
 
-* **[!UICONTROL Bounces]** : nombre total des erreurs comptabilisées lors de la diffusion et du traitement automatique des retours.
+* **[!UICONTROL Rebonds]** : nombre total des erreurs comptabilisées lors de la diffusion et du traitement automatique des retours.
 
 * **[!UICONTROL Erreurs]** : nombre total d’erreurs survenues au cours d’une diffusion, l’empêchant d’être envoyée à des profils.
 

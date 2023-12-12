@@ -9,7 +9,7 @@ keywords: count, fonction, expression, parcours
 exl-id: 6980c1ec-3afd-4fc9-ae10-76bcf7364a04
 source-git-commit: ad113c0414b20ac2f758ad06a44315b24a3d3d0c
 workflow-type: tm+mt
-source-wordcount: '56'
+source-wordcount: '57'
 ht-degree: 100%
 
 ---

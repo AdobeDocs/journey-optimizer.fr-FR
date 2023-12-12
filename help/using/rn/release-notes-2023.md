@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Notes de mise à jour 2023
+title: Notes de mise à jour 2023
 description: Notes de mise à jour 2023 pour Journey Optimizer
 feature: Release Notes
 topic: Content Management
@@ -11,7 +11,7 @@ exl-id: 61e6291f-c063-44a0-950c-8bb76de693f2
 source-git-commit: 001117b273355b18a2f429ed686c30afd6d99e89
 workflow-type: tm+mt
 source-wordcount: '4125'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 

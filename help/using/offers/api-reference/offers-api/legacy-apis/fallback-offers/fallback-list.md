@@ -15,7 +15,7 @@ ht-degree: 100%
 
 # Liste des offres de secours {#list-fallback-offers}
 
-Une offre de secours est envoyée aux clients s’ils ne sont pas éligibles à d’autres offres.. Les étapes de création d&#39;une offre de secours consistent à créer une ou plusieurs représentations, comme lors de la création d&#39;une offre.
+Une offre de secours est envoyée aux clients s’ils ne sont pas éligibles pour d’autres offres. Les étapes de création d&#39;une offre de secours consistent à créer une ou plusieurs représentations, comme lors de la création d&#39;une offre.
 
 Vous pouvez afficher une liste de toutes les offres de secours au sein d’un conteneur en adressant une seule requête GET à l’API [!DNL Offer Library].
 

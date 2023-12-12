@@ -11,7 +11,7 @@ keywords: destination, page de destination, création, page, formulaire, composa
 exl-id: 5bf023b4-4218-4110-b171-3e70e0507fca
 source-git-commit: cda4c1d88fedc75c7fded9971e45fdc9740346c4
 workflow-type: tm+mt
-source-wordcount: '1324'
+source-wordcount: '1308'
 ht-degree: 100%
 
 ---
@@ -87,7 +87,7 @@ Pour définir un contenu spécifique qui permettra aux utilisateurs et utilisatr
 
    * **[!UICONTROL Canal (e-mail)]** : le processus d’opt-in ou d’opt-out sʼapplique à l’ensemble du canal. Par exemple, si un profil qui se désinscrit possède deux adresses e-mail, celles-ci seront exclues de toutes vos communications.
 
-   * **[!UICONTROL Identité de lʼadresse e-mail]** : le processus d’opt-in ou d’opt-out ne sʼapplique quʼà lʼadresse e-mail utilisée pour accéder à la page de destination. Par exemple, si un profil comporte deux adresses e-mail, seule celle utilisée lors de lʼinscription recevra les communications de votre marque.
+   * **[!UICONTROL Identité de lʼadresse e-mail]** : le processus d’opt-in ou d’opt-out ne sʼapplique quʼà lʼadresse e-mail utilisée pour accéder à la page de destination. Par exemple, si un profil comporte deux adresses e-mail, seule celle utilisée lors de l’opt-in recevra les communications de votre marque.
 
 1. Cliquez sur **[!UICONTROL Ajouter un champ]** > **[!UICONTROL Case à cocher]** pour ajouter une autre case à cocher. Répétez les étapes ci-dessus pour définir ses propriétés.
 
@@ -126,7 +126,7 @@ Pour définir un contenu spécifique qui permettra aux utilisateurs et utilisatr
 
    ![](assets/lp_designer-form-error.png)
 
-1. Si vous souhaitez effectuer des mises à jour supplémentaires lors de la soumission du formulaire, sélectionnez **[!UICONTROL Inscription]** ou **[!UICONTROL Désinscription]** et définissez si vous souhaitez mettre à jour une liste d’abonnements, le canal ou uniquement l’adresse e-mail utilisée.
+1. Si vous souhaitez effectuer des mises à jour supplémentaires lors de l’envoi du formulaire, sélectionnez **[!UICONTROL Opt-in]** ou **[!UICONTROL Opt-out]** et définissez si vous souhaitez mettre à jour une liste d’abonnements, le canal ou uniquement l’adresse e-mail utilisée.
 
    ![](assets/lp_designer-form-additionnal-update.png)
 

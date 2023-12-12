@@ -11,8 +11,8 @@ keywords: gérer les campagnes, statut, planification, accès, optimizer
 exl-id: 1b88c84e-9d92-4cc1-b9bf-27a2f1d29569
 source-git-commit: b9630c922ff67b0a402af5f950ee4e5a442bb1b1
 workflow-type: tm+mt
-source-wordcount: '587'
-ht-degree: 97%
+source-wordcount: '588'
+ht-degree: 100%
 
 ---
 
@@ -38,7 +38,7 @@ Les campagnes peuvent avoir plusieurs statuts :
 
 * **[!UICONTROL Brouillon]** : la campagne est en cours de modification et n’est pas active.
 * **[!UICONTROL Activation]** : la campagne est en cours d’activation.
-* **[!UICONTROL Traitement]** *(campagnes par e-mail uniquement)*: l&#39;export de l&#39;audience est terminé, la campagne est en cours de publication.
+* **[!UICONTROL Traitement]** *(campagnes par e-mail uniquement)* : l’export de l’audience est terminé, la campagne est en cours de publication.
 * **[!UICONTROL Actif]** : la campagne est active.
 * **[!UICONTROL Planifié]** : la campagne a été configurée pour être activée à une date de début spécifique.
 * **[!UICONTROL Arrêté]** : la campagne a été arrêtée manuellement. Vous ne pouvez plus l’activer ni la réutiliser. [Découvrez comment arrêter une campagne.](modify-stop-campaign.md#stop)

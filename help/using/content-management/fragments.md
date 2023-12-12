@@ -10,8 +10,8 @@ level: Beginner, Intermediate
 exl-id: 7131a953-baca-4e7c-a8df-97c0bd6ac567
 source-git-commit: 08f3fc1837a4daa1ecaa7afcd53c80381177efb0
 workflow-type: tm+mt
-source-wordcount: '1596'
-ht-degree: 98%
+source-wordcount: '1569'
+ht-degree: 100%
 
 ---
 
@@ -39,7 +39,7 @@ Pour optimiser l’utilisation des fragments :
 
 >[!NOTE]
 >
->**Fragments visuels** peut être utilisé dans la variable [Concepteur d&#39;email](../email/get-started-email-design.md), alors que **fragment d’expression** sont accessibles par le biais du [Editeur d&#39;expression](../personalization/personalization-build-expressions.md).
+>Les **fragments visuels** peuvent être utilisés dans le [Concepteur d’email](../email/get-started-email-design.md), alors que les **fragments d’expression** sont accessibles par le biais de l’[Éditeur d’expression](../personalization/personalization-build-expressions.md).
 
 En outre, vous pouvez tirer parti de l’**API REST de contenu** Journey Optimizer pour gérer les fragments de contenu. Pour plus d’informations à ce sujet, consultez la [documentation relative aux API Journey Optimizer](https://developer.adobe.com/journey-optimizer-apis/references/content/){target="_blank"}.
 

@@ -10,8 +10,8 @@ level: Experienced
 keywords: liste autorisée, liste, sécurisé, configuration
 exl-id: 70ab8f57-c132-4de1-847b-11f0ab14f422
 source-git-commit: b4fda6a0bd3e633811c16ef6dc3a3171b3b350c8
-workflow-type: ht
-source-wordcount: '1165'
+workflow-type: tm+mt
+source-wordcount: '1143'
 ht-degree: 100%
 
 ---

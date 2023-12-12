@@ -8,19 +8,19 @@ exl-id: 3a1b6c61-82df-421c-98d8-2af4f2a5e0de
 source-git-commit: 85c700271b49150a8796d58748a2d78b20587ee1
 workflow-type: tm+mt
 source-wordcount: '356'
-ht-degree: 30%
+ht-degree: 78%
 
 ---
 
 # Documentation Adobe [!DNL Journey Optimizer] {#cjm-documentation}
 
-## Nouveautés ?
+## Nouveautés
 
-Découvrez les améliorations les plus récentes apportées au produit et à la documentation de Journey Optimizer. Pour obtenir une liste complète des fonctionnalités, des améliorations et des correctifs, consultez le [Notes de mise à jour](using/rn/release-notes.md). Tenez-vous au courant des dernières modifications apportées à notre documentation en consultant le [page mises à jour de la documentation](using/rn/documentation-updates.md).
+Découvrez les améliorations les plus récentes apportées au produit et à la documentation de Journey Optimizer. Pour obtenir une liste complète des fonctionnalités, des améliorations et des correctifs, consultez le [Notes de mise à jour](using/rn/release-notes.md). Tenez-vous au courant des dernières modifications apportées à notre documentation en consultant la [page des mises à jour de la documentation](using/rn/documentation-updates.md).
 
 >[!BEGINTABS]
 
->[!TAB Outils Sandbox]
+>[!TAB Outil Sandbox]
 
 L’outil Sandbox vous permet de copier des objets sur plusieurs sandbox en exploitant l’export et l’import de packages. Un package peut se composer d’un ou de plusieurs objets. Tous les objets inclus dans un package doivent provenir du même sandbox.
 
@@ -40,20 +40,20 @@ Avec le canal SMS, vous pouvez maintenant améliorer votre communication en envo
   <tr style="border: 0;">
     <td>
     <a href="using/start/quick-start.md"><img src="using/assets/do-not-localize/start-quick.png"></a>
-    <div><strong>Guides de démarrage rapide</strong><br/>Découvrez comment atteindre plus rapidement vos objectifs dans Journey Optimizer avec votre approche personnalisée en fonction de votre rôle.</div>
+    <div><strong>Guides de démarrage rapide</strong><br/>Découvrez comment atteindre plus rapidement vos objectifs dans Journey Optimizer en suivant une approche personnalisée en fonction de votre rôle.</div>
     </td>
     <td>
     <a href="using/start/user-interface.md"><img src="using/assets/do-not-localize/start-interface.jpeg"></a>
-    <div><strong>Interface utilisateur</strong><br/>Découvrez comment naviguer et optimiser votre expérience dans Journey Optimizer.</div>
+    <div><strong>Interface utilisateur</strong><br/>Découvrez comment naviguer dans Journey Optimizer afin d’optimiser votre expérience.</div>
     </td>
     <td>
     <a href="using/building-journeys/journey-gs.md"><img src="using/assets/do-not-localize/start-journey.jpeg"></a>
-    <div><strong>Création de votre premier parcours</strong><br/>Concevez et orchestrez des parcours omnicanaux personnalisés afin d’harmoniser la portée marketing avec l’engagement client individuel. 
+    <div><strong>Créez votre premier parcours</strong><br/>Concevez et orchestrez des parcours omnicanaux personnalisés afin d’harmoniser la portée marketing avec individuel vis-à-vis de chaque client et cliente. 
     </div>
     </td>
     <td>
     <a href="using/campaigns/create-campaign.md"><img src="using/assets/do-not-localize/start-campaign.jpeg"></a>
-    <div><strong>Lancer votre première campagne</strong><br/>Créez et démarrez votre première campagne dans Journey Optimizer pour diffuser du contenu ciblé et ponctuel vers une audience spécifique.</div>
+    <div><strong>Lancez votre première campagne</strong><br/>Créez et démarrez votre première campagne dans Journey Optimizer pour diffuser du contenu ciblé et ponctuel vers une audience spécifique.</div>
     </td>
   </tr>
   <tr style="border: 0;">
@@ -100,13 +100,13 @@ Avec le canal SMS, vous pouvez maintenant améliorer votre communication en envo
 ## Ressources supplémentaires
 
 <table style="table-layout:fixed"><tr style="border: 0;">
-<td><strong>Adobe Journey Optimizer</strong><br/>
-<a href="https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/overview.html?lang=fr" target="_blank">Tutorials</a> - <a href="https://helpx.adobe.com/fr/legal/product-descriptions/adobe-journey-optimizer.html" target="_blank">Description du produit</a> - <a href="https://www.adobe.com/content/dam/cc/en/security/pdfs/AJO_SecurityOverview.pdf" target="_blank">Présentation de la sécurité (PDF)</a> - <a href="https://developer.adobe.com/journey-optimizer-apis/" target="_blank">Référence des API</a>
+<td><strong>Adobe Journey Optimizer</strong><br/>
+<a href="https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/overview.html?lang=fr" target="_blank">Tutoriels</a> - <a href="https://helpx.adobe.com/fr/legal/product-descriptions/adobe-journey-optimizer.html" target="_blank">Description du produit</a> - <a href="https://www.adobe.com/content/dam/cc/en/security/pdfs/AJO_SecurityOverview.pdf" target="_blank">Vue d’ensemble de la sécurité (PDF)</a> - <a href="https://developer.adobe.com/journey-optimizer-apis/" target="_blank">Référence des API</a>
 </td>
-<td><strong>Adobe Experience Platform</strong><br/>
-<a href="https://experienceleague.adobe.com/docs/experience-platform/landing/home.html?lang=fr" target="_blank">Documentation</a> - <a href="https://www.adobe.com/fr/experience-platform/documentation-and-developer-resources.html" target="_blank">Ressources pour les développeurs</a>
+<td><strong>Adobe Experience Platform</strong><br/>
+<a href="https://experienceleague.adobe.com/docs/experience-platform/landing/home.html?lang=fr" target="_blank">Documentation</a> - <a href="https://www.adobe.com/fr/experience-platform/documentation-and-developer-resources.html" target="_blank">Ressources destinées aux développeurs</a>
 </td>
 </tr></table>
 
 <table style="table-layout:auto"><tr style="border: 0;"><td><img src="using/assets/do-not-localize/newsletter.png"></td><td>
-<b>Tenez-vous informé et validez votre expérience Adobe Journey Optimizer !</b><br/>Inscrivez-vous à notre newsletter trimestrielle. Profitez d’un accès exclusif aux dernières mises à jour de produits, aux articles captivants, aux cas pratiques réels, à des conseils précieux, etc., le tout directement remis à votre boîte de réception tous les trimestres. <a href="https://www.adobe.com/subscription/Adobe_Journey_Optimizer_NL.html">Inscrivez-vous aujourd'hui !</a></td></tr></table>
+<b>Tenez-vous informé et validez votre expérience Adobe Journey Optimizer !</b><br/>Inscrivez-vous à notre newsletter trimestrielle. Profitez d’un accès exclusif aux dernières mises à jour de produits, à des articles captivants, à des cas d’utilisation réels, à des conseils précieux, etc., le tout directement depuis votre boîte de réception tous les trimestres. <a href="https://www.adobe.com/subscription/Adobe_Journey_Optimizer_NL.html">Inscrivez-vous dès aujourd'hui !</a></td></tr></table>

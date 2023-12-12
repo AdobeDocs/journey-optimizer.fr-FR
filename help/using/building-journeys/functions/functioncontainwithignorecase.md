@@ -5,12 +5,12 @@ description: En savoir plus sur la fonction containIgnoreCase
 feature: Journeys
 role: Data Engineer, Architect
 level: Experienced
-keywords: containIgnoreCasefonction, expression, parcours
+keywords: containIgnoreCase, fonction, expression, parcours
 exl-id: 26074584-a215-4515-8a61-7460bd9d4447
 source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
 workflow-type: tm+mt
 source-wordcount: '52'
-ht-degree: 100%
+ht-degree: 92%
 
 ---
 

@@ -5,12 +5,12 @@ description: En savoir plus sur la fonction toDateOnly
 feature: Journeys
 role: Data Engineer, Architect
 level: Experienced
-keywords: toDateOnlyfonction, expression, parcours
+keywords: toDateOnly, fonction, expression, parcours
 exl-id: 1929644f-8b51-4f95-aea5-627fc1dd115d
 source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
 workflow-type: tm+mt
 source-wordcount: '100'
-ht-degree: 100%
+ht-degree: 96%
 
 ---
 

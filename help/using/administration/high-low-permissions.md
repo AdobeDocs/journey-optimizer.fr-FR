@@ -1,8 +1,8 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Niveaux d'autorisation
-description: En savoir plus sur les autorisations de haut et de bas niveau permettant aux utilisateurs et utilisatrices d’accéder aux différentes fonctionnalités.
+title: Niveaux d’autorisation
+description: Découvrez les autorisations de niveau supérieur et inférieur qui permettent aux utilisateurs d’accéder aux différentes fonctionnalités.
 topic: Administration
 feature: Access Management
 role: Admin, Architect, Developer
@@ -10,9 +10,9 @@ level: Experienced
 keywords: autorisation, haut niveau, bas niveau, profil, admin console
 exl-id: 1b286f9d-43ef-4b80-b4ee-136da857bb95
 source-git-commit: b4998f62d5cc5fa134271ec5ce8c177150472a30
-workflow-type: ht
-source-wordcount: '1126'
-ht-degree: 100%
+workflow-type: tm+mt
+source-wordcount: '1040'
+ht-degree: 98%
 
 ---
 
@@ -398,7 +398,7 @@ Par exemple, le rôle **[!DNL Journey administrator]** se voit attribuer lʼauto
 
 +++
 
-* L’autorisation de haut niveau **[!DNL Manage suppression]** permet aux utilisateurs et utilisatrices de définir le nombre de bounces avant l’ajout d’une adresse e-mail à la liste de suppression, ainsi que d’ajouter et de supprimer des entrées dans la liste de suppression.
+* L’autorisation de haut niveau **[!DNL Manage suppression]** permet aux utilisateurs et utilisatrices de définir le nombre de rebonds avant l’ajout d’une adresse e-mail à la liste de suppression, ainsi que d’ajouter et de supprimer des entrées dans la liste de suppression.
 
 +++ Elle comprend les autorisations de bas niveau suivantes :
    * Spécifiques à Journey Optimizer :

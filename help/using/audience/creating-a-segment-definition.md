@@ -10,8 +10,8 @@ level: Beginner
 exl-id: 289aac5d-6cdb-411f-985e-3acef58050a8
 source-git-commit: 3de42084d849047f218cf8dca2ad7e510759fb1c
 workflow-type: tm+mt
-source-wordcount: '401'
-ht-degree: 91%
+source-wordcount: '397'
+ht-degree: 100%
 
 ---
 
@@ -58,7 +58,7 @@ Dans cet exemple, nous allons créer une audience pour cibler tous les clientes 
 
      >[!NOTE]
      >
-     >Adobe recommande de ne pas utiliser les événements d’ouverture et d’envoi avec la segmentation par flux. Utilisez plutôt des signaux d’activité utilisateur réels tels que des clics, des achats ou des données de balise. Pour la logique de fréquence ou de suppression, utilisez des règles métier plutôt que d’envoyer des événements. [En savoir plus](about-audiences.md#open-and-send-event-guardrails)
+     >Adobe recommande de ne pas utiliser les événements d’ouverture et d’envoi avec la segmentation par streaming. Utilisez plutôt les signaux d’activité des utilisateurs et utilisatrices, tels que les clics, les achats ou les données de balise. Pour la logique de fréquence ou de suppression, utilisez des règles métier plutôt que des événements d’envoi. [En savoir plus](about-audiences.md#open-and-send-event-guardrails)
 
 1. À mesure que vous ajoutez et configurez de nouveaux champs dans l’espace de travail, le volet **[!UICONTROL Propriétés d’audience]** est automatiquement mis à jour avec des informations sur l’estimation des profils appartenant à l’audience.
 

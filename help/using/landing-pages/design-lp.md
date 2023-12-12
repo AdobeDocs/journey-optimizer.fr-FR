@@ -24,7 +24,7 @@ Pour commencer à créer du contenu pour la [page principale](create-lp.md#confi
 
 Plusieurs possibilités sʼoffrent alors à vous :
 
-* **Concevez votre page de destination à partir de rien** dans lʼinterface du concepteur de contenu et tirez parti des images provenant dʼ[Adobe Experience Manager Assets ](../content-management/assets.md). Découvrez comment concevoir le contenu de vos <!--or use built-in templates--> [dans cette section](../email/content-from-scratch.md).
+* **Concevez votre page de destination en partant de zéro** dans lʼinterface du concepteur de contenu et tirez parti des images provenant dʼ[Adobe Experience Manager Assets](../content-management/assets.md). Découvrez comment concevoir le contenu de vos <!--or use built-in templates--> [dans cette section](../email/content-from-scratch.md).
 
 * **Codez ou collez du code HTML brut** directement dans le concepteur de contenu. Découvrez comment coder votre propre contenu [dans cette section](../email/code-content.md).
 

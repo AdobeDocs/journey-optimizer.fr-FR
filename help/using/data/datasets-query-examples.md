@@ -11,7 +11,7 @@ keywords: jeu de données, optimizer, cas d’utilisation
 exl-id: 26ba8093-8b6d-4ba7-becf-b41c9a06e1e8
 source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
 workflow-type: tm+mt
-source-wordcount: '850'
+source-wordcount: '847'
 ht-degree: 100%
 
 ---
@@ -134,7 +134,7 @@ Recherchez la liste de tous les ID d’e-mails individuels qui ont eu une erreur
 SELECT _experience.customerjourneymanagement.emailchannelcontext.address AS emailid, _experience.customerjourneymanagement.messagedeliveryfeedback.feedbackstatus AS status, _experience.customerjourneymanagement.messagedeliveryfeedback.messagefailure.reason AS failurereason, _experience.customerjourneymanagement.messagedeliveryfeedback.messagefailure.type AS bouncetype FROM cjm_message_feedback_event_dataset WHERE _experience.customerjourneymanagement.messageprofile.channel._id = 'https://ns.adobe.com/xdm/channels/email' AND _experience.customerjourneymanagement.messagedeliveryfeedback.feedbackstatus != 'sent' AND TIMESTAMP >= now() - INTERVAL '10' HOUR AND _experience.customerjourneymanagement.messageexecution.messageexecutionid = 'BMA-45237824' ORDER BY emailid
 ```
 
-Taux de hard bounce au niveau agrégé :
+Taux de rebond définitif au niveau agrégé :
 
 ```sql
 select hardBounceCount, case when sentCount > 0 then(hardBounceCount/sentCount)*100.0 else 0 end as hardBounceRate from ( select SUM( CASE WHEN _experience.customerJourneyManagement.messageDeliveryfeedback.feedbackStatus = 'bounce' AND _experience.customerJourneyManagement.messageDeliveryfeedback.messageFailure.type = 'Hard' THEN 1 ELSE 0 END)AS hardBounceCount , SUM( CASE WHEN _experience.customerJourneyManagement.messageDeliveryfeedback.feedbackStatus = 'sent' THEN 1 ELSE 0 END )AS sentCount from cjm_message_feedback_event_dataset WHERE _experience.customerjourneymanagement.messageprofile.channel._id = 'https://ns.adobe.com/xdm/channels/email' )
@@ -148,7 +148,7 @@ SELECT _experience.customerjourneymanagement.messagedeliveryfeedback.messagefail
 
 ### Identifier les adresses en quarantaine après une panne du FAI{#isp-outage-query}
 
-En cas de panne du fournisseur d’accès à Internet (FAI), vous devez identifier les adresses e-mail qui ont été considérées incorrectement comme bounces (mises en quarantaine) pour des domaines spécifiques et pendant une période donnée. Pour obtenir ces adresses, utilisez la requête suivante :
+En cas de panne du fournisseur d’accès à Internet (FAI), vous devez identifier les adresses e-mail qui ont été considérées incorrectement comme des rebonds (mises en quarantaine) pour des domaines spécifiques et pendant une période donnée. Pour obtenir ces adresses, utilisez la requête suivante :
 
 ```sql
 SELECT

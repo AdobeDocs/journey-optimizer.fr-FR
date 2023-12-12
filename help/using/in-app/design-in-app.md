@@ -8,8 +8,8 @@ level: Beginner
 keywords: in-app, message, conception, mise en forme
 exl-id: 7d7aa721-96aa-4ebc-a51c-e693f893f34f
 source-git-commit: 4899dbe71243184b6283a32a4fe7eb2edb82f872
-workflow-type: ht
-source-wordcount: '1147'
+workflow-type: tm+mt
+source-wordcount: '1148'
 ht-degree: 100%
 
 ---
@@ -171,7 +171,7 @@ Si le **[!UICONTROL Mode de formatage avancé]** est activé, vous pouvez choisi
 
 +++
 
-## Paramètres  onglet {#settings-tab}
+## Onglet Paramètres {#settings-tab}
 
 Dans l’onglet **Paramètres**, vous pouvez définir la disposition du message et prévisualiser votre message in-app. Vous pouvez également accéder à des options de formatage avancé.
 

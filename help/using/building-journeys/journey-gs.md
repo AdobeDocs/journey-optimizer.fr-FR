@@ -11,8 +11,8 @@ keywords: parcours, premier, commencer, démarrage rapide, audience, événement
 exl-id: d940191e-8f37-4956-8482-d2df0c4274aa
 source-git-commit: a6b2c1585867719a48f9abc4bf0eb81558855d85
 workflow-type: tm+mt
-source-wordcount: '1732'
-ht-degree: 100%
+source-wordcount: '1752'
+ht-degree: 99%
 
 ---
 
@@ -126,7 +126,7 @@ La fonction **Copier les détails techniques** permet de copier les informations
 
 ![](assets/journey32.png)
 
-### Entrée et reprise {#entrance}
+### Entrée et rentrée {#entrance}
 
 Par défaut, les nouveaux parcours autorisent la reprise. Vous pouvez désélectionner l’option **Autoriser la reprise** pour les parcours « uniques », par exemple, si vous souhaitez offrir un cadeau unique à un utilisateur ou une utilisatrice qui effectue sa première visite dans la boutique.
 

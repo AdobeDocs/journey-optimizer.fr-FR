@@ -9,7 +9,7 @@ keywords: max, fonction, expression, parcours
 exl-id: 5c792d33-32b9-4b1b-ab99-3ebfac391678
 source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
 workflow-type: tm+mt
-source-wordcount: '96'
+source-wordcount: '98'
 ht-degree: 100%
 
 ---

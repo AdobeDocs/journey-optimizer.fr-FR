@@ -11,7 +11,7 @@ keywords: configuration, parcours, tableau de bord, sources de données, événe
 exl-id: c144d44f-031f-4ca2-800e-d3878af400a5
 source-git-commit: b8065a68ed73102cb2c9da2c2d2675ce8e5fbaad
 workflow-type: tm+mt
-source-wordcount: '411'
+source-wordcount: '405'
 ht-degree: 100%
 
 ---

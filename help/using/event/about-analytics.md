@@ -2,7 +2,7 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Intégration d’Adobe Analytics
-description: Découvrez comment exploiter les données d’Adobe Analytics. dans Journey Optimizer
+description: Découvrez comment exploiter les données Adobe Analytics dans Journey Optimizer
 feature: Journeys, Events, Reporting, Integrations
 topic: Administration
 role: Data Engineer, Data Architect, Admin
@@ -11,8 +11,8 @@ keywords: analytics, intégration, sdk web, platform
 exl-id: 9d842722-e5eb-4743-849d-b7ba9448062f
 source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
 workflow-type: tm+mt
-source-wordcount: '768'
-ht-degree: 100%
+source-wordcount: '753'
+ht-degree: 98%
 
 ---
 

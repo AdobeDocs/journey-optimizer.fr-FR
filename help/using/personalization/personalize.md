@@ -12,7 +12,7 @@ exl-id: f448780b-91bc-455e-bf10-9a9aee0a0b24
 source-git-commit: 9ac8a3ddad165f728c09baacb9d380d4611fd58a
 workflow-type: tm+mt
 source-wordcount: '412'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -56,7 +56,7 @@ En outre, vous pouvez également tirer parti des **attributs calculés** pour pe
 
 [!DNL Journey Optimizer] fournit un éditeur d’expression dans lequel vous sélectionnez, organisez, personnalisez et validez toutes les données afin de personnaliser le contenu.
 
-Plusieurs outils sont disponibles pour vous aider à créer votre contenu de personnalisation, tels que : fonctions de felper, bibliothèque d’expressions prédéfinies, attributs favorisant l’écriture, etc.
+Plusieurs outils sont disponibles pour vous aider à créer votre contenu de personnalisation (fonctions d’assistance, bibliothèque d’expressions prédéfinies, favorisation d’attributs, etc.).
 
 En savoir plus sur l’éditeur d’expression de [!DNL Journey Optimizer] dans [cette section](personalization-build-expressions.md).
 

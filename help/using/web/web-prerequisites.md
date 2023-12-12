@@ -8,7 +8,7 @@ level: Experienced
 exl-id: 9509fd67-6d12-4440-aad8-59690936be97
 source-git-commit: 4899dbe71243184b6283a32a4fe7eb2edb82f872
 workflow-type: tm+mt
-source-wordcount: '1058'
+source-wordcount: '971'
 ht-degree: 100%
 
 ---
@@ -146,4 +146,4 @@ Si vous n’utilisez **pas** les [groupes de champs](https://experienceleague.ad
 
 ## Domaines de marque pour les ressources {#branded-domains-for-assets}
 
-Lors de la création d’expériences web, si vous ajoutez du contenu provenant de la bibliothèque d’[Adobe Experience Manager Assets ](../content-management/assets.md), vous devez configurer le sous-domaine qui sera utilisé pour publier ce contenu. [En savoir plus](web-delegated-subdomains.md)
+Lors de la création d’expériences web, si vous ajoutez du contenu provenant de la bibliothèque d’[Adobe Experience Manager Assets](../content-management/assets.md), vous devez configurer le sous-domaine qui sera utilisé pour publier ce contenu. [En savoir plus](web-delegated-subdomains.md)

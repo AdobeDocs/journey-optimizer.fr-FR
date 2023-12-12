@@ -9,8 +9,8 @@ role: User
 level: Intermediate
 exl-id: c5bae757-a109-45f8-bf8d-182044a73cca
 source-git-commit: b4fda6a0bd3e633811c16ef6dc3a3171b3b350c8
-workflow-type: ht
-source-wordcount: '1078'
+workflow-type: tm+mt
+source-wordcount: '1032'
 ht-degree: 100%
 
 ---
@@ -62,7 +62,7 @@ Découvrez comment gérer les désinscriptions des e-mails et des SMS de Journey
 
 ## Implémenter le consentement de personnalisation {#opt-out-personalization}
 
-Vos clientes et clients peuvent également refuser la présentation de contenus personnalisés. Une fois qu’un profil a refusé la personnalisation, vous devez vous assurer que ses données ne sont pas utilisées pour celle-ci. Vous devez en outre remplacer tout contenu personnalisé par une variante de secours.
+Vos clientes et clients peuvent également refuser (opt-out) la présentation de contenus personnalisés. Une fois qu’un profil a refusé la personnalisation, vous devez vous assurer que ses données ne sont pas utilisées pour celle-ci. Vous devez en outre remplacer tout contenu personnalisé par une variante de secours.
 
 ### Dans la gestion des décisions {#opt-out-decision-management}
 

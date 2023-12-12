@@ -10,7 +10,7 @@ keywords: platform, lac de données, créer, lac, jeux de données, profil
 exl-id: 66b5c691-ddc4-4e9b-9386-2ce6c307451c
 source-git-commit: d4ecfecdc74c26890658d68d352c36b75f7c9039
 workflow-type: tm+mt
-source-wordcount: '988'
+source-wordcount: '906'
 ht-degree: 100%
 
 ---
@@ -49,7 +49,7 @@ Découvrez dans le tableau ci-dessous quels jeux de données Journey Optimizer 
 | Jeu de données d’entité AJO | Jeu de données permettant de stocker les métadonnées des entités pour les messages envoyés aux utilisateurs finaux.  | Prime |
 | Jeu de données d’événement d’activité entrante AJO | Jeu de données pour les canaux web et in-app Journey Optimizer pour les événements de diffusion et d’interaction. | Prime |
 | Jeu de données de profil de messagerie interactive AJO | Stocke les profils créés pour prendre en charge les campagnes déclenchées par l’API | Prime |
-| Jeu de données d’événement de retour de message AJO | Logs de diffusion des messages. Informations sur toutes les diffusions de messages à partir de Journey Optimizer à des fins de création de rapports et d’audiences. Les commentaires des FAI de messagerie sur les bounces sont également enregistrés dans ce jeu de données. | Prime |
+| Jeu de données d’événement de retour de message AJO | Logs de diffusion des messages. Informations sur toutes les diffusions de messages à partir de Journey Optimizer à des fins de création de rapports et d’audiences. Les commentaires des FAI de messagerie sur les rebonds sont également enregistrés dans ce jeu de données. | Prime |
 | Extension de compteurs de profils AJO | Contient un mappage d’objets contenant counter_value et expirationDate, masqué par counter_id | Prime |
 | Jeu de données de profil push AJO | Stocke les jetons push d’un profil. | Prime |
 | Jeu de données d’événement d’expérience de tracking de notification push AJO | Logs d’interaction pour le canal Notification push utilisé à des fins de création de rapports et d’audiences.  | Prime |

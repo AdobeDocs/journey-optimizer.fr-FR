@@ -9,7 +9,7 @@ keywords: getListItem, fonction, expression, parcours
 exl-id: e995f479-bbaa-45f3-9531-e05680c5a723
 source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
 workflow-type: tm+mt
-source-wordcount: '94'
+source-wordcount: '98'
 ht-degree: 100%
 
 ---

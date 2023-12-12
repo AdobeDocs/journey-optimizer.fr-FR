@@ -11,8 +11,8 @@ keywords: destination, page de destination, création, publication
 exl-id: 18f9bdff-f5c6-4601-919d-4f3124e484b5
 source-git-commit: 27447578dad6bd2612989d79cd0dc8ddbe78d629
 workflow-type: tm+mt
-source-wordcount: '1785'
-ht-degree: 100%
+source-wordcount: '1716'
+ht-degree: 99%
 
 ---
 
@@ -264,7 +264,7 @@ Les alertes s’affichent en haut à droite de l’écran, comme illustré ci-de
 
 Deux types d’alertes peuvent avoir lieu :
 
-* Les **avertissements** se rapportent aux recommandations et aux bonnes pratiques. <!--For example, a message will display if -->
+* **Avertissements** se référer aux recommandations et bonnes pratiques. <!--For example, a message will display if -->
 
 * Les **erreurs** vous empêchent de publier la page de destination tant qu’elles ne sont pas corrigées. Par exemple, un avertissement s’affiche si l’URL de la page principale est manquante.
 

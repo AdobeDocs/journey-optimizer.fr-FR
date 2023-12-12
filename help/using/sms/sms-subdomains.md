@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Configuration de sous-domaines pour les messages texte (SMS/MMS)
+title: Configurer des sous-domaines pour les messages texte (SMS/MMS)
 description: Découvrez comment configurer des sous-domaines SMS avec Journey Optimizer
 role: Admin
 feature: SMS, Channel Configuration
@@ -11,7 +11,7 @@ exl-id: 08a546d1-060c-43e8-9eac-4c38945cc3e1
 source-git-commit: 227cdb77b0db40c59fa089789c444c2364fd062e
 workflow-type: tm+mt
 source-wordcount: '741'
-ht-degree: 72%
+ht-degree: 100%
 
 ---
 
@@ -20,12 +20,12 @@ ht-degree: 72%
 >[!CONTEXTUALHELP]
 >id="ajo_admin_subdomain_sms_header"
 >title="Déléguer un sous-domaine SMS/MMS"
->abstract="Configurez votre sous-domaine pour les SMS (SMS/MMS). Vous pouvez utiliser un sous-domaine déjà délégué à l’Adobe ou configurer un nouveau sous-domaine."
+>abstract="Configurez votre sous-domaine pour les messages texte (SMS/MMS). Vous pouvez utiliser un sous-domaine déjà délégué à Adobe ou en configurer un nouveau."
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_subdomain_sms"
 >title="Déléguer un sous-domaine SMS/MMS"
->abstract="Vous devez configurer un sous-domaine à utiliser pour vos messages texte, car vous avez besoin de ce sous-domaine pour créer une surface SMS. Vous pouvez utiliser un sous-domaine déjà délégué à Adobe ou configurer un nouveau sous-domaine."
+>abstract="Vous devez configurer un sous-domaine dédié aux messages texte, car vous en aurez besoin pour créer une surface SMS. Vous pouvez utiliser un sous-domaine déjà délégué à Adobe ou en configurer un nouveau."
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/sms/sms-configuration.html?lang=fr#message-preset-sms" text="Créer des surfaces SMS"
 
 >[!CONTEXTUALHELP]
@@ -34,22 +34,22 @@ ht-degree: 72%
 >abstract="Avant de créer une surface SMS, vous devez déjà avoir configuré au moins un sous-domaine SMS, que vous pouvez sélectionner dans la liste des noms de sous-domaines."
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/sms/sms-configuration.html?lang=fr#message-preset-sms" text="Créer des surfaces SMS"
 
-Pour pouvoir raccourcir les URL ajoutées à vos SMS/MMS, vous devez configurer le sous-domaine que vous allez sélectionner lors de la [création d&#39;une surface SMS](sms-configuration.md#message-preset-sms).
+Avant de raccourcir les URL ajoutées à vos SMS/MMS, vous devez configurer le sous-domaine qui sera sélectionné lors de la [création d’une surface SMS](sms-configuration.md#message-preset-sms).
 
 Vous pouvez utiliser un sous-domaine déjà délégué à Adobe ou en configurer un autre. En savoir plus sur la délégation de sous-domaines à Adobe dans [cette section](../configuration/delegate-subdomain.md).
 
 >[!CAUTION]
 >
->* La configuration du sous-domaine SMS est partagée entre tous les environnements. Par conséquent, toute modification apportée à un sous-domaine SMS a également un impact sur d’autres environnements de test de production.
+>* La configuration de sous-domaines SMS est partagée entre tous les environnements. Par conséquent, toute modification apportée à un sous-domaine aura également un impact sur les sandbox de production.
 >
->* Pour accéder aux sous-domaines SMS et les modifier, vous devez disposer de la variable **[!UICONTROL Gestion des sous-domaines SMS]** autorisation sur l’environnement de test de production. Pour en savoir plus sur les autorisations, consultez [cette section](../administration/high-low-permissions.md).
+>* Pour accéder aux sous-domaines SMS et les modifier, vous devez disposer de l’autorisation **[!UICONTROL Gestion des sous-domaines SMS]** dans le sandbox de production. Pour en savoir plus sur les autorisations, consultez [cette section](../administration/high-low-permissions.md).
 >
 
 ## Utiliser un sous-domaine existant {#sms-use-existing-subdomain}
 
 Pour utiliser un sous-domaine déjà délégué à Adobe, procédez comme suit.
 
-1. Accédez au **[!UICONTROL Administration]** > **[!UICONTROL Canaux]** et sélectionnez **[!UICONTROL Configuration des SMS]** > **[!UICONTROL Sous-domaines SMS]**.
+1. Accédez au menu **[!UICONTROL Administration]** > **[!UICONTROL Canaux]**, puis sélectionnez **[!UICONTROL Configuration des SMS]** > **[!UICONTROL Sous-domaines SMS]**.
 
    ![](assets/sms_access-subdomains.png)
 
@@ -102,7 +102,7 @@ Pour utiliser un sous-domaine déjà délégué à Adobe, procédez comme suit.
 
 Pour configurer un nouveau sous-domaine, procédez comme suit :
 
-1. Accédez au **[!UICONTROL Administration]** > **[!UICONTROL Canaux]** , puis sélectionnez **[!UICONTROL Configuration des SMS]** > **[!UICONTROL Sous-domaines SMS]**.
+1. Accédez au menu **[!UICONTROL Administration]** > **[!UICONTROL Canaux]**, puis sélectionnez **[!UICONTROL Configuration des SMS]** > **[!UICONTROL Sous-domaines SMS]**.
 
 1. Cliquez sur **[!UICONTROL Configurer un sous-domaine]**.
 
@@ -136,6 +136,6 @@ Pour configurer un nouveau sous-domaine, procédez comme suit :
 
 1. Une fois la délégation de sous-domaine envoyée, le sous-domaine s&#39;affiche dans la liste avec le statut **[!UICONTROL Traitement]**. Pour en savoir plus sur les statuts des sous-domaines, consultez [cette section](../configuration/about-subdomain-delegation.md#access-delegated-subdomains).<!--Same statuses?-->
 
-Avant d’utiliser un sous-domaine pour envoyer des SMS, vous devez attendre que l’Adobe effectue les vérifications requises, qui peuvent prendre jusqu’à 4 heures.<!--Learn more in [this section](#subdomain-validation).--> Une fois les vérifications effectuées, le sous-domaine reçoit la valeur **[!UICONTROL Succès]** statut. Vous pouvez à présent l’utiliser pour créer des surfaces de canal SMS.
+Avant de pouvoir utiliser un sous-domaine pour envoyer des messages SMS, vous devez attendre qu’Adobe effectue les vérifications nécessaires, ce qui peut prendre jusqu’à 4 heures.<!--Learn more in [this section](#subdomain-validation).-->Une fois les vérifications effectuées, le sous-domaine obtient le statut **[!UICONTROL Succès]**. Vous pouvez à présent l’utiliser pour créer des surfaces de canal SMS.
 
 Le statut du sous-domaine sera marqué comme en **[!UICONTROL Échec]** si la création de lʼenregistrement de validation sur votre solution dʼhébergement nʼa pas réussi.

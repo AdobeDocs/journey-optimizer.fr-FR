@@ -9,7 +9,7 @@ keywords: now, fonction, expression, parcours
 exl-id: 16dcc772-e48d-4f10-be75-62dd39473556
 source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
 workflow-type: tm+mt
-source-wordcount: '53'
+source-wordcount: '62'
 ht-degree: 100%
 
 ---

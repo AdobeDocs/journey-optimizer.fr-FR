@@ -11,14 +11,14 @@ keywords: destination, page de destination, cas d’utilisation
 exl-id: 8c00d783-54a3-45d9-bd8f-4dc58804d922
 source-git-commit: 8579acfa881f29ef3947f6597dc11d4c740c3d68
 workflow-type: tm+mt
-source-wordcount: '968'
+source-wordcount: '942'
 ht-degree: 100%
 
 ---
 
 # Cas d’utilisation de pages de destination {#lp-use-cases}
 
-Retrouvez ci-dessous quelques exemples sur la façon dont vous pouvez utiliser les pages de destination de [!DNL Journey Optimizer] afin que vos clients puissent sʼinscrire/se désinscrire de lʼenvoi de certaines ou de toutes vos communications.
+Retrouvez ci-dessous quelques exemples sur la façon dont vous pouvez utiliser les pages de destination de [!DNL Journey Optimizer] afin que vos clientes et clients puissent donner leur opt-in ou opt-out concernant la réception de certaines ou de toutes vos communications.
 
 ## Abonnement à un service {#subscription-to-a-service}
 

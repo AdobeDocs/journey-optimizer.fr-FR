@@ -11,7 +11,7 @@ keywords: parcours, limitation
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
 source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
 workflow-type: tm+mt
-source-wordcount: '511'
+source-wordcount: '512'
 ht-degree: 100%
 
 ---
@@ -35,7 +35,7 @@ Voici les limitations liées à l&#39;utilisation des parcours.
 * La règle de reprise doit être la même dans toutes les versions du parcours.
 * Un parcours commençant par une **lecture d’audience** ne peut pas commencer par un autre événement dans les versions suivantes.
 
-## Actions personnalisées  limitations {#custom-actions-limitations}
+## Limites des actions personnalisées {#custom-actions-limitations}
 
 * L’URL de l’action personnalisée ne prend pas en charge les paramètres dynamiques. 
 * Seules les méthodes d’appel POST et PUT sont prises en charge. 
@@ -47,7 +47,7 @@ Voici les limitations liées à l&#39;utilisation des parcours.
 
 * En ce qui concerne les événements générés par le système, les données de diffusion en continu utilisées pour initier un parcours client doivent d’abord être configurées dans Journey Optimizer pour obtenir un identifiant d’orchestration unique. Cet identifiant d’orchestration doit être ajouté à la payload de diffusion en continu entrant dans Adobe Experience Platform. Cette limitation ne s’applique pas aux événements basés sur une règle.
 
-## Sources de données  limitations {#data-sources-limitations}
+## Limites des sources de données {#data-sources-limitations}
 
 * Les sources de données externes peuvent être exploitées au cours d’un parcours client pour consulter des données externes en temps réel.Ces sources doivent être utilisables via l’API REST, prendre en charge JSON et être en mesure de gérer le volume de requêtes.
 

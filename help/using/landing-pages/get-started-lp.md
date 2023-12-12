@@ -11,7 +11,7 @@ keywords: destination, page de destination, commencer, prise en main
 exl-id: 0da96e32-52ad-4cc3-bac4-844b1f39ed16
 source-git-commit: 8579acfa881f29ef3947f6597dc11d4c740c3d68
 workflow-type: tm+mt
-source-wordcount: '208'
+source-wordcount: '209'
 ht-degree: 100%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 100%
 
 Une page de destination est une page web autonome sur laquelle l’utilisateur arrive après avoir cliqué sur un lien présent dans un e-mail, un site Web, une publicité ou tout autre emplacement numérique.
 
-[!DNL Journey Optimizer] vous permet de créer et de concevoir des pages de destination afin de diriger vos utilisateurs vers des formulaires en ligne, à partir desquels ils pourront s’inscrire ou se désinscrire de lʼenvoi de vos communications, ainsi que s’abonner à un service spécifique, par exemple une newsletter.
+[!DNL Journey Optimizer] vous permet de créer et de concevoir des pages de destination afin de diriger vos utilisateurs ou utilisatrices vers des formulaires en ligne, à partir desquels ils ou elles pourront donner leur opt-in ou opt-out pour lʼenvoi de vos communications, ainsi que s’abonner à un service spécifique, par exemple une newsletter.
 
 ➡️ [En savoir plus sur la configuration des abonnements et la création des pages de destination dans cette vidéo.](#video)
 

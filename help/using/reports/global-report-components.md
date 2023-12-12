@@ -9,8 +9,8 @@ role: User
 level: Intermediate
 exl-id: c487bb38-49ce-4238-8e94-8364f994cedd
 source-git-commit: 82b8c9032d6c377cb76acce4d5cc45afb0ddd6ba
-workflow-type: ht
-source-wordcount: '1100'
+workflow-type: tm+mt
+source-wordcount: '1106'
 ht-degree: 100%
 
 ---
@@ -100,7 +100,7 @@ Les tableaux ci-dessous contiennent la liste des mesures utilisées dans les dif
    <td> Nombre de profils qui ont été exclus par Adobe Journey Optimizer.<br/> </td> 
 </tr>
   <tr> 
-   <td> Hard bounce<br/> </td> 
+   <td> Rebond définitif<br/> </td> 
    <td> Le nombre total d’erreurs permanentes, telles qu’une adresse e-mail incorrecte. Un message d'erreur indique explicitement que l'adresse n'est pas valide, comme Utilisateur inconnu.<br/> </td>
 </tr>
   <tr> 
@@ -144,7 +144,7 @@ Les tableaux ci-dessous contiennent la liste des mesures utilisées dans les dif
    <td> Nombre total d’envois pour la diffusion.<br/> </td> 
 </tr>
   <tr> 
-   <td> Soft bounce<br/> </td> 
+   <td> Rebond temporaire<br/> </td> 
    <td> Nombre total d’erreurs temporaires, telles qu’une boîte de réception pleine.<br/> </td> 
 </tr>
   <tr> 
@@ -376,7 +376,7 @@ Les tableaux ci-dessous contiennent la liste des mesures utilisées dans les dif
  </thead> 
  <tbody>
  <tr> 
-  <td>Bounces<br/> </td> 
+  <td>Rebonds<br/> </td> 
    <td>Nombre de personnes qui n’ont pas interagi avec la page de destination et n’ont pas effectué l’action d’inscription.<br/> </td> 
 </tr>
  <tr> 

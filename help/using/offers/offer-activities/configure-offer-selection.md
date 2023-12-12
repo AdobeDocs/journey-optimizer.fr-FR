@@ -8,8 +8,8 @@ level: Intermediate
 exl-id: 8c7135d7-bf5a-4671-afdf-afec60907a56
 source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
 workflow-type: tm+mt
-source-wordcount: '446'
-ht-degree: 100%
+source-wordcount: '447'
+ht-degree: 96%
 
 ---
 
@@ -40,7 +40,7 @@ Découvrez comment créer une formule de classement dans [cette section](../rank
 
 Après avoir créé une formule, vous pouvez l’affecter à un emplacement dans une décision. Pour ce faire, procédez comme suit :
 
-1. Créez une décision ou modifiez une décision existante. Voir la section [Créer des décisions](../offer-activities/create-offer-activities.md).
+1. Créez une décision ou modifiez une décision existante. Voir [Création de décisions](../offer-activities/create-offer-activities.md).
 
 1. Ajoutez les emplacements qui contiendront vos offres. Voir [Créer des emplacements](../offer-library/creating-placements.md).
 
@@ -66,7 +66,7 @@ Vous pouvez également utiliser un système de modèles formés qui classe autom
 
 Une fois un modèle d’IA créé, affectez-le à un emplacement dans une décision. Pour ce faire, procédez comme suit :
 
-1. Créez une décision ou modifiez une décision existante. Voir la section [Créer des décisions](../offer-activities/create-offer-activities.md).
+1. Créez une décision ou modifiez une décision existante. Voir [Création de décisions](../offer-activities/create-offer-activities.md).
 
 1. Ajoutez les emplacements qui contiendront vos offres. Voir [Créer des emplacements](../offer-library/creating-placements.md).
 

@@ -11,8 +11,8 @@ keywords: stock, images, intégration, photos
 exl-id: 0715f65f-04bd-4dc2-a152-98111f4c42e6
 source-git-commit: 4899dbe71243184b6283a32a4fe7eb2edb82f872
 workflow-type: tm+mt
-source-wordcount: '584'
-ht-degree: 98%
+source-wordcount: '569'
+ht-degree: 100%
 
 ---
 
@@ -30,7 +30,7 @@ Avec [!DNL Adobe Journey Optimizer], vous pouvez charger des images dans vos e-m
 
 Les options **[!UICONTROL Trouver des photos Adobe Stock]** et **[!UICONTROL Rechercher une image similaire]** sont disponibles pour les utilisateurs ayant accès à un profil de produit AEM Assets Essentials.
 
-Voir à ce sujet la section [Documentation Experience Manager Assets](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/get-started-admins/deploy-administer.html?lang=fr#add-users-to-essentials){target="_blank"}.
+Pour en savoir plus à ce sujet, consultez la [documentation d’Experience Manager Assets](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/get-started-admins/deploy-administer.html?lang=fr#add-users-to-essentials){target="_blank"}.
 
 ## Insérer une image depuis [!DNL Adobe Stock] {#add-stock-image}
 

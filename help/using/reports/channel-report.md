@@ -9,8 +9,8 @@ role: User
 level: Intermediate
 exl-id: ead9359b-cdab-43ed-a469-d98b0ca19a17
 source-git-commit: 3f9d85dc77d3c572b1bad751646153874a5584c8
-workflow-type: ht
-source-wordcount: '2664'
+workflow-type: tm+mt
+source-wordcount: '2665'
 ht-degree: 100%
 
 ---
@@ -33,7 +33,7 @@ Vous pouvez accéder aux rapports au niveau des canaux en accédant au menu **Ra
 La page Rapport s’affiche avec les onglets suivants :
 
 * [E-mail](#email)
-* [Notification push Notifications](#push)
+* [Notifications push](#push)
 * [SMS](#sms)
 * [In-app](#inapp)
 * [Web](#web)
@@ -163,13 +163,13 @@ Le graphique **[!UICONTROL Statistiques de suivi des e-mails dans le temps]** co
 
 Les widgets **[!UICONTROL Raisons de rebond]** et **[!UICONTROL Catégories de rebond]** contiennent les données disponibles relatives aux messages de rebond, telles que :
 
-* **[!UICONTROL Hard bounce]** : nombre total d’erreurs permanentes, telles qu’une adresse e-mail incorrecte. Un message d&#39;erreur indique explicitement que l&#39;adresse n&#39;est pas valide, comme Utilisateur inconnu.
+* **[!UICONTROL Rebond définitif]** : nombre total d’erreurs permanentes, telles qu’une adresse e-mail incorrecte. Un message d&#39;erreur indique explicitement que l&#39;adresse n&#39;est pas valide, comme Utilisateur inconnu.
 
-* **[!UICONTROL Soft bounces]** : nombre total d&#39;erreurs temporaires, telles qu&#39;une boîte de réception pleine.
+* **[!UICONTROL Rebond temporaire]** : nombre total d’erreurs temporaires, telles qu’une boîte de réception pleine.
 
 * **[!UICONTROL Ignorées]** : nombre total d&#39;erreurs temporaires (par exemple, Absent(e) du bureau) ou techniques (par exemple, si le type d&#39;expéditeur est administrateur).
 
-Pour plus d&#39;informations sur les bounces, consultez la page [Liste de suppression](../reports/suppression-list.md).
+Pour plus d’informations sur les rebonds, consultez la page [Liste de suppression](../reports/suppression-list.md).
 
 Le graphique et le tableau **[!UICONTROL Causes des erreurs]** vous permettent de voir quelle erreur s’est produite.
 
@@ -358,7 +358,7 @@ Le widget **[!UICONTROL SMS - Statistiques d’envoi totales dans le temps]** d�
 
 * **[!UICONTROL Erreurs]** : nombre total d’erreurs survenues, l’empêchant d’être envoyé à des profils.
 
-Les graphiques et tableaux **[!UICONTROL Raisons de l’exclusion]**, **[!UICONTROL Causes des bounces]** et **[!UICONTROL Causes des erreurs]** vous permettent de voir quelles erreurs et exclusions ont eu lieu.
+Les graphiques et tableaux **[!UICONTROL Raisons de l’exclusion]**, **[!UICONTROL Causes des rebonds]** et **[!UICONTROL Causes des erreurs]** vous permettent de voir quelles erreurs et exclusions ont eu lieu.
 
 +++
 

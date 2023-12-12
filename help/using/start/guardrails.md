@@ -10,8 +10,8 @@ level: Intermediate
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
 source-git-commit: 661ddb52e5264b5970a520bd27db0a81d5de4b7e
 workflow-type: tm+mt
-source-wordcount: '1730'
-ht-degree: 98%
+source-wordcount: '1752'
+ht-degree: 100%
 
 ---
 
@@ -47,10 +47,10 @@ L&#39;interface d&#39;Adobe [!DNL Journey Optimizer] est conçue pour fonctionne
 * La synchronisation des commentaires des messages n’est actuellement pas disponible pour les MMS.
 * La gestion du consentement fonctionne au niveau du canal SMS pour les MMS.
 
-## Barrières de sécurité des fragments {#fragments-guardrails}
+## Mécanismes de sécurisation des fragments {#fragments-guardrails}
 
-* Les fragments visuels ne sont disponibles que pour le canal Email.
-* Les fragments d&#39;expression ne sont pas disponibles pour les canaux Web et In-App.
+* Les fragments visuels ne sont disponibles que pour le canal E-mail.
+* Les fragments d’expression ne sont pas disponibles pour les canaux Web et In-app.
 
 ## Mécanismes de sécurisation des parcours {#journeys-guardrails}
 

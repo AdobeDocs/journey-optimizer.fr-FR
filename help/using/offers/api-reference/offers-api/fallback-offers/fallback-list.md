@@ -8,14 +8,14 @@ level: Experienced
 exl-id: dd95c040-d905-4f5a-8cc5-58e39082e57e
 source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
 workflow-type: tm+mt
-source-wordcount: '218'
+source-wordcount: '214'
 ht-degree: 100%
 
 ---
 
 # Liste des offres de secours {#list-fallback-offers}
 
-Une offre de secours est envoyée aux clients s’ils ne sont pas éligibles à d’autres offres.. Les étapes de création d&#39;une offre de secours consistent à créer une ou plusieurs représentations, comme lors de la création d&#39;une offre.
+Une offre de secours est envoyée aux clients s’ils ne sont pas éligibles pour d’autres offres. Les étapes de création d&#39;une offre de secours consistent à créer une ou plusieurs représentations, comme lors de la création d&#39;une offre.
 
 Vous pouvez afficher une liste de toutes les offres de secours en adressant une seule requête GET à l’API [!DNL Offer Library].
 

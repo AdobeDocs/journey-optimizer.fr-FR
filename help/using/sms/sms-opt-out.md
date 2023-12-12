@@ -1,8 +1,8 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Gestion des opt-out pour les messages texte
-description: Découvrez comment gérer l’exclusion avec les messages SMS/MMS
+title: Gestion des droits d’opposition pour les messages texte
+description: Découvrez comment gérer les droits d’opposition avec les messages SMS/MMS.
 feature: SMS
 topic: Content Management
 role: User
@@ -11,11 +11,11 @@ exl-id: 59ea67d9-e90c-4ad0-afb9-d0e0fd868855
 source-git-commit: 31c3ed854b38e287850895176f8416bc62739cb0
 workflow-type: tm+mt
 source-wordcount: '452'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
-# Gestion des opt-out pour les messages texte {#sms-opt-out}
+# Gestion des droits d’opposition pour les messages texte {#sms-opt-out}
 
 Conformément aux normes et réglementations du secteur, tous les messages SMS de marketing doivent contenir un moyen permettant aux destinataires de se désabonner facilement. [En savoir plus sur la gestion de la confidentialité et de la désinscription](../privacy/opt-out.md)
 
@@ -35,7 +35,7 @@ Aucune opération n’est nécessaire pour s’assurer que les fonctionnalités 
 
 ## Listes bloquées {#sms-blocklists}
 
-En fonction du statut de désinscription, Adobe Journey Optimizer arrêtera l’envoi des messages (pour les intégrations directes à Twilio ou Sinch). De plus, la plupart des fournisseurs de passerelles SMS tiennent également à jour une liste bloquée, vous garantissant ainsi qu’aucun SMS ne sera envoyé à une personne qui a choisi de se désinscrire. Si vous utilisez un fournisseur autre que Sinch ou Twilio et que vous envoyez un SMS par le biais d’un [canal personnalisé](../building-journeys/using-custom-actions.md), vous devez le confirmer auprès de votre fournisseur.
+En fonction du statut d&#39;opt-out, Adobe Journey Optimizer arrêtera l’envoi des messages (pour les intégrations directes à Twilio ou Sinch). De plus, la plupart des fournisseurs de passerelles SMS tiennent à jour une liste bloquée, vous garantissant ainsi qu’aucun SMS ne sera envoyé à une personne qui a choisi l’opt-out. Si vous utilisez un fournisseur autre que Sinch ou Twilio et que vous envoyez un SMS par le biais d’un [canal personnalisé](../building-journeys/using-custom-actions.md), vous devez le confirmer auprès de votre fournisseur.
 
 
 ## Codes courts {#short-codes}
@@ -46,7 +46,7 @@ Cependant, Journey Optimizer prend en charge les désinscriptions globales bas�
 
 ## ID d’expéditeur alphanumérique {#alphanumeric}
 
-Les ID d’expéditeur alphanumériques peuvent uniquement envoyer des SMS. Ils ne peuvent pas recevoir de messages entrants. Par conséquent, les mots-clés SMS STOP, START, HELP d’Adobe Journey Optimizer ne s’appliquent pas aux ID d’expéditeur alphanumériques. Dès lors, vous devez fournir d’autres instructions aux utilisateurs pour la désinscription des SMS. Par exemple, en leur offrant la possibilité d’écrire à l’équipe d’assistance, d’appeler un numéro d’aide ou d’envoyer un SMS à un autre numéro ou code.
+Les ID d’expéditeur alphanumériques peuvent uniquement envoyer des SMS. Ils ne peuvent pas recevoir de messages entrants. Par conséquent, les mots-clés SMS STOP, START, HELP d’Adobe Journey Optimizer ne s’appliquent pas aux ID d’expéditeur alphanumériques. Dès lors, vous devez fournir d’autres instructions aux utilisateurs et utilisatrices pour l’opt-out de SMS. Par exemple, en leur offrant la possibilité d’écrire à l’équipe d’assistance, d’appeler un numéro d’aide ou d’envoyer un SMS à un autre numéro ou code.
 
 ## Vidéo {#video-sms}
 

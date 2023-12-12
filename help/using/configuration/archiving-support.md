@@ -11,7 +11,7 @@ keywords: archive, messages, HIPAA, CCI, e-mails
 exl-id: 186a5044-80d5-4633-a7a7-133e155c5e9f
 source-git-commit: 8579acfa881f29ef3947f6597dc11d4c740c3d68
 workflow-type: tm+mt
-source-wordcount: '1137'
+source-wordcount: '1131'
 ht-degree: 100%
 
 ---
@@ -73,7 +73,7 @@ Cependant, l’adresse en Cci est sélectionnée pour l’envoi de communication
 
 * Comme les messages peuvent contenir des données sensibles ou privées, telles que des informations d’identification personnelle (PII), vérifiez que l’adresse en Cci est correcte et sécurisez l’accès aux messages.
 
-* Votre boîte de réception utilisée pour la fonctionnalité Cci doit être correctement gérée pour l’espace et la diffusion. Si la boîte de réception renvoie des bounces, certains e-mails peuvent ne pas être reçus et ne seront donc pas archivés.
+* Votre boîte de réception utilisée pour la fonctionnalité Cci doit être correctement gérée pour l’espace et la diffusion. Si la boîte de réception renvoie des rebonds, il se peut que certains e-mails n’aient pas été reçus et ils ne seront donc pas archivés.
 
 * Les messages peuvent être envoyés à l’adresse e-mail en Cci avant les destinataires cibles. Les messages en Cci peuvent également être envoyés même si les messages d’origine peuvent avoir fait l’objet de [rebonds](../reports/suppression-list.md#delivery-failures).
 

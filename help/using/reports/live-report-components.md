@@ -63,7 +63,7 @@ Les tableaux ci-dessous contiennent la liste des mesures utilisées dans les dif
  </thead> 
  <tbody>
   <tr> 
-   <td> Bounces<br/> </td> 
+   <td> Rebonds<br/> </td> 
    <td> Nombre total d’erreurs comptabilisées lors de la diffusion et du traitement automatique des retours.<br/> </td> 
 </tr> 
   <tr> 
@@ -95,7 +95,7 @@ Les tableaux ci-dessous contiennent la liste des mesures utilisées dans les dif
    <td> Nombre de profils qui ont été exclus par Adobe Journey Optimizer.<br/> </td> 
 </tr>
   <tr> 
-   <td> Hard bounce<br/> </td> 
+   <td> Rebond définitif<br/> </td> 
    <td> Le nombre total d’erreurs permanentes, telles qu’une adresse e-mail incorrecte. Un message d'erreur indique explicitement que l'adresse n'est pas valide, comme Utilisateur inconnu.<br/> </td>
 </tr>
   <tr> 
@@ -139,7 +139,7 @@ Les tableaux ci-dessous contiennent la liste des mesures utilisées dans les dif
    <td> Nombre total d’envois pour la diffusion.<br/> </td> 
 </tr>
   <tr> 
-   <td> Soft bounce<br/> </td> 
+   <td> Rebond temporaire<br/> </td> 
    <td> Nombre total d’erreurs temporaires, telles qu’une boîte de réception pleine.<br/> </td> 
 </tr>
   <tr> 
@@ -180,7 +180,7 @@ Les tableaux ci-dessous contiennent la liste des mesures utilisées dans les dif
  </thead> 
  <tbody>
  <tr> 
-  <td>Bounces<br/> </td> 
+  <td>Rebonds<br/> </td> 
    <td>Nombre de personnes qui n’ont pas interagi avec la page de destination et n’ont pas effectué l’action d’inscription.<br/> </td> 
 </tr>
  <tr>

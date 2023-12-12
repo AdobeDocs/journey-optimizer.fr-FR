@@ -11,8 +11,8 @@ keywords: qualification, événements, audience, parcours, platform
 exl-id: 7e70b8a9-7fac-4450-ad9c-597fe0496df9
 source-git-commit: 3de42084d849047f218cf8dca2ad7e510759fb1c
 workflow-type: tm+mt
-source-wordcount: '1004'
-ht-degree: 96%
+source-wordcount: '987'
+ht-degree: 100%
 
 ---
 
@@ -83,7 +83,7 @@ La payload contient les informations contextuelles suivantes, utilisables dans d
 * l’horodatage de la qualification
 * l’ID de l’audience
 
-Lorsque vous utilisez l’éditeur d’expression dans une condition ou une action qui suit une activité de **[!UICONTROL qualification d’audience]**, vous avez accès au nœud **[!UICONTROL SegmentQualification]**. Vous pouvez choisir entre **[!UICONTROL l’heure de la dernière qualification]** et le **[!UICONTROL statut]** (entrée ou sortie).
+Lorsque vous utilisez l’éditeur d’expression dans une condition ou une action qui suit une activité de **[!UICONTROL qualification d’audience]**, vous avez accès au nœud **[!UICONTROL AudienceQualification]**. Vous pouvez choisir entre **[!UICONTROL l’heure de la dernière qualification]** et le **[!UICONTROL statut]** (entrée ou sortie).
 
 Voir [Activité de condition](../building-journeys/condition-activity.md#about_condition).
 
@@ -107,9 +107,9 @@ De plus, si l’audience par lots est créée et utilisée immédiatement dans u
 
 Lors de l’utilisation de la qualification d’audience pour les audiences en flux continu, il y a moins de risque d’obtenir d’importants pics d’entrées/sorties en raison de l’évaluation continue de l’audience. Néanmoins, si la définition de l’audience conduit à qualifier un grand nombre de clientes et clients en même temps, un pic peut également se produire.
 
-Évitez d’utiliser des événements d’ouverture et d’envoi avec la segmentation par flux. Utilisez plutôt des signaux d’activité utilisateur réels tels que des clics, des achats ou des données de balise. Pour la logique de fréquence ou de suppression, utilisez des règles métier plutôt que d’envoyer des événements. [En savoir plus](../audience/about-audiences.md#open-and-send-event-guardrails)
+Évitez d’utiliser des événements d’ouverture et d’envoi avec la segmentation par flux. Utilisez plutôt les signaux d’activité des utilisateurs et utilisatrices, tels que les clics, les achats ou les données de balise. Pour la logique de fréquence ou de suppression, utilisez des règles métier plutôt que des événements d’envoi. [En savoir plus](../audience/about-audiences.md#open-and-send-event-guardrails)
 
-Pour plus d’informations sur la segmentation en flux continu, consultez la [documentation d’Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/segmentation/api/streaming-segmentation.html?lang=fr#api).
+Pour plus d’informations sur la segmentation par flux, consultez la [documentation d’Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/segmentation/api/streaming-segmentation.html?lang=fr#api).
 
 ### Éviter les surcharges{#overloads-speed-segment-qualification}
 

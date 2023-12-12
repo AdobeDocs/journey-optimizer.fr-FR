@@ -11,8 +11,8 @@ keywords: canal, surface, technique, paramètres, optimizer
 exl-id: 9038528f-3da0-4e0e-9b82-b72c67b42391
 source-git-commit: 8db5ae5b3cbef245dfe7cd11a95355c072bc3ef8
 workflow-type: tm+mt
-source-wordcount: '1626'
-ht-degree: 100%
+source-wordcount: '1624'
+ht-degree: 99%
 
 ---
 
@@ -95,7 +95,7 @@ Pour créer une surface de canal, procédez comme suit :
 
 1. Une fois la surface de canal créée, elle s&#39;affiche dans la liste avec le statut **[!UICONTROL Traitement]**.
 
-   Au cours de cette étape, plusieurs vérifications seront effectuées afin de vérifier qu’elle a été correctement configurée. <!--The processing time is around **48h-72h**, and can take up to **7-10 business days**.-->
+   Au cours de cette étape, plusieurs vérifications seront effectuées afin de vérifier qu’il a été correctement configuré. <!--The processing time is around **48h-72h**, and can take up to **7-10 business days**.-->
 
    >[!NOTE]
    > Lors de la création d’une surface d’e-mail pour un sous-domaine, le temps de traitement varie comme décrit ci-dessous :

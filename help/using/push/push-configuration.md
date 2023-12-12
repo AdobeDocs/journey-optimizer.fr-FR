@@ -9,7 +9,7 @@ level: Intermediate
 exl-id: 7099d44e-5d5d-4eef-9477-f68f4eaa1983
 source-git-commit: 03c714833930511fa734662b637d2416728073c2
 workflow-type: tm+mt
-source-wordcount: '1609'
+source-wordcount: '1544'
 ht-degree: 100%
 
 ---
@@ -116,7 +116,7 @@ La configuration technique implique une collaboration étroite entre le dévelop
 
 Suivez les étapes de mise en œuvre présentées dans les liens ci-dessous :
 
-* Pour **Apple iOS** : découvrez comment enregistrer votre application auprès du service APNs dans la [Documentation Apple](https://developer.apple.com/documentation/usernotifications/registering_your_app_with_apns).{target="_blank"}
+* Pour **Apple iOS** : découvrez comment enregistrer votre application avec des APNs dans la [documentation Apple](https://developer.apple.com/documentation/usernotifications/registering_your_app_with_apns){target="_blank"}.
 * Pour **Google Android** : découvrez comment configurer une application cliente Firebase Cloud Messaging sur Android dans la [Documentation Google](https://firebase.google.com/docs/cloud-messaging/android/client).{target="_blank"}
 
 ### Intégration de votre application mobile au SDK Adobe Experience Platform {#integrate-mobile-app}

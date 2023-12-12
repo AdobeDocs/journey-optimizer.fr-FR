@@ -9,8 +9,8 @@ level: Intermediate
 exl-id: 700dc66e-ae2d-418f-b75e-ece15af57ab3
 source-git-commit: 4899dbe71243184b6283a32a4fe7eb2edb82f872
 workflow-type: tm+mt
-source-wordcount: '715'
-ht-degree: 98%
+source-wordcount: '709'
+ht-degree: 100%
 
 ---
 
@@ -46,7 +46,7 @@ Rassemblez les workflows marketing et créatifs à l’aide de [!DNL Adobe Exper
 
 [!DNL Adobe Experience Manager Assets] est accessible directement depuis [!DNL Adobe Journey Optimizer] via la section **[!UICONTROL Ressources]** du menu de gauche.
 
-En savoir plus sur [JOURNEY OPTIMIZER + ADOBE EXPERIENCE MANAGER ASSETS](../content-management/assets.md).
+En savoir plus sur [Journey Optimizer + Adobe Experience Manager Assets](../content-management/assets.md).
 
 
 ## Adobe Stock {#integration-stock}

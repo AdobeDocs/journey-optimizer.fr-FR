@@ -11,7 +11,7 @@ keywords: destination, page de destination, liste, abonnement, service
 exl-id: 5e5419a0-5121-4aa7-a975-b1f08e2918c9
 source-git-commit: f63f9d6ffd28d276f8a3dadbf8dc6b947b8331e7
 workflow-type: tm+mt
-source-wordcount: '447'
+source-wordcount: '442'
 ht-degree: 100%
 
 ---
@@ -76,7 +76,7 @@ Voici les statuts possibles :
 * **[!UICONTROL En direct]** : le jour en cours est compris entre les dates de début et de fin de la liste d’abonnements, ou vous n’avez pas défini de dates de fin/début, ce qui signifie que la liste d’abonnements est toujours active.
 * **[!UICONTROL Expirée]** : la date de fin est dépassée, la liste dʼabonnements nʼest donc plus valide. Tout profil abonné ne recevra plus de communications relatives à cette liste dʼabonnements.
 
-Une fois la liste dʼabonnements créée, vous pouvez lʼutiliser dans une page de destination. Les profils inscrits par le biais du formulaire de la page de destination seront ajoutés à la liste. [En savoir plus](design-lp.md)
+Une fois la liste dʼabonnements créée, vous pouvez lʼutiliser dans une page de destination. Les profils qui donnent leur opt-in par le biais du formulaire de la page de destination seront ajoutés à la liste. [En savoir plus](design-lp.md)
 
 Vous pouvez également utiliser les listes d’abonnements comme des audiences lorsque vous [créez des parcours](../building-journeys/journey-gs.md#jo-build) et ajoutez de la personnalisation.
 

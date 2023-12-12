@@ -10,8 +10,8 @@ level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
 source-git-commit: 25c63b7bd602446df0ada9a0e7aedb752f10892e
 workflow-type: tm+mt
-source-wordcount: '4174'
-ht-degree: 98%
+source-wordcount: '4216'
+ht-degree: 100%
 
 ---
 
@@ -22,9 +22,9 @@ Cette page répertorie toutes les mises à jour de la documentation d&#39;[!DNL 
 ## Novembre 2023 {#nov-2023}
 
 * Le mécanisme de sécurisation qui limite toutes les actions personnalisées a été modifié de 150 000 appels de plus de 30 secondes à 300 000 appels de plus d’une minute. En outre, la limitation par défaut ne s’applique plus à chaque point d’entrée. Elle est désormais effectuée par hôte et par sandbox. Par exemple, sur un sandbox, si vous avez deux points d’entrée avec le même hôte (par exemple, `https://www.adobe.com/endpoint1` et `https://www.adobe.com/endpoint2`), la limitation s’applique à tous les points d’entrée sous l’hôte adobe.com. Le point d’entrée 1 et le point d’entrée 2 partagent la même configuration de limitation. En outre, le fait qu’un point d’entrée atteigne la limite a un impact sur l’autre point d’entrée. [En savoir plus](../action/about-custom-action-configuration.md)
-* Un nouvel état pour les campagnes par e-mail a été ajouté à la liste des statuts des campagnes. [En savoir plus](../campaigns/modify-stop-campaign.md#campaign-statuses-and-alerts-statuses)
-* La section Prise en main des audiences Adobe Experience Platform a été mise à jour afin de prendre en compte les méthodes d’évaluation d’audience disponibles et de savoir comment les sélectionner. [En savoir plus](../audience/about-audiences.md#evaluation-method-in-journey-optimizer)
-* Une nouvelle sous-section a été ajoutée pour spécifier les événements à éviter lors de la création de votre audience si vous utilisez la méthode d’évaluation de la segmentation par flux. [En savoir plus](../audience/about-audiences.md#streaming-segmentation-events-guardrails)
+* Un nouveau statut pour les campagnes par e-mail a été ajouté à la liste des statuts des campagnes. [En savoir plus](../campaigns/modify-stop-campaign.md#campaign-statuses-and-alerts-statuses)
+* La section Commencer avec les audiences Adobe Experience Platform a été mise à jour afin de prendre en compte les méthodes d’évaluation des audiences disponibles et de savoir comment les sélectionner. [En savoir plus](../audience/about-audiences.md#evaluation-method-in-journey-optimizer)
+* Une nouvelle sous-section a été ajoutée pour spécifier les événements à éviter lors de la création de votre audience si vous utilisez la méthode d’évaluation de la segmentation par streaming. [En savoir plus](../audience/about-audiences.md#streaming-segmentation-events-guardrails)
 
 ## Octobre 2023 {#oct-2023}
 
@@ -92,7 +92,7 @@ Cette page répertorie toutes les mises à jour de la documentation d&#39;[!DNL 
 * Toutes les nouvelles fonctionnalités et améliorations de la version [!DNL Journey Optimizer] du 23 mai ont été présentées dans la documentation. [En savoir plus](release-notes.md).
 * Une nouvelle page a été ajoutée pour décrire comment configurer le sous-domaine qui sera utilisé pour publier du contenu provenant d’Adobe Experience Manager Assets Essentials dans vos expériences web. [En savoir plus](../web/web-delegated-subdomains.md).
 * Une nouvelle sous-section a été ajoutée pour expliquer comment ajouter des paramètres de tracking personnalisés aux URL dans le concepteur d’e-mail. [En savoir plus](../email/message-tracking.md#url-tracking).
-* Une nouvelle section a été ajoutée pour décrire comment garantir le respect du choix de vos clientes et clients qui refusent l’utilisation de leurs données de profil pour la personnalisation. [En savoir plus](../privacy/opt-out.md#opt-out-personalization).
+* Une nouvelle section a été ajoutée pour décrire comment garantir le respect du choix de vos clientes et clients qui refusent (opt-out) l’utilisation de leurs données de profil pour la personnalisation. [En savoir plus](../privacy/opt-out.md#opt-out-personalization).
 * Un note a été ajoutée sur l’utilisation de caractères internationaux spéciaux dans les URL incluses dans les contenus d’e-mail. [En savoir plus](../email/message-tracking.md#insert-links).
 * L’autorisation nécessaire pour tester et publier des pages de destination a été ajoutée. [En savoir plus](../landing-pages/create-lp.md).
 * Une note a été ajoutée au sujet des points d’entrée Adobe Experience Platform nécessaires pour que vos événements personnalisés soient pris en compte dans le capping de la fréquence de la gestion des décisions. [En savoir plus](../offers/data-collection/schema-requirement.md#track-custom-events).

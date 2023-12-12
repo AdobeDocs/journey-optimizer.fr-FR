@@ -11,8 +11,8 @@ keywords: créer, optimizer, campagne, surface, messages
 exl-id: 617d623c-e038-4b5b-a367-5254116b7815
 source-git-commit: a6b2c1585867719a48f9abc4bf0eb81558855d85
 workflow-type: tm+mt
-source-wordcount: '967'
-ht-degree: 100%
+source-wordcount: '960'
+ht-degree: 99%
 
 ---
 
@@ -71,7 +71,7 @@ Pour créer une campagne, accédez au menu **[!UICONTROL Campagnes]**, puis cliq
 
 1. Pour attribuer des étiquettes d’utilisation des données personnalisées ou de base à la campagne, cliquez sur le bouton **[!UICONTROL Gérer l’accès]**. [En savoir plus sur le contrôle d’accès au niveau de l’objet (OLA)](../administration/object-based-access.md)
 
-## Créer le message et configurer le suivi {#content}
+## Créer le message et configurer le tracking {#content}
 
 Dans la section **[!UICONTROL Actions]**, créez le message à envoyer avec la campagne :
 

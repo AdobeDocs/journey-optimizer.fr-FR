@@ -10,7 +10,7 @@ level: Intermediate
 exl-id: 925494b6-e08a-4bd3-8a2f-96a5d9cbc387
 source-git-commit: 03c714833930511fa734662b637d2416728073c2
 workflow-type: tm+mt
-source-wordcount: '2063'
+source-wordcount: '2095'
 ht-degree: 100%
 
 ---
@@ -31,7 +31,7 @@ La page **[!UICONTROL Rapport dynamique]** de la campagne s&#39;affiche avec les
 * [Campagne](#campaign-live)
 * [E-mail](#email-live)
 * [In-app](#inapp-live)
-* [Push](#push-live)
+* [Notification push](#push-live)
 * [SMS](#sms-live)
 * [Web](#web-tab)
 * [Publipostage direct](#direct-mail-tab)
@@ -130,9 +130,9 @@ Le tableau **[!UICONTROL Mesures d’envoi par e-mail]** et le graphique **[!UIC
 
 Les widgets **[!UICONTROL Raisons de rebond]** et **[!UICONTROL Catégories de rebond]** contiennent les données disponibles relatives aux messages de rebond, telles que :
 
-* **[!UICONTROL Hard bounce]** : nombre total d’erreurs permanentes, telles qu’une adresse e-mail incorrecte. Un message d&#39;erreur indique explicitement que l&#39;adresse n&#39;est pas valide, comme Utilisateur inconnu.
+* **[!UICONTROL Rebond définitif]** : nombre total d’erreurs permanentes, telles qu’une adresse e-mail incorrecte. Un message d&#39;erreur indique explicitement que l&#39;adresse n&#39;est pas valide, comme Utilisateur inconnu.
 
-* **[!UICONTROL Soft bounces]** : nombre total d&#39;erreurs temporaires, telles qu&#39;une boîte de réception pleine.
+* **[!UICONTROL Rebond temporaire]** : nombre total d’erreurs temporaires, telles qu’une boîte de réception pleine.
 
 * **[!UICONTROL Ignorées]** : nombre total d&#39;erreurs temporaires (par exemple, Absent(e) du bureau) ou techniques (par exemple, si le type d&#39;expéditeur est administrateur).
 
@@ -230,7 +230,7 @@ Les widgets **[!UICONTROL Notification push - Performances d’envoi]**, **[!UIC
 
 Les graphiques et tableaux **[!UICONTROL Causes d’erreur]** et **[!UICONTROL Motifs d’exclusion]** vous permettent de voir quelles erreurs et exclusions ont eu lieu au cours de la procédure d’envoi.
 
-Le widget **[!UICONTROL Statistiques d’envoi - Échec]** vous permet de voir combien d’erreurs et de bounces se sont produits.
+Le widget **[!UICONTROL Statistiques d’envoi - Échec]** vous permet de voir combien d’erreurs et de rebonds se sont produits.
 
 Les graphiques et tableaux **[!UICONTROL Suivi par plateforme]**, **[!UICONTROL Envoi par plateforme]** et **[!UICONTROL Répartition par plateforme]** décrivent le succès de votre notification push en fonction du système opérationnel.
 +++

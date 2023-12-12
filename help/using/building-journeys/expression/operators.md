@@ -10,7 +10,7 @@ keywords: expression, syntaxe, opérateurs, éditeur, parcours
 exl-id: 706e2e02-9bd9-46e7-a73d-dda3c9ae4ba8
 source-git-commit: f4068450dde5f85652096c09e7f817dbab40a3d8
 workflow-type: tm+mt
-source-wordcount: '516'
+source-wordcount: '531'
 ht-degree: 100%
 
 ---
@@ -172,7 +172,7 @@ Exemple :
 
 >[!NOTE]
 >
->Pour &lt;expression1> et &lt;expression2> il n’existe aucun contrôle de type de données.
+Pour &lt;expression1> et &lt;expression2> il n’existe aucun contrôle de type de données.
 
 Le résultat est booléen.
 

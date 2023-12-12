@@ -9,8 +9,8 @@ role: Admin
 level: Intermediate, Experienced
 exl-id: a4653378-b70f-454c-a446-ab4a14d2580a
 source-git-commit: b4fda6a0bd3e633811c16ef6dc3a3171b3b350c8
-workflow-type: ht
-source-wordcount: '802'
+workflow-type: tm+mt
+source-wordcount: '789'
 ht-degree: 100%
 
 ---
@@ -27,13 +27,13 @@ Elle rassemble les adresses e-mail et les domaines supprimés de tous les mailin
 >
 >Adobe tient à jour une liste des adresses erronées connues qui se sont avérées préjudiciables à l’engagement et à la réputation du publipostage, et s’assure que les e-mails ne leur sont pas remis. Cette liste est gérée dans une liste de suppression globale qui est commune à tous les clients Adobe. Les adresses et les noms de domaine contenus dans la liste de suppression globale sont masqués. Seul le nombre de destinataires exclus est indiqué dans les rapports de diffusion.
 
-En outre, vous pouvez tirer parti de l’**API REST de suppression** de Journey Optimizer pour contrôler vos messages sortants à l’aide des listes de suppression et des listes autorisées. [Découvrez comment utiliser l’API REST de suppression.](https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/monitor-reputation/manage-suppression-list.html?lang=fr)
+En outre, vous pouvez tirer parti de l’**API REST de suppression** Journey Optimizer pour contrôler vos messages sortants à l’aide des listes de suppression et des listes autorisées. [Découvrez comment utiliser l’API REST de suppression.](https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/monitor-reputation/manage-suppression-list.html?lang=fr)
 
 ## Pourquoi une liste de suppression ? {#why-suppression-list}
 
 Pour contrôler les e-mails reçus par les propriétaires de boîte de réception et s&#39;assurer que ces derniers ne reçoivent que les e-mails souhaités, les fournisseurs d&#39;accès Internet (FAI) et les filtres de spam commercial disposent de leurs algorithmes propriétaires afin de suivre la réputation globale des expéditeurs d&#39;e-mail en fonction des adresses IP et du ou des domaine(s) d&#39;envoi qu&#39;ils utilisent.
 
-Si vous ne tenez pas compte de leurs retours (comme les plaintes contre le spam, les bounces, etc.), ils évalueront votre réputation à la baisse. La liste de suppression vous permet de tenir compte des retours des FAI.
+Si vous ne tenez pas compte de leurs retours (comme les plaintes contre le spam, les rebonds, etc.), ils évalueront votre réputation à la baisse. La liste de suppression vous permet de tenir compte des retours des FAI.
 
 Les destinataires dont les adresses e-mail sont supprimées sont automatiquement exclus de la diffusion des messages. Le taux d&#39;erreur ayant une incidence importante sur la vitesse de diffusion, les envois sont ainsi accélérés.
 
@@ -41,13 +41,13 @@ Les destinataires dont les adresses e-mail sont supprimées sont automatiquement
 
 Les adresses sont ajoutées à la liste de suppression comme suit :
 
-* Tous les **hard bounces** et les **plaintes contre le spam** envoient automatiquement les adresses correspondantes à la liste de suppression après une seule occurrence.
+* Tous les **rebonds définitifs** et les **plaintes contre le spam** envoient automatiquement les adresses correspondantes à la liste de suppression après une seule occurrence.
 
-* Les **soft bounces** n’envoient pas immédiatement l’adresse à la liste de suppression, mais incrémentent un compteur d’erreurs. Plusieurs [reprises](../configuration/retries.md) sont alors effectuées, et lorsque le compteur d’erreurs atteint le seuil, l’adresse est ajoutée à la liste de suppression.
+* Les **rebonds temporaires** n’envoient pas immédiatement l’adresse à la liste de suppression, mais incrémentent un compteur d’erreurs. Plusieurs [reprises](../configuration/retries.md) sont alors effectuées, et lorsque le compteur d’erreurs atteint le seuil, l’adresse est ajoutée à la liste de suppression.
 
 * Vous pouvez également ajouter [**manuellement** une adresse ou un domaine](../configuration/manage-suppression-list.md#add-addresses-and-domains) à la liste de suppression.
 
-Pour en savoir plus sur les hard bounces et les soft bounces, consultez [cette section](#delivery-failures).
+Pour en savoir plus sur les rebonds définitifs et les rebonds temporaires, consultez [cette section](#delivery-failures).
 
 >[!NOTE]
 >
@@ -65,10 +65,10 @@ Pour chaque adresse, la raison de base de la suppression et la catégorie de sup
 
 Deux types d’erreur sont liés à une diffusion en échec :
 
-* **Hard bounce**. Un hard bounce indique une adresse e-mail non valide (c&#39;est-à-dire une adresse e-mail qui n&#39;existe pas). Un message de rebond du serveur de messagerie de réception indique explicitement que l’adresse n’est pas valide.
-* **Soft bounce**. Il s&#39;agit d&#39;un e-mail bounce temporaire qui s&#39;est produit en raison d&#39;une adresse e-mail valide.
+* **Rebond définitif**. Un rebond définitif indique une adresse e-mail non valide (c’est-à-dire une adresse e-mail qui n’existe pas). Un message de rebond du serveur de messagerie de réception indique explicitement que l’adresse n’est pas valide.
+* **Rebond temporaire**. Il s’agit d’un e-mail rejeté temporairement pour une adresse e-mail valide.
 
-Un **hard bounce** ajoute automatiquement l&#39;adresse e-mail à la liste de suppression.
+Un **rebond définitif** ajoute automatiquement l’adresse e-mail à la liste de suppression.
 
 Un **soft bounce** <!--or an **ignored** error--> qui se produit trop de fois envoie également l’adresse e-mail à la liste de suppression après plusieurs reprises. [En savoir plus sur les reprises](../configuration/retries.md)
 

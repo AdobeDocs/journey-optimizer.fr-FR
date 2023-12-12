@@ -11,8 +11,8 @@ keywords: sous-domaine, optimizer, délégation
 exl-id: 1b5ca4db-44d9-49e2-ab39-a1abba223ec7
 source-git-commit: 636c86d91d349104388849bbfc4e18bbbe2e4093
 workflow-type: tm+mt
-source-wordcount: '917'
-ht-degree: 98%
+source-wordcount: '903'
+ht-degree: 100%
 
 ---
 
@@ -47,7 +47,7 @@ Bien que ces exigences soient gérées au moyen de composants hébergés à la f
 
 >[!NOTE]
 >
->Pour implémenter DMARC pour vos sous-domaines, contactez [Adobe de l’assistance clientèle](https://helpx.adobe.com/fr/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){target="_blank"}.
+>Pour implémenter DMARC pour vos sous-domaines, contactez l’[assistance clientèle d’Adobe](https://helpx.adobe.com/fr/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){target="_blank"}.
 
 ## Méthodes de configuration de sous-domaine {#subdomain-delegation-methods}
 

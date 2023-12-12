@@ -10,7 +10,7 @@ level: Intermediate, Experienced
 exl-id: 8f33dda7-9bd5-4293-8d0d-222205cbc7d5
 source-git-commit: 8579acfa881f29ef3947f6597dc11d4c740c3d68
 workflow-type: tm+mt
-source-wordcount: '693'
+source-wordcount: '690'
 ht-degree: 100%
 
 ---
@@ -28,7 +28,7 @@ La délivrabilité est une mesure du succès de vos diffusions atteignant les bo
 Le **taux de délivrabilité** correspond au nombre de messages qui ont atteint les boîtes de réception des destinataires comparé au nombre de messages délivrés. Il dépend de nombreux facteurs, notamment :
 
 * Plaintes contre le spam limitées
-* Taux de hard bounces faibles
+* Taux de rebonds définitifs faibles
 * Qualité des adresses ciblées
 * Contenu des messages
 * Réputation de l&#39;expéditeur
@@ -47,7 +47,7 @@ Redoublez d&#39;attention lorsque vous demandez une confirmation supplémentaire
 
 ## Utiliser les listes de suppression {#suppression-lists}
 
-[!DNL Journey Optimizer] gère une liste de suppression qui rassemble les plaintes contre le spam, les hard bounces et soft bounces qui surviennent de manière systématique.
+[!DNL Journey Optimizer] gère une liste de suppression qui rassemble les plaintes contre le spam, les rebonds définitifs et les rebonds temporaires qui surviennent de manière systématique.
 
 Pour protéger votre délivrabilité, les destinataires dont les adresses se trouvent sur la liste de suppression sont exclus par défaut de toute diffusion future. En effet, un envoi à ces contacts pourrait nuire à votre réputation d&#39;envoi.
 

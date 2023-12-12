@@ -12,8 +12,8 @@ hidefromtoc: true
 exl-id: 38defa47-9b33-43a3-9b3e-d3aa4cb2857f
 source-git-commit: feae2cb9d0bed35f12eb117cf2969c9290ebc06f
 workflow-type: tm+mt
-source-wordcount: '1093'
-ht-degree: 100%
+source-wordcount: '1084'
+ht-degree: 98%
 
 ---
 
@@ -92,7 +92,7 @@ Avant de créer votre SMS, vous devez d’abord configurer votre fournisseur de 
       >
       >Avant de pouvoir sélectionner un sous-domaine, vous devez avoir configuré au moins un sous-domaine SMS. [Voici comment procéder.](sms-subdomains.md)
 
-   1. Saisissez le **[!UICONTROL numéro d’opt-out]** que vous voulez utiliser pour cette surface. Lorsque les profils décident de ne plus recevoir de messages depuis ce numéro, vous pouvez toujours leur en envoyer à partir d’autres numéros que vous pouvez utiliser pour envoyer des SMS avec [!DNL Journey Optimizer].
+   1. Saisissez le **[!UICONTROL numéro d’opt-out]** que vous voulez utiliser pour cette surface. Lorsque les profils indiquent leur opt-out pour ce numéro, vous pouvez toujours leur envoyer des messages à partir d’autres numéros que vous pouvez utiliser pour envoyer des SMS avec [!DNL Journey Optimizer].
 
       >[!NOTE]
       >
@@ -196,8 +196,8 @@ Vous pouvez maintenant commencer à concevoir le contenu de votre SMS à partir 
 
 1. Cliquez sur **[!UICONTROL Enregistrer]** et vérifiez votre message dans l’aperçu. Choisissez l’option **[!UICONTROL Simuler le contenu]** pour prévisualiser vos URL raccourcies ou votre contenu personnalisé.
 
-Vous pouvez maintenant tester et envoyer votre SMS à votre audience. [En savoir plus](send-sms.md).
-Après leur envoi, vous pouvez mesurer l’impact de vos SMS dans les rapports Campaign ou Journey. Pour plus d’informations sur le reporting, consultez [cette section](../reports/campaign-global-report.md#sms-tab).
+Vous pouvez maintenant tester et envoyer votre SMS à votre audience. [En savoir plus](send-sms.md)
+Une fois envoyé, vous pouvez mesurer l&#39;impact de vos SMS dans les rapports de campagne ou de Parcours. Pour plus d’informations sur le reporting, consultez [cette section](../reports/campaign-global-report.md#sms-tab).
 
 >[!NOTE]
 >

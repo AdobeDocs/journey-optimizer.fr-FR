@@ -9,7 +9,7 @@ keywords: toDuration, fonction, expression, parcours
 exl-id: c78e30c5-99ee-4dc7-a03a-17f7ee65f83a
 source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
 workflow-type: tm+mt
-source-wordcount: '283'
+source-wordcount: '289'
 ht-degree: 100%
 
 ---

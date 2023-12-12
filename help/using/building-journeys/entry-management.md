@@ -10,8 +10,8 @@ keywords: reprise, parcours, profil, récurrent
 exl-id: 8874377c-6594-4a5a-9197-ba5b28258c02
 source-git-commit: a6b2c1585867719a48f9abc4bf0eb81558855d85
 workflow-type: tm+mt
-source-wordcount: '598'
-ht-degree: 100%
+source-wordcount: '604'
+ht-degree: 97%
 
 ---
 
@@ -31,7 +31,7 @@ Dans les parcours unitaires, vous pouvez activer ou désactiver la reprise :
 
 * Si la reprise est activée, un profil peut rejoindre à nouveau plusieurs fois un parcours, mais ne peut pas le faire tant qu’il n’a pas complètement quitté cette instance précédente du parcours.
 
-* Si la reprise est désactivée, un profil ne peut pas rejoindre plusieurs fois le même parcours.
+* Si la rentrée est désactivée, un profil ne peut pas entrer plusieurs fois le même parcours.
 
 Par défaut, les nouveaux parcours autorisent une reprise. Vous pouvez désélectionner cette option pour les parcours « uniques ». C’est le cas, par exemple, si vous souhaitez offrir un cadeau ponctuel à un utilisateur ou à une utilisatrice qui effectue sa première visite dans la boutique. Dans ce cas, le client ou la cliente ne doit pas pouvoir recommencer le parcours et bénéficier une nouvelle fois de l’offre. Lorsqu’un parcours se termine, son statut passe en mode **[!UICONTROL Fermé]**. Aucune nouvelle personne ne peut rejoindre le parcours. En revanche, les personnes qui ont déjà intégré le parcours le terminent normalement. [En savoir plus](journey-gs.md#entrance)
 

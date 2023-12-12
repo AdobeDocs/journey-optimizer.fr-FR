@@ -9,7 +9,7 @@ keywords: avg, fonction, expression, parcours
 exl-id: cc70f90c-2d12-42a0-829f-5f28c3c29cad
 source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
 workflow-type: tm+mt
-source-wordcount: '53'
+source-wordcount: '55'
 ht-degree: 100%
 
 ---

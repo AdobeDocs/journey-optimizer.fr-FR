@@ -11,7 +11,7 @@ keywords: cas d’utilisation, multicanal, messages, parcours, canal, événemen
 exl-id: a1bbfcee-2235-4820-a391-d5d35f499cb0
 source-git-commit: a6b2c1585867719a48f9abc4bf0eb81558855d85
 workflow-type: tm+mt
-source-wordcount: '759'
+source-wordcount: '762'
 ht-degree: 100%
 
 ---
@@ -95,9 +95,9 @@ L&#39;événement maintenant configuré et prêt à être utilisé dans votre pa
 
 1. Ajoutez un événement **Réaction** et sélectionnez **E-mail ouvert**. L’événement est déclenché lorsqu’une personne appartenant à l’audience ouvre l’e-mail.
 
-1. Cochez la case **Définir la temporisation de l’événement**, définissez une durée (1 jour dans notre exemple) et cochez **Ajouter un chemin de temporisation**. Cela crée un autre itinéraire pour les personnes qui n’ouvrent pas le premier message push ou l’e-mail.
+1. Cochez la case **Définir la temporisation de l’événement**, définissez une durée (1 jour dans notre exemple) et cochez **Ajouter un chemin de temporisation**. Cela crée un autre chemin pour les personnes qui n’ouvrent pas le premier message par notification push ou par e-mail.
 
-1. Dans l’itinéraire de temporisation, déposez une activité d’action **E-mail** et définissez le contenu du message de « relance ». Ce message est envoyé aux individus qui n’ouvrent pas le premier email ou la première notification push le lendemain. Consultez cette [section](../email/create-email.md) pour savoir comment configurer et concevoir un e-mail.
+1. Dans le chemin de temporisation, déposez une activité d’action **E-mail** et définissez le contenu du message de « relance ». Ce message est envoyé aux individus qui n’ouvrent pas le premier email ou la première notification push le lendemain. Consultez cette [section](../email/create-email.md) pour savoir comment configurer et concevoir un e-mail.
 
 1. Dans le premier chemin, ajoutez l’événement d’achat créé précédemment. L&#39;événement est déclenché lorsqu&#39;un individu effectue un achat.
 
