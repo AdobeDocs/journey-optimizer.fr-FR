@@ -101,7 +101,7 @@ Pour configurer le contenu de votre SMS, procédez comme suit. Les paramètres d
 
    ![](assets/sms-content.png)
 
-1. Utilisez l’éditeur d’expression pour définir le contenu, ou encore ajouter une personnalisation ou du contenu dynamique. Vous pouvez utiliser n’importe quel attribut, comme le nom du profil ou la ville. Vous pouvez également définir des règles conditionnelles. Accédez aux pages suivantes pour en savoir plus sur la [personnalisation](../personalization/personalize.md) le et [contenu dynamique](../personalization/get-started-dynamic-content.md) dans l&#39;éditeur d&#39;expression.
+1. Utilisez l’éditeur d’expression pour définir le contenu, ou encore ajouter une personnalisation ou du contenu dynamique. Vous pouvez utiliser n’importe quel attribut, comme le nom du profil ou la ville. Vous pouvez également définir des règles conditionnelles. Accédez aux pages suivantes pour en savoir plus sur la [personnalisation](../personalization/personalize.md) le et [contenu dynamique](../personalization/get-started-dynamic-content.md) dans l’éditeur d’expression.
 
 1. Une fois le contenu défini, ajoutez les URL trackées à votre message. Pour ce faire, accédez au menu **[!UICONTROL Fonctions d’assistance]** et sélectionnez **[!UICONTROL Helpers]**.
 
@@ -124,7 +124,7 @@ Pour configurer le contenu de votre SMS, procédez comme suit. Les paramètres d
 
 ## Définir le contenu de votre MMS{#mms-content}
 
-Vous pouvez améliorer votre communication en envoyant des messages MMS (Multimedia Message Service), afin de partager des médias tels que des vidéos, des images, des clips audio, des GIFs et bien plus encore. En outre, les MMS autorisent jusqu’à 1 600 caractères de texte dans votre message.
+Vous pouvez améliorer votre communication en envoyant des messages MMS (Multimedia Message Service), afin de partager des médias tels que des vidéos, des images, des clips audio, des GIF et bien plus encore. En outre, les MMS autorisent jusqu’à 1 600 caractères de texte dans votre message.
 
 
 >[!NOTE]

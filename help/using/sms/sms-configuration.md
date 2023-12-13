@@ -25,23 +25,23 @@ Ces étapes doivent être exécutées par un [Administrateur ou une Administratr
 
 ## Conditions préalables{#sms-prerequisites}
 
-Adobe Journey Optimizer s’intègre actuellement à des fournisseurs tiers qui proposent des services de SMS indépendants de Adobe Journey Optimizer. Les fournisseurs pris en charge pour les SMS sont les suivants : **Sinch**, **Twilio** et **Infobip**. Les MMS sont uniquement pris en charge avec **Sinch**.
+Adobe Journey Optimizer s’intègre actuellement à des fournisseurs tiers qui proposent des services de messages texte indépendants d’Adobe Journey Optimizer. Les fournisseurs pris en charge pour les messages texte sont les suivants : **Sinch**, **Twilio** et **Infobip**. Les MMS sont uniquement pris en charge par **Sinch**.
 
 Avant la configuration du canal SMS, vous devez créer un compte auprès de l’un de ces fournisseurs afin de recevoir le **jeton API** et l’**ID de service** qui vous permettront d’établir la connexion entre Adobe Journey Optimizer et le fournisseur approprié.
 
-Votre utilisation des services SMS sera soumise aux conditions générales supplémentaires de la part du fournisseur concerné. En tant que solutions tierces, Sinch, Twilio et Infobip sont disponibles pour les utilisateurs et utilisatrices d’Adobe Journey Optimizer via une intégration. Adobe ne contrôle pas et n’est pas responsable des produits tiers. Pour tout problème ou toute demande d&#39;assistance relative aux services de SMS, contactez votre fournisseur.
+Votre utilisation des services de messages texte sera soumise aux conditions générales supplémentaires de la part du fournisseur concerné. En tant que solutions tierces, Sinch, Twilio et Infobip sont disponibles pour les utilisateurs et utilisatrices d’Adobe Journey Optimizer via une intégration. Adobe ne contrôle pas et n’est pas responsable des produits tiers. Pour tout problème ou toute demande d’assistance relative aux services de messages texte (SMS/MMS), contactez votre fournisseur.
 
 >[!CAUTION]
 >
 >Pour accéder aux sous-domaines SMS et les modifier, vous devez disposer de l’autorisation **[!UICONTROL Gestion des sous-domaines SMS]** dans le sandbox de production. Pour en savoir plus sur les autorisations, consultez [cette page](../administration/high-low-permissions.md#administration-permissions).
 >
 
-## Créer des informations d’identification pour API {#create-api}
+## Créer des informations d’identification de l’API {#create-api}
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_sms_api_header"
 >title="Configurer votre fournisseur de SMS/MMS avec Journey Optimizer"
->abstract="Adobe Journey Optimizer envoie des message texte par le biais des fournisseurs de services SMS/MMS. Sélectionnez votre fournisseur et renseignez vos informations d’identification d’API."
+>abstract="Adobe Journey Optimizer envoie des message texte par le biais des fournisseurs de services SMS/MMS. Sélectionnez votre fournisseur et renseignez vos informations d’identification de l’API."
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_sms_api"
@@ -60,7 +60,7 @@ Pour configurer votre fournisseur de SMS/MMS avec Journey Optimizer, procédez c
 
    ![](assets/sms_6.png)
 
-1. Configurez vos informations dʼidentification pour lʼAPI SMS, comme indiqué ci-dessous.
+1. Configurez vos informations dʼidentification de lʼAPI SMS, comme indiqué ci-dessous.
 
    ![](assets/sms_7.png)
 
@@ -103,7 +103,7 @@ Après avoir créé et configuré vos informations d’identification API, vous 
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_surface_sms_type"
->title="Définissez la catégorie de message."
+>title="Définir la catégorie de message"
 >abstract="Sélectionnez le type de messages texte utilisant cette surface : marketing pour les messages promotionnels, qui nécessitent le consentement de l’utilisateur ou de l’utilisatrice, ou transactionnel pour les messages non commerciaux, tels que la réinitialisation du mot de passe."
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/privacy/consent/opt-out.html?lang=fr#sms-opt-out-management" text="Se désinscrire dans les messages texte de marketing"
 

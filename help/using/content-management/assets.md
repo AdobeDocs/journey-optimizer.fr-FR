@@ -22,7 +22,7 @@ ht-degree: 100%
 
 Rassemblez les workflows marketing et créatifs à l’aide de **[!DNL Adobe Experience Manager Assets]**. Accédez à **[!DNL Assets Essentials]** ou **[!DNL Assets as a Cloud Service]**, intégrés nativement à **[!DNL Adobe Journey Optimizer]**, pour stocker, gérer, découvrir et distribuer des ressources numériques. Ceci fournit un référentiel de ressources unique et centralisé que vous pouvez utiliser pour renseigner vos messages.
 
-**[!DNL Adobe Experience Manager Assets]** offre deux espaces de travail collaboratifs et centralisés sur les ressources qui étendent votre système de création et unifient les ressources numériques pour la diffusion de l’expérience.
+**[!DNL Adobe Experience Manager Assets]** offre deux espaces de travail collaboratifs et centralisés sur les ressources qui étendent votre système de création et unifient les ressources numériques pour la diffusion de l’expérience :
 
 * **[!DNL Assets as a Cloud Service]** : Adobe Experience Manager Assets as a Cloud Service offre une solution cloud conviviale pour une gestion efficace des ressources numériques et des opérations Dynamic Media. Il intègre de manière transparente des fonctionnalités avancées, notamment l’intelligence artificielle et le machine learning.
 
@@ -40,7 +40,7 @@ Selon votre contrat, **[!DNL Adobe Experience Manager Assets Essentials]** ou **
 
 >[!TAB Adobe Experience Manager Assets Essentials]
 
-Avant d’utiliser [!DNL Adobe Experience Manager Assets Essentials], vous devez ajouter des utilisateurs aux profils de produit **Utilisateurs clients dʼAssets Essentials** ou/et **Utilisateurs dʼAssets Essentials**. Pour en savoir plus, consultez la [documentation d’Assets Essentials](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/get-started-admins/deploy-administer.html?lang=fr#add-user-groups){target="_blank"}.
+Avant d’utiliser [!DNL Adobe Experience Manager Assets Essentials], vous devez ajouter des utilisateurs et des utilisatrices aux profils de produit **Utilisateurs clients dʼAssets Essentials** ou/et **Utilisateurs dʼAssets Essentials**. Pour en savoir plus, consultez la [documentation d’Assets Essentials](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/get-started-admins/deploy-administer.html?lang=fr#add-user-groups){target="_blank"}.
 
 >[!NOTE]
 >Pour les produits Journey Optimizer obtenus avant le 6 janvier 2022, vous devez déployer **[!DNL Adobe Experience Manager Assets Essentials]** pour votre organisation. Pour en savoir plus, reportez-vous à la section [Déploiement d’Assets Essentials](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/deploy-administer.html?lang=fr){target="_blank"}
@@ -51,7 +51,7 @@ Avant d’utiliser **[!DNL Adobe Experience Manager Assets as a Cloud Service]**
 
 >[!ENDTABS]
 
-## Téléchargement et ajout de ressources{#add-asset}
+## Chargement et ajout de ressources{#add-asset}
 
 Pour importer des fichiers dans **[!DNL Assets Essentials]** ou **[!DNL Assets as a Cloud Service]**, vous devez d’abord parcourir ou créer le dossier dans lequel ils seront stockés. Vous pourrez alors les insérer dans le contenu de votre e-mail.
 
@@ -59,7 +59,7 @@ Pour importer des fichiers dans **[!DNL Assets Essentials]** ou **[!DNL Assets a
 
    ![](assets/media_library_1.png)
 
-1. Sélectionnez le référentiel pour vos ressources dans Journey Optimizer. Vous pouvez opter pour un référentiel **[!DNL Assets Essentials]** ou **[!DNL Assets as a Cloud Service]** , à condition que vous possédiez cette solution.
+1. Sélectionnez le référentiel pour vos ressources dans Journey Optimizer. Vous pouvez opter pour un référentiel **[!DNL Assets Essentials]** ou **[!DNL Assets as a Cloud Service]**, à condition que vous possédiez cette solution.
 
    ![](assets/media_library_4.png)
 
@@ -112,11 +112,11 @@ Pour importer des fichiers dans **[!DNL Assets Essentials]** ou **[!DNL Assets a
     -->
 
 
-## [!DNL Adobe Experience Manager Assets] FAQ {#faq-assets}
+## Questions fréquentes sur [!DNL Adobe Experience Manager Assets] {#faq-assets}
 
 +++ Puis-je continuer à utiliser le référentiel regroupé Assets Essentials dans Journey Optimizer ?
 
-En cas d’allocation sur **[!DNL Adobe Experience Manager Assets as a Cloud Service]**, vous avez accès aux référentiels **[!DNL Adobe Experience Manager Assets Essentials]** et **[!DNL Adobe Experience Manager Assets as a Cloud Service]** si vous disposez des autorisations appropriées. Ces référentiels sont séparés et non synchronisés. Un utilisateur ou une utilisatrice de Journey Optimizer pourra voir ces deux référentiels, y compris d’autres environnements auxquels il ou elle a accès (évaluation, développement, etc.) et pourra basculer en toute transparence de l’un à l’autre avec le sélecteur de référentiel.
+En cas d’approvisionnement sur **[!DNL Adobe Experience Manager Assets as a Cloud Service]**, vous avez accès aux référentiels **[!DNL Adobe Experience Manager Assets Essentials]** et **[!DNL Adobe Experience Manager Assets as a Cloud Service]** si vous disposez des autorisations appropriées. Ces référentiels sont séparés et non synchronisés. Un utilisateur ou une utilisatrice de Journey Optimizer pourra voir ces deux référentiels, y compris d’autres environnements auxquels il ou elle a accès (évaluation, développement, etc.) et pourra basculer en toute transparence de l’un à l’autre avec le sélecteur de référentiel.
 
 +++
 
@@ -134,6 +134,6 @@ Oui, vous pouvez utiliser des URL Dynamic Media lors de la création d’e-mail
 
 +++ Peut-on apporter des modifications au référentiel Adobe Experience Manager Assets as a Cloud Service à partir de l’interface de Journey Optimizer ?
 
-Si la personne utilisant Journey Optimizer est autorisée à utiliser **[!DNL Adobe Experience Manager Assets as a Cloud Service]** de manière standard et qu’elle disposant de l’autorisation Modifier sur le référentiel, elle peut apporter des modifications au référentiel **[!DNL Adobe Experience Manager Assets as a Cloud Service]**.
+Si la personne utilisant Journey Optimizer est autorisée à utiliser **[!DNL Adobe Experience Manager Assets as a Cloud Service]** de manière standard et qu’elle dispose de l’autorisation Modifier sur le référentiel, elle peut apporter des modifications au référentiel **[!DNL Adobe Experience Manager Assets as a Cloud Service]**.
 
 +++

@@ -217,7 +217,7 @@ ht-degree: 100%
       + [Configurer le canal de notification push](using/push/push-configuration.md)
       + [Workflow de démarrage rapide de l’intégration mobile](using/push/mobile-onboarding-wf.md)
 + Canal SMS/MMS{#sms}
-   + [Prise en main des MMS](using/sms/get-started-sms.md)
+   + [Commencer avec les messages texte](using/sms/get-started-sms.md)
    + [Créer un message texte](using/sms/create-sms.md)
    + [Créer un MMS](using/sms/create-mms.md)
    + [Vérifier et envoyer vos messages texte](using/sms/send-sms.md)
@@ -270,7 +270,7 @@ ht-degree: 100%
       + [Rapport de campagne multilingue](using/content-management/multilingual-report.md)
    + Ressources/Images {#assets-images}
       + [Utiliser Experience Manager Assets](using/content-management/assets.md)
-      + [Utilisation d’Adobe Stock](using/content-management/stock.md)
+      + [Utiliser Adobe Stock](using/content-management/stock.md)
    + Personnalisation {#personalization}
       + [Commencer avec la personnalisation](using/personalization/personalize.md)
       + [Contextes de personnalisation](using/personalization/personalization-contexts.md)

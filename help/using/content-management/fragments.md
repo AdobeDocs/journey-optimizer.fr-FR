@@ -39,7 +39,7 @@ Pour optimiser l’utilisation des fragments :
 
 >[!NOTE]
 >
->Les **fragments visuels** peuvent être utilisés dans le [Concepteur d’email](../email/get-started-email-design.md), alors que les **fragments d’expression** sont accessibles par le biais de l’[Éditeur d’expression](../personalization/personalization-build-expressions.md).
+>Les **fragments visuels** peuvent être utilisés dans le [Concepteur d’e-mail](../email/get-started-email-design.md), alors que les **fragments d’expression** sont accessibles par le biais de l’[Éditeur d’expression](../personalization/personalization-build-expressions.md).
 
 En outre, vous pouvez tirer parti de l’**API REST de contenu** Journey Optimizer pour gérer les fragments de contenu. Pour plus d’informations à ce sujet, consultez la [documentation relative aux API Journey Optimizer](https://developer.adobe.com/journey-optimizer-apis/references/content/){target="_blank"}.
 

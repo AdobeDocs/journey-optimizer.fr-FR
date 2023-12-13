@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Prise en main des messages texte (SMS/MMS)
+title: Commencer avec les messages texte (SMS/MMS)
 description: Découvrez comment créer et envoyer des messages texte dans Journey Optimizer.
 feature: SMS
 topic: Content Management
@@ -15,7 +15,7 @@ ht-degree: 100%
 
 ---
 
-# Commencer avec les SMS {#get-started-sms}
+# Commencer avec les messages texte {#get-started-sms}
 
 Utilisez [!DNL Journey Optimizer] pour envoyer des messages texte (SMS/MMS) à vos clientes et clients sur leur appareil mobile. Vous pouvez créer, personnaliser et prévisualiser des messages au format texte à partir de l’éditeur de SMS/MMS.
 

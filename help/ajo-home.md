@@ -34,7 +34,7 @@ Avec le canal SMS, vous pouvez maintenant améliorer votre communication en envo
 
 >[!ENDTABS]
 
-## Commencer par les principes de base
+## Commencer avec les principes de base
 
 <table style="table-layout:fixed">
   <tr style="border: 0;">
@@ -48,7 +48,7 @@ Avec le canal SMS, vous pouvez maintenant améliorer votre communication en envo
     </td>
     <td>
     <a href="using/building-journeys/journey-gs.md"><img src="using/assets/do-not-localize/start-journey.jpeg"></a>
-    <div><strong>Créez votre premier parcours</strong><br/>Concevez et orchestrez des parcours omnicanaux personnalisés afin d’harmoniser la portée marketing avec individuel vis-à-vis de chaque client et cliente. 
+    <div><strong>Créez votre premier parcours</strong><br/>Concevez et orchestrez des parcours omnicanaux personnalisés afin d’harmoniser la portée marketing avec engagement individuel vis-à-vis de chaque client et cliente. 
     </div>
     </td>
     <td>
@@ -109,4 +109,4 @@ Avec le canal SMS, vous pouvez maintenant améliorer votre communication en envo
 </tr></table>
 
 <table style="table-layout:auto"><tr style="border: 0;"><td><img src="using/assets/do-not-localize/newsletter.png"></td><td>
-<b>Tenez-vous informé et validez votre expérience Adobe Journey Optimizer !</b><br/>Inscrivez-vous à notre newsletter trimestrielle. Profitez d’un accès exclusif aux dernières mises à jour de produits, à des articles captivants, à des cas d’utilisation réels, à des conseils précieux, etc., le tout directement depuis votre boîte de réception tous les trimestres. <a href="https://www.adobe.com/subscription/Adobe_Journey_Optimizer_NL.html">Inscrivez-vous dès aujourd'hui !</a></td></tr></table>
+<b>Tenez-vous informé et validez votre expérience Adobe Journey Optimizer !</b><br/>Inscrivez-vous à notre newsletter trimestrielle. Profitez d’un accès exclusif aux dernières mises à jour de produits, à des articles captivants, à des cas d’utilisation réels, à des conseils précieux, etc., le tout directement depuis votre boîte de réception tous les trimestres. <a href="https://www.adobe.com/subscription/Adobe_Journey_Optimizer_NL.html">Inscrivez-vous dès aujourd’hui !</a></td></tr></table>

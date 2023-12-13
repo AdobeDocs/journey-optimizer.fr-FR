@@ -58,7 +58,7 @@ Dans cet exemple, nous allons créer une audience pour cibler tous les clientes 
 
      >[!NOTE]
      >
-     >Adobe recommande de ne pas utiliser les événements d’ouverture et d’envoi avec la segmentation par streaming. Utilisez plutôt les signaux d’activité des utilisateurs et utilisatrices, tels que les clics, les achats ou les données de balise. Pour la logique de fréquence ou de suppression, utilisez des règles métier plutôt que des événements d’envoi. [En savoir plus](about-audiences.md#open-and-send-event-guardrails)
+     >Adobe recommande de ne pas utiliser les événements d’ouverture et d’envoi avec la segmentation par streaming. Utilisez plutôt les signaux d’activité des utilisateurs et utilisatrices, tels que les clics, les achats ou les données de balise. Pour la logique de fréquence ou de suppression, utilisez des règles métier plutôt que des événements d&#39;envoi. [En savoir plus](about-audiences.md#open-and-send-event-guardrails)
 
 1. À mesure que vous ajoutez et configurez de nouveaux champs dans l’espace de travail, le volet **[!UICONTROL Propriétés d’audience]** est automatiquement mis à jour avec des informations sur l’estimation des profils appartenant à l’audience.
 
