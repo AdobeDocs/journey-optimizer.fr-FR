@@ -12,10 +12,10 @@ hide: true
 hidefromtoc: true
 exl-id: 38e82eb2-67d9-4a7d-8c1f-77dab20bcec4
 badge: label="Version Beta" type="Informative"
-source-git-commit: feee761f9893633f88b0109b810ac55ae82dd9e0
+source-git-commit: d8926076d30fb07ea10e06ea8ee025b04ba5bb85
 workflow-type: tm+mt
-source-wordcount: '1316'
-ht-degree: 94%
+source-wordcount: '1370'
+ht-degree: 90%
 
 ---
 
@@ -182,9 +182,17 @@ Une fois que vous avez configuré votre projet de traduction et les paramètres 
 1. Dans cette page, suivez le statut de votre projet de traduction :
 
    * **[!UICONTROL Traduction en cours]** : votre fournisseur travaille activement sur la traduction.
+
+     Si vous avez sélectionné la variable **Traduction interne** lors de la configuration de **Paramètres de langue**, vous pouvez traduire votre contenu directement dans votre projet de traduction. [En savoir plus](#manage-ht-project)
+
    * **[!UICONTROL Prêt pour la révision]** : le processus de révision est prêt à commencer, ce qui vous permet d’accéder à la traduction et de la rejeter ou de l’approuver.
-   * **[!UICONTROL Révisé]** : la traduction a été approuvée et peut être envoyée à la campagne.
+
+     Si vous avez sélectionné la variable **[!UICONTROL Activation du processus de révision]** dans votre **[!UICONTROL Projet de traduction]**, vous pouvez passer en revue la traduction directement dans Journey Optimizer une fois la traduction terminée par le fournisseur de traduction sélectionné. [En savoir plus](#review-translation-project)
+
+   * **[!UICONTROL Révisé]**: la traduction a été validée et prête à être publiée et envoyée à la campagne.
+
    * **[!UICONTROL Prêt à publier]** : la traduction automatique est terminée et peut désormais être envoyée à votre campagne.
+
    * **[!UICONTROL Terminé]** : la traduction est désormais disponible dans votre campagne.
 
    ![](assets/multilingual-campaign-automated-6.png)
