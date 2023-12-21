@@ -13,7 +13,7 @@ hidefromtoc: true
 exl-id: 6244d717-fbd6-468e-9164-60451d0d62f0
 badge: label="Version Beta" type="Informative"
 source-git-commit: feee761f9893633f88b0109b810ac55ae82dd9e0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '660'
 ht-degree: 100%
 
@@ -25,7 +25,7 @@ ht-degree: 100%
 
 **Table des matières**
 
-* [Prise en main du contenu multilingue](multilingual-gs.md)
+* [Commencer avec le contenu multilingue](multilingual-gs.md)
 * **[Créer du contenu multilingue avec traduction manuelle](multilingual-manual.md)**
 * [Créer du contenu multilingue avec traduction automatisée](multilingual-automated.md)
 * [Rapport de campagne multilingue](multilingual-report.md)
