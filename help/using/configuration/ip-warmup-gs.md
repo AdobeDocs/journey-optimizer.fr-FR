@@ -13,9 +13,9 @@ hidefromtoc: true
 badge: label="Version Beta"
 exl-id: 393f051d-b86d-4b4f-b564-7a9ae3a5d4b8
 source-git-commit: 9d48213d8367fdc6c0fae62b73d1706bc4983d9d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '295'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -38,7 +38,7 @@ Ce guide couvre les sujets suivants :
 
 Avec [!DNL Journey Optimizer], vous pouvez facilement exécuter des workflows de préchauffage d’adresses IP directement à partir de l’interface utilisateur d’une manière normalisée et efficace, en respectant les bonnes pratiques pour une délivrabilité optimale.
 
-➡️ [Découvrez comment créer et exécuter un plan de chauffage par IP dans cette vidéo](#video)
+➡️ [Découvrez comment créer et exécuter un plan de préchauffage d’adresses IP dans cette vidéo](#video)
 
 >[!CAUTION]
 >
@@ -74,6 +74,6 @@ Les étapes clés de la mise en œuvre d’un plan de préchauffage d’adresses
 
 ## Vidéo pratique {#video}
 
-Découvrez comment créer et exécuter un plan de chauffage par IP.
+Découvrez comment créer et exécuter un plan de préchauffage des adresses IP.
 
 >[!VIDEO](https://video.tv.adobe.com/v/3425965/?quality=12&learn=on)
