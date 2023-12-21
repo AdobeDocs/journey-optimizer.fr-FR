@@ -10,9 +10,9 @@ level: Beginner
 keywords: créer, e-mail, commencer, parcours, campagne
 exl-id: c77dc420-a375-4376-ad86-ac740e214c3c
 source-git-commit: f2037f559826d7cca243092de200c97841c49b35
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '908'
-ht-degree: 84%
+ht-degree: 100%
 
 ---
 
@@ -21,12 +21,12 @@ ht-degree: 84%
 >[!CONTEXTUALHELP]
 >id="ajo_message_email"
 >title="Création d&#39;un e-mail"
->abstract="Définissez l’objet de l’email et ouvrez le Concepteur d’email pour créer le contenu de l’email."
+>abstract="Définissez l’objet de l’e-mail et ouvrez le Concepteur d’e-mail pour créer le contenu de l’e-mail."
 
 
-## Ajout d’une action de courrier électronique {#email-action}
+## Ajouter une action d’e-mail {#email-action}
 
-Pour créer un courrier électronique dans [!DNL Journey Optimizer], ajoutez une **[!UICONTROL Email]** à un parcours ou à une campagne. Suivez ensuite les étapes ci-dessous, en fonction de votre cas.
+Pour créer un e-mail dans [!DNL Journey Optimizer], ajoutez une action d’**[!UICONTROL e-mail]** à un parcours ou à une campagne. Suivez ensuite les étapes ci-dessous, en fonction de votre cas.
 
 >[!BEGINTABS]
 
@@ -44,7 +44,7 @@ Pour créer un courrier électronique dans [!DNL Journey Optimizer], ajoutez une
 
 >[!NOTE]
 >
->Vous pouvez utiliser l’option Optimisation de l’heure d’envoi pour prévoir le meilleur moment pour envoyer le message afin d’optimiser l’engagement en fonction des taux d’ouverture et de clic historiques. [Découvrez comment utiliser l’optimisation de l’heure d’envoi](../building-journeys/journeys-message.md#send-time-optimization)
+>Vous pouvez utiliser l’option Optimisation de l’heure d’envoi pour prévoir le meilleur moment pour envoyer le message afin d’optimiser l’engagement en fonction des taux historiques d’ouverture et de clic. [Découvrez comment utiliser l’optimisation de l’heure d’envoi](../building-journeys/journeys-message.md#send-time-optimization)
 
 Pour plus d’informations sur la configuration de votre parcours, consultez cette [page](../building-journeys/journey-gs.md).
 
@@ -85,13 +85,13 @@ Pour plus d’informations sur la configuration d’une campagne, consultez cett
 
    ![](assets/email_campaign_edit_content.png)
 
-   Dans le **[!UICONTROL En-tête]** de la **[!UICONTROL Modifier le contenu]** l’écran **[!UICONTROL À partir du nom]**, **[!UICONTROL Adresse électronique]** et **[!UICONTROL Cci]** sont configurés dans la surface de l&#39;email que vous avez sélectionnée. [En savoir plus](email-settings.md) <!--check if same for journey-->
+   Dans la section **[!UICONTROL En-tête]** de l’écran **[!UICONTROL Modifier le contenu]**, le **[!UICONTROL nom de l’expéditeur]**, **[!UICONTROL l’adresse e-mail d’expédition]** et le champ **[!UICONTROL Cci]** sont configurés dans la surface d’e-mail que vous avez sélectionnée. [En savoir plus](email-settings.md) <!--check if same for journey-->
 
    ![](assets/email_designer_edit_content_header.png)
 
-1. Ajoutez un objet pour votre message. Pour configurer et personnaliser la ligne d’objet à l’aide de l’éditeur d’expression, cliquez sur le bouton **[!UICONTROL Ouvrir la boîte de dialogue de personnalisation]** Icône [En savoir plus](../personalization/personalization-build-expressions.md)
+1. Ajoutez un objet pour votre message. Pour configurer et personnaliser l’objet à l’aide de l’éditeur d’expression, cliquez sur l’icône **[!UICONTROL Ouvrir la boîte de dialogue de personnalisation]**. [En savoir plus](../personalization/personalization-build-expressions.md)
 
-1. Cliquez sur le bouton **[!UICONTROL Modifier le corps de l’email]** pour accéder au Concepteur d&#39;email et commencer à créer votre contenu. [En savoir plus](get-started-email-design.md)
+1. Cliquez sur le bouton **[!UICONTROL Modifier le corps de l’e-mail]** pour accéder au Concepteur d’e-mail et commencer à créer votre contenu. [En savoir plus](get-started-email-design.md)
 
    ![](assets/email_designer_edit_email_body.png)
 
