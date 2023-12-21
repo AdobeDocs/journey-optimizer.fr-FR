@@ -10,13 +10,13 @@ level: Intermediate
 keywords: parcours, message, notification push, sms, e-mail, in-app
 exl-id: 4db07a9e-c3dd-4873-8bd9-ac34c860694c
 source-git-commit: f2037f559826d7cca243092de200c97841c49b35
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1169'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
-# Envoyer des messages électroniques, in-app, push et texte {#add-a-message-in-a-journey}
+# Envoyer des e-mails, messages in-app, notifications push et SMS {#add-a-message-in-a-journey}
 
 >[!CONTEXTUALHELP]
 >id="ajo_message_activity"
