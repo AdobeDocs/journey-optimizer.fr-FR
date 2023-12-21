@@ -9,19 +9,19 @@ hide: true
 hidefromtoc: true
 badge: label="Version Beta"
 source-git-commit: c13cd73229b2fab80722663afae9fe24b660c0f9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '394'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
 # Cas d’utilisation de la prise de décision basée sur l’expérience {#experience-decisioning-uc}
 
->[!BEGINSHADEBOX &quot;Ce que vous trouverez dans ce guide de documentation&quot;]
+>[!BEGINSHADEBOX « Ce guide couvre les sujets suivants »]
 
-* [Prise en main de la prise de décision basée sur l’expérience](gs-experience-decisioning.md)
-* Gérer les éléments de décision : [Configuration du catalogue d’éléments](catalogs.md) -[Création d’éléments de décision](items.md) - [Gestion des collections d’éléments](collections.md)
-* Configuration de la sélection des éléments : [Créer des règles de décision](rules.md) - [Création de méthodes de classement](ranking.md)
+* [Commencer avec la prise de décision basée sur l’expérience](gs-experience-decisioning.md)
+* Gérer les éléments de décision : [Configurer le catalogue d’éléments](catalogs.md) – [Créer des éléments de décision](items.md) – [Gérer des collections d’éléments](collections.md)
+* Configurer la sélection des éléments : [Créer des règles de décision](rules.md) – [Créer des méthodes de classement](ranking.md)
 * [Créer des stratégies de sélection](selection-strategies.md)
 * [Créer des politiques de décision](create-decision.md)
 
