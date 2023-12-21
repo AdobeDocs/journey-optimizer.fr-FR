@@ -7,12 +7,12 @@ feature: Deliverability, Channel Configuration
 topic: Administration
 role: Admin
 level: Experienced
-keywords: suppression, liste, rebond, email, optimisation, mise en quarantaine
+keywords: suppression, liste, rebond, e-mail, optimizer, quarantaine
 exl-id: 430a2cd4-781d-4d37-a75d-405f5ed82377
 source-git-commit: 0ba1af43f5447df861e419b56f34a418cfbce241
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1599'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -28,7 +28,7 @@ Pour en savoir plus sur le concept et l’utilisation de la liste de suppression
 >
 >Adobe tient à jour une liste des adresses erronées connues qui se sont avérées préjudiciables à l’engagement et à la réputation du publipostage, et s’assure que les e-mails ne leur sont pas remis. Cette liste est gérée dans une liste de suppression globale qui est commune à tous les clients Adobe. Les adresses et les noms de domaine contenus dans la liste de suppression globale sont masqués. Seul le nombre de destinataires exclus est indiqué dans les rapports de diffusion.
 
-En outre, vous pouvez tirer parti de Journey Optimizer **API REST de suppression** pour contrôler vos messages sortants à l’aide de la suppression et des listes autorisées. [Découvrez comment utiliser l’API REST de suppression](https://developer.adobe.com/journey-optimizer-apis/references/suppression/){target="_blank"}
+En outre, vous pouvez tirer parti de l’**API REST de suppression** de Journey Optimizer pour contrôler vos messages sortants à l’aide des listes de suppression et des listes autorisées. [Découvrez comment utiliser l’API REST de suppression.](https://developer.adobe.com/journey-optimizer-apis/references/suppression/){target="_blank"}
 
 ## Accéder à la liste de suppression {#access-suppression-list}
 
