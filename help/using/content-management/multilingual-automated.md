@@ -13,9 +13,9 @@ hidefromtoc: true
 exl-id: 38e82eb2-67d9-4a7d-8c1f-77dab20bcec4
 badge: label="Version Beta" type="Informative"
 source-git-commit: d8926076d30fb07ea10e06ea8ee025b04ba5bb85
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1370'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 90%
 
 **Table des matières**
 
-* [Prise en main du contenu multilingue](multilingual-gs.md)
+* [Commencer avec le contenu multilingue](multilingual-gs.md)
 * [Créer du contenu multilingue avec traduction manuelle](multilingual-manual.md)
 * **[Créer du contenu multilingue avec traduction automatisée](multilingual-automated.md)**
 * [Rapport de campagne multilingue](multilingual-report.md)
@@ -91,13 +91,13 @@ Démarrez votre projet de traduction en spécifiant les paramètres régionaux c
 
 1. Sélectionnez dans la liste vos **[!UICONTROL paramètres régionaux cibles]** et choisissez le **[!UICONTROL prestataire de services de traduction]** que vous souhaitez utiliser pour chaque paramètre régional.
 
-   **[!UICONTROL Fournisseur de traduction]** sont accessibles à partir du **[!UICONTROL Traduction]** dans le menu **[!UICONTROL Administration]** de la section .
+   Les paramètres du **[!UICONTROL prestataire de services de traduction]** sont accessibles à partir du menu **[!UICONTROL Traduction]** dans la section du menu **[!UICONTROL Administration]**.
 
    >[!NOTE]
    >
-   >La gestion des contrats avec le fournisseur de traduction n’entre pas dans le cadre de cette fonctionnalité. Assurez-vous que vous disposez d’un contrat valide et actif avec le partenaire de traduction désigné.
+   >La gestion des contrats avec le prestataire de services de traduction n’entre pas dans le cadre de cette fonctionnalité. Assurez-vous que vous disposez d’un contrat valide et actif avec le partenaire de services de traduction désigné.
    >
-   ></br>Le fournisseur de traduction détient la propriété de la qualité du contenu traduit.
+   ></br>Le prestataire de services de traduction détient la propriété de la qualité du contenu traduit.
 
 1. Cliquez sur **[!UICONTROL Ajouter un paramètre régional]** lorsque vous avez terminé de lier votre paramètre régional cible au prestataire de services de traduction approprié. Cliquez ensuite sur **[!UICONTROL Enregistrer]**.
 
@@ -183,13 +183,13 @@ Une fois que vous avez configuré votre projet de traduction et les paramètres 
 
    * **[!UICONTROL Traduction en cours]** : votre fournisseur travaille activement sur la traduction.
 
-     Si vous avez sélectionné la variable **Traduction interne** lors de la configuration de **Paramètres de langue**, vous pouvez traduire votre contenu directement dans votre projet de traduction. [En savoir plus](#manage-ht-project)
+     Si vous avez sélectionné la **traduction interne** lors de la configuration des **paramètres de langue**, vous pouvez traduire votre contenu directement dans votre projet de traduction. [En savoir plus](#manage-ht-project)
 
    * **[!UICONTROL Prêt pour la révision]** : le processus de révision est prêt à commencer, ce qui vous permet d’accéder à la traduction et de la rejeter ou de l’approuver.
 
-     Si vous avez sélectionné la variable **[!UICONTROL Activation du processus de révision]** dans votre **[!UICONTROL Projet de traduction]**, vous pouvez passer en revue la traduction directement dans Journey Optimizer une fois la traduction terminée par le fournisseur de traduction sélectionné. [En savoir plus](#review-translation-project)
+     Si vous avez sélectionné l’option **[!UICONTROL Activer le workflow de révision]** dans votre **[!UICONTROL projet de traduction]**, vous pouvez réviser la traduction directement dans Journey Optimizer une fois la traduction effectuée par le prestataire de services de traduction sélectionné. [En savoir plus](#review-translation-project)
 
-   * **[!UICONTROL Révisé]**: la traduction a été validée et prête à être publiée et envoyée à la campagne.
+   * **[!UICONTROL Révisé]** : la traduction a été approuvée et peut être publiée et envoyée à la campagne.
 
    * **[!UICONTROL Prêt à publier]** : la traduction automatique est terminée et peut désormais être envoyée à votre campagne.
 
