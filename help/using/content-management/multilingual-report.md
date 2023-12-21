@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Prise en main du contenu multilingue
+title: Commencer avec le contenu multilingue
 description: En savoir plus sur le rapport sur votre contenu multilingue dans Journey Optimizer
 feature: Multilingual Content
 topic: Content Management
@@ -13,7 +13,7 @@ hidefromtoc: true
 exl-id: 662681ad-5044-4025-aff1-204626fee052
 badge: label="Version Beta" type="Informative"
 source-git-commit: feee761f9893633f88b0109b810ac55ae82dd9e0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '217'
 ht-degree: 100%
 
@@ -25,7 +25,7 @@ ht-degree: 100%
 
 **Table des matières**
 
-* [Prise en main du contenu multilingue](multilingual-gs.md)
+* [Commencer avec le contenu multilingue](multilingual-gs.md)
 * [Créer du contenu multilingue avec traduction manuelle](multilingual-manual.md)
 * [Créer du contenu multilingue avec traduction automatisée](multilingual-automated.md)
 * **[Rapport de campagne multilingue](multilingual-report.md)**
