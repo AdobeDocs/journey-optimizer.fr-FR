@@ -10,9 +10,9 @@ hidefromtoc: true
 badge: label="Version Beta"
 exl-id: 099d1439-34f7-47fe-9181-0e9ce2032a01
 source-git-commit: c13cd73229b2fab80722663afae9fe24b660c0f9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '393'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -33,11 +33,11 @@ ht-degree: 92%
 >title="Choisir une collection"
 >abstract="Sélectionnez la collection qui contient les offres à prendre en compte. Cette étape est obligatoire lors de la création d’une stratégie de sélection. Les collections vous permettent de classer et de regrouper vos éléments de décision en fonction de vos préférences. Par exemple, vous pouvez créer une collection qui inclut tous les éléments de décision avec la valeur « Yoga » dans l’attribut personnalisé « Categorie »."
 
->[!BEGINSHADEBOX &quot;Ce que vous trouverez dans ce guide de documentation&quot;]
+>[!BEGINSHADEBOX « Ce guide couvre les sujets suivants »]
 
-* [Prise en main de la prise de décision basée sur l’expérience](gs-experience-decisioning.md)
-* Gérer les éléments de décision : [Configuration du catalogue d’éléments](catalogs.md) - [Création d’éléments de décision](items.md) - **[Gestion des collections d’éléments](collections.md)**
-* Configuration de la sélection des éléments : [Créer des règles de décision](rules.md) - [Création de méthodes de classement](ranking.md)
+* [Commencer avec la prise de décision basée sur l’expérience](gs-experience-decisioning.md)
+* Gérer les éléments de décision : [Configurer le catalogue d’éléments](catalogs.md) – [Créer des éléments de décision](items.md) – **[Gérer des collections d’éléments](collections.md)**
+* Configurer la sélection des éléments : [Créer des règles de décision](rules.md) – [Créer des méthodes de classement](ranking.md)
 * [Créer des stratégies de sélection](selection-strategies.md)
 * [Créer des politiques de décision](create-decision.md)
 
