@@ -10,7 +10,7 @@ level: Experienced
 keywords: suppression, liste, rebond, e-mail, optimizer, quarantaine
 exl-id: 430a2cd4-781d-4d37-a75d-405f5ed82377
 source-git-commit: 0ba1af43f5447df861e419b56f34a418cfbce241
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1599'
 ht-degree: 100%
 

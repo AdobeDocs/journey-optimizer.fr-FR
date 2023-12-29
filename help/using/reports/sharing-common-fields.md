@@ -29,7 +29,7 @@ Indique si l’utilisateur est entré dans le parcours. S’il n’est pas prés
 
 Type : booléen
 
-Valeurs : true/false
+Valeurs : Vrai/Faux
 
 ## reentrance {#reentrance-field}
 
@@ -37,7 +37,7 @@ Indique si l’utilisateur est entré de nouveau dans le parcours avec la même 
 
 Type : booléen
 
-Valeurs : true/false
+Valeurs : Vrai/Faux
 
 ## instanceEnded {#instance-ended-field}
 

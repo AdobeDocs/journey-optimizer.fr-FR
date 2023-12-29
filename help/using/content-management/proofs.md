@@ -18,7 +18,7 @@ Un BAT est un message spécifique qui permet de tester un message avant son envo
 
 Une fois les [profils de test](test-profiles.md) sélectionnés, vous pouvez envoyer des BAT.
 
-1. Dans l’écran **[!UICONTROL Stimuler]**, cliquez sur le bouton **[!UICONTROL Envoyer le BAT]**.
+1. Dans l’écran **[!UICONTROL Simuler]**, cliquez sur le bouton **[!UICONTROL Envoyer le BAT]**.
 
    ![](../email/assets/send-proof-button.png)
 
