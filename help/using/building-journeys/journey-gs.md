@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: parcours, premier, commencer, démarrage rapide, audience, événement, action
 exl-id: d940191e-8f37-4956-8482-d2df0c4274aa
-source-git-commit: a6b2c1585867719a48f9abc4bf0eb81558855d85
+source-git-commit: ba870af16a92ffd5aae2bb4e0abb8f0cdbb8dc80
 workflow-type: tm+mt
-source-wordcount: '1752'
-ht-degree: 99%
+source-wordcount: '1779'
+ht-degree: 91%
 
 ---
 
@@ -140,13 +140,9 @@ Pour attribuer des libellés d’utilisation des données personnalisés ou de b
 
 ![](assets/journeys-manage-access.png)
 
-### Fuseau horaire et fuseau horaire du profil {#timezone}
+### Fuseaux horaires des parcours et des profils {#timezone}
 
-Le fuseau horaire est défini au niveau du parcours.
-
-Vous pouvez entrer un fuseau horaire fixe ou utiliser les profils Adobe Experience Platform pour définir le fuseau horaire du parcours.
-
-Si un fuseau horaire est défini dans le profil Adobe Experience Platform, il peut être récupéré dans le parcours.
+Le fuseau horaire est défini au niveau du parcours. Vous pouvez saisir un fuseau horaire fixe ou utiliser les profils Adobe Experience Platform pour définir le fuseau horaire du parcours. Si un fuseau horaire est défini dans le profil Adobe Experience Platform, il peut être récupéré dans le parcours.
 
 Pour plus d&#39;informations sur la gestion des fuseaux horaires, voir [cette page](../building-journeys/timezone-management.md).
 
@@ -154,7 +150,7 @@ Pour plus d&#39;informations sur la gestion des fuseaux horaires, voir [cette pa
 
 Vous pouvez définir une **date de début**. Si vous n’en avez pas spécifié une, elle sera automatiquement définie au moment de la publication.
 
-Vous pouvez également ajouter une **date de fin**. Cela permet aux profils de se fermer automatiquement lorsque la date est atteinte. Si vous ne spécifiez pas de date de fin, les profils peuvent rester jusqu’au délai d’expiration par défaut du parcours (généralement 30 jours, 7 jours avec l’offre de module complémentaire Healthcare Shield). La seule exception concerne les parcours de lecture d’audience récurrents avec l’option **Forcer une reprise sur la périodicité** activée, qui se termine à la date de début de l’occurrence suivante.
+Vous pouvez également ajouter une **date de fin**. Cela permet aux profils de se fermer automatiquement lorsque la date est atteinte. Si aucune date de fin n’est spécifiée, les profils peuvent rester jusqu’à ce que la variable [délai d’expiration du parcours global](#global_timeout) (30 jours en général et 7 jours en général avec les offres complémentaires Bouclier de santé et Bouclier de sécurité et Bouclier de confidentialité). La seule exception concerne les parcours de lecture d’audience récurrents avec l’option **Forcer une reprise sur la périodicité** activée, qui se termine à la date de début de l’occurrence suivante.
 
 ### Temporisation et erreur dans les activités du parcours {#timeout_and_error}
 
@@ -168,7 +164,9 @@ Les parcours utilisent également une temporisation globale. Pour plus d&#39;inf
 
 ### Temporisation de parcours globale {#global_timeout}
 
-Outre la [temporisation](#timeout_and_error) utilisée dans les activités de parcours, il existe une temporisation globale qui n&#39;est pas affichée dans l&#39;interface et qui ne peut pas être modifiée. Cette valeur de temporisation mettra fin à la progression des individus dans le parcours 30 jours après leur entrée. En d&#39;autres termes, la durée du parcours d&#39;un individu ne peut pas excéder 30 jours. Après cette période de temporisation de 30 jours, les données le concernant sont supprimées. Les personnes qui sont encore actives dans le parcours au terme de cette période de temporisation seront arrêtées et ne seront pas prises en compte dans le cadre du reporting. Vous pouvez donc voir plus de personnes rejoindre le parcours que le quitter.
+En plus de la variable [timeout](#timeout_and_error) utilisé dans les activités de parcours, il existe également un délai d’expiration de parcours global qui n’est pas affiché dans l’interface et ne peut pas être modifié.
+
+Ce délai d’expiration global arrête la progression des individus dans le parcours **30 jours** après leur entrée. Ce délai d’expiration est réduit à **7 jours** grâce aux offres complémentaires Healthcare Shield et Privacy and Security Shield. Cela signifie que le parcours d’un individu ne peut pas durer plus de 30 jours (ou 7 jours). Après ce délai, les données de l’individu sont supprimées. Les personnes qui sont encore actives dans le parcours au terme de cette période de temporisation seront arrêtées et ne seront pas prises en compte dans le cadre du reporting. Vous pouvez donc voir plus de personnes rejoindre le parcours que le quitter.
 
 >[!NOTE]
 >
