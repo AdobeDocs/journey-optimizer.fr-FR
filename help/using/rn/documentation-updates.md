@@ -8,16 +8,22 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 25c63b7bd602446df0ada9a0e7aedb752f10892e
+source-git-commit: f5013f40735d424d49c2642ac824cbc6f68a3cb9
 workflow-type: tm+mt
-source-wordcount: '4216'
-ht-degree: 100%
+source-wordcount: '4236'
+ht-degree: 99%
 
 ---
 
 # Mises à jour de la documentation {#latest-updates}
 
 Cette page répertorie toutes les mises à jour de la documentation d&#39;[!DNL Journey Optimizer].
+
+## Janvier 2024 {#jan-2024}
+
+* La gestion du délai d’expiration des parcours a été détaillée. [dans la section suivante](../building-journeys/journey-gs.md#global_timeout).
+* Journey Optimizer [accueil de la documentation](../../ajo-home.md) a été repensée.
+
 
 ## Novembre 2023 {#nov-2023}
 
