@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: destination, page de destination, cas d’utilisation
 exl-id: 8c00d783-54a3-45d9-bd8f-4dc58804d922
-source-git-commit: 8579acfa881f29ef3947f6597dc11d4c740c3d68
+source-git-commit: 436507ea3ea76eb7a42cbcb3747ad236685e3f13
 workflow-type: tm+mt
-source-wordcount: '942'
-ht-degree: 100%
+source-wordcount: '943'
+ht-degree: 99%
 
 ---
 
@@ -92,7 +92,9 @@ Tous les utilisateurs inscrits à votre événement recevront l’e-mail de conf
 
 Pour permettre aux destinataires dʼannuler lʼabonnement à vos communications, vous pouvez inclure un lien vers une page de destination d&#39;opt-out dans vos e-mails.
 
-En savoir plus sur la gestion du consentement de vos destinataires et son caractère important dans [cette section](../privacy/opt-out.md).
+>[!NOTE]
+>
+>En savoir plus sur la gestion du consentement de vos destinataires et son caractère important dans [cette section](../privacy/opt-out.md).
 
 ### Gestion du droit d&#39;opposition {#opt-out-management}
 
@@ -103,7 +105,7 @@ Par conséquent, vous devez toujours inclure un **lien de désabonnement** dans 
 * Lorsqu&#39;ils cliquent sur ce lien, les destinataires sont dirigés vers une page de destination contenant un bouton pour confirmer leur désinscription.
 * Lorsque le destinataire clique sur le bouton d&#39;opt-out, les données de son profil sont mises à jour avec ces informations.
 
-### Configuration du droit d&#39;opt-out {#configure-opt-out}
+### Configuration de l’exclusion par courrier électronique {#configure-opt-out}
 
 Pour permettre aux destinataires dʼun e-mail dʼannuler leur abonnement à vos communications par le biais dʼune page de destination, procédez comme suit.
 
