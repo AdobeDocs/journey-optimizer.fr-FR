@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 61e6291f-c063-44a0-950c-8bb76de693f2
-source-git-commit: 001117b273355b18a2f429ed686c30afd6d99e89
+source-git-commit: fa641124777093914e1d9bc03b28dbf42d9764d6
 workflow-type: tm+mt
-source-wordcount: '4125'
-ht-degree: 100%
+source-wordcount: '4121'
+ht-degree: 99%
 
 ---
 
@@ -118,11 +118,9 @@ Cette version est fournie avec les améliorations répertoriées ci-dessous.
 
 **Parcours**
 
-* Lors de la duplication d’un parcours, vous pouvez désormais définir le nom de la copie de parcours. [En savoir plus](../building-journeys/journey-gs.md#uplicate-a-journey)
+* Lors de la duplication d’un parcours, vous pouvez désormais définir le nom de la copie de parcours. [En savoir plus](../building-journeys/journey-gs.md#uplicate-a-journey
 
-
-
-* La prise en charge des réponses d’action personnalisée est désormais disponible pour tout le monde. Cette fonctionnalité vous permet d’utiliser les réponses d’appel API dans des actions personnalisées et orchestrer votre parcours en fonction de ces réponses. En outre, un nouveau mécanisme de sécurisation a été ajouté pour limiter toutes les actions personnalisées à 150 000 appels sur 30 secondes par point d’entrée. [En savoir plus](../action/action-response.md)
+* La prise en charge des réponses d’action personnalisée est désormais disponible pour tout le monde. Cette fonctionnalité vous permet d’utiliser les réponses d’appel API dans des actions personnalisées et orchestrer votre parcours en fonction de ces réponses. En outre, un [nouvelle barrière de sécurité](../start/guardrails.md#custom-actions-g) a été ajouté pour limiter automatiquement les appels d’action personnalisés. [En savoir plus](../action/action-response.md)
 <!--
 * The maximum duration that you can define in the Wait activity is now 29 days instead of 30.
 -->
