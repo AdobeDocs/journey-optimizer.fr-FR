@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 10d2de34-23c1-4a5e-b868-700b462312eb
-source-git-commit: 51c6717d5d5d317c4ff1040194f2e831bea89222
+source-git-commit: d18b24f6afcd64745fe7bd3b3bc9832342b91c7b
 workflow-type: tm+mt
-source-wordcount: '880'
-ht-degree: 100%
+source-wordcount: '909'
+ht-degree: 94%
 
 ---
 
@@ -27,7 +27,9 @@ ht-degree: 100%
 >title="Sélectionner l’audience de la campagne"
 >abstract="Cette liste affiche toutes les audiences Adobe Experience Platform disponibles. Sélectionnez l’audience à cibler avec votre campagne. Le message configuré dans l’opération sera envoyé à toutes les personnes appartenant à l’audience sélectionnée. [En savoir plus sur les audiences](../audience/about-audiences.md)."
 
-[!DNL Journey Optimizer] vous permet de créer d’utiliser des audiences Adobe Experience Platform à l’aide des données de profil client en temps réel directement à partir du menu **[!UICONTROL Audiences]** et de les utiliser dans vos parcours ou campagnes. En savoir plus dans la [documentation du service de segmentation d’Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=fr){target="_blank"}.
+Une audience est un ensemble de personnes qui partagent des comportements et/ou des caractéristiques similaires. Ils peuvent être générés par Adobe Experience Platform à l’aide de définitions de segment ou de composition d’audience, ou importés à partir d’un fichier CSV. En savoir plus sur les audiences dans [Documentation de Adobe Experience Platform Segmentation Service](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=fr){target="_blank"}.
+
+[!DNL Journey Optimizer] vous permet de créer des audiences Adobe Experience Platform directement à partir du **[!UICONTROL Audiences]** et exploitez-les dans vos parcours ou campagnes.
 
 ## Utiliser des audiences dans [!DNL Journey Optimizer] {#segments-in-journey-optimizer}
 
@@ -36,6 +38,7 @@ Vous pouvez sélectionner dans des campagnes et des parcours toute audience Adob
 >[!NOTE]
 >
 >Vous pouvez également cibler les audiences Adobe Experience Platform créées à l’aide des [compositions d’audience](../audience/get-started-audience-orchestration.md) ou [chargées à partir d’un fichier CSV](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=fr#import-audience){target="_blank"}. Ces fonctionnalités sont actuellement disponibles en version bêta privée.
+
 
 Vous pouvez utiliser les audiences dans **[!DNL Journey Optimizer]** de différentes manières :
 
