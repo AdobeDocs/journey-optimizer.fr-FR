@@ -12,9 +12,9 @@ hide: true
 hidefromtoc: true
 badge: label="Version Beta"
 exl-id: c2434086-2ed4-4cd0-aecd-2eea8f0a55f6
-source-git-commit: 2060b18bfcc62e02127776f05de1448378a7a06a
+source-git-commit: 93e29ac1d81ef51c7031e9d37bc05cfc21cfce08
 workflow-type: tm+mt
-source-wordcount: '1558'
+source-wordcount: '1557'
 ht-degree: 97%
 
 ---
@@ -82,9 +82,9 @@ Cette activité est réalisée en temps opportun avec l’aide d’un spécialis
 
 Avant de pouvoir créer un plan de préchauffage d’adresses IP dans l’interface [!DNL Journey Optimizer], vous devez renseigner un modèle Excel avec toutes les données qui alimenteront votre plan.
 
-* Vous pouvez télécharger ici le blanc. [Modèle de plan de chauffage d’une adresse IP Excel](assets/ip-warmup-csv.zip) à remplir.
+* Vous pouvez télécharger ici le fichier Excel vierge. [Modèle de plan de chauffage par IP](assets/ip-warmup-plan-template.zip) à remplir.
 
-* Vous pouvez également télécharger un [exemple de modèle de plan de chauffage par IP](assets/sample-ip-warmup-plan.zip) déjà renseigné avec certaines données que vous pouvez utiliser à titre d’exemple.
+* Vous pouvez également télécharger un [exemple de plan de chauffage d’une adresse IP](assets/ip-warmup-plan-sample.zip) déjà renseigné avec certaines données que vous pouvez utiliser à titre d’exemple.
 
 >[!CAUTION]
 >
@@ -314,7 +314,7 @@ Pour créer une campagne de préchauffage d’adresses IP, suivez les étapes ci
 
    >[!NOTE]
    >
-   >En cas d’échec du chargement, assurez-vous d’utiliser le formatage et le format de fichier corrects (.xls ou .xlsx). Utilisez la variable [sample](assets/ip-warmup-csv.zip) fourni par Adobe.
+   >En cas d’échec du chargement, assurez-vous d’utiliser le formatage et le format de fichier corrects (.xls ou .xlsx). Utilisez la variable [modèle](assets/ip-warmup-plan-template.zip) fourni par Adobe.
 
 1. Cliquez sur **[!UICONTROL Créer]**. Toutes les phases, les exécutions, les colonnes et leur contenu définis dans le fichier que vous avez chargé sont automatiquement affichés dans l’interface de [!DNL Journey Optimizer].
 
