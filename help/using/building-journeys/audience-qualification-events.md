@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: qualification, événements, audience, parcours, platform
 exl-id: 7e70b8a9-7fac-4450-ad9c-597fe0496df9
-source-git-commit: 3de42084d849047f218cf8dca2ad7e510759fb1c
+source-git-commit: d735f8c92466cb17a7364833950312e338c630cc
 workflow-type: tm+mt
-source-wordcount: '987'
-ht-degree: 100%
+source-wordcount: '1011'
+ht-degree: 97%
 
 ---
 
@@ -40,6 +40,8 @@ Il est possible de positionner ce type d’événement dès la première étape,
 * Les groupes de champs d’événement d’expérience ne peuvent pas être utilisés dans les parcours commençant par une activité Lecture d’audience, Qualification d’audience ou événement métier.
 
 * Lorsque vous utilisez une qualification d’audience dans un parcours, cette activité de qualification d’audience peut demander jusqu’à 10 minutes avant d’être active et d’écouter les profils entrant ou sortant de l’audience.
+
+* Il est recommandé d’utiliser uniquement des audiences en continu pour **Qualification de l’audience** activité. Pour les cas d’utilisation par lots, utilisez **[Lecture d’audience](read-audience.md)** activité.
 
 ### Configurer l’activité{#cnfigure-segment-qualification}
 

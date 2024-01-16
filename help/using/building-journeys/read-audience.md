@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: activité, parcours, lecture, audience, platform
 exl-id: 7b27d42e-3bfe-45ab-8a37-c55b231052ee
-source-git-commit: d3aecaefb0b356eb1d25b151e8d210620b51ea5f
+source-git-commit: d735f8c92466cb17a7364833950312e338c630cc
 workflow-type: tm+mt
-source-wordcount: '1347'
-ht-degree: 100%
+source-wordcount: '1398'
+ht-degree: 96%
 
 ---
 
@@ -34,6 +34,8 @@ Prenons l’exemple de l’audience « Ouverture et passage en caisse de l’ap
 * Pour les parcours qui utilisent une activité Lecture d’audience, il y a un nombre maximal de parcours pouvant commencer exactement au même moment. Les reprises seront effectuées par le système, mais évitez d’avoir plus de cinq parcours (avec Lecture d’audience, planifié ou commençant « le plus tôt possible ») commençant exactement au même moment en les répartissant dans le temps, par exemple à 5 ou 10 minutes d’intervalle.
 
 * Les groupes de champs d’événement d’expérience ne peuvent pas être utilisés dans les parcours commençant par une activité Lecture d’audience, Qualification d’audience ou événement métier.
+
+* Il est recommandé d’utiliser uniquement des audiences par lots dans une **Lecture d’audience** activité. Cela permet un comptage fiable et cohérent pour les audiences utilisées dans un parcours. L’audience en lecture est conçue pour les cas d’utilisation par lots. Si votre cas d’utilisation nécessite des données en temps réel, utilisez **[Qualification de l’audience](audience-qualification-events.md)** activité.
 
 * Pour l’instant, l’utilisation des audiences [importées depuis un fichier CSV](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=fr#import-audience) ou [résultant des workflows de composition](../audience/get-started-audience-orchestration.md) dans les parcours est disponible en version Private Beta. Pour en savoir plus, contactez votre représentant ou représentante Adobe.
 
