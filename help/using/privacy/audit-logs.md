@@ -7,9 +7,9 @@ feature: Monitoring
 role: User
 level: Intermediate
 exl-id: 759b014a-c834-4331-bffd-5bc159ec555d
-source-git-commit: 78675ca22d8ee9a93d9af128d5708c305523da78
+source-git-commit: ac83b44ca24b26edfbf70a2781e1ed7dede318d4
 workflow-type: tm+mt
-source-wordcount: '303'
+source-wordcount: '297'
 ht-degree: 100%
 
 ---
@@ -47,7 +47,6 @@ Le tableau ci-dessous présente les actions sur lesquelles les ressources Journe
 | Modèle HTML de page de destination AJO | Créer / Supprimer / Mettre à jour |
 | Préréglage de la page de destination AJO | Créer / Supprimer / Mettre à jour |
 | Sous-domaine de page de destination AJO | Créer / Supprimer / Mettre à jour |
-| Message AJO | Créer / Supprimer / Mettre à jour / Publier |
 | Préréglage de message AJO | Créer / Supprimer / Mettre à jour |
 | Enregistrement PTR AJO | Créer / Supprimer / Mettre à jour |
 | Modèle d’expression enregistré AJO | Créer / Supprimer / Mettre à jour |

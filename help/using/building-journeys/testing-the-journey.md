@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: test, parcours, vérification, erreur, dépannage
 exl-id: 9937d9b5-df5e-4686-83ac-573c4eba983a
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: ac83b44ca24b26edfbf70a2781e1ed7dede318d4
 workflow-type: tm+mt
-source-wordcount: '1525'
-ht-degree: 100%
+source-wordcount: '1535'
+ht-degree: 95%
 
 ---
 
@@ -61,7 +61,7 @@ Pour utiliser le mode test, procédez comme suit :
 
 ## Remarques importantes {#important_notes}
 
-* En mode test, vous pouvez déclencher des événements dans l’interface.
+* En mode test, vous pouvez déclencher des événements à l’aide de l’interface . Les événements ne peuvent pas être déclenchés à partir de systèmes externes à l’aide d’une API.
 * Seuls les individus identifiés comme « profils de test » dans le service de profil client en temps réel sont autorisés à rejoindre le parcours testé. Reportez-vous à cette [section](../audience/creating-test-profiles.md).
 * Le mode test n’est disponible que dans les parcours dans un état de brouillon qui utilisent un espace de noms. Le mode test doit vérifier si une personne qui participe au parcours est un profil de test ou non et doit donc être en mesure d’accéder à Adobe Experience Platform.
 * Le nombre maximum de profils de test pouvant rejoindre un parcours au cours d’une session de test est de 100.
@@ -126,7 +126,7 @@ Notez que lorsque vous déclenchez pour la première fois un événement métier
 >title="Journaux du mode test"
 >abstract="Le bouton Afficher le journal affiche les résultats du test au format JSON. Ces résultats affichent le nombre d’individus à l’intérieur du parcours et leur état."
 
-Le bouton **[!UICONTROL Afficher le journal]** vous permet d’afficher les résultats du test. Cette page affiche des informations actuelles sur le parcours au format JSON. Un bouton vous permet de copier des nœuds entiers. Vous devez actualiser manuellement la page pour mettre à jour les résultats de test du parcours.
+Le bouton **[!UICONTROL Afficher le journal]** vous permet d’afficher les résultats du test. Cette page affiche les informations actuelles du parcours au format JSON. Un bouton vous permet de copier des nœuds entiers. Vous devez actualiser manuellement la page pour mettre à jour les résultats du test du parcours.
 
 ![](assets/journeytest3.png)
 
@@ -137,9 +137,9 @@ Le bouton **[!UICONTROL Afficher le journal]** vous permet d’afficher les rés
 
 Le nombre d’individus (appelés instances d’un point de vue technique) présents actuellement à l’intérieur du parcours est affiché. Voici des informations utiles affichées pour chaque individu :
 
-* _Id_ : identifiant interne de l’individu dans le parcours. Il peut être utilisé à des fins de débogage.
+* _Id_: identifiant interne de l’individu dans le parcours. Il peut être utilisé à des fins de débogage.
 * _Currentstep_ : étape du parcours à laquelle se trouve l’individu. Nous vous recommandons d’ajouter des libellés à vos activités afin de les identifier plus facilement.
-* _currentstep_ > phase : statut du parcours de l’individu (en cours, terminé, erreur ou délai dépassé). Plus d’informations ci-dessous.
+* _currentstep_ > phase : état du parcours de l’individu (en cours, terminé, erreur ou délai dépassé). Plus d’informations ci-dessous.
 * _currentstep_ > _extraInfo_ : description de l’erreur et autres informations contextuelles.
 * _Currentstep_ > _fetchErrors_ : informations sur les erreurs de récupération de données qui se sont produites au cours de cette étape.
 * _externalKeys_ : valeur de la formule de clé définie dans l’événement.
