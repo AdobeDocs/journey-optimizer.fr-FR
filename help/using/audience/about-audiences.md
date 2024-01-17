@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 10d2de34-23c1-4a5e-b868-700b462312eb
-source-git-commit: d18b24f6afcd64745fe7bd3b3bc9832342b91c7b
+source-git-commit: a53af66d052ee8041164184755ba80e4ab3cca0a
 workflow-type: tm+mt
-source-wordcount: '909'
-ht-degree: 94%
+source-wordcount: '970'
+ht-degree: 89%
 
 ---
 
@@ -27,9 +27,15 @@ ht-degree: 94%
 >title="Sélectionner l’audience de la campagne"
 >abstract="Cette liste affiche toutes les audiences Adobe Experience Platform disponibles. Sélectionnez l’audience à cibler avec votre campagne. Le message configuré dans l’opération sera envoyé à toutes les personnes appartenant à l’audience sélectionnée. [En savoir plus sur les audiences](../audience/about-audiences.md)."
 
-Une audience est un ensemble de personnes qui partagent des comportements et/ou des caractéristiques similaires. Ils peuvent être générés par Adobe Experience Platform à l’aide de définitions de segment ou de composition d’audience, ou importés à partir d’un fichier CSV. En savoir plus sur les audiences dans [Documentation de Adobe Experience Platform Segmentation Service](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=fr){target="_blank"}.
+Une audience est un ensemble de personnes qui partagent des comportements et/ou des caractéristiques similaires. En savoir plus sur les audiences dans [Documentation de Adobe Experience Platform Segmentation Service](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=fr){target="_blank"}.
 
 [!DNL Journey Optimizer] vous permet de créer des audiences Adobe Experience Platform directement à partir du **[!UICONTROL Audiences]** et exploitez-les dans vos parcours ou campagnes.
+
+Les audiences peuvent être générées à l’aide de différentes méthodes :
+
+* **Définitions de segment**: créez une définition d’audience à l’aide de Adobe Experience Platform Segmentation Service. [Découvrez comment créer des définitions de segment](creating-a-segment-definition.md).
+* **Importation de fichiers CSV**: importez une audience à l’aide d’un fichier CSV. Découvrez comment importer des audiences dans Adobe Experience Platform [Documentation de Segmentation Service](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=fr#import-audience){target="_blank"}.
+* **Composition de l’audience**: créez un workflow de composition afin de combiner les audiences Adobe Experience Platform existantes dans une zone de travail visuelle et d’exploiter diverses activités (fractionner, exclure..) pour créer de nouvelles audiences. [Prise en main de la composition de l’audience](get-started-audience-orchestration.md)
 
 ## Utiliser des audiences dans [!DNL Journey Optimizer] {#segments-in-journey-optimizer}
 
