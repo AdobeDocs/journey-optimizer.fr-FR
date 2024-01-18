@@ -12,10 +12,10 @@ hide: true
 hidefromtoc: true
 badge: label="Version Beta"
 exl-id: c2434086-2ed4-4cd0-aecd-2eea8f0a55f6
-source-git-commit: da90e817edac44712f6f137d13574165c834e53a
+source-git-commit: a5b3cd4eba18789d6014a7288ce6b0678a07982e
 workflow-type: tm+mt
-source-wordcount: '1560'
-ht-degree: 97%
+source-wordcount: '1577'
+ht-degree: 95%
 
 ---
 
@@ -82,9 +82,14 @@ Cette activité est réalisée en temps opportun avec l’aide d’un spécialis
 
 Avant de pouvoir créer un plan de préchauffage d’adresses IP dans l’interface [!DNL Journey Optimizer], vous devez renseigner un modèle Excel avec toutes les données qui alimenteront votre plan.
 
-* Vous pouvez télécharger le fichier Excel vierge à partir de l’interface utilisateur. [Modèle de plan de chauffage par IP](assets/IPWarmupPlan-Template.xlsx) à remplir.
+<!--
+* From the user interface you can download the blank Excel [IP warmup plan template](assets/IPWarmupPlan-Template.xlsx) to fill in.
 
-* Vous pouvez également télécharger un [exemple de plan de chauffage d’une adresse IP](assets/IPWarmupPlan-Sample.xlsx) déjà renseigné avec certaines données que vous pouvez utiliser à titre d’exemple.
+* You can also download a [sample IP warmup plan](assets/IPWarmupPlan-Sample.xlsx) already filled in with some data you can use as an example.-->
+
+* Dans l’interface utilisateur, vous pouvez télécharger le modèle de plan de réchauffement des adresses IP Excel vierge à remplir.
+
+* Vous pouvez également télécharger un exemple de plan de chauffage par IP déjà complété avec certaines données que vous pouvez utiliser à titre d’exemple.
 
 >[!CAUTION]
 >
@@ -280,7 +285,8 @@ Chaque domaine s’affiche désormais dans une colonne différente sur la même 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_ip_warmup_upload"
 >title="Définition de votre plan de préchauffage d’adresses IP"
->abstract="Téléchargez le modèle CSV et remplissez-le de données pour les phases de préchauffage d’adresses IP et le nombre cible de profils."
+>abstract="Remplissez le modèle Excel avec toutes les données qui alimenteront votre plan, telles que les phases de réchauffement des adresses IP et le nombre cible de profils, puis téléchargez-les ici."
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/implement-ip-warmup-plan/ip-warmup-plan.html#prepare-file" text="Préparer un fichier de plan de préchauffage d’adresses IP"
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_ip_warmup_surface"
