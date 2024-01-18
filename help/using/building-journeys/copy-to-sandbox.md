@@ -9,10 +9,10 @@ role: User, Developer, Data Engineer
 level: Experienced
 keywords: sandbox, parcours, copie, environnement
 exl-id: 8c63f2f2-5cec-4cb2-b3bf-2387eefb5002
-source-git-commit: b4fda6a0bd3e633811c16ef6dc3a3171b3b350c8
+source-git-commit: b7c31db7a126eb134c353e26c9e263a9bd1674a6
 workflow-type: tm+mt
-source-wordcount: '733'
-ht-degree: 100%
+source-wordcount: '743'
+ht-degree: 97%
 
 ---
 
@@ -46,7 +46,7 @@ Cette page décrit le cas d’utilisation de l’outil Sandbox dans le contexte 
 
 >[!NOTE]
 >
->Cette fonctionnalité nécessite les autorisations suivantes : manage-sandbox (ou view-sandbox) et manage-package.
+>Cette fonctionnalité nécessite les autorisations suivantes de la part de **Administration des environnements de test** fonctionnalité : gérez les environnements de test (ou affichez les environnements de test) et gérez les modules. [En savoir plus](../administration/ootb-permissions.md)
 
 ## Prise en main de l’outil Sandbox{#sandbox-gs}
 

@@ -9,10 +9,10 @@ role: Admin, User
 level: Intermediate
 keywords: autorisations, création, messages
 exl-id: 5d014017-ca7c-4206-b783-989677ec0e1c
-source-git-commit: b4998f62d5cc5fa134271ec5ce8c177150472a30
+source-git-commit: b7c31db7a126eb134c353e26c9e263a9bd1674a6
 workflow-type: tm+mt
-source-wordcount: '740'
-ht-degree: 96%
+source-wordcount: '746'
+ht-degree: 95%
 
 ---
 
@@ -40,6 +40,6 @@ Les autorisations intégrées représentent les différentes autorisations qui p
 | Parcours | **[!DNL Manage journeys]** : lecture, création, modification et suppression des parcours.</br>**[!DNL View journeys]** : accès en lecture seule aux parcours.</br>**[!DNL Publish journeys]** : la publication des parcours.</br>**[!DNL Manage journeys events, data sources and actions]** : la lecture, la création, la modification et la suppression des événements, des sources ou des actions.</br>**[!DNL View journeys events, data sources and actions]** : accès en lecture seule aux événements de parcours, aux actions personnalisées de parcours et aux sources de données de parcours.</br>**[!DNL View journeys report]**: lecture et modification du rapport parcours.</br> |
 | Gestion des profils | **[!DNL Manage profiles]**: lecture, création, modification et suppression des jeux de données utilisés pour les profils de clients et clientes. Accès en lecture seule aux profils disponibles.</br>**[!DNL View profiles]** : accès en lecture seule aux profils disponibles.</br>**[!DNL Export audience segments]** : export d’un segment d’audience évalué vers un jeu de données.</br>**[!DNL View segments]** : l’accès en lecture seule aux audiences disponibles.</br>**[!DNL Evaluate a segment to an audience]** : génération de profils pour une audience en évaluant une définition de segment.</br>**[!DNL Manage merge policies]** : la lecture, la création, la modification et la suppression des politiques de fusion.</br>**[!DNL View merge policies]** : accès en lecture seule aux politiques de fusion disponibles. |
 | Query Service | **[!DNL Manage queries]** : lecture, création, modification et suppression des requêtes SQL structurées pour les données Platform.</br>**[!DNL Manage query service integration]** : création, mise à jour et suppression des informations dʼidentification sans date dʼexpiration pour lʼaccès à Query Service. |
-| Administration des sandbox | **[!DNL Manage sandboxes]** : lecture, création, modification et suppression des sandbox.</br>**[!DNL View sandboxes]** : accès en lecture seule aux sandbox appartenant à votre organisation.</br>**[!DNL Reset sandboxes]** : capacité à réinitialiser un sandbox.</br>**[!DNL Export sandboxes]** : capacité à exporter un sandbox. |
+| Administration des sandbox | **[!DNL Manage sandboxes]** : lecture, création, modification et suppression des sandbox.</br>**[!DNL View sandboxes]** : accès en lecture seule aux sandbox appartenant à votre organisation.</br>**[!DNL Reset sandboxes]** : capacité à réinitialiser un sandbox.</br>**[!DNL Export sandboxes]** : capacité à exporter un sandbox.</br>**[!DNL Manage packages]**: lisez, créez, modifiez et supprimez des modules. |
 
 {style="table-layout:fixed"}
