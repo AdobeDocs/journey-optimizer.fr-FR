@@ -6,47 +6,44 @@ topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: 918927e1-ad7a-4937-b652-2a0932e9efa1
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: ba7d065523116c12e22eec300df13c29d92a54fb
 workflow-type: tm+mt
-source-wordcount: '170'
-ht-degree: 100%
+source-wordcount: '117'
+ht-degree: 69%
 
 ---
 
+
 # Mettre à jour un qualificateur de collection {#update-collection-qualifier}
 
-Vous pouvez modifier ou mettre à jour un qualificateur de collection (auparavant appelé « balise ») dans votre conteneur en exécutant une requête PATCH sur l’API [!DNL Offer Library].
+Vous pouvez modifier ou mettre à jour un qualificateur de collection (précédemment appelé &quot;balise&quot;) en adressant une requête de PATCH à l’API de bibliothèque des offres.
 
 Pour plus d&#39;informations sur JSON Patch, notamment les opérations disponibles, consultez la [documentation JSON Patch](https://jsonpatch.com/) officielle.
 
 ## En-têtes Accept et Content-Type {#accept-and-content-type-headers}
 
-Le tableau suivant montre les valeurs valides qui comprennent les champs *Content-Type* et *Accept* dans l&#39;en-tête de la requête :
+Le tableau suivant montre les valeurs valides qui comprennent le champ *Type de contenu* dans l’en-tête de la requête :
 
 | Nom de l&#39;en-tête | Valeur |
 | ----------- | ----- |
-| Accept | `application/vnd.adobe.platform.xcore.xdm.receipt+json; version=1` |
-| Content-Type | `application/vnd.adobe.platform.xcore.patch.hal+json; version=1; schema="https://ns.adobe.com/experience/offer-management/tag;version=0.1"` |
+| Content-Type | `application/json` |
 
 **Format d&#39;API**
 
 ```http
-PATCH /{ENDPOINT_PATH}/{CONTAINER_ID}/instances/{INSTANCE_ID}
+PATCH /{ENDPOINT_PATH}/tags/{ID}
 ```
 
 | Paramètre | Description | Exemple |
 | --------- | ----------- | ------- |
-| `{ENDPOINT_PATH}` | Chemin d’accès de point d’entrée pour les API de référentiel. | `https://platform.adobe.io/data/core/xcore/` |
-| `{CONTAINER_ID}` | Conteneur où se trouvent les balises. | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
-| `{INSTANCE_ID}` | ID d’instance de la balise que vous souhaitez mettre à jour. | `d48fd160-13dc-11eb-bc55-c11be7252432` |
+| `{ENDPOINT_PATH}` | Chemin d’accès de point d’entrée pour les API Persistence | `https://platform.adobe.io/data/core/dps/` |
+| `{ID}` | ID de l’entité que vous souhaitez mettre à jour. | `tag1234` |
 
 **Requête**
 
 ```shell
-curl -X PATCH \
-  'https://platform.adobe.io/data/core/xcore/e0bd8463-0913-4ca1-bd84-6309134ca1f6/instances/d48fd160-13dc-11eb-bc55-c11be7252432' \
-  -H 'Accept: application/vnd.adobe.platform.xcore.xdm.receipt+json; version=1' \
-  -H 'Content-Type: application/vnd.adobe.platform.xcore.patch.hal+json; version=1; schema="https://ns.adobe.com/experience/offer-management/tag;version=0.1"' \
+curl -X PATCH 'https://platform.adobe.io/data/core/dps/tags/tag1234' \
+-H 'Content-Type: application/json' \
 -H 'Authorization: Bearer  {ACCESS_TOKEN}' \
 -H 'x-api-key: {API_KEY}' \
 -H 'x-gw-ims-org-id: {IMS_ORG}' \
@@ -54,32 +51,31 @@ curl -X PATCH \
 -d '[
     {
         "op": "replace",
-          "path": "/_instance/xdm:name",
-          "value": "Sales and promotions for the holidays"
+        "path": "/name",
+        "value": "Updated tag"
+    },
+    {
+        "op": "replace",
+        "path": "/description",
+        "value": "Updated tag description"
     }
 ]'
 ```
 
-| Paramètre | Description |
-| --------- | ----------- |
-| `op` | Appel d’opération utilisé pour définir l’action nécessaire pour mettre à jour la connexion. Les opérations comprennent : `add`, `replace` et `remove`. |
-| `path` | Chemin d’accès du paramètre à mettre à jour. |
-| `value` | Nouvelle valeur avec laquelle vous souhaitez mettre à jour votre paramètre. |
-
 **Réponse**
 
-Une réponse réussie renvoie les détails mis à jour du qualificateur de collection, y compris son identifiant d’instance unique et son `@id` de qualificateur de collection.
+Une réponse réussie renvoie les détails mis à jour du qualificateur de collection, y compris son unique `id`.
 
 ```json
 {
-    "instanceId": "d48fd160-13dc-11eb-bc55-c11be7252432",
-    "@id": "xcore:tag:124e147572cd7866",
-    "repo:etag": 2,
-    "repo:createdDate": "2020-10-21T20:34:34.486296Z",
-    "repo:lastModifiedDate": "2020-10-21T20:36:31.782607Z",
-    "repo:createdBy": "{CREATED_BY}",
-    "repo:lastModifiedBy": "{MODIFIED_BY}",
-    "repo:createdByClientId": "{CREATED_CLIENT_ID}",
-    "repo:lastModifiedByClientId": "{MODIFIED_CLIENT_ID}"
+    "id": "{ID}",
+    "sandboxId": "{SANDBOX_ID}",
+    "etag": 2,
+    "createdDate": "2023-09-07T12:36:26.602Z",
+    "lastModifiedDate": "2023-09-07T12:36:26.602Z",
+    "createdBy": "{CREATED_BY}",
+    "lastModifiedBy": "{MODIFIED_BY}",
+    "createdByClientId": "{CREATED_CLIENT_ID}",
+    "lastModifiedByClientId": "{MODIFIED_CLIENT_ID}"
 }
 ```
