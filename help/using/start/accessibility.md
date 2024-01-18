@@ -7,7 +7,7 @@ feature: Accessibility
 role: User
 level: Beginner
 exl-id: d971c04c-9b37-4cd7-8a2d-b915e394079b
-source-git-commit: 1f747604a8658a285c5ec67018c70cd58d2fb068
+source-git-commit: 72e192538b6dd2f0cf50e4d6ce8d5b2b789308d4
 workflow-type: tm+mt
 source-wordcount: '534'
 ht-degree: 100%
@@ -88,10 +88,9 @@ Vous pouvez utiliser ces raccourcis dans des parties spécifiques de l’interfa
     <td>Maj + touches fléchées</td>
   </tr>  
   <tr>
-  <td rowspan="3">
 
-Volet de configuration de ces éléments :
-
+<td rowspan="3">
+  Volet de configuration de ces éléments :
 <ul>
   <li>Activité dans un parcours</li>
   <li>Événement</li>
