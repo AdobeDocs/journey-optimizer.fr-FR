@@ -7,7 +7,7 @@ feature: Accessibility
 role: User
 level: Beginner
 exl-id: d971c04c-9b37-4cd7-8a2d-b915e394079b
-source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
+source-git-commit: 1f747604a8658a285c5ec67018c70cd58d2fb068
 workflow-type: tm+mt
 source-wordcount: '534'
 ht-degree: 100%
@@ -55,7 +55,7 @@ Vous pouvez utiliser ces raccourcis dans des parties spécifiques de l’interfa
     <td>C</td>
   </tr>
   <tr>
-    <td rowspan="3">Zone de travail de parcours à l'état de brouillon</td>
+    <td rowspan="8">Zone de travail de parcours à l'état de brouillon</td>
     <td>Ajoutez une activité à partir de la palette gauche à la première position disponible, du haut vers le bas.</td>
     <td>Effectuez un double clic sur l’activité.</td>
   </tr>
