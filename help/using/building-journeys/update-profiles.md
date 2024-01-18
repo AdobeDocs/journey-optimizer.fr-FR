@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: profil, mise à jour, parcours, activité
 exl-id: 8b2b2d1e-9bd1-439d-a15e-acdbab387c4b
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: b9d70bf2b3e16638a03b59fd4036771ad959a631
 workflow-type: tm+mt
-source-wordcount: '476'
-ht-degree: 100%
+source-wordcount: '535'
+ht-degree: 88%
 
 ---
 
@@ -33,6 +33,8 @@ Utilisez l’activité d&#39;action **[!UICONTROL Mettre à jour le profil]** po
 * Comme toute autre action, vous pouvez définir un chemin alternatif en cas d&#39;erreur ou de temporisation, et vous ne pouvez pas placer deux actions en parallèle.
 * La demande de mise à jour envoyée à Adobe Experience Platform est immédiate/inférieure à une seconde. Cela prendra normalement quelques secondes, parfois plus, sans aucune garantie. En conséquence, par exemple, si une action utilise « champ 1 » mis à jour par une action **Mettre à jour le profil** positionnée juste avant, vous ne devriez pas vous attendre à une mise à jour du « champ 1 » dans l&#39;action.
 * L’activité **Mettre à jour le profil** ne prend pas en charge les champs XDM définis comme une énumération.
+* La variable **[!UICONTROL Mettre à jour le profil]** l’activité ne met à jour que la variable [Boutique de profils](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html#profile-data-store){target="_blank"}, et non le lac de données.
+* Lors de la sélection d’un jeu de données dans le **[!UICONTROL Mettre à jour le profil]** activité, il est conseillé d’en utiliser une qui n’est pas ciblée par les flux d’ingestion de données. **[!UICONTROL Mettre à jour le profil]** mises à jour stockées uniquement dans la variable [Boutique de profils](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html#profile-data-store){target="_blank"}, un tel changement risque d’être remplacé par un flux d’ingestion de données.
 
 ## Utilisation de la mise à jour du profil
 

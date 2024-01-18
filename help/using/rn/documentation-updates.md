@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: bf7f09f644beb869cf30733e57754d8cf0408c9e
+source-git-commit: b9d70bf2b3e16638a03b59fd4036771ad959a631
 workflow-type: tm+mt
-source-wordcount: '4247'
+source-wordcount: '4258'
 ht-degree: 99%
 
 ---
@@ -24,7 +24,7 @@ Cette page répertorie toutes les mises à jour de la documentation d&#39;[!DNL 
 * Un garde-fou sur la taille du parcours a été ajouté. [En savoir plus](../start/guardrails.md#journeys-guardrails-journeys)
 * La gestion du délai d’expiration des parcours a été détaillée. [dans la section suivante](../building-journeys/journey-gs.md#global_timeout).
 * Journey Optimizer [accueil de la documentation](../../ajo-home.md) a été repensée.
-
+* Ajout de Recommendations à propos de l’activité Mise à jour de profils - [En savoir plus](../building-journeys/update-profiles.md)
 
 ## Novembre 2023 {#nov-2023}
 
