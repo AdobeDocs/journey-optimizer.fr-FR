@@ -6,7 +6,7 @@ topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: 8cee44ed-5569-416c-b463-e75fb20d4c9c
-source-git-commit: ba7d065523116c12e22eec300df13c29d92a54fb
+source-git-commit: 28c811c330d367c1a99bdd8184a62b1dd45b608d
 workflow-type: tm+mt
 source-wordcount: '236'
 ht-degree: 85%
@@ -33,7 +33,7 @@ GET /{ENDPOINT_PATH}/tags?{QUERY_PARAMS}
 | `{ENDPOINT_PATH}` | Chemin d’accès de point d’entrée pour les API Persistence | `https://platform.adobe.io/data/core/dps` |
 | `{QUERY_PARAMS}` | Paramètres de requête facultatifs en fonction desquels filtrer les résultats. | `limit=2` |
 
-### Pagination {#paging}
+## Pagination {#paging}
 
 Les paramètres de requête les plus courants pour la pagination sont les suivants :
 
