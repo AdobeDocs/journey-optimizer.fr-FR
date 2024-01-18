@@ -7,10 +7,10 @@ feature: Accessibility
 role: User
 level: Beginner
 exl-id: d971c04c-9b37-4cd7-8a2d-b915e394079b
-source-git-commit: 72e192538b6dd2f0cf50e4d6ce8d5b2b789308d4
+source-git-commit: b37ad6fd3eb41f7cdde28c24fefc13c8b676f803
 workflow-type: tm+mt
-source-wordcount: '534'
-ht-degree: 100%
+source-wordcount: '535'
+ht-degree: 96%
 
 ---
 
@@ -88,8 +88,7 @@ Vous pouvez utiliser ces raccourcis dans des parties spécifiques de l’interfa
     <td>Maj + touches fléchées</td>
   </tr>  
   <tr>
-
-<td rowspan="3">
+  <td rowspan="3">
   Volet de configuration de ces éléments :
 <ul>
   <li>Activité dans un parcours</li>
@@ -97,8 +96,7 @@ Vous pouvez utiliser ces raccourcis dans des parties spécifiques de l’interfa
   <li>Source de données</li>
   <li>Action</li>
 </ul>
-
-</td>
+  </td>
     <td>Accès au champ suivant à configurer</td>
     <td>Tabulation</td>
   </tr>
@@ -120,11 +118,7 @@ Vous pouvez utiliser ces raccourcis dans des parties spécifiques de l’interfa
     <td>E</td>
   </tr>
   <tr>
-    <td>
-
-Déclenchement d’un événement dans un parcours basé sur des audiences pour lequel l’option **[!UICONTROL Un profil unique à la fois]** est activée
-
-</td>
+    <td>Déclenchez un événement dans un parcours basé sur l’audience pour lequel l’option **[!UICONTROL Profil unique à la fois]** est activée.</td>
     <td>P</td>
   </tr>
   <tr>

@@ -9,7 +9,7 @@ role: Admin
 level: Experienced
 hide: true
 hidefromtoc: true
-source-git-commit: a20318a2c38d3ee97e3347439e6b02e2ef04acf6
+source-git-commit: 922789a4dd439f3c3953f235ea2fc556bf929f33
 workflow-type: tm+mt
 source-wordcount: '53'
 ht-degree: 0%
@@ -26,4 +26,3 @@ This page is not supposed to be publicly accessible. Its only purpose is to make
 * Vous pouvez télécharger le fichier Excel vierge à partir de l’interface utilisateur. [Modèle de plan de chauffage par IP](assets/IPWarmupPlan-Template.xlsx) à remplir.
 
 * Vous pouvez également télécharger un [exemple de plan de chauffage d’une adresse IP](assets/IPWarmupPlan-Sample.xlsx) déjà renseigné avec certaines données que vous pouvez utiliser à titre d’exemple.
-
