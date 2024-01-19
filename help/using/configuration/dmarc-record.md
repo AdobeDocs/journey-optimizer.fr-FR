@@ -8,7 +8,7 @@ topic: Administration
 role: Admin
 level: Experienced
 keywords: sous-domaine, domaine, courrier, dmarc, enregistrement
-source-git-commit: 5565c98e41e0abc9ae93f85cb12679e372e6d36f
+source-git-commit: 49cb9734d66dc1aa2a3531c71a687aac00834d82
 workflow-type: tm+mt
 source-wordcount: '599'
 ht-degree: 0%
@@ -61,7 +61,7 @@ DMARC, qui signifie **Authentification, création de rapports et conformité des
 
 La configuration d’un enregistrement DMARC implique l’ajout d’un enregistrement TXT DNS aux paramètres DNS de votre domaine. Cet enregistrement spécifie votre stratégie DMARC, par exemple s’il faut mettre en quarantaine ou rejeter les messages qui ne parviennent pas à s’authentifier. La mise en oeuvre de DMARC est une étape proactive pour améliorer la sécurité des emails et protéger votre organisation et vos destinataires des menaces basées sur les emails.
 
-[En savoir plus sur DMARC dans le guide des bonnes pratiques de délivrabilité](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/technotes/implement-dmarc.html?lang=fr){target="_blank"} pour mieux comprendre l’impact de DMARC sur la délivrabilité des emails.
+[En savoir plus sur DMARC dans le guide des bonnes pratiques de délivrabilité](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/technotes/implement-dmarc.html#about){target="_blank"} pour mieux comprendre l’impact de DMARC sur la délivrabilité des emails.
 
 Si vous n&#39;ajoutez pas DMARC, vous serez mis en quarantaine (au moins).
 

@@ -5,7 +5,7 @@ user-guide-title: Guide de Journey Optimizer
 user-guide-description: Utilisez Journey Optimizer pour créer et proposer aux clients des expériences connectées, contextuelles et personnalisées
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 5565c98e41e0abc9ae93f85cb12679e372e6d36f
+source-git-commit: 49cb9734d66dc1aa2a3531c71a687aac00834d82
 workflow-type: tm+mt
 source-wordcount: '1724'
 ht-degree: 99%
@@ -357,6 +357,7 @@ ht-degree: 99%
    + Délivrabilité {#deliverability}
       + [Prise en main de la délivrabilité](using/reports/deliverability.md)
       + [Présentation de la liste de suppression](using/reports/suppression-list.md)
+      + [Mise à jour DMARC obligatoire](using/configuration/dmarc-record-update.md)
    + [Raisons de l’erreur](using/reports/error-list.md)
    + [Alertes](using/reports/alerts.md)
    + [Utiliser Customer Journey Analytics](using/reports/cja-ajo.md)
@@ -528,7 +529,6 @@ ht-degree: 99%
       + [Ajout d’un enregistrement TXT Google](using/configuration/google-txt.md)
       + [Accès aux enregistrements PTR et modification](using/configuration/ptr-records.md)
       + [Création de groupes d’adresses IP](using/configuration/ip-pools.md)
-      + [Mise à jour des enregistrements DMARC](using/configuration/dmarc-record-update.md)
    + Mettre en œuvre un plan de préchauffage des adresses IP {#implement-ip-warmup-plan}
       + [Prise en main des plans de préchauffage d’adresses IP](using/configuration/ip-warmup-gs.md)
       + [Créer des campagnes de préchauffage d’adresses IP](using/configuration/ip-warmup-campaign.md)
