@@ -8,9 +8,9 @@ topic: Administration
 role: Admin
 level: Experienced
 keywords: sous-domaine, domaine, courrier, dmarc, enregistrement
-source-git-commit: 49cb9734d66dc1aa2a3531c71a687aac00834d82
+source-git-commit: 7cbd6a9e80a8d6b87b3c3011db80549a3b5f6e73
 workflow-type: tm+mt
-source-wordcount: '468'
+source-wordcount: '466'
 ht-degree: 3%
 
 ---
@@ -24,11 +24,11 @@ ht-degree: 3%
 
 Dans le cadre de l’application des bonnes pratiques du secteur, Google et Yahoo exigent tous deux que vous disposiez d’un **Enregistrement DMARC** pour tout domaine que vous utilisez pour leur envoyer des emails. Cette nouvelle exigence commence à **1er février 2024**.
 
+En savoir plus sur Google et les exigences de Yahoo dans [cette section](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/guidance-around-changes-to-google-and-yahoo.html?lang=en#dmarc%3A){target="_blank"}.
+
 >[!CAUTION]
 >
 >Si vous ne respectez pas cette nouvelle exigence de Gmail et Yahoo, les emails seront probablement envoyés dans le dossier spam ou bloqués.
-
-En savoir plus sur les exigences de Google et de Yahoo dans [cette section](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/guidance-around-changes-to-google-and-yahoo.html?lang=en#dmarc%3A){target="_blank"}.
 
 Par conséquent, Adobe vous recommande vivement de vous assurer que les enregistrements DMARC sont configurés pour tous les sous-domaines que vous avez délégués à l’Adobe dans [!DNL Journey Optimizer]. Suivez l’une des deux options ci-dessous :
 
@@ -36,7 +36,7 @@ Par conséquent, Adobe vous recommande vivement de vous assurer que les enregist
 
 * Configuration de DMARC sur vos sous-domaines délégués **à l’aide de la fonction à venir dans la fonction [!DNL Journey Optimizer] Interface utilisateur d’administration** - sans travail supplémentaire sur votre solution d’hébergement.
 
-  >[!WARNING]
+  >[!CAUTION]
   >
   >Si vous avez configuré [Délégation CNAME](delegate-subdomain.md#cname-subdomain-delegation) pour vos sous-domaines d’envoi, une entrée dans votre solution d’hébergement sera également nécessaire. Assurez-vous de vous coordonner avec votre service informatique afin qu’il puisse effectuer la mise à jour dès que la variable [!DNL Journey Optimizer] Cette fonctionnalité est disponible (le 30 janvier 2024). <!--and be ready on February 1st, 2024-->
 
@@ -73,4 +73,4 @@ Les dernières chronologies partagées par Google et Yahoo sont les suivantes :
 
 >[!NOTE]
 >
->En savoir plus sur DMARC dans la section [Guide des bonnes pratiques de délivrabilité](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/technotes/implement-dmarc.html#about){target="_blank"} pour mieux comprendre l’impact de la mise en oeuvre de DMARC sur la délivrabilité des emails.
+>En savoir plus sur l’implémentation de DMARC dans [Guide des bonnes pratiques de délivrabilité](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/technotes/implement-dmarc.html#about){target="_blank"} pour mieux comprendre l’impact sur la délivrabilité des emails.
