@@ -8,9 +8,11 @@ topic: Administration
 role: Admin
 level: Experienced
 keywords: sous-domaine, domaine, courrier, dmarc, enregistrement
-source-git-commit: 7cbd6a9e80a8d6b87b3c3011db80549a3b5f6e73
+hide: true
+hidefromtoc: true
+source-git-commit: f9d3234a64ad659660c2d2c4ad24ab5c240cb857
 workflow-type: tm+mt
-source-wordcount: '466'
+source-wordcount: '475'
 ht-degree: 3%
 
 ---
@@ -20,7 +22,7 @@ ht-degree: 3%
 >[!CONTEXTUALHELP]
 >id="ajo_admin_dmarc_banner_link"
 >title="En savoir plus sur la mise à jour DMARC obligatoire"
->abstract="Dans le cadre de l’application des bonnes pratiques du secteur, Google et Yahoo exigent tous deux que vous disposiez d’un **Enregistrement DMARC** pour tout domaine que vous utilisez pour leur envoyer des emails. Cette nouvelle exigence commence à **1er février 2024**. <br>Par conséquent, Adobe vous recommande vivement de vous assurer que les enregistrements DMARC sont configurés pour tous les sous-domaines que vous avez délégués à Adobe dans Journey Optimizer."
+>abstract="Dans le cadre de l’application des bonnes pratiques du secteur, Google et Yahoo exigent tous deux que vous disposiez d’un **Enregistrement DMARC** pour tout domaine que vous utilisez pour leur envoyer des emails, en commençant par **1er février 2024**. <br>Par conséquent, vous devez vous assurer que les enregistrements DMARC sont configurés pour tous les sous-domaines que vous avez délégués à Adobe dans Journey Optimizer."
 
 Dans le cadre de l’application des bonnes pratiques du secteur, Google et Yahoo exigent tous deux que vous disposiez d’un **Enregistrement DMARC** pour tout domaine que vous utilisez pour leur envoyer des emails. Cette nouvelle exigence commence à **1er février 2024**.
 
@@ -32,9 +34,9 @@ En savoir plus sur Google et les exigences de Yahoo dans [cette section](https:/
 
 Par conséquent, Adobe vous recommande vivement de vous assurer que les enregistrements DMARC sont configurés pour tous les sous-domaines que vous avez délégués à l’Adobe dans [!DNL Journey Optimizer]. Suivez l’une des deux options ci-dessous :
 
-* Configurez DMARC sur vos sous-domaines ou sur le domaine parent de vos sous-domaines, **dans votre solution d’hébergement**.
+* Configurez DMARC sur vos sous-domaines ou sur le domaine parent de vos sous-domaines, **dans votre solution d’hébergement**. Vous pouvez le faire à partir de maintenant.
 
-* Configuration de DMARC sur vos sous-domaines délégués **à l’aide de la fonction à venir dans la fonction [!DNL Journey Optimizer] Interface utilisateur d’administration** - sans travail supplémentaire sur votre solution d’hébergement.
+* Configuration de DMARC sur vos sous-domaines délégués **à l’aide de la fonction à venir dans la fonction [!DNL Journey Optimizer] Interface utilisateur d’administration** - sans travail supplémentaire sur votre solution d’hébergement. Cette fonctionnalité sera disponible le 30 janvier 2024.
 
   >[!CAUTION]
   >
