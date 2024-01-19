@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: sous-domaine, délégation, domaine, DNS
 exl-id: 8021f66e-7725-475b-8722-e6f8d74c9023
-source-git-commit: c4b8a74541a3fb9fea054bd1145592d75c62b165
+source-git-commit: 5565c98e41e0abc9ae93f85cb12679e372e6d36f
 workflow-type: tm+mt
-source-wordcount: '1749'
-ht-degree: 100%
+source-wordcount: '1827'
+ht-degree: 95%
 
 ---
 
@@ -85,6 +85,8 @@ Pour déléguer complètement un nouveau sous-domaine à Adobe, procédez comme 
    >
    >Vous pouvez créer les enregistrements et soumettre ultérieurement la configuration du sous-domaine à l&#39;aide du bouton **[!UICONTROL Enregistrer en tant que brouillon]**. Vous pourrez ensuite reprendre la délégation de sous-domaine en l&#39;ouvrant à partir de la liste de sous-domaines.
 
+1. Si le sous-domaine ne comporte pas d’enregistrements DMARC, vous pouvez les définir ici. Si le sous-domaine contenait des enregistrements DMARC existants et s’ils ont été récupérés par [!DNL Journey Optimizer], vous pouvez utiliser les mêmes valeurs ou les modifier selon vos besoins. En savoir plus
+
 1. Une fois la délégation de sous-domaine complète envoyée, le sous-domaine sʼaffiche dans la liste avec le statut **[!UICONTROL Traitement]**. Pour en savoir plus sur les statuts des sous-domaines, consultez [cette section](about-subdomain-delegation.md#access-delegated-subdomains).
 
    ![](assets/subdomain-processing.png)
@@ -154,6 +156,8 @@ Pour déléguer un sous-domaine à l’aide de CNAME, procédez comme suit :
    >[!NOTE]
    >
    >Vous pouvez créer des enregistrements ultérieurement à lʼaide du bouton **[!UICONTROL Enregistrer en tant que brouillon]**. Vous pourrez ensuite reprendre la délégation de sous-domaine à ce stade en lʼouvrant à partir de la liste de sous-domaines.
+
+1. Si le sous-domaine ne comporte pas d’enregistrements DMARC, vous pouvez les définir ici. Si le sous-domaine contenait des enregistrements DMARC existants et s’ils ont été récupérés par [!DNL Journey Optimizer], vous pouvez utiliser les mêmes valeurs ou les modifier selon vos besoins. En savoir plus
 
 1. Patientez jusquʼà ce quʼAdobe sʼassure que ces enregistrements ont été générés sans erreurs sur votre solution dʼhébergement. Cette opération peut prendre jusquʼà 2 minutes.
 

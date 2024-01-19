@@ -5,9 +5,9 @@ user-guide-title: Guide de Journey Optimizer
 user-guide-description: Utilisez Journey Optimizer pour créer et proposer aux clients des expériences connectées, contextuelles et personnalisées
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 47598318d2d411d98aa9fa135679442f25b703c7
+source-git-commit: 5565c98e41e0abc9ae93f85cb12679e372e6d36f
 workflow-type: tm+mt
-source-wordcount: '1721'
+source-wordcount: '1724'
 ht-degree: 99%
 
 ---
@@ -528,6 +528,7 @@ ht-degree: 99%
       + [Ajout d’un enregistrement TXT Google](using/configuration/google-txt.md)
       + [Accès aux enregistrements PTR et modification](using/configuration/ptr-records.md)
       + [Création de groupes d’adresses IP](using/configuration/ip-pools.md)
+      + [Mise à jour des enregistrements DMARC](using/configuration/dmarc-record-update.md)
    + Mettre en œuvre un plan de préchauffage des adresses IP {#implement-ip-warmup-plan}
       + [Prise en main des plans de préchauffage d’adresses IP](using/configuration/ip-warmup-gs.md)
       + [Créer des campagnes de préchauffage d’adresses IP](using/configuration/ip-warmup-campaign.md)
