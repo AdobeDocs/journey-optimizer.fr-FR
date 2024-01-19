@@ -7,10 +7,10 @@ feature: SMS, Channel Configuration
 role: Admin
 level: Intermediate
 exl-id: 4dcd22ed-bf7e-4789-ab7b-33544c857db8
-source-git-commit: 227cdb77b0db40c59fa089789c444c2364fd062e
+source-git-commit: 1a3a67571ef839bf8e1942e4c9599aa52ea7e2dc
 workflow-type: tm+mt
-source-wordcount: '1057'
-ht-degree: 100%
+source-wordcount: '1081'
+ht-degree: 96%
 
 ---
 
@@ -40,8 +40,13 @@ Votre utilisation des services de messages texte sera soumise aux conditions gé
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_sms_api_header"
->title="Configurer votre fournisseur de SMS/MMS avec Journey Optimizer"
->abstract="Adobe Journey Optimizer envoie des message texte par le biais des fournisseurs de services SMS/MMS. Sélectionnez votre fournisseur et renseignez vos informations d’identification de l’API."
+>title="Configuration de votre fournisseur de SMS avec Journey Optimizer"
+>abstract="Adobe Journey Optimizer envoie des SMS par le biais des fournisseurs de services SMS. Sélectionnez votre fournisseur et renseignez vos informations d’identification de l’API."
+
+>[!CONTEXTUALHELP]
+>id="ajo_admin_mms_api_header"
+>title="Configuration de votre fournisseur MMS avec Journey Optimizer"
+>abstract="Adobe Journey Optimizer envoie du contenu multimédia via les fournisseurs de services MMS. Sélectionnez votre fournisseur et renseignez vos informations d’identification de l’API."
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_sms_api"
