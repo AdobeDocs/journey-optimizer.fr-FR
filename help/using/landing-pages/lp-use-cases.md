@@ -10,9 +10,9 @@ level: Intermediate
 keywords: destination, page de destination, cas d’utilisation
 exl-id: 8c00d783-54a3-45d9-bd8f-4dc58804d922
 source-git-commit: 436507ea3ea76eb7a42cbcb3747ad236685e3f13
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '943'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -105,7 +105,7 @@ Par conséquent, vous devez toujours inclure un **lien de désabonnement** dans 
 * Lorsqu&#39;ils cliquent sur ce lien, les destinataires sont dirigés vers une page de destination contenant un bouton pour confirmer leur désinscription.
 * Lorsque le destinataire clique sur le bouton d&#39;opt-out, les données de son profil sont mises à jour avec ces informations.
 
-### Configuration de l’exclusion par courrier électronique {#configure-opt-out}
+### Configurer la procédure d’opt-out des e-mails {#configure-opt-out}
 
 Pour permettre aux destinataires dʼun e-mail dʼannuler leur abonnement à vos communications par le biais dʼune page de destination, procédez comme suit.
 
