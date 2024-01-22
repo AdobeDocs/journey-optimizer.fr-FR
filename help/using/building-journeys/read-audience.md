@@ -10,9 +10,9 @@ level: Intermediate
 keywords: activité, parcours, lecture, audience, platform
 exl-id: 7b27d42e-3bfe-45ab-8a37-c55b231052ee
 source-git-commit: d735f8c92466cb17a7364833950312e338c630cc
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1398'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -35,7 +35,7 @@ Prenons l’exemple de l’audience « Ouverture et passage en caisse de l’ap
 
 * Les groupes de champs d’événement d’expérience ne peuvent pas être utilisés dans les parcours commençant par une activité Lecture d’audience, Qualification d’audience ou événement métier.
 
-* Il est recommandé d’utiliser uniquement des audiences par lots dans une **Lecture d’audience** activité. Cela permet un comptage fiable et cohérent pour les audiences utilisées dans un parcours. L’audience en lecture est conçue pour les cas d’utilisation par lots. Si votre cas d’utilisation nécessite des données en temps réel, utilisez **[Qualification de l’audience](audience-qualification-events.md)** activité.
+* En guise de bonne pratique, il est recommandé d’utiliser uniquement des audiences par lots dans une activité **Lecture d’audience**. Cela permet un comptage fiable et cohérent des audiences utilisées dans un parcours. La lecture d’audience est conçue pour les cas d’utilisation par lots. Si votre cas d’utilisation nécessite des données en temps réel, utilisez l’activité **[Qualification de l’audience](audience-qualification-events.md)**.
 
 * Pour l’instant, l’utilisation des audiences [importées depuis un fichier CSV](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=fr#import-audience) ou [résultant des workflows de composition](../audience/get-started-audience-orchestration.md) dans les parcours est disponible en version Private Beta. Pour en savoir plus, contactez votre représentant ou représentante Adobe.
 
