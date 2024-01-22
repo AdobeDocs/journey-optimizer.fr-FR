@@ -10,9 +10,9 @@ level: Intermediate
 keywords: qualification, événements, audience, parcours, platform
 exl-id: 7e70b8a9-7fac-4450-ad9c-597fe0496df9
 source-git-commit: d735f8c92466cb17a7364833950312e338c630cc
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1011'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -41,7 +41,7 @@ Il est possible de positionner ce type d’événement dès la première étape,
 
 * Lorsque vous utilisez une qualification d’audience dans un parcours, cette activité de qualification d’audience peut demander jusqu’à 10 minutes avant d’être active et d’écouter les profils entrant ou sortant de l’audience.
 
-* Il est recommandé d’utiliser uniquement des audiences en continu pour **Qualification de l’audience** activité. Pour les cas d’utilisation par lots, utilisez **[Lecture d’audience](read-audience.md)** activité.
+* En guise de bonne pratique, il est recommandé d’utiliser uniquement des audiences en streaming pour l’activité **Qualification d’audience**. Pour les cas d’utilisation par lots, utilisez l’activité **[Lecture d’audience](read-audience.md)**.
 
 ### Configurer l’activité{#cnfigure-segment-qualification}
 
