@@ -9,9 +9,9 @@ role: User
 level: Beginner, Intermediate
 exl-id: 61e6291f-c063-44a0-950c-8bb76de693f2
 source-git-commit: fa641124777093914e1d9bc03b28dbf42d9764d6
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '4121'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -120,7 +120,7 @@ Cette version est fournie avec les améliorations répertoriées ci-dessous.
 
 * Lors de la duplication d’un parcours, vous pouvez désormais définir le nom de la copie de parcours. [En savoir plus](../building-journeys/journey-gs.md#uplicate-a-journey
 
-* La prise en charge des réponses d’action personnalisée est désormais disponible pour tout le monde. Cette fonctionnalité vous permet d’utiliser les réponses d’appel API dans des actions personnalisées et orchestrer votre parcours en fonction de ces réponses. En outre, un [nouvelle barrière de sécurité](../start/guardrails.md#custom-actions-g) a été ajouté pour limiter automatiquement les appels d’action personnalisés. [En savoir plus](../action/action-response.md)
+* La prise en charge des réponses d’action personnalisée est désormais disponible pour tout le monde. Cette fonctionnalité vous permet d’utiliser les réponses d’appel API dans des actions personnalisées et orchestrer votre parcours en fonction de ces réponses. En outre, un [nouveau mécanisme de sécurisation des limitations](../start/guardrails.md#custom-actions-g) a été ajouté pour limiter automatiquement les appels d’action personnalisés. [En savoir plus](../action/action-response.md)
 <!--
 * The maximum duration that you can define in the Wait activity is now 29 days instead of 30.
 -->
