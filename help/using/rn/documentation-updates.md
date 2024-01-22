@@ -22,8 +22,8 @@ Cette page répertorie toutes les mises à jour de la documentation d&#39;[!DNL 
 ## Janvier 2024 {#jan-2024}
 
 * Un garde-fou sur la taille du parcours a été ajouté. [En savoir plus](../start/guardrails.md#journeys-guardrails-journeys)
-* La gestion du délai d’expiration des parcours a été détaillée. [dans la section suivante](../building-journeys/journey-gs.md#global_timeout).
-* Journey Optimizer [accueil de la documentation](../../ajo-home.md) a été repensée.
+* La gestion de la temporisation des parcours a été détaillée [dans la section suivante](../building-journeys/journey-gs.md#global_timeout).
+* La page d’accueil de la [documentation](../../ajo-home.md) de Journey Optimizer a été repensée.
 * Ajout de Recommendations à propos de l’activité Mise à jour de profils - [En savoir plus](../building-journeys/update-profiles.md)
 
 ## Novembre 2023 {#nov-2023}
