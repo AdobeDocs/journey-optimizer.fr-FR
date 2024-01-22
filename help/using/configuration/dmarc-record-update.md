@@ -10,7 +10,7 @@ level: Experienced
 keywords: sous-domaine, domaine, courrier, dmarc, enregistrement
 hide: true
 hidefromtoc: true
-source-git-commit: b67b53b7a3ea6d2daee223a5579696d0e5637c44
+source-git-commit: a93f1c81cceaee4f55cd7555284c4d8016ed4e21
 workflow-type: tm+mt
 source-wordcount: '520'
 ht-degree: 3%
@@ -56,7 +56,7 @@ Par conséquent, Adobe vous recommande vivement de vous assurer que les enregist
    * Configurez DMARC sur vos sous-domaines ou sur le domaine parent de vos sous-domaines. **dans votre solution d’hébergement**.
    * Configuration de DMARC sur vos sous-domaines délégués **à l’aide de la fonction à venir dans la fonction [!DNL Journey Optimizer] Interface utilisateur d’administration**. Cependant, il nécessite également une entrée dans votre solution d’hébergement. Par conséquent, assurez-vous de vous coordonner avec votre service informatique afin qu’il puisse effectuer la mise à jour dès que la variable [!DNL Journey Optimizer] Cette fonctionnalité est disponible (le 30 janvier). <!--and be ready on February 1st, 2024-->
 
-Plus d’informations sur [!DNL Journey Optimizer] La fonctionnalité DMARC à venir sera bientôt disponible.
+**Plus d’informations sur [!DNL Journey Optimizer] La fonctionnalité DMARC à venir sera bientôt disponible.**
 
 >[!NOTE]
 >
