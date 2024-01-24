@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: canal, surface, technique, paramètres, optimizer
 exl-id: 9038528f-3da0-4e0e-9b82-b72c67b42391
-source-git-commit: 8db5ae5b3cbef245dfe7cd11a95355c072bc3ef8
+source-git-commit: 00da20f3d51ce1032cb6908641048b377cc1a192
 workflow-type: tm+mt
-source-wordcount: '1624'
-ht-degree: 99%
+source-wordcount: '1627'
+ht-degree: 97%
 
 ---
 
@@ -29,7 +29,7 @@ Avec [!DNL Journey Optimizer], vous pouvez configurer des surfaces de canal (c�
 >
 > * Pour créer, modifier et supprimer des surfaces de canal, vous devez disposer de l’autorisation [Gérer les préréglages de message](../administration/high-low-permissions.md#administration-permissions).
 >
-> * Vous devez effectuer les opérations suivantes : [Configuration du canal e-mail](../email/get-started-email-config.md), [Configuration du canal push](../push/push-configuration.md) et [Configuration des SMS](../sms/sms-configuration.md) avant de créer des surfaces de canal.
+> * Vous devez exécuter la fonction [Configuration des emails](../email/get-started-email-config.md), [Configuration push](../push/push-configuration.md), [Configuration des SMS](../sms/sms-configuration.md) et [Configuration du courrier](../direct-mail/direct-mail-configuration.md) étapes avant de créer des surfaces de canal.
 
 Une fois les surfaces de canal configurées, vous pourrez les sélectionner lors de la création de messages à partir d’un parcours ou d’une campagne.
 
