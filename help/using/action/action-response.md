@@ -9,10 +9,10 @@ role: Data Engineer, Data Architect, Admin
 level: Experienced
 keywords: action, tiers, personnalisé, parcours, API
 exl-id: d88daa58-20af-4dac-ae5d-4c10c1db6956
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: 5d20a720ddfb2907a1f3ebaff3c67b9f5628f9d7
 workflow-type: tm+mt
-source-wordcount: '596'
-ht-degree: 100%
+source-wordcount: '614'
+ht-degree: 97%
 
 ---
 
@@ -200,6 +200,16 @@ Voici quelques exemples :
  @action{<action name>.<path to the field>, defaultValue: <default value expression>}
  @action{ActionLoyalty.points, defaultValue: 0}
  @action{ActionLoyalty.points, defaultValue: @{myEvent.newPoints}}
+```
+
+Lors de la manipulation de collections dans une réponse d’action personnalisée, vous pouvez vous fier à &quot;currentActionField&quot; pour accéder à l’élément actif :
+
+```json
+count(
+@action{MyAction.MyCollection.all(
+currentActionField.description == "abc"
+)}
+)
 ```
 
 Pour plus d’informations sur les références de champs, consultez [cette section](../building-journeys/expression/field-references.md).
