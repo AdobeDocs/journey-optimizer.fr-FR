@@ -8,10 +8,10 @@ role: Data Engineer, Architect
 level: Experienced
 keywords: requête, collections, fonctions, payload, parcours
 exl-id: 09b38179-9ace-4921-985b-ddd17eb64681
-source-git-commit: 7204b475dffe9977a7af6b633cdd92a50fa39a64
+source-git-commit: 5812ca4974ca52073ede993063217ab4453ba2b7
 workflow-type: tm+mt
 source-wordcount: '633'
-ht-degree: 94%
+ht-degree: 91%
 
 ---
 
@@ -171,8 +171,7 @@ The result will be:
 >
 >**[!UICONTROL currentEventField]** n’est disponible que lors de la manipulation de collections d’événements, **[!UICONTROL currentDataPackField]** lors de la manipulation de collections de sources de données et **[!UICONTROL currentActionField]** lors de la manipulation de collections de réponses d’action personnalisée.
 >
->Lors du traitement de collections avec les fonctions **[!UICONTROL all]**, **[!UICONTROL first]** et **[!UICONTROL last]**, nous
->les exécutons en boucle sur chaque élément de la collection. **[!UICONTROL currentEventField]**, **currentDataPackField** et **[!UICONTROL currentActionField]** correspondent à l’élément en boucle.
+>Lors du traitement de collections avec **[!UICONTROL all]**, **[!UICONTROL first]** et **[!UICONTROL last]**, nous effectuons une boucle sur chaque élément de la collection un par un. **[!UICONTROL currentEventField]**, **currentDataPackField** et **[!UICONTROL currentActionField]** correspondent à l’élément en boucle.
 
 **Les fonctions « first(`<condition>`) » et « last(`<condition>`) »**
 
