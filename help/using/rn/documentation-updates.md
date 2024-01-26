@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: b9d70bf2b3e16638a03b59fd4036771ad959a631
+source-git-commit: 31d9189e8afd732875556b9caaa8e874f53597bb
 workflow-type: tm+mt
-source-wordcount: '4258'
-ht-degree: 99%
+source-wordcount: '4295'
+ht-degree: 98%
 
 ---
 
@@ -25,6 +25,7 @@ Cette page répertorie toutes les mises à jour de la documentation d&#39;[!DNL 
 * La gestion de la temporisation des parcours a été détaillée [dans la section suivante](../building-journeys/journey-gs.md#global_timeout).
 * La page d’accueil de la [documentation](../../ajo-home.md) de Journey Optimizer a été repensée.
 * Ajout de Recommendations à propos de l’activité Mise à jour de profils - [En savoir plus](../building-journeys/update-profiles.md)
+* Ajout d’informations concernant le comportement des dépassements de délai sur les activités d’événement dans les parcours - Lorsqu’aucun événement n’est reçu au cours de la période d’expiration spécifiée, les individus continueront le parcours si aucun chemin d’expiration n’est défini. [En savoir plus](../building-journeys/general-events.md#events-specific-time)
 
 ## Novembre 2023 {#nov-2023}
 
