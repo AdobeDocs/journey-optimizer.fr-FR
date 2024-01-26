@@ -10,10 +10,10 @@ level: Beginner, Intermediate
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 004eb41b084f32993ec437f589e4e3d2cf7500d3
+source-git-commit: 6683bfbb5569d197a2a746620cd7edc10f45b5d1
 workflow-type: tm+mt
-source-wordcount: '356'
-ht-degree: 100%
+source-wordcount: '474'
+ht-degree: 21%
 
 ---
 
@@ -23,98 +23,61 @@ ht-degree: 100%
 
 Les notes de mise à jour ci-dessous peuvent être modifiées sans avertissement préalable jusqu’à la date de disponibilité de la version. Les liens, les écrans et la documentation mise à jour sont publiés dans les [notes de mise à jour](release-notes.md), à la date de publication.
 
-## Notes de mise à jour anticipées d’octobre 2023 {#oct-rn-2023}
+## Notes de mise à jour initiales de janvier 2024 {#oct-jan-2024}
 
-**Date de publication** : 25-26 octobre 2023
+**Date de publication**: 20-31 janvier 2024
 
-### Nouvelles fonctionnalités{#oct-2023-features}
+### Nouvelles fonctionnalités{#jan-2024-features}
 
 Cette version apporte les nouvelles fonctionnalités répertoriées ci-dessous.
 
-<table>
-<thead>
-<tr>
-<th><strong>Outil Sandbox</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>L’outil Sandbox vous permet de copier des objets sur plusieurs sandbox en exploitant l’export et l’import de packages. Un package peut se composer d’un ou de plusieurs objets. Tous les objets inclus dans un package doivent provenir du même sandbox.</p>
-<!--img src="../data/assets/dataset-export-setup.png"-->
-<!--p>For more information, refer to the <a href="../audience/get-started-audience-orchestration.md">detailed documentation</a>.</p-->
-</td>
-</tr>
-</tbody>
-</table>
-
-<!-- table>
-<thead>
-<tr>
-<th><strong>Composed audiences in journeys</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>You can now use audiences created in composition workflows in your journeys to target customers. Once an audience composition is published, and the audience saved, use a Read Audience activity to select this new audience in your journey canvas.</p>
-<img src="assets/channel-reports.png"/>
-<p>For more information, refer to the <a href="../audience/get-started-audience-orchestration.md">detailed documentation</a>.</p>
-</tr>
-</tbody>
-</table -->
 
 <table>
 <thead>
 <tr>
-<th><strong>MMS (Multimedia Message Service, service de messagerie multimédia) dans les SMS (Beta)</strong><br/></th>
+<th><strong>Mises à jour de délivrabilité</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Avec le canal SMS, vous pouvez maintenant améliorer votre communication en envoyant des MMS, ce qui permet le partage d’images, de GIF ou de vidéos avec vos clientes et clients. Notez que cette fonctionnalité est actuellement disponible en version Beta avec Sinch uniquement.</p>
+<p>Journey Optimizer prend désormais en charge la technologie d’authentification DMARC.</p>
+<p>À compter du 1er février 2024, Google et Yahoo! Vous devez disposer d’un enregistrement DMARC pour tout domaine que vous utilisez pour leur envoyer des emails. Assurez-vous que l’enregistrement DMARC est configuré pour tous les sous-domaines que vous avez délégués ou que vous déléguez à Adobe dans Journey Optimizer.</p>
 <!--img src="assets/channel-reports.png"/-->
-<!--p>For more information, refer to the <a href="../in-app/get-started-in-app.md">detailed documentation</a>.</p-->
+<p>Pour plus d’informations, consultez la <a href="../configuration/dmarc-record-update.md">documentation détaillée</a>.</p>
 </tr>
 </tbody>
 </table>
 
-### Améliorations {#oct-2023-improvements}
+
+
+### Améliorations {#jan-2024-improvements}
 
 Cette version est fournie avec les améliorations répertoriées ci-dessous.
 
-**Audiences**
+**Reporting**
 
-* Vous pouvez désormais cibler les audiences chargées à partir d’un fichier CSV dans les parcours et les campagnes.
-* Vous pouvez désormais cibler les audiences créées par le biais de la composition de l’audience et utiliser les attributs d’enrichissement dans les parcours.
+* **Rapports Canal par domaine** - De nouveaux widgets ont été ajoutés pour améliorer vos rapports Campaign et Parcours. La variable **Motifs de rebond par domaine**, **Envoyé et diffusé par domaines**, **Ouvertures et clics par domaine** et **Rebonds et erreurs par domaine** Les widgets fournissent une ventilation détaillée au niveau du domaine pour les mesures clés de diffusion et de suivi des emails. [En savoir plus](../reports/channel-report.md)
 
->[!AVAILABILITY]
->
->Ces fonctionnalités sont actuellement disponibles en version Private Beta.
+**Canal SMS**
 
-<!--
-**Spam scoring for emails**
+* **Double opt-in** - Le workflow Double opt-in pour les SMS garantit que les utilisateurs s’engagent explicitement à recevoir des messages lorsque la demande est lancée à partir de leur appareil. Les utilisateurs lancent le processus de consentement en envoyant un SMS entrant. Une fois qu’ils ont confirmé leur consentement, un message de relance est envoyé, demandant une vérification finale. Si un profil utilisateur n’existe pas, il est créé lors de la confirmation.
 
-* When simulating an email content, a new option enables you to check how your content performs against inboxes spam filtering. This feature is currently proposed to a set of customers only (Limited Availability), and available for the Email channel.-->
-
-**Campagnes**
-
-<!--* You can now stop a live one-time campaign, make modifications and resume it again. This improvement is available in Beta.-->
-* Lorsqu’une erreur se produit dans l’une de vos campagnes, une icône d’avertissement s’affiche désormais dans la liste des campagnes avec le statut de la campagne.
+  Notez que cela s’applique uniquement aux fournisseurs SMS Sinch et Infobip.
 
 **Parcours**
 
-* La durée maximale que vous pouvez définir dans n’importe quel temps d’attente est désormais de 29 jours au lieu de 30. Cela s’applique aux éléments suivants :
+* **Durée des événements de réaction** : durée maximale que vous pouvez définir dans la variable **Événements de réaction** est désormais de 29 jours au lieu de 30. [En savoir plus](../building-journeys/reaction-events.md)
 
-   * Le champ **Durée** dans l’[activité d’attente](../building-journeys/wait-activity.md).
-   * La **période d’attente de reprise** dans les [propriétés du parcours](../building-journeys/journey-gs.md#entrance).
-   * Le champ **Attendre pendant** dans la définition de la temporisation des événements [généraux](../building-journeys/general-events.md#events-specific-time) et de [réaction](../building-journeys/reaction-events.md).
+* **Filtres de date** - Vous pouvez désormais utiliser des dates personnalisées pour filtrer l’inventaire des parcours, en plus des filtres de dates prédéfinis existants. Vous pouvez ainsi affiner la liste en affichant les parcours publiés à une date spécifique, au cours d’un mois donné, sur une année entière ou dans des périodes spécifiées.
 
-**Consentement dans la configuration des canaux**
+* **Lecture d’audience**  - L’activité Lecture d’audience repose désormais sur le jeu de données d’instantané de profil pour les segments par lot, qui n’est généré qu’une seule fois, un jour après l’exécution de la tâche par lots quotidienne planifiée.
 
-* Vous pouvez désormais sélectionner une action marketing au niveau de la surface de canal. Lorsqu’elles sont utilisées en surface, toutes les stratégies de consentement associées à cette action marketing sont utilisées afin de respecter les préférences de vos clientes et clients.
+**Règles de fréquence**
+
+* **Limite de fréquence hebdomadaire et quotidienne** - Vous pouvez désormais spécifier le nombre maximum de messages envoyés à un profil client au cours d’une semaine ou d’un jour, en plus du mois. Le plafond de fréquence est basé sur la période calendaire sélectionnée et est réinitialisé au début de la période correspondante.
+
 
 **Gestion des décisions**
 
-* Plusieurs libellés relatifs à la limitation des offres dans l’interface de gestion des décisions ont été mis à jour.
+* **Limitation de la fréquence sur Edge** - Le compteur de limitation de fréquence est maintenant mis à jour et disponible dans une décision de l’API Edge Decisioning en moins de 3 secondes.
