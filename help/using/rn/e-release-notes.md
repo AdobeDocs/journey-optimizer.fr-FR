@@ -10,10 +10,10 @@ level: Beginner, Intermediate
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 6683bfbb5569d197a2a746620cd7edc10f45b5d1
+source-git-commit: ad00f6c43e66a221385a83b8e6710fddd64233f2
 workflow-type: tm+mt
-source-wordcount: '474'
-ht-degree: 21%
+source-wordcount: '470'
+ht-degree: 20%
 
 ---
 
@@ -25,7 +25,7 @@ Les notes de mise à jour ci-dessous peuvent être modifiées sans avertissement
 
 ## Notes de mise à jour initiales de janvier 2024 {#oct-jan-2024}
 
-**Date de publication**: 20-31 janvier 2024
+**Date de publication**: 30-31 janvier 2024
 
 ### Nouvelles fonctionnalités{#jan-2024-features}
 
@@ -57,7 +57,7 @@ Cette version est fournie avec les améliorations répertoriées ci-dessous.
 
 **Reporting**
 
-* **Rapports Canal par domaine** - De nouveaux widgets ont été ajoutés pour améliorer vos rapports Campaign et Parcours. La variable **Motifs de rebond par domaine**, **Envoyé et diffusé par domaines**, **Ouvertures et clics par domaine** et **Rebonds et erreurs par domaine** Les widgets fournissent une ventilation détaillée au niveau du domaine pour les mesures clés de diffusion et de suivi des emails. [En savoir plus](../reports/channel-report.md)
+* **Rapports Canal par domaine** - De nouveaux widgets ont été ajoutés pour améliorer vos rapports Campaign et Parcours. La variable **Motifs de rebond par domaine**, **Envoyé et diffusé par domaines**, **Ouvertures et clics par domaine** et **Rebonds et erreurs par domaine** Les widgets fournissent une ventilation détaillée au niveau du domaine pour les mesures clés de diffusion et de suivi des emails.
 
 **Canal SMS**
 
@@ -67,7 +67,7 @@ Cette version est fournie avec les améliorations répertoriées ci-dessous.
 
 **Parcours**
 
-* **Durée des événements de réaction** : durée maximale que vous pouvez définir dans la variable **Événements de réaction** est désormais de 29 jours au lieu de 30. [En savoir plus](../building-journeys/reaction-events.md)
+* **Durée des événements de réaction** : durée maximale que vous pouvez définir dans la variable **Événements de réaction** est désormais de 29 jours au lieu de 30.
 
 * **Filtres de date** - Vous pouvez désormais utiliser des dates personnalisées pour filtrer l’inventaire des parcours, en plus des filtres de dates prédéfinis existants. Vous pouvez ainsi affiner la liste en affichant les parcours publiés à une date spécifique, au cours d’un mois donné, sur une année entière ou dans des périodes spécifiées.
 
