@@ -10,7 +10,7 @@ level: Beginner, Intermediate
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: ad00f6c43e66a221385a83b8e6710fddd64233f2
+source-git-commit: fae367cbbacffbbecde4cdbf7b39b1baeec452d1
 workflow-type: tm+mt
 source-wordcount: '470'
 ht-degree: 20%
@@ -71,7 +71,7 @@ Cette version est fournie avec les améliorations répertoriées ci-dessous.
 
 * **Filtres de date** - Vous pouvez désormais utiliser des dates personnalisées pour filtrer l’inventaire des parcours, en plus des filtres de dates prédéfinis existants. Vous pouvez ainsi affiner la liste en affichant les parcours publiés à une date spécifique, au cours d’un mois donné, sur une année entière ou dans des périodes spécifiées.
 
-* **Lecture d’audience**  - L’activité Lecture d’audience repose désormais sur le jeu de données d’instantané de profil pour les segments par lot, qui n’est généré qu’une seule fois, un jour après l’exécution de la tâche par lots quotidienne planifiée.
+* **Lecture d’audience**  - L’activité Lecture d’audience repose désormais sur le jeu de données d’instantané de profil pour les segments par lot, qui n’est généré qu’une fois par jour après l’exécution de la tâche par lots quotidienne planifiée.
 
 **Règles de fréquence**
 
