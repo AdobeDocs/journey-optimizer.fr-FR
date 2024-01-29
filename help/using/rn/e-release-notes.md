@@ -7,10 +7,8 @@ feature: Release Notes
 topic: Content Management
 role: User
 level: Beginner, Intermediate
-hide: true
-hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: fd6f83019aa9cd5b4d6561007f5e0068256bb211
+source-git-commit: 2757da51cf2a75855c4136cc42e06a5a00237699
 workflow-type: tm+mt
 source-wordcount: '471'
 ht-degree: 20%
