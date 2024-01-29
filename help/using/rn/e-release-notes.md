@@ -10,9 +10,9 @@ level: Beginner, Intermediate
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: a3591adf88ebd42031006c1e5a537e3247cecce8
+source-git-commit: fd6f83019aa9cd5b4d6561007f5e0068256bb211
 workflow-type: tm+mt
-source-wordcount: '470'
+source-wordcount: '471'
 ht-degree: 20%
 
 ---
@@ -57,7 +57,7 @@ Cette version est fournie avec les améliorations répertoriées ci-dessous.
 
 **Reporting**
 
-* **Rapports Canal par domaine** - De nouveaux widgets ont été ajoutés pour améliorer vos rapports Campaign et Parcours. La variable **Motifs de rebond par domaine**, **Envoyé et diffusé par domaines**, **Ouvertures et clics par domaine** et **Rebonds et erreurs par domaine** Les widgets fournissent une ventilation détaillée au niveau du domaine pour les mesures clés de diffusion et de suivi des emails.
+* **Nouveaux widgets de ventilation basés sur des domaines** - De nouveaux widgets ont été ajoutés pour améliorer vos rapports Campaign et Parcours. La variable **Motifs de rebond par domaine**, **Envoyé et diffusé par domaines**, **Ouvertures et clics par domaine** et **Rebonds et erreurs par domaine** Les widgets fournissent une ventilation détaillée au niveau du domaine pour les mesures clés de diffusion et de suivi des emails.
 
 **Canal SMS**
 
