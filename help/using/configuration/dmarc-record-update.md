@@ -1,26 +1,26 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Mise à jour DMARC obligatoire
+title: Respecter les nouvelles exigences DMARC
 description: Découvrez pourquoi et quand vous devez définir l’enregistrement DMARC dans Journey Optimizer
 feature: Subdomains, Channel Configuration
 topic: Administration
 role: Admin
 level: Experienced
 keywords: sous-domaine, domaine, courrier, dmarc, enregistrement
-source-git-commit: 7d5a2a9b80110505688b5bfda2e286c7a6432441
+source-git-commit: a153960d083cbeab8beca30733832a9df8af9cbc
 workflow-type: tm+mt
-source-wordcount: '520'
-ht-degree: 3%
+source-wordcount: '526'
+ht-degree: 4%
 
 ---
 
-# Mise à jour DMARC obligatoire {#dmarc-record-update}
+# Respecter les nouvelles exigences DMARC {#dmarc-record-update}
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_dmarc_banner_link"
 >title="En savoir plus sur la mise à jour DMARC obligatoire"
->abstract="Dans le cadre de l’application des bonnes pratiques du secteur, Google et Yahoo exigent tous deux que vous disposiez d’un **Enregistrement DMARC** pour tout domaine que vous utilisez pour leur envoyer des emails, en commençant par **1er février 2024**. <br>Par conséquent, vous devez vous assurer que les enregistrements DMARC sont configurés pour tous les sous-domaines que vous avez délégués à Adobe dans Journey Optimizer."
+>abstract="Dans le cadre de l’application des bonnes pratiques du secteur, Google et Yahoo exigent tous deux que vous disposiez d’un **Enregistrement DMARC** pour tout domaine que vous utilisez pour leur envoyer des emails, en commençant par **1er février 2024**.<br>Par conséquent, vous devez vous assurer que les enregistrements DMARC sont configurés pour tous les sous-domaines que vous avez délégués à Adobe dans Journey Optimizer."
 
 Dans le cadre de l’application des bonnes pratiques du secteur, Google et Yahoo exigent tous deux que vous disposiez d’un **Enregistrement DMARC** pour tout domaine que vous utilisez pour leur envoyer des emails. Cette nouvelle exigence commence à **1er février 2024**.
 
@@ -36,13 +36,15 @@ Par conséquent, Adobe vous recommande vivement de vous assurer que les enregist
 
    * Configuration de DMARC sur le domaine parent de vos sous-domaines délégués **dans votre solution d’hébergement**.
 
-   * Configuration de DMARC sur vos sous-domaines délégués **à l’aide de la fonction à venir dans la fonction [!DNL Journey Optimizer] Interface utilisateur d’administration** - sans travail supplémentaire sur votre solution d’hébergement.
+   * Configuration de DMARC sur vos sous-domaines délégués **dans le [!DNL Journey Optimizer] Interface utilisateur d’administration** - sans travail supplémentaire sur votre solution d’hébergement. [Voici comment procéder.](dmarc-record.md#implement-dmarc)
 
-* Si vous avez configuré [Délégation CNAME](delegate-subdomain.md#cname-subdomain-delegation) pour vos sous-domaines d’envoi, suivez l’une des deux options ci-dessous :
+* Si vous avez configuré vos sous-domaines d’envoi avec [CNAME](delegate-subdomain.md#cname-subdomain-delegation), suivez l’une des deux options ci-dessous :
    * Configurez DMARC sur vos sous-domaines ou sur le domaine parent de vos sous-domaines. **dans votre solution d’hébergement**.
-   * Configuration de DMARC sur vos sous-domaines délégués **à l’aide de la fonction à venir dans la fonction [!DNL Journey Optimizer] Interface utilisateur d’administration**. Cependant, il nécessite également une entrée dans votre solution d’hébergement. Par conséquent, assurez-vous de vous coordonner avec votre service informatique afin qu’il puisse effectuer la mise à jour dès que la variable [!DNL Journey Optimizer] Cette fonctionnalité est disponible (le 30 janvier). <!--and be ready on February 1st, 2024-->
+   * Configuration de DMARC sur vos sous-domaines délégués **dans le [!DNL Journey Optimizer] Interface utilisateur d’administration**. [Voici comment procéder.](dmarc-record.md#implement-dmarc)
 
-**Plus d’informations sur [!DNL Journey Optimizer] La fonctionnalité DMARC à venir sera bientôt disponible.**
+     Toutefois, avec la délégation CNAME, elle nécessite également une entrée dans votre solution d’hébergement. Par conséquent, assurez-vous de vous coordonner avec votre service informatique afin qu’il puisse effectuer la mise à jour dès que la variable [!DNL Journey Optimizer] Cette fonctionnalité est disponible (le 30 janvier). [En savoir plus](dmarc-record.md#implement-dmarc)
+
+**Plus d’informations sur [!DNL Journey Optimizer] La fonctionnalité DMARC à venir est disponible dans [cette section](dmarc-record.md).**
 
 >[!NOTE]
 >
