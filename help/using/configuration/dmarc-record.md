@@ -8,7 +8,7 @@ topic: Administration
 role: Admin
 level: Experienced
 keywords: sous-domaine, domaine, courrier, dmarc, enregistrement
-source-git-commit: b077a19b93d27205d0133372357ee48fa9caf527
+source-git-commit: 2a1fccd05c960aca6a2764844f96e161c798d404
 workflow-type: tm+mt
 source-wordcount: '1377'
 ht-degree: 2%
@@ -111,7 +111,7 @@ Pour vous assurer que l’enregistrement DMARC est configuré pour tous les sous
 
 1. Enregistrez vos modifications.
 
-## Configuration de DMARC pour les nouveaux sous-domaines {#set-up-dmarc}
+### Configuration de DMARC pour les nouveaux sous-domaines {#set-up-dmarc}
 
 Lors de la délégation de nouveaux sous-domaines à Adobe dans [!DNL Journey Optimizer], un enregistrement DMARC sera créé dans DNS pour votre domaine. Suivez les étapes ci-dessous pour mettre en oeuvre DMARC.
 
