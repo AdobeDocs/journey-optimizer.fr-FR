@@ -8,9 +8,9 @@ topic: Administration
 role: Admin
 level: Experienced
 keywords: sous-domaine, domaine, courrier, dmarc, enregistrement
-source-git-commit: e1fda25bb16f6d1e304d600dfce39df07fc570b0
+source-git-commit: 11d42198436319cebb67446527e9fd8d0f80cfbc
 workflow-type: tm+mt
-source-wordcount: '604'
+source-wordcount: '603'
 ht-degree: 5%
 
 ---
@@ -47,7 +47,7 @@ or
 
      Toutefois, avec la délégation CNAME, elle nécessite également une entrée dans votre solution d’hébergement. Par conséquent, assurez-vous de vous coordonner avec votre service informatique afin qu’il puisse effectuer la mise à jour dès que la variable [!DNL Journey Optimizer] Cette fonctionnalité est disponible (le 30 janvier). [En savoir plus](dmarc-record.md#implement-dmarc)
 
-**Une interface en libre-service pour l’implémentation DMARC sera disponible à partir du 30 janvier. En savoir plus dans [cette section](dmarc-record.md#implement-dmarc).**
+**À compter du 30 janvier, vous aurez accès à une interface en libre-service pour la mise en oeuvre DMARC. En savoir plus dans [cette section](dmarc-record.md#implement-dmarc).**
 
 Les dernières chronologies partagées par Google et Yahoo sont les suivantes :
 
