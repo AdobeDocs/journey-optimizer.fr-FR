@@ -5,9 +5,9 @@ user-guide-title: Guide de Journey Optimizer
 user-guide-description: Utilisez Journey Optimizer pour créer et proposer aux clients des expériences connectées, contextuelles et personnalisées
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: a153960d083cbeab8beca30733832a9df8af9cbc
+source-git-commit: d26dbebaf36241d0e91c36c95f83ce6cf712ecee
 workflow-type: tm+mt
-source-wordcount: '1728'
+source-wordcount: '1731'
 ht-degree: 99%
 
 ---
@@ -34,6 +34,7 @@ ht-degree: 99%
    + [Interface utilisateur](using/start/user-interface.md)
    + [Recherche, filtrage, catégorisation](using/start/search-filter-categorize.md)
    + [Accessibilité](using/start/accessibility.md)
+   + [Cas d’utilisation des classeurs](using/start/playbooks.md)
    + [Intégrations](using/start/ajo-integrations.md)
    + [Mécanismes de sécurisation](using/start/guardrails.md)
    + [Bonnes pratiques](using/start/best-practices.md)
@@ -358,9 +359,9 @@ ht-degree: 99%
       + [Prise en main de la délivrabilité](using/reports/deliverability.md)
       + [Présentation de la liste de suppression](using/reports/suppression-list.md)
       + [Nouvelle exigence DMARC](using/configuration/dmarc-record-update.md)
-   + [Raisons de l’erreur](using/reports/error-list.md)
    + [Alertes](using/reports/alerts.md)
    + [Utiliser Customer Journey Analytics](using/reports/cja-ajo.md)
+   + [Motifs d&#39;exclusion](using/reports/exclusion-list.md)
 + Gestion des décisions {#offer-decisioning}
    + Prise en main de la gestion des décisions {#get-started-decision}
       + [À propos de la gestion des décisions](using/offers/get-started/starting-offer-decisioning.md)

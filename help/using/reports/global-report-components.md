@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: c487bb38-49ce-4238-8e94-8364f994cedd
-source-git-commit: 82b8c9032d6c377cb76acce4d5cc45afb0ddd6ba
+source-git-commit: d26dbebaf36241d0e91c36c95f83ce6cf712ecee
 workflow-type: tm+mt
-source-wordcount: '1106'
-ht-degree: 100%
+source-wordcount: '1110'
+ht-degree: 94%
 
 ---
 
@@ -64,7 +64,7 @@ Les tableaux ci-dessous contiennent la liste des mesures utilisées dans les dif
  <tbody>
   <tr> 
    <td> Rebonds<br/> </td> 
-   <td> Nombre total d’erreurs cumulées lors des diffusions et du traitement automatique des retours par rapport au nombre total de messages envoyés.<br/> </td> 
+   <td> Nombre total d'erreurs cumulées lors du processus d'envoi et du traitement automatique des retours par rapport au nombre total de messages envoyés.<br/> </td> 
 </tr> 
   <tr> 
    <td> Taux de rebond<br/> </td> 
@@ -84,16 +84,16 @@ Les tableaux ci-dessous contiennent la liste des mesures utilisées dans les dif
 </tr>
   <tr> 
    <td> Erreurs<br/> </td> 
-   <td> Nombre total d’erreurs survenues au cours d’une diffusion, l’empêchant d’être envoyée à des profils.<br/> </td> 
+   <td> Nombre total d'erreurs qui se sont produites pendant le processus d'envoi et qui l'ont empêché d'être envoyé aux profils.<br/> </td> 
 </tr> 
   <tr> 
    <td> Taux d’erreur<br/> </td> 
-   <td> Pourcentage d’erreurs survenues au cours d’une diffusion, l’empêchant d’être envoyée, par rapport aux e-mails envoyés.<br/> </td> 
+   <td> Pourcentage d'erreurs qui se sont produites pendant le processus d'envoi, empêchant l'envoi par rapport au nombre d'emails envoyés.<br/> </td> 
 </tr>
 </tr> 
   <tr> 
    <td> Motif de l’erreur<br/> </td> 
-   <td> Nom de la cause initiale spécifique de l’erreur. <a href="error-list.md">En savoir plus sur les motifs des erreurs</a>.<br/> </td> 
+   <td> Nom de la cause initiale spécifique de l’erreur. <a href="exclusion-list.md">En savoir plus sur les motifs des erreurs</a>.<br/> </td> 
 </tr>
   <tr> 
    <td> Exclus<br/> </td> 
@@ -340,7 +340,7 @@ Les tableaux ci-dessous contiennent la liste des mesures utilisées dans les dif
 </tr>
   <tr> 
    <td> Motif de l’erreur<br/> </td> 
-   <td> Nom de la cause initiale spécifique de l’erreur. <a href="error-list.md">En savoir plus sur les motifs des erreurs</a>.<br/> </td> 
+   <td> Nom de la cause initiale spécifique de l’erreur. <a href="exclusion-list.md">En savoir plus sur les motifs des erreurs</a>.<br/> </td> 
 </tr>
   <tr> 
    <td> Exclus<br/> </td> 
