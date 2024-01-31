@@ -536,7 +536,7 @@ ht-degree: 99%
       + [Créer des campagnes de préchauffage d’adresses IP](using/configuration/ip-warmup-campaign.md)
       + [Créer un plan de préchauffage d’adresses IP](using/configuration/ip-warmup-plan.md)
       + [Exécuter le plan de préchauffage des adresses IP](using/configuration/ip-warmup-execution.md)
-      + [Fichiers de plan de chauffage par IP](using/configuration/ip-warmup-plan-files.md)
+      + [Fichiers du plan de préchauffage des adresses IP](using/configuration/ip-warmup-plan-files.md)
    + Surveiller des adresses e-mail {#monitor-reputation}
       + [Liste de suppression](using/configuration/manage-suppression-list.md)
       + [Reprises](using/configuration/retries.md)
