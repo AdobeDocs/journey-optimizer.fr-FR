@@ -9,9 +9,9 @@ role: User
 level: Beginner
 exl-id: 289aac5d-6cdb-411f-985e-3acef58050a8
 source-git-commit: b9d70bf2b3e16638a03b59fd4036771ad959a631
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '397'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 95%
 >[!CONTEXTUALHELP]
 >id="ajo_ao_create_rule"
 >title="Créer une règle"
->abstract="La méthode de création de règle Build vous permet de créer une définition d’audience à l’aide de Adobe Experience Platform Segmentation Service."
+>abstract="La méthode de création Créer une règle vous permet de créer une définition d’audience à l’aide du service de segmentation d’Adobe Experience Platform."
 
 Dans cet exemple, nous allons créer une audience pour cibler tous les clientes et clients résidant à Atlanta, San Francisco ou Seattle et nés après 1980. Tous ces clientes et clients doivent avoir ouvert l’application Luma dans les 7 derniers jours, puis fait un achat dans les 2 heures suivant l’ouverture de l’application.
 
