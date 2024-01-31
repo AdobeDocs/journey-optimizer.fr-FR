@@ -8,9 +8,9 @@ role: User
 level: Beginner
 exl-id: d971c04c-9b37-4cd7-8a2d-b915e394079b
 source-git-commit: b37ad6fd3eb41f7cdde28c24fefc13c8b676f803
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '535'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -118,7 +118,7 @@ Vous pouvez utiliser ces raccourcis dans des parties spécifiques de l’interfa
     <td>E</td>
   </tr>
   <tr>
-    <td>Déclenchez un événement dans un parcours basé sur l’audience pour lequel l’option **[!UICONTROL Profil unique à la fois]** est activée.</td>
+    <td>Déclencher un événement dans un parcours basé sur des audiences pour lequel l’option **[!UICONTROL Un profil unique à la fois]** est activée</td>
     <td>P</td>
   </tr>
   <tr>
