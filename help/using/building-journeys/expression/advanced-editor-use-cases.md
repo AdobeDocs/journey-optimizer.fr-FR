@@ -8,8 +8,8 @@ role: Data Engineer, Architect
 level: Experienced
 keywords: expression, condition, cas d’utilisation, événements
 exl-id: 753ef9f4-b39d-4de3-98ca-e69a1766a78b
-source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
-workflow-type: tm+mt
+source-git-commit: cb1fed2460ddbf3b226fe191b9695008970937c1
+workflow-type: ht
 source-wordcount: '493'
 ht-degree: 100%
 
@@ -105,7 +105,7 @@ De là, vous pouvez ajouter un autre chemin dans votre parcours pour les cas où
 Cette condition récupère uniquement les événements de géorepérage déclenchés dans &quot;Arlington&quot; :
 
 ```json
-        @{GeofenceEntry
+        @event{GeofenceEntry
                     .placeContext
                     .POIinteraction
                     .POIDetail
@@ -117,7 +117,7 @@ Explication : il s’agit d’une comparaison de chaînes stricte (sensible à 
 La même requête avec `Is sensitive` non coché génère l’expression suivante en mode avancé :
 
 ```json
-        equalIgnoreCase(@{GeofenceEntry
+        equalIgnoreCase(@event{GeofenceEntry
                         .placeContext
                         .POIinteraction
                         .POIDetail
@@ -130,13 +130,13 @@ L’expression suivante permet de définir l’identifiant CRM dans un champ de 
 
 ```json
 substr(
-   @{MobileAppLaunch
+   @event{MobileAppLaunch
    ._myorganization
    .identification
    .crmid},
    1, 
    lastIndexOf(
-     @{MobileAppLaunch
+     @event{MobileAppLaunch
      ._myorganization
      .identification
      .crmid},
