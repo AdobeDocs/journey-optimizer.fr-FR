@@ -7,16 +7,16 @@ role: Data Engineer
 level: Experienced
 exl-id: 918927e1-ad7a-4937-b652-2a0932e9efa1
 source-git-commit: ba7d065523116c12e22eec300df13c29d92a54fb
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '117'
-ht-degree: 69%
+ht-degree: 100%
 
 ---
 
 
 # Mettre à jour un qualificateur de collection {#update-collection-qualifier}
 
-Vous pouvez modifier ou mettre à jour un qualificateur de collection (précédemment appelé &quot;balise&quot;) en adressant une requête de PATCH à l’API de bibliothèque des offres.
+Vous pouvez modifier ou mettre à jour un qualificateur de collection (auparavant appelé « balise ») en exécutant une requête PATCH sur l’API de la bibliothèque des offres.
 
 Pour plus d&#39;informations sur JSON Patch, notamment les opérations disponibles, consultez la [documentation JSON Patch](https://jsonpatch.com/) officielle.
 
@@ -64,7 +64,7 @@ curl -X PATCH 'https://platform.adobe.io/data/core/dps/tags/tag1234' \
 
 **Réponse**
 
-Une réponse réussie renvoie les détails mis à jour du qualificateur de collection, y compris son unique `id`.
+Une réponse réussie renvoie les détails mis à jour du qualificateur de collection, y compris son `id` unique.
 
 ```json
 {
