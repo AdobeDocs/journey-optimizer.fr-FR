@@ -8,8 +8,8 @@ role: Data Engineer, Architect
 level: Experienced
 keywords: expression, syntaxe, opérateurs, éditeur, parcours
 exl-id: 706e2e02-9bd9-46e7-a73d-dda3c9ae4ba8
-source-git-commit: f4068450dde5f85652096c09e7f817dbab40a3d8
-workflow-type: tm+mt
+source-git-commit: cb1fed2460ddbf3b226fe191b9695008970937c1
+workflow-type: ht
 source-wordcount: '531'
 ht-degree: 100%
 
@@ -23,17 +23,17 @@ Il existe deux types d’opérateurs : unaires et binaires. Les opérateurs una
 // left-hand unary operators
 // <operator> <operand> 
 // operand is an expression
-not (@{LobbyBeacon.endUserIDs._experience.emailid.id}=="example@adobe.com")
+not (@event{LobbyBeacon.endUserIDs._experience.emailid.id}=="example@adobe.com")
 
 // right-hand unary operators
 // <operator> <operand> 
 // operand is an expression
-@{LobbyBeacon.endUserIDs._experience.emailid.id} is not null
+@event{LobbyBeacon.endUserIDs._experience.emailid.id} is not null
 
 // binary operators
 // <operand1> <operator> <operand2>
 // operand is an expression
-(@{LobbyBeacon.endUserIDs._experience.emailid.id}=="example1@adobe.com") or (@{LobbyBeacon.endUserIDs._experience.emailid.id}=="example2@adobe.com") 
+(@event{LobbyBeacon.endUserIDs._experience.emailid.id}=="example1@adobe.com") or (@event{LobbyBeacon.endUserIDs._experience.emailid.id}=="example2@adobe.com") 
 ```
 
 ## Remarques importantes{#important-notes}
@@ -101,7 +101,7 @@ Notez que null signifie que l’expression n’a pas de valeur évaluée.
 Exemple :
 
 ```json
-@{BarBeacon.location} is null
+@event{BarBeacon.location} is null
 ```
 
 ### n’est pas nul
@@ -117,7 +117,7 @@ Notez que null signifie que l’expression n’a pas de valeur évaluée.
 Exemple :
 
 ```json
-@{BarBeacon.location} is not null
+@event{BarBeacon.location} is not null
 ```
 
 ### est nul
@@ -172,7 +172,7 @@ Exemple :
 
 >[!NOTE]
 >
->Pour &lt;expression1> et &lt;expression2> il n’existe aucun contrôle de type de données.
+Pour &lt;expression1> et &lt;expression2> il n’existe aucun contrôle de type de données.
 
 Le résultat est booléen.
 
