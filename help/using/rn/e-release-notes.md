@@ -1,17 +1,19 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Notes de mise à jour initiales
+title: Notes de mise à jour
 description: Notes de mise à jour anticipées de Journey Optimizer
 feature: Release Notes
 topic: Content Management
 role: User
 level: Beginner, Intermediate
+hide: true
+hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: fe4c51a74431bf8ab66aa2c9c3bd07404d971bbf
+source-git-commit: 97967e8043df9b75d3120e4a7bfccff700f5d57f
 workflow-type: tm+mt
-source-wordcount: '562'
-ht-degree: 17%
+source-wordcount: '558'
+ht-degree: 16%
 
 ---
 
@@ -19,13 +21,13 @@ ht-degree: 17%
 
 [!DNL Adobe Journey Optimizer] offre en permanence de nouvelles fonctionnalités, des améliorations aux fonctionnalités existantes et des correctifs. Toutes les modifications sont consolidées la dernière semaine de chaque mois dans les [notes de mise à jour](release-notes.md).
 
-Les notes de mise à jour ci-dessous peuvent être modifiées sans avertissement préalable jusqu’à la date de disponibilité de la version. Les liens, les écrans et la documentation mise à jour sont publiés dans les [notes de mise à jour](release-notes.md), à la date de publication.
+Les notes de mise à jour ci-dessous peuvent être modifiées sans avertissement préalable jusqu’à la date de disponibilité de la version. Les liens, les écrans et la documentation mise à jour sont publiés dans la section [notes de mise à jour](release-notes.md), à la date de publication.
 
-## Notes de mise à jour initiales de janvier 2024 {#oct-jan-2024}
+## Notes de mise à jour initiales de janvier 2024 {#e-2024}
 
-**Date de publication**: 30-31 janvier 2024
+**Date de publication**: 20-31 janvier 2024
 
-### Nouvelles fonctionnalités{#jan-2024-features}
+### Nouvelles fonctionnalités{#e-features}
 
 Cette version apporte les nouvelles fonctionnalités répertoriées ci-dessous.
 
@@ -41,8 +43,8 @@ Cette version apporte les nouvelles fonctionnalités répertoriées ci-dessous.
 <td>
 <p>Journey Optimizer prend désormais en charge la technologie d’authentification DMARC.</p>
 <p>À compter du 1er février 2024, Google et Yahoo! Vous devez disposer d’un enregistrement DMARC pour tout domaine que vous utilisez pour leur envoyer des emails. Assurez-vous que l’enregistrement DMARC est configuré pour tous les sous-domaines que vous avez délégués ou que vous déléguez à Adobe dans Journey Optimizer.</p>
-<img src="assets/do-not-localize/dmarc.gif"/>
-<p>Pour plus d’informations, consultez la <a href="../configuration/dmarc-record-update.md">documentation détaillée</a>.</p>
+<!--img src="assets/channel-reports.png"/-->
+<p>Pour plus d’informations, consultez la <a href="../configuration/dmarc-record.md">documentation détaillée</a>.</p>
 </tr>
 </tbody>
 </table>
@@ -57,38 +59,41 @@ Cette version apporte les nouvelles fonctionnalités répertoriées ci-dessous.
 <tr>
 <td>
 <p>Tirez parti d’un catalogue de playbooks de cas d’utilisation spécifiques au secteur dans Real-Time CDP et Journey Optimizer pour répondre aux cas d’utilisation courants que vous pouvez exécuter à l’aide de Adobe Experience Platform et de l’Adobe Parcours Optimiser.</p><p>Une fois que vous avez choisi le playbook qui correspond le mieux à vos besoins, vous pouvez lui permettre de générer les ressources nécessaires à la prise en charge de votre cas d’utilisation, tels que les parcours, les messages, les schémas ou les segments, et de les personnaliser dans votre schéma pour accélérer leur valorisation.</p>
-<img src="assets/do-not-localize/playbooks.gif"/>
-<!--<p>For more information, refer to the <a href="../start/">detailed documentation</a>.</p>-->
+<br/><img src="assets/do-not-localize/playbooks.gif"/>
+<!--<p>For more information, refer to the <a href="../start/playbooks.md">detailed documentation</a>.</p>-->
 </tr>
 </tbody>
 </table>
 
-### Améliorations {#jan-2024-improvements}
+### Améliorations {#e-improvements}
 
 Cette version est fournie avec les améliorations répertoriées ci-dessous.
 
 **Reporting**
 
-* **Nouveaux widgets de ventilation basés sur des domaines** - De nouveaux widgets ont été ajoutés pour améliorer vos rapports Campaign et Parcours. La variable **Motifs de rebond par domaine**, **Envoyé et diffusé par domaines**, **Ouvertures et clics par domaine** et **Rebonds et erreurs par domaine** Les widgets fournissent une ventilation détaillée au niveau du domaine pour les mesures clés de diffusion et de suivi des emails.
+* **Nouveaux widgets de ventilation basés sur des domaines** - De nouveaux widgets ont été ajoutés pour améliorer vos rapports Campaign et Parcours. La variable **Motifs de rebond par domaine**, **Envoyé et diffusé par domaines**, **Ouvertures et clics par domaine** et **Rebonds et erreurs par domaine** Les widgets fournissent une ventilation détaillée au niveau du domaine pour les mesures clés de diffusion et de suivi des emails. [En savoir plus](../reports/channel-report.md)
 
 **Canal SMS**
 
-* **Double opt-in** - Le workflow Double opt-in pour les SMS garantit que les utilisateurs s’engagent explicitement à recevoir des messages lorsque la demande est lancée à partir de leur appareil. Les utilisateurs lancent le processus de consentement en envoyant un SMS entrant. Une fois qu’ils ont confirmé leur consentement, un message de relance est envoyé, demandant une vérification finale. Si un profil utilisateur n’existe pas, il est créé lors de la confirmation.
+* **Double opt-in** - Le workflow Double opt-in pour les SMS garantit que les utilisateurs s’engagent explicitement à recevoir des messages lorsque la demande est lancée à partir de leur appareil. Les utilisateurs lancent le processus de consentement en envoyant un SMS entrant. Une fois qu’ils ont confirmé leur consentement, un message de relance est envoyé, demandant une vérification finale. Si un profil utilisateur n’existe pas, il est créé lors de la confirmation. [En savoir plus](../sms/sms-configuration.md#create-api)
 
   Notez que cela s’applique uniquement aux fournisseurs SMS Sinch et Infobip.
 
 **Parcours**
 
-* **Durée des événements de réaction** : durée maximale que vous pouvez définir dans la variable **Événements de réaction** est désormais de 29 jours au lieu de 30.
+* **Durée des événements de réaction** : durée maximale que vous pouvez définir dans la variable **Événements de réaction** est désormais de 29 jours au lieu de 30. [En savoir plus](../building-journeys/reaction-events.md)
 
-* **Filtres de date** - Vous pouvez désormais utiliser des dates personnalisées pour filtrer l’inventaire des parcours, en plus des filtres de dates prédéfinis existants. Vous pouvez ainsi affiner la liste en affichant les parcours publiés à une date spécifique, au cours d’un mois donné, sur une année entière ou dans des périodes spécifiées.
+<!--* **Date filters** - You can now use custom dates to filter the journeys inventory, in addition to the existing predefined date filters. This allows you to refine the list by displaying journeys published on a specific date, within a particular month, throughout an entire year, or within specified time ranges. [Learn more](../building-journeys/journey-gs.md#filter)-->
 
 * **Lecture d’audience**  - L’activité Lecture d’audience repose désormais sur le jeu de données d’instantané de profil pour les segments par lot, qui n’est généré qu’une fois par jour après l’exécution de la tâche par lots quotidienne planifiée. Par conséquent, les données seront actualisées jusqu’à la dernière tâche par lot quotidienne.
 
+* **Groupes de champs** - Correction d’un problème qui bloquait l’enregistrement des groupes de champs dans certains cas.
+
+* **Éditeur d’expression** - Nous prenons désormais en charge le type de données listObject dans toutes les expressions et dans les fonctions supplémentaires. [Plus d’informations](../building-journeys/expression/functions.md)
+
 **Règles de fréquence**
 
-* **Limite de fréquence hebdomadaire et quotidienne** - Vous pouvez désormais spécifier le nombre maximum de messages envoyés à un profil client au cours d’une semaine ou d’un jour, en plus du mois. Le plafond de fréquence est basé sur la période calendaire sélectionnée et est réinitialisé au début de la période correspondante.
-
+* **Limite de fréquence hebdomadaire et quotidienne** - Vous pouvez désormais spécifier le nombre maximum de messages envoyés à un profil client au cours d’une semaine ou d’un jour, en plus du mois. Le plafond de fréquence est basé sur la période calendaire sélectionnée et est réinitialisé au début de la période correspondante. [En savoir plus](../configuration/frequency-rules.md#create-new-rule)
 
 **Gestion des décisions**
 
