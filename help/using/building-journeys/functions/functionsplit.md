@@ -7,8 +7,8 @@ role: Data Engineer, Architect
 level: Experienced
 keywords: split, fonction, expression, parcours
 exl-id: 37bcdf98-203c-4f82-8d8a-be2b2c45c4e7
-source-git-commit: 07682901ec94d5b736d364130aaf48f9dfe982a3
-workflow-type: tm+mt
+source-git-commit: cb1fed2460ddbf3b226fe191b9695008970937c1
+workflow-type: ht
 source-wordcount: '69'
 ht-degree: 100%
 
@@ -47,6 +47,6 @@ Renvoie `["A","B","C"]`
 
 Exemple avec un champ d’événement &#39;event.appVersion&#39; avec la valeur : « 20.45.2.3434 »
 
-`split(@{event.appVersion}, "\\.")`
+`split(@event{event.appVersion}, "\\.")`
 
 Renvoie `["20", "45", "2", "3434"]`
