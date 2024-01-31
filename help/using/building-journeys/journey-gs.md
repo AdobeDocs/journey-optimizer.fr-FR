@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: parcours, premier, commencer, démarrage rapide, audience, événement, action
 exl-id: d940191e-8f37-4956-8482-d2df0c4274aa
-source-git-commit: f5013f40735d424d49c2642ac824cbc6f68a3cb9
-workflow-type: ht
-source-wordcount: '1769'
-ht-degree: 100%
+source-git-commit: a5027f4558526c2f3516816c12803e741c7f8dac
+workflow-type: tm+mt
+source-wordcount: '1787'
+ht-degree: 91%
 
 ---
 
@@ -50,6 +50,8 @@ Pour envoyer des messages avec des parcours, les configurations suivantes sont r
 >title="Parcours"
 >abstract="Concevoir des parcours clients pour offrir des expériences contextuelles personnalisées. Journey Optimizer vous permet de créer des cas d’utilisation d’orchestration en temps réel avec des données contextuelles stockées dans des événements ou des sources de données. L’onglet **Vue d’ensemble** affiche un tableau de bord avec les mesures clés liées à vos parcours : L’onglet **Parcourir** affiche la liste des parcours existants."
 
+### Mesures clés et liste des parcours {#access-metrics}
+
 Dans la section du menu GESTION DES PARCOURS, cliquez sur **[!UICONTROL Parcours]**. Deux onglets sont disponibles :
 
 **Vue d’ensemble** : cet onglet affiche un tableau de bord avec les mesures clés liées à vos parcours :
@@ -69,15 +71,27 @@ Dans la section du menu GESTION DES PARCOURS, cliquez sur **[!UICONTROL Parcours
 
 ![](assets/journeys-browse.png)
 
-Dans la liste des parcours, vous pouvez filtrer les parcours en fonction de leur statut, de leur type et de leur version à partir des **[!UICONTROL filtres de statut et de version]**. Le type peut être : **[!UICONTROL Événement unitaire]**, **[!UICONTROL Qualification d’audience]**, **[!UICONTROL Lecture d’audience]**, **[!UICONTROL Événement métier]** ou **[!UICONTROL Rafale]**.
+### Filtrage des parcours {#filter}
 
-Vous pouvez choisir d’afficher uniquement les parcours qui utilisent un événement, un groupe de champs ou une action spécifique à l’aide des **[!UICONTROL filtres d’activité]** et des **[!UICONTROL filtres de données]**. Les **[!UICONTROL filtres de publication]** vous permettent également de sélectionner une date de publication ou un utilisateur ou une utilisatrice. Il est possible, par exemple, d&#39;afficher les dernières versions des parcours actifs publiées hier. [En savoir plus](../building-journeys/using-the-journey-designer.md).
+Dans la liste des parcours, vous pouvez utiliser différents filtres pour affiner la liste des parcours afin d’en améliorer la lisibilité.
 
 ![](assets/filter-journeys.png)
 
-Utilisez les colonnes **[!UICONTROL Dernière mise à jour]** et **[!UICONTROL Dernière mise à jour par]** pour vérifier quand s&#39;est produit la dernière mise à jour de vos parcours et qui l&#39;a enregistrée.
+Voici les différentes opérations de filtrage que vous pouvez effectuer :
 
-Dans les volets de configuration des événements, des sources de données et des actions, le champ **[!UICONTROL Utilisé(e) dans]** affiche le nombre de parcours qui utilisent cet événement, ce groupe de champs ou cette action spécifique. Vous pouvez cliquer sur le bouton **[!UICONTROL Afficher les parcours]** pour faire apparaître la liste des parcours correspondants.
+* Filtrez les parcours en fonction de leur état, type, version et balises attribuées depuis le **[!UICONTROL Filtres d’état et de version]**.
+
+  Le type peut être : **[!UICONTROL Événement unitaire]**, **[!UICONTROL Qualification d’audience]**, **[!UICONTROL Lecture d’audience]**, **[!UICONTROL Événement métier]** ou **[!UICONTROL Rafale]**.
+
+* Utilisez la variable **[!UICONTROL Filtres de création]** pour filtrer les parcours en fonction de leur date de création ou de l’utilisateur qui les a créés.
+
+* Afficher les parcours qui utilisent un événement, un groupe de champs ou une action spécifique du **[!UICONTROL Filtres d’activités]** et **[!UICONTROL Filtres de données]**.
+
+* Utilisez la variable **[!UICONTROL Filtres de publication]** pour sélectionner une date de publication ou un utilisateur. Vous pouvez, par exemple, choisir d’afficher les dernières versions des parcours actifs publiées hier.
+
+  <!--To filter journeys based on a specific date range, select **[!UICONTROL Custom]** from the **[!UICONTROL Published]** drop-down list.-->
+
+De plus, dans les volets de configuration Événement, Source de données et Action, la variable **[!UICONTROL Utilisé dans]** affiche le nombre de parcours qui utilisent cet événement, ce groupe de champs ou cette action spécifique. Vous pouvez cliquer sur le bouton **[!UICONTROL Afficher les parcours]** pour faire apparaître la liste des parcours correspondants.
 
 ![](assets/journey3bis.png)
 
@@ -134,7 +148,7 @@ Lorsque l’option **Autoriser une reprise** est activée, le champ **Période d
 
 En savoir plus sur la gestion des entrées et des reprises de profils dans [cette section](entry-management.md).
 
-### Gérer l’accès {#access}
+### Gérer l’accès {#manage-access}
 
 Pour attribuer des libellés d’utilisation des données personnalisés ou de base au parcours, cliquez sur le bouton **[!UICONTROL Gérer l’accès]**. [En savoir plus sur le contrôle d’accès au niveau de l’objet (OLA)](../administration/object-based-access.md)
 
