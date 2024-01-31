@@ -7,16 +7,16 @@ role: Data Engineer
 level: Experienced
 exl-id: 335c1b80-f1f0-4fd0-add8-84b8cc5e2e00
 source-git-commit: ba7d065523116c12e22eec300df13c29d92a54fb
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '122'
-ht-degree: 67%
+ht-degree: 100%
 
 ---
 
 
 # Supprimer un qualificateur de collection {#delete-tag}
 
-Il peut parfois être nécessaire de supprimer (DELETE) un qualificateur de collection (précédemment appelé « balise »). Pour ce faire, il vous suffit d’adresser une requête de DELETE à l’API de bibliothèque des offres à l’aide de l’identifiant du qualificateur de collection que vous souhaitez supprimer.
+Il peut parfois être nécessaire de supprimer (DELETE) un qualificateur de collection (précédemment appelé « balise »). Pour ce faire, il vous suffit d’adresser une requête DELETE à l’API de la bibliothèque des offres en utilisant l’identifiant du qualificateur de collection à supprimer.
 
 **Format d’API**
 
@@ -44,4 +44,4 @@ curl -X DELETE 'https://platform.adobe.io/data/core/dps/tags/tag1234' \
 
 Une réponse réussie renvoie un état HTTP 200 et un corps vide.
 
-Vous pouvez confirmer la suppression en tentant d’adresser une requête de recherche (GET) au qualificateur de collection. Vous devriez recevoir le statut HTTP 404 (Introuvable) car le qualificateur de collection a été supprimé.
+Vous pouvez confirmer la suppression en tentant d’adresser une requête de recherche (GET) au qualificateur de collection. Vous devriez recevoir le statut HTTP 404 (Introuvable), car le qualificateur de collection a été supprimé.
