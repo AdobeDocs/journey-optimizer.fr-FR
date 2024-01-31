@@ -9,8 +9,8 @@ role: User
 level: Intermediate
 keywords: parcours, intégration, standard, campagne, ACS
 exl-id: 50565cd9-7415-4c6a-9651-24fefeded3f5
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
-workflow-type: tm+mt
+source-git-commit: cb1fed2460ddbf3b226fe191b9695008970937c1
+workflow-type: ht
 source-wordcount: '943'
 ht-degree: 100%
 
@@ -102,7 +102,7 @@ Dans cette section, vous devez définir la **[!UICONTROL plateforme push]**. La 
 Vous devez également définir le **[!UICONTROL jeton d’enregistrement]**. L’expression dépend de la manière dont le jeton est défini dans la payload de l’événement ou dans d’autres informations de [!DNL Journey Optimizer]. Il peut s’agir d’un champ simple ou d’une expression plus complexe au cas où le jeton serait défini dans une collection, par exemple :
 
 ```
-@{Event_push._experience.campaign.message.profileSnapshot.pushNotificationTokens.first().token}
+@event{Event_push._experience.campaign.message.profileSnapshot.pushNotificationTokens.first().token}
 ```
 
 **[!UICONTROL Données de personnalisation]**
