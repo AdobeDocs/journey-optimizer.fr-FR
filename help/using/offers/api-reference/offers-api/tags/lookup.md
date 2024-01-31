@@ -7,15 +7,15 @@ role: Data Engineer
 level: Experienced
 exl-id: e2d1f093-c1b8-4c4c-a20f-4bd7c2ea5269
 source-git-commit: ba7d065523116c12e22eec300df13c29d92a54fb
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '98'
-ht-degree: 68%
+ht-degree: 100%
 
 ---
 
 # Rechercher un qualificateur de collection {#look-up-tag}
 
-Vous pouvez rechercher des qualificateurs de collection spécifiques (précédemment appelés &quot;balises&quot;) en adressant une requête GET à l’API de bibliothèque des offres qui inclut l’identifiant de qualificateur de collection dans le chemin de la requête.
+Vous pouvez rechercher des qualificateurs de collection spécifiques (auparavant appelés « balises ») en exécutant une requête GET sur l’API de la bibliothèque des offres qui inclut l’ID de qualificateur de collection dans le chemin de la requête.
 
 **Format d’API**
 
