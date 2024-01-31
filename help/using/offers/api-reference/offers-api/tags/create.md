@@ -7,20 +7,20 @@ role: Data Engineer
 level: Experienced
 exl-id: f3f7cccb-0173-409e-8b76-8b6e136a22ac
 source-git-commit: ba7d065523116c12e22eec300df13c29d92a54fb
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '121'
-ht-degree: 47%
+ht-degree: 100%
 
 ---
 
 
 # Créer un qualificateur de collection {#create-tag}
 
-Vous pouvez créer un qualificateur de collection (précédemment appelé &quot;balise&quot;) en adressant une requête de POST à l’API de bibliothèque des offres.
+Vous pouvez créer un qualificateur de collection (auparavant appelé « balise ») en exécutant une requête POST sur l’API de la bibliothèque des offres.
 
 ## En-têtes Accept et Content-Type {#accept-and-content-type-headers}
 
-Le tableau suivant affiche les valeurs valides qui comprennent la variable *Content-Type* dans l’en-tête de la requête :
+Le tableau suivant montre les valeurs valides qui comprennent les champs *Content-Type* dans l’en-tête de la requête :
 
 | Nom de l&#39;en-tête | Valeur |
 | ----------- | ----- |
@@ -53,7 +53,7 @@ curl -X POST 'https://platform.adobe.io/data/core/dps/tags' \
 
 **Réponse**
 
-Une réponse réussie renvoie des informations sur le qualificateur de collection nouvellement créé, y compris son unique `id`. Vous pouvez utiliser la variable `id` lors des étapes suivantes pour mettre à jour ou supprimer votre qualificateur de collection. Vous pouvez utiliser votre qualificateur de collection unique `id` dans les tutoriels ultérieurs pour créer des collections et des offres personnalisées.
+Une réponse réussie renvoie des informations sur le qualificateur de collection nouvellement créé, y compris sur son `id` unique. Vous pouvez utiliser l’`id` aux étapes suivantes pour mettre à jour ou supprimer votre qualificateur de collection. Vous pouvez utiliser votre qualificateur de collection unique `id` dans les tutoriels ultérieurs pour créer des collections et des offres personnalisées.
 
 ```json
 {
