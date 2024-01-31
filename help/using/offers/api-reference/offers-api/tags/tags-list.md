@@ -7,9 +7,9 @@ role: Data Engineer
 level: Experienced
 exl-id: 8cee44ed-5569-416c-b463-e75fb20d4c9c
 source-git-commit: 28c811c330d367c1a99bdd8184a62b1dd45b608d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '236'
-ht-degree: 85%
+ht-degree: 100%
 
 ---
 
@@ -18,9 +18,9 @@ ht-degree: 85%
 
 Les qualificateurs de collection (précédemment appelés « balises ») vous permettent de mieux organiser et trier vos offres. Par exemple, vous pouvez libeller vos offres Black Friday à l’aide du qualificateur de collection « Black Friday ». Vous pouvez ensuite utiliser la fonctionnalité de recherche de la bibliothèque des offres pour localiser facilement toutes les offres associées à ce qualificateur de collection.
 
-Les qualificateurs de collection peuvent également être utilisés pour regrouper les offres en collections.
+Les qualificateurs de collection peuvent également être utilisées pour regrouper les offres sous forme de collections.
 
-Vous pouvez afficher une liste de tous les qualificateurs de collection dans un conteneur en adressant une seule requête de GET à l’API de bibliothèque des offres.
+Vous pouvez afficher une liste de tous les qualificateurs de collection au sein d’un conteneur en exécutant une requête GET unique sur l’API de la bibliothèque des offres.
 
 **Format d’API**
 
