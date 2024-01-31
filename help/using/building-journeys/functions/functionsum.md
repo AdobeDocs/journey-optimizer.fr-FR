@@ -7,8 +7,8 @@ role: Data Engineer, Architect
 level: Experienced
 keywords: sum, fonction, expression, parcours
 exl-id: a9085f4d-6434-4bc5-8e5d-3f2b6033defc
-source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
-workflow-type: tm+mt
+source-git-commit: cb1fed2460ddbf3b226fe191b9695008970937c1
+workflow-type: ht
 source-wordcount: '57'
 ht-degree: 100%
 
@@ -54,7 +54,7 @@ Renvoie une valeur décimale.
 
 ## Exemples
 
-`sum(@{BarBeacon.inventory},5)`
+`sum(@event{BarBeacon.inventory},5)`
 
 `sum([10,3,8])`
 
