@@ -7,8 +7,8 @@ role: Data Engineer, Architect
 level: Experienced
 keywords: avg, fonction, expression, parcours
 exl-id: cc70f90c-2d12-42a0-829f-5f28c3c29cad
-source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
-workflow-type: tm+mt
+source-git-commit: cb1fed2460ddbf3b226fe191b9695008970937c1
+workflow-type: ht
 source-wordcount: '55'
 ht-degree: 100%
 
@@ -54,7 +54,7 @@ Renvoie une valeur décimale.
 
 ## Exemples
 
-`avg(@{BarBeacon.inventory},5)`
+`avg(@event{BarBeacon.inventory},5)`
 
 `avg([10,3,8])`
 
