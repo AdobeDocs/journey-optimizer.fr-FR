@@ -7,8 +7,8 @@ role: Data Engineer, Architect
 level: Experienced
 keywords: inLastHours, fonction, expression, parcours
 exl-id: c648d711-c81b-403b-9adb-792c7e79e4e2
-source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
-workflow-type: tm+mt
+source-git-commit: cb1fed2460ddbf3b226fe191b9695008970937c1
+workflow-type: ht
 source-wordcount: '49'
 ht-degree: 100%
 
@@ -45,6 +45,6 @@ Renvoie une valeur booléenne.
 
 Renvoie true.
 
-`inLastHours(@{MyEvent.timestamp}, 4)`
+`inLastHours(@event{MyEvent.timestamp}, 4)`
 
 Renvoie true.
