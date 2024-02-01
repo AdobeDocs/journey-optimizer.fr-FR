@@ -7,10 +7,10 @@ role: User
 level: Experienced
 keyword: direct, mail, configuration, direct-mail, provider
 exl-id: ae5cc885-ade1-4683-b97e-eda1f2142041
-source-git-commit: c14bcd8c44ef913da588c86263769bdb5b3fb205
+source-git-commit: 3686127299107eb19db8e9290be1b737c1c87ec3
 workflow-type: tm+mt
-source-wordcount: '918'
-ht-degree: 100%
+source-wordcount: '903'
+ht-degree: 98%
 
 ---
 
@@ -155,9 +155,7 @@ Vous pouvez désormais [créer un publipostage direct](../direct-mail/create-dir
 
 >[!NOTE]
 >
->Les lignes en double seront automatiquement supprimées.
->
->Si le nombre maximum d&#39;enregistrements (c&#39;est-à-dire des lignes) pour chaque fichier contenant des données de profil est trop élevé, un autre fichier sera automatiquement créé pour les enregistrements restants.
+>Les lignes en double où toutes les valeurs de la ligne sont identiques sont automatiquement supprimées du fichier.
 
 <!--
     In the **[!UICONTROL Insertion]** section, you can choose to automatically remove duplicate rows.

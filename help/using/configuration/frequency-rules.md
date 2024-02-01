@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: message, fréquence, règles, pression
 exl-id: 49248fb6-5a91-45b2-9de8-2f078d59c0fc
-source-git-commit: c4b8a74541a3fb9fea054bd1145592d75c62b165
+source-git-commit: ff25658bd69b83cfd1869490c24710f84d4a4ffc
 workflow-type: tm+mt
-source-wordcount: '990'
-ht-degree: 100%
+source-wordcount: '1135'
+ht-degree: 81%
 
 ---
 
@@ -79,13 +79,27 @@ Pour créer une nouvelle règle, procédez comme suit.
    >
    >Actuellement, seule la catégorie **[!UICONTROL Marketing]** est disponible.
 
-1. Définissez la limitation de votre règle, c&#39;est-à-dire le nombre maximum de messages qui peuvent être envoyés à un profil utilisateur individuel chaque mois.
+1. Sélectionnez une période pour laquelle la limitation doit être appliquée.
 
-   ![](assets/message-rules-capping.png)
+   ![](assets/message-rules-capping-duration.png)
+
+   La limite de fréquence est basée sur la période calendaire sélectionnée. Elle est réinitialisée au début de la période correspondante.
+
+   L&#39;expiration du compteur pour chaque période est la suivante :
+
+   * **[!UICONTROL Qualité]**: la limite de fréquence est valable pour la journée jusqu’au 23:59:59 UTC et réinitialise à 0 au début de la journée suivante.
+
+   * **[!UICONTROL Hebdomadaire]**: le plafond de fréquence est valable jusqu’au samedi 23.:59:59 UTC de cette semaine au début de la semaine calendaire le dimanche. L’expiration est indépendante de la création de la règle. Par exemple, si la règle est créée le jeudi, cette règle est valide jusqu’au samedi 23:59:59.
+
+   * **[!UICONTROL Mensuel]**: la limite de fréquence est valable jusqu’au dernier jour du mois à 23.:59:59 UTC. Par exemple, l’expiration mensuelle pour janvier est comprise entre 01 et 31 janvier 23:59:59 UTC.
 
    >[!NOTE]
    >
-   >La limite de fréquence est basée sur une période calendaire mensuelle. Elle est réinitialisée au début de chaque mois.
+   >Lorsque vous traitez de [segmentation par lots](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=fr#batch){target="_blank"}, the daily counters may not accurately reflect the current values as the daily counter snapshot is taken at midnight UTC the night before. Consequently, relying on daily counters in this scenario becomes impractical, as the snapshot does not reflect the most up-to-date counter values on the profile. To ensure accuracy for daily frequency capping rules, the use of [streaming segmentation](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/streaming-segmentation.html?lang=fr){target="_blank"} est recommandé. <!--Learn more on audience evaluation methods in [this section](using/audience/about-audiences.md#evaluation-method-in-journey-optimizer).-->
+
+1. Définissez la limitation de votre règle, c’est-à-dire le nombre maximal de messages qui peuvent être envoyés à un profil utilisateur individuel chaque mois, semaine ou jour, en fonction de votre sélection ci-dessus.
+
+   ![](assets/message-rules-capping.png)
 
 1. Sélectionnez le canal à utiliser pour cette règle : **[!UICONTROL E-mail]** ou **[!UICONTROL Notification push]**.
 
@@ -97,7 +111,7 @@ Pour créer une nouvelle règle, procédez comme suit.
 
 1. Sélectionnez plusieurs canaux si vous souhaitez appliquer une limitation sur tous les canaux sélectionnés en tant que nombre total.
 
-   Par exemple, définissez la limitation sur 15 et sélectionnez les canaux e-mail et push. Si un profil a déjà reçu 10 e-mails marketing et 5 notifications push marketing, ce profil sera exclu de la prochaine diffusion de tout e-mail ou notification push marketing.
+   Par exemple, définissez la limitation sur 15 et sélectionnez les canaux e-mail et push. Si un profil a déjà reçu 10 emails marketing et 5 notifications push marketing pour la période sélectionnée, ce profil sera exclu de la prochaine diffusion de tout email marketing ou notification push.
 
 1. Cliquez sur **[!UICONTROL Enregistrer comme brouillon]** pour confirmer la création de la règle. Votre message est ajouté à la liste de règles, dans l&#39;état **[!UICONTROL Brouillon]**.
 

@@ -9,10 +9,10 @@ role: Data Engineer, Data Architect, Admin
 level: Experienced
 keywords: action, tiers, personnalisé, parcours, API
 exl-id: 4df2fc7c-85cb-410a-a31f-1bc1ece237bb
-source-git-commit: e0f7eca8b3313cb5eb8e201c567622ded20a82d2
+source-git-commit: 0d010bbb46887546d524726606764b564c352064
 workflow-type: tm+mt
-source-wordcount: '1342'
-ht-degree: 100%
+source-wordcount: '1422'
+ht-degree: 94%
 
 ---
 
@@ -36,6 +36,11 @@ Dans les paramètres d’action personnalisés, vous pouvez transmettre une coll
 Notez également qu’un format spécifique est attendu pour les paramètres d’action personnalisés (par exemple : chaîne, décimal, etc.). Vous devez veiller au respect de cette exigence. En savoir plus sur ce [cas d’utilisation](../building-journeys/collections.md).
 
 ## Bonnes pratiques{#custom-action-enhancements-best-practices}
+
+Lorsque vous choisissez un point de terminaison à cibler à l’aide d’une action personnalisée, assurez-vous que :
+
+* Ce point de terminaison peut prendre en charge le débit des parcours à l’aide de configurations issues de la fonction [API de limitation](../configuration/throttling.md) ou [API de limitation](../configuration/capping.md) pour la limiter. Soyez prudent si une configuration de limitation ne peut pas aller sous 200 TPS. Tout point de terminaison ciblé devra prendre en charge au moins 200 TPS.
+* Ce point de terminaison doit avoir un temps de réponse aussi bas que possible. Selon le débit attendu, un temps de réponse élevé peut avoir un impact sur le débit réel.
 
 Un plafond de 300 000 appels sur une minute est défini pour toutes les actions personnalisées. En outre, la limitation par défaut est effectuée par hôte et par sandbox. Par exemple, sur un sandbox, si vous avez deux points d’entrée avec le même hôte (par exemple, `https://www.adobe.com/endpoint1` et `https://www.adobe.com/endpoint2`), la limitation s’applique à tous les points d’entrée sous l’hôte adobe.com. Le point d’entrée 1 et le point d’entrée 2 partagent la même configuration de limitation. En outre, le fait qu’un point d’entrée atteigne la limite a un impact sur l’autre point d’entrée.
 

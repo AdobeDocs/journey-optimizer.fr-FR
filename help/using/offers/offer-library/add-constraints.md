@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 7234a8e8-4ab0-4f17-a833-5e452fadac35
-source-git-commit: dfd8800f8fb6894e78ffa31d1f93ef5d99df09fc
+source-git-commit: 03e93e6a6652ffbe1cfdea3361e0a0d517cc39d8
 workflow-type: tm+mt
-source-wordcount: '2405'
-ht-degree: 100%
+source-wordcount: '2424'
+ht-degree: 99%
 
 ---
 
@@ -258,9 +258,12 @@ La section **[!UICONTROL Fréquence]** vous permet de définir la fréquence à 
 
 ![](../assets/offer-capping-frequency.png)
 
+
 >[!NOTE]
 >
 >La réinitialisation se produit à 00 h 00 UTC, le jour que vous avez défini ou le premier jour de la semaine ou du mois, le cas échéant. Le jour de début de semaine est le dimanche. La durée que vous avez choisie ne peut pas dépasser 2 ans (ou le nombre correspondant de mois, de semaines ou de jours).
+>
+>Le compteur de limitation de fréquence est mis à jour et disponible dans une décision de l’API Edge Decisioning en moins de 3 secondes.
 
 Par exemple, si vous souhaitez que le nombre de limitations soit réinitialisé toutes les 2 semaines, sélectionnez **[!UICONTROL Hebdomadaire]** dans la liste déroulante correspondante et saisissez **2** dans l’autre champ. La réinitialisation a lieu un dimanche sur deux à 12 h 00 UTC.
 

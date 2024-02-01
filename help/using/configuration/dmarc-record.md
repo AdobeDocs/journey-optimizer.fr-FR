@@ -1,8 +1,8 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Enregistrement DMARC
-description: Découvrir comment définir l’enregistrement DMARC dans Journey Optimizer
+title: Enregistrement DMARC
+description: Découvrez comment définir l’enregistrement DMARC dans Journey Optimizer
 feature: Subdomains, Channel Configuration, Deliverability
 topic: Administration
 role: Admin
@@ -11,18 +11,18 @@ keywords: sous-domaine, domaine, courrier, dmarc, enregistrement
 source-git-commit: f1f57e1b7398e0c235e5ecb80b58a8b7761d0e55
 workflow-type: tm+mt
 source-wordcount: '1370'
-ht-degree: 13%
+ht-degree: 2%
 
 ---
 
-# Enregistrement DMARC {#dmarc-record}
+# Enregistrement DMARC {#dmarc-record}
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_dmarc_record"
 >title="Définir l’enregistrement DMARC"
 >abstract="DMARC est une méthode d’authentification d’email qui permet aux propriétaires de domaine de protéger leur domaine d’une utilisation non autorisée et d’éviter les problèmes de délivrabilité avec les fournisseurs de messagerie.<br>Dans le cadre de leur application des bonnes pratiques du secteur, Google et Yahoo exigent tous deux que vous disposiez d’un enregistrement DMARC pour tout domaine que vous utilisez pour leur envoyer des emails."
 
-## Qu’est-ce que DMARC ? {#what-is-dmarc}
+## Qu’est-ce que DMARC ? {#what-is-dmarc}
 
 DMARC (Domain-based Message Authentication, Reporting, and Conformance) est une méthode d’authentification email qui permet aux propriétaires de domaine de protéger leur domaine d’une utilisation non autorisée. En offrant une politique claire aux fournisseurs de messagerie/FAI, elle permet d&#39;empêcher les acteurs malveillants d&#39;envoyer des emails prétendant provenir de votre domaine. La mise en oeuvre de DMARC réduit le risque que les emails légitimes soient marqués comme spam ou rejetés et améliore la délivrabilité de vos emails.
 
@@ -32,9 +32,9 @@ DMARC propose également des rapports sur les messages dont l’authentification
 
 Pour vous aider à éviter les problèmes de délivrabilité tout en prenant le contrôle des emails qui ne parviennent pas à s&#39;authentifier, [!DNL Journey Optimizer] La technologie DMARC sera bientôt prise en charge directement dans son interface d’administration. [En savoir plus](#implement-dmarc)
 
-### Comment DMARC fonctionne-t-il ? {#how-dmarc-works}
+### Comment fonctionne DMARC ? {#how-dmarc-works}
 
-SPF et DKIM sont tous deux utilisés pour associer un e-mail à un domaine et permettent d’authentifier les e-mails. DMARC va plus loin et contribue à empêcher les usurpations en faisant correspondre le domaine vérifié par DKIM et SPF.
+SPF et DKIM sont tous deux utilisés pour associer un email à un domaine et travailler ensemble pour authentifier un email. DMARC va plus loin et contribue à empêcher les usurpations en faisant correspondre le domaine vérifié par DKIM et SPF.
 
 >[!NOTE]
 >
@@ -51,11 +51,11 @@ Si l’une ou l’autre de ces authentifications échoue, DMARC échoue et l’e
 
 ### Stratégies DMARC {#dmarc-policies}
 
-Si un email ne parvient pas à s’authentifier DMARC, vous pouvez décider quelle action sera appliquée à ce message. DMARC propose trois options de politique :
+Si un email ne parvient pas à s’authentifier DMARC, vous pouvez décider quelle action sera appliquée à ce message. DMARC propose trois options de stratégie :
 
-* Surveiller (p=none) : indique au fournisseur de messagerie/FAI d’appliquer la procédure normale au message.
-* Quarantaine (p=quarantine) : indique au fournisseur de messagerie/FAI d’envoyer les e-mails qui ne passent pas DMARC vers le dossier spam ou de courrier indésirable des personnes destinataires.
-* Rejeter (p=reject) : indique au fournisseur de messagerie/FAI de bloquer les e-mails qui ne passent pas DMARC, ce qui entraîne un rebond.
+* Monitor (p=none) : indique au fournisseur de messagerie/FAI de faire tout ce qu&#39;il ferait normalement au message.
+* Quarantaine (p=quarantaine) : indique au fournisseur de messagerie ou à l’ISP de diffuser du courrier électronique qui ne transmet pas DMARC au dossier spam ou courrier indésirable du destinataire.
+* Rejeter (p=rejeter) : indique au fournisseur de messagerie/FAI de bloquer les emails qui ne transmettent pas DMARC, ce qui entraîne un rebond.
 
 >[!NOTE]
 >
@@ -63,7 +63,7 @@ Si un email ne parvient pas à s’authentifier DMARC, vous pouvez décider quel
 
 ## Mise à jour des exigences DMARC {#dmarc-update}
 
-Dans le cadre de l’application des bonnes pratiques du secteur, Google et Yahoo exigent tous deux que vous disposiez d’un **enregistrement DMARC** pour tout domaine utilisé pour leur envoyer des e-mails. Cette nouvelle exigence commence le **1er février 2024**.
+Dans le cadre de l’application des bonnes pratiques du secteur, Google et Yahoo exigent tous deux que vous disposiez d’un **Enregistrement DMARC** pour tout domaine que vous utilisez pour leur envoyer des emails. Cette nouvelle exigence commence à **1er février 2024**.
 
 En savoir plus sur Google et les exigences de Yahoo dans [cette section](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/guidance-around-changes-to-google-and-yahoo.html#dmarc){target="_blank"}.
 

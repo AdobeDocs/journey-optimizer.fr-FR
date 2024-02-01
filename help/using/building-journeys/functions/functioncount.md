@@ -7,10 +7,10 @@ role: Data Engineer, Architect
 level: Experienced
 keywords: count, fonction, expression, parcours
 exl-id: 6980c1ec-3afd-4fc9-ae10-76bcf7364a04
-source-git-commit: ad113c0414b20ac2f758ad06a44315b24a3d3d0c
+source-git-commit: 2f47209ad2a5e5b5d26f01949f5e9ade63c2581f
 workflow-type: tm+mt
-source-wordcount: '57'
-ht-degree: 100%
+source-wordcount: '90'
+ht-degree: 62%
 
 ---
 
@@ -26,18 +26,13 @@ Agrégation
 
 `count(<listAny>)`
 
+`count(<listObject>)`
+
 ## Paramètres
 
-| Paramètre | Type |
-|-----------|------------------|
-| Liste | listString |
-| Liste | listBoolean |
-| Liste | listInteger |
-| Liste | listDecimal |
-| Liste | listDuration |
-| Liste | listDateTime |
-| Liste | listDateTimeOnly |
-| Liste | listDateOnly |
+| Paramètre | Type | Description |
+|-----------|------------------|------------------|
+| listToProcess | listString, listBoolean, listInteger, listDecimal, listDuration, listDateTime, listDateTimeOnly, listDateOnly, or listObject | Liste à traiter. Pour listObject, il doit s’agir d’une référence de champ. Un listObject ne peut pas contenir d’objet null. |
 
 ## Signatures et type renvoyé
 
@@ -50,3 +45,7 @@ Renvoie un entier.
 `count([10,2,10,null])`
 
 Renvoie 3.
+
+`count(@event{my_event.productListItems})`
+
+Renvoie le nombre d’objets dans le tableau d’objets donné (type listObject). Remarque : un objet listObject ne peut pas contenir d’objet null

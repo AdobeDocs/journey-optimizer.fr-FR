@@ -7,10 +7,10 @@ feature: SMS, Channel Configuration
 role: Admin
 level: Intermediate
 exl-id: 4dcd22ed-bf7e-4789-ab7b-33544c857db8
-source-git-commit: 1a3a67571ef839bf8e1942e4c9599aa52ea7e2dc
+source-git-commit: 3b659955734c9ac1f29b5ae51c9bfebf1d387b17
 workflow-type: tm+mt
-source-wordcount: '1081'
-ht-degree: 96%
+source-wordcount: '1266'
+ht-degree: 82%
 
 ---
 
@@ -69,7 +69,7 @@ Pour configurer votre fournisseur de SMS/MMS avec Journey Optimizer, procédez c
 
    ![](assets/sms_7.png)
 
-   * Pour **[!DNL Sinch]** :
+   * +++ Pour **[!DNL Sinch]**
 
       * **[!UICONTROL Nom]** : choisissez un nom pour vos informations d’identification d’API.
 
@@ -77,15 +77,24 @@ Pour configurer votre fournisseur de SMS/MMS avec Journey Optimizer, procédez c
 
       * **[!UICONTROL Message d’opt-in]** : saisissez la réponse personnalisée qui est automatiquement envoyée en tant que **[!UICONTROL message d’opt-in]**.
 
+      * **[!UICONTROL Message d’exclusion]**: saisissez la réponse personnalisée automatiquement envoyée en tant que **[!UICONTROL Message d’exclusion]**.
+
       * **[!UICONTROL Message d’aide]** : saisissez la réponse personnalisée qui est automatiquement envoyée en tant que **message d’aide**.
 
-   * Pour **[!DNL Sinch MMS]** :
+      * **[!UICONTROL Mots-clés d’accord préalable double]**: saisissez les mots-clés qui déclenchent le processus de double opt-in. Si un profil utilisateur n’existe pas, il est créé lors de la confirmation. Pour plusieurs mots-clés, utilisez des valeurs séparées par des virgules.
+
+      * **[!UICONTROL Double message d’accord préalable]**: saisissez la réponse personnalisée qui est automatiquement envoyée en réponse à la confirmation de double opt-in.
++++
+
+   * +++ Pour **[!DNL Sinch MMS]**
 
       * **[!UICONTROL Nom]** : choisissez un nom pour vos informations d’identification d’API.
 
       * **[!UICONTROL ID de projet]**, **[!UICONTROL ID de l’application]** et **[!UICONTROL Jeton API]** : à partir du menu API de conversation, vous trouverez vos informations d’identification dans le menu Application. En savoir plus dans la [Documentation Sinch](https://docs.cc.sinch.com/cloud/service-configuration/en/oxy_ex-1/common/wln1620131604643.html){target="_blank"}.
 
-   * Pour **[!DNL Twilio]** :
++++
+
+   * +++ Pour **[!DNL Twilio]**
 
       * **[!UICONTROL Nom]** : choisissez un nom pour vos informations d’identification d’API.
 
@@ -93,12 +102,26 @@ Pour configurer votre fournisseur de SMS/MMS avec Journey Optimizer, procédez c
 
       * **[!UICONTROL SID du message]** : saisissez l’identifiant unique attribué à chaque message créé par l’API de Twilio. En savoir plus dans la [Documentation Twilio](https://support.twilio.com/hc/en-us/articles/223134387-What-is-a-Message-SID-){target="_blank"}.
 
-   * Pour **[!DNL Infobip]** :
++++
+
+   * +++ Pour **[!DNL Infobip]**
 
       * **[!UICONTROL Nom]** : choisissez un nom pour vos informations d’identification d’API.
 
       * **[!UICONTROL URL de base de l’API]** et **[!UICONTROL Jeton API]** : accédez à la page d’accueil de votre interface web ou à la page de gestion des clés d’API pour trouver vos informations d’identification. En savoir plus dans la [Documentation Infobip](https://www.infobip.com/docs/api){target="_blank"}.
 
+      * **[!UICONTROL Mots-clés d’accord préalable double]**: saisissez les mots-clés qui déclenchent le processus de double opt-in. Si un profil utilisateur n’existe pas, il est créé lors de la confirmation. Pour plusieurs mots-clés, utilisez des valeurs séparées par des virgules.
+
+      * **[!UICONTROL Double message d’accord préalable]**: saisissez la réponse personnalisée qui est automatiquement envoyée en réponse à la confirmation de double opt-in.
+
+      * **[!UICONTROL Identifiant d’entité principale]**: saisissez l’ID d’entité principale DLT qui vous a été attribué.
+
+      * **[!UICONTROL Identifiant du modèle de contenu]**: saisissez l’identifiant de modèle de contenu DLT enregistré.
+
+      * **[!UICONTROL Période de validité]**: saisissez la période de validité du message en heures. Si les messages ne peuvent pas être diffusés dans ce délai, le système effectue d’autres tentatives pour les renvoyer. La période de validité par défaut est définie sur 48 heures.
+
+      * **[!UICONTROL Données de rappel]**: saisissez les données client supplémentaires qui seront envoyées sur l’URL de notification.
++++
 
 1. Cliquez sur **[!UICONTROL Envoyer]** lorsque vous avez terminé la configuration de vos informations d’identification API.
 

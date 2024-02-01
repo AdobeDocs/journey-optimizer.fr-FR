@@ -7,10 +7,10 @@ role: Data Engineer, Architect
 level: Experienced
 keywords: listSize, fonction, expression, parcours
 exl-id: dd378e4d-f65a-495c-ac10-b4209d6b6b88
-source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
+source-git-commit: 2f47209ad2a5e5b5d26f01949f5e9ade63c2581f
 workflow-type: tm+mt
-source-wordcount: '52'
-ht-degree: 100%
+source-wordcount: '78'
+ht-degree: 65%
 
 ---
 
@@ -28,16 +28,9 @@ Liste
 
 ## Paramètres
 
-| Paramètre | Type |
-|-----------|------------------|
-| Liste | listString |
-| Liste | listBoolean |
-| Liste | listInteger |
-| Liste | listDecimal |
-| Liste | listDuration |
-| Liste | listDateTime |
-| Liste | listDateTimeOnly |
-| Liste | listDateOnly |
+| Paramètre | Type | Description |
+|-----------|------------------|------------------|
+| listToProcess | listString, listBoolean, listInteger, listDecimal, listDuration, listDateTime, listDateTimeOnly, listDateOnly, or listObject | Liste à traiter. Pour listObject, il doit s’agir d’une référence de champ. Un listObject ne peut pas contenir d’objet null. |
 
 ## Signatures et type renvoyé
 
@@ -57,12 +50,16 @@ Liste
 
 `listSize(<listDuration>)`
 
-`listSize(<listPoint>)`
-
 Renvoie un nombre entier.
+
+`listSize(<listObject>)`
 
 ## Exemple
 
 `listSize([10,2,3])`
 
 Renvoie 3.
+
+`listSize(@event{my_event.productListItems})`
+
+Renvoie le nombre d’objets dans le tableau d’objets donné (type listObject).

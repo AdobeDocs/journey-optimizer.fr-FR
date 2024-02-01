@@ -7,10 +7,10 @@ role: Data Engineer, Architect
 level: Experienced
 keywords: toString, fonction, expression, parcours
 exl-id: 06727146-2a44-4b74-aac4-be60e9e0e37c
-source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
+source-git-commit: cb1fed2460ddbf3b226fe191b9695008970937c1
 workflow-type: tm+mt
-source-wordcount: '126'
-ht-degree: 100%
+source-wordcount: '128'
+ht-degree: 82%
 
 ---
 
@@ -33,8 +33,8 @@ Conversion
 | dateTime | Convertit la date au format UTC |
 | dateTimeOnly | Convertit la date au format UTC |
 | durée | Convertit le paramètre dans le nombre de millisecondes correspondant sous forme de chaîne |
-| nombre entier | Convertit la valeur en représentation sous forme de chaîne (1 devient « 1 ») |
-| décimal | Convertit la valeur en représentation sous forme de chaîne (1,5 devient « 1,5 ») |
+| nombre entier | convertit la valeur en représentation sous forme de chaîne (1 devient &quot;1&quot;) |
+| décimal | convertit la valeur en représentation sous forme de chaîne (1,5 devient &quot;1,5&quot;) |
 | booléen | Convertit la valeur booléenne en chaîne « true » si true, en chaîne « false » si false |
 
 ## Signatures et type renvoyé
@@ -62,3 +62,7 @@ Renvoie « 4 ».
 `toString(#{ExperiencePlatform.test_date.person.birthDate}))`
 
 Renvoie la représentation sous forme de chaîne du champ dateOnly (champ de date XDM) donné, par exemple « 2016-08-18 ».
+
+`toString(toDuration(1520))`
+
+Renvoie &quot;PT1.52S&quot;.

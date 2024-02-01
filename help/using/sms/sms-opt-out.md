@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 59ea67d9-e90c-4ad0-afb9-d0e0fd868855
-source-git-commit: 31c3ed854b38e287850895176f8416bc62739cb0
+source-git-commit: 3b659955734c9ac1f29b5ae51c9bfebf1d387b17
 workflow-type: tm+mt
-source-wordcount: '452'
-ht-degree: 100%
+source-wordcount: '459'
+ht-degree: 89%
 
 ---
 
@@ -26,7 +26,15 @@ Conformément aux normes et réglementations du secteur, tous les messages SMS d
 
 ## Mots-clés entrants natifs {#sms-native-keywords}
 
-Par défaut, Adobe Journey Optimizer gère les messages de réponse en anglais standard suivants pour les messages sans frais, et à code long et court : STOP, UNSTOP, START, QUIT, CANCEL, END, et UNSUBSCRIBE. Notez que seuls Sinch et Infobip prennent en charge les mots-clés natifs lorsqu’ils sont utilisés avec Journey Optimizer.
+>[!NOTE]
+>
+> Seuls Sinch et Infobip prennent en charge les mots-clés natifs lorsqu’ils sont utilisés avec Journey Optimizer.
+
+Par défaut, Adobe Journey Optimizer gère les messages de réponse standard en anglais suivants pour les numéros courts, les numéros gratuits et les codes longs :
+
+* **Exclusion**: ARRÊTER, QUITTER, ANNULER, FIN, DÉSABONNER, NON.
+* **Opt-in**: ABONNEZ, OUI, DÉMARRER, DÉMARRER, CONTINUER, REPRENDRE, COMMENCER.
+* **Aide**: AIDE.
 
 Ces mots-clés déclenchent généralement une réponse standard automatique de votre fournisseur tiers. Contactez votre fournisseur ou consultez son site de documentation pour en avoir la confirmation.
 

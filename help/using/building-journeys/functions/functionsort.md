@@ -7,20 +7,16 @@ role: Data Engineer, Architect
 level: Experienced
 keywords: sort, fonction, expression, parcours
 exl-id: 607e1424-4165-48ae-b896-cce2d18f7dcc
-source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
+source-git-commit: 2f47209ad2a5e5b5d26f01949f5e9ade63c2581f
 workflow-type: tm+mt
-source-wordcount: '152'
-ht-degree: 100%
+source-wordcount: '144'
+ht-degree: 93%
 
 ---
 
 # sort {#sort}
 
 Trie une liste de valeurs ou d’objets dans l’ordre naturel.
-
->[!NOTE]
->
->Si la liste cible est un listObject, cette fonction ne peut être utilisée que dans les expressions d’action personnalisées.
 
 ## Catégorie
 
@@ -81,4 +77,8 @@ Renvoie `["A","B","C"]`.
 `sort([1, 3, 2], false)`
 
 Renvoie `[3, 2, 1]`.
+
+`sort(@event{my_event.productListItems}, "SKU", true)`
+
+Renvoie l’objet listObject classé par attribut de SKU (ordre croissant)
 

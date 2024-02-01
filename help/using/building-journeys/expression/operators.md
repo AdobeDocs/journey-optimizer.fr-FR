@@ -9,7 +9,7 @@ level: Experienced
 keywords: expression, syntaxe, opérateurs, éditeur, parcours
 exl-id: 706e2e02-9bd9-46e7-a73d-dda3c9ae4ba8
 source-git-commit: cb1fed2460ddbf3b226fe191b9695008970937c1
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '531'
 ht-degree: 100%
 
@@ -172,7 +172,7 @@ Exemple :
 
 >[!NOTE]
 >
->Pour &lt;expression1> et &lt;expression2> il n’existe aucun contrôle de type de données.
+Pour &lt;expression1> et &lt;expression2> il n’existe aucun contrôle de type de données.
 
 Le résultat est booléen.
 

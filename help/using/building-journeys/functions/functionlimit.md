@@ -7,9 +7,9 @@ role: Data Engineer, Architect
 level: Experienced
 keywords: limit, function, expression, parcours
 exl-id: 7fa1e393-2912-4392-b759-e54d08d5635a
-source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
+source-git-commit: 2f47209ad2a5e5b5d26f01949f5e9ade63c2581f
 workflow-type: tm+mt
-source-wordcount: '156'
+source-wordcount: '139'
 ht-degree: 97%
 
 ---
@@ -17,10 +17,6 @@ ht-degree: 97%
 # limit {#limit}
 
 Renvoie les N premiers ou derniers éléments d’une liste.
-
->[!NOTE]
->
->Si la liste cible est un listObject, cette fonction ne peut être utilisée que dans les expressions d’action personnalisées.
 
 ## Catégorie
 

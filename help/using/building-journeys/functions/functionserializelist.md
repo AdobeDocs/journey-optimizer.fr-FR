@@ -7,16 +7,16 @@ role: Data Engineer, Architect
 level: Experienced
 keywords: serializeList, fonction, expression, parcours
 exl-id: 7ead9fa1-59b3-4960-818c-fe6321422952
-source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
+source-git-commit: 2f47209ad2a5e5b5d26f01949f5e9ade63c2581f
 workflow-type: tm+mt
-source-wordcount: '91'
-ht-degree: 100%
+source-wordcount: '88'
+ht-degree: 39%
 
 ---
 
 # serializeList {#serializeList}
 
-Convertit en chaîne la liste (tous types possibles) indiquée dans le premier paramètre. Le deuxième paramètre représente le séparateur à utiliser. Le troisième paramètre est une valeur booléenne indiquant si chaque élément de l’expression doit inclure des guillemets.
+Convertit une liste donnée (tout type sauf listObject) en chaîne.
 
 ## Catégorie
 
@@ -28,19 +28,11 @@ Liste
 
 ## Paramètres
 
-| Paramètre | Type |
-|-----------|------------------|
-| Chaîne | Chaîne |
-| Booléen | Booléen |
-| DateTimeOnly | DateTimeOnly |
-| Liste | listString |
-| Liste | listBoolean |
-| Liste | listPoint |
-| Liste | listDecimal |
-| Liste | listDuration |
-| Liste | listDateTime |
-| Liste | listDateTimeOnly |
-| Liste | listDateOnly |
+| Paramètre | Type | Description |
+|-----------|------------------|------------------|
+| listToProcess | listString, listBoolean, listInteger, listDecimal, listDuration, listDateTime, listDateTimeOnly, listDateOnly | Liste à convertir en chaîne. |
+| separator | chaîne | Séparateur entre chaque élément de liste dans la chaîne de sortie. |
+| addQuotes | booléen | Ce paramètre indique si chaque élément de la chaîne de sortie doit inclure des guillemets (true) ou non (false). |
 
 ## Signature et type renvoyé
 
@@ -59,8 +51,6 @@ Liste
 `serializeList(<listDateOnly>,<string>,<boolean>)`
 
 `serializeList(<listDuration>,<string>,<boolean>)`
-
-`serializeList(<listPoint>,<string>,<boolean>)`
 
 Renvoie une chaîne.
 
