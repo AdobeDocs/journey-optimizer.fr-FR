@@ -7,10 +7,10 @@ feature: SMS, Channel Configuration
 role: Admin
 level: Intermediate
 exl-id: 4dcd22ed-bf7e-4789-ab7b-33544c857db8
-source-git-commit: 3b659955734c9ac1f29b5ae51c9bfebf1d387b17
+source-git-commit: 3fe533c9a1c2cd83d813d26288a2f1f63f84b2ad
 workflow-type: tm+mt
-source-wordcount: '1266'
-ht-degree: 85%
+source-wordcount: '1273'
+ht-degree: 84%
 
 ---
 
@@ -81,7 +81,7 @@ Pour configurer votre fournisseur de SMS/MMS avec Journey Optimizer, procédez c
 
       * **[!UICONTROL Message d’aide]** : saisissez la réponse personnalisée qui est automatiquement envoyée en tant que **message d’aide**.
 
-      * **[!UICONTROL Mots-clés d’accord préalable double]**: saisissez les mots-clés qui déclenchent le processus de double opt-in. Si un profil utilisateur n’existe pas, il est créé lors de la confirmation. Pour plusieurs mots-clés, utilisez des valeurs séparées par des virgules.
+      * **[!UICONTROL Mots-clés d’accord préalable double]**: saisissez les mots-clés qui déclenchent le processus de double opt-in. Si un profil utilisateur n’existe pas, il est créé lors de la confirmation. Pour plusieurs mots-clés, utilisez des valeurs séparées par des virgules. [En savoir plus sur le double opt-in SMS](https://video.tv.adobe.com/v/3427129/?learn=on).
 
       * **[!UICONTROL Double message d’accord préalable]**: saisissez la réponse personnalisée qui est automatiquement envoyée en réponse à la confirmation de double opt-in.
 +++
