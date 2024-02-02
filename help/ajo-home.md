@@ -5,10 +5,10 @@ description: Découvrez comment utiliser Adobe Journey Optimizer.
 solution: Journey Optimizer
 product: journey optimizer
 exl-id: 3a1b6c61-82df-421c-98d8-2af4f2a5e0de
-source-git-commit: dc5655d05a491568ee2a9f4a4a75939cfcc812e7
+source-git-commit: 0144a772f67ffa03e39a70de41c54a6cf88cdd69
 workflow-type: tm+mt
 source-wordcount: '435'
-ht-degree: 59%
+ht-degree: 68%
 
 ---
 
@@ -28,7 +28,7 @@ Découvrez les nouvelles fonctionnalités et améliorations de la version Adobe 
 
 >[!TAB Mise à jour DMARC obligatoire]
 
-Dans le cadre de l’application des bonnes pratiques du secteur, Google et Yahoo exigent tous deux que vous disposiez d’un **Enregistrement DMARC** pour tout domaine que vous utilisez pour leur envoyer des emails, en commençant par **1er février 2024**. Assurez-vous que l’enregistrement DMARC est configuré pour tous les sous-domaines que vous avez délégués à Adobe dans Journey Optimizer.
+Dans le cadre de l’application des bonnes pratiques du secteur, Google et Yahoo! nécessite que vous ayez une **Enregistrement DMARC** pour tout domaine que vous utilisez pour leur envoyer des emails, en commençant par **1er février 2024**. Assurez-vous que l’enregistrement DMARC est configuré pour tous les sous-domaines que vous avez délégués à Adobe dans Journey Optimizer.
 
 [![Image.](using/assets/do-not-localize/learn-more-button.svg)](using/configuration/dmarc-record-update.md)
 
@@ -110,8 +110,8 @@ Une fois que vous avez choisi le playbook qui correspond le mieux à vos besoins
 ## Ressources supplémentaires
 
 <table style="table-layout:fixed"><tr style="border: 0;">
-<td><strong>Adobe Journey Optimizer</strong><br/>
-<a href="https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/overview.html?lang=fr" target="_blank">Tutorials</a> - <a href="https://helpx.adobe.com/fr/legal/product-descriptions/adobe-journey-optimizer.html" target="_blank">Description du produit</a> - <a href="https://www.adobe.com/content/dam/cc/en/security/pdfs/AJO_SecurityOverview.pdf" target="_blank">Présentation de la sécurité (PDF)</a> - <a href="https://developer.adobe.com/journey-optimizer-apis/" target="_blank">Référence des API</a> - <a href="https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=fr" target="_blank">Dictionnaire des schémas Journey Optimizer</a>
+<td><strong>Adobe Journey Optimizer</strong><br/>
+<a href="https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/overview.html?lang=fr" target="_blank">Tutoriels</a> – <a href="https://helpx.adobe.com/fr/legal/product-descriptions/adobe-journey-optimizer.html" target="_blank">Description du produit</a> – <a href="https://www.adobe.com/content/dam/cc/en/security/pdfs/AJO_SecurityOverview.pdf" target="_blank">Vue d’ensemble de la sécurité (PDF)</a> – <a href="https://developer.adobe.com/journey-optimizer-apis/" target="_blank">Référence des API</a> – <a href="https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=fr" target="_blank">Dictionnaire de schémas de Journey Optimizer</a>
 
 </td>
 <td><strong>Adobe Experience Platform</strong><br/>
