@@ -6,9 +6,9 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 659984cb-b232-47ba-9f5a-604bf97a5e92
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: d4a91dcd032af03504ab7bbf97b2e19338c32397
 workflow-type: tm+mt
-source-wordcount: '927'
+source-wordcount: '895'
 ht-degree: 100%
 
 ---
@@ -110,10 +110,6 @@ Vous trouverez ci-dessous la liste des principaux concepts que vous utiliserez l
 * **Représentations** : une représentation est une information utilisée par un canal, comme la localisation ou la langue d&#39;affichage d&#39;une offre.
 
 ## Tutoriels vidéo{#video}
-
->[!NOTE]
->
->Ces vidéos s’appliquent au service applicatif Offer Decisioning basé sur Adobe Experience Platform et ne sont pas spécifiques à [!DNL Adobe Journey Optimizer]. Elles fournissent toutefois des directives générales pour l&#39;utilisation de la gestion des décisions dans le contexte de [!DNL Journey Optimizer].
 
 ### Qu&#39;est-ce que la gestion des décisions ?  {#what-is-offer-decisioning}
 
