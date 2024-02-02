@@ -5,7 +5,7 @@ feature: Preview, Proofs
 role: User
 level: Beginner
 exl-id: 736fc861-17f2-47b7-8635-9afd261ea3a8
-source-git-commit: feae2cb9d0bed35f12eb117cf2969c9290ebc06f
+source-git-commit: f6b158ffdde66d6e6d9d706a6b067a2746a9be1d
 workflow-type: tm+mt
 source-wordcount: '309'
 ht-degree: 100%
@@ -50,4 +50,4 @@ Vous devez également disposer de profils de test pour pouvoir prévisualiser vo
 
 Découvrez comment tester le rendu des e-mails dans les boîtes de réception, prévisualiser vos e-mails personnalisés par rapport aux profils de test et envoyer des bons à tirer.
 
->[!VIDEO](https://video.tv.adobe.com/v/334239?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3425026?quality=12)
