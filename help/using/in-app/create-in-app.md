@@ -7,10 +7,10 @@ role: User
 level: Beginner
 keywords: in-app, message, création, commencer
 exl-id: b3b79fe2-7db3-490d-9c3d-87267aa55eea
-source-git-commit: 03c714833930511fa734662b637d2416728073c2
+source-git-commit: 97e925529f5b61138474d53f7df404ff6ea44ba9
 workflow-type: tm+mt
-source-wordcount: '1939'
-ht-degree: 100%
+source-wordcount: '1961'
+ht-degree: 98%
 
 ---
 
@@ -22,6 +22,8 @@ ht-degree: 100%
 >abstract="Contrôlez efficacement vos déclencheurs en sélectionnant les événements et critères spécifiques qui activeront vos messages. Avec le créateur de règles, les personnes peuvent définir des conditions et des valeurs précises. Lorsque ces conditions sont remplies, elles déclenchent une série d’actions, y compris la diffusion de messages in-app."
 
 Vous pouvez ajouter un message in-app dans une campagne ou dans un parcours. Suivez les étapes détaillées ci-dessous pour créer un message in-app dans les deux contextes.
+
+Notez que les messages in-app ne sont pas affectés par le choix de l’utilisateur de s’inscrire ou de se désinscrire des notifications push sur le système d’exploitation.
 
 >[!BEGINTABS]
 
