@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 718af505-7b7c-495e-8974-bd9c35d796bb
-source-git-commit: 4899dbe71243184b6283a32a4fe7eb2edb82f872
+source-git-commit: 7ef96642d28bce0e062e543b46a23ceeeded66fd
 workflow-type: tm+mt
-source-wordcount: '634'
-ht-degree: 100%
+source-wordcount: '730'
+ht-degree: 86%
 
 ---
 
@@ -136,3 +136,42 @@ Vous pouvez également insérer du contenu de type texte lors de la sélection d
    >
    >Seules les sources **[!UICONTROL Attributs de profil]**, **[!UICONTROL Audiences]** et **[!UICONTROL Fonctions d’assistance]** sont disponibles pour la gestion des décisions.
 
+## Personnalisation des représentations basées sur des données contextuelles{#context-data}
+
+Lorsque des données contextuelles sont transmises dans la variable [Prise de décision Edge](../api-reference/offer-delivery-api/edge-decisioning-api.md) vous pouvez exploiter ces données pour personnaliser dynamiquement les représentations. Par exemple, vous pouvez personnaliser la représentation d’une offre en fonction de facteurs en temps réel, tels que les conditions météorologiques actuelles au moment de la décision.
+
+Pour ce faire, incorporez la variable de données contextuelles directement dans le contenu de représentation à l’aide de la variable `profile.timeSeriesEvents.` espace de noms.
+
+Voici un exemple de syntaxe utilisé pour personnaliser la représentation d’une offre en fonction des systèmes d’exploitation des utilisateurs :
+
+```
+ {%#if profile.timeSeriesEvents.device.model = "Apple"%}ios{%else%}android{%/if%} 
+```
+
+La requête de prise de décision Edge correspondante, y compris les données contextuelles, est la suivante :
+
+```
+{
+    "body": {
+        "xdm": {
+            "identityMap": {
+                "Email": [
+                    {
+                        "id": "xyz@abc.com"
+                    }
+                ]
+            },
+            "device": {
+                "model": "Apple"
+            }
+        },
+        "extra": {
+            "query": {
+                "decisionScopes": [
+                    "eyJ4ZG06..."
+                ]
+            }
+        }
+    }
+}
+```
