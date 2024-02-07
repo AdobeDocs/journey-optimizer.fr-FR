@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
 source-git-commit: 0d010bbb46887546d524726606764b564c352064
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1960'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
@@ -59,7 +59,7 @@ L&#39;interface d&#39;Adobe [!DNL Journey Optimizer] est conçue pour fonctionne
 * Le nombre d’activités d’un parcours est désormais limité à 50. Le nombre d’activités s’affiche dans la section supérieure gauche de la zone de travail du parcours. Cela permet de faciliter la lisibilité, l’assurance qualité et la résolution des problèmes.
 * Lorsque vous publiez des parcours, nous les mettons automatiquement à l’échelle et les ajustons pour garantir une stabilité et un débit maximaux. Lorsque vous approchez du jalon de 100 parcours actifs à la fois, une notification s’affiche dans l’interface utilisateur pour cette réalisation. Si cette notification s’affiche et que vous devez étendre vos parcours au-delà de 100 parcours actifs à la fois, créez un ticket pour l’assistance clientèle et nous vous aiderons à atteindre vos objectifs.
 * Lorsque vous utilisez une qualification d’audience dans un parcours, cette activité de qualification d’audience peut demander jusqu’à 10 minutes avant d’être active et d’écouter les profils entrant ou sortant de l’audience.
-* La taille maximale d’une instance de parcours pour un profil est de 1 Mo. Toutes les données collectées dans le cadre de l’exécution du parcours sont stockées dans cette instance de parcours. Par conséquent, les données d’un événement entrant, les informations de profil extraites de Adobe Experience Platform, les réponses d’action personnalisée, etc. sont stockées dans cette instance de parcours et affectent la taille du parcours. Il est conseillé, lorsqu’un parcours commence par un événement, de limiter la taille maximale de cette payload d’événement (par exemple, inférieure à 800 Ko) afin d’éviter d’atteindre cette limite après quelques activités, dans l’exécution du parcours. Lorsque cette limite est atteinte, le profil est en état d’erreur et est exclu du parcours.
+* La taille maximale d’une instance de parcours pour un profil est de 1 Mo. Toutes les données collectées dans le cadre de l’exécution du parcours sont stockées dans cette instance de parcours. Par conséquent, les données d’un événement entrant, les informations de profil extraites d’Adobe Experience Platform, les réponses d’action personnalisée, etc. sont stockées dans cette instance de parcours et affectent la taille du parcours. Il est conseillé, lorsqu’un parcours commence par un événement, de limiter la taille maximale de cette payload d’événement (par exemple, à moins de 800 Ko), afin d’éviter d’atteindre cette limite après quelques activités, dans l’exécution du parcours. Lorsque cette limite est atteinte, le profil est au statut d’erreur et est exclu du parcours.
 
 
 ### Actions générales {#general-actions-g}
@@ -87,10 +87,10 @@ L&#39;interface d&#39;Adobe [!DNL Journey Optimizer] est conçue pour fonctionne
 * Les adresses IP ne sont pas autorisées.
 * Les adresses d’Adobe internes (`.adobe.*`) ne sont pas autorisées dans les URL et les API.
 * Les actions personnalisées intégrées ne peuvent pas être supprimées.
-* Lorsque vous choisissez un point de terminaison à cibler à l’aide d’une action personnalisée, assurez-vous que :
+* Lorsque vous choisissez un point d’entrée à cibler à l’aide d’une action personnalisée, vérifiez ce qui suit :
 
-   * Ce point de terminaison peut prendre en charge le débit des parcours à l’aide de configurations issues de la fonction [API de limitation](../configuration/throttling.md) ou [API de limitation](../configuration/capping.md) pour la limiter. Soyez prudent si une configuration de limitation ne peut pas aller sous 200 TPS. Tout point de terminaison ciblé devra prendre en charge au moins 200 TPS.
-   * Ce point de terminaison doit avoir un temps de réponse aussi bas que possible. Selon le débit attendu, un temps de réponse élevé peut avoir un impact sur le débit réel.
+   * Ce point d’entrée peut prendre en charge le débit de Journey, en utilisant les configurations issues de l’[API de limitation](../configuration/throttling.md) ou de l’[API de plafonnement](../configuration/capping.md) pour le limiter. Assurez-vous qu’aucune configuration de limitation ne puisse aller en dessous de 200 TPS. Tout point d’entrée ciblé devra prendre en charge au moins 200 TPS.
+   * Ce point d’entrée doit avoir un temps de réponse aussi bas que possible. En fonction de votre débit prévu, un temps de réponse élevé peut avoir un impact sur le débit réel.
 
 ### Événements {#events-g}
 
