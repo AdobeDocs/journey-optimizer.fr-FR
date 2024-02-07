@@ -718,7 +718,7 @@ Enhancements have been made to the audience picker in journeys or campaigns, wit
 
 * La zone de travail du parcours affiche désormais l’ID d’activité sur les activités de message et les balises de fin. Le reporting et le reciblage sont ainsi améliorés.
 * La disposition du volet de configuration, qui s’affiche dans les actions, les sources de données, les événements et les parcours, a été améliorée.
-* Nouvelles informations sur le nombre de nœuds sur la zone de travail, avec des limitations pour stimuler la croissance : la lecture, l’assurance qualité et le dépannage des parcours sont ainsi plus plus faciles, avec un nombre maximal de nœuds par parcours établi à 50. [En savoir plus](../start/guardrails.md#journeys-guardrails-journeys).
+* Nouvelles informations sur le nombre de nœuds sur la zone de travail, avec des limitations pour stimuler la croissance : la lecture, l’assurance qualité et le dépannage des parcours sont ainsi plus faciles, avec un nombre maximal de nœuds par parcours établi à 50. [En savoir plus](../start/guardrails.md#journeys-guardrails-journeys).
 * Lors de l’ajout d’une action [E-mail](../email/create-email.md), [SMS](../sms/create-sms.md) ou [Push](../push/create-push.md) dans un parcours, la surface est désormais préremplie par défaut avec la dernière surface utilisée pour ce canal dans le parcours actuel.
 * Vous pouvez désormais définir des paramètres de requête statiques ou dynamiques dans vos actions personnalisées. [En savoir plus](../action/about-custom-action-configuration.md#url-configuration).
 
