@@ -6,9 +6,9 @@ user-guide-description: Utilisez Journey Optimizer pour créer et proposer aux 
 type: Documentation
 solution: Journey Optimizer
 source-git-commit: d26dbebaf36241d0e91c36c95f83ce6cf712ecee
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1731'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -34,7 +34,7 @@ ht-degree: 99%
    + [Interface utilisateur](using/start/user-interface.md)
    + [Recherche, filtrage, catégorisation](using/start/search-filter-categorize.md)
    + [Accessibilité](using/start/accessibility.md)
-   + [Cas d’utilisation des classeurs](using/start/playbooks.md)
+   + [Playbooks de cas d’utilisation](using/start/playbooks.md)
    + [Intégrations](using/start/ajo-integrations.md)
    + [Mécanismes de sécurisation](using/start/guardrails.md)
    + [Bonnes pratiques](using/start/best-practices.md)
@@ -361,7 +361,7 @@ ht-degree: 99%
       + [Nouvelle exigence DMARC](using/configuration/dmarc-record-update.md)
    + [Alertes](using/reports/alerts.md)
    + [Utiliser Customer Journey Analytics](using/reports/cja-ajo.md)
-   + [Motifs d&#39;exclusion](using/reports/exclusion-list.md)
+   + [Motifs d’exclusion](using/reports/exclusion-list.md)
 + Gestion des décisions {#offer-decisioning}
    + Prise en main de la gestion des décisions {#get-started-decision}
       + [À propos de la gestion des décisions](using/offers/get-started/starting-offer-decisioning.md)
@@ -527,7 +527,7 @@ ht-degree: 99%
    + Déléguer les sous-domaines d’e-mail {#delegate-subdomains}
       + [Prise en main de la délégation de sous-domaines](using/configuration/about-subdomain-delegation.md)
       + [Délégation d’un sous-domaine](using/configuration/delegate-subdomain.md)
-      + [Configuration de l’enregistrement DMARC](using/configuration/dmarc-record.md)
+      + [Configurer l’enregistrement DMARC](using/configuration/dmarc-record.md)
       + [Ajout d’un enregistrement TXT Google](using/configuration/google-txt.md)
       + [Accès aux enregistrements PTR et modification](using/configuration/ptr-records.md)
       + [Création de groupes d’adresses IP](using/configuration/ip-pools.md)
