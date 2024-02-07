@@ -8,7 +8,7 @@ exl-id: 3a1b6c61-82df-421c-98d8-2af4f2a5e0de
 source-git-commit: 0144a772f67ffa03e39a70de41c54a6cf88cdd69
 workflow-type: tm+mt
 source-wordcount: '435'
-ht-degree: 68%
+ht-degree: 94%
 
 ---
 
@@ -20,11 +20,11 @@ Découvrez les améliorations les plus récentes apportées au produit et à la 
 
 >[!BEGINTABS]
 
->[!TAB La version de janvier est en ligne !]
+>[!TAB La version de janvier est disponible.]
 
-Découvrez les nouvelles fonctionnalités et améliorations de la version Adobe Journey Optimizer 24.1.
+Découvrez les nouvelles fonctionnalités et améliorations de la version 24.1 d’Adobe Journey Optimizer.
 
-[![Image.](using/assets/do-not-localize/learn-more-button.svg)](using/rn/release-notes.md)
+[![image](using/assets/do-not-localize/learn-more-button.svg)](using/rn/release-notes.md)
 
 >[!TAB Mise à jour DMARC obligatoire]
 
@@ -32,13 +32,13 @@ Dans le cadre de l’application des bonnes pratiques du secteur, Google et Yaho
 
 [![Image.](using/assets/do-not-localize/learn-more-button.svg)](using/configuration/dmarc-record-update.md)
 
->[!TAB Cas d’utilisation des classeurs]
+>[!TAB Playbooks de cas d’utilisation]
 
-Tirez parti d’un catalogue de playbooks de cas d’utilisation spécifiques au secteur dans Real-Time CDP et Journey Optimizer pour répondre aux cas d’utilisation courants que vous pouvez exécuter à l’aide de Adobe Experience Platform et de l’Adobe Parcours Optimiser.
+Tirez profit d’un catalogue de playbooks de cas d’utilisation spécifiques à des secteurs d’activité dans Real-Time CDP et Journey Optimizer pour traiter les cas d’utilisation courants que vous pouvez exécuter à l’aide d’Adobe Experience Platform et d’Adobe Journey Optimizer.
 
-Une fois que vous avez choisi le playbook qui correspond le mieux à vos besoins, vous pouvez lui permettre de générer les ressources nécessaires à la prise en charge de votre cas d’utilisation, tels que les parcours, les messages, les schémas ou les segments, et de les personnaliser dans votre schéma pour accélérer leur valorisation.
+Une fois que vous avez choisi le playbook qui correspond le mieux à vos besoins, vous pouvez lui permettre de générer les ressources nécessaires à la prise en charge de votre cas d’utilisation, telles que des parcours, des messages, des schémas ou des segments, et de les personnaliser dans votre schéma pour réduire le délai de rentabilisation.
 
-![image animée montrant des classeurs de cas d’utilisation](using/rn/assets/do-not-localize/playbooks.gif)
+![Image animée illustrant des Playbooks de cas d’utilisation.](using/rn/assets/do-not-localize/playbooks.gif)
 
 [![image](using/assets/do-not-localize/learn-more-button.svg)](using/start/playbooks.md)
 

@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Respecter les nouvelles exigences DMARC
+title: Respecter la nouvelle exigence DMARC
 description: Découvrez pourquoi et quand vous devez définir l’enregistrement DMARC dans Journey Optimizer.
 feature: Subdomains, Channel Configuration, Deliverability
 topic: Administration
@@ -11,40 +11,40 @@ keywords: sous-domaine, domaine, courrier, dmarc, enregistrement
 source-git-commit: cdc3e0ffaddb2ad83ad1703c1858773d09557859
 workflow-type: tm+mt
 source-wordcount: '575'
-ht-degree: 36%
+ht-degree: 88%
 
 ---
 
-# Respecter les nouvelles exigences DMARC {#dmarc-record-update}
+# Respecter la nouvelle exigence DMARC {#dmarc-record-update}
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_dmarc_banner_link"
 >title="En savoir plus sur la mise à jour DMARC obligatoire"
 >abstract="Dans le cadre de leur application des bonnes pratiques du secteur, Google et Yahoo exigent tous deux que vous disposiez d’un **Enregistrement DMARC** pour tout domaine que vous utilisez pour leur envoyer des emails, en commençant par **1er février 2024**.<br>Par conséquent, vous devez vous assurer que les enregistrements DMARC sont configurés pour tous les sous-domaines que vous avez délégués à Adobe dans Journey Optimizer."
 
-DMARC (Domain-based Message Authentication, Reporting, and Conformance) est une méthode d’authentification email qui permet aux propriétaires de domaine de protéger leur domaine d’une utilisation non autorisée. En offrant une politique claire aux fournisseurs de messagerie/FAI, elle permet d&#39;empêcher les acteurs malveillants d&#39;envoyer des emails prétendant provenir de votre domaine. La mise en oeuvre de DMARC réduit le risque que les emails légitimes soient marqués comme spam ou rejetés et améliore la délivrabilité de vos emails.
+DMARC (Domain-based Message Authentication, Reporting, and Conformance, soit Authentification, création de rapports et conformité des messages basés sur le domaine) est une méthode d’authentification d’e-mail qui permet aux personnes propriétaires de domaine de protéger leur domaine d’une utilisation non autorisée. En fournissant une politique claire aux fournisseurs de messagerie/FAI, elle permet d’empêcher des entités malveillantes d’envoyer des e-mails prétendant provenir de votre domaine. L’implémentation de DMARC réduit le risque que les e-mails légitimes soient marqués comme spam ou rejetés et améliore la délivrabilité de vos e-mails.
 
-Dans le cadre de l’application des bonnes pratiques du secteur, Google et Yahoo! exigent tous deux qu’une **Enregistrement DMARC** pour tout domaine que vous utilisez pour leur envoyer des emails. Cette nouvelle exigence s’applique à partir de **1er février 2024**. [En savoir plus](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/guidance-around-changes-to-google-and-yahoo.html#dmarc){target="_blank"}.
+Dans le cadre de l’application des bonnes pratiques du secteur, Google et Yahoo! exigent tous deux que vous disposiez d’un **enregistrement DMARC** pour tout domaine utilisé pour leur envoyer des e-mails. Cette nouvelle exigence s’applique dès le **1er février 2024**. [En savoir plus](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/guidance-around-changes-to-google-and-yahoo.html?lang=fr#dmarc){target="_blank"}.
 
 >[!CAUTION]
 >
->Ne pas se conformer à cette nouvelle exigence de Gmail et Yahoo ! est susceptible d’entraîner l’entrée ou le blocage des emails dans le dossier spam.
+>Ne pas se conformer à cette nouvelle exigence de Gmail et Yahoo! est susceptible d’entraîner la réception des e-mails dans le dossier de spam ou leur blocage.
 
 Par conséquent, Adobe vous recommande vivement de vous assurer que les enregistrements DMARC sont configurés pour tous les sous-domaines que vous avez délégués à Adobe dans [!DNL Journey Optimizer]. Suivez les étapes ci-dessous qui s’appliquent à votre cas :
 
-* Si vous avez [entièrement délégué](delegate-subdomain.md#full-subdomain-delegation) vos sous-domaines d’envoi à Adobe, procédez comme suit :
+* Si vous avez [entièrement délégué](delegate-subdomain.md#full-subdomain-delegation) vos sous-domaines d’envoi à Adobe, suivez l’une des deux options ci-dessous :
 
-   * Configuration de DMARC sur le domaine parent de vos sous-domaines délégués **dans votre solution d’hébergement**.
-or
-   * Configuration de DMARC sur vos sous-domaines délégués **dans le[!DNL Journey Optimizer]** Configuration de l’interface utilisateur - sans travail supplémentaire sur votre solution d’hébergement. [Voici comment procéder.](dmarc-record.md#implement-dmarc)
+   * Configurez DMARC sur le domaine parent de vos sous-domaines délégués **dans votre solution d’hébergement**.
+ou
+   * Configurez DMARC sur vos sous-domaines délégués **dans l’interface utilisateur de configuration[!DNL Journey Optimizer]**, et ce sans travail supplémentaire à effectuer sur votre solution d’hébergement. [Voici comment procéder.](dmarc-record.md#implement-dmarc)
 
-* Si vous avez configuré vos sous-domaines d’envoi avec [CNAME](delegate-subdomain.md#cname-subdomain-delegation), suivez l’une des options ci-dessous :
+* Si vous avez configuré vos sous-domaines d’envoi avec [CNAME](delegate-subdomain.md#cname-subdomain-delegation), suivez l’une des options ci-dessous :
 
-   * Configurez DMARC sur vos sous-domaines ou sur le domaine parent de vos sous-domaines. **dans votre solution d’hébergement**.
-or
-   * Configuration de DMARC sur vos sous-domaines délégués **dans le[!DNL Journey Optimizer]** de l’interface utilisateur de configuration. [Voici comment procéder.](dmarc-record.md#implement-dmarc)
+   * Configurez DMARC sur vos sous-domaines ou sur le domaine parent de vos sous-domaines **dans votre solution d’hébergement**.
+ou
+   * Configurez DMARC sur vos sous-domaines délégués **dans l’interface utilisateur de configuration[!DNL Journey Optimizer]**. [Voici comment procéder.](dmarc-record.md#implement-dmarc)
 
-  Toutefois, avec la délégation CNAME, elle nécessite également une entrée dans votre solution d’hébergement. Par conséquent, assurez-vous de vous coordonner avec votre service informatique afin qu’il puisse effectuer la mise à jour détaillée dans la section [cette section](dmarc-record.md#implement-dmarc).
+  Cependant, avec une délégation CNAME, une entrée dans votre solution d’hébergement sera également nécessaire. Par conséquent, assurez-vous de vous coordonner avec votre service informatique afin qu’il puisse effectuer la mise à jour détaillée dans [cette section](dmarc-record.md#implement-dmarc).
 
 
 Chronologies les plus récentes partagées par Google et Yahoo! sont les suivantes :
@@ -65,7 +65,7 @@ Chronologies les plus récentes partagées par Google et Yahoo! sont les suivant
 
 **Liens utiles**
 
-* En savoir plus sur DMARC dans la section [Guide des bonnes pratiques de délivrabilité](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/technotes/implement-dmarc.html?lang=fr#about){target="_blank"}
-* Pour plus d’informations sur ces modifications, voir [Guide des bonnes pratiques de délivrabilité](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/guidance-around-changes-to-google-and-yahoo.html){target="_blank"}
-* Lire [Annonce Google Gmail](https://blog.google/products/gmail/gmail-security-authentication-spam-protection/){target="_blank"}
-* Lire [Yahoo ! annonce](https://blog.postmaster.yahooinc.com/post/730172167494483968/more-secure-less-spam){target="_blank"}
+* Découvrez DMARC dans le [Guide des bonnes pratiques en matière de délivrabilité](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/technotes/implement-dmarc.html?lang=fr#about){target="_blank"}.
+* Obtenez plus d’informations à propos de ces modifications dans le [Guide des bonnes pratiques en matière de délivrabilité](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/guidance-around-changes-to-google-and-yahoo.html?lang=fr){target="_blank"}.
+* Consultez l’[Annonce Google Gmail](https://blog.google/products/gmail/gmail-security-authentication-spam-protection/){target="_blank"}.
+* Consultez l’[annonce Yahoo! ](https://blog.postmaster.yahooinc.com/post/730172167494483968/more-secure-less-spam){target="_blank"}.
