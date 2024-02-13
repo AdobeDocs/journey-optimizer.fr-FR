@@ -38,7 +38,7 @@ Liste
 | list | listDateTime |
 | list | listDateTimeOnly |
 | list | listDateOnly |
-| index | integer |
+| index | Entier |
 
 ## Signatures et type renvoyé
 
