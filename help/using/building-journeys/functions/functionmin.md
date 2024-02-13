@@ -35,8 +35,8 @@ Agrégation
 * listDateTimeOnly
 * listDateOnly
 * durée
-* nombre entier
-* décimal
+* Entier
+* Décimal
 * dateTime
 * dateTimeOnly
 
