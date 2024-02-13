@@ -9,9 +9,9 @@ level: Experienced
 keywords: parcours, champ, expression, événement
 exl-id: 2348646a-b205-4b50-a08f-6625e92f44d7
 source-git-commit: 7e850261f1a82492c5df93c4437b4e3c6859a2d7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '557'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -56,7 +56,7 @@ Il est possible d’associer une valeur par défaut à un nom de champ. La synta
 
 >[!NOTE]
 >
->Le type du champ et la valeur par défaut doivent être identiques. Par exemple : `@event{LobbyBeacon.endUserIDs._experience.emailid.id, defaultValue : 2}` n’est pas valide, car la valeur par défaut est un entier alors que la valeur attendue doit être une chaîne.
+>Le type du champ et la valeur par défaut doivent être identiques. Par exemple, `@event{LobbyBeacon.endUserIDs._experience.emailid.id, defaultValue : 2}` n’est pas valide, car la valeur par défaut est un entier alors que la valeur attendue doit être une chaîne.
 
 Exemples :
 
@@ -117,7 +117,7 @@ Pour récupérer un élément dans un mapping, il faut utiliser la fonction d’
 @event{MyEvent.identityMap.entry('Email').first().id}
 ```
 
-Dans cette expression, nous obtenons l’entrée pour la clé &quot;Email&quot; du champ &quot;IdentityMap&quot; d’un événement. L’entrée &quot;Email&quot; est une collection, à partir de laquelle nous prenons l’&quot;id&quot; dans le premier élément en utilisant &#39;first()&#39;. Pour plus d’informations, consultez [cette page](../expression/collection-management-functions.md).
+Dans cette expression, nous obtenons l’entrée correspondant à la clé « E-mail » du champ « IdentityMap » d’un événement. L’entrée « E-mail » est une collection, dans laquelle nous obtenons l’« id » dans le premier élément en utilisant « first() ». Pour plus d’informations, consultez [cette page](../expression/collection-management-functions.md).
 
 ### Fonction `firstEntryKey`
 
