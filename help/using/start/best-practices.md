@@ -10,9 +10,9 @@ hide: true
 hidefromtoc: true
 exl-id: 271fb85d-5621-4a12-b3d1-65cf6021b174
 source-git-commit: e411810196c591727fb1049826dc761e3807ed03
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '982'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -66,4 +66,4 @@ Il existe un certain nombre de bonnes pratiques que vous pouvez adopter, qui vou
 * Si votre parcours comporte plusieurs conditions pour diviser l’audience afin d’afficher les nombres à chaque étape, pensez à utiliser Customer Journey Analytics ou d’autres solutions de création de rapports mieux adaptées à l’analyse.
 * Si vous approchez de la limite des nœuds sur la zone de travail, envisagez de consolider les actions avec des paramètres ou du contenu dynamiques pour servir le contenu approprié plutôt que des nœuds explicites.
 
-* Si vous avez une **Lecture d’audience** parcours avec le segment par lot (A) et si vous utilisez dans le parcours du segment de diffusion en continu d’audience (B) pour exclure (c’est-à-dire exécuter A-B), envisagez de déplacer cette logique vers la logique de segmentation et d’utiliser l’exclusion dans le cadre de la logique de segmentation elle-même.
+* Si vous avez un parcours **Lecture d’audience** avec le segment par lots (A) et si vous utilisez dans le parcours le segment de streaming (B) dans l’audience pour exclure (c’est-à-dire exécuter A-B), envisagez de déplacer cette logique vers la logique de segmentation et d’utiliser l’exclusion dans le cadre de la logique de segmentation elle-même.
