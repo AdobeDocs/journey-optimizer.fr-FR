@@ -7,9 +7,9 @@ level: Intermediate
 keywords: in-app, message, configuration, platform
 exl-id: 469c05f2-652a-4899-a657-ddc4cebe3b42
 source-git-commit: 7e850261f1a82492c5df93c4437b4e3c6859a2d7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '663'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -31,7 +31,7 @@ Pour que les messages in-app soit correctement diffusés, les paramètres suivan
 
   >[!NOTE]
   >
-  >Lors de l’utilisation d’une **[!UICONTROL Préférence du jeu de données]** stratégie de fusion, veillez à ajouter la **[!UICONTROL Parcours entrant]** jeu de données dans la stratégie de fusion spécifiée.
+  >Lors de l’utilisation d’une politique de fusion personnalisée **[!UICONTROL Préférence de jeu de données]**, veillez à ajouter le jeu de données **[!UICONTROL Parcours entrant]** dans la politique de fusion spécifiée.
 
   ![](assets/inapp_config_8.png)
 
