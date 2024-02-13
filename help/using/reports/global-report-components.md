@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 exl-id: c487bb38-49ce-4238-8e94-8364f994cedd
 source-git-commit: d26dbebaf36241d0e91c36c95f83ce6cf712ecee
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1110'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -64,7 +64,7 @@ Les tableaux ci-dessous contiennent la liste des mesures utilisées dans les dif
  <tbody>
   <tr> 
    <td> Rebonds<br/> </td> 
-   <td> Nombre total d'erreurs cumulées lors du processus d'envoi et du traitement automatique des retours par rapport au nombre total de messages envoyés.<br/> </td> 
+   <td> Nombre total d’erreurs cumulées au cours du processus d’envoi et du traitement automatique des retours par rapport au nombre total de messages envoyés.<br/> </td> 
 </tr> 
   <tr> 
    <td> Taux de rebond<br/> </td> 
@@ -84,11 +84,11 @@ Les tableaux ci-dessous contiennent la liste des mesures utilisées dans les dif
 </tr>
   <tr> 
    <td> Erreurs<br/> </td> 
-   <td> Nombre total d'erreurs qui se sont produites pendant le processus d'envoi et qui l'ont empêché d'être envoyé aux profils.<br/> </td> 
+   <td> Nombre total d’erreurs survenues au cours du processus d’envoi, empêchant l’envoi à des profils.<br/> </td> 
 </tr> 
   <tr> 
    <td> Taux d’erreur<br/> </td> 
-   <td> Pourcentage d'erreurs qui se sont produites pendant le processus d'envoi, empêchant l'envoi par rapport au nombre d'emails envoyés.<br/> </td> 
+   <td> Pourcentage d’erreurs survenues au cours du processus d’envoi, empêchant les envois, par rapport aux e-mails envoyés.<br/> </td> 
 </tr>
 </tr> 
   <tr> 
