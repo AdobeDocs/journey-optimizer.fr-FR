@@ -31,7 +31,7 @@ Date
 | Paramètre | Type |
 |-----------|------------------|
 | date et heure | dateTime |
-| delta | integer |
+| delta | Entier |
 
 ## Signatures et type renvoyé
 
