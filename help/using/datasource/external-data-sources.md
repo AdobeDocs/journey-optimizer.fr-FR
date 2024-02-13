@@ -10,9 +10,9 @@ level: Intermediate, Experienced
 keywords: externe, sources, données, configuration, connexion, tiers
 exl-id: f3cdc01a-9f1c-498b-b330-1feb1ba358af
 source-git-commit: 67fbfe9c2ffb40a420cc3f28a775d9c6b3ee5553
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1489'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -129,7 +129,7 @@ Avec cette authentification, l’exécution de l’action est un processus en de
 
 >[!NOTE]
 >
->**Cette authentification comporte deux parties.**
+>**Cette authentification se compose de deux parties.**
 
 ### Définition du point d’entrée à appeler pour générer le jeton d’accès
 
@@ -140,7 +140,7 @@ Avec cette authentification, l’exécution de l’action est un processus en de
    * &#39;form&#39; : signifie que le type de contenu sera application/x-www-form-urlencoded (jeu de caractères UTF-8) et que les paires clé/valeur seront sérialisées comme suit : key1=value1&amp;key2=value2&amp;…
    * &#39;json&#39; : signifie que le type de contenu sera application/json (jeu de caractères UTF-8) et que les paires clé-valeur seront sérialisées sous la forme d’un objet json, tel quel : _{ &quot;key1&quot;: &quot;value1&quot;, &quot;key2&quot;: &quot;value2&quot;, ...}_
 
-### Définition de la manière dont le jeton d’accès doit être injecté dans la requête HTTP de l’action
+### Définition de la méthode d’injection du jeton d’accès dans la requête HTTP de l’action
 
 * authorizationType : définit la manière dont le jeton d’accès généré doit être injecté dans l’appel HTTP pour l’action. Les valeurs possibles sont les suivantes :
 
