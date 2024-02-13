@@ -31,7 +31,7 @@ Liste
 | Paramètre | Type | Description |
 |-----------|------------------|------------------|
 | listToFilter | listObject | liste dʼobjects à filtrer. Il doit être une référence de champ. |
-| keyAttributeName | chaîne | nom de lʼattribut dans les objets de la liste donnée, utilisé comme clé pour le filtrage |
+| keyAttributeName | Chaîne | nom de lʼattribut dans les objets de la liste donnée, utilisé comme clé pour le filtrage |
 | keyValueList | list | tableau de valeurs clés pour le filtrage |
 
 ## Signatures et types renvoyés
