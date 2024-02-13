@@ -10,9 +10,9 @@ level: Experienced
 keywords: action, tiers, personnalisé, parcours, API
 exl-id: d88daa58-20af-4dac-ae5d-4c10c1db6956
 source-git-commit: 7e850261f1a82492c5df93c4437b4e3c6859a2d7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '618'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -202,7 +202,7 @@ Voici quelques exemples :
  @action{ActionLoyalty.points, defaultValue: @event{myEvent.newPoints}}
 ```
 
-Lors de la manipulation de collections dans une réponse d’action personnalisée, vous pouvez vous fier à `currentActionField` pour accéder à l’élément actif :
+Lors de la manipulation de collections dans une réponse d’action personnalisée, vous pouvez vous appuyer sur `currentActionField` pour accéder à l’élément actif :
 
 ```json
 count(
@@ -216,5 +216,5 @@ currentActionField.description == "abc"
 
 Pour plus d’informations, veuillez consulter les pages suivantes :
 
-* [Références de champ](../building-journeys/expression/field-references.md).
+* [Références de champ](../building-journeys/expression/field-references.md)
 * [Fonctions de gestion des collections](../building-journeys/expression/collection-management-functions.md)
