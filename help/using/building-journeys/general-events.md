@@ -10,9 +10,9 @@ level: Intermediate
 keywords: personnalisé, général, événement, parcours
 exl-id: b1813122-7031-452e-9ac5-a4ea7c6dc57c
 source-git-commit: 31d9189e8afd732875556b9caaa8e874f53597bb
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '524'
-ht-degree: 74%
+ht-degree: 100%
 
 ---
 
@@ -35,9 +35,9 @@ Lorsque vous déposez un événement métier, cela ajoute automatiquement une ac
 
 Une activité d&#39;événement située sur le parcours va écouter les événements indéfiniment. Pour écouter un événement uniquement pendant une certaine période, vous devez configurer une temporisation pour l&#39;événement.
 
-Ce faisant, le parcours écoutera l&#39;événement au cours de la période définie dans la temporisation. Si un événement est reçu au cours de cette période, le client sera intégré dans le chemin de l&#39;événement. Si ce n’est pas le cas, le client va soit s’insérer dans le chemin d’accès au délai d’expiration s’il est défini, soit il va continuer ce parcours.
+Ce faisant, le parcours écoutera l&#39;événement au cours de la période définie dans la temporisation. Si un événement est reçu au cours de cette période, le client sera intégré dans le chemin de l&#39;événement. Si ce n’est pas le cas, le client ou la cliente va emprunter le chemin de temporisation s’il est défini, soit continuer ce parcours.
 
-Si aucun chemin de délai d’expiration n’est défini, le paramètre de délai d’expiration agit comme une activité d’attente, ce qui fait que le profil attend une période qui peut être arrêtée si un événement se produit avant la fin de cette attente. Si vous souhaitez que les profils soient exclus de ce parcours après expiration, vous devez définir un chemin d’accès au délai d’expiration.
+Si aucun chemin de temporisation n’est défini, le paramètre de temporisation agit comme une activité d’attente, ce qui fait que le profil attend pendant une certaine période qui peut être arrêtée si un événement se produit. Si vous souhaitez que les profils soient exclus de ce parcours après temporisation, vous devez définir un chemin de temporisation.
 
 Pour configurer une temporisation d’événement, procédez comme suit :
 
@@ -45,7 +45,7 @@ Pour configurer une temporisation d’événement, procédez comme suit :
 
 1. Définissez la durée pendant laquelle le parcours attendra l&#39;événement. La durée maximale est de 29 jours.
 
-1. Si vous souhaitez orienter les individus vers un chemin de temporisation, alors qu&#39;aucun événement n&#39;est reçu au cours de la temporisation spécifiée, activez l&#39;option **[!UICONTROL Ajouter un itinéraire de temporisation]**. Si cette option n’est pas activée, le parcours se poursuit pour l’individu une fois le délai d’expiration atteint.
+1. Si vous souhaitez orienter les personnes vers un chemin de temporisation, alors qu’aucun événement n’est reçu au cours de la temporisation spécifiée, activez l’option **[!UICONTROL Ajouter un chemin de temporisation]**. Si cette option n’est pas activée, le parcours continue pour la personne une fois le délai de temporisation atteint.
 
    ![](assets/event-timeout.png)
 
@@ -56,6 +56,6 @@ Dans cet exemple, le parcours envoie un premier message de bienvenue à un clien
 
 Notez que si vous souhaitez configurer une temporisation pour plusieurs événements placés après une activité **[!UICONTROL Attente]**, vous ne devez configurer ce délai que pour un seul de ces événements.
 
-La temporisation s&#39;applique à tous les événements postérieurs à l&#39;activité **[!UICONTROL Attente]**. Si aucun événement n’est reçu avant le délai d’expiration spécifié, les individus s’engagent dans un seul chemin d’accès au délai d’expiration ou poursuivent ce parcours via la branche en quittant l’activité où ces paramètres d’expiration ont été définis.
+La temporisation s&#39;applique à tous les événements postérieurs à l&#39;activité **[!UICONTROL Attente]**. Si aucun événement n’est reçu avant la temporisation spécifiée, les personnes s’engagent dans un seul chemin de temporisation ou poursuivent ce parcours via la branche en quittant l’activité où ces paramètres de temporisation ont été définis.
 
 ![](assets/event-timeout-group.png)
