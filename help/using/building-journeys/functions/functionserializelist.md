@@ -8,9 +8,9 @@ level: Experienced
 keywords: serializeList, fonction, expression, parcours
 exl-id: 7ead9fa1-59b3-4960-818c-fe6321422952
 source-git-commit: 2f47209ad2a5e5b5d26f01949f5e9ade63c2581f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '88'
-ht-degree: 39%
+ht-degree: 100%
 
 ---
 
@@ -31,8 +31,8 @@ Liste
 | Paramètre | Type | Description |
 |-----------|------------------|------------------|
 | listToProcess | listString, listBoolean, listInteger, listDecimal, listDuration, listDateTime, listDateTimeOnly, listDateOnly | Liste à convertir en chaîne. |
-| separator | chaîne | Séparateur entre chaque élément de liste dans la chaîne de sortie. |
-| addQuotes | booléen | Ce paramètre indique si chaque élément de la chaîne de sortie doit inclure des guillemets (true) ou non (false). |
+| separator | Chaîne | Séparateur entre chaque élément de liste dans la chaîne de sortie. |
+| addQuotes | Booléen | Ce paramètre indique si chaque élément de la chaîne de sortie doit inclure des guillemets (true) ou non (false). |
 
 ## Signature et type renvoyé
 
