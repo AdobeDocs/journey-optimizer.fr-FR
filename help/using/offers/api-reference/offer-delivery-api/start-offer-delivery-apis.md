@@ -7,9 +7,9 @@ role: Data Engineer
 level: Experienced
 exl-id: 7bc1a4ec-113c-4af7-b549-ee17b843b818
 source-git-commit: d9d2e763b04ec725cc389b1d535df4df06103018
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '673'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -122,9 +122,9 @@ Lors de la transmission de données contextuelles avec une demande de l’API Ed
 >
 >Pour que les données contextuelles soient stockées, vous devez avoir configuré un schéma XDM dédié.
 
-**Mise à jour du compteur de limitation de fréquence**
+**Mise à jour du compteur de limitation de la fréquence**
 
-Si la limitation de fréquence a été activée pour certaines de vos offres afin de définir la fréquence à laquelle leur nombre de limitations est réinitialisé, le compteur est mis à jour et disponible dans une décision de l’API Edge Decisioning en moins de 3 secondes. [Découvrez comment ajouter des contraintes à une offre](../../offer-library/add-constraints.md)
+Si la limitation de la fréquence a été activée pour certaines de vos offres afin de définir la fréquence à laquelle leur nombre de limitation est réinitialisé, le compteur est mis à jour et disponible dans une décision de l’API Edge Decisioning en moins de 3 secondes. [Découvrir comment ajouter des contraintes à une offre](../../offer-library/add-constraints.md)
 
 ## Fonctionnalités de l’API Decisioning {#decisioning}
 
