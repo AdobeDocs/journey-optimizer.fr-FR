@@ -8,9 +8,9 @@ level: Experienced
 keywords: sort, fonction, expression, parcours
 exl-id: 607e1424-4165-48ae-b896-cce2d18f7dcc
 source-git-commit: 2f47209ad2a5e5b5d26f01949f5e9ade63c2581f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '144'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -31,8 +31,8 @@ Liste
 | Paramètre | Type | Description |
 |-----------|------------------|------------------|
 | listToSort | listString, listBoolean, listInteger, listDecimal, listDuration, listDateTime, listDateTimeOnly, listDateOnly, or listObject | Liste à trier. Pour listObject, il doit s’agir d’une référence de champ. |
-| keyAttributeName | chaîne | Ce paramètre est uniquement destiné à listObject. Le nom de lʼattribut dans les objets de la liste donnée, utilisé comme clé pour le tri. |
-| sortingOrder | booléen | ascendant (true) ou descendant (false) |
+| keyAttributeName | Chaîne | Ce paramètre est uniquement destiné à listObject. Le nom de lʼattribut dans les objets de la liste donnée, utilisé comme clé pour le tri. |
+| sortingOrder | Booléen | ascendant (true) ou descendant (false) |
 
 ## Signature et type renvoyé
 
@@ -80,5 +80,5 @@ Renvoie `[3, 2, 1]`.
 
 `sort(@event{my_event.productListItems}, "SKU", true)`
 
-Renvoie l’objet listObject classé par attribut de SKU (ordre croissant)
+Renvoie une valeur listObject classée par attribut SKU (ordre ascendant).
 
