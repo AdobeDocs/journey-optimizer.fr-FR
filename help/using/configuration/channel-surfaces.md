@@ -10,9 +10,9 @@ level: Experienced
 keywords: canal, surface, technique, paramètres, optimizer
 exl-id: 9038528f-3da0-4e0e-9b82-b72c67b42391
 source-git-commit: 00da20f3d51ce1032cb6908641048b377cc1a192
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1627'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -29,7 +29,7 @@ Avec [!DNL Journey Optimizer], vous pouvez configurer des surfaces de canal (c�
 >
 > * Pour créer, modifier et supprimer des surfaces de canal, vous devez disposer de l’autorisation [Gérer les préréglages de message](../administration/high-low-permissions.md#administration-permissions).
 >
-> * Vous devez exécuter la fonction [Configuration des emails](../email/get-started-email-config.md), [Configuration push](../push/push-configuration.md), [Configuration des SMS](../sms/sms-configuration.md) et [Configuration du courrier](../direct-mail/direct-mail-configuration.md) étapes avant de créer des surfaces de canal.
+> * Vous devez effectuer les étapes de [Configuration du canal e-mail](../email/get-started-email-config.md), de [Configuration du canal push](../push/push-configuration.md), de [Configuration du canal SMS](../sms/sms-configuration.md) et de [Configuration du courrier](../direct-mail/direct-mail-configuration.md) avant de créer des surfaces de canal.
 
 Une fois les surfaces de canal configurées, vous pourrez les sélectionner lors de la création de messages à partir d’un parcours ou d’une campagne.
 
@@ -95,7 +95,7 @@ Pour créer une surface de canal, procédez comme suit :
 
 1. Une fois la surface de canal créée, elle s&#39;affiche dans la liste avec le statut **[!UICONTROL Traitement]**.
 
-   Au cours de cette étape, plusieurs vérifications seront effectuées afin de vérifier qu’il a été correctement configuré. <!--The processing time is around **48h-72h**, and can take up to **7-10 business days**.-->
+   Au cours de cette étape, plusieurs vérifications seront effectuées afin de vérifier que la configuration est correcte.<!--The processing time is around **48h-72h**, and can take up to **7-10 business days**.-->
 
    >[!NOTE]
    > Lors de la création d’une surface d’e-mail pour un sous-domaine, le temps de traitement varie comme décrit ci-dessous :
