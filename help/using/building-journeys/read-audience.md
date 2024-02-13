@@ -10,9 +10,9 @@ level: Intermediate
 keywords: activité, parcours, lecture, audience, platform
 exl-id: 7b27d42e-3bfe-45ab-8a37-c55b231052ee
 source-git-commit: 7e850261f1a82492c5df93c4437b4e3c6859a2d7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1402'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -31,9 +31,9 @@ Prenons l’exemple de l’audience « Ouverture et passage en caisse de l’ap
 
 ## À lire absolument {#must-read}
 
-* Pour les parcours qui utilisent une **Lecture d’audience** activité, il existe un nombre maximal de parcours qui peuvent démarrer exactement au même moment. Les reprises seront effectuées par le système, mais évitent de dépasser cinq parcours (avec **Lecture d’audience**, planifié ou commençant &quot;dès que possible&quot;) à partir exactement au même moment. La bonne pratique consiste à les étaler au fil du temps, par exemple entre 5 et 10 minutes d’intervalle.
+* Pour les parcours qui utilisent une activité **Lecture d’audience**, il y a un nombre maximal de parcours pouvant commencer exactement au même moment. Les reprises seront effectuées par le système, mais évitez d’avoir plus de cinq parcours (avec **Lecture d’audience**, planifié ou commençant « le plus tôt possible ») commençant exactement au même moment. La bonne pratique consiste à les espacer au fil du temps, par exemple avec une intervalle de 5 à 10 minutes.
 
-* Les groupes de champs d’événement d’expérience ne peuvent pas être utilisés dans les parcours commençant par un **Lecture d’audience** une activité **[Qualification de l’audience](audience-qualification-events.md)** ou une activité d’événement professionnel.
+* Les groupes de champs d’événement d’expérience ne peuvent pas être utilisés dans les parcours commençant par une activité **Lecture d’audience**, **[Qualification d’audience](audience-qualification-events.md)** ou événement métier.
 
 * En guise de bonne pratique, il est recommandé d’utiliser uniquement des audiences par lots dans une activité **Lecture d’audience**. Cela permet un comptage fiable et cohérent des audiences utilisées dans un parcours. La lecture d’audience est conçue pour les cas d’utilisation par lots. Si votre cas d’utilisation nécessite des données en temps réel, utilisez l’activité **[Qualification de l’audience](audience-qualification-events.md)**.
 
