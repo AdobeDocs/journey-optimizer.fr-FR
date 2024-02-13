@@ -32,7 +32,7 @@ Date
 |--- |--- |
 | date et heure | dateTime |
 | date et heure sans prise en compte du fuseau horaire | dateTimeOnly |
-|  jours | integer |
+|  jours | Entier |
 
 ## Signatures et type renvoyé
 
