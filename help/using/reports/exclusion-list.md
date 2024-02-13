@@ -2,20 +2,20 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Liste d’exclusions
-description: En savoir plus sur les exclusions survenant lors de l’envoi
+description: En savoir plus sur les exclusions lors de l’envoi
 feature: Reporting
 topic: Content Management
 role: User
 level: Intermediate
 exl-id: a34ba1a8-87d5-4f9c-a181-2f49e74e8f09
 source-git-commit: d26dbebaf36241d0e91c36c95f83ce6cf712ecee
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '696'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
-# Motifs d&#39;exclusion {#exclusion-list}
+# Causes d’exclusion {#exclusion-list}
 
 | Motif d’exclusion | Code d’erreur | Canal | Explication |
 |-|-|-|-|
