@@ -30,8 +30,8 @@ Chaîne
 
 | Paramètre | Type |
 |-----------|------------------|
-| chaîne d’entrée | chaîne |
-| chaîne de séparateur | chaîne |
+| chaîne d’entrée | Chaîne |
+| chaîne de séparateur | Chaîne |
 
 ## Signatures et type renvoyé
 
