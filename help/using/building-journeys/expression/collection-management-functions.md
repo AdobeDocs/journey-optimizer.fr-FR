@@ -9,9 +9,9 @@ level: Experienced
 keywords: requête, collections, fonctions, payload, parcours
 exl-id: 09b38179-9ace-4921-985b-ddd17eb64681
 source-git-commit: b58d6bbcf2311be3f841f7eef0c0bf10692f1704
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '633'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -169,9 +169,9 @@ The result will be:
 
 >[!NOTE]
 >
->**[!UICONTROL currentEventField]** n’est disponible que lors de la manipulation de collections d’événements, **[!UICONTROL currentDataPackField]** lors de la manipulation de collections de sources de données et **[!UICONTROL currentActionField]** lors de la manipulation de collections de réponses d’action personnalisée.
+>**[!UICONTROL currentEventField]** n’est disponible que lors de la manipulation de collections d’événements, **[!UICONTROL currentDataPackField]** lors de la manipulation de collections de sources de données et **[!UICONTROL currentActionField]** lors de la manipulation de collections de réponses d’actions personnalisées.
 >
->Lors du traitement de collections avec **[!UICONTROL all]**, **[!UICONTROL first]** et **[!UICONTROL last]**, nous effectuons une boucle sur chaque élément de la collection un par un. **[!UICONTROL currentEventField]**, **currentDataPackField** et **[!UICONTROL currentActionField]** correspondent à l’élément en boucle.
+>Lors du traitement de collections avec **[!UICONTROL all]** (tout), **[!UICONTROL first]** (premier) et **[!UICONTROL last]** (dernier), nous exécutons une boucle sur chaque élément de la collection un par un. **[!UICONTROL currentEventField]**, **currentDataPackField** et **[!UICONTROL currentActionField]** correspondent à l’élément mis en boucle.
 
 **Les fonctions « first(`<condition>`) » et « last(`<condition>`) »**
 
