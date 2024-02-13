@@ -8,9 +8,9 @@ level: Experienced
 keywords: toString, fonction, expression, parcours
 exl-id: 06727146-2a44-4b74-aac4-be60e9e0e37c
 source-git-commit: cb1fed2460ddbf3b226fe191b9695008970937c1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '128'
-ht-degree: 82%
+ht-degree: 100%
 
 ---
 
@@ -33,9 +33,9 @@ Conversion
 | dateTime | Convertit la date au format UTC |
 | dateTimeOnly | Convertit la date au format UTC |
 | durée | Convertit le paramètre dans le nombre de millisecondes correspondant sous forme de chaîne |
-| nombre entier | convertit la valeur en représentation sous forme de chaîne (1 devient &quot;1&quot;) |
-| décimal | convertit la valeur en représentation sous forme de chaîne (1,5 devient &quot;1,5&quot;) |
-| booléen | Convertit la valeur booléenne en chaîne « true » si true, en chaîne « false » si false |
+| Entier | Convertit la valeur en représentation sous forme de chaîne (1 devient « 1 »). |
+| Décimal | Convertit la valeur en représentation sous forme de chaîne (1,5 devient « 1,5 »). |
+| Booléen | Convertit la valeur booléenne en chaîne « true » si true, en chaîne « false » si false |
 
 ## Signatures et type renvoyé
 
@@ -65,4 +65,4 @@ Renvoie la représentation sous forme de chaîne du champ dateOnly (champ de dat
 
 `toString(toDuration(1520))`
 
-Renvoie &quot;PT1.52S&quot;.
+Renvoie « PT1,52S ».
