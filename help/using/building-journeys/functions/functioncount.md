@@ -8,9 +8,9 @@ level: Experienced
 keywords: count, fonction, expression, parcours
 exl-id: 6980c1ec-3afd-4fc9-ae10-76bcf7364a04
 source-git-commit: 2f47209ad2a5e5b5d26f01949f5e9ade63c2581f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '90'
-ht-degree: 62%
+ht-degree: 100%
 
 ---
 
@@ -48,4 +48,4 @@ Renvoie 3.
 
 `count(@event{my_event.productListItems})`
 
-Renvoie le nombre d’objets dans le tableau d’objets donné (type listObject). Remarque : un objet listObject ne peut pas contenir d’objet null
+Renvoie le nombre d’objets dans le tableau d’objets donné (type listObject). Remarque : un objet listObject ne peut pas contenir d’objet null.
