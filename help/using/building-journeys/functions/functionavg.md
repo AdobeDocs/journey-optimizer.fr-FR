@@ -33,8 +33,8 @@ Types pris en charge :
 
 * listInteger
 * listDecimal
-* décimal
-* integer
+* Décimal
+* Entier
 
 ## Signatures et type renvoyé
 
