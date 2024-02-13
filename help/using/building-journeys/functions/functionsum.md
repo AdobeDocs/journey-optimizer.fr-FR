@@ -31,8 +31,8 @@ Agrégation
 * listInteger
 * listDecimal
 * durée
-* nombre entier
-* décimal
+* Entier
+* Décimal
 
 ## Signatures et types renvoyés
 
