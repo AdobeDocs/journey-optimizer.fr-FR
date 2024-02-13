@@ -11,7 +11,7 @@ exl-id: e851646e-4cef-45e8-97c2-a8f4c9d2cc08
 source-git-commit: 5671f510d8be80b53d57b1ff90a101e500773243
 workflow-type: tm+mt
 source-wordcount: '4368'
-ht-degree: 39%
+ht-degree: 79%
 
 ---
 
@@ -44,29 +44,29 @@ Pour obtenir la liste détaillée de chaque mesure disponible dans Adobe Journe
 
 À partir de votre **[!UICONTROL rapport global]** de parcours, l&#39;onglet **[!UICONTROL Parcours]** vous donne une vue claire des données de suivi les plus importantes concernant votre parcours.
 
-### Performances des parcours {#journey-perfomance}
+### Performances du parcours {#journey-perfomance}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_performance"
->title="Performances des parcours"
+>title="Performances du parcours"
 >abstract="Le widget Performances des Parcours vous permet de suivre visuellement le chemin d’accès de vos profils ciblés à mesure qu’ils progressent dans votre parcours."
 
 ![](assets/journey_performance.png)
 
-La variable **[!UICONTROL Performances des parcours]** vous permet de tracer visuellement la trajectoire de vos profils ciblés lorsqu’ils parcourent votre parcours.
+Le widget **[!UICONTROL Performances du parcours]** vous permet de retracer visuellement la trajectoire de vos profils ciblés tout au long de votre parcours.
 
-### Statistiques parcours {#journey-statistics}
+### Statistiques du parcours {#journey-statistics}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_statistics"
->title="Statistiques parcours"
+>title="Statistiques du parcours"
 >abstract="Les indicateurs de performances clés (IPC) des statistiques des Parcours constituent un tableau de bord complet qui fournit une analyse approfondie des mesures essentielles liées à votre parcours."
 
 ![](assets/journey_statistics.png)
 
-La variable **[!UICONTROL Statistiques parcours]** Les indicateurs de performance clés (IPC) fonctionnent comme un tableau de bord global, fournissant une analyse des mesures essentielles associées à votre parcours. Cela inclut des détails tels que le nombre de profils entrés et les instances de parcours individuels ayant échoué, ce qui vous permet d’avoir un aperçu complet de l’efficacité et du niveau d’engagement de votre parcours.
+Les indicateurs clés de performances (KPI) **[!UICONTROL Statistiques du parcours]** fonctionnent comme un tableau de bord global, fournissant une analyse des mesures essentielles associées à votre parcours. Cela inclut des détails tels que le nombre de profils entrés et les instances de parcours individuels ayant échoué, ce qui vous offre des informations complètes sur l’efficacité et le niveau d’engagement de votre parcours.
 
-+++ En savoir plus sur les mesures de statistiques de Parcours
++++ En savoir plus sur la mesure Statistiques du parcours
 
 * **[!UICONTROL Profils entrés]** : nombre total de personnes ayant atteint l&#39;événement d&#39;entrée du parcours.
 
@@ -76,29 +76,29 @@ La variable **[!UICONTROL Statistiques parcours]** Les indicateurs de performanc
 
 +++
 
-### Performances de l’action {#action-performance}
+### Performances des actions {#action-performance}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_action_performance"
->title="Performances de l’action"
+>title="Performances des actions"
 >abstract="Le widget Performances des actions illustre les actions les plus réussies qui ont eu lieu lorsque vos actions ont été lancées."
 
 ![](assets/journey_action_performance.png)
 
 La variable **[!UICONTROL Performances des actions]** représente les actions les plus réussies survenues lors de la **[!UICONTROL actions]** ont été déclenchées.
 
-### Actions principales {#top-actions}
+### Principales actions {#top-actions}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_top_actions"
->title="Actions principales"
+>title="Principales actions"
 >abstract="Le tableau Principales actions regroupe des informations essentielles sur vos actions et offre des observations concises sur la fréquence et l’efficacité de chaque action."
 
 ![](assets/journey_top_actions.png)
 
-La variable **[!UICONTROL Actions principales]** Le tableau compile les données essentielles de votre **[!UICONTROL Actions]**. Il donne un aperçu succinct de la fréquence et du rendement de chaque action.
+Le tableau **[!UICONTROL Principales actions]** compile les données essentielles sur vos **[!UICONTROL Actions]**. Il propose un aperçu succinct de la fréquence et des performances de chaque action.
 
-+++ En savoir plus sur les mesures des actions principales
++++ En savoir plus sur la mesure Principales actions
 
 * **[!UICONTROL Actions exécutées avec succès]** : nombre total d&#39;**[!UICONTROL actions]** exécutées avec succès pour un parcours.
 
@@ -106,11 +106,11 @@ La variable **[!UICONTROL Actions principales]** Le tableau compile les données
 
 +++
 
-### Raisons de l’erreur des actions {#action-error}
+### Causes des erreurs dans les actions {#action-error}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_actions_error_reasons"
->title="Raisons de l’erreur des actions"
+>title="Causes des erreurs dans les actions"
 >abstract="Le tableau et le graphique des motifs d’erreur Actions fournissent un résumé complet des erreurs survenues pendant l’exécution de vos actions, offrant un aperçu complet des problèmes qui peuvent s’être produits."
 
 ![](assets/journey_action_error.png)
@@ -128,11 +128,11 @@ La variable **[!UICONTROL Motifs d’erreur d’action]** tableau et graphique o
 
 La variable **[!UICONTROL Événements par origine]** tableau et graphiques fournissent une perspective détaillée de la réception réussie de votre **[!UICONTROL events]**. Grâce à ces représentations visuelles, vous pouvez distinguer précisément laquelle de vos **[!UICONTROL events]** ont été bien reçus, ce qui vous permet d’obtenir des informations précieuses sur les performances et l’impact de chaque événement dans votre parcours.
 
-### Événements reçus par l’événement {#events-received}
+### Événements reçus par événement {#events-received}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_events_received"
->title="Événements reçus par l’événement"
+>title="Événements reçus par événement"
 >abstract="Le graphique Événements reçus par l’événement vous permet d’identifier et d’analyser les événements spécifiques de votre parcours qui ont été exécutés de manière efficace, ce qui vous permet d’obtenir des informations précieuses sur les performances et les taux de succès des événements individuels."
 
 ![](assets/journey_event_received.png)
@@ -148,18 +148,18 @@ La variable **[!UICONTROL Événements reçus par l’événement]** Le graphiqu
 
 ![](assets/journey_top_events.png)
 
-La variable **[!UICONTROL Principaux événements]** Le tableau compile les données essentielles de votre **[!UICONTROL Événements]**. Il fournit des informations succinctes sur la fréquence et les performances de chaque **[!UICONTROL Événement]**.
+Le tableau **[!UICONTROL Principaux événements]** compile les données essentielles de vos **[!UICONTROL événements]**. Il fournit des informations succinctes sur la fréquence et les performances de chaque **[!UICONTROL événement]**.
 
-### Stratégies de consentement {#consent-policies}
+### Politiques de consentement {#consent-policies}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_consent_policies"
->title="Stratégies de consentement"
+>title="Politiques de consentement"
 >abstract="Le tableau et graphique Stratégies de consentement affichent la quantité de profils exclus de chaque stratégie dans vos actions personnalisées. Cette présentation donne un aperçu clair de l’influence de chaque politique de consentement sur les exclusions de profil."
 
 ![](assets/journey_consent.png)
 
-La variable **[!UICONTROL Stratégies de consentement]** tableau et graphique présentent le nombre de profils exclus de chaque stratégie dans vos actions personnalisées. Cela permet d’avoir un aperçu clair de l’impact de chaque stratégie de consentement sur les exclusions de profil.
+Le tableau et le graphe **[!UICONTROL Politiques de consentement]** affichent le nombre de profils exclus de chaque politique dans vos actions personnalisées. Cela permet d’avoir un aperçu clair de l’impact de chaque politique de consentement sur les exclusions de profil.
 
 Pour plus d’informations sur les actions personnalisées, consultez la [documentation détaillée](../action/about-custom-action-configuration.md).
 
@@ -167,32 +167,32 @@ Notez que pour que ces widgets s’affichent dans vos rapports Parcours, vous de
 
 ## Onglet E-mail {#email-global}
 
-De votre parcours **[!UICONTROL Rapport global]**, la variable **[!UICONTROL Email]** Cet onglet présente les informations principales relatives aux emails envoyés dans votre parcours.
+Dans le **[!UICONTROL rapport global]** de votre parcours, l’onglet **[!UICONTROL E-mail]** détaille les principales informations relatives aux e-mails envoyés dans votre parcours.
 
-### Email - Statistiques d’envoi {#email-sending-statistics}
+### E-mail – Statistiques d’envoi {#email-sending-statistics}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_email_sending_statistics"
->title="Email - Statistiques d’envoi"
+>title="E-mail – Statistiques d’envoi"
 >abstract="Le tableau E-mail - Statistiques d’envoi résume les données essentielles relatives à votre e-mail, telles que Ciblé ou Diffusé."
 
 ![](assets/journey_email_statistics.png)
 
-La variable **[!UICONTROL Statistiques d’envoi d’emails]** Le tableau fournit un résumé complet des données essentielles concernant les emails dans vos parcours. Il détaille les mesures clés, telles que la taille de l’audience ciblée et le nombre d’emails envoyés avec succès, ce qui vous permet d’obtenir des informations précieuses sur l’efficacité et la portée de vos emails et parcours.
+Le tableau **[!UICONTROL Statistiques d’envoi des e-mails]** fournit un résumé complet des données essentielles concernant les e-mails dans vos parcours. Il détaille les mesures clés, telles que la taille de l’audience ciblée et le nombre d’e-mails envoyés avec succès, ce qui vous permet d’obtenir des informations précieuses sur l’efficacité et la portée de vos e-mails et parcours.
 
-+++ En savoir plus sur les mesures Statistiques d’envoi d’emails
++++ En savoir plus sur les mesures Statistiques d’envoi d’e-mails
 
 * **[!UICONTROL Heure d’exécution]** : heure de début de chaque exécution de parcours en cas de parcours récurrents. Pour ne cibler qu’une ou plusieurs récurrences, sélectionnez-les dans le menu déroulant **[!UICONTROL Heure d’exécution]**.
 
 * **[!UICONTROL Ciblés]** : nombre de profils ciblés pour toute action telle que l’envoi d’e-mails ou de SMS.
 
-* **[!UICONTROL Envoyé]**: nombre total d&#39;emails envoyés pour le parcours.
+* **[!UICONTROL Envoyés]** : nombre total d’e-mails envoyés pour le parcours.
 
 * **[!UICONTROL Diffusés]** : nombre d’e-mails envoyés avec succès, par rapport au nombre total d’e-mails envoyés.
 
 * **[!UICONTROL Taux de diffusion]** : pourcentage d’e-mails envoyés avec succès.
 
-* **[!UICONTROL Rebonds]**: Nombre total d&#39;erreurs cumulées lors du processus d&#39;envoi et du traitement automatique des retours par rapport au nombre total d&#39;emails envoyés.
+* **[!UICONTROL Rebonds]** : nombre total d’erreurs cumulées lors de la procédure d’envoi et du traitement automatique des retours par rapport au nombre total d’e-mails envoyés.
 
 * **[!UICONTROL Taux de rebond]** : pourcentage d’e-mails ayant rebondi par rapport aux e-mails envoyés.
 
@@ -206,51 +206,51 @@ La variable **[!UICONTROL Statistiques d’envoi d’emails]** Le tableau fourni
 
 +++
 
-### E-mail - Statistiques de tracking {#email-tracking}
+### E-mail – Statistiques de tracking {#email-tracking}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_email_tracking_statistics"
->title="E-mail - Statistiques de tracking"
+>title="E-mail – Statistiques de tracking"
 >abstract="Le tableau E-mail - Statistiques de tracking fournit les données sur l’activité de profil pour votre e-mail :"
 
 ![](assets/journey_email_tracking.png)
 
-La variable **[!UICONTROL Email - Statistiques de tracking]** offre un compte détaillé de l’activité de profil associée aux emails inclus dans votre parcours. Cela inclut des mesures sur les ouvertures, les clics et d’autres indicateurs d’engagement pertinents, offrant une vue d’ensemble complète de la manière dont les profils interagissent avec votre contenu d’email.
+Le tableau **[!UICONTROL E-mail – Statistiques de tracking]** offre un compte rendu détaillé de l’activité de profil associée aux e-mails inclus dans votre parcours. Cela inclut des mesures sur les ouvertures, les clics et d’autres indicateurs d’engagement pertinents, offrant une vue d’ensemble complète de la manière dont les profils interagissent avec le contenu de vos e-mails.
 
-+++ En savoir plus sur les mesures Email - Statistiques de suivi
++++ En savoir plus sur les mesures E-mail – Statistiques de tracking
 
 * **[!UICONTROL Heure d’exécution]** : heure de début de chaque exécution de votre e-mail récurrent dans votre parcours. Pour ne cibler qu’un ou plusieurs e-mails récurrents, sélectionnez-les dans le menu déroulant **[!UICONTROL Heure d’exécution]**.
 
-* **[!UICONTROL Ouvertures]**: nombre d’ouvertures de vos emails dans un parcours.
+* **[!UICONTROL Ouvertures]** : nombre d’ouvertures de vos e-mails dans un parcours.
 
 * **[!UICONTROL Ouvertures uniques]** : pourcentage d’e-mails ouverts.
 
 * **[!UICONTROL Taux d’ouvertures uniques]** : nombre total de messages ouverts par rapport au nombre de messages diffusés.
 
-* **[!UICONTROL Clics]**: nombre de clics sur un contenu dans vos emails.
+* **[!UICONTROL Clics]** : nombre de clics sur un contenu dans vos e-mails.
 
-* **[!UICONTROL Clics uniques]**: nombre de destinataires ayant cliqué sur un contenu de vos emails.
+* **[!UICONTROL Clics uniques]** : nombre de personnes destinataires qui ont cliqué sur un contenu dans vos e-mails.
 
-* **[!UICONTROL Taux de clics]** : pourcentage d&#39;utilisateurs ayant interagi avec le parcours.
+* **[!UICONTROL Taux de clics]** : pourcentage de personnes ayant interagi avec le parcours.
 
 * **[!UICONTROL Désabonnements]** : nombre de clics sur le lien de désabonnement.
 
-* **[!UICONTROL Demandes de spam]**: nombre de fois où vos emails ont été déclarés comme spam ou courrier indésirable.
+* **[!UICONTROL Plaintes contre le spam]** : nombre de fois où vos e-mails ont été déclarés comme spam ou courrier indésirable.
 
 +++
 
-### E-mail - Performance d’envoi {#email-performance}
+### E-mail – Performances d’envoi {#email-performance}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_email_sending_performance"
->title="E-mail - Performance d’envoi"
->abstract="Le graphique de performances Email - Envoi présente des données complètes sur les emails envoyés, en fournissant des informations sur les mesures clés telles que les envois et les retours, ce qui permet d’effectuer une analyse détaillée du processus de remise des emails."
+>title="E-mail – Performances d’envoi"
+>abstract="Le graphe E-mail – Performances d’envoi présente des données complètes sur les e-mails envoyés, en fournissant des informations sur les mesures clés telles que les diffusions et les rebonds, ce qui permet d’effectuer une analyse détaillée du processus de diffusion des e-mails."
 
 ![](assets/journey_email_performance.png)
 
-La variable **[!UICONTROL Email - Envoi des performances]** Le graphique fournit une vue complète des données liées aux emails envoyés dans votre parcours, offrant des informations sur les mesures clés telles que les envois et les bounces. Cela permet une analyse détaillée du processus d’envoi des emails, fournissant des informations précieuses sur l’efficacité et les performances de vos parcours.
+Le graphe **[!UICONTROL E-mail – Performances d’envoi]** fournit une vue complète des données liées aux e-mails envoyés dans votre parcours, offrant des informations sur les mesures clés telles que les diffusions et les rebonds. Cela permet une analyse détaillée du processus d’envoi des e-mails, fournissant des informations précieuses sur l’efficacité et les performances de vos parcours.
 
-+++ En savoir plus sur les e-mails - Envoi de mesures de performances
++++ En savoir plus sur les mesures E-mail – Performances d’envoi
 
 * **[!UICONTROL Diffusés]** : nombre d’e-mails envoyés avec succès, par rapport au nombre total d’e-mails envoyés.
 
@@ -258,24 +258,24 @@ La variable **[!UICONTROL Email - Envoi des performances]** Le graphique fournit
 
 * **[!UICONTROL Reprises]** : nombre d’e-mails dans la file d’attente pour les reprises.
 
-* **[!UICONTROL Erreurs]**: nombre total d&#39;erreurs qui se sont produites au cours d&#39;un processus d&#39;envoi qui l&#39;a empêché d&#39;être envoyé aux profils.
+* **[!UICONTROL Erreurs]** : nombre total d’erreurs survenues au cours de la procédure d’envoi, empêchant l’envoi du message à des profils.
 
 +++
 
-### Email - Catégories et motifs de rebond {#email-bounce-categories}
+### E-mail – Catégories et raisons de rebond {#email-bounce-categories}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_email_bounces"
->title="Email - Catégories et motifs de rebond"
+>title="E-mail – Catégories et raisons de rebond"
 >abstract="Les widgets Catégories et raisons Email - Bounce combinent les données relatives aux messages rebonds, en fournissant des informations détaillées sur les raisons et catégories spécifiques ayant contribué aux rebonds de courrier électronique."
 
 ![](assets/journey_email_bounce_categories.png)
 
-La variable **[!UICONTROL Motifs de rebond]** et **[!UICONTROL Catégories rebonds]** Les widgets compilent les données disponibles relatives aux messages rebonds, en fournissant des informations détaillées sur les raisons et catégories spécifiques des rebonds aux emails.
+Les widgets **[!UICONTROL Motifs de rebond]** et **[!UICONTROL Catégories de rebonds]** compilent les données disponibles relatives aux rebonds de messages, en fournissant des informations détaillées sur les raisons et catégories spécifiques des rebonds d’e-mails.
 
 Pour plus d’informations sur les rebonds, consultez la page [Liste de suppression](../reports/suppression-list.md).
 
-+++ En savoir plus sur les mesures Email - Catégories de rebond
++++ En savoir plus sur les mesures E-mail – Catégories de rebonds
 
 * **[!UICONTROL Rebond définitif]** : nombre total d’erreurs permanentes, telles qu’une adresse e-mail incorrecte. Un message d&#39;erreur indique explicitement que l&#39;adresse n&#39;est pas valide, comme Utilisateur inconnu.
 
@@ -285,29 +285,29 @@ Pour plus d’informations sur les rebonds, consultez la page [Liste de suppress
 
 +++
 
-### E-mail - Causes d’erreur {#email-errors}
+### E-mail – Causes d’erreur {#email-errors}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_email_error_reasons"
->title="E-mail - Causes d’erreur"
+>title="E-mail – Causes d’erreur"
 >abstract="Les graphiques et le tableau E-mail - Causes d’erreur vous permettent d’identifier les erreurs spécifiques qui se sont produites au cours du processus d’envoi."
 
 ![](assets/journey_email_error.png)
 
-La variable **[!UICONTROL Raisons de l’erreur]** les graphiques et les tableaux offrent une visibilité des erreurs spécifiques survenues pendant le processus d’envoi, fournissant des informations précieuses sur la nature et l’occurrence des erreurs.
+Les graphes et le tableau **[!UICONTROL Causes d’erreur]** offrent une visibilité des erreurs spécifiques survenues pendant le processus d’envoi, en fournissant des informations précieuses sur la nature et l’occurrence des erreurs.
 
-### E-mail - Causes d’exclusion {#email-excluded}
+### E-mail – Causes d’exclusion {#email-excluded}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_email_excluded_reasons"
->title="E-mail - Causes d’exclusion"
+>title="E-mail – Causes d’exclusion"
 >abstract="Les graphiques et le tableau Causes d’exclusion illustrent les différents facteurs qui ont conduit à ce que des profils de personnes, exclus de l’audience ciblée, ne reçoivent pas le message."
 
 ![](assets/journey_email_excluded.png)
 
-La variable **[!UICONTROL Exclure des motifs]** les graphiques et les tableaux présentent une vue d’ensemble complète des différents facteurs qui ont abouti à l’exclusion des profils utilisateur de l’audience ciblée, ce qui a pour effet que le message n’a pas été reçu.
+Les graphes et le tableau **[!UICONTROL Causes d’exclusion]** présentent une vue d’ensemble complète des différents facteurs qui ont abouti à l’exclusion des profils de personnes de l’audience ciblée, ayant pour effet que le message n’a pas été reçu.
 
-Voir [cette page](exclusion-list.md) pour la liste complète des motifs d&#39;exclusion.
+Consultez [cette page](exclusion-list.md) pour la liste complète des causes d’exclusion.
 
 ### Envoyés et diffusés par domaines {#sent-domains}
 
@@ -320,9 +320,9 @@ Voir [cette page](exclusion-list.md) pour la liste complète des motifs d&#39;ex
 
 La variable **[!UICONTROL Envoyé et diffusé par domaines]** les tableaux et les graphiques fournissent une ventilation détaillée des emails au niveau du domaine, ce qui vous permet d’obtenir des informations complètes sur les performances de vos emails.
 
-+++ En savoir plus sur les mesures Envoyés et distribués par domaines
++++ En savoir plus sur les mesures Envoyés et diffusés par domaines
 
-* **[!UICONTROL Envoyé]**: nombre total d’envois pour vos emails.
+* **[!UICONTROL Envoyés]** : nombre total d’e-mails envoyés.
 
 * **[!UICONTROL Diffusés]** : nombre d’e-mails envoyés avec succès, par rapport au nombre total d’e-mails envoyés.
 
@@ -339,11 +339,11 @@ La variable **[!UICONTROL Envoyé et diffusé par domaines]** les tableaux et le
 
 La variable **[!UICONTROL Ouverture et clics par domaine]** Le graphique et le tableau présentent une ventilation au niveau du domaine de l’engagement de vos profils avec votre email, fournissant des informations précieuses sur la manière dont différents domaines interagissent avec votre contenu.
 
-+++ En savoir plus sur les mesures Ouverture et clics par domaine
++++ En savoir plus sur la mesure Ouverture et clics par domaines
 
-* **[!UICONTROL Ouvertures]** : nombre de fois que l’e-mail a été ouvert.
+* **[!UICONTROL Ouvertures]** : nombre de fois où l’e-mail a été ouvert.
 
-* **[!UICONTROL Clics]** : nombre de fois où un contenu a fait l&#39;objet d&#39;un clic dans un e-mail.
+* **[!UICONTROL Clics]** : nombre de fois où un contenu a fait l’objet d’un clic dans un e-mail.
 
 +++
 
@@ -360,9 +360,9 @@ La variable **[!UICONTROL Rebonds et erreurs par domaine]** Le graphique et le t
 
 +++ En savoir plus sur les mesures Rebonds et erreurs par domaine
 
-* **[!UICONTROL Rebonds]**: Nombre total d&#39;erreurs cumulées lors du processus d&#39;envoi et du traitement automatique des retours par rapport au nombre total d&#39;emails envoyés.
+* **[!UICONTROL Rebonds]** : nombre total d’erreurs cumulées lors du processus d’envoi et du traitement automatique des retours par rapport au nombre total d’e-mails envoyés.
 
-* **[!UICONTROL Erreurs]** : nombre total d’erreurs survenues au cours de la procédure d’envoi, empêchant le message d’être envoyé à des profils.
+* **[!UICONTROL Erreurs]** : nombre total d’erreurs survenues au cours du processus d’envoi, empêchant l’envoi du message à des profils.
 
 +++
 
@@ -370,76 +370,76 @@ La variable **[!UICONTROL Rebonds et erreurs par domaine]** Le graphique et le t
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_email_bounces_reasons_domains"
->title="Raisons des bounces par domaine"
+>title="Causes des bounces par domaine"
 >abstract="Le tableau et graphique Raisons des rebonds par domaine fournissent une ventilation au niveau du domaine, offrant des informations complètes sur les erreurs temporaires et permanentes. Cette analyse détaillée vous donne des informations précieuses sur les raisons spécifiques des messages rebonds."
 
 ![](assets/journey_email_bounce_reasons_domain.png)
 
 La variable **[!UICONTROL Raisons des bounces par domaine]** le graphique et le tableau offrent une ventilation au niveau du domaine des données concernant les erreurs temporaires et permanentes, fournissant des informations détaillées sur les raisons des messages rebonds.
 
-### E-mail - Principale URL {#email-top}
+### E-mail – Principale URL {#email-top}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_email_top_url"
->title="E-mail - Principale URL"
+>title="E-mail – Principale URL"
 >abstract="Le tableau et le graphique E-mail - Principale URL offrent une vue d’ensemble complète des URL de votre e-mail qui reçoivent le plus de trafic, ce qui vous permet d’identifier les liens les plus populaires."
 
 ![](assets/journey_email_top.png)
 
-La variable **[!UICONTROL Email - Top Url]** Les graphiques et les tableaux fournissent un aperçu complet des URL de votre email qui attirent le plus de visiteurs. Cela vous permet d’identifier et de classer par priorité les liens les plus populaires, ce qui améliore votre compréhension de l’engagement des profils avec du contenu spécifique dans vos emails.
+Le graphe et le tableau **[!UICONTROL E-mail – Principale URL]** fournissent un aperçu complet des URL de votre e-mail qui attirent le plus de visiteurs et visiteuses. Cela vous permet d’identifier et de hiérarchiser les liens les plus populaires, ce qui améliore votre compréhension de l’engagement des profils avec du contenu spécifique dans vos e-mails.
 
-### Email - Optimisation {#email-sto}
+### E-mail – Optimisation {#email-sto}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_email_optimization"
->title="Email - Optimisation"
+>title="E-mail – Optimisation"
 >abstract="Les widgets Optimisation de l’heure d’envoi et Optimisation ou non optimisés fournissent des informations détaillées sur vos messages, indiquant s’ils ont été optimisés ou non."
 
 ![](assets/journey_email_sto.png)
 
 >[!NOTE]
 >
->La variable **[!UICONTROL Optimisation de l’heure d’envoi]** et **[!UICONTROL Optimisé ou non optimisé]** Les widgets ne sont disponibles que si l’option Optimisation de l’heure d’envoi est activée pour votre diffusion. Pour plus d’informations sur l’optimisation de l’heure d’envoi, consultez [cette page](../building-journeys/journeys-message.md#send-time-optimization).
+>Les widgets **[!UICONTROL Optimisation de l’heure d’envoi]** et **[!UICONTROL Optimisé ou non optimisé]** ne sont disponibles que si l’option Optimisation de l’heure d’envoi est activée pour votre diffusion. Pour plus d’informations sur l’optimisation de l’heure d’envoi, consultez [cette page](../building-journeys/journeys-message.md#send-time-optimization).
 
-La variable **[!UICONTROL Optimisation de l’heure d’envoi]** et **[!UICONTROL Optimisé ou non optimisé]** Les widgets détaillent le succès de vos emails en fonction de la méthode d’envoi : optimisée ou normale.
+Les widgets **[!UICONTROL Optimisation de l’heure d’envoi]** et **[!UICONTROL Optimisé ou non optimisé]** détaillent le succès de vos e-mails selon la méthode d’envoi : optimisée ou normale.
 
-+++ En savoir plus sur l’optimisation de l’heure d’envoi et les mesures optimisées ou non optimisées
++++ En savoir plus sur les mesures Optimisation de l’heure d’envoi et Optimisé ou non optimisé
 
 * **[!UICONTROL Délivrés]** : nombre de messages envoyés avec succès, par rapport au nombre total de messages envoyés.
 * **[!UICONTROL Rebonds]** : nombre total d’erreurs cumulées lors de la procédure d’envoi et du traitement automatique des retours par rapport au nombre total de messages envoyés.
 
-* **[!UICONTROL Envoyé]**: nombre total d&#39;emails envoyés pour le parcours.
+* **[!UICONTROL Envoyés]** : nombre total d’e-mails envoyés pour le parcours.
 
-* **[!UICONTROL Ouvertures]**: nombre d’ouvertures de vos emails dans le parcours.
+* **[!UICONTROL Ouvertures]** : nombre d’ouvertures de vos e-mails dans le parcours.
 
-* **[!UICONTROL Clics]**: nombre de clics sur un contenu dans vos emails.
+* **[!UICONTROL Clics]** : nombre de clics sur un contenu dans vos e-mails.
 
 +++
 
-### Email - Offres {#email-offers}
+### E-mail – Offres {#email-offers}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_email_offers"
->title="Email - Offres"
+>title="E-mail – Offres"
 >abstract="Les widgets statistiques détaillés Offres et Statistiques d’offre fournissent des informations complètes sur les performances de vos offres, offrent une analyse détaillée de leur impact au fil du temps et présentent des statistiques détaillées pour une compréhension plus approfondie."
 
 >[!NOTE]
 >
 >Les widgets et mesures Offres ne sont disponibles que si une décision a été insérée dans un e-mail. Pour plus d’informations sur la gestion des décisions, consultez cette [page](../offers/get-started/starting-offer-decisioning.md).
 
-La variable **[!UICONTROL Statistiques des offres]** et **[!UICONTROL Statistiques détaillées des offres]** au fil du temps, les widgets mesurent le succès et l’impact de votre offre sur votre audience ciblée. Il détaille les informations principales relatives à votre message avec les KPI.
+Les widgets **[!UICONTROL Statistiques des offres]** et **[!UICONTROL Statistiques détaillées sur les offres]** dans le temps mesurent le succès de votre offre et son impact sur l’audience ciblée. Ils détaillent les informations principales relatives à votre message avec les KPI.
 
-+++ En savoir plus sur les mesures Email - Offres
++++ En savoir plus sur les mesures E-mail – Offres
 
 * **[!UICONTROL Offre envoyée]** : nombre total d’envois pour l’offre.
 
-* **[!UICONTROL Impression de l&#39;offre]**: nombre de fois où l’offre a été ouverte dans vos courriers électroniques.
+* **[!UICONTROL Impression de l’offre]** : nombre d’ouvertures de l’offre dans vos e-mails.
 
-* **[!UICONTROL Clics sur les offres]**: nombre de clics sur une offre dans vos emails.
+* **[!UICONTROL Clics sur l’offre]** : nombre de clics sur une offre dans vos e-mails.
 
 * **[!UICONTROL Nom de l’emplacement]** : nom de l’emplacement utilisé pour afficher votre offre. Pour plus d’informations sur les emplacements, consultez cette [page](../offers/offer-library/creating-placements.md).
 
-* **[!UICONTROL Nom de l’offre]**: nom de l’offre ajoutée dans vos emails. Pour plus d’informations sur les emplacements, consultez cette [page](../offers/offer-library/creating-personalized-offers.md).
+* **[!UICONTROL Nom de l’offre]** : nom de l’offre ajoutée à vos e-mails. Pour plus d’informations sur les emplacements, consultez cette [page](../offers/offer-library/creating-personalized-offers.md).
 
 * **[!UICONTROL Offre envoyée]** : nombre total d’envois pour l’offre.
 
@@ -451,123 +451,123 @@ La variable **[!UICONTROL Statistiques des offres]** et **[!UICONTROL Statistiqu
 
 ## Onglet Notification push {#push-global}
 
-De votre parcours **[!UICONTROL Rapport global]**, la variable **[!UICONTROL Notification push]** Cet onglet présente les informations principales relatives aux notifications push envoyées dans votre parcours.
+Dans le **[!UICONTROL Rapport global]** de votre parcours, l’onglet **[!UICONTROL Notification push]** détaille les principales informations relatives aux notifications push envoyées dans votre parcours.
 
-### Notification push - Statistiques d’envoi {#push-sending-stat}
+### Notification push – Statistiques d’envoi {#push-sending-stat}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_push_sending_statistics"
->title="Notification push - Statistiques d’envoi"
+>title="Notification push – Statistiques d’envoi"
 >abstract="Le tableau Notification push - Statistiques d’envoi résume les données essentielles sur vos notifications push, telles que les messages ciblés ou diffusés."
 
 ![](assets/journey_push_sending.png)
 
-La variable **[!UICONTROL Notification push - Statistiques d&#39;envoi]** Le tableau fournit un résumé concis des données essentielles liées à vos notifications push, y compris les mesures clés telles que le nombre de messages ciblés et le nombre de messages délivrés avec succès.
+Le tableau **[!UICONTROL Notification push – Statistiques d’envoi]** fournit un résumé concis des données essentielles liées à vos notifications push, y compris les mesures clés telles que le nombre de messages ciblés et le nombre de messages diffusés avec succès.
 
-+++ En savoir plus sur les notifications push - Mesures de statistiques d&#39;envoi
++++ En savoir plus sur les mesures Notification push – Statistiques d’envoi
 
 * **[!UICONTROL Heure d’exécution]** : heure de début de chaque exécution de parcours en cas de parcours récurrents. Pour ne cibler qu’une ou plusieurs récurrences, sélectionnez-les dans le menu déroulant **[!UICONTROL Heure d’exécution]**.
 
 * **[!UICONTROL Ciblés]** : nombre de profils ciblés pour toute action telle que l’envoi d’e-mails ou de SMS.
 
-* **[!UICONTROL Envoyé]**: nombre total de notifications push envoyées.
+* **[!UICONTROL Envoyées]** : nombre total de notifications push envoyées.
 
 * **[!UICONTROL Délivrées]** : nombre de notifications push envoyées avec succès, par rapport au nombre total de notifications push envoyées.
 
 * **[!UICONTROL Taux de diffusion]** : pourcentage de notifications push envoyées avec succès.
 
-* **[!UICONTROL Rebonds]**: Nombre total d&#39;erreurs cumulées lors du processus d&#39;envoi et du traitement automatique des retours par rapport au nombre total de notifications push envoyées.
+* **[!UICONTROL Rebonds]** : nombre total d’erreurs cumulées lors de la procédure d’envoi et du traitement automatique des retours par rapport au nombre total de notifications push envoyées.
 
 * **[!UICONTROL Taux de rebond]** : pourcentage de notifications push ayant rebondi par rapport aux notifications push envoyées.
 
 * **[!UICONTROL Erreurs]** : nombre total d’erreurs survenues au cours de la procédure d’envoi, empêchant le message d’être envoyé à des profils.
 
-* **[!UICONTROL Taux d’erreur]**: pourcentage d&#39;erreurs qui se sont produites pendant le processus d&#39;envoi et qui l&#39;ont empêché d&#39;être envoyé par rapport au nombre de notifications push envoyées.
+* **[!UICONTROL Taux d’erreurs]** : pourcentage d’erreurs survenues pendant la procédure d’envoi qui l’empêchent d’être envoyée par rapport aux notifications push envoyées.
 
 * **[!UICONTROL Exclus]** : nombre de profils qui ont été exclus par Adobe Journey Optimizer.
 
 +++
 
-### Notification push - Statistiques de tracking {#push-tracking-stat}
+### Notification push – Statistiques de tracking {#push-tracking-stat}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_push_tracking_statistics"
->title="Notification push - Statistiques de tracking"
+>title="Notification push – Statistiques de tracking"
 >abstract="Les statistiques de tracking des notifications push fournissent des données sur l’activité de profil pour votre notification push."
 
-La variable **[!UICONTROL Push - Statistiques de suivi]** widget offre un instantané détaillé de l’activité de profil liée à vos notifications push, fournissant des informations essentielles sur l’engagement et l’efficacité des notifications push.
+Le widget **[!UICONTROL Notification push – Statistiques de tracking]** offre un instantané détaillé de l’activité de profil liée à vos notifications push, fournissant des informations essentielles sur l’engagement et l’efficacité des notifications push.
 
-+++ En savoir plus sur les notifications push - Mesures de statistiques de suivi
++++ En savoir plus sur les mesures Notification push – Statistiques de tracking
 
 * **[!UICONTROL Heure d’exécution]** : heure de début de chaque exécution de parcours en cas de parcours récurrents. Pour ne cibler qu’une ou plusieurs récurrences, sélectionnez-les dans le menu déroulant **[!UICONTROL Heure d’exécution]**.
 
-* **[!UICONTROL Ouvertures]**: nombre d’ouvertures de vos notifications push dans le parcours.
+* **[!UICONTROL Ouvertures]** : nombre de fois où vos notifications push ont été ouvertes dans le parcours.
 
 * **[!UICONTROL Actions]** : nombre total d’actions sur la notification push diffusée, par exemple clic sur un bouton ou rejet.
 
 +++
 
-### Notification push - Synthèse des envois {#push-summary}
+### Notification push – Synthèse des envois {#push-summary}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_push_sending_summary"
->title="Notification push - Synthèse des envois"
+>title="Notification push – Synthèse des envois"
 >abstract="Le graphique Notification push - Synthèse des envois affiche les données disponibles pour les notifications push envoyées."
 
 ![](assets/journey_push_summary.png)
 
-La variable **[!UICONTROL Notification push - Synthèse des envois]** le graphique offre une représentation dynamique, affichant une analyse de votre activité de notifications push. Cette représentation graphique fournit une ventilation complète des notifications push envoyées.
+Le graphe **[!UICONTROL Notification push – Synthèse des envois]** offre une représentation dynamique, en affichant une analyse de votre activité de notifications push. Cette représentation graphique montre une répartition complète des notifications push envoyées.
 
-+++ En savoir plus sur les notifications push - Envoi de mesures récapitulatives
++++ En savoir plus sur les mesures Notification push – Synthèse des envois
 
-* **[!UICONTROL Ouvertures]**: nombre d’ouvertures de vos notifications push dans le parcours.
+* **[!UICONTROL Ouvertures]** : nombre de fois où vos notifications push ont été ouvertes dans un parcours.
 
 * **[!UICONTROL Actions]** : nombre total d’actions sur la notification push diffusée, par exemple clic sur un bouton ou rejet.
 
-* **[!UICONTROL Rebonds]**: Nombre total d&#39;erreurs cumulées lors du processus d&#39;envoi et du traitement automatique des retours par rapport au nombre total de notifications push envoyées.
+* **[!UICONTROL Rebonds]** : nombre total d’erreurs cumulées lors de la procédure d’envoi et du traitement automatique des retours par rapport au nombre total de notifications push envoyées.
 
-* **[!UICONTROL Délivrées]** : nombre de notifications push envoyées avec succès, par rapport au nombre total de notifications push envoyées.
+* **[!UICONTROL Diffusées]** : nombre de notifications push envoyées avec succès, par rapport au nombre total de notifications push envoyées.
 
 * **[!UICONTROL Erreurs]** : nombre total d’erreurs survenues au cours de la procédure d’envoi, empêchant le message d’être envoyé à des profils.
 
 +++
 
-### Notification push - Causes d’erreur {#push-error-reasons}
+### Notification push – Causes d’erreur {#push-error-reasons}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_push_error_reasons"
->title="Notification push - Causes d’erreur"
+>title="Notification push – Causes d’erreur"
 >abstract="Les graphiques et tableaux Raisons d’erreur vous permettent d’identifier les erreurs spécifiques qui se sont produites pendant le processus d’envoi."
 
 ![](assets/journey_push_error.png)
 
-La variable **[!UICONTROL Raisons de l’erreur]** Les tableaux et les graphiques vous permettent d’identifier les erreurs spécifiques qui se sont produites au cours du processus d’envoi de vos notifications push, en fournissant des informations détaillées sur les problèmes rencontrés en cours de route.
+Le tableau et les graphes **[!UICONTROL Causes d’erreur]** vous permettent d’identifier les erreurs spécifiques qui se sont produites au cours du processus d’envoi de vos notifications push, en fournissant des informations détaillées sur les problèmes rencontrés en cours de route.
 
-### Notification push - Causes d’exclusion {#push-excluded}
+### Notification push – Causes d’exclusion {#push-excluded}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_push_excluded_reasons"
->title="Notification push - Causes d’exclusion"
+>title="Notification push – Causes d’exclusion"
 >abstract="Les graphiques et tableaux Exclus des motifs illustrent les différents facteurs qui ont empêché la réception du message les profils utilisateur, exclus de l’audience ciblée."
 
 ![](assets/journey_push_excluded.png)
 
-La variable **[!UICONTROL Exclure des motifs]** les graphiques et les tableaux affichent les différentes raisons qui ont empêché les profils utilisateur, exclus des profils ciblés, de recevoir vos notifications push.
+Les graphes et le tableau **[!UICONTROL Causes d’exclusion]** affichent les différentes causes qui ont empêché les profils de personnes, exclus des profils ciblés, de recevoir vos notifications push.
 
-Voir [cette page](exclusion-list.md) pour la liste complète des motifs d&#39;exclusion.
+Consultez [cette page](exclusion-list.md) pour la liste complète des causes d’exclusion.
 
-### Notification push - Répartition par plateforme {#push-breakdown}
+### Notification push – Répartition par plateforme {#push-breakdown}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_push_breakdown_platform"
->title="Notification push - Répartition par plateforme"
+>title="Notification push – Répartition par plateforme"
 >abstract="Le tableau et les graphiques des notifications push - Ventilation par plateforme fournissent une ventilation des performances de vos notifications push en fonction du système d’exploitation du profil."
 
 ![](assets/journey_push_breakdown.png)
 
-La variable **[!UICONTROL Ventilation par plateforme]** Le graphique et le tableau fournissent une analyse détaillée du succès de vos notifications push, offrant des informations basées sur le système d’exploitation de votre profil. Cette ventilation vous permet de mieux comprendre les performances de vos notifications push sur différentes plateformes.
+Le graphe et le tableau **[!UICONTROL Répartition par plateforme]** fournit une analyse détaillée du succès de vos notifications push, offrant des informations en fonction du système d’exploitation de votre profil. Cette répartition vous permet de mieux comprendre les performances de vos notifications push sur différentes plateformes.
 
-### Notification push - Optimisation {#push-sto}
+### Notification push – Optimisation {#push-sto}
 
 >[!NOTE]
 >
@@ -575,11 +575,11 @@ La variable **[!UICONTROL Ventilation par plateforme]** Le graphique et le table
 
 La variable **[!UICONTROL Optimisé ou non optimisé]** et **[!UICONTROL Optimisation de l’heure d’envoi]** Les widgets détaillent les informations principales relatives à votre message, qu’elles soient optimisées ou non.
 
-+++ En savoir plus sur les notifications push - Mesures d’optimisation
++++ En savoir plus sur les mesures Notification push – Optimisation
 
-* **[!UICONTROL Délivrés]** : nombre de messages envoyés avec succès, par rapport au nombre total de messages envoyés.
+* **[!UICONTROL Diffusés]** : nombre de messages envoyés avec succès, par rapport au nombre total de messages envoyés.
 
-* **[!UICONTROL Ouvertures]**: nombre d’ouvertures de vos notifications push dans le parcours.
+* **[!UICONTROL Ouvertures]** : nombre de fois où vos notifications push ont été ouvertes dans le parcours.
 
 * **[!UICONTROL Actions]** : nombre total d’actions sur la notification push diffusée, par exemple clic sur un bouton ou rejet.
 
@@ -591,118 +591,118 @@ La variable **[!UICONTROL Optimisé ou non optimisé]** et **[!UICONTROL Optimis
 
 ## Onglet SMS {#sms-global}
 
-### SMS - Statistiques dʼenvoi {#sms-sending-stat}
+### SMS – Statistiques dʼenvoi {#sms-sending-stat}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_sms_sending_statistics"
->title="SMS - Statistiques dʼenvoi"
+>title="SMS – Statistiques dʼenvoi"
 >abstract="Le tableau SMS - Statistiques d’envoi résume les données essentielles sur vos SMS, telles que les messages ciblés ou délivrés."
 
 ![](assets/journey_sms_sending.png)
 
-La variable **[!UICONTROL SMS - Statistiques d&#39;envoi]** Le tableau fournit un résumé concis des données essentielles liées à vos messages SMS, y compris les mesures clés telles que le nombre de messages ciblés et le nombre de messages délivrés avec succès.
+Le tableau **[!UICONTROL SMS – Statistiques d’envoi]** fournit un résumé concis des données essentielles liées à vos SMS, y compris les mesures clés telles que le nombre de messages ciblés et le nombre de messages livrés avec succès.
 
-+++ En savoir plus sur les SMS - Mesures de statistiques d’envoi
++++ En savoir plus sur les mesures SMS – Statistiques d’envoi
 
 * **[!UICONTROL Heure d’exécution]** : heure de début de chaque exécution de parcours en cas de parcours récurrents. Pour ne cibler qu’une ou plusieurs récurrences, sélectionnez-les dans le menu déroulant **[!UICONTROL Heure d’exécution]**.
 
-* **[!UICONTROL Ciblés]**: nombre de profils utilisateur qui remplissent les critères de ciblage pour vos SMS.
+* **[!UICONTROL Ciblés]** : nombre de profils de personnes qui sont qualifiés en tant que profils cibles pour les SMS.
 
-* **[!UICONTROL Exclu]**: nombre de profils utilisateur, exclus des profils ciblés, qui n’ont pas reçu vos SMS.
+* **[!UICONTROL Exclus]** : nombre de profils de personnes, exclus des profils ciblés, qui n’ont pas reçu vos SMS.
 
-* **[!UICONTROL Envoyé]**: nombre total de SMS envoyés pour le parcours.
+* **[!UICONTROL Envoyés]** : nombre total de SMS envoyés pour le parcours.
 
-* **[!UICONTROL Rebonds]**: Nombre total d&#39;erreurs cumulées lors du processus d&#39;envoi et du traitement automatique des retours par rapport au nombre total de SMS envoyés.
+* **[!UICONTROL Rebonds]** : nombre total d’erreurs cumulées lors de la procédure d’envoi et du traitement automatique des retours par rapport au nombre total de SMS envoyés.
 
 * **[!UICONTROL Erreurs]** : nombre total d’erreurs survenues au cours de la procédure d’envoi, empêchant le message d’être envoyé à des profils.
 
 +++
 
-### SMS - Statistiques de tracking {#sms-tracking-stat}
+### SMS – Statistiques de tracking {#sms-tracking-stat}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_sms_tracking_statistics"
->title="SMS - Statistiques de tracking"
+>title="SMS – Statistiques de tracking"
 >abstract="Le widget SMS - Statistiques de tracking offre un aperçu complet des informations essentielles relatives à l&#39;interaction des visiteurs avec votre URL."
 
 ![](assets/journey_sms_tracking.png)
 
-La variable **[!UICONTROL SMS - Statistiques de tracking]** Ce widget fournit une vue d’ensemble détaillée des informations clés relatives à l’engagement de vos visiteurs avec vos URL, et offre des informations sur l’efficacité de vos SMS.
+Le widget **[!UICONTROL SMS – Statistiques de tracking]** fournit une vue d’ensemble détaillée des informations clés relatives à l’engagement de vos visiteurs et vos visiteuses avec vos URL, et offre des informations sur l’efficacité de vos SMS.
 
-* **[!UICONTROL Heure d’exécution]**: heure de début de chaque exécution de votre SMS récurrent. Pour ne cibler qu’un ou plusieurs SMS récurrents, sélectionnez-les dans la **[!UICONTROL Heure d’exécution]** menu déroulant.
+* **[!UICONTROL Heure d’exécution]** : heure de début de chaque exécution de votre SMS récurrent. Pour ne cibler qu’un ou plusieurs SMS récurrents, sélectionnez-les dans le menu déroulant **[!UICONTROL Heure d’exécution]**.
 
-* **[!UICONTROL Clics]**: nombre de clics sur un contenu dans vos SMS.
+* **[!UICONTROL Clics]** : nombre de clics sur le contenu de vos SMS.
 
-### SMS - Performances par date {#sms-performance-date}
+### SMS – Performances par date {#sms-performance-date}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_sms_perfomance_date"
->title="SMS - Performances par date"
+>title="SMS – Performances par date"
 >abstract="Le widget SMS - Performances par date fournit des informations clés sur vos messages par le biais d’une représentation graphique."
 
 ![](assets/journey_sms_performance.png)
 
-La variable **[!UICONTROL SMS : performance par date]** widget offre un aperçu détaillé des informations clés relatives à vos messages, présenté sous la forme d’un graphique, fournissant des informations sur les tendances de performances au cours de périodes spécifiques.
+Le widget **[!UICONTROL SMS – Performances par date]** offre une vue d’ensemble détaillée des informations clés relatives à vos messages, présenté sous la forme d’un graphe, fournissant des informations sur les tendances de performances au cours de périodes spécifiques.
 
-+++ En savoir plus sur les SMS - Performances par date
++++ En savoir plus sur les mesures SMS – Performances par date
 
-* **[!UICONTROL Envoyé]**: nombre total de SMS envoyés pour le parcours
+* **[!UICONTROL Envoyés]** : nombre total de SMS envoyés pour le parcours.
 
-* **[!UICONTROL Rebonds]**: Nombre total d&#39;erreurs cumulées lors du processus d&#39;envoi et du traitement automatique des retours par rapport au nombre total de SMS envoyés.
+* **[!UICONTROL Rebonds]** : nombre total d’erreurs cumulées lors de la procédure d’envoi et du traitement automatique des retours par rapport au nombre total de SMS envoyés.
 
 * **[!UICONTROL Erreurs]** : nombre total d’erreurs survenues au cours de la procédure d’envoi, empêchant le message d’être envoyé à des profils.
 
 +++
 
-### SMS - Causes de rebonds {#sms-bounce}
+### SMS – Causes de rebonds {#sms-bounce}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_sms_bounces_reasons"
->title="SMS - Causes de rebonds"
+>title="SMS – Causes de rebonds"
 >abstract="Les graphiques et le tableau Causes de rebonds contiennent les données disponibles sur les messages ayant fait l’objet d’un rebond."
 
 ![](assets/journey_sms_bounce_reasons.png)
 
-La variable **[!UICONTROL Raisons des rebonds]** Les graphiques et les tableaux fournissent un aperçu complet des données relatives aux messages SMS rebonds, fournissant des informations précieuses sur les raisons spécifiques à l’origine des bounces de messages SMS.
+Les graphes et le tableau **[!UICONTROL Raisons de rebond]** fournissent une vue d’ensemble complète des données relatives aux SMS rebonds, fournissant des informations précieuses sur les raisons spécifiques à l’origine des rebonds des SMS.
 
-### SMS - Causes d’erreur {#sms-error}
+### SMS – Causes d’erreur {#sms-error}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_sms_error_reasons"
->title="SMS - Causes d’erreur"
+>title="SMS – Causes d’erreur"
 >abstract="Les graphiques et le tableau SMS - Causes d’erreur vous permettent d’identifier les erreurs spécifiques qui se sont produites au cours du processus d’envoi."
 
 ![](assets/journey_sms_error.png)
 
-La variable **[!UICONTROL Raisons de l’erreur]** les graphiques et les tableaux permettent d&#39;identifier les erreurs spécifiques qui se sont produites pendant le processus d&#39;envoi de vos SMS, ce qui facilite l&#39;analyse approfondie de tous les problèmes rencontrés.
+Les graphes et le tableau **[!UICONTROL Causes d’erreur]** vous permettent d’identifier les erreurs spécifiques qui se sont produites au cours du processus d’envoi de vos messages SMS, en fournissant une analyse minutieuse de tout problème rencontré.
 
-### SMS - Causes d’exclusion {#sms-excluded}
+### SMS – Causes d’exclusion {#sms-excluded}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_sms_excluded_reasons"
->title="SMS - Causes d’exclusion"
+>title="SMS – Causes d’exclusion"
 >abstract="Les graphiques et le tableau Causes d’exclusion illustrent les différents facteurs qui ont conduit à ce que des profils de personnes, exclus de l’audience ciblée, ne reçoivent pas le message."
 
 ![](assets/journey_sms_excluded.png)
 
-La variable **[!UICONTROL Motifs exclus]** les graphiques et les tableaux décrivent visuellement les différents facteurs qui ont conduit à l’exclusion des profils d’utilisateur de l’audience ciblée, ce qui les empêche de recevoir vos SMS.
+Les graphes et le tableau **[!UICONTROL Causes d’exclusion]** décrivent visuellement les différents facteurs qui ont conduit à l’exclusion des profils de personnes de l’audience ciblée, ce qui les empêche de recevoir vos SMS.
 
-Voir [cette page](exclusion-list.md) pour la liste complète des motifs d&#39;exclusion.
+Consultez [cette page](exclusion-list.md) pour la liste complète des causes d’exclusion.
 
-### SMS - Clics par liens {#sms-clicks}
+### SMS – Clics par liens {#sms-clicks}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_sms_clicks"
->title="SMS - Clics par liens"
+>title="SMS – Clics par liens"
 >abstract="Le widget SMS - Clics par liens fournit des informations essentielles sur l’engagement de vos visiteurs avec les URL de vos messages."
 
 ![](assets/journey_sms_clicks.png)
 
-La variable **[!UICONTROL SMS : clics par liens]** widget offre des informations essentielles sur l’engagement de vos visiteurs avec les URL incluses dans vos messages, en fournissant des informations précieuses sur les liens qui attirent le plus d’interactions.
+Le widget **[!UICONTROL SMS – Clics par liens]** offre des informations essentielles sur l’engagement de vos visiteurs et visiteuses avec les URL incluses dans vos messages, fournissant des informations précieuses sur les liens qui attirent le plus d’interactions.
 
 ## Onglet In-app {#in-app-global}
 
-De votre Parcours **[!UICONTROL Rapport global]**, la variable **[!UICONTROL In-app]** Cet onglet présente les informations principales relatives aux messages In-App envoyés dans vos parcours.
+Dans le **[!UICONTROL rapport global]** de votre parcours, l’onglet **[!UICONTROL In-app]** détaille les principales informations relatives aux messages in-app envoyés dans vos parcours.
 
 ### Performances in-app {#inapp-performance}
 
@@ -715,7 +715,7 @@ De votre Parcours **[!UICONTROL Rapport global]**, la variable **[!UICONTROL In-
 
 La variable **[!UICONTROL Performances in-app]** Les indicateurs de performance clés fournissent des informations essentielles sur l’engagement de vos profils avec les messages in-app, ce qui fournit des mesures essentielles pour évaluer l’efficacité et l’impact des messages in-app inclus dans votre parcours.
 
-+++ En savoir plus sur les mesures in-app - Performances par date
++++ En savoir plus sur les mesures In-app – Performances par date
 
 * **[!UICONTROL Impressions uniques]** : nombre de personnes uniques auxquelles le message in-app a été délivré.
 
@@ -729,19 +729,19 @@ La variable **[!UICONTROL Performances in-app]** Les indicateurs de performance 
   > 
   >En raison du deuxième critère, il peut y avoir des variations notables entre le nombre de profils ciblés et le nombre d’impressions uniques.
 
-* **[!UICONTROL Interactions]** : nombre d’engagements en lien avec votre message in-app. Cela inclut toutes les actions entreprises par les personnes, telles que les clics, les rejets ou toute autre interaction.
+* **[!UICONTROL Interactions]** : nombre d’engagements en lien avec votre message in-app. Cela inclut toutes les actions entreprises par les personnes, telles que les clics, les abandons ou toute autre interaction.
 +++
 
-### Résumé in-app {#inapp-summary}
+### Synthèse in-app {#inapp-summary}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_inapp_summary"
->title="Résumé in-app"
+>title="Synthèse in-app"
 >abstract="Le graphique Résumé in-app présente l’évolution de vos impressions et interactions in-app pour la période concernée."
 
 ![](assets/journey_inapp_summary.png)
 
-La variable **[!UICONTROL Résumé in-app]** Le graphique illustre la progression de vos impressions et interactions In-App au cours de la période spécifiée, fournissant un aperçu complet des performances de vos messages In-App.
+Le graphe **[!UICONTROL Résumé in-app]** illustre la progression de vos impressions et interactions in-app au cours de la période spécifiée, en fournissant une vue d’ensemble complète des performances de vos messages in-app.
 
 ### Interactions par type {#interactions-type}
 
@@ -752,4 +752,4 @@ La variable **[!UICONTROL Résumé in-app]** Le graphique illustre la progressio
 
 ![](assets/journey_inapp_interactions.png)
 
-La variable **[!UICONTROL Interactions par type]** Les graphiques et les tableaux fournissent un compte détaillé de la manière dont les profils ont interagi avec votre message in-app, avec les actions de suivi telles que les clics, les rejets ou toute autre forme d’engagement.
+Les graphes et le tableau **[!UICONTROL Interactions par type]** fournissent un compte-rendu détaillé de la manière dont les profils ont interagi avec votre message in-app, en suivant des actions telles que les clics, les rejets ou toute autre forme d’engagement.

@@ -11,7 +11,7 @@ exl-id: 59ea67d9-e90c-4ad0-afb9-d0e0fd868855
 source-git-commit: 099e65cfa4ecbf2e4f4e706415c7fed3313246aa
 workflow-type: tm+mt
 source-wordcount: '471'
-ht-degree: 82%
+ht-degree: 92%
 
 ---
 
@@ -28,13 +28,13 @@ Conformément aux normes et réglementations du secteur, tous les messages SMS d
 
 >[!NOTE]
 >
-> Seuls Sinch et Infobip prennent en charge les mots-clés natifs lorsqu’ils sont utilisés avec Journey Optimizer.
+> Seuls Sinch et Infobip prennent en charge les mots-clés natifs lorsqu’ils sont utilisés avec Journey Optimizer.
 
-Par défaut, Adobe Journey Optimizer gère les messages de réponse standard en anglais suivants pour les numéros courts, les numéros gratuits et les codes longs :
+Par défaut, Adobe Journey Optimizer gère les messages de réponse en anglais standard suivants pour les messages sans frais, et à code long et court :
 
-* **Exclusion**: ARRÊTER, QUITTER, ANNULER, FIN, DÉSABONNER, NON.
-* **Opt-in**: ABONNEZ, OUI, DÉMARRER, DÉMARRER, CONTINUER, REPRENDRE, COMMENCER.
-* **Aide**: AIDE.
+* **Opt-out** : STOP (arrêter), QUIT (quitter), CANCEL (annuler), END (terminer), UNSUBSCRIBE (se désabonner), NO (non).
+* **Opt-in** : SUBSCRIBE (s’abonner), YES (oui), UNSTOP (redémarrer), START (démarrer), CONTINUE (continuer), RESUME (reprendre), BEGIN (commencer).
+* **Aide** : HELP (aide).
 
 Ces mots-clés déclenchent généralement une réponse standard automatique de votre fournisseur tiers. Contactez votre fournisseur ou consultez son site de documentation pour en avoir la confirmation.
 
