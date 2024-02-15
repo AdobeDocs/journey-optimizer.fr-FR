@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: qualification, événements, audience, parcours, platform
 exl-id: 7e70b8a9-7fac-4450-ad9c-597fe0496df9
-source-git-commit: d735f8c92466cb17a7364833950312e338c630cc
-workflow-type: ht
-source-wordcount: '1011'
+source-git-commit: 1deb04490e53cbd5d67abda229bb4f850055510f
+workflow-type: tm+mt
+source-wordcount: '1043'
 ht-degree: 100%
 
 ---
@@ -30,6 +30,8 @@ Cette activité permet à votre parcours d’écouter les entrées et les sortie
 Supposons que vous ayez une audience « cliente ou cliente Silver ». Avec cette activité, vous pouvez faire entrer tous les nouveaux clients Silver dans un parcours et leur envoyer une série de messages personnalisés.
 
 Il est possible de positionner ce type d’événement dès la première étape, ou plus tard dans le parcours.
+
+➡️ [Découvrez cette fonctionnalité en vidéo.](#video)
 
 ### Remarques importantes{#important-notes-segment-qualification}
 
@@ -126,3 +128,9 @@ Mettez en place une règle de limitation pour les sources de données et les act
 Avant d’utiliser l’audience dans un parcours en production, évaluez d’abord toujours le nombre de personnes qualifiées pour cette audience tous les jours. Pour ce faire, vous pouvez vérifier le menu **[!UICONTROL Audiences]**, ouvrir l’audience, puis consulter le graphe **[!UICONTROL Profils sur toute la durée]**.
 
 ![](assets/segment-overload.png)
+
+## Vidéo pratique {#video}
+
+Comprenez les cas d’utilisation applicables pour les parcours de qualification d’audience. Découvrez comment créer un parcours avec qualification d’audience et les bonnes pratiques à appliquer.
+
+>[!VIDEO](https://video.tv.adobe.com/v/3425028?quality=12)
