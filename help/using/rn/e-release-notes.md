@@ -10,10 +10,10 @@ level: Beginner, Intermediate
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 9eb0e37b0547a3eb00802711825ecff63ab5f4a6
+source-git-commit: d945e22af664876bf5f5403e7e466a1e383e9501
 workflow-type: tm+mt
-source-wordcount: '491'
-ht-degree: 20%
+source-wordcount: '510'
+ht-degree: 19%
 
 ---
 
@@ -71,7 +71,7 @@ Cette version est fournie avec les améliorations répertoriées ci-dessous.
 
 **Audiences**
 
-* Les variantes sont désormais prises en charge lors de l’utilisation de **listes de contrôle**. Comme chaque profil de l&#39;audience ciblée, les adresses de contrôle reçoivent une copie de toutes les variantes du même message (comme les différents traitements d&#39;une expérience de contenu).
+* **Listes de contrôle** - Les variantes sont désormais prises en charge lors de l’utilisation de **listes de contrôle**. Comme chaque profil de l&#39;audience ciblée, les adresses de contrôle reçoivent une copie de toutes les variantes du même message (comme les différents traitements d&#39;une expérience de contenu).
 
 Antérieurement disponibles en version bêta, les améliorations suivantes sont désormais disponibles pour tous les utilisateurs :
 
@@ -80,25 +80,25 @@ Antérieurement disponibles en version bêta, les améliorations suivantes sont 
 
 **Parcours**
 
-* Vous pouvez désormais utiliser **dates personnalisées pour filtrer les parcours** inventory, en plus des filtres de dates prédéfinis existants. Vous pouvez ainsi affiner la liste en affichant les parcours publiés à une date spécifique, au cours d’un mois donné, sur une année entière ou dans des périodes spécifiées.
-* Vous pouvez maintenant mettre à jour l’en-tête &quot;content-type&quot; dans **actions personnalisées**.
-* L’attribut identityMap dans stepEvents est maintenant prérenseigné. L’identité principale est définie comme &quot;primary = true&quot;.
-* La barre supérieure, dans les écrans de parcours, a été réorganisée pour améliorer l’expérience. Parmi les différentes mises à jour, l’icône &quot;crayon&quot; permettant d’accéder aux propriétés du parcours s’affiche désormais sur la gauche de la barre supérieure, en regard du nom du parcours.
+* **Filtrage des parcours** - Vous pouvez désormais utiliser **dates personnalisées pour filtrer les parcours** inventory, en plus des filtres de dates prédéfinis existants. Vous pouvez ainsi affiner la liste en affichant les parcours publiés à une date spécifique, au cours d’un mois donné, sur une année entière ou dans des périodes spécifiées.
+* **Actions personnalisées** - Vous pouvez désormais mettre à jour l’en-tête &quot;content-type&quot; dans **actions personnalisées**.
+* **Configuration** - L’attribut identityMap dans stepEvents est maintenant prérenseigné. L’identité principale est définie comme &quot;primary = true&quot;.
+* **Interface utilisateur** - La barre supérieure, dans les écrans de parcours, a été réorganisée pour une expérience améliorée. Parmi les différentes mises à jour, l’icône &quot;crayon&quot; permettant d’accéder aux propriétés du parcours s’affiche désormais sur la gauche de la barre supérieure, en regard du nom du parcours.
 
 
 **Canal SMS**
 
-* Lors de la configuration de votre canal SMS, vous pouvez désormais personnaliser le **Mots-clés d’inclusion et d’exclusion** selon vos préférences. Journey Optimizer déclenche la réponse en fonction de ces mots-clés spécifiés.
+* **Mots-clés d’inclusion/exclusion** - Lors de la configuration de votre canal SMS, vous pouvez désormais personnaliser le **Mots-clés d’inclusion et d’exclusion** selon vos préférences. Journey Optimizer déclenche la réponse en fonction de ces mots-clés spécifiés.
 
 **Campagnes**
 
-* Des informations ont été ajoutées dans la section &quot;Requête cURL&quot; de **Campagnes déclenchées par l’API** qui sont à l’état &quot;Version préliminaire&quot;, pour indiquer que l’exemple de requête cURL n’est visible qu’une fois la campagne publiée et exécutée.
+* **Campagnes déclenchées par l’API** - Des informations ont été ajoutées dans la variable **requête cURL** section de **Campagnes déclenchées par l’API** qui se trouvent dans **Version préliminaire** pour indiquer que l’exemple de requête cURL n’est visible qu’une fois la campagne publiée et exécutée.
 
 **Gestion des décisions**
 
-* Vous pouvez maintenant ajouter **plusieurs règles de limitation** pour une offre. Cela vous permet d’augmenter le niveau de contrôle sur la manière dont les offres sont envoyées.
+* **Règles de limitation** - Vous pouvez maintenant ajouter **plusieurs règles de limitation** pour une offre. Cela vous permet d’augmenter le niveau de contrôle sur la manière dont les offres sont envoyées.
 
 **Modèles de contenu**
 
-* A **vue miniature** est désormais disponible pour les modèles de contenu et les fragments afin d’améliorer l’accès visuel.
-* Les modèles de contenu sont désormais disponibles pour **tous les canaux**, à l’exception du Web.
+* **Miniature** - A **vue miniature** est désormais disponible pour les modèles de contenu et les fragments afin d’améliorer l’accès visuel.
+* **Canaux** - Des modèles de contenu sont désormais disponibles pour **tous les canaux**, à l’exception du Web.
