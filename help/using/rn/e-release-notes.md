@@ -10,10 +10,10 @@ level: Beginner, Intermediate
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 51d07df4c1db10ea2e1ff76dbd29607c32fbd859
+source-git-commit: 8d3dac39a0f4ea9982c5a8475d310ae0c3be68b1
 workflow-type: tm+mt
-source-wordcount: '511'
-ht-degree: 19%
+source-wordcount: '538'
+ht-degree: 18%
 
 ---
 
@@ -77,6 +77,10 @@ Antérieurement disponibles en version bêta, les améliorations suivantes sont 
 
 * Vous pouvez désormais cibler **audiences chargées à partir d’un fichier CSV** dans les parcours et les campagnes. [En savoir plus](../audience/about-audiences.md#segments-in-journey-optimizer)
 * Vous pouvez désormais cibler **audiences créées via la composition de l’audience** et exploiter les attributs d’enrichissement dans Parcours. [En savoir plus](../building-journeys/read-audience.md)
+
+>[!AVAILABILITY]
+>
+>L’utilisation d’audiences et d’attributs provenant de la composition de l’audience et du téléchargement personnalisé (fichier CSV) n’est actuellement pas disponible avec Healthcare Shield ou Privacy and Security Shield.
 
 **Parcours**
 
