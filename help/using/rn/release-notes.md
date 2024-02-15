@@ -6,9 +6,9 @@ feature: Release Notes
 topic: Content Management
 description: Notes de mise à jour de Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: b87ebc097c0c1c52ab21a4d098fbc2e5e227c953
+source-git-commit: 13ee474819aa0b63561946d94111cd76f3d5689d
 workflow-type: tm+mt
-source-wordcount: '603'
+source-wordcount: '611'
 ht-degree: 95%
 
 ---
@@ -90,6 +90,8 @@ Cette version est fournie avec les améliorations répertoriées ci-dessous.
 * **Lecture d’audience** – L’activité **Lecture d’audience** repose désormais sur le jeu de données d’instantané de profil pour les segments par lots, qui n’est généré qu’une fois par jour après l’exécution du traitement par lots quotidien planifié. Par conséquent, les données sont à jour depuis le dernier traitement par lots quotidien. [En savoir plus](../building-journeys/read-audience.md)
 
 * **Groupes de champs** – Cette version corrige un problème qui empêchait l’enregistrement de groupes de champs dans certains cas.
+
+* La prise en charge de `<listObject>` a été modifiée dans plusieurs fonctions.
 
 **Règles de fréquence**
 
