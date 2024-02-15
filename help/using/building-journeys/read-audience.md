@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: activité, parcours, lecture, audience, platform
 exl-id: 7b27d42e-3bfe-45ab-8a37-c55b231052ee
-source-git-commit: 7e850261f1a82492c5df93c4437b4e3c6859a2d7
-workflow-type: ht
-source-wordcount: '1402'
+source-git-commit: 5b2db1a07030fe688abfed04680d7b31584a526b
+workflow-type: tm+mt
+source-wordcount: '1438'
 ht-degree: 100%
 
 ---
@@ -28,6 +28,8 @@ ht-degree: 100%
 Utilisez l’activité **Lecture d’audience** pour que toutes les personnes d’une audience rejoignent le parcours. L’entrée dans un parcours peut être effectuée une fois, ou régulièrement.
 
 Prenons l’exemple de l’audience « Ouverture et passage en caisse de l’application Luma » créée dans le cas d’utilisation de [Création d’audiences](../audience/about-audiences.md). Avec l’activité Lecture d’audience, vous pouvez faire en sorte que toutes les personnes appartenant à cette audience rejoignent un parcours puis se dirigent vers des parcours personnalisés qui exploiteront toutes les fonctionnalités des parcours : conditions, retardateurs, événements, actions.
+
+➡️ [Découvrez cette fonctionnalité en vidéo.](#video)
 
 ## À lire absolument {#must-read}
 
@@ -183,3 +185,9 @@ Par exemple, après avoir suivi une expérience différente pendant dix jours d
 Après une union, vous pouvez fractionner à nouveau l’audience en exécutant une segmentation ou une exclusion.
 
 ![](assets/read-segment-audience3.png)
+
+## Vidéo pratique {#video}
+
+Comprenez les cas d’utilisation applicables pour un parcours déclenché par l’activité de lecture d’audience. Découvrez comment créer des parcours basés sur des lots et les bonnes pratiques à appliquer.
+
+>[!VIDEO](https://video.tv.adobe.com/v/3424997?quality=12)
