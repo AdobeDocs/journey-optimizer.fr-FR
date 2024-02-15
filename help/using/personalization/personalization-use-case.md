@@ -9,10 +9,10 @@ role: Data Engineer
 level: Intermediate
 keywords: expression, éditeur, cas d’utilisation, personnalisation
 exl-id: 7d9c3d31-af57-4f41-aa23-6efa5b785260
-source-git-commit: 142fac90b5726f6adbe34bea6d5f176526bce25d
+source-git-commit: f6d56d1d23cca425f01e4c45532d500f3e2d4e2e
 workflow-type: tm+mt
-source-wordcount: '504'
-ht-degree: 97%
+source-wordcount: '532'
+ht-degree: 92%
 
 ---
 
@@ -30,6 +30,8 @@ Pour ce cas d&#39;utilisation, les conditions préalables suivantes doivent êtr
 
 * Configurer un événement de commande incluant le numéro de commande, le statut et le nom de l&#39;article. Reportez-vous à cette [section](../event/about-events.md).
 * Créer une décision, voir à ce sujet cette [section](../offers/offer-activities/create-offer-activities.md).
+
+➡️ [Découvrez un cas d’utilisation similaire en vidéo](#video)
 
 ## Étape 1 - Créer le parcours {#create-journey}
 
@@ -103,3 +105,10 @@ Pour ce cas d&#39;utilisation, les conditions préalables suivantes doivent êtr
    ![](assets/perso-uc19.png)
 
 1. Vérifiez qu&#39;il n&#39;y a pas d&#39;erreur et publiez le parcours.
+
+## Vidéo pratique {#video}
+
+La vidéo ci-dessous présente un cas d’utilisation similaire en exploitant les données contextuelles d’un parcours pour personnaliser un email.
+
+>[!VIDEO](https://video.tv.adobe.com/v/3425027?quality=12)
+
