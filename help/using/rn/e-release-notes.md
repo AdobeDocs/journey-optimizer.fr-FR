@@ -10,7 +10,7 @@ level: Beginner, Intermediate
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 8d3dac39a0f4ea9982c5a8475d310ae0c3be68b1
+source-git-commit: 00a1b3cab9f5d7060ab8db9e27a31a6afaede79e
 workflow-type: tm+mt
 source-wordcount: '538'
 ht-degree: 18%
@@ -23,7 +23,7 @@ ht-degree: 18%
 
 Les notes de mise à jour ci-dessous peuvent être modifiées sans avertissement préalable jusqu’à la date de disponibilité de la version. Les liens, les copies d’écran et la documentation mise à jour sont publiés dans les [notes de mise à jour](release-notes.md), à la date de publication.
 
-## Notes de mise à jour de février 2024 {#e-2024}
+## Notes de mise à jour initiales de février 2024 {#e-2024}
 
 **Date de publication**: 20-21 février 2024
 
