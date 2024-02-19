@@ -10,10 +10,10 @@ level: Beginner, Intermediate
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 2afb293dfa772967417781e9a3ee6840db262594
+source-git-commit: f50dc0f18dac0dfbd5eb640d0675d3c2585fb8d0
 workflow-type: tm+mt
-source-wordcount: '538'
-ht-degree: 18%
+source-wordcount: '564'
+ht-degree: 17%
 
 ---
 
@@ -95,7 +95,10 @@ Antérieurement disponibles en version bêta, les améliorations suivantes sont 
 
 **Campagnes**
 
-* **Campagnes déclenchées par l’API** - Des informations ont été ajoutées dans la variable **requête cURL** section de **Campagnes déclenchées par l’API** qui se trouvent dans **Version préliminaire** pour indiquer que l’exemple de requête cURL n’est visible qu’une fois la campagne publiée et exécutée.
+* **Campagnes déclenchées par l’API** - Le code cURL généré après l’activation d’une campagne déclenchée par une API a été amélioré. Elle inclut désormais toutes les variables de personnalisation (profil et contexte) utilisées dans le message.
+
+  De plus, des informations ont été ajoutées dans la section **requête cURL** section de **Campagnes déclenchées par l’API** qui se trouvent dans **Version préliminaire** pour indiquer que l’exemple de requête cURL n’est visible qu’une fois la campagne publiée et exécutée.
+
 
 **Gestion des décisions**
 
