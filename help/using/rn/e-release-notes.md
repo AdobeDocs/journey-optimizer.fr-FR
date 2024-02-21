@@ -6,9 +6,9 @@ description: Notes de mise à jour anticipées de Journey Optimizer
 feature: Release Notes
 topic: Content Management
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 1c65043965d1335297127f6cc6c23ec9a7893463
+source-git-commit: a0a4d39519f7f02265c52934db401e036ea12df6
 workflow-type: tm+mt
-source-wordcount: '602'
+source-wordcount: '609'
 ht-degree: 16%
 
 ---
@@ -80,8 +80,8 @@ Antérieurement disponibles en version bêta, les améliorations suivantes sont 
 
 **Parcours**
 
-* **Filtrage des parcours** - Vous pouvez désormais utiliser **dates personnalisées pour filtrer les parcours** inventory, en plus des filtres de dates prédéfinis existants. Vous pouvez ainsi affiner la liste en affichant les parcours publiés à une date spécifique, au cours d’un mois donné, sur une année entière ou dans des périodes spécifiées.
-* **Actions personnalisées** - Vous pouvez désormais mettre à jour l’en-tête &quot;content-type&quot; dans **actions personnalisées**.
+* **Filtrage des parcours** - Vous pouvez désormais utiliser **dates personnalisées pour filtrer les parcours** inventory, en plus des filtres de dates prédéfinis existants. Vous pouvez ainsi affiner la liste en affichant les parcours créés ou publiés à une date spécifique, au cours d’un mois donné, sur une année entière ou dans des périodes spécifiées.
+* **Actions personnalisées** - Vous pouvez maintenant mettre à jour la variable **content-type** en-tête . Cette nouvelle **content-type** doit référencer le contenu JSON.
 * **Configuration** - L’attribut identityMap dans stepEvents est maintenant prérenseigné. L’identité principale est définie comme &quot;primary = true&quot;.
 * **Interface utilisateur** - La barre supérieure, dans les écrans de parcours, a été réorganisée pour une expérience améliorée. Parmi les différentes mises à jour, l’icône &quot;crayon&quot; permettant d’accéder aux propriétés du parcours s’affiche désormais sur la gauche de la barre supérieure, en regard du nom du parcours.
 
@@ -103,6 +103,6 @@ Antérieurement disponibles en version bêta, les améliorations suivantes sont 
 
   >[!AVAILABILITY]
   >
-  >Cette fonctionnalité est progressivement déployée dans les environnements clients à partir de cette version.
+  >Cette fonctionnalité est disponible en disponibilité limitée (LA) pour un petit groupe de clients.
 
 * **Modèles multicanaux** - Des modèles de contenu sont désormais disponibles pour **tous les canaux**, à l’exception du Web. Pour Email, vous pouvez maintenant sélectionner le type (HTML ou Contenu).
