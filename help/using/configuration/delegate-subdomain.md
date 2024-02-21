@@ -12,7 +12,7 @@ exl-id: 8021f66e-7725-475b-8722-e6f8d74c9023
 source-git-commit: 3b40087aeae2b0da789a90f45f2575beedf2b76d
 workflow-type: tm+mt
 source-wordcount: '1797'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -81,7 +81,7 @@ Pour déléguer complètement un nouveau sous-domaine à Adobe, procédez comme 
 
    ![](assets/subdomain-submit.png)
 
-1. Configurez l’enregistrement DMARC. Si le sous-domaine comporte un enregistrement DMARC existant et s’il est récupéré par [!DNL Journey Optimizer], vous pouvez utiliser les mêmes valeurs ou les modifier selon vos besoins. Si vous n’ajoutez aucune valeur, les valeurs par défaut seront utilisées. [En savoir plus](dmarc-record.md)
+1. Configurez un enregistrement DMARC. Si le sous-domaine comporte un enregistrement DMARC existant et qu’il est récupéré par [!DNL Journey Optimizer], vous pouvez utiliser les mêmes valeurs ou les modifier selon vos besoins. Si vous n’ajoutez pas de valeurs, les valeurs par défaut seront utilisées. [En savoir plus](dmarc-record.md)
 
    ![](assets/dmarc-record-found.png)
 
@@ -91,7 +91,7 @@ Pour déléguer complètement un nouveau sous-domaine à Adobe, procédez comme 
    >
    >Vous pouvez créer les enregistrements et soumettre ultérieurement la configuration du sous-domaine à l&#39;aide du bouton **[!UICONTROL Enregistrer en tant que brouillon]**. Vous pourrez ensuite reprendre la délégation de sous-domaine en l&#39;ouvrant à partir de la liste de sous-domaines.
 
-1. Le sous-domaine s’affiche dans la liste avec le **[!UICONTROL Traitement]** statut. Pour en savoir plus sur les statuts des sous-domaines, consultez [cette section](about-subdomain-delegation.md#access-delegated-subdomains).
+1. Le sous-domaine s’affiche dans la liste avec le statut **[!UICONTROL Traitement]**. Pour en savoir plus sur les statuts des sous-domaines, consultez [cette section](about-subdomain-delegation.md#access-delegated-subdomains).
 
    ![](assets/subdomain-processing.png)
 
@@ -113,7 +113,7 @@ Une fois qu’un sous-domaine est délégué à Adobe dans [!DNL Journey Optimiz
 >
 >L’exécution parallèle de sous-domaines n’est actuellement pas prise en charge dans [!DNL Journey Optimizer]. Si vous tentez d’envoyer un sous-domaine pour délégation alors quʼun autre se trouve à lʼétat **[!UICONTROL En cours de traitement]**, un message d’erreur sʼaffiche.
 
-## Configuration du sous-domaine CNAME {#cname-subdomain-delegation}
+## Configuration du sous-domaine CNAME {#cname-subdomain-delegation}
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_subdomain_dns_cname"
@@ -127,7 +127,7 @@ Une fois qu’un sous-domaine est délégué à Adobe dans [!DNL Journey Optimiz
 
 Si des politiques de restriction par domaine sont en vigueur et que vous souhaitez quʼAdobe nʼait quʼun contrôle partiel sur le DNS, vous pouvez choisir dʼeffectuer toutes les activités liées au DNS de votre côté.
 
-La configuration de sous-domaine CNAME vous permet de créer un sous-domaine et d’utiliser des CNAME pour pointer vers des enregistrements spécifiques à un Adobe. Grâce à cette configuration, vous partagez avec Adobe la responsabilité de la maintenance du DNS afin de configurer un environnement pour l’envoi, le rendu et le suivi des e-mails.
+La configuration de sous-domaines CNAME permet de créer un sous-domaine et d’utiliser des CNAME pour pointer vers des enregistrements spécifiques à Adobe. Grâce à cette configuration, vous partagez avec Adobe la responsabilité de la maintenance du DNS afin de configurer un environnement pour l’envoi, le rendu et le tracking des e-mails.
 
 >[!CAUTION]
 >
@@ -135,7 +135,7 @@ La configuration de sous-domaine CNAME vous permet de créer un sous-domaine et 
 
 ➡️ [Découvrez comment créer un sous-domaine à l&#39;aide de la méthode CNAME pour pointer vers des enregistrements spécifiques à Adobe dans cette vidéo](#video)
 
-Pour configurer un sous-domaine à l’aide de CNAME, procédez comme suit :
+Pour configurer un sous-domaine à l’aide de CNAME, procédez comme suit :
 
 1. Accédez au menu **[!UICONTROL Administration]** > **[!UICONTROL Canaux]** > **[!UICONTROL Sous-domaines]**, puis cliquez sur **[!UICONTROL Configurer le sous-domaine]**.
 
@@ -157,7 +157,7 @@ Pour configurer un sous-domaine à l’aide de CNAME, procédez comme suit :
 
    ![](assets/subdomain-create-dns-confirm.png)
 
-1. Configurez-le comme enregistrement DMARC. Si le sous-domaine comporte un enregistrement DMARC existant et s’il est récupéré par [!DNL Journey Optimizer], vous pouvez utiliser les mêmes valeurs ou les modifier selon vos besoins. Si vous n’ajoutez aucune valeur, les valeurs par défaut seront utilisées. [En savoir plus](dmarc-record.md)
+1. Configurez-le comme enregistrement DMARC. Si le sous-domaine comporte un enregistrement DMARC existant et qu’il est récupéré par [!DNL Journey Optimizer], vous pouvez utiliser les mêmes valeurs ou les modifier selon vos besoins. Si vous n’ajoutez pas de valeurs, les valeurs par défaut seront utilisées. [En savoir plus](dmarc-record.md)
 
    ![](assets/dmarc-record-found.png)
 
@@ -167,7 +167,7 @@ Pour configurer un sous-domaine à l’aide de CNAME, procédez comme suit :
    >
    >Vous pouvez créer des enregistrements ultérieurement à lʼaide du bouton **[!UICONTROL Enregistrer en tant que brouillon]**. Vous pourrez ensuite reprendre la délégation de sous-domaine à ce stade en lʼouvrant à partir de la liste de sous-domaines.
 
-1. Patientez jusqu’à ce que l’Adobe vérifie que les enregistrements sont générés sans erreur sur votre solution d’hébergement. Cette opération peut prendre jusquʼà 2 minutes.
+1. Patientez jusquʼà ce quʼAdobe sʼassure que ces enregistrements ont été générés sans erreurs sur votre solution dʼhébergement. Cette opération peut prendre jusquʼà 2 minutes.
 
    >[!NOTE]
    >
