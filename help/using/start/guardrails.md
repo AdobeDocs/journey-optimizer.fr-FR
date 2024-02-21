@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: 0d010bbb46887546d524726606764b564c352064
-workflow-type: ht
-source-wordcount: '1960'
+source-git-commit: f275820c3f79bb4c9aca8593c2c761ccd4283795
+workflow-type: tm+mt
+source-wordcount: '1912'
 ht-degree: 100%
 
 ---
@@ -40,12 +40,14 @@ L&#39;interface d&#39;Adobe [!DNL Journey Optimizer] est conçue pour fonctionne
 * Vous ne pouvez pas ajouter de pré-titre à une page de destination.
 * Vous ne pouvez pas sélectionner l’option **Coder le vôtre** lors de la conception d’une page de destination principale.
 
-## Mécanismes de sécurisation des SMS {#sms-guardrails}
+<!--
+## SMS guardrails {#sms-guardrails}
 
-* La fonctionnalité MMS n’est disponible que pour Sinch.
-* Les fichiers multimédias pour MMS peuvent être inclus via une URL prise en charge. Assurez-vous que le fichier multimédia est chargé séparément.
-* La synchronisation des commentaires des messages n’est actuellement pas disponible pour les MMS.
-* La gestion du consentement fonctionne au niveau du canal SMS pour les MMS.
+* MMS Capability is only available for Sinch.
+* Media files for MMS can be included through a supported URL. Please ensure that the media file is uploaded separately.
+* Message feedback syncing is not currently available for MMS.
+* Consent management operates at the SMS channel level for MMS.
+-->
 
 ## Mécanismes de sécurisation des fragments {#fragments-guardrails}
 
@@ -89,7 +91,7 @@ L&#39;interface d&#39;Adobe [!DNL Journey Optimizer] est conçue pour fonctionne
 * Les actions personnalisées intégrées ne peuvent pas être supprimées.
 * Lorsque vous choisissez un point d’entrée à cibler à l’aide d’une action personnalisée, vérifiez ce qui suit :
 
-   * Ce point d’entrée peut prendre en charge le débit de Journey, en utilisant les configurations issues de l’[API de limitation](../configuration/throttling.md) ou de l’[API de plafonnement](../configuration/capping.md) pour le limiter. Assurez-vous qu’aucune configuration de limitation ne puisse aller en dessous de 200 TPS. Tout point d’entrée ciblé devra prendre en charge au moins 200 TPS.
+   * Ce point d’entrée peut prendre en charge le débit des parcours à l’aide de configurations de l’[API de limitation](../configuration/throttling.md) ou de l’[API de plafonnement](../configuration/capping.md) pour le limiter. Faites preuve de prudence si une configuration de limitation ne peut pas descendre sous 200 TPS. Tout point d’entrée ciblé devra prendre en charge au moins 200 TPS.
    * Ce point d’entrée doit avoir un temps de réponse aussi bas que possible. En fonction de votre débit prévu, un temps de réponse élevé peut avoir un impact sur le débit réel.
 
 ### Événements {#events-g}

@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: message, fréquence, règles, pression
 exl-id: 49248fb6-5a91-45b2-9de8-2f078d59c0fc
-source-git-commit: 1b831facc70f0be01c0358ca23942e848ff3b708
+source-git-commit: 09142fa8d8c48d9ba56ef03e6a97b0be3da45916
 workflow-type: tm+mt
-source-wordcount: '1109'
-ht-degree: 97%
+source-wordcount: '1118'
+ht-degree: 94%
 
 ---
 
@@ -71,7 +71,8 @@ Pour créer une nouvelle règle, procédez comme suit.
 
 1. Définissez le nom de la règle.
 
-   ![](assets/message-rules-details.png)
+   <!--![](assets/message-rules-details.png)-->
+   ![](assets/message-rules-details-temp.png)
 
 1. Sélectionnez la catégorie de règle du message.
 
@@ -79,9 +80,10 @@ Pour créer une nouvelle règle, procédez comme suit.
    >
    >Actuellement, seule la catégorie **[!UICONTROL Marketing]** est disponible.
 
-1. Sélectionnez une période pour laquelle la limitation doit être appliquée à partir du **[!UICONTROL Durée]** liste déroulante.
+1. Dans la **[!UICONTROL Durée]** dans la liste déroulante, sélectionnez une période pour laquelle la limitation doit être appliquée.
 
-   <!--![](assets/message-rules-capping-duration.png) TO UPDATE ONCE DAILY REMOVED-->
+   <!--![](assets/message-rules-capping-duration.png)-->
+   ![](assets/message-rules-capping-duration-temp.png)
 
    La limite de fréquence est basée sur la période calendaire sélectionnée. Elle est réinitialisée au début de la période correspondante.
 
@@ -93,12 +95,11 @@ Pour créer une nouvelle règle, procédez comme suit.
 
    * **[!UICONTROL Mensuelle]** : la limite de fréquence est valable jusqu’au dernier jour du mois à 23:59:59 UTC. Par exemple, la date d’expiration mensuelle pour janvier est le 31 janvier à 23:59:59 UTC.
 
-   <!-- NOTE
-   >When dealing with [batch segmentation](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html#batch){target="_blank"}, the daily counters may not accurately reflect the current values as the daily counter snapshot is taken at midnight UTC the night before. Consequently, relying on daily counters in this scenario becomes impractical, as the snapshot does not reflect the most up-to-date counter values on the profile. To ensure accuracy for daily frequency capping rules, the use of [streaming segmentation](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/streaming-segmentation.html){target="_blank"} is recommended. <!--Learn more on audience evaluation methods in [this section](using/audience/about-audiences.md#evaluation-method-in-journey-optimizer).-->
+   &lt;!—REMARQUE : Lorsque vous traitez [segmentation par lots](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=fr#batch){target="_blank"}, the daily counters may not accurately reflect the current values as the daily counter snapshot is taken at midnight UTC the night before. Consequently, relying on daily counters in this scenario becomes impractical, as the snapshot does not reflect the most up-to-date counter values on the profile. To ensure accuracy for daily frequency capping rules, the use of [streaming segmentation](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/streaming-segmentation.html?lang=fr){target="_blank"} est recommandé. <!--Learn more on audience evaluation methods in [this section](using/audience/about-audiences.md#evaluation-method-in-journey-optimizer).-->
 
-1. Définissez la limitation de votre règle, c’est-à-dire le nombre maximum de messages qui peuvent être envoyés à un profil individuel chaque mois, chaque semaine ou chaque jour en fonction de votre sélection ci-dessous.
+1. Définissez la limitation de votre règle, c’est-à-dire le nombre maximal de messages qui peuvent être envoyés à un profil utilisateur individuel chaque mois ou semaine. <!--or day--> - selon votre sélection ci-dessus.
 
-   ![](assets/message-rules-capping.png)
+   <!--![](assets/message-rules-capping.png)-->
 
 1. Sélectionnez le canal à utiliser pour cette règle : **[!UICONTROL E-mail]** ou **[!UICONTROL Notification push]**.
 

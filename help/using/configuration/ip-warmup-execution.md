@@ -12,10 +12,10 @@ hide: true
 hidefromtoc: true
 badge: label="Version Beta"
 exl-id: 752ffd7f-09c2-4aa3-a067-2dbe0634709c
-source-git-commit: 9d48213d8367fdc6c0fae62b73d1706bc4983d9d
+source-git-commit: 17ddd9042b6fb4f078bf858c3a855e7fb604b0d2
 workflow-type: tm+mt
-source-wordcount: '2141'
-ht-degree: 100%
+source-wordcount: '2152'
+ht-degree: 97%
 
 ---
 
@@ -104,7 +104,7 @@ At phase level, system ensures that previously targeted + new profiles are picke
 
       >[!NOTE]
       >
-      >Vous pouvez uniquement exclure un groupe de domaines (par défaut ou personnalisé) ajouté au [modèle de plan de préchauffage des adresses IP](ip-warmup-plan.md#prepare-file). Si ce n’est pas le cas, mettez à jour le modèle avec le groupe de domaines à exclure et [chargez à nouveau le plan](#re-upload-plan).
+      >Vous ne pouvez exclure qu’un groupe de domaines personnalisé ajouté à la variable [Modèle de plan de chauffage par IP](ip-warmup-plan.md#prepare-file). Si ce n’est pas le cas, mettez à jour le modèle avec le groupe de domaines personnalisé que vous souhaitez exclure et [charger à nouveau le plan](#re-upload-plan).
 
 1. Si nécessaire, vous pouvez remplacer la campagne en cliquant sur le bouton **[!UICONTROL Remplacer la campagne]**.
 
@@ -162,6 +162,10 @@ At phase level, system ensures that previously targeted + new profiles are picke
    ![](assets/ip-warmup-plan-send-time.png)
 
 1. Vous pouvez éventuellement définir une fenêtre temporelle pendant laquelle la campagne de préchauffage des adresses IP peut être exécutée en cas de retard dans l’[évaluation de l’audience](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=fr#how-segmentation-works){target="_blank"}. Pour ce faire, cliquez sur l’icône Propriétés en haut à gauche, en regard du nom du plan, et utilisez la liste déroulante **[!UICONTROL Temps d’exécution de reprise]** pour sélectionner une durée, jusqu’à 240 minutes (4 heures).
+
+   >[!NOTE]
+   >
+   >Les reprises ont lieu toutes les 30 minutes jusqu’à la fin de la période définie.
 
    ![](assets/ip-warmup-plan-retry-run-time.png)
 

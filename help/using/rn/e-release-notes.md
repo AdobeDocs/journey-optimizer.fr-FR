@@ -5,15 +5,11 @@ title: Notes de mise à jour
 description: Notes de mise à jour anticipées de Journey Optimizer
 feature: Release Notes
 topic: Content Management
-role: User
-level: Beginner, Intermediate
-hide: true
-hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: f50dc0f18dac0dfbd5eb640d0675d3c2585fb8d0
+source-git-commit: 1c65043965d1335297127f6cc6c23ec9a7893463
 workflow-type: tm+mt
-source-wordcount: '564'
-ht-degree: 17%
+source-wordcount: '602'
+ht-degree: 16%
 
 ---
 
@@ -25,7 +21,7 @@ Les notes de mise à jour ci-dessous peuvent être modifiées sans avertissement
 
 ## Notes de mise à jour initiales de février 2024 {#e-2024}
 
-**Date de publication**: 20-21 février 2024
+**Date de publication**: 21-22 février 2024
 
 ### Nouvelles fonctionnalités{#e-features}
 
@@ -51,19 +47,17 @@ Cette version apporte les nouvelles fonctionnalités répertoriées ci-dessous.
 <table>
 <thead>
 <tr>
-<th><strong>Règles de fonctionnement (version bêta)</strong><br/></th>
+<th><strong>Règles de fréquence pour les SMS et le courrier</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Vous pouvez maintenant créer des règles de limitation de fréquence qui s'appliquent aux canaux SMS et courrier. En outre, vous pouvez définir des règles de limitation de fréquence par type de communication.<br/><br/></p>
-<!--img src="assets/do-not-localize/computed-attributes.gif"-->
+<p>Vous pouvez maintenant créer des règles de fréquence pour les canaux SMS et courrier. Les règles de fréquence excluent automatiquement les profils sur-sollicités des messages et actions lorsque le plafond de fréquence est atteint. <br/><br/></p>
+<img src="assets/do-not-localize/sms-dm-rules.gif">
 </tr>
 </tbody>
 </table>
-
-
 
 ### Améliorations {#e-improvements}
 
@@ -75,12 +69,14 @@ Cette version est fournie avec les améliorations répertoriées ci-dessous.
 
 Antérieurement disponibles en version bêta, les améliorations suivantes sont désormais disponibles pour tous les utilisateurs :
 
-* Vous pouvez désormais cibler **audiences chargées à partir d’un fichier CSV** dans les parcours et les campagnes. [En savoir plus](../audience/about-audiences.md#segments-in-journey-optimizer)
 * Vous pouvez désormais cibler **audiences créées via la composition de l’audience** et exploiter les attributs d’enrichissement dans Parcours. [En savoir plus](../building-journeys/read-audience.md)
 
->[!AVAILABILITY]
->
->L’utilisation d’audiences et d’attributs provenant de la composition de l’audience et du téléchargement personnalisé (fichier CSV) n’est actuellement pas disponible avec Healthcare Shield ou Privacy and Security Shield.
+* Vous pouvez désormais cibler **audiences chargées à partir d’un fichier CSV** dans les parcours et les campagnes. [En savoir plus](../audience/about-audiences.md#segments-in-journey-optimizer)
+
+  >[!AVAILABILITY]
+  >
+  >* L’utilisation d’audiences et d’attributs provenant de la composition de l’audience et du téléchargement personnalisé (fichier CSV) n’est actuellement pas disponible avec Healthcare Shield ou Privacy and Security Shield.
+  >* Veuillez noter que le téléchargement de l’audience à partir d’une amélioration de fichier CSV sera graduellement déployé dans les jours qui suivront la version initiale. Certains utilisateurs auront un accès immédiat, mais d’autres peuvent rencontrer un retard avant qu’il ne soit disponible dans leurs comptes.
 
 **Parcours**
 
@@ -97,9 +93,6 @@ Antérieurement disponibles en version bêta, les améliorations suivantes sont 
 
 * **Campagnes déclenchées par l’API** - Le code cURL généré après l’activation d’une campagne déclenchée par une API a été amélioré. Elle inclut désormais toutes les variables de personnalisation (profil et contexte) utilisées dans le message.
 
-  De plus, des informations ont été ajoutées dans la section **requête cURL** section de **Campagnes déclenchées par l’API** qui se trouvent dans **Version préliminaire** pour indiquer que l’exemple de requête cURL n’est visible qu’une fois la campagne publiée et exécutée.
-
-
 **Gestion des décisions**
 
 * **Règles de limitation** - Vous pouvez maintenant ajouter **plusieurs règles de limitation** pour une offre. Cela vous permet d’augmenter le niveau de contrôle sur la manière dont les offres sont envoyées.
@@ -107,4 +100,9 @@ Antérieurement disponibles en version bêta, les améliorations suivantes sont 
 **Modèles de contenu**
 
 * **Miniature** - A **vue miniature** est désormais disponible pour les modèles de contenu et les fragments afin d’améliorer l’accès visuel.
-* **Modèles multicanaux** - Des modèles de contenu sont désormais disponibles pour **tous les canaux**, à l’exception du Web.
+
+  >[!AVAILABILITY]
+  >
+  >Cette fonctionnalité est progressivement déployée dans les environnements clients à partir de cette version.
+
+* **Modèles multicanaux** - Des modèles de contenu sont désormais disponibles pour **tous les canaux**, à l’exception du Web. Pour Email, vous pouvez maintenant sélectionner le type (HTML ou Contenu).

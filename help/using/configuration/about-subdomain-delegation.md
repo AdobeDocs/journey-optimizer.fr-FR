@@ -9,9 +9,9 @@ role: Admin
 level: Experienced
 keywords: sous-domaine, optimizer, délégation
 exl-id: 1b5ca4db-44d9-49e2-ab39-a1abba223ec7
-source-git-commit: 636c86d91d349104388849bbfc4e18bbbe2e4093
+source-git-commit: f59f6a60aabb793aec0cb813ddd9cee10c0fc097
 workflow-type: tm+mt
-source-wordcount: '903'
+source-wordcount: '892'
 ht-degree: 100%
 
 ---
@@ -44,10 +44,6 @@ Bien que ces exigences soient gérées au moyen de composants hébergés à la f
 * Découvrez comment [déléguer vos sous-domaines](delegate-subdomain.md) directement à partir de l&#39;interface.
 * Découvrez comment [ajouter des enregistrements Google TXT](google-txt.md) à vos sous-domaines pour réussir la diffusion des e-mails aux adresses Gmail.
 * Découvrez comment [accéder aux enregistrements PTR](ptr-records.md) générés pour vos sous-domaines, ce qui permet aux serveurs de messagerie de les vérifier.
-
->[!NOTE]
->
->Pour implémenter DMARC pour vos sous-domaines, contactez l’[assistance clientèle d’Adobe](https://helpx.adobe.com/fr/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){target="_blank"}.
 
 ## Méthodes de configuration de sous-domaine {#subdomain-delegation-methods}
 
