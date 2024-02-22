@@ -6,10 +6,10 @@ topic: Personalization
 role: Data Engineer
 level: Experienced
 exl-id: 9b0b0d8e-a819-4d2e-a241-f3c4d104eab9
-source-git-commit: 2444d8fbe3a86feb0497d754b4f57f234fa29e49
+source-git-commit: d3f0adab52ed8e44a6097c5079396d1e9c06e0a7
 workflow-type: tm+mt
-source-wordcount: '1834'
-ht-degree: 100%
+source-wordcount: '1854'
+ht-degree: 97%
 
 ---
 
@@ -17,13 +17,19 @@ ht-degree: 100%
 
 Utilisez le langage de modèle [!DNL Journey Optimizer] pour effectuer des opérations sur les données, comme des calculs, une mise en forme ou des conversions des données, des conditions, et les manipuler dans le contexte de la personnalisation. Découvrez les instructions de syntaxe de personnalisation dans [cette page](../personalization-syntax.md).
 
+
+
 ➡️ [Découvrez comment utiliser les fonctions d&#39;assistance dans cette vidéo](#video)
 
-Le langage de modèle est utilisé dans les fonctions d’assistance disponibles dans la liste déroulante de personnalisation de l’éditeur d’expression, comme ci-dessous :
+La langue de modèle est utilisée dans les fonctions d’assistance disponibles dans la liste déroulante de personnalisation de l’éditeur de personnalisation, comme ci-dessous :
 
 ![](../assets/access-helper-functions.png)
 
-Dans l’éditeur d’expression [!DNL Journey Optimizer], les fonctions d’assistance sont regroupées en trois catégories : [Fonctions](#functions-helper), [Assistants](#helper-helper) et [Opérateurs](#operators-helper).
+>[!NOTE]
+>
+>Les fonctions et fonctionnalités disponibles dans l’éditeur de personnalisation diffèrent de celles disponibles dans la variable [Éditeur d’expression avancé Parcours](../../building-journeys/expression/expressionadvanced.md).
+
+Dans le [!DNL Journey Optimizer] Les fonctions d’assistance de l’éditeur de personnalisation sont regroupées en trois catégories : [Fonctions](#functions-helper), [Helpers](#helper-helper) et [Opérateurs](#operators-helper).
 
 Sélectionnez une catégorie pour accéder aux sous-catégories et fonctions.
 

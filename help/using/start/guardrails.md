@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: f275820c3f79bb4c9aca8593c2c761ccd4283795
+source-git-commit: d3f0adab52ed8e44a6097c5079396d1e9c06e0a7
 workflow-type: tm+mt
-source-wordcount: '1912'
-ht-degree: 100%
+source-wordcount: '1927'
+ht-degree: 99%
 
 ---
 
@@ -89,7 +89,8 @@ L&#39;interface d&#39;Adobe [!DNL Journey Optimizer] est conçue pour fonctionne
 * Les adresses IP ne sont pas autorisées.
 * Les adresses d’Adobe internes (`.adobe.*`) ne sont pas autorisées dans les URL et les API.
 * Les actions personnalisées intégrées ne peuvent pas être supprimées.
-* Lorsque vous choisissez un point d’entrée à cibler à l’aide d’une action personnalisée, vérifiez ce qui suit :
+* Les actions personnalisées ne prennent en charge le format JSON que lors de l’utilisation de payloads de requête ou de réponse. Consultez [cette page](../action/about-custom-action-configuration.md#custom-actions-limitations).
+* Lorsque vous choisissez un point d’entrée à cibler à l’aide d’une action personnalisée, assurez-vous de ce qui suit :
 
    * Ce point d’entrée peut prendre en charge le débit des parcours à l’aide de configurations de l’[API de limitation](../configuration/throttling.md) ou de l’[API de plafonnement](../configuration/capping.md) pour le limiter. Faites preuve de prudence si une configuration de limitation ne peut pas descendre sous 200 TPS. Tout point d’entrée ciblé devra prendre en charge au moins 200 TPS.
    * Ce point d’entrée doit avoir un temps de réponse aussi bas que possible. En fonction de votre débit prévu, un temps de réponse élevé peut avoir un impact sur le débit réel.

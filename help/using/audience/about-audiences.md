@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 10d2de34-23c1-4a5e-b868-700b462312eb
-source-git-commit: cdcce470481393c821d1c5df95639602510a690a
-workflow-type: ht
-source-wordcount: '991'
-ht-degree: 100%
+source-git-commit: d3f0adab52ed8e44a6097c5079396d1e9c06e0a7
+workflow-type: tm+mt
+source-wordcount: '1087'
+ht-degree: 85%
 
 ---
 
@@ -39,15 +39,11 @@ Les audiences peuvent être générées à l’aide de différentes méthodes :
 
 ## Cibler des audiences dans [!DNL Journey Optimizer] {#segments-in-journey-optimizer}
 
-Vous pouvez sélectionner dans des campagnes et des parcours toute audience Adobe Experience Platform générée à l’aide de [définitions de segment](../audience/creating-a-segment-definition.md).
+Vous pouvez sélectionner dans des campagnes et des parcours toute audience générée à l’aide de définitions de segment, de workflows d’import de fichier CSV ou de composition.
 
->[!NOTE]
+>[!AVAILABILITY]
 >
->Pour l’instant, les audiences provenant de [compositions d’audience](../audience/get-started-audience-orchestration.md) ne peuvent être ciblées que dans les campagnes. Cette fonctionnalité est publiée sous forme de version bêta privée.
->
->L’utilisation des audiences [chargées à partir d’un fichier CSV](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=fr#import-audience){target="_blank"} dans les campagnes et les parcours est actuellement disponible en version bêta privée.
->
->Pour en savoir plus, contactez votre représentant ou représentante Adobe.
+>L’utilisation d’audiences et d’attributs provenant de la composition de l’audience et du téléchargement personnalisé (fichier CSV) n’est actuellement pas disponible avec Healthcare Shield ou Privacy and Security Shield. [Découvrez comment utiliser les attributs d’enrichissement d’audience dans Journey Optimizer](../audience/about-audiences.md#enrichment)
 
 Vous pouvez utiliser les audiences dans **[!DNL Journey Optimizer]** de différentes manières :
 
@@ -62,6 +58,18 @@ Vous pouvez utiliser les audiences dans **[!DNL Journey Optimizer]** de différe
   Par exemple, vous pouvez faire en sorte que tous les nouveaux clientes et clients Silver rejoignent un parcours et leur envoyer des messages. Pour plus d’informations sur l’utilisation de cette activité, reportez-vous à la section [Découvrez comment configurer une activité de qualification d’audience](../building-journeys/audience-qualification-events.md).
 
 * Utilisez l’activité **Condition** dans un parcours afin de créer des conditions basées sur l’appartenance à une audience. [Découvrez comment utiliser des audiences dans des conditions](../building-journeys/condition-activity.md#using-a-segment).
+
+## Utilisation des attributs d’enrichissement d’audience dans Journey Optimizer {#enrichment}
+
+Lors du ciblage d’une audience générée à l’aide de workflows de composition ou d’un téléchargement personnalisé (fichier CSV), vous pouvez tirer parti des attributs d’enrichissement de ces audiences pour créer votre parcours et personnaliser vos messages.
+
+* Créez plusieurs chemins dans un parcours en fonction de règles qui exploitent les attributs d’enrichissement de l’audience ciblée. Pour ce faire, ciblez l’audience à l’aide d’une [Lecture d’audience](../building-journeys/read-audience.md) puis créer des règles dans une [Condition](../building-journeys/condition-activity.md) activité basée sur les attributs d’enrichissement de l’audience.
+
+  ![](assets/audience-enrichment-attribute-condition.png){zoomable=&quot;yes&quot;}
+
+* Personnalisez vos messages dans des parcours ou des campagnes en ajoutant les attributs d&#39;enrichissement de l&#39;audience ciblée dans l&#39;éditeur d&#39;expression. [Découvrez comment utiliser l’éditeur d’expression](../personalization/personalization-build-expressions.md)
+
+  ![](assets/audience-enrichment-attribute-perso.png){zoomable=&quot;yes&quot;}
 
 ## Méthodes d’évaluation d’audience {#evaluation-method-in-journey-optimizer}
 

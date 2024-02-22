@@ -8,10 +8,10 @@ role: User
 level: Beginner
 keywords: platform, lac de données, créer, lac, jeux de données, profil
 exl-id: 66b5c691-ddc4-4e9b-9386-2ce6c307451c
-source-git-commit: d4ecfecdc74c26890658d68d352c36b75f7c9039
+source-git-commit: d3f0adab52ed8e44a6097c5079396d1e9c06e0a7
 workflow-type: tm+mt
 source-wordcount: '906'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
@@ -55,8 +55,7 @@ Découvrez dans le tableau ci-dessous quels jeux de données Journey Optimizer 
 | Jeu de données d’événement d’expérience de tracking de notification push AJO | Logs d’interaction pour le canal Notification push utilisé à des fins de création de rapports et d’audiences.  | Prime |
 | Jeu de données des surfaces AJO | Jeu de données vide associé au schéma de surfaces entrantes Journey Optimizer | Prime |
 | Jeu de données UPS pour sortie AO | Contient tous les appartenances à l’audience AOA à écrire à UPS | Prime |
-| Jeu de données de profil Audience Orchestration | Généré par composition d’audience pour les audiences de composition d’audience. Contient toutes les audiences de composition d’audience, leurs attributs et leurs données d’enrichissement | Prime |
-| Référentiel d’objets de décision - Activités | également appelé Décisions dans l’interface utilisateur. Mais ce sont les objets créés par un utilisateur ou une utilisatrice qui réunissent tous les blocs de création, y compris la logique de prise de décision. Par exemple, pour un emplacement particulier, dont les offres doivent être prises en compte (collection d’offres), et quelle méthode de classement utiliser sur ces offres. | Ultimate |
+| Jeu de données de profil Audience Orchestration | Généré par composition d’audience pour les audiences de composition d’audience. Contient toutes les audiences de composition de l’audience, leurs attributs et leurs données d’enrichissement | Prime | | Référentiel d’objets de décision - Activités | également appelé Décisions dans l’interface utilisateur de . Mais ce sont les objets créés par un utilisateur ou une utilisatrice qui réunissent tous les blocs de création, y compris la logique de prise de décision. Par exemple, pour un emplacement particulier, dont les offres doivent être prises en compte (collection d’offres), et quelle méthode de classement utiliser sur ces offres. | Ultimate |
 | Référentiel d’objets de décision - Offres de secours | il s’agit du référentiel pour l’autre type d’offre qu’un utilisateur ou une utilisatrice crée. Plus précisément, s’ils ne sont pas éligibles pour voir une offre personnalisée et qu’ils doivent voir quelque chose, ils verront au moins l’offre de secours. Ce jeu de données contient les attributs de ce type d’offre | Ultimate |
 | Référentiel d’objets de décision - Offres personnalisées | il s’agit du référentiel d’un type d’offre créé par un utilisateur ou une utilisatrice. Ce jeu de données contient donc les attributs relatifs à ce type d’offre. | Ultimate |
 | Référentiel d’objets de décision - Emplacements | il s’agit du référentiel d’objets qui définissent l’emplacement d’affichage d’une offre. | Ultimate |

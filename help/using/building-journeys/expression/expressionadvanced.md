@@ -8,10 +8,10 @@ role: Data Engineer, Architect
 level: Experienced
 keywords: éditeur d’expression, données, parcours
 exl-id: 9ea6cc3a-6a1b-4e8f-82ff-f8b1812617d7
-source-git-commit: 4112ac79a1f21fb369119ccd801dcbceac3c1e58
+source-git-commit: d3f0adab52ed8e44a6097c5079396d1e9c06e0a7
 workflow-type: tm+mt
-source-wordcount: '647'
-ht-degree: 100%
+source-wordcount: '668'
+ht-degree: 94%
 
 ---
 
@@ -22,7 +22,12 @@ ht-degree: 100%
 >title="À propos de l’éditeur d’expression avancé"
 >abstract="Utilisez l’éditeur d’expression avancé pour créer des expressions avancées dans divers écrans de l’interface. Par exemple, vous pouvez créer des expressions lors de la configuration et de l’utilisation de parcours, ainsi que lors de la définition d’une condition de source de données."
 
-Utilisez l’éditeur d’expression avancé pour créer des expressions avancées dans divers écrans de l’interface. Par exemple, vous pouvez créer des expressions lors de la configuration et de l’utilisation de parcours, ainsi que lors de la définition d’une condition de source de données.
+Utilisez l’éditeur d’expression avancé de Parcours pour créer des expressions avancées dans divers écrans de l’interface. Par exemple, vous pouvez créer des expressions lors de la configuration et de l’utilisation de parcours, ainsi que lors de la définition d’une condition de source de données.
+
+>[!NOTE]
+>
+>Les fonctions et fonctionnalités disponibles dans l’éditeur d’expression avancé de Parcours diffèrent de celles disponibles dans la variable [Éditeur de personnalisation](../../personalization/functions/functions.md).
+
 Il est également à votre disposition si vous avez besoin de définir des paramètres d’action qui nécessitent de manipuler des données spécifiques. Vous pouvez exploiter les données issues d’événements ou d’informations supplémentaires récupérées de la source de données.
 Dans un parcours, la liste des champs d’événement affichée est contextuelle et varie selon les événements ajoutés.
 

@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: parcours, premier, commencer, démarrage rapide, audience, événement, action
 exl-id: d940191e-8f37-4956-8482-d2df0c4274aa
-source-git-commit: a5027f4558526c2f3516816c12803e741c7f8dac
-workflow-type: ht
-source-wordcount: '1787'
-ht-degree: 100%
+source-git-commit: d3f0adab52ed8e44a6097c5079396d1e9c06e0a7
+workflow-type: tm+mt
+source-wordcount: '1803'
+ht-degree: 98%
 
 ---
 
@@ -89,7 +89,7 @@ Voici les différentes opérations de filtrage que vous pouvez effectuer :
 
 * Utilisez les **[!UICONTROL filtres de publication]** pour sélectionner une date de publication ou une personne. Vous pouvez choisir, par exemple, d’afficher les dernières versions des parcours actifs publiées la veille.
 
-  <!--To filter journeys based on a specific date range, select **[!UICONTROL Custom]** from the **[!UICONTROL Published]** drop-down list.-->
+  Pour filtrer les parcours selon une période spécifique, sélectionnez **[!UICONTROL Personnalisé]** de la **[!UICONTROL Publié]** liste déroulante.
 
 Dans les volets de configuration des événements, des sources de données et des actions, le champ **[!UICONTROL Utilisé dans]** affiche également le nombre de parcours qui utilisent cet événement, ce groupe de champs ou cette action spécifique. Vous pouvez cliquer sur le bouton **[!UICONTROL Afficher les parcours]** pour faire apparaître la liste des parcours correspondants.
 
@@ -130,7 +130,7 @@ Voici les étapes principales pour envoyer des messages à travers des parcours�
 >title="Propriétés du parcours"
 >abstract="Cette section présente les propriétés du parcours. Par défaut, les paramètres en lecture seule sont masqués. Les paramètres disponibles dépendent du statut du parcours, de vos autorisations et de la configuration de votre produit."
 
-Cliquez sur l&#39;icône en forme de crayon en haut à droite pour accéder aux propriétés du parcours.
+Cliquez sur l’icône en forme de crayon, en regard du nom du parcours, pour accéder à ses propriétés.
 
 Vous pouvez modifier le nom du parcours, ajouter une description, autoriser une rentrée, choisir les dates de début et de fin, et, si vous être administrateur, définir une durée de **[!UICONTROL Temporisation et erreur]**. Vous pouvez également attribuer des balises unifiées Adobe Experience Platform à votre parcours. Vous pouvez ainsi facilement les classer et améliorer la recherche à partir de la liste des campagnes. [Découvrir comment utiliser les balises](../start/search-filter-categorize.md#tags)
 

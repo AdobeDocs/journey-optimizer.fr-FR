@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: liste de contrôle, contrôle, configuration
 exl-id: 0172f6bc-da8b-4a83-a0fc-4ed41324568f
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: d3f0adab52ed8e44a6097c5079396d1e9c06e0a7
 workflow-type: tm+mt
-source-wordcount: '946'
-ht-degree: 100%
+source-wordcount: '936'
+ht-degree: 94%
 
 ---
 
@@ -23,8 +23,6 @@ Les listes de contrôle dans [!DNL Journey Optimizer] vous permettent d’inclur
 >[!CAUTION]
 >
 >Actuellement, cette fonctionnalité s’applique uniquement au canal e-mail.
->
->Les variantes ne sont actuellement pas prises en charge. Comme chaque profil de l’audience ciblée, les adresses de contrôle reçoivent une seule copie de chaque message, mais pas toutes les variantes d’un même message (telles que les différents traitements d’une [expérience de contenu](../campaigns/get-started-experiment.md)).
 
 Les adresses de contrôle permettent de cibler des personnes destinataires qui ne correspondent pas aux critères de ciblage définis. Ainsi, les personnes destinataires qui n’entrent pas dans le cadre de la diffusion peuvent la recevoir, comme toute autre personne destinataire cible.
 
@@ -47,6 +45,10 @@ Les adresses de contrôle ne sont ni des profils réels ni des profils de test, 
 +++
 
 * Une autre raison d’utiliser les listes de contrôle est la protection de votre liste de publipostage. L’insertion d’adresses de contrôle dans votre liste de publipostage vous permet de savoir si elle est utilisée par une entité tierce. Les adresses de contrôle qu’elle contient recevront en effet les diffusions envoyées à votre liste de publipostage.
+
+>[!NOTE]
+>
+>Les variantes sont prises en charge. Les adresses de contrôle reçoivent une seule copie de chaque variante du même message (comme les différents traitements d&#39;un [expérience de contenu](../campaigns/get-started-experiment.md)).
 
 ## Accéder aux listes de contrôle {#access-seed-lists}
 
@@ -128,7 +130,7 @@ Maintenant que votre liste de contrôle est créée, vous pouvez l’utiliser da
 
 >[!CAUTION]
 >
->Les messages envoyés aux adresses de contrôle ne sont pas inclus dans les rapports.
+>Les messages envoyés aux adresses de contrôle ne sont pas inclus dans les rapports de parcours ou de campagne.
 
 1. Créez une surface et sélectionnez le canal **[!UICONTROL e-mail]**. [En savoir plus](../email/email-settings.md)
 
@@ -154,4 +156,4 @@ Désormais, chaque fois qu’un e-mail est envoyé à vos clientes et clients pa
 
 >[!NOTE]
 >
->Pour les parcours, la diffusion e-mail n’est envoyée aux adresses de contrôle que lors de la première exécution du parcours.
+>Pour les parcours, la diffusion email n&#39;est envoyée aux adresses de contrôle que lors de la première exécution du parcours.

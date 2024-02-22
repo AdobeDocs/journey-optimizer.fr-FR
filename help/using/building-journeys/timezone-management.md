@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: fuseau horaire, propriétés, parcours, condition, heure, date, personnalisé
 exl-id: 3bcc08d6-1210-4ff9-92f4-edee8285b469
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: d3f0adab52ed8e44a6097c5079396d1e9c06e0a7
 workflow-type: tm+mt
-source-wordcount: '290'
-ht-degree: 100%
+source-wordcount: '291'
+ht-degree: 93%
 
 ---
 
@@ -32,11 +32,7 @@ Ce fuseau horaire sera utilisé pour chaque activité du parcours contenant un �
 * [Fixed date wait](../building-journeys/wait-activity.md#fixed_date)
 -->
 
-Vous pouvez sélectionner un fuseau horaire ou choisir d’utiliser celui défini dans le profil utilisateur.
-
->[!NOTE]
->
->Le fuseau horaire de profil fonctionne avec le champ **timeZone** existant dans le groupe de champs **Détails des préférences**.
+Vous pouvez sélectionner un [fuseau horaire fixe](#fixed-timezone) ou choisissez d’utiliser le fuseau horaire. [défini dans le profil utilisateur](#timezone-from-profiles).
 
 ## Définition d&#39;un fuseau horaire fixe {#fixed-timezone}
 
@@ -53,6 +49,10 @@ Si l’événement d’entrée du parcours comporte un espace de noms, ce qui si
 Si un fuseau horaire a été défini pour un profil, il sera récupéré et utilisé par le parcours. Dans le cas contraire, le fuseau horaire utilisé sera celui défini dans le champ du fuseau horaire.
 
 ![](assets/journey73.png)
+
+>[!NOTE]
+>
+>Le fuseau horaire de profil fonctionne avec le champ **timeZone** existant dans le groupe de champs **Détails des préférences**.
 
 ## Utilisation de fuseaux horaires dans les expressions {#timezone-in-expressions}
 

@@ -1,46 +1,41 @@
 ---
-title: Concevoir votre contenu in-app
-description: Découvrez comment concevoir votre contenu in-app dans Journey Optimizer.
+title: Concevoir le contenu web in-app
+description: Découvrez comment concevoir du contenu web in-app
 feature: In App
 topic: Content Management
 role: User
 level: Beginner
-keywords: in-app, message, conception, mise en forme
-exl-id: 7d7aa721-96aa-4ebc-a51c-e693f893f34f
+keywords: in-app, message, création, commencer
+hide: true
+hidefromtoc: true
 source-git-commit: d3f0adab52ed8e44a6097c5079396d1e9c06e0a7
 workflow-type: tm+mt
-source-wordcount: '1154'
-ht-degree: 99%
+source-wordcount: '780'
+ht-degree: 93%
 
 ---
 
-# Concevoir votre contenu in-app {#design-content}
+# Concevoir le contenu web in-app {#in-app-web-design}
 
->[!CONTEXTUALHELP]
->id="ajo_campaigns_inapp_content"
->title="Concevoir votre contenu in-app"
->abstract="Personnalisez le contenu et le style de vos messages in-app. Vous pouvez également ajouter des médias et des boutons d’action pour des messages plus attrayants et plus efficaces."
+>[!BEGINSHADEBOX]
 
-Vous pouvez modifier le contenu in-app pour configurer les options d’expérience :
+**Table des matières**
 
-* Dans une **[!UICONTROL campagne]**, à partir du menu **[!UICONTROL Action]**, cliquez sur le bouton **[!UICONTROL Modifier le contenu]** pour configurer le contenu du message.
+* [Configuration du canal web in-app](configure-in-app-web.md)
+* [Créer votre campagne de messages Web in-app](create-in-app-web.md)
+* **[Concevoir le contenu web in-app](#in-app-web-design)**
 
-  ![](assets/edit-in-app-content.png)
+>[!ENDSHADEBOX]
 
-* Dans un **[!UICONTROL parcours]**, dans le menu avancé de votre **[!UICONTROL action]** in-app, cliquez sur le bouton **[!UICONTROL Modifier le contenu]** pour commencer à concevoir votre contenu.
+Pour modifier le contenu du message in-app, cliquez sur le bouton **[!UICONTROL Modifier le contenu]** à partir du bouton **[!UICONTROL Action]** de votre campagne.
 
-  ![](assets/design_inapp_journey.png)
+![](assets/in_app_web_surface_7.png)
 
 Le bouton **[!UICONTROL Formatage avancé]** active des options supplémentaires pour personnaliser l’expérience.
 
 Une fois votre message in-app créé et son contenu défini et personnalisé, vous pouvez le vérifier et l’activer. Les notifications seront alors envoyées conformément au planning de la campagne. En savoir plus sur [cette page](send-in-app.md).
 
 ## Disposition des messages {#message-layout}
-
->[!CONTEXTUALHELP]
->id="ajo_campaigns_inapp_authoring_message_layout"
->title="Concevoir votre contenu in-app"
->abstract="La disposition du message contient les modèles couramment utilisés pour encadrer votre message. La disposition personnalisée fournit des options pour charger ou composer des messages HTML personnalisés."
 
 Dans la section **[!UICONTROL Disposition des messages]**, sélectionnez l’une des quatre options de disposition différentes en fonction de vos besoins en matière de messagerie.
 
@@ -72,11 +67,6 @@ Dans l’onglet **Contenu**, vous pouvez définir et personnaliser le contenu de
 
 ### Bouton Fermer {#close-button}
 
->[!CONTEXTUALHELP]
->id="ajo_campaigns_inapp_authoring_close"
->title="Choisissez le style de votre bouton Fermer."
->abstract="La section du bouton de fermeture vous donne la possibilité de sélectionner des variantes du bouton de fermeture du message et de charger une image personnalisée."
-
 ![](assets/in_app_web_design_2.png)
 
 Choisissez le **[!UICONTROL Style]** de votre **[!UICONTROL Bouton Fermer]**.
@@ -95,16 +85,11 @@ Si le **[!UICONTROL Mode de formatage avancé]** est activé, vous pouvez vérif
 
 ### Média {#add-media}
 
->[!CONTEXTUALHELP]
->id="ajo_campaigns_inapp_authoring_media"
->title="Ajoutez des médias à votre message in-app afin de créer une expérience attrayante pour l’utilisateur final ou l’utilisatrice finale."
->abstract="Fournissez un lien direct vers le contenu ou utilisez le sélecteur de ressources pour sélectionner le média dans Asset Essentials à ajouter à votre message."
-
 Le champ **[!UICONTROL Média]** permet d’ajouter des médias à votre message in-app afin de créer une expérience attrayante pour l’utilisateur final.
 
 ![](assets/in_app_web_design_3.png)
 
-Saisissez votre URL de média ou cliquez sur l’icône **[!UICONTROL Sélectionner les ressources]** pour ajouter directement des ressources stockées dans votre bibliothèque de ressources à votre message in-app. [En savoir plus sur la gestion des ressources](../content-management/assets.md).
+Saisissez votre URL de média ou cliquez sur l’icône **[!UICONTROL Sélectionner les ressources]** pour ajouter directement des ressources stockées dans votre bibliothèque de ressources à votre message in-app. [En savoir plus sur la gestion des ressources](../content-management/assets-essentials.md).
 Vous pouvez également ajouter un **[!UICONTROL Texte secondaire]** pour les applications de lecture d’écran.
 
 +++Plus d’options avec Formatage avancé
@@ -114,11 +99,6 @@ Si le **[!UICONTROL Mode de formatage avancé]** est activé, vous pouvez person
 +++
 
 ### Contenu {#title-body}
-
->[!CONTEXTUALHELP]
->id="ajo_campaigns_inapp_authoring_content"
->title="Pour composer votre message, saisissez le contenu dans les champs En-tête et Corps."
->abstract="Vous pouvez ajouter un en-tête et un corps de texte ici. Pour inclure des jetons de personnalisation, ouvrez la boîte de dialogue de personnalisation."
 
 Pour composer votre message, saisissez le contenu dans les champs **[!UICONTROL En-tête]** et **[!UICONTROL Corps]**.
 
@@ -137,11 +117,6 @@ Si le **[!UICONTROL Mode de formatage avancé]** est activé, vous pouvez choisi
 +++
 
 ### Boutons {#add-buttons}
-
->[!CONTEXTUALHELP]
->id="ajo_campaigns_inapp_authoring_buttons"
->title="Ajoutez des boutons pour que les utilisateurs et utilisatrices puissent interagir avec votre message in-app."
->abstract="Cette section vous permettra d’ajouter des boutons d’appel à l’action à votre message. Vous pouvez inclure du texte personnalisé et des cibles pour chaque bouton."
 
 Ajoutez des boutons pour que les utilisateurs et utilisatrices puissent interagir avec votre message in-app.
 
@@ -175,33 +150,7 @@ Si le **[!UICONTROL Mode de formatage avancé]** est activé, vous pouvez choisi
 
 Dans l’onglet **Paramètres**, vous pouvez définir la disposition du message et prévisualiser votre message in-app. Vous pouvez également accéder à des options de formatage avancé.
 
-### Prévisualisation {#preview-tab}
-
->[!CONTEXTUALHELP]
->id="ajo_campaigns_inapp_authoring_preview"
->title="Prévisualisez votre message in-app."
->abstract="Il s’agit de l’image d’aperçu qui s’affiche lorsque votre message est envoyé à la synthèse de message de l’appareil."
-
->[!NOTE]
->
->L’aperçu n’est disponible que pour les messages In-App mobiles.
-
-![](assets/in_app_content_6.png)
-
-La **[!UICONTROL Prévisualisation de l’application]** vous permet d’ajouter un arrière-plan derrière votre message in-app :
-
-* Un média provenant d’un lien URL.
-
-* Une ressource de votre bibliothèque de ressources.
-
-* Une couleur d’arrière-plan.
-
 ### Disposition {#layout-options}
-
->[!CONTEXTUALHELP]
->id="ajo_campaigns_inapp_authoring_layout"
->title="Définissez la disposition de votre message in-app."
->abstract="Cette section vous permet d’ajouter un arrière-plan à votre message in-app. Cela nécessite l’activation de la prise de contrôle de l’interface utilisateur."
 
 ![](assets/in_app_web_design_6.png)
 
@@ -213,11 +162,6 @@ Le champ **[!UICONTROL Image d’arrière-plan]** vous permet d’ajouter un arr
 
 ### Message {#message-tab}
 
->[!CONTEXTUALHELP]
->id="ajo_campaigns_inapp_authoring_message_advanced"
->title="Définissez les paramètres avancés du message."
->abstract="Cette section vous permet d’améliorer la personnalisation de votre contenu in-app, en particulier lorsque la fonction Formatage avancé est activée."
-
 ![](assets/in_app_web_design_7.png)
 
 L’option de prise de contrôle de l’interface utilisateur, activée par défaut, vous permet d’assombrir l’arrière-plan derrière votre message in-app pour mettre l’accent sur votre contenu.
@@ -226,15 +170,11 @@ L’option de prise de contrôle de l’interface utilisateur, activée par déf
 
 Si le **[!UICONTROL Mode de formatage avancé]** est activé, vous pouvez personnaliser davantage votre message à l’aide des options suivantes :
 
-* **[!UICONTROL Personnaliser les mouvements]** : vous permet de personnaliser l’interaction de balayage des utilisateurs et utilisatrices. Si l’option Ignorer est sélectionnée, vous pouvez ajouter un événement d’interaction personnalisé et/ou une destination cible.
-
 * **[!UICONTROL Personnaliser la prise de contrôle de l’interface utilisateur]** : vous permet de sélectionner une couleur à afficher en arrière-plan et son opacité.
 
 * **[!UICONTROL Personnaliser la taille]** : vous permet d’ajuster la largeur et la hauteur de votre notification in-app.
 
 * **[!UICONTROL Personnaliser la position]** : vous permet de personnaliser la position de vos messages in-app sur l’écran des utilisateurs et utilisatrices. Vous pouvez modifier les alignements vertical et horizontal.
-
-* **[!UICONTROL Personnaliser l’animation]** : vous permet de personnaliser vos animations d’affichage et d’ignorance, par exemple si votre notification in-app apparaît depuis la gauche ou la partie supérieure de l’appareil des utilisateurs et utilisatrices.
 
 * **[!UICONTROL Coin arrondi du message]** : vous permet d’ajouter un coin arrondi à votre notification in-app en modifiant le **[!UICONTROL Rayon]**.
 
@@ -242,12 +182,6 @@ Si le **[!UICONTROL Mode de formatage avancé]** est activé, vous pouvez person
 
 **Rubriques connexes :**
 
-* [Créer un message in-app](create-in-app.md)
+* [Tester et envoyer le message in-app](send-in-app.md)
 * [Rapport in-app](../reports/campaign-global-report.md#inapp-report)
 * [Configuration in-app](inapp-configuration.md)
-
-## Vidéo pratique{#video}
-
-La vidéo ci-dessous montre comment créer et tester vos messages in-app.
-
->[!VIDEO](https://video.tv.adobe.com/v/3410471?quality=12&learn=on)

@@ -9,10 +9,10 @@ role: Data Engineer
 level: Intermediate
 keywords: expression, éditeur, à propos, commencer
 exl-id: 1ac2a376-a3a8-41ae-9b04-37886697f0fc
-source-git-commit: 4112ac79a1f21fb369119ccd801dcbceac3c1e58
+source-git-commit: d3f0adab52ed8e44a6097c5079396d1e9c06e0a7
 workflow-type: tm+mt
-source-wordcount: '422'
-ht-degree: 100%
+source-wordcount: '459'
+ht-degree: 91%
 
 ---
 
@@ -44,6 +44,10 @@ La partie gauche de l&#39;écran affiche un sélecteur de domaine qui vous perme
 Cliquez sur le bouton « + » pour ajouter un attribut à votre expression de personnalisation.
 
 Le menu Points de suspension en regard de l’icône « + » vous permet d’obtenir plus de détails sur chaque variable et d’ajouter les attributs les plus fréquemment utilisés à vos favoris. [Découvrez comment ajouter des attributs aux favoris](personalization-favorites.md)
+
+>[!NOTE]
+>
+>Si vous ciblez une audience avec des attributs d’enrichissement générés à l’aide d’un workflow de composition ou d’un téléchargement personnalisé (fichier CSV), vous pouvez utiliser ces attributs d’enrichissement pour personnaliser votre message. [Découvrez comment utiliser les attributs d’enrichissement d’audience](../audience/about-audiences.md#enrichment)
 
 De plus, vous pouvez définir un texte de remplacement par défaut qui s’affichera si un attribut de profil de type chaîne est vide. Pour ce faire, cliquez sur le bouton des points de suspension en regard de l’attribut et sélectionnez **[!UICONTROL Insérer avec un texte de remplacement]**. Rédigez le texte à afficher par défaut si la valeur de l’attribut est vide pour un profil, puis cliquez sur **[!UICONTROL Ajouter]**.
 

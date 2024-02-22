@@ -7,10 +7,10 @@ feature: SMS, Channel Configuration
 role: Admin
 level: Intermediate
 exl-id: 4dcd22ed-bf7e-4789-ab7b-33544c857db8
-source-git-commit: f34eabfb4eb6d7486819cbc8435844b1ef983af3
+source-git-commit: d3f0adab52ed8e44a6097c5079396d1e9c06e0a7
 workflow-type: tm+mt
-source-wordcount: '1213'
-ht-degree: 92%
+source-wordcount: '1518'
+ht-degree: 83%
 
 ---
 
@@ -59,7 +59,73 @@ Votre utilisation des services de messages texte sera soumise aux conditions gé
 >title="Sélectionnez la configuration du fournisseur de SMS."
 >abstract="Sélectionnez les informations d’identification d’API configurées pour votre fournisseur SMS."
 
-Pour configurer votre fournisseur SMS avec Journey Optimizer, procédez comme suit :
+### Sinch {#sinch-api}
+
+Pour configurer Sinch avec Journey Optimizer, procédez comme suit :
+
+1. Dans le rail de gauche, accédez à **[!UICONTROL Administration]** > **[!UICONTROL Canaux]** et sélectionnez le menu **[!UICONTROL Informations d’identification de l’API]**. Cliquez sur le bouton **[!UICONTROL Créer des informations d’identification de l’API]**.
+
+   ![](assets/sms_6.png)
+
+1. Configurez vos informations d’identification d’API SMS, comme indiqué ci-dessous :
+
+   * **[!UICONTROL Nom]** : choisissez un nom pour vos informations d’identification d’API.
+
+   * **[!UICONTROL ID de service]** et **[!UICONTROL Jeton API]** : accédez à la page des API, puis à vos informations d’identification sous l’onglet SMS. En savoir plus dans la [Documentation Sinch](https://developers.sinch.com/docs/sms/getting-started/){target="_blank"}.
+
+   * **[!UICONTROL Mots-clés d’opt-in]**: saisissez les mots-clés par défaut ou personnalisés qui déclencheront automatiquement votre **[!UICONTROL Message d’inclusion]**. Pour plusieurs mots-clés, utilisez des valeurs séparées par des virgules.
+
+   * **[!UICONTROL Message d’opt-in]** : saisissez la réponse personnalisée qui est automatiquement envoyée en tant que **[!UICONTROL message d’opt-in]**.
+
+   * **[!UICONTROL Mots-clés d’exclusion]**: saisissez les mots-clés par défaut ou personnalisés qui déclencheront automatiquement votre **[!UICONTROL Message d’exclusion]**. Pour plusieurs mots-clés, utilisez des valeurs séparées par des virgules.
+
+   * **[!UICONTROL Message d’opt-out]** : saisissez la réponse personnalisée qui est automatiquement envoyée en tant que **[!UICONTROL message d’opt-out]**.
+
+   * **[!UICONTROL Mots-clés d’aide]**: saisissez les mots-clés par défaut ou personnalisés qui déclencheront automatiquement votre **Message d’aide**. Pour plusieurs mots-clés, utilisez des valeurs séparées par des virgules.
+
+   * **[!UICONTROL Message d’aide]** : saisissez la réponse personnalisée qui est automatiquement envoyée en tant que **message d’aide**.
+
+   * **[!UICONTROL Mots-clés de double opt-in]** : saisissez les mots-clés qui déclenchent le processus de double opt-in. Si un profil de personne n’existe pas, il est créé lors de la confirmation. Pour plusieurs mots-clés, utilisez des valeurs séparées par des virgules. [En savoir plus sur le double opt-in SMS](https://video.tv.adobe.com/v/3427129/?learn=on).
+
+   * **[!UICONTROL Message de double opt-in]** : saisissez la réponse personnalisée qui est automatiquement envoyée en réponse à la confirmation de double opt-in.
+
+1. Cliquez sur **[!UICONTROL Envoyer]** lorsque vous avez terminé la configuration de vos informations d’identification API.
+
+Après avoir créé et configuré vos informations d’identification API, vous devez maintenant créer une surface de canal (c’est-à-dire un préréglage de message) pour les messages SMS.
+
+<!--
+### Sinch MMS
+
+For **[!DNL Sinch MMS]**
+
+        * **[!UICONTROL Name]**: choose a name for your API Credential.
+
+        * **[!UICONTROL Project ID]**, **[!UICONTROL App ID]** and **[!UICONTROL API Token]**: from the Conversation API menu, you can find your credentials in the App menu. Learn more in [Sinch Documentation](https://docs.cc.sinch.com/cloud/service-configuration/en/oxy_ex-1/common/wln1620131604643.html){target="_blank"}.
+-->
+
+### Twilio {#twilio-api}
+
+Pour configurer Twilio avec Journey Optimizer, procédez comme suit :
+
+1. Dans le rail de gauche, accédez à **[!UICONTROL Administration]** > **[!UICONTROL Canaux]** et sélectionnez le menu **[!UICONTROL Informations d’identification de l’API]**. Cliquez sur le bouton **[!UICONTROL Créer des informations d’identification de l’API]**.
+
+   ![](assets/sms_6.png)
+
+1. Configurez vos informations d’identification d’API SMS, comme indiqué ci-dessous :
+
+   * **[!UICONTROL Nom]** : choisissez un nom pour vos informations d’identification d’API.
+
+   * **[!UICONTROL SID du compte]** et **[!UICONTROL Jeton d’authentification]**: accédez au **Informations sur le compte** du volet de votre page Tableau de bord de la console Twilio pour trouver vos informations d’identification.
+
+   * **[!UICONTROL SID du message]** : saisissez l’identifiant unique attribué à chaque message créé par l’API de Twilio. En savoir plus dans la [Documentation Twilio](https://support.twilio.com/hc/en-us/articles/223134387-What-is-a-Message-SID-){target="_blank"}.
+
+1. Cliquez sur **[!UICONTROL Envoyer]** lorsque vous avez terminé la configuration de vos informations d’identification API.
+
+Après avoir créé et configuré vos informations d’identification API, vous devez maintenant créer une surface de canal (c’est-à-dire un préréglage de message) pour les messages SMS.
+
+### Infobip {#infobip-api}
+
+Pour configurer Infobip avec Journey Optimizer, procédez comme suit :
 
 1. Dans le rail de gauche, accédez à **[!UICONTROL Administration]** > **[!UICONTROL Canaux]** et sélectionnez le menu **[!UICONTROL Informations d’identification de l’API]**. Cliquez sur le bouton **[!UICONTROL Créer des informations d’identification de l’API]**.
 
@@ -67,63 +133,34 @@ Pour configurer votre fournisseur SMS avec Journey Optimizer, procédez comme su
 
 1. Configurez vos informations dʼidentification de lʼAPI SMS, comme indiqué ci-dessous.
 
-   ![](assets/sms_7.png)
+   * **[!UICONTROL Nom]** : choisissez un nom pour vos informations d’identification d’API.
 
-   * +++ Pour **[!DNL Sinch]**
+   * **[!UICONTROL URL de base de l’API]** et **[!UICONTROL Clé API]**: accédez à la page d’accueil de votre interface web ou à la page de gestion des clés d’API pour trouver vos informations d’identification. En savoir plus dans la [Documentation Infobip](https://www.infobip.com/docs/api){target="_blank"}.
 
-      * **[!UICONTROL Nom]** : choisissez un nom pour vos informations d’identification d’API.
+   * **[!UICONTROL Mots-clés d’opt-in]**: saisissez les mots-clés par défaut ou personnalisés qui déclencheront automatiquement votre **[!UICONTROL Message d’inclusion]**. Pour plusieurs mots-clés, utilisez des valeurs séparées par des virgules.
 
-      * **[!UICONTROL ID de service]** et **[!UICONTROL Jeton API]** : accédez à la page des API, puis à vos informations d’identification sous l’onglet SMS. En savoir plus dans la [Documentation Sinch](https://developers.sinch.com/docs/sms/getting-started/){target="_blank"}.
+   * **[!UICONTROL Message d’opt-in]** : saisissez la réponse personnalisée qui est automatiquement envoyée en tant que **[!UICONTROL message d’opt-in]**.
 
-      * **[!UICONTROL Message d’opt-in]** : saisissez la réponse personnalisée qui est automatiquement envoyée en tant que **[!UICONTROL message d’opt-in]**.
+   * **[!UICONTROL Mots-clés d’exclusion]**: entrez le ou les mots-clés par défaut qui déclencheront automatiquement votre **[!UICONTROL Message d’exclusion]**. Pour plusieurs mots-clés, utilisez des valeurs séparées par des virgules.
 
-      * **[!UICONTROL Message d’opt-out]** : saisissez la réponse personnalisée qui est automatiquement envoyée en tant que **[!UICONTROL message d’opt-out]**.
+   * **[!UICONTROL Message d’opt-out]** : saisissez la réponse personnalisée qui est automatiquement envoyée en tant que **[!UICONTROL message d’opt-out]**.
 
-      * **[!UICONTROL Message d’aide]** : saisissez la réponse personnalisée qui est automatiquement envoyée en tant que **message d’aide**.
+   * **[!UICONTROL Mots-clés d’aide]**: saisissez les mots-clés par défaut ou personnalisés qui déclencheront automatiquement votre **Message d’aide**. Pour plusieurs mots-clés, utilisez des valeurs séparées par des virgules.
 
-      * **[!UICONTROL Mots-clés de double opt-in]** : saisissez les mots-clés qui déclenchent le processus de double opt-in. Si un profil de personne n’existe pas, il est créé lors de la confirmation. Pour plusieurs mots-clés, utilisez des valeurs séparées par des virgules. [En savoir plus sur le double opt-in SMS](https://video.tv.adobe.com/v/3427129/?learn=on).
+   * **[!UICONTROL Message d’aide]** : saisissez la réponse personnalisée qui est automatiquement envoyée en tant que **message d’aide**.
 
-      * **[!UICONTROL Message de double opt-in]** : saisissez la réponse personnalisée qui est automatiquement envoyée en réponse à la confirmation de double opt-in.
-+++
+   * **[!UICONTROL Mots-clés de double opt-in]** : saisissez les mots-clés qui déclenchent le processus de double opt-in. Si un profil de personne n’existe pas, il est créé lors de la confirmation. Pour plusieurs mots-clés, utilisez des valeurs séparées par des virgules.
 
-   * +++ Pour **[!DNL Twilio]**
+   * **[!UICONTROL Message de double opt-in]** : saisissez la réponse personnalisée qui est automatiquement envoyée en réponse à la confirmation de double opt-in.
 
-      * **[!UICONTROL Nom]** : choisissez un nom pour vos informations d’identification d’API.
+   * **[!UICONTROL ID d’entité principale]** : saisissez l’ID d’entité principale DLT qui vous a été attribué.
 
-      * **[!UICONTROL SID du compte]** et **[!UICONTROL Jeton d’authentification]** : accédez au volet Informations du compte de la page Tableau de bord de la console Twilio pour trouver vos informations d’identification.
+   * **[!UICONTROL ID de modèle de contenu]** : saisissez l’ID de modèle de contenu DLT enregistré.
 
-      * **[!UICONTROL SID du message]** : saisissez l’identifiant unique attribué à chaque message créé par l’API de Twilio. En savoir plus dans la [Documentation Twilio](https://support.twilio.com/hc/en-us/articles/223134387-What-is-a-Message-SID-){target="_blank"}.
+   * **[!UICONTROL Période de validité]** : saisissez la période de validité du message en heures. Si les messages ne peuvent pas être livrés dans ce délai, le système effectue d’autres tentatives pour les renvoyer. La période de validité par défaut est définie sur 48 heures.
 
-+++
+   * **[!UICONTROL Données de rappel]** : saisissez les données clientes supplémentaires qui seront envoyées à l’URL de notification.
 
-   * +++ Pour **[!DNL Infobip]**
-
-      * **[!UICONTROL Nom]** : choisissez un nom pour vos informations d’identification d’API.
-
-      * **[!UICONTROL URL de base de l’API]** et **[!UICONTROL Jeton API]** : accédez à la page d’accueil de votre interface web ou à la page de gestion des clés d’API pour trouver vos informations d’identification. En savoir plus dans la [Documentation Infobip](https://www.infobip.com/docs/api){target="_blank"}.
-
-      * **[!UICONTROL Mots-clés de double opt-in]** : saisissez les mots-clés qui déclenchent le processus de double opt-in. Si un profil de personne n’existe pas, il est créé lors de la confirmation. Pour plusieurs mots-clés, utilisez des valeurs séparées par des virgules.
-
-      * **[!UICONTROL Message de double opt-in]** : saisissez la réponse personnalisée qui est automatiquement envoyée en réponse à la confirmation de double opt-in.
-
-      * **[!UICONTROL ID d’entité principale]** : saisissez l’ID d’entité principale DLT qui vous a été attribué.
-
-      * **[!UICONTROL ID de modèle de contenu]** : saisissez l’ID de modèle de contenu DLT enregistré.
-
-      * **[!UICONTROL Période de validité]** : saisissez la période de validité du message en heures. Si les messages ne peuvent pas être livrés dans ce délai, le système effectue d’autres tentatives pour les renvoyer. La période de validité par défaut est définie sur 48 heures.
-
-      * **[!UICONTROL Données de rappel]** : saisissez les données clientes supplémentaires qui seront envoyées à l’URL de notification.
-+++
-
-<!--
-    * +++ For **[!DNL Sinch MMS]**
-
-        * **[!UICONTROL Name]**: choose a name for your API Credential.
-
-        * **[!UICONTROL Project ID]**, **[!UICONTROL App ID]** and **[!UICONTROL API Token]**: from the Conversation API menu, you can find your credentials in the App menu. Learn more in [Sinch Documentation](https://docs.cc.sinch.com/cloud/service-configuration/en/oxy_ex-1/common/wln1620131604643.html){target="_blank"}.
-
-        +++ 
--->
 1. Cliquez sur **[!UICONTROL Envoyer]** lorsque vous avez terminé la configuration de vos informations d’identification API.
 
 Après avoir créé et configuré vos informations d’identification API, vous devez maintenant créer une surface de canal (c’est-à-dire un préréglage de message) pour les messages SMS.

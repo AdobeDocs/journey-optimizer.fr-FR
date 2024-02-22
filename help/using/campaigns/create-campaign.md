@@ -9,10 +9,10 @@ role: User
 level: Beginner
 keywords: créer, optimizer, campagne, surface, messages
 exl-id: 617d623c-e038-4b5b-a367-5254116b7815
-source-git-commit: a6b2c1585867719a48f9abc4bf0eb81558855d85
+source-git-commit: d3f0adab52ed8e44a6097c5079396d1e9c06e0a7
 workflow-type: tm+mt
-source-wordcount: '960'
-ht-degree: 99%
+source-wordcount: '969'
+ht-degree: 94%
 
 ---
 
@@ -126,9 +126,9 @@ Cliquez sur le bouton **[!UICONTROL Sélectionner une audience]** pour afficher 
 
 >[!IMPORTANT]
 >
->Pour l’instant, l’utilisation des audiences [importées depuis un fichier CSV](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=fr#import-audience) dans les campagnes est disponible en version Private Beta. Pour en savoir plus, contactez votre représentant ou représentante Adobe.
+>Utilisation d’audiences et d’attributs de [composition de l&#39;audience](../audience/get-started-audience-orchestration.md) et [téléchargement personnalisé (fichier CSV)](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=fr#import-audience) est actuellement indisponible pour une utilisation avec Healthcare Shield ou Privacy and Security Shield. [Découvrez comment utiliser les attributs d’enrichissement d’audience dans Journey Optimizer](../audience/about-audiences.md#enrichment)
 >
->Pour les campagnes déclenchées par API, l’audience doit être définie via un appel API. [En savoir plus](api-triggered-campaigns.md)
+>Pour les campagnes déclenchées par l’API, l’audience doit être définie via un appel API.
 
 Dans le champ **[!UICONTROL Espace de noms d’identité]**, choisissez l’espace de noms à utiliser pour identifier les personnes à partir du segment sélectionné.
 
