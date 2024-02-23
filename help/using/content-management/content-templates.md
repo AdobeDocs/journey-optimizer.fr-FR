@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 327de13a-1c99-4d5e-86cf-8180fb7aaf23
-source-git-commit: d3f0adab52ed8e44a6097c5079396d1e9c06e0a7
+source-git-commit: 56505b6b698568678434510643433fa0ad639cbd
 workflow-type: tm+mt
 source-wordcount: '1362'
 ht-degree: 50%
@@ -41,7 +41,7 @@ Vous pouvez également créer et gérer des modèles de contenu à l’aide d’
 
 Pour accéder à la liste des modèles de contenu, sélectionnez **[!UICONTROL Gestion de contenu]** > **[!UICONTROL Modèles de contenu]** dans le menu de gauche.
 
-![](../email/assets/content-template-list.png)
+![](assets/content-template-list.png)
 
 Tous les modèles qui ont été créés sur l’environnement de test actuel, à partir d’un parcours ou d’une campagne à l’aide de la variable **[!UICONTROL Enregistrer en tant que modèle]** de l’option **[!UICONTROL Modèles de contenu]** menu - s’affichent. [Découvrez comment créer des modèles](#create-content-templates)
 
@@ -67,7 +67,7 @@ When you update a content, you may have to wait a few seconds before the changes
 
 * Pour modifier le contenu d’un modèle, cliquez sur l’élément de votre choix dans la liste, puis sélectionnez **[!UICONTROL Modifier le contenu]**.
 
-  ![](../email/assets/content-template-edit.png)
+  ![](assets/content-template-edit.png)
 
 * Pour supprimer un modèle, sélectionnez l’option **[!UICONTROL Autres actions]** en regard du modèle souhaité et sélectionnez **[!UICONTROL Supprimer]**.
 
@@ -202,7 +202,7 @@ Vous pouvez tester le rendu de certains de vos modèles d&#39;email, qu&#39;ils 
 
 1. Cliquez sur **[!UICONTROL Simulation du contenu]** et sélectionnez un profil de test pour vérifier votre rendu. [En savoir plus](../content-management/preview-test.md).
 
-   ![](../email/assets/content-template-stimulate.png)
+   ![](assets/content-template-stimulate.png)
 
 1. Vous pouvez envoyer un BAT pour tester votre contenu et le faire approuver par certains utilisateurs et utilisatrices internes avant de l’utiliser pour un parcours ou une campagne.
 
@@ -210,7 +210,7 @@ Vous pouvez tester le rendu de certains de vos modèles d&#39;email, qu&#39;ils 
 
    * Avant d’envoyer le BAT, vous devez sélectionner la [surface d’e-mail](../configuration/channel-surfaces.md) qui sera utilisée pour tester votre contenu.
 
-     ![](../email/assets/content-template-stimulate-proof-surface.png)
+     ![](assets/content-template-stimulate-proof-surface.png)
 
 >[!CAUTION]
 >
