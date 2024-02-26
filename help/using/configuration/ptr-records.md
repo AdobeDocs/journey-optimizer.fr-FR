@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: sous-domaine, PTR, enregistrements, DNS, domaine, courrier
 exl-id: 4c930792-0677-4ad5-a46c-8d40fc3c4d3a
-source-git-commit: d2d9913e41a183ef4a2cd41622ed67b0a559444f
+source-git-commit: b2118310bcd84a11aa9b19f1606e4ba0ef39bde4
 workflow-type: tm+mt
-source-wordcount: '775'
-ht-degree: 100%
+source-wordcount: '840'
+ht-degree: 91%
 
 ---
 
@@ -50,7 +50,11 @@ Vous pouvez ouvrir un enregistrement PTR de la liste pour afficher le nom de sou
 
 ## Modifier un enregistrement PTR {#edit-ptr-record}
 
-Vous pouvez modifier un enregistrement PTR pour modifier le sous-domaine associé à une adresse IP.
+Dans [!DNL Journey Optimizer], vous ne pouvez pas créer manuellement d’enregistrements PTR. Une fois que vous [delegate](delegate-subdomain.md) Votre premier sous-domaine à Adobe, les enregistrements PTR sont automatiquement créés pour vos adresses IP.
+
+Chacune de vos adresses IP reçoit un seul enregistrement PTR. Tous les enregistrements PTR ont le format suivant : &#39;rxx.subdomain&#39;, où &#39;subdomain&#39; est le premier sous-domaine que vous avez délégué dans [!DNL Journey Optimizer].
+
+Lorsque vous créez des sous-domaines supplémentaires, vous devez modifier un ou plusieurs enregistrements PTR et leur affecter ces nouveaux sous-domaines. Pour ce faire, procédez comme suit.
 
 >[!CAUTION]
 >

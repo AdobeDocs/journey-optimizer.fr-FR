@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: eef253f35bf93edbe5b64b47754e16e4c590f862
+source-git-commit: b2118310bcd84a11aa9b19f1606e4ba0ef39bde4
 workflow-type: tm+mt
-source-wordcount: '4743'
-ht-degree: 97%
+source-wordcount: '4778'
+ht-degree: 96%
 
 ---
 
@@ -30,6 +30,7 @@ Cette page répertorie toutes les mises à jour récentes de la documentation de
 * La page de la fonction de partage a été mise à jour. [En savoir plus](../building-journeys/functions/functioninaudience.md)
 * Ajout d’informations concernant l’impact des notifications push d’inclusion ou de désinscription sur les messages in-app - [En savoir plus](../in-app/create-in-app.md)
 * La page Règles de fréquence des messages a été mise à jour pour prendre en compte les options de durée disponibles dans l’interface utilisateur (hebdomadaire ou mensuel). [En savoir plus](../configuration/frequency-rules.md)
+* La section Modifier un enregistrement PTR a été mise à jour afin de clarifier le fait que les enregistrements PTR ne peuvent pas être créés manuellement et que vous devez modifier les enregistrements PTR pour leur affecter de nouveaux sous-domaines. [En savoir plus](using/configuration/ptr-records.md#edit-ptr-record)
 
 ## Janvier 2024 {#jan-2024}
 
