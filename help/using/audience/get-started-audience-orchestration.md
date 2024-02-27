@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: af71d24d-77eb-44df-8216-b0aeaf4c4fa4
-source-git-commit: d3f0adab52ed8e44a6097c5079396d1e9c06e0a7
+source-git-commit: 2edff0123084fa1736fb8198c3b4e8ff4e40341d
 workflow-type: tm+mt
-source-wordcount: '320'
-ht-degree: 67%
+source-wordcount: '311'
+ht-degree: 69%
 
 ---
 
@@ -36,7 +36,7 @@ Une fois cette opération terminée, la variable **audiences obtenues** sont enr
 
 >[!IMPORTANT]
 >
->L’utilisation des audiences et des attributs de la composition de l’audience et du téléchargement personnalisé n’est actuellement pas disponible pour être utilisée avec Healthcare Shield ou Privacy and Security Shield. [Découvrez comment utiliser les attributs d’enrichissement d’audience dans Journey Optimizer](../audience/about-audiences.md#enrichment)
+>L’utilisation d’audiences et d’attributs provenant de la composition d’audience et des audiences de téléchargement personnalisées n’est actuellement pas disponible pour être utilisée avec Healthcare Shield ou Privacy and Security Shield.
 >
 >Les attributs d’enrichissement ne sont pas encore intégrés au service d’application des stratégies. Par conséquent, les libellés d’utilisation des données que vous appliquez à vos attributs d’enrichissement ne seront pas appliqués dans les campagnes ou parcours Journey Optimizer.
 

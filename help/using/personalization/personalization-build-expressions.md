@@ -9,10 +9,10 @@ role: Data Engineer
 level: Intermediate
 keywords: expression, éditeur, à propos, commencer
 exl-id: 1ac2a376-a3a8-41ae-9b04-37886697f0fc
-source-git-commit: d3f0adab52ed8e44a6097c5079396d1e9c06e0a7
+source-git-commit: 2edff0123084fa1736fb8198c3b4e8ff4e40341d
 workflow-type: tm+mt
-source-wordcount: '459'
-ht-degree: 91%
+source-wordcount: '453'
+ht-degree: 93%
 
 ---
 
@@ -47,7 +47,7 @@ Le menu Points de suspension en regard de l’icône « + » vous permet d’o
 
 >[!NOTE]
 >
->Si vous ciblez une audience avec des attributs d’enrichissement générés à l’aide d’un workflow de composition ou d’un téléchargement personnalisé (fichier CSV), vous pouvez utiliser ces attributs d’enrichissement pour personnaliser votre message. [Découvrez comment utiliser les attributs d’enrichissement d’audience](../audience/about-audiences.md#enrichment)
+>Si vous ciblez une audience avec des attributs d’enrichissement générés à l’aide d’un workflow de composition, vous pouvez utiliser ces attributs d’enrichissement pour personnaliser votre message. [Découvrez comment utiliser les attributs d’enrichissement d’audience](../audience/about-audiences.md#enrichment)
 
 De plus, vous pouvez définir un texte de remplacement par défaut qui s’affichera si un attribut de profil de type chaîne est vide. Pour ce faire, cliquez sur le bouton des points de suspension en regard de l’attribut et sélectionnez **[!UICONTROL Insérer avec un texte de remplacement]**. Rédigez le texte à afficher par défaut si la valeur de l’attribut est vide pour un profil, puis cliquez sur **[!UICONTROL Ajouter]**.
 

@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 10d2de34-23c1-4a5e-b868-700b462312eb
-source-git-commit: d3f0adab52ed8e44a6097c5079396d1e9c06e0a7
+source-git-commit: 2edff0123084fa1736fb8198c3b4e8ff4e40341d
 workflow-type: tm+mt
-source-wordcount: '1087'
+source-wordcount: '1083'
 ht-degree: 85%
 
 ---
@@ -43,7 +43,7 @@ Vous pouvez sélectionner dans des campagnes et des parcours toute audience gén
 
 >[!AVAILABILITY]
 >
->L’utilisation d’audiences et d’attributs provenant de la composition de l’audience et du téléchargement personnalisé (fichier CSV) n’est actuellement pas disponible avec Healthcare Shield ou Privacy and Security Shield. [Découvrez comment utiliser les attributs d’enrichissement d’audience dans Journey Optimizer](../audience/about-audiences.md#enrichment)
+>L’utilisation d’audiences et d’attributs provenant de la composition de l’audience et des audiences de téléchargement personnalisées (fichier CSV) n’est actuellement pas disponible avec Healthcare Shield ou Privacy and Security Shield. [Découvrez comment utiliser les attributs d’enrichissement d’audience dans Journey Optimizer](../audience/about-audiences.md#enrichment)
 
 Vous pouvez utiliser les audiences dans **[!DNL Journey Optimizer]** de différentes manières :
 
@@ -61,7 +61,7 @@ Vous pouvez utiliser les audiences dans **[!DNL Journey Optimizer]** de différe
 
 ## Utilisation des attributs d’enrichissement d’audience dans Journey Optimizer {#enrichment}
 
-Lors du ciblage d’une audience générée à l’aide de workflows de composition ou d’un téléchargement personnalisé (fichier CSV), vous pouvez tirer parti des attributs d’enrichissement de ces audiences pour créer votre parcours et personnaliser vos messages.
+Lors du ciblage d’une audience générée à l’aide de workflows de composition, vous pouvez exploiter les attributs d’enrichissement de ces audiences pour créer votre parcours et personnaliser vos messages.
 
 * Créez plusieurs chemins dans un parcours en fonction de règles qui exploitent les attributs d’enrichissement de l’audience ciblée. Pour ce faire, ciblez l’audience à l’aide d’une [Lecture d’audience](../building-journeys/read-audience.md) puis créer des règles dans une [Condition](../building-journeys/condition-activity.md) activité basée sur les attributs d’enrichissement de l’audience.
 
