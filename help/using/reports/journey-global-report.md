@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 exl-id: e851646e-4cef-45e8-97c2-a8f4c9d2cc08
 source-git-commit: 5671f510d8be80b53d57b1ff90a101e500773243
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '4368'
-ht-degree: 79%
+ht-degree: 100%
 
 ---
 
@@ -49,7 +49,7 @@ Pour obtenir la liste détaillée de chaque mesure disponible dans Adobe Journe
 >[!CONTEXTUALHELP]
 >id="ajo_journey_performance"
 >title="Performances du parcours"
->abstract="Le widget Performances des Parcours vous permet de suivre visuellement le chemin d’accès de vos profils ciblés à mesure qu’ils progressent dans votre parcours."
+>abstract="Le widget Performances du parcours vous permet de suivre visuellement le chemin de vos profils ciblés tout au long de votre parcours."
 
 ![](assets/journey_performance.png)
 
@@ -60,7 +60,7 @@ Le widget **[!UICONTROL Performances du parcours]** vous permet de retracer visu
 >[!CONTEXTUALHELP]
 >id="ajo_journey_statistics"
 >title="Statistiques du parcours"
->abstract="Les indicateurs de performances clés (IPC) des statistiques des Parcours constituent un tableau de bord complet qui fournit une analyse approfondie des mesures essentielles liées à votre parcours."
+>abstract="Les indicateurs clés de performances (KPI) Statistiques du parcours servent de tableau de bord complet, fournissant une analyse détaillée des mesures essentielles associées à votre parcours."
 
 ![](assets/journey_statistics.png)
 
@@ -81,11 +81,11 @@ Les indicateurs clés de performances (KPI) **[!UICONTROL Statistiques du parco
 >[!CONTEXTUALHELP]
 >id="ajo_journey_action_performance"
 >title="Performances des actions"
->abstract="Le widget Performances des actions illustre les actions les plus réussies qui ont eu lieu lorsque vos actions ont été lancées."
+>abstract="Le widget Performances des actions illustre les actions les plus réussies survenues lorsque vos actions ont été initiées."
 
 ![](assets/journey_action_performance.png)
 
-La variable **[!UICONTROL Performances des actions]** représente les actions les plus réussies survenues lors de la **[!UICONTROL actions]** ont été déclenchées.
+Le widget **[!UICONTROL Performances des actions]** représente les actions les plus réussies survenues lorsque vos **[!UICONTROL actions]** ont été déclenchées.
 
 ### Principales actions {#top-actions}
 
@@ -111,40 +111,40 @@ Le tableau **[!UICONTROL Principales actions]** compile les données essentielle
 >[!CONTEXTUALHELP]
 >id="ajo_journey_actions_error_reasons"
 >title="Causes des erreurs dans les actions"
->abstract="Le tableau et le graphique des motifs d’erreur Actions fournissent un résumé complet des erreurs survenues pendant l’exécution de vos actions, offrant un aperçu complet des problèmes qui peuvent s’être produits."
+>abstract="Le tableau et le graphe Causes des erreurs dans les actions fournissent un résumé complet des erreurs survenues pendant l’exécution de vos actions, offrant une vue d’ensemble complète des problèmes qui peuvent s’être produits."
 
 ![](assets/journey_action_error.png)
 
-La variable **[!UICONTROL Motifs d’erreur d’action]** tableau et graphique offre un aperçu complet des erreurs qui se sont produites pendant l’exécution de votre **[!UICONTROL Actions]**.
+Le tableau et le graphe **[!UICONTROL Causes des erreurs dans les actions]** offrent une vue d’ensemble complète des erreurs qui se sont produites pendant l’exécution de vos **[!UICONTROL Actions]**.
 
 ### Événements par origine {#events-origin}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_events_origin"
 >title="Événements par origine"
->abstract="Le tableau et les graphiques Événements par origine offrent une vue de la réception réussie de vos événements. Ces représentations visuelles vous permettent d’identifier précisément les événements qui ont été effectivement reçus, ce qui vous donne des informations précieuses sur les performances et l’impact de chaque événement dans votre parcours."
+>abstract="Le tableau et les graphes Événements par origine fournissent une vue de la réception réussie de vos événements. Ces représentations visuelles vous permettent de déterminer précisément lesquels de vos événements ont été reçus, ce qui vous permet d’obtenir de précieuses informations sur les performances et l’impact de chaque événement dans votre parcours."
 
 ![](assets/journey_events_origin.png)
 
-La variable **[!UICONTROL Événements par origine]** tableau et graphiques fournissent une perspective détaillée de la réception réussie de votre **[!UICONTROL events]**. Grâce à ces représentations visuelles, vous pouvez distinguer précisément laquelle de vos **[!UICONTROL events]** ont été bien reçus, ce qui vous permet d’obtenir des informations précieuses sur les performances et l’impact de chaque événement dans votre parcours.
+Le tableau et les graphes **[!UICONTROL Événements par origine]** fournissent une perspective détaillée de la réception réussie de vos **[!UICONTROL événements]**. Grâce à ces représentations visuelles, vous pouvez distinguer précisément lesquels de vos **[!UICONTROL événements]** ont été reçus, ce qui vous permet d’obtenir des informations précieuses sur les performances et l’impact de chaque événement dans votre parcours.
 
 ### Événements reçus par événement {#events-received}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_events_received"
 >title="Événements reçus par événement"
->abstract="Le graphique Événements reçus par l’événement vous permet d’identifier et d’analyser les événements spécifiques de votre parcours qui ont été exécutés de manière efficace, ce qui vous permet d’obtenir des informations précieuses sur les performances et les taux de succès des événements individuels."
+>abstract="Le graphe Événements reçus par événement vous permet d’identifier et d’analyser quel événement dans votre parcours a été exécuté avec succès, fournissant des informations précieuses sur les performances et les taux de succès de chaque événement."
 
 ![](assets/journey_event_received.png)
 
-La variable **[!UICONTROL Événements reçus par l’événement]** Le graphique vous permet d’identifier et d’analyser quel **[!UICONTROL event]** dans votre parcours a été exécuté de manière efficace, fournissant des informations précieuses sur les performances et les taux de succès des événements individuels.
+Le graphe **[!UICONTROL Événements reçus par événement]** vous permet d’identifier et d’analyser quel **[!UICONTROL événement]** dans votre parcours a été exécuté avec succès, fournissant des informations précieuses sur les performances et les taux de succès de chaque événement.
 
 ### Principaux événements {#top-events}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_top_events"
 >title="Principaux événements"
->abstract="Le tableau Principaux événements regroupe les données essentielles sur vos événements, en vous permettant d’effectuer des observations concises sur la fréquence et les performances de chaque événement."
+>abstract="Le tableau Principaux événements regroupe les données essentielles sur vos événements, fournissant des observations concises sur la fréquence et les performances de chaque événement."
 
 ![](assets/journey_top_events.png)
 
@@ -155,7 +155,7 @@ Le tableau **[!UICONTROL Principaux événements]** compile les données essenti
 >[!CONTEXTUALHELP]
 >id="ajo_journey_consent_policies"
 >title="Politiques de consentement"
->abstract="Le tableau et graphique Stratégies de consentement affichent la quantité de profils exclus de chaque stratégie dans vos actions personnalisées. Cette présentation donne un aperçu clair de l’influence de chaque politique de consentement sur les exclusions de profil."
+>abstract="Le tableau et le graphe Politiques de consentement affichent le nombre de profils exclus de chaque politique dans vos actions personnalisées. Cette représentation permet d’avoir un aperçu clair de l’impact de chaque politique de consentement sur les exclusions de profil."
 
 ![](assets/journey_consent.png)
 
@@ -174,7 +174,7 @@ Dans le **[!UICONTROL rapport global]** de votre parcours, l’onglet **[!UICONT
 >[!CONTEXTUALHELP]
 >id="ajo_journey_email_sending_statistics"
 >title="E-mail – Statistiques d’envoi"
->abstract="Le tableau E-mail - Statistiques d’envoi résume les données essentielles relatives à votre e-mail, telles que Ciblé ou Diffusé."
+>abstract="Le tableau E-mail - Statistiques d’envoi résume les données essentielles relatives à vos e-mails, tels que ceux Ciblés ou Diffusés."
 
 ![](assets/journey_email_statistics.png)
 
@@ -267,7 +267,7 @@ Le graphe **[!UICONTROL E-mail – Performances d’envoi]** fournit une vue com
 >[!CONTEXTUALHELP]
 >id="ajo_journey_email_bounces"
 >title="E-mail – Catégories et raisons de rebond"
->abstract="Les widgets Catégories et raisons Email - Bounce combinent les données relatives aux messages rebonds, en fournissant des informations détaillées sur les raisons et catégories spécifiques ayant contribué aux rebonds de courrier électronique."
+>abstract="Les widgets E-mail - Catégories et raisons de rebond combinent les données relatives aux messages ayant fait l’objet d’un rebond en fournissant des informations détaillées sur les raisons et catégories spécifiques ayant contribué aux rebonds des e-mails."
 
 ![](assets/journey_email_bounce_categories.png)
 
@@ -314,11 +314,11 @@ Consultez [cette page](exclusion-list.md) pour la liste complète des causes d�
 >[!CONTEXTUALHELP]
 >id="ajo_journey_email_sent_delivered_domains"
 >title="Envoyés et diffusés par domaines"
->abstract="Le tableau et graphique Envoyés et délivrés par domaines fournit une ventilation des emails classés par domaines, ce qui présente des informations détaillées sur les performances globales de vos communications par email."
+>abstract="Le tableau et le graphe Envoyés et diffusés par domaines fournissent une ventilation des e-mails classés par domaines, ce qui présente des informations détaillées sur les performances globales de vos communications par e-mail."
 
 ![](assets/journey_email_sent_domains.png)
 
-La variable **[!UICONTROL Envoyé et diffusé par domaines]** les tableaux et les graphiques fournissent une ventilation détaillée des emails au niveau du domaine, ce qui vous permet d’obtenir des informations complètes sur les performances de vos emails.
+Le tableau et le graphe **[!UICONTROL Envoyés et diffusés par domaines]** fournissent une répartition détaillée des e-mails au niveau du domaine, ce qui vous permet d’obtenir des informations complètes sur les performances de vos e-mails.
 
 +++ En savoir plus sur les mesures Envoyés et diffusés par domaines
 
@@ -333,11 +333,11 @@ La variable **[!UICONTROL Envoyé et diffusé par domaines]** les tableaux et le
 >[!CONTEXTUALHELP]
 >id="ajo_journey_email_open_clicks_domains"
 >title="Ouvertures et clics par domaines"
->abstract="Le graphique et tableau Open &amp; Clicks by domains offre une ventilation détaillée au niveau du domaine, présentant une vue complète de l’interaction de votre audience avec vos emails."
+>abstract="Le graphe et le tableau Ouvertures et clics par domaines offre une ventilation détaillée au niveau du domaine, présentant une vue complète de l’interaction de votre audience avec vos e-mails."
 
 ![](assets/journey_email_open_domains.png)
 
-La variable **[!UICONTROL Ouverture et clics par domaine]** Le graphique et le tableau présentent une ventilation au niveau du domaine de l’engagement de vos profils avec votre email, fournissant des informations précieuses sur la manière dont différents domaines interagissent avec votre contenu.
+Le graphe et le tableau **[!UICONTROL Ouvertures et clics par domaines]** présentent une répartition au niveau du domaine de l’engagement de vos profils avec votre e-mail, fournissant des informations précieuses sur la manière dont les différents domaines interagissent avec votre contenu.
 
 +++ En savoir plus sur la mesure Ouverture et clics par domaines
 
@@ -352,11 +352,11 @@ La variable **[!UICONTROL Ouverture et clics par domaine]** Le graphique et le t
 >[!CONTEXTUALHELP]
 >id="ajo_journey_email_bounces_errors_domains"
 >title="Rebonds et erreurs par domaine"
->abstract="Le tableau et le graphique Bounces &amp; Errors by Domains fournissent une ventilation granulaire au niveau du domaine, fournissant des informations sur les erreurs spécifiques rencontrées lors du processus d’envoi des emails."
+>abstract="Le tableau et le graphe Rebonds et erreurs par domaines fournissent une répartition détaillée au niveau du domaine, offrant ainsi des informations sur les erreurs spécifiques rencontrées lors du processus d’envoi des e-mails."
 
 ![](assets/journey_email_bounce_domains.png)
 
-La variable **[!UICONTROL Rebonds et erreurs par domaine]** Le graphique et le tableau offrent une ventilation au niveau du domaine des erreurs spécifiques rencontrées lors du processus d’envoi, fournissant une analyse détaillée des problèmes qui se sont produits.
+Le graphe et le tableau **[!UICONTROL Rebonds et erreurs par domaine]** fournissent une répartition au niveau du domaine des erreurs spécifiques rencontrées lors du processus d’envoi, offrant ainsi une analyse détaillée des problèmes qui se sont produits.
 
 +++ En savoir plus sur les mesures Rebonds et erreurs par domaine
 
@@ -371,11 +371,11 @@ La variable **[!UICONTROL Rebonds et erreurs par domaine]** Le graphique et le t
 >[!CONTEXTUALHELP]
 >id="ajo_journey_email_bounces_reasons_domains"
 >title="Causes des bounces par domaine"
->abstract="Le tableau et graphique Raisons des rebonds par domaine fournissent une ventilation au niveau du domaine, offrant des informations complètes sur les erreurs temporaires et permanentes. Cette analyse détaillée vous donne des informations précieuses sur les raisons spécifiques des messages rebonds."
+>abstract="Le tableau et graphe Raisons des rebonds par domaine fournissent une répartition au niveau du domaine, offrant ainsi des informations exhaustives sur les erreurs temporaires et permanentes. Cette analyse détaillée vous fournit des informations précieuses sur les raisons spécifiques des rebonds."
 
 ![](assets/journey_email_bounce_reasons_domain.png)
 
-La variable **[!UICONTROL Raisons des bounces par domaine]** le graphique et le tableau offrent une ventilation au niveau du domaine des données concernant les erreurs temporaires et permanentes, fournissant des informations détaillées sur les raisons des messages rebonds.
+Le graphe et le tableau **[!UICONTROL Raisons de rebond par domaine]** fournissent une répartition au niveau du domaine des données concernant les erreurs temporaires et permanentes, offrant ainsi des informations détaillées sur les raisons des messages ayant fait l’objet d’un rebond.
 
 ### E-mail – Principale URL {#email-top}
 
@@ -393,7 +393,7 @@ Le graphe et le tableau **[!UICONTROL E-mail – Principale URL]** fournissent 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_email_optimization"
 >title="E-mail – Optimisation"
->abstract="Les widgets Optimisation de l’heure d’envoi et Optimisation ou non optimisés fournissent des informations détaillées sur vos messages, indiquant s’ils ont été optimisés ou non."
+>abstract="Les widgets Optimisation de l’heure d’envoi et Optimisé ou non optimisé fournissent des informations détaillées sur vos messages, indiquant s’ils ont été optimisés ou non."
 
 ![](assets/journey_email_sto.png)
 
@@ -421,7 +421,7 @@ Les widgets **[!UICONTROL Optimisation de l’heure d’envoi]** et **[!UICONTRO
 >[!CONTEXTUALHELP]
 >id="ajo_journey_email_offers"
 >title="E-mail – Offres"
->abstract="Les widgets statistiques détaillés Offres et Statistiques d’offre fournissent des informations complètes sur les performances de vos offres, offrent une analyse détaillée de leur impact au fil du temps et présentent des statistiques détaillées pour une compréhension plus approfondie."
+>abstract="Les widgets Statistiques détaillées des offres et Statistiques des offres fournissent des informations exhaustives sur les performances de vos offres, fournissant ainsi une analyse détaillée de leur impact au fil du temps et présentant des statistiques détaillées pour permettre une compréhension plus approfondie."
 
 >[!NOTE]
 >
@@ -537,7 +537,7 @@ Le graphe **[!UICONTROL Notification push – Synthèse des envois]** offre une 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_push_error_reasons"
 >title="Notification push – Causes d’erreur"
->abstract="Les graphiques et tableaux Raisons d’erreur vous permettent d’identifier les erreurs spécifiques qui se sont produites pendant le processus d’envoi."
+>abstract="Les graphes et le tableau Causes d’erreur vous permettent d’identifier les erreurs spécifiques qui se sont produites au cours du processus d’envoi."
 
 ![](assets/journey_push_error.png)
 
@@ -548,7 +548,7 @@ Le tableau et les graphes **[!UICONTROL Causes d’erreur]** vous permettent d�
 >[!CONTEXTUALHELP]
 >id="ajo_journey_push_excluded_reasons"
 >title="Notification push – Causes d’exclusion"
->abstract="Les graphiques et tableaux Exclus des motifs illustrent les différents facteurs qui ont empêché la réception du message les profils utilisateur, exclus de l’audience ciblée."
+>abstract="Les graphes et le tableau Causes d’exclusion illustrent les différents facteurs qui ont conduit à ce que des profils d’utilisateur ou d’utilisatrice, exclus de l’audience ciblée, ne reçoivent pas le message."
 
 ![](assets/journey_push_excluded.png)
 
@@ -561,7 +561,7 @@ Consultez [cette page](exclusion-list.md) pour la liste complète des causes d�
 >[!CONTEXTUALHELP]
 >id="ajo_journey_push_breakdown_platform"
 >title="Notification push – Répartition par plateforme"
->abstract="Le tableau et les graphiques des notifications push - Ventilation par plateforme fournissent une ventilation des performances de vos notifications push en fonction du système d’exploitation du profil."
+>abstract="Le tableau et les graphes Notifications Push - Répartition par plateforme fournissent une répartition de la réussite de vos notifications push en fonction du système d’exploitation du profil."
 
 ![](assets/journey_push_breakdown.png)
 
@@ -571,9 +571,9 @@ Le graphe et le tableau **[!UICONTROL Répartition par plateforme]** fournit une
 
 >[!NOTE]
 >
->La variable **[!UICONTROL Optimisé ou non optimisé]** et **[!UICONTROL Optimisation de l’heure d’envoi]** Les widgets ne sont disponibles que si l’option Optimisation de l’heure d’envoi est activée pour votre diffusion. Pour plus d’informations sur l’optimisation de l’heure d’envoi, consultez [cette page](../building-journeys/journeys-message.md#send-time-optimization).
+>Les widgets **[!UICONTROL Optimisé ou non optimisé]** et **[!UICONTROL Optimisation de l’heure d’envoi]** ne sont disponibles que si l’option Optimisation de l’heure d’envoi est activée pour votre diffusion. Pour plus d’informations sur l’optimisation de l’heure d’envoi, consultez [cette page](../building-journeys/journeys-message.md#send-time-optimization).
 
-La variable **[!UICONTROL Optimisé ou non optimisé]** et **[!UICONTROL Optimisation de l’heure d’envoi]** Les widgets détaillent les informations principales relatives à votre message, qu’elles soient optimisées ou non.
+Les widgets **[!UICONTROL Optimisé ou non optimisé]** et **[!UICONTROL Optimisation de l’heure d’envoi]** détaillent les principales informations relatives à votre message, qu’elles soient optimisées ou non.
 
 +++ En savoir plus sur les mesures Notification push – Optimisation
 
@@ -596,7 +596,7 @@ La variable **[!UICONTROL Optimisé ou non optimisé]** et **[!UICONTROL Optimis
 >[!CONTEXTUALHELP]
 >id="ajo_journey_sms_sending_statistics"
 >title="SMS – Statistiques dʼenvoi"
->abstract="Le tableau SMS - Statistiques d’envoi résume les données essentielles sur vos SMS, telles que les messages ciblés ou délivrés."
+>abstract="Le tableau SMS - Statistiques d’envoi résume les données essentielles relatives à vos SMS, telles que les messages ciblés ou distribués."
 
 ![](assets/journey_sms_sending.png)
 
@@ -623,7 +623,7 @@ Le tableau **[!UICONTROL SMS – Statistiques d’envoi]** fournit un résumé c
 >[!CONTEXTUALHELP]
 >id="ajo_journey_sms_tracking_statistics"
 >title="SMS – Statistiques de tracking"
->abstract="Le widget SMS - Statistiques de tracking offre un aperçu complet des informations essentielles relatives à l&#39;interaction des visiteurs avec votre URL."
+>abstract="Le widget SMS - Statistiques de suivi offre un aperçu exhaustif des informations essentielles relatives à l’interaction des visiteurs et visiteuses avec votre URL."
 
 ![](assets/journey_sms_tracking.png)
 
@@ -638,7 +638,7 @@ Le widget **[!UICONTROL SMS – Statistiques de tracking]** fournit une vue d’
 >[!CONTEXTUALHELP]
 >id="ajo_journey_sms_perfomance_date"
 >title="SMS – Performances par date"
->abstract="Le widget SMS - Performances par date fournit des informations clés sur vos messages par le biais d’une représentation graphique."
+>abstract="Le widget SMS - Performances par date fournit des informations essentielles sur vos messages via une représentation graphique."
 
 ![](assets/journey_sms_performance.png)
 
@@ -694,7 +694,7 @@ Consultez [cette page](exclusion-list.md) pour la liste complète des causes d�
 >[!CONTEXTUALHELP]
 >id="ajo_journey_sms_clicks"
 >title="SMS – Clics par liens"
->abstract="Le widget SMS - Clics par liens fournit des informations essentielles sur l’engagement de vos visiteurs avec les URL de vos messages."
+>abstract="Le widget SMS - Clics par liens fournit des informations essentielles sur l’engagement de vos visiteurs et visiteuses avec les URL dans vos messages."
 
 ![](assets/journey_sms_clicks.png)
 
@@ -713,7 +713,7 @@ Dans le **[!UICONTROL rapport global]** de votre parcours, l’onglet **[!UICONT
 
 ![](assets/journey_inapp_performance.png)
 
-La variable **[!UICONTROL Performances in-app]** Les indicateurs de performance clés fournissent des informations essentielles sur l’engagement de vos profils avec les messages in-app, ce qui fournit des mesures essentielles pour évaluer l’efficacité et l’impact des messages in-app inclus dans votre parcours.
+Les KPI **[!UICONTROL Performances in-app]** fournissent des informations essentielles sur l’engagement de vos profils avec les messages in-app, ce qui fournit des mesures essentielles pour évaluer l’efficacité et l’impact des messages in-app inclus dans votre parcours.
 
 +++ En savoir plus sur les mesures In-app – Performances par date
 

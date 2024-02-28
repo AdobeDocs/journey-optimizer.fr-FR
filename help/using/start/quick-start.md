@@ -9,9 +9,9 @@ role: User
 level: Beginner
 exl-id: 71ab7369-fd84-46eb-95d2-941bd887d565
 source-git-commit: acb4c2dce86afb0b85125413a42094f96366a57d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '197'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -39,6 +39,6 @@ Pour découvrir la puissance d’Adobe Journey Optimizer en obtenant des conse
 
 ## Vidéo pratique {#video}
 
-Découvrez les principales fonctionnalités et les principaux personnages de Journey Optimizer. Découvrez comment naviguer dans l’interface utilisateur en fonction de votre rôle.
+Découvrez les fonctionnalités clés et les rôles de Journey Optimizer. Découvrez comment naviguer dans l’interface utilisateur en fonction de votre rôle.
 
 >[!VIDEO](https://video.tv.adobe.com/v/3424995?quality=12)

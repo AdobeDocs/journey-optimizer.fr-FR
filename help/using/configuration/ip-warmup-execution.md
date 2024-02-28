@@ -13,9 +13,9 @@ hidefromtoc: true
 badge: label="Version Beta"
 exl-id: 752ffd7f-09c2-4aa3-a067-2dbe0634709c
 source-git-commit: 17ddd9042b6fb4f078bf858c3a855e7fb604b0d2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2152'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -104,7 +104,7 @@ At phase level, system ensures that previously targeted + new profiles are picke
 
       >[!NOTE]
       >
-      >Vous ne pouvez exclure qu’un groupe de domaines personnalisé ajouté à la variable [Modèle de plan de chauffage par IP](ip-warmup-plan.md#prepare-file). Si ce n’est pas le cas, mettez à jour le modèle avec le groupe de domaines personnalisé que vous souhaitez exclure et [charger à nouveau le plan](#re-upload-plan).
+      >Vous pouvez uniquement exclure un groupe de domaines personnalisé qui a été ajouté au [modèle de plan de préchauffage des adresses IP](ip-warmup-plan.md#prepare-file). Si ce n’est pas le cas, mettez à jour le modèle avec le groupe de domaines personnalisé à exclure et [chargez à nouveau le plan](#re-upload-plan).
 
 1. Si nécessaire, vous pouvez remplacer la campagne en cliquant sur le bouton **[!UICONTROL Remplacer la campagne]**.
 
@@ -165,7 +165,7 @@ At phase level, system ensures that previously targeted + new profiles are picke
 
    >[!NOTE]
    >
-   >Les reprises ont lieu toutes les 30 minutes jusqu’à la fin de la période définie.
+   >Les reprises ont lieu toutes les 30 minutes jusqu’à la fin de la période définie.
 
    ![](assets/ip-warmup-plan-retry-run-time.png)
 

@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 exl-id: e3781f79-7c8d-4512-b44f-835639b1471f
 source-git-commit: 045a2f930f27728fd0add6ed8fa77f9b728ebae5
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '3668'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
@@ -49,7 +49,7 @@ Dans le **[!UICONTROL Rapport dynamique]** de votre parcours, l&#39;onglet **[!U
 >[!CONTEXTUALHELP]
 >id="ajo_journey_performance_live"
 >title="Performances du parcours"
->abstract="Le widget Performances des Parcours vous permet de suivre visuellement le chemin d’accès de vos profils ciblés au fur et à mesure qu’ils passent par votre parcours au cours des dernières 24 heures."
+>abstract="Le widget Performances du parcours vous permet de retracer visuellement la trajectoire de vos profils ciblés progressant dans votre parcours au cours des dernières 24 heures."
 
 ![](assets/journey_live_performance.png)
 
@@ -60,7 +60,7 @@ Les **[!UICONTROL Performances du parcours]** vous permettent de voir le chemine
 >[!CONTEXTUALHELP]
 >id="ajo_journey_statistics_live"
 >title="Statistiques du parcours"
->abstract="Les indicateurs de performances clés (IPC) des statistiques sur les Parcours constituent un tableau de bord complet qui fournit une analyse approfondie des mesures essentielles des dernières 24 heures relatives à votre parcours."
+>abstract="Les Indicateurs de performances clés (KPI) des statistiques sur les parcours constituent un tableau de bord complet qui fournit une analyse approfondie des mesures essentielles relatives à votre parcours au cours des dernières 24 heures."
 
 ![](assets/journey_live_statistics.png)
 
@@ -80,7 +80,7 @@ Les indicateurs clés de performance (KPI) **[!UICONTROL Statistiques du parcou
 >[!CONTEXTUALHELP]
 >id="ajo_journey_actions_executed_live"
 >title="Action exécutée au cours des dernières 24 heures"
->abstract="Le widget Action exécutée au cours des dernières 24 heures fournit un instantané des performances récentes, exposant l’efficacité de vos actions exécutées au cours des dernières 24 heures."
+>abstract="Le widget Action exécutée au cours des dernières 24 heures fournit un instantané des performances récentes et affiche l’efficacité de vos actions exécutées au cours des dernières 24 heures."
 
 ![](assets/journey_live_executed_24hours.png)
 
@@ -99,11 +99,11 @@ Le widget **[!UICONTROL Action exécutée au cours des dernières 24 heures]** 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_actions_executed__errors_live"
 >title="Actions exécutées et erreurs"
->abstract="Le widget Actions exécutées et erreurs présente les actions les plus réussies et les erreurs qui se sont produites pendant le déclenchement des actions au cours des dernières 24 heures. Ce widget offre un aperçu complet des exécutions réussies et des erreurs rencontrées, fournissant des informations précieuses sur les performances récentes de vos actions."
+>abstract="Le widget Actions exécutées et erreurs affiche les actions dont le taux de réussite est le plus élevé et les erreurs qui se sont produites pendant le déclenchement des actions au cours des dernières 24 heures. Ce widget offre un aperçu complet des exécutions réussies et des erreurs rencontrées, fournissant des informations précieuses sur les performances récentes de vos actions."
 
 ![](assets/journey_live_actions_errors.png)
 
-La variable **[!UICONTROL Actions exécutées et erreurs]** widget représente l’action et les erreurs les plus réussies qui se sont produites lorsque vos actions ont été déclenchées au cours des dernières 24 heures.
+Le widget **[!UICONTROL Actions exécutées et erreurs]** affiche l’action au taux de réussite le plus élevé et les erreurs qui se sont produites lorsque vos actions ont été déclenchées au cours des dernières 24 heures.
 
 +++ En savoir plus sur la mesure Actions exécutées et erreurs
 
@@ -118,7 +118,7 @@ La variable **[!UICONTROL Actions exécutées et erreurs]** widget représente l
 >[!CONTEXTUALHELP]
 >id="ajo_journey_actions_errors_live"
 >title="Causes des erreurs dans les actions"
->abstract="Le tableau et le graphique des motifs d’erreur Actions fournissent un résumé complet des erreurs survenues pendant l’exécution de vos actions, offrant un aperçu complet des problèmes qui peuvent s’être produits au cours des dernières 24 heures."
+>abstract="Le tableau et le graphe Causes des erreurs dans les actions fournissent un résumé exhaustif des erreurs survenues pendant l’exécution de vos actions, offrant un aperçu complet des problèmes qui peuvent s’être produits au cours des dernières 24 heures."
 
 ![](assets/journey_live_error_reasons.png)
 
@@ -129,7 +129,7 @@ Le tableau et le graphe **[!UICONTROL Causes des erreurs danns les actions]** of
 >[!CONTEXTUALHELP]
 >id="ajo_journey_actions_error_type_live"
 >title="Type d’erreur par action"
->abstract="Le tableau et graphique Type d’erreur par actions fournit un aperçu complet des erreurs qui se sont produites au cours de chaque exécution de vos actions au cours des dernières 24 heures."
+>abstract="Le tableau et le graphe Type d’erreur par action offrent une vue d’ensemble complète des erreurs qui se sont produites durant chaque exécution de vos actions au cours des dernières 24 heures."
 
 ![](assets/journey_live_error_type.png)
 
@@ -140,7 +140,7 @@ Le tableau et le graphe **[!UICONTROL Type d’erreur par action]** offrent une 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_event_24hours_live"
 >title="Événement exécuté au cours des dernières 24 heures"
->abstract="Le widget Événement exécuté sur les dernières 24 heures vous permet d’identifier celui qui a été exécuté avec succès au cours des dernières 24 heures. "
+>abstract="Le widget Événement exécuté au cours des dernières 24 heures vous permet d’identifier les événements qui ont été exécutés au cours des dernières 24 heures. "
 
 ![](assets/journey_live_event_24hours.png)
 
@@ -151,7 +151,7 @@ Le widget **[!UICONTROL Événement exécuté au cours des dernières 24 heures
 >[!CONTEXTUALHELP]
 >id="ajo_journey_events_live"
 >title="Événements"
->abstract="Le widget Événements fournit une vue complète de l’exécution réussie de vos événements, en fournissant un nombre de résumé, un graphique et un tableau pour obtenir des informations détaillées sur les 24 dernières heures."
+>abstract="Le widget Événements fournit une vue complète des événements ayant été exécutés avec succès, en fournissant une synthèse des chiffres, un graphe et un tableau contenant des informations détaillées sur les dernières 24 heures."
 
 ![](assets/journey_live_events.png)
 
@@ -162,7 +162,7 @@ Le widget **[!UICONTROL Événements]** vous permet de voir lequel de vos évén
 >[!CONTEXTUALHELP]
 >id="ajo_journey_events_origin_live"
 >title="Événements par origine"
->abstract="Le tableau et les graphiques Événements par origine offrent une vue de la réception réussie de vos événements au cours des dernières 24 heures. Ces représentations visuelles vous permettent d’identifier précisément les événements qui ont été effectivement reçus, ce qui vous donne des informations précieuses sur les performances et l’impact de chaque événement dans votre parcours."
+>abstract="Le tableau et les graphes Événements par origine fournissent une vue de la réussite de la réception de vos événements au cours des dernières 24 heures. Ces représentations visuelles vous permettent de déterminer précisément lesquels de vos événements ont été reçus, ce qui vous permet d’obtenir de précieuses informations sur les performances et l’impact de chaque événement dans votre parcours."
 
 ![](assets/journey_events_origin.png)
 
@@ -177,7 +177,7 @@ Dans le **[!UICONTROL Rapport dynamique]** de votre parcours, l’onglet **[!UIC
 >[!CONTEXTUALHELP]
 >id="ajo_journey_email_sending_performance_live"
 >title="E-mail – Performances d’envoi"
->abstract="Le graphique E-mail - Statistiques d’envoi résume les données essentielles relatives à votre e-mail, telles que Ciblés ou Diffusés, depuis les dernières 24 heures."
+>abstract="Le graphe E-mail - Statistiques d’envoi résume les données essentielles relatives à votre e-mail, telles que Ciblés ou Diffusés, au cours des dernières 24 heures."
 
 ![](assets/journey_live_email_performance.png)
 
@@ -326,7 +326,7 @@ Le graphe et le tableau **[!UICONTROL E-mail – Meilleur domaine de la personne
 >[!CONTEXTUALHELP]
 >id="ajo_journey_email_offers_live"
 >title="E-mail – Offres"
->abstract="Les widgets statistiques détaillés Offres et Offres fournissent des informations complètes sur les performances de vos offres au cours des dernières 24 heures. Ils offrent une analyse détaillée de leur impact au fil du temps et des statistiques détaillées pour une compréhension plus approfondie."
+>abstract="Les widgets Statistiques des offres et Statistiques détaillées des offres fournissent des informations complètes sur les performances de vos offres au cours des dernières 24 heures. Ils offrent une analyse détaillée de leur impact au fil du temps et des statistiques détaillées pour une compréhension plus approfondie."
 
 >[!NOTE]
 >
@@ -349,7 +349,7 @@ Les widgets **[!UICONTROL Statistiques des offres]** et **[!UICONTROL Statistiqu
 >[!CONTEXTUALHELP]
 >id="ajo_journey_email_optimization_live"
 >title="E-mail – Optimisation"
->abstract="Les widgets Optimisation de l’heure d’envoi et Optimisation par rapport aux widgets non optimisés fournissent des informations détaillées sur vos messages depuis les 24 dernières heures, indiquant s’ils ont été optimisés ou non."
+>abstract="Les widgets Optimisation de l’heure d’envoi et Optimisé ou non optimisé fournissent des informations détaillées sur vos messages au cours des dernières 24 heures, indiquant s’ils ont été optimisés ou non."
 
 ![](assets/journey_email_sto.png)
 
@@ -389,7 +389,7 @@ Le graphe **[!UICONTROL Performances d’envoi des notifications push]** offre u
 
 +++ En savoir plus sur les mesures Notification push – Performances d’envoi
 
-* **[!UICONTROL Livrés]** : nombre de messages envoyés avec succès.
+* **[!UICONTROL Diffusés]** : nombre de messages envoyés avec succès.
 
 * **[!UICONTROL Rebonds]** : nombre total des erreurs comptabilisées lors de la procédure d’envoi et du traitement automatique des retours.
 
@@ -512,7 +512,7 @@ Le tableau **[!UICONTROL SMS – Statistiques]** fournit un résumé concis des 
 
 * **[!UICONTROL Clics]** : nombre de fois où un contenu a fait l’objet d’un clic dans vos SMS.
 
-* **[!UICONTROL Rebonds]**: Nombre total d&#39;erreurs cumulées lors du processus d&#39;envoi, du processus d&#39;envoi et du traitement automatique des retours.
+* **[!UICONTROL Rebonds]** : nombre total des erreurs comptabilisées lors de la procédure d’envoi et du traitement automatique des retours.
 
 * **[!UICONTROL Erreurs]** : nombre total d’erreurs survenues au cours de la procédure d’envoi, empêchant le message d’être envoyé à des profils.
 
@@ -589,7 +589,7 @@ The **[!UICONTROL SMS - Clicks by links]** widget offers essential insights into
 >[!CONTEXTUALHELP]
 >id="ajo_journey_inapp_performance_live"
 >title="Performances in-app"
->abstract="Les indicateurs de performance clés in-app fournissent des informations essentielles sur l’engagement des visiteurs avec les messages in-app au cours des dernières 24 heures.&quot;"
+>abstract="Les KPI de performances in-app fournissent des informations essentielles sur l’engagement de vos visiteurs et visiteuses avec les messages in-app, au cours des dernières 24 heures."
 
 ![](assets/journey_live_inapp_performance.png)
 

@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 exl-id: ead9359b-cdab-43ed-a469-d98b0ca19a17
 source-git-commit: 5671f510d8be80b53d57b1ff90a101e500773243
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '3683'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -214,7 +214,7 @@ Consultez [cette page](exclusion-list.md) pour la liste complète des causes d�
 
 ![](assets/channel_email_sent_domains.png)
 
-La variable **[!UICONTROL Envoyé et diffusé par domaines]** tableau et graphique fournissent une ventilation détaillée des diffusions email au niveau du domaine, offrant des informations complètes sur les performances de vos emails.
+Le tableau et le graphe **[!UICONTROL Envoyés et diffusés par domaines]** fournissent une ventilation détaillée des diffusions d’e-mails au niveau du domaine, offrant des informations complètes sur les performances de vos e-mails.
 
 +++ En savoir plus sur les mesures Envoyés et diffusés par domaines
 
@@ -233,7 +233,7 @@ La variable **[!UICONTROL Envoyé et diffusé par domaines]** tableau et graphiq
 
 ![](assets/channel_email_bounces_domain.png)
 
-La variable **[!UICONTROL Rebonds et erreurs par domaine]** Le graphique et le tableau offrent une ventilation au niveau du domaine des erreurs spécifiques rencontrées lors du processus d’envoi, fournissant une analyse détaillée des problèmes qui se sont produits.
+Le graphe et le tableau **[!UICONTROL Rebonds et erreurs par domaine]** fournissent une répartition au niveau du domaine des erreurs spécifiques rencontrées lors du processus d’envoi, offrant une analyse détaillée des problèmes qui se sont produits.
 
 +++ En savoir plus sur les mesures Rebonds et erreurs par domaine
 
@@ -252,7 +252,7 @@ La variable **[!UICONTROL Rebonds et erreurs par domaine]** Le graphique et le t
 
 ![](assets/channel_email_open_domains.png)
 
-La variable **[!UICONTROL Ouverture et clics par domaine]** Le graphique et le tableau présentent une ventilation au niveau du domaine de l’engagement de vos visiteurs avec votre email, fournissant des informations précieuses sur la manière dont différents domaines interagissent avec votre contenu.
+Le graphe et le tableau **[!UICONTROL Ouvertures et clics par domaines]** présentent une répartition au niveau du domaine de l’engagement de vos visiteurs et visiteuses avec votre e-mail, fournissant des informations précieuses sur la manière dont les différents domaines interagissent avec votre contenu.
 
 +++ En savoir plus sur la mesure Ouverture et clics par domaines
 
@@ -271,7 +271,7 @@ La variable **[!UICONTROL Ouverture et clics par domaine]** Le graphique et le t
 
 ![](assets/channel_email_bounce_domain.png)
 
-La variable **[!UICONTROL Raisons des bounces par domaine]** le graphique et le tableau offrent une ventilation au niveau du domaine des données concernant les erreurs temporaires et permanentes, fournissant des informations détaillées sur les raisons des messages rebonds.
+Le graphe et le tableau **[!UICONTROL Raisons de rebond par domaine]** fournissent une répartition au niveau du domaine des données concernant les erreurs temporaires et permanentes, offrant des informations détaillées sur les raisons des messages ayant fait l’objet d’un rebond.
 
 Pour plus d’informations sur les rebonds, consultez la page [Liste de suppression](../reports/suppression-list.md).
 

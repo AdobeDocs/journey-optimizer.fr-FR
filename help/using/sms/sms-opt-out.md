@@ -1,21 +1,21 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Gestion des droits d’opposition pour les messages texte
-description: Découvrez comment gérer la désinscription aux SMS
+title: Gestion d’opt-out pour les SMS
+description: Découvrez comment gérer l’opt-out aux SMS
 feature: SMS
 topic: Content Management
 role: User
 level: Intermediate
 exl-id: 59ea67d9-e90c-4ad0-afb9-d0e0fd868855
 source-git-commit: f275820c3f79bb4c9aca8593c2c761ccd4283795
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '470'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
-# Gestion des droits d’opposition pour les messages texte {#sms-opt-out}
+# Gestion d’opt-out pour les SMS {#sms-opt-out}
 
 Conformément aux normes et réglementations du secteur, tous les messages SMS de marketing doivent contenir un moyen permettant aux destinataires de se désabonner facilement. [En savoir plus sur la gestion de la confidentialité et de la désinscription](../privacy/opt-out.md)
 

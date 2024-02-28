@@ -10,7 +10,7 @@ level: Intermediate
 keywords: qualification, événements, audience, parcours, platform
 exl-id: 7e70b8a9-7fac-4450-ad9c-597fe0496df9
 source-git-commit: 1deb04490e53cbd5d67abda229bb4f850055510f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1043'
 ht-degree: 100%
 
@@ -31,7 +31,7 @@ Supposons que vous ayez une audience « cliente ou cliente Silver ». Avec cet
 
 Il est possible de positionner ce type d’événement dès la première étape, ou plus tard dans le parcours.
 
-➡️ [Découvrez cette fonctionnalité en vidéo.](#video)
+➡️ [Découvrir cette fonctionnalité en vidéo](#video)
 
 ### Remarques importantes{#important-notes-segment-qualification}
 

@@ -10,9 +10,9 @@ level: Intermediate
 keywords: profil, mise à jour, parcours, activité
 exl-id: 8b2b2d1e-9bd1-439d-a15e-acdbab387c4b
 source-git-commit: 9010b173eb5126fff72d71aa582b265cc05fddf0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '614'
-ht-degree: 83%
+ht-degree: 100%
 
 ---
 
@@ -34,9 +34,9 @@ Utilisez l’activité d&#39;action **[!UICONTROL Mettre à jour le profil]** po
 * La demande de mise à jour envoyée à Adobe Experience Platform est immédiate/inférieure à une seconde. Cela prendra normalement quelques secondes, parfois plus, sans aucune garantie. En conséquence, par exemple, si une action utilise « champ 1 » mis à jour par une action **Mettre à jour le profil** positionnée juste avant, vous ne devriez pas vous attendre à une mise à jour du « champ 1 » dans l&#39;action.
 * L’activité **Mettre à jour le profil** ne prend pas en charge les champs XDM définis comme une énumération.
 * L’activité **[!UICONTROL Mettre à jour le profil]** ne met à jour que le [magasin de profils](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=fr#profile-data-store){target="_blank"} et non le lac de données.
-* Lors de la sélection d’un jeu de données dans l’activité **[!UICONTROL Mettre à jour le profil]**, il est conseillé d’en utiliser une qui n’est pas ciblée par les flux d’ingestion de données. Parce que **Mettre à jour le profil** les mises à jour ne sont stockées que dans la variable [Boutique de profils](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=fr#profile-data-store){target="_blank"}, il existe un risque de remplacer ces modifications par un flux d’ingestion de données.
+* Lors de la sélection d’un jeu de données dans l’activité **[!UICONTROL Mettre à jour le profil]**, il est conseillé d’en utiliser une qui n’est pas ciblée par les flux d’ingestion de données.Les mises à jour de type **Mettre à jour le profil** étant uniquement stockées dans le [magasin de profils](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=fr#profile-data-store){target="_blank"}, il existe un risque d’écraser ces modifications par un flux d’ingestion de données.
 
-  En outre, la variable **Mettre à jour le profil** la configuration d’activité ne nécessite pas d’espace de noms d’identité. Par conséquent, assurez-vous que le jeu de données sélectionné utilise le même espace de noms d’identité que celui utilisé par l’action qui a lancé le parcours, car il s’agit de cet espace de noms que ces mises à jour utiliseront. La carte des identités peut également être utilisée par le jeu de données sélectionné. Si vous ne sélectionnez pas un jeu de données avec l’espace de noms correct ou si vous utilisez le mappage d’identité, la variable **Mettre à jour le profil** de l’activité à échouer.
+  En outre, la configuration d’activité **Mettre à jour le profil** ne nécessite pas d’espace de noms d’identité. Par conséquent, assurez-vous que le jeu de données sélectionné utilise le même espace de noms d’identité que celui utilisé par l’action qui a lancé le parcours, car il s’agit de l’espace de noms que ces mises à jour utiliseront. Le mappage des identités peut également être utilisé par le jeu de données sélectionné. Si vous ne sélectionnez pas un jeu de données avec le bon espace de noms ou un jeu de données utilisant le mappage d’identité, l’activité **Mettre à jour le profil** échouera.
 
 
 

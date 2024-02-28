@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 exl-id: fa64f5b8-75f2-40e6-8566-5766fafe6cd6
 source-git-commit: 5671f510d8be80b53d57b1ff90a101e500773243
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '4806'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -129,7 +129,7 @@ Le dernier widget fournit des données relatives à la **[!UICONTROL Mesure de s
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_global_email_sending_statistics"
 >title="E-mail - Statistiques d’envoi"
->abstract="Le tableau E-mail - Statistiques d’envoi résume les données essentielles relatives à votre e-mail, telles que Ciblé ou Diffusé."
+>abstract="Le tableau E-mail - Statistiques d’envoi résume les données essentielles relatives à vos e-mails, tels que ceux Ciblés ou Diffusés."
 
 ![](assets/campaign_email_sending.png)
 
@@ -273,11 +273,11 @@ Consultez [cette page](exclusion-list.md) pour la liste complète des causes d�
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_global_email_sent_domains"
 >title="Envoyés et diffusés par domaines"
->abstract="Le tableau et graphique Envoyés et délivrés par domaines fournit une ventilation des emails classés par domaines, ce qui présente des informations détaillées sur les performances globales de vos communications par email."
+>abstract="Le tableau et le graphe Envoyés et diffusés par domaines fournissent une ventilation des e-mails classés par domaines, ce qui présente des informations détaillées sur les performances globales de vos communications par e-mail."
 
 ![](assets/campaign_email_sent_domains.png)
 
-La variable **[!UICONTROL Envoyé et diffusé par domaines]** les tableaux et les graphiques fournissent une ventilation détaillée des emails au niveau du domaine, ce qui vous permet d’obtenir des informations complètes sur les performances de vos emails.
+Le tableau et le graphe **[!UICONTROL Envoyés et diffusés par domaines]** fournissent une répartition détaillée des e-mails au niveau du domaine, ce qui vous permet d’obtenir des informations complètes sur les performances de vos e-mails.
 
 +++ En savoir plus sur les mesures Envoyés et diffusés par domaines
 
@@ -292,11 +292,11 @@ La variable **[!UICONTROL Envoyé et diffusé par domaines]** les tableaux et le
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_global_email_bounces_domains"
 >title="Rebonds et erreurs par domaine"
->abstract="Le tableau et le graphique Bounces &amp; Errors by Domains fournissent une ventilation granulaire au niveau du domaine, fournissant des informations sur les erreurs spécifiques rencontrées lors du processus d’envoi des emails."
+>abstract="Le tableau et le graphe Rebonds et erreurs par domaines fournissent une répartition détaillée au niveau du domaine, offrant ainsi des informations sur les erreurs spécifiques rencontrées lors du processus d’envoi des e-mails."
 
 ![](assets/campaign_email_bounce_domains.png)
 
-La variable **[!UICONTROL Rebonds et erreurs par domaine]** Le graphique et le tableau offrent une ventilation au niveau du domaine des erreurs spécifiques rencontrées lors du processus d’envoi, fournissant une analyse détaillée des problèmes qui se sont produits.
+Le graphe et le tableau **[!UICONTROL Rebonds et erreurs par domaine]** fournissent une répartition au niveau du domaine des erreurs spécifiques rencontrées lors du processus d’envoi, fournissant ainsi une analyse détaillée des problèmes qui se sont produits.
 
 +++ En savoir plus sur les mesures Rebonds et erreurs par domaine
 
@@ -311,11 +311,11 @@ La variable **[!UICONTROL Rebonds et erreurs par domaine]** Le graphique et le t
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_global_email_open_domains"
 >title="Ouvertures et clics par domaines"
->abstract="Le graphique et tableau Open &amp; Clicks by domains offre une ventilation détaillée au niveau du domaine, présentant une vue complète de l’interaction de votre audience avec vos emails."
+>abstract="Le graphe et le tableau Ouvertures et clics par domaines offre une ventilation détaillée au niveau du domaine, présentant une vue complète de l’interaction de votre audience avec vos e-mails."
 
 ![](assets/campaign_email_open_domains.png)
 
-La variable **[!UICONTROL Ouverture et clics par domaine]** Le graphique et le tableau présentent une ventilation au niveau du domaine de l’engagement de vos profils avec votre email, fournissant des informations précieuses sur la manière dont différents domaines interagissent avec votre contenu.
+Le graphe et le tableau **[!UICONTROL Ouvertures et clics par domaines]** présentent une répartition au niveau du domaine de l’engagement de vos profils avec votre e-mail, fournissant des informations précieuses sur la manière dont les différents domaines interagissent avec votre contenu.
 
 +++ En savoir plus sur la mesure Ouverture et clics par domaines
 
@@ -330,11 +330,11 @@ La variable **[!UICONTROL Ouverture et clics par domaine]** Le graphique et le t
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_global_email_bounces_reasons_domains"
 >title="Raisons de rebond par domaine"
->abstract="Le tableau et graphique Raisons des rebonds par domaine fournissent une ventilation au niveau du domaine, offrant des informations complètes sur les erreurs temporaires et permanentes. Cette analyse détaillée vous donne des informations précieuses sur les raisons spécifiques des messages rebonds."
+>abstract="Le tableau et graphe Raisons des rebonds par domaine fournissent une répartition au niveau du domaine, offrant ainsi des informations exhaustives sur les erreurs temporaires et permanentes. Cette analyse détaillée vous fournit des informations précieuses sur les raisons spécifiques des rebonds."
 
 ![](assets/campaign_email_bounce_reasons_domains.png)
 
-La variable **[!UICONTROL Raisons des bounces par domaine]** le graphique et le tableau offrent une ventilation au niveau du domaine des données concernant les erreurs temporaires et permanentes, fournissant des informations détaillées sur les raisons des messages rebonds.
+Le graphe et le tableau **[!UICONTROL Raisons de rebond par domaine]** fournissent une répartition au niveau du domaine des données concernant les erreurs temporaires et permanentes, fournissant ainsi des informations détaillées sur les raisons des messages ayant fait l’objet d’un rebond.
 
 +++ En savoir plus sur la mesure Raisons de rebond par domaine
 
@@ -386,7 +386,7 @@ Le graphe et le tableau **[!UICONTROL E-mail – Meilleur domaine de la personne
 
 >[!NOTE]
 >
->La variable **[!UICONTROL Optimisé ou non optimisé]** et **[!UICONTROL Optimisation de l’heure d’envoi]** Les widgets ne sont disponibles que si l’option Optimisation du temps d’envoi est activée pour votre email. Pour plus d’informations sur l’optimisation de l’heure d’envoi, consultez [cette page](../building-journeys/journeys-message.md#send-time-optimization).
+>Les widgets **[!UICONTROL Optimisé ou non optimisé]** et **[!UICONTROL Optimisation de l’heure d’envoi]** ne sont disponibles que si l’option Optimisation de l’heure d’envoi est activée pour votre e-mail. Pour plus d’informations sur l’optimisation de l’heure d’envoi, consultez [cette page](../building-journeys/journeys-message.md#send-time-optimization).
 
 Les widgets **[!UICONTROL Optimisé ou non optimisé]** et **[!UICONTROL Optimisation de l’heure d’envoi]** détaillent les principales informations relatives à votre message, qu’elles soient optimisées ou non.
 
@@ -574,7 +574,7 @@ Le graphe **[!UICONTROL Notification push – Synthèse des envois]** offre une 
 
 >[!NOTE]
 >
->La variable **[!UICONTROL Optimisé ou non optimisé]** et **[!UICONTROL Optimisation de l’heure d’envoi]** Les widgets ne sont disponibles que si l’option Optimisation de l’heure d’envoi est activée pour votre notification push. Pour plus d’informations sur l’optimisation de l’heure d’envoi, consultez [cette page](../building-journeys/journeys-message.md#send-time-optimization).
+>Les widgets **[!UICONTROL Optimisé ou non optimisé]** et **[!UICONTROL Optimisation de l’heure d’envoi]** ne sont disponibles que si l’option Optimisation de l’heure d’envoi est activée pour vos notifications push. Pour plus d’informations sur l’optimisation de l’heure d’envoi, consultez [cette page](../building-journeys/journeys-message.md#send-time-optimization).
 
 Les widgets **[!UICONTROL Optimisé ou non optimisé]** et **[!UICONTROL Optimisation de l’heure d’envoi]** détaillent les informations principales relatives à votre message, qu’elles soient optimisées ou non.
 
@@ -619,7 +619,7 @@ Consultez [cette page](exclusion-list.md) pour la liste complète des causes d�
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_global_push_breakdown_platform"
 >title="Notification push – Répartition par plateforme"
->abstract="Le tableau et les graphiques des notifications push - Ventilation par plateforme fournissent une ventilation des performances de vos notifications push en fonction du système d’exploitation du profil."
+>abstract="Le tableau et les graphes Notifications Push - Répartition par plateforme fournissent une répartition de la réussite de vos notifications push en fonction du système d’exploitation du profil."
 
 ![](assets/campaign_push_breakdown.png)
 
@@ -652,7 +652,7 @@ Dans le **[!UICONTROL Rapport global]** de votre campagne, l’onglet **[!UICONT
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_global_sms_sending_statistics"
 >title="SMS – Statistiques dʼenvoi"
->abstract="Le tableau SMS - Statistiques d’envoi résume les données essentielles sur vos SMS, telles que les messages ciblés ou délivrés."
+>abstract="Le tableau SMS - Statistiques d’envoi résume les données essentielles relatives à vos SMS, telles que les messages ciblés ou distribués."
 
 ![](assets/campaign_sms_sending.png)
 
@@ -679,7 +679,7 @@ Le tableau **[!UICONTROL SMS – Statistiques d’envoi]** fournit un résumé c
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_sms_tracking_statistics"
 >title="SMS – Statistiques de tracking"
->abstract="Le widget SMS - Statistiques de tracking offre un aperçu complet des informations essentielles relatives à l&#39;interaction des visiteurs avec votre URL."
+>abstract="Le widget SMS - Statistiques de suivi offre un aperçu exhaustif des informations essentielles relatives à l’interaction des visiteurs et visiteuses avec votre URL."
 
 ![](assets/campaign_sms_tracking.png)
 
@@ -698,7 +698,7 @@ Le widget **[!UICONTROL SMS – Statistiques de tracking]** fournit une vue d’
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_global_sms_performance"
 >title="SMS – Performances par date"
->abstract="Le widget - Performances des SMS par date fournit des informations clés sur vos messages par le biais d’une représentation graphique."
+>abstract="Le widget SMS - Performances par date fournit des informations essentielles sur vos messages via une représentation graphique."
 
 ![](assets/campaign_sms_performance.png)
 
@@ -752,7 +752,7 @@ Les graphes et le tableau **[!UICONTROL Causes de rebonds]** fournissent une vue
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_global_sms_clicks_links"
 >title="SMS – Clics par liens"
->abstract="Le widget SMS - Clics par liens fournit des informations essentielles sur l’engagement de vos visiteurs avec les URL de vos messages."
+>abstract="Le widget SMS - Clics par liens fournit des informations essentielles sur l’engagement de vos visiteurs et visiteuses avec les URL dans vos messages."
 
 ![](assets/campaign_sms_clicks.png)
 

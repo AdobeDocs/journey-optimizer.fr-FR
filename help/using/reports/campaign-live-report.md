@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 exl-id: 925494b6-e08a-4bd3-8a2f-96a5d9cbc387
 source-git-commit: 5671f510d8be80b53d57b1ff90a101e500773243
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '3484'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -73,7 +73,7 @@ Dans le **[!UICONTROL Rapport dynamique]** de campagne, l’onglet **[!UICONTROL
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_live_email_sending_statistics"
 >title="E-mail - Statistiques d’envoi"
->abstract="Le graphique E-mail - Statistiques d’envoi résume les données essentielles relatives à votre e-mail, telles que Ciblés ou Diffusés, depuis les dernières 24 heures."
+>abstract="Le graphe E-mail - Statistiques d’envoi résume les données essentielles relatives à votre e-mail, telles que Ciblés ou Diffusés, au cours des dernières 24 heures."
 
 ![](assets/campaign_email_live_sending.png)
 
@@ -304,7 +304,7 @@ Le graphe **[!UICONTROL Performances d’envoi des notifications push]** offre u
 
 +++ En savoir plus sur les mesures Notification push – Performances d’envoi
 
-* **[!UICONTROL Livrés]** : nombre de messages envoyés avec succès.
+* **[!UICONTROL Diffusés]** : nombre de messages envoyés avec succès.
 
 * **[!UICONTROL Rebonds]** : nombre total des erreurs comptabilisées lors de la procédure d’envoi et du traitement automatique des retours.
 
@@ -517,7 +517,7 @@ Les KPI **[!UICONTROL Performances web]** offrent des informations complètes su
 
 * **[!UICONTROL Impressions]** : nombre total d’expériences web diffusées à tous les utilisateurs et utilisatrices.
 
-* **[!UICONTROL Interactions]**: nombre total d’engagements pour votre page Web. Il s’agit de toutes les actions entreprises par les personnes, telles que les clics ou toute autre interaction.
+* **[!UICONTROL Interactions]** : nombre total d’engagements en lien avec votre page web. Il s’agit de toutes les actions entreprises par les personnes, telles que les clics ou toute autre interaction.
 
 +++
 
@@ -536,7 +536,7 @@ Le graphe **[!UICONTROL Résumé web]** présente l’évolution de vos expérie
 
 * **[!UICONTROL Impressions]** : nombre total d’expériences web diffusées à tous les utilisateurs et utilisatrices.
 
-* **[!UICONTROL Interactions]**: nombre total d’engagements pour votre page Web. Il s’agit de toutes les actions entreprises par les personnes, telles que les clics ou toute autre interaction.
+* **[!UICONTROL Interactions]** : nombre total d’engagements en lien avec votre page web. Il s’agit de toutes les actions entreprises par les personnes, telles que les clics ou toute autre interaction.
 
 +++
 
