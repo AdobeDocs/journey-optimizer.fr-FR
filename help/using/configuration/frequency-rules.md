@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: message, fréquence, règles, pression
 exl-id: 49248fb6-5a91-45b2-9de8-2f078d59c0fc
-source-git-commit: d3f0adab52ed8e44a6097c5079396d1e9c06e0a7
+source-git-commit: d8d007fb6a67e8716a07df04895684c2c1cfefaa
 workflow-type: tm+mt
-source-wordcount: '1119'
-ht-degree: 89%
+source-wordcount: '1125'
+ht-degree: 91%
 
 ---
 
@@ -58,7 +58,7 @@ Pour en savoir plus sur les autorisations, consultez [cette section](../administ
 >[!CONTEXTUALHELP]
 >id="ajo_rules_capping"
 >title="Définir la limitation de votre règle"
->abstract="Indiquez le nombre maximal de messages envoyés à un profil client chaque mois. Le plafond de fréquence se base sur une période calendaire mensuelle et est réinitialisé au début de chaque mois."
+>abstract="Indiquez le nombre maximal de messages envoyés à un profil client au cours de la période choisie. Le plafond de fréquence sera basé sur la période calendaire sélectionnée et sera réinitialisé au début de la période correspondante."
 
 >[!CONTEXTUALHELP]
 >id="ajo_rules_channel"
@@ -79,7 +79,7 @@ Pour créer une nouvelle règle, procédez comme suit.
 
    <!--![](assets/message-rules-details.png)-->
 
-1. Dans la **[!UICONTROL Durée]** dans la liste déroulante, sélectionnez une période pour laquelle la limitation doit être appliquée.
+1. Dans la liste déroulante **[!UICONTROL Durée]**, sélectionnez une période pour la limitation à appliquer.
 
    ![](assets/message-rules-capping-duration.png)
 
@@ -93,9 +93,9 @@ Pour créer une nouvelle règle, procédez comme suit.
 
    * **[!UICONTROL Mensuelle]** : la limite de fréquence est valable jusqu’au dernier jour du mois à 23:59:59 UTC. Par exemple, la date d’expiration mensuelle pour janvier est le 31 janvier à 23:59:59 UTC.
 
-   &lt;!—REMARQUE : Lorsque vous traitez [segmentation par lots](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=fr#batch){target="_blank"}, the daily counters may not accurately reflect the current values as the daily counter snapshot is taken at midnight UTC the night before. Consequently, relying on daily counters in this scenario becomes impractical, as the snapshot does not reflect the most up-to-date counter values on the profile. To ensure accuracy for daily frequency capping rules, the use of [streaming segmentation](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/streaming-segmentation.html?lang=fr){target="_blank"} est recommandé. <!--Learn more on audience evaluation methods in [this section](using/audience/about-audiences.md#evaluation-method-in-journey-optimizer).-->
+   &lt;!--REMARQUE : dans le cas de la [segmentation par lots](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=fr#batch){target="_blank"}, the daily counters may not accurately reflect the current values as the daily counter snapshot is taken at midnight UTC the night before. Consequently, relying on daily counters in this scenario becomes impractical, as the snapshot does not reflect the most up-to-date counter values on the profile. To ensure accuracy for daily frequency capping rules, the use of [streaming segmentation](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/streaming-segmentation.html?lang=fr){target="_blank"} est recommandée. <!--Learn more on audience evaluation methods in [this section](using/audience/about-audiences.md#evaluation-method-in-journey-optimizer).-->
 
-1. Définissez la limitation de votre règle, c’est-à-dire le nombre maximal de messages qui peuvent être envoyés à un profil utilisateur individuel chaque mois ou semaine. <!--or day--> - selon votre sélection ci-dessus.
+1. Définissez la limitation de votre règle, c’est-à-dire le nombre maximum de messages qui peuvent être envoyés à un profil individuel chaque mois, chaque semaine <!--or day-->, en fonction de votre sélection ci-dessous.
 
    <!--![](assets/message-rules-capping.png)-->
 
@@ -172,14 +172,14 @@ Vous pouvez combiner plusieurs règles de fréquence des messages, comme décrit
 1. [Créez une règle](#create-new-rule) appelée *Limitation marketing globale :*
 
    * Sélectionnez tous les canaux.
-   * Définissez la limitation sur 12 mois.
+   * Définissez la limitation mensuelle sur 12.
 
    ![](assets/message-rules-ex-overall-cap.png)
 
 1. Pour limiter davantage le nombre de notifications push marketing envoyées à un utilisateur, créez une deuxième règle appelée *Limitation Push marketing* :
 
    * Sélectionnez le canal push.
-   * Définissez la limitation sur 4 mensuels.
+   * Définissez la limitation mensuelle sur 4.
 
    ![](assets/message-rules-ex-push-cap.png)
 
