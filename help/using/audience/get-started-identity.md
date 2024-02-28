@@ -7,7 +7,7 @@ feature: Profiles, Identities
 role: User
 level: Beginner
 exl-id: 90e892e9-33c2-4da5-be1d-496b42572897
-source-git-commit: d3f0adab52ed8e44a6097c5079396d1e9c06e0a7
+source-git-commit: d9a3482d237c3080c060519dbdde9208c8c0befa
 workflow-type: tm+mt
 source-wordcount: '200'
 ht-degree: 10%
@@ -21,7 +21,7 @@ Une identité est une donnée propre à une entité, généralement un objet du 
 * La variable **espace de noms d’identité** sert d’indicateur du contexte auquel une identité se rapporte.
 * La variable **valeur d’identité** est une chaîne qui représente une entité.
 
-Prenons le numéro 555-555-1234. Dans cet exemple, la chaîne &quot;555-555-1234&quot; est une **valeur d’identité**, qui peut être classé dans une **Téléphone** espace de noms d’identité.
+Prenons le numéro 555-555-1234. Dans cet exemple, la chaîne &quot;555-555-1234&quot; est une **valeur d’identité**, qui peut être classé dans un &quot;Téléphone&quot; **espace de noms d’identité**.
 
 La variable **Identités** dans [!DNL Adobe Journey Optimizer] vous permet de parcourir efficacement les différents identifiants qui composent les clients de votre base de données.
 
