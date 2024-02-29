@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: test, parcours, vérification, erreur, dépannage
 exl-id: 9937d9b5-df5e-4686-83ac-573c4eba983a
-source-git-commit: ac83b44ca24b26edfbf70a2781e1ed7dede318d4
-workflow-type: ht
+source-git-commit: 36e73778f88bcf55a36a25f6b1cd237bf8fe5e9a
+workflow-type: tm+mt
 source-wordcount: '1535'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -124,7 +124,7 @@ Notez que lorsque vous déclenchez pour la première fois un événement métier
 >[!CONTEXTUALHELP]
 >id="ajo_journey_test_logs"
 >title="Journaux du mode test"
->abstract="Le bouton Afficher le journal affiche les résultats du test au format JSON. Ces résultats affichent le nombre d’individus à l’intérieur du parcours et leur état."
+>abstract="La variable **Afficher le journal** affiche les résultats du test au format JSON. Ces résultats affichent le nombre d’individus à l’intérieur du parcours et leur état."
 
 Le bouton **[!UICONTROL Afficher le journal]** vous permet d’afficher les résultats du test. Cette page affiche des informations actuelles sur le parcours au format JSON. Un bouton vous permet de copier des nœuds entiers. Vous devez actualiser manuellement la page pour mettre à jour les résultats de test du parcours.
 
