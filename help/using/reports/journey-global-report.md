@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 exl-id: e851646e-4cef-45e8-97c2-a8f4c9d2cc08
 source-git-commit: 5671f510d8be80b53d57b1ff90a101e500773243
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '4368'
 ht-degree: 100%
 
@@ -356,7 +356,7 @@ Le graphe et le tableau **[!UICONTROL Ouvertures et clics par domaines]** prése
 
 ![](assets/journey_email_bounce_domains.png)
 
-Le graphe et le tableau **[!UICONTROL Rebonds et erreurs par domaine]** fournissent une répartition au niveau du domaine des erreurs spécifiques rencontrées lors du processus d’envoi, offrant ainsi une analyse détaillée des problèmes qui se sont produits.
+Le graphe et le tableau **[!UICONTROL Rebonds et erreurs par domaine]** fournissent une répartition au niveau du domaine des erreurs spécifiques rencontrées lors du processus d’envoi, fournissant ainsi une analyse détaillée des problèmes qui se sont produits.
 
 +++ En savoir plus sur les mesures Rebonds et erreurs par domaine
 
