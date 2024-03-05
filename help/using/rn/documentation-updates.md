@@ -22,7 +22,7 @@ Cette page répertorie toutes les mises à jour récentes de la documentation de
 ## Février 2024 {#feb-2024}
 
 * L’intégration Journey Optimizer + Workfront a été ajoutée à la page des intégrations. [En savoir plus](../start/ajo-integrations.md)
-* Ajout d’informations sur la personnalisation des représentations des offres en fonction des données contextuelles - [En savoir plus](../offers/offer-library/add-representations.md#context-data)
+* Ajout d’informations sur la personnalisation des représentations des offres en fonction des données contextuelles. [En savoir plus](../offers/offer-library/add-representations.md#context-data)
 * La page des garde-fous a été mise à jour avec une note sur les actions personnalisées qui prennent en charge le format JSON uniquement lors de l’utilisation des payloads de requête ou de réponse. [En savoir plus](../start/guardrails.md#custom-actions-g)
 * Ajout d’informations supplémentaires sur le type d’authentification de base dans les sources de données externes - [En savoir plus](../datasource/external-data-sources.md)
 * Une note a été ajoutée pour différencier clairement la variable [Éditeur d’expression de parcours](../building-journeys/expression/expressionadvanced.md) de la [Éditeur de personnalisation](../personalization/functions/functions.md).

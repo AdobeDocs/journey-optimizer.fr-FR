@@ -8,7 +8,7 @@ exl-id: 3a1b6c61-82df-421c-98d8-2af4f2a5e0de
 source-git-commit: c69411408d472142f733ee9220a40608b0edbab4
 workflow-type: tm+mt
 source-wordcount: '385'
-ht-degree: 75%
+ht-degree: 84%
 
 ---
 
@@ -28,7 +28,7 @@ Découvrez les nouvelles fonctionnalités et améliorations de la version 24.2 
 
 >[!TAB Messagerie in-app web]
 
-Vous pouvez désormais utiliser la nouvelle fonctionnalité de messagerie in-app web pour afficher du contenu personnalisé directement sur les sites web, par le biais de messages de superposition modale. Cette fonctionnalité vous permet d’interagir efficacement avec les visiteurs web, ce qui améliore l’interaction utilisateur, la rétention et les taux de conversion.
+Vous pouvez désormais utiliser la nouvelle fonctionnalité de messagerie in-app web pour afficher du contenu personnalisé directement sur les sites web, par le biais de messages de superposition modale. Cette fonctionnalité vous permet d’interagir efficacement avec les visiteurs et visiteuses web, ce qui améliore l’interaction, la rétention et les taux de conversion des utilisateurs et utilisatrices.
 
 ![](using/rn/assets/do-not-localize/web_inapp.gif)
 
