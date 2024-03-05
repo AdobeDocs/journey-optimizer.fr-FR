@@ -1,37 +1,35 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Prise en main des messages texte
+title: Commencer avec les messages texte (SMS/MMS)
 description: Découvrez comment créer et envoyer des messages texte dans Journey Optimizer.
 feature: SMS
 topic: Content Management
 role: User
 level: Beginner
 exl-id: c1027268-0bbe-4e35-a5a6-2aef78083dd3
-source-git-commit: d3f0adab52ed8e44a6097c5079396d1e9c06e0a7
+source-git-commit: 75638e9b463278efab16b2b85ed2707640f088f2
 workflow-type: tm+mt
-source-wordcount: '227'
-ht-degree: 52%
+source-wordcount: '253'
+ht-degree: 100%
 
 ---
 
 # Commencer avec les messages texte {#get-started-sms}
 
-Utilisez [!DNL Journey Optimizer] pour envoyer des messages texte à vos clients sur leur appareil mobile. Vous pouvez créer, personnaliser et prévisualiser des messages au format texte à partir de l’éditeur de SMS.
+Utilisez [!DNL Journey Optimizer] pour envoyer des messages texte (SMS/MMS) à vos clientes et clients sur leur appareil mobile. Vous pouvez créer, personnaliser et prévisualiser des messages au format texte à partir de l’éditeur de SMS/MMS.
 
-Les messages texte peuvent être créés et envoyés dans un parcours ou dans une campagne. Pour les SMS, utilisez l’action SMS.
+Les messages texte peuvent être créés et envoyés dans un parcours ou dans une campagne. Pour les MMS et SMS, utilisez l’action SMS.
 
-* Dans un **parcours**. Créez un parcours, ajoutez une activité SMS et définissez les paramètres de base, puis accédez au **[!UICONTROL Actions : SMS]** volet de droite pour créer le contenu du SMS. Découvrez comment créer un parcours dans [cette page](../building-journeys/journey-gs.md).
+* Dans un **parcours**. Créez un parcours, ajoutez une activité SMS et définissez les paramètres de base, puis accédez au volet de droite **[!UICONTROL Actions : SMS]** pour créer le contenu du message SMS/MMS. Découvrez comment créer un parcours dans [cette page](../building-journeys/journey-gs.md).
 
-* Dans une **Campagne**. Créez une campagne, sélectionnez SMS comme action et définissez les paramètres de base, puis modifiez le contenu du message pour définir le SMS à envoyer. Découvrez comment créer une campagne en accédant à [cette page](../campaigns/create-campaign.md#configure).
+* Dans une **Campagne**. Créez une campagne, sélectionnez SMS comme action et définissez les paramètres de base, puis modifiez le contenu du message pour définir le message SMS/MMS à envoyer. Découvrez comment créer une campagne en accédant à [cette page](../campaigns/create-campaign.md#configure).
 
-Adobe Journey Optimizer envoie des messages texte par le biais de fournisseurs de services SMS (ou fournisseurs de passerelle SMS). Avant de créer votre SMS, configurez votre fournisseur de services pour les SMS avec Journey Optimizer. [En savoir plus](sms-configuration.md).
+Adobe Journey Optimizer envoie des messages texte par le biais de fournisseurs de services SMS (ou fournisseurs de passerelle SMS). Avant de créer votre message SMS/MMS, configurez votre fournisseur de services pour les messages texte avec Journey Optimizer. [En savoir plus](sms-configuration.md).
 
-<!--
->[!IMPORTANT] 
+>[!IMPORTANT]
 >
-> Sending Multimedia Message Service (MMS) with Adobe Journey Optimizer is only supported when integrating with **Sinch**.
--->
+> L’envoi de MMS (Multimedia Message Service) avec Adobe Journey Optimizer n’est pris en charge que lors de l’intégration à **Sinch**.
 
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td>
@@ -72,7 +70,7 @@ Adobe Journey Optimizer envoie des messages texte par le biais de fournisseurs
 
 ## Vidéo pratique
 
-* La vidéo ci-dessous montre comment configurer, créer et inclure des messages SMS dans vos parcours clients.
+* La vidéo ci-dessous vous montre comment configurer, créer et inclure des SMS dans vos parcours clients.
 
   +++Voir la vidéo
 
@@ -80,7 +78,7 @@ Adobe Journey Optimizer envoie des messages texte par le biais de fournisseurs
 
 +++
 
-* La vidéo ci-dessous vous aide à mieux comprendre les fonctionnalités mobiles que Adobe Journey Optimizer propose aux marketeurs.
+* La vidéo ci-dessous vous aide à mieux comprendre les fonctionnalités mobiles qu’Adobe Journey Optimizer propose aux personnes spécialisées dans le marketing.
 
 
   +++Voir la vidéo

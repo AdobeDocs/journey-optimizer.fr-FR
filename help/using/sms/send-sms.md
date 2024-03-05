@@ -8,14 +8,14 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 31c9b080-e334-4a11-af33-4c6f115c70a4
-source-git-commit: f275820c3f79bb4c9aca8593c2c761ccd4283795
+source-git-commit: 75638e9b463278efab16b2b85ed2707640f088f2
 workflow-type: tm+mt
-source-wordcount: '259'
-ht-degree: 96%
+source-wordcount: '262'
+ht-degree: 100%
 
 ---
 
-# Vérifier et envoyer votre message texte {#send-sms}
+# Vérifier et envoyer votre message texte (SMS/MMS){#send-sms}
 
 ## Prévisualiser votre message texte {#preview-sms}
 
@@ -49,6 +49,6 @@ Une fois votre message texte prêt, effectuez la configuration de votre [parcour
 **Rubriques connexes**
 
 * [Configurer le canal SMS](sms-configuration.md)
-* [Rapports SMSS](../reports/journey-global-report.md#sms-global)
+* [Rapports SMS/MMS](../reports/journey-global-report.md#sms-global)
 * [Créer un message texte](create-sms.md)
 * [Ajouter un message dans un parcours](../building-journeys/journeys-message.md)
