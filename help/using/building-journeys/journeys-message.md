@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: parcours, message, notification push, sms, e-mail, in-app
 exl-id: 4db07a9e-c3dd-4873-8bd9-ac34c860694c
-source-git-commit: f275820c3f79bb4c9aca8593c2c761ccd4283795
+source-git-commit: 75638e9b463278efab16b2b85ed2707640f088f2
 workflow-type: tm+mt
-source-wordcount: '1164'
-ht-degree: 97%
+source-wordcount: '1169'
+ht-degree: 100%
 
 ---
 
@@ -21,9 +21,9 @@ ht-degree: 97%
 >[!CONTEXTUALHELP]
 >id="ajo_message_activity"
 >title="Activité Message"
->abstract="Journey Optimizer est fourni avec des fonctionnalités de message intégrées. Vous pouvez simplement ajouter, dans votre parcours, une notification push, un message texte, une activité de message in-app ou email et définir les paramètres et le contenu. Elle est ensuite exécutée et envoyée dans le contexte du parcours."
+>abstract="Journey Optimizer est fourni avec des fonctionnalités de message intégrées. Dans votre parcours, vous pouvez simplement ajouter une notification push, un message texte (SMS/MMS), une activité in-app ou e-mail, puis définir les paramètres et le contenu. Elle est ensuite exécutée et envoyée dans le contexte du parcours."
 
-[!DNL Journey Optimizer] est fourni avec des fonctionnalités de message intégrées. Dans votre parcours, vous pouvez simplement ajouter une activité de message push, SMS, in-app ou e-mail, puis définir les paramètres et le contenu. Elle est ensuite exécutée et envoyée dans le contexte du parcours.
+[!DNL Journey Optimizer] est fourni avec des fonctionnalités de message intégrées. Dans votre parcours, vous pouvez simplement ajouter un notification push, un SMS/MMS, une activité in-app ou e-mail, puis définir les paramètres et le contenu. Elle est ensuite exécutée et envoyée dans le contexte du parcours.
 
 Vous pouvez également configurer des actions spécifiques pour vous envoyer des messages :
 
@@ -74,7 +74,7 @@ Pour ajouter un message dans un parcours, procédez comme suit :
    <img alt="Validation" src="../assets/do-not-localize/sms.jpg">
    </a>
    <div>
-   <a href="../sms/create-sms.md"><strong>Création de messages texte</strong></a>
+   <a href="../sms/create-sms.md"><strong>Créer des messages texte (SMS/MMS)</strong></a>
    </div>
    <p>
    </td>
