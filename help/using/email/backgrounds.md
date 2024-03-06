@@ -31,11 +31,11 @@ Lorsqu’il s’agit de définir des arrière-plans avec le concepteur d’e-mai
 
 Vous trouverez ci-dessous les paramètres d’arrière-plan que vous pouvez utiliser.
 
-* Définissez une **[!UICONTROL Couleur de fond]** pour l&#39;ensemble de l&#39;email. Assurez-vous de sélectionner les paramètres du corps dans l&#39;arborescence de navigation accessible à partir de la palette gauche.
+* Définissez une **[!UICONTROL Couleur d’arrière-plan]** pour l’ensemble de l’e-mail. Assurez-vous de sélectionner les paramètres du corps dans l&#39;arborescence de navigation accessible à partir de la palette gauche.
 
   ![](assets/background_1.png)
 
-* Définissez la même couleur de fond pour tous les composants de structure en sélectionnant **[!UICONTROL Couleur de fond de la fenêtre]**. Cette option vous permet de sélectionner un autre paramètre dans la couleur de fond.
+* Définissez la même couleur d’arrière-plan pour tous les composants de structure en sélectionnant **[!UICONTROL Couleur d’arrière-plan de la fenêtre]**. Cette option vous permet de sélectionner un autre paramètre dans la couleur de fond.
 
   ![](assets/background_2.png)
 
@@ -45,7 +45,7 @@ Vous trouverez ci-dessous les paramètres d’arrière-plan que vous pouvez util
 
   ![](assets/background_3.png)
 
-* Définissez une **[!UICONTROL Image de fond]** pour le contenu d&#39;un composant de structure.
+* Définissez une **[!UICONTROL Image d’arrière-plan]** pour le contenu d’un composant de structure.
 
   >[!NOTE]
   >

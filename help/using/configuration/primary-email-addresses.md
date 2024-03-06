@@ -12,7 +12,7 @@ exl-id: fe2f6516-7790-4501-a3a1-3d7cb94d7874
 source-git-commit: 9cc263d127fdc56f808770d908030b1d14b1f784
 workflow-type: tm+mt
 source-wordcount: '431'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 96%
 >[!CONTEXTUALHELP]
 >id="ajo_admin_execution_address_header"
 >title="Définir l’adresse à utiliser"
->abstract="Editez les champs utilisés pour déterminer l&#39;adresse email ou le numéro de téléphone du profil à envoyer en priorité."
+>abstract="Modifiez les champs utilisés pour déterminer l’adresse e-mail ou le numéro de téléphone du profil auquel donner la priorité pour l’envoi."
 
 Lorsque vous ciblez un profil, plusieurs adresses e-mail ou numéros de téléphone peuvent être disponibles dans la base de données (adresse e-mail professionnelle, numéro de téléphone personnel, etc.).
 
