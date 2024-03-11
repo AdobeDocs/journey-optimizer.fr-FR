@@ -9,9 +9,9 @@ level: Experienced
 keywords: syntaxe, éditeur, parcours
 exl-id: c9434b28-2750-4a53-985e-c4a3f940472c
 source-git-commit: d3f0adab52ed8e44a6097c5079396d1e9c06e0a7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '231'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -35,7 +35,7 @@ Les expressions sont évaluées de gauche à droite. L’associativité des opé
 Les règles de respect de la casse sont les suivantes :
 
 * Tous les opérateurs (and, or, etc.) doivent être en minuscules. Par exemple, _`<expression1>`and`<expression2>`_ est une expression valide, contrairement à l’expression _`<expression1>`AND`<expression2>`_.
-* Tous les noms de fonctions sont sensibles à la casse. Par exemple, _inAudience()_ est valide, tandis que la fonction _INAUDIENCE()_ ne l’est pas.
+* Tous les noms de fonctions sont sensibles à la casse. Par exemple, _inAudience()_ est valide, contrairement à la fonction _INAUDIENCE()_.
 * Les références aux champs et les valeurs constantes respectent la casse : ces éléments ne sont pas intégrés au langage (par opposition aux opérateurs et aux fonctions), mais créés par l’utilisateur.
 
 ## Type d’expression renvoyé{#returned-expression-type}

@@ -8,9 +8,9 @@ role: Admin
 level: Intermediate
 exl-id: 4dcd22ed-bf7e-4789-ab7b-33544c857db8
 source-git-commit: 75638e9b463278efab16b2b85ed2707640f088f2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1676'
-ht-degree: 84%
+ht-degree: 100%
 
 ---
 
@@ -67,21 +67,21 @@ Pour configurer votre fournisseur de SMS/MMS avec Journey Optimizer, procédez c
 
    ![](assets/sms_6.png)
 
-1. Configurez vos informations d’identification d’API SMS, comme indiqué ci-dessous :
+1. Configurez vos informations d’identification pour l’API SMS, comme indiqué ci-dessous :
 
    * **[!UICONTROL Nom]** : choisissez un nom pour vos informations d’identification d’API.
 
    * **[!UICONTROL ID de service]** et **[!UICONTROL Jeton API]** : accédez à la page des API, puis à vos informations d’identification sous l’onglet SMS. En savoir plus dans la [Documentation Sinch](https://developers.sinch.com/docs/sms/getting-started/){target="_blank"}.
 
-   * **[!UICONTROL Mots-clés d’opt-in]**: saisissez les mots-clés par défaut ou personnalisés qui déclencheront automatiquement votre **[!UICONTROL Message d’inclusion]**. Pour plusieurs mots-clés, utilisez des valeurs séparées par des virgules.
+   * **[!UICONTROL Mots-clés d’opt-in]** : saisissez les mots-clés par défaut ou personnalisés qui déclencheront automatiquement votre **[!UICONTROL message d’opt-in]**. Pour plusieurs mots-clés, utilisez des valeurs séparées par des virgules.
 
    * **[!UICONTROL Message d’opt-in]** : saisissez la réponse personnalisée qui est automatiquement envoyée en tant que **[!UICONTROL message d’opt-in]**.
 
-   * **[!UICONTROL Mots-clés d’exclusion]**: saisissez les mots-clés par défaut ou personnalisés qui déclencheront automatiquement votre **[!UICONTROL Message d’exclusion]**. Pour plusieurs mots-clés, utilisez des valeurs séparées par des virgules.
+   * **[!UICONTROL Mots-clés d’opt-out]** : saisissez les mots-clés par défaut ou personnalisés qui déclencheront automatiquement votre **[!UICONTROL message d’opt-out]**. Pour plusieurs mots-clés, utilisez des valeurs séparées par des virgules.
 
    * **[!UICONTROL Message d’opt-out]** : saisissez la réponse personnalisée qui est automatiquement envoyée en tant que **[!UICONTROL message d’opt-out]**.
 
-   * **[!UICONTROL Mots-clés d’aide]**: saisissez les mots-clés par défaut ou personnalisés qui déclencheront automatiquement votre **Message d’aide**. Pour plusieurs mots-clés, utilisez des valeurs séparées par des virgules.
+   * **[!UICONTROL Mots-clés d’aide]** : saisissez les mots-clés par défaut ou personnalisés qui déclencheront automatiquement votre **message d’aide**. Pour plusieurs mots-clés, utilisez des valeurs séparées par des virgules.
 
    * **[!UICONTROL Message d’aide]** : saisissez la réponse personnalisée qui est automatiquement envoyée en tant que **message d’aide**.
 
@@ -95,37 +95,37 @@ Après avoir créé et configuré vos informations d’identification API, vous 
 
 ### Sinch MMS {#sinch-mms}
 
-Pour configurer Sinch MMS avec Journey Optimizer, procédez comme suit :
+Pour configurer Sinch MMS avec Journey Optimizer, procédez comme suit :
 
 1. Dans le rail de gauche, accédez à **[!UICONTROL Administration]** > **[!UICONTROL Canaux]** et sélectionnez le menu **[!UICONTROL Informations d’identification de l’API]**. Cliquez sur le bouton **[!UICONTROL Créer des informations d’identification de l’API]**.
 
    ![](assets/sms_6.png)
 
-1. Configurez vos informations d’identification d’API SMS, comme indiqué ci-dessous :
+1. Configurez vos informations d’identification pour l’API SMS, comme indiqué ci-dessous :
 
    * **[!UICONTROL Nom]** : choisissez un nom pour vos informations d’identification d’API.
 
    * **[!UICONTROL ID de projet]**, **[!UICONTROL ID de l’application]** et **[!UICONTROL Jeton API]** : à partir du menu API de conversation, vous trouverez vos informations d’identification dans le menu Application. En savoir plus dans la [Documentation Sinch](https://docs.cc.sinch.com/cloud/service-configuration/en/oxy_ex-1/common/wln1620131604643.html){target="_blank"}.
 
-   * **[!UICONTROL Identifiant du plan de service]** et **[!UICONTROL Jeton d’API SMS]**: votre **[!UICONTROL Identifiant du plan de service]** et **[!UICONTROL Jeton d’API SMS]** se trouvent dans l’onglet SMS de la page API.
+   * **[!UICONTROL ID de plan de service]** et **[!UICONTROL Jeton d’API SMS]** : votre **[!UICONTROL ID de plan de service]** et votre **[!UICONTROL Jeton d’API SMS]** se trouvent dans l’onglet SMS de la page API.
 
 1. Cliquez sur **[!UICONTROL Envoyer]** lorsque vous avez terminé la configuration de vos informations d’identification API.
 
-Après avoir créé et configuré vos informations d’identification d’API, vous devez maintenant créer une surface de canal (c’est-à-dire un paramètre prédéfini de message) pour les messages MMS.
+Après avoir créé et configuré vos informations d’identification API, vous devez maintenant créer une surface de canal (c’est-à-dire un préréglage de message) pour les messages MMS.
 
 ### Twilio {#twilio-api}
 
-Pour configurer Twilio avec Journey Optimizer, procédez comme suit :
+Pour configurer Twilio avec Journey Optimizer, procédez comme suit :
 
 1. Dans le rail de gauche, accédez à **[!UICONTROL Administration]** > **[!UICONTROL Canaux]** et sélectionnez le menu **[!UICONTROL Informations d’identification de l’API]**. Cliquez sur le bouton **[!UICONTROL Créer des informations d’identification de l’API]**.
 
    ![](assets/sms_6.png)
 
-1. Configurez vos informations d’identification d’API SMS, comme indiqué ci-dessous :
+1. Configurez vos informations d’identification pour l’API SMS, comme indiqué ci-dessous :
 
    * **[!UICONTROL Nom]** : choisissez un nom pour vos informations d’identification d’API.
 
-   * **[!UICONTROL SID du compte]** et **[!UICONTROL Jeton d’authentification]**: accédez au **Informations sur le compte** du volet de votre page Tableau de bord de la console Twilio pour trouver vos informations d’identification.
+   * **[!UICONTROL SID du compte]** et **[!UICONTROL Jeton d’authentification]** : accédez au volet **Informations du compte** de la page Tableau de bord de la console Twilio pour trouver vos informations d’identification.
 
    * **[!UICONTROL SID du message]** : saisissez l’identifiant unique attribué à chaque message créé par l’API de Twilio. En savoir plus dans la [Documentation Twilio](https://support.twilio.com/hc/en-us/articles/223134387-What-is-a-Message-SID-){target="_blank"}.
 
@@ -135,7 +135,7 @@ Après avoir créé et configuré vos informations d’identification API, vous 
 
 ### Infobip {#infobip-api}
 
-Pour configurer Infobip avec Journey Optimizer, procédez comme suit :
+Pour configurer Infobip avec Journey Optimizer, procédez comme suit :
 
 1. Dans le rail de gauche, accédez à **[!UICONTROL Administration]** > **[!UICONTROL Canaux]** et sélectionnez le menu **[!UICONTROL Informations d’identification de l’API]**. Cliquez sur le bouton **[!UICONTROL Créer des informations d’identification de l’API]**.
 
@@ -145,17 +145,17 @@ Pour configurer Infobip avec Journey Optimizer, procédez comme suit :
 
    * **[!UICONTROL Nom]** : choisissez un nom pour vos informations d’identification d’API.
 
-   * **[!UICONTROL URL de base de l’API]** et **[!UICONTROL Clé API]**: accédez à la page d’accueil de votre interface web ou à la page de gestion des clés d’API pour trouver vos informations d’identification. En savoir plus dans la [Documentation Infobip](https://www.infobip.com/docs/api){target="_blank"}.
+   * **[!UICONTROL URL de base de l’API]** et **[!UICONTROL Clé API]** : accédez à la page d’accueil de votre interface web ou à la page de gestion des clés d’API pour trouver vos informations d’identification. En savoir plus dans la [Documentation Infobip](https://www.infobip.com/docs/api){target="_blank"}.
 
-   * **[!UICONTROL Mots-clés d’opt-in]**: saisissez les mots-clés par défaut ou personnalisés qui déclencheront automatiquement votre **[!UICONTROL Message d’inclusion]**. Pour plusieurs mots-clés, utilisez des valeurs séparées par des virgules.
+   * **[!UICONTROL Mots-clés d’opt-in]** : saisissez les mots-clés par défaut ou personnalisés qui déclencheront automatiquement votre **[!UICONTROL message d’opt-in]**. Pour plusieurs mots-clés, utilisez des valeurs séparées par des virgules.
 
    * **[!UICONTROL Message d’opt-in]** : saisissez la réponse personnalisée qui est automatiquement envoyée en tant que **[!UICONTROL message d’opt-in]**.
 
-   * **[!UICONTROL Mots-clés d’exclusion]**: entrez le ou les mots-clés par défaut qui déclencheront automatiquement votre **[!UICONTROL Message d’exclusion]**. Pour plusieurs mots-clés, utilisez des valeurs séparées par des virgules.
+   * **[!UICONTROL Mots-clés d’opt-out]** : saisissez les mots-clés par défaut ou personnalisés qui déclencheront automatiquement votre **[!UICONTROL message d’opt-out]**. Pour plusieurs mots-clés, utilisez des valeurs séparées par des virgules.
 
    * **[!UICONTROL Message d’opt-out]** : saisissez la réponse personnalisée qui est automatiquement envoyée en tant que **[!UICONTROL message d’opt-out]**.
 
-   * **[!UICONTROL Mots-clés d’aide]**: saisissez les mots-clés par défaut ou personnalisés qui déclencheront automatiquement votre **Message d’aide**. Pour plusieurs mots-clés, utilisez des valeurs séparées par des virgules.
+   * **[!UICONTROL Mots-clés d’aide]** : saisissez les mots-clés par défaut ou personnalisés qui déclencheront automatiquement votre **message d’aide**. Pour plusieurs mots-clés, utilisez des valeurs séparées par des virgules.
 
    * **[!UICONTROL Message d’aide]** : saisissez la réponse personnalisée qui est automatiquement envoyée en tant que **message d’aide**.
 
@@ -208,7 +208,7 @@ Pour créer une surface de canal, procédez comme suit :
    * Choisissez **Marketing** pour les messages texte promotionnels : ces messages nécessitent le consentement de l’utilisateur ou de l’utilisatrice.
    * Choisissez **Transactionnel** pour les messages non commerciaux tels que la confirmation de commande, les notifications de réinitialisation de mot de passe ou les informations de diffusion, par exemple.
 
-   Lors de la création d&#39;un SMS/MMS, vous devez choisir une surface de canal valide correspondant à la catégorie que vous avez sélectionnée pour votre message.
+   Lors de la création d’un SMS/MMS, vous devez choisir une surface de canal valide correspondant à la catégorie que vous avez sélectionnée pour votre message.
 
    >[!CAUTION]
    >

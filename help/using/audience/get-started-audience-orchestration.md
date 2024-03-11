@@ -9,9 +9,9 @@ role: User
 level: Beginner
 exl-id: af71d24d-77eb-44df-8216-b0aeaf4c4fa4
 source-git-commit: 2edff0123084fa1736fb8198c3b4e8ff4e40341d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '311'
-ht-degree: 69%
+ht-degree: 100%
 
 ---
 
@@ -30,15 +30,15 @@ Cette documentation fournit des informations détaillées sur l’utilisation de
 
 La composition de l’audience vous permet de créer des **workflows de composition**, où vous pouvez combiner des audiences d’Adobe Experience Platform existantes en une zone de travail visuelle et exploiter diverses activités (telles que le partage, l’exclusion...) pour créer de nouvelles audiences.
 
-Une fois cette opération terminée, la variable **audiences obtenues** sont enregistrés dans Adobe Experience Platform avec les audiences existantes et peuvent être utilisés dans les campagnes et parcours Journey Optimizer pour cibler les clients. [Découvrez comment cibler des audiences dans Journey Optimizer](../audience/about-audiences.md#segments-in-journey-optimizer)
+Une fois cette opération terminée, les **audiences obtenues** sont enregistrées dans Adobe Experience Platform avec les audiences existantes et sont prêtes à être utilisées dans des campagnes Journey Optimizer pour cibler les clientes et les clients. [Découvrir comment créer des audiences cibles dans Journey Optimizer](../audience/about-audiences.md#segments-in-journey-optimizer)
 
 ![](assets/audiences-process.png)
 
 >[!IMPORTANT]
 >
->L’utilisation d’audiences et d’attributs provenant de la composition d’audience et des audiences de téléchargement personnalisées n’est actuellement pas disponible pour être utilisée avec Healthcare Shield ou Privacy and Security Shield.
+>L’utilisation d’audiences et d’attributs provenant de la composition de l’audience et d’audiences personnalisées chargées n’est actuellement pas disponible avec Healthcare Shield ou Privacy and Security Shield.
 >
->Les attributs d’enrichissement ne sont pas encore intégrés au service d’application des stratégies. Par conséquent, les libellés d’utilisation des données que vous appliquez à vos attributs d’enrichissement ne seront pas appliqués dans les campagnes ou parcours Journey Optimizer.
+>Les attributs d’enrichissement ne sont pas encore intégrés au service d’application des politiques. Par conséquent, les libellés d’utilisation des données que vous appliquez à vos attributs d’enrichissement ne sont pas implémentés dans les campagnes et les parcours Journey Optimizer.
 
 La composition de l’audience est accessible à partir du menu **[!UICONTROL Audiences]** d’Adobe Journey Optimizer :
 

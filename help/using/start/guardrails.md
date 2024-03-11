@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
 source-git-commit: 75638e9b463278efab16b2b85ed2707640f088f2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1975'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -87,7 +87,7 @@ L&#39;interface d&#39;Adobe [!DNL Journey Optimizer] est conçue pour fonctionne
 * Les adresses IP ne sont pas autorisées.
 * Les adresses d’Adobe internes (`.adobe.*`) ne sont pas autorisées dans les URL et les API.
 * Les actions personnalisées intégrées ne peuvent pas être supprimées.
-* Les actions personnalisées ne prennent en charge le format JSON que lors de l’utilisation de payloads de requête ou de réponse. Consultez [cette page](../action/about-custom-action-configuration.md#custom-actions-limitations).
+* Les actions personnalisées ne prennent en charge le format JSON que lors de l’utilisation de payloads de requêtes ou de réponses. Consultez [cette page](../action/about-custom-action-configuration.md#custom-actions-limitations).
 * Lorsque vous choisissez un point d’entrée à cibler à l’aide d’une action personnalisée, assurez-vous de ce qui suit :
 
    * Ce point d’entrée peut prendre en charge le débit des parcours à l’aide de configurations de l’[API de limitation](../configuration/throttling.md) ou de l’[API de plafonnement](../configuration/capping.md) pour le limiter. Faites preuve de prudence si une configuration de limitation ne peut pas descendre sous 200 TPS. Tout point d’entrée ciblé devra prendre en charge au moins 200 TPS.

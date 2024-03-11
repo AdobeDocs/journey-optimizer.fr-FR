@@ -13,9 +13,9 @@ hidefromtoc: true
 badge: label="Version Beta"
 exl-id: c2434086-2ed4-4cd0-aecd-2eea8f0a55f6
 source-git-commit: e8a178ea337fb57f2c2460c9e3e53257787c7bfd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1576'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -84,7 +84,7 @@ Avant de pouvoir créer un plan de préchauffage d’adresses IP dans l’interf
 
 * Depuis l’interface utilisateur, vous pouvez télécharger le [modèle de plan de préchauffage des adresses IP](assets/IPWarmupPlan-Template.xlsx) Excel (vierge), afin de le remplir.
 
-* Vous pouvez également télécharger un [exemple de plan de chauffage d’une adresse IP](assets/IPWarmupPlan-Sample.xlsx) déjà renseigné avec certaines données que vous pouvez utiliser à titre d’exemple.
+* Vous pouvez également télécharger un [exemple de plan de préchauffage des adresses IP](assets/IPWarmupPlan-Sample.xlsx) déjà rempli avec certaines données, à utiliser à titre d’exemple.
 
 <!--
 * From the user interface you can download the blank Excel IP warmup plan template to fill in.
@@ -317,7 +317,7 @@ Pour créer une campagne de préchauffage d’adresses IP, suivez les étapes ci
 
    >[!NOTE]
    >
-   >En cas d’échec du chargement, assurez-vous d’utiliser le formatage et le format de fichier corrects (.xls ou .xlsx). Utilisez la variable [modèle](assets/IPWarmupPlan-Template.xlsx) fourni par Adobe.
+   >En cas d’échec du chargement, assurez-vous d’utiliser le formatage et le format de fichier corrects (.xls ou .xlsx). Utilisez le [modèle](assets/IPWarmupPlan-Template.xlsx) fourni par Adobe.
 
 1. Cliquez sur **[!UICONTROL Créer]**. Toutes les phases, les exécutions, les colonnes et leur contenu définis dans le fichier que vous avez chargé sont automatiquement affichés dans l’interface de [!DNL Journey Optimizer].
 

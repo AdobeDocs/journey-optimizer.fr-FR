@@ -9,9 +9,9 @@ level: Experienced
 keywords: fonction, expressions, éditeur, parcours
 exl-id: 5b978eef-7d3e-41fe-bb08-0cf37c3b125d
 source-git-commit: d3f0adab52ed8e44a6097c5079396d1e9c06e0a7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '185'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 

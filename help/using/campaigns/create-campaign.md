@@ -10,9 +10,9 @@ level: Beginner
 keywords: créer, optimizer, campagne, surface, messages
 exl-id: 617d623c-e038-4b5b-a367-5254116b7815
 source-git-commit: 2edff0123084fa1736fb8198c3b4e8ff4e40341d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '960'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -71,7 +71,7 @@ Pour créer une campagne, accédez au menu **[!UICONTROL Campagnes]**, puis cliq
 
 1. Pour attribuer des étiquettes d’utilisation des données personnalisées ou de base à la campagne, cliquez sur le bouton **[!UICONTROL Gérer l’accès]**. [En savoir plus sur le contrôle d’accès au niveau de l’objet (OLA)](../administration/object-based-access.md)
 
-## Créer le message et configurer le tracking {#content}
+## Créer le message et configurer le suivi {#content}
 
 Dans la section **[!UICONTROL Actions]**, créez le message à envoyer avec la campagne :
 
@@ -126,9 +126,9 @@ Cliquez sur le bouton **[!UICONTROL Sélectionner une audience]** pour afficher 
 
 >[!IMPORTANT]
 >
->Utilisation d’audiences et d’attributs de [composition de l&#39;audience](../audience/get-started-audience-orchestration.md) et [audiences de chargement personnalisées (fichier CSV)](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=fr#import-audience) est actuellement indisponible pour une utilisation avec Healthcare Shield ou Privacy and Security Shield.
+>L’utilisation d’audiences et d’attributs provenant de la [composition de l’audience](../audience/get-started-audience-orchestration.md) et du [chargement personnalisé (fichier CSV)](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=fr#import-audience) n’est actuellement pas disponible avec Healthcare Shield ou Privacy and Security Shield.
 >
->Pour les campagnes déclenchées par l’API, l’audience doit être définie via un appel API.
+>Pour les campagnes déclenchées par API, l’audience doit être définie via un appel d’API.
 
 Dans le champ **[!UICONTROL Espace de noms d’identité]**, choisissez l’espace de noms à utiliser pour identifier les personnes à partir du segment sélectionné.
 

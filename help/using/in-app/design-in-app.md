@@ -8,9 +8,9 @@ level: Beginner
 keywords: in-app, message, conception, mise en forme
 exl-id: 7d7aa721-96aa-4ebc-a51c-e693f893f34f
 source-git-commit: d3f0adab52ed8e44a6097c5079396d1e9c06e0a7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1154'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -184,7 +184,7 @@ Dans l’onglet **Paramètres**, vous pouvez définir la disposition du message 
 
 >[!NOTE]
 >
->L’aperçu n’est disponible que pour les messages In-App mobiles.
+>L’aperçu n’est disponible que pour les messages mobiles in-app.
 
 ![](assets/in_app_content_6.png)
 

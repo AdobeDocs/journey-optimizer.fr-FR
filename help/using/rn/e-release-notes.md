@@ -9,9 +9,9 @@ hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
 source-git-commit: d3f0adab52ed8e44a6097c5079396d1e9c06e0a7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '609'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -83,7 +83,7 @@ Antérieurement disponibles en version bêta, les améliorations suivantes sont 
 **Parcours**
 
 * **Filtrer vos parcours** : vous pouvez désormais utiliser les **dates personnalisées pour filtrer l’inventaire des parcours**, en plus des filtres de dates prédéfinis existants. Vous pouvez ainsi affiner la liste en affichant les parcours créés ou publiés à une date spécifique, au cours d’un mois donné, sur une année entière ou dans des périodes spécifiées.
-* **Actions personnalisées** - Vous pouvez maintenant mettre à jour la variable **content-type** en-tête . Cette nouvelle **content-type** doit référencer le contenu JSON.
+* **Actions personnalisées** : vous pouvez maintenant mettre à jour l’en-tête **content-type**. Ce nouveau **content-type** doit référencer le contenu JSON.
 * **Configuration** : l’attribut identityMap dans stepEvents est maintenant prérenseigné. L’identité principale est définie comme « primary = true ».
 * **Interface utilisateur** : la barre supérieure, dans les écrans de parcours, a été réorganisée pour une expérience améliorée. Parmi les différentes mises à jour, l’icône « crayon » permettant d’accéder aux propriétés du parcours s’affiche désormais à gauche de la barre supérieure, en regard du nom du parcours.
 
@@ -105,6 +105,6 @@ Antérieurement disponibles en version bêta, les améliorations suivantes sont 
 
   >[!AVAILABILITY]
   >
-  >Cette fonctionnalité est disponible en disponibilité limitée (LA) pour un petit groupe de clients.
+  >Cette fonctionnalité est publiée en disponibilité limitée pour un petit groupe de personnes.
 
 * **Modèles multicanal** : des modèles de contenu sont désormais disponibles pour **tous les canaux**, à l’exception du web. Concernant l’E-mail, vous pouvez maintenant sélectionner le type (HTML ou Contenu).

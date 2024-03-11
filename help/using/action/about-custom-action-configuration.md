@@ -10,9 +10,9 @@ level: Experienced
 keywords: action, tiers, personnalisé, parcours, API
 exl-id: 4df2fc7c-85cb-410a-a31f-1bc1ece237bb
 source-git-commit: d3f0adab52ed8e44a6097c5079396d1e9c06e0a7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1451'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -35,7 +35,7 @@ Dans les paramètres d’action personnalisés, vous pouvez transmettre une coll
 
 Notez également qu’un format spécifique est attendu pour les paramètres d’action personnalisés (par exemple : chaîne, décimal, etc.). Vous devez veiller au respect de cette exigence. En savoir plus sur ce [cas d’utilisation](../building-journeys/collections.md).
 
-Les actions personnalisées prennent uniquement en charge le format JSON lors de l’utilisation de [requête](../action/about-custom-action-configuration.md#define-the-message-parameters) ou [payloads de réponse](../action/action-response.md).
+Les actions personnalisées prennent en charge le format JSON uniquement lors de l’utilisation de [requêtes](../action/about-custom-action-configuration.md#define-the-message-parameters) ou de [payloads de réponse](../action/action-response.md).
 
 ## Bonnes pratiques{#custom-action-enhancements-best-practices}
 
@@ -119,7 +119,7 @@ Lors de la configuration d’une action personnalisée, vous devez définir les 
 
 1. Définissez les en-têtes et les paramètres de requête :
 
-   * Dans la section **[!UICONTROL En-têtes]**, cliquez sur **[!UICONTROL Ajouter un champ d’en-tête]** pour définir les en-têtes HTTP du message de requête à envoyer au service externe. Les champs d’en-tête **[!UICONTROL Type de contenu]** et **[!UICONTROL CharSet]** sont définis par défaut. Vous ne pouvez pas supprimer ces champs. Seule la variable **[!UICONTROL Content-Type]** peut être modifié. Sa valeur doit respecter le format JSON. Voici la valeur par défaut :
+   * Dans la section **[!UICONTROL En-têtes]**, cliquez sur **[!UICONTROL Ajouter un champ d’en-tête]** pour définir les en-têtes HTTP du message de requête à envoyer au service externe. Les champs d’en-tête **[!UICONTROL Type de contenu]** et **[!UICONTROL Charset]** sont définis par défaut. Vous ne pouvez pas supprimer ces champs. Seul l’en-tête **[!UICONTROL Content-Type]** peut être modifié. Sa valeur doit respecter le format JSON. Voici la valeur par défaut :
 
    ![](assets/content-type-header.png)
 

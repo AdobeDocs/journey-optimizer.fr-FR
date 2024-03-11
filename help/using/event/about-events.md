@@ -1,8 +1,8 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Utilisation des événements de parcours
-description: Découvrez comment utiliser des événements dans vos parcours
+title: Utiliser des événements de parcours
+description: Découvrir comment utiliser des événements dans vos parcours
 feature: Journeys, Events
 topic: Administration
 role: Data Engineer, Data Architect, Admin
@@ -10,13 +10,13 @@ level: Intermediate, Experienced
 keywords: événements, événement, parcours, définition, commencer
 exl-id: fb3e51b5-4cbb-4949-8992-1075959da67d
 source-git-commit: 2f2b53fd74a51e96e61ddaf9e489c07bd359294f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '989'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
-# Utilisation des événements de parcours {#about-events}
+# Utiliser des événements de parcours {#about-events}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_event_list"
@@ -64,7 +64,7 @@ Pour les événements unitaires, il existe deux types d’identifiant d&#39;év�
 
 ## Cycle des données {#data-cycle}
 
-Les événements sont des appels d’API POST. Ils sont envoyés à Adobe Experience Platform par biais des API d’ingestion en flux continu. La destination URL des événements envoyés par le biais des API de messagerie transactionnelle est appelée &quot;inlet&quot;. La payload des événements respecte la mise en forme XDM.
+Les événements sont des appels d’API POST. Ils sont envoyés à Adobe Experience Platform par biais des API d’ingestion en flux continu. L’URL de destination des événements envoyés via les API de messagerie transactionnelle est appelée « inlet ». La payload des événements respecte la mise en forme XDM.
 
 La payload contient les informations nécessaires au fonctionnement des API d’ingestion en flux continu (dans l’en-tête) et  les informations requises par [!DNL Journey Optimizer] pour travailler, ainsi que les informations à utiliser dans les parcours (dans le corps, par exemple, le montant d’un panier abandonné). Il existe deux modes d’ingestion en flux continu : authentifié et non authentifié. Pour plus d’informations sur les API d’ingestion en flux continu, cliquez sur [ce lien](https://experienceleague.adobe.com/docs/experience-platform/xdm/api/getting-started.html?lang=fr).
 

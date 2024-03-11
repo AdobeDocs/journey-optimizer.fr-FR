@@ -9,9 +9,9 @@ role: User
 level: Beginner
 exl-id: 3eb9466e-9d88-4470-a22f-5e24a29923ae
 source-git-commit: d3f0adab52ed8e44a6097c5079396d1e9c06e0a7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1521'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 97%
 
 >[!BEGINSHADEBOX]
 
-Cette documentation fournit des informations détaillées sur l’utilisation de la composition de l’audience dans Adobe Journey Optimizer. Si vous n’utilisez pas Adobe Journey Optimizer, [cliquez ici](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/audience-composition.html?lang=fr){target="_blank"}.
+Cette documentation fournit des informations détaillées sur l’utilisation de la composition de l’audience dans Adobe Journey Optimizer. Si vous n’utilisez pas Adobe Journey Optimizer, [cliquez ici](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/audience-composition.html?lang=fr){target="_blank"}.
 
 >[!ENDSHADEBOX]
 
@@ -151,7 +151,7 @@ Notez les limitations suivantes lorsque vous utilisez l’activité **[!UICONTRO
 * Les **Jeux de données** pour l’enrichissement doivent être de type enregistrement (contrairement à un type d’événement) et il ne peut pas s’agir d’un jeu de données système ni être marqué pour le profil. Ils doivent être inférieurs à 1 Go.
 * **L’enrichissement prend en charge une jointure 1:1**. Cela signifie que si les clés de jointure comportent plusieurs correspondances sur le jeu de données d’enrichissement, le système sélectionne l’une des correspondances et l’utilise pour la jointure 1:1.
 * **Les audiences peuvent être activées dans les destinations RTCDP**, mais pas leurs attributs d’enrichissement, le cas échéant.
-* Les attributs d’enrichissement ne sont pas encore intégrés au service d’application des stratégies. Par conséquent, les libellés d’utilisation des données que vous appliquez à vos attributs d’enrichissement ne seront pas appliqués dans les campagnes ou parcours Journey Optimizer.
+* Les attributs d’enrichissement ne sont pas encore intégrés au service d’application des politiques. Par conséquent, les libellés d’utilisation des données que vous appliquez à vos attributs d’enrichissement ne sont pas implémentés dans les campagnes et les parcours Journey Optimizer.
 
 Pour configurer l’activité, procédez comme suit :
 

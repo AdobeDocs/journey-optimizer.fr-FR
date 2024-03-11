@@ -9,9 +9,9 @@ role: User
 level: Beginner
 exl-id: 10d2de34-23c1-4a5e-b868-700b462312eb
 source-git-commit: 2edff0123084fa1736fb8198c3b4e8ff4e40341d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1083'
-ht-degree: 85%
+ht-degree: 100%
 
 ---
 
@@ -39,11 +39,11 @@ Les audiences peuvent être générées à l’aide de différentes méthodes :
 
 ## Cibler des audiences dans [!DNL Journey Optimizer] {#segments-in-journey-optimizer}
 
-Vous pouvez sélectionner dans des campagnes et des parcours toute audience générée à l’aide de définitions de segment, de workflows d’import de fichier CSV ou de composition.
+Vous pouvez sélectionner dans des campagnes et des parcours toute audience générée à l’aide de définitions de segment ou de workflows d’import de fichier CSV ou de composition.
 
 >[!AVAILABILITY]
 >
->L’utilisation d’audiences et d’attributs provenant de la composition de l’audience et des audiences de téléchargement personnalisées (fichier CSV) n’est actuellement pas disponible avec Healthcare Shield ou Privacy and Security Shield. [Découvrez comment utiliser les attributs d’enrichissement d’audience dans Journey Optimizer](../audience/about-audiences.md#enrichment)
+>L’utilisation d’audiences et d’attributs provenant de la composition de l’audience et du chargement personnalisé (fichier CSV) n’est actuellement pas disponible avec Healthcare Shield ou Privacy and Security Shield. [Découvrez comment utiliser les attributs d’enrichissement d’audiences dans Journey Optimizer](../audience/about-audiences.md#enrichment)
 
 Vous pouvez utiliser les audiences dans **[!DNL Journey Optimizer]** de différentes manières :
 
@@ -59,15 +59,15 @@ Vous pouvez utiliser les audiences dans **[!DNL Journey Optimizer]** de différe
 
 * Utilisez l’activité **Condition** dans un parcours afin de créer des conditions basées sur l’appartenance à une audience. [Découvrez comment utiliser des audiences dans des conditions](../building-journeys/condition-activity.md#using-a-segment).
 
-## Utilisation des attributs d’enrichissement d’audience dans Journey Optimizer {#enrichment}
+## Utiliser les attributs d’enrichissement d’audiences dans Journey Optimizer {#enrichment}
 
-Lors du ciblage d’une audience générée à l’aide de workflows de composition, vous pouvez exploiter les attributs d’enrichissement de ces audiences pour créer votre parcours et personnaliser vos messages.
+Lors du ciblage d’une audience générée à l’aide de workflows de composition, vous pouvez utiliser les attributs d’enrichissement de ces audiences pour créer votre parcours et personnaliser vos messages.
 
-* Créez plusieurs chemins dans un parcours en fonction de règles qui exploitent les attributs d’enrichissement de l’audience ciblée. Pour ce faire, ciblez l’audience à l’aide d’une [Lecture d’audience](../building-journeys/read-audience.md) puis créer des règles dans une [Condition](../building-journeys/condition-activity.md) activité basée sur les attributs d’enrichissement de l’audience.
+* Créez plusieurs chemins dans un parcours en fonction de règles qui utilisent les attributs d’enrichissement de l’audience ciblée. Pour ce faire, ciblez l’audience à l’aide d’une activité [Lecture d’audience](../building-journeys/read-audience.md), puis créez des règles dans une activité [Condition](../building-journeys/condition-activity.md) basée sur les attributs d’enrichissement de l’audience.
 
   ![](assets/audience-enrichment-attribute-condition.png){zoomable=&quot;yes&quot;}
 
-* Personnalisez vos messages dans des parcours ou des campagnes en ajoutant les attributs d&#39;enrichissement de l&#39;audience ciblée dans l&#39;éditeur d&#39;expression. [Découvrez comment utiliser l’éditeur d’expression](../personalization/personalization-build-expressions.md)
+* Personnalisez vos messages dans des parcours ou des campagnes en ajoutant les attributs d’enrichissement de l’audience ciblée dans l’éditeur d’expression. [Découvrir comment utiliser l’éditeur d’expression](../personalization/personalization-build-expressions.md)
 
   ![](assets/audience-enrichment-attribute-perso.png){zoomable=&quot;yes&quot;}
 

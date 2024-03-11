@@ -10,9 +10,9 @@ level: Intermediate
 keywords: liste de contrôle, contrôle, configuration
 exl-id: 0172f6bc-da8b-4a83-a0fc-4ed41324568f
 source-git-commit: d3f0adab52ed8e44a6097c5079396d1e9c06e0a7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '936'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -48,7 +48,7 @@ Les adresses de contrôle ne sont ni des profils réels ni des profils de test, 
 
 >[!NOTE]
 >
->Les variantes sont prises en charge. Les adresses de contrôle reçoivent une seule copie de chaque variante du même message (comme les différents traitements d&#39;un [expérience de contenu](../campaigns/get-started-experiment.md)).
+>Les variantes sont prises en charge. Les adresses de contrôle reçoivent une seule copie de chaque variante du même message (comme les différents traitements d’une [expérience de contenu](../campaigns/get-started-experiment.md)).
 
 ## Accéder aux listes de contrôle {#access-seed-lists}
 
@@ -126,7 +126,7 @@ Pour créer une liste de contrôle, procédez comme suit :
 
 ## Utiliser une liste de contrôle dans une campagne ou un parcours {#use-seed-list}
 
-Maintenant que votre liste de contrôle est créée, vous pouvez l’utiliser dans n’importe quelle campagne ou n’importe quel parcours pour inclure les adresses de contrôle correspondantes dans vos diffusions. Pour ce faire, procédez comme suit.
+Maintenant que votre liste de contrôle est créée, vous pouvez l’utiliser dans n’importe quelle campagne ou n’importe quel parcours pour inclure les adresses de contrôle correspondantes dans vos diffusions. Pour ce faire, procédez comme suit :
 
 >[!CAUTION]
 >
@@ -156,4 +156,4 @@ Désormais, chaque fois qu’un e-mail est envoyé à vos clientes et clients pa
 
 >[!NOTE]
 >
->Pour les parcours, la diffusion email n&#39;est envoyée aux adresses de contrôle que lors de la première exécution du parcours.
+>Pour les parcours, la diffusion e-mail n’est envoyée aux adresses de contrôle que lors de la première exécution du parcours.

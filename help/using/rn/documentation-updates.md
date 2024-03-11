@@ -9,9 +9,9 @@ role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
 source-git-commit: bfe377e6a362b9e9f1ce417a8ddfd7581845d342
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '4778'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -21,16 +21,16 @@ Cette page répertorie toutes les mises à jour récentes de la documentation de
 
 ## Février 2024 {#feb-2024}
 
-* L’intégration Journey Optimizer + Workfront a été ajoutée à la page des intégrations. [En savoir plus](../start/ajo-integrations.md)
+* L’intégration Journey Optimizer + Workfront a été ajoutée à la page des intégrations. [En savoir plus](../start/ajo-integrations.md)
 * Ajout d’informations sur la personnalisation des représentations des offres en fonction des données contextuelles. [En savoir plus](../offers/offer-library/add-representations.md#context-data)
-* La page des garde-fous a été mise à jour avec une note sur les actions personnalisées qui prennent en charge le format JSON uniquement lors de l’utilisation des payloads de requête ou de réponse. [En savoir plus](../start/guardrails.md#custom-actions-g)
-* Ajout d’informations supplémentaires sur le type d’authentification de base dans les sources de données externes - [En savoir plus](../datasource/external-data-sources.md)
-* Une note a été ajoutée pour différencier clairement la variable [Éditeur d’expression de parcours](../building-journeys/expression/expressionadvanced.md) de la [Éditeur de personnalisation](../personalization/functions/functions.md).
+* La page des mécanismes de sécurisation a été mise à jour avec une note sur les actions personnalisées qui prennent en charge le format JSON uniquement lors de l’utilisation des payloads de requêtes ou de réponses. [En savoir plus](../start/guardrails.md#custom-actions-g)
+* Ajout d’informations supplémentaires sur le type d’authentification simple dans les sources de données externes. [En savoir plus](../datasource/external-data-sources.md)
+* Une note a été ajoutée pour différencier clairement l’[éditeur d’expression de Journey](../building-journeys/expression/expressionadvanced.md) de l’[éditeur de personnalisation](../personalization/functions/functions.md).
 * La liste des fonctions disponibles dans l’éditeur d’expression avancé a été mise à jour. [En savoir plus](../building-journeys/expression/functions.md)
 * La page de la fonction de partage a été mise à jour. [En savoir plus](../building-journeys/functions/functioninaudience.md)
-* Ajout d’informations concernant l’impact des notifications push d’inclusion ou de désinscription sur les messages in-app - [En savoir plus](../in-app/create-in-app.md)
-* La page Règles de fréquence des messages a été mise à jour pour prendre en compte les options de durée disponibles dans l’interface utilisateur (hebdomadaire ou mensuel). [En savoir plus](../configuration/frequency-rules.md)
-* La section Modifier un enregistrement PTR a été mise à jour afin de clarifier le fait que les enregistrements PTR ne peuvent pas être créés manuellement et que vous devez modifier les enregistrements PTR pour leur affecter de nouveaux sous-domaines. [En savoir plus](../configuration/ptr-records.md#edit-ptr-record)
+* Ajout d’informations concernant l’impact des notifications push d’opt-in ou d’opt-out sur les messages in-app. [En savoir plus](../in-app/create-in-app.md)
+* La page des règles de fréquence des messages a été mise à jour pour prendre en compte les options de durée disponibles dans l’interface utilisateur (hebdomadaire ou mensuelle). [En savoir plus](../configuration/frequency-rules.md)
+* La section Modifier l’enregistrement PTR a été mise à jour afin de clarifier le fait que les enregistrements PTR ne peuvent pas être créés manuellement et que vous devez modifier les enregistrements PTR pour leur attribuer de nouveaux sous-domaines. [En savoir plus](../configuration/ptr-records.md#edit-ptr-record)
 
 ## Janvier 2024 {#jan-2024}
 

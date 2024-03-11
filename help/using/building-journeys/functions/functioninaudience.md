@@ -8,9 +8,9 @@ level: Experienced
 keywords: inAudience, fonction, expression, parcours
 exl-id: 8417af75-6e97-4ad4-86b4-3ecd264a5560
 source-git-commit: d3f0adab52ed8e44a6097c5079396d1e9c06e0a7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '191'
-ht-degree: 83%
+ht-degree: 100%
 
 ---
 
@@ -34,9 +34,9 @@ Les audiences peuvent posséder trois statuts :
 
 Seules les personnes présentant les statuts de participationd&#39;audience d’audience **Réalisé** et **Existant** sont considérés comme membres de l’audience. Pour plus d’informations sur l’évaluation d’une audience, consultez la [documentation du service de segmentation](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html?lang=fr#interpret-segment-results).
 
-`inAudience('audienceName') == true` signifie que vous disposez d’un segmentMembership avec le statut renseigné/existant.
+`inAudience('audienceName') == true` signifie que vous avez un segmentMembership avec le statut « entré/existant ».
 
-`inAudience('audienceName') == false` signifie que vous disposez d’un segmentMembership avec le statut de sortie.
+`inAudience('audienceName') == false` signifie que vous avez un segmentMembership avec le statut « quitté ».
 
 ## Catégorie
 

@@ -10,9 +10,9 @@ level: Experienced
 keywords: campagnes, déclenchées par l’API, REST, optimizer, messages
 exl-id: 0ef03d33-da11-43fa-8e10-8e4b80c90acb
 source-git-commit: d3f0adab52ed8e44a6097c5079396d1e9c06e0a7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '954'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -74,7 +74,7 @@ Vous pouvez maintenant exécuter la campagne à partir des API. [En savoir plus]
 
 Une fois votre campagne activée, vous devez récupérer l’exemple de requête cURL généré et l’utiliser dans l’API pour créer votre payload et déclencher la campagne.
 
-1. Ouvrez la campagne, puis copiez-collez la requête de payload à partir de la fonction **[!UICONTROL requête cURL]** . Cette payload inclut toutes les variables de personnalisation (profil et contexte) utilisées dans le message. Il est disponible une fois la campagne activée.
+1. Ouvrez la campagne, puis copiez-collez la requête de payload depuis la section **[!UICONTROL requête cURL]**. Cette payload inclut toutes les variables de personnalisation (profil et contexte) utilisées dans le message. Elle est disponible une fois la campagne activée.
 
    ![](assets/api-triggered-curl.png)
 

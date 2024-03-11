@@ -10,9 +10,9 @@ level: Intermediate, Experienced
 keywords: externe, sources, données, configuration, connexion, tiers
 exl-id: f3cdc01a-9f1c-498b-b330-1feb1ba358af
 source-git-commit: d3f0adab52ed8e44a6097c5079396d1e9c06e0a7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1526'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -69,17 +69,17 @@ Les principales étapes nécessaires pour créer et configurer une source de don
 
    ![](assets/journey27.png)
 
-1. Configurez l&#39;authentification en fonction de la configuration du service externe : **[!UICONTROL Aucune authentification]**, **[!UICONTROL De base]**, **[!UICONTROL Personnalisé]** ou **[!UICONTROL Clé API]**.
+1. Configurez l’authentification en fonction de la configuration du service externe : **[!UICONTROL Aucune authentification]**, **[!UICONTROL Simple]**, **[!UICONTROL Personnalisée]** ou **[!UICONTROL Clé API]**.
 
-   Pour le mode d’authentification de base, vous devez renseigner un nom d’utilisateur et un mot de passe.
+   Pour le mode d’authentification simple, vous devez renseigner un nom d’utilisateur ou d’utilisatrice et un mot de passe.
 
    >[!NOTE]
    >
-   >Lorsque l’appel d’authentification est effectué, la variable `<username>:<password>` La chaîne, codée en base64, est ajoutée dans l’en-tête Authentication.
+   >Lorsque l’appel d’authentification est effectué, la chaîne `<username>:<password>`, codée en base64, est ajoutée dans l’en-tête Authentification.
 
-   Pour plus d’informations sur le mode d’authentification personnalisée, reportez-vous à [cette section](../datasource/external-data-sources.md#custom-authentication-mode). Dans notre exemple, nous choisissons le mode d&#39;authentification de la clé API :
+   Pour plus d’informations sur le mode d’authentification personnalisée, reportez-vous à [cette section](../datasource/external-data-sources.md#custom-authentication-mode). Dans notre exemple, nous choisissons le mode d’authentification de clé API :
 
-   * **[!UICONTROL Type]** : « API key »
+   * **[!UICONTROL Type]** : « clé API »
    * **[!UICONTROL Nom]** : « appid » (il s’agit du nom du paramètre de la clé API)
    * **[!UICONTROL Valeur]** : « 1234 » (valeur de la clé API)
    * **[!UICONTROL Emplacement]** : « Paramètre de requête » (la clé API se trouve dans l’URL)

@@ -1,6 +1,6 @@
 ---
-title: Concevoir le contenu web in-app
-description: Découvrez comment concevoir du contenu web in-app
+title: Concevoir votre contenu web in-app
+description: Découvrir comment concevoir votre contenu web in-app
 feature: In App
 topic: Content Management
 role: User
@@ -9,25 +9,25 @@ keywords: in-app, message, création, commencer
 hide: true
 hidefromtoc: true
 source-git-commit: d3f0adab52ed8e44a6097c5079396d1e9c06e0a7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '780'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
-# Concevoir le contenu web in-app {#in-app-web-design}
+# Concevoir votre contenu web in-app {#in-app-web-design}
 
 >[!BEGINSHADEBOX]
 
 **Table des matières**
 
-* [Configuration du canal web in-app](configure-in-app-web.md)
-* [Créer votre campagne de messages Web in-app](create-in-app-web.md)
-* **[Concevoir le contenu web in-app](#in-app-web-design)**
+* [Configurer le canal web in-app](configure-in-app-web.md)
+* [Créer votre campagne de messages web in-app](create-in-app-web.md)
+* **[Concevoir votre contenu web in-app](#in-app-web-design)**
 
 >[!ENDSHADEBOX]
 
-Pour modifier le contenu du message in-app, cliquez sur le bouton **[!UICONTROL Modifier le contenu]** à partir du bouton **[!UICONTROL Action]** de votre campagne.
+Pour modifier le contenu du message in-app, cliquez sur le bouton **[!UICONTROL Modifier le contenu]** à partir du menu **[!UICONTROL Action]** de votre campagne.
 
 ![](assets/in_app_web_surface_7.png)
 

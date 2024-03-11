@@ -10,15 +10,15 @@ level: Experienced
 keywords: reprises, rebond, temporaire, optimizer, erreur
 exl-id: 05564a99-da50-4837-8dfb-bb1d3e0f1097
 source-git-commit: d3f0adab52ed8e44a6097c5079396d1e9c06e0a7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '578'
-ht-degree: 70%
+ht-degree: 100%
 
 ---
 
 # Reprises {#retries}
 
-Lorsqu’un message électronique échoue en raison d’un message temporaire **Soft bounce** pour une adresse donnée, plusieurs reprises sont effectuées. Chaque erreur incrémente un compteur d&#39;erreurs. Lorsque ce compteur atteint le seuil limite, l’adresse électronique est ajoutée à la liste de suppression.
+Lorsqu’un e-mail échoue en raison d’une erreur de type **Rebond temporaire** pour une adresse donnée, plusieurs reprises sont effectuées. Chaque erreur incrémente un compteur d’erreurs. Lorsque ce compteur atteint le seuil limite, l’adresse e-mail est ajoutée à la liste de suppression.
 
 >[!NOTE]
 >
@@ -28,17 +28,17 @@ Dans la configuration par défaut, le seuil est défini à cinq erreurs.
 
 * Pour une même diffusion, à la cinquième erreur rencontrée pendant la [période de reprise](#retry-duration), l’adresse est supprimée.
 
-* S&#39;il existe des diffusions différentes et que deux erreurs sont séparées d&#39;au moins 24 heures, le compteur d&#39;erreurs est incrémenté à chaque erreur et l&#39;adresse est également supprimée à la cinquième tentative. Les erreurs sont cumulées pour chaque adresse.
+* S’il existe des diffusions différentes et que deux erreurs se produisent au moins à 24 heures d’intervalle, le compteur d’erreurs est incrémenté à chaque erreur et l’adresse est également supprimée à la cinquième tentative. Les erreurs sont cumulées pour chaque adresse.
 
-Si une diffusion réussit après une reprise, le compteur d&#39;erreurs de l&#39;adresse est réinitialisé.
+Si une diffusion réussit après une reprise, le compteur d’erreurs de l’adresse est réinitialisé.
 
 Par exemple :
 
-* Vous envoyez un email le lundi avec une période de reprise définie sur 24 heures. L&#39;adresse emma.jones@mail.com ne peut pas être diffusée. L’email est retenté jusqu’à trois fois et cesse de retenter d’essayer pour atteindre la période de reprise de 24 heures.
+* Vous envoyez un e-mail le lundi avec une période de reprise définie sur 24 heures. La diffusion à l’adresse emma.jones@mail.com échoue. L’envoi de l’e-mail est retenté jusqu’à trois fois, puis les tentatives cessent lorsque la période de reprise de 24 heures est écoulée.
 
-* Vous envoyez un autre email mercredi. Le fichier emma.jones@mail.com, qui a déjà un comptage de trois erreurs, est également ciblé, et de nouveau ne peut pas être livré - deux fois. Deux autres erreurs sont comptabilisées.
+* Vous envoyez un autre e-mail le mercredi. L’adresse emma.jones@mail.com, qui compte déjà trois erreurs, est également ciblée et l’envoi échoue une nouvelle fois. Deux autres erreurs sont comptabilisées.
 
-A condition qu&#39;aucune autre diffusion n&#39;ait été tentée et qu&#39;elle ait réussi entre ces deux emails, l&#39;adresse emma.jones@mail.com est ajoutée à la liste de suppression étant donné l&#39;impact cumulé des erreurs 3 + 2.
+À condition qu’aucune autre diffusion n’ait été tentée ni réussie entre ces deux e-mails, l’adresse emma.jones@mail.com est ajoutée à la liste de suppression du fait de l’impact cumulé de 3+2 erreurs.
 
 ## Modification du seuil de reprise {#edit-retry-threshold}
 

@@ -1,5 +1,5 @@
 ---
-title: Configuration du canal web in-app
+title: Configurer le canal web in-app
 description: Découvrez comment configurer le canal web in-app dans la collecte de données
 feature: In App
 topic: Content Management
@@ -7,49 +7,49 @@ role: User
 level: Beginner
 keywords: in-app, message, création, commencer
 source-git-commit: d3f0adab52ed8e44a6097c5079396d1e9c06e0a7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '760'
-ht-degree: 58%
+ht-degree: 100%
 
 ---
 
-# Création d’un message Web In-App {#create-in-app-web}
+# Créer un message web in-app {#create-in-app-web}
 
-## Configuration du canal web in-app {#configure-web-inapp}
+## Configurer le canal web in-app {#configure-web-inapp}
 
-Pour configurer votre canal web in-app, procédez comme suit :
+Pour configurer votre canal web in-app, procédez comme suit :
 
-* Installez l’extension de balise SDK Web pour prendre en charge la messagerie in-app web. [En savoir plus](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/client/web-sdk/web-sdk-extension-configuration.html?lang=en)
+* Installez l’extension de balise SDK Web pour prendre en charge la messagerie web in-app. [En savoir plus](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/client/web-sdk/web-sdk-extension-configuration.html?lang=fr)
 
-* Personnalisez vos déclencheurs. La messagerie web in-app prend en charge deux types de déclencheurs : Envoi de données à la plateforme et Envoi manuel. [En savoir plus](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/ajo/web-in-app-messaging.html)
+* Personnalisez vos déclencheurs. La messagerie web in-app prend en charge deux types de déclencheurs : Envoi de données à la plateforme et Déclencheurs manuels. [En savoir plus](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/ajo/web-in-app-messaging.html?lang=fr)
 
-## Créer votre campagne de messages Web in-app {#create-inapp-web-campaign}
+## Créer votre campagne de messages web in-app {#create-inapp-web-campaign}
 
 1. Accédez au menu **[!UICONTROL Campagnes]**, puis cliquez sur **[!UICONTROL Créer une campagne]**.
 
 1. Dans la section **[!UICONTROL Propriétés]**, sélectionnez le type d’exécution de la campagne : planifié ou déclenché par l’API. Pour en savoir plus sur les types de campagne, consultez [cette page](../campaigns/create-campaign.md#campaigntype).
 
-1. Dans le **[!UICONTROL Actions]** , choisissez la **[!UICONTROL Message in-app]**. Dans la **[!UICONTROL Envoyer à]** , sélectionnez Web.
+1. Dans la section **[!UICONTROL Actions]**, choisissez le **[!UICONTROL Message in-app]**. Dans la liste déroulante **[!UICONTROL Envoyer à]**, sélectionnez Web.
 
    ![](assets/in_app_web_surface_1.png)
 
-1. Définissez une surface d’application. Vous disposez de deux options pour apporter des modifications :
+1. Définissez une surface d’application. Vous disposez de deux options pour apporter des modifications :
 
-   * Vous pouvez saisir une **[!UICONTROL URL de la page]** pour appliquer des modifications à une page spécifique.
+   * Vous pouvez saisir une **[!UICONTROL URL de page]** pour appliquer des modifications à une page spécifique.
 
-   * Vous pouvez créer une règle pour cibler plusieurs URL qui suivent le même modèle.
+   * Vous pouvez créer une règle pour cibler plusieurs URL qui suivent le même motif.
 
-+++ Comment créer une règle de correspondance Pages .
++++ Création d’une règle de correspondance de pages.
 
-      1. Sélectionner **[!UICONTROL Règle de correspondance des pages]** comme surface de l’application.
+      1. Sélectionnez **[!UICONTROL Règle de correspondance de pages]** comme surface d’application.
       1. Cliquez sur **[!UICONTROL Créer une règle]**.
 
          ![](assets/in_app_web_surface_3.png)
 
-      1. Dans le **[!UICONTROL Modifier la règle de surface]** , définissez vos critères pour la **[!UICONTROL Domaine]** et **[!UICONTROL Page]** des champs.
+      1. Dans la fenêtre **[!UICONTROL Modifier la règle de surface]**, définissez vos critères pour les champs **[!UICONTROL Domaine]** et **[!UICONTROL Page]**.
       1. Dans les listes déroulantes des conditions, personnalisez davantage vos critères.
 
-         Ici, par exemple, pour modifier les éléments affichés sur toutes les pages des produits de vente de votre site web Luma, sélectionnez Domaine > Commence par > Luma et Page > Contient > Ventes.
+         Par exemple, si vous souhaitez modifier ici des éléments qui s’affichent sur toutes les pages des produits en soldes de votre site web Luma, sélectionnez Domaine > Commence par > luma et Page > Contient > soldes.
 
          ![](assets/in_app_web_surface_4.png)
 
@@ -61,7 +61,7 @@ Pour configurer votre canal web in-app, procédez comme suit :
 
 1. Une fois la surface de l’application sélectionnée et configurée, cliquez sur **[!UICONTROL Créer]**.
 
-## Définition de votre campagne de messages Web in-app {#configure-inapp}
+## Définir votre campagne de messages web in-app {#configure-inapp}
 
 1. Dans la section **[!UICONTROL Propriétés]**, rédigez le **[!UICONTROL Titre]** et la **[!UICONTROL Description]**.
 
@@ -73,7 +73,7 @@ Pour configurer votre canal web in-app, procédez comme suit :
 
 1. Dans le champ **[!UICONTROL Espace de noms d’identité]**, choisissez l’espace de noms à utiliser pour identifier les personnes à partir de l’audience sélectionnée. [En savoir plus](../event/about-creating.md#select-the-namespace).
 
-1. Dans le **[!UICONTROL Action]** , vous trouverez les paramètres précédemment configurés comme **[!UICONTROL Surface de l’application]**. Vous pouvez y apporter des modifications si nécessaire ou mettre à jour votre règle en cliquant sur **[!UICONTROL Modifier la règle]**.
+1. Dans le menu **[!UICONTROL Action]**, vous trouverez les paramètres précédemment configurés comme **[!UICONTROL surface de l’application]**. Vous pouvez y apporter des modifications si nécessaire ou mettre à jour votre règle en cliquant sur **[!UICONTROL Modifier la règle]**.
 
 1. Cliquez sur **[!UICONTROL Créer une expérience]** pour commencer à configurer votre expérience de contenu et créer des traitements afin de mesurer leurs performances et d’identifier la meilleure option pour votre audience cible. [En savoir plus](../campaigns/content-experiment.md).
 
@@ -85,8 +85,8 @@ Pour configurer votre canal web in-app, procédez comme suit :
 
       | Package | Déclencheur | Définition |
       |---|---|---|
-      | Plateforme | Envoi de données à Platform | Déclenché lorsque l’application mobile émet un événement d’expérience Edge pour envoyer des données à Adobe Experience Platform. En règle générale, l’appel API [sendEvent](https://developer.adobe.com/client-sdks/documentation/edge-network/api-reference/#sendevent) à partir de l’extension AEP Edge. |
-      | Manuel | déclenchement manuel | Deux éléments de données associés : une clé, qui est une constante qui définit le jeu de données (par exemple, le sexe, la couleur, le prix), et une valeur, qui est une variable qui appartient à l’ensemble (par exemple, masculin/féminin, vert, 100). |
+      | Platform | Envoi de données à Platform | Déclenché lorsque l’application mobile émet un événement d’expérience Edge pour envoyer des données à Adobe Experience Platform. En règle générale, l’appel API [sendEvent](https://developer.adobe.com/client-sdks/documentation/edge-network/api-reference/#sendevent) à partir de l’extension AEP Edge. |
+      | Manuel | Déclencheur manuel | Deux éléments de données associés : une clé, qui est une constante qui définit le jeu de données (par exemple, le genre, la couleur, le prix), et une valeur, qui est une variable qui appartient au jeu (par exemple, masculin/féminin, vert, 100). |
 
 +++
 
@@ -96,14 +96,14 @@ Pour configurer votre canal web in-app, procédez comme suit :
 
       ![](assets/in_app_web_surface_8.png)
 
-   1. Choisissez la **[!UICONTROL Et]** si vous souhaitez ajouter une condition personnalisée **[!UICONTROL Caractéristique]** et affinez mieux votre règle.
+   1. Choisissez la condition **[!UICONTROL Et]** si vous souhaitez ajouter une **[!UICONTROL caractéristique]** personnalisée et mieux affiner votre règle.
 
       +++Voir les caractéristiques disponibles.
 
       | Package | Caractéristique | Définition |
       |---|---|---|
-      | Plateforme | Type d’événement XDM | Déclenché lorsque le type d’événement spécifié est satisfait. |
-      | Plateforme | Valeur XDM | Déclenché lorsque la valeur XDM spécifiée est atteinte. |
+      | Platform | Type d’événement XDM | Déclenché lorsque le type d’événement spécifié est rencontré. |
+      | Platform | Valeur XDM | Déclenché lorsque la valeur XDM spécifie est rencontrée. |
 +++
 
       ![](assets/in_app_web_surface_9.png)

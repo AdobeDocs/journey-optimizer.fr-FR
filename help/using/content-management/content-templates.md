@@ -9,9 +9,9 @@ role: User
 level: Beginner
 exl-id: 327de13a-1c99-4d5e-86cf-8180fb7aaf23
 source-git-commit: 56505b6b698568678434510643433fa0ad639cbd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1362'
-ht-degree: 50%
+ht-degree: 100%
 
 ---
 
@@ -43,15 +43,15 @@ Pour accéder à la liste des modèles de contenu, sélectionnez **[!UICONTROL G
 
 ![](assets/content-template-list.png)
 
-Tous les modèles qui ont été créés sur l’environnement de test actuel, à partir d’un parcours ou d’une campagne à l’aide de la variable **[!UICONTROL Enregistrer en tant que modèle]** de l’option **[!UICONTROL Modèles de contenu]** menu - s’affichent. [Découvrez comment créer des modèles](#create-content-templates)
+Tous les modèles qui ont été créés sur le sandbox actuel à partir d’un parcours ou d’une campagne à l’aide de l’option **[!UICONTROL Enregistrer en tant que modèle]** du menu **[!UICONTROL Modèles de contenu]** s’affichent. [Découvrir comment créer des modèles](#create-content-templates)
 
-Vous pouvez trier les modèles de contenu en procédant comme suit :
+Vous pouvez trier les modèles de contenu par :
 * Type
 * Canal
 * Date de création ou de modification
 * Balises - [En savoir plus sur les balises](../start/search-filter-categorize.md#tags)
 
-Vous pouvez également choisir d’afficher uniquement les éléments que vous avez vous-même créés ou modifiés.
+Vous pouvez également choisir d’afficher uniquement les éléments que vous avez créés ou modifiés.
 
 ![](assets/content-template-list-filters.png)
 
@@ -69,7 +69,7 @@ When you update a content, you may have to wait a few seconds before the changes
 
   ![](assets/content-template-edit.png)
 
-* Pour supprimer un modèle, sélectionnez l’option **[!UICONTROL Autres actions]** en regard du modèle souhaité et sélectionnez **[!UICONTROL Supprimer]**.
+* Pour supprimer un modèle, sélectionnez le bouton **[!UICONTROL Plus d’actions]** situé en regard du modèle souhaité et sélectionnez **[!UICONTROL Supprimer]**.
 
   ![](assets/content-template-list-delete.png)
 
@@ -90,7 +90,7 @@ Vous pouvez créer des modèles de contenu de deux manières :
 
 * Lors de la conception de votre contenu dans une campagne ou un parcours, enregistrez-le en tant que modèle. [Voici comment procéder.](#save-as-template)
 
-Une fois enregistré, votre modèle de contenu peut être utilisé dans une campagne ou un parcours. Qu’il soit créé à partir de zéro ou d’un contenu précédent, vous pouvez maintenant utiliser ce modèle lors de la création de tout contenu dans [!DNL Journey Optimizer]. [Voici comment procéder.](#use-content-templates)
+Une fois enregistré, votre modèle de contenu peut être utilisé dans une campagne ou un parcours. Qu’il soit créé entièrement ou à partir d’un contenu précédent, vous pouvez maintenant utiliser ce modèle lors de la création d’un contenu dans [!DNL Journey Optimizer]. [Voici comment procéder.](#use-content-templates)
 
 >[!NOTE]
 >
@@ -112,40 +112,40 @@ Pour créer entièrement un nouveau modèle de contenu, procédez comme suit.
 
    >[!NOTE]
    >
-   >Actuellement, tous les canaux sont disponibles, à l&#39;exception du Web.
+   >Actuellement, tous les canaux sont disponibles, à l’exception du canal web.
 
-1. Choisissez une **[!UICONTROL Type]** pour le canal sélectionné.
+1. Choisissez un **[!UICONTROL Type]** pour le canal sélectionné.
 
    ![](assets/content-template-type.png)
 
-   * Pour **[!UICONTROL Email]**, si vous sélectionnez **[!UICONTROL Contenu]**, vous pouvez définir la variable [Objet](../email/create-email.md#define-email-content) dans votre modèle. Si vous sélectionnez **[!UICONTROL HTML]**, vous pouvez uniquement définir le contenu du corps de l&#39;email.
+   * Pour **[!UICONTROL E-mail]**, si vous sélectionnez **[!UICONTROL Contenu]**, vous pouvez définir l’[Objet](../email/create-email.md#define-email-content) dans le cadre de votre modèle. Si vous sélectionnez **[!UICONTROL HTML]**, vous pouvez définir le contenu du corps de l’e-mail uniquement.
 
-   * Pour **[!UICONTROL SMS]**, **[!UICONTROL Push]**, **[!UICONTROL In-App]** et **[!UICONTROL Courrier]**, seul le type par défaut est disponible pour le canal actuel. Vous devez toujours la sélectionner.
+   * Pour **[!UICONTROL SMS]**, **[!UICONTROL Push]**, **[!UICONTROL In-app]** et **[!UICONTROL Courrier]**, seul le type par défaut est disponible pour le canal actuel. Vous devez toujours le sélectionner.
 
 1. Sélectionnez ou créez des balises Adobe Experience Platform à partir du champ **[!UICONTROL Balises]** pour classer votre modèle en vue d’une recherche améliorée. [En savoir plus](../start/search-filter-categorize.md#tags)
 
-1. Pour attribuer des libellés d’utilisation de données personnalisés ou de base au modèle, vous pouvez sélectionner **[!UICONTROL Gérer l’accès]**. [En savoir plus sur le contrôle d’accès au niveau de l’objet (OLAC)](../administration/object-based-access.md).
+1. Pour attribuer des libellés d’utilisation des données personnalisés ou de base au modèle, vous pouvez sélectionner **[!UICONTROL Gérer l’accès]**. [En savoir plus sur le contrôle d’accès au niveau de l’objet (OLAC)](../administration/object-based-access.md).
 
-1. Cliquez sur **[!UICONTROL Créer]** et concevez votre contenu selon les besoins, de la même manière que pour tout contenu à l’intérieur d’un parcours ou d’une campagne, selon le canal que vous avez sélectionné.
+1. Cliquez sur **[!UICONTROL Créer]** et concevez votre contenu selon vos besoins, de la même manière que pour tout contenu dans un parcours ou une campagne, selon le canal que vous avez sélectionné.
 
    ![](assets/content-template-edition.png)
 
-   Découvrez comment créer du contenu pour les différents canaux dans les sections suivantes :
-   * [Définition du contenu d’un email](../email/get-started-email-design.md)
-   * [Définition du contenu push](../push/design-push.md)
-   * [Définir le contenu SMS](../sms/create-sms.md#sms-content)
-   * [Définir le contenu du courrier](../direct-mail/create-direct-mail.md)
-   * [Définition du contenu in-app](../in-app/design-in-app.md)
+   Découvrez comment créer du contenu pour les différents canaux dans les sections suivantes :
+   * [Définir le contenu d’un e-mail](../email/get-started-email-design.md)
+   * [Définir le contenu d’une notification push](../push/design-push.md)
+   * [Définir le contenu d’un SMS](../sms/create-sms.md#sms-content)
+   * [Définir le contenu d’un courrier](../direct-mail/create-direct-mail.md)
+   * [Définir le contenu in-app](../in-app/design-in-app.md)
 
-1. Si vous créez une **[!UICONTROL Email]** avec le modèle **[!UICONTROL HTML]** vous pouvez tester votre contenu. [Voici comment procéder.](#test-template)
+1. Si vous créez un modèle **[!UICONTROL E-mail]** avec le type **[!UICONTROL HTML]**, vous pouvez tester votre contenu. [Voici comment procéder.](#test-template)
 
 1. Une fois votre modèle prêt, cliquez sur **[!UICONTROL Enregistrer]**.
 
-1. Cliquez sur la flèche en regard du nom du modèle pour revenir au **[!UICONTROL Détails]** écran.
+1. Cliquez sur la flèche en regard du nom du modèle pour revenir à l’écran **[!UICONTROL Détails]**.
 
    ![](assets/content-template-back.png)
 
-Ce modèle est maintenant prêt à être utilisé lors de la création de contenu dans [!DNL Journey Optimizer]. [Voici comment procéder.](#use-content-templates)
+Ce modèle est maintenant prêt à être utilisé lors de la création d’un contenu dans [!DNL Journey Optimizer]. [Voici comment procéder.](#use-content-templates)
 
 ### Enregistrer en tant que modèle {#save-as-template}
 
@@ -154,15 +154,15 @@ Ce modèle est maintenant prêt à être utilisé lors de la création de conten
 >title="Découvrez comment migrer vos messages"
 >abstract="Le 25 juillet 2022, le menu Messages a disparu et les messages sont désormais créés directement à partir d’un parcours. Si vous souhaitez réutiliser vos messages hérités dans les parcours, vous devez les enregistrer en tant que modèles."
 
-Lors de la conception d&#39;un contenu dans une campagne ou un parcours, vous pouvez l&#39;enregistrer pour une réutilisation ultérieure. Pour ce faire, suivez les étapes ci-après.
+Lors de la conception d’un contenu dans une campagne ou un parcours, vous pouvez l’enregistrer pour une réutilisation ultérieure. Pour ce faire, suivez les étapes ci-après.
 
-1. À partir du message **[!UICONTROL Modifier le contenu]** , cliquez sur l’écran **[!UICONTROL Modèle de contenu]** bouton .
+1. Dans l’écran **[!UICONTROL Modifier le contenu]** du message, cliquez sur le bouton **[!UICONTROL Modèle de contenu]**.
 
 1. Sélectionnez **[!UICONTROL Enregistrer en tant que modèle de contenu]** dans le menu déroulant.
 
    ![](assets/content-template-button-save.png)
 
-   Si vous vous trouvez dans la variable [Concepteur d&#39;email](../email/get-started-email-design.md), vous pouvez également sélectionner cette option dans le **[!UICONTROL Plus]** Liste déroulante en haut à droite de l’écran.
+   Si vous vous trouvez dans le [Concepteur d’e-mail](../email/get-started-email-design.md), vous pouvez également sélectionner cette option dans la liste déroulante **[!UICONTROL Plus]** située en haut à droite de l’écran.
 
    ![](assets/content-template-more-button-save.png)
 
@@ -172,35 +172,35 @@ Lors de la conception d&#39;un contenu dans une campagne ou un parcours, vous po
 
    >[!NOTE]
    >
-   >Le canal et le type actuels sont automatiquement renseignés et ne peuvent pas être modifiés. Pour les modèles de courrier électronique créés à partir du [Concepteur d&#39;email](../email/get-started-email-design.md), la variable **[!UICONTROL HTML]** type est automatiquement sélectionné.
+   >Le canal et le type actuels sont automatiquement renseignés et ne peuvent pas être modifiés. Pour les modèles d’e-mail créés à partir du [Concepteur d’e-mail](../email/get-started-email-design.md), le type **[!UICONTROL HTML]** est automatiquement sélectionné.
 
 1. Sélectionnez ou créez une balise Adobe Experience Platform à partir du champ **Balises** pour classer votre modèle. [En savoir plus](../start/search-filter-categorize.md#tags).
 
-1. Pour attribuer des libellés d’utilisation de données personnalisés ou de base au modèle, vous pouvez sélectionner **[!UICONTROL Gérer l’accès]**. [En savoir plus](../administration/object-based-access.md).
+1. Pour attribuer des libellés d’utilisation des données personnalisés ou de base au modèle, vous pouvez sélectionner **[!UICONTROL Gérer l’accès]**. [En savoir plus](../administration/object-based-access.md).
 
 1. Cliquez sur **[!UICONTROL Enregistrer]**.
 
 1. Le modèle est enregistré dans la liste **[!UICONTROL Modèles de contenu]**, accessible à partir du menu dédié [!DNL Journey Optimizer]. Il devient alors un modèle de contenu autonome accessible pouvant être édité et supprimé comme tout autre élément de cette liste. [En savoir plus](#access-manage-templates).
 
-Vous pouvez désormais utiliser ce modèle lorsque vous créez du contenu dans [!DNL Journey Optimizer]. [Voici comment procéder](#use-content-templates)
+Vous pouvez désormais utiliser ce modèle lors de la création de contenu dans [!DNL Journey Optimizer]. [Voici comment procéder](#use-content-templates)
 
 >[!NOTE]
 >
->Toute modification apportée à ce nouveau modèle n’est pas propagée au contenu d’où elle provient. De même, lorsque le contenu d’origine est modifié dans ce contenu, le nouveau modèle n’est pas modifié.
+>Toute modification apportée à ce nouveau modèle n’est pas propagée dans le contenu d’où il provient. De même, lorsque le contenu d’origine est modifié dans ce contenu, le nouveau modèle n’est pas modifié.
 
-## Tester les modèles de contenu d&#39;email {#test-template}
+## Tester des modèles de contenu d’e-mail {#test-template}
 
-Vous pouvez tester le rendu de certains de vos modèles d&#39;email, qu&#39;ils soient créés entièrement ou à partir d&#39;un contenu existant. Pour ce faire, procédez comme suit.
+Vous pouvez tester le rendu de certains de vos modèles d’e-mail, qu’ils aient été créés entièrement ou à partir d’un contenu existant. Pour ce faire, procédez comme suit :
 
 >[!CAUTION]
 >
->Actuellement, le test des modèles de contenu n’est disponible que pour **[!UICONTROL Email]** avec le modèle **[!UICONTROL HTML]** type.
+>Actuellement, le test des modèles de contenu n’est disponible que pour les modèles **[!UICONTROL E-mail]** avec le type **[!UICONTROL HTML]**.
 
-1. Accédez à la liste des modèles de contenu via le **[!UICONTROL Gestion de contenu]** > **[!UICONTROL Modèles de contenu]** et sélectionnez un modèle d&#39;email.
+1. Pour accéder à la liste des modèles de contenu, consultez le menu **[!UICONTROL Gestion de contenu]** > **[!UICONTROL Modèles de contenu]** et sélectionnez n’importe quel modèle d’e-mail.
 
 1. Cliquez sur **[!UICONTROL Modifier le contenu]** dans les **[!UICONTROL Propriétés du modèle]**.
 
-1. Cliquez sur **[!UICONTROL Simulation du contenu]** et sélectionnez un profil de test pour vérifier votre rendu. [En savoir plus](../content-management/preview-test.md).
+1. Cliquez sur **[!UICONTROL Simuler le contenu]** et sélectionnez un profil de test pour vérifier le rendu. [En savoir plus](../content-management/preview-test.md).
 
    ![](assets/content-template-stimulate.png)
 
@@ -218,17 +218,17 @@ Vous pouvez tester le rendu de certains de vos modèles d&#39;email, qu&#39;ils 
 
 ## Utiliser des modèles de contenu {#use-content-templates}
 
-Lors de la création de contenu pour n’importe quel canal (sauf Web) dans [!DNL Journey Optimizer], vous pouvez utiliser un modèle personnalisé qui :
+Lors de la création de contenu pour n’importe quel canal (à l’exception du canal web) dans [!DNL Journey Optimizer], vous pouvez utiliser un modèle personnalisé que :
 
 * vous avez créé à l’aide du menu **[!UICONTROL Modèles de contenu]** ; [En savoir plus](#create-template-from-scratch).
 
-* Enregistré dans un contenu existant d’un parcours ou d’une campagne à l’aide du **[!UICONTROL Enregistrer en tant que modèle de contenu]** . [En savoir plus](#save-as-template)
+* vous avez enregistré à partir d’un contenu existant dans un parcours ou une campagne à l’aide de l’option **[!UICONTROL Enregistrer en tant que modèle de contenu]**. [En savoir plus](#save-as-template)
 
 Pour commencer à créer votre contenu avec l’un de ces modèles, procédez comme suit.
 
-1. Dans une campagne ou un parcours, après avoir sélectionné **[!UICONTROL Modifier le contenu]**, cliquez sur le **[!UICONTROL Modèle de contenu]** bouton .
+1. Dans une campagne ou un parcours, après avoir sélectionné **[!UICONTROL Modifier le contenu]**, cliquez sur le bouton **[!UICONTROL Modèle de contenu]**.
 
-1. Sélectionner **[!UICONTROL Appliquer le modèle de contenu]**.
+1. Sélectionnez **[!UICONTROL Appliquer le modèle de contenu]**.
 
    ![](assets/content-template-button.png)
 
@@ -240,13 +240,13 @@ Pour commencer à créer votre contenu avec l’un de ces modèles, procédez co
    >
    >Depuis cet écran, vous pouvez également créer un modèle à partir du bouton dédié qui ouvre un nouvel onglet.
 
-1. Cliquez sur **[!UICONTROL Valider]**. Le modèle est appliqué à votre contenu.
+1. Cliquez sur **[!UICONTROL Confirmer]**. Le modèle est appliqué à votre contenu.
 
 1. Continuez à modifier votre contenu selon vos besoins.
 
 >[!NOTE]
 >
->Pour commencer à concevoir un email à partir d’un modèle de contenu à l’aide de la fonction [Concepteur d&#39;email](../email/get-started-email-design.md), suivez les étapes décrites dans la section [cette section](../email/use-email-templates.md).
+>Pour commencer à concevoir un e-mail à partir d’un modèle de contenu à l’aide du [Concepteur d’e-mail](../email/get-started-email-design.md), suivez les étapes décrites dans [cette section](../email/use-email-templates.md).
 
 ## Vidéo pratique {#video-templates}
 
