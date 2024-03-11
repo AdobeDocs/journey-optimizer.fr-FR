@@ -12,7 +12,7 @@ exl-id: 49248fb6-5a91-45b2-9de8-2f078d59c0fc
 source-git-commit: dd47299b780dfe388632b0bad5d587606ece0b23
 workflow-type: tm+mt
 source-wordcount: '1213'
-ht-degree: 83%
+ht-degree: 91%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 83%
 
 [!DNL Journey Optimizer] vous permet de contrôler la fréquence à laquelle les utilisateurs recevront un message ou entreront dans un parcours en définissant des règles cross-canal qui excluront automatiquement les profils sur-sollicités des messages et actions.
 
-Par exemple, pour une marque, une règle peut ne pas envoyer plus de 4 messages marketing par mois à sa clientèle. Pour cela, vous pouvez utiliser une règle de fréquence qui limite le nombre de messages envoyés sur un ou plusieurs canaux au cours d&#39;une période calendaire mensuelle.
+Par exemple, pour une marque, une règle peut être de ne pas envoyer plus de 4 messages marketing par mois à sa clientèle. Pour cela, vous pouvez utiliser une règle de fréquence qui limite le nombre de messages envoyés sur un ou plusieurs canaux au cours d&#39;une période calendaire mensuelle.
 
 ![](assets/do-not-localize/sms-dm-rules.gif)
 
@@ -58,7 +58,7 @@ Pour en savoir plus sur les autorisations, consultez [cette section](../administ
 >[!CONTEXTUALHELP]
 >id="ajo_rules_capping"
 >title="Définir la limitation de votre règle"
->abstract="Indiquez le nombre maximal de messages envoyés à un profil client au cours de la période choisie. Le plafond de fréquence sera basé sur la période calendaire sélectionnée et sera réinitialisé au début de la période correspondante."
+>abstract="Spécifiez le nombre maximal de messages envoyés à un profil client au cours de la période choisie. La limite de fréquence sera basée sur la période calendaire sélectionnée et sera réinitialisée au début de la période correspondante."
 
 >[!CONTEXTUALHELP]
 >id="ajo_rules_channel"
@@ -71,7 +71,7 @@ Pour créer une nouvelle règle, procédez comme suit.
 
    ![](assets/message-rules-create.png)
 
-1. Définissez le nom de la règle et sélectionnez la catégorie de la règle de message.
+1. Définissez le nom de la règle et sélectionnez la catégorie de la règle relative aux messages.
 
    >[!NOTE]
    >
@@ -85,7 +85,7 @@ Pour créer une nouvelle règle, procédez comme suit.
 
    <!--![](assets/message-rules-capping.png)-->
 
-1. Sélectionnez le canal à utiliser pour cette règle : **[!UICONTROL Email]**, **[!UICONTROL Notification push]**, **[!UICONTROL SMS]** ou **[!UICONTROL Canal Courrier]**.
+1. Sélectionnez le canal à utiliser pour cette règle : **[!UICONTROL E-mail]**, **[!UICONTROL Notification push]**, **[!UICONTROL SMS]** ou **[!UICONTROL Courrier]**.
 
    ![](assets/message-rules-channels.png)
 
@@ -199,7 +199,7 @@ Vous pouvez combiner plusieurs règles de fréquence des messages, comme décrit
 
 1. Enregistrez et [activez](#activate-rule) la règle.
 
-1. [Créer un message](../building-journeys/journeys-message.md) pour chaque canal par lequel vous souhaitez communiquer et sélectionnez le **[!UICONTROL Marketing]** catégorie de chaque message. [Découvrez comment appliquer une règle de fréquence](#apply-frequency-rule)
+1. [Créez un message](../building-journeys/journeys-message.md) pour chaque canal par lequel vous souhaitez communiquer et sélectionnez la catégorie **[!UICONTROL Marketing]** pour chaque message. [Découvrir comment appliquer une règle de fréquence](#apply-frequency-rule)
 
    ![](assets/journey-message-category.png)
 
