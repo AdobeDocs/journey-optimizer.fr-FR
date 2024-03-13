@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 62124981df61960fcf61d404481417c70413a2a6
+source-git-commit: 3f844f65609f271e834ebf42749253fd64446a9a
 workflow-type: tm+mt
 source-wordcount: '4831'
 ht-degree: 99%
@@ -23,6 +23,7 @@ Cette page répertorie toutes les mises à jour récentes de la documentation de
 
 * La page Règles de fréquence des messages a été mise à jour avec une nouvelle sous-section sur la limite de fréquence quotidienne, disponible à la demande en plus de la limitation hebdomadaire ou mensuelle. [En savoir plus](../configuration/frequency-rules.md#daily-frequency-cap)
 * La page Utilisation des stratégies de consentement a été améliorée et mise à jour avec des liens utiles vers la documentation de l’Experience Platform. [En savoir plus](../action/consent.md)
+  <!--* The Access and manage templates section has been updated to reflect the fact that you can display content templates as a thumbnails with the Grid view mode. [Read more](../content-management/content-templates.md#template-thumbnails)-->
 
 ## Février 2024 {#feb-2024}
 

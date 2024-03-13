@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 327de13a-1c99-4d5e-86cf-8180fb7aaf23
-source-git-commit: 56505b6b698568678434510643433fa0ad639cbd
-workflow-type: ht
-source-wordcount: '1362'
-ht-degree: 100%
+source-git-commit: 3f844f65609f271e834ebf42749253fd64446a9a
+workflow-type: tm+mt
+source-wordcount: '1425'
+ht-degree: 96%
 
 ---
 
@@ -55,16 +55,6 @@ Vous pouvez également choisir d’afficher uniquement les éléments que vous a
 
 ![](assets/content-template-list-filters.png)
 
-<!--Select the **[!UICONTROL Grid view]** mode to display each template as a thumbnail. 
-
->[!NOTE]
->
->Currently proper thumbnails can only be generated for HTML-type email content templates.
-
-When you update a content, you may have to wait a few seconds before the changes are reflected in the thumbnail.
-
-![](assets/content-template-grid-view.png)-->
-
 * Pour modifier le contenu d’un modèle, cliquez sur l’élément de votre choix dans la liste, puis sélectionnez **[!UICONTROL Modifier le contenu]**.
 
   ![](assets/content-template-edit.png)
@@ -76,6 +66,22 @@ When you update a content, you may have to wait a few seconds before the changes
 >[!NOTE]
 >
 >Lorsqu’un modèle est modifié ou supprimé, les campagnes ou les parcours, y compris le contenu créé à l’aide de ce modèle, ne sont pas affectés.
+
+### Affichage de modèles sous forme de miniatures {#template-thumbnails}
+
+Sélectionnez la variable **[!UICONTROL Mode Grille]** pour afficher chaque modèle sous la forme d’une miniature.
+
+>[!AVAILABILITY]
+>
+>Cette fonctionnalité est publiée en disponibilité limitée pour un petit groupe de personnes.
+
+![](assets/content-template-grid-view.png)
+
+>[!NOTE]
+>
+>Actuellement, les miniatures appropriées ne peuvent être générées que pour les modèles de contenu d’email de type HTML.
+
+Lorsque vous mettez à jour un contenu, vous devrez peut-être attendre quelques secondes avant que les modifications ne soient répercutées dans la miniature.
 
 ## Créer des modèles de contenu {#create-content-templates}
 
