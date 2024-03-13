@@ -9,27 +9,33 @@ role: Data Engineer, Data Architect, Admin
 level: Experienced
 keywords: politiques, gouvernance, platform, healthcare shield, consentement
 exl-id: 01ca4b3e-3778-4537-81e9-97ef92c9aa9e
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: d549e4fdb7cd71e450cd00e4fa8707ae03ce0aff
 workflow-type: tm+mt
-source-wordcount: '911'
-ht-degree: 100%
+source-wordcount: '961'
+ht-degree: 82%
 
 ---
 
 # Utiliser les politiques de consentement {#consent-management}
 
-Adobe Experience Platform vous permet d’adopter et d’appliquer facilement des politiques marketing afin de respecter les préférences de consentement de vos clients. Les politiques de consentement sont définies dans Adobe Experience Platform. Consultez cette [documentation](https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/user-guide.html?lang=fr#consent-policy).
+<!--Adobe Experience Platform allows you to easily adopt and enforce marketing policies to respect the consent preferences of your customers. Consent policies are defined in Adobe Experience Platform. Refer to [this documentation](https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/user-guide.html#consent-policy).
 
-Dans Journey Optimizer, vous pouvez appliquer ces politiques de consentement à vos actions personnalisées. Par exemple, vous pouvez définir des politiques de consentement pour exclure les clients qui n’ont pas consenti à recevoir des communications par e-mail, push ou SMS.
+In Journey Optimizer, you can apply these consent policies to your custom actions. For example, you can define consent policies to exclude customers who have not consented to receive email, push or SMS communication.-->
 
->[!NOTE]
+Vos données peuvent être soumises à des restrictions d’utilisation définies par votre organisation ou par des réglementations légales. Il est donc important de s’assurer que vos opérations de données dans Journey Optimizer sont conformes à [stratégies d’utilisation des données](https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/overview.html?lang=fr){target="_blank"}. These policies are Adobe Experience Platform rules defining which [marketing actions](https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/overview.html#marketing-actions){target="_blank"} vous êtes autorisé à effectuer des opérations sur les données.
+
+Un type de stratégies d’utilisation des données est disponible : **stratégies de consentement**. Elles vous permettent d’adopter et d’appliquer facilement des stratégies marketing afin de respecter les préférences de consentement de vos clients. [En savoir plus sur l’application des stratégies](https://experienceleague.adobe.com/docs/experience-platform/data-governance/enforcement/auto-enforcement.html){target="_blank"}
+
+>[!IMPORTANT]
 >
->Les politiques de consentement ne sont actuellement disponibles que pour les organisations qui ont acheté l’offre de module complémentaire Healthcare Shield.
+>Actuellement, les stratégies de consentement ne sont disponibles que pour les organisations qui ont acheté l’Adobe. **Bouclier sanitaire** ou **Protection de la vie privée et protection** offres complémentaires.
 
-Dans Journey Optimizer, le consentement est défini à plusieurs niveaux :
+Par exemple, vous pouvez [création de stratégies de consentement](https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/user-guide.html?lang=fr#consent-policy){target="_blank"} dans Experience Platform pour exclure les clients qui n’ont pas consenti à recevoir des communications par email, push ou SMS.
 
-* Lors de la **configuration d’une action personnalisée**, vous pouvez définir un canal et une action marketing. Consultez cette [section](../action/consent.md#consent-custom-action).
-* Lors de l’ajout de la variable **action personnalisée dans un parcours**, vous pouvez définir une action marketing supplémentaire. Consultez cette [section](../action/consent.md#consent-journey).
+Dans Journey Optimizer, le consentement est défini à plusieurs niveaux. Vous pouvez appliquer des stratégies de consentement aux actions personnalisées de votre parcours :
+
+* When **configuration d’une action personnalisée**, vous pouvez définir un canal et une action marketing. [En savoir plus](#consent-custom-action)
+* Lors de l’ajout de la variable **action personnalisée dans un parcours**, vous pouvez définir une action marketing supplémentaire. [En savoir plus](#consent-journey)
 
 ## Remarques importantes {#important-notes}
 
