@@ -7,10 +7,10 @@ role: Data Engineer, Architect
 level: Experienced
 keywords: now, fonction, expression, parcours
 exl-id: 16dcc772-e48d-4f10-be75-62dd39473556
-source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
+source-git-commit: 4e7c4e7e6fcf488f572ccf3e9037e597dde06510
 workflow-type: tm+mt
 source-wordcount: '62'
-ht-degree: 100%
+ht-degree: 72%
 
 ---
 
@@ -44,12 +44,12 @@ Renvoie une valeur dateTime.
 
 `now()`
 
-Renvoie 2019-06-03T06:30Z.
+Renvoie 2023-06-03T06:30Z.
 
 `toString(now())`
 
-Renvoie « 2019-06-03T06:30Z »
+Renvoie &quot;2023-06-03T06:30Z&quot;
 
 `now("Europe/Paris")`
 
-Renvoie 2019-06-03T08:30+02:00.
+Renvoie 2023-06-03T08:30+02:00.

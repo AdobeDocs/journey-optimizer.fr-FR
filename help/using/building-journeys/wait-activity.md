@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: attente, activité, parcours, suivant, zone de travail
 exl-id: 7268489a-38c1-44da-b043-f57aaa12d7d5
-source-git-commit: cb1fed2460ddbf3b226fe191b9695008970937c1
+source-git-commit: 4e7c4e7e6fcf488f572ccf3e9037e597dde06510
 workflow-type: tm+mt
 source-wordcount: '489'
-ht-degree: 100%
+ht-degree: 83%
 
 ---
 
@@ -60,13 +60,13 @@ Select the date for the execution of the next activity.
 
 ## Attente personnalisée{#custom}
 
-Cette option vous permet de définir une date personnalisée (le 12 juillet 2020 à 17 heures, par exemple) à l&#39;aide d&#39;une expression avancée basée sur un champ provenant d&#39;un événement ou d&#39;une source de données. Elle ne vous permet pas de définir une durée personnalisée ; 7 jours, par exemple. L&#39;expression figurant dans l&#39;éditeur d&#39;expression doit fournir un format dateTimeOnly. Voir cette [page](expression/expressionadvanced.md). Pour plus d&#39;informations sur le format dateTimeOnly, voir cette [page](expression/data-types.md).
+Cette option vous permet de définir une date personnalisée, par exemple le 12 juillet 2023 à 17h, à l’aide d’une expression avancée basée sur un champ provenant d’un événement ou d’une source de données. Elle ne vous permet pas de définir une durée personnalisée ; 7 jours, par exemple. L&#39;expression figurant dans l&#39;éditeur d&#39;expression doit fournir un format dateTimeOnly. Voir cette [page](expression/expressionadvanced.md). Pour plus d&#39;informations sur le format dateTimeOnly, voir cette [page](expression/data-types.md).
 
 >[!NOTE]
 >
->Vous pouvez tirer parti d&#39;une expression dateTimeOnly ou utiliser une fonction pour effectuer une conversion dans ce format. Par exemple : toDateTimeOnly(@event{Event.offerOpened.activity.endTime}), le champ de l&#39;événement se présentant sous la forme 2016-08-12T09:46:06Z.
+>Vous pouvez tirer parti d&#39;une expression dateTimeOnly ou utiliser une fonction pour effectuer une conversion dans ce format. Par exemple : toDateTimeOnly(@event{Event.offerOpening.activity.endTime}), le champ de l’événement se présentant sous la forme 2023-08-12T09:46:06Z.
 >
->La définition du **fuseau horaire** est attendue dans les propriétés de votre parcours. Par conséquent, il n&#39;est pas possible actuellement de pointer directement, à partir de l&#39;interface, vers un horodatage ISO-8601 complet associant l&#39;heure et le décalage dû au fuseau horaire, tel que 2016-08-12T09:46:06.982-05. Voir [cette page](../building-journeys/timezone-management.md).
+>La définition du **fuseau horaire** est attendue dans les propriétés de votre parcours. Par conséquent, il n’est pas possible aujourd’hui, à partir de l’interface, de pointer directement vers un horodatage ISO-8601 complet associant l’heure et le décalage de fuseau horaire comme 2023-08-12T09:46:06.982-05 Consultez [cette page](../building-journeys/timezone-management.md).
 
 ![](assets/journey57.png)
 

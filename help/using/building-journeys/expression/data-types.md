@@ -8,10 +8,10 @@ role: Data Engineer, Architect
 level: Experienced
 keywords: expression, données, type de données, parcours
 exl-id: fdfc3287-d733-45fb-ad11-b4238398820a
-source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
+source-git-commit: 4e7c4e7e6fcf488f572ccf3e9037e597dde06510
 workflow-type: tm+mt
-source-wordcount: '616'
-ht-degree: 100%
+source-wordcount: '620'
+ht-degree: 95%
 
 ---
 
@@ -165,7 +165,7 @@ Elle doit être encapsulée dans une fonction toDateTimeOnly.
 
 Format de sérialisation : format date-heure avec décalage étendu ISO-8601.
 
-Il utilise DateTimeFormatter SO_LOCAL_DATE_TIME pour désérialiser et sérialiser la valeur. [En savoir plus](https://docs.oracle.com/javase/8/docs/api/java/time/format/DateTimeFormatter.html#ISO_LOCAL_DATE_TIME&quot;)
+Il utilise DateTimeFormatter SO_LOCAL_DATE_TIME pour désérialiser et sérialiser la valeur. [En savoir plus](https://docs.oracle.com/javase/8/docs/api/java/time/format/DateTimeFormatter.html#ISO_LOCAL_DATE_TIME&quot;){_blank}.
 
 **Représentation littérale**
 
@@ -176,8 +176,8 @@ date("<dateTimeOnly in ISO-8601 format>")
 **Exemples**
 
 ```json
-date("2021-02-19T00.00.000")
-date("2021-02-19T00.00")
+date("2024-02-19T00.00.000")
+date("2024-02-19T00.00")
 ```
 
 ## dateTime {#date-time}
@@ -186,7 +186,7 @@ date("2021-02-19T00.00")
 
 Constante de date et d’heure qui tient également compte du fuseau horaire. Elle représente une valeur de date et d’heure avec un décalage par rapport à UTC.
 
-Elle peut être vue comme un point de la ligne du temps avec les informations supplémentaires du décalage. C’est une façon de représenter un « moment » précis en un point du globe.
+Elle peut être vue comme un point de la ligne du temps avec les informations supplémentaires du décalage. C&#39;est une façon de représenter un &quot;moment&quot; spécifique à un certain endroit du monde.
 
 Format JSON : chaîne.
 
@@ -194,9 +194,9 @@ Elle doit être encapsulée dans une fonction toDateTime.
 
 Format de sérialisation : format date-heure avec décalage étendu ISO-8601.
 
-Il utilise DateTimeFormatter ISO_OFFSET_DATE_TIME pour désérialiser et sérialiser la valeur. [En savoir plus](https://docs.oracle.com/javase/8/docs/api/java/time/format/DateTimeFormatter.html#ISO_OFFSET_DATE_TIME)
+Il utilise DateTimeFormatter ISO_OFFSET_DATE_TIME pour désérialiser et sérialiser la valeur. [En savoir plus](https://docs.oracle.com/javase/8/docs/api/java/time/format/DateTimeFormatter.html#ISO_OFFSET_DATE_TIME){_blank}.
 
-Vous pouvez également transmettre un entier qui transmet une valeur d’époque. [En savoir plus](https://www.epochconverter.com)
+Vous pouvez également transmettre un entier qui transmet une valeur d’époque. [En savoir plus](https://www.epochconverter.com){_blank}.
 
 Le fuseau horaire peut être spécifié par un décalage ou un code de fuseau horaire (par exemple : Europe/Paris, Z ; ce qui signifie UTC).
 
@@ -217,7 +217,7 @@ toDateTime(<integer value of an epoch in milliseconds>)
 **Exemples**
 
 ```json
-date("2021-02-19T00.00.000Z")
+date("2024-02-19T00.00.000Z")
 ```
 
 ```json
@@ -225,19 +225,19 @@ toDateTime("1977-04-22T06:00:00Z")
 ```
 
 ```json
-toDateTime("2011-12-03T15:15:30Z")
+toDateTime("2023-12-03T15:15:30Z")
 ```
 
 ```json
-toDateTime("2011-12-03T15:15:30.123Z")
+toDateTime("2023-12-03T15:15:30.123Z")
 ```
 
 ```json
-toDateTime("2011-12-03T15:15:30.123+02:00")
+toDateTime("2023-12-03T15:15:30.123+02:00")
 ```
 
 ```json
-toDateTime("2011-12-03T15:15:30.123-00:20")
+toDateTime("2023-12-03T15:15:30.123-00:20")
 ```
 
 ```json
@@ -258,7 +258,7 @@ Elle doit être encapsulée dans une fonction toDuration.
 
 Format de sérialisation : pour désérialiser un identifiant de fuseau horaire, la fonction Java java.time est utilisée.
 
-Duration.parse : les formats acceptés sont basés sur le format de durée ISO-8601 PnDTnHnMn.nS, avec des jours durant exactement 24 heures. [En savoir plus](https://docs.oracle.com/javase/8/docs/api/java/time/Duration.html#parse-java.lang.CharSequence-)
+Duration.parse : les formats acceptés sont basés sur le format de durée ISO-8601 PnDTnHnMn.nS, avec des jours durant exactement 24 heures. [En savoir plus](https://docs.oracle.com/javase/8/docs/api/java/time/Duration.html#parse-java.lang.CharSequence-){_blank}.
 
 **Représentation littérale**
 
