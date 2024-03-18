@@ -8,16 +8,16 @@ topic: Content Management
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 31e94565037aa8493e8b09c813047a4600549e8d
+source-git-commit: 02b5886dc9d32d3b06dd4930da882019e344bab3
 workflow-type: tm+mt
-source-wordcount: '279'
-ht-degree: 36%
+source-wordcount: '278'
+ht-degree: 27%
 
 ---
 
 # Notes de mise à jour anticipées {#e-release-notes}
 
-[!DNL Adobe Journey Optimizer] offre en permanence de nouvelles fonctionnalités, des améliorations aux fonctionnalités existantes et des correctifs. Toutes les modifications sont consolidées la dernière semaine de chaque mois dans les [notes de mise à jour](release-notes.md).
+[!DNL Adobe Journey Optimizer] offre en permanence de nouvelles fonctionnalités, des améliorations aux fonctionnalités existantes et des correctifs. Toutes les modifications sont consolidées à la fin de chaque mois dans la variable [notes de mise à jour](release-notes.md).
 
 Les notes de mise à jour ci-dessous peuvent être modifiées sans avertissement préalable jusqu’à la date de disponibilité de la version. Les liens, les copies d’écran et la documentation mise à jour sont publiés dans les [notes de mise à jour](release-notes.md), à la date de publication.
 
@@ -25,9 +25,9 @@ Les notes de mise à jour ci-dessous peuvent être modifiées sans avertissement
 
 **Date de publication**: 19-20 mars 2024
 
-### Nouvelles fonctionnalités{#e-features}
+### Nouvelle fonctionnalité {#e-features}
 
-Cette version apporte les nouvelles fonctionnalités répertoriées ci-dessous.
+Cette version comprend la nouvelle fonctionnalité présentée ci-dessous.
 
 <table>
 <thead>
@@ -41,7 +41,7 @@ Cette version apporte les nouvelles fonctionnalités répertoriées ci-dessous.
 <p>Grâce au nouveau canal d’expérience basé sur le code, Adobe Journey Optimizer vous permet d’effectuer des tests et des personnalisations avancés pour l’une de vos propriétés entrantes, ce qui vous permet de diffuser facilement des expériences personnalisées sur différents points de contact tels que des applications web, des applications mobiles, des applications de bureau, des consoles vidéo, des périphériques connectés à la télévision, des téléviseurs intelligents, des kiosques, des distributeurs automatiques, des périphériques IoT, etc.</p>
 <P>Les fonctionnalités principales sont les suivantes :</p>
 <ul><li> Personnalisation universelle : étendez les expériences personnalisées sur tous les points de contact, en assurant un parcours utilisateur cohérent et personnalisé.</li>
-<li>&gt;Précision granulaire des modifications : modifiez du contenu spécifique à des emplacements spécifiques dans vos applications ou pages web.</li>
+<li>Précision granulaire de la modification : modifiez du contenu spécifique à des emplacements spécifiques dans vos applications ou pages web.</li>
 <li>Mise en oeuvre polyvalente : prise en charge des méthodes de mise en oeuvre côté serveur, basées sur les API ou basées sur le SDK pour une intégration transparente à votre environnement de développement.</li></ul></p>
 <p>Pour plus d’informations, consultez la <a href="../code-based/get-started-code-based.md">documentation détaillée</a>.</p>
 <!--img src="assets/do-not-localize/web_inapp.gif"-->
