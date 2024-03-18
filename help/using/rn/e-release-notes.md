@@ -8,10 +8,10 @@ topic: Content Management
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: d34681b9b8392d3971619efcea8cc6c3f0b1e661
+source-git-commit: 31e94565037aa8493e8b09c813047a4600549e8d
 workflow-type: tm+mt
-source-wordcount: '220'
-ht-degree: 67%
+source-wordcount: '279'
+ht-degree: 36%
 
 ---
 
@@ -32,14 +32,17 @@ Cette version apporte les nouvelles fonctionnalités répertoriées ci-dessous.
 <table>
 <thead>
 <tr>
-<th><strong>Expérience basée sur le code</strong><br/></th>
+<th><strong>Expériences basées sur le code</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Vous pouvez désormais personnaliser et tester les expériences que vous souhaitez diffuser à vos clients sur tous vos points de contact : applications web, applications mobiles, applications de bureau, consoles vidéo, appareils connectés à la télévision, téléviseurs intelligents, kiosques, guichets automatiques, assistants vocaux, appareils IoT, etc.</p>
-<p>Grâce à la fonctionnalité d’expérience basée sur le code, vous pouvez définir des expériences entrantes à l’aide d’un éditeur non visuel simple et intuitif. Cela vous permet d’insérer et de modifier des éléments spécifiques à des emplacements individuels et plus granulaires de vos applications ou pages web, quel que soit le type d’applications dont vous disposez, plutôt que d’appliquer des modifications à l’ensemble d’un contenu.</p><br/><br/></p>
+<p>Grâce au nouveau canal d’expérience basé sur le code, Adobe Journey Optimizer vous permet d’effectuer des tests et des personnalisations avancés pour l’une de vos propriétés entrantes, ce qui vous permet de diffuser facilement des expériences personnalisées sur différents points de contact tels que des applications web, des applications mobiles, des applications de bureau, des consoles vidéo, des périphériques connectés à la télévision, des téléviseurs intelligents, des kiosques, des distributeurs automatiques, des périphériques IoT, etc.</p>
+<P>Les fonctionnalités principales sont les suivantes :</p>
+<ul><li> Personnalisation universelle : étendez les expériences personnalisées sur tous les points de contact, en assurant un parcours utilisateur cohérent et personnalisé.</li>
+<li>&gt;Précision granulaire des modifications : modifiez du contenu spécifique à des emplacements spécifiques dans vos applications ou pages web.</li>
+<li>Mise en oeuvre polyvalente : prise en charge des méthodes de mise en oeuvre côté serveur, basées sur les API ou basées sur le SDK pour une intégration transparente à votre environnement de développement.</li></ul></p>
 <p>Pour plus d’informations, consultez la <a href="../code-based/get-started-code-based.md">documentation détaillée</a>.</p>
 <!--img src="assets/do-not-localize/web_inapp.gif"-->
 </tr>
@@ -52,5 +55,12 @@ Cette version est fournie avec les améliorations répertoriées ci-dessous.
 
 **Modèles de contenu**
 
-* **Miniature** : une **vue miniature** est désormais disponible pour les modèles de contenu et les fragments afin d’améliorer l’accès visuel.
+* **Miniature** - A **vue miniature** est désormais disponible pour les modèles de contenu et les fragments afin d’améliorer l’accès visuel. [En savoir plus](../content-management/content-templates.md#template-thumbnails)
 
+**Parcours**
+
+De nouveaux états intermédiaires ont été ajoutés au cycle de vie de création de parcours :
+
+* **Publication** entre les **Version préliminaire** et la variable **En direct** status
+* **Arrêt** entre les **En direct** et la variable **Stoppé** status
+* **Activation du mode test** ou **Désactivation du mode test** les états entre les **Version préliminaire** et la variable **Version préliminaire (test)** status
