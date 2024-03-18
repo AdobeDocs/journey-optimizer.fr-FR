@@ -8,10 +8,10 @@ topic: Content Management
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 4b3ec38154d01eb3f15c30c26b427ee34a324be7
+source-git-commit: 4f7a62cdfbd90b2d33341342f6fba769e8bf0132
 workflow-type: tm+mt
-source-wordcount: '278'
-ht-degree: 27%
+source-wordcount: '289'
+ht-degree: 26%
 
 ---
 
@@ -64,3 +64,5 @@ De nouveaux états intermédiaires ont été ajoutés au cycle de vie de créati
 * **Publication** entre les **Version préliminaire** et la variable **En direct** status
 * **Arrêt** entre les **En direct** et la variable **Stoppé** status
 * **Activation du mode test** ou **Désactivation du mode test** les états entre les **Version préliminaire** et la variable **Version préliminaire (test)** status
+
+Lorsqu’un parcours se trouve dans un état intermédiaire, il est en lecture seule.
