@@ -6,7 +6,7 @@ feature: Release Notes
 topic: Content Management
 description: Notes de mise à jour de Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: dd47299b780dfe388632b0bad5d587606ece0b23
+source-git-commit: 2dfcbd1631c7fefccaf02782a3218c9a1c1dc7aa
 workflow-type: tm+mt
 source-wordcount: '1146'
 ht-degree: 96%
@@ -110,16 +110,6 @@ Antérieurement disponibles en version bêta, les améliorations suivantes sont 
 <!--**Decision management**
 
 * **Capping rules** - You can now add **multiple capping rules** for one offer. This allows you to increase the level of control over the way offers are sent.-->
-
-<!--
-**Content templates**
-
-* **Thumbnails** - A **Grid view** is now available for content templates for improved visual access.
-
-   >[!AVAILABILITY]
-   >
-   >This capability is released in Limited Availability (LA) for a small set of customers.
--->
 
 
 ## Notes de mise à jour de janvier 2024 {#jan-2024}

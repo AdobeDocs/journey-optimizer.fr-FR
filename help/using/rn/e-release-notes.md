@@ -8,10 +8,10 @@ topic: Content Management
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 4f7a62cdfbd90b2d33341342f6fba769e8bf0132
+source-git-commit: 2dfcbd1631c7fefccaf02782a3218c9a1c1dc7aa
 workflow-type: tm+mt
-source-wordcount: '289'
-ht-degree: 26%
+source-wordcount: '311'
+ht-degree: 29%
 
 ---
 
@@ -55,7 +55,11 @@ Cette version est fournie avec les améliorations répertoriées ci-dessous.
 
 **Modèles de contenu**
 
-* **Miniature** - A **vue miniature** est désormais disponible pour les modèles de contenu et les fragments afin d’améliorer l’accès visuel. [En savoir plus](../content-management/content-templates.md#template-thumbnails)
+* **Miniatures** - A **Mode Grille** Le mode est désormais disponible pour les modèles de contenu, affichant des miniatures pour un accès visuel amélioré. Actuellement, seuls les modèles de HTML email sont pris en charge. [En savoir plus](../content-management/content-templates.md#template-thumbnails)
+
+  >[!AVAILABILITY]
+  >
+  >Cette fonctionnalité est publiée en disponibilité limitée pour un petit groupe de personnes.
 
 **Parcours**
 
