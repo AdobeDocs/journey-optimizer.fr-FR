@@ -8,7 +8,7 @@ level: Experienced
 keywords: inNextDays, fonction, expression, parcours
 exl-id: 0cb3e0db-dc5b-4d4e-a057-af030d9bdb21
 source-git-commit: 4e7c4e7e6fcf488f572ccf3e9037e597dde06510
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '48'
 ht-degree: 100%
 
