@@ -8,10 +8,10 @@ role: User
 level: Beginner
 keywords: platform, lac de données, créer, lac, jeux de données, profil
 exl-id: 66b5c691-ddc4-4e9b-9386-2ce6c307451c
-source-git-commit: d3f0adab52ed8e44a6097c5079396d1e9c06e0a7
-workflow-type: ht
-source-wordcount: '906'
-ht-degree: 100%
+source-git-commit: f2d4531bd3b0b84dc1b52e818cbbeee36733314f
+workflow-type: tm+mt
+source-wordcount: '872'
+ht-degree: 60%
 
 ---
 
@@ -37,32 +37,33 @@ Des informations détaillées sur chaque destination sont disponibles dans la do
 * [Google Cloud Storage](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/cloud-storage/google-cloud-storage.html?lang=fr)
 * [SFTP](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/cloud-storage/sftp.html?lang=fr)
 
-## Jeux de données Journey Optimizer disponibles pour l’export {#datasets}
+## Jeux de données disponibles pour l’exportation {#datasets}
 
-Découvrez dans le tableau ci-dessous quels jeux de données Journey Optimizer vous pouvez exporter selon votre niveau de produit (voir [Description du produit Journey Optimizer](https://helpx.adobe.com/fr/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"})
-|Jeu de données|Description|Niveau|
-| ------- | ------- | ------- |
-| Jeu de données d’événement de retour BCC AJO | Jeu de données d’événement de retour BCC AJO | Prime |
-| Jeu de données de classification AJO | Jeu de données pour l’ingestion des événements de retour des e-mails et notifications push dans Journey Optimizer. Créé via le SDK. | Prime |
-| Jeu de données du service de consentement AJO | Stocke les informations de consentement d’un profil. | Prime |
-| Jeu de données d’événement d’expérience de tracking e-mail AJO | Logs d’interaction pour le canal e-mail utilisé à des fins de création de rapports et d’audiences.  | Prime |
-| Jeu de données d’entité AJO | Jeu de données permettant de stocker les métadonnées des entités pour les messages envoyés aux utilisateurs finaux.  | Prime |
-| Jeu de données d’événement d’activité entrante AJO | Jeu de données pour les canaux web et in-app Journey Optimizer pour les événements de diffusion et d’interaction. | Prime |
-| Jeu de données de profil de messagerie interactive AJO | Stocke les profils créés pour prendre en charge les campagnes déclenchées par l’API | Prime |
-| Jeu de données d’événement de retour de message AJO | Logs de diffusion des messages. Informations sur toutes les diffusions de messages à partir de Journey Optimizer à des fins de création de rapports et d’audiences. Les commentaires des FAI de messagerie sur les rebonds sont également enregistrés dans ce jeu de données. | Prime |
-| Extension de compteurs de profils AJO | Contient un mappage d’objets contenant counter_value et expirationDate, masqué par counter_id | Prime |
-| Jeu de données de profil push AJO | Stocke les jetons push d’un profil. | Prime |
-| Jeu de données d’événement d’expérience de tracking de notification push AJO | Logs d’interaction pour le canal Notification push utilisé à des fins de création de rapports et d’audiences.  | Prime |
-| Jeu de données des surfaces AJO | Jeu de données vide associé au schéma de surfaces entrantes Journey Optimizer | Prime |
-| Jeu de données UPS pour sortie AO | Contient tous les appartenances à l’audience AOA à écrire à UPS | Prime |
-| Jeu de données de profil Audience Orchestration | Généré par composition d’audience pour les audiences de composition d’audience. Contient toutes les audiences de composition d’audience, leurs attributs et leurs données d’enrichissement | Prime |
-| Référentiel d’objets de décision - Activités | également appelé Décisions dans l’interface utilisateur. Mais ce sont les objets créés par un utilisateur ou une utilisatrice qui réunissent tous les blocs de création, y compris la logique de prise de décision. Par exemple, pour un emplacement particulier, dont les offres doivent être prises en compte (collection d’offres), et quelle méthode de classement utiliser sur ces offres. | Ultimate |
-| Référentiel d’objets de décision - Offres de secours | il s’agit du référentiel pour l’autre type d’offre qu’un utilisateur ou une utilisatrice crée. Plus précisément, s’ils ne sont pas éligibles pour voir une offre personnalisée et qu’ils doivent voir quelque chose, ils verront au moins l’offre de secours. Ce jeu de données contient les attributs de ce type d’offre | Ultimate |
-| Référentiel d’objets de décision - Offres personnalisées | il s’agit du référentiel d’un type d’offre créé par un utilisateur ou une utilisatrice. Ce jeu de données contient donc les attributs relatifs à ce type d’offre. | Ultimate |
-| Référentiel d’objets de décision - Emplacements | il s’agit du référentiel d’objets qui définissent l’emplacement d’affichage d’une offre. | Ultimate |
-| Événements d’étape de parcours | capturent tous les événements d’expérience d’étape de parcours générés à partir de Journey Optimizer pour être utilisés par des services tels que la création de rapports. | Prime |
-| Parcours | Jeu de données de métadonnées contenant des informations sur chaque étape d’un parcours | Prime |
-| Événements de décision ODE - prise de décision prod | Chaque fois que nous prenons une décision basée sur une requête, nous la comptabilisons comme un événement de décision. | Ultimate |
+Comprenez dans le tableau ci-dessous les jeux de données Journey Optimizer que vous pouvez exporter.
+
+| Jeu de données | Description |
+| ------- | ------- | 
+| Jeu de données d’événement de retour AJO Cci | Jeu de données d’événement de retour AJO Cci |
+| Jeu de données de classification AJO | Jeu de données pour ingérer des événements de retour d’application push et de courrier électronique à partir de Journey Optimizer. Créé via le SDK. |
+| Jeu de données du service de consentement AJO | Stocke les informations de consentement d’un profil. |
+| Jeu de données d’événement d’expérience de tracking d’e-mail AJO | Logs d’interaction pour le canal Email qui est utilisé à des fins de création de rapports et d’audience.  |
+| Jeu de données d’entité AJO | Jeu de données permettant de stocker les métadonnées des entités pour les messages envoyés à l’utilisateur final.  |
+| Jeu de données d’événement d’activité entrant AJO | Jeu de données pour les canaux web et in-app Journey Optimizer pour les événements de diffusion et d’interaction. |
+| Jeu de données de profil de messagerie interactive AJO | Stocke les profils créés pour prendre en charge les campagnes déclenchées par l’API |
+| Jeu de données d’événement de commentaires sur les messages AJO | Logs de diffusion des messages. Informations sur toutes les diffusions de messages à partir de Journey Optimizer à des fins de création de rapports et d’audiences. Les commentaires des FAI de messagerie sur les rebonds sont également enregistrés dans ce jeu de données. |
+| Extension Compteurs de profils AJO | Contient un mappage d’objets contenant counter_value et expirationDate, masqué par counter_id |
+| Jeu de données de profil push AJO | Stocke les jetons push d’un profil. |
+| Jeu de données d’événement d’expérience de tracking de notifications push AJO | Logs d’interaction pour le canal Push utilisé à des fins de création de rapports et d’audience.  |
+| Jeu de données des surfaces AJO | Jeu de données vide associé au schéma de surfaces entrantes Journey Optimizer |
+| AOOutputForUPSDataset | Contient tous les appartenances à l’audience AOA à écrire dans UPS |
+| Jeu de données du profil Audience Orchestration | Généré par composition d’audience pour les audiences de composition d’audience. Contient toutes les audiences de composition de l’audience, leurs attributs et leurs données d’enrichissement |
+| Référentiel d’objets de décision - Activités | également appelé Décisions dans l’interface utilisateur de . Mais ce sont les objets créés par un utilisateur ou une utilisatrice qui réunissent tous les blocs de création, y compris la logique de prise de décision. Par exemple, pour un emplacement particulier (emplacement), qui doit être pris en compte (collection d’offres), et quelle méthode de classement utiliser sur ces offres. |
+| Référentiel d’objets de décision - Offres de secours | il s’agit du référentiel pour l’autre type d’offre qu’un utilisateur crée. Plus précisément, s’ils ne sont pas éligibles pour voir une offre personnalisée et qu’ils doivent voir quelque chose, ils verront au moins l’offre de secours. Ce jeu de données contient les attributs de ce type d’offre |
+| Référentiel d’objets de décision - Offres personnalisées | il s’agit du référentiel d’un type d’offre créé par un utilisateur. Ce jeu de données contient donc les attributs relatifs à ce type d’offre. | Ultimate |
+| Référentiel d’objets de décision - Emplacements | il s’agit du référentiel d’objets qui définissent l’emplacement d’affichage d’une offre. |
+| Événements d’étape de parcours | Capture tous les événements d’expérience d’étape de Parcours générés à partir de Journey Optimizer pour être utilisés par des services tels que la création de rapports. |
+| Parcours | Jeu de données de métadonnées contenant des informations sur chaque étape d’un parcours |
+| ODE DecisionEvents - prise de décision sur les prod | Chaque fois que nous prenons une décision basée sur une requête, nous la comptabilisons comme un événement de décision. |
 
 ## Conditions préalables {#prerequisites}
 
