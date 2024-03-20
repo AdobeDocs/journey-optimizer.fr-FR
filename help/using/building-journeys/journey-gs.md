@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: parcours, premier, commencer, démarrage rapide, audience, événement, action
 exl-id: d940191e-8f37-4956-8482-d2df0c4274aa
-source-git-commit: d3f0adab52ed8e44a6097c5079396d1e9c06e0a7
-workflow-type: ht
-source-wordcount: '1803'
-ht-degree: 100%
+source-git-commit: f8d62a702824bcfca4221c857acf1d1294427543
+workflow-type: tm+mt
+source-wordcount: '1977'
+ht-degree: 92%
 
 ---
 
@@ -79,17 +79,30 @@ Dans la liste des parcours, vous pouvez utiliser différents filtres pour affine
 
 Voici les différentes opérations de filtrage que vous pouvez effectuer :
 
-* Filtrez les parcours en fonction de leur statut, type, version et balises attribuées depuis les **[!UICONTROL Filtres de statut et de version]**.
+Filtrez les parcours en fonction de leur statut, type, version et balises attribuées depuis les **[!UICONTROL Filtres de statut et de version]**.
 
-  Le type peut être : **[!UICONTROL Événement unitaire]**, **[!UICONTROL Qualification d’audience]**, **[!UICONTROL Lecture d’audience]**, **[!UICONTROL Événement métier]** ou **[!UICONTROL Rafale]**.
+Le type peut être : **[!UICONTROL Événement unitaire]**, **[!UICONTROL Qualification d’audience]**, **[!UICONTROL Lecture d’audience]**, **[!UICONTROL Événement métier]** ou **[!UICONTROL Rafale]**.
 
-* Utilisez les **[!UICONTROL filtres de création]** pour filtrer les parcours en fonction de leur date de création ou de la personne qui les a créés.
+Le statut peut être :
 
-* Affichez les parcours qui utilisent un événement, un groupe de champs ou une action spécifique à l’aide des **[!UICONTROL filtres d’activité]** et des **[!UICONTROL filtres de données]**.
+* **Fermé**: le parcours a été fermé à l’aide de la variable **Près des nouvelles entrées** bouton . Il n&#39;est alors plus accessible aux nouveaux individus. Les personnes déjà dans le parcours peuvent terminer le parcours normalement.
+* **Version préliminaire**: le parcours en est à sa première étape. Il n&#39;a pas encore été publié.
+* **Version préliminaire (test)**: le mode test a été activé à l’aide de la fonction **Mode test** bouton .
+* **Terminé**: le parcours passe automatiquement à ce statut après le délai d’expiration global par défaut de 30 jours. Les profils de clientes et clients qui ont déjà intégré le parcours le terminent normalement. Les nouveaux profils ne peuvent plus entrer dans le parcours.
+* **En direct**: le parcours a été publié à l’aide de la variable **Publier** bouton .
+* **Stoppé**: le parcours a été désactivé à l’aide de la fonction **Arrêter** bouton . Tous les individus quittent immédiatement le parcours.
 
-* Utilisez les **[!UICONTROL filtres de publication]** pour sélectionner une date de publication ou une personne. Vous pouvez choisir, par exemple, d’afficher les dernières versions des parcours actifs publiées la veille.
+>[!NOTE]
+>
+>Le cycle de vie de création de Parcours comprend également un ensemble d’états intermédiaires qui ne sont pas disponibles pour le filtrage : &quot;Publication&quot; (entre &quot;Version préliminaire&quot; et &quot;En direct&quot;), &quot;Activation du mode test&quot; ou &quot;Désactivation du mode test&quot; (entre &quot;Version préliminaire&quot; et &quot;Version préliminaire (test)&quot;) et &quot;Arrêt&quot; entre &quot;En ligne&quot; et &quot;Arrêt&quot;). Lorsqu’un parcours se trouve dans un état intermédiaire, il est en lecture seule.
 
-  Pour filtrer les parcours selon une période spécifique, sélectionnez **[!UICONTROL Personnalisé]** dans la liste déroulante **[!UICONTROL Publié]**.
+Utilisez les **[!UICONTROL filtres de création]** pour filtrer les parcours en fonction de leur date de création ou de la personne qui les a créés.
+
+Affichez les parcours qui utilisent un événement, un groupe de champs ou une action spécifique à l’aide des **[!UICONTROL filtres d’activité]** et des **[!UICONTROL filtres de données]**.
+
+Utilisez les **[!UICONTROL filtres de publication]** pour sélectionner une date de publication ou une personne. Vous pouvez choisir, par exemple, d’afficher les dernières versions des parcours actifs publiées la veille.
+
+Pour filtrer les parcours selon une période spécifique, sélectionnez **[!UICONTROL Personnalisé]** dans la liste déroulante **[!UICONTROL Publié]**.
 
 Dans les volets de configuration des événements, des sources de données et des actions, le champ **[!UICONTROL Utilisé dans]** affiche également le nombre de parcours qui utilisent cet événement, ce groupe de champs ou cette action spécifique. Vous pouvez cliquer sur le bouton **[!UICONTROL Afficher les parcours]** pour faire apparaître la liste des parcours correspondants.
 

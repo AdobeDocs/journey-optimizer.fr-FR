@@ -5,33 +5,19 @@ feature: Code-based Experiences
 topic: Content Management
 role: User, Developer, Admin
 level: Experienced
-hide: true
-hidefromtoc: true
-badge: label="Version Beta"
 exl-id: 987de2bf-cebe-4753-98b4-01eb3fded492
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: f8d62a702824bcfca4221c857acf1d1294427543
 workflow-type: tm+mt
-source-wordcount: '1159'
-ht-degree: 100%
+source-wordcount: '1205'
+ht-degree: 89%
 
 ---
 
 # Prise en main du canal basé sur le code {#get-sarted-code-based}
 
->[!BEGINSHADEBOX]
-
-Ce guide couvre les sujets suivants :
-
-* **[Prise en main du canal basé sur le code](get-started-code-based.md)**
-* [Conditions préalables basées sur le code](code-based-prerequisites.md)
-* [Exemples de mises en œuvre basées sur le code](code-based-implementation-samples.md)
-* [Créer des expériences basées sur le code](create-code-based.md)
-
->[!ENDSHADEBOX]
-
 >[!AVAILABILITY]
 >
->La fonctionnalité de canal d’expérience basée sur le code est actuellement disponible en version bêta pour certains utilisateurs ou utilisatrices uniquement. Pour rejoindre le programme Beta, contactez l’assistance clientèle d’Adobe.
+>Pour l’instant, le canal d’expérience basé sur le code n’est pas disponible pour les organisations qui ont acheté l’Adobe. **Bouclier sanitaire** et **Protection de la vie privée et protection** offres complémentaires.
 
 [!DNL Journey Optimizer] vous permet de personnaliser et de tester les expériences que vous souhaitez diffuser à votre clientèle sur tous vos touchpoints : applications web, applications mobiles, applications de bureau, consoles vidéo, appareils connectés à la télévision, téléviseurs intelligents, kiosques, guichets automatiques, assistants vocaux, appareils IdO, etc.
 
@@ -39,11 +25,15 @@ Avec la fonctionnalité d’**expérience basée sur le code**, vous pouvez déf
 
 <!--[!DNL Journey Optimizer] allows you to compose and deliver content on any inbound surface in a developer-focused workflow. You can leverage all the personalization capabilities, and preview what will be published. The content can be static (images, text, JSON, HTML) or dynamic (offers, decisions, recommendations). You can also insert custom content actions in your omni-channel journeys.-->
 
-Lorsque vous [créez une campagne](../campaigns/create-campaign.md#configure), sélectionnez **Expérience basée sur le code (bêta)** comme action et définissez les paramètres de base.
+>[!CAUTION]
+>
+>Dans [!DNL Journey Optimizer], vous ne pouvez actuellement créer des expériences basées sur le code qu’en utilisant des **campagnes**.
+
+Lorsque vous [création d’une campagne](../campaigns/create-campaign.md#configure), sélectionnez **Expérience basée sur le code** comme action et définissez les paramètres de base.
 
 >[!NOTE]
 >
->Si c’est la première fois que vous créez une expérience web, veillez à respecter les conditions préalables décrites dans [cette section](code-based-prerequisites.md).
+>Si c’est la première fois que vous créez une expérience basée sur du code, veillez à respecter les conditions préalables décrites dans la section [cette section](code-based-prerequisites.md).
 
 <!--Discover the detailed steps to create a code-based campaign in this video.-->
 
@@ -74,17 +64,15 @@ Lorsque vous [créez une campagne](../campaigns/create-campaign.md#configure), s
 </div>
 <p></td>
 <td>
-<a href="create-code-based.md#edit-code">
+<a href="code-based-implementation-samples.md">
 <img alt="Validation" src="../assets/do-not-localize/web-design.jpg">
 </a>
 <div>
-<a href="create-code-based.md#edit-code"><strong>Modifier votre code</strong></a>
+<a href="code-based-implementation-samples.md"><strong>Exemples de mise en oeuvre</strong></a>
 </div>
 <p>
 </td>
 </tr></table>
-
-
 
 <!--[Learn how to create a code-based campaign in this video](#video)-->
 
@@ -156,25 +144,42 @@ Autrement dit, une surface peut être considérée comme un conteneur à n’imp
 * Il peut également s’agir d’une surface de caractères génériques qui correspond à diverses définitions de surface client (par exemple, un emplacement d’image principale sur chaque page de votre site web peut se traduire en un URI de surface comme : web://mondomaine.com/*#image_principale).
 
 Fondamentalement, un URI de surface est composé de plusieurs sections :
-1. **Type** : web, application mobile, service, kiosque, tvcd, etc.
-1. **Propriété** : domaine ou lot d’applications
-1. **Chemin** : activité page/application ± emplacement sur l’activité page/application <!--to clarify-->
+1. **Type**: web, ios, android, atm, kiosque, tvcd, service, etc.
+1. **Propriété**: URL de page ou lot d’applications
+1. **Conteneur**: emplacement sur l’activité page/application
 
-Le tableau ci-dessous répertorie quelques exemples de définition d’URI de surface pour divers appareils.
+Les tableaux ci-dessous répertorient quelques exemples de définition d’URI de surface pour divers appareils.
+
+**Web et mobile**
 
 | Type | URI | Description |
-| --------- | ----------- | ------- |   
+| --------- | ----------- | ------- | 
 | Web | web://domain.com/path/page.html | Représente un chemin et une page individuels d’un site web. |
 | Web | web://domain.com/path/page.html#element | Représente un élément individuel dans une page spécifique d’un domaine spécifique. |
 | Web | web://domain.com/*#element | Surface de caractères génériques : représente un élément individuel dans chacune des pages sous un domaine spécifique. |
-| Bureau | desktop://com.vendor.bundle | Représente une application de bureau spécifique. |
-| Bureau | desktop://com.vendor.bundle#element | Représente un élément spécifique dans une application, tel qu’un bouton, un menu, une bannière principale, etc. |
 | Application iOS | mobileapp://com.vendor.bundle | Représente une application mobile spécifique pour une seule plateforme, dans ce cas l’application iOS. |
 | Application iOS | mobileapp://com.vendor.bundle/activity | Représente une activité spécifique (vue) dans une application mobile. |
 | Application iOS | mobileapp://com.vendor.bundle/activity#element | Représente un élément spécifique dans une activité, tel qu’un bouton ou un autre élément de vue. |
 | Application Android | mobileapp://com.vendor.bundle | Représente une application mobile spécifique pour une seule plateforme, dans ce cas une application Android. |
+
+**Autres types d’appareils**
+
+| Type | URI | Description |
+| --------- | ----------- | ------- | 
+| Bureau | desktop://com.vendor.bundle | Représente une application de bureau spécifique. |
+| Bureau | desktop://com.vendor.bundle#element | Représente un élément spécifique dans une application, tel qu’un bouton, un menu, une bannière principale, etc. |
 | Application tvOS | tvos://com.vendor.bundle | Représente une application tvOS spécifique. |
 | Application TV | tvcd://com.vendor.bundle | Représente un identifiant de lot spécifique à l’application d’un appareil connecté à la télévision ou à la télévision intelligente. |
 | Service | service://servicename | Représente un processus côté serveur ou une autre entité manuelle. |
 | Kiosque | kiosk://location/screen | Exemple de types de surfaces supplémentaires potentiels pouvant être ajoutés facilement. |
 | ATM | atm://location/screen | Exemple de types de surfaces supplémentaires potentiels pouvant être ajoutés facilement. |
+
+**Surfaces de caractères génériques**
+
+| Type | URI | Description |
+| --------- | ----------- | ------- | 
+| Caractère générique | caractère générique:web://domain.com/`*`#element | Surface de caractères génériques : représente un élément individuel dans chacune des pages sous un domaine spécifique. |
+| Caractère générique | caractère générique:web://`*`domain.com/`*`#element | Surface de caractères génériques : représente un élément individuel dans chacune des pages sous tous les domaines qui se terminent par &quot;domain.com&quot;. |
+
+
+

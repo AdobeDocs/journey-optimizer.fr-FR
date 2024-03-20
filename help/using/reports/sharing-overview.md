@@ -7,10 +7,11 @@ feature: Journeys, Reporting
 topic: Content Management
 role: Data Engineer, Data Architect, Admin
 level: Experienced
-source-git-commit: c82e0a4f44cda4afeb88f7dd8e645e967e4a878f
-workflow-type: ht
-source-wordcount: '469'
-ht-degree: 100%
+exl-id: 29d6b881-35a3-4c62-9e7d-d0aeb206ea77
+source-git-commit: f8d62a702824bcfca4221c857acf1d1294427543
+workflow-type: tm+mt
+source-wordcount: '522'
+ht-degree: 89%
 
 ---
 
@@ -25,6 +26,11 @@ Outre les [rapports en temps réel](live-report.md) et les [fonctionnalités de 
 Par exemple, vous avez configuré un parcours qui envoie plusieurs e-mails. Cette fonctionnalité permet de combiner les données de [!DNL Journey Optimizer] avec des données d’événements situés en aval, comme le nombre de conversions réalisées, le nombre d’engagements survenus sur le site web ou le nombre de transactions effectuées dans le magasin. Les informations de parcours sont combinées avec les données d’Adobe Experience Platform, à partir d’autres propriétés numériques ou de propriétés hors ligne, pour offrir une vue plus complète des performances.
 
 [!DNL Journey Optimizer] crée automatiquement les schémas et les flux nécessaires dans les jeux de données d’Adobe Experience Platform pour chaque étape d’un parcours individuel. Un événement d’étape correspond à un individu qui se déplace d’un nœud à un autre d’un parcours. Par exemple, dans le cadre d’un parcours comportant un événement, une condition et une action, trois événements d’étape sont envoyés à Adobe Experience Platform.
+
+Il existe des cas où plusieurs événements peuvent être créés pour le même noeud. Par exemple, dans le cas de l&#39;activité Attente :
+
+* Un événement est généré lorsque le profil entre dans l’attente (l’attribut journeyNodeProcessed est égal à false).
+* Un événement est généré lorsque le profil quitte (l’attribut journeyNodeProcessed est égal à true).
 
 La liste des champs XDM transmis est complète. Certains contiennent des codes générés par le système et d’autres portent des noms conçus pour être lisibles. Il peut s’agir, par exemple, du libellé de l’activité de parcours ou du statut de l’étape : nombre de fois où une action a expiré ou s’est terminée par une erreur.
 
@@ -45,7 +51,7 @@ Les schémas suivants sont créés :
 
 Les jeux de données suivants sont transmis :
 
-* Événements d’étape du parcours
+* Événements d’étape de parcours
 * Parcours
 
 ![](assets/sharing3.png)
@@ -66,4 +72,3 @@ Le workflow général est le suivant :
 * Pour utiliser ce jeu de données dans [!DNL Customer Journey Analytics], pour l&#39;analyse des parcours cross-canal, reportez-vous à la section [Documentation Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/cross-channel.html?lang=fr){target="_blank"}.
 
 ➡️ [Utiliser Customer Journey Analytics](cja-ajo.md){target="_blank"}
-

@@ -8,10 +8,10 @@ role: User
 level: Intermediate
 keywords: reprise, parcours, fin, dynamique, arrêt
 exl-id: ea1ecbb0-12b5-44e8-8e11-6d3b8bff06aa
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: f8d62a702824bcfca4221c857acf1d1294427543
 workflow-type: tm+mt
-source-wordcount: '619'
-ht-degree: 100%
+source-wordcount: '660'
+ht-degree: 89%
 
 ---
 
@@ -56,7 +56,11 @@ Les raisons suivantes peuvent entraîner la fermeture d&#39;un parcours :
 * Un parcours basé sur un segment « unique » qui a terminé son exécution.
 * Après la dernière occurrence d’un parcours récurrent basé sur une audience.
 
-Le fait de fermer un parcours manuellement assure que les clients qui l’ont déjà rejoint puissent terminer leur chemin, mais que les nouveaux utilisateurs ne puissent pas le rejoindre. Lorsqu&#39;un parcours est fermé (pour l&#39;une des raisons ci-dessus), le statut **[!UICONTROL Fermé]** lui est attribué. Il n&#39;est alors plus accessible aux nouveaux individus. En revanche, la procédure suit son cours normal pour les personnes qui ont déjà rejoint le parcours. Au-delà de la temporisation globale par défaut de 30 jours, le statut du parcours passe à **Terminé**. Consultez cette [section](../building-journeys/journey-gs.md#global_timeout).
+Le fait de fermer un parcours manuellement assure que les clients qui l’ont déjà rejoint puissent terminer leur chemin, mais que les nouveaux utilisateurs ne puissent pas le rejoindre. Lorsqu&#39;un parcours est fermé (pour l&#39;une des raisons ci-dessus), le statut **[!UICONTROL Fermé]** lui est attribué. Il n&#39;est alors plus accessible aux nouveaux individus. Les personnes déjà dans le parcours peuvent terminer le parcours normalement.
+
+Au bout de 30 jours, un parcours Lecture d’audience passe à l’événement **Terminé** statut. Ce comportement est défini uniquement sur 30 jours (c’est-à-dire sur la valeur par défaut du délai d’expiration du parcours), car toutes les informations relatives aux profils entrés dans le parcours sont supprimées 30 jours après leur saisie. Les personnes toujours présentes dans le parcours sont automatiquement touchées. Ils quittent le parcours après le délai d’attente de 30 jours.
+
+Consultez cette [section](../building-journeys/journey-gs.md#global_timeout).
 
 La version d&#39;un parcours fermé ne peut pas être redémarrée ni supprimée. Vous pouvez la dupliquer ou en créer une nouvelle version. Seuls les parcours terminés peuvent être supprimés.
 

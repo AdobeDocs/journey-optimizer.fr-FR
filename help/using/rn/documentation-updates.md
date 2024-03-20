@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 3f844f65609f271e834ebf42749253fd64446a9a
+source-git-commit: f8d62a702824bcfca4221c857acf1d1294427543
 workflow-type: tm+mt
-source-wordcount: '4831'
-ht-degree: 99%
+source-wordcount: '5046'
+ht-degree: 95%
 
 ---
 
@@ -21,12 +21,24 @@ Cette page répertorie toutes les mises à jour récentes de la documentation de
 
 ## Mars 2024 {#march-2024}
 
+* Toutes les nouvelles fonctionnalités et améliorations proposées [!DNL Journey Optimizer] La version du 24 mars a été détaillée dans la documentation. [En savoir plus](release-notes.md)
+* La page de gestion des entrées de profil a été améliorée. [En savoir plus](../building-journeys/entry-management.md)
+* Des informations de dépannage ont été ajoutées à la page Alertes. [En savoir plus](../reports/alerts.md#alert-troubleshooting)
+* Ajout d’informations sur l’activité Attente à la page sur les rapports de parcours - [En savoir plus](../reports/sharing-overview.md)
+* Pour les Parcours en mode test, les raccourcis suivants ont été désactivés :
+   * T : raccourci pour activer ou désactiver le mode test.
+   * E : raccourci utilisé pour déclencher un événement dans un parcours basé sur un événement.
+   * P : raccourci pour déclencher un événement dans un parcours basé sur l’audience pour lequel l’option Un seul profil à la fois est activée.
+   * L : raccourci désigné pour afficher les journaux de test.
 * La page Règles de fréquence des messages a été mise à jour avec une nouvelle sous-section sur la limite de fréquence quotidienne, disponible à la demande en plus de la limitation hebdomadaire ou mensuelle. [En savoir plus](../configuration/frequency-rules.md#daily-frequency-cap)
 * La page Utilisation des stratégies de consentement a été améliorée et mise à jour avec des liens utiles vers la documentation de l’Experience Platform. [En savoir plus](../action/consent.md)
-  <!--* The Access and manage templates section has been updated to reflect the fact that you can display content templates as a thumbnails with the Grid view mode. [Read more](../content-management/content-templates.md#template-thumbnails)-->
+* Une nouvelle section a été ajoutée pour refléter le fait que vous pouvez afficher des modèles de contenu d’email HTML sous forme de miniatures en mode Affichage de la grille (disponibilité limitée). [En savoir plus](../content-management/content-templates.md#template-thumbnails)
+* Une nouvelle section a été ajoutée à la page Délivrabilité pour expliquer ce que sont les boucles de rétroaction et comment les exploiter. [En savoir plus](../reports/deliverability.md#feedback-loops)
+* Une note a été ajoutée à la section Créer des offres personnalisées pour indiquer que la taille d’une offre, y compris toutes ses représentations, ne peut pas dépasser 300 Ko. [En savoir plus](../offers/offer-library/creating-personalized-offers.md#create-offer)
 
 ## Février 2024 {#feb-2024}
 
+* Toutes les nouvelles fonctionnalités et améliorations proposées [!DNL Journey Optimizer] La version du 24 février a été détaillée dans la documentation. [En savoir plus](release-notes.md)
 * L’intégration Journey Optimizer + Workfront a été ajoutée à la page des intégrations. [En savoir plus](../start/ajo-integrations.md)
 * Ajout d’informations sur la personnalisation des représentations des offres en fonction des données contextuelles. [En savoir plus](../offers/offer-library/add-representations.md#context-data)
 * La page des mécanismes de sécurisation a été mise à jour avec une note sur les actions personnalisées qui prennent en charge le format JSON uniquement lors de l’utilisation des payloads de requêtes ou de réponses. [En savoir plus](../start/guardrails.md#custom-actions-g)

@@ -7,10 +7,10 @@ role: Data Engineer, Architect
 level: Experienced
 keywords: limite, fonction, expression, parcours
 exl-id: 7fa1e393-2912-4392-b759-e54d08d5635a
-source-git-commit: 2f47209ad2a5e5b5d26f01949f5e9ade63c2581f
-workflow-type: ht
-source-wordcount: '139'
-ht-degree: 100%
+source-git-commit: f8d62a702824bcfca4221c857acf1d1294427543
+workflow-type: tm+mt
+source-wordcount: '138'
+ht-degree: 97%
 
 ---
 
@@ -30,7 +30,7 @@ Liste
 
 | Paramètre | Type | Description |
 |-----------|------------------|------------------|
-| listToProcess | listString, listBoolean, listInteger, listDecimal, listDuration, listDateTime, listDateTimeOnly, listDateOnly, or listObject | Liste à trier. Pour listObject, il doit s’agir d’une référence de champ. |
+| listToProcess | listString, listBoolean, listInteger, listDecimal, listDuration, listDateTime, listDateTimeOnly, listDateOnly, or listObject | Liste à prendre en compte. Pour listObject, il doit s’agir d’une référence de champ. |
 | numberOfItems | Entier | Nombre d’éléments à renvoyer à partir de la liste donnée. |
 | firstOrLastItems | Booléen | Ce paramètre est facultatif (true par défaut). true renvoie les premiers éléments. false renvoie les derniers éléments. |
 

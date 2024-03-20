@@ -7,9 +7,9 @@ feature: Accessibility
 role: User
 level: Beginner
 exl-id: d971c04c-9b37-4cd7-8a2d-b915e394079b
-source-git-commit: b37ad6fd3eb41f7cdde28c24fefc13c8b676f803
-workflow-type: ht
-source-wordcount: '535'
+source-git-commit: f8d62a702824bcfca4221c857acf1d1294427543
+workflow-type: tm+mt
+source-wordcount: '470'
 ht-degree: 100%
 
 ---
@@ -49,11 +49,6 @@ Vous pouvez utiliser ces raccourcis dans des parties spécifiques de l’interfa
       <th>Raccourci</th>
     </tr>
   </thead>
-  <tr>
-    <td>Liste de parcours, d’actions, de sources de données ou d’événements</td>
-    <td>Création d’un parcours, d’une action, d’une source de données ou d’un événement</td>
-    <td>C</td>
-  </tr>
   <tr>
     <td rowspan="8">Zone de travail de parcours à l'état de brouillon</td>
     <td>Ajoutez une activité à partir de la palette gauche à la première position disponible, du haut vers le bas.</td>
@@ -107,23 +102,6 @@ Vous pouvez utiliser ces raccourcis dans des parties spécifiques de l’interfa
   <tr>
     <td>Rejet des modifications et fermeture du volet de configuration</td>
     <td>Échap</td>
-  </tr>
-  <tr>
-    <td rowspan="4">Parcours en mode test</td>
-    <td>Activation ou désactivation du mode test</td>
-    <td>T</td>
-  </tr>
-  <tr>
-    <td>Déclenchement d’un événement dans un parcours basé sur un événement</td>
-    <td>E</td>
-  </tr>
-  <tr>
-    <td>Déclencher un événement dans un parcours basé sur des audiences pour lequel l’option **[!UICONTROL Un profil unique à la fois]** est activée</td>
-    <td>P</td>
-  </tr>
-  <tr>
-    <td>Affichage des journaux de test</td>
-    <td>L</td>
   </tr>
 <!-- //Ajouter ce raccourci quand il marchera (actuellement, le raccourci Ctrl/Cmd+F du navigateur a priorité sur celui de AJO).//
   <tr>

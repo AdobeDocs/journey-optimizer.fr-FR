@@ -8,10 +8,11 @@ topic: Administration
 role: Admin
 level: Experienced
 keywords: sous-domaine, domaine, courrier, dmarc, enregistrement
-source-git-commit: 745474d6232f01ee959db8d706110477ed0220e2
+exl-id: f9e217f8-5aa8-4d3a-96fc-65defcb5d340
+source-git-commit: f8d62a702824bcfca4221c857acf1d1294427543
 workflow-type: tm+mt
-source-wordcount: '1349'
-ht-degree: 100%
+source-wordcount: '1353'
+ht-degree: 98%
 
 ---
 
@@ -24,7 +25,7 @@ ht-degree: 100%
 
 ## Qu’est-ce que DMARC ? {#what-is-dmarc}
 
-DMARC (Domain-based Message Authentication, Reporting, and Conformance, soit Authentification, création de rapports et conformité des messages basés sur le domaine) est une méthode d’authentification d’e-mail qui permet aux personnes propriétaires de domaine de protéger leur domaine d’une utilisation non autorisée. En fournissant une politique claire aux fournisseurs de messagerie/FAI, elle permet d’empêcher des entités malveillantes d’envoyer des e-mails prétendant provenir de votre domaine. L’implémentation de DMARC réduit le risque que les e-mails légitimes soient marqués comme spam ou refusés et améliore la délivrabilité de vos e-mails.
+DMARC (Domain-based Message Authentication, Reporting, and Conformance, soit Authentification, création de rapports et conformité des messages basés sur le domaine) est une méthode d’authentification d’e-mail qui permet aux personnes propriétaires de domaine de protéger leur domaine d’une utilisation non autorisée. En offrant une politique claire aux fournisseurs de messagerie et aux fournisseurs d’accès à Internet (FAI), elle permet d’empêcher les acteurs malveillants d’envoyer des emails prétendant provenir de votre domaine. L’implémentation de DMARC réduit le risque que les e-mails légitimes soient marqués comme spam ou refusés et améliore la délivrabilité de vos e-mails.
 
 DMARC propose également des rapports sur les messages dont l’authentification échoue, ainsi qu’un contrôle sur la gestion des e-mails qui ne sont pas conformes à la validation DMARC. Selon la [politique DMARC](#dmarc-policies) implémentée, ces e-mails peuvent être surveillés, mis en quarantaine ou refusés. Ces fonctionnalités vous permettent de prendre des mesures pour atténuer les erreurs potentielles et les corriger.
 
@@ -194,10 +195,3 @@ The key benefits or DMARC are as folllows:
 * This increased visibility allows for steps to be taken to mitigate further errors. It gives senders a degree of control over what happens with mail that does not pass either of these authentication methods.
 
 -->
-
-
-
-
-
-
-

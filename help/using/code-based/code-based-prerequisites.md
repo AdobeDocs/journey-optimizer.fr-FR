@@ -5,29 +5,15 @@ feature: Code-based Experiences
 topic: Content Management
 role: Admin
 level: Experienced
-hide: true
-hidefromtoc: true
-badge: label="Version Beta"
 exl-id: ac901f88-5fde-4220-88c6-fe05433866cc
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: f8d62a702824bcfca4221c857acf1d1294427543
 workflow-type: tm+mt
-source-wordcount: '449'
-ht-degree: 100%
+source-wordcount: '430'
+ht-degree: 94%
 
 ---
 
 # Conditions préalables et mécanismes de sécurisation {#web-prerequisites}
-
->[!BEGINSHADEBOX]
-
-Ce guide couvre les sujets suivants :
-
-* [Prise en main du canal basé sur le code](get-started-code-based.md)
-* **[Conditions préalables basées sur le code](code-based-prerequisites.md)**
-* [Exemples de mises en œuvre basées sur le code](code-based-implementation-samples.md)
-* [Créer des expériences basées sur le code](create-code-based.md)
-
->[!ENDSHADEBOX]
 
 Pour pouvoir utiliser des actions d’expérience basée sur le code dans [!DNL Journey Optimizer] et diffuser la payload du contenu du code qui peut être utilisée par vos applications, procédez comme suit :
 
@@ -37,9 +23,11 @@ Pour pouvoir utiliser des actions d’expérience basée sur le code dans [!DNL 
 
 ## Notes de mise en garde {#caution-notes-web}
 
-* La fonctionnalité de canal d’expérience basée sur le code est actuellement disponible en version bêta pour certains utilisateurs ou utilisatrices uniquement. Pour rejoindre le programme Beta, contactez l’assistance clientèle d’Adobe.
-
 * Dans [!DNL Journey Optimizer], vous ne pouvez actuellement créer des expériences web que dans des **campagnes**. [En savoir plus](../campaigns/create-campaign.md#configure)
+
+>[!AVAILABILITY]
+>
+>Pour l’instant, le canal d’expérience basé sur le code n’est pas disponible pour les organisations qui ont acheté l’Adobe. **Bouclier sanitaire** et **Protection de la vie privée et protection** offres complémentaires.
 
 ## Conditions préalables à l’implémentation {#implementation-prerequisites}
 

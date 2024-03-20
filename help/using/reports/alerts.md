@@ -8,10 +8,10 @@ topic: Administration
 role: User
 level: Intermediate
 exl-id: 0855ca5b-c7af-41c4-ad51-bed820ae5ecf
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: f8d62a702824bcfca4221c857acf1d1294427543
 workflow-type: tm+mt
-source-wordcount: '480'
-ht-degree: 100%
+source-wordcount: '553'
+ht-degree: 86%
 
 ---
 
@@ -57,7 +57,7 @@ Les alertes relatives aux actions personnalisées sont résolues lorsque, au cou
 
 Le nom d’abonnement à l’événement d’E/S correspondant à l’alerte d’action personnalisée est **Échec de l’action personnalisée du parcours**.
 
-## Échec du déclenchement de la lecture de segment {#alert-read-audiences}
+## Lecture du déclencheur d’audience non réussie {#alert-read-audiences}
 
 Cette alerte vous avertit si une activité **Lecture d’audience** n’a traité aucun profil 10 minutes après l’heure planifiée de l’exécution. Cet échec peut être dû à des problèmes techniques ou parce que l’audience est vide.
 
@@ -68,3 +68,24 @@ Les alertes sur l’activité **Lecture d’audience** ne s’appliquent qu’au
 Les alertes sur **Lecture d’audience** sont résolues lorsqu’un profil entre dans le nœud **Lecture d’audience**.
 
 Le nom d’abonnement à l’événement d’E/S correspondant à l’alerte **Échec du déclenchement de la lecture de segment** est **Retards, échecs et erreurs dans le la lecture du segment du parcours**.
+
+## Dépannage {#alert-troubleshooting}
+
+Pour résoudre les problèmes **Lecture d’audience** alertes, vérifiez le nombre d’audiences dans l’interface de l’Experience Platform.
+
+![](assets/alert-troubleshooting-0.png)
+
+![](assets/alert-troubleshooting-1.png)
+
+Pour résoudre les problèmes **Action personnalisée** alertes :
+
+* Vérifiez votre action personnalisée à l’aide du mode test sur un autre parcours :
+
+  ![](assets/alert-troubleshooting-2.png)
+
+* Consultez votre rapport parcours pour afficher les raisons d’erreur lors de l’action.
+
+  ![](assets/alert-troubleshooting-3.png)
+
+* Vérifiez vos événements stepEvents de parcours pour obtenir plus d’informations sur &quot;failureReason&quot;.
+* Vérifiez votre configuration d’action personnalisée et vérifiez que l’authentification est toujours correcte. Effectuez une vérification manuelle avec Postman, par exemple.

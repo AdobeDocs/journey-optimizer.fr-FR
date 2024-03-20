@@ -8,10 +8,10 @@ topic: Content Management
 role: Admin
 level: Intermediate, Experienced
 exl-id: 8f33dda7-9bd5-4293-8d0d-222205cbc7d5
-source-git-commit: 8579acfa881f29ef3947f6597dc11d4c740c3d68
+source-git-commit: f8d62a702824bcfca4221c857acf1d1294427543
 workflow-type: tm+mt
-source-wordcount: '690'
-ht-degree: 100%
+source-wordcount: '966'
+ht-degree: 71%
 
 ---
 
@@ -39,7 +39,7 @@ Pour en apprendre davantage sur la délivrabilité et en savoir plus sur les ter
 
 ## Réduire les taux de plainte {#reduce-complaint-rate}
 
-Les FAI disposent généralement d&#39;un moyen important pour signaler un message reçu comme étant du spam. Cela permet d&#39;identifier les sources non fiables. En répondant rapidement aux demandes d&#39;opt-out et en montrant ainsi que vous êtes un expéditeur fiable, vous pouvez réduire les taux de plaintes. [En savoir plus sur la gestion des opt-out](../privacy/opt-out.md#opt-out-management).
+Les FAI disposent généralement d&#39;un moyen important pour signaler un message reçu comme étant du spam. Cela permet d&#39;identifier les sources non fiables. En répondant rapidement aux demandes d&#39;opt-out et en montrant ainsi que vous êtes un expéditeur fiable, vous pouvez réduire les taux de plaintes. [En savoir plus sur la gestion des désinscriptions](../privacy/opt-out.md#opt-out-management)
 
 Il est recommandé de ne pas empêcher les destinataires qui souhaitent se désabonner de le faire en les obligeant à remplir des champs tels que leur adresse e-mail ou leur nom. La page de destination du formulaire d&#39;opt-out ne doit comporter qu&#39;un seul bouton de validation.
 
@@ -51,7 +51,7 @@ Redoublez d&#39;attention lorsque vous demandez une confirmation supplémentaire
 
 Pour protéger votre délivrabilité, les destinataires dont les adresses se trouvent sur la liste de suppression sont exclus par défaut de toute diffusion future. En effet, un envoi à ces contacts pourrait nuire à votre réputation d&#39;envoi.
 
-[En savoir plus sur la liste de suppression](suppression-list.md).
+[En savoir plus sur la liste de suppression](suppression-list.md)
 
 ## Utiliser les outils de surveillance {#monitoring-tools}
 
@@ -71,10 +71,88 @@ Pour améliorer votre taux de délivrabilité et vous assurer que vos emails att
 
 * **Lien de désinscription et page de destination** : le lien de désinscription est essentiel. Il doit être visible et valide, et le formulaire doit fonctionner.
 
-[En savoir plus sur la conception du contenu des emails](../email/get-started-email-design.md).
+[En savoir plus sur la conception du contenu d&#39;un email](../email/get-started-email-design.md)
 
-## Asseyez votre réputation dʼexpéditeur.
+## Asseyez votre réputation dʼexpéditeur. {#reputation}
 
 Si vous avez récemment migré vers un autre fournisseur de services de messagerie, dʼadresse IP ou de domaine ou sous-domaine de messagerie, vous devez asseoir votre réputation d’expéditeur. Dans le cas contraire, vos diffusions risquent dʼêtre bloquées voire déplacées dans le dossier des courriers indésirables de la boîte aux lettres des destinataires.
 
-Pour préchauffer votre adresse IP, vous pouvez augmenter progressivement le nombre de vos diffusions. Consultez ce [cas dʼutilisation](../building-journeys/ramp-up-deliveries-uc.md).
+Pour préchauffer votre adresse IP, vous pouvez augmenter progressivement le nombre de vos diffusions. En savoir plus sur ce [cas d’utilisation](../building-journeys/ramp-up-deliveries-uc.md).
+
+## Implémenter DMARC {#dmarc}
+
+Pour vous aider à atténuer le risque que des emails légitimes soient marqués comme spam ou rejetés, et empêcher les problèmes de délivrabilité, [!DNL Journey Optimizer] vous permet de configurer l’enregistrement DMARC pour tous les sous-domaines que vous déléguez à l’Adobe.
+
+DMARC (Domain-based Message Authentication, Reporting, and Conformance) est une méthode d’authentification des emails qui permet aux propriétaires de domaine de protéger leur domaine d’une utilisation non autorisée par des acteurs malveillants.
+
+[En savoir plus sur l’enregistrement DMARC](../configuration/dmarc-record.md)
+
+## Connaître les boucles de rétroaction {#feedback-loops}
+
+Une feedback loop (FBL) est un service proposé par certains FAI qui permet à l&#39;expéditeur de l&#39;email d&#39;être automatiquement averti lorsque l&#39;utilisateur qui reçoit un email choisit de le marquer comme spam (aussi appelé &quot;réclamation&quot;).
+
+Lorsqu’un utilisateur final génère une plainte qui est renvoyée à l’Adobe par le FAI, l’adresse électronique est automatiquement ajoutée au [liste de suppression](../reports/suppression-list.md) et exclus des prochaines diffusions. En effet, l’envoi d’emails aux utilisateurs qui les ont marqués comme spam affecte négativement la réputation de l’expéditeur et peut entraîner des problèmes de délivrabilité. [En savoir plus sur les plaintes relatives au spam](../reports/suppression-list.md#spam-complaints)
+
+>[!IMPORTANT]
+>
+>Tous les FAI ne fournissent pas une FBL traditionnelle, comme Gmail. Gmail n’offre pas de retour au niveau individuel et ne peut pas être utilisé pour suivre les plaintes liées au spam envoyées à des destinataires individuels, en se concentrant plutôt sur les rapports au niveau agrégé dans leurs outils Postmaster Google. [En savoir plus](https://support.google.com/a/answer/6254652?hl=en){target="_blank"}
+
+Tous les clients Adobe sont automatiquement inscrits dans les FBL classiques des FAI suivants :
+
+* 1&amp;1
+
+* AOL
+
+* BlueTie
+
+* Comcast
+
+* Fastmail
+
+* Gandi
+
+* Italia Online
+
+* La Poste
+
+* Liberty Global (Chello, UPC, Unity Media)
+
+* Locaweb
+
+* Mail.RU
+
+* Microsoft
+
+* OpenSRS
+
+* Rackspace
+
+* SEZNM
+
+* SFR
+
+* SilverSky
+
+* Swisscom
+
+* Synacor
+
+* Telecom Italia
+
+* Telenet
+
+* Telenor
+
+* Telstra
+
+* Terra
+
+* UOL
+
+* Virgin Media
+
+* Yahoo
+
+* Ziggo
+
+Adobe effectue régulièrement des audits de ces FBL pour s’assurer que les dernières FBL disponibles sont ajoutées.

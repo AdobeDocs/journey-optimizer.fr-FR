@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 4a53ea96-632a-41c7-ab15-b85b99db4f3e
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: f8d62a702824bcfca4221c857acf1d1294427543
 workflow-type: tm+mt
-source-wordcount: '743'
-ht-degree: 100%
+source-wordcount: '766'
+ht-degree: 96%
 
 ---
 
@@ -47,6 +47,10 @@ Pour créer une **offre**, procédez comme suit :
 
 1. Indiquez le nom de l&#39;offre, ainsi que sa date et son heure de début et de fin. En dehors de ces dates, l’offre ne sera pas sélectionnée par le moteur de décision.
 
+   >[!NOTE]
+   >
+   >Lors de la sélection des heures, votre fuseau horaire actuel est pris en compte.
+
    ![](../assets/offer_details.png)
 
    >[!CAUTION]
@@ -64,6 +68,10 @@ Pour créer une **offre**, procédez comme suit :
 1. Ajoutez des représentations pour définir l’emplacement d’affichage de votre offre dans le message. [En savoir plus](add-representations.md)
 
    ![](../assets/channel-placement.png)
+
+   >[!CAUTION]
+   >
+   >La taille d’une offre, y compris toutes ses représentations, ne peut pas dépasser 300 Ko.
 
 1. Ajoutez des contraintes pour définir les conditions d’affichage de l’offre. [En savoir plus](add-constraints.md)
 

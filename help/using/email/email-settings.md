@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: paramètres, e-mail, configuration
 exl-id: 13536962-7541-4eb6-9ccb-4f97e167734a
-source-git-commit: 353337c7d85ccc6266d9e395fbc2f40b17fd09b2
+source-git-commit: f8d62a702824bcfca4221c857acf1d1294427543
 workflow-type: tm+mt
-source-wordcount: '2322'
-ht-degree: 100%
+source-wordcount: '2378'
+ht-degree: 96%
 
 ---
 
@@ -20,7 +20,11 @@ ht-degree: 100%
 
 Pour commencer à créer un e-mail, vous devez configurer les surfaces du canal e-mail qui définissent tous les paramètres techniques requis pour vos messages. [Découvrez comment créer des surfaces](../configuration/channel-surfaces.md).
 
-Définissez les paramètres d’e-mail dans la section dédiée de la configuration de la surface du canal.
+>[!NOTE]
+>
+>Pour préserver votre réputation et améliorer votre délivrabilité, configurez les sous-domaines que vous utiliserez pour envoyer des emails avant de créer une surface d&#39;email. [En savoir plus](../configuration/about-subdomain-delegation.md)
+
+Définissez les paramètres de l&#39;email dans la section dédiée de la configuration de la surface du canal, comme décrit ci-dessous.
 
 ![](assets/preset-email-settings.png)
 
@@ -51,27 +55,29 @@ Lors de la création d’un message, vous devez choisir une surface de canal val
 
 ## Sous-domaine et groupes d’adresses IP {#subdomains-and-ip-pools}
 
-Dans la section **Sous-domaine et groupes d’adresses IP**, vous devez effectuer les actions suivantes :
+Dans le **Sous-domaine et pools d’adresses IP** , renseignez les champs requis comme indiqué ci-dessous.
 
-1. Sélectionnez le sous-domaine à utiliser pour envoyer les e-mails. [En savoir plus](../configuration/about-subdomain-delegation.md)
+1. Sélectionnez le sous-domaine à utiliser pour envoyer les emails.
+
+   Pour préserver la réputation de votre domaine, accélérez le processus de préparation des adresses IP et améliorez la délivrabilité, déléguez vos sous-domaines d’envoi à l’Adobe. [En savoir plus](../configuration/about-subdomain-delegation.md)
 
 1. Sélectionnez le groupe d’adresses IP à associer à la surface. [En savoir plus](../configuration/ip-pools.md)
 
-![](assets/preset-subdomain-ip-pool.png)
+   ![](assets/preset-subdomain-ip-pool.png)
 
-Vous ne pouvez pas poursuivre la création de la surface lorsque le groupe d’adresses IP sélectionné est en cours d’[édition](../configuration/ip-pools.md#edit-ip-pool) (statut **[!UICONTROL Traitement en cours]**) et n’a jamais été associé au sous-domaine sélectionné. Sinon, la version la plus ancienne de l’association groupe d’adresses IP/sous-domaine sera toujours utilisée. Si c’est le cas, enregistrez la surface en tant que brouillon, puis réessayez une fois que le groupe d’adresses IP a le statut **[!UICONTROL Succès]**.
+   Vous ne pouvez pas poursuivre la création de la surface lorsque le groupe d’adresses IP sélectionné est en cours d’[édition](../configuration/ip-pools.md#edit-ip-pool) (statut **[!UICONTROL Traitement en cours]**) et n’a jamais été associé au sous-domaine sélectionné. Sinon, la version la plus ancienne de l’association groupe d’adresses IP/sous-domaine sera toujours utilisée. Si c’est le cas, enregistrez la surface en tant que brouillon, puis réessayez une fois que le groupe d’adresses IP a le statut **[!UICONTROL Succès]**.
 
->[!NOTE]
->
->Pour les environnements hors production, Adobe ne crée pas de sous-domaines de test d’usine et n’accorde pas l’accès à un groupe d’adresses IP d’envoi partagé. Vous devez [déléguer vos propres sous-domaines](../configuration/delegate-subdomain.md) et utiliser les adresses IP du groupe affecté à votre organisation.
+   >[!NOTE]
+   >
+   >Pour les environnements hors production, Adobe ne crée pas de sous-domaines de test d’usine et n’accorde pas l’accès à un groupe d’adresses IP d’envoi partagé. Vous devez [déléguer vos propres sous-domaines](../configuration/delegate-subdomain.md) et utiliser les adresses IP du groupe affecté à votre organisation.
 
-Une fois qu’un groupe d’adresses IP a été sélectionné, les informations PTR sont visibles lorsque vous pointez sur les adresses IP affichées sous la liste déroulante du groupe d’adresses IP. [En savoir plus sur les enregistrements PTR](../configuration/ptr-records.md)
+1. Une fois qu’un groupe d’adresses IP a été sélectionné, les informations PTR sont visibles lorsque vous pointez sur les adresses IP affichées sous la liste déroulante du groupe d’adresses IP. [En savoir plus sur les enregistrements PTR](../configuration/ptr-records.md)
 
-![](assets/email-surface-ptr-record.png)
+   ![](assets/email-surface-ptr-record.png)
 
->[!NOTE]
->
->Si un enregistrement PTR n’est pas configuré, contactez votre représentant(e) Adobe.
+   >[!NOTE]
+   >
+   >Si un enregistrement PTR n’est pas configuré, contactez votre représentant(e) Adobe.
 
 ## List-Unsubscribe {#list-unsubscribe}
 

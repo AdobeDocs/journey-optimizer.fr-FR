@@ -5,33 +5,19 @@ feature: Code-based Experiences
 topic: Content Management
 role: User
 level: Experienced
-hide: true
-hidefromtoc: true
-badge: label="Version Beta"
 exl-id: 25c2c448-9380-47b0-97c5-16d9afb794c5
-source-git-commit: 27447578dad6bd2612989d79cd0dc8ddbe78d629
+source-git-commit: f8d62a702824bcfca4221c857acf1d1294427543
 workflow-type: tm+mt
-source-wordcount: '1026'
-ht-degree: 100%
+source-wordcount: '993'
+ht-degree: 94%
 
 ---
 
 # Créer des expériences basées sur le code {#create-code-based}
 
->[!BEGINSHADEBOX]
-
-Ce guide couvre les sujets suivants :
-
-* [Prise en main du canal basé sur le code](get-started-code-based.md)
-* [Conditions préalables basées sur le code](code-based-prerequisites.md)
-* [Exemples de mises en œuvre basées sur le code](code-based-implementation-samples.md)
-* **[Créer des expériences basées sur le code](create-code-based.md)**
-
->[!ENDSHADEBOX]
-
 >[!AVAILABILITY]
 >
->La fonctionnalité de canal d’expérience basée sur le code est actuellement disponible en version bêta pour certains utilisateurs ou utilisatrices uniquement. Pour rejoindre le programme Beta, contactez l’assistance clientèle d’Adobe.
+>Pour l’instant, le canal d’expérience basé sur le code n’est pas disponible pour les organisations qui ont acheté l’Adobe. **Bouclier sanitaire** et **Protection de la vie privée et protection** offres complémentaires.
 
 ## Créer une campagne basée sur le code {#create-code-based-campaign}
 
@@ -43,7 +29,7 @@ Pour commencer à créer votre expérience basée sur le code par le biais d’u
 
 1. Création d’une campagne. [En savoir plus](../campaigns/create-campaign.md)
 
-1. Sélectionnez l’action **[!UICONTROL Expérience basée sur le code (Beta)]**.
+1. Sélectionnez la variable **[!UICONTROL Expérience basée sur le code]** action.
 
 1. Saisissez la surface de l’expérience basée sur le code. [En savoir plus](#surface-definition)
 
@@ -81,21 +67,27 @@ Pour commencer à créer votre expérience basée sur le code par le biais d’u
 
 1. Vous pouvez passer du mode de création HTML au mode JSON, et inversement.
 
+   ![](assets/code-based-campaign-code-editor.png)
+
    >[!CAUTION]
    >
    >Si vous changez de mode de création, vous perdrez l’ensemble de votre code actuel. Veillez donc à changer de mode avant de commencer la création.
 
 1. Saisissez votre code selon vos besoins. Vous pouvez utiliser l’éditeur d’expression [!DNL Journey Optimizer] avec toutes ses fonctionnalités de personnalisation et de création. [En savoir plus](../personalization/personalization-build-expressions.md)
 
-   ![](assets/code-based-campaign-code-editor.png)
+1. Si nécessaire, vous pouvez ajouter des fragments d’expression JSON ou HTML. [Voici comment procéder](../personalization/use-expression-fragments.md)
 
-1. Dans les campagnes basées sur le code, vous pouvez utiliser la fonctionnalité de décision d’expérience. Sélectionnez l’icône **[!UICONTROL Décisions]** dans la barre de gauche, puis cliquez sur **[!UICONTROL Créer une décision]**. [En savoir plus](../experience-decisioning/create-decision.md)
+   Vous pouvez également enregistrer une partie de votre contenu de code en tant que fragment. [Voici comment procéder](../content-management/fragments.md#save-as-expression-fragment)
 
-   ![](assets/code-based-campaign-create-decision.png)
+<!--
+1. In code-based campaigns, you can use the experience decisioning feature. Select the **[!UICONTROL Decisions]** icon from the left bar and click **[!UICONTROL Create decision]**. [Learn more](../experience-decisioning/create-decision.md)
 
-   >[!NOTE]
-   >
-   >La fonctionnalité de décision basée sur l’expérience est actuellement disponible en version Beta pour certains utilisateurs et utilisatrices.
+    ![](assets/code-based-campaign-create-decision.png)
+
+    >[!NOTE]
+    >
+    >The experience decisioning feature is currently available as a beta to select users only.
+-->
 
 1. Cliquez sur **[!UICONTROL Enregistrer et fermer]** pour confirmer vos modifications.
 
