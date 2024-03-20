@@ -5,10 +5,10 @@ description: Découvrez comment utiliser Adobe Journey Optimizer.
 solution: Journey Optimizer
 product: journey optimizer
 exl-id: 3a1b6c61-82df-421c-98d8-2af4f2a5e0de
-source-git-commit: c69411408d472142f733ee9220a40608b0edbab4
-workflow-type: ht
-source-wordcount: '385'
-ht-degree: 100%
+source-git-commit: 55d9b8f0fc7e048c9f9cb506d8153f27595aaa3f
+workflow-type: tm+mt
+source-wordcount: '389'
+ht-degree: 84%
 
 ---
 
@@ -20,11 +20,19 @@ Découvrez les améliorations les plus récentes apportées au produit et à la 
 
 >[!BEGINTABS]
 
->[!TAB La version de février est disponible.]
+>[!TAB La version de mars est en ligne !]
 
-Découvrez les nouvelles fonctionnalités et améliorations de la version 24.2 d’Adobe Journey Optimizer.
+Découvrez les nouvelles fonctionnalités et améliorations de la version 24.3 d’Adobe Journey Optimizer.
 
 [![En savoir plus](using/assets/do-not-localize/learn-more-button.svg)](using/rn/release-notes.md)
+
+>[!TAB Expériences basées sur le code]
+
+Grâce au nouveau canal d’expérience basé sur le code, Adobe Journey Optimizer vous permet d’effectuer des tests et des personnalisations avancés pour l’une de vos propriétés entrantes, ce qui vous permet de diffuser facilement des expériences personnalisées sur différents points de contact tels que des applications web, des applications mobiles, des applications de bureau, des consoles vidéo, des périphériques connectés à la télévision, des téléviseurs intelligents, des kiosques, des distributeurs automatiques, des périphériques IoT, etc.
+
+![](using/rn/assets/do-not-localize/code-based.gif)
+
+[![En savoir plus](using/assets/do-not-localize/learn-more-button.svg)](using/code-based/get-started-code-based.md)
 
 >[!TAB Messagerie web in-app]
 
@@ -33,14 +41,6 @@ Vous pouvez désormais utiliser la nouvelle fonctionnalité de messagerie in-app
 ![](using/rn/assets/do-not-localize/web_inapp.gif)
 
 [![En savoir plus](using/assets/do-not-localize/learn-more-button.svg)](using/in-app/create-in-app-web.md)
-
->[!TAB Modèles de contenu multicanaux]
-
-En plus de la fonctionnalité E-mail, des modèles de contenu sont désormais disponibles pour les canaux suivants : Push, In-app, SMS et Courrier, chaque canal ayant des types de modèles dédiés. Pour E-mail, vous pouvez maintenant sélectionner le type de contenu, ce qui vous permet d’enregistrer l’objet dans le cadre de votre modèle d’e-mail.
-
-![](using/rn/assets/do-not-localize/multi-chan-templates.gif)
-
-[![En savoir plus](using/assets/do-not-localize/learn-more-button.svg)](using/content-management/content-templates.md)
 
 >[!ENDTABS]
 
