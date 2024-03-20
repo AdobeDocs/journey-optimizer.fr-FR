@@ -8,10 +8,10 @@ role: User
 level: Beginner
 keywords: platform, lac de données, créer, lac, jeux de données, profil
 exl-id: 66b5c691-ddc4-4e9b-9386-2ce6c307451c
-source-git-commit: f2d4531bd3b0b84dc1b52e818cbbeee36733314f
+source-git-commit: 83751eae9f703a89a57cb337492377ff2478d4a0
 workflow-type: tm+mt
-source-wordcount: '872'
-ht-degree: 60%
+source-wordcount: '864'
+ht-degree: 48%
 
 ---
 
@@ -67,7 +67,7 @@ Comprenez dans le tableau ci-dessous les jeux de données Journey Optimizer que 
 
 ## Conditions préalables {#prerequisites}
 
-Pour exporter des jeux de données, vous avez besoin des [autorisations de contrôle d’accès](https://experienceleague.adobe.com/docs/experience-platform/access-control/home.html?lang=fr#permissions) répertoriées ci-dessous. Lisez la [présentation du contrôle d’accès](https://experienceleague.adobe.com/docs/experience-platform/access-control/ui/overview.html?lang=fr) ou contactez votre administrateur ou administratrice du produit pour obtenir les autorisations requises.
+Pour exporter des jeux de données, vous avez besoin de l’événement [autorisations de contrôle d’accès](https://experienceleague.adobe.com/docs/experience-platform/access-control/home.html?lang=fr#permissions){target="_blank"} listed below. Read the [access control overview](https://experienceleague.adobe.com/docs/experience-platform/access-control/ui/overview.html?lang=fr){target="_blank"} ou contactez votre administrateur de produit pour obtenir les autorisations requises.
 
 | Catégorie | Autorisation |
 |--|--|
@@ -75,15 +75,15 @@ Pour exporter des jeux de données, vous avez besoin des [autorisations de contr
 | Gestion des données | Affichage des jeux de données |
 | Destinations | Affichage des destinations |
 
-## Étapes principales pour exporter des jeux de données {#main-steps}
+## Principales étapes pour exporter des jeux de données {#main-steps}
 
 Les principales étapes pour exporter un jeu de données vers un emplacement d’espace de stockage sont les suivantes :
 
 ![](assets/dataset-export-process.png)
 
-Des informations détaillées sur chaque étape sont disponibles dans la documentation Adobe Experience Platform : [Exporter des jeux de données vers des destinations d’espace de stockage](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/export-datasets.html?lang=fr).
+Des informations détaillées sur chaque étape sont disponibles dans la section [Documentation Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/export-datasets.html?lang=fr){target="_blank"}.
 
-1. **Configurez votre destination d’espace de stockage**. Si ce n’est pas déjà fait, connectez-vous à une destination d’espace de stockage à partir du catalogue des destinations. [Découvrez comment créer une connexion de destination](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/connect-destination.html?lang=fr#setup).
+1. **Configurez votre destination d’espace de stockage**. Si ce n’est pas déjà fait, connectez-vous à une destination d’espace de stockage à partir du catalogue des destinations. Découvrez comment créer une connexion de destination dans [Documentation Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/connect-destination.html?lang=fr#setup){target="_blank"}.
 
    <!--![](assets/dataset-export-setup.png)-->
 
@@ -93,7 +93,7 @@ Des informations détaillées sur chaque étape sont disponibles dans la documen
 
    >[!NOTE]
    >
-   >Si vous utilisez Adobe Journey Optimizer avec des profils client en temps réel, les cartes de destination affichent un bouton « Activer ». Ce bouton vous permet d’exporter des jeux de données et d’activer des audiences pour cette destination, en fonction des autorisations que vous avez activées.
+   >Si vous utilisez Adobe Journey Optimizer avec des profils client en temps réel, les cartes de destination affichent une **Activer** , ce qui vous permet d’exporter des jeux de données et d’activer des audiences pour cette destination, en fonction des autorisations que vous avez activées.
 
 1. **Sélectionnez le ou les jeux de données** que vous souhaitez exporter vers la destination sélectionnée. [En savoir plus sur les jeux de données Journey Optimizer disponibles pour l’export](#datasets)
 
@@ -107,4 +107,4 @@ Des informations détaillées sur chaque étape sont disponibles dans la documen
 
    <!--![](assets/dataset-export-review.png)-->
 
-Une fois l’exportation terminée, le contenu de votre jeu de données est déposé dans votre emplacement d’espace de stockage selon le planning que vous avez configuré. [Découvrez comment vérifier la réussite de l’exportation d’un jeu de données](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/export-datasets.html?lang=fr#verify).
+Une fois l’exportation terminée, le contenu de votre jeu de données est déposé dans votre emplacement d’espace de stockage selon le planning que vous avez configuré. [Découvrez comment vérifier l’exportation réussie d’un jeu de données](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/export-datasets.html?lang=fr#verify){target="_blank"}.
