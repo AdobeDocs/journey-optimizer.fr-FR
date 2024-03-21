@@ -1,8 +1,8 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Génération de contenu avec l’assistant de contenu
-description: Commencer avec l’assistant de contenu
+title: Génération de contenu à l’aide de l’assistant AI
+description: Prise en main de l’assistant d’IA
 feature: Content Assistant
 topic: Content Management
 role: User
@@ -11,28 +11,28 @@ badge: label="Version Beta" type="Informative"
 hide: true
 hidefromtoc: true
 exl-id: 1b3930ff-f7b0-43f0-bcf2-5c3de0a88b25
-source-git-commit: 27447578dad6bd2612989d79cd0dc8ddbe78d629
+source-git-commit: 559e17ba15c1b9b56f9badfe82f1de4bf3013a4f
 workflow-type: tm+mt
-source-wordcount: '407'
-ht-degree: 100%
+source-wordcount: '408'
+ht-degree: 68%
 
 ---
 
-# Génération de contenu avec l’assistant de contenu {#title-content-assistant}
+# Génération de contenu à l’aide de l’assistant AI {#title-content-assistant}
 
 >[!BEGINSHADEBOX]
 
 **Table des matières**
 
-* [Commencer avec l’assistant de contenu](gs-generative.md)
-* **[Générer du contenu avec l’assistant de contenu](generative-content.md)**
-* [Générer des images avec l’assistant de contenu](generative-image.md)
+* [Prise en main de l’assistant d’IA](gs-generative.md)
+* **[Génération de contenu à l’aide de l’assistant d’IA](generative-content.md)**
+* [Génération d’images à l’aide de l’assistant d’IA](generative-image.md)
 
 >[!ENDSHADEBOX]
 
-Une fois que vous avez créé et personnalisé vos messages, améliorez la qualité de votre contenu avec l’assistant de contenu.
+Une fois vos messages créés et personnalisés, passez au niveau supérieur avec l’assistant Journey Optimizer AI.
 
-En utilisant l’assistant de contenu, vous avez la possibilité d’optimiser l’impact de votre message en testant différents contenus. Chaque variante est considérée comme un traitement unique, qui permet de mesurer et de comparer le contenu qui génère le plus de clics.
+En utilisant l’assistant d’IA, vous avez la possibilité d’optimiser l’impact de votre message en testant différents contenus. Chaque variante est considérée comme un traitement unique, qui permet de mesurer et de comparer le contenu qui génère le plus de clics.
 
 Dans cet exemple particulier, apprenez à envoyer une notification push accrocheuse à l’aide de l’expérience de contenu. Procédez de la façon suivante :
 
@@ -48,7 +48,7 @@ Dans cet exemple particulier, apprenez à envoyer une notification push accroche
 
    * **[!UICONTROL Résumer]** : utilisez cette option pour raccourcir un texte afin de ne conserver que l’essentiel.
 
-   * **[!UICONTROL Élaborer]** : utilisez cette option pour développer votre contenu avec des variantes créatives supplémentaires de l’assistant de contenu.
+   * **[!UICONTROL Elaborate]**: utilisez cette option pour développer votre contenu avec des variantes de création supplémentaires de l’assistant d’IA.
 
    ![](assets/gen-ai-title-2.png)
 
@@ -62,7 +62,7 @@ Dans cet exemple particulier, apprenez à envoyer une notification push accroche
 
    ![](assets/gen-ai-title-4.png)
 
-1. Après avoir personnalisé le **[!UICONTROL Corps]** de votre notification push, sélectionnez **[!UICONTROL Afficher l’assistant de contenu]**.
+1. Après avoir personnalisé la variable **[!UICONTROL Corps]** de votre notification push, sélectionnez **[!UICONTROL Afficher l’assistant d’IA]**.
 
    Ici, une liste de variations est déjà disponible, qui utilise votre contenu d’origine.
 
@@ -70,7 +70,7 @@ Dans cet exemple particulier, apprenez à envoyer une notification push accroche
 
 1. Ajustez le contenu en décrivant ce que vous souhaitez générer.
 
-   Activez l’option **[!UICONTROL Améliorer le contenu actuel]** pour l’assistant de contenu afin de personnaliser le nouveau contenu en fonction de votre message, du nom de la campagne et de l’audience sélectionnée.
+   Activez la variable **[!UICONTROL Amélioration du contenu actuel]** de l’assistant d’IA afin de personnaliser le nouveau contenu en fonction de votre message, du nom de la campagne et de l’audience sélectionnée.
 
 1. Cliquez sur **[!UICONTROL Remplacer]** pour modifier votre contenu ou sélectionnez plusieurs **[!UICONTROL Variantes]** en vue de créer des **[!UICONTROL Traitements]** pour votre expérience, puis cliquez sur **Ajouter X traitement(s)**.
 

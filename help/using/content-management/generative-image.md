@@ -1,8 +1,8 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Génération d’images avec l’assistant de contenu
-description: Commencer avec l’assistant de contenu
+title: Génération d’images avec l’assistant d’IA
+description: Prise en main de l’assistant d’IA
 feature: Content Assistant
 topic: Content Management
 role: User
@@ -11,32 +11,32 @@ badge: label="Version Beta" type="Informative"
 hide: true
 hidefromtoc: true
 exl-id: b5582601-5804-4413-b548-a0b34cc38090
-source-git-commit: 27447578dad6bd2612989d79cd0dc8ddbe78d629
+source-git-commit: 559e17ba15c1b9b56f9badfe82f1de4bf3013a4f
 workflow-type: tm+mt
-source-wordcount: '345'
-ht-degree: 100%
+source-wordcount: '346'
+ht-degree: 66%
 
 ---
 
-# Génération d’images avec l’assistant de contenu {#image-content-assistant}
+# Génération d’images avec l’assistant d’IA {#image-content-assistant}
 
 >[!BEGINSHADEBOX]
 
 **Table des matières**
 
-* [Commencer avec l’assistant de contenu](gs-generative.md)
-* [Générer du texte avec l’assistant de contenu](generative-content.md)
-* **[Générer des images avec l’assistant de contenu](generative-image.md)**
+* [Prise en main de l’assistant d’IA](gs-generative.md)
+* [Génération de texte à l’aide de l’assistant d’IA](generative-content.md)
+* **[Génération d’images à l’aide de l’assistant d’IA](generative-image.md)**
 
 >[!ENDSHADEBOX]
 
-Une fois que vous avez créé et personnalisé vos e-mails ou pages web, améliorez la qualité de votre contenu avec l’assistant de contenu. Cet outil puissant vous permet de personnaliser et d’améliorer votre contenu sans effort.
+Une fois que vous avez créé et personnalisé vos emails ou pages web, repositionnez votre contenu au niveau supérieur avec l’assistant Journey Optimizer AI. Cet outil puissant vous permet de personnaliser et d’améliorer votre contenu sans effort.
 
-Dans l’exemple ci-dessous, découvrez comment utiliser l’assistant de contenu pour mettre à jour et améliorer vos ressources, afin d’offrir une meilleure expérience à vos clientes et clients. Procédez de la façon suivante :
+Dans l’exemple ci-dessous, découvrez comment utiliser l’assistant d’IA pour mettre à jour et améliorer vos ressources afin d’offrir une meilleure expérience utilisateur. Procédez de la façon suivante :
 
 1. Après avoir créé et configuré votre message, cliquez sur **[!UICONTROL Créer du contenu]** et personnalisez-le selon vos besoins.
 
-1. Sélectionnez la ressource que vous souhaitez modifier à l’aide de l’assistant de contenu.
+1. Sélectionnez la ressource que vous souhaitez modifier à l’aide de l’assistant AI.
 
 1. Dans le menu de droite, sélectionnez **[!UICONTROL Génération d’expériences]**.
 
@@ -44,7 +44,7 @@ Dans l’exemple ci-dessous, découvrez comment utiliser l’assistant de conten
 
 1. Ajoutez une invite pour optimiser les résultats et cliquez sur **[!UICONTROL Générer]**.
 
-   Activez l’option **[!UICONTROL Améliorer le contenu actuel]** pour l’assistant de contenu afin de personnaliser les nouvelles ressources en fonction de votre message, du nom de la campagne et de l’audience sélectionnée.
+   Activez la variable **[!UICONTROL Amélioration du contenu actuel]** de l’assistant d’IA afin de personnaliser les nouvelles ressources en fonction de votre message, du nom de la campagne et de l’audience sélectionnée.
 
    ![](assets/gen-ai-image-2.png)
 
