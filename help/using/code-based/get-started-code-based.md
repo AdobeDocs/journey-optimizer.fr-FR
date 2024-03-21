@@ -6,7 +6,7 @@ topic: Content Management
 role: User, Developer, Admin
 level: Experienced
 exl-id: 987de2bf-cebe-4753-98b4-01eb3fded492
-source-git-commit: 3cdef96e383448b462f6e3781e36d3c9a57bd637
+source-git-commit: 430af6da50e74c7375be92242ca869d187b63a54
 workflow-type: tm+mt
 source-wordcount: '1138'
 ht-degree: 81%
@@ -150,7 +150,7 @@ Fondamentalement, un URI de surface est composé de plusieurs sections :
 
 Les tableaux ci-dessous répertorient quelques exemples de définition d’URI de surface pour divers appareils.
 
-### Web et mobile
+**Web et mobile**
 
 | Type | URI | Description |
 | --------- | ----------- | ------- | 
@@ -158,7 +158,7 @@ Les tableaux ci-dessous répertorient quelques exemples de définition d’URI d
 | Application iOS | mobileapp://com.vendor.bundle/activity#element | Représente un élément spécifique dans une activité d’application native, tel qu’un bouton ou un autre élément de vue. |
 | Application Android | mobileapp://com.vendor.bundle#element | Représente un élément spécifique dans une application native. |
 
-### Autres types d’appareils
+**Autres types d’appareils**
 
 | Type | URI | Description |
 | --------- | ----------- | ------- | 
@@ -168,7 +168,7 @@ Les tableaux ci-dessous répertorient quelques exemples de définition d’URI d
 | Kiosque | kiosk://location/screen#element | Exemple de types de surfaces supplémentaires potentiels pouvant être ajoutés facilement. |
 | ATM | atm://location/screen#element | Exemple de types de surfaces supplémentaires potentiels pouvant être ajoutés facilement. |
 
-### Surfaces de caractères génériques
+**Surfaces de caractères génériques**
 
 | Type | URI | Description |
 | --------- | ----------- | ------- | 

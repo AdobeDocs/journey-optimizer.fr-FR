@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: parcours, premier, commencer, démarrage rapide, audience, événement, action
 exl-id: d940191e-8f37-4956-8482-d2df0c4274aa
-source-git-commit: f8d62a702824bcfca4221c857acf1d1294427543
+source-git-commit: 37be5bd6dc17dc7df12ad51994a854f2d7a20ef1
 workflow-type: tm+mt
-source-wordcount: '1977'
+source-wordcount: '1983'
 ht-degree: 92%
 
 ---
@@ -22,6 +22,8 @@ ht-degree: 92%
 >id="ajo_homepage_card2"
 >title="Créer des parcours"
 >abstract="Utilisez **Adobe Journey Optimizer** pour créer des cas d’utilisation d’orchestration en temps réel à l’aide de données contextuelles stockées dans des événements ou des sources de données."
+
+
 
 ## Conditions préalables{#start-prerequisites}
 
@@ -111,6 +113,8 @@ Dans les volets de configuration des événements, des sources de données et de
 ## Créer votre parcours{#jo-build}
 
 Cette étape est effectuée par l&#39;**utilisateur chargé de la conception de parcours**. C&#39;est là que vous créez vos parcours. Combinez les différentes activités d&#39;événement, d&#39;orchestration et d&#39;action afin de créer des scénarios cross-canal à plusieurs étapes.
+
+➡️ [Découvrir cette fonctionnalité en vidéo](journey.md#video)
 
 Voici les étapes principales pour envoyer des messages à travers des parcours :
 
