@@ -1,15 +1,15 @@
 ---
-title: Conditions préalables pour une expérience basée sur le code
+title: Barrières de sécurité et conditions préalables de l’expérience basées sur le code
 description: Pour pouvoir modifier des applications et des pages web à l’aide de la fonctionnalité basée sur le code Journey Optimizer, respectez les conditions préalables présentées dans cette page.
 feature: Code-based Experiences
 topic: Content Management
 role: Admin
 level: Experienced
 exl-id: ac901f88-5fde-4220-88c6-fe05433866cc
-source-git-commit: 3c9952f2e57c45d5bbd78d70ae7d401bc4555abe
+source-git-commit: d2ac4dfe40559f01db59e314e8838f51b39a8659
 workflow-type: tm+mt
-source-wordcount: '430'
-ht-degree: 93%
+source-wordcount: '427'
+ht-degree: 87%
 
 ---
 
@@ -17,18 +17,16 @@ ht-degree: 93%
 
 Pour pouvoir utiliser des actions d’expérience basée sur le code dans [!DNL Journey Optimizer] et diffuser la payload du contenu du code qui peut être utilisée par vos applications, procédez comme suit :
 
-* Pour ajouter des modifications à vos applications, vous devez disposer d’une implémentation spécifique. [En savoir plus](#implementation-prerequisites)
+* Pour ajouter des modifications à vos applications, vous devez disposer d’une mise en oeuvre spécifique. [En savoir plus](#implementation-prerequisites)
 
 * Pour que les expériences basées sur le code soient correctement diffusées, veillez à définir les paramètres d’Experience Platform présentés [ici](#delivery-prerequisites).
 
-
-## Notes de mise en garde {#caution-notes-web}
-
-* Dans [!DNL Journey Optimizer], vous ne pouvez actuellement créer des expériences web que dans des **campagnes**. [En savoir plus](../campaigns/create-campaign.md#configure)
-
->[!AVAILABILITY]
+>[!CAUTION]
 >
->Pour l’instant, le canal d’expérience basé sur le code n’est pas disponible pour les organisations qui ont acheté l’Adobe. **Bouclier sanitaire** et **Protection de la vie privée et protection** offres complémentaires.
+>* Le canal d’expérience basé sur le code n’est pas disponible pour les organisations qui ont acheté l’Adobe. **Bouclier sanitaire** et **Protection de la vie privée et protection** offres complémentaires.
+>
+>* Vous pouvez uniquement créer des expériences basées sur du code dans **campagnes**. [En savoir plus](../campaigns/create-campaign.md#configure
+
 
 ## Conditions préalables à l’implémentation {#implementation-prerequisites}
 

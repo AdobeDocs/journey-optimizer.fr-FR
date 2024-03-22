@@ -6,9 +6,9 @@ topic: Content Management
 role: User, Developer, Admin
 level: Experienced
 exl-id: 987de2bf-cebe-4753-98b4-01eb3fded492
-source-git-commit: 3c9952f2e57c45d5bbd78d70ae7d401bc4555abe
+source-git-commit: d2ac4dfe40559f01db59e314e8838f51b39a8659
 workflow-type: tm+mt
-source-wordcount: '1121'
+source-wordcount: '1123'
 ht-degree: 82%
 
 ---
@@ -27,7 +27,7 @@ Avec la fonctionnalité d’**expérience basée sur le code**, vous pouvez déf
 >
 >* Dans [!DNL Journey Optimizer], vous ne pouvez actuellement créer des expériences basées sur le code qu’en utilisant des **campagnes**.
 >
->>* Le canal d’expérience basé sur le code n’est pas disponible pour les organisations qui ont acheté l’Adobe. **Bouclier sanitaire** et **Protection de la vie privée et protection** offres complémentaires.
+>* Le canal d’expérience basé sur le code est : **non disponible** pour les organisations qui ont acheté l’Adobe **Bouclier sanitaire** et **Protection de la vie privée et protection** offres complémentaires.
 
 <!--Discover the detailed steps to create a code-based campaign in this video.-->
 
@@ -45,7 +45,7 @@ Avec la fonctionnalité d’**expérience basée sur le code**, vous pouvez déf
 <img alt="Validation" src="../assets/do-not-localize/web-prerequisites.jpg">
 </a>
 <div>
-<a href="code-based-prerequisites.md"><strong>Conditions préalables</strong></a>
+<a href="code-based-prerequisites.md"><strong>Barrières de sécurité et conditions préalables</strong></a>
 </div>
 <p>
 </td>
