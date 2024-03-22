@@ -6,20 +6,21 @@ topic: Content Management
 role: Admin
 level: Experienced
 exl-id: ac901f88-5fde-4220-88c6-fe05433866cc
-source-git-commit: f8d62a702824bcfca4221c857acf1d1294427543
+source-git-commit: 3c9952f2e57c45d5bbd78d70ae7d401bc4555abe
 workflow-type: tm+mt
 source-wordcount: '430'
-ht-degree: 94%
+ht-degree: 93%
 
 ---
 
-# Conditions préalables et mécanismes de sécurisation {#web-prerequisites}
+# Barrières de sécurité et conditions préalables {#web-prerequisites}
 
 Pour pouvoir utiliser des actions d’expérience basée sur le code dans [!DNL Journey Optimizer] et diffuser la payload du contenu du code qui peut être utilisée par vos applications, procédez comme suit :
 
 * Pour ajouter des modifications à vos applications, vous devez disposer d’une implémentation spécifique. [En savoir plus](#implementation-prerequisites)
 
 * Pour que les expériences basées sur le code soient correctement diffusées, veillez à définir les paramètres d’Experience Platform présentés [ici](#delivery-prerequisites).
+
 
 ## Notes de mise en garde {#caution-notes-web}
 

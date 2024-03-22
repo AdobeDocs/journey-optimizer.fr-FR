@@ -6,14 +6,18 @@ topic: Content Management
 role: User
 level: Experienced
 exl-id: 25c2c448-9380-47b0-97c5-16d9afb794c5
-source-git-commit: f8d62a702824bcfca4221c857acf1d1294427543
+source-git-commit: 3c9952f2e57c45d5bbd78d70ae7d401bc4555abe
 workflow-type: tm+mt
-source-wordcount: '993'
-ht-degree: 94%
+source-wordcount: '1001'
+ht-degree: 89%
 
 ---
 
 # Créer des expériences basées sur le code {#create-code-based}
+
+Actuellement dans [!DNL Journey Optimizer] vous pouvez uniquement créer des expériences basées sur du code dans **campagnes**.
+
+Les garde-fous et les recommandations sont présentés dans la section [cette page](code-based-prerequisites.md).
 
 >[!AVAILABILITY]
 >
@@ -22,10 +26,6 @@ ht-degree: 94%
 ## Créer une campagne basée sur le code {#create-code-based-campaign}
 
 Pour commencer à créer votre expérience basée sur le code par le biais d’une campagne, suivez les étapes ci-dessous.
-
->[!CAUTION]
->
->Dans [!DNL Journey Optimizer], vous ne pouvez actuellement créer des expériences basées sur le code qu’en utilisant des **campagnes**.
 
 1. Création d’une campagne. [En savoir plus](../campaigns/create-campaign.md)
 
@@ -41,11 +41,7 @@ Pour commencer à créer votre expérience basée sur le code par le biais d’u
 
 1. Sélectionnez **[!UICONTROL Créer]**.
 
-1. Suivez les étapes de création d’une campagne , telles que les propriétés de la campagne, l’[audience](../audience/about-audiences.md) et le [planning](../campaigns/create-campaign.md#schedule).
-
-   >[!NOTE]
-   >
-   >Pour plus d’informations sur la configuration d’une campagne, consultez cette [page](../campaigns/get-started-with-campaigns.md).
+1. Suivez les étapes de création d’une campagne, telles que les propriétés de la campagne, [audience](../audience/about-audiences.md), et [planning](../campaigns/create-campaign.md#schedule). Pour plus d’informations sur la configuration d’une campagne, consultez cette [page](../campaigns/get-started-with-campaigns.md).
 
 1. Modifiez le contenu selon vos besoins à l’aide de l’éditeur d’expression. [En savoir plus](#edit-code)
 
@@ -100,7 +96,7 @@ Désormais, dès que votre développeur ou développeuse lance un appel d’API 
 >title="Prévisualiser votre expérience basée sur le code"
 >abstract="Effectuez une simulation de ce à quoi ressemblera votre expérience basée sur le code."
 
-Pour afficher un aperçu de votre expérience basée sur le code qui a été modifiée, suivez les étapes ci-dessous. Vous trouverez des informations détaillées sur la sélection des profils de test et la prévisualisation de votre contenu dans la [page Prévisualiser et tester votre contenu](../content-management/preview-test.md).
+Pour afficher un aperçu de votre expérience basée sur le code qui a été modifiée, suivez les étapes ci-dessous. Vous trouverez des informations détaillées sur la sélection des profils de test et la prévisualisation de votre contenu dans la section [Prévisualiser et tester votre page de contenu](../content-management/preview-test.md).
 
 >[!CAUTION]
 >

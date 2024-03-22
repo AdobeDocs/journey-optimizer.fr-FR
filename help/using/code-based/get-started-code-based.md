@@ -6,18 +6,14 @@ topic: Content Management
 role: User, Developer, Admin
 level: Experienced
 exl-id: 987de2bf-cebe-4753-98b4-01eb3fded492
-source-git-commit: 430af6da50e74c7375be92242ca869d187b63a54
+source-git-commit: 3c9952f2e57c45d5bbd78d70ae7d401bc4555abe
 workflow-type: tm+mt
-source-wordcount: '1138'
-ht-degree: 81%
+source-wordcount: '1121'
+ht-degree: 82%
 
 ---
 
 # Prise en main du canal basé sur le code {#get-sarted-code-based}
-
->[!AVAILABILITY]
->
->Pour l’instant, le canal d’expérience basé sur le code n’est pas disponible pour les organisations qui ont acheté l’Adobe. **Bouclier sanitaire** et **Protection de la vie privée et protection** offres complémentaires.
 
 [!DNL Journey Optimizer] vous permet de personnaliser et de tester les expériences que vous souhaitez diffuser à votre clientèle sur tous vos touchpoints : applications web, applications mobiles, applications de bureau, consoles vidéo, appareils connectés à la télévision, téléviseurs intelligents, kiosques, guichets automatiques, assistants vocaux, appareils IdO, etc.
 
@@ -25,15 +21,13 @@ Avec la fonctionnalité d’**expérience basée sur le code**, vous pouvez déf
 
 <!--[!DNL Journey Optimizer] allows you to compose and deliver content on any inbound surface in a developer-focused workflow. You can leverage all the personalization capabilities, and preview what will be published. The content can be static (images, text, JSON, HTML) or dynamic (offers, decisions, recommendations). You can also insert custom content actions in your omni-channel journeys.-->
 
->[!CAUTION]
->
->Dans [!DNL Journey Optimizer], vous ne pouvez actuellement créer des expériences basées sur le code qu’en utilisant des **campagnes**.
-
-Lorsque vous [création d’une campagne](../campaigns/create-campaign.md#configure), sélectionnez **Expérience basée sur le code** comme action et définissez les paramètres de base.
-
 >[!NOTE]
 >
->Si c’est la première fois que vous créez une expérience basée sur du code, veillez à respecter les conditions préalables décrites dans la section [cette section](code-based-prerequisites.md).
+>* Si c’est la première fois que vous créez une expérience basée sur du code, veillez à respecter les conditions préalables décrites dans la section [cette section](code-based-prerequisites.md).
+>
+>* Dans [!DNL Journey Optimizer], vous ne pouvez actuellement créer des expériences basées sur le code qu’en utilisant des **campagnes**.
+>
+>>* Le canal d’expérience basé sur le code n’est pas disponible pour les organisations qui ont acheté l’Adobe. **Bouclier sanitaire** et **Protection de la vie privée et protection** offres complémentaires.
 
 <!--Discover the detailed steps to create a code-based campaign in this video.-->
 
