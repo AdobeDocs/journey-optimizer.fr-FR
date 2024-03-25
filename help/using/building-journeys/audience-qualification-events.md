@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: qualification, événements, audience, parcours, platform
 exl-id: 7e70b8a9-7fac-4450-ad9c-597fe0496df9
-source-git-commit: 1deb04490e53cbd5d67abda229bb4f850055510f
-workflow-type: ht
-source-wordcount: '1043'
-ht-degree: 100%
+source-git-commit: e45ec5f0e1bbcc73892f9cde5923627886f44ef6
+workflow-type: tm+mt
+source-wordcount: '1081'
+ht-degree: 92%
 
 ---
 
@@ -37,13 +37,18 @@ Il est possible de positionner ce type d’événement dès la première étape,
 
 * N’oubliez pas que les audiences Adobe Experience Platform sont calculées une fois par jour (audiences **par lots**) ou en temps réel (audiences **en flux continu** à l’aide de l’option Audiences haute fréquence d’Adobe Experience Platform).
 
-* Si l’audience sélectionnée est en flux continu, les personnes appartenant à cette audience peuvent éventuellement rejoindre le parcours en temps réel. Si l’audience est par lots, les personnes qui viennent d’être qualifiées pour cette audience peuvent éventuellement rejoindre le parcours lorsque le calcul de l’audience est exécuté sur Adobe Experience Platform.
+   * Si l’audience sélectionnée est diffusée en continu, les individus appartenant à cette audience peuvent éventuellement entrer sur le parcours en temps réel.
+   * Si l’audience est par lots, les personnes qui viennent d’être qualifiées pour cette audience peuvent éventuellement rejoindre le parcours lorsque le calcul de l’audience est exécuté sur Adobe Experience Platform.
+
+  Il est donc recommandé de ne recourir qu’à des audiences en continu dans une **Qualification de l’audience** activité. Pour les cas d’utilisation par lots, utilisez une **[Lecture d’audience](read-audience.md)** activité.
+
+  >[!NOTE]
+  >
+  >En raison de la nature du lot des audiences créées à l’aide de processus de composition et d’un chargement personnalisé, vous ne pouvez pas cibler ces audiences dans une activité &quot;Qualification de l’audience&quot;. Seules les audiences créées à l’aide de définitions de segment peuvent être exploitées dans cette activité.
 
 * Les groupes de champs d’événement d’expérience ne peuvent pas être utilisés dans les parcours commençant par une activité Lecture d’audience, Qualification d’audience ou événement métier.
 
 * Lorsque vous utilisez une qualification d’audience dans un parcours, cette activité de qualification d’audience peut demander jusqu’à 10 minutes avant d’être active et d’écouter les profils entrant ou sortant de l’audience.
-
-* En guise de bonne pratique, il est recommandé d’utiliser uniquement des audiences en streaming pour l’activité **Qualification d’audience**. Pour les cas d’utilisation par lots, utilisez l’activité **[Lecture d’audience](read-audience.md)**.
 
 ### Configurer l’activité{#cnfigure-segment-qualification}
 

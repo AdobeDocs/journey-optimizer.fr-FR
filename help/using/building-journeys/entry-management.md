@@ -8,10 +8,10 @@ role: User
 level: Intermediate
 keywords: reprise, parcours, profil, récurrent
 exl-id: 8874377c-6594-4a5a-9197-ba5b28258c02
-source-git-commit: f8d62a702824bcfca4221c857acf1d1294427543
+source-git-commit: e45ec5f0e1bbcc73892f9cde5923627886f44ef6
 workflow-type: tm+mt
-source-wordcount: '647'
-ht-degree: 27%
+source-wordcount: '680'
+ht-degree: 25%
 
 ---
 
@@ -78,6 +78,10 @@ Les parcours de lecture d’audience peuvent être récurrents ou ponctuels :
 Deux options sont disponibles pour les parcours de lecture d’audience récurrents :
 
 * Option **Lecture incrémentielle** : lorsqu’un parcours avec un événement récurrent **Lecture d’audience** s’exécute pour la première fois, tous les profils de l’audience rejoignent le parcours. Cette option permet de cibler, après la première occurrence, uniquement les individus entrés dans l’audience depuis la dernière exécution du parcours.
+
+  >[!NOTE]
+  >
+  >Si vous ciblez une variable [audience de chargement personnalisée](../audience/about-audiences.md#segments-in-journey-optimizer) dans votre parcours, les profils ne sont récupérés que lors de la première périodicité si cette option est activée dans un parcours récurrent, car ces audiences sont corrigées.
 
 * **Force une réentrée sur une période récurrente**: cette option permet de faire en sorte que tous les profils encore présents dans le parcours le quittent automatiquement lors de la prochaine exécution. Si la durée de vie de vos profils dans ce parcours peut être supérieure à la fréquence de périodicité (par exemple si vous utilisez des activités d’attente), n’activez pas cette option pour vous assurer que les profils peuvent terminer leur parcours.
 

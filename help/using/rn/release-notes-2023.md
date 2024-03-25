@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 61e6291f-c063-44a0-950c-8bb76de693f2
-source-git-commit: 75638e9b463278efab16b2b85ed2707640f088f2
-workflow-type: ht
+source-git-commit: e45ec5f0e1bbcc73892f9cde5923627886f44ef6
+workflow-type: tm+mt
 source-wordcount: '4398'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -426,7 +426,7 @@ Les événements contextuels liés aux campagnes sont désormais disponibles dan
 
 **Audiences**
 
-Des améliorations ont été apportées au sélecteur d’audiences dans les parcours ou les campagnes, avec l’ajout de nouvelles colonnes indiquant l’origine et la fréquence de mise à jour des audiences. Avec la publication du portail de composition de l’audience, Adobe Experience Platform et Adobe Journey Optimizer ont mis à jour l’utilisation des « audiences » et des « segments » dans le système et la documentation.
+Des améliorations ont été apportées au sélecteur d’audiences dans les parcours ou les campagnes, avec l’ajout de nouvelles colonnes indiquant l’origine et la fréquence de mise à jour des audiences. Avec la publication du portail de composition d’audience, Adobe Experience Platform et Adobe Journey Optimizer ont mis à jour l’utilisation des &quot;audiences&quot; et des &quot;segments&quot; dans le système et la documentation.
 
 * Audience : ensemble de personnes, de comptes, de foyers ou d’autres entités qui partagent des caractéristiques et des comportements communs.
 * Définition d’un segment : règles utilisées pour décrire les caractéristiques ou le comportement clés d’une audience cible dans Adobe Experience Platform. Ce terme était auparavant appelé « segment ».

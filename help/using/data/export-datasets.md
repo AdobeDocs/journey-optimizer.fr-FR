@@ -8,7 +8,7 @@ role: User
 level: Beginner
 keywords: platform, lac de données, créer, lac, jeux de données, profil
 exl-id: 66b5c691-ddc4-4e9b-9386-2ce6c307451c
-source-git-commit: 83751eae9f703a89a57cb337492377ff2478d4a0
+source-git-commit: e45ec5f0e1bbcc73892f9cde5923627886f44ef6
 workflow-type: tm+mt
 source-wordcount: '864'
 ht-degree: 48%
@@ -56,7 +56,7 @@ Comprenez dans le tableau ci-dessous les jeux de données Journey Optimizer que 
 | Jeu de données d’événement d’expérience de tracking de notifications push AJO | Logs d’interaction pour le canal Push utilisé à des fins de création de rapports et d’audience.  |
 | Jeu de données des surfaces AJO | Jeu de données vide associé au schéma de surfaces entrantes Journey Optimizer |
 | AOOutputForUPSDataset | Contient tous les appartenances à l’audience AOA à écrire dans UPS |
-| Jeu de données du profil Audience Orchestration | Généré par composition d’audience pour les audiences de composition d’audience. Contient toutes les audiences de composition de l’audience, leurs attributs et leurs données d’enrichissement |
+| Jeu de données du profil Audience Orchestration | Générée par composition d’audience pour les audiences de composition d’audience. Contient toutes les audiences de composition d’audience, leurs attributs et leurs données d’enrichissement |
 | Référentiel d’objets de décision - Activités | également appelé Décisions dans l’interface utilisateur de . Mais ce sont les objets créés par un utilisateur ou une utilisatrice qui réunissent tous les blocs de création, y compris la logique de prise de décision. Par exemple, pour un emplacement particulier (emplacement), qui doit être pris en compte (collection d’offres), et quelle méthode de classement utiliser sur ces offres. |
 | Référentiel d’objets de décision - Offres de secours | il s’agit du référentiel pour l’autre type d’offre qu’un utilisateur crée. Plus précisément, s’ils ne sont pas éligibles pour voir une offre personnalisée et qu’ils doivent voir quelque chose, ils verront au moins l’offre de secours. Ce jeu de données contient les attributs de ce type d’offre |
 | Référentiel d’objets de décision - Offres personnalisées | il s’agit du référentiel d’un type d’offre créé par un utilisateur. Ce jeu de données contient donc les attributs relatifs à ce type d’offre. | Ultimate |

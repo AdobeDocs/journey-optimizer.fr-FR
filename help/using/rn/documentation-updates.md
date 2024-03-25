@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: f8d62a702824bcfca4221c857acf1d1294427543
+source-git-commit: e45ec5f0e1bbcc73892f9cde5923627886f44ef6
 workflow-type: tm+mt
-source-wordcount: '5046'
+source-wordcount: '5073'
 ht-degree: 95%
 
 ---
@@ -21,6 +21,7 @@ Cette page répertorie toutes les mises à jour récentes de la documentation de
 
 ## Mars 2024 {#march-2024}
 
+* Une section Questions fréquentes a été ajoutée pour répondre aux questions courantes concernant l’utilisation de la composition d’audience et les audiences de chargement personnalisées dans Journey Optimizer. [En savoir plus](../audience/about-audiences.md#faq)
 * Toutes les nouvelles fonctionnalités et améliorations proposées [!DNL Journey Optimizer] La version du 24 mars a été détaillée dans la documentation. [En savoir plus](release-notes.md)
 * La page de gestion des entrées de profil a été améliorée. [En savoir plus](../building-journeys/entry-management.md)
 * Des informations de dépannage ont été ajoutées à la page Alertes. [En savoir plus](../reports/alerts.md#alert-troubleshooting)
@@ -31,7 +32,7 @@ Cette page répertorie toutes les mises à jour récentes de la documentation de
    * P : raccourci pour déclencher un événement dans un parcours basé sur l’audience pour lequel l’option Un seul profil à la fois est activée.
    * L : raccourci désigné pour afficher les journaux de test.
 * La page Règles de fréquence des messages a été mise à jour avec une nouvelle sous-section sur la limite de fréquence quotidienne, disponible à la demande en plus de la limitation hebdomadaire ou mensuelle. [En savoir plus](../configuration/frequency-rules.md#daily-frequency-cap)
-* La page Utilisation des stratégies de consentement a été améliorée et mise à jour avec des liens utiles vers la documentation de l’Experience Platform. [En savoir plus](../action/consent.md)
+* La page Utiliser les politiques de consentement a été améliorée et mise à jour avec des liens utiles vers la documentation d’Experience Platform. [En savoir plus](../action/consent.md)
 * Une nouvelle section a été ajoutée pour refléter le fait que vous pouvez afficher des modèles de contenu d’email HTML sous forme de miniatures en mode Affichage de la grille (disponibilité limitée). [En savoir plus](../content-management/content-templates.md#template-thumbnails)
 * Une nouvelle section a été ajoutée à la page Délivrabilité pour expliquer ce que sont les boucles de rétroaction et comment les exploiter. [En savoir plus](../reports/deliverability.md#feedback-loops)
 * Une note a été ajoutée à la section Créer des offres personnalisées pour indiquer que la taille d’une offre, y compris toutes ses représentations, ne peut pas dépasser 300 Ko. [En savoir plus](../offers/offer-library/creating-personalized-offers.md#create-offer)
