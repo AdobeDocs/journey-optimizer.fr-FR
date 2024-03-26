@@ -9,7 +9,7 @@ exl-id: 06fa956a-b500-416e-9d42-b683c328e837
 source-git-commit: f8d62a702824bcfca4221c857acf1d1294427543
 workflow-type: tm+mt
 source-wordcount: '1392'
-ht-degree: 83%
+ht-degree: 99%
 
 ---
 
@@ -28,11 +28,11 @@ ht-degree: 83%
 
 ## Notes de mise à jour de mars 2024 {#mar-2024}
 
-**Date de publication**: 19-20 mars 2024
+**Date de publication** : 19-20 mars 2024
 
 ### Nouvelle fonctionnalité {#mar-features}
 
-Cette version comprend la nouvelle fonctionnalité présentée ci-dessous.
+Cette version apporte les nouvelles fonctionnalités détaillées ci-dessous.
 
 <table>
 <thead>
@@ -43,11 +43,11 @@ Cette version comprend la nouvelle fonctionnalité présentée ci-dessous.
 <tbody>
 <tr>
 <td>
-<p>Grâce au nouveau canal d’expérience basé sur le code, Adobe Journey Optimizer vous permet d’effectuer des tests et des personnalisations avancés pour l’une de vos propriétés entrantes, ce qui vous permet de diffuser facilement des expériences personnalisées sur différents points de contact tels que des applications web, des applications mobiles, des applications de bureau, des consoles vidéo, des périphériques connectés à la télévision, des téléviseurs intelligents, des kiosques, des distributeurs automatiques, des périphériques IoT, etc.</p>
+<p>Grâce au nouveau canal d’expérience basé sur le code, Adobe Journey Optimizer vous permet d’effectuer des tests et des personnalisations avancés pour l’une de vos propriétés entrantes, ce qui vous permet de diffuser facilement des expériences personnalisées sur différents points de contact (touchpoints) tels que des applications web, des applications mobiles, des applications de bureau, des consoles vidéo, des appareils connectés à la télévision, des téléviseurs intelligents, des kiosques, des distributeurs automatiques, des périphériques IoT, etc.</p>
 <P>Les fonctionnalités principales sont les suivantes :</p>
-<ul><li> Personnalisation universelle : étendez les expériences personnalisées sur tous les points de contact, en assurant un parcours utilisateur cohérent et personnalisé.</li>
-<li>Précision granulaire de la modification : modifiez du contenu spécifique à des emplacements spécifiques dans vos applications ou pages web.</li>
-<li>Mise en oeuvre polyvalente : prise en charge des méthodes de mise en oeuvre côté serveur, basées sur les API ou basées sur le SDK pour une intégration transparente à votre environnement de développement.</li></ul></p>
+<ul><li> Personnalisation universelle : étendez les expériences personnalisées sur tous les points de contact, en assurant un parcours utilisateur cohérent et personnalisé.</li>
+<li>Précision granulaire de la modification : modifiez du contenu spécifique à des emplacements spécifiques dans vos applications ou pages web.</li>
+<li>Mise en œuvre polyvalente : prise en charge des méthodes de mise en œuvre côté serveur, basées sur les API ou basées sur le SDK pour une intégration transparente à votre environnement de développement.</li></ul></p>
 <p>Pour plus d’informations, consultez la <a href="../code-based/get-started-code-based.md">documentation détaillée</a>.</p>
 <img src="assets/do-not-localize/code-based.gif">
 </tr>
@@ -60,7 +60,7 @@ Cette version est fournie avec les améliorations répertoriées ci-dessous.
 
 **Modèles de contenu**
 
-* **Miniatures** - A **Mode Grille** Le mode est désormais disponible pour les modèles de contenu, affichant des miniatures pour un accès visuel amélioré. Actuellement, seuls les modèles de HTML email sont pris en charge. [En savoir plus](../content-management/content-templates.md#template-thumbnails)
+* **Miniatures** : un mode de **vue Grille** est désormais disponible pour les modèles de contenu, affichant ainsi les miniatures afin d’améliorer l’accès visuel. Actuellement, seuls les modèles HTML d’e-mail sont pris en charge. [En savoir plus](../content-management/content-templates.md#template-thumbnails)
 
   >[!AVAILABILITY]
   >
@@ -68,11 +68,11 @@ Cette version est fournie avec les améliorations répertoriées ci-dessous.
 
 **Parcours**
 
-De nouveaux états intermédiaires ont été ajoutés au cycle de vie de création de parcours :
+De nouveaux statuts intermédiaires ont été ajoutés au cycle de vie de création de parcours :
 
-* **Publication** entre les **Version préliminaire** et la variable **En direct** status
-* **Arrêt** entre les **En direct** et la variable **Stoppé** status
-* **Activation du mode test** ou **Désactivation du mode test** les états entre les **Version préliminaire** et la variable **Version préliminaire (test)** status
+* Statut **Publication** entre le statut **Brouillon** et le statut **Actif**
+* Statut **Arrêt en cours** entre le statut **Actif** et le statut **Arrêté**
+* Statuts **Activer le mode test** ou **Désactiver le mode test** entre le statut **Brouillon** et le statut **Brouillon (test)**
 
 Lorsqu’un parcours se trouve dans un état intermédiaire, il est en lecture seule. [En savoir plus](../building-journeys/journey-gs.md#filter)
 
@@ -231,11 +231,11 @@ Cette version est fournie avec les améliorations répertoriées ci-dessous.
 
 **Règles de fréquence**
 
-* **Limite de fréquence hebdomadaire** - Vous pouvez maintenant spécifier le nombre maximum de messages envoyés à un profil client par semaine, en plus du mois. La limite de fréquence est basée sur la période calendaire sélectionnée et est réinitialisée au début de la période correspondante. [En savoir plus](../configuration/frequency-rules.md#create-new-rule)
+* **Limite de fréquence hebdomadaire** – Vous pouvez désormais spécifier le nombre maximum de messages envoyés à un profil client par semaine, en plus de l’option par mois. La limite de fréquence est basée sur la période calendaire sélectionnée et est réinitialisée au début de la période correspondante. [En savoir plus](../configuration/frequency-rules.md#create-new-rule)
 
   >[!NOTE]
   >
-  >Une limite de fréquence quotidienne est également disponible sur demande. Contactez votre représentant Adobe.
+  >Une limite de fréquence quotidienne est également disponible à la demande. Contactez votre représentant ou représentante Adobe.
 
 **Gestion des décisions**
 
