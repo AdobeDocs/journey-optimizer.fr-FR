@@ -8,9 +8,9 @@ level: Experienced
 keywords: toDateTimeOnly, fonction, expression, parcours
 exl-id: db54c119-5080-403a-b254-43645be6b4a8
 source-git-commit: 4e7c4e7e6fcf488f572ccf3e9037e597dde06510
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '63'
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 
@@ -47,7 +47,7 @@ Renvoie une date et une heure sans prendre en compte le fuseau horaire.
 
 `toDateTimeOnly ("2023-08-18")`
 
-renvoie une valeur dateTime représentant 2023-08-18T00:00:00,000
+Renvoie une valeur dateTime représentant 2023-08-18T00:00:00.000.
 
 `toDateTimeOnly(now())`
 

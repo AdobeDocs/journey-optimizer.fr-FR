@@ -8,7 +8,7 @@ level: Experienced
 keywords: toString, fonction, expression, parcours
 exl-id: 06727146-2a44-4b74-aac4-be60e9e0e37c
 source-git-commit: 4e7c4e7e6fcf488f572ccf3e9037e597dde06510
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '128'
 ht-degree: 100%
 
@@ -65,4 +65,4 @@ Renvoie la représentation sous forme de chaîne du champ dateOnly (champ de dat
 
 `toString(toDuration(1520))`
 
-Renvoie « PT1,52S ».
+Renvoie « PT1.52S ».

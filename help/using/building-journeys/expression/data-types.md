@@ -9,9 +9,9 @@ level: Experienced
 keywords: expression, données, type de données, parcours
 exl-id: fdfc3287-d733-45fb-ad11-b4238398820a
 source-git-commit: 4e7c4e7e6fcf488f572ccf3e9037e597dde06510
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '620'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -186,7 +186,7 @@ date("2024-02-19T00.00")
 
 Constante de date et d’heure qui tient également compte du fuseau horaire. Elle représente une valeur de date et d’heure avec un décalage par rapport à UTC.
 
-Elle peut être vue comme un point de la ligne du temps avec les informations supplémentaires du décalage. C&#39;est une façon de représenter un &quot;moment&quot; spécifique à un certain endroit du monde.
+Elle peut être vue comme un point de la ligne du temps avec les informations supplémentaires du décalage. C’est une façon de représenter un « moment » précis en un point du globe.
 
 Format JSON : chaîne.
 

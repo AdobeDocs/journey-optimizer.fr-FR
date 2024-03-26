@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 exl-id: 59ea67d9-e90c-4ad0-afb9-d0e0fd868855
 source-git-commit: d7b784f10e267878fd0df9360ed0d1be24699a53
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '484'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -38,7 +38,7 @@ Par défaut, Adobe Journey Optimizer gère les messages de réponse en anglais
 
 Ces mots-clés déclenchent généralement une réponse standard automatique de votre fournisseur tiers. Contactez votre fournisseur ou consultez son site de documentation pour en avoir la confirmation.
 
-Lors de l’utilisation d’Infobip, assurez-vous que l’action Transfert est définie sur la configuration Extraction .
+Lors de l’utilisation d’Infobip, assurez-vous que l’action Transfert est définie sur la configuration de tirage.
 
 Aucune opération n’est nécessaire pour s’assurer que les fonctionnalités de désinscription par SMS fonctionnent dans Adobe Journey Optimizer, car les réponses par mot-clé STOP, UNSTOP, START, QUIT, CANCEL, END, et UNSUBSCRIBE sont automatiquement reconnues. Les statuts de désinscription des profils sont mis à jour en temps réel dans Adobe Journey Optimizer.
 

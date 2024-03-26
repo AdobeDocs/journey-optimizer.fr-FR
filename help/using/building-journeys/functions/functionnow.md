@@ -8,9 +8,9 @@ level: Experienced
 keywords: now, fonction, expression, parcours
 exl-id: 16dcc772-e48d-4f10-be75-62dd39473556
 source-git-commit: 4e7c4e7e6fcf488f572ccf3e9037e597dde06510
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '62'
-ht-degree: 72%
+ht-degree: 100%
 
 ---
 
@@ -48,7 +48,7 @@ Renvoie 2023-06-03T06:30Z.
 
 `toString(now())`
 
-Renvoie &quot;2023-06-03T06:30Z&quot;
+Renvoie « 2023-06-03T06:30Z ».
 
 `now("Europe/Paris")`
 
