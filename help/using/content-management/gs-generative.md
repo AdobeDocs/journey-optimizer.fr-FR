@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Prise en main de l’assistant d’IA
+title: Prise en main de l’assistant AI
 description: Découvrez comment accéder à l’assistant AI Journey Optimizer et l’utiliser
 feature: Content Assistant
 topic: Content Management
@@ -14,16 +14,16 @@ exl-id: 6e291ce3-f324-4e5d-975b-5229dea4d581
 source-git-commit: 559e17ba15c1b9b56f9badfe82f1de4bf3013a4f
 workflow-type: tm+mt
 source-wordcount: '241'
-ht-degree: 57%
+ht-degree: 68%
 
 ---
 
-# Prise en main de l’assistant d’IA {#gs-content-assistant}
+# Prise en main de l’assistant AI {#gs-content-assistant}
 
 >[!CONTEXTUALHELP]
 >id="ajo_content_generation"
 >title="Créer le contenu d’un e-mail"
->abstract="L’assistant d’IA Adobe Parcours Optimier propose des variantes de contenu proactives pour le texte et les images. Il est disponible pour les canaux e-mail, notification push, SMS et web. Cette nouvelle fonctionnalité permet de générer rapidement du texte et des images. "
+>abstract="L’assistant IA d’Adobe Journey Optimizer offre des suggestions proactives de variations de contenu pour le texte et les images. Il est disponible pour les canaux e-mail, notification push, SMS et web. Cette nouvelle fonctionnalité permet de générer rapidement du texte et des images. "
 
 >[!BEGINSHADEBOX]
 
