@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: message, fréquence, règles, pression
 exl-id: 49248fb6-5a91-45b2-9de8-2f078d59c0fc
-source-git-commit: 949e7cd05a2b1125e13615814f6501b3906e470c
-workflow-type: ht
-source-wordcount: '1212'
-ht-degree: 100%
+source-git-commit: 12f6c41252809bcc85bc076902f9a831a6c6e7d9
+workflow-type: tm+mt
+source-wordcount: '1219'
+ht-degree: 98%
 
 ---
 
@@ -127,7 +127,7 @@ La limite de fréquence quotidienne est valable pour la journée jusqu’à 23:5
 
 >[!NOTE]
 >
->Dans le cas de la [segmentation par lots](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=fr#batch){target="_blank"}, the daily counters may not accurately reflect the current values as the daily counter snapshot is taken at midnight UTC the night before. Consequently, relying on daily counters in this scenario becomes impractical, as the snapshot does not reflect the most up-to-date counter values on the profile. To ensure accuracy for daily frequency capping rules, the use of [streaming segmentation](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/streaming-segmentation.html?lang=fr){target="_blank"}, cela est recommandé. En savoir plus sur les méthodes d’évaluation de l’audience dans [cette section](../audience/about-audiences.md#evaluation-method-in-journey-optimizer).
+>Pour garantir la précision des règles de limitation de la fréquence quotidienne, utilisez la méthode [segmentation par flux](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/streaming-segmentation.html?lang=fr){target="_blank"} est recommandé. En savoir plus sur les méthodes d’évaluation de l’audience dans [cette section](../audience/about-audiences.md#evaluation-method-in-journey-optimizer).
 
 ## Activer une règle {#activate-rule}
 

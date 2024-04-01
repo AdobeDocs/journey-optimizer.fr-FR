@@ -6,9 +6,9 @@ topic: Content Management
 role: User, Developer, Admin
 level: Experienced
 exl-id: 987de2bf-cebe-4753-98b4-01eb3fded492
-source-git-commit: bb9ebf5900f38c3729321330eee176489a86cd8e
+source-git-commit: 12f6c41252809bcc85bc076902f9a831a6c6e7d9
 workflow-type: tm+mt
-source-wordcount: '1082'
+source-wordcount: '1080'
 ht-degree: 84%
 
 ---
@@ -147,15 +147,15 @@ Les tableaux ci-dessous répertorient quelques exemples de définition d’URI d
 | --------- | ----------- | ------- | 
 | Web | web://domain.com/path/page.html#element | Représente un élément individuel dans une page spécifique d’un domaine spécifique, où un élément peut être un libellé comme dans les exemples suivants : hero_banner, top_nav, menu, pied de page, etc. |
 | Application iOS | mobileapp://com.vendor.bundle/activity#element | Représente un élément spécifique dans une activité d’application native, tel qu’un bouton ou un autre élément de vue. |
-| Application Android | mobileapp://com.vendor.bundle#element | Représente un élément spécifique dans une application native. |
+| Application Android | mobileapp://com.vendor.bundle/#element | Représente un élément spécifique dans une application native. |
 
 **Autres types d’appareils**
 
 | Type | URI | Description |
 | --------- | ----------- | ------- | 
-| Bureau | desktop://com.vendor.bundle#element | Représente un élément spécifique dans une application, tel qu’un bouton, un menu, une bannière principale, etc. |
-| Application TV | tvcd://com.vendor.bundle#element | Représente un élément spécifique dans une application d’appareil connectée à une télévision dynamique ou à une télévision - ID de lot. |
-| Service | service://servicename#element | Représente un processus côté serveur ou une autre entité manuelle. |
+| Bureau | desktop://com.vendor.bundle/#element | Représente un élément spécifique dans une application, tel qu’un bouton, un menu, une bannière principale, etc. |
+| Application TV | tvcd://com.vendor.bundle/#element | Représente un élément spécifique dans une application d’appareil connectée à une télévision dynamique ou à une télévision - ID de lot. |
+| Service | service://servicename/#element | Représente un processus côté serveur ou une autre entité manuelle. |
 | Kiosque | kiosk://location/screen#element | Exemple de types de surfaces supplémentaires potentiels pouvant être ajoutés facilement. |
 | ATM | atm://location/screen#element | Exemple de types de surfaces supplémentaires potentiels pouvant être ajoutés facilement. |
 
@@ -163,7 +163,5 @@ Les tableaux ci-dessous répertorient quelques exemples de définition d’URI d
 
 | Type | URI | Description |
 | --------- | ----------- | ------- | 
-| Caractère générique | caractère générique:web://domain.com/`*`#element | Surface de caractères génériques : représente un élément individuel dans chacune des pages sous un domaine spécifique. |
-| Caractère générique | caractère générique:web://`*`domain.com/`*`#element | Surface de caractères génériques : représente un élément individuel dans chacune des pages sous tous les domaines qui se terminent par &quot;domain.com&quot;. |
-
-
+| Caractère générique | `wildcard:web://domain.com/*#element` | Surface de caractères génériques : représente un élément individuel dans chacune des pages sous un domaine spécifique. |
+| Caractère générique | `wildcard:web://*domain.com/*#element` | Surface de caractères génériques : représente un élément individuel dans chacune des pages sous tous les domaines qui se terminent par &quot;domain.com&quot;. |
