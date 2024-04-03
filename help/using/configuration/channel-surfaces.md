@@ -12,7 +12,7 @@ exl-id: 9038528f-3da0-4e0e-9b82-b72c67b42391
 source-git-commit: 99c509a00a3e8a4dbf9ae8a5b16aa799b0af2e13
 workflow-type: tm+mt
 source-wordcount: '1651'
-ht-degree: 97%
+ht-degree: 98%
 
 ---
 
@@ -51,8 +51,8 @@ Une fois les surfaces de canal configurées, vous pourrez les sélectionner lors
 
 >[!CONTEXTUALHELP]
 >id="ajo_surface_marketing_action"
->title="Sélection d’une action marketing"
->abstract="Sélectionnez une action marketing en surface afin d&#39;associer une stratégie de consentement au message."
+>title="Sélectionner une action marketing"
+>abstract="Choisissez une action marketing dans la surface pour pouvoir associer une politique de consentement au message."
 
 Pour créer une surface de canal, procédez comme suit :
 

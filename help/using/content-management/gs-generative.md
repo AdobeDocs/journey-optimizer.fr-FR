@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Prise en main de l’assistant AI
+title: Prise en main de l’assistant IA
 description: Découvrez comment accéder à l’assistant AI Journey Optimizer et l’utiliser
 feature: Content Assistant
 topic: Content Management
@@ -18,7 +18,7 @@ ht-degree: 68%
 
 ---
 
-# Prise en main de l’assistant AI {#gs-content-assistant}
+# Prise en main de l’assistant IA {#gs-content-assistant}
 
 >[!CONTEXTUALHELP]
 >id="ajo_content_generation"
