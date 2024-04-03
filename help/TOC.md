@@ -244,9 +244,9 @@ ht-degree: 99%
       + [Surveiller vos campagnes web](using/web/monitor-web-campaigns.md)
       + [Créer des applications monopage](using/web/web-spa.md)
 + Expérience basée sur le code {#code-based-experience}
-   + [Prise en main du canal basé sur le code](using/code-based/get-started-code-based.md)
-   + [Barrières de sécurité et conditions préalables](using/code-based/code-based-prerequisites.md)
-   + [Exemples de méthodes de mise en oeuvre](using/code-based/code-based-implementation-samples.md)
+   + [Commencer avec le canal basé sur le code](using/code-based/get-started-code-based.md)
+   + [Mécanismes de sécurisation et conditions préalables](using/code-based/code-based-prerequisites.md)
+   + [Exemples de méthodes de mise en œuvre](using/code-based/code-based-implementation-samples.md)
    + [Créer des expériences basées sur le code](using/code-based/create-code-based.md)
 +  Pages de destination {#landing-pages}
    + [Prise en main des pages de destination](using/landing-pages/get-started-lp.md)
@@ -534,7 +534,7 @@ ht-degree: 99%
       + [Accès aux enregistrements PTR et modification](using/configuration/ptr-records.md)
       + [Création de groupes d’adresses IP](using/configuration/ip-pools.md)
    + Mettre en œuvre un plan de préchauffage des adresses IP {#implement-ip-warmup-plan}
-      + [Prise en main des plans de préchauffage d’adresses IP](using/configuration/ip-warmup-gs.md)
+      + [Commencer avec les plans de préchauffage d’adresses IP](using/configuration/ip-warmup-gs.md)
       + [Créer des campagnes de préchauffage d’adresses IP](using/configuration/ip-warmup-campaign.md)
       + [Créer un plan de préchauffage d’adresses IP](using/configuration/ip-warmup-plan.md)
       + [Exécuter le plan de préchauffage des adresses IP](using/configuration/ip-warmup-execution.md)

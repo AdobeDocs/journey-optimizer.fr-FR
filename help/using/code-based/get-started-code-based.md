@@ -9,11 +9,11 @@ exl-id: 987de2bf-cebe-4753-98b4-01eb3fded492
 source-git-commit: d741a34a0418dc88db730d0b953cb5c7db8dc103
 workflow-type: tm+mt
 source-wordcount: '1055'
-ht-degree: 85%
+ht-degree: 100%
 
 ---
 
-# Prise en main du canal basé sur le code {#get-sarted-code-based}
+# Commencer avec le canal basé sur le code {#get-sarted-code-based}
 
 [!DNL Journey Optimizer] vous permet de personnaliser et de tester les expériences que vous souhaitez diffuser à votre clientèle sur tous vos touchpoints : applications web, applications mobiles, applications de bureau, consoles vidéo, appareils connectés à la télévision, téléviseurs intelligents, kiosques, guichets automatiques, assistants vocaux, appareils IdO, etc.
 
@@ -23,7 +23,7 @@ Avec la fonctionnalité d’**expérience basée sur le code**, vous pouvez déf
 
 >[!IMPORTANT]
 >
->Des garde-fous spécifiques et des recommandations pour les expériences basées sur le code sont détaillés dans la section [cette page](code-based-prerequisites.md).
+>Des mécanismes de sécurisation et recommandations spécifiques pour les expériences basées sur le code sont détaillés dans [cette page](code-based-prerequisites.md).
 
 
 <!--Discover the detailed steps to create a code-based campaign in this video.-->
@@ -42,7 +42,7 @@ Avec la fonctionnalité d’**expérience basée sur le code**, vous pouvez déf
 <img alt="Validation" src="../assets/do-not-localize/web-prerequisites.jpg">
 </a>
 <div>
-<a href="code-based-prerequisites.md"><strong>Barrières de sécurité et conditions préalables</strong></a>
+<a href="code-based-prerequisites.md"><strong>Mécanismes de sécurisation et conditions préalables</strong></a>
 </div>
 <p>
 </td>
@@ -59,7 +59,7 @@ Avec la fonctionnalité d’**expérience basée sur le code**, vous pouvez déf
 <img alt="Validation" src="../assets/do-not-localize/web-design.jpg">
 </a>
 <div>
-<a href="code-based-implementation-samples.md"><strong>Exemples de mise en oeuvre</strong></a>
+<a href="code-based-implementation-samples.md"><strong>Exemples de mises en œuvre</strong></a>
 </div>
 <p>
 </td>
@@ -135,9 +135,9 @@ Autrement dit, une surface peut être considérée comme un conteneur à n’imp
 * Il peut également s’agir d’une surface de caractères génériques qui correspond à diverses définitions de surface client (par exemple, un emplacement d’image principale sur chaque page de votre site web peut se traduire en un URI de surface comme : web://mondomaine.com/*#image_principale).
 
 Fondamentalement, un URI de surface est composé de plusieurs sections :
-1. **Type**: web, mobileapp, atm, kiosque, tvcd, service, etc.
-1. **Propriété**: URL de page ou lot d’applications
-1. **Conteneur**: emplacement sur l’activité page/application
+1. **Type** : web, application mobile, ATM, kiosque, tvcd, service, etc.
+1. **Propriété** : URL de page ou bundle d’applications.
+1. **Conteneur** : emplacement sur l’activité page/application.
 
 Les tableaux ci-dessous répertorient quelques exemples de définition d’URI de surface pour divers appareils.
 
@@ -145,8 +145,8 @@ Les tableaux ci-dessous répertorient quelques exemples de définition d’URI d
 
 | Type | URI | Description |
 | --------- | ----------- | ------- | 
-| Web | `web://domain.com/path/page.html#element` | Représente un élément individuel dans une page spécifique d’un domaine spécifique, où un élément peut être un libellé comme dans les exemples suivants : hero_banner, top_nav, menu, pied de page, etc. |
-| Application iOS | `mobileapp://com.vendor.bundle/activity#element` | Représente un élément spécifique dans une activité d’application native, tel qu’un bouton ou un autre élément de vue. |
+| Web | `web://domain.com/path/page.html#element` | Représente un élément individuel dans une page spécifique d’un domaine spécifique, où un élément peut être un libellé comme dans les exemples suivants : hero_banner, top_nav, menu, pied de page, etc. |
+| Application iOS | `mobileapp://com.vendor.bundle/activity#element` | Représente un élément spécifique dans une activité application native, tel qu’un bouton ou un autre élément de vue. |
 | Application Android | `mobileapp://com.vendor.bundle/#element` | Représente un élément spécifique dans une application native. |
 
 **Autres types d’appareils**
@@ -154,7 +154,7 @@ Les tableaux ci-dessous répertorient quelques exemples de définition d’URI d
 | Type | URI | Description |
 | --------- | ----------- | ------- | 
 | Bureau | `desktop://com.vendor.bundle/#element` | Représente un élément spécifique dans une application, tel qu’un bouton, un menu, une bannière principale, etc. |
-| Application TV | `tvcd://com.vendor.bundle/#element` | Représente un élément spécifique dans une application d’appareil connectée à une télévision dynamique ou à une télévision - ID de lot. |
+| Application TV | `tvcd://com.vendor.bundle/#element` | Représente un élément spécifique dans un identifiant de bundle spécifique à l’application d’un appareil connecté à la télévision ou à la télévision intelligente. |
 | Service | `service://servicename/#element` | Représente un processus côté serveur ou une autre entité manuelle. |
 | Kiosque | `kiosk://location/screen#element` | Exemple de types de surfaces supplémentaires potentiels pouvant être ajoutés facilement. |
 | ATM | `atm://location/screen#element` | Exemple de types de surfaces supplémentaires potentiels pouvant être ajoutés facilement. |
@@ -163,5 +163,5 @@ Les tableaux ci-dessous répertorient quelques exemples de définition d’URI d
 
 | Type | URI | Description |
 | --------- | ----------- | ------- | 
-| Caractère générique | `wildcard:web://domain.com/*#element` | Surface de caractères génériques : représente un élément individuel dans chacune des pages sous un domaine spécifique. |
-| Caractère générique | `wildcard:web://*domain.com/*#element` | Surface de caractères génériques : représente un élément individuel dans chacune des pages sous tous les domaines qui se terminent par &quot;domain.com&quot;. |
+| Caractère générique web | `wildcard:web://domain.com/*#element` | Surface de caractères génériques : représente un élément individuel dans chacune des pages sous un domaine spécifique. |
+| Caractère générique web | `wildcard:web://*domain.com/*#element` | Surface de caractères génériques : représente un élément individuel dans chacune des pages sous tous les domaines se terminant par « domain.com ». |
