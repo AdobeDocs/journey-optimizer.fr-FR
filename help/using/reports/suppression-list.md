@@ -9,9 +9,9 @@ role: Admin
 level: Intermediate, Experienced
 exl-id: a4653378-b70f-454c-a446-ab4a14d2580a
 source-git-commit: f8d62a702824bcfca4221c857acf1d1294427543
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '828'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -41,7 +41,7 @@ Les destinataires dont les adresses e-mail sont supprimées sont automatiquement
 
 Les adresses sont ajoutées à la liste de suppression comme suit :
 
-* Tous **hard bounces** et **plaintes relatives au spam** envoyer automatiquement les adresses correspondantes à la liste de suppression après une seule occurrence. En savoir plus sur les plaintes relatives au spam dans [cette section](#spam-complaints).
+* Tous les **rebonds définitifs** et **plaintes relatives aux spams** envoient automatiquement les adresses correspondantes à la liste de suppression après une seule occurrence. Pour en savoir plus sur les plaintes relatives aux spams, consultez [cette section](#spam-complaints).
 
 * Les **rebonds temporaires** n’envoient pas immédiatement l’adresse à la liste de suppression, mais incrémentent un compteur d’erreurs. Plusieurs [reprises](../configuration/retries.md) sont alors effectuées, et lorsque le compteur d’erreurs atteint le seuil, l’adresse est ajoutée à la liste de suppression.
 
@@ -82,4 +82,4 @@ Envoyer un e-mail à des destinataires ayant déposé une plainte contre le spam
 
 Votre adresse IP ou votre domaine d&#39;envoi peuvent ainsi être bloqués, ce qui pourrait être évité si ces adresses figuraient dans la liste de suppression.
 
-Certains FAI offrent une feedback loop (FBL) qui permet à l&#39;expéditeur de l&#39;email d&#39;être automatiquement averti lorsque l&#39;utilisateur qui reçoit un email choisit de le marquer comme spam. [En savoir plus](deliverability.md#feedback-loops)
+Certains FAI proposent une boucle de rétroaction (FBL) qui permet à l’expéditeur ou l’expéditrice de l’e-mail de recevoir un avertissement automatique lorsque l’utilisateur ou l’utilisatrice qui reçoit un e-mail choisit de le marquer comme spam. [En savoir plus](deliverability.md#feedback-loops)

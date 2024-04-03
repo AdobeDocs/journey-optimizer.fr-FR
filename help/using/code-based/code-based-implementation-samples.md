@@ -7,9 +7,9 @@ role: Developer
 level: Experienced
 exl-id: e5ae8b4e-7cd2-4a1d-b2c0-8dafd5c4cdfd
 source-git-commit: f8d62a702824bcfca4221c857acf1d1294427543
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '753'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -23,7 +23,7 @@ L’expérience basée sur le code est compatible avec n’importe quelle mise e
 
 >[!IMPORTANT]
 >
->Suivez [ce lien](https://github.com/adobe/alloy-samples/tree/main/ajo){target="_blank"} pour trouver des exemples de mise en oeuvre pour différents cas d’utilisation de personnalisation et d’expérimentation. Consultez-les et exécutez-les afin de mieux comprendre les étapes de mise en œuvre nécessaires et le fonctionnement du flux de personnalisation de bout en bout.
+>Suivez [ce lien](https://github.com/adobe/alloy-samples/tree/main/ajo){target="_blank"} pour trouver des exemples de mise en œuvre pour différents cas de personnalisation et d’expérimentation. Consultez-les et exécutez-les afin de mieux comprendre les étapes de mise en œuvre nécessaires et le fonctionnement du flux de personnalisation de bout en bout.
 
 ## Mise en œuvre côté client {#client-side-implementation}
 
@@ -72,7 +72,7 @@ function sendDisplayEvent(decision) {
 }
 ```
 
-1. Pour les campagnes d’expérience basées sur du code, les événements d’interaction doivent être envoyés manuellement pour indiquer quand un utilisateur a interagi avec le contenu. Cela s’effectue via la commande `sendEvent`.
+1. Pour les campagnes d’expériences basées sur le code, les événements d’interaction doivent être envoyés manuellement pour indiquer le moment où un utilisateur ou une utilisatrice a interagi avec le contenu. Cela s’effectue via la commande `sendEvent`.
 
 ```javascript
 function sendInteractEvent(label, proposition) {

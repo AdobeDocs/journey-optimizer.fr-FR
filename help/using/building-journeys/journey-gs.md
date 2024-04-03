@@ -10,9 +10,9 @@ level: Intermediate
 keywords: parcours, premier, commencer, démarrage rapide, audience, événement, action
 exl-id: d940191e-8f37-4956-8482-d2df0c4274aa
 source-git-commit: 37be5bd6dc17dc7df12ad51994a854f2d7a20ef1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1983'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -87,16 +87,16 @@ Le type peut être : **[!UICONTROL Événement unitaire]**, **[!UICONTROL Quali
 
 Le statut peut être :
 
-* **Fermé**: le parcours a été fermé à l’aide de la variable **Près des nouvelles entrées** bouton . Il n&#39;est alors plus accessible aux nouveaux individus. Les personnes déjà dans le parcours peuvent terminer le parcours normalement.
-* **Version préliminaire**: le parcours en est à sa première étape. Il n&#39;a pas encore été publié.
-* **Version préliminaire (test)**: le mode test a été activé à l’aide de la fonction **Mode test** bouton .
-* **Terminé**: le parcours passe automatiquement à ce statut après le délai d’expiration global par défaut de 30 jours. Les profils de clientes et clients qui ont déjà intégré le parcours le terminent normalement. Les nouveaux profils ne peuvent plus entrer dans le parcours.
-* **En direct**: le parcours a été publié à l’aide de la variable **Publier** bouton .
-* **Stoppé**: le parcours a été désactivé à l’aide de la fonction **Arrêter** bouton . Tous les individus quittent immédiatement le parcours.
+* **Fermé** : le parcours a été fermé à l’aide du bouton **Fermer aux nouvelles entrées**. Il n’est alors plus accessible aux nouveaux individus. En revanche, les personnes qui ont déjà intégré le parcours peuvent le terminer normalement.
+* **Brouillon** : le parcours en est à sa première étape. Il n’a pas encore été publié.
+* **Brouillon (test)** : le mode test a été activé à l’aide du bouton **Mode test**.
+* **Terminé** : le parcours passe automatiquement à ce statut après le délai d’expiration global par défaut de 30 jours. Les profils de clientes et clients qui ont déjà intégré le parcours le terminent normalement. Les nouveaux profils ne peuvent plus rejoindre le parcours.
+* **Actif** : le parcours a été publié à l’aide du bouton **Publier**.
+* **Arrêté** : le parcours a été désactivé à l’aide du bouton **Arrêter**. Toutes les personnes quittent instantanément le parcours.
 
 >[!NOTE]
 >
->Le cycle de vie de création de Parcours comprend également un ensemble d’états intermédiaires qui ne sont pas disponibles pour le filtrage : &quot;Publication&quot; (entre &quot;Version préliminaire&quot; et &quot;En direct&quot;), &quot;Activation du mode test&quot; ou &quot;Désactivation du mode test&quot; (entre &quot;Version préliminaire&quot; et &quot;Version préliminaire (test)&quot;) et &quot;Arrêt&quot; entre &quot;En ligne&quot; et &quot;Arrêt&quot;). Lorsqu’un parcours se trouve dans un état intermédiaire, il est en lecture seule.
+>Le cycle de vie de création de parcours comprend également un ensemble de statuts intermédiaires qui ne sont pas disponibles pour le filtrage : « Publication » (entre « Brouillon » et « Actif »), « Activer le mode test » ou « Désactiver le mode test » (entre « Brouillon » et « Brouillon (test) ») et « Arrêt en cours » (entre « Actif » et « Arrêté »). Lorsqu’un parcours se trouve dans un état intermédiaire, il est en lecture seule.
 
 Utilisez les **[!UICONTROL filtres de création]** pour filtrer les parcours en fonction de leur date de création ou de la personne qui les a créés.
 

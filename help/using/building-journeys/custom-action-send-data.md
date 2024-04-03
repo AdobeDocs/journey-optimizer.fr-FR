@@ -1,21 +1,21 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Envoi de données à AEP
-description: Découvrez comment envoyer des données à AEP
+title: Envoyer des données à AEP
+description: Découvrez comment envoyer des données à AEP.
 feature: Journeys, Use Cases
 topic: Content Management
 role: User, Data Engineer
 level: Intermediate, Experienced
-keywords: parcours, cas pratique
+keywords: parcours, cas d’utilisation
 source-git-commit: f8d62a702824bcfca4221c857acf1d1294427543
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '268'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
-# Cas pratique : création d’une action personnalisée pour envoyer des données à Adobe Experience Platform{#send-data-to-aep}
+# Cas d’utilisation : créer une action personnalisée pour envoyer des données à Adobe Experience Platform{#send-data-to-aep}
 
 Si vous avez récemment migré vers un autre fournisseur de services de messagerie, dʼadresse IP ou de domaine ou sous-domaine de messagerie, vous devez asseoir votre réputation d’expéditeur. Dans le cas contraire, vos diffusions risquent dʼêtre bloquées voire déplacées dans le dossier des courriers indésirables de la boîte aux lettres des destinataires. Découvrez comment accroître la réputation de vos e-mails grâce au préchauffage dʼadresses IP dans la section [Guide des bonnes pratiques en matière de délivrabilité](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/generic-resources/increase-reputation-with-ip-warming.html?lang=fr){target="_blank"}.
 

@@ -9,9 +9,9 @@ role: User
 level: Beginner, Intermediate
 exl-id: 0997a640-3f89-4460-ba93-ea21a9d4efc5
 source-git-commit: f8d62a702824bcfca4221c857acf1d1294427543
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '3603'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -765,7 +765,7 @@ The suppression list helps you with honoring the ISPs' feedback to preserve send
 **Parcours**
 
 * Pour optimiser les performances, tous les parcours en mode test qui n’ont pas été déclenchés depuis une semaine repassent désormais au statut de brouillon. [En savoir plus](../building-journeys/testing-the-journey.md#important_notes)
-* L’intégration entre Journey Optimizer et Adobe Campaign v7/v8 a été optimisée pour améliorer les performances. La configuration par défaut de limitation a été remplacée par 4 000 appels / 5 minutes. [En savoir plus](../action/acc-action.md#important-notes)
+* L’intégration entre Journey Optimizer et Adobe Campaign v7/v8 a été optimisée pour améliorer les performances. La configuration par défaut de limitation a été remplacée par 4 000 appels/5 minutes. [En savoir plus](../action/acc-action.md#important-notes)
 
 **Reporting**
 

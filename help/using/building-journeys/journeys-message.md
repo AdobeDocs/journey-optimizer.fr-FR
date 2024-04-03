@@ -10,9 +10,9 @@ level: Intermediate
 keywords: parcours, message, notification push, sms, e-mail, in-app
 exl-id: 4db07a9e-c3dd-4873-8bd9-ac34c860694c
 source-git-commit: f8d62a702824bcfca4221c857acf1d1294427543
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1167'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -31,7 +31,7 @@ Vous pouvez également configurer des actions spécifiques pour vous envoyer des
 
 * Si vous utilisez Campaign et Journey Optimizer, reportez-vous aux sections suivantes :
 
-   * [[!DNL Journey Optimizer] et Campaign v7/v8](../action/acc-action.md)
+   * [[!DNL Journey Optimizer] et Campaign v7/v8](../action/acc-action.md)
    * [[!DNL Journey Optimizer] et Campaign Standard](../action/acs-action.md)
 
 Pour ajouter un message dans un parcours, procédez comme suit :

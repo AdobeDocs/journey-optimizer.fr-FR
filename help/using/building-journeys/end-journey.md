@@ -9,9 +9,9 @@ level: Intermediate
 keywords: reprise, parcours, fin, dynamique, arrêt
 exl-id: ea1ecbb0-12b5-44e8-8e11-6d3b8bff06aa
 source-git-commit: f8d62a702824bcfca4221c857acf1d1294427543
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '660'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
@@ -56,9 +56,9 @@ Les raisons suivantes peuvent entraîner la fermeture d&#39;un parcours :
 * Un parcours basé sur un segment « unique » qui a terminé son exécution.
 * Après la dernière occurrence d’un parcours récurrent basé sur une audience.
 
-Le fait de fermer un parcours manuellement assure que les clients qui l’ont déjà rejoint puissent terminer leur chemin, mais que les nouveaux utilisateurs ne puissent pas le rejoindre. Lorsqu&#39;un parcours est fermé (pour l&#39;une des raisons ci-dessus), le statut **[!UICONTROL Fermé]** lui est attribué. Il n&#39;est alors plus accessible aux nouveaux individus. Les personnes déjà dans le parcours peuvent terminer le parcours normalement.
+Le fait de fermer un parcours manuellement assure que les clients qui l’ont déjà rejoint puissent terminer leur chemin, mais que les nouveaux utilisateurs ne puissent pas le rejoindre. Lorsqu&#39;un parcours est fermé (pour l&#39;une des raisons ci-dessus), le statut **[!UICONTROL Fermé]** lui est attribué. Il n’est alors plus accessible aux nouveaux individus. En revanche, les personnes qui ont déjà intégré le parcours peuvent le terminer normalement.
 
-Au bout de 30 jours, un parcours Lecture d’audience passe à l’événement **Terminé** statut. Ce comportement est défini uniquement sur 30 jours (c’est-à-dire sur la valeur par défaut du délai d’expiration du parcours), car toutes les informations relatives aux profils entrés dans le parcours sont supprimées 30 jours après leur saisie. Les personnes toujours présentes dans le parcours sont automatiquement touchées. Ils quittent le parcours après le délai d’attente de 30 jours.
+Au-delà de 30 jours, un parcours Lecture d’audience passe au statut **Terminé**. Ce comportement est défini uniquement sur 30 jours (c’est-à-dire sur la valeur par défaut du délai d’expiration du parcours), car toutes les informations relatives aux profils déjà entrés dans le parcours sont supprimées 30 jours après leur entrée. Les personnes toujours présentes dans le parcours sont automatiquement affectées. Elles quittent le parcours après le délai d’expiration de 30 jours.
 
 Consultez cette [section](../building-journeys/journey-gs.md#global_timeout).
 

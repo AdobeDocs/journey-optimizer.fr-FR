@@ -10,9 +10,9 @@ level: Experienced
 keywords: données, gouvernance, DULE, libellés, étiqueter, platform, politique
 exl-id: be3efd3b-35d5-4cf7-9015-29d1e305355d
 source-git-commit: f8d62a702824bcfca4221c857acf1d1294427543
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '877'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -37,7 +37,7 @@ Pour plus d’informations sur le cadre de gouvernance des données et sur l’u
 
 ## Remarques importantes {#important-notes}
 
-* La gouvernance des données s’applique uniquement aux actions personnalisées dans les parcours. Les actions Campaign v7/v8 et Campaign Standard ne sont pas prises en charge.
+* La gouvernance des données s’applique uniquement aux actions personnalisées dans les parcours. Les actions de Campaign v7/v8 et de Campaign Standard ne sont pas prises en charge.
 * Les politiques de gouvernance s’appliquent uniquement lorsqu’une action marketing (requise ou supplémentaire) est définie au niveau de l’action personnalisée.
 
 ## Définir les politiques de gouvernance {#governance-policies}

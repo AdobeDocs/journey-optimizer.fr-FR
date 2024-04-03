@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 exl-id: 0855ca5b-c7af-41c4-ad51-bed820ae5ecf
 source-git-commit: f8d62a702824bcfca4221c857acf1d1294427543
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '553'
-ht-degree: 86%
+ht-degree: 100%
 
 ---
 
@@ -57,7 +57,7 @@ Les alertes relatives aux actions personnalisées sont résolues lorsque, au cou
 
 Le nom d’abonnement à l’événement d’E/S correspondant à l’alerte d’action personnalisée est **Échec de l’action personnalisée du parcours**.
 
-## Lecture du déclencheur d’audience non réussie {#alert-read-audiences}
+## Échec du déclenchement de la lecture d’audience {#alert-read-audiences}
 
 Cette alerte vous avertit si une activité **Lecture d’audience** n’a traité aucun profil 10 minutes après l’heure planifiée de l’exécution. Cet échec peut être dû à des problèmes techniques ou parce que l’audience est vide.
 
@@ -71,21 +71,22 @@ Le nom d’abonnement à l’événement d’E/S correspondant à l’alerte **�
 
 ## Dépannage {#alert-troubleshooting}
 
-Pour résoudre les problèmes **Lecture d’audience** alertes, vérifiez le nombre d’audiences dans l’interface de l’Experience Platform.
+Pour résoudre les alertes **Lecture d’audience**, vérifiez la taille de l’audience dans l’interface d’Experience Platform.
 
 ![](assets/alert-troubleshooting-0.png)
 
 ![](assets/alert-troubleshooting-1.png)
 
-Pour résoudre les problèmes **Action personnalisée** alertes :
+Pour résoudre les alertes **Action personnalisée** :
 
-* Vérifiez votre action personnalisée à l’aide du mode test sur un autre parcours :
+* Vérifiez votre action personnalisée à l’aide du mode test sur un autre parcours :
 
   ![](assets/alert-troubleshooting-2.png)
 
-* Consultez votre rapport parcours pour afficher les raisons d’erreur lors de l’action.
+* Consultez le rapport de votre parcours pour afficher les motifs d’erreur lors de l’action.
 
   ![](assets/alert-troubleshooting-3.png)
 
-* Vérifiez vos événements stepEvents de parcours pour obtenir plus d’informations sur &quot;failureReason&quot;.
-* Vérifiez votre configuration d’action personnalisée et vérifiez que l’authentification est toujours correcte. Effectuez une vérification manuelle avec Postman, par exemple.
+* Vérifiez vos événements stepEvents de parcours pour obtenir plus d’informations sur « failureReason ».
+* Vérifiez votre configuration d’action personnalisée et que l’authentification est toujours correcte. Effectuez une vérification manuelle avec Postman,
+, par exemple.

@@ -13,7 +13,7 @@ hidefromtoc: true
 badge: label="Version Beta"
 exl-id: a9995ca1-d7eb-4f8d-a9d9-fe56198ac325
 source-git-commit: 737b7f59819d235b1f637d4a6b996e97cfddb9fe
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '409'
 ht-degree: 100%
 
@@ -30,7 +30,7 @@ ht-degree: 100%
 
 Ce guide couvre les sujets suivants :
 
-* [Prise en main des plans de préchauffage d’adresses IP](ip-warmup-gs.md)
+* [Commencer avec les plans de préchauffage d’adresses IP](ip-warmup-gs.md)
 * **[Créer des campagnes de préchauffage d’adresses IP](ip-warmup-campaign.md)**
 * [Créer un plan de préchauffage d’adresses IP](ip-warmup-plan.md)
 * [Exécuter le plan de préchauffage d’adresses IP](ip-warmup-execution.md)

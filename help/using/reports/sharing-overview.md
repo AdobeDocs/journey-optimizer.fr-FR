@@ -9,9 +9,9 @@ role: Data Engineer, Data Architect, Admin
 level: Experienced
 exl-id: 29d6b881-35a3-4c62-9e7d-d0aeb206ea77
 source-git-commit: f8d62a702824bcfca4221c857acf1d1294427543
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '522'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
@@ -27,10 +27,10 @@ Par exemple, vous avez configuré un parcours qui envoie plusieurs e-mails. Cett
 
 [!DNL Journey Optimizer] crée automatiquement les schémas et les flux nécessaires dans les jeux de données d’Adobe Experience Platform pour chaque étape d’un parcours individuel. Un événement d’étape correspond à un individu qui se déplace d’un nœud à un autre d’un parcours. Par exemple, dans le cadre d’un parcours comportant un événement, une condition et une action, trois événements d’étape sont envoyés à Adobe Experience Platform.
 
-Il existe des cas où plusieurs événements peuvent être créés pour le même noeud. Par exemple, dans le cas de l&#39;activité Attente :
+Il existe des cas où plusieurs événements peuvent être créés pour le même nœud. Par exemple, dans le cas de l’activité d’attente :
 
-* Un événement est généré lorsque le profil entre dans l’attente (l’attribut journeyNodeProcessed est égal à false).
-* Un événement est généré lorsque le profil quitte (l’attribut journeyNodeProcessed est égal à true).
+* Un événement est généré lorsque le profil passe en attente (l’attribut journeyNodeProcessed est sur false).
+* Un événement est généré lorsque le profil en sort (l’attribut journeyNodeProcessed est sur true).
 
 La liste des champs XDM transmis est complète. Certains contiennent des codes générés par le système et d’autres portent des noms conçus pour être lisibles. Il peut s’agir, par exemple, du libellé de l’activité de parcours ou du statut de l’étape : nombre de fois où une action a expiré ou s’est terminée par une erreur.
 

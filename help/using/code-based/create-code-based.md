@@ -7,17 +7,17 @@ role: User
 level: Experienced
 exl-id: 25c2c448-9380-47b0-97c5-16d9afb794c5
 source-git-commit: c4444b67313cda81fda9ad16b7ee59226fd7c88a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '980'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
 # Créer des expériences basées sur le code {#create-code-based}
 
-Actuellement dans [!DNL Journey Optimizer] vous pouvez uniquement créer des expériences basées sur du code dans **campagnes**.
+Dans [!DNL Journey Optimizer], vous ne pouvez actuellement créer des expériences basées sur le code que dans des **campagnes**.
 
-Des garde-fous spécifiques et des recommandations pour les expériences basées sur le code sont détaillés dans la section [cette page](code-based-prerequisites.md).
+Des mécanismes de sécurisation et recommandations spécifiques pour les expériences basées sur le code sont détaillés dans [cette page](code-based-prerequisites.md).
 
 ## Créer une campagne basée sur le code {#create-code-based-campaign}
 
@@ -25,7 +25,7 @@ Pour commencer à créer votre expérience basée sur le code par le biais d’u
 
 1. Création d’une campagne. [En savoir plus](../campaigns/create-campaign.md)
 
-1. Sélectionnez la variable **[!UICONTROL Expérience basée sur le code]** action.
+1. Sélectionnez l’action **[!UICONTROL Expérience basée sur le code]**.
 
 1. Saisissez la surface de l’expérience basée sur le code. [En savoir plus](#surface-definition)
 
@@ -37,7 +37,7 @@ Pour commencer à créer votre expérience basée sur le code par le biais d’u
 
 1. Sélectionnez **[!UICONTROL Créer]**.
 
-1. Suivez les étapes de création d’une campagne, telles que les propriétés de la campagne, [audience](../audience/about-audiences.md), et [planning](../campaigns/create-campaign.md#schedule). Pour plus d’informations sur la configuration d’une campagne, consultez cette [page](../campaigns/get-started-with-campaigns.md).
+1. Suivez les étapes de création d’une campagne, telles que les propriétés de la campagne, l’[audience](../audience/about-audiences.md) et le [planning](../campaigns/create-campaign.md#schedule). Pour plus d’informations sur la configuration d’une campagne, consultez cette [page](../campaigns/get-started-with-campaigns.md).
 
 1. Modifiez le contenu selon vos besoins à l’aide de l’éditeur d’expression. [En savoir plus](#edit-code)
 
@@ -67,7 +67,7 @@ Pour commencer à créer votre expérience basée sur le code par le biais d’u
 
 1. Saisissez votre code selon vos besoins. Vous pouvez utiliser l’éditeur d’expression [!DNL Journey Optimizer] avec toutes ses fonctionnalités de personnalisation et de création. [En savoir plus](../personalization/personalization-build-expressions.md)
 
-1. Si nécessaire, vous pouvez ajouter des fragments d’expression JSON ou HTML. [Voici comment procéder](../personalization/use-expression-fragments.md)
+1. Si nécessaire, vous pouvez ajouter des fragments d’expression HTML ou JSON. [Voici comment procéder](../personalization/use-expression-fragments.md)
 
    Vous pouvez également enregistrer une partie de votre contenu de code en tant que fragment. [Voici comment procéder](../content-management/fragments.md#save-as-expression-fragment)
 
@@ -92,7 +92,7 @@ Désormais, dès que votre développeur ou développeuse lance un appel d’API 
 >title="Prévisualiser votre expérience basée sur le code"
 >abstract="Effectuez une simulation de ce à quoi ressemblera votre expérience basée sur le code."
 
-Pour afficher un aperçu de votre expérience basée sur le code qui a été modifiée, suivez les étapes ci-dessous. Vous trouverez des informations détaillées sur la sélection des profils de test et la prévisualisation de votre contenu dans la section [Prévisualiser et tester votre page de contenu](../content-management/preview-test.md).
+Pour afficher un aperçu de votre expérience basée sur le code qui a été modifiée, suivez les étapes ci-dessous. Vous trouverez des informations détaillées sur la sélection des profils de test et la prévisualisation de votre contenu dans la [page Prévisualiser et tester votre contenu](../content-management/preview-test.md).
 
 >[!CAUTION]
 >

@@ -9,9 +9,9 @@ role: Admin
 level: Intermediate, Experienced
 exl-id: 8f33dda7-9bd5-4293-8d0d-222205cbc7d5
 source-git-commit: f8d62a702824bcfca4221c857acf1d1294427543
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '966'
-ht-degree: 71%
+ht-degree: 100%
 
 ---
 
@@ -71,7 +71,7 @@ Pour améliorer votre taux de délivrabilité et vous assurer que vos emails att
 
 * **Lien de désinscription et page de destination** : le lien de désinscription est essentiel. Il doit être visible et valide, et le formulaire doit fonctionner.
 
-[En savoir plus sur la conception du contenu d&#39;un email](../email/get-started-email-design.md)
+[En savoir plus sur la conception du contenu des e-mails](../email/get-started-email-design.md)
 
 ## Asseyez votre réputation dʼexpéditeur. {#reputation}
 
@@ -81,23 +81,23 @@ Pour préchauffer votre adresse IP, vous pouvez augmenter progressivement le nom
 
 ## Implémenter DMARC {#dmarc}
 
-Pour vous aider à atténuer le risque que des emails légitimes soient marqués comme spam ou rejetés, et empêcher les problèmes de délivrabilité, [!DNL Journey Optimizer] vous permet de configurer l’enregistrement DMARC pour tous les sous-domaines que vous déléguez à l’Adobe.
+Pour vous aider à atténuer le risque que des e-mails légitimes soient marqués comme spam ou rejetés, et empêcher les problèmes de délivrabilité, [!DNL Journey Optimizer] vous permet de configurer l’enregistrement DMARC pour tous les sous-domaines que vous déléguez à Adobe.
 
-DMARC (Domain-based Message Authentication, Reporting, and Conformance) est une méthode d’authentification des emails qui permet aux propriétaires de domaine de protéger leur domaine d’une utilisation non autorisée par des acteurs malveillants.
+DMARC (Domain-based Message Authentication, Reporting, and Conformance, soit Authentification, création de rapports et conformité des messages basés sur le domaine) est une méthode d’authentification d’e-mail qui permet aux personnes propriétaires de domaine de protéger leur domaine d’une utilisation non autorisée par des entités malveillantes.
 
 [En savoir plus sur l’enregistrement DMARC](../configuration/dmarc-record.md)
 
 ## Connaître les boucles de rétroaction {#feedback-loops}
 
-Une feedback loop (FBL) est un service proposé par certains FAI qui permet à l&#39;expéditeur de l&#39;email d&#39;être automatiquement averti lorsque l&#39;utilisateur qui reçoit un email choisit de le marquer comme spam (aussi appelé &quot;réclamation&quot;).
+Une boucle de rétroaction (FBL) est un service proposé par certains FAI qui permet à l’expéditeur ou l’expéditrice de l’e-mail de recevoir automatiquement un avertissement lorsque l’utilisateur ou l’utilisatrice qui reçoit un e-mail choisit de le marquer comme spam (également appelé une « plainte »).
 
-Lorsqu’un utilisateur final génère une plainte qui est renvoyée à l’Adobe par le FAI, l’adresse électronique est automatiquement ajoutée au [liste de suppression](../reports/suppression-list.md) et exclus des prochaines diffusions. En effet, l’envoi d’emails aux utilisateurs qui les ont marqués comme spam affecte négativement la réputation de l’expéditeur et peut entraîner des problèmes de délivrabilité. [En savoir plus sur les plaintes relatives au spam](../reports/suppression-list.md#spam-complaints)
+Lorsqu’un utilisateur final ou une utilisatrice finale génère une plainte qui est renvoyée à Adobe par le FAI, l’adresse e-mail est automatiquement ajoutée à la [liste de suppression](../reports/suppression-list.md) et exclue des diffusions suivantes. En effet, l’envoi d’e-mails aux utilisateurs ou utilisatrices qui les ont marqués comme spam affecte négativement la réputation de l’expéditeur ou l’expéditrice et peut entraîner des problèmes de délivrabilité. [En savoir plus sur les plaintes relatives aux spams](../reports/suppression-list.md#spam-complaints)
 
 >[!IMPORTANT]
 >
->Tous les FAI ne fournissent pas une FBL traditionnelle, comme Gmail. Gmail n’offre pas de retour au niveau individuel et ne peut pas être utilisé pour suivre les plaintes liées au spam envoyées à des destinataires individuels, en se concentrant plutôt sur les rapports au niveau agrégé dans leurs outils Postmaster Google. [En savoir plus](https://support.google.com/a/answer/6254652?hl=en){target="_blank"}
+>Tous les FAI ne fournissent pas une FBL traditionnelle, Gmail par exemple. Gmail ne fournit pas de retour au niveau individuel et ne peut pas être utilisé pour suivre les plaintes relatives aux spams envoyées à des destinataires individuels, en se concentrant plutôt sur les rapports au niveau agrégé dans ses outils Google Postmaster Tools. [En savoir plus](https://support.google.com/a/answer/6254652?hl=fr){target="_blank"}
 
-Tous les clients Adobe sont automatiquement inscrits dans les FBL classiques des FAI suivants :
+L’ensemble des clientes et des clients Adobe est automatiquement inscrit sur les FBL traditionnelles des FAI suivants :
 
 * 1&amp;1
 
@@ -115,7 +115,7 @@ Tous les clients Adobe sont automatiquement inscrits dans les FBL classiques des
 
 * La Poste
 
-* Liberty Global (Chello, UPC, Unity Media)
+* Liberty Global (Chello, UPC, Unity Media)
 
 * Locaweb
 

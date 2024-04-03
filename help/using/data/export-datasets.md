@@ -9,9 +9,9 @@ level: Beginner
 keywords: platform, lac de données, créer, lac, jeux de données, profil
 exl-id: 66b5c691-ddc4-4e9b-9386-2ce6c307451c
 source-git-commit: e45ec5f0e1bbcc73892f9cde5923627886f44ef6
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '864'
-ht-degree: 48%
+ht-degree: 100%
 
 ---
 
@@ -37,37 +37,37 @@ Des informations détaillées sur chaque destination sont disponibles dans la do
 * [Google Cloud Storage](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/cloud-storage/google-cloud-storage.html?lang=fr)
 * [SFTP](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/cloud-storage/sftp.html?lang=fr)
 
-## Jeux de données disponibles pour l’exportation {#datasets}
+## Jeux de données disponibles pour l’export {#datasets}
 
-Comprenez dans le tableau ci-dessous les jeux de données Journey Optimizer que vous pouvez exporter.
+Découvrez dans le tableau ci-dessous les jeux de données Journey Optimizer que vous pouvez exporter.
 
 | Jeu de données | Description |
 | ------- | ------- | 
-| Jeu de données d’événement de retour AJO Cci | Jeu de données d’événement de retour AJO Cci |
-| Jeu de données de classification AJO | Jeu de données pour ingérer des événements de retour d’application push et de courrier électronique à partir de Journey Optimizer. Créé via le SDK. |
-| Jeu de données du service de consentement AJO | Stocke les informations de consentement d’un profil. |
-| Jeu de données d’événement d’expérience de tracking d’e-mail AJO | Logs d’interaction pour le canal Email qui est utilisé à des fins de création de rapports et d’audience.  |
-| Jeu de données d’entité AJO | Jeu de données permettant de stocker les métadonnées des entités pour les messages envoyés à l’utilisateur final.  |
-| Jeu de données d’événement d’activité entrant AJO | Jeu de données pour les canaux web et in-app Journey Optimizer pour les événements de diffusion et d’interaction. |
-| Jeu de données de profil de messagerie interactive AJO | Stocke les profils créés pour prendre en charge les campagnes déclenchées par l’API |
-| Jeu de données d’événement de commentaires sur les messages AJO | Logs de diffusion des messages. Informations sur toutes les diffusions de messages à partir de Journey Optimizer à des fins de création de rapports et d’audiences. Les commentaires des FAI de messagerie sur les rebonds sont également enregistrés dans ce jeu de données. |
-| Extension Compteurs de profils AJO | Contient un mappage d’objets contenant counter_value et expirationDate, masqué par counter_id |
-| Jeu de données de profil push AJO | Stocke les jetons push d’un profil. |
-| Jeu de données d’événement d’expérience de tracking de notifications push AJO | Logs d’interaction pour le canal Push utilisé à des fins de création de rapports et d’audience.  |
-| Jeu de données des surfaces AJO | Jeu de données vide associé au schéma de surfaces entrantes Journey Optimizer |
-| AOOutputForUPSDataset | Contient tous les appartenances à l’audience AOA à écrire dans UPS |
-| Jeu de données du profil Audience Orchestration | Générée par composition d’audience pour les audiences de composition d’audience. Contient toutes les audiences de composition d’audience, leurs attributs et leurs données d’enrichissement |
-| Référentiel d’objets de décision - Activités | également appelé Décisions dans l’interface utilisateur de . Mais ce sont les objets créés par un utilisateur ou une utilisatrice qui réunissent tous les blocs de création, y compris la logique de prise de décision. Par exemple, pour un emplacement particulier (emplacement), qui doit être pris en compte (collection d’offres), et quelle méthode de classement utiliser sur ces offres. |
-| Référentiel d’objets de décision - Offres de secours | il s’agit du référentiel pour l’autre type d’offre qu’un utilisateur crée. Plus précisément, s’ils ne sont pas éligibles pour voir une offre personnalisée et qu’ils doivent voir quelque chose, ils verront au moins l’offre de secours. Ce jeu de données contient les attributs de ce type d’offre |
-| Référentiel d’objets de décision - Offres personnalisées | il s’agit du référentiel d’un type d’offre créé par un utilisateur. Ce jeu de données contient donc les attributs relatifs à ce type d’offre. | Ultimate |
+| Jeu de données d’événement de feedback en Cci AJO | Jeu de données d’événement de feedback en Cci AJO |
+| Jeu de données de classification AJO | Jeu de données pour l’ingestion d’événements de feedback d’application push et d’e-mail à partir de Journey Optimizer. Créé via le SDK. |
+| Jeu de données du service de consentement AJO | Stocke les informations de consentement d’un profil. |
+| Jeu de données d’événement d’expérience de tracking d’e-mail AJO | Logs d’interaction pour le canal e-mail utilisé à des fins de création de rapports et d’audiences.  |
+| Jeu de données d’entité AJO | Jeu de données permettant de stocker les métadonnées des entités pour les messages envoyés à l’utilisateur final ou à l’utilisatrice finale.  |
+| Jeu de données d’événement d’activité entrante AJO | Jeu de données pour les canaux web et in-app Journey Optimizer pour les événements de diffusion et d’interaction. |
+| Jeu de données de profil de messagerie interactive AJO | Stocke les profils créés pour prendre en charge les campagnes déclenchées par API. |
+| Jeu de données d’événement de feedback sur les messages AJO | Logs de diffusion des messages : Informations sur toutes les diffusions de messages à partir de Journey Optimizer à des fins de création de rapports et d’audiences. Les commentaires des FAI de messagerie sur les rebonds sont également enregistrés dans ce jeu de données. |
+| Extension de compteurs de profils AJO | Contient un mappage d’objets contenant counter_value et expiryDate, saisi par counter_id. |
+| Jeu de données de profil push AJO | Stocke les jetons de notifications push d’un profil. |
+| Jeu de données d’événement d’expérience de tracking de notifications push AJO | Logs d’interaction pour le canal Notification push utilisé à des fins de création de rapports et d’audiences.  |
+| Jeu de données de surfaces AJO | Jeu de données vide associé au schéma de surfaces entrantes Journey Optimizer. |
+| AOOutputForUPSDataset | Contient toutes les appartenances à l’audience AO à réécrire dans UPS. |
+| Jeu de données de profil Orchestration de lʼaudience | Généré par la composition d’audience pour les audiences provenant de la composition d’audience. Contient toutes les audiences de composition d’audience, leurs attributs et leurs données d’enrichissement. |
+| Référentiel d’objets de décision - Activités | également appelé Décisions dans l’interface utilisateur. Mais ce sont les objets créés par un utilisateur ou une utilisatrice qui réunissent tous les blocs de création, y compris la logique de prise de décision. Par exemple, pour un emplacement particulier, dont les offres doivent être prises en compte (collection d’offres), et quelle méthode de classement utiliser sur ces offres. |
+| Référentiel d’objets de décision - Offres de secours | il s’agit du référentiel pour l’autre type d’offre créé par un utilisateur ou une utilisatrice. Plus précisément, s’ils ne sont pas éligibles pour voir une offre personnalisée et qu’ils doivent voir quelque chose, ils verront au moins l’offre de secours. Ce jeu de données contient les attributs de ce type d’offre. |
+| Référentiel d’objets de décision - Offres personnalisées | il s’agit du référentiel pour un type d’offre créé par un utilisateur ou une utilisatrice. Ce jeu de données contient donc les attributs relatifs à ce type d’offre. | Ultimate |
 | Référentiel d’objets de décision - Emplacements | il s’agit du référentiel d’objets qui définissent l’emplacement d’affichage d’une offre. |
-| Événements d’étape de parcours | Capture tous les événements d’expérience d’étape de Parcours générés à partir de Journey Optimizer pour être utilisés par des services tels que la création de rapports. |
-| Parcours | Jeu de données de métadonnées contenant des informations sur chaque étape d’un parcours |
-| ODE DecisionEvents - prise de décision sur les prod | Chaque fois que nous prenons une décision basée sur une requête, nous la comptabilisons comme un événement de décision. |
+| Événements d’étape de parcours | Capturent tous les événements d’expérience d’étape de parcours générés à partir de Journey Optimizer pour être utilisés par des services tels que la création de rapports. |
+| Parcours | Jeu de données de métadonnées contenant des informations sur chaque étape d’un parcours. |
+| ODE DecisionEvents - Décisions de production | Chaque fois que nous prenons une décision basée sur une demande, nous la comptabilisons comme un événement de décision. |
 
 ## Conditions préalables {#prerequisites}
 
-Pour exporter des jeux de données, vous avez besoin de l’événement [autorisations de contrôle d’accès](https://experienceleague.adobe.com/docs/experience-platform/access-control/home.html?lang=fr#permissions){target="_blank"} listed below. Read the [access control overview](https://experienceleague.adobe.com/docs/experience-platform/access-control/ui/overview.html?lang=fr){target="_blank"} ou contactez votre administrateur de produit pour obtenir les autorisations requises.
+Pour exporter des jeux de données, vous devez disposer des [autorisations de contrôle d’accès](https://experienceleague.adobe.com/docs/experience-platform/access-control/home.html?lang=fr#permissions){target="_blank"} listed below. Read the [access control overview](https://experienceleague.adobe.com/docs/experience-platform/access-control/ui/overview.html?lang=fr){target="_blank"} ou contacter votre administrateur ou administratrice de produit pour obtenir les autorisations requises.
 
 | Catégorie | Autorisation |
 |--|--|
@@ -75,15 +75,15 @@ Pour exporter des jeux de données, vous avez besoin de l’événement [autoris
 | Gestion des données | Affichage des jeux de données |
 | Destinations | Affichage des destinations |
 
-## Principales étapes pour exporter des jeux de données {#main-steps}
+## Étapes clés pour exporter des jeux de données {#main-steps}
 
 Les principales étapes pour exporter un jeu de données vers un emplacement d’espace de stockage sont les suivantes :
 
 ![](assets/dataset-export-process.png)
 
-Des informations détaillées sur chaque étape sont disponibles dans la section [Documentation Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/export-datasets.html?lang=fr){target="_blank"}.
+Des informations détaillées sur chaque étape sont disponibles dans la [documentation Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/export-datasets.html?lang=fr){target="_blank"}.
 
-1. **Configurez votre destination d’espace de stockage**. Si ce n’est pas déjà fait, connectez-vous à une destination d’espace de stockage à partir du catalogue des destinations. Découvrez comment créer une connexion de destination dans [Documentation Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/connect-destination.html?lang=fr#setup){target="_blank"}.
+1. **Configurez votre destination d’espace de stockage**. Si ce n’est pas déjà fait, connectez-vous à une destination d’espace de stockage à partir du catalogue des destinations. Découvrez comment créer une connexion de destination dans la [documentation Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/connect-destination.html?lang=fr#setup){target="_blank"}.
 
    <!--![](assets/dataset-export-setup.png)-->
 
@@ -93,7 +93,7 @@ Des informations détaillées sur chaque étape sont disponibles dans la section
 
    >[!NOTE]
    >
-   >Si vous utilisez Adobe Journey Optimizer avec des profils client en temps réel, les cartes de destination affichent une **Activer** , ce qui vous permet d’exporter des jeux de données et d’activer des audiences pour cette destination, en fonction des autorisations que vous avez activées.
+   >Si vous utilisez Adobe Journey Optimizer avec des profils client ou cliente en temps réel, les cartes de destination affichent un bouton **Activer**. Ce bouton vous permet d’exporter des jeux de données et d’activer des audiences pour cette destination, en fonction des autorisations que vous avez activées.
 
 1. **Sélectionnez le ou les jeux de données** que vous souhaitez exporter vers la destination sélectionnée. [En savoir plus sur les jeux de données Journey Optimizer disponibles pour l’export](#datasets)
 
@@ -107,4 +107,4 @@ Des informations détaillées sur chaque étape sont disponibles dans la section
 
    <!--![](assets/dataset-export-review.png)-->
 
-Une fois l’exportation terminée, le contenu de votre jeu de données est déposé dans votre emplacement d’espace de stockage selon le planning que vous avez configuré. [Découvrez comment vérifier l’exportation réussie d’un jeu de données](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/export-datasets.html?lang=fr#verify){target="_blank"}.
+Une fois l’exportation terminée, le contenu de votre jeu de données est déposé dans votre emplacement d’espace de stockage selon le planning que vous avez configuré. [Découvrez comment vérifier la réussite de l’export d’un jeu de données](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/export-datasets.html?lang=fr#verify){target="_blank"}.

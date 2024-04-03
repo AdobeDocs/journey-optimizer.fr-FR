@@ -10,9 +10,9 @@ level: Experienced
 keywords: paramètres, e-mail, configuration
 exl-id: 13536962-7541-4eb6-9ccb-4f97e167734a
 source-git-commit: f8d62a702824bcfca4221c857acf1d1294427543
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2378'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -22,9 +22,9 @@ Pour commencer à créer un e-mail, vous devez configurer les surfaces du canal 
 
 >[!NOTE]
 >
->Pour préserver votre réputation et améliorer votre délivrabilité, configurez les sous-domaines que vous utiliserez pour envoyer des emails avant de créer une surface d&#39;email. [En savoir plus](../configuration/about-subdomain-delegation.md)
+>Pour préserver votre réputation et améliorer votre délivrabilité, configurez les sous-domaines que vous utiliserez pour envoyer des e-mails avant de créer une surface d’e-mail. [En savoir plus](../configuration/about-subdomain-delegation.md)
 
-Définissez les paramètres de l&#39;email dans la section dédiée de la configuration de la surface du canal, comme décrit ci-dessous.
+Définissez les paramètres d’e-mail dans la section dédiée de la configuration de la surface du canal, comme décrit ci-dessous.
 
 ![](assets/preset-email-settings.png)
 
@@ -55,11 +55,11 @@ Lors de la création d’un message, vous devez choisir une surface de canal val
 
 ## Sous-domaine et groupes d’adresses IP {#subdomains-and-ip-pools}
 
-Dans le **Sous-domaine et pools d’adresses IP** , renseignez les champs requis comme indiqué ci-dessous.
+Dans la section **Sous-domaine et groupes d’adresses IP**, renseignez les champs obligatoires comme indiqué ci-dessous.
 
-1. Sélectionnez le sous-domaine à utiliser pour envoyer les emails.
+1. Sélectionnez le sous-domaine à utiliser pour envoyer les e-mails.
 
-   Pour préserver la réputation de votre domaine, accélérez le processus de préparation des adresses IP et améliorez la délivrabilité, déléguez vos sous-domaines d’envoi à l’Adobe. [En savoir plus](../configuration/about-subdomain-delegation.md)
+   Pour préserver la réputation de votre domaine, accélérer le processus de préchauffage des adresses IP et améliorer la délivrabilité, déléguez vos sous-domaines d’envoi à Adobe. [En savoir plus](../configuration/about-subdomain-delegation.md)
 
 1. Sélectionnez le groupe d’adresses IP à associer à la surface. [En savoir plus](../configuration/ip-pools.md)
 
@@ -204,7 +204,7 @@ Si vous obtenez une erreur lors de l’envoi de la surface d’e-mail, cela sign
 >id="ajo_surface_suppressed_addresses"
 >title="Remplacer la priorité de la liste de suppression"
 >abstract="Vous pouvez décider d’envoyer des messages transactionnels aux profils même si leurs adresses e-mail se trouvent sur la liste de suppression d’Adobe Journey Optimizer en raison d’une plainte relative aux spams. Par défaut, cette option est désactivée."
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/monitor-reputation/manage-suppression-list.html" text="Gérer la liste de suppression"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/monitor-reputation/manage-suppression-list.html?lang=fr" text="Gérer la liste de suppression"
 
 >[!IMPORTANT]
 >
@@ -235,7 +235,7 @@ Une fois cette option activée, bien qu’un client ou une cliente ait marqué v
 >title="Ajouter une liste de contrôle"
 >abstract="Sélectionnez la liste de contrôle de votre choix pour ajouter automatiquement des adresses internes spécifiques à vos audiences. Ces adresses de contrôle seront incluses au moment de l’exécution de la diffusion et recevront une copie exacte du message à des fins de vérification."
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/seed-lists.html?lang=fr#use-seed-list" text="Que sont les listes de contrôle ?"
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/seed-lists.html#create-seed-list" text="Créer des listes de contrôle"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/seed-lists.html?lang=fr#create-seed-list" text="Créer des listes de contrôle"
 
 
 Une liste de contrôle dans [!DNL Journey Optimizer] vous permet d’inclure automatiquement des adresses de contrôle d’e-mail spécifiques dans vos diffusions. [En savoir plus](../configuration/seed-lists.md)

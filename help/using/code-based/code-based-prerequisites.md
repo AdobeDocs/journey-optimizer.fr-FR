@@ -1,5 +1,5 @@
 ---
-title: Barrières de sécurité et conditions préalables de l’expérience basées sur le code
+title: Mécanismes de sécurisation et conditions préalables pour une expérience basée sur le code
 description: Pour pouvoir modifier des applications et des pages web à l’aide de la fonctionnalité basée sur le code Journey Optimizer, respectez les conditions préalables présentées dans cette page.
 feature: Code-based Experiences
 topic: Content Management
@@ -7,25 +7,25 @@ role: Admin
 level: Experienced
 exl-id: ac901f88-5fde-4220-88c6-fe05433866cc
 source-git-commit: c4444b67313cda81fda9ad16b7ee59226fd7c88a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '425'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
-# Barrières de sécurité et conditions préalables {#web-prerequisites}
+# Mécanismes de sécurisation et conditions préalables {#web-prerequisites}
 
 Pour pouvoir utiliser des actions d’expérience basée sur le code dans [!DNL Journey Optimizer] et diffuser la payload du contenu du code qui peut être utilisée par vos applications, procédez comme suit :
 
-* Pour ajouter des modifications à vos applications, vous devez disposer d’une mise en oeuvre spécifique. [En savoir plus](#implementation-prerequisites)
+* Pour ajouter des modifications à vos applications, vous devez disposer d’une mise en œuvre spécifique. [En savoir plus](#implementation-prerequisites)
 
 * Pour que les expériences basées sur le code soient correctement diffusées, veillez à définir les paramètres d’Experience Platform présentés [ici](#delivery-prerequisites).
 
 >[!CAUTION]
 >
->* Le canal d’expérience basé sur le code n’est pas disponible pour les organisations qui ont acheté l’Adobe. **Bouclier sanitaire** et **Protection de la vie privée et protection** offres complémentaires.
+>* Le canal Expérience basée sur le code n’est pas disponible pour les organisations qui ont acheté les offres complémentaires **Healthcare Shield** et **Privacy and Security Shield** d’Adobe.
 >
->* Vous pouvez uniquement créer des expériences basées sur du code dans **campagnes**. [En savoir plus](../campaigns/create-campaign.md#configure).
+>* Vous ne pouvez créer des expériences basées sur le code que dans des **campagnes**. [En savoir plus](../campaigns/create-campaign.md#configure).
 
 
 ## Conditions préalables à l’implémentation {#implementation-prerequisites}

@@ -10,9 +10,9 @@ level: Intermediate
 keywords: qualification, événements, audience, parcours, platform
 exl-id: 7e70b8a9-7fac-4450-ad9c-597fe0496df9
 source-git-commit: e45ec5f0e1bbcc73892f9cde5923627886f44ef6
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1081'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -37,14 +37,14 @@ Il est possible de positionner ce type d’événement dès la première étape,
 
 * N’oubliez pas que les audiences Adobe Experience Platform sont calculées une fois par jour (audiences **par lots**) ou en temps réel (audiences **en flux continu** à l’aide de l’option Audiences haute fréquence d’Adobe Experience Platform).
 
-   * Si l’audience sélectionnée est diffusée en continu, les individus appartenant à cette audience peuvent éventuellement entrer sur le parcours en temps réel.
+   * Si l’audience sélectionnée est en flux continu, les personnes appartenant à cette audience peuvent éventuellement rejoindre le parcours en temps réel.
    * Si l’audience est par lots, les personnes qui viennent d’être qualifiées pour cette audience peuvent éventuellement rejoindre le parcours lorsque le calcul de l’audience est exécuté sur Adobe Experience Platform.
 
-  Il est donc recommandé de ne recourir qu’à des audiences en continu dans une **Qualification de l’audience** activité. Pour les cas d’utilisation par lots, utilisez une **[Lecture d’audience](read-audience.md)** activité.
+  En guise de bonne pratique, nous recommandons donc de n’utiliser que des audiences en streaming dans une activité **Qualification de l’audience**. Pour les cas d’utilisation par lots, utilisez une activité **[Lecture d’audience](read-audience.md)**.
 
   >[!NOTE]
   >
-  >En raison de la nature du lot des audiences créées à l’aide de processus de composition et d’un chargement personnalisé, vous ne pouvez pas cibler ces audiences dans une activité &quot;Qualification de l’audience&quot;. Seules les audiences créées à l’aide de définitions de segment peuvent être exploitées dans cette activité.
+  >En raison de la nature par lots des audiences créées à l’aide de workflows de composition et du chargement personnalisé, vous ne pouvez pas cibler ces audiences dans une activité « Qualification de l’audience ». Seules les audiences créées à l’aide de définitions de segment peuvent être utilisées dans cette activité.
 
 * Les groupes de champs d’événement d’expérience ne peuvent pas être utilisés dans les parcours commençant par une activité Lecture d’audience, Qualification d’audience ou événement métier.
 
