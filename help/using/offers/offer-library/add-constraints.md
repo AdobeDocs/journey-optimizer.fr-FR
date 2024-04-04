@@ -6,7 +6,7 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 7234a8e8-4ab0-4f17-a833-5e452fadac35
-source-git-commit: 5a80d7c9b12cb9d354b725b7f83f557fc15e6a90
+source-git-commit: 55391594cc7479edf83b2d2193de42756744f70d
 workflow-type: tm+mt
 source-wordcount: '2617'
 ht-degree: 87%
@@ -260,24 +260,22 @@ La section **[!UICONTROL Fréquence]** vous permet de définir la fréquence à 
 
 >[!NOTE]
 >
->La réinitialisation du compteur de limitation de fréquence se produit à l’adresse **12h00 UTC**, le jour défini ou le premier jour de la semaine/du mois, le cas échéant. Le jour de début de la semaine est **Dimanche**.
+>La réinitialisation du compteur de limitation de fréquence se produit à l’adresse **12h00 UTC**, le jour défini ou le premier jour de la semaine/du mois, le cas échéant. Le jour de début de la semaine est **Dimanche**. La durée choisie ne peut pas dépasser **2 ans** (c’est-à-dire le nombre de mois, semaines ou jours correspondant).
 >
->La durée choisie ne peut pas dépasser **2 ans** (c’est-à-dire le nombre de mois, semaines ou jours correspondant).
-
-Après avoir publié votre offre, vous ne pourrez pas modifier la période (mensuelle, hebdomadaire ou quotidienne) que vous avez sélectionnée pour la fréquence. Vous pouvez désormais modifier le capping de la fréquence si le statut de l’offre est **[!UICONTROL Brouillon]** et si l’offre n’a jamais été publiée auparavant avec la capping de la fréquence activée.
+>Après avoir publié votre offre, vous ne pourrez pas modifier la période (mensuelle, hebdomadaire ou quotidienne) que vous avez sélectionnée pour la fréquence. Vous pouvez désormais modifier le capping de la fréquence si le statut de l’offre est **[!UICONTROL Brouillon]** et si l’offre n’a jamais été publiée auparavant avec la capping de la fréquence activée.
 
 +++ **À lire absolument : API de limitation de fréquence et de prise de décision Edge**
 
-* Le compteur de limitation de fréquence est mis à jour et disponible dans une décision de l’API Edge Decisioning en moins de 3 secondes.
+Le compteur de limitation de fréquence est mis à jour et disponible dans une décision de l’API Edge Decisioning en moins de 3 secondes.
 
-* Chaque région du hub est associée à une ou plusieurs régions périphériques. Les règles de limitation de fréquence sont générées et exportées de chaque région de hub vers ses régions de périphérie associées. Chaque fois qu’une décision est prise à l’aide de l’API Edge Decisioning, le système applique les règles disponibles dans la même région de périphérie :
+Chaque région du hub est associée à une ou plusieurs régions périphériques. Les règles de limitation de fréquence sont générées et exportées de chaque région de hub vers ses régions de périphérie associées. Chaque fois qu’une décision est prise à l’aide de l’API Edge Decisioning, le système applique les règles disponibles dans la même région de périphérie :
 
-   * S’il existe une règle correspondante, le compteur de limitation de fréquence du profil est incrémenté.
-   * Dans le cas contraire, aucun compteur n’est créé pour le profil et la règle de limitation de fréquence ne s’applique pas. Par conséquent, le profil continuera à recevoir des offres personnalisées même si le seuil de limitation est dépassé.
+* S’il existe une règle correspondante, le compteur de limitation de fréquence du profil est incrémenté.
+* Dans le cas contraire, aucun compteur n’est créé pour le profil et la règle de limitation de fréquence ne s’applique pas. Par conséquent, le profil continuera à recevoir des offres personnalisées même si le seuil de limitation est dépassé.
 
-  Par exemple, considérons la région hub de votre organisation comme *NLD2*, et vous envoyez une demande de prise de décision de l’Europe (*IRL1* région de périphérie). Dans ce scénario, la requête de prise de décision incrémente le compteur du profil, car les règles sont disponibles dans la variable (Irlande) *IRL1* région. Cependant, si la demande de prise de décision provient d’une région comme le Japon (*JPN3*), qui n’est pas une région périphérique liée à (Pays-Bas) *NLD2* région hub, aucun compteur ne sera créé et les règles de limitation de fréquence ne seront pas appliquées.
+Par exemple, considérons la région hub de votre organisation comme *NLD2*, et vous envoyez une demande de prise de décision de l’Europe (*IRL1* région de périphérie). Dans ce scénario, la requête de prise de décision incrémente le compteur du profil, car les règles sont disponibles dans la variable (Irlande) *IRL1* région. Cependant, si la demande de prise de décision provient d’une région comme le Japon (*JPN3*), qui n’est pas une région périphérique liée à (Pays-Bas) *NLD2* région hub, aucun compteur ne sera créé et les règles de limitation de fréquence ne seront pas appliquées.
 
-  Pour plus d’informations sur les régions de hub et de périphérie associées à votre organisation, contactez votre représentant d’Adobe.
+Pour plus d’informations sur les régions de hub et de périphérie associées à votre organisation, contactez votre représentant d’Adobe.
 
 +++
 

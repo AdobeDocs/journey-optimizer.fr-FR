@@ -8,16 +8,20 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: e45ec5f0e1bbcc73892f9cde5923627886f44ef6
-workflow-type: ht
-source-wordcount: '5073'
-ht-degree: 100%
+source-git-commit: 55391594cc7479edf83b2d2193de42756744f70d
+workflow-type: tm+mt
+source-wordcount: '5101'
+ht-degree: 99%
 
 ---
 
 # Mises à jour de la documentation {#latest-updates}
 
 Cette page répertorie toutes les mises à jour récentes de la documentation de [!DNL Journey Optimizer].
+
+## Avril 2024 {#april-2024}
+
+* Des informations ont été ajoutées dans la documentation de la gestion des décisions concernant la gestion des régions périphériques et de hub lors de l’utilisation de la limitation de fréquence avec l’API Edge Decisioning. [En savoir plus](../offers/offer-library/add-constraints.md#frequency-capping)
 
 ## Mars 2024 {#march-2024}
 
