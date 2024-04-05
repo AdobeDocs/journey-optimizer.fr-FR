@@ -7,10 +7,10 @@ role: User
 level: Beginner
 keywords: in-app, message, création, commencer
 exl-id: 51562843-7b50-4eb5-bf79-5ce03f7549cb
-source-git-commit: a20e01e66138ea5bb7be4d36c0d55b24ab9426db
+source-git-commit: 21c15e003609a7ed016391bfe499ce245736db0e
 workflow-type: tm+mt
-source-wordcount: '211'
-ht-degree: 100%
+source-wordcount: '145'
+ht-degree: 84%
 
 ---
 
@@ -22,19 +22,19 @@ Utilisez Journey Optimizer pour créer des notifications in-app et configurer de
 
 >[!AVAILABILITY]
 >
->Pour l’instant, le canal in-app n’est pas disponible pour les organisations qui ont acheté les offres complémentaires **Healthcare Shield** et **Privacy and Security Shield**.
+>Le canal In-App n’est pas disponible pour les organisations qui ont acheté l’Adobe **Bouclier sanitaire** et **Protection de la vie privée et protection** offres complémentaires.
 
-## Conditions préalables{#prerequisites-in-app}
-
-Avant d’envoyer des messages in-app, vous devez :
-
-* Configurer le canal in-app. [En savoir plus](inapp-configuration.md)
-
-* Assurez-vous de disposer des autorisations appropriées sur les campagnes Journey Optimizer avant de commencer, même si vous prévoyez d’utiliser uniquement les messages in-app dans des parcours. Les autorisations de Campaign sont toujours requises. [En savoir plus](../campaigns/get-started-with-campaigns.md#campaign-prerequisites)
-
-Une fois cette opération terminée, vous pouvez créer, configurer et envoyer votre premier message in-app. Découvrez comment accomplir cela dans [cette section](create-in-app.md).
 
 <table style="table-layout:fixed"><tr style="border: 0;">
+<td>
+<a href="inapp-configuration.md">
+<img alt="Validation" src="../assets/do-not-localize/inapp-config.jpg">
+</a>
+<div>
+<a href="inapp-configuration.md"><strong>Configurer le canal in-app</strong></a>
+</div>
+<p>
+</td>
 <td>
 <a href="create-in-app.md">
 <img alt="Prospect" src="../assets/do-not-localize/inapp-create.jpeg">
@@ -57,15 +57,6 @@ Une fois cette opération terminée, vous pouvez créer, configurer et envoyer v
 </a>
 <div>
 <a href="../reports/campaign-global-report.md#inapp-global"><strong>Accéder au rapport in-app</strong></a>
-</div>
-<p>
-</td>
-<td>
-<a href="inapp-configuration.md">
-<img alt="Validation" src="../assets/do-not-localize/inapp-config.jpg">
-</a>
-<div>
-<a href="inapp-configuration.md"><strong>Configurer le canal in-app</strong></a>
 </div>
 <p>
 </td>

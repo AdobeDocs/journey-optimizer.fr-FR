@@ -1,19 +1,29 @@
 ---
-title: Conditions préalables pour le canal in-app
+title: Prérequis et configuration du canal in-app
 description: Découvrez comment configurer votre environnement pour envoyer des messages in-app avec Journey Optimizer.
 role: Admin
 feature: In App
 level: Intermediate
 keywords: in-app, message, configuration, platform
 exl-id: 469c05f2-652a-4899-a657-ddc4cebe3b42
-source-git-commit: 7e850261f1a82492c5df93c4437b4e3c6859a2d7
+source-git-commit: 21c15e003609a7ed016391bfe499ce245736db0e
 workflow-type: tm+mt
-source-wordcount: '663'
-ht-degree: 100%
+source-wordcount: '819'
+ht-degree: 86%
 
 ---
 
-# Conditions préalables pour le canal in-app {#inapp-configuration}
+# Prérequis et configuration {#inapp-configuration}
+
+Pour envoyer des parcours et des campagnes In-App dans [!DNL Journey Optimizer], vous devez suivre les étapes de configuration suivantes.
+
+1. Assurez-vous de disposer des autorisations appropriées sur les campagnes Journey Optimizer avant de commencer, même si vous prévoyez d’utiliser uniquement les messages in-app dans des parcours. Les autorisations de Campaign sont toujours requises. [En savoir plus](../campaigns/get-started-with-campaigns.md#campaign-prerequisites)
+1. Activez Adobe Journey Optimizer dans votre flux de données de collecte de données Adobe Experience Platform et vérifiez votre stratégie de fusion par défaut dans Adobe Experience Platform, comme indiqué dans la section [Prérequis de diffusion](#delivery-prerequisites) ci-dessous
+1. Créez et configurez une surface d’application dans la collecte de données Adobe Experience Platform, comme décrit dans la section [cette section](#channel-prerequisites). Une autorisation spécifique doit être accordée pour accéder à la variable **Surfaces de l’application** dans la collecte de données Adobe Experience Platform. En savoir plus dans [cette vidéo](#video).
+1. Si vous utilisez des expériences de contenu, veillez à respecter les exigences répertoriées dans la section [cette section](#experiment-prerequisite).
+
+Une fois cette opération terminée, vous pouvez créer, configurer et envoyer votre premier message in-app. Découvrez comment accomplir cela dans [cette section](create-in-app.md).
+
 
 ## Conditions préalables à la diffusion {#delivery-prerequisites}
 
@@ -127,13 +137,11 @@ Si vous n’utilisez **pas** les [groupes de champs](https://experienceleague.ad
 
 ## Tutoriels vidéo{#video}
 
-* La vidéo ci-dessous montre comment attribuer l’autorisation **Gérer la configuration de l’application** pour accéder au menu Surfaces de l’application.
+La vidéo ci-dessous montre comment attribuer l’autorisation **Gérer la configuration de l’application** pour accéder au menu Surfaces de l’application.
 
-  +++Voir la vidéo
 
-  >[!VIDEO](https://video.tv.adobe.com/v/3421607)
+>[!VIDEO](https://video.tv.adobe.com/v/3421607)
 
-+++
 
 **Rubriques connexes :**
 
