@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: e3781f79-7c8d-4512-b44f-835639b1471f
-source-git-commit: 75638e9b463278efab16b2b85ed2707640f088f2
+source-git-commit: 90b08388d3b43ad8d8cfc7efec119217f531860f
 workflow-type: tm+mt
-source-wordcount: '3659'
-ht-degree: 100%
+source-wordcount: '3703'
+ht-degree: 98%
 
 ---
 
@@ -54,6 +54,8 @@ Dans le **[!UICONTROL Rapport dynamique]** de votre parcours, l&#39;onglet **[!U
 ![](assets/journey_live_performance.png)
 
 Les **[!UICONTROL Performances du parcours]** vous permettent de voir le cheminement détaillé de vos profils ciblés tout au long du parcours.
+
+Notez que le nombre de profils d’un noeud n’est mis à jour qu’une fois le profil terminé le noeud, et non lorsqu’il est saisi. Par exemple, un profil sur un **Attente** n’est comptabilisé qu’une fois que la date spécifiée est atteinte et que le profil a quitté le noeud.
 
 ### Statistiques du parcours {#journey-statistics}
 
