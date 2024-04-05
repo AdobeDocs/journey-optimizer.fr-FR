@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 4342c13d7f2cff4eea3bb3cdddad8f403f0cba90
+source-git-commit: 042c8a08597c800e64751f16f792954007ed0c08
 workflow-type: tm+mt
-source-wordcount: '5101'
+source-wordcount: '5123'
 ht-degree: 99%
 
 ---
@@ -21,7 +21,10 @@ Cette page répertorie toutes les mises à jour récentes de la documentation de
 
 ## Avril 2024 {#april-2024}
 
+* Les étapes de configuration de la messagerie in-app ont été détaillées. [En savoir plus](../in-app/inapp-configuration.md)
+* Documentation pour [API d’Offer decisioning](../offers/api-reference/offer-delivery-api/decisioning-api.md) et [API de prise de décision par lots](../offers/api-reference/offer-delivery-api/batch-decisioning-api.md) ont été mises à jour.
 * Des informations ont été ajoutées dans la documentation de la gestion des décisions concernant la gestion des régions périphériques et de hub lors de l’utilisation de la limitation de fréquence avec l’API Edge Decisioning. [En savoir plus](../offers/offer-library/add-constraints.md#frequency-capping)
+
 
 ## Mars 2024 {#march-2024}
 
