@@ -8,10 +8,10 @@ feature: Web Channel, Subdomains
 level: Experienced
 keywords: web, sous-domaines, configuration
 exl-id: 6e00466d-4ce5-4d80-89ff-c7331a5ab158
-source-git-commit: 4899dbe71243184b6283a32a4fe7eb2edb82f872
+source-git-commit: bfb9e797757a96b1e39736f532ee9308f87bb71f
 workflow-type: tm+mt
-source-wordcount: '842'
-ht-degree: 100%
+source-wordcount: '894'
+ht-degree: 94%
 
 ---
 
@@ -105,6 +105,10 @@ Pour utiliser un sous-domaine déjà délégué à Adobe, procédez comme suit.
 
 Pour configurer un nouveau sous-domaine, procédez comme suit :
 
+>[!NOTE]
+>
+>Par défaut, [!DNL Journey Optimizer] vous permet de déléguer jusqu’à 10 sous-domaines au total (couvrant les canaux email et web). Cependant, en fonction de votre contrat de licence, vous pouvez déléguer jusqu’à 100 sous-domaines. Contactez votre contact d’Adobe pour en savoir plus sur le nombre de sous-domaines auxquels vous avez droit.
+
 1. Accédez au menu **[!UICONTROL Administration]** > **[!UICONTROL Canaux]**, puis sélectionnez **[!UICONTROL Configuration web]** > **[!UICONTROL Sous-domaines web]**.
 
 1. Cliquez sur **[!UICONTROL Configurer un sous-domaine]**.
@@ -152,7 +156,6 @@ Pour configurer un nouveau sous-domaine, procédez comme suit :
 1. Une fois les vérifications effectuées, le sous-domaine obtient le statut **[!UICONTROL Succès]**. Vous pouvez à présent l’utiliser pour créer des surfaces de canal web.
 
    Le statut du sous-domaine sera marqué comme en **[!UICONTROL Échec]** si la création de lʼenregistrement de validation sur votre solution dʼhébergement nʼa pas réussi.
-
 
 <!--
 Only a subdomain with the **[!UICONTROL Success]** status can be set as default.
