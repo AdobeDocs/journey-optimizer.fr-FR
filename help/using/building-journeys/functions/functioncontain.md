@@ -28,7 +28,7 @@ Chaîne
 
 ## Paramètres
 
-* chaîne
+* Chaîne
 
 ## Signature et type renvoyé
 

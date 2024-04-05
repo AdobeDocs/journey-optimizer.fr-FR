@@ -8,7 +8,7 @@ level: Experienced
 keywords: sum, fonction, expression, parcours
 exl-id: a9085f4d-6434-4bc5-8e5d-3f2b6033defc
 source-git-commit: cb1fed2460ddbf3b226fe191b9695008970937c1
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '57'
 ht-degree: 100%
 
@@ -30,7 +30,7 @@ Agrégation
 
 * listInteger
 * listDecimal
-* durée
+* duration
 * Entier
 * Décimal
 

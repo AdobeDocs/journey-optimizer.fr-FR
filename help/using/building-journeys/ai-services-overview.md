@@ -7,8 +7,9 @@ feature: Journeys, Integrations
 role: User
 level: Intermediate
 keywords: artificiel, IA, intelligent, parcours, service
-source-git-commit: c82e0a4f44cda4afeb88f7dd8e645e967e4a878f
-workflow-type: ht
+exl-id: 20da09e1-0611-4d27-a589-30552011e06c
+source-git-commit: 61bd9ce680c56b0eb8737804fb013dbad430f1cc
+workflow-type: tm+mt
 source-wordcount: '191'
 ht-degree: 100%
 
@@ -29,4 +30,3 @@ L’IA dédiée aux clients permet aux marques de créer des scores basés sur m
 Par conséquent, ils peuvent être utilisés comme tout autre attribut de profil dans les conditions de Journey Optimizer (pour prendre les meilleures décisions), les actions ou la création de segments.
 
 ![](assets/customer-ai.png)
-

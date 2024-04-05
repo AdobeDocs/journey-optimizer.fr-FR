@@ -9,7 +9,7 @@ level: Experienced
 keywords: expression, données, type de données, parcours
 exl-id: fdfc3287-d733-45fb-ad11-b4238398820a
 source-git-commit: 4e7c4e7e6fcf488f572ccf3e9037e597dde06510
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '620'
 ht-degree: 100%
 
@@ -244,7 +244,7 @@ toDateTime("2023-12-03T15:15:30.123-00:20")
 toDateTime(1560762190189)
 ```
 
-## durée {#duration}
+## duration {#duration}
 
 **Description**
 

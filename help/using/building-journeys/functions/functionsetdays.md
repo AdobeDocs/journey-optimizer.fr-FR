@@ -8,7 +8,7 @@ level: Experienced
 keywords: setDays, fonction, expression, parcours
 exl-id: c2757e41-8206-44f7-9dbb-1fa79c0ba6e6
 source-git-commit: 4e7c4e7e6fcf488f572ccf3e9037e597dde06510
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '80'
 ht-degree: 100%
 

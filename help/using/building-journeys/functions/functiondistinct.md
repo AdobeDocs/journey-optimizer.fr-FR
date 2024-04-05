@@ -8,7 +8,7 @@ level: Experienced
 keywords: distinct, fonction, expression, parcours
 exl-id: f4e2dd34-b634-4a91-af53-60be155a65d0
 source-git-commit: cb1fed2460ddbf3b226fe191b9695008970937c1
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '155'
 ht-degree: 100%
 

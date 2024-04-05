@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 exl-id: 925494b6-e08a-4bd3-8a2f-96a5d9cbc387
 source-git-commit: 5671f510d8be80b53d57b1ff90a101e500773243
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '3484'
 ht-degree: 100%
 
@@ -111,7 +111,7 @@ Le tableau **[!UICONTROL Mesures d’envoi par e-mail]** offre un résumé compl
 
 * **[!UICONTROL Envoyés]** : nombre total d’e-mails envoyés.
 
-* **[!UICONTROL Livrés]** : nombre de messages envoyés avec succès.
+* **[!UICONTROL Diffusés]** : nombre de messages envoyés avec succès.
 
 * **[!UICONTROL Rebonds]** : nombre total des erreurs comptabilisées lors de la procédure d’envoi et du traitement automatique des retours.
 
@@ -171,7 +171,7 @@ Le widget **[!UICONTROL E-mail – Performances par date]** offre une vue d’en
 
 * **[!UICONTROL Envoyés]** : nombre total d’e-mails envoyés.
 
-* **[!UICONTROL Livrés]** : nombre de messages envoyés avec succès.
+* **[!UICONTROL Diffusés]** : nombre de messages envoyés avec succès.
 
 * **[!UICONTROL Rebonds]** : nombre total des erreurs comptabilisées lors de la procédure d’envoi et du traitement automatique des retours.
 
@@ -333,7 +333,7 @@ Le tableau **[!UICONTROL Notification push – Statistiques]** fournit un résum
 
 * **[!UICONTROL Envoyés]** : nombre total d’e-mails envoyés.
 
-* **[!UICONTROL Livrés]** : nombre de messages envoyés avec succès.
+* **[!UICONTROL Diffusés]** : nombre de messages envoyés avec succès.
 
 * **[!UICONTROL Rebonds]** : nombre total des erreurs comptabilisées lors de la procédure d’envoi et du traitement automatique des retours.
 

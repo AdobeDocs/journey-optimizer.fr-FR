@@ -8,7 +8,7 @@ level: Experienced
 keywords: toString, fonction, expression, parcours
 exl-id: 06727146-2a44-4b74-aac4-be60e9e0e37c
 source-git-commit: 4e7c4e7e6fcf488f572ccf3e9037e597dde06510
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '128'
 ht-degree: 100%
 
@@ -32,7 +32,7 @@ Conversion
 |--- |--- |
 | dateTime | Convertit la date au format UTC |
 | dateTimeOnly | Convertit la date au format UTC |
-| durée | Convertit le paramètre dans le nombre de millisecondes correspondant sous forme de chaîne |
+| duration | Convertit le paramètre dans le nombre de millisecondes correspondant sous forme de chaîne |
 | Entier | Convertit la valeur en représentation sous forme de chaîne (1 devient « 1 »). |
 | Décimal | Convertit la valeur en représentation sous forme de chaîne (1,5 devient « 1,5 »). |
 | Booléen | Convertit la valeur booléenne en chaîne « true » si true, en chaîne « false » si false |

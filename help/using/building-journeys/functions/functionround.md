@@ -29,7 +29,7 @@ Mathématique
 ## Paramètres
 
 * décimal
-* integer
+* Entier
 
 ## Signatures et type renvoyé
 

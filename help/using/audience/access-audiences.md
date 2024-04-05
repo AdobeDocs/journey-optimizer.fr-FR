@@ -11,7 +11,7 @@ exl-id: 0758eeaf-a188-4b43-9c9a-a2e5a9e5dd76
 source-git-commit: 3f96cc0037b5bcdb2ce94e2721b02ba13b3cff36
 workflow-type: tm+mt
 source-wordcount: '156'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 93%
 
 >[!BEGINSHADEBOX]
 
-Cette documentation fournit des informations détaillées sur l’utilisation de la composition de l’audience dans Adobe Journey Optimizer. Si vous n’utilisez pas Adobe Journey Optimizer, [cliquez ici](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/audience-composition.html?lang=fr){target="_blank"}.
+Cette documentation fournit des informations détaillées sur l’utilisation de la composition de l’audience dans Adobe Journey Optimizer. Si vous n’utilisez pas Adobe Journey Optimizer, [cliquez ici](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/audience-composition.html?lang=fr){target="_blank"}.
 
 >[!ENDSHADEBOX]
 

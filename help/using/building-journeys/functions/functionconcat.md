@@ -31,7 +31,7 @@ Chaîne
 | Paramètre | Type |
 |-----------|------------------|
 | Liste | listString |
-| chaîne | chaîne |
+| chaîne | Chaîne |
 
 ## Signature et type renvoyé
 
