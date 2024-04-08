@@ -9,7 +9,7 @@ role: Admin
 level: Experienced
 keywords: paramètres, e-mail, configuration
 exl-id: 13536962-7541-4eb6-9ccb-4f97e167734a
-source-git-commit: f8d62a702824bcfca4221c857acf1d1294427543
+source-git-commit: c082d9329949fd8dc68929e3934daf2d9dfdbd46
 workflow-type: tm+mt
 source-wordcount: '2378'
 ht-degree: 100%
@@ -60,6 +60,8 @@ Dans la section **Sous-domaine et groupes d’adresses IP**, renseignez les cha
 1. Sélectionnez le sous-domaine à utiliser pour envoyer les e-mails.
 
    Pour préserver la réputation de votre domaine, accélérer le processus de préchauffage des adresses IP et améliorer la délivrabilité, déléguez vos sous-domaines d’envoi à Adobe. [En savoir plus](../configuration/about-subdomain-delegation.md)
+
+<!--If needed, you can define dynamic subdomains. [Learn more](../email/surface-personalization.md#dynamic-subdomains)-->
 
 1. Sélectionnez le groupe d’adresses IP à associer à la surface. [En savoir plus](../configuration/ip-pools.md)
 
@@ -112,6 +114,8 @@ Le lien de désabonnement se compose de deux éléments :
   >Si vous n&#39;ajoutez pas de lien d&#39;opt-out en un clic dans le contenu de votre message, aucune page de destination ne sera affichée pour l&#39;utilisateur.
 
 Apprenez-en davantage sur l&#39;ajout d’un lien de désinscription dans l&#39;en-tête de vos messages dans [cette section](../privacy/opt-out.md#unsubscribe-header).
+
+<!--If you have added one or more dynamic subdomains, URLs will be populated based on the resolved dynamic subdomain. [Learn more](../email/surface-personalization.md#dynamic-subdomains)-->
 
 <!--Select the **[!UICONTROL Custom List-Unsubscribe]** option to enter your own Unsubscribe URL and/or your own Unsubscribe email address.(to add later)-->
 
