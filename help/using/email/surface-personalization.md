@@ -10,16 +10,21 @@ level: Experienced
 keywords: paramètres, courrier électronique, configuration, sous-domaine
 hide: true
 hidefromtoc: true
-source-git-commit: c082d9329949fd8dc68929e3934daf2d9dfdbd46
+badge: label="Version Beta"
+source-git-commit: e63823dc2f901b870f11b0478e682e2af61b5b98
 workflow-type: tm+mt
-source-wordcount: '612'
+source-wordcount: '815'
 ht-degree: 1%
 
 ---
 
-# Configuration des sous-domaines dynamiques de messagerie {#surface-personalization}
+# Personnaliser les paramètres de surface des emails {#surface-personalization}
 
-Pour une flexibilité et un contrôle accrus de vos paramètres d&#39;email lors de la création de surfaces d&#39;email, [!DNL Journey Optimizer] permet de définir des valeurs personnalisées pour les sous-domaines, les en-têtes et les paramètres de suivi des URL.
+Pour une flexibilité et un contrôle accrus de vos paramètres d&#39;email, [!DNL Journey Optimizer] permet de définir des valeurs personnalisées pour les sous-domaines et les en-têtes.<!--and URL tracking parameters--> lors de la création de surfaces d&#39;email.
+
+>[!AVAILABILITY]
+>
+>Cette fonctionnalité est actuellement disponible en version bêta pour sélectionner uniquement les utilisateurs. <!--To join the beta program, contact Adobe Customer Care.-->
 
 ## Ajout de sous-domaines dynamiques {#dynamic-subdomains}
 
@@ -42,7 +47,11 @@ Lors de la création d’une surface d’email, vous pouvez configurer des sous-
 
 Par exemple, si vous avez des contraintes juridiques pour envoyer des messages à partir d’une adresse email dédiée par pays, vous pouvez utiliser des sous-domaines dynamiques. Vous pouvez ainsi créer une surface unique avec plusieurs sous-domaines d’envoi correspondant à différents pays, au lieu de créer plusieurs surfaces pour chaque pays. Vous pouvez ensuite cibler des clients basés dans différents pays consolidés dans une seule campagne.
 
-Pour définir des sous-domaines dynamiques, procédez comme suit.
+Pour définir des sous-domaines dynamiques sur une surface de canal email, procédez comme suit.
+
+1. Avant de créer une surface, configurez les sous-domaines que vous souhaitez utiliser pour envoyer des emails en fonction de votre cas d’utilisation. [Voici comment procéder](../configuration/about-subdomain-delegation.md)
+
+   Par exemple, supposons que vous souhaitiez utiliser différents sous-domaines pour différents pays : configurer un sous-domaine spécifique aux États-Unis, un autre spécifique au Royaume-Uni, etc.
 
 1. Créer une surface de canal. [Voici comment procéder](../configuration/channel-surfaces.md)
 
@@ -66,13 +75,15 @@ Pour définir des sous-domaines dynamiques, procédez comme suit.
 
    ![](assets/surface-email-select-subdomain.png)
 
-   Tous les destinataires basés aux États-Unis recevront les messages utilisant le sous-domaine sélectionné pour ce pays, ce qui signifie que toutes les URL impliquées (comme la page miroir, l’URL de suivi ou le lien de désabonnement) seront renseignées en fonction de ce sous-domaine.
+   Tous les destinataires basés aux Etats-Unis recevront les messages utilisant le sous-domaine sélectionné pour ce pays, ce qui signifie que toutes les URL impliquées (comme la page miroir, l’URL de tracking ou le lien de désabonnement) seront renseignées en fonction de ce sous-domaine.
 
 1. Définissez d’autres sous-domaines dynamiques comme vous le souhaitez. Vous pouvez ajouter jusqu’à 50 éléments.
 
    ![](assets/surface-email-add-dynamic-subdomain.png)
 
-1. Sélectionnez la variable [pool d’adresses IP](../configuration/ip-pools.md) à associer à la surface. [En savoir plus](email-settings.md#subdomains-and-ip-pools)
+<!--Select the [IP pool](../configuration/ip-pools.md) to associate with the surface. [Learn more](email-settings.md#subdomains-and-ip-pools)-->
+
+1. Définir toutes les autres [paramètres de messagerie électronique](email-settings.md) et [submit](../configuration/channel-surfaces.md#create-channel-surface) votre surface.
 
 Une fois que vous avez ajouté un ou plusieurs sous-domaines dynamiques à une surface, les éléments suivants sont renseignés en fonction du sous-domaine dynamique résolu pour cette surface :
 
@@ -82,7 +93,11 @@ Une fois que vous avez ajouté un ou plusieurs sous-domaines dynamiques à une s
 
 * La variable **Adresse électronique** et **Email d’erreur** suffixes
 
-## Personnaliser votre en-tête (#personalize-header)
+>[!NOTE]
+>
+>Si vous configurez des sous-domaines dynamiques, désactivez la variable **[!UICONTROL Sous-domaine dynamique]** , toutes les valeurs dynamiques sont supprimées. Sélectionnez un sous-domaine et envoyez la surface pour que les modifications soient prises en compte.
+
+## Personnaliser votre en-tête {#personalize-header}
 
 Vous pouvez également utiliser la personnalisation pour tous les paramètres d’en-tête définis dans une surface.
 
@@ -90,13 +105,20 @@ Par exemple, si vous disposez de plusieurs marques, vous pouvez créer une surfa
 
 Pour utiliser des variables personnalisées pour vos paramètres d’en-tête de surface, procédez comme suit.
 
+>[!NOTE]
+>
+>Vous pouvez personnaliser tous les **[!UICONTROL Paramètres d’en-tête]** , à l’exception des champs **[!UICONTROL Préfixe de courrier électronique d’erreur]** champ .
+
+
 1. Définissez les paramètres d’en-tête comme vous le feriez habituellement. [Voici comment procéder](email-settings.md#email-header)
 
 1. Pour chaque champ, sélectionnez l&#39;icône Modifier .
 
    ![](assets/surface-email-personalize-header.png)
 
-1. La variable [Éditeur d’expression](../personalization/personalization-build-expressions.md) s’ouvre. Définissez votre condition comme vous le souhaitez et enregistrez vos modifications.<!--In this example, set a condition such as -->
+1. La variable [Éditeur d’expression](../personalization/personalization-build-expressions.md) s’ouvre. Définissez votre condition comme vous le souhaitez et enregistrez vos modifications.
+
+   Par exemple, définissez une condition telle que chaque destinataire reçoit un email de son propre représentant de marque.
 
    >[!NOTE]
    >
@@ -104,18 +126,41 @@ Pour utiliser des variables personnalisées pour vos paramètres d’en-tête de
 
 1. Répétez les étapes ci-dessus pour chaque paramètre auquel vous souhaitez ajouter une personnalisation.
 
-   >[!NOTE]
-   >
-   >Si vous avez ajouté un ou plusieurs sous-domaines dynamiques à votre surface, la variable **Adresse électronique** et **Email d’erreur** Les suffixes seront renseignés en fonction des [sous-domaine dynamique](#dynamic-subdomains).
+>[!NOTE]
+>
+>Si vous avez ajouté un ou plusieurs sous-domaines dynamiques à votre surface, la variable **Adresse électronique** et **Email d’erreur** Les suffixes seront renseignés en fonction des [sous-domaine dynamique](#dynamic-subdomains).
 
 <!--
 ## Use personalized URL tracking {#personalize-url-tracking}
 
 To use personalized URL tracking prameters, follow the steps below.
 
-select the profile attribute of your choice from the expression editor.
+1. Select the profile attribute of your choice from the expression editor.
 
 1. Repeat the steps above for each tracking parameter you want to personalize.
 
 Now when the email is sent out, this parameter will be automatically appended to the end of the URL. You can then capture this parameter in web analytics tools or in performance reports.
 -->
+
+## Afficher les détails de la surface {#view-surface-details}
+
+Lorsque vous utilisez une surface avec des paramètres personnalisés dans une opération ou une surface, vous pouvez afficher les détails de la surface directement dans la campagne ou la surface. Suivez les étapes ci-dessous.
+
+1. Créer un email [campaign](../campaigns/create-campaign.md) ou [parcours](../building-journeys/journey-gs.md).
+
+1. Sélectionnez la variable **[!UICONTROL Modifier le contenu]** bouton .
+
+1. Cliquez sur le bouton **[!UICONTROL Afficher les détails de la surface]** bouton .
+
+   ![](assets/campaign-view-surface-details.png)
+
+1. La variable **[!UICONTROL Paramètres de diffusion]** s’affiche. Vous pouvez afficher tous les paramètres de surface, y compris les sous-domaines dynamiques et les paramètres d’en-tête personnalisés.
+
+   >[!NOTE]
+   >
+   >Toutes les informations de cet écran sont en lecture seule.
+
+1. Sélectionner **[!UICONTROL Développer]** pour afficher les détails des sous-domaines dynamiques.
+
+   ![](assets/campaign-delivery-settings-subdomain-expand.png)
+
