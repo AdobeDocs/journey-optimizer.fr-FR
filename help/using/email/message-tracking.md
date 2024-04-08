@@ -9,10 +9,10 @@ role: User
 level: Beginner, Intermediate
 keywords: liens, tracking, surveillance, e-mail
 exl-id: 689e630a-00ca-4893-8bf5-6d1ec60c52e7
-source-git-commit: 27447578dad6bd2612989d79cd0dc8ddbe78d629
+source-git-commit: c082d9329949fd8dc68929e3934daf2d9dfdbd46
 workflow-type: tm+mt
-source-wordcount: '1052'
-ht-degree: 100%
+source-wordcount: '1053'
+ht-degree: 99%
 
 ---
 
@@ -162,7 +162,7 @@ Le [Concepteur d&#39;e-mail](content-from-scratch.md) permet de gérer les URL s
 
 La création de rapports sur les ouvertures et les clics est disponible dans le [rapport dynamique](../reports/live-report.md) et dans le [rapport global](../reports/global-report.md).
 
-## Tracking des URL {#url-tracking}
+## Personnalisation du suivi des URL {#url-tracking}
 
 Généralement, le [tracking des URL](email-settings.md#url-tracking) est géré au niveau de la surface, mais les attributs de profil ne sont pas pris en charge. Actuellement, la seule façon de le faire est de [personnaliser les URL](../personalization/personalization-syntax.md#perso-urls) dans le concepteur d’e-mail.
 
