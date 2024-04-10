@@ -8,9 +8,9 @@ role: User
 level: Intermediate
 exl-id: 4f7f7d1d-a12a-4ff6-b0ff-1a1c3d305a9d
 source-git-commit: 12f6c41252809bcc85bc076902f9a831a6c6e7d9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '371'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -30,9 +30,9 @@ Vous pouvez par exemple sélectionner un modèle d’IA pour le canal e-mail et 
 
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_ai_model_type"
->title="Choisissez le type de modèle"
->abstract="Sélectionnez le type de modèle AI à créer : **Optimisation automatique** optimise les offres en fonction des performances des offres antérieures, tandis que **Optimisation personnalisée** optimise et personnalise les offres en fonction des audiences et des performances des offres."
->additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/offer-decisioning/rankings/ai-models/create-ranking-strategies#create-ranking-strategy" text="Créer un modèle d’IA"
+>title="Choisir le type de modèle"
+>abstract="Sélectionnez le type de modèle d’IA à créer : **Optimisation automatique** optimise les offres en fonction des performances des offres antérieures, tandis qu’**Optimisation personnalisée** optimise et personnalise les offres en fonction des audiences et des performances des offres."
+>additional-url="https://experienceleague.adobe.com/fr/docs/journey-optimizer/using/offer-decisioning/rankings/ai-models/create-ranking-strategies#create-ranking-strategy" text="Créer un modèle d’IA"
 
 Deux types de modèles d’IA sont disponibles dans [!DNL Journey Optimizer] :
 

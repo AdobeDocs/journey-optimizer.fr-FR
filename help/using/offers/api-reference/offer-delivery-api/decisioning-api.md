@@ -7,9 +7,9 @@ role: Data Engineer
 level: Experienced
 exl-id: 692d0aae-6fa1-40b8-a35f-9845d78317a3
 source-git-commit: ae0bd349b6287002f264ed716b6454fb9d8357c9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1018'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -39,7 +39,7 @@ Le tableau suivant montre les valeurs valides qui comprennent les champs *Conten
 | x-sandbox-name | `{SANDBOX_NAME}` |
 | x-api-key | `{API_KEY}` |
 
-* Toutes les requêtes contenant un payload (POST, PUT, PATCH) nécessitent un en-tête de type de contenu.
+* Toutes les requêtes contenant une payload (POST, PUT, PATCH) nécessitent l’en-tête de type de contenu.
 
 ## Requête API {#request}
 

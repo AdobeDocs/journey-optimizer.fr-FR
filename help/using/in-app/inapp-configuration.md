@@ -1,5 +1,5 @@
 ---
-title: Prérequis et configuration du canal in-app
+title: Conditions préalables et configuration du canal in-app
 description: Découvrez comment configurer votre environnement pour envoyer des messages in-app avec Journey Optimizer.
 role: Admin
 feature: In App
@@ -7,23 +7,23 @@ level: Intermediate
 keywords: in-app, message, configuration, platform
 exl-id: 469c05f2-652a-4899-a657-ddc4cebe3b42
 source-git-commit: f759c88ed46d8c13e2844c48a71a2634d9507fd8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '820'
-ht-degree: 86%
+ht-degree: 100%
 
 ---
 
-# Prérequis et configuration {#inapp-configuration}
+# Conditions préalables et configuration {#inapp-configuration}
 
 ## Étapes de configuration {#inapp-steps}
 
-Pour envoyer des messages In-App dans vos parcours et campagnes avec [!DNL Journey Optimizer], vous devez suivre les étapes de configuration suivantes.
+Pour envoyer des messages in-app dans vos parcours et campagnes avec [!DNL Journey Optimizer], vous devez suivre les étapes de configuration suivantes.
 
 1. Assurez-vous de disposer des autorisations appropriées sur les campagnes Journey Optimizer avant de commencer, même si vous prévoyez d’utiliser uniquement les messages in-app dans des parcours. Les autorisations de Campaign sont toujours requises. [En savoir plus](../campaigns/get-started-with-campaigns.md#campaign-prerequisites).
-Une autorisation spécifique doit être accordée pour accéder à la variable **Surfaces de l’application** dans la collecte de données Adobe Experience Platform. En savoir plus dans [cette vidéo](#video).
-1. Activez Adobe Journey Optimizer dans votre flux de données de collecte de données Adobe Experience Platform et vérifiez votre stratégie de fusion par défaut dans Adobe Experience Platform, comme indiqué dans la section [Prérequis de diffusion](#delivery-prerequisites) ci-dessous
-1. Créez et configurez une surface d’application dans la collecte de données Adobe Experience Platform, comme décrit dans la section [cette section](#channel-prerequisites).
-1. Si vous utilisez des expériences de contenu, veillez à respecter les exigences répertoriées dans la section [cette section](#experiment-prerequisite).
+Une autorisation spécifique doit être accordée pour accéder au menu **Surfaces d’application** dans la collecte de données Adobe Experience Platform. En savoir plus dans [cette vidéo](#video).
+1. Activez Adobe Journey Optimizer dans votre train de données de collecte de données Adobe Experience Platform et vérifiez votre politique de fusion par défaut dans Adobe Experience Platform, comme indiqué dans la section [Conditions préalables à la diffusion](#delivery-prerequisites) ci-dessous.
+1. Créez et configurez une surface d’application dans la collecte de données Adobe Experience Platform, comme décrit dans [cette section](#channel-prerequisites).
+1. Si vous utilisez des expériences de contenu, veillez à respecter les exigences répertoriées dans [cette section](#experiment-prerequisite).
 
 Une fois cette opération terminée, vous pouvez créer, configurer et envoyer votre premier message in-app. Découvrez comment accomplir cela dans [cette section](create-in-app.md).
 

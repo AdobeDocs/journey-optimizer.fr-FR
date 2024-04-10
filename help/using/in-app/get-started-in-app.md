@@ -8,9 +8,9 @@ level: Beginner
 keywords: in-app, message, création, commencer
 exl-id: 51562843-7b50-4eb5-bf79-5ce03f7549cb
 source-git-commit: f759c88ed46d8c13e2844c48a71a2634d9507fd8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '147'
-ht-degree: 77%
+ht-degree: 100%
 
 ---
 
@@ -22,7 +22,7 @@ Utilisez Journey Optimizer pour créer des notifications in-app et configurer de
 
 >[!AVAILABILITY]
 >
->Le canal In-App n’est pas disponible pour les organisations qui ont acheté l’Adobe **Bouclier sanitaire** et **Protection de la vie privée et protection** offres complémentaires.
+>Le canal in-app n’est pas disponible pour les organisations qui ont acheté les offres complémentaires **Healthcare Shield** et **Privacy and Security Shield** d’Adobe.
 
 
 <table style="table-layout:fixed"><tr style="border: 0;">
@@ -31,15 +31,15 @@ Utilisez Journey Optimizer pour créer des notifications in-app et configurer de
 <img alt="Validation" src="../assets/do-not-localize/inapp-config.jpg">
 </a>
 <div>
-<a href="inapp-configuration.md"><strong>Configuration du canal In-App</strong></a>
+<a href="inapp-configuration.md"><strong>Configurer le canal in-app</strong></a>
 </div>
 <p>
 </td>
 <td>
 <a href="create-in-app.md">
-<img alt="Prospect" src="../assets/do-not-localize/inapp-create.jpeg">
+<img alt="Lead" src="../assets/do-not-localize/inapp-create.jpeg">
 </a>
-<div><a href="create-in-app.md"><strong>Création d’un message in-app</strong>
+<div><a href="create-in-app.md"><strong>Créer un message in-app</strong>
 </div>
 <p>
 </td>
@@ -56,7 +56,7 @@ Utilisez Journey Optimizer pour créer des notifications in-app et configurer de
 <img alt="Validation" src="../assets/do-not-localize/inapp-report.jpg">
 </a>
 <div>
-<a href="../reports/campaign-global-report.md#inapp-global"><strong>Accès aux rapports In-App</strong></a>
+<a href="../reports/campaign-global-report.md#inapp-global"><strong>Accéder aux rapports in-app</strong></a>
 </div>
 <p>
 </td>

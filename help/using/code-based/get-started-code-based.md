@@ -7,7 +7,7 @@ role: User, Developer, Admin
 level: Experienced
 exl-id: 987de2bf-cebe-4753-98b4-01eb3fded492
 source-git-commit: d741a34a0418dc88db730d0b953cb5c7db8dc103
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1055'
 ht-degree: 100%
 
@@ -31,7 +31,7 @@ Avec la fonctionnalité d’**expérience basée sur le code**, vous pouvez déf
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td>
 <a href="#how-it-works">
-<img alt="Prospect" src="../assets/do-not-localize/privacy-audit.jpeg">
+<img alt="Lead" src="../assets/do-not-localize/privacy-audit.jpeg">
 </a>
 <div><a href="#how-it-works"><strong>Fonctionnement</strong>
 </div>

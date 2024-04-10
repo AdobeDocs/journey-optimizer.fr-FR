@@ -7,9 +7,9 @@ role: User
 level: Intermediate
 exl-id: 7234a8e8-4ab0-4f17-a833-5e452fadac35
 source-git-commit: 4342c13d7f2cff4eea3bb3cdddad8f403f0cba90
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2617'
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 
@@ -254,28 +254,28 @@ Vous pouvez également indiquer si vous souhaitez que la limitation soit appliqu
 >title="Définir la fréquence de limitation"
 >abstract="Vous pouvez choisir de réinitialiser le compteur de limitation des offres tous les jours, toutes les semaines ou tous les mois. Notez qu’après la publication de l’offre avec le capping de la fréquence activé, vous ne pourrez pas modifier la fréquence définie."
 
-La section **[!UICONTROL Fréquence]** vous permet de définir la fréquence à laquelle le nombre de limitations est réinitialisé. Pour cela, définissez la période du comptage (quotidien, hebdomadaire ou mensuel) et saisissez le nombre de jours/semaines/mois de votre choix. Par exemple, si vous souhaitez que le nombre de limitations soit réinitialisé toutes les 2 semaines, sélectionnez **[!UICONTROL Hebdomadaire]** dans la liste déroulante correspondante, puis saisissez **2** dans l’autre champ.
+La section **[!UICONTROL Fréquence]** vous permet de définir la fréquence à laquelle le nombre de limitations est réinitialisé. Pour ce faire, définissez la période du comptage (quotidienne, hebdomadaire ou mensuelle) et saisissez le nombre de jours, semaines ou mois de votre choix. Par exemple, si vous souhaitez que le nombre de limitations soit réinitialisé toutes les 2 semaines, sélectionnez **[!UICONTROL Hebdomadaire]** dans la liste déroulante correspondante et saisissez **2** dans l’autre champ.
 
 ![](../assets/offer-capping-frequency.png)
 
 >[!NOTE]
 >
->La réinitialisation du compteur de limitation de fréquence se produit à l’adresse **12h00 UTC**, le jour défini ou le premier jour de la semaine/du mois, le cas échéant. Le jour de début de la semaine est **Dimanche**. La durée choisie ne peut pas dépasser **2 ans** (c’est-à-dire le nombre de mois, semaines ou jours correspondant).
+>Le compteur de capping de la fréquence se réinitialise à **00 h 00 UTC**, le jour que vous avez défini ou le premier jour de la semaine ou du mois, le cas échéant. Le jour de début de semaine est le **dimanche**. La durée que vous avez choisie ne peut pas dépasser **2 ans** (ou le nombre correspondant de mois, de semaines ou de jours).
 >
->Après avoir publié votre offre, vous ne pourrez pas modifier la période (mensuelle, hebdomadaire ou quotidienne) que vous avez sélectionnée pour la fréquence. Vous pouvez désormais modifier le capping de la fréquence si le statut de l’offre est **[!UICONTROL Brouillon]** et si l’offre n’a jamais été publiée auparavant avec la capping de la fréquence activée.
+>Une fois que vous avez publié votre offre, vous ne pourrez plus modifier la période (mensuelle, hebdomadaire ou quotidienne) de la fréquence. Vous pouvez désormais modifier le capping de la fréquence si le statut de l’offre est **[!UICONTROL Brouillon]** et si l’offre n’a jamais été publiée auparavant avec le capping de la fréquence activé.
 
-+++ **À lire absolument : API de limitation de fréquence et de prise de décision Edge**
++++ **À lire absolument : API de capping de fréquence et API Edge Decisioning**
 
-Le compteur de limitation de fréquence est mis à jour et disponible dans une décision de l’API Edge Decisioning en moins de 3 secondes.
+Le compteur de capping de fréquence est mis à jour et disponible dans une décision de l’API Edge Decisioning en moins de 3 secondes.
 
-Chaque région du hub est associée à une ou plusieurs régions périphériques. Les règles de limitation de fréquence sont générées et exportées de chaque région de hub vers ses régions de périphérie associées. Chaque fois qu’une décision est prise à l’aide de l’API Edge Decisioning, le système applique les règles disponibles dans la même région de périphérie :
+Chaque région de hub est associée à une ou plusieurs régions périphériques. Les règles de capping de fréquence sont générées et exportées de chaque région de hub vers ses régions périphériques associées. Chaque fois qu’une décision est prise à l’aide de l’API Edge Decisioning, le système applique les règles disponibles dans la même région périphérique :
 
-* S’il existe une règle correspondante, le compteur de limitation de fréquence du profil est incrémenté.
-* Dans le cas contraire, aucun compteur n’est créé pour le profil et la règle de limitation de fréquence ne s’applique pas. Par conséquent, le profil continuera à recevoir des offres personnalisées même si le seuil de limitation est dépassé.
+* S’il existe une règle correspondante, le compteur de capping de fréquence du profil est incrémenté.
+* Dans le cas contraire, aucun compteur n’est créé pour le profil et la règle de capping de fréquence ne s’applique pas. Par conséquent, le profil continuera à recevoir des offres personnalisées, même si le seuil de limitation est dépassé.
 
-Par exemple, considérons la région hub de votre organisation comme *NLD2*, et vous envoyez une demande de prise de décision de l’Europe (*IRL1* région de périphérie). Dans ce scénario, la requête de prise de décision incrémente le compteur du profil, car les règles sont disponibles dans la variable (Irlande) *IRL1* région. Cependant, si la demande de prise de décision provient d’une région comme le Japon (*JPN3*), qui n’est pas une région périphérique liée à (Pays-Bas) *NLD2* région hub, aucun compteur ne sera créé et les règles de limitation de fréquence ne seront pas appliquées.
+Par exemple, la région de hub de votre organisation est *NLD2* et vous envoyez une demande de prise de décision depuis l’Europe (région périphérique *IRL1*). Dans ce scénario, la requête de prise de décision incrémente le compteur du profil, car les règles sont disponibles dans la région *IRL1* (Irlande). Cependant, si la demande de prise de décision provient d’une région comme le Japon (*JPN3*), qui n’est pas une région périphérique liée à la région de hub *NLD2* (Pays-Bas), aucun compteur ne sera créé et les règles de limitation de fréquence ne seront pas appliquées.
 
-Pour plus d’informations sur les régions de hub et de périphérie associées à votre organisation, contactez votre représentant d’Adobe.
+Pour plus d’informations sur les régions de hub et périphériques associées à votre organisation, contactez votre représentant ou représentante Adobe.
 
 +++
 
