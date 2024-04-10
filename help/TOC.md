@@ -44,7 +44,7 @@ ht-degree: 99%
       + [Créer votre premier parcours](using/building-journeys/journey-gs.md)
       + [Concevoir le parcours](using/building-journeys/using-the-journey-designer.md)
       + [Tester votre parcours](using/building-journeys/testing-the-journey.md)
-      + [Simulation de votre parcours](using/building-journeys/journey-simulation.md)
+      + [Simuler votre parcours](using/building-journeys/journey-simulation.md)
       + [Publier votre parcours](using/building-journeys/publishing-the-journey.md)
    + Gestion des parcours{#manage-journey}
       + [Fin de votre parcours](using/building-journeys/end-journey.md)
@@ -206,7 +206,7 @@ ht-degree: 99%
       + [Configuration des sous-domaines dynamiques de messagerie](using/email/surface-personalization.md)
 + Canal in-app{#in-app}
    + [Prise en main du canal in-app](using/in-app/get-started-in-app.md)
-   + [Prérequis et configuration](using/in-app/inapp-configuration.md)
+   + [Conditions préalables et configuration](using/in-app/inapp-configuration.md)
    + [Créer un message mobile in-app](using/in-app/create-in-app.md)
    + [Créer un message web in-app](using/in-app/create-in-app-web.md)
    + [Concevoir votre contenu in-app](using/in-app/design-in-app.md)
