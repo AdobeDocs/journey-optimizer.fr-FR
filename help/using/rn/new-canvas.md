@@ -5,9 +5,7 @@ title: Nouvelle interface parcours
 feature: Release Notes
 topic: Content Management
 description: Nouvelle interface parcours
-hide: true
-hidefromtoc: true
-source-git-commit: 81d54c026c52fe78b1b725d67da15505907b8bb9
+source-git-commit: 53b89d27d32cc285e6ad91549fb7543bf279cd1b
 workflow-type: tm+mt
 source-wordcount: '469'
 ht-degree: 0%
