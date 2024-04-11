@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: parcours, premier, commencer, démarrage rapide, audience, événement, action
 exl-id: d940191e-8f37-4956-8482-d2df0c4274aa
-source-git-commit: 37be5bd6dc17dc7df12ad51994a854f2d7a20ef1
+source-git-commit: b424670bf4fb05b8b188a500d156755ac7b088e6
 workflow-type: tm+mt
-source-wordcount: '1983'
-ht-degree: 100%
+source-wordcount: '2005'
+ht-degree: 98%
 
 ---
 
@@ -146,6 +146,11 @@ Voici les étapes principales pour envoyer des messages à travers des parcours�
 >id="ajo_journey_properties"
 >title="Propriétés du parcours"
 >abstract="Cette section présente les propriétés du parcours. Par défaut, les paramètres en lecture seule sont masqués. Les paramètres disponibles dépendent du statut du parcours, de vos autorisations et de la configuration de votre produit."
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_exit_criterias"
+>title="Critères de sortie de parcours"
+>abstract="Cette section présente les options des critères de sortie. Vous pouvez créer une ou plusieurs règles de critères de sortie pour votre parcours."
 
 Cliquez sur l’icône en forme de crayon, en regard du nom du parcours, pour accéder à ses propriétés.
 
