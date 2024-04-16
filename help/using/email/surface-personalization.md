@@ -15,7 +15,7 @@ exl-id: 1e004a76-5d6d-43a1-b198-5c9b41f5332c
 source-git-commit: 94d39089d94b4fe42eb3fb95603426012b104517
 workflow-type: tm+mt
 source-wordcount: '815'
-ht-degree: 1%
+ht-degree: 14%
 
 ---
 
@@ -27,7 +27,7 @@ Pour une flexibilité et un contrôle accrus de vos paramètres d&#39;email, [!D
 >
 >Cette fonctionnalité est actuellement disponible en version bêta pour sélectionner uniquement les utilisateurs. <!--To join the beta program, contact Adobe Customer Care.-->
 
-## Ajout de sous-domaines dynamiques {#dynamic-subdomains}
+## Ajouter des sous-domaines dynamiques {#dynamic-subdomains}
 
 >[!CONTEXTUALHELP]
 >id="ajo_surface_perso_not_available"
@@ -36,13 +36,13 @@ Pour une flexibilité et un contrôle accrus de vos paramètres d&#39;email, [!D
 
 >[!CONTEXTUALHELP]
 >id="ajo_surface_dynamic_subdomain"
->title="Activation des sous-domaines dynamiques"
->abstract="Lors de la création d&#39;une surface d&#39;email, vous pouvez configurer des sous-domaines dynamiques en fonction des conditions définies à l&#39;aide de l&#39;éditeur d&#39;expression. Vous pouvez ajouter jusqu’à 50 sous-domaines dynamiques."
+>title="Activer les sous-domaines dynamiques"
+>abstract="Lors de la création d’une surface d’e-mail, vous pouvez configurer des sous-domaines dynamiques en fonction des conditions définies à l’aide de l’éditeur d’expression. Vous pouvez ajouter jusqu’à 50 sous-domaines dynamiques."
 
 >[!CONTEXTUALHELP]
 >id="ajo_surface_dynamic_subdomain_list"
->title="Certains sous-domaines peuvent ne pas être disponibles"
->abstract="Certains sous-domaines ne peuvent actuellement pas être sélectionnés en raison de l’enregistrement de feedback loop en attente. Ce processus peut prendre jusqu’à 10 jours ouvrables. Une fois l’opération terminée, vous pouvez choisir parmi tous les sous-domaines disponibles."
+>title="Certains sous-domaines peuvent ne pas être disponibles."
+>abstract="Certains sous-domaines ne peuvent actuellement pas être sélectionnés en raison de l’enregistrement en attente de la boucle de rétroaction. Ce processus peut prendre jusqu’à 10 jours ouvrables. Une fois l’opération terminée, vous pouvez choisir parmi tous les sous-domaines disponibles."
 
 Lors de la création d’une surface d’email, vous pouvez configurer des sous-domaines dynamiques en fonction de conditions spécifiques.
 
@@ -72,7 +72,7 @@ Pour définir des sous-domaines dynamiques sur une surface de canal email, proc�
 
    >[!NOTE]
    >
-   >Certains sous-domaines ne peuvent actuellement pas être sélectionnés en raison de leur mise en attente. [feedback loop](../reports/deliverability.md#feedback-loops) enregistrement. Ce processus peut prendre jusqu’à 10 jours ouvrables. Une fois l’opération terminée, vous pouvez choisir parmi tous les sous-domaines disponibles. <!--where FL registration happens? is it when delegating a subdomain and you're awaiting from subdomain validation? or is it on ISP side only?-->
+   >Certains sous-domaines ne peuvent actuellement pas être sélectionnés en raison de leur mise en attente. [feedback loop](../reports/deliverability.md#feedback-loops) enregistrement. Ce processus peut prendre jusqu’à 10 jours ouvrables. Une fois l’opération terminée, vous pouvez choisir parmi tous les sous-domaines disponibles. <!--where FL registration happens? is it when delegating a subdomain and you're awaiting from subdomain validation? or is it on ISP side only?-->
 
    ![](assets/surface-email-select-subdomain.png)
 
