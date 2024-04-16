@@ -1,5 +1,5 @@
 ---
-title: Prévisualiser et tester votre contenu
+title: Prévisualiser et tester le contenu
 description: Découvrez comment prévisualiser et tester votre contenu.
 feature: Preview, Proofs
 role: User
@@ -12,7 +12,7 @@ ht-degree: 100%
 
 ---
 
-# Prévisualiser et tester votre contenu {#preview-test}
+# Prévisualiser et tester le contenu {#preview-test}
 
 >[!CONTEXTUALHELP]
 >id="ac_preview_testprofiles"

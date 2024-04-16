@@ -33,7 +33,7 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="ajo_web_surface_rule"
 >title="Créer une règle de correspondance de pages"
->abstract="Une règle de correspondance de pages permet de cibler plusieurs URL correspondant à la même règle, notamment si vous souhaitez appliquer les modifications à une bannière principale sur l’ensemble d’un site web ou ajouter une image principale qui s’affiche sur toutes les pages de produits d’un site web."
+>abstract="Une règle de correspondance de pages permet de cibler plusieurs URL qui correspondent à la même règle, notamment si vous souhaitez appliquer les modifications à une bannière principale sur l’ensemble d’un site web ou ajouter une image principale qui s’affiche sur toutes les pages de produits d’un site web."
 
 Pour commencer à créer votre expérience web par le biais d’une campagne, suivez les étapes ci-dessous.
 

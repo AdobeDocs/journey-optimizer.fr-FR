@@ -17,7 +17,7 @@ ht-degree: 100%
 
 >[!CONTEXTUALHELP]
 >id="ajo_web_designer_modifications"
->title="Gérer facilement toutes vos modifications"
+>title="Gérer facilement toutes les modifications"
 >abstract="Ce volet vous permet de parcourir et de gérer tous les réglages et styles ajoutés à votre page web."
 
 Vous pouvez facilement gérer tous les composants, réglages et styles que vous avez ajoutés à votre page web. Vous pouvez également ajouter des modifications directement à partir du volet dédié.
