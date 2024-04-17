@@ -7,7 +7,7 @@ role: Data Engineer
 level: Experienced
 exl-id: 1ed01a6b-5e42-47c8-a436-bdb388f50b4e
 source-git-commit: bab4cd8065830e36fd6188d3ebf0bd62a63947f3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '729'
 ht-degree: 100%
 
@@ -126,7 +126,7 @@ Reportez-vous à la section [Documentation de la gestion des décisions](../../g
 | Propriété | Description | Exemple |
 | -------- | ----------- | ------- |
 | `@id` | L’UUID généré par la gestion des décisions qui identifie une seule charge de travail. | `5d0ffb5e-dfc6-4280-99b6-0bf3131cb8b8` |
-| `xdm:imsOrgId` | L’ID de l’organisation. | `9GTO98D5F@AdobeOrg` |
+| `xdm:imsOrgId` | L’ID de l’organisation | `9GTO98D5F@AdobeOrg` |
 | `ode:createDate` | L&#39;heure à laquelle la requête de charge de travail de la décision a été créée. | `1648078924834` |
 | `ode:status` | L&#39;état de la charge de travail. | `ode:status: "QUEUED"` |
 

@@ -10,9 +10,9 @@ level: Experienced
 keywords: campagnes, déclenchées par l’API, REST, optimizer, messages
 exl-id: 0ef03d33-da11-43fa-8e10-8e4b80c90acb
 source-git-commit: 352ffebda7eda2ceb54b0f5c3f6d3b577522191f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '971'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -128,7 +128,7 @@ Pour activer la création de profil lors de l’exécution de la campagne, activ
 
 >[!NOTE]
 >
->Les profils inconnus sont créés dans la variable **Jeu de données de profil de messagerie interactive AJO** jeu de données, dans trois espaces de noms par défaut (email, téléphone et ECID) pour chaque canal sortant (email, SMS et push). Cependant, si vous utilisez un espace de noms personnalisé, l’identité est créée avec le même espace de noms personnalisé.
+>Les profils inconnus sont créés dans le jeu de données **Jeu de données de profil de messagerie interactive AJO**, dans trois espaces de noms par défaut (e-mail, téléphone et ECID), respectivement pour chaque canal sortant (e-mail, SMS et notification push). Cependant, si vous utilisez un espace de noms personnalisé, l’identité est créée avec le même espace de noms personnalisé.
 
 ## Vidéo pratique {#video}
 

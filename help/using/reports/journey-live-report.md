@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 exl-id: e3781f79-7c8d-4512-b44f-835639b1471f
 source-git-commit: 90b08388d3b43ad8d8cfc7efec119217f531860f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '3703'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -55,7 +55,7 @@ Dans le **[!UICONTROL Rapport dynamique]** de votre parcours, l&#39;onglet **[!U
 
 Les **[!UICONTROL Performances du parcours]** vous permettent de voir le cheminement détaillé de vos profils ciblés tout au long du parcours.
 
-Notez que le nombre de profils d’un noeud n’est mis à jour qu’une fois le profil terminé le noeud, et non lorsqu’il est saisi. Par exemple, un profil sur un **Attente** n’est comptabilisé qu’une fois que la date spécifiée est atteinte et que le profil a quitté le noeud.
+Notez que le nombre de profils d’un nœud n’est mis à jour qu’une fois que le profil termine le nœud, et non lorsqu’il y entre. Par exemple, un profil dans un nœud **Attente** n’est comptabilisé qu’une fois que la date spécifiée est atteinte et que le profil a quitté le nœud.
 
 ### Statistiques du parcours {#journey-statistics}
 

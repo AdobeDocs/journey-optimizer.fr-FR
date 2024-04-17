@@ -10,9 +10,9 @@ level: Intermediate
 keywords: parcours, premier, commencer, démarrage rapide, audience, événement, action
 exl-id: d940191e-8f37-4956-8482-d2df0c4274aa
 source-git-commit: b424670bf4fb05b8b188a500d156755ac7b088e6
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2005'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -149,7 +149,7 @@ Voici les étapes principales pour envoyer des messages à travers des parcours�
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_exit_criterias"
->title="Critères de sortie de parcours"
+>title="Critères de sortie du parcours"
 >abstract="Cette section présente les options des critères de sortie. Vous pouvez créer une ou plusieurs règles de critères de sortie pour votre parcours."
 
 Cliquez sur l’icône en forme de crayon, en regard du nom du parcours, pour accéder à ses propriétés.

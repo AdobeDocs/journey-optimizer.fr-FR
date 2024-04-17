@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 exl-id: e851646e-4cef-45e8-97c2-a8f4c9d2cc08
 source-git-commit: 90b08388d3b43ad8d8cfc7efec119217f531860f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '4412'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -55,7 +55,7 @@ Pour obtenir la liste détaillée de chaque mesure disponible dans Adobe Journe
 
 Le widget **[!UICONTROL Performances du parcours]** vous permet de retracer visuellement la trajectoire de vos profils ciblés tout au long de votre parcours.
 
-Notez que le nombre de profils d’un noeud n’est mis à jour qu’une fois le profil terminé le noeud, et non lorsqu’il est saisi. Par exemple, un profil sur un **Attente** n’est comptabilisé qu’une fois que la date spécifiée est atteinte et que le profil a quitté le noeud.
+Notez que le nombre de profils d’un nœud n’est mis à jour qu’une fois que le profil termine le nœud, et non lorsqu’il y entre. Par exemple, un profil dans un nœud **Attente** n’est comptabilisé qu’une fois que la date spécifiée est atteinte et que le profil a quitté le nœud.
 
 ### Statistiques du parcours {#journey-statistics}
 
