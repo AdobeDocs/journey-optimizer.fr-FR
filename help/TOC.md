@@ -5,9 +5,9 @@ user-guide-title: Guide de Journey Optimizer
 user-guide-description: Utilisez Journey Optimizer pour créer et proposer aux clients des expériences connectées, contextuelles et personnalisées
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: c10a5917f5e1d5b1cac39c530af28c341f02206e
-workflow-type: ht
-source-wordcount: '1746'
+source-git-commit: 513fddf21eaf7958df45d97f028103519c77ec44
+workflow-type: tm+mt
+source-wordcount: '1750'
 ht-degree: 100%
 
 ---
@@ -204,6 +204,7 @@ ht-degree: 100%
    + Configurer le canal e-mail {#configure-email}
       + [Prise en main de la configuration du canal e-mail](using/email/get-started-email-config.md)
       + [Configurer les paramètres de la surface d’e-mails](using/email/email-settings.md)
+      + [Personnaliser les paramètres de surface des e-mails](using/email/surface-personalization.md)
 + Canal in-app{#in-app}
    + [Prise en main du canal in-app](using/in-app/get-started-in-app.md)
    + [Conditions préalables pour le canal in-app](using/in-app/inapp-configuration.md)
