@@ -12,9 +12,9 @@ hide: true
 hidefromtoc: true
 badge: label="Version Beta"
 exl-id: 1e004a76-5d6d-43a1-b198-5c9b41f5332c
-source-git-commit: 513fddf21eaf7958df45d97f028103519c77ec44
+source-git-commit: 56c2708408d15286f008c9f2c16581ce0f0a1c4e
 workflow-type: tm+mt
-source-wordcount: '818'
+source-wordcount: '824'
 ht-degree: 98%
 
 ---
@@ -43,6 +43,7 @@ Pour plus de flexibilité et de contrôle sur vos paramètres d’e-mail, [!DNL 
 >id="ajo_surface_dynamic_subdomain_list"
 >title="Certains sous-domaines peuvent ne pas être disponibles."
 >abstract="Certains sous-domaines ne peuvent actuellement pas être sélectionnés en raison d’un enregistrement de boucle de rétroaction en attente. Ce processus peut prendre jusqu’à 10 jours ouvrables. Une fois cette opération terminée, vous pouvez choisir parmi tous les sous-domaines disponibles."
+>additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/configuration/delegate-subdomains/about-subdomain-delegation" text="Prise en main de la délégation de sous-domaines"
 
 Lors de la création d’une surface d’e-mail, vous pouvez configurer des sous-domaines dynamiques en fonction de conditions spécifiques.
 
