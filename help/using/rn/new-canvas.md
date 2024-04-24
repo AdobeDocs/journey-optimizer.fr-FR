@@ -8,7 +8,7 @@ description: Nouvelle interface de parcours
 hide: true
 hidefromtoc: true
 exl-id: 03828fca-dde7-4b3b-b890-2c007d1245cc
-source-git-commit: 596426f3b75a2e6f2d68e5b9218863c2d8887cca
+source-git-commit: eb964ee9fb0891692adf5b5a9143ef2d6ad450ac
 workflow-type: tm+mt
 source-wordcount: '568'
 ht-degree: 1%
@@ -29,7 +29,7 @@ Nous avons développé une **modèle de parcours simplifié** qui vise à améli
 * A **canevas de parcours reconçu** Conçu pour une expérience d’interface utilisateur modernisée
 * A **création de rapports en direct** Interface utilisateur directement disponible dans le canevas de parcours
 
->[!AVAILABILITY]
+>[!NOTE]
 >
 >Gardez à l’esprit que le déploiement de cette fonctionnalité sera progressif. Il se peut que vous ne voyiez pas les modifications immédiatement.
 
