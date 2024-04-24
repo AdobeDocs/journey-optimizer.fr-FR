@@ -8,7 +8,7 @@ description: Nouvelle interface de parcours
 hide: true
 hidefromtoc: true
 exl-id: 03828fca-dde7-4b3b-b890-2c007d1245cc
-source-git-commit: f6b9060ed512d6abff37102fa1316b43736bebd5
+source-git-commit: 0b1b1440d43ceadf4d943011d5e30e6ad0a64dbb
 workflow-type: tm+mt
 source-wordcount: '686'
 ht-degree: 1%
@@ -26,7 +26,8 @@ Bienvenue dans le meilleur concepteur de parcours !
 
 Nous avons développé une **modèle de parcours simplifié** qui vise à améliorer les processus internes. Bien que ce nouveau modèle soit une amélioration principale, notre équipe a profité de l’occasion pour ajouter des fonctionnalités visibles et bénéfiques pour les utilisateurs de Journey Optimizer :
 
-A **canevas de parcours reconçu** Conçu pour une expérience d’interface utilisateur A modernisée **création de rapports en direct** Interface utilisateur directement disponible dans le canevas de parcours
+* A **canevas de parcours reconçu** Conçu pour une expérience d’interface utilisateur modernisée
+* A **création de rapports en direct** Interface utilisateur directement disponible dans le canevas de parcours
 
 ## Mises à jour du modèle de parcours
 
