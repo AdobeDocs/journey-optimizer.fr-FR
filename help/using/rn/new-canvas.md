@@ -8,73 +8,85 @@ description: Nouvelle interface de parcours
 hide: true
 hidefromtoc: true
 exl-id: 03828fca-dde7-4b3b-b890-2c007d1245cc
-source-git-commit: 3944c7b96baf227e4c0c1e7e1a225c1ce1ad0142
+source-git-commit: f6b9060ed512d6abff37102fa1316b43736bebd5
 workflow-type: tm+mt
-source-wordcount: '469'
-ht-degree: 2%
+source-wordcount: '686'
+ht-degree: 1%
 
 ---
 
-# Nouvelle interface de parcours {#new-canvas}
+# Bienvenue dans le concepteur de Parcours amélioré {#new-canvas}
 
 >[!CONTEXTUALHELP]
 >id="ajo_new_canvas"
 >title="Nouveautés"
 >abstract="Nouvelle zone de travail"
 
-Nous avons travaillé sur une simplification du modèle de parcours visant à faciliter certains processus internes. Ce changement de modèle en soi est transparent pour vous, sauf que nous avons profité de l’occasion pour introduire de nouvelles fonctionnalités avec :
+Bienvenue dans le meilleur concepteur de parcours !
 
-* Nouvelle conception de canevas de Parcours
-* Création de rapports en direct dans accessible dans le canevas de Parcours
-* Améliorer la lisibilité du canevas de parcours et rendre la conception des activités plus évolutive, ce qui nous permet de fournir plus d’informations au niveau de l’activité pour les améliorations actuelles et futures.
+Nous avons développé une **modèle de parcours simplifié** qui vise à améliorer les processus internes. Bien que ce nouveau modèle soit une amélioration principale, notre équipe a profité de l’occasion pour ajouter des fonctionnalités visibles et bénéfiques pour les utilisateurs de Journey Optimizer :
+
+A **canevas de parcours reconçu** Conçu pour une expérience d’interface utilisateur A modernisée **création de rapports en direct** Interface utilisateur directement disponible dans le canevas de parcours
 
 ## Mises à jour du modèle de parcours
 
-Le nouveau modèle de parcours coexistera avec le modèle existant, ce qui signifie qu’il y aura des parcours utilisant deux modèles différents :
+Le nouveau modèle de parcours sera associé au modèle existant, ce qui signifie qu’il y aura des parcours utilisant **deux modèles différents**:
 
 * L’ancienne, appelée &quot;v1&quot;
 * Et le nouveau, appelé &quot;v2&quot;
 
-Tous les parcours de la version 1 restent dans la version 1. Vous pourrez toujours les modifier, les tester ou les publier. Toute nouvelle version créée à partir d’une v1 restera dans la v1. Il n’y a pas de modifications fonctionnelles autour des parcours v1.
+Tous les parcours de la version 1 restent dans la version 1. Vous pourrez toujours les modifier, les tester ou les publier. Toute nouvelle version créée à partir d’une version 1 restera également dans la version 1. Il y a **aucune modification fonctionnelle** environ 1 parcours.
 
-Vous pouvez constater qu’un parcours est dans v1 avec sa conception de canevas :
+Comme vous pouvez le voir dans la capture d’écran ci-dessous, les noeuds sont en forme ronde, qui est l’ancienne interface utilisateur pour les parcours sur le modèle v1.
 
-[CAPTURE D’ÉCRAN]
+![](assets/new-canvas.png)
 
-S’il contient des activités rondes, il s’agit d’une version 1.
+Cependant, lorsque vous **Création d’un parcours** ou **dupliquer un existant**, il s’agira d’un parcours v2.  Nous prévoyons de continuer à prendre en charge les parcours v1 jusqu’à ce qu’une majorité de clients soient transférés vers la version v2.
 
-Cependant, lorsque vous créez un parcours ou dupliquez un  existant, il s’agit d’un parcours v2. C’est pourquoi nous prévoyons de voir de moins en moins de parcours v1 au fil du temps. Soyez rassuré de ne pas interrompre la prise en charge des parcours en direct v1 existants.
+Il y a une limitation au nouveau modèle de parcours : il sera **impossible de copier et coller des activités d’un parcours v1 vers une v2 et vice versa.**. Si vous souhaitez effectuer cette opération, nous vous conseillons de dupliquer votre parcours v1 pour en faire un v2, puis de copier vos activités.
 
-Comme nous l’avons mentionné, ce nouveau modèle est transparent pour les utilisateurs, sauf une limitation : il ne sera pas possible de copier et coller des activités d’un parcours v1 vers une v2 et vice versa. Nous vous conseillons de dupliquer votre parcours v1 pour obtenir automatiquement un  v2.
+Dans la capture d’écran ci-dessous, vous pouvez voir l’interface utilisateur repensée pour le canevas de parcours (disponible uniquement avec le modèle v2) :
 
-Vous pouvez constater qu’un parcours est en v2 avec la nouvelle conception de canevas (voir ci-dessous) :
+![](assets/new-canvas2.png)
 
-[CAPTURE D’ÉCRAN]
+**À partir de maintenant, toute nouvelle fonctionnalité ajoutée au concepteur de parcours (y compris les rapports en direct) ne sera disponible que pour les parcours v2.**
 
-Toute nouvelle fonctionnalité autour du canevas de parcours (y compris les rapports en direct) sera mise à disposition exclusivement sur les parcours v2.
+## Amélioration de la conception du canevas de parcours
 
-## Nouvelle conception de canevas de Parcours
+Avec le nouveau modèle de parcours, nous introduisons un nouveau modèle amélioré. **Interface utilisateur du canevas de parcours**, qui s’intègre parfaitement dans l’écosystème d’applications et de solutions Adobe Experience Cloud, ce qui permet une expérience utilisateur intuitive et efficace. Tout parcours de la pile v2 se trouve sur cette nouvelle conception.
 
-Avec le nouveau modèle de parcours, nous introduisons un canevas de Parcours repensé, qui s’intègre parfaitement dans l’écosystème d’applications et de solutions Adobe Experience Cloud, ce qui crée une expérience utilisateur intuitive et efficace. Tout parcours de la pile v2 se trouve sur cette nouvelle conception.
+![](assets/new-canvas3.gif)
 
-[CAPTURE D’ÉCRAN]
-
-Les activités seront désormais représentées par des cases au carré avec :
+Les activités seront désormais représentées par des cases carrées avec les fonctionnalités suivantes :
 
 * La première ligne représentant le type d’activité qui sera souvent remplacée par des informations plus contextuelles (par exemple : sur Lecture d’audience, elle contiendra le nom de l’audience sélectionnée) ou par un libellé personnalisé si vous en définissez une.
-* La seconde active représente toujours le type d’activité.
+* La deuxième ligne représente toujours le type d’activité.
 
-[CAPTURE D’ÉCRAN]
+![](assets/new-canvas4.png)
 
-Cette nouvelle conception améliore la lisibilité de la zone de travail du parcours en...
+Cette nouvelle interface utilisateur améliore la lisibilité du canevas de parcours en fournissant des **libellés et types d’activité plus clairs**.
 
-Il est également plus évolutif, ce qui nous permet de fournir plus d’informations au niveau de l’activité, comme nous avons commencé à le faire avec les rapports en direct.
+Elle permet également à l’équipe produit d’ajouter plus d’informations sur la zone de travail avec moins de clics. Un exemple d’&quot;informations supplémentaires&quot; est l’inclusion des rapports en direct dans le canevas de parcours, où vous pouvez voir les profils entrant et sortant de vos activités en raison d’erreurs.
 
-[CAPTURE D’ÉCRAN]
+![](assets/new-canvas5.png)
 
-Attendez-vous à de nouveaux changements dans les prochains mois autour de cette nouvelle conception !
 
-## Rapports en direct
+## Création de rapports en direct dans le canevas de parcours
 
-* GIF
-* création de rapports en direct
+En plus de la conception améliorée de la toile de parcours, nous introduisons la possibilité de voir **mesures de création de rapports des dernières 24 heures** (appelé &quot;création de rapports en direct&quot;) directement dans la zone de travail du parcours.
+
+![](assets/new-canvas6.png)
+
+Avec chaque parcours en direct sur le nouveau modèle, vous pourrez voir deux types d’informations de rapport &quot;24 dernières heures&quot; :
+
+* Sur une **nouvelle insertion**, vous verrez :
+   * Nombre de profils qui ont été exportés pour des parcours déclenchés par l’audience. Le nombre de profils disponibles dans la dernière tâche d’exportation s’affiche en même temps que la date de l’export.
+   * Nombre de profils ayant quitté le parcours
+   * Le pourcentage d&#39;erreurs
+     ![](assets/new-canvas7.png)
+* **Sur chaque activité**, vous verrez le nombre de profils ayant participé à cette activité et le nombre ayant quitté l’activité en raison d’une erreur :
+  ![](assets/new-canvas8.png)
+
+L’interface utilisateur est automatiquement actualisée toutes les minutes.
+
+Notez que vous pouvez constater des différences entre le nombre de profils exportés et le nombre de profils transitant par le parcours. Le comptage des profils exportés ne fournit que des informations sur la dernière tâche d’exportation en cours de réalisation, tandis que le nombre de profils entrant dans une activité ne contient que les profils qui l’ont effectuée au cours des dernières 24 heures. Cela peut être particulièrement visible sur les parcours quotidiens récurrents, car il peut y avoir un chevauchement des données entre deux jours.
