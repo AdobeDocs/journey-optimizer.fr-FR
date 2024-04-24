@@ -8,9 +8,9 @@ description: Nouvelle interface de parcours
 hide: true
 hidefromtoc: true
 exl-id: 03828fca-dde7-4b3b-b890-2c007d1245cc
-source-git-commit: 0b1b1440d43ceadf4d943011d5e30e6ad0a64dbb
+source-git-commit: 17dc12f66a740b1ebea360aa20453d9b750d3e5c
 workflow-type: tm+mt
-source-wordcount: '686'
+source-wordcount: '541'
 ht-degree: 1%
 
 ---
@@ -28,6 +28,10 @@ Nous avons développé une **modèle de parcours simplifié** qui vise à améli
 
 * A **canevas de parcours reconçu** Conçu pour une expérience d’interface utilisateur modernisée
 * A **création de rapports en direct** Interface utilisateur directement disponible dans le canevas de parcours
+
+>[!AVAILABILITY]
+>
+>Gardez à l’esprit que le déploiement de cette fonctionnalité sera progressif. Il se peut que vous ne voyiez pas les modifications immédiatement.
 
 ## Mises à jour du modèle de parcours
 
@@ -74,20 +78,28 @@ Elle permet également à l’équipe produit d’ajouter plus d’informations 
 
 ## Création de rapports en direct dans le canevas de parcours
 
-En plus de la conception améliorée de la toile de parcours, nous introduisons la possibilité de voir **mesures de création de rapports des dernières 24 heures** (appelé &quot;création de rapports en direct&quot;) directement dans la zone de travail du parcours.
+En plus de la nouvelle conception de la toile de parcours, nous vous proposons la possibilité de voir, **sur chaque activité**, le nombre de profils ayant participé à cette activité et le nombre ayant quitté l&#39;activité en raison d&#39;une erreur :
+
+<!--
+**last 24 hours reporting metrics** (called "live reporting") directly in the journey canvas.
 
 ![](assets/new-canvas6.png)
 
-Avec chaque parcours en direct sur le nouveau modèle, vous pourrez voir deux types d’informations de rapport &quot;24 dernières heures&quot; :
+With every live journey on the new model, you will be able to see two types of "last 24 hours" reporting information:
 
-* Sur une **nouvelle insertion**, vous verrez :
-   * Nombre de profils qui ont été exportés pour des parcours déclenchés par l’audience. Le nombre de profils disponibles dans la dernière tâche d’exportation s’affiche en même temps que la date de l’export.
-   * Nombre de profils ayant quitté le parcours
-   * Le pourcentage d&#39;erreurs
-     ![](assets/new-canvas7.png)
-* **Sur chaque activité**, vous verrez le nombre de profils ayant participé à cette activité et le nombre ayant quitté l’activité en raison d’une erreur :
-  ![](assets/new-canvas8.png)
+* On a **new insert**, you will see:
+    * The number of profiles that have been exported for audience-triggered journeys. You will see the number of profiles available in the last export job alongside the time when that export has been made.
+    * The number of profiles who exited the journey
+    * The percentage of errors
+    ![](assets/new-canvas7.png)
+
+* **On each activity**, you will see the number of profiles who entered that activity and the number who exited because of an error:
+-->
+
+![](assets/new-canvas8.png)
 
 L’interface utilisateur est automatiquement actualisée toutes les minutes.
 
-Notez que vous pouvez constater des différences entre le nombre de profils exportés et le nombre de profils transitant par le parcours. Le comptage des profils exportés ne fournit que des informations sur la dernière tâche d’exportation en cours de réalisation, tandis que le nombre de profils entrant dans une activité ne contient que les profils qui l’ont effectuée au cours des dernières 24 heures. Cela peut être particulièrement visible sur les parcours quotidiens récurrents, car il peut y avoir un chevauchement des données entre deux jours.
+<!--
+Please note that you may see differences between the number of exported profiles and the number of profiles flowing through the journey. The exported profiles count only provides information about the last export job being made while the number of profiles entering an activity only contains profiles who did it in the last 24 hours. This can especially be visible on recurring daily journeys as there could be a data overlap between two days.
+-->
