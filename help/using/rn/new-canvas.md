@@ -8,9 +8,9 @@ description: Nouvelle interface de parcours
 hide: true
 hidefromtoc: true
 exl-id: 03828fca-dde7-4b3b-b890-2c007d1245cc
-source-git-commit: 59f41003183e155632124fde294bea575fb0f493
+source-git-commit: 55e002b00d0b605a868088fa3f5e1a15be64800c
 workflow-type: tm+mt
-source-wordcount: '558'
+source-wordcount: '557'
 ht-degree: 1%
 
 ---
@@ -39,7 +39,7 @@ Comme vous pouvez le voir dans la capture d’écran ci-dessous, les noeuds sont
 
 ![](assets/new-canvas.png)
 
-Cependant, lorsque vous **Création d’un parcours** ou **dupliquer un existant**, il s’agira d’un parcours v2.  Nous prévoyons de continuer à prendre en charge les parcours v1 jusqu’à ce qu’une majorité de clients soient transférés vers la version v2.
+Cependant, lorsque vous **créer un parcours** ou **dupliquer un existant**, il s’agira d’un parcours v2.  Nous prévoyons de continuer à prendre en charge les parcours v1 jusqu’à ce qu’une majorité de clients soient transférés vers la version v2.
 
 Il y a une limitation au nouveau modèle de parcours : il sera **impossible de copier et coller des activités d’un parcours v1 vers une v2 et vice versa.**. Si vous souhaitez effectuer cette opération, nous vous conseillons de dupliquer votre parcours v1 pour en faire un v2, puis de copier vos activités.
 
