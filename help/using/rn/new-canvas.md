@@ -8,21 +8,14 @@ description: Nouvelle interface de parcours
 hide: true
 hidefromtoc: true
 exl-id: 03828fca-dde7-4b3b-b890-2c007d1245cc
-source-git-commit: eb964ee9fb0891692adf5b5a9143ef2d6ad450ac
+source-git-commit: 59f41003183e155632124fde294bea575fb0f493
 workflow-type: tm+mt
-source-wordcount: '568'
+source-wordcount: '558'
 ht-degree: 1%
 
 ---
 
 # Bienvenue dans le concepteur de Parcours amélioré {#new-canvas}
-
->[!CONTEXTUALHELP]
->id="ajo_new_canvas"
->title="Nouveautés"
->abstract="Nouvelle zone de travail"
-
-Bienvenue dans le meilleur concepteur de parcours !
 
 Nous avons développé une **modèle de parcours simplifié** qui vise à améliorer les processus internes. Bien que ce nouveau modèle soit une amélioration principale, notre équipe a profité de l’occasion pour ajouter des fonctionnalités visibles et bénéfiques pour les utilisateurs de Journey Optimizer :
 
