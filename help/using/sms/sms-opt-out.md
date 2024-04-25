@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 59ea67d9-e90c-4ad0-afb9-d0e0fd868855
-source-git-commit: d7b784f10e267878fd0df9360ed0d1be24699a53
+source-git-commit: be758a577dbff2ae400d0642f9e898b423353f90
 workflow-type: tm+mt
-source-wordcount: '484'
-ht-degree: 100%
+source-wordcount: '485'
+ht-degree: 90%
 
 ---
 
@@ -45,7 +45,7 @@ Aucune opération n’est nécessaire pour s’assurer que les fonctionnalités 
 
 ## Listes bloquées {#sms-blocklists}
 
-En fonction du statut d&#39;opt-out, Adobe Journey Optimizer arrêtera l’envoi des messages (pour les intégrations directes à Twilio ou Sinch). De plus, la plupart des fournisseurs de passerelles SMS tiennent à jour une liste bloquée, vous garantissant ainsi qu’aucun SMS ne sera envoyé à une personne qui a choisi l’opt-out. Si vous utilisez un fournisseur autre que Sinch ou Twilio et que vous envoyez un SMS par le biais d’un [canal personnalisé](../building-journeys/using-custom-actions.md), vous devez le confirmer auprès de votre fournisseur.
+Outre l’arrêt par Adobe Journey Optimizer de l’envoi en fonction de l’état d’exclusion (pour les intégrations directes avec Twilio, Infobip ou Sinch), la plupart des fournisseurs de passerelle SMS conservent également une liste bloquée vous garantissant qu’un SMS n’est pas délivré à une personne qui a choisi de se désinscrire. Si vous utilisez un fournisseur autre que Sinch ou Twilio et que vous envoyez un SMS par le biais d’un [canal personnalisé](../building-journeys/using-custom-actions.md), vous devez le confirmer auprès de votre fournisseur.
 
 
 ## Codes courts {#short-codes}

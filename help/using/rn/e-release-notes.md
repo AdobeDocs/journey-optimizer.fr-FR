@@ -6,9 +6,9 @@ description: Notes de mise à jour anticipées de Journey Optimizer
 feature: Release Notes
 topic: Content Management
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: acd195e669d653b52ba7722e9e01db28a5a7d2b7
+source-git-commit: be758a577dbff2ae400d0642f9e898b423353f90
 workflow-type: tm+mt
-source-wordcount: '502'
+source-wordcount: '503'
 ht-degree: 44%
 
 ---
@@ -77,13 +77,13 @@ Cette version apporte les nouvelles fonctionnalités présentées ci-dessous.
 <table>
 <thead>
 <tr>
-<th><strong>MMS (Multimedia Message Service) avec Infobip</strong><br/></th>
+<th><strong>Multimedia Message Service (MMS) - tous les fournisseurs</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Avec le canal SMS, vous pouvez maintenant améliorer votre communication en envoyant des MMS, ce qui permet le partage d’images, de GIF ou de vidéos avec vos clientes et clients. Cette fonctionnalité, auparavant uniquement disponible avec Sinch, est désormais également disponible avec Infobip.</p>
+<p>Avec le canal SMS, vous pouvez maintenant améliorer votre communication en envoyant des MMS, ce qui permet le partage d’images, de GIF ou de vidéos avec vos clientes et clients. Initialement disponible uniquement avec Sinch, MMS est désormais également disponible avec Infobip et Twilio.</p>
 <img src="assets/do-not-localize/mms.gif"/>
 </td>
 </tr>
