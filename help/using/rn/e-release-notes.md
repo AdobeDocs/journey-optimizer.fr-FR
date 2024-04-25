@@ -8,10 +8,10 @@ topic: Content Management
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
 hide: true
 hidefromtoc: true
-source-git-commit: 281387d650dc3a6c67ba365cd804f2b875dcd60b
+source-git-commit: 882af161383a54a1f9b09d2a8d0cab84abbf7dcd
 workflow-type: tm+mt
-source-wordcount: '513'
-ht-degree: 43%
+source-wordcount: '502'
+ht-degree: 44%
 
 ---
 
@@ -164,7 +164,7 @@ Cette version est fournie avec les améliorations répertoriées ci-dessous.
 
 **Prise de décision d’expérience**
 
-De la version bêta à la version LA, voici les améliorations qui ont été apportées :
+De la version bêta à la version LA, les améliorations suivantes ont été ajoutées :
 
 * Vous pouvez désormais exploiter les données contextuelles de Adobe Experience Platform dans vos règles de décision à l’aide de la variable **Données contextuelles** .
 * Une nouvelle autorisation &quot;Gérer les décisions d’expérience&quot; est désormais disponible pour la ressource Gestion des décisions. Il vous permet de gérer les droits liés à Experience Decisioning.
@@ -174,12 +174,12 @@ De la version bêta à la version LA, voici les améliorations qui ont été app
 
 **Parcours**
 
-* **Amélioration du concepteur de Parcours**:
+* **Amélioration du concepteur de Parcours**
 
    * L’interface utilisateur de la zone de travail améliorée offre une expérience utilisateur plus intuitive et efficace.
    * Les activités sont plus claires et présentent plus d’informations sur le canevas de parcours avec moins de clics.
 
-* **Nouveaux rapports en direct**: la création de rapports pour les parcours est désormais accessible par le biais des rapports en direct de l’application. Il s’agit d’une application qui fournit de nombreuses informations sur l’exécution du parcours.
+* **Nouveaux rapports en direct**: les rapports parcours des dernières 24 heures sont désormais accessibles directement dans la zone de travail du Parcours.
 
 **Configuration**
 
