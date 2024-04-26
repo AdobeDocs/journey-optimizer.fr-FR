@@ -8,16 +8,16 @@ description: Nouvelle interface de parcours
 hide: true
 hidefromtoc: true
 exl-id: 03828fca-dde7-4b3b-b890-2c007d1245cc
-source-git-commit: 55e002b00d0b605a868088fa3f5e1a15be64800c
+source-git-commit: 87e3ba96d05d41c87f314773e95eb0fcf0a2cfe3
 workflow-type: tm+mt
-source-wordcount: '557'
+source-wordcount: '568'
 ht-degree: 1%
 
 ---
 
 # Bienvenue dans le concepteur de Parcours amélioré {#new-canvas}
 
-Nous avons développé une **modèle de parcours simplifié** qui vise à améliorer les processus internes. Bien que ce nouveau modèle soit une amélioration principale, notre équipe a profité de l’occasion pour ajouter des fonctionnalités visibles et bénéfiques pour les utilisateurs de Journey Optimizer :
+Journey Optimizer propose désormais une **modèle de parcours simplifié** qui vise à améliorer les processus internes. Bien que ce nouveau modèle soit une amélioration principale, notre équipe a profité de l’occasion pour ajouter des fonctionnalités visibles et bénéfiques pour les utilisateurs de Journey Optimizer :
 
 * A **canevas de parcours reconçu** Conçu pour une expérience d’interface utilisateur modernisée
 * A **création de rapports en direct** Interface utilisateur directement disponible dans le canevas de parcours
@@ -30,28 +30,28 @@ Nous avons développé une **modèle de parcours simplifié** qui vise à améli
 
 Le nouveau modèle de parcours sera associé au modèle existant, ce qui signifie qu’il y aura des parcours utilisant **deux modèles différents**:
 
-* L’ancienne, appelée &quot;v1&quot;
-* Et le nouveau, appelé &quot;v2&quot;
+* Le modèle hérité
+* Le nouveau modèle
 
-Tous les parcours de la version 1 restent dans la version 1. Vous pourrez toujours les modifier, les tester ou les publier. Toute nouvelle version créée à partir d’une version 1 restera également dans la version 1. Il y a **aucune modification fonctionnelle** environ 1 parcours.
+Tous les parcours du modèle hérité y resteront. Vous pourrez toujours les modifier, les tester ou les publier. Toute nouvelle version créée à partir d’un parcours sur le modèle hérité y restera également. Il y a **aucune modification fonctionnelle** autour de ces parcours.
 
-Comme vous pouvez le voir dans la capture d’écran ci-dessous, les noeuds sont en forme ronde, qui est l’ancienne interface utilisateur pour les parcours sur le modèle v1.
+Comme vous pouvez le voir dans la capture d’écran ci-dessous, les noeuds sont en forme ronde, qui est l’ancienne interface utilisateur pour les parcours sur le modèle hérité.
 
 ![](assets/new-canvas.png)
 
-Cependant, lorsque vous **créer un parcours** ou **dupliquer un existant**, il s’agira d’un parcours v2.  Nous prévoyons de continuer à prendre en charge les parcours v1 jusqu’à ce qu’une majorité de clients soient transférés vers la version v2.
+Cependant, lorsque vous **créer un parcours** ou **dupliquer un existant**, il sera sur le nouveau modèle. Les parcours sur le modèle hérité seront toujours pris en charge jusqu’à ce qu’une majorité de clients soient transférés vers le nouveau modèle.
 
-Il y a une limitation au nouveau modèle de parcours : il sera **impossible de copier et coller des activités d’un parcours v1 vers une v2 et vice versa.**. Si vous souhaitez effectuer cette opération, nous vous conseillons de dupliquer votre parcours v1 pour en faire un v2, puis de copier vos activités.
+Il y a une limitation au nouveau modèle de parcours : il sera **Il n’est pas possible de copier et coller des activités du modèle hérité dans le nouveau modèle, et vice versa.**. Si vous souhaitez effectuer cette opération, nous vous conseillons de dupliquer votre parcours hérité pour le changer en nouveau modèle, puis de copier vos activités.
 
-Dans la capture d’écran ci-dessous, vous pouvez voir l’interface utilisateur repensée pour le canevas de parcours (disponible uniquement avec le modèle v2) :
+Dans la capture d’écran ci-dessous, vous pouvez voir l’interface utilisateur repensée pour le canevas de parcours (disponible uniquement avec le nouveau modèle) :
 
 ![](assets/new-canvas2.png)
 
-**À partir de maintenant, toute nouvelle fonctionnalité ajoutée au concepteur de parcours (y compris les rapports en direct) ne sera disponible que pour les parcours v2.**
+**À partir de maintenant, toute nouvelle fonctionnalité ajoutée au concepteur de parcours (y compris les rapports en direct) sera disponible uniquement pour les parcours sur le nouveau modèle.**
 
 ## Amélioration de la conception du canevas de parcours
 
-Avec le nouveau modèle de parcours, nous introduisons un nouveau modèle amélioré. **Interface utilisateur du canevas de parcours**, qui s’intègre parfaitement dans l’écosystème d’applications et de solutions Adobe Experience Cloud, ce qui permet une expérience utilisateur intuitive et efficace. Tout parcours de la pile v2 se trouve sur cette nouvelle conception.
+Avec le nouveau modèle de parcours, nous introduisons un nouveau modèle amélioré. **Interface utilisateur du canevas de parcours**, qui s’intègre parfaitement dans l’écosystème d’applications et de solutions Adobe Experience Cloud, ce qui permet une expérience utilisateur intuitive et efficace. Tout parcours dans le nouveau modèle sera sur cette nouvelle conception.
 
 ![](assets/new-canvas3.gif)
 
