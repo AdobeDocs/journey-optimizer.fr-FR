@@ -6,10 +6,10 @@ description: Notes de mise à jour anticipées de Journey Optimizer
 feature: Release Notes
 topic: Content Management
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 1505c21bb66cb08d6f0d864aa92afb3a04ed3fa5
+source-git-commit: b64cb709813c479b2f126ba61a5fddaef61eecdd
 workflow-type: tm+mt
-source-wordcount: '280'
-ht-degree: 56%
+source-wordcount: '275'
+ht-degree: 57%
 
 ---
 
@@ -103,7 +103,7 @@ Cette version apporte les nouvelles fonctionnalités présentées ci-dessous.
 <img src="assets/new-canvas3.gif"/>
 <p>Outre la conception améliorée du canevas de parcours, nous proposons la possibilité d’afficher les mesures de création de rapports des dernières 24 heures directement dans le canevas de parcours. </p>
 <img src="assets/new-canvas6bis.png"/>
-<p><strong>Remarque</strong>: ce changement sera graduellement déployé. Il se peut que vous ne voyiez pas les modifications immédiatement dans votre environnement.</p>
+<p><strong>Remarque</strong>: ces modifications seront progressivement déployées dans tous les environnements à compter de la version d’avril.</p>
 <p>Pour plus d’informations, consultez la <a href="new-canvas.md">documentation détaillée</a>.</p>
 </td>
 </tr>
