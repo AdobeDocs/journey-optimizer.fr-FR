@@ -6,10 +6,10 @@ description: Notes de mise à jour anticipées de Journey Optimizer
 feature: Release Notes
 topic: Content Management
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: f133a33237fccacbf800de445c27684de4f42453
+source-git-commit: 4257fafef5d6c6f5f9c7f4af9c9b06510b1e9037
 workflow-type: tm+mt
-source-wordcount: '478'
-ht-degree: 43%
+source-wordcount: '261'
+ht-degree: 60%
 
 ---
 
@@ -42,22 +42,22 @@ Cette version apporte les nouvelles fonctionnalités présentées ci-dessous.
 </tbody>
 </table-->
 
-<table>
+<!--table>
 <thead>
 <tr>
-<th><strong>Prise de décision d’expérience - Disponibilité limitée</strong><br/></th>
+<th><strong>Experience Decisioning - Limited Availability</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Experience Decisioning simplifie la personnalisation en offrant un catalogue centralisé d’offres marketing connues sous le nom d’« éléments de décision » et un moteur de décision sophistiqué. Ce moteur tire parti des règles et des critères de classement pour sélectionner et présenter les éléments de décision les plus pertinents à chaque individu.</p>
-<p>Ces éléments de décision sont intégrés de manière transparente à un large éventail de surfaces entrantes grâce au nouveau canal d’expérience basé sur le code, désormais accessible dans les campagnes Journey Optimizer. Les stratégies de décision de prise de décision d’expérience ne peuvent être utilisées que dans des campagnes d’expérience basées sur du code.</p>
-<p>Actuellement, la prise de décision d’expérience n’est disponible que pour un ensemble d’organisations (disponibilité limitée). Pour y accéder, contactez votre représentant Adobe.</p>
+<p>Experience Decisioning simplifies personalization by offering a centralized catalog of marketing offers known as 'decision items' and a sophisticated decision engine. This engine leverages rules and ranking criteria to select and present the most relevant decision items to each individual.</p>
+<p>These decision items are seamlessly integrated into a wide range of inbound surfaces through the new code-based experience channel, now accessible within Journey Optimizer campaigns. Experience Decisioning decision policies are available for use in code-based experience campaigns only.</p>
+<p>Experience Decisioning is currently only available for a set of organizations (Limited Availability). To gain access, contact your Adobe representative.</p>
 </td>
 </tr>
 </tbody>
-</table>
+</table-->
 
 <!--table>
 <thead>
@@ -85,6 +85,25 @@ Cette version apporte les nouvelles fonctionnalités présentées ci-dessous.
 <td>
 <p>Avec le canal SMS, vous pouvez maintenant améliorer votre communication en envoyant des MMS, ce qui permet le partage d’images, de GIF ou de vidéos avec vos clientes et clients. Initialement disponible uniquement avec Sinch, MMS est désormais également disponible avec Infobip et Twilio.</p>
 <img src="assets/do-not-localize/mms.gif"/>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Amélioration du Concepteur de Parcours et des rapports en direct</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Cette version est fournie avec une interface utilisateur de canevas améliorée pour les parcours et offre une expérience utilisateur plus intuitive et efficace. Les activités sont plus claires et présentent plus d’informations sur le canevas de parcours avec moins de clics.</p>
+<img src="assets/new-canvas3.gif"/>
+<p>Outre la conception améliorée du canevas de parcours, nous proposons la possibilité d’afficher les mesures de création de rapports des dernières 24 heures directement dans le canevas de parcours. </p>
+<img src="assets/new-canvas6bis.png"/>
+<p>Pour plus d’informations, consultez la <a href="new-canvas.md">documentation détaillée</a>.</p>
 </td>
 </tr>
 </tbody>
@@ -156,27 +175,22 @@ Cette version est fournie avec les améliorations répertoriées ci-dessous.
 * **List-Unsubscribe updates**: Following on the recent Gmail and Yahoo announcements for bulk senders, Journey Optimizer supports the "post/1-click" List-Unsubscribe option. 
 -->
 
-**Gestion des décisions**
+<!--
+**Decision management** 
 
-* La variable **Journal des modifications** pour afficher toutes les modifications apportées à une offre ou à une décision qui a été supprimée. Les modifications liées aux offres et aux décisions sont désormais visibles dans la variable **Audits** .
+* The **Change log** tab allowing you to see all the changes that have been made to an offer or a decision has been removed. Changes related to offers and decisions can now be seen in the **Audits** menu.
 
-**Prise de décision d’expérience**
+**Experience decisionning**
 
-De la version bêta à la version LA, les améliorations suivantes ont été ajoutées :
+From beta to LA, the following improvements that have been added:
 
-* Vous pouvez désormais exploiter les données contextuelles de Adobe Experience Platform dans vos règles de décision à l’aide de la variable **Données contextuelles** .
-* Une nouvelle autorisation &quot;Gérer les décisions d’expérience&quot; est désormais disponible pour la ressource Gestion des décisions. Il vous permet de gérer les droits liés à Experience Decisioning.
-* Vous pouvez désormais ajouter plusieurs règles de limitation pour un élément de décision donné dans Experience Decisioning. Cela vous permet d’augmenter le niveau de contrôle sur la manière dont les offres sont envoyées.
-* Vous pouvez désormais créer des tableaux de bord de rapports personnalisés pour les campagnes Experience Decisioning à l’aide de [!DNL Customer Journey Analytics].
+* You can now leverage context data from Adobe Experience Platform in your decision rules using the **Context data** tab.  
+* A new "Manage Experience decisions" permission is now available for the Decision Management resource. It allows you to manage rights related to Experience Decisioning.   
+* You can now add multiple capping rules for a given decision item in Experience Decisioning. This allows you to increase the level of control over the way offers are sent.
+* You can now create custom reporting dashboards of Experience Decisioning campaigns using [!DNL Customer Journey Analytics].
+-->
 
-**Parcours**
 
-* **Amélioration du concepteur de Parcours**
-
-   * L’interface utilisateur de la zone de travail améliorée offre une expérience utilisateur plus intuitive et efficace.
-   * Les activités sont plus claires et présentent plus d’informations sur le canevas de parcours avec moins de clics.
-
-* **Nouveaux rapports en direct**: les rapports parcours des dernières 24 heures sont désormais accessibles directement dans la zone de travail du Parcours.
 
 **Configuration**
 
