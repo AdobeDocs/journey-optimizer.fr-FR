@@ -8,16 +8,16 @@ description: Nouvelle interface de parcours
 hide: true
 hidefromtoc: true
 exl-id: 03828fca-dde7-4b3b-b890-2c007d1245cc
-source-git-commit: 87e3ba96d05d41c87f314773e95eb0fcf0a2cfe3
+source-git-commit: f9183f0ef3dbc13f39e5442405e7b0011621e773
 workflow-type: tm+mt
-source-wordcount: '568'
+source-wordcount: '555'
 ht-degree: 1%
 
 ---
 
 # Bienvenue dans le concepteur de Parcours amélioré {#new-canvas}
 
-Journey Optimizer propose désormais une **modèle de parcours simplifié** qui vise à améliorer les processus internes. Bien que ce nouveau modèle soit une amélioration principale, notre équipe a profité de l’occasion pour ajouter des fonctionnalités visibles et bénéfiques pour les utilisateurs de Journey Optimizer :
+Journey Optimizer propose désormais une **modèle de parcours simplifié** qui vise à améliorer l’expérience utilisateur et les processus internes. À compter de la version d’avril, vous pouvez bénéficier des fonctionnalités suivantes :
 
 * A **canevas de parcours reconçu** Conçu pour une expérience d’interface utilisateur modernisée
 * A **création de rapports en direct** Interface utilisateur directement disponible dans le canevas de parcours
@@ -57,7 +57,7 @@ Avec le nouveau modèle de parcours, nous introduisons un nouveau modèle améli
 
 Les activités seront désormais représentées par des cases carrées avec les fonctionnalités suivantes :
 
-* La première ligne représentant le type d’activité qui sera souvent remplacée par des informations plus contextuelles (par exemple : sur Lecture d’audience, elle contiendra le nom de l’audience sélectionnée) ou par un libellé personnalisé si vous en définissez une.
+* La première ligne représentant le type d’activité qui sera souvent remplacée par des informations plus contextuelles (dans Lecture d’audience, elle contiendra le nom de l’audience sélectionnée) ou par un libellé personnalisé si vous en définissez une.
 * La deuxième ligne représente toujours le type d’activité.
 
 ![](assets/new-canvas4.png)
