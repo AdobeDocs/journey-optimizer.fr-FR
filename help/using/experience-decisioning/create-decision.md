@@ -9,10 +9,10 @@ hide: true
 hidefromtoc: true
 badge: label="Version Beta"
 exl-id: 63aa1763-2220-4726-a45d-3a3a8b8a55ec
-source-git-commit: c13cd73229b2fab80722663afae9fe24b660c0f9
+source-git-commit: d26b35ea680eae0e71eb3164b4225a49610e1563
 workflow-type: tm+mt
-source-wordcount: '1290'
-ht-degree: 100%
+source-wordcount: '1443'
+ht-degree: 89%
 
 ---
 
@@ -209,3 +209,15 @@ Une fois créée, la politique de décision peut être utilisée dans l’[édit
 1. Vous pouvez également ajouter tout autre attribut disponible dans l’éditeur d’expression, tel que les attributs de profil.
 
    ![](assets/decision-code-based-decision-profile-attribute.png)
+
+## Reporting en Customer Journey Analytics {#cja}
+
+Si vous utilisez Customer Journey Analytics, vous pouvez créer des tableaux de bord de création de rapports personnalisés pour vos campagnes basées sur du code en exploitant Experience Decisioning.
+
+Les principales étapes sont répertoriées ci-dessous. Vous trouverez des informations détaillées sur la manière d’utiliser Customer Journey Analytics dans la section [Documentation du Customer Journey Analytics](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-landing){target="_blank"}.
+
+1. Création et configuration d’une **connection** en Customer Journey Analytics. Vous pouvez ainsi vous connecter au jeu de données pour lequel vous souhaitez des rapports. [Découvrez comment créer une connexion](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-connections/create-connection){target="_blank"}
+
+1. Créez un **vue des données** et l’associer à la connexion créée précédemment. Dans le **[!UICONTROL Composants]** , sélectionnez les champs de schéma appropriés que vous souhaitez afficher dans les rapports. Pour Experience Decisioning, veillez à inclure la variable **propositioninteraction** et **propositiondisplay** des champs. [Découvrez comment créer et configurer des vues de données](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dataviews/create-dataview){target="_blank"}
+
+1. Combinaison de composants de données, de tableaux et de visualisations dans **projets workspace** pour créer et partager des rapports pour votre campagne basée sur du code.[Découvrez comment créer des projets Workspace](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/build-workspace-project/create-projects){target="_blank"}
