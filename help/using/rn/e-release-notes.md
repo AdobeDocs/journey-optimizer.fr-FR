@@ -9,7 +9,7 @@ exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
 source-git-commit: a93dd80a15087a4ce7737757d5552ea1fc4f2a2a
 workflow-type: tm+mt
 source-wordcount: '275'
-ht-degree: 57%
+ht-degree: 70%
 
 ---
 
@@ -19,13 +19,13 @@ ht-degree: 57%
 
 Les notes de mise à jour ci-dessous peuvent être modifiées sans avertissement préalable jusqu’à la date de disponibilité de la version. Les liens, les copies d’écran et la documentation mise à jour sont publiés dans les [notes de mise à jour](release-notes.md), à la date de publication.
 
-## Notes de mise à jour d’avril 2024 (nouveau) {#e-2024}
+## Notes de mise à jour anticipées d’avril 2024 {#e-2024}
 
-**Date de publication** : mercredi 30 avril 2024
+**Date de publication** : 30 avril 2024
 
 ### Nouvelles fonctionnalités {#e-features}
 
-Cette version apporte les nouvelles fonctionnalités présentées ci-dessous.
+Cette version apporte les nouvelles fonctionnalités détaillées ci-dessous.
 
 <!--table>
 <thead>
@@ -83,7 +83,7 @@ Cette version apporte les nouvelles fonctionnalités présentées ci-dessous.
 <tbody>
 <tr>
 <td>
-<p>Avec le canal SMS, vous pouvez maintenant améliorer votre communication en envoyant des MMS, ce qui permet le partage d’images, de GIF ou de vidéos avec vos clientes et clients. Initialement disponible uniquement avec Sinch, MMS est désormais également disponible avec Infobip et Twilio.</p>
+<p>Avec le canal SMS, vous pouvez maintenant améliorer votre communication en envoyant des MMS, ce qui vous permet de partager des images, des GIF ou des vidéos avec vos clientes et clients. Initialement disponible uniquement avec Sinch, MMS est désormais également disponible avec Infobip et Twilio.</p>
 <img src="assets/do-not-localize/mms.gif"/>
 </td>
 </tr>
@@ -99,7 +99,7 @@ Cette version apporte les nouvelles fonctionnalités présentées ci-dessous.
 <tbody>
 <tr>
 <td>
-<p>Cette version est fournie avec une interface utilisateur de canevas améliorée pour les parcours et offre une expérience utilisateur plus intuitive et efficace. Les activités sont plus claires et présentent plus d’informations sur le canevas de parcours avec moins de clics.</p>
+<p>Cette version est fournie avec une interface utilisateur de canevas améliorée pour les parcours et offre une expérience utilisateur plus intuitive et efficace. Les activités sont plus claires et présentent plus d’informations sur la zone de travail de parcours avec moins de clics.</p>
 <img src="assets/new-canvas3.gif"/>
 <p>Outre la conception améliorée du canevas de parcours, nous proposons la possibilité d’afficher les mesures de création de rapports des dernières 24 heures directement dans le canevas de parcours. </p>
 <img src="assets/new-canvas6bis.png"/>

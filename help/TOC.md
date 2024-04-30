@@ -529,7 +529,7 @@ ht-degree: 99%
    + [Prise en main de la configuration de Journey Optimizer](using/configuration/get-started-configuration.md)
    + [Configurer des surfaces de canal](using/configuration/channel-surfaces.md)
    + Déléguer les sous-domaines d’e-mail {#delegate-subdomains}
-      + [Prise en main de la délégation de sous-domaines](using/configuration/about-subdomain-delegation.md)
+      + [Commencer avec la délégation de sous-domaines](using/configuration/about-subdomain-delegation.md)
       + [Délégation d’un sous-domaine](using/configuration/delegate-subdomain.md)
       + [Configurer l’enregistrement DMARC](using/configuration/dmarc-record.md)
       + [Ajout d’un enregistrement TXT Google](using/configuration/google-txt.md)
