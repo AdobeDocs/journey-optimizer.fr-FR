@@ -9,14 +9,14 @@ hide: true
 hidefromtoc: true
 badge: label="Version Beta"
 exl-id: 5c866814-d79a-4a49-bfcb-7a767d802e90
-source-git-commit: 50d3be8fb8ae04e1cab747f6ba4b1024c5e3ec97
-workflow-type: ht
-source-wordcount: '1039'
-ht-degree: 100%
+source-git-commit: 98e3e770530facac6f9c69a72e77fc663ef5ed0c
+workflow-type: tm+mt
+source-wordcount: '1786'
+ht-degree: 72%
 
 ---
 
-# Éléments de décision {#items}
+# Créer votre premier élément de décision {#items}
 
 >[!CONTEXTUALHELP]
 >id="ajo_exd_items"
@@ -38,7 +38,9 @@ Journey Optimizer vous permet de créer des offres marketing, appelées éléme
 
 Avant de créer un élément de décision, veillez à créer une **règle de décision** si vous souhaitez définir des conditions pour déterminer pour qui l’élément de décision peut être affiché. [Découvrez comment créer des règles de décision](rules.md).
 
-## Créer votre premier élément de décision
+Pour créer un élément de décision, accédez à **[!UICONTROL Experience Decisioning]** > **[!UICONTROL Éléments]**, puis cliquez sur **[!UICONTROL Créer un élément]** suivez ensuite les étapes présentées dans les sections ci-dessous.
+
+## Définition des attributs de l’élément de décision {#attributes}
 
 >[!CONTEXTUALHELP]
 >id="ajo_exd_item_priority"
@@ -51,6 +53,25 @@ Avant de créer un élément de décision, veillez à créer une **règle de dé
 >abstract="Les attributs personnalisés sont des attributs spécifiques, adaptés à vos besoins, que vous pouvez affecter à un élément de décision. Ils sont créés dans le schéma de catalogue des éléments de décision. Cette section s’affiche uniquement si vous avez ajouté au moins un attribut personnalisé au schéma de catalogue."
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/experience-decisioning/decision-items/catalogs.html?lang=fr" text="Configurer le catalogue d’éléments"
 
+Commencez par définir les attributs standard et personnalisés de l’élément de décision :
+
+![](assets/item-attributes.png)
+
+1. Saisissez un nom et une description.
+1. Spécifiez les dates de début et de fin. L’élément sera pris en compte par le moteur de prise de décision dans cette plage de dates.
+1. Définissez la **[!UICONTROL Priorité]** de l’élément de décision par rapport aux autres, si un profil est qualifié pour plusieurs éléments. Une priorité plus élevée confère à l’élément une préséance sur les autres.
+1. Le champ **Balises** vous permet d’affecter des balises unifiées Adobe Experience Platform à vos éléments de décision. Vous pouvez ainsi facilement les classer et améliorer la recherche. [Découvrir comment utiliser les balises](../start/search-filter-categorize.md#tags)
+
+   >[!NOTE]
+   >
+   >La priorité est un type de données Entier. Tous les attributs qui sont des types de données Entier doivent contenir des valeurs entières (pas de décimales).
+
+1. Spécifiez des attributs personnalisés (facultatif). Les attributs personnalisés sont des attributs spécifiques, adaptés à vos besoins, que vous pouvez affecter à un élément de décision. Ils sont définis dans le schéma de catalogue des éléments de décision. [Découvrez comment utiliser les catalogues](catalogs.md).
+
+1. Une fois les attributs de l’élément de décision définis, cliquez sur **[!UICONTROL Suivant]**.
+
+## Configurer l’éligibilité de l’élément de décision {#eligibility}
+
 >[!CONTEXTUALHELP]
 >id="ajo_exd_item_constraints"
 >title="Ajouter des audiences ou des règles de décision"
@@ -58,58 +79,88 @@ Avant de créer un élément de décision, veillez à créer une **règle de dé
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/audiences-profiles-identities/audiences/about-audiences.html?lang=fr" text="Utiliser des audiences"
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/experience-decisioning/selection/rules.html?lang=fr" text="Utiliser des règles de décision"
 
-Pour créer un élément de décision, procédez comme suit :
+Par défaut, tous les profils seront éligibles pour recevoir l’élément de décision; Vous pouvez toutefois utiliser des audiences ou des règles pour limiter l’élément à des profils spécifiques uniquement ; les deux solutions correspondant à différents usages. Pour plus d’informations, développez la section ci-dessous :
 
-1. Accédez à **[!UICONTROL Prise de décision basée sur l’expérience]** > **[!UICONTROL Éléments]**.
++++Utiliser les audiences par rapport aux règles de décision
 
-1. Définissez les attributs standard de l’élément de décision :
+Pour faire simple, la sortie d’une audience est une liste de profils, tandis qu’une règle de décision est une fonction exécutée à la demande sur un seul profil pendant le processus de prise de décision.
 
-   1. Saisissez un nom et une description.
-   1. Spécifiez les dates de début et de fin. L’élément sera pris en compte par le moteur de prise de décision dans cette plage de dates.
-   1. Définissez la **[!UICONTROL Priorité]** de l’élément de décision par rapport aux autres, si un profil est qualifié pour plusieurs éléments. Une priorité plus élevée confère à l’élément une préséance sur les autres.
-   1. Le champ **Balises** vous permet d’affecter des balises unifiées Adobe Experience Platform à vos éléments de décision. Vous pouvez ainsi facilement les classer et améliorer la recherche. [Découvrir comment utiliser les balises](../start/search-filter-categorize.md#tags)
+* **Audiences** : d’un côté, les audiences sont un groupe de profils Adobe Experience Platform qui correspondent à une certaine logique basée sur les attributs de profil et les événements d’expérience. Cependant, la gestion des offres ne recalcule pas l’audience, qui peut ne pas être à jour lors de la présentation de l’offre.
 
-   ![](assets/item-attributes.png)
-
-   >[!NOTE]
-   >
-   >La priorité est un type de données Entier. Tous les attributs qui sont des types de données Entier doivent contenir des valeurs entières (pas de décimales).
-
-1. Les attributs personnalisés sont des attributs spécifiques, adaptés à vos besoins, que vous pouvez affecter à un élément de décision. Ils sont définis dans le schéma de catalogue des éléments de décision. [Découvrez comment utiliser les catalogues](catalogs.md).
-
-1. Une fois les attributs de l’élément de décision définis, cliquez sur **[!UICONTROL Suivant]** pour définir les contraintes de profil de l’élément.
-
-   Par défaut, tous les profils seront éligibles pour recevoir l’élément de décision; Vous pouvez toutefois utiliser des audiences ou des règles pour limiter l’élément à des profils spécifiques uniquement ; les deux solutions correspondant à différents usages. Pour plus d’informations, développez la section ci-dessous :
-
-   +++Utiliser les audiences par rapport aux règles de décision
-
-   Pour faire simple, la sortie d’une audience est une liste de profils, tandis qu’une règle de décision est une fonction exécutée à la demande sur un seul profil pendant le processus de prise de décision.
-
-   * **Audiences** : d’un côté, les audiences sont un groupe de profils Adobe Experience Platform qui correspondent à une certaine logique basée sur les attributs de profil et les événements d’expérience. Cependant, la gestion des offres ne recalcule pas l’audience, qui peut ne pas être à jour lors de la présentation de l’offre.
-
-   * **Règles de décision** : d’un autre côté, une règle de décision est basée sur les données disponibles dans Adobe Experience Platform et détermine à qui une offre peut être montrée. Une fois sélectionnée dans une offre ou une décision pour un emplacement donné, la règle est exécutée chaque fois qu’une décision est prise, ce qui garantit que chaque profil obtient la dernière et la meilleure offre.
+* **Règles de décision** : d’un autre côté, une règle de décision est basée sur les données disponibles dans Adobe Experience Platform et détermine à qui une offre peut être montrée. Une fois sélectionnée dans une offre ou une décision pour un emplacement donné, la règle est exécutée chaque fois qu’une décision est prise, ce qui garantit que chaque profil obtient la dernière et la meilleure offre.
 
 +++
 
-   ![](assets/item-constraints.png)
+* Pour limiter la présentation de l’élément de décision aux membres d’une ou de plusieurs audiences Adobe Experience Platform, sélectionnez l’option **[!UICONTROL Visiteurs et visiteuses appartenant à une ou plusieurs audiences]**, puis ajoutez une ou plusieurs audiences depuis le volet de gauche et combinez-les à l’aide des opérateurs logiques **[!UICONTROL Et]**/**[!UICONTROL Ou]**. [En savoir plus sur les audiences](../audience/about-audiences.md).
 
-   * Pour limiter la présentation de l’élément de décision aux membres d’une ou de plusieurs audiences Adobe Experience Platform, sélectionnez l’option **[!UICONTROL Visiteurs et visiteuses appartenant à une ou plusieurs audiences]**, puis ajoutez une ou plusieurs audiences depuis le volet de gauche et combinez-les à l’aide des opérateurs logiques **[!UICONTROL Et]**/**[!UICONTROL Ou]**. [En savoir plus sur les audiences](../audience/about-audiences.md).
+* Pour associer une règle de décision spécifique à l’élément de décision, sélectionnez **[!UICONTROL Par règle]**, puis faites glisser la règle de votre choix depuis le volet de gauche vers la zone centrale. [En savoir plus sur les règles de décision](rules.md).
 
-   * Pour associer une règle de décision spécifique à l’élément de décision, sélectionnez **[!UICONTROL Par règle]**, puis faites glisser la règle de votre choix depuis le volet de gauche vers la zone centrale. [En savoir plus sur les règles de décision](rules.md).
+![](assets/item-constraints.png)
 
-   Lorsque vous sélectionnez des audiences ou des règles de décision, vous pouvez afficher des informations sur les profils qualifiés estimés. Cliquez sur **[!UICONTROL Actualiser]** pour mettre à jour les données.
+Lorsque vous sélectionnez des audiences ou des règles de décision, vous pouvez afficher des informations sur les profils qualifiés estimés. Cliquez sur **[!UICONTROL Actualiser]** pour mettre à jour les données.
+
+>[!NOTE]
+>
+>Les estimations de profil ne sont pas disponibles lorsque les paramètres de règle incluent des données qui ne figurent pas dans le profil, telles que des données contextuelles. Par exemple, une règle d’éligibilité qui exige que la météo actuelle soit de ≥80 degrés.
+
+## Définition des règles de limitation {#capping}
+
+La limitation est utilisée comme contrainte pour définir le nombre maximal de fois où une offre peut être présentée. Limiter le nombre de fois où les utilisateurs reçoivent des offres spécifiques vous permet d’éviter de sur-solliciter vos clients et donc d’optimiser chaque point de contact avec la meilleure offre. Vous pouvez créer jusqu’à 10 correspondances pour un élément de décision donné.
+
+![](assets/item-capping.png)
+
+>[!NOTE]
+>
+>
+>La mise à jour de la valeur du compteur de limitation peut prendre jusqu’à 3 secondes. Par exemple, supposons que vous affichez une bannière web présentant une offre sur votre site web. Si un utilisateur donné accède à la page suivante de votre site web en moins de 3 secondes, la valeur du compteur ne sera pas incrémentée pour cet utilisateur.
+
+Pour définir des règles de limitation pour l’élément de décision, cliquez sur le bouton **[!UICONTROL Création d’une limitation]** puis procédez comme suit :
+
+1. Définissez quelles **[!UICONTROL Événement de limitation]** sera pris en compte pour augmenter le compteur.
+
+   * **[!UICONTROL Événement de décision]** (valeur par défaut) : nombre maximal de fois où une offre peut être présentée.
+   * **[!UICONTROL Impression]** (canaux entrants uniquement) : nombre maximal de fois où l’offre peut être affichée pour un utilisateur.
+   * **[!UICONTROL Clics]**: nombre maximal de clics sur un élément de décision par un utilisateur.
+   * **[!UICONTROL Événement personnalisé]**: vous pouvez définir un événement personnalisé qui sera utilisé pour limiter le nombre d’envois de l’élément. Par exemple, vous pouvez limiter la validité d’un bon à 10 000 utilisations ou jusqu’à ce qu’un profil donné l’ait utilisé 1 fois. Pour ce faire, utilisez les schémas [XDM d’Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=fr){target="_blank"} pour créer une règle d’événement personnalisée.
 
    >[!NOTE]
    >
-   >Les estimations de profil ne sont pas disponibles lorsque les paramètres de règle incluent des données qui ne figurent pas dans le profil, telles que des données contextuelles. Par exemple, une règle d’éligibilité qui exige que la météo actuelle soit de ≥80 degrés.
+   >Pour tous les événements de limitation, à l’exception des événements de décision, les commentaires sur la gestion des décisions peuvent ne pas être collectés automatiquement, ce qui peut entraîner une incrémentation incorrecte du compteur de limitation. Pour vous assurer que chaque événement de limitation est suivi et comptabilisé dans le compteur de limitation, vérifiez que le schéma utilisé pour collecter les événements d’expérience inclut le groupe de champs approprié pour cet événement. Des informations détaillées sur la collecte de données sont disponibles dans la documentation relative à la gestion des décisions Journey Optimizer :
+   >* [Collecte de données de gestion des décisions](../offers/data-collection/data-collection.md)
+   >* [Configuration de la collecte de données](../offers/data-collection/schema-requirement.md)
 
-1. Une fois les contraintes de l’élément de décision définies, cliquez sur **[!UICONTROL Suivant]** pour vérifier l’élément et l’enregistrer.
+1. Choisissez le type de limitation :
+
+   * Sélectionner **[!UICONTROL Au total]** pour définir le nombre de fois où l’élément peut être proposé dans l’audience cible combinée, c’est-à-dire pour tous les utilisateurs. Par exemple, si vous êtes un détaillant d’électronique qui a conclu un « contrat télévisuel d’offre d’ouverture » vous souhaitez que l’offre ne soit renvoyée que 200 fois sur tous les profils.
+
+* Sélectionner **[!UICONTROL Par profil]** pour définir le nombre de fois où l’offre peut être proposée au même utilisateur. Par exemple, si vous êtes une banque avec une offre « Carte de crédit Platinum », vous ne souhaitez pas que cette offre soit présentée plus de 5 fois par profil. En effet, vous pensez que si l’utilisateur a vu l’offre 5 fois et n’a pas agi dessus, il a plus de chance d’agir sur la meilleure offre suivante.
+
+1. Dans le **[!UICONTROL Limite du nombre de limitations]** , indiquez le nombre de fois où l’offre peut être présentée à tous les utilisateurs ou à chaque profil, en fonction du type de limitation sélectionné. Le nombre doit être un entier supérieur à 0.
+
+   Par exemple, vous avez défini un événement de limitation personnalisé comme le nombre de passages en caisse pris en compte. Si vous saisissez « 10 » dans le champ **[!UICONTROL Limite du nombre de limitations]**, aucune autre offre ne sera envoyée après 10 passages en caisse.
+
+1. Dans le **[!UICONTROL Réinitialiser la fréquence de limitation]** , définissez la fréquence à laquelle le compteur de limitation est réinitialisé. Pour cela, définissez la période du comptage (quotidien, hebdomadaire ou mensuel) et saisissez le nombre de jours/semaines/mois de votre choix. Par exemple, si vous souhaitez que le nombre de limitations soit réinitialisé toutes les 2 semaines, sélectionnez **[!UICONTROL Hebdomadaire]** dans la liste déroulante correspondante et saisissez **2** dans l’autre champ.
+
+   >[!NOTE]
+   >
+   >Le compteur de capping de la fréquence se réinitialise à **00 h 00 UTC**, le jour que vous avez défini ou le premier jour de la semaine ou du mois, le cas échéant. Le jour de début de semaine est le **dimanche**. La durée que vous avez choisie ne peut pas dépasser **2 ans** (ou le nombre correspondant de mois, de semaines ou de jours).
+   >
+   >Après avoir publié votre élément de décision, vous ne pourrez pas modifier la période (mensuelle, hebdomadaire ou quotidienne) que vous avez sélectionnée pour la fréquence. Vous pouvez toujours modifier le plafonnement de la fréquence si l’élément a la valeur **[!UICONTROL Version préliminaire]** et n’a jamais été publié auparavant avec la limitation de fréquence activée.
+
+1. Cliquez sur **[!UICONTROL Créer]** pour confirmer la création de la règle de limitation. Vous pouvez créer jusqu’à 10 règles pour un seul élément de décision. Pour ce faire, cliquez sur le bouton **[!UICONTROL Création d’une limitation]** et répétez les étapes ci-dessus.
+
+   ![](assets/item-capping-rules.png)
+
+1. Une fois les règles d’éligibilité et de limitation de l’élément de décision définies, cliquez sur **[!UICONTROL Suivant]** pour réviser et enregistrer l’élément.
 
 1. L’élément de décision apparaît désormais dans la liste, avec le statut **[!UICONTROL Brouillon]**. Lorsqu’il est prêt à être présenté aux profils, cliquez sur le bouton représentant des points de suspension et sélectionnez **[!UICONTROL Approuver]**.
 
    ![](assets/item-approve.png)
 
-## Gérer les éléments de décision
+<!--* Identifying how many times a given customer has been shown a decision item. 
+If a marketer wants to determine how many times a specific customer has been shown an offer, they can do that. Go to Profiles menu, Attributes tab. You’ll see all counter values. The alphanumeric string is associated to the offer. To make the map, go to an item, in the URL check the last alphanumeric strings. D stands for day, w stands for week, m for month. “Ce” custom event-->
+
+## Gérer les éléments de décision {#manage}
 
 Dans la liste des éléments de décision, vous pouvez modifier un élément de décision, modifier son statut (**Brouillon**, **Approuvé**, **Archivé**), le dupliquer ou le supprimer.
 

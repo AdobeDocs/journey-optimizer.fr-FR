@@ -9,9 +9,9 @@ hide: true
 hidefromtoc: true
 badge: label="Version Beta"
 exl-id: 4c57dbf9-b2a4-42da-8aa3-5a1b3a475a32
-source-git-commit: c13cd73229b2fab80722663afae9fe24b660c0f9
+source-git-commit: 98e3e770530facac6f9c69a72e77fc663ef5ed0c
 workflow-type: tm+mt
-source-wordcount: '340'
+source-wordcount: '329'
 ht-degree: 100%
 
 ---
@@ -33,15 +33,12 @@ ht-degree: 100%
 >[!AVAILABILITY]
 >
 >La fonctionnalité de décision basée sur l’expérience est actuellement disponible en version Beta pour certains utilisateurs et utilisatrices. Pour rejoindre le programme Beta, contactez l’assistance clientèle d’Adobe.
+>
+>Les stratégies de décision ne peuvent être utilisées que dans des campagnes d’expérience basées sur du code.
 
 Experience Decisioning simplifie la personnalisation en offrant un catalogue centralisé d’offres marketing connues sous le nom d’« éléments de décision » et un moteur de décision sophistiqué. Ce moteur tire parti des règles et des critères de classement pour sélectionner et présenter les éléments de décision les plus pertinents à chaque individu.
 
 Ces éléments de décision sont intégrés de manière transparente à un large éventail de surfaces entrantes grâce au nouveau canal d’expérience basé sur le code, désormais accessible dans les campagnes Journey Optimizer.
-
-**Limites :**
-
-* Les stratégies de décision ne peuvent être utilisées que dans des campagnes d’expérience basées sur du code.
-* Pour l’instant, le capping de la fréquence n’est pas disponible dans Experience Decisioning.
 
 ## Étapes clés d’Experience Decisioning {#steps}
 
