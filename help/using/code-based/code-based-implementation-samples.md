@@ -7,9 +7,9 @@ role: Developer
 level: Experienced
 exl-id: e5ae8b4e-7cd2-4a1d-b2c0-8dafd5c4cdfd
 source-git-commit: 75dcd6d4a36b09809cdf4db3a0ae3ba3a1cb35b5
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '783'
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 
@@ -27,15 +27,15 @@ L’expérience basée sur le code est compatible avec n’importe quelle mise e
 
 ## Mise en œuvre côté client {#client-side-implementation}
 
-Si vous disposez d’une mise en oeuvre côté client, vous pouvez utiliser l’un des SDK client AEP : SDK Web AEP ou SDK mobile AEP.
+Si vous disposez d’une implémentation côté client, vous pouvez utiliser l’un des SDK AEP client : SDK AEP Web ou SDK AEP Mobile.
 
-* Les étapes [below](#client-side-how) décrire le processus de récupération du contenu publié sur le serveur Edge par les campagnes d’expérience basées sur le code dans un exemple ; **SDK Web** et afficher le contenu personnalisé.
+* Les étapes [ci-dessous](#client-side-how) décrivent le processus de récupération du contenu publié en périphérie par les campagnes d’expérience basées sur le code dans un exemple d’implémentation du **SDK Web** et l’affichage du contenu personnalisé.
 
-* Étapes de mise en oeuvre du canal basé sur le code à l’aide de **SDK Mobile** sont décrites dans la section [ce tutoriel](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/code-based/tutorial/){target="_blank"}.
+* Les étapes d’implémentation du canal basé sur le code à l’aide de **SDK Mobile** sont décrites dans [ce tutoriel](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/code-based/tutorial/){target="_blank"}.
 
   >[!NOTE]
   >
-  >Des exemples de mise en oeuvre pour des cas pratiques mobiles sont disponibles pour [application iOS](https://github.com/adobe/aepsdk-messaging-ios/tree/main/TestApps/MessagingDemoAppSwiftUI){target="_blank"} and [Android app](https://github.com/adobe/aepsdk-messaging-android/tree/main/code/testapp){target="_blank"}.
+  >Des exemples d’implémentation pour des cas d’utilisation mobiles sont disponibles dans l’[application iOS](https://github.com/adobe/aepsdk-messaging-ios/tree/main/TestApps/MessagingDemoAppSwiftUI){target="_blank"} and [Android app](https://github.com/adobe/aepsdk-messaging-android/tree/main/code/testapp){target="_blank"}.
 
 ### Fonctionnement - SDK Web {#client-side-how}
 
@@ -138,7 +138,7 @@ Les requêtes envoyées à l’API Adobe Experience Platform sont nécessaires
 
 ## Mise en œuvre côté serveur {#server-side-implementation}
 
-Si vous disposez d’une mise en oeuvre côté serveur, vous pouvez utiliser l’une des API Edge Network AEP.
+Si vous disposez d’une implémentation côté serveur, vous pouvez utiliser l’une des API AEP Edge Network.
 
 Les étapes ci-dessous décrivent le processus de récupération du contenu publié en périphérie par les campagnes d’expérience basées sur le code dans un exemple de mise en œuvre de l’API Edge Network pour une page web et l’affichage du contenu personnalisé.
 

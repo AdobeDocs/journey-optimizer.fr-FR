@@ -10,9 +10,9 @@ hidefromtoc: true
 badge: label="Version Beta"
 exl-id: 5c866814-d79a-4a49-bfcb-7a767d802e90
 source-git-commit: 50d3be8fb8ae04e1cab747f6ba4b1024c5e3ec97
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1039'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -67,7 +67,7 @@ Pour créer un élément de décision, procédez comme suit :
    1. Saisissez un nom et une description.
    1. Spécifiez les dates de début et de fin. L’élément sera pris en compte par le moteur de prise de décision dans cette plage de dates.
    1. Définissez la **[!UICONTROL Priorité]** de l’élément de décision par rapport aux autres, si un profil est qualifié pour plusieurs éléments. Une priorité plus élevée confère à l’élément une préséance sur les autres.
-   1. La variable **Balises** vous permet d’affecter des balises unifiées Adobe Experience Platform à vos éléments de décision. Vous pouvez ainsi facilement les classer et améliorer la recherche. [Découvrir comment utiliser les balises](../start/search-filter-categorize.md#tags)
+   1. Le champ **Balises** vous permet d’affecter des balises unifiées Adobe Experience Platform à vos éléments de décision. Vous pouvez ainsi facilement les classer et améliorer la recherche. [Découvrir comment utiliser les balises](../start/search-filter-categorize.md#tags)
 
    ![](assets/item-attributes.png)
 

@@ -13,9 +13,9 @@ hidefromtoc: true
 badge: label="Version Beta"
 exl-id: c2434086-2ed4-4cd0-aecd-2eea8f0a55f6
 source-git-commit: cef6970e611a33b71b803fdb247f566cb8a8a708
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1600'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -48,7 +48,7 @@ Pour attribuer l’autorisation correspondant à un **[!UICONTROL rôle]** spéc
 
 1. Faites glisser et déposez la ressource **[!UICONTROL Configurations de préchauffage des adresses IP]** pour attribuer une autorisation.
 
-1. Dans la **[!UICONTROL Configurations de Warmup IP]** menu déroulant des ressources, sélectionnez la ou les autorisations dont votre utilisateur a besoin : **[!UICONTROL Afficher les plans de maintenance d’IP]**, **[!UICONTROL Gestion des forfaits de maintenance d’IP]**, et/ou **[!UICONTROL Afficher les rapports de configuration IP]**. Si nécessaire, vous pouvez tous les sélectionner en même temps.
+1. Dans la liste déroulante des ressources **[!UICONTROL Configurations du préchauffage d’adresses IP]**, sélectionnez les autorisations dont votre utilisateur ou utilisatrice a besoin : **[!UICONTROL Afficher les plans de préchauffage d’adresses IP]**, **[!UICONTROL Gérer les plans de préchauffage d’adresses IP]**, et/ou **[!UICONTROL Afficher les rapports de préchauffage d’adresses IP]**. Si nécessaire, vous pouvez toutes les sélectionner.
 
    ![](assets/ip_permissions_2.png)
 
