@@ -6,10 +6,10 @@ topic: Personalization
 role: Data Engineer
 level: Experienced
 exl-id: b08dc0f8-c85f-4aca-85eb-92dc76b0e588
-source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
+source-git-commit: 3b9822121390548546ab6628504ea9dd1101fb48
 workflow-type: tm+mt
 source-wordcount: '365'
-ht-degree: 100%
+ht-degree: 96%
 
 ---
 
@@ -135,7 +135,7 @@ Some edu specific content Content
 
 L&#39;helper `each` est utilisé pour effectuer une itération sur un tableau.
 La syntaxe de l’assistant est ```{{#each ArrayName}}``` YourContent {{/each}}
-Il est possible de se référer aux éléments individuels du tableau en utilisant le mot-clé **this** à l’intérieur du bloc. L’index de l’élément du tableau peut être rendu à l’aide de {{@index}}.
+Il est possible de se référer aux éléments individuels du tableau en utilisant le mot-clé **this** à l’intérieur du bloc. L’index de l’élément du tableau peut être rendu en utilisant {{@index}}.
 
 **Syntaxe**
 
@@ -205,5 +205,11 @@ La fonction `let` permet à une expression d&#39;être stockée en tant que vari
 L&#39;exemple suivant laisse toutes les sommes des totaux des produits avec la transaction en USD lorsque la somme est supérieure à 100 USD et inférieure à 1000 USD.
 
 ```sql
-{% let variable = expression %} {{variable}}
+{% let sum = 0%}
+    {{#each profile.productsInCart as |p|}}
+        {%#if p.price>100 and p.price<1000%}
+            {%let sum = sum + p.price %}
+        {%/if%}
+    {{/each}}
+{{sum}}
 ```
