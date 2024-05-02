@@ -3,7 +3,9 @@ solution: Journey Optimizer
 product: journey optimizer
 title: Notes de mise à jour
 description: Notes de mise à jour anticipées de Journey Optimizer
-source-git-commit: c14ed9196d003cee893eb809a0edbdeebe36555f
+hide: true
+hidefromtoc: true
+source-git-commit: 0571a11eabffeb5e318bebe341a8df18da7db598
 workflow-type: tm+mt
 source-wordcount: '315'
 ht-degree: 73%
@@ -195,4 +197,3 @@ From beta to LA, the following improvements that have been added:
 
 * Vous pouvez désormais sélectionner une action marketing au niveau de la surface de canal. Lorsqu’elles sont utilisées en surface, toutes les stratégies de consentement associées à cette action marketing sont utilisées afin de respecter les préférences de vos clientes et clients.
 * L’utilisation du contrôle d’accès au niveau de l’objet est désormais disponible pour les surfaces de canal.
-

@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: parcours, message, notification push, sms, e-mail, in-app
 exl-id: 4db07a9e-c3dd-4873-8bd9-ac34c860694c
-source-git-commit: f8d62a702824bcfca4221c857acf1d1294427543
+source-git-commit: 0571a11eabffeb5e318bebe341a8df18da7db598
 workflow-type: tm+mt
-source-wordcount: '1167'
-ht-degree: 100%
+source-wordcount: '1177'
+ht-degree: 99%
 
 ---
 
@@ -104,6 +104,10 @@ Notez que pour l’activité in-app, des modifications peuvent être apportées 
 >title="À propos de l&#39;optimisation de l&#39;heure d&#39;envoi"
 >abstract="La fonctionnalité d’optimisation de l’heure d&#39;envoi d’Adobe Journey Optimizer, proposée par les services d’IA d’Adobe, peut prévoir le meilleur moment pour envoyer un e-mail ou un message push afin d’optimiser l’engagement en fonction des taux historiques d’ouverture et de clic."
 
+>[!NOTE]
+>
+>Cette fonctionnalité n&#39;est pas activée par défaut. Vous pouvez contacter votre représentant d’Adobe pour l’activer.
+
 ### À propos de l’optimisation de l’heure d’envoi {#about-send-time}
 
 La fonctionnalité d’optimisation de l’heure d&#39;envoi d’Adobe Journey Optimizer, proposée par les services d’IA d’Adobe, peut prévoir le meilleur moment pour envoyer un e-mail ou un message push afin d’optimiser l’engagement en fonction des taux historiques d’ouverture et de clic. Utilisez notre modèle d&#39;apprentissage automatique pour planifier des heures d&#39;envoi personnalisées afin que chaque utilisateur augmente les taux d&#39;ouverture et de clic de vos messages.
@@ -120,10 +124,6 @@ Le modèle varie selon que vous parlez de notation ou de formation. La formation
 * Notation : application d&#39;un score à des profils individuels en fonction du modèle formé.
 
 Ces informations sont stockées avec le profil de l&#39;utilisateur et sont référencées lors de l&#39;exécution du parcours pour indiquer à Adobe Journey Optimizer quand envoyer votre message.
-
->[!CAUTION]
->
->Cette fonctionnalité n&#39;est pas compatible avec le mode rafale.
 
 ### Questions fréquentes {#faq-send-time}
 

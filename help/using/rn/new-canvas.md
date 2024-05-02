@@ -5,17 +5,15 @@ title: Nouvelle interface de parcours
 feature: Release Notes
 topic: Content Management
 description: Nouvelle interface de parcours
-hide: true
-hidefromtoc: true
 exl-id: 03828fca-dde7-4b3b-b890-2c007d1245cc
-source-git-commit: b6b3f710d08fb7f0949e75521ce126fa43d6cdc5
+source-git-commit: 0571a11eabffeb5e318bebe341a8df18da7db598
 workflow-type: tm+mt
 source-wordcount: '556'
-ht-degree: 1%
+ht-degree: 2%
 
 ---
 
-# Bienvenue dans le concepteur de Parcours amélioré {#new-canvas}
+# Bienvenue dans le concepteur de parcours amélioré {#new-canvas}
 
 Journey Optimizer propose désormais une **modèle de parcours simplifié** qui vise à améliorer l’expérience utilisateur et les processus internes. À compter de la version d’avril, vous pouvez bénéficier des fonctionnalités suivantes :
 
@@ -68,12 +66,12 @@ Elle permet également à l’équipe produit d’ajouter plus d’informations 
 
 ![](assets/new-canvas5.png)
 
-
 ## Création de rapports en direct dans le canevas de parcours
 
 Outre la disposition améliorée du canevas de parcours, une nouvelle fonctionnalité est introduite pour permettre aux utilisateurs d’afficher les mesures de création de rapports en temps réel à partir de **les dernières 24 heures**, appelé création de rapports en direct, directement dans la zone de travail du parcours.
 
 Pour chaque activité au sein de chaque parcours actif utilisant le nouveau modèle, vous avez accès aux éléments suivants :
+
 
 * Nombre de profils entrant dans cette activité.
 * Nombre de profils sortant de cette activité en raison d’une erreur.

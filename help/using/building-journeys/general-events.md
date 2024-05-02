@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: personnalisé, général, événement, parcours
 exl-id: b1813122-7031-452e-9ac5-a4ea7c6dc57c
-source-git-commit: 31d9189e8afd732875556b9caaa8e874f53597bb
+source-git-commit: 0571a11eabffeb5e318bebe341a8df18da7db598
 workflow-type: tm+mt
-source-wordcount: '524'
-ht-degree: 100%
+source-wordcount: '547'
+ht-degree: 74%
 
 ---
 
@@ -45,17 +45,20 @@ Pour configurer une temporisation d’événement, procédez comme suit :
 
 1. Définissez la durée pendant laquelle le parcours attendra l&#39;événement. La durée maximale est de 29 jours.
 
-1. Si vous souhaitez orienter les personnes vers un chemin de temporisation, alors qu’aucun événement n’est reçu au cours de la temporisation spécifiée, activez l’option **[!UICONTROL Ajouter un chemin de temporisation]**. Si cette option n’est pas activée, le parcours continue pour la personne une fois le délai de temporisation atteint.
+1. Si vous souhaitez orienter les personnes vers un chemin de temporisation, alors qu’aucun événement n’est reçu au cours de la temporisation spécifiée, activez l’option **[!UICONTROL Ajouter un chemin de temporisation]**. Si cette option n’est pas activée, le parcours se poursuit pour l’individu une fois le délai d’expiration atteint. Nous vous recommandons de toujours activer la variable **Définition d’un chemin de temporisation** .
 
    ![](assets/event-timeout.png)
 
-Dans cet exemple, le parcours envoie un premier message de bienvenue à un client. Il n&#39;envoie ensuite un message d&#39;offre de réduction sur un repas que si le client entre dans le restaurant le lendemain. Nous avons donc configuré l&#39;événement « restaurant » avec une temporisation d&#39;un jour :
+Dans cet exemple, le parcours envoie un premier e-mail de bienvenue à un client après son entrée dans le hall. Il n’envoie ensuite un email de réduction sur un repas que si le client entre dans le restaurant le lendemain. Nous avons donc configuré l&#39;événement « restaurant » avec une temporisation d&#39;un jour :
 
-* Si l&#39;événement « restaurant » est reçu moins de 1 jour après la notification push de bienvenue, l&#39;activité push de remise sur un repas est envoyée.
+* Si l’événement &quot;restaurant&quot; est reçu moins d’un jour après l’e-mail de bienvenue, l’e-mail de remise sur le repas est envoyé.
 * Si aucun événement « restaurant » n’est reçu dans la journée qui suit, le client ou la cliente suit le chemin de temporisation.
 
 Notez que si vous souhaitez configurer une temporisation pour plusieurs événements placés après une activité **[!UICONTROL Attente]**, vous ne devez configurer ce délai que pour un seul de ces événements.
 
-La temporisation s&#39;applique à tous les événements postérieurs à l&#39;activité **[!UICONTROL Attente]**. Si aucun événement n’est reçu avant la temporisation spécifiée, les personnes s’engagent dans un seul chemin de temporisation ou poursuivent ce parcours via la branche en quittant l’activité où ces paramètres de temporisation ont été définis.
+Le délai d’expiration défini s’applique à tous les événements situés après la variable **[!UICONTROL Attente]** activité :
+
+* Si un événement est identifié dans le délai d’expiration, l’individu se dirige vers le chemin d’accès de l’événement reçu.
+* Si aucun événement n’est reçu pendant le délai d’expiration, l’individu se dirige vers la branche de délai d’expiration de l’événement où le délai d’expiration a été défini.
 
 ![](assets/event-timeout-group.png)

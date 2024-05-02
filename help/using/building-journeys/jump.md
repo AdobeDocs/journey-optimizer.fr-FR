@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: saut, activité, parcours, partage, partager
 exl-id: 46d8950b-8b02-4160-89b4-1c492533c0e2
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: 0571a11eabffeb5e318bebe341a8df18da7db598
 workflow-type: tm+mt
-source-wordcount: '851'
-ht-degree: 100%
+source-wordcount: '842'
+ht-degree: 99%
 
 ---
 
@@ -112,7 +112,7 @@ Lorsqu’une activité **[!UICONTROL Saut]** est configurée dans un parcours, u
 
 ## Dépannage
 
-Lorsque le parcours est publié ou en mode test, des erreurs se produisent dans les cas suivants :
+Des erreurs se produiront si :
 * le parcours cible n’existe plus ;
 * le parcours cible est en version brouillon, fermé ou arrêté ;
 * le premier événement du parcours cible a changé et le mappage est interrompu.

@@ -9,9 +9,9 @@ role: User, Developer
 level: Intermediate
 keywords: action, personnalisé, API, parcours, configuration, service
 exl-id: 2b1b3613-3096-43ec-a860-600dda1d83b2
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: 0571a11eabffeb5e318bebe341a8df18da7db598
 workflow-type: tm+mt
-source-wordcount: '399'
+source-wordcount: '398'
 ht-degree: 98%
 
 ---
@@ -47,11 +47,11 @@ Ce tableau présente un exemple de configuration :
 | Champ | Valeur |
 | --- | --- |
 | URL | `https://xxx.yyy.com:8080/somethingstatic/` |
-| Chemin | `The id of marketingCampaign + '/messages'` |
+| Chemin | `The _id + '/messages'` |
 
 L’URL concaténée se présente comme suit :
 
-`https://xxx.yyy.com:8080/somethingstatic/`\&lt;Identifiant de campagne\>`/messages`
+`https://xxx.yyy.com:8080/somethingstatic/`\&lt;id>`/messages`
 
 ![](assets/journey-custom-action-url.png)
 

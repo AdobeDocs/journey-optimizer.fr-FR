@@ -8,8 +8,8 @@ role: User
 level: Beginner, Intermediate
 keywords: parcours, découverte, commencer
 exl-id: 73cfd48b-72e6-4b72-bbdf-700a32a34bda
-source-git-commit: d741a34a0418dc88db730d0b953cb5c7db8dc103
-workflow-type: ht
+source-git-commit: 0571a11eabffeb5e318bebe341a8df18da7db598
+workflow-type: tm+mt
 source-wordcount: '613'
 ht-degree: 100%
 
@@ -96,8 +96,6 @@ Si vous devez apporter des modifications à un parcours actif, vous devez en cr�
    >Vous ne pouvez créer une version qu&#39;à partir de la dernière version d&#39;un parcours.
 
 1. Effectuez vos modifications, cliquez sur **[!UICONTROL Publier]**, puis confirmez.
-
-   ![](assets/journeyversions3.png)
 
 Aussitôt le parcours publié, les individus commencent à accéder à la dernière version. Les clients qui ont déjà accédé à une version antérieure y restent jusqu&#39;à la fin du parcours. En cas de rentrée ultérieure dans le même parcours, les clients accéderont à la version la plus récente.
 

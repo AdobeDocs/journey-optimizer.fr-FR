@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 327de13a-1c99-4d5e-86cf-8180fb7aaf23
-source-git-commit: 3f844f65609f271e834ebf42749253fd64446a9a
+source-git-commit: 0571a11eabffeb5e318bebe341a8df18da7db598
 workflow-type: tm+mt
-source-wordcount: '1425'
+source-wordcount: '1411'
 ht-degree: 100%
 
 ---
@@ -197,10 +197,6 @@ Vous pouvez désormais utiliser ce modèle lors de la création de contenu dans 
 ## Tester des modèles de contenu d’e-mail {#test-template}
 
 Vous pouvez tester le rendu de certains de vos modèles d’e-mail, qu’ils aient été créés entièrement ou à partir d’un contenu existant. Pour ce faire, procédez comme suit :
-
->[!CAUTION]
->
->Actuellement, le test des modèles de contenu n’est disponible que pour les modèles **[!UICONTROL E-mail]** avec le type **[!UICONTROL HTML]**.
 
 1. Pour accéder à la liste des modèles de contenu, consultez le menu **[!UICONTROL Gestion de contenu]** > **[!UICONTROL Modèles de contenu]** et sélectionnez n’importe quel modèle d’e-mail.
 

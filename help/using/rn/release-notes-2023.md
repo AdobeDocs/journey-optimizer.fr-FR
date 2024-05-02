@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 61e6291f-c063-44a0-950c-8bb76de693f2
-source-git-commit: e45ec5f0e1bbcc73892f9cde5923627886f44ef6
+source-git-commit: 0571a11eabffeb5e318bebe341a8df18da7db598
 workflow-type: tm+mt
 source-wordcount: '4398'
 ht-degree: 100%
@@ -213,9 +213,9 @@ Cette version est fournie avec les améliorations répertoriées ci-dessous.
 
 **Canal SMS**
 
-* Deux nouveaux champs, **Message d’opt-in** et **Message d’aide**, ont été ajoutés à l’écran de configuration de l’API, ce qui permet aux utilisateurs et utilisatrices de personnaliser les réponses pour les mots-clés entrants. Notez que ceci est uniquement disponible pour le fournisseur SMS Sinch. [En savoir plus](../sms/sms-configuration.md#create-api)
+* Deux nouveaux champs, **Message d’opt-in** et **Message d’aide**, ont été ajoutés à l’écran de configuration de l’API, ce qui permet aux utilisateurs et utilisatrices de personnaliser les réponses pour les mots-clés entrants. Notez que ceci est uniquement disponible pour le fournisseur SMS Sinch. [En savoir plus](../sms/sms-configuration.md)
 
-* La désinscription aux SMS n’est plus gérée au niveau du canal. Il est maintenant spécifique au nombre, ce qui signifie que si certains profils indiquent leur opt-out pour un numéro ou un numéro abrégé donné, vous pouvez toujours leur envoyer des messages à partir d’autres numéros que vous utilisez pour envoyer des SMS. Une nouvelle option vous permet de sélectionner le **numéro d’opt-out** que vous souhaitez utiliser pour une surface donnée. [En savoir plus](../sms/sms-configuration.md#message-preset-sms)
+* La désinscription aux SMS n’est plus gérée au niveau du canal. Il est maintenant spécifique au nombre, ce qui signifie que si certains profils indiquent leur opt-out pour un numéro ou un numéro abrégé donné, vous pouvez toujours leur envoyer des messages à partir d’autres numéros que vous utilisez pour envoyer des SMS. Une nouvelle option vous permet de sélectionner le **numéro d’opt-out** que vous souhaitez utiliser pour une surface donnée. [En savoir plus](../sms/sms-configuration.md)
 
 **Canal courrier**
 

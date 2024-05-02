@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: profil, mise à jour, parcours, activité
 exl-id: 8b2b2d1e-9bd1-439d-a15e-acdbab387c4b
-source-git-commit: 9010b173eb5126fff72d71aa582b265cc05fddf0
+source-git-commit: 0571a11eabffeb5e318bebe341a8df18da7db598
 workflow-type: tm+mt
-source-wordcount: '614'
-ht-degree: 100%
+source-wordcount: '610'
+ht-degree: 97%
 
 ---
 
@@ -27,7 +27,7 @@ Utilisez l’activité d&#39;action **[!UICONTROL Mettre à jour le profil]** po
 
 ## Recommandations
 
-* L&#39;action **Mettre à jour le profil** ne peut être utilisée que dans les parcours commençant par un événement qui possède un espace de noms.
+* La variable **Mettre à jour le profil** ne peut être utilisée que dans les parcours disposant d’un espace de noms.
 * L&#39;action ne met à jour que les champs existants, elle ne crée pas de nouveaux champs de profil.
 * Vous ne pouvez pas utiliser l&#39;action **Mettre à jour le profil** pour générer des événements d&#39;expérience, par exemple un achat.
 * Comme toute autre action, vous pouvez définir un chemin alternatif en cas d&#39;erreur ou de temporisation, et vous ne pouvez pas placer deux actions en parallèle.

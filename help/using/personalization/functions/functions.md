@@ -6,10 +6,10 @@ topic: Personalization
 role: Data Engineer
 level: Experienced
 exl-id: 9b0b0d8e-a819-4d2e-a241-f3c4d104eab9
-source-git-commit: d3f0adab52ed8e44a6097c5079396d1e9c06e0a7
+source-git-commit: 0571a11eabffeb5e318bebe341a8df18da7db598
 workflow-type: tm+mt
-source-wordcount: '1854'
-ht-degree: 100%
+source-wordcount: '1872'
+ht-degree: 99%
 
 ---
 
@@ -171,6 +171,9 @@ Cliquez sur l’icône `...` pour afficher la description de la fonction et l’
     </tr>
     <tr>
     <td><a href="math.md#to-hex-string">To hex string</a></td><td>Cette fonction convertit n’importe quel nombre en sa chaîne hexadécimale.</td>
+    </tr>
+    <tr>
+    <td><a href="math.md#to-int">ToInt</a></td><td>Convertit tous ces types (nombre, double, entier, long, flottant, court, octet, booléen, chaîne) en nombre entier.</td>
     </tr>
     <tr>
         <td><a href="math.md#to-percentage">En pourcentage</a></td><td>Cette fonction convertit un nombre en pourcentage.</td>

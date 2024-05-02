@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 59ea67d9-e90c-4ad0-afb9-d0e0fd868855
-source-git-commit: be758a577dbff2ae400d0642f9e898b423353f90
+source-git-commit: 0571a11eabffeb5e318bebe341a8df18da7db598
 workflow-type: tm+mt
-source-wordcount: '485'
-ht-degree: 90%
+source-wordcount: '467'
+ht-degree: 89%
 
 ---
 
@@ -59,14 +59,6 @@ Cependant, Journey Optimizer prend en charge les désinscriptions globales bas�
 Les ID d’expéditeur alphanumériques peuvent uniquement envoyer des SMS. Ils ne peuvent pas recevoir de messages entrants. Par conséquent, les mots-clés SMS STOP, START, HELP d’Adobe Journey Optimizer ne s’appliquent pas aux ID d’expéditeur alphanumériques. Dès lors, vous devez fournir d’autres instructions aux utilisateurs et utilisatrices pour l’opt-out de SMS. Par exemple, en leur offrant la possibilité d’écrire à l’équipe d’assistance, d’appeler un numéro d’aide ou d’envoyer un SMS à un autre numéro ou code.
 
 ## Vidéo {#video-sms}
-
-* La vidéo ci-dessous montre le fonctionnement de la prise en charge native des mots-clés entrants (START, STOP et UNSTOP) pour les SMS.
-
-+++ Voir la vidéo
-
-  >[!VIDEO](https://video.tv.adobe.com/v/344026?quality=12)
-
-+++
 
 * La vidéo ci-dessous vous explique comment configurer le double opt-in pour les SMS.
 

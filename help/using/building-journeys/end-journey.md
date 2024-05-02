@@ -8,7 +8,7 @@ role: User
 level: Intermediate
 keywords: reprise, parcours, fin, dynamique, arrêt
 exl-id: ea1ecbb0-12b5-44e8-8e11-6d3b8bff06aa
-source-git-commit: f8d62a702824bcfca4221c857acf1d1294427543
+source-git-commit: 0571a11eabffeb5e318bebe341a8df18da7db598
 workflow-type: tm+mt
 source-wordcount: '660'
 ht-degree: 100%
@@ -93,5 +93,7 @@ Vous pouvez également réaliser les opérations suivantes :
 
 1. Dans la liste **[!UICONTROL Parcours]**, cliquez sur le parcours que vous souhaitez arrêter.
 1. En haut à droite, cliquez sur la flèche vers le bas.
-   ![](assets/finish_drop_down_list.png)
+
+   ![](assets/finish_drop_down_list2.png)
+
 1. Cliquez sur **[!UICONTROL Arrêter]** et confirmez dans la boîte de dialogue.
