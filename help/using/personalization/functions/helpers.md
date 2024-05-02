@@ -6,10 +6,10 @@ topic: Personalization
 role: Data Engineer
 level: Experienced
 exl-id: b08dc0f8-c85f-4aca-85eb-92dc76b0e588
-source-git-commit: 3b9822121390548546ab6628504ea9dd1101fb48
+source-git-commit: 7e7ff2f6451947d4d52efb2963d940ba3f50819f
 workflow-type: tm+mt
-source-wordcount: '365'
-ht-degree: 96%
+source-wordcount: '362'
+ht-degree: 90%
 
 ---
 
@@ -202,7 +202,7 @@ La fonction `let` permet à une expression d&#39;être stockée en tant que vari
 
 **Exemple**
 
-L&#39;exemple suivant laisse toutes les sommes des totaux des produits avec la transaction en USD lorsque la somme est supérieure à 100 USD et inférieure à 1000 USD.
+L&#39;exemple suivant permet de calculer la somme totale des prix des produits du panier dont les prix sont compris entre 100 et 1000.
 
 ```sql
 {% let sum = 0%}
