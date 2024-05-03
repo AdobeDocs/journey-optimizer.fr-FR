@@ -10,9 +10,9 @@ level: Beginner
 badge: label="Version Beta" type="Informative"
 hide: true
 hidefromtoc: true
-source-git-commit: fd58a52a652243a411e61c5b83a329f988348265
+source-git-commit: ff7f2b42d63e8a3d02f5dbebd926eda26c646752
 workflow-type: tm+mt
-source-wordcount: '246'
+source-wordcount: '248'
 ht-degree: 23%
 
 ---
@@ -31,7 +31,7 @@ ht-degree: 23%
 
 >[!ENDSHADEBOX]
 
-Une fois vos messages conçus et personnalisés, développez votre contenu à l’aide de l’assistant Journey Optimizer AI, qui comprend la fonction Expérience de contenu. Cet outil vous permet de définir plusieurs traitements de diffusion, différents contenus, afin de mesurer les performances de votre audience cible.
+Une fois que vous avez conçu et personnalisé vos messages, développez votre contenu à l’aide de l’assistant d’IA dans Adobe Journey Optimizer, qui inclut la fonctionnalité Expérience de contenu . Cet outil vous permet de définir plusieurs traitements de diffusion, différents contenus, afin de mesurer les performances de votre audience cible.
 
 1. Créez votre campagne et utilisez l’assistant d’IA pour générer vos variantes.
 

@@ -10,10 +10,10 @@ level: Beginner
 badge: label="Version Beta" type="Informative"
 hide: true
 hidefromtoc: true
-source-git-commit: 45332e96477f83cd1ae9833472a97d2c45bb6ac4
+source-git-commit: ff7f2b42d63e8a3d02f5dbebd926eda26c646752
 workflow-type: tm+mt
-source-wordcount: '973'
-ht-degree: 63%
+source-wordcount: '976'
+ht-degree: 62%
 
 ---
 
@@ -35,7 +35,7 @@ ht-degree: 63%
 >
 >Avant de commencer à utiliser cette fonctionnalité, lisez la section connexe [Mécanismes de sécurisation et limitations](gs-generative.md#generative-guardrails).
 
-Une fois vos messages créés et personnalisés, repositionnez leur contenu avec l&#39;assistant Journey Optimizer AI.
+Une fois vos messages créés et personnalisés, repositionnez leur contenu avec l&#39;assistant d&#39;IA dans Adobe Journey Optimizer.
 
 Consultez les onglets ci-dessous pour savoir comment utiliser l’assistant d’IA dans Journey Optimizer.
 

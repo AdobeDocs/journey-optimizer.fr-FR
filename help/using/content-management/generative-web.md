@@ -10,10 +10,10 @@ level: Beginner
 badge: label="Version Beta" type="Informative"
 hide: true
 hidefromtoc: true
-source-git-commit: fc6d1caacae3574cc7400ed9c9c634e3ff3cae5a
+source-git-commit: ff7f2b42d63e8a3d02f5dbebd926eda26c646752
 workflow-type: tm+mt
-source-wordcount: '1318'
-ht-degree: 95%
+source-wordcount: '1319'
+ht-degree: 93%
 
 ---
 
@@ -32,7 +32,7 @@ ht-degree: 95%
 
 >[!ENDSHADEBOX]
 
-Une fois que vous avez créé et personnalisé vos e-mails, utilisez l’assistant IA optimisé par une IA générative de Journey Optimizer dans Campaign pour donner encore plus de poids à votre contenu.
+Une fois que vous avez créé et personnalisé vos emails, utilisez l’assistant d’IA dans Adobe Journey Optimizer, optimisé par l’IA générative, pour passer votre contenu au niveau supérieur.
 
 L’assistant IA peut vous aider à optimiser l’impact de vos diffusions en suggérant un contenu différent et davantage susceptible de résonner auprès de votre audience.
 

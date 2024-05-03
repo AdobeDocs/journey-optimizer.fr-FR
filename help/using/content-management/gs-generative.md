@@ -11,10 +11,10 @@ badge: label="Version Beta" type="Informative"
 hide: true
 hidefromtoc: true
 exl-id: 6e291ce3-f324-4e5d-975b-5229dea4d581
-source-git-commit: 98ce21578d30ac50665561438715d19d1723f4a7
+source-git-commit: ff7f2b42d63e8a3d02f5dbebd926eda26c646752
 workflow-type: tm+mt
-source-wordcount: '500'
-ht-degree: 89%
+source-wordcount: '497'
+ht-degree: 79%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 89%
 >[!CONTEXTUALHELP]
 >id="ajo_content_generation"
 >title="Créer le contenu d’un e-mail"
->abstract="L’Assistant IA d’Adobe Journey Optimizer offre des suggestions proactives de variations de contenu pour le texte et les images. Il est disponible pour les canaux e-mail, notification push, SMS et web. Cette nouvelle fonctionnalité permet de générer rapidement du texte et des images. "
+>abstract="L’assistant d’IA de Adobe Journey Optimizer fournit des suggestions proactives de variations de contenu pour le texte et les images. Il est disponible pour les canaux e-mail, notification push, SMS et web. Cette nouvelle fonctionnalité permet de générer rapidement du texte et des images. "
 
 >[!BEGINSHADEBOX]
 
@@ -39,9 +39,9 @@ ht-degree: 89%
 
 >[!AVAILABILITY]
 >
->L’Assistant IA d’Adobe Journey Optimizer est actuellement disponible en version Beta pour certaines personnes uniquement. Pour rejoindre le programme Beta, contactez l’assistance clientèle d’Adobe.
+>L’assistant d’IA dans Adobe Journey Optimizer est actuellement disponible en version bêta pour sélectionner uniquement les utilisateurs.
 
-L’Assistant IA d’Adobe Journey Optimizer offre des suggestions proactives de variations de contenu pour le texte et les images. Il est disponible pour les canaux email, push et SMS. Cette nouvelle fonctionnalité permet de générer rapidement du texte et des images. La génération d’images est gérée avec Adobe Firefly.
+L’assistant d’IA de Adobe Journey Optimizer fournit des suggestions proactives de variations de contenu pour le texte et les images. Il est disponible pour les canaux email, push et SMS. Cette nouvelle fonctionnalité permet de générer rapidement du texte et des images. La génération d’images est gérée avec Adobe Firefly.
 
 Utilisez l’Assistant IA dans Journey Optimizer pour optimiser l’impact de votre message en testant plusieurs images et titres principaux. Générez plusieurs variantes et créez une expérience pour les comparer. L’expérience de contenu Journey Optimizer vous permet de définir plusieurs traitements de message afin de mesurer celui qui fonctionne le mieux pour votre audience cible. Vous pouvez choisir de varier le contenu ou l’objet de la diffusion. L’audience du message est attribuée de manière aléatoire à chaque traitement afin de déterminer laquelle fonctionne le mieux avec la mesure spécifiée. En savoir plus sur l’expérience de contenu dans [cette section](../campaigns/content-experiment.md).
 
