@@ -5,9 +5,9 @@ user-guide-title: Guide de Journey Optimizer
 user-guide-description: Utilisez Journey Optimizer pour créer et proposer aux clients des expériences connectées, contextuelles et personnalisées
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 0571a11eabffeb5e318bebe341a8df18da7db598
+source-git-commit: 39b2f9efcf84bba5e40ce999950346221a6eb699
 workflow-type: tm+mt
-source-wordcount: '1786'
+source-wordcount: '1794'
 ht-degree: 97%
 
 ---
@@ -271,10 +271,12 @@ ht-degree: 97%
       + [Configurer les sous-domaines des pages de destination](using/landing-pages/lp-subdomains.md)
       + [Définir les préréglages de page de destination](using/landing-pages/lp-presets.md)
 + Gestion de contenu {#content-management}
-   + Utiliser l’assistant de contenu{#content-assistant}
-      + [Commencer avec l’assistant de contenu](using/content-management/gs-generative.md)
-      + [Génération de contenu](using/content-management/generative-content.md)
-      + [Génération d’images](using/content-management/generative-image.md)
+   + Utilisation de l’assistant d’IA{#ai-assistant}
+      + [Commencer avec l’Assistant IA](using/content-management/gs-generative.md)
+      + [Génération d’e-mails](using/content-management/generative-email.md)
+      + [Génération de notifications push](using/content-management/generative-push.md)
+      + [Génération de SMS](using/content-management/generative-sms.md)
+      + [Expérience de contenu avec l’assistant d’IA](using/content-management/generative-experimentation.md)
    + Utiliser du contenu multilingue{#content-multilingual}
       + [Prise en main du contenu multilingue](using/content-management/multilingual-gs.md)
       + [Créer du contenu multilingue avec traduction manuelle](using/content-management/multilingual-manual.md)
