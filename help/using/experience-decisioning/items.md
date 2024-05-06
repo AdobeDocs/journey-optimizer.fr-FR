@@ -12,7 +12,7 @@ exl-id: 5c866814-d79a-4a49-bfcb-7a767d802e90
 source-git-commit: 2b9261ff0f225a429b9be04db214452736163766
 workflow-type: tm+mt
 source-wordcount: '1786'
-ht-degree: 72%
+ht-degree: 73%
 
 ---
 
@@ -40,7 +40,7 @@ Avant de créer un élément de décision, veillez à créer une **règle de dé
 
 Pour créer un élément de décision, accédez à **[!UICONTROL Experience Decisioning]** > **[!UICONTROL Catalogues]**, puis cliquez sur **[!UICONTROL Créer un élément]** suivez ensuite les étapes présentées dans les sections ci-dessous.
 
-## Définition des attributs de l’élément de décision {#attributes}
+## Définir les attributs de l’élément de décision {#attributes}
 
 >[!CONTEXTUALHELP]
 >id="ajo_exd_item_priority"
