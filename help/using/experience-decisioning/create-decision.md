@@ -7,12 +7,12 @@ role: User
 level: Experienced
 hide: true
 hidefromtoc: true
-badge: label="Version Beta"
+badge: label="Version bêta"
 exl-id: 63aa1763-2220-4726-a45d-3a3a8b8a55ec
 source-git-commit: 2b9261ff0f225a429b9be04db214452736163766
 workflow-type: tm+mt
 source-wordcount: '1444'
-ht-degree: 88%
+ht-degree: 99%
 
 ---
 
@@ -210,14 +210,14 @@ Une fois créée, la politique de décision peut être utilisée dans l’[édit
 
    ![](assets/decision-code-based-decision-profile-attribute.png)
 
-## Reporting en Customer Journey Analytics {#cja}
+## Rapports dans Customer Journey Analytics {#cja}
 
-Si vous utilisez Customer Journey Analytics, vous pouvez créer des tableaux de bord de création de rapports personnalisés pour vos campagnes basées sur du code en exploitant Experience Decisioning.
+Si vous utilisez Customer Journey Analytics, vous pouvez créer des tableaux de bord de rapports personnalisés pour vos campagnes basées sur du code en tirant parti d’Offer Decisioning
 
-Les principales étapes sont répertoriées ci-dessous. Vous trouverez des informations détaillées sur la manière d’utiliser Customer Journey Analytics dans la section [Documentation du Customer Journey Analytics](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-landing){target="_blank"}.
+Suivez les étapes principales ci-dessous : Vous trouverez des informations détaillées sur l’utilisation de Customer Journey Analytics dans la [documentation de Customer Journey Analytics](https://experienceleague.adobe.com/fr/docs/analytics-platform/using/cja-landing){target="_blank"}.
 
-1. Création et configuration d’une **connection** en Customer Journey Analytics. Vous pouvez ainsi vous connecter au jeu de données pour lequel vous souhaitez des rapports. [Découvrez comment créer une connexion](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-connections/create-connection){target="_blank"}
+1. Créez et configurez une **connexion** dans Customer Journey Analytics. Vous pouvez ainsi vous connecter au jeu de données pour lequel vous souhaitez établir des rapports. [Découvrir comment créer une connexion](https://experienceleague.adobe.com/fr/docs/analytics-platform/using/cja-connections/create-connection){target="_blank"}
 
-1. Créez un **vue des données** et l’associer à la connexion créée précédemment. Dans le **[!UICONTROL Composants]** , sélectionnez les champs de schéma appropriés que vous souhaitez afficher dans les rapports. Pour Experience Decisioning, veillez à inclure la variable **propositioninteraction** et **propositiondisplay** des champs. [Découvrez comment créer et configurer des vues de données](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dataviews/create-dataview){target="_blank"}
+1. Créez une **vue des données** et associez-la à la connexion créée précédemment. Sous l’onglet **[!UICONTROL Composants]**, sélectionnez les champs de schéma appropriés que vous souhaitez afficher dans les rapports. Pour Offer Decisioning, veillez à inclure les champs **propositioninteract** et **propositiondisplay**. [Découvrir comment créer et configurer des vues de données](https://experienceleague.adobe.com/fr/docs/analytics-platform/using/cja-dataviews/create-dataview){target="_blank"}
 
-1. Combinaison de composants de données, de tableaux et de visualisations dans **projets workspace** pour créer et partager des rapports pour votre campagne basée sur du code.[Découvrez comment créer des projets Workspace](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/build-workspace-project/create-projects){target="_blank"}
+1. Combinez des composants de données, des tableaux et des visualisations dans des **projets Workspace** pour créer et partager des rapports pour votre campagne basée sur du code.[Découvrir comment créer des projets Workspace](https://experienceleague.adobe.com/fr/docs/analytics-platform/using/cja-workspace/build-workspace-project/create-projects){target="_blank"}

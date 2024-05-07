@@ -7,12 +7,12 @@ role: User
 level: Intermediate
 hide: true
 hidefromtoc: true
-badge: label="Version Beta"
+badge: label="Version bêta"
 exl-id: 5c866814-d79a-4a49-bfcb-7a767d802e90
 source-git-commit: 2b9261ff0f225a429b9be04db214452736163766
 workflow-type: tm+mt
 source-wordcount: '1786'
-ht-degree: 73%
+ht-degree: 98%
 
 ---
 
@@ -53,7 +53,7 @@ Pour créer un élément de décision, accédez à **[!UICONTROL Experience Deci
 >abstract="Les attributs personnalisés sont des attributs spécifiques, adaptés à vos besoins, que vous pouvez affecter à un élément de décision. Ils sont créés dans le schéma de catalogue des éléments de décision. Cette section s’affiche uniquement si vous avez ajouté au moins un attribut personnalisé au schéma de catalogue."
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/experience-decisioning/decision-items/catalogs.html?lang=fr" text="Configurer le catalogue d’éléments"
 
-Commencez par définir les attributs standard et personnalisés de l’élément de décision :
+Commencez par définir les attributs standard et personnalisés de l’élément de décision :
 
 ![](assets/item-attributes.png)
 
@@ -103,55 +103,55 @@ Lorsque vous sélectionnez des audiences ou des règles de décision, vous pouve
 >
 >Les estimations de profil ne sont pas disponibles lorsque les paramètres de règle incluent des données qui ne figurent pas dans le profil, telles que des données contextuelles. Par exemple, une règle d’éligibilité qui exige que la météo actuelle soit de ≥80 degrés.
 
-## Définition des règles de limitation {#capping}
+## Configurer les règles de limitation {#capping}
 
-La limitation est utilisée comme contrainte pour définir le nombre maximal de fois où une offre peut être présentée. Limiter le nombre de fois où les utilisateurs reçoivent des offres spécifiques vous permet d’éviter de sur-solliciter vos clients et donc d’optimiser chaque point de contact avec la meilleure offre. Vous pouvez créer jusqu’à 10 correspondances pour un élément de décision donné.
+La limitation est utilisée comme contrainte pour définir le nombre maximal de fois où une offre peut être présentée. Limiter le nombre de fois où les personnes reçoivent des offres spécifiques vous permet d’éviter de sur-solliciter votre clientèle et donc d’optimiser chaque point de contact avec la meilleure offre. Vous pouvez créer jusqu’à 10 limitations pour un élément de décision donné.
 
 ![](assets/item-capping.png)
 
 >[!NOTE]
 >
 >
->La mise à jour de la valeur du compteur de limitation peut prendre jusqu’à 3 secondes. Par exemple, supposons que vous affichez une bannière web présentant une offre sur votre site web. Si un utilisateur donné accède à la page suivante de votre site web en moins de 3 secondes, la valeur du compteur ne sera pas incrémentée pour cet utilisateur.
+>La mise à jour de la valeur du compteur de limitations peut prendre jusqu’à 3 secondes. Prenons l’exemple suivant : vous présentez une offre sur la bannière web de votre site web. Si une personne accède à la page suivante de votre site web en moins de 3 secondes, la valeur du compteur ne sera pas incrémentée pour cette personne.
 
-Pour définir des règles de limitation pour l’élément de décision, cliquez sur le bouton **[!UICONTROL Création d’une limitation]** puis procédez comme suit :
+Pour définir des règles de limitation pour l’élément de décision, cliquez sur le bouton **[!UICONTROL Créer une limitation]**, puis procédez comme suit :
 
-1. Définissez quelles **[!UICONTROL Événement de limitation]** sera pris en compte pour augmenter le compteur.
+1. Définissez l’**[!UICONTROL événement de limitation]** à prendre en compte pour augmenter le compteur.
 
    * **[!UICONTROL Événement de décision]** (valeur par défaut) : nombre maximal de fois où une offre peut être présentée.
-   * **[!UICONTROL Impression]** (canaux entrants uniquement) : nombre maximal de fois où l’offre peut être affichée pour un utilisateur.
-   * **[!UICONTROL Clics]**: nombre maximal de clics sur un élément de décision par un utilisateur.
-   * **[!UICONTROL Événement personnalisé]**: vous pouvez définir un événement personnalisé qui sera utilisé pour limiter le nombre d’envois de l’élément. Par exemple, vous pouvez limiter la validité d’un bon à 10 000 utilisations ou jusqu’à ce qu’un profil donné l’ait utilisé 1 fois. Pour ce faire, utilisez les schémas [XDM d’Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=fr){target="_blank"} pour créer une règle d’événement personnalisée.
+   * **[!UICONTROL Impression]** (canaux entrants uniquement) : nombre maximal de fois où l’offre peut être présentée à un utilisateur ou une utilisatrice.
+   * **[!UICONTROL Clics]** : nombre maximal de fois où l’utilisateur ou l’utilisatrice peut cliquer sur un élément de décision.
+   * **[!UICONTROL Événement personnalisé]** : vous pouvez définir un événement personnalisé afin de limiter le nombre de fois où l’élément est envoyé. Par exemple, vous pouvez limiter la validité d’un bon à 10 000 utilisations ou jusqu’à ce qu’un profil donné l’ait utilisé 1 fois. Pour ce faire, utilisez les schémas [XDM d’Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=fr){target="_blank"} pour créer une règle d’événement personnalisée.
 
    >[!NOTE]
    >
-   >Pour tous les événements de limitation, à l’exception des événements de décision, les commentaires sur la gestion des décisions peuvent ne pas être collectés automatiquement, ce qui peut entraîner une incrémentation incorrecte du compteur de limitation. Pour vous assurer que chaque événement de limitation est suivi et comptabilisé dans le compteur de limitation, vérifiez que le schéma utilisé pour collecter les événements d’expérience inclut le groupe de champs approprié pour cet événement. Des informations détaillées sur la collecte de données sont disponibles dans la documentation relative à la gestion des décisions Journey Optimizer :
-   >* [Collecte de données de gestion des décisions](../offers/data-collection/data-collection.md)
-   >* [Configuration de la collecte de données](../offers/data-collection/schema-requirement.md)
+   >Pour tous les événements de limitation, à l’exception des événements de décision, les commentaires sur la gestion des décisions peuvent ne pas être collectés automatiquement, ce qui peut entraîner une incrémentation incorrecte du compteur de limitation. Pour vous assurer que chaque événement de limitation est suivi et comptabilisé dans le compteur de limitation, vérifiez que le schéma utilisé pour collecter les événements d’expérience inclut le groupe de champs approprié pour cet événement. Des informations détaillées sur la collecte de données sont disponibles dans la documentation relative à la gestion des décisions de Journey Optimizer :
+   >* [Collecte de données sur la gestion des décisions](../offers/data-collection/data-collection.md)
+   >* [Configurer la collecte de données](../offers/data-collection/schema-requirement.md)
 
-1. Choisissez le type de limitation :
+1. Choisir le type de limitation :
 
-   * Sélectionner **[!UICONTROL Au total]** pour définir le nombre de fois où l’élément peut être proposé dans l’audience cible combinée, c’est-à-dire pour tous les utilisateurs. Par exemple, si vous êtes un détaillant d’électronique qui a conclu un « contrat télévisuel d’offre d’ouverture » vous souhaitez que l’offre ne soit renvoyée que 200 fois sur tous les profils.
+   * Sélectionnez **[!UICONTROL Au total]** pour définir le nombre de fois où un élément peut être proposé dans l’audience cible combinée, ce qui signifie pour l’ensemble des utilisateurs et utilisatrices. Par exemple, si vous êtes une entreprise distribuant de l’électronique qui a conclu un « contrat télévisuel d’offre d’ouverture », vous souhaitez que l’offre ne soit renvoyée que 200 fois sur tous les profils.
 
-* Sélectionner **[!UICONTROL Par profil]** pour définir le nombre de fois où l’offre peut être proposée au même utilisateur. Par exemple, si vous êtes une banque avec une offre « Carte de crédit Platinum », vous ne souhaitez pas que cette offre soit présentée plus de 5 fois par profil. En effet, vous pensez que si l’utilisateur a vu l’offre 5 fois et n’a pas agi dessus, il a plus de chance d’agir sur la meilleure offre suivante.
+* Sélectionnez **[!UICONTROL Par profil]** pour définir le nombre de fois où l’offre peut être proposée à la même personne. Par exemple, si vous êtes une banque avec une offre « Carte de crédit Platinum », vous ne souhaitez pas que cette offre soit présentée plus de 5 fois par profil. En effet, vous pensez que si l’utilisateur a vu l’offre 5 fois et n’a pas agi dessus, il a plus de chance d’agir sur la meilleure offre suivante.
 
-1. Dans le **[!UICONTROL Limite du nombre de limitations]** , indiquez le nombre de fois où l’offre peut être présentée à tous les utilisateurs ou à chaque profil, en fonction du type de limitation sélectionné. Le nombre doit être un entier supérieur à 0.
+1. Dans le champ **[!UICONTROL Limiter le nombre de limitations]**, indiquez le nombre de fois où l’offre peut être présentée à l’ensemble des utilisateurs et utilisatrices ou à chaque profil, en fonction du type de limitation sélectionné. Le nombre doit être un entier supérieur à 0.
 
    Par exemple, vous avez défini un événement de limitation personnalisé comme le nombre de passages en caisse pris en compte. Si vous saisissez « 10 » dans le champ **[!UICONTROL Limite du nombre de limitations]**, aucune autre offre ne sera envoyée après 10 passages en caisse.
 
-1. Dans le **[!UICONTROL Réinitialiser la fréquence de limitation]** , définissez la fréquence à laquelle le compteur de limitation est réinitialisé. Pour cela, définissez la période du comptage (quotidien, hebdomadaire ou mensuel) et saisissez le nombre de jours/semaines/mois de votre choix. Par exemple, si vous souhaitez que le nombre de limitations soit réinitialisé toutes les 2 semaines, sélectionnez **[!UICONTROL Hebdomadaire]** dans la liste déroulante correspondante et saisissez **2** dans l’autre champ.
+1. Dans la liste déroulante **[!UICONTROL Réinitialiser la fréquence de limitation]**, définissez la fréquence à laquelle le compteur de limitation est réinitialisé. Pour ce faire, définissez la période du comptage (tous les jours, toutes les semaines ou tous les mois) et saisissez le nombre de jours, semaines ou mois de votre choix. Par exemple, si vous souhaitez que le nombre de limitations soit réinitialisé toutes les 2 semaines, sélectionnez **[!UICONTROL Hebdomadaire]** dans la liste déroulante correspondante et saisissez **2** dans l’autre champ.
 
    >[!NOTE]
    >
    >Le compteur de capping de la fréquence se réinitialise à **00 h 00 UTC**, le jour que vous avez défini ou le premier jour de la semaine ou du mois, le cas échéant. Le jour de début de semaine est le **dimanche**. La durée que vous avez choisie ne peut pas dépasser **2 ans** (ou le nombre correspondant de mois, de semaines ou de jours).
    >
-   >Après avoir publié votre élément de décision, vous ne pourrez pas modifier la période (mensuelle, hebdomadaire ou quotidienne) que vous avez sélectionnée pour la fréquence. Vous pouvez toujours modifier le plafonnement de la fréquence si l’élément a la valeur **[!UICONTROL Version préliminaire]** et n’a jamais été publié auparavant avec la limitation de fréquence activée.
+   >Une fois que vous avez publié votre élément de décision, vous ne pourrez plus modifier la période (mensuelle, hebdomadaire ou quotidienne) de la fréquence. Vous pouvez désormais modifier le capping de la fréquence si le statut de l’élément est **[!UICONTROL Brouillon]** et si l’élément n’a jamais été publié auparavant avec le capping de la fréquence activé.
 
-1. Cliquez sur **[!UICONTROL Créer]** pour confirmer la création de la règle de limitation. Vous pouvez créer jusqu’à 10 règles pour un seul élément de décision. Pour ce faire, cliquez sur le bouton **[!UICONTROL Création d’une limitation]** et répétez les étapes ci-dessus.
+1. Cliquez sur **[!UICONTROL Créer]** pour confirmer la création de la règle de limitation. Vous pouvez créer jusqu’à 10 règles pour un seul élément de décision. Pour ce faire, cliquez sur le bouton **[!UICONTROL Créer une limitation]** et répétez les étapes ci-dessus.
 
    ![](assets/item-capping-rules.png)
 
-1. Une fois les règles d’éligibilité et de limitation de l’élément de décision définies, cliquez sur **[!UICONTROL Suivant]** pour réviser et enregistrer l’élément.
+1. Une fois l’éligibilité et les règles de limitation définies pour l’élément de décision, cliquez sur **[!UICONTROL Suivant]** pour vérifier l’élément et l’enregistrer.
 
 1. L’élément de décision apparaît désormais dans la liste, avec le statut **[!UICONTROL Brouillon]**. Lorsqu’il est prêt à être présenté aux profils, cliquez sur le bouton représentant des points de suspension et sélectionnez **[!UICONTROL Approuver]**.
 

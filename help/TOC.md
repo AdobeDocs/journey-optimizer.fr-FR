@@ -25,7 +25,7 @@ ht-degree: 97%
       + [Notes de mise à jour 2022](using/rn/release-notes-2022.md)
       + [Notes de mise à jour 2021](using/rn/release-notes-2021.md)
    + [Mises à jour de la documentation](using/rn/documentation-updates.md)
-   + [Canevas de parcours amélioré](using/rn/new-canvas.md)
+   + [Amélioration de la zone de travail de parcours](using/rn/new-canvas.md)
 + Prise en main{#get-started}
    + [Qu’est-ce que Journey Optimizer ?](using/start/get-started.md)
    + Guides de démarrage rapide{#quick-start}
@@ -432,7 +432,7 @@ ht-degree: 97%
          + Règles de décision {#decision-rules}
             + [Liste des règles de décision](using/offers/api-reference/offers-api/decision-rules/rules-list.md)
             + [Recherche d’une règle de décision](using/offers/api-reference/offers-api/decision-rules/lookup.md)
-            + [Création d’une règle de décision](using/offers/api-reference/offers-api/decision-rules/create.md)
+            + [Créer une règle de décision](using/offers/api-reference/offers-api/decision-rules/create.md)
             + [Mise à jour d’une règle de décision](using/offers/api-reference/offers-api/decision-rules/update.md)
             + [Suppression d’une règle de décision](using/offers/api-reference/offers-api/decision-rules/delete.md)
          + Qualificateurs de collection {#tags}
@@ -476,7 +476,7 @@ ht-degree: 97%
             + Règles de décision {#decision-rules}
                + [Liste des règles de décision](using/offers/api-reference/offers-api/legacy-apis/decision-rules/rules-list.md)
                + [Recherche d’une règle de décision](using/offers/api-reference/offers-api/legacy-apis/decision-rules/lookup.md)
-               + [Création d’une règle de décision](using/offers/api-reference/offers-api/legacy-apis/decision-rules/create.md)
+               + [Créer une règle de décision](using/offers/api-reference/offers-api/legacy-apis/decision-rules/create.md)
                + [Mise à jour d’une règle de décision](using/offers/api-reference/offers-api/legacy-apis/decision-rules/update.md)
                + [Suppression d’une règle de décision](using/offers/api-reference/offers-api/legacy-apis/decision-rules/delete.md)
             + Qualificateurs de collection {#tags}
@@ -516,7 +516,7 @@ ht-degree: 97%
          + [API Batch Decisioning](using/offers/api-reference/offer-delivery-api/batch-decisioning-api.md)
 + Prise de décision basée sur l’expérience {#experience-decisioning}
    + [Prise en main de la prise de décision basée sur l’expérience](using/experience-decisioning/gs-experience-decisioning.md)
-   + Gestion des éléments de décision {#decision-items}
+   + Gérer les éléments de décision {#decision-items}
       + [Configurer le catalogue d’éléments](using/experience-decisioning/catalogs.md)
       + [Créer des éléments de décision](using/experience-decisioning/items.md)
       + [Gérer des collections d’éléments](using/experience-decisioning/collections.md)
@@ -558,7 +558,7 @@ ht-degree: 97%
    + [Prise en charge de l’archivage](using/configuration/archiving-support.md)
    + [Modifier les adresses d’exécution](using/configuration/primary-email-addresses.md)
    + [Configurer des règles de fréquence](using/configuration/frequency-rules.md)
-   + [Utilisation des règles commerciales](using/configuration/business-rules.md)
+   + [Utiliser des règles métier](using/configuration/business-rules.md)
    + Configuration des parcours {#configure-journeys}
       + [À propos des sources de données, des événements et des actions](using/configuration/about-data-sources-events-actions.md)
       + Intégration aux systèmes externes {#external-systems}
