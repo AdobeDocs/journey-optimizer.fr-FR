@@ -9,9 +9,9 @@ role: User
 level: Beginner
 exl-id: 8b978900-fcef-46f2-bc19-70776e4f3d43
 source-git-commit: 01c14590fe55d8f11c1ff2b18141933b0b3dd5ca
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '444'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 94%
 
 >[!BEGINSHADEBOX]
 
-Cette documentation fournit des informations détaillées sur l’utilisation de la composition de l’audience dans Adobe Journey Optimizer. Si vous n’utilisez pas Adobe Journey Optimizer, [cliquez ici](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/audience-composition.html?lang=fr){target="_blank"}.
+Cette documentation fournit des informations détaillées sur l’utilisation de la composition d’audiences dans Adobe Journey Optimizer. Si vous n’utilisez pas Adobe Journey Optimizer, [cliquez ici](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/audience-composition.html?lang=fr){target="_blank"}.
 
 >[!ENDSHADEBOX]
 
@@ -37,7 +37,7 @@ Pour créer un workflow de composition, procédez comme suit :
    >
    >La méthode de création **[!UICONTROL Créer une règle]** vous permet de créer une définition de nouveau segment à l’aide de la méthode [Segmentation Service](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=fr).
 
-1. Le canevas de composition s’affiche avec deux activités par défaut :
+1. La zone de travail de composition s’affiche avec deux activités par défaut :
 
    * **[!UICONTROL Audience]** : le point de départ de votre composition. Cette activité permet de sélectionner une ou plusieurs audiences comme base de votre workflow,
 
@@ -51,7 +51,7 @@ Pour créer un workflow de composition, procédez comme suit :
 
    ![](assets/audiences-properties.png)
 
-1. Configurez votre composition en ajoutant autant d’activités que nécessaire entre les **[!UICONTROL Audience]** et **[!UICONTROL Enregistrer]** activités. [Découvrez comment utiliser la zone de travail de composition](composition-canvas.md)
+1. Configurez votre composition en ajoutant autant d’activités que nécessaire entre les activités **[!UICONTROL Audience]** et **[!UICONTROL Enregistrer]**. [Découvrir comment utiliser la zone de travail de composition](composition-canvas.md)
 
    ![](assets/audiences-publish.png)
 
