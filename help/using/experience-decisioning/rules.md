@@ -5,14 +5,12 @@ feature: Experience Decisioning
 topic: Integrations
 role: User
 level: Intermediate
-hide: true
-hidefromtoc: true
-badge: label="Version bêta"
+badge: label="Disponibilité limitée"
 exl-id: 033a11b8-c848-4e4a-b6f0-62fa0a2152bf
-source-git-commit: 29228a17176421ccf29598d6ebba815b800db7a2
-workflow-type: ht
-source-wordcount: '652'
-ht-degree: 100%
+source-git-commit: 5ce388e5d86950e5cc6b173aab48225825f1c648
+workflow-type: tm+mt
+source-wordcount: '386'
+ht-degree: 92%
 
 ---
 
@@ -23,15 +21,7 @@ ht-degree: 100%
 >title="Créer des règles de décision"
 >abstract="Les règles de décision vous permettent de définir l’audience des éléments de décision en appliquant des contraintes, directement au niveau de l’élément de décision ou dans une stratégie de sélection spécifique. Vous pouvez ainsi contrôler précisément quels éléments doivent être présentés à qui."
 
->[!BEGINSHADEBOX « Ce guide couvre les sujets suivants »]
-
-* [Commencer avec la prise de décision basée sur l’expérience](gs-experience-decisioning.md)
-* Gérer les éléments de décision : [Configurer le catalogue d’éléments](catalogs.md) – [Créer des éléments de décision](items.md) – [Gérer des collections d’éléments](collections.md)
-* Configurer la sélection des éléments : **[Créer des règles de décision](rules.md)** – [Créer des méthodes de classement](ranking.md)
-* [Créer des stratégies de sélection](selection-strategies.md)
-* [Créer des politiques de décision](create-decision.md)
-
->[!ENDSHADEBOX]
+## À propos des règles de décision {#about}
 
 Les règles de décision vous permettent de définir l’audience des éléments de décision en appliquant des contraintes, directement au niveau de l’élément de décision ou dans une stratégie de sélection spécifique. Vous pouvez ainsi contrôler précisément quels éléments doivent être présentés à qui.
 
@@ -41,7 +31,7 @@ Prenons l’exemple d’un scénario dans lequel vous avez des éléments de dé
 >
 >Outre les règles de décision relatives aux éléments et à la stratégie de sélection, vous pouvez définir l’audience prévue au niveau de la campagne. [En savoir plus](../campaigns/create-campaign.md#audience)
 
-La liste des règles de décision est accessible dans le menu **[!UICONTROL Configuration]** > **[!UICONTROL Régles de décisions]**.
+La liste des règles de décision est accessible dans la variable **[!UICONTROL Configuration de la stratégie]** .
 
 ![](assets/decision-rules-list.png)
 
@@ -49,11 +39,11 @@ La liste des règles de décision est accessible dans le menu **[!UICONTROL Conf
 
 Pour créer cette règle de décision, procédez comme suit :
 
-1. Accédez à **[!UICONTROL Configuration]** > **[!UICONTROL Règles de décision]**, puis cliquez sur le bouton **[!UICONTROL Créer une règle]**.
+1. Accédez à **[!UICONTROL Configuration de la stratégie]** / **[!UICONTROL Règles de décision]** puis cliquez sur **[!UICONTROL Créer une règle]** bouton .
 
 1. L’écran de création des règles de décision s’affiche. Nommez votre règle et fournissez une description.
 
-1. Créez la règle de décision en fonction de vos besoins à l’aide du créateur de segments d’Adobe Experience Platform. Pour ce faire, vous pouvez utiliser diverses sources de données telles que les attributs de profil, les audiences ou les données contextuelles provenant d’Adobe Experience Platform. [Découvrir comment utiliser les données contextuelles dans les règles de décision](#context-data)
+1. Créez la règle de décision en fonction de vos besoins à l’aide du créateur de segments d’Adobe Experience Platform. Pour ce faire, vous pouvez utiliser diverses sources de données telles que les attributs de profil, les audiences ou les données contextuelles provenant d’Adobe Experience Platform. [Découvrez comment exploiter les données contextuelles](#context-data)
 
    ![](assets/decision-rules-build.png)
 
@@ -69,34 +59,3 @@ Pour créer cette règle de décision, procédez comme suit :
 
 1. Une fois votre règle de décision prête, cliquez sur **[!UICONTROL Enregistrer]**. La règle apparaît dans la liste et peut être utilisée dans les éléments de décision et les stratégies de sélection pour régir la présentation des éléments de décision aux profils.
 
-## Utiliser des données contextuelles dans les règles de décision {#context-data}
-
-L’écran de création de règles d’Offer Decisioning vous permet d’utiliser toutes les informations disponibles dans Adobe Experience Platform pour créer des règles de décision. Par exemple, vous pouvez créer une règle de décision qui exige que la température actuelle soit de ≥80 degrés Fahrenheit.
-
-Pour ce faire, vous devez d’abord définir les données à rendre disponibles dans Offer Decisioning. Une fois cette opération terminée, ces données s’intègrent de manière transparente à Offer Decisioning sous l’onglet **[!UICONTROL Données contextuelles]** et sont disponibles lors de la création d’une règle de décision.
-
-![](assets/decision-rules-context.png)
-
-Les étapes d’intégration des données Adobe Experience Platform dans Offer Decisioning sont les suivantes :
-
-1. Créez un **schéma d’événement d’expérience** dans Adobe Experience Platform et son **jeu de données** associé.[Découvrir comment créer des schémas](https://experienceleague.adobe.com/fr/docs/experience-platform/xdm/ui/resources/schemas){target="_blank"}
-
-1. Créez un train de données Adobe Experience Platform :
-
-   1. Accédez au menu **[!UICONTROL Trains de données]** et sélectionnez **[!UICONTROL Nouveau train de données]**.
-
-   1. Dans la liste déroulante **[!UICONTROL Schéma d’événement]**, sélectionnez le schéma d&#39;événement d’expérience créé précédemment, puis cliquez sur **[!UICONTROL Enregistrer]**.
-
-      ![](assets/decision-rule-context-datastream.png)
-
-   1. Cliquez sur **[!UICONTROL Ajouter un service]** et sélectionnez le service « Adobe Experience Platform ». Dans la liste déroulante **[!UICONTROL Jeu de données d’événement]**, sélectionnez le jeu de données d’événement créé précédemment et activez l’option **[!UICONTROL Adobe Journey Optimizer]**.
-
-      ![](assets/decision-rules-context-datastream-service.png)
-
-Une fois le train de données enregistré, les informations du jeu de données sélectionné sont automatiquement récupérées et intégrées dans Offer Decisioning et deviennent généralement disponibles dans les 24 heures.
-
-Pour plus d’informations sur l’utilisation d’Adobe Experience Platform, consultez les ressources suivantes :
-
-* [Schémas de modèle de données d’expérience (XDM)](https://experienceleague.adobe.com/fr/docs/experience-platform/xdm/schema/composition){target="_blank"}
-* [Jeux de données](https://experienceleague.adobe.com/fr/docs/experience-platform/catalog/datasets/overview){target="_blank"}
-* [Trains de données](https://experienceleague.adobe.com/fr/docs/experience-platform/datastreams/overview){target="_blank"}

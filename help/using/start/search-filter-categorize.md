@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 6151aea2-6a34-4000-ba48-161efe4d94d7
-source-git-commit: aa53f96068e0cfa84c1ac5ddd32d36b3fb4bbd03
-workflow-type: ht
-source-wordcount: '533'
+source-git-commit: 5ce388e5d86950e5cc6b173aab48225825f1c648
+workflow-type: tm+mt
+source-wordcount: '535'
 ht-degree: 100%
 
 ---
@@ -61,12 +61,13 @@ Avec les [balises unifiées](https://experienceleague.adobe.com/docs/experience-
 
 Le champ **[!UICONTROL Balises]** vous permet de définir des balises pour votre objet. Les balises sont disponibles pour les objets suivants :
 
-* [Parcours](../building-journeys/journey-gs.md#change-properties)
 * [Campagnes](../campaigns/create-campaign.md#create)
-* [Modèles](../content-management/content-templates.md)
+* [Éléments de décision](../experience-decisioning/items.md)
 * [Fragments](../content-management/fragments.md)
-* [Listes dʼabonnements](../landing-pages/subscription-list.md)
+* [Parcours](../building-journeys/journey-gs.md#change-properties)
 * [Pages de destination](../landing-pages/create-lp.md)
+* [Listes dʼabonnements](../landing-pages/subscription-list.md)
+* [Modèles](../content-management/content-templates.md)
 
 Vous pouvez sélectionner une balise existante ou en créer une nouvelle. Pour ce faire, procédez comme suit.
 

@@ -5,46 +5,34 @@ feature: Experience Decisioning
 topic: Integrations
 role: User
 level: Intermediate
-hide: true
-hidefromtoc: true
-badge: label="Version Beta"
+badge: label="Disponibilité limitée"
 exl-id: 4c57dbf9-b2a4-42da-8aa3-5a1b3a475a32
-source-git-commit: f71795c99157ce43f5250aaf10eb0b97f235b454
+source-git-commit: 5ce388e5d86950e5cc6b173aab48225825f1c648
 workflow-type: tm+mt
-source-wordcount: '437'
-ht-degree: 83%
+source-wordcount: '419'
+ht-degree: 63%
 
 ---
 
-# Prise en main de la prise de décision basée sur l’expérience {#get-started-experience-decisioning}
-
->[!BEGINSHADEBOX « Ce guide couvre les sujets suivants »]
-
-* **[Commencer avec Experience Decisioning](gs-experience-decisioning.md)**
-* Gérer les éléments de décision : [Configurer le catalogue d’éléments](catalogs.md) – [Créer des éléments de décision](items.md) – [Gérer des collections d’éléments](collections.md)
-* Configurer la sélection des éléments : [Créer des règles de décision](rules.md) – [Créer des méthodes de classement](ranking.md)
-* [Créer des stratégies de sélection](selection-strategies.md)
-* [Créer des politiques de décision](create-decision.md)
-
->[!ENDSHADEBOX]
-
-## Présentation d’Experience Decisioning {#about}
+# Commencer avec la prise de décision basée sur l’expérience {#get-started-experience-decisioning}
 
 >[!AVAILABILITY]
 >
->La fonctionnalité de décision basée sur l’expérience est actuellement disponible en version Beta pour certains utilisateurs et utilisatrices. Pour rejoindre le programme Beta, contactez l’assistance clientèle d’Adobe.
+>Cette prise de décision basée sur l’expérience n’est actuellement disponible que pour un ensemble d’organisations (disponibilité limitée). Pour en bénéficier, contactez votre représentant ou représentante Adobe.
 >
->Les stratégies de décision ne peuvent être utilisées que dans des campagnes d’expérience basées sur du code.
+>Pour l’instant, la fonctionnalité n’est pas disponible pour les clients qui ont acheté l’Adobe. **Bouclier sanitaire** et **Protection de la vie privée et protection** offres complémentaires.
+
+## Présentation d’Experience Decisioning {#about}
 
 Experience Decisioning simplifie la personnalisation en offrant un catalogue centralisé d’offres marketing connues sous le nom d’« éléments de décision » et un moteur de décision sophistiqué. Ce moteur tire parti des règles et des critères de classement pour sélectionner et présenter les éléments de décision les plus pertinents à chaque individu.
 
-Ces éléments de décision sont intégrés de manière transparente à un large éventail de surfaces entrantes grâce au nouveau canal d’expérience basé sur le code, désormais accessible dans les campagnes Journey Optimizer.
+Ces éléments de décision sont intégrés de manière transparente à un large éventail de surfaces entrantes grâce au nouveau canal d’expérience basé sur le code, désormais accessible dans les campagnes Journey Optimizer. Les stratégies de décision de prise de décision d’expérience ne peuvent être utilisées que dans des campagnes d’expérience basées sur du code.
 
 ## Étapes clés d’Experience Decisioning {#steps}
 
 Les principales étapes pour travailler avec Experience Decisioning sont les suivantes :
 
-1. **Attribuer les autorisations appropriées**. Les décisions ne sont disponibles que pour les utilisateurs ayant accès à une prise de décision liée à Experience **[!UICONTROL rôle]** comme les gestionnaires de décision. Si vous ne pouvez pas accéder aux décisions, vos autorisations doivent être étendues.
+1. **Attribuer les autorisations appropriées**. La prise de décision d’expérience n’est disponible que pour les utilisateurs ayant accès à une prise de décision liée à l’expérience **[!UICONTROL rôle]** comme les gestionnaires de décision. Si vous ne pouvez pas accéder à Experience Decisioning, vos autorisations doivent être étendues.
 
    +++Découvrez comment affecter le rôle des gestionnaires de décision
 
@@ -66,7 +54,7 @@ Les principales étapes pour travailler avec Experience Decisioning sont les su
 
 +++
 
-1. **Configurez des attributs personnalisés** : personnalisez le catalogue des éléments de décision selon vos besoins spécifiques en configurant des attributs personnalisés dans le schéma du catalogue.
+1. **Configuration des attributs personnalisés**: personnalisez le catalogue d’éléments selon vos besoins spécifiques en configurant des attributs personnalisés dans le schéma du catalogue.
 
 1. **Créez des éléments de décision** pour l’afficher à l’audience ciblée.
 

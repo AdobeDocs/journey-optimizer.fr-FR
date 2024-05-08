@@ -7,10 +7,10 @@ feature: Monitoring
 role: User
 level: Intermediate
 exl-id: 759b014a-c834-4331-bffd-5bc159ec555d
-source-git-commit: ac83b44ca24b26edfbf70a2781e1ed7dede318d4
+source-git-commit: 5ce388e5d86950e5cc6b173aab48225825f1c648
 workflow-type: tm+mt
-source-wordcount: '297'
-ht-degree: 100%
+source-wordcount: '319'
+ht-degree: 88%
 
 ---
 
@@ -32,11 +32,11 @@ Chaque action est enregistrée avec des métadonnées dans des « journaux d’
 
 ## Types d’événements capturés par les journaux d’audit {#events}
 
-Le tableau ci-dessous présente les actions sur lesquelles les ressources Journey Optimizer sont enregistrées par les journaux d’audit.
+Le tableau suivant décrit les actions sur lesquelles les ressources Journey Optimizer sont enregistrées par les journaux d’audit. La liste complète des actions capturées dans les journaux d’audit est disponible dans la [documentation d’Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/governance-privacy-security/audit-logs/overview.html?lang=fr#category).
 
 >[!NOTE]
 >
->La liste complète des actions capturées dans les journaux d’audit est disponible dans la [documentation d’Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/governance-privacy-security/audit-logs/overview.html?lang=fr#category).
+>Journaux d’audit liés à **gestion des décisions** ne sont visibles qu’à partir du fichier CSV qui peut être téléchargé à l’aide de la variable **[!UICONTROL Journal de téléchargement]** bouton .
 
 | Ressource | Action |
 |-----------|------------------|

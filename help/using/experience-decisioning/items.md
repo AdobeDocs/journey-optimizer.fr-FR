@@ -5,14 +5,12 @@ feature: Experience Decisioning
 topic: Integrations
 role: User
 level: Intermediate
-hide: true
-hidefromtoc: true
-badge: label="Version bêta"
+badge: label="Disponibilité limitée"
 exl-id: 5c866814-d79a-4a49-bfcb-7a767d802e90
-source-git-commit: 2b9261ff0f225a429b9be04db214452736163766
+source-git-commit: 5ce388e5d86950e5cc6b173aab48225825f1c648
 workflow-type: tm+mt
-source-wordcount: '1786'
-ht-degree: 98%
+source-wordcount: '1746'
+ht-degree: 97%
 
 ---
 
@@ -22,19 +20,9 @@ ht-degree: 98%
 >id="ajo_exd_items"
 >title="Gérer les éléments de décision"
 >abstract="Journey Optimizer vous permet de créer des offres marketing, appelées éléments de décision, que vous pouvez créer et organiser dans un catalogue et des collections centralisés. Actuellement, tous les éléments de décision créés sont consolidés dans un seul catalogue « Offres ». Depuis cet écran, vous pouvez également accéder au schéma du catalogue à l’aide du bouton **Modifier le schéma** et créer des attributs personnalisés pour vos éléments de décision."
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/experience-decisioning/decision-items/catalogs.html?lang=fr" text="Configurer le catalogue d’éléments"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/experience-decisioning/decision-items/catalogs.html?lang=fr" text="Configuration du catalogue d’éléments"
 
->[!BEGINSHADEBOX « Ce guide couvre les sujets suivants »]
-
-* [Commencer avec la prise de décision basée sur l’expérience](gs-experience-decisioning.md)
-* Gérer les éléments de décision : [Configurer le catalogue d’éléments](catalogs.md) – **[Créer des éléments de décision](items.md)** – [Gérer des collections d’éléments](collections.md)
-* Configurer la sélection des éléments : [Créer des règles de décision](rules.md) – [Créer des méthodes de classement](ranking.md)
-* [Créer des stratégies de sélection](selection-strategies.md)
-* [Créer des politiques de décision](create-decision.md)
-
->[!ENDSHADEBOX]
-
-Journey Optimizer vous permet de créer des offres marketing, appelées éléments de décision, que vous pouvez créer et organiser dans un catalogue et des collections centralisés. Ils sont composés d’attributs standard et personnalisés, conçus précisément pour répondre à vos besoins. En outre, ils intègrent des contraintes de profil qui vous permettent de définir pour qui un élément de décision peut être affiché.
+Journey Optimizer vous permet de créer des offres marketing, appelées éléments de décision, que vous pouvez créer et organiser dans un catalogue et des collections centralisés. Ils sont composés d’attributs standard et personnalisés conçus pour s’aligner précisément sur vos besoins. En outre, ils intègrent des contraintes de profil qui vous permettent de définir pour qui un élément de décision peut être affiché.
 
 Avant de créer un élément de décision, veillez à créer une **règle de décision** si vous souhaitez définir des conditions pour déterminer pour qui l’élément de décision peut être affiché. [Découvrez comment créer des règles de décision](rules.md).
 
@@ -51,7 +39,7 @@ Pour créer un élément de décision, accédez à **[!UICONTROL Experience Deci
 >id="ajo_exd_item_custom_attributes"
 >title="Définir les attributs personnalisés"
 >abstract="Les attributs personnalisés sont des attributs spécifiques, adaptés à vos besoins, que vous pouvez affecter à un élément de décision. Ils sont créés dans le schéma de catalogue des éléments de décision. Cette section s’affiche uniquement si vous avez ajouté au moins un attribut personnalisé au schéma de catalogue."
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/experience-decisioning/decision-items/catalogs.html?lang=fr" text="Configurer le catalogue d’éléments"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/experience-decisioning/decision-items/catalogs.html?lang=fr" text="Configuration du catalogue d’éléments"
 
 Commencez par définir les attributs standard et personnalisés de l’élément de décision :
 

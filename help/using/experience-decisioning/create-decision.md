@@ -1,18 +1,16 @@
 ---
-title: Créer des décisions
-description: Découvrez comment créer des décisions
+title: Création de stratégies de décisions
+description: Découvrez comment créer des stratégies de décisions
 feature: Experience Decisioning
 topic: Integrations
 role: User
 level: Experienced
-hide: true
-hidefromtoc: true
-badge: label="Version bêta"
+badge: label="Disponibilité limitée"
 exl-id: 63aa1763-2220-4726-a45d-3a3a8b8a55ec
-source-git-commit: 2b9261ff0f225a429b9be04db214452736163766
+source-git-commit: 5ce388e5d86950e5cc6b173aab48225825f1c648
 workflow-type: tm+mt
-source-wordcount: '1444'
-ht-degree: 99%
+source-wordcount: '1481'
+ht-degree: 83%
 
 ---
 
@@ -21,20 +19,12 @@ ht-degree: 99%
 >[!CONTEXTUALHELP]
 >id="ajo_code_based_decision"
 >title="Qu’est-ce qu’une décision ?"
->abstract="Les politiques de décision utilisent le moteur de prise de décision d’expérience afin de choisir le meilleur contenu à diffuser, en fonction de l’audience."
+>abstract="Les stratégies de décision contiennent toute la logique de sélection pour que le moteur de prise de décision sélectionne le meilleur contenu. Les stratégies de décision sont spécifiques aux campagnes. Leur objectif est de sélectionner les meilleures offres pour chaque profil, tandis que la création de campagne vous permet d’indiquer comment les éléments de décision sélectionnés doivent être présentés, y compris les attributs d’élément à inclure dans le message."
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioning/get-started-decision/starting-offer-decisioning.html?lang=fr" text="À propos de la prise de décision basée sur l’expérience"
 
->[!BEGINSHADEBOX « Ce guide couvre les sujets suivants »]
-
-* [Commencer avec la prise de décision basée sur l’expérience](gs-experience-decisioning.md)
-* Gérer les éléments de décision : [Configurer le catalogue d’éléments](catalogs.md) – [Créer des éléments de décision](items.md) – [Gérer des collections d’éléments](collections.md)
-* Configurer la sélection des éléments : [Créer des règles de décision](rules.md) – [Créer des méthodes de classement](ranking.md)
-* [Créer des stratégies de sélection](selection-strategies.md)
-* **[Créer des politiques de décision](create-decision.md)**
-
->[!ENDSHADEBOX]
-
 Les politiques de décision sont des conteneurs pour vos offres qui utilisent le moteur de prise de décision d’expérience afin de choisir le meilleur contenu à diffuser, en fonction de l’audience.
+
+Les stratégies de décision contiennent toute la logique de sélection pour que le moteur de prise de décision sélectionne le meilleur contenu. Les stratégies de décision sont spécifiques aux campagnes. Leur objectif est de sélectionner les meilleures offres pour chaque profil, tandis que la création de campagne vous permet d’indiquer comment les éléments de décision sélectionnés doivent être présentés, y compris les attributs d’élément à inclure dans le message.
 
 >[!NOTE]
 >
@@ -61,13 +51,9 @@ Les politiques de décision sont des conteneurs pour vos offres qui utilisent le
 
 Pour présenter la meilleure offre et expérience dynamique aux visiteurs et visiteuses de votre site Web ou de votre application mobile, ajoutez une politique de décision à une campagne basée sur du code. Pour ce faire, procédez comme suit :
 
-1. Créez une campagne et sélectionnez l’action **[!UICONTROL Expérience basée sur le code (bêta)]**. [En savoir plus](../code-based/create-code-based.md)
+1. Créez une opération et sélectionnez l’option **[!UICONTROL Expérience basée sur le code]** action. [En savoir plus](../code-based/create-code-based.md)
 
-   >[!NOTE]
-   >
-   >La fonctionnalité d’expérience basée sur le code est actuellement disponible en version bêta pour certains utilisateurs ou utilisatrices uniquement.
-
-1. Dans l’[éditeur de code](../code-based/create-code-based.md#edit-code), sélectionnez l’icône **[!UICONTROL Décisions]**, et cliquez sur **[!UICONTROL Créer une décision]**.
+1. Dans la [éditeur de code](../code-based/create-code-based.md#edit-code), sélectionnez la variable **[!UICONTROL Stratégie de décision]** et cliquez sur **[!UICONTROL Ajout d’une stratégie de décision]**.
 
    ![](assets/decision-code-based-create.png)
 
@@ -81,7 +67,7 @@ Pour présenter la meilleure offre et expérience dynamique aux visiteurs et vis
 
 1. Sélectionnez le nombre d’éléments à renvoyer. Par exemple, si vous sélectionnez 2, les 2 meilleures offres éligibles seront présentées pour la surface actuelle. Cliquez sur **[!UICONTROL Suivant]**.
 
-1. Utilisez le bouton **[!UICONTROL Ajouter une stratégie]** pour définir les stratégies de sélection de votre politique de décision. Chaque stratégie consiste en une collection d’offres associée à une contrainte d’éligibilité et à une méthode de classement permettant de déterminer les offres à afficher. [En savoir plus](selection-strategies.md)
+1. Utilisez le bouton **[!UICONTROL Ajouter une stratégie]** pour définir les stratégies de sélection de votre politique de décision. Chaque stratégie se compose d’une collection d’offres associée à une contrainte d’éligibilité et d’une méthode de classement permettant de déterminer les offres à afficher. [En savoir plus](selection-strategies.md)
 
    ![](assets/decision-code-based-strategies.png)
 
@@ -109,11 +95,9 @@ Pour présenter la meilleure offre et expérience dynamique aux visiteurs et vis
    >
    >Une offre de secours est facultative. Si aucune offre de secours n’est sélectionnée et qu’aucune stratégie n’est qualifiée, rien ne sera affiché par [!DNL Journey Optimizer].
 
-1. Enregistrez votre sélection et cliquez sur **[!UICONTROL Créer]**. La nouvelle politique de décision est ajoutée sous **[!UICONTROL Décisions]**.
+1. Enregistrez votre sélection et cliquez sur **[!UICONTROL Créer]**. Maintenant que la politique de décision est créée, vous pouvez utiliser les attributs de décision dans votre contenu d’expérience basée sur le code. [En savoir plus](#use-decision-policy)
 
    ![](assets/decision-code-based-decision-added.png)
-
-Maintenant que la politique de décision est créée, vous pouvez utiliser les attributs de décision dans votre contenu d’expérience basée sur le code. [En savoir plus](#use-decision-policy)
 
 ## Ordre d’évaluation {#evaluation-order}
 
@@ -184,7 +168,7 @@ Une fois créée, la politique de décision peut être utilisée dans l’[édit
 >
 >L’expérience basée sur le code utilise l’éditeur d&#39;expression [!DNL Journey Optimizer] avec toutes ses fonctionnalités de personnalisation et de création. [En savoir plus](../personalization/personalization-build-expressions.md)
 
-1. Cliquez sur lʼicône +. Le code correspondant à la politique de décision est ajouté. Vous pouvez désormais ajouter tous les attributs de décision que vous souhaitez dans ce code.
+1. Cliquez sur le bouton **[!UICONTROL Insérer une stratégie]** bouton . Le code correspondant à la stratégie de décision est ajouté.
 
    ![](assets/decision-code-based-add-decision.png)
 
@@ -192,19 +176,18 @@ Une fois créée, la politique de décision peut être utilisée dans l’[édit
    >
    >Cette séquence sera répétée selon le nombre de renvoi de la politique de décision que vous choisissez. Par exemple, si vous avez choisi de renvoyer 2 éléments lors de la [création de la décision](#add-decision), la même séquence sera répétée deux fois.
 
-1. Cliquez sur la politique de décision. Les attributs de décision s’affichent.
-
-   Ces attributs sont stockés dans le schéma du catalogue **[!UICONTROL Offres]**. Les attributs personnalisés sont stockés dans le dossier **`_<imsOrg`>**, et les attributs standard dans le dossier **`_experience`**. [En savoir plus sur le schéma du catalogue Offres](catalogs.md)
+1. Vous pouvez désormais ajouter tous les attributs de décision que vous souhaitez dans ce code. Les attributs disponibles sont stockés dans la variable **[!UICONTROL Offres]** schéma du catalogue. Les attributs personnalisés sont stockés dans le dossier **`_<imsOrg`>**, et les attributs standard dans le dossier **`_experience`**. [En savoir plus sur le schéma du catalogue Offres](catalogs.md)
 
    ![](assets/decision-code-based-decision-attributes.png)
+
+   >[!NOTE]
+   >
+   >Pour le suivi des éléments de la stratégie de décision, la variable `trackingToken`doit être ajouté comme suit pour le contenu de la stratégie de décision :
+   >`trackingToken: {{item._experience.decisioning.decisionitem.trackingToken}}`
 
 1. Cliquez sur chaque dossier pour le développer. Placez le curseur de votre souris à l’emplacement souhaité, puis cliquez sur l’icône + en regard de l’attribut à ajouter. Vous pouvez ajouter au code autant d’attributs que vous le souhaitez.
 
    ![](assets/decision-code-based-add-decision-attributes.png)
-
-1. Pour revenir à la racine de la politique de décision, cliquez sur l’icône de dossier.
-
-   ![](assets/decision-code-based-decision-folder.png)
 
 1. Vous pouvez également ajouter tout autre attribut disponible dans l’éditeur d’expression, tel que les attributs de profil.
 

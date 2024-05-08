@@ -1,32 +1,20 @@
 ---
 title: Catalogue d’éléments
-description: Découvrez comment utiliser le catalogue d’éléments.
+description: Découvrez comment utiliser le catalogue d’éléments
 feature: Experience Decisioning
 topic: Integrations
 role: User
 level: Intermediate
-hide: true
-hidefromtoc: true
-badge: label="Version Beta"
+badge: label="Disponibilité limitée"
 exl-id: 2d118f5a-32ee-407c-9513-fe0ebe3ce8f0
-source-git-commit: 2b9261ff0f225a429b9be04db214452736163766
+source-git-commit: 5ce388e5d86950e5cc6b173aab48225825f1c648
 workflow-type: tm+mt
-source-wordcount: '314'
-ht-degree: 94%
+source-wordcount: '307'
+ht-degree: 69%
 
 ---
 
 # Catalogue d’éléments {#catalog}
-
->[!BEGINSHADEBOX « Ce guide couvre les sujets suivants »]
-
-* [Commencer avec la prise de décision basée sur l’expérience](gs-experience-decisioning.md)
-* Gérer les éléments de décision : **[Configurer le catalogue d’éléments](catalogs.md)** – [Créer des éléments de décision](items.md) – [Gérer des collections d’éléments](collections.md)
-* Configurer la sélection des éléments : [Créer des règles de décision](rules.md) – [Créer des méthodes de classement](ranking.md)
-* [Créer des stratégies de sélection](selection-strategies.md)
-* [Créer des politiques de décision](create-decision.md)
-
->[!ENDSHADEBOX]
 
 Dans la prise de décision basée sur l’expérience, les catalogues servent de conteneurs centraux pour organiser les éléments de décision. Chaque catalogue est lié à un schéma Adobe Experience Platform, englobant tous les attributs affectés à un élément de décision.
 
@@ -53,10 +41,9 @@ Pour accéder au schéma du catalogue où les attributs des éléments de décis
 
    >[!CAUTION]
    >
-   >Pour l’instant, la prise de décision basée sur l’expérience prend exclusivement en charge les types de données répertoriés ci-dessous. Aucun champ ne se trouvant dans ces types de données ne pourra pas être utilisé lors de la création d’un élément de décision.
-   >* Chaîne
-   >* Booléen
-   >* Nombre
+   >Pour l’instant, Experience Decisioning prend exclusivement en charge les types de données suivants : chaîne, entier, booléen, date, dateTime et ressource de prise de décision. Aucun champ ne se trouvant pas en dehors de ces types de données ne sera disponible lors de la création d’un élément de décision ou d’un catalogue.
+
+   La valeur saisie sur un attribut avec l’attribut de ressource de prise de décision est une URL publique. La plupart du temps, cela pointe vers une image.
 
    Vous trouverez des informations détaillées sur l’utilisation des schémas Adobe Experience Platform dans la [Documentation du système XDM](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/overview.html?lang=fr).
 

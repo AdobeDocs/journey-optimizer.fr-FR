@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Beginner, Intermediate
 exl-id: 722f9c3b-b505-48c0-b126-31a7a841c245
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: 5ce388e5d86950e5cc6b173aab48225825f1c648
 workflow-type: tm+mt
-source-wordcount: '666'
-ht-degree: 100%
+source-wordcount: '636'
+ht-degree: 94%
 
 ---
 
@@ -89,8 +89,4 @@ Vous pouvez également dupliquer une offre ou une décision existante afin de cr
 
 ## Logs des modifications des offres et des décisions {#changes-logs}
 
-La bibliothèque des offres permet de visualiser toutes les modifications apportées à une offre ou à une décision. Pour cela, ouvrez l&#39;offre ou la décision en cliquant sur son nom dans la liste, puis sélectionnez l&#39;onglet **[!UICONTROL Log des modifications]**.
-
-Toutes les modifications apportées s&#39;affichent dans cet écran, ainsi que le nom de l&#39;utilisateur qui les a effectuées.
-
-![](../assets/change-logs.png)
+[!DNL Journey Optimizer] vous permet de visualiser toutes les modifications apportées à une offre ou à une décision. Pour ce faire, accédez à la **[!UICONTROL Audits]** dans le menu de gauche. [Découvrez comment contrôler les actions sur les ressources](../../privacy/audit-logs.md)
