@@ -7,7 +7,7 @@ role: User
 level: Experienced
 badge: label="Disponibilité limitée"
 exl-id: 63aa1763-2220-4726-a45d-3a3a8b8a55ec
-source-git-commit: 5ce388e5d86950e5cc6b173aab48225825f1c648
+source-git-commit: 5b36d082e054b7b75b09bd0392f9a58527a9c0a3
 workflow-type: tm+mt
 source-wordcount: '1481'
 ht-degree: 83%
@@ -20,7 +20,7 @@ ht-degree: 83%
 >id="ajo_code_based_decision"
 >title="Qu’est-ce qu’une décision ?"
 >abstract="Les stratégies de décision contiennent toute la logique de sélection pour que le moteur de prise de décision sélectionne le meilleur contenu. Les stratégies de décision sont spécifiques aux campagnes. Leur objectif est de sélectionner les meilleures offres pour chaque profil, tandis que la création de campagne vous permet d’indiquer comment les éléments de décision sélectionnés doivent être présentés, y compris les attributs d’élément à inclure dans le message."
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioning/get-started-decision/starting-offer-decisioning.html?lang=fr" text="À propos de la prise de décision basée sur l’expérience"
+>additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/decisioning/offer-decisioning/get-started-decision/starting-offer-decisioning" text="À propos de la prise de décision basée sur l’expérience"
 
 Les politiques de décision sont des conteneurs pour vos offres qui utilisent le moteur de prise de décision d’expérience afin de choisir le meilleur contenu à diffuser, en fonction de l’audience.
 
@@ -46,8 +46,8 @@ Les stratégies de décision contiennent toute la logique de sélection pour que
 >id="ajo_code_based_strategy"
 >title="Qu’est-ce qu’une stratégie ?"
 >abstract="La séquence de stratégies de sélection détermine la stratégie qui sera évaluée en premier. Au moins une stratégie est requise. Les éléments de décision des stratégies combinées seront évalués ensemble."
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioning/get-started-decision/starting-offer-decisioning.html?lang=fr" text="Créer des stratégies"
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioning/get-started-decision/starting-offer-decisioning.html?lang=fr" text="Ordre d’évaluation"
+>additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/decisioning/offer-decisioning/get-started-decision/starting-offer-decisioning" text="Créer des stratégies"
+>additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/decisioning/offer-decisioning/get-started-decision/starting-offer-decisioning" text="Ordre d’évaluation"
 
 Pour présenter la meilleure offre et expérience dynamique aux visiteurs et visiteuses de votre site Web ou de votre application mobile, ajoutez une politique de décision à une campagne basée sur du code. Pour ce faire, procédez comme suit :
 
