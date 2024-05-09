@@ -7,7 +7,7 @@ role: User
 level: Intermediate
 badge: label="Disponibilité limitée"
 exl-id: 5c866814-d79a-4a49-bfcb-7a767d802e90
-source-git-commit: 5ce388e5d86950e5cc6b173aab48225825f1c648
+source-git-commit: f586d2de34939c1cd105c26dc64c656c1f0fb990
 workflow-type: tm+mt
 source-wordcount: '1746'
 ht-degree: 97%
@@ -20,7 +20,7 @@ ht-degree: 97%
 >id="ajo_exd_items"
 >title="Gérer les éléments de décision"
 >abstract="Journey Optimizer vous permet de créer des offres marketing, appelées éléments de décision, que vous pouvez créer et organiser dans un catalogue et des collections centralisés. Actuellement, tous les éléments de décision créés sont consolidés dans un seul catalogue « Offres ». Depuis cet écran, vous pouvez également accéder au schéma du catalogue à l’aide du bouton **Modifier le schéma** et créer des attributs personnalisés pour vos éléments de décision."
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/experience-decisioning/decision-items/catalogs.html?lang=fr" text="Configuration du catalogue d’éléments"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/decisioning/experience-decisioning/decision-items/catalogs.html" text="Configuration du catalogue d’éléments"
 
 Journey Optimizer vous permet de créer des offres marketing, appelées éléments de décision, que vous pouvez créer et organiser dans un catalogue et des collections centralisés. Ils sont composés d’attributs standard et personnalisés conçus pour s’aligner précisément sur vos besoins. En outre, ils intègrent des contraintes de profil qui vous permettent de définir pour qui un élément de décision peut être affiché.
 
@@ -39,7 +39,7 @@ Pour créer un élément de décision, accédez à **[!UICONTROL Experience Deci
 >id="ajo_exd_item_custom_attributes"
 >title="Définir les attributs personnalisés"
 >abstract="Les attributs personnalisés sont des attributs spécifiques, adaptés à vos besoins, que vous pouvez affecter à un élément de décision. Ils sont créés dans le schéma de catalogue des éléments de décision. Cette section s’affiche uniquement si vous avez ajouté au moins un attribut personnalisé au schéma de catalogue."
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/experience-decisioning/decision-items/catalogs.html?lang=fr" text="Configuration du catalogue d’éléments"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/decisioning/experience-decisioning/decision-items/catalogs.html" text="Configuration du catalogue d’éléments"
 
 Commencez par définir les attributs standard et personnalisés de l’élément de décision :
 
@@ -65,7 +65,7 @@ Commencez par définir les attributs standard et personnalisés de l’élément
 >title="Ajouter des audiences ou des règles de décision"
 >abstract="Par défaut, tous les profils seront éligibles pour recevoir l’élément de décision; Vous pouvez toutefois utiliser des audiences ou des règles pour limiter l’élément à des profils spécifiques uniquement."
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/audiences-profiles-identities/audiences/about-audiences.html?lang=fr" text="Utiliser des audiences"
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/experience-decisioning/selection/rules.html?lang=fr" text="Utiliser des règles de décision"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/decisioning/experience-decisioning/selection/rules.html" text="Utiliser des règles de décision"
 
 Par défaut, tous les profils seront éligibles pour recevoir l’élément de décision; Vous pouvez toutefois utiliser des audiences ou des règles pour limiter l’élément à des profils spécifiques uniquement ; les deux solutions correspondant à différents usages. Pour plus d’informations, développez la section ci-dessous :
 
@@ -146,7 +146,7 @@ Pour définir des règles de limitation pour l’élément de décision, cliquez
    ![](assets/item-approve.png)
 
 <!--* Identifying how many times a given customer has been shown a decision item. 
-If a marketer wants to determine how many times a specific customer has been shown an offer, they can do that. Go to Profiles menu, Attributes tab. You’ll see all counter values. The alphanumeric string is associated to the offer. To make the map, go to an item, in the URL check the last alphanumeric strings. D stands for day, w stands for week, m for month. “Ce” custom event-->
+If a marketer wants to determine how many times a specific customer has been shown an offer, they can do that. Go to Profiles menu, Attributes tab. You'll see all counter values. The alphanumeric string is associated to the offer. To make the map, go to an item, in the URL check the last alphanumeric strings. D stands for day, w stands for week, m for month. "Ce" custom event-->
 
 ## Gérer les éléments de décision {#manage}
 

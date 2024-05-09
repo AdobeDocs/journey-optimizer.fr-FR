@@ -7,7 +7,7 @@ role: User
 level: Intermediate
 badge: label="Disponibilité limitée"
 exl-id: 1b73b398-050a-40bb-a8ae-1c66e3e26ce8
-source-git-commit: 5ce388e5d86950e5cc6b173aab48225825f1c648
+source-git-commit: f586d2de34939c1cd105c26dc64c656c1f0fb990
 workflow-type: tm+mt
 source-wordcount: '722'
 ht-degree: 84%
@@ -20,14 +20,14 @@ ht-degree: 84%
 >id="ajo_exd_config_strategies"
 >title="Définir vos stratégies de sélection"
 >abstract="Une stratégie de sélection est réutilisable et se compose d’une collection associée à une contrainte d’éligibilité et d’une méthode de classement permettant de déterminer les offres à afficher lorsqu’elles sont sélectionnées dans une stratégie de décision."
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/experience-decisioning/create-decision.html?lang=fr" text="Créer des politiques de décision"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/decisioning/experience-decisioning/create-decision.html" text="Créer des politiques de décision"
 
 >[!CONTEXTUALHELP]
 >id="ajo_exd_strategy_eligibility"
 >title="Limiter les profils éligibles"
 >abstract="Vous pouvez restreindre la sélection des offres pour cette stratégie de sélection. Par défaut, tous les profils sont éligibles, mais vous pouvez utiliser des audiences ou des règles pour limiter la sélection des offres à des profils spécifiques uniquement."
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/audiences-profiles-identities/audiences/about-audiences.html?lang=fr" text="Utiliser des audiences"
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/experience-decisioning/selection/rules.html?lang=fr" text="Utiliser des règles de décision"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/decisioning/experience-decisioning/selection/rules.html" text="Utiliser des règles de décision"
 
 Une stratégie de sélection est réutilisable et se compose d’une collection associée à une contrainte d’éligibilité et d’une méthode de classement permettant de déterminer les offres à afficher lorsqu’elles sont sélectionnées dans une [stratégie de décision](create-decision.md).
 
@@ -89,7 +89,7 @@ Pour créer une stratégie de sélection, procédez comme suit.
 >id="ajo_exd_strategy_ranking"
 >title="Définir le classement des offres"
 >abstract="Si plusieurs offres sont éligibles pour une stratégie de sélection donnée, choisissez la méthode qui sélectionnera la meilleure offre pour chaque profil lors de la création d’une stratégie de sélection : formule de priorité ou de classement."
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/experience-decisioning/create-decision.html?lang=fr" text="Créer des politiques de décision"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/decisioning/experience-decisioning/create-decision.html" text="Créer des politiques de décision"
 
 Si plusieurs offres sont éligibles pour une stratégie de sélection donnée, vous pouvez choisir la méthode qui sélectionnera la meilleure offre pour chaque profil lors de la création d’une stratégie de sélection. Vous pouvez classer les offres par :
 
