@@ -7,17 +7,17 @@ feature: Content Assistant
 topic: Content Management
 role: User
 level: Beginner
-badge: label="Version Beta" type="Informative"
+badge: label="Version bêta" type="Informative"
 hide: true
 hidefromtoc: true
-source-git-commit: ff7f2b42d63e8a3d02f5dbebd926eda26c646752
+source-git-commit: b62f8954e09f50896ad5e70784c5a93943617e85
 workflow-type: tm+mt
-source-wordcount: '1319'
+source-wordcount: '1320'
 ht-degree: 93%
 
 ---
 
-# Génération web à l’aide de l’assistant d’IA {#generative-web}
+# Génération de pages web avec l’assistant d’IA {#generative-web}
 
 >[!BEGINSHADEBOX]
 
@@ -27,7 +27,7 @@ ht-degree: 93%
 * [Génération d’e-mails avec l’assistant IA](generative-email.md)
 * [Génération de SMS avec l’assistant IA](generative-SMS.md)
 * [Génération des notifications push à l’aide de l’assistant d’IA](generative-push.md)
-* **[Génération de pages web avec l’assistant d’IA](generative-web.md)**
+* Génération de pages web avec l’assistant d’IA
 * [Expérience de contenu avec l’assistant d’IA](generative-experimentation.md)
 
 >[!ENDSHADEBOX]
