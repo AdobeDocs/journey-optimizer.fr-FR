@@ -7,7 +7,7 @@ feature: SMS, Channel Configuration
 role: Admin
 level: Intermediate
 exl-id: 4dcd22ed-bf7e-4789-ab7b-33544c857db8
-source-git-commit: 016b823161b162cb00e0eae27cd45873752425ba
+source-git-commit: a08a28d7bfe912ff545ca559bd04b70642fe2ab5
 workflow-type: tm+mt
 source-wordcount: '343'
 ht-degree: 84%
@@ -43,7 +43,7 @@ Avant d’envoyer des SMS ou des MMS, vous devez configurer votre environnement 
    * [Avec Sinch](sms-configuration-sinch.md)
    * [Avec Infobip](sms-configuration-infobip.md)
    * [Avec Twilio](sms-configuration-twilio.md)
-1. [Créer une surface SMS](#message-preset-sms)
+1. [Créer une surface SMS](sms-configuration-surface.md)
 
 Ces étapes doivent être exécutées par un [Administrateur ou une Administratrice système](../start/path/administrator.md) Adobe Journey Optimizer.
 
