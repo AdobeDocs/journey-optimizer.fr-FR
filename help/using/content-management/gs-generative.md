@@ -14,7 +14,7 @@ exl-id: 6e291ce3-f324-4e5d-975b-5229dea4d581
 source-git-commit: b62f8954e09f50896ad5e70784c5a93943617e85
 workflow-type: tm+mt
 source-wordcount: '497'
-ht-degree: 79%
+ht-degree: 85%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 79%
 >[!CONTEXTUALHELP]
 >id="ajo_content_generation"
 >title="Créer le contenu d’un e-mail"
->abstract="L’assistant d’IA de Adobe Journey Optimizer fournit des suggestions proactives de variations de contenu pour le texte et les images. Il est disponible pour les canaux e-mail, notification push, SMS et web. Cette nouvelle fonctionnalité permet de générer rapidement du texte et des images. "
+>abstract="L’assistant IA d’Adobe Journey Optimizer offre des suggestions proactives de variations de contenu pour le texte et les images. Il est disponible pour les canaux e-mail, notification push, SMS et web. Cette nouvelle fonctionnalité permet de générer rapidement du texte et des images. "
 
 >[!BEGINSHADEBOX]
 
@@ -41,7 +41,7 @@ ht-degree: 79%
 >
 >L’assistant d’IA dans Adobe Journey Optimizer est actuellement disponible en version bêta pour sélectionner uniquement les utilisateurs.
 
-L’assistant d’IA de Adobe Journey Optimizer fournit des suggestions proactives de variations de contenu pour le texte et les images. Il est disponible pour les canaux email, push et SMS. Cette nouvelle fonctionnalité permet de générer rapidement du texte et des images. La génération d’images est gérée avec Adobe Firefly.
+L’assistant IA d’Adobe Journey Optimizer offre des suggestions proactives de variations de contenu pour le texte et les images. Il est disponible pour les canaux email, push et SMS. Cette nouvelle fonctionnalité permet de générer rapidement du texte et des images. La génération d’images est gérée avec Adobe Firefly.
 
 Utilisez l’Assistant IA dans Journey Optimizer pour optimiser l’impact de votre message en testant plusieurs images et titres principaux. Générez plusieurs variantes et créez une expérience pour les comparer. L’expérience de contenu Journey Optimizer vous permet de définir plusieurs traitements de message afin de mesurer celui qui fonctionne le mieux pour votre audience cible. Vous pouvez choisir de varier le contenu ou l’objet de la diffusion. L’audience du message est attribuée de manière aléatoire à chaque traitement afin de déterminer laquelle fonctionne le mieux avec la mesure spécifiée. En savoir plus sur l’expérience de contenu dans [cette section](../campaigns/content-experiment.md).
 

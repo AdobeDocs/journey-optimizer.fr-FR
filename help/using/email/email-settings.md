@@ -38,11 +38,11 @@ La configuration de surface d’e-mail est récupérée pour envoyer des communi
 >
 >Les paramètres de surface d’e-mail mis à jour seront automatiquement récupérés dans le(s) parcours ou campagne(s) où la surface est utilisée.
 
-## Type d&#39;email {#email-type}
+## Type d’e-mail {#email-type}
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_presets_emailtype"
->title="Définition du type d’email"
+>title="Définir le contenu de l’e-mail"
 >abstract="Sélectionnez le type d’e-mails qui sera envoyé lors de l’utilisation de cette surface : Marketing pour les messages promotionnels, qui nécessitent le consentement de l’utilisateur, ou Transactionnel pour les messages non commerciaux, qui peuvent également être envoyés aux profils désabonnés dans des contextes spécifiques."
 
 Dans le **Type de courrier électronique** , sélectionnez le type de message pour la surface : **[!UICONTROL Marketing]** ou **[!UICONTROL Transactionnel]**.
