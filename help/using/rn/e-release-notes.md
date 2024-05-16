@@ -8,10 +8,10 @@ topic: Content Management
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 8dacf28f4c3217a57e648b3c80e1724d9794c9ea
+source-git-commit: cf751ea0e2a6b02ab996c712ac1309ac06b32979
 workflow-type: tm+mt
-source-wordcount: '699'
-ht-degree: 35%
+source-wordcount: '764'
+ht-degree: 32%
 
 ---
 
@@ -85,33 +85,17 @@ Cette version apporte les nouvelles fonctionnalités détaillées ci-dessous.
 <table>
 <thead>
 <tr>
-<th><strong>Prise en charge de plusieurs entités pour la recherche locale - Version bêta</strong><br/></th>
+<th><strong>Données de personnalisation étendues - Version bêta</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>À déterminer</p>
+<p>Vous pouvez désormais rechercher et récupérer des valeurs de données dans des jeux de données Adobe Experience Platform et utiliser ces valeurs pour créer des conditions dans Adobe Journey Optimizer. Vous pouvez exploiter les données d’un jeu de données de recherche lorsqu’une relation a été définie à l’aide d’un attribut dans un tableau d’objets. Les valeurs de recherche seront disponibles dans les conditions de vos parcours, dans les actions personnalisées et dans la personnalisation des messages.</p>
 </td>
 </tr>
 </tbody>
 </table>
-
-
-<!--table>
-<thead>
-<tr>
-<th><strong>Email Surface Personalization - Private beta </strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>You can now define dynamic subdomains and personalized header parameters when creating email channel surfaces, for increased flexibility and control over your email settings.</p>
-</td>
-</tr>
-</tbody>
-</table-->
 
 ### Améliorations {#e-improvements}
 
@@ -137,7 +121,7 @@ De la version bêta à la version LA, les améliorations suivantes ont été ajo
 **Canal e-mail**
 
 * **List-unsubscribe** - Suite aux récentes annonces Gmail et Yahoo pour les expéditeurs en masse, Journey Optimizer prend en charge l’option &quot;post/1-click&quot; List-Unsubscribe.
-* **Scoring des messages indésirables** - Vous pouvez désormais vérifier le score de spam de votre contenu dans un rapport de spam dédié. Grâce à SpamAssassin, Adobe Journey Optimizer peut désormais tester le contenu de vos emails et lui attribuer un score pour indiquer si les fournisseurs de FAI le considéreront comme un spam ou non. [En savoir plus](../content-management/spam-report.md)
+* **Scoring des messages indésirables** (Version bêta) - Vous pouvez désormais vérifier le score de spam de votre contenu dans un rapport de spam dédié. Grâce à SpamAssassin, Adobe Journey Optimizer peut désormais tester le contenu de vos emails et lui attribuer un score pour indiquer si les fournisseurs de FAI le considéreront comme un spam ou non. [En savoir plus](../content-management/spam-report.md)
 
 
 **Audiences**
@@ -146,10 +130,10 @@ De la version bêta à la version LA, les améliorations suivantes ont été ajo
 
 **Personnalisation**
 
-* **Table de recherche** - Vous pouvez désormais exploiter les données d’un jeu de données de recherche lorsqu’une relation a été définie à l’aide d’un attribut dans un tableau d’objets. Les valeurs de recherche seront disponibles en parcours (conditions, actions personnalisées, etc.) ni dans la personnalisation des messages.
-* **Fragment d’expression** - Les fragments d’expression sont désormais disponibles pour le canal In-App.
+* **Fragment d’expression** - Les fragments d’expression sont désormais disponibles pour le **Canal in-app**. [En savoir plus](../personalization/use-expression-fragments.md)
 
 **Parcours**
 
 * **Stratégies de fusion** - Les stratégies de fusion peuvent désormais être configurées et utilisées dans vos parcours.
 * **Prise en charge de mTLS** - Le protocole mTLS est désormais pris en charge dans les API Journey Optimizer et les actions personnalisées.
+* **Tables de recherche dans les événements** - Vous pouvez désormais exploiter les données d’un jeu de données de recherche lorsqu’une relation a été définie à l’aide d’un attribut dans un tableau d’objets. Les valeurs de recherche seront disponibles en parcours (conditions, actions personnalisées, etc.) ni dans la personnalisation des messages.
