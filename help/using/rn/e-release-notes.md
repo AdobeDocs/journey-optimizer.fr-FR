@@ -8,10 +8,10 @@ topic: Content Management
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: cf751ea0e2a6b02ab996c712ac1309ac06b32979
+source-git-commit: 2eb1ffff7101362b52ae91f1a7277188664b2954
 workflow-type: tm+mt
-source-wordcount: '764'
-ht-degree: 32%
+source-wordcount: '778'
+ht-degree: 31%
 
 ---
 
@@ -91,7 +91,7 @@ Cette version apporte les nouvelles fonctionnalités détaillées ci-dessous.
 <tbody>
 <tr>
 <td>
-<p>Vous pouvez désormais rechercher et récupérer des valeurs de données dans des jeux de données Adobe Experience Platform et utiliser ces valeurs pour créer des conditions dans Adobe Journey Optimizer. Vous pouvez exploiter les données d’un jeu de données de recherche lorsqu’une relation a été définie à l’aide d’un attribut dans un tableau d’objets. Les valeurs de recherche seront disponibles dans les conditions de vos parcours, dans les actions personnalisées et dans la personnalisation des messages.</p>
+<p>Vous pouvez désormais rechercher et récupérer des valeurs de données dans des jeux de données Adobe Experience Platform et utiliser ces valeurs pour créer des conditions dans Adobe Journey Optimizer. Vous pouvez exploiter les données d’un jeu de données de recherche lorsqu’une relation a été définie à l’aide d’un attribut dans un tableau d’objets. Vous pouvez spécifier des jeux de données non activés pour le profil pour la recherche. Une fois activé, vous pouvez utiliser un attribut de profil comme clé de jointure au jeu de données spécifié pour récupérer d’autres données à des fins de personnalisation.</p>
 </td>
 </tr>
 </tbody>
