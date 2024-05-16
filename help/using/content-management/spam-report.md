@@ -8,7 +8,7 @@ badge: label="Version bêta"
 hide: true
 hidefromtoc: true
 exl-id: 9ab43b14-41cf-49f1-bdcf-6fee58db5000
-source-git-commit: 8dacf28f4c3217a57e648b3c80e1724d9794c9ea
+source-git-commit: 4c1dca7815594bbbf5a2d84682338e8b2d743965
 workflow-type: tm+mt
 source-wordcount: '297'
 ht-degree: 34%
@@ -30,8 +30,7 @@ Cela vous permet de déterminer si un message risque d’être considéré comme
 >
 >* Pour l’instant, l’analyse du rapport de spam ne peut être effectuée que pour le contenu en anglais.
 >
->* >
->Le rapport Spam est informatif et n&#39;empêche pas l&#39;envoi de messages dont le score est mauvais.
+>* Le rapport Spam est informatif et n&#39;empêche pas l&#39;envoi de messages dont le score est mauvais.
 
 Pour accéder au **[!UICONTROL Rapport Spam]**, suivez les étapes ci-dessous.
 
