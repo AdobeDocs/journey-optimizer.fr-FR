@@ -9,7 +9,7 @@ role: Admin
 level: Experienced
 keywords: paramètres, e-mail, configuration
 exl-id: 13536962-7541-4eb6-9ccb-4f97e167734a
-source-git-commit: 0571a11eabffeb5e318bebe341a8df18da7db598
+source-git-commit: 5b7faccbf563c6877a1077b0f6012418848c0ccb
 workflow-type: tm+mt
 source-wordcount: '2415'
 ht-degree: 94%
@@ -145,7 +145,7 @@ Lors de la définition de l’adresse **[!UICONTROL Répondre à (e-mail)]**, vo
 
 La boîte de réception utilisée pour les réponses recevra tous les e-mails de réponse, à l’exception des notifications d’absence du bureau et des réponses de défi, qui sont reçues sur l’adresse **[!UICONTROL E-mail d’erreur]**.
 
-Pour assurer une bonne gestion des réponses, procédez comme suit :
+Pour assurer une gestion correcte des réponses, suivez les recommandations ci-dessous :
 
 * Assurez-vous que la boîte de réception dédiée dispose de suffisamment de capacité pour recevoir tous les e-mails de réponse envoyés à l’aide de la surface d’e-mail. Si la boîte de réception renvoie des rebonds, il se peut que certaines réponses de vos clients ne soient pas reçues.
 

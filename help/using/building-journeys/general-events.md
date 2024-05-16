@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: personnalisé, général, événement, parcours
 exl-id: b1813122-7031-452e-9ac5-a4ea7c6dc57c
-source-git-commit: 0571a11eabffeb5e318bebe341a8df18da7db598
+source-git-commit: 5b7faccbf563c6877a1077b0f6012418848c0ccb
 workflow-type: tm+mt
 source-wordcount: '547'
 ht-degree: 74%
@@ -58,7 +58,7 @@ Notez que si vous souhaitez configurer une temporisation pour plusieurs événem
 
 Le délai d’expiration défini s’applique à tous les événements situés après la variable **[!UICONTROL Attente]** activité :
 
-* Si un événement est identifié dans le délai d’expiration, l’individu se dirige vers le chemin d’accès de l’événement reçu.
+* Si un événement est reçu dans le délai d’expiration, l’individu se dirige vers le chemin de l’événement reçu.
 * Si aucun événement n’est reçu pendant le délai d’expiration, l’individu se dirige vers la branche de délai d’expiration de l’événement où le délai d’expiration a été défini.
 
 ![](assets/event-timeout-group.png)

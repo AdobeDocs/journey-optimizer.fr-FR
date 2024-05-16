@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 0571a11eabffeb5e318bebe341a8df18da7db598
+source-git-commit: 5b7faccbf563c6877a1077b0f6012418848c0ccb
 workflow-type: tm+mt
 source-wordcount: '5230'
 ht-degree: 98%
@@ -87,7 +87,7 @@ Cette page répertorie toutes les mises à jour récentes de la documentation de
 * Mise à jour du document d’authentification personnalisé selon la durée de mise en cache. [En savoir plus] (../datasource/external-data-sources.md)
 * La prise en charge de `<listObject>` a été modifiée dans plusieurs fonctions.
 * Mise à jour du paramètre **durée** de la fonction `toString`. [En savoir plus](../building-journeys/functions/functiontostring.md)
-* Dans certains cas d’utilisation de sources de données externes, l’utilisation d’actions personnalisées est recommandée.
+* Pour certains cas d’utilisation de sources de données externes, l’utilisation d’actions personnalisées est recommandée.
 * La syntaxe des champs d’événements a été mise à jour. La syntaxe suivante est obsolète : `@(my_event.myfield}`. Elle est remplacée par `@event{my_event.myfield}`. [En savoir plus](../building-journeys/expression/field-references.md)
 * Réorganisation des guides de Rapport global et de Rapport dynamique. [En savoir plus](../reports/campaign-global-report.md)
 
