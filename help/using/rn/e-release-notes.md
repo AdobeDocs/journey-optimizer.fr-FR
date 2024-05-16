@@ -8,10 +8,10 @@ topic: Content Management
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: b5e073ef1d0c579f430913d60442d7d4cfa620a3
+source-git-commit: 628d49ee45ce161fc5e213bda60cb44d41223369
 workflow-type: tm+mt
-source-wordcount: '836'
-ht-degree: 27%
+source-wordcount: '844'
+ht-degree: 26%
 
 ---
 
@@ -76,7 +76,7 @@ Cette version apporte les nouvelles fonctionnalités détaillées ci-dessous.
 <tr>
 <td>
 <p>Vous pouvez désormais créer des règles de limitation de fréquence granulaires et les appliquer à différents types de communications marketing par le biais d’ensembles de règles. Grâce à cette nouvelle fonctionnalité, vous pouvez contrôler la fréquence à laquelle vos audiences reçoivent un message en définissant des règles cross-canal, qui excluent automatiquement les profils sur-sollicités des messages et actions.</p>
-<p>La fonctionnalité de règles métier n’est actuellement disponible qu’en version bêta publique.</p>
+<p>La fonctionnalité de règles de fonctionnement est actuellement disponible en version bêta publique.</p>
 <p>Pour plus d’informations, consultez la <a href="../configuration/business-rules.md">documentation détaillée</a>.</p>
 </td>
 </tr>
@@ -94,6 +94,7 @@ Cette version apporte les nouvelles fonctionnalités détaillées ci-dessous.
 <tr>
 <td>
 <p>Vous pouvez désormais rechercher et récupérer des valeurs de données dans des jeux de données Adobe Experience Platform et utiliser ces valeurs pour créer des conditions dans Adobe Journey Optimizer. Vous pouvez exploiter les données d’un jeu de données de recherche lorsqu’une relation a été définie à l’aide d’un attribut dans un tableau d’objets. Vous pouvez spécifier des jeux de données non activés pour le profil pour la recherche. Une fois activé, vous pouvez utiliser un attribut de profil comme clé de jointure au jeu de données spécifié pour récupérer d’autres données à des fins de personnalisation.</p>
+<p>Cette fonctionnalité est actuellement disponible en version bêta publique.</p>
 </td>
 </tr>
 </tbody>
