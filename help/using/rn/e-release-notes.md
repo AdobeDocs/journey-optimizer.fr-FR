@@ -8,10 +8,10 @@ topic: Content Management
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 21b4c3dbdb4b26caa64104319d9f79e489bb5925
+source-git-commit: 91a687563ecd989c89061996b5906bcc77e82e23
 workflow-type: tm+mt
-source-wordcount: '735'
-ht-degree: 28%
+source-wordcount: '736'
+ht-degree: 27%
 
 ---
 
@@ -104,11 +104,11 @@ Cette version apporte les nouvelles fonctionnalités détaillées ci-dessous.
 
 Cette version est fournie avec les améliorations répertoriées ci-dessous.
 
-**Experience Decisioning**
+**Experience Decisioning** (Disponibilité limitée)
 
 Les améliorations suivantes ont été ajoutées depuis la version bêta vers cette version :
 
-* **Prise de décision d’expérience + expériences basées sur le code (LA)** - Vous pouvez désormais tirer parti de la fonction de prise de décision d’expérience pour utiliser des éléments de décision dans vos campagnes basées sur du code. Remarque : Le canal d’expérience basé sur le code et la prise de décision sur l’expérience ne sont pas disponibles pour les organisations qui ont acheté les offres complémentaires Adobe Healthcare Shield et Privacy and Security Shield. [En savoir plus](../code-based/get-started-code-based.md)
+* **Experience Decisioning + expériences basées sur le code** - Vous pouvez désormais tirer parti de la fonction de prise de décision d’expérience pour utiliser des éléments de décision dans vos campagnes basées sur du code. Remarque : Le canal d’expérience basé sur le code et la prise de décision sur l’expérience ne sont pas disponibles pour les organisations qui ont acheté les offres complémentaires Adobe Healthcare Shield et Privacy and Security Shield. [En savoir plus](../code-based/get-started-code-based.md)
 * **Données contextuelles** - Vous pouvez désormais exploiter les données contextuelles de Adobe Experience Platform dans vos règles de décision et vos formules de classement. [En savoir plus](../experience-decisioning/context-data.md)
 * **Nouvelle autorisation** - Une nouvelle autorisation &quot;Gérer les décisions d’expérience&quot; est désormais disponible pour la ressource Gestion des décisions. Il vous permet de gérer les droits liés à Experience Decisioning. [En savoir plus](../experience-decisioning/gs-experience-decisioning.md)
 * **Règles de limitation** - Vous pouvez désormais ajouter plusieurs règles de limitation pour un élément de décision donné dans Experience Decisioning. Cela vous permet d’augmenter le niveau de contrôle sur la manière dont les offres sont envoyées. [En savoir plus](../experience-decisioning/items.md#capping)
