@@ -7,7 +7,7 @@ role: User
 level: Intermediate
 badge: label="Disponibilité limitée"
 exl-id: 5c866814-d79a-4a49-bfcb-7a767d802e90
-source-git-commit: f586d2de34939c1cd105c26dc64c656c1f0fb990
+source-git-commit: b6c5bb09d7a1cb7f61a532cd5ffd262436e09039
 workflow-type: tm+mt
 source-wordcount: '1746'
 ht-degree: 97%
@@ -121,7 +121,7 @@ Pour définir des règles de limitation pour l’élément de décision, cliquez
 
    * Sélectionnez **[!UICONTROL Au total]** pour définir le nombre de fois où un élément peut être proposé dans l’audience cible combinée, ce qui signifie pour l’ensemble des utilisateurs et utilisatrices. Par exemple, si vous êtes une entreprise distribuant de l’électronique qui a conclu un « contrat télévisuel d’offre d’ouverture », vous souhaitez que l’offre ne soit renvoyée que 200 fois sur tous les profils.
 
-* Sélectionnez **[!UICONTROL Par profil]** pour définir le nombre de fois où l’offre peut être proposée à la même personne. Par exemple, si vous êtes une banque avec une offre « Carte de crédit Platinum », vous ne souhaitez pas que cette offre soit présentée plus de 5 fois par profil. En effet, vous pensez que si l’utilisateur a vu l’offre 5 fois et n’a pas agi dessus, il a plus de chance d’agir sur la meilleure offre suivante.
+   * Sélectionnez **[!UICONTROL Par profil]** pour définir le nombre de fois où l’offre peut être proposée à la même personne. Par exemple, si vous êtes une banque avec une offre « Carte de crédit Platinum », vous ne souhaitez pas que cette offre soit présentée plus de 5 fois par profil. En effet, vous pensez que si l’utilisateur a vu l’offre 5 fois et n’a pas agi dessus, il a plus de chance d’agir sur la meilleure offre suivante.
 
 1. Dans le champ **[!UICONTROL Limiter le nombre de limitations]**, indiquez le nombre de fois où l’offre peut être présentée à l’ensemble des utilisateurs et utilisatrices ou à chaque profil, en fonction du type de limitation sélectionné. Le nombre doit être un entier supérieur à 0.
 
