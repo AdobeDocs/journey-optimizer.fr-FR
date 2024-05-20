@@ -20,7 +20,7 @@ ht-degree: 97%
 >id="ajo_exd_items"
 >title="Gérer les éléments de décision"
 >abstract="Journey Optimizer vous permet de créer des offres marketing, appelées éléments de décision, que vous pouvez créer et organiser dans un catalogue et des collections centralisés. Actuellement, tous les éléments de décision créés sont consolidés dans un seul catalogue « Offres ». Depuis cet écran, vous pouvez également accéder au schéma du catalogue à l’aide du bouton **Modifier le schéma** et créer des attributs personnalisés pour vos éléments de décision."
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/decisioning/experience-decisioning/decision-items/catalogs.html" text="Configuration du catalogue d’éléments"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/decisioning/experience-decisioning/decision-items/catalogs.html" text="Configurer le catalogue d’éléments"
 
 Journey Optimizer vous permet de créer des offres marketing, appelées éléments de décision, que vous pouvez créer et organiser dans un catalogue et des collections centralisés. Ils sont composés d’attributs standard et personnalisés conçus pour s’aligner précisément sur vos besoins. En outre, ils intègrent des contraintes de profil qui vous permettent de définir pour qui un élément de décision peut être affiché.
 
@@ -39,7 +39,7 @@ Pour créer un élément de décision, accédez à **[!UICONTROL Experience Deci
 >id="ajo_exd_item_custom_attributes"
 >title="Définir les attributs personnalisés"
 >abstract="Les attributs personnalisés sont des attributs spécifiques, adaptés à vos besoins, que vous pouvez affecter à un élément de décision. Ils sont créés dans le schéma de catalogue des éléments de décision. Cette section s’affiche uniquement si vous avez ajouté au moins un attribut personnalisé au schéma de catalogue."
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/decisioning/experience-decisioning/decision-items/catalogs.html" text="Configuration du catalogue d’éléments"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/decisioning/experience-decisioning/decision-items/catalogs.html" text="Configurer le catalogue d’éléments"
 
 Commencez par définir les attributs standard et personnalisés de l’élément de décision :
 

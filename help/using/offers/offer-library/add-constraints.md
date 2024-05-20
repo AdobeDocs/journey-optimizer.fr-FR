@@ -9,7 +9,7 @@ exl-id: 7234a8e8-4ab0-4f17-a833-5e452fadac35
 source-git-commit: 260b9ec0a70526ac37da444e183fc1d01b97b22b
 workflow-type: tm+mt
 source-wordcount: '2617'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -142,7 +142,7 @@ Pour faire simple, la sortie d’une audience est une liste de profils, tandis q
 >id="ajo_decisioning_capping"
 >title="Utilisation de la limitation"
 >abstract="Pour éviter de sursolliciter vos clients, utilisez la limitation pour définir le nombre maximal de fois où une offre peut être présentée."
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/decisioning/offer-decisioning/managing-offers-in-the-offer-library/configure-offers/add-constraints.html#capping-change-date" text="La modification des dates peut avoir un impact sur la limitation."
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/decisioning/offer-decisioning/managing-offers-in-the-offer-library/configure-offers/add-constraints.html?lang=fr#capping-change-date" text="La modification des dates peut avoir un impact sur la limitation."
 
 La limitation est utilisée comme contrainte pour définir le nombre maximal de fois où une offre peut être présentée.
 
