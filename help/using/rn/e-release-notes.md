@@ -6,10 +6,10 @@ description: Notes de mise à jour anticipées de Journey Optimizer
 feature: Release Notes
 topic: Content Management
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: bf098c2b8c1eeb48b4c2a2857db9946c32533ffe
+source-git-commit: 949d1e021cf46aebf7bf564797d717205e4cf4b8
 workflow-type: tm+mt
-source-wordcount: '705'
-ht-degree: 26%
+source-wordcount: '738'
+ht-degree: 25%
 
 ---
 
@@ -140,6 +140,7 @@ Les améliorations suivantes ont été ajoutées depuis la version bêta vers ce
 <!--* **Merge policies** (Limited Availability)- Merge policies used by a journey are now visible and consistent throughout the journey.-->
 * **Prise en charge de mTLS** - L’authentification mTLS est désormais prise en charge dans les actions personnalisées. Aucune configuration supplémentaire n’est requise dans l’action ou le parcours personnalisé pour activer mTLS ; elle se produit automatiquement lorsqu’un point d’entrée compatible mTLS est détecté.
 * **Tables de recherche dans les événements** - Vous pouvez désormais exploiter les données d’un jeu de données de recherche lorsqu’une relation a été définie à l’aide d’un attribut dans un tableau d’objets. Les valeurs de recherche seront disponibles en parcours (conditions, actions personnalisées, etc.) ni dans la personnalisation des messages.
+* **Éditeur d’expression avancé dans la configuration des événements** - Vous pouvez désormais utiliser l’éditeur d’expression avancé lors de la configuration d’un événement, ce qui vous permet de définir des expressions plus complexes ou d’utiliser des fonctions dans la condition d’identifiant d’événement.
 
 **Mondialisation**
 
