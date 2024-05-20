@@ -10,9 +10,9 @@ level: Experienced
 keywords: jeu de données, optimizer, cas d’utilisation
 exl-id: 26ba8093-8b6d-4ba7-becf-b41c9a06e1e8
 source-git-commit: 0571a11eabffeb5e318bebe341a8df18da7db598
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '844'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -32,11 +32,11 @@ Pour consulter la liste complète des champs et attributs de chaque schéma, con
 
 ## Jeu de données d’événement d’expérience de tracking e-mail{#email-tracking-experience-event-dataset}
 
-_Nom dans l’interface : Jeu de données d’événement de suivi de l’expérience de suivi des courriers électroniques AJO_
+_Nom dans l’interface : Jeu de données d’événement d’expérience de tracking e-mail sur AJO_
 
 Jeu de données système pour l’ingestion d’événements d’expérience de tracking e-mail à partir de Journey Optimizer.
 
-Le schéma associé est AJO Email Tracking Experience Event Schema.
+Le schéma associé est celui d’événements d’expérience de tracking e-mail sur AJO.
 
 Cette requête affiche le nombre de différentes interactions d’e-mail (ouvertures, clics) pour un message donné :
 
@@ -72,11 +72,11 @@ limit 100;
 
 ## Jeu de données d’événement de retour de message{#message-feedback-event-dataset}
 
-_Nom dans l’interface : Jeu de données d’événement de retour de message AJO_
+_Nom dans l’interface : Jeu de données d’événement de retour de message AJO_
 
 Jeu de données pour l’ingestion d’événements de retour d’application push et d’e-mail à partir de Journey Optimizer.
 
-Le schéma associé est le schéma d’événement de retour de message AJO.
+Le schéma associé est celui d’événement de retour de message AJO.
 
 Cette requête affiche le nombre de différents statuts de retour par e-mail (envoyés, rebonds, etc.) pour un message donné :
 
@@ -168,13 +168,13 @@ dans laquelle le format des dates est le suivant : `YYYY-MM-DD HH:MM:SS`.
 
 Une fois identifiées, supprimez ces adresses de la liste de suppression de Journey Optimizer. [En savoir plus](../configuration/manage-suppression-list.md#remove-from-suppression-list).
 
-## Jeu de données d’événement d’expérience de tracking de notifications Push {#push-tracking-experience-event-dataset}
+## Jeu de données d’événement d’expérience de tracking de notifications push {#push-tracking-experience-event-dataset}
 
-_Nom dans l’interface : Jeu de données d’événement de suivi push AJO_
+_Nom dans l’interface : Jeu de données d’événement d’expérience de tracking de notifications push sur AJO_
 
-Jeu de données pour l’ingestion d’événements d’expérience de suivi de mobile pour les notifications push à partir de Journey Optimizer.
+Jeu de données pour l’ingestion d’événements d’expérience de tracking mobile pour les notifications push à partir de Journey Optimizer.
 
-Le schéma associé est le schéma d’événement d’expérience de suivi Push AJO.
+Le schéma associé est celui d’événement d’expérience de tracking de notifications push sur AJO.
 
 Exemple de requête :
 

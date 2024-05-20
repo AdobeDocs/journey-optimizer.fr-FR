@@ -1,8 +1,8 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Génération de pages web avec l’assistant d’IA
-description: Commencez à générer le contenu et la ressource d’une page Web à l’aide de l’assistant d’IA.
+title: Génération de pages web avec l’assistant IA
+description: Commencer à générer le contenu et la ressource d’une page web avec l’assistant IA
 feature: Content Assistant
 topic: Content Management
 role: User
@@ -11,28 +11,28 @@ badge: label="Version bêta" type="Informative"
 hide: true
 hidefromtoc: true
 source-git-commit: b62f8954e09f50896ad5e70784c5a93943617e85
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1320'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
-# Génération de pages web avec l’assistant d’IA {#generative-web}
+# Génération de pages web avec l’assistant IA {#generative-web}
 
 >[!BEGINSHADEBOX]
 
 **Table des matières**
 
-* [Commencer avec l’Assistant IA](gs-generative.md)
+* [Commencer avec l’assistant IA](gs-generative.md)
 * [Génération d’e-mails avec l’assistant IA](generative-email.md)
 * [Génération de SMS avec l’assistant IA](generative-SMS.md)
-* [Génération des notifications push à l’aide de l’assistant d’IA](generative-push.md)
-* Génération de pages web avec l’assistant d’IA
-* [Expérience de contenu avec l’assistant d’IA](generative-experimentation.md)
+* [Génération de notifications push avec l’assistant IA](generative-push.md)
+* Génération de pages web avec l’assistant IA
+* [Expérience de contenu avec l’assistant IA](generative-experimentation.md)
 
 >[!ENDSHADEBOX]
 
-Une fois que vous avez créé et personnalisé vos emails, utilisez l’assistant d’IA dans Adobe Journey Optimizer, optimisé par l’IA générative, pour passer votre contenu au niveau supérieur.
+Une fois que vous avez créé et personnalisé vos e-mails, utilisez l’assistant IA dans Adobe Journey Optimizer optimisé par l’IA générative pour améliorer votre contenu.
 
 L’assistant IA peut vous aider à optimiser l’impact de vos diffusions en suggérant un contenu différent et davantage susceptible de résonner auprès de votre audience.
 
@@ -42,7 +42,7 @@ L’assistant IA peut vous aider à optimiser l’impact de vos diffusions en s
 
 >[!BEGINTABS]
 
->[!TAB Génération complète de pages web]
+>[!TAB Génération de pages web complètes]
 
 Dans l’exemple suivant, nous utiliserons l’assistant IA pour peaufiner un e-mail existant en le personnalisant pour un événement spécial.
 
@@ -58,7 +58,7 @@ Dans l’exemple suivant, nous utiliserons l’assistant IA pour peaufiner un e-
 
    Votre invite doit toujours être liée à un contexte spécifique.
 
-1. Ajustez le contenu en décrivant ce que vous souhaitez générer dans le champ **[!UICONTROL Invite]**.
+1. Affinez le contenu en décrivant ce que vous souhaitez générer dans le champ **[!UICONTROL Invite]**.
 
    Si vous avez besoin d’aide pour concevoir votre invite, accédez à la **[!UICONTROL Bibliothèque d’invites]** qui dispose d’un large éventail d’idées d’invites pour améliorer vos diffusions.
 
@@ -160,7 +160,7 @@ Dans l’exemple suivant, nous utiliserons l’assistant IA afin d’améliorer 
 
 Lorsque vous avez défini le contenu, l’audience et le planning, vous pouvez préparer votre diffusion e-mail. [En savoir plus](../monitor/prepare-send.md)
 
->[!TAB Génération d&#39;images de page web]
+>[!TAB Génération d’images de page web]
 
 Dans l’exemple ci-dessous, découvrez comment tirer parti de l’assistant IA pour optimiser et améliorer vos ressources, afin d’offrir une expérience plus conviviale.
 
@@ -170,7 +170,7 @@ Dans l’exemple ci-dessous, découvrez comment tirer parti de l’assistant IA 
 
 1. Renseignez les **[!UICONTROL détails de base]** de votre diffusion. Une fois terminé, cliquez sur **[!UICONTROL Modifier le contenu de l’e-mail]**.
 
-1. Sélectionnez la ressource que vous souhaitez modifier à l’aide de l’Assistant IA.
+1. Sélectionnez la ressource que vous souhaitez modifier à l’aide de l’assistant IA.
 
 1. Dans le menu de droite, sélectionnez **[!UICONTROL Assistant IA]**.
 

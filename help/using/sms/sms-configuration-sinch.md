@@ -1,29 +1,30 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Configuration du fournisseur Sinch
-description: Découvrez comment configurer votre environnement pour envoyer des messages texte avec Journey Optimizer avec Sinch
+title: Configurer le fournisseur Sinch
+description: Découvrir comment configurer votre environnement pour envoyer des messages texte avec Journey Optimizer avec Sinch
 feature: SMS, Channel Configuration
 role: Admin
 level: Intermediate
-source-git-commit: 0571a11eabffeb5e318bebe341a8df18da7db598
-workflow-type: tm+mt
+exl-id: 85412a85-edf0-4069-8bc7-b80371375f1f
+source-git-commit: 3a0e0bb7fd958441cf6b07f70a255a16c7692724
+workflow-type: ht
 source-wordcount: '516'
-ht-degree: 65%
+ht-degree: 100%
 
 ---
 
-# Configuration du fournisseur Sinch {#sms-configuration-sinch}
+# Configurer le fournisseur Sinch {#sms-configuration-sinch}
 
-Lorsque vous utilisez le fournisseur Sinch avec Journey Optimizer, vous pouvez trouver deux options distinctes :
+Lorsque vous utilisez le fournisseur Sinch avec Journey Optimizer, vous pouvez trouver deux options distinctes :
 
-* **Configuration des SMS**: configurez vos informations d’identification d’API Sinch pour envoyer des messages SMS de manière transparente.
+* **Configuration des SMS** : configurez vos informations d’identification d’API Sinch pour envoyer des messages SMS de manière transparente.
 
-* **Configuration MMS**: pour la messagerie multimédia (MMS), configurez vos informations d’identification d’API MMS Sinch. Notez que le tracking et la réponse aux messages entrants sont gérés par la configuration SMS. La configuration MMS est uniquement destinée à la diffusion sortante du message MMS.
+* **Configuration des MMS** : pour la messagerie multimédia (MMS), configurez vos informations d’identification d’API MMS Sinch. Notez que le suivi et la réponse aux messages entrants sont gérés par la configuration des SMS. La configuration des MMS concerne uniquement la diffusion sortante des messages MMS.
 
 ## Informations d’identification de l’API Sinch{#create-api}
 
-Pour configurer votre fournisseur Sinch pour envoyer des SMS et des MMS avec Journey Optimizer, procédez comme suit :
+Pour configurer votre fournisseur Sinch pour envoyer des SMS et des MMS avec Journey Optimizer, procédez comme suit :
 
 1. Dans le rail de gauche, accédez à **[!UICONTROL Administration]** > **[!UICONTROL Canaux]** et sélectionnez le menu **[!UICONTROL Informations d’identification de l’API]**. Cliquez sur le bouton **[!UICONTROL Créer des informations d’identification de l’API]**.
 
@@ -53,15 +54,15 @@ Pour configurer votre fournisseur Sinch pour envoyer des SMS et des MMS avec Jou
 
 1. Cliquez sur **[!UICONTROL Envoyer]** lorsque vous avez terminé la configuration de vos informations d’identification API.
 
-Après avoir créé et configuré vos informations d’identification d’API, vous devez maintenant créer une surface de canal pour les messages SMS. [En savoir plus](sms-configuration-surface.md)
+Après avoir créé et configuré vos informations d’identification API, vous devez maintenant créer une surface de canal pour les messages SMS. [En savoir plus](sms-configuration-surface.md)
 
 ## Informations d’identification de l’API MMS Sinch {#sinch-mms}
 
 >[!IMPORTANT]
 >
-> Avec la configuration MMS, vous devez également créer des informations d’identification d’API Sinch spécifiques pour le suivi des messages entrants et la gestion des demandes de consentement.
+> Avec la configuration des MMS, vous devez également créer des informations d’identification de l’API Sinch spécifiques pour le suivi des messages entrants et la gestion des demandes de consentement.
 
-Pour configurer Sinch MMS pour envoyer MMS avec Journey Optimizer, procédez comme suit :
+Pour configurer Sinch MMS avec Journey Optimizer, procédez comme suit :
 
 1. Dans le rail de gauche, accédez à **[!UICONTROL Administration]** > **[!UICONTROL Canaux]** et sélectionnez le menu **[!UICONTROL Informations d’identification de l’API]**. Cliquez sur le bouton **[!UICONTROL Créer des informations d’identification de l’API]**.
 

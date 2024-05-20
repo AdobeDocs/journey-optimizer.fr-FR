@@ -2,7 +2,7 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Contrôle d’accès au niveau de l’objet
-description: Découvrez le contrôle d’accès au niveau de l’objet qui permet de définir des autorisations pour gérer l’accès aux données à une sélection d’objets.
+description: Découvrez le contrôle d’accès au niveau de l’objet (OLAC) qui vous permet de définir des autorisations pour gérer l’accès aux données d’une sélection d’objets.
 feature: Access Management
 topic: Administration
 role: Admin, Developer, Architect
@@ -10,9 +10,9 @@ level: Experienced
 keywords: objet, niveau, accès, contrôle, libellés, olac, autorisation
 exl-id: 02ccdd95-426c-4b61-9834-7f2dcd5abdbb
 source-git-commit: 0571a11eabffeb5e318bebe341a8df18da7db598
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '417'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 

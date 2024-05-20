@@ -8,9 +8,9 @@ level: Intermediate
 badge: label="Disponibilité limitée"
 exl-id: 099d1439-34f7-47fe-9181-0e9ce2032a01
 source-git-commit: 5ce388e5d86950e5cc6b173aab48225825f1c648
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '370'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -35,18 +35,18 @@ Les collections vous permettent de classer et de regrouper vos éléments de dé
 
 Supposons, par exemple, que vous ayez ajouté un attribut personnalisé « Catégorie » au schéma de catalogue de vos éléments de décision. Vous pouvez ainsi créer une collection qui inclut tous les éléments de décision avec la valeur « Yoga » dans l’attribut « Categorie ».
 
-La liste des collections est accessible à partir du **[!UICONTROL Catalogues]** .
+La liste des collections est accessible à partir du menu **[!UICONTROL Catalogues]**.
 
 Pour créer une collection, procédez comme suit :
 
-1. Accédez à **[!UICONTROL Catalogues]** > **[!UICONTROL Collections]** et cliquez sur **[!UICONTROL Créer une collection]**.
+1. Accédez à **[!UICONTROL Catalogues]** > **[!UICONTROL Collections]** et cliquez sur **[!UICONTROL Créer une collection]**.
 1. Fournissez un nom et une description pour la collection.
 1. Ajoutez une ou plusieurs règles pour déterminer les éléments à inclure dans la collection. Pour ce faire :
 
    1. Sélectionnez un attribut d’élément à utiliser comme critère. La liste d’attributs comprend tous les attributs standard et personnalisés définis dans le schéma de catalogue. [En savoir plus sur le catalogue d’éléments](catalogs.md)
    1. Sélectionnez l’opérateur souhaité et saisissez la valeur sur laquelle filtrer les données.
    1. Répétez ces étapes pour ajouter autant de règles que nécessaire. Lorsque plusieurs règles sont ajoutées, vous pouvez choisir parmi les opérateurs **Et** et **Ou** pour les combiner. Pour cela, cliquez sur le badge de l’opérateur pour basculer entre les deux choix.
-   1. Cliquez sur le bouton **[!UICONTROL Aperçu de la collection]** pour afficher les éléments qui respectent les règles que vous avez définies.
+   1. Cliquez sur le bouton **[!UICONTROL Prévisualiser la collection]** pour afficher les éléments qui respectent les règles que vous avez définies.
 
    ![](assets/collection-create.png)
 

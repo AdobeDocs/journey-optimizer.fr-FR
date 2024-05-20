@@ -1,21 +1,22 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Configuration du fournisseur Twilio
-description: Découvrez comment configurer votre environnement pour envoyer des messages texte avec Journey Optimizer avec Twilio
+title: Configurer le fournisseur Twilio
+description: Découvrir comment configurer votre environnement pour envoyer des messages SMS avec Journey Optimizer avec Twilio
 feature: SMS, Channel Configuration
 role: Admin
 level: Intermediate
-source-git-commit: 0571a11eabffeb5e318bebe341a8df18da7db598
-workflow-type: tm+mt
+exl-id: d6f74566-c913-4727-83b9-473a798a0158
+source-git-commit: 3a0e0bb7fd958441cf6b07f70a255a16c7692724
+workflow-type: ht
 source-wordcount: '148'
-ht-degree: 60%
+ht-degree: 100%
 
 ---
 
-# Configuration du fournisseur Twilio {#sms-configuration-twilio}
+# Configurer le fournisseur Twilio {#sms-configuration-twilio}
 
-Pour configurer Twilio avec Journey Optimizer, vous devez créer des informations d’identification d’API utilisées pour Twilio :
+Pour configurer Twilio avec Journey Optimizer, vous devez créer des informations d’identification de l’API utilisées pour Twilio :
 
 1. Dans le rail de gauche, accédez à **[!UICONTROL Administration]** > **[!UICONTROL Canaux]** et sélectionnez le menu **[!UICONTROL Informations d’identification de l’API]**. Cliquez sur le bouton **[!UICONTROL Créer des informations d’identification de l’API]**.
 
@@ -31,5 +32,4 @@ Pour configurer Twilio avec Journey Optimizer, vous devez créer des information
 
 1. Cliquez sur **[!UICONTROL Envoyer]** lorsque vous avez terminé la configuration de vos informations d’identification API.
 
-Après avoir créé et configuré vos informations d’identification d’API, vous devez maintenant créer une surface de canal pour les SMS et MMS. [En savoir plus](sms-configuration-surface.md)
-
+Après avoir créé et configuré vos informations d’identification de l’API, vous devez maintenant créer une surface de canal pour les messages SMS et MMS. [En savoir plus](sms-configuration-surface.md)

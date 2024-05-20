@@ -7,13 +7,13 @@ feature: Multilingual Content
 topic: Content Management
 role: User
 level: Beginner
-keywords: prise en main, commencer, contenu, expérience
+keywords: commencer, démarrer, contenu, expérience
 hide: true
 hidefromtoc: true
 exl-id: 662681ad-5044-4025-aff1-204626fee052
-badge: label="Version Beta" type="Informative"
+badge: label="Version bêta" type="Informative"
 source-git-commit: b62f8954e09f50896ad5e70784c5a93943617e85
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '215'
 ht-degree: 100%
 

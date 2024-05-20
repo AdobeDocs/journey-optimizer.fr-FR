@@ -8,9 +8,9 @@ level: Intermediate
 badge: label="Disponibilité limitée"
 exl-id: 1b73b398-050a-40bb-a8ae-1c66e3e26ce8
 source-git-commit: f586d2de34939c1cd105c26dc64c656c1f0fb990
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '722'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
@@ -19,21 +19,21 @@ ht-degree: 88%
 >[!CONTEXTUALHELP]
 >id="ajo_exd_config_strategies"
 >title="Définir vos stratégies de sélection"
->abstract="Une stratégie de sélection est réutilisable. Elle est constituée d’une collection associée à une contrainte d’éligibilité et d’une méthode de classement permettant de déterminer les offres à afficher lorsqu’elles sont sélectionnées dans une politique de décision."
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/decisioning/experience-decisioning/create-decision.html" text="Créer des politiques de décision"
+>abstract="Une stratégie de sélection est réutilisable et est constituée d’une collection associée à une contrainte d’éligibilité et d’une méthode de classement permettant de déterminer les offres à afficher lorsqu’elles sont sélectionnées dans une politique de décision."
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/decisioning/experience-decisioning/create-decision.html?lang=fr" text="Créer des politiques de décision"
 
 >[!CONTEXTUALHELP]
 >id="ajo_exd_strategy_eligibility"
 >title="Limiter les profils éligibles"
 >abstract="Vous pouvez restreindre la sélection des offres pour cette stratégie de sélection. Par défaut, tous les profils sont éligibles, mais vous pouvez utiliser des audiences ou des règles pour limiter la sélection des offres à des profils spécifiques uniquement."
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/audiences-profiles-identities/audiences/about-audiences.html?lang=fr" text="Utiliser des audiences"
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/decisioning/experience-decisioning/selection/rules.html" text="Utiliser des règles de décision"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/decisioning/experience-decisioning/selection/rules.html?lang=fr" text="Utiliser des règles de décision"
 
-Une stratégie de sélection est réutilisable et se compose d’une collection associée à une contrainte d’éligibilité et d’une méthode de classement permettant de déterminer les offres à afficher lorsqu’elles sont sélectionnées dans une [stratégie de décision](create-decision.md).
+Une stratégie de sélection est réutilisable et est constituée d’une collection associée à une contrainte d’éligibilité et d’une méthode de classement permettant de déterminer les offres à afficher lorsqu’elles sont sélectionnées dans une [politique de décision](create-decision.md).
 
-## Accès aux stratégies de sélection et gestion
+## Accéder aux stratégies de sélection et les gérer
 
-1. Accédez à **[!UICONTROL Experience Decisioning]** > **[!UICONTROL Configuration de la stratégie]** > **[!UICONTROL Stratégies de sélection]**.
+1. Accédez à **[!UICONTROL Prise de décision basée sur l’expérience]** > **[!UICONTROL Configuration de la stratégie]** > **[!UICONTROL Stratégies de sélection]**.
 
 1. Toutes les stratégies de sélection créées jusqu’à présent y sont répertoriées. Des filtres sont disponibles pour vous aider à récupérer les stratégies en fonction de la méthode de classement.
 
@@ -81,7 +81,7 @@ Pour créer une stratégie de sélection, procédez comme suit.
 
    * Si vous souhaitez utiliser un score calculé spécifique pour choisir l’offre éligible à présenter, sélectionnez [Formule](#ranking-formula) ou [Modèle d’IA](#ai-ranking).
 
-1. Cliquez sur **[!UICONTROL Créer]**. Il est maintenant prêt à être utilisé dans une [stratégie de décision](create-decision.md)
+1. Cliquez sur **[!UICONTROL Créer]**. Elle est maintenant prête à être utilisée dans une [politique de décision](create-decision.md).
 
 ## Sélectionner une méthode de classement {#select-ranking-method}
 
@@ -89,7 +89,7 @@ Pour créer une stratégie de sélection, procédez comme suit.
 >id="ajo_exd_strategy_ranking"
 >title="Définir le classement des offres"
 >abstract="Si plusieurs offres sont éligibles pour une stratégie de sélection donnée, choisissez la méthode qui sélectionnera la meilleure offre pour chaque profil lors de la création d’une stratégie de sélection : formule de priorité ou de classement."
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/decisioning/experience-decisioning/create-decision.html" text="Créer des politiques de décision"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/decisioning/experience-decisioning/create-decision.html?lang=fr" text="Créer des politiques de décision"
 
 Si plusieurs offres sont éligibles pour une stratégie de sélection donnée, vous pouvez choisir la méthode qui sélectionnera la meilleure offre pour chaque profil lors de la création d’une stratégie de sélection. Vous pouvez classer les offres par :
 
@@ -99,7 +99,7 @@ Si plusieurs offres sont éligibles pour une stratégie de sélection donnée, v
 
 ### Priorité des offres {#offer-priority}
 
-Par défaut, lorsque plusieurs offres sont éligibles pour un emplacement donné dans une stratégie de décision, les éléments présentant le plus haut **priority** sera d’abord livré aux clients.
+Par défaut, lorsque plusieurs offres sont éligibles pour un emplacement donné dans une politique de décision, les éléments ayant la **priorité** la plus élevée sont diffusés en premier aux clientes et aux clients.
 
 ![](assets/item-priority.png)
 

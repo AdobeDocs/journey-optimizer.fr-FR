@@ -1,8 +1,8 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Génération des notifications push à l’aide de l’assistant d’IA
-description: Commencer à générer du contenu push à l’aide de l’assistant d’IA
+title: Génération de notifications push avec l’assistant IA
+description: Commencer à générer du contenu push avec l’assistant IA
 feature: Content Assistant
 topic: Content Management
 role: User
@@ -12,23 +12,23 @@ hide: true
 hidefromtoc: true
 exl-id: a9f9d8af-c762-4038-8bbc-bbd519e0ef3a
 source-git-commit: b62f8954e09f50896ad5e70784c5a93943617e85
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '976'
-ht-degree: 62%
+ht-degree: 100%
 
 ---
 
-# Génération des notifications push à l’aide de l’assistant d’IA {#generative-push}
+# Génération de notifications push avec l’assistant IA {#generative-push}
 
 >[!BEGINSHADEBOX]
 
 **Table des matières**
 
-* [Commencer avec l’Assistant IA](gs-generative.md)
+* [Commencer avec l’assistant IA](gs-generative.md)
 * [Génération d’e-mails avec l’assistant IA](generative-email.md)
 * [Génération de SMS avec l’assistant IA](generative-sms.md)
-* Génération des notifications push à l’aide de l’assistant d’IA
-* [Expérience de contenu avec l’assistant d’IA](generative-experimentation.md)
+* Génération de notifications push avec l’assistant IA
+* [Expérience de contenu avec l’assistant IA](generative-experimentation.md)
 
 >[!ENDSHADEBOX]
 
@@ -36,23 +36,23 @@ ht-degree: 62%
 >
 >Avant de commencer à utiliser cette fonctionnalité, lisez la section connexe [Mécanismes de sécurisation et limitations](gs-generative.md#generative-guardrails).
 
-Une fois vos messages créés et personnalisés, repositionnez leur contenu avec l&#39;assistant d&#39;IA dans Adobe Journey Optimizer.
+Une fois que vous avez créé et personnalisé vos messages, améliorez la qualité du contenu de votre notification push avec l’assistant IA dans Adobe Journey Optimizer.
 
-Consultez les onglets ci-dessous pour savoir comment utiliser l’assistant d’IA dans Journey Optimizer.
+Explorez les onglets ci-dessous pour savoir comment utiliser l’assistant IA dans Journey Optimizer.
 
 >[!BEGINTABS]
 
->[!TAB Génération complète de notifications push]
+>[!TAB Génération de notification push complète]
 
-Dans cet exemple particulier, découvrez comment envoyer une notification push attrayante à l’aide de l’assistant d’IA.
+Dans cet exemple particulier, apprenez à envoyer une notification push accrocheuse à l’aide de l’assistant IA.
 
 Procédez de la façon suivante :
 
-1. Après avoir créé et configuré votre campagne de notification push, cliquez sur **[!UICONTROL Modifier le contenu]**.
+1. Après avoir créé et configuré votre campagne de notifications push, cliquez sur **[!UICONTROL Modifier le contenu]**.
 
-   Pour plus d&#39;informations sur le paramétrage de votre campagne de notification push, voir [cette page](../push/create-push.md).
+   Pour plus d’informations sur la configuration de votre campagne de notifications push, consultez [cette page](../push/create-push.md).
 
-1. Renseignez les **[!UICONTROL Détails de base]** pour votre campagne. Une fois terminé, cliquez sur **[!UICONTROL Modifier le contenu]**.
+1. Renseignez les **[!UICONTROL Détails de base]** de votre campagne. Une fois terminé, cliquez sur **[!UICONTROL Modifier le contenu]**.
 
 1. Personnalisez vos notifications push selon vos besoins. [En savoir plus](../push/design-push.md)
 
@@ -60,19 +60,19 @@ Procédez de la façon suivante :
 
    ![](assets/push-genai-full-1.png){zoomable=&quot;yes&quot;}
 
-1. Activez la variable **[!UICONTROL Utiliser le contenu d’origine]** de l’assistant d’IA afin de personnaliser le nouveau contenu en fonction du contenu, du nom et de l’audience de votre campagne.
+1. Activez l’option **[!UICONTROL Utiliser le contenu original]** de l’assistant IA afin de personnaliser le nouveau contenu en fonction du contenu de votre campagne, du nom de la campagne et de l’audience sélectionnée.
 
    Votre invite doit toujours être liée à un contexte spécifique.
 
 1. Ajustez le contenu en décrivant ce que vous souhaitez générer dans le champ **[!UICONTROL Invite]**.
 
-   Si vous avez besoin d’aide pour concevoir votre invite, accédez au **[!UICONTROL Invite Library]** qui offre un large éventail d’idées pour améliorer vos campagnes.
+   Si vous avez besoin d’aide pour concevoir votre invite, accédez à la **[!UICONTROL Bibliothèque d’invites]** qui offre un large éventail d’idées d’invites pour améliorer vos campagnes.
 
    ![](assets/push-genai-full-2.png){zoomable=&quot;yes&quot;}
 
 1. Sélectionnez **[!UICONTROL Charger une ressource de marque]** pour ajouter toute ressource de marque incluant du contenu pouvant fournir du contexte supplémentaire à l’assistant IA.
 
-1. Sélectionnez le champ à générer : **[!UICONTROL Titre]** et/ou **[!UICONTROL Message]**.
+1. Sélectionnez le champ à générer : **[!UICONTROL Titre]** ou **[!UICONTROL Message]**.
 
 1. Adaptez votre invite avec les différentes options :
 
@@ -102,31 +102,31 @@ Procédez de la façon suivante :
 
 1. Insérez des champs de personnalisation pour personnaliser le contenu de votre e-mail en fonction des données de profil. Cliquez ensuite sur le bouton **[!UICONTROL Simuler le contenu]** pour contrôler le rendu et vérifier les paramètres de personnalisation avec les profils de test. [En savoir plus](../personalization/personalize.md)
 
-Une fois que vous avez défini votre contenu, votre audience et votre planning, vous êtes prêt à préparer votre campagne push. [En savoir plus](../campaigns/review-activate-campaign.md)
+Lorsque vous avez défini le contenu, l’audience et le planning, vous pouvez préparer votre campagne de notifications push. [En savoir plus](../campaigns/review-activate-campaign.md)
 
 >[!TAB Génération de texte]
 
-Dans cet exemple particulier, découvrez comment utiliser l’assistant d’IA pour du contenu spécifique. Procédez de la façon suivante :
+Dans cet exemple particulier, apprenez à utiliser l’assistant IA pour du contenu spécifique. Procédez de la façon suivante :
 
-1. Après avoir créé et configuré votre campagne de notification push, cliquez sur **[!UICONTROL Modifier le contenu]**.
+1. Après avoir créé et configuré votre campagne de notifications push, cliquez sur **[!UICONTROL Modifier le contenu]**.
 
-   Pour plus d&#39;informations sur le paramétrage de votre campagne push, reportez-vous à la section [cette page](../push/create-push.md).
+   Pour plus d’informations sur la configuration de votre campagne de notifications push, consultez [cette page](../push/create-push.md).
 
-1. Renseignez les **[!UICONTROL Détails de base]** pour votre campagne. Une fois terminé, cliquez sur **[!UICONTROL Modifier le contenu]**.
+1. Renseignez les **[!UICONTROL Détails de base]** de votre campagne. Une fois terminé, cliquez sur **[!UICONTROL Modifier le contenu]**.
 
 1. Personnalisez vos notifications push selon vos besoins. [En savoir plus](../push/design-push.md)
 
-1. Accédez au **[!UICONTROL Afficher l’assistant d’IA]** en regard de votre **[!UICONTROL Titre]** ou **[!UICONTROL Message]** des champs.
+1. Accédez au menu **[!UICONTROL Afficher l’assistant IA]** en regard de votre champ **[!UICONTROL Titre]** ou **[!UICONTROL Message]**.
 
    ![](assets/push-genai-1.png){zoomable=&quot;yes&quot;}
 
-1. Activez la variable **[!UICONTROL Utiliser le contenu de référence]** de l’assistant d’IA afin de personnaliser le nouveau contenu en fonction du contenu, du nom et de l’audience de votre campagne.
+1. Activez l’option **[!UICONTROL Utiliser le contenu de référence]** de l’assistant IA afin de personnaliser le nouveau contenu en fonction du contenu de votre campagne, du nom de la campagne et de l’audience sélectionnée.
 
    Votre invite doit toujours être liée à un contexte spécifique.
 
-1. Ajustez le contenu en décrivant ce que vous souhaitez générer dans le champ **[!UICONTROL Invite]**.
+1. Affinez le contenu en décrivant ce que vous souhaitez générer dans le champ **[!UICONTROL Invite]**.
 
-   Si vous avez besoin d’aide pour concevoir votre invite, accédez au **[!UICONTROL Invite Library]** qui offre un large éventail d’idées pour améliorer vos campagnes.
+   Si vous avez besoin d’aide pour concevoir votre invite, accédez à la **[!UICONTROL Bibliothèque d’invites]** qui offre un large éventail d’idées d’invites pour améliorer vos campagnes.
 
    ![](assets/push-genai-2.png){zoomable=&quot;yes&quot;}
 
@@ -157,7 +157,7 @@ Dans cet exemple particulier, découvrez comment utiliser l’assistant d’IA p
 
    * **[!UICONTROL Reformuler]** : l’assistant IA peut reformuler votre message de différentes manières en conservant une écriture soignée et attrayante pour diverses audiences.
 
-   * **[!UICONTROL Utiliser un langage plus simple]**: utilisez l’assistant d’IA pour simplifier votre langue, en assurant clarté et accessibilité pour une audience plus large.
+   * **[!UICONTROL Utiliser un langage simplifié]** : utilisez l’assistant IA pour simplifier votre langage, garantissant ainsi clarté et accessibilité pour une audience plus large.
 
    ![](assets/push-genai-5.png){zoomable=&quot;yes&quot;}
 
@@ -167,6 +167,6 @@ Dans cet exemple particulier, découvrez comment utiliser l’assistant d’IA p
 
 1. Insérez des champs de personnalisation pour personnaliser le contenu de votre e-mail en fonction des données de profil. Cliquez ensuite sur le bouton **[!UICONTROL Simuler le contenu]** pour contrôler le rendu et vérifier les paramètres de personnalisation avec les profils de test. [En savoir plus](../personalization/personalize.md)
 
-Une fois que vous avez défini votre contenu, votre audience et votre planning, vous êtes prêt à préparer votre campagne push. [En savoir plus](../campaigns/review-activate-campaign.md)
+Lorsque vous avez défini le contenu, l’audience et le planning, vous pouvez préparer votre campagne de notifications push. [En savoir plus](../campaigns/review-activate-campaign.md)
 
 >[!ENDTABS]

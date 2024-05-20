@@ -6,9 +6,9 @@ solution: Journey Optimizer
 product: journey optimizer
 exl-id: 3a1b6c61-82df-421c-98d8-2af4f2a5e0de
 source-git-commit: 0571a11eabffeb5e318bebe341a8df18da7db598
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '377'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
@@ -20,7 +20,7 @@ Découvrez les améliorations les plus récentes apportées au produit et à la 
 
 >[!BEGINTABS]
 
->[!TAB La version d&#39;avril est en ligne !]
+>[!TAB La version d’avril est en ligne.]
 
 Découvrez les nouvelles fonctionnalités et améliorations de la version 24.3 d’Adobe Journey Optimizer.
 
@@ -28,7 +28,7 @@ Découvrez les nouvelles fonctionnalités et améliorations de la version 24.3 
 
 >[!TAB Nouvelle expérience de parcours]
 
-Cette version est fournie avec une interface utilisateur de canevas améliorée pour les parcours et offre une expérience utilisateur plus intuitive et efficace. Les activités sont plus claires et présentent plus d’informations sur la zone de travail de parcours avec moins de clics.
+Dans cette version, nous avons amélioré l’interface d’utilisation de la zone de travail de parcours afin d’offrir une expérience client plus intuitive et efficace. Les activités sont plus claires et présentent plus d’informations sur la zone de travail de parcours avec moins de clics.
 
 ![](using/rn/assets/new-canvas3.gif)
 
@@ -36,7 +36,7 @@ Cette version est fournie avec une interface utilisateur de canevas améliorée 
 
 >[!TAB MMS pour tous les fournisseurs]
 
-Avec le canal SMS, vous pouvez maintenant améliorer votre communication en envoyant des MMS, ce qui vous permet de partager des images, des GIF ou des vidéos avec vos clientes et clients. Initialement disponible uniquement avec Sinch, MMS est désormais également disponible avec Infobip et Twilio.
+Avec le canal SMS, vous pouvez maintenant améliorer votre communication en envoyant des MMS, ce qui vous permet de partager des images, des GIF ou des vidéos avec vos clientes et clients. Initialement disponibles uniquement avec Sinch, les MMS sont désormais également pris en charge par Infobip et Twilio.
 
 ![](using/rn/assets/do-not-localize/mms.gif)
 

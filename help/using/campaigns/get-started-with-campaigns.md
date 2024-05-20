@@ -10,9 +10,9 @@ level: Beginner
 keywords: campagne, guide, commencer, optimizer
 exl-id: e2506a43-e4f5-48af-bd14-ab76c54b7c90
 source-git-commit: f71795c99157ce43f5250aaf10eb0b97f235b454
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '440'
-ht-degree: 79%
+ht-degree: 100%
 
 ---
 
@@ -46,19 +46,19 @@ Suivez les étapes de création dʼune campagne décrites ci-après :
 
 Vérifiez les conditions préalables suivantes avant de commencer la création de votre première campagne dans Journey Optimizer :
 
-1. **Il vous faut les autorisations appropriées**. Les campagnes ne sont disponibles que pour les utilisateurs ayant accès à une campagne associée **[!UICONTROL Profil de produit]** comme l&#39;administrateur de Campaign, l&#39;approbateur de Campaign, le responsable de Campaign et/ou la visionneuse de Campaign. Si vous ne pouvez pas accéder aux campagnes, vos autorisations doivent être étendues.
+1. **Il vous faut les autorisations appropriées**. Les campagnes ne sont disponibles que pour les utilisateurs et les utilisatrices ayant accès à un **[!UICONTROL Profil produit]** associé à une campagne, tels que l’administrateur ou l’administratrice de la campagne, l’approbateur ou l’approbatrice de la campagne, la personne responsable de la gestion de la campagne, ou l’observateur ou l’observatrice de la campagne. Si vous ne pouvez pas accéder aux campagnes, vos autorisations doivent être étendues.
 
-   +++Découvrez comment affecter un rôle lié à une campagne
+   +++Découvrir comment attribuer un rôle lié à la campagne
 
-   1. Pour affecter un rôle à un utilisateur dans la variable [!DNL Permissions] produit, accédez à la **[!UICONTROL Rôles]** et sélectionnez l’une des campagnes intégrées liées **[!UICONTROL Rôles]**: administrateur de Campaign, approbateur de Campaign, responsable de Campaign ou visionneuse de Campaign.
+   1. Pour attribuer un rôle à un utilisateur ou une utilisatrice dans le produit [!DNL Permissions], accédez à l’onglet **[!UICONTROL Rôles]** et sélectionnez l’un des **[!UICONTROL Rôles]** liés à la campagne intégrés : administrateur ou administratrice de campagne, approbateur ou approbatrice de campagne, personne responsable de la gestion de campagne, ou observateur ou observatrice de campagne.
 
    1. Dans l’onglet **[!UICONTROL Utilisateurs]**, cliquez sur **[!UICONTROL Ajouter un utilisateur]**.
 
    1. Saisissez le nom ou l’adresse e-mail de votre utilisateur ou utilisatrice, ou sélectionnez l’utilisateur ou l’utilisatrice dans la liste, puis cliquez sur **[!UICONTROL Enregistrer]**.
 
-      Si l’utilisateur n’a pas été créé précédemment, reportez-vous à la section [Ajout de la documentation sur les utilisateurs](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/ui/users).
+      Si le profil de l’utilisateur ou de l’utilisatrice n’a pas été créé auparavant, consultez la [documentation relative à l’ajout d’utilisateurs et d’utilisatrices](https://experienceleague.adobe.com/fr/docs/experience-platform/access-control/ui/users).
 
-   L’utilisateur ou l’utilisatrice doit alors recevoir un e-mail le ou la redirigeant vers votre instance.
+   La personne doit alors recevoir un e-mail la redirigeant vers votre instance.
 
 +++
 

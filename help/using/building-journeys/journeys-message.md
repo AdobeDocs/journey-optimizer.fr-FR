@@ -10,9 +10,9 @@ level: Intermediate
 keywords: parcours, message, notification push, sms, e-mail, in-app
 exl-id: 4db07a9e-c3dd-4873-8bd9-ac34c860694c
 source-git-commit: 0571a11eabffeb5e318bebe341a8df18da7db598
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1177'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -106,7 +106,7 @@ Notez que pour l’activité in-app, des modifications peuvent être apportées 
 
 >[!NOTE]
 >
->Cette fonctionnalité n&#39;est pas activée par défaut. Vous pouvez contacter votre représentant d’Adobe pour l’activer.
+>Cette fonctionnalité n&#39;est pas activée par défaut. Vous pouvez contacter votre représentant ou représentante Adobe pour l’activer.
 
 ### À propos de l’optimisation de l’heure d’envoi {#about-send-time}
 

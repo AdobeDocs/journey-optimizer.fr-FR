@@ -10,9 +10,9 @@ level: Intermediate
 keywords: test, parcours, vérification, erreur, dépannage
 exl-id: 9937d9b5-df5e-4686-83ac-573c4eba983a
 source-git-commit: 0571a11eabffeb5e318bebe341a8df18da7db598
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1536'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -33,7 +33,7 @@ Seuls les profils de test peuvent rejoindre un parcours en mode test. Vous pouve
 
 Pour utiliser le mode test, procédez comme suit :
 
-1. Pour activer le mode test, cliquez sur le bouton **[!UICONTROL Mode test]** , situé dans le coin supérieur droit.
+1. Pour activer le mode test, cliquez sur le bouton **[!UICONTROL Mode test]** dans le coin supérieur droit de l’écran.
 
    ![](assets/journeytest1.png)
 

@@ -1,31 +1,32 @@
 ---
-title: Exploitation des données contextuelles dans Experience Decisioning
-description: Découvrez comment exploiter les données contextuelles dans Experience Decisioning
+title: Utiliser des données contextuelles dans la prise de décision basée sur l’expérience
+description: Découvrir comment utiliser les données contextuelles dans la prise de décision basée sur l’expérience
 feature: Experience Decisioning
 topic: Integrations
 role: User
 level: Intermediate
 badge: label="Disponibilité limitée"
-source-git-commit: 5ce388e5d86950e5cc6b173aab48225825f1c648
-workflow-type: tm+mt
+exl-id: ddc4b681-020b-4433-b4b3-3791c41907c9
+source-git-commit: 2349145fcf698769d16326a19a48a413a3c1dd95
+workflow-type: ht
 source-wordcount: '292'
-ht-degree: 50%
+ht-degree: 100%
 
 ---
 
-# Exploitation des données contextuelles dans Experience Decisioning {#context}
+# Utiliser des données contextuelles dans la prise de décision basée sur l’expérience {#context}
 
-Avec Experience Decisioning, vous pouvez exploiter toutes les informations disponibles dans Adobe Experience Platform pour effectuer diverses actions, telles que la création de [règles de décision](rules.md) ou [formules de classement](ranking.md). Par exemple, vous pouvez concevoir une règle de décision qui exige que la météo actuelle soit de ≥80 degrés au moment où la demande de décision est faite.
+Avec la prise de décision basée sur l’expérience, vous pouvez tirer profit de toutes les informations disponibles dans Adobe Experience Platform pour effectuer diverses actions, telles que la création de [règles de décision](rules.md) ou de [formules de classement](ranking.md). Par exemple, vous pouvez créer une règle de décision qui exige que la température actuelle soit de ≥ 80 degrés Fahrenheit au moment de la demande de décision.
 
 >[!NOTE]
 >
->Les données contextuelles sont définies dans Adobe Experience Platform et envoyées au moment d’une demande de décision. Elle n’inclut pas de données historiques.
+>Les données contextuelles sont définies dans Adobe Experience Platform et envoyées au moment d’une demande de décision. Elles n’incluent pas de données historiques.
 
-Pour utiliser des données contextuelles, vous devez d’abord définir les données que vous souhaitez rendre disponibles dans Experience Decisioning. Une fois cette opération terminée, ces données s’intègrent de manière transparente à Experience Decisioning dans la variable **[!UICONTROL Données contextuelles]** disponible lors de la création d’une règle de décision. Vous pouvez également exploiter les données lors de la modification d&#39;une formule de classement.
+Pour utiliser des données contextuelles, vous devez d’abord définir les données à rendre disponibles dans la prise de décision basée sur l’expérience. Une fois cette opération terminée, ces données s’intègrent de manière transparente à la prise de décision basée sur l’expérience sous l’onglet **[!UICONTROL Données contextuelles]** et sont disponibles lors de la création d’une règle de décision. Vous pouvez également utiliser les données lors de la modification d’une formule de classement.
 
 ![](assets/decision-rules-context.png)
 
-Les étapes d’intégration des données Adobe Experience Platform dans Offer Decisioning sont les suivantes :
+Les étapes d’intégration des données Adobe Experience Platform dans Experience Decisioning sont les suivantes :
 
 1. Créez un **schéma d’événement d’expérience** dans Adobe Experience Platform et son **jeu de données** associé.[Découvrir comment créer des schémas](https://experienceleague.adobe.com/fr/docs/experience-platform/xdm/ui/resources/schemas){target="_blank"}
 
@@ -41,7 +42,7 @@ Les étapes d’intégration des données Adobe Experience Platform dans Offer
 
       ![](assets/decision-rules-context-datastream-service.png)
 
-Une fois le train de données enregistré, les informations du jeu de données sélectionné sont automatiquement récupérées et intégrées dans Offer Decisioning et deviennent généralement disponibles dans les 24 heures.
+Une fois le train de données enregistré, les informations du jeu de données sélectionné sont automatiquement récupérées et intégrées dans Experience Decisioning et deviennent généralement disponibles dans les 24 heures.
 
 Pour plus d’informations sur l’utilisation d’Adobe Experience Platform, consultez les ressources suivantes :
 

@@ -7,9 +7,9 @@ role: User
 level: Beginner, Intermediate
 exl-id: 722f9c3b-b505-48c0-b126-31a7a841c245
 source-git-commit: 5ce388e5d86950e5cc6b173aab48225825f1c648
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '636'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -89,4 +89,4 @@ Vous pouvez également dupliquer une offre ou une décision existante afin de cr
 
 ## Logs des modifications des offres et des décisions {#changes-logs}
 
-[!DNL Journey Optimizer] vous permet de visualiser toutes les modifications apportées à une offre ou à une décision. Pour ce faire, accédez à la **[!UICONTROL Audits]** dans le menu de gauche. [Découvrez comment contrôler les actions sur les ressources](../../privacy/audit-logs.md)
+[!DNL Journey Optimizer] permet de visualiser toutes les modifications apportées à une offre ou à une décision. Pour ce faire, accédez au menu **[!UICONTROL Audits]** dans le menu de gauche. [Découvrir comment effectuer un audit des actions sur les ressources](../../privacy/audit-logs.md)

@@ -1,27 +1,28 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Configuration du fournisseur d’informations
-description: Découvrez comment configurer votre environnement pour envoyer des messages texte et MMS avec Journey Optimizer avec Infobip
+title: Configurer le fournisseur Infobip
+description: Découvrir comment configurer votre environnement pour envoyer des messages SMS et MMS avec Journey Optimizer avec Infobip
 feature: SMS, Channel Configuration
 role: Admin
 level: Intermediate
-source-git-commit: 0571a11eabffeb5e318bebe341a8df18da7db598
-workflow-type: tm+mt
+exl-id: 7b6dc89a-1a81-49c2-b2a7-bf24b9d215e3
+source-git-commit: 3a0e0bb7fd958441cf6b07f70a255a16c7692724
+workflow-type: ht
 source-wordcount: '354'
-ht-degree: 81%
+ht-degree: 100%
 
 ---
 
-# Configuration du fournisseur d’informations {#sms-configuration-infobip}
+# Configurer le fournisseur Infobip {#sms-configuration-infobip}
 
 Pour configurer Infobip avec Journey Optimizer, procédez comme suit :
 
-1. Dans le rail de gauche, accédez à **[!UICONTROL Administration]** `>` **[!UICONTROL Canaux]** et sélectionnez la variable **[!UICONTROL Informations d’identification API]** . Cliquez sur le bouton **[!UICONTROL Créer des informations d’identification de l’API]**.
+1. Dans le rail de gauche, accédez à **[!UICONTROL Administration]** `>` **[!UICONTROL Canaux]** et sélectionnez le menu **[!UICONTROL Informations d’identification de l’API]**. Cliquez sur le bouton **[!UICONTROL Créer des informations d’identification de l’API]**.
 
    ![](assets/sms_6.png)
 
-1. Configurez vos informations d’identification d’API, comme indiqué ci-dessous.
+1. Configurez vos informations dʼidentification de lʼAPI, comme indiqué ci-dessous.
 
    * **[!UICONTROL Nom]** : choisissez un nom pour vos informations d’identification d’API.
 
@@ -53,4 +54,4 @@ Pour configurer Infobip avec Journey Optimizer, procédez comme suit :
 
 1. Cliquez sur **[!UICONTROL Envoyer]** lorsque vous avez terminé la configuration de vos informations d’identification API.
 
-Après avoir créé et configuré vos informations d’identification d’API, vous devez maintenant créer une surface de canal pour les SMS et MMS. [En savoir plus](sms-configuration-surface.md)
+Après avoir créé et configuré vos informations d’identification de l’API, vous devez maintenant créer une surface de canal pour les messages SMS et MMS. [En savoir plus](sms-configuration-surface.md)

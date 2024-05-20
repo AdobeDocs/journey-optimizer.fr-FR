@@ -7,9 +7,9 @@ role: Data Engineer
 level: Experienced
 exl-id: b08dc0f8-c85f-4aca-85eb-92dc76b0e588
 source-git-commit: 7e7ff2f6451947d4d52efb2963d940ba3f50819f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '362'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -135,7 +135,7 @@ Some edu specific content Content
 
 L&#39;helper `each` est utilisé pour effectuer une itération sur un tableau.
 La syntaxe de l’assistant est ```{{#each ArrayName}}``` YourContent {{/each}}
-Il est possible de se référer aux éléments individuels du tableau en utilisant le mot-clé **this** à l’intérieur du bloc. L’index de l’élément du tableau peut être rendu en utilisant {{@index}}.
+Il est possible de se référer aux éléments individuels du tableau en utilisant le mot-clé **this** à l’intérieur du bloc. L’index de l’élément du tableau peut être rendu à l’aide de {{@index}}.
 
 **Syntaxe**
 
@@ -202,7 +202,7 @@ La fonction `let` permet à une expression d&#39;être stockée en tant que vari
 
 **Exemple**
 
-L&#39;exemple suivant permet de calculer la somme totale des prix des produits du panier dont les prix sont compris entre 100 et 1000.
+L&#39;exemple suivant permet de calculer la somme totale des prix des produits du panier dont les prix sont compris entre 100 et 1 000.
 
 ```sql
 {% let sum = 0%}

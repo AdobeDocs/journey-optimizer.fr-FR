@@ -8,9 +8,9 @@ level: Intermediate
 badge: label="Disponibilité limitée"
 exl-id: 033a11b8-c848-4e4a-b6f0-62fa0a2152bf
 source-git-commit: 5ce388e5d86950e5cc6b173aab48225825f1c648
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '386'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -31,7 +31,7 @@ Prenons l’exemple d’un scénario dans lequel vous avez des éléments de dé
 >
 >Outre les règles de décision relatives aux éléments et à la stratégie de sélection, vous pouvez définir l’audience prévue au niveau de la campagne. [En savoir plus](../campaigns/create-campaign.md#audience)
 
-La liste des règles de décision est accessible dans la variable **[!UICONTROL Configuration de la stratégie]** .
+La liste des règles de décision est accessible dans le menu **[!UICONTROL Configuration de la stratégie]**.
 
 ![](assets/decision-rules-list.png)
 
@@ -39,11 +39,11 @@ La liste des règles de décision est accessible dans la variable **[!UICONTROL 
 
 Pour créer cette règle de décision, procédez comme suit :
 
-1. Accédez à **[!UICONTROL Configuration de la stratégie]** / **[!UICONTROL Règles de décision]** puis cliquez sur **[!UICONTROL Créer une règle]** bouton .
+1. Accédez à **[!UICONTROL Configuration de la stratégie]** / **[!UICONTROL Règles de décision]**, puis cliquez sur le bouton **[!UICONTROL Créer une règle]**.
 
 1. L’écran de création des règles de décision s’affiche. Nommez votre règle et fournissez une description.
 
-1. Créez la règle de décision en fonction de vos besoins à l’aide du créateur de segments d’Adobe Experience Platform. Pour ce faire, vous pouvez utiliser diverses sources de données telles que les attributs de profil, les audiences ou les données contextuelles provenant d’Adobe Experience Platform. [Découvrez comment exploiter les données contextuelles](#context-data)
+1. Créez la règle de décision en fonction de vos besoins à l’aide du créateur de segments d’Adobe Experience Platform. Pour ce faire, vous pouvez utiliser diverses sources de données telles que les attributs de profil, les audiences ou les données contextuelles provenant d’Adobe Experience Platform. [Découvrir comment exploiter les données contextuelles](#context-data)
 
    ![](assets/decision-rules-build.png)
 

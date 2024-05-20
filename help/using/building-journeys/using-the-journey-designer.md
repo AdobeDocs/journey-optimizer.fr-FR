@@ -10,9 +10,9 @@ level: Intermediate
 keywords: conception, zone de travail, parcours, interface, glisser, déposer
 exl-id: 1998f6fc-60fd-4038-8669-39cd55bc02d1
 source-git-commit: 0571a11eabffeb5e318bebe341a8df18da7db598
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1644'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -59,7 +59,7 @@ Par défaut, les champs en lecture seule sont masqués. Pour afficher les champs
 
 ![](assets/journey59bis.png)
 
-Selon l’état du parcours, vous pouvez effectuer différentes actions sur votre parcours à l’aide des boutons disponibles dans le coin supérieur droit : **[!UICONTROL Publier]**, **[!UICONTROL Dupliquer]**, **[!UICONTROL Supprimer]**, **[!UICONTROL Mode test]**, **[!UICONTROL Gérer l’accès]**, **[!UICONTROL Alertes]**. Ces boutons s&#39;affichent lorsqu&#39;aucune activité n&#39;est sélectionnée. Certains boutons s&#39;affichent en fonction du contexte. Le bouton de journal du mode test s&#39;affiche lorsque le mode test est activé.
+Selon le statut du parcours, vous pouvez effectuer différentes actions à l’aide des boutons disponibles dans le coin supérieur droit : **[!UICONTROL Publier]**, **[!UICONTROL Dupliquer]**, **[!UICONTROL Supprimer]**, **[!UICONTROL Mode test]**, **[!UICONTROL Gérer l’accès]**, **[!UICONTROL Alertes]**. Ces boutons s&#39;affichent lorsqu&#39;aucune activité n&#39;est sélectionnée. Certains boutons s&#39;affichent en fonction du contexte. Le bouton de journal du mode test s&#39;affiche lorsque le mode test est activé.
 
 ![](assets/journey41.png)
 

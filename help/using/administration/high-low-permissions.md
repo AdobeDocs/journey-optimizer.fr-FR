@@ -2,7 +2,7 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Niveaux d’autorisation
-description: Découvrez les autorisations de niveau supérieur et inférieur qui permettent aux utilisateurs d’accéder aux différentes fonctionnalités.
+description: Découvrez les autorisations de niveau supérieur et inférieur qui permettent aux utilisateurs et utilisatrices d’accéder aux différentes fonctionnalités.
 topic: Administration
 feature: Access Management
 role: Admin, Architect, Developer
@@ -10,9 +10,9 @@ level: Experienced
 keywords: autorisation, haut niveau, bas niveau, profil, admin console
 exl-id: 1b286f9d-43ef-4b80-b4ee-136da857bb95
 source-git-commit: 5d214812b1d7e189fe8a964f445545916d00c0a4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1040'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 

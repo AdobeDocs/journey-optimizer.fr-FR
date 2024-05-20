@@ -1,51 +1,51 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Utilisation d’actions personnalisées pour écrire des événements de Parcours dans AEP
-description: Utilisation d’actions personnalisées pour écrire des événements de Parcours dans AEP
+title: Utiliser des actions personnalisées pour écrire des événements de parcours dans AEP
+description: Utiliser des actions personnalisées pour écrire des événements de parcours dans AEP
 feature: Journeys, Use Cases, Custom Actions
 topic: Content Management
 role: Developer, Data Engineer
 level: Experienced
-source-git-commit: 0571a11eabffeb5e318bebe341a8df18da7db598
-workflow-type: tm+mt
+exl-id: 890a194f-f54d-4230-863a-fb2b924d716a
+source-git-commit: 3a0e0bb7fd958441cf6b07f70a255a16c7692724
+workflow-type: ht
 source-wordcount: '324'
-ht-degree: 0%
+ht-degree: 100%
 
 ---
 
+# Cas d’utilisation : utiliser des actions personnalisées pour écrire des événements de parcours dans Experience Platform{#custom-action-aep}
 
-# Cas pratique : utilisation d’actions personnalisées pour écrire des événements de Parcours dans Experience Platform{#custom-action-aep}
+Ce cas d’utilisation explique comment écrire des événements personnalisés dans Adobe Experience Platform à partir de parcours à l’aide d’actions personnalisées et d’appels authentifiés.
 
-Ce cas pratique explique comment écrire des événements personnalisés dans Adobe Experience Platform à partir de Parcours à l’aide d’actions personnalisées et d’appels authentifiés.
+## Configurer un projet IO
 
-## Configuration d’un projet d’E/S
+1. Dans Adobe Developer Console, cliquez sur **Projet** et ouvrez votre projet IO.
 
-1. Dans la console Adobe Developer, cliquez sur **Projet** et ouvrez votre projet d’E/S.
-
-1. Dans le **Informations d’identification** , cliquez sur **OAuth serveur à serveur**.
+1. Dans la section **Informations d’identification**, cliquez sur **OAuth de serveur à serveur**.
 
    ![](assets/custom-action-aep-1.png)
 
-1. Cliquez sur **Afficher cURL, commande**.
+1. Cliquez sur **Afficher la commande cURL**.
 
    ![](assets/custom-action-aep-2.png)
 
-1. Copiez la commande cURL et stockez client_id, client_secret, grant_type et scope.
+1. Copiez la commande cURL et stockez les éléments client_id, client_secret, grant_type et scope.
 
 ```
 curl -X POST 'https://ims-na1.adobelogin.com/ims/token/v3' -H 'Content-Type: application/x-www-form-urlencoded' -d 'grant_type=client_credentials&client_id=1234&client_secret=5678&scope=openid,AdobeID,read_organizations,additional_info.projectedProductContext,session'
 ```
 
-## Configuration de la source à l’aide de l’API HTTP Inlet
+## Configurer la source à l’aide de l’API HTTP Inlet
 
-1. Créez un point de terminaison dans Adobe Experience Platform pour écrire les données à partir de parcours.
+1. Créez un point d’entrée dans Adobe Experience Platform pour écrire les données de parcours.
 
-1. Dans Adobe Experience Platform, cliquez sur **Sources**, sous **Connexions** dans le menu de gauche. Sous **API HTTP**, cliquez sur **Ajouter des données**.
+1. Dans Adobe Experience Platform, cliquez sur **Sources** sous **Connexions** dans le menu de gauche. Sous **API HTTP**, cliquez sur **Ajouter des données**.
 
    ![](assets/custom-action-aep-3.png)
 
-1. Sélectionner **Nouveau compte** et activez l’authentification. Cliquez sur **Connexion à la source**.
+1. Sélectionnez **Nouveau compte** et activez l’authentification. Cliquez sur **Se connecter à la source**.
 
    ![](assets/custom-action-aep-4.png)
 
@@ -53,7 +53,7 @@ curl -X POST 'https://ims-na1.adobelogin.com/ims/token/v3' -H 'Content-Type: app
 
    ![](assets/custom-action-aep-5.png)
 
-1. Ouvrez le nouveau flux de données. Copiez la payload du schéma et enregistrez-la dans votre notepad.
+1. Ouvrez le flux de données nouvellement créé. Copiez la payload du schéma et enregistrez-la dans votre notepad.
 
 ```
 {
@@ -90,11 +90,11 @@ curl -X POST 'https://ims-na1.adobelogin.com/ims/token/v3' -H 'Content-Type: app
 }
 ```
 
-## Configuration de l’action personnalisée
+## Configurer l’action personnalisée
 
-1. Ouvrez Adobe Journey Optimizer, puis cliquez sur **Configurations**, sous **Administration** dans le menu de gauche. Sous **Actions**, cliquez sur **Gérer** et cliquez sur **Créer une action**.
+1. Ouvrez Adobe Journey Optimizer, puis cliquez sur **Configurations**, sous **Administration** dans le menu de gauche. Sous **Actions**, cliquez sur **Gérer** et sur **Créer une action**.
 
-1. Définissez l’URL et sélectionnez la méthode Post .
+1. Définissez l’URL et sélectionnez la méthode POST.
 
    `https://dcs.adobedc.net/collection/<collection_id>?syncValidation=false`
 
@@ -102,11 +102,11 @@ curl -X POST 'https://ims-na1.adobelogin.com/ims/token/v3' -H 'Content-Type: app
 
    ![](assets/custom-action-aep-7bis.png)
 
-### Configuration de l’authentification
+### Configurer l’authentification
 
-1. Sélectionnez la variable **Type** as **Personnalisé** avec la charge utile suivante.
+1. Sélectionnez le **Type** **Personnalisé** avec la payload suivante.
 
-1. Collez client_secret, client_id, scope et grant_type (à partir de la charge utile du projet IO utilisée précédemment).
+1. Collez les éléments client_secret, client_id, scope et grant_type (à partir de la payload du projet IO utilisée précédemment).
 
    ```
    {
@@ -132,13 +132,13 @@ curl -X POST 'https://ims-na1.adobelogin.com/ims/token/v3' -H 'Content-Type: app
    }
    ```
 
-1. Utilisez la variable **Cliquez sur pour tester l’authentification.** pour tester la connexion.
+1. Utilisez le bouton **Cliquer pour tester l’authentification** pour tester la connexion.
 
    ![](assets/custom-action-aep-8.png)
 
-### Configuration de la charge utile
+### Configurer la payload
 
-1. Dans le **Requête** et **Réponse** , collez la charge utile de la connexion source utilisée auparavant.
+1. Dans les champs **Demande** et **Réponse**, collez la payload de la connexion source utilisée auparavant.
 
    ```
    {
@@ -163,14 +163,12 @@ curl -X POST 'https://ims-na1.adobelogin.com/ims/token/v3' -H 'Content-Type: app
    }
    ```
 
-1. Modifiez la configuration du champ de **Constante** to **Variable** pour les champs qui seront renseignés dynamiquement. Enregistrez l’action personnalisée.
+1. Modifiez la configuration du champ de **Constant** à **Variable** pour les champs qui seront renseignés dynamiquement. Enregistrez l’action personnalisée.
 
 ## Parcours
 
 1. Enfin, utilisez cette action personnalisée dans un parcours pour écrire les événements de parcours personnalisés.
 
-1. Renseignez l’ID de version du Parcours, l’ID de noeud, le nom du noeud et d’autres attributs en fonction de votre cas d’utilisation.
+1. Renseignez l’ID de version du parcours, l’ID de nœud, le nom du nœud et d’autres attributs en fonction de votre cas d’utilisation.
 
    ![](assets/custom-action-aep-9.png)
-
-

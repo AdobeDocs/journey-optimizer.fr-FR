@@ -10,9 +10,9 @@ level: Experienced
 keywords: canal, surface, technique, paramètres, optimizer
 exl-id: 9038528f-3da0-4e0e-9b82-b72c67b42391
 source-git-commit: 0571a11eabffeb5e318bebe341a8df18da7db598
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1738'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -68,7 +68,7 @@ Pour créer une surface de canal, procédez comme suit :
    >
    > Les noms doivent commencer par une lettre (A-Z). Ils ne peuvent contenir que des caractères alphanumériques. Vous pouvez également utiliser le trait de soulignement `_`, le point`.` et le trait d&#39;union `-`.
 
-1. Pour attribuer des libellés d’utilisation de données personnalisés ou de base à la surface, vous pouvez sélectionner **[!UICONTROL Gérer l’accès]**. [En savoir plus sur le contrôle d’accès au niveau de l’objet (OLAC)](../administration/object-based-access.md).
+1. Pour attribuer des libellés d’utilisation des données personnalisés ou de base à la surface, vous pouvez sélectionner **[!UICONTROL Gérer l’accès]**. [En savoir plus sur le contrôle d’accès au niveau de l’objet (OLAC)](../administration/object-based-access.md).
 
 1. Si vous avez sélectionné le canal **[!UICONTROL E-mail]**, configurez vos paramètres comme indiqué dans [cette section](../email/email-settings.md).
 
@@ -90,11 +90,11 @@ Pour créer une surface de canal, procédez comme suit :
    >
    >Pour plus dʼinformations sur la configuration de votre environnement pour envoyer des messages SMS, consultez [cette section](../sms/sms-configuration.md).
 
-1. Sélectionnez une **[!UICONTROL Action marketing]** pour associer des stratégies de consentement aux messages utilisant cette surface. Toutes les stratégies de consentement associées à cette action marketing sont exploitées afin de respecter les préférences de vos clients. [En savoir plus](../action/consent.md#surface-marketing-actions)
+1. Sélectionnez une **[!UICONTROL Action marketing]** pour associer des politiques de consentement aux messages utilisant cette surface. Toutes les politiques de consentement associées à cette action marketing sont utilisées afin de respecter les préférences de vos clientes et clients. [En savoir plus](../action/consent.md#surface-marketing-actions)
 
    >[!NOTE]
    >
-   >Actuellement, les stratégies de consentement ne sont disponibles que pour les organisations qui ont acheté la variable **Bouclier sanitaire** et **Protection de la vie privée et protection** offres complémentaires.
+   >Les politiques de consentement ne sont actuellement disponibles que pour les organisations qui ont acheté les offres complémentaires **Healthcare Shield** et **Privacy and Security Shield**.
 
    ![](assets/surface-marketing-action.png)
 

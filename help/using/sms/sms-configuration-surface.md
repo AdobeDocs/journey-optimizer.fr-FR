@@ -1,15 +1,16 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Configuration de la surface SMS
-description: Découvrez comment configurer la surface SMS/MMS pour envoyer des messages texte avec Journey Optimizer
+title: Configurer la surface de SMS
+description: Découvrir comment configurer votre surface de SMS/MMS pour envoyer des messages SMS avec Journey Optimizer
 feature: SMS, Channel Configuration
 role: Admin
 level: Intermediate
-source-git-commit: 0571a11eabffeb5e318bebe341a8df18da7db598
-workflow-type: tm+mt
+exl-id: 0d541520-016e-468f-b011-808712847556
+source-git-commit: 3a0e0bb7fd958441cf6b07f70a255a16c7692724
+workflow-type: ht
 source-wordcount: '479'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
@@ -21,7 +22,7 @@ ht-degree: 89%
 >abstract="Sélectionnez le type de messages texte utilisant cette surface : marketing pour les messages promotionnels, qui nécessitent le consentement de l’utilisateur ou de l’utilisatrice, ou transactionnel pour les messages non commerciaux, tels que la réinitialisation du mot de passe."
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/privacy/consent/opt-out.html?lang=fr#sms-opt-out-management" text="Se désinscrire dans les messages texte de marketing"
 
-Une fois que votre canal SMS/MMS a été configuré, vous devez créer une surface de canal pour pouvoir envoyer des SMS et des MMS depuis **[!DNL Journey Optimizer]**.
+Une fois votre canal SMS/MMS configuré, vous devez créer une surface de canal afin de pouvoir envoyer des SMS et des MMS à partir de **[!DNL Journey Optimizer]**.
 
 Pour créer une surface de canal, procédez comme suit :
 
@@ -87,4 +88,3 @@ Pour créer une surface de canal, procédez comme suit :
    ![](assets/preset-active.png)
 
 Vous pouvez maintenant envoyer des messages texte avec Journey Optimizer.
-

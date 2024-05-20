@@ -7,9 +7,9 @@ role: User
 level: Intermediate, Experienced
 badge: label="Disponibilité limitée"
 source-git-commit: 5ce388e5d86950e5cc6b173aab48225825f1c648
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '330'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -21,7 +21,7 @@ Dans ce cas d’utilisation, vous définissez deux traitements de diffusion cont
 
 Vous devez d’abord créer des éléments, les regrouper dans des collections, configurer des règles et des méthodes de classement. Ces éléments vous permettront de créer des stratégies de sélection.
 
-1. Accédez à **[!UICONTROL Experience Decisioning]** > **[!UICONTROL Catalogues]** et créer plusieurs éléments d’offre. Définissez des contraintes à l’aide d’audiences ou de règles afin de limiter chaque élément à des profils spécifiques uniquement. [En savoir plus](items.md)
+1. Accédez à **[!UICONTROL Prise de décision basée sur l’expérience]** > **[!UICONTROL Catalogues]** et créez plusieurs éléments d’offre. Définissez des contraintes à l’aide d’audiences ou de règles afin de limiter chaque élément à des profils spécifiques uniquement. [En savoir plus](items.md)
 
    <!--
    1. From the items list, click the **[!UICONTROL Edit schema]** button  and edit the custom attributes if needed. [Learn how to work with catalogs](catalogs.md)-->
@@ -40,7 +40,7 @@ Pour présenter la meilleure offre et expérience dynamique aux visiteurs et vis
 
 Définissez deux traitements de diffusion contenant chacun une politique de décision différente.
 
-1. Créez une opération et sélectionnez l’option **[!UICONTROL Expérience basée sur le code]** action. [En savoir plus](../code-based/create-code-based.md)
+1. Créez une campagne et sélectionnez l’action **[!UICONTROL Expérience basée sur le code]**. [En savoir plus](../code-based/create-code-based.md)
 
 1. Dans la page de résumé de la campagne, cliquez sur **[!UICONTROL Créer une expérience]** pour commencer à configurer votre expérience de contenu. [En savoir plus](../campaigns/content-experiment.md)
 

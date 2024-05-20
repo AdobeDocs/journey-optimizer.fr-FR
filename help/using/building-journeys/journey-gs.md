@@ -10,9 +10,9 @@ level: Intermediate
 keywords: parcours, premier, commencer, démarrage rapide, audience, événement, action
 exl-id: d940191e-8f37-4956-8482-d2df0c4274aa
 source-git-commit: 0571a11eabffeb5e318bebe341a8df18da7db598
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2004'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -83,7 +83,7 @@ Voici les différentes opérations de filtrage que vous pouvez effectuer :
 
 Filtrez les parcours en fonction de leur statut, type, version et balises attribuées depuis les **[!UICONTROL Filtres de statut et de version]**.
 
-Le type peut être : **[!UICONTROL Événement unitaire]**, **[!UICONTROL Qualification de l’audience]**, **[!UICONTROL Lecture d’audience]** ou **[!UICONTROL Événement d’entreprise]**.
+Les différents types sont les suivants : **[!UICONTROL Événement unitaire]**, **[!UICONTROL Qualification de l’audience]**, **[!UICONTROL Lecture d’audience]**, **[!UICONTROL Événement métier]**.
 
 Le statut peut être :
 
