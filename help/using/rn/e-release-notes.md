@@ -6,9 +6,9 @@ description: Notes de mise à jour anticipées de Journey Optimizer
 feature: Release Notes
 topic: Content Management
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 949d1e021cf46aebf7bf564797d717205e4cf4b8
+source-git-commit: de9aba41b6351bc7bad18f3d774612a03673f185
 workflow-type: tm+mt
-source-wordcount: '738'
+source-wordcount: '762'
 ht-degree: 25%
 
 ---
@@ -122,8 +122,10 @@ Les améliorations suivantes ont été ajoutées depuis la version bêta vers ce
 **Canal e-mail**
 
 * **List-unsubscribe** - Suite aux récentes annonces Gmail et Yahoo pour les expéditeurs en masse, Journey Optimizer prend en charge l’option &quot;post/1-click&quot; List-Unsubscribe.
-* **Scoring des messages indésirables** (Version bêta) - Vous pouvez désormais vérifier le score de spam de votre contenu dans un rapport de spam dédié. Grâce à SpamAssassin, Adobe Journey Optimizer peut désormais tester le contenu de vos emails et lui attribuer un score pour indiquer si les fournisseurs de FAI le considéreront comme un spam ou non.
-  <!--[Read more](../content-management/spam-report.md)-->
+* **Scoring des messages indésirables** (Version bêta) - Vous pouvez désormais vérifier le score de spam de votre contenu dans un rapport de spam dédié. Grâce à SpamAssassin, Adobe Journey Optimizer peut désormais tester le contenu de vos emails et lui attribuer un score pour indiquer si les FAI ou les fournisseurs de messagerie le considèrent comme un spam ou non. Cette fonctionnalité est actuellement en version bêta et disponible uniquement pour les clients bêta. Pour rejoindre le programme Beta, contactez l’assistance clientèle d’Adobe.
+
+
+<!--[Read more](../content-management/spam-report.md)-->
 
 <!--
 **Audiences**
