@@ -6,10 +6,10 @@ description: Notes de mise à jour anticipées de Journey Optimizer
 feature: Release Notes
 topic: Content Management
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 72bf2933ad8e6a627b762c2eec62191d85d7e0cf
+source-git-commit: bf098c2b8c1eeb48b4c2a2857db9946c32533ffe
 workflow-type: tm+mt
-source-wordcount: '649'
-ht-degree: 29%
+source-wordcount: '705'
+ht-degree: 26%
 
 ---
 
@@ -140,3 +140,7 @@ Les améliorations suivantes ont été ajoutées depuis la version bêta vers ce
 <!--* **Merge policies** (Limited Availability)- Merge policies used by a journey are now visible and consistent throughout the journey.-->
 * **Prise en charge de mTLS** - L’authentification mTLS est désormais prise en charge dans les actions personnalisées. Aucune configuration supplémentaire n’est requise dans l’action ou le parcours personnalisé pour activer mTLS ; elle se produit automatiquement lorsqu’un point d’entrée compatible mTLS est détecté.
 * **Tables de recherche dans les événements** - Vous pouvez désormais exploiter les données d’un jeu de données de recherche lorsqu’une relation a été définie à l’aide d’un attribut dans un tableau d’objets. Les valeurs de recherche seront disponibles en parcours (conditions, actions personnalisées, etc.) ni dans la personnalisation des messages.
+
+**Mondialisation**
+
+Dans le cadre de nos efforts continus pour offrir une expérience utilisateur unifiée, nous harmonisons la terminologie utilisée dans les produits et applications Adobe Experience Cloud. Cela affecte le terme allemand &quot;Titre&quot; qui est remplacé par &quot;Libellé&quot; lorsqu’il se rapporte au nom d’un objet. Les modifications seront progressivement déployées dans l’interface utilisateur et dans la documentation.
