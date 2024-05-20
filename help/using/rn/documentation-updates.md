@@ -11,7 +11,7 @@ exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
 source-git-commit: 5b7faccbf563c6877a1077b0f6012418848c0ccb
 workflow-type: tm+mt
 source-wordcount: '5230'
-ht-degree: 98%
+ht-degree: 99%
 
 ---
 
@@ -21,7 +21,7 @@ Cette page répertorie toutes les mises à jour récentes de la documentation de
 
 ## Mai 2024 {#may-2024}
 
-* Toutes les nouvelles fonctionnalités et améliorations proposées [!DNL Journey Optimizer] La version du 24 avril a été détaillée dans la documentation. [En savoir plus](release-notes.md)
+* Toutes les nouvelles fonctionnalités et améliorations de la version de [!DNL Journey Optimizer] d’avril 2024 ont été présentées dans la documentation. [En savoir plus](release-notes.md)
 
 
 ## Avril 2024 {#april-2024}
@@ -30,10 +30,10 @@ Cette page répertorie toutes les mises à jour récentes de la documentation de
 * La documentation des [API de prise de décision sur les offres](../offers/api-reference/offer-delivery-api/decisioning-api.md) et des [API de prise de décision par lots](../offers/api-reference/offer-delivery-api/batch-decisioning-api.md) a été mise à jour.
 * Des informations ont été ajoutées dans la documentation sur la gestion des décisions, concernant la gestion des régions périphériques et de hub lors de l’utilisation du capping de fréquence avec l’API Edge Decisioning. [En savoir plus](../offers/offer-library/add-constraints.md#frequency-capping)
 * Ajout d’informations sur la création d’identité avec des espaces de noms personnalisés lors de l’utilisation de campagnes déclenchées par des API. [En savoir plus](../campaigns/api-triggered-campaigns.md)
-* Les dépêches ont été mises à jour pour prendre en compte le canevas de Parcours amélioré.
-* Les contraintes de nommage ont été mises à jour dans la page suivante : [Configuration d’un événement unitaire](../event/about-creating.md), [Configuration d’un événement commercial](../event/about-creating-business.md#gs-business-events), [Configuration d’une action personnalisée](../action/about-custom-action-configuration.md#configuration-steps), [Sources de données externes](../datasource/external-data-sources.md)
-* Une note a été ajoutée sur la disponibilité de l’optimisation du temps d’envoi. [En savoir plus](../building-journeys/journeys-message.md#send-time-optimization)
-* Un nouveau cas d’utilisation technique a été ajouté sur la création d’une action personnalisée pour envoyer des données à Experience Platform. [En savoir plus](../building-journeys/custom-action-aep.md)
+* Les captures d’écran ont été mises à jour pour prendre en compte la zone de travail de parcours améliorée.
+* Les contraintes de nommage ont été mises à jour dans les pages suivantes : [Configurer un événement unitaire](../event/about-creating.md), [Configurer un événement métier](../event/about-creating-business.md#gs-business-events), [Configurer une action personnalisée](../action/about-custom-action-configuration.md#configuration-steps), [Sources de données externes](../datasource/external-data-sources.md).
+* Une note a été ajoutée sur la disponibilité de l’optimisation de l’heure d’envoi. [En savoir plus](../building-journeys/journeys-message.md#send-time-optimization)
+* Un nouveau cas d’utilisation technique a été ajouté sur la création d’une action personnalisée pour envoyer des données à Experience Platform. [En savoir plus](../building-journeys/custom-action-aep.md)
 
 ## Mars 2024 {#march-2024}
 

@@ -12,7 +12,7 @@ exl-id: 13536962-7541-4eb6-9ccb-4f97e167734a
 source-git-commit: 5b7faccbf563c6877a1077b0f6012418848c0ccb
 workflow-type: tm+mt
 source-wordcount: '2415'
-ht-degree: 94%
+ht-degree: 99%
 
 ---
 
@@ -42,14 +42,14 @@ La configuration de surface d’e-mail est récupérée pour envoyer des communi
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_presets_emailtype"
->title="Définir le contenu de l’e-mail"
->abstract="Sélectionnez le type d’e-mails qui sera envoyé lors de l’utilisation de cette surface : Marketing pour les messages promotionnels, qui nécessitent le consentement de l’utilisateur, ou Transactionnel pour les messages non commerciaux, qui peuvent également être envoyés aux profils désabonnés dans des contextes spécifiques."
+>title="Définir le type d’e-mail"
+>abstract="Sélectionnez le type d’e-mail qui sera envoyé lors de l’utilisation de cette surface : Marketing pour les messages promotionnels, qui nécessitent le consentement de l’utilisateur ou de l’utilisatrice, ou Transactionnel pour les messages non commerciaux, qui peuvent également être envoyés aux profils désabonnés dans des contextes spécifiques."
 
-Dans le **Type de courrier électronique** , sélectionnez le type de message pour la surface : **[!UICONTROL Marketing]** ou **[!UICONTROL Transactionnel]**.
+Dans la section **Type dʼe-mail**, sélectionnez le type de message à envoyer pour la surface : **[!UICONTROL Marketing]** ou **[!UICONTROL Transactionnel]**.
 
-* Sélectionner **Marketing** pour les courriers électroniques promotionnels, tels que les promotions hebdomadaires pour un magasin de vente au détail. Ces messages requièrent le consentement de l’utilisateur ou de l’utilisatrice.
+* Sélectionnez **Marketing** pour les e-mails promotionnels, tels que les promotions hebdomadaires pour un magasin de vente au détail. Ces messages requièrent le consentement de l’utilisateur ou de l’utilisatrice.
 
-* Sélectionner **Transactionnel** pour les emails non commerciaux, tels que la confirmation de commande, les notifications de réinitialisation de mot de passe ou les informations de diffusion, par exemple. Ces e-mails peuvent être envoyés aux profils qui **se sont désabonnés** des communications marketing. Ces messages ne peuvent être envoyés que dans des contextes spécifiques.
+* Sélectionnez **Transactionnel** pour les e-mails non commerciaux tels que les confirmations de commande, les notifications de réinitialisation de mot de passe ou les informations de livraison, par exemple. Ces e-mails peuvent être envoyés aux profils qui **se sont désabonnés** des communications marketing. Ces messages ne peuvent être envoyés que dans des contextes spécifiques.
 
 Lors de la création d’un message, vous devez choisir une surface de canal valide correspondant à la catégorie que vous avez sélectionnée pour votre e-mail.
 
@@ -62,7 +62,7 @@ Pour préserver la réputation de votre domaine, accélérer le processus de pr�
 <!--If needed, you can define dynamic subdomains. [Learn more](../email/surface-personalization.md#dynamic-subdomains)-->
 
 
-## Détails du pool IP {#ip-pools}
+## Détails du groupe d’adresses IP {#ip-pools}
 
 
 Sélectionnez le groupe d’adresses IP à associer à la surface. [En savoir plus](../configuration/ip-pools.md)
@@ -81,17 +81,17 @@ Une fois qu’un groupe d’adresses IP a été sélectionné, les informations 
 >
 >Si un enregistrement PTR n’est pas configuré, contactez votre représentant(e) Adobe.
 
-## Désabonnement à la liste {#list-unsubscribe}
+## Désabonnement de la liste {#list-unsubscribe}
 
-Si vous choisissez [sélection d&#39;un sous-domaine](#subdomains-and-ip-pools) dans la liste, l&#39;option **[!UICONTROL Activer List-Unsubscribe]** s&#39;affiche.
+Si vous choisissez [sélection d’un sous-domaine](#subdomains-and-ip-pools) dans la liste, l’option **[!UICONTROL Activer le désabonnement de la liste]** s&#39;affiche.
 
-Cette option est activée par défaut. Si vous la laissez activée, un lien de désabonnement sera automatiquement inclus dans l&#39;en-tête de l&#39;e-mail, par exemple :
+Cette option est activée par défaut. Si vous la laissez activée, un lien de désabonnement sera automatiquement inclus dans l’en-tête de l’e-mail, par exemple :
 
 ![](assets/preset-list-unsubscribe-header.png)
 
-Si vous désactivez cette option, aucun lien de désabonnement ne s’affiche dans l’en-tête de l’email.
+Si vous désactivez cette option, aucun lien de désabonnement ne s’affiche dans l’en-tête de l’e-mail.
 
-Vous pouvez sélectionner le niveau de consentement dans la **Niveau de consentement** Liste déroulante. Il peut être spécifique au canal ou à l’identité du profil. En fonction de ce paramètre, lorsqu’un utilisateur se désabonne à l’aide du lien d’en-tête de désabonnement de liste d’un email, le consentement est mis à jour dans Adobe Journey Optimizer au niveau du canal ou au niveau de l’ID.
+Vous pouvez sélectionner le niveau de consentement dans la liste déroulante **Niveau de consentement**. Il peut être spécifique au canal ou à l’identité du profil. En fonction de ce paramètre, lorsqu’un utilisateur ou une utilisatrice se désabonne à l’aide du lien d’en-tête de désabonnement de liste d’un e-mail, le consentement est mis à jour dans Adobe Journey Optimizer au niveau du canal ou au niveau de l’ID.
 
 Le lien de désabonnement se compose de deux éléments :
 

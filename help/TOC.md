@@ -8,7 +8,7 @@ solution: Journey Optimizer
 source-git-commit: 8dacf28f4c3217a57e648b3c80e1724d9794c9ea
 workflow-type: tm+mt
 source-wordcount: '1804'
-ht-degree: 97%
+ht-degree: 99%
 
 ---
 
@@ -166,7 +166,7 @@ ht-degree: 97%
          + [Transmettre des collections de manière dynamique à l’aide d’actions personnalisées](using/building-journeys/collections.md)
          + [Accélérer les diffusions](using/building-journeys/ramp-up-deliveries-uc.md)
          + [Limiter le débit avec les sources de données externes et les actions personnalisées](using/building-journeys/limit-throughput.md)
-         + [Utilisation d’actions personnalisées pour écrire des événements de Parcours dans Experience Platform](using/building-journeys/custom-action-aep.md)
+         + [Utiliser des actions personnalisées pour écrire des événements de parcours dans Experience Platform](using/building-journeys/custom-action-aep.md)
 + Campagnes{#campaigns}
    + [Commencer avec les campagnes](using/campaigns/get-started-with-campaigns.md)
    + [Création d’une campagne](using/campaigns/create-campaign.md)
@@ -230,11 +230,11 @@ ht-degree: 97%
    + [Vérifier et envoyer vos messages texte](using/sms/send-sms.md)
    + [Gestion des droits d’opposition pour les messages texte](using/sms/sms-opt-out.md)
    + [Configurer des sous-domaines SMS](using/sms/sms-subdomains.md)
-   + Configuration du canal SMS/MMS{#configure-sms}
-      + [Commencer avec la configuration des SMS](using/sms/sms-configuration.md)
-      + [Configuration du fournisseur Sinch](using/sms/sms-configuration-sinch.md)
-      + [Configuration du fournisseur d’informations](using/sms/sms-configuration-infobip.md)
-      + [Configuration du fournisseur Twilio](using/sms/sms-configuration-twilio.md)
+   + Configurer le canal SMS/MMS{#configure-sms}
+      + [Commencer la configuration des SMS](using/sms/sms-configuration.md)
+      + [Configurer le fournisseur Sinch](using/sms/sms-configuration-sinch.md)
+      + [Configurer le fournisseur Infobip](using/sms/sms-configuration-infobip.md)
+      + [Configurer le fournisseur Twilio](using/sms/sms-configuration-twilio.md)
       + [Créer une surface SMS](using/sms/sms-configuration-surface.md)
 + Courrier {#direct-mail}
    + [Prise en main du courrier](using/direct-mail/get-started-direct-mail.md)
@@ -271,12 +271,12 @@ ht-degree: 97%
       + [Configurer les sous-domaines des pages de destination](using/landing-pages/lp-subdomains.md)
       + [Définir les préréglages de page de destination](using/landing-pages/lp-presets.md)
 + Gestion de contenu {#content-management}
-   + Utilisation de l’assistant d’IA{#ai-assistant}
-      + [Commencer avec l’Assistant IA](using/content-management/gs-generative.md)
+   + Utiliser l’assistant IA{#ai-assistant}
+      + [Commencer avec l’assistant IA](using/content-management/gs-generative.md)
       + [Génération d’e-mails](using/content-management/generative-email.md)
       + [Génération de notifications push](using/content-management/generative-push.md)
       + [Génération de SMS](using/content-management/generative-sms.md)
-      + [Expérience de contenu avec l’assistant d’IA](using/content-management/generative-experimentation.md)
+      + [Expérience de contenu avec l’assistant IA](using/content-management/generative-experimentation.md)
    + Utiliser du contenu multilingue{#content-multilingual}
       + [Prise en main du contenu multilingue](using/content-management/multilingual-gs.md)
       + [Créer du contenu multilingue avec traduction manuelle](using/content-management/multilingual-manual.md)
@@ -515,16 +515,16 @@ ht-degree: 97%
             + [API Decisioning](using/offers/api-reference/offer-delivery-api/decisioning-api.md)
             + [API Edge Decisioning](using/offers/api-reference/offer-delivery-api/edge-decisioning-api.md)
             + [API Batch Decisioning](using/offers/api-reference/offer-delivery-api/batch-decisioning-api.md)
-   + Prise de décision d’expérience (LA) {#experience-decisioning}
+   + Prise de décision basée sur l’expérience (disponibilité limitée) {#experience-decisioning}
       + [Commencer avec la prise de décision basée sur l’expérience](using/experience-decisioning/gs-experience-decisioning.md)
       + Gérer les éléments de décision {#decision-items}
-         + [Configuration du catalogue d’éléments](using/experience-decisioning/catalogs.md)
+         + [Configurer le catalogue d’éléments](using/experience-decisioning/catalogs.md)
          + [Créer des éléments de décision](using/experience-decisioning/items.md)
-         + [Gestion des collections d’éléments](using/experience-decisioning/collections.md)
-      + Configurer la sélection d’élément {#selection}
+         + [Gérer des collections d’éléments](using/experience-decisioning/collections.md)
+      + Configurer la sélection d’éléments {#selection}
          + [Créer des règles de décision](using/experience-decisioning/rules.md)
          + [Créer des méthodes de classement](using/experience-decisioning/ranking.md)
-         + [Exploitation des données contextuelles](using/experience-decisioning/context-data.md)
+         + [Utiliser des données contextuelles](using/experience-decisioning/context-data.md)
       + [Créer des stratégies de sélection](using/experience-decisioning/selection-strategies.md)
       + [Créer des politiques de décision](using/experience-decisioning/create-decision.md)
       + [Rapports dans Customer Journey Analytics](using/experience-decisioning/cja-reporting.md)
@@ -593,7 +593,7 @@ ht-degree: 97%
       + [Prise en main de User Management](using/administration/permissions-overview.md)
       + [Rôles intégrés](using/administration/ootb-product-profiles.md)
       + [Autorisations intégrées](using/administration/ootb-permissions.md)
-      + [Niveaux d&#39;autorisation](using/administration/high-low-permissions.md)
+      + [Niveaux d’autorisation](using/administration/high-low-permissions.md)
    + [Gérer les utilisateurs et utilisatrices, et les rôles](using/administration/permissions.md)
    + [Contrôle d’accès basé sur les attributs](using/administration/attribute-based-access.md)
    + [Contrôle d’accès au niveau de l’objet](using/administration/object-based-access.md)
