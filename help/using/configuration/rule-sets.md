@@ -12,10 +12,10 @@ badge: label="Version bêta"
 hide: true
 hidefromtoc: true
 exl-id: 07f5f0b4-417e-408e-8d9e-86615c8a3fbf
-source-git-commit: b69c75e0a8a35635a67065412e443a2af0d3b09f
+source-git-commit: 60b29231a097bde3e451549eac9c2aead9452cf4
 workflow-type: tm+mt
-source-wordcount: '1630'
-ht-degree: 57%
+source-wordcount: '1605'
+ht-degree: 56%
 
 ---
 
@@ -157,8 +157,6 @@ Une fois créée, la règle affiche le statut **[!UICONTROL Brouillon]** et n’
 Vous devez également activer le jeu de règles pour pouvoir y accéder dans les campagnes ou parcours et l’appliquer à vos messages.
 
 ![](assets/rule-set-activate-set.png)
-
-L’activation d’un jeu de règles aura un impact sur tous les messages auxquels il s’applique lors de leur exécution suivante. Découvrez comment [appliquer un jeu de règles à un message](#apply-rule-set).
 
 >[!NOTE]
 >
