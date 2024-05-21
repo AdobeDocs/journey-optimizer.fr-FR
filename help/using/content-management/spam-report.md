@@ -1,6 +1,6 @@
 ---
-title: Utiliser le rapport de spam
-description: Découvrez comment utiliser le rapport de spam.
+title: Utiliser le rapport spam par courrier électronique
+description: Découvrez comment utiliser le rapport de spam par courrier électronique.
 feature: Preview
 role: User
 level: Beginner
@@ -8,29 +8,29 @@ badge: label="Version bêta"
 hide: true
 hidefromtoc: true
 exl-id: 9ab43b14-41cf-49f1-bdcf-6fee58db5000
-source-git-commit: 4c1dca7815594bbbf5a2d84682338e8b2d743965
+source-git-commit: d0973e623de8f26b4e9dc5809251f9705333adb9
 workflow-type: tm+mt
-source-wordcount: '297'
-ht-degree: 34%
+source-wordcount: '363'
+ht-degree: 17%
 
 ---
 
 # Rapport Email spam {#spam-report}
 
-[!DNL Journey Optimizer] vous permet de vérifier les performances de votre contenu par rapport au filtrage du spam et de vous assurer que vos messages arrivent dans les boîtes de réception de vos clientes et clients, et non dans les spams.
+>[!CONTEXTUALHELP]
+>id="ajo_simulate_spam_report"
+>title="Rapport Email spam"
+>abstract="Le rapport Spam vous permet de vérifier le score de spam de votre contenu d&#39;email. Ce score indique si les FAI ou les fournisseurs de messagerie considèrent votre message comme un spam ou non. Plus le score est bas, mieux c&#39;est. Si le score de contenu de votre email est supérieur à 2, envisagez de résoudre les problèmes qui provoquent l’échec des tests."
 
-Lors de l&#39;édition ou de la prévisualisation du contenu de votre email, la variable **[!UICONTROL Rapport Spam]** fournit une notation et des conseils afin d’améliorer les scores de chaque élément répertorié.
+Vous pouvez vérifier le score de spam de votre contenu d&#39;email dans un rapport de spam dédié. Utilisation [SpamAssassin](https://spamassassin.apache.org/){target="_blank"}, Adobe Journey Optimizer peut tester le contenu de votre email et lui attribuer un score pour indiquer si les FAI ou les fournisseurs de messagerie le considèrent comme un spam ou non.
 
-Cela vous permet de déterminer si un message risque d’être considéré comme indésirable par les outils anti-spam utilisés à sa réception et d’agir dans le cas contraire. De nombreux fournisseurs de messagerie utilisent des outils dans le cadre de leur processus de filtrage du spam. L’envoi d’emails avec un mauvais score peut considérablement affecter votre délivrabilité.
-
-
->[!CAUTION]
+>[!AVAILABILITY]
 >
->* Cette fonctionnalité est actuellement disponible uniquement en version bêta privée.
->
->* Pour l’instant, l’analyse du rapport de spam ne peut être effectuée que pour le contenu en anglais.
->
->* Le rapport Spam est informatif et n&#39;empêche pas l&#39;envoi de messages dont le score est mauvais.
+>Cette fonctionnalité est actuellement en version bêta et disponible uniquement pour les clients bêta. Pour rejoindre le programme Beta, contactez l’assistance clientèle d’Adobe.
+
+Lors de l&#39;édition ou de la prévisualisation du contenu de votre email, la variable **[!UICONTROL Rapport Spam]** fournit une notation et des conseils pour améliorer les scores de chaque élément répertorié.
+
+Cette fonctionnalité vous permet de déterminer si un message peut être considéré comme indésirable par les outils anti-spams utilisés à sa réception et d’agir si tel est le cas. De nombreux fournisseurs de messagerie utilisent des outils dans le cadre de leur processus de filtrage du spam. L’envoi d’emails avec un mauvais score peut considérablement affecter votre délivrabilité.
 
 Pour accéder au **[!UICONTROL Rapport Spam]**, suivez les étapes ci-dessous.
 
@@ -50,7 +50,7 @@ Pour accéder au **[!UICONTROL Rapport Spam]**, suivez les étapes ci-dessous.
 
 1. Vérifiez les scores et les descriptions de chaque élément.
 
-   Plus le score est bas, mieux c&#39;est. Si le score est supérieur à 5, un avertissement s&#39;affiche : il indique que certains messages peuvent être bloqués ou marqués comme spam à la réception.
+   Plus le score est bas, mieux c&#39;est. Si le score est supérieur à 5, un avertissement s&#39;affiche : il indique que certains messages peuvent être bloqués ou marqués comme spam à la réception. La bonne pratique consiste à obtenir un score inférieur à 2.
 
 1. Selon cette notation, si vous considérez que certains éléments peuvent être améliorés, modifiez votre contenu dans la variable [Concepteur d&#39;email](../email/content-from-scratch.md) et effectuez les mises à jour nécessaires.
 
