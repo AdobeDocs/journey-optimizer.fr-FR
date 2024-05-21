@@ -10,10 +10,10 @@ level: Intermediate
 keywords: expression, éditeur
 hidefromtoc: true
 hide: true
-source-git-commit: ae26dfdf77433882dc57e5518a2ff5e0f7e3a3ce
+source-git-commit: 4d4ce1e892d51393972973950e8e03259e16c204
 workflow-type: tm+mt
-source-wordcount: '518'
-ht-degree: 5%
+source-wordcount: '566'
+ht-degree: 4%
 
 ---
 
@@ -29,7 +29,7 @@ Journey Optimizer vous permet d’exploiter les données de Adobe Experience Pla
 
 1. Ouvrez l’éditeur d’expression, disponible dans chaque contexte où vous pouvez définir la personnalisation, par exemple les messages. [Découvrez comment travailler avec l’éditeur d’expression](../personalization/personalization-build-expressions.md).
 
-1. Accédez à la liste des fonctions d’assistance et ajoutez le **MultiEntity** fonction d’assistance au volet de code.
+1. Accédez à la liste des fonctions d’assistance et ajoutez le **datasetLookup** fonction d’assistance au volet de code.
 
    ![](assets/aep-data-helper.png)
 
@@ -41,6 +41,11 @@ Journey Optimizer vous permet d’exploiter les données de Adobe Experience Pla
 
    * **entity.datasetId** est l’identifiant du jeu de données que vous utilisez,
    * **id** est le champ utilisé comme identité principale dans le jeu de données,
+
+     >[!NOTE]
+     >
+     >La valeur saisie pour ce champ peut être soit l’identifiant du champ (*profile.couponValue*), un champ transmis dans un événement de parcours (*context.parcours.events.event_ID.couponValue*) ou une valeur statique (*couponAbcd*). Dans tous les cas, le système utilisera la valeur et la recherche dans le jeu de données pour vérifier s’il correspond à une clé.
+
    * **result** est un nom arbitraire que vous devez fournir pour référencer toutes les valeurs de champ que vous allez récupérer du jeu de données. Cette valeur sera utilisée dans votre code pour appeler chaque champ.
 
    +++Où récupérer un identifiant de jeu de données ?
