@@ -9,10 +9,10 @@ role: Data Engineer, Data Architect, Admin
 level: Intermediate, Experienced
 keywords: événement, unitaire, créer, parcours
 exl-id: e22e2bc7-0c15-457a-8980-97bea5da7784
-source-git-commit: 0571a11eabffeb5e318bebe341a8df18da7db598
-workflow-type: ht
-source-wordcount: '1605'
-ht-degree: 100%
+source-git-commit: 0f1c4b96e930e8e473463002c1d8ef66341a07c4
+workflow-type: tm+mt
+source-wordcount: '1609'
+ht-degree: 97%
 
 ---
 
@@ -61,14 +61,18 @@ Les premières étapes nécessaires pour configurer un nouvel événement sont l
    >
    >Lorsque vous sélectionnez le type **[!UICONTROL Généré par le système]**, seuls les schémas dont le champ est de type eventID sont disponibles. Lorsque vous sélectionnez le type **[!UICONTROL Basé sur des règles]**, tous les schémas Événement d&#39;expérience sont disponibles.
 
-1. Pour les événements basés sur des règles, cliquez dans le champ **[!UICONTROL condition d&#39;identifiant d&#39;événement]**. À l&#39;aide de l&#39;éditeur d&#39;expression simple, définissez la condition qui sera utilisée par le système pour identifier les événements qui déclencheront votre parcours.
+1. Pour les événements basés sur des règles, cliquez dans le champ **[!UICONTROL condition d&#39;identifiant d&#39;événement]**. À l’aide de l’éditeur d’expression simple ou avancé, définissez la condition qui sera utilisée par le système pour identifier les événements qui déclencheront votre parcours.
    ![](assets/jo-event6.png)
+
+   >[!NOTE]
+   >
+   >L’éditeur d’expression avancé dans la configuration d’un événement est disponible dans la section Capacité limitée de certains clients.
 
    Dans notre exemple, nous avons écrit une condition basée sur la ville du profil. Cela signifie que chaque fois que le système reçoit un événement qui correspond à cette condition (champ **[!UICONTROL Ville]** et valeur **[!UICONTROL Paris]**), il le transmet aux parcours.
 
    >[!NOTE]
    >
-   >L&#39;éditeur d&#39;expression avancé n&#39;est pas disponible lors de la définition de la **[!UICONTROL condition d&#39;identifiant d&#39;événement]**. Dans l&#39;éditeur d&#39;expression simple, tous les opérateurs ne sont pas disponibles ; ils dépendent du type de données. Par exemple, pour un type de chaîne de champ, vous pouvez utiliser « contient » ou « égal à ».
+   >Dans l&#39;éditeur d&#39;expression simple, tous les opérateurs ne sont pas disponibles ; ils dépendent du type de données. Par exemple, pour un type de chaîne de champ, vous pouvez utiliser « contient » ou « égal à ».
    >
    >Si vous modifiez votre schéma avec de nouvelles valeurs d’énumération après avoir créé l’événement, vous devez suivre les étapes suivantes pour appliquer les modifications à l’événement existant : désélectionnez le champ d’énumération des champs de l’événement, confirmez la sélection, puis sélectionnez à nouveau le champ d’énumération. La nouvelle valeur d’énumération s’affiche maintenant.
 

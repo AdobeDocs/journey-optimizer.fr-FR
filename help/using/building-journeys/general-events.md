@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: personnalisé, général, événement, parcours
 exl-id: b1813122-7031-452e-9ac5-a4ea7c6dc57c
-source-git-commit: 5b7faccbf563c6877a1077b0f6012418848c0ccb
+source-git-commit: cc4ea97f858a212b82ac3b77328e61f59e3bfc27
 workflow-type: tm+mt
-source-wordcount: '547'
-ht-degree: 94%
+source-wordcount: '605'
+ht-degree: 88%
 
 ---
 
@@ -22,6 +22,11 @@ ht-degree: 94%
 >id="ajo_journey_event_custom"
 >title="Événements unitaires"
 >abstract="Les événements vous permettent de déclencher vos parcours de manière unitaire pour envoyer des messages, en temps réel, à l’individu progressant dans le parcours. Pour ce type d&#39;événement, vous pouvez uniquement ajouter un libellé et une description. La configuration de l’événement est effectuée par un ingénieur de données et ne peut pas être modifiée."
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_event_business_canvas"
+>title="Événements métier"
+>abstract="Ces événements vous permettent de démarrer un parcours à l’aide d’un événement non lié à un profil. Lorsque cet événement est déclenché, vous pouvez envoyer des messages à une audience de profils. Pour ce type d&#39;événement, vous pouvez uniquement ajouter un libellé et une description. La configuration de l’événement est effectuée par un utilisateur technique et ne peut pas être modifiée."
 
 Les événements vous permettent de déclencher vos parcours de manière unitaire pour envoyer des messages, en temps réel, à l&#39;individu progressant dans le parcours.
 

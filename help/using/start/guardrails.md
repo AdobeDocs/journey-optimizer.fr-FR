@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: 46a97787e184aeda20efecd9052328daf3ec5f23
+source-git-commit: cc4ea97f858a212b82ac3b77328e61f59e3bfc27
 workflow-type: tm+mt
-source-wordcount: '2020'
-ht-degree: 99%
+source-wordcount: '2065'
+ht-degree: 97%
 
 ---
 
@@ -64,6 +64,7 @@ Cependant, en fonction de votre contrat de licence, vous pouvez déléguer jusqu
 * Lorsque vous publiez des parcours, nous les mettons automatiquement à l’échelle et les ajustons pour garantir une stabilité et un débit maximaux. Lorsque vous approchez du jalon de 100 parcours actifs à la fois, une notification s’affiche dans l’interface utilisateur pour cette réalisation. Si cette notification s’affiche et que vous devez étendre vos parcours au-delà de 100 parcours actifs à la fois, créez un ticket pour l’assistance clientèle et nous vous aiderons à atteindre vos objectifs.
 * Lorsque vous utilisez une qualification d’audience dans un parcours, cette activité de qualification d’audience peut demander jusqu’à 10 minutes avant d’être active et d’écouter les profils entrant ou sortant de l’audience.
 * La taille maximale d’une instance de parcours pour un profil est de 1 Mo. Toutes les données collectées dans le cadre de l’exécution du parcours sont stockées dans cette instance de parcours. Par conséquent, les données d’un événement entrant, les informations de profil extraites d’Adobe Experience Platform, les réponses d’action personnalisée, etc. sont stockées dans cette instance de parcours et affectent la taille du parcours. Il est conseillé, lorsqu’un parcours commence par un événement, de limiter la taille maximale de cette payload d’événement (par exemple, à moins de 800 Ko), afin d’éviter d’atteindre cette limite après quelques activités, dans l’exécution du parcours. Lorsque cette limite est atteinte, le profil est au statut d’erreur et est exclu du parcours.
+* Outre le délai d’expiration utilisé dans les activités de parcours, il existe également un délai d’expiration parcours global qui n’est pas affiché dans l’interface et qui ne peut pas être modifié. Ce délai d’expiration global arrête la progression des individus dans le parcours 30 jours après leur entrée. [En savoir plus](../building-journeys/journey-gs.md#global_timeout)
 
 
 ### Actions générales {#general-actions-g}

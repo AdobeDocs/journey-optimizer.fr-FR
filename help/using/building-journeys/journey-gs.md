@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: parcours, premier, commencer, démarrage rapide, audience, événement, action
 exl-id: d940191e-8f37-4956-8482-d2df0c4274aa
-source-git-commit: 0571a11eabffeb5e318bebe341a8df18da7db598
-workflow-type: ht
-source-wordcount: '2004'
-ht-degree: 100%
+source-git-commit: c68e72d170792fc0ea3b6eb09b3acf818ec2cfd5
+workflow-type: tm+mt
+source-wordcount: '2086'
+ht-degree: 96%
 
 ---
 
@@ -211,6 +211,21 @@ Cette temporisation globale met fin à la progression des individus dans le parc
 Compte tenu de la temporisation de 30 jours, lorsque la rentrée n’est pas autorisée, nous sommes dans l’impossibilité de garantir que le blocage de rentrée fonctionnera plus de 30 jours. En effet, étant donné que nous supprimons toutes les informations sur les personnes qui ont rejoint le parcours 30 jours après leur entrée, rien ne nous permet de savoir qu&#39;une personne l&#39;a déjà rejoint il y a plus de 30 jours.
 
 Un individu ne peut entrer dans une activité d’attente que s’il dispose de suffisamment de temps dans le parcours pour terminer la durée d’attente avant la temporisation de 30 jours du parcours. Consultez [cette page](../building-journeys/wait-activity.md).
+
+### Politiques de fusion {#merge-policies}
+
+Parcours utilise des stratégies de fusion lors de la récupération des données de profil de Adobe Experience Platform. Selon le type de parcours, différentes stratégies de fusion sont utilisées :
+
+* Dans les parcours Lecture d’audience ou qualification de l’audience : la stratégie de fusion de l’audience est utilisée
+* Dans les parcours déclenchés par un événement : la stratégie de fusion par défaut est utilisée.
+
+Parcours respectera la stratégie de fusion utilisée tout au long du parcours.
+
+>[!NOTE]
+>
+>Cette fonctionnalité est uniquement disponible en disponibilité limitée (LA) pour certains clients.
+
+Pour en savoir plus sur les stratégies de fusion, reportez-vous à cette section [page](https://experienceleague.adobe.com/en/docs/experience-platform/profile/merge-policies/overview)
 
 ## Dupliquer un parcours {#duplicate-a-journey}
 

@@ -12,10 +12,10 @@ hide: true
 hidefromtoc: true
 badge: label="Version Beta"
 exl-id: c2434086-2ed4-4cd0-aecd-2eea8f0a55f6
-source-git-commit: cef6970e611a33b71b803fdb247f566cb8a8a708
-workflow-type: ht
-source-wordcount: '1600'
-ht-degree: 100%
+source-git-commit: c400104c86e1a9a2de819db7743b3f77153ad90b
+workflow-type: tm+mt
+source-wordcount: '1674'
+ht-degree: 91%
 
 ---
 
@@ -37,6 +37,10 @@ Une fois que vous avez créé une ou plusieurs [campagnes de préchauffage d’a
 Pour créer, modifier supprimer des plans de préchauffage d’adresses IP et y accéder, vous devez disposer des autorisations associées au rôle **[!UICONTROL Consultant en délivrabilité]** ou aux plans de préchauffage des adresses IP.
 
 +++Découvrez comment attribuer le rôle Consultant en délivrabilité, ou encore les autorisations associées aux plans de préchauffage des adresses IP.
+
+Le contrôle d’accès au niveau de l’objet vous permet de protéger les données et d’accorder un accès spécifique pour afficher et gérer vos plans. Si aucune étiquette n’est attribuée à votre plan de chauffage par IP, il sera ouvert pour affichage et modification par tous les utilisateurs.
+
+Octroi de la propriété **[!UICONTROL Afficher les plans de chaleur IP]** L’autorisation limite l’accès à l’affichage et à la publication uniquement, lors de l’attribution de la variable **[!UICONTROL Gestion des plans de chauffage des adresses IP]** L’autorisation permet aux utilisateurs d’afficher et de modifier le plan.
 
 Pour attribuer l’autorisation correspondant à un **[!UICONTROL rôle]** spécifique :
 
@@ -76,7 +80,7 @@ Pour affecter le rôle correspondant à **[!UICONTROL un utilisateur ou une util
 
 Le préchauffage d’adresses IP est une activité qui consiste à augmenter progressivement le volume d’e-mails qui sortent de vos adresses IP et domaine vers les principaux fournisseurs d’accès à Internet (FAI), afin d’établir votre réputation d’expéditeur légitime.
 
-Cette activité est réalisée en temps opportun avec l’aide d’un spécialiste en délivrabilité qui contribue à la préparation d’un plan bien conçu basé sur les domaines du secteur, les cas d’utilisation, les régions, les FAI et d’autres facteurs.
+Cette activité est généralement réalisée avec l’aide d’un expert en délivrabilité qui aide à préparer un plan bien pensé basé sur les domaines du secteur, les cas d’utilisation, les régions, les FAI et divers autres facteurs.
 
 <!--When working with the [!DNL Journey Optimizer] IP warmup feature, this plan takes the form of an Excel file that must contain a number of predefined columns.-->
 
@@ -102,10 +106,6 @@ Vous trouverez ci-dessous un exemple de fichier contenant un plan de préchauffa
 
 ![](assets/ip-warmup-sample-file.png)
 
->[!NOTE]
->
->Pour l’instant, vous ne devez pas toucher aux cellules **Propriétés** et **Valeur**.
-
 ### Onglet Plan de préchauffage d’adresses IP {#ip-warmup-plan-tab}
 
 * Dans cet exemple, un plan a été préparé sur 17 jours (appelé « **exécutions** ») pour atteindre un volume cible de plus d’un million de profils.
@@ -117,7 +117,6 @@ Vous trouverez ci-dessous un exemple de fichier contenant un plan de préchauffa
    * Quatre d’entre elles correspondent aux **groupes de domaines prêts à l’emploi** à utiliser dans votre plan (Gmail, Microsoft, Yahoo et Orange).
    * L’une correspond à un groupe de domaines personnalisé (que vous devez ajouter à l’aide de l’onglet [Groupe de domaines personnalisé](#custom-domain-group-tab)).
    * La sixième colonne, **Autres**, contient toutes les adresses restantes d’autres domaines qui ne sont pas explicitement couverts dans le plan. Cette colonne est facultative : si elle est omise, les e-mails seront envoyés uniquement aux domaines spécifiés.
-* La colonne **Jours d’engagement** indique que seuls les profils impliqués dans votre marque au cours de la dernière période sont ciblés.
 
 L’idée est d’augmenter progressivement le nombre d’adresses ciblées au cours de chaque exécution, tout en réduisant le nombre d’exécutions pour chaque phase.
 
@@ -202,6 +201,8 @@ mac.com;icloud.com;apple.com;me.com
 Vous pouvez également ajouter d’autres colonnes à votre plan en incluant des groupes de domaines personnalisés.
 
 Utilisez l’onglet **[!UICONTROL Groupe de domaines personnalisés]** pour définir un nouveau groupe de domaines. Pour chaque domaine, vous pouvez ajouter tous les sous-domaines qu’il couvre.<!--TBC-->
+
+Assurez-vous que chaque domaine est unique à son groupe de domaines et ne chevauche pas d’autres groupes de domaines. Les groupes de domaines globaux étant automatiquement définis, les utilisateurs doivent tenir compte de ces éléments lors de la création de groupes de domaines personnalisés.
 
 Par exemple, si vous ajoutez le domaine personnalisé Luma, vous souhaitez inclure les sous-domaines suivants : luma.com, luma.co.uk, luma.it, luma.fr, luma.de, etc.
 

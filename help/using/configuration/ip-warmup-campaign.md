@@ -12,10 +12,10 @@ hide: true
 hidefromtoc: true
 badge: label="Version Beta"
 exl-id: a9995ca1-d7eb-4f8d-a9d9-fe56198ac325
-source-git-commit: 737b7f59819d235b1f637d4a6b996e97cfddb9fe
+source-git-commit: c400104c86e1a9a2de819db7743b3f77153ad90b
 workflow-type: tm+mt
-source-wordcount: '409'
-ht-degree: 100%
+source-wordcount: '451'
+ht-degree: 91%
 
 ---
 
@@ -69,11 +69,15 @@ Pour créer une campagne de préchauffage d’adresses IP, suivez les étapes ci
 
 1. Suivez les étapes de création d’une campagne par e-mail, telles que définir les propriétés, l’[audience](../audience/about-audiences.md)<!--best practices for IP warmup in terms of audience?--> et le [contenu](../email/get-started-email-design.md#key-steps) de la campagne.
 
+   Notez que vous devez sélectionner une audience basée sur des règles pour votre campagne de réchauffement des adresses IP. [En savoir plus](../audience/creating-a-segment-definition.md)
+
    >[!NOTE]
    >
    >Pour plus d’informations sur la configuration d’une campagne, consultez cette [page](../campaigns/get-started-with-campaigns.md).
 
 1. [Activez](../campaigns/review-activate-campaign.md) la campagne. Son statut passe à **[!UICONTROL Actif]**.
+
+   Notez que les règles de fonctionnement ne doivent pas être utilisées dans le cadre d’un forfait de chauffage par IP. L’application de ces règles peut empêcher d’atteindre le nombre souhaité de profils ciblés pour les campagnes.
 
    >[!NOTE]
    >

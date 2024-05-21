@@ -7,9 +7,10 @@ feature: Release Notes
 topic: Content Management
 role: User
 level: Beginner, Intermediate
-source-git-commit: 0571a11eabffeb5e318bebe341a8df18da7db598
+exl-id: bae533c5-1bfc-48bf-9f8d-1145383c040c
+source-git-commit: d0fa6d9f3a5d61310e8d072513b199e513a66138
 workflow-type: tm+mt
-source-wordcount: '1294'
+source-wordcount: '1582'
 ht-degree: 100%
 
 ---
@@ -17,6 +18,115 @@ ht-degree: 100%
 # Notes de mise à jour 2024 {#release-notes-2024}
 
 Cette page répertorie toutes les fonctionnalités et améliorations pour [!DNL Journey Optimizer] publiées en 2024.
+
+
+## Notes de mise à jour d’avril 2024 {#apr-2024}
+
+**Date de publication** : 2 mai 2024
+
+### Nouvelles fonctionnalités {#apr-features}
+
+Cette version apporte les nouvelles fonctionnalités détaillées ci-dessous.
+
+<table>
+<thead>
+<tr>
+<th><strong>MMS (service de messagerie multimédia) - tous les fournisseurs</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Avec le canal SMS, vous pouvez maintenant améliorer votre communication en envoyant des MMS, ce qui vous permet de partager des images, des GIF ou des vidéos avec vos clientes et clients. Initialement disponibles uniquement avec Sinch, les MMS sont désormais également pris en charge par Infobip et Twilio.</p>
+<img src="assets/do-not-localize/mms.gif"/>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Amélioration du concepteur de parcours et des rapports dynamiques</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Dans cette version, nous avons amélioré l’interface d’utilisation de la zone de travail de parcours afin d’offrir une expérience client plus intuitive et efficace. Les activités sont plus claires et présentent plus d’informations sur la zone de travail de parcours avec moins de clics.</p>
+<img src="assets/new-canvas3.gif"/>
+<p>Outre la conception améliorée de la zone de travail de parcours, vous pouvez désormais afficher les mesures de création de rapports pour les dernières 24 heures directement dans la zone de travail de parcours. </p>
+<img src="assets/new-canvas6bis.png"/>
+<p><strong>Note</strong> : ces modifications seront progressivement déployées dans tous les environnements à compter de la version d’avril.</p>
+<p>Pour plus d’informations, consultez la <a href="new-canvas.md">documentation détaillée</a>.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<!-- table>
+<thead>
+<tr>
+<th><strong>AI Assistant - Experience Variant Generation - Beta</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Once you have created and personalized your message, take your content to the next level with the AI assistant. You can now use the AI assistant to optimize your message's impact by experimenting with different main titles, and images. Each variant is managed as a unique Treatment, to measure and compare which title effectively generates more clicks.</p>
+</td>
+</tr>
+</tbody>
+</table-->
+
+
+<!--table>
+<thead>
+<tr>
+<th><strong>Email Surface Personalization - Private beta </strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>You can now define dynamic subdomains and personalized header parameters when creating email channel surfaces, for increased flexibility and control over your email settings.</p>
+</td>
+</tr>
+</tbody>
+</table-->
+
+### Améliorations {#apr-improvements}
+
+Cette version est fournie avec les améliorations répertoriées ci-dessous.
+
+<!--
+* **Expression Fragments supported for Web and In-App**: Expression fragments are now available for the Web and In-app channels. 
+-->
+
+
+<!--
+* **DULE for AJO Channel Surface**: It is now possible to apply a label on certain profile attributes to restrict their usage inside a channel surface through marketing actions.
+-->
+
+
+<!--
+* **List-Unsubscribe updates**: Following on the recent Gmail and Yahoo announcements for bulk senders, Journey Optimizer supports the "post/1-click" List-Unsubscribe option. 
+-->
+
+**Configuration**
+
+* Vous pouvez désormais sélectionner une action marketing au niveau de la surface de canal. Lorsqu’elles sont utilisées dans une surface, toutes les politiques de consentement associées à cette action marketing sont utilisées afin de respecter les préférences de vos clientes et clients. [En savoir plus](../action/consent.md#surface-marketing-actions)
+* L’utilisation du contrôle d’accès au niveau de l’objet est désormais disponible pour les surfaces de canal. [En savoir plus](../configuration/channel-surfaces.md#create-channel-surface)
+* Lors de l’activation du désabonnement de la liste dans une surface de canal, vous pouvez maintenant définir le niveau de consentement pour vous aligner sur la manière dont vous gérez le consentement de toutes les autres sources. [En savoir plus](../email/email-settings.md#list-unsubscribe)
+
+**Gestion de contenu**
+
+* Vous pouvez désormais simuler des modèles de contenu pour tous les canaux. [En savoir plus](../content-management/content-templates.md#test-templates).
+
+**Personnalisation**
+
+* La nouvelle fonction d’assistant **toInt** est disponible dans l’éditeur d’expression. Elle vous permet de convertir n’importe lequel de ces types (nombre, double, entier, long, flottant, court, octet, booléen, chaîne) en entier. [En savoir plus](../personalization/functions/math.md#to-int)
+
 
 
 ## Notes de mise à jour de mars 2024 {#mar-2024}

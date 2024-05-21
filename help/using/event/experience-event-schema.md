@@ -9,10 +9,10 @@ role: Data Engineer, Data Architect, Admin
 level: Intermediate, Experienced
 keywords: schémas, XDM, platform, en flux continu, ingestion, parcours
 exl-id: f19749c4-d683-4db6-bede-9360b9610eef
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: 7c55cc25fe1286d466f2de719aa42dcb76154881
 workflow-type: tm+mt
-source-wordcount: '832'
-ht-degree: 100%
+source-wordcount: '831'
+ht-degree: 95%
 
 ---
 
@@ -87,7 +87,7 @@ Vous pouvez définir une relation de schéma sur un ensemble de chaînes de cara
 
 ![](assets/schema15.png)
 
-Cependant, vous ne pouvez pas définir de relation de schéma avec un attribut dans un ensemble d’objets, par exemple une liste d’informations d’achat (identifiant de produit, nom de produit, prix, remise). Les valeurs de recherche ne seront pas disponibles dans les parcours (conditions, actions personnalisées, etc.) ni dans la personnalisation des messages.
+Vous pouvez également définir une relation de schéma avec un attribut dans un tableau d’objets, par exemple une liste d’informations d’achat (ID de produit, nom du produit, prix, remise). Les valeurs de recherche seront disponibles en parcours (conditions, actions personnalisées, etc.) ni dans la personnalisation des messages.
 
 ![](assets/schema16.png)
 

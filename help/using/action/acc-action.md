@@ -9,10 +9,10 @@ role: Data Engineer, Data Architect, Admin
 level: Intermediate
 keywords: campaign, acc, intégration
 exl-id: 109ba212-f04b-425f-9447-708c8e0b3f51
-source-git-commit: f8d62a702824bcfca4221c857acf1d1294427543
+source-git-commit: cc4ea97f858a212b82ac3b77328e61f59e3bfc27
 workflow-type: tm+mt
-source-wordcount: '496'
-ht-degree: 100%
+source-wordcount: '540'
+ht-degree: 89%
 
 ---
 
@@ -23,13 +23,26 @@ ht-degree: 100%
 >title="Actions d&#39;Adobe Campaign v7/v8"
 >abstract="Cette intégration est disponible pour Adobe Campaign v7 et v8. Elle permet d&#39;envoyer des e-mails, des notifications push et des SMS à l&#39;aide des fonctionnalités de messagerie transactionnelle d&#39;Adobe Campaign. La connexion entre les instances Journey Optimizer et Campaign est configurée par Adobe au moment de l’approvisionnement."
 
-Cette intégration est disponible pour Adobe Campaign v7/v8 à partir de la version 7.1 et Adobe Campaign v8. Elle permet d&#39;envoyer des e-mails, des notifications push et des SMS à l&#39;aide des fonctionnalités de messagerie transactionnelle d&#39;Adobe Campaign.
-
-La connexion entre les instances Journey Optimizer et Campaign est configurée par Adobe au moment de l’approvisionnement.
+Cette intégration est disponible pour Adobe Campaign v7/v8 à partir de la version 7.1 et Adobe Campaign v8. Elle permet d’envoyer des e-mails, des notifications push et des SMS à l’aide des fonctionnalités de messagerie transactionnelle d’Adobe Campaign.
 
 Un cas d’utilisation complet est présenté dans cette [section](../building-journeys/ajo-ac.md).
 
 Pour chaque action configurée, une activité d’action est disponible dans la palette du concepteur de parcours. Reportez-vous à cette [section](../building-journeys/using-adobe-campaign-v7-v8.md).
+
+## Accéder à {#access}
+
+La connexion entre les instances Journey Optimizer et Campaign est configurée par Adobe au moment de la mise en service, si nécessaire. Si vous n’avez pas demandé la connexion au moment de la mise en service, contactez l’assistance Adobe Journey Optimizer en fournissant les détails suivants pour demander l’activation :
+
+Depuis Adobe Journey Optimizer :
+
+* ID d’organisation (ID d’organisation Adobe)
+* Sandbox
+
+Depuis Adobe Campaign :
+
+* URL de la campagne
+* URL RT
+* Version de Campaign
 
 ## Remarques importantes {#important-notes}
 
