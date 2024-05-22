@@ -9,7 +9,7 @@ role: User
 level: Beginner
 keywords: destination, page de destination, création, publication
 exl-id: 18f9bdff-f5c6-4601-919d-4f3124e484b5
-source-git-commit: 27447578dad6bd2612989d79cd0dc8ddbe78d629
+source-git-commit: 7122dff12aea6c5954087e2667b28bbc9f7695de
 workflow-type: tm+mt
 source-wordcount: '1716'
 ht-degree: 99%
@@ -178,7 +178,7 @@ Pour définir les paramètres de la page principale, procédez comme suit.
 >id="ajo_lp_subpage"
 >title="Définir les paramètres de sous-page"
 >abstract="Vous pouvez ajouter jusquʼà 2 sous-pages. Par exemple, vous pouvez créer une page de remerciement qui s’affichera une fois que les utilisateurs auront envoyé le formulaire. Vous pouvez également définir une page d’erreur, qui sera affichée si la page de destination rencontre un problème."
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/landing-pages/landing-pages-design/design-lp.html?lang=fr" text="Concevoir le contenu de la page de destination"
+>additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/landing-pages/landing-pages-design/design-lp" text="Concevoir le contenu de la page de destination"
 
 >[!CONTEXTUALHELP]
 >id="ajo_lp_access_settings-subpage"
