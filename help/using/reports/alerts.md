@@ -8,10 +8,10 @@ topic: Administration
 role: User
 level: Intermediate
 exl-id: 0855ca5b-c7af-41c4-ad51-bed820ae5ecf
-source-git-commit: f8d62a702824bcfca4221c857acf1d1294427543
+source-git-commit: ddf9465fb940706fb38dc05038336ac22abecbc0
 workflow-type: tm+mt
 source-wordcount: '553'
-ht-degree: 100%
+ht-degree: 92%
 
 ---
 
@@ -27,7 +27,7 @@ Dans le menu **Alertes**, vous pouvez afficher les alertes disponibles et vous y
 
 Découvrez les alertes dans Adobe Experience Platform grâce à la [documentation Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/overview.html?lang=fr){target="_blank"}.
 
-Dans le menu de gauche, sous **Administration**, cliquez sur **Alertes**. Deux alertes préconfigurées pour Journey Optimizer sont disponibles : l’alerte [Échec de l’action personnalisée du parcours](#alert-custom-actions) et l’alerte [Échec du déclenchement de la lecture de segment](#alert-read-audiences). Ces alertes sont décrites ci-dessous.
+Dans le menu de gauche, sous **Administration**, cliquez sur **Alertes**. Deux alertes préconfigurées pour Journey Optimizer sont disponibles : [Échec de l’action personnalisée parcours](#alert-custom-actions) et la variable [Lecture du déclencheur d’audience non réussie](#alert-read-audiences) alerte Ces alertes sont décrites ci-dessous.
 
 Vous pouvez vous abonner individuellement à chaque alerte depuis l’interface utilisateur en sélectionnant l’option **S’abonner** dans le tableau de bord **Alertes**. Utilisez la même méthode pour vous désabonner.
 
@@ -67,7 +67,7 @@ Les alertes sur l’activité **Lecture d’audience** ne s’appliquent qu’au
 
 Les alertes sur **Lecture d’audience** sont résolues lorsqu’un profil entre dans le nœud **Lecture d’audience**.
 
-Le nom d’abonnement à l’événement d’E/S correspondant à l’alerte **Échec du déclenchement de la lecture de segment** est **Retards, échecs et erreurs dans le la lecture du segment du parcours**.
+Nom de l’abonnement à l’événement I/O correspondant à la variable **Lecture du déclencheur d’audience non réussie** alerte **Lecture de l’audience par parcours : retards, échecs et erreurs**.
 
 ## Dépannage {#alert-troubleshooting}
 
