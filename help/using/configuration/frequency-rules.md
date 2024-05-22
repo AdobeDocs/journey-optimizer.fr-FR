@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Règles de fréquence
+title: Règles métier
 description: Découvrez comment définir des règles de fréquence
 feature: Rules
 topic: Content Management
@@ -9,14 +9,19 @@ role: User
 level: Intermediate
 keywords: message, fréquence, règles, pression
 exl-id: 49248fb6-5a91-45b2-9de8-2f078d59c0fc
-source-git-commit: 2e6d55b5e26ca8486289b4b5c5df0b2e898a9992
+source-git-commit: 970fef96b6fa04f2b5ce1a8d10f89802f513b373
 workflow-type: tm+mt
-source-wordcount: '1224'
-ht-degree: 99%
+source-wordcount: '1257'
+ht-degree: 71%
 
 ---
 
-# Règles de fréquence des messages {#frequency-rules}
+# Règles métier {#frequency-rules}
+
+>[!CONTEXTUALHELP]
+>id="ajo_business_rules_message_frequency_rules"
+>title="Règles de fonctionnement"
+>abstract="Utilisez les règles de fonctionnement pour contrôler la fréquence à laquelle les utilisateurs recevront un message ou entreront dans un parcours en définissant des règles cross-canal qui excluront automatiquement les profils sur-sollicités des messages et actions."
 
 >[!CONTEXTUALHELP]
 >id="ajo_business_rules_message_frequency_rules"
@@ -25,27 +30,25 @@ ht-degree: 99%
 
 [!DNL Journey Optimizer] vous permet de contrôler la fréquence à laquelle les utilisateurs recevront un message ou entreront dans un parcours en définissant des règles cross-canal qui excluront automatiquement les profils sur-sollicités des messages et actions.
 
-Par exemple, pour une marque, une règle peut être de ne pas envoyer plus de 4 messages marketing par mois à sa clientèle. Pour cela, vous pouvez utiliser une règle de fréquence qui limite le nombre de messages envoyés sur un ou plusieurs canaux au cours d&#39;une période calendaire mensuelle.
+Par exemple, pour une marque, une règle peut être de ne pas envoyer plus de 4 messages marketing par mois à sa clientèle. Pour cela, vous pouvez utiliser une règle de fonctionnement qui plafonne le nombre de messages envoyés sur un ou plusieurs canaux au cours d&#39;une période calendaire mensuelle.
 
 ![](assets/do-not-localize/sms-dm-rules.gif)
 
 >[!NOTE]
 >
->Les règles de fréquence des messages sont différentes de la gestion des désabonnements, qui permet aux utilisateurs de se désabonner de la réception des communications de la part d&#39;une marque. [En savoir plus](../privacy/opt-out.md#opt-out-management)
+>Les règles métier sont différentes de la gestion des désinscriptions, qui permet aux utilisateurs et utilisatrices de se désinscrire de la réception des communications de la part d’une marque. [En savoir plus](../privacy/opt-out.md#opt-out-management)
 
 ➡️ [Découvrez cette fonctionnalité en vidéo](#video)
 
-## Règles d&#39;accès {#access-rules}
+## Accès aux règles métier {#access-rules}
 
-Les règles sont disponibles à partir du menu **[!UICONTROL Administration]** > **[!UICONTROL Règles]**. Toutes les règles sont répertoriées, triées par date de modification.
-
-Utilisez l&#39;icône de filtre pour filtrer par catégorie, statut et/ou canal. Vous pouvez également effectuer une recherche sur le libellé du message.
+Les règles de fonctionnement sont disponibles dans la **[!UICONTROL Administration]** > **[!UICONTROL Règles de fonctionnement]** . Toutes les règles sont répertoriées, triées par date de modification. Utilisez l&#39;icône de filtre pour filtrer par catégorie, statut et/ou canal. Vous pouvez également effectuer une recherche sur le libellé du message.
 
 ![](assets/message-rules-filter.png)
 
 ### Autorisations{#permissions-frequency-rules}
 
-Pour accéder aux règles de fréquence des messages, en créer, les modifier ou les supprimer, vous devez disposer de l’autorisation **[!UICONTROL Gestion des règles de fréquence]**.
+Pour accéder, créer, modifier ou supprimer des règles de fonctionnement, vous devez disposer de la variable **[!UICONTROL Gestion des règles de fréquence]** autorisation.
 
 Les utilisateurs avec l’autorisation **[!UICONTROL Afficher les règles de fréquence]** peuvent afficher les règles, mais pas les modifier ni les supprimer.
 
@@ -53,26 +56,26 @@ Les utilisateurs avec l’autorisation **[!UICONTROL Afficher les règles de fr�
 
 Pour en savoir plus sur les autorisations, consultez [cette section](../administration/high-low-permissions.md).
 
-## Créer une règle {#create-new-rule}
+## Créer une règle de fonctionnement {#create-new-rule}
 
 >[!CONTEXTUALHELP]
 >id="ajo_rules_category"
 >title="Sélectionner la catégorie de règle du message"
->abstract="Lorsqu’elle sont activées et appliquées à un message, toutes les règles de fréquence correspondant à la catégorie sélectionnée seront automatiquement appliquées à ce message. Actuellement, seule la catégorie Marketing est disponible."
+>abstract="Lorsque cette option est activée et appliquée à un message, toutes les règles de fonctionnement correspondant à la catégorie sélectionnée sont automatiquement appliquées à ce message. Actuellement, seule la catégorie Marketing est disponible."
 
 >[!CONTEXTUALHELP]
 >id="ajo_rules_capping"
->title="Définir la limitation de votre règle"
+>title="Définir la limitation de votre règle de fonctionnement"
 >abstract="Spécifiez le nombre maximal de messages envoyés à un profil client au cours de la période choisie. La limite de fréquence sera basée sur la période calendaire sélectionnée et sera réinitialisée au début de la période correspondante."
 
 >[!CONTEXTUALHELP]
 >id="ajo_rules_channel"
->title="Définissez le ou les canaux auxquels la règle s’applique."
+>title="Définir le ou les canaux auxquels s’applique la règle de fonctionnement"
 >abstract="Sélectionnez au moins un canal. Le plafond est calculé sur l’ensemble des canaux."
 
-Pour créer une nouvelle règle, procédez comme suit.
+Pour créer une règle de fonctionnement, procédez comme suit.
 
-1. Accédez à la liste **[!UICONTROL Règles de fréquence des messages]**, puis cliquez sur **[!UICONTROL Créer une règle]**.
+1. Accédez au **[!UICONTROL Règles de fonctionnement]** liste, puis cliquez sur **[!UICONTROL Créer une règle]**.
 
    ![](assets/message-rules-create.png)
 
@@ -134,19 +137,19 @@ La limite de fréquence quotidienne est valable pour la journée jusqu’à 23:5
 >
 >Pour garantir la précision des règles de capping de la fréquence quotidienne, nous vous recommandons d’utiliser la méthode [Segmentation en streaming](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/streaming-segmentation.html?lang=fr){target="_blank"}. En savoir plus sur les méthodes d’évaluation de l’audience dans [cette section](../audience/about-audiences.md#evaluation-method-in-journey-optimizer).
 
-## Activer une règle {#activate-rule}
+## Activer une règle de fonctionnement {#activate-rule}
 
-Une fois créée, une règle de fréquence des messages affiche le statut **[!UICONTROL Brouillon]** et n’a encore aucune incidence sur le message. Pour l’activer, cliquez sur les points de suspension en regard de la règle et sélectionnez **[!UICONTROL Activer]**.
+Une fois créée, une règle de fonctionnement a la variable **[!UICONTROL Version préliminaire]** et n’a encore aucun impact sur le message. Pour l’activer, cliquez sur les points de suspension en regard de la règle et sélectionnez **[!UICONTROL Activer]**.
 
 ![](assets/message-rules-activate.png)
 
-L&#39;activation d&#39;une règle aura un impact sur tous les messages auxquels elle s&#39;applique lors de leur exécution suivante. Découvrez comment [appliquer une règle de fréquence à un message](#apply-frequency-rule).
+L&#39;activation d&#39;une règle aura un impact sur tous les messages auxquels elle s&#39;applique lors de leur exécution suivante. Découvrez comment [appliquer une règle de fonctionnement à un message ;](#apply-frequency-rule).
 
 >[!NOTE]
 >
 >L’activation complète d’une règle peut prendre jusqu’à 10 minutes. Vous n’avez pas besoin de modifier des messages ou de republier des parcours pour qu’une règle prenne effet.
 
-Pour désactiver une règle de fréquence des messages, cliquez sur les points de suspension en regard de la règle et sélectionnez **[!UICONTROL Désactiver]**.
+Pour désactiver une règle de fonctionnement, cliquez sur les points de suspension en regard de la règle et sélectionnez **[!UICONTROL Désactiver]**.
 
 ![](assets/message-rules-deactivate.png)
 
@@ -156,9 +159,9 @@ L&#39;état de la règle devient **[!UICONTROL Inactif]** et la règle ne s&#39;
 >
 >La désactivation d&#39;une règle n&#39;affecte ou ne réinitialise aucun comptage sur les profils individuels.
 
-## Appliquer une règle de fréquence à un message {#apply-frequency-rule}
+## Appliquer une règle de fonctionnement à un message {#apply-frequency-rule}
 
-Pour appliquer une règle de fréquence à un message, procédez comme suit.
+Pour appliquer une règle de fonctionnement à un message, procédez comme suit.
 
 1. Lors de la création d’un [parcours](../building-journeys/journey-gs.md), ajoutez un message en sélectionnant l’un des canaux que vous avez définis pour votre règle.
 
@@ -168,17 +171,17 @@ Pour appliquer une règle de fréquence à un message, procédez comme suit.
 
    >[!NOTE]
    >
-   >Actuellement, seule la variable **[!UICONTROL Marketing]** est disponible pour les règles de fréquence des messages.
+   >Actuellement, seule la variable **[!UICONTROL Marketing]** est disponible pour les règles de fonctionnement.
 
 1. Cliquez sur le lien **[!UICONTROL Règle de fréquence]** pour ouvrir l’écran des règles de fréquence dans un nouvel onglet. [En savoir plus](#access-rules).
 
-   Toutes les règles de fréquence correspondant à la catégorie et aux canaux sélectionnés seront automatiquement appliquées à ce message.
+   Toutes les règles correspondant à la catégorie et au ou aux canaux sélectionnés seront automatiquement appliquées à ce message.
 
    >[!NOTE]
    >
    >Les messages pour lesquels la catégorie sélectionnée est **[!UICONTROL Transactionnel]** ne seront pas évalués par rapport aux règles de fréquence.
 
-1. Vous pouvez visualiser le nombre de profils exclus de la diffusion dans le [rapport global](../reports/global-report.md) et dans le [rapport dynamique](../reports/live-report.md), où les règles de fréquence seront répertoriées comme une raison possible pour les utilisateurs exclus de la diffusion.
+1. Vous pouvez visualiser le nombre de profils exclus de la diffusion dans la variable [Rapport global](../reports/global-report.md), et dans la variable [Rapport en direct](../reports/live-report.md), où les règles de fonctionnement seront répertoriées comme une raison possible pour les utilisateurs exclus de la diffusion.
 
 >[!NOTE]
 >
@@ -186,9 +189,9 @@ Pour appliquer une règle de fréquence à un message, procédez comme suit.
 
 ## Exemple : combiner plusieurs règles {#frequency-rule-example}
 
-Vous pouvez combiner plusieurs règles de fréquence des messages, comme décrit dans l’exemple ci-dessous.
+Vous pouvez combiner plusieurs règles de fonctionnement, comme décrit dans l’exemple ci-dessous.
 
-1. [Créez une règle](#create-new-rule) appelée *Limitation marketing globale :*
+1. [Créer une règle de fonctionnement](#create-new-rule) appelé *Limitation globale du marketing*:
 
    * Sélectionnez tous les canaux.
    * Définissez la limitation mensuelle sur 12.
@@ -204,7 +207,7 @@ Vous pouvez combiner plusieurs règles de fréquence des messages, comme décrit
 
 1. Enregistrez et [activez](#activate-rule) la règle.
 
-1. [Créez un message](../building-journeys/journeys-message.md) pour chaque canal par lequel vous souhaitez communiquer et sélectionnez la catégorie **[!UICONTROL Marketing]** pour chaque message. [Découvrir comment appliquer une règle de fréquence](#apply-frequency-rule)
+1. [Créez un message](../building-journeys/journeys-message.md) pour chaque canal par lequel vous souhaitez communiquer et sélectionnez la catégorie **[!UICONTROL Marketing]** pour chaque message. [Découvrez comment appliquer une règle de fonctionnement](#apply-frequency-rule)
 
    ![](assets/journey-message-category.png)
 
@@ -231,10 +234,10 @@ Dans ce scénario, un profil individuel :
 
 >[!NOTE]
 >
->Lors du test des règles de fréquence, il est recommandé d’utiliser un nouveau [profil de test](../audience/creating-test-profiles.md), car une fois la limitation de fréquence d’un profil atteinte, il n’est pas possible de réinitialiser le compteur avant le mois suivant. La désactivation d’une règle permet aux profils limités de recevoir des messages, mais elle ne supprime pas les incréments de compteur.
+>Lors du test des règles de fonctionnement, il est recommandé d’utiliser une [profil de test](../audience/creating-test-profiles.md), car une fois le plafond de fréquence d’un profil atteint, il n’est pas possible de réinitialiser le compteur avant le mois suivant. La désactivation d’une règle permet aux profils limités de recevoir des messages, mais elle ne supprime pas les incréments de compteur.
 
 ## Vidéo pratique {#video}
 
-Découvrez comment créer, activer, tester et générer des rapports sur les règles de fréquence.
+Découvrez comment créer, activer, tester et générer des rapports sur les règles de fonctionnement.
 
 >[!VIDEO](https://video.tv.adobe.com/v/344451?quality=12)
