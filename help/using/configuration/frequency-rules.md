@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: message, fréquence, règles, pression
 exl-id: 49248fb6-5a91-45b2-9de8-2f078d59c0fc
-source-git-commit: 970fef96b6fa04f2b5ce1a8d10f89802f513b373
+source-git-commit: 8253b4f3fdc177f5e5f19ab19de748b78456137b
 workflow-type: tm+mt
-source-wordcount: '1257'
+source-wordcount: '1252'
 ht-degree: 71%
 
 ---
@@ -22,11 +22,6 @@ ht-degree: 71%
 >id="ajo_business_rules_message_frequency_rules"
 >title="Règles de fonctionnement"
 >abstract="Utilisez les règles de fonctionnement pour contrôler la fréquence à laquelle les utilisateurs recevront un message ou entreront dans un parcours en définissant des règles cross-canal qui excluront automatiquement les profils sur-sollicités des messages et actions."
-
->[!CONTEXTUALHELP]
->id="ajo_business_rules_message_frequency_rules"
->title="Règles de fonctionnement"
->abstract="Description des règles métier"
 
 [!DNL Journey Optimizer] vous permet de contrôler la fréquence à laquelle les utilisateurs recevront un message ou entreront dans un parcours en définissant des règles cross-canal qui excluront automatiquement les profils sur-sollicités des messages et actions.
 
