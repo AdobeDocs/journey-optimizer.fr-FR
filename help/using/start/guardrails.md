@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: cc4ea97f858a212b82ac3b77328e61f59e3bfc27
+source-git-commit: eccc8d954ce36747800d42eb2b73e45952eb43e7
 workflow-type: tm+mt
 source-wordcount: '2065'
 ht-degree: 97%
@@ -165,7 +165,7 @@ Le débit de diffusion correspond au nombre de réponses de décision qui peuven
 | API | Décisions par seconde |
 |---------|----------|
 | Requêtes de l’API Decisioning | 500 par seconde |
-| Requêtes de l’API Edge Decisioning | 5 000 par seconde |
+| Requêtes de l’API Edge Decisioning | 1500 par seconde |
 
 ### Limites {#offers-limitations}
 
