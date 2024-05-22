@@ -12,10 +12,10 @@ hide: true
 hidefromtoc: true
 badge: label="Version Beta"
 exl-id: 752ffd7f-09c2-4aa3-a067-2dbe0634709c
-source-git-commit: c400104c86e1a9a2de819db7743b3f77153ad90b
+source-git-commit: 666af4bbc3731f16ce1d5c11ceb7e704996f5a68
 workflow-type: tm+mt
-source-wordcount: '2487'
-ht-degree: 74%
+source-wordcount: '2513'
+ht-degree: 72%
 
 ---
 
@@ -238,7 +238,9 @@ Lorsque vous activez une exécution, plusieurs audiences sont automatiquement cr
 
    * Une [audience](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html?lang=fr){target="_blank"} est créée pour les audiences de campagne exclues (le cas échéant), avec la convention de nommage suivante : `<warmupName>_Phase<phaseNo>-Audience Exclusion`.
 
-   * Une autre audience est créée pour les groupes de domaines exclus (le cas échéant), avec la convention de nommage suivante : `<warmupName>_Phase<phaseNo>-Domain Exclusion`.
+   * Une audience est créée pour les groupes de domaines exclus (le cas échéant), avec la convention de dénomination suivante : `<warmupName>_Phase<phaseNo>-Domain Exclusion`.
+
+   * Une autre audience est créée pour les audiences parcours exclues (le cas échéant), avec la convention de dénomination suivante : `<warmupName>-Phase<phaseNo>-Journey Audience Exclusion`.
 
   >[!NOTE]
   >
@@ -263,6 +265,8 @@ Lorsque vous activez une exécution, plusieurs audiences sont automatiquement cr
      >Une nouvelle composition d’audience est créée pour chaque exécution. Avec une limite de 10, les utilisateurs qui exécutent simultanément plusieurs campagnes, parcours et plans de réchauffement des adresses IP à l’aide de la composition d’audience publiée doivent prévoir de respecter cette limite pour les opérations parallèles.
      >
      >La composition de l’audience (et donc l’audience de sortie) est nettoyée lorsque la prochaine itération est activée.
+
+   * Une audience de sortie est créée avec la convention de nommage suivante : `IP Warmup Audience-<warmupName>-Phase<phaseNo>-Run<runNo>`.
 
 <!--How do you know when segmentation is complete? Is there a way to prevent user from scheduling less than 12 hours before the segmentation job?-->
 
