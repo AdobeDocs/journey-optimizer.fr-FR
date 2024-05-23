@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 815595f907ed3ea05b7772a1df96187509351bf9
+source-git-commit: 2b31a75595e076bfac2023f8e58ddfbcc14bace1
 workflow-type: tm+mt
-source-wordcount: '5290'
+source-wordcount: '5335'
 ht-degree: 98%
 
 ---
@@ -21,14 +21,16 @@ Cette page répertorie toutes les mises à jour récentes de la documentation de
 
 ## Mai 2024 {#may-2024}
 
-* Toutes les nouvelles fonctionnalités et améliorations de la version de [!DNL Journey Optimizer] d’avril 2024 ont été présentées dans la documentation. [En savoir plus](release-notes.md)
+* Toutes les nouvelles fonctionnalités et améliorations de la version [!DNL Journey Optimizer] du 24 mai ont été présentées dans la documentation. [En savoir plus](release-notes.md)
 * Mise à jour de la section sur les listes de contrôle concernant les parcours récurrents - [En savoir plus](../configuration/seed-lists.md#use-seed-list)
 * Mise à jour de la section sur les sources de données externes - [En savoir plus](../datasource/external-data-sources.md#custom-authentication-access-token)
 * Le délai d’attente global du parcours de 30 jours a été ajouté à la page de protection et de limitation . [En savoir plus](../start/guardrails.md#journeys-guardrails-journeys)
 * La section sur l&#39;intégration d&#39;Adobe Campaign v7/v8 a été mise à jour avec des informations sur l&#39;approvisionnement. [En savoir plus](../action/acc-action.md#access)
+* L’éditeur d’expression utilisé pour personnaliser le contenu a été renommé dans la documentation en &quot;éditeur de personnalisation&quot; afin de le différencier clairement de la fonction [Éditeur d’expression de parcours](../building-journeys/expression/expressionadvanced.md). [En savoir plus](../personalization/personalization-build-expressions.md)
 
 ## Avril 2024 {#april-2024}
 
+* Toutes les nouvelles fonctionnalités et améliorations de la version de [!DNL Journey Optimizer] d’avril 2024 ont été présentées dans la documentation. [En savoir plus](release-notes.md#apr-2024)
 * Les étapes de configuration de la messagerie in-app ont été détaillées. [En savoir plus](../in-app/inapp-configuration.md)
 * La documentation des [API de prise de décision sur les offres](../offers/api-reference/offer-delivery-api/decisioning-api.md) et des [API de prise de décision par lots](../offers/api-reference/offer-delivery-api/batch-decisioning-api.md) a été mise à jour.
 * Des informations ont été ajoutées dans la documentation sur la gestion des décisions, concernant la gestion des régions périphériques et de hub lors de l’utilisation du capping de fréquence avec l’API Edge Decisioning. [En savoir plus](../offers/offer-library/add-constraints.md#frequency-capping)
@@ -41,7 +43,7 @@ Cette page répertorie toutes les mises à jour récentes de la documentation de
 ## Mars 2024 {#march-2024}
 
 * Une section Questions fréquentes a été ajoutée pour répondre aux questions courantes sur l’utilisation des audiences issues de la composition d’audience et du chargement personnalisé dans Journey Optimizer. [En savoir plus](../audience/about-audiences.md#faq)
-* Toutes les nouvelles fonctionnalités et améliorations de la version [!DNL Journey Optimizer] de mars 2024 ont été présentées dans la documentation. [En savoir plus](release-notes.md)
+* Toutes les nouvelles fonctionnalités et améliorations de la version [!DNL Journey Optimizer] de mars 2024 ont été présentées dans la documentation. [En savoir plus](release-notes.md#mar-2024)
 * La page sur la gestion des entrées de profil a été améliorée. [En savoir plus](../building-journeys/entry-management.md)
 * Des informations de résolution des problèmes ont été ajoutées à la page Alertes. [En savoir plus](../reports/alerts.md#alert-troubleshooting)
 * Des informations sur l’activité d’attente ont été ajoutées à la page sur les rapports de parcours. [En savoir plus](../reports/sharing-overview.md)
@@ -58,12 +60,12 @@ Cette page répertorie toutes les mises à jour récentes de la documentation de
 
 ## Février 2024 {#feb-2024}
 
-* Toutes les nouvelles fonctionnalités et améliorations de la version [!DNL Journey Optimizer] de février 2024 ont été présentées dans la documentation. [En savoir plus](release-notes.md)
+* Toutes les nouvelles fonctionnalités et améliorations de la version [!DNL Journey Optimizer] de février 2024 ont été présentées dans la documentation. [En savoir plus](release-notes.md#feb-2024)
 * L’intégration Journey Optimizer + Workfront a été ajoutée à la page des intégrations. [En savoir plus](../start/ajo-integrations.md)
 * Ajout d’informations sur la personnalisation des représentations des offres en fonction des données contextuelles. [En savoir plus](../offers/offer-library/add-representations.md#context-data)
 * La page des mécanismes de sécurisation a été mise à jour avec une note sur les actions personnalisées qui prennent en charge le format JSON uniquement lors de l’utilisation des payloads de requêtes ou de réponses. [En savoir plus](../start/guardrails.md#custom-actions-g)
 * Ajout d’informations supplémentaires sur le type d’authentification simple dans les sources de données externes. [En savoir plus](../datasource/external-data-sources.md)
-* Une note a été ajoutée pour différencier clairement l’[éditeur d’expression de Journey](../building-journeys/expression/expressionadvanced.md) de l’[éditeur de personnalisation](../personalization/functions/functions.md).
+* Une note a été ajoutée pour différencier clairement la variable [Éditeur d’expression de parcours](../building-journeys/expression/expressionadvanced.md) de la [éditeur de personnalisation](../personalization/functions/functions.md).
 * La liste des fonctions disponibles dans l’éditeur d’expression avancé a été mise à jour. [En savoir plus](../building-journeys/expression/functions.md)
 * La page de la fonction de partage a été mise à jour. [En savoir plus](../building-journeys/functions/functioninaudience.md)
 * Ajout d’informations concernant l’impact des notifications push d’opt-in ou d’opt-out sur les messages in-app. [En savoir plus](../in-app/create-in-app.md)
