@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate, Experienced
 badge: label="Disponibilité limitée"
-source-git-commit: 5ce388e5d86950e5cc6b173aab48225825f1c648
-workflow-type: ht
+source-git-commit: 8a1ec5acef067e3e1d971deaa4b10cffa6294d75
+workflow-type: tm+mt
 source-wordcount: '330'
-ht-degree: 100%
+ht-degree: 95%
 
 ---
 
@@ -58,7 +58,7 @@ Définissez deux traitements de diffusion contenant chacun une politique de déc
 
    ![](assets/decision-code-based-add-decision.png)
 
-1. Vous pouvez également ajouter tout autre attribut disponible dans l’éditeur d’expression, tel que les attributs de profil.
+1. Vous pouvez également ajouter tout autre attribut disponible dans l’éditeur de personnalisation, tel que les attributs de profil.
 
    ![](assets/decision-code-based-decision-profile-attribute.png)
 

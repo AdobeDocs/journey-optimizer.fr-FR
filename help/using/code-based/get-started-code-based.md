@@ -6,10 +6,10 @@ topic: Content Management
 role: User, Developer, Admin
 level: Experienced
 exl-id: 987de2bf-cebe-4753-98b4-01eb3fded492
-source-git-commit: d741a34a0418dc88db730d0b953cb5c7db8dc103
-workflow-type: ht
-source-wordcount: '1055'
-ht-degree: 100%
+source-git-commit: 8a1ec5acef067e3e1d971deaa4b10cffa6294d75
+workflow-type: tm+mt
+source-wordcount: '1086'
+ht-degree: 88%
 
 ---
 
@@ -73,9 +73,9 @@ Avec la fonctionnalité d’**expérience basée sur le code**, vous pouvez déf
 
 Quand utiliser le canal basé sur le code plutôt que d’autres canaux [!DNL Journey Optimizer] ?
 
-* Vous pouvez envisager d’utiliser des expériences basées sur du code lorsque votre propriété numérique n’est pas accessible par le biais d’un navigateur web ou d’une application mobile, dans des cas où vous pouvez probablement mieux utiliser le [canal web](../web/get-started-web.md){target="_blank"} or the [!DNL Journey Optimizer] [in-app messaging](../in-app/get-started-in-app.md){target="_blank"} [!DNL Journey Optimizer].
+* Vous pouvez envisager d’utiliser des expériences basées sur du code à tout moment lorsque votre propriété numérique n’est pas accessible par le biais d’un navigateur web ou d’une application mobile, dans des cas où vous pouvez probablement mieux utiliser la variable [!DNL Journey Optimizer] [canal web](../web/get-started-web.md){target="_blank"} ou le [!DNL Journey Optimizer] [messagerie in-app](../in-app/get-started-in-app.md){target="_blank"} canal.
 
-* Vous pouvez utiliser le canal basé sur le code comme alternative au canal web [!DNL Journey Optimizer] si votre site web ne peut pas être chargé dans le [concepteur web](../web/edit-web-content.md#work-with-web-designer){target="_blank"} visual editor or if you cannot use the [browser extension](../web/web-prerequisites.md#visual-authoring-prerequisites){target="_blank"} qui alimente la création visuelle pour le canal web.
+* Vous pouvez utiliser le canal basé sur le code comme alternative au [!DNL Journey Optimizer] canal web si votre site web ne peut pas être chargé dans [web designer](../web/edit-web-content.md#work-with-web-designer){target="_blank"} éditeur visuel ou si vous ne pouvez pas utiliser la variable [extension de navigateur](../web/web-prerequisites.md#visual-authoring-prerequisites){target="_blank"} qui alimente la création visuelle pour le canal web.
 
 * Vous pouvez également utiliser le canal basé sur le code comme alternative aux canaux web ou in-app [!DNL Journey Optimizer] si vous disposez d’une mise en œuvre basée sur une API, découplée ou côté serveur.
 
@@ -85,13 +85,13 @@ Pour exécuter des cas d’utilisation web, vous pouvez utiliser le canal web ou
 
 **Web**
 * Modifiez votre contenu à l’aide de l’éditeur visuel du [concepteur web](../web/edit-web-content.md#work-with-web-designer){target="_blank"}.
-* Vous avez besoin du [SDK web Adobe Experience Platform](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html?lang=fr){target="_blank"} implementation and the [Adobe Experience Cloud Visual Editing Helper](https://chrome.google.com/webstore/detail/adobe-experience-cloud-vi/kgmjjkfjacffaebgpkpcllakjifppnca){target="_blank"} extension installed on your web browser. [Learn more](../web/web-prerequisites.md){target="_blank"}
+* Vous avez besoin de [SDK Web Adobe Experience Platform](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html?lang=fr){target="_blank"} mise en oeuvre et [Assistant d’édition visuelle de Adobe Experience Cloud](https://chrome.google.com/webstore/detail/adobe-experience-cloud-vi/kgmjjkfjacffaebgpkpcllakjifppnca){target="_blank"} extension installée sur votre navigateur web. [En savoir plus](../web/web-prerequisites.md){target="_blank"}
 * Le canal web vous permet de tout modifier sur votre page et dispose d’une liste prédéfinie des actions que vous pouvez utiliser pour apporter des modifications. [En savoir plus](../web/edit-web-content.md#work-with-web-designer){target="_blank"}
 * Il est facile à configurer et à optimiser.
 * Cette fonctionnalité est axée sur le persona-spécialiste du marketing.
 
 **Expérience basée sur le code**
-* Modifiez votre contenu à l’aide de l’[éditeur d&#39;expression](create-code-based.md#edit-code).
+* Modifiez votre contenu à l’aide du [éditeur de personnalisation](create-code-based.md#edit-code).
 * L’expérience basée sur le code nécessite un travail de développement en aval de votre implémentation pour s’assurer que vos surfaces peuvent interpréter et diffuser le contenu publié sur Edge par [!DNL Journey Optimizer] pour ces surfaces. [En savoir plus](#surface-definition)
 * Cela nécessite davantage de planification et ne peut modifier que les éléments spécifiés par les développeurs et développeuses. Il est donc essentiel d’identifier les composants (bannière d’accueil, image principale, barre de menus, etc.) sur les surfaces qui doivent être modifiées pour la personnalisation ou le test, et collaborez avec votre équipe de développement pour créer l’implémentation nécessaire pour gérer ces modifications.
 * Cela vous permet d’utiliser du contenu de code JSON.
@@ -113,7 +113,7 @@ Les étapes clés de mise en œuvre d’une campagne basée sur le code sont les
 
 1. Définissez une [surface](#surface-definition), qui est essentiellement l’emplacement où vous souhaitez ajouter votre expérience basée sur le code, et créez une campagne dans [!DNL Journey Optimizer] en utilisant cette surface. [Voici comment procéder.](create-code-based.md#create-code-based-campaign)
 
-1. Composez une expérience en spécifiant du contenu pour la surface sélectionnée à l’aide de l’éditeur d’expression [!DNL Journey Optimizer]. [Voici comment procéder.](create-code-based.md#edit-code)
+1. Composition d’une expérience en spécifiant du contenu pour la surface sélectionnée à l’aide de la propriété [!DNL Journey Optimizer] éditeur de personnalisation. [Voici comment procéder.](create-code-based.md#edit-code)
 
 1. Votre équipe de mise en œuvre d’application effectue des appels d’API ou de SDK explicites pour récupérer du contenu pour les surfaces nommées, « Texte de bannière » ou « Barre d’état de recommendations 1 », ou des points de décision non liés à l’interface utilisateur dans une application, comme « paramètres d’algorithme de recherche ». Dans ce cas, l’équipe de mise en œuvre est chargée du rendu, de l’interprétation et de l’action sur le contenu renvoyé.<!--TBC with Robert - should link to a new section with API/SDK call samples-->
 

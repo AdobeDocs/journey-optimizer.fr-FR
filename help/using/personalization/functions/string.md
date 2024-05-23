@@ -6,16 +6,16 @@ topic: Personalization
 role: Data Engineer
 level: Experienced
 exl-id: 8674ef9e-261b-49d9-800e-367f9f7ef979
-source-git-commit: 118eddf540d1dfb3a30edb0b877189ca908944b1
+source-git-commit: 8a1ec5acef067e3e1d971deaa4b10cffa6294d75
 workflow-type: tm+mt
 source-wordcount: '1846'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
 # Fonctions de chaîne {#string}
 
-Découvrez comment utiliser les fonctions de chaîne dans l’éditeur d’expression.
+Découvrez comment utiliser les fonctions de chaîne dans l’éditeur de personnalisation.
 
 ## Casse mixte {#camelCase}
 

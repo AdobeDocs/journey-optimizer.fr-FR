@@ -9,10 +9,10 @@ role: Data Engineer
 level: Intermediate
 keywords: expression, éditeur, dynamique, contenu
 exl-id: 639ad7df-0d0f-4c9b-95d1-f3101267aae2
-source-git-commit: a6b2c1585867719a48f9abc4bf0eb81558855d85
+source-git-commit: 8a1ec5acef067e3e1d971deaa4b10cffa6294d75
 workflow-type: tm+mt
 source-wordcount: '564'
-ht-degree: 100%
+ht-degree: 91%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 100%
 
 Adobe Journey Optimizer vous permet d’utiliser des règles conditionnelles créées dans la bibliothèque pour ajouter du contenu dynamique à vos messages.
 
-Le contenu dynamique peut être créé dans n’importe quel champ où vous pouvez ajouter une personnalisation à l’aide de l’éditeur d’expression. Cela inclut l’objet, les liens, le contenu des notifications push ou les représentations des offres de type texte. [En savoir plus sur les contextes de personnalisation](personalization-contexts.md)
+Le contenu dynamique peut être créé dans n&#39;importe quel champ où vous pouvez ajouter de la personnalisation à l&#39;aide de l&#39;éditeur de personnalisation. Cela inclut l’objet, les liens, le contenu des notifications push ou les représentations des offres de type texte. [En savoir plus sur les contextes de personnalisation](personalization-contexts.md)
 
 De plus, vous pouvez utiliser des règles conditionnelles dans le concepteur d’e-mails pour créer plusieurs variantes d’un composant de contenu.
 
@@ -28,7 +28,7 @@ De plus, vous pouvez utiliser des règles conditionnelles dans le concepteur d�
 
 Les étapes suivantes permettent d’ajouter du contenu dynamique aux expressions :
 
-1. Accédez au champ où vous souhaitez ajouter du contenu dynamique, puis ouvrez l’éditeur d’expression.
+1. Accédez au champ dans lequel vous souhaitez ajouter du contenu dynamique, puis ouvrez l’éditeur de personnalisation.
 
 1. Sélectionnez le menu **[!UICONTROL Conditions]** pour afficher la liste des règles conditionnelles disponibles. Cliquez sur le bouton + à côté d’une règle pour l’ajouter à l’expression actuelle.
 

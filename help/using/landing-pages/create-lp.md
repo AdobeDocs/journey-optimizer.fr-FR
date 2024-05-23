@@ -9,10 +9,10 @@ role: User
 level: Beginner
 keywords: destination, page de destination, création, publication
 exl-id: 18f9bdff-f5c6-4601-919d-4f3124e484b5
-source-git-commit: 7122dff12aea6c5954087e2667b28bbc9f7695de
+source-git-commit: 8a1ec5acef067e3e1d971deaa4b10cffa6294d75
 workflow-type: tm+mt
 source-wordcount: '1716'
-ht-degree: 99%
+ht-degree: 98%
 
 ---
 
@@ -158,7 +158,7 @@ Pour définir les paramètres de la page principale, procédez comme suit.
 
    ![](assets/lp_expiry-date.png)
 
-1. Dans la section **[!UICONTROL Données additionnelles]**, définissez une ou plusieurs clés et leurs valeurs de paramètre correspondantes. Vous pourrez utiliser ces clés dans le contenu de votre page principale et de vos sous-pages à l’aide de l’[éditeur d’expression](../personalization/personalization-build-expressions.md). En savoir plus dans [cette section](lp-content.md#use-form-component#use-additional-data).
+1. Dans la section **[!UICONTROL Données additionnelles]**, définissez une ou plusieurs clés et leurs valeurs de paramètre correspondantes. Vous pourrez utiliser ces clés dans le contenu de votre page principale et de vos sous-pages à l’aide de la variable [éditeur de personnalisation](../personalization/personalization-build-expressions.md). En savoir plus dans [cette section](lp-content.md#use-form-component#use-additional-data).
 
    ![](assets/lp_create-lp-additional-data.png)
 

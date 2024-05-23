@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 2ebbcd7d-dcfc-4528-974d-6230fc0dca3d
-source-git-commit: 27447578dad6bd2612989d79cd0dc8ddbe78d629
+source-git-commit: 8a1ec5acef067e3e1d971deaa4b10cffa6294d75
 workflow-type: tm+mt
 source-wordcount: '714'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="ajo_message_push"
 >title="Créer un message push"
->abstract="Ajoutez votre message push et commencez à le personnaliser à l’aide de l’éditeur d’expression."
+>abstract="Ajoutez votre message push et commencez à le personnaliser à l&#39;aide de l&#39;éditeur de personnalisation."
 
 ## Créer la notification push dans un parcours ou une campagne {#create}
 

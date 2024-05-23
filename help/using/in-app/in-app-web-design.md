@@ -8,10 +8,10 @@ level: Beginner
 keywords: in-app, message, création, commencer
 hide: true
 hidefromtoc: true
-source-git-commit: b62f8954e09f50896ad5e70784c5a93943617e85
-workflow-type: ht
+source-git-commit: 8a1ec5acef067e3e1d971deaa4b10cffa6294d75
+workflow-type: tm+mt
 source-wordcount: '780'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -104,7 +104,7 @@ Pour composer votre message, saisissez le contenu dans les champs **[!UICONTROL 
 
 ![](assets/in_app_web_design_4.png)
 
-Utilisez l’icône **[!UICONTROL Personnalisation]** pour ajouter de la personnalisation. En savoir plus sur la personnalisation avec l’éditeur d’expression d’Adobe Journey Optimizer [dans cette section](../personalization/personalize.md).
+Utilisez l’icône **[!UICONTROL Personnalisation]** pour ajouter de la personnalisation. En savoir plus sur la personnalisation dans l’éditeur de personnalisation de Adobe Journey Optimizer [dans cette section](../personalization/personalize.md).
 
 +++Plus d’options avec Formatage avancé
 

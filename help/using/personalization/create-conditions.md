@@ -9,10 +9,10 @@ role: Data Engineer
 level: Intermediate
 keywords: expression, éditeur, condition, règles
 exl-id: 246a4a55-059e-462c-ac1e-43b90f4abda4
-source-git-commit: 3f96cc0037b5bcdb2ce94e2721b02ba13b3cff36
+source-git-commit: 8a1ec5acef067e3e1d971deaa4b10cffa6294d75
 workflow-type: tm+mt
 source-wordcount: '573'
-ht-degree: 100%
+ht-degree: 88%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 100%
 
 Les règles conditionnelles sont des ensembles de règles qui définissent le contenu à afficher dans vos messages, suivant différents critères tels que les attributs des profils, l’appartenance à une audience ou les événements contextuels.
 
-Les règles conditionnelles sont créées à l’aide de l’éditeur d’expression et peuvent être mémorisées si vous souhaitez les réutiliser dans vos contenus. [Découvrez comment enregistrer une règle conditionnelle dans la bibliothèque](#save)
+Les règles conditionnelles sont créées à l’aide de l’éditeur de personnalisation et peuvent être stockées si vous souhaitez les réutiliser dans vos contenus. [Découvrez comment enregistrer une règle conditionnelle dans la bibliothèque](#save)
 
 >[!NOTE]
 >
@@ -28,13 +28,13 @@ Les règles conditionnelles sont créées à l’aide de l’éditeur d’expres
 
 ## Accéder au créateur de règles conditionnelles {#access}
 
-Les règles conditionnelles sont créées à partir du menu **[!UICONTROL Conditions]** dans l’éditeur d’expression, accessible soit :
+Les règles conditionnelles sont créées à partir de la variable **[!UICONTROL Conditions]** dans l’éditeur de personnalisation, accessible soit :
 
 * dans le concepteur d’e-mail, lors de l’activation d’un contenu dynamique pour un composant présent dans le corps du message. [Découvrez comment ajouter du contenu dynamique dans les e-mails](dynamic-content.md#emails)
 
   ![](assets/conditions-access-email.png)
 
-* Dans n’importe quel champ où vous pouvez ajouter un élément de personnalisation à l’aide de la fonction [Éditeur d’expression](personalization-build-expressions.md).
+* Dans n’importe quel champ où vous pouvez ajouter de la personnalisation à l’aide de la fonction [éditeur de personnalisation](personalization-build-expressions.md).
 
   ![](assets/conditions-access-editor.png)
 
@@ -52,7 +52,7 @@ Les règles conditionnelles sont créées à partir du menu **[!UICONTROL Condit
 
 Les principales étapes de création d’une règle conditionnelle sont les suivantes :
 
-1. Accédez au menu **[!UICONTROL Conditions]** dans l’éditeur d’expression ou dans le concepteur d’e-mail, puis cliquez sur **[!UICONTROL Créer]**.
+1. Accédez au **[!UICONTROL Conditions]** dans l’éditeur de personnalisation ou le Concepteur d’email, puis cliquez sur **[!UICONTROL Créer]**.
 
 1. Créez la règle conditionnelle selon vos besoins. Pour ce faire, glissez et déposez les attributs de votre choix depuis le menu de gauche vers la zone de travail, puis organisez-les.
 

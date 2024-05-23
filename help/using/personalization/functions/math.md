@@ -6,16 +6,16 @@ topic: Personalization
 role: Data Engineer
 level: Experienced
 exl-id: b9149ad6-2be7-4bdf-82eb-7ab52780cb4e
-source-git-commit: 0571a11eabffeb5e318bebe341a8df18da7db598
-workflow-type: ht
+source-git-commit: 8a1ec5acef067e3e1d971deaa4b10cffa6294d75
+workflow-type: tm+mt
 source-wordcount: '243'
-ht-degree: 100%
+ht-degree: 95%
 
 ---
 
 # Fonctions mathématiques {#math}
 
-Découvrez comment utiliser les fonctions mathématiques dans l’éditeur d’expression.
+Découvrez comment utiliser les fonctions Math dans l’éditeur de personnalisation.
 
 ## Absolu {#absolute}
 

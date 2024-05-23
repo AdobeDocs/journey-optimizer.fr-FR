@@ -7,10 +7,10 @@ role: User
 level: Experienced
 badge: label="Disponibilité limitée"
 exl-id: 63aa1763-2220-4726-a45d-3a3a8b8a55ec
-source-git-commit: 5b36d082e054b7b75b09bd0392f9a58527a9c0a3
-workflow-type: ht
+source-git-commit: 8a1ec5acef067e3e1d971deaa4b10cffa6294d75
+workflow-type: tm+mt
 source-wordcount: '1481'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
@@ -162,11 +162,11 @@ Les offres classées sont désormais les suivantes : offre 5 , offre 3, offre
 
 ## Utiliser la politique de décision dans l’éditeur de code {#use-decision-policy}
 
-Une fois créée, la politique de décision peut être utilisée dans l’[éditeur d’expression](../code-based/create-code-based.md#edit-code). Pour ce faire, procédez comme suit.
+Une fois créée, la stratégie de décision peut être utilisée dans la variable [éditeur de personnalisation](../code-based/create-code-based.md#edit-code). Pour ce faire, procédez comme suit :
 
 >[!NOTE]
 >
->L’expérience basée sur le code utilise l’éditeur d&#39;expression [!DNL Journey Optimizer] avec toutes ses fonctionnalités de personnalisation et de création. [En savoir plus](../personalization/personalization-build-expressions.md)
+>L’expérience basée sur le code tire parti de la variable [!DNL Journey Optimizer] éditeur de personnalisation avec toutes ses fonctionnalités de personnalisation et de création. [En savoir plus](../personalization/personalization-build-expressions.md)
 
 1. Cliquez sur le bouton **[!UICONTROL Insérer une politique]**. Le code correspondant à la politique de décision est ajouté.
 
@@ -189,7 +189,7 @@ Une fois créée, la politique de décision peut être utilisée dans l’[édit
 
    ![](assets/decision-code-based-add-decision-attributes.png)
 
-1. Vous pouvez également ajouter tout autre attribut disponible dans l’éditeur d’expression, tel que les attributs de profil.
+1. Vous pouvez également ajouter tout autre attribut disponible dans l’éditeur de personnalisation, tel que les attributs de profil.
 
    ![](assets/decision-code-based-decision-profile-attribute.png)
 

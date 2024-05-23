@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: paramètres, e-mail, configuration
 exl-id: 13536962-7541-4eb6-9ccb-4f97e167734a
-source-git-commit: 5b7faccbf563c6877a1077b0f6012418848c0ccb
+source-git-commit: 8a1ec5acef067e3e1d971deaa4b10cffa6294d75
 workflow-type: tm+mt
 source-wordcount: '2415'
-ht-degree: 99%
+ht-degree: 98%
 
 ---
 
@@ -296,11 +296,11 @@ Vous pouvez ajouter jusqu’à 10 paramètres de tracking à l’aide du bouton
 
 Pour configurer un paramètre de tracking d’URL, vous pouvez saisir directement les valeurs souhaitées dans les champs **[!UICONTROL Nom]** et **[!UICONTROL Valeur]**.
 
-Vous pouvez également modifier chaque champ **[!UICONTROL Valeur]** à l’aide de l’[Éditeur d’expression](../personalization/personalization-build-expressions.md). Cliquez sur l’icône d’édition pour ouvrir l’éditeur. De là, vous pouvez sélectionner les attributs contextuels de votre choix et/ou modifier directement le texte.
+Vous pouvez également modifier chaque **[!UICONTROL Valeur]** à l’aide du champ [éditeur de personnalisation](../personalization/personalization-build-expressions.md). Cliquez sur l’icône d’édition pour ouvrir l’éditeur. De là, vous pouvez sélectionner les attributs contextuels de votre choix et/ou modifier directement le texte.
 
 ![](assets/preset-url-tracking-editor.png)
 
-Les valeurs prédéfinies suivantes sont disponibles via l’éditeur d’expression :
+Les valeurs prédéfinies suivantes sont disponibles via l’éditeur de personnalisation :
 
 * **ID d’action source** : ID de l’action e-mail ajoutée au parcours ou à la campagne.
 
@@ -316,7 +316,7 @@ Les valeurs prédéfinies suivantes sont disponibles via l’éditeur d’expres
 
 >[!NOTE]
 >
->Vous pouvez combiner des valeurs de texte de saisie et utiliser des attributs contextuels à partir de l’éditeur d’expression. Chaque champ **[!UICONTROL Valeur]** peut contenir un certain nombre de caractères jusqu’à une limite de 5 Ko.
+>Vous pouvez combiner des valeurs de texte de saisie et utiliser des attributs contextuels à partir de l’éditeur de personnalisation. Chaque champ **[!UICONTROL Valeur]** peut contenir un certain nombre de caractères jusqu’à une limite de 5 Ko.
 
 <!--You can drag and drop the parameters to reorder them.-->
 

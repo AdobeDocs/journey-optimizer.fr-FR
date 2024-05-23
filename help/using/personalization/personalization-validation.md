@@ -9,10 +9,10 @@ role: Data Engineer
 level: Intermediate
 keywords: expression, éditeur, validation, erreurs, personnalisation
 exl-id: 7abeec5e-743f-48fb-a4a6-056665e8bfda
-source-git-commit: c0afa3e2bc6dbcb0f2f2357eebc04285de8c5773
+source-git-commit: 8a1ec5acef067e3e1d971deaa4b10cffa6294d75
 workflow-type: tm+mt
 source-wordcount: '315'
-ht-degree: 100%
+ht-degree: 87%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 100%
 
 ## Mécanismes de validation {#validation-mechanisms}
 
-Dans l’écran **Éditeur d’expression**, utilisez le bouton **Valider** pour vérifier la syntaxe de votre personnalisation.
+Dans le **éditeur de personnalisation** , utilisez la méthode **Valider** pour vérifier votre syntaxe de personnalisation.
 
 >[!NOTE]
 > La validation est automatiquement effectuée lorsque vous cliquez sur le bouton **Ajouter** pour fermer la fenêtre de l&#39;éditeur.
@@ -29,7 +29,7 @@ Dans l’écran **Éditeur d’expression**, utilisez le bouton **Valider** pour
 ![](assets/perso_validation1.png)
 
 >[!IMPORTANT]
-> Si la syntaxe de personnalisation n&#39;est pas valide, vous ne pouvez pas fermer la fenêtre de l&#39;éditeur d&#39;expressions.
+> Si la syntaxe de personnalisation n&#39;est pas valide, vous ne pouvez pas fermer la fenêtre de l&#39;éditeur de personnalisation.
 >
 
 ## Erreurs courantes {#common-errors}
@@ -80,7 +80,7 @@ Les erreurs liées à l’intégration des offres dans un email ou une notificat
 Offer.<offerType>.[PlacementID].[ActivityID].<offer-attribute>
 ```
 
-La validation est effectuée lors de la validation du contenu de personnalisation dans l’éditeur d’expression.
+La validation est effectuée lors de la validation du contenu de personnalisation dans l’éditeur de personnalisation.
 
 <table> 
  <thead> 

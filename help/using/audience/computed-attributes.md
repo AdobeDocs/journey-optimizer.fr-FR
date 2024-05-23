@@ -7,10 +7,10 @@ feature: Audiences, Profiles
 role: User
 level: Intermediate
 exl-id: 5402a179-263f-46a7-bddf-5b7017cf0f82
-source-git-commit: 3f96cc0037b5bcdb2ce94e2721b02ba13b3cff36
+source-git-commit: 8a1ec5acef067e3e1d971deaa4b10cffa6294d75
 workflow-type: tm+mt
 source-wordcount: '540'
-ht-degree: 100%
+ht-degree: 95%
 
 ---
 
@@ -70,6 +70,6 @@ Vous trouverez des informations détaillées sur l’ajout de groupes de champs 
 
 Les attributs calculés offrent un ensemble polyvalent de fonctionnalités dans Journey Optimizer. Vous pouvez les utiliser à diverses fins, par exemple pour personnaliser le contenu d’un message, créer de nouvelles audiences ou diviser les parcours en fonction d’un attribut calculé spécifique. Par exemple, vous pouvez fractionner le chemin d’un parcours en fonction du total des achats d’un profil au cours des trois dernières semaines, en ajoutant un seul attribut calculé dans une activité Condition. Vous pouvez également personnaliser un e-mail en affichant l’article le plus récemment consulté pour chaque profil.
 
-Puisque les attributs calculés sont des champs d’attribut de profil créés sur votre schéma d’union de profil, vous pouvez y accéder à partir de l’éditeur d’expression dans le groupe de champs **Attributs calculés système**. À partir de là, vous pouvez ajouter un attribut calculé dans vos expressions, en le traitant comme tout autre attribut de profil pour effectuer les opérations souhaitées.
+Puisque les attributs calculés sont des champs d’attribut de profil créés dans votre schéma d’union de profil, vous pouvez y accéder à partir de l’éditeur de personnalisation dans le **SystemComputedAttributes** groupe de champs. À partir de là, vous pouvez ajouter un attribut calculé dans vos expressions, en le traitant comme tout autre attribut de profil pour effectuer les opérations souhaitées.
 
 ![](assets/computed-attributes-ajo.png)

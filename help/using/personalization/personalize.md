@@ -9,10 +9,10 @@ role: Data Engineer
 level: Beginner
 keywords: expression, éditeur, commencer, personnalisation
 exl-id: f448780b-91bc-455e-bf10-9a9aee0a0b24
-source-git-commit: 9ac8a3ddad165f728c09baacb9d380d4611fd58a
+source-git-commit: 8a1ec5acef067e3e1d971deaa4b10cffa6294d75
 workflow-type: tm+mt
-source-wordcount: '412'
-ht-degree: 100%
+source-wordcount: '387'
+ht-degree: 86%
 
 ---
 
@@ -30,7 +30,7 @@ Découvrez les fonctionnalités de personnalisation de [!DNL Adobe Journey Optim
 
 ## Créer des expressions de personnalisation à l’aide d’une syntaxe dédiée {#syntax}
 
-[!DNL Journey Optimizer] utilise une syntaxe de personnalisation simple **intégrée** basée sur Handlebars, qui vous permet de créer des expressions avec du contenu placé entre des accolades doubles **{{}}**. Vous pouvez ajouter plusieurs expressions dans le même contenu ou champ sans restriction. En savoir plus dans [Syntaxe de personnalisation](personalization-syntax.md).
+[!DNL Journey Optimizer] utilise une syntaxe de personnalisation simple **intégrée** basée sur Handlebars, qui vous permet de créer des expressions avec du contenu placé entre des accolades doubles **{{}}**. Vous pouvez ajouter plusieurs expressions dans le même contenu ou champ sans restriction. [En savoir plus sur la syntaxe de personnalisation](personalization-syntax.md).
 
 **Exemples :**
 
@@ -48,17 +48,12 @@ La personnalisation est basée sur les données de profil gérées par le schém
 
 En outre, vous pouvez également tirer parti des **attributs calculés** pour personnaliser votre contenu. Les attributs calculés sont basés sur des jeux de données d’événements d’expérience activés pour le profil et ingérés dans Adobe Experience Platform. Ils servent de points de données agrégés stockés dans les profils clients qui résument les événements comportementaux individuels. [Découvrez comment utiliser les attributs calculés](../audience/computed-attributes.md).
 
-## Ajouter la personnalisation dans différents contextes {#contexts}
+## Utilisation de l’éditeur de personnalisation {#editor}
 
-[!DNL Journey Optimizer] permet de personnaliser le contenu et l’affichage des messages de plusieurs manières différentes. Apprenez-en plus sur les contextes dans lesquels vous pouvez effectuer une personnalisation dans [cette section](personalization-contexts.md).
+[!DNL Journey Optimizer] fournit un éditeur de personnalisation dans lequel vous pouvez sélectionner, organiser, personnaliser et valider toutes les données afin de créer une personnalisation personnalisée de votre contenu. Plusieurs outils sont disponibles pour vous aider à créer votre contenu de personnalisation (fonctions d’assistance, bibliothèque d’expressions prédéfinies, favorisation d’attributs, etc.).
 
-## Utiliser l’éditeur d’expression {#editor}
-
-[!DNL Journey Optimizer] fournit un éditeur d’expression dans lequel vous sélectionnez, organisez, personnalisez et validez toutes les données afin de personnaliser le contenu.
-
-Plusieurs outils sont disponibles pour vous aider à créer votre contenu de personnalisation (fonctions d’assistance, bibliothèque d’expressions prédéfinies, favorisation d’attributs, etc.).
-
-En savoir plus sur l’éditeur d’expression de [!DNL Journey Optimizer] dans [cette section](personalization-build-expressions.md).
+* [Découvrez comment utiliser l’éditeur de personnalisation](personalization-build-expressions.md)
+* [Découvrez où effectuer la personnalisation](personalization-contexts.md).
 
 ## Tutoriels vidéo{#video-perso}
 

@@ -9,10 +9,10 @@ role: User
 level: Beginner
 keywords: destination, page de destination, création, page, formulaire, composant
 exl-id: 5bf023b4-4218-4110-b171-3e70e0507fca
-source-git-commit: cda4c1d88fedc75c7fded9971e45fdc9740346c4
+source-git-commit: 8a1ec5acef067e3e1d971deaa4b10cffa6294d75
 workflow-type: tm+mt
 source-wordcount: '1308'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -188,7 +188,7 @@ Procédez comme suit :
 
    ![](assets/lp_designer-form-add-subscription.png)
 
-1. Ajoutez les conditions appropriées à l’aide des fonctions d’assistance de l’éditeur d’expression. [En savoir plus](../personalization/functions/functions.md)
+1. Ajoutez les conditions appropriées à l&#39;aide des fonctions d&#39;assistance de l&#39;éditeur de personnalisation. [En savoir plus](../personalization/functions/functions.md)
 
    ![](assets/lp_designer-form-add-subscription-condition.png)
 
@@ -221,7 +221,7 @@ When [configuring the primary page](create-lp.md#configure-primary-page), you ca
 >
 >This data may not be visible to users who visit the page.
 
-If you defined one or more keys with their corresponding values when [configuring the primary page](create-lp.md#configure-primary-page), you can leverage these keys in the content of your primary page and subpages using the [Expression editor](../personalization/personalization-build-expressions.md).
+If you defined one or more keys with their corresponding values when [configuring the primary page](create-lp.md#configure-primary-page), you can leverage these keys in the content of your primary page and subpages using the [personalization editor](../personalization/personalization-build-expressions.md).
 
 ///When you reuse the same text on a page, this enables you to dynamically change that text if needed, without going through each occurrence.
 

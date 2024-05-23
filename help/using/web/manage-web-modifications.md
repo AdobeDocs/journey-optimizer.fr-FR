@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 213511b4-7556-4a25-aa23-b50acd11cd34
-source-git-commit: 8579acfa881f29ef3947f6597dc11d4c740c3d68
+source-git-commit: 8a1ec5acef067e3e1d971deaa4b10cffa6294d75
 workflow-type: tm+mt
 source-wordcount: '954'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -118,11 +118,11 @@ Pour ajouter une modification de type **Page`<head>`**, suivez les étapes ci-de
    >
    >Vous pouvez uniquement ajouter les éléments `<script>` et `<style>` à la section `<head>`. L’ajout de balises `<div>` et d’autres éléments risque d’entraîner l’apparition des éléments `<head>` restants dans la section `<body>`.
 
-1. Cliquez sur le bouton **[!UICONTROL Options de modification avancées]**. L’éditeur d’expression s’ouvre.
+1. Cliquez sur le bouton **[!UICONTROL Options de modification avancées]**. L’éditeur de personnalisation s’ouvre.
 
    ![](assets/web-designer-add-modification-head-advanced.png)
 
-   Vous pouvez utiliser l’éditeur d’expression [!DNL Journey Optimizer] avec toutes ses fonctionnalités de personnalisation et de création. [En savoir plus](../personalization/personalization-build-expressions.md)
+   Vous pouvez utiliser la variable [!DNL Journey Optimizer] éditeur de personnalisation avec toutes ses fonctionnalités de personnalisation et de création. [En savoir plus](../personalization/personalization-build-expressions.md)
 
 #### Exemples de code personnalisé {#custom-code-examples}
 
