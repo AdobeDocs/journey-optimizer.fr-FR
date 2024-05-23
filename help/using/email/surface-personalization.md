@@ -8,14 +8,12 @@ topic: Administration
 role: Admin
 level: Experienced
 keywords: paramètres, e-mail, configuration, sous-domaine
-hide: true
-hidefromtoc: true
-badge: label="Version Beta"
+badge: label="Disponibilité limitée"
 exl-id: 1e004a76-5d6d-43a1-b198-5c9b41f5332c
-source-git-commit: 8a1ec5acef067e3e1d971deaa4b10cffa6294d75
+source-git-commit: 2cd62c97bef156d0c1e7dda8a962be789f8131de
 workflow-type: tm+mt
-source-wordcount: '824'
-ht-degree: 96%
+source-wordcount: '834'
+ht-degree: 94%
 
 ---
 
@@ -25,7 +23,7 @@ Pour plus de flexibilité et de contrôle sur vos paramètres d’e-mail, [!DNL 
 
 >[!AVAILABILITY]
 >
->Cette fonctionnalité est actuellement disponible en version bêta pour certains utilisateurs ou utilisatrices uniquement.<!--To join the beta program, contact Adobe Customer Care.-->
+>La personnalisation de la surface des emails n’est actuellement disponible que pour un ensemble d’organisations (disponibilité limitée). Pour en bénéficier, contactez votre représentant ou représentante Adobe.
 
 ## Ajouter des sous-domaines dynamiques {#dynamic-subdomains}
 

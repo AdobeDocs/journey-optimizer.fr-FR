@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Notes de mise à jour de Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: ec3d49dbd8587c788b67a9172205a8688088837e
+source-git-commit: 2cd62c97bef156d0c1e7dda8a962be789f8131de
 workflow-type: tm+mt
-source-wordcount: '710'
-ht-degree: 47%
+source-wordcount: '768'
+ht-degree: 44%
 
 ---
 
@@ -50,6 +50,24 @@ Cette version apporte les nouvelles fonctionnalités détaillées ci-dessous.
 <p>Cette prise de décision basée sur l’expérience n’est actuellement disponible que pour un ensemble d’organisations (disponibilité limitée). Pour en bénéficier, contactez votre représentant ou représentante Adobe.</p>
 <img src="assets/do-not-localize/gif-exd.gif"/>
 <p>Pour plus d’informations, consultez la <a href="../experience-decisioning/gs-experience-decisioning.md">documentation détaillée</a>.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+
+<table>
+<thead>
+<tr>
+<th><strong>Personnalisation de la surface des emails - Disponibilité limitée</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Vous pouvez désormais définir des sous-domaines dynamiques et des paramètres d’en-tête personnalisés lors de la création de surfaces de canal de courrier électronique pour une flexibilité accrue et un contrôle accru de vos paramètres de courrier électronique.</p>
+<p>La personnalisation de la surface des emails n’est actuellement disponible que pour un ensemble d’organisations (disponibilité limitée). Pour en bénéficier, contactez votre représentant ou représentante Adobe.</p>
+<p>Pour plus d’informations, consultez la <a href="../email/surface-personalization.md">documentation détaillée</a>.</p>
 </td>
 </tr>
 </tbody>
@@ -137,7 +155,7 @@ Les améliorations suivantes ont été ajoutées depuis la version bêta vers ce
 
   >[!AVAILABILITY]
   >
-  >Cette fonctionnalité est actuellement en version bêta et disponible uniquement pour les clients bêta. Pour rejoindre le programme Beta, contactez l’assistance clientèle d’Adobe.
+  >Cette fonctionnalité est actuellement en version bêta et disponible uniquement pour les clients bêta. Pour rejoindre le programme bêta, contactez votre représentant Adobe.
 
 <!--
 **Audiences**
