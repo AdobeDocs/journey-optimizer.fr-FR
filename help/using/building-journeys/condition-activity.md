@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: activité, condition, zone de travail, parcours
 exl-id: 496c7666-a133-4aeb-be8e-c37b3b9bf5f9
-source-git-commit: 0571a11eabffeb5e318bebe341a8df18da7db598
-workflow-type: ht
-source-wordcount: '1484'
-ht-degree: 100%
+source-git-commit: e34c39c02f71361277f28b1a116a54390875f93d
+workflow-type: tm+mt
+source-wordcount: '1466'
+ht-degree: 99%
 
 ---
 
@@ -128,7 +128,7 @@ Utilisez ce type de condition pour définir un nombre maximal de profils pour le
 >
 >Nous vous recommandons de définir une limite de profil à valeur élevée. La précision et la probabilité qu’une population atteigne le nombre exact de limites ne font qu’augmenter à mesure que la limite augmente. Pour les petits nombres (par exemple une limite de 50), les nombres ne correspondent pas toujours, car la limite peut ne pas être atteinte avant que les profils ne prennent un autre chemin.
 
-Utilisez ce type de condition pour augmenter le volume de vos diffusions. Voir [cas d’utilisation](ramp-up-deliveries-uc.md).
+<!--You can use this condition type to ramp up the volume of your deliveries. See this [use case](ramp-up-deliveries-uc.md).-->
 
 La limite par défaut est fixée à 1 000.
 

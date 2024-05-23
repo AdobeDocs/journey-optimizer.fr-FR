@@ -8,10 +8,10 @@ role: User
 level: Beginner, Intermediate
 keywords: parcours, découverte, commencer
 exl-id: 73cfd48b-72e6-4b72-bbdf-700a32a34bda
-source-git-commit: 0571a11eabffeb5e318bebe341a8df18da7db598
-workflow-type: ht
-source-wordcount: '613'
-ht-degree: 100%
+source-git-commit: e34c39c02f71361277f28b1a116a54390875f93d
+workflow-type: tm+mt
+source-wordcount: '610'
+ht-degree: 88%
 
 ---
 
@@ -70,7 +70,6 @@ Cas d’utilisation commerciale :
 Cas d’utilisation technique :
 
 * [Transmettre des collections de manière dynamique à l’aide d’actions personnalisées](collections.md)
-* [Accélérer les diffusions](ramp-up-deliveries-uc.md)
 * [Limiter le débit avec les sources de données externes et les actions personnalisées](limit-throughput.md)
 
 ## Versions de parcours{#journey-versions}
@@ -87,7 +86,7 @@ Lorsque vous recherchez un parcours, les versions les plus récentes apparaissen
 
 Si vous devez apporter des modifications à un parcours actif, vous devez en créer une nouvelle version.
 
-1. Ouvrez la dernière version de votre parcours actif, cliquez sur **[!UICONTROL Créer une version]**, puis confirmez.
+1. Ouvrez la dernière version de votre parcours en ligne, puis cliquez sur **[!UICONTROL Création d’une version]** et confirmez.
 
    ![](assets/journeyversions2.png)
 
@@ -95,11 +94,11 @@ Si vous devez apporter des modifications à un parcours actif, vous devez en cr�
    >
    >Vous ne pouvez créer une version qu&#39;à partir de la dernière version d&#39;un parcours.
 
-1. Effectuez vos modifications, cliquez sur **[!UICONTROL Publier]**, puis confirmez.
+1. Effectuez vos modifications, cliquez sur **[!UICONTROL Publier]** et confirmez.
 
-Aussitôt le parcours publié, les individus commencent à accéder à la dernière version. Les clients qui ont déjà accédé à une version antérieure y restent jusqu&#39;à la fin du parcours. En cas de rentrée ultérieure dans le même parcours, les clients accéderont à la version la plus récente.
+Dès la publication du parcours, les individus commencent à accéder à la dernière version du parcours. Les clients qui ont déjà accédé à une version antérieure y restent jusqu&#39;à la fin du parcours. S’ils entrent à nouveau le même parcours par la suite, ils accéderont à la dernière version.
 
-Les versions de parcours peuvent être arrêtées individuellement. Toutes les versions des parcours portent le même nom.
+Les versions de parcours peuvent être arrêtées individuellement. Toutes les versions de parcours portent le même nom.
 
 Lorsque vous publiez une nouvelle version d&#39;un parcours, la version précédente se termine automatiquement et passe au statut **Fermé**. Aucune entrée dans le parcours ne peut se produire. Même si vous arrêtez la dernière version, la version précédente reste fermée.
 
