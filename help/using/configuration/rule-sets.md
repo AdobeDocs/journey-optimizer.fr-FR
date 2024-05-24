@@ -12,10 +12,10 @@ badge: label="Version bêta"
 hide: true
 hidefromtoc: true
 exl-id: 07f5f0b4-417e-408e-8d9e-86615c8a3fbf
-source-git-commit: 60b29231a097bde3e451549eac9c2aead9452cf4
+source-git-commit: f47f4e783dd66d9031c7f7c447c1b20418a583c0
 workflow-type: tm+mt
-source-wordcount: '1605'
-ht-degree: 56%
+source-wordcount: '1593'
+ht-degree: 59%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 56%
 >[!CONTEXTUALHELP]
 >id="ajo_business_rules_rule_sets"
 >title="Jeux de règles"
->abstract="Utilisez les ensembles de règles pour appliquer la limitation de fréquence à différents types de communications marketing. Vous pouvez par exemple créer un ensemble de règles pour limiter le nombre de **communications promotionnelles** envoyé à vos clients et créez un autre ensemble de règles pour limiter le nombre de **newsletters** leur a été envoyé. Les jeux de règles sont actuellement disponibles en version bêta pour sélectionner uniquement les utilisateurs."
+>abstract="Utilisez les ensembles de règles pour appliquer la limitation de fréquence à différents types de communications marketing. Vous pouvez par exemple créer un jeu de règles pour limiter le nombre de **communications promotionnelles** envoyées à votre clientèle et créer un autre jeu de règles pour limiter le nombre de **newsletters** qu’elle reçoit."
 
 >[!AVAILABILITY]
 >
