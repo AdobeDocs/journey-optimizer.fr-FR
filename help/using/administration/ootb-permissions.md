@@ -9,10 +9,10 @@ role: Admin, User
 level: Intermediate
 keywords: autorisations, création, messages
 exl-id: 5d014017-ca7c-4206-b783-989677ec0e1c
-source-git-commit: c400104c86e1a9a2de819db7743b3f77153ad90b
+source-git-commit: aba2d6a1b55f5948da5ded3ae2cab721651caa94
 workflow-type: tm+mt
-source-wordcount: '777'
-ht-degree: 95%
+source-wordcount: '755'
+ht-degree: 98%
 
 ---
 
@@ -35,7 +35,6 @@ Les autorisations intégrées représentent les différentes autorisations qui p
 | Gestion des décisions | **[!DNL Manage decisions]** : lecture, création, modification et suppression des entités de prise de décision.</br>**[!DNL Manage offers]** : la lecture, la création, la modification et la suppression des offres et composants, la lecture des décisions et des collections.</br>**[!DNL Manage ranking strategies]** : la lecture, la création, la modification et la suppression des rapports personnalisés et lʼutilisation des fonctionnalités dʼaction.</br>**[!DNL View decisions]**: accès en lecture seule aux entités d’offres.<!--**[!DNL Manage Experience decisions]**: read, create, edit, and delete Experience decisioning entities.</br>--> |
 | Destinations | **[!DNL Activate destinations]** : permet aux utilisateurs et utilisatrices d’activer des audiences vers des destinations existantes.</br>**[!DNL Activate segment without mapping]** : permet aux utilisateurs et utilisatrices d’activer des audiences vers des destinations existantes, sans afficher l’étape de mappage. Les utilisateurs et utilisatrices peuvent ajouter et supprimer des audiences dans les workflows d’activation, mais ne peuvent pas ajouter ni supprimer des identités ou des attributs mappés.</br>**[!DNL Destination authoring]** : possibilité de créer des destinations à lʼaide du Adobe Experience Platform Destination SDK.</br>**[!DNL Manage and activate dataset destination]** : la lecture, la création, la modification et la désactivation des flux d’export des jeux de données. Possibilité d’activer les données vers les jeux de données actifs qui ont été créés.</br>**[!DNL Manage destinations]** : lecture, création et suppression des flux d’activation de destination et des comptes de destination.</br>**[!DNL View destinations]** : l’accès en lecture seule aux destinations disponibles dans l’onglet Catalogue et aux destinations authentifiées dans l’onglet Parcourir. |
 | Identity Management | **[!DNL Manage identity namespaces]** : lecture, création et modification des espaces de noms d’identité.</br>**[!DNL Manage identity settings]** : la lecture, la création et la modification des paramètres d’identité.</br>**[!DNL View identity namespaces]** : accès en lecture seule aux espaces de noms d’identité.</br>**[!DNL View identity settings]** : accès en lecture seule aux paramètres d’identité.</br>**[!DNL View identity graph]** : accès en lecture seule aux graphiques d’identité. |
-| Configurations du réchauffement des adresses IP | **[!DNL Manage IP warmup plans]**: lisez, créez et modifiez des plans de chauffage par IP.</br>**[!DNL View IP warmup plans]**: accès en lecture seule aux plans de chauffage par IP.</br>**[!DNL View IP warmup reports]**: lisez et modifiez les rapports de configuration IP. |
 | Bibliothèque Journey Optimizer | **[!DNL Manage Library Items]** : ajout et suppression des expressions enregistrées dans la bibliothèque [!DNL Journey Optimizer].</br>**[!DNL Simulate content]** : accéder à l’option Simuler du contenu pour l’aperçu et le BAT. |
 | Règles Journey Optimizer | **[!DNL Manage frequency rules]** : accès, création, modification ou suppression des règles de fréquence des messages.</br>**[!DNL View frequency rules]** : accès en lecture seule aux règles. |
 | Parcours | **[!DNL Manage journeys]** : lecture, création, modification et suppression des parcours. Pour accéder aux parcours et les gérer, combinez cette autorisation à **[!DNL View journeys events, data sources and actions]**.</br>**[!DNL Manage journeys events, data sources and actions]** : la lecture, la création, la modification et la suppression des événements, des sources ou des actions.</br>**[!DNL Publish journeys]** : la publication des parcours.</br>**[!DNL View journeys]** : accès en lecture seule aux parcours.</br>**[!DNL View journeys events, data sources and actions]** : accès en lecture seule aux événements de parcours, aux actions personnalisées de parcours et aux sources de données de parcours.</br>**[!DNL View journeys report]** : lecture et modification du rapport de parcours.</br> |
@@ -44,3 +43,5 @@ Les autorisations intégrées représentent les différentes autorisations qui p
 | Administration des sandbox | **[!DNL Export sandboxes]** : capacité à exporter un sandbox.</br>**[!DNL Manage packages]** : lecture, création, modification et suppression des packages.</br>**[!DNL Manage sandboxes]** : lecture, création, modification et suppression des sandbox.</br>**[!DNL View sandboxes]** : accès en lecture seule aux sandbox appartenant à votre organisation.</br>**[!DNL Reset sandboxes]** : capacité à réinitialiser un sandbox. |
 
 {style="table-layout:fixed"}
+
+<!--|IP warmup configurations|**[!DNL Manage IP warmup plans]**: read, create, and edit IP warmup plans.</br>**[!DNL View IP warmup plans]**: read-only access to IP warmup plans.</br>**[!DNL View IP warmup reports]**: read and edit IP Warmup reports. |-->
