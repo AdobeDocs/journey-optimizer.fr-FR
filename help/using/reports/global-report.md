@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: ec15e700-7659-4dbf-8446-6534ea48c5c8
-source-git-commit: 82b8c9032d6c377cb76acce4d5cc45afb0ddd6ba
+source-git-commit: 46d69dd422090a67c377acd6c8f44c4468e27f69
 workflow-type: tm+mt
-source-wordcount: '605'
-ht-degree: 100%
+source-wordcount: '828'
+ht-degree: 75%
 
 ---
 
@@ -127,3 +127,220 @@ Découvrez comment télécharger un rapport CSV pour un rapport et un widget uni
 
 >[!VIDEO](https://video.tv.adobe.com/v/3424603?quality=12)
 
+
+
+>[!CONTEXTUALHELP]
+>id="ajo_report_campaign_CTR"
+>title="CTR"
+>abstract="widget CTR"
+
+>[!CONTEXTUALHELP]
+>id="ajo_report_campaign_clicks"
+>title="Clics"
+>abstract="Widget Clics"
+
+>[!CONTEXTUALHELP]
+>id="ajo_report_campaign_delivered"
+>title="Délivrés"
+>abstract="Widget Délivrés"
+
+>[!CONTEXTUALHELP]
+>id="ajo_report_campaign_overview"
+>title="Présentation de Campaign"
+>abstract="Widget de présentation de Campaign"
+
+>[!CONTEXTUALHELP]
+>id="ajo_report_campaign_funnel"
+>title="Résultats de l’entonnoir de campagne"
+>abstract="Widget de résultats de l’entonnoir de campagne"
+
+>[!CONTEXTUALHELP]
+>id="ajo_report_campaign_tracking_link"
+>title="Libellés des liens suivis"
+>abstract="Widget d’étiquettes de lien suivi"
+
+>[!CONTEXTUALHELP]
+>id="ajo_report_campaign_displays"
+>title="Affichages"
+>abstract="Affiche le widget"
+
+<!--campaign email-->
+
+>[!CONTEXTUALHELP]
+>id="ajo_report_campaign_email_delivered_click"
+>title="Tendance des envois et des clics"
+>abstract="Widget de tendance Délivrés et clics"
+
+>[!CONTEXTUALHELP]
+>id="ajo_report_campaign_email_delivery_status"
+>title="Etat de la diffusion"
+>abstract="Widget d’état de diffusion"
+
+>[!CONTEXTUALHELP]
+>id="ajo_report_campaign_email_sending_statistics"
+>title="Statistiques d&#39;envoi"
+>abstract="Widget d’envoi de statistiques"
+
+>[!CONTEXTUALHELP]
+>id="ajo_report_campaign_email_tracking_statistics"
+>title="Statistiques de tracking"
+>abstract="Widget de statistiques de suivi"
+
+>[!CONTEXTUALHELP]
+>id="ajo_report_campaign_email_domains"
+>title="Domaines de messagerie"
+>abstract="Widget de domaines de courriel"
+
+>[!CONTEXTUALHELP]
+>id="ajo_report_campaign_email_tracked_link"
+>title="Libellés des liens suivis"
+>abstract="Widget d’étiquettes de lien de suivi"
+
+>[!CONTEXTUALHELP]
+>id="ajo_report_campaign_email_tracked_link_urls"
+>title="URL des liens trackés"
+>abstract="Widget URL des liens trackés"
+
+>[!CONTEXTUALHELP]
+>id="ajo_report_campaign_email_subjects"
+>title="Objets d&#39;email"
+>abstract="Widget de sujets d’email"
+
+>[!CONTEXTUALHELP]
+>id="ajo_report_campaign_email_bounce_reasons"
+>title="Raisons de rebond"
+>abstract="Widget Raisons des bounces"
+
+>[!CONTEXTUALHELP]
+>id="ajo_report_campaign_email_exclude"
+>title="Exclure des motifs"
+>abstract="Exclure le widget des motifs"
+
+>[!CONTEXTUALHELP]
+>id="ajo_report_campaign_email_error"
+>title="Causes d’erreur"
+>abstract="Widget Raisons de l’erreur"
+
+
+<!--campaign push-->
+
+>[!CONTEXTUALHELP]
+>id="ajo_report_campaign_push_sending_statistics"
+>title="Statistiques d&#39;envoi"
+>abstract="Widget d’envoi de statistiques"
+
+>[!CONTEXTUALHELP]
+>id="ajo_report_campaign_push_tracking_statistics"
+>title="Statistiques de tracking"
+>abstract="Widget de statistiques de suivi"
+
+>[!CONTEXTUALHELP]
+>id="ajo_report_campaign_push_tracked_link"
+>title="Libellés des liens suivis"
+>abstract="Widget d’étiquettes de lien de suivi"
+
+>[!CONTEXTUALHELP]
+>id="ajo_report_campaign_push_tracked_link_urls"
+>title="URL des liens trackés"
+>abstract="Widget URL des liens trackés"
+
+>[!CONTEXTUALHELP]
+>id="ajo_report_campaign_push_bounce_reasons"
+>title="Raisons de rebond"
+>abstract="Widget Raisons des bounces"
+
+>[!CONTEXTUALHELP]
+>id="ajo_report_campaign_push_exclude"
+>title="Causes d’exclusion"
+>abstract="Widget Raisons exclues"
+
+>[!CONTEXTUALHELP]
+>id="ajo_report_campaign_push_email_error"
+>title="Causes d’erreur"
+>abstract="Widget Raisons de l’erreur"
+
+<!--campaign inapp-->
+
+
+>[!CONTEXTUALHELP]
+>id="ajo_report_campaign_inapp_impression"
+>title="Tendance des impressions et des clics"
+>abstract="Widget de tendance d’impression et de clic"
+
+>[!CONTEXTUALHELP]
+>id="ajo_report_campaign_inapp_clicks"
+>title="Clics"
+>abstract="Widget Clics"
+
+>[!CONTEXTUALHELP]
+>id="ajo_report_campaign_inapp_displays"
+>title="Affichages"
+>abstract="Affiche le widget"
+
+>[!CONTEXTUALHELP]
+>id="ajo_report_campaign_inapp_tracking_data"
+>title="Tracking des données"
+>abstract="Widget de données de suivi"
+
+>[!CONTEXTUALHELP]
+>id="ajo_report_campaign_inapp_tracked_link"
+>title="Libellés des liens suivis"
+>abstract="Widget d’étiquettes de lien suivi"
+
+>[!CONTEXTUALHELP]
+>id="ajo_report_campaign_inapp_tracked_link_urls"
+>title="URL des liens trackés"
+>abstract="Widget URL des liens trackés"
+
+<!--campaign sms-->
+
+
+>[!CONTEXTUALHELP]
+>id="ajo_report_campaign_sms_delivered_click"
+>title="Tendance des envois et des clics"
+>abstract="Widget de tendance Délivrés et clics"
+
+>[!CONTEXTUALHELP]
+>id="ajo_report_campaign_sms_delivery_status"
+>title="Etat de la diffusion"
+>abstract="Widget d’état de diffusion"
+
+>[!CONTEXTUALHELP]
+>id="ajo_report_campaign_sms_tracked_link"
+>title="Libellés des liens suivis"
+>abstract="Widget d’étiquettes de lien de suivi"
+
+>[!CONTEXTUALHELP]
+>id="ajo_report_campaign_sms_tracked_link_urls"
+>title="URL des liens trackés"
+>abstract="Widget URL des liens trackés"
+
+>[!CONTEXTUALHELP]
+>id="ajo_report_campaign_sms_inbound"
+>title="SMS entrant"
+>abstract="Widget de message entrant SMS"
+
+>[!CONTEXTUALHELP]
+>id="ajo_report_campaign_sms_message_type"
+>title="Type de message SMS"
+>abstract="Widget de type SMS"
+
+>[!CONTEXTUALHELP]
+>id="ajo_report_campaign_sms_providers"
+>title="Fournisseurs de SMS"
+>abstract="Widget de fournisseurs de SMS"
+
+>[!CONTEXTUALHELP]
+>id="ajo_report_campaign_sms_bounce"
+>title="Raisons de rebond"
+>abstract="Widget Raisons des bounces"
+
+>[!CONTEXTUALHELP]
+>id="ajo_report_campaign_sms_exclude"
+>title="Exclure des motifs"
+>abstract="Exclure le widget des motifs"
+
+>[!CONTEXTUALHELP]
+>id="ajo_report_campaign_sms_error"
+>title="Causes d’erreur"
+>abstract="Widget Raisons de l’erreur"
