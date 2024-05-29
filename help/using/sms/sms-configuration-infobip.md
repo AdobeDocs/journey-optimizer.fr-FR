@@ -7,10 +7,10 @@ feature: SMS, Channel Configuration
 role: Admin
 level: Intermediate
 exl-id: 7b6dc89a-1a81-49c2-b2a7-bf24b9d215e3
-source-git-commit: 3a0e0bb7fd958441cf6b07f70a255a16c7692724
-workflow-type: ht
-source-wordcount: '354'
-ht-degree: 100%
+source-git-commit: 8f045e1b709c0059ce21cda68c21e8732f58e51e
+workflow-type: tm+mt
+source-wordcount: '357'
+ht-degree: 99%
 
 ---
 
@@ -20,9 +20,9 @@ Pour configurer Infobip avec Journey Optimizer, procédez comme suit :
 
 1. Dans le rail de gauche, accédez à **[!UICONTROL Administration]** `>` **[!UICONTROL Canaux]** et sélectionnez le menu **[!UICONTROL Informations d’identification de l’API]**. Cliquez sur le bouton **[!UICONTROL Créer des informations d’identification de l’API]**.
 
-   ![](assets/sms_6.png)
-
 1. Configurez vos informations dʼidentification de lʼAPI, comme indiqué ci-dessous.
+
+   * **[!UICONTROL fournisseur de SMS]**: information.
 
    * **[!UICONTROL Nom]** : choisissez un nom pour vos informations d’identification d’API.
 

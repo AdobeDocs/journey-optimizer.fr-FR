@@ -7,10 +7,10 @@ feature: SMS, Channel Configuration
 role: Admin
 level: Intermediate
 exl-id: 85412a85-edf0-4069-8bc7-b80371375f1f
-source-git-commit: 3a0e0bb7fd958441cf6b07f70a255a16c7692724
-workflow-type: ht
-source-wordcount: '516'
-ht-degree: 100%
+source-git-commit: 8f045e1b709c0059ce21cda68c21e8732f58e51e
+workflow-type: tm+mt
+source-wordcount: '557'
+ht-degree: 81%
 
 ---
 
@@ -28,9 +28,9 @@ Pour configurer votre fournisseur Sinch pour envoyer des SMS et des MMS avec Jou
 
 1. Dans le rail de gauche, accédez à **[!UICONTROL Administration]** > **[!UICONTROL Canaux]** et sélectionnez le menu **[!UICONTROL Informations d’identification de l’API]**. Cliquez sur le bouton **[!UICONTROL Créer des informations d’identification de l’API]**.
 
-   ![](assets/sms_6.png)
-
 1. Configurez vos informations d’identification pour l’API SMS, comme indiqué ci-dessous :
+
+   * **[!UICONTROL fournisseur de SMS]**: Sinch.
 
    * **[!UICONTROL Nom]** : choisissez un nom pour vos informations d’identification d’API.
 
@@ -66,15 +66,18 @@ Pour configurer Sinch MMS avec Journey Optimizer, procédez comme suit :
 
 1. Dans le rail de gauche, accédez à **[!UICONTROL Administration]** > **[!UICONTROL Canaux]** et sélectionnez le menu **[!UICONTROL Informations d’identification de l’API]**. Cliquez sur le bouton **[!UICONTROL Créer des informations d’identification de l’API]**.
 
-   ![](assets/sms_6.png)
+1. Configurez vos informations d’identification d’API MMS, comme indiqué ci-dessous :
 
-1. Configurez vos informations d’identification pour l’API SMS, comme indiqué ci-dessous :
+   * **[!UICONTROL fournisseur de SMS]**: Sinch MMS.
 
    * **[!UICONTROL Nom]** : choisissez un nom pour vos informations d’identification d’API.
 
-   * **[!UICONTROL ID de projet]**, **[!UICONTROL ID de l’application]** et **[!UICONTROL Jeton API]** : à partir du menu API de conversation, vous trouverez vos informations d’identification dans le menu Application. En savoir plus dans la [Documentation Sinch](https://docs.cc.sinch.com/cloud/service-configuration/en/oxy_ex-1/common/wln1620131604643.html){target="_blank"}.
+   * **[!UICONTROL Identifiant de projet]**, **[!UICONTROL ID de l’application]** et **[!UICONTROL Jeton API]**: suivez les étapes ci-dessous pour rassembler vos informations d’identification d’API MMS.
 
-   * **[!UICONTROL ID de plan de service]** et **[!UICONTROL Jeton d’API SMS]** : votre **[!UICONTROL ID de plan de service]** et votre **[!UICONTROL Jeton d’API SMS]** se trouvent dans l’onglet SMS de la page API.
+      * Pour **[!UICONTROL Identifiant de projet]** et **[!UICONTROL ID de l’application]**: accédez au **Présentation de l’API de conversation** page de votre projet Sinch sur votre tableau de bord Sinch.
+      * Pour **[!UICONTROL Jeton API]**: obtenez la variable **Clés d’accès** pour votre projet Sinch et générez une **Jeton API Base64** de votre projet Sinch **Clés d’accès**.
+
+   * **[!UICONTROL Identifiant du plan de service]** et **[!UICONTROL Jeton d’API SMS]**: votre **[!UICONTROL Identifiant du plan de service]** et **[!UICONTROL Jeton d’API SMS]** se trouvent dans l’onglet SMS de la page API.
 
 1. Cliquez sur **[!UICONTROL Envoyer]** lorsque vous avez terminé la configuration de vos informations d’identification API.
 
