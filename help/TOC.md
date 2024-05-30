@@ -8,7 +8,7 @@ solution: Journey Optimizer
 source-git-commit: 83997271d16e15fb0d7ccdd21aa8ac8b8221a0d5
 workflow-type: tm+mt
 source-wordcount: '1817'
-ht-degree: 95%
+ht-degree: 98%
 
 ---
 
@@ -106,7 +106,7 @@ ht-degree: 95%
             + [toInteger](using/building-journeys/functions/functiontointeger.md)
             + [toString](using/building-journeys/functions/functiontostring.md)
          + Date {#date}
-            + [currentTime &#x200B; InMillis](using/building-journeys/functions/functioncurrenttimeinmillis.md)
+            + [currentTime&#x200B;InMillis](using/building-journeys/functions/functioncurrenttimeinmillis.md)
             + [inLastDays](using/building-journeys/functions/functioninlastdays.md)
             + [inLastHours](using/building-journeys/functions/functioninlasthours.md)
             + [inLastMonths](using/building-journeys/functions/functioninlastmonths.md)
@@ -290,7 +290,7 @@ ht-degree: 95%
       + [Commencer avec la personnalisation](using/personalization/personalize.md)
       + [Contextes de personnalisation](using/personalization/personalization-contexts.md)
       + [Syntaxe de personnalisation](using/personalization/personalization-syntax.md)
-      + [Utilisation des données Adobe Experience Platform pour la personnalisation](using/personalization/lookup-aep-data.md)
+      + [Utiliser des données Adobe Experience Platform à des fins de personnalisation](using/personalization/lookup-aep-data.md)
       + Utilisation de l’éditeur de personnalisation {#expression-editor}
          + [A propos de l&#39;éditeur de personnalisation](using/personalization/personalization-build-expressions.md)
          + [Ajouter des attributs aux favoris](using/personalization/personalization-favorites.md)
@@ -327,7 +327,7 @@ ht-degree: 95%
       + [Prévisualiser votre contenu](using/content-management/preview.md)
       + [Envoyer des BAT d’e-mail](using/content-management/proofs.md)
       + [Tester le rendu des e-mails](using/content-management/rendering.md)
-      + [Rapport Email Spam](using/content-management/spam-report.md)
+      + [Rapport de spam des e-mails](using/content-management/spam-report.md)
 + Audiences, profils et identité{#audiences-profiles-identities}
    + Audiences {#audiences}
       + [Commencer avec les audiences](using/audience/about-audiences.md)
@@ -520,8 +520,8 @@ ht-degree: 95%
             + [API Decisioning](using/offers/api-reference/offer-delivery-api/decisioning-api.md)
             + [API Edge Decisioning](using/offers/api-reference/offer-delivery-api/edge-decisioning-api.md)
             + [API Batch Decisioning](using/offers/api-reference/offer-delivery-api/batch-decisioning-api.md)
-   + Prise de décision basée sur l’expérience (disponibilité limitée) {#experience-decisioning}
-      + [Commencer avec la prise de décision basée sur l’expérience](using/experience-decisioning/gs-experience-decisioning.md)
+   + Décisions pour les expériences (disponibilité limitée) {#experience-decisioning}
+      + [Commencer avec les décisions pour les expériences](using/experience-decisioning/gs-experience-decisioning.md)
       + Gérer les éléments de décision {#decision-items}
          + [Configurer le catalogue d’éléments](using/experience-decisioning/catalogs.md)
          + [Créer des éléments de décision](using/experience-decisioning/items.md)
@@ -565,8 +565,8 @@ ht-degree: 95%
    + [Utiliser des listes de contrôle](using/configuration/seed-lists.md)
    + [Prise en charge de l’archivage](using/configuration/archiving-support.md)
    + [Modifier les adresses d’exécution](using/configuration/primary-email-addresses.md)
-   + [Configuration des règles de fonctionnement](using/configuration/frequency-rules.md)
-   + [Utilisation d’ensembles de règles](using/configuration/rule-sets.md)
+   + [Configurer des règles commerciales](using/configuration/frequency-rules.md)
+   + [Utiliser des jeux de règles](using/configuration/rule-sets.md)
    + Configuration des parcours {#configure-journeys}
       + [À propos des sources de données, des événements et des actions](using/configuration/about-data-sources-events-actions.md)
       + Intégration aux systèmes externes {#external-systems}

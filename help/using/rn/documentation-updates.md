@@ -11,7 +11,7 @@ exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
 source-git-commit: 2b31a75595e076bfac2023f8e58ddfbcc14bace1
 workflow-type: tm+mt
 source-wordcount: '5335'
-ht-degree: 98%
+ht-degree: 99%
 
 ---
 
@@ -22,10 +22,10 @@ Cette page répertorie toutes les mises à jour récentes de la documentation de
 ## Mai 2024 {#may-2024}
 
 * Toutes les nouvelles fonctionnalités et améliorations de la version [!DNL Journey Optimizer] du 24 mai ont été présentées dans la documentation. [En savoir plus](release-notes.md)
-* Mise à jour de la section sur les listes de contrôle concernant les parcours récurrents - [En savoir plus](../configuration/seed-lists.md#use-seed-list)
-* Mise à jour de la section sur les sources de données externes - [En savoir plus](../datasource/external-data-sources.md#custom-authentication-access-token)
-* Le délai d’attente global du parcours de 30 jours a été ajouté à la page de protection et de limitation . [En savoir plus](../start/guardrails.md#journeys-guardrails-journeys)
-* La section sur l&#39;intégration d&#39;Adobe Campaign v7/v8 a été mise à jour avec des informations sur l&#39;approvisionnement. [En savoir plus](../action/acc-action.md#access)
+* La section sur les listes de contrôle concernant les parcours récurrents a été mise à jour. [En savoir plus](../configuration/seed-lists.md#use-seed-list)
+* La section sur les sources de données externes a été mise à jour. [En savoir plus](../datasource/external-data-sources.md#custom-authentication-access-token)
+* La temporisation globale du parcours de 30 jours a été ajoutée à la page du mécanisme de sécurisation et de limitation. [En savoir plus](../start/guardrails.md#journeys-guardrails-journeys)
+* La section sur l’intégration d’Adobe Campaign v7/v8 a été mise à jour avec des informations sur l’approvisionnement. [En savoir plus](../action/acc-action.md#access)
 * L’éditeur d’expression utilisé pour personnaliser le contenu a été renommé dans la documentation en &quot;éditeur de personnalisation&quot; afin de le différencier clairement de la fonction [Éditeur d’expression de parcours](../building-journeys/expression/expressionadvanced.md). [En savoir plus](../personalization/personalization-build-expressions.md)
 
 ## Avril 2024 {#april-2024}
@@ -92,7 +92,7 @@ Cette page répertorie toutes les mises à jour récentes de la documentation de
 * Mise à jour du document d’authentification personnalisé selon la durée de mise en cache. [En savoir plus] (../datasource/external-data-sources.md)
 * La prise en charge de `<listObject>` a été modifiée dans plusieurs fonctions.
 * Mise à jour du paramètre **durée** de la fonction `toString`. [En savoir plus](../building-journeys/functions/functiontostring.md)
-* Pour certains cas d’utilisation de sources de données externes, l’utilisation d’actions personnalisées est recommandée.
+* Dans certains cas d’utilisation de sources de données externes, l’utilisation d’actions personnalisées est recommandée.
 * La syntaxe des champs d’événements a été mise à jour. La syntaxe suivante est obsolète : `@(my_event.myfield}`. Elle est remplacée par `@event{my_event.myfield}`. [En savoir plus](../building-journeys/expression/field-references.md)
 * Réorganisation des guides de Rapport global et de Rapport dynamique. [En savoir plus](../reports/campaign-global-report.md)
 
