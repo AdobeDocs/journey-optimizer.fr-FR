@@ -5,10 +5,10 @@ user-guide-title: Guide de Journey Optimizer
 user-guide-description: Utilisez Journey Optimizer pour créer et proposer aux clients des expériences connectées, contextuelles et personnalisées
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 43adfef7632e7c9ad4c79544286b210abe5a964f
+source-git-commit: 83997271d16e15fb0d7ccdd21aa8ac8b8221a0d5
 workflow-type: tm+mt
-source-wordcount: '1808'
-ht-degree: 96%
+source-wordcount: '1817'
+ht-degree: 95%
 
 ---
 
@@ -311,9 +311,12 @@ ht-degree: 96%
       + Cas d’utilisation de la personnalisation{#personalization-use-cases}
          + [Notification de statut de la commande](using/personalization/personalization-use-case.md)
          + [E-mail d’abandon de panier](using/personalization/personalization-use-case-helper-functions.md)
-   + Gérer du contenu réutilisable {#reusable-content}
-      + [Utiliser des modèles de contenu d’e-mail](using/content-management/content-templates.md)
-      + [Utiliser les fragments](using/content-management/fragments.md)
+   + [Modèles de contenu](using/content-management/content-templates.md)
+   + Fragments de contenu réutilisables {#fragments}
+      + [Prise en main des fragments](using/content-management/fragments.md)
+      + [Création d’un fragment](using/content-management/create-fragments.md)
+      + [Enregistrer du contenu existant en tant que fragment](using/content-management/save-fragments.md)
+      + [Gestion des fragments](using/content-management/manage-fragments.md)
    + Contenu dynamique {#dynamic}
       + [Prise en main du contenu dynamique](using/personalization/get-started-dynamic-content.md)
       + [Créer des règles conditionnelles](using/personalization/create-conditions.md)
