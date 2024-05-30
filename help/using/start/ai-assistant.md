@@ -1,22 +1,23 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Utilisation de l’assistant d’IA dans Adobe Journey Optimizer
-description: Découvrez comment tirer parti de l’assistant Adobe Experience Platform AI dans Adobe Parcours Optimizer.
+title: Utilisation de l’assistant d’IA
+description: Découvrez comment tirer parti de l’assistant d’IA
 feature: Overview
 topic: Content Management
 role: User
 level: Beginner
 hide: true
 hidefromtoc: true
-source-git-commit: 8cd9374130725a89208acadc3a02574408f98599
+exl-id: 03136a25-b826-49e9-86c4-b3711913ee72
+source-git-commit: ddb8c02a309c6e016e95cb8b9fcde24f0f751078
 workflow-type: tm+mt
-source-wordcount: '338'
+source-wordcount: '324'
 ht-degree: 0%
 
 ---
 
-# Utilisation de l’assistant d’IA dans Adobe Journey Optimizer {#ai-assistant}
+# Utilisation de l’assistant d’IA {#ai-assistant}
 
 L’assistant d’IA est une fonctionnalité de l’interface utilisateur qui vous permet de parcourir et de comprendre les concepts d’Adobe et d’obtenir des informations opérationnelles sur votre environnement spécifique. Il est disponible dans plusieurs produits de Adobe Experience Cloud, y compris Adobe Journey Optimizer.
 
@@ -26,7 +27,7 @@ Pour accéder à l’assistant d’IA, cliquez sur l’icône située dans la ba
 
 Dans Adobe Journey Optimizer, vous avez accès aux cas d’utilisation suivants :
 
-* Questions de concept (disponibilité générale) Les questions de concept portent sur les concepts d’Adobe liés aux aspects de Adobe Journey Optimizer. Voici quelques exemples de questions conceptuelles :
+* Connaissances produit (Disponibilité générale) Les questions relatives aux connaissances sur les produits portent sur les concepts d’Adobe liés aux aspects de Adobe Journey Optimizer. Voici quelques exemples de questions relatives aux connaissances sur les produits :
 
    * Combien d’activités actives puis-je avoir dans un environnement de test Adobe Journey Optimizer ?
    * Comment configurer une campagne dans Adobe Journey Optimizer ?
