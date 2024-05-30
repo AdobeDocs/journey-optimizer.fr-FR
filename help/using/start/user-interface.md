@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
 source-git-commit: cc68e45e0da3cd65df74c7a484934af6da64b255
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1348'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -128,7 +128,7 @@ Contrôlez les demandes et la gestion concernant la confidentialité à partir d
 
   Vous pouvez également accéder à la section **Reporting** pour configurer les rapports pour l’expérimentation de campagnes. [En savoir plus](../campaigns/reporting-configuration.md).
 
-* **[!UICONTROL Règles de fonctionnement]** - Utilisez cette section pour créer des règles de fonctionnement cross-canal afin de contrôler la fréquence à laquelle les utilisateurs reçoivent un message ou entrent dans un parcours. [En savoir plus](../configuration/frequency-rules.md).
+* **[!UICONTROL Règles commerciales]** - Utilisez cette section pour créer des règles commerciales cross-canal afin de contrôler la fréquence à laquelle les utilisateurs et utilisatrices reçoivent un message ou entrent dans un parcours. [En savoir plus](../configuration/frequency-rules.md).
 
 * **[!UICONTROL Alertes]** - Lʼinterface utilisateur vous permet de consulter lʼhistorique des alertes reçues en fonction des mesures affichées par Adobe Experience Platform Observability Insights. Lʼinterface utilisateur vous permet également dʼafficher, dʼactiver et de désactiver les règles dʼalerte disponibles. [En savoir plus](../reports/alerts.md).
 
@@ -197,7 +197,7 @@ Pour modifier la langue :
 
 >[!CONTEXTUALHELP]
 >id="ajo_mobile_web_setup_name"
->title="Nom de la configuration web et mobile"
+>title="Nom de la configuration mobile et web"
 >abstract="TBC"
 
 >[!CONTEXTUALHELP]
@@ -212,7 +212,7 @@ Pour modifier la langue :
 
 >[!CONTEXTUALHELP]
 >id="ajo_mobile_web_setup_validate_assurance"
->title="Validation avec Assurance"
+>title="Valider avec Assurance"
 >abstract="TBC"
 
 >[!CONTEXTUALHELP]
@@ -227,12 +227,12 @@ Pour modifier la langue :
 
 >[!CONTEXTUALHELP]
 >id="ajo_mobile_web_setup_push_token"
->title="Récupération du jeton de l’appareil"
+>title="Récupérer le jeton d’appareil"
 >abstract="TBC"
 
 >[!CONTEXTUALHELP]
 >id="ajo_mobile_web_setup_push_xcode"
->title="Lancement de l’application à partir de Xcode"
+>title="Lancer l’application à partir de Xcode"
 >abstract="TBC"
 
 >[!CONTEXTUALHELP]
@@ -247,12 +247,12 @@ Pour modifier la langue :
 
 >[!CONTEXTUALHELP]
 >id="ajo_mobile_web_setup_push_team_id"
->title="Identifiant de l’équipe"
+>title="ID d’équipe"
 >abstract="TBC"
 
 >[!CONTEXTUALHELP]
 >id="ajo_mobile_web_setup_inapp_tag_property"
->title="Sélectionnez la propriété de balise ."
+>title="Choisir votre propriété de balise"
 >abstract="TBC"
 
 >[!CONTEXTUALHELP]
@@ -283,10 +283,10 @@ Pour modifier la langue :
 
 >[!CONTEXTUALHELP]
 >id="ajo_mobile_web_setup_push_token_android"
->title="Récupération du jeton de l’appareil"
+>title="Récupérer le jeton d’appareil"
 >abstract="TBC"
 
 >[!CONTEXTUALHELP]
 >id="ajo_mobile_web_setup_push_android_studio"
->title="Lancement de l’application à partir d’Android Studio"
+>title="Lancer l’application à partir d’Android Studio"
 >abstract="TBC"

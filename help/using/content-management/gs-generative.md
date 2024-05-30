@@ -12,9 +12,9 @@ hide: true
 hidefromtoc: true
 exl-id: 6e291ce3-f324-4e5d-975b-5229dea4d581
 source-git-commit: 644e0959ee0d0ec8ee0c4ec54c3bcd1cc3c4dda9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '658'
-ht-degree: 38%
+ht-degree: 100%
 
 ---
 
@@ -22,21 +22,21 @@ ht-degree: 38%
 
 >[!CONTEXTUALHELP]
 >id="ajo_ai_generation_settings"
->title="Assistant AI"
->abstract="Une fois que vous avez conçu et personnalisé votre diffusion, vous pouvez utiliser l’assistant d’IA pour améliorer votre contenu. Cette fonctionnalité simplifie le processus de personnalisation et d’amélioration du contenu en vous permettant d’affiner le contenu en décrivant ce que vous souhaitez générer."
+>title="Assistant IA"
+>abstract="Une fois que vous avez conçu et personnalisé votre diffusion, vous pouvez utiliser l’assistant IA pour améliorer votre contenu. Cette fonctionnalité simplifie le processus de personnalisation et d’amélioration du contenu en vous permettant d’affiner le contenu en décrivant ce que vous souhaitez générer."
 
 
 >[!CONTEXTUALHELP]
 >id="ajo_ai_generation_context"
->title="Définition du contexte avec l’assistant d’IA"
->abstract="Pour utiliser le contenu sélectionné comme entrée pour la génération du contenu, activez la variable **Utiliser le contenu d’origine** bascule. Vous pouvez également charger vos ressources de marque pour les utiliser comme source. Si vous n’utilisez pas le contenu sélectionné, le téléchargement et la sélection de ressources de marque sont obligatoires."
+>title="Définir le contexte avec l’assistant IA"
+>abstract="Pour utiliser le contenu sélectionné comme entrée pour la génération du contenu, activez le bouton (bascule) **Utiliser le contenu original**. Vous pouvez également charger vos ressources de marque pour les utiliser comme source. Si vous n’utilisez pas le contenu sélectionné, le chargement et la sélection de ressources de marque sont obligatoires."
 
 
 >[!CONTEXTUALHELP]
 >id="ajo_ai_generation_start"
->title="Termes d’Adobe Generator AI"
->abstract="L’accès à cette fonctionnalité est soumis à votre accord en vertu des directives utilisateur de Adobe Experience Cloud Generative AI. Les invites, les informations contextuelles ou supplémentaires, ou toute autre information que vous fournissez à cette fonctionnalité, doivent être liées à un contexte spécifique, qui peut inclure vos documents de marque, le contenu du site web, les données, les schémas de ces données, modèles ou autres documents approuvés, et ne doit pas contenir d’informations personnelles (les informations personnelles incluent tout ce qui peut être lié à un invité spécifique). Vous devez vérifier la précision des sorties de cette fonctionnalité et vous assurer qu’elles sont adaptées à votre cas d’utilisation."
->additional-url="https://www.adobe.com/fr/legal/licenses-terms/adobe-gen-ai-user-guidelines.html" text="Adobe des directives d’utilisation de l’IA générique"
+>title="Conditions d’IA générative Adobe"
+>abstract="L’accès à cette fonctionnalité est soumis à votre accord des directives d’utilisation de l’IA générative d’Adobe Experience Cloud. Les invites, les informations contextuelles ou supplémentaires, ou toute autre information que vous fournissez à cette fonctionnalité, doivent être liées à un contexte spécifique, qui peut inclure vos documents d’image de marque, le contenu du site web, les données, les schémas de ces données, modèles ou autres documents approuvés, et ne doit pas contenir d’informations personnelles (les informations personnelles incluent tout ce qui peut être lié à une personne spécifique). Vous devez vérifier l’exactitude des résultats de cette fonctionnalité et vous assurer qu’ils sont appropriés à votre cas d’utilisation."
+>additional-url="https://www.adobe.com/fr/legal/licenses-terms/adobe-gen-ai-user-guidelines.html" text="Directives d’utilisation de l’IA générative d’Adobe"
 
 >[!BEGINSHADEBOX]
 
@@ -62,19 +62,19 @@ Utilisez l’Assistant IA dans Journey Optimizer pour optimiser l’impact de 
 
 Vous trouverez ci-dessous des instructions générales concernant l’utilisation de l’assistant IA dans Journey Optimizer pour la génération d’e-mails :
 
-* La qualité du contenu généré est fortement influencée par l’objectif/l’invite marketing que vous définissez. Utilisez une invite bien définie pour que le modèle GenAI soit interprété avec précision. 
-* Chargez les ressources de marque pour qu’elles soient précises sur le contenu de la marque. Sinon, le contenu est basé sur des informations disponibles publiquement. Le contenu téléchargé peut se présenter sous les formats suivants : fichiers PDF, JPEG, PNG ou ZIP (avec les formats de fichiers pris en charge).
-* La taille maximale des ressources de marque chargées est de 50 Mo. Des fichiers plus volumineux ou de nombreuses images peuvent fonctionner, mais le temps de traitement est augmenté.
-* Utilisez des modèles d’email créés par Adobe Campaign, de préférence [modèles de courrier électronique intégrés](../email/use-email-templates.md), un modèle spécifique à la marque ou un modèle personnalisé pour créer le contenu de votre email. Il est recommandé d’utiliser un modèle d’email contenant jusqu’à 8-10 images.
-* Veillez à signaler les sorties problématiques à l’aide des icônes de pouce vers le haut, de pouce vers le bas ou d’indicateur lors de la sélection de variantes.
-* Votre utilisation de l’assistant d’IA est soumise aux directives utilisateur de Adobe Experience Cloud Generative AI. [En savoir plus](https://www.adobe.com/fr/legal/licenses-terms/adobe-gen-ai-user-guidelines.html)
+* La qualité du contenu généré est fortement influencée par l’objectif/l’invite marketing que vous définissez. Utilisez une invite bien définie pour que le modèle GenAI soit correctement interprété. 
+* Chargez les ressources de marque pour disposer de contenu exact sur la marque. Sinon, le contenu est basé sur des informations disponibles publiquement. Le contenu chargé peut se présenter sous les formats suivants : fichiers PDF, JPEG, PNG ou ZIP (avec les formats de fichiers pris en charge).
+* La taille maximale des ressources de marque chargées est de 50 Mo. Des fichiers plus volumineux ou un grand nombre d’images peuvent être utilisés, mais le temps de traitement est plus long.
+* Utilisez des modèles d’e-mail créés par Adobe Campaign, de préférence des [modèles d’e-mail intégrés](../email/use-email-templates.md), un modèle spécifique à la marque ou un modèle personnalisé, pour créer le contenu de votre e-mail. Il est recommandé d’utiliser un modèle d’e-mail contenant jusqu’à 8 à 10 images.
+* Veillez à signaler tout résultat problématique à l’aide des icônes de pouce vers le haut, de pouce vers le bas ou de drapeau lors de la sélection de variantes.
+* Votre utilisation de l’assistant IA est soumise aux directives d’utilisation de l’IA générative d’Adobe Experience Cloud. [En savoir plus](https://www.adobe.com/fr/legal/licenses-terms/adobe-gen-ai-user-guidelines.html)
 
 Les restrictions suivantes s’appliquent à l’assistant IA dans Journey Optimizer :
 
-* La langue prise en charge est l’anglais uniquement.
-* Uniquement disponible pour les canaux email, push et SMS.
-* Le contenu de GenAI n&#39;est peut-être pas toujours précis : partagez vos commentaires pour que nos ingénieurs puissent affiner les modèles.
-* Vous pouvez charger plusieurs ressources de marque, mais vous ne pouvez en exploiter qu’une seule pour une génération spécifique.
+* La seule langue prise en charge est l’anglais.
+* Uniquement disponible pour les canaux e-mail, notification push et SMS.
+* Le contenu GenAI n’est peut-être pas toujours précis : partagez vos commentaires pour que nos ingénieures et ingénieurs puissent affiner les modèles.
+* Vous pouvez charger plusieurs ressources de marque, mais vous ne pouvez en utiliser qu’une seule pour une génération spécifique.
 
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td>
