@@ -9,10 +9,10 @@ role: Admin, Developer, Architect
 level: Experienced
 keywords: objet, niveau, accès, contrôle, libellés, olac, autorisation
 exl-id: 02ccdd95-426c-4b61-9834-7f2dcd5abdbb
-source-git-commit: c400104c86e1a9a2de819db7743b3f77153ad90b
+source-git-commit: 342b9210f79266cb11628dcdc411f90844a84e37
 workflow-type: tm+mt
-source-wordcount: '420'
-ht-degree: 99%
+source-wordcount: '413'
+ht-degree: 96%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 99%
 >[!CONTEXTUALHELP]
 >id="ajo_olac_manage_access"
 >title="Contrôle d’accès au niveau de l’objet"
->abstract="Si vous appliquez des étiquettes auxquelles vous n’avez pas accès, votre accès à cet objet sera révoqué."
+>abstract="Pour conserver l’accès à cet objet, appliquez uniquement les libellés pour lesquels vous disposez d’une autorisation."
 
 Le contrôle d’accès au niveau de l’objet (OLAC) permet de définir des autorisations pour gérer l’accès aux données d’une sélection d’objets :
 

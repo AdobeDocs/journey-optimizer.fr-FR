@@ -7,9 +7,9 @@ feature: SMS, Channel Configuration
 role: Admin
 level: Intermediate
 exl-id: 85412a85-edf0-4069-8bc7-b80371375f1f
-source-git-commit: 8f045e1b709c0059ce21cda68c21e8732f58e51e
+source-git-commit: 342b9210f79266cb11628dcdc411f90844a84e37
 workflow-type: tm+mt
-source-wordcount: '557'
+source-wordcount: '559'
 ht-degree: 81%
 
 ---
@@ -74,8 +74,8 @@ Pour configurer Sinch MMS avec Journey Optimizer, procédez comme suit :
 
    * **[!UICONTROL Identifiant de projet]**, **[!UICONTROL ID de l’application]** et **[!UICONTROL Jeton API]**: suivez les étapes ci-dessous pour rassembler vos informations d’identification d’API MMS.
 
-      * Pour **[!UICONTROL Identifiant de projet]** et **[!UICONTROL ID de l’application]**: accédez au **Présentation de l’API de conversation** page de votre projet Sinch sur votre tableau de bord Sinch.
-      * Pour **[!UICONTROL Jeton API]**: obtenez la variable **Clés d’accès** pour votre projet Sinch et générez une **Jeton API Base64** de votre projet Sinch **Clés d’accès**.
+      * Pour **[!UICONTROL Identifiant de projet]** et **[!UICONTROL ID de l’application]**: accédez au [Présentation de l’API de conversation](https://dashboard.sinch.com/convapi/overview) page de votre projet Sinch sur votre tableau de bord Sinch.
+      * Pour **[!UICONTROL Jeton API]**: obtenez la variable [Clés d’accès](https://community.sinch.com/t5/Customer-Dashboard/Sinch-Access-Keys/ta-p/12638) pour votre projet Sinch et générez une **Jeton API Base64** de votre projet Sinch **Clés d’accès**.
 
    * **[!UICONTROL Identifiant du plan de service]** et **[!UICONTROL Jeton d’API SMS]**: votre **[!UICONTROL Identifiant du plan de service]** et **[!UICONTROL Jeton d’API SMS]** se trouvent dans l’onglet SMS de la page API.
 
