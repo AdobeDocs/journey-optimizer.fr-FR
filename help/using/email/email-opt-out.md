@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: désinscription, e-mail, lien, désabonnement
 exl-id: 4bb51bef-5dab-4a72-8511-1a5e528f4b95
-source-git-commit: 9c095df4c8cab4cae8f5f3a5e000dfc5872b1a8b
+source-git-commit: fb6a2e29f92e4b7e65eb495a654960e3249f9508
 workflow-type: tm+mt
 source-wordcount: '1350'
 ht-degree: 32%
@@ -31,7 +31,6 @@ Pour insérer un lien de désinscription dans le contenu de votre email, vous po
 * Activez la variable **lien d’exclusion en un clic** pour votre email.  [Découvrez comment ajouter un lien de désinscription en un clic.](#one-click-opt-out)
 
 * Insérer une **lien vers une landing page**. [Découvrez comment ajouter une page de destination d’opt-out](#opt-out-external-lp).
-
 
 ## Exclusion en une étape {#opt-out-one-step}
 

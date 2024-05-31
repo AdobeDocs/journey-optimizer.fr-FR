@@ -9,7 +9,7 @@ role: Admin
 level: Experienced
 keywords: paramètres, e-mail, configuration
 exl-id: 13536962-7541-4eb6-9ccb-4f97e167734a
-source-git-commit: 9c095df4c8cab4cae8f5f3a5e000dfc5872b1a8b
+source-git-commit: fb6a2e29f92e4b7e65eb495a654960e3249f9508
 workflow-type: tm+mt
 source-wordcount: '2545'
 ht-degree: 84%
@@ -60,7 +60,6 @@ Sélectionnez le sous-domaine à utiliser pour envoyer les e-mails.
 Pour préserver la réputation de votre domaine, accélérer le processus de préchauffage des adresses IP et améliorer la délivrabilité, déléguez vos sous-domaines d’envoi à Adobe. [En savoir plus](../configuration/about-subdomain-delegation.md)
 
 <!--If needed, you can define dynamic subdomains. [Learn more](../email/surface-personalization.md#dynamic-subdomains)-->
-
 
 ## Détails du groupe d’adresses IP {#ip-pools}
 
