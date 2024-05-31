@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: destination, page de destination, cas d’utilisation
 exl-id: 8c00d783-54a3-45d9-bd8f-4dc58804d922
-source-git-commit: 8a1ec5acef067e3e1d971deaa4b10cffa6294d75
+source-git-commit: 9c095df4c8cab4cae8f5f3a5e000dfc5872b1a8b
 workflow-type: tm+mt
-source-wordcount: '968'
-ht-degree: 96%
+source-wordcount: '979'
+ht-degree: 93%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 96%
 
 Retrouvez ci-dessous quelques exemples sur la façon dont vous pouvez utiliser les pages de destination de [!DNL Journey Optimizer] afin que vos clientes et clients puissent donner leur opt-in ou opt-out concernant la réception de certaines ou de toutes vos communications.
 
-## Abonnement à un service {#subscription-to-a-service}
+## Abonner à un service {#subscription-to-a-service}
 
 L’un des cas d’utilisation les plus courants consiste à inviter vos clients à [sʼabonner à un service](subscription-list.md) (comme une newsletter ou un événement) par le biais dʼune page de destination. Retrouvez les étapes principales dans le graphique ci-dessous :
 
@@ -88,7 +88,7 @@ Tous les utilisateurs inscrits à votre événement recevront l’e-mail de conf
 
 <!--The event registration's subscription list tracks the profiles who registered and you can send them targeted event updates.-->
 
-## Désinscription {#opt-out}
+## Page d’entrée d’exclusion {#opt-out}
 
 Pour permettre aux destinataires dʼannuler lʼabonnement à vos communications, vous pouvez inclure un lien vers une page de destination d&#39;opt-out dans vos e-mails.
 
@@ -107,7 +107,7 @@ Par conséquent, vous devez toujours inclure un **lien de désabonnement** dans 
 
 ### Configurer la procédure d’opt-out des e-mails {#configure-opt-out}
 
-Pour permettre aux destinataires dʼun e-mail dʼannuler leur abonnement à vos communications par le biais dʼune page de destination, procédez comme suit.
+Pour permettre aux destinataires d&#39;un email de se désabonner de vos communications par le biais d&#39;une landing page, procédez comme suit :
 
 1. Créez votre page de destination. [En savoir plus](create-lp.md)
 
@@ -167,6 +167,12 @@ Les informations concernant les désinscriptions sont stockées dans le **Jeu de
 >
 >Même si aucun lot n’a été ajouté à ce jeu de données, il contiendra toujours les informations opt-in et opt-out.
 
+
+
+**Voir aussi :**
+
+* [Désinscription en un clic](../email/email-opt-out.md#one-click-opt-out-link)
+* [Lien d’exclusion dans l’en-tête de l’email](../email/email-opt-out.md#unsubscribe-header)
 
 <!--
 
