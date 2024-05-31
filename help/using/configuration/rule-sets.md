@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Utilisation d’ensembles de règles
+title: Utiliser des jeux de règles
 description: Découvrez comment créer et appliquer des ensembles de règles
 feature: Rules
 topic: Content Management
@@ -19,7 +19,7 @@ ht-degree: 59%
 
 ---
 
-# Utilisation d’ensembles de règles {#rule-sets}
+# Utiliser des jeux de règles {#rule-sets}
 
 >[!CONTEXTUALHELP]
 >id="ajo_business_rules_rule_sets"
