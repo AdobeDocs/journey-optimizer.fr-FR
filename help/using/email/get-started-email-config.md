@@ -9,7 +9,7 @@ feature: Channel Configuration, Email
 topic: Administration
 keywords: e-mail, configuration, surface, sous-domaines
 exl-id: 1fc9a4f6-6c34-4414-b400-aac6bda9ee25
-source-git-commit: f915ab3430f3051772484708a7a1eca030dc3b0c
+source-git-commit: daba85693c4733333d6a62ebb5c1f290dbcb1511
 workflow-type: tm+mt
 source-wordcount: '211'
 ht-degree: 100%
@@ -37,7 +37,7 @@ Pour envoyer des e-mails par le biais de parcours et de campagnes dans [!DNL Jou
 
    * C’est là que vous sélectionnez le sous-domaine à utiliser pour envoyer les e-mails et les pools d’adresses IP à associer à la surface. [En savoir plus](email-settings.md#subdomains-and-ip-pools)
 
-   ![](assets/surface-subdomain-ip-pool.png)
+   ![](assets/preset-subdomain-ip-pool.png)
 
    * Les adresses **[!UICONTROL e-mail expéditeur]** et **[!UICONTROL e-mail d’erreur]** doivent utiliser le sous-domaine délégué actuellement sélectionné. [En savoir plus](email-settings.md#email-header)
 
