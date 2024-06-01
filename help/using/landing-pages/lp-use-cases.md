@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: destination, page de destination, cas d’utilisation
 exl-id: 8c00d783-54a3-45d9-bd8f-4dc58804d922
-source-git-commit: fb6a2e29f92e4b7e65eb495a654960e3249f9508
+source-git-commit: f915ab3430f3051772484708a7a1eca030dc3b0c
 workflow-type: tm+mt
 source-wordcount: '979'
 ht-degree: 93%
@@ -166,6 +166,8 @@ Les informations concernant les désinscriptions sont stockées dans le **Jeu de
 >Si la méthode de fusion pour votre valeur par défaut [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=fr){target="_blank"} **[!UICONTROL Profils]** la stratégie de fusion est **[!UICONTROL Priorité du jeu de données]**, veillez à activer la variable **[!UICONTROL Jeu de données du service de consentement AJO]** et de la classer par priorité dans la stratégie de fusion. [En savoir plus](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/ui-guide.html?lang=fr#dataset-precedence-profile){target="_blank"}
 >
 >Même si aucun lot n’a été ajouté à ce jeu de données, il contiendra toujours les informations opt-in et opt-out.
+
+
 
 **Voir aussi :**
 

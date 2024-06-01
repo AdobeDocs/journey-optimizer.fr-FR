@@ -9,7 +9,7 @@ role: User
 level: Beginner, Intermediate
 keywords: liens, tracking, surveillance, e-mail
 exl-id: 689e630a-00ca-4893-8bf5-6d1ec60c52e7
-source-git-commit: fb6a2e29f92e4b7e65eb495a654960e3249f9508
+source-git-commit: f915ab3430f3051772484708a7a1eca030dc3b0c
 workflow-type: tm+mt
 source-wordcount: '1053'
 ht-degree: 97%
@@ -187,4 +187,3 @@ Désormais, lorsque l’e-mail est envoyé, ce paramètre est automatiquement aj
 >[!NOTE]
 >
 >Pour vérifier l’URL finale, vous pouvez [envoyer un BAT](../content-management/preview-test.md#send-proofs) et cliquer sur le lien dans le contenu de l’e-mail une fois que vous avez reçu le BAT. L’URL doit afficher le paramètre de tracking. Dans l’exemple ci-dessus, l’URL finale est : <https://luma.enablementadobe.com/content/luma/us/en.html?utm_contact=profile.userAccount.contactDetails.homePhone.number>.
-
