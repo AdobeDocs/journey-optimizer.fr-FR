@@ -9,7 +9,7 @@ exl-id: 9ab43b14-41cf-49f1-bdcf-6fee58db5000
 source-git-commit: 5f69b252f5812f43b3d0a6fed0aac074ece0d10f
 workflow-type: tm+mt
 source-wordcount: '363'
-ht-degree: 17%
+ht-degree: 20%
 
 ---
 
@@ -24,7 +24,7 @@ Vous pouvez vérifier le score de spam de votre contenu d&#39;email dans un rapp
 
 >[!AVAILABILITY]
 >
->Cette fonctionnalité est actuellement en version bêta et disponible uniquement pour les clients bêta. Pour rejoindre le programme Beta, contactez l’assistance clientèle d’Adobe.
+>Cette fonctionnalité est actuellement en version bêta et disponible uniquement pour les clientes et clients bêta. Pour rejoindre le programme bêta, contactez l’assistance clientèle d’Adobe.
 
 Lors de l&#39;édition ou de la prévisualisation du contenu de votre email, la variable **[!UICONTROL Rapport Spam]** fournit une notation et des conseils pour améliorer les scores de chaque élément répertorié.
 

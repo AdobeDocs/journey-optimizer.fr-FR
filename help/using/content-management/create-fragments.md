@@ -7,13 +7,13 @@ feature: Fragments
 topic: Content Management
 role: User
 level: Beginner, Intermediate
-source-git-commit: 83997271d16e15fb0d7ccdd21aa8ac8b8221a0d5
+exl-id: da3ffe9c-a244-4246-b4b5-a3a1d0508676
+source-git-commit: f47160f40abd9427cb9b9c793ee0ab402bf9f65b
 workflow-type: tm+mt
 source-wordcount: '401'
 ht-degree: 55%
 
 ---
-
 
 # Créer un fragment à partir de zéro {#create-fragments}
 
