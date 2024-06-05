@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: attente, activité, parcours, suivant, zone de travail
 exl-id: 7268489a-38c1-44da-b043-f57aaa12d7d5
-source-git-commit: 505a418819b7a8ac9883d78a4f3d05a78cf5aa31
+source-git-commit: db48c85e3707fcd5fbee61994d488cf640e9afa7
 workflow-type: tm+mt
-source-wordcount: '535'
-ht-degree: 37%
+source-wordcount: '545'
+ht-degree: 26%
 
 ---
 
@@ -23,7 +23,9 @@ ht-degree: 37%
 >title="Activité d&#39;attente"
 >abstract="Si vous souhaitez observer un temps d&#39;attente avant d&#39;exécuter l&#39;activité suivante dans le chemin, vous pouvez utiliser une activité Attente. Cela vous permet de définir le moment d&#39;exécution de l&#39;activité suivante. Deux options sont disponibles : durée et personnalisation."
 
-Vous pouvez utiliser une **[!UICONTROL Attente]** pour définir une durée avant d’exécuter l’activité suivante. Les options disponibles sont les suivantes :
+Vous pouvez utiliser une **[!UICONTROL Attente]** pour définir une durée avant d’exécuter l’activité suivante.  La durée d’attente maximale est **29 jours**.
+
+Les types suivants sont disponibles :
 
 * [Durée](#duration)
 * [Valeur](#custom) personnalisée
@@ -33,19 +35,26 @@ Vous pouvez utiliser une **[!UICONTROL Attente]** pour définir une durée avant
 * [Fixed date](#fixed_date) 
 -->
 
-## À propos de l&#39;activité d&#39;attente {#about_wait}
+## Recommandations {#wait-recommendations}
 
-La durée d&#39;attente maximale est de 29 jours. En mode test, le paramètre **[!UICONTROL Temps d&#39;attente en test]** vous permet de définir la durée de chaque activité d&#39;attente. La valeur par défaut est de 10 secondes. Vous obtiendrez ainsi rapidement les résultats du test. En savoir plus sur [cette page](../building-journeys/testing-the-journey.md).
+### Activités d’attente multiples {#multiple-wait-activities}
 
-Soyez prudent lorsque vous utilisez plusieurs **Attente** activités dans un parcours, car le délai d’expiration du parcours global est de 30 jours, ce qui signifie qu’un profil abandonnera toujours le parcours maximum 30 jours après son entrée. En savoir plus sur [cette page](../building-journeys/journey-gs.md#global_timeout).
+Lorsque vous utilisez plusieurs **Attente** activités dans un parcours, sachez que le délai d’expiration du parcours global est de 30 jours, ce qui signifie que les profils sont toujours abandonnés sur le parcours maximum 30 jours après leur entrée. En savoir plus sur [cette page](../building-journeys/journey-gs.md#global_timeout).
 
 Un individu peut saisir une **Attente** activité uniquement s’il leur reste suffisamment de temps dans le parcours pour terminer la durée d’attente avant le délai d’parcours de 30 jours. Par exemple, si vous ajoutez deux **Attente** est définie sur 20 jours, le système détecte que la seconde variable **Attente** l’activité se termine après le délai d’attente de 30 jours. La seconde **Attente** L’activité sera donc ignorée et l’individu quittera le parcours avant de le démarrer. Dans cet exemple, la cliente ou le client restera 20 jours au total dans le parcours.
 
+### Attente et rentrée {#wait-re-entrance}
+
 Une bonne pratique pour ne pas utiliser **Attente** activités pour bloquer la rentrée. Utilisez plutôt l’option **Autoriser la reprise** au niveau des propriétés du parcours. En savoir plus sur [cette page](../building-journeys/journey-gs.md#entrance).
+
+### Mode d’attente et de test {#wait-test-modd}
+
+En mode test, la variable **[!UICONTROL Temps d’attente en test]** vous permet de définir l’heure à laquelle chaque **Attente** l’activité dure. La valeur par défaut est de 10 secondes. Vous obtiendrez ainsi rapidement les résultats du test. En savoir plus sur [cette page](../building-journeys/testing-the-journey.md).
+
 
 ## Durée de l&#39;attente {#duration}
 
-Sélectionnez la durée d&#39;attente avant l&#39;exécution de l&#39;activité suivante. La durée maximale est de 29 jours.
+Sélectionnez la variable **Durée** type pour définir la durée de l’attente avant l’exécution de l’activité suivante. La durée maximale est **29 jours**.
 
 ![Définition de la durée d’attente](assets/journey55.png)
 
@@ -60,7 +69,7 @@ Select the date for the execution of the next activity.
 
 ## Attente personnalisée {#custom}
 
-Utilisez la variable **Personnalisé** saisissez pour définir une date personnalisée à l’aide d’une expression avancée basée sur un champ provenant d’un événement ou d’une réponse d’action personnalisée. Vous ne pouvez pas définir directement une durée relative, par exemple, 7 jours, mais vous pouvez utiliser des fonctions pour la calculer si nécessaire (par exemple, 2 jours après l’achat).
+Sélectionnez la variable **Personnalisé** saisissez pour définir une date personnalisée à l’aide d’une expression avancée basée sur un champ provenant d’un événement ou d’une réponse d’action personnalisée. Vous ne pouvez pas définir directement une durée relative, par exemple, 7 jours, mais vous pouvez utiliser des fonctions pour la calculer si nécessaire (par exemple, 2 jours après l’achat).
 
 ![Définition d’une attente personnalisée avec une expression](assets/journey57.png)
 
