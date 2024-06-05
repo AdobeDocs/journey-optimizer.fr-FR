@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 659984cb-b232-47ba-9f5a-604bf97a5e92
-source-git-commit: d4a91dcd032af03504ab7bbf97b2e19338c32397
+source-git-commit: fcd8c4077bead912d709b726c6ff15464357a8be
 workflow-type: tm+mt
-source-wordcount: '895'
-ht-degree: 100%
+source-wordcount: '894'
+ht-degree: 88%
 
 ---
 
@@ -28,8 +28,8 @@ La fonctionnalité de gestion des décisions comprend deux composants principaux
 
 Voici quelques-uns des avantages :
 
-* Amélioration des performances des campagnes en fournissant des offres personnalisées sur plusieurs canaux ;
-* Workflows améliorés : au lieu de créer plusieurs diffusions ou campagnes, les équipes marketing peuvent améliorer les workflows en créant une seule diffusion et en modifiant les offres dans différentes parties du modèle ;
+* Amélioration des performances des campagnes grâce à la diffusion d’offres personnalisées sur plusieurs canaux,
+* Workflows améliorés : au lieu de créer plusieurs diffusions ou campagnes, les équipes marketing peuvent améliorer les workflows en créant une seule diffusion et en modifiant les offres dans différentes parties du modèle,
 * Contrôle du nombre d&#39;affichages d&#39;une offre sur plusieurs campagnes et clients.
 
 ➡️ [En savoir plus sur la gestion des décisions dans ces vidéos](#video)
@@ -37,7 +37,7 @@ Voici quelques-uns des avantages :
 
 >[!NOTE]
 >
->Si vous êtes un utilisateur ou une utilisatrice d’[Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/home.html?lang=fr){target="_blank"} qui tire parti du service applicatif **Offer Decisioning**, toutes les fonctionnalités de gestion des décisions décrites dans cette section s’appliquent également à vous.
+>Si vous êtes un [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/home.html?lang=fr){target="_blank"} utilisation de la variable **Offer decisioning** , toutes les fonctions de gestion de décision décrites dans cette section s’appliquent également à vous.
 
 ## À propos des offres et des décisions {#about-offers-and-decisions}
 
@@ -89,9 +89,9 @@ Vous trouverez ci-dessous la liste des principaux concepts que vous utiliserez l
 
 * **Décision** : contient la logique sous-tendant la sélection d’une offre.
 
-* **Règle de décision** : les règles de décision sont des contraintes ajoutées à une offre personnalisée et appliquées à un profil pour déterminer son éligibilité.
+* **Règle de décision**: les règles de décision sont des contraintes ajoutées à une offre personnalisée et appliquées à un profil pour déterminer son éligibilité.
 
-* **Offre éligible** : une offre éligible répond à des contraintes définies en amont pour la proposer de manière cohérente à un profil.
+* **Offre éligible**: une offre éligible répond aux contraintes définies en amont qui peuvent être offertes de manière cohérente à un profil.
 
 * **Gestion de décision** : permet de créer et de diffuser des expériences d’offre personnalisées à l’utilisateur final sur plusieurs canaux et applications à l’aide de la logique commerciale et des règles de décision.
 

@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: daba85693c4733333d6a62ebb5c1f290dbcb1511
+source-git-commit: fcd8c4077bead912d709b726c6ff15464357a8be
 workflow-type: tm+mt
-source-wordcount: '5335'
-ht-degree: 99%
+source-wordcount: '5334'
+ht-degree: 98%
 
 ---
 
@@ -391,8 +391,7 @@ Cette page répertorie toutes les mises à jour récentes de la documentation de
 
 * Amélioration de la page **Démarrage rapide** avec des étapes pour différents rôles. [En savoir plus](../start/quick-start.md)
 
-* Désormais, toutes les fonctionnalités de gestion des décisions décrites dans la section dédiée s’appliquent également aux utilisateurs d’Adobe Experience Platform qui tirent parti du service applicatif Offer Decisioning.
-[En savoir plus](../offers/get-started/starting-offer-decisioning.md)
+* Désormais, toutes les fonctionnalités de gestion de la décision décrites dans la section dédiée s’appliquent également aux utilisateurs de Adobe Experience Platform qui exploitent l’application Offer Decisioning. [En savoir plus](../offers/get-started/starting-offer-decisioning.md)
 
 * Ajout d’une sous-section pour clarifier les différences entre l’utilisation des audiences et celle des règles de décision lors de l’application d’une contrainte afin de restreindre la sélection des offres pour un emplacement donné. [En savoir plus](../offers/offer-activities/create-offer-activities.md#segments-vs-decision-rules)
 
