@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 03136a25-b826-49e9-86c4-b3711913ee72
-source-git-commit: 2e0c8dbe40e953ceb59df43c91bcd12a07e048e9
+source-git-commit: 02a3ed25c7047ce709271a386d9ab4c2e976e42f
 workflow-type: tm+mt
 source-wordcount: '351'
 ht-degree: 0%
@@ -26,7 +26,7 @@ Pour accéder à l’assistant d’IA, cliquez sur l’icône située dans la ba
 
 >[!CAUTION]
 >
->Avant de pouvoir utiliser l’assistant d’IA, vous devez accepter les directives utilisateur de Adobe Experience Cloud Generative AI. En savoir plus sur l’accord dans [cette page](https://experienceleague.adobe.com/en/docs/experience-platform/landing/platform-ui/ai-assistant){target="_blank"}.
+>Avant de pouvoir utiliser l’assistant d’IA, vous devez accepter les directives utilisateur de Adobe Experience Cloud Generative AI. En savoir plus sur l’accord dans [cette page](https://experienceleague.adobe.com/en/docs/experience-platform/ai-assistant/home){target="_blank"}.
 
 Dans Adobe Journey Optimizer, vous avez accès aux cas d’utilisation suivants :
 
@@ -58,4 +58,4 @@ Vérifiez la réponse et utilisez le **Afficher les sources** pour obtenir des l
 
 Utilisez le pouce vers le haut ou vers le bas pour évaluer la réponse.
 
-Pour savoir comment utiliser l’assistant d’IA, voir des exemples d’objectifs que vous pouvez réaliser avec l’assistant d’IA et découvrir le fonctionnement de l’assistant, reportez-vous à la section [Documentation Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/landing/platform-ui/ai-assistant){target="_blank"}.
+Pour savoir comment utiliser l’assistant d’IA, voir des exemples d’objectifs que vous pouvez réaliser avec l’assistant d’IA et découvrir le fonctionnement de l’assistant, reportez-vous à la section [Documentation Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/ai-assistant/home){target="_blank"}.
