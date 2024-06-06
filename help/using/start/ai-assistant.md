@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 03136a25-b826-49e9-86c4-b3711913ee72
-source-git-commit: 02a3ed25c7047ce709271a386d9ab4c2e976e42f
+source-git-commit: f64cf166d5fa732ae0353414b5638c97d43099a1
 workflow-type: tm+mt
 source-wordcount: '351'
 ht-degree: 0%
@@ -30,14 +30,18 @@ Pour accéder à l’assistant d’IA, cliquez sur l’icône située dans la ba
 
 Dans Adobe Journey Optimizer, vous avez accès aux cas d’utilisation suivants :
 
-* Connaissances produit (Disponibilité générale) Les questions relatives aux connaissances sur les produits portent sur les concepts d’Adobe liés aux aspects de Adobe Journey Optimizer. Voici quelques exemples de questions relatives aux connaissances sur les produits :
+* **Connaissances produit** (Disponibilité générale)
+
+  Les questions relatives aux connaissances sur les produits portent sur les concepts d’Adobe liés aux aspects de Adobe Journey Optimizer. Voici quelques exemples de questions relatives aux connaissances sur les produits :
 
    * Combien d’activités actives puis-je avoir dans un environnement de test Adobe Journey Optimizer ?
    * Comment configurer une campagne dans Adobe Journey Optimizer ?
    * Comment créer une action personnalisée à utiliser dans Adobe Journey Optimizer parcours ?
 
 
-* Connaissances opérationnelles dans les parcours (bêta) Les questions d’informations opérationnelles portent sur les objets de parcours dans l’environnement de test de votre organisation. Voici quelques exemples de questions ou d&#39;invites d&#39;informations opérationnelles :
+* **Connaissances opérationnelles** en parcours (bêta)
+
+  Les questions d’informations opérationnelles portent sur les objets de parcours de l’environnement de test de votre entreprise. Voici quelques exemples de questions ou d&#39;invites d&#39;informations opérationnelles :
 
    * Combien de parcours de vie ai-je dans Adobe Journey Optimizer ?
    * Donnez-moi une liste de tous les parcours planifiés
@@ -50,11 +54,11 @@ Dans Adobe Journey Optimizer, vous avez accès aux cas d’utilisation suivants 
 
 Pour poser une question, saisissez-la dans le champ en bas de l&#39;écran et appuyez sur Entrée.
 
-![](assets/do-not-localize/ai-assistant-ask.png){width="300" align="left"}
+![](assets/do-not-localize/ai-assistant-ask.png){width="50%" align="left"}
 
 Vérifiez la réponse et utilisez le **Afficher les sources** pour obtenir des liens directs vers la documentation du produit et en savoir plus.
 
-![](assets/do-not-localize/ai-assistant-answer.png){width="300" align="left"}
+![](assets/do-not-localize/ai-assistant-answer.png){width="50%" align="left"}
 
 Utilisez le pouce vers le haut ou vers le bas pour évaluer la réponse.
 
