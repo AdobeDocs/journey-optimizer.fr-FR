@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: attente, activité, parcours, suivant, zone de travail
 exl-id: 7268489a-38c1-44da-b043-f57aaa12d7d5
-source-git-commit: db48c85e3707fcd5fbee61994d488cf640e9afa7
+source-git-commit: ab6292e93bf848671d39037bdfe0de8bdd7191b6
 workflow-type: tm+mt
-source-wordcount: '545'
+source-wordcount: '566'
 ht-degree: 26%
 
 ---
@@ -25,10 +25,10 @@ ht-degree: 26%
 
 Vous pouvez utiliser une **[!UICONTROL Attente]** pour définir une durée avant d’exécuter l’activité suivante.  La durée d’attente maximale est **29 jours**.
 
-Les types suivants sont disponibles :
+Vous pouvez définir deux types de **Attente** activité :
 
-* [Durée](#duration)
-* [Valeur](#custom) personnalisée
+* Une attente basée sur une durée de correctif. [En savoir plus](#duration)
+* Une attente personnalisée, à l’aide de fonctions pour la calculer. [En savoir plus](#custom)
 
 <!--
 * [Email send time optimization](#email_send_time_optimization)
@@ -51,8 +51,9 @@ Une bonne pratique pour ne pas utiliser **Attente** activités pour bloquer la r
 
 En mode test, la variable **[!UICONTROL Temps d’attente en test]** vous permet de définir l’heure à laquelle chaque **Attente** l’activité dure. La valeur par défaut est de 10 secondes. Vous obtiendrez ainsi rapidement les résultats du test. En savoir plus sur [cette page](../building-journeys/testing-the-journey.md).
 
+## Configuration {#wait-configuration}
 
-## Durée de l&#39;attente {#duration}
+### Durée de l&#39;attente {#duration}
 
 Sélectionnez la variable **Durée** type pour définir la durée de l’attente avant l’exécution de l’activité suivante. La durée maximale est **29 jours**.
 
@@ -67,9 +68,9 @@ Select the date for the execution of the next activity.
 
 -->
 
-## Attente personnalisée {#custom}
+### Attente personnalisée {#custom}
 
-Sélectionnez la variable **Personnalisé** saisissez pour définir une date personnalisée à l’aide d’une expression avancée basée sur un champ provenant d’un événement ou d’une réponse d’action personnalisée. Vous ne pouvez pas définir directement une durée relative, par exemple, 7 jours, mais vous pouvez utiliser des fonctions pour la calculer si nécessaire (par exemple, 2 jours après l’achat).
+Sélectionnez la variable **Personnalisé** type pour définir une durée personnalisée à l’aide d’une expression avancée basée sur un champ provenant d’un événement ou d’une réponse d’action personnalisée. Vous ne pouvez pas définir directement une durée relative, par exemple, 7 jours, mais vous pouvez utiliser des fonctions pour la calculer si nécessaire (par exemple, 2 jours après l’achat).
 
 ![Définition d’une attente personnalisée avec une expression](assets/journey57.png)
 
