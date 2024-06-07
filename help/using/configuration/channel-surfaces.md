@@ -42,7 +42,7 @@ Une fois les surfaces de canal configurées, vous pourrez les sélectionner lors
 >[!CONTEXTUALHELP]
 >id="ajo_admin_message_presets_header"
 >title="Paramètres de surface de canal"
->abstract="Lors de la configuration d’une surface de canal, sélectionnez le canal auquel elle s’applique et définissez tous les paramètres techniques obligatoires pour vos messages, tels que le type d’e-mail, le nom de l’expéditeur, les applications mobiles, la configuration des SMS, etc."
+>abstract="Lors de la configuration d’une surface de canal, sélectionnez le canal auquel elle s’applique et définissez tous les paramètres techniques obligatoires pour vos messages, tels que le type d’e-mail, le nom de l’expéditeur ou de l’expéditrice, les applications mobiles, la configuration des SMS, etc."
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_message_presets"
