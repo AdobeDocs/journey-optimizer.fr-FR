@@ -6,10 +6,10 @@ topic: Content Management
 role: Admin
 level: Experienced
 exl-id: ac901f88-5fde-4220-88c6-fe05433866cc
-source-git-commit: c4444b67313cda81fda9ad16b7ee59226fd7c88a
+source-git-commit: 83e93b18a3f5a8e688ad519d3e1c0d70d91dfc9f
 workflow-type: tm+mt
-source-wordcount: '425'
-ht-degree: 100%
+source-wordcount: '610'
+ht-degree: 65%
 
 ---
 
@@ -32,9 +32,9 @@ Pour pouvoir utiliser des actions d’expérience basée sur le code dans [!DNL 
 
 L’expérience basée sur le code prend en charge n’importe quel type d’implémentation du client ou de la cliente, comme illustré dans les options ci-dessous. Vous pouvez utiliser une méthode d’implémentation côté client, côté serveur ou hybride pour vos propriétés :
 
-* Côté client uniquement : pour ajouter des modifications à vos pages web ou applications mobiles, vous devez mettre en œuvre le [SDK Web Adobe Experience Platform](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html?lang=fr){target="_blank"} on your website or [Adobe Experience Platform Mobile SDK](https://developer.adobe.com/client-sdks/documentation/){target="_blank"} sur vos applications mobiles.
+* Côté client uniquement : pour ajouter des modifications à vos pages web ou applications mobiles, vous devez mettre en oeuvre l’une des fonctionnalités suivantes : [SDK Web Adobe Experience Platform](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html?lang=fr){target="_blank"} sur votre site web ou [SDK Adobe Experience Platform Mobile](https://developer.adobe.com/client-sdks/documentation/){target="_blank"} sur vos applications mobiles.
 
-* Mode hybride : vous pouvez utiliser l’[API EP Edge Network Server](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/data-collection/interactive-data-collection.html?lang=fr){target="_blank"} to request for personalization server-side; the response is provided to the Adobe Experience Platform Web SDK to render the modifications client-side. Learn more in the Adobe Experience Platform [Edge Network Server API documentation](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/overview.html?lang=fr){target="_blank"}. You can find out more about the hybrid mode and check some implementation samples in [this blog post](https://blog.developer.adobe.com/hybrid-personalization-in-the-adobe-experience-platform-web-sdk-6a1bb674bf41){target="_blank"}.
+* Mode hybride : vous pouvez utiliser la variable [API du serveur Edge Network AEP](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/data-collection/interactive-data-collection.html?lang=fr){target="_blank"} pour demander une personnalisation côté serveur ; la réponse est fournie au SDK Web de Adobe Experience Platform pour effectuer le rendu des modifications côté client. En savoir plus dans Adobe Experience Platform [Documentation de l’API du serveur Edge Network](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/overview.html?lang=fr){target="_blank"}. Vous pouvez en savoir plus sur le mode hybride et consulter quelques exemples de mise en oeuvre dans [billet de blog](https://blog.developer.adobe.com/hybrid-personalization-in-the-adobe-experience-platform-web-sdk-6a1bb674bf41){target="_blank"}.
 
 * Côté serveur : vous pouvez utiliser l’[API AEP Edge Network Server](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/data-collection/interactive-data-collection.html?lang=fr){target="_blank"} pour demander une personnalisation côté serveur. Votre équipe de développement doit gérer la réponse et effectuer le rendu des modifications côté client dans la mise en œuvre de votre application.
 
@@ -50,11 +50,17 @@ Pour que les expériences basées sur le code soient correctement diffusées, le
 
   ![](../web/assets/web-aep-datastream-ajo.png)
 
-* Dans [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=fr){target="_blank"}, make sure you have one merge policy with the **[!UICONTROL Active-On-Edge Merge Policy]** option enabled. To do this, select a policy under the **[!UICONTROL Customer]** > **[!UICONTROL Profiles]** > **[!UICONTROL Merge Policies]** Experience Platform menu. [Learn more](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/ui-guide.html?lang=fr#configure){target="_blank"}
+* Dans [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=fr){target="_blank"}, assurez-vous que vous disposez d’une stratégie de fusion avec la variable **[!UICONTROL Stratégie de fusion Active-On-Edge]** activée. Pour ce faire, sélectionnez une politique sous le menu Experience Platform **[!UICONTROL Client]** > **[!UICONTROL Profils]** > **[!UICONTROL Politiques de fusion]**. [En savoir plus](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/ui-guide.html?lang=fr#configure){target="_blank"}
 
   Cette politique de fusion est utilisée par les canaux entrants [!DNL Journey Optimizer] pour activer et publier correctement les campagnes entrantes sur Edge. [En savoir plus](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/ui-guide.html?lang=fr){target="_blank"}.
 
   ![](../web/assets/web-aep-merge-policy.png)
+
+* Pour résoudre les problèmes liés à la diffusion d’expériences web Journey Optimizer, vous pouvez utiliser la variable **Diffusion Edge** Afficher dans **Adobe Experience Platform Assurance**. Ce module externe vous permet d’examiner en détail les appels de requête, de vérifier si les appels Edge attendus se produisent comme prévu et d’examiner les données de profil, notamment les cartes d’identité, les appartenances aux segments et les paramètres de consentement. En outre, vous pouvez consulter les activités pour lesquelles la requête a rempli les critères et identifier celles pour lesquelles elle n’a pas rempli les critères.
+
+  En utilisant la variable **Diffusion Edge** vous aide à obtenir les informations nécessaires pour comprendre et résoudre efficacement les problèmes liés à vos implémentations entrantes.
+
+  [En savoir plus sur la vue Edge Delivery](https://experienceleague.adobe.com/en/docs/experience-platform/assurance/view/edge-delivery)
 
 ## Conditions préalables à l’expérience de contenu {#experiment-prerequisites}
 

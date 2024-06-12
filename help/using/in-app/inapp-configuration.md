@@ -6,10 +6,10 @@ feature: In App
 level: Intermediate
 keywords: in-app, message, configuration, platform
 exl-id: 469c05f2-652a-4899-a657-ddc4cebe3b42
-source-git-commit: f759c88ed46d8c13e2844c48a71a2634d9507fd8
-workflow-type: ht
-source-wordcount: '820'
-ht-degree: 100%
+source-git-commit: 83e93b18a3f5a8e688ad519d3e1c0d70d91dfc9f
+workflow-type: tm+mt
+source-wordcount: '956'
+ht-degree: 85%
 
 ---
 
@@ -38,7 +38,7 @@ Pour que les messages in-app soit correctement diffusés, les paramètres suivan
 
   ![](assets/inapp_config_6.png)
 
-* Dans [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=fr){target="_blank"}, make sure you have the default merge policy with the **[!UICONTROL Active-On-Edge Merge Policy]** option enabled. To do this, select a policy under the **[!UICONTROL Customer]** > **[!UICONTROL Profiles]** > **[!UICONTROL Merge Policies]** Experience Platform menu. [Learn more](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/ui-guide.html?lang=fr#configure){target="_blank"}
+* Dans [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=fr){target="_blank"}, assurez-vous que vous disposez de la stratégie de fusion par défaut avec la variable **[!UICONTROL Stratégie de fusion Active-On-Edge]** activée. Pour ce faire, sélectionnez une politique sous le menu Experience Platform **[!UICONTROL Client]** > **[!UICONTROL Profils]** > **[!UICONTROL Politiques de fusion]**. [En savoir plus](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/ui-guide.html?lang=fr#configure){target="_blank"}
 
   Cette politique de fusion est utilisée par les canaux entrants [!DNL Journey Optimizer] pour activer et publier correctement les campagnes entrantes sur Edge. [En savoir plus](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/ui-guide.html?lang=fr){target="_blank"}.
 
@@ -47,6 +47,12 @@ Pour que les messages in-app soit correctement diffusés, les paramètres suivan
   >Lors de l’utilisation d’une politique de fusion personnalisée **[!UICONTROL Préférence de jeu de données]**, veillez à ajouter le jeu de données **[!UICONTROL Parcours entrant]** dans la politique de fusion spécifiée.
 
   ![](assets/inapp_config_8.png)
+
+* Pour résoudre les problèmes liés à la diffusion d’expériences mobiles Journey Optimizer, vous pouvez utiliser la variable **Diffusion Edge** Afficher dans **Adobe Experience Platform Assurance**. Ce module externe vous permet d’examiner en détail les appels de requête, de vérifier si les appels Edge attendus se produisent comme prévu et d’examiner les données de profil, notamment les cartes d’identité, les appartenances aux segments et les paramètres de consentement. En outre, vous pouvez consulter les activités pour lesquelles la requête a rempli les critères et identifier celles pour lesquelles elle n’a pas rempli les critères.
+
+  En utilisant la variable **Diffusion Edge** vous aide à obtenir les informations nécessaires pour comprendre et résoudre efficacement les problèmes liés à vos implémentations entrantes.
+
+  [En savoir plus sur la vue Edge Delivery](https://experienceleague.adobe.com/en/docs/experience-platform/assurance/view/edge-delivery)
 
 ## Conditions préalables à la configuration des canaux {#channel-prerequisites}
 
@@ -132,7 +138,7 @@ Découvrez comment ajouter des jeux de données pour les rapports d’expérienc
 >
 >Le jeu de données est utilisé en lecture seule par le système de création de rapports de [!DNL Journey Optimizer] et n’affecte pas la collecte ni l’ingestion de données.
 
-Si vous n’utilisez **pas** les [groupes de champs](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=fr#field-group){target="_blank"} for your dataset schema: `AEP Web SDK ExperienceEvent` and `Consumer Experience Event` (as defined in [this page](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/initial-configuration/configure-schemas.html?lang=fr#add-field-groups){target="_blank"} prédéfinis suivants, assurez-vous d’ajouter les groupes de champs suivants : `Experience Event - Proposition Interactions`, `Application Details`, `Commerce Details` et `Web Details`. Ils participent à la création de rapports d’expérience de contenu de [!DNL Journey Optimizer], car ils effectuent le suivi des expériences et des traitements auxquels chaque profil participe.
+Si vous **not** à l’aide de la prédéfinie suivante : [groupes de champs](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=fr#field-group){target="_blank"} pour votre schéma de jeu de données : `AEP Web SDK ExperienceEvent` et `Consumer Experience Event` (comme défini dans [cette page](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/initial-configuration/configure-schemas.html?lang=fr#add-field-groups){target="_blank"}), veillez à ajouter les groupes de champs suivants : `Experience Event - Proposition Interactions`, `Application Details`, `Commerce Details`, et `Web Details`. Ils participent à la création de rapports d’expérience de contenu de [!DNL Journey Optimizer], car ils effectuent le suivi des expériences et des traitements auxquels chaque profil participe.
 
 >[!NOTE]
 >
