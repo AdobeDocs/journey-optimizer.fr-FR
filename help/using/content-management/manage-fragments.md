@@ -7,15 +7,20 @@ feature: Fragments
 topic: Content Management
 role: User
 level: Beginner, Intermediate
-source-git-commit: 83997271d16e15fb0d7ccdd21aa8ac8b8221a0d5
+exl-id: 1fc708e1-a993-4a2a-809c-c5dc08a4bae1
+source-git-commit: e35f6b8ddc1e7bb8a737b33be200115a3022c99c
 workflow-type: tm+mt
-source-wordcount: '455'
-ht-degree: 94%
+source-wordcount: '518'
+ht-degree: 82%
 
 ---
 
-
 # Gestion des fragments {#manage-fragments}
+
+>[!CONTEXTUALHELP]
+>id="ajo_fragment_statuses"
+>title="Nouveaux statuts de fragments"
+>abstract="Depuis **Version préliminaire** et **En direct** Les statuts ont été introduits avec la version de juin de Journey Optimizer, tous les fragments créés avant cette version ont le statut &quot;Version préliminaire&quot;, même s’ils sont utilisés dans un parcours ou une campagne. Si vous apportez des modifications à ces fragments, vous devez les publier pour les rendre &quot;En ligne&quot; et les propager aux campagnes et parcours associés."
 
 Pour gérer vos fragments, accédez à la liste des fragments à partir du **[!UICONTROL Gestion de contenu]** > **[!UICONTROL Fragments]** menu de gauche.
 
