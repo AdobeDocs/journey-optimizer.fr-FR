@@ -8,10 +8,10 @@ hide: true
 hidefromtoc: true
 topic: Content Management
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: c6daa2aef557943374a3eff005eda34dad214a5d
+source-git-commit: 553743d6d041cd719eb3c8bf7f02288595d8c2a5
 workflow-type: tm+mt
-source-wordcount: '568'
-ht-degree: 23%
+source-wordcount: '640'
+ht-degree: 30%
 
 ---
 
@@ -72,7 +72,7 @@ Cette version apporte les nouvelles fonctionnalités détaillées ci-dessous.
 <tbody>
 <tr>
 <td>
-<p>L’assistant d’IA est une fonctionnalité de l’interface utilisateur qui vous permet de parcourir et de comprendre les concepts d’Adobe et d’obtenir des informations opérationnelles sur votre environnement spécifique. Il est disponible dans plusieurs produits de Adobe Experience Cloud, y compris Adobe Journey Optimizer.</p>
+<p>L’assistant IA est une fonctionnalité de l’interface d’utilisation qui vous permet de parcourir et de comprendre les concepts Adobe et d’obtenir des informations opérationnelles sur votre environnement spécifique. Il est disponible dans plusieurs produits Adobe Experience Cloud, y compris Adobe Journey Optimizer.</p>
 <p>Pour plus d’informations, consultez la <a href="../start/ai-assistant.md">documentation détaillée</a>.</p>
 </td>
 </tr>
@@ -169,6 +169,9 @@ Cette version est fournie avec les améliorations répertoriées ci-dessous.
 * Le délai d’attente global par parcours est passé de 30 à 91 jours.
 * Adobe Journey Optimizer prend désormais en charge les demandes de suppression/accès des informations personnelles.
 * Vous pouvez désormais redimensionner les colonnes de l’inventaire des parcours.
+* **Éditeur d’expression avancé dans la configuration des événements** est désormais GA : vous pouvez désormais utiliser l’éditeur d’expression avancé lors de la configuration d’un événement, ce qui vous permet de définir des expressions plus complexes ou d’utiliser des fonctions dans la condition d’identifiant d’événement. Cette fonctionnalité est publiée en disponibilité limitée pour certaines clientes et certains clients uniquement. [En savoir plus](../event/about-creating.md)
+* **Stratégies de fusion** sont désormais GA : les stratégies de fusion utilisées par un Parcours sont désormais visibles et cohérentes dans tout le parcours. Cette fonctionnalité est publiée en disponibilité limitée pour certaines clientes et certains clients uniquement. [En savoir plus](../building-journeys/journey-gs.md#merge-policies)
+
 
 
 **Campagnes**
@@ -183,7 +186,7 @@ Cette version est fournie avec les améliorations répertoriées ci-dessous.
 **Canal SMS**
 
 * Vous pouvez désormais ajouter des codes courts uniques pour chaque environnement de test avec une seule configuration d’API, ce qui rend le processus plus efficace et plus simple.
-* Vous pouvez maintenant modifier les configurations SMS existantes.
+  <!--* You can now modify existing SMS configurations.-->
 
 **Canal in-app**
 
