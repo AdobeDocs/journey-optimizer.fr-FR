@@ -9,7 +9,7 @@ exl-id: 06fa956a-b500-416e-9d42-b683c328e837
 source-git-commit: 0362cb5af7845333d5657829b073881e1ee3c542
 workflow-type: tm+mt
 source-wordcount: '826'
-ht-degree: 88%
+ht-degree: 97%
 
 ---
 
@@ -26,9 +26,9 @@ ht-degree: 88%
 
 ![Newsletter](../assets/do-not-localize/nl-icon.png) Inscrivez-vous à la [newsletter trimestrielle d’Adobe Journey Optimizer](https://www.adobe.com/subscription/Adobe_Journey_Optimizer_NL.html){target="_blank"} dès aujourd’hui, et recevez les dernières mises à jour produits, les articles les plus intéressants, des cas pratiques, des conseils et bien plus encore, directement dans votre boîte de réception, tous les trimestres.
 
-## Mises à jour de juin 2024
+## Mises à jour de juin 2024
 
-* Vous pouvez désormais utiliser l’assistant Adobe Experience Platform AI dans Adobe Journey Optimizer. [En savoir plus](../start/ai-assistant.md)
+* Vous pouvez désormais utiliser l’assistant IA Adobe Experience Platform dans Adobe Journey Optimizer. [En savoir plus](../start/ai-assistant.md)
 
 * **Prise en charge de plusieurs règles dans la gestion des décisions** - Vous pouvez désormais ajouter jusqu’à 10 règles de limitation pour une offre donnée dans la gestion des décisions. Cela vous permet d’augmenter le niveau de contrôle sur la manière dont les offres sont envoyées. [En savoir plus](../offers/offer-library/add-constraints.md#capping)
 
@@ -62,14 +62,14 @@ Cette version apporte les nouvelles fonctionnalités détaillées ci-dessous.
 <table>
 <thead>
 <tr>
-<th><strong>Personnalisation de la surface des emails - Disponibilité limitée</strong><br/></th>
+<th><strong>Personnalisation de la surface des e-mails - Disponibilité limitée</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Vous pouvez désormais définir des sous-domaines dynamiques et des paramètres d’en-tête personnalisés lors de la création de surfaces de canal de courrier électronique pour une flexibilité accrue et un contrôle accru de vos paramètres de courrier électronique.</p>
-<p>La personnalisation de la surface des emails n’est actuellement disponible que pour un ensemble d’organisations (disponibilité limitée). Pour en bénéficier, contactez votre représentant ou représentante Adobe.</p>
+<p>Vous pouvez désormais définir des sous-domaines dynamiques et des paramètres d’en-tête personnalisés lors de la création de surfaces de canal e-mail pour une meilleure flexibilité et un meilleur contrôle de vos paramètres d’e-mail.</p>
+<p>La personnalisation de la surface des e-mails n’est actuellement disponible que pour un ensemble donné d’organisations (disponibilité limitée). Pour en bénéficier, contactez votre représentant ou représentante Adobe.</p>
 <p>Pour plus d’informations, consultez la <a href="../email/surface-personalization.md">documentation détaillée</a>.</p>
 </td>
 </tr>
@@ -157,7 +157,7 @@ De la version bêta à cette version, les améliorations suivantes ont été ajo
 
   >[!AVAILABILITY]
   >
-  >Cette fonctionnalité est actuellement en version bêta et disponible uniquement pour les clientes et clients bêta. Pour rejoindre le programme bêta, contactez votre représentant Adobe.
+  >Cette fonctionnalité est actuellement en version bêta et disponible uniquement pour les clientes et clients bêta. Pour rejoindre le programme bêta, contactez votre représentant ou représentante Adobe.
 
 <!--
 **Audiences**
