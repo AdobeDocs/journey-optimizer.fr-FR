@@ -8,9 +8,9 @@ level: Beginner
 keywords: in-app, message, conception, mise en forme
 exl-id: 7d7aa721-96aa-4ebc-a51c-e693f893f34f
 source-git-commit: 8a1ec5acef067e3e1d971deaa4b10cffa6294d75
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1154'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -124,7 +124,7 @@ Pour composer votre message, saisissez le contenu dans les champs **[!UICONTROL 
 
 ![](assets/in_app_web_design_4.png)
 
-Utilisez l’icône **[!UICONTROL Personnalisation]** pour ajouter de la personnalisation. En savoir plus sur la personnalisation dans l’éditeur de personnalisation de Adobe Journey Optimizer [dans cette section](../personalization/personalize.md).
+Utilisez l’icône **[!UICONTROL Personnalisation]** pour ajouter de la personnalisation. En savoir plus sur la personnalisation avec l’éditeur de personnalisation d’Adobe Journey Optimizer [dans cette section](../personalization/personalize.md).
 
 +++Plus d’options avec Formatage avancé
 

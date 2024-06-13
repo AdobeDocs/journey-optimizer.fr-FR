@@ -7,9 +7,9 @@ role: User
 level: Beginner, Intermediate
 exl-id: 213511b4-7556-4a25-aa23-b50acd11cd34
 source-git-commit: 8a1ec5acef067e3e1d971deaa4b10cffa6294d75
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '954'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -122,7 +122,7 @@ Pour ajouter une modification de type **Page`<head>`**, suivez les étapes ci-de
 
    ![](assets/web-designer-add-modification-head-advanced.png)
 
-   Vous pouvez utiliser la variable [!DNL Journey Optimizer] éditeur de personnalisation avec toutes ses fonctionnalités de personnalisation et de création. [En savoir plus](../personalization/personalization-build-expressions.md)
+   Vous pouvez utiliser l’éditeur de personnalisation de [!DNL Journey Optimizer] et toutes ses fonctionnalités de personnalisation et de création. [En savoir plus](../personalization/personalization-build-expressions.md)
 
 #### Exemples de code personnalisé {#custom-code-examples}
 

@@ -1,8 +1,8 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Activité d'attente
-description: Découvrez comment configurer l’activité d’attente
+title: Activité Attente
+description: Découvrir comment configurer l’activité Attente
 feature: Journeys, Activities
 topic: Content Management
 role: User
@@ -10,25 +10,25 @@ level: Intermediate
 keywords: attente, activité, parcours, suivant, zone de travail
 exl-id: 7268489a-38c1-44da-b043-f57aaa12d7d5
 source-git-commit: 846c601c02a28119dddb3029e5273cfccf141a2c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '567'
-ht-degree: 26%
+ht-degree: 100%
 
 ---
 
-# Activité d&#39;attente {#wait-activity}
+# Activité Attente {#wait-activity}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_wait"
->title="Activité d&#39;attente"
+>title="Activité Attente"
 >abstract="Si vous souhaitez observer un temps d&#39;attente avant d&#39;exécuter l&#39;activité suivante dans le chemin, vous pouvez utiliser une activité Attente. Cela vous permet de définir le moment d&#39;exécution de l&#39;activité suivante. Deux options sont disponibles : durée et personnalisation."
 
-Vous pouvez utiliser une **[!UICONTROL Attente]** pour définir une durée avant d’exécuter l’activité suivante.  La durée d’attente maximale est **29 jours**.
+Vous pouvez utiliser une activité **[!UICONTROL Attente]** pour définir une durée avant l’exécution de l’activité suivante.  La durée d’attente maximale est de **29 jours**.
 
-Vous pouvez définir deux types de **Attente** activité :
+Vous pouvez définir deux types d’activité **Attente** :
 
-* Attente basée sur une durée relative. [En savoir plus](#duration)
-* Date personnalisée, à l’aide de fonctions pour la calculer. [En savoir plus](#custom)
+* Attente en fonction d’une durée relative. [En savoir plus](#duration)
+* Date personnalisée, avec des fonctions pour la calculer. [En savoir plus](#custom)
 
 <!--
 * [Email send time optimization](#email_send_time_optimization)
@@ -37,25 +37,25 @@ Vous pouvez définir deux types de **Attente** activité :
 
 ## Recommandations {#wait-recommendations}
 
-### Activités d’attente multiples {#multiple-wait-activities}
+### Activités Attente multiples {#multiple-wait-activities}
 
-Lorsque vous utilisez plusieurs **Attente** activités dans un parcours, sachez que le délai d’expiration du parcours global est de 30 jours, ce qui signifie que les profils sont toujours abandonnés sur le parcours maximum 30 jours après leur entrée. En savoir plus sur [cette page](../building-journeys/journey-gs.md#global_timeout).
+Lorsque vous utilisez plusieurs activités **Attente** dans un parcours, gardez à l’esprit que le délai d’expiration global du parcours est de 30 jours, ce qui signifie qu’un profil quittera toujours le parcours au maximum 30 jours après y être entré. En savoir plus sur [cette page](../building-journeys/journey-gs.md#global_timeout).
 
-Un individu peut saisir une **Attente** activité uniquement s’il leur reste suffisamment de temps dans le parcours pour terminer la durée d’attente avant le délai d’parcours de 30 jours. Par exemple, si vous ajoutez deux **Attente** est définie sur 20 jours, le système détecte que la seconde variable **Attente** l’activité se termine après le délai d’attente de 30 jours. La seconde **Attente** L’activité sera donc ignorée et l’individu quittera le parcours avant de le démarrer. Dans cet exemple, la cliente ou le client restera 20 jours au total dans le parcours.
+Une personne ne peut entrer dans une activité **Attente** que si elle dispose de suffisamment de temps restant dans le parcours pour compléter la durée d’attente avant le délai d’expiration de 30 jours du parcours. Par exemple, si vous ajoutez deux activités **Attente** définies sur 20 jours chacune, le système détecte que la seconde activité **Attente** se termine après le délai d’expiration de 30 jours. La seconde activité **Attente** est donc ignorée et la personne quitte le parcours avant de la commencer. Dans cet exemple, la personne restera 20 jours au total dans le parcours.
 
-### Attente et rentrée {#wait-re-entrance}
+### Attente et reprise {#wait-re-entrance}
 
-Une bonne pratique pour ne pas utiliser **Attente** activités pour bloquer la rentrée. Utilisez plutôt l’option **Autoriser la reprise** au niveau des propriétés du parcours. En savoir plus sur [cette page](../building-journeys/journey-gs.md#entrance).
+La bonne pratique est de ne pas utiliser d’activités **Attente** pour bloquer une reprise. Utilisez plutôt l’option **Autoriser la reprise** au niveau des propriétés du parcours. En savoir plus sur [cette page](../building-journeys/journey-gs.md#entrance).
 
-### Mode d’attente et de test {#wait-test-modd}
+### Attente et mode test {#wait-test-modd}
 
-En mode test, la variable **[!UICONTROL Temps d’attente en test]** vous permet de définir l’heure à laquelle chaque **Attente** l’activité dure. La valeur par défaut est de 10 secondes. Vous obtiendrez ainsi rapidement les résultats du test. En savoir plus sur [cette page](../building-journeys/testing-the-journey.md).
+En mode test, le paramètre **[!UICONTROL Durée d’attente en test]** vous permet de définir la durée de chaque activité **Attente**. La valeur par défaut est de 10 secondes. Vous obtiendrez ainsi rapidement les résultats du test. En savoir plus sur [cette page](../building-journeys/testing-the-journey.md).
 
 ## Configuration {#wait-configuration}
 
-### Durée de l&#39;attente {#duration}
+### Durée de l’attente {#duration}
 
-Sélectionnez la variable **Durée** type pour définir la durée relative de l’attente avant l’exécution de l’activité suivante. La durée maximale est **29 jours**.
+Sélectionnez le type de **Durée** pour définir la durée relative de l’attente avant l’exécution de l’activité suivante. La durée maximum est de **29 jours**.
 
 ![Définition de la durée d’attente](assets/journey55.png)
 
@@ -70,20 +70,20 @@ Select the date for the execution of the next activity.
 
 ### Attente personnalisée {#custom}
 
-Sélectionnez la variable **Personnalisé** saisissez pour définir une date personnalisée à l’aide d’une expression avancée basée sur un champ provenant d’un événement ou d’une réponse d’action personnalisée. Vous ne pouvez pas définir directement une durée relative, par exemple, 7 jours, mais vous pouvez utiliser des fonctions pour la calculer si nécessaire (par exemple, 2 jours après l’achat).
+Sélectionnez le type **Personnalisée** pour définir une date personnalisée à l’aide d’une expression avancée basée sur un champ provenant d’un événement ou d’une réponse d’action personnalisée. Vous ne pouvez pas définir directement une durée relative (par exemple, 7 jours) mais vous pouvez utiliser des fonctions pour la calculer si nécessaire (par exemple, 2 jours après l’achat).
 
 ![Définition d’une attente personnalisée avec une expression](assets/journey57.png)
 
-L’expression de l’éditeur doit fournir une `dateTimeOnly` format. Consultez [cette page](expression/expressionadvanced.md). Pour plus d’informations sur le format dateTimeOnly, reportez-vous à la section [cette page](expression/data-types.md).
+L’expression figurant dans l’éditeur doit fournir un format `dateTimeOnly`. Consultez [cette page](expression/expressionadvanced.md). Pour plus d’informations sur le format dateTimeOnly, consultez [cette page](expression/data-types.md).
 
-Il est recommandé d’utiliser des dates personnalisées spécifiques à vos profils et d’éviter d’utiliser la même date pour tous. Par exemple, ne définissez pas `toDateTimeOnly('2024-01-01T01:11:00Z')` mais `toDateTimeOnly(@event{Event.productDeliveryDate})` qui est spécifique à chaque profil. Gardez à l’esprit que l’utilisation de dates fixes peut entraîner des problèmes d’exécution de votre parcours.
+La bonne pratique consiste à utiliser des dates personnalisées spécifiques à vos profils, et d’éviter d’utiliser la même date pour tous les profils. Par exemple, ne définissez pas `toDateTimeOnly('2024-01-01T01:11:00Z')`, mais plutôt `toDateTimeOnly(@event{Event.productDeliveryDate})`, qui est spécifique à chaque profil. Gardez à l’esprit que l’utilisation de dates fixes peut entraîner des problèmes d’exécution de votre parcours.
 
 
 >[!NOTE]
 >
->Vous pouvez utiliser une `dateTimeOnly` expression ou utilisation d’une fonction pour effectuer une conversion en `dateTimeOnly`. Par exemple : `toDateTimeOnly(@event{Event.offerOpened.activity.endTime})`, le champ de l’événement correspondant au formulaire 2023-08-12T09:46:06Z.
+>Vous pouvez tirer parti d’une expression `dateTimeOnly` ou utiliser une fonction pour effectuer une conversion vers le format `dateTimeOnly`. Par exemple : `toDateTimeOnly(@event{Event.offerOpened.activity.endTime})`, le champ de l’événement se présentant sous la forme 2023-08-12T09:46:06Z.
 >
->La définition du **fuseau horaire** est attendue dans les propriétés de votre parcours. Par conséquent, à partir de l’interface utilisateur, il n’est pas possible de pointer directement vers un horodatage ISO-8601 complet associant l’heure et le décalage du fuseau horaire comme 2023-08-12T09:46:06.982-05 [En savoir plus](../building-journeys/timezone-management.md).
+>La définition du **fuseau horaire** est attendue dans les propriétés de votre parcours. Par conséquent, à partir de l’interface d’utilisation, il n’est actuellement pas possible de pointer directement vers un horodatage ISO-8601 complet associant l’heure et le fuseau horaire, tel que 2023-08-12T09:46:06.982-05. [En savoir plus](../building-journeys/timezone-management.md).
 
 
 Pour vérifier que l’activité d’attente fonctionne comme prévu, vous pouvez utiliser des événements d’étape. [En savoir plus](../reports/query-examples.md#common-queries).

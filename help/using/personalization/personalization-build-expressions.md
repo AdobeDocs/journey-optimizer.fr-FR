@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: A propos de l'éditeur de personnalisation
+title: À propos de l’éditeur de personnalisation
 description: Découvrez comment utiliser l’éditeur de personnalisation.
 feature: Personalization
 topic: Personalization
@@ -10,22 +10,22 @@ level: Intermediate
 keywords: expression, éditeur, à propos, commencer
 exl-id: 1ac2a376-a3a8-41ae-9b04-37886697f0fc
 source-git-commit: 8a1ec5acef067e3e1d971deaa4b10cffa6294d75
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '453'
-ht-degree: 72%
+ht-degree: 100%
 
 ---
 
-# Prise en main de l’éditeur de personnalisation {#build-personalization-expressions}
+# Commencer avec l’éditeur de personnalisation {#build-personalization-expressions}
 
 >[!CONTEXTUALHELP]
 >id="ajo_perso_editor"
->title="A propos de l&#39;éditeur de personnalisation"
->abstract="L’éditeur de personnalisation vous permet de sélectionner, organiser, personnaliser et valider toutes les données afin de créer une personnalisation personnalisée de votre contenu."
+>title="À propos de l’éditeur de personnalisation"
+>abstract="L’éditeur de personnalisation vous permet de sélectionner, organiser, personnaliser et valider toutes les données afin de personnaliser votre contenu."
 
-L’éditeur de personnalisation est l’élément central de la personnalisation dans [!DNL Journey Optimizer]. Il est disponible dans tous les contextes où vous devez définir une personnalisation (par exemple, dans les emails, les notifications push et les offres).
+L’éditeur de personnalisation constitue lʼélément central de la personnalisation dans [!DNL Journey Optimizer]. Il est disponible dans tous les contextes où vous devez définir une personnalisation (par exemple, dans les emails, les notifications push et les offres).
 
-Dans l’interface de l’éditeur de personnalisation, vous allez sélectionner, organiser, personnaliser et valider toutes les données afin de créer une personnalisation personnalisée de votre contenu.
+Dans l’interface de l’éditeur de personnalisation, vous sélectionnez, organisez, personnalisez et validez toutes les données afin de personnaliser votre contenu.
 
 ![](assets/perso_ee1.png)
 
@@ -53,7 +53,7 @@ De plus, vous pouvez définir un texte de remplacement par défaut qui s’affic
 
 ![](assets/attribute-details.png)
 
-Dans l&#39;exemple suivant, l&#39;éditeur de personnalisation vous permet de sélectionner les profils dont l&#39;anniversaire est la veille, puis de compléter la personnalisation en insérant une offre spécifique correspondant à ce jour.
+Dans l’exemple suivant, l’éditeur de personnalisation vous permet de sélectionner les profils dont l’anniversaire est aujourd’hui, puis de terminer la personnalisation en insérant une offre spécifique correspondant à cette journée.
 
 ![](assets/perso_ee2.png)
 

@@ -10,9 +10,9 @@ level: Intermediate
 keywords: expression, éditeur, condition, règles
 exl-id: 246a4a55-059e-462c-ac1e-43b90f4abda4
 source-git-commit: 8a1ec5acef067e3e1d971deaa4b10cffa6294d75
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '573'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
@@ -28,13 +28,13 @@ Les règles conditionnelles sont créées à l’aide de l’éditeur de personn
 
 ## Accéder au créateur de règles conditionnelles {#access}
 
-Les règles conditionnelles sont créées à partir de la variable **[!UICONTROL Conditions]** dans l’éditeur de personnalisation, accessible soit :
+Les règles conditionnelles sont créées à partir du menu **[!UICONTROL Conditions]** dans l’éditeur de personnalisation, accessible dans l’un des emplacements suivants :
 
 * dans le concepteur d’e-mail, lors de l’activation d’un contenu dynamique pour un composant présent dans le corps du message. [Découvrez comment ajouter du contenu dynamique dans les e-mails](dynamic-content.md#emails)
 
   ![](assets/conditions-access-email.png)
 
-* Dans n’importe quel champ où vous pouvez ajouter de la personnalisation à l’aide de la fonction [éditeur de personnalisation](personalization-build-expressions.md).
+* Dans tout champ que vous pouvez personnaliser à l’aide de l’[éditeur de personnalisation](personalization-build-expressions.md).
 
   ![](assets/conditions-access-editor.png)
 
@@ -52,7 +52,7 @@ Les règles conditionnelles sont créées à partir de la variable **[!UICONTROL
 
 Les principales étapes de création d’une règle conditionnelle sont les suivantes :
 
-1. Accédez au **[!UICONTROL Conditions]** dans l’éditeur de personnalisation ou le Concepteur d’email, puis cliquez sur **[!UICONTROL Créer]**.
+1. Accédez au menu **[!UICONTROL Conditions]** dans l’éditeur de personnalisation ou dans le concepteur d’e-mail, puis cliquez sur **[!UICONTROL Créer]**.
 
 1. Créez la règle conditionnelle selon vos besoins. Pour ce faire, glissez et déposez les attributs de votre choix depuis le menu de gauche vers la zone de travail, puis organisez-les.
 

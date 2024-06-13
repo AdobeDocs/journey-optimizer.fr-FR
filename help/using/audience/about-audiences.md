@@ -10,9 +10,9 @@ level: Beginner
 mini-toc-levels: 1
 exl-id: 10d2de34-23c1-4a5e-b868-700b462312eb
 source-git-commit: 8a1ec5acef067e3e1d971deaa4b10cffa6294d75
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1855'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -86,7 +86,7 @@ Une fois les attributs d’enrichissement ajoutés à un groupe de champs, vous 
 
   ![](assets/audience-enrichment-attribute-condition.png){width="70%" zoomable="yes"}
 
-* **Personnaliser vos messages** dans les parcours ou les campagnes en ajoutant les attributs d’enrichissement de l’audience ciblée dans l’éditeur de personnalisation. [Découvrez comment utiliser l’éditeur de personnalisation](../personalization/personalization-build-expressions.md)
+* **Personnalisez vos messages** dans les parcours ou les campagnes en ajoutant les attributs d’enrichissement de l’audience ciblée dans l’éditeur de personnalisation. [Découvrir comment utiliser l’éditeur de personnalisation](../personalization/personalization-build-expressions.md)
 
   ![](assets/audience-enrichment-attribute-perso.png){width="70%" zoomable="yes"}
 
@@ -120,7 +120,7 @@ La segmentation par lots est une alternative à la segmentation par flux qui tra
 
 +++ Segmentation Edge
 
-La segmentation Edge permet d’évaluer instantanément les segments dans Adobe Experience Platform. [sur le bord](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=fr){target="_blank"}, activation des cas d’utilisation de la personnalisation de la même page et de la page suivante. Actuellement, seuls certains types de requête peuvent être évalués avec la segmentation Edge. [En savoir plus](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/edge-segmentation.html?lang=fr#query-types){target="_blank"}
+La segmentation Edge permet d’évaluer les segments dans Adobe Experience Platform de manière instantanée [sur Edge](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=fr){target="_blank"}, ce qui permet d’obtenir des cas d’utilisation de personnalisation de même page et de page suivante. Actuellement, seuls certains types de requête peuvent être évalués avec la segmentation Edge. [En savoir plus](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/edge-segmentation.html?lang=fr#query-types){target="_blank"}
 
 +++
 
@@ -175,7 +175,7 @@ Les audiences issues de la composition d’audience et du chargement personnalis
   >
   >Pour les audiences de chargement personnalisé, si l’option « Lecture incrémentielle » est activée dans un parcours récurrent, les profils ne sont récupérés que lors de la première périodicité, car ces audiences sont fixes.
 
-En outre, ces audiences peuvent être utilisées dans l’éditeur de personnalisation pour personnaliser vos messages dans les parcours et les campagnes. [Découvrez comment utiliser l’éditeur de personnalisation](../personalization/personalization-build-expressions.md)
+Ces audiences peuvent également être utilisées dans l’éditeur de personnalisation pour personnaliser vos messages dans les parcours et les campagnes. [Découvrir comment utiliser l’éditeur de personnalisation](../personalization/personalization-build-expressions.md)
 
 +++
 

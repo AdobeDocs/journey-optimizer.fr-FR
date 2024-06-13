@@ -10,9 +10,9 @@ level: Intermediate
 keywords: expression, éditeur, dynamique, contenu
 exl-id: 639ad7df-0d0f-4c9b-95d1-f3101267aae2
 source-git-commit: 8a1ec5acef067e3e1d971deaa4b10cffa6294d75
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '564'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 91%
 
 Adobe Journey Optimizer vous permet d’utiliser des règles conditionnelles créées dans la bibliothèque pour ajouter du contenu dynamique à vos messages.
 
-Le contenu dynamique peut être créé dans n&#39;importe quel champ où vous pouvez ajouter de la personnalisation à l&#39;aide de l&#39;éditeur de personnalisation. Cela inclut l’objet, les liens, le contenu des notifications push ou les représentations des offres de type texte. [En savoir plus sur les contextes de personnalisation](personalization-contexts.md)
+Du contenu dynamique peut être créé dans n’importe quel champ que vous pouvez personnaliser à l’aide de l’éditeur de personnalisation. Cela inclut l’objet, les liens, le contenu des notifications push ou les représentations des offres de type texte. [En savoir plus sur les contextes de personnalisation](personalization-contexts.md)
 
 De plus, vous pouvez utiliser des règles conditionnelles dans le concepteur d’e-mails pour créer plusieurs variantes d’un composant de contenu.
 
@@ -80,7 +80,7 @@ Les étapes de création de variantes d’un composant de contenu dans le concep
 
    ![](assets/conditions-rename.png)
 
-1. Configurez l’affichage du composant si la règle est respectée lors de l’envoi du message. Dans cet exemple, nous allons afficher le texte en français s’il s’agit de la langue préférée du destinataire.
+1. Configurez la manière dont le composant doit s’afficher si la règle est respectée lors de l’envoi du message. Dans cet exemple, nous allons afficher le texte en français s’il s’agit de la langue préférée du destinataire.
 
    ![](assets/conditions-design.png)
 

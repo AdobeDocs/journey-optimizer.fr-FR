@@ -9,9 +9,9 @@ level: Beginner, Intermediate
 keywords: parcours, découverte, commencer
 exl-id: 73cfd48b-72e6-4b72-bbdf-700a32a34bda
 source-git-commit: e34c39c02f71361277f28b1a116a54390875f93d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '610'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
@@ -70,7 +70,7 @@ Cas d’utilisation commerciale :
 Cas d’utilisation technique :
 
 * [Transmettre des collections de manière dynamique à l’aide d’actions personnalisées](collections.md)
-* [Limiter le débit avec les sources de données externes et les actions personnalisées](limit-throughput.md)
+* [Limiter le débit avec des sources de données externes et des actions personnalisées](limit-throughput.md)
 
 ## Versions de parcours{#journey-versions}
 
@@ -86,7 +86,7 @@ Lorsque vous recherchez un parcours, les versions les plus récentes apparaissen
 
 Si vous devez apporter des modifications à un parcours actif, vous devez en créer une nouvelle version.
 
-1. Ouvrez la dernière version de votre parcours en ligne, puis cliquez sur **[!UICONTROL Création d’une version]** et confirmez.
+1. Ouvrez la dernière version de votre parcours actif, puis cliquez sur **[!UICONTROL Créer une version]**, puis confirmez.
 
    ![](assets/journeyversions2.png)
 
@@ -94,9 +94,9 @@ Si vous devez apporter des modifications à un parcours actif, vous devez en cr�
    >
    >Vous ne pouvez créer une version qu&#39;à partir de la dernière version d&#39;un parcours.
 
-1. Effectuez vos modifications, cliquez sur **[!UICONTROL Publier]** et confirmez.
+1. Apportez vos modifications, cliquez sur **[!UICONTROL Publier]** et confirmez.
 
-Dès la publication du parcours, les individus commencent à accéder à la dernière version du parcours. Les clients qui ont déjà accédé à une version antérieure y restent jusqu&#39;à la fin du parcours. S’ils entrent à nouveau le même parcours par la suite, ils accéderont à la dernière version.
+Dès la publication du parcours, les personnes vont accéder à la dernière version du parcours. Les clients qui ont déjà accédé à une version antérieure y restent jusqu&#39;à la fin du parcours. Si celles-ci entrent à nouveau dans le même parcours par la suite, elles accéderont à la dernière version.
 
 Les versions de parcours peuvent être arrêtées individuellement. Toutes les versions de parcours portent le même nom.
 

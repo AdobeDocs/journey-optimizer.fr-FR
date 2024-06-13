@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 exl-id: c5bae757-a109-45f8-bf8d-182044a73cca
 source-git-commit: daba85693c4733333d6a62ebb5c1f290dbcb1511
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1066'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -58,7 +58,7 @@ Découvrez comment gérer les désinscriptions des e-mails et des SMS de Journey
 
 >[!NOTE]
 >
->Dans [!DNL Journey Optimizer], le consentement est géré par le [Schéma de consentement](https://experienceleague.adobe.com/docs/experience-platform/xdm/field-groups/profile/consents.html?lang=fr){target="_blank"} d’Experience Platform. Par défaut, la valeur du champ de consentement est vide et traitée comme un consentement pour recevoir vos communications. Vous pouvez modifier cette valeur par défaut lors de l’intégration à l’une des valeurs possibles répertoriées. [here](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/consents.html?lang=fr#choice-values){target="_blank"}.
+>Dans [!DNL Journey Optimizer], le consentement est géré par le [Schéma de consentement](https://experienceleague.adobe.com/docs/experience-platform/xdm/field-groups/profile/consents.html?lang=fr){target="_blank"} d’Experience Platform. Par défaut, la valeur du champ de consentement est vide et traitée comme un consentement pour recevoir vos communications. Vous pouvez modifier cette valeur par défaut lors de l’intégration à l’une des valeurs possibles répertoriées [ici](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/consents.html?lang=fr#choice-values){target="_blank"}.
 
 ## Implémenter le consentement de personnalisation {#opt-out-personalization}
 
@@ -98,9 +98,9 @@ Si un utilisateur ou une utilisatrice :
 >
 >Le consentement pour utiliser les données de profil dans la [modélisation des données](../offers/ranking/ai-models.md) n’est pas encore pris en charge dans [!DNL Journey Optimizer].
 
-### Dans l&#39;éditeur de personnalisation {#opt-out-expression-editor}
+### Dans l’éditeur de personnalisation {#opt-out-expression-editor}
 
-La variable [éditeur de personnalisation](../personalization/personalization-build-expressions.md) elle-même n’effectue aucune vérification ou application du consentement, car elle n’est pas impliquée dans la diffusion des messages.
+L’[éditeur de personnalisation](../personalization/personalization-build-expressions.md) lui-même n’effectue aucune vérification ou application du consentement, car il n’est pas impliqué dans la diffusion des messages.
 
 Cependant, l’utilisation de libellés de contrôle d’accès basés sur le droit permet de restreindre les champs pouvant être utilisés pour la personnalisation. L’[aperçu du message](../content-management/preview.md) et le [service de rendu des e-mails](../content-management/rendering.md) masquera les champs identifiés avec des informations sensibles.
 

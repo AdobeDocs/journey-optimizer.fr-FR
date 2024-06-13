@@ -10,15 +10,15 @@ level: Intermediate
 keywords: expression, éditeur, contexte, personnalisation
 exl-id: fe39570b-cbd2-4b24-af10-e12990a9a885
 source-git-commit: 8a1ec5acef067e3e1d971deaa4b10cffa6294d75
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '283'
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 
 # Contextes de personnalisation{#personalization-areas}
 
-Le contenu et l&#39;affichage des messages diffusés par [!DNL Journey Optimizer] peuvent être personnalisées de plusieurs manières différentes. Dans chaque champ contenant l&#39;icône de l&#39;éditeur, vous pouvez ouvrir l&#39;éditeur de personnalisation (également appelé éditeur de personnalisation) et définir la personnalisation.
+Le contenu et l’affichage des messages diffusés par [!DNL Journey Optimizer] peuvent être personnalisés de plusieurs façons différentes. Dans tous les champs qui comportent l’icône de l’éditeur, vous pouvez ouvrir l’éditeur de personnalisation et définir la personnalisation.
 
 ![](assets/perso_icon.png)
 

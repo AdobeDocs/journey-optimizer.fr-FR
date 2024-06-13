@@ -1,8 +1,8 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Utilisation des données Adobe Experience Platform pour la personnalisation (version bêta)
-description: Découvrez comment utiliser les données Adobe Experience Platform pour la personnalisation.
+title: Utiliser les données Adobe Experience Platform pour la personnalisation (version bêta)
+description: Découvrez comment utiliser les données Adobe Experience Platform pour la personnalisation.
 feature: Personalization, Rules
 topic: Personalization
 role: Data Engineer
@@ -12,36 +12,36 @@ hidefromtoc: true
 hide: true
 exl-id: 2fc10fdd-ca9e-46f0-94ed-2d7ea4de5baf
 source-git-commit: d2bebc33b6afde51cef12049cfafc8217c377f9d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '571'
-ht-degree: 2%
+ht-degree: 100%
 
 ---
 
-# Utilisation des données Adobe Experience Platform pour la personnalisation (version bêta) {#aep-data}
+# Utiliser les données Adobe Experience Platform pour la personnalisation (version bêta) {#aep-data}
 
 >[!AVAILABILITY]
 >
->Cette fonctionnalité est actuellement disponible uniquement en version bêta privée.
+>Cette fonctionnalité est publiée sous forme de version bêta privée.
 >
->Pour l’instant, il n’est disponible que pour le **canal email** et à des fins de test dans l’environnement de test hors production que vous avez fourni à Adobe et pour les jeux de données demandés pour la version bêta.
+>Pour l’instant, elle n’est disponible que pour le **canal e-mail** et à des fins de test dans le sandbox hors production que vous avez fourni à Adobe et pour les jeux de données requis pour la version bêta.
 
-Journey Optimizer vous permet d’exploiter les données de Adobe Experience Platform dans l’éditeur de personnalisation pour [personnaliser votre contenu ;](../personalization/personalize.md). Les étapes sont les suivantes :
+Journey Optimizer vous permet d’utiliser les données d’Adobe Experience Platform dans l’éditeur de personnalisation pour [personnaliser votre contenu](../personalization/personalize.md). Les étapes sont les suivantes :
 
-1. Ouvrez l’éditeur de personnalisation, disponible dans chaque contexte où vous pouvez définir la personnalisation, par exemple les messages. [Découvrez comment utiliser l’éditeur de personnalisation](../personalization/personalization-build-expressions.md)
+1. Ouvrez l’éditeur de personnalisation, disponible dans tout contexte où vous pouvez définir une personnalisation, tel que les messages. [Découvrir comment utiliser l’éditeur de personnalisation](../personalization/personalization-build-expressions.md)
 
-1. Accédez à la liste des fonctions d’assistance et ajoutez le **datasetLookup** fonction d’assistance au volet de code.
+1. Accédez à la liste des fonctions d’assistance et ajoutez la fonction d’assistance **datasetLookup** au volet de code.
 
    ![](assets/aep-data-helper.png)
 
-1. Cette fonction fournit une syntaxe prédéfinie pour vous permettre d’appeler des champs à partir de vos jeux de données Adobe Experience Platform. La syntaxe se présente comme suit :
+1. Cette fonction fournit une syntaxe prédéfinie pour vous permettre d’appeler des champs à partir de vos jeux de données Adobe Experience Platform. La syntaxe se présente comme suit :
 
    ```
    {{entity.datasetId="datasetId" id="key" result="store"}}
    ```
 
    * **entity.datasetId** est l’identifiant du jeu de données que vous utilisez,
-   * **id** est le champ utilisé comme identité principale dans le jeu de données,
+   * **id** est le champ utilisé comme identité principale dans le jeu de données.
 
      >[!NOTE]
      >
@@ -49,55 +49,55 @@ Journey Optimizer vous permet d’exploiter les données de Adobe Experience Pla
 
    * **result** est un nom arbitraire que vous devez fournir pour référencer toutes les valeurs de champ que vous allez récupérer du jeu de données. Cette valeur sera utilisée dans votre code pour appeler chaque champ.
 
-   +++Où récupérer un identifiant de jeu de données ?
+   +++Où récupérer un identifiant de jeu de données ?
 
-   Les identifiants de jeu de données peuvent être récupérés dans l’interface utilisateur de Adobe Experience Platform. Découvrez comment utiliser des jeux de données dans le [Documentation Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/catalog/datasets/user-guide#view-datasets){target="_blank"}.
+   Les identifiants de jeu de données peuvent être récupérés dans l’interface d’utilisation d’Adobe Experience Platform. Découvrez comment utiliser les jeux de données dans la [documentation d’Adobe Experience Platform](https://experienceleague.adobe.com/fr/docs/experience-platform/catalog/datasets/user-guide#view-datasets){target="_blank"}.
 
    ![](assets/aep-data-dataset.png)
 
 +++
 
-   +++Comment identifier un champ d’identité principal dans un jeu de données ?
+   +++Comment identifier un champ d’identité principale dans un jeu de données ?
 
-   Le champ qui a été défini comme identité principale d’un jeu de données donné se trouve dans le schéma lié au jeu de données. Découvrez comment utiliser les champs d’identité dans le [Documentation Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/ui/fields/identity){target="_blank"}.
+   Le champ qui a été défini comme identité principale d’un jeu de données spécifique se trouve dans le schéma lié au jeu de données. Découvrez comment utiliser les champs d’identité dans la [Documentation Adobe Experience Platform](https://experienceleague.adobe.com/fr/docs/experience-platform/xdm/ui/fields/identity){target="_blank"}.
 
    ![](assets/aep-data-identity.png)
 
 +++
 
-1. Adaptez la syntaxe à vos besoins. Dans cet exemple, nous allons récupérer les données relatives aux vols des passagers. La syntaxe se présente comme suit :
+1. Adaptez la syntaxe à vos besoins. Dans cet exemple, nous allons récupérer les données relatives aux vols des passagères et passagers. La syntaxe se présente comme suit :
 
    ```
    {{entity.datasetId="1234567890abcdtId" id="profile.personalEmail.address" result="flight"}}
    ```
 
-   * Nous travaillons dans le jeu de données dont l’identifiant est &quot;1234567890abcdtId&quot;,
+   * Nous travaillons dans le jeu de données dont l’identifiant est « 1234567890abcdtId »,
    * Le champ utilisé comme clé primaire dans ce jeu de données est l’adresse électronique,
-   * Nous souhaitons inclure toutes les valeurs de champ sous la référence &quot;vol&quot;.
+   * Nous souhaitons inclure toutes les valeurs de champ sous la référence « vol ».
 
-1. Une fois que la syntaxe à appeler dans le jeu de données Adobe Experience Platform a été configurée, vous pouvez spécifier les champs que vous souhaitez récupérer. La syntaxe se présente comme suit :
+1. Une fois que la syntaxe à appeler dans le jeu de données Adobe Experience Platform a été configurée, vous pouvez spécifier les champs à récupérer. La syntaxe se présente comme suit :
 
    ```
    {{result.fieldId}}
    ```
 
-   * **result** est la valeur que vous avez attribuée à la variable **result** du paramètre **MultiEntity** fonction d’assistance. Dans cet exemple, &quot;flight&quot;.
-   * **fieldID** est l’identifiant du champ que vous souhaitez récupérer. Cet identifiant est visible dans l’interface utilisateur de Adobe Experience Platform lors de la navigation dans votre jeu de données. Développez la section ci-dessous pour afficher un exemple :
+   * **result** est la valeur que vous avez attribuée au paramètre **result** dans la fonction d’assistance **MultiEntity**. Dans cet exemple, « vol ».
+   * **fieldID** est l’identifiant du champ à récupérer. Cet identifiant est visible dans l’interface d’utilisation d’Adobe Experience Platform lors de la navigation dans votre jeu de données. Développez la section ci-dessous pour afficher un exemple :
 
-     +++Où récupérer un identifiant de champ ?
+     +++Où récupérer un identifiant de champ ?
 
-     Les ID de champs peuvent être récupérés lors de la prévisualisation d’un jeu de données dans l’interface utilisateur de Adobe Experience Platform. Découvrez comment prévisualiser des jeux de données dans le [Documentation Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/catalog/datasets/user-guide#preview){target="_blank"}.
+     Les ID de champs peuvent être récupérés lors de la prévisualisation d’un jeu de données dans l’interface d’utilisation d’Adobe Experience Platform. Découvrez comment prévisualiser les jeux de données dans la [Documentation d’Adobe Experience Platform](https://experienceleague.adobe.com/fr/docs/experience-platform/catalog/datasets/user-guide#preview){target="_blank"}.
 
      ![](assets/aep-data-field.png)
 
 +++
 
-   Dans cet exemple, nous allons utiliser des informations relatives à l&#39;heure d&#39;embarquement et à la porte des passagers. Nous ajoutons donc ces deux lignes :
+   Dans cet exemple, nous allons utiliser des informations relatives à l’heure et à la porte d’embarquement des passagères et passagers. Nous ajoutons donc ces deux lignes :
 
    * `{{flight._myorg.booking.boardingTime}}`
    * `{{flight._myorg.booking.gate}}`
 
-1. Maintenant que votre code est prêt, vous pouvez compléter votre contenu comme vous le faites habituellement et le tester à l’aide de la fonction **Simulation du contenu** pour vérifier la personnalisation. [Découvrez comment prévisualiser et tester le contenu](../content-management/preview-test.md)
+1. Maintenant que votre code est prêt, vous pouvez compléter votre contenu comme vous le faites habituellement et le tester à l’aide du bouton **Simuler le contenu** pour vérifier la personnalisation. [Découvrir comment prévisualiser et tester votre contenu](../content-management/preview-test.md)
 
 
    ![](assets/aep-data-sample.png)

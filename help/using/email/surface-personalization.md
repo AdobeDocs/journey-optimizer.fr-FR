@@ -11,9 +11,9 @@ keywords: paramètres, e-mail, configuration, sous-domaine
 badge: label="Disponibilité limitée"
 exl-id: 1e004a76-5d6d-43a1-b198-5c9b41f5332c
 source-git-commit: 2cd62c97bef156d0c1e7dda8a962be789f8131de
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '834'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -23,7 +23,7 @@ Pour plus de flexibilité et de contrôle sur vos paramètres d’e-mail, [!DNL 
 
 >[!AVAILABILITY]
 >
->La personnalisation de la surface des emails n’est actuellement disponible que pour un ensemble d’organisations (disponibilité limitée). Pour en bénéficier, contactez votre représentant ou représentante Adobe.
+>La personnalisation de la surface des e-mails n’est actuellement disponible que pour un ensemble donné d’organisations (disponibilité limitée). Pour en bénéficier, contactez votre représentant ou représentante Adobe.
 
 ## Ajouter des sous-domaines dynamiques {#dynamic-subdomains}
 
@@ -35,7 +35,7 @@ Pour plus de flexibilité et de contrôle sur vos paramètres d’e-mail, [!DNL 
 >[!CONTEXTUALHELP]
 >id="ajo_surface_dynamic_subdomain"
 >title="Activer des sous-domaines dynamiques"
->abstract="Lors de la création d&#39;une surface d&#39;email, vous pouvez configurer des sous-domaines dynamiques en fonction des conditions que vous définissez à l&#39;aide de l&#39;éditeur de personnalisation. Vous pouvez ajouter jusqu’à 50 sous-domaines dynamiques."
+>abstract="Lors de la création d’une surface d’e-mail, vous pouvez configurer des sous-domaines dynamiques en fonction de conditions définies à l’aide de l’éditeur de personnalisation. Vous pouvez ajouter jusqu’à 50 sous-domaines dynamiques."
 
 >[!CONTEXTUALHELP]
 >id="ajo_surface_dynamic_subdomain_list"
@@ -63,7 +63,7 @@ Pour définir des sous-domaines dynamiques dans une surface de canal e-mail, pro
 
 1. Cliquez sur l’icône Modifier à côté du premier champ **[!UICONTROL Condition]**.
 
-1. La variable [éditeur de personnalisation](../personalization/personalization-build-expressions.md) s’ouvre. Dans cet exemple, définissez une condition telle que `Country` est égal à `US`.
+1. L’[éditeur de personnalisation](../personalization/personalization-build-expressions.md) s’ouvre. Dans cet exemple, définissez une condition telle que `Country` est égal à `US`.
 
    ![](assets/surface-email-edit-condition.png)
 
@@ -116,7 +116,7 @@ Pour utiliser des variables personnalisées pour vos paramètres d’en-tête de
 
    ![](assets/surface-email-personalize-header.png)
 
-1. La variable [éditeur de personnalisation](../personalization/personalization-build-expressions.md) s’ouvre. Définissez la condition à votre convenance et enregistrez vos modifications.
+1. L’[éditeur de personnalisation](../personalization/personalization-build-expressions.md) s’ouvre. Définissez la condition à votre convenance et enregistrez vos modifications.
 
    Par exemple, définissez une condition telle que chaque personne destinataire reçoit un e-mail de son propre représentant de marque.
 

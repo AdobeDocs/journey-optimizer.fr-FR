@@ -2,7 +2,7 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Utiliser des jeux de règles
-description: Découvrez comment créer et appliquer des ensembles de règles
+description: Découvrir comment créer et appliquer des jeux de règles
 feature: Rules
 topic: Content Management
 role: User
@@ -13,9 +13,9 @@ hide: true
 hidefromtoc: true
 exl-id: 07f5f0b4-417e-408e-8d9e-86615c8a3fbf
 source-git-commit: f47f4e783dd66d9031c7f7c447c1b20418a583c0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1593'
-ht-degree: 59%
+ht-degree: 100%
 
 ---
 
@@ -24,41 +24,41 @@ ht-degree: 59%
 >[!CONTEXTUALHELP]
 >id="ajo_business_rules_rule_sets"
 >title="Jeux de règles"
->abstract="Utilisez les ensembles de règles pour appliquer la limitation de fréquence à différents types de communications marketing. Vous pouvez par exemple créer un jeu de règles pour limiter le nombre de **communications promotionnelles** envoyées à votre clientèle et créer un autre jeu de règles pour limiter le nombre de **newsletters** qu’elle reçoit."
+>abstract="Utilisez les jeux de règles pour appliquer le capping de fréquence à différents types de communications marketing. Vous pouvez par exemple créer un jeu de règles pour limiter le nombre de **communications promotionnelles** envoyées à votre clientèle et créer un autre jeu de règles pour limiter le nombre de **newsletters** qu’elle reçoit."
 
 >[!AVAILABILITY]
 >
->Les jeux de règles sont actuellement disponibles en version bêta uniquement pour les utilisateurs sélectionnés. Contactez votre représentant d’Adobe pour qu’il soit inclus dans la version bêta.
+>Les jeux de règles sont actuellement disponibles en version bêta pour certains utilisateurs et utilisatrices uniquement. Contactez votre représentant ou représentante Adobe pour accéder à la version bêta.
 
-## Que sont les ensembles de règles ? {#what}
+## Que sont les jeux de règles ? {#what}
 
-Outre les règles commerciales globales qui limitent le nombre de fois où les utilisateurs reçoivent des messages sur un ou plusieurs canaux, les jeux de règles vous permettent de **regrouper plusieurs règles dans des jeux de règles ;** et les appliquer aux campagnes de votre choix. La granularité est ainsi améliorée afin de contrôler la fréquence à laquelle les utilisateurs recevront un message selon le type de communication.
+Outre les règles commerciales globales qui limitent le nombre de fois où les utilisateurs et utilisatrices reçoivent des messages sur un ou plusieurs canaux, les jeux de règles vous permettent de **regrouper plusieurs règles dans des jeux de règles** et de les appliquer aux campagnes de votre choix. La granularité est ainsi améliorée afin de contrôler la fréquence à laquelle les utilisateurs et utilisatrices recevront un message selon le type de communication.
 
-Vous pouvez par exemple créer un ensemble de règles pour limiter le nombre de **communications promotionnelles** envoyé à vos clients et un autre ensemble de règles pour limiter le nombre de **newsletters** leur a été envoyé. Selon le type de campagne que vous créez, vous pouvez ensuite choisir d’appliquer la communication promotionnelle ou l’ensemble de règles des newsletters.
+Vous pouvez par exemple créer un jeu de règles pour limiter le nombre de **communications promotionnelles** envoyées à votre clientèle et créer un autre jeu de règles pour limiter le nombre de **newsletters** qu’elle reçoit. Selon le type de campagne que vous créez, vous pouvez ensuite choisir d’appliquer la communication promotionnelle ou le jeu de règles des newsletters.
 
 ## Jeux de règles globaux et personnalisés {#global-custom}
 
-Lors de l’accès aux jeux de règles pour la première fois à partir de **[!UICONTROL Administration]** > **[!UICONTROL Règles de fonctionnement (bêta)]** , un jeu de règles par défaut est précréé et actif : **Jeu de règles par défaut global**.
+Lors de l’accès aux jeux de règles pour la première fois à partir du menu **[!UICONTROL Administration]** > **[!UICONTROL Règles commerciales (version bêta)]**, un jeu de règles par défaut est précréé et actif : **Jeu de règles par défaut global**.
 
-Ce jeu de règles contient des règles globales que vous pouvez appliquer pour contrôler la fréquence à laquelle les utilisateurs reçoivent des messages sur un ou plusieurs canaux, comme le fonctionnement des règles métier actuelles. Toutes les règles définies dans ce jeu de règles s’appliquent à tous les canaux sélectionnés, que les communications proviennent d’un parcours ou d’une campagne. [Découvrez comment utiliser les règles de fonctionnement](frequency-rules.md)
+Ce jeu de règles contient des règles globales que vous pouvez appliquer pour contrôler la fréquence à laquelle les utilisateurs et utilisatrices reçoivent des messages sur un ou plusieurs canaux, comme le font les règles commerciales actuelles. Toutes les règles définies dans ce jeu de règles s’appliquent à tous les canaux sélectionnés, que les communications soient envoyées d’un parcours ou d’une campagne. [Découvrir comment utiliser les règles commerciales](frequency-rules.md)
 
-Outre ce jeu de règles &quot;Jeu de règles par défaut global&quot;, vous pouvez créer des **règle personnalisée** définit que vous pouvez appliquer à n’importe quelle campagne pour limiter le nombre de messages envoyés dans cette campagne. [Découvrez comment créer des jeux de règles personnalisés](#create)
+Outre ce jeu de règles « Jeu de règles par défaut global », vous pouvez créer des jeux de **règles personnalisées** que vous pouvez appliquer à n’importe quelle campagne pour limiter le nombre de messages envoyés dans cette campagne. [Découvrir comment créer des jeux de règles personnalisées](#create)
 
 ![](assets/rule-sets-default.png)
 
 >[!IMPORTANT]
 >
->Pour l’instant, les jeux de règles personnalisés peuvent être appliqués à **campagnes** uniquement. Seules les règles définies dans le jeu de règles &quot;Jeu de règles par défaut global&quot; s’appliquent aux communications parcours et campagnes.
+>Pour l’instant, les jeux de règles personnalisées peuvent être appliqués uniquement aux **campagnes**. Seules les règles définies dans le jeu de règles « Jeu de règles par défaut global » s’appliquent aux communications de parcours et de campagnes.
 
-## Créer votre premier jeu de règles personnalisé {#create-rule-set}
+## Créer votre premier jeu de règles personnalisées {#create-rule-set}
 
-### Création du jeu de règles {#create}
+### Créer le jeu de règles {#create}
 
 Pour créer un jeu de règles, procédez comme suit.
 
 >[!NOTE]
 >
->Vous pouvez créer jusqu’à 3 jeux de règles personnalisés.
+>Vous pouvez créer jusqu’à 3 jeux de règles personnalisées.
 
 1. Accédez à la liste **[!UICONTROL Jeux de règles]**, puis cliquez sur **[!UICONTROL Créer un jeu de règles]**.
 
@@ -72,13 +72,13 @@ Pour créer un jeu de règles, procédez comme suit.
    >
    >Le nom du jeu de règles doit être unique.
 
-1. Maintenant, vous pouvez [définir les règles ;](#create-new-rule) vous souhaitez ajouter à ce jeu de règles.
+1. Vous pouvez maintenant [définir les règles](#create-new-rule) que vous souhaitez ajouter à ce jeu de règles.
 
 ### Ajouter des règles au jeu de règles {#create-new-rule}
 
 >[!CONTEXTUALHELP]
 >id="ajo_rule_sets_category"
->title="Sélectionner la catégorie de règle du message"
+>title="Sélectionner la catégorie de règle relative aux messages"
 >abstract="Lorsqu’elle sont activées et appliquées à un message, toutes les règles de fréquence correspondant à la catégorie sélectionnée seront automatiquement appliquées à ce message. Actuellement, seule la catégorie Marketing est disponible."
 
 >[!CONTEXTUALHELP]
@@ -93,7 +93,7 @@ Pour créer un jeu de règles, procédez comme suit.
 
 >[!CONTEXTUALHELP]
 >id="ajo_rule_sets_duration"
->title="Sélectionner la catégorie de règle du message"
+>title="Sélectionner la catégorie de règle relative aux messages"
 >abstract="Lorsqu’elle sont activées et appliquées à un message, toutes les règles de fréquence correspondant à la catégorie sélectionnée seront automatiquement appliquées à ce message. Actuellement, seule la catégorie Marketing est disponible."
 
 Pour ajouter une règle à un jeu de règles, procédez comme suit :
@@ -102,11 +102,11 @@ Pour ajouter une règle à un jeu de règles, procédez comme suit :
 
    ![](assets/rule-sets-create-rule-button.png)
 
-1. Définition d’une variable **Nom de la règle**.
+1. Définir un **nom de règle** unique.
 
-1. La variable **Catégorie** spécifie la catégorie de message à laquelle la règle s’applique. Pour l’instant, ce champ est en lecture seule comme la seule valeur **[!UICONTROL Marketing]** est disponible.
+1. Le champ **Catégorie** spécifie la catégorie de message à laquelle la règle s’applique. Pour l’instant, ce champ est en lecture seule, car seule la catégorie **[!UICONTROL Marketing]** est disponible.
 
-1. Dans la **[!UICONTROL Durée]** , sélectionnez cette option si vous souhaitez que la limitation soit appliquée tous les mois, toutes les semaines ou tous les jours. La limite de fréquence est basée sur la période calendaire sélectionnée. Elle est réinitialisée au début de la période correspondante.
+1. Dans la liste déroulante **[!UICONTROL Durée]**, sélectionnez si vous souhaitez que la limitation soit appliquée tous les mois, toutes les semaines ou tous les jours. La limite de fréquence est basée sur la période calendaire sélectionnée. Elle est réinitialisée au début de la période correspondante.
 
    ![](assets/rule-set-capping-duration.png)
 
@@ -122,9 +122,9 @@ Pour ajouter une règle à un jeu de règles, procédez comme suit :
      >
      >Pour garantir la précision des règles de capping de la fréquence quotidien, l’utilisation de la [Segmentation en streaming](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/streaming-segmentation.html?lang=fr){target="_blank"} est obligatoire. En savoir plus sur les méthodes d’évaluation de l’audience dans [cette section](../audience/about-audiences.md#evaluation-method-in-journey-optimizer).
 
-   Notez que la valeur du compteur de profils est mise à jour une fois la communication diffusée. Veuillez en tenir compte lorsque vous envoyez un grand volume de communications, car le débit peut entraîner l&#39;envoi au destinataire de l&#39;email de minutes, voire d&#39;heures, après le lancement de la communication (dans le cas où vous envoyez des millions de communications simultanément).
+   Notez que la valeur du compteur de profils est mise à jour une fois la communication diffusée. Tenez-en compte lorsque vous envoyez un grand volume de communications, car le débit peut faire en sorte que les personnes destinataires reçoivent l’e-mail quelques minutes, voire quelques heures après le lancement de la communication (dans le cas où vous envoyez des millions de communications simultanément).
 
-   Cela est important dans le cas où un destinataire reçoit deux communications de manière rapprochée. Dans la mesure du possible, nous vous conseillons de séparer les communications d’au moins deux heures afin que le destinataire dispose de suffisamment de temps pour recevoir la communication et que la valeur de compteur soit mise à jour en conséquence.
+   Cela est important dans le cas où des personnes destinataires reçoivent deux communications de manière rapprochée. Nous vous conseillons d’espacer les communications d’au moins deux heures afin que les personnes destinataires disposent de suffisamment de temps pour recevoir la communication et que la valeur de compteur soit mise à jour en conséquence.
 
 1. Définissez la limitation de votre règle, c’est-à-dire le nombre maximum de messages qui peuvent être envoyés à un profil utilisateur individuel chaque mois, chaque semaine ou chaque jour en fonction de votre sélection ci-dessous.
 
@@ -174,9 +174,9 @@ Le statut de la règle devient **[!UICONTROL Inactif]** et la règle ne s’appl
 >
 >La désactivation d’une règle ou d’un jeu de règles n’affecte ou ne réinitialise aucun comptage sur les profils individuels.
 
-## Accès et gestion des ensembles de règles {#access-rule-sets}
+## Accéder aux jeux de règles et les gérer {#access-rule-sets}
 
-Tous les jeux de règles créés s’affichent dans la variable **[!UICONTROL Administration]** > **[!UICONTROL Règles de fonctionnement (bêta)]** . Ils sont triés par date de dernière modification.
+Tous les jeux de règles créés s’affichent dans le menu **[!UICONTROL Administration]** > **[!UICONTROL Règles commerciales (version bêta)]**. Ils sont triés par date de dernière modification.
 
 ![](assets/rule-sets-list.png)
 
@@ -206,9 +206,9 @@ Users with the **[!UICONTROL View frequency rules]** permission are able to view
 
 Learn more about permissions in [this section](../administration/high-low-permissions.md).-->
 
-## Appliquer un ensemble de règles à un message {#apply-frequency-rule}
+## Appliquer un jeu de règles à un message {#apply-frequency-rule}
 
-Pour appliquer une règle de fonctionnement à un message, procédez comme suit.
+Pour appliquer une règle commerciale à un message, procédez comme suit.
 
 1. Lors de la création d’une [campagne](../campaigns/create-campaign.md), sélectionnez l’un des canaux que vous avez définis pour votre jeu de règles et modifiez le contenu de votre message.
 
@@ -224,9 +224,9 @@ Pour appliquer une règle de fonctionnement à un message, procédez comme suit.
 
    <!--Messages where the category selected is **[!UICONTROL Transactional]** will not be evaluated against business rules.-->
 
-1. Avant d&#39;activer votre campagne, veillez à planifier son exécution dans au moins 10 minutes.
+1. Avant d’activer votre campagne, assurez-vous de planifier son exécution au moins 10 minutes à l’avance.
 
-   Cela permet de gagner suffisamment de temps pour renseigner les valeurs de compteur sur le profil pour la règle de fonctionnement que vous avez sélectionnée. Si vous activez immédiatement la campagne, les valeurs de compteur de l’ensemble de règles ne seront pas renseignées sur les profils des destinataires et le message ne sera pas comptabilisé dans les règles de limitation de fréquence pour les ensembles de règles personnalisés.
+   Cela laisse suffisamment de temps pour renseigner les valeurs de compteur sur le profil pour la règle commerciale que vous avez sélectionnée. Si vous activez immédiatement la campagne, les valeurs de compteur de jeux de règles ne seront pas renseignées sur les profils des personnes destinataires et le message ne sera pas comptabilisé dans les règles de capping de fréquence pour les jeux de règles personnalisées.
 
    ![](assets/rule-set-schedule-campaign.png)
 

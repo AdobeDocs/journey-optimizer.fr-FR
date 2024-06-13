@@ -8,9 +8,9 @@ level: Beginner
 keywords: courrier, message, campagne
 exl-id: 6b438268-d983-4ab8-9276-c4b7de74e6bd
 source-git-commit: 8a1ec5acef067e3e1d971deaa4b10cffa6294d75
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '723'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -67,7 +67,7 @@ Vous pouvez maintenant commencer à configurer le fichier d&#39;extraction à en
 >[!CONTEXTUALHELP]
 >id="ajo_direct_mail_formatting"
 >title="Formatage des fichiers d’extraction"
->abstract="Pour chaque champ, indiquez un libellé et les informations à afficher à l&#39;aide de l&#39;éditeur de personnalisation. <br/><br/>L’option <b>Trier par</b> vous permet d’utiliser le champ sélectionné pour trier les colonnes du fichier d’extraction."
+>abstract="Pour chaque champ, indiquez un libellé et les informations à afficher à l’aide de l’éditeur de personnalisation. <br/><br/>L’option <b>Trier par</b> vous permet d’utiliser le champ sélectionné pour trier les colonnes du fichier d’extraction."
 
 1. Configurez les colonnes et les informations à afficher dans le fichier d’extraction :
 
@@ -75,7 +75,7 @@ Vous pouvez maintenant commencer à configurer le fichier d&#39;extraction à en
 
    1. Le volet **[!UICONTROL Formatage]** s’affiche sur le côté droit, ce qui vous permet de configurer la colonne sélectionnée. Spécifiez un **[!UICONTROL Libellé]** pour la colonne.
 
-   1. Dans le **[!UICONTROL Données]** , sélectionnez les attributs de profil à afficher à l’aide du champ [éditeur de personnalisation](../personalization/personalization-build-expressions.md).
+   1. Dans le champ **[!UICONTROL Données]**, sélectionnez les attributs de profil à afficher à l’aide de l’[éditeur de personnalisation](../personalization/personalization-build-expressions.md).
 
    1. Pour trier le fichier d’extraction à l&#39;aide d’une colonne, sélectionnez la colonne et activez l’option **[!UICONTROL Trier par]**. L’icône **[!UICONTROL Trier par]** s’affiche en regard du libellé de la colonne dans la section **[!UICONTROL Champs de données]**.
 
@@ -105,7 +105,7 @@ Le fichier d’extraction est requis par les opérateurs de services postaux pou
 
    1. Le volet **[!UICONTROL Formatage]** s’affiche sur le côté droit, ce qui vous permet de configurer la colonne sélectionnée. Spécifiez un **[!UICONTROL Libellé]** pour la colonne.
 
-   1. Dans le **[!UICONTROL Données]** , sélectionnez les attributs de profil à afficher à l’aide du champ [éditeur de personnalisation](../personalization/personalization-build-expressions.md).
+   1. Dans le champ **[!UICONTROL Données]**, sélectionnez les attributs de profil à afficher à l’aide de l’[éditeur de personnalisation](../personalization/personalization-build-expressions.md).
 
    1. Pour trier le fichier d’extraction à l&#39;aide d’une colonne, sélectionnez la colonne et activez l’option **[!UICONTROL Trier par]**. L’icône **[!UICONTROL Trier par]** s’affiche en regard du libellé de la colonne dans la section **[!UICONTROL Champs de données]**.
 

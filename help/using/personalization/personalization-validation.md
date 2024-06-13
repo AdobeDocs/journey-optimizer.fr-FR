@@ -10,9 +10,9 @@ level: Intermediate
 keywords: expression, éditeur, validation, erreurs, personnalisation
 exl-id: 7abeec5e-743f-48fb-a4a6-056665e8bfda
 source-git-commit: 8a1ec5acef067e3e1d971deaa4b10cffa6294d75
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '315'
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 87%
 
 ## Mécanismes de validation {#validation-mechanisms}
 
-Dans le **éditeur de personnalisation** , utilisez la méthode **Valider** pour vérifier votre syntaxe de personnalisation.
+Sur l’écran de l’**éditeur de personnalisation**, utilisez le bouton **Valider** pour vérifier la syntaxe de votre personnalisation.
 
 >[!NOTE]
 > La validation est automatiquement effectuée lorsque vous cliquez sur le bouton **Ajouter** pour fermer la fenêtre de l&#39;éditeur.
@@ -29,7 +29,7 @@ Dans le **éditeur de personnalisation** , utilisez la méthode **Valider** pour
 ![](assets/perso_validation1.png)
 
 >[!IMPORTANT]
-> Si la syntaxe de personnalisation n&#39;est pas valide, vous ne pouvez pas fermer la fenêtre de l&#39;éditeur de personnalisation.
+> Si la syntaxe de personnalisation n’est pas valide, vous ne pouvez pas fermer la fenêtre de l’éditeur de personnalisation.
 >
 
 ## Erreurs courantes {#common-errors}

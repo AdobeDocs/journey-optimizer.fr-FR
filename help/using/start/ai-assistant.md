@@ -1,65 +1,65 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Utilisation de l’assistant d’IA
-description: Découvrez comment tirer parti de l’assistant d’IA
+title: Utiliser l’assistant IA
+description: Découvrir comment tirer parti de l’assistant IA
 feature: Overview
 topic: Content Management
 role: User
 level: Beginner
 exl-id: 03136a25-b826-49e9-86c4-b3711913ee72
 source-git-commit: f64cf166d5fa732ae0353414b5638c97d43099a1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '351'
-ht-degree: 0%
+ht-degree: 100%
 
 ---
 
-# Utilisation de l’assistant d’IA {#ai-assistant}
+# Utiliser l’assistant IA {#ai-assistant}
 
-L’assistant d’IA est une fonctionnalité de l’interface utilisateur qui vous permet de parcourir et de comprendre les concepts d’Adobe et d’obtenir des informations opérationnelles sur votre environnement spécifique. Il est disponible dans plusieurs produits de Adobe Experience Cloud, y compris Adobe Journey Optimizer.
+L’assistant IA est une fonctionnalité de l’interface d’utilisation qui vous permet de parcourir et de comprendre les concepts Adobe et d’obtenir des informations opérationnelles sur votre environnement spécifique. Il est disponible dans plusieurs produits Adobe Experience Cloud, y compris Adobe Journey Optimizer.
 
-Pour accéder à l’assistant d’IA, cliquez sur l’icône située dans la barre supérieure. L’assistant d’IA s’affiche dans la section droite de l’écran.
+Pour accéder à l’assistant IA, cliquez sur l’icône située dans la barre supérieure. L’assistant IA s’affiche dans la partie droite de l’écran.
 
 ![](assets/do-not-localize/ai-assistant-open.png)
 
 
 >[!CAUTION]
 >
->Avant de pouvoir utiliser l’assistant d’IA, vous devez accepter les directives utilisateur de Adobe Experience Cloud Generative AI. En savoir plus sur l’accord dans [cette page](https://experienceleague.adobe.com/en/docs/experience-platform/ai-assistant/home){target="_blank"}.
+>Avant de pouvoir utiliser l’assistant IA, vous devez accepter les directives d’utilisation de l’IA générative d’Adobe Experience Cloud. Pour en savoir plus sur l’accord d’utilisation, consultez [cette page](https://experienceleague.adobe.com/fr/docs/experience-platform/ai-assistant/home){target="_blank"}.
 
-Dans Adobe Journey Optimizer, vous avez accès aux cas d’utilisation suivants :
+Dans Adobe Journey Optimizer, vous avez accès aux cas d’utilisation suivants :
 
-* **Connaissances produit** (Disponibilité générale)
+* **Connaissances des produits** (Disponibilité générale)
 
-  Les questions relatives aux connaissances sur les produits portent sur les concepts d’Adobe liés aux aspects de Adobe Journey Optimizer. Voici quelques exemples de questions relatives aux connaissances sur les produits :
+  Questions relatives aux connaissances des produits portent sur les concepts Adobe qui concernent les aspects d’Adobe Journey Optimizer. Voici quelques exemples de questions relatives aux connaissances des produits :
 
-   * Combien d’activités actives puis-je avoir dans un environnement de test Adobe Journey Optimizer ?
-   * Comment configurer une campagne dans Adobe Journey Optimizer ?
-   * Comment créer une action personnalisée à utiliser dans Adobe Journey Optimizer parcours ?
+   * Combien d’activités actives est-il possible d’avoir dans un seul sandbox Adobe Journey Optimizer ?
+   * Comment configurer une campagne dans Adobe Journey Optimizer ?
+   * Comment créer une action personnalisée qui peut être utilisée dans des parcours Adobe Journey Optimizer ?
 
 
-* **Connaissances opérationnelles** en parcours (bêta)
+* **Informations opérationnelles** dans les parcours (version bêta)
 
-  Les questions d’informations opérationnelles portent sur les objets de parcours de l’environnement de test de votre entreprise. Voici quelques exemples de questions ou d&#39;invites d&#39;informations opérationnelles :
+  Les questions relatives aux informations opérationnelles portent sur les objets de parcours du sandbox de votre entreprise. Voici quelques exemples de questions ou d’invites relatives aux informations opérationnelles :
 
-   * Combien de parcours de vie ai-je dans Adobe Journey Optimizer ?
-   * Donnez-moi une liste de tous les parcours planifiés
-   * Combien de Parcours ont été créés au cours des 7 derniers jours ?
+   * Combien de parcours actifs ai-je dans Adobe Journey Optimizer ?
+   * Écris-moi une liste de tous les parcours planifiés.
+   * Combien de parcours ont été créés au cours des 7 derniers jours ?
 
   >[!NOTE]
   >
-  >Le seul objet Adobe Journey Optimizer sur lequel vous avez accès pour poser les questions opérationnelles de l’assistant d’IA est : **Parcours**. Il ne contiendra que des données pour l’environnement de test dans lequel vous vous trouvez actuellement.
+  >Le seul objet Adobe Journey Optimizer auquel vous avez accès pour poser des questions relatives aux informations opérationnelles à l’assistant IA est : **Parcours**. Il ne contient que des données du sandbox dans lequel vous vous trouvez actuellement.
 
 
-Pour poser une question, saisissez-la dans le champ en bas de l&#39;écran et appuyez sur Entrée.
+Pour poser une question, saisissez-la dans le champ en bas de l’écran et appuyez sur Entrée.
 
 ![](assets/do-not-localize/ai-assistant-ask.png){width="50%" align="left"}
 
-Vérifiez la réponse et utilisez le **Afficher les sources** pour obtenir des liens directs vers la documentation du produit et en savoir plus.
+Vérifiez la réponse et utilisez le bouton **Afficher les sources** pour obtenir des liens directs vers la documentation du produit et pour en savoir plus.
 
 ![](assets/do-not-localize/ai-assistant-answer.png){width="50%" align="left"}
 
-Utilisez le pouce vers le haut ou vers le bas pour évaluer la réponse.
+Cliquez sur le pouce vers le haut ou sur le pouce vers le bas pour évaluer la réponse.
 
-Pour savoir comment utiliser l’assistant d’IA, voir des exemples d’objectifs que vous pouvez réaliser avec l’assistant d’IA et découvrir le fonctionnement de l’assistant, reportez-vous à la section [Documentation Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/ai-assistant/home){target="_blank"}.
+Pour découvrir comment utiliser l’assistant IA, voir des exemples d’objectifs que vous pouvez réaliser avec l’assistant IA et découvrir comment l’assistant fonctionne, consultez la [Documentation d’Adobe Experience Platform](https://experienceleague.adobe.com/fr/docs/experience-platform/ai-assistant/home){target="_blank"}.

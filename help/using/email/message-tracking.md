@@ -10,9 +10,9 @@ level: Beginner, Intermediate
 keywords: liens, tracking, surveillance, e-mail
 exl-id: 689e630a-00ca-4893-8bf5-6d1ec60c52e7
 source-git-commit: daba85693c4733333d6a62ebb5c1f290dbcb1511
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1053'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -174,7 +174,7 @@ Pour ajouter des paramètres de tracking d’URL personnalisés à vos liens, pr
 
    ![](assets/message-tracking-insert-link-perso.png)
 
-1. Ajoutez le paramètre de tracking des URL et sélectionnez l&#39;attribut de profil de votre choix dans l&#39;éditeur de personnalisation.
+1. Ajoutez le paramètre de suivi des URL et sélectionnez l’attribut de profil de votre choix dans l’éditeur de personnalisation.
 
    ![](assets/message-tracking-perso-parameter.png)
 

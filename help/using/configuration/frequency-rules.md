@@ -10,9 +10,9 @@ level: Intermediate
 keywords: message, fréquence, règles, pression
 exl-id: 49248fb6-5a91-45b2-9de8-2f078d59c0fc
 source-git-commit: f47f4e783dd66d9031c7f7c447c1b20418a583c0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1262'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -21,9 +21,9 @@ ht-degree: 94%
 >[!CONTEXTUALHELP]
 >id="ajo_business_rules_message_frequency_rules"
 >title="Règles commerciales"
->abstract="Les règles de fréquence des messages sont un type de règle métier qui limite le nombre de fois où les utilisateurs reçoivent des messages ou entrent dans des parcours sur un ou plusieurs canaux. Ces règles cross-canal excluent automatiquement les profils sur-sollicités des messages et actions."
+>abstract="Les règles de fréquence des messages sont un type de règle commerciale qui limite le nombre de fois où les utilisateurs et les utilisatrices reçoivent des messages ou entrent dans des parcours via un ou plusieurs canaux. Ces règles cross-canal excluent automatiquement des messages et des actions les profils sur-sollicités."
 
-[!DNL Journey Optimizer] vous permet de contrôler la fréquence à laquelle les utilisateurs recevront un message ou entreront dans un parcours sur un ou plusieurs canaux. Règles de fréquence des messages qui excluent automatiquement les profils sur-sollicités des messages et actions.
+[!DNL Journey Optimizer] vous permet de contrôler la fréquence à laquelle les utilisateurs et les utilisatrices reçoivent un message ou entrent dans un parcours via un ou plusieurs canaux. Règles de fréquence des messages qui excluent automatiquement des messages et des actions les profils sur-sollicités.
 
 Par exemple, pour une marque, une règle peut être de ne pas envoyer plus de 4 messages marketing par mois à sa clientèle. Pour cela, vous pouvez utiliser une règle commerciale qui limite le nombre de messages envoyés sur un ou plusieurs canaux au cours d’une période calendaire mensuelle.
 

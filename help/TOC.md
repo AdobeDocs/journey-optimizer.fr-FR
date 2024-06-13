@@ -6,9 +6,9 @@ user-guide-description: Utilisez Journey Optimizer pour créer et proposer aux 
 type: Documentation
 solution: Journey Optimizer
 source-git-commit: 83997271d16e15fb0d7ccdd21aa8ac8b8221a0d5
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1817'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -38,7 +38,7 @@ ht-degree: 98%
    + [Recherche, filtrage, catégorisation](using/start/search-filter-categorize.md)
    + [Accessibilité](using/start/accessibility.md)
    + [Playbooks de cas d’utilisation](using/start/playbooks.md)
-   + [Utilisation de l’assistant d’IA](using/start/ai-assistant.md)
+   + [Utiliser l’assistant IA](using/start/ai-assistant.md)
    + [Intégrations](using/start/ajo-integrations.md)
    + [Mécanismes de sécurisation](using/start/guardrails.md)
    + [Bonnes pratiques](using/start/best-practices.md)
@@ -166,7 +166,7 @@ ht-degree: 98%
       + Cas d’utilisation technique {#technical-use-cases}
          + [Transmettre des collections de manière dynamique à l’aide d’actions personnalisées](using/building-journeys/collections.md)
          + [Accélérer les diffusions](using/building-journeys/ramp-up-deliveries-uc.md)
-         + [Limiter le débit avec les sources de données externes et les actions personnalisées](using/building-journeys/limit-throughput.md)
+         + [Limiter le débit avec des sources de données externes et des actions personnalisées](using/building-journeys/limit-throughput.md)
          + [Utiliser des actions personnalisées pour écrire des événements de parcours dans Experience Platform](using/building-journeys/custom-action-aep.md)
 + Campagnes{#campaigns}
    + [Commencer avec les campagnes](using/campaigns/get-started-with-campaigns.md)
@@ -291,8 +291,8 @@ ht-degree: 98%
       + [Contextes de personnalisation](using/personalization/personalization-contexts.md)
       + [Syntaxe de personnalisation](using/personalization/personalization-syntax.md)
       + [Utiliser des données Adobe Experience Platform à des fins de personnalisation](using/personalization/lookup-aep-data.md)
-      + Utilisation de l’éditeur de personnalisation {#expression-editor}
-         + [A propos de l&#39;éditeur de personnalisation](using/personalization/personalization-build-expressions.md)
+      + Utiliser l’éditeur de personnalisation {#expression-editor}
+         + [À propos de l’éditeur de personnalisation](using/personalization/personalization-build-expressions.md)
          + [Ajouter des attributs aux favoris](using/personalization/personalization-favorites.md)
          + [Utiliser des fragments d’expression](using/personalization/use-expression-fragments.md)
          + [Validation de la personnalisation](using/personalization/personalization-validation.md)
@@ -313,10 +313,10 @@ ht-degree: 98%
          + [E-mail d’abandon de panier](using/personalization/personalization-use-case-helper-functions.md)
    + [Modèles de contenu](using/content-management/content-templates.md)
    + Fragments de contenu réutilisables {#fragments}
-      + [Prise en main des fragments](using/content-management/fragments.md)
-      + [Création d’un fragment](using/content-management/create-fragments.md)
+      + [Commencer avec les fragments](using/content-management/fragments.md)
+      + [Créer un fragment](using/content-management/create-fragments.md)
       + [Enregistrer du contenu existant en tant que fragment](using/content-management/save-fragments.md)
-      + [Gestion des fragments](using/content-management/manage-fragments.md)
+      + [Gérer les fragments](using/content-management/manage-fragments.md)
    + Contenu dynamique {#dynamic}
       + [Prise en main du contenu dynamique](using/personalization/get-started-dynamic-content.md)
       + [Créer des règles conditionnelles](using/personalization/create-conditions.md)

@@ -2,16 +2,16 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Enregistrer du contenu en tant que fragment
-description: Découvrez comment enregistrer du contenu en tant que fragments pour réutiliser du contenu dans des campagnes et des parcours Journey Optimizer
+description: Découvrez comment enregistrer du contenu en tant que fragments pour réutiliser du contenu dans des campagnes et des parcours Journey Optimizer.
 feature: Fragments
 topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 70e88ea0-f2b0-4c13-8693-619741762429
 source-git-commit: f47160f40abd9427cb9b9c793ee0ab402bf9f65b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '412'
-ht-degree: 83%
+ht-degree: 100%
 
 ---
 
@@ -58,13 +58,13 @@ Ce fragment est maintenant prêt à être utilisé lors de la création d’un [
 >[!CONTEXTUALHELP]
 >id="ajo_perso_library"
 >title="Enregistrer en tant que fragment d’expression"
->abstract="La variable [!DNL Journey Optimizer] l&#39;éditeur de personnalisation permet d&#39;enregistrer le contenu en tant que fragments d&#39;expression. Ces expressions sont ensuite disponibles pour créer du contenu personnalisé."
+>abstract="L’éditeur de personnalisation de [!DNL Journey Optimizer] vous permet d’enregistrer du contenu en tant que fragments d’expression. Ces expressions sont ensuite disponibles pour créer du contenu personnalisé."
 
-La variable [!DNL Journey Optimizer] l&#39;éditeur de personnalisation permet d&#39;enregistrer le contenu en tant que fragments d&#39;expression. Ces expressions sont ensuite disponibles pour créer du contenu personnalisé.
+L’éditeur de personnalisation de [!DNL Journey Optimizer] vous permet d’enregistrer du contenu en tant que fragments d’expression. Ces expressions sont ensuite disponibles pour créer du contenu personnalisé.
 
 Pour enregistrer du contenu en tant que fragment d’expression, procédez comme suit.
 
-1. Dans le [éditeur de personnalisation](../personalization/personalization-build-expressions.md) , créez une expression, puis cliquez sur **[!UICONTROL Enregistrer en tant que fragment]**.
+1. Dans l’interface de l’[éditeur de personnalisation](../personalization/personalization-build-expressions.md), créez une expression, puis cliquez sur **[!UICONTROL Enregistrer en tant que fragment]**.
 
 1. Dans le volet de droite, saisissez un nom et une description pour l’expression afin d’aider les personnes à la trouver plus facilement.
 

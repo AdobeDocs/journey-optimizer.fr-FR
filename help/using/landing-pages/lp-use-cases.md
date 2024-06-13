@@ -10,9 +10,9 @@ level: Intermediate
 keywords: destination, page de destination, cas d’utilisation
 exl-id: 8c00d783-54a3-45d9-bd8f-4dc58804d922
 source-git-commit: daba85693c4733333d6a62ebb5c1f290dbcb1511
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '968'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -68,7 +68,7 @@ Supposons, par exemple, que vous organisiez un événement le mois prochain et q
 
 ### Envoi d’un e-mail de confirmation {#send-confirmation-email}
 
-Vous pouvez également envoyer un e-mail de confirmation aux destinataires qui se sont inscrits à votre événement. Procédez comme suit.
+Vous pouvez également envoyer un e-mail de confirmation aux destinataires qui se sont inscrits à votre événement. Pour ce faire, procédez comme suit.
 
 1. Créez un autre [parcours](../building-journeys/journey.md). Vous pouvez le faire directement à partir de la page de destination en cliquant sur le bouton **[!UICONTROL Créer un parcours]**. [En savoir plus](create-lp.md#configure-primary-page).
 
@@ -163,7 +163,7 @@ Les informations concernant les désinscriptions sont stockées dans le **Jeu de
 
 >[!NOTE]
 >
->Si la méthode de fusion pour votre valeur par défaut [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=fr){target="_blank"} **[!UICONTROL Profils]** la stratégie de fusion est **[!UICONTROL Priorité du jeu de données]**, veillez à activer la variable **[!UICONTROL Jeu de données du service de consentement AJO]** et de la classer par priorité dans la stratégie de fusion. [En savoir plus](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/ui-guide.html?lang=fr#dataset-precedence-profile){target="_blank"}
+>Si la méthode de fusion de votre politique de fusion de **[!UICONTROL profils]** [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=fr){target="_blank"} par défaut est **[!UICONTROL Précédence du jeu de données]**, activez le **[!UICONTROL jeu de données du service de consentement AJO]** et placez-le en priorité dans la politique de fusion. [En savoir plus](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/ui-guide.html?lang=fr#dataset-precedence-profile){target="_blank"}
 >
 >Même si aucun lot n’a été ajouté à ce jeu de données, il contiendra toujours les informations opt-in et opt-out.
 

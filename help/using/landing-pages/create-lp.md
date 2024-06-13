@@ -10,9 +10,9 @@ level: Beginner
 keywords: destination, page de destination, création, publication
 exl-id: 18f9bdff-f5c6-4601-919d-4f3124e484b5
 source-git-commit: 8a1ec5acef067e3e1d971deaa4b10cffa6294d75
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1716'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -158,7 +158,7 @@ Pour définir les paramètres de la page principale, procédez comme suit.
 
    ![](assets/lp_expiry-date.png)
 
-1. Dans la section **[!UICONTROL Données additionnelles]**, définissez une ou plusieurs clés et leurs valeurs de paramètre correspondantes. Vous pourrez utiliser ces clés dans le contenu de votre page principale et de vos sous-pages à l’aide de la variable [éditeur de personnalisation](../personalization/personalization-build-expressions.md). En savoir plus dans [cette section](lp-content.md#use-form-component#use-additional-data).
+1. Dans la section **[!UICONTROL Données additionnelles]**, définissez une ou plusieurs clés et leurs valeurs de paramètre correspondantes. Vous pouvez utiliser ces clés dans le contenu de votre page principale et de vos sous-pages à l’aide de l’[éditeur de personnalisation](../personalization/personalization-build-expressions.md). En savoir plus dans [cette section](lp-content.md#use-form-component#use-additional-data).
 
    ![](assets/lp_create-lp-additional-data.png)
 
@@ -178,7 +178,7 @@ Pour définir les paramètres de la page principale, procédez comme suit.
 >id="ajo_lp_subpage"
 >title="Définir les paramètres de sous-page"
 >abstract="Vous pouvez ajouter jusquʼà 2 sous-pages. Par exemple, vous pouvez créer une page de remerciement qui s’affichera une fois que les utilisateurs auront envoyé le formulaire. Vous pouvez également définir une page d’erreur, qui sera affichée si la page de destination rencontre un problème."
->additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/landing-pages/landing-pages-design/design-lp" text="Concevoir le contenu de la page de destination"
+>additional-url="https://experienceleague.adobe.com/fr/docs/journey-optimizer/using/landing-pages/landing-pages-design/design-lp" text="Concevoir le contenu de la page de destination"
 
 >[!CONTEXTUALHELP]
 >id="ajo_lp_access_settings-subpage"
@@ -264,7 +264,7 @@ Les alertes s’affichent en haut à droite de l’écran, comme illustré ci-de
 
 Deux types d’alertes peuvent avoir lieu :
 
-* **Avertissements** se référer aux recommandations et bonnes pratiques. <!--For example, a message will display if -->
+* Les **avertissements** se rapportent aux recommandations et aux bonnes pratiques. <!--For example, a message will display if -->
 
 * Les **erreurs** vous empêchent de publier la page de destination tant qu’elles ne sont pas corrigées. Par exemple, un avertissement s’affiche si l’URL de la page principale est manquante.
 

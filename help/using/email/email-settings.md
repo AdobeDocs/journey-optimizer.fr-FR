@@ -10,9 +10,9 @@ level: Experienced
 keywords: paramètres, e-mail, configuration
 exl-id: 13536962-7541-4eb6-9ccb-4f97e167734a
 source-git-commit: daba85693c4733333d6a62ebb5c1f290dbcb1511
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2415'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -145,7 +145,7 @@ Lors de la définition de l’adresse **[!UICONTROL Répondre à (e-mail)]**, vo
 
 La boîte de réception utilisée pour les réponses recevra tous les e-mails de réponse, à l’exception des notifications d’absence du bureau et des réponses de défi, qui sont reçues sur l’adresse **[!UICONTROL E-mail d’erreur]**.
 
-Pour assurer une gestion correcte des réponses, suivez les recommandations ci-dessous :
+Pour assurer une bonne gestion des réponses, procédez comme suit :
 
 * Assurez-vous que la boîte de réception dédiée dispose de suffisamment de capacité pour recevoir tous les e-mails de réponse envoyés à l’aide de la surface d’e-mail. Si la boîte de réception renvoie des rebonds, il se peut que certaines réponses de vos clients ne soient pas reçues.
 
@@ -296,11 +296,11 @@ Vous pouvez ajouter jusqu’à 10 paramètres de tracking à l’aide du bouton
 
 Pour configurer un paramètre de tracking d’URL, vous pouvez saisir directement les valeurs souhaitées dans les champs **[!UICONTROL Nom]** et **[!UICONTROL Valeur]**.
 
-Vous pouvez également modifier chaque **[!UICONTROL Valeur]** à l’aide du champ [éditeur de personnalisation](../personalization/personalization-build-expressions.md). Cliquez sur l’icône d’édition pour ouvrir l’éditeur. De là, vous pouvez sélectionner les attributs contextuels de votre choix et/ou modifier directement le texte.
+Vous pouvez également modifier chaque champ **[!UICONTROL Valeur]** à l’aide de l’[Éditeur de personnalisation](../personalization/personalization-build-expressions.md). Cliquez sur l’icône d’édition pour ouvrir l’éditeur. De là, vous pouvez sélectionner les attributs contextuels de votre choix et/ou modifier directement le texte.
 
 ![](assets/preset-url-tracking-editor.png)
 
-Les valeurs prédéfinies suivantes sont disponibles via l’éditeur de personnalisation :
+Les valeurs prédéfinies suivantes sont disponibles dans l’éditeur de personnalisation :
 
 * **ID d’action source** : ID de l’action e-mail ajoutée au parcours ou à la campagne.
 
@@ -316,7 +316,7 @@ Les valeurs prédéfinies suivantes sont disponibles via l’éditeur de personn
 
 >[!NOTE]
 >
->Vous pouvez combiner des valeurs de texte de saisie et utiliser des attributs contextuels à partir de l’éditeur de personnalisation. Chaque champ **[!UICONTROL Valeur]** peut contenir un certain nombre de caractères jusqu’à une limite de 5 Ko.
+>Vous pouvez combiner la saisie de valeurs de texte et l’utilisation d’attributs contextuels à partir de l’éditeur de personnalisation. Chaque champ **[!UICONTROL Valeur]** peut contenir un certain nombre de caractères jusqu’à une limite de 5 Ko.
 
 <!--You can drag and drop the parameters to reorder them.-->
 

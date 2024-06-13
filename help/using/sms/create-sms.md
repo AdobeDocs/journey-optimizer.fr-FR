@@ -9,9 +9,9 @@ role: User
 level: Beginner
 exl-id: 1f88626a-b491-4b36-8e3f-57f2b7567dd0
 source-git-commit: 8a1ec5acef067e3e1d971deaa4b10cffa6294d75
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '940'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 91%
 >[!CONTEXTUALHELP]
 >id="ajo_message_sms"
 >title="Créer un message texte"
->abstract="Pour créer un SMS (SMS/MMS), ajoutez une action SMS dans un parcours ou une campagne et commencez à la personnaliser avec l&#39;éditeur de personnalisation."
+>abstract="Pour créer un message texte (SMS/MMS), ajoutez une action SMS dans un parcours ou une campagne et commencez à le personnaliser à l’aide de l’éditeur de personnalisation."
 
 Vous pouvez concevoir et envoyer des messages texte (SMS) et multimédia (MMS) avec Adobe Journey Optimizer. Vous devez d’abord ajouter une action SMS dans un parcours ou une campagne, puis définir le contenu du message texte, comme décrit ci-dessous. Adobe Journey Optimizer propose également des fonctionnalités permettant de tester vos messages texte avant l’envoi, afin que vous puissiez vérifier le rendu, les attributs de personnalisation et tous les autres paramètres.
 
@@ -91,17 +91,17 @@ Vous pouvez maintenant commencer à concevoir le contenu de votre message texte 
 >[!CONTEXTUALHELP]
 >id="ajo_message_sms_content"
 >title="Définir le contenu de votre SMS"
->abstract="Personnalisez et personnalisez vos SMS (SMS/MMS) à l&#39;aide de l&#39;éditeur de personnalisation pour définir le contenu et incorporer des éléments dynamiques."
+>abstract="Personnalisez vos messages texte (SMS/MMS) à l’aide de l’éditeur de personnalisation pour définir le contenu et incorporer des éléments dynamiques."
 
 Pour configurer le contenu de votre SMS, procédez comme suit. Les paramètres des MMS sont décrits dans [cette section](#mms-content).
 
 1. Dans l’écran de configuration des parcours ou des campagnes, cliquez sur le bouton **[!UICONTROL Modifier le contenu]** pour configurer le contenu du message texte.
 
-1. Cliquez sur le bouton **[!UICONTROL Message]** pour ouvrir l’éditeur de personnalisation.
+1. Cliquez sur le champ **[!UICONTROL Message]** pour ouvrir l’éditeur de personnalisation.
 
    ![](assets/sms-content.png)
 
-1. Utilisez l&#39;éditeur de personnalisation pour définir du contenu, ajouter de la personnalisation et du contenu dynamique. Vous pouvez utiliser n’importe quel attribut, comme le nom du profil ou la ville. Vous pouvez également définir des règles conditionnelles. Accédez aux pages suivantes pour en savoir plus sur [personnalisation](../personalization/personalize.md) et [contenu dynamique](../personalization/get-started-dynamic-content.md) dans l’éditeur de personnalisation.
+1. Utilisez l’éditeur de personnalisation pour définir le contenu, ajouter de la personnalisation ou du contenu dynamique. Vous pouvez utiliser n’importe quel attribut, comme le nom du profil ou la ville. Vous pouvez également définir des règles conditionnelles. Accédez aux pages suivantes pour en savoir plus sur la [personnalisation](../personalization/personalize.md) et le [contenu dynamique](../personalization/get-started-dynamic-content.md) dans l’éditeur de personnalisation.
 
 1. Une fois le contenu défini, ajoutez les URL trackées à votre message. Pour ce faire, accédez au menu **[!UICONTROL Fonctions d’assistance]** et sélectionnez **[!UICONTROL Helpers]**.
 

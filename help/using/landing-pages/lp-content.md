@@ -10,9 +10,9 @@ level: Beginner
 keywords: destination, page de destination, création, page, formulaire, composant
 exl-id: 5bf023b4-4218-4110-b171-3e70e0507fca
 source-git-commit: 050253e0f74f506649540ae3656a3a1f050331cb
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1308'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -40,7 +40,7 @@ Grâce au concepteur de contenu de page de destination, vous pouvez également u
 >id="ac_lp_formfield"
 >title="Définir les champs de composant de formulaire"
 >abstract="Définissez la manière dont vos destinataires verront et soumettront leurs choix depuis votre page de destination."
->additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/landing-pages/landing-pages-design/lp-content#lp-form-styles" text="Définir les styles de formulaire de page de destination"
+>additional-url="https://experienceleague.adobe.com/fr/docs/journey-optimizer/using/landing-pages/landing-pages-design/lp-content#lp-form-styles" text="Définir les styles de formulaire de page de destination"
 
 >[!CONTEXTUALHELP]
 >id="ac_lp_submission"
@@ -188,7 +188,7 @@ Procédez comme suit :
 
    ![](assets/lp_designer-form-add-subscription.png)
 
-1. Ajoutez les conditions appropriées à l&#39;aide des fonctions d&#39;assistance de l&#39;éditeur de personnalisation. [En savoir plus](../personalization/functions/functions.md)
+1. Ajoutez les conditions appropriées à l’aide des fonctions d’assistance de l’éditeur de personnalisation. [En savoir plus](../personalization/functions/functions.md)
 
    ![](assets/lp_designer-form-add-subscription-condition.png)
 

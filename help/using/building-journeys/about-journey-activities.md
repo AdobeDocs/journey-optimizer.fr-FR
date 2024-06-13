@@ -10,9 +10,9 @@ level: Beginner, Intermediate
 keywords: parcours, activités, commencer, événements, action
 exl-id: 239b3d72-3be0-4a82-84e6-f219e33ddca4
 source-git-commit: 9562a194244e2a3323680d98cc8aa5ed65d93a67
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '538'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -22,7 +22,7 @@ Combinez les différentes activités d&#39;événement, d&#39;orchestration et d
 
 ## Activités d’événement {#event-activities}
 
-Les parcours personnalisés sont déclenchés par des événements, tels qu’un achat en ligne. Une fois qu’un profil entre dans un parcours, il se déplace en tant qu’individu, et aucun de deux individus ne se déplace au même rythme ou le long du même chemin. Lorsque vous débutez votre parcours avec un événement, ce parcours est déclenché à la réception de l’événement. Ensuite, chaque personne du parcours suit individuellement les étapes suivantes définies dans votre parcours.
+Les parcours personnalisés sont déclenchés par des événements, tels qu’un achat en ligne. Dès qu’un profil entre dans un parcours, il progresse de manière individuelle, or deux personnes ne progressent pas au même rythme et ne suivent pas le même chemin. Lorsque vous débutez votre parcours avec un événement, ce parcours est déclenché à la réception de l’événement. Ensuite, chaque personne du parcours suit individuellement les étapes suivantes définies dans votre parcours.
 
 Les événements configurés par l’utilisateur ou l’utilisatrice technique (voir [cette page](../event/about-events.md)) sont tous affichés dans la première catégorie de la palette, dans la partie gauche de l’écran. Les activités d&#39;événement suivantes sont disponibles :
 

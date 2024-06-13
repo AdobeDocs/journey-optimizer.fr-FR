@@ -7,9 +7,9 @@ role: Data Engineer
 level: Experienced
 exl-id: 9b0b0d8e-a819-4d2e-a241-f3c4d104eab9
 source-git-commit: 8a1ec5acef067e3e1d971deaa4b10cffa6294d75
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1872'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -21,15 +21,15 @@ Utilisez le langage de modèle [!DNL Journey Optimizer] pour effectuer des opér
 
 ➡️ [Découvrez comment utiliser les fonctions d&#39;assistance dans cette vidéo](#video)
 
-Le langage de modèle est utilisé dans les fonctions d’assistance disponibles dans la liste déroulante de personnalisation de l’éditeur de personnalisation, comme ci-dessous :
+Le langage de modèle est utilisé dans les fonctions d’assistance disponibles dans la liste déroulante de personnalisation de l’éditeur de personnalisation, comme indiqué ci-dessous :
 
 ![](../assets/access-helper-functions.png)
 
 >[!NOTE]
 >
->Les fonctions et fonctionnalités disponibles dans l’éditeur de personnalisation diffèrent de celles disponibles dans la variable [Éditeur d’expression avancé Parcours](../../building-journeys/expression/expressionadvanced.md).
+>Les fonctions et les fonctionnalités disponibles dans l’éditeur de personnalisation diffèrent de celles disponibles dans l’[éditeur d’expression avancé de Journey](../../building-journeys/expression/expressionadvanced.md).
 
-Dans le [!DNL Journey Optimizer] éditeur de personnalisation, les fonctions d’assistance sont regroupées en trois catégories : [Fonctions](#functions-helper), [Helpers](#helper-helper) et [Opérateurs](#operators-helper).
+Dans l’éditeur de personnalisation de [!DNL Journey Optimizer], les fonctions d’assistance sont regroupées en trois catégories : [Fonctions](#functions-helper), [Assistants](#helper-helper) et [Opérateurs](#operators-helper).
 
 Sélectionnez une catégorie pour accéder aux sous-catégories et fonctions.
 

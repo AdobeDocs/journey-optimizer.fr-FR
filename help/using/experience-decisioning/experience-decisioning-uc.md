@@ -7,9 +7,9 @@ role: User
 level: Intermediate, Experienced
 badge: label="Disponibilité limitée"
 source-git-commit: 8a1ec5acef067e3e1d971deaa4b10cffa6294d75
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '330'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -58,7 +58,7 @@ Définissez deux traitements de diffusion contenant chacun une politique de déc
 
    ![](assets/decision-code-based-add-decision.png)
 
-1. Vous pouvez également ajouter tout autre attribut disponible dans l’éditeur de personnalisation, tel que les attributs de profil.
+1. Vous pouvez également ajouter tout autre attribut disponible dans l’éditeur de personnalisation, tel que des attributs de profil.
 
    ![](assets/decision-code-based-decision-profile-attribute.png)
 

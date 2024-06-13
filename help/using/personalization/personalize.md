@@ -2,7 +2,7 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Personnalisation du contenu dans Journey Optimizer
-description: Prise en main de la personnalisation.
+description: Commencez avec la personnalisation.
 feature: Personalization
 topic: Personalization
 role: Data Engineer
@@ -10,9 +10,9 @@ level: Beginner
 keywords: expression, éditeur, commencer, personnalisation
 exl-id: f448780b-91bc-455e-bf10-9a9aee0a0b24
 source-git-commit: 8a1ec5acef067e3e1d971deaa4b10cffa6294d75
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '387'
-ht-degree: 86%
+ht-degree: 100%
 
 ---
 
@@ -48,12 +48,12 @@ La personnalisation est basée sur les données de profil gérées par le schém
 
 En outre, vous pouvez également tirer parti des **attributs calculés** pour personnaliser votre contenu. Les attributs calculés sont basés sur des jeux de données d’événements d’expérience activés pour le profil et ingérés dans Adobe Experience Platform. Ils servent de points de données agrégés stockés dans les profils clients qui résument les événements comportementaux individuels. [Découvrez comment utiliser les attributs calculés](../audience/computed-attributes.md).
 
-## Utilisation de l’éditeur de personnalisation {#editor}
+## Utiliser l’éditeur de personnalisation {#editor}
 
-[!DNL Journey Optimizer] fournit un éditeur de personnalisation dans lequel vous pouvez sélectionner, organiser, personnaliser et valider toutes les données afin de créer une personnalisation personnalisée de votre contenu. Plusieurs outils sont disponibles pour vous aider à créer votre contenu de personnalisation (fonctions d’assistance, bibliothèque d’expressions prédéfinies, favorisation d’attributs, etc.).
+[!DNL Journey Optimizer] fournit un éditeur de personnalisation dans lequel vous sélectionnez, organisez, personnalisez et validez toutes les données afin de personnaliser votre contenu. Plusieurs outils sont disponibles pour vous aider à créer votre contenu de personnalisation (fonctions d’assistance, bibliothèque d’expressions prédéfinies, favorisation d’attributs, etc.).
 
 * [Découvrez comment utiliser l’éditeur de personnalisation](personalization-build-expressions.md)
-* [Découvrez où effectuer la personnalisation](personalization-contexts.md).
+* [Découvrez où vous pouvez appliquer la personnalisation](personalization-contexts.md).
 
 ## Tutoriels vidéo{#video-perso}
 

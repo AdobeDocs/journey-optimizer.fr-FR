@@ -10,9 +10,9 @@ level: Intermediate
 keywords: expression, éditeur, syntaxe, personnalisation
 exl-id: 5a562066-ece0-4a78-92a7-52bf3c3b2eea
 source-git-commit: 8a1ec5acef067e3e1d971deaa4b10cffa6294d75
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '719'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -164,7 +164,7 @@ Journey Optimizer vous permet de personnaliser une ou plusieurs URL de votre me
 
 >[!NOTE]
 >
->Dans l&#39;éditeur de personnalisation, lorsque vous modifiez une URL personnalisée, les fonctions d&#39;assistance et l&#39;appartenance à une audience sont désactivées pour des raisons de sécurité.
+>Dans l’éditeur de personnalisation, lorsque vous modifiez une URL personnalisée, les fonctions dʼassistance et l’appartenance aux audiences sont désactivées pour des raisons de sécurité.
 >
 
 **Exemples d’adresses URL personnalisées**
