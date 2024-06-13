@@ -8,9 +8,9 @@ hide: true
 hidefromtoc: true
 topic: Content Management
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 16812ed5a3f4a4626387d7f21be91c31530eb7cc
+source-git-commit: c6daa2aef557943374a3eff005eda34dad214a5d
 workflow-type: tm+mt
-source-wordcount: '570'
+source-wordcount: '568'
 ht-degree: 23%
 
 ---
@@ -49,7 +49,7 @@ Cette version apporte les nouvelles fonctionnalités détaillées ci-dessous.
 <table>
 <thead>
 <tr>
-<th><strong>Personnalisation et cycle de vie des fragments de contenu</strong><br/></th>
+<th><strong>Personnalisation des fragments de contenu</strong><br/></th>
 </tr>
 </thead>
 <tbody>
