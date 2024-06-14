@@ -8,9 +8,9 @@ hide: true
 hidefromtoc: true
 topic: Content Management
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 553743d6d041cd719eb3c8bf7f02288595d8c2a5
+source-git-commit: 1804eb38c6c0ffd41aedebf612048e7aee90a54c
 workflow-type: tm+mt
-source-wordcount: '640'
+source-wordcount: '648'
 ht-degree: 30%
 
 ---
@@ -167,7 +167,7 @@ Cette version est fournie avec les améliorations répertoriées ci-dessous.
 **Parcours**
 
 * Le délai d’attente global par parcours est passé de 30 à 91 jours.
-* Adobe Journey Optimizer prend désormais en charge les demandes de suppression/accès des informations personnelles.
+* Adobe Journey Optimizer prend désormais en charge les demandes de suppression/accès des informations personnelles ainsi que les demandes de gestion du cycle de vie des données.
 * Vous pouvez désormais redimensionner les colonnes de l’inventaire des parcours.
 * **Éditeur d’expression avancé dans la configuration des événements** est désormais GA : vous pouvez désormais utiliser l’éditeur d’expression avancé lors de la configuration d’un événement, ce qui vous permet de définir des expressions plus complexes ou d’utiliser des fonctions dans la condition d’identifiant d’événement. Cette fonctionnalité est publiée en disponibilité limitée pour certaines clientes et certains clients uniquement. [En savoir plus](../event/about-creating.md)
 * **Stratégies de fusion** sont désormais GA : les stratégies de fusion utilisées par un Parcours sont désormais visibles et cohérentes dans tout le parcours. Cette fonctionnalité est publiée en disponibilité limitée pour certaines clientes et certains clients uniquement. [En savoir plus](../building-journeys/journey-gs.md#merge-policies)
