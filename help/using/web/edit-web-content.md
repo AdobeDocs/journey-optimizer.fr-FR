@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 3847ac1d-2c0a-4f80-8df9-e8e304faf261
-source-git-commit: 8a1ec5acef067e3e1d971deaa4b10cffa6294d75
-workflow-type: ht
-source-wordcount: '1101'
+source-git-commit: 11cae07d061b67136f50201e89c0e349e919620d
+workflow-type: tm+mt
+source-wordcount: '1057'
 ht-degree: 100%
 
 ---
@@ -106,7 +106,6 @@ Pour commencer à créer votre campagne web, procédez comme suit :
    * En-tête : l’utilisation de ce composant est similaire à l’utilisation du composant **[!UICONTROL Texte]** dans le concepteur d’e-mail. [En savoir plus](../email/content-components.md#text)
    * Paragraphe : l’utilisation de ce composant est similaire à l’utilisation du composant **[!UICONTROL Texte]** dans le concepteur d’e-mail. [En savoir plus](../email/content-components.md#text)
    * Lien
-   * [Décision d’offre](../email/add-offers-email.md)
 
    ![](assets/web-designer-components.png)
 
@@ -126,15 +125,11 @@ Pour commencer à créer votre campagne web, procédez comme suit :
 
    ![](assets/web-designer-header-style.png)
 
-## Ajouter des personnalisations et des offres
+## Ajout d&#39;une personnalisation
 
-Pour ajouter de la personnalisation, sélectionnez un conteneur et l’icône de personnalisation dans la barre du menu contextuel qui s’affiche. Apportez vos modifications à l’aide de l’éditeur de personnalisation. [En savoir plus](../personalization/personalization-build-expressions.md)
+Pour ajouter de la personnalisation, sélectionnez un conteneur et l’icône de personnalisation dans la barre du menu contextuel qui s’affiche. Apportez vos modifications à l’aide de l’éditeur de personnalisation. [En savoir plus](../personalization/personalization-build-expressions.md).
 
 ![](assets/web-designer-personalization.png)
-
-Utilisez le composant **[!UICONTROL Décision d’offre]** pour insérer des [offres](../offers/get-started/starting-offer-decisioning.md) dans vos pages web. Le processus est le même que pour l’[ajout d’une offre à un e-mail](../email/add-offers-email.md). Il tire profit de la gestion des décisions pour choisir la meilleure offre à fournir à vos clients.
-
-![](assets/web-designer-offer.png)
 
 ## Naviguer dans le concepteur web {#navigate-web-designer}
 
