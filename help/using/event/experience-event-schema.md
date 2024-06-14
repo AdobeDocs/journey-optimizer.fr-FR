@@ -10,9 +10,9 @@ level: Intermediate, Experienced
 keywords: schémas, XDM, platform, en flux continu, ingestion, parcours
 exl-id: f19749c4-d683-4db6-bede-9360b9610eef
 source-git-commit: 7c55cc25fe1286d466f2de719aa42dcb76154881
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '831'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -28,9 +28,9 @@ La première étape de la configuration d’un événement pour [!DNL Journey Op
 
 ![](assets/schema1.png)
 
-Un schéma XDM destiné aux événements [!DNL Journey Optimizer] doit répondre aux exigences suivantes :
+Tout schéma XDM utilisé pour les événements [!DNL Journey Optimizer] doit répondre aux exigences suivantes :
 
-* Le schéma doit appartenir à la classe XDM ExperienceEvent.
+* Ce schéma doit être de la classe XDM ExperienceEvent.
 
   ![](assets/schema2.png)
 
@@ -38,17 +38,17 @@ Un schéma XDM destiné aux événements [!DNL Journey Optimizer] doit répondre
 
   ![](assets/schema3.png)
 
-* Déclarez un champ d’identité pour l’identification des profils individuels dans l’événement. Si aucune identité n’est spécifiée, un mapping d’identité peut être utilisée. Cela n’est pas recommandé.
+* Déclarez un champ d’identité pour l’identification des profils individuels dans l’événement. Si aucune identité n’est spécifiée, un mappage d’identités peut être utilisé. Cela n’est pas recommandé.
 
   ![](assets/schema4.png)
 
-* Si vous souhaitez que ces données soient disponibles pour une recherche ultérieure dans un parcours, marquez le schéma et le jeu de données pour le profil.
+* Pour que ces données soient disponibles pour une recherche ultérieure dans un parcours, marquez le schéma et le jeu de données du profil.
 
   ![](assets/schema5.png)
 
   ![](assets/schema6.png)
 
-* N’hésitez pas à inclure des champs de données pour recueillir toutes les autres données contextuelles que vous souhaitez incorporer à l’événement, telles que des informations relatives à l’utilisateur, l’appareil à partir duquel l’événement a été généré, l’emplacement ou toute autre circonstance significative liée à l’événement.
+* N’hésitez pas à inclure des champs de données pour capturer toutes les autres données contextuelles à inclure à l’événement, telles que des informations sur la personne, l’appareil à partir duquel l’événement a été généré, l’emplacement ou toute autre circonstance significative liée à l’événement.
 
   ![](assets/schema7.png)
 
@@ -87,7 +87,7 @@ Vous pouvez définir une relation de schéma sur un ensemble de chaînes de cara
 
 ![](assets/schema15.png)
 
-Vous pouvez également définir une relation de schéma avec un attribut dans un tableau d’objets, par exemple une liste d’informations d’achat (ID de produit, nom du produit, prix, remise). Les valeurs de recherche seront disponibles en parcours (conditions, actions personnalisées, etc.) ni dans la personnalisation des messages.
+Vous pouvez également définir une relation de schéma avec un attribut dans un ensemble d’objets, par exemple une liste d’informations d’achat (identifiant de produit, nom de produit, prix, remise). Les valeurs de recherche seront disponibles dans les parcours (conditions, actions personnalisées, etc.). ni dans la personnalisation des messages.
 
 ![](assets/schema16.png)
 

@@ -10,9 +10,9 @@ level: Intermediate
 keywords: personnalisé, général, événement, parcours
 exl-id: b1813122-7031-452e-9ac5-a4ea7c6dc57c
 source-git-commit: cc4ea97f858a212b82ac3b77328e61f59e3bfc27
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '605'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
@@ -21,16 +21,16 @@ ht-degree: 88%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_event_custom"
 >title="Événements unitaires"
->abstract="Les événements vous permettent de déclencher vos parcours de manière unitaire pour envoyer des messages, en temps réel, à l’individu progressant dans le parcours. Pour ce type d&#39;événement, vous pouvez uniquement ajouter un libellé et une description. La configuration de l’événement est effectuée par un ingénieur de données et ne peut pas être modifiée."
+>abstract="Les événements vous permettent de déclencher vos parcours de manière unitaire pour envoyer des messages, en temps réel, à l’individu progressant dans le parcours. Pour ce type d’événement, vous pouvez uniquement ajouter un libellé et une description. La configuration de l’événement est effectuée par un ingénieur de données et ne peut pas être modifiée."
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_event_business_canvas"
 >title="Événements métier"
->abstract="Ces événements vous permettent de démarrer un parcours à l’aide d’un événement non lié à un profil. Lorsque cet événement est déclenché, vous pouvez envoyer des messages à une audience de profils. Pour ce type d&#39;événement, vous pouvez uniquement ajouter un libellé et une description. La configuration de l’événement est effectuée par un utilisateur technique et ne peut pas être modifiée."
+>abstract="Ces événements vous permettent de démarrer un parcours à l’aide d’un événement non lié à un profil. Lorsque cet événement est déclenché, vous pouvez envoyer des messages à une audience de profils. Pour ce type d’événement, vous pouvez uniquement ajouter un libellé et une description. La configuration de l’événement est effectuée par un utilisateur ou une utilisatrice technique et ne peut pas être modifiée."
 
 Les événements vous permettent de déclencher vos parcours de manière unitaire pour envoyer des messages, en temps réel, à l&#39;individu progressant dans le parcours.
 
-Pour ce type d&#39;événement, vous pouvez uniquement ajouter un libellé et une description. Le reste de la configuration ne peut pas être modifié. C&#39;est l&#39;utilisateur technique qui s&#39;en charge. Voir [cette page](../event/about-events.md).
+Pour ce type d’événement, vous pouvez uniquement ajouter un libellé et une description. Le reste de la configuration ne peut pas être modifié. C&#39;est l&#39;utilisateur technique qui s&#39;en charge. Voir [cette page](../event/about-events.md).
 
 ![](assets/general-events.png)
 
@@ -50,7 +50,7 @@ Pour configurer une temporisation d’événement, procédez comme suit :
 
 1. Définissez la durée pendant laquelle le parcours attendra l&#39;événement. La durée maximale est de 29 jours.
 
-1. Si vous souhaitez orienter les personnes vers un chemin de temporisation, alors qu’aucun événement n’est reçu au cours de la temporisation spécifiée, activez l’option **[!UICONTROL Ajouter un chemin de temporisation]**. Si cette option n’est pas activée, le parcours se poursuit pour la personne une fois la temporisation atteinte. Nous vous recommandons de toujours activer la variable **Définition d’un chemin de temporisation** .
+1. Si vous souhaitez orienter les personnes vers un chemin de temporisation, alors qu’aucun événement n’est reçu au cours de la temporisation spécifiée, activez l’option **[!UICONTROL Ajouter un chemin de temporisation]**. Si cette option n’est pas activée, le parcours se poursuit pour la personne une fois la temporisation atteinte. Nous vous recommandons de toujours activer l’option **Ajouter un chemin de temporisation**.
 
    ![](assets/event-timeout.png)
 
@@ -63,7 +63,7 @@ Notez que si vous souhaitez configurer une temporisation pour plusieurs événem
 
 La temporisation définie s’applique à tous les événements postérieurs à l’activité **[!UICONTROL Attente]** :
 
-* Si un événement est reçu dans le délai d’expiration, l’individu se dirige vers le chemin de l’événement reçu.
+* Si un événement est reçu pendant le délai de temporisation, la personne s’engage dans le chemin de l’événement reçu.
 * Si aucun événement n’est reçu pendant le délai de temporisation, la personne s’engage dans la branche de temporisation de l’événement où la temporisation a été définie.
 
 ![](assets/event-timeout-group.png)

@@ -10,9 +10,9 @@ feature: Application Settings
 topic: Administration
 keywords: configuration, configurer, messages, canal, sandbox, optimizer
 source-git-commit: 970fef96b6fa04f2b5ce1a8d10f89802f513b373
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '387'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -41,7 +41,7 @@ Pour pouvoir créer vos parcours et envoyer des messages, vous devez suivre les 
 
    * Activez l’**option d’e-mail Cci** pour conserver une copie des messages envoyés aux individus. [En savoir plus](archiving-support.md#enable-bcc)
 
-   * Configurer **règles commerciales** pour éviter de sur-solliciter vos destinataires. [En savoir plus](frequency-rules.md)
+   * Configurez les **règles commerciales** pour éviter de sur-solliciter vos personnes destinataires. [En savoir plus](frequency-rules.md)
 
    * Déterminez l’adresse e-mail et/ou le numéro de téléphone à utiliser en priorité pour vos destinataires lorsque plusieurs adresses/numéros sont disponibles dans Adobe Experience Platform. [En savoir plus](primary-email-addresses.md)
 

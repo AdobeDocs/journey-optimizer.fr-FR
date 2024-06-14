@@ -10,9 +10,9 @@ level: Intermediate
 keywords: campaign, acc, intégration
 exl-id: 109ba212-f04b-425f-9447-708c8e0b3f51
 source-git-commit: cc4ea97f858a212b82ac3b77328e61f59e3bfc27
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '540'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
@@ -29,16 +29,16 @@ Un cas d’utilisation complet est présenté dans cette [section](../building-j
 
 Pour chaque action configurée, une activité d’action est disponible dans la palette du concepteur de parcours. Reportez-vous à cette [section](../building-journeys/using-adobe-campaign-v7-v8.md).
 
-## Accéder à {#access}
+## Accès {#access}
 
-La connexion entre les instances Journey Optimizer et Campaign est configurée par Adobe au moment de la mise en service, si nécessaire. Si vous n’avez pas demandé la connexion au moment de la mise en service, contactez l’assistance Adobe Journey Optimizer en fournissant les détails suivants pour demander l’activation :
+La connexion entre les instances Journey Optimizer et Campaign est configurée par Adobe au moment de l’approvisionnement, si la demande en est faite. Si vous n’avez pas demandé la connexion au moment de l’approvisionnement, contactez l’assistance Adobe Journey Optimizer en fournissant les détails suivants pour demander l’activation :
 
-Depuis Adobe Journey Optimizer :
+À partir d’Adobe Journey Optimizer :
 
-* ID d’organisation (ID d’organisation Adobe)
+* ID d’organisation (OrgID Adobe)
 * Sandbox
 
-Depuis Adobe Campaign :
+À partir d’Adobe Campaign :
 
 * URL de la campagne
 * URL RT
@@ -83,9 +83,9 @@ Voici un exemple :
 
 Dans Journey Optimizer, vous devez configurer une action par message transactionnel. Procédez de la façon suivante :
 
-1. Créez une nouvelle action. Reportez-vous à cette [section](../action/action.md).
-1. Entrez un nom et une description.
-1. Dans le champ **Type d’action**, sélectionnez **Adobe Campaign Classic**.
+1. Créez une action. Reportez-vous à cette [section](../action/action.md).
+1. Saisissez un nom et une description.
+1. Dans le champ **Type d’action**, sélectionnez **Adobe Campaign Classic**.
 1. Cliquez dans le champ **Payload** et collez un exemple de payload JSON correspondant au message Campaign Contactez Adobe pour obtenir cette payload.
 1. Ajustez les différents champs de sorte qu’ils soient statiques ou variables selon que vous souhaitez les mapper ou non sur la zone de travail des parcours. Certains champs, tels que les paramètres de canal pour l’adresse e-mail et les champs de personnalisation (ctx), doivent probablement être définis comme des variables pour le mappage dans le contexte du parcours.
 1. Cliquez sur **Enregistrer**.

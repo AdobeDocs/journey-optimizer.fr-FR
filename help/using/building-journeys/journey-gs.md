@@ -10,9 +10,9 @@ level: Intermediate
 keywords: parcours, premier, commencer, démarrage rapide, audience, événement, action
 exl-id: d940191e-8f37-4956-8482-d2df0c4274aa
 source-git-commit: c68e72d170792fc0ea3b6eb09b3acf818ec2cfd5
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2086'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -214,18 +214,18 @@ Un individu ne peut entrer dans une activité d’attente que s’il dispose de 
 
 ### Politiques de fusion {#merge-policies}
 
-Parcours utilise des stratégies de fusion lors de la récupération des données de profil de Adobe Experience Platform. Selon le type de parcours, différentes stratégies de fusion sont utilisées :
+Le parcours utilise des politiques de fusion lors de la récupération des données de profil d’Adobe Experience Platform. Selon le type de parcours, différentes politiques de fusion sont utilisées :
 
-* Dans les parcours Lecture d’audience ou qualification de l’audience : la stratégie de fusion de l’audience est utilisée
-* Dans les parcours déclenchés par un événement : la stratégie de fusion par défaut est utilisée.
+* Dans les parcours Lecture d’audience ou Qualification d’audience : la politique de fusion de l’audience est utilisée
+* Dans les parcours déclenchés par un événement : la politique de fusion par défaut est utilisée.
 
-Parcours respectera la stratégie de fusion utilisée tout au long du parcours.
+Le parcours respectera la politique de fusion utilisée tout au long du parcours.
 
 >[!NOTE]
 >
->Cette fonctionnalité est uniquement disponible en disponibilité limitée (LA) pour certains clients.
+>Cette fonctionnalité est uniquement disponible en disponibilité limitée (LA) pour certains clientes et clients.
 
-Pour en savoir plus sur les stratégies de fusion, reportez-vous à cette section [page](https://experienceleague.adobe.com/en/docs/experience-platform/profile/merge-policies/overview)
+Pour en savoir plus sur les politiques de fusion, reportez-vous à cette [page](https://experienceleague.adobe.com/fr/docs/experience-platform/profile/merge-policies/overview).
 
 ## Dupliquer un parcours {#duplicate-a-journey}
 

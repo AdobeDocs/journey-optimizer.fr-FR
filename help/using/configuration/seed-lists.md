@@ -10,9 +10,9 @@ level: Intermediate
 keywords: liste de contrôle, contrôle, configuration
 exl-id: 0172f6bc-da8b-4a83-a0fc-4ed41324568f
 source-git-commit: 815595f907ed3ea05b7772a1df96187509351bf9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '945'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -156,4 +156,4 @@ Désormais, chaque fois qu’un e-mail est envoyé à vos clientes et clients pa
 
 >[!NOTE]
 >
->Pour les parcours récurrents, la diffusion email est envoyée aux adresses de contrôle à chaque exécution parcours, à condition qu’au moins un profil atteigne le noeud email.
+>Pour les parcours récurrents, la diffusion par e-mail est envoyée aux adresses de contrôle à chaque exécution du parcours, à condition qu’au moins un profil atteigne le nœud d’e-mail.

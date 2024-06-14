@@ -10,12 +10,12 @@ level: Experienced
 keywords: IP, groupe, sous-domaines, délivrabilité
 hide: true
 hidefromtoc: true
-badge: label="Version Beta"
+badge: label="Version bêta"
 exl-id: c2434086-2ed4-4cd0-aecd-2eea8f0a55f6
 source-git-commit: c400104c86e1a9a2de819db7743b3f77153ad90b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1674'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -38,9 +38,9 @@ Pour créer, modifier supprimer des plans de préchauffage d’adresses IP et y 
 
 +++Découvrez comment attribuer le rôle Consultant en délivrabilité, ou encore les autorisations associées aux plans de préchauffage des adresses IP.
 
-Le contrôle d’accès au niveau de l’objet vous permet de protéger les données et d’accorder un accès spécifique pour afficher et gérer vos plans. Si aucune étiquette n’est attribuée à votre plan de chauffage par IP, il sera ouvert pour affichage et modification par tous les utilisateurs.
+Le contrôle d’accès au niveau de l’objet vous permet de protéger les données et d’accorder un accès spécifique pour afficher et gérer vos plans. Si aucun libellé n’est attribué à votre plan de préchauffage des adresses IP, les utilisateurs et utilisatrices pourront l’afficher et le modifier.
 
-Octroi de la propriété **[!UICONTROL Afficher les plans de chaleur IP]** L’autorisation limite l’accès à l’affichage et à la publication uniquement, lors de l’attribution de la variable **[!UICONTROL Gestion des plans de chauffage des adresses IP]** L’autorisation permet aux utilisateurs d’afficher et de modifier le plan.
+L’octroi de l’autorisation **[!UICONTROL Afficher les plans de préchauffage des adresses IP]** limite l’accès à l’affichage et à la publication uniquement, alors que l’attribution de l’autorisation **[!UICONTROL Gérer des plans de préchauffage des adresses IP]** permet aux utilisateurs et utilisatrices d’afficher et de modifier le plan.
 
 Pour attribuer l’autorisation correspondant à un **[!UICONTROL rôle]** spécifique :
 
@@ -80,11 +80,11 @@ Pour affecter le rôle correspondant à **[!UICONTROL un utilisateur ou une util
 
 Le préchauffage d’adresses IP est une activité qui consiste à augmenter progressivement le volume d’e-mails qui sortent de vos adresses IP et domaine vers les principaux fournisseurs d’accès à Internet (FAI), afin d’établir votre réputation d’expéditeur légitime.
 
-Cette activité est généralement réalisée avec l’aide d’un expert en délivrabilité qui aide à préparer un plan bien pensé basé sur les domaines du secteur, les cas d’utilisation, les régions, les FAI et divers autres facteurs.
+Cette activité est réalisée en temps opportun avec l’aide d’une personne spécialisée en délivrabilité qui contribue à la préparation d’un plan bien conçu basé sur les domaines du secteur, les cas d’utilisation, les régions, les FAI et d’autres facteurs.
 
 <!--When working with the [!DNL Journey Optimizer] IP warmup feature, this plan takes the form of an Excel file that must contain a number of predefined columns.-->
 
-Avant de pouvoir créer un plan de préchauffage d’adresses IP dans l’interface [!DNL Journey Optimizer], vous devez renseigner un modèle Excel avec toutes les données qui alimenteront votre plan.
+Avant de pouvoir créer un plan de préchauffage des adresses IP dans l’interface [!DNL Journey Optimizer], vous devez renseigner un modèle Excel avec toutes les données qui alimenteront votre plan.
 
 * Depuis l’interface utilisateur, vous pouvez télécharger le [modèle de plan de préchauffage des adresses IP](assets/IPWarmupPlan-Template.xlsx) Excel (vierge), afin de le remplir.
 
@@ -202,9 +202,9 @@ Vous pouvez également ajouter d’autres colonnes à votre plan en incluant des
 
 Utilisez l’onglet **[!UICONTROL Groupe de domaines personnalisés]** pour définir un nouveau groupe de domaines. Pour chaque domaine, vous pouvez ajouter tous les sous-domaines qu’il couvre.<!--TBC-->
 
-Assurez-vous que chaque domaine est unique à son groupe de domaines et ne chevauche pas d’autres groupes de domaines. Les groupes de domaines globaux étant automatiquement définis, les utilisateurs doivent tenir compte de ces éléments lors de la création de groupes de domaines personnalisés.
+Assurez-vous que chaque domaine soit propre à son groupe de domaines et n’empiète pas sur d’autres groupes de domaines. Les groupes de domaines globaux étant automatiquement définis, les utilisateurs et utilisatrices doivent tenir compte de ces éléments lors de la création de groupes de domaines personnalisés.
 
-Par exemple, si vous ajoutez le domaine personnalisé Luma, vous souhaitez inclure les sous-domaines suivants : luma.com, luma.co.uk, luma.it, luma.fr, luma.de, etc.
+Par exemple, si vous ajoutez le domaine personnalisé Luma, vous devriez inclure les sous-domaines suivants : luma.com, luma.co.uk, luma.it, luma.fr, luma.de, etc.
 
 ![](assets/ip-warmup-sample-file-custom.png)
 
