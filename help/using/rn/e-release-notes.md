@@ -6,10 +6,10 @@ description: Notes de mise à jour anticipées de Journey Optimizer
 feature: Release Notes
 topic: Content Management
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: cf4437dd9018466aea9b03b0decab76abb696952
+source-git-commit: f34e7e246339371be8c19c54b9fff921177f5ace
 workflow-type: tm+mt
-source-wordcount: '458'
-ht-degree: 34%
+source-wordcount: '454'
+ht-degree: 31%
 
 ---
 
@@ -167,7 +167,7 @@ Cette version est fournie avec les améliorations répertoriées ci-dessous.
 * Le délai d’attente global par parcours est passé de 30 à 91 jours.
 * Adobe Journey Optimizer prend désormais en charge les demandes de suppression/accès des informations personnelles ainsi que les demandes de gestion du cycle de vie des données.
 * Vous pouvez désormais redimensionner les colonnes de l’inventaire des parcours.
-* **Éditeur d’expression avancé dans la configuration des événements** est désormais GA : vous pouvez désormais utiliser l’éditeur d’expression avancé lors de la configuration d’un événement, ce qui vous permet de définir des expressions plus complexes ou d’utiliser des fonctions dans la condition d’identifiant d’événement. Cette fonctionnalité est publiée en disponibilité limitée pour certaines clientes et certains clients uniquement. [En savoir plus](../event/about-creating.md)
+* **Éditeur d’expression avancé dans la configuration des événements** est désormais GA : vous pouvez désormais utiliser l’éditeur d’expression avancé lors de la configuration d’un événement, ce qui vous permet de définir des expressions plus complexes ou d’utiliser des fonctions dans la condition d’identifiant d’événement. Cette fonctionnalité est disponible en disponibilité limitée pour certains clients. <!--[Read more](../event/about-creating.md)-->
 * **Stratégies de fusion** sont désormais GA : les stratégies de fusion utilisées par un Parcours sont désormais visibles et cohérentes dans tout le parcours. Cette fonctionnalité est disponible en disponibilité limitée pour certains clients. <!--[Read more](../building-journeys/journey-gs.md#merge-policies)-->
 
 
@@ -188,7 +188,7 @@ Cette version est fournie avec les améliorations répertoriées ci-dessous.
 
 **Canal in-app**
 
-* **Fragment d’expression** - Les fragments d’expression sont désormais disponibles pour le **Canal in-app**. [En savoir plus](../personalization/use-expression-fragments.md)
+* **Fragment d’expression** - Les fragments d’expression sont désormais disponibles pour le **Canal in-app**. <!--[Read more](../personalization/use-expression-fragments.md)-->
 
 
 * Vous pouvez désormais utiliser le module externe Edge Delivery pour obtenir les informations nécessaires pour comprendre et résoudre les problèmes liés à vos implémentations entrantes.
