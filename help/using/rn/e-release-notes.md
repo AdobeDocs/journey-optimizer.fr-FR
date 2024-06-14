@@ -5,11 +5,10 @@ title: Notes de mise à jour
 description: Notes de mise à jour anticipées de Journey Optimizer
 feature: Release Notes
 topic: Content Management
-exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: f34e7e246339371be8c19c54b9fff921177f5ace
+source-git-commit: 1840e32efbea7aaff50c497d6387232a4e02d2c9
 workflow-type: tm+mt
-source-wordcount: '454'
-ht-degree: 31%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -150,7 +149,7 @@ Cette version est fournie avec les améliorations répertoriées ci-dessous.
 
 **Gestion des décisions**
 
-* **Prise en charge de plusieurs règles dans la gestion des décisions** - Vous pouvez désormais ajouter jusqu’à 10 règles de limitation pour une offre donnée dans la gestion des décisions. Cela vous permet d’augmenter le niveau de contrôle sur la manière dont les offres sont envoyées. <!--[Learn more](../offers/offer-library/add-constraints.md#capping)-->
+* **Prise en charge de plusieurs règles dans la gestion des décisions** - Vous pouvez désormais ajouter jusqu’à 10 règles de limitation pour une offre donnée dans la gestion des décisions. Cela vous permet d’augmenter le niveau de contrôle sur la manière dont les offres sont envoyées. [En savoir plus](../offers/offer-library/add-constraints.md#capping)
 
 <!--* **Audits** - The **Change log** tab allowing you to see all the changes that have been made to an offer or a decision has been removed. Changes related to offers and decisions can now be seen in the **Audits** menu. -->
 
