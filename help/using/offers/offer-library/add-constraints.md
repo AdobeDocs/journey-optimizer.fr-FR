@@ -7,9 +7,9 @@ role: User
 level: Intermediate
 exl-id: 7234a8e8-4ab0-4f17-a833-5e452fadac35
 source-git-commit: 0362cb5af7845333d5657829b073881e1ee3c542
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2636'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -141,12 +141,12 @@ Pour faire simple, la sortie d’une audience est une liste de profils, tandis q
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_capping"
 >title="Utilisation de la limitation"
->abstract="Pour éviter de sur-solliciter vos clients, utilisez la limitation pour définir le nombre maximal de fois où une offre peut être présentée. Vous pouvez créer jusqu’à 10 règles de limitation pour une offre donnée."
+>abstract="Pour éviter de sursolliciter vos clientes et clients, utilisez la limitation pour définir le nombre maximal de fois où une offre peut être présentée. Vous pouvez créer jusqu’à 10 règles de limitation pour une offre donnée."
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/decisioning/offer-decisioning/managing-offers-in-the-offer-library/configure-offers/add-constraints.html?lang=fr#capping-change-date" text="La modification des dates peut avoir un impact sur la limitation."
 
-La limitation est utilisée comme contrainte pour définir le nombre maximal de fois où une offre peut être présentée. Limiter le nombre de fois où les utilisateurs reçoivent des offres spécifiques vous permet d’éviter de sur-solliciter vos clients et donc d’optimiser chaque point de contact avec la meilleure offre.
+La limitation est utilisée comme contrainte pour définir le nombre maximal de fois où une offre peut être présentée. Limiter le nombre de fois où les utilisateurs et utilisatrices reçoivent des offres spécifiques vous permet d’éviter de sur-solliciter vos clientes et clients et donc d’optimiser chaque point de contact avec la meilleure offre.
 
-Vous pouvez ajouter jusqu’à 10 règles de limitation pour une offre donnée. Pour définir une règle de limitation, cliquez sur le bouton **[!UICONTROL Création d’une limitation]** puis procédez comme suit :
+Vous pouvez ajouter jusqu’à 10 règles de limitation pour une offre donnée. Pour définir une règle de limitation, cliquez sur le bouton **[!UICONTROL Créer une limitation]** puis procédez comme suit :
 
 >[!CAUTION]
 >
@@ -179,7 +179,7 @@ Le nombre de fois où une offre est proposée est calculé au moment de la prép
 >title="Impression"
 >abstract="L’utilisation des impressions comme événements de limitation n’est disponible que pour les canaux entrants."
 
-La variable **[!UICONTROL Choisir un événement de limitation]** vous permet de définir l’événement qui sera pris en compte pour augmenter le compteur :
+Le champ **[!UICONTROL Choisir l’événement de limitation]** vous permet de définir l’événement à prendre en compte pour augmenter la valeur du compteur :
 
 ![](../assets/offer-capping-event.png)
 
@@ -217,7 +217,7 @@ La variable **[!UICONTROL Choisir un événement de limitation]** vous permet de
 
 ### Type de limitation {#capping-type}
 
-Vous pouvez indiquer si vous souhaitez que la limitation soit appliquée à tous les utilisateurs ou à un profil spécifique :
+Vous pouvez indiquer si vous souhaitez que la limitation soit appliquée à tous les utilisateurs et utilisatrices ou à un seul profil spécifique :
 
 ![](../assets/offer-capping-total.png)
 
@@ -248,7 +248,7 @@ Par exemple, vous avez défini un événement de limitation personnalisé comme 
 >title="Définir la fréquence de limitation"
 >abstract="Vous pouvez choisir de réinitialiser le compteur de limitation des offres tous les jours, toutes les semaines ou tous les mois. Notez qu’après la publication de l’offre avec le capping de la fréquence activé, vous ne pourrez pas modifier la fréquence définie."
 
-La variable **[!UICONTROL Réinitialiser la fréquence de limitation]** vous permet de définir la fréquence de réinitialisation du nombre de limitations. Pour ce faire, définissez la période du comptage (quotidienne, hebdomadaire ou mensuelle) et saisissez le nombre de jours, semaines ou mois de votre choix. Par exemple, si vous souhaitez que le nombre de limitations soit réinitialisé toutes les 2 semaines, sélectionnez **[!UICONTROL Hebdomadaire]** dans la liste déroulante correspondante et saisissez **2** dans l’autre champ.
+Le champ **[!UICONTROL Réinitialiser la fréquence de limitation]** vous permet de définir la fréquence à laquelle le nombre de limitations est réinitialisé. Pour ce faire, définissez la période du comptage (quotidienne, hebdomadaire ou mensuelle) et saisissez le nombre de jours, semaines ou mois de votre choix. Par exemple, si vous souhaitez que le nombre de limitations soit réinitialisé toutes les 2 semaines, sélectionnez **[!UICONTROL Hebdomadaire]** dans la liste déroulante correspondante et saisissez **2** dans l’autre champ.
 
 ![](../assets/offer-capping-frequency.png)
 

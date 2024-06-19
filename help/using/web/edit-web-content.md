@@ -7,7 +7,7 @@ role: User
 level: Beginner
 exl-id: 3847ac1d-2c0a-4f80-8df9-e8e304faf261
 source-git-commit: 11cae07d061b67136f50201e89c0e349e919620d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1057'
 ht-degree: 100%
 
@@ -125,7 +125,7 @@ Pour commencer à créer votre campagne web, procédez comme suit :
 
    ![](assets/web-designer-header-style.png)
 
-## Ajout d&#39;une personnalisation
+## Ajouter une personnalisation
 
 Pour ajouter de la personnalisation, sélectionnez un conteneur et l’icône de personnalisation dans la barre du menu contextuel qui s’affiche. Apportez vos modifications à l’aide de l’éditeur de personnalisation. [En savoir plus](../personalization/personalization-build-expressions.md).
 
