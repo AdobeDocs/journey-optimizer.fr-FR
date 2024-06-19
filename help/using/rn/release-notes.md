@@ -9,7 +9,7 @@ exl-id: 06fa956a-b500-416e-9d42-b683c328e837
 source-git-commit: d2e53b85638a7ca5defcbe67aff6e19bc029f9a0
 workflow-type: tm+mt
 source-wordcount: '1321'
-ht-degree: 65%
+ht-degree: 93%
 
 ---
 
@@ -27,11 +27,11 @@ ht-degree: 65%
 ![Newsletter](../assets/do-not-localize/nl-icon.png) Inscrivez-vous à la [newsletter trimestrielle d’Adobe Journey Optimizer](https://www.adobe.com/subscription/Adobe_Journey_Optimizer_NL.html){target="_blank"} dès aujourd’hui, et recevez les dernières mises à jour produits, les articles les plus intéressants, des cas pratiques, des conseils et bien plus encore, directement dans votre boîte de réception, tous les trimestres.
 
 
-## Notes de mise à jour initiales de juin 2024 {#24-6-2024}
+## Notes de mise à jour anticipées de juin 2024 {#24-6-2024}
 
 **Les notes de mise à jour anticipées ci-dessous peuvent être modifiées sans préavis jusqu’à la date de publication.**.
 
-**Date de publication**: 18-19 juin 2024
+**Date de publication** : 18-19 juin 2024
 
 ### Nouvelles fonctionnalités {#june-24-features}
 
@@ -40,13 +40,13 @@ Cette version apporte les nouvelles fonctionnalités détaillées ci-dessous.
 <table>
 <thead>
 <tr>
-<th><strong>Workflow de maintenance d’IP</strong><br/></th>
+<th><strong>Workflow de préchauffage d’adresses IP</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Si vous envoyez des emails sur une toute nouvelle adresse IP, vous pouvez désormais facilement exécuter des workflows de chauffage des adresses IP directement à partir de l’interface utilisateur. Adobe Journey Optimizer offre un moyen standardisé et efficace d’affiner vos adresses IP en respectant les bonnes pratiques de délivrabilité optimale.</p>
+<p>Si vous envoyez des e-mails sur une toute nouvelle adresse IP, vous pouvez désormais facilement exécuter des workflows de préchauffage d’adresses IP directement à partir de l’interface d’utilisation. Adobe Journey Optimizer offre un moyen standardisé et efficace de préchauffer vos adresses IP en respectant les bonnes pratiques de délivrabilité optimale.</p>
 <!--p>For more information, refer to the <a href="../configuration/ip-warmup-gs.md">detailed documentation</a>.</p-->
 </td>
 </tr>
@@ -74,7 +74,7 @@ Cette version apporte les nouvelles fonctionnalités détaillées ci-dessous.
 <table>
 <thead>
 <tr>
-<th><strong>Assistant IA dans Adobe Journey Optimizer</strong><br/></th>
+<th><strong>Assistant IA dans Adobe Journey Optimizer</strong><br/></th>
 </tr>
 </thead>
 <tbody>
@@ -162,7 +162,7 @@ Cette version est fournie avec les améliorations répertoriées ci-dessous.
 
 **Gestion des décisions**
 
-* **Prise en charge de plusieurs règles dans la gestion des décisions** - Vous pouvez désormais ajouter jusqu’à 10 règles de limitation pour une offre donnée dans la gestion des décisions. Cela vous permet d’augmenter le niveau de contrôle sur la manière dont les offres sont envoyées. [En savoir plus](../offers/offer-library/add-constraints.md#capping)
+* **Prise en charge de plusieurs règles dans la gestion des décisions** : vous pouvez désormais ajouter jusqu’à 10 règles de limitation pour une offre donnée dans la gestion des décisions. Cela vous permet d’augmenter le niveau de contrôle sur la manière dont les offres sont envoyées. [En savoir plus](../offers/offer-library/add-constraints.md#capping)
 
 <!--* **Audits** - The **Change log** tab allowing you to see all the changes that have been made to an offer or a decision has been removed. Changes related to offers and decisions can now be seen in the **Audits** menu. -->
 
@@ -173,24 +173,24 @@ Cette version est fournie avec les améliorations répertoriées ci-dessous.
 >Notez que ces améliorations seront progressivement déployées dans les jours qui suivront la version initiale. Bien que certains utilisateurs disposent d’un accès immédiat, d’autres peuvent rencontrer un délai avant qu’il ne soit disponible dans leur environnement.
 
 * Les fragments peuvent désormais être modifiés et les modifications peuvent être propagées dans tous les parcours actifs et toutes les campagnes dans lesquels elles sont utilisées.
-* De nouveaux statuts pour les fragments de contenu ont été ajoutés : **Version préliminaire**, **En direct**, **Publication**, et **Archivé**.
-* Pour utiliser un fragment dans un parcours ou une campagne, il doit maintenant se trouver dans la variable **En direct** statut. Une nouvelle étape a été ajoutée au processus de création de fragment, permettant de publier le fragment et de le rendre disponible pour utilisation dans les parcours et les campagnes. Notez que la publication de fragments nécessite une nouvelle autorisation.
+* De nouveaux statuts pour les fragments de contenu ont été ajoutés : **Brouillon**, **Actif**, **Publication** et **Archivé**.
+* Pour utiliser un fragment dans un parcours ou une campagne, il doit maintenant se trouver au statut **Actif**. Une nouvelle étape a été ajoutée au processus de création de fragment, permettant de publier le fragment et de le rendre disponible à l’utilisation dans les parcours et les campagnes. Notez que la publication de fragments nécessite une nouvelle autorisation.
 
-  **ATTENTION** - Depuis **Version préliminaire** et **En direct** Les statuts ont été introduits avec la version de juin de Journey Optimizer, tous les fragments créés avant cette version ont la valeur **Version préliminaire** , même s’ils sont utilisés dans un parcours ou une campagne. Découvrez comment mettre à jour vos fragments existants dans cette section.
+  **ATTENTION** : depuis l’introduction des statuts **Brouillon** et **Actif** avec la version de juin de Journey Optimizer, tous les fragments créés avant cette version ont le statut **Brouillon**, même s’ils sont utilisés dans un parcours ou une campagne. Découvrez comment mettre à jour vos fragments existants dans cette section.
 
 **Parcours**
 
-* Le délai d’attente global par parcours a été augmenté de 30 à 90 jours.
-* Adobe Journey Optimizer prend désormais en charge les demandes de suppression/accès des informations personnelles ainsi que les demandes de gestion du cycle de vie des données.
+* Le délai d’expiration global de parcours est passé de 30 à 90 jours.
+* Adobe Journey Optimizer prend désormais en charge les demandes de suppression/d’accès pour les informations personnelles ainsi que les demandes de gestion du cycle de vie des données.
 * Vous pouvez désormais redimensionner les colonnes de l’inventaire des parcours.
-* **Éditeur d’expression avancé dans la configuration des événements** est désormais GA : vous pouvez désormais utiliser l’éditeur d’expression avancé lors de la configuration d’un événement, ce qui vous permet de définir des expressions plus complexes ou d’utiliser des fonctions dans la condition d’identifiant d’événement. Cette fonctionnalité est disponible en disponibilité limitée pour certains clients. <!--[Read more](../event/about-creating.md)-->
-* **Stratégies de fusion** sont désormais GA : les stratégies de fusion utilisées par un Parcours sont désormais visibles et cohérentes dans tout le parcours. Cette fonctionnalité est disponible en disponibilité limitée pour certains clients. <!--[Read more](../building-journeys/journey-gs.md#merge-policies)-->
+* **L’éditeur d’expression avancé dans la configuration des événements** est maintenant disponible de manière générale : vous pouvez désormais utiliser l’éditeur d’expression avancé lors de la configuration d’un événement, ce qui vous permet de définir des expressions plus complexes ou d’utiliser des fonctions dans la condition d’ID d’événement. Cette fonctionnalité est disponible en disponibilité limitée pour certains clients. <!--[Read more](../event/about-creating.md)-->
+* **Les politiques de fusion** sont maintenant disponibles de manière générale : les politiques de fusion utilisées par un parcours sont désormais visibles et cohérentes dans l’ensemble du parcours. Cette fonctionnalité est disponible en disponibilité limitée pour certains clients. <!--[Read more](../building-journeys/journey-gs.md#merge-policies)-->
 
 
 
 **Campagnes**
 
-* Lors de la création d’une campagne dans Adobe Journey Optimizer, vous pouvez désormais choisir le type de campagne (planifiée ou déclenchée) dans un nouveau modal.
+* Lors de la création d’une campagne dans Adobe Journey Optimizer, vous pouvez désormais choisir le type de campagne (planifiée ou déclenchée) dans une nouvelle boîte de dialogue modale.
 
 <!--**Email channel**
 
@@ -199,7 +199,7 @@ Cette version est fournie avec les améliorations répertoriées ci-dessous.
 
 **Canal SMS**
 
-* Vous pouvez désormais ajouter des codes courts uniques pour chaque environnement de test avec une seule configuration d’API, ce qui rend le processus plus efficace et plus simple.
+* Vous pouvez désormais ajouter des codes courts uniques pour chaque sandbox avec une seule configuration d’API, ce qui rend le processus plus efficace et plus simple.
   <!--* You can now modify existing SMS configurations.-->
 
 **Canal in-app**
@@ -207,7 +207,7 @@ Cette version est fournie avec les améliorations répertoriées ci-dessous.
 * **Fragment d’expression** - Les fragments d’expression sont désormais disponibles pour le **Canal in-app**. <!--[Read more](../personalization/use-expression-fragments.md)-->
 
 
-* Vous pouvez désormais utiliser le module externe Edge Delivery pour obtenir les informations nécessaires pour comprendre et résoudre les problèmes liés à vos implémentations entrantes.
+* Vous pouvez désormais utiliser le plug-in Edge Delivery pour obtenir les informations nécessaires pour comprendre et résoudre les problèmes liés à vos implémentations entrantes.
 
 <!--
 **Direct mail channel**
