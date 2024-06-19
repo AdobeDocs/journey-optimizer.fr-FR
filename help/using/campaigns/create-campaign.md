@@ -9,10 +9,10 @@ role: User
 level: Beginner
 keywords: créer, optimizer, campagne, surface, messages
 exl-id: 617d623c-e038-4b5b-a367-5254116b7815
-source-git-commit: 2edff0123084fa1736fb8198c3b4e8ff4e40341d
+source-git-commit: c58fda6a59daae7a404058609bce01623064f9fb
 workflow-type: tm+mt
-source-wordcount: '960'
-ht-degree: 100%
+source-wordcount: '925'
+ht-degree: 89%
 
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 100%
 
 Pour créer une campagne, accédez au menu **[!UICONTROL Campagnes]**, puis cliquez sur **[!UICONTROL Créer une campagne]**. Vous pouvez également dupliquer une campagne active existante pour en créer une nouvelle. [En savoir plus](modify-stop-campaign.md#duplicate)
 
-## Choisissez le type et le canal de la campagne. {#campaigntype}
+## Choisissez le type d&#39;opération {#campaigntype}
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_campaign_type"
@@ -39,25 +39,13 @@ Pour créer une campagne, accédez au menu **[!UICONTROL Campagnes]**, puis cliq
 >title="Catégorie de campagne"
 >abstract="Si vous créez une campagne planifiée, le type **marketing** est automatiquement sélectionné. Pour les campagnes déclenchées par l’API, choisissez si vous souhaitez envoyer un message **marketing** (message promotionnel nécessitant le consentement de la personne) ou un message **transactionnel** (message non commercial, qui peut également être envoyé à des profils désabonnés dans des contextes spécifiques)."
 
-1. Dans la section **[!UICONTROL Propriétés]**, indiquez quand exécuter la campagne. Deux types de campagne sont disponibles :
+1. Sélectionnez le type de campagne à exécuter.
 
-   * **[!UICONTROL Planifié]** : permet d’exécuter la campagne immédiatement ou à une date spécifiée. Les campagnes planifiées visent à envoyer des messages de **marketing**. Ils sont configurés et exécutés à partir de l’interface utilisateur.
+   * **[!UICONTROL Planifié - Marketing]**: exécutez immédiatement l’opération ou à une date spécifiée. Les campagnes planifiées visent à envoyer des messages de **marketing**. Ils sont configurés et exécutés à partir de l’interface utilisateur.
 
-   * **[!UICONTROL Déclenché par API]** : permet d’exécuter la campagne à l’aide d’un appel API. Les campagnes déclenchées par API sont destinées à envoyer des messages **marketing**, ou **transactionnels**, c’est-à-dire des messages envoyés suite à une action effectuée par une personne : réinitialisation du mot de passe, abandon de panier, etc. [Découvrez comment déclencher une campagne à l’aide d’API](api-triggered-campaigns.md)
+   * **[!UICONTROL déclenchée par l’API - Marketing/Transactionnel]**: exécutez la campagne à l’aide d’un appel API. Les campagnes déclenchées par API sont destinées à envoyer des messages **marketing**, ou **transactionnels**, c’est-à-dire des messages envoyés suite à une action effectuée par une personne : réinitialisation du mot de passe, abandon de panier, etc. [Découvrez comment déclencher une campagne à l’aide d’API](api-triggered-campaigns.md)
 
-1. Si vous créez une campagne planifiée, le type **marketing** est automatiquement sélectionné. Pour les campagnes déclenchées par API, choisissez si vous souhaitez envoyer un message **marketing** ou **transactionnel**.
-
-1. Dans la section **[!UICONTROL Actions]**, choisissez le canal et la surface de canal à utiliser pour envoyer votre message, puis cliquez sur Créer.
-
-   Une surface est une configuration définie par l’[administrateur système](../start/path/administrator.md). Elle contient tous les paramètres techniques relatifs à l’envoi du message, tels que les paramètres d’en-tête, le sous-domaine, les applications mobiles, etc. [En savoir plus](../configuration/channel-surfaces.md).
-
-   Seules les surfaces de canal compatibles avec le type de campagne marketing sont répertoriées dans la liste déroulante.
-
-   ![](assets/create-campaign-action.png)
-
-   >[!NOTE]
-   >
-   >Si vous créez une campagne de notification push, vous pouvez activer le **[!UICONTROL Mode de diffusion rapide]**, qui est un module complémentaire Journey Optimizer permettant d’envoyer des messages push très rapidement et en grandes quantités. [En savoir plus](../push/create-push.md#rapid-delivery).
+   ![](assets/create-campaign-modal.png)
 
 1. Cliquez sur **[!UICONTROL Créer]** pour créer la campagne.
 
@@ -71,13 +59,41 @@ Pour créer une campagne, accédez au menu **[!UICONTROL Campagnes]**, puis cliq
 
 1. Pour attribuer des étiquettes d’utilisation des données personnalisées ou de base à la campagne, cliquez sur le bouton **[!UICONTROL Gérer l’accès]**. [En savoir plus sur le contrôle d’accès au niveau de l’objet (OLA)](../administration/object-based-access.md)
 
+## Définition de l’audience de la campagne {#audience}
+
+Définissez la population ciblée par l&#39;opération. Procédez comme suit :
+
+>[!IMPORTANT]
+>
+>L’utilisation d’audiences et d’attributs provenant de la [composition de l’audience](../audience/get-started-audience-orchestration.md) et du [chargement personnalisé (fichier CSV)](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=fr#import-audience) n’est actuellement pas disponible avec Healthcare Shield ou Privacy and Security Shield.
+>
+>Pour les campagnes déclenchées par API, l’audience doit être définie via un appel d’API.
+
+1. Dans le **Audience** , cliquez sur le bouton **[!UICONTROL Sélection de l’audience]** pour afficher la liste des audiences Adobe Experience Platform disponibles. [En savoir plus sur les audiences](../audience/about-audiences.md).
+
+1. Dans le champ **[!UICONTROL Espace de noms d’identité]**, choisissez l’espace de noms à utiliser pour identifier les personnes à partir du segment sélectionné.
+
+   Les individus appartenant à un segment qui n’a pas l’identité sélectionnée (espace de noms) parmi leurs différentes identités ne seront pas ciblés par la campagne. [En savoir plus sur les espaces de noms](../event/about-creating.md#select-the-namespace)
+
+   ![](assets/create-campaign-namespace.png)
+
+   <!--If you are are creating an API-triggered campaign, the **[!UICONTROL cURL request]** section allows you to retrieve the **[!UICONTROL Campaign ID]** to use in the API call. [Learn more](api-triggered-campaigns.md)-->
+
 ## Créer le message et configurer le suivi {#content}
 
-Dans la section **[!UICONTROL Actions]**, créez le message à envoyer avec la campagne :
+1. Dans le **[!UICONTROL Actions]** , sélectionnez le canal et la surface à utiliser pour envoyer votre message.
 
-1. Cliquez sur le bouton **[!UICONTROL Modifier le contenu]**, puis créez et concevez le contenu de votre message.
+   Une surface est une configuration définie par l’[administrateur système](../start/path/administrator.md). Elle contient tous les paramètres techniques relatifs à l’envoi du message, tels que les paramètres d’en-tête, le sous-domaine, les applications mobiles, etc. [En savoir plus](../configuration/channel-surfaces.md).
 
-   Découvrez les étapes détaillées pour créer le contenu de votre message dans les pages suivantes :
+   Seules les surfaces de canal compatibles avec le type de campagne marketing sont répertoriées dans la liste déroulante.
+
+   ![](assets/create-campaign-action.png)
+
+   >[!NOTE]
+   >
+   >Si vous créez une campagne de notification push, vous pouvez activer le **[!UICONTROL Mode de diffusion rapide]**, qui est un module complémentaire Journey Optimizer permettant d’envoyer des messages push très rapidement et en grandes quantités. [En savoir plus](../push/create-push.md#rapid-delivery).
+
+1. Cliquez sur le bouton **[!UICONTROL Modifier le contenu]** pour créer et concevoir votre message. Découvrez les étapes détaillées pour créer le contenu de votre message dans les pages suivantes :
 
    <table style="table-layout:fixed">
     <tr style="border: 0;">
@@ -119,24 +135,6 @@ Dans la section **[!UICONTROL Actions]**, créez le message à envoyer avec la c
 1. Dans la section **[!UICONTROL Tracking des actions]**, indiquez si vous souhaitez suivre la réaction des destinataires à votre diffusion : vous pouvez effectuer le suivi des clics et/ou des ouvertures.
 
    Les résultats du suivi seront accessibles dans le rapport de la campagne, une fois celle-ci exécutée. [En savoir plus sur les rapports de campagne](../reports/campaign-global-report.md)
-
-## Définissez l’audience {#audience}
-
-Cliquez sur le bouton **[!UICONTROL Sélectionner une audience]** pour afficher la liste des audiences d’Adobe Experience Platform disponibles. [En savoir plus sur les audiences](../audience/about-audiences.md).
-
->[!IMPORTANT]
->
->L’utilisation d’audiences et d’attributs provenant de la [composition de l’audience](../audience/get-started-audience-orchestration.md) et du [chargement personnalisé (fichier CSV)](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=fr#import-audience) n’est actuellement pas disponible avec Healthcare Shield ou Privacy and Security Shield.
->
->Pour les campagnes déclenchées par API, l’audience doit être définie via un appel d’API.
-
-Dans le champ **[!UICONTROL Espace de noms d’identité]**, choisissez l’espace de noms à utiliser pour identifier les personnes à partir du segment sélectionné.
-
-Les individus appartenant à un segment qui n’a pas l’identité sélectionnée (espace de noms) parmi leurs différentes identités ne seront pas ciblés par la campagne. [En savoir plus sur les espaces de noms](../event/about-creating.md#select-the-namespace)
-
-![](assets/create-campaign-namespace.png)
-
-<!--If you are are creating an API-triggered campaign, the **[!UICONTROL cURL request]** section allows you to retrieve the **[!UICONTROL Campaign ID]** to use in the API call. [Learn more](api-triggered-campaigns.md)-->
 
 ## Planifier la campagne {#schedule}
 
