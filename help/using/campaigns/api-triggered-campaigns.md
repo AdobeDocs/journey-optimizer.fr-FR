@@ -9,10 +9,10 @@ role: Developer
 level: Experienced
 keywords: campagnes, déclenchées par l’API, REST, optimizer, messages
 exl-id: 0ef03d33-da11-43fa-8e10-8e4b80c90acb
-source-git-commit: 8a1ec5acef067e3e1d971deaa4b10cffa6294d75
-workflow-type: ht
-source-wordcount: '971'
-ht-degree: 100%
+source-git-commit: ef32423dafa33406244e09f6dddd760e44e4edbf
+workflow-type: tm+mt
+source-wordcount: '1005'
+ht-degree: 96%
 
 ---
 
@@ -59,6 +59,10 @@ Pour créer une campagne déclenchée par API, suivez les étapes ci-dessous. Vo
 1. Dans la section **[!UICONTROL Audience]**, spécifiez l’espace de noms à utiliser pour identifier les personnes.
 
    * Si vous créez une campagne **transactionnelle**, les profils ciblés doivent être définis dans l’appel API. L’option **[!UICONTROL Créer de nouveaux profils]** permet de créer automatiquement des profils qui n’existent pas dans la base de données. [En savoir plus sur la création de profils lors de l’exécution de la campagne](#profile-creation)
+
+     >[!NOTE]
+     >
+     >Un seul appel API prend en charge jusqu’à 20 destinataires uniques. Chaque destinataire doit disposer d’un identifiant utilisateur unique, les identifiants utilisateur en double ne sont pas autorisés. En savoir plus dans la section [Documentation de l’API d’exécution de message interactif](https://developer.adobe.com/journey-optimizer-apis/references/messaging/#tag/execution/operation/postIMUnitaryMessageExecution){target="_blank"}
 
    * Pour les campagnes **marketing**, cliquez sur le bouton **[!UICONTROL Audience]** pour sélectionner l’audience à cibler.
 
