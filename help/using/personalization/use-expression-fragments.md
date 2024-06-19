@@ -9,10 +9,10 @@ role: Data Engineer
 level: Intermediate
 keywords: expression, éditeur, bibliothèque, personnalisation
 exl-id: 74b1be18-4829-4c67-ae45-cf13278cda65
-source-git-commit: 8a1ec5acef067e3e1d971deaa4b10cffa6294d75
-workflow-type: ht
-source-wordcount: '455'
-ht-degree: 100%
+source-git-commit: 893f7146b358da48153b1e6bc74b8f622028df76
+workflow-type: tm+mt
+source-wordcount: '624'
+ht-degree: 62%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 100%
 
 Lorsque vous utilisez l’**éditeur de personnalisation**, vous pouvez utiliser tous les fragments d’expression qui ont été créés ou enregistrés dans le sandbox actuel.
 
-Découvrez comment créer et gérer des fragments dans [cette section](../content-management/fragments.md).
+Un fragment est un composant réutilisable qui peut être référencé dans [!DNL Journey Optimizer] campagnes et parcours. Cette fonctionnalité permet de précréer plusieurs blocs de contenu personnalisés qui peuvent être utilisés par les utilisateurs marketing pour assembler rapidement le contenu dans un processus de conception amélioré. [Découvrez comment créer et gérer des fragments](../content-management/fragments.md).
 
 ➡️ [Découvrez comment gérer, créer et utiliser des fragments dans cette vidéo.](../content-management/fragments.md#video-fragments)
 
@@ -28,17 +28,17 @@ Découvrez comment créer et gérer des fragments dans [cette section](../conten
 
 Pour ajouter des fragments d’expression à votre contenu, procédez comme suit :
 
+>[!NOTE]
+>
+>Vous pouvez ajouter jusqu’à 30 fragments dans une diffusion donnée. Les fragments ne peuvent être imbriqués qu’à un niveau maximum.
+
 1. Ouvrez l’[éditeur de personnalisation](personalization-build-expressions.md) et sélectionnez le bouton **[!UICONTROL Fragments]** dans le volet de gauche.
+
+   La liste affiche tous les fragments d’expression qui ont été créés ou enregistrés en tant que fragments sur le sandbox actuel. Ils sont triés par date de création : les fragments d’expression récemment ajoutés sont affichés en premier dans la liste. [En savoir plus](../content-management/fragments.md#create-expression-fragment)
 
    ![](assets/expression-fragments-pane.png)
 
-   La liste affiche tous les fragments d’expression qui ont été créés ou enregistrés en tant que fragments sur le sandbox actuel. [En savoir plus](../content-management/fragments.md#create-expression-fragment)
-
-   >[!NOTE]
-   >
-   >Les fragments enregistrés sont triés par date de création : les fragments d’expression récemment ajoutés s’affichent en premier dans la liste.
-
-1. Vous pouvez également actualiser la liste.
+   Vous pouvez également actualiser cette liste.
 
    >[!NOTE]
    >
@@ -48,15 +48,15 @@ Pour ajouter des fragments d’expression à votre contenu, procédez comme suit
 
    ![](assets/expression-fragment-add.png)
 
-   Une fois l’ID du fragment ajouté, si vous ouvrez le fragment d’expression correspondant et que vous [le modifiez](../content-management/fragments.md#edit-fragments) depuis l’interface, les modifications sont synchronisées. Elles sont automatiquement propagées à toutes les **[!UICONTROL versions préliminaires]** de parcours/campagnes contenant cet ID de fragment.
-
-   >[!NOTE]
+   >[!CAUTION]
    >
-   >Les modifications ne sont pas propagées au contenu utilisé dans les parcours ou campagnes **[!UICONTROL dynamiques]**.
+   >Vous pouvez ajouter n’importe quel **Version préliminaire** ou **En direct** fragment dans votre contenu. Cependant, vous ne pourrez pas activer votre parcours ou campagne si un fragment avec le statut En création y est utilisé. Lors de la publication parcours ou de la campagne, les fragments de brouillon affichent une erreur et vous devez les approuver pour pouvoir publier.
+   >
+   > Notez que les statuts des fragments sont déployés progressivement au cours des jours qui suivent la publication de Journey Optimizer en juin. Bien que certains utilisateurs disposent d’un accès immédiat, d’autres peuvent rencontrer un délai avant qu’il ne soit disponible dans leur environnement. Si cette amélioration n’est pas encore disponible dans votre environnement, veuillez noter que le fragment ne doit pas obligatoirement être **En direct** à utiliser dans vos parcours et campagnes.
 
-1. Cliquez sur le bouton **[!UICONTROL Plus d’actions]** en regard d’un fragment.
+1. Une fois l’ID du fragment ajouté, si vous ouvrez le fragment d’expression correspondant et que vous [le modifiez](../content-management/fragments.md#edit-fragments) depuis l’interface, les modifications sont synchronisées. Ils sont automatiquement propagés à tous les parcours/campagnes actifs ou de brouillon contenant cet identifiant de fragment.
 
-1. Dans le menu contextuel qui s’ouvre, sélectionnez **[!UICONTROL Afficher le fragment]** pour obtenir plus d’informations sur ce fragment. L’**[!UICONTROL ID du fragment]** s’affiche également et peut être copié à partir de cet emplacement.
+1. Cliquez sur le bouton **[!UICONTROL Autres actions]** en regard d’un fragment. Dans le menu contextuel qui s’ouvre, sélectionnez **[!UICONTROL Afficher le fragment]** pour obtenir plus d’informations sur ce fragment. L’**[!UICONTROL ID du fragment]** s’affiche également et peut être copié à partir de cet emplacement.
 
    ![](assets/expression-fragment-view.png)
 

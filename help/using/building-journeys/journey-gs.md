@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: parcours, premier, commencer, démarrage rapide, audience, événement, action
 exl-id: d940191e-8f37-4956-8482-d2df0c4274aa
-source-git-commit: c68e72d170792fc0ea3b6eb09b3acf818ec2cfd5
-workflow-type: ht
-source-wordcount: '2086'
-ht-degree: 100%
+source-git-commit: 6ff54583c729175c74b3a7ea4ab9188505fde897
+workflow-type: tm+mt
+source-wordcount: '2623'
+ht-degree: 75%
 
 ---
 
@@ -90,13 +90,13 @@ Le statut peut être :
 * **Fermé** : le parcours a été fermé à l’aide du bouton **Fermer aux nouvelles entrées**. Il n’est alors plus accessible aux nouveaux individus. En revanche, les personnes qui ont déjà intégré le parcours peuvent le terminer normalement.
 * **Brouillon** : le parcours en est à sa première étape. Il n’a pas encore été publié.
 * **Brouillon (test)** : le mode test a été activé à l’aide du bouton **Mode test**.
-* **Terminé** : le parcours passe automatiquement à ce statut après le délai d’expiration global par défaut de 30 jours. Les profils de clientes et clients qui ont déjà intégré le parcours le terminent normalement. Les nouveaux profils ne peuvent plus rejoindre le parcours.
+* **Terminé**: le parcours passe automatiquement à ce statut après les 91 jours [délai par défaut](journey-gs.md#global_timeout). Les profils de clientes et clients qui ont déjà intégré le parcours le terminent normalement. Les nouveaux profils ne peuvent plus rejoindre le parcours.
 * **Actif** : le parcours a été publié à l’aide du bouton **Publier**.
 * **Arrêté** : le parcours a été désactivé à l’aide du bouton **Arrêter**. Toutes les personnes quittent instantanément le parcours.
 
 >[!NOTE]
 >
->Le cycle de vie de création de parcours comprend également un ensemble de statuts intermédiaires qui ne sont pas disponibles pour le filtrage : « Publication » (entre « Brouillon » et « Actif »), « Activer le mode test » ou « Désactiver le mode test » (entre « Brouillon » et « Brouillon (test) ») et « Arrêt en cours » (entre « Actif » et « Arrêté »). Lorsqu’un parcours se trouve dans un état intermédiaire, il est en lecture seule.
+>Le cycle de vie de création de Parcours comprend également un ensemble d’états intermédiaires qui ne sont pas disponibles pour le filtrage : &quot;Publication&quot; (entre &quot;Version préliminaire&quot; et &quot;En direct&quot;), &quot;Activation du mode test&quot; ou &quot;Désactivation du mode test&quot; (entre &quot;Version préliminaire&quot; et &quot;Version préliminaire (test)&quot;) et &quot;Arrêt&quot; (entre &quot;En direct&quot; et &quot;Arrêt&quot;). Lorsqu’un parcours se trouve dans un état intermédiaire, il est en lecture seule.
 
 Utilisez les **[!UICONTROL filtres de création]** pour filtrer les parcours en fonction de leur date de création ou de la personne qui les a créés.
 
@@ -186,7 +186,7 @@ Pour plus d&#39;informations sur la gestion des fuseaux horaires, voir [cette pa
 
 Vous pouvez définir une **date de début**. Si vous n’en avez pas spécifié une, elle sera automatiquement définie au moment de la publication.
 
-Vous pouvez également ajouter une **date de fin**. Cela permet aux profils de se fermer automatiquement lorsque la date est atteinte. Si aucune date de fin n’est spécifiée, les profils peuvent rester jusqu’au [délai d’expiration du parcours global](#global_timeout) (30 jours en général ou 7 jours avec l’offre de module complémentaire Healthcare Shield). La seule exception concerne les parcours de lecture d’audience récurrents avec l’option **Forcer une reprise sur la périodicité** activée, qui se termine à la date de début de l’occurrence suivante.
+Vous pouvez également ajouter une **date de fin**. Cela permet aux profils de se fermer automatiquement lorsque la date est atteinte. Si aucune date de fin n’est spécifiée, les profils peuvent rester jusqu’au [délai d’expiration du parcours global](#global_timeout) (91 jours en général ou 7 jours avec l’offre de module complémentaire Healthcare Shield). La seule exception concerne les parcours de lecture d’audience récurrents avec l’option **Forcer une reprise sur la périodicité** activée, qui se termine à la date de début de l’occurrence suivante.
 
 ### Temporisation et erreur dans les activités du parcours {#timeout_and_error}
 
@@ -202,15 +202,123 @@ Les parcours utilisent également une temporisation globale. Pour plus d&#39;inf
 
 Outre la [temporisation](#timeout_and_error) utilisée dans les activités de parcours, il existe une temporisation globale qui n’est pas affichée dans l’interface et qui ne peut pas être modifiée.
 
-Cette temporisation globale met fin à la progression des individus dans le parcours **30 jours** après leur entrée. Cette temporisation est réduite à **7 jours** avec l’offre de module complémentaire Healthcare Shield. En d’autres termes, la durée du parcours d’une personne ne peut pas excéder 30 jours (ou 7 jours). Après cette période de temporisation, les données de cette personne sont supprimées. Les personnes qui sont encore actives dans le parcours au terme de cette période de temporisation seront arrêtées et ne seront pas prises en compte dans le cadre du reporting. Vous pouvez donc voir plus de personnes rejoindre le parcours que le quitter.
+Cette temporisation globale met fin à la progression des individus dans le parcours **91 jours** après leur entrée. Cette temporisation est réduite à **7 jours** avec l’offre de module complémentaire Healthcare Shield. En d’autres termes, la durée du parcours d’une personne ne peut pas excéder 91 jours (ou 7 jours). Après cette période de temporisation, les données de cette personne sont supprimées. Les personnes qui sont encore actives dans le parcours au terme de cette période de temporisation seront arrêtées et ne seront pas prises en compte dans le cadre du reporting. Vous pouvez donc voir plus de personnes rejoindre le parcours que le quitter.
 
 >[!NOTE]
 >
->Les parcours ne réagissent pas directement aux demandes d&#39;opt-out, de suppression ou d&#39;accès. Cependant, la temporisation globale limite à 30 jours la durée d&#39;activité d&#39;un individu au sein d&#39;un parcours.
+>Les parcours ne réagissent pas directement aux demandes d&#39;opt-out, de suppression ou d&#39;accès. Cependant, la temporisation globale limite à 91 jours la durée d&#39;activité d&#39;un individu au sein d&#39;un parcours.
 
-Compte tenu de la temporisation de 30 jours, lorsque la rentrée n’est pas autorisée, nous sommes dans l’impossibilité de garantir que le blocage de rentrée fonctionnera plus de 30 jours. En effet, étant donné que nous supprimons toutes les informations sur les personnes qui ont rejoint le parcours 30 jours après leur entrée, rien ne nous permet de savoir qu&#39;une personne l&#39;a déjà rejoint il y a plus de 30 jours.
+En raison du délai de parcours de 91 jours, lorsque la rentrée du parcours n’est pas autorisée, nous ne pouvons pas nous assurer que le blocage de la rentrée fonctionnera plus de 91 jours. En effet, étant donné que nous supprimons toutes les informations sur les personnes qui ont rejoint le parcours 91 jours après leur entrée, rien ne nous permet de savoir qu&#39;une personne l&#39;a déjà rejoint il y a plus de 91 jours.
 
-Un individu ne peut entrer dans une activité d’attente que s’il dispose de suffisamment de temps dans le parcours pour terminer la durée d’attente avant la temporisation de 30 jours du parcours. Consultez [cette page](../building-journeys/wait-activity.md).
+Un individu ne peut entrer dans une activité d’attente que s’il dispose de suffisamment de temps dans le parcours pour terminer la durée d’attente avant la temporisation de 91 jours du parcours. Consultez [cette page](../building-journeys/wait-activity.md).
+
+
+#### FAQ sur la durée de vie et la rétention des données {#timeout-faq}
+
+**Pour les Parcours unitaires**
+<table style="table-layout:auto">
+  <tr style="border: 1;">
+    <td>
+      <p>Qu’advient-il du parcours publié après le déploiement de l’extension TTL ?</p>
+    </td>
+    <td>
+      <p>Les profils entrant dans le nouveau parcours auront automatiquement un délai d’activation de 91 jours.</p>
+    </td>
+  </tr>
+  <tr style="border: 1;">
+    <td>
+      <p>Qu’advient-il d’un profil entrant dans un parcours publié avant le lancement de l’extension TTL ?</p>
+    </td>
+    <td>
+      <p>Le profil aura un délai d’activation de 91 jours (7 jours pour HIPAA), en fonction de l’heure à laquelle le parcours a été publié à l’origine.</p>
+    </td>
+  </tr>
+  <tr style="border: 1;">
+    <td>
+      <p>Qu’advient-il d’un profil qui a déjà été saisi dans un parcours au lancement de l’extension TTL ?</p>
+    </td>
+    <td>
+      <p>Le profil conservera une durée de vie de 91 jours (7 jours pour HIPAA), selon l’heure de publication originale du parcours.</p>
+    </td>
+  </tr>
+  <tr style="border: 1;">
+    <td>
+      <p>Qu’advient-il d’un profil dans une version de parcours précédente qui est republiée après le lancement de l’extension TTL ?</p>
+    </td>
+    <td>
+      <p>Le profil conserve un délai d’activation de 91 jours (7 jours pour HIPAA), aligné sur l’heure de publication de la version par parcours d’origine.</p>
+    </td>
+  </tr>
+  <tr style="border: 1;">
+    <td>
+      <p>Qu’advient-il d’un nouveau profil entrant dans une version de parcours republiée après le lancement de l’extension TTL ?</p>
+    </td>
+    <td>
+      <p>Le profil aura un délai d’activation de 91 jours, correspondant au délai d’activation de la nouvelle version de parcours republiée.</p>
+    </td>
+  </tr>
+</table>
+
+**Pour les Parcours de déclenchement de segment**
+
+<table style="table-layout:auto">
+  <tr style="border: 1;">
+    <td>
+      <p>Qu’advient-il des nouveaux parcours ponctuels publiés après l’extension TTL ?</p>
+    </td>
+    <td>
+      <p>Les profils entrant dans le nouveau parcours auront un TTL de 91 jours automatiquement.</p>
+    </td>
+  </tr>
+  <tr style="border: 1;">
+    <td>
+      <p>Qu’advient-il des nouveaux parcours récurrents sans nouvelle entrée forcée publiée après l’extension TTL ?</p>
+    </td>
+    <td>
+      <p>Les profils entrant dans le nouveau parcours auront un TTL de 91 jours automatiquement.</p>
+    </td>
+  </tr>
+  <tr style="border: 1;">
+    <td>
+      <p>Qu’advient-il des nouveaux parcours récurrents avec une rentrée forcée publiée après l’extension TTL ?</p>
+    </td>
+    <td>
+      <p>Les profils entrant dans le nouveau parcours auront un TTL égal à la période de périodicité. Par exemple, si le parcours s’exécute tous les jours, la durée de vie est de 1 jour.</p>
+    </td>
+  </tr>
+  <tr style="border: 1;">
+    <td>
+      <p>Qu’advient-il d’un profil entrant dans un parcours publié avant le lancement de l’extension TTL ?</p>
+    </td>
+    <td>
+      <p>Le profil aura un délai d’activation de 91 jours (7 jours pour HIPAA), cohérent avec l’heure de publication d’origine. Pour les parcours récurrents avec une rentrée forcée, la durée de vie correspond à la période de périodicité.</p>
+    </td>
+  </tr>
+  <tr style="border: 1;">
+    <td>
+      <p>Qu’advient-il d’un profil s’exécutant par un parcours lorsque l’extension TTL est lancée ?</p>
+    </td>
+    <td>
+      <p>Le profil conservera une durée de vie de 91 jours (7 jours pour HIPAA), selon l’heure de publication originale du parcours. Pour les parcours récurrents avec une rentrée forcée, la durée de vie correspond à la période de périodicité.</p>
+    </td>
+  </tr>
+  <tr style="border: 1;">
+    <td>
+      <p>Qu’advient-il d’un profil en cours d’exécution dans une version de parcours précédente qui est republiée après le lancement de l’extension TTL ?</p>
+    </td>
+    <td>
+      <p>Le profil conserve un délai d’activation de 91 jours (7 jours pour HIPPA), aligné sur l’heure de publication de la version par parcours d’origine. Pour les parcours récurrents avec une rentrée forcée, la durée de vie correspond à la période de périodicité.</p>
+    </td>
+  </tr>
+  <tr style="border: 1;">
+    <td>
+      <p>Qu’advient-il d’un nouveau profil entrant dans une version de parcours republiée après le lancement de l’extension TTL ?</p>
+    </td>
+    <td>
+      <p>Le profil aura un délai d’activation de 91 jours, correspondant au délai d’activation de la nouvelle version de parcours republiée. Pour les parcours récurrents avec une rentrée forcée, la durée de vie correspond à la période de périodicité.</p>
+    </td>
+  </tr>
+</table>
 
 ### Politiques de fusion {#merge-policies}
 
@@ -219,13 +327,9 @@ Le parcours utilise des politiques de fusion lors de la récupération des donn�
 * Dans les parcours Lecture d’audience ou Qualification d’audience : la politique de fusion de l’audience est utilisée
 * Dans les parcours déclenchés par un événement : la politique de fusion par défaut est utilisée.
 
-Le parcours respectera la politique de fusion utilisée tout au long du parcours.
+Parcours respectera la stratégie de fusion utilisée tout au long du parcours. Par conséquent, si plusieurs audiences sont utilisées dans un parcours (par exemple dans les fonctions &quot;inAudience&quot;), créant des incohérences avec la stratégie de fusion utilisée par le parcours, une erreur est générée et la publication est bloquée. Cependant, si une audience incohérente est utilisée dans la personnalisation des messages, une alerte n&#39;est pas générée, malgré l&#39;incohérence. C&#39;est pourquoi il est vivement recommandé de vérifier la stratégie de fusion associée à votre audience lorsque cette audience est utilisée dans la personnalisation des messages.
 
->[!NOTE]
->
->Cette fonctionnalité est uniquement disponible en disponibilité limitée (LA) pour certains clientes et clients.
-
-Pour en savoir plus sur les politiques de fusion, reportez-vous à cette [page](https://experienceleague.adobe.com/fr/docs/experience-platform/profile/merge-policies/overview).
+Pour en savoir plus sur les stratégies de fusion, reportez-vous à la section [Documentation Adobe Experience Platform](https://experienceleague.adobe.com/fr/docs/experience-platform/profile/merge-policies/overview){target="_blank"}.
 
 ## Dupliquer un parcours {#duplicate-a-journey}
 

@@ -7,10 +7,10 @@ role: User
 level: Experienced
 keyword: direct, mail, configuration, direct-mail, provider
 exl-id: ae5cc885-ade1-4683-b97e-eda1f2142041
-source-git-commit: 3686127299107eb19db8e9290be1b737c1c87ec3
+source-git-commit: c7d8dd94bde49e8d02fe553fbac3942f55bf73fe
 workflow-type: tm+mt
-source-wordcount: '903'
-ht-degree: 100%
+source-wordcount: '1272'
+ht-degree: 81%
 
 ---
 
@@ -58,11 +58,19 @@ Avant de pouvoir générer ce fichier, vous devez créer les éléments suivants
 >title="Choisissez la région AWS"
 >abstract="Sélectionnez la région géographique du serveur AWS où vous souhaitez exporter vos fichiers de publipostage direct. En règle générale, il est préférable de choisir la région la plus proche du lieu où se trouve votre fournisseur de publipostage direct."
 
+>[!NOTE]
+>
+>Actuellement, Amazon S3, SFTP et Azure sont pris en charge dans [!DNL Journey Optimizer].
+
 Pour diffuser un message de publipostage direct, [!DNL Journey Optimizer] génère et exporte vers un serveur le fichier contenant les données de votre audience ciblée.
 
 Vous devez spécifier les détails du serveur afin que votre fournisseur de publipostage direct puisse accéder à ce fichier et l’utiliser pour diffuser du courrier.
 
 Pour configurer le routage des fichiers, suivez les étapes ci-dessous.
+
+>[!BEGINTABS]
+
+>[!TAB Amazon S3]
 
 1. Accédez au menu **[!UICONTROL Administration]** > **[!UICONTROL Canaux]** > **[!UICONTROL Configuration du routage des fichiers]** > **[!UICONTROL Routage des fichiers]**, puis cliquez sur **[!UICONTROL Créer une configuration de routage]**.
 
@@ -70,33 +78,89 @@ Pour configurer le routage des fichiers, suivez les étapes ci-dessous.
 
 1. Attribuez un nom à votre configuration.
 
-1. Sélectionnez le **[!UICONTROL Type de serveur]** que vous souhaitez utiliser pour exporter les fichiers de publipostage direct.
+1. Sélectionner **Amazon S3** comme la propriété **[!UICONTROL Type de serveur]** à utiliser pour exporter les fichiers de courrier.
 
    ![](assets/file-routing-config-type.png){width="800" align="center"}
 
-   >[!NOTE]
-   >
-   >Actuellement, Amazon S3, SFTP et Azure sont pris en charge dans [!DNL Journey Optimizer].
+1. Renseignez les détails et les informations d’identification de votre serveur.
 
-1. Renseignez les détails et les informations d’identification de votre serveur, telles que l’adresse du serveur, la clé d’accès, etc.
+   * **Nom du compartiment AWS**: pour savoir où trouver votre nom de compartiment AWS, reportez-vous à la section [cette page](https://docs.aws.amazon.com/AmazonS3/latest/userguide/UsingBucket.html).
 
-   ![](assets/file-routing-config-sftp-details.png)
+   * **Clé d’accès AWS**: pour savoir où trouver votre identifiant de clé d’accès AWS, reportez-vous à la section [cette page](https://docs.aws.amazon.com/IAM/latest/UserGuide/security-creds.html#access-keys-and-secret-access-keys).
 
-1. Si vous avez sélectionné **[!UICONTROL Amazon S3]**, choisissez la **[!UICONTROL Région AWS]** où se trouve l’infrastructure du serveur.
+   * **Clé secrète AWS**: pour savoir où trouver votre clé secrète AWS, reportez-vous à la section [cette page](https://aws.amazon.com/fr/blogs/security/wheres-my-secret-access-key/).
+
+   * **Région AWS**: sélectionnez la variable **[!UICONTROL Région AWS]** où se trouve l’infrastructure du serveur. Les régions AWS sont des zones géographiques qu’AWS utilise pour héberger ses infrastructures cloud. En règle générale, il est préférable de choisir la région la plus proche de l’emplacement de votre fournisseur de publipostage direct.
 
    ![](assets/file-routing-config-aws-region.png){width="800" align="center"}
-
-   >[!NOTE]
-   >
-   >Les régions AWS sont des zones géographiques qu’AWS utilise pour héberger ses infrastructures cloud. En règle générale, il est préférable de choisir la région la plus proche de l’emplacement de votre fournisseur de publipostage direct.
 
 1. Pour chiffrer le fichier, copiez-collez votre clé de chiffrement dans le champ **[!UICONTROL Clé de chiffrement PGP/GPG]**.
 
 1. Sélectionnez **[!UICONTROL Envoyer]**. La configuration du routage des fichiers est créée avec le statut **[!UICONTROL Actif]**. Elle est maintenant prête à être utilisée dans une [surface de publipostage direct](#direct-mail-surface).
 
-   >[!NOTE]
-   >
-   >Vous pouvez également sélectionner **[!UICONTROL Enregistrer comme brouillon]** pour créer la configuration du routage des fichiers, mais vous ne pourrez pas la sélectionner pour une surface tant qu&#39;elle ne sera pas **[!UICONTROL Active]**.
+   Vous pouvez également sélectionner **[!UICONTROL Enregistrer comme brouillon]** pour créer la configuration du routage des fichiers, mais vous ne pourrez pas la sélectionner pour une surface tant qu&#39;elle ne sera pas **[!UICONTROL Active]**.
+
+>[!TAB SFTP]
+
+1. Accédez au menu **[!UICONTROL Administration]** > **[!UICONTROL Canaux]** > **[!UICONTROL Configuration du routage des fichiers]** > **[!UICONTROL Routage des fichiers]**, puis cliquez sur **[!UICONTROL Créer une configuration de routage]**.
+
+   ![](assets/file-routing-config-button.png){width="800" align="center"}
+
+1. Attribuez un nom à votre configuration.
+
+1. Sélectionnez SFTP comme **[!UICONTROL Type de serveur]** à utiliser pour exporter les fichiers de courrier.
+
+   ![](assets/file-routing-config-type-sftp.png){width="800" align="center"}
+
+1. Renseignez les détails et les informations d’identification de votre serveur :
+
+   * **Compte**: nom du compte utilisé pour la connexion au serveur SFTP.
+
+   * **Adresse du serveur**: URL &#x200B; du serveur SFTP.
+
+   * **Port**: numéro de port de la connexion FTP.
+
+   * **Password**: &#x200B; mot de passe utilisé pour la connexion au serveur SFTP.
+
+   ![](assets/file-routing-config-sftp-detail.png)
+
+1. Pour chiffrer le fichier, copiez-collez votre clé de chiffrement dans le champ **[!UICONTROL Clé de chiffrement PGP/GPG]**.
+
+1. Sélectionnez **[!UICONTROL Envoyer]**. La configuration du routage des fichiers est créée avec le statut **[!UICONTROL Actif]**. Elle est maintenant prête à être utilisée dans une [surface de publipostage direct](#direct-mail-surface).
+
+   Vous pouvez également sélectionner **[!UICONTROL Enregistrer comme brouillon]** pour créer la configuration du routage des fichiers, mais vous ne pourrez pas la sélectionner pour une surface tant qu&#39;elle ne sera pas **[!UICONTROL Active]**.
+
+>[!TAB Azure]
+
+1. Accédez au menu **[!UICONTROL Administration]** > **[!UICONTROL Canaux]** > **[!UICONTROL Configuration du routage des fichiers]** > **[!UICONTROL Routage des fichiers]**, puis cliquez sur **[!UICONTROL Créer une configuration de routage]**.
+
+   ![](assets/file-routing-config-button.png){width="800" align="center"}
+
+1. Attribuez un nom à votre configuration.
+
+1. Sélectionner Azure **[!UICONTROL Type de serveur]** à utiliser pour exporter les fichiers de courrier.
+
+   ![](assets/file-routing-config-type-azure.png){width="800" align="center"}
+
+1. Renseignez les détails et les informations d’identification de votre serveur :
+
+   * **Chaîne de connexion Azure**: pour rechercher votre **Chaîne de connexion Azure**, voir [cette page](https://learn.microsoft.com/en-us/azure/storage/common/storage-configure-connection-string#configure-a-connection-string-for-an-azure-storage-account).
+
+     La variable **Chaîne de connexion Azure** doit suivre le format ci-dessous :
+
+     `DefaultEndpointsProtocol=[http|https];AccountName=myAccountName;AccountKey=myAccountKey`
+
+   * **Nom du conteneur**: pour rechercher votre **Nom du conteneur**, voir [cette page](https://learn.microsoft.com/en-us/azure/storage/blobs/blob-containers-portal).
+
+     La variable **Nom du conteneur** ne doit contenir que le nom du conteneur, sans barre oblique. Pour spécifier un chemin d’accès dans le conteneur permettant d’enregistrer le fichier, mettez à jour le nom de fichier de la campagne de courrier afin d’inclure le chemin d’accès souhaité.
+
+1. Pour chiffrer le fichier, copiez-collez votre clé de chiffrement dans le champ **[!UICONTROL Clé de chiffrement PGP/GPG]**.
+
+1. Sélectionnez **[!UICONTROL Envoyer]**. La configuration du routage des fichiers est créée avec le statut **[!UICONTROL Actif]**. Elle est maintenant prête à être utilisée dans une [surface de publipostage direct](#direct-mail-surface).
+
+   Vous pouvez également sélectionner **[!UICONTROL Enregistrer comme brouillon]** pour créer la configuration du routage des fichiers, mais vous ne pourrez pas la sélectionner pour une surface tant qu&#39;elle ne sera pas **[!UICONTROL Active]**.
+
+>[!ENDTABS]
 
 ## Création d’une surface de publipostage {#direct-mail-surface}
 

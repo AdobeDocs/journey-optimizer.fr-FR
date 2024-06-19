@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: db48c85e3707fcd5fbee61994d488cf640e9afa7
-workflow-type: ht
-source-wordcount: '5355'
-ht-degree: 100%
+source-git-commit: 6ff54583c729175c74b3a7ea4ab9188505fde897
+workflow-type: tm+mt
+source-wordcount: '5389'
+ht-degree: 99%
 
 ---
 
@@ -21,6 +21,8 @@ Cette page répertorie toutes les mises à jour récentes de la documentation de
 
 ## Juin 2024 {#june-2024}
 
+* Toutes les nouvelles fonctionnalités et améliorations de la version [!DNL Journey Optimizer] du 24 juin ont été présentées dans la documentation. [En savoir plus](release-notes.md)
+* Ajout d’une note sur l’utilisation des stratégies de fusion dans parcours dans [cette page](../building-journeys/journey-gs.md#merge-policies).
 * La page concernant la configuration d’une activité **Attente** dans un parcours a été réorganisée et améliorée. [En savoir plus](../building-journeys/wait-activity.md)
 
 ## Mai 2024 {#may-2024}

@@ -5,10 +5,10 @@ description: Découvrez comment utiliser Adobe Journey Optimizer.
 solution: Journey Optimizer
 product: journey optimizer
 exl-id: 3a1b6c61-82df-421c-98d8-2af4f2a5e0de
-source-git-commit: 0ba1e007ebdb3f7d68df270c4a7332bf37eec2b2
-workflow-type: ht
-source-wordcount: '354'
-ht-degree: 100%
+source-git-commit: 6b9044117dcdd7554dea0c5f791a6dcfb0218010
+workflow-type: tm+mt
+source-wordcount: '375'
+ht-degree: 83%
 
 ---
 
@@ -20,27 +20,29 @@ Découvrez les améliorations les plus récentes apportées au produit et à la 
 
 >[!BEGINTABS]
 
->[!TAB La version de mai est en ligne.]
+>[!TAB La version de juin est en ligne !]
 
 Découvrez les nouvelles fonctionnalités et améliorations de la version de mai d’Adobe Journey Optimizer.
 
 [![En savoir plus](using/assets/do-not-localize/learn-more-button.svg)](using/rn/release-notes.md)
 
->[!TAB Décisions pour les expériences]
+>[!TAB Reporting avec Customer Journey Analytics (bêta)]
 
-Décisions pour les expériences simplifie la personnalisation en offrant un catalogue centralisé d’offres marketing connues sous le nom d’« éléments de décision » et un moteur de décision sophistiqué.
+Les rapports Journey Optimizer sont désormais entièrement intégrés aux fonctionnalités de Customer Journey Analytics, ils normalisent les rapports sur les deux plateformes et améliorent la cohérence et la fiabilité des données.
 
-![](using/rn/assets/do-not-localize/gif-exd.gif)
+[![En savoir plus](using/assets/do-not-localize/learn-more-button.svg)](using/reports/cja-ajo.md)
 
-[![En savoir plus](using/assets/do-not-localize/learn-more-button.svg)](using/experience-decisioning/gs-experience-decisioning.md)
+>[!TAB Assistant IA]
 
->[!TAB Nouvelle expérience de parcours]
+L’assistant d’IA est une fonctionnalité de l’interface utilisateur qui vous permet de parcourir et de comprendre les concepts d’Adobe et d’obtenir des informations opérationnelles sur votre environnement spécifique.
 
-Dans cette version, nous avons amélioré l’interface d’utilisation de la zone de travail de parcours afin d’offrir une expérience client plus intuitive et efficace. Les activités sont plus claires et présentent plus d’informations sur la zone de travail de parcours avec moins de clics.
+[![En savoir plus](using/assets/do-not-localize/learn-more-button.svg)](/help/using/start/ai-assistant.md)
 
-![](using/rn/assets/new-canvas3.gif)
+>[!TAB Fragments de contenu]
 
-[![En savoir plus](using/assets/do-not-localize/learn-more-button.svg)](using/rn/new-canvas.md)
+Les fragments peuvent désormais être modifiés et les modifications peuvent être propagées dans tous les parcours actifs et toutes les campagnes dans lesquels elles sont utilisées.
+
+[![En savoir plus](using/assets/do-not-localize/learn-more-button.svg)](using/content-management/fragments.md)
 
 >[!ENDTABS]
 

@@ -7,10 +7,10 @@ feature: SMS, Channel Configuration
 role: Admin
 level: Intermediate
 exl-id: 85412a85-edf0-4069-8bc7-b80371375f1f
-source-git-commit: 342b9210f79266cb11628dcdc411f90844a84e37
-workflow-type: ht
-source-wordcount: '559'
-ht-degree: 100%
+source-git-commit: 794ac45177e467be4bd5b8f7288e07c85e4d806a
+workflow-type: tm+mt
+source-wordcount: '584'
+ht-degree: 95%
 
 ---
 
@@ -51,6 +51,8 @@ Pour configurer votre fournisseur Sinch pour envoyer des SMS et des MMS avec Jou
    * **[!UICONTROL Mots-clés de double opt-in]** : saisissez les mots-clés qui déclenchent le processus de double opt-in. Si un profil de personne n’existe pas, il est créé lors de la confirmation. Pour plusieurs mots-clés, utilisez des valeurs séparées par des virgules. [En savoir plus sur le double opt-in SMS](https://video.tv.adobe.com/v/3427129/?learn=on).
 
    * **[!UICONTROL Message de double opt-in]** : saisissez la réponse personnalisée qui est automatiquement envoyée en réponse à la confirmation de double opt-in.
+
+   * **[!UICONTROL Numéro entrant]**: ajoutez votre numéro entrant unique. Cela vous permet d’utiliser les mêmes informations d’identification d’API dans différents environnements de test, chacune ayant son propre numéro entrant.
 
 1. Cliquez sur **[!UICONTROL Envoyer]** lorsque vous avez terminé la configuration de vos informations d’identification API.
 

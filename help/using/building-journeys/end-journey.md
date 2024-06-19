@@ -8,10 +8,10 @@ role: User
 level: Intermediate
 keywords: reprise, parcours, fin, dynamique, arrêt
 exl-id: ea1ecbb0-12b5-44e8-8e11-6d3b8bff06aa
-source-git-commit: 0571a11eabffeb5e318bebe341a8df18da7db598
-workflow-type: ht
-source-wordcount: '660'
-ht-degree: 100%
+source-git-commit: 6ff54583c729175c74b3a7ea4ab9188505fde897
+workflow-type: tm+mt
+source-wordcount: '662'
+ht-degree: 92%
 
 ---
 
@@ -58,7 +58,7 @@ Les raisons suivantes peuvent entraîner la fermeture d&#39;un parcours :
 
 Le fait de fermer un parcours manuellement assure que les clients qui l’ont déjà rejoint puissent terminer leur chemin, mais que les nouveaux utilisateurs ne puissent pas le rejoindre. Lorsqu&#39;un parcours est fermé (pour l&#39;une des raisons ci-dessus), le statut **[!UICONTROL Fermé]** lui est attribué. Il n’est alors plus accessible aux nouveaux individus. En revanche, les personnes qui ont déjà intégré le parcours peuvent le terminer normalement.
 
-Au-delà de 30 jours, un parcours Lecture d’audience passe au statut **Terminé**. Ce comportement est défini uniquement sur 30 jours (c’est-à-dire sur la valeur par défaut du délai d’expiration du parcours), car toutes les informations relatives aux profils déjà entrés dans le parcours sont supprimées 30 jours après leur entrée. Les personnes toujours présentes dans le parcours sont automatiquement affectées. Elles quittent le parcours après le délai d’expiration de 30 jours.
+Après les 91 jours [délai par défaut](journey-gs.md#global_timeout), un parcours Lecture d’audience passe à **Terminé** statut. Ce comportement est défini uniquement sur 91 jours (c.-à-d. [Valeur par défaut du délai d’expiration du parcours](journey-gs.md#global_timeout)), car toutes les informations sur les profils entrés dans le parcours sont supprimées 91 jours après leur saisie. Les personnes toujours présentes dans le parcours sont automatiquement affectées. Ils quittent le parcours après le délai d’attente de 91 jours.
 
 Consultez cette [section](../building-journeys/journey-gs.md#global_timeout).
 

@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: données, gestion, platform
 exl-id: 25519acb-a017-446a-992b-653d3a8a3d96
-source-git-commit: ef34cb0207d3011eca6d76ad6568f3edc00e13a3
+source-git-commit: 1ed007d5921573dce30df6faa625bb0bce5d6616
 workflow-type: tm+mt
 source-wordcount: '655'
 ht-degree: 100%
@@ -70,7 +70,7 @@ Vous pouvez utiliser la flexibilité des données de [!DNL Journey Optimizer] po
   Notez que le contenu utilisé dans les parcours ou les campagnes ne peut pas être extrait à travers l’API ou les méthodes de destination mentionnées ci-dessus.
 
 <!--
-* **Profile Service Data Retention**: For Behavioral and Time series data appended to any Profile, you may choose to use Journey Optimizer’s default setting of retaining this data for up to 30 days from the date of its addition to a Profile, or until an alternative time-period selected by the you. The time that Adobe keeps this data varies from contract to contract, and is outlined in an organization’s data retention policy.
+* **Profile Service Data Retention**: For Behavioral and Time series data appended to any Profile, you may choose to use Journey Optimizer’s default setting of retaining this data for up to 91 days from the date of its addition to a Profile, or until an alternative time-period selected by the you. The time that Adobe keeps this data varies from contract to contract, and is outlined in an organization’s data retention policy.
 
   Learn more about Experience Event expirations in [Adobe Experience Platform documentation](https://experienceleague.adobe.com/docs/experience-platform/profile/event-expirations.html){target="_blank"}.
 -->
