@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: parcours, premier, commencer, démarrage rapide, audience, événement, action
 exl-id: d940191e-8f37-4956-8482-d2df0c4274aa
-source-git-commit: 6ff54583c729175c74b3a7ea4ab9188505fde897
+source-git-commit: db841b1378a6b897c68809fe19f1f0b90d7fd9c5
 workflow-type: tm+mt
-source-wordcount: '2623'
-ht-degree: 75%
+source-wordcount: '2642'
+ht-degree: 74%
 
 ---
 
@@ -22,7 +22,6 @@ ht-degree: 75%
 >id="ajo_homepage_card2"
 >title="Créer des parcours"
 >abstract="Utilisez **Adobe Journey Optimizer** pour créer des cas d’utilisation d’orchestration en temps réel à l’aide de données contextuelles stockées dans des événements ou des sources de données."
-
 
 
 ## Conditions préalables{#start-prerequisites}
@@ -326,6 +325,7 @@ Le parcours utilise des politiques de fusion lors de la récupération des donn�
 
 * Dans les parcours Lecture d’audience ou Qualification d’audience : la politique de fusion de l’audience est utilisée
 * Dans les parcours déclenchés par un événement : la politique de fusion par défaut est utilisée.
+* Dans les parcours d’événements métier : la stratégie de fusion de l’audience ciblée dans l’activité Lecture d’audience suivante est utilisée
 
 Parcours respectera la stratégie de fusion utilisée tout au long du parcours. Par conséquent, si plusieurs audiences sont utilisées dans un parcours (par exemple dans les fonctions &quot;inAudience&quot;), créant des incohérences avec la stratégie de fusion utilisée par le parcours, une erreur est générée et la publication est bloquée. Cependant, si une audience incohérente est utilisée dans la personnalisation des messages, une alerte n&#39;est pas générée, malgré l&#39;incohérence. C&#39;est pourquoi il est vivement recommandé de vérifier la stratégie de fusion associée à votre audience lorsque cette audience est utilisée dans la personnalisation des messages.
 
