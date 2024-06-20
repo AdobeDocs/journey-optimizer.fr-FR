@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 keywords: parcours, configuration, propriétés
-source-git-commit: 15b0e69a823cc30589608995a5138340e263b227
+source-git-commit: 67032a4bcbfd56552d783f3ef78593375bfcc378
 workflow-type: tm+mt
-source-wordcount: '1569'
+source-wordcount: '1568'
 ht-degree: 41%
 
 ---
@@ -45,7 +45,7 @@ Utilisez cette section pour définir le nom du parcours, ajouter une description
 >
 >Pour les parcours en direct, cet écran affiche uniquement la date de publication et le nom de l’utilisateur qui a publié le parcours.
 
-La fonction **Copier les détails techniques** permet de copier les informations techniques relatives au parcours qui seront utiles à l&#39;équipe d&#39;assistance technique pour résoudre les problèmes. Les informations suivantes sont copiées : `JourneyVersion UID`, `OrgID`, `orgName`, `sandboxName`, `lastDeployedBy`, `lastDeployedAt.
+La fonction **Copier les détails techniques** permet de copier les informations techniques relatives au parcours qui seront utiles à l&#39;équipe d&#39;assistance technique pour résoudre les problèmes. Les informations suivantes sont copiées : `JourneyVersion UID`, `OrgID`, `orgName`, `sandboxName`, `lastDeployedBy`, `lastDeployedAt`.
 
 
 ## Entrée et reprise {#entrance}
