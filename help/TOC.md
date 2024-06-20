@@ -5,9 +5,9 @@ user-guide-title: Guide de Journey Optimizer
 user-guide-description: Utilisez Journey Optimizer pour créer et proposer aux clients des expériences connectées, contextuelles et personnalisées
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 15b0e69a823cc30589608995a5138340e263b227
+source-git-commit: ca743774017e8f6cf5f385119d9c71de6020bb19
 workflow-type: tm+mt
-source-wordcount: '1847'
+source-wordcount: '1849'
 ht-degree: 98%
 
 ---
@@ -317,6 +317,7 @@ ht-degree: 98%
       + [Commencer avec les fragments](using/content-management/fragments.md)
       + [Créer un fragment](using/content-management/create-fragments.md)
       + [Enregistrer du contenu existant en tant que fragment](using/content-management/save-fragments.md)
+      + [Fragments personnalisables](using/content-management/customizable-fragments.md)
       + [Gérer les fragments](using/content-management/manage-fragments.md)
    + Contenu dynamique {#dynamic}
       + [Prise en main du contenu dynamique](using/personalization/get-started-dynamic-content.md)

@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Notes de mise à jour de Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: fec6b15db9f8e6b2a07b55bc9e8fc4d9cb0d73d7
+source-git-commit: ca743774017e8f6cf5f385119d9c71de6020bb19
 workflow-type: tm+mt
-source-wordcount: '715'
-ht-degree: 60%
+source-wordcount: '771'
+ht-degree: 63%
 
 ---
 
@@ -54,21 +54,22 @@ Cette version apporte les nouvelles fonctionnalités détaillées ci-dessous.
 </table-->
 
 
-<!--<table>
+<table>
 <thead>
 <tr>
-<th><strong>Content Fragments customization</strong><br/></th>
+<th><strong>Personnalisation des fragments de contenu</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>You can now define specific fields in a fragment that can be edited when the fragment is added to a campaign or journey. This allows for the adjustment of content portions at the time of use, providing flexibility to override default values with context-specific details.</p>
-<p>For more information, refer to the <a href="../configuration/ip-warmup-gs.md">detailed documentation</a>.</p>
+<p>Vous pouvez désormais définir des champs spécifiques dans un fragment qui peuvent être modifiés lors de l’ajout du fragment à une campagne ou à un parcours. Cela permet d’ajuster les portions de contenu au moment de l’utilisation, ce qui offre la possibilité de remplacer les valeurs par défaut par des informations spécifiques au contexte.</p>
+<img src="../content-management/assets/do-not-localize/gif-fragments.gif"/>
+<p>Pour plus d’informations, consultez la <a href="../content-management/customizable-fragments.md">documentation détaillée</a>.</p>
 </td>
 </tr>
 </tbody>
-</table>-->
+</table>
 
 
 

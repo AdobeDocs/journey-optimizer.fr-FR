@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 25a00f74-ed08-479c-9a5d-4185b5f3c684
-source-git-commit: 893f7146b358da48153b1e6bc74b8f622028df76
+source-git-commit: ca743774017e8f6cf5f385119d9c71de6020bb19
 workflow-type: tm+mt
-source-wordcount: '612'
-ht-degree: 57%
+source-wordcount: '737'
+ht-degree: 47%
 
 ---
 
@@ -74,6 +74,22 @@ Pour utiliser un fragment dans un email, procédez comme suit.
 1. Si nécessaire, vous pouvez rompre l’héritage avec le fragment d’origine. [En savoir plus](#break-inheritance).
 
 1. Ajoutez autant de fragments que vous le souhaitez. Vous pouvez ensuite **[!UICONTROL enregistrer]** vos modifications.
+
+## Personnalisation des champs modifiables {#customize-fields}
+
+Si certaines parties du fragment sélectionné ont été rendues modifiables, vous pouvez remplacer leur valeur par défaut après l’ajout du fragment dans votre contenu. [Découvrez comment personnaliser vos fragments](../content-management/customizable-fragments.md)
+
+Pour personnaliser les champs modifiables dans un fragment, procédez comme suit :
+
+1. Ajoutez le fragment à votre contenu et sélectionnez-le pour ouvrir le volet des propriétés sur le côté droit.
+
+1. Tous les champs modifiables du fragment sont affichés dans le **Paramètres** sous l’onglet **Fragment** .
+
+   Les champs modifiables sont surlignés en vert dans le volet d’aperçu lorsqu’ils sont sélectionnés dans le volet de droite, ce qui facilite l’identification de leur emplacement dans votre contenu.
+
+   Dans l’exemple ci-dessous, l’image **source** et **texte alternatif** peut être modifié, ainsi que le bouton &quot;Cliquez ici&quot; **URL**.
+
+   ![](assets/fragment-editable.png)
 
 ## Rompre l’héritage {#break-inheritance}
 

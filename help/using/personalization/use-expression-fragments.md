@@ -9,10 +9,10 @@ role: Data Engineer
 level: Intermediate
 keywords: expression, éditeur, bibliothèque, personnalisation
 exl-id: 74b1be18-4829-4c67-ae45-cf13278cda65
-source-git-commit: 893f7146b358da48153b1e6bc74b8f622028df76
+source-git-commit: ca743774017e8f6cf5f385119d9c71de6020bb19
 workflow-type: tm+mt
-source-wordcount: '624'
-ht-degree: 62%
+source-wordcount: '750'
+ht-degree: 51%
 
 ---
 
@@ -69,6 +69,22 @@ Pour ajouter des fragments d’expression à votre contenu, procédez comme suit
 >[!NOTE]
 >
 >Si vous créez un fragment d’expression qui contient plusieurs sauts de ligne et l’utilisez dans un contenu [SMS](../sms/create-sms.md#sms-content) ou [notification push](../push/design-push.md), les sauts de ligne sont conservés. Veillez donc à tester votre [SMS](../sms/send-sms.md) ou [notification push](../push/send-push.md) avant de l’envoyer.
+
+## Personnalisation des champs modifiables {#customize-fields}
+
+Si certaines parties d’un fragment d’expression ont été rendues modifiables à l’aide de variables, vous pouvez remplacer leurs valeurs par défaut à l’aide d’une syntaxe spécifique. [Découvrez comment personnaliser vos fragments](../content-management/customizable-fragments.md)
+
+Pour personnaliser les champs, procédez comme suit :
+
+1. Insérez le fragment dans votre code à partir du **Fragments** .
+
+1. Utilisez la variable `<fieldId>="<value>"` code à la fin de la syntaxe pour remplacer la valeur par défaut de la variable.
+
+   Dans l’exemple ci-dessous, nous remplaçons la valeur d’une variable dont l’identifiant est &quot;sports&quot; par la valeur &quot;yoga&quot;. Cela affichera &quot;yoga&quot; dans le contenu de votre fragment partout où la variable &quot;sport&quot; est référencée.
+
+   ![](../content-management/assets/fragment-expression-use.png)
+
+Un exemple montrant comment ajouter des champs modifiables dans des fragments d’expression et remplacer leurs valeurs lors de la création d’un email est disponible dans [cette section](../content-management/customizable-fragments.md#example).
 
 ## Rompre l’héritage {#break-inheritance}
 
