@@ -12,10 +12,10 @@ hide: true
 hidefromtoc: true
 badge: label="Version bêta"
 exl-id: 752ffd7f-09c2-4aa3-a067-2dbe0634709c
-source-git-commit: 666af4bbc3731f16ce1d5c11ceb7e704996f5a68
+source-git-commit: cd95614329e6efdc7ac4b6e0a5c683757a14b379
 workflow-type: tm+mt
-source-wordcount: '2513'
-ht-degree: 100%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -41,7 +41,7 @@ Chaque phase est composée de plusieurs exécutions auxquelles vous affectez une
 >[!CONTEXTUALHELP]
 >id="ajo_admin_ip_warmup_campaigns_excluded"
 >title="Exclure les audiences de campagne"
->abstract="Sélectionnez des campagnes pour exclure leurs audiences de la phase en cours. Cela permet d’éviter que les profils contactés antérieurement à partir d’autres phases ou d’autres plans de préchauffage des adresses IP ne soient à nouveau ciblés."
+>abstract="Sélectionnez des campagnes pour exclure leurs audiences de la phase en cours. Cela empêche les profils précédemment contactés d’être à nouveau ciblés ; seuls ceux qui ont reçu des communications via le parcours seront exclus."
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_ip_warmup_domains_excluded"
@@ -60,7 +60,7 @@ At phase level, system ensures that previously targeted + new profiles are picke
 
 <!--![](assets/ip-warmup-plan-phase-1.png)-->
 
-1. Pour chaque phase, sélectionnez la campagne que vous souhaitez associer à cette phase du plan de préchauffage des adresses IP.
+1. Sélectionnez la campagne que vous souhaitez associer à la première phase du plan de réchauffement des adresses IP.
 
    >[!NOTE]
    >
@@ -72,7 +72,7 @@ At phase level, system ensures that previously targeted + new profiles are picke
    >
    >* Seules les campagnes ayant l’option **[!UICONTROL Activation du plan de préchauffage des adresses IP]** activée sont disponibles pour sélection. [En savoir plus](#create-ip-warmup-campaign)
    >
-   >* Vous devez sélectionner une campagne qui utilise la même surface que celle sélectionnée pour le plan de préchauffage des adresses IP en cours.
+   >* Seules les campagnes qui utilisent la même surface que le plan de chauffage des adresses IP sélectionné peuvent être sélectionnées.
 
 1. Une fois qu’une campagne est sélectionnée pour la phase en cours, les sections permettant d’exclure les profils, les audiences de campagnes et les groupes de domaines de l’opération s’affichent.
 
@@ -84,7 +84,7 @@ At phase level, system ensures that previously targeted + new profiles are picke
 
       >[!NOTE]
       >
-      >L’exclusion de domaines requiert une phase non exécutée, vous devrez donc peut-être [fractionner une phase d’exécution](#split-phase) pour ajouter des exclusions.
+      >L’exclusion de domaine requiert une phase non exécutée, vous pouvez donc avoir besoin d’une [scinder une phase d’exécution](#split-phase) pour ajouter des exclusions.
 
       ![](assets/ip-warmup-plan-exclude-domains.png)
 
@@ -117,7 +117,7 @@ At phase level, system ensures that previously targeted + new profiles are picke
       >
       >Cette section n’est pas modifiable.
 
-1. Si nécessaire, vous pouvez remplacer la campagne en cliquant sur le bouton **[!UICONTROL Remplacer]**. Vous pouvez également effacer la campagne sélectionnée en cliquant sur le bouton **[!UICONTROL Effacer]**. Vous pouvez ensuite choisir une nouvelle campagne immédiatement ou ultérieurement.
+1. Si nécessaire, vous pouvez remplacer la campagne en cliquant sur le bouton **[!UICONTROL Remplacer]**. Vous pouvez également **[!UICONTROL Effacer]** l&#39;opération sélectionnée à l&#39;aide de la fonction **[!UICONTROL Effacer]** bouton . Cette action va non seulement effacer la campagne, mais également d’autres propriétés au niveau de la phase, telles que l’exclusion des groupes de domaines, la campagne, l’exclusion des Parcours, etc. Après l’effacement, vous pouvez choisir une nouvelle campagne immédiatement ou ultérieurement.
 
    ![](assets/ip-warmup-plan-replace-campaign.png)
 
@@ -125,7 +125,7 @@ At phase level, system ensures that previously targeted + new profiles are picke
    >
    >Cette action n’est possible qu’avant l’activation de la première exécution de la phase. Une fois qu’une exécution est activée, la campagne ne peut pas être remplacée, sauf si vous [scindez l’exécution](#split-phase) en une nouvelle phase.
 
-1. Si nécessaire, vous pouvez ajouter une phase. Elle sera ajoutée après la dernière phase actuelle.
+1. Si nécessaire, vous pouvez ajouter une phase. Il sera ajouté après la dernière phase.
 
    ![](assets/ip-warmup-plan-add-phase.png)
 
@@ -236,9 +236,9 @@ Lorsque vous activez une exécution, plusieurs audiences sont automatiquement cr
 
 * Si vous activez la première exécution d’une phase :
 
-   * Une [audience](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html?lang=fr){target="_blank"} est créée pour les audiences de campagne exclues (le cas échéant), avec la convention de nommage suivante : `<warmupName>_Phase<phaseNo>-Audience Exclusion`.
+   * Une [audience](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html?lang=fr){target="_blank"} est créée pour les audiences de campagne exclues (le cas échéant), avec la convention de nommage suivante : `<warmupName>-Phase<phaseNo>-Audience Exclusion `.
 
-   * Une audience est créée pour les groupes de domaines exclus (le cas échéant), avec la convention de nommage suivante : `<warmupName>_Phase<phaseNo>-Domain Exclusion`.
+   * Une audience est créée pour les groupes de domaines exclus (le cas échéant), avec la convention de nommage suivante : `<warmupName>-Phase<phaseNo>-Domain Exclusion`.
 
    * Une autre audience est créée pour les audiences de parcours exclues (le cas échéant), avec la convention de nommage suivante : `<warmupName>-Phase<phaseNo>-Journey Audience Exclusion`.
 
@@ -246,11 +246,11 @@ Lorsque vous activez une exécution, plusieurs audiences sont automatiquement cr
   >
   >Les audiences sont nettoyées une fois que le plan de préchauffage est marqué comme terminé.
   >
-  >Le système ne crée pas de nouvelle audience en cas d’absence de modification des audiences de campagne ou des groupes de domaines exclus pour les phases ultérieures.
+  >Le système ne crée pas de nouvelle audience en cas d’absence de modification des audiences de campagne exclues, des audiences de parcours exclues ou des groupes de domaines pour les phases ultérieures.
 
 * Lors de l’activation d’une exécution :
 
-   * Une autre audience est créée pour le dernier filtre d’engagement, avec la convention de nommage suivante : `<warmupName>_Phase<phaseNo>_Run<runNo>-Engagement Filter`.
+   * Une autre audience est créée pour le dernier filtre d’engagement, avec la convention de nommage suivante : `<warmupName>-Phase<phaseNo>_Run<runNo>-Engagement Filter`.
 
      >[!NOTE]
      >
@@ -298,9 +298,9 @@ Une exécution peut avoir les statuts suivants :
 
 * **[!UICONTROL Brouillon]** : chaque fois qu’une exécution est créée, soit lors de la [création d’un plan](ip-warmup-plan.md) ou de l’[ajout d’une exécution](#define-runs) à partir de l’interface utilisateur, son statut est **[!UICONTROL Brouillon]**.
 * **[!UICONTROL Actif]** : chaque fois que vous activez une exécution, son statut est **[!UICONTROL Actif]**. Cela signifie que le système a accepté la demande de planification de l’exécution, et non que l’envoi a commencé. À ce stade, vous pouvez observer le statut de l’exécution active en cliquant sur le bouton **[!UICONTROL Afficher le statut]** dans le tableau. Vous pouvez ainsi suivre le nombre de profils ciblés réellement qualifiés.
-* **[!UICONTROL Terminé]** : l’exécution de la campagne pour cette exécution est terminée. Vous pouvez accéder à un rapport d’exécution détaillé en cliquant sur le bouton **[!UICONTROL Afficher le rapport]** dans le tableau. Cette option vous permet de suivre le statut de diffusion par e-mail de l’exécution, y compris les ventilations spécifiques aux groupes de domaines pour une surveillance améliorée. [En savoir plus](#reports)
-* **[!UICONTROL Annulé]** : une exécution **[!UICONTROL active]** a été annulée à l’aide du bouton **[!UICONTROL Arrêter]** ou si vous avez activé l’option **[!UICONTROL Annuler les exécutions activées en cas d’erreurs]** et qu’une erreur s’est produite. [En savoir plus](#define-runs)
-* **[!UICONTROL Échec]** : une erreur rencontrée par le système ou la campagne utilisée pour la phase en cours a été arrêtée. Si une exécution échoue, vous pouvez en planifier une autre pour le jour suivant.
+* **[!UICONTROL Terminé]** : l’exécution de la campagne pour cette exécution est terminée. Vous pouvez accéder à un rapport d’exécution détaillé en cliquant sur le bouton **[!UICONTROL Afficher le rapport]** dans le tableau. Cette option vous permet de suivre le statut de diffusion par e-mail de l’exécution, y compris les ventilations spécifiques aux groupes de domaines pour une surveillance améliorée. Notez que la campagne qui y est associée sera définie sur Arrêté.[En savoir plus](#reports)
+* **[!UICONTROL Annulé]**: a **[!UICONTROL En direct]** L’exécution a été annulée à l’aide de la fonction **[!UICONTROL Annuler]** bouton .[En savoir plus](#define-runs)
+* **[!UICONTROL En échec]**: une erreur s’est produite par le système ou la campagne utilisée pour la phase en cours a été arrêtée, ou vous avez activé la fonction **[!UICONTROL Annuler les exécutions activées en cas d’erreur]** et une erreur s’est produite. Si une exécution échoue, vous pouvez en planifier une autre pour le jour suivant.
 
 ### Utiliser les rapports {#reports}
 
@@ -363,7 +363,7 @@ Prenons un exemple :
 
 ### Marquer un plan comme terminé {#mark-as-completed}
 
-Si votre plan ne fonctionne pas assez bien ou si vous souhaitez l’abandonner pour en créer un autre, vous pouvez le marquer comme terminé.
+Si vos adresses IP ont été réchauffées avec le volume souhaité, ou si votre plan ne fonctionne pas assez bien ou si vous souhaitez le déposer pour en créer un autre, vous pouvez le marquer comme terminé.
 
 Pour ce faire, cliquez sur le bouton **[!UICONTROL Plus]** en haut à droite du plan de préchauffage des adresses IP et sélectionnez **[!UICONTROL Marquer comme terminé]**.
 

@@ -12,9 +12,9 @@ hide: true
 hidefromtoc: true
 badge: label="Version Beta"
 exl-id: 393f051d-b86d-4b4f-b564-7a9ae3a5d4b8
-source-git-commit: 9d48213d8367fdc6c0fae62b73d1706bc4983d9d
+source-git-commit: cd95614329e6efdc7ac4b6e0a5c683757a14b379
 workflow-type: tm+mt
-source-wordcount: '295'
+source-wordcount: '272'
 ht-degree: 100%
 
 ---
@@ -31,10 +31,6 @@ Ce guide couvre les sujets suivants :
 * [Exécuter le plan de préchauffage d’adresses IP](ip-warmup-execution.md)
 
 >[!ENDSHADEBOX]
-
->[!AVAILABILITY]
->
->La fonctionnalité de préchauffage d’adresses IP est actuellement disponible en version bêta pour certains utilisateurs ou utilisatrices uniquement. Pour rejoindre le programme Beta, contactez l’assistance clientèle d’Adobe.
 
 Avec [!DNL Journey Optimizer], vous pouvez facilement exécuter des workflows de préchauffage d’adresses IP directement à partir de l’interface utilisateur d’une manière normalisée et efficace, en respectant les bonnes pratiques pour une délivrabilité optimale.
 

@@ -12,10 +12,10 @@ hide: true
 hidefromtoc: true
 badge: label="Version bêta"
 exl-id: c2434086-2ed4-4cd0-aecd-2eea8f0a55f6
-source-git-commit: c400104c86e1a9a2de819db7743b3f77153ad90b
+source-git-commit: cd95614329e6efdc7ac4b6e0a5c683757a14b379
 workflow-type: tm+mt
-source-wordcount: '1674'
-ht-degree: 100%
+source-wordcount: '1668'
+ht-degree: 96%
 
 ---
 
@@ -112,7 +112,7 @@ Vous trouverez ci-dessous un exemple de fichier contenant un plan de préchauffa
 
 * Ce plan est exécuté en six **phases**, chacune d’elles contenant au moins une exécution.
 
-* Vous pouvez avoir autant de colonnes que vous le souhaitez pour les domaines sur lesquels vous souhaitez envoyer des messages. Dans cet exemple, le plan est divisé en six colonnes :
+* Vous pouvez contenir jusqu’à 6 colonnes (5 colonnes pour les groupes de domaines et une pour la variable **Autres** ). Dans cet exemple, le plan est divisé en six colonnes :
 
    * Quatre d’entre elles correspondent aux **groupes de domaines prêts à l’emploi** à utiliser dans votre plan (Gmail, Microsoft, Yahoo et Orange).
    * L’une correspond à un groupe de domaines personnalisé (que vous devez ajouter à l’aide de l’onglet [Groupe de domaines personnalisé](#custom-domain-group-tab)).
@@ -202,7 +202,7 @@ Vous pouvez également ajouter d’autres colonnes à votre plan en incluant des
 
 Utilisez l’onglet **[!UICONTROL Groupe de domaines personnalisés]** pour définir un nouveau groupe de domaines. Pour chaque domaine, vous pouvez ajouter tous les sous-domaines qu’il couvre.<!--TBC-->
 
-Assurez-vous que chaque domaine soit propre à son groupe de domaines et n’empiète pas sur d’autres groupes de domaines. Les groupes de domaines globaux étant automatiquement définis, les utilisateurs et utilisatrices doivent tenir compte de ces éléments lors de la création de groupes de domaines personnalisés.
+Pour les groupes de domaines utilisés dans ce plan, assurez-vous que chaque domaine est propre à son groupe de domaines et ne chevauche pas d’autres groupes de domaines. Les groupes de domaines globaux étant automatiquement définis, les utilisateurs et utilisatrices doivent tenir compte de ces éléments lors de la création de groupes de domaines personnalisés.
 
 Par exemple, si vous ajoutez le domaine personnalisé Luma, vous devriez inclure les sous-domaines suivants : luma.com, luma.co.uk, luma.it, luma.fr, luma.de, etc.
 
@@ -215,7 +215,7 @@ Supposons que vous souhaitiez avoir deux groupes de domaines personnalisés :
 * Un pour les domaines Hotmail uniquement.
 * Un pour tous les autres domaines du groupe de domaines Microsoft (excluant ainsi tous les domaines Hotmail).
 
-Notez que tous les autres domaines seront rassemblés dans la colonne **[!UICONTROL Autres]**.
+Les domaines en dehors de Hotmail et du groupe de domaines Microsoft sont rassemblés dans la variable **[!UICONTROL Autres]** colonne .
 
 1. Dans l’onglet **[!UICONTROL Groupe de domaines personnalisé]**, créez le groupe de domaines **Hotmail**.
 
@@ -234,10 +234,6 @@ Notez que tous les autres domaines seront rassemblés dans la colonne **[!UICONT
 1. Créez trois colonnes : une pour **Hotmail**, une pour **Microsoft_X** et une pour **Autres**.
 
 1. Renseignez les colonnes selon vos besoins.
-
->[!NOTE]
->
->Une fois le plan de préchauffage d’adresses IP chargé dans [!DNL Journey Optimizer], il n’est pas nécessaire d’exclure les groupes de domaines Microsoft.
 
 <!--Only the domain groups listed in the **[!UICONTROL IP Warmup Plan]** tab will be taken into account.-->
 
