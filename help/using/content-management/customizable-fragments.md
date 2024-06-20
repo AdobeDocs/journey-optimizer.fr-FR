@@ -7,9 +7,9 @@ feature: Fragments
 topic: Content Management
 role: User
 level: Beginner, Intermediate
-source-git-commit: ca743774017e8f6cf5f385119d9c71de6020bb19
+source-git-commit: c84c09aac2d888c689591f2517269c88bee0cda6
 workflow-type: tm+mt
-source-wordcount: '1185'
+source-wordcount: '1183'
 ht-degree: 0%
 
 ---
@@ -75,7 +75,7 @@ Les éléments ci-dessous peuvent devenir des champs modifiables dans un composa
 
 Par exemple, dans le code ci-dessous, chaque élément surligné en rouge peut devenir une propriété :
 
-![](assets/fragment-html.png){width=&quot;70%}
+![](assets/fragment-html.png){width="70%"}
 
 +++
 
