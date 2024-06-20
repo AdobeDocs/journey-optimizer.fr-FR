@@ -8,7 +8,7 @@ role: User
 level: Intermediate
 keywords: reprise, parcours, profil, récurrent
 exl-id: 8874377c-6594-4a5a-9197-ba5b28258c02
-source-git-commit: 6ff54583c729175c74b3a7ea4ab9188505fde897
+source-git-commit: fec6b15db9f8e6b2a07b55bc9e8fc4d9cb0d73d7
 workflow-type: tm+mt
 source-wordcount: '682'
 ht-degree: 98%
@@ -36,12 +36,12 @@ Dans les parcours Événement unitaire et Qualification de l’audience, vous po
 
 * Si la reprise est activée, un profil peut rejoindre plusieurs fois un parcours, mais ne peut pas le faire tant qu’il n’a pas complètement quitté l’instance précédente du parcours.
 
-* Si la reprise est désactivée, un profil ne peut pas rejoindre plusieurs fois le même parcours pendant le délai d’expiration global du parcours. Consultez cette [section](../building-journeys/journey-gs.md#global_timeout).
+* Si la reprise est désactivée, un profil ne peut pas rejoindre plusieurs fois le même parcours pendant le délai d’expiration global du parcours. Consultez cette [section](../building-journeys/journey-properties.md#global_timeout).
 
-Par défaut, les parcours autorisent la reprise. Lorsque l’option **Autoriser une reprise** est activée, le champ **Période d’attente de reprise** s’affiche. Il vous permet de définir le temps d’attente avant qu’un profil puisse rejoindre à nouveau le parcours. Cela empêche les parcours d’être déclenchés plusieurs fois par erreur pour le même événement. Par défaut, le champ est défini sur 5 minutes. La durée maximale est de 91 jours ([délai par défaut](journey-gs.md#global_timeout)).
+Par défaut, les parcours autorisent la reprise. Lorsque l’option **Autoriser une reprise** est activée, le champ **Période d’attente de reprise** s’affiche. Il vous permet de définir le temps d’attente avant qu’un profil puisse rejoindre à nouveau le parcours. Cela empêche les parcours d’être déclenchés plusieurs fois par erreur pour le même événement. Par défaut, le champ est défini sur 5 minutes. La durée maximale est de 91 jours ([expiration globale](journey-properties.md#global_timeout)).
 
 <!--
-When a journey ends, its status is **[!UICONTROL Closed]**. New individuals can no longer enter the journey. Persons already in the journey automatically exit the journey. [Learn more](journey-gs.md#entrance)
+When a journey ends, its status is **[!UICONTROL Closed]**. New individuals can no longer enter the journey. Persons already in the journey automatically exit the journey. 
 -->
 
 ![](assets/journey-re-entrance.png)

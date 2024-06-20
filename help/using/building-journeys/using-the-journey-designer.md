@@ -9,8 +9,8 @@ role: User
 level: Intermediate
 keywords: conception, zone de travail, parcours, interface, glisser, déposer
 exl-id: 1998f6fc-60fd-4038-8669-39cd55bc02d1
-source-git-commit: 0571a11eabffeb5e318bebe341a8df18da7db598
-workflow-type: ht
+source-git-commit: fec6b15db9f8e6b2a07b55bc9e8fc4d9cb0d73d7
+workflow-type: tm+mt
 source-wordcount: '1644'
 ht-degree: 100%
 
@@ -47,7 +47,7 @@ La **zone de travail** est la zone centrale du concepteur de parcours. C&#39;est
 
 ![](assets/journey39.png)
 
-La **barre d’outils**, située dans le coin supérieur droit de la zone de travail, vous permet d’afficher ou de masquer la grille, d’effectuer un zoom avant ou arrière et de télécharger une capture d’écran de la zone de travail. Consultez cette [section](../building-journeys/journey-gs.md#timeout_and_error).
+La **barre d’outils**, située dans le coin supérieur droit de la zone de travail, vous permet d’afficher ou de masquer la grille, d’effectuer un zoom avant ou arrière et de télécharger une capture d’écran de la zone de travail. Consultez cette [section](../building-journeys/journey-properties.md#timeout_and_error).
 
 <!--and show/hide timeout and error paths-->
 
@@ -107,7 +107,7 @@ Les activités d’action de canal vous permettent d’inclure un message conçu
 
 Vous pouvez définir une action de remplacement en cas d’erreur ou de dépassement de délai pour les activités de parcours suivantes : **[!UICONTROL Condition]** et **[!UICONTROL Action]**.
 
-Pour ajouter une action de remplacement pour une activité, sélectionnez l’option **[!UICONTROL Ajouter un itinéraire alternatif en cas de temporisation ou d’erreur]** dans les propriétés de l’activité : un autre chemin est ajouté après l’activité. Le délai d’expiration est défini par les utilisateurs administrateurs dans la variable [Propriétés du parcours](../building-journeys/journey-gs.md#change-properties). Par exemple, si l&#39;envoi d&#39;un e-mail prend trop de temps ou génère une erreur, vous pouvez décider d&#39;envoyer une notification push.
+Pour ajouter une action de remplacement pour une activité, sélectionnez l’option **[!UICONTROL Ajouter un itinéraire alternatif en cas de temporisation ou d’erreur]** dans les propriétés de l’activité : un autre chemin est ajouté après l’activité. Le délai d’expiration est défini par les utilisateurs administrateurs dans la variable [Propriétés du parcours](../building-journeys/journey-properties.md). Par exemple, si l&#39;envoi d&#39;un e-mail prend trop de temps ou génère une erreur, vous pouvez décider d&#39;envoyer une notification push.
 
 ![](assets/journey42.png)
 

@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: attente, activité, parcours, suivant, zone de travail
 exl-id: 7268489a-38c1-44da-b043-f57aaa12d7d5
-source-git-commit: 6ff54583c729175c74b3a7ea4ab9188505fde897
+source-git-commit: fec6b15db9f8e6b2a07b55bc9e8fc4d9cb0d73d7
 workflow-type: tm+mt
-source-wordcount: '567'
+source-wordcount: '568'
 ht-degree: 93%
 
 ---
@@ -39,13 +39,13 @@ Vous pouvez définir deux types d’activité **Attente** :
 
 ### Activités Attente multiples {#multiple-wait-activities}
 
-Lorsque vous utilisez plusieurs **Attente** activités dans un parcours, notez que la variable [délai d’expiration du parcours global](journey-gs.md#global_timeout) est de 91 jours, ce qui signifie que les profils sont toujours abandonnés au maximum 91 jours du parcours après leur entrée. En savoir plus sur [cette page](../building-journeys/journey-gs.md#global_timeout).
+Lorsque vous utilisez plusieurs **Attente** activités dans un parcours, notez que la variable [expiration globale](journey-properties.md#global_timeout) pour les parcours est de 91 jours, ce qui signifie que les profils sont toujours retirés du parcours au maximum 91 jours après leur entrée. En savoir plus sur [cette page](journey-properties.md#global_timeout).
 
 Une personne ne peut entrer dans une activité **Attente** que si elle dispose de suffisamment de temps restant dans le parcours pour compléter la durée d’attente avant le délai d’expiration de 91 jours du parcours. Par exemple, si vous ajoutez deux activités **Attente** définies sur 20 jours chacune, le système détecte que la seconde activité **Attente** se termine après le délai d’expiration de 91 jours. La seconde activité **Attente** est donc ignorée et la personne quitte le parcours avant de la commencer. Dans cet exemple, la personne restera 20 jours au total dans le parcours.
 
 ### Attente et reprise {#wait-re-entrance}
 
-La bonne pratique est de ne pas utiliser d’activités **Attente** pour bloquer une reprise. Utilisez plutôt l’option **Autoriser la reprise** au niveau des propriétés du parcours. En savoir plus sur [cette page](../building-journeys/journey-gs.md#entrance).
+La bonne pratique est de ne pas utiliser d’activités **Attente** pour bloquer une reprise. Utilisez plutôt l’option **Autoriser la reprise** au niveau des propriétés du parcours. En savoir plus sur [cette page](../building-journeys/journey-properties.md#entrance).
 
 ### Attente et mode test {#wait-test-modd}
 

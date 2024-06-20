@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 6ff54583c729175c74b3a7ea4ab9188505fde897
+source-git-commit: d66596f7416f040c99fe8a9b4ea1b887e4ad4fa0
 workflow-type: tm+mt
 source-wordcount: '5389'
 ht-degree: 99%
@@ -22,7 +22,7 @@ Cette page répertorie toutes les mises à jour récentes de la documentation de
 ## Juin 2024 {#june-2024}
 
 * Toutes les nouvelles fonctionnalités et améliorations de la version [!DNL Journey Optimizer] du 24 juin ont été présentées dans la documentation. [En savoir plus](release-notes.md)
-* Ajout d’une note sur l’utilisation des stratégies de fusion dans parcours dans [cette page](../building-journeys/journey-gs.md#merge-policies).
+* Ajout d’une note sur l’utilisation des stratégies de fusion dans parcours dans [cette page](../building-journeys/journey-properties.md#merge-policies).
 * La page concernant la configuration d’une activité **Attente** dans un parcours a été réorganisée et améliorée. [En savoir plus](../building-journeys/wait-activity.md)
 
 ## Mai 2024 {#may-2024}
@@ -82,7 +82,7 @@ Cette page répertorie toutes les mises à jour récentes de la documentation de
 
 * Toutes les nouvelles fonctionnalités et améliorations de la version du de janvier 2024 de [!DNL Journey Optimizer] sont présentées dans la documentation. [En savoir plus](release-notes.md)
 * Un mécanisme de sécurisation sur la taille du parcours a été ajouté. [En savoir plus](../start/guardrails.md#journeys-guardrails-journeys)
-* La gestion de la temporisation des parcours a été détaillée [dans la section suivante](../building-journeys/journey-gs.md#global_timeout).
+* La gestion de la temporisation des parcours a été détaillée [dans la section suivante](../building-journeys/journey-properties.md#global_timeout).
 * La page d’accueil de la [documentation](../../ajo-home.md) de Journey Optimizer a été repensée.
 * Des recommandations à propos de l’activité Mettre à jour les profils a été ajoutée. [En savoir plus](../building-journeys/update-profiles.md)
 * Ajout d’informations concernant le comportement des dépassements de délai sur les activités d’événement dans les parcours. Lorsqu’aucun événement n’est reçu dans la période de temporisation spécifiée, les personnes poursuivront le parcours si aucun chemin de temporisation n’est défini. [En savoir plus](../building-journeys/general-events.md#events-specific-time)

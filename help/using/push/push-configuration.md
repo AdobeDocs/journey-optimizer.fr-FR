@@ -7,7 +7,7 @@ feature: Push, Channel Configuration
 role: Admin
 level: Intermediate
 exl-id: 7099d44e-5d5d-4eef-9477-f68f4eaa1983
-source-git-commit: 03c714833930511fa734662b637d2416728073c2
+source-git-commit: c1dc3f3805bc0677a24466687026fac0d4990a5b
 workflow-type: tm+mt
 source-wordcount: '1544'
 ht-degree: 100%
@@ -332,7 +332,7 @@ Votre événement est maintenant créé et peut être utilisé dans un parcours.
 
 1. Cliquez sur **[!UICONTROL Créer un parcours]** pour créer un parcours.
 
-1. Modifiez les propriétés du parcours dans le volet de configuration qui s&#39;affiche dans la partie droite. En savoir plus dans cette [section](../building-journeys/journey-gs.md#change-properties).
+1. Modifiez les propriétés du parcours dans le volet de configuration qui s&#39;affiche dans la partie droite. En savoir plus dans cette [section](../building-journeys/journey-properties.md).
 
 1. Commencez par faire glisser l&#39;événement créé lors des étapes précédentes à partir de la liste déroulante **[!UICONTROL Événements]**.
 

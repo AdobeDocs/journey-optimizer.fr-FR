@@ -8,8 +8,8 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 6151aea2-6a34-4000-ba48-161efe4d94d7
-source-git-commit: 5ce388e5d86950e5cc6b173aab48225825f1c648
-workflow-type: ht
+source-git-commit: fec6b15db9f8e6b2a07b55bc9e8fc4d9cb0d73d7
+workflow-type: tm+mt
 source-wordcount: '535'
 ht-degree: 100%
 
@@ -64,7 +64,7 @@ Le champ **[!UICONTROL Balises]** vous permet de définir des balises pour votre
 * [Campagnes](../campaigns/create-campaign.md#create)
 * [Éléments de décision](../experience-decisioning/items.md)
 * [Fragments](../content-management/fragments.md)
-* [Parcours](../building-journeys/journey-gs.md#change-properties)
+* [Parcours](../building-journeys/journey-properties.md)
 * [Pages de destination](../landing-pages/create-lp.md)
 * [Listes dʼabonnements](../landing-pages/subscription-list.md)
 * [Modèles](../content-management/content-templates.md)

@@ -6,7 +6,7 @@ feature: Release Notes
 topic: Content Management
 description: Notes de mise à jour de Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 7964aed332bf37170e94c8b1215208f1d09d43a2
+source-git-commit: fec6b15db9f8e6b2a07b55bc9e8fc4d9cb0d73d7
 workflow-type: tm+mt
 source-wordcount: '715'
 ht-degree: 60%
@@ -183,15 +183,15 @@ En savoir plus dans la section [fragment de contenu](../content-management/fragm
 
 **Parcours**
 
-* Le délai d’expiration global des Parcours a été prolongé à 91 jours. [En savoir plus](../building-journeys/journey-gs.md#global_timeout)
+* Le délai d’expiration global des Parcours a été prolongé à 91 jours. [En savoir plus](../building-journeys/journey-properties.md#global_timeout)
 
-  Ce nouveau délai d’expiration sera pris en compte pour tous les nouveaux parcours créés. Consultez à ce sujet [Section FAQ](../building-journeys/journey-gs.md#timeout-faq) pour en savoir plus. Veuillez noter que ces modifications seront progressivement appliquées au cours du mois de juin.
+  Ce nouveau délai d’expiration sera pris en compte pour tous les nouveaux parcours créés. Consultez à ce sujet [Section FAQ](../building-journeys/journey-properties.md#timeout-faq) pour en savoir plus. Veuillez noter que ces modifications seront progressivement appliquées au cours du mois de juin.
 
 
 * Adobe Journey Optimizer prend désormais en charge les demandes de suppression/accès des informations personnelles ainsi que les demandes de gestion du cycle de vie des données. [En savoir plus](../privacy/requests.md)
 * Vous pouvez désormais redimensionner les colonnes de l’inventaire des parcours.
   <!--* **Advanced expression editor in Event configuration** is now GA - You can now leverage the advanced expression editor while configuring an event, allowing you to define more complex expressions or use functions in the event id condition. This capability is released in Limited Availability for selected customers. [Read more](../event/about-creating.md)-->
-* **Les politiques de fusion** sont maintenant disponibles de manière générale : les politiques de fusion utilisées par un parcours sont désormais visibles et cohérentes dans l’ensemble du parcours. [En savoir plus](../building-journeys/journey-gs.md#merge-policies)
+* **Les politiques de fusion** sont maintenant disponibles de manière générale : les politiques de fusion utilisées par un parcours sont désormais visibles et cohérentes dans l’ensemble du parcours. [En savoir plus](../building-journeys/journey-properties.md#merge-policies)
 
 
 

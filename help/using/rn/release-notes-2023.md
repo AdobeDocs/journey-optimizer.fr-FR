@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 61e6291f-c063-44a0-950c-8bb76de693f2
-source-git-commit: 2b9d8cd80664abc2743c985ee1cd858ffa0344ee
-workflow-type: ht
-source-wordcount: '4396'
+source-git-commit: fec6b15db9f8e6b2a07b55bc9e8fc4d9cb0d73d7
+workflow-type: tm+mt
+source-wordcount: '4394'
 ht-degree: 100%
 
 ---
@@ -87,7 +87,7 @@ Cette version est fournie avec les améliorations répertoriées ci-dessous.
 * La durée maximale que vous pouvez définir dans n’importe quel temps d’attente est désormais de 29 jours au lieu de 30. Cette amélioration a été introduite afin d’éviter que les temps d’attente ne dépassent la durée de vie de 30 jours du parcours. Cela s’applique aux éléments suivants :
 
    * Le champ **Durée** dans l’[activité d’attente](../building-journeys/wait-activity.md).
-   * La **période d’attente de reprise** dans les [propriétés du parcours](../building-journeys/journey-gs.md#entrance).
+   * La **période d’attente de reprise** dans les [propriétés du parcours](../building-journeys/journey-properties.md#entrance).
    * Le champ **Attendre pendant** dans la définition du délai d’expiration des [activités d’événement](../building-journeys/general-events.md#events-specific-time).
 
 <!--
@@ -200,7 +200,7 @@ Cette version est fournie avec les améliorations répertoriées ci-dessous.
 
 **Parcours**
 
-* Lors de la duplication d’un parcours, vous pouvez désormais définir le nom de la copie de parcours. [En savoir plus](../building-journeys/journey-gs.md#uplicate-a-journey
+* Lors de la duplication d’un parcours, vous pouvez désormais définir le nom de la copie de parcours. [En savoir plus](../building-journeys/journey-gs.md#duplicate-a-journey)
 
 * La prise en charge des réponses d’action personnalisée est désormais disponible pour tout le monde. Cette fonctionnalité vous permet d’utiliser les réponses d’appel API dans des actions personnalisées et orchestrer votre parcours en fonction de ces réponses. En outre, un [nouveau mécanisme de sécurisation des limitations](../start/guardrails.md#custom-actions-g) a été ajouté pour limiter automatiquement les appels d’action personnalisés. [En savoir plus](../action/action-response.md)
 <!--
@@ -922,7 +922,7 @@ Note that each widget can be resized and deleted as needed.
 
 **Parcours**
 
-* Le champ **Période d’attente de reprise** a été ajouté aux propriétés du parcours. Ce champ vous permet de définir le temps d’attente avant d’autoriser un profil à entrer à nouveau dans un parcours pour les parcours unitaires (en commençant par un événement ou une qualification d’audience). Cela empêche les parcours d’être déclenchés plusieurs fois par erreur pour le même événement. Par défaut, le champ est défini sur 5 minutes. [En savoir plus](../building-journeys/journey-gs.md#entrance).
+* Le champ **Période d’attente de reprise** a été ajouté aux propriétés du parcours. Ce champ vous permet de définir le temps d’attente avant d’autoriser un profil à entrer à nouveau dans un parcours pour les parcours unitaires (en commençant par un événement ou une qualification d’audience). Cela empêche les parcours d’être déclenchés plusieurs fois par erreur pour le même événement. Par défaut, le champ est défini sur 5 minutes. [En savoir plus](../building-journeys/journey-properties.md#entrance).
 
 * Des améliorations ont été apportées aux **dates de début et de fin de parcours**. Si vous n’avez pas spécifié de date de début, elle est désormais automatiquement ajoutée au moment de la publication. Pour les parcours **Lecture d’audience**, vous pouvez désormais ajouter une date de fin. Cela permet aux profils de se fermer automatiquement lorsque la date est atteinte. [En savoir plus](../building-journeys/journey-gs.md#dates)
 
