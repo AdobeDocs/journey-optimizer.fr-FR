@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: parcours, configuration, propriétés
 exl-id: 6c21371c-6cbc-4d39-8fe6-39f1b8b13280
-source-git-commit: 21b53c72976d1a65651bc142e23ba847dc40a305
+source-git-commit: 87fa5875dfdbae091b36129812948362324f2516
 workflow-type: tm+mt
-source-wordcount: '1726'
-ht-degree: 40%
+source-wordcount: '1722'
+ht-degree: 38%
 
 ---
 
@@ -56,7 +56,7 @@ La fonction **Copier les détails techniques** permet de copier les informations
 >[!CONTEXTUALHELP]
 >id="ajo_journey_properties_entrance"
 >title="Autoriser une rentrée"
->abstract="Par défaut, les nouveaux parcours autorisent la reprise. Vous pouvez désélectionner l’option **Autoriser la reprise** pour les parcours « uniques », par exemple, si vous souhaitez offrir un cadeau unique à un utilisateur ou une utilisatrice qui effectue sa première visite dans la boutique."
+>abstract="Par défaut, les nouveaux parcours autorisent la reprise. Vous pouvez décocher la variable **Autoriser une rentrée** par exemple si vous souhaitez offrir un cadeau ponctuel lorsqu’une personne entre dans une boutique."
 >additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/manage-journey/entry-management" text="Gestion des entrées de profil"
 
 Par défaut, les nouveaux parcours autorisent la reprise. Vous pouvez désélectionner l’option **Autoriser la reprise** pour les parcours « uniques », par exemple, si vous souhaitez offrir un cadeau unique à un utilisateur ou une utilisatrice qui effectue sa première visite dans la boutique.
@@ -107,7 +107,7 @@ Vous pouvez également ajouter une **date de fin**. Cela permet aux profils de s
 ### Délai d’expiration ou erreur dans les activités de parcours {#timeout_and_error}
 
 >[!CONTEXTUALHELP]
->id="ajo_journey_properties_timout"
+>id="ajo_journey_properties_timeout"
 >title="Expiration"
 >abstract="Définissez la durée pendant laquelle le parcours tentera d’exécuter une action ou de vérifier une condition avant de la considérer comme un délai d’expiration."
 
