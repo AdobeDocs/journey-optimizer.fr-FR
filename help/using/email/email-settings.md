@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: paramètres, e-mail, configuration
 exl-id: 13536962-7541-4eb6-9ccb-4f97e167734a
-source-git-commit: daba85693c4733333d6a62ebb5c1f290dbcb1511
-workflow-type: ht
-source-wordcount: '2415'
-ht-degree: 100%
+source-git-commit: 4de37520b3ea7842d7f385f38c07cdf4984a5939
+workflow-type: tm+mt
+source-wordcount: '2532'
+ht-degree: 86%
 
 ---
 
@@ -26,17 +26,17 @@ Pour commencer à créer un e-mail, vous devez configurer les surfaces du canal 
 
 Définissez les paramètres d’e-mail dans la section dédiée de la configuration de la surface du canal, comme décrit ci-dessous.
 
-![](assets/preset-email-settings.png)
+![](assets/surface-email-settings.png){width="50%" align="left"}
 
 La configuration de surface d’e-mail est récupérée pour envoyer des communications en suivant la logique ci-dessous :
 
-* Pour les parcours par lots, cela ne s’applique pas à l’exécution par lots qui avait déjà démarré avant que la configuration de surface d’e-mail ne soit effectuée. La modification sera récupérée lors de la prochaine périodicité ou de la nouvelle exécution.
+* Pour les parcours par lots, cela ne s’applique pas à l’exécution par lots qui avait déjà démarré avant que la configuration de surface d’e-mail ne soit effectuée. Les modifications sont récupérées lors de la prochaine périodicité ou de la nouvelle exécution.
 
 * Pour les messages transactionnels, la modification est immédiatement récupérée pour la communication suivante (délai de cinq minutes maximum).
 
 >[!NOTE]
 >
->Les paramètres de surface d’e-mail mis à jour seront automatiquement récupérés dans le(s) parcours ou campagne(s) où la surface est utilisée.
+>Les paramètres de surface d&#39;email mis à jour sont automatiquement récupérés dans le ou les parcours ou campagnes où la surface est utilisée.
 
 ## Type d’e-mail {#email-type}
 
@@ -67,7 +67,7 @@ Pour préserver la réputation de votre domaine, accélérer le processus de pr�
 
 Sélectionnez le groupe d’adresses IP à associer à la surface. [En savoir plus](../configuration/ip-pools.md)
 
-![](assets/preset-subdomain-ip-pool.png){width="50%" align="left"}
+![](assets/surface-subdomain-ip-pool.png){width="50%" align="left"}
 
 Vous ne pouvez pas poursuivre la création de la surface lorsque le groupe d’adresses IP sélectionné est en cours d’[édition](../configuration/ip-pools.md#edit-ip-pool) (statut **[!UICONTROL Traitement en cours]**) et n’a jamais été associé au sous-domaine sélectionné. Sinon, la version la plus ancienne de l’association groupe d’adresses IP/sous-domaine sera toujours utilisée. Si c’est le cas, enregistrez la surface en tant que brouillon, puis réessayez une fois que le groupe d’adresses IP a le statut **[!UICONTROL Succès]**.
 
@@ -81,41 +81,48 @@ Une fois qu’un groupe d’adresses IP a été sélectionné, les informations 
 >
 >Si un enregistrement PTR n’est pas configuré, contactez votre représentant(e) Adobe.
 
-## Désabonnement de la liste {#list-unsubscribe}
+## En-tête de désabonnement à la liste{#list-unsubscribe}
+
+<!--Do not modify - Legal Review Done -->
+
 
 Si vous choisissez [sélection d’un sous-domaine](#subdomains-and-ip-pools) dans la liste, l’option **[!UICONTROL Activer le désabonnement de la liste]** s&#39;affiche.
 
-Cette option est activée par défaut. Si vous la laissez activée, un lien de désabonnement sera automatiquement inclus dans l’en-tête de l’e-mail, par exemple :
+Cette option est activée par défaut pour inclure une URL de désabonnement en un clic dans l’en-tête de l’email, par exemple :
 
 ![](assets/preset-list-unsubscribe-header.png)
 
-Si vous désactivez cette option, aucun lien de désabonnement ne s’affiche dans l’en-tête de l’e-mail.
+Si vous désactivez cette option, aucune URL de désabonnement en un clic ne s’affiche dans l’en-tête de l’email.
 
-Vous pouvez sélectionner le niveau de consentement dans la liste déroulante **Niveau de consentement**. Il peut être spécifique au canal ou à l’identité du profil. En fonction de ce paramètre, lorsqu’un utilisateur ou une utilisatrice se désabonne à l’aide du lien d’en-tête de désabonnement de liste d’un e-mail, le consentement est mis à jour dans Adobe Journey Optimizer au niveau du canal ou au niveau de l’ID.
+Vous pouvez sélectionner le niveau de consentement dans la liste déroulante **[!UICONTROL Niveau de consentement]**. Il peut être spécifique au canal ou à l’identité du profil. Selon ce paramètre, lorsqu’un utilisateur se désabonne à l’aide de l’URL de désabonnement de la liste dans l’en-tête d’un email, le consentement est mis à jour dans Adobe Journey Optimizer au niveau du canal ou au niveau de l’ID.
 
-Le lien de désabonnement se compose de deux éléments :
+L’en-tête de désabonnement de liste propose deux fonctionnalités (URL de désabonnement en un clic et par courrier électronique, comme expliqué ci-dessous) qui sont activées par défaut, sauf si vous désélectionnez une ou les deux fonctionnalités :
 
-* Une **adresse e-mail de désabonnement**, à laquelle toutes les requêtes de désabonnement sont envoyées.
+* A **Mailto (désabonner)** address, qui est l’adresse de destination vers laquelle les demandes de désabonnement sont acheminées pour le traitement automatique.
 
-  Dans [!DNL Journey Optimizer], l’adresse e-mail de désabonnement est l’adresse par défaut **[!UICONTROL Mailto (unsubscribe)]** affichée dans la surface de canal, en fonction du [sous-domaine sélectionné](#subdomains-and-ip-pools).
+  Dans Journey Optimizer, l’adresse électronique de désabonnement est la valeur par défaut. **Mailto (désabonner)** adresse affichée à la surface du canal, en fonction de votre [sous-domaine sélectionné](#subdomains-and-ip-pools).
 
-  ![](assets/preset-list-unsubscribe-mailto.png){width="50%" align="left"}
+  ![](assets/surface-list-unsubscribe-mailto.png){width="50%" align="left"}
 
-* L’**URL de désabonnement**, qui est l’URL de la page de destination vers laquelle l’utilisateur sera redirigé une fois désabonné.
 
-  Si vous ajoutez un [lien d&#39;opt-out en un clic](../privacy/opt-out.md#one-click-opt-out) pour un message créé à l’aide de cette surface, l’URL de désabonnement sera l&#39;URL définie pour le lien d&#39;opt-out en un clic.
+* La variable **URL de désabonnement en un clic**, qui est par défaut l’option &quot;Un clic&quot; de notre en-tête de désabonnement à la liste généré par l’URL, en fonction du sous-domaine que vous avez défini et configuré dans les paramètres de surface du canal.
 
-  ![](assets/preset-list-unsubscribe-opt-out-url.png)
+<!--
+    >[!AVAILABILITY]
+    >
+    >One-click Unsubscribe URL Header will be available in Adobe Journey Optimizer starting June 3, 2024.
+    >
+-->
 
-  >[!NOTE]
-  >
-  >Si vous n&#39;ajoutez pas de lien d&#39;opt-out en un clic dans le contenu de votre message, aucune page de destination ne sera affichée pour l&#39;utilisateur.
+La variable **[!UICONTROL Mailto (désabonner)]** et la fonction **[!UICONTROL URL de désabonnement en un clic]** sont facultatives. Si vous ne souhaitez pas utiliser l’URL de désabonnement en un clic générée par défaut, vous pouvez décocher la fonction. Dans le scénario où la variable **[!UICONTROL Configuration de l’exclusion]** est activée et l’option **[!UICONTROL URL de désabonnement en un clic]** n’est pas cochée si vous ajoutez une fonction [lien d’exclusion en un clic](../privacy/opt-out.md#one-click-opt-out) dans un message créé à partir de cette surface, l&#39;en-tête unsubscribe de la liste récupère le lien d&#39;opt-out en un clic que vous avez inséré dans le corps de l&#39;email et l&#39;utilise comme valeur de l&#39;URL unclick unsubscribe .
 
-Apprenez-en davantage sur l&#39;ajout d’un lien de désinscription dans l&#39;en-tête de vos messages dans [cette section](../privacy/opt-out.md#unsubscribe-header).
+![](assets/preset-list-unsubscribe-opt-out-url.png)
 
-<!--If you have added one or more dynamic subdomains, URLs will be populated based on the resolved dynamic subdomain. [Learn more](../email/surface-personalization.md#dynamic-subdomains)-->
+>[!NOTE]
+>
+>Si vous n’ajoutez pas de lien d’exclusion en un clic dans le contenu de votre message et que l’URL de désabonnement en un clic par défaut est décochée dans les Paramètres de surface du canal, aucune URL ne sera transmise à l’en-tête de l’email dans le cadre de l’en-tête List Unsubscribe.
 
-<!--Select the **[!UICONTROL Custom List-Unsubscribe]** option to enter your own Unsubscribe URL and/or your own Unsubscribe email address.(to add later)-->
+En savoir plus sur la gestion des fonctionnalités de désabonnement dans vos messages dans [cette section](../email/email-opt-out.md#unsubscribe-header).
 
 ## Paramètres d’en-tête {#email-header}
 

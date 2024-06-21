@@ -9,9 +9,9 @@ role: User
 level: Beginner, Intermediate
 hidefromtoc: true
 exl-id: 0e43be98-f471-4860-be84-8f99ab93e983
-source-git-commit: daba85693c4733333d6a62ebb5c1f290dbcb1511
-workflow-type: ht
-source-wordcount: '2078'
+source-git-commit: 4de37520b3ea7842d7f385f38c07cdf4984a5939
+workflow-type: tm+mt
+source-wordcount: '2035'
 ht-degree: 100%
 
 ---
@@ -276,7 +276,7 @@ Consultez également les [Notes de mise à jour d’octobre d’Adobe Experienc
 **Concevoir du contenu**
 
 * **Arrière-plan** : les images d’arrière-plan sont désormais prises en charge dans l’aperçu dynamique. [En savoir plus](../content-management/preview-test.md)
-* **Lien d’opt-out en un clic** : vous pouvez insérer un nouveau type de lien dans le contenu de votre e-mail : le lien d’**opt-out** permet aux utilisateurs de se désabonner de la réception de vos communications en un seul clic, sans être redirigé vers une page de destination pour confirmer leur opt-out. [En savoir plus](../privacy/opt-out.md#one-click-opt-out-link)
+  <!--* **One-click opt-out link** - You can insert a new type of link into your email content: the **Opt-out** link allows users to unsubscribe from receiving your communications in just one click, without being redirected to a landing page to confirm opting out. [Learn more](../privacy/opt-out.md#one-click-opt-out-link)-->
 
 **Personnalisation**
 

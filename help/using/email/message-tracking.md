@@ -9,10 +9,10 @@ role: User
 level: Beginner, Intermediate
 keywords: liens, tracking, surveillance, e-mail
 exl-id: 689e630a-00ca-4893-8bf5-6d1ec60c52e7
-source-git-commit: daba85693c4733333d6a62ebb5c1f290dbcb1511
-workflow-type: ht
+source-git-commit: 4de37520b3ea7842d7f385f38c07cdf4984a5939
+workflow-type: tm+mt
 source-wordcount: '1053'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -158,7 +158,7 @@ Le [Concepteur d&#39;e-mail](content-from-scratch.md) permet de gérer les URL s
    * **[!UICONTROL Tracké]** : active le tracking sur cette URL.
    * **[!UICONTROL Opt-out]** : considère cette URL comme une option d&#39;opt-out ou une URL de désabonnement.
    * **[!UICONTROL Page miroir]** : considère cette URL comme une URL de page miroir.
-   * **[!UICONTROL Jamais]** : n&#39;active jamais le suivi de cette URL. <!--This information is saved: if the URL appears again in a future message, its tracking is automatically deactivated.-->
+   * **[!UICONTROL Jamais]**: n’active jamais le suivi de cette URL.
 
 La création de rapports sur les ouvertures et les clics est disponible dans le [rapport dynamique](../reports/live-report.md) et dans le [rapport global](../reports/global-report.md).
 

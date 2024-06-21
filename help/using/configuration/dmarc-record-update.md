@@ -9,9 +9,9 @@ role: Admin
 level: Experienced
 keywords: sous-domaine, domaine, courrier, dmarc, enregistrement
 exl-id: 15b10a61-6ecd-4ffa-b1c2-21e862263f6d
-source-git-commit: 61bd9ce680c56b0eb8737804fb013dbad430f1cc
+source-git-commit: da5b8d6c95e76af98b27ffcff11e75c26b90200a
 workflow-type: tm+mt
-source-wordcount: '561'
+source-wordcount: '431'
 ht-degree: 100%
 
 ---
@@ -45,21 +45,20 @@ ou
 ou
    * Configurez DMARC sur vos sous-domaines délégués **dans l’interface utilisateur de configuration[!DNL Journey Optimizer]**. [Voici comment procéder.](dmarc-record.md#implement-dmarc)
 
-  >[!IMPORTANT]
-  >
-  >Toutefois, la configuration CNAME nécessite également une entrée supplémentaire dans votre solution d’hébergement. Par conséquent, assurez-vous de vous coordonner avec votre service informatique afin qu’il puisse effectuer la mise à jour détaillée dans [cette section](dmarc-record.md#implement-dmarc).
+  Toutefois, la configuration CNAME nécessite également une entrée supplémentaire dans votre solution d’hébergement. Par conséquent, assurez-vous de vous coordonner avec votre service informatique afin qu’il puisse effectuer la mise à jour détaillée dans [cette section](dmarc-record.md#implement-dmarc).
 
-Les dernières chronologies partagées par Google et Yahoo! sont les suivantes :
+<!--The most recent timelines shared by Google and Yahoo! are as follows:
 
-* Google :
+* Google:
 
-   * **Février 2024** : les rebonds temporaires destinés à avertir de la non-conformité seront mis en place. Si vous n’êtes pas encore en conformité, les e-mails seront toujours livrés normalement après un court délai. Si vous êtes en totale conformité, il n’y aura pas de rebond temporaire, ni aucune incidence pour vous.
+    * **February 2024** – Temporary bounces designed to provide warning of non-compliance will begin. Emails will still be delivered as normal after a short delay if you are not yet in compliance. If you are fully in compliance there will be no temporary bounces and you will not be affected.
 
-   * **Avril 2024** : les blocages commenceront pour les expéditeurs et expéditrices qui ne sont pas en conformité avec DMARC. Seule une partie des e-mails non conformes sera bloquée dans un premier temps, le pourcentage de blocage augmentant au fil du temps.
+    * **April 2024** – Blocks will begin for senders who are not in compliance with DMARC requirement. Only a portion of non-compliant email will be blocked at first, with the percentage blocked increasing over time.
 
-   * **1er juin 2024** : l’ensemble des expéditeurs et expéditrices qui ne sont pas en conformité totale seront bloqués.
+    * **June 1st, 2024** – Any sender not in full compliance will experience blocking.
 
-* Yahoo! n’a pas fourni de dates exactes, mais a déclaré que « la règle sera appliquée à partir de février 2024. Son application se fera progressivement ».
+* Yahoo! has not provided exact dates, but has said "the rollout of enforcement will begin in February 2024. Enforcement will be gradually rolled out".
+-->
 
 >[!NOTE]
 >
