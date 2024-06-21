@@ -6,8 +6,8 @@ topic: Content Management
 role: Admin
 level: Experienced
 exl-id: ac901f88-5fde-4220-88c6-fe05433866cc
-source-git-commit: 07c453366280b21f5546322430a90752fd996099
-workflow-type: ht
+source-git-commit: 59ecb9a5376e697061ddac4cc68f09dee68570c0
+workflow-type: tm+mt
 source-wordcount: '610'
 ht-degree: 100%
 
@@ -67,7 +67,7 @@ Pour activer les expériences de contenu pour le canal basé sur le code, vous d
 
 En d’autres termes, lors de la configuration des rapports d’expérience, si vous ajoutez un jeu de données qui n’est pas présent dans le train de données de votre application, les données de l’application ne s’afficheront pas dans les rapports d’expérience de contenu.
 
-Découvrez comment ajouter des jeux de données pour les rapports d’expérience de contenu dans [cette section](../campaigns/reporting-configuration.md#add-datasets).
+Découvrez comment ajouter des jeux de données pour les rapports d’expérience de contenu dans [cette section](../content-management/reporting-configuration.md#add-datasets).
 
 >[!NOTE]
 >

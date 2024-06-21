@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
-source-git-commit: cc68e45e0da3cd65df74c7a484934af6da64b255
+source-git-commit: 59ecb9a5376e697061ddac4cc68f09dee68570c0
 workflow-type: tm+mt
 source-wordcount: '1348'
 ht-degree: 100%
@@ -126,7 +126,7 @@ Contrôlez les demandes et la gestion concernant la confidentialité à partir d
 
 * **[!UICONTROL Configurations]** - Utilisez ce menu pour configurer les [événements](../event/about-events.md), les [sources de données](../datasource/about-data-sources.md) et les [actions](../action/action.md) à utiliser dans vos parcours.
 
-  Vous pouvez également accéder à la section **Reporting** pour configurer les rapports pour l’expérimentation de campagnes. [En savoir plus](../campaigns/reporting-configuration.md).
+  Vous pouvez également accéder à la section **Reporting** pour configurer les rapports pour l’expérimentation de campagnes. [En savoir plus](../content-management/reporting-configuration.md).
 
 * **[!UICONTROL Règles commerciales]** - Utilisez cette section pour créer des règles commerciales cross-canal afin de contrôler la fréquence à laquelle les utilisateurs et utilisatrices reçoivent un message ou entrent dans un parcours. [En savoir plus](../configuration/frequency-rules.md).
 

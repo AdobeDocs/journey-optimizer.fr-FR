@@ -11,8 +11,8 @@ badge: label="Version bêta" type="Informative"
 hide: true
 hidefromtoc: true
 exl-id: c47af613-0529-4922-bd0d-5ef4cc619305
-source-git-commit: b62f8954e09f50896ad5e70784c5a93943617e85
-workflow-type: ht
+source-git-commit: 59ecb9a5376e697061ddac4cc68f09dee68570c0
+workflow-type: tm+mt
 source-wordcount: '248'
 ht-degree: 100%
 
@@ -52,11 +52,11 @@ Une fois que vous avez conçu et personnalisé vos messages, développez votre c
 
    ![](assets/experiment-genai-3.png)
 
-1. Dans la fenêtre Expérience de contenu, cliquez sur le bouton **[!UICONTROL Paramètres de l’expérience]** pour configurer votre expérience. [En savoir plus sur l’expérience de contenu](../campaigns/content-experiment.md)
+1. Dans la fenêtre Expérience de contenu, cliquez sur le bouton **[!UICONTROL Paramètres de l’expérience]** pour configurer votre expérience. [En savoir plus sur l’expérience de contenu](../content-management/content-experiment.md)
 
    ![](assets/experiment-genai-4.png)
 
-1. Lorsque votre expérience de contenu est prête, vous pouvez cliquer, depuis votre page de résumé de la campagne, sur **[!UICONTROL Examiner pour activer]** pour afficher un résumé de la campagne. Des alertes s’affichent si un paramètre est incorrect ou manquant. [En savoir plus](../campaigns/content-experiment.md#treatment-experiment)
+1. Lorsque votre expérience de contenu est prête, vous pouvez cliquer, depuis votre page de résumé de la campagne, sur **[!UICONTROL Examiner pour activer]** pour afficher un résumé de la campagne. Des alertes s’affichent si un paramètre est incorrect ou manquant. [En savoir plus](../content-management/content-experiment.md#treatment-experiment)
 
 1. Avant de lancer votre campagne, vérifiez que toutes les configurations sont correctes, puis cliquez sur **[!UICONTROL Activer]**.
 

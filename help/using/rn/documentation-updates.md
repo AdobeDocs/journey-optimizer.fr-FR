@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 4de37520b3ea7842d7f385f38c07cdf4984a5939
+source-git-commit: 59ecb9a5376e697061ddac4cc68f09dee68570c0
 workflow-type: tm+mt
 source-wordcount: '5371'
 ht-degree: 99%
@@ -114,7 +114,7 @@ Cette page répertorie toutes les mises à jour récentes de la documentation de
 ## Octobre 2023 {#oct-2023}
 
 * Toutes les nouvelles fonctionnalités et améliorations de la version [!DNL Journey Optimizer] d’octobre 2023 ont été présentées dans la documentation. [En savoir plus](release-notes.md)
-* Ajout de GIF pour illustrer certaines fonctionnalités clés, telles que : [Modèles de contenu](../content-management/content-templates.md), [Fragments](../content-management/fragments.md), [Attributs calculés](../audience/computed-attributes.md), [Publipostage direct](../direct-mail/get-started-direct-mail.md), [Balises](../start/search-filter-categorize.md#tags), [Modèles d’optimisation de la gestion des décisions](../offers/ranking/personalized-optimization-model.md), [Campagnes déclenchées par l’API](../campaigns/api-triggered-campaigns.md), et [Expérience de contenu](../campaigns/content-experiment.md).
+* Ajout de GIF pour illustrer certaines fonctionnalités clés, telles que : [Modèles de contenu](../content-management/content-templates.md), [Fragments](../content-management/fragments.md), [Attributs calculés](../audience/computed-attributes.md), [Publipostage direct](../direct-mail/get-started-direct-mail.md), [Balises](../start/search-filter-categorize.md#tags), [Modèles d’optimisation de la gestion des décisions](../offers/ranking/personalized-optimization-model.md), [Campagnes déclenchées par l’API](../campaigns/api-triggered-campaigns.md), et [Expérience de contenu](../content-management/content-experiment.md).
 * Le processus de création de schémas a été mis à jour pour prendre en compte les dernières mises à jour apportées à l’interface utilisateur, avec des modifications apportées à Adobe Experience Platform. [En savoir plus](../audience/creating-test-profiles.md)
 * Des mécanismes de sécurisation de la gestion des décisions ont été ajoutés à la page Mécanismes de sécurisation et limites. [En savoir plus](../start/guardrails.md#decision-management)
 * La section Paramètres d’en-tête a été mise à jour afin de refléter la manière dont les notifications d’absence du bureau et les réponses de défi sont traitées (elles sont reçues sur la page **[!UICONTROL E-mail d’erreur]**). [En savoir plus](../email/email-settings.md#email-header)

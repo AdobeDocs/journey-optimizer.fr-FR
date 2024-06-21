@@ -8,7 +8,8 @@ topic: Content Management
 role: User
 level: Intermediate
 badge: label="Version Beta" type="Informative"
-source-git-commit: 854f593710a28bde605aa995d747d4e084a6c4b4
+exl-id: 51cbe27f-3f3f-471e-a5d9-e3a88fcfdd68
+source-git-commit: 59ecb9a5376e697061ddac4cc68f09dee68570c0
 workflow-type: tm+mt
 source-wordcount: '4251'
 ht-degree: 15%
@@ -134,7 +135,7 @@ La variable **[!UICONTROL Expérience]** Les indicateurs de performance clés (I
 
 * **[!UICONTROL Effet élévateur]**: mesure de l’amélioration en pourcentage du taux de conversion d’un traitement donné par rapport à la ligne de base.
 
-* **[!UICONTROL Confiance]** : preuves qu’un traitement donné est le même que le traitement de la ligne de base. [En savoir plus](../campaigns/experiment-calculations.md#understand-confidence)
+* **[!UICONTROL Confiance]** : preuves qu’un traitement donné est le même que le traitement de la ligne de base. [En savoir plus](../content-management/experiment-calculations.md#understand-confidence)
 
 +++
 
@@ -143,7 +144,7 @@ La variable **[!UICONTROL Expérience]** Les indicateurs de performance clés (I
 ![](assets/cja-experimentation-variants.png)
 
 La variable **[!UICONTROL Variante par clics entrants]** décrit les performances de chaque variante.
-Pour un examen approfondi de ces résultats et de leur interprétation, reportez-vous à [cette page](../campaigns/get-started-experiment.md#interpret-results).
+Pour un examen approfondi de ces résultats et de leur interprétation, reportez-vous à [cette page](../content-management/get-started-experiment.md#interpret-results).
 
 +++ En savoir plus sur les mesures Variante par clics entrants
 
@@ -155,7 +156,7 @@ Pour un examen approfondi de ces résultats et de leur interprétation, reportez
 
 * **[!UICONTROL Effet élévateur]**: mesure de l’amélioration en pourcentage du taux de conversion d’un traitement donné par rapport à la ligne de base.
 
-* **[!UICONTROL Confiance]** : preuves qu’un traitement donné est le même que le traitement de la ligne de base. [En savoir plus](../campaigns/experiment-calculations.md#understand-confidence)
+* **[!UICONTROL Confiance]** : preuves qu’un traitement donné est le même que le traitement de la ligne de base. [En savoir plus](../content-management/experiment-calculations.md#understand-confidence)
 
 <!--
 * **[!UICONTROL Confidence Upper bound]**:
@@ -167,7 +168,7 @@ Pour un examen approfondi de ces résultats et de leur interprétation, reportez
 
 ![](assets/cja-experimentation-conversion.png)
 
-Le graphe **[!UICONTROL Intervalle de confiance]** mesure l’incertitude quant à l’amélioration. Il indique la différence de performance en pourcentage entre la ligne de base et le traitement le plus performant. [En savoir plus](../campaigns/experiment-calculations.md#confidence-intervals).
+Le graphe **[!UICONTROL Intervalle de confiance]** mesure l’incertitude quant à l’amélioration. Il indique la différence de performance en pourcentage entre la ligne de base et le traitement le plus performant. [En savoir plus](../content-management/experiment-calculations.md#confidence-intervals).
 
 ## E-mail {#email-global}
 
@@ -784,4 +785,3 @@ La variable **[!UICONTROL URL des liens trackés]** ce tableau présente un aper
 * **[!UICONTROL Affichages uniques]**: nombre d&#39;ouvertures du message, plusieurs interactions d&#39;un profil ne sont pas prises en compte.
 
 +++
-

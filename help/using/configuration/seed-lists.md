@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: liste de contrôle, contrôle, configuration
 exl-id: 0172f6bc-da8b-4a83-a0fc-4ed41324568f
-source-git-commit: 815595f907ed3ea05b7772a1df96187509351bf9
-workflow-type: ht
-source-wordcount: '945'
-ht-degree: 100%
+source-git-commit: 59ecb9a5376e697061ddac4cc68f09dee68570c0
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -48,7 +48,7 @@ Les adresses de contrôle ne sont ni des profils réels ni des profils de test, 
 
 >[!NOTE]
 >
->Les variantes sont prises en charge. Les adresses de contrôle reçoivent une seule copie de chaque variante du même message (comme les différents traitements d’une [expérience de contenu](../campaigns/get-started-experiment.md)).
+>Les variantes sont prises en charge. Les adresses de contrôle reçoivent une seule copie de chaque variante du même message (comme les différents traitements d’une [expérience de contenu](../content-management/get-started-experiment.md)).
 
 ## Accéder aux listes de contrôle {#access-seed-lists}
 
