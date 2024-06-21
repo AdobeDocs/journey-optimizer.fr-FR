@@ -7,32 +7,23 @@ feature: Multilingual Content
 topic: Content Management
 role: User
 level: Beginner
-keywords: prise en main, commencer, contenu, expérience
-hide: true
-hidefromtoc: true
+keywords: commencer, démarrer, contenu, expérience
 exl-id: b57683b4-6dcc-4f6c-a8b2-4ba371d78d21
-badge: label="Version Beta" type="Informative"
-source-git-commit: b62f8954e09f50896ad5e70784c5a93943617e85
-workflow-type: ht
+badge: label="Disponibilité limitée" type="Informative"
+source-git-commit: 89c03a4be653b39838ef8a7c77deb6a1781004a1
+workflow-type: tm+mt
 source-wordcount: '135'
-ht-degree: 100%
+ht-degree: 77%
 
 ---
 
 # Commencer avec le contenu multilingue {#multilingual-gs}
 
->[!BEGINSHADEBOX]
+>[!AVAILABILITY]
+>
+>Le contenu multilingue est actuellement disponible uniquement pour un ensemble d’organisations (disponibilité limitée). Pour en bénéficier, contactez votre représentant ou représentante Adobe.
 
-**Table des matières**
-
-* Commencer avec le contenu multilingue
-* [Créer du contenu multilingue avec traduction manuelle](multilingual-manual.md)
-* [Créer du contenu multilingue avec traduction automatisée](multilingual-automated.md)
-* [Rapport de campagne multilingue](multilingual-report.md)
-
->[!ENDSHADEBOX]
-
-La fonctionnalité multilingue vous permet de créer facilement du contenu dans plusieurs langues au sein d’une seule campagne. Grâce à cette fonctionnalité, vous pouvez passer d’une langue à une autre lors de la modification de votre campagne, ce qui optimise l’ensemble du processus de modification et améliore votre capacité à gérer efficacement du contenu multilingue.
+La fonctionnalité multilingue vous permet de créer facilement du contenu dans plusieurs langues au sein d’une seule campagne ou d’un même parcours. Grâce à cette fonctionnalité, vous pouvez passer d’une langue à une autre lors de la modification de votre campagne, ce qui optimise l’ensemble du processus de modification et améliore votre capacité à gérer efficacement du contenu multilingue.
 
 Avec Journey Optimizer, vous avez la possibilité de créer du contenu multilingue par le biais de deux méthodes distinctes :
 
