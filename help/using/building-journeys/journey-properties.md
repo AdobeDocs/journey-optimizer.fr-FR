@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: parcours, configuration, propriétés
 exl-id: 6c21371c-6cbc-4d39-8fe6-39f1b8b13280
-source-git-commit: 87fa5875dfdbae091b36129812948362324f2516
+source-git-commit: 135dd7528e87a6fde7e148745ef2f49104809bc1
 workflow-type: tm+mt
-source-wordcount: '1722'
-ht-degree: 38%
+source-wordcount: '1756'
+ht-degree: 37%
 
 ---
 
@@ -28,10 +28,12 @@ ht-degree: 38%
 >title="Critères de sortie du parcours"
 >abstract="Cette section présente les options des critères de sortie. Vous pouvez créer une ou plusieurs règles de critères de sortie pour votre parcours."
 
-Les propriétés du parcours sont centralisées dans le rail droit du parcours. Cette section s&#39;affiche par défaut lors de la création d&#39;un parcours. Pour les parcours existants, cliquez sur l’icône en forme de crayon située en regard du nom du parcours pour accéder à ses propriétés.
 
+## Accès aux propriétés d’un parcours {#access-properties}
 
-Utilisez cette section pour définir le nom du parcours, ajouter une description et :
+Les propriétés d’un parcours sont centralisées dans le rail de droite. Cette section s&#39;affiche par défaut lors de la création d&#39;un parcours. Pour les parcours existants, cliquez sur l’icône en forme de crayon en regard du nom du parcours pour l’ouvrir.
+
+Dans cette section, vous pouvez définir le nom du parcours, ajouter une description et :
 
 * gérer [entrée et rentrée](#entrance),
 * sélectionner début et fin [dates](#dates),
@@ -50,6 +52,10 @@ La fonction **Copier les détails techniques** permet de copier les informations
 
 
 ## Entrée et reprise {#entrance}
+
+Le mode de saisie des profils est défini au niveau du parcours, dans le volet de configuration de droite. Les paramètres sont décrits ci-dessous.
+
+La gestion des entrées de profil dépend du type de parcours. En savoir plus sur la gestion des entrées et des rentrées de profils, dans [cette page](entry-management.md).
 
 ### Autoriser une rentrée  {#allow-re-entrance}
 
@@ -71,7 +77,6 @@ Par défaut, les nouveaux parcours autorisent la reprise. Vous pouvez désélect
 
 Lorsque l’option **Autoriser une reprise** est activée, le champ **Période d’attente de reprise** s’affiche. Ce champ vous permet de définir le temps d’attente avant d’autoriser un profil à entrer à nouveau dans un parcours pour les parcours unitaires (en commençant par un événement ou une qualification d’audience). Cela empêche les parcours d’être déclenchés plusieurs fois par erreur pour le même événement. Par défaut, le champ est défini sur 5 minutes. La durée maximale est de 29 jours.
 
-En savoir plus sur la gestion des entrées et des reprises de profils dans [cette section](entry-management.md).
 
 ## Gérer l’accès {#manage-access}
 
