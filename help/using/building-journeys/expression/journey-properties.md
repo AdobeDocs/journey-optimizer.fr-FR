@@ -8,33 +8,31 @@ role: Data Engineer, Architect
 level: Experienced
 keywords: parcours, expression, éditeur, propriétés
 exl-id: eb1ab0ed-90bd-4613-b63d-b28693947db2
-source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
+source-git-commit: 619bcbc16b4117c29c482c85323603a4281298e0
 workflow-type: tm+mt
-source-wordcount: '590'
-ht-degree: 100%
+source-wordcount: '589'
+ht-degree: 86%
 
 ---
 
 # Attributs de propriétés du parcours {#journey-properties}
 
-Dans l’éditeur d’expression avancé, vous trouverez la catégorie **Propriétés du parcours**, sous les catégories d’événement et de source de données. Cette catégorie contient des champs techniques liés au parcours d’un profil donné. Il s’agit des informations récupérées par le système à partir de parcours dynamiques, telles que l’identifiant du parcours ou les erreurs spécifiques rencontrées.
-
->[!NOTE]
->
->Les attributs de propriétés du parcours sont également disponibles dans l’éditeur d’expression simple. Consultez cette [section](../condition-activity.md#about_condition).
+Dans le [éditeur d’expression simple](../condition-activity.md#about_condition), et dans la variable [éditeur d’expression avancé](../expression/expressionadvanced.md), sous la propriété **Événement** et **Source de données** catégories, vous pouvez accéder aux **Propriétés du parcours** catégorie. Cette catégorie contient des champs techniques liés au parcours d’un profil donné. Il s’agit des informations récupérées par le système à partir de parcours actifs, telles que l’identifiant du parcours, ou les erreurs spécifiques rencontrées.
 
 ![](../assets/journey-properties.png)
 
-Vous trouverez, par exemple, des informations sur :
+Il contient des informations, par exemple, sur :
 
 * version du parcours : uid du parcours, uid de la version du parcours, uid de l’instance, etc.
 * erreurs : extraction de données, exécution d’actions, etc.
 * étape en cours, dernière étape en cours, etc.
 * profils ignorés
 
-Vous pouvez utiliser ces champs pour créer des expressions. Pendant l’exécution du parcours, les valeurs seront récupérées directement à partir de celui-ci.
+  La liste des champs est disponible [dans cette section](#journey-properties-fields).
 
-Voici quelques exemples d’utilisation :
+Vous pouvez utiliser ces champs pour créer des expressions. Lors de l’exécution du parcours, les valeurs sont récupérées directement à partir du parcours.
+
+Vous trouverez ci-dessous quelques exemples d’utilisation :
 
 * **Enregistrer les profils ignorés** : vous pouvez envoyer tous les profils exclus d’un message par une règle de limitation à un système tiers à des fins de journalisation. Pour ce faire, vous configurez un chemin en cas de temporisation et d’erreur et ajoutez une condition pour filtrer selon un type d’erreur spécifique, par exemple : « Ignorer les gens par règle de limitation ». Vous pouvez ensuite envoyer les profils ignorés à un système tiers par le biais d’une action personnalisée.
 

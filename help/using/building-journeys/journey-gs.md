@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: parcours, premier, commencer, démarrage rapide, audience, événement, action
 exl-id: d940191e-8f37-4956-8482-d2df0c4274aa
-source-git-commit: fec6b15db9f8e6b2a07b55bc9e8fc4d9cb0d73d7
+source-git-commit: 619bcbc16b4117c29c482c85323603a4281298e0
 workflow-type: tm+mt
 source-wordcount: '1244'
 ht-degree: 91%
@@ -123,7 +123,7 @@ Créez des parcours pour offrir des expériences contextuelles personnalisées. 
 
 ➡️ [Découvrir cette fonctionnalité en vidéo](journey.md#video)
 
-Les étapes pour envoyer des messages par parcours sont répertoriées ci-dessous.
+Les étapes pour envoyer des messages par parcours sont répertoriées ci-dessous :
 
 1. Dans l’onglet **Parcourir**, cliquez sur **[!UICONTROL Créer un Parcours]** pour créer un parcours.
 

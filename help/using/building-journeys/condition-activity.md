@@ -9,8 +9,8 @@ role: User
 level: Intermediate
 keywords: activité, condition, zone de travail, parcours
 exl-id: 496c7666-a133-4aeb-be8e-c37b3b9bf5f9
-source-git-commit: e34c39c02f71361277f28b1a116a54390875f93d
-workflow-type: ht
+source-git-commit: 619bcbc16b4117c29c482c85323603a4281298e0
+workflow-type: tm+mt
 source-wordcount: '1466'
 ht-degree: 100%
 

@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: parcours, configuration, propriétés
 exl-id: 6c21371c-6cbc-4d39-8fe6-39f1b8b13280
-source-git-commit: 135dd7528e87a6fde7e148745ef2f49104809bc1
+source-git-commit: 619bcbc16b4117c29c482c85323603a4281298e0
 workflow-type: tm+mt
-source-wordcount: '1756'
-ht-degree: 37%
+source-wordcount: '1777'
+ht-degree: 36%
 
 ---
 
@@ -49,6 +49,8 @@ Dans cette section, vous pouvez définir le nom du parcours, ajouter une descrip
 >Pour les parcours en direct, cet écran affiche uniquement la date de publication et le nom de l’utilisateur qui a publié le parcours.
 
 La fonction **Copier les détails techniques** permet de copier les informations techniques relatives au parcours qui seront utiles à l&#39;équipe d&#39;assistance technique pour résoudre les problèmes. Les informations suivantes sont copiées : `JourneyVersion UID`, `OrgID`, `orgName`, `sandboxName`, `lastDeployedBy`, `lastDeployedAt`.
+
+En savoir plus sur les champs techniques liés à un parcours pour un profil donné et comment les utiliser [dans cette page](expression/journey-properties.md).
 
 
 ## Entrée et reprise {#entrance}
