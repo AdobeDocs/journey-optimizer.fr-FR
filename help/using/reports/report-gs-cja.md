@@ -8,9 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 badge: label="Version bêta" type="Informative"
-source-git-commit: 2a5c04477b38e2fccdde86af56714261c6638160
+exl-id: bfd88d2a-e7b8-4e3b-85a1-4a14b0ba56dc
+source-git-commit: 6c4e0418776622467e7f5b7bb3d9332d965becf1
 workflow-type: tm+mt
-source-wordcount: '353'
+source-wordcount: '354'
 ht-degree: 6%
 
 ---
@@ -21,7 +22,7 @@ ht-degree: 6%
 >
 > Pour rétablir les rapports traditionnels de Journey Optimizer, il suffit de basculer sur le **[!UICONTROL Utiliser une nouvelle expérience]** .
 
-Les rapports Journey Optimizer sont désormais entièrement intégrés aux fonctionnalités de Customer Journey Analytics, ils normalisent les rapports sur les deux plateformes et améliorent la cohérence et la fiabilité des données. Cette intégration transparente entre Journey Optimizer et Customer Journey Analytics offre une vue plus claire des mesures de performances, ce qui permet aux utilisateurs de prendre des décisions plus éclairées.
+La création de rapports Journey Optimizer s’accompagne d’une interopérabilité améliorée avec les fonctionnalités de Customer Journey Analytics, de la normalisation des rapports sur les deux plateformes et de l’amélioration de la cohérence et de la fiabilité des données. Cette intégration transparente entre Journey Optimizer et Customer Journey Analytics offre une vue plus claire des mesures de performances, ce qui permet aux utilisateurs de prendre des décisions plus éclairées.
 
 * Si vous souhaitez cibler un ou plusieurs parcours dans le contexte d&#39;un parcours, à partir de la **[!UICONTROL Parcours]** , accédez à votre parcours et cliquez sur le bouton **[!UICONTROL Afficher le rapport]** bouton .
 
@@ -47,4 +48,3 @@ Les rapports Journey Optimizer sont désormais entièrement intégrés aux fonct
 * Pour accéder au tableau de bord du Customer Journey Analytics dans Journey Optimizer, il vous suffit d’activer la fonction **[!UICONTROL Utiliser une nouvelle expérience]** bascule dans votre rapport.
 
   ![](assets/cja-option.png)
-
