@@ -9,7 +9,7 @@ role: Admin
 level: Experienced
 keywords: paramètres, e-mail, configuration
 exl-id: 13536962-7541-4eb6-9ccb-4f97e167734a
-source-git-commit: 4de37520b3ea7842d7f385f38c07cdf4984a5939
+source-git-commit: 975bb9d37a69fe8df02bc39ce2ccdf2da9953ebb
 workflow-type: tm+mt
 source-wordcount: '2532'
 ht-degree: 86%
@@ -102,7 +102,7 @@ L’en-tête de désabonnement de liste propose deux fonctionnalités (URL de d�
 
   Dans Journey Optimizer, l’adresse électronique de désabonnement est la valeur par défaut. **Mailto (désabonner)** adresse affichée à la surface du canal, en fonction de votre [sous-domaine sélectionné](#subdomains-and-ip-pools).
 
-  ![](assets/surface-list-unsubscribe-mailto.png){width="50%" align="left"}
+  ![](assets/surface-list-unsubscribe-mailto.png){width="80%" align="left"}
 
 
 * La variable **URL de désabonnement en un clic**, qui est par défaut l’option &quot;Un clic&quot; de notre en-tête de désabonnement à la liste généré par l’URL, en fonction du sous-domaine que vous avez défini et configuré dans les paramètres de surface du canal.
