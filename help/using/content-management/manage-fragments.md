@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 1fc708e1-a993-4a2a-809c-c5dc08a4bae1
-source-git-commit: d9942f578db6ef42a801c0e62a4c3e6a4a72ce71
+source-git-commit: 8ca75a149db65ee65bf28fe6c0688ee18488fcec
 workflow-type: tm+mt
-source-wordcount: '1032'
+source-wordcount: '1039'
 ht-degree: 45%
 
 ---
@@ -48,6 +48,7 @@ Cliquez sur le bouton **[!UICONTROL Plus d’actions]** en regard de chaque frag
 >id="ajo_fragment_statuses"
 >title="Nouveaux statuts de fragments"
 >abstract="Depuis que les status **Brouillon** et **Actif** ont été introduits avec la version de juin de Journey Optimizer, tous les fragments créés avant cette version ont le statut « Brouillon », même s’ils sont utilisés dans un parcours ou une campagne. Si vous apportez des modifications à ces fragments, vous devez les publier pour les rendre « Actif » et propager les modifications aux campagnes et parcours associés. Vous devez également créer une version de parcours/campagne et la publier. La publication nécessite une autorisation de l’utilisateur ou de l’utilisatrice."
+>additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/access-control/privacy/ootb-product-profiles#content-library-manager" text="En savoir plus sur les autorisations de fragments de contenu"
 
 >[!AVAILABILITY]
 >
