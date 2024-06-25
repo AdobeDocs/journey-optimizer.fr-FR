@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Experienced
 exl-id: 25c2c448-9380-47b0-97c5-16d9afb794c5
-source-git-commit: 8a1ec5acef067e3e1d971deaa4b10cffa6294d75
-workflow-type: ht
-source-wordcount: '1018'
+source-git-commit: 3f7d71eecf282b21eb09423378008c3b9ccd7edc
+workflow-type: tm+mt
+source-wordcount: '1024'
 ht-degree: 100%
 
 ---
@@ -77,7 +77,7 @@ Pour commencer à créer votre expérience basée sur le code par le biais d’u
 
    >[!NOTE]
    >
-   >La fonctionnalité de décision basée sur l’expérience est actuellement disponible en version Beta pour certains utilisateurs et utilisatrices.
+   >Ces décisions pour les expériences ne sont actuellement disponibles que pour un ensemble d’organisations (disponibilité limitée). Pour en bénéficier, contactez votre représentant ou représentante Adobe.
 
 
 1. Cliquez sur **[!UICONTROL Enregistrer et fermer]** pour confirmer vos modifications.
