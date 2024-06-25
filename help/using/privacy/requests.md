@@ -8,9 +8,9 @@ role: User
 level: Intermediate
 exl-id: 19ec3410-761e-4a9c-a277-f105fc446d7a
 source-git-commit: 41717213cb75185476f054bd076e67f942be0f1c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '457'
-ht-degree: 23%
+ht-degree: 100%
 
 ---
 
@@ -29,39 +29,39 @@ Pour plus d’informations sur Privacy Service et sur la création et la gestion
 
 
 
-## Gestion des demandes de confidentialité des données individuelles que vous pouvez envoyer à Adobe Journey Optimizer {#data-privacy-requests}
+## Gérer les demandes individuelles d’accès à des informations personnelles que vous pouvez envoyer à Adobe Journey Optimizer {#data-privacy-requests}
 
-Vous pouvez envoyer des requêtes individuelles pour accéder aux données des consommateurs de Adobe Journey Optimizer et les supprimer de deux manières :
+Vous pouvez envoyer des demandes individuelles pour accéder aux données de la clientèle d’Adobe Journey Optimizer et les supprimer de deux manières :
 
-* Par le biais de la **Interface utilisateur du Privacy Service**. Consultez la documentation [here](https://experienceleague.adobe.com/en/docs/experience-platform/privacy/ui/user-guide#_blank).
-* Par le biais de la **API PRIVACY SERVICE**. Consultez la documentation [here](https://developer.adobe.com/experience-platform-apis/references/privacy-service/#_blank) et informations sur l’API [here](https://developer.adobe.com/experience-platform-apis/#_blank).
+* Par le biais de l’**Interface d’utilisation de Privacy Service**. Consultez la documentation [ici](https://experienceleague.adobe.com/fr/docs/experience-platform/privacy/ui/user-guide#_blank).
+* Par le biais de l’**API Privacy Service**. Consultez la documentation [ici](https://developer.adobe.com/experience-platform-apis/references/privacy-service/#_blank) et les informations sur l’API [ici](https://developer.adobe.com/experience-platform-apis/#_blank).
 
-Le Privacy Service prend en charge deux types de requêtes : **accès aux données** et **suppression de données**.
+Privacy Service prend en charge deux types de demandes : l’**accès aux données** et la **suppression de données**.
 
 >[!NOTE]
 >
->Ce guide porte uniquement sur la manière d’effectuer des demandes d’accès à des informations personnelles pour Adobe Journey Optimizer. Si vous prévoyez également d’effectuer des demandes d’accès à des informations personnelles pour le lac de données de Platform, reportez-vous à cette section [guide](https://experienceleague.adobe.com/en/docs/experience-platform/catalog/privacy) en plus de ce tutoriel. Pour le profil client en temps réel, reportez-vous à cette section [guide](https://experienceleague.adobe.com/en/docs/experience-platform/profile/privacy) et pour le service Identity, reportez-vous à cette section [guide](https://experienceleague.adobe.com/en/docs/experience-platform/identity/privacy). Pour les requêtes de suppression et d’accès, vous devez appeler ces systèmes individuels afin de vous assurer que les requêtes sont traitées par chacun d’eux. L’envoi d’une demande d’accès à des informations personnelles à Adobe Journey Optimizer ne supprimera pas les données de tous ces systèmes.
+>Ce guide porte uniquement sur la manière d’effectuer des demandes d’accès à des informations personnelles pour Adobe Journey Optimizer. Si vous prévoyez également d’effectuer des demandes d’accès à des informations personnelles pour le lac de données de Platform, reportez-vous à ce [guide](https://experienceleague.adobe.com/fr/docs/experience-platform/catalog/privacy) en plus de ce tutoriel. Pour le profil client en temps réel, consultez ce [guide](https://experienceleague.adobe.com/fr/docs/experience-platform/profile/privacy) et pour le service d’identités, reportez-vous à ce [guide](https://experienceleague.adobe.com/fr/docs/experience-platform/identity/privacy). Pour les demandes de suppression et d’accès, vous devez appeler ces systèmes individuels afin de vous assurer que les demandes sont traitées par chacun d’entre eux. L’envoi d’une demande d’accès à des informations personnelles à Adobe Journey Optimizer ne supprimera pas les données de tous ces systèmes.
 
-Pour **demandes d’accès**, spécifiez &quot;Adobe Journey Optimizer&quot; dans l’interface utilisateur (ou &quot;CJM&quot; comme code de produit dans l’API).
+Pour les **demandes d’accès**, spécifiez « Adobe Journey Optimizer » dans l’interface d’utilisation (ou « CJM » comme code de produit dans l’API).
 
-Pour **suppression de requêtes**, en plus de la requête &quot;Adobe Journey Optimizer&quot;, vous devez également envoyer des requêtes de suppression à trois services en amont pour empêcher Journey Optimizer de réinjecter les données supprimées. Si ces services en amont ne sont pas spécifiés, la requête &quot;Adobe Journey Optimizer&quot; restera à l’état &quot;traitement&quot; jusqu’à la création des requêtes de suppression pour les services en amont.
+Pour les **demandes de suppression**, en plus de la demande « Adobe Journey Optimizer », vous devez également envoyer des demandes de suppression à trois services en amont pour empêcher Journey Optimizer de réinjecter les données supprimées. Si ces services en amont ne sont pas spécifiés, la demande « Adobe Journey Optimizer » restera à l’état « traitement » jusqu’à la création des demandes de suppression pour les services en amont.
 
-Les trois services en amont sont :
+Voici les trois services en amont :
 
-* Profil (code produit : &quot;profileService&quot;)
-* Lac de données AEP (code produit : &quot;AdobeCloudPlatform&quot;)
-* Identité (code produit : &quot;identité&quot;)
+* Profil (code produit : « profileService »)
+* Lac de données AEP (code produit : « AdobeCloudPlatform »)
+* Identité (code produit : « identity »)
 
-## Comment créer des demandes d’accès et de suppression
+## Créer des demandes d’accès et de suppression
 
 ### Conditions préalables
 
-Pour envoyer des demandes d’accès et de suppression de données pour Adobe Journey Optimizer, vous devez disposer des éléments suivants :
+Pour envoyer des demandes d’accès et de suppression de données pour Adobe Journey Optimizer, vous devez disposer des éléments suivants :
 
-* un identifiant de l’organisation IMS ;
-* un identifiant d’identité de la personne sur laquelle vous souhaitez agir et le ou les espaces de noms correspondants. Pour plus d’informations sur les espaces de noms d’identité dans Adobe Journey Optimizer et Experience Platform, voir [présentation de l’espace de noms d’identité](https://experienceleague.adobe.com/en/docs/experience-platform/identity/features/namespaces).
+* un ID d’organisation IMS ;
+* un identifiant d’identité de la personne sur laquelle vous souhaitez agir et le ou les espaces de noms correspondants. Pour plus d’informations sur les espaces de noms d’identité dans Adobe Journey Optimizer et Experience Platform, voir [Vue d’ensemble de l’espace de noms d’identité](https://experienceleague.adobe.com/fr/docs/experience-platform/identity/features/namespaces).
 
-### Valeurs de champ requises dans Adobe Journey Optimizer pour les requêtes API
+### Valeurs de champ requises dans Adobe Journey Optimizer pour les requêtes API
 
 ```json
 "companyContexts":
@@ -87,13 +87,13 @@ Pour envoyer des demandes d’accès et de suppression de données pour Adobe Jo
 ```
 
 
-### Exemple de demande d’accès RGPD :
+### Exemple de demande d’accès dans le cadre du RGPD :
 
-Dans l’interface utilisateur :
+Depuis l’interface d’utilisation :
 
 ![](assets/accessrequest.png)
 
-Via l’API :
+Par le biais de l’API :
 
 ```json
 // JSON Request
@@ -167,13 +167,13 @@ Via l’API :
 }
 ```
 
-### Exemple de demande de suppression RGPD :
+### Exemple de demande de suppression dans le cadre du RGPD :
 
-Dans l’interface utilisateur :
+Depuis l’interface d’utilisation :
 
 ![](assets/deleterequest.png)
 
-Via l’API :
+Par le biais de l’API :
 
 ```json
 // JSON Request

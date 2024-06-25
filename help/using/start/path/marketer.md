@@ -8,9 +8,9 @@ feature: Get Started
 Role: User
 exl-id: 34304142-3ee8-4081-94b9-e914968c75ba
 source-git-commit: b960757113a1620ac4d2f251e66c35c4943f6a9d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '456'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -40,7 +40,7 @@ Reportez-vous aux sections suivantes pour configurer votre premier parcours, ajo
 
    * Tirez parti des **données contextuelles** issues des événements, des informations d’Adobe Experience Platform ou des données provenant de services d’API tiers.
 
-   * Utilisez la variable **actions de canal intégrées** (Email, SMS, Push, InApp) pour envoyer des messages conçus dans [!DNL Journey Optimizer] ou créer **actions personnalisées** si vous utilisez un système tiers pour envoyer vos messages.
+   * Utilisez les **actions de canal intégrées** (E-mail, SMS, Notification push, In-app) pour envoyer des messages conçus dans [!DNL Journey Optimizer] ou créez des **actions personnalisées** si vous utilisez un système tiers pour envoyer vos messages.
 
    * Avec le **concepteur de parcours**, créez vos cas d’utilisation à plusieurs étapes : faites glisser et déposez facilement un événement d’entrée ou une activité de lecture d’audience, ajoutez des conditions et envoyez des messages personnalisés.
 
