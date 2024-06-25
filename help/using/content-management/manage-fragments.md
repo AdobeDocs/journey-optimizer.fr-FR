@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 1fc708e1-a993-4a2a-809c-c5dc08a4bae1
-source-git-commit: 893f7146b358da48153b1e6bc74b8f622028df76
+source-git-commit: d9942f578db6ef42a801c0e62a4c3e6a4a72ce71
 workflow-type: tm+mt
-source-wordcount: '968'
-ht-degree: 48%
+source-wordcount: '1032'
+ht-degree: 45%
 
 ---
 
@@ -69,6 +69,16 @@ Les fragments peuvent avoir plusieurs états :
 >Depuis que les status **Brouillon** et **Actif** ont été introduits avec la version de juin de Journey Optimizer, tous les fragments créés avant cette version ont le statut « Brouillon », même s’ils sont utilisés dans un parcours ou une campagne. Si vous apportez des modifications à ces fragments, vous devez les publier pour les rendre « Actif » et propager les modifications aux campagnes et parcours associés. Vous devez également créer une version de parcours/campagne et la publier. La publication nécessite une autorisation de l’utilisateur ou de l’utilisatrice.
 
 ## Modifier des fragments {#edit-fragments}
+
+>[!CONTEXTUALHELP]
+>id="ajo_fragments_update_campaigns"
+>title="Mise à jour des fragments dans les campagnes"
+>abstract="Cette campagne ne sera pas mise à jour si vous publiez des modifications dans le fragment. Une nouvelle version doit être publiée afin que la fonctionnalité de mise à jour des fragments puisse être prise en charge."
+
+>[!CONTEXTUALHELP]
+>id="ajo_fragments_update_journeys"
+>title="Mise à jour des fragments dans parcours"
+>abstract="Ce parcours ne sera pas mis à jour si vous publiez des modifications dans le fragment. Une nouvelle version doit être publiée afin que la fonctionnalité de mise à jour des fragments puisse être prise en charge."
 
 Pour modifier un fragment, procédez comme suit.
 
