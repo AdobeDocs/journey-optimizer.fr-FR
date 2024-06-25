@@ -11,8 +11,8 @@ keywords: créer, optimizer, campagne, surface, messages
 exl-id: 617d623c-e038-4b5b-a367-5254116b7815
 source-git-commit: 59ecb9a5376e697061ddac4cc68f09dee68570c0
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '925'
+ht-degree: 90%
 
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 0%
 
 Pour créer une campagne, accédez au menu **[!UICONTROL Campagnes]**, puis cliquez sur **[!UICONTROL Créer une campagne]**. Vous pouvez également dupliquer une campagne active existante pour en créer une nouvelle. [En savoir plus](modify-stop-campaign.md#duplicate)
 
-## Choisissez le type d&#39;opération {#campaigntype}
+## Choisir le type de campagne {#campaigntype}
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_campaign_type"

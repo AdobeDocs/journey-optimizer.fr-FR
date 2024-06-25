@@ -15,7 +15,7 @@ exl-id: 752ffd7f-09c2-4aa3-a067-2dbe0634709c
 source-git-commit: cd95614329e6efdc7ac4b6e0a5c683757a14b379
 workflow-type: tm+mt
 source-wordcount: '2558'
-ht-degree: 90%
+ht-degree: 91%
 
 ---
 
@@ -41,7 +41,7 @@ Chaque phase est composée de plusieurs exécutions auxquelles vous affectez une
 >[!CONTEXTUALHELP]
 >id="ajo_admin_ip_warmup_campaigns_excluded"
 >title="Exclure les audiences de campagne"
->abstract="Sélectionnez des campagnes pour exclure leurs audiences de la phase en cours. Cela empêche les profils précédemment contactés d’être à nouveau ciblés ; seuls ceux qui ont reçu des communications via le parcours seront exclus."
+>abstract="Sélectionnez des campagnes pour exclure leurs audiences de la phase en cours. Cela empêche les profils précédemment contactés d’être à nouveau ciblés ; seuls ceux qui ont reçu des communications via le parcours seront exclus."
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_ip_warmup_domains_excluded"
