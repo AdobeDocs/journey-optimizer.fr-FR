@@ -21,8 +21,8 @@ Cette page répertorie toutes les mises à jour récentes de la documentation de
 
 ## Juin 2024 {#june-2024}
 
-* Toutes les nouvelles fonctionnalités et améliorations de la version [!DNL Journey Optimizer] du 24 juin ont été présentées dans la documentation. [En savoir plus](release-notes.md)
-* Ajout d’une note sur l’utilisation des stratégies de fusion dans parcours dans [cette page](../building-journeys/journey-properties.md#merge-policies).
+* Toutes les nouvelles fonctionnalités et améliorations de la version de [!DNL Journey Optimizer] du 24 juin ont été présentées dans la documentation. [En savoir plus](release-notes.md)
+* Une note sur l’utilisation des politiques de fusion dans les parcours a été ajoutée dans [cette page](../building-journeys/journey-properties.md#merge-policies).
 * La page concernant la configuration d’une activité **Attente** dans un parcours a été réorganisée et améliorée. [En savoir plus](../building-journeys/wait-activity.md)
 * Une nouvelle page a été créée pour détailler les propriétés du parcours. [En savoir plus](../building-journeys/journey-properties.md)
 

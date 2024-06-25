@@ -8,7 +8,7 @@ solution: Journey Optimizer
 source-git-commit: 59ecb9a5376e697061ddac4cc68f09dee68570c0
 workflow-type: tm+mt
 source-wordcount: '1848'
-ht-degree: 98%
+ht-degree: 99%
 
 ---
 
@@ -46,7 +46,7 @@ ht-degree: 98%
    + [Prise en main des parcours](using/building-journeys/journey.md)
    + Création d’un parcours{#create-journey}
       + [Créer votre premier parcours](using/building-journeys/journey-gs.md)
-      + [Définition des propriétés de parcours](using/building-journeys/journey-properties.md)
+      + [Définir les propriétés de votre parcours](using/building-journeys/journey-properties.md)
       + [Concevoir le parcours](using/building-journeys/using-the-journey-designer.md)
       + [Tester votre parcours](using/building-journeys/testing-the-journey.md)
       + [Simuler votre parcours](using/building-journeys/journey-simulation.md)
@@ -382,13 +382,13 @@ ht-degree: 98%
    + [Utiliser Customer Journey Analytics](using/reports/cja-ajo.md)
    + [Motifs d’exclusion](using/reports/exclusion-list.md)
 + Nouvelle interface de création de rapports (version bêta){#channel-report}
-   + [Prise en main de la nouvelle interface de création de rapports](using/reports/report-gs-cja.md)
-   + [Gestion des rapports](using/reports/report-cja-manage.md)
+   + [Commencer avec la nouvelle interface de création de rapports](using/reports/report-gs-cja.md)
+   + [Gérer vos rapports](using/reports/report-cja-manage.md)
    + [Rapport de parcours](using/reports/journey-global-report-cja.md)
    + [Rapport de campagne](using/reports/campaign-global-report-cja.md)
-   + [Rapport Aperçu](using/reports/channel-report-cja.md)
+   + [Rapport d’aperçu](using/reports/channel-report-cja.md)
    + [Rapport sur les pages de destination](using/reports/lp-report-global-cja.md)
-   + [Rapport Liste d&#39;abonnements](using/reports/subscription-report-global-cja.md)
+   + [Rapport sur les listes d’abonnements](using/reports/subscription-report-global-cja.md)
 + Prise de décision {#decisioning}
    + Gestion des décisions {#offer-decisioning}
       + Prise en main de la gestion des décisions {#get-started-decision}

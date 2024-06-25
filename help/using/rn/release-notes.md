@@ -9,7 +9,7 @@ exl-id: 06fa956a-b500-416e-9d42-b683c328e837
 source-git-commit: 25cedf0f900d6625e766f90d95393d704b5e156d
 workflow-type: tm+mt
 source-wordcount: '965'
-ht-degree: 58%
+ht-degree: 83%
 
 ---
 
@@ -29,7 +29,7 @@ ht-degree: 58%
 
 ## Notes de mise à jour de juin 2024 {#24-6-2024}
 
-**Les notes de mise à jour anticipées ci-dessous peuvent être modifiées sans préavis jusqu’à la date de publication.**.
+**Les notes de mise à jour anticipées ci-dessous peuvent être modifiées sans avertissement préalable jusqu’à la date de disponibilité de la version**.
 
 **Date de publication** : 18-19 juin 2024
 
@@ -77,13 +77,13 @@ Cette version apporte les nouvelles fonctionnalités détaillées ci-dessous.
 <table>
 <thead>
 <tr>
-<th><strong>Reporting avec Customer Journey Analytics (bêta)</strong><br/></th>
+<th><strong>Créer des rapports avec Customer Journey Analytics (version bêta)</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>La création de rapports Journey Optimizer s’accompagne d’une interopérabilité améliorée avec les fonctionnalités de Customer Journey Analytics, de la normalisation des rapports sur les deux plateformes et de l’amélioration de la cohérence et de la fiabilité des données. Cette intégration transparente entre Journey Optimizer et Customer Journey Analytics offre une vue plus claire des mesures de performances, ce qui permet aux utilisateurs de prendre des décisions plus éclairées.</p>
+<p>La création de rapports Journey Optimizer s’accompagne d’une interopérabilité améliorée avec les fonctionnalités de Customer Journey Analytics, de la normalisation des rapports sur les deux plateformes et de l’amélioration de la cohérence et de la fiabilité des données. Cette intégration transparente entre Journey Optimizer et Customer Journey Analytics offre une vue plus claire des mesures de performances, ce qui permet aux utilisateurs et utilisatrices de prendre des décisions plus éclairées.</p>
 <img src="assets/do-not-localize/ajo-cja.gif"/>
 <p>Pour plus d’informations, consultez la <a href="../reports/report-gs-cja.md">documentation détaillée</a>.</p>
 </td>
@@ -170,7 +170,7 @@ Cette version est fournie avec les améliorations répertoriées ci-dessous.
 
 >[!AVAILABILITY]
 >
->Notez que ces améliorations seront progressivement déployées dans les jours qui suivront la version initiale. Bien que certains utilisateurs disposent d’un accès immédiat, d’autres peuvent rencontrer un délai avant qu’il ne soit disponible dans leur environnement.
+>Notez que ces améliorations seront progressivement déployées dans les jours qui suivront la version initiale. Certains utilisateurs et utilisatrices auront un accès immédiat, mais d’autres peuvent rencontrer un retard avant que cela ne soit disponible dans leurs environnements.
 
 * Les fragments peuvent désormais être modifiés et les modifications peuvent être propagées dans tous les parcours actifs et toutes les campagnes dans lesquels elles sont utilisées.
 * De nouveaux statuts pour les fragments de contenu ont été ajoutés : **Brouillon**, **Actif**, **Publication** et **Archivé**.
@@ -178,16 +178,16 @@ Cette version est fournie avec les améliorations répertoriées ci-dessous.
 
   **ATTENTION** : depuis l’introduction des statuts **Brouillon** et **Actif** avec la version de juin de Journey Optimizer, tous les fragments créés avant cette version ont le statut **Brouillon**, même s’ils sont utilisés dans un parcours ou une campagne. Découvrez comment mettre à jour vos fragments existants dans cette section.
 
-En savoir plus dans la section [fragment de contenu](../content-management/fragments.md) la documentation.
+En savoir plus dans la documentation sur les [fragments de contenu](../content-management/fragments.md).
 
 **Parcours**
 
-* Le délai d’expiration global des Parcours a été prolongé à 91 jours. [En savoir plus](../building-journeys/journey-properties.md#global_timeout)
+* Le délai d’expiration global des parcours a été étendu à 91 jours. [En savoir plus](../building-journeys/journey-properties.md#global_timeout)
 
-  Ce nouveau délai d’expiration sera pris en compte pour tous les nouveaux parcours créés. Consultez à ce sujet [Section FAQ](../building-journeys/journey-properties.md#timeout-faq) pour en savoir plus. Veuillez noter que ces modifications seront progressivement appliquées au cours du mois de juin.
+  Ce nouveau délai d’expiration sera pris en compte pour tous les nouveaux parcours créés. Consultez cette [section Questions fréquentes](../building-journeys/journey-properties.md#timeout-faq) pour en savoir plus. Notez que ces modifications seront progressivement appliquées au cours du mois de juin.
 
 
-* Adobe Journey Optimizer prend désormais en charge les demandes de suppression/accès des informations personnelles ainsi que les demandes de gestion du cycle de vie des données. [En savoir plus](../privacy/requests.md)
+* Adobe Journey Optimizer prend désormais en charge les demandes de suppression/d’accès pour les informations personnelles ainsi que les demandes de gestion du cycle de vie des données. [En savoir plus](../privacy/requests.md)
 * Vous pouvez désormais redimensionner les colonnes de l’inventaire des parcours.
   <!--* **Advanced expression editor in Event configuration** is now GA - You can now leverage the advanced expression editor while configuring an event, allowing you to define more complex expressions or use functions in the event id condition. This capability is released in Limited Availability for selected customers. [Read more](../event/about-creating.md)-->
 * **Les politiques de fusion** sont maintenant disponibles de manière générale : les politiques de fusion utilisées par un parcours sont désormais visibles et cohérentes dans l’ensemble du parcours. [En savoir plus](../building-journeys/journey-properties.md#merge-policies)
@@ -196,7 +196,7 @@ En savoir plus dans la section [fragment de contenu](../content-management/fragm
 
 **Campagnes**
 
-* Lors de la création d’une campagne dans Adobe Journey Optimizer, vous pouvez désormais choisir le type de campagne (planifiée ou déclenchée) dans un nouveau modal. [En savoir plus](../campaigns/create-campaign.md)
+* Lors de la création d’une campagne dans Adobe Journey Optimizer, vous pouvez désormais choisir le type de campagne (planifiée ou déclenchée) dans une nouvelle boîte de dialogue modale. [En savoir plus](../campaigns/create-campaign.md)
 
 **Canal e-mail**
 
@@ -205,9 +205,9 @@ En savoir plus dans la section [fragment de contenu](../content-management/fragm
 
 **Canal SMS**
 
-* Vous pouvez désormais ajouter des codes courts uniques pour chaque environnement de test avec une seule configuration d’API, ce qui rend le processus plus efficace et plus simple. [En savoir plus](../sms/sms-configuration.md)
+* Vous pouvez désormais ajouter des codes courts uniques pour chaque sandbox avec une seule configuration d’API, ce qui rend le processus plus efficace et plus simple. [En savoir plus](../sms/sms-configuration.md)
 
-* Après la création, la variable **Jeton API** sur le champ **Informations d’identification de l’API** est maintenant masquée.
+* Après la création, le champ **Jeton API** sur le page **Détails des informations d’identification de l’API** est désormais masqué.
 
 <!--* You can now modify existing SMS configurations.-->
 
@@ -215,7 +215,7 @@ En savoir plus dans la section [fragment de contenu](../content-management/fragm
 
 <!--* **Expression fragment** - Expression fragments are now available for the **In-app channel**. [Read more](../personalization/use-expression-fragments.md)-->
 
-* Vous pouvez désormais utiliser le module externe Edge Delivery pour obtenir les informations nécessaires pour comprendre et résoudre les problèmes liés à vos implémentations entrantes. [En savoir plus sur la vue Edge Delivery](https://experienceleague.adobe.com/fr/docs/experience-platform/assurance/view/edge-delivery){target="_blank"}.
+* Vous pouvez désormais utiliser le plug-in Edge Delivery pour obtenir les informations nécessaires pour comprendre et résoudre les problèmes liés à vos implémentations entrantes. [En savoir plus sur la vue Edge Delivery](https://experienceleague.adobe.com/fr/docs/experience-platform/assurance/view/edge-delivery){target="_blank"}.
 
 
 **Canal courrier**
