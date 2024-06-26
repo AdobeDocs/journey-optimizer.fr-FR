@@ -1,0 +1,127 @@
+---
+solution: Journey Optimizer
+product: journey optimizer
+title: Créer des modèles de contenu
+description: Découvrez comment créer des modèles pour réutiliser du contenu dans des campagnes et des parcours Journey Optimizer.
+feature: Templates
+topic: Content Management
+role: User
+level: Beginner
+source-git-commit: 59c675dd2ac94b6967cfb3a93f74b2016a090190
+workflow-type: tm+mt
+source-wordcount: '699'
+ht-degree: 99%
+
+---
+
+
+# Créer des modèles de contenu {#create-content-templates}
+
+>[!CONTEXTUALHELP]
+>id="ajo_create_template"
+>title="Définissez votre propre modèle de contenu"
+>abstract="Créez entièrement un modèle personnalisé autonome pour rendre votre contenu réutilisable sur plusieurs parcours et campagnes."
+
+Vous pouvez créer des modèles de contenu de deux manières :
+
+* Créez un nouveau modèle de contenu à l’aide du menu **[!UICONTROL Modèles de contenu]** du rail de gauche. [Voici comment procéder.](#create-template-from-scratch)
+
+* Lors de la conception de votre contenu dans une campagne ou un parcours, enregistrez-le en tant que modèle. [Voici comment procéder.](#save-as-template)
+
+Une fois enregistré, votre modèle de contenu peut être utilisé dans une campagne ou un parcours. Qu’il soit créé entièrement ou à partir d’un contenu précédent, vous pouvez maintenant utiliser ce modèle lors de la création d’un contenu dans [!DNL Journey Optimizer]. [Voici comment procéder.](#use-content-templates)
+
+>[!NOTE]
+>
+>* Les modifications apportées aux modèles de contenu ne sont pas propagées aux campagnes ou aux parcours, qu’ils soient en ligne ou en version préliminaire.
+>
+>* De même, lorsque des modèles sont utilisés dans une campagne ou un parcours, les modifications que vous apportez au contenu de votre campagne et de votre parcours n’ont aucune incidence sur le modèle de contenu précédemment utilisé.
+
+## Créer un nouveau modèle {#create-template-from-scratch}
+
+Pour créer entièrement un nouveau modèle de contenu, procédez comme suit.
+
+1. Accédez à la liste des modèles de contenu via le menu de gauche **[!UICONTROL Gestion de contenu]** > **[!UICONTROL Modèles de contenu]**.
+
+1. Sélectionnez **[!UICONTROL Créer un modèle]**.
+
+1. Renseignez les détails du modèle et sélectionnez le canal souhaité.
+
+   ![](assets/content-template-channels.png)
+
+   >[!NOTE]
+   >
+   >Actuellement, tous les canaux sont disponibles, à l’exception du canal web.
+
+1. Choisissez un **[!UICONTROL Type]** pour le canal sélectionné.
+
+   ![](assets/content-template-type.png)
+
+   * Pour **[!UICONTROL E-mail]**, si vous sélectionnez **[!UICONTROL Contenu]**, vous pouvez définir l’[Objet](../email/create-email.md#define-email-content) dans le cadre de votre modèle. Si vous sélectionnez **[!UICONTROL HTML]**, vous pouvez définir le contenu du corps de l’e-mail uniquement.
+
+   * Pour **[!UICONTROL SMS]**, **[!UICONTROL Push]**, **[!UICONTROL In-app]** et **[!UICONTROL Courrier]**, seul le type par défaut est disponible pour le canal actuel. Vous devez toujours le sélectionner.
+
+1. Sélectionnez ou créez des balises Adobe Experience Platform à partir du champ **[!UICONTROL Balises]** pour classer votre modèle en vue d’une recherche améliorée. [En savoir plus](../start/search-filter-categorize.md#tags)
+
+1. Pour attribuer des libellés d’utilisation des données personnalisés ou de base au modèle, vous pouvez sélectionner **[!UICONTROL Gérer l’accès]**. [En savoir plus sur le contrôle d’accès au niveau de l’objet (OLAC)](../administration/object-based-access.md).
+
+1. Cliquez sur **[!UICONTROL Créer]** et concevez votre contenu selon vos besoins, de la même manière que pour tout contenu dans un parcours ou une campagne, selon le canal que vous avez sélectionné.
+
+   ![](assets/content-template-edition.png)
+
+   Découvrez comment créer du contenu pour les différents canaux dans les sections suivantes :
+   * [Définir le contenu d’un e-mail](../email/get-started-email-design.md)
+   * [Définir le contenu d’une notification push](../push/design-push.md)
+   * [Définir le contenu d’un SMS](../sms/create-sms.md#sms-content)
+   * [Définir le contenu d’un courrier](../direct-mail/create-direct-mail.md)
+   * [Définir le contenu in-app](../in-app/design-in-app.md)
+
+1. Si vous créez un modèle **[!UICONTROL E-mail]** avec le type **[!UICONTROL HTML]**, vous pouvez tester votre contenu. [Voici comment procéder.](#test-template)
+
+1. Une fois votre modèle prêt, cliquez sur **[!UICONTROL Enregistrer]**.
+
+1. Cliquez sur la flèche en regard du nom du modèle pour revenir à l’écran **[!UICONTROL Détails]**.
+
+   ![](assets/content-template-back.png)
+
+Ce modèle est maintenant prêt à être utilisé lors de la création d’un contenu dans [!DNL Journey Optimizer]. [Voici comment procéder](#use-content-templates)
+
+## Enregistrer du contenu en tant que modèle de contenu {#save-as-template}
+
+>[!CONTEXTUALHELP]
+>id="ajo_messages_depecrated_inventory"
+>title="Découvrez comment migrer vos messages"
+>abstract="Le 25 juillet 2022, le menu Messages a disparu et les messages sont désormais créés directement à partir d’un parcours. Si vous souhaitez réutiliser vos messages hérités dans les parcours, vous devez les enregistrer en tant que modèles."
+
+Lors de la conception d’un contenu dans une campagne ou un parcours, vous pouvez l’enregistrer pour une réutilisation ultérieure. Pour ce faire, suivez les étapes ci-après.
+
+1. Dans l’écran **[!UICONTROL Modifier le contenu]** du message, cliquez sur le bouton **[!UICONTROL Modèle de contenu]**.
+
+1. Sélectionnez **[!UICONTROL Enregistrer en tant que modèle de contenu]** dans le menu déroulant.
+
+   ![](assets/content-template-button-save.png)
+
+   Si vous vous trouvez dans le [Concepteur d’e-mail](../email/get-started-email-design.md), vous pouvez également sélectionner cette option dans la liste déroulante **[!UICONTROL Plus]** située en haut à droite de l’écran.
+
+   ![](assets/content-template-more-button-save.png)
+
+1. Ajoutez un nom et une description pour ce modèle.
+
+   ![](assets/content-template-name.png)
+
+   >[!NOTE]
+   >
+   >Le canal et le type actuels sont automatiquement renseignés et ne peuvent pas être modifiés. Pour les modèles d’e-mail créés à partir du [Concepteur d’e-mail](../email/get-started-email-design.md), le type **[!UICONTROL HTML]** est automatiquement sélectionné.
+
+1. Sélectionnez ou créez une balise Adobe Experience Platform à partir du champ **Balises** pour classer votre modèle. [En savoir plus](../start/search-filter-categorize.md#tags).
+
+1. Pour attribuer des libellés d’utilisation des données personnalisés ou de base au modèle, vous pouvez sélectionner **[!UICONTROL Gérer l’accès]**. [En savoir plus](../administration/object-based-access.md).
+
+1. Cliquez sur **[!UICONTROL Enregistrer]**.
+
+1. Le modèle est enregistré dans la liste **[!UICONTROL Modèles de contenu]**, accessible à partir du menu dédié [!DNL Journey Optimizer]. Il devient alors un modèle de contenu autonome accessible pouvant être édité et supprimé comme tout autre élément de cette liste. [En savoir plus](#access-manage-templates).
+
+Vous pouvez désormais utiliser ce modèle lors de la création de contenu dans [!DNL Journey Optimizer]. [Voici comment procéder](#use-content-templates)
+
+>[!NOTE]
+>
+>Toute modification apportée à ce nouveau modèle n’est pas propagée dans le contenu d’où il provient. De même, lorsque le contenu d’origine est modifié dans ce contenu, le nouveau modèle n’est pas modifié.
