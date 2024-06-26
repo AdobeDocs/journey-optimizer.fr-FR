@@ -7,9 +7,9 @@ role: User
 level: Intermediate, Experienced
 badge: label="Disponibilité limitée"
 source-git-commit: 59ecb9a5376e697061ddac4cc68f09dee68570c0
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '330'
+ht-degree: 100%
 
 ---
 
