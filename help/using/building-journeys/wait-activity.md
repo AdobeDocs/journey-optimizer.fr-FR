@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: attente, activité, parcours, suivant, zone de travail
 exl-id: 7268489a-38c1-44da-b043-f57aaa12d7d5
-source-git-commit: cb6a3b279158eb065c3dca5436bd992efb79fcff
+source-git-commit: e5b32629dac368855df09313edaad55e3bc143dc
 workflow-type: tm+mt
 source-wordcount: '508'
 ht-degree: 87%
@@ -39,9 +39,9 @@ Vous pouvez définir deux types d’activité **Attente** :
 
 ### Activités Attente multiples {#multiple-wait-activities}
 
-Lorsque vous utilisez plusieurs **Attente** activités dans un parcours, notez que la variable [expiration globale](journey-properties.md#global_timeout) pour les parcours est de 90 jours, ce qui signifie que les profils sont toujours retirés du parcours au maximum 90 jours après leur entrée. En savoir plus sur [cette page](journey-properties.md#global_timeout).
+Lorsque vous utilisez plusieurs **Attente** activités dans un parcours, notez que la variable [expiration globale](journey-properties.md#global_timeout) pour les parcours est de 91 jours, ce qui signifie que les profils sont toujours retirés du parcours au maximum 91 jours après leur entrée. En savoir plus sur [cette page](journey-properties.md#global_timeout).
 
-Un individu peut saisir une **Attente** activité uniquement s’il leur reste suffisamment de temps dans le parcours pour terminer la durée d’attente avant l’expiration du délai d’parcours de 90 jours.
+Un individu peut saisir une **Attente** activité uniquement s’il leur reste suffisamment de temps dans le parcours pour terminer la durée d’attente avant l’expiration du parcours de 91 jours.
 
 ### Attente et reprise {#wait-re-entrance}
 

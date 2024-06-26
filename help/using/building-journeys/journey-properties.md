@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: parcours, configuration, propriétés
 exl-id: 6c21371c-6cbc-4d39-8fe6-39f1b8b13280
-source-git-commit: a43179e67a7d5387e67bd3f6bb3ac3f24dd6325a
+source-git-commit: e5b32629dac368855df09313edaad55e3bc143dc
 workflow-type: tm+mt
 source-wordcount: '1724'
 ht-degree: 34%
@@ -74,7 +74,7 @@ Par défaut, les nouveaux parcours autorisent la reprise. Vous pouvez désélect
 >[!CONTEXTUALHELP]
 >id="ajo_journey_properties_re-entrance_wait"
 >title="Période d’attente de rentrée"
->abstract=" Définissez le temps d’attente avant de permettre à un profil de revenir au parcours dans les parcours unitaires. Cela empêche les utilisateurs de revenir sur le parcours pendant une durée donnée. Durée maximale : 29 jours."
+>abstract=" Définissez le temps d’attente avant de permettre à un profil de revenir au parcours dans les parcours unitaires. Cela empêche les utilisateurs de revenir sur le parcours pendant une durée donnée. Durée maximale : 90 jours."
 >additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/manage-journey/entry-management" text="Gestion des entrées de profil"
 
 Lorsque l’option **Autoriser une reprise** est activée, le champ **Période d’attente de reprise** s’affiche. Ce champ vous permet de définir le temps d’attente avant d’autoriser un profil à entrer à nouveau dans un parcours pour les parcours unitaires (en commençant par un événement ou une qualification d’audience). Cela empêche les parcours d’être déclenchés plusieurs fois par erreur pour le même événement. Par défaut, le champ est défini sur 5 minutes. La durée maximale est de 90 jours.
