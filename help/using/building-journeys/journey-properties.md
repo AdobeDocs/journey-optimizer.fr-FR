@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: parcours, configuration, propriétés
 exl-id: 6c21371c-6cbc-4d39-8fe6-39f1b8b13280
-source-git-commit: cb6a3b279158eb065c3dca5436bd992efb79fcff
+source-git-commit: a43179e67a7d5387e67bd3f6bb3ac3f24dd6325a
 workflow-type: tm+mt
 source-wordcount: '1724'
 ht-degree: 34%
@@ -157,7 +157,7 @@ Un individu ne peut entrer dans une activité d’attente que s’il dispose de 
       <p>Qu’advient-il d’un profil entrant dans un parcours publié avant le lancement de l’extension TTL ?</p>
     </td>
     <td>
-      <p>Le profil aura un délai d’activation de 91 jours (7 jours pour HIPAA), en fonction de l’heure à laquelle le parcours a été publié à l’origine.</p>
+      <p>Le profil aura un délai d’activation de 30 jours (7 jours pour HIPAA), en fonction de l’heure à laquelle le parcours a été publié à l’origine.</p>
     </td>
   </tr>
   <tr style="border: 1;">
@@ -165,7 +165,7 @@ Un individu ne peut entrer dans une activité d’attente que s’il dispose de 
       <p>Qu’advient-il d’un profil qui a déjà été saisi dans un parcours au lancement de l’extension TTL ?</p>
     </td>
     <td>
-      <p>Le profil conservera une durée de vie de 91 jours (7 jours pour HIPAA), selon l’heure de publication originale du parcours.</p>
+      <p>Le profil conservera une durée de vie de 30 jours (7 jours pour HIPAA), selon l’heure de publication originale du parcours.</p>
     </td>
   </tr>
   <tr style="border: 1;">
@@ -173,7 +173,7 @@ Un individu ne peut entrer dans une activité d’attente que s’il dispose de 
       <p>Qu’advient-il d’un profil dans une version de parcours précédente qui est republiée après le lancement de l’extension TTL ?</p>
     </td>
     <td>
-      <p>Le profil conserve un délai d’activation de 91 jours (7 jours pour HIPAA), aligné sur l’heure de publication de la version par parcours d’origine.</p>
+      <p>Le profil conserve une durée de vie (TTL) de 30 jours (7 jours pour HIPAA), en fonction de l’heure de publication de la version de parcours d’origine.</p>
     </td>
   </tr>
   <tr style="border: 1;">
@@ -218,7 +218,7 @@ Un individu ne peut entrer dans une activité d’attente que s’il dispose de 
       <p>Qu’advient-il d’un profil entrant dans un parcours publié avant le lancement de l’extension TTL ?</p>
     </td>
     <td>
-      <p>Le profil aura un délai d’activation de 91 jours (7 jours pour HIPAA), cohérent avec l’heure de publication d’origine. Pour les parcours récurrents avec une rentrée forcée, la durée de vie correspond à la période de périodicité.</p>
+      <p>Le profil aura un délai d’activation de 30 jours (7 jours pour HIPAA), en fonction de l’heure de publication d’origine. Pour les parcours récurrents avec une rentrée forcée, la durée de vie correspond à la période de périodicité.</p>
     </td>
   </tr>
   <tr style="border: 1;">
@@ -226,7 +226,7 @@ Un individu ne peut entrer dans une activité d’attente que s’il dispose de 
       <p>Qu’advient-il d’un profil s’exécutant par un parcours lorsque l’extension TTL est lancée ?</p>
     </td>
     <td>
-      <p>Le profil conservera une durée de vie de 91 jours (7 jours pour HIPAA), selon l’heure de publication originale du parcours. Pour les parcours récurrents avec une rentrée forcée, la durée de vie correspond à la période de périodicité.</p>
+      <p>Le profil conservera une durée de vie de 30 jours (7 jours pour HIPAA), selon l’heure de publication originale du parcours. Pour les parcours récurrents avec une rentrée forcée, la durée de vie correspond à la période de périodicité.</p>
     </td>
   </tr>
   <tr style="border: 1;">
@@ -234,7 +234,7 @@ Un individu ne peut entrer dans une activité d’attente que s’il dispose de 
       <p>Qu’advient-il d’un profil en cours d’exécution dans une version de parcours précédente qui est republiée après le lancement de l’extension TTL ?</p>
     </td>
     <td>
-      <p>Le profil conserve un délai d’activation de 91 jours (7 jours pour HIPPA), aligné sur l’heure de publication de la version par parcours d’origine. Pour les parcours récurrents avec une rentrée forcée, la durée de vie correspond à la période de périodicité.</p>
+      <p>Le profil maintiendra un délai d’activation de 30 jours (7 jours pour HIPPA), en fonction de l’heure de publication de la version par parcours d’origine. Pour les parcours récurrents avec une rentrée forcée, la durée de vie correspond à la période de périodicité.</p>
     </td>
   </tr>
   <tr style="border: 1;">
