@@ -9,10 +9,10 @@ role: Admin, User
 level: Intermediate
 keywords: autorisations, création, messages
 exl-id: 5a968bd8-cf76-4242-aa80-3cfb3d551511
-source-git-commit: 0571a11eabffeb5e318bebe341a8df18da7db598
-workflow-type: ht
-source-wordcount: '1172'
-ht-degree: 100%
+source-git-commit: fd8835b1f9bffd887758e4015171074c5dfc16c0
+workflow-type: tm+mt
+source-wordcount: '1175'
+ht-degree: 99%
 
 ---
 
@@ -142,6 +142,6 @@ Ce rôle inclut les autorisations suivantes :
 
 | Fonctionnalité | Autorisations |
 |-|-|
-| Bibliothèque Journey Optimizer | <ul><li>**[!DNL Manage library items]** : lire, créer, modifier et supprimer des éléments de la bibliothèque Journey Optimizer, y compris des modèles de contenu et des fragments.</li><li>**[!DNL Manage simulate content]** : accéder à l’option **[!UICONTROL Simuler du contenu]** pour l’aperçu et le BAT.</li></ul> |
+| Bibliothèque Journey Optimizer | <ul><li>**[!DNL Manage library items]** : lire, créer, modifier et supprimer des éléments de la bibliothèque Journey Optimizer, y compris des modèles de contenu et des fragments.</li><li>**[!DNL Manage simulate content]** : accéder à l’option **[!UICONTROL Simuler du contenu]** pour l’aperçu et le BAT.</li><li>**[!DNL Publish Fragment]**: publiez des fragments de contenu.</li></ul> |
 | Gestion des décisions | <ul><li>**[!DNL Manage decisions]** : lecture, création, modification et suppression des entités de prise de décision.</li><li>**[!DNL Manage ranking strategies]** : la lecture, la création, la modification et la suppression des rapports personnalisés et lʼutilisation des fonctionnalités dʼaction.</li></ul> |
 | Adobe Experience Platform | <ul><li> **[!DNL Manage segments]** : la lecture, la création, la modification et la suppression des définitions de segments.</li><li>**[!DNL Manage profiles]** : la lecture, la création, la modification et la suppression des profils.</li><li>**[!DNL Read datasets]** : accès en lecture seule aux jeux de données.</li><li>**[!DNL Read schemas]** : accès en lecture seule aux schémas.</li><li>**[!DNL Manage merge policies]** : la lecture, la création, la modification et la suppression des politiques de fusion.</li></ul> |
