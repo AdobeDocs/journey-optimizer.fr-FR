@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: da3ffe9c-a244-4246-b4b5-a3a1d0508676
-source-git-commit: c843ca5bda10aa5f3ee8a676630d78c5ec092b14
+source-git-commit: ffeaa49cde2871b28c85598469e62f4d9acbf060
 workflow-type: tm+mt
 source-wordcount: '709'
 ht-degree: 33%
@@ -21,7 +21,7 @@ ht-degree: 33%
 >id="ajo_create_visual_fragment"
 >title="Sélectionner le type Visuel"
 >abstract="Créez un fragment visuel autonome pour rendre votre contenu réutilisable dans un e-mail au sein d’un parcours ou d’une campagne, ou dans un modèle de contenu."
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/email/design-email/add-content/use-visual-fragments.html?lang=fr" text="Ajouter des fragments visuels à vos e-mails"
+>additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/email/design-email/add-content/use-visual-fragments" text="Ajouter des fragments visuels à vos e-mails"
 
 >[!CONTEXTUALHELP]
 >id="ajo_create_expression_fragment"
@@ -61,7 +61,7 @@ Pour créer un fragment, procédez comme suit.
 
 ## Concevoir le contenu du fragment {#content}
 
-Après avoir configuré les propriétés du fragment, le Concepteur d’email ou l’éditeur de personnalisation s’ouvre, selon le type de fragment que vous créez.
+Une fois les propriétés du fragment configurées, le Designer d’email ou l’éditeur de personnalisation s’ouvre, selon le type de fragment que vous créez.
 
 * Pour les fragments visuels, modifiez votre contenu selon les besoins, de la même manière que pour tout email contenu dans un parcours ou une campagne. [En savoir plus](../email/get-started-email-design.md)
 
@@ -81,17 +81,17 @@ Lorsque votre contenu est prêt, cliquez sur l’icône **Enregistrer** bouton .
 
 >[!NOTE]
 >
->Pour publier un fragment, vous devez disposer de la variable **Publier le fragment** autorisation associée. [En savoir plus sur les autorisations](../administration/ootb-permissions.md)
+>Pour publier un fragment, vous devez disposer de la variable **Fragment Publish** autorisation associée. [En savoir plus sur les autorisations](../administration/ootb-permissions.md)
 
 Si votre fragment est prêt à être publié, vous pouvez le prévisualiser et le publier afin de le rendre disponible dans vos parcours et campagnes. Pour ce faire, procédez comme suit :
 
 1. Revenez à l’écran de création de fragment après avoir conçu son contenu ou ouvrez-le depuis la liste des fragments.
 
-1. Un aperçu du fragment est disponible sous le **Balises** , permettant de vérifier son rendu. Si vous devez apporter des modifications, cliquez sur le bouton **Modifier** dans la section supérieure de l&#39;écran pour ouvrir le Concepteur d&#39;email ou l&#39;éditeur de personnalisation en fonction du type de fragment.
+1. Un aperçu du fragment est disponible sous le **Balises** , permettant de vérifier son rendu. Si vous devez apporter des modifications, cliquez sur le bouton **Modifier** dans la section supérieure de l&#39;écran pour ouvrir le Designer email ou l&#39;éditeur de personnalisation en fonction du type de fragment.
 
    ![](assets/fragment-preview.png)
 
-1. Cliquez sur le bouton **Publier** dans le coin supérieur droit pour publier le fragment.
+1. Cliquez sur le bouton **Publish** dans le coin supérieur droit pour publier le fragment.
 
    Si le fragment est utilisé dans un parcours ou une campagne actif, un message s’ouvre pour vous informer. Cliquez sur le bouton **En savoir plus** lien pour accéder à la liste des parcours et/ou campagnes dans lesquels il est référencé. [Découvrez comment explorer les références d’un fragment](../content-management/manage-fragments.md#explore-references)
 
@@ -99,7 +99,7 @@ Si votre fragment est prêt à être publié, vous pouvez le prévisualiser et l
 
    ![](assets/fragment-publish.png){width="70%" align="center"}
 
-Le fragment est maintenant **En direct**, et devient disponible lors de la création de tout contenu dans le [!DNL Journey Optimizer] Concepteur d&#39;email ou éditeur de personnalisation :
+Le fragment est maintenant **En direct**, et devient disponible lors de la création de tout contenu dans le [!DNL Journey Optimizer] Designer d’email ou éditeur de personnalisation :
 
 * [Découvrir comment utiliser des fragments visuels](../email/use-visual-fragments.md)
 * [Découvrir comment utiliser des fragments d’expression](../personalization/use-expression-fragments.md)
