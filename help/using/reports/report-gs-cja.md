@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 badge: label="Version bêta" type="Informative"
 exl-id: bfd88d2a-e7b8-4e3b-85a1-4a14b0ba56dc
-source-git-commit: 6c4e0418776622467e7f5b7bb3d9332d965becf1
+source-git-commit: c2fda001969867aebcc4e5c6854183c30240fddb
 workflow-type: tm+mt
-source-wordcount: '354'
-ht-degree: 6%
+source-wordcount: '374'
+ht-degree: 17%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 6%
 >
 > Pour rétablir les rapports traditionnels de Journey Optimizer, il suffit de basculer sur le **[!UICONTROL Utiliser une nouvelle expérience]** .
 
-La création de rapports Journey Optimizer s’accompagne d’une interopérabilité améliorée avec les fonctionnalités de Customer Journey Analytics, de la normalisation des rapports sur les deux plateformes et de l’amélioration de la cohérence et de la fiabilité des données. Cette intégration transparente entre Journey Optimizer et Customer Journey Analytics offre une vue plus claire des mesures de performances, ce qui permet aux utilisateurs de prendre des décisions plus éclairées.
+La création de rapports Journey Optimizer s’accompagne d’une interopérabilité améliorée avec les fonctionnalités de Customer Journey Analytics, de la normalisation des rapports sur les deux plateformes et de l’amélioration de la cohérence et de la fiabilité des données. Cette intégration transparente entre Journey Optimizer et Customer Journey Analytics offre une vue plus claire des mesures de performances, ce qui permet aux utilisateurs et utilisatrices de prendre des décisions plus éclairées.
 
 * Si vous souhaitez cibler un ou plusieurs parcours dans le contexte d&#39;un parcours, à partir de la **[!UICONTROL Parcours]** , accédez à votre parcours et cliquez sur le bouton **[!UICONTROL Afficher le rapport]** bouton .
 
@@ -48,3 +48,9 @@ La création de rapports Journey Optimizer s’accompagne d’une interopérabil
 * Pour accéder au tableau de bord du Customer Journey Analytics dans Journey Optimizer, il vous suffit d’activer la fonction **[!UICONTROL Utiliser une nouvelle expérience]** bascule dans votre rapport.
 
   ![](assets/cja-option.png)
+
+## Vidéo pratique{#video}
+
+La vidéo ci-dessous montre comment attribuer l’autorisation **Gérer la configuration de l’application** pour accéder au menu Surfaces de l’application.
+
+>[!VIDEO](https://video.tv.adobe.com/v/3430413)
