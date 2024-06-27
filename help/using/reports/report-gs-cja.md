@@ -7,12 +7,12 @@ feature: Reporting
 topic: Content Management
 role: User
 level: Intermediate
-badge: label="Version bêta" type="Informative"
+badge: label="Disponibilité limitée" type="Informative"
 exl-id: bfd88d2a-e7b8-4e3b-85a1-4a14b0ba56dc
-source-git-commit: c2fda001969867aebcc4e5c6854183c30240fddb
+source-git-commit: b80d794f3782056a10310c65144a8eecbddaaf3e
 workflow-type: tm+mt
-source-wordcount: '374'
-ht-degree: 17%
+source-wordcount: '373'
+ht-degree: 13%
 
 ---
 
@@ -51,6 +51,6 @@ La création de rapports Journey Optimizer s’accompagne d’une interopérabil
 
 ## Vidéo pratique{#video}
 
-La vidéo ci-dessous montre comment attribuer l’autorisation **Gérer la configuration de l’application** pour accéder au menu Surfaces de l’application.
+La vidéo ci-dessous montre comment utiliser le reporting Journey Optimizer amélioré avec Customer Journey Analytics.
 
 >[!VIDEO](https://video.tv.adobe.com/v/3430413)

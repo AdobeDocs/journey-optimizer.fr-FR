@@ -5,7 +5,7 @@ user-guide-title: Guide de Journey Optimizer
 user-guide-description: Utilisez Journey Optimizer pour créer et proposer aux clients des expériences connectées, contextuelles et personnalisées
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 59c675dd2ac94b6967cfb3a93f74b2016a090190
+source-git-commit: b80d794f3782056a10310c65144a8eecbddaaf3e
 workflow-type: tm+mt
 source-wordcount: '1865'
 ht-degree: 98%
@@ -386,7 +386,7 @@ ht-degree: 98%
    + [Alertes](using/reports/alerts.md)
    + [Utiliser Customer Journey Analytics](using/reports/cja-ajo.md)
    + [Motifs d’exclusion](using/reports/exclusion-list.md)
-+ Nouvelle interface de création de rapports (version bêta){#channel-report}
++ Nouvelle interface de création de rapports (LA){#channel-report}
    + [Commencer avec la nouvelle interface de création de rapports](using/reports/report-gs-cja.md)
    + [Gérer vos rapports](using/reports/report-cja-manage.md)
    + [Rapport de parcours](using/reports/journey-global-report-cja.md)

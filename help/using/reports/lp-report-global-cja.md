@@ -7,10 +7,11 @@ feature: Reporting, Landing Pages
 topic: Content Management
 role: User
 level: Intermediate
-badge: label="Version bêta" type="Informative"
-source-git-commit: 854f593710a28bde605aa995d747d4e084a6c4b4
+badge: label="Disponibilité limitée" type="Informative"
+exl-id: e73cdca9-3e83-4642-a2bb-d5453afa77fe
+source-git-commit: b80d794f3782056a10310c65144a8eecbddaaf3e
 workflow-type: tm+mt
-source-wordcount: '791'
+source-wordcount: '792'
 ht-degree: 4%
 
 ---
@@ -114,10 +115,3 @@ La variable **[!UICONTROL Canal]** le tableau affiche le nombre de visites de vo
 La variable **[!UICONTROL Liens les plus consultés]** Le tableau fournit des informations sur la manière dont les visiteurs interagissent avec la diffusion, en soulignant les liens qui reçoivent le plus d’engagement et d’attention de votre audience.
 
 * **[!UICONTROL Clics sur la page d’entrée]**: nombre de clics sur un contenu dans la landing page.
-
-
-
-
-
-
-

@@ -7,15 +7,16 @@ feature: Reporting
 topic: Content Management
 role: User
 level: Intermediate
-badge: label="Version bêta" type="Informative"
-source-git-commit: 2a5c04477b38e2fccdde86af56714261c6638160
+badge: label="Disponibilité limitée" type="Informative"
+exl-id: 393f02c0-f54c-4222-b668-0931b67590ce
+source-git-commit: b80d794f3782056a10310c65144a8eecbddaaf3e
 workflow-type: tm+mt
-source-wordcount: '636'
+source-wordcount: '637'
 ht-degree: 6%
 
 ---
 
-# Rapport Aperçu {#channel-report-cja}
+# Rapport d’aperçu {#channel-report-cja}
 
 Le rapport Aperçu offre aux utilisateurs un résumé complet des mesures de trafic et d’engagement pour toutes les campagnes et tous les parcours de votre environnement. Ces mesures sont combinées pour présenter des valeurs unifiées pour les actions provenant de différents canaux, englobant diverses campagnes et différents parcours.
 
@@ -27,7 +28,7 @@ La page Rapport s’affiche avec les onglets suivants :
 * [Campagnes](#campaign)
 * [Canaux](#channel)
 
-Pour en savoir plus sur Customer Journey Analytics Workspace et sur le filtrage et l’analyse des données, reportez-vous à la section [cette page](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/home).
+Pour en savoir plus sur Customer Journey Analytics Workspace et sur le filtrage et l&#39;analyse des données, reportez-vous à la section [cette page](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/home).
 
 ## Tons clairs {#highlights}
 

@@ -7,10 +7,11 @@ feature: Reporting, Journeys
 topic: Content Management
 role: User
 level: Intermediate
-badge: label="Version bêta" type="Informative"
-source-git-commit: 854f593710a28bde605aa995d747d4e084a6c4b4
+badge: label="Disponibilité limitée" type="Informative"
+exl-id: d43ae701-6e3b-4dcf-8da1-11c07be10fcf
+source-git-commit: b80d794f3782056a10310c65144a8eecbddaaf3e
 workflow-type: tm+mt
-source-wordcount: '4175'
+source-wordcount: '4176'
 ht-degree: 14%
 
 ---
@@ -33,7 +34,7 @@ La variable **[!UICONTROL Rapport parcours]** s’affiche avec les onglets suiva
 * [Web](#web-cja)
 * [Courrier](#direct-mail-cja)
 
-Pour en savoir plus sur Customer Journey Analytics Workspace et sur le filtrage et l’analyse des données, reportez-vous à la section [cette page](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/home).
+Pour en savoir plus sur Customer Journey Analytics Workspace et sur le filtrage et l&#39;analyse des données, reportez-vous à la section [cette page](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/home).
 
 ## Vue d’ensemble du parcours {#journey-global}
 
