@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 1fc708e1-a993-4a2a-809c-c5dc08a4bae1
-source-git-commit: 8ca75a149db65ee65bf28fe6c0688ee18488fcec
+source-git-commit: 09287aaa41664cc497060df9a10a7d46985e4ae4
 workflow-type: tm+mt
-source-wordcount: '1039'
-ht-degree: 45%
+source-wordcount: '1044'
+ht-degree: 44%
 
 ---
 
@@ -47,7 +47,7 @@ Cliquez sur le bouton **[!UICONTROL Plus d’actions]** en regard de chaque frag
 >[!CONTEXTUALHELP]
 >id="ajo_fragment_statuses"
 >title="Nouveaux statuts de fragments"
->abstract="Depuis que les status **Brouillon** et **Actif** ont été introduits avec la version de juin de Journey Optimizer, tous les fragments créés avant cette version ont le statut « Brouillon », même s’ils sont utilisés dans un parcours ou une campagne. Si vous apportez des modifications à ces fragments, vous devez les publier pour les rendre « Actif » et propager les modifications aux campagnes et parcours associés. Vous devez également créer une version de parcours/campagne et la publier. La publication nécessite une autorisation de l’utilisateur ou de l’utilisatrice."
+>abstract="Depuis que les status **Brouillon** et **Actif** ont été introduits avec la version de juin de Journey Optimizer, tous les fragments créés avant cette version ont le statut « Brouillon », même s’ils sont utilisés dans un parcours ou une campagne. Si vous apportez des modifications à ces fragments, vous devez les publier pour les rendre « Actif » et propager les modifications aux campagnes et parcours associés. Vous devez également créer une version de parcours/campagne et la publier. La publication nécessite l’autorisation de l’utilisateur &quot;Fragment Publish&quot;."
 >additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/access-control/privacy/ootb-product-profiles#content-library-manager" text="En savoir plus sur les autorisations de fragments de contenu"
 
 >[!AVAILABILITY]
@@ -67,7 +67,7 @@ Les fragments peuvent avoir plusieurs états :
 
 >[!CAUTION]
 >
->Depuis que les status **Brouillon** et **Actif** ont été introduits avec la version de juin de Journey Optimizer, tous les fragments créés avant cette version ont le statut « Brouillon », même s’ils sont utilisés dans un parcours ou une campagne. Si vous apportez des modifications à ces fragments, vous devez les publier pour les rendre « Actif » et propager les modifications aux campagnes et parcours associés. Vous devez également créer une version de parcours/campagne et la publier. La publication nécessite une autorisation de l’utilisateur ou de l’utilisatrice.
+>Depuis que les status **Brouillon** et **Actif** ont été introduits avec la version de juin de Journey Optimizer, tous les fragments créés avant cette version ont le statut « Brouillon », même s’ils sont utilisés dans un parcours ou une campagne. Si vous apportez des modifications à ces fragments, vous devez les publier pour les rendre « Actif » et propager les modifications aux campagnes et parcours associés. Vous devez également créer une version de parcours/campagne et la publier. La publication requiert le [Fragment Publish](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/access-control/privacy/ootb-product-profiles#content-library-manager)** autorisation de l’utilisateur.
 
 ## Modifier des fragments {#edit-fragments}
 
@@ -99,7 +99,7 @@ Pour modifier un fragment, procédez comme suit.
 
    ![](assets/fragment-edit.png)
 
-1. Une fois vos modifications prêtes, cliquez sur le bouton **Publier** pour rendre vos modifications actives.
+1. Une fois vos modifications prêtes, cliquez sur le bouton **Publish** pour rendre vos modifications actives.
 
 Lorsque vous modifiez un fragment, les modifications sont automatiquement propagées à tout le contenu utilisant ce fragment, y compris les parcours actifs et les campagnes, à l’exception des contenus dont l’héritage du fragment d’origine a été rompu. Découvrez comment rompre l’héritage dans le [Ajout de fragments visuels à vos emails](../email/use-visual-fragments.md#break-inheritance) et [Utilisation des fragments d’expression](../personalization/use-expression-fragments.md#break-inheritance) sections.
 
