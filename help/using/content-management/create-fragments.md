@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: da3ffe9c-a244-4246-b4b5-a3a1d0508676
-source-git-commit: e6924928e03d494817a2368b33997029ca2eca1c
+source-git-commit: c42fc1069e11b8e34b7477fc26ed8a6b4ef95ac7
 workflow-type: tm+mt
-source-wordcount: '646'
+source-wordcount: '642'
 ht-degree: 36%
 
 ---
@@ -77,7 +77,7 @@ Lorsque votre contenu est prêt, cliquez sur l’icône **Enregistrer** bouton .
 
 >[!NOTE]
 >
->Pour publier un fragment, vous devez disposer de la variable **Fragment Publish** autorisation associée. [En savoir plus sur les autorisations](../administration/ootb-permissions.md)
+>Pour publier un fragment, vous devez disposer de la variable [Fragment Publish](../administration/ootb-product-profiles.md#content-library-manager) autorisation utilisateur.
 
 Si votre fragment est prêt à être publié, vous pouvez le prévisualiser et le publier afin de le rendre disponible dans vos parcours et campagnes. Pour ce faire, procédez comme suit :
 

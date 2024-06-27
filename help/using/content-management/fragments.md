@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 7131a953-baca-4e7c-a8df-97c0bd6ac567
-source-git-commit: 0ee93c3f3e922d0640b2867dcf5ebb83d67aa826
+source-git-commit: c42fc1069e11b8e34b7477fc26ed8a6b4ef95ac7
 workflow-type: tm+mt
-source-wordcount: '312'
-ht-degree: 88%
+source-wordcount: '315'
+ht-degree: 82%
 
 ---
 
@@ -36,7 +36,7 @@ Pour optimiser l’utilisation des fragments, procédez comme suit :
 
 ## Avant de commencer {#fragment-prerequisites}
 
-Pour créer, modifier et archiver des fragments, vous devez disposer de l’autorisation **[!DNL Manage library items]** incluse dans le profil de produit **[!DNL Content Library Manager]**. [En savoir plus](../administration/ootb-product-profiles.md#content-library-manager)
+Pour créer, modifier, archiver et publier des fragments, vous avez besoin de l’option **[!DNL Manage library items]** et **[Fragment Publish]** autorisations incluses dans la variable **[!DNL Content Library Manager]** profil de produit. [En savoir plus](../administration/ootb-product-profiles.md#content-library-manager)
 
 Dans cette version, les restrictions suivantes s’appliquent :
 
