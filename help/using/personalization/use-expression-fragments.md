@@ -9,10 +9,10 @@ role: Data Engineer
 level: Intermediate
 keywords: expression, éditeur, bibliothèque, personnalisation
 exl-id: 74b1be18-4829-4c67-ae45-cf13278cda65
-source-git-commit: ca743774017e8f6cf5f385119d9c71de6020bb19
+source-git-commit: e6924928e03d494817a2368b33997029ca2eca1c
 workflow-type: tm+mt
-source-wordcount: '750'
-ht-degree: 51%
+source-wordcount: '682'
+ht-degree: 56%
 
 ---
 
@@ -51,8 +51,6 @@ Pour ajouter des fragments d’expression à votre contenu, procédez comme suit
    >[!CAUTION]
    >
    >Vous pouvez ajouter n’importe quel **Version préliminaire** ou **En direct** fragment dans votre contenu. Cependant, vous ne pourrez pas activer votre parcours ou campagne si un fragment avec le statut En création y est utilisé. Lors de la publication parcours ou de la campagne, les fragments de brouillon affichent une erreur et vous devez les approuver pour pouvoir publier.
-   >
-   > Notez que les statuts des fragments sont déployés progressivement au cours des jours qui suivent la publication de Journey Optimizer en juin. Bien que certains utilisateurs disposent d’un accès immédiat, d’autres peuvent rencontrer un délai avant qu’il ne soit disponible dans leur environnement. Si cette amélioration n’est pas encore disponible dans votre environnement, veuillez noter que le fragment ne doit pas obligatoirement être **En direct** à utiliser dans vos parcours et campagnes.
 
 1. Une fois l’ID du fragment ajouté, si vous ouvrez le fragment d’expression correspondant et que vous [le modifiez](../content-management/fragments.md#edit-fragments) depuis l’interface, les modifications sont synchronisées. Ils sont automatiquement propagés à tous les parcours/campagnes actifs ou de brouillon contenant cet identifiant de fragment.
 

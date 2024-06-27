@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 25a00f74-ed08-479c-9a5d-4185b5f3c684
-source-git-commit: ca743774017e8f6cf5f385119d9c71de6020bb19
+source-git-commit: e6924928e03d494817a2368b33997029ca2eca1c
 workflow-type: tm+mt
-source-wordcount: '737'
-ht-degree: 47%
+source-wordcount: '669'
+ht-degree: 52%
 
 ---
 
@@ -54,8 +54,6 @@ Pour utiliser un fragment dans un email, procédez comme suit.
    >[!CAUTION]
    >
    >Vous pouvez ajouter n’importe quel **Version préliminaire** ou **En direct** fragment dans votre contenu. Cependant, vous ne pourrez pas activer votre parcours ou campagne si un fragment avec le statut En création y est utilisé. Lors de la publication parcours ou de la campagne, les fragments de brouillon affichent une erreur et vous devez les approuver pour pouvoir publier.
-   >
-   > Notez que les statuts des fragments sont déployés progressivement au cours des jours qui suivent la publication de Journey Optimizer en juin. Bien que certains utilisateurs disposent d’un accès immédiat, d’autres peuvent rencontrer un délai avant qu’il ne soit disponible dans leur environnement. Si cette amélioration n’est pas encore disponible dans votre environnement, veuillez noter que le fragment ne doit pas obligatoirement être **En direct** à utiliser dans vos parcours et campagnes.
 
 1. Comme tout autre composant, vous pouvez déplacer le fragment dans votre contenu.
 

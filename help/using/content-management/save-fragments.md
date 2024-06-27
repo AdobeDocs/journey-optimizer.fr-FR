@@ -8,20 +8,20 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 70e88ea0-f2b0-4c13-8693-619741762429
-source-git-commit: 893f7146b358da48153b1e6bc74b8f622028df76
+source-git-commit: e6924928e03d494817a2368b33997029ca2eca1c
 workflow-type: tm+mt
-source-wordcount: '586'
-ht-degree: 45%
+source-wordcount: '460'
+ht-degree: 57%
 
 ---
 
 # Enregistrer du contenu en tant que fragment {#save-as-fragment}
 
-Lors de la modification de contenu dans [!DNL Journey Optimizer], vous pouvez enregistrer tout ou une partie de votre contenu en tant que fragment pour une réutilisation ultérieure. Vous pouvez enregistrer du contenu en tant que fragment : [depuis le Concepteur d&#39;email](#save-as-visual-fragment), ou [depuis l’éditeur d’expression](#save-as-expression-fragment).
+Lors de la modification de contenu dans [!DNL Journey Optimizer], vous pouvez enregistrer tout ou une partie de votre contenu en tant que fragment pour une réutilisation ultérieure. Vous pouvez enregistrer du contenu en tant que fragment : [à partir du Designer de messagerie électronique](#save-as-visual-fragment), ou [depuis l’éditeur d’expression](#save-as-expression-fragment).
 
 ## Enregistrer en tant que fragment visuel {#save-as-visual-fragment}
 
-Pour enregistrer le contenu du Concepteur d&#39;email en tant que fragment, procédez comme suit :
+Pour enregistrer le contenu du Designer par courrier électronique en tant que fragment, procédez comme suit :
 
 1. Dans le [concepteur d’e-mail](../email/get-started-email-design.md), cliquez sur les points de suspension en haut à droite de l’écran.
 
@@ -51,10 +51,6 @@ Pour enregistrer le contenu du Concepteur d&#39;email en tant que fragment, proc
 
 1. Pour pouvoir utiliser le fragment dans vos parcours et campagnes, vous devez le mettre en ligne. [Découvrez comment prévisualiser et publier un fragment](../content-management/create-fragments.md#publish)
 
->[!NOTE]
->
->La publication de fragments est progressivement déployée au cours des jours qui suivent la publication de la version de juin de Journey Optimizer. Bien que certains utilisateurs disposent d’un accès immédiat, d’autres peuvent rencontrer un délai avant qu’il ne soit disponible dans leur environnement. Si cette amélioration n’est pas encore disponible dans votre environnement, notez que la publication de fragments n’est pas nécessaire pour utiliser des fragments dans vos parcours et campagnes.
-
 ## Enregistrer en tant que fragment d’expression {#save-as-expression-fragment}
 
 >[!CONTEXTUALHELP]
@@ -83,7 +79,3 @@ Pour enregistrer du contenu en tant que fragment d’expression, procédez comme
 1. Le fragment est ajouté à la [liste de fragments](#access-manage-fragments) avec la propriété **Version préliminaire** statut. Il devient un fragment autonome qui peut être utilisé comme tout autre fragment d’expression de cette liste.
 
 1. Pour pouvoir utiliser le fragment dans vos parcours et campagnes, vous devez le mettre en ligne. [Découvrez comment prévisualiser et publier un fragment](../content-management/create-fragments.md#publish)
-
->[!NOTE]
->
->La publication de fragments est progressivement déployée au cours des jours qui suivent la publication de la version de juin de Journey Optimizer. Bien que certains utilisateurs disposent d’un accès immédiat, d’autres peuvent rencontrer un délai avant qu’il ne soit disponible dans leur environnement. Si cette amélioration n’est pas encore disponible dans votre environnement, notez que la publication de fragments n’est pas nécessaire pour utiliser des fragments dans vos parcours et campagnes.

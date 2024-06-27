@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 1fc708e1-a993-4a2a-809c-c5dc08a4bae1
-source-git-commit: 152d637b631650e99c67df9be179ab1f5b5e682b
+source-git-commit: e6924928e03d494817a2368b33997029ca2eca1c
 workflow-type: tm+mt
-source-wordcount: '1044'
-ht-degree: 44%
+source-wordcount: '905'
+ht-degree: 51%
 
 ---
 
@@ -49,10 +49,6 @@ Cliquez sur le bouton **[!UICONTROL Plus d’actions]** en regard de chaque frag
 >title="Nouveaux statuts de fragments"
 >abstract="Depuis que les status **Brouillon** et **Actif** ont été introduits avec la version de juin de Journey Optimizer, tous les fragments créés avant cette version ont le statut « Brouillon », même s’ils sont utilisés dans un parcours ou une campagne. Si vous apportez des modifications à ces fragments, vous devez les publier pour les rendre « Actif » et propager les modifications aux campagnes et parcours associés. Vous devez également créer une version de parcours/campagne et la publier. La publication nécessite l’autorisation de l’utilisateur du fragment Publish."
 >additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/access-control/privacy/ootb-product-profiles#content-library-manager" text="En savoir plus sur les autorisations de fragments de contenu"
-
->[!AVAILABILITY]
->
-> Notez que les statuts des fragments sont déployés progressivement au cours des jours qui suivent la publication de Journey Optimizer en juin. Bien que certains utilisateurs disposent d’un accès immédiat, d’autres peuvent rencontrer un délai avant qu’il ne soit disponible dans leur environnement. Si cette amélioration n’est pas encore disponible dans votre environnement, veuillez noter que le fragment ne doit pas obligatoirement être **En direct** à utiliser dans vos parcours et campagnes.
 
 Les fragments peuvent avoir plusieurs états :
 
@@ -102,10 +98,6 @@ Pour modifier un fragment, procédez comme suit.
 1. Une fois vos modifications prêtes, cliquez sur le bouton **Publish** pour rendre vos modifications actives.
 
 Lorsque vous modifiez un fragment, les modifications sont automatiquement propagées à tout le contenu utilisant ce fragment, y compris les parcours actifs et les campagnes, à l’exception des contenus dont l’héritage du fragment d’origine a été rompu. Découvrez comment rompre l’héritage dans le [Ajout de fragments visuels à vos emails](../email/use-visual-fragments.md#break-inheritance) et [Utilisation des fragments d’expression](../personalization/use-expression-fragments.md#break-inheritance) sections.
-
->[!AVAILABILITY]
->
->Notez que la propagation des modifications de fragments dans les parcours en direct et les campagnes est en cours de déploiement graduel au cours des quelques jours suivant la publication de Journey Optimizer en juin. Bien que certains utilisateurs disposent d’un accès immédiat, d’autres peuvent rencontrer un délai avant qu’il ne soit disponible dans leur environnement. Si cette amélioration n’est pas encore disponible dans votre environnement, vos modifications ne seront pas propagées au contenu utilisé dans les parcours ou campagnes actifs.
 
 ## Explorer les références {#explore-references}
 
