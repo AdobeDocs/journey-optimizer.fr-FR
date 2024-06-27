@@ -1,21 +1,21 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: À propos de l’éditeur d’expression avancé
+title: Utilisation de l’éditeur d’expression avancé
 description: Découvrir comment créer des expressions avancées
 feature: Journeys
 role: Data Engineer, Architect
 level: Experienced
 keywords: éditeur d’expression, données, parcours
 exl-id: 9ea6cc3a-6a1b-4e8f-82ff-f8b1812617d7
-source-git-commit: 8a1ec5acef067e3e1d971deaa4b10cffa6294d75
-workflow-type: ht
-source-wordcount: '668'
-ht-degree: 100%
+source-git-commit: 2de94e8ce3fe77399c8dc1d515ae73d58cb8f43d
+workflow-type: tm+mt
+source-wordcount: '665'
+ht-degree: 97%
 
 ---
 
-# À propos de l’éditeur d’expression avancé {#about-the-advanced-expression-editor}
+# Utilisation de l’éditeur d’expression avancé {#about-the-advanced-expression-editor}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_expression_advanced"
@@ -24,18 +24,19 @@ ht-degree: 100%
 
 Utilisez l’éditeur d’expression avancé de Journey pour créer des expressions avancées dans divers écrans de l’interface. Par exemple, vous pouvez créer des expressions lors de la configuration et de l’utilisation de parcours, ainsi que lors de la définition d’une condition de source de données.
 
+Il est également disponible chaque fois que vous devez définir des paramètres d’action qui nécessitent des manipulations de données spécifiques. Vous pouvez exploiter les données issues d’événements ou d’informations supplémentaires récupérées de la source de données.
+Dans un parcours, la liste des champs d’événements affichée est contextuelle et varie selon le ou les événements ajoutés dans le parcours.
+
+![](../assets/journey65.png)
+
+
+L’éditeur d’expression avancé propose un ensemble de fonctions et d’opérateurs intégrés qui vous permettent de manipuler des valeurs et de définir une expression qui répond spécifiquement à vos besoins. L’éditeur d’expression avancé vous permet également de définir les valeurs du paramètre de source de données externe et de manipuler les champs de mappage et les collections, telles que les événements d’expérience.
+
 >[!NOTE]
 >
 >Les fonctions et les fonctionnalités disponibles dans l’éditeur d’expression avancé de Journey diffèrent de celles disponibles dans l’[éditeur de personnalisation](../../personalization/functions/functions.md).
 
-Il est également disponible chaque fois que vous devez définir des paramètres d’action qui nécessitent des manipulations de données spécifiques. Vous pouvez exploiter les données issues d’événements ou d’informations supplémentaires récupérées de la source de données.
-Dans un parcours, la liste des champs d’événements affichée est contextuelle et varie selon le ou les événements ajoutés dans le parcours.
-
-L’éditeur d’expression avancé propose un ensemble de fonctions et d’opérateurs intégrés qui vous permettent de manipuler des valeurs et de définir une expression qui répond spécifiquement à vos besoins. L’éditeur d’expression avancé vous permet également de définir les valeurs du paramètre de source de données externe et de manipuler les champs de mappage et les collections, telles que les événements d’expérience.
-
-![](../assets/journey65.png)
-
-_Interface de l’éditeur d’expression avancé_
+## Accès à l’éditeur d’expression avancé {#accessing-the-advanced-expression-editor}
 
 L’éditeur d’expression avancé peut être utilisé pour effectuer ce qui suit :
 
@@ -51,8 +52,6 @@ Lorsque cela est possible, vous pouvez basculer entre les deux modes à l’aide
 >
 >Les paramètres d’actions peuvent être définis en sélectionnant des champs ou à l’aide de l’éditeur d’expression avancé. Ils renvoient un type de données spécifique en fonction de leur expression.
 
-## Accéder à l’éditeur d’expression avancé {#accessing-the-advanced-expression-editor}
-
 Vous pouvez accéder à l’éditeur d’expression avancé de différentes manières :
 
 * Lorsque vous créez une condition de source de données, vous pouvez accéder à l’éditeur avancé en cliquant sur **[!UICONTROL Mode avancé]**.
@@ -62,7 +61,7 @@ Vous pouvez accéder à l’éditeur d’expression avancé de différentes mani
 * Lorsque vous créez un retardateur personnalisé, l’éditeur avancé s’affiche automatiquement.
 * Lorsque vous mappez un paramètre d’action, cliquez sur **[!UICONTROL Mode avancé]**.
 
-## Découvrir l’interface{#discovering-the-interface}
+## Découvrir l’interface {#discovering-the-interface}
 
 Cet écran vous permet d’écrire manuellement votre expression.
 

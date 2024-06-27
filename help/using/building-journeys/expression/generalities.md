@@ -1,23 +1,25 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Syntaxe
-description: En savoir plus sur lʼéditeur d’expression avancé
+title: Syntaxe de l’éditeur d’expression avancé
+description: Découvrez la syntaxe utilisée dans l’éditeur d’expression avancé
 feature: Journeys
 role: Data Engineer, Architect
 level: Experienced
 keywords: syntaxe, éditeur, parcours
 exl-id: c9434b28-2750-4a53-985e-c4a3f940472c
-source-git-commit: d3f0adab52ed8e44a6097c5079396d1e9c06e0a7
+source-git-commit: 2de94e8ce3fe77399c8dc1d515ae73d58cb8f43d
 workflow-type: tm+mt
-source-wordcount: '231'
-ht-degree: 100%
+source-wordcount: '262'
+ht-degree: 87%
 
 ---
 
 # Syntaxe de l’éditeur d’expression avancé {#syntax}
 
-## Parenthèses et priorité des expressions{#parentheses-and-expression-priority}
+Principes de syntaxe lors de l’utilisation de la variable [Éditeur d’expression avancé](expressionadvanced.md) sont répertoriées ci-dessous. Des exemples d’utilisation de l’éditeur d’expression avancé sont disponibles dans [cette page](advanced-editor-use-cases.md).
+
+## Parenthèses et priorité des expressions {#parentheses-and-expression-priority}
 
 Il est possible d’utiliser des parenthèses pour améliorer la lisibilité d’une expression complexe. _(&lt;expression>)_ est l’équivalent de _&lt;expression>_. Il est également possible d’utiliser des parenthèses pour définir l’ordre d’évaluation et l’associativité.
 
@@ -30,7 +32,7 @@ Les expressions sont évaluées de gauche à droite. L’associativité des opé
 | `4 + 2 * 10` | <ul><li>« * » a la priorité sur « + » : 2 * 10 est évalué → 20</li><li>4 + 20 → 24</li></ul> |
 | `(4 + 2) * 10` | <ul><li>Les parenthèses modifient la priorité : (4 + 2) est évalué → 6</li><li> 6 * 10 → 60</li></ul> |
 
-## Sensible à la casse{#case-sensitivity}
+## Sensible à la casse {#case-sensitivity}
 
 Les règles de respect de la casse sont les suivantes :
 
@@ -38,7 +40,7 @@ Les règles de respect de la casse sont les suivantes :
 * Tous les noms de fonctions sont sensibles à la casse. Par exemple, _inAudience()_ est valide, contrairement à la fonction _INAUDIENCE()_.
 * Les références aux champs et les valeurs constantes respectent la casse : ces éléments ne sont pas intégrés au langage (par opposition aux opérateurs et aux fonctions), mais créés par l’utilisateur.
 
-## Type d’expression renvoyé{#returned-expression-type}
+## Type d’expression renvoyé {#returned-expression-type}
 
 Selon le contexte d’utilisation, l’éditeur d’expression peut renvoyer différentes valeurs.
 

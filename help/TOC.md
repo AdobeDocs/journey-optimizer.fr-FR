@@ -5,9 +5,9 @@ user-guide-title: Guide de Journey Optimizer
 user-guide-description: Utilisez Journey Optimizer pour créer et proposer aux clients des expériences connectées, contextuelles et personnalisées
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: b80d794f3782056a10310c65144a8eecbddaaf3e
+source-git-commit: 2de94e8ce3fe77399c8dc1d515ae73d58cb8f43d
 workflow-type: tm+mt
-source-wordcount: '1865'
+source-wordcount: '1873'
 ht-degree: 98%
 
 ---
@@ -52,9 +52,9 @@ ht-degree: 98%
       + [Simuler votre parcours](using/building-journeys/journey-simulation.md)
       + [Publier votre parcours](using/building-journeys/publishing-the-journey.md)
    + Gestion des parcours{#manage-journey}
-      + [Fin de votre parcours](using/building-journeys/end-journey.md)
-      + [Gestion des fuseaux horaires](using/building-journeys/timezone-management.md)
       + [Gestion des entrées de profil](using/building-journeys/entry-management.md)
+      + [Gestion des fuseaux horaires](using/building-journeys/timezone-management.md)
+      + [Fin de votre parcours](using/building-journeys/end-journey.md)
       + [Copier un parcours dans un autre sandbox](using/building-journeys/copy-to-sandbox.md)
       + [Dépannage de votre parcours](using/building-journeys/troubleshooting.md)
       + [Intégration avec les services intelligents](using/building-journeys/ai-services-overview.md)
@@ -73,9 +73,9 @@ ht-degree: 98%
       + [Saut](using/building-journeys/jump.md)
       + [Mise à jour du profil](using/building-journeys/update-profiles.md)
    + Création d’expressions {#building-advanced-conditions-journeys}
-      + [Présentation](using/building-journeys/expression/expressionadvanced.md)
+      + [Utilisation de l’éditeur d’expression avancé](using/building-journeys/expression/expressionadvanced.md)
       + Syntaxe {#syntax}
-         + [Généralités](using/building-journeys/expression/generalities.md)
+         + [Syntaxe de l’éditeur d’expression avancé](using/building-journeys/expression/generalities.md)
          + [Instruction conditionnelle](using/building-journeys/expression/conditional-instruction.md)
          + [Types de données](using/building-journeys/expression/data-types.md)
          + [Références de champ](using/building-journeys/expression/field-references.md)
