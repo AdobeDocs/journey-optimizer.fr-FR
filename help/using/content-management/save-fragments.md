@@ -11,17 +11,17 @@ exl-id: 70e88ea0-f2b0-4c13-8693-619741762429
 source-git-commit: e6924928e03d494817a2368b33997029ca2eca1c
 workflow-type: tm+mt
 source-wordcount: '460'
-ht-degree: 57%
+ht-degree: 100%
 
 ---
 
 # Enregistrer du contenu en tant que fragment {#save-as-fragment}
 
-Lors de la modification de contenu dans [!DNL Journey Optimizer], vous pouvez enregistrer tout ou une partie de votre contenu en tant que fragment pour une réutilisation ultérieure. Vous pouvez enregistrer du contenu en tant que fragment : [à partir du Designer de messagerie électronique](#save-as-visual-fragment), ou [depuis l’éditeur d’expression](#save-as-expression-fragment).
+Lors de la modification de contenu dans [!DNL Journey Optimizer], vous pouvez enregistrer tout ou une partie de votre contenu en tant que fragment pour une réutilisation ultérieure. Vous pouvez enregistrer du contenu en tant que fragment soit [depuis le concepteur d’e-mail](#save-as-visual-fragment), soit [depuis l’éditeur d’expression](#save-as-expression-fragment).
 
 ## Enregistrer en tant que fragment visuel {#save-as-visual-fragment}
 
-Pour enregistrer le contenu du Designer par courrier électronique en tant que fragment, procédez comme suit :
+Pour enregistrer le contenu du concepteur d’e-mail en tant que fragment, procédez comme suit :
 
 1. Dans le [concepteur d’e-mail](../email/get-started-email-design.md), cliquez sur les points de suspension en haut à droite de l’écran.
 
@@ -39,17 +39,17 @@ Pour enregistrer le contenu du Designer par courrier électronique en tant que f
 
 1. Cliquez sur **[!UICONTROL Créer]** et renseignez le nom et la description du fragment (si nécessaire).
 
-1. Pour attribuer des libellés d’utilisation de données personnalisés ou de base au fragment, cliquez sur le bouton **[!UICONTROL Gérer l’accès]** dans la section supérieure de l’écran. [En savoir plus sur le contrôle d’accès au niveau de l’objet (OLAC)](../administration/object-based-access.md).
+1. Pour attribuer des libellés d’utilisation des données personnalisés ou de base au fragment, sélectionnez le bouton **[!UICONTROL Gérer l’accès]** dans la partie supérieure de l’écran. [En savoir plus sur le contrôle d’accès au niveau de l’objet (OLAC)](../administration/object-based-access.md).
 
 1. Sélectionnez ou créez des balises Adobe Experience Platform à partir du champ **Balises** pour classer votre modèle en vue d’une recherche améliorée. [En savoir plus](../start/search-filter-categorize.md#tags)
 
-1. Cliquez sur **[!UICONTROL Créer]**. Le fragment est ajouté à la [liste de fragments](#access-manage-fragments) avec la propriété **Version préliminaire** statut. Il devient un fragment autonome qui peut être utilisé comme tout autre fragment visuel de cette liste.
+1. Cliquez sur **[!UICONTROL Créer]**. Votre fragment est ajouté à la [liste de fragments](#access-manage-fragments) avec le statut **Brouillon**. Il devient un fragment autonome qui peut être utilisé comme tout autre fragment visuel de cette liste.
 
    >[!NOTE]
    >
    >Toute modification apportée à ce nouveau fragment n’est pas propagée dans l’e-mail ou le modèle d’où il provient. De même, lorsque le contenu d’origine est modifié dans cet e-mail ou modèle, le nouveau fragment n’est pas modifié.
 
-1. Pour pouvoir utiliser le fragment dans vos parcours et campagnes, vous devez le mettre en ligne. [Découvrez comment prévisualiser et publier un fragment](../content-management/create-fragments.md#publish)
+1. Pour pouvoir utiliser le fragment dans vos parcours et campagnes, vous devez le rendre actif. [Découvrir comment prévisualiser et publier un fragment](../content-management/create-fragments.md#publish)
 
 ## Enregistrer en tant que fragment d’expression {#save-as-expression-fragment}
 
@@ -76,6 +76,6 @@ Pour enregistrer du contenu en tant que fragment d’expression, procédez comme
 
    <!--An expression fragment cannot be nested inside another fragment.-->
 
-1. Le fragment est ajouté à la [liste de fragments](#access-manage-fragments) avec la propriété **Version préliminaire** statut. Il devient un fragment autonome qui peut être utilisé comme tout autre fragment d’expression de cette liste.
+1. Le fragment est ajouté à la [liste des fragments](#access-manage-fragments) avec le statut **Brouillon**. Il devient un fragment autonome qui peut être utilisé comme tout autre fragment d’expression de cette liste.
 
-1. Pour pouvoir utiliser le fragment dans vos parcours et campagnes, vous devez le mettre en ligne. [Découvrez comment prévisualiser et publier un fragment](../content-management/create-fragments.md#publish)
+1. Pour pouvoir utiliser le fragment dans vos parcours et campagnes, vous devez le rendre actif. [Découvrir comment prévisualiser et publier un fragment](../content-management/create-fragments.md#publish)

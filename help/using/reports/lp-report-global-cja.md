@@ -2,7 +2,7 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Rapport global sur les pages de destination
-description: Découvrez comment utiliser les données de votre rapport de landing pages
+description: Découvrir comment utiliser les données de votre rapport sur les pages de destination
 feature: Reporting, Landing Pages
 topic: Content Management
 role: User
@@ -12,106 +12,106 @@ exl-id: e73cdca9-3e83-4642-a2bb-d5453afa77fe
 source-git-commit: b80d794f3782056a10310c65144a8eecbddaaf3e
 workflow-type: tm+mt
 source-wordcount: '792'
-ht-degree: 4%
+ht-degree: 100%
 
 ---
 
 # Rapport sur les pages de destination {#lp-report-global-cja}
 
-La variable **Page d’entrée** Le rapport offre des informations précieuses sur le comportement des utilisateurs, les schémas d’engagement, les taux de conversion et d’autres mesures clés, ce qui vous permet de prendre des décisions éclairées et d’optimiser efficacement les performances de votre page d’entrée.
+Le rapport **Page de destination** offre des informations précieuses sur le comportement des utilisateurs et des utilisatrices, les modèles d’engagement, les taux de conversion et d’autres mesures essentielles, vous aidant à prendre des décisions éclairées et à optimiser les performances de votre page de destination.
 
 Pour accéder à vos rapports, sélectionnez **[!UICONTROL Rapport]** dans le menu avancé de la page de destination sélectionnée.
 
 ![](assets/cja-lp.png)
 
-Pour en savoir plus sur l&#39;espace de travail de Customer Journey Analytics et sur la façon de filtrer et d&#39;analyser les données, reportez-vous à la section [cette page](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/home).
+Pour en savoir plus sur l’espace de travail Customer Journey Analytics et sur la manière de filtrer et d’analyser les données, consultez [cette page](https://experienceleague.adobe.com/fr/docs/analytics-platform/using/cja-workspace/home).
 
-## Taux de conversion des landing pages {#lp-conversion}
+## Taux de conversion de la page de destination {#lp-conversion}
 
 ![](assets/cja-lp-conversion-rate.png)
 
-La variable **[!UICONTROL Taux de conversion des landing pages]** Les indicateurs de performance clés vous permettent d’évaluer l’efficacité de votre page d’entrée en fonction du nombre de visites et d’interactions.
+Le KPI **[!UICONTROL Taux de conversion de la page de destination]** vous permet d’évaluer l’efficacité de votre page de destination en fonction du nombre de visites et d’interactions.
 
-* **[!UICONTROL Taux de conversion des landing pages]**: nombre de personnes ayant interagi avec la landing page, par exemple inscrites à un formulaire, par rapport au nombre total de visites.
+* **[!UICONTROL Taux de conversion de la page de destination]** : nombre de personnes ayant interagi avec la page de destination, par exemple le nombre de personnes inscrites à un formulaire par rapport au nombre total de visites.
 
-## Taux de rebond des landing pages {#lp-bounce-rate}
+## Taux de rebond de la page de destination {#lp-bounce-rate}
 
 ![](assets/cja-lp-bounce-rate.png)
 
-La variable **[!UICONTROL Taux de rebond des landing pages]** L’indicateur de performance clé fournit des informations sur les profils qui ont consulté votre page d’entrée sans interagir ni cliquer sur aucun élément.
+Le KPI **[!UICONTROL Taux de rebond de la page de destination]** fournit des informations sur les profils qui ont consulté votre page de destination sans interagir ni cliquer sur aucun élément.
 
-* **[!UICONTROL Taux de rebond des landing pages]**: nombre de personnes qui n&#39;ont pas interagi avec la landing page et n&#39;ont pas effectué l&#39;action d&#39;inscription, par rapport au nombre total de visites.
+* **[!UICONTROL Taux de rebond de la page de destination]** : nombre de personnes nʼayant pas interagi avec votre page de destination et nʼayant pas choisi de sʼinscrire, par rapport au nombre total de visites.
 
-## Pages vues d&#39;entrée {#lp-views}
+## Vues de la page de destination {#lp-views}
 
 ![](assets/cja-lp-views.png)
 
-La variable **[!UICONTROL Pages vues d&#39;entrée]** Les indicateurs de performance clés vous permettent de voir l’impact de votre page d’entrée.
+Le KPI **[!UICONTROL Vues de la page de destination]** vous permet de voir l’impact de votre page de destination.
 
-* **[!UICONTROL Pages vues d&#39;entrée]**: nombre total de visites sur votre page d’entrée provenant de parcours et de sources externes, y compris plusieurs visites d’un profil.
+* **[!UICONTROL Vues de la page de destination]** : nombre total de visites sur votre page de destination provenant de parcours et de sources externes, y compris les visites multiples dʼun seul profil.
 
-## Pages vues uniques {#lp-unique-views}
+## Vues uniques de la page de destination {#lp-unique-views}
 
 ![](assets/cja-lp-unique-views.png)
 
-La variable **[!UICONTROL Pages vues uniques]** Les indicateurs de performance clés vous permettent de mesurer l’impact de votre page d’entrée en excluant plusieurs vues du même profil.
+Le KPI **[!UICONTROL Vues uniques de la page de destination]** vous permet de mesurer l’impact de votre page de destination en excluant les multiples vues d’un même profil.
 
-* **[!UICONTROL Pages vues uniques]**: nombre de personnes ayant consulté votre landing page, plusieurs visites d’un même profil ne sont pas prises en compte.
+* **[!UICONTROL Vues uniques de la page de destination]** : nombre de personnes ayant visité votre page de destination, les visites multiples dʼun même profil ne sont pas prises en compte.
 
-## Performances de la landing page au fil du temps {#lp-performance-overtime}
+## Performances des pages de destination dans le temps {#lp-performance-overtime}
 
 ![](assets/cja-lp-performance-overtime.png)
 
-La variable **[!UICONTROL Performances de la landing page au fil du temps]** Le graphique mesure le succès et l’impact de vos pages d’entrée sur votre audience ciblée.
+Le graphe **[!UICONTROL Performances des pages de destination dans le temps]** mesure le succès de votre page de destination et son impact sur votre audience cible.
 
-* **[!UICONTROL Pages vues d&#39;entrée]**: nombre total de visites sur votre page d’entrée provenant de parcours et de sources externes, y compris plusieurs visites d’un profil.
+* **[!UICONTROL Vues de la page de destination]** : nombre total de visites sur votre page de destination provenant de parcours et de sources externes, y compris les visites multiples dʼun seul profil.
 
-* **[!UICONTROL Taux de conversion des landing pages]**: nombre de personnes ayant interagi avec la landing page, par exemple inscrites à un formulaire, par rapport au nombre total de visites.
+* **[!UICONTROL Taux de conversion de la page de destination]** : nombre de personnes ayant interagi avec la page de destination, par exemple le nombre de personnes inscrites à un formulaire par rapport au nombre total de visites.
 
 ## Performances des pages de destination {#lp-performance}
 
 ![](assets/cja-lp-performance.png)
 
-La variable **[!UICONTROL Performances de la landing page]** offre un tableau de bord complet qui présente une ventilation détaillée des mesures clés liées à votre page d’entrée.
+Le tableau **[!UICONTROL Performances des pages de destination]** constitue un tableau de bord complet, offrant une ventilation détaillée des mesures clés concernant votre page de destination.
 
-* **[!UICONTROL Taux de conversion des landing pages]**: nombre de personnes ayant interagi avec la landing page, par exemple inscrites à un formulaire, par rapport au nombre total de visites.
+* **[!UICONTROL Taux de conversion de la page de destination]** : nombre de personnes ayant interagi avec la page de destination, par exemple le nombre de personnes inscrites à un formulaire par rapport au nombre total de visites.
 
-* **[!UICONTROL Taux de rebond des landing pages]**: nombre de personnes qui n&#39;ont pas interagi avec la landing page et n&#39;ont pas effectué l&#39;action d&#39;inscription, par rapport au nombre total de visites.
+* **[!UICONTROL Taux de rebond de la page de destination]** : nombre de personnes nʼayant pas interagi avec votre page de destination et nʼayant pas choisi de sʼinscrire, par rapport au nombre total de visites.
 
-* **[!UICONTROL Pages vues uniques]**: nombre de personnes ayant consulté votre landing page, plusieurs visites d’un même profil ne sont pas prises en compte.
+* **[!UICONTROL Vues uniques de la page de destination]** : nombre de personnes ayant visité votre page de destination, les visites multiples dʼun même profil ne sont pas prises en compte.
 
-* **[!UICONTROL Taux de conversion des landing pages uniques]**: nombre de personnes ayant interagi avec la landing page, plusieurs interactions d&#39;un profil ne sont pas prises en compte.
+* **[!UICONTROL Taux de conversion de la page de destination unique]** : nombre de personnes ayant interagi avec la page de destination, les multiples interactions dʼun même profil ne sont pas prises en compte.
 
-* **[!UICONTROL Pages vues d&#39;entrée]**: nombre total de visites sur votre page d’entrée provenant de parcours et de sources externes, y compris plusieurs visites d’un profil.
+* **[!UICONTROL Vues de la page de destination]** : nombre total de visites sur votre page de destination provenant de parcours et de sources externes, y compris les visites multiples dʼun seul profil.
 
-* **[!UICONTROL Conversion de page d’entrée]**: nombre de personnes ayant interagi avec la landing page, par exemple inscrites à un formulaire.
+* **[!UICONTROL Conversions de la page de destination]** : nombre de personnes ayant interagi avec la page de destination, par exemple celles qui se sont inscrites à un formulaire.
 
 ## Parcours {#lp-journeys}
 
-La variable **[!UICONTROL Parcours]** Le tableau fournit une vue d’ensemble complète, détaillant la fréquence des visites sur votre page d’entrée dans le contexte du parcours d’un utilisateur. Cette représentation perspicace offre des données précieuses sur les interactions utilisateur, ce qui vous permet de comprendre comment les visiteurs naviguent sur votre site et interagissent avec votre contenu.
+Le tableau **[!UICONTROL Parcours]** fournit une vue d’ensemble complète, détaillant la fréquence des visites sur votre page de destination dans le contexte du parcours d’un utilisateur ou d’une utilisatrice. Cette analyse approfondie offre des informations précieuses sur les interactions des utilisateurs et des utilisatrices, vous aidant à comprendre la manière dont ces personnes parcourent votre site et interagissent avec votre contenu.
 
-* **[!UICONTROL Pages vues d&#39;entrée]**: nombre total de visites sur votre page d’entrée provenant de parcours et de sources externes, y compris plusieurs visites d’un profil.
+* **[!UICONTROL Vues de la page de destination]** : nombre total de visites sur votre page de destination provenant de parcours et de sources externes, y compris les visites multiples dʼun seul profil.
 
-* **[!UICONTROL Conversion de page d’entrée]**: nombre de personnes ayant interagi avec la landing page, par exemple inscrites à un formulaire.
+* **[!UICONTROL Conversions de la page de destination]** : nombre de personnes ayant interagi avec la page de destination, par exemple celles qui se sont inscrites à un formulaire.
 
 ## Campagnes {#lp-campaigns}
 
-La variable **[!UICONTROL Campagnes]** le tableau fournit des informations sur le nombre de visites dirigées vers votre page d’entrée suite à des campagnes spécifiques, ce qui offre une vue complète de l’efficacité de la campagne et de l’engagement avec le contenu de votre page d’entrée.
+Le tableau **[!UICONTROL Campagnes]** fournit des informations sur le nombre de visites dirigées vers votre page de destination à la suite de campagnes spécifiques, offrant ainsi une vue complète de l’efficacité de la campagne et de l’engagement avec le contenu de votre page de destination.
 
-* **[!UICONTROL Pages vues d&#39;entrée]**: nombre total de visites sur votre page d’entrée provenant de parcours et de sources externes, y compris plusieurs visites d’un profil.
+* **[!UICONTROL Vues de la page de destination]** : nombre total de visites sur votre page de destination provenant de parcours et de sources externes, y compris les visites multiples dʼun seul profil.
 
-* **[!UICONTROL Conversion de page d’entrée]**: nombre de personnes ayant interagi avec la landing page, par exemple inscrites à un formulaire.
+* **[!UICONTROL Conversions de la page de destination]** : nombre de personnes ayant interagi avec la page de destination, par exemple celles qui se sont inscrites à un formulaire.
 
 ## Canal {#lp-channels}
 
-La variable **[!UICONTROL Canal]** le tableau affiche le nombre de visites de votre landing page classées par chaque canal.
+Le tableau **[!UICONTROL Canal]** affiche le nombre de visites sur votre page de destination classées par canal.
 
-* **[!UICONTROL Pages vues d&#39;entrée]**: nombre total de visites sur votre page d’entrée provenant de parcours et de sources externes, y compris plusieurs visites d’un profil.
+* **[!UICONTROL Vues de la page de destination]** : nombre total de visites sur votre page de destination provenant de parcours et de sources externes, y compris les visites multiples dʼun seul profil.
 
-* **[!UICONTROL Conversion de page d’entrée]**: nombre de personnes ayant interagi avec la landing page, par exemple inscrites à un formulaire.
+* **[!UICONTROL Conversions de la page de destination]** : nombre de personnes ayant interagi avec la page de destination, par exemple celles qui se sont inscrites à un formulaire.
 
 ## Principaux liens ayant fait l’objet d’un clic {#lp-top-clicked}
 
-La variable **[!UICONTROL Liens les plus consultés]** Le tableau fournit des informations sur la manière dont les visiteurs interagissent avec la diffusion, en soulignant les liens qui reçoivent le plus d’engagement et d’attention de votre audience.
+Le tableau **[!UICONTROL Principaux liens ayant fait l’objet d’un clic]** fournit des informations sur la manière dont les visiteurs et visiteuses interagissent avec la diffusion, en mettant en évidence les liens qui suscitent le plus d’intérêt et d’attention de la part de votre audience.
 
-* **[!UICONTROL Clics sur la page d’entrée]**: nombre de clics sur un contenu dans la landing page.
+* **[!UICONTROL Clics de la page de destination]** : nombre de clics sur un contenu de la page de destination.
