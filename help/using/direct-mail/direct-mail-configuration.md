@@ -8,9 +8,9 @@ level: Experienced
 keyword: direct, mail, configuration, direct-mail, provider
 exl-id: ae5cc885-ade1-4683-b97e-eda1f2142041
 source-git-commit: c7d8dd94bde49e8d02fe553fbac3942f55bf73fe
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1272'
-ht-degree: 81%
+ht-degree: 100%
 
 ---
 
@@ -78,19 +78,19 @@ Pour configurer le routage des fichiers, suivez les étapes ci-dessous.
 
 1. Attribuez un nom à votre configuration.
 
-1. Sélectionner **Amazon S3** comme la propriété **[!UICONTROL Type de serveur]** à utiliser pour exporter les fichiers de courrier.
+1. Sélectionnez **Amazon S3** comme **[!UICONTROL type de serveur]** à utiliser pour exporter les fichiers de publipostage direct.
 
    ![](assets/file-routing-config-type.png){width="800" align="center"}
 
-1. Renseignez les détails et les informations d’identification de votre serveur.
+1. Renseigner les détails et les informations d’identification de votre serveur
 
-   * **Nom du compartiment AWS**: pour savoir où trouver votre nom de compartiment AWS, reportez-vous à la section [cette page](https://docs.aws.amazon.com/AmazonS3/latest/userguide/UsingBucket.html).
+   * **Nom du compartiment AWS** : pour savoir où trouver votre nom du compartiment AWS, consultez [cette page](https://docs.aws.amazon.com/AmazonS3/latest/userguide/UsingBucket.html).
 
-   * **Clé d’accès AWS**: pour savoir où trouver votre identifiant de clé d’accès AWS, reportez-vous à la section [cette page](https://docs.aws.amazon.com/IAM/latest/UserGuide/security-creds.html#access-keys-and-secret-access-keys).
+   * **Clé d’accès AWS** : pour savoir où trouver votre ID de la clé d’accès AWS, consultez [cette page](https://docs.aws.amazon.com/IAM/latest/UserGuide/security-creds.html#access-keys-and-secret-access-keys).
 
-   * **Clé secrète AWS**: pour savoir où trouver votre clé secrète AWS, reportez-vous à la section [cette page](https://aws.amazon.com/fr/blogs/security/wheres-my-secret-access-key/).
+   * **Clé d’accès AWS** : pour savoir où trouver votre clé secrète AWS, consultez [cette page](https://aws.amazon.com/fr/blogs/security/wheres-my-secret-access-key/).
 
-   * **Région AWS**: sélectionnez la variable **[!UICONTROL Région AWS]** où se trouve l’infrastructure du serveur. Les régions AWS sont des zones géographiques qu’AWS utilise pour héberger ses infrastructures cloud. En règle générale, il est préférable de choisir la région la plus proche de l’emplacement de votre fournisseur de publipostage direct.
+   * **Région AWS** : sélectionnez la **[!UICONTROL région AWS]** où se trouve l’infrastructure du serveur. Les régions AWS sont des zones géographiques qu’AWS utilise pour héberger ses infrastructures cloud. En règle générale, il est préférable de choisir la région la plus proche de l’emplacement de votre fournisseur de publipostage direct.
 
    ![](assets/file-routing-config-aws-region.png){width="800" align="center"}
 
@@ -108,19 +108,19 @@ Pour configurer le routage des fichiers, suivez les étapes ci-dessous.
 
 1. Attribuez un nom à votre configuration.
 
-1. Sélectionnez SFTP comme **[!UICONTROL Type de serveur]** à utiliser pour exporter les fichiers de courrier.
+1. Sélectionnez SFTP comme **[!UICONTROL type de serveur]** à utiliser pour exporter les fichiers de publipostage direct.
 
    ![](assets/file-routing-config-type-sftp.png){width="800" align="center"}
 
-1. Renseignez les détails et les informations d’identification de votre serveur :
+1. Renseignez les détails et les informations d’identification de votre serveur :
 
-   * **Compte**: nom du compte utilisé pour la connexion au serveur SFTP.
+   * **Compte** : nom du compte utilisé pour se connecter au serveur SFTP.
 
-   * **Adresse du serveur**: URL &#x200B; du serveur SFTP.
+   * **Adresse du serveur** : URL du serveur SFTP.
 
-   * **Port**: numéro de port de la connexion FTP.
+   * **Port** : numéro de port de la connexion FTP.
 
-   * **Password**: &#x200B; mot de passe utilisé pour la connexion au serveur SFTP.
+   * **Mot de passe** : mot de passe utilisé pour se connecter au serveur SFTP.
 
    ![](assets/file-routing-config-sftp-detail.png)
 
@@ -138,21 +138,21 @@ Pour configurer le routage des fichiers, suivez les étapes ci-dessous.
 
 1. Attribuez un nom à votre configuration.
 
-1. Sélectionner Azure **[!UICONTROL Type de serveur]** à utiliser pour exporter les fichiers de courrier.
+1. Sélectionnez le **[!UICONTROL type de serveur]** Azure pour exporter les fichiers de publipostage direct.
 
    ![](assets/file-routing-config-type-azure.png){width="800" align="center"}
 
-1. Renseignez les détails et les informations d’identification de votre serveur :
+1. Renseignez les détails et les informations d’identification de votre serveur :
 
-   * **Chaîne de connexion Azure**: pour rechercher votre **Chaîne de connexion Azure**, voir [cette page](https://learn.microsoft.com/en-us/azure/storage/common/storage-configure-connection-string#configure-a-connection-string-for-an-azure-storage-account).
+   * **Chaîne de connexion Azure** : pour rechercher votre **chaîne de connexion Azure**, consultez [cette page](https://learn.microsoft.com/fr-fr/azure/storage/common/storage-configure-connection-string#configure-a-connection-string-for-an-azure-storage-account).
 
-     La variable **Chaîne de connexion Azure** doit suivre le format ci-dessous :
+     La **chaîne de connexion Azure** doit suivre le format présenté ci-dessous :
 
      `DefaultEndpointsProtocol=[http|https];AccountName=myAccountName;AccountKey=myAccountKey`
 
-   * **Nom du conteneur**: pour rechercher votre **Nom du conteneur**, voir [cette page](https://learn.microsoft.com/en-us/azure/storage/blobs/blob-containers-portal).
+   * **Nom du conteneur** : pour rechercher votre **nom du conteneur**, consultez [cette page](https://learn.microsoft.com/fr-fr/azure/storage/blobs/blob-containers-portal).
 
-     La variable **Nom du conteneur** ne doit contenir que le nom du conteneur, sans barre oblique. Pour spécifier un chemin d’accès dans le conteneur permettant d’enregistrer le fichier, mettez à jour le nom de fichier de la campagne de courrier afin d’inclure le chemin d’accès souhaité.
+     Le **nom du conteneur** doit contenir uniquement le nom du conteneur sans aucune barre oblique. Pour spécifier un chemin d’accès dans le conteneur permettant d’enregistrer le fichier, mettez à jour le nom de fichier de la campagne de publipostage direct afin d’inclure le chemin d’accès souhaité.
 
 1. Pour chiffrer le fichier, copiez-collez votre clé de chiffrement dans le champ **[!UICONTROL Clé de chiffrement PGP/GPG]**.
 

@@ -10,10 +10,10 @@ level: Experienced
 keywords: IP, délivrabilité
 hide: true
 hidefromtoc: true
-badge: label="Version Beta"
+badge: label="Version bêta"
 exl-id: 393f051d-b86d-4b4f-b564-7a9ae3a5d4b8
 source-git-commit: cd95614329e6efdc7ac4b6e0a5c683757a14b379
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '272'
 ht-degree: 100%
 
@@ -32,7 +32,7 @@ Ce guide couvre les sujets suivants :
 
 >[!ENDSHADEBOX]
 
-Avec [!DNL Journey Optimizer], vous pouvez facilement exécuter des workflows de préchauffage d’adresses IP directement à partir de l’interface utilisateur d’une manière normalisée et efficace, en respectant les bonnes pratiques pour une délivrabilité optimale.
+Avec [!DNL Journey Optimizer], vous pouvez facilement exécuter des workflows de préchauffage d’adresses IP directement à partir de l’interface d’utilisation d’une manière normalisée et efficace, en respectant les bonnes pratiques pour une délivrabilité optimale.
 
 ➡️ [Découvrez comment créer et exécuter un plan de préchauffage d’adresses IP dans cette vidéo](#video)
 

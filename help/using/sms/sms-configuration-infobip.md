@@ -8,9 +8,9 @@ role: Admin
 level: Intermediate
 exl-id: 7b6dc89a-1a81-49c2-b2a7-bf24b9d215e3
 source-git-commit: 794ac45177e467be4bd5b8f7288e07c85e4d806a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '382'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -52,7 +52,7 @@ Pour configurer Infobip avec Journey Optimizer, procédez comme suit :
 
    * **[!UICONTROL Données de rappel]** : saisissez les données clientes supplémentaires qui seront envoyées à l’URL de notification.
 
-   * **[!UICONTROL Numéro entrant]**: ajoutez votre numéro entrant unique. Cela vous permet d’utiliser les mêmes informations d’identification d’API dans différents environnements de test, chacune ayant son propre numéro entrant.
+   * **[!UICONTROL Numéro entrant]** : ajoutez votre numéro entrant unique. Cela vous permet d’utiliser les mêmes informations d’identification d’API dans différents sandbox, chacun ayant son propre numéro entrant.
 
 1. Cliquez sur **[!UICONTROL Envoyer]** lorsque vous avez terminé la configuration de vos informations d’identification API.
 

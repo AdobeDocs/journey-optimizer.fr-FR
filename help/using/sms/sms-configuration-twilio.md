@@ -8,9 +8,9 @@ role: Admin
 level: Intermediate
 exl-id: d6f74566-c913-4727-83b9-473a798a0158
 source-git-commit: 794ac45177e467be4bd5b8f7288e07c85e4d806a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '176'
-ht-degree: 85%
+ht-degree: 100%
 
 ---
 
@@ -30,7 +30,7 @@ Pour configurer Twilio avec Journey Optimizer, vous devez créer des informatio
 
    * **[!UICONTROL SID du message]** : saisissez l’identifiant unique attribué à chaque message créé par l’API de Twilio. En savoir plus dans la [Documentation Twilio](https://support.twilio.com/hc/en-us/articles/223134387-What-is-a-Message-SID-){target="_blank"}.
 
-   * **[!UICONTROL Numéro entrant]**: ajoutez votre numéro entrant unique. Cela vous permet d’utiliser les mêmes informations d’identification d’API dans différents environnements de test, chacune ayant son propre numéro entrant.
+   * **[!UICONTROL Numéro entrant]** : ajoutez votre numéro entrant unique. Cela vous permet d’utiliser les mêmes informations d’identification d’API dans différents sandbox, chacun ayant son propre numéro entrant.
 
 1. Cliquez sur **[!UICONTROL Envoyer]** lorsque vous avez terminé la configuration de vos informations d’identification API.
 

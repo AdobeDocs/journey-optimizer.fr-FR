@@ -9,9 +9,9 @@ level: Intermediate
 keywords: reprise, parcours, fin, dynamique, arrêt
 exl-id: ea1ecbb0-12b5-44e8-8e11-6d3b8bff06aa
 source-git-commit: d66596f7416f040c99fe8a9b4ea1b887e4ad4fa0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '662'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -58,7 +58,7 @@ Les raisons suivantes peuvent entraîner la fermeture d&#39;un parcours :
 
 Le fait de fermer un parcours manuellement assure que les clients qui l’ont déjà rejoint puissent terminer leur chemin, mais que les nouveaux utilisateurs ne puissent pas le rejoindre. Lorsqu&#39;un parcours est fermé (pour l&#39;une des raisons ci-dessus), le statut **[!UICONTROL Fermé]** lui est attribué. Il n’est alors plus accessible aux nouveaux individus. En revanche, les personnes qui ont déjà intégré le parcours peuvent le terminer normalement.
 
-Après les 91 jours [expiration globale](journey-properties.md#timeout), un parcours Lecture d’audience passe à **Terminé** statut. Ce comportement est défini uniquement sur 91 jours (c.-à-d. [Valeur de délai d’expiration globale du parcours](journey-properties.md#global_timeout)), car toutes les informations sur les profils entrés dans le parcours sont supprimées 91 jours après leur saisie. Les personnes toujours présentes dans le parcours sont automatiquement affectées. Ils quittent le parcours après le délai d’attente de 91 jours.
+Après le délai de [temporisation globale](journey-properties.md#timeout) de 91 jours, le statut d’un parcours de lecture d’audience passe à **Terminé**. Ce comportement est défini uniquement sur 91 jours (c’est-à-dire sur la [valeur de temporisation globale du parcours](journey-properties.md#global_timeout)), car toutes les informations relatives aux profils déjà entrés dans le parcours sont supprimées 91 jours après leur entrée. Les personnes toujours présentes dans le parcours sont automatiquement affectées. Elles quittent le parcours après la temporisation de 91 jours.
 
 Consultez cette [section](../building-journeys/journey-properties.md#global_timeout).
 

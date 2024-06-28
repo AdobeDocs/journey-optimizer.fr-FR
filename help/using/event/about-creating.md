@@ -10,9 +10,9 @@ level: Intermediate, Experienced
 keywords: événement, unitaire, créer, parcours
 exl-id: e22e2bc7-0c15-457a-8980-97bea5da7784
 source-git-commit: 531662b7d5e2455a017d68d6037c44b6950cc894
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1613'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -61,7 +61,7 @@ Les premières étapes nécessaires pour configurer un nouvel événement sont l
    >
    >Lorsque vous sélectionnez le type **[!UICONTROL Généré par le système]**, seuls les schémas dont le champ est de type eventID sont disponibles. Lorsque vous sélectionnez le type **[!UICONTROL Basé sur des règles]**, tous les schémas Événement d&#39;expérience sont disponibles.
 
-1. Pour les événements basés sur des règles, cliquez dans le champ **[!UICONTROL condition d&#39;identifiant d&#39;événement]**. En utilisant la variable <!--simple or advanced--> éditeur d’expression, définissez la condition qui sera utilisée par le système pour identifier les événements qui déclencheront votre parcours.
+1. Pour les événements basés sur des règles, cliquez dans le champ **[!UICONTROL condition d&#39;identifiant d&#39;événement]**. À l’aide de l’éditeur d’expression <!--simple or advanced-->, définissez la condition qui sera utilisée par le système pour identifier les événements qui déclencheront votre parcours.
 
 ![](assets/jo-event6.png)
 
@@ -164,15 +164,15 @@ La clé sert également à vérifier qu&#39;une personne se trouve dans un parco
 ### Éditeur d’expression avancé {#adv-exp-editor}
 
 
-Lors de la définition de l’identifiant de profil, vous pouvez basculer vers l’éditeur d’expression avancé pour créer des clés plus complexes (par exemple, une concaténation de deux champs des événements).
+Lors de la définition de l’identifiant du profil, vous pouvez basculer vers l’éditeur d’expression avancé pour créer des clés plus complexes (une concaténation de deux champs des événements, par exemple).
 
 ![](assets/journey20.png)
 
-Vous avez accès aux fonctions d’expression avancées à partir de la **[!UICONTROL Mode avancé]** si vous souhaitez effectuer des manipulations supplémentaires. Ces fonctions vous permettent de manipuler les valeurs utilisées pour exécuter des requêtes spécifiques, comme modifier des formats, exécuter des concaténations de champs, prendre uniquement en compte une partie d&#39;un champ (les 10 premiers caractères, par exemple), etc. Consultez cette [page](../building-journeys/expression/expressionadvanced.md).
+Vous avez accès aux fonctions d’expression avancées du bouton **[!UICONTROL Mode avancé]** si vous souhaitez effectuer des manipulations supplémentaires. Ces fonctions vous permettent de manipuler les valeurs utilisées pour exécuter des requêtes spécifiques, comme modifier des formats, exécuter des concaténations de champs, prendre uniquement en compte une partie d&#39;un champ (les 10 premiers caractères, par exemple), etc. Consultez cette [page](../building-journeys/expression/expressionadvanced.md).
 
 >[!AVAILABILITY]
 >
->L’éditeur d’expression avancé n’est disponible que pour un ensemble d’organisations (LA).
+>Seul un nombre limité d’organisations peut accéder à l’éditeur d’expression avancé (disponibilité limitée, LA).
 
 ## Prévisualisation de la payload {#preview-the-payload}
 

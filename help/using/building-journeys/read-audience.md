@@ -10,9 +10,9 @@ level: Intermediate
 keywords: activité, parcours, lecture, audience, platform
 exl-id: 7b27d42e-3bfe-45ab-8a37-c55b231052ee
 source-git-commit: fec6b15db9f8e6b2a07b55bc9e8fc4d9cb0d73d7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1466'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -126,7 +126,7 @@ To activate this mode, click the **Segment Filters** toggle. Two fields are disp
 
 >[!NOTE]
 >
->Les parcours d’audience en lecture seule passent au **Terminé** état 91 jours ([Délai d’expiration global du parcours](journey-properties.md#global_timeout)) après l’exécution du parcours. Pour la Lecture d’audience planifiée, cela se passe 91 jours après l’exécution de la dernière occurrence.
+>Les parcours de lecture d’audience en une seule fois passent au statut **Terminé**, 91 jours ([temporisation de parcours globale](journey-properties.md#global_timeout)) après l’exécution du parcours. Pour les parcours Lecture d’audience planifiés, cela se passe 91 jours après l’exécution de la dernière occurrence.
 
 ## Tester et publier le parcours {#testing-publishing}
 

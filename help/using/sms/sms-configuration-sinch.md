@@ -8,9 +8,9 @@ role: Admin
 level: Intermediate
 exl-id: 85412a85-edf0-4069-8bc7-b80371375f1f
 source-git-commit: 794ac45177e467be4bd5b8f7288e07c85e4d806a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '584'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -52,7 +52,7 @@ Pour configurer votre fournisseur Sinch pour envoyer des SMS et des MMS avec Jou
 
    * **[!UICONTROL Message de double opt-in]** : saisissez la réponse personnalisée qui est automatiquement envoyée en réponse à la confirmation de double opt-in.
 
-   * **[!UICONTROL Numéro entrant]**: ajoutez votre numéro entrant unique. Cela vous permet d’utiliser les mêmes informations d’identification d’API dans différents environnements de test, chacune ayant son propre numéro entrant.
+   * **[!UICONTROL Numéro entrant]** : ajoutez votre numéro entrant unique. Cela vous permet d’utiliser les mêmes informations d’identification d’API dans différents sandbox, chacun ayant son propre numéro entrant.
 
 1. Cliquez sur **[!UICONTROL Envoyer]** lorsque vous avez terminé la configuration de vos informations d’identification API.
 
