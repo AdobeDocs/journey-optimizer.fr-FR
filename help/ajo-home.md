@@ -1,14 +1,14 @@
 ---
 keywords: Journey Optimizer;accueil;sujets les plus consultés
-title: Documentation du produit Journey Optimizer
+title: Documentation du produit Journey Optimizer
 description: Découvrez comment utiliser Adobe Journey Optimizer.
 solution: Journey Optimizer
 product: journey optimizer
 exl-id: 3a1b6c61-82df-421c-98d8-2af4f2a5e0de
-source-git-commit: 6c4e0418776622467e7f5b7bb3d9332d965becf1
+source-git-commit: 695296b6aa6f2da0390648be13efb8a83fe287ec
 workflow-type: tm+mt
 source-wordcount: '376'
-ht-degree: 93%
+ht-degree: 92%
 
 ---
 
