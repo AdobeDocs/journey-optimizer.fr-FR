@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: canal, surface, technique, paramètres, optimizer
 exl-id: 9038528f-3da0-4e0e-9b82-b72c67b42391
-source-git-commit: 0571a11eabffeb5e318bebe341a8df18da7db598
+source-git-commit: 9af49f0a47ad5bc1d2cea3e822ec20e2930140d3
 workflow-type: tm+mt
-source-wordcount: '1738'
-ht-degree: 100%
+source-wordcount: '1758'
+ht-degree: 99%
 
 ---
 
@@ -22,6 +22,36 @@ ht-degree: 100%
 >id="ajo_admin_channel_surfaces"
 >title="Surface de canal"
 >abstract="Une surface de canal est une configuration définie par l’équipe d’administration système. Elle contient tous les paramètres techniques relatifs à l’envoi du message, tels que les paramètres d’en-tête, le sous-domaine, les applications mobiles, etc."
+
+>[!CONTEXTUALHELP]
+>id="ajo_admin_marketing_action"
+>title="Action marketing"
+>abstract="TBC"
+
+>[!CONTEXTUALHELP]
+>id="ajo_admin_app_id"
+>title="ID d’application"
+>abstract="TBC"
+
+>[!CONTEXTUALHELP]
+>id="ajo_admin_location"
+>title="Emplacement sur la page"
+>abstract="TBC"
+
+>[!CONTEXTUALHELP]
+>id="ajo_admin_page_rule"
+>title="Règle de correspondance de pages"
+>abstract="TBC"
+
+>[!CONTEXTUALHELP]
+>id="ajo_admin_default_url"
+>title="URL par défaut"
+>abstract="TBC"
+
+>[!CONTEXTUALHELP]
+>id="ajo_admin_surface_uri"
+>title="URI de surface"
+>abstract="TBC"
 
 Avec [!DNL Journey Optimizer], vous pouvez configurer des surfaces de canal (c’est-à-dire des préréglages de message) qui définissent tous les paramètres techniques requis pour vos messages : type d’e-mail, nom et adresse e-mail de l’expéditeur, applications mobiles, configuration des SMS, etc.
 
