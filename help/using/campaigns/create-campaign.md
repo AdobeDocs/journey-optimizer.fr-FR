@@ -10,9 +10,9 @@ level: Beginner
 keywords: créer, optimizer, campagne, surface, messages
 exl-id: 617d623c-e038-4b5b-a367-5254116b7815
 source-git-commit: 59ecb9a5376e697061ddac4cc68f09dee68570c0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '925'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -39,11 +39,11 @@ Pour créer une campagne, accédez au menu **[!UICONTROL Campagnes]**, puis cliq
 >title="Catégorie de campagne"
 >abstract="Si vous créez une campagne planifiée, le type **marketing** est automatiquement sélectionné. Pour les campagnes déclenchées par l’API, choisissez si vous souhaitez envoyer un message **marketing** (message promotionnel nécessitant le consentement de la personne) ou un message **transactionnel** (message non commercial, qui peut également être envoyé à des profils désabonnés dans des contextes spécifiques)."
 
-1. Sélectionnez le type de campagne à exécuter.
+1. Sélectionner le type de campagne que vous souhaitez exécuter.
 
-   * **[!UICONTROL Planifié - Marketing]**: exécutez immédiatement l’opération ou à une date spécifiée. Les campagnes planifiées visent à envoyer des messages de **marketing**. Ils sont configurés et exécutés à partir de l’interface utilisateur.
+   * **[!UICONTROL Scheduled - Marketing]** : permet d’exécuter la campagne immédiatement ou à une date spécifiée. Les campagnes planifiées visent à envoyer des messages de **marketing**. Ils sont configurés et exécutés à partir de l’interface utilisateur.
 
-   * **[!UICONTROL déclenchée par l’API - Marketing/Transactionnel]**: exécutez la campagne à l’aide d’un appel API. Les campagnes déclenchées par API sont destinées à envoyer des messages **marketing**, ou **transactionnels**, c’est-à-dire des messages envoyés suite à une action effectuée par une personne : réinitialisation du mot de passe, abandon de panier, etc. [Découvrez comment déclencher une campagne à l’aide d’API](api-triggered-campaigns.md)
+   * **[!UICONTROL API-triggered - Marketing/Transactional]** : permet d’exécuter la campagne à l’aide d’un appel API. Les campagnes déclenchées par API sont destinées à envoyer des messages **marketing**, ou **transactionnels**, c’est-à-dire des messages envoyés suite à une action effectuée par une personne : réinitialisation du mot de passe, abandon de panier, etc. [Découvrez comment déclencher une campagne à l’aide d’API](api-triggered-campaigns.md)
 
    ![](assets/create-campaign-modal.png)
 
@@ -59,9 +59,9 @@ Pour créer une campagne, accédez au menu **[!UICONTROL Campagnes]**, puis cliq
 
 1. Pour attribuer des étiquettes d’utilisation des données personnalisées ou de base à la campagne, cliquez sur le bouton **[!UICONTROL Gérer l’accès]**. [En savoir plus sur le contrôle d’accès au niveau de l’objet (OLA)](../administration/object-based-access.md)
 
-## Définition de l’audience de la campagne {#audience}
+## Définir l’audience de la campagne {#audience}
 
-Définissez la population ciblée par l&#39;opération. Procédez comme suit :
+Définissez la population ciblée par la campagne en suivant les étapes suivantes :
 
 >[!IMPORTANT]
 >
@@ -69,7 +69,7 @@ Définissez la population ciblée par l&#39;opération. Procédez comme suit :
 >
 >Pour les campagnes déclenchées par API, l’audience doit être définie via un appel d’API.
 
-1. Dans le **Audience** , cliquez sur le bouton **[!UICONTROL Sélection de l’audience]** pour afficher la liste des audiences Adobe Experience Platform disponibles. [En savoir plus sur les audiences](../audience/about-audiences.md).
+1. Dans la section **Audience**, cliquez sur le bouton **[!UICONTROL Sélectionner une audience]** pour afficher la liste des audiences Adobe Experience Platform disponibles. [En savoir plus sur les audiences](../audience/about-audiences.md)
 
 1. Dans le champ **[!UICONTROL Espace de noms d’identité]**, choisissez l’espace de noms à utiliser pour identifier les personnes à partir du segment sélectionné.
 
@@ -81,7 +81,7 @@ Définissez la population ciblée par l&#39;opération. Procédez comme suit :
 
 ## Créer le message et configurer le suivi {#content}
 
-1. Dans le **[!UICONTROL Actions]** , sélectionnez le canal et la surface à utiliser pour envoyer votre message.
+1. Dans la section **[!UICONTROL Actions]**, choisissez le canal et la surface à utiliser pour envoyer votre message.
 
    Une surface est une configuration définie par l’[administrateur système](../start/path/administrator.md). Elle contient tous les paramètres techniques relatifs à l’envoi du message, tels que les paramètres d’en-tête, le sous-domaine, les applications mobiles, etc. [En savoir plus](../configuration/channel-surfaces.md).
 
