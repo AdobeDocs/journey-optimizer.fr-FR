@@ -1,8 +1,8 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Définition des propriétés de votre parcours
-description: Découvrez comment définir les propriétés de votre parcours avec Adobe Journey Optimizer
+title: Définir les propriétés de votre parcours
+description: Découvrir comment définir les propriétés de votre parcours avec Adobe Journey Optimizer
 feature: Journeys, Get Started
 topic: Content Management
 role: User
@@ -11,8 +11,8 @@ keywords: parcours, configuration, propriétés
 exl-id: 6c21371c-6cbc-4d39-8fe6-39f1b8b13280
 source-git-commit: e5b32629dac368855df09313edaad55e3bc143dc
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1724'
+ht-degree: 84%
 
 ---
 
@@ -31,24 +31,24 @@ ht-degree: 0%
 
 ## Accès aux propriétés d’un parcours {#access-properties}
 
-Les propriétés d’un parcours sont centralisées dans le rail de droite. Cette section s&#39;affiche par défaut lors de la création d&#39;un parcours. Pour les parcours existants, cliquez sur l’icône en forme de crayon en regard du nom du parcours pour l’ouvrir.
+Les propriétés d’un parcours sont centralisées dans le rail de droite. Cette section est affichée par défaut lors de la création d’un parcours. Pour les parcours existants, cliquez sur l’icône en forme de crayon en regard du nom du parcours pour l’ouvrir.
 
 Dans cette section, vous pouvez définir le nom du parcours, ajouter une description et :
 
-* gérer [entrée et rentrée](#entrance),
-* sélectionner début et fin [dates](#dates),
-* gérer [accès aux données](#manage-access),
-* définir une [durée du délai](#timeout) dans les activités de parcours (pour les administrateurs uniquement),
-* sélectionner le parcours et le profil ; [fuseaux horaires](#timezone)
-* attribuez des balises unifiées Adobe Experience Platform à votre parcours afin de les classer facilement et d’améliorer la recherche dans la liste des campagnes. [Découvrir comment utiliser les balises](../start/search-filter-categorize.md#tags)
+* gérer [l’entrée et la reprise](#entrance),
+* choisir les [dates](#dates) de début et de fin,
+* gérer [l’accès aux données](#manage-access),
+* définir une [durée de temporisation](#timeout) dans les activités de parcours (pour les personnes chargées de l’administration uniquement),
+* sélectionner les [fuseaux horaires](#timezone) des parcours et des profils,
+* attribuer des balises unifiées Adobe Experience Platform à votre parcours afin de les classer facilement et d’améliorer la recherche dans la liste des campagnes. [Découvrir comment utiliser les balises](../start/search-filter-categorize.md#tags)
 
 ![](assets/journey32.png)
 
 >[!NOTE]
 >
->Pour les parcours en direct, cet écran affiche uniquement la date de publication et le nom de l’utilisateur qui a publié le parcours.
+>Pour les parcours actifs, cet écran affiche la date de publication et le nom de l’utilisateur ou de l’utilisatrice qui a publié le parcours.
 
-La fonction **Copier les détails techniques** permet de copier les informations techniques relatives au parcours qui seront utiles à l&#39;équipe d&#39;assistance technique pour résoudre les problèmes. Les informations suivantes sont copiées : `JourneyVersion UID`, `OrgID`, `orgName`, `sandboxName`, `lastDeployedBy`, `lastDeployedAt`.
+La fonction **Copier les détails techniques** permet de copier les informations techniques relatives au parcours qui seront utiles à l’équipe d’assistance technique pour résoudre les problèmes. Les informations suivantes sont copiées : `JourneyVersion UID`, `OrgID`, `orgName`, `sandboxName`, `lastDeployedBy`, `lastDeployedAt`.
 
 En savoir plus sur les champs techniques liés à un parcours pour un profil donné et comment les utiliser [dans cette page](expression/journey-properties.md).
 
@@ -107,142 +107,142 @@ Pour plus d&#39;informations sur la gestion des fuseaux horaires, voir [cette pa
 
 Vous pouvez définir une **date de début**. Si vous n’en avez pas spécifié une, elle sera automatiquement définie au moment de la publication.
 
-Vous pouvez également ajouter une **date de fin**. Cela permet aux profils de se fermer automatiquement lorsque la date est atteinte. Si aucune date de fin n’est spécifiée, les profils peuvent rester jusqu’à ce que la variable [délai d’expiration du parcours global](#global_timeout) (ce qui correspond généralement à 91 jours). La seule exception concerne les parcours de lecture d’audience récurrents avec l’option **Forcer une reprise sur la périodicité** activée, qui se termine à la date de début de l’occurrence suivante.
+Vous pouvez également ajouter une **date de fin**. Cela permet aux profils de se fermer automatiquement lorsque la date est atteinte. Si aucune date de fin n’est spécifiée, les profils peuvent rester jusqu’à ce que la variable [délai d’expiration du parcours global](#global_timeout) (ce qui correspond généralement à 91 jours). La seule exception concerne les parcours de lecture d’audience récurrents avec l’option **Forcer une reprise sur la périodicité** activée, qui se terminent à la date de début de l’occurrence suivante.
 
-## Expiration {#timeout}
+## Temporisation {#timeout}
 
-### Délai d’expiration ou erreur dans les activités de parcours {#timeout_and_error}
+### Temporisation ou erreur dans les activités du parcours {#timeout_and_error}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_properties_timeout"
->title="Expiration"
+>title="Temporisation"
 >abstract="Définissez la durée pendant laquelle le parcours tentera d’exécuter une action ou de vérifier une condition avant de la considérer comme un délai d’expiration."
 
 
-Lorsque vous modifiez une action ou une activité de condition, vous pouvez définir un autre chemin en cas d&#39;erreur ou de temporisation. Si le traitement de l’activité qui interroge un système tiers dépasse le délai défini dans **[!UICONTROL Délai d’expiration ou erreur]** du champ des propriétés du parcours, le deuxième chemin est choisi pour effectuer une éventuelle action de secours.
+Lorsque vous modifiez une action ou une activité de condition, vous pouvez définir un autre chemin en cas d’erreur ou de temporisation. Si la durée de traitement de l’activité qui interroge un système tiers dépasse la durée de temporisation définie dans le champ **[!UICONTROL Temporisation ou erreur]** des propriétés du parcours, le deuxième chemin d’accès est choisi pour effectuer une éventuelle action de remplacement.
 
 Les valeurs autorisées sont comprises entre 1 et 30 secondes.
 
-Nous vous recommandons de définir une valeur très courte **[!UICONTROL Délai d’expiration ou erreur]** si votre parcours est sensible au temps (par exemple : la réaction à l’emplacement en temps réel d’une personne), car vous ne pouvez pas retarder votre action de plus de quelques secondes. Si le facteur temps revêt une importance moindre, vous pouvez définir un délai plus long afin d’accorder davantage de temps au système appelé pour envoyer une réponse valide.
+Nous vous recommandons de définir une valeur très basse pour **[!UICONTROL Temporisation ou erreur]** si votre parcours est sensible au temps (c’est le cas, par exemple, lorsqu’il convient de réagir à l’emplacement d’une personne en temps réel), car l’action ne peut pas être différée de plus de quelques secondes. Si le facteur temps revêt une importance moindre, vous pouvez définir un délai plus long afin d’accorder davantage de temps au système appelé pour envoyer une réponse valide.
 
-Parcours utilise également un délai d’expiration global comme décrit ci-dessous.
+Les parcours utilisent également une temporisation globale comme décrit ci-dessous.
 
 ### Temporisation de parcours globale {#global_timeout}
 
-En plus de la variable [timeout](#timeout_and_error) utilisé dans les activités de parcours, un délai d’expiration de parcours global est appliqué. Il ne s’affiche pas dans l’interface et ne peut pas être modifié.
+En plus de la [temporisation](#timeout_and_error) utilisée dans les activités de parcours, une temporisation globale de parcours est appliquée. Elle ne s’affiche pas dans l’interface et ne peut pas être modifiée.
 
-Cette temporisation globale met fin à la progression des individus dans le parcours **91 jours** après leur entrée. En d&#39;autres termes, la durée du parcours d&#39;un individu ne peut pas excéder 91 jours. Après cette période de temporisation, les données de cette personne sont supprimées. Les personnes qui sont encore actives dans le parcours au terme de cette période de temporisation seront arrêtées et ne seront pas prises en compte dans le cadre du reporting. Vous pouvez donc voir plus de personnes rejoindre le parcours que le quitter.
+Cette temporisation globale met fin à la progression des personnes dans le parcours **91 jours** après leur entrée. En d&#39;autres termes, la durée du parcours d&#39;un individu ne peut pas excéder 91 jours. Après cette période de temporisation, les données de cette personne sont supprimées. Les personnes qui sont encore actives dans le parcours au terme de cette période de temporisation seront arrêtées et ne seront pas prises en compte dans le cadre du reporting. Vous pouvez donc voir plus de personnes rejoindre le parcours que le quitter.
 
-En raison du délai de parcours de 91 jours, lorsque la rentrée du parcours n’est pas autorisée, nous ne pouvons pas nous assurer que le blocage de la rentrée fonctionnera plus de 91 jours. En effet, étant donné que nous supprimons toutes les informations sur les personnes qui ont rejoint le parcours 91 jours après leur entrée, rien ne nous permet de savoir qu&#39;une personne l&#39;a déjà rejoint il y a plus de 91 jours.
+Compte tenu de la temporisation de 91 jours du parcours, lorsque la reprise de celui-ci n’est pas autorisée, nous sommes dans l’impossibilité de garantir que le blocage de la reprise fonctionnera plus de 91 jours. En effet, étant donné que nous supprimons toutes les informations sur les personnes qui ont rejoint le parcours 91 jours après leur entrée, rien ne nous permet de savoir qu’une personne l’a déjà rejoint il y a plus de 91 jours.
 
-Un individu ne peut entrer dans une activité d’attente que s’il dispose de suffisamment de temps dans le parcours pour terminer la durée d’attente avant la temporisation de 91 jours du parcours. Consultez [cette page](../building-journeys/wait-activity.md).
+Une personne ne peut entrer dans une activité d’attente que si elle dispose de suffisamment de temps dans le parcours pour terminer la durée d’attente avant la temporisation de 91 jours du parcours. Consultez [cette page](../building-journeys/wait-activity.md).
 
 
-#### FAQ sur la durée de vie et la rétention des données {#timeout-faq}
+#### Questions fréquentes sur la durée de vie (TTL) et la rétention des données {#timeout-faq}
 
-À compter de la version de juin 2024 de Adobe Journey Optimizer, le délai d’expiration global du parcours est passé de 30 à 91 jours. Les impacts sont répertoriés dans la FAQ ci-dessous :
+À compter de la version de juin 2024 d’Adobe Journey Optimizer, la temporisation globale du parcours est passée de 30 à 91 jours. Les impacts sont répertoriés dans les questions fréquentes ci-dessous :
 
-**Pour les Parcours unitaires**
+**Pour les parcours unitaires**
 <table style="table-layout:auto">
   <tr style="border: 1;">
     <td>
-      <p>Qu’advient-il du parcours publié après le déploiement de l’extension TTL ?</p>
+      <p>Qu’advient-il du parcours publié après le déploiement de l’extension de la durée de vie ?</p>
     </td>
     <td>
-      <p>Les profils entrant dans le nouveau parcours auront automatiquement un délai d’activation de 91 jours.</p>
-    </td>
-  </tr>
-  <tr style="border: 1;">
-    <td>
-      <p>Qu’advient-il d’un profil entrant dans un parcours publié avant le lancement de l’extension TTL ?</p>
-    </td>
-    <td>
-      <p>Le profil aura un délai d’activation de 30 jours (7 jours pour HIPAA), en fonction de l’heure à laquelle le parcours a été publié à l’origine.</p>
+      <p>Les profils entrant dans le nouveau parcours auront automatiquement une durée de vie (TTL) de 91 jours.</p>
     </td>
   </tr>
   <tr style="border: 1;">
     <td>
-      <p>Qu’advient-il d’un profil qui a déjà été saisi dans un parcours au lancement de l’extension TTL ?</p>
+      <p>Qu’advient-il d’un profil entrant dans un parcours publié avant le lancement de l’extension de la durée de vie ?</p>
     </td>
     <td>
-      <p>Le profil conservera une durée de vie de 30 jours (7 jours pour HIPAA), selon l’heure de publication originale du parcours.</p>
-    </td>
-  </tr>
-  <tr style="border: 1;">
-    <td>
-      <p>Qu’advient-il d’un profil dans une version de parcours précédente qui est republiée après le lancement de l’extension TTL ?</p>
-    </td>
-    <td>
-      <p>Le profil conserve une durée de vie (TTL) de 30 jours (7 jours pour HIPAA), en fonction de l’heure de publication de la version de parcours d’origine.</p>
+      <p>Le profil conserve une durée de vie de 30 jours (7 jours pour HIPAA), en fonction de l’heure à laquelle le parcours a été publié à l’origine.</p>
     </td>
   </tr>
   <tr style="border: 1;">
     <td>
-      <p>Qu’advient-il d’un nouveau profil entrant dans une version de parcours republiée après le lancement de l’extension TTL ?</p>
+      <p>Que se passe-t-il pour un profil qui a déjà accédé à un parcours au lancement de l’extension de la durée de vie ?</p>
     </td>
     <td>
-      <p>Le profil aura un délai d’activation de 91 jours, correspondant au délai d’activation de la nouvelle version de parcours republiée.</p>
+      <p>Le profil conserve une durée de vie de 30 jours (7 jours pour HIPAA), selon l’heure de publication originale du parcours.</p>
+    </td>
+  </tr>
+  <tr style="border: 1;">
+    <td>
+      <p>Qu’advient-il d’un profil dans une version de parcours précédente qui est republiée après le lancement de l’extension de la durée de vie ?</p>
+    </td>
+    <td>
+      <p>Le profil conserve une durée de vie de 30 jours (7 jours pour HIPAA), alignée sur l’heure de publication originale du parcours.</p>
+    </td>
+  </tr>
+  <tr style="border: 1;">
+    <td>
+      <p>Qu’advient-il d’un nouveau profil entrant dans une version de parcours republiée après le lancement de l’extension de la durée de vie ?</p>
+    </td>
+    <td>
+      <p>Le profil conserve une durée de vie de 91 jours, correspondant à la durée de vie de la nouvelle version de parcours republiée.</p>
     </td>
   </tr>
 </table>
 
-**Pour les Parcours de déclenchement de segment**
+**Pour les parcours de déclenchement de segment**
 
 <table style="table-layout:auto">
   <tr style="border: 1;">
     <td>
-      <p>Qu’advient-il des nouveaux parcours ponctuels publiés après l’extension TTL ?</p>
+      <p>Qu’advient-il des nouveaux parcours uniques publiés après l’extension de la durée de vie ?</p>
     </td>
     <td>
-      <p>Les profils entrant dans le nouveau parcours auront un TTL de 91 jours automatiquement.</p>
-    </td>
-  </tr>
-  <tr style="border: 1;">
-    <td>
-      <p>Qu’advient-il des nouveaux parcours récurrents sans nouvelle entrée forcée publiée après l’extension TTL ?</p>
-    </td>
-    <td>
-      <p>Les profils entrant dans le nouveau parcours auront un TTL de 91 jours automatiquement.</p>
+      <p>Les profils entrant dans le nouveau parcours auront une durée de vie de 91 jours automatiquement.</p>
     </td>
   </tr>
   <tr style="border: 1;">
     <td>
-      <p>Qu’advient-il des nouveaux parcours récurrents avec une rentrée forcée publiée après l’extension TTL ?</p>
+      <p>Qu’advient-il des nouveaux parcours récurrents sans nouvelle reprise forcée publiée après l’extension de la durée de vie ?</p>
     </td>
     <td>
-      <p>Les profils entrant dans le nouveau parcours auront un TTL égal à la période de périodicité. Par exemple, si le parcours s’exécute tous les jours, la durée de vie est de 1 jour.</p>
-    </td>
-  </tr>
-  <tr style="border: 1;">
-    <td>
-      <p>Qu’advient-il d’un profil entrant dans un parcours publié avant le lancement de l’extension TTL ?</p>
-    </td>
-    <td>
-      <p>Le profil aura un délai d’activation de 30 jours (7 jours pour HIPAA), en fonction de l’heure de publication d’origine. Pour les parcours récurrents avec une rentrée forcée, la durée de vie correspond à la période de périodicité.</p>
+      <p>Les profils entrant dans le nouveau parcours auront une durée de vie de 91 jours automatiquement.</p>
     </td>
   </tr>
   <tr style="border: 1;">
     <td>
-      <p>Qu’advient-il d’un profil s’exécutant par un parcours lorsque l’extension TTL est lancée ?</p>
+      <p>Qu’advient-il des nouveaux parcours récurrents avec une reprise forcée publiée après l’extension de la durée de vie ?</p>
     </td>
     <td>
-      <p>Le profil conservera une durée de vie de 30 jours (7 jours pour HIPAA), selon l’heure de publication originale du parcours. Pour les parcours récurrents avec une rentrée forcée, la durée de vie correspond à la période de périodicité.</p>
-    </td>
-  </tr>
-  <tr style="border: 1;">
-    <td>
-      <p>Qu’advient-il d’un profil en cours d’exécution dans une version de parcours précédente qui est republiée après le lancement de l’extension TTL ?</p>
-    </td>
-    <td>
-      <p>Le profil maintiendra un délai d’activation de 30 jours (7 jours pour HIPPA), en fonction de l’heure de publication de la version par parcours d’origine. Pour les parcours récurrents avec une rentrée forcée, la durée de vie correspond à la période de périodicité.</p>
+      <p>Les profils entrant dans le nouveau parcours auront une durée de vie égale à la période de périodicité. Par exemple, si le parcours s’exécute tous les jours, la durée de vie est d’1 jour.</p>
     </td>
   </tr>
   <tr style="border: 1;">
     <td>
-      <p>Qu’advient-il d’un nouveau profil entrant dans une version de parcours republiée après le lancement de l’extension TTL ?</p>
+      <p>Qu’advient-il d’un profil entrant dans un parcours publié avant le lancement de l’extension de la durée de vie ?</p>
     </td>
     <td>
-      <p>Le profil aura un délai d’activation de 91 jours, correspondant au délai d’activation de la nouvelle version de parcours republiée. Pour les parcours récurrents avec une rentrée forcée, la durée de vie correspond à la période de périodicité.</p>
+      <p>Le profil conserve une durée de vie de 30 jours (7 jours pour HIPAA), cohérente avec l’heure de publication originale du parcours. Pour les parcours récurrents avec une reprise forcée, la durée de vie correspond à la période de périodicité.</p>
+    </td>
+  </tr>
+  <tr style="border: 1;">
+    <td>
+      <p>Qu’advient-il d’un profil s’exécutant par le biais d’un parcours lorsque l’extension de la durée de vie est lancée ?</p>
+    </td>
+    <td>
+      <p>Le profil conserve une durée de vie de 30 jours (7 jours pour HIPAA), selon l’heure de publication originale du parcours. Pour les parcours récurrents avec une reprise forcée, la durée de vie correspond à la période de périodicité.</p>
+    </td>
+  </tr>
+  <tr style="border: 1;">
+    <td>
+      <p>Qu’advient-il d’un profil en cours d’exécution dans une version de parcours précédente qui est republiée après le lancement de l’extension de la durée de vie ?</p>
+    </td>
+    <td>
+      <p>Le profil conserve une durée de vie de 30 jours (7 jours pour HIPAA), alignée sur l’heure de publication originale du parcours. Pour les parcours récurrents avec une reprise forcée, la durée de vie correspond à la période de périodicité.</p>
+    </td>
+  </tr>
+  <tr style="border: 1;">
+    <td>
+      <p>Qu’advient-il d’un nouveau profil entrant dans une version de parcours republiée après le lancement de l’extension de la durée de vie ?</p>
+    </td>
+    <td>
+      <p>Le profil conserve une durée de vie de 91 jours, correspondant à la durée de vie de la nouvelle version de parcours republiée. Pour les parcours récurrents avec une reprise forcée, la durée de vie correspond à la période de périodicité.</p>
     </td>
   </tr>
 </table>
@@ -252,9 +252,9 @@ Un individu ne peut entrer dans une activité d’attente que s’il dispose de 
 Le parcours utilise des politiques de fusion lors de la récupération des données de profil d’Adobe Experience Platform. Selon le type de parcours, différentes politiques de fusion sont utilisées :
 
 * Dans les parcours Lecture d’audience ou Qualification d’audience : la politique de fusion de l’audience est utilisée
-* Dans les parcours d’événement unitaire : la stratégie de fusion par défaut est utilisée
-* Dans les parcours d’événements métier : la stratégie de fusion de l’audience ciblée dans l’activité Lecture d’audience suivante est utilisée
+* Dans les parcours d’événements unitaires : la politique de fusion par défaut est utilisée.
+* Dans les parcours d’événements métier : la politique de fusion de l’audience ciblée dans l’activité Lecture d’audience suivante est utilisée.
 
-Parcours respectera la stratégie de fusion utilisée tout au long du parcours. Par conséquent, si plusieurs audiences sont utilisées dans un parcours (par exemple dans les fonctions &quot;inAudience&quot;), créant des incohérences avec la stratégie de fusion utilisée par le parcours, une erreur est générée et la publication est bloquée. Cependant, si une audience incohérente est utilisée dans la personnalisation des messages, une alerte n&#39;est pas générée, malgré l&#39;incohérence. C&#39;est pourquoi il est vivement recommandé de vérifier la stratégie de fusion associée à votre audience lorsque cette audience est utilisée dans la personnalisation des messages.
+Le parcours respecte la politique de fusion utilisée tout au long du parcours. Par conséquent, si de multiples audiences sont utilisées dans un parcours (par exemple dans les fonctions « inAudience »), créant des incohérences avec la politique de fusion utilisée par le parcours, une erreur se produit et la publication est bloquée. Cependant, si une audience incohérente est utilisée dans la personnalisation des messages, une alerte n’est pas déclenchée, malgré l’incohérence. C’est pourquoi il est vivement recommandé de vérifier la politique de fusion associée à votre audience lorsque cette audience est utilisée dans la personnalisation des messages.
 
-Pour en savoir plus sur les stratégies de fusion, reportez-vous à la section [Documentation Adobe Experience Platform](https://experienceleague.adobe.com/fr/docs/experience-platform/profile/merge-policies/overview){target="_blank"}.
+Pour en savoir plus sur les politiques de fusion, consultez la [documentation d’Adobe Experience Platform](https://experienceleague.adobe.com/fr/docs/experience-platform/profile/merge-policies/overview){target="_blank"}.
