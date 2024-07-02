@@ -12,7 +12,7 @@ exl-id: 6c21371c-6cbc-4d39-8fe6-39f1b8b13280
 source-git-commit: e5b32629dac368855df09313edaad55e3bc143dc
 workflow-type: tm+mt
 source-wordcount: '1724'
-ht-degree: 84%
+ht-degree: 92%
 
 ---
 
@@ -59,23 +59,23 @@ Le mode de saisie des profils est défini au niveau du parcours, dans le volet d
 
 La gestion des entrées de profil dépend du type de parcours. En savoir plus sur la gestion des entrées et des rentrées de profils, dans [cette page](entry-management.md).
 
-### Autoriser une rentrée  {#allow-re-entrance}
+### Autoriser la reprise  {#allow-re-entrance}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_properties_entrance"
->title="Autoriser une rentrée"
->abstract="Par défaut, les nouveaux parcours autorisent la reprise. Vous pouvez décocher la variable **Autoriser une rentrée** par exemple si vous souhaitez offrir un cadeau ponctuel lorsqu’une personne entre dans une boutique."
->additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/manage-journey/entry-management" text="Gestion des entrées de profil"
+>title="Autoriser la reprise"
+>abstract="Par défaut, les nouveaux parcours autorisent la reprise. Vous pouvez désélectionner l’option **Autoriser la reprise** si vous souhaitez par exemple offrir un cadeau unique à un utilisateur ou une utilisatrice qui effectue sa première visite dans la boutique."
+>additional-url="https://experienceleague.adobe.com/fr/docs/journey-optimizer/using/orchestrate-journeys/manage-journey/entry-management" text="Gestion des entrées de profil"
 
 Par défaut, les nouveaux parcours autorisent la reprise. Vous pouvez désélectionner l’option **Autoriser la reprise** pour les parcours « uniques », par exemple, si vous souhaitez offrir un cadeau unique à un utilisateur ou une utilisatrice qui effectue sa première visite dans la boutique.
 
-### Période d’attente de rentrée  {#re-entrance-wait}
+### Période d’attente de reprise  {#re-entrance-wait}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_properties_re-entrance_wait"
->title="Période d’attente de rentrée"
->abstract=" Définissez le temps d’attente avant de permettre à un profil de revenir au parcours dans les parcours unitaires. Cela empêche les utilisateurs de revenir sur le parcours pendant une durée donnée. Durée maximale : 90 jours."
->additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/manage-journey/entry-management" text="Gestion des entrées de profil"
+>title="Période d’attente de reprise"
+>abstract=" Définissez le temps d’attente avant de permettre à un profil de reprendre le parcours dans les parcours unitaires. Cela empêche les utilisateurs et utilisatrices de reprendre le parcours pendant une durée donnée. Durée maximale : 90 jours."
+>additional-url="https://experienceleague.adobe.com/fr/docs/journey-optimizer/using/orchestrate-journeys/manage-journey/entry-management" text="Gestion des entrées de profil"
 
 Lorsque l’option **Autoriser une reprise** est activée, le champ **Période d’attente de reprise** s’affiche. Ce champ vous permet de définir le temps d’attente avant d’autoriser un profil à entrer à nouveau dans un parcours pour les parcours unitaires (en commençant par un événement ou une qualification d’audience). Cela empêche les parcours d’être déclenchés plusieurs fois par erreur pour le même événement. Par défaut, le champ est défini sur 5 minutes. La durée maximale est de 90 jours.
 
@@ -116,7 +116,7 @@ Vous pouvez également ajouter une **date de fin**. Cela permet aux profils de s
 >[!CONTEXTUALHELP]
 >id="ajo_journey_properties_timeout"
 >title="Temporisation"
->abstract="Définissez la durée pendant laquelle le parcours tentera d’exécuter une action ou de vérifier une condition avant de la considérer comme un délai d’expiration."
+>abstract="Définissez la durée pendant laquelle le parcours tentera d’exécuter une action ou de vérifier une condition avant de considérer que le délai a expiré."
 
 
 Lorsque vous modifiez une action ou une activité de condition, vous pouvez définir un autre chemin en cas d’erreur ou de temporisation. Si la durée de traitement de l’activité qui interroge un système tiers dépasse la durée de temporisation définie dans le champ **[!UICONTROL Temporisation ou erreur]** des propriétés du parcours, le deuxième chemin d’accès est choisi pour effectuer une éventuelle action de remplacement.
