@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Notes de mise à jour de Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: b80d794f3782056a10310c65144a8eecbddaaf3e
+source-git-commit: 0454008d81a5aebccbbf75b0ef723fa869589597
 workflow-type: tm+mt
-source-wordcount: '1032'
-ht-degree: 75%
+source-wordcount: '1062'
+ht-degree: 72%
 
 ---
 
@@ -175,7 +175,7 @@ Cette version est fournie avec les améliorations répertoriées ci-dessous.
 * De nouveaux statuts pour les fragments de contenu ont été ajoutés : **Brouillon**, **Actif**, **Publication** et **Archivé**.
 * Pour utiliser un fragment dans un parcours ou une campagne, il doit maintenant se trouver au statut **Actif**. Une nouvelle étape a été ajoutée au processus de création de fragment, permettant de publier le fragment et de le rendre disponible à l’utilisation dans les parcours et les campagnes. Notez que la publication de fragments nécessite une nouvelle autorisation.
 
-  **ATTENTION** : depuis l’introduction des statuts **Brouillon** et **Actif** avec la version de juin de Journey Optimizer, tous les fragments créés avant cette version ont le statut **Brouillon**, même s’ils sont utilisés dans un parcours ou une campagne. Découvrez comment mettre à jour vos fragments existants dans cette section.
+  **ATTENTION** : depuis l’introduction des statuts **Brouillon** et **Actif** avec la version de juin de Journey Optimizer, tous les fragments créés avant cette version ont le statut **Brouillon**, même s’ils sont utilisés dans un parcours ou une campagne. Si vous modifiez ces fragments, vous devez [publier](../content-management/create-fragments.md#publish) pour les rendre &quot;En ligne&quot; et propager les modifications aux campagnes et aux parcours associés. Vous devez également créer une version de parcours/campagne et la publier.
 
 En savoir plus dans la documentation sur les [fragments de contenu](../content-management/fragments.md).
 
