@@ -9,9 +9,9 @@ role: Data Engineer, Data Architect, Admin
 level: Intermediate, Experienced
 keywords: événement, unitaire, créer, parcours
 exl-id: e22e2bc7-0c15-457a-8980-97bea5da7784
-source-git-commit: 531662b7d5e2455a017d68d6037c44b6950cc894
-workflow-type: ht
-source-wordcount: '1613'
+source-git-commit: 60a7e79a5a40eada7645c1b6b94d8b165d2453b4
+workflow-type: tm+mt
+source-wordcount: '1616'
 ht-degree: 100%
 
 ---
@@ -61,7 +61,7 @@ Les premières étapes nécessaires pour configurer un nouvel événement sont l
    >
    >Lorsque vous sélectionnez le type **[!UICONTROL Généré par le système]**, seuls les schémas dont le champ est de type eventID sont disponibles. Lorsque vous sélectionnez le type **[!UICONTROL Basé sur des règles]**, tous les schémas Événement d&#39;expérience sont disponibles.
 
-1. Pour les événements basés sur des règles, cliquez dans le champ **[!UICONTROL condition d&#39;identifiant d&#39;événement]**. À l’aide de l’éditeur d’expression <!--simple or advanced-->, définissez la condition qui sera utilisée par le système pour identifier les événements qui déclencheront votre parcours.
+1. Pour les événements basés sur des règles, cliquez dans le champ **[!UICONTROL condition d&#39;identifiant d&#39;événement]**. À l’aide de l’éditeur d’expression simple ou avancé, définissez la condition qui sera utilisée par le système pour identifier les événements qui déclencheront votre parcours.
 
 ![](assets/jo-event6.png)
 
