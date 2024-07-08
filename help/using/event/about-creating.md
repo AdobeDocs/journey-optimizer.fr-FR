@@ -9,10 +9,10 @@ role: Data Engineer, Data Architect, Admin
 level: Intermediate, Experienced
 keywords: événement, unitaire, créer, parcours
 exl-id: e22e2bc7-0c15-457a-8980-97bea5da7784
-source-git-commit: 65a1672c2440a3498ec1fc1c7db62080aa306cf4
+source-git-commit: ca80a7bc1fbf819d27db2d9518832c9345cdaa18
 workflow-type: tm+mt
-source-wordcount: '1608'
-ht-degree: 97%
+source-wordcount: '1610'
+ht-degree: 96%
 
 ---
 
@@ -25,9 +25,9 @@ ht-degree: 97%
 
 Les événements unitaires sont liés à un profil spécifique. Ils peuvent être basés sur des règles ou générés par le système.  En savoir plus sur les événements unitaires dans [cette section](../event/about-events.md).
 
-Les premières étapes nécessaires pour configurer un nouvel événement sont les suivantes :
+Vous trouverez ci-dessous les premières étapes pour configurer un nouvel événement :
 
-1. Dans la section du menu ADMINISTRATION, sélectionnez **[!UICONTROL Configurations]**. Dans la section **[!UICONTROL Événements]**, cliquez sur **[!UICONTROL Gérer]**. La liste des événements s&#39;affiche.
+1. Dans la section du menu ADMINISTRATION , accédez à **[!UICONTROL Configurations]**, et dans la variable  **[!UICONTROL Événements]** , cliquez sur **[!UICONTROL Gérer]**. La liste des événements s&#39;affiche.
 
    ![](assets/jo-event1.png)
 
