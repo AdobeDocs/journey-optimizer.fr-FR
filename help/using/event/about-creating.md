@@ -9,9 +9,9 @@ role: Data Engineer, Data Architect, Admin
 level: Intermediate, Experienced
 keywords: événement, unitaire, créer, parcours
 exl-id: e22e2bc7-0c15-457a-8980-97bea5da7784
-source-git-commit: 60a7e79a5a40eada7645c1b6b94d8b165d2453b4
+source-git-commit: 852b79a7a2cdcaeac700e2bb8b0cf1aa0d421bc9
 workflow-type: tm+mt
-source-wordcount: '1616'
+source-wordcount: '1603'
 ht-degree: 100%
 
 ---
@@ -63,15 +63,15 @@ Les premières étapes nécessaires pour configurer un nouvel événement sont l
 
 1. Pour les événements basés sur des règles, cliquez dans le champ **[!UICONTROL condition d&#39;identifiant d&#39;événement]**. À l’aide de l’éditeur d’expression simple ou avancé, définissez la condition qui sera utilisée par le système pour identifier les événements qui déclencheront votre parcours.
 
-![](assets/jo-event6.png)
+   ![](assets/jo-event6.png)
 
-Dans notre exemple, nous avons écrit une condition basée sur la ville du profil. Cela signifie que chaque fois que le système reçoit un événement qui correspond à cette condition (champ **[!UICONTROL Ville]** et valeur **[!UICONTROL Paris]**), il le transmet aux parcours.
+   Dans notre exemple, nous avons écrit une condition basée sur la ville du profil. Cela signifie que chaque fois que le système reçoit un événement qui correspond à cette condition (champ **[!UICONTROL Ville]** et valeur **[!UICONTROL Paris]**), il le transmet aux parcours.
 
->[!NOTE]
->
->Dans l&#39;éditeur d&#39;expression simple, tous les opérateurs ne sont pas disponibles ; ils dépendent du type de données. Par exemple, pour un type de chaîne de champ, vous pouvez utiliser « contient » ou « égal à ».
->
->Si vous modifiez votre schéma avec de nouvelles valeurs d’énumération après avoir créé l’événement, vous devez suivre les étapes suivantes pour appliquer les modifications à l’événement existant : désélectionnez le champ d’énumération des champs de l’événement, confirmez la sélection, puis sélectionnez à nouveau le champ d’énumération. La nouvelle valeur d’énumération s’affiche maintenant.
+   >[!NOTE]
+   >
+   >Dans l&#39;éditeur d&#39;expression simple, tous les opérateurs ne sont pas disponibles ; ils dépendent du type de données. Par exemple, pour un type de chaîne de champ, vous pouvez utiliser « contient » ou « égal à ».
+   >
+   >Si vous modifiez votre schéma avec de nouvelles valeurs d’énumération après avoir créé l’événement, vous devez suivre les étapes suivantes pour appliquer les modifications à l’événement existant : désélectionnez le champ d’énumération des champs de l’événement, confirmez la sélection, puis sélectionnez à nouveau le champ d’énumération. La nouvelle valeur d’énumération s’affiche maintenant.
 
 1. Ajoutez un espace de noms. Cette étape est facultative, mais recommandée. En effet, l&#39;ajout d&#39;un espace de noms permet d&#39;exploiter les informations stockées dans le service de profil client en temps réel. Il définit le type de clé dont dispose l&#39;événement. Consultez [cette section](../event/about-creating.md#select-the-namespace).
 
@@ -163,16 +163,12 @@ La clé sert également à vérifier qu&#39;une personne se trouve dans un parco
 
 ### Éditeur d’expression avancé {#adv-exp-editor}
 
-
 Lors de la définition de l’identifiant du profil, vous pouvez basculer vers l’éditeur d’expression avancé pour créer des clés plus complexes (une concaténation de deux champs des événements, par exemple).
 
 ![](assets/journey20.png)
 
 Vous avez accès aux fonctions d’expression avancées du bouton **[!UICONTROL Mode avancé]** si vous souhaitez effectuer des manipulations supplémentaires. Ces fonctions vous permettent de manipuler les valeurs utilisées pour exécuter des requêtes spécifiques, comme modifier des formats, exécuter des concaténations de champs, prendre uniquement en compte une partie d&#39;un champ (les 10 premiers caractères, par exemple), etc. Consultez cette [page](../building-journeys/expression/expressionadvanced.md).
 
->[!AVAILABILITY]
->
->Seul un nombre limité d’organisations peut accéder à l’éditeur d’expression avancé (disponibilité limitée, LA).
 
 ## Prévisualisation de la payload {#preview-the-payload}
 
