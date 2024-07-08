@@ -9,10 +9,10 @@ role: Data Engineer, Data Architect, Admin
 level: Intermediate, Experienced
 keywords: événement, unitaire, créer, parcours
 exl-id: e22e2bc7-0c15-457a-8980-97bea5da7784
-source-git-commit: 2edb6f9d9b359293afcf5409b8b18068f43a38ec
+source-git-commit: 65a1672c2440a3498ec1fc1c7db62080aa306cf4
 workflow-type: tm+mt
-source-wordcount: '1603'
-ht-degree: 98%
+source-wordcount: '1608'
+ht-degree: 97%
 
 ---
 
@@ -161,9 +161,9 @@ Si vous devez utiliser une autre clé, telle qu&#39;un ID CRM ou une adresse e-
 Lorsque l&#39;événement est reçu, la valeur de la clé permet au système d&#39;identifier la personne qui y est associée. Associée à un espace de noms (voir [cette section](../event/about-creating.md#select-the-namespace)), la clé peut être utilisée pour exécuter des requêtes sur Adobe Experience Platform. Voir [cette page](../building-journeys/about-journey-activities.md#orchestration-activities).
 La clé sert également à vérifier qu&#39;une personne se trouve dans un parcours. En effet, une personne ne peut se trouver à deux endroits différents dans le même parcours. Par conséquent, le système n&#39;autorise pas qu&#39;une même clé (CRMID=3224, par exemple) se trouve à des endroits différents dans un même parcours.
 
-### Éditeur d’expression avancé {#adv-exp-editor}
+## Éditeur d’expression avancé {#adv-exp-editor}
 
-Lors de la définition de l’identifiant de profil, vous pouvez basculer vers l’éditeur d’expression avancé pour créer des clés plus complexes (par exemple, une concaténation de deux champs des événements).
+Lors de la définition de la condition d’identifiant d’événement ou de l’identifiant de profil, vous pouvez basculer vers l’éditeur d’expression avancé pour créer des clés plus complexes (par exemple, une concaténation de deux champs des événements).
 
 ![](assets/journey20.png)
 
