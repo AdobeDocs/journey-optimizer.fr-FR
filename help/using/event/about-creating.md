@@ -9,10 +9,10 @@ role: Data Engineer, Data Architect, Admin
 level: Intermediate, Experienced
 keywords: événement, unitaire, créer, parcours
 exl-id: e22e2bc7-0c15-457a-8980-97bea5da7784
-source-git-commit: 852b79a7a2cdcaeac700e2bb8b0cf1aa0d421bc9
+source-git-commit: 2edb6f9d9b359293afcf5409b8b18068f43a38ec
 workflow-type: tm+mt
 source-wordcount: '1603'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -163,7 +163,7 @@ La clé sert également à vérifier qu&#39;une personne se trouve dans un parco
 
 ### Éditeur d’expression avancé {#adv-exp-editor}
 
-Lors de la définition de l’identifiant du profil, vous pouvez basculer vers l’éditeur d’expression avancé pour créer des clés plus complexes (une concaténation de deux champs des événements, par exemple).
+Lors de la définition de l’identifiant de profil, vous pouvez basculer vers l’éditeur d’expression avancé pour créer des clés plus complexes (par exemple, une concaténation de deux champs des événements).
 
 ![](assets/journey20.png)
 
