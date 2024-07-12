@@ -11,7 +11,7 @@ exl-id: da3ffe9c-a244-4246-b4b5-a3a1d0508676
 source-git-commit: c42fc1069e11b8e34b7477fc26ed8a6b4ef95ac7
 workflow-type: tm+mt
 source-wordcount: '642'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 97%
 >id="ajo_create_visual_fragment"
 >title="Sélectionner le type Visuel"
 >abstract="Créez un fragment visuel autonome pour rendre votre contenu réutilisable dans un e-mail au sein d’un parcours ou d’une campagne, ou dans un modèle de contenu."
->additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/email/design-email/add-content/use-visual-fragments" text="Ajouter des fragments visuels à vos e-mails"
+>additional-url="https://experienceleague.adobe.com/fr/docs/journey-optimizer/using/email/design-email/add-content/use-visual-fragments" text="Ajouter des fragments visuels à vos e-mails"
 
 >[!CONTEXTUALHELP]
 >id="ajo_create_expression_fragment"
@@ -77,7 +77,7 @@ Lorsque votre contenu est prêt, cliquez sur le bouton **Enregistrer**. Le fragm
 
 >[!NOTE]
 >
->Pour publier un fragment, vous devez disposer de la variable [Fragment Publish](../administration/ootb-product-profiles.md#content-library-manager) autorisation utilisateur.
+>Pour publier un fragment, vous devez disposer de l’autorisation utilisateur [Publier le fragment](../administration/ootb-product-profiles.md#content-library-manager).
 
 Si votre fragment est prêt à être publié, vous pouvez le prévisualiser et le publier afin de le rendre disponible dans vos parcours et campagnes. Pour ce faire, procédez comme suit :
 

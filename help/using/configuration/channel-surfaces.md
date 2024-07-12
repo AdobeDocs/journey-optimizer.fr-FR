@@ -12,7 +12,7 @@ exl-id: 9038528f-3da0-4e0e-9b82-b72c67b42391
 source-git-commit: 9af49f0a47ad5bc1d2cea3e822ec20e2930140d3
 workflow-type: tm+mt
 source-wordcount: '1758'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -234,7 +234,7 @@ Une fois les modifications soumises, la surface de canal passera par un cycle de
 
 ### Détails de la mise à jour {#update-details}
 
-Pour les surfaces de canal affichant le statut **[!UICONTROL Actif]**, vous pouvez vérifier les détails de la mise à jour. Pour ce faire :
+Pour les surfaces de canal affichant le statut **[!UICONTROL Actif]**, vous pouvez vérifier les détails de la mise à jour. Pour ce faire, procédez comme suit :
 
 Cliquez sur l’icône **[!UICONTROL Mise à jour récente]** qui s’affiche en regard du nom de surface active.
 

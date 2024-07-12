@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Utilisation de l’éditeur d’expression avancé
+title: Utiliser l’éditeur d’expression avancé
 description: Découvrir comment créer des expressions avancées
 feature: Journeys
 role: Data Engineer, Architect
@@ -11,11 +11,11 @@ exl-id: 9ea6cc3a-6a1b-4e8f-82ff-f8b1812617d7
 source-git-commit: 2de94e8ce3fe77399c8dc1d515ae73d58cb8f43d
 workflow-type: tm+mt
 source-wordcount: '665'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
-# Utilisation de l’éditeur d’expression avancé {#about-the-advanced-expression-editor}
+# Utiliser l’éditeur d’expression avancé {#about-the-advanced-expression-editor}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_expression_advanced"
@@ -36,7 +36,7 @@ L’éditeur d’expression avancé propose un ensemble de fonctions et d’opé
 >
 >Les fonctions et les fonctionnalités disponibles dans l’éditeur d’expression avancé de Journey diffèrent de celles disponibles dans l’[éditeur de personnalisation](../../personalization/functions/functions.md).
 
-## Accès à l’éditeur d’expression avancé {#accessing-the-advanced-expression-editor}
+## Accéder à l’éditeur d’expression avancé {#accessing-the-advanced-expression-editor}
 
 L’éditeur d’expression avancé peut être utilisé pour effectuer ce qui suit :
 
