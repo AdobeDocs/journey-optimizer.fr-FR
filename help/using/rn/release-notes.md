@@ -7,9 +7,9 @@ topic: Content Management
 description: Notes de mise à jour de Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
 source-git-commit: 55666c0fc3e4efb3785de96b96e58ba44016f33d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1104'
-ht-degree: 70%
+ht-degree: 100%
 
 ---
 
@@ -28,9 +28,9 @@ ht-degree: 70%
 
 ## Mises à jour de juillet 2024 {#24-7-2024}
 
-**Dernière mise à jour**: 8 juillet 2024
+**Dernière mise à jour** : 8 juillet 2024
 
-**Éditeur d’expression avancé dans la configuration des événements de parcours** - Vous pouvez désormais utiliser l’éditeur d’expression avancé lors de la configuration d’un événement, ce qui vous permet de définir des expressions plus complexes ou d’utiliser des fonctions dans la condition d’identifiant d’événement. [En savoir plus](../event/about-creating.md#adv-exp-editor)
+**Éditeur d’expression avancé dans la configuration des événements des parcours** : vous pouvez désormais utiliser l’éditeur d’expression avancé lors de la configuration d’un événement, ce qui vous permet de définir des expressions plus complexes ou d’utiliser des fonctions dans la condition d’identifiant d’événement. [En savoir plus](../event/about-creating.md#adv-exp-editor)
 
 
 ## Notes de mise à jour de juin 2024 {#24-6-2024}
@@ -80,13 +80,13 @@ Cette version apporte les nouvelles fonctionnalités détaillées ci-dessous.
 <table>
 <thead>
 <tr>
-<th><strong>Reporting avec Customer Journey Analytics (disponibilité limitée)</strong><br/></th>
+<th><strong>Créer des rapports avec Customer Journey Analytics (disponibilité limitée)</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>La création de rapports Journey Optimizer s’accompagne d’une interopérabilité améliorée avec les fonctionnalités de Customer Journey Analytics, de la normalisation des rapports sur les deux plateformes et de l’amélioration de la cohérence et de la fiabilité des données. Cette intégration transparente entre Journey Optimizer et Customer Journey Analytics offre une vue plus claire des mesures de performances, ce qui permet aux utilisateurs et utilisatrices de prendre des décisions plus éclairées.</p>
+<p>La création de rapports Journey Optimizer est fournie avec une interopérabilité améliorée avec les fonctionnalités de Customer Journey Analytics, ce qui permet de normaliser la création de rapports sur les deux plateformes et d’améliorer la cohérence et la fiabilité des données. Cette intégration transparente entre Journey Optimizer et Customer Journey Analytics offre une vue plus claire des mesures de performances, ce qui permet aux utilisateurs et utilisatrices de prendre des décisions plus éclairées.</p>
 <img src="assets/do-not-localize/ajo-cja.gif"/>
 <p>Pour plus d’informations, consultez la <a href="../reports/report-gs-cja.md">documentation détaillée</a>.</p>
 </td>
@@ -121,8 +121,8 @@ Cette version apporte les nouvelles fonctionnalités détaillées ci-dessous.
 <tbody>
 <tr>
 <td>
-<p>Vous pouvez désormais créer facilement du contenu dans plusieurs langues au sein d’une seule campagne ou d’un même parcours. Grâce à cette fonctionnalité, vous pouvez basculer entre les langues lors de la modification de votre campagne ou de votre parcours, ce qui rationalise l’ensemble du processus de modification et améliore votre capacité à gérer efficacement le contenu multilingue.</p>
-<p>Le contenu multilingue est actuellement disponible uniquement pour un ensemble d’organisations (disponibilité limitée). Pour en bénéficier, contactez votre représentant ou représentante Adobe.</p>
+<p>Vous pouvez désormais créer facilement du contenu dans plusieurs langues au sein d’une campagne ou d’un parcours. Grâce à cette fonctionnalité, vous pouvez passer d’une langue à une autre lors de la modification de votre campagne ou de votre parcours, ce qui optimise l’ensemble du processus de modification et améliore votre capacité à gérer efficacement du contenu multilingue.</p>
+<p>Le contenu multilingue n’est actuellement disponible que pour un ensemble d’organisations (disponibilité limitée). Pour en bénéficier, contactez votre représentant ou représentante Adobe.</p>
 </td>
 </tr>
 </tbody>
@@ -132,14 +132,14 @@ Cette version apporte les nouvelles fonctionnalités détaillées ci-dessous.
 <table>
 <thead>
 <tr>
-<th><strong>Expérience en parcours (disponibilité limitée)</strong><br/></th>
+<th><strong>Expérimentation dans les parcours (disponibilité limitée)</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Déjà disponible dans les campagnes, Adobe Journey Optimizer prend désormais en charge les expériences dans parcours. Les expériences sont des essais randomisés, ce qui, dans le cadre des tests en ligne, signifie que vous exposez certains utilisateurs et utilisatrices sélectionnés de manière aléatoire à une variante donnée d’un message et un autre ensemble d’utilisateurs et utilisatrices sélectionnés de manière aléatoire à une autre variation de traitement. Après l’exposition, vous pouvez ensuite mesurer les mesures de résultats qui vous intéressent, par exemple les ouvertures d’e-mails, les abonnements ou les achats.</p>
-<p>Actuellement, l’expérience dans les parcours n’est disponible que pour un ensemble d’organisations (disponibilité limitée). Pour en bénéficier, contactez votre représentant ou représentante Adobe.</p>
+<p>Déjà disponible dans les campagnes, Adobe Journey Optimizer prend désormais en charge les expérimentations dans les parcours. Les expériences sont des essais randomisés, ce qui, dans le cadre des tests en ligne, signifie que vous exposez certains utilisateurs et utilisatrices sélectionnés de manière aléatoire à une variante donnée d’un message et un autre ensemble d’utilisateurs et utilisatrices sélectionnés de manière aléatoire à une autre variation de traitement. Après l’exposition, vous pouvez ensuite mesurer les mesures de résultats qui vous intéressent, par exemple les ouvertures d’e-mails, les abonnements ou les achats.</p>
+<p>L’expérimentation dans les parcours n’est actuellement disponible que pour un ensemble donné d’organisations (disponibilité limitée). Pour en bénéficier, contactez votre représentant ou représentante Adobe.</p>
 </td>
 </tr>
 </tbody>
@@ -181,7 +181,7 @@ Cette version est fournie avec les améliorations répertoriées ci-dessous.
 * De nouveaux statuts pour les fragments de contenu ont été ajoutés : **Brouillon**, **Actif**, **Publication** et **Archivé**.
 * Pour utiliser un fragment dans un parcours ou une campagne, il doit maintenant se trouver au statut **Actif**. Une nouvelle étape a été ajoutée au processus de création de fragment, permettant de publier le fragment et de le rendre disponible à l’utilisation dans les parcours et les campagnes. Notez que la publication de fragments nécessite une nouvelle autorisation.
 
-  **ATTENTION** : depuis l’introduction des statuts **Brouillon** et **Actif** avec la version de juin de Journey Optimizer, tous les fragments créés avant cette version ont le statut **Brouillon**, même s’ils sont utilisés dans un parcours ou une campagne. Si vous modifiez ces fragments, vous devez [publier](../content-management/create-fragments.md#publish) pour les rendre &quot;En ligne&quot; et propager les modifications aux campagnes et aux parcours associés. Vous devez également créer une version de parcours/campagne et la publier.
+  **ATTENTION** : depuis l’introduction des statuts **Brouillon** et **Actif** avec la version de juin de Journey Optimizer, tous les fragments créés avant cette version ont le statut **Brouillon**, même s’ils sont utilisés dans un parcours ou une campagne. Si vous apportez des modifications à ces fragments, vous devez [les publier](../content-management/create-fragments.md#publish) pour les rendre « actives » et les propager aux campagnes et parcours associés. Vous devez également créer une version de parcours/campagne et la publier.
 
 En savoir plus dans la documentation sur les [fragments de contenu](../content-management/fragments.md).
 
@@ -205,9 +205,9 @@ En savoir plus dans la documentation sur les [fragments de contenu](../content-m
 
 #### Canal e-mail
 
-* **List-unsubscribe** - Suite aux récentes annonces Gmail et Yahoo pour les expéditeurs en masse, Journey Optimizer prend en charge l’option &quot;post/1-click&quot; List-Unsubscribe. Consultez les pages suivantes : [Gestion des opt-out des emails](../email/email-opt-out.md#unsubscribe-header) et [Configuration des paramètres de courrier électronique](../email/email-settings.md#list-unsubscribe).
+* **Désabonnement de la liste** : comme suite aux récentes annonces Gmail et Yahoo! concernant les expéditions en masse, Journey Optimizer prend en charge l’option de désabonnement de la liste « post/1-click ». Consultez les pages suivantes : [Gestion du processus de désinscription aux e-mails](../email/email-opt-out.md#unsubscribe-header) et [Configurer les paramètres d’e-mail](../email/email-settings.md#list-unsubscribe).
 
-  **REMARQUE** - Pour toute nouvelle surface de canal, l’option d’en-tête de désabonnement de liste est activée par défaut. Pour les surfaces existantes, l’option URL de désabonnement en un clic dans les paramètres de surface du canal est décochée par défaut. Si vous utilisiez une URL d’exclusion en un clic dans le corps de l’email précédemment, ce paramètre est toujours valide. Si l’URL de désabonnement en un clic est cochée dans les paramètres de surface du canal, Adobe Journey Optimizer préférera utiliser l’URL de désabonnement en un clic générée par défaut dans les paramètres de surface du canal.
+  **NOTE** : pour toute nouvelle surface de canal, l’option d’en-tête de désabonnement de la liste est activée par défaut. Pour les surfaces existantes, l’option URL de désabonnement en un clic dans les paramètres de surface de canal est décochée par défaut. Si vous utilisiez précédemment une URL d’opt-out en un clic dans le corps de l’e-mail, ce paramètre est toujours valide. Si l’URL de désabonnement en un clic est cochée dans les paramètres de surface de canal, Adobe Journey Optimizer préférera utiliser l’URL de désabonnement en un clic générée par défaut dans les paramètres de surface de canal.
 
 #### Canal SMS
 
@@ -226,4 +226,4 @@ En savoir plus dans la documentation sur les [fragments de contenu](../content-m
 
 #### Canal de publipostage direct
 
-* Le canal Courrier est désormais disponible pour tous les clients. [En savoir plus](../direct-mail/get-started-direct-mail.md)
+* Le canal de publipostage direct est désormais disponible pour l’ensemble des clientes et clients. [En savoir plus](../direct-mail/get-started-direct-mail.md)

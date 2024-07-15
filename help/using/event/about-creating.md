@@ -10,9 +10,9 @@ level: Intermediate, Experienced
 keywords: événement, unitaire, créer, parcours
 exl-id: e22e2bc7-0c15-457a-8980-97bea5da7784
 source-git-commit: ca80a7bc1fbf819d27db2d9518832c9345cdaa18
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1610'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -25,9 +25,9 @@ ht-degree: 96%
 
 Les événements unitaires sont liés à un profil spécifique. Ils peuvent être basés sur des règles ou générés par le système.  En savoir plus sur les événements unitaires dans [cette section](../event/about-events.md).
 
-Vous trouverez ci-dessous les premières étapes pour configurer un nouvel événement :
+Les premières étapes nécessaires pour configurer un nouvel événement sont les suivantes :
 
-1. Dans la section du menu ADMINISTRATION , accédez à **[!UICONTROL Configurations]**, et dans la variable  **[!UICONTROL Événements]** , cliquez sur **[!UICONTROL Gérer]**. La liste des événements s&#39;affiche.
+1. Dans la section du menu ADMINISTRATION, accédez à **[!UICONTROL Configurations]**. Dans la section **[!UICONTROL Événements]**, cliquez sur **[!UICONTROL Gérer]**. La liste des événements s&#39;affiche.
 
    ![](assets/jo-event1.png)
 
@@ -163,7 +163,7 @@ La clé sert également à vérifier qu&#39;une personne se trouve dans un parco
 
 ## Éditeur d’expression avancé {#adv-exp-editor}
 
-Lors de la définition de la condition d’identifiant d’événement ou de l’identifiant de profil, vous pouvez basculer vers l’éditeur d’expression avancé pour créer des clés plus complexes (par exemple, une concaténation de deux champs des événements).
+Lors de la définition de la condition d’identifiant d’événement ou de l’identifiant du profil, vous pouvez basculer vers l’éditeur d’expression avancé pour créer des clés plus complexes (une concaténation de deux champs d’événements, par exemple).
 
 ![](assets/journey20.png)
 

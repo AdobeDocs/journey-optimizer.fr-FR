@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
 source-git-commit: 0ccc6453594aaf501f15e5342331b1649346bfa3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1348'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -132,9 +132,9 @@ Contrôlez les demandes et la gestion concernant la confidentialité à partir d
 
 * **[!UICONTROL Alertes]** - Lʼinterface utilisateur vous permet de consulter lʼhistorique des alertes reçues en fonction des mesures affichées par Adobe Experience Platform Observability Insights. Lʼinterface utilisateur vous permet également dʼafficher, dʼactiver et de désactiver les règles dʼalerte disponibles. [En savoir plus](../reports/alerts.md).
 
-* **[!UICONTROL Sandbox]** : Adobe Experience Platform fournit des sandbox qui divisent une instance de plateforme unique en environnements virtuels distincts pour favoriser le développement et l’évolution d’applications d’expérience digitale. Parcourez cette section pour gérer vos environnements de test. [En savoir plus](../administration/sandboxes.md)
+* **[!UICONTROL Sandbox]** : Adobe Experience Platform fournit des sandbox qui divisent une instance de plateforme unique en environnements virtuels distincts pour favoriser le développement et l’évolution d’applications d’expérience digitale. Parcourez cette section pour gérer vos sandbox. [En savoir plus](../administration/sandboxes.md)
 
-* **[!UICONTROL Canaux]** - Utilisez cette section pour configurer vos canaux, y compris les sous-domaines, les surfaces et les paramètres de délivrabilité. [En savoir plus](../configuration/get-started-configuration.md).
+* **[!UICONTROL Canaux]** - Utilisez cette section pour configurer vos canaux, notamment les sous-domaines, les surfaces et les paramètres de délivrabilité. [En savoir plus](../configuration/get-started-configuration.md).
 
 * **[!UICONTROL Balises]** - Avec les balises unifiées, vous pouvez facilement classer vos parcours et campagnes pour améliorer la recherche dans les listes. [En savoir plus](../start/search-filter-categorize.md#work-with-unified-tags)
 
