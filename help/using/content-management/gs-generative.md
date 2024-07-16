@@ -11,10 +11,10 @@ badge: label="Version bêta" type="Informative"
 hide: true
 hidefromtoc: true
 exl-id: 6e291ce3-f324-4e5d-975b-5229dea4d581
-source-git-commit: b5dbfbd6d1bb4f1451f1ccab7387af3c37d6d060
-workflow-type: ht
-source-wordcount: '665'
-ht-degree: 100%
+source-git-commit: 267d1850cbe30b1078f3b5b5bd228364bb63edd6
+workflow-type: tm+mt
+source-wordcount: '602'
+ht-degree: 93%
 
 ---
 
@@ -35,7 +35,7 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="ajo_ai_generation_start"
 >title="Conditions d’IA générative Adobe"
->abstract="L’accès à cette fonctionnalité est soumis à votre accord des directives d’utilisation de l’IA générative d’Adobe Experience Cloud. Les invites, les informations contextuelles ou supplémentaires, ou toute autre information que vous fournissez à cette fonctionnalité, doivent être liées à un contexte spécifique, qui peut inclure vos documents d’image de marque, le contenu du site web, les données, les schémas de ces données, modèles ou autres documents approuvés, et ne doit pas contenir d’informations personnelles (les informations personnelles incluent tout ce qui peut être lié à une personne spécifique). Vous devez vérifier l’exactitude des résultats de cette fonctionnalité et vous assurer qu’ils sont appropriés à votre cas d’utilisation."
+>abstract="L’accès à cette fonctionnalité est soumis à votre accord des directives d’utilisation de l’IA générative d’Adobe Experience Cloud. Vérifiez la précision des sorties issues de cette fonctionnalité et assurez-vous qu’elles sont adaptées à votre cas d’utilisation."
 >additional-url="https://www.adobe.com/fr/legal/licenses-terms/adobe-gen-ai-user-guidelines.html" text="Directives d’utilisation de l’IA générative d’Adobe"
 
 >[!BEGINSHADEBOX]
@@ -54,7 +54,7 @@ ht-degree: 100%
 >
 >L’assistant IA dans Adobe Journey Optimizer est actuellement disponible en version bêta pour certains utilisateurs et utilisatrices uniquement.
 
-L’assistant IA d’Adobe Journey Optimizer, optimisé par Azure OpenAI et la vision d’Azure, offre des suggestions de variations de contenu proactives pour le texte et les images. Il est disponible pour les canaux e-mail, notification push et SMS. Cette nouvelle fonctionnalité permet de générer rapidement du texte et des images. La génération d’images est gérée avec Adobe Firefly.
+L’assistant d’IA dans Adobe Journey Optimizer, optimisé par Azure OpenAI, offre des suggestions de variations de contenu proactives pour le texte et les images. Il est disponible pour les canaux e-mail, notification push et SMS. Cette nouvelle fonctionnalité permet de générer rapidement du texte et des images. La génération d’images est gérée avec Adobe Firefly.
 
 Utilisez l’Assistant IA dans Journey Optimizer pour optimiser l’impact de votre message en testant plusieurs images et titres principaux. Générez plusieurs variantes et créez une expérience pour les comparer. L’expérience de contenu Journey Optimizer vous permet de définir plusieurs traitements de message afin de mesurer celui qui fonctionne le mieux pour votre audience cible. Vous pouvez choisir de varier le contenu ou l’objet de la diffusion. L’audience du message est attribuée de manière aléatoire à chaque traitement afin de déterminer laquelle fonctionne le mieux avec la mesure spécifiée. En savoir plus sur l’expérience de contenu dans [cette section](../content-management/content-experiment.md).
 
