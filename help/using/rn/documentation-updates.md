@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 135dd7528e87a6fde7e148745ef2f49104809bc1
+source-git-commit: f1d6c293fb8b22085911ab45c18f944a63b9655b
 workflow-type: tm+mt
-source-wordcount: '5383'
+source-wordcount: '5407'
 ht-degree: 99%
 
 ---
@@ -18,6 +18,10 @@ ht-degree: 99%
 # Mises à jour de la documentation {#latest-updates}
 
 Cette page répertorie toutes les mises à jour récentes de la documentation de [!DNL Journey Optimizer].
+
+## Juillet 2024 {#july-2024}
+
+* Un cas pratique de personnalisation a été ajouté sur la personnalisation d’un email avec des plans d’intégrité et des ordonnances liés à l’information. [En savoir plus](../personalization/perso-uc-plan-prescriptions.md)
 
 ## Juin 2024 {#june-2024}
 

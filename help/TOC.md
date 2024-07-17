@@ -5,10 +5,10 @@ user-guide-title: Guide de Journey Optimizer
 user-guide-description: Utilisez Journey Optimizer pour créer et proposer aux clients des expériences connectées, contextuelles et personnalisées
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 2de94e8ce3fe77399c8dc1d515ae73d58cb8f43d
+source-git-commit: f1d6c293fb8b22085911ab45c18f944a63b9655b
 workflow-type: tm+mt
-source-wordcount: '1873'
-ht-degree: 98%
+source-wordcount: '1877'
+ht-degree: 99%
 
 ---
 
@@ -56,7 +56,7 @@ ht-degree: 98%
       + [Gestion des fuseaux horaires](using/building-journeys/timezone-management.md)
       + [Fin de votre parcours](using/building-journeys/end-journey.md)
       + [Copier un parcours dans un autre sandbox](using/building-journeys/copy-to-sandbox.md)
-      + [Dépannage de votre parcours](using/building-journeys/troubleshooting.md)
+      + [Résoudre les problèmes de votre parcours](using/building-journeys/troubleshooting.md)
       + [Intégration avec les services intelligents](using/building-journeys/ai-services-overview.md)
    + Activités {#about-journey-building}
       + [Prise en main des activités de parcours](using/building-journeys/about-journey-activities.md)
@@ -73,7 +73,7 @@ ht-degree: 98%
       + [Saut](using/building-journeys/jump.md)
       + [Mise à jour du profil](using/building-journeys/update-profiles.md)
    + Création d’expressions {#building-advanced-conditions-journeys}
-      + [Utilisation de l’éditeur d’expression avancé](using/building-journeys/expression/expressionadvanced.md)
+      + [Utiliser l’éditeur d’expression avancé](using/building-journeys/expression/expressionadvanced.md)
       + Syntaxe {#syntax}
          + [Syntaxe de l’éditeur d’expression avancé](using/building-journeys/expression/generalities.md)
          + [Instruction conditionnelle](using/building-journeys/expression/conditional-instruction.md)
@@ -273,10 +273,10 @@ ht-degree: 98%
       + [Génération de SMS](using/content-management/generative-sms.md)
       + [Expérience de contenu avec l’assistant IA](using/content-management/generative-experimentation.md)
    + Utiliser du contenu multilingue{#content-multilingual}
-      + [Prise en main du contenu multilingue](using/content-management/multilingual-gs.md)
+      + [Commencer avec le contenu multilingue](using/content-management/multilingual-gs.md)
       + [Créer du contenu multilingue avec traduction manuelle](using/content-management/multilingual-manual.md)
       + [Créer du contenu multilingue avec traduction automatisée](using/content-management/multilingual-automated.md)
-   + Expérience Utilisation de contenu {#content-experiment}
+   + Utiliser une expérience de contenu {#content-experiment}
       + [Prise en main de l’expérience de contenu](using/content-management/get-started-experiment.md)
       + [Créer une expérience de contenu](using/content-management/content-experiment.md)
       + [Configurer des rapports d’expérience](using/content-management/reporting-configuration.md)
@@ -311,9 +311,10 @@ ht-degree: 98%
       + Cas d’utilisation de la personnalisation{#personalization-use-cases}
          + [Notification de statut de la commande](using/personalization/personalization-use-case.md)
          + [E-mail d’abandon de panier](using/personalization/personalization-use-case-helper-functions.md)
+         + [Email d’ordonnances de plans d’intégrité](using/personalization/perso-uc-plan-prescriptions.md)
    + Modèles de contenu {#content-templates}
-      + [Prise en main des modèles de contenu](using/content-management/content-templates.md)
-      + [Accès et gestion des modèles](using/content-management/access-content-templates.md)
+      + [Commencer avec les modèles de contenu](using/content-management/content-templates.md)
+      + [Accéder aux modèles et les gérer](using/content-management/access-content-templates.md)
       + [Créer des modèles de contenu](using/content-management/create-content-templates.md)
       + [Tester des modèles de contenu](using/content-management/test-content-templates.md)
       + [Utiliser des modèles de contenu](using/content-management/use-content-templates.md)
@@ -386,7 +387,7 @@ ht-degree: 98%
    + [Alertes](using/reports/alerts.md)
    + [Utiliser Customer Journey Analytics](using/reports/cja-ajo.md)
    + [Motifs d’exclusion](using/reports/exclusion-list.md)
-+ Nouvelle interface de création de rapports (LA){#channel-report}
++ Nouvelle interface de création de rapports (disponibilité limitée){#channel-report}
    + [Commencer avec la nouvelle interface de création de rapports](using/reports/report-gs-cja.md)
    + [Gérer vos rapports](using/reports/report-cja-manage.md)
    + [Rapport de parcours](using/reports/journey-global-report-cja.md)
