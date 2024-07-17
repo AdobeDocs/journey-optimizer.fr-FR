@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: parcours, premier, commencer, démarrage rapide, audience, événement, action
 exl-id: d940191e-8f37-4956-8482-d2df0c4274aa
-source-git-commit: 619bcbc16b4117c29c482c85323603a4281298e0
+source-git-commit: a7234350c0ca66d033bbbd77c1b14063147468cf
 workflow-type: tm+mt
 source-wordcount: '1244'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -89,13 +89,13 @@ Le statut peut être :
 * **Fermé** : le parcours a été fermé à l’aide du bouton **Fermer aux nouvelles entrées**. Il n’est alors plus accessible aux nouveaux individus. En revanche, les personnes qui ont déjà intégré le parcours peuvent le terminer normalement.
 * **Brouillon** : le parcours en est à sa première étape. Il n’a pas encore été publié.
 * **Brouillon (test)** : le mode test a été activé à l’aide du bouton **Mode test**.
-* **Terminé**: le parcours passe automatiquement à ce statut après les 91 jours [expiration globale](journey-properties.md#global_timeout). Les profils de clientes et clients qui ont déjà intégré le parcours le terminent normalement. Les nouveaux profils ne peuvent plus rejoindre le parcours.
+* **Terminé** : le parcours passe automatiquement à ce statut après la [temporisation globale](journey-properties.md#global_timeout) de 91 jours. Les profils de clientes et clients qui ont déjà intégré le parcours le terminent normalement. Les nouveaux profils ne peuvent plus rejoindre le parcours.
 * **Actif** : le parcours a été publié à l’aide du bouton **Publier**.
 * **Arrêté** : le parcours a été désactivé à l’aide du bouton **Arrêter**. Toutes les personnes quittent instantanément le parcours.
 
 >[!NOTE]
 >
->Le cycle de vie de création de Parcours comprend également un ensemble d’états intermédiaires qui ne sont pas disponibles pour le filtrage : &quot;Publication&quot; (entre &quot;Version préliminaire&quot; et &quot;En direct&quot;), &quot;Activation du mode test&quot; ou &quot;Désactivation du mode test&quot; (entre &quot;Version préliminaire&quot; et &quot;Version préliminaire (test)&quot;) et &quot;Arrêt&quot; (entre &quot;En direct&quot; et &quot;Arrêt&quot;). Lorsqu’un parcours se trouve dans un état intermédiaire, il est en lecture seule.
+>Le cycle de vie de création de parcours comprend également un ensemble de statuts intermédiaires qui ne sont pas disponibles pour le filtrage : « Publication » (entre « Brouillon » et « Actif »), « Activer le mode test » ou « Désactiver le mode test » (entre « Brouillon » et « Brouillon (test) ») et « Arrêt en cours » (entre « Actif » et « Arrêté »). Lorsqu’un parcours se trouve dans un état intermédiaire, il est en lecture seule.
 
 Utilisez les **[!UICONTROL filtres de création]** pour filtrer les parcours en fonction de leur date de création ou de la personne qui les a créés.
 
@@ -111,23 +111,23 @@ Dans les volets de configuration des événements, des sources de données et de
 
 ## Créer votre parcours {#jo-build}
 
-Créez des parcours pour offrir des expériences contextuelles personnalisées. [!DNL Journey Optimizer] vous permet de créer des cas d’utilisation d’orchestration en temps réel avec des données contextuelles stockées dans des événements ou des sources de données. Concevez des scénarios avancés à plusieurs étapes avec les fonctionnalités suivantes :
+Concevez des parcours pour offrir des expériences contextuelles personnalisées. [!DNL Journey Optimizer] vous permet de créer des cas d’utilisation d’orchestration en temps réel avec des données contextuelles stockées dans des événements ou des sources de données. Concevez des scénarios avancés à plusieurs étapes avec les fonctionnalités suivantes :
 
 * Envoyez des **diffusions unitaires** en temps réel déclenchées lors de la réception d’un événement ou **par lots** à l’aide d’audiences Adobe Experience Platform.
 
 * Tirez parti des **données contextuelles** issues des événements, des informations d’Adobe Experience Platform ou des données provenant de services d’API tiers.
 
-* Utilisez la variable **actions de canal intégrées** (Email, SMS, Push, InApp) pour envoyer des messages conçus dans [!DNL Journey Optimizer] ou créer **actions personnalisées** si vous utilisez un système tiers pour envoyer vos messages.
+* Utilisez les **actions de canal intégrées** (E-mail, SMS, Push, In-app) pour envoyer des messages conçus dans [!DNL Journey Optimizer] ou créez des **actions personnalisées** si vous utilisez un système tiers pour envoyer vos messages.
 
 * Avec le **concepteur de parcours**, créez vos cas d’utilisation à plusieurs étapes : faites glisser et déposez facilement un événement d’entrée ou une activité de lecture d’audience, ajoutez des conditions et envoyez des messages personnalisés.
 
 ➡️ [Découvrir cette fonctionnalité en vidéo](journey.md#video)
 
-Les étapes pour envoyer des messages par parcours sont répertoriées ci-dessous :
+Les étapes pour envoyer des messages par le biais des parcours sont répertoriées ci-dessous :
 
 1. Dans l’onglet **Parcourir**, cliquez sur **[!UICONTROL Créer un Parcours]** pour créer un parcours.
 
-1. Modifiez les propriétés du parcours dans le volet de configuration qui s&#39;affiche dans la partie droite. Découvrez comment définir les propriétés de votre parcours dans cette [cette page](journey-properties.md).
+1. Modifiez les propriétés du parcours dans le volet de configuration qui s&#39;affiche dans la partie droite. Découvrez comment définir les propriétés de votre parcours dans [cette page](journey-properties.md).
 
    ![](assets/jo-properties.png)
 
