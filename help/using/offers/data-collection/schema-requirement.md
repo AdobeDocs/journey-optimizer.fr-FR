@@ -9,8 +9,8 @@ level: Experienced
 exl-id: f70ba749-f517-4e09-a381-243b21713b48
 source-git-commit: 4e7c4e7e6fcf488f572ccf3e9037e597dde06510
 workflow-type: tm+mt
-source-wordcount: '266'
-ht-degree: 100%
+source-wordcount: '272'
+ht-degree: 92%
 
 ---
 
@@ -107,4 +107,4 @@ Pour les événements personnalisés, le schéma utilisé dans le jeu de donnée
 >* POST /ee/v2/interact
 >* POST /ee/v2/collect
 >
->Si vous utilisez le [SDK Web Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=fr){target="_blank"} or [Adobe Experience Platform Mobile SDK](https://experienceleague.adobe.com/docs/platform-learn/data-collection/mobile-sdk/overview.html?lang=fr){target="_blank"}, la connexion est établie automatiquement.
+>Si vous utilisez le [SDK Web Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=fr){target="_blank"} ou le [SDK Adobe Experience Platform Mobile](https://experienceleague.adobe.com/docs/platform-learn/data-collection/mobile-sdk/overview.html?lang=fr){target="_blank"}, la connexion est établie automatiquement.

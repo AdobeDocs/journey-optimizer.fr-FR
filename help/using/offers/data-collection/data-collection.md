@@ -8,8 +8,8 @@ level: Experienced
 exl-id: 278cb255-439c-4ce8-ab59-07df79774b98
 source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
 workflow-type: tm+mt
-source-wordcount: '381'
-ht-degree: 96%
+source-wordcount: '386'
+ht-degree: 93%
 
 ---
 
@@ -44,9 +44,9 @@ Les **e-mails** créés par [!DNL Journey Optimizer] effectuent **automatiquemen
 
 Cependant, pour la **plupart des canaux**, les données relatives aux impressions et aux clics doivent être transmises à Adobe Experience Platform en tant qu’**événement d’expérience**. Cela inclut :
 
-* Pages Web utilisant la variable [SDK Web Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=fr){target="_blank"} pour effectuer le rendu des offres
+* Pages Web utilisant le [ SDK Web Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=fr){target="_blank"} pour effectuer le rendu des offres
 
-* les applications mobiles utilisant le [SDK mobile d’Adobe Experience Platform](https://experienceleague.adobe.com/docs/platform-learn/data-collection/mobile-sdk/overview.html?lang=fr){target="_blank"} to render offers - [Learn more](https://developer.adobe.com/client-sdks/documentation/adobe-journey-optimizer-decisioning/#ab-sj-tracking-servers){target="_blank"},
+* Applications mobiles utilisant le [ SDK Mobile Adobe Experience Platform](https://experienceleague.adobe.com/docs/platform-learn/data-collection/mobile-sdk/overview.html?lang=fr){target="_blank"} pour effectuer le rendu des offres - [En savoir plus](https://developer.adobe.com/client-sdks/documentation/adobe-journey-optimizer-decisioning/#ab-sj-tracking-servers){target="_blank"}
 * les kiosques,
 * les messages envoyés par le biais d’applications tierces.
   <!--Mobile push notifications authored by [!DNL Journey Optimizer] - [Learn more](https://developer.adobe.com/client-sdks/documentation/adobe-journey-optimizer/api-reference/#handlenotificationresponse){target="_blank"}-->

@@ -11,23 +11,23 @@ exl-id: 25a00f74-ed08-479c-9a5d-4185b5f3c684
 source-git-commit: e6924928e03d494817a2368b33997029ca2eca1c
 workflow-type: tm+mt
 source-wordcount: '669'
-ht-degree: 52%
+ht-degree: 100%
 
 ---
 
 # Ajouter des fragments visuels à vos e-mails {#use-visual-fragments}
 
-Un fragment est un composant réutilisable pouvant être référencé dans un ou plusieurs emails au sein de campagnes Journey Optimizer, de parcours ou de modèle de contenu. Cette fonctionnalité permet de précréer plusieurs blocs de contenu personnalisés qui peuvent être utilisés par les utilisateurs marketing pour assembler rapidement les contenus d’email dans un processus de conception amélioré. [Découvrez comment créer et gérer des fragments](../content-management/fragments.md).
+Un fragment est un composant réutilisable pouvant être référencé dans un ou plusieurs e-mails dans des campagnes, des parcours ou des modèles de contenu de Journey Optimizer. Cette fonctionnalité permet de créer en avance plusieurs blocs de contenu personnalisés qui peuvent être utilisés par des personnes chargées du marketing pour assembler rapidement les contenus d’e-mail dans un processus de conception amélioré. [Découvrez comment créer et gérer des fragments](../content-management/fragments.md).
 
 ➡️ [Découvrez comment gérer, créer et utiliser des fragments dans cette vidéo.](../content-management/fragments.md#video-fragments)
 
 ## Utiliser un fragment {#use-fragment}
 
-Pour utiliser un fragment dans un email, procédez comme suit.
+Pour utiliser un fragment dans un email, procédez comme suit :
 
 >[!NOTE]
 >
->Vous pouvez ajouter jusqu’à 30 fragments dans une diffusion donnée. Les fragments ne peuvent être imbriqués qu’à un niveau maximum.
+>Vous pouvez ajouter jusqu’à 30 fragments pour une diffusion donnée. Les fragments ne peuvent être imbriqués que jusqu’à un seul niveau.
 
 
 1. Ouvrez le contenu d’un e-mail ou d’un modèle à l’aide du [concepteur d’e-mail](get-started-email-design.md).
@@ -36,16 +36,16 @@ Pour utiliser un fragment dans un email, procédez comme suit.
 
    ![](assets/fragments-in-designer.png)
 
-1. La liste de tous les fragments visuels créés dans le sandbox actuel s’affiche. Ils sont triés par date de création : les fragments visuels récemment ajoutés sont affichés en premier dans la liste. Vous pouvez :
+1. La liste de tous les fragments visuels créés dans le sandbox actuel s’affiche. Les fragments sont triés par date de création : les fragments visuels récemment ajoutés sont affichés en premier dans la liste. Vous pouvez :
 
    * Rechercher un fragment spécifique en commençant à saisir son libellé.
    * Trier les fragments par ordre croissant ou décroissant.
    * Modifier l’affichage des fragments (vue Cartes ou Liste).
-   * Actualisez la liste.
+   * Actualiser la liste.
 
    >[!NOTE]
    >
-   >Si certains fragments ont été modifiés ou ajoutés pendant que vous modifiez votre contenu, la liste est mise à jour avec les dernières modifications.
+   >Si certains fragments sont modifiés ou ajoutés pendant que vous modifiez votre contenu, la liste se met à jour en tenant compte des dernières modifications.
 
 1. Faites glisser un fragment de la liste et déposez-le dans la zone où vous souhaitez l’insérer.
 
@@ -53,7 +53,7 @@ Pour utiliser un fragment dans un email, procédez comme suit.
 
    >[!CAUTION]
    >
-   >Vous pouvez ajouter n’importe quel **Version préliminaire** ou **En direct** fragment dans votre contenu. Cependant, vous ne pourrez pas activer votre parcours ou campagne si un fragment avec le statut En création y est utilisé. Lors de la publication parcours ou de la campagne, les fragments de brouillon affichent une erreur et vous devez les approuver pour pouvoir publier.
+   >Vous pouvez ajouter n’importe quel fragment ayant un statut **Brouillon** ou **Actif** à votre contenu. Cependant, vous ne pouvez pas activer votre parcours ou votre campagne si un fragment ayant le statut de brouillon est utilisé dans ce parcours ou cette campagne. Lors de la publication du parcours ou de la campagne, les fragments de brouillon affichent une erreur et vous devez les approuver pour pouvoir les publier.
 
 1. Comme tout autre composant, vous pouvez déplacer le fragment dans votre contenu.
 
@@ -73,27 +73,27 @@ Pour utiliser un fragment dans un email, procédez comme suit.
 
 1. Ajoutez autant de fragments que vous le souhaitez. Vous pouvez ensuite **[!UICONTROL enregistrer]** vos modifications.
 
-## Personnalisation des champs modifiables {#customize-fields}
+## Personnaliser des champs modifiables {#customize-fields}
 
-Si certaines parties du fragment sélectionné ont été rendues modifiables, vous pouvez remplacer leur valeur par défaut après l’ajout du fragment dans votre contenu. [Découvrez comment personnaliser vos fragments](../content-management/customizable-fragments.md)
+Si certaines parties du fragment sélectionné ont été rendues modifiables, vous pouvez remplacer leur valeur par défaut après l’ajout du fragment dans votre contenu. [Découvrir comment rendre personnalisables vos fragments](../content-management/customizable-fragments.md)
 
-Pour personnaliser les champs modifiables dans un fragment, procédez comme suit :
+Pour personnaliser les champs modifiables dans un fragment, procédez comme suit :
 
 1. Ajoutez le fragment à votre contenu et sélectionnez-le pour ouvrir le volet des propriétés sur le côté droit.
 
-1. Tous les champs modifiables du fragment sont affichés dans le **Paramètres** sous l’onglet **Fragment** .
+1. Tous les champs modifiables du fragment sont affichés dans l’onglet **Paramètres** sous la section **Fragment**.
 
-   Les champs modifiables sont surlignés en vert dans le volet d’aperçu lorsqu’ils sont sélectionnés dans le volet de droite, ce qui facilite l’identification de leur emplacement dans votre contenu.
+   Les champs modifiables sont surlignés en vert dans le volet de prévisualisation lorsqu’ils sont sélectionnés dans le volet de droite, ce qui facilite l’identification de leur emplacement dans votre contenu.
 
-   Dans l’exemple ci-dessous, l’image **source** et **texte alternatif** peut être modifié, ainsi que le bouton &quot;Cliquez ici&quot; **URL**.
+   Dans l’exemple ci-dessous, l’image **source** et le **texte alternatif** peuvent être modifiés, ainsi que l’**URL** du bouton « Cliquez ici ».
 
    ![](assets/fragment-editable.png)
 
 ## Rompre l’héritage {#break-inheritance}
 
-Lorsque vous modifiez un fragment visuel, les modifications sont synchronisées. Ils sont automatiquement propagés à tous les parcours/campagnes en version préliminaire ou active et aux modèles de contenu contenant ce fragment.
+Lorsque vous modifiez un fragment visuel, les modifications sont synchronisées. Elles sont automatiquement propagées à tous les parcours/campagnes et modèles de contenu, brouillons ou actifs, qui contiennent ce fragment.
 
-Lorsqu&#39;ils sont ajoutés à un email ou à un modèle de contenu, les fragments sont synchronisés par défaut. Vous pouvez toutefois rompre l’héritage du fragment d’origine. Dans ce cas, le contenu du fragment est copié dans la conception actuelle et les modifications ne sont plus synchronisées.
+Lorsqu’ils sont ajoutés à un e-mail ou à un modèle de contenu, les fragments sont synchronisés par défaut. Vous pouvez toutefois rompre l’héritage du fragment d’origine. Dans ce cas, le contenu du fragment est copié dans la conception actuelle et les modifications ne sont plus synchronisées.
 
 Pour rompre l’héritage, procédez comme suit :
 

@@ -11,8 +11,8 @@ keywords: analytics, intégration, sdk web, platform
 exl-id: 9d842722-e5eb-4743-849d-b7ba9448062f
 source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
 workflow-type: tm+mt
-source-wordcount: '753'
-ht-degree: 98%
+source-wordcount: '755'
+ht-degree: 96%
 
 ---
 
@@ -61,7 +61,7 @@ Cela active le connecteur source Analytics pour cette suite de rapports. Chaque 
 
 ![](assets/ajo-aa_4.png)
 
-Pour en savoir plus sur le connecteur source Adobe Analytics, consultez la [documentation d’Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html?lang=fr){target="_blank"} and [tutorial](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html?lang=fr){target="_blank"}.
+Pour en savoir plus sur le connecteur source Adobe Analytics, consultez la [documentation Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html?lang=fr){target="_blank"} et le [tutoriel](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html?lang=fr){target="_blank"}.
 
 ## Activer cette configuration {#activate-analytics-data}
 

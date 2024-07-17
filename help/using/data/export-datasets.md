@@ -10,8 +10,8 @@ keywords: platform, lac de données, créer, lac, jeux de données, profil
 exl-id: 66b5c691-ddc4-4e9b-9386-2ce6c307451c
 source-git-commit: e45ec5f0e1bbcc73892f9cde5923627886f44ef6
 workflow-type: tm+mt
-source-wordcount: '864'
-ht-degree: 100%
+source-wordcount: '871'
+ht-degree: 97%
 
 ---
 
@@ -67,7 +67,7 @@ Découvrez dans le tableau ci-dessous les jeux de données Journey Optimizer qu
 
 ## Conditions préalables {#prerequisites}
 
-Pour exporter des jeux de données, vous devez disposer des [autorisations de contrôle d’accès](https://experienceleague.adobe.com/docs/experience-platform/access-control/home.html?lang=fr#permissions){target="_blank"} listed below. Read the [access control overview](https://experienceleague.adobe.com/docs/experience-platform/access-control/ui/overview.html?lang=fr){target="_blank"} ou contacter votre administrateur ou administratrice de produit pour obtenir les autorisations requises.
+Pour exporter des jeux de données, vous avez besoin des [autorisations de contrôle d’accès](https://experienceleague.adobe.com/docs/experience-platform/access-control/home.html?lang=fr#permissions){target="_blank"} répertoriées ci-dessous. Lisez la [présentation du contrôle d’accès](https://experienceleague.adobe.com/docs/experience-platform/access-control/ui/overview.html?lang=fr){target="_blank"} ou contactez votre administrateur de produit pour obtenir les autorisations requises.
 
 | Catégorie | Autorisation |
 |--|--|

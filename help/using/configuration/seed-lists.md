@@ -12,7 +12,7 @@ exl-id: 0172f6bc-da8b-4a83-a0fc-4ed41324568f
 source-git-commit: 534c40c824962a983fe503c67bdc1bec2f9d9ae5
 workflow-type: tm+mt
 source-wordcount: '959'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -48,7 +48,7 @@ Les adresses de contrôle ne sont ni des profils réels ni des profils de test, 
 
 >[!NOTE]
 >
->Les variantes sont prises en charge, notamment les variantes multilingues et d’expérimentation. Chaque adresse de contrôle reçoit une copie unique de chaque variante du même message, par exemple différentes versions d&#39;un même message [expérience de contenu](../content-management/get-started-experiment.md). Notez que des emails de contrôle distincts ne sont pas envoyés pour du contenu conditionnel.
+>Les variantes sont prises en charge, notamment les variantes multilingues et d’expérimentation. Chaque adresse de contrôle reçoit une copie unique de chaque variante du même message, par exemple différentes versions d’une [expérience de contenu](../content-management/get-started-experiment.md). Notez que des e-mails de contrôle distincts ne sont pas envoyés pour du contenu conditionnel.
 
 ## Accéder aux listes de contrôle {#access-seed-lists}
 

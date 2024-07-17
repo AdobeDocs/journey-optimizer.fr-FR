@@ -12,7 +12,7 @@ exl-id: bd35ae19-8713-4571-80bc-5f40e642d121
 source-git-commit: 59ecb9a5376e697061ddac4cc68f09dee68570c0
 workflow-type: tm+mt
 source-wordcount: '755'
-ht-degree: 82%
+ht-degree: 100%
 
 ---
 
@@ -44,11 +44,11 @@ L’objectif ici est de voir si les destinataires interagissent avec l’e-mail 
 
 ## Créer votre contenu {#campaign-experiment}
 
-1. Commencez par créer et configurer votre email, SMS ou notification push [campaign](../campaigns/create-campaign.md) ou [parcours](../building-journeys/journeys-message.md) selon vos besoins.
+1. Commencez par créer et configurer votre [parcours](../building-journeys/journeys-message.md) par e-mail, SMS ou notification push ou votre [campagne](../campaigns/create-campaign.md) selon vos besoins.
 
    >[!AVAILABILITY]
    >
-   >Actuellement, l’expérience dans le Parcours n’est disponible que pour un ensemble d’organisations (disponibilité limitée). Pour en bénéficier, contactez votre représentant ou représentante Adobe.
+   >L’expérimentation dans le parcours n’est actuellement disponible que pour un ensemble donné d’organisations (disponibilité limitée). Pour en bénéficier, contactez votre représentant ou représentante Adobe.
 
 1. Dans la fenêtre **[!UICONTROL Modifier le contenu]**, commencez à personnaliser votre traitement A.
 
@@ -100,7 +100,7 @@ L’objectif ici est de voir si les destinataires interagissent avec l’e-mail 
 
    ![](assets/content_experiment_12.png)
 
-1. Vous pouvez ensuite choisir d’attribuer un pourcentage précis à chaque **[!UICONTROL Traitement]** ou simplement activer la fonction **[!UICONTROL Répartir proportionnellement]** grâce à la barre de bascule.
+1. Vous pouvez ensuite choisir d’attribuer un pourcentage précis à chaque **[!UICONTROL Traitement]** ou simplement activer la fonction **[!UICONTROL Répartir proportionnellement]** grâce à la barre d’activation.
 
    ![](assets/content_experiment_13.png)
 
@@ -128,4 +128,4 @@ L’objectif ici est de voir si les destinataires interagissent avec l’e-mail 
 
 1. Une fois le contenu de votre message défini, cliquez sur le bouton **[!UICONTROL Simuler du contenu]** afin de contrôler le rendu de votre diffusion et vérifiez les paramètres de personnalisation avec les profils de test. [En savoir plus](../content-management/preview-test.md).
 
-Après avoir configuré votre expérimentation, vous pouvez suivre le succès de votre diffusion avec votre rapport. [En savoir plus](../reports/campaign-global-report.md#experimentation-report)
+Après avoir paramétré votre expérimentation, vous pouvez suivre le succès de votre diffusion avec votre rapport. [En savoir plus](../reports/campaign-global-report.md#experimentation-report)

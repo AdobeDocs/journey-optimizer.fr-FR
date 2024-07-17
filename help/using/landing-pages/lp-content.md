@@ -10,7 +10,7 @@ level: Beginner
 keywords: destination, page de destination, création, page, formulaire, composant
 exl-id: 5bf023b4-4218-4110-b171-3e70e0507fca
 source-git-commit: 050253e0f74f506649540ae3656a3a1f050331cb
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1308'
 ht-degree: 100%
 

@@ -12,7 +12,7 @@ exl-id: 5a968bd8-cf76-4242-aa80-3cfb3d551511
 source-git-commit: c2d9fde723c8dab28faf84152bfbaab437430ca9
 workflow-type: tm+mt
 source-wordcount: '1175'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -142,6 +142,6 @@ Ce rôle inclut les autorisations suivantes :
 
 | Fonctionnalité | Autorisations |
 |-|-|
-| Bibliothèque Journey Optimizer | <ul><li>**[!DNL Manage library items]** : lire, créer, modifier et supprimer des éléments de la bibliothèque Journey Optimizer, y compris des modèles de contenu et des fragments.</li><li>**[!DNL Manage simulate content]** : accéder à l’option **[!UICONTROL Simuler du contenu]** pour l’aperçu et le BAT.</li><li>**[!DNL Publish Fragment]**: publiez des fragments de contenu.</li></ul> |
+| Bibliothèque Journey Optimizer | <ul><li>**[!DNL Manage library items]** : lire, créer, modifier et supprimer des éléments de la bibliothèque Journey Optimizer, y compris des modèles de contenu et des fragments.</li><li>**[!DNL Manage simulate content]** : accéder à l’option **[!UICONTROL Simuler du contenu]** pour l’aperçu et le BAT.</li><li>**[!DNL Publish Fragment]** : publiez des fragments de contenu.</li></ul> |
 | Gestion des décisions | <ul><li>**[!DNL Manage decisions]** : lecture, création, modification et suppression des entités de prise de décision.</li><li>**[!DNL Manage ranking strategies]** : la lecture, la création, la modification et la suppression des rapports personnalisés et lʼutilisation des fonctionnalités dʼaction.</li></ul> |
 | Adobe Experience Platform | <ul><li> **[!DNL Manage segments]** : la lecture, la création, la modification et la suppression des définitions de segments.</li><li>**[!DNL Manage profiles]** : la lecture, la création, la modification et la suppression des profils.</li><li>**[!DNL Read datasets]** : accès en lecture seule aux jeux de données.</li><li>**[!DNL Read schemas]** : accès en lecture seule aux schémas.</li><li>**[!DNL Manage merge policies]** : la lecture, la création, la modification et la suppression des politiques de fusion.</li></ul> |

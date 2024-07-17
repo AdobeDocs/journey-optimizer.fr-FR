@@ -11,20 +11,20 @@ exl-id: 8874377c-6594-4a5a-9197-ba5b28258c02
 source-git-commit: 135dd7528e87a6fde7e148745ef2f49104809bc1
 workflow-type: tm+mt
 source-wordcount: '701'
-ht-degree: 75%
+ht-degree: 100%
 
 ---
 
 
 # Gestion des entrées de profil {#entry-management}
 
-La gestion des entrées de profil dépend du type de parcours. Dans Adobe Journey Optimizer, les types de parcours suivants sont disponibles :
+La gestion des entrées de profil dépend du type de parcours. Dans Adobe Journey Optimizer, les types de parcours suivants sont disponibles :
 
 * Parcours **Événement unitaire** : ces parcours commencent par un événement unitaire. Lorsque l’événement est reçu, le profil associé rejoint le parcours. [En savoir plus](#entry-unitary)
 
-* **Événement d’entreprise** parcours : ces parcours commencent par un événement professionnel suivi immédiatement d’un événement **Lecture d’audience** activité. Lorsque l’événement est reçu, les profils appartenant à l’audience ciblée rejoignent le parcours. Une instance de ce parcours est créée pour chaque profil. [En savoir plus](#entry-business)
+* Parcours **Événement métier** : ces parcours commencent par un événement métier suivi immédiatement d’une activité **Lecture d’audience**. Lorsque l’événement est reçu, les profils appartenant à l’audience ciblée rejoignent le parcours. Une instance de ce parcours est créée pour chaque profil. [En savoir plus](#entry-business)
 
-* **Lecture d’audience** parcours : ces parcours commencent par un **Lecture d’audience** activité. Lorsque le parcours est exécuté, les profils appartenant à l’audience ciblée rejoignent le parcours. Une instance de ce parcours est créée pour chaque profil. Ces parcours peuvent être récurrents ou ponctuels. [En savoir plus](#entry-read-audience)
+* Parcours **Lecture d’audience** : ces parcours commencent par une activité **Lecture d’audience**. Lorsque le parcours est exécuté, les profils appartenant à l’audience ciblée rejoignent le parcours. Une instance de ce parcours est créée pour chaque profil. Ces parcours peuvent être récurrents ou ponctuels. [En savoir plus](#entry-read-audience)
 
 * Parcours **Qualification de l’audience** : ces parcours commencent par un événement Qualification de l’audience. Ces parcours écoutent les entrées et les sorties des profils dans les audiences. Lorsque cela se produit, le profil associé rejoint le parcours. [En savoir plus](#entry-unitary)
 
@@ -32,13 +32,13 @@ Dans tous les types de parcours, un profil ne peut pas être présent plusieurs 
 
 ## Parcours Événement unitaire et Qualification de l’audience{#entry-unitary}
 
-Dans **Événement unitaire** et **Qualification de l’audience** parcours, vous pouvez activer ou désactiver la rentrée :
+Dans les parcours **Événement unitaire** et **Qualification de l’audience**, vous pouvez activer ou désactiver la reprise :
 
 * Si la reprise est activée, un profil peut rejoindre plusieurs fois un parcours, mais ne peut pas le faire tant qu’il n’a pas complètement quitté l’instance précédente du parcours.
 
 * Si la reprise est désactivée, un profil ne peut pas rejoindre plusieurs fois le même parcours pendant le délai d’expiration global du parcours. Consultez cette [section](../building-journeys/journey-properties.md#global_timeout).
 
-Par défaut, les parcours autorisent la reprise. Lorsque l’option **Autoriser une reprise** est activée, le champ **Période d’attente de reprise** s’affiche. Il vous permet de définir le temps d’attente avant qu’un profil puisse rejoindre à nouveau le parcours. Cela empêche les parcours d’être déclenchés plusieurs fois par erreur pour le même événement. Par défaut, le champ est défini sur 5 minutes. La durée maximale est de 91 jours ([expiration globale](journey-properties.md#global_timeout)).
+Par défaut, les parcours autorisent la reprise. Lorsque l’option **Autoriser une reprise** est activée, le champ **Période d’attente de reprise** s’affiche. Il vous permet de définir le temps d’attente avant qu’un profil puisse rejoindre à nouveau le parcours. Cela empêche les parcours d’être déclenchés plusieurs fois par erreur pour le même événement. Par défaut, le champ est défini sur 5 minutes. La durée maximale est de 91 jours ([temporisation globale](journey-properties.md#global_timeout)).
 
 <!--
 When a journey ends, its status is **[!UICONTROL Closed]**. New individuals can no longer enter the journey. Persons already in the journey automatically exit the journey. 
@@ -57,7 +57,7 @@ Due to the 30-day journey timeout, when journey re-entrance is not allowed, we c
 Business events follow re-entrance rules in the same way as for unitary events. If a journey allows re-entrance, the next business event will be processed.
 -->
 
-Dans **Parcours commerciaux**, pour autoriser plusieurs exécutions d’événements professionnels, activez l’option correspondante dans la variable **[!UICONTROL Exécution]** de la section des propriétés du parcours.
+Dans les **parcours métier**, pour autoriser plusieurs exécutions d’événements métier, activez l’option correspondante dans la section **[!UICONTROL Exécution]** des propriétés du parcours.
 
 ![](assets/business-entry.png)
 
@@ -69,11 +69,11 @@ Pour plus d’informations, consultez cette [section](../event/about-creating-bu
 
 ## Parcours de lecture d’audience {#entry-read-audience}
 
-**Lecture d’audience** Les parcours peuvent être récurrents ou &quot;ponctuels&quot; :
+Les parcours **Lecture d’audience** peuvent être récurrents ou ponctuels :
 
-* Pour les parcours non récurrents/ponctuels : le profil entre une seule fois dans le parcours.
+* Pour les parcours non récurrents/ponctuels : le profil rejoint une seule fois le parcours.
 
-* Pour les parcours récurrents : par défaut, tous les profils appartenant à l’audience rejoignent le parcours à chaque périodicité. Ils doivent terminer le parcours avant de pouvoir entrer à nouveau dans une autre occurrence.
+* Pour les parcours récurrents : par défaut, tous les profils appartenant à l’audience rejoignent le parcours à chaque périodicité. Ils doivent terminer le parcours avant de pouvoir rejoindre à nouveau une autre occurrence.
 
 Deux options sont disponibles pour les parcours Lecture d’audience récurrents :
 
@@ -83,7 +83,7 @@ Deux options sont disponibles pour les parcours Lecture d’audience récurrents
   >
   >Si vous ciblez une [audience de chargement personnalisé](../audience/about-audiences.md#segments-in-journey-optimizer) dans votre parcours, les profils ne sont récupérés que lors de la première périodicité si cette option est activée dans un parcours récurrent, car ces audiences sont fixes.
 
-* **Forcer une nouvelle entrée lors de la périodicité**: cette option permet de faire en sorte que tous les profils encore présents dans le parcours le quittent automatiquement lors de la prochaine exécution. Si la durée de vie de vos profils dans ce parcours peut être supérieure à la fréquence de périodicité (par exemple, si vous utilisez des activités d’attente), n’activez pas cette option pour vous assurer que les profils puissent terminer leur parcours.
+* **Forcer une reprise sur la périodicité** : cette option vous permet de faire en sorte que tous les profils toujours présents dans le parcours le quittent automatiquement lors de l’exécution suivante. Si la durée de vie de vos profils dans ce parcours peut être supérieure à la fréquence de périodicité (par exemple, si vous utilisez des activités d’attente), n’activez pas cette option pour vous assurer que les profils puissent terminer leur parcours.
 
 ![](assets/read-audience-options.png)
 

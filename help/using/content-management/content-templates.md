@@ -1,8 +1,8 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Prise en main des modèles de contenu
-description: Découvrez comment utiliser des modèles de contenu pour réutiliser du contenu dans des campagnes et des parcours Journey Optimizer
+title: Commencer avec les modèles de contenu
+description: Découvrir comment utiliser les modèles de contenu afin de réutiliser du contenu dans des campagnes et des parcours Journey Optimizer
 feature: Templates
 topic: Content Management
 role: User
@@ -11,12 +11,12 @@ exl-id: 327de13a-1c99-4d5e-86cf-8180fb7aaf23
 source-git-commit: 59c675dd2ac94b6967cfb3a93f74b2016a090190
 workflow-type: tm+mt
 source-wordcount: '199'
-ht-degree: 86%
+ht-degree: 100%
 
 ---
 
 
-# Prise en main des modèles de contenu {#content-templates}
+# Commencer avec les modèles de contenu {#content-templates}
 
 Pour accélérer et améliorer le processus de conception, vous pouvez créer des modèles autonomes pour réutiliser facilement du contenu personnalisé dans les campagnes et parcours [!DNL Journey Optimizer].
 
@@ -28,7 +28,7 @@ Par exemple, un utilisateur ou une utilisatrice de votre société est responsab
 
 Vous pouvez également créer et gérer des modèles de contenu à l’aide d’API. Pour plus d’informations à ce sujet, consultez la [documentation relative aux API Journey Optimizer](https://developer.adobe.com/journey-optimizer-apis/references/content/){target="_blank"}.
 
-➡️ [Découvrez comment créer et utiliser des modèles dans cette vidéo.](#video-templates)
+➡️ [Découvrir comment créer et utiliser des modèles dans cette vidéo](#video-templates)
 
 >[!CAUTION]
 >

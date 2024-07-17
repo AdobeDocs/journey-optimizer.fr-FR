@@ -5,10 +5,11 @@ title: Notes de mise à jour
 description: Notes de mise à jour anticipées de Journey Optimizer
 hide: true
 hidefromtoc: true
-source-git-commit: 0571a11eabffeb5e318bebe341a8df18da7db598
+exl-id: 841122b9-04f6-4250-b0a5-e61f470787f7
+source-git-commit: 3a0e0bb7fd958441cf6b07f70a255a16c7692724
 workflow-type: tm+mt
 source-wordcount: '315'
-ht-degree: 73%
+ht-degree: 100%
 
 ---
 
@@ -20,7 +21,7 @@ Les notes de mise à jour ci-dessous peuvent être modifiées sans avertissement
 
 ## Notes de mise à jour anticipées d’avril 2024 {#early-2024}
 
-**Date de publication**: 2 mai 2024
+**Date de publication** : 2 mai 2024
 
 ### Nouvelles fonctionnalités {#early-features}
 
@@ -76,13 +77,13 @@ Cette version apporte les nouvelles fonctionnalités détaillées ci-dessous.
 <table>
 <thead>
 <tr>
-<th><strong>Multimedia Message Service (MMS) - tous les fournisseurs</strong><br/></th>
+<th><strong>MMS (service de messagerie multimédia) - tous les fournisseurs</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Avec le canal SMS, vous pouvez maintenant améliorer votre communication en envoyant des MMS, ce qui vous permet de partager des images, des GIF ou des vidéos avec vos clientes et clients. Initialement disponible uniquement avec Sinch, MMS est désormais également disponible avec Infobip et Twilio.</p>
+<p>Avec le canal SMS, vous pouvez maintenant améliorer votre communication en envoyant des MMS, ce qui vous permet de partager des images, des GIF ou des vidéos avec vos clientes et clients. Initialement disponibles uniquement avec Sinch, les MMS sont désormais également pris en charge par Infobip et Twilio.</p>
 <img src="assets/do-not-localize/mms.gif"/>
 </td>
 </tr>
@@ -92,17 +93,17 @@ Cette version apporte les nouvelles fonctionnalités détaillées ci-dessous.
 <table>
 <thead>
 <tr>
-<th><strong>Amélioration du Concepteur de Parcours et des rapports en direct</strong><br/></th>
+<th><strong>Amélioration du concepteur de parcours et des rapports dynamiques</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Cette version est fournie avec une interface utilisateur de canevas améliorée pour les parcours et offre une expérience utilisateur plus intuitive et efficace. Les activités sont plus claires et présentent plus d’informations sur la zone de travail de parcours avec moins de clics.</p>
+<p>Dans cette version, nous avons amélioré l’interface d’utilisation de la zone de travail de parcours afin d’offrir une expérience client plus intuitive et efficace. Les activités sont plus claires et présentent plus d’informations sur la zone de travail de parcours avec moins de clics.</p>
 <img src="assets/new-canvas3.gif"/>
-<p>Outre la conception améliorée du canevas de parcours, nous proposons la possibilité d’afficher les mesures de création de rapports des dernières 24 heures directement dans le canevas de parcours. </p>
+<p>Outre la conception améliorée de la zone de travail de parcours, vous pouvez désormais afficher les mesures de création de rapports pour les dernières 24 heures directement dans la zone de travail de parcours. </p>
 <img src="assets/new-canvas6bis.png"/>
-<p><strong>Remarque</strong>: ces modifications seront progressivement déployées dans tous les environnements à compter de la version d’avril.</p>
+<p><strong>Note</strong> : ces modifications seront progressivement déployées dans tous les environnements à compter de la version d’avril.</p>
 <p>Pour plus d’informations, consultez la <a href="new-canvas.md">documentation détaillée</a>.</p>
 </td>
 </tr>

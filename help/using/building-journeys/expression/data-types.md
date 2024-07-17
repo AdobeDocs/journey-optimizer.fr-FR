@@ -244,7 +244,7 @@ toDateTime("2023-12-03T15:15:30.123-00:20")
 toDateTime(1560762190189)
 ```
 
-## duration {#duration}
+## durée {#duration}
 
 **Description**
 

@@ -12,7 +12,7 @@ exl-id: 6c21371c-6cbc-4d39-8fe6-39f1b8b13280
 source-git-commit: e5b32629dac368855df09313edaad55e3bc143dc
 workflow-type: tm+mt
 source-wordcount: '1724'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -29,11 +29,11 @@ ht-degree: 92%
 >abstract="Cette section présente les options des critères de sortie. Vous pouvez créer une ou plusieurs règles de critères de sortie pour votre parcours."
 
 
-## Accès aux propriétés d’un parcours {#access-properties}
+## Accéder aux propriétés d’un parcours {#access-properties}
 
-Les propriétés d’un parcours sont centralisées dans le rail de droite. Cette section est affichée par défaut lors de la création d’un parcours. Pour les parcours existants, cliquez sur l’icône en forme de crayon en regard du nom du parcours pour l’ouvrir.
+Les propriétés d’un parcours sont centralisées dans le rail de droite. Cette section est affichée par défaut lors de la création d’un parcours. Pour les parcours existants, cliquez sur l’icône en forme de crayon à côté du nom du parcours pour l’ouvrir.
 
-Dans cette section, vous pouvez définir le nom du parcours, ajouter une description et :
+Depuis cette section, vous pouvez définir le nom du parcours, ajouter une description et :
 
 * gérer [l’entrée et la reprise](#entrance),
 * choisir les [dates](#dates) de début et de fin,
@@ -50,14 +50,14 @@ Dans cette section, vous pouvez définir le nom du parcours, ajouter une descrip
 
 La fonction **Copier les détails techniques** permet de copier les informations techniques relatives au parcours qui seront utiles à l’équipe d’assistance technique pour résoudre les problèmes. Les informations suivantes sont copiées : `JourneyVersion UID`, `OrgID`, `orgName`, `sandboxName`, `lastDeployedBy`, `lastDeployedAt`.
 
-En savoir plus sur les champs techniques liés à un parcours pour un profil donné et comment les utiliser [dans cette page](expression/journey-properties.md).
+Pour plus d’informations sur les champs techniques liés à un parcours pour un profil donné et comment les utiliser, consultez [cette page](expression/journey-properties.md).
 
 
 ## Entrée et reprise {#entrance}
 
-Le mode de saisie des profils est défini au niveau du parcours, dans le volet de configuration de droite. Les paramètres sont décrits ci-dessous.
+Le mode d’entrée des profils est défini au niveau du parcours, dans le volet de configuration de droite. Les paramètres sont décrits ci-dessous.
 
-La gestion des entrées de profil dépend du type de parcours. En savoir plus sur la gestion des entrées et des rentrées de profils, dans [cette page](entry-management.md).
+La gestion des entrées de profil dépend du type de parcours. Pour plus d’informations sur la gestion des entrées et des reprises de profils, consultez [cette page](entry-management.md).
 
 ### Autoriser la reprise  {#allow-re-entrance}
 
@@ -97,7 +97,7 @@ Pour plus d&#39;informations sur la gestion des fuseaux horaires, voir [cette pa
 >[!CONTEXTUALHELP]
 >id="ajo_journey_properties_start_date"
 >title="Date de début"
->abstract="Sélectionnez la date de début dans le parcours. Si aucune date de début n’est spécifiée, elle est automatiquement définie au moment de la publication."
+>abstract="Sélectionnez la date à laquelle l’entrée dans le parcours peut commencer. Si aucune date de début n’est spécifiée, elle est automatiquement définie au moment de la publication."
 
 
 >[!CONTEXTUALHELP]
@@ -107,7 +107,7 @@ Pour plus d&#39;informations sur la gestion des fuseaux horaires, voir [cette pa
 
 Vous pouvez définir une **date de début**. Si vous n’en avez pas spécifié une, elle sera automatiquement définie au moment de la publication.
 
-Vous pouvez également ajouter une **date de fin**. Cela permet aux profils de se fermer automatiquement lorsque la date est atteinte. Si aucune date de fin n’est spécifiée, les profils peuvent rester jusqu’à ce que la variable [délai d’expiration du parcours global](#global_timeout) (ce qui correspond généralement à 91 jours). La seule exception concerne les parcours de lecture d’audience récurrents avec l’option **Forcer une reprise sur la périodicité** activée, qui se terminent à la date de début de l’occurrence suivante.
+Vous pouvez également ajouter une **date de fin**. Cela permet aux profils de se fermer automatiquement lorsque la date est atteinte. Si aucune date de fin n’est spécifiée, les profils peuvent rester jusqu’à la [temporisation globale du parcours](#global_timeout) (ce qui correspond généralement à 91 jours). La seule exception concerne les parcours de lecture d’audience récurrents avec l’option **Forcer une reprise sur la périodicité** activée, qui se terminent à la date de début de l’occurrence suivante.
 
 ## Temporisation {#timeout}
 
@@ -131,7 +131,7 @@ Les parcours utilisent également une temporisation globale comme décrit ci-des
 
 En plus de la [temporisation](#timeout_and_error) utilisée dans les activités de parcours, une temporisation globale de parcours est appliquée. Elle ne s’affiche pas dans l’interface et ne peut pas être modifiée.
 
-Cette temporisation globale met fin à la progression des personnes dans le parcours **91 jours** après leur entrée. En d&#39;autres termes, la durée du parcours d&#39;un individu ne peut pas excéder 91 jours. Après cette période de temporisation, les données de cette personne sont supprimées. Les personnes qui sont encore actives dans le parcours au terme de cette période de temporisation seront arrêtées et ne seront pas prises en compte dans le cadre du reporting. Vous pouvez donc voir plus de personnes rejoindre le parcours que le quitter.
+Cette temporisation globale met fin à la progression des personnes dans le parcours **91 jours** après leur entrée. En d’autres termes, la durée du parcours d’une personne ne peut pas excéder 91 jours. Après cette période de temporisation, les données de cette personne sont supprimées. Les personnes qui sont encore actives dans le parcours au terme de cette période de temporisation seront arrêtées et ne seront pas prises en compte dans le cadre du reporting. Vous pouvez donc voir plus de personnes rejoindre le parcours que le quitter.
 
 Compte tenu de la temporisation de 91 jours du parcours, lorsque la reprise de celui-ci n’est pas autorisée, nous sommes dans l’impossibilité de garantir que le blocage de la reprise fonctionnera plus de 91 jours. En effet, étant donné que nous supprimons toutes les informations sur les personnes qui ont rejoint le parcours 91 jours après leur entrée, rien ne nous permet de savoir qu’une personne l’a déjà rejoint il y a plus de 91 jours.
 

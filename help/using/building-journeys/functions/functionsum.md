@@ -30,7 +30,7 @@ Agrégation
 
 * listInteger
 * listDecimal
-* duration
+* durée
 * Entier
 * Décimal
 

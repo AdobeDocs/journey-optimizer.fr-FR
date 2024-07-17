@@ -34,7 +34,7 @@ Agrégation
 * listDateTime
 * listDateTimeOnly
 * listDateOnly
-* duration
+* durée
 * Entier
 * Décimal
 * dateTime

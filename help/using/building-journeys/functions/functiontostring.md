@@ -32,7 +32,7 @@ Conversion
 |--- |--- |
 | dateTime | Convertit la date au format UTC |
 | dateTimeOnly | Convertit la date au format UTC |
-| duration | Convertit le paramètre dans le nombre de millisecondes correspondant sous forme de chaîne |
+| durée | Convertit le paramètre dans le nombre de millisecondes correspondant sous forme de chaîne |
 | Entier | Convertit la valeur en représentation sous forme de chaîne (1 devient « 1 »). |
 | Décimal | Convertit la valeur en représentation sous forme de chaîne (1,5 devient « 1,5 »). |
 | Booléen | Convertit la valeur booléenne en chaîne « true » si true, en chaîne « false » si false |

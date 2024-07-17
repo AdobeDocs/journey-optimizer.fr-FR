@@ -11,7 +11,7 @@ exl-id: 26ad12c3-0a2b-4f47-8f04-d25a6f037350
 source-git-commit: 619bcbc16b4117c29c482c85323603a4281298e0
 workflow-type: tm+mt
 source-wordcount: '1486'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -29,7 +29,7 @@ Assurez-vous que les champs utilisés dans vos requêtes ont des valeurs associ�
 
 >[!NOTE]
 >
->À des fins de dépannage, nous vous recommandons d’utiliser journeyVersionID plutôt que journeyVersionName lors de l’interrogation de parcours. En savoir plus sur les attributs de propriétés de parcours [dans cette section](../building-journeys/expression/journey-properties.md#journey-propertoes-fields).
+>À des fins de dépannage, nous vous recommandons d’utiliser journeyVersionID au lieu de journeyVersionName lors de l’interrogation de parcours. Pour plus d’informations sur les attributs des propriétés de parcours, consultez [cette section](../building-journeys/expression/journey-properties.md#journey-propertoes-fields).
 
 ## Cas d’utilisation de base/requêtes courantes {#common-queries}
 

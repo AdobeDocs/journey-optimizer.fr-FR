@@ -11,19 +11,19 @@ exl-id: c5bae757-a109-45f8-bf8d-182044a73cca
 source-git-commit: 4de37520b3ea7842d7f385f38c07cdf4984a5939
 workflow-type: tm+mt
 source-wordcount: '1062'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
 # Gérer le processus d’opt-out {#consent}
 
-La possibilité pour les destinataires de se désabonner de la réception des communications d’une marque est une exigence légale, ainsi que de veiller au respect de leur choix. Le non-respect de ces réglementations entraîne des risques juridiques pour votre marque. Cela vous aide à éviter d&#39;envoyer des communications non sollicitées à vos destinataires, ce qui pourrait les faire marquer vos messages comme des courriers indésirables et nuire à votre réputation.
+La possibilité pour les destinataires de se désabonner de la réception des communications d’une marque est une exigence légale, ainsi que de veiller au respect de leur choix. Le non-respect de ces réglementations entraîne des risques juridiques pour votre marque. Cela vous aide à éviter d’envoyer des communications non sollicitées à vos personnes destinataires, ce qui pourrait les faire marquer vos messages comme des courriers indésirables et nuire à votre réputation.
 
 Pour en savoir plus sur la législation applicable, consultez la [documentation Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/privacy/regulations/overview.html?lang=fr#regulations){target="_blank"}.
 
 ## Gérer les désabonnements dans les parcours et les campagnes {#opt-out-ajo}
 
-Lors de l’envoi de messages à partir des parcours ou des campagnes, vous devez toujours vous assurer que les client(e)s peuvent annuler l’abonnement à de futures communications. Une fois désinscrits, les profils sont automatiquement supprimés de l’audience des futurs messages marketing.
+Lors de l’envoi de messages à partir des parcours ou des campagnes, vous devez toujours vous assurer que les clientes et clients peuvent se désabonner des futures communications. Une fois désinscrits, les profils sont automatiquement supprimés de l’audience des futurs messages marketing.
 
 Alors que **[!DNL Journey Optimizer]** offre des moyens permettant de gérer les désinscriptions des e-mails et des SMS, les notifications push ne nécessitent aucune action de votre part, car les destinataires peuvent annuler leur abonnement depuis leurs appareils. Par exemple, lors du téléchargement ou de l’utilisation de votre application, ils peuvent choisir d’arrêter les notifications. De même, ils peuvent modifier les paramètres de notification par le biais du système d’exploitation mobile.
 

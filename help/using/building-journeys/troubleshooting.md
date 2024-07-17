@@ -12,13 +12,13 @@ exl-id: 03fbc4f4-b0a8-46d5-91f9-620685b11493
 source-git-commit: 135dd7528e87a6fde7e148745ef2f49104809bc1
 workflow-type: tm+mt
 source-wordcount: '1019'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
-# Dépannage de votre parcours {#troubleshooting}
+# Résoudre les problèmes de votre parcours {#troubleshooting}
 
-Dans cette section, découvrez comment résoudre les problèmes liés aux parcours avant de les tester ou de les publier. Il est possible d&#39;effectuer les vérifications répertoriées ci-dessous lorsque le parcours est en mode test ou actif. Il est recommandé de les réaliser en mode test, puis d&#39;effectuer la publication. Voir [cette page](../building-journeys/testing-the-journey.md).
+Cette section décrit comment résoudre les problèmes liés aux parcours avant de les tester ou de les publier. Il est possible d&#39;effectuer les vérifications répertoriées ci-dessous lorsque le parcours est en mode test ou actif. Il est recommandé de les réaliser en mode test, puis d&#39;effectuer la publication. Voir [cette page](../building-journeys/testing-the-journey.md).
 
 ## Rechercher des erreurs avant le test {#checking-for-errors-before-testing}
 
@@ -32,7 +32,7 @@ Par exemple, dans la zone de travail, lorsque deux activités sont déconnectée
 
 ![](assets/canvas-disconnected.png)
 
-En regard du bouton bascule **[!UICONTROL Test]** et du bouton **[!UICONTROL Publier]**, un signe d&#39;avertissement peut s&#39;afficher. Il indique les erreurs détectées par le système et empêche l&#39;activation du mode test ou la publication du parcours. La plupart du temps, les erreurs détectées par le système sont liées à des dysfonctionnements visibles relatifs aux activités. Cependant, elles sont parfois associées à d&#39;autres problèmes. Dans ce cas, vous pouvez les afficher en essayant d&#39;identifier le problème à l&#39;aide de la description de l&#39;erreur. Si vous ne pouvez pas identifier le problème, vous pouvez copier les détails et les envoyer à l’administrateur ou à l’assistance technique. Notez que les erreurs qui bloquent le test et celles qui bloquent la publication sont similaires.
+En regard du bouton bascule **[!UICONTROL Test]** et du bouton **[!UICONTROL Publier]**, un signe d&#39;avertissement peut s&#39;afficher. Il indique les erreurs détectées par le système et empêche l&#39;activation du mode test ou la publication du parcours. La plupart du temps, les erreurs détectées par le système sont liées à des dysfonctionnements visibles relatifs aux activités. Cependant, elles sont parfois associées à d&#39;autres problèmes. Dans ce cas, vous pouvez les afficher en essayant d&#39;identifier le problème à l&#39;aide de la description de l&#39;erreur. Si vous ne parvenez pas à identifier le problème, vous pouvez copier les détails et les envoyer à l’administrateur ou à l’administratrice ou à l’assistance technique. Notez que les erreurs qui bloquent le test et celles qui bloquent la publication sont similaires.
 
 Le système détecte deux types de problèmes : les erreurs et les avertissements. Les erreurs bloquent la publication et l&#39;activation des tests. Les avertissements indiquent des problèmes potentiels qui ne bloquent pas l&#39;activation ou la publication des tests. Vous verrez une description du problème et un identifiant de journal des problèmes du type ERR_XXX_XXX. Ce format facilite l&#39;identification du problème par l&#39;assistance technique.
 
@@ -50,7 +50,7 @@ Le point de départ d&#39;un parcours est toujours un événement. Il est possib
 
 Vous pouvez ainsi vérifier si l&#39;appel d&#39;API émis via ces outils est correctement envoyé ou non. Si vous obtenez une erreur en retour, cela signifie que votre appel a rencontré un problème. Vérifiez à nouveau la payload, l&#39;en-tête (et en particulier l&#39;identifiant d&#39;organisation) et l&#39;URL de destination. Vous pouvez demander à votre administrateur l&#39;URL appropriée pour l&#39;accès.
 
-Les événements ne sont pas directement transmis de la source aux parcours. En effet, les parcours dépendent des API d’ingestion en flux continu Adobe Experience Platform. En cas de problèmes relatifs aux événements, vous pouvez donc consulter la [documentation d’Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/troubleshooting.html?lang=fr){target="_blank"} pour la résolution des problèmes concernant les API d’ingestion en flux continu.
+Les événements ne sont pas directement transmis de la source aux parcours. En effet, les parcours s’appuient sur les API d’ingestion en flux continu d’Adobe Experience Platform. En cas de problèmes relatifs aux événements, vous pouvez donc consulter la [documentation d’Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/troubleshooting.html?lang=fr){target="_blank"} pour la résolution des problèmes concernant les API d’ingestion en flux continu.
 
 ## Vérifier si les personnes rejoignent le parcours {#checking-if-people-enter-the-journey}
 
@@ -88,4 +88,4 @@ Si des personnes suivent le bon chemin dans le parcours sans recevoir les messag
 * [!DNL Journey Optimizer] a correctement pris en compte la demande d&#39;envoi. Les utilisateurs professionnels peuvent accéder au message censé être envoyé et vérifier si l’heure de la dernière exécution correspond à l’heure d’exécution de votre parcours. Ils peuvent également vérifier les derniers appels/événements d’API reçus.
 * [!DNL Journey Optimizer] a envoyé le message avec succès. Vérifiez les rapports sur les parcours pour vous assurer qu’il n’y a aucune erreur.
 
-Dans le cas d’un message envoyé par le biais d’une action personnalisée, la seule chose qui peut être vérifiée pendant le test de parcours est le fait que l’appel du système de l’action personnalisée entraîne une erreur ou non. Si l’appel au système externe associé à l’action personnalisée n’entraîne pas d’erreur, mais n’entraîne pas l’envoi d’un message, certaines vérifications doivent être effectuées du côté du système externe.
+Dans le cas d’un message envoyé par le biais d’une action personnalisée, le seul élément vérifiable pendant le test du parcours est l’apparition ou non d’une erreur suite à l’appel du système à l’aide d’une action personnalisée. Si l’appel au système externe associé à l’action personnalisée n’entraîne pas d’erreur, mais ne déclenche pas l’envoi d’un message, certaines vérifications doivent être effectuées du côté du système externe.

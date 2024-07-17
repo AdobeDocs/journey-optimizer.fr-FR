@@ -13,7 +13,7 @@ badge: label="Disponibilité limitée" type="Informative"
 source-git-commit: 59dee15d2952438a074db57a94b3d896b38cd4f3
 workflow-type: tm+mt
 source-wordcount: '615'
-ht-degree: 78%
+ht-degree: 100%
 
 ---
 
@@ -21,9 +21,9 @@ ht-degree: 78%
 
 >[!AVAILABILITY]
 >
->Le contenu multilingue est actuellement disponible uniquement pour un ensemble d’organisations (disponibilité limitée). Pour en bénéficier, contactez votre représentant ou représentante Adobe.
+>Le contenu multilingue n’est actuellement disponible que pour un ensemble d’organisations (disponibilité limitée). Pour en bénéficier, contactez votre représentant ou représentante Adobe.
 
-Grâce au flux manuel, vous pouvez traduire facilement votre contenu directement dans votre campagne et parcours par email, notification push ou SMS, ce qui vous permet de disposer d’options de contrôle et de personnalisation précises pour vos messages multilingues. De plus, vous pouvez facilement importer du contenu multilingue préexistant à l’aide de l’option Importer un HTML.
+Grâce au flux manuel, vous pouvez traduire facilement votre contenu directement dans votre parcours et votre campagne par e-mail, notification push ou SMS, ce qui vous permet de disposer d’options de contrôle et de personnalisation précises pour vos messages multilingues. De plus, vous pouvez facilement importer du contenu multilingue préexistant à l’aide de l’option Importer un HTML.
 
 Pour créer du contenu multilingue à l’aide de la traduction manuelle, procédez comme suit :
 
@@ -31,13 +31,13 @@ Pour créer du contenu multilingue à l’aide de la traduction manuelle, procé
 
 1. [Créez des paramètres de langue](#create-language-settings).
 
-1. [Créer un contenu multilingue](#create-a-multilingual-campaign).
+1. [Créez un contenu multilingue](#create-a-multilingual-campaign).
 
 ## Créer un paramètre régional {#create-locale}
 
 Lors de la configuration des paramètres de langue, comme décrit dans la section [Créer vos paramètres de langue](#language-settings), si un paramètre régional spécifique n’est pas disponible pour votre contenu multilingue, vous avez la possibilité de créer autant de paramètres régionaux que nécessaire à l’aide du menu **[!UICONTROL Traduction]**.
 
-1. Dans la **[!UICONTROL Gestion de contenu]** menu, accès **[!UICONTROL Traduction]**.
+1. Dans le menu **[!UICONTROL Gestion de contenu]**, accédez à **[!UICONTROL Traduction]**.
 
 1. Dans l’onglet **[!UICONTROL Dictionnaire des paramètres régionaux]**, cliquez sur **[!UICONTROL Ajouter un paramètre régional]**.
 
@@ -96,9 +96,9 @@ Dans cette section, vous pouvez définir votre langue principale et les paramèt
 
 ## Créer un contenu multilingue {#create-multilingual-campaign}
 
-Après avoir configuré votre contenu multilingue, vous êtes prêt à concevoir votre campagne ou votre parcours et à personnaliser le contenu pour chacun des paramètres régionaux sélectionnés.
+Après avoir configuré votre contenu multilingue, vous pouvez concevoir votre campagne ou votre parcours et personnaliser le contenu de chacun des paramètres régionaux sélectionnés.
 
-1. Commencez par créer et configurer votre email, SMS ou notification push [campaign](../campaigns/create-campaign.md) ou [parcours](../building-journeys/journeys-message.md) selon vos besoins.
+1. Commencez par créer et configurer votre [parcours](../building-journeys/journeys-message.md) ou [campagne](../campaigns/create-campaign.md) d’e-mails, de SMS ou de notifications push selon vos besoins.
 
    >[!AVAILABILITY]
    >
@@ -138,7 +138,7 @@ Après avoir configuré votre contenu multilingue, vous êtes prêt à concevoir
 
    ![](assets/multilingual-campaign-8.png)
 
-Vous pouvez maintenant activer votre campagne ou votre parcours. Une fois envoyé, vous pouvez mesurer l’impact de votre parcours ou campagne multilingue dans les rapports.
+Vous pouvez maintenant activer votre campagne ou votre parcours. Après l’envoi, vous pouvez mesurer l’impact de votre parcours ou de votre campagne multilingue dans les rapports.
 
 <!--
 # Create a multilingual journey {#create-multilingual-journey}

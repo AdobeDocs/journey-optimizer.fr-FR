@@ -11,13 +11,13 @@ exl-id: 42aec986-2352-456a-a725-7f1585ae01f8
 source-git-commit: 619bcbc16b4117c29c482c85323603a4281298e0
 workflow-type: tm+mt
 source-wordcount: '620'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
 # Champs communs des événements journeysteps {#sharing-common-fields}
 
-Ce groupe de champs sera partagé par les événements suivants : **journeyStepEvent** et **journeyStepProfileEvent**.
+Ce groupe de champs sera partagé par les événements suivants : **journeyStepEvent** et **journeyStepProfileEvent**.
 
 Il s’agit des champs XDM communs que [!DNL Journey Optimizer] envoie à Adobe Experience Platform. Des champs communs seront envoyés pour chaque étape traitée dans un parcours. Des champs plus spécifiques sont utilisés pour les actions et enrichissements personnalisés.
 
@@ -26,7 +26,7 @@ Certains de ces champs ne sont disponibles que dans des modèles de traitement s
 
 >[!NOTE]
 >
->En savoir plus sur les attributs de propriétés de parcours [dans cette section](../building-journeys/expression/journey-properties.md#journey-propertoes-fields).
+>Pour plus d’informations sur les attributs des propriétés de parcours, consultez [cette section](../building-journeys/expression/journey-properties.md#journey-propertoes-fields).
 
 
 ## entrance {#entrance-field}

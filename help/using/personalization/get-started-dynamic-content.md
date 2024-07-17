@@ -10,7 +10,7 @@ level: Intermediate
 keywords: expression, éditeur, prise en main, conditions, commencer
 exl-id: be9a3f83-8e22-4efa-9d48-37bf554018fa
 source-git-commit: 8a1ec5acef067e3e1d971deaa4b10cffa6294d75
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '148'
 ht-degree: 100%
 

@@ -11,7 +11,7 @@ exl-id: 7131a953-baca-4e7c-a8df-97c0bd6ac567
 source-git-commit: c42fc1069e11b8e34b7477fc26ed8a6b4ef95ac7
 workflow-type: tm+mt
 source-wordcount: '315'
-ht-degree: 82%
+ht-degree: 100%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 82%
 >abstract="Créez et gérez des fragments autonomes pour rendre votre contenu réutilisable sur plusieurs parcours et campagnes."
 >additional-url="https://experienceleague.adobe.com/fr/docs/journey-optimizer/using/content-management/fragments/create-fragments" text="Créer des fragments"
 
-Un fragment est un composant réutilisable pouvant être référencé dans un ou plusieurs e-mails dans des campagnes et des parcours [!DNL Journey Optimizer]. Cette fonctionnalité permet de précréer plusieurs blocs de contenu personnalisés qui peuvent être utilisés par des personnes chargées du marketing pour assembler rapidement les contenus d’e-mail dans un processus de conception amélioré.
+Un fragment est un composant réutilisable pouvant être référencé dans un ou plusieurs e-mails dans des campagnes et des parcours [!DNL Journey Optimizer]. Cette fonctionnalité permet de créer en avance plusieurs blocs de contenu personnalisés qui peuvent être utilisés par des personnes chargées du marketing pour assembler rapidement les contenus d’e-mail dans un processus de conception amélioré.
 
 ![](../rn/assets/do-not-localize/fragments.gif)
 
@@ -36,7 +36,7 @@ Pour optimiser l’utilisation des fragments, procédez comme suit :
 
 ## Avant de commencer {#fragment-prerequisites}
 
-Pour créer, modifier, archiver et publier des fragments, vous avez besoin de l’option **[!DNL Manage library items]** et **[Fragment Publish]** autorisations incluses dans la variable **[!DNL Content Library Manager]** profil de produit. [En savoir plus](../administration/ootb-product-profiles.md#content-library-manager)
+Pour créer, modifier, archiver et publier des fragments, vous avez besoin des autorisations **[!DNL Manage library items]** et **[Publier le fragment]** incluses dans le profil de produit **[!DNL Content Library Manager]**. [En savoir plus](../administration/ootb-product-profiles.md#content-library-manager)
 
 Dans cette version, les restrictions suivantes s’appliquent :
 
@@ -50,16 +50,16 @@ Deux types de fragments sont disponibles :
 * Les **Fragments visuels** sont des blocs visuels prédéfinis que vous pouvez réutiliser dans plusieurs diffusions e-mail à l’aide du [Concepteur d’e-mail](../email/get-started-email-design.md)ou dans des [modèles de contenu](../email/use-email-templates.md).
 * Les **Fragments d’expression** sont des expressions prédéfinies disponibles à partir d’une entrée dédiée dans l’[éditeur de personnalisation](../personalization/personalization-build-expressions.md).
 
-Tous les fragments créés sont accessibles à partir du **[!UICONTROL Gestion de contenu]** > **[!UICONTROL Fragments]**  menu de gauche. [Découvrez comment gérer les fragments](../content-management/manage-fragments.md)
+Tous les fragments sont accessibles à partir du menu de gauche **[!UICONTROL Gestion de contenu]** > **[!UICONTROL Fragments]**. [Découvrir comment gérer les fragments](../content-management/manage-fragments.md)
 
 ![](assets/fragment-list.png)
 
 ## Vidéo pratique {#video-fragments}
 
-Découvrez comment gérer, créer et utiliser **fragments visuels** in [!DNL Journey Optimizer].
+Découvrez comment gérer, créer et utiliser des **fragments visuels** dans [!DNL Journey Optimizer].
 
 >[!VIDEO](https://video.tv.adobe.com/v/3419932/?quality=12)
 
-Découvrez comment gérer, créer et utiliser **fragment d’expression** in [!DNL Journey Optimizer].
+Découvrez comment gérer, créer et utiliser des **fragments d’expression** dans [!DNL Journey Optimizer].
 
 >[!VIDEO](https://video.tv.adobe.com/v/3424587/?quality=12)

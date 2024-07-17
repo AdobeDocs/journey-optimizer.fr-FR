@@ -11,7 +11,7 @@ keywords: paramètres, e-mail, configuration, sous-domaine
 badge: label="Disponibilité limitée"
 exl-id: 1e004a76-5d6d-43a1-b198-5c9b41f5332c
 source-git-commit: 2cd62c97bef156d0c1e7dda8a962be789f8131de
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '834'
 ht-degree: 100%
 

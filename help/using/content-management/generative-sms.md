@@ -12,8 +12,8 @@ hide: true
 hidefromtoc: true
 exl-id: 5fd1cc3a-c023-4e8e-bfac-9a86bd33bbb3
 source-git-commit: b62f8954e09f50896ad5e70784c5a93943617e85
-workflow-type: ht
-source-wordcount: '889'
+workflow-type: tm+mt
+source-wordcount: '873'
 ht-degree: 100%
 
 ---
@@ -56,17 +56,17 @@ Explorez les onglets ci-dessous pour savoir comment utiliser l’assistant IA d
 
 1. Accédez au menu **[!UICONTROL Afficher l’assistant IA]**.
 
-   ![](assets/sms-genai-1.png){zoomable=&quot;yes&quot;}
+   ![](assets/sms-genai-1.png){zoomable="yes"}
 
 1. Activez l’option **[!UICONTROL Utiliser le contenu original]** de l’assistant IA afin de personnaliser le nouveau contenu en fonction du contenu de votre campagne, du nom de la campagne et de l’audience sélectionnée.
 
    Votre invite doit toujours être liée à un contexte spécifique.
 
-1. Ajustez le contenu en décrivant ce que vous souhaitez générer dans le champ **[!UICONTROL Invite]**.
+1. Affinez le contenu en décrivant ce que vous souhaitez générer dans le champ **[!UICONTROL Invite]**.
 
    Si vous avez besoin d’aide pour concevoir votre invite, accédez à la **[!UICONTROL Bibliothèque d’invites]** qui offre un large éventail d’idées d’invites pour améliorer vos campagnes.
 
-   ![](assets/sms-genai-2.png){zoomable=&quot;yes&quot;}
+   ![](assets/sms-genai-2.png){zoomable="yes"}
 
 1. Sélectionnez **[!UICONTROL Charger une ressource de marque]** pour ajouter toute ressource de marque incluant du contenu pouvant fournir du contexte supplémentaire à l’assistant IA.
 
@@ -77,11 +77,11 @@ Explorez les onglets ci-dessous pour savoir comment utiliser l’assistant IA d
    * **[!UICONTROL Ton]** : assurez-vous que le texte est adapté à votre audience et à votre objectif.
    * **[!UICONTROL Longueur]** : sélectionnez la longueur de votre contenu à l’aide du curseur de plage.
 
-   ![](assets/sms-genai-3.png){zoomable=&quot;yes&quot;}
+   ![](assets/sms-genai-3.png){zoomable="yes"}
 
 1. Lorsque votre texte descriptif est prêt, cliquez sur **[!UICONTROL Générer]**.
 
-1. Parcourez les **[!UICONTROL Variations]** générées et cliquez sur **[!UICONTROL Aperçu]** pour afficher une version plein écran de la variation sélectionnée.
+1. Parcourez les **[!UICONTROL variations]** générées et cliquez sur **[!UICONTROL Prévisualisation]** pour afficher une version plein écran de la variation sélectionnée.
 
 1. Accédez à l’option **[!UICONTROL Affiner]** dans la fenêtre **[!UICONTROL Aperçu]** pour accéder à d’autres fonctionnalités de personnalisation et affiner votre variation en fonction de vos préférences :
 
@@ -91,7 +91,7 @@ Explorez les onglets ci-dessous pour savoir comment utiliser l’assistant IA d
 
    * **[!UICONTROL Utiliser un langage simplifié]** : utilisez l’assistant IA pour simplifier votre langage, garantissant ainsi clarté et accessibilité pour une audience plus large.
 
-   ![](assets/sms-genai-4.png){zoomable=&quot;yes&quot;}
+   ![](assets/sms-genai-4.png){zoomable="yes"}
 
 1. Cliquez sur **[!UICONTROL Sélectionner]** une fois que vous avez trouvé le contenu approprié.
 
@@ -115,9 +115,9 @@ Lorsque vous avez défini le contenu, l’audience et le planning, vous pouvez p
 
 1. Accédez au menu **[!UICONTROL Modifier le texte avec l’assistant IA]** en regard du champ **[!UICONTROL Message]**.
 
-   ![](assets/sms-text-genai-1.png){zoomable=&quot;yes&quot;}
+   ![](assets/sms-text-genai-1.png){zoomable="yes"}
 
-1. Activez l’option **[!UICONTROL Utiliser le contenu de référence]** de l’assistant IA afin de personnaliser le nouveau contenu en fonction du contenu, du nom de votre campagne et de l’audience sélectionnée.
+1. Activez l’option **[!UICONTROL Utiliser le contenu de référence]** de l’assistant IA afin de personnaliser le nouveau contenu en fonction du contenu de votre campagne, du nom de la campagne et de l’audience sélectionnée.
 
    Votre invite doit toujours être liée à un contexte spécifique.
 
@@ -125,7 +125,7 @@ Lorsque vous avez défini le contenu, l’audience et le planning, vous pouvez p
 
    Si vous avez besoin d’aide pour concevoir votre invite, accédez à la **[!UICONTROL Bibliothèque d’invites]** qui offre un large éventail d’idées d’invites pour améliorer vos campagnes.
 
-   ![](assets/sms-text-genai-1.png){zoomable=&quot;yes&quot;}
+   ![](assets/sms-text-genai-1.png){zoomable="yes"}
 
 1. Sélectionnez **[!UICONTROL Charger une ressource de marque]** pour ajouter toute ressource de marque incluant du contenu pouvant fournir du contexte supplémentaire à l’assistant IA.
 
@@ -136,11 +136,11 @@ Lorsque vous avez défini le contenu, l’audience et le planning, vous pouvez p
    * **[!UICONTROL Ton]** : assurez-vous que le texte est adapté à votre audience et à votre objectif.
    * **[!UICONTROL Longueur]** : sélectionnez la longueur de votre contenu à l’aide du curseur de plage.
 
-   ![](assets/sms-text-genai-3.png){zoomable=&quot;yes&quot;}
+   ![](assets/sms-text-genai-3.png){zoomable="yes"}
 
 1. Lorsque votre texte descriptif est prêt, cliquez sur **[!UICONTROL Générer]**.
 
-1. Parcourez les **[!UICONTROL Variations]** générées et cliquez sur **[!UICONTROL Aperçu]** pour afficher une version plein écran de la variation sélectionnée.
+1. Parcourez les **[!UICONTROL variations]** générées et cliquez sur **[!UICONTROL Prévisualisation]** pour afficher une version plein écran de la variation sélectionnée.
 
 1. Accédez à l’option **[!UICONTROL Affiner]** dans la fenêtre **[!UICONTROL Aperçu]** pour accéder à d’autres fonctionnalités de personnalisation et affiner votre variation en fonction de vos préférences :
 
@@ -150,7 +150,7 @@ Lorsque vous avez défini le contenu, l’audience et le planning, vous pouvez p
 
    * **[!UICONTROL Utiliser un langage simplifié]** : utilisez l’assistant IA pour simplifier votre langage, garantissant ainsi clarté et accessibilité pour une audience plus large.
 
-   ![](assets/sms-text-genai-4.png){zoomable=&quot;yes&quot;}
+   ![](assets/sms-text-genai-4.png){zoomable="yes"}
 
 1. Cliquez sur **[!UICONTROL Sélectionner]** une fois que vous avez trouvé le contenu approprié.
 

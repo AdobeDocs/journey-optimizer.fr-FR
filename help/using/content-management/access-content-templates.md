@@ -1,20 +1,20 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Accès et gestion des modèles de contenu
-description: Découvrez comment accéder aux modèles de contenu et les gérer
+title: Accéder aux modèles de contenu et les gérer
+description: Découvrir comment accéder aux modèles de contenu et les gérer
 topic: Content Management
 role: User
 level: Beginner
 source-git-commit: 59c675dd2ac94b6967cfb3a93f74b2016a090190
 workflow-type: tm+mt
 source-wordcount: '240'
-ht-degree: 76%
+ht-degree: 100%
 
 ---
 
 
-# Accès et gestion des modèles de contenu {#access-manage-templates}
+# Accéder aux modèles de contenu et les gérer {#access-manage-templates}
 
 ## Accéder aux modèles de contenu {#access}
 
@@ -36,7 +36,7 @@ Vous pouvez également choisir d’afficher uniquement les éléments que vous a
 
 ## Modifier et supprimer des modèles de contenu {#edit}
 
-* Pour modifier le contenu d’un modèle, cliquez sur l’élément de votre choix dans la liste et apportez les modifications souhaitées. Vous pouvez également modifier les propriétés du modèle de contenu en cliquant sur le bouton d’édition en regard du nom du modèle.
+* Pour modifier le contenu d’un modèle, cliquez sur l’élément de votre choix dans la liste, puis effectuez les modifications souhaitées. Vous pouvez également modifier les propriétés du modèle de contenu en cliquant sur le bouton de modification en regard du nom du modèle.
 
   ![](assets/content-template-edit.png)
 

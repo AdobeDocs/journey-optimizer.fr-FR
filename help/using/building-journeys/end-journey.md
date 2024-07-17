@@ -9,7 +9,7 @@ level: Intermediate
 keywords: reprise, parcours, fin, dynamique, arrêt
 exl-id: ea1ecbb0-12b5-44e8-8e11-6d3b8bff06aa
 source-git-commit: d66596f7416f040c99fe8a9b4ea1b887e4ad4fa0
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '662'
 ht-degree: 100%
 

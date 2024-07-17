@@ -2,7 +2,7 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Utiliser des modèles de contenu
-description: Découvrez comment utiliser des modèles de contenu lors de la création de contenu pour n’importe quel canal (sauf web) dans [!DNL Journey Optimizer]
+description: Découvrir comment utiliser des modèles de contenu lors de la création de contenu pour n’importe quel canal (sauf web) dans  [!DNL Journey Optimizer]
 feature: Templates
 topic: Content Management
 role: User
@@ -10,7 +10,7 @@ level: Beginner
 source-git-commit: 59c675dd2ac94b6967cfb3a93f74b2016a090190
 workflow-type: tm+mt
 source-wordcount: '177'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 

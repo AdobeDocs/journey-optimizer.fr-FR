@@ -7,9 +7,9 @@ role: Developer
 level: Experienced
 exl-id: e5ae8b4e-7cd2-4a1d-b2c0-8dafd5c4cdfd
 source-git-commit: 75dcd6d4a36b09809cdf4db3a0ae3ba3a1cb35b5
-workflow-type: ht
-source-wordcount: '783'
-ht-degree: 100%
+workflow-type: tm+mt
+source-wordcount: '786'
+ht-degree: 98%
 
 ---
 
@@ -35,7 +35,7 @@ Si vous disposez d’une implémentation côté client, vous pouvez utiliser l�
 
   >[!NOTE]
   >
-  >Des exemples d’implémentation pour des cas d’utilisation mobiles sont disponibles dans l’[application iOS](https://github.com/adobe/aepsdk-messaging-ios/tree/main/TestApps/MessagingDemoAppSwiftUI){target="_blank"} and [Android app](https://github.com/adobe/aepsdk-messaging-android/tree/main/code/testapp){target="_blank"}.
+  >Des exemples de mise en oeuvre pour des cas pratiques mobiles sont disponibles pour [l’application iOS](https://github.com/adobe/aepsdk-messaging-ios/tree/main/TestApps/MessagingDemoAppSwiftUI){target="_blank"} et [l’application Android](https://github.com/adobe/aepsdk-messaging-android/tree/main/code/testapp){target="_blank"}.
 
 ### Fonctionnement - SDK Web {#client-side-how}
 

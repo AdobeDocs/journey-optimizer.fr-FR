@@ -2,7 +2,7 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Utilisation de l’éditeur d’expression avancé
-description: Découvrez comment créer des expressions avancées
+description: Découvrir comment créer des expressions avancées
 feature: Journeys
 role: Data Engineer, Architect
 level: Experienced

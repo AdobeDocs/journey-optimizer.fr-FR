@@ -10,7 +10,7 @@ level: Intermediate
 keywords: expression, éditeur, à propos, commencer
 exl-id: 1ac2a376-a3a8-41ae-9b04-37886697f0fc
 source-git-commit: 8a1ec5acef067e3e1d971deaa4b10cffa6294d75
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '453'
 ht-degree: 100%
 

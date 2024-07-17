@@ -12,7 +12,7 @@ exl-id: 8c00d783-54a3-45d9-bd8f-4dc58804d922
 source-git-commit: 4de37520b3ea7842d7f385f38c07cdf4984a5939
 workflow-type: tm+mt
 source-wordcount: '979'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -88,7 +88,7 @@ Tous les utilisateurs inscrits à votre événement recevront l’e-mail de conf
 
 <!--The event registration's subscription list tracks the profiles who registered and you can send them targeted event updates.-->
 
-## Page d’entrée d’exclusion {#opt-out}
+## Page de destination d’opt-out {#opt-out}
 
 Pour permettre aux destinataires dʼannuler lʼabonnement à vos communications, vous pouvez inclure un lien vers une page de destination d&#39;opt-out dans vos e-mails.
 
@@ -107,7 +107,7 @@ Par conséquent, vous devez toujours inclure un **lien de désabonnement** dans 
 
 ### Configurer la procédure d’opt-out des e-mails {#configure-opt-out}
 
-Pour permettre aux destinataires d&#39;un email de se désabonner de vos communications par le biais d&#39;une landing page, procédez comme suit :
+Pour permettre aux personnes destinataires dʼun e-mail dʼannuler leur abonnement à vos communications par le biais dʼune page de destination, procédez comme suit :
 
 1. Créez votre page de destination. [En savoir plus](create-lp.md)
 
@@ -169,10 +169,10 @@ Les informations concernant les désinscriptions sont stockées dans le **Jeu de
 
 
 
-**Voir aussi :**
+**Voir également :**
 
-* [Désinscription en un clic](../email/email-opt-out.md#one-click-opt-out-link)
-* [Lien d’exclusion dans l’en-tête de l’email](../email/email-opt-out.md#unsubscribe-header)
+* [Opt-out en un clic](../email/email-opt-out.md#one-click-opt-out-link)
+* [Lien d’exclusion dans l’en-tête de l’e-mail](../email/email-opt-out.md#unsubscribe-header)
 
 <!--
 

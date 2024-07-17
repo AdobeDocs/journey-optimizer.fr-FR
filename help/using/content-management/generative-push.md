@@ -12,8 +12,8 @@ hide: true
 hidefromtoc: true
 exl-id: a9f9d8af-c762-4038-8bbc-bbd519e0ef3a
 source-git-commit: b62f8954e09f50896ad5e70784c5a93943617e85
-workflow-type: ht
-source-wordcount: '976'
+workflow-type: tm+mt
+source-wordcount: '958'
 ht-degree: 100%
 
 ---
@@ -58,17 +58,17 @@ Procédez de la façon suivante :
 
 1. Accédez au menu **[!UICONTROL Afficher l’assistant IA]**.
 
-   ![](assets/push-genai-full-1.png){zoomable=&quot;yes&quot;}
+   ![](assets/push-genai-full-1.png){zoomable="yes"}
 
 1. Activez l’option **[!UICONTROL Utiliser le contenu original]** de l’assistant IA afin de personnaliser le nouveau contenu en fonction du contenu de votre campagne, du nom de la campagne et de l’audience sélectionnée.
 
    Votre invite doit toujours être liée à un contexte spécifique.
 
-1. Ajustez le contenu en décrivant ce que vous souhaitez générer dans le champ **[!UICONTROL Invite]**.
+1. Affinez le contenu en décrivant ce que vous souhaitez générer dans le champ **[!UICONTROL Invite]**.
 
    Si vous avez besoin d’aide pour concevoir votre invite, accédez à la **[!UICONTROL Bibliothèque d’invites]** qui offre un large éventail d’idées d’invites pour améliorer vos campagnes.
 
-   ![](assets/push-genai-full-2.png){zoomable=&quot;yes&quot;}
+   ![](assets/push-genai-full-2.png){zoomable="yes"}
 
 1. Sélectionnez **[!UICONTROL Charger une ressource de marque]** pour ajouter toute ressource de marque incluant du contenu pouvant fournir du contexte supplémentaire à l’assistant IA.
 
@@ -80,11 +80,11 @@ Procédez de la façon suivante :
    * **[!UICONTROL Langue]** : sélectionnez la langue dans laquelle vous souhaitez générer votre contenu.
    * **[!UICONTROL Ton]** : le ton de votre e-mail doit résonner auprès de votre audience. Que vous souhaitiez communiquer de façon informative, ludique ou convaincante, l’assistant IA peut adapter le message en conséquence.
 
-   ![](assets/push-genai-full-3.png){zoomable=&quot;yes&quot;}
+   ![](assets/push-genai-full-3.png){zoomable="yes"}
 
 1. Lorsque votre texte descriptif est prêt, cliquez sur **[!UICONTROL Générer]**.
 
-1. Parcourez les **[!UICONTROL variations]** générées et cliquez sur **[!UICONTROL Aperçu]** pour afficher une version plein écran de la variation sélectionnée.
+1. Parcourez les **[!UICONTROL variations]** générées et cliquez sur **[!UICONTROL Prévisualisation]** pour afficher une version plein écran de la variation sélectionnée.
 
 1. Naviguez vers l’option **[!UICONTROL Affiner]** dans la fenêtre **[!UICONTROL Aperçu]** pour accéder à d’autres fonctionnalités de personnalisation :
 
@@ -94,7 +94,7 @@ Procédez de la façon suivante :
 
    * **[!UICONTROL Utiliser un langage simple]** : utilisez l’assistant IA pour simplifier votre langage en assurant clarté et accessibilité pour une audience plus large.
 
-   ![](assets/push-genai-full-4.png){zoomable=&quot;yes&quot;}
+   ![](assets/push-genai-full-4.png){zoomable="yes"}
 
 1. Cliquez sur **[!UICONTROL Sélectionner]** une fois que vous avez trouvé le contenu approprié.
 
@@ -118,7 +118,7 @@ Dans cet exemple particulier, apprenez à utiliser l’assistant IA pour du con
 
 1. Accédez au menu **[!UICONTROL Afficher l’assistant IA]** en regard de votre champ **[!UICONTROL Titre]** ou **[!UICONTROL Message]**.
 
-   ![](assets/push-genai-1.png){zoomable=&quot;yes&quot;}
+   ![](assets/push-genai-1.png){zoomable="yes"}
 
 1. Activez l’option **[!UICONTROL Utiliser le contenu de référence]** de l’assistant IA afin de personnaliser le nouveau contenu en fonction du contenu de votre campagne, du nom de la campagne et de l’audience sélectionnée.
 
@@ -128,11 +128,11 @@ Dans cet exemple particulier, apprenez à utiliser l’assistant IA pour du con
 
    Si vous avez besoin d’aide pour concevoir votre invite, accédez à la **[!UICONTROL Bibliothèque d’invites]** qui offre un large éventail d’idées d’invites pour améliorer vos campagnes.
 
-   ![](assets/push-genai-2.png){zoomable=&quot;yes&quot;}
+   ![](assets/push-genai-2.png){zoomable="yes"}
 
 1. Sélectionnez **[!UICONTROL Charger une ressource de marque]** pour ajouter toute ressource de marque incluant du contenu pouvant fournir du contexte supplémentaire à l’assistant IA.
 
-   ![](assets/push-genai-3.png){zoomable=&quot;yes&quot;}
+   ![](assets/push-genai-3.png){zoomable="yes"}
 
 1. Adaptez votre invite avec les différentes options :
 
@@ -141,11 +141,11 @@ Dans cet exemple particulier, apprenez à utiliser l’assistant IA pour du con
    * **[!UICONTROL Ton]** : le ton de votre e-mail doit résonner auprès de votre audience. Que vous souhaitiez communiquer de façon informative, ludique ou convaincante, l’assistant IA peut adapter le message en conséquence.
    * **[!UICONTROL Longueur]** : sélectionnez la longueur de votre contenu à l’aide du curseur de plage.
 
-   ![](assets/push-genai-4.png){zoomable=&quot;yes&quot;}
+   ![](assets/push-genai-4.png){zoomable="yes"}
 
 1. Lorsque votre texte descriptif est prêt, cliquez sur **[!UICONTROL Générer]**.
 
-1. Parcourez les **[!UICONTROL variations]** générées et cliquez sur **[!UICONTROL Aperçu]** pour afficher une version plein écran de la variation sélectionnée.
+1. Parcourez les **[!UICONTROL variations]** générées et cliquez sur **[!UICONTROL Prévisualisation]** pour afficher une version plein écran de la variation sélectionnée.
 
 1. Naviguez vers l’option **[!UICONTROL Affiner]** dans la fenêtre **[!UICONTROL Aperçu]** pour accéder à d’autres fonctionnalités de personnalisation :
 
@@ -159,7 +159,7 @@ Dans cet exemple particulier, apprenez à utiliser l’assistant IA pour du con
 
    * **[!UICONTROL Utiliser un langage simplifié]** : utilisez l’assistant IA pour simplifier votre langage, garantissant ainsi clarté et accessibilité pour une audience plus large.
 
-   ![](assets/push-genai-5.png){zoomable=&quot;yes&quot;}
+   ![](assets/push-genai-5.png){zoomable="yes"}
 
 1. Cliquez sur **[!UICONTROL Sélectionner]** une fois que vous avez trouvé le contenu approprié.
 
