@@ -11,10 +11,10 @@ keywords: expression, éditeur
 hidefromtoc: true
 hide: true
 exl-id: 2fc10fdd-ca9e-46f0-94ed-2d7ea4de5baf
-source-git-commit: d2bebc33b6afde51cef12049cfafc8217c377f9d
-workflow-type: ht
-source-wordcount: '571'
-ht-degree: 100%
+source-git-commit: a03541b5f1d9c799c30bf1d38b6f187d94c21dff
+workflow-type: tm+mt
+source-wordcount: '537'
+ht-degree: 81%
 
 ---
 
@@ -40,12 +40,12 @@ Journey Optimizer vous permet d’utiliser les données d’Adobe Experience 
    {{entity.datasetId="datasetId" id="key" result="store"}}
    ```
 
-   * **entity.datasetId** est l’identifiant du jeu de données que vous utilisez,
-   * **id** est le champ utilisé comme identité principale dans le jeu de données.
+   * **entity.datasetId** est l’identifiant du jeu de données que vous utilisez.
+   * **id** est l’identifiant de la colonne source qui doit être associée à l’identité principale du jeu de données de recherche.
 
      >[!NOTE]
      >
-     >La valeur saisie pour ce champ peut être soit l’identifiant du champ (*profile.couponValue*), un champ transmis dans un événement de parcours (*context.parcours.events.event_ID.couponValue*) ou une valeur statique (*couponAbcd*). Dans tous les cas, le système utilisera la valeur et la recherche dans le jeu de données pour vérifier s’il correspond à une clé.
+     >La valeur saisie pour ce champ peut être un identifiant de champ (*profile.couponValue*), un champ transmis dans un événement de parcours (*context.parcours.events.event_ID.couponValue*) ou une valeur statique (*couponAbcd*). Dans tous les cas, le système utilisera la valeur et la recherche dans le jeu de données pour vérifier s’il correspond à une clé.
 
    * **result** est un nom arbitraire que vous devez fournir pour référencer toutes les valeurs de champ que vous allez récupérer du jeu de données. Cette valeur sera utilisée dans votre code pour appeler chaque champ.
 
@@ -57,22 +57,14 @@ Journey Optimizer vous permet d’utiliser les données d’Adobe Experience 
 
 +++
 
-   +++Comment identifier un champ d’identité principale dans un jeu de données ?
-
-   Le champ qui a été défini comme identité principale d’un jeu de données spécifique se trouve dans le schéma lié au jeu de données. Découvrez comment utiliser les champs d’identité dans la [Documentation Adobe Experience Platform](https://experienceleague.adobe.com/fr/docs/experience-platform/xdm/ui/fields/identity){target="_blank"}.
-
-   ![](assets/aep-data-identity.png)
-
-+++
-
 1. Adaptez la syntaxe à vos besoins. Dans cet exemple, nous allons récupérer les données relatives aux vols des passagères et passagers. La syntaxe se présente comme suit :
 
    ```
-   {{entity.datasetId="1234567890abcdtId" id="profile.personalEmail.address" result="flight"}}
+   {{entity.datasetId="1234567890abcdtId" id=profile.upcomingFlightId result="flight"}}
    ```
 
    * Nous travaillons dans le jeu de données dont l’identifiant est « 1234567890abcdtId »,
-   * Le champ utilisé comme clé primaire dans ce jeu de données est l’adresse électronique,
+   * Le champ que nous voulons utiliser pour joindre le jeu de données de recherche est *profile.prochainFlightId*,
    * Nous souhaitons inclure toutes les valeurs de champ sous la référence « vol ».
 
 1. Une fois que la syntaxe à appeler dans le jeu de données Adobe Experience Platform a été configurée, vous pouvez spécifier les champs à récupérer. La syntaxe se présente comme suit :
