@@ -8,10 +8,10 @@ hide: true
 hidefromtoc: true
 topic: Content Management
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 4dc269b0671b99eaddeebf358ebe4e45f5c4c721
+source-git-commit: f0b08b9cb9c12f7920e5a26a565b34b4bec8c84a
 workflow-type: tm+mt
-source-wordcount: '455'
-ht-degree: 31%
+source-wordcount: '446'
+ht-degree: 32%
 
 ---
 
@@ -128,7 +128,7 @@ Cette version est fournie avec les améliorations répertoriées ci-dessous.
 
 * (Disponibilité : 8 juillet) Vous pouvez désormais utiliser l’éditeur d’expression avancé lors de la configuration d’un événement, ce qui vous permet de définir des expressions plus complexes ou d’utiliser des fonctions dans la condition d’identifiant d’événement. [En savoir plus](../event/about-creating.md#adv-exp-editor)
 
-* La condition `event-id` est désormais automatiquement remplie en mode test.
+<!--* The `event-id` condition is now automatically filled during test mode. -->
 
 **Canal SMS**
 
