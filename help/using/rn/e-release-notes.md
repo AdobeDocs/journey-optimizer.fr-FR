@@ -8,10 +8,10 @@ hide: true
 hidefromtoc: true
 topic: Content Management
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 2387b9912b1c4c2272643a85de6f5dcc9477b2cd
+source-git-commit: 9a00387d0f44fd989dd9019cef33e3223b1701de
 workflow-type: tm+mt
-source-wordcount: '321'
-ht-degree: 45%
+source-wordcount: '313'
+ht-degree: 46%
 
 ---
 
@@ -144,4 +144,4 @@ Cette version est fournie avec les améliorations répertoriées ci-dessous.
 
 **Audiences**
 
-* L’utilisation d’audiences et d’attributs provenant de la composition de l’audience et du téléchargement personnalisé (fichier CSV) est désormais disponible avec Healthcare Shield et les modules complémentaires Privacy &amp; Security Shield.
+* L’utilisation d’audiences issues d’un téléchargement personnalisé (fichier CSV) est désormais disponible avec Privacy and Security Shield.
