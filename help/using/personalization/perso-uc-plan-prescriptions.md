@@ -1,62 +1,62 @@
 ---
-title: Exemples de Personalization de modèles
-description: Exemples de Journey Optimizer Personalization
+title: Exemples de personnalisation de modèles
+description: Exemples de personnalisations Journey Optimizer
 feature: Personalization
 topic: Personalization
 role: Data Engineer
 level: Experienced
 source-git-commit: f1d6c293fb8b22085911ab45c18f944a63b9655b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '131'
-ht-degree: 0%
+ht-degree: 100%
 
 ---
 
 
-# Email d’ordonnances de plans d’intégrité {#plan-prescription}
+# E-mail d’ordonnances de programmes de santé {#plan-prescription}
 
-Un profil contient des plans d’intégrité, et chaque plan inclut des ordonnances. Les descriptions comportent différents états, tels que &quot;prêt&quot;, &quot;rappel&quot; ou &quot;relevé&quot;.
+Un profil contient des programmes de santé, et chaque programme inclut des ordonnances. Les ordonnances comportent différents états, tels que « prêt », « rappel » ou « récupéré ».
 
-Dans ce cas pratique, nous souhaitons envoyer un seul email à chaque profil, y compris toutes les ordonnances qui sont prêtes à être prises ou rappelées. Cliquez sur chaque onglet ci-dessous pour plus d’informations sur la syntaxe à utiliser pour mettre en oeuvre ce cas pratique.
+Dans ce cas d’utilisation, nous souhaitons envoyer un seul e-mail à chaque profil, contenant toutes les ordonnances qui sont prêtes à être récupérées ou rappelées. Cliquez sur chaque onglet ci-dessous pour plus d’informations sur la syntaxe à utiliser pour mettre en œuvre ce cas d’utilisation.
 
 >[!BEGINTABS]
 
->[!TAB Message rendu]
+>[!TAB Message affiché]
 
-<p>Bonjour John Doe,</p>
-<p>Voici les ordonnances qui sont prêtes à être récupérées ou qui ont été rappelées :</p>
+<p>Bonjour Jean Dupont,</p>
+<p>Voici les ordonnances qui sont prêtes à être récupérées ou qui ont été rappelées :</p>
 
-**Plan d’intégrité A**
-
-<ul>
-
-<li>
-      <strong>ID de description :</strong> presse1<br>
-      <strong>Nom :</strong> Médicament A<br>
-      <strong>État :</strong> prêt
-   </li>
-
-<li>
-      <strong>ID de description :</strong> pres2<br>
-      <strong>Nom : </strong> Médicament B<br>
-      <strong>État :</strong> rappel
-   </li>
-
-</ul>
-
-**Plan d’intégrité B**
+**Programme de santé A**
 
 <ul>
 
 <li>
-      <strong>ID de description :</strong> presse4<br>
-      <strong>Nom : </strong> Médicament D<br>
-      <strong>État :</strong> prêt
+      <strong>ID d’ordonnance :</strong> pres1<br>
+      <strong>Nom :</strong> Médicament A<br>
+      <strong>État :</strong> prêt
+   </li>
+
+<li>
+      <strong>ID d’ordonnance :</strong> pres2<br>
+      <strong>Nom :</strong> Médicament B<br>
+      <strong>État :</strong> rappel
    </li>
 
 </ul>
 
->[!TAB Modèle d’HTML]
+**Programme de santé B**
+
+<ul>
+
+<li>
+      <strong>ID d’ordonnance :</strong> pres4<br>
+      <strong>Nom :</strong> Médicament D<br>
+      <strong>État :</strong> prêt
+   </li>
+
+</ul>
+
+>[!TAB Modèle HTML]
 
 ```html
 <p>Hi {{profile.person.firstName}} {{profile.person.lastName}},</p>

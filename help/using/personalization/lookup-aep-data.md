@@ -12,9 +12,9 @@ hidefromtoc: true
 hide: true
 exl-id: 2fc10fdd-ca9e-46f0-94ed-2d7ea4de5baf
 source-git-commit: a03541b5f1d9c799c30bf1d38b6f187d94c21dff
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '537'
-ht-degree: 81%
+ht-degree: 100%
 
 ---
 
@@ -45,7 +45,7 @@ Journey Optimizer vous permet d’utiliser les données d’Adobe Experience 
 
      >[!NOTE]
      >
-     >La valeur saisie pour ce champ peut être un identifiant de champ (*profile.couponValue*), un champ transmis dans un événement de parcours (*context.parcours.events.event_ID.couponValue*) ou une valeur statique (*couponAbcd*). Dans tous les cas, le système utilisera la valeur et la recherche dans le jeu de données pour vérifier s’il correspond à une clé.
+     >La valeur saisie pour ce champ peut être un identifiant du champ (*profile.couponValue*), un champ transmis dans un événement de parcours (*context.journey.events.event_ID.couponValue*) ou une valeur statique (*couponAbcd*). Dans tous les cas, le système utilisera la valeur et la recherche du jeu de données pour vérifier si celui-ci correspond à une clé.
 
    * **result** est un nom arbitraire que vous devez fournir pour référencer toutes les valeurs de champ que vous allez récupérer du jeu de données. Cette valeur sera utilisée dans votre code pour appeler chaque champ.
 
@@ -64,7 +64,7 @@ Journey Optimizer vous permet d’utiliser les données d’Adobe Experience 
    ```
 
    * Nous travaillons dans le jeu de données dont l’identifiant est « 1234567890abcdtId »,
-   * Le champ que nous voulons utiliser pour joindre le jeu de données de recherche est *profile.prochainFlightId*,
+   * Le champ que nous voulons utiliser pour la liaison avec le jeu de données de recherche est *profile.upcomingFlightId*,
    * Nous souhaitons inclure toutes les valeurs de champ sous la référence « vol ».
 
 1. Une fois que la syntaxe à appeler dans le jeu de données Adobe Experience Platform a été configurée, vous pouvez spécifier les champs à récupérer. La syntaxe se présente comme suit :
