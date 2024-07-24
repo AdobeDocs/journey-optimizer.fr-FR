@@ -8,10 +8,10 @@ hide: true
 hidefromtoc: true
 topic: Content Management
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: c64d0dbc41089fa50f0fbc4829ba60818dd25a37
+source-git-commit: dd7420257360a839d4dbeb05e78f002a09a9231b
 workflow-type: tm+mt
-source-wordcount: '281'
-ht-degree: 51%
+source-wordcount: '237'
+ht-degree: 60%
 
 ---
 
@@ -62,24 +62,20 @@ Cette version apporte les nouvelles fonctionnalités détaillées ci-dessous.
 </tbody>
 </table>
 
-
-
-<table>
+<!--table>
 <thead>
 <tr>
-<th><strong>Action personnalisée Marketo Engage</strong><br/></th>
+<th><strong>Marketo Engage custom action</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Vous pouvez désormais intégrer Adobe Journey Optimizer à Adobe Marketo Engage pour créer vos cas d’utilisation B2B. Depuis un parcours, une nouvelle action personnalisée vous permet d’ingérer des données dans Marketo.</p>
-<!--p>For more information, refer to the <a href="../configuration/ip-warmup-gs.md">detailed documentation</a>.</p-->
+<p>You can now integrate Adobe Journey Optimizer with Adobe Marketo Engage to build your B2B use cases. From a journey, a new custom action allows you to ingest data into Marketo.</p>
 </td>
 </tr>
 </tbody>
-</table>
-
+</table-->
 
 <!--table>
 <thead>
@@ -130,9 +126,9 @@ Cette version est fournie avec les améliorations répertoriées ci-dessous.
 
 <!--* The `event-id` condition is now automatically filled during test mode. -->
 
-**Canal SMS**
+<!--**SMS channel**
 
-* Vous pouvez maintenant modifier les configurations SMS existantes.
+* You can now modify existing SMS configurations.-->
 
 **Canal in-app**
 
