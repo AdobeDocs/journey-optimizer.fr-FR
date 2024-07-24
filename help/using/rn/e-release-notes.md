@@ -11,7 +11,7 @@ exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
 source-git-commit: dd7420257360a839d4dbeb05e78f002a09a9231b
 workflow-type: tm+mt
 source-wordcount: '237'
-ht-degree: 60%
+ht-degree: 100%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 60%
 
 ## Notes de mise à jour anticipées de juillet 2024 {#e-2024}
 
-**Date de publication** : 30-31 juillet 2024
+**Date de version** : 30-31 juillet 2024
 
 ### Nouvelles fonctionnalités {#e-features}
 
@@ -32,7 +32,7 @@ Cette version apporte les nouvelles fonctionnalités détaillées ci-dessous.
 <table>
 <thead>
 <tr>
-<th><strong>Workflow de nettoyage d’IP (GA)</strong><br/></th>
+<th><strong>Workflow de préchauffage des adresses IP (disponibilité générale)</strong><br/></th>
 </tr>
 </thead>
 <tbody>
@@ -49,13 +49,13 @@ Cette version apporte les nouvelles fonctionnalités détaillées ci-dessous.
 <table>
 <thead>
 <tr>
-<th><strong>Canal SMS avec n'importe quel fournisseur (Beta)</strong><br/></th>
+<th><strong>Canal SMS avec n’importe quel fournisseur (version bêta)</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Vous pouvez désormais configurer d’autres fournisseurs de SMS dans Journey Optimizer, en plus des fournisseurs par défaut, Sinch, Infobip et Twilio.</p>
+<p>Vous pouvez désormais configurer d’autres fournisseurs de SMS dans Journey Optimizer, en plus des fournisseurs par défaut Sinch, Infobip et Twilio.</p>
 <!--p>For more information, refer to the <a href="../configuration/ip-warmup-gs.md">detailed documentation</a>.</p-->
 </td>
 </tr>
@@ -122,7 +122,7 @@ Cette version est fournie avec les améliorations répertoriées ci-dessous.
 
 **Parcours**
 
-* (Disponibilité : 8 juillet) Vous pouvez désormais utiliser l’éditeur d’expression avancé lors de la configuration d’un événement, ce qui vous permet de définir des expressions plus complexes ou d’utiliser des fonctions dans la condition d’identifiant d’événement. [En savoir plus](../event/about-creating.md#adv-exp-editor)
+* (Disponible le 8 juillet) Vous pouvez désormais utiliser l’éditeur d’expression avancé lors de la configuration d’un événement, ce qui vous permet de définir des expressions plus complexes ou d’utiliser des fonctions dans la condition d’identifiant d’événement. [En savoir plus](../event/about-creating.md#adv-exp-editor)
 
 <!--* The `event-id` condition is now automatically filled during test mode. -->
 
@@ -132,11 +132,11 @@ Cette version est fournie avec les améliorations répertoriées ci-dessous.
 
 **Canal in-app**
 
-* Les fragments d’expression sont désormais disponibles pour le canal In-App.
+* Les fragments d’expression sont désormais disponibles pour le canal In-app.
 
 **Audiences**
 
-* L’utilisation d’audiences issues d’un téléchargement personnalisé (fichier CSV) est désormais disponible avec Privacy and Security Shield.
+* L’utilisation d’audiences issues d’un chargement personnalisé (fichier CSV) est désormais disponible avec Privacy and Security Shield.
 <!--
 **Push channel**
 
