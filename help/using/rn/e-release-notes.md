@@ -6,10 +6,10 @@ description: Notes de mise à jour anticipées de Journey Optimizer
 feature: Release Notes
 topic: Content Management
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 5ccf9e08a24f840de7adbf04dc545904eaa32b8c
+source-git-commit: ad4599874cb04b58d26a93197485818f4db1ecc4
 workflow-type: tm+mt
-source-wordcount: '305'
-ht-degree: 77%
+source-wordcount: '294'
+ht-degree: 76%
 
 ---
 
@@ -139,16 +139,6 @@ Cette version est fournie avec les améliorations répertoriées ci-dessous.
 
 * (Disponible le 8 juillet) Vous pouvez désormais utiliser l’éditeur d’expression avancé lors de la configuration d’un événement, ce qui vous permet de définir des expressions plus complexes ou d’utiliser des fonctions dans la condition d’identifiant d’événement. [En savoir plus](../event/about-creating.md#adv-exp-editor)
 
-<!--* The `event-id` condition is now automatically filled during test mode. -->
-
-<!--**SMS channel**
-
-* You can now modify existing SMS configurations.-->
-
-**Canal in-app**
-
-* Les fragments d’expression sont désormais disponibles pour le canal In-app.
-
 **Audiences**
 
 * L’utilisation d’audiences issues d’un chargement personnalisé (fichier CSV) est désormais disponible avec Privacy and Security Shield.
@@ -157,3 +147,13 @@ Cette version est fournie avec les améliorations répertoriées ci-dessous.
 
 * You can now add your mobile application push credentials inside Adobe Journey Optimizer channel configuration settings. Creating an App surface in Adobe Experience Platform Data Collection is no longer required.-->
 
+<!--* The `event-id` condition is now automatically filled during test mode. -->
+
+<!--**SMS channel**
+
+* You can now modify existing SMS configurations.-->
+
+<!--
+**In-app channel**
+
+* Expression fragments are now available for the In-app channel.-->
