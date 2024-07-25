@@ -6,7 +6,7 @@ description: Notes de mise à jour anticipées de Journey Optimizer
 hide: true
 hidefromtoc: true
 exl-id: 841122b9-04f6-4250-b0a5-e61f470787f7
-source-git-commit: 3a0e0bb7fd958441cf6b07f70a255a16c7692724
+source-git-commit: 5ccf9e08a24f840de7adbf04dc545904eaa32b8c
 workflow-type: tm+mt
 source-wordcount: '315'
 ht-degree: 100%
@@ -198,3 +198,4 @@ From beta to LA, the following improvements that have been added:
 
 * Vous pouvez désormais sélectionner une action marketing au niveau de la surface de canal. Lorsqu’elles sont utilisées en surface, toutes les stratégies de consentement associées à cette action marketing sont utilisées afin de respecter les préférences de vos clientes et clients.
 * L’utilisation du contrôle d’accès au niveau de l’objet est désormais disponible pour les surfaces de canal.
+

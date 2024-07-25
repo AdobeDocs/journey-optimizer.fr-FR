@@ -6,7 +6,7 @@ feature: Release Notes
 topic: Content Management
 description: Notes de mise à jour de Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 55666c0fc3e4efb3785de96b96e58ba44016f33d
+source-git-commit: 5ccf9e08a24f840de7adbf04dc545904eaa32b8c
 workflow-type: tm+mt
 source-wordcount: '1104'
 ht-degree: 100%
@@ -227,3 +227,4 @@ En savoir plus dans la documentation sur les [fragments de contenu](../content-m
 #### Canal de publipostage direct
 
 * Le canal de publipostage direct est désormais disponible pour l’ensemble des clientes et clients. [En savoir plus](../direct-mail/get-started-direct-mail.md)
+
