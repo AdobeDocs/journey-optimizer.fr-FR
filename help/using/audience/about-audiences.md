@@ -9,10 +9,10 @@ role: User
 level: Beginner
 mini-toc-levels: 1
 exl-id: 10d2de34-23c1-4a5e-b868-700b462312eb
-source-git-commit: 8a1ec5acef067e3e1d971deaa4b10cffa6294d75
+source-git-commit: 8b92f0c2bc5dd44e9059154e4a9b40872ad802f8
 workflow-type: tm+mt
-source-wordcount: '1855'
-ht-degree: 100%
+source-wordcount: '1910'
+ht-degree: 98%
 
 ---
 
@@ -37,6 +37,11 @@ Les audiences peuvent être générées à l’aide de différentes méthodes :
 * **Définitions de segment** : créez une définition d’audience à l’aide du Service de segmentation d’Adobe Experience Platform. [Découvrir comment créer des définitions de segment](creating-a-segment-definition.md)
 * **Chargement personnalisé** : importez une audience à l’aide d’un fichier CSV. Découvrez comment importer des audiences dans la [documentation du service de segmentation](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=fr#import-audience){target="_blank"} d’Adobe Experience Platform.
 * **Composition d’audiences** : créez un workflow de composition afin de combiner les audiences d’Adobe Experience Platform existantes dans une zone de travail visuelle et d’exploiter diverses activités (telles que le partage, l’exclusion, etc.) pour créer de nouvelles audiences. [Prise en main de la composition de l’audience](get-started-audience-orchestration.md)
+* **Composition de l’audience fédérée** : fédérez directement les jeux de données de votre entrepôt de données existant pour créer et enrichir les audiences et les attributs Adobe Experience Platform dans un seul système. Veuillez lire le guide sur la [Composition de l’audience fédérée](https://experienceleague.adobe.com/en/docs/federated-audience-composition/using/home).
+
+  >[!AVAILABILITY]
+  >
+  >La composition d’audiences fédérées n’est actuellement disponible que pour un ensemble d’organisations (disponibilité limitée). Pour en savoir plus, contactez votre représentant ou représentante Adobe.
 
 ## Cibler des audiences dans [!DNL Journey Optimizer] {#segments-in-journey-optimizer}
 
