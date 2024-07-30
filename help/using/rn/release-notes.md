@@ -6,9 +6,9 @@ feature: Release Notes
 topic: Content Management
 description: Notes de mise à jour de Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 0fc693054ad7931545e0053249f310aed031c8c4
+source-git-commit: b93c9f7262c5b5530699bb2843f2a8d8dd97a839
 workflow-type: tm+mt
-source-wordcount: '1295'
+source-wordcount: '1274'
 ht-degree: 90%
 
 ---
@@ -27,7 +27,7 @@ ht-degree: 90%
 ![Newsletter](../assets/do-not-localize/nl-icon.png) Inscrivez-vous à la [newsletter trimestrielle d’Adobe Journey Optimizer](https://www.adobe.com/subscription/Adobe_Journey_Optimizer_NL.html){target="_blank"} dès aujourd’hui, et recevez les dernières mises à jour produits, les articles les plus intéressants, des cas pratiques, des conseils et bien plus encore, directement dans votre boîte de réception, tous les trimestres.
 
 
-## Notes de mise à jour anticipées de juillet 2024 {#27-4-2024}
+## Notes de mise à jour de juillet 2024 {#27-4-2024}
 
 **Les notes de mise à jour anticipées ci-dessous peuvent être modifiées sans avertissement préalable jusqu’à la date de disponibilité de la version**. Les liens, les écrans et la documentation mise à jour sont publiés sur cette page à la date de publication.
 
@@ -94,9 +94,9 @@ Cette version est fournie avec les améliorations répertoriées ci-dessous.
 
 * (Date de disponibilité : 8 juillet) **Éditeur d’expression avancé dans la configuration d’événement de parcours** - Vous pouvez désormais utiliser l’éditeur d’expression avancé lors de la configuration d’un événement, ce qui vous permet de définir des expressions plus complexes ou d’utiliser des fonctions dans la condition d’identifiant d’événement. [En savoir plus](../event/about-creating.md#adv-exp-editor)
 
-**Audiences**
+<!--**Audiences**
 
-* L’utilisation d’audiences issues d’un chargement personnalisé (fichier CSV) est désormais disponible avec Privacy and Security Shield.
+* The use of audiences from custom upload (CSV file) is now available for use with Privacy and Security Shield.-->
 
 ## Notes de mise à jour de juin 2024 {#24-6-2024}
 
