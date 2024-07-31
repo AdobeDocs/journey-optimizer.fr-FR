@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
-source-git-commit: 452aecc02f265b8bcbe89f221bd7b1a50ffa0976
+source-git-commit: 6574f5d46125b90634b21ec62a43ca50d1321479
 workflow-type: tm+mt
 source-wordcount: '1458'
 ht-degree: 92%
@@ -301,4 +301,4 @@ Pour modifier la langue :
 >[!CONTEXTUALHELP]
 >id="ajo_journey_priority"
 >title="Priorité"
->abstract="&quot;Attribuez un score de priorité au parcours, allant de 0 à 100. Un nombre plus élevé indique une priorité plus élevée. Lorsque deux parcours utilisent la même surface, Journey Optimizer sélectionne le parcours ayant le score de priorité le plus élevé. Si les parcours ont le même score, le parcours qui a été le plus récemment modifié sera choisi."
+>abstract="Attribuez un score de priorité au parcours, allant de 0 à 100. Un nombre plus élevé indique une priorité plus élevée. Lorsque deux parcours utilisent la même surface, Journey Optimizer sélectionne le parcours ayant le score de priorité le plus élevé. Si les parcours ont le même score, le parcours qui a été le plus récemment modifié sera choisi."
