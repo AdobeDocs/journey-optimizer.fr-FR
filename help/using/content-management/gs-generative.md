@@ -11,10 +11,10 @@ badge: label="Version bêta" type="Informative"
 hide: true
 hidefromtoc: true
 exl-id: 6e291ce3-f324-4e5d-975b-5229dea4d581
-source-git-commit: 267d1850cbe30b1078f3b5b5bd228364bb63edd6
+source-git-commit: 930070843c2c1ce022beb5dc6e8a61c8d4f70365
 workflow-type: tm+mt
 source-wordcount: '602'
-ht-degree: 100%
+ht-degree: 91%
 
 ---
 
@@ -28,8 +28,8 @@ ht-degree: 100%
 
 >[!CONTEXTUALHELP]
 >id="ajo_ai_generation_context"
->title="Définir le contexte avec l’assistant IA"
->abstract="Pour utiliser le contenu sélectionné comme entrée pour la génération du contenu, activez le bouton (bascule) **Utiliser le contenu original**. Vous pouvez également charger vos ressources de marque pour les utiliser comme source. Si vous n’utilisez pas le contenu sélectionné, le chargement et la sélection de ressources de marque sont obligatoires."
+>title="Chargement d’une ressource de marque"
+>abstract="Le menu Charger des ressources de marque permet d’ajouter toute ressource de marque contenant du contenu pouvant fournir un contexte supplémentaire à l’assistant d’IA ou de sélectionner une ressource précédemment chargée. Cette option permet de s’assurer que l’assistant d’IA a accès à tous les documents nécessaires pour améliorer ses fonctionnalités et sa pertinence."
 
 
 >[!CONTEXTUALHELP]
