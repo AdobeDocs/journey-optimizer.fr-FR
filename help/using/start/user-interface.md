@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
-source-git-commit: 0ccc6453594aaf501f15e5342331b1649346bfa3
+source-git-commit: 452aecc02f265b8bcbe89f221bd7b1a50ffa0976
 workflow-type: tm+mt
-source-wordcount: '1348'
-ht-degree: 100%
+source-wordcount: '1458'
+ht-degree: 92%
 
 ---
 
@@ -290,3 +290,15 @@ Pour modifier la langue :
 >id="ajo_mobile_web_setup_push_android_studio"
 >title="Lancer l’application à partir d’Android Studio"
 >abstract="TBC"
+
+<!-- priority scores-->
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaigns_campaign_priority"
+>title="Priorité"
+>abstract="Attribuez un score de priorité à la campagne, allant de 0 à 100. Un nombre plus élevé indique une priorité plus élevée. Lorsque deux campagnes utilisent la même surface, Journey Optimizer sélectionne la campagne ayant le score de priorité le plus élevé. Si les campagnes ont le même score, la campagne la plus récemment modifiée sera choisie."
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_priority"
+>title="Priorité"
+>abstract="&quot;Attribuez un score de priorité au parcours, allant de 0 à 100. Un nombre plus élevé indique une priorité plus élevée. Lorsque deux parcours utilisent la même surface, Journey Optimizer sélectionne le parcours ayant le score de priorité le plus élevé. Si les parcours ont le même score, le parcours qui a été le plus récemment modifié sera choisi."
