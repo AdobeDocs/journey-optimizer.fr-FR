@@ -6,9 +6,9 @@ user-guide-description: Utilisez Journey Optimizer pour créer et proposer aux 
 type: Documentation
 solution: Journey Optimizer
 source-git-commit: af03ad62c2c7b29d695670f083e0dfb6d0c71b93
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1888'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -230,7 +230,7 @@ ht-degree: 99%
       + [Configurer le fournisseur Sinch](using/sms/sms-configuration-sinch.md)
       + [Configurer le fournisseur Infobip](using/sms/sms-configuration-infobip.md)
       + [Configurer le fournisseur Twilio](using/sms/sms-configuration-twilio.md)
-      + [Configurer un fournisseur personnalisé (Beta)](using/sms/sms-configuration-custom.md)
+      + [Configurer un fournisseur personnalisé (version bêta)](using/sms/sms-configuration-custom.md)
       + [Créer une surface SMS](using/sms/sms-configuration-surface.md)
 + Courrier {#direct-mail}
    + [Prise en main du courrier](using/direct-mail/get-started-direct-mail.md)
@@ -345,7 +345,7 @@ ht-degree: 99%
          + [Créer des workflows de composition](using/audience/create-compositions.md)
          + [Utiliser la zone de travail de composition](using/audience/composition-canvas.md)
          + [Accéder aux audiences et les gérer](using/audience/access-audiences.md)
-      + [Composition de l’audience fédérée (disponibilité limitée)](https://experienceleague.adobe.com/en/docs/federated-audience-composition/using/home)
+      + [Composition d’audiences fédérées (disponibilité limitée)](https://experienceleague.adobe.com/fr/docs/federated-audience-composition/using/home)
    + Profils{#profiles}
       + [Prise en main des profils](using/audience/get-started-profiles.md)
       + [Créer des profils de test](using/audience/creating-test-profiles.md)

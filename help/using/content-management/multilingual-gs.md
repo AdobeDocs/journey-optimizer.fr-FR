@@ -11,9 +11,9 @@ keywords: commencer, démarrer, contenu, expérience
 exl-id: b57683b4-6dcc-4f6c-a8b2-4ba371d78d21
 badge: label="Disponibilité limitée" type="Informative"
 source-git-commit: e2ebb540fe9380497b42d331d1ea259538d72f00
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '252'
-ht-degree: 60%
+ht-degree: 100%
 
 ---
 
@@ -37,11 +37,11 @@ Avec Journey Optimizer, vous avez la possibilité de créer du contenu multilin
 
 ## Conditions préalables {#prerequisites}
 
-Adobe Journey Optimizer s’intègre actuellement aux fournisseurs de traduction, qui offrent des services de traduction tiers (traduction automatique ou humaine) indépendants de Adobe Journey Optimizer.
+Adobe Journey Optimizer s’intègre actuellement aux fournisseurs de traduction, qui offrent des services de traduction tiers (traduction automatique ou humaine), indépendants d’Adobe Journey Optimizer.
 
 Avant d’ajouter votre fournisseur de traduction sélectionné, vous devez créer un compte auprès de ce fournisseur.
 
-Votre utilisation des services de traduction d’un fournisseur de traduction est soumise à des conditions supplémentaires de la part de ce fournisseur concerné.  En tant que solutions tierces, les services de traduction sont disponibles pour les utilisateurs de Adobe Journey Optimizer via une intégration.  Adobe ne contrôle pas et n’est pas responsable des produits tiers.
+Votre utilisation des services de traduction d’un fournisseur de traduction sera soumise aux conditions générales supplémentaires de ce fournisseur. En tant que solutions tierces, les services de traduction sont disponibles pour les utilisateurs et utilisatrices d’Adobe Journey Optimizer via une intégration. Adobe ne contrôle pas les produits tiers et n’en est pas responsable.
 
 Pour tout problème ou toute demande d’aide relative à vos traductions, contactez le fournisseur de traduction concerné.
 

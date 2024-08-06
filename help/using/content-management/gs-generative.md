@@ -12,9 +12,9 @@ hide: true
 hidefromtoc: true
 exl-id: 6e291ce3-f324-4e5d-975b-5229dea4d581
 source-git-commit: 930070843c2c1ce022beb5dc6e8a61c8d4f70365
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '602'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -28,8 +28,8 @@ ht-degree: 91%
 
 >[!CONTEXTUALHELP]
 >id="ajo_ai_generation_context"
->title="Chargement d’une ressource de marque"
->abstract="Le menu Charger des ressources de marque permet d’ajouter toute ressource de marque contenant du contenu pouvant fournir un contexte supplémentaire à l’assistant d’IA ou de sélectionner une ressource précédemment chargée. Cette option permet de s’assurer que l’assistant d’IA a accès à tous les documents nécessaires pour améliorer ses fonctionnalités et sa pertinence."
+>title="Charger une ressource de marque"
+>abstract="Le menu Charger une ressource de marque permet d’ajouter toute ressource de marque incluant du contenu pouvant fournir du contexte supplémentaire à l’Assistant IA ou d’en sélectionner une chargée précédemment. Cette option permet de s’assurer que l’Assistant IA a accès à tous les supports nécessaires pour améliorer ses fonctionnalités et sa pertinence."
 
 
 >[!CONTEXTUALHELP]

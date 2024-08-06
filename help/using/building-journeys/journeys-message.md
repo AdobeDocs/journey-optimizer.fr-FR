@@ -10,9 +10,9 @@ level: Intermediate
 keywords: parcours, message, notification push, sms, e-mail, in-app
 exl-id: 4db07a9e-c3dd-4873-8bd9-ac34c860694c
 source-git-commit: 2c4c9064b11bce44331b6604c91221ba9829eff7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1177'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -133,20 +133,20 @@ L’optimisation de l’heure d’envoi tente de prévoir le meilleur moment pou
 
 +++
 
-+++Où puis-je voir l’heure d’envoi attendue pour chaque profil ?
++++Où puis-je consulter l’heure d’envoi prévue pour chaque profil ?
 
 Vous pouvez voir le score global dans l’interface **Profils**. Pour chacun des trois ensembles de 168 scores, les classements vont de -83 à 84. Plus le classement est élevé, plus le moment choisi pour l’interaction avec le ou la destinataire est bon. Puisque vous pouvez définir le début et la durée d’un parcours, il est possible que le meilleur classement (84) ne tombe pas dans cette fenêtre temporelle. Dans ce cas, nous vous recommandons de choisir une heure ayant la valeur de classement la plus élevée.
 
 +++
 
 
-+++Quels rapports sont disponibles ?
++++Quels sont les rapports disponibles ?
 
 Accédez à votre parcours, cliquez sur le bouton **Afficher le rapport** en haut à droite et sélectionnez l’onglet **Parcours** de gauche. [En savoir plus](../reports/journey-global-report.md)
 
 +++
 
-+++Comment les données d’optimisation du temps d’envoi affectent-elles la richesse des profils ?
++++Comment les données d’optimisation de l’heure d’envoi affectent-elles la richesse des profils ?
 
 L’optimisation de l’heure d’envoi ajoute le score/les attributs à chaque profil, mais aucun nouveau profil n’est créé.
 
