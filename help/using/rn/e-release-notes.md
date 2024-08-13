@@ -8,10 +8,10 @@ topic: Content Management
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 18d74badf3f5ea98f613d6b31303aa3108c979a5
-workflow-type: ht
-source-wordcount: '294'
-ht-degree: 100%
+source-git-commit: 9fdaff7a4364bb7ecfeec27446ed8f4b4ce34488
+workflow-type: tm+mt
+source-wordcount: '306'
+ht-degree: 52%
 
 ---
 
@@ -21,9 +21,9 @@ ht-degree: 100%
 
 **Les notes de mise à jour anticipées ci-dessous peuvent être modifiées sans avertissement préalable jusqu’à la date de disponibilité de la version**. Les liens, les copies d’écran et la documentation mise à jour sont publiés dans les [notes de mise à jour](release-notes.md) à la date de publication.
 
-## Notes de mise à jour anticipées de juillet 2024 {#e-2024}
+## Notes de mise à jour anticipées d’août 2024 {#e-2024}
 
-**Date de version** : 30-31 juillet 2024
+**Date de publication** : 20-21 août 2024
 
 ### Nouvelles fonctionnalités {#e-features}
 
@@ -32,31 +32,13 @@ Cette version apporte les nouvelles fonctionnalités détaillées ci-dessous.
 <table>
 <thead>
 <tr>
-<th><strong>Workflow de préchauffage d’adresses IP</strong><br/></th>
+<th><strong>Action personnalisée Marketo Engage</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Si vous envoyez des e-mails sur une toute nouvelle adresse IP, vous pouvez désormais facilement exécuter des workflows de préchauffage d’adresses IP directement à partir de l’interface d’utilisation. Adobe Journey Optimizer offre un moyen standardisé et efficace de préchauffer vos adresses IP en respectant les bonnes pratiques de délivrabilité optimale.</p>
-<!--p>For more information, refer to the <a href="../configuration/ip-warmup-gs.md">detailed documentation</a>.</p-->
-</td>
-</tr>
-</tbody>
-</table>
-
-
-<table>
-<thead>
-<tr>
-<th><strong>Canal SMS avec n’importe quel fournisseur (version bêta)</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>Vous pouvez désormais configurer d’autres fournisseurs de SMS dans Journey Optimizer, en plus des fournisseurs par défaut Sinch, Infobip et Twilio.</p>
-<!--p>For more information, refer to the <a href="../configuration/ip-warmup-gs.md">detailed documentation</a>.</p-->
+<p>Vous pouvez désormais intégrer Adobe Journey Optimizer à Adobe Marketo Engage pour créer vos cas d’utilisation B2B. Depuis un parcours, une nouvelle action personnalisée vous permet d’ingérer des données dans Marketo.</p>
 </td>
 </tr>
 </tbody>
@@ -65,55 +47,24 @@ Cette version apporte les nouvelles fonctionnalités détaillées ci-dessous.
 <table>
 <thead>
 <tr>
-<th><strong>Composition d’audiences fédérées (disponibilité limitée)</strong><br/></th>
+<th><strong>Amélioration des configurations de canal</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>La composition d’audiences fédérées est désormais disponible dans Adobe Journey Optimizer. Elle permet aux entreprises de composer des données pour améliorer leur emploi dans divers cas d’utilisation. Grâce à cette nouvelle approche, en tant qu’utilisateur ou utilisatrice d’Adobe Real-Time Customer Data Platform et/ou d’Adobe Journey Optimizer, vous pouvez fédérer les jeux de données directement à partir de votre entrepôt de données existant pour créer et enrichir les audiences et les attributs Adobe Experience Platform dans un seul système.</p>
-<!--p>For more information, refer to the <a href="https://experienceleague.adobe.com/en/docs/federated-audience-composition/using/home"  target="_blank">detailed documentation</a>.</p-->
-</td>
-</tr>
-</tbody>
-</table>
-
-<!--table>
-<thead>
-<tr>
-<th><strong>Marketo Engage custom action</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>You can now integrate Adobe Journey Optimizer with Adobe Marketo Engage to build your B2B use cases. From a journey, a new custom action allows you to ingest data into Marketo.</p>
-</td>
-</tr>
-</tbody>
-</table-->
-
-<!--table>
-<thead>
-<tr>
-<th><strong>Improved channel configurations</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>The current channel surface capabilities have been enhanced for a consistent approach across all channels. You can now define, manage, and reuse these configurations for any of your channels.</p>
+<p>Les fonctionnalités actuelles de surface de canal ont été améliorées pour une approche cohérente sur tous les canaux. Vous pouvez maintenant définir, gérer et réutiliser ces configurations pour l’un de vos canaux.</p>
 <p><ul>
-<li>Channel surfaces are now renamed to <strong>Channel configurations</strong></li>
-<li>From the Channel configurations inventory you can now create reusable channel configurations for all channels, including now Web, In-app messaging, or Code-based experience</li>
-<li>Object level access control (OLAC) is now available for each channel configuration, allowing you to decide which of your users are allowed to create or use specific configurations</li>
-<li>For some channels, you can create channel configurations that target multiple platforms. An example here would be an In-app messaging channel configuration that can target a web page, an iOS app and an Android app.</li>
+<li>Les surfaces de canal sont désormais renommées <strong>Configurations de canal</strong></li>
+<li>L’inventaire des configurations de canal vous permet désormais de créer des configurations de canal réutilisables pour tous les canaux, y compris désormais les canaux web, les messages in-app ou l’expérience basée sur le code.</li>
+<li>Le contrôle d’accès au niveau de l’objet (OLAC) est désormais disponible pour chaque configuration de canal, ce qui vous permet de décider lequel de vos utilisateurs est autorisé à créer ou à utiliser des configurations spécifiques.</li>
+<li>Pour certains canaux, vous pouvez créer des configurations de canal qui ciblent plusieurs plateformes. Il peut s’agir, par exemple, d’une configuration de canal de messagerie in-app pouvant cibler une page web, une application iOS et une application Android.</li>
 </ul></p>
-<p>For more information, refer to the <a href="../configuration/ip-warmup-gs.md">detailed documentation</a>.</p>
+<p>Pour plus d’informations, consultez la <a href="../configuration/ip-warmup-gs.md">documentation détaillée</a>.</p>
 </td>
 </tr>
 </tbody>
-</table-->
+</table>
 
 
 <!--table>
@@ -138,11 +89,12 @@ Cette version est fournie avec les améliorations répertoriées ci-dessous.
 
 **Parcours**
 
-* (Disponible le 8 juillet) Vous pouvez désormais utiliser l’éditeur d’expression avancé lors de la configuration d’un événement, ce qui vous permet de définir des expressions plus complexes ou d’utiliser des fonctions dans la condition d’identifiant d’événement. [En savoir plus](../event/about-creating.md#adv-exp-editor)
+* Dans l’activité **Condition**, par défaut, la condition Heure est désormais définie par heure, de 00:00 à 12:00. [En savoir plus](../building-journeys/condition-activity.md#time_condition)
 
 **Audiences**
 
 * L’utilisation d’audiences issues d’un chargement personnalisé (fichier CSV) est désormais disponible avec Privacy and Security Shield.
+
 <!--
 **Push channel**
 
