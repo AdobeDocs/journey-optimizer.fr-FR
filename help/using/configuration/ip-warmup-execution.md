@@ -8,29 +8,15 @@ topic: Administration
 role: Admin
 level: Experienced
 keywords: IP, groupe, sous-domaines, délivrabilité
-hide: true
-hidefromtoc: true
-badge: label="Version bêta"
 exl-id: 752ffd7f-09c2-4aa3-a067-2dbe0634709c
-source-git-commit: cd95614329e6efdc7ac4b6e0a5c683757a14b379
+source-git-commit: bdd3b951e44adaf3ff362b8af69f5ab74d13f484
 workflow-type: tm+mt
-source-wordcount: '2558'
+source-wordcount: '2530'
 ht-degree: 100%
 
 ---
 
 # Exécuter le plan de préchauffage d’adresses IP {#ip-warmup-running}
-
->[!BEGINSHADEBOX]
-
-Ce guide couvre les sujets suivants :
-
-* [Commencer avec les plans de préchauffage d’adresses IP](ip-warmup-gs.md)
-* [Créer des campagnes de préchauffage d’adresses IP](ip-warmup-campaign.md)
-* [Créer un plan de préchauffage d’adresses IP](ip-warmup-plan.md)
-* **[Exécuter le plan de préchauffage des adresses IP](ip-warmup-execution.md)**
-
->[!ENDSHADEBOX]
 
 Une fois que vous avez [créé un plan de préchauffage des adresses IP](ip-warmup-plan.md) et chargé le fichier préparé avec votre consultant ou votre consultante en délivrabilité, vous pouvez définir les phases et les exécutions dans votre plan.
 

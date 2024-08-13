@@ -8,29 +8,15 @@ topic: Administration
 role: Admin
 level: Experienced
 keywords: IP, groupe, sous-domaines, délivrabilité
-hide: true
-hidefromtoc: true
-badge: label="Version bêta"
 exl-id: c2434086-2ed4-4cd0-aecd-2eea8f0a55f6
-source-git-commit: cd95614329e6efdc7ac4b6e0a5c683757a14b379
+source-git-commit: bdd3b951e44adaf3ff362b8af69f5ab74d13f484
 workflow-type: tm+mt
-source-wordcount: '1668'
-ht-degree: 100%
+source-wordcount: '1665'
+ht-degree: 95%
 
 ---
 
 # Créer un plan de préchauffage d’adresses IP {#ip-warmup}
-
->[!BEGINSHADEBOX]
-
-Ce guide couvre les sujets suivants :
-
-* [Commencer avec les plans de préchauffage d’adresses IP](ip-warmup-gs.md)
-* [Créer des campagnes de préchauffage d’adresses IP](ip-warmup-campaign.md)
-* **[Créer un plan de préchauffage d’adresses IP](ip-warmup-plan.md)**
-* [Exécuter le plan de préchauffage d’adresses IP](ip-warmup-execution.md)
-
->[!ENDSHADEBOX]
 
 Une fois que vous avez créé une ou plusieurs [campagnes de préchauffage d’adresses IP](ip-warmup-campaign.md) avec une surface dédiée et l’option correspondante activée, vous pouvez commencer à créer votre plan de préchauffage d’adresses IP.
 
@@ -112,11 +98,12 @@ Vous trouverez ci-dessous un exemple de fichier contenant un plan de préchauffa
 
 * Ce plan est exécuté en six **phases**, chacune d’elles contenant au moins une exécution.
 
-* Vous pouvez disposer de 6 colonnes au maximum (5 colonnes pour les groupes de domaines et une pour la colonne **Autres**). Dans cet exemple, le plan est divisé en six colonnes :
+* Vous pouvez avoir jusqu’à 6 colonnes (4 colonnes pour les groupes de domaines, une pour la colonne **Autres** et une pour la colonne **Jours d’engagement**). Dans cet exemple, le plan est divisé en six colonnes :
 
-   * Quatre d’entre elles correspondent aux **groupes de domaines prêts à l’emploi** à utiliser dans votre plan (Gmail, Microsoft, Yahoo et Orange).
+   * Trois d’entre eux correspondent à des **groupes de domaines d’usine** à utiliser dans votre plan (Gmail, Microsoft et Orange).
    * L’une correspond à un groupe de domaines personnalisé (que vous devez ajouter à l’aide de l’onglet [Groupe de domaines personnalisé](#custom-domain-group-tab)).
-   * La sixième colonne, **Autres**, contient toutes les adresses restantes d’autres domaines qui ne sont pas explicitement couverts dans le plan. Cette colonne est facultative : si elle est omise, les e-mails seront envoyés uniquement aux domaines spécifiés.
+   * La cinquième colonne, **Autres**, contient toutes les adresses restantes d’autres domaines qui ne sont pas explicitement couverts dans le plan. Cette colonne est facultative : si elle est omise, les e-mails seront envoyés uniquement aux domaines spécifiés.
+   * La dernière colonne, **Jours d’engagement**, vous permet de spécifier le nombre de jours pendant lesquels l’engagement doit être suivi ou évalué.
 
 L’idée est d’augmenter progressivement le nombre d’adresses ciblées au cours de chaque exécution, tout en réduisant le nombre d’exécutions pour chaque phase.
 

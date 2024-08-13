@@ -8,45 +8,29 @@ topic: Administration
 role: Admin
 level: Experienced
 keywords: IP, délivrabilité
-hide: true
-hidefromtoc: true
-badge: label="Version bêta"
 exl-id: 393f051d-b86d-4b4f-b564-7a9ae3a5d4b8
-source-git-commit: cd95614329e6efdc7ac4b6e0a5c683757a14b379
+source-git-commit: 34c1180e3ba5b6b39287e70651c45351fa71e6b1
 workflow-type: tm+mt
-source-wordcount: '272'
-ht-degree: 100%
+source-wordcount: '240'
+ht-degree: 70%
 
 ---
 
 # Prise en main des plans de préchauffage d’adresses IP {#ip-warmup-gs}
 
->[!BEGINSHADEBOX]
-
-Ce guide couvre les sujets suivants :
-
-* **[Prise en main du préchauffage d’adresses IP](ip-warmup-gs.md)**
-* [Créer des campagnes de préchauffage d’adresses IP](ip-warmup-campaign.md)
-* [Créer un plan de préchauffage d’adresses IP](ip-warmup-plan.md)
-* [Exécuter le plan de préchauffage d’adresses IP](ip-warmup-execution.md)
-
->[!ENDSHADEBOX]
-
-Avec [!DNL Journey Optimizer], vous pouvez facilement exécuter des workflows de préchauffage d’adresses IP directement à partir de l’interface d’utilisation d’une manière normalisée et efficace, en respectant les bonnes pratiques pour une délivrabilité optimale.
-
-➡️ [Découvrez comment créer et exécuter un plan de préchauffage d’adresses IP dans cette vidéo](#video)
-
->[!CAUTION]
->
->Cette fonctionnalité s&#39;applique uniquement au canal e-mail.
-
-Lorsque vous envoyez des e-mails à l&#39;aide d&#39;une nouvelle plateforme, rien n&#39;est plus suspect pour un FAI (fournisseur d&#39;accès internet) que les adresses IP qui ne sont pas reconnues. Si des e-mails sont subitement envoyés en masse, le FAI les marque souvent comme spam.
+Avec [!DNL Journey Optimizer], vous pouvez facilement exécuter des workflows de chauffage des adresses IP directement à partir de l’interface utilisateur d’une manière normalisée et efficace, en respectant les bonnes pratiques pour une délivrabilité optimale. Lorsque vous envoyez des e-mails à l&#39;aide d&#39;une nouvelle plateforme, rien n&#39;est plus suspect pour un FAI (fournisseur d&#39;accès internet) que les adresses IP qui ne sont pas reconnues. Si des e-mails sont subitement envoyés en masse, le FAI les marque souvent comme spam.
 
 Pour éviter que les e-mails soient marqués comme spam, vous pouvez augmenter progressivement le volume envoyé à l’aide de la fonctionnalité du plan de préchauffage d’adresses IP. Cette nouvelle option dans le menu **[!UICONTROL Administration]** vous permet de le faire plus facilement de manière consolidée au lieu de créer des parcours quotidiens complexes.
 
->[!NOTE]
+<!--➡️ [Learn how to create and execute an IP warmup plan in this video](#video)-->
+
+>[!AVAILABILITY]
 >
->Apprenez-en plus sur la façon d’accroître la réputation de vos e-mails grâce au préchauffage dʼadresses IP dans la section [Guide des bonnes pratiques en matière de délivrabilité](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/generic-resources/increase-reputation-with-ip-warming.html?lang=fr).
+>Cette fonctionnalité ne peut être activée que sur les environnements de test de type production.
+>
+>Elle n’est pas disponible pour les organisations qui ont acheté les modules complémentaires **Bouclier de santé** ou **Bouclier de protection et de confidentialité** de l’Adobe.
+
+
 
 <!--
 Benefits
@@ -68,8 +52,15 @@ Les étapes clés de la mise en œuvre d’un plan de préchauffage d’adresses
 
 1. Sélectionnez une campagne pour chaque phase de votre plan et activez les exécutions correspondantes. [En savoir plus](ip-warmup-execution.md)
 
-## Vidéo pratique {#video}
+<!--Old UI
+## How-to video {#video}
 
-Découvrez comment créer et exécuter un plan de préchauffage des adresses IP.
+Learn how to create and execute an IP warmup plan.
 
 >[!VIDEO](https://video.tv.adobe.com/v/3425965/?quality=12&learn=on)
+-->
+
+
+>[!NOTE]
+>
+>Pour en savoir plus sur l&#39;amélioration de la réputation de vos emails grâce au réchauffement des adresses IP, consultez le [guide des bonnes pratiques de délivrabilité](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/generic-resources/increase-reputation-with-ip-warming.html?lang=fr).
