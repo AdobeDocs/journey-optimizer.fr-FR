@@ -5,10 +5,10 @@ user-guide-title: Guide de Journey Optimizer
 user-guide-description: Utilisez Journey Optimizer pour créer et proposer aux clients des expériences connectées, contextuelles et personnalisées
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: af03ad62c2c7b29d695670f083e0dfb6d0c71b93
-workflow-type: ht
-source-wordcount: '1888'
-ht-degree: 100%
+source-git-commit: a285e39abc96159b393d430b3a5ce8aceb3b32f5
+workflow-type: tm+mt
+source-wordcount: '1892'
+ht-degree: 99%
 
 ---
 
@@ -609,6 +609,7 @@ ht-degree: 100%
          + [Intégration à Adobe Campaign Standard](using/action/acs-action.md)
          + [Intégration à Adobe Campaign v7/v8](using/action/acc-action.md)
          + [Utiliser des réponses d’appel API dans des actions personnalisées](using/action/action-response.md)
+         + [Intégration avec Marketo Engage](using/action/marketo-engage.md)
    + [Sources](using/start/get-started-sources.md)
 + Contrôle d’accès {#access-control}
    + Vue d’ensemble du contrôle d’accès {#privacy}
