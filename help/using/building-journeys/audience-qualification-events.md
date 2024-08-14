@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: qualification, événements, audience, parcours, platform
 exl-id: 7e70b8a9-7fac-4450-ad9c-597fe0496df9
-source-git-commit: e45ec5f0e1bbcc73892f9cde5923627886f44ef6
+source-git-commit: 817f9c16ae48b1127e5092add6fbcefa8dd3ba9f
 workflow-type: tm+mt
-source-wordcount: '1081'
-ht-degree: 100%
+source-wordcount: '1091'
+ht-degree: 96%
 
 ---
 
@@ -35,7 +35,7 @@ Il est possible de positionner ce type d’événement dès la première étape,
 
 ### Remarques importantes{#important-notes-segment-qualification}
 
-* N’oubliez pas que les audiences Adobe Experience Platform sont calculées une fois par jour (audiences **par lots**) ou en temps réel (audiences **en flux continu** à l’aide de l’option Audiences haute fréquence d’Adobe Experience Platform).
+* Gardez à l’esprit que les audiences Adobe Experience Platform sont calculées une fois par jour (**audiences par lot**) ou en temps réel (pour les audiences **diffusées** à l’aide de l’option Audiences haute fréquence de Adobe Experience Platform).
 
    * Si l’audience sélectionnée est en flux continu, les personnes appartenant à cette audience peuvent éventuellement rejoindre le parcours en temps réel.
    * Si l’audience est par lots, les personnes qui viennent d’être qualifiées pour cette audience peuvent éventuellement rejoindre le parcours lorsque le calcul de l’audience est exécuté sur Adobe Experience Platform.
@@ -51,6 +51,8 @@ Il est possible de positionner ce type d’événement dès la première étape,
 * Lorsque vous utilisez une qualification d’audience dans un parcours, cette activité de qualification d’audience peut demander jusqu’à 10 minutes avant d’être active et d’écouter les profils entrant ou sortant de l’audience.
 
 ### Configurer l’activité{#cnfigure-segment-qualification}
+
+Pour configurer l’activité **[!UICONTROL Qualification de l’audience]**, procédez comme suit :
 
 1. Développez la catégorie **[!UICONTROL Événements]** et déposez une activité de **[!UICONTROL qualification d’audience]** dans la zone de travail.
 

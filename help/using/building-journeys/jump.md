@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: saut, activité, parcours, partage, partager
 exl-id: 46d8950b-8b02-4160-89b4-1c492533c0e2
-source-git-commit: 0571a11eabffeb5e318bebe341a8df18da7db598
+source-git-commit: 817f9c16ae48b1127e5092add6fbcefa8dd3ba9f
 workflow-type: tm+mt
 source-wordcount: '842'
 ht-degree: 100%
@@ -32,7 +32,7 @@ Dans le parcours d’origine, il suffit d’ajouter une activité **[!UICONTROL 
 
 Dans le parcours cible, le premier événement déclenché en interne par l’activité **[!UICONTROL Saut]** permettra à chaque individu de s’insérer dans le parcours.
 
-## Cycle de vie
+## Cycle de vie {#jump-lifecycle}
 
 Supposons que vous ayez ajouté une activité **[!UICONTROL Saut]** d’un parcours A à un parcours B. Le parcours A est le **parcours d’origine** et le parcours B, le **parcours cible**.
 Voici les différentes étapes du processus d’exécution :
@@ -52,9 +52,9 @@ Dans le parcours B, le premier événement est déclenché en interne, via l’
 >
 >Le parcours B peut également être déclenché par un événement externe.
 
-## Bonnes pratiques et restrictions
+## Bonnes pratiques et restrictions {#jump-limitations}
 
-### Création
+### Création {#jump-limitations-authoring}
 
 * L’activité **[!UICONTROL Saut]** n’est disponible que dans les parcours utilisant un espace de noms.
 * Vous ne pouvez accéder qu’à un parcours qui utilise le même espace de noms que le parcours d’origine.
@@ -65,12 +65,12 @@ Dans le parcours B, le premier événement est déclenché en interne, via l’
 * Le parcours cible peut également comporter autant d’activités **[!UICONTROL Saut]** que nécessaire.
 * Les schémas de boucle ne sont pas pris en charge. Il n’y a aucun moyen de relier deux parcours, ou plus, qui créeraient une boucle infinie. L’écran de configuration de l’activité **[!UICONTROL Saut]** vous empêche de le faire.
 
-### Exécution
+### Exécution {#jump-limitations-exec}
 
 * Lorsque l’activité **[!UICONTROL Saut]** est exécutée, la dernière version du parcours cible est déclenchée.
 * Comme à l’accoutumée, un individu donné ne peut être présent qu’une seule fois dans un même parcours. Ainsi, si un individu provenant d’un parcours d’origine est déjà engagé dans le parcours cible, il ne rejoindra pas le parcours cible. Aucune erreur ne sera signalée lors de l’activité **[!UICONTROL Saut]**, car il s’agit d’un comportement normal.
 
-## Configuration de l’activité Saut
+## Configuration de l’activité Saut {#jump-configure}
 
 1. Concevez votre **parcours d’origine**.
 
@@ -110,7 +110,7 @@ Lorsqu’une activité **[!UICONTROL Saut]** est configurée dans un parcours, u
 
 ![](assets/jump7.png)
 
-## Dépannage
+## Dépannage {#jump-troubleshoot}
 
 Des erreurs se produiront si :
 * le parcours cible n’existe plus ;

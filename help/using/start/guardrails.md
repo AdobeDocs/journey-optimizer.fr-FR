@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: 202e4e9bf99bc8d4423153431a7e86c9ac4be903
+source-git-commit: aa69046bde7ea5862fb507695d12584939fae9f8
 workflow-type: tm+mt
-source-wordcount: '2078'
-ht-degree: 99%
+source-wordcount: '2239'
+ht-degree: 86%
 
 ---
 
@@ -70,7 +70,7 @@ Cependant, en fonction de votre contrat de licence, vous pouvez déléguer jusqu
 ### Actions générales {#general-actions-g}
 
 * En cas d’erreur, trois reprises sont systématiquement effectuées. Vous ne pouvez pas adapter le nombre de reprises en fonction du message d&#39;erreur renvoyé. Les reprises sont effectuées pour toutes les erreurs HTTP, à l’exception des erreurs HTTP 401, 403 et 404.
-* L’événement **Réaction** intégré vous permet de réagir aux actions d’usine. En savoir plus sur [cette page](../building-journeys/reaction-events.md). Si vous souhaitez réagir à un message envoyé par le biais d’une action personnalisée, vous devez configurer un événement dédié.
+* L’événement **Réaction** intégré vous permet de réagir aux actions d’usine. En savoir plus sur [cette page](../building-journeys/reaction-events.md). Si vous souhaitez réagir à un message envoyé via une action personnalisée, vous devez configurer un événement dédié.
 * Vous ne pouvez pas placer deux actions en parallèle ; vous devez les ajouter l’une après l’autre.
 * Un profil ne peut pas être présent plusieurs fois dans le même parcours, en même temps. Si la reprise est activée, un profil peut rejoindre à nouveau un parcours, mais ne peut pas le faire tant qu’il n’a pas complètement quitté cette instance précédente du parcours. [En savoir plus](../building-journeys/end-journey.md)
 
@@ -85,7 +85,7 @@ Cependant, en fonction de votre contrat de licence, vous pouvez déléguer jusqu
 
 ### Actions personnalisées {#custom-actions-g}
 
-* Une limitation de 300 000 appels de plus d’une minute est définie pour toutes les actions personnalisées, par hôte et par sandbox. Consultez [cette page](../action/about-custom-action-configuration.md). Cette limite a été définie en fonction de l’utilisation de la clientèle, afin de protéger les points d’entrée externes ciblés par des actions personnalisées. Vous devez prendre cela en compte dans vos parcours basés sur l’audience en définissant un taux de lecture approprié (5 000 profils/s lors de l’utilisation d’actions personnalisées). Si nécessaire, vous pouvez remplacer ce paramètre en définissant une limitation ou un ralentissement plus élevé via nos API de limitation/ralentissement. Consultez [cette page](../configuration/external-systems.md).
+* Une limitation de 300 000 appels de plus d’une minute est définie pour toutes les actions personnalisées, par hôte et par sandbox. Consultez [cette page](../action/about-custom-action-configuration.md). Cette limite a été définie en fonction de l’utilisation de la clientèle, afin de protéger les points d’entrée externes ciblés par des actions personnalisées. Vous devez tenir compte de cela dans vos parcours basés sur l’audience en définissant un taux de lecture approprié (5 000 profils/s lorsque des actions personnalisées sont utilisées). Si nécessaire, vous pouvez remplacer ce paramètre en définissant une limitation ou un ralentissement plus élevé via nos API de limitation/ralentissement. Consultez [cette page](../configuration/external-systems.md).
 * L’URL de l’action personnalisée ne prend pas en charge les paramètres dynamiques.
 * Les méthodes d’appel POST, PUT et GET sont prises en charge.
 * Le nom du paramètre de la requête ou de l’en-tête ne doit pas commencer par « . » ou « $ »
@@ -95,7 +95,7 @@ Cependant, en fonction de votre contrat de licence, vous pouvez déléguer jusqu
 * Les actions personnalisées ne prennent en charge le format JSON que lors de l’utilisation de payloads de requêtes ou de réponses. Consultez [cette page](../action/about-custom-action-configuration.md#custom-actions-limitations).
 * Lorsque vous choisissez un point d’entrée à cibler à l’aide d’une action personnalisée, assurez-vous de ce qui suit :
 
-   * Ce point d’entrée peut prendre en charge le débit des parcours à l’aide de configurations de l’[API de limitation](../configuration/throttling.md) ou de l’[API de plafonnement](../configuration/capping.md) pour le limiter. Faites preuve de prudence si une configuration de limitation ne peut pas descendre sous 200 TPS. Tout point d’entrée ciblé devra prendre en charge au moins 200 TPS.
+   * Ce point d’entrée peut prendre en charge le débit des parcours à l’aide de configurations de l’[API de limitation](../configuration/throttling.md) ou de l’[API de plafonnement](../configuration/capping.md) pour le limiter. Faites preuve de prudence si une configuration de limitation ne peut pas descendre sous 200 TPS. Tout point de terminaison ciblé doit prendre en charge au moins 200 TPS.
    * Ce point d’entrée doit avoir un temps de réponse aussi bas que possible. En fonction de votre débit prévu, un temps de réponse élevé peut avoir un impact sur le débit réel.
 
 ### Événements {#events-g}
@@ -103,7 +103,8 @@ Cependant, en fonction de votre contrat de licence, vous pouvez déléguer jusqu
 * En ce qui concerne les événements générés par le système, les données de diffusion en continu utilisées pour initier un parcours client doivent d’abord être configurées dans Journey Optimizer pour obtenir un identifiant d’orchestration unique. Cet identifiant d’orchestration doit être ajouté à la payload de diffusion en continu entrant dans Adobe Experience Platform. Cette limitation ne s’applique pas aux événements basés sur une règle.
 * Les événements métier ne peuvent pas être utilisés conjointement avec des événements unitaires ou des activités de qualification d’audience.
 * Les parcours unitaires (commençant par un événement ou une qualification d’audience) incluent une mécanisme de sécurisation qui empêche les parcours d’être déclenchés par erreur plusieurs fois pour le même événement. La reprise du profil est temporairement bloquée par défaut pendant 5 minutes. Par exemple, si un événement déclenche un parcours à 12 h 01 pour un profil spécifique et qu’un autre arrive à 12 h 03 (qu’il s’agisse du même événement ou d’un autre déclenchant le même parcours), ce parcours ne reprendra pas pour ce profil.
-* Journey Optimizer exige que les événements soient diffusés en continu vers Data Collection Core Service (DCCS) pour pouvoir déclencher un parcours. Les événements ingérés par lot ou les événements provenant de jeux de données Journey Optimizer internes (commentaires des messages, tracking e-mail, etc.) ne peuvent pas être utilisés pour déclencher un parcours. Pour les cas d’utilisation où vous ne pouvez pas obtenir d’événements en flux continu, créez une audience basée sur ces événements et utilisez l’activité **Lecture d’audience** à la place. La qualification d’audience peut techniquement être utilisée, mais peut entraîner des difficultés en aval en fonction des actions utilisées.
+* Journey Optimizer exige que les événements soient diffusés en continu vers Data Collection Core Service (DCCS) pour pouvoir déclencher un parcours. Les événements ingérés par lot ou les événements provenant de jeux de données Journey Optimizer internes (commentaires des messages, tracking e-mail, etc.) ne peuvent pas être utilisés pour déclencher un parcours. Pour les cas d’utilisation où vous ne pouvez pas obtenir d’événements diffusés en continu, vous devez créer une audience basée sur ces événements et utiliser l’activité **Lecture d’audience** à la place. La qualification de l’audience peut techniquement être utilisée, mais elle n’est pas recommandée, car elle peut entraîner des défis en aval en fonction des actions utilisées.
+
 
 ### Sources de données {#data-sources-g}
 
@@ -126,23 +127,44 @@ Vous pouvez choisir l’une des deux solutions suivantes :
 
 * Configurer un parcours qui n’utilise pas immédiatement le profil. Par exemple, si le parcours est conçu pour confirmer la création d’un compte, l’événement d’expérience peut contenir les informations nécessaires à l’envoi du premier message de confirmation (prénom, nom, adresse e-mail, etc.).
 
+### Mettre à jour le profil {#update-profile-g}
+
+Des barrières de sécurité spécifiques s&#39;appliquent à l&#39;activité **[!UICONTROL Mise à jour de profil]** . Ils sont répertoriés dans [cette page](../building-journeys/update-profiles.md).
+
+
 ### Lecture d’audience {#read-segment-g}
+
+Les barrières de sécurité suivantes s’appliquent à l’activité **[!UICONTROL Lecture d’audience]** :
 
 * Les audiences en flux continu sont toujours à jour, mais les audiences par lots ne sont pas calculées au moment de la récupération. Elles ne sont évaluées que tous les jours au moment de l’évaluation quotidienne des lots.
 * Pour les parcours qui utilisent une activité Lecture d’audience, il y a un nombre maximal de parcours pouvant commencer exactement au même moment. Les reprises seront effectuées par le système, mais évitez d’avoir plus de cinq parcours (avec Lecture d’audience, planifié ou commençant « le plus tôt possible ») commençant exactement au même moment en les répartissant dans le temps, par exemple à 5 ou 10 minutes d’intervalle.
+* L&#39;activité Lecture d&#39;audience ne peut pas être utilisée avec les activités Adobe Campaign.
+* L&#39;activité Lecture d&#39;audience ne peut être utilisée que comme première activité dans un parcours, après une activité d&#39;événement professionnel.
+* Un parcours ne peut avoir qu’une seule activité Lecture d’audience .
+* Voir aussi des recommandations sur l&#39;utilisation de l&#39;activité Lecture d&#39;audience dans [cette page](../building-journeys/read-audience.md).
+
+
+### Qualification de l’audience {#audience-qualif-g}
+
+La barrière de sécurité suivante s’applique à l’activité **[!UICONTROL Qualification de l’audience]** :
+
+* L’activité Qualification d’audience ne peut pas être utilisée avec les activités Adobe Campaign.
+
 
 ### Éditeur d’expression {#expression-editor}
 
-* Les groupes de champs d’événement d’expérience ne peuvent pas être utilisés dans les parcours commençant par une activité Lecture d’audience, Qualification d’audience ou événement métier. Vous devez créer une audience et utiliser une condition dans l’audience dans le parcours.
+* Les groupes de champs d’événement d’expérience ne peuvent pas être utilisés dans les parcours commençant par une activité Lecture d’audience, Qualification d’audience ou événement métier. Vous devez créer une nouvelle audience et utiliser une condition d’inaudience dans le parcours.
 
 
-### Limites des activités in-app {#in-app-activity-limitations}
+### Activité in-app {#in-app-activity-limitations}
 
 * Cette fonctionnalité n’est actuellement pas disponible pour les clientes et clients du secteur de la santé.
 
 * La personnalisation ne peut contenir que des attributs de profil.
 
-* L’affichage in-app est lié à la durée de parcours, ce qui signifie que lorsque le parcours se termine pour un profil, tous les messages in-app de ce parcours ne s’affichent plus pour ce profil.  Par conséquent, il n’est pas possible d’arrêter un message in-app directement à partir d’une activité de parcours. Vous devez plutôt terminer le parcours entier pour que les messages in-app ne s’affichent pas sur le profil.
+* L’activité In-App ne peut pas être utilisée avec les activités Adobe Campaign.
+
+* L’affichage in-app est lié à la durée de parcours, ce qui signifie que lorsque le parcours se termine pour un profil, tous les messages in-app de ce parcours ne s’affichent plus pour ce profil.  Par conséquent, il n’est pas possible d’arrêter un message in-app directement à partir d’une activité de parcours. Au lieu de cela, vous devez terminer le parcours entier pour empêcher l&#39;affichage des messages In-App sur le profil.
 
 * En mode test, l’affichage in-app dépend de la durée de vie du parcours. Pour éviter que le parcours ne se termine trop tôt au cours du test, ajustez la valeur **[!UICONTROL Temps d’attente]** de vos activités **[!UICONTROL Attente]**.
 
@@ -155,6 +177,17 @@ Vous pouvez choisir l’une des deux solutions suivantes :
 ## Mécanismes de sécurisation des audiences {#audience}
 
 * Vous pouvez publier jusqu’à 10 audiences dans un sandbox donné. Si vous avez atteint ce seuil, vous devez supprimer une composition pour libérer de l’espace et en publier une nouvelle.
+
+### Activité Saut {#jump-g}
+
+Des barrières de sécurité spécifiques s’appliquent à l’activité **[!UICONTROL Saut]** . Ils sont répertoriés dans [cette page](../building-journeys/jump.md#jump-limitations).
+
+### Activités de campagne {#ac-g}
+
+Les barrières de sécurité suivantes s&#39;appliquent aux activités **[!UICONTROL Campaign v7/v8]** et **[!UICONTROL Campaign Standard]** :
+
+* Les activités Adobe Campaign ne peuvent pas être utilisées avec une activité Lecture d’audience ou de qualification d’audience .
+* Ces activités ne peuvent pas être utilisées avec les activités in-app.
 
 ## Mécanismes de sécurisation de la gestion des décisions {#decision-management}
 
