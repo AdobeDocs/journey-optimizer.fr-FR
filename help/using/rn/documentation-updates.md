@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 0d93e2a3a5707c6229894459348378a0ae538db1
+source-git-commit: 30144c26a03d145c9dc98c7a4db007d5c454a639
 workflow-type: tm+mt
-source-wordcount: '5447'
+source-wordcount: '5454'
 ht-degree: 99%
 
 ---
@@ -22,6 +22,8 @@ Cette page répertorie toutes les mises à jour récentes de la documentation de
 ## Août 2024 {#aug-2024}
 
 * Les garde-performances de la gestion de la décision ont été mis à jour afin de mentionner les débits de diffusion des API de prise de décision avec/sans segmentation Edge. [En savoir plus](../start/guardrails.md#decision-management)
+* Les barrières de sécurité des parcours ont été mises à jour. [En savoir plus](../start/guardrails.md#journeys-guardrails-journeys)
+
 
 ## Juillet 2024 {#july-2024}
 
