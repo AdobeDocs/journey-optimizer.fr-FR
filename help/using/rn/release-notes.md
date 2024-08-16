@@ -6,9 +6,9 @@ feature: Release Notes
 topic: Content Management
 description: Notes de mise à jour d’Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 470a1a999eeedd94a20bc1b0a49b0f0bce472a1c
+source-git-commit: dc6a91e4999bd8dfb51372f6b4aca47b14fe4029
 workflow-type: tm+mt
-source-wordcount: '889'
+source-wordcount: '888'
 ht-degree: 47%
 
 ---
@@ -79,10 +79,10 @@ Cette version apporte les nouvelles fonctionnalités détaillées ci-dessous.
 <tbody>
 <tr>
 <td>
-<p>Les fonctionnalités actuelles de surface de canal ont été améliorées pour une approche cohérente sur tous les canaux. Vous pouvez maintenant définir, gérer et réutiliser ces configurations pour l’un de vos canaux.</p>
+<p>Les fonctionnalités actuelles de surface de canal ont été améliorées pour une approche cohérente sur tous les canaux. Vous pouvez désormais définir, gérer et réutiliser ces configurations pour l’un de vos canaux, y compris les expériences web, les messages in-app ou basées sur le code.</p>
 <p><ul>
 <li>Les surfaces de canal sont désormais renommées <strong>Configurations de canal</strong></li>
-<li>L’inventaire des configurations de canal vous permet désormais de créer des configurations de canal réutilisables pour tous les canaux, y compris désormais les canaux web, les messages in-app ou l’expérience basée sur le code.</li>
+<li>Vous pouvez joindre une ou plusieurs actions marketing pour appliquer des stratégies de consentement et de gouvernance des données.</li>
 <li>Le contrôle d’accès au niveau de l’objet (OLAC) est désormais disponible pour chaque configuration de canal, ce qui vous permet de décider lequel de vos utilisateurs est autorisé à créer ou à utiliser des configurations spécifiques.</li>
 <li>Pour certains canaux, vous pouvez créer des configurations de canal qui ciblent plusieurs plateformes. Il peut s’agir, par exemple, d’une configuration de canal de messagerie in-app pouvant cibler une page web, une application iOS et une application Android.</li>
 </ul></p>
@@ -91,7 +91,6 @@ Cette version apporte les nouvelles fonctionnalités détaillées ci-dessous.
 </tr>
 </tbody>
 </table>
-
 
 <table>
 <thead>
