@@ -10,10 +10,10 @@ level: Beginner
 keywords: commencer, démarrer, contenu, expérience
 exl-id: 38e82eb2-67d9-4a7d-8c1f-77dab20bcec4
 badge: label="Disponibilité limitée" type="Informative"
-source-git-commit: 59dee15d2952438a074db57a94b3d896b38cd4f3
+source-git-commit: 8484c39cf610fc4044e656243eba88deb8c50867
 workflow-type: tm+mt
-source-wordcount: '1331'
-ht-degree: 100%
+source-wordcount: '1326'
+ht-degree: 95%
 
 ---
 
@@ -173,7 +173,7 @@ Une fois que vous avez configuré votre projet de traduction et les paramètres 
 
    * **[!UICONTROL Traduction en cours]** : votre fournisseur travaille activement sur la traduction.
 
-     Si vous avez sélectionné la **traduction interne** lors de la configuration des **paramètres de langue**, vous pouvez traduire votre contenu directement dans votre projet de traduction. [En savoir plus](#manage-ht-project)
+     Si vous avez sélectionné **Insourcing** lors de la configuration de vos **paramètres linguistiques**, vous pouvez traduire votre contenu directement dans votre projet de traduction. [En savoir plus](#manage-ht-project)
 
    * **[!UICONTROL Prêt pour la révision]** : le processus de révision est prêt à commencer, ce qui vous permet d’accéder à la traduction et de la rejeter ou de l’approuver.
 
@@ -203,11 +203,11 @@ Une fois que vous avez configuré votre projet de traduction et les paramètres 
 
 Vous pouvez maintenant activer votre campagne ou votre parcours. Après l’envoi, vous pouvez mesurer l’impact de votre parcours ou de votre campagne multilingue dans les rapports.
 
-## Gérer un projet de traduction interne {#manage-ht-project}
+## Gérer un projet de traduction d’approvisionnement {#manage-ht-project}
 
-Si vous avez sélectionné la traduction interne lors de la configuration des paramètres de langue, vous pouvez traduire votre contenu directement dans votre projet de traduction.
+Si vous avez sélectionné l’option Insourcing lors de la configuration des paramètres de langue, vous pouvez traduire votre contenu directement dans votre projet de traduction.
 
-1. Dans votre **[!UICONTROL Projet de traduction]**, accédez au menu **[!UICONTROL Plus d’actions]** et sélectionnez **[!UICONTROL Traduction interne]**.
+1. Depuis votre **[!UICONTROL projet de traduction]**, accédez au menu **[!UICONTROL Autres actions]** et sélectionnez **[!UICONTROL Ingestion]**.
 
    ![](assets/inhouse-translation-1.png)
 
