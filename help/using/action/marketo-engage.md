@@ -10,7 +10,7 @@ level: Intermediate
 hide: true
 hidefromtoc: true
 keywords: marketo, marketo engagement de l’intégration
-source-git-commit: 6a49f4b2e0220b1c875b42f70dcb44f3405c6ad2
+source-git-commit: 8a8741281edafb812f92ebb8da6dd68d3535f3e1
 workflow-type: tm+mt
 source-wordcount: '262'
 ht-degree: 1%
@@ -37,17 +37,17 @@ Embarquez sur un parcours d’intégration transparente des données avec Market
 * Dans la liste Actions , cliquez sur Créer une action. En savoir plus sur la création d’actions personnalisées ici (+lien)
 * Saisissez le nom et la description, puis sélectionnez Adobe Marketo Engage comme type d’action.
 
-![](assets/engage-customaction-creation.png)
+![](assets/engage-customaction-creation.png){width="40%" align="left"}
 
 * Cliquez sur Modifier la payload pour les payloads **Request** et **Response**.
 * Pour les deux, composez votre payload et collez-la dans la fenêtre contextuelle dédiée.
 
-![](assets/engage-customaction-payload.png)
+![](assets/engage-customaction-payload.png){width="70%" align="left"}
 
 * Inspect et configuration des valeurs de payload
 Remarque : Pour transmettre des valeurs dynamiquement, pour chaque champ, remplacez **Constante** par **Variable**.
 
-![](assets/engage-customaction-payload-fields.png)
+![](assets/engage-customaction-payload-fields.png){width="70%" align="left"}
 
 * Cliquez sur **Enregistrer** dans la fenêtre de configuration du champ, puis sur **Enregistrer** pour votre action personnalisée.
 
@@ -114,5 +114,5 @@ Vous pouvez désormais utiliser votre action personnalisée sur votre zone de tr
 * Faites glisser l’action personnalisée sur le canevas de parcours. (Voir Comment utiliser une action/un lien personnalisé)
 * Dans Paramètres de requête, cliquez sur Modifier pour chacun des paramètres avec des valeurs dynamiques que vous avez configurées dans la payload.
 
-![](assets/engage-use-canvas.png)
+![](assets/engage-use-canvas.png){width="70%" align="left"}
 
