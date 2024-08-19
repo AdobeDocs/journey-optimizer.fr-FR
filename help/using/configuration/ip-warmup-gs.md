@@ -12,13 +12,13 @@ exl-id: 393f051d-b86d-4b4f-b564-7a9ae3a5d4b8
 source-git-commit: d880d38784c2687f9710e6733c1489601e6760ba
 workflow-type: tm+mt
 source-wordcount: '252'
-ht-degree: 71%
+ht-degree: 100%
 
 ---
 
 # Prise en main des plans de préchauffage d’adresses IP {#ip-warmup-gs}
 
-Avec [!DNL Journey Optimizer], vous pouvez facilement exécuter des workflows de chauffage des adresses IP directement à partir de l’interface utilisateur d’une manière normalisée et efficace, en respectant les bonnes pratiques pour une délivrabilité optimale. Lorsque vous envoyez des e-mails à l&#39;aide d&#39;une nouvelle plateforme, rien n&#39;est plus suspect pour un FAI (fournisseur d&#39;accès internet) que les adresses IP qui ne sont pas reconnues. Si des e-mails sont subitement envoyés en masse, le FAI les marque souvent comme spam.
+Avec [!DNL Journey Optimizer], vous pouvez facilement exécuter des workflows de préchauffage d’adresses IP directement à partir de l’interface d’utilisation, et ce d’une manière normalisée et efficace qui respecte les bonnes pratiques pour une délivrabilité optimale. Lorsque vous envoyez des e-mails à l&#39;aide d&#39;une nouvelle plateforme, rien n&#39;est plus suspect pour un FAI (fournisseur d&#39;accès internet) que les adresses IP qui ne sont pas reconnues. Si des e-mails sont subitement envoyés en masse, le FAI les marque souvent comme spam.
 
 Pour éviter que les e-mails soient marqués comme spam, vous pouvez augmenter progressivement le volume envoyé à l’aide de la fonctionnalité du plan de préchauffage d’adresses IP. Cette nouvelle option dans le menu **[!UICONTROL Administration]** vous permet de le faire plus facilement de manière consolidée au lieu de créer des parcours quotidiens complexes.
 
@@ -26,9 +26,9 @@ Pour éviter que les e-mails soient marqués comme spam, vous pouvez augmenter p
 
 >[!AVAILABILITY]
 >
->Cette fonctionnalité ne peut être activée que sur les environnements de test de type production.
+>Cette fonctionnalité ne peut être activée que sur les sandbox de type production.
 >
->Elle n’est pas disponible pour les organisations qui ont acheté les modules complémentaires **Bouclier de santé** ou **Bouclier de protection et de confidentialité** de l’Adobe.
+>Elle n’est pas disponible pour les organisations qui ont acheté les offres complémentaires **Healthcare Shield** et **Privacy and Security Shield** d’Adobe.
 
 
 
@@ -60,4 +60,4 @@ Découvrez comment créer et exécuter un plan de préchauffage des adresses IP
 
 >[!NOTE]
 >
->Pour en savoir plus sur l&#39;amélioration de la réputation de vos emails grâce au réchauffement des adresses IP, consultez le [guide des bonnes pratiques de délivrabilité](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/generic-resources/increase-reputation-with-ip-warming.html?lang=fr).
+>Apprenez-en plus sur la façon d’accroître la réputation de vos e-mails grâce au préchauffage dʼadresses IP dans la section [Guide des bonnes pratiques en matière de délivrabilité](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/generic-resources/increase-reputation-with-ip-warming.html?lang=fr).
