@@ -5,10 +5,10 @@ feature: Decision Management, API, Collections
 topic: Integrations
 role: Data Engineer
 level: Experienced
-source-git-commit: dcff8803404228bbed40e998d802bb6c0f4ac67e
+source-git-commit: eb89bc5205d98a67cd0bb42bebbd9429786e33e7
 workflow-type: tm+mt
-source-wordcount: '169'
-ht-degree: 46%
+source-wordcount: '137'
+ht-degree: 44%
 
 ---
 
@@ -19,15 +19,7 @@ Vous pouvez modifier ou mettre à jour un élément de décision en adressant un
 
 Pour plus d&#39;informations sur JSON Patch, notamment les opérations disponibles, consultez la [documentation JSON Patch](http://jsonpatch.com/) officielle.
 
-**En-têtes Accept et Content-Type**
-
-Le tableau suivant affiche les valeurs valides qui comprennent les champs Content-Type dans l’en-tête de la requête :
-
-| Nom de l&#39;en-tête | Valeur |
-| ----------- | ----- |
-| Content-Type | `application/json` |
-
-**Format d&#39;API**
+**Format d’API**
 
 ```http
 PATCH /{ENDPOINT_PATH}/offer-items/{ID}
@@ -66,11 +58,11 @@ curl -X PATCH 'https://platform.adobe.io/data/core/dps/offer-items/offerItem1234
 | --------- | ----------- |
 | `value` | Nouvelle valeur avec laquelle vous souhaitez mettre à jour votre paramètre. |
 | `path` | Chemin d’accès du paramètre à mettre à jour. |
-| `op` | Appel d’opération utilisé pour définir l’action nécessaire pour mettre à jour la connexion. Les opérations comprennent : `add`, `replace`, `remove`, `copy` et `test`. |
+| `op` | Type d’opération à effectuer. Les opérations comprennent : `add`, `replace`, `remove`, `copy` et `test`. |
 
 **Réponse**
 
-Une réponse réussie renvoie les détails de l’élément de décision nouvellement créé, y compris l’identifiant. Vous pouvez utiliser l’ID aux étapes suivantes pour mettre à jour ou supprimer votre élément de décision.
+Une réponse réussie renvoie les détails de l’élément mis à jour, y compris l’identifiant. Vous pouvez utiliser l’ID aux étapes suivantes pour mettre à jour ou supprimer votre élément de décision.
 
 ```json
 {

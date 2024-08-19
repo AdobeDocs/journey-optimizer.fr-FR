@@ -5,10 +5,10 @@ feature: Decision Management, API, Collections
 topic: Integrations
 role: Data Engineer
 level: Experienced
-source-git-commit: dcff8803404228bbed40e998d802bb6c0f4ac67e
+source-git-commit: eb89bc5205d98a67cd0bb42bebbd9429786e33e7
 workflow-type: tm+mt
-source-wordcount: '105'
-ht-degree: 23%
+source-wordcount: '81'
+ht-degree: 25%
 
 ---
 
@@ -17,15 +17,7 @@ ht-degree: 23%
 
 Vous pouvez créer une stratégie de sélection en adressant une requête de POST à l’API de bibliothèque des offres.
 
-**En-têtes Accept et Content-Type**
-
-Le tableau suivant affiche les valeurs valides qui comprennent les champs Content-Type dans l’en-tête de la requête :
-
-| Nom de l&#39;en-tête | Valeur |
-| ----------- | ----- |
-| Content-Type | `application/json` |
-
-**Format d&#39;API**
+**Format d’API**
 
 ```http
 POST /{ENDPOINT_PATH}/selection-strategies 

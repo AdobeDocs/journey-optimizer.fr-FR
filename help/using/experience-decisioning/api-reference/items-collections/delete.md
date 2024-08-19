@@ -1,14 +1,14 @@
 ---
 title: Suppression d’une collection d’éléments
-description: Les collections vous permettent de classer et de regrouper des éléments de décision en fonction de vos préférences.
+description: Découvrez comment classer les décisions de groupe en collections.
 feature: Decision Management, API, Collections
 topic: Integrations
 role: Data Engineer
 level: Experienced
-source-git-commit: dc47e2835379fbb2afb768beea6e4a1596f70ee9
+source-git-commit: eb89bc5205d98a67cd0bb42bebbd9429786e33e7
 workflow-type: tm+mt
-source-wordcount: '120'
-ht-degree: 27%
+source-wordcount: '116'
+ht-degree: 28%
 
 ---
 

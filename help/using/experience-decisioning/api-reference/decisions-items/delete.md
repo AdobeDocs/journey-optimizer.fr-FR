@@ -5,17 +5,17 @@ feature: Decision Management, API, Collections
 topic: Integrations
 role: Data Engineer
 level: Experienced
-source-git-commit: c555e6a6d88f43d7c29e27060d464b8fd21aed96
+source-git-commit: eb89bc5205d98a67cd0bb42bebbd9429786e33e7
 workflow-type: tm+mt
-source-wordcount: '122'
-ht-degree: 27%
+source-wordcount: '112'
+ht-degree: 29%
 
 ---
 
 
 # Suppression d’un élément de décision {#delete-decision-item}
 
-Il peut parfois être nécessaire de supprimer (DELETE) un élément de décision. Pour ce faire, il vous suffit d’adresser une requête de DELETE à l’API de bibliothèque des offres à l’aide de l’identifiant de l’élément de décision que vous souhaitez supprimer.
+Pour supprimer un élément de décision, envoyez une requête de DELETE à l’API de bibliothèque des offres avec l’identifiant de l’élément de décision que vous souhaitez supprimer.
 
 **Format d’API**
 
