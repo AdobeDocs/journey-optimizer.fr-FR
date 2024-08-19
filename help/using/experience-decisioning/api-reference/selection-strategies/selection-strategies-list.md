@@ -1,0 +1,129 @@
+---
+title: Stratégies de sélection de liste
+description: Les stratégies de sélection se composent de collections associées à des contraintes et à des méthodes de classement pour déterminer les offres.
+feature: Decision Management, API, Collections
+topic: Integrations
+role: Data Engineer
+level: Experienced
+source-git-commit: c555e6a6d88f43d7c29e27060d464b8fd21aed96
+workflow-type: tm+mt
+source-wordcount: '211'
+ht-degree: 60%
+
+---
+
+
+# Stratégies de sélection de liste {#list-selection-strategies}
+
+Une stratégie de sélection se compose d’une collection associée à une contrainte d’éligibilité et d’une méthode de classement permettant de déterminer les offres à afficher lorsqu’elles sont sélectionnées dans une [stratégie de décision](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/decisioning/experience-decisioning/create-decision).
+
+Vous pouvez afficher une liste de toutes les stratégies de sélection en adressant une seule requête de GET à l’API de la bibliothèque des offres.
+
+**Format d’API**
+
+```http
+GET /{ENDPOINT_PATH}/selection-strategies?{QUERY_PARAMS}
+```
+
+| Paramètre | Description | Exemple |
+| --------- | ----------- | ------- |
+| `{ENDPOINT_PATH}` | Chemin d’accès de point d’entrée pour les API Persistence | `https://platform.adobe.io/data/core/dps` |
+| `{QUERY_PARAMS}` | Paramètres de requête facultatifs en fonction desquels filtrer les résultats. | `limit=2` |
+
+## Utilisation des paramètres de requête {#using-query-parameters}
+
+Vous pouvez utiliser des paramètres de requête pour paginer et filtrer les résultats lors de l&#39;organisation en liste des ressources.
+
+### Pagination {#paging}
+
+Les paramètres de requête les plus courants pour la pagination sont les suivants :
+
+| Paramètre | Description | Exemple |
+| --------- | ----------- | ------- |
+| `property` | Un filtre de propriété facultatif : <ul><li>Les propriétés sont regroupées par opération AND.</li><li>Les paramètres peuvent être répétés comme suit : property={PROPERTY_EXPR}[&amp;property={PROPERTY_EXPR2}...] ou property={PROPERTY_EXPR1}[,{PROPERTY_EXPR2}...].</li><li>Les expressions de propriété sont au format `[!]field[op]value`, avec `op` dans `[==,!=,<=,>=,<,>,~]`, prenant en charge les expressions régulières.</li></ul> | `property=name!=abc&property=id~.*1234.*&property=description equivalent with property=name!=abc,id~.*1234.*,description.` |
+| `orderBy` | Triez les résultats en fonction d&#39;une propriété spécifique. L’ajout d’un - avant le nom (orderby=-name) triera les éléments par nom dans l’ordre décroissant (Z-A). Les expressions de chemin se présentent sous la forme de chemins séparés par des points. Ce paramètre peut être répété comme suit : `orderby=field1[,-fields2,field3,...]` | `orderby=id`,`-name` |
+| `limit` | Limitez le nombre d’entitées renvoyées. | `limit=5` |
+
+**Requête**
+
+```shell
+curl -X GET 'https://platform.adobe.io/data/core/dps/selection-strategies?limit=2' \
+-H 'Accept: *,application/json' \
+-H 'Authorization: Bearer {ACCESS_TOKEN}' \
+-H 'x-api-key: {API_KEY}' \
+-H 'x-gw-ims-org-id: {IMS_ORG}' \
+-H 'x-sandbox-name: {SANDBOX_NAME}'
+```
+
+**Réponse**
+
+Une réponse réussie renvoie une liste des stratégies de sélection auxquelles vous avez accès.
+
+```json
+{
+    "results": [
+        {
+            "created": "2024-02-08T03:01:50.924Z",
+            "modified": "2024-02-16T23:03:03.019Z",
+            "etag": 4,
+            "schemas": [
+                "https://ns.adobe.com/experience/offer-management/selection-strategy;version=0.2"
+            ],
+            "createdBy": "{CREATED_BY}",
+            "lastModifiedBy": "{MODIFIED_BY}",
+            "id": "selectionStrategy1234",
+            "name": "Selection Strategy One",
+            "description": "Selection Strategy",
+            "rank": {
+                "priority": 1,
+                "order": {
+                    "orderEvaluationType": "static"
+                }
+            },
+            "profileConstraint": {
+                "profileConstraintType": "eligibilityRule",
+                "eligibilityRule": "offerRule1234"
+            },
+            "optionSelection": {
+                "filter": "itemCollection1234",
+            }
+        },
+        {
+            "created": "2024-01-11T11:12:06.775Z",
+            "modified": "2024-01-15T14:36:02.994Z",
+            "etag": 2,
+            "schemas": [
+                "https://ns.adobe.com/experience/offer-management/selection-strategy;version=0.1"
+            ],
+            "createdBy": "{CREATED_BY}",
+            "lastModifiedBy": "{MODIFIED_BY}",
+            "id": "selectionStrategy5678",
+            "name": "Selection Strategy Two",
+            "rank": {
+                "priority": 1,
+                "order": {
+                    "orderEvaluationType": "scoringFunction",
+                    "function": "rankingFormula5678"
+                }
+            },
+            "profileConstraint": {
+                "profileConstraintType": "none"
+            "optionSelection": {
+                "filter": "itemCollection5678"
+            }
+        }
+    ],
+    "count": 2,
+    "total": 166,
+    "_links": {
+        "self": {
+            "href": "/selection-strategies?orderby=-modified&limit=2",
+            "type": "application/json"
+        },
+        "next": {
+            "href": "/selection-strategies?orderby=-modified&limit=2&start=2024-06-04T23:37:33.980Z",
+            "type": "application/json"
+        }
+    }
+}
+```
