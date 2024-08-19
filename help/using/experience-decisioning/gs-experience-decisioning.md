@@ -8,9 +8,9 @@ level: Intermediate
 badge: label="Disponibilité limitée"
 exl-id: 4c57dbf9-b2a4-42da-8aa3-5a1b3a475a32
 source-git-commit: 1d8ea66425b21ec831542bb36bb283c23760e94f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '420'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 93%
 
 Décisions pour les expériences simplifie la personnalisation en offrant un catalogue centralisé d’offres marketing connues sous le nom d’« éléments de décision » et un moteur de décision sophistiqué. Ce moteur tire parti des règles et des critères de classement pour sélectionner et présenter les éléments de décision les plus pertinents à chaque individu.
 
-Ces éléments de décision sont intégrés de manière transparente à un large éventail de surfaces entrantes par le biais du [nouveau canal d’expérience basé sur le code](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/code-based-experience/get-started-code-based), désormais accessible dans les campagnes Journey Optimizer. Les politiques de décision de prise de décision basée sur l’expérience ne peuvent être utilisées que dans des campagnes d’expérience basées sur du code.
+Ces éléments de décision sont intégrés de manière transparente à un large éventail de surfaces entrantes grâce au [nouveau canal d’expérience basé sur le code](https://experienceleague.adobe.com/fr/docs/journey-optimizer/using/code-based-experience/get-started-code-based), désormais accessible dans les campagnes Journey Optimizer. Les politiques de décision de prise de décision basée sur l’expérience ne peuvent être utilisées que dans des campagnes d’expérience basées sur du code.
 
 ## Étapes clés d’Experience Decisioning {#steps}
 

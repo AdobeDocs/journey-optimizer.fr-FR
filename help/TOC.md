@@ -6,9 +6,9 @@ user-guide-description: Utilisez Journey Optimizer pour créer et proposer aux 
 type: Documentation
 solution: Journey Optimizer
 source-git-commit: 9add1b2a5f6941773416daea2366f58851a6028a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1889'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -61,7 +61,7 @@ ht-degree: 99%
       + [Prise en main des activités de parcours](using/building-journeys/about-journey-activities.md)
       + [Événements généraux](using/building-journeys/general-events.md)
       + [Réaction](using/building-journeys/reaction-events.md)
-      + [Qualification de l’audience](using/building-journeys/audience-qualification-events.md)
+      + [Qualification d’audience](using/building-journeys/audience-qualification-events.md)
       + [Condition](using/building-journeys/condition-activity.md)
       + [Attente](using/building-journeys/wait-activity.md)
       + [Lecture d’audience](using/building-journeys/read-audience.md)
@@ -70,7 +70,7 @@ ht-degree: 99%
       + [Actions d&#39;Adobe Campaign Standard](using/building-journeys/using-adobe-campaign-standard.md)
       + [Actions d’Adobe Campaign v7/v8](using/building-journeys/using-adobe-campaign-v7-v8.md)
       + [Saut](using/building-journeys/jump.md)
-      + [Mise à jour du profil](using/building-journeys/update-profiles.md)
+      + [Mettre à jour le profil](using/building-journeys/update-profiles.md)
    + Création d’expressions {#building-advanced-conditions-journeys}
       + [Utiliser l’éditeur d’expression avancé](using/building-journeys/expression/expressionadvanced.md)
       + Syntaxe {#syntax}
@@ -608,7 +608,7 @@ ht-degree: 99%
          + [Intégration à Adobe Campaign Standard](using/action/acs-action.md)
          + [Intégration à Adobe Campaign v7/v8](using/action/acc-action.md)
          + [Utiliser des réponses d’appel API dans des actions personnalisées](using/action/action-response.md)
-         + [Intégration avec Marketo Engage](using/action/marketo-engage.md)
+         + [Intégration à Marketo Engage](using/action/marketo-engage.md)
    + [Sources](using/start/get-started-sources.md)
 + Contrôle d’accès {#access-control}
    + Vue d’ensemble du contrôle d’accès {#privacy}

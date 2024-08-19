@@ -10,9 +10,9 @@ level: Intermediate
 keywords: activité, parcours, lecture, audience, platform
 exl-id: 7b27d42e-3bfe-45ab-8a37-c55b231052ee
 source-git-commit: 817f9c16ae48b1127e5092add6fbcefa8dd3ba9f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1478'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -41,7 +41,7 @@ Prenons l’exemple de l’audience « Ouverture et passage en caisse de l’ap
 
 * Les audiences [importées d’un fichier CSV](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=fr#import-audience) ou résultant de [workflows de composition](../audience/get-started-audience-orchestration.md) peuvent être sélectionnées dans l’activité **Lecture d’audience**. Ces audiences ne sont pas disponibles dans l’activité **Qualification de l’audience**.
 
-Les barrières de sécurité liées à l&#39;activité **Lecture d&#39;audience** sont répertoriées dans [cette page](../start/guardrails.md#read-segment-g).
+Les mécanismes de sécurisation liés à l’activité **Lecture d’audience** sont répertoriées sur [cette page](../start/guardrails.md#read-segment-g).
 
 
 ## Configurer l’activité {#configuring-segment-trigger-activity}

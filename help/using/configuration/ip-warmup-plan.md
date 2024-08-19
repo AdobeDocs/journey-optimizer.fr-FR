@@ -10,9 +10,9 @@ level: Experienced
 keywords: IP, groupe, sous-domaines, délivrabilité
 exl-id: c2434086-2ed4-4cd0-aecd-2eea8f0a55f6
 source-git-commit: bdd3b951e44adaf3ff362b8af69f5ab74d13f484
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1665'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -98,9 +98,9 @@ Vous trouverez ci-dessous un exemple de fichier contenant un plan de préchauffa
 
 * Ce plan est exécuté en six **phases**, chacune d’elles contenant au moins une exécution.
 
-* Vous pouvez avoir jusqu’à 6 colonnes (4 colonnes pour les groupes de domaines, une pour la colonne **Autres** et une pour la colonne **Jours d’engagement**). Dans cet exemple, le plan est divisé en six colonnes :
+* Vous pouvez disposer de 6 colonnes au maximum (4 colonnes pour les groupes de domaines, une pour la colonne **Autres** et une pour la colonne **Jours d’engagement**). Dans cet exemple, le plan est divisé en six colonnes :
 
-   * Trois d’entre eux correspondent à des **groupes de domaines d’usine** à utiliser dans votre plan (Gmail, Microsoft et Orange).
+   * Quatre d’entre elles correspondent aux **groupes de domaines prêts à l’emploi** à utiliser dans votre plan (Gmail, Microsoft et Orange).
    * L’une correspond à un groupe de domaines personnalisé (que vous devez ajouter à l’aide de l’onglet [Groupe de domaines personnalisé](#custom-domain-group-tab)).
    * La cinquième colonne, **Autres**, contient toutes les adresses restantes d’autres domaines qui ne sont pas explicitement couverts dans le plan. Cette colonne est facultative : si elle est omise, les e-mails seront envoyés uniquement aux domaines spécifiés.
    * La dernière colonne, **Jours d’engagement**, vous permet de spécifier le nombre de jours pendant lesquels l’engagement doit être suivi ou évalué.
