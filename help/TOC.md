@@ -5,7 +5,7 @@ user-guide-title: Guide de Journey Optimizer
 user-guide-description: Utilisez Journey Optimizer pour créer et proposer aux clients des expériences connectées, contextuelles et personnalisées
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: f0a131313eb96ef50b5a27011d67e59eb730b108
+source-git-commit: 3f6d1026d78584e21e03d3ef5c1bc37b59168176
 workflow-type: tm+mt
 source-wordcount: '1942'
 ht-degree: 97%
@@ -538,20 +538,20 @@ ht-degree: 97%
             + [API Batch Decisioning](using/offers/api-reference/offer-delivery-api/batch-decisioning-api.md)
    + Décisions pour les expériences (disponibilité limitée) {#experience-decisioning}
       + [Commencer avec les décisions pour les expériences](using/experience-decisioning/gs-experience-decisioning.md)
-      + [Référence d’API]{#api-reference}
-         + [Éléments de décision]{#decision-items}
+      + Référence d’API{#api-reference}
+         + Éléments de décision{#decision-items}
             + [Créer des éléments de décision](using/experience-decisioning/api-reference/decisions-items/create.md)
             + [Liste des éléments de décision](using/experience-decisioning/api-reference/decisions-items/decision-items-list.md)
             + [Supprimer des éléments de décision](/help/using/experience-decisioning/api-reference/decisions-items/delete.md)
             + [Rechercher des éléments de décision](/help/using/experience-decisioning/api-reference/decisions-items/lookup.md)
             + [Mise à jour des éléments de décision](/help/using/experience-decisioning/api-reference/decisions-items/update.md)
-         + [ Articles collections]{#items-collections}
+         + Collections d’éléments{#items-collections}
             + [Création de collections d’éléments](/help/using/experience-decisioning/api-reference/items-collections/create.md)
             + [Suppression de collections d’éléments](/help/using/experience-decisioning/api-reference/items-collections/delete.md)
             + [Liste des collections d’éléments](/help/using/experience-decisioning/api-reference/items-collections/items-collections-list.md)
             + [Recherche de collections d’éléments](/help/using/experience-decisioning/api-reference/items-collections/lookup.md)
             + [Mise à jour de collections d’éléments](/help/using/experience-decisioning/api-reference/items-collections/update.md)
-         + [Stratégies de sélection]{#selection-strategies}
+         + Stratégies de sélection{#selection-strategies}
             + [Créer des stratégies de sélection](/help/using/experience-decisioning/api-reference/selection-strategies/create.md)
             + [Suppression des stratégies de sélection](/help/using/experience-decisioning/api-reference/selection-strategies/delete.md)
             + [Stratégies de sélection de recherche](/help/using/experience-decisioning/api-reference/selection-strategies/lookup.md)
