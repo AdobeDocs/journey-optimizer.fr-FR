@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Notes de mise à jour d’Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 2fe963b43f08a99e000a916571f5b04a4a96c845
+source-git-commit: d971d857a480868f5ef502f3a3f2c209afc93cca
 workflow-type: tm+mt
-source-wordcount: '892'
-ht-degree: 47%
+source-wordcount: '604'
+ht-degree: 70%
 
 ---
 
@@ -39,58 +39,57 @@ ht-degree: 47%
 
 Cette version apporte les nouvelles fonctionnalités détaillées ci-dessous.
 
-<table>
+<!--table>
 <thead>
 <tr>
-<th><strong>Configuration de canal guidée</strong><br/></th>
+<th><strong>Guided Channel Setup</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>La configuration guidée du canal vous permet d’automatiser et de valider la configuration du canal dans une expérience unifiée, ce qui accélère le processus de prise en main de Journey Optimizer. Cette nouvelle configuration assistée simplifie la configuration rapide des canaux, en s’assurant que toutes les ressources nécessaires sont facilement installées et qu’elles fonctionnent dans Experience Platform, Journey Optimizer et Data Collection. Cela permet aux équipes d’ingénierie marketing, produit et données de commencer rapidement par la création de campagnes et de parcours.</p>
+<p>Guided Channel Setup enables you to automate and validate channel setup in a unified experience, speeding up the process of getting started with Journey Optimizer. This new guided setup streamlines rapid channel configuration, ensuring all necessary resources are readily installed and working within Experience Platform, Journey Optimizer, and Data Collection. This enables marketing, product and data engineering teams to quickly begin with campaign and journey creation.</p>
 </td>
 </tr>
 </tbody>
-</table>
+</table-->
 
-<table>
+<!--table>
 <thead>
 <tr>
-<th><strong>Cartes de contenu</strong><br/></th>
+<th><strong>Content Cards</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>La carte de contenu est une nouvelle fonctionnalité de messagerie numérique de Adobe Journey Optimizer qui fournit du contenu personnalisé et attrayant directement dans les applications mobiles et les sites web. Contrairement aux notifications push traditionnelles, les cartes de contenu s’intègrent de manière transparente à l’interface utilisateur, offrant des mises à jour persistantes et non intrusives qui améliorent l’interaction et l’expérience utilisateur.</p>
-<p>Grâce à cette fonctionnalité, les marketeurs peuvent présenter du contenu multimédia pertinent aux utilisateurs, augmenter l’engagement des utilisateurs et veiller à ce que les messages importants soient affichés sans interrompre le parcours de l’utilisateur.</p>
+<p>Content card is a new digital messaging feature in Adobe Journey Optimizer that delivers personalized and engaging content directly within mobile apps and websites. Unlike traditional push notifications, Content Cards integrate seamlessly into the user interface, offering persistent, non-intrusive updates that enhance user interaction and experience.</p>
+<p>This feature enables marketers to present relevant, rich media content to users, driving higher engagement and ensuring important messages are seen without disrupting the user journey.</p>
 </td>
 </tr>
 </tbody>
-</table>
+</table-->
 
-<table>
+<!--table>
 <thead>
 <tr>
-<th><strong>Amélioration des configurations de canal</strong><br/></th>
+<th><strong>Improved Channel Configurations</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Les fonctionnalités actuelles de surface de canal ont été améliorées pour une approche cohérente sur tous les canaux. Vous pouvez désormais définir, gérer et réutiliser ces configurations pour l’un de vos canaux, y compris les expériences web, les messages in-app ou basées sur le code.</p>
+<p>The current channel surface capabilities have been enhanced for a consistent approach across all channels. You can now define, manage, and reuse these configurations for any of your channels, including Web, In-app messaging, or Code-based experience.</p>
 <p><ul>
-<li>Les surfaces de canal sont désormais renommées <strong>Configurations de canal</strong></li>
-<li>Vous pouvez joindre une ou plusieurs actions marketing pour appliquer des stratégies de consentement et de gouvernance des données.</li>
-<li>Le contrôle d’accès au niveau de l’objet (OLAC) est désormais disponible pour chaque configuration de canal, ce qui vous permet de décider lequel de vos utilisateurs est autorisé à créer ou à utiliser des configurations spécifiques.</li>
-<li>Pour certains canaux, vous pouvez créer des configurations de canal qui ciblent plusieurs plateformes. Il peut s’agir, par exemple, d’une configuration de canal de messagerie in-app pouvant cibler une page web, une application iOS et une application Android.</li>
+<li>Channel surfaces are now renamed to <strong>Channel configurations</strong></li>
+<li>You can attach one or multiple marketing actions to enforce consent and data governance policies</li>
+<li>Object level access control (OLAC) is now available for each channel configuration, allowing you to decide which of your users are allowed to create or use specific configurations</li>
+<li>For some channels, you can create channel configurations that target multiple platforms. An example here would be an In-app messaging channel configuration that can target a web page, an iOS app and an Android app.</li>
 </ul></p>
-<!--p>For more information, refer to the <a href="../configuration/ip-warmup-gs.md">detailed documentation</a>.</p-->
 </td>
 </tr>
 </tbody>
-</table>
+</table-->
 
 <table>
 <thead>
@@ -133,7 +132,7 @@ Cette version apporte les nouvelles fonctionnalités détaillées ci-dessous.
 <tbody>
 <tr>
 <td>
-<p>Date de disponibilité : 13 août</p>
+<p>Date de disponibilité : 13 août</p>
 <p>Si vous envoyez des e-mails sur une toute nouvelle adresse IP, vous pouvez désormais facilement exécuter des workflows de préchauffage d’adresses IP directement à partir de l’interface d’utilisation. Adobe Journey Optimizer offre un moyen standardisé et efficace de préchauffer vos adresses IP en respectant les bonnes pratiques de délivrabilité optimale.</p>
 <p>Pour plus d’informations, consultez la <a href="../configuration/ip-warmup-gs.md">documentation détaillée</a>.</p>
 </td>
@@ -148,7 +147,7 @@ Cette version apporte les améliorations répertoriées ci-dessous.
 
 **Parcours**
 
-* Dans l’activité **Condition**, par défaut, la condition Heure est désormais définie par heure, de 00:00 à 12:00. [En savoir plus](../building-journeys/condition-activity.md#time_condition)
+<!--* In the **Condition** activity, by default, the Time condition is now set by hour, from 00:00 to 12:00. [Read more](../building-journeys/condition-activity.md#time_condition)-->
 * Lors de la création de vos parcours, les alertes s’affichent désormais dans une liste déroulante, afin de s’aligner sur les alertes de campagne et d’offrir une expérience utilisateur cohérente. [En savoir plus](../building-journeys/troubleshooting.md#checking-for-errors-before-testing)
 * Les options de zoom de la barre d’outils de parcours ont été améliorées : le pourcentage de zoom est désormais visible et vous pouvez désormais facilement réinitialiser la valeur de zoom sur 100 %.
 
