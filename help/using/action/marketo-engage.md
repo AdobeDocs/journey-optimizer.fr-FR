@@ -11,7 +11,7 @@ hide: true
 hidefromtoc: true
 keywords: marketo, intégration marketo engage
 source-git-commit: 8a8741281edafb812f92ebb8da6dd68d3535f3e1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '262'
 ht-degree: 100%
 
