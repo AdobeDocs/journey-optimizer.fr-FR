@@ -8,10 +8,10 @@ topic: Content Management
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 128a56b543f470bf967fd195fde73ff7b32b2a17
+source-git-commit: 428e08ca712724cb0b3453681bee1c7e86ce49dc
 workflow-type: tm+mt
-source-wordcount: '633'
-ht-degree: 34%
+source-wordcount: '325'
+ht-degree: 61%
 
 ---
 
@@ -28,77 +28,6 @@ ht-degree: 34%
 ### Nouvelles fonctionnalités {#e-features}
 
 Cette version apporte les nouvelles fonctionnalités détaillées ci-dessous.
-
-
-<table>
-<thead>
-<tr>
-<th><strong>Configuration de canal guidée</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>La configuration guidée du canal vous permet d’automatiser les étapes de configuration du canal mobile dans une expérience unifiée afin de commencer plus rapidement avec Journey Optimizer. Cette configuration facilite la configuration rapide des canaux marketing, en s’assurant que toutes les ressources requises sont facilement disponibles dans Experience Platform, Journey Optimizer et Data Collection. Cela permet à votre équipe marketing de commencer immédiatement la création de campagne et de parcours.</p>
-</td>
-</tr>
-</tbody>
-</table>
-
-<table>
-<thead>
-<tr>
-<th><strong>Cartes de contenu</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>La carte de contenu est une nouvelle fonctionnalité de messagerie numérique de Adobe Journey Optimizer qui fournit du contenu personnalisé et attrayant directement dans les applications mobiles et les sites web. Contrairement aux notifications push traditionnelles, les cartes de contenu s’intègrent de manière transparente à l’interface utilisateur, offrant des mises à jour persistantes et non intrusives qui améliorent l’interaction et l’expérience utilisateur.</p>
-<p>Grâce à cette fonctionnalité, les marketeurs peuvent présenter du contenu multimédia pertinent aux utilisateurs, augmenter l’engagement des utilisateurs et veiller à ce que les messages importants soient affichés sans interrompre le parcours de l’utilisateur.</p>
-</td>
-</tr>
-</tbody>
-</table>
-
-<table>
-<thead>
-<tr>
-<th><strong>Amélioration des configurations de canal</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>Les fonctionnalités actuelles de surface de canal ont été améliorées pour une approche cohérente sur tous les canaux. Vous pouvez maintenant définir, gérer et réutiliser ces configurations pour l’un de vos canaux.</p>
-<p><ul>
-<li>Les surfaces de canal sont désormais renommées <strong>Configurations de canal</strong></li>
-<li>L’inventaire des configurations de canal vous permet désormais de créer des configurations de canal réutilisables pour tous les canaux, y compris désormais les canaux web, les messages in-app ou l’expérience basée sur le code.</li>
-<li>Le contrôle d’accès au niveau de l’objet (OLAC) est désormais disponible pour chaque configuration de canal, ce qui vous permet de décider lequel de vos utilisateurs est autorisé à créer ou à utiliser des configurations spécifiques.</li>
-<li>Pour certains canaux, vous pouvez créer des configurations de canal qui ciblent plusieurs plateformes. Il peut s’agir, par exemple, d’une configuration de canal de messagerie in-app pouvant cibler une page web, une application iOS et une application Android.</li>
-</ul></p>
-<p>Pour plus d’informations, consultez la <a href="../configuration/ip-warmup-gs.md">documentation détaillée</a>.</p>
-</td>
-</tr>
-</tbody>
-</table>
-
-
-<table>
-<thead>
-<tr>
-<th><strong>Action personnalisée Marketo Engage</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>Vous pouvez désormais intégrer Adobe Journey Optimizer à Adobe Marketo Engage pour créer vos cas d’utilisation B2B. Depuis un parcours, une nouvelle action personnalisée vous permet d’ingérer des données dans Marketo.</p>
-</td>
-</tr>
-</tbody>
-</table>
-
 
 <table>
 <thead>
@@ -125,7 +54,7 @@ Cette version apporte les nouvelles fonctionnalités détaillées ci-dessous.
 <tbody>
 <tr>
 <td>
-<p>Date de disponibilité : 13 août</p>
+<p>Date de disponibilité : 13 août</p>
 <p>Si vous envoyez des e-mails sur une toute nouvelle adresse IP, vous pouvez désormais facilement exécuter des workflows de préchauffage d’adresses IP directement à partir de l’interface d’utilisation. Adobe Journey Optimizer offre un moyen standardisé et efficace de préchauffer vos adresses IP en respectant les bonnes pratiques de délivrabilité optimale.</p>
 <p>Pour plus d’informations, consultez la <a href="../configuration/ip-warmup-gs.md">documentation détaillée</a>.</p>
 </td>
@@ -163,6 +92,7 @@ Cette version est fournie avec les améliorations répertoriées ci-dessous.
 
 * L’utilisation d’audiences issues d’un chargement personnalisé (fichier CSV) est désormais disponible avec Privacy and Security Shield.
 * Lors du ciblage d’une audience de téléchargement personnalisée (fichier CSV), vous pouvez désormais utiliser les attributs du fichier dans vos campagnes et parcours. Ces attributs sont disponibles dans l’éditeur de personnalisation, pour personnaliser vos messages et dans l’éditeur d’expression avancé de parcours.
+
 
 <!--
 **Push channel**

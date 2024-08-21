@@ -8,14 +8,18 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: ec15e700-7659-4dbf-8446-6534ea48c5c8
-source-git-commit: 83997271d16e15fb0d7ccdd21aa8ac8b8221a0d5
+source-git-commit: 428e08ca712724cb0b3453681bee1c7e86ce49dc
 workflow-type: tm+mt
-source-wordcount: '828'
-ht-degree: 100%
+source-wordcount: '873'
+ht-degree: 94%
 
 ---
 
 # Prise en main du rapport global {#global-report}
+
+>[!AVAILABILITY]
+>
+>L’expérience de création de rapports actuelle sera abandonnée à compter de la version d’octobre. À compter de cette date, la nouvelle expérience de création de rapports deviendra la norme. Nous vous recommandons de vous familiariser avec les nouvelles fonctionnalités pour garantir une transition fluide. [Prise en main de la nouvelle interface de création de rapports de Journey Optimizer.](report-gs-cja.md)
 
 >[!NOTE]
 >

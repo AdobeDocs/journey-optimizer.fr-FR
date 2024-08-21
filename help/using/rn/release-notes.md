@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Notes de mise à jour d’Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: d971d857a480868f5ef502f3a3f2c209afc93cca
+source-git-commit: 428e08ca712724cb0b3453681bee1c7e86ce49dc
 workflow-type: tm+mt
-source-wordcount: '604'
-ht-degree: 70%
+source-wordcount: '482'
+ht-degree: 53%
 
 ---
 
@@ -26,16 +26,18 @@ ht-degree: 70%
 
 ![Newsletter](../assets/do-not-localize/nl-icon.png) Inscrivez-vous à la [newsletter trimestrielle d’Adobe Journey Optimizer](https://www.adobe.com/subscription/Adobe_Journey_Optimizer_NL.html){target="_blank"} dès aujourd’hui, et recevez les dernières mises à jour produits, les articles les plus intéressants, des cas pratiques, des conseils et bien plus encore, directement dans votre boîte de réception, tous les trimestres.
 
-## Notes de mise à jour anticipées d’août 2024 {#e-2024}
+## Notes de mise à jour d’août 2024 {#8-2024}
 
 **Date de publication** : 20-21 août 2024
 
+<!--
 >[!CAUTION]
 >
->**Les notes de mise à jour anticipées ci-dessous peuvent être modifiées sans préavis jusqu’à la date de publication**. Les liens, les écrans et la documentation mise à jour sont publiés à la date de publication.
+>**Early release notes below are subject to change without prior notice until the release date**. Links, screens and updated documentation are published at the release date.
 >
+-->
 
-### Nouvelles fonctionnalités {#e-features}
+### Nouvelles fonctionnalités {#8-features}
 
 Cette version apporte les nouvelles fonctionnalités détaillées ci-dessous.
 
@@ -57,14 +59,16 @@ Cette version apporte les nouvelles fonctionnalités détaillées ci-dessous.
 <!--table>
 <thead>
 <tr>
-<th><strong>Content Cards</strong><br/></th>
+<th><strong>Content Cards (Limited Availability)</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Content card is a new digital messaging feature in Adobe Journey Optimizer that delivers personalized and engaging content directly within mobile apps and websites. Unlike traditional push notifications, Content Cards integrate seamlessly into the user interface, offering persistent, non-intrusive updates that enhance user interaction and experience.</p>
+<p>Content cards are a new digital messaging feature in Adobe Journey Optimizer that delivers personalized and engaging content directly within mobile apps and websites. Unlike traditional push notifications, Content Cards integrate seamlessly into the user interface, offering persistent, non-intrusive updates that enhance user interaction and experience.</p>
 <p>This feature enables marketers to present relevant, rich media content to users, driving higher engagement and ensuring important messages are seen without disrupting the user journey.</p>
+</br>
+<p>Content card are currently only available for a set of organizations (Limited Availability). To gain access, contact your Adobe representative.</p>
 </td>
 </tr>
 </tbody>
@@ -86,6 +90,7 @@ Cette version apporte les nouvelles fonctionnalités détaillées ci-dessous.
 <li>Object level access control (OLAC) is now available for each channel configuration, allowing you to decide which of your users are allowed to create or use specific configurations</li>
 <li>For some channels, you can create channel configurations that target multiple platforms. An example here would be an In-app messaging channel configuration that can target a web page, an iOS app and an Android app.</li>
 </ul></p>
+<p>For more information, refer to the <a href="../configuration/ip-warmup-gs.md">detailed documentation</a>.</p>
 </td>
 </tr>
 </tbody>
@@ -101,6 +106,7 @@ Cette version apporte les nouvelles fonctionnalités détaillées ci-dessous.
 <tr>
 <td>
 <p>Vous pouvez désormais intégrer Adobe Journey Optimizer à Adobe Marketo Engage pour créer vos cas d’utilisation B2B. Depuis un parcours, une nouvelle action personnalisée vous permet d’ingérer des données dans Marketo.</p>
+<p>Pour plus d’informations, consultez la <a href="../action/marketo-engage.md">documentation détaillée</a>.</p>
 </td>
 </tr>
 </tbody>
@@ -116,7 +122,8 @@ Cette version apporte les nouvelles fonctionnalités détaillées ci-dessous.
 <tbody>
 <tr>
 <td>
-<p>Les fragments peuvent désormais utiliser des variables d’entrée, à la fois dans les <a href="../personalization/use-expression-fragments.md">fragments d’expression</a> et les <a href="../email/use-visual-fragments.md">fragments visuels</a>. Vous pouvez utiliser ces variables pour personnaliser le contenu et les paramètres de vos messages, dans vos campagnes et parcours.</p>
+<p>Les variables globales de fragment améliorent la fonctionnalité de fragment existante afin d’améliorer l’efficacité pour la réutilisation du contenu et les cas d’utilisation de script. Les fragments peuvent désormais utiliser des variables d’entrée et créer des variables de sortie utilisables dans le contenu des campagnes et des parcours. Les fragments peuvent utiliser des variables d’entrée, à la fois dans les <a href="../personalization/use-expression-fragments.md">fragments d’expression</a> et les <a href="../email/use-visual-fragments.md">fragments visuels</a>. Vous pouvez utiliser ces variables pour personnaliser le contenu et les paramètres de vos messages, dans vos campagnes et parcours.</p>
+<p>Pour plus d’informations, consultez la <a href="../personalization/use-expression-fragments.md">documentation détaillée</a>.</p>
 </p>
 </td>
 </tr>
@@ -141,67 +148,31 @@ Cette version apporte les nouvelles fonctionnalités détaillées ci-dessous.
 </table>
 
 
-### Améliorations {#e-improvements}
+### Améliorations {#8-improvements}
 
 Cette version apporte les améliorations répertoriées ci-dessous.
 
 **Parcours**
 
-<!--* In the **Condition** activity, by default, the Time condition is now set by hour, from 00:00 to 12:00. [Read more](../building-journeys/condition-activity.md#time_condition)-->
-* Lors de la création de vos parcours, les alertes s’affichent désormais dans une liste déroulante, afin de s’aligner sur les alertes de campagne et d’offrir une expérience utilisateur cohérente. [En savoir plus](../building-journeys/troubleshooting.md#checking-for-errors-before-testing)
-* Les options de zoom de la barre d’outils de parcours ont été améliorées : le pourcentage de zoom est désormais visible et vous pouvez désormais facilement réinitialiser la valeur de zoom sur 100 %.
+* Dans l’activité **Condition**, par défaut, la **[!UICONTROL condition de temps]** est désormais définie par heure, de 00:00 à 12:00. [En savoir plus](../building-journeys/condition-activity.md#time_condition)
+* Lors de la création de vos parcours, les alertes s’affichent désormais à partir du bouton **Alertes**, afin de s’aligner sur d’autres alertes et d’offrir une expérience utilisateur cohérente. [En savoir plus](../building-journeys/troubleshooting.md#checking-for-errors-before-testing)
+* Les options de zoom de la barre d’outils de parcours ont été améliorées : le pourcentage de zoom est désormais visible et vous pouvez désormais réinitialiser plus facilement la valeur de zoom.
 
-**Audiences**
+<!--**Audiences and Profiles**-->
 
-* L’utilisation d’audiences issues d’un téléchargement personnalisé (fichier CSV) est désormais disponible avec le module complémentaire de protection des données et de protection.
-* Lors du ciblage d’une audience de téléchargement personnalisée (fichier CSV), vous pouvez désormais utiliser les attributs du fichier dans vos campagnes et parcours. Ces attributs sont disponibles dans l’éditeur de personnalisation, pour personnaliser vos messages et dans l’éditeur d’expression avancé de parcours.
+<!--* The use of audiences from custom upload (CSV file) is now available for use with Privacy and Security Shield add-on.-->
+<!--* When targeting a custom upload (CSV file) audience, you can now use attributes from the file in your campaigns and journeys. These attributes are available in the personalization editor, to personalize your messages, and the journey advanced expression editor.-->
+<!--* The License usage dashboard now shows the count of Engageable Profiles. [Read more](../audience/license-usage.md)-->
 
-## Notes de mise à jour de juillet 2024 {#24-7-2024}
 
-**Date de version** : 30-31 juillet 2024
+**Canal push**
 
-### Nouvelles fonctionnalités {#27-4-features}
+* Vous pouvez maintenant ajouter vos informations d’identification push d’application mobile dans les paramètres de configuration du canal Adobe Journey Optimizer. La création d’une surface d’application dans la collecte de données Adobe Experience Platform n’est plus nécessaire.
 
-Cette version apporte les nouvelles fonctionnalités répertoriées ci-dessous.
+### Autres modifications {#changes}
 
-<table>
-<thead>
-<tr>
-<th><strong>Canal SMS avec n’importe quel fournisseur (version bêta)</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>Vous pouvez désormais configurer d’autres fournisseurs de SMS dans Journey Optimizer, en plus des fournisseurs par défaut Sinch, Infobip et Twilio.</p>
-<img src="assets/do-not-localize/byo_sms.gif"/>
-<p>Pour plus d’informations, consultez la <a href="../sms/sms-configuration-custom.md">documentation détaillée</a>.</p>
-</td>
-</tr>
-</tbody>
-</table>
+**Création de rapports**
 
-<table>
-<thead>
-<tr>
-<th><strong>Composition d’audiences fédérées (disponibilité limitée)</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>La composition d’audiences fédérées est désormais disponible dans Adobe Journey Optimizer. Elle permet aux entreprises de composer des données pour améliorer leur emploi dans divers cas d’utilisation. Grâce à cette nouvelle approche, en tant qu’utilisateur ou utilisatrice d’Adobe Real-Time Customer Data Platform et/ou d’Adobe Journey Optimizer, vous pouvez fédérer les jeux de données directement à partir de votre entrepôt de données existant pour créer et enrichir les audiences et les attributs Adobe Experience Platform dans un seul système.</p>
-<p>Pour plus d’informations, consultez la <a href="https://experienceleague.adobe.com/fr/docs/federated-audience-composition/using/home"  target="_blank">documentation détaillée</a>.</p>
-</td>
-</tr>
-</tbody>
-</table>
+* L’expérience de création de rapports actuelle sera abandonnée à compter de la version d’octobre. À compter de cette date, la nouvelle expérience de création de rapports deviendra la norme. Nous vous recommandons de vous familiariser avec les nouvelles fonctionnalités pour garantir une transition fluide.
 
-### Améliorations {#27-4-improvements}
-
-Cette version est fournie avec les améliorations répertoriées ci-dessous.
-
-**Parcours**
-
-* (Date de disponibilité : 8 juillet) **Éditeur d’expression avancé dans la configuration des événements des parcours** : vous pouvez désormais utiliser l’éditeur d’expression avancé lors de la configuration d’un événement, ce qui vous permet de définir des expressions plus complexes ou d’utiliser des fonctions dans la condition d’identifiant d’événement. [En savoir plus](../event/about-creating.md#adv-exp-editor)
-
+[Prise en main de la nouvelle interface de reporting de Journey Optimizer](../reports/report-gs-cja.md)

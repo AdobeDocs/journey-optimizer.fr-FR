@@ -9,10 +9,10 @@ role: Data Engineer
 level: Intermediate
 keywords: expression, éditeur, bibliothèque, personnalisation
 exl-id: 74b1be18-4829-4c67-ae45-cf13278cda65
-source-git-commit: e6924928e03d494817a2368b33997029ca2eca1c
+source-git-commit: 428e08ca712724cb0b3453681bee1c7e86ce49dc
 workflow-type: tm+mt
-source-wordcount: '682'
-ht-degree: 100%
+source-wordcount: '962'
+ht-degree: 70%
 
 ---
 
@@ -67,6 +67,39 @@ Pour ajouter des fragments d’expression à votre contenu, procédez comme suit
 >[!NOTE]
 >
 >Si vous créez un fragment d’expression qui contient plusieurs sauts de ligne et l’utilisez dans un contenu [SMS](../sms/create-sms.md#sms-content) ou [notification push](../push/design-push.md), les sauts de ligne sont conservés. Veillez donc à tester votre [SMS](../sms/send-sms.md) ou [notification push](../push/send-push.md) avant de l’envoyer.
+
+## Utilisation de variables implicites {#implicit-variables}
+
+Les variables implicites améliorent la fonctionnalité de fragment existante afin d’améliorer l’efficacité pour la réutilisation du contenu et les cas d’utilisation de script. Les fragments peuvent utiliser des variables d’entrée et créer des variables de sortie qui peuvent être utilisées dans le contenu des campagnes et des parcours.
+
+Cette fonctionnalité peut par exemple être utilisée pour initialiser les paramètres de tracking de vos emails, en fonction de la campagne ou du parcours en cours, et utiliser ces paramètres dans les liens personnalisés ajoutés au contenu de l&#39;email.
+
+Les cas pratiques suivants sont possibles :
+
+1. Utilisation de variables d’entrée dans un fragment
+
+   Lorsqu’un fragment est utilisé dans un contenu d’action de campagne/parcours, il peut exploiter des variables qui ont été déclarées en dehors du fragment. Voici un exemple :
+
+   ![](../personalization/assets/variable-in-a-fragment.png)
+
+   Nous pouvons voir au-dessus de la variable `utm_content` qui est déclarée dans le contenu de la campagne. Lorsque le fragment **Hero block** est utilisé, il affiche un lien auquel la valeur du paramètre `utm_content` est ajoutée. Résultat final : `https://luma.enablementadobe.com?utm_campaign= Product_launch&utm_content= start_shopping`.
+
+1. Utiliser des variables de sortie d’un fragment
+
+   Les variables calculées ou définies dans un fragment peuvent être utilisées dans votre contenu. Dans l’exemple suivant, un fragment **F1** déclare un ensemble de variables :
+
+   ![](../personalization/assets/personalize-with-variables.png)
+
+   Dans un contenu d&#39;email, nous pouvons avoir la personnalisation suivante :
+
+   ![](../personalization/assets/use-fragment-variable.png)
+
+   Le fragment F1 initialise les variables suivantes : `utm_campaign` et `utm_content`. Ces paramètres seront ensuite ajoutés au lien du contenu du message. Résultat final : `https://luma.enablementadobe.com?utm_campaign= Product_launch&utm_content= start_shopping`.
+
+>[!NOTE]
+>
+>Au moment de l’exécution, le système développe ce qui se trouve à l’intérieur des fragments, puis interprète le code de personnalisation de haut en bas. En gardant cela à l’esprit, des cas d’utilisation plus complexes peuvent être réalisés. Par exemple, vous pouvez disposer d’un fragment F1 transmettant des variables à un autre fragment F2. Vous pouvez également avoir un fragment visuel F1 qui transmet des variables à un fragment d’expression imbriqué F2.
+
 
 ## Personnaliser des champs modifiables {#customize-fields}
 

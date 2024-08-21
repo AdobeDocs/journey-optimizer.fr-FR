@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: dépannage, résolution des problèmes, parcours, vérification, erreurs
 exl-id: 03fbc4f4-b0a8-46d5-91f9-620685b11493
-source-git-commit: 135dd7528e87a6fde7e148745ef2f49104809bc1
+source-git-commit: 428e08ca712724cb0b3453681bee1c7e86ce49dc
 workflow-type: tm+mt
-source-wordcount: '1019'
-ht-degree: 100%
+source-wordcount: '957'
+ht-degree: 83%
 
 ---
 
@@ -24,25 +24,37 @@ Cette section décrit comment résoudre les problèmes liés aux parcours avant 
 
 Avant de tester et de publier votre parcours, vérifiez que toutes les activités sont correctement configurées. Vous ne pouvez pas effectuer de tests ou de publications si des erreurs sont détectées par le système.
 
-Les erreurs sont représentées par un symbole d&#39;avertissement, affiché sur l&#39;activité elle-même, dans la zone de travail. Placez le curseur sur le point d&#39;exclamation pour afficher le message d&#39;erreur. Si vous cliquez sur l&#39;activité, vous devez voir la ligne contenant l&#39;erreur associée à un avertissement. Par exemple, si un champ obligatoire est vide, une erreur s&#39;affiche.
 
-![](assets/journey63.png)
+### Erreurs dans les activités {#activity-errors}
 
-Par exemple, dans la zone de travail, lorsque deux activités sont déconnectées, un avertissement s&#39;affiche.
+Les erreurs sont représentées par un symbole d&#39;avertissement, affiché sur l&#39;activité elle-même, dans la zone de travail. Placez le curseur sur le point d&#39;exclamation pour afficher le message d&#39;erreur. Si vous cliquez sur l&#39;activité, vous devez voir la ligne contenant l&#39;erreur associée à un avertissement. Par exemple :
 
-![](assets/canvas-disconnected.png)
+* si un champ obligatoire est vide, une erreur s’affiche.
 
-En regard du bouton bascule **[!UICONTROL Test]** et du bouton **[!UICONTROL Publier]**, un signe d&#39;avertissement peut s&#39;afficher. Il indique les erreurs détectées par le système et empêche l&#39;activation du mode test ou la publication du parcours. La plupart du temps, les erreurs détectées par le système sont liées à des dysfonctionnements visibles relatifs aux activités. Cependant, elles sont parfois associées à d&#39;autres problèmes. Dans ce cas, vous pouvez les afficher en essayant d&#39;identifier le problème à l&#39;aide de la description de l&#39;erreur. Si vous ne parvenez pas à identifier le problème, vous pouvez copier les détails et les envoyer à l’administrateur ou à l’administratrice ou à l’assistance technique. Notez que les erreurs qui bloquent le test et celles qui bloquent la publication sont similaires.
+  ![](assets/journey63.png)
 
-Le système détecte deux types de problèmes : les erreurs et les avertissements. Les erreurs bloquent la publication et l&#39;activation des tests. Les avertissements indiquent des problèmes potentiels qui ne bloquent pas l&#39;activation ou la publication des tests. Vous verrez une description du problème et un identifiant de journal des problèmes du type ERR_XXX_XXX. Ce format facilite l&#39;identification du problème par l&#39;assistance technique.
+* dans la zone de travail, un avertissement s’affiche lorsque deux activités sont déconnectées.
 
-Le signe en regard du bouton bascule **[!UICONTROL Test]** et du bouton **[!UICONTROL Publier]** peut apparaître dans deux couleurs différentes. Il est rouge en cas d&#39;erreur, et orange pour un avertissement.
+  ![](assets/canvas-disconnected.png)
 
-![](assets/journey75.png)
+### Erreurs dans le parcours {#canvas-errors}
 
-Les erreurs et les avertissements globaux du parcours apparaissent en tête de liste. Ceux liés à des activités spécifiques sont répertoriés ensuite, par ordre d&#39;activité ou d&#39;apparition dans le parcours, de gauche à droite. Le bouton **[!UICONTROL Copier les détails]** copie les informations techniques relatives au parcours qui seront utiles à l&#39;équipe d&#39;assistance technique pour résoudre les problèmes.
+Les erreurs sont également visibles à partir du bouton **[!UICONTROL Alertes]**, au-dessus de la zone de travail. Ce bouton permet de visualiser les erreurs détectées par le système et empêche l&#39;activation du mode test ou la publication du parcours.
 
-Lorsqu&#39;une erreur se produit dans une action ou une condition, le parcours d&#39;un individu s&#39;arrête. La seule façon de le faire continuer est de cocher la case **[!UICONTROL Ajouter un chemin alternatif en cas de temporisation ou d’erreur]**. Consultez [cette section](../building-journeys/using-the-journey-designer.md#paths).
+Le système détecte deux types de problèmes : **errors** et **warnings**. Les erreurs bloquent la publication et l&#39;activation des tests. Les avertissements indiquent des problèmes potentiels qui ne bloquent pas l&#39;activation ou la publication des tests. Vous verrez une description du problème et un identifiant de journal des problèmes du type ERR_XXX_XXX. Cela peut aider à identifier le problème.
+
+![](assets/journey-error-and-warning.png)
+
+<!--Most of the time, errors detected by the system are linked to errors visible on the activities but they can also relate to other issues. In all cases, check alerts and resolve the issue using to the error description. If you cannot identify the issue, use the **[!UICONTROL Copy details]** button to store the alerts, and send them to your administrator.-->
+
+Les erreurs et les avertissements globaux du parcours apparaissent en tête de liste. Ceux liés à des activités spécifiques sont répertoriés ensuite, par ordre d&#39;activité ou d&#39;apparition dans le parcours, de gauche à droite. Au bas de la liste des alertes, le bouton **[!UICONTROL Copier les détails]** vous permet de copier des informations techniques sur le parcours qui sont utiles pour résoudre les problèmes.
+
+### Ajouter un chemin d’accès alternatif {#canvas-add-path}
+
+Vous pouvez définir une action de secours en cas d’erreur pour les activités de parcours suivantes : **[!UICONTROL Condition]** et **[!UICONTROL Action]**.
+
+Lorsqu&#39;une erreur se produit dans une action ou une condition, le parcours d&#39;un individu s&#39;arrête. La seule façon de le faire continuer est de résoudre le problème. Pour éviter d’interrompre le parcours, vous pouvez également cocher l’option **[!UICONTROL Ajouter un chemin alternatif en cas de dépassement de délai ou d’erreur]** dans les propriétés de l’activité. En savoir plus dans [cette section](../building-journeys/using-the-journey-designer.md#paths).
+
 
 ## Vérifier l’envoi correct des événements {#checking-that-events-are-properly-sent}
 

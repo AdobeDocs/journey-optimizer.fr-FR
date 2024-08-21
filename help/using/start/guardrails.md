@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: aa69046bde7ea5862fb507695d12584939fae9f8
-workflow-type: ht
-source-wordcount: '2239'
-ht-degree: 100%
+source-git-commit: 428e08ca712724cb0b3453681bee1c7e86ce49dc
+workflow-type: tm+mt
+source-wordcount: '2295'
+ht-degree: 99%
 
 ---
 
@@ -44,6 +44,11 @@ L&#39;interface d&#39;Adobe [!DNL Journey Optimizer] est conçue pour fonctionne
 * Les fichiers multimédias pour MMS peuvent être inclus via une URL prise en charge. Assurez-vous que le fichier multimédia est chargé séparément.
 * La synchronisation des commentaires des messages n’est actuellement pas disponible pour les MMS.
 * La gestion du consentement fonctionne au niveau du canal SMS pour les MMS.
+
+### Barrières de sécurité des canaux web {#web-guardrails}
+
+Les campagnes web de [!DNL Journey Optimizer] ciblent les nouveaux profils qui n’ont jamais été engagés sur d’autres canaux. Cela augmente le nombre total de profils engageables, ce qui peut avoir des implications de coût si le nombre contractuel de profils engageables que vous avez achetés est dépassé. Les mesures de licence de chaque package sont répertoriées dans la page [Description du produit Journey Optimizer](https://helpx.adobe.com/fr/legal/product-descriptions/adobe-journey-optimizer.html).{target="_blank"}
+
 
 ## Mécanismes de sécurisation des sous-domaines {#subdomain-guardrails}
 
@@ -174,9 +179,7 @@ Le mécanisme de sécurisation suivant s’applique à l’activité **[!UICONTR
 
 * La taille du contenu du message in-app est limitée à 2 Mo. L’inclusion d’images de grande taille peut entraver le processus de publication.
 
-## Mécanismes de sécurisation des audiences {#audience}
 
-* Vous pouvez publier jusqu’à 10 audiences dans un sandbox donné. Si vous avez atteint ce seuil, vous devez supprimer une composition pour libérer de l’espace et en publier une nouvelle.
 
 ### Activité Saut {#jump-g}
 
@@ -188,6 +191,10 @@ Les mécanismes de sécurisation suivants s’appliquent aux activités **[!UICO
 
 * Les activités Adobe Campaign ne peuvent pas être utilisées avec une activité Lecture d’audience ou Qualification d’audience.
 * Ces activités ne peuvent pas être utilisées avec les activités in-app.
+
+## Mécanismes de sécurisation des audiences {#audience}
+
+Vous pouvez publier jusqu’à 10 audiences dans un sandbox donné. Si vous avez atteint ce seuil, vous devez supprimer une composition pour libérer de l’espace et en publier une nouvelle.
 
 ## Mécanismes de sécurisation de la gestion des décisions {#decision-management}
 

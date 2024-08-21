@@ -8,14 +8,18 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 247b966d-4f84-453b-8178-9c9ebcd494ef
-source-git-commit: 0b4af69bcd410d467f7b6a26aa407b1df23a965e
+source-git-commit: 428e08ca712724cb0b3453681bee1c7e86ce49dc
 workflow-type: tm+mt
-source-wordcount: '595'
-ht-degree: 100%
+source-wordcount: '640'
+ht-degree: 92%
 
 ---
 
 # Prise en main des rapports sur les canaux {#channel-report-gs}
+
+>[!AVAILABILITY]
+>
+>L’expérience de création de rapports actuelle sera abandonnée à compter de la version d’octobre. À compter de cette date, la nouvelle expérience de création de rapports deviendra la norme. Nous vous recommandons de vous familiariser avec les nouvelles fonctionnalités pour garantir une transition fluide. [Prise en main de la nouvelle interface de création de rapports de Journey Optimizer.](report-gs-cja.md)
 
 Les rapports sur les canaux constituent un puissant outil qui propose un aperçu complet des mesures de trafic et d’engagement dans un rapport unifié pour chaque canal, englobant toutes les actions de tous les parcours et toutes les campagnes. Ils sont divisés en différents widgets, chacun d’eux fournissant une vue spécifique des performances de votre campagne ou de votre parcours.
 

@@ -8,14 +8,18 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 12168cdf-f517-49b5-958b-ba689ade6982
-source-git-commit: c4ab97999d000d969f6f09f4d84be017d1288f94
+source-git-commit: 428e08ca712724cb0b3453681bee1c7e86ce49dc
 workflow-type: tm+mt
-source-wordcount: '730'
-ht-degree: 100%
+source-wordcount: '775'
+ht-degree: 94%
 
 ---
 
 # Liste des composants {#list-of-components-live}
+
+>[!AVAILABILITY]
+>
+>L’expérience de création de rapports actuelle sera abandonnée à compter de la version d’octobre. À compter de cette date, la nouvelle expérience de création de rapports deviendra la norme. Nous vous recommandons de vous familiariser avec les nouvelles fonctionnalités pour garantir une transition fluide. [Prise en main de la nouvelle interface de création de rapports de Journey Optimizer.](report-gs-cja.md)
 
 Les tableaux ci-dessous contiennent la liste des mesures utilisées dans les différents rapports et leur définition en fonction du type de diffusion.
 

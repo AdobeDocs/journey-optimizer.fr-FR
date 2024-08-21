@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 4509c1e9-02e6-4c00-83ba-0b5512e70c41
-source-git-commit: c14a9385191cfa4368e0b84ab16a63c4c87e2c69
+source-git-commit: 428e08ca712724cb0b3453681bee1c7e86ce49dc
 workflow-type: tm+mt
-source-wordcount: '263'
-ht-degree: 94%
+source-wordcount: '308'
+ht-degree: 80%
 
 ---
 
@@ -21,6 +21,10 @@ ht-degree: 94%
 >id="ajo_subscription_global_report"
 >title="Rapport d’abonnement global"
 >abstract="Le rapport global d’abonnement permet de mesurer et de visualiser l’activité de vos personnes abonnées au cours d’une période choisie. Celui-ci est composé de plusieurs widgets présentant vos abonnements et désabonnements. Vous pouvez modifier chaque tableau de bord de reporting en redimensionnant ou en supprimant des widgets."
+
+>[!AVAILABILITY]
+>
+>L’expérience de création de rapports actuelle sera abandonnée à compter de la version d’octobre. À compter de cette date, la nouvelle expérience de création de rapports deviendra la norme. Nous vous recommandons de vous familiariser avec les nouvelles fonctionnalités pour garantir une transition fluide. [Prise en main de la nouvelle interface de création de rapports de Journey Optimizer.](report-gs-cja.md)
 
 Les rapports globaux, accessibles à partir de l’onglet À toute heure, affichent les événements qui se sont produits il y a au moins deux heures et couvrent les événements sur une période sélectionnée. En comparaison, les rapports dynamiques portent sur les événements qui se sont produits au cours des dernières 24 heures, avec un intervalle de temps minimal de deux minutes à compter de l’occurrence de l’événement.
 

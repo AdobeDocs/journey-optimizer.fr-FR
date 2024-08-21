@@ -9,10 +9,10 @@ role: Data Engineer, Data Architect, Admin
 level: Intermediate, Experienced
 keywords: externe, sources, données, configuration, connexion, tiers
 exl-id: f3cdc01a-9f1c-498b-b330-1feb1ba358af
-source-git-commit: 0738443c024499079d8527fe2cc1c80f42f4f476
+source-git-commit: 428e08ca712724cb0b3453681bee1c7e86ce49dc
 workflow-type: tm+mt
-source-wordcount: '1549'
-ht-degree: 100%
+source-wordcount: '1535'
+ht-degree: 84%
 
 ---
 
@@ -102,7 +102,7 @@ Dans le cas d’une méthode GET nécessitant un ou plusieurs paramètres, vous 
 * répertorier les paramètres à transmettre au moment de l’appel dans le champ **[!UICONTROL Valeurs dynamiques]** (« identifiant » dans l’exemple ci-dessous) ;
 * spécifier les paramètres avec la même syntaxe dans le corps de la payload envoyée. Pour ce faire, vous devez ajouter : « param » : « nom de votre paramètre » (« identifiant » dans l’exemple ci-dessous). Suivez la syntaxe ci-dessous :
 
-  ```
+  ```json
   {"id":{"param":"identifier"}}
   ```
 
@@ -141,28 +141,28 @@ Avec cette authentification, l’exécution de l’action est un processus en de
 
 ### Définition du point d’entrée à appeler pour générer le jeton d’accès{#custom-authentication-endpoint}
 
-* endpoint : URL à utiliser pour générer le point d’entrée
-* Méthode de la requête HTTP sur le point d’entrée (GET ou POST)
-* headers : paires clé-valeur à injecter en tant qu’en-têtes dans cet appel, le cas échéant
-* body : décrit le corps de l’appel en cas d’utilisation de la méthode POST. Nous prenons en charge une structure de corps limitée, définie dans bodyParams (paires clé-valeur). bodyType décrit le format et le codage du corps dans l’appel :
-   * &#39;form&#39; : signifie que le type de contenu sera application/x-www-form-urlencoded (jeu de caractères UTF-8) et que les paires clé/valeur seront sérialisées comme suit : key1=value1&amp;key2=value2&amp;…
-   * &#39;json&#39; : signifie que le type de contenu sera application/json (jeu de caractères UTF-8) et que les paires clé-valeur seront sérialisées sous la forme d’un objet json, tel quel : _{ &quot;key1&quot;: &quot;value1&quot;, &quot;key2&quot;: &quot;value2&quot;, ...}_
+* `endpoint` : URL à utiliser pour générer le point d’entrée
+* méthode de la requête HTTP sur le point de terminaison (`GET` ou `POST`)
+* `headers` : paires clé-valeur à injecter en tant qu’en-têtes dans cet appel, le cas échéant
+* `body` : décrit le corps de l’appel si la méthode est POST. Nous prenons en charge une structure de corps limitée, définie dans bodyParams (paires clé-valeur). bodyType décrit le format et le codage du corps dans l’appel :
+   * `form` : ce qui signifie que le type de contenu sera application/x-www-form-urlencoded (jeu de caractères UTF-8) et que les paires clé-valeur seront sérialisées comme suit : key1=value1&amp;key2=value2&amp;...
+   * `json` : ce qui signifie que le type de contenu sera application/json (jeu de caractères UTF-8) et que les paires clé-valeur seront sérialisées en tant qu’objet json tel que : _{ &quot;key1&quot;: &quot;value1&quot;, &quot;key2&quot;: &quot;value2&quot;, ...}_
 
 ### Définition de la méthode d’injection du jeton d’accès dans la requête HTTP de l’action{#custom-authentication-access-token}
 
-* authorizationType : définit la manière dont le jeton d’accès généré doit être injecté dans l’appel HTTP pour l’action. Les valeurs possibles sont les suivantes :
+* **authorizationType** : définit la manière dont le jeton d’accès généré doit être injecté dans l’appel HTTP pour l’action. Les valeurs possibles sont les suivantes :
 
-   * bearer : indique que le jeton d’accès doit être injecté dans l’en-tête Authorization, par exemple : _Autorization: Bearer &lt;access token>_
-   * header : indique que le jeton d’accès doit être injecté en tant qu’en-tête, le nom de l’en-tête étant défini par la propriété tokenTarget. Par exemple, si tokenTarget est myHeader, le jeton d’accès est injecté sous la forme d’un en-tête : _myHeader: &lt;access token>_
-   * queryParam : indique que le jeton d’accès doit être injecté en tant que queryParam, le nom du paramètre de requête étant défini par la propriété tokenTarget. Par exemple, si tokenTarget est myQueryParam, l’URL de l’appel d’action est : _&lt;url>?myQueryParam=&lt;access token>_
+   * `bearer` : indique que le jeton d’accès doit être injecté dans l’en-tête Authorization, par exemple : _Authorization: Bearer &lt;jeton d’accès>_
+   * `header` : indique que le jeton d’accès doit être injecté en tant qu’en-tête, le nom de l’en-tête défini par la propriété `tokenTarget`. Par exemple, si `tokenTarget` est `myHeader`, le jeton d’accès est injecté en tant qu’en-tête sous la forme : _myHeader: &lt;jeton d’accès>_
+   * `queryParam` : indique que le jeton d’accès doit être injecté en tant que queryParam, nom du paramètre de requête défini par la propriété tokenTarget. Par exemple, si tokenTarget est myQueryParam, l’URL de l’appel d’action est : _&lt;url>?myQueryParam=&lt;access token>_
 
-* tokenInResponse : indique comment extraire le jeton d’accès de l’appel d’authentification. Cette propriété peut être l’un des éléments suivants :
-   * &#39;response&#39; : indique que la réponse HTTP est le jeton d’accès ;
-   * un sélecteur dans un fichier JSON (en supposant que la réponse soit un fichier JSON, nous ne prenons pas en charge d’autres formats, tels que XML). Le format de ce sélecteur est _json://&lt;path to the access token property>_. Par exemple, si la réponse de l’appel est : _{ &quot;access_token&quot;: &quot;theToken&quot;, &quot;timestamp&quot;: 12323445656 }_, tokenInResponse sera : _json: //access_token_.
+* **tokenInResponse** : indique comment extraire le jeton d’accès de l’appel d’authentification. Cette propriété peut être l’un des éléments suivants :
+   * `response` : indique que la réponse HTTP est le jeton d’accès
+   * un sélecteur dans un fichier json (en supposant que la réponse soit un fichier json, nous ne prenons pas en charge d’autres formats tels que XML). Le format de ce sélecteur est _json://&lt;path to the access token property>_. Par exemple, si la réponse de l’appel est : _{ &quot;access_token&quot;: &quot;theToken&quot;, &quot;timestamp&quot;: 12323445656 }_, tokenInResponse sera : _json: //access_token_.
 
 Le format de cette authentification est le suivant :
 
-```
+```json
 {
     "type": "customAuthorization",
     "endpoint": "<URL of the authentication endpoint>",
@@ -193,15 +193,13 @@ Le format de cette authentification est le suivant :
 >
 >Encode64 est la seule fonction disponible dans le payload d’authentification.
 
-Vous pouvez modifier la durée de mise en cache du jeton pour une source de données d’authentification personnalisée. Vous trouverez ci-dessous un exemple de payload d’authentification personnalisé. La durée de mise en cache est définie dans le paramètre « cacheDuration ». Il spécifie la durée de conservation du jeton généré dans le cache. L’unité peut être la milliseconde, la seconde, la minute, l’heure, le jour, le mois, ou l’année.
+Vous pouvez modifier la durée de mise en cache du jeton pour une source de données d’authentification personnalisée. Vous trouverez ci-dessous un exemple de payload d’authentification personnalisé. La durée du cache est définie dans le paramètre `cacheDuration` . Il spécifie la durée de conservation du jeton généré dans le cache. L’unité peut être la milliseconde, la seconde, la minute, l’heure, le jour, le mois, ou l’année.
 
 Voici un exemple pour le type d’authentification du porteur :
 
-```
+```json
 {
-  "authentication": {
     "type": "customAuthorization",
-    "authorizationType": "Bearer",
     "endpoint": "https://<your_auth_endpoint>/epsilon/oauth2/access_token",
     "method": "POST",
     "headers": {
@@ -220,9 +218,8 @@ Voici un exemple pour le type d’authentification du porteur :
     "cacheDuration": {
       "duration": 5,
       "timeUnit": "minutes"
-    }
-  }
-}
+    },
+  },
 ```
 
 >[!NOTE]
@@ -234,11 +231,9 @@ Voici un exemple pour le type d’authentification du porteur :
 
 Voici un exemple pour le type d’authentification de l’en-tête :
 
-```
+```json
 {
   "type": "customAuthorization",
-  "authorizationType": "header",
-  "tokenTarget": "x-auth-token",
   "endpoint": "https://myapidomain.com/v2/user/login",
   "method": "POST",
   "headers": {
@@ -255,13 +250,15 @@ Voici un exemple pour le type d’authentification de l’en-tête :
   "cacheDuration": {
     "expiryInResponse": "json://expiryDuration",
     "timeUnit": "minutes"
-  }
-}
+  },
+  "authorizationType": "header",
+  "tokenTarget": "x-auth-token"
+} 
 ```
 
 Voici un exemple de réponse de l’appel API de connexion :
 
-```
+```json
 {
   "token": "xDIUssuYE9beucIE_TFOmpdheTqwzzISNKeysjeODSHUibdzN87S",
   "expiryDuration" : 5

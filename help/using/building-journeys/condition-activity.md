@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: activité, condition, zone de travail, parcours
 exl-id: 496c7666-a133-4aeb-be8e-c37b3b9bf5f9
-source-git-commit: 619bcbc16b4117c29c482c85323603a4281298e0
+source-git-commit: 428e08ca712724cb0b3453681bee1c7e86ce49dc
 workflow-type: tm+mt
-source-wordcount: '1466'
-ht-degree: 100%
+source-wordcount: '1493'
+ht-degree: 95%
 
 ---
 
@@ -74,7 +74,7 @@ Dans l’éditeur simple, vous trouverez la catégorie Propriétés du parcours,
 
 ## Condition de source de données {#data_source_condition}
 
-Vous pouvez définir une condition en fonction de champs issus des sources de données ou des événements positionnés précédemment dans le parcours. Découvrez comment utiliser l&#39;éditeur d&#39;expression dans [cette section](expression/expressionadvanced.md).
+Utilisez une **[!UICONTROL condition Data Source]** pour définir une condition basée sur les champs des sources de données ou les événements précédemment positionnés dans le parcours. Ce type de condition est défini à l’aide de l’éditeur d’expression. Découvrez comment utiliser l&#39;éditeur d&#39;expression dans [cette section](expression/expressionadvanced.md).
 
 Par exemple, si vous ciblez une audience avec des attributs d’enrichissement générés à l’aide d’un workflow de composition ou d’un chargement personnalisé (fichier CSV), vous pouvez utiliser ces attributs d’enrichissement pour créer votre condition.
 
@@ -82,13 +82,15 @@ L&#39;éditeur d’expression avancé vous permet de configurer des conditions p
 
 ![](assets/journey50.png)
 
-## Condition de temps{#time_condition}
+## Condition de temps {#time_condition}
 
-Cette condition vous permet d’effectuer des actions différentes en fonction de l’heure et/ou du jour. Par exemple, les jours de semaine, vous pouvez choisir d’envoyer des notifications push pendant la journée et des e-mails la nuit.
+Utilisez une **[!UICONTROL condition d’heure]** pour effectuer différentes actions en fonction de l’heure du jour et/ou du jour de la semaine. Par exemple, les jours de semaine, vous pouvez choisir d’envoyer des notifications push pendant la journée et des e-mails la nuit.
 
 >[!NOTE]
 >
->Le fuseau horaire n’est plus spécifique à une condition et est désormais défini au niveau du parcours dans les propriétés de celui-ci. Voir [cette page](../building-journeys/timezone-management.md).
+>* Le fuseau horaire n’est plus spécifique à une condition et est désormais défini au niveau du parcours dans les propriétés de celui-ci. En savoir plus sur [cette page](../building-journeys/timezone-management.md).
+>
+>* Par défaut, la **[!UICONTROL condition de temps]** est définie par heure, de 00:00 à 12:00.
 
 ![](assets/journey51.png)
 

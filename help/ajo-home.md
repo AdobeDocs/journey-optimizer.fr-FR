@@ -5,10 +5,10 @@ description: Découvrez comment utiliser Adobe Journey Optimizer.
 solution: Journey Optimizer
 product: journey optimizer
 exl-id: 3a1b6c61-82df-421c-98d8-2af4f2a5e0de
-source-git-commit: 10f11728653c8bed8a768f6d7d106ccfa47eb7e1
-workflow-type: ht
+source-git-commit: 428e08ca712724cb0b3453681bee1c7e86ce49dc
+workflow-type: tm+mt
 source-wordcount: '376'
-ht-degree: 100%
+ht-degree: 95%
 
 ---
 
@@ -20,11 +20,11 @@ Découvrez les améliorations les plus récentes apportées au produit et à la 
 
 >[!BEGINTABS]
 
->[!TAB La version de juillet est en ligne.]
+>[!TAB La version d’août est en ligne !]
 
-Découvrez les nouvelles fonctionnalités et améliorations de la version de juillet d’Adobe Journey Optimizer.
+Découvrez les nouvelles fonctionnalités et améliorations de la version d’août de Adobe Journey Optimizer.
 
-[![En savoir plus](using/assets/do-not-localize/learn-more-button.svg)](using/rn/release-notes.md#24-7-2024)
+[![En savoir plus](using/assets/do-not-localize/learn-more-button.svg)](using/rn/release-notes.md)
 
 >[!TAB Création de rapports avec Customer Journey Analytics (version bêta)]
 

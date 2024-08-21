@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: bae533c5-1bfc-48bf-9f8d-1145383c040c
-source-git-commit: 51924e403741829f068675eaa94ccbd63cc2b206
+source-git-commit: 428e08ca712724cb0b3453681bee1c7e86ce49dc
 workflow-type: tm+mt
-source-wordcount: '3170'
+source-wordcount: '3352'
 ht-degree: 100%
 
 ---
@@ -18,6 +18,58 @@ ht-degree: 100%
 # Notes de mise à jour 2024 {#release-notes-2024}
 
 Cette page répertorie toutes les fonctionnalités et améliorations pour [!DNL Journey Optimizer] publiées en 2024.
+
+
+## Notes de mise à jour de juillet 2024 {#24-7-2024}
+
+**Date de version** : 30-31 juillet 2024
+
+### Nouvelles fonctionnalités {#27-4-features}
+
+Cette version apporte les nouvelles fonctionnalités répertoriées ci-dessous.
+
+<table>
+<thead>
+<tr>
+<th><strong>Canal SMS avec n’importe quel fournisseur (version bêta)</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Vous pouvez désormais configurer d’autres fournisseurs de SMS dans Journey Optimizer, en plus des fournisseurs par défaut Sinch, Infobip et Twilio.</p>
+<img src="assets/do-not-localize/byo_sms.gif"/>
+<p>Pour plus d’informations, consultez la <a href="../sms/sms-configuration-custom.md">documentation détaillée</a>.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Composition d’audiences fédérées (disponibilité limitée)</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>La composition d’audiences fédérées est désormais disponible dans Adobe Journey Optimizer. Elle permet aux entreprises de composer des données pour améliorer leur emploi dans divers cas d’utilisation. Grâce à cette nouvelle approche, en tant qu’utilisateur ou utilisatrice d’Adobe Real-Time Customer Data Platform et/ou d’Adobe Journey Optimizer, vous pouvez fédérer les jeux de données directement à partir de votre entrepôt de données existant pour créer et enrichir les audiences et les attributs Adobe Experience Platform dans un seul système.</p>
+<p>Pour plus d’informations, consultez la <a href="https://experienceleague.adobe.com/fr/docs/federated-audience-composition/using/home"  target="_blank">documentation détaillée</a>.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+### Améliorations {#27-4-improvements}
+
+Cette version est fournie avec les améliorations répertoriées ci-dessous.
+
+**Parcours**
+
+* (Date de disponibilité : 8 juillet) **Éditeur d’expression avancé dans la configuration des événements des parcours** : vous pouvez désormais utiliser l’éditeur d’expression avancé lors de la configuration d’un événement, ce qui vous permet de définir des expressions plus complexes ou d’utiliser des fonctions dans la condition d’identifiant d’événement. [En savoir plus](../event/about-creating.md#adv-exp-editor)
+
+
 
 ## Notes de mise à jour de juin 2024 {#24-6-2024}
 

@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: e88cf8ad-986a-4e4c-8921-d406c6876031
-source-git-commit: 03c714833930511fa734662b637d2416728073c2
+source-git-commit: 428e08ca712724cb0b3453681bee1c7e86ce49dc
 workflow-type: tm+mt
-source-wordcount: '533'
-ht-degree: 100%
+source-wordcount: '578'
+ht-degree: 92%
 
 ---
 
@@ -21,6 +21,10 @@ ht-degree: 100%
 >id="ajo_landing_page_global_report"
 >title="Rapport global sur les pages de destination"
 >abstract="Le rapport global sur les pages de destination vous permet de mesurer l’efficacité de vos pages de destination au cours d’une période donnée. Le rapport se compose de plusieurs widgets présentant le succès et les erreurs de vos pages de destination. Vous pouvez modifier chaque tableau de bord de reporting en redimensionnant ou en supprimant des widgets."
+
+>[!AVAILABILITY]
+>
+>L’expérience de création de rapports actuelle sera abandonnée à compter de la version d’octobre. À compter de cette date, la nouvelle expérience de création de rapports deviendra la norme. Nous vous recommandons de vous familiariser avec les nouvelles fonctionnalités pour garantir une transition fluide. [Prise en main de la nouvelle interface de création de rapports de Journey Optimizer.](report-gs-cja.md)
 
 Les rapports globaux, accessibles à partir de l’onglet À toute heure, affichent les événements qui se sont produits il y a au moins deux heures et couvrent les événements sur une période sélectionnée. En comparaison, les rapports dynamiques portent sur les événements qui se sont produits au cours des dernières 24 heures, avec un intervalle de temps minimal de deux minutes à compter de l’occurrence de l’événement.
 

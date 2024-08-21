@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: conception, zone de travail, parcours, interface, glisser, déposer
 exl-id: 1998f6fc-60fd-4038-8669-39cd55bc02d1
-source-git-commit: fec6b15db9f8e6b2a07b55bc9e8fc4d9cb0d73d7
+source-git-commit: 428e08ca712724cb0b3453681bee1c7e86ce49dc
 workflow-type: tm+mt
 source-wordcount: '1644'
 ht-degree: 100%
@@ -103,7 +103,7 @@ Les activités d’action de canal vous permettent d’inclure un message conçu
 
 À partir des activités d’action, utilisez des actions personnalisées pour envoyer des messages avec des systèmes tiers. [En savoir plus sur les actions personnalisées](about-journey-activities.md#action-activities).
 
-## Ajout de chemins alternatifs{#paths}
+## Ajout de chemins alternatifs {#paths}
 
 Vous pouvez définir une action de remplacement en cas d’erreur ou de dépassement de délai pour les activités de parcours suivantes : **[!UICONTROL Condition]** et **[!UICONTROL Action]**.
 

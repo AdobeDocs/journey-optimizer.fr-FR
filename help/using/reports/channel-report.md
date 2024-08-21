@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: ead9359b-cdab-43ed-a469-d98b0ca19a17
-source-git-commit: 5671f510d8be80b53d57b1ff90a101e500773243
+source-git-commit: 428e08ca712724cb0b3453681bee1c7e86ce49dc
 workflow-type: tm+mt
-source-wordcount: '3683'
-ht-degree: 100%
+source-wordcount: '3728'
+ht-degree: 98%
 
 ---
 
@@ -21,6 +21,10 @@ ht-degree: 100%
 >id="ajo_channel_level_report"
 >title="Rapport au niveau des canaux"
 >abstract="Les rapports au niveau des canaux offrent une vue d’ensemble complète des mesures de trafic et d’engagement sur tous les canaux. Vos rapports sont composés de plusieurs widgets présentant le succès et les erreurs de votre campagne et de vos parcours. Vous pouvez modifier chaque tableau de bord de reporting en redimensionnant ou en supprimant des widgets."
+
+>[!AVAILABILITY]
+>
+>L’expérience de création de rapports actuelle sera abandonnée à compter de la version d’octobre. À compter de cette date, la nouvelle expérience de création de rapports deviendra la norme. Nous vous recommandons de vous familiariser avec les nouvelles fonctionnalités pour garantir une transition fluide. [Prise en main de la nouvelle interface de création de rapports de Journey Optimizer.](report-gs-cja.md)
 
 >[!IMPORTANT]
 >
