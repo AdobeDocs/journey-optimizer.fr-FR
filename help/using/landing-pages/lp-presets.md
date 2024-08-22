@@ -8,10 +8,10 @@ role: Admin
 level: Experienced
 keywords: destination, page de destination, configurer, environnement, sous-domaine, préréglages
 exl-id: 7cf1f083-bef0-40b5-8ddd-920a9d108eca
-source-git-commit: 8579acfa881f29ef3947f6597dc11d4c740c3d68
+source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
 workflow-type: tm+mt
-source-wordcount: '347'
-ht-degree: 97%
+source-wordcount: '351'
+ht-degree: 91%
 
 ---
 
@@ -30,7 +30,7 @@ Pour accéder aux préréglages de la page de destination, procédez comme suit.
 
 1. Accédez au menu **[!UICONTROL Administration]** > **[!UICONTROL Canaux]**.
 
-1. Sélectionnez **[!UICONTROL Marques]** > **[!UICONTROL Préréglages de page de destination]**.
+1. Sélectionnez **[!UICONTROL Paramètres de page d’entrée]** > **[!UICONTROL Paramètres prédéfinis de page d’entrée]**.
 
    ![](assets/lp_presets-access.png)
 
@@ -46,7 +46,7 @@ Pour créer un préréglage de page de destination, procédez comme suit.
 >
 >Avant de pouvoir créer un préréglage, vous devez avoir configuré au moins un sous-domaine de la page de destination. [Voici comment procéder](lp-subdomains.md)
 
-1. Accédez au menu **[!UICONTROL Administration]** > **[!UICONTROL Canaux]**, puis sélectionnez **[!UICONTROL Branding]** > **[!UICONTROL Préréglages de page de destination]**.
+1. Accédez au menu **[!UICONTROL Administration]** > **[!UICONTROL Canaux]** , puis sélectionnez **[!UICONTROL Paramètres de page d’entrée]** > **[!UICONTROL Paramètres prédéfinis de page d’entrée]**.
 
 1. Sélectionnez **[!UICONTROL Créer un préréglage de page de destination]**.
 
@@ -80,13 +80,11 @@ Pour créer un préréglage de page de destination, procédez comme suit.
 
 1. Une fois le préréglage de page de destination créé, il sʼaffiche dans la liste avec le statut **[!UICONTROL Actif]**. Il est prêt à être utilisé avec vos pages de destination.
 
-   ![](assets/lp-preset-active-temp.png)
-
 Vous êtes maintenant prêt à [créer des pages de destination](../landing-pages/create-lp.md) dans [!DNL Journey Optimizer].
 <!--
 >[!NOTE]
 >
->Learn how to create channel surfaces for push notifications and emails in [this section](channel-surfaces.md).-->
+>Learn how to create channel configurations for push notifications and emails in [this section](channel-surfaces.md).-->
 
 **Rubriques connexes** :
 

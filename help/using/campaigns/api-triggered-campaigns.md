@@ -9,10 +9,10 @@ role: Developer
 level: Experienced
 keywords: campagnes, déclenchées par l’API, REST, optimizer, messages
 exl-id: 0ef03d33-da11-43fa-8e10-8e4b80c90acb
-source-git-commit: ef32423dafa33406244e09f6dddd760e44e4edbf
+source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
 workflow-type: tm+mt
 source-wordcount: '1005'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -44,7 +44,7 @@ Pour créer une campagne déclenchée par API, suivez les étapes ci-dessous. Vo
 
 1. Choisissez la catégorie **[!UICONTROL Marketing]** ou **[!UICONTROL Transactionnelle]** selon le type de communication que vous souhaitez envoyer.
 
-1. Sélectionnez l’un des canaux pris en charge et la surface de canal associée à utiliser pour envoyer votre message, puis cliquez sur **[!UICONTROL Créer]**.
+1. Sélectionnez l’un des canaux pris en charge et la configuration de canal associée à utiliser pour envoyer votre message, puis cliquez sur **[!UICONTROL Créer]**.
 
    ![](assets/api-triggered-type.png)
 

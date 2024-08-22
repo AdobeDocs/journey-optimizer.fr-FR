@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: sous-domaine, domaine, courrier, dmarc, enregistrement
 exl-id: f9e217f8-5aa8-4d3a-96fc-65defcb5d340
-source-git-commit: f8d62a702824bcfca4221c857acf1d1294427543
+source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
 workflow-type: tm+mt
-source-wordcount: '1353'
-ht-degree: 100%
+source-wordcount: '1355'
+ht-degree: 99%
 
 ---
 
@@ -82,7 +82,7 @@ L’interface d’administration [!DNL Journey Optimizer] vous permet de configu
 
 Pour vous assurer que l’enregistrement DMARC est configuré pour tous les sous-domaines que vous avez délégués à [!DNL Journey Optimizer], suivez les étapes ci-dessous.
 
-1. Accédez au menu **[!UICONTROL Administration]** > **[!UICONTROL Canaux]** > **[!UICONTROL Sous-domaines]**, puis cliquez sur **[!UICONTROL Configurer le sous-domaine]**.
+1. Accédez au menu **[!UICONTROL Administration]** > **[!UICONTROL Canaux]** > **[!UICONTROL Paramètres des emails]** > **[!UICONTROL Sous-domaines]** , puis cliquez sur **[!UICONTROL Configurer un sous-domaine]**.
 
 1. Pour chaque sous-domaine délégué, vérifiez la colonne **[!UICONTROL Enregistrement DMARC]**. Si aucun enregistrement n’a été trouvé pour un sous-domaine donné, une alerte s’affiche.
 

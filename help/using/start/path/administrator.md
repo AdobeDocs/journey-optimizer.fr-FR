@@ -7,10 +7,10 @@ feature: Get Started
 role: Admin
 level: Intermediate
 exl-id: 24f85ced-aa45-493f-b2c4-7c7b58351b38
-source-git-commit: c14a9385191cfa4368e0b84ab16a63c4c87e2c69
+source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
 workflow-type: tm+mt
 source-wordcount: '707'
-ht-degree: 100%
+ht-degree: 93%
 
 ---
 
@@ -42,7 +42,7 @@ En outre, vous devez ajouter les utilisateurs qui doivent accéder à Assets Es
 
 Lorsque vous accédez à [!DNL Journey Optimizer] pour la première fois, un sandbox de production vous est alloué ainsi qu’un certain nombre d’adresses IP en fonction de votre contrat.
 
-Pour pouvoir créer vos parcours et envoyer des messages, accédez au menu **ADMINISTRATION**. Parcourez le menu **[!UICONTROL Canaux]** pour configurer les messages et les surfaces des canaux (c’est-à-dire les préréglages de message).
+Pour pouvoir créer vos parcours et envoyer des messages, accédez au menu **ADMINISTRATION**. Parcourez le menu **[!UICONTROL Canaux]** pour configurer vos messages et configurations de canal (c’est-à-dire les paramètres prédéfinis de message).
 
 >[!NOTE]
 >En tant qu’**administrateur ou administratrice système**, si le menu **[!UICONTROL Canaux]** ne s’affiche pas dans [!DNL Journey Optimizer], mettez à jour vos autorisations dans l’[Admin Console](https://adminconsole.adobe.com/){target="_blank"}. Découvrez comment mettre à jour votre profil de produit sur [cette page](../../administration/permissions.md#edit-product-profile).
@@ -50,11 +50,11 @@ Pour pouvoir créer vos parcours et envoyer des messages, accédez au menu **ADM
 
 Suivez les étapes énumérées ci-dessous :
 
-1. **Configurer les messages et les canaux** : permet de définir des surfaces, d’adapter et de personnaliser les paramètres des e-mails, des SMS et des messages push.
+1. **Configurer les messages et les canaux** : définir des configurations, adapter et personnaliser les paramètres des emails, SMS et messages push
 
    * Définissez **les paramètres des notifications push** dans [!DNL Adobe Experience Platform] et [!DNL Adobe Experience Platform Launch]. [En savoir plus](../../push/push-gs.md)
 
-   * Créez des **surfaces de canaux** (c’est-à-dire des préréglages de message) pour configurer tous les paramètres techniques requis pour les e-mails, SMS et notifications push. [En savoir plus](../../configuration/channel-surfaces.md)
+   * Créez des **configurations de canal** (c’est-à-dire des paramètres prédéfinis de message) pour configurer tous les paramètres techniques requis pour l’email, le SMS et la notification push. [En savoir plus](../../configuration/channel-surfaces.md)
 
    * Configurez le **canal SMS** pour configurer tous les paramètres techniques requis pour les SMS. [En savoir plus](../../sms/sms-configuration.md)
 

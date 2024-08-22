@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: liste autorisée, liste, sécurisé, configuration
 exl-id: 70ab8f57-c132-4de1-847b-11f0ab14f422
-source-git-commit: 30018b08da7c02d9d9aac431db2fa39f91163cfd
+source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
 workflow-type: tm+mt
 source-wordcount: '1143'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -34,7 +34,7 @@ En outre, vous pouvez tirer parti de l’**API REST de suppression** Journey Op
 
 ## Accès à la liste autorisée {#access-allowed-list}
 
-Pour accéder à la liste détaillée des adresses e-mail et domaines autorisés, accédez à **[!UICONTROL Administration]** > **[!UICONTROL Canaux]** > **[!UICONTROL Configuration du canal e-mail]**, puis sélectionnez **[!UICONTROL Liste autorisée]**.
+Pour accéder à la liste détaillée des adresses email et domaines autorisés, accédez à **[!UICONTROL Administration]** > **[!UICONTROL Canaux]** > **[!UICONTROL Paramètres des emails]**, puis sélectionnez **[!UICONTROL Liste autorisée]**.
 
 ![](assets/allow-list-access.png)
 

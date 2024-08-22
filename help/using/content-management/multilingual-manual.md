@@ -10,10 +10,10 @@ level: Beginner
 keywords: commencer, démarrer, contenu, expérience
 exl-id: 6244d717-fbd6-468e-9164-60451d0d62f0
 badge: label="Disponibilité limitée" type="Informative"
-source-git-commit: 59dee15d2952438a074db57a94b3d896b38cd4f3
+source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
 workflow-type: tm+mt
-source-wordcount: '615'
-ht-degree: 100%
+source-wordcount: '617'
+ht-degree: 98%
 
 ---
 
@@ -53,11 +53,11 @@ Lors de la configuration des paramètres de langue, comme décrit dans la sectio
 
 Dans cette section, vous pouvez définir votre langue principale et les paramètres régionaux associés pour gérer votre contenu multilingue. Vous pouvez également choisir l’attribut que vous souhaitez utiliser pour rechercher des informations relatives à la langue du profil.
 
-1. Dans le menu **[!UICONTROL Administration]**, accédez à **[!UICONTROL Canal]**.
+1. Dans le menu **[!UICONTROL Administration]**, accédez à **[!UICONTROL Canal]** > **[!UICONTROL Paramètres généraux]**.
 
 1. Dans le menu **[!UICONTROL Paramètres de langue]**, cliquez sur **[!UICONTROL Créer des paramètre de langue]**.
 
-   ![](assets/multilingual-settings-1.png)
+   ![](assets/language_settings_1.png)
 
 1. Saisissez le nom de vos **[!UICONTROL Paramètres de langue]**.
 
@@ -86,7 +86,7 @@ Dans cette section, vous pouvez définir votre langue principale et les paramèt
 1. Cliquez sur **[!UICONTROL Envoyer]** pour créer vos **[!UICONTROL paramètres de langue]**.
 
 <!--
-1. Access the **[!UICONTROL Channel surfaces]** menu and create a new channel surface or select an existing one.
+1. Access the **[!UICONTROL channel configurations]** menu and create a new channel configuration or select an existing one.
 
 
 1. In the **[!UICONTROL Header parameters]** section, select the **[!UICONTROL Enable multilingual]** option.

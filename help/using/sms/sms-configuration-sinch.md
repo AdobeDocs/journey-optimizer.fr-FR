@@ -7,10 +7,10 @@ feature: SMS, Channel Configuration
 role: Admin
 level: Intermediate
 exl-id: 85412a85-edf0-4069-8bc7-b80371375f1f
-source-git-commit: 7dfedb1b66101204b4923ddeb7793c80887ebdc0
-workflow-type: ht
-source-wordcount: '590'
-ht-degree: 100%
+source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
+workflow-type: tm+mt
+source-wordcount: '594'
+ht-degree: 88%
 
 ---
 
@@ -26,7 +26,7 @@ Lorsque vous utilisez le fournisseur Sinch avec Journey Optimizer, vous pouvez 
 
 Pour configurer votre fournisseur Sinch pour envoyer des SMS et des MMS avec Journey Optimizer, procédez comme suit :
 
-1. Dans le rail de gauche, accédez à **[!UICONTROL Administration]** > **[!UICONTROL Canaux]** et sélectionnez le menu **[!UICONTROL Informations d’identification de l’API]**. Cliquez sur le bouton **[!UICONTROL Créer des informations d’identification de l’API]**.
+1. Dans le rail de gauche, accédez à **[!UICONTROL Administration]** > **[!UICONTROL Canaux]** `>` **[!UICONTROL Paramètres SMS]** et sélectionnez le menu **[!UICONTROL Informations d’identification de l’API]**. Cliquez sur le bouton **[!UICONTROL Créer des informations d’identification de l’API]**.
 
 1. Configurez vos informations d’identification pour l’API SMS, comme indiqué ci-dessous :
 
@@ -56,7 +56,7 @@ Pour configurer votre fournisseur Sinch pour envoyer des SMS et des MMS avec Jou
 
 1. Cliquez sur **[!UICONTROL Envoyer]** lorsque vous avez terminé la configuration de vos informations d’identification API.
 
-Après avoir créé et configuré vos informations d’identification API, vous devez maintenant créer une surface de canal pour les messages SMS. [En savoir plus](sms-configuration-surface.md)
+Après avoir créé et configuré vos informations d’identification API, vous devez maintenant créer une configuration de canal pour les messages SMS. [En savoir plus](sms-configuration-surface.md)
 
 ## Informations d’identification de l’API MMS Sinch {#sinch-mms}
 
@@ -66,7 +66,7 @@ Après avoir créé et configuré vos informations d’identification API, vous 
 
 Pour configurer Sinch MMS avec Journey Optimizer, procédez comme suit :
 
-1. Dans le rail de gauche, accédez à **[!UICONTROL Administration]** > **[!UICONTROL Canaux]** et sélectionnez le menu **[!UICONTROL Informations d’identification de l’API]**. Cliquez sur le bouton **[!UICONTROL Créer des informations d’identification de l’API]**.
+1. Dans le rail de gauche, accédez à **[!UICONTROL Administration]** > **[!UICONTROL Canaux]** `>` **[!UICONTROL Paramètres SMS]** et sélectionnez le menu **[!UICONTROL Informations d’identification de l’API]**. Cliquez sur le bouton **[!UICONTROL Créer des informations d’identification de l’API]**.
 
 1. Configurez vos informations d’identification pour l’API MMS, comme indiqué ci-dessous :
 
@@ -83,4 +83,4 @@ Pour configurer Sinch MMS avec Journey Optimizer, procédez comme suit :
 
 1. Cliquez sur **[!UICONTROL Envoyer]** lorsque vous avez terminé la configuration de vos informations d’identification API.
 
-Après avoir créé et configuré vos informations d’identification d’API, vous devez maintenant créer une surface de canal pour les messages MMS. [En savoir plus](sms-configuration-surface.md)
+Après avoir créé et configuré vos informations d’identification d’API, vous devez maintenant créer une configuration de canal pour les messages MMS. [En savoir plus](sms-configuration-surface.md)

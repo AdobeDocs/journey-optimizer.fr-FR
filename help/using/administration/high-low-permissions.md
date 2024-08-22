@@ -9,10 +9,10 @@ role: Admin, Architect, Developer
 level: Experienced
 keywords: autorisation, haut niveau, bas niveau, profil, admin console
 exl-id: 1b286f9d-43ef-4b80-b4ee-136da857bb95
-source-git-commit: 5d214812b1d7e189fe8a964f445545916d00c0a4
+source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
 workflow-type: tm+mt
 source-wordcount: '1040'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -360,7 +360,7 @@ Par exemple, le rôle **[!DNL Journey administrator]** se voit attribuer lʼauto
 
 +++
 
-* Lʼautorisation de haut niveau **[!DNL Manage messages presets]** permet aux utilisateurs et utilisatrices de créer, modifier et supprimer des surfaces de canaux sur les canaux au niveau du sandbox.
+* L’autorisation de haut niveau **[!DNL Manage messages presets]** permet aux utilisateurs de lire, créer, modifier et supprimer des configurations de canal sur plusieurs canaux au niveau de l’environnement de test.
 
 +++ Elle comprend les autorisations de bas niveau suivantes :
 
@@ -478,9 +478,9 @@ Par exemple, le rôle **[!DNL Journey administrator]** se voit attribuer lʼauto
 +++
 
 <!--
-### [!DNL View channel surface] permission {#view-channel-surface}
+### [!DNL View channel configuration] permission {#view-channel-surface}
 
-The **[!DNL View channel surface]** high-level permission allows users to view channel surfaces in order to know which channel surfaces to use. 
+The **[!DNL View channel configuration]** high-level permission allows users to view channel configurations in order to know which channel configurations to use. 
   +++ It includes the following low-level permissions:  
 
 * messages_presets.read

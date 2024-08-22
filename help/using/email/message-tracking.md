@@ -9,10 +9,10 @@ role: User
 level: Beginner, Intermediate
 keywords: liens, tracking, surveillance, e-mail
 exl-id: 689e630a-00ca-4893-8bf5-6d1ec60c52e7
-source-git-commit: 4de37520b3ea7842d7f385f38c07cdf4984a5939
+source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
 workflow-type: tm+mt
 source-wordcount: '1053'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
@@ -89,7 +89,7 @@ Pour insérer des liens dans le contenu de votre e-mail, procédez comme suit :
 
 >[!NOTE]
 >
->Les e-mails de type marketing doivent inclure un [lien d’exclusion](../privacy/opt-out.md#opt-out-management), qui n’est pas obligatoire pour les messages transactionnels. La catégorie du message (**[!UICONTROL Marketing]** ou **[!UICONTROL Transactionnel]**) est définie au niveau de la [surface du canal](../configuration/channel-surfaces.md#email-type) et lors de la création du message.
+>Les e-mails de type marketing doivent inclure un [lien d’exclusion](../privacy/opt-out.md#opt-out-management), qui n’est pas obligatoire pour les messages transactionnels. La catégorie de messages (**[!UICONTROL Marketing]** ou **[!UICONTROL Transactional]**) est définie dans la [configuration de canal](../configuration/channel-surfaces.md#email-type) lors de la création du message.
 
 ## Ajuster les liens {#adjust-links}
 
@@ -164,7 +164,7 @@ La création de rapports sur les ouvertures et les clics est disponible dans le 
 
 ## Personnaliser le suivi des URL {#url-tracking}
 
-Généralement, le [tracking des URL](email-settings.md#url-tracking) est géré au niveau de la surface, mais les attributs de profil ne sont pas pris en charge. Actuellement, la seule façon de le faire est de [personnaliser les URL](../personalization/personalization-syntax.md#perso-urls) dans le concepteur d’e-mail.
+En règle générale, le [suivi d’URL](email-settings.md#url-tracking) est géré au niveau de la configuration, mais les attributs de profil ne sont pas pris en charge. Actuellement, la seule façon de le faire est de [personnaliser les URL](../personalization/personalization-syntax.md#perso-urls) dans le concepteur d’e-mail.
 
 Pour ajouter des paramètres de tracking d’URL personnalisés à vos liens, procédez comme suit.
 

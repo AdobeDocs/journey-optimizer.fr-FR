@@ -9,10 +9,10 @@ role: User
 level: Beginner, Intermediate
 hidefromtoc: true
 exl-id: 0e43be98-f471-4860-be84-8f99ab93e983
-source-git-commit: 4de37520b3ea7842d7f385f38c07cdf4984a5939
+source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
 workflow-type: tm+mt
 source-wordcount: '2035'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -285,7 +285,7 @@ Consultez également les [Notes de mise à jour d’octobre d’Adobe Experienc
 **Configuration des e-mails**
 
 * **Liste autorisée** : la liste autorisée peut désormais être activée et désactivée sur un sandbox hors production via un appel API. [En savoir plus](../configuration/allow-list.md#enable-allow-list)
-* **Navigation** : la liste de suppression, accessible sous le menu **Administration > Canaux > Configuration des e-mails> Général** a été déplacée vers le nouveau sous-menu **Liste de suppression**, qui rassemble toutes les fonctionnalités associées pour un accès plus facile. [En savoir plus](../configuration/manage-suppression-list.md#access-suppression-list)
+* **Navigation** - La liste de suppression, accessible sous le menu **Administration > Canaux > Paramètres des emails > Général**, a été déplacée vers le nouveau sous-menu **Liste de suppression**, qui rassemble toutes les fonctionnalités associées pour un accès plus facile. [En savoir plus](../configuration/manage-suppression-list.md#access-suppression-list)
 
 **Gestion des décisions**
 

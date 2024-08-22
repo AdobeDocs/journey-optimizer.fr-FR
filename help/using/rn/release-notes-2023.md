@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 61e6291f-c063-44a0-950c-8bb76de693f2
-source-git-commit: 59ecb9a5376e697061ddac4cc68f09dee68570c0
+source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
 workflow-type: tm+mt
 source-wordcount: '4394'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -93,7 +93,7 @@ Cette version est fournie avec les améliorations répertoriées ci-dessous.
 <!--
 **Consent in channel configuration**
 
-* You can now select a marketing action at the channel surface level. When used in a surface, all consent policies associated with that marketing action are leveraged in order to respect the preferences of your customers.-->
+* You can now select a marketing action at the channel configuration level. When used in a surface, all consent policies associated with that marketing action are leveraged in order to respect the preferences of your customers.-->
 
 **Gestion des décisions**
 
@@ -616,7 +616,7 @@ Enhancements have been made to the audience picker in journeys or campaigns, wit
 
 **Canal SMS**
 
-* Infobip a été ajouté en tant que fournisseur lors de la configuration des surfaces de vos canaux SMS. [En savoir plus](../sms/sms-configuration.md).
+* Infobip a été ajouté en tant que fournisseur lors de la configuration de vos configurations de canal SMS. [En savoir plus](../sms/sms-configuration.md).
 * Twillio – La configuration des informations d’identification API inclut désormais la possibilité d’ajouter le SID du service de messagerie pour une intégration transparente à votre compte Twillio. [En savoir plus](../sms/sms-configuration.md).
 
 **Canal in-app**
@@ -1012,7 +1012,7 @@ Note that each widget can be resized and deleted as needed.
 
 * Lors de la création ou de la modification des **Groupes d’adresses IP**, les enregistrements PTR associés sont désormais affichés dans la liste des adresses IP et lorsque vous passez la souris sur les adresses IP sélectionnées. [En savoir plus](../configuration/ip-pools.md#create-ip-pool)
 
-* Une fois qu’un groupe d’adresses IP a été sélectionné dans la surface d’un canal, les informations d’enregistrement PTR sont désormais visibles lorsque vous passez la souris sur les adresses IP. [En savoir plus](../email/email-settings.md#subdomains-and-ip-pools)
+* Une fois qu’un pool d’adresses IP a été sélectionné dans une configuration de canal, les informations d’enregistrement du PTR sont désormais visibles lorsque vous pointez sur les adresses IP. [En savoir plus](../email/email-settings.md#subdomains-and-ip-pools)
 
 * L’interface utilisateur pour la modification des [enregistrements PTR](../configuration/ptr-records.md#edit-ptr-record) et des [champs d’exécution](../configuration/primary-email-addresses.md) a été mise à jour.
 

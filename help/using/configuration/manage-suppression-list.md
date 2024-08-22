@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: suppression, liste, rebond, e-mail, optimizer, quarantaine
 exl-id: 430a2cd4-781d-4d37-a75d-405f5ed82377
-source-git-commit: 0ba1af43f5447df861e419b56f34a418cfbce241
+source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
 workflow-type: tm+mt
 source-wordcount: '1599'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -32,7 +32,7 @@ En outre, vous pouvez tirer parti de l’**API REST de suppression** de Journey�
 
 ## Accéder à la liste de suppression {#access-suppression-list}
 
-Pour accéder à la liste détaillée des adresses e-mail et domaines exclus, accédez à **[!UICONTROL Administration]** > **[!UICONTROL Canaux]** > **[!UICONTROL Configuration du canal e-mail]**, puis sélectionnez **[!UICONTROL Liste de suppression]**.
+Pour accéder à la liste détaillée des adresses email et domaines exclus, accédez à **[!UICONTROL Administration]** > **[!UICONTROL Canaux]** > **[!UICONTROL Paramètres d’e-mail]**, puis sélectionnez **[!UICONTROL Liste de suppression]**.
 
 
 ![](assets/suppression-list-access.png)
@@ -66,8 +66,6 @@ Les catégories de suppression sont les suivantes :
 * **Manuel** : des erreurs manuelles ont été ajoutées manuellement à la liste de suppression. [En savoir plus](#add-addresses-and-domains).
 
 Pour chaque adresse e-mail répertoriée, vous pouvez également vérifier le **[!UICONTROL type]** (e-mail ou domaine), le **[!UICONTROL motif]** de son exclusion et la date/l’heure de son ajout à la liste de suppression.
-
-![](assets/suppression-list.png)
 
 Les motifs possibles d’un échec de diffusion sont les suivants :
 
@@ -230,8 +228,6 @@ Pour récupérer ces adresses, exécutez une requête spécifique avec des param
 
 Une fois les adresses e-mail concernées identifiées, filtrez la liste de suppression pour les afficher. Par exemple, si une panne du FAI s’est produite du 11 novembre 2022 au 13 novembre 2022 sur le domaine **test.com**, filtrez les adresses ajoutées à la liste de suppression dans cette période, tel qu’indiqué ci-dessous :
 
-![](assets/remove-from-supp-list.png)
-
 Vous pouvez ensuite supprimer les adresses e-mail de la liste de suppression à l’aide du bouton **[!UICONTROL Supprimer]**.
 
 ## Télécharger la liste de suppression {#download-suppression-list}
@@ -250,8 +246,6 @@ Pour exporter la liste de suppression au format CSV, suivez les étapes ci-desso
    ![](assets/suppression-list-download-csv.png)
 
 1. Patientez jusqu’à ce que le fichier soit généré.
-
-   ![](assets/suppression-list-download-generate.png)
 
    >[!NOTE]
    >

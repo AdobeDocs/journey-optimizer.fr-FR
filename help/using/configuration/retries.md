@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: reprises, rebond, temporaire, optimizer, erreur
 exl-id: 05564a99-da50-4837-8dfb-bb1d3e0f1097
-source-git-commit: d3f0adab52ed8e44a6097c5079396d1e9c06e0a7
+source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
 workflow-type: tm+mt
 source-wordcount: '578'
-ht-degree: 100%
+ht-degree: 89%
 
 ---
 
@@ -50,7 +50,7 @@ Par exemple :
 
 Si la valeur par défaut de 5 ne correspond pas à vos besoins, vous pouvez modifier le seuil d’erreur en procédant comme suit.
 
-1. Accédez à **[!UICONTROL Canaux]** > **[!UICONTROL Configuration des e-mails]** > **[!UICONTROL Liste de suppression]**.
+1. Accédez à **[!UICONTROL Canaux]** > **[!UICONTROL Paramètres des emails]** > **[!UICONTROL Liste de suppression]**.
 
 1. Sélectionnez le bouton **[!UICONTROL Modifier les règles de suppression]**.
 
@@ -72,7 +72,7 @@ La **période de reprise** est la période pendant laquelle tout message électr
 
 Par défaut, les reprises seront effectuées pendant **3,5 jours** (ou **84 heures**) à partir du moment où le message a été ajouté à la file d’attente des e-mails.
 
-Cependant, pour vous assurer que les tentatives de reprise ne sont plus effectuées lorsque cela n’est plus nécessaire, vous pouvez modifier ce paramètre en fonction de vos besoins lors de la création ou de la modification d’une [surface de canal](channel-surfaces.md) (c’est-à-dire un préréglage de message) s’appliquant au canal e-mail.
+Cependant, pour vous assurer que les tentatives de reprise ne sont plus effectuées lorsque plus nécessaire, vous pouvez modifier ce paramètre en fonction de vos besoins lors de la création ou de l’édition d’une [configuration de canal](channel-surfaces.md) (c’est-à-dire un paramètre prédéfini de message) s’appliquant au canal email.
 
 Par exemple, vous pouvez définir la période de reprise sur 24 heures pour un e-mail transactionnel relatif à la réinitialisation du mot de passe et contenant un lien valide seulement pendant une journée. De même, pour une vente à minuit, vous pouvez définir une période de reprise de 6 heures.
 
@@ -80,5 +80,5 @@ Par exemple, vous pouvez définir la période de reprise sur 24 heures pour un 
 >
 >La période de reprise ne peut pas dépasser 84 heures. La période de reprise minimale est de 6 heures pour les e-mails marketing et de 10 minutes pour les e-mails transactionnels.
 
-Découvrez comment ajuster les paramètres de reprise d’e-mail lors de la création d’une surface de canal dans [cette section](../email/email-settings.md#email-retry).
+Découvrez comment ajuster les paramètres de reprise d’email lors de la création d’une configuration de canal dans [cette section](../email/email-settings.md#email-retry).
 

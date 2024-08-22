@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 6f6d693d-11f2-48b7-82a8-171829bf8045
-source-git-commit: 8a1ec5acef067e3e1d971deaa4b10cffa6294d75
+source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
 workflow-type: tm+mt
 source-wordcount: '1365'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -39,7 +39,7 @@ Sélectionnez le comportement lorsquʼun utilisateur clique sur le contenu de la
 
 ![](assets/title-body-push.png)
 
-* Pour ouvrir l’application, sélectionnez l’option **[!UICONTROL Ouvrir l’application]**. Lʼapplication associée à la notification est définie dans la [surface de canal](../configuration/channel-surfaces.md) (c’est-à-dire le préréglage de message).
+* Pour ouvrir l’application, sélectionnez l’option **[!UICONTROL Ouvrir l’application]**. L’application associée à la notification est définie dans la [configuration de canal](../configuration/channel-surfaces.md) (c’est-à-dire le paramètre prédéfini de message).
 * Pour rediriger l’utilisateur vers un élément de contenu spécifique dans une application, sélectionnez l’option **[!UICONTROL Lien profond]** .  Le contenu spécifique peut être un affichage spécifique, une section spécifique d’une page ou un certain onglet. Une fois lʼoption sélectionnée, saisissez le lien profond dans le champ correspondant.
 * Pour rediriger l’utilisateur vers une URL externe, utilisez l’option **[!UICONTROL URL Web]**. Une fois lʼoption sélectionnée, saisissez lʼURL dans le champ correspondant.
 

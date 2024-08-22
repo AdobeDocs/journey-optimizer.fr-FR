@@ -8,10 +8,10 @@ role: Admin
 level: Experienced
 keywords: destination, page de destination, sous-domaines, configuration
 exl-id: dd1af8dc-3920-46cb-ae4d-a8f4d4c26e89
-source-git-commit: 8579acfa881f29ef3947f6597dc11d4c740c3d68
+source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
 workflow-type: tm+mt
-source-wordcount: '809'
-ht-degree: 100%
+source-wordcount: '811'
+ht-degree: 96%
 
 ---
 
@@ -50,9 +50,7 @@ Vous pouvez utiliser un sous-domaine déjà délégué à Adobe ou en configurer
 
 Pour utiliser un sous-domaine déjà délégué à Adobe, procédez comme suit.
 
-1. Accédez au menu **[!UICONTROL Administration]** > **[!UICONTROL Canaux]**, puis sélectionnez **[!UICONTROL Configuration du canal e-mail]** > **[!UICONTROL Sous-domaines de la page de destination]**.
-
-   ![](assets/lp_access-subdomains.png)
+1. Accédez au menu **[!UICONTROL Administration]** > **[!UICONTROL Canaux]** , puis sélectionnez **[!UICONTROL Paramètres de page d’entrée]** > **[!UICONTROL Sous-domaines de page d’entrée]**.
 
 1. Cliquez sur **[!UICONTROL Configurer le sous-domaine]**.
 
@@ -105,7 +103,7 @@ Pour utiliser un sous-domaine déjà délégué à Adobe, procédez comme suit.
 
 Pour configurer un nouveau sous-domaine, procédez comme suit :
 
-1. Accédez au menu **[!UICONTROL Administration]** > **[!UICONTROL Canaux]**, puis sélectionnez **[!UICONTROL Configuration du canal e-mail]** > **[!UICONTROL Sous-domaines des pages de destination]**.
+1. Accédez au menu **[!UICONTROL Administration]** > **[!UICONTROL Canaux]** , puis sélectionnez **[!UICONTROL Paramètres de page d’entrée]** > **[!UICONTROL Sous-domaines de page d’entrée]**.
 
 1. Cliquez sur **[!UICONTROL Configurer un sous-domaine]**.
 

@@ -7,10 +7,10 @@ feature: SMS, Channel Configuration
 role: Admin
 level: Intermediate
 exl-id: 7b6dc89a-1a81-49c2-b2a7-bf24b9d215e3
-source-git-commit: 794ac45177e467be4bd5b8f7288e07c85e4d806a
+source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
 workflow-type: tm+mt
 source-wordcount: '382'
-ht-degree: 100%
+ht-degree: 94%
 
 ---
 
@@ -56,4 +56,4 @@ Pour configurer Infobip avec Journey Optimizer, procédez comme suit :
 
 1. Cliquez sur **[!UICONTROL Envoyer]** lorsque vous avez terminé la configuration de vos informations d’identification API.
 
-Après avoir créé et configuré vos informations d’identification de l’API, vous devez maintenant créer une surface de canal pour les messages SMS et MMS. [En savoir plus](sms-configuration-surface.md)
+Après avoir créé et configuré vos informations d’identification d’API, vous devez maintenant créer une configuration de canal pour les SMS et MMS. [En savoir plus](sms-configuration-surface.md)

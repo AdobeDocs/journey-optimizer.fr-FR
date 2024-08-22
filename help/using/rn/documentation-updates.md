@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 30144c26a03d145c9dc98c7a4db007d5c454a639
+source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
 workflow-type: tm+mt
 source-wordcount: '5454'
 ht-degree: 99%
@@ -21,7 +21,7 @@ Cette page répertorie toutes les mises à jour récentes de la documentation de
 
 ## Août 2024 {#aug-2024}
 
-* Les garde-performances de la gestion de la décision ont été mis à jour afin de mentionner les débits de diffusion des API de prise de décision avec/sans segmentation Edge. [En savoir plus](../start/guardrails.md#decision-management)
+* Les mécanismes de sécurisation des performances de la gestion des décisions ont été mis à jour afin de mentionner les débits de diffusion des API de prise de décision avec/sans segmentation Edge. [En savoir plus](../start/guardrails.md#decision-management)
 * Les barrières de sécurité des parcours ont été mises à jour. [En savoir plus](../start/guardrails.md#journeys-guardrails-journeys)
 
 
@@ -205,7 +205,7 @@ Cette page répertorie toutes les mises à jour récentes de la documentation de
 * Une note a été ajoutée pour indiquer que, si des modifications sont apportées à une décision d’offres utilisée dans le message d’un parcours, vous devez dépublier le parcours puis le republier. [En savoir plus](../building-journeys/publishing-the-journey.md).
 * La gestion des décisions a clarifié la manière de s’assurer que les événements sont correctement pris en compte dans la section **Événement de limitation**. [En savoir plus](../offers/offer-library/add-constraints.md#capping-event).
 * Une nouvelle section a été ajoutée à la page **Modifier les adresses d’exécution**. Elle indique qu’il est possible de remplacer le champ d’exécution défini globalement dans les paramètres avancés du parcours, mais que le remplacement de l’adresse e-mail ne doit être utilisé que pour des cas d’utilisation spécifiques. La plupart du temps, la valeur définie comme adresse principale dans les **Champs d’exécution** est celle qui doit être utilisée. [En savoir plus](../configuration/primary-email-addresses.md#journey-parameters)
-* La section **Suivi des URL** fournit désormais la liste et la description de tous les attributs contextuels pouvant être définis pour le suivi des URL dans une surface de canal d’e-mail. [En savoir plus](../email/email-settings.md#url-tracking).
+* La section **Suivi d’URL** fournit désormais la liste et la description de tous les attributs contextuels pouvant être définis pour le suivi d’URL dans une configuration de canal de courrier électronique. [En savoir plus](../email/email-settings.md#url-tracking).
 
 ## Mars 2023 {#march-2023}
 
@@ -296,7 +296,7 @@ Cette page répertorie toutes les mises à jour récentes de la documentation de
 ## Juillet 2022 {#july-2022}
 
 * Toutes les nouvelles fonctionnalités et améliorations de la version du 22 juillet de [!DNL Journey Optimizer] sont présentées dans la documentation. [En savoir plus](release-notes.md)
-* La section **Configurer des surfaces de canal** a été simplifiée et contient des liens vers la page décrivant comment configurer le canal SMS. [En savoir plus](../configuration/channel-surfaces.md#create-channel-surface)
+* La section **Configuration des configurations de canal** a été clarifiée et mise à jour avec des liens vers la page décrivant comment configurer le canal SMS. [En savoir plus](../configuration/channel-surfaces.md#create-channel-surface)
 * Dans les propriétés du parcours, l’option **Fuseau horaire du profil** est désormais désactivée par défaut. [En savoir plus](../building-journeys/timezone-management.md#timezone-from-profiles)
 * Dans l’activité **Attente**, l’option **Date fixe** n’est plus disponible. [En savoir plus](../building-journeys/wait-activity.md)
 * Des informations supplémentaires ont été ajoutées sur l’option **Lecture incrémentielle** dans l’activité **Lecture d’audience**. [En savoir plus](../building-journeys/read-audience.md#configuring-segment-trigger-activity)

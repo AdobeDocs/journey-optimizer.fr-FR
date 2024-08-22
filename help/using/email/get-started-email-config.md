@@ -9,10 +9,10 @@ feature: Channel Configuration, Email
 topic: Administration
 keywords: e-mail, configuration, surface, sous-domaines
 exl-id: 1fc9a4f6-6c34-4414-b400-aac6bda9ee25
-source-git-commit: bd5e5e501d557e11fb0c1c71a0f9289f39601348
+source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
 workflow-type: tm+mt
 source-wordcount: '211'
-ht-degree: 100%
+ht-degree: 79%
 
 ---
 
@@ -28,14 +28,14 @@ Pour envoyer des e-mails par le biais de parcours et de campagnes dans [!DNL Jou
 
    ![](../configuration/assets/ip-pool-create.png)
 
-1. Créez des surfaces de canal et sélectionnez le canal **[!UICONTROL E-mail]**. [En savoir plus](../configuration/channel-surfaces.md)
+1. Créez des configurations de canal et sélectionnez le canal **[!UICONTROL Email]**. [En savoir plus](../configuration/channel-surfaces.md)
 
 
    ![](../configuration/assets/preset-general.png)
 
-1. Dans chaque surface de canal e-mail, configurez tous les paramètres techniques requis pour diffuser les e-mails. [En savoir plus](email-settings.md)
+1. Dans chaque configuration du canal Email, configurez tous les paramètres techniques requis pour diffuser des emails. [En savoir plus](email-settings.md)
 
-   * C’est là que vous sélectionnez le sous-domaine à utiliser pour envoyer les e-mails et les pools d’adresses IP à associer à la surface. [En savoir plus](email-settings.md#subdomains-and-ip-pools)
+   * C’est là que vous sélectionnez le sous-domaine à utiliser pour envoyer les emails et les pools d’adresses IP à associer à la configuration. [En savoir plus](email-settings.md#subdomains-and-ip-pools)
 
    ![](assets/surface-subdomain-ip-pool.png)
 

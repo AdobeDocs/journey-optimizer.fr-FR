@@ -7,10 +7,11 @@ feature: Templates
 topic: Content Management
 role: User
 level: Beginner
-source-git-commit: 59c675dd2ac94b6967cfb3a93f74b2016a090190
+exl-id: 01726ab6-f581-4d19-aedd-2541bc0f27c6
+source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
 workflow-type: tm+mt
 source-wordcount: '193'
-ht-degree: 100%
+ht-degree: 90%
 
 ---
 
@@ -30,7 +31,7 @@ Vous pouvez tester le rendu de certains de vos modèles d’e-mail, qu’ils aie
 
    * Pour ce faire, cliquez sur le bouton **[!UICONTROL Envoyer un BAT]** et suivez les étapes décrites dans [cette section](../content-management/proofs.md).
 
-   * Avant d’envoyer le BAT, vous devez sélectionner la [surface d’e-mail](../configuration/channel-surfaces.md) qui sera utilisée pour tester votre contenu.
+   * Avant d&#39;envoyer le BAT, vous devez sélectionner la [configuration de l&#39;email](../configuration/channel-surfaces.md) qui sera utilisée pour tester votre contenu.
 
      ![](assets/content-template-stimulate-proof-surface.png)
 

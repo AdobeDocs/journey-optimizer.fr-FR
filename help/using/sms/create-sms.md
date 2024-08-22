@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 1f88626a-b491-4b36-8e3f-57f2b7567dd0
-source-git-commit: 59ecb9a5376e697061ddac4cc68f09dee68570c0
+source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
 workflow-type: tm+mt
-source-wordcount: '940'
-ht-degree: 100%
+source-wordcount: '1016'
+ht-degree: 89%
 
 ---
 
@@ -41,33 +41,37 @@ Accédez aux onglets ci-dessous pour savoir comment ajouter un message texte (SM
 
    ![](assets/sms_create_1.png)
 
-1. Fournissez des informations de base sur votre message (libellé, description, catégorie), puis choisissez la surface de message à utiliser.
+1. Fournissez des informations de base sur votre message (libellé, description, catégorie), puis choisissez la configuration du message à utiliser.
 
    ![](assets/sms_create_2.png)
 
    Pour plus d’informations sur la configuration de votre parcours, consultez cette [page](../building-journeys/journey-gs.md).
 
-   Par défaut, le champ **[!UICONTROL Surface]** est prérempli avec la dernière surface utilisée par l’utilisateur ou l’utilisatrice pour ce canal.
+   Le champ **[!UICONTROL configuration]** est prérempli par défaut avec la dernière configuration utilisée par l’utilisateur pour ce canal.
 
 Vous pouvez maintenant commencer à concevoir le contenu de votre message SMS en cliquant sur le bouton **[!UICONTROL Modifier le contenu]**, comme illustré ci-dessous.
 
 >[!TAB Ajouter un message texte à une campagne]
 
-1. Créez une campagne planifiée ou déclenchée par une API, sélectionnez **[!UICONTROL SMS]** comme action et choisissez la **[!UICONTROL surface d’application]** à utiliser. Pour en savoir plus sur la configuration de SMS, consultez [cette page](sms-configuration.md).
+1. Accédez au menu **[!UICONTROL Campagnes]**, puis cliquez sur **[!UICONTROL Créer une campagne]**.
 
-   ![](assets/sms_create_3.png)
+1. Sélectionner le type de campagne que vous souhaitez exécuter.
 
-1. Cliquez sur **[!UICONTROL Créer]**.
+   * **Scheduled - Marketing** : permet d’exécuter la campagne immédiatement ou à une date spécifiée. Les campagnes planifiées visent à envoyer des messages marketing. Ils sont configurés et exécutés à partir de l’interface utilisateur.
+
+   * **API-triggered - Marketing/Transactional** : permet d’exécuter la campagne à l’aide d’un appel API. Les campagnes déclenchées par l’API sont destinées à envoyer des messages marketing ou transactionnels, c’est-à-dire des messages envoyés suite à une action effectuée par un individu : réinitialisation de mot de passe, achat de panier, etc.
 
 1. Dans la section **[!UICONTROL Propriétés]**, modifiez le **[!UICONTROL Titre]** et la **[!UICONTROL Description]** de votre campagne.
-
-   ![](assets/sms_create_4.png)
 
 1. Cliquez sur le bouton **[!UICONTROL Sélectionner une audience]** pour définir l’audience à cibler à partir de la liste des audiences Adobe Experience Platform disponibles. [En savoir plus](../audience/about-audiences.md).
 
 1. Dans le champ **[!UICONTROL Espace de noms d’identité]**, choisissez l’espace de noms à utiliser pour identifier les personnes à partir de l’audience sélectionnée. [En savoir plus](../event/about-creating.md#select-the-namespace).
 
-   ![](assets/sms_create_5.png)
+1. Dans la section **[!UICONTROL Actions]** , sélectionnez le **[!UICONTROL SMS]** et sélectionnez ou créez une configuration.
+
+   Pour en savoir plus sur la configuration de SMS, consultez [cette page](sms-configuration.md).
+
+   ![](assets/sms_create_3.png)
 
 1. Cliquez sur **[!UICONTROL Créer une expérience]** pour commencer à configurer votre expérience de contenu et créer des traitements afin de mesurer leurs performances et d’identifier la meilleure option pour votre audience cible. [En savoir plus](../content-management/content-experiment.md).
 
@@ -105,7 +109,7 @@ Pour configurer le contenu de votre SMS, procédez comme suit. Les paramètres d
 
 1. Une fois le contenu défini, ajoutez les URL trackées à votre message. Pour ce faire, accédez au menu **[!UICONTROL Fonctions d’assistance]** et sélectionnez **[!UICONTROL Helpers]**.
 
-   Notez que pour utiliser la fonction de raccourcissement des URL, vous devez d’abord configurer un sous-domaine, qui sera ensuite lié à votre surface. [En savoir plus](sms-subdomains.md).
+   Notez que pour utiliser la fonction de raccourcissement des URL, vous devez d’abord configurer un sous-domaine qui sera ensuite lié à votre configuration. [En savoir plus](sms-subdomains.md)
 
    >[!CAUTION]
    >

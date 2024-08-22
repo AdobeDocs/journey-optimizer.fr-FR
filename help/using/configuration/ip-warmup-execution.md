@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: IP, groupe, sous-domaines, délivrabilité
 exl-id: 752ffd7f-09c2-4aa3-a067-2dbe0634709c
-source-git-commit: bdd3b951e44adaf3ff362b8af69f5ab74d13f484
-workflow-type: ht
+source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
+workflow-type: tm+mt
 source-wordcount: '2530'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -58,7 +58,7 @@ At phase level, system ensures that previously targeted + new profiles are picke
    >
    >* Seules les campagnes ayant l’option **[!UICONTROL Activation du plan de préchauffage des adresses IP]** activée sont disponibles pour sélection. [En savoir plus](#create-ip-warmup-campaign)
    >
-   >* Seules les campagnes qui utilisent la même surface que le plan de préchauffage d’adresses IP choisi peuvent être sélectionnées.
+   >* Seules les campagnes qui utilisent la même configuration que le plan de chauffage d’une adresse IP sélectionné peuvent être sélectionnées.
 
 1. Une fois qu’une campagne est sélectionnée pour la phase en cours, les sections permettant d’exclure les profils, les audiences de campagnes et les groupes de domaines de l’opération s’affichent.
 

@@ -10,9 +10,9 @@ level: Beginner
 keywords: commencer, démarrer, contenu, expérience
 exl-id: 38e82eb2-67d9-4a7d-8c1f-77dab20bcec4
 badge: label="Disponibilité limitée" type="Informative"
-source-git-commit: 8484c39cf610fc4044e656243eba88deb8c50867
+source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
 workflow-type: tm+mt
-source-wordcount: '1326'
+source-wordcount: '1328'
 ht-degree: 95%
 
 ---
@@ -102,7 +102,7 @@ Votre projet de traduction est maintenant créé et peut être utilisé dans une
 
 Dans cette section, vous pouvez définir votre langue principale et les paramètres régionaux associés pour gérer votre contenu multilingue. Vous pouvez également choisir l’attribut que vous souhaitez utiliser pour rechercher des informations relatives à la langue du profil.
 
-1. Dans le menu **[!UICONTROL Administration]**, accédez à **[!UICONTROL Canal]**.
+1. Dans le menu **[!UICONTROL Administration]**, accédez à **[!UICONTROL Canal]** > **[!UICONTROL Paramètres généraux]**.
 
 1. Dans le menu **[!UICONTROL Paramètres de langue]**, cliquez sur **[!UICONTROL Créer des paramètre de langue]**.
 
@@ -131,7 +131,7 @@ Dans cette section, vous pouvez définir votre langue principale et les paramèt
 1. Cliquez sur **[!UICONTROL Envoyer]** pour créer vos **[!UICONTROL paramètres de langue]**.
 
 <!--
-1. Access the **[!UICONTROL Channel surfaces]** menu and create a new channel surface or select an existing one.
+1. Access the **[!UICONTROL channel configurations]** menu and create a new channel configuration or select an existing one.
 
 1. In the **[!UICONTROL Header parameters]** section, select the **[!UICONTROL Enable multilingual]** option.
 

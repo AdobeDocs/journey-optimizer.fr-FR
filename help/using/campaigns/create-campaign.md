@@ -9,10 +9,10 @@ role: User
 level: Beginner
 keywords: créer, optimizer, campagne, surface, messages
 exl-id: 617d623c-e038-4b5b-a367-5254116b7815
-source-git-commit: 59ecb9a5376e697061ddac4cc68f09dee68570c0
+source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
 workflow-type: tm+mt
-source-wordcount: '925'
-ht-degree: 100%
+source-wordcount: '914'
+ht-degree: 93%
 
 ---
 
@@ -20,9 +20,9 @@ ht-degree: 100%
 
 >[!NOTE]
 >
->Avant de créer une campagne, assurez-vous de disposer d’un canal de surface (c’est-à-dire un préréglage de message) et d’une audience Adobe Experience Platform prête à l’emploi. En savoir plus dans ces sections :
+>Avant de créer une nouvelle campagne, vérifiez que vous disposez d’une configuration de canal (c’est-à-dire de la surface des messages) et d’une audience Adobe Experience Platform prête à être utilisée. En savoir plus dans ces sections :
 >
->* [Création de surfaces de canal](../configuration/channel-surfaces.md)
+>* [ Créer des configurations de canal ](../configuration/channel-surfaces.md)
 >* [Commencer avec les audiences](../audience/about-audiences.md)
 
 Pour créer une campagne, accédez au menu **[!UICONTROL Campagnes]**, puis cliquez sur **[!UICONTROL Créer une campagne]**. Vous pouvez également dupliquer une campagne active existante pour en créer une nouvelle. [En savoir plus](modify-stop-campaign.md#duplicate)
@@ -81,11 +81,11 @@ Définissez la population ciblée par la campagne en suivant les étapes suivant
 
 ## Créer le message et configurer le suivi {#content}
 
-1. Dans la section **[!UICONTROL Actions]**, choisissez le canal et la surface à utiliser pour envoyer votre message.
+1. Dans la section **[!UICONTROL Actions]** , sélectionnez ou créez une configuration.
 
-   Une surface est une configuration définie par l’[administrateur système](../start/path/administrator.md). Elle contient tous les paramètres techniques relatifs à l’envoi du message, tels que les paramètres d’en-tête, le sous-domaine, les applications mobiles, etc. [En savoir plus](../configuration/channel-surfaces.md).
+   Une configuration est définie par un [Administrateur système](../start/path/administrator.md). Elle contient tous les paramètres techniques relatifs à l’envoi du message, tels que les paramètres d’en-tête, le sous-domaine, les applications mobiles, etc. [En savoir plus](../configuration/channel-surfaces.md).
 
-   Seules les surfaces de canal compatibles avec le type de campagne marketing sont répertoriées dans la liste déroulante.
+   Seules les configurations de canal compatibles avec le type de campagne marketing sont répertoriées dans la liste déroulante.
 
    ![](assets/create-campaign-action.png)
 

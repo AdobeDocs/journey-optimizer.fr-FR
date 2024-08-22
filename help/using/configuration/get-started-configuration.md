@@ -9,10 +9,10 @@ exl-id: 0964a484-f957-4aae-a571-61b2a1615026
 feature: Application Settings
 topic: Administration
 keywords: configuration, configurer, messages, canal, sandbox, optimizer
-source-git-commit: 970fef96b6fa04f2b5ce1a8d10f89802f513b373
+source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
 workflow-type: tm+mt
 source-wordcount: '387'
-ht-degree: 100%
+ht-degree: 95%
 
 ---
 
@@ -33,7 +33,7 @@ Pour pouvoir créer vos parcours et envoyer des messages, vous devez suivre les 
 
    * Pour le canal **SMS** , vous devez configurer votre instance pour envoyer des SMS, notamment en intégrant les paramètres du fournisseur à [!DNL Journey Optimizer]. [En savoir plus](../sms/sms-configuration.md)
 
-1. Une fois cette opération terminée, vous devez créer des **surfaces de canal** pour configurer tous les paramètres techniques requis pour diffuser les messages. [En savoir plus](channel-surfaces.md)
+1. Une fois que vous avez terminé, vous devez créer les **configurations de canal** pour configurer tous les paramètres techniques requis pour diffuser les messages. [En savoir plus](channel-surfaces.md)
 
 1. Vous pouvez également réaliser les opérations suivantes :
 

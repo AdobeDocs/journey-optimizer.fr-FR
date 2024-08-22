@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: liste de contrôle, contrôle, configuration
 exl-id: 0172f6bc-da8b-4a83-a0fc-4ed41324568f
-source-git-commit: 534c40c824962a983fe503c67bdc1bec2f9d9ae5
+source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
 workflow-type: tm+mt
 source-wordcount: '959'
-ht-degree: 100%
+ht-degree: 92%
 
 ---
 
@@ -52,7 +52,7 @@ Les adresses de contrôle ne sont ni des profils réels ni des profils de test, 
 
 ## Accéder aux listes de contrôle {#access-seed-lists}
 
-Pour accéder aux listes de contrôle déjà créées, accédez à **[!UICONTROL Administration]** > **[!UICONTROL Canaux]** > **[!UICONTROL Configuration du canal e-mail]**, puis sélectionnez **[!UICONTROL Liste de contrôle]**.
+Pour accéder aux listes de contrôle déjà créées, accédez à **[!UICONTROL Administration]** > **[!UICONTROL Canaux]** > **[!UICONTROL Paramètres des emails]**, puis sélectionnez **[!UICONTROL Liste de contrôle]**.
 
 <!--
 >[!CAUTION]
@@ -73,7 +73,7 @@ Utilisez le bouton **[!UICONTROL Supprimer]** pour supprimer définitivement une
 
 >[!CAUTION]
 >
->Il n’est pas possible de supprimer une liste de contrôle utilisée dans une [campagne](../campaigns/review-activate-campaign.md) active ou un [parcours](../building-journeys/publishing-the-journey.md) actif. Vous devez désactiver la campagne/le parcours, ou l’éditer pour utiliser une autre surface dans laquelle la liste de contrôle n’est pas sélectionnée. [En savoir plus sur l’utilisation d’une liste de contrôle](#use-seed-list).
+>Il n’est pas possible de supprimer une liste de contrôle utilisée dans une [campagne](../campaigns/review-activate-campaign.md) active ou un [parcours](../building-journeys/publishing-the-journey.md) actif. Vous devez désactiver l&#39;opération/le parcours, ou l&#39;éditer pour utiliser une autre configuration dont la liste de contrôle n&#39;est pas sélectionnée. [En savoir plus sur l’utilisation d’une liste de contrôle](#use-seed-list).
 
 Vous pouvez cliquer sur le nom d’une liste de contrôle pour l’éditer. <!--Use the **[!UICONTROL Edit]** button to edit a seed list.-->
 
@@ -92,7 +92,7 @@ Vous pouvez cliquer sur le nom d’une liste de contrôle pour l’éditer. <!--
 
 Pour créer une liste de contrôle, procédez comme suit :
 
-1. Accédez au menu **[!UICONTROL Administration]** > **[!UICONTROL Canaux]** > **[!UICONTROL Configuration du canal e-mail]** > **[!UICONTROL Liste de contrôle]**.
+1. Accédez au menu **[!UICONTROL Administration]** > **[!UICONTROL Canaux]** > **[!UICONTROL Paramètres des emails]** > **[!UICONTROL Liste de contrôle]** .
 
 1. Cliquez sur le bouton **[!UICONTROL Créer une liste de contrôle]**.
 
@@ -132,7 +132,7 @@ Maintenant que votre liste de contrôle est créée, vous pouvez l’utiliser da
 >
 >Les messages envoyés aux adresses de contrôle ne sont pas inclus dans les rapports de parcours ou de campagne.
 
-1. Créez une surface et sélectionnez le canal **[!UICONTROL e-mail]**. [En savoir plus](../email/email-settings.md)
+1. Créez une configuration et sélectionnez le canal **[!UICONTROL Email]**. [En savoir plus](../email/email-settings.md)
 
 1. Sélectionnez la liste de contrôle de votre choix dans la [section correspondante](../email/email-settings.md#seed-list).
 
@@ -142,11 +142,11 @@ Maintenant que votre liste de contrôle est créée, vous pouvez l’utiliser da
 
    ![](assets/seed-list-surface.png)
 
-1. Soumettez la surface.
+1. Envoyez la configuration.
 
 1. Créez une [campagne](../campaigns/create-campaign.md) ou un [parcours](../building-journeys/journey-gs.md).
 
-1. Sélectionnez l’action **[!UICONTROL E-mail]** et sélectionnez la [surface](channel-surfaces.md), y compris la liste de contrôle qui vous intéresse.
+1. Sélectionnez l’action **[!UICONTROL Email]** et sélectionnez la [configuration](channel-surfaces.md) incluant la liste de contrôle qui vous intéresse.
 
    ![](assets/seed-list-campaign-email.png)
 

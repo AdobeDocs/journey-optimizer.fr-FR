@@ -8,10 +8,10 @@ feature: Push, Overview
 role: Admin
 level: Intermediate
 exl-id: 9718c4b6-2558-4dfd-9d8f-f8845def19ba
-source-git-commit: 03c714833930511fa734662b637d2416728073c2
+source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
 workflow-type: tm+mt
 source-wordcount: '729'
-ht-degree: 98%
+ht-degree: 96%
 
 ---
 
@@ -36,7 +36,7 @@ Le graphique suivant montre les systèmes et services impliqués dans les flux d
 1. Enregistrement de votre application mobile de marque (Android ou iOS) auprès d&#39;APNs d&#39;Apple et des services de messagerie push Google FCM
 1. Les services de messagerie génèrent un jeton push, qui est un identifiant qu’utilisera [!DNL Adobe Journey Optimizer] pour cibler l’appareil spécifique avec une notification push.
 1. Le jeton push généré précédemment est transmis à Adobe Experience Platform et synchronisé avec le profil client en temps réel. Cette opération est effectuée en standard avec un SDK client facile à intégrer.
-1. Les messages push sont créés dans [!DNL Adobe Journey Optimizer] ; ils sont créés selon une surface de canal (c’est-à-dire un préréglage de message).
+1. Les messages push sont créés dans [!DNL Adobe Journey Optimizer], les messages push sont créés selon une configuration de canal (c’est-à-dire un paramètre prédéfini de message).
 1. Les messages push peuvent être inclus dans la zone de travail d&#39;orchestration des parcours.
 1. Lors de la publication des parcours, les profils client basés sur les conditions des parcours sont qualifiés pour recevoir des notifications push. Les payloads de messagerie push sont personnalisées à cette étape.
 1. Les payloads push personnalisées sont transférées vers un service de diffusion de messagerie push interne.
