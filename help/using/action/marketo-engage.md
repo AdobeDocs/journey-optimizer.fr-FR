@@ -7,13 +7,11 @@ feature: Journeys, Actions, Custom Actions
 topic: Administration
 role: Data Engineer, Data Architect, Admin
 level: Intermediate
-hide: true
-hidefromtoc: true
 keywords: marketo, intégration marketo engage
-source-git-commit: 8a8741281edafb812f92ebb8da6dd68d3535f3e1
-workflow-type: ht
-source-wordcount: '262'
-ht-degree: 100%
+source-git-commit: 92591457d2189e3c43ea38c4a09d7cf565bb5d57
+workflow-type: tm+mt
+source-wordcount: '247'
+ht-degree: 76%
 
 ---
 
@@ -28,13 +26,13 @@ Optez pour une intégration transparente des données avec Marketo Engage. Cett
 ## Conditions préalables {#prerequisites}
 
 * L’instance cliente de Marketo Engage doit être compatible avec IMS.
-* Les instances de Marketo Engage et AEP/AJO doivent se trouver dans la même organisation IMS. +lien
-* La clientèle doit être configurée avec l’accès à MktoSync : service d’ingestion (REMARQUE À AJOUTER ICI + lien).
+* Les instances de Marketo Engage et AEP/AJO doivent se trouver dans la même organisation IMS.
+* Le client doit être configuré avec **MktoSync : accès au service d’ingestion**
 
 ## Configurer l’action {#configure-marketo-action}
 
 * Accédez à Administration > Configurations > Actions et cliquez sur Gérer.
-* Dans la liste Actions, cliquez sur Créer une action. En savoir plus sur la création d’actions personnalisées ici (+lien)
+* Dans la liste Actions, cliquez sur Créer une action. En savoir plus sur les [actions personnalisées](../building-journeys/using-custom-actions.md){target="_blank"}.
 * Saisissez le nom et la description, puis sélectionnez Adobe Marketo Engage comme type d’action.
 
 ![](assets/engage-customaction-creation.png){width="40%" align="left"}
@@ -111,8 +109,8 @@ Vous pouvez désormais utiliser votre action personnalisée sur votre zone de tr
 
 ## Utiliser l’action {#engage-using}
 
-* Faites glisser l’action personnalisée sur la zone de travail de parcours. (Découvrir comment utiliser une action personnalisée/un lien personnalisé)
-* Dans Paramètres de requête, cliquez sur Modifier pour chacun des paramètres avec des valeurs dynamiques que vous avez configurées dans le payload.
+* Faites glisser l’action personnalisée sur le canevas de parcours.
+* Dans la section **Paramètres de requête**, cliquez sur Modifier pour chacun des paramètres avec des valeurs dynamiques que vous avez configurées dans la payload.
 
 ![](assets/engage-use-canvas.png){width="70%" align="left"}
 
