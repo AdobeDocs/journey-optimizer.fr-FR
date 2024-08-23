@@ -10,9 +10,9 @@ level: Experienced
 keywords: canal, surface, technique, paramètres, optimizer
 hide: true
 hidefromtoc: true
-source-git-commit: 8fb87d2e2085d98dd8b014df6aa4d734bab4e997
+source-git-commit: f0273d24a85488d406b836bee8c2300d189d83e9
 workflow-type: tm+mt
-source-wordcount: '1026'
+source-wordcount: '1058'
 ht-degree: 5%
 
 ---
@@ -39,7 +39,7 @@ Cette configuration d’iOS simplifie la configuration rapide des canaux marketi
 >[!CONTEXTUALHELP]
 >id="ajo_mobile_web_setup_swift_initialization_code"
 >title="Ajouter un code d’initialisation"
->abstract="TBC"
+>abstract="Pour initialiser correctement votre application, insérez le code d’initialisation fourni dans la méthode **didFinishLaunchingWithOptions** de votre fichier AppDelegate. Cela permet de s’assurer qu’il s’exécute au moment approprié pendant le processus de démarrage de l’application."
 
 >[!CONTEXTUALHELP]
 >id="ajo_mobile_web_setup_swift_dependencies_import"

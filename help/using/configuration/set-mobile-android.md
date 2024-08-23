@@ -10,10 +10,10 @@ level: Experienced
 keywords: canal, surface, technique, paramètres, optimizer
 hide: true
 hidefromtoc: true
-source-git-commit: 8fb87d2e2085d98dd8b014df6aa4d734bab4e997
+source-git-commit: f0273d24a85488d406b836bee8c2300d189d83e9
 workflow-type: tm+mt
-source-wordcount: '937'
-ht-degree: 6%
+source-wordcount: '1042'
+ht-degree: 5%
 
 ---
 
@@ -33,7 +33,7 @@ Cette configuration d’Android simplifie la configuration rapide des canaux mar
 >[!CONTEXTUALHELP]
 >id="ajo_mobile_web_setup_android_initialization_code"
 >title="Ajouter un code d’initialisation"
->abstract="TBC"
+>abstract="Intégrez le code d&#39;initialisation à la méthode **onCreate()** de votre application. Cette méthode est exécutée lors de la première création de l’application, en veillant à ce que le code s’exécute pendant la phase de configuration initiale. Il est essentiel de placer correctement le code ici pour s’assurer que l’application est correctement configurée et initialisée avant toute opération ultérieure."
 
 >[!CONTEXTUALHELP]
 >id="ajo_mobile_web_setup_android_dependencies_add"
@@ -206,10 +206,12 @@ Après avoir créé votre configuration, vous pouvez facilement la revoir à tou
 
 ## Configuration de la chaîne In-App {#inapp-channel}
 
+<!--
 >[!CONTEXTUALHELP]
 >id="ajo_mobile_web_setup_inapp_tag_property"
->title="Choisir votre propriété de balise"
+>title="Choose your tag property"
 >abstract="TBC"
+-->
 
 Le canal In-App ne nécessite aucune configuration supplémentaire. Pour vérifier la précision de votre configuration, vous pouvez envoyer facilement un message de test à l’aide de la fonction Assurance. Cela vous permettra d’obtenir des commentaires immédiats sur la disponibilité du système à diffuser efficacement les messages In-App.
 
@@ -229,7 +231,7 @@ Vous pouvez désormais envoyer des messages In-App à l’aide de la **[!UICONTR
 >[!CONTEXTUALHELP]
 >id="ajo_mobile_web_setup_push_xcode"
 >title="Lancer l’application à partir de Xcode"
->abstract="TBC"
+>abstract="Pour obtenir votre jeton push, commencez par lancer votre application à l’aide de Xcode. Une fois l’application lancée, redémarrez-la pour vous assurer que le processus de validation est terminé. Adobe fournira alors votre jeton push dans le cadre des résultats de la validation. Ce jeton est essentiel pour activer les notifications push et s’affiche une fois la configuration validée."
 
 >[!CONTEXTUALHELP]
 >id="ajo_mobile_web_push_certificate_fcm"
