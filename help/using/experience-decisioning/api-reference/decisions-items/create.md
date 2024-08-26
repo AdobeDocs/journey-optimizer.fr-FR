@@ -1,21 +1,21 @@
 ---
-title: Création d’un élément de décision
-description: Découvrez comment créer un élément de décision à l’aide de l’API de la bibliothèque des offres.
+title: Créer un élément de décision
+description: Découvrez comment créer un élément de décision à l’aide de l’API Bibliothèque des offres.
 feature: Decision Management, API, Collections
 topic: Integrations
 role: Data Engineer
 level: Experienced
 source-git-commit: eb89bc5205d98a67cd0bb42bebbd9429786e33e7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '79'
-ht-degree: 16%
+ht-degree: 100%
 
 ---
 
 
-# Création d’un élément de décision {#create-decision-items}
+# Créer un élément de décision {#create-decision-items}
 
-Vous pouvez créer un élément de décision en adressant une requête de POST à l’API de bibliothèque des offres.
+Vous pouvez créer un élément de décision en adressant une requête POST à l’API Bibliothèque des offres.
 
 **Format d’API**
 
@@ -67,7 +67,7 @@ curl -X POST 'https://platform.adobe.io/data/core/dps/offer-items' \
 
 **Réponse**
 
-Une réponse réussie renvoie les détails de l’élément de décision nouvellement créé, y compris l’identifiant. Vous pouvez utiliser l’ID aux étapes suivantes pour mettre à jour ou supprimer votre élément de décision.
+Une réponse réussie renvoie les détails du nouvel élément de décision créé, y compris l’ID. Vous pouvez utiliser l’ID aux étapes suivantes pour mettre à jour ou supprimer votre élément de décision.
 
 ```json
 {

@@ -1,23 +1,23 @@
 ---
 title: Mettre à jour une collection d’éléments
-description: Les collections sont des sous-ensembles d'offres basés sur des conditions prédéfinies établies par un spécialiste marketing, telles que la catégorie de l'offre.
+description: Les collections sont des sous-ensembles d’offres basés sur des conditions prédéfinies établies par une personne spécialisée dans le marketing, telles que la catégorie de l’offre.
 feature: Decision Management, API, Collections
 topic: Integrations
 role: Data Engineer
 level: Experienced
 source-git-commit: eb89bc5205d98a67cd0bb42bebbd9429786e33e7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '132'
-ht-degree: 70%
+ht-degree: 100%
 
 ---
 
 
 # Mettre à jour une collection d’éléments {#update-item-collection}
 
-Vous pouvez modifier ou mettre à jour une collection d’éléments en adressant une requête de PATCH à l’API de bibliothèque des offres.
+Vous pouvez modifier ou mettre à jour une collection d’éléments en adressant une requête PATCH à l’API Bibliothèque des offres.
 
-Pour plus d&#39;informations sur JSON Patch, notamment les opérations disponibles, consultez la [documentation JSON Patch](http://jsonpatch.com/) officielle.
+Pour plus d’informations sur JSON Patch, notamment les opérations disponibles, consultez la [documentation JSON Patch](http://jsonpatch.com/) officielle.
 
 **Format d’API**
 
@@ -61,7 +61,7 @@ curl -X PATCH 'https://platform.adobe.io/data/core/dps/item-collections/itemColl
 
 **Réponse**
 
-Une réponse réussie renvoie les détails mis à jour de la collection d’éléments, y compris le `id`.
+Une réponse réussie renvoie les détails mis à jour de la collection d’éléments, y compris son `id`.
 
 ```json
 {

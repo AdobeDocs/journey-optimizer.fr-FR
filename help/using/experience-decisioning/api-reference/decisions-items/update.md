@@ -6,18 +6,18 @@ topic: Integrations
 role: Data Engineer
 level: Experienced
 source-git-commit: eb89bc5205d98a67cd0bb42bebbd9429786e33e7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '137'
-ht-degree: 44%
+ht-degree: 100%
 
 ---
 
 
 # Mettre à jour un élément de décision {#update-decision-items}
 
-Vous pouvez modifier ou mettre à jour un élément de décision en adressant une requête de PATCH à l’API de la bibliothèque des offres.
+Vous pouvez modifier ou mettre à jour un élément de décision en adressant une requête PATCH à l’API Bibliothèque des offres.
 
-Pour plus d&#39;informations sur JSON Patch, notamment les opérations disponibles, consultez la [documentation JSON Patch](http://jsonpatch.com/) officielle.
+Pour plus d’informations sur JSON Patch, notamment les opérations disponibles, consultez la [documentation JSON Patch](http://jsonpatch.com/) officielle.
 
 **Format d’API**
 
@@ -58,11 +58,11 @@ curl -X PATCH 'https://platform.adobe.io/data/core/dps/offer-items/offerItem1234
 | --------- | ----------- |
 | `value` | Nouvelle valeur avec laquelle vous souhaitez mettre à jour votre paramètre. |
 | `path` | Chemin d’accès du paramètre à mettre à jour. |
-| `op` | Type d’opération à effectuer. Les opérations comprennent : `add`, `replace`, `remove`, `copy` et `test`. |
+| `op` | Type d’opération à exécuter. Les opérations comprennent : `add`, `replace`, `remove`, `copy` et `test`. |
 
 **Réponse**
 
-Une réponse réussie renvoie les détails de l’élément mis à jour, y compris l’identifiant. Vous pouvez utiliser l’ID aux étapes suivantes pour mettre à jour ou supprimer votre élément de décision.
+Une réponse réussie renvoie les détails de l’élément mis à jour, y compris son identifiant. Vous pouvez utiliser l’ID aux étapes suivantes pour mettre à jour ou supprimer votre élément de décision.
 
 ```json
 {

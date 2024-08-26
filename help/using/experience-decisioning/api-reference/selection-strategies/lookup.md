@@ -6,16 +6,16 @@ topic: Integrations
 role: Data Engineer
 level: Experienced
 source-git-commit: dcff8803404228bbed40e998d802bb6c0f4ac67e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '81'
-ht-degree: 28%
+ht-degree: 100%
 
 ---
 
 
 # Rechercher une stratégie de sélection {#list-selection-strategy}
 
-Vous pouvez rechercher une stratégie de sélection spécifique en adressant une requête GET à l’API de bibliothèque des offres qui inclut l’identifiant dans le chemin d’accès de la requête.
+Vous pouvez rechercher une stratégie de sélection spécifique en adressant une requête GET à l’API Bibliothèque des offres qui inclut l’identifiant dans le chemin de la requête.
 
 **Format d’API**
 

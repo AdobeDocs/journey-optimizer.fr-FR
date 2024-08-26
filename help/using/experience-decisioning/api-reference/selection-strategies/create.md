@@ -6,16 +6,16 @@ topic: Integrations
 role: Data Engineer
 level: Experienced
 source-git-commit: eb89bc5205d98a67cd0bb42bebbd9429786e33e7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '81'
-ht-degree: 25%
+ht-degree: 100%
 
 ---
 
 
 # Créer une stratégie de sélection {#create-selection-strategy}
 
-Vous pouvez créer une stratégie de sélection en adressant une requête de POST à l’API de bibliothèque des offres.
+Vous pouvez créer une stratégie de sélection en adressant une requête POST à l’API Bibliothèque des offres.
 
 **Format d’API**
 
@@ -57,7 +57,7 @@ curl -X POST 'https://platform.adobe.io/data/core/dps/selection-strategies' \
 
 **Réponse**
 
-Une réponse réussie renvoie les détails de la stratégie de sélection nouvellement créée, y compris l’identifiant. Vous pouvez utiliser l’identifiant aux étapes suivantes pour mettre à jour ou supprimer votre stratégie de sélection.
+Une réponse réussie renvoie les détails de la nouvelle stratégie de sélection créée, y compris son ID. Vous pouvez utiliser l’ID lors d’étapes ultérieures pour mettre à jour ou supprimer votre stratégie de sélection.
 
 ```json
 {

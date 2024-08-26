@@ -1,21 +1,21 @@
 ---
-title: Suppression d’une collection d’éléments
-description: Découvrez comment classer les décisions de groupe en collections.
+title: Supprimer une collection d’éléments
+description: Découvrez comment classer vos décisions de groupe en collections.
 feature: Decision Management, API, Collections
 topic: Integrations
 role: Data Engineer
 level: Experienced
 source-git-commit: eb89bc5205d98a67cd0bb42bebbd9429786e33e7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '116'
-ht-degree: 28%
+ht-degree: 100%
 
 ---
 
 
-# Suppression d’une collection d’éléments {#delete-decision-item}
+# Supprimer une collection d’éléments {#delete-decision-item}
 
-Il peut parfois être nécessaire de supprimer (DELETE) une collection d’articles. Pour ce faire, il vous suffit d’adresser une requête de DELETE à l’API de bibliothèque des offres à l’aide de l’identifiant de la collection d’articles que vous souhaitez supprimer.
+Il peut parfois être nécessaire de supprimer (DELETE) une collection d’éléments. Pour ce faire, il vous suffit d’adresser une requête DELETE à l’API Bibliothèque des offres en utilisant l’identifiant de la collection d’éléments à supprimer.
 
 **Format d’API**
 
@@ -43,4 +43,4 @@ curl -X DELETE 'https://platform.adobe.io/data/core/dps/item-collections/itemCol
 
 Une réponse réussie renvoie un état HTTP 200 et un corps vide.
 
-Vous pouvez confirmer la suppression en tentant d’adresser une requête de recherche (GET) à la collection d’éléments. Vous devriez recevoir le statut HTTP 404 (Introuvable) car la collection d’éléments a été supprimée.
+Vous pouvez confirmer la suppression en tentant d’adresser une requête de recherche (GET) à la collection d’éléments. Vous devriez recevoir le statut HTTP 404 (Introuvable), car la collection d’éléments a été supprimée.

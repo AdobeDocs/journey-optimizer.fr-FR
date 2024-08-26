@@ -6,9 +6,9 @@ topic: Integrations
 role: Data Engineer
 level: Experienced
 source-git-commit: eb89bc5205d98a67cd0bb42bebbd9429786e33e7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '247'
-ht-degree: 74%
+ht-degree: 100%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 74%
 
 Journey Optimizer vous permet de créer des offres marketing, appelées éléments de décision, que vous pouvez créer et organiser dans un catalogue et des collections centralisés. Ils sont composés d’attributs standard et personnalisés, conçus précisément pour répondre à vos besoins. En outre, ils intègrent des contraintes de profil qui vous permettent de définir pour qui un élément de décision peut être affiché.
 
-Vous pouvez afficher une liste de tous les éléments de décision en adressant une seule requête de GET à l’API de la bibliothèque des offres.
+Vous pouvez afficher une liste de tous les éléments de décision en adressant une seule requête GET à l’API Bibliothèque des offres.
 
 **Format d’API**
 
@@ -58,7 +58,7 @@ curl -X GET '<https://platform.adobe.io/data/core/dps/offer-items?limit=2>' \
 
 **Réponse**
 
-Une réponse réussie renvoie une liste des éléments d’offre auxquels vous avez accès. Le noeud `_<imsOrg>` contient des attributs d’éléments de décision personnalisés.
+Une réponse réussie renvoie une liste des éléments d’offre auxquels vous avez accès. Le nœud `_<imsOrg>` héberge des attributs d’éléments de décision personnalisés.
 
 ```json
 {

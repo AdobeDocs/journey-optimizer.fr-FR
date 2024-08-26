@@ -1,23 +1,23 @@
 ---
-title: Stratégies de sélection de liste
+title: Lister des stratégies de sélection
 description: Les stratégies de sélection se composent de collections associées à des contraintes et à des méthodes de classement pour déterminer les offres.
 feature: Decision Management, API, Collections
 topic: Integrations
 role: Data Engineer
 level: Experienced
 source-git-commit: c555e6a6d88f43d7c29e27060d464b8fd21aed96
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '211'
-ht-degree: 60%
+ht-degree: 100%
 
 ---
 
 
-# Stratégies de sélection de liste {#list-selection-strategies}
+# Lister des stratégies de sélection {#list-selection-strategies}
 
-Une stratégie de sélection se compose d’une collection associée à une contrainte d’éligibilité et d’une méthode de classement permettant de déterminer les offres à afficher lorsqu’elles sont sélectionnées dans une [stratégie de décision](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/decisioning/experience-decisioning/create-decision).
+Une stratégie de sélection est constituée d’une collection associée à une contrainte d’éligibilité et d’une méthode de classement permettant de déterminer les offres à afficher lorsqu’elles sont sélectionnées dans une [politique de décision](https://experienceleague.adobe.com/fr/docs/journey-optimizer/using/decisioning/experience-decisioning/create-decision).
 
-Vous pouvez afficher une liste de toutes les stratégies de sélection en adressant une seule requête de GET à l’API de la bibliothèque des offres.
+Vous pouvez afficher une liste de toutes les stratégies de sélection en adressant une seule requête GET à l’API Bibliothèque des offres.
 
 **Format d’API**
 
@@ -57,7 +57,7 @@ curl -X GET 'https://platform.adobe.io/data/core/dps/selection-strategies?limit=
 
 **Réponse**
 
-Une réponse réussie renvoie une liste des stratégies de sélection auxquelles vous avez accès.
+Une réponse réussie renvoie une liste de stratégies de sélection auxquelles vous avez accès.
 
 ```json
 {

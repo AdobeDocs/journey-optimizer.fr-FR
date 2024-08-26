@@ -6,16 +6,16 @@ topic: Integrations
 role: Data Engineer
 level: Experienced
 source-git-commit: eb89bc5205d98a67cd0bb42bebbd9429786e33e7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '80'
-ht-degree: 28%
+ht-degree: 100%
 
 ---
 
 
 # Rechercher un élément de décision {#lookup-decision-items}
 
-Pour rechercher des éléments de décision spécifiques en adressant une requête GET à l’API de bibliothèque des offres qui inclut l’identifiant dans le chemin de la requête.
+Vous pouvez rechercher des éléments de décision spécifiques en adressant une requête GET à l’API Bibliothèques des offres qui inclut l’identifiant dans le chemin de la requête.
 
 **Format d’API**
 

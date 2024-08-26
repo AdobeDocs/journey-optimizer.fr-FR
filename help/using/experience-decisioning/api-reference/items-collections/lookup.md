@@ -1,21 +1,21 @@
 ---
-title: Recherche d’une collection d’éléments
-description: Les collections sont des sous-ensembles d'offres basés sur des conditions prédéfinies établies par un spécialiste marketing, telles que la catégorie de l'offre.
+title: Rechercher une collection d’éléments
+description: Les collections sont des sous-ensembles d’offres basés sur des conditions prédéfinies établies par une personne spécialisée dans le marketing, telles que la catégorie de l’offre.
 feature: Decision Management, API, Collections
 topic: Integrations
 role: Data Engineer
 level: Experienced
 source-git-commit: eb89bc5205d98a67cd0bb42bebbd9429786e33e7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '85'
-ht-degree: 49%
+ht-degree: 100%
 
 ---
 
 
-# Recherche d’une collection d’éléments {#lookup-item-collection}
+# Rechercher une collection d’éléments {#lookup-item-collection}
 
-Vous pouvez rechercher une collection d’éléments spécifique en adressant une requête GET à l’API de bibliothèque des offres qui inclut l’identifiant dans le chemin d’accès de la requête.
+Vous pouvez rechercher une collection d’éléments spécifique en adressant une requête GET à l’API Bibliothèque des offres qui inclut l’ID dans le chemin de la requête.
 
 **Format d’API**
 

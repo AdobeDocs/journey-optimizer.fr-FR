@@ -1,23 +1,23 @@
 ---
-title: Mettre à jour les stratégies de sélection
+title: Mettre à jour des stratégies de sélection
 description: Les stratégies de sélection se composent de collections associées à des contraintes et à des méthodes de classement pour déterminer les offres.
 feature: Decision Management, API, Collections
 topic: Integrations
 role: Data Engineer
 level: Experienced
 source-git-commit: eb89bc5205d98a67cd0bb42bebbd9429786e33e7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '127'
-ht-degree: 58%
+ht-degree: 100%
 
 ---
 
 
-# Mise à jour d’une stratégie de sélection {#update-selection-strategy}
+# Mettre à jour une stratégie de sélection {#update-selection-strategy}
 
-Vous pouvez modifier ou mettre à jour une stratégie de sélection en adressant une requête de PATCH à l’API de bibliothèque des offres.
+Vous pouvez modifier ou mettre à jour une stratégie de sélection en adressant une requête PATCH à l’API Bibliothèque des offres.
 
-Pour plus d&#39;informations sur JSON Patch, notamment les opérations disponibles, consultez la [documentation JSON Patch](http://jsonpatch.com/) officielle.
+Pour plus d’informations sur JSON Patch, notamment les opérations disponibles, consultez la [documentation JSON Patch](http://jsonpatch.com/) officielle.
 
 **Format d’API**
 
@@ -61,7 +61,7 @@ curl -X PATCH 'https://platform.adobe.io/data/core/dps/selection-strategies/sele
 
 **Réponse**
 
-Une réponse réussie renvoie les détails mis à jour de la stratégie de sélection, y compris l’identifiant.
+Une réponse réussie renvoie les détails mis à jour de la stratégie de sélection, y compris son identifiant.
 
 ```json
 {

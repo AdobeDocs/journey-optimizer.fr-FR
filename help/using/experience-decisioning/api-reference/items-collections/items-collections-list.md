@@ -6,18 +6,18 @@ topic: Integrations
 role: Data Engineer
 level: Experienced
 source-git-commit: c555e6a6d88f43d7c29e27060d464b8fd21aed96
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '213'
-ht-degree: 66%
+ht-degree: 100%
 
 ---
 
 
 # Lister des collections d’éléments {#list-decision-items}
 
-Les collections, également appelées collections d’éléments, vous permettent de classer et de regrouper vos éléments de décision en fonction de vos préférences. Ces catégories sont créées en créant des règles qui utilisent les attributs des éléments de décision.
+Les collections, également appelées collections d’éléments, permettent de classer et de regrouper vos éléments de décision en fonction de vos préférences. Ces catégories sont créées en élaborant des règles qui utilisent les attributs des éléments de décision.
 
-Vous pouvez afficher une liste de toutes les collections d’éléments en adressant une seule requête de GET à l’API de la bibliothèque des offres.
+Vous pouvez afficher une liste de toutes les collections d’éléments en exécutant une seule requête GET sur l’API Bibliothèque des offres.
 
 **Format d’API**
 

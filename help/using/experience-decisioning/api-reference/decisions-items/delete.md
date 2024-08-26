@@ -1,21 +1,21 @@
 ---
-title: Suppression d’un élément de décision
+title: Supprimer un élément de décision
 description: Les éléments de décision sont des offres marketing que vous pouvez créer et organiser en collections et en catalogues.
 feature: Decision Management, API, Collections
 topic: Integrations
 role: Data Engineer
 level: Experienced
 source-git-commit: eb89bc5205d98a67cd0bb42bebbd9429786e33e7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '112'
-ht-degree: 29%
+ht-degree: 100%
 
 ---
 
 
-# Suppression d’un élément de décision {#delete-decision-item}
+# Supprimer un élément de décision {#delete-decision-item}
 
-Pour supprimer un élément de décision, envoyez une requête de DELETE à l’API de bibliothèque des offres avec l’identifiant de l’élément de décision que vous souhaitez supprimer.
+Pour supprimer un élément de décision, il vous suffit d’adresser une requête DELETE à l’API Bibliothèque des offres en utilisant l’identifiant de l’élément de décision à supprimer.
 
 **Format d’API**
 
@@ -44,4 +44,4 @@ curl -X DELETE 'https://platform.adobe.io/data/core/dps/offer-items/offerItem123
 
 Une réponse réussie renvoie un état HTTP 200 et un corps vide.
 
-Vous pouvez confirmer la suppression en tentant d’adresser une requête de recherche (GET) à l’élément de décision. Vous devriez recevoir le statut HTTP 404 (Introuvable) car l’élément de décision a été supprimé.
+Vous pouvez confirmer la suppression en tentant d’exécuter une requête de recherche (GET) sur l’élément de décision. Vous devriez recevoir le statut HTTP 404 (Introuvable), car l’élément de décision a été supprimé.

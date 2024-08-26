@@ -1,21 +1,21 @@
 ---
-title: Création d’une collection d’éléments
+title: Créer une collection d’éléments
 description: Les collections vous permettent de classer et de regrouper des éléments de décision en fonction de vos préférences.
 feature: Decision Management, API, Collections
 topic: Integrations
 role: Data Engineer
 level: Experienced
 source-git-commit: eb89bc5205d98a67cd0bb42bebbd9429786e33e7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '80'
-ht-degree: 16%
+ht-degree: 100%
 
 ---
 
 
-# Création d’une collection d’éléments {#create-decision-items}
+# Créer une collection d’éléments {#create-decision-items}
 
-Vous pouvez créer une collection d’éléments en adressant une requête de POST à l’API de bibliothèque des offres.
+Vous pouvez créer une collection d’éléments en adressant une requête POST à l’API Bibliothèque des offres.
 
 **Format d’API**
 
@@ -50,7 +50,7 @@ curl -X POST 'https://platform.adobe.io/data/core/dps/item-collections' \
 
 **Réponse**
 
-Une réponse réussie renvoie les détails de l’élément de décision nouvellement créé, y compris l’identifiant. Vous pouvez utiliser l’ID aux étapes suivantes pour mettre à jour ou supprimer votre élément de décision.
+Une réponse réussie renvoie les détails du nouvel élément de décision créé, y compris l’ID. Vous pouvez utiliser l’ID aux étapes suivantes pour mettre à jour ou supprimer votre élément de décision.
 
 ```json
 {
