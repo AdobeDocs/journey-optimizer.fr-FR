@@ -13,7 +13,7 @@ badge: label="Disponibilité limitée" type="Informative"
 source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
 workflow-type: tm+mt
 source-wordcount: '1328'
-ht-degree: 95%
+ht-degree: 99%
 
 ---
 
@@ -173,7 +173,7 @@ Une fois que vous avez configuré votre projet de traduction et les paramètres 
 
    * **[!UICONTROL Traduction en cours]** : votre fournisseur travaille activement sur la traduction.
 
-     Si vous avez sélectionné **Insourcing** lors de la configuration de vos **paramètres linguistiques**, vous pouvez traduire votre contenu directement dans votre projet de traduction. [En savoir plus](#manage-ht-project)
+     Si vous avez sélectionné **Approvisionnement** lors de la configuration des **paramètres de langue**, vous pouvez traduire votre contenu directement dans votre projet de traduction. [En savoir plus](#manage-ht-project)
 
    * **[!UICONTROL Prêt pour la révision]** : le processus de révision est prêt à commencer, ce qui vous permet d’accéder à la traduction et de la rejeter ou de l’approuver.
 
@@ -205,9 +205,9 @@ Vous pouvez maintenant activer votre campagne ou votre parcours. Après l’envo
 
 ## Gérer un projet de traduction d’approvisionnement {#manage-ht-project}
 
-Si vous avez sélectionné l’option Insourcing lors de la configuration des paramètres de langue, vous pouvez traduire votre contenu directement dans votre projet de traduction.
+Si vous avez sélectionné Approvisionnement lors de la configuration des paramètres de langue, vous pouvez traduire votre contenu directement dans votre projet de traduction.
 
-1. Depuis votre **[!UICONTROL projet de traduction]**, accédez au menu **[!UICONTROL Autres actions]** et sélectionnez **[!UICONTROL Ingestion]**.
+1. Dans votre **[!UICONTROL Projet de traduction]**, accédez au menu **[!UICONTROL Plus d’actions]** et sélectionnez **[!UICONTROL Approvisionnement]**.
 
    ![](assets/inhouse-translation-1.png)
 

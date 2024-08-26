@@ -22,7 +22,7 @@ Cette page répertorie toutes les mises à jour récentes de la documentation de
 ## Août 2024 {#aug-2024}
 
 * Les mécanismes de sécurisation des performances de la gestion des décisions ont été mis à jour afin de mentionner les débits de diffusion des API de prise de décision avec/sans segmentation Edge. [En savoir plus](../start/guardrails.md#decision-management)
-* Les barrières de sécurité des parcours ont été mises à jour. [En savoir plus](../start/guardrails.md#journeys-guardrails-journeys)
+* Les mécanismes de sécurisation des parcours ont été mis à jour. [En savoir plus](../start/guardrails.md#journeys-guardrails-journeys)
 
 
 ## Juillet 2024 {#july-2024}
