@@ -10,10 +10,10 @@ level: Experienced
 keywords: canal, surface, technique, paramètres, optimizer
 hide: true
 hidefromtoc: true
-source-git-commit: f0273d24a85488d406b836bee8c2300d189d83e9
+source-git-commit: 4a089308cfc2fa90cc4c0a6baa15a89598e8edd6
 workflow-type: tm+mt
-source-wordcount: '1042'
-ht-degree: 5%
+source-wordcount: '934'
+ht-degree: 4%
 
 ---
 
@@ -29,34 +29,6 @@ ht-degree: 5%
 Cette configuration d’Android simplifie la configuration rapide des canaux marketing, en veillant à ce que toutes les ressources nécessaires soient facilement accessibles dans les applications Experience Platform, Journey Optimizer et Data Collection. Cela permet à votre équipe marketing de commencer rapidement à créer des campagnes et des parcours.
 
 ## Création d’une configuration Android {#new-setup-android}
-
->[!CONTEXTUALHELP]
->id="ajo_mobile_web_setup_android_initialization_code"
->title="Ajouter un code d’initialisation"
->abstract="Intégrez le code d&#39;initialisation à la méthode **onCreate()** de votre application. Cette méthode est exécutée lors de la première création de l’application, en veillant à ce que le code s’exécute pendant la phase de configuration initiale. Il est essentiel de placer correctement le code ici pour s’assurer que l’application est correctement configurée et initialisée avant toute opération ultérieure."
-
->[!CONTEXTUALHELP]
->id="ajo_mobile_web_setup_android_dependencies_add"
->title="Ajouter des dépendances"
->abstract="Vous devez ajouter les bibliothèques suivantes à votre projet à l’aide du fichier Gradle de l’application : Core, Assurance, Edge, Edge Identity et Messaging."
-
->[!CONTEXTUALHELP]
->id="ajo_mobile_web_setup_android_dependencies_import"
->title="Importer les dépendances"
->abstract="Dans la classe Application de votre application, importez les modules suivants : Mobile Core, Assurance, Edge, Edge Identity et Messaging."
->additional-url="https://experienceleague.adobe.com/en/docs/platform-learn/implement-mobile-sdk/app-implementation/install-sdks#import-extensions" text="Voir la documentation sur la collecte de données"
-
-<!--
->[!CONTEXTUALHELP]
->id="ajo_mobile_web_setup_push_token_android"
->title="Retrieve the device token"
->abstract="TBC"
-
->[!CONTEXTUALHELP]
->id="ajo_mobile_web_setup_push_android_studio"
->title="Launch the application from Android Studio"
->abstract="TBC"
--->
 
 1. Sur la page d’accueil de Journey Optimizer, cliquez sur **[!UICONTROL Commencer]** dans la carte **[!UICONTROL Configurer les canaux mobiles et web]**.
 

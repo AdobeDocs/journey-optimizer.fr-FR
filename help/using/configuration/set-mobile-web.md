@@ -10,10 +10,10 @@ level: Experienced
 keywords: canal, surface, technique, paramètres, optimizer
 hide: true
 hidefromtoc: true
-source-git-commit: f0273d24a85488d406b836bee8c2300d189d83e9
+source-git-commit: 4a089308cfc2fa90cc4c0a6baa15a89598e8edd6
 workflow-type: tm+mt
-source-wordcount: '523'
-ht-degree: 6%
+source-wordcount: '479'
+ht-degree: 14%
 
 ---
 
@@ -22,14 +22,9 @@ ht-degree: 6%
 >[!CONTEXTUALHELP]
 >id="ajo_mobile_web_setup_javascript_code"
 >title="Code JavaScript"
->abstract="La balise `<head>` contient des métadonnées et des ressources essentielles qui sont chargées avant le contenu principal de votre page web. Le placement du code dans cette section garantit qu’il est correctement initialisé et exécuté tôt, ce qui permet à votre page web de se charger et de fonctionner efficacement. En ajoutant du code à la section `<head>`, vous améliorez la structure, les performances et l’expérience utilisateur globale de votre site."
+>abstract="La variable <head><meta http-equiv="Content-Type" content="text/html; charset=UTF-16"> contient des métadonnées et des ressources essentielles qui sont chargées avant le contenu principal de votre page web. Le placement du code dans cette section garantit qu’il est correctement initialisé et exécuté tôt, ce qui permet à votre page web de se charger et de fonctionner efficacement. En ajoutant du code à la variable <head><meta http-equiv="Content-Type" content="text/html; charset=UTF-16"> , vous pouvez améliorer la structure, les performances et l’expérience utilisateur globale de votre site."
 
->[!CONTEXTUALHELP]
->id="ajo_mobile_web_setup_javascript_site"
->title="Lancer le site et valider"
->abstract="Une fois que le code a été implémenté avec succès et qu’il est actif sur votre site web, fournissez l’URL de base. Si nécessaire, vous pouvez revenir à cette page ultérieurement pour valider et confirmer que la configuration fonctionne comme prévu."
-
-Cette configuration facilite la configuration rapide des canaux marketing, en s’assurant que toutes les ressources requises sont facilement disponibles dans Experience Platform, Journey Optimizer et Data Collection. Cela permet à votre équipe marketing de commencer immédiatement la création de campagne et de parcours.
+Cette opération facilite la configuration rapide des canaux marketing, en s’assurant que toutes les ressources requises sont facilement disponibles dans Experience Platform, Journey Optimizer et la collecte de données. Cela permet à votre équipe marketing de lancer immédiatement la création de campagnes et de parcours.
 
 ## Créer une configuration web {#new-setup}
 

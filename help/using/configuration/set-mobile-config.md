@@ -10,10 +10,10 @@ level: Experienced
 keywords: canal, surface, technique, paramètres, optimizer
 hide: true
 hidefromtoc: true
-source-git-commit: 8fb87d2e2085d98dd8b014df6aa4d734bab4e997
+source-git-commit: 4a089308cfc2fa90cc4c0a6baa15a89598e8edd6
 workflow-type: tm+mt
-source-wordcount: '269'
-ht-degree: 10%
+source-wordcount: '261'
+ht-degree: 25%
 
 ---
 
@@ -27,11 +27,11 @@ ht-degree: 10%
 >[!CONTEXTUALHELP]
 >id="ajo_mobile_web_setup_validate_assurance"
 >title="Valider avec Assurance"
->abstract="Assurez-vous de la qualité de la collecte de données et de l’expérience utilisateur de votre application mobile avec Assurance. Cet outil offre une analyse, une validation et une optimisation approfondies. De plus, vous pouvez directement connecter votre application pour vérifier la précision de l’intégration du SDK."
->additional-url="https://experienceleague.adobe.com/en/docs/platform-learn/implement-mobile-sdk/app-implementation/assurance" text="Voir la documentation sur l’assurance"
+>abstract="Adobe Experience Platform Assurance est incorporé à ce workflow pour vous aider à contrôler l’implémentation de votre SDK, ainsi qu’à simuler et valider des événements d’application."
+>additional-url="https://experienceleague.adobe.com/en/docs/experience-platform/assurance/home" text="Présentation de Adobe Experience Platform Assurance"
 
 
-Cette configuration facilite la configuration rapide des canaux marketing, en s’assurant que toutes les ressources requises sont facilement disponibles dans Experience Platform, Journey Optimizer et Data Collection. Cela permet à votre équipe marketing de commencer immédiatement la création de campagne et de parcours.
+Cette opération facilite la configuration rapide des canaux marketing, en s’assurant que toutes les ressources requises sont facilement disponibles dans Experience Platform, Journey Optimizer et la collecte de données. Cela permet à votre équipe marketing de lancer immédiatement la création de campagnes et de parcours.
 
 Pour implémenter efficacement cette fonction, il est essentiel qu’un membre de l’organisation disposant de l’autorité et de la capacité technique de modifier le code du site web ou du mobile supervise la configuration.
 
