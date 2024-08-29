@@ -5,10 +5,10 @@ feature: Code-based Experiences, Channel Configuration
 topic: Content Management
 role: Admin
 level: Experienced
-source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
+source-git-commit: 392fe9d87e1061a2ba40fbcae042cd1a0891a829
 workflow-type: tm+mt
-source-wordcount: '899'
-ht-degree: 45%
+source-wordcount: '1125'
+ht-degree: 36%
 
 ---
 
@@ -33,6 +33,16 @@ ht-degree: 45%
 >id="ajo_admin_default_mobile_url"
 >title="URL de création et de prévisualisation par défaut"
 >abstract="Ce champ garantit que les pages générées ou mises en correspondance par la règle ont une URL désignée, essentielle pour la création et la prévisualisation efficaces du contenu."
+
+>[!CONTEXTUALHELP]
+>id="ajo_admin_default_web_url"
+>title="URL de création et de prévisualisation par défaut"
+>abstract="Ce champ garantit que les pages générées ou mises en correspondance par la règle ont une URL désignée, essentielle pour la création et la prévisualisation efficaces du contenu."
+
+>[!CONTEXTUALHELP]
+>id="ajo_admin_mobile_url_preview"
+>title="URL de prévisualisation"
+>abstract="Ce champ est essentiel pour activer la simulation et la prévisualisation de votre contenu directement sur votre appareil au sein de votre application."
 
 ## Création d’une configuration de canal {#reatte-code-based-configuration}
 
@@ -68,6 +78,8 @@ Pour créer une configuration de canal, procédez comme suit :
 
    * Saisissez votre **[!UICONTROL ID d’application]** et **[!UICONTROL Emplacement ou chemin dans l’application]**.
 
+     ![](assets/code_config_3.png)
+
 1. Sélectionnez Autre comme plateforme si votre mise en oeuvre n’est pas destinée au Web, à iOS ou à Android, ou si vous devez cibler des URI spécifiques. Lors du choix de plusieurs plateformes ou de l’ajout de plusieurs URI, le contenu est diffusé sur toutes les pages ou applications sélectionnées.
 
    * Saisissez l’ **[!UICONTROL URI de surface]**.
@@ -75,6 +87,35 @@ Pour créer une configuration de canal, procédez comme suit :
    >[!CAUTION]
    >
    >Assurez-vous que l’URI de surface utilisé dans votre campagne basée sur le code correspond à celui utilisé dans votre propre mise en œuvre. Sinon, les modifications ne seront pas diffusées.
+
+1. Renseignez le champ **[!UICONTROL URL d’aperçu]** pour activer les aperçus sur l’appareil. Cette URL informe le service d’aperçu de l’URL spécifique à utiliser lors du déclenchement d’un aperçu.
+
+   * Pour le Web :
+
+      * Si une seule URL de page est saisie, cette URL sera utilisée pour l’aperçu.
+      * Si une règle de mise en correspondance de page est sélectionnée, vous devez saisir une URL d’aperçu par défaut qui sera utilisée pour prévisualiser l’expérience dans le navigateur.
+
+   * Pour les plateformes mobiles (iOS/Android) :
+
+      * L’URL d’aperçu est un lien profond configuré par le développeur de l’application dans votre application. Cela garantit que toutes les URL correspondant au modèle de lien profond s’ouvriront dans l’application plutôt que dans un navigateur web mobile. Contactez le développeur de votre application pour obtenir le schéma de lien profond configuré pour votre application.
+
++++  Les ressources suivantes peuvent vous aider à configurer des liens profonds pour la mise en oeuvre de votre application.
+
+      * Pour Android :
+
+         * [Création de liens profonds vers le contexte de l’application](https://developer.android.com/training/app-links/deep-linking)
+
+      * Pour iOS:
+
+         * [Définition d’un schéma d’URL personnalisé pour votre application](https://developer.apple.com/documentation/xcode/defining-a-custom-url-scheme-for-your-app)
+
+         * [Prise en charge des liens universels dans votre application](https://developer.apple.com/documentation/xcode/supporting-universal-links-in-your-app)
+
++++
+
+   >[!NOTE]
+   >
+   >Si vous rencontrez des problèmes lors de la prévisualisation de l&#39;expérience, reportez-vous à [cette documentation](https://experienceleague.adobe.com/en/docs/experience-platform/assurance/troubleshooting#app-does-not-open-link).
 
 1. Sélectionnez le format attendu par l’application à cet emplacement spécifique. Elle sera utilisée lors de la création de l’expérience basée sur le code dans les campagnes et les parcours.
 

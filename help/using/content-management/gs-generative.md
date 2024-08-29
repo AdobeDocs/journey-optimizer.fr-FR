@@ -11,10 +11,10 @@ badge: label="Version bêta" type="Informative"
 hide: true
 hidefromtoc: true
 exl-id: 6e291ce3-f324-4e5d-975b-5229dea4d581
-source-git-commit: 930070843c2c1ce022beb5dc6e8a61c8d4f70365
+source-git-commit: 392fe9d87e1061a2ba40fbcae042cd1a0891a829
 workflow-type: tm+mt
 source-wordcount: '602'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -67,7 +67,7 @@ Vous trouverez ci-dessous des instructions générales concernant l’utilisatio
 * La taille maximale des ressources de marque chargées est de 50 Mo. Des fichiers plus volumineux ou un grand nombre d’images peuvent être utilisés, mais le temps de traitement est plus long.
 * Utilisez des modèles d’e-mail créés par Adobe Campaign, de préférence des [modèles d’e-mail intégrés](../email/use-email-templates.md), un modèle spécifique à la marque ou un modèle personnalisé, pour créer le contenu de votre e-mail. Il est recommandé d’utiliser un modèle d’e-mail contenant jusqu’à 8 à 10 images.
 * Veillez à signaler tout résultat problématique à l’aide des icônes de pouce vers le haut, de pouce vers le bas ou de drapeau lors de la sélection de variantes.
-* Votre utilisation de l’assistant IA est soumise aux directives d’utilisation de l’IA générative d’Adobe Experience Cloud. [En savoir plus](https://www.adobe.com/fr/legal/licenses-terms/adobe-gen-ai-user-guidelines.html)
+* Votre utilisation de l’assistant IA est soumise aux directives d’utilisation de l’IA générative d’Adobe Experience Cloud. [En savoir plus](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html)
 
 Les restrictions suivantes s’appliquent à l’assistant IA dans Journey Optimizer :
 
