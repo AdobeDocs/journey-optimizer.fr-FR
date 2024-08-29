@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Notes de mise à jour d’Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 8fb87d2e2085d98dd8b014df6aa4d734bab4e997
+source-git-commit: 377f75a67f3a392957cefb7b2ba9347c364c11a1
 workflow-type: tm+mt
-source-wordcount: '615'
-ht-degree: 63%
+source-wordcount: '665'
+ht-degree: 59%
 
 ---
 
@@ -177,3 +177,11 @@ Cette version apporte les améliorations répertoriées ci-dessous.
 * L’expérience de création de rapports actuelle sera abandonnée à compter de la version d’octobre. À compter de cette date, la nouvelle expérience de création de rapports deviendra la norme. Nous vous recommandons de vous familiariser avec les nouvelles fonctionnalités pour garantir une transition fluide.
 
 [Prise en main de la nouvelle interface de reporting de Journey Optimizer](../reports/report-gs-cja.md)
+
+* De nouveaux cas d’utilisation ont été ajoutés à la nouvelle expérience de création de rapports :
+
+   * Créez des mesures calculées personnalisées directement dans vos rapports.
+   * Création d’une audience à partir des données de rapport.
+   * Utilisez l’outil d’analyse exploratoire pour créer facilement des tableaux et des visualisations à partir des **[!UICONTROL Dimensions]** et **[!UICONTROL Mesures]** sélectionnées.
+
+  Pour plus d’informations, consultez la [documentation détaillée](../reports/report-cja-manage.md).
