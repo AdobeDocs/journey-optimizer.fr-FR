@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
-source-git-commit: 8fb87d2e2085d98dd8b014df6aa4d734bab4e997
+source-git-commit: 1c34c916843600d8602c5c1fe7164aebc83becd9
 workflow-type: tm+mt
-source-wordcount: '1266'
+source-wordcount: '1376'
 ht-degree: 98%
 
 ---
@@ -194,3 +194,14 @@ Pour modifier la langue :
 * Sélectionnez la langue de votre choix et cliquez sur **Enregistrer**. Vous pouvez sélectionner une seconde langue au cas où le composant que vous utilisez ne serait pas localisé dans votre langue maternelle.
   ![](assets/select-language.png)
 
+<!--CONTEXTUAL HELP TO DISPATCH IN DOCS ONCE FEATURE LIVE-->
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_priority"
+>title="Priorité"
+>abstract="Attribuez un score de priorité au parcours, allant de 0 à 100. Les nombres plus élevés signalent une priorité plus élevée. Lorsque deux parcours utilisent la même surface, Journey Optimizer sélectionne le parcours ayant le score de priorité le plus élevé. Si les parcours ont le même score, le parcours choisi sera celui qui a été le plus récemment modifié."
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaigns_campaign_priority"
+>title="Priorité"
+>abstract="Attribuez un score de priorité à la campagne, allant de 0 à 100. Les nombres plus élevés signalent une priorité plus élevée. Lorsque deux campagnes utilisent la même surface, Journey Optimizer sélectionne la campagne ayant le score de priorité le plus élevé. Si les campagnes ont le même score, la campagne modifiée en dernier sera choisie."
