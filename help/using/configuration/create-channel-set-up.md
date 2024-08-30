@@ -10,9 +10,9 @@ level: Experienced
 keywords: canal, surface, technique, paramètres, optimizer
 hide: true
 hidefromtoc: true
-source-git-commit: 06f79b7af3fe3c5ca556e2226d7e241a9c5b56d3
+source-git-commit: d7a1384ee83f81060333ca02c97b1db67427fbe5
 workflow-type: tm+mt
-source-wordcount: '644'
+source-wordcount: '646'
 ht-degree: 4%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 4%
 >[!CONTEXTUALHELP]
 >id="ajo_mobile_web_setup_javascript_code"
 >title="Code JavaScript"
->abstract="La variable <head><meta http-equiv="Content-Type" content="text/html; charset=UTF-16"> contient des métadonnées et des ressources essentielles qui sont chargées avant le contenu principal de votre page web. Le placement du code dans cette section garantit qu’il est correctement initialisé et exécuté tôt, ce qui permet à votre page web de se charger et de fonctionner efficacement. En ajoutant du code à la variable <head><meta http-equiv="Content-Type" content="text/html; charset=UTF-16"> , vous pouvez améliorer la structure, les performances et l’expérience utilisateur globale de votre site."
+>abstract="La balise d’en-tête contient les métadonnées et les ressources essentielles qui sont chargées avant le contenu principal de votre page web. Le placement du code dans cette section garantit qu’il est correctement initialisé et exécuté tôt, ce qui permet à votre page web de se charger et de fonctionner efficacement. En ajoutant du code à la section head , vous améliorez la structure, les performances et l’expérience utilisateur globale de votre site."
 
 >[!CONTEXTUALHELP]
 >id="ajo_mobile_web_setup_push_token"
