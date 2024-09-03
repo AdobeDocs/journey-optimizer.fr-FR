@@ -5,7 +5,8 @@ feature: Code-based Experiences, Channel Configuration
 topic: Content Management
 role: Admin
 level: Experienced
-source-git-commit: 392fe9d87e1061a2ba40fbcae042cd1a0891a829
+exl-id: 1aff2f6f-914c-4088-afd8-58bd9edfe07d
+source-git-commit: a025a269353d7451ff0426895688f62211768383
 workflow-type: tm+mt
 source-wordcount: '1125'
 ht-degree: 36%
@@ -78,7 +79,7 @@ Pour créer une configuration de canal, procédez comme suit :
 
    * Saisissez votre **[!UICONTROL ID d’application]** et **[!UICONTROL Emplacement ou chemin dans l’application]**.
 
-     ![](assets/code_config_3.png)
+     ![](assets/code_config_3.png){width="500"}
 
 1. Sélectionnez Autre comme plateforme si votre mise en oeuvre n’est pas destinée au Web, à iOS ou à Android, ou si vous devez cibler des URI spécifiques. Lors du choix de plusieurs plateformes ou de l’ajout de plusieurs URI, le contenu est diffusé sur toutes les pages ou applications sélectionnées.
 
@@ -174,4 +175,3 @@ Les tableaux ci-dessous répertorient quelques exemples de définition d’URI d
 | --------- | ----------- | ------- | 
 | Caractère générique web | `wildcard:web://domain.com/*#element` | Surface de caractères génériques : représente un élément individuel dans chacune des pages sous un domaine spécifique. |
 | Caractère générique web | `wildcard:web://*domain.com/*#element` | Surface de caractères génériques : représente un élément individuel dans chacune des pages sous tous les domaines se terminant par « domain.com ». |
-
