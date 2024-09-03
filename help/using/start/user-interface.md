@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
-source-git-commit: 1c34c916843600d8602c5c1fe7164aebc83becd9
+source-git-commit: 762fa346d9303865f1509bfc9c2e9cb3528227e4
 workflow-type: tm+mt
-source-wordcount: '1376'
-ht-degree: 98%
+source-wordcount: '1412'
+ht-degree: 96%
 
 ---
 
@@ -196,6 +196,8 @@ Pour modifier la langue :
 
 <!--CONTEXTUAL HELP TO DISPATCH IN DOCS ONCE FEATURE LIVE-->
 
+<!--PRIORITIZATION & CONFLICT MANAGEMENT-->
+
 >[!CONTEXTUALHELP]
 >id="ajo_journey_priority"
 >title="Priorité"
@@ -205,3 +207,33 @@ Pour modifier la langue :
 >id="ajo_campaigns_campaign_priority"
 >title="Priorité"
 >abstract="Attribuez un score de priorité à la campagne, allant de 0 à 100. Les nombres plus élevés signalent une priorité plus élevée. Lorsque deux campagnes utilisent la même surface, Journey Optimizer sélectionne la campagne ayant le score de priorité le plus élevé. Si les campagnes ont le même score, la campagne modifiée en dernier sera choisie."
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaigns_campaign_conflict"
+>title="Visionneuse de conflits dans les campagnes"
+>abstract="Visionneuse de conflits dans les campagnes"
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_conflict"
+>title="Configuration de la visionneuse dans parcours"
+>abstract="Configuration de la visionneuse dans parcours"
+
+>[!CONTEXTUALHELP]
+>id="ajo_rule_set_object_type"
+>title="Type d’objet "
+>abstract="Type d’objet "
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_rule_set"
+>title="Application d’un jeu de règles aux parcours"
+>abstract="À déterminer"
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaigns_rule_set"
+>title="Application d’un jeu de règles aux campagnes"
+>abstract="À déterminer"
+
+>[!CONTEXTUALHELP]
+>id="ajo_rule_set_prioritization"
+>title="Facteur de hiérarchisation"
+>abstract="À déterminer"
