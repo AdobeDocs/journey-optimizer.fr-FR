@@ -1,6 +1,6 @@
 ---
 title: Configuration basée sur le code
-description: Création d’une configuration basée sur du code
+description: Créer une configuration basée sur le code
 feature: Code-based Experiences, Channel Configuration
 topic: Content Management
 role: Admin
@@ -9,26 +9,26 @@ exl-id: 1aff2f6f-914c-4088-afd8-58bd9edfe07d
 source-git-commit: 77e2892dc188ebdd79031792434b4f55913ee811
 workflow-type: tm+mt
 source-wordcount: '1125'
-ht-degree: 36%
+ht-degree: 83%
 
 ---
 
-# Configuration de votre expérience basée sur du code {#code-based-configuration}
+# Configurer votre expérience basée sur le code {#code-based-configuration}
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_app_id"
 >title="ID d’application"
->abstract="Indiquez l’ID d’application pour une identification et une configuration précises au sein de l’environnement opérationnel de l’application, ce qui garantit une intégration et des fonctionnalités homogènes."
+>abstract="Indiquez l’ID d’application pour une identification et une configuration précises au sein de l’environnement opérationnel de l’application, ce qui garantit une intégration et des fonctionnalités transparentes."
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_location"
 >title="Emplacement sur la page"
->abstract="L’emplacement ou le chemin d’accès dans le champ de l’application spécifie la destination exacte à laquelle les utilisateurs doivent accéder dans l’application. Il peut s’agir d’une section ou d’une page spécifique au coeur de la structure de navigation de l’application."
+>abstract="L’emplacement ou le chemin d’accès dans le champ de l’application spécifie la destination exacte à laquelle les utilisateurs et les utilisatrices doivent accéder dans l’application. Il peut s’agir d’une section ou d’une page spécifique au cœur de la structure de navigation de l’application."
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_surface_uri"
 >title="URI de surface"
->abstract="Un URI de surface sert d’identifiant précis orientant vers des éléments ou des composants d’interface utilisateur distincts au sein d’une application."
+>abstract="Un URI de surface sert d’identifiant précis orientant vers des éléments ou des composants de l’interface d’utilisation distincts au sein d’une application."
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_default_mobile_url"
@@ -45,11 +45,11 @@ ht-degree: 36%
 >title="URL de prévisualisation"
 >abstract="Ce champ est essentiel pour activer la simulation et la prévisualisation de votre contenu directement sur votre appareil au sein de votre application."
 
-## Création d’une configuration de canal {#reatte-code-based-configuration}
+## Créer une configuration des canaux {#reatte-code-based-configuration}
 
-Pour créer une configuration de canal, procédez comme suit :
+Pour créer une configuration des canaux, procédez comme suit :
 
-1. Accédez au menu **[!UICONTROL Canaux]** > **[!UICONTROL Paramètres généraux]** > **[!UICONTROL Configurations de canaux]** , puis cliquez sur **[!UICONTROL Créer une configuration de canal]**.
+1. Accédez au menu **[!UICONTROL Canaux]** > **[!UICONTROL Paramètres généraux]** > **[!UICONTROL Configurations des canaux]**, puis cliquez sur **[!UICONTROL Créer une configuration des canaux]**.
 
    ![](assets/code_config_1.png)
 
@@ -61,29 +61,29 @@ Pour créer une configuration de canal, procédez comme suit :
 
 1. Pour attribuer des libellés d’utilisation des données personnalisés ou de base à la configuration, vous pouvez sélectionner **[!UICONTROL Gérer l’accès]**. [En savoir plus sur le contrôle d’accès au niveau de l’objet (OLAC)](../administration/object-based-access.md).
 
-1. Sélectionnez **[!UICONTROL Action marketing]** pour associer les stratégies de consentement aux messages utilisant cette configuration. Toutes les stratégies de consentement associées à l’action marketing sont exploitées afin de respecter les préférences de vos clients. [En savoir plus](../action/consent.md#surface-marketing-actions)
+1. Sélectionnez une **[!UICONTROL Action marketing]** ou plusieurspour associer des politiques de consentement aux messages utilisant cette configuration. Toutes les politiques de consentement associées à cette action marketing sont utilisées afin de respecter les préférences de vos clientes et clients. [En savoir plus](../action/consent.md#surface-marketing-actions)
 
-1. Sélectionnez le canal **Expérience basée sur le code** .
+1. Sélectionnez le canal **Expérience basée sur le code**.
 
    ![](assets/code_config_2.png)
 
 1. Sélectionnez la plateforme pour laquelle l’expérience basée sur le code sera appliquée.
 
-1. Pour le Web :
+1. Pour le web :
 
    * Spécifiez une **[!UICONTROL URL de page]** pour appliquer les modifications à une seule page uniquement.
 
-   * Ou créez une **[!UICONTROL règle de correspondance de pages]** pour cibler plusieurs URL qui correspondent à la règle spécifiée. Par exemple, cela peut être utilisé pour appliquer des modifications universelles sur un site web, comme la mise à jour d’une bannière principale sur toutes les pages ou l’ajout d’une image principale à afficher sur chaque page de produit. [En savoir plus](../web/web-configuration.md)
+   * Ou créez une **[!UICONTROL règle de correspondance de pages]** pour cibler plusieurs URL qui correspondent à la règle spécifiée. Par exemple, cette capacité peut être exploitée pour diffuser des modifications globales, telles que le rafraîchissement de la bannière principale sur chaque page ou l’insertion d’une image principale sur chaque page produit. [En savoir plus](../web/web-configuration.md)
 
-1. Pour iOS et Android :
+1. Pour iOS et Android :
 
    * Saisissez votre **[!UICONTROL ID d’application]** et **[!UICONTROL Emplacement ou chemin dans l’application]**.
 
      ![](assets/code_config_3.png){width="500"}
 
-1. Sélectionnez Autre comme plateforme si votre mise en oeuvre n’est pas destinée au Web, à iOS ou à Android, ou si vous devez cibler des URI spécifiques. Lors du choix de plusieurs plateformes ou de l’ajout de plusieurs URI, le contenu est diffusé sur toutes les pages ou applications sélectionnées.
+1. Sélectionnez « Autre » comme plateforme si votre implémentation n’est pas destinée au web, à iOS ou à Android, ou si vous devez cibler des URI spécifiques. Lors du choix de plusieurs plateformes ou de l’ajout de plusieurs URI, le contenu est diffusé sur toutes les pages ou applications sélectionnées.
 
-   * Saisissez l’ **[!UICONTROL URI de surface]**.
+   * Saisissez l’**[!UICONTROL URI de surface]**.
 
    >[!CAUTION]
    >
@@ -91,7 +91,7 @@ Pour créer une configuration de canal, procédez comme suit :
 
 1. Renseignez le champ **[!UICONTROL URL d’aperçu]** pour activer les aperçus sur l’appareil. Cette URL informe le service d’aperçu de l’URL spécifique à utiliser lors du déclenchement d’un aperçu.
 
-   * Pour le Web :
+   * Pour le web :
 
       * Si une seule URL de page est saisie, cette URL sera utilisée pour l’aperçu.
       * Si une règle de mise en correspondance de page est sélectionnée, vous devez saisir une URL d’aperçu par défaut qui sera utilisée pour prévisualiser l’expérience dans le navigateur.
@@ -118,23 +118,23 @@ Pour créer une configuration de canal, procédez comme suit :
    >
    >Si vous rencontrez des problèmes lors de la prévisualisation de l&#39;expérience, reportez-vous à [cette documentation](https://experienceleague.adobe.com/en/docs/experience-platform/assurance/troubleshooting#app-does-not-open-link).
 
-1. Sélectionnez le format attendu par l’application à cet emplacement spécifique. Elle sera utilisée lors de la création de l’expérience basée sur le code dans les campagnes et les parcours.
+1. Sélectionnez le format attendu par l’application à cet emplacement spécifique. Cela sera utilisé lors de la création de l’expérience basée sur le code dans les campagnes et les parcours.
 
-1. Envoyez vos modifications.
+1. Soumettez vos modifications.
 
-Vous pouvez désormais sélectionner votre configuration lors de la création de votre expérience basée sur du code.
+Vous pouvez désormais sélectionner votre configuration lors de la création de votre expérience basée sur le code.
 
 
 ## Qu’est-ce qu’une surface ? {#surface-definition}
 
 >[!CONTEXTUALHELP]
 >id="ajo_code_based_surface"
->title="Définition d’une configuration d’expérience basée sur du code"
->abstract="Une configuration basée sur du code définit le chemin et l’emplacement dans votre application, identifiés de manière unique par un URI dans la mise en oeuvre de l’application, où le contenu sera diffusé et consommé."
+>title="Définir une configuration d’expérience basée sur le code"
+>abstract="Une configuration basée sur le code définit le chemin et l’emplacement dans votre application, identifiés de manière unique par un URI dans la mise en œuvre de l’application, où le contenu sera diffusé et consommé."
 
-Une **surface d’expérience basée sur le code** est toute entité conçue pour l’interaction de l’utilisateur ou du système, qui est identifiée de manière unique par un URI. La surface est spécifiée dans l’implémentation de l’application et doit correspondre à celle composée dans la configuration du canal d’expérience basée sur le code.
+Une **surface d’expérience basée sur le code** est toute entité conçue pour l’interaction de la personne ou du système, qui est identifiée de manière unique par un URI. La surface est spécifiée dans l’implémentation de l’application et doit correspondre à celle composée dans la configuration du canal d’expérience basée sur le code.
 
-Lors de la création d’une configuration de canal d’expérience basée sur du code pour les plateformes web, iOS et Android, vous devez saisir un chemin et un emplacement pour composer la surface, tandis que si la plateforme est Autre, vous devez saisir l’URI complet, comme dans les exemples ci-dessous.
+Lors de la création d’une configuration de canal d’expérience basée sur le code pour les plateformes web, iOS et Android, vous devez saisir un chemin et un emplacement pour composer la surface, tandis que si la plateforme est « Autre », vous devez saisir l’URI complet, comme dans les exemples ci-dessous.
 
 Autrement dit, une surface peut être considérée comme un conteneur à n’importe quel niveau de hiérarchie ayant une entité (touchpoint) qui existe.<!--good idea to illustrate how it can be seen, but to clarify-->
 

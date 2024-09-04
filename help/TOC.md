@@ -8,7 +8,7 @@ solution: Journey Optimizer
 source-git-commit: 06f79b7af3fe3c5ca556e2226d7e241a9c5b56d3
 workflow-type: tm+mt
 source-wordcount: '1963'
-ht-degree: 98%
+ht-degree: 99%
 
 ---
 
@@ -200,8 +200,8 @@ ht-degree: 98%
    + [Gérer les désinscriptions aux e-mails](using/email/email-opt-out.md)
    + Configurer le canal e-mail {#configure-email}
       + [Prise en main de la configuration du canal e-mail](using/email/get-started-email-config.md)
-      + [Configuration des paramètres de configuration des emails](using/email/email-settings.md)
-      + [Personnalisation de la configuration des emails](using/email/surface-personalization.md)
+      + [Définir les paramètres de la configuration du canal e-mail](using/email/email-settings.md)
+      + [Personnaliser la configuration du canal e-mail](using/email/surface-personalization.md)
 + Canal in-app{#in-app}
    + [Prise en main du canal in-app](using/in-app/get-started-in-app.md)
    + [Conditions préalables pour le canal in-app](using/in-app/inapp-configuration.md)
@@ -230,7 +230,7 @@ ht-degree: 98%
       + [Configurer le fournisseur Infobip](using/sms/sms-configuration-infobip.md)
       + [Configurer le fournisseur Twilio](using/sms/sms-configuration-twilio.md)
       + [Configurer un fournisseur personnalisé (version bêta)](using/sms/sms-configuration-custom.md)
-      + [Création d’une configuration SMS](using/sms/sms-configuration-surface.md)
+      + [Créer une configuration des SMS](using/sms/sms-configuration-surface.md)
 + Courrier {#direct-mail}
    + [Prise en main du courrier](using/direct-mail/get-started-direct-mail.md)
    + [Créer un courrier](using/direct-mail/create-direct-mail.md)
@@ -241,7 +241,7 @@ ht-degree: 98%
    + Configurer le canal web {#configure-web-channel}
       + [Conditions préalables requises pour les canaux web](using/web/web-prerequisites.md)
       + [Configurer des sous-domaines web](using/web/web-delegated-subdomains.md)
-      + [Création d’une configuration de canal web](using/web/web-configuration.md)
+      + [Créer une configuration de canal web](using/web/web-configuration.md)
    + [Créer des expériences web](using/web/create-web.md)
    + Créer des pages web {#author-web-pages}
       + [Modifier le contenu d’une page web](using/web/edit-web-content.md)
@@ -251,7 +251,7 @@ ht-degree: 98%
 + Expérience basée sur le code {#code-based-experience}
    + [Commencer avec le canal basé sur le code](using/code-based/get-started-code-based.md)
    + [Mécanismes de sécurisation et conditions préalables](using/code-based/code-based-prerequisites.md)
-   + [Création d’une configuration d’expérience basée sur du code](using/code-based/code-based-configuration.md)
+   + [Créer une configuration de l’expérience basée sur du code](using/code-based/code-based-configuration.md)
    + [Exemples de méthodes de mise en œuvre](using/code-based/code-based-implementation-samples.md)
    + [Créer des expériences basées sur le code](using/code-based/create-code-based.md)
 +  Pages de destination {#landing-pages}
@@ -581,9 +581,9 @@ ht-degree: 98%
    + [Requêtes](using/data/get-started-queries.md)
 + Configuration {#configuration}
    + [Prise en main de la configuration de Journey Optimizer](using/configuration/get-started-configuration.md)
-   + [Configuration des configurations de canal](using/configuration/channel-surfaces.md)
-   + Configuration guidée du canal {#guided-setup}
-      + [Prise en main de la configuration guidée du canal](using/configuration/set-mobile-config.md)
+   + [Paramétrer des configurations de canal](using/configuration/channel-surfaces.md)
+   + Configuration de canal guidée {#guided-setup}
+      + [Commencer avec la configuration guidée des canaux](using/configuration/set-mobile-config.md)
       + [Création d’une configuration de canal](using/configuration/create-channel-set-up.md)
    + Déléguer les sous-domaines d’e-mail {#delegate-subdomains}
       + [Commencer avec la délégation de sous-domaines](using/configuration/about-subdomain-delegation.md)

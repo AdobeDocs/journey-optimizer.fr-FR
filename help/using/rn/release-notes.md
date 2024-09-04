@@ -9,7 +9,7 @@ exl-id: 06fa956a-b500-416e-9d42-b683c328e837
 source-git-commit: 902458ec78df9a885b144bf19425c7865c208c28
 workflow-type: tm+mt
 source-wordcount: '744'
-ht-degree: 54%
+ht-degree: 85%
 
 ---
 
@@ -88,10 +88,10 @@ Cette version apporte les nouvelles fonctionnalités détaillées ci-dessous.
 <tbody>
 <tr>
 <td>
-<p>Les fonctionnalités actuelles de surface de canal ont été améliorées afin de fournir une approche cohérente sur tous les canaux. Vous pouvez désormais définir, gérer et réutiliser ces configurations pour l’un de vos canaux, y compris les expériences web, les messages in-app ou basées sur le code.</p>
+<p>Les fonctionnalités actuelles de surface de canal ont été améliorées afin de fournir une approche cohérente sur tous les canaux. Vous pouvez désormais définir, gérer et réutiliser ces configurations pour l’un de vos canaux, y compris les canaux web, les messages in-app ou l’expérience basée sur le code.</p>
 <p><ul>
 <li>Les surfaces de canal sont désormais renommées <strong>Configurations de canal</strong>.</li>
-<li>Vous pouvez joindre une ou plusieurs actions marketing pour appliquer des stratégies de consentement et de gouvernance des données.</li>
+<li>Vous pouvez joindre une ou plusieurs actions marketing pour appliquer des politiques de consentement et de gouvernance des données.</li>
 <li>Le contrôle d’accès au niveau de l’objet (OLAC) est désormais disponible pour chaque configuration de canal, ce qui vous permet de décider qui parmi vos utilisateurs et utilisatrices peut créer ou utiliser des configurations spécifiques.</li>
 <li>Pour certains canaux, vous pouvez créer des configurations de canal qui ciblent plusieurs plateformes. Il peut s’agir, par exemple, d’une configuration de canal de messagerie in-app pouvant cibler une page web, une application iOS et une application Android.</li>
 </ul></p>
@@ -127,7 +127,7 @@ Cette version apporte les nouvelles fonctionnalités détaillées ci-dessous.
 <tbody>
 <tr>
 <td>
-<p>Les variables globales de fragment améliorent la fonctionnalité de fragment existante afin d’améliorer l’efficacité pour la réutilisation du contenu et les cas d’utilisation de script. Les fragments peuvent désormais utiliser des variables d’entrée et créer des variables de sortie utilisables dans le contenu des campagnes et des parcours. Les fragments peuvent utiliser des variables d’entrée, à la fois dans les <a href="../personalization/use-expression-fragments.md">fragments d’expression</a> et les <a href="../email/use-visual-fragments.md">fragments visuels</a>. Vous pouvez utiliser ces variables pour personnaliser le contenu et les paramètres de vos messages, dans vos campagnes et parcours.</p>
+<p>Les variables globales de fragment améliorent la fonctionnalité de fragment existante afin d’optimiser l’efficacité de réutilisation du contenu et les cas d’utilisation de script. Les fragments peuvent désormais utiliser des variables d’entrée et créer des variables de sortie utilisables dans le contenu des campagnes et des parcours. Les fragments peuvent désormais utiliser des variables d’entrée, à la fois dans les <a href="../personalization/use-expression-fragments.md">fragments d’expression</a> et les <a href="../email/use-visual-fragments.md">fragments visuels</a>. Vous pouvez utiliser ces variables pour personnaliser le contenu et les paramètres de vos messages, dans vos campagnes et parcours.</p>
 <p>Pour plus d’informations, consultez la <a href="../personalization/use-expression-fragments.md">documentation détaillée</a>.</p>
 </p>
 </td>
@@ -158,9 +158,9 @@ Cette version apporte les améliorations répertoriées ci-dessous.
 
 **Parcours**
 
-* Dans l’activité **Condition**, par défaut, la **[!UICONTROL condition de temps]** est désormais définie par heure, de 00:00 à 12:00. [En savoir plus](../building-journeys/condition-activity.md#time_condition)
-* Lors de la création de vos parcours, les alertes s’affichent désormais à partir du bouton **Alertes**, afin de s’aligner sur d’autres alertes et d’offrir une expérience utilisateur cohérente. [En savoir plus](../building-journeys/troubleshooting.md#checking-for-errors-before-testing)
-* Les options de zoom de la barre d’outils de parcours ont été améliorées : le pourcentage de zoom est désormais visible et vous pouvez désormais réinitialiser plus facilement la valeur de zoom.
+* Dans l’activité **Condition**, par défaut, la **[!UICONTROL Condition de temps]** est désormais définie par heure, de 00:00 à 12:00. [En savoir plus](../building-journeys/condition-activity.md#time_condition)
+* Lors de la création de vos parcours, les alertes s’affichent désormais à partir du bouton **Alertes**, afin de s’aligner sur d’autres alertes et d’offrir une expérience d’utilisation cohérente. [En savoir plus](../building-journeys/troubleshooting.md#checking-for-errors-before-testing)
+* Les options de zoom de la barre d’outils des parcours ont été améliorées : le pourcentage de zoom est désormais visible et vous pouvez facilement réinitialiser sa valeur.
 
 <!--**Audiences and Profiles**-->
 
@@ -170,15 +170,15 @@ Cette version apporte les améliorations répertoriées ci-dessous.
 
 **Canal push**
 
-* Vous pouvez maintenant ajouter vos informations d’identification push d’application mobile dans les paramètres de configuration du canal Adobe Journey Optimizer. La création d’une surface d’application dans la collecte de données Adobe Experience Platform n’est plus nécessaire.
+* Vous pouvez maintenant ajouter vos informations d’identification push d’application mobile dans les paramètres de configuration du canal Adobe Journey Optimizer. La création d’une surface d’application dans la collecte de données Adobe Experience Platform n’est plus nécessaire.
 
 ### Autres modifications {#changes}
 
 **Création de rapports**
 
-* L’expérience de création de rapports actuelle sera abandonnée à compter de la version d’octobre. À compter de cette date, la nouvelle expérience de création de rapports deviendra la norme. Nous vous recommandons de vous familiariser avec les nouvelles fonctionnalités pour garantir une transition fluide.
+* L’expérience actuelle de création de rapports sera abandonnée à compter de la version d’octobre. À partir de cette date, la nouvelle expérience de création de rapports deviendra la norme. Nous vous recommandons de vous familiariser avec les nouvelles fonctionnalités pour garantir une transition fluide.
 
-[Prise en main de la nouvelle interface de reporting de Journey Optimizer](../reports/report-gs-cja.md)
+[Commencer avec la nouvelle interface de création de rapports de Journey Optimizer](../reports/report-gs-cja.md)
 
 * De nouveaux cas d’utilisation ont été ajoutés à la nouvelle expérience de création de rapports :
 

@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Configuration de mobile et web
+title: Configuration mobile et web
 description: Découvrez comment configurer et surveiller les canaux web et mobiles
 feature: Surface, Channel Configuration
 topic: Administration
@@ -12,22 +12,22 @@ exl-id: 846e0d11-798b-4f3b-80db-848a17d32830
 source-git-commit: 77e2892dc188ebdd79031792434b4f55913ee811
 workflow-type: tm+mt
 source-wordcount: '770'
-ht-degree: 17%
+ht-degree: 50%
 
 ---
 
-# Prise en main de la configuration guidée du canal {#set-mobile-config}
+# Commencer avec la configuration guidée des canaux {#set-mobile-config}
 
 >[!CONTEXTUALHELP]
 >id="ajo_mobile_web_setup_name"
 >title="Nom de la configuration mobile et web"
->abstract="Saisissez le nom de votre configuration mobile ou web. Ce nom sera utilisé pour chaque ressource automatiquement créée avec la configuration de canal guidée."
+>abstract="Saisissez le nom de votre configuration mobile ou web. Ce nom sera utilisé pour chaque ressource automatiquement créée avec la configuration guidée des canaux."
 
 >[!CONTEXTUALHELP]
 >id="ajo_mobile_web_setup_validate_assurance"
 >title="Valider avec Assurance"
 >abstract="Adobe Experience Platform Assurance est incorporé à ce workflow pour vous aider à contrôler l’implémentation de votre SDK, ainsi qu’à simuler et valider des événements d’application."
->additional-url="https://experienceleague.adobe.com/en/docs/experience-platform/assurance/home" text="Présentation de Adobe Experience Platform Assurance"
+>additional-url="https://experienceleague.adobe.com/fr/docs/experience-platform/assurance/home" text="Présentation de Adobe Experience Platform Assurance"
 
 Cette opération facilite la configuration rapide des canaux marketing, en s’assurant que toutes les ressources requises sont facilement disponibles dans Experience Platform, Journey Optimizer et la collecte de données. Cela permet à votre équipe marketing de commencer à créer des campagnes et des parcours.
 
@@ -54,9 +54,9 @@ Notez que pour chaque plateforme que vous souhaitez configurer, il est nécessai
 
 ## Conditions préalables {#prereq}
 
-* Pour implémenter efficacement cette fonction, il est essentiel qu’un membre de l’organisation disposant de l’autorité et de la capacité technique de modifier le code du site web ou du mobile supervise la configuration.
+* Pour implémenter efficacement cette fonction, il est essentiel qu’une personne membre de l’organisation disposant de l’autorité et de la capacité technique de modifier le code web ou le code mobile supervise la configuration.
 
-  Vous trouverez ci-dessous les autorisations requises pour exécuter la configuration de canal guidée.
+  Vous trouverez ci-dessous les autorisations requises pour exécuter la configuration guidée des canaux.
 
 +++ Autorisations nécessaires
 
@@ -74,9 +74,9 @@ Notez que pour chaque plateforme que vous souhaitez configurer, il est nécessai
         </td>
         <td>
           <ul>
-            <li>Droits d’entreprise &gt; Propriétés</li>
-            <li>Droits de propriété : développez, publiez, gérez des extensions et des environnements.</li>
-            <li>Interface de l’application : gestion de la configuration de l’application</li>
+            <li>Droits d’entreprise &gt; Propriétés</li>
+            <li>Droits de propriété : développer, publier et gérer des extensions et des environnements</li>
+            <li>Surfaces d’application : gérer la configuration de l’application</li>
          </ul>
         </td>
       </tr>
@@ -86,13 +86,13 @@ Notez que pour chaque plateforme que vous souhaitez configurer, il est nécessai
         </td>
         <td>
         <ul>
-            <li>Collecte de données : gestion des flux de données</li>
-           <li>Environnement de test : accorder l’accès aux environnements de test</li>
-            <li>Gestion des segments : lecture, création, modification et suppression de définitions de segment</li>
-            <li>Gestion des profils : lecture, création, modification et suppression de profils</li>
-            <li>Lecture de jeux de données : accès en lecture seule aux jeux de données</li>
-            <li>Schémas en lecture seule : accès aux schémas</li>
-            <li>Lecture de l’espace de noms d’identité : accès en lecture seule à l’espace de noms d’identité</li>
+            <li>Collecte de données : gérer les trains de données</li>
+           <li>Sandbox : accorder l’accès aux sandbox</li>
+            <li>Gérer les segments : lire, créer, modifier et supprimer les définitions de segments</li>
+            <li>Gérer les profils : lire, créer, modifier et supprimer des profils</li>
+            <li>Lire les jeux de données : accéder en lecture seule aux jeux de données</li>
+            <li>Lire des schémas : accéder en lecture seule aux schémas</li>
+            <li>Lire l’espace de noms d’identité : accéder en lecture seule à l’espace de noms d’identité</li>
           </ul>
         </td>
       </tr>
@@ -101,7 +101,7 @@ Notez que pour chaque plateforme que vous souhaitez configurer, il est nécessai
          <p>Adobe Journey Optimizer</p>
         </td>
         <td>
-          <p>Campagnes : gérez et publiez des campagnes.</p>
+          <p>Campagnes : gérer et publier des campagnes</p>
         </td>
       </tr>
     </tbody>
@@ -164,9 +164,9 @@ Pour la **configuration initiale**, ci-dessous est une liste complète de toutes
   <li>Adobe Experience Platform Edge Network</li>
   <li>Adobe Journey Optimizer</li>
   <li>Assurance AEP</li>
-  <li>Consentement (avec activation des stratégies de consentement par défaut)</li>
-  <li>Identité (avec ECID par défaut, avec règles de groupement par défaut)</li>
-  <li>Mobile Core</li>
+  <li>Consentement (avec activation des politiques de consentement par défaut)</li>
+  <li>Identité (avec ECID par défaut, avec règles d’assemblage par défaut)</li>
+  <li>Mobile Core</li>
   </ul>
   </td>
   </tr>
@@ -183,7 +183,7 @@ Pour la **configuration initiale**, ci-dessous est une liste complète de toutes
   <p>Trains de données</p>
   </td>
   <td>
-  <p>Flux de données avec services</p>
+  <p>Train de données avec services</p>
   </td>
   </tr>
   <tr>
@@ -216,7 +216,7 @@ Pour la **configuration de canal**, ci-dessous est une liste complète de toutes
   </td>
   <td>
   <ul>
-  <li>Configuration de canal</li>
+  <li>Configuration des canaux</li>
   <li>Chargement des informations d’identification push (message push mobile uniquement)</li>
   </ul>
   </td>
@@ -259,9 +259,9 @@ Pour la **configuration initiale**, ci-dessous est une liste complète de toutes
   <li>Adobe Experience Platform Edge Network</li>
   <li>Adobe Journey Optimizer</li>
   <li>Assurance AEP</li>
-  <li>Consentement (avec activation des stratégies de consentement par défaut)</li>
-  <li>Identité (avec ECID par défaut, avec règles de groupement par défaut)</li>
-  <li>Mobile Core</li>
+  <li>Consentement (avec activation des politiques de consentement par défaut)</li>
+  <li>Identité (avec ECID par défaut, avec règles d’assemblage par défaut)</li>
+  <li>Mobile Core</li>
   </ul>
   </td>
   </tr>
@@ -278,7 +278,7 @@ Pour la **configuration initiale**, ci-dessous est une liste complète de toutes
   <p>Trains de données</p>
   </td>
   <td>
-  <p>Flux de données avec services</p>
+  <p>Train de données avec services</p>
   </td>
   </tr>
   <tr>
@@ -311,7 +311,7 @@ Pour la **configuration de canal**, ci-dessous est une liste complète de toutes
   </td>
   <td>
   <ul>
-  <li>Configuration de canal</li>
+  <li>Configuration des canaux</li>
   <li>Chargement des informations d’identification push (message push mobile uniquement)</li>
   </ul>
   </td>
@@ -354,9 +354,9 @@ Pour la **configuration initiale**, ci-dessous est une liste complète de toutes
   <li>Adobe Experience Platform Edge Network</li>
   <li>Adobe Journey Optimizer</li>
   <li>Assurance AEP</li>
-  <li>Consentement (avec activation des stratégies de consentement par défaut)</li>
-  <li>Identité (avec ECID par défaut, avec règles de groupement par défaut)</li>
-  <li>Mobile Core</li>
+  <li>Consentement (avec activation des politiques de consentement par défaut)</li>
+  <li>Identité (avec ECID par défaut, avec règles d’assemblage par défaut)</li>
+  <li>Mobile Core</li>
   </ul>
   </td>
   </tr>
@@ -373,7 +373,7 @@ Pour la **configuration initiale**, ci-dessous est une liste complète de toutes
   <p>Trains de données</p>
   </td>
   <td>
-  <p>Flux de données avec services</p>
+  <p>Train de données avec services</p>
   </td>
   </tr>
   <tr>
