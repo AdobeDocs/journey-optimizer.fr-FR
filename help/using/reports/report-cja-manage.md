@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 badge: label="Disponibilité limitée" type="Informative"
 exl-id: d2ff175a-8bca-4b62-931c-a909cfd9308d
-source-git-commit: 3098b63ef643da63a205f539ac48f902e823bbd1
+source-git-commit: 9be8b3864a41b37f3a61f24b6e6b54ec184d41aa
 workflow-type: tm+mt
-source-wordcount: '866'
-ht-degree: 37%
+source-wordcount: '889'
+ht-degree: 36%
 
 ---
 
@@ -140,6 +140,10 @@ d. Open the report for the journey that you added the metric to and ensure that 
 -->
 
 ## Création d’une audience à partir de données de rapport {#create-audience}
+
+>[!IMPORTANT]
+>
+>Chaque organisation est limitée à la publication de 25 audiences. En outre, les utilisateurs peuvent publier un maximum de 5 audiences par heure et 20 par jour.
 
 Vous pouvez désormais sélectionner des données spécifiques dans le tableau et créer directement une audience à partir de ces sélections, en rationalisant et en simplifiant le processus de création d’audience.
 

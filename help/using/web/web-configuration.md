@@ -1,32 +1,33 @@
 ---
 title: Configuration du canal web
-description: Création d’une configuration de canal web
+description: Créer une configuration de canal web
 feature: Web Channel, Channel Configuration
 topic: Content Management
 role: Admin
 level: Experienced
-source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
+exl-id: 2161baf0-38b7-4397-bffe-083929e8033a
+source-git-commit: 9be8b3864a41b37f3a61f24b6e6b54ec184d41aa
 workflow-type: tm+mt
 source-wordcount: '855'
-ht-degree: 19%
+ht-degree: 88%
 
 ---
 
-# Création d’une configuration de canal web {#web-configuration}
+# Créer une configuration de canal web {#web-configuration}
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_page_rule"
 >title="Règle de correspondance de pages"
->abstract="Pour gérer et cibler efficacement un groupe d’URL qui partagent les mêmes critères, créez une règle de correspondance Pages . Cette règle vous permet de consolider plusieurs URL sous une seule directive, ce qui simplifie l’application de paramètres et d’actions cohérents sur ces pages."
+>abstract="Pour gérer et cibler efficacement un groupe d’URL qui partagent les mêmes critères, créez une règle de correspondance de pages. Cette règle permet de rassembler plusieurs URL sous une seule directive, ce qui simplifie l’application de paramètres et d’actions cohérents à ces pages."
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_default_url"
 >title="URL de création et de prévisualisation par défaut"
 >abstract="Ce champ garantit que les pages générées ou mises en correspondance par la règle ont une URL désignée, essentielle pour la création et la prévisualisation efficaces du contenu."
 
-Une configuration web est une propriété web identifiée par une URL où le contenu sera diffusé. Elle peut correspondre à l’URL d’une ou de plusieurs pages, ce qui vous permet de diffuser des modifications sur une ou plusieurs pages web.
+Une configuration web est une propriété web identifiée par une URL où le contenu sera diffusé. Elle peut correspondre à l’URL d’une ou de plusieurs pages, ce qui vous permet de diffuser des modifications sur une ou plusieurs pages web.
 
-1. Accédez au menu **[!UICONTROL Canaux]** > **[!UICONTROL Paramètres généraux]** > **[!UICONTROL Configurations de canaux]** , puis cliquez sur **[!UICONTROL Créer une configuration de canal]**.
+1. Accédez au menu **[!UICONTROL Canaux]** > **[!UICONTROL Paramètres généraux]** > **[!UICONTROL Configurations des canaux]**, puis cliquez sur **[!UICONTROL Créer une configuration des canaux]**.
 
    ![](assets/web_config_1.png)
 
@@ -38,17 +39,17 @@ Une configuration web est une propriété web identifiée par une URL où le con
 
 1. Pour attribuer des libellés d’utilisation des données personnalisés ou de base à la configuration, vous pouvez sélectionner **[!UICONTROL Gérer l’accès]**. [En savoir plus sur le contrôle d’accès au niveau de l’objet (OLAC)](../administration/object-based-access.md).
 
-1. Sélectionnez le canal **Web**.
+1. Sélectionnez le canal **web**.
 
    ![](assets/web_config_2.png)
 
-1. Sélectionnez **[!UICONTROL Action marketing]** pour associer les stratégies de consentement aux messages utilisant cette configuration. Toutes les stratégies de consentement associées à l’action marketing sont exploitées afin de respecter les préférences de vos clients. [En savoir plus](../action/consent.md#surface-marketing-actions)
+1. Sélectionnez une **[!UICONTROL Action marketing]** ou plusieurs pour associer des politiques de consentement aux messages utilisant cette configuration. Toutes les politiques de consentement associées à cette action marketing sont utilisées afin de respecter les préférences de vos clientes et clients. [En savoir plus](../action/consent.md#surface-marketing-actions)
 
 1. Vous pouvez saisir une **[!UICONTROL URL de la page]** si vous souhaitez appliquer les modifications à une seule page uniquement.
 
 1. Vous pouvez également créer une **[!UICONTROL Règle de correspondance de pages]** pour cibler plusieurs URL correspondant à la même règle, notamment si vous souhaitez appliquer les modifications à une bannière principale sur l’ensemble d’un site web ou ajouter une image principale qui s’affiche sur toutes les pages de produits d’un site web.
 
-   Pour ce faire, sélectionnez **[!UICONTROL Pages correspondant à la règle]**.
+   Pour ce faire, sélectionnez **[!UICONTROL Règle de correspondance de pages]**.
 
 1. Définissez vos critères pour les champs **[!UICONTROL Domaine]** et **[!UICONTROL Page]**.
 
@@ -56,40 +57,71 @@ Une configuration web est une propriété web identifiée par une URL où le con
 
    ![](assets/web_config_3.png)
 
-1. Si vous avez créé une **[!UICONTROL règle de correspondance de page]**, vous devez saisir l’URL de création et d’aperçu **par défaut**. Cette étape permet de s’assurer que les pages générées ou mises en correspondance par la règle possèdent une URL désignée à des fins de création et d’aperçu de contenu. Pour en savoir plus sur la règle de correspondance de page, consultez la [section ci-dessous](#web-page-matching-rule).
+1. Si vous avez créé une **[!UICONTROL Règle de correspondance de pages]**, vous devez saisir l’URL de création et de prévisualisation **par défaut**. Cette étape permet de s’assurer que les pages générées ou mises en correspondance par la règle possèdent une URL désignée à des fins de création et de prévisualisation de contenu. Pour en savoir plus sur la règle de correspondance de pages, consultez la [section ci-dessous](#web-page-matching-rule).
 
 1. Enregistrez vos modifications.
 
-Vous pouvez maintenant sélectionner votre configuration lorsque vous utilisez le canal web dans les campagnes ou les parcours.
+Vous pouvez maintenant sélectionner votre configuration lorsque vous utilisez le canal web dans des campagnes ou des parcours.
 
-## Règle de correspondance de page {#web-page-matching-rule}
+## Règle de correspondance de pages {#web-page-matching-rule}
 
-Lors de la création d’une règle qui correspond à plusieurs pages afin que vous puissiez appliquer les mêmes modifications de contenu sur plusieurs pages à la fois, vous pouvez utiliser différents opérateurs sur les sections **Domaine** et **Chemin** pour créer la règle de votre choix. Vérifiez les opérateurs disponibles ci-dessous.
+Lors de la création d’une règle qui correspond à plusieurs pages afin de pouvoir appliquer les mêmes modifications de contenu sur plusieurs pages à la fois, vous pouvez utiliser différents opérateurs sur les sections **Domaine** et **Chemin** pour créer la règle de votre choix. Vérifiez les opérateurs disponibles ci-dessous.
 
-Opérateurs disponibles pour créer des règles de mise en correspondance de pages :
+Opérateurs disponibles pour créer des règles de correspondance de pages :
 
 * **Domaine**
 
-  | Opérateur  | Description  | Exemples  |
+  | Opérateur | Description | Exemples |
   |---|---|---|
-  | Est égal à  | Correspondance exacte du domaine.  |
-  | Commence par  | Correspond à tous les domaines (y compris les sous-domaines) commençant par la chaîne saisie.  | Ex : &quot;Commence par : dev&quot; -> correspond à tous les domaines et sous-domaines commençant par &quot;dev&quot;, comme : dev.example.com, dev.products.example.com, developer.example.com  |
-  | Se termine par  | Correspond à tous les domaines (y compris les sous-domaines) qui se terminent par la chaîne saisie.  | Ex : &quot;Se termine par : example.com&quot; -> correspond à tous les domaines et sous-domaines qui se terminent par &quot;example.com&quot;, par exemple : stage.example.com, prod.example.com, myexample.com  |
-  | Correspondance avec les caractères génériques  | L’opérateur &quot;Correspondance de caractères génériques&quot; permet à l’utilisateur de définir une correspondance de caractères génériques au milieu de la chaîne, comme &quot;dev&quot;.*.example.com&quot;. Les règles de validation sont que la valeur doit contenir un seul caractère générique (astérisque) lorsque l’opérateur est &quot;correspondance de caractères génériques&quot;.  | Ex : &quot;Correspondance générique : dev.*.example.com&quot; -> correspond à des domaines tels que : dev.products.example.com, dev.mytest.products.example.com, dev.blog.example.com  |
-  | Quelconque  | Correspond à tous les domaines. Cela s’avère utile lors du test d’un chemin spécifique sur plusieurs domaines.  |
+  | Correspond à | Correspondance exacte du domaine.  |
+  | Commence par | Correspond à tous les domaines (y compris les sous-domaines) commençant par la chaîne saisie.  | Exemple : « Commence par : dev » -> correspond à tous les domaines et sous-domaines commençant par « dev », comme : dev.exemple.com, dev.produits.exemple.com, developper.exemple.com. |
+  | Se termine par | Correspond à tous les domaines (y compris les sous-domaines) qui se terminent par la chaîne saisie.  | Exemple : « Se termine par : exemple.com » -> correspond à tous les domaines et sous-domaines qui se terminent par « exemple.com », par exemple : stage.exemple.com, prod.exemple.com, monexemple.com. |
+  | Correspondance des caractères génériques | L’opérateur « Correspondance des caractères génériques » permet de définir une correspondance de caractères génériques au milieu de la chaîne, comme « dev.*.exemple.com ». Les règles de validation sont telles que la valeur doit contenir un seul caractère générique (astérisque) lorsque l’opérateur est « correspondance des caractères génériques ».  | Exemple : « Correspondance des caractères génériques : dev.*.exemple.com » -> correspond à des domaines comme : dev.produits.exemple.com, dev.montest.produits.exemple.com, dev.blog.exemple.com. |
+  | N’importe lequel | Correspond à tous les domaines. Cela se révèle utile lors du test d’un chemin spécifique sur plusieurs domaines. |
 
 
 * **Chemin**
 
-  | | | |
-  |-|-|-|
-  | Opérateur  | Description  | Exemples  |
-  | Est égal à  | Correspondance exacte du chemin.  |    |
-  | Commence par  | Correspond à tous les chemins (y compris les sous-chemins) commençant par la chaîne saisie.  |    |
-  | Se termine par  | Correspond à tous les chemins (y compris les sous-chemins) qui se terminent par la chaîne saisie.  |    |
-  | Quelconque  | Correspond à tous les chemins d’accès. Cela s’avère utile lors du ciblage de tous les chemins d’accès sous un ou plusieurs domaines.  |    |
-  | Correspondance avec les caractères génériques  | L’opérateur &quot;Correspondance de caractères génériques&quot; permet à l’utilisateur de définir un caractère générique interne à l’intérieur du chemin, comme &quot;/products/*/detail&quot;.  Le caractère générique * dans le composant Chemin ** correspond à n’importe quelle séquence de caractères jusqu’à ce que le premier / caractère soit rencontré.  /*/ correspond à toute séquence de caractères (y compris les sous-chemins)  | Ex : &quot;Correspondance générique : /products/*/detail&quot;, correspond à tous les chemins tels que :  example.com/products/yoga/detail  example.com/products/surf/detail  example.com/products/tennis/detail  example.com/products/yoga/pants/detail   Ex : &quot;Correspond à : /prod*/detail, correspond à tous les chemins tels que :  example.com/products/detail  example.com/production/detail   ne correspond pas aux chemins tels que :  example.com/products/yoga/detail  |
-  | Contient  | &quot;contains&quot; est traduit en caractère générique comme &quot;mystring&quot; et correspond à tous les chemins contenant cette séquence de caractères.  | Ex : &quot;Contains : product&quot;, correspond à tous les chemins contenant le produit de chaîne, tels que : example.com/products, example.com/yoga/perfproduct, example.com/surf/productdescription, example.com/home/product/page  |
+<table>
+    <thead>
+    <tr>
+        <th><strong>Opérateur</th>
+        <th><strong>Description</th>
+        <th><strong>Exemples</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr>
+        <td>Égal à</td>
+        <td>Correspondance exacte du chemin. </td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Commence par</td>
+        <td>Correspond à tous les chemins (y compris les sous-chemins) commençant par la chaîne saisie.</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Se termine par</td>
+        <td>Correspond à tous les chemins (y compris les sous-chemins) qui se terminent par la chaîne saisie.</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Tous</td>
+        <td>Correspond à tous les chemins. Cela se révèle utile lors du ciblage de tous les chemins sous un ou plusieurs domaines.</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Correspondance avec les caractères génériques</td>
+        <td>L’opérateur "Correspondance de caractères génériques" permet à l’utilisateur de définir un caractère générique interne dans le chemin, comme "/products/*/detail".Le caractère générique * dans le composant Chemin ** correspond à n’importe quelle séquence de caractères avant de rencontrer le premier caractère /.  /*/ correspond à toute séquence de caractères (y compris les sous-chemins)</td>
+        <td>Ex : "Correspondance générique : /products/*/detail", correspond à tous les chemins tels que : <ul>example.com/products/yoga/detail</ul><ul>example.com/products/surf/detail</ul><ul>example.com/products/tennis/detail</ul><ul>example.com/products/yoga/pants/detail</ul>Ex : "Correspond à : /prod*/detail, correspond à tous les chemins tels que :  <ul>example.com/products/detail</ul><ul>example.com/production/detail</ul>  ne correspond pas aux chemins tels que : <ul>example.com/products/yoga/detail</ul></td>
+    </tr>
+    <tr>
+        <td>Contient</td>
+        <td>« Contient » est traduit en caractère générique comme « machaîne » et correspond à tous les chemins contenant cette séquence de caractères.</td>
+        <td>Ex : "Contains : product", correspond à tous les chemins contenant le produit sous forme de chaîne, tels que : <ul>example.com/products</ul><ul>example.com/yoga/perfproduct</ul><ul>example.com/surf/productdescription</ul><ul>example.com/home/product/page</ul></td>
+    </tr>
+    </tbody>
+</table>
 
-
-Si votre cas d’utilisation ne peut pas être modélisé à l’aide d’une règle, vous avez la possibilité d’ajouter plusieurs règles de page et vous pouvez utiliser des opérateurs &quot;Ou&quot; ou &quot;Exclure&quot; entre elles. &quot;Exclure&quot; est utile lorsque l’une des pages correspondant à la règle définie ne doit pas être ciblée : par exemple, toutes les pages &quot;example.com&quot; qui contiennent &quot;product&quot;, à l’exception de la page suivante : `https://example.com/blogs/productinfo`.
+Si votre cas d’utilisation ne peut pas être modélisé à l’aide d’une règle, vous avez la possibilité d’ajouter plusieurs règles de page et vous pouvez utiliser des opérateurs « Ou » ou « Exclure » entre elles. « Exclure » est utile lorsque l’une des pages correspondant à la règle définie ne doit pas être ciblée : par exemple, toutes les pages « exemple.com » qui contiennent « produit », à l’exception de la page suivante : `https://example.com/blogs/productinfo`.
