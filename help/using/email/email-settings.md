@@ -2,7 +2,7 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Configurer les paramètres d’e-mail
-description: Découvrez comment configurer les paramètres de courrier électronique au niveau de la configuration du canal
+description: Découvrir comment configurer les paramètres d’e-mail au niveau de la configuration de canal
 feature: Email, Surface
 topic: Administration
 role: Admin
@@ -10,25 +10,25 @@ level: Experienced
 keywords: paramètres, e-mail, configuration
 exl-id: 13536962-7541-4eb6-9ccb-4f97e167734a
 source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2530'
-ht-degree: 72%
+ht-degree: 100%
 
 ---
 
 # Configurer les paramètres d’e-mail {#email-settings}
 
-Pour commencer à créer un email, vous devez configurer des configurations de canal email qui définissent tous les paramètres techniques requis pour vos messages. [Découvrez comment créer des configurations](../configuration/channel-surfaces.md)
+Pour commencer à créer un e-mail, vous devez paramétrer les configuration du canal e-mail qui définissent tous les paramètres techniques requis pour vos messages. [Découvrir comment créer des configurations](../configuration/channel-surfaces.md)
 
 >[!NOTE]
 >
->Pour préserver votre réputation et améliorer votre délivrabilité, configurez les sous-domaines que vous utiliserez pour envoyer des emails avant de créer une configuration d&#39;email. [En savoir plus](../configuration/about-subdomain-delegation.md)
+>Pour préserver votre réputation et améliorer votre délivrabilité, configurez les sous-domaines que vous utiliserez pour envoyer des e-mails avant de créer une configuration du canal e-mail. [En savoir plus](../configuration/about-subdomain-delegation.md)
 
-Définissez les paramètres de l&#39;email dans la section dédiée de la configuration du canal, comme décrit ci-dessous.
+Définissez les paramètres d’e-mail dans la section dédiée de la configuration du canal, comme décrit ci-dessous.
 
 ![](assets/surface-email-settings.png){width="50%" align="left"}
 
-La configuration de l’email est récupérée pour envoyer des communications en suivant la logique ci-dessous :
+La configuration du canal e-mail est récupérée pour envoyer des communications en suivant la logique ci-dessous :
 
 * Pour les parcours par lots, cela ne s’applique pas à l’exécution par lots qui avait déjà démarré avant que la configuration de surface d’e-mail ne soit effectuée. La modification est récupérée lors de la prochaine périodicité ou de la nouvelle exécution.
 
@@ -36,22 +36,22 @@ La configuration de l’email est récupérée pour envoyer des communications e
 
 >[!NOTE]
 >
->Les paramètres de configuration d&#39;email mis à jour sont automatiquement sélectionnés dans le ou les parcours ou campagnes dans lesquels la configuration est utilisée.
+>Les paramètres mis à jour de la configuration du canal e-mail sont automatiquement récupérés dans le ou les parcours ou la ou les campagnes où la configuration est utilisée.
 
 ## Type d’e-mail {#email-type}
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_presets_emailtype"
 >title="Définir le type d’e-mail"
->abstract="Sélectionnez le type d&#39;email qui sera envoyé lors de l&#39;utilisation de cette configuration : Marketing pour les emails promotionnels, qui requièrent le consentement de l&#39;utilisateur, ou Transactionnel pour les emails non commerciaux, qui peuvent également être envoyés à des profils désabonnés dans des contextes spécifiques."
+>abstract="Sélectionnez le type d’e-mail qui sera envoyé lors de l’utilisation de cette configuration : Marketing pour les messages promotionnels, qui nécessitent le consentement de l’utilisateur ou de l’utilisatrice, ou Transactionnel pour les messages non commerciaux, qui peuvent également être envoyés aux profils désabonnés dans des contextes spécifiques."
 
-Dans la section **Type d’email**, sélectionnez le type de message pour la configuration : **[!UICONTROL Marketing]** ou **[!UICONTROL Transactionnel]**.
+Dans la section **Type dʼe-mail**, sélectionnez le type de message pour la configuration : **[!UICONTROL Marketing]** ou **[!UICONTROL Transactionnel]**.
 
 * Sélectionnez **Marketing** pour les e-mails promotionnels, tels que les promotions hebdomadaires pour un magasin de vente au détail. Ces messages requièrent le consentement de l’utilisateur ou de l’utilisatrice.
 
 * Sélectionnez **Transactionnel** pour les e-mails non commerciaux tels que les confirmations de commande, les notifications de réinitialisation de mot de passe ou les informations de livraison, par exemple. Ces e-mails peuvent être envoyés aux profils qui **se sont désabonnés** des communications marketing. Ces messages ne peuvent être envoyés que dans des contextes spécifiques.
 
-Lors de la création d&#39;un message, vous devez choisir une configuration de canal valide correspondant à la catégorie que vous avez sélectionnée pour votre email.
+Lors de la création d’un message, vous devez choisir une configuration de canal valable, correspondant à la catégorie que vous avez sélectionnée pour votre e-mail.
 
 ## Sous-domaine {#subdomains}
 
@@ -65,11 +65,11 @@ Pour préserver la réputation de votre domaine, accélérer le processus de pr�
 ## Détails du groupe d’adresses IP {#ip-pools}
 
 
-Sélectionnez le pool d’adresses IP à associer à la configuration. [En savoir plus](../configuration/ip-pools.md)
+Sélectionnez le groupe d’adresses IP à associer à la configuration. [En savoir plus](../configuration/ip-pools.md)
 
 ![](assets/surface-subdomain-ip-pool.png){width="50%" align="left"}
 
-Vous ne pouvez pas procéder à la création de configuration lorsque le pool d’adresses IP sélectionné se trouve sous l’état [edition](../configuration/ip-pools.md#edit-ip-pool) (**[!UICONTROL Traitement]**) et n’a jamais été associé au sous-domaine sélectionné. Sinon, la version la plus ancienne de l’association groupe d’adresses IP/sous-domaine sera toujours utilisée. Si c’est le cas, enregistrez la configuration en tant que brouillon et réessayez une fois que le pool IP a l’état **[!UICONTROL Success]**.
+Vous ne pouvez pas poursuivre la création de la configuration lorsque le groupe d’adresses IP sélectionné est en cours d’[édition](../configuration/ip-pools.md#edit-ip-pool) (statut **[!UICONTROL En cours de traitement]**), et n’a jamais été associé au sous-domaine sélectionné. Sinon, la version la plus ancienne de l’association groupe d’adresses IP/sous-domaine sera toujours utilisée. Si c’est le cas, enregistrez la configuration en tant que brouillon, puis réessayez une fois que le groupe d’adresses IP a le statut **[!UICONTROL Succès]**.
 
 >[!NOTE]
 >
@@ -100,12 +100,12 @@ L’en-tête de désabonnement de la liste propose deux fonctionnalités (URL de
 
 * Une adresse **Mailto (se désabonner)**, qui est l’adresse de destination vers laquelle les demandes de désabonnement sont acheminées pour le traitement automatique.
 
-  Dans Journey Optimizer, l’adresse email de désabonnement est l’adresse **Mailto (unsubscribe)** par défaut affichée dans la configuration du canal, en fonction de votre [sous-domaine sélectionné](#subdomains-and-ip-pools).
+  Dans Journey Optimizer, l’adresse e-mail de désabonnement est l’adresse par défaut **Mailto (se désabonner)** affichée dans la configuration de canal, en fonction du [sous-domaine sélectionné](#subdomains-and-ip-pools).
 
   ![](assets/surface-list-unsubscribe-mailto.png){width="80%" align="left"}
 
 
-* L’ **URL de désabonnement en un clic**, qui est par défaut l’option &quot;Un clic&quot; de notre en-tête de désabonnement en liste généré par l’URL, en fonction du sous-domaine que vous avez défini et configuré dans les paramètres de configuration du canal.
+* **URL de désabonnement en un clic**, qui est par défaut l’URL d’opt-out en un clic générée par l’en-tête de désabonnement de la liste, en fonction du sous-domaine que vous avez défini et configuré dans les paramètres de surface de canal.
 
 <!--
     >[!AVAILABILITY]
@@ -114,19 +114,19 @@ L’en-tête de désabonnement de la liste propose deux fonctionnalités (URL de
     >
 -->
 
-Les fonctionnalités **[!UICONTROL Mailto (se désabonner)]** et **[!UICONTROL URL de désabonnement en un clic]** sont facultatives. Si vous ne souhaitez pas utiliser l’URL de désabonnement en un clic générée par défaut, vous pouvez décocher la fonction. Dans le cas où l’option **[!UICONTROL Configuration de désabonnement]** est activée et que la fonction **[!UICONTROL Unsubscribe URL]** est décochée, si vous ajoutez un [lien de désabonnement en un clic](../privacy/opt-out.md#one-click-opt-out) à un message créé à l’aide de cette configuration, l’en-tête de désabonnement de la liste sélectionne le lien de désabonnement en un clic que vous avez inséré dans le corps de l’email et l’utilisez comme en un clic. valeur de l’URL d’abonnement.
+Les fonctionnalités **[!UICONTROL Mailto (se désabonner)]** et **[!UICONTROL URL de désabonnement en un clic]** sont facultatives. Si vous ne souhaitez pas utiliser l’URL de désabonnement en un clic générée par défaut, vous pouvez décocher la fonction. Dans le scénario dans lequel l’option **[!UICONTROL Configuration d’opt-out]** est activée et où la fonctionnalité **[!UICONTROL URL de désabonnement en un clic]** n’est pas cochée, si vous ajoutez un [lien d’opt-out en un clic](../privacy/opt-out.md#one-click-opt-out) dans un message créé à l’aide de cette configuration, l’en-tête de désabonnement de la liste récupère le lien d’opt-out en un clic que vous avez inséré dans le corps de l’e-mail et l’utilise comme valeur de l’URL de désabonnement en un clic.
 
 ![](assets/preset-list-unsubscribe-opt-out-url.png)
 
 >[!NOTE]
 >
->Si vous n’ajoutez pas de lien d’exclusion en un clic dans le contenu de votre message et que l’URL de désabonnement en un clic par défaut est décochée dans les Paramètres de configuration du canal, aucune URL ne sera transmise à l’en-tête de l’email dans le cadre de l’en-tête List Unsubscribe.
+>Si vous n’ajoutez pas de lien d’opt-out en un clic dans le contenu de votre message et que l’URL de désabonnement en un clic par défaut est décochée dans les paramètres de configuration de canal, aucune URL n’est transmise à l’en-tête de l’e-mail dans le cadre de l’en-tête de désabonnement de la liste.
 
 Pour plus d’informations sur la gestion des fonctionnalités de désabonnement dans vos messages, consultez [cette section](../email/email-opt-out.md#unsubscribe-header).
 
 ## Paramètres d’en-tête {#email-header}
 
-Dans la section **[!UICONTROL Paramètres d’en-tête]**, saisissez les noms et adresses email de l’expéditeur associés au type d’emails envoyés à l’aide de cette configuration.
+Dans la section **[!UICONTROL Paramètres d’en-tête]**, saisissez les noms de l’expéditeur ou de l’expéditrice et les adresses e-mail associées au type d’e-mails envoyés à l’aide de cette configuration.
 
 * **[!UICONTROL Nom de l’expéditeur ou de l’expéditrice]** : le nom de l’expéditeur ou de l’expéditrice, tel que le nom de votre marque.
 * **[!UICONTROL E-mail de l’expéditeur]** : adresse e-mail que vous souhaitez utiliser pour vos communications.
@@ -154,15 +154,15 @@ La boîte de réception utilisée pour les réponses recevra tous les e-mails de
 
 Pour assurer une bonne gestion des réponses, procédez comme suit :
 
-* Assurez-vous que la boîte de réception dédiée dispose de suffisamment de capacité pour recevoir tous les emails de réponse envoyés à l’aide de la configuration de l’email. Si la boîte de réception renvoie des rebonds, il se peut que certaines réponses de vos clients ne soient pas reçues.
+* Assurez-vous que la boîte de réception dédiée dispose de suffisamment de capacité pour recevoir tous les e-mails de réponse envoyés à l’aide de la configuration du canal e-mail. Si la boîte de réception renvoie des rebonds, il se peut que certaines réponses de vos clients ne soient pas reçues.
 
 * Les réponses doivent être traitées en tenant compte des obligations de confidentialité et de conformité, car elles peuvent contenir des données à caractère personnel (PII).
 
 * Ne marquez pas les messages comme spam dans la boîte de réception de réponse, car cela aura un impact sur tous les autres e-mails envoyés à cette adresse.
 
-En outre, lors de la définition de l&#39;adresse **[!UICONTROL Répondre à (email)]**, veillez à utiliser un sous-domaine ayant une configuration d&#39;enregistrement MX valide, sinon le traitement de la configuration des emails échouera.
+En outre, lors de la définition de l’adresse **[!UICONTROL Répondre à (e-mail)]**, veillez à utiliser un sous-domaine possédant une configuration d’enregistrement MX valide, sinon le traitement de configuration de canal e-mail échouera.
 
-Si vous obtenez une erreur lors de l’envoi de la configuration de l’email, cela signifie que l’enregistrement MX n’est pas configuré pour le sous-domaine de l’adresse que vous avez saisie. Contactez votre administrateur ou administratrice pour configurer l’enregistrement MX correspondant ou utilisez une autre adresse avec une configuration d’enregistrement MX valide.
+Si vous obtenez une erreur lors de l’envoi de la configuration du canal e-mail, cela signifie que l’enregistrement MX n’est pas configuré pour le sous-domaine de l’adresse que vous avez saisie. Contactez votre administrateur ou administratrice pour configurer l’enregistrement MX correspondant ou utilisez une autre adresse avec une configuration d’enregistrement MX valide.
 
 >[!NOTE]
 >
@@ -180,12 +180,12 @@ Vous devrez fournir les éléments suivants :
 
 * Adresse e-mail de transfert de votre choix. Notez que le domaine de l’adresse e-mail de transfert ne peut correspondre à aucun sous-domaine délégué à Adobe.
 * Nom de votre sandbox.
-* Nom de configuration ou sous-domaine pour lequel l’adresse électronique de transfert sera utilisée.
+* Nom de la configuration ou du sous-domaine pour qui l’adresse e-mail de transfert sera utilisée.
   <!--* The current **[!UICONTROL Reply to (email)]** address or **[!UICONTROL Error email]** address set at the channel configuration level.-->
 
 >[!NOTE]
 >
->Il ne peut y avoir qu’une seule adresse e-mail de transfert par sous-domaine. Par conséquent, si plusieurs configurations utilisent le même sous-domaine, la même adresse électronique de transfert doit être utilisée pour tous les sous-domaines.
+>Il ne peut y avoir qu’une seule adresse e-mail de transfert par sous-domaine. Par conséquent, si plusieurs configurations utilisent le même sous-domaine, la même adresse e-mail de transfert doit être utilisée pour tous les sous-domaines.
 
 L’adresse e-mail de transfert sera configurée par Adobe. Cela peut prendre 3 à 4 jours.
 
@@ -195,13 +195,13 @@ Une fois que vous avez terminé, tous les messages reçus sur les adresses **[!U
 
 Vous pouvez envoyer une copie identique (ou une copie carbone invisible) des e-mails envoyés par [!DNL Journey Optimizer] vers une boîte de réception Cci où ils seront stockés à des fins de conformité ou d’archivage.
 
-Pour ce faire, activez la fonction facultative **[!UICONTROL Email en Cci]** au niveau de la configuration du canal. [En savoir plus](../configuration/archiving-support.md#bcc-email)
+Pour ce faire, activez la fonctionnalité optionnelle **[!UICONTROL E-mail Cci]** au niveau de la configuration du canal. [En savoir plus](../configuration/archiving-support.md#bcc-email)
 
 ![](assets/preset-bcc.png)
 
-En outre, lors de la définition de l’adresse **[!UICONTROL email Cci]**, veillez à utiliser un sous-domaine ayant une configuration d’enregistrement MX valide, sinon le traitement de la configuration des emails échouera.
+En outre, lors de la définition de l’adresse **[!UICONTROL E-mail Cci]**, veillez à utiliser un sous-domaine possédant une configuration d’enregistrement MX valide, sinon le traitement de configuration du canal e-mail échouera.
 
-Si vous obtenez une erreur lors de l’envoi de la configuration de l’email, cela signifie que l’enregistrement MX n’est pas configuré pour le sous-domaine de l’adresse que vous avez saisie. Contactez votre administrateur ou administratrice pour configurer l’enregistrement MX correspondant ou utilisez une autre adresse avec une configuration d’enregistrement MX valide.
+Si vous obtenez une erreur lors de l’envoi de la configuration du canal e-mail, cela signifie que l’enregistrement MX n’est pas configuré pour le sous-domaine de l’adresse que vous avez saisie. Contactez votre administrateur ou administratrice pour configurer l’enregistrement MX correspondant ou utilisez une autre adresse avec une configuration d’enregistrement MX valide.
 
 ## Envoyer à des adresses e-mail supprimées {#send-to-suppressed-email-addresses}
 
@@ -231,7 +231,7 @@ Pour inclure les adresses e-mail supprimées en raison d’une plainte relative 
 
 Cette option est une bonne pratique en matière de délivrabilité. Elle est désactivée par défaut pour garantir que les clientes et clients qui se sont désinscrits ne soient pas contactés. Vous pouvez toutefois modifier cette option par défaut, qui vous permet ensuite d’envoyer des messages transactionnels à vos clientes et clients.
 
-Une fois cette option activée, bien qu’un client ait marqué votre email marketing comme indésirable, ce client pourra recevoir vos messages transactionnels à l’aide de la configuration actuelle. Veillez toujours à gérer les préférences de désinscription conformément aux bonnes pratiques en matière de délivrabilité.
+Une fois cette option activée, même si un client ou une cliente a marqué votre e-mail marketing comme indésirable, cette personne pourra recevoir vos messages transactionnels à l’aide de la configuration actuelle. Veillez toujours à gérer les préférences de désinscription conformément aux bonnes pratiques en matière de délivrabilité.
 
 ## Liste de contrôle {#seed-list}
 
@@ -255,7 +255,7 @@ Sélectionnez la liste qui vous intéresse dans la section **[!UICONTROL Liste d
 >
 >Une seule liste de contrôle peut être sélectionnée à la fois.
 
-Lorsque la configuration actuelle est utilisée dans une opération ou un parcours, les adresses email de la liste de contrôle sélectionnée sont incluses au moment de l&#39;exécution de la diffusion, ce qui signifie qu&#39;elles recevront une copie de la diffusion à des fins d&#39;assurance.
+Lorsque la configuration actuelle est utilisée dans une campagne ou un parcours, les adresses e-mail de la liste de contrôle sélectionnée sont incluses au moment de l’exécution de la diffusion, ce qui signifie qu’elles recevront une copie de la diffusion à des fins de vérification.
 
 Découvrez comment utiliser la liste de contrôle dans une campagne ou un parcours dans [cette section](../configuration/seed-lists.md#use-seed-list).
 
@@ -339,4 +339,4 @@ Vous pouvez prévisualiser de manière dynamique l’URL de tracking obtenue. Ch
 
 >[!NOTE]
 >
->Vous pouvez également ajouter des paramètres de suivi personnalisé dynamique aux liens présents dans le contenu de votre email, mais cela n&#39;est pas possible au niveau de la configuration. Vous devez le faire lors de la création de votre message à l’aide du concepteur d’e-mail. [En savoir plus](message-tracking.md#url-tracking).
+>Vous pouvez également ajouter des paramètres de suivi personnalisés et dynamiques aux liens présents dans le contenu de votre e-mail, mais cela n’est pas possible au niveau de la configuration. Vous devez le faire lors de la création de votre message à l’aide du concepteur d’e-mail. [En savoir plus](message-tracking.md#url-tracking).

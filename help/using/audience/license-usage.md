@@ -9,15 +9,15 @@ role: User
 level: Beginner
 exl-id: 7e91face-c8f4-4e70-9123-9e36bae7e67e
 source-git-commit: 428e08ca712724cb0b3453681bee1c7e86ce49dc
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '148'
-ht-degree: 47%
+ht-degree: 100%
 
 ---
 
 # Tableau de bord d’utilisation des licences {#license-usage}
 
-L’ [!DNL Adobe Journey Optimizer] [interface utilisateur](../start/user-interface.md) fournit un tableau de bord qui affiche des informations importantes sur l’utilisation de la licence de votre entreprise, telles qu’elles sont capturées pendant un instantané quotidien.
+L’[interface d’utilisation](../start/user-interface.md) d’[!DNL Adobe Journey Optimizer] fournit un tableau de bord qui affiche des informations importantes sur l’utilisation des licences de votre entreprise, telles qu’elles sont capturées lors d’un instantané quotidien.
 
 Pour accéder à ce tableau de bord, accédez à **[!UICONTROL Administration]** > **[!UICONTROL Utilisation de la licence]**. L’onglet **[!UICONTROL Vue d’ensemble]** du tableau de bord s’ouvre alors.
 
@@ -27,7 +27,7 @@ Pour accéder à ce tableau de bord, accédez à **[!UICONTROL Administration]**
 >
 >Pour pouvoir consulter le tableau de bord, l’autorisation [Afficher le tableau de bord d’utilisation des licences](https://experienceleague.adobe.com/docs/experience-platform/dashboards/permissions.html?lang=fr#available-permissions){target="_blank"} doit vous avoir été accordée.
 
-Pour [!DNL Adobe Journey Optimizer], vous pouvez vérifier le nombre de **profils activables** dans ce tableau de bord. Un profil engageant est un enregistrement d’informations représentant un individu et est représenté dans le service de profil. Ces enregistrements sont des profils avec lesquels vous avez tenté d’interagir à l’aide des fonctionnalités de création, de prise de décision, de diffusion, d’expérimentation ou d’orchestration de Journey Optimizer au cours des 12 derniers mois.
+Pour [!DNL Adobe Journey Optimizer], vous pouvez vérifier le nombre de **profils engageables** dans ce tableau de bord. Un profil engageable est un enregistrement d’informations représentant une personne et est représenté dans le service de profil. Ces enregistrements sont des profils avec lesquels vous avez tenté d’interagir à l’aide des fonctionnalités de création, de prise de décision, de diffusion, d’expérimentation ou d’orchestration de Journey Optimizer au cours des 12 derniers mois.
 
 Pour en savoir plus, consultez la documentation Adobe Experience Platform :
 

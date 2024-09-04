@@ -1,8 +1,8 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Configuration des configurations de canal
-description: Découvrez comment configurer et surveiller les configurations de canal
+title: Paramétrer des configurations de canal
+description: Découvrir comment configurer et surveiller les configurations des canaux
 feature: Surface, Channel Configuration
 topic: Administration
 role: Admin
@@ -10,60 +10,60 @@ level: Experienced
 keywords: canal, surface, technique, paramètres, optimizer
 exl-id: 9038528f-3da0-4e0e-9b82-b72c67b42391
 source-git-commit: 8fb87d2e2085d98dd8b014df6aa4d734bab4e997
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1721'
-ht-degree: 37%
+ht-degree: 100%
 
 ---
 
-# Configuration des configurations de canal {#set-up-channel-surfaces}
+# Paramétrer des configurations de canal {#set-up-channel-surfaces}
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_channel_surfaces"
->title="Configuration de canal"
->abstract="Une configuration de canal est une configuration qui a été définie par un administrateur système. Elle contient tous les paramètres techniques relatifs à l’envoi du message, tels que les paramètres d’en-tête, le sous-domaine, les applications mobiles, etc."
+>title="Configuration des canaux"
+>abstract="Une configuration des canaux est une configuration définie par l’équipe d’administration système. Elle contient tous les paramètres techniques relatifs à l’envoi du message, tels que les paramètres d’en-tête, le sous-domaine, les applications mobiles, etc."
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_marketing_action"
 >title="Action marketing"
->abstract="Sélectionnez les actions marketing pour lier les stratégies de consentement aux messages à l’aide de cette configuration. Toutes les stratégies de consentement liées à l’action marketing seront utilisées pour respecter les préférences de vos clients."
+>abstract="Sélectionnez les Actions marketing pour associer des politiques de consentement aux messages utilisant cette configuration. Toutes les politiques de consentement liées à l’action marketing seront utilisées pour respecter les préférences de vos clientes et clients."
 
-Avec [!DNL Journey Optimizer], vous pouvez configurer des configurations de canal (c’est-à-dire des paramètres prédéfinis de message) qui définissent tous les paramètres techniques requis pour vos messages : type d’email, nom et adresse email de l’expéditeur, applications mobiles, configuration des SMS, etc.
+Avec [!DNL Journey Optimizer], vous pouvez paramétrer des configurations de canal (c’est-à-dire des paramètres prédéfinis de message) qui définissent tous les paramètres techniques requis pour vos messages : type d’e-mail, nom et adresse e-mail de l’expéditeur ou de l’expéditrice, applications mobiles, configuration des SMS, etc.
 
 >[!CAUTION]
 >
 > * Pour créer, modifier et supprimer des configurations de canal, vous devez disposer de l’autorisation [Gérer les paramètres prédéfinis de message](../administration/high-low-permissions.md#administration-permissions).
 >
-> * Vous devez effectuer les étapes [Configuration des emails](../email/get-started-email-config.md), [Configuration push](../push/push-configuration.md), [Configuration des SMS](../sms/sms-configuration.md), [Configuration In-App](../in-app/inapp-configuration.md), [Configuration basée sur le code](../code-based/code-based-configuration.md), [Configuration web](../web/web-configuration.md) et [Configuration du courrier](../direct-mail/direct-mail-configuration.md) avant de créer des configurations de canal.
+> * Vous devez effectuer les étapes [Configuration du canal e-mail](../email/get-started-email-config.md), [Configuration des notifications push](../push/push-configuration.md), [Configuration des SMS](../sms/sms-configuration.md), [Configuration in-app](../in-app/inapp-configuration.md), [Configuration basée sur le code](../code-based/code-based-configuration.md), [Configuration web](../web/web-configuration.md) et [Configuration du courrier](../direct-mail/direct-mail-configuration.md) avant de créer des configurations de canal.
 
-Une fois les configurations de canal configurées, vous pourrez les sélectionner lors de la création de messages à partir d&#39;un parcours ou d&#39;une campagne.
+Une fois les configurations de canal paramétrées, vous pourrez les sélectionner lors de la création de messages à partir d’un parcours ou d’une campagne.
 
-Vous pouvez également utiliser la configuration de canal assistée pour automatiser et valider la configuration de canal dans une expérience unifiée, ce qui accélère le processus de prise en main de Journey Optimizer. [En savoir plus](set-mobile-config.md)
+Vous pouvez également utiliser la configuration de canal guidée pour automatiser et valider la configuration de canal dans une expérience unifiée, ce qui accélère le processus de prise en main de Journey Optimizer. [En savoir plus](set-mobile-config.md)
 
 <!--
 ➡️ [Learn how to create and use email configurations in this video](#video-presets)
 -->
 
-## Création d’une configuration de canal {#create-channel-surface}
+## Créer une configuration des canaux {#create-channel-surface}
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_message_presets_header"
->title="Paramètres de configuration des canaux"
->abstract="Lors de la configuration d’un canal, sélectionnez le canal auquel il s’applique et définissez tous les paramètres techniques requis pour votre envoi, tels que le type d’email, le nom de l’expéditeur, les applications mobiles, la configuration des SMS, etc."
+>title="Paramètres de la configuration des canaux"
+>abstract="Lors du paramétrage d’une configuration de canal, sélectionnez le canal auquel elle s’applique et définissez tous les paramètres techniques obligatoires pour vos envois, tels que le type d’e-mail, le nom de l’expéditeur ou de l’expéditrice, les applications mobiles, la configuration des SMS, etc."
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_message_presets"
->title="Paramètres de configuration des canaux"
->abstract="Pour pouvoir créer des actions telles que des emails provenant d&#39;un parcours ou d&#39;une campagne, vous devez d&#39;abord créer une configuration de canal qui définit tous les paramètres techniques requis pour vos messages. Vous devez disposer de l’autorisation Gérer les paramètres prédéfinis de message pour créer, modifier et supprimer des configurations de canal."
+>title="Paramètres de la configuration des canaux"
+>abstract="Pour pouvoir créer des actions telles que des e-mails provenant d’un parcours ou d’une campagne, vous devez d’abord créer une configuration de canal qui définit tous les paramètres techniques requis pour vos messages. Vous devez disposer de l’autorisation Gérer les paramètres prédéfinis de message pour créer, modifier et supprimer les configurations de canal."
 
 >[!CONTEXTUALHELP]
 >id="ajo_surface_marketing_action"
 >title="Sélectionner une action marketing"
->abstract="Sélectionnez une action marketing dans la configuration afin d’associer une stratégie de consentement au message."
+>abstract="Choisissez une action marketing dans la configuration pour pouvoir associer une politique de consentement au message."
 
-Pour créer une configuration de canal, procédez comme suit :
+Pour créer une configuration des canaux, procédez comme suit :
 
-1. Accédez au menu **[!UICONTROL Canaux]** > **[!UICONTROL Paramètres généraux]** > **[!UICONTROL Configurations de canaux]** , puis cliquez sur **[!UICONTROL Créer une configuration de canal]**.
+1. Accédez au menu **[!UICONTROL Canaux]** > **[!UICONTROL Paramètres généraux]** > **[!UICONTROL Configurations des canaux]**, puis cliquez sur **[!UICONTROL Créer une configuration de canal]**.
 
    ![](assets/preset-create.png)
 
@@ -79,7 +79,7 @@ Pour créer une configuration de canal, procédez comme suit :
 
 1. Sélectionnez votre canal.
 
-1. Sélectionnez **[!UICONTROL Action marketing]** pour associer les stratégies de consentement aux messages utilisant cette configuration. Toutes les stratégies de consentement associées à l’action marketing sont exploitées afin de respecter les préférences de vos clients. [En savoir plus](../action/consent.md#surface-marketing-actions)
+1. Sélectionnez une **[!UICONTROL Action marketing]** ou plusieurs pour associer des politiques de consentement aux messages utilisant cette configuration. Toutes les politiques de consentement associées à cette action marketing sont utilisées afin de respecter les préférences de vos clientes et clients. [En savoir plus](../action/consent.md#surface-marketing-actions)
 
    >[!NOTE]
    >
@@ -87,25 +87,25 @@ Pour créer une configuration de canal, procédez comme suit :
 
    ![](assets/surface-marketing-action.png)
 
-1. Une fois tous les paramètres configurés, cliquez sur **[!UICONTROL Envoyer]** pour confirmer. Vous pouvez également enregistrer la configuration du canal en tant que version préliminaire et reprendre sa configuration ultérieurement.
+1. Une fois tous les paramètres configurés, cliquez sur **[!UICONTROL Envoyer]** pour confirmer. Vous pouvez également enregistrer la configuration de canal en tant que brouillon et reprendre son paramétrage ultérieurement.
 
    ![](assets/preset-submit.png)
 
    >[!NOTE]
    >
-   >Vous ne pouvez pas procéder à la création de la configuration de l’email lorsque le pool d’adresses IP sélectionné se trouve sous l’état [edition](ip-pools.md#edit-ip-pool) (**[!UICONTROL état de traitement]**) et n’a jamais été associé au sous-domaine sélectionné. [En savoir plus](#subdomains-and-ip-pools)
+   >Vous ne pouvez pas poursuivre la création de la configuration du canal e-mail lorsque le groupe d’adresses IP sélectionné est en cours d’[édition](ip-pools.md#edit-ip-pool) (statut **[!UICONTROL Traitement en cours]**) et n’a jamais été associé au sous-domaine sélectionné. [En savoir plus](#subdomains-and-ip-pools)
    >
-   >Enregistrez la configuration en tant que brouillon et attendez que le pool IP ait l’état **[!UICONTROL Success]** pour reprendre la création de la configuration.
+   >Enregistrez la configuration en tant que brouillon et attendez que le groupe d’adresses IP ait le statut **[!UICONTROL Succès]** pour reprendre la création de la configuration.
 
-1. Une fois la configuration de canal créée, elle s’affiche dans la liste avec le statut **[!UICONTROL Traitement]**.
+1. Une fois la configuration de canal créée, elle s’affiche dans la liste avec le statut **[!UICONTROL En cours de traitement]**.
 
    Au cours de cette étape, plusieurs vérifications seront effectuées afin de vérifier que la configuration est correcte.<!--The processing time is around **48h-72h**, and can take up to **7-10 business days**.-->
 
    >[!NOTE]
-   > Lors de la création d’une configuration de courrier électronique pour un sous-domaine, le temps de traitement varie comme décrit ci-dessous :
+   > Lors de la création d’une configuration du canal e-mail pour un sous-domaine, le temps de traitement varie comme décrit ci-dessous :
    >
-   > * Pour **nouveaux sous-domaines**, le processus de création de la première configuration de canal peut prendre **10 min à 10 jours**.
-   > * Pour les **environnements de test hors production**, ou si le sous-domaine sélectionné est **déjà utilisé** dans une autre configuration de canal approuvée, le processus ne prend que **3 heures**.
+   > * Pour les **nouveaux sous-domaines**, le processus de création de la première surface de canal peut prendre entre **10 minutes et 10 jours**.
+   > * Pour les **sandbox hors production**, ou si le sous-domaine sélectionné est **déjà utilisé** dans une autre configuration de canal approuvée, le processus ne prend que **3 heures** au maximum.
 
 
    Ces vérifications comprennent des tests de configuration et des tests techniques effectués par l’équipe dʼAdobe :
@@ -117,31 +117,31 @@ Pour créer une configuration de canal, procédez comme suit :
    * Vérification de l&#39;hôte Helo
    * Vérification du pool d&#39;adresses IP
    * Enregistrement A/PTR, vérification du sous-domaine t/m/res
-   * Enregistrement FBL (cette vérification ne sera effectuée que la première fois qu’une configuration d’email est créée pour un sous-domaine donné)
+   * Enregistrement FBL (cette vérification ne sera effectuée que la première fois qu’une configuration de canal e-mail est créée pour un sous-domaine donné).
 
    >[!NOTE]
    >
    >Si les vérifications ne réussissent pas, découvrez les raisons possibles de l’échec dans [cette section](#monitor-channel-surfaces).
 
-1. Une fois les vérifications effectuées, la configuration du canal obtient l’état **[!UICONTROL Active]** . Elle est prête à être utilisée pour diffuser des messages.
+1. Une fois les vérifications effectuées, la configuration de canal obtient le statut **[!UICONTROL Actif]**. Elle est prête à être utilisée pour diffuser des messages.
 
    ![](assets/preset-active.png)
 
-## Surveillance des configurations de canal {#monitor-channel-surfaces}
+## Surveiller les configurations de canal {#monitor-channel-surfaces}
 
-Toutes les configurations de canal s’affichent dans le menu **[!UICONTROL Canaux]** > **[!UICONTROL Configurations de canal]** . Des filtres sont disponibles pour vous aider à parcourir la liste (canal, utilisateur, statut).
+Toutes les configurations de vos canaux s’affichent dans le menu **[!UICONTROL Canaux]** > **[!UICONTROL Configurations des canaux]**. Des filtres sont disponibles pour vous aider à parcourir la liste (canal, utilisateur ou utilisatrice, statut).
 
 ![](assets/preset-filters.png)
 
-Une fois créées, les configurations de canal peuvent avoir les états suivants :
+Une fois créées, les configurations de canaux peuvent avoir les statuts suivants :
 
-* **[!UICONTROL Version préliminaire]** : la configuration du canal a été enregistrée en tant que version préliminaire et n’a pas encore été envoyée. Ouvrez-le pour reprendre la configuration.
-* **[!UICONTROL Traitement]** : la configuration du canal a été envoyée et passe par plusieurs étapes de vérification.
-* **[!UICONTROL Actif]** : la configuration du canal a été vérifiée et peut être sélectionnée pour créer des messages.
-* **[!UICONTROL Échec]** : une ou plusieurs vérifications ont échoué lors de la vérification de la configuration du canal.
-* **[!UICONTROL Désactivé]** : la configuration du canal est désactivée. Elle ne peut pas être utilisée pour créer de nouveaux messages.
+* **[!UICONTROL Brouillon]** : la configuration de canal a été enregistrée en tant que brouillon et n’a pas encore été envoyée. Ouvrez-la pour reprendre la configuration.
+* **[!UICONTROL En cours de traitement]** : la configuration de canal a été envoyée et passe par plusieurs étapes de vérification.
+* **[!UICONTROL Actif]** : la configuration de canal a été vérifiée et peut être sélectionnée pour créer des messages.
+* **[!UICONTROL Échec]** : une ou plusieurs vérifications ont échoué lors de la vérification de la configuration de canal.
+* **[!UICONTROL Désactivé]** : la configuration de canal est désactivée. Elle ne peut pas être utilisée pour créer des messages.
 
-En cas d’échec de la création d’une configuration de canal, les détails sur chaque raison d’échec possible sont décrits ci-dessous.
+En cas d’échec de la création d’une configuration de canal, les détails de chaque raison d’échec possible sont décrits ci-dessous.
 
 Si l’une de ces erreurs se produit, contactez l’[assistance clientèle d’Adobe](https://helpx.adobe.com/fr/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){target="_blank"} pour obtenir de l’aide.
 
@@ -154,18 +154,18 @@ Si l’une de ces erreurs se produit, contactez l’[assistance clientèle d’A
 * **Échec des configurations de délivrabilité** : l’échec des configurations de délivrabilité peut être dû à l’une des raisons suivantes :
    * Placement sur liste bloquée des adresses IP allouées
    * Nom `helo` non valide
-   * Emails envoyés depuis des adresses IP autres que celles spécifiées dans le pool IP de la configuration correspondante
+   * E-mails envoyés à partir d’adresses IP autres que celles spécifiées dans le groupe d’adresses IP de la configuration correspondante
    * Impossible de diffuser des e-mails vers les boîtes de réception des principaux FAI
 
-## Modification de la configuration d’un canal {#edit-channel-surface}
+## Modifier une configuration de canal {#edit-channel-surface}
 
-Pour modifier la configuration d’un canal, procédez comme suit.
+Pour modifier une configuration de canal, procédez comme suit.
 
 >[!NOTE]
 >
->Vous ne pouvez pas modifier les **[!UICONTROL Paramètres des notifications push]**. Si une configuration de canal n’est configurée que pour le canal Notification push, elle n’est pas modifiable.
+>Vous ne pouvez pas modifier les **[!UICONTROL Paramètres des notifications push]**. Si une configuration de canal est uniquement paramétrée pour le canal Notification push, elle n’est pas modifiable.
 
-1. Dans la liste, cliquez sur le nom d’une configuration de canal pour l’ouvrir.
+1. Dans la liste, cliquez sur un nom de configuration de canal pour l’ouvrir.
 
    ![](assets/preset-name.png)
 
@@ -173,15 +173,15 @@ Pour modifier la configuration d’un canal, procédez comme suit.
 
    >[!NOTE]
    >
-   >Si une configuration de canal a l’état **[!UICONTROL Active]** , les champs **[!UICONTROL Name]**, **[!UICONTROL Select channel]** et **[!UICONTROL Subdomain]** sont grisés et ne peuvent pas être modifiés.
+   >Si une configuration de canal affiche le statut **[!UICONTROL Actif]**, les champs **[!UICONTROL Nom]**, **[!UICONTROL Sélectionner le canal]** et **[!UICONTROL Sous-domaine]** sont grisés et ne peuvent pas être modifiés.
 
 1. Cliquez sur **[!UICONTROL Soumettre]** pour confirmer vos modifications.
 
    >[!NOTE]
    >
-   >Vous pouvez également enregistrer la configuration du canal en tant que version préliminaire et reprendre la mise à jour ultérieurement.
+   >Vous pouvez également enregistrer la configuration de canal en tant que brouillon et reprendre sa mise à jour ultérieurement.
 
-Une fois les modifications envoyées, la configuration du canal passe par un cycle de validation similaire à celui en place lors de la [création d’une configuration de canal](#create-channel-surface). Le temps de traitement des modifications peut prendre jusqu’à **3 heures**.
+Une fois les modifications envoyées, la configuration de canal passera par un cycle de validation similaire à celui mis en place lors de la [création d’une configuration de canal](#create-channel-surface). Le temps de traitement des modifications peut prendre jusqu’à **3 heures**.
 
 >[!NOTE]
 >
@@ -189,9 +189,9 @@ Une fois les modifications envoyées, la configuration du canal passe par un cyc
 
 ### Détails de la mise à jour {#update-details}
 
-Pour les configurations de canal ayant l’état **[!UICONTROL Actif]**, vous pouvez vérifier les détails de la mise à jour. Pour ce faire, procédez comme suit :
+Pour les configurations de canal affichant le statut **[!UICONTROL Actif]**, vous pouvez vérifier les détails de la mise à jour. Pour ce faire, procédez comme suit :
 
-Cliquez sur l’icône **[!UICONTROL Mise à jour récente]** affichée en regard du nom de la configuration active.
+Cliquez sur l’icône **[!UICONTROL Mise à jour récente]** qui s’affiche en regard du nom de la configuration active.
 
 ![](assets/preset-recent-update-icon.png)
 
@@ -203,11 +203,11 @@ Sur l’écran **[!UICONTROL Mise à jour récente]**, vous pouvez voir des info
 
 ### Statuts de mise à jour {#update-statuses}
 
-Une mise à jour de configuration de canal peut avoir les états suivants :
+Une mise à jour de configuration de canal peut afficher les statuts suivants :
 
-* **[!UICONTROL Traitement]** : la mise à jour de la configuration du canal a été envoyée et passe par plusieurs étapes de vérification.
-* **[!UICONTROL Success]** : la configuration mise à jour du canal a été vérifiée et peut être sélectionnée pour créer des messages.
-* **[!UICONTROL Échec]** : une ou plusieurs vérifications ont échoué lors de la vérification de la mise à jour de la configuration du canal.
+* **[!UICONTROL Traitement]** : la mise à jour de configuration de canal a été envoyée et passe par plusieurs étapes de vérification.
+* **[!UICONTROL Succès]** : la configuration de canal mise à jour a été vérifiée et peut être sélectionnée pour créer des messages.
+* **[!UICONTROL Échec]** : un ou plusieurs contrôles ont échoué lors de la vérification de la mise à jour de la configuration de canal.
 
 Chaque statut est présenté ci-dessous.
 
@@ -221,17 +221,17 @@ Plusieurs contrôles de délivrabilité seront effectués pour vérifier que la 
 
 Le temps de traitement peut prendre jusqu’à **3 heures**. En savoir plus sur les contrôles effectués lors du cycle de validation dans [cette section](#create-channel-surface).
 
-Si vous modifiez une configuration déjà active :
+Si vous modifiez une configuration qui était déjà active, ce qui suit s’applique :
 
 * Son statut reste **[!UICONTROL Actif]** pendant que le processus de validation est en cours.
 
-* L’icône **[!UICONTROL Mise à jour récente]** s’affiche en regard du nom de la configuration dans la liste des configurations de canal.
+* L’icône **[!UICONTROL Mise à jour récente]** s’affiche en regard du nom de la configuration dans la liste des configurations de canaux.
 
-* Pendant le processus de validation, les messages configurés à l&#39;aide de cette configuration utilisent toujours l&#39;ancienne version de la configuration.
+* Pendant le processus de validation, les messages configurés à l’aide de cette configuration utilisent toujours l’ancienne version de la configuration.
 
 >[!NOTE]
 >
->Vous ne pouvez pas modifier la configuration d’un canal alors que la mise à jour est en cours. Vous pouvez toujours cliquer sur son nom, mais tous les champs sont grisés. Les modifications ne seront pas répercutées tant que la mise à jour n’aura pas réussi.
+>Vous ne pouvez pas modifier une configuration de canal pendant que la mise à jour est en cours. Vous pouvez toujours cliquer sur son nom, mais tous les champs sont grisés. Les modifications ne seront pas répercutées tant que la mise à jour n’aura pas réussi.
 
 #### Réussite {#success}
 
@@ -241,23 +241,23 @@ Une fois le processus de validation réussi, la nouvelle version de la configura
 
 #### Échec {#failed}
 
-Si le processus de validation échoue, l’ancienne version de la configuration est toujours utilisée.
+Si le processus de validation échoue, l’ancienne version de la configuration continuera d’être utilisée.
 
 Pour en savoir plus sur les causes possibles d’échec, consultez [cette section](#monitor-channel-surfaces).
 
-En cas d’échec de la mise à jour, la configuration devient à nouveau modifiable. Vous pouvez cliquer sur son nom et mettre à jour les paramètres à corriger.
+En cas d’échec de la mise à jour, la configuration est à nouveau modifiable. Vous pouvez cliquer sur son nom et mettre à jour les paramètres à corriger.
 
-## Désactivation de la configuration d’un canal {#deactivate-a-surface}
+## Désactiver une configuration de canal {#deactivate-a-surface}
 
-Pour rendre une configuration de canal **[!UICONTROL Active]** indisponible pour créer de nouveaux messages, vous pouvez la désactiver. Toutefois, les messages des parcours utilisant actuellement cette configuration ne seront pas affectés et continueront à fonctionner.
+Pour empêcher la création de nouveaux messages à partir d’une configuration de canal **[!UICONTROL active]**, vous pouvez la désactiver. Toutefois, les messages des parcours qui utilisent actuellement cette configuration ne seront pas affectés et continueront à fonctionner.
 
 >[!NOTE]
 >
->Vous ne pouvez pas désactiver la configuration d’un canal pendant le traitement d’une mise à jour. Vous devez attendre que la mise à jour soit réussie ou qu’elle ait échoué. En savoir plus sur la [modification des configurations de canal](#edit-channel-surface) et sur les [états de mise à jour](#update-statuses).
+>Vous ne pouvez pas désactiver une configuration de canal lorsqu’une mise à jour est en cours. Vous devez attendre que la mise à jour soit réussie ou qu’elle ait échoué. En savoir plus sur la [modification des configurations de canaux](#edit-channel-surface) et sur les [statuts de mise à jour](#update-statuses).
 
-1. Accédez à la liste des configurations de canal.
+1. Accédez à la liste des configurations de canaux.
 
-1. Pour la configuration active de votre choix, cliquez sur le bouton **[!UICONTROL Autres actions]** .
+1. Pour la configuration active de votre choix, cliquez sur le bouton **[!UICONTROL Plus d’actions]**.
 
 1. Sélectionnez **[!UICONTROL Désactiver]**.
 
@@ -265,9 +265,9 @@ Pour rendre une configuration de canal **[!UICONTROL Active]** indisponible pour
 
 >[!NOTE]
 >
->Les configurations de canal désactivées ne peuvent pas être supprimées pour éviter tout problème dans les parcours utilisant ces configurations pour envoyer des messages.
+>Une fois désactivées, les configurations de canaux ne peuvent pas être supprimées pour éviter tout problème dans les parcours les utilisant pour l’envoi des messages.
 
-Vous ne pouvez pas modifier directement la configuration d’un canal désactivé. Cependant, vous pouvez le dupliquer et modifier la copie pour créer une nouvelle version que vous utiliserez pour créer de nouveaux messages. Vous pouvez également l’activer à nouveau et attendre que la mise à jour soit réussie pour le modifier.
+Vous ne pouvez pas modifier directement une configuration de canal désactivée. Cependant, vous pouvez le dupliquer et modifier la copie pour créer une nouvelle version que vous utiliserez pour créer de nouveaux messages. Vous pouvez également l’activer à nouveau et attendre que la mise à jour soit réussie pour le modifier.
 
 ![](assets/preset-activate.png)
 

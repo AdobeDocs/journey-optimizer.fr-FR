@@ -9,17 +9,17 @@ role: User
 level: Intermediate
 exl-id: 0855ca5b-c7af-41c4-ad51-bed820ae5ecf
 source-git-commit: 428e08ca712724cb0b3453681bee1c7e86ce49dc
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '606'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
 # Prise en main des alertes {#alerts}
 
-Lors de la création de vos parcours et campagnes, utilisez le bouton **Alertes** pour vérifier et résoudre les erreurs avant de les exécuter ou de les publier. Découvrez comment résoudre les problèmes liés à vos parcours dans [cette page](../building-journeys/troubleshooting.md). Découvrez comment passer en revue vos campagnes dans [cette page](../campaigns/review-activate-campaign.md).
+Lors de la création de vos parcours et campagnes, utilisez le bouton **Alertes** pour vérifier et résoudre les erreurs avant de les exécuter ou de les publier. Découvrez comment résoudre les problèmes de vos parcours sur [cette page](../building-journeys/troubleshooting.md). Découvrez comment réviser vos campagnes sur [cette page](../campaigns/review-activate-campaign.md).
 
-Vous pouvez également vous abonner à des alertes système Adobe Journey Optimizer, comme décrit dans cette page.
+Vous pouvez également vous abonner à des alertes système Adobe Journey Optimizer, comme décrit dans cette page.
 
 ## Accéder et s’abonner aux alertes {#alerting-capabilities}
 
@@ -93,4 +93,4 @@ Pour résoudre les alertes **Action personnalisée** :
 
 * Vérifiez vos événements stepEvents de parcours pour obtenir plus d’informations sur « failureReason ».
 
-* Vérifiez votre configuration d’action personnalisée et que l’authentification est toujours correcte. Effectuez une vérification manuelle avec Postman, par exemple.
+* Vérifiez votre configuration d’action personnalisée et que l’authentification est toujours correcte. Effectuez un contrôle manuel avec Postman, par exemple.

@@ -8,9 +8,9 @@ level: Beginner
 keywords: in-app, message, création, commencer
 exl-id: 5a67177e-a7cf-41a8-9e7d-37f7fe3d34dc
 source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '634'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -24,15 +24,15 @@ Pour configurer votre canal web in-app, procédez comme suit :
 
 * Personnalisez vos déclencheurs. La messagerie web in-app prend en charge deux types de déclencheurs : Envoi de données à la plateforme et Déclencheurs manuels. [En savoir plus](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/ajo/web-in-app-messaging.html?lang=fr)
 
-* Créez votre configuration Web In-App. [En savoir plus](inapp-configuration.md)
+* Créez votre configuration in-app web. [En savoir plus](inapp-configuration.md)
 
 ## Créer votre campagne de messages web in-app {#create-inapp-web-campaign}
 
 1. Accédez au menu **[!UICONTROL Campagnes]**, puis cliquez sur **[!UICONTROL Créer une campagne]**.
 
-1. Choisissez le type d&#39;exécution de la campagne : planifiée ou déclenchée par l&#39;API. Pour en savoir plus sur les types de campagne, consultez [cette page](../campaigns/create-campaign.md#campaigntype).
+1. Choisissez le type d’exécution de la campagne : planifiée ou déclenchée par l’API. Pour en savoir plus sur les types de campagne, consultez [cette page](../campaigns/create-campaign.md#campaigntype).
 
-1. Dans la liste déroulante **[!UICONTROL Actions]**, sélectionnez le **[!UICONTROL message in-app]**.
+1. Dans le menu déroulant **[!UICONTROL Actions]**, choisissez le **[!UICONTROL Message in-app]**.
 
    ![](assets/in_app_web_surface_1.png)
 
@@ -50,7 +50,7 @@ Pour configurer votre canal web in-app, procédez comme suit :
 
 1. Dans le champ **[!UICONTROL Espace de noms d’identité]**, choisissez l’espace de noms à utiliser pour identifier les personnes à partir de l’audience sélectionnée. [En savoir plus](../event/about-creating.md#select-the-namespace).
 
-1. Dans le menu **[!UICONTROL Action]**, vous pouvez trouver les paramètres précédemment configurés en tant que **[!UICONTROL Configuration de l&#39;application]**. Vous pouvez y apporter des modifications si nécessaire ou mettre à jour votre règle en cliquant sur **[!UICONTROL Modifier la règle]**.
+1. Dans le menu **[!UICONTROL Action]**, vous trouverez les paramètres précédemment configurés comme **[!UICONTROL configuration de l’application]**. Vous pouvez y apporter des modifications si nécessaire ou mettre à jour votre règle en cliquant sur **[!UICONTROL Modifier la règle]**.
 
 1. Cliquez sur **[!UICONTROL Créer une expérience]** pour commencer à configurer votre expérience de contenu et créer des traitements afin de mesurer leurs performances et d’identifier la meilleure option pour votre audience cible. [En savoir plus](../content-management/content-experiment.md).
 

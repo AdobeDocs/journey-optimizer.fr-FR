@@ -10,9 +10,9 @@ level: Intermediate
 keywords: IP, groupes, délivrabilité
 exl-id: a9995ca1-d7eb-4f8d-a9d9-fe56198ac325
 source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '423'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
@@ -27,11 +27,11 @@ Avant de créer le plan de préchauffage d’adresses IP dans [!DNL Journey Opti
 
 Pour créer une campagne de préchauffage d’adresses IP, suivez les étapes ci-dessous.
 
-1. Créez un canal [email](../email/email-settings.md) [configuration](channel-surfaces.md) pour le domaine et les adresses IP que vous avez identifiées pour votre plan de chauffage.
+1. Créez une [configuration](channel-surfaces.md) de canal [e-mail](../email/email-settings.md) pour le domaine et les adresses IP que vous avez identifiés pour votre plan de préchauffage.
 
    >[!NOTE]
    >
-   >Découvrez comment sélectionner le domaine et les adresses IP à utiliser dans une configuration d&#39;email dans [cette section](../email/email-settings.md#subdomains-and-ip-pools).
+   >Découvrez comment sélectionner le domaine et les adresses IP à utiliser dans une configuration du canal e-mail dans [cette section](../email/email-settings.md#subdomains-and-ip-pools).
    >
    >* Contactez votre conseiller ou conseillère en délivrabilité pour identifier le domaine et les adresses IP à utiliser pour votre plan de préchauffage d’adresses IP.<!--TBC-->
 
@@ -39,7 +39,7 @@ Pour créer une campagne de préchauffage d’adresses IP, suivez les étapes ci
 
    <!--Select the Marketing category. The IP warmup plan activation option is only available for  marketing-type campaigns.-->
 
-1. Sélectionnez la configuration que vous avez créée pour le réchauffement des adresses IP.
+1. Sélectionnez la configuration que vous avez créée pour le préchauffage d’adresses IP.
 
    ![](assets/ip-warmup-campaign-surface.png)
 

@@ -1,8 +1,8 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Personnalisation des paramètres de configuration des emails
-description: Découvrez comment définir des valeurs personnalisées pour vos paramètres au niveau de la configuration du canal email
+title: Personnaliser les paramètres de configuration du canal e-mail
+description: Découvrir comment définir des valeurs personnalisées pour vos paramètres au niveau de la configuration de canal e-mail
 feature: Surface, Subdomains
 topic: Administration
 role: Admin
@@ -11,19 +11,19 @@ keywords: paramètres, e-mail, configuration, sous-domaine
 badge: label="Disponibilité limitée"
 exl-id: 1e004a76-5d6d-43a1-b198-5c9b41f5332c
 source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '834'
-ht-degree: 59%
+ht-degree: 100%
 
 ---
 
-# Personnalisation des paramètres de configuration des emails {#surface-personalization}
+# Personnaliser les paramètres de configuration du canal e-mail {#surface-personalization}
 
-Pour une flexibilité et un contrôle accrus de vos paramètres d&#39;email, [!DNL Journey Optimizer] vous permet de définir des valeurs personnalisées pour les sous-domaines et les en-têtes <!--and URL tracking parameters--> lors de la création de configurations d&#39;email.
+Pour plus de flexibilité et de contrôle sur vos paramètres de canal e-mail, [!DNL Journey Optimizer] permet de définir des valeurs personnalisées pour les sous-domaines et les en-têtes<!--and URL tracking parameters--> lors de la création de configurations de canal e-mail.
 
 >[!AVAILABILITY]
 >
->La personnalisation de la configuration des emails n’est actuellement disponible que pour un ensemble d’organisations (disponibilité limitée). Pour en bénéficier, contactez votre représentant ou représentante Adobe.
+>La personnalisation de la configuration du canal e-mail n’est actuellement disponible que pour un ensemble d’organisations (disponibilité limitée). Pour en bénéficier, contactez votre représentant ou représentante Adobe.
 
 ## Ajouter des sous-domaines dynamiques {#dynamic-subdomains}
 
@@ -35,7 +35,7 @@ Pour une flexibilité et un contrôle accrus de vos paramètres d&#39;email, [!D
 >[!CONTEXTUALHELP]
 >id="ajo_surface_dynamic_subdomain"
 >title="Activer des sous-domaines dynamiques"
->abstract="Lors de la création d’une configuration d’email, vous pouvez configurer des sous-domaines dynamiques en fonction des conditions que vous définissez à l’aide de l’éditeur de personnalisation. Vous pouvez ajouter jusqu’à 50 sous-domaines dynamiques."
+>abstract="Lors de la création d’une configuration du canal e-mail, vous pouvez paramétrer des sous-domaines dynamiques en fonction de conditions définies à l’aide de l’éditeur de personnalisation. Vous pouvez ajouter jusqu’à 50 sous-domaines dynamiques."
 
 >[!CONTEXTUALHELP]
 >id="ajo_surface_dynamic_subdomain_list"
@@ -43,17 +43,17 @@ Pour une flexibilité et un contrôle accrus de vos paramètres d&#39;email, [!D
 >abstract="Certains sous-domaines ne peuvent actuellement pas être sélectionnés en raison d’un enregistrement de boucle de rétroaction en attente. Ce processus peut prendre jusqu’à 10 jours ouvrables. Une fois cette opération terminée, vous pouvez choisir parmi tous les sous-domaines disponibles."
 >additional-url="https://experienceleague.adobe.com/fr/docs/journey-optimizer/using/configuration/delegate-subdomains/about-subdomain-delegation" text="Commencer avec la délégation de sous-domaines"
 
-Lors de la création d’une configuration d’email, vous pouvez configurer des sous-domaines dynamiques en fonction de conditions spécifiques.
+Lors de la création d’une configuration du canal e-mail, vous pouvez paramétrer des sous-domaines dynamiques en fonction de conditions spécifiques.
 
 Par exemple, si vous avez des contraintes juridiques nécessitant l’envoi des messages à partir d’une adresse e-mail dédiée pour chaque pays, vous pouvez utiliser des sous-domaines dynamiques. Vous pouvez ainsi créer une configuration unique avec plusieurs sous-domaines d’envoi correspondant à différents pays, au lieu de créer plusieurs configurations pour chaque pays. Vous pouvez ensuite cibler des clientes et des clients qui se trouvent dans différents pays consolidés dans une seule campagne.
 
-Pour définir des sous-domaines dynamiques dans une configuration de canal email, procédez comme suit.
+Pour définir des sous-domaines dynamiques dans une configuration de canal e-mail, procédez comme suit.
 
-1. Avant de créer une configuration, configurez les sous-domaines que vous souhaitez utiliser pour envoyer des emails en fonction de votre cas d’utilisation. [Voici comment procéder](../configuration/about-subdomain-delegation.md)
+1. Avant de créer une configuration, paramétrez les sous-domaines que vous souhaitez utiliser pour envoyer des e-mails en fonction de votre cas d’utilisation. [Voici comment procéder](../configuration/about-subdomain-delegation.md)
 
    Par exemple, supposons que vous souhaitiez utiliser différents sous-domaines pour différents pays : configurer un sous-domaine spécifique aux États-Unis, un autre spécifique au Royaume-Uni, etc.
 
-1. Créez une configuration de canal. [Voici comment procéder](../configuration/channel-surfaces.md)
+1. Créer une configuration de canal. [Voici comment procéder](../configuration/channel-surfaces.md)
 
 1. Sélectionnez le canal **[!UICONTROL e-mail]**.
 
@@ -83,9 +83,9 @@ Pour définir des sous-domaines dynamiques dans une configuration de canal email
 
    <!--Select the [IP pool](../configuration/ip-pools.md) to associate with the configuration. [Learn more](email-settings.md#subdomains-and-ip-pools)-->
 
-1. Définissez tous les autres [paramètres d&#39;email](email-settings.md) et [envoyez](../configuration/channel-surfaces.md#create-channel-surface) votre configuration.
+1. Définissez tous les autres [paramètres d’e-mail](email-settings.md) et [envoyez](../configuration/channel-surfaces.md#create-channel-surface) votre configuration.
 
-Une fois que vous avez ajouté un ou plusieurs sous-domaines dynamiques à une configuration, les éléments suivants sont renseignés en fonction du sous-domaine dynamique résolu pour cette configuration :
+Une fois que vous avez ajouté un ou plusieurs sous-domaines dynamiques à une configuration, les éléments suivants sont renseignés en fonction du sous-domaine dynamique résolu pour cette configuration :
 
 * Toutes les URL (URL de ressource, URL de page miroir et URL de suivi)
 
@@ -95,13 +95,13 @@ Une fois que vous avez ajouté un ou plusieurs sous-domaines dynamiques à une c
 
 >[!NOTE]
 >
->Si vous définissez des sous-domaines dynamiques, et que vous désactivez l’option **[!UICONTROL Sous-domaine dynamique]**, toutes les valeurs dynamiques sont supprimées. Sélectionnez un sous-domaine et envoyez la configuration pour que les modifications prennent effet.
+>Si vous définissez des sous-domaines dynamiques, et que vous désactivez l’option **[!UICONTROL Sous-domaine dynamique]**, toutes les valeurs dynamiques sont supprimées. Sélectionnez un sous-domaine et envoyez la configuration pour que les modifications soient prises en compte.
 
 ## Personnaliser votre en-tête {#personalize-header}
 
-Vous pouvez également utiliser la personnalisation pour tous les paramètres d’en-tête définis dans une configuration.
+Vous pouvez également personnaliser tous les paramètres d’en-tête définis dans une configuration.
 
-Par exemple, si vous disposez de plusieurs marques, vous pouvez créer une configuration unique et utiliser des valeurs personnalisées pour vos en-têtes d’email. Vous pouvez ainsi vous assurer que tous les e-mails envoyés à partir de vos différentes marques sont adressés à chacun de vos clientes et clients avec les bons noms d’expéditeur et d’expéditrice (**De**) et les bonnes adresses e-mail. De la même manière, lorsque vos destinataires appuient sur le bouton **Répondre** dans leur logiciel client de messagerie, vous souhaitez que les noms dans **Répondre à** et que les e-mails correspondent à la bonne marque pour le bon utilisateur ou la bonne utilisatrice.
+Par exemple, si vous possédez plusieurs marques, vous pouvez créer une configuration unique et utiliser des valeurs personnalisées pour vos en-têtes d’e-mail. Vous pouvez ainsi vous assurer que tous les e-mails envoyés à partir de vos différentes marques sont adressés à chacun de vos clientes et clients avec les bons noms d’expéditeur et d’expéditrice (**De**) et les bonnes adresses e-mail. De la même manière, lorsque vos destinataires appuient sur le bouton **Répondre** dans leur logiciel client de messagerie, vous souhaitez que les noms dans **Répondre à** et que les e-mails correspondent à la bonne marque pour le bon utilisateur ou la bonne utilisatrice.
 
 Pour utiliser des variables personnalisées pour vos paramètres d’en-tête de configuration, procédez comme suit.
 
@@ -128,7 +128,7 @@ Pour utiliser des variables personnalisées pour vos paramètres d’en-tête de
 
 >[!NOTE]
 >
->Si vous avez ajouté un ou plusieurs sous-domaines dynamiques à votre configuration, les suffixes **From email** et **Error email** seront renseignés en fonction du [sous-domaine dynamique](#dynamic-subdomains) résolu.
+>Si vous avez ajouté un ou plusieurs sous-domaines dynamiques à votre configuration, les suffixes de l’**E-mail de l’expéditeur ou de l’expéditrice** et de l’**E-mail d’erreur** seront renseignés en fonction du [sous-domaine dynamique](#dynamic-subdomains) résolu.
 
 <!--
 ## Use personalized URL tracking {#personalize-url-tracking}
@@ -142,15 +142,15 @@ To use personalized URL tracking prameters, follow the steps below.
 Now when the email is sent out, this parameter will be automatically appended to the end of the URL. You can then capture this parameter in web analytics tools or in performance reports.
 -->
 
-## Affichage des détails de configuration {#view-surface-details}
+## Afficher les détails de configuration {#view-surface-details}
 
-Lors de l&#39;utilisation d&#39;une configuration avec des paramètres personnalisés dans une opération ou une configuration, vous pouvez afficher les détails de la configuration directement dans l&#39;opération ou la configuration. Suivez les étapes ci-dessous.
+Lorsque vous utilisez une configuration avec des paramètres personnalisés dans une campagne ou une configuration, vous pouvez afficher les détails de la configuration directement dans la campagne ou la configuration. Suivez les étapes ci-dessous.
 
 1. Créez une [campagne](../campaigns/create-campaign.md) e-mail ou un [parcours](../building-journeys/journey-gs.md) e-mail.
 
 1. Sélectionnez le bouton **[!UICONTROL Modifier le contenu]**.
 
-1. Cliquez sur le bouton **[!UICONTROL Afficher les détails de configuration]** .
+1. Cliquez sur le bouton **[!UICONTROL Afficher les détails de la configuration]**.
 
    ![](assets/campaign-view-surface-details.png)
 

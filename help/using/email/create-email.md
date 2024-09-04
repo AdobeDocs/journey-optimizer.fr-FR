@@ -10,9 +10,9 @@ level: Beginner
 keywords: créer, e-mail, commencer, parcours, campagne
 exl-id: c77dc420-a375-4376-ad86-ac740e214c3c
 source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '912'
-ht-degree: 86%
+ht-degree: 100%
 
 ---
 
@@ -35,11 +35,11 @@ Pour créer un e-mail dans [!DNL Journey Optimizer], ajoutez une action d’**[!
 
 1. Fournissez des informations de base sur votre message (libellé, description, catégorie).
 
-1. Sélectionnez ou créez la [configuration de l&#39;email](email-settings.md).
+1. Sélectionnez ou créez la [configuration du canal e-mail](email-settings.md).
 
    ![](assets/email_journey.png)
 
-   Par défaut, le champ est prérempli avec la dernière configuration utilisée par l’utilisateur pour ce canal.
+   Par défaut, le champ est prérempli avec la dernière configuration utilisée par l’utilisateur ou l’utilisatrice pour ce canal.
 
 >[!NOTE]
 >
@@ -55,9 +55,9 @@ Pour plus d’informations sur la configuration de votre parcours, consultez cet
 
    ![](assets/email_campaign_steps.png)
 
-1. Sélectionnez l’action **[!UICONTROL Email]**.
+1. Sélectionnez l’action **[!UICONTROL E-mail]**.
 
-1. Sélectionnez ou créez la configuration de l&#39;email. [En savoir plus](email-settings.md)
+1. Sélectionnez ou créez la configuration du canal e-mail. [En savoir plus](email-settings.md)
 
    ![](assets/email_campaign.png)
 
@@ -84,7 +84,7 @@ Pour plus d’informations sur la configuration d’une campagne, consultez cett
 
    ![](assets/email_campaign_edit_content.png)
 
-   Dans la section **[!UICONTROL En-tête]** de l&#39;écran **[!UICONTROL Modifier le contenu]**, les champs **[!UICONTROL Du nom]**, **[!UICONTROL De l&#39;email]** et **[!UICONTROL BCC]** sont configurés dans la configuration de l&#39;email que vous avez sélectionnée. [En savoir plus](email-settings.md) <!--check if same for journey-->
+   Dans la section **[!UICONTROL En-tête]** de l’écran **[!UICONTROL Modifier le contenu]**, les champs **[!UICONTROL Nom de l’expéditeur ou de l’expéditrice]**, **[!UICONTROL E-mail de l’expéditeur ou de l’expéditrice]** et **[!UICONTROL Cci]** sont configurés dans la configuration de canal e-mail que vous avez sélectionnée. [En savoir plus](email-settings.md) <!--check if same for journey-->
 
    ![](assets/email_designer_edit_content_header.png)
 
@@ -122,7 +122,7 @@ Deux types d’alertes peuvent avoir lieu :
 
      >[!NOTE]
      >
-     >Les e-mails de type marketing doivent inclure un lien de désinscription, qui n’est pas obligatoire pour les messages transactionnels. La catégorie de messages (**[!UICONTROL Marketing]** ou **[!UICONTROL Transactionnel]**) est définie au niveau de la [configuration de canal](email-settings.md#email-type) et lors de la [création du message](#create-email-journey-campaign) à partir d’un parcours ou d’une campagne.
+     >Les e-mails de type marketing doivent inclure un lien de désinscription, qui n’est pas obligatoire pour les messages transactionnels. La catégorie du message (**[!UICONTROL Marketing]** ou **[!UICONTROL Transactionnel]**) est définie au niveau de la [configuration des canaux](email-settings.md#email-type) et au moment de la [création du message](#create-email-journey-campaign) d’un parcours ou d’une campagne.
 
    * **[!UICONTROL Version texte du contenu HTML vide]** : n’oubliez pas de définir une version texte du corps de votre e-mail, car elle sera utilisée lorsque le contenu HTML ne peut pas être affiché Découvrez comment créer cette version texte dans [cette section](text-version-email.md).
 
@@ -138,7 +138,7 @@ Deux types d’alertes peuvent avoir lieu :
 
    * **[!UICONTROL La version e-mail du message est vide.]** : cette erreur s’affiche lorsque le contenu de l’e-mail n’a pas été configuré. Découvrez comment concevoir le contenu des e-mails dans [cette section](get-started-email-design.md).
 
-   * **[!UICONTROL configuration n&#39;existe pas]** : vous ne pouvez pas utiliser votre message si la configuration que vous avez sélectionnée est supprimée après la création du message. Si cette erreur se produit, sélectionnez une autre configuration dans le message **[!UICONTROL Properties]**. En savoir plus sur les configurations de canal dans [cette section](../configuration/channel-surfaces.md).
+   * **[!UICONTROL La configuration n’existe pas]** : vous ne pouvez pas utiliser votre message si la configuration que vous avez sélectionnée est supprimée après la création du message. Si cette erreur se produit, sélectionnez une autre configuration dans les **[!UICONTROL Propriétés]** du message. Pour en savoir plus sur les configurations de canal, consultez [cette section](../configuration/channel-surfaces.md).
 
 >[!CAUTION]
 >

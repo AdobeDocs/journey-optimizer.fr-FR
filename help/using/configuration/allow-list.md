@@ -10,9 +10,9 @@ level: Experienced
 keywords: liste autorisée, liste, sécurisé, configuration
 exl-id: 70ab8f57-c132-4de1-847b-11f0ab14f422
 source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1143'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -32,9 +32,9 @@ De plus, lorsque la liste autorisée est active mais vide, aucun e-mail ne sera 
 
 En outre, vous pouvez tirer parti de l’**API REST de suppression** Journey Optimizer pour contrôler vos messages sortants à l’aide des listes de suppression et des listes autorisées. [Découvrez comment utiliser l’API REST de suppression.](https://developer.adobe.com/journey-optimizer-apis/references/suppression/){target="_blank"}
 
-## Accès à la liste autorisée {#access-allowed-list}
+## Accéder à la liste autorisée {#access-allowed-list}
 
-Pour accéder à la liste détaillée des adresses email et domaines autorisés, accédez à **[!UICONTROL Administration]** > **[!UICONTROL Canaux]** > **[!UICONTROL Paramètres des emails]**, puis sélectionnez **[!UICONTROL Liste autorisée]**.
+Pour accéder à la liste détaillée des adresses e-mail et domaines autorisés, accédez à **[!UICONTROL Administration]** > **[!UICONTROL Canaux]** > **[!UICONTROL Paramètres des e-mails]**, puis sélectionnez **[!UICONTROL Liste autorisée]**.
 
 ![](assets/allow-list-access.png)
 

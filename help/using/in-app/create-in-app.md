@@ -8,9 +8,9 @@ level: Beginner
 keywords: in-app, message, création, commencer
 exl-id: b3b79fe2-7db3-490d-9c3d-87267aa55eea
 source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2009'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -39,7 +39,7 @@ Pour ajouter un message in-app dans un parcours, procédez comme suit :
 
 1. Saisissez un **[!UICONTROL libellé]** et une **[!UICONTROL description]** pour votre message.
 
-1. Sélectionnez la [configuration In-App](inapp-configuration.md#channel-prerequisites) à utiliser.
+1. Choisissez la [configuration in-app](inapp-configuration.md#channel-prerequisites) à utiliser.
 
    ![](assets/in_app_journey_2.png)
 
@@ -127,9 +127,9 @@ Pour ajouter un message in-app dans une campagne, procédez comme suit :
 
 1. Sélectionner le type de campagne que vous souhaitez exécuter.
 
-   * **Scheduled - Marketing** : permet d’exécuter la campagne immédiatement ou à une date spécifiée. Les campagnes planifiées visent à envoyer des messages marketing. Ils sont configurés et exécutés à partir de l’interface utilisateur.
+   * **Scheduled - Marketing** : permet d’exécuter la campagne immédiatement ou à une date spécifiée. Les campagnes planifiées visent à envoyer des messages marketing. Elles sont configurées et exécutées à partir de l’interface d’utilisation.
 
-   * **API-triggered - Marketing/Transactional** : permet d’exécuter la campagne à l’aide d’un appel API. Les campagnes déclenchées par l’API sont destinées à envoyer des messages marketing ou transactionnels, c’est-à-dire des messages envoyés suite à une action effectuée par un individu : réinitialisation de mot de passe, achat de panier, etc.
+   * **API-triggered - Marketing/Transactional** : permet d’exécuter la campagne à l’aide d’un appel API. Les campagnes déclenchées par API sont destinées à envoyer des messages marketing, ou transactionnels, c’est-à-dire des messages envoyés suite à une action effectuée par une personne : réinitialisation du mot de passe, abandon de panier, etc.
 
 1. Dans la section **[!UICONTROL Propriétés]**, rédigez le **[!UICONTROL Titre]** et la **[!UICONTROL Description]**.
 
@@ -141,7 +141,7 @@ Pour ajouter un message in-app dans une campagne, procédez comme suit :
 
 1. Dans le champ **[!UICONTROL Espace de noms d’identité]**, choisissez l’espace de noms à utiliser pour identifier les personnes à partir de l’audience sélectionnée. [En savoir plus](../event/about-creating.md#select-the-namespace).
 
-1. Dans la section **[!UICONTROL Actions]** , sélectionnez le **[!UICONTROL message in-app]** et sélectionnez ou créez une configuration.
+1. Dans la section **[!UICONTROL Actions]**, sélectionnez le **[!UICONTROL message in-app]** et sélectionnez ou créez une configuration.
 
    En savoir plus sur la configuration in-app sur [cette page](inapp-configuration.md).
 

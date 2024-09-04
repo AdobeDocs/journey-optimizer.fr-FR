@@ -9,9 +9,9 @@ level: Experienced
 keywords: destination, page de destination, configurer, environnement, sous-domaine, préréglages
 exl-id: 7cf1f083-bef0-40b5-8ddd-920a9d108eca
 source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '351'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -30,7 +30,7 @@ Pour accéder aux préréglages de la page de destination, procédez comme suit.
 
 1. Accédez au menu **[!UICONTROL Administration]** > **[!UICONTROL Canaux]**.
 
-1. Sélectionnez **[!UICONTROL Paramètres de page d’entrée]** > **[!UICONTROL Paramètres prédéfinis de page d’entrée]**.
+1. Sélectionnez **[!UICONTROL Paramètres de la page de destination]** > **[!UICONTROL Paramètres prédéfinis de la page de destination]**.
 
    ![](assets/lp_presets-access.png)
 
@@ -46,7 +46,7 @@ Pour créer un préréglage de page de destination, procédez comme suit.
 >
 >Avant de pouvoir créer un préréglage, vous devez avoir configuré au moins un sous-domaine de la page de destination. [Voici comment procéder](lp-subdomains.md)
 
-1. Accédez au menu **[!UICONTROL Administration]** > **[!UICONTROL Canaux]** , puis sélectionnez **[!UICONTROL Paramètres de page d’entrée]** > **[!UICONTROL Paramètres prédéfinis de page d’entrée]**.
+1. Accédez au menu **[!UICONTROL Administration]** > **[!UICONTROL Canaux]**, puis sélectionnez **[!UICONTROL Paramètres de la page de destination]** > **[!UICONTROL Paramètres prédéfinis de la page de destination]**.
 
 1. Sélectionnez **[!UICONTROL Créer un préréglage de page de destination]**.
 
@@ -74,7 +74,7 @@ Pour créer un préréglage de page de destination, procédez comme suit.
 
    Par exemple, si l’URL de la page de destination est « pages.mail.luma.com » et que lʼURL de tracking est « data.mail.luma.com », vous pouvez choisir « pages.mail.luma.com » comme sous-domaine de tracking.
 
-1. Cliquez sur **[!UICONTROL Envoyer]** pour confirmer la création du paramètre prédéfini de page d’entrée. <!--You can also save the preset as draft and resume its configuration later on.-->
+1. Cliquez sur **[!UICONTROL Envoyer]** pour confirmer la création du paramètre prédéfini de la page de destination. <!--You can also save the preset as draft and resume its configuration later on.-->
 
    <!--![](assets/lp_preset-subdomain-settings-submit.png)-->
 

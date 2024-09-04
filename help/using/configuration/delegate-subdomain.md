@@ -10,9 +10,9 @@ level: Experienced
 keywords: sous-domaine, délégation, domaine, DNS
 exl-id: 8021f66e-7725-475b-8722-e6f8d74c9023
 source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1820'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -57,7 +57,7 @@ Vous pouvez compter sur Adobe pour gérer lʼinfrastructure DNS requise afin de 
 
 Pour déléguer complètement un nouveau sous-domaine à Adobe, procédez comme suit :
 
-1. Accédez au menu **[!UICONTROL Administration]** > **[!UICONTROL Canaux]** > **[!UICONTROL Paramètres des emails]** > **[!UICONTROL Sous-domaines]** , puis cliquez sur **[!UICONTROL Configurer un sous-domaine]**.
+1. Accédez au menu **[!UICONTROL Administration]** > **[!UICONTROL Canaux]** > **[!UICONTROL Paramètres des e-mails]** > **[!UICONTROL Sous-domaines]**, puis cliquez sur **[!UICONTROL Configurer le sous-domaine]**.
 
    ![](assets/subdomain-delegate.png)
 
@@ -137,7 +137,7 @@ La configuration de sous-domaines CNAME permet de créer un sous-domaine et d�
 
 Pour configurer un sous-domaine à l’aide de CNAME, procédez comme suit :
 
-1. Accédez au menu **[!UICONTROL Administration]** > **[!UICONTROL Canaux]** > **[!UICONTROL Paramètres des emails]** > **[!UICONTROL Sous-domaines]** , puis cliquez sur **[!UICONTROL Configurer un sous-domaine]**.
+1. Accédez au menu **[!UICONTROL Administration]** > **[!UICONTROL Canaux]** > **[!UICONTROL Paramètres des e-mails]** > **[!UICONTROL Sous-domaines]**, puis cliquez sur **[!UICONTROL Configurer le sous-domaine]**.
 
 1. Sélectionnez la méthode **[!UICONTROL Configuration CNAME]**.
 

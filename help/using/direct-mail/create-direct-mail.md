@@ -8,9 +8,9 @@ level: Beginner
 keywords: courrier, message, campagne
 exl-id: 6b438268-d983-4ab8-9276-c4b7de74e6bd
 source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '803'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -27,8 +27,8 @@ Pour créer des messages de courrier, créez une campagne planifiée et configur
 >
 >Avant d’envoyer un message de courrier, assurez-vous d’avoir configuré les éléments suivants :
 >
->1. Une [configuration du routage des fichiers](../direct-mail/direct-mail-configuration.md#file-routing-configuration) qui spécifie le serveur sur lequel le fichier d’extraction doit être téléchargé et stocké,
->1. Une [ configuration de message courrier ](../direct-mail/direct-mail-configuration.md#direct-mail-surface) qui fera référence à la configuration de routage des fichiers.
+>1. [Configuration du routage des fichiers](../direct-mail/direct-mail-configuration.md#file-routing-configuration) qui spécifie le serveur sur lequel le fichier d’extraction doit être chargé et stocké,
+>1. [Configuration de message de publipostage direct](../direct-mail/direct-mail-configuration.md#direct-mail-surface) qui fera référence à la configuration du routage des fichiers.
 
 
 ## Créer une campagne par courrier{#create-dm-campaign}
@@ -39,9 +39,9 @@ Pour créer une campagne par courrier, procédez comme suit :
 
 1. Sélectionner le type de campagne que vous souhaitez exécuter.
 
-   * **Scheduled - Marketing** : permet d’exécuter la campagne immédiatement ou à une date spécifiée. Les campagnes planifiées visent à envoyer des messages marketing. Ils sont configurés et exécutés à partir de l’interface utilisateur.
+   * **Scheduled - Marketing** : permet d’exécuter la campagne immédiatement ou à une date spécifiée. Les campagnes planifiées visent à envoyer des messages marketing. Elles sont configurées et exécutées à partir de l’interface d’utilisation.
 
-   * **API-triggered - Marketing/Transactional** : permet d’exécuter la campagne à l’aide d’un appel API. Les campagnes déclenchées par l’API sont destinées à envoyer des messages marketing ou transactionnels, c’est-à-dire des messages envoyés suite à une action effectuée par un individu : réinitialisation de mot de passe, achat de panier, etc.
+   * **API-triggered - Marketing/Transactional** : permet d’exécuter la campagne à l’aide d’un appel API. Les campagnes déclenchées par API sont destinées à envoyer des messages marketing, ou transactionnels, c’est-à-dire des messages envoyés suite à une action effectuée par une personne : réinitialisation du mot de passe, abandon de panier, etc.
 
 1. Dans la section **[!UICONTROL Propriétés]**, modifiez le **[!UICONTROL Titre]** et la **[!UICONTROL Description]** de votre campagne.
 
@@ -53,9 +53,9 @@ Pour créer une campagne par courrier, procédez comme suit :
 
 1. Dans le champ **[!UICONTROL Espace de noms d’identité]**, sélectionnez l’espace de noms approprié pour identifier les personnes dans l’audience choisie. [En savoir plus](../event/about-creating.md#select-the-namespace).
 
-1. Dans la section **[!UICONTROL Actions]** , sélectionnez le **[!UICONTROL Courrier]**.
+1. Dans la section **[!UICONTROL Actions]**, choisissez le **[!UICONTROL Publipostage direct]**.
 
-1. Sélectionnez ou créez une configuration de **[!UICONTROL configuration Courrier]** à utiliser. [Découvrez comment créer une configuration de courrier ](direct-mail-configuration.md#direct-mail-surface).
+1. Sélectionnez ou créez une configuration de **[!UICONTROL configuration de publipostage direct]** à utiliser. [Découvrez comment créer une configuration de publipostage direct](direct-mail-configuration.md#direct-mail-surface).
 
    ![](assets/direct-mail-campaign.png){width="800" align="center"}
 

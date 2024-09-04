@@ -9,9 +9,9 @@ role: Data Engineer, Data Architect, Admin
 level: Intermediate
 keywords: marketo, intégration marketo engage
 source-git-commit: 92591457d2189e3c43ea38c4a09d7cf565bb5d57
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '247'
-ht-degree: 76%
+ht-degree: 100%
 
 ---
 
@@ -26,8 +26,8 @@ Optez pour une intégration transparente des données avec Marketo Engage. Cett
 ## Conditions préalables {#prerequisites}
 
 * L’instance cliente de Marketo Engage doit être compatible avec IMS.
-* Les instances de Marketo Engage et AEP/AJO doivent se trouver dans la même organisation IMS.
-* Le client doit être configuré avec **MktoSync : accès au service d’ingestion**
+* Les instances de Marketo Engage et AEP/AJO doivent se trouver dans la même organisation IMS.
+* Le client ou la cliente doit recevoir un accès **MktoSync : service d’ingestion**.
 
 ## Configurer l’action {#configure-marketo-action}
 
@@ -109,8 +109,8 @@ Vous pouvez désormais utiliser votre action personnalisée sur votre zone de tr
 
 ## Utiliser l’action {#engage-using}
 
-* Faites glisser l’action personnalisée sur le canevas de parcours.
-* Dans la section **Paramètres de requête**, cliquez sur Modifier pour chacun des paramètres avec des valeurs dynamiques que vous avez configurées dans la payload.
+* Faites glisser l’action personnalisée sur la zone de travail de parcours.
+* Dans la section **Paramètres de requête**, cliquez sur Modifier pour chacun des paramètres avec des valeurs dynamiques que vous avez configurées dans le payload.
 
 ![](assets/engage-use-canvas.png){width="70%" align="left"}
 

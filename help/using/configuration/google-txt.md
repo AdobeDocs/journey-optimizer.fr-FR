@@ -10,9 +10,9 @@ level: Experienced
 keywords: sous-domaine, google, txt, enregistrement, gmail, délivrabilité
 exl-id: 311eb2d1-e445-43e6-bc2c-c6288b637f47
 source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '210'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -33,7 +33,7 @@ Pour garantir une délivrabilité optimale et une diffusion réussie des e-mails
 
 Pour ajouter un enregistrement TXT Google à votre sous-domaine, procédez comme suit :
 
-1. Ouvrez le sous-domaine à partir du menu **[!UICONTROL Canaux]** > **[!UICONTROL Paramètres des emails]** > **[!UICONTROL Sous-domaines]** .
+1. Ouvrez le sous-domaine à partir du menu **[!UICONTROL Canaux]** > **[!UICONTROL Paramètres des e-mails]** > **[!UICONTROL Sous-domaines]**.
 
 1. Dans la section **[!UICONTROL Enregistrement TXT Google]**, saisissez le code de vérification généré depuis [Google Workspace](https://support.google.com/a/answer/183895){target="_blank"}<!--G Suite Admin tools-->, puis cliquez sur **[!UICONTROL Enregistrer]**.
 

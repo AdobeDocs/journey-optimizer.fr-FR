@@ -7,9 +7,9 @@ role: User
 level: Beginner
 keywords: in-app, message, création, commencer
 source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '681'
-ht-degree: 77%
+ht-degree: 100%
 
 ---
 
@@ -110,9 +110,9 @@ ht-degree: 77%
 
    ![](assets/configure_web_inapp_14.png)
 
-## Création d’une configuration web In-App {#in-app-config}
+## Créer une configuration web in-app {#in-app-config}
 
-1. Accédez au menu **[!UICONTROL Canaux]** > **[!UICONTROL Paramètres généraux]** > **[!UICONTROL Configurations de canaux]** , puis cliquez sur **[!UICONTROL Créer une configuration de canal]**.
+1. Accédez au menu **[!UICONTROL Canaux]** > **[!UICONTROL Paramètres généraux]** > **[!UICONTROL Configurations des canaux]**, puis cliquez sur **[!UICONTROL Créer une configuration de canal]**.
 
    ![](assets/in-app-web-config-1.png)
 
@@ -124,7 +124,7 @@ ht-degree: 77%
 
 1. Pour attribuer des libellés d’utilisation des données personnalisés ou de base à la configuration, vous pouvez sélectionner **[!UICONTROL Gérer l’accès]**. [En savoir plus sur le contrôle d’accès au niveau de l’objet (OLAC)](../administration/object-based-access.md).
 
-1. Sélectionnez **[!UICONTROL Action marketing]** pour associer les stratégies de consentement aux messages utilisant cette configuration. Toutes les stratégies de consentement associées à l’action marketing sont exploitées afin de respecter les préférences de vos clients. [En savoir plus](../action/consent.md#surface-marketing-actions)
+1. Sélectionnez une **[!UICONTROL Action marketing]** ou plusieurs pour associer des politiques de consentement aux messages utilisant cette configuration. Toutes les politiques de consentement associées à cette action marketing sont utilisées afin de respecter les préférences de vos clientes et clients. [En savoir plus](../action/consent.md#surface-marketing-actions)
 
 1. Sélectionnez le canal **Messagerie in-app**.
 
@@ -136,9 +136,9 @@ ht-degree: 77%
 
 +++ Création d’une règle de correspondance de pages.
 
-      1. Sélectionnez **[!UICONTROL Pages correspondant à la règle]** comme configuration de l’application et entrez votre **[!UICONTROL URL de page]**.
+      1. Sélectionnez **[!UICONTROL Règle de correspondance des pages]** comme configuration de l’application et saisissez votre **[!UICONTROL URL de page]**.
 
-      1. Dans la fenêtre **[!UICONTROL Modifier la règle de configuration]** , définissez vos critères pour les champs **[!UICONTROL Domaine]** et **[!UICONTROL Page]** .
+      1. Dans la fenêtre **[!UICONTROL Modifier la règle de configuration]**, définissez vos critères pour les champs **[!UICONTROL Domaine]** et **[!UICONTROL Page]**.
       1. Dans les listes déroulantes des conditions, personnalisez davantage vos critères.
 
          Par exemple, si vous souhaitez modifier ici des éléments qui s’affichent sur toutes les pages des produits en soldes de votre site web Luma, sélectionnez Domaine > Commence par > luma et Page > Contient > soldes.
@@ -147,12 +147,12 @@ ht-degree: 77%
 
       1. Cliquez sur **[!UICONTROL Ajouter une autre règle de page]** pour créer une autre règle si nécessaire.
 
-      1. Sélectionnez l’ **[!UICONTROL URL de création et de prévisualisation par défaut]**.
+      1. Sélectionnez l’**[!UICONTROL URL de création et de prévisualisation par défaut]**.
 
       1. Enregistrez vos modifications. La règle s’affiche dans l’écran **[!UICONTROL Créer une campagne]**.
 
 +++
 
-1. Envoyez votre configuration web In-App.
+1. Envoyez votre configuration web in-app.
 
-Vous pouvez désormais [créer une page web In-app](../in-app/create-in-app-web.md) dans une campagne.
+Vous pouvez désormais [créer un canal in-app web](../in-app/create-in-app-web.md) dans une campagne.

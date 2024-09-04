@@ -10,9 +10,9 @@ level: Experienced
 keywords: autorisation, haut niveau, bas niveau, profil, admin console
 exl-id: 1b286f9d-43ef-4b80-b4ee-136da857bb95
 source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1040'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -360,7 +360,7 @@ Par exemple, le rôle **[!DNL Journey administrator]** se voit attribuer lʼauto
 
 +++
 
-* L’autorisation de haut niveau **[!DNL Manage messages presets]** permet aux utilisateurs de lire, créer, modifier et supprimer des configurations de canal sur plusieurs canaux au niveau de l’environnement de test.
+* Lʼautorisation de haut niveau **[!DNL Manage messages presets]** permet aux utilisateurs et utilisatrices de créer, modifier et supprimer des configurations de canaux sur les canaux au niveau du sandbox.
 
 +++ Elle comprend les autorisations de bas niveau suivantes :
 

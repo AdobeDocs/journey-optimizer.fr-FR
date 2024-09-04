@@ -10,7 +10,7 @@ level: Experienced
 keywords: objet, niveau, accès, contrôle, libellés, olac, autorisation
 exl-id: 02ccdd95-426c-4b61-9834-7f2dcd5abdbb
 source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '413'
 ht-degree: 100%
 
@@ -33,7 +33,7 @@ Le contrôle d’accès au niveau de l’objet (OLAC) permet de définir des aut
 * Offre
 * Collection d’offres statique
 * Décision d’offres
-* Configuration de canal
+* Configuration des canaux
 * Plan de préchauffage des adresses IP
 
 Son objectif est de protéger les ressources numériques sensibles contre les utilisateurs non autorisés, ce qui permet une protection supplémentaire des données personnelles.

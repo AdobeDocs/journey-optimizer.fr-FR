@@ -7,9 +7,9 @@ level: Intermediate
 keywords: in-app, message, configuration, platform
 exl-id: 469c05f2-652a-4899-a657-ddc4cebe3b42
 source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '869'
-ht-degree: 79%
+ht-degree: 100%
 
 ---
 
@@ -21,7 +21,7 @@ Pour envoyer des messages in-app dans vos parcours et campagnes avec [!DNL Journ
 
 1. Assurez-vous de disposer des autorisations appropriées sur les campagnes Journey Optimizer avant de commencer, même si vous prévoyez d’utiliser uniquement les messages in-app dans des parcours. Les autorisations de Campaign sont toujours requises. [En savoir plus](../campaigns/get-started-with-campaigns.md#campaign-prerequisites).
 1. Activez Adobe Journey Optimizer dans votre train de données de collecte de données Adobe Experience Platform et vérifiez votre politique de fusion par défaut dans Adobe Experience Platform, comme indiqué dans la section [Conditions préalables à la diffusion](#delivery-prerequisites) ci-dessous.
-1. Créez une configuration de canal des messages In-App dans Administration > Canaux > Configurations de canal, comme décrit dans [cette section](#channel-prerequisites).
+1. Créez une configuration de canal des messages in-app dans Administration > Canaux > Configurations de canal, comme décrit dans [cette section](#channel-prerequisites).
 1. Si vous utilisez des expériences de contenu, veillez à respecter les exigences répertoriées dans [cette section](#experiment-prerequisite).
 
 Une fois cette opération terminée, vous pouvez créer, configurer et envoyer votre premier message in-app. Découvrez comment accomplir cela dans [cette section](create-in-app.md).
@@ -52,9 +52,9 @@ Pour que les messages in-app soit correctement diffusés, les paramètres suivan
 
   [En savoir plus sur la vue Edge Delivery](https://experienceleague.adobe.com/fr/docs/experience-platform/assurance/view/edge-delivery)
 
-## Création d’une configuration In-App {#channel-prerequisites}
+## Créer une configuration in-app {#channel-prerequisites}
 
-1. Accédez au menu **[!UICONTROL Canaux]** > **[!UICONTROL Paramètres généraux]** > **[!UICONTROL Configurations de canaux]** , puis cliquez sur **[!UICONTROL Créer une configuration de canal]**.
+1. Accédez au menu **[!UICONTROL Canaux]** > **[!UICONTROL Paramètres généraux]** > **[!UICONTROL Configurations des canaux]**, puis cliquez sur **[!UICONTROL Créer une configuration des canaux]**.
 
    ![](assets/inapp_config_1.png)
 
@@ -66,7 +66,7 @@ Pour que les messages in-app soit correctement diffusés, les paramètres suivan
 
 1. Pour attribuer des libellés d’utilisation des données personnalisés ou de base à la configuration, vous pouvez sélectionner **[!UICONTROL Gérer l’accès]**. [En savoir plus sur le contrôle d’accès au niveau de l’objet (OLAC)](../administration/object-based-access.md).
 
-1. Sélectionnez **[!UICONTROL Action marketing]** pour associer les stratégies de consentement aux messages utilisant cette configuration. Toutes les stratégies de consentement associées à l’action marketing sont exploitées afin de respecter les préférences de vos clients. [En savoir plus](../action/consent.md#surface-marketing-actions)
+1. Sélectionnez une **[!UICONTROL Action marketing]** ou plusieurspour associer des politiques de consentement aux messages utilisant cette configuration. Toutes les politiques de consentement associées à cette action marketing sont utilisées afin de respecter les préférences de vos clientes et clients. [En savoir plus](../action/consent.md#surface-marketing-actions)
 
 1. Sélectionnez le canal **Messagerie in-app**.
 
@@ -76,7 +76,7 @@ Pour que les messages in-app soit correctement diffusés, les paramètres suivan
 
    ![](assets/inapp_config_10.png)
 
-1. Pour le Web :
+1. Pour le web :
 
    * Vous pouvez saisir une **[!UICONTROL URL de page]** pour appliquer des modifications à une page spécifique.
 
@@ -84,9 +84,9 @@ Pour que les messages in-app soit correctement diffusés, les paramètres suivan
 
 +++ Création d’une règle de correspondance de pages.
 
-      1. Sélectionnez **[!UICONTROL Pages correspondant à la règle]** comme configuration de l’application et entrez votre **[!UICONTROL URL de page]**.
+      1. Sélectionnez **[!UICONTROL Règle de correspondance des pages]** comme configuration de l’application et saisissez votre **[!UICONTROL URL de page]**.
 
-      1. Dans la fenêtre **[!UICONTROL Modifier la règle de configuration]** , définissez vos critères pour les champs **[!UICONTROL Domaine]** et **[!UICONTROL Page]** .
+      1. Dans la fenêtre **[!UICONTROL Modifier la règle de configuration]**, définissez vos critères pour les champs **[!UICONTROL Domaine]** et **[!UICONTROL Page]**.
       1. Dans les listes déroulantes des conditions, personnalisez davantage vos critères.
 
          Par exemple, si vous souhaitez modifier ici des éléments qui s’affichent sur toutes les pages des produits en soldes de votre site web Luma, sélectionnez Domaine > Commence par > luma et Page > Contient > soldes.
@@ -95,17 +95,17 @@ Pour que les messages in-app soit correctement diffusés, les paramètres suivan
 
       1. Cliquez sur **[!UICONTROL Ajouter une autre règle de page]** pour créer une autre règle si nécessaire.
 
-      1. Sélectionnez l’ **[!UICONTROL URL de création et de prévisualisation par défaut]**.
+      1. Sélectionnez l’**[!UICONTROL URL de création et de prévisualisation par défaut]**.
 
       1. Enregistrez vos modifications. La règle s’affiche dans l’écran **[!UICONTROL Créer une campagne]**.
 
 +++
 
-1. Pour iOS et Android :
+1. Pour iOS et Android :
 
    * Saisissez votre **[!UICONTROL ID d’application]**.
 
-1. Envoyez vos modifications.
+1. Soumettez vos modifications.
 
 Vous pouvez maintenant sélectionner votre configuration lors de la création de votre message in-app.
 

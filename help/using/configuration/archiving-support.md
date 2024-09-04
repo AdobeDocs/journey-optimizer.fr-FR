@@ -10,9 +10,9 @@ level: Experienced
 keywords: archive, messages, HIPAA, CCI, e-mails
 exl-id: 186a5044-80d5-4633-a7a7-133e155c5e9f
 source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1132'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -41,11 +41,11 @@ Vous pouvez envoyer une copie carbone invisible (Cci) d’un e-mail envoyé par 
 
 ### Activer les e-mails en Cci {#enable-bcc}
 
-Pour activer l’option **[!UICONTROL Email en Cci]**, saisissez l’adresse email de votre choix dans le champ dédié de la [configuration de canal](channel-surfaces.md) (c’est-à-dire le paramètre prédéfini de message). Vous pouvez spécifier n’importe quelle adresse externe au format correct, à l’exception d’une adresse e-mail définie sur un sous-domaine délégué à Adobe. Par exemple, si vous avez délégué le sous-domaine *marketing.luma.com* à Adobe, toute adresse comme *abc@marketing.luma.com* est interdite.
+Pour activer l’option **[!UICONTROL E-mail Cci]**, saisissez l’adresse e-mail de votre choix dans le champ dédié de la [configuration de canal](channel-surfaces.md) (c’est-à-dire le paramètre prédéfini de message). Vous pouvez spécifier n’importe quelle adresse externe au format correct, à l’exception d’une adresse e-mail définie sur un sous-domaine délégué à Adobe. Par exemple, si vous avez délégué le sous-domaine *marketing.luma.com* à Adobe, toute adresse comme *abc@marketing.luma.com* est interdite.
 
 >[!CAUTION]
 >
->Vous ne pouvez définir qu&#39;une seule adresse e-mail en Cci. Assurez-vous que l&#39;adresse en Cci dispose d&#39;une capacité de réception suffisante pour stocker tous les emails envoyés à l&#39;aide de la configuration de canal actuelle.
+>Vous ne pouvez définir qu&#39;une seule adresse e-mail en Cci. Assurez-vous que l’adresse en Cci dispose d’une capacité de réception suffisante pour stocker tous les e-mails envoyés à l’aide de la configuration de canal actuelle.
 >
 >D’autres recommandations sont répertoriées dans [cette section](#bcc-recommendations-limitations).
 
@@ -55,13 +55,13 @@ Pour activer l’option **[!UICONTROL Email en Cci]**, saisissez l’adresse ema
 
 ![](assets/preset-bcc.png)
 
-Une fois la configuration terminée, tous les emails basés sur cette configuration sont copiés en aveugle vers l’adresse email en Cci que vous avez saisie. De là, ils peuvent être traités et archivés à l’aide d’un système externe.
+Une fois la configuration terminée, tous les e-mails basés sur cette configuration sont envoyés en copie carbone invisible (Cci) vers l’adresse e-mail que vous avez saisie. De là, ils peuvent être traités et archivés à l’aide d’un système externe.
 
 >[!CAUTION]
 >
 >Votre utilisation de la fonctionnalité Cci est décomptée en fonction du nombre de messages pour lesquels vous disposez d’une licence. Par conséquent, activez-la uniquement dans les configurations utilisées pour les communications critiques que vous souhaitez archiver. Vérifiez votre contrat pour les volumes sous licence.
 
-Le paramètre d’adresse email en Cci est immédiatement enregistré et traité au niveau de la configuration. Lorsque vous créez un message à l&#39;aide de cette configuration, l&#39;adresse email en Cci s&#39;affiche automatiquement.
+Le paramètre d’adresse e-mail en Cci est immédiatement enregistré et traité au niveau de la configuration. Lorsque vous créez un message avec cette configuration, l’adresse e-mail en Cci s’affiche automatiquement.
 
 ![](assets/preset-bcc-in-msg.png)
 

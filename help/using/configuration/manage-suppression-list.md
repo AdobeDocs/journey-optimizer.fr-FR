@@ -10,9 +10,9 @@ level: Experienced
 keywords: suppression, liste, rebond, e-mail, optimizer, quarantaine
 exl-id: 430a2cd4-781d-4d37-a75d-405f5ed82377
 source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1599'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -32,7 +32,7 @@ En outre, vous pouvez tirer parti de l’**API REST de suppression** de Journey�
 
 ## Accéder à la liste de suppression {#access-suppression-list}
 
-Pour accéder à la liste détaillée des adresses email et domaines exclus, accédez à **[!UICONTROL Administration]** > **[!UICONTROL Canaux]** > **[!UICONTROL Paramètres d’e-mail]**, puis sélectionnez **[!UICONTROL Liste de suppression]**.
+Pour accéder à la liste détaillée des adresses e-mail et domaines exclus, accédez à **[!UICONTROL Administration]** > **[!UICONTROL Canaux]** > **[!UICONTROL Paramètres d’e-mails]**, puis sélectionnez **[!UICONTROL Liste de suppression]**.
 
 
 ![](assets/suppression-list-access.png)

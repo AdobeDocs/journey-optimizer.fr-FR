@@ -10,9 +10,9 @@ level: Beginner
 keywords: créer, optimizer, campagne, surface, messages
 exl-id: 617d623c-e038-4b5b-a367-5254116b7815
 source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '914'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -20,9 +20,9 @@ ht-degree: 93%
 
 >[!NOTE]
 >
->Avant de créer une nouvelle campagne, vérifiez que vous disposez d’une configuration de canal (c’est-à-dire de la surface des messages) et d’une audience Adobe Experience Platform prête à être utilisée. En savoir plus dans ces sections :
+>Avant de créer une campagne, assurez-vous de disposer d’une configuration de canal (c’est-à-dire une surface de message) et d’une audience Adobe Experience Platform prête à l’emploi. En savoir plus dans ces sections :
 >
->* [ Créer des configurations de canal ](../configuration/channel-surfaces.md)
+>* [Créer des configurations de canal](../configuration/channel-surfaces.md)
 >* [Commencer avec les audiences](../audience/about-audiences.md)
 
 Pour créer une campagne, accédez au menu **[!UICONTROL Campagnes]**, puis cliquez sur **[!UICONTROL Créer une campagne]**. Vous pouvez également dupliquer une campagne active existante pour en créer une nouvelle. [En savoir plus](modify-stop-campaign.md#duplicate)
@@ -41,7 +41,7 @@ Pour créer une campagne, accédez au menu **[!UICONTROL Campagnes]**, puis cliq
 
 1. Sélectionner le type de campagne que vous souhaitez exécuter.
 
-   * **[!UICONTROL Scheduled - Marketing]** : permet d’exécuter la campagne immédiatement ou à une date spécifiée. Les campagnes planifiées visent à envoyer des messages de **marketing**. Ils sont configurés et exécutés à partir de l’interface utilisateur.
+   * **[!UICONTROL Scheduled - Marketing]** : permet d’exécuter la campagne immédiatement ou à une date spécifiée. Les campagnes planifiées visent à envoyer des messages de **marketing**. Elles sont configurées et exécutées à partir de l’interface d’utilisation.
 
    * **[!UICONTROL API-triggered - Marketing/Transactional]** : permet d’exécuter la campagne à l’aide d’un appel API. Les campagnes déclenchées par API sont destinées à envoyer des messages **marketing**, ou **transactionnels**, c’est-à-dire des messages envoyés suite à une action effectuée par une personne : réinitialisation du mot de passe, abandon de panier, etc. [Découvrez comment déclencher une campagne à l’aide d’API](api-triggered-campaigns.md)
 
@@ -81,9 +81,9 @@ Définissez la population ciblée par la campagne en suivant les étapes suivant
 
 ## Créer le message et configurer le suivi {#content}
 
-1. Dans la section **[!UICONTROL Actions]** , sélectionnez ou créez une configuration.
+1. Dans la section **[!UICONTROL Actions]**, sélectionnez ou créez une configuration.
 
-   Une configuration est définie par un [Administrateur système](../start/path/administrator.md). Elle contient tous les paramètres techniques relatifs à l’envoi du message, tels que les paramètres d’en-tête, le sous-domaine, les applications mobiles, etc. [En savoir plus](../configuration/channel-surfaces.md).
+   Celle-ci est définie par une [équipe d’administration système](../start/path/administrator.md). Elle contient tous les paramètres techniques relatifs à l’envoi du message, tels que les paramètres d’en-tête, le sous-domaine, les applications mobiles, etc. [En savoir plus](../configuration/channel-surfaces.md).
 
    Seules les configurations de canal compatibles avec le type de campagne marketing sont répertoriées dans la liste déroulante.
 
@@ -99,7 +99,7 @@ Définissez la population ciblée par la campagne en suivant les étapes suivant
     <tr style="border: 0;">
     <td>
     <a href="../email/create-email.md">
-    <img alt="Prospect" src="../assets/do-not-localize/email.jpg">
+    <img alt="Lead" src="../assets/do-not-localize/email.jpg">
     </a>
     <div><a href="../email/create-email.md"><strong>Créer des e-mails</strong>
     </div>

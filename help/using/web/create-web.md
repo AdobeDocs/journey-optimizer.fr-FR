@@ -7,9 +7,9 @@ role: User
 level: Beginner
 exl-id: e28c038b-49ed-4685-bfe6-514116eb0711
 source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '747'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
@@ -27,8 +27,8 @@ ht-degree: 88%
 
 >[!CONTEXTUALHELP]
 >id="ajo_web_surface"
->title="Définition d’une configuration web"
->abstract="Une configuration web peut correspondre à une ou plusieurs pages d’une seule page, ce qui vous permet de diffuser des modifications de contenu sur une ou plusieurs pages web."
+>title="Définir une configuration web"
+>abstract="Une configuration web peut correspondre à l’URL d’une ou de plusieurs pages, ce qui vous permet de diffuser des modifications de contenu sur une ou plusieurs pages web."
 
 >[!CONTEXTUALHELP]
 >id="ajo_web_surface_rule"
@@ -46,9 +46,9 @@ Pour commencer à créer votre expérience web par le biais d’une campagne, su
 
 1. Sélectionner le type de campagne que vous souhaitez exécuter.
 
-   * **Scheduled - Marketing** : permet d’exécuter la campagne immédiatement ou à une date spécifiée. Les campagnes planifiées visent à envoyer des messages marketing. Ils sont configurés et exécutés à partir de l’interface utilisateur.
+   * **Scheduled - Marketing** : permet d’exécuter la campagne immédiatement ou à une date spécifiée. Les campagnes planifiées visent à envoyer des messages marketing. Elles sont configurées et exécutées à partir de l’interface d’utilisation.
 
-   * **API-triggered - Marketing/Transactional** : permet d’exécuter la campagne à l’aide d’un appel API. Les campagnes déclenchées par l’API sont destinées à envoyer des messages marketing ou transactionnels, c’est-à-dire des messages envoyés suite à une action effectuée par un individu : réinitialisation de mot de passe, achat de panier, etc.
+   * **API-triggered - Marketing/Transactional** : permet d’exécuter la campagne à l’aide d’un appel API. Les campagnes déclenchées par API sont destinées à envoyer des messages marketing, ou transactionnels, c’est-à-dire des messages envoyés suite à une action effectuée par une personne : réinitialisation du mot de passe, abandon de panier, etc.
 
 1. Suivez les étapes de création d’une campagne web, telles que les propriétés de la campagne, l’[audience](../audience/about-audiences.md) et le [planning](../campaigns/create-campaign.md#schedule).
 
@@ -92,7 +92,7 @@ Une fois que vous avez défini vos [paramètres de campagne web](#configure-web-
 
 1. Dans votre campagne web, sélectionnez **[!UICONTROL Examiner pour activer]**.
 
-1. Vérifiez et modifiez si nécessaire le contenu, les propriétés, la configuration, l’audience et la planification.
+1. Vérifiez et modifiez si nécessaire le contenu, les propriétés, la configuration, l’audience et le planning.
 
 1. Sélectionnez **[!UICONTROL Activer]**.
 

@@ -8,9 +8,9 @@ level: Experienced
 keyword: direct, mail, configuration, direct-mail, provider
 exl-id: ae5cc885-ade1-4683-b97e-eda1f2142041
 source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1384'
-ht-degree: 70%
+ht-degree: 100%
 
 ---
 
@@ -28,7 +28,7 @@ Avant de pouvoir générer ce fichier, vous devez créer les éléments suivants
    >
    >Pour créer une configuration de routage de fichier, vous devez disposer de l’autorisation intégrée **[!DNL Manage file routing]**. [En savoir plus](../administration/ootb-product-profiles.md#content-library-manager).
 
-1. Une [configuration de courrier](#direct-mail-configuration) qui fera référence à la configuration de routage de fichiers. Si vous n&#39;avez configuré aucune option de routage de fichier, vous ne pourrez pas créer de configuration de courrier.
+1. Une [configuration du publipostage direct](#direct-mail-configuration) qui fera référence à la configuration du routage des fichiers. Si vous n’avez configuré aucune option de routage de fichier, vous ne pourrez pas créer de configuration de publipostage direct.
 
 ## Configurer le routage des fichiers {#file-routing-configuration}
 
@@ -72,7 +72,7 @@ Pour configurer le routage des fichiers, suivez les étapes ci-dessous.
 
 >[!TAB Amazon S3]
 
-1. Accédez au menu **[!UICONTROL Administration]** > **[!UICONTROL Canaux]** > **[!UICONTROL Paramètres de courrier]** > **[!UICONTROL Routage de fichier]** , puis cliquez sur **[!UICONTROL Créer une configuration de routage]**.
+1. Accédez au menu **[!UICONTROL Administration]** > **[!UICONTROL Canaux]** > **[!UICONTROL Paramètres de publipostage direct]** > **[!UICONTROL Routage des fichiers]**, puis cliquez sur **[!UICONTROL Créer une configuration de routage]**.
 
    ![](assets/file-routing-config-button.png){width="800" align="center"}
 
@@ -96,13 +96,13 @@ Pour configurer le routage des fichiers, suivez les étapes ci-dessous.
 
 1. Pour chiffrer le fichier, copiez-collez votre clé de chiffrement dans le champ **[!UICONTROL Clé de chiffrement PGP/GPG]**.
 
-1. Sélectionnez **[!UICONTROL Envoyer]**. La configuration du routage des fichiers est créée avec le statut **[!UICONTROL Actif]**. Il est maintenant prêt à être utilisé dans une [configuration de courrier](#direct-mail-surface).
+1. Sélectionnez **[!UICONTROL Envoyer]**. La configuration du routage des fichiers est créée avec le statut **[!UICONTROL Actif]**. Elle est maintenant prête à être utilisée dans une [configuration de publipostage direct](#direct-mail-surface).
 
-   Vous pouvez également sélectionner **[!UICONTROL Enregistrer en tant que brouillon]** pour créer la configuration de routage de fichier, mais vous ne pourrez pas la sélectionner dans une configuration tant qu&#39;elle n&#39;aura pas été **[!UICONTROL Active]**.
+   Vous pouvez également sélectionner **[!UICONTROL Enregistrer comme brouillon]** pour créer la configuration du routage des fichiers, mais vous ne pourrez pas la sélectionner pour une configuration tant qu&#39;elle ne sera pas **[!UICONTROL Active]**.
 
 >[!TAB SFTP]
 
-1. Accédez au menu **[!UICONTROL Administration]** > **[!UICONTROL Canaux]** > **[!UICONTROL Paramètres de courrier]** > **[!UICONTROL Routage de fichier]** , puis cliquez sur **[!UICONTROL Créer une configuration de routage]**.
+1. Accédez au menu **[!UICONTROL Administration]** > **[!UICONTROL Canaux]** > **[!UICONTROL Paramètres de publipostage direct]** > **[!UICONTROL Routage des fichiers]**, puis cliquez sur **[!UICONTROL Créer une configuration de routage]**.
 
    ![](assets/file-routing-config-button.png){width="800" align="center"}
 
@@ -126,13 +126,13 @@ Pour configurer le routage des fichiers, suivez les étapes ci-dessous.
 
 1. Pour chiffrer le fichier, copiez-collez votre clé de chiffrement dans le champ **[!UICONTROL Clé de chiffrement PGP/GPG]**.
 
-1. Sélectionnez **[!UICONTROL Envoyer]**. La configuration du routage des fichiers est créée avec le statut **[!UICONTROL Actif]**. Il est maintenant prêt à être utilisé dans une [configuration de courrier](#direct-mail-surface).
+1. Sélectionnez **[!UICONTROL Envoyer]**. La configuration du routage des fichiers est créée avec le statut **[!UICONTROL Actif]**. Elle est maintenant prête à être utilisée dans une [configuration de publipostage direct](#direct-mail-surface).
 
-   Vous pouvez également sélectionner **[!UICONTROL Enregistrer en tant que brouillon]** pour créer la configuration de routage de fichier, mais vous ne pourrez pas la sélectionner dans une configuration tant qu&#39;elle n&#39;aura pas été **[!UICONTROL Active]**.
+   Vous pouvez également sélectionner **[!UICONTROL Enregistrer comme brouillon]** pour créer la configuration du routage des fichiers, mais vous ne pourrez pas la sélectionner pour une configuration tant qu&#39;elle ne sera pas **[!UICONTROL Active]**.
 
 >[!TAB Azure]
 
-1. Accédez au menu **[!UICONTROL Administration]** > **[!UICONTROL Canaux]** > **[!UICONTROL Paramètres de courrier]** > **[!UICONTROL Routage de fichier]** , puis cliquez sur **[!UICONTROL Créer une configuration de routage]**.
+1. Accédez au menu **[!UICONTROL Administration]** > **[!UICONTROL Canaux]** > **[!UICONTROL Paramètres de publipostage direct]** > **[!UICONTROL Routage des fichiers]**, puis cliquez sur **[!UICONTROL Créer une configuration de routage]**.
 
    ![](assets/file-routing-config-button.png){width="800" align="center"}
 
@@ -156,18 +156,18 @@ Pour configurer le routage des fichiers, suivez les étapes ci-dessous.
 
 1. Pour chiffrer le fichier, copiez-collez votre clé de chiffrement dans le champ **[!UICONTROL Clé de chiffrement PGP/GPG]**.
 
-1. Sélectionnez **[!UICONTROL Envoyer]**. La configuration du routage des fichiers est créée avec le statut **[!UICONTROL Actif]**. Il est maintenant prêt à être utilisé dans une [configuration de courrier](#direct-mail-surface).
+1. Sélectionnez **[!UICONTROL Envoyer]**. La configuration du routage des fichiers est créée avec le statut **[!UICONTROL Actif]**. Elle est maintenant prête à être utilisée dans une [configuration de publipostage direct](#direct-mail-surface).
 
-   Vous pouvez également sélectionner **[!UICONTROL Enregistrer en tant que brouillon]** pour créer la configuration de routage de fichier, mais vous ne pourrez pas la sélectionner dans une configuration tant qu&#39;elle n&#39;aura pas été **[!UICONTROL Active]**.
+   Vous pouvez également sélectionner **[!UICONTROL Enregistrer comme brouillon]** pour créer la configuration du routage des fichiers, mais vous ne pourrez pas la sélectionner pour une configuration tant qu’elle ne sera pas **[!UICONTROL Active]**.
 
 >[!ENDTABS]
 
-## Créer une configuration de courrier {#direct-mail-surface}
+## Créer une configuration de publipostage direct {#direct-mail-surface}
 
 >[!CONTEXTUALHELP]
 >id="ajo_dm_surface_settings"
 >title="Définir les paramètres du publipostage direct"
->abstract="Une configuration courrier contient les paramètres de formatage du fichier qui contient les données d&#39;audience ciblées et qui seront utilisés par le prestataire de services postaux. Vous devez également définir l’endroit où le fichier sera exporté en sélectionnant la configuration du routage du fichier."
+>abstract="Une configuration de publipostage direct contient les paramètres de formatage du fichier qui contient les données de l’audience ciblée et qui seront utilisées par le fournisseur du publipostage direct. Vous devez également définir l’endroit où le fichier sera exporté en sélectionnant la configuration du routage du fichier."
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/direct-mail/direct-mail-configuration.html?lang=fr#file-routing-configuration" text="Configurer le routage des fichiers"
 
 <!--
@@ -181,11 +181,11 @@ Pour configurer le routage des fichiers, suivez les étapes ci-dessous.
 >title="Définir le seuil de partage des fichiers"
 >abstract="Vous devez définir le nombre maximum d’enregistrements pour chaque fichier contenant les données d’audience. Vous pouvez sélectionner un nombre compris entre 1 et 200 000 enregistrements. Une fois le seuil spécifié atteint, un autre fichier sera créé pour les enregistrements restants."
 
-Pour pouvoir diffuser du courrier avec [!DNL Journey Optimizer], vous devez créer une configuration de canal afin de définir les paramètres de formatage du fichier qui sera utilisé par le fournisseur de services postaux.
+Pour pouvoir diffuser un publipostage direct avec [!DNL Journey Optimizer], vous devez créer une configuration de canal pour définir les paramètres de formatage du fichier qui sera utilisé par le fournisseur du courrier.
 
-Une configuration de courrier doit également inclure la configuration de routage de fichier qui définit le serveur sur lequel votre fichier de courrier sera exporté.
+Une configuration de publipostage direct doit également inclure la configuration du routage des fichiers qui définit le serveur sur lequel votre fichier de publipostage direct sera exporté.
 
-1. Dans le rail de gauche, accédez à **[!UICONTROL Administration]** > **[!UICONTROL Canaux]** et sélectionnez **[!UICONTROL Paramètres généraux]** > **[!UICONTROL Configurations de canal]**. Cliquez sur le bouton **[!UICONTROL Créer la configuration de canal]** . [En savoir plus](../configuration/channel-surfaces.md)
+1. Dans le rail de gauche, accédez à **[!UICONTROL Administration]** > **[!UICONTROL Canaux]** et sélectionnez **[!UICONTROL Paramètres généraux]** > **[!UICONTROL Configurations de canal]**. Cliquez sur le bouton **[!UICONTROL Créer une configuration de canal]**. [En savoir plus](../configuration/channel-surfaces.md)
 
    ![](assets/direct-mail-config-1.png)
 
@@ -201,9 +201,9 @@ Une configuration de courrier doit également inclure la configuration de routag
 
    ![](assets/direct-mail-config-2.png)
 
-1. Sélectionnez **[!UICONTROL Action marketing]** pour associer les stratégies de consentement aux messages utilisant cette configuration. Toutes les stratégies de consentement associées à l’action marketing sont exploitées afin de respecter les préférences de vos clients. [En savoir plus](../action/consent.md#surface-marketing-actions)
+1. Sélectionnez une **[!UICONTROL Action marketing]** ou plusieurs pour associer des politiques de consentement aux messages utilisant cette configuration. Toutes les politiques de consentement associées à cette action marketing sont utilisées afin de respecter les préférences de vos clientes et clients. [En savoir plus](../action/consent.md#surface-marketing-actions)
 
-1. Définissez les paramètres du courrier dans la section dédiée de la configuration du canal.
+1. Définissez les paramètres du publipostage direct dans la section dédiée de la configuration du canal.
 
    ![](assets/surface-direct-mail-settings.png){width="800" align="center"}
 
@@ -219,13 +219,13 @@ Une configuration de courrier doit également inclure la configuration de routag
 
    >[!CAUTION]
    >
-   >Si vous n&#39;avez configuré aucune option de routage de fichier, vous ne pourrez pas créer de configuration de courrier. [En savoir plus](#file-routing-configuration)
+   >Si vous n’avez configuré aucune option de routage de fichier, vous ne pourrez pas créer de configuration de publipostage direct. [En savoir plus](#file-routing-configuration)
 
    ![](assets/surface-direct-mail-file-routing.png){width="800" align="center"}
 
    <!--![](assets/surface-direct-mail-file-routing-with-insertion.png)-->
 
-1. Envoyez la configuration du courrier.
+1. Envoyez la configuration de publipostage direct.
 
 Vous pouvez désormais [créer un publipostage direct](../direct-mail/create-direct-mail.md) dans une campagne. Une fois la campagne lancée, le fichier contenant les données de l’audience ciblée sera automatiquement exporté vers le serveur que vous avez défini. Le fournisseur de publipostage direct pourra alors récupérer ce fichier et poursuivre la diffusion du publipostage direct.
 

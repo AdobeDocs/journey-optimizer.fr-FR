@@ -10,9 +10,9 @@ level: Experienced
 keywords: adresses IP, groupes, groupe, sous-domaines, délivrabilité
 exl-id: 606334c3-e3e6-41c1-a10e-63508a3ed747
 source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '721'
-ht-degree: 78%
+ht-degree: 100%
 
 ---
 
@@ -44,7 +44,7 @@ Par exemple, il est recommandé d&#39;avoir un pool d&#39;adresses IP pour vos m
 
 Pour créer un pool d&#39;adresses IP, procédez comme suit :
 
-1. Accédez au menu **[!UICONTROL Administration]** > **[!UICONTROL Canaux]** > **[!UICONTROL Paramètres d’e-mail]** > **[!UICONTROL pools d’adresses IP]**, puis cliquez sur **[!UICONTROL Créer un pool d’adresses IP]**.
+1. Accédez au menu **[!UICONTROL Administration]** > **[!UICONTROL Canaux]** > **[!UICONTROL Paramètres des e-mails]** > **[!UICONTROL Groupes d’adresses IP]**, puis cliquez sur **[!UICONTROL Créer un groupe d’adresses IP]**.
 
    ![](assets/ip-pool-create.png)
 
@@ -74,9 +74,9 @@ Une fois un groupe d’adresses IP créé, les informations PTR sont visibles lo
 
 ![](assets/ip-pool-ptr-record-tooltip.png)
 
-Le pool d&#39;adresses IP est maintenant créé et s&#39;affiche dans la liste. Vous pouvez la sélectionner pour accéder à ses propriétés et afficher la configuration de canal associée (c’est-à-dire le paramètre prédéfini de message). Pour plus d&#39;informations sur l&#39;association d&#39;une configuration de canal à un pool d&#39;adresses IP, consultez [cette section](channel-surfaces.md).
+Le groupe d&#39;adresses IP est maintenant créé et s&#39;affiche dans la liste. Vous pouvez le sélectionner pour accéder à ses propriétés et afficher la configuration de canal associée (c’est-à-dire le paramètres prédéfini de message). Pour plus d’informations sur l’association d’une configuration de canal à un groupe d’adresses IP, consultez [cette section](channel-surfaces.md).
 
-## Modification d&#39;un pool d&#39;adresses IP {#edit-ip-pool}
+## Modifier un groupe d’adresses IP {#edit-ip-pool}
 
 Pour modifier un groupe dʼadresses IP, suivez les étapes ci-dessous.
 
@@ -96,14 +96,14 @@ Pour modifier un groupe dʼadresses IP, suivez les étapes ci-dessous.
 
 1. Enregistrez vos modifications.
 
-La mise à jour est effective immédiatement ou de manière asynchrone, selon que le pool IP est associé ou non à une [configuration de canal](channel-surfaces.md) :
+La mise à jour est effective immédiatement ou de manière asynchrone, selon que le groupe d’adresses IP est associé ou non à une [configuration de canal](channel-surfaces.md) :
 
-* Si le pool IP est **et non** associé à une configuration de canal, la mise à jour est instantanée (**[!UICONTROL statut de succès]**).
-* Si le pool d&#39;adresses IP **est** associé à une configuration de canal, la mise à jour peut prendre jusqu&#39;à 3 heures (état **[!UICONTROL Traitement]** ).
+* Si le groupe d’adresses IP **n’est pas** associé à une quelconque configuration de canal, la mise à jour est instantanée (statut **[!UICONTROL Succès]**).
+* Si le groupe d’adresses IP **est** associé à une configuration de canal, la mise à jour peut prendre jusqu’à 3 heures (statut **[!UICONTROL En cours de traitement]**).
 
 >[!NOTE]
 >
->Lors de la [création d’une configuration de canal](channel-surfaces.md#create-channel-surface), si vous sélectionnez un pool d’adresses IP en cours d’édition (**[!UICONTROL état de traitement]**) et que vous n’avez jamais été associé au sous-domaine sélectionné pour cette configuration, vous ne pouvez pas poursuivre la création de configuration. [En savoir plus](channel-surfaces.md#subdomains-and-ip-pools)
+>Lors de la [création d’une configuration de canal](channel-surfaces.md#create-channel-surface), si vous sélectionnez un groupe d’adresses IP en cours d’édition (statut **[!UICONTROL En cours de traitement]**) et qui n’a jamais été associé au sous-domaine sélectionné pour cette configuration, vous ne pouvez pas poursuivre la création de la configuration. [En savoir plus](channel-surfaces.md#subdomains-and-ip-pools)
 
 Pour vérifier l’état de mise à jour du pool d’adresses IP, cliquez sur le bouton **[!UICONTROL Autres actions]** et sélectionnez **[!UICONTROL Mises à jour récentes]**.
 
@@ -115,5 +115,5 @@ Pour vérifier l’état de mise à jour du pool d’adresses IP, cliquez sur le
 >* quelques minutes avant qu&#39;il soit consommé par les messages unitaires ;
 >* jusqu’au lot suivant pour que le pool d’adresses IP soit effectif dans les messages par lots ;
 
-Vous pouvez également utiliser le bouton **[!UICONTROL Supprimer]** pour supprimer un pool d’adresses IP. Notez que vous ne pouvez pas supprimer un pool d’adresses IP associé à une configuration de canal.
+Vous pouvez également utiliser le bouton **[!UICONTROL Supprimer]** pour supprimer un pool d’adresses IP. Sachez que vous ne pouvez pas supprimer un groupe d’adresses IP associé à une configuration de canal.
 

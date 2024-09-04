@@ -7,9 +7,9 @@ role: User
 level: Beginner
 exl-id: 3847ac1d-2c0a-4f80-8df9-e8e304faf261
 source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1057'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -36,7 +36,7 @@ Accédez aux sections suivantes pour en savoir plus sur chaque rubrique :
 >[!CONTEXTUALHELP]
 >id="ajo_web_url_to_edit_surface"
 >title="Confirmer l’URL à modifier"
->abstract="Confirmez l&#39;URL de la page web spécifique à utiliser pour éditer le contenu qui sera appliqué sur la configuration web définie ci-dessus. La page web doit être implémentée à l’aide du SDK Web Adobe Experience Platform."
+>abstract="Confirmez l’URL de la page web spécifique à utiliser pour modifier le contenu qui sera appliquée sur la configuration web définie ci-dessus. La page web doit être implémentée à l’aide du SDK Web Adobe Experience Platform."
 >additional-url="https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html?lang=fr" text="En savoir plus"
 
 >[!CONTEXTUALHELP]
@@ -55,7 +55,7 @@ Pour commencer à créer votre campagne web, procédez comme suit :
 
    >[!NOTE]
    >
-   >Si vous avez saisi une seule URL comme configuration web, l’URL à personnaliser est déjà renseignée.
+   >Si vous avez saisi une seule URL comme configuration web, l’URL à personnaliser est déjà renseignée.
 
    ![](assets/web-edit-enter-url.png)
 
@@ -152,13 +152,13 @@ Cette section décrit les différentes manières de naviguer dans le concepteur 
 >[!CONTEXTUALHELP]
 >id="ajo_web_designer_browse"
 >title="Utiliser le mode de navigation"
->abstract="Dans ce mode, vous pouvez accéder à la page exacte à partir de la configuration sélectionnée à personnaliser."
+>abstract="Dans ce mode, vous pouvez accéder à la page exacte à partir de la configuration sélectionnée que vous voulez personnaliser."
 
 Vous pouvez passer du mode **[!UICONTROL Conception]** par défaut au mode de **[!UICONTROL Navigation]** à l’aide du bouton dédié.
 
 ![](assets/web-designer-browse-mode.png)
 
-En mode **[!UICONTROL Parcourir]** , vous pouvez accéder à la page exacte à partir de la configuration sélectionnée à personnaliser.
+Dans le mode de **[!UICONTROL Navigation]**, vous pouvez accéder à la page exacte à partir de la configuration sélectionnée à personnaliser.
 
 Il est particulièrement utile lorsque vous traitez des pages qui se trouvent derrière une authentification ou qui ne sont pas disponibles depuis le début à une certaine URL. Par exemple, vous serez en mesure de vous authentifier, d’accéder à la page de votre compte ou à la page de votre panier, puis de revenir au mode **[!UICONTROL Conception]** pour effectuer les modifications sur la page souhaitée.
 

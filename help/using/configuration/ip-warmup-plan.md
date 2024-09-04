@@ -10,15 +10,15 @@ level: Experienced
 keywords: IP, groupe, sous-domaines, délivrabilité
 exl-id: c2434086-2ed4-4cd0-aecd-2eea8f0a55f6
 source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1669'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
 # Créer un plan de préchauffage d’adresses IP {#ip-warmup}
 
-Une fois que vous avez créé une ou plusieurs [campagnes de chaleur IP](ip-warmup-campaign.md) avec une configuration dédiée et que l’option correspondante est activée, vous pouvez commencer à créer votre plan de chaleur IP.
+Une fois que vous avez créé une ou plusieurs [campagnes de préchauffage d’adresses IP](ip-warmup-campaign.md) avec une configuration dédiée et l’option correspondante activée, vous pouvez commencer à créer votre plan de préchauffage d’adresses IP.
 
 Pour créer, modifier supprimer des plans de préchauffage d’adresses IP et y accéder, vous devez disposer des autorisations associées au rôle **[!UICONTROL Consultant en délivrabilité]** ou aux plans de préchauffage des adresses IP.
 
@@ -238,7 +238,7 @@ Chaque domaine s’affiche désormais dans une colonne différente sur la même 
 
 ## Accéder à des plans de préchauffage d’adresses IP et les gérer {#manage-ip-warmup-plans}
 
-1. Accédez au menu **[!UICONTROL Administration]** > **[!UICONTROL Canaux]** > **[!UICONTROL Paramètres des emails]** > **[!UICONTROL Plans de chauffage par IP]** . Tous les plans de préchauffage d’adresses IP créés jusqu’à présent s’affichent.
+1. Accédez au menu **[!UICONTROL Administration]** > **[!UICONTROL Canaux]** > **[!UICONTROL Paramètres des e-mails]** > **[!UICONTROL Plans de préchauffage d’adresses IP]**. Tous les plans de préchauffage d’adresses IP créés jusqu’à présent s’affichent.
 
    ![](assets/ip-warmup-filter-list.png)
 
@@ -271,14 +271,14 @@ Chaque domaine s’affiche désormais dans une colonne différente sur la même 
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_ip_warmup_surface"
->title="Sélection d’une configuration marketing"
->abstract="Vous devez sélectionner la même configuration que celle sélectionnée dans l&#39;opération que vous souhaitez associer à votre plan de chauffage par IP."
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/channel-surfaces.html?lang=fr" text="Configuration des configurations de canal"
+>title="Sélectionner une configuration marketing"
+>abstract="Vous devez sélectionner la même configuration que celle sélectionnée dans la campagne que vous souhaitez associer à votre plan de préchauffage des adresses IP."
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/channel-surfaces.html?lang=fr" text="Paramétrer des configurations de canal"
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/channel-surfaces.html?lang=fr" text="Créer des campagnes de préchauffage d’adresses IP"
 
 Pour créer une campagne de préchauffage d’adresses IP, suivez les étapes ci-dessous.
 
-1. Accédez au menu **[!UICONTROL Administration]** > **[!UICONTROL Canaux]** > **[!UICONTROL Paramètres des e-mails]**> **[!UICONTROL Plans de chauffage d’IP]**, puis cliquez sur **[!UICONTROL Créer un plan de chauffage d’IP]**.
+1. Accédez au menu **[!UICONTROL Administration]** > **[!UICONTROL Canaux]** > **[!UICONTROL Paramètres des e-mails]** > **[!UICONTROL Plans de préchauffage d’adresses IP]**, puis cliquez sur **[!UICONTROL Créer un plan de préchauffage d’adresses IP]**.
 
    ![](assets/ip-warmup-create-plan.png)
 
@@ -286,11 +286,11 @@ Pour créer une campagne de préchauffage d’adresses IP, suivez les étapes ci
 
    ![](assets/ip-warmup-plan-details.png)
 
-1. Sélectionnez la [configuration](channel-surfaces.md) que vous souhaitez réchauffer. Seules les configurations marketing peuvent être sélectionnées. [En savoir plus sur le type d’e-mail](../email/email-settings.md#email-type)
+1. Sélectionnez la [configuration](channel-surfaces.md) que vous voulez préchauffer. Seules les configurations marketing peuvent être sélectionnées. [En savoir plus sur le type d’e-mail](../email/email-settings.md#email-type)
 
    >[!NOTE]
    >
-   >Les campagnes que vous souhaitez associer à votre plan de réchauffement des adresses IP doivent utiliser la même configuration. [Découvrez comment créer une campagne de préchauffage d’adresses IP](ip-warmup-campaign.md).
+   >Les campagnes que vous souhaitez associer à votre plan de préchauffage des adresses IP doivent utiliser la même configuration. [Découvrez comment créer une campagne de préchauffage d’adresses IP](ip-warmup-campaign.md).
 
 1. Chargez le fichier Excel contenant votre plan de préchauffage d’adresses IP. [En savoir plus](#prepare-file)
 

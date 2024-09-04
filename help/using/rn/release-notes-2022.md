@@ -10,9 +10,9 @@ level: Beginner, Intermediate
 hidefromtoc: true
 exl-id: 0997a640-3f89-4460-ba93-ea21a9d4efc5
 source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '3598'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -217,8 +217,8 @@ Cette page répertorie toutes les fonctionnalités et améliorations pour [!DNL 
 **Administration**
 
 * Lors de l’activation ou de la désactivation de la liste autorisée, un nouveau message d’avertissement s’affiche désormais pour détailler les impacts de chaque action. [En savoir plus](../configuration/allow-list.md#enable-allow-list)
-* Mise à jour de l’interface utilisateur pour la création de configurations de canal, la création de pools IP, la gestion de la liste de suppression et de la liste autorisée, ainsi que la configuration du canal SMS -
-* Désormais, lors de la création de la première configuration de canal pour un sous-domaine donné, le temps de traitement prendra entre 10 minutes et 10 jours, et jusqu’à 3 heures uniquement pour les surfaces suivantes utilisant ce sous-domaine. [En savoir plus](../configuration/channel-surfaces.md#create-channel-surface)
+* Mise à jour de l’interface d’utilisation pour la création de configurations de canal, la création de groupes d’adresses IP, la gestion de la liste de suppressions et de la liste autorisée, ainsi que la configuration du canal SMS.
+* Désormais, lors de la création de la première configuration de canal pour un sous-domaine donné, le temps de traitement prend entre 10 minutes et 10 jours, et jusqu’à 3 heures seulement pour les surfaces suivantes utilisant ce sous-domaine. [En savoir plus](../configuration/channel-surfaces.md#create-channel-surface)
 * Mise à jour de l’interface utilisateur pour la création de préréglages de pages de destination et de sous-domaines de pages de destination. [En savoir plus](../landing-pages/lp-subdomains.md)
 
 **Contrôles d’audit**
@@ -399,7 +399,7 @@ Cette page répertorie toutes les fonctionnalités et améliorations pour [!DNL 
 
 **Messages**
 
-* Les paramètres de message prédéfinis sont désormais **configurations de canal**. [En savoir plus](../configuration/channel-surfaces.md)
+* Les paramètres prédéfinis de messages sont désormais les **configurations de canal**. [En savoir plus](../configuration/channel-surfaces.md)
 
 **Administration**
 

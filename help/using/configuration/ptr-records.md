@@ -10,9 +10,9 @@ level: Experienced
 keywords: sous-domaine, PTR, enregistrements, DNS, domaine, courrier
 exl-id: 4c930792-0677-4ad5-a46c-8d40fc3c4d3a
 source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '840'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -36,7 +36,7 @@ Avec les enregistrements PTR, les serveurs de messagerie de réception peuvent v
 
 ## Accès aux enregistrements PTR de vos sous-domaines {#access-ptr-records}
 
-Dès que vous [déléguez](delegate-subdomain.md) votre premier sous-domaine à Adobe dans [!DNL Journey Optimizer], les enregistrements PTR sont automatiquement créés pour vos adresses IP. Vous pouvez y accéder à partir du menu **[!UICONTROL Administration]** > **[!UICONTROL Canaux]** > **[!UICONTROL Paramètres des emails]** > **[!UICONTROL Enregistrements PTR]** .
+Dès que vous [déléguez](delegate-subdomain.md) votre premier sous-domaine à Adobe dans [!DNL Journey Optimizer], les enregistrements PTR sont automatiquement créés pour vos adresses IP. Vous pouvez y accéder à partir du menu **[!UICONTROL Administration]** > **[!UICONTROL Canaux]** > **[!UICONTROL Paramètres des e-mails]** > **[!UICONTROL Enregistrements PTR]**.
 
 ![](assets/ptr-records.png)
 

@@ -9,9 +9,9 @@ role: User
 level: Beginner
 exl-id: 1f88626a-b491-4b36-8e3f-57f2b7567dd0
 source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1016'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
@@ -41,13 +41,13 @@ Accédez aux onglets ci-dessous pour savoir comment ajouter un message texte (SM
 
    ![](assets/sms_create_1.png)
 
-1. Fournissez des informations de base sur votre message (libellé, description, catégorie), puis choisissez la configuration du message à utiliser.
+1. Fournissez des informations de base sur votre message (libellé, description, catégorie), puis choisissez la configuration de message à utiliser.
 
    ![](assets/sms_create_2.png)
 
-   Pour plus d’informations sur la configuration de votre parcours, consultez cette [page](../building-journeys/journey-gs.md).
+   Pour plus d’informations sur la configuration de votre parcours, consultez [cette page](../building-journeys/journey-gs.md).
 
-   Le champ **[!UICONTROL configuration]** est prérempli par défaut avec la dernière configuration utilisée par l’utilisateur pour ce canal.
+   Par défaut, le champ de **[!UICONTROL configuration]** est prérempli avec la dernière configuration utilisée par l’utilisateur ou l’utilisatrice pour ce canal.
 
 Vous pouvez maintenant commencer à concevoir le contenu de votre message SMS en cliquant sur le bouton **[!UICONTROL Modifier le contenu]**, comme illustré ci-dessous.
 
@@ -57,9 +57,9 @@ Vous pouvez maintenant commencer à concevoir le contenu de votre message SMS en
 
 1. Sélectionner le type de campagne que vous souhaitez exécuter.
 
-   * **Scheduled - Marketing** : permet d’exécuter la campagne immédiatement ou à une date spécifiée. Les campagnes planifiées visent à envoyer des messages marketing. Ils sont configurés et exécutés à partir de l’interface utilisateur.
+   * **Scheduled - Marketing** : permet d’exécuter la campagne immédiatement ou à une date spécifiée. Les campagnes planifiées visent à envoyer des messages marketing. Elles sont configurées et exécutées à partir de l’interface d’utilisation.
 
-   * **API-triggered - Marketing/Transactional** : permet d’exécuter la campagne à l’aide d’un appel API. Les campagnes déclenchées par l’API sont destinées à envoyer des messages marketing ou transactionnels, c’est-à-dire des messages envoyés suite à une action effectuée par un individu : réinitialisation de mot de passe, achat de panier, etc.
+   * **API-triggered - Marketing/Transactional** : permet d’exécuter la campagne à l’aide d’un appel API. Les campagnes déclenchées par API sont destinées à envoyer des messages marketing, ou transactionnels, c’est-à-dire des messages envoyés suite à une action effectuée par une personne : réinitialisation du mot de passe, abandon de panier, etc.
 
 1. Dans la section **[!UICONTROL Propriétés]**, modifiez le **[!UICONTROL Titre]** et la **[!UICONTROL Description]** de votre campagne.
 
@@ -67,7 +67,7 @@ Vous pouvez maintenant commencer à concevoir le contenu de votre message SMS en
 
 1. Dans le champ **[!UICONTROL Espace de noms d’identité]**, choisissez l’espace de noms à utiliser pour identifier les personnes à partir de l’audience sélectionnée. [En savoir plus](../event/about-creating.md#select-the-namespace).
 
-1. Dans la section **[!UICONTROL Actions]** , sélectionnez le **[!UICONTROL SMS]** et sélectionnez ou créez une configuration.
+1. Dans la section **[!UICONTROL Actions]**, sélectionnez le **[!UICONTROL SMS]** et sélectionnez ou créez une configuration.
 
    Pour en savoir plus sur la configuration de SMS, consultez [cette page](sms-configuration.md).
 
@@ -109,7 +109,7 @@ Pour configurer le contenu de votre SMS, procédez comme suit. Les paramètres d
 
 1. Une fois le contenu défini, ajoutez les URL trackées à votre message. Pour ce faire, accédez au menu **[!UICONTROL Fonctions d’assistance]** et sélectionnez **[!UICONTROL Helpers]**.
 
-   Notez que pour utiliser la fonction de raccourcissement des URL, vous devez d’abord configurer un sous-domaine qui sera ensuite lié à votre configuration. [En savoir plus](sms-subdomains.md)
+   Notez que, pour utiliser la fonction de raccourcissement des URL, vous devez d’abord configurer un sous-domaine, qui sera ensuite lié à votre configuration. [En savoir plus](sms-subdomains.md)
 
    >[!CAUTION]
    >
