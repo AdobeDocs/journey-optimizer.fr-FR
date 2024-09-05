@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: canal, surface, technique, paramètres, optimizer
 exl-id: 9038528f-3da0-4e0e-9b82-b72c67b42391
-source-git-commit: 8fb87d2e2085d98dd8b014df6aa4d734bab4e997
-workflow-type: ht
-source-wordcount: '1721'
-ht-degree: 100%
+source-git-commit: 4cd7e193079f0e9d141d28ca80dd0cf7a899fbea
+workflow-type: tm+mt
+source-wordcount: '1737'
+ht-degree: 99%
 
 ---
 
@@ -123,7 +123,7 @@ Pour créer une configuration des canaux, procédez comme suit :
    >
    >Si les vérifications ne réussissent pas, découvrez les raisons possibles de l’échec dans [cette section](#monitor-channel-surfaces).
 
-1. Une fois les vérifications effectuées, la configuration de canal obtient le statut **[!UICONTROL Actif]**. Elle est prête à être utilisée pour diffuser des messages.
+1. Une fois les contrôles réussis, la configuration de canal obtient le statut **[!UICONTROL Actif]**. Elle est prête à être utilisée pour diffuser des messages.
 
    ![](assets/preset-active.png)
 
@@ -267,14 +267,13 @@ Pour empêcher la création de nouveaux messages à partir d’une configuration
 >
 >Une fois désactivées, les configurations de canaux ne peuvent pas être supprimées pour éviter tout problème dans les parcours les utilisant pour l’envoi des messages.
 
-Vous ne pouvez pas modifier directement une configuration de canal désactivée. Cependant, vous pouvez le dupliquer et modifier la copie pour créer une nouvelle version que vous utiliserez pour créer de nouveaux messages. Vous pouvez également l’activer à nouveau et attendre que la mise à jour soit réussie pour le modifier.
+Vous ne pouvez pas modifier directement une configuration de canal désactivée. Cependant, vous pouvez le dupliquer et modifier la copie pour créer une nouvelle version que vous utiliserez pour créer de nouveaux messages. Vous pouvez également l’activer à nouveau et attendre que la mise à jour soit réussie pour le modifier. 
 
 ![](assets/preset-activate.png)
 
-<!--
-## How-to video{#video-presets}
 
-Learn how to create channel configurations, how to use them and how to delegate a subdomain and create an IP pool.
+## Vidéo pratique{#video-presets}
 
->[!VIDEO](https://video.tv.adobe.com/v/334343?quality=12)
--->
+Découvrez les configurations de canal et leur utilisation dans Adobe Journey Optimizer.
+
+>[!VIDEO](https://video.tv.adobe.com/v/3433124/?learn=on)
