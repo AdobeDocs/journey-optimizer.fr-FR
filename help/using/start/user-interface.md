@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
-source-git-commit: 762fa346d9303865f1509bfc9c2e9cb3528227e4
+source-git-commit: 6c2e974cb690866e9c34e80ba9e48b5375185024
 workflow-type: tm+mt
-source-wordcount: '1412'
-ht-degree: 97%
+source-wordcount: '1471'
+ht-degree: 94%
 
 ---
 
@@ -237,3 +237,45 @@ Pour modifier la langue :
 >id="ajo_rule_set_prioritization"
 >title="Facteur de hiérarchisation"
 >abstract="À déterminer"
+
+<!--CONTENT LOCKING-->
+
+>[!CONTEXTUALHELP]
+>id="ajo_locking_governance"
+>title="Gouvernance"
+>abstract="Gouvernance"
+
+>[!CONTEXTUALHELP]
+>id="ajo_locking_mode"
+>title="Mode"
+>abstract="Mode"
+
+>[!CONTEXTUALHELP]
+>id="ajo_locking_content_addition"
+>title="Activation de l’ajout de contenu"
+>abstract="Activation de l’ajout de contenu"
+
+>[!CONTEXTUALHELP]
+>id="ajo_locking_structure"
+>title="Le verrouillage du contenu dans la structure"
+>abstract="Le verrouillage du contenu dans la structure"
+
+>[!CONTEXTUALHELP]
+>id="ajo_locking_component"
+>title="Utilisation d’un verrouillage spécifique dans le composant"
+>abstract="Utilisation d’un verrouillage spécifique dans le composant"
+
+>[!CONTEXTUALHELP]
+>id="ajo_email_editable_areas"
+>title="Mettre en surbrillance les zones modifiables"
+>abstract="Mettre en surbrillance les zones modifiables"
+
+>[!CONTEXTUALHELP]
+>id="ajo_email_locking_activated"
+>title="Gouvernance activée"
+>abstract="Le verrouillage du contenu est activé et peut vous empêcher d’effectuer des modifications."
+
+>[!CONTEXTUALHELP]
+>id="ajo_email_locking_read_only"
+>title="Lecture seule"
+>abstract="Ce contenu est en lecture seule et ne peut pas être modifié."
