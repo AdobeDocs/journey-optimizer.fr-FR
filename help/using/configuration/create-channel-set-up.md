@@ -11,7 +11,7 @@ keywords: canal, surface, technique, paramètres, optimizer
 source-git-commit: 77e2892dc188ebdd79031792434b4f55913ee811
 workflow-type: tm+mt
 source-wordcount: '646'
-ht-degree: 4%
+ht-degree: 76%
 
 ---
 
@@ -20,64 +20,64 @@ ht-degree: 4%
 >[!CONTEXTUALHELP]
 >id="ajo_mobile_web_setup_javascript_code"
 >title="Code JavaScript"
->abstract="La balise d’en-tête contient les métadonnées et les ressources essentielles qui sont chargées avant le contenu principal de votre page web. Le placement du code dans cette section garantit qu’il est correctement initialisé et exécuté tôt, ce qui permet à votre page web de se charger et de fonctionner efficacement. En ajoutant du code à la section head , vous améliorez la structure, les performances et l’expérience utilisateur globale de votre site."
+>abstract="La balise d’en-tête contient les métadonnées et les ressources essentielles qui sont chargées avant le contenu principal de votre page web. Le placement du code dans cette section garantit son initialisation correcte et son exécution précoce, ce qui permet à votre page web de se charger et de fonctionner efficacement. En ajoutant du code à la section head , vous améliorez la structure, les performances et l’expérience utilisateur globale de votre site."
 
 >[!CONTEXTUALHELP]
 >id="ajo_mobile_web_setup_push_token"
 >title="Récupérer le jeton d’appareil"
->abstract="Pour vous assurer que le jeton push du périphérique est correctement synchronisé avec votre profil Adobe Experience Platform, vous devez incorporer le code suivant dans votre application. Cette intégration est essentielle pour maintenir des fonctionnalités de communication à jour et garantir une expérience utilisateur transparente."
+>abstract="Pour vous assurer que le jeton push du périphérique est correctement synchronisé avec votre profil Adobe Experience Platform, vous devez incorporer le code suivant dans votre application. Cette intégration est essentielle pour maintenir des fonctionnalités de communication à jour et garantir une expérience d’utilisation transparente."
 
 >[!CONTEXTUALHELP]
 >id="ajo_mobile_web_setup_push_xcode"
 >title="Lancer l’application à partir de Xcode"
->abstract="Pour obtenir votre jeton push, commencez par lancer votre application à l’aide de Xcode. Une fois l’application lancée, redémarrez-la pour vous assurer que le processus de validation est terminé. Adobe fournira alors votre jeton push dans le cadre des résultats de la validation. Ce jeton est essentiel pour activer les notifications push et s’affiche une fois la configuration validée."
+>abstract="Pour obtenir votre jeton push, commencez par lancer votre application à l’aide de Xcode. Une fois l’application lancée, redémarrez-la pour vous assurer que le processus de validation est terminé. Adobe fournira alors votre jeton push dans le cadre des résultats de la validation. Ce jeton est essentiel pour activer les notifications push et s’affiche une fois le paramétrage validé."
 
 >[!CONTEXTUALHELP]
 >id="ajo_mobile_web_push_certificate_fcm"
 >title="Fournir un certificat push"
->abstract="Glissez-déposez votre fichier de clé privée .json . Ce fichier contient les informations d’authentification requises pour l’intégration et la communication sécurisées entre votre application et le serveur."
+>abstract="Glissez-déposez votre fichier de clé privée .json. Ce fichier contient les informations d’authentification requises pour l’intégration et la communication sécurisées entre votre application et le serveur."
 
 >[!CONTEXTUALHELP]
 >id="ajo_mobile_web_setup_push_certificate"
 >title="Fournir un certificat push"
->abstract="Le fichier de clé .p8 contient une clé privée utilisée pour authentifier votre application auprès des serveurs Apple pour les notifications push sécurisées. Vous pouvez acquérir cette clé à partir de la page Certificats, identifiants et profils de votre compte de développeur."
+>abstract="Le fichier de clé .p8 contient une clé privée utilisée pour authentifier votre application auprès des serveurs Apple pour les notifications push sécurisées. Vous pouvez acquérir cette clé à partir de la page Certificats, identifiants et profils de votre compte de développeur ou développeuse."
 
 >[!CONTEXTUALHELP]
 >id="ajo_mobile_web_setup_push_key_id"
 >title="ID de clé"
->abstract="L’ID de clé, une chaîne de 10 caractères attribuée lors de la création de la clé d’authentification p8, se trouve sous l’onglet **Clés** de la page Certificats, identifiants et profils de votre compte de développeur."
+>abstract="L’ID de clé, une chaîne de 10 caractères attribuée lors de la création de la clé d’authentification p8, se trouve sous l’onglet **Clés** de la page Certificats, identifiants et profils de votre compte de développeur ou développeuse."
 
 >[!CONTEXTUALHELP]
 >id="ajo_mobile_web_setup_push_team_id"
 >title="ID d’équipe"
->abstract="L’ID d’équipe, une valeur de chaîne utilisée pour identifier votre équipe, se trouve sous l’onglet **Adhésion** de votre compte de développeur."
+>abstract="L’ID d’équipe, une valeur de chaîne utilisée pour identifier votre équipe, se trouve sous l’onglet **Abonnement** de votre compte de développeur ou développeuse."
 
 
 Cette configuration simplifie la configuration rapide des canaux marketing, rendant toutes les ressources essentielles facilement disponibles dans les applications Experience Platform, Journey Optimizer et Data Collection. Cela permet à votre équipe marketing de commencer rapidement à créer des campagnes et des parcours.
 
-1. Sur la page d’accueil de Journey Optimizer, cliquez sur **[!UICONTROL Commencer]** dans la carte **[!UICONTROL Configurer les canaux mobiles et web]**.
+1. Sur la page d’accueil de Journey Optimizer, cliquez sur **[!UICONTROL Commencer]** dans la carte **[!UICONTROL Configurer les canaux mobiles et web]**.
 
    ![](assets/guided-setup-config-1.png)
 
-1. Créez une configuration **[!UICONTROL New]**.
+1. Créez une **[!UICONTROL nouvelle]** configuration.
 
    Si vous disposez déjà de configurations, vous pouvez en sélectionner une ou en créer une nouvelle.
 
    ![](assets/guided-setup-config-2.png)
 
-1. Saisissez un **[!UICONTROL Nom]** pour votre nouvelle configuration et sélectionnez ou créez votre **[!UICONTROL Datastream]**. Ce **[!UICONTROL nom]** sera utilisé pour toutes les ressources créées automatiquement.
+1. Saisissez un **[!UICONTROL Nom]** pour votre nouvelle configuration et sélectionnez ou créez votre **[!UICONTROL Train de données]**. Ce **[!UICONTROL nom]** sera utilisé pour toutes les ressources créées automatiquement.
 
-1. Si votre entreprise dispose de plusieurs jeux de données, sélectionnez-en un parmi les options existantes. Si vous ne disposez pas d’un flux de données, celui-ci sera créé automatiquement.
+1. Si votre entreprise dispose de plusieurs trains de données, sélectionnez-en un parmi les options existantes. Si vous n’en avez pas, un train de données sera créé automatiquement.
 
 1. Sélectionnez votre plateforme et cliquez sur **[!UICONTROL Créer automatiquement les ressources]**.
 
-1. Pour simplifier le processus de configuration, les ressources nécessaires sont automatiquement créées pour vous aider à démarrer. Cela inclut la création d’une **[!UICONTROL propriété de balise mobile]** et l’installation d’extensions.
+1. Pour simplifier le processus de configuration, les ressources nécessaires sont automatiquement créées pour vous aider à démarrer. Cela comprend la création d’une **[!UICONTROL propriété de balise mobile]** et l’installation d’extensions.
 
 [En savoir plus sur les ressources générées automatiquement](set-mobile-config.md#auto-create-resources)
 
 1. Une fois la génération des ressources terminée, suivez les instructions de l’interface utilisateur pour configurer et valider vos SDK et canaux.
 
-1. Une fois la configuration terminée, partagez la **[!UICONTROL configuration de canal]** générée automatiquement avec les membres de l’équipe chargés de la création des Parcours et des campagnes.
+1. Une fois la configuration terminée, partagez la **[!UICONTROL configuration de canal]** générée automatiquement avec les personnes membres de l’équipe chargées de créer des parcours et des campagnes.
 
    ![](assets/guided-setup-config-ios-8.png){zoomable="yes"}
 
@@ -85,9 +85,9 @@ Cette configuration simplifie la configuration rapide des canaux marketing, rend
 
 ## Modification d’une configuration existante mobile {#reconnect}
 
-Après avoir créé votre configuration, vous pouvez facilement la revoir à tout moment pour ajouter des canaux supplémentaires ou effectuer d’autres réglages en fonction de vos besoins.
+Une fois votre configuration créée, vous pouvez facilement la revoir à tout moment pour ajouter des canaux supplémentaires ou effectuer d’autres réglages en fonction de vos besoins.
 
-1. Sur la page d’accueil de Journey Optimizer, cliquez sur **[!UICONTROL Commencer]** dans la carte **[!UICONTROL Configurer les canaux mobiles et web]**.
+1. Sur la page d’accueil de Journey Optimizer, cliquez sur **[!UICONTROL Commencer]** dans la carte **[!UICONTROL Configurer les canaux mobiles et web]**.
 
    ![](assets/guided-setup-config-1.png)
 
@@ -95,11 +95,11 @@ Après avoir créé votre configuration, vous pouvez facilement la revoir à tou
 
    ![](assets/guided-setup-config-ios-9.png)
 
-1. Lors de l’accès à votre configuration existante, vous devez vous reconnecter à Adobe Assurance. Dans le menu Configuration du SDK, cliquez sur **[!UICONTROL Reconnecter]**.
+1. Lors de l’accès à votre configuration existante, vous devez vous reconnecter à Adobe Assurance. Dans le menu Configuration du SDK, cliquez sur **[!UICONTROL Reconnecter]**.
 
    ![](assets/guided-setup-config-ios-10.png)
 
-1. Sélectionnez votre appareil dans la liste déroulante **[!UICONTROL Appareils disponibles]** et cliquez sur **[!UICONTROL Se connecter]**.
+1. Sélectionnez votre appareil dans la liste déroulante **[!UICONTROL Périphériques disponibles]** et cliquez sur **[!UICONTROL Connecter]**.
 
    ![](assets/guided-setup-config-ios-11.png){zoomable="yes"}
 
