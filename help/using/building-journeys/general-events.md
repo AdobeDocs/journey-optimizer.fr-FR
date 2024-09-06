@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: personnalisé, général, événement, parcours
 exl-id: b1813122-7031-452e-9ac5-a4ea7c6dc57c
-source-git-commit: cc4ea97f858a212b82ac3b77328e61f59e3bfc27
+source-git-commit: 343e7bbebf35711259d2f3392f1ce5658865599a
 workflow-type: tm+mt
-source-wordcount: '605'
-ht-degree: 100%
+source-wordcount: '603'
+ht-degree: 92%
 
 ---
 
@@ -48,9 +48,9 @@ Pour configurer une temporisation d’événement, procédez comme suit :
 
 1. Activez l&#39;option **[!UICONTROL Définir la temporisation de l&#39;événement]** dans les propriétés de l&#39;événement.
 
-1. Définissez la durée pendant laquelle le parcours attendra l&#39;événement. La durée maximale est de 29 jours.
+1. Définissez la durée pendant laquelle le parcours attendra l&#39;événement. La durée maximum est de **90 jours**.
 
-1. Si vous souhaitez orienter les personnes vers un chemin de temporisation, alors qu’aucun événement n’est reçu au cours de la temporisation spécifiée, activez l’option **[!UICONTROL Ajouter un chemin de temporisation]**. Si cette option n’est pas activée, le parcours se poursuit pour la personne une fois la temporisation atteinte. Nous vous recommandons de toujours activer l’option **Ajouter un chemin de temporisation**.
+1. Lorsqu’aucun événement n’est reçu dans le délai d’expiration spécifié, la bonne pratique consiste à envoyer les individus dans un chemin d’accès au délai d’expiration. Pour ce faire, activez l’option **[!UICONTROL Définir un chemin d’accès au délai d’expiration]** . Dans ce cas, le parcours se poursuit pour l’individu une fois le délai d’expiration atteint. Nous vous recommandons de toujours activer l’option **[!UICONTROL Ajouter un chemin de temporisation]**.
 
    ![](assets/event-timeout.png)
 

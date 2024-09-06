@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: parcours, événements, réaction, tracking, platform
 exl-id: 235384f3-0dce-4797-8f42-1d4d01fa42d9
-source-git-commit: 110fd5f1055455ec040ab8de0b599a343e8de298
+source-git-commit: 343e7bbebf35711259d2f3392f1ce5658865599a
 workflow-type: tm+mt
 source-wordcount: '377'
 ht-degree: 100%
@@ -40,7 +40,7 @@ La procédure de configuration des événements de réaction comprend les étape
 1. Ajoutez un **[!UICONTROL libellé]** à la réaction. Cette étape est facultative.
 1. Dans la liste déroulante, sélectionnez l’activité d’action à laquelle vous souhaitez réagir. Vous pouvez sélectionner toute activité d’action figurant dans les étapes précédentes du chemin.
 1. Selon l’action que vous avez sélectionnée, choisissez ce à quoi vous souhaitez réagir.
-1. Vous pouvez définir une temporisation de l’événement (entre 40 secondes et 29 jours), ainsi qu’un chemin de temporisation. Cette opération crée un deuxième chemin pour les personnes qui n’ont pas réagi pendant la durée définie. Lors du test d’un parcours qui a recours à un événement de réaction, la **[!UICONTROL Durée d’attente]** du mode test par défaut ainsi que sa valeur minimale sont de 40 secondes. Consultez [cette section](../building-journeys/testing-the-journey.md).
+1. Vous pouvez définir une temporisation de l’événement (entre 40 secondes et 90 jours), ainsi qu’un chemin de temporisation. Cette opération crée un deuxième chemin pour les personnes qui n’ont pas réagi pendant la durée définie. Lors du test d’un parcours qui a recours à un événement de réaction, la **[!UICONTROL Durée d’attente]** du mode test par défaut ainsi que sa valeur minimale sont de 40 secondes. Consultez [cette section](../building-journeys/testing-the-journey.md).
 
 >[!NOTE]
 >
