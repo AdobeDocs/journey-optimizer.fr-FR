@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
-source-git-commit: 9f67f0395a789de066f527b43a25cd0d8501c205
+source-git-commit: a99d47c1f64b1cb3174fcc8f89d201bf66a36bb5
 workflow-type: tm+mt
-source-wordcount: '1479'
-ht-degree: 93%
+source-wordcount: '1520'
+ht-degree: 91%
 
 ---
 
@@ -286,3 +286,45 @@ Pour modifier la langue :
 >id="ajo_data_governance_policy_violation"
 >title="Violation de la politique de gouvernance des données"
 >abstract="Violation de la politique de gouvernance des données"
+
+<!--APPROVAL POLICIES-->
+
+>[!CONTEXTUALHELP]
+>id="ajo_permissions_approval_policy"
+>title="Stratégie de validation"
+>abstract="Stratégie de validation"
+
+>[!CONTEXTUALHELP]
+>id="ajo_approval_policy_request_approval"
+>title="Demander l’approbation"
+>abstract="Demande d’approbation (deux identifiants distincts ?)"
+
+>[!CONTEXTUALHELP]
+>id="ajo_approval_policy_request_change"
+>title="Demande de modification"
+>abstract="Demande de modification (deux identifiants distincts ?)"
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaigns_edit_disabled
+>title="Modifier désactivé"
+>abstract="Modifier désactivé (campagnes)"
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_edit_disabled
+>title="Modifier désactivé"
+>abstract="Modifier désactivé (parcours)"
+
+>[!CONTEXTUALHELP]
+>id="ajo_approval_policy_approval_status"
+>title="État de validation"
+>abstract="État de validation (deux ID distincts ?)"
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaigns_approve"
+>title="Approuver"
+>abstract="Approuver (campagnes)"
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_approve"
+>title="Approuver"
+>abstract="Approuver (parcours)"
