@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
-source-git-commit: a99d47c1f64b1cb3174fcc8f89d201bf66a36bb5
+source-git-commit: 9c6e4647b1c3f0b39ebfaa1711c5c87d0c7168e5
 workflow-type: tm+mt
 source-wordcount: '1520'
 ht-degree: 91%
@@ -305,12 +305,12 @@ Pour modifier la langue :
 >abstract="Demande de modification (deux identifiants distincts ?)"
 
 >[!CONTEXTUALHELP]
->id="ajo_campaigns_edit_disabled
+>id="ajo_campaigns_edit_disabled"
 >title="Modifier désactivé"
 >abstract="Modifier désactivé (campagnes)"
 
 >[!CONTEXTUALHELP]
->id="ajo_journey_edit_disabled
+>id="ajo_journey_edit_disabled"
 >title="Modifier désactivé"
 >abstract="Modifier désactivé (parcours)"
 
