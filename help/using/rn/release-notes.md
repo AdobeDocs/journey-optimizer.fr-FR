@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Notes de mise à jour d’Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 3a94d00a599a7dc87127802ceae91a552a0157ef
+source-git-commit: 5fd0ad50a39fbb57a2dd11ddb84f1d5b2598bcea
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '824'
+ht-degree: 90%
 
 ---
 
@@ -40,11 +40,16 @@ ht-degree: 0%
 <p>La configuration de canal guidée vous permet d’automatiser et de valider la configuration de canal dans une expérience unifiée, ce qui accélère le processus de prise en main de Journey Optimizer. Cette nouvelle configuration guidée simplifie la configuration rapide des canaux, en s’assurant que toutes les ressources nécessaires sont facilement installées et qu’elles fonctionnent dans Experience Platform, Journey Optimizer et la Collecte de données. Cela permet aux équipes d’ingénierie marketing, produit et données de lancer rapidement la création de campagnes et de parcours.</p>
 <p>Pour plus d’informations, consultez la <a href="../configuration/set-mobile-config.md">documentation détaillée</a>.</p>
 <img src="assets/do-not-localize/guided-setup.gif"/>
+<p>Date de disponibilité : 3 septembre</p>
 </br>
 </td>
 </tr>
 </tbody>
 </table>
+
+**Parcours**
+
+(Date de disponibilité : 10 septembre) **Fonctionnalité de reprise** - Les reprises sont désormais appliquées par défaut sur les parcours déclenchés par l’audience (commençant par une **audience de lecture** ou un **événement commercial**) lors de la récupération de la tâche d’exportation. Si une erreur se produit lors de la création de la tâche d’exportation, des reprises sont effectuées toutes les 10 minutes, pendant 1 heure au maximum. Après cela, nous le considérerons comme un échec. Ces types de parcours peuvent donc être exécutés jusqu’à 1 heure après l’heure planifiée. [En savoir plus](../building-journeys/read-audience.md#retries)
 
 ## Notes de mise à jour d’août 2024 {#8-2024}
 
