@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: activité, parcours, lecture, audience, platform
 exl-id: 7b27d42e-3bfe-45ab-8a37-c55b231052ee
-source-git-commit: 817f9c16ae48b1127e5092add6fbcefa8dd3ba9f
-workflow-type: ht
-source-wordcount: '1478'
-ht-degree: 100%
+source-git-commit: 75b7d7402363709a0790ffaae051cf836bed6c81
+workflow-type: tm+mt
+source-wordcount: '1635'
+ht-degree: 90%
 
 ---
 
@@ -31,7 +31,7 @@ Prenons l’exemple de l’audience « Ouverture et passage en caisse de l’ap
 
 ➡️ [Découvrir cette fonctionnalité en vidéo](#video)
 
-## À lire absolument {#must-read}
+## Barrières de sécurité et bonnes pratiques {#must-read}
 
 * Pour les parcours qui utilisent une activité **Lecture d’audience**, il y a un nombre maximal de parcours pouvant commencer exactement au même moment. Les reprises seront effectuées par le système, mais évitez d’avoir plus de cinq parcours (avec **Lecture d’audience**, planifié ou commençant « le plus tôt possible ») commençant exactement au même moment. La bonne pratique consiste à les espacer au fil du temps, par exemple avec une intervalle de 5 à 10 minutes.
 
@@ -40,6 +40,7 @@ Prenons l’exemple de l’audience « Ouverture et passage en caisse de l’ap
 * En guise de bonne pratique, il est recommandé d’utiliser uniquement des audiences par lots dans une activité **Lecture d’audience**. Cela permet un comptage fiable et cohérent des audiences utilisées dans un parcours. La lecture d’audience est conçue pour les cas d’utilisation par lots. Si votre cas d’utilisation nécessite des données en temps réel, utilisez l’activité **[Qualification de l’audience](audience-qualification-events.md)**.
 
 * Les audiences [importées d’un fichier CSV](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=fr#import-audience) ou résultant de [workflows de composition](../audience/get-started-audience-orchestration.md) peuvent être sélectionnées dans l’activité **Lecture d’audience**. Ces audiences ne sont pas disponibles dans l’activité **Qualification de l’audience**.
+
 
 Les mécanismes de sécurisation liés à l’activité **Lecture d’audience** sont répertoriées sur [cette page](../start/guardrails.md#read-segment-g).
 
@@ -192,6 +193,13 @@ Par exemple, après avoir suivi une expérience différente pendant dix jours d
 Après une union, vous pouvez fractionner à nouveau l’audience en exécutant une segmentation ou une exclusion.
 
 ![](assets/read-segment-audience3.png)
+
+
+## Reprises {#read-audience-retry}
+
+Les reprises sont appliquées par défaut sur les parcours déclenchés par l’audience (commençant par une **audience de lecture** ou un **événement commercial**) lors de la récupération de la tâche d’exportation. Si une erreur se produit lors de la création de la tâche d’exportation, des reprises sont effectuées toutes les 10 minutes, pendant 1 heure au maximum. Après cela, nous le considérerons comme un échec. Ces types de parcours peuvent donc être exécutés jusqu’à 1 heure après l’heure planifiée.
+
+Les déclencheurs **Lecture d’audience** échoués sont capturés et affichés dans les **Alertes**. L’alerte **Lecture d’audience** vous avertit si une activité **Lecture d’audience** n’a traité aucun profil 10 minutes après l’heure planifiée de l’exécution. Cet échec peut être dû à des problèmes techniques ou parce que l’audience est vide. Si cet échec est dû à des problèmes techniques, sachez que des reprises peuvent toujours se produire, selon le type de problème (par exemple : si la création de la tâche d’exportation a échoué, nous allons réessayer toutes les 10 minutes pour 1 h max). [En savoir plus](../reports/alerts.md#alert-read-audiences)
 
 ## Vidéo pratique {#video}
 

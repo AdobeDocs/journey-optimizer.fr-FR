@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: 428e08ca712724cb0b3453681bee1c7e86ce49dc
-workflow-type: ht
-source-wordcount: '2295'
-ht-degree: 100%
+source-git-commit: 75b7d7402363709a0790ffaae051cf836bed6c81
+workflow-type: tm+mt
+source-wordcount: '2361'
+ht-degree: 93%
 
 ---
 
@@ -142,11 +142,12 @@ Des mécanismes de sécurisation spécifiques s’appliquent à l’activité **
 Les mécanismes de sécurisation suivants s’appliquent à l’activité **[!UICONTROL Lecture d’audience]** :
 
 * Les audiences en flux continu sont toujours à jour, mais les audiences par lots ne sont pas calculées au moment de la récupération. Elles ne sont évaluées que tous les jours au moment de l’évaluation quotidienne des lots.
-* Pour les parcours qui utilisent une activité Lecture d’audience, il y a un nombre maximal de parcours pouvant commencer exactement au même moment. Les reprises seront effectuées par le système, mais évitez d’avoir plus de cinq parcours (avec Lecture d’audience, planifié ou commençant « le plus tôt possible ») commençant exactement au même moment en les répartissant dans le temps, par exemple à 5 ou 10 minutes d’intervalle.
-* L’activité Lecture d’audience ne peut pas être utilisée avec les activités Adobe Campaign.
-* L’activité Lecture d’audience ne peut être utilisée que comme première activité dans un parcours ou après une activité d’événement métier.
-* Un parcours ne peut avoir qu’une seule activité Lecture d’audience.
-* Voir aussi des recommandations sur l’utilisation de l’activité Lecture d’audience sur [cette page](../building-journeys/read-audience.md).
+* Pour les parcours qui utilisent une activité **Lecture d’audience**, il y a un nombre maximal de parcours pouvant commencer exactement au même moment. Les reprises seront effectuées par le système, mais évitez d’avoir plus de cinq parcours (avec **Lecture d’audience**, planifié ou commençant &quot;dès que possible&quot;) commençant exactement au même moment en les répartissant sur une période de 5 à 10 minutes d’intervalle, par exemple.
+* L’activité **Lecture d’audience** ne peut pas être utilisée avec les activités Adobe Campaign.
+* L’activité **Lecture d’audience** ne peut être utilisée qu’en tant que première activité dans un parcours, après une activité d’événement professionnel.
+* Un parcours ne peut avoir qu’une seule activité **Lecture d’audience**.
+* Voir aussi des recommandations sur l&#39;utilisation de l&#39;activité **Lecture d&#39;audience** dans [cette page](../building-journeys/read-audience.md).
+* Les reprises sont appliquées par défaut sur les parcours déclenchés par l’audience (commençant par une **audience de lecture** ou un **événement commercial**) lors de la récupération de la tâche d’exportation. Si une erreur se produit lors de la création de la tâche d’exportation, des reprises sont effectuées toutes les 10 minutes, pendant 1 heure au maximum. Après cela, nous le considérerons comme un échec. Ces types de parcours peuvent donc être exécutés jusqu’à 1 heure après l’heure planifiée.
 
 
 ### Qualification d’audience {#audience-qualif-g}
