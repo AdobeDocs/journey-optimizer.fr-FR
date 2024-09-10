@@ -11,7 +11,7 @@ exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
 source-git-commit: 6268aafbec0aa21a7c8881514227cdb41674791a
 workflow-type: tm+mt
 source-wordcount: '1521'
-ht-degree: 91%
+ht-degree: 97%
 
 ---
 
@@ -215,22 +215,22 @@ Pour modifier la langue :
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_conflict"
->title="Configuration de la visionneuse dans parcours"
->abstract="Configuration de la visionneuse dans parcours"
+>title="Visionneuse de conflits dans les parcours"
+>abstract="Visionneuse de conflits dans les parcours"
 
 >[!CONTEXTUALHELP]
 >id="ajo_rule_set_object_type"
->title="Type d’objet "
->abstract="Type d’objet "
+>title="Type d’objet"
+>abstract="Type d’objet"
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_rule_set"
->title="Application d’un jeu de règles aux parcours"
+>title="Appliquer un jeu de règles aux parcours"
 >abstract="À déterminer"
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_rule_set"
->title="Application d’un jeu de règles aux campagnes"
+>title="Appliquer un jeu de règles aux campagnes"
 >abstract="À déterminer"
 
 >[!CONTEXTUALHELP]
@@ -252,18 +252,18 @@ Pour modifier la langue :
 
 >[!CONTEXTUALHELP]
 >id="ajo_locking_content_addition"
->title="Activation de l’ajout de contenu"
->abstract="Activation de l’ajout de contenu"
+>title="Activer l’ajout de contenu"
+>abstract="Activer l’ajout de contenu"
 
 >[!CONTEXTUALHELP]
 >id="ajo_locking_structure"
->title="Le verrouillage du contenu dans la structure"
->abstract="Le verrouillage du contenu dans la structure"
+>title="Verrouillage du contenu dans la structure"
+>abstract="Verrouillage du contenu dans la structure"
 
 >[!CONTEXTUALHELP]
 >id="ajo_locking_component"
->title="Utilisation d’un verrouillage spécifique dans le composant"
->abstract="Utilisation d’un verrouillage spécifique dans le composant"
+>title="Utiliser un verrouillage spécifique dans le composant"
+>abstract="Utiliser un verrouillage spécifique dans le composant"
 
 >[!CONTEXTUALHELP]
 >id="ajo_email_editable_areas"

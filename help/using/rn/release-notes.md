@@ -8,8 +8,8 @@ description: Notes de mise à jour d’Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
 source-git-commit: 3a94d00a599a7dc87127802ceae91a552a0157ef
 workflow-type: tm+mt
-source-wordcount: '744'
-ht-degree: 85%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -37,7 +37,7 @@ ht-degree: 85%
 <tbody>
 <tr>
 <td>
-<p>La configuration guidée du canal vous permet d’automatiser et de valider la configuration du canal dans une expérience unifiée, ce qui accélère le processus de prise en main de Journey Optimizer. Cette nouvelle configuration assistée simplifie la configuration rapide des canaux, en s’assurant que toutes les ressources nécessaires sont facilement installées et qu’elles fonctionnent dans Experience Platform, Journey Optimizer et Data Collection. Cela permet aux équipes d’ingénierie marketing, produit et données de commencer rapidement par la création de campagnes et de parcours.</p>
+<p>La configuration de canal guidée vous permet d’automatiser et de valider la configuration de canal dans une expérience unifiée, ce qui accélère le processus de prise en main de Journey Optimizer. Cette nouvelle configuration guidée simplifie la configuration rapide des canaux, en s’assurant que toutes les ressources nécessaires sont facilement installées et qu’elles fonctionnent dans Experience Platform, Journey Optimizer et la Collecte de données. Cela permet aux équipes d’ingénierie marketing, produit et données de lancer rapidement la création de campagnes et de parcours.</p>
 <p>Pour plus d’informations, consultez la <a href="../configuration/set-mobile-config.md">documentation détaillée</a>.</p>
 <img src="assets/do-not-localize/guided-setup.gif"/>
 </br>
@@ -181,10 +181,10 @@ Cette version apporte les améliorations répertoriées ci-dessous.
 
 [Commencer avec la nouvelle interface de création de rapports de Journey Optimizer](../reports/report-gs-cja.md)
 
-* De nouveaux cas d’utilisation ont été ajoutés à la nouvelle expérience de création de rapports :
+* De nouveaux cas d’utilisation ont été ajoutés à la nouvelle expérience de création de rapports :
 
    * Créez des mesures calculées personnalisées directement dans vos rapports.
-   * Création d’une audience à partir des données de rapport.
-   * Utilisez l’outil d’analyse exploratoire pour créer facilement des tableaux et des visualisations à partir des **[!UICONTROL Dimensions]** et **[!UICONTROL Mesures]** sélectionnées.
+   * Créez une audience à partir des données de rapport.
+   * Utilisez l’outil d’analyse exploratoire pour créer facilement des tableaux et des visualisations à partir des **[!UICONTROL dimensions]** et des **[!UICONTROL mesures]** sélectionnées.
 
   Pour plus d’informations, consultez la [documentation détaillée](../reports/report-cja-manage.md).
