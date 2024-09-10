@@ -5,10 +5,10 @@ user-guide-title: Guide de Journey Optimizer
 user-guide-description: Utilisez Journey Optimizer pour créer et proposer aux clients des expériences connectées, contextuelles et personnalisées
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 06f79b7af3fe3c5ca556e2226d7e241a9c5b56d3
-workflow-type: ht
-source-wordcount: '1963'
-ht-degree: 100%
+source-git-commit: ca28d323a2ef310ec82c732484c8aed1e2641135
+workflow-type: tm+mt
+source-wordcount: '1965'
+ht-degree: 99%
 
 ---
 
@@ -173,7 +173,15 @@ ht-degree: 100%
    + [Création d’une campagne](using/campaigns/create-campaign.md)
    + [Vérification et activation d’une campagne](using/campaigns/review-activate-campaign.md)
    + [Gérer les campagnes](using/campaigns/modify-stop-campaign.md)
-   + [Déclenchement de campagnes à l’aide d’API](using/campaigns/api-triggered-campaigns.md)
+   + [Déclencher des campagnes à l’aide d’API](using/campaigns/api-triggered-campaigns.md)
++ Test de vos diffusions {#test}
+   + Prévisualiser et tester le contenu {#preview-test}
+      + [Prise en main de la prévisualisation et du test](using/content-management/preview-test.md)
+      + [Sélectionner des profils de test](using/content-management/test-profiles.md)
+      + [Prévisualiser votre contenu](using/content-management/preview.md)
+      + [Envoyer des BAT d’e-mail](using/content-management/proofs.md)
+      + [Tester le rendu des e-mails](using/content-management/rendering.md)
+      + [Rapport de spam des e-mails](using/content-management/spam-report.md)
 + Canal e-mail {#email}
    + [Prise en main des e-mails](using/email/get-started-email.md)
    + [Créer un e-mail](using/email/create-email.md)
@@ -330,13 +338,6 @@ ht-degree: 100%
       + [Prise en main du contenu dynamique](using/personalization/get-started-dynamic-content.md)
       + [Créer des règles conditionnelles](using/personalization/create-conditions.md)
       + [Créer du contenu dynamique](using/personalization/dynamic-content.md)
-   + Prévisualiser et tester votre contenu {#preview-test}
-      + [Prise en main de la prévisualisation et du test](using/content-management/preview-test.md)
-      + [Sélectionner des profils de test](using/content-management/test-profiles.md)
-      + [Prévisualiser votre contenu](using/content-management/preview.md)
-      + [Envoyer des BAT d’e-mail](using/content-management/proofs.md)
-      + [Tester le rendu des e-mails](using/content-management/rendering.md)
-      + [Rapport de spam des e-mails](using/content-management/spam-report.md)
 + Audiences, profils et identité{#audiences-profiles-identities}
    + Audiences {#audiences}
       + [Commencer avec les audiences](using/audience/about-audiences.md)
