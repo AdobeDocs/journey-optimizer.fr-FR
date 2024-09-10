@@ -10,14 +10,24 @@ level: Beginner
 keywords: commencer, démarrer, contenu, expérience
 exl-id: 38e82eb2-67d9-4a7d-8c1f-77dab20bcec4
 badge: label="Disponibilité limitée" type="Informative"
-source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
-workflow-type: ht
-source-wordcount: '1328'
-ht-degree: 100%
+source-git-commit: a190b5547c2d8e13563391bd9d784add75c55fd4
+workflow-type: tm+mt
+source-wordcount: '1617'
+ht-degree: 82%
 
 ---
 
 # Créer du contenu multilingue avec traduction automatisée {#multilingual-automated}
+
+>[!CONTEXTUALHELP]
+>id="ajo_multi_add_provider"
+>title="Ajouter un fournisseur"
+>abstract="Ajoutez des fournisseurs de traduction et des paramètres régionaux si nécessaire. Vous pouvez ainsi gérer les fournisseurs et paramètres régionaux actifs pour votre projet, ce qui vous donne la possibilité d’ajuster les ressources et de cibler les audiences en fonction de vos besoins actuels et de la portée de votre projet."
+
+>[!CONTEXTUALHELP]
+>id="ajo_multi_edit_provider"
+>title="Modifier le fournisseur"
+>abstract="Modifiez les fournisseurs de traduction existants et ajoutez des paramètres régionaux selon les besoins. Cette fonctionnalité vous permet de contrôler les fournisseurs et paramètres régionaux actifs pour votre projet, ce qui vous offre la possibilité d’ajuster les ressources et de cibler des audiences spécifiques en fonction de vos besoins actuels et des objectifs du projet."
 
 >[!AVAILABILITY]
 >
@@ -39,6 +49,11 @@ Pour créer du contenu multilingue à l’aide de la traduction automatisée, pr
 
 ## Créer un paramètre régional {#create-locale}
 
+>[!CONTEXTUALHELP]
+>id="ajo_multi_add_locale"
+>title="Ajouter un paramètre régional"
+>abstract="Lors de la configuration de vos préférences linguistiques, vous avez la possibilité de créer des paramètres régionaux supplémentaires si ceux qui vous sont demandés ne sont pas disponibles pour votre contenu multilingue."
+
 Lors de la configuration des paramètres de langue, comme décrit dans la section [Créer vos paramètres de langue](#language-settings), si un paramètre régional spécifique n’est pas disponible pour votre contenu multilingue, vous avez la possibilité de créer autant de paramètres régionaux que nécessaire à l’aide du menu **[!UICONTROL Traduction]**.
 
 1. Dans le menu **[!UICONTROL Gestion de contenu]**, accédez à **[!UICONTROL Traduction]**.
@@ -54,6 +69,16 @@ Lors de la configuration des paramètres de langue, comme décrit dans la sectio
    ![](assets/locale_2.png)
 
 ## Créer un projet de traduction {#translation-project}
+
+>[!CONTEXTUALHELP]
+>id="ajo_multi_create_project"
+>title="Créer un projet"
+>abstract="Pour commencer à créer du contenu multilingue, démarrez votre projet de traduction en identifiant les paramètres régionaux cibles, en sélectionnant la langue appropriée ou le dialecte régional pour votre audience. Ensuite, choisissez un fournisseur de traduction qui s’aligne sur les besoins de votre projet."
+
+>[!CONTEXTUALHELP]
+>id="ajo_multi_edit_project"
+>title="Modifier le projet"
+>abstract="Mettez à jour votre projet de traduction pour incorporer d’autres paramètres régionaux, ce qui vous permet de développer votre contenu pour atteindre un plus large public."
 
 Démarrez votre projet de traduction en spécifiant les paramètres régionaux cibles, en indiquant la langue ou la région spécifique pour votre contenu. Vous pouvez ensuite choisir votre fournisseur de traduction.
 
@@ -205,6 +230,11 @@ Vous pouvez maintenant activer votre campagne ou votre parcours. Après l’envo
 
 ## Gérer un projet de traduction d’approvisionnement {#manage-ht-project}
 
+>[!CONTEXTUALHELP]
+>id="ajo_multi_insourcing_project"
+>title="Projet de traduction d&#39;origine"
+>abstract="L’externalisation de projet de traduction vous permet de gérer et d’exécuter des traductions directement dans votre projet de traduction, en rationalisant le processus et en maintenant un meilleur contrôle sur la qualité et la cohérence de la traduction."
+
 Si vous avez sélectionné Approvisionnement lors de la configuration des paramètres de langue, vous pouvez traduire votre contenu directement dans votre projet de traduction.
 
 1. Dans votre **[!UICONTROL Projet de traduction]**, accédez au menu **[!UICONTROL Plus d’actions]** et sélectionnez **[!UICONTROL Approvisionnement]**.
@@ -222,6 +252,16 @@ Si vous avez sélectionné Approvisionnement lors de la configuration des param�
 1. Si vous souhaitez publier le texte traduit, cliquez sur **[!UICONTROL Finaliser]**.
 
 ## Réviser votre projet de traduction {#review-translation-project}
+
+>[!CONTEXTUALHELP]
+>id="ajo_multi_review_project"
+>title="Réviser votre projet de traduction"
+>abstract="Une fois la traduction terminée, vous pouvez consulter les résultats directement dans Journey Optimizer. Vous pouvez ainsi évaluer l’exactitude et la qualité de la traduction, en vous assurant qu’elle s’aligne sur vos attentes et les exigences du projet avant de la finaliser."
+
+>[!CONTEXTUALHELP]
+>id="ajo_multi_preview_project"
+>title="Aperçu de votre projet de traduction"
+>abstract="La fenêtre Aperçu vous permet de visualiser l’affichage du contenu traduit dans chaque langue. Cette fonctionnalité vous permet d’examiner le rendu et de vous assurer que le contenu s’affiche correctement et efficacement dans toutes les langues sélectionnées."
 
 Si vous avez sélectionné l’option **[!UICONTROL Activer le workflow de révision]** dans votre **[!UICONTROL projet de traduction]**, vous pouvez réviser la traduction directement dans Journey Optimizer une fois la traduction effectuée par le fournisseur de traduction sélectionné.
 
