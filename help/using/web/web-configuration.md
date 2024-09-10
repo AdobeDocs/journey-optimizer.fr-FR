@@ -7,9 +7,9 @@ role: Admin
 level: Experienced
 exl-id: 2161baf0-38b7-4397-bffe-083929e8033a
 source-git-commit: 37e60e5d7c0ad164cde67015b72341e1f4eda6a9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '855'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
@@ -107,19 +107,19 @@ Opérateurs disponibles pour créer des règles de correspondance de pages :
         <td></td>
     </tr>
     <tr>
-        <td>Tous</td>
+        <td>N’importe lequel</td>
         <td>Correspond à tous les chemins. Cela se révèle utile lors du ciblage de tous les chemins sous un ou plusieurs domaines.</td>
         <td></td>
     </tr>
     <tr>
-        <td>Correspondance avec les caractères génériques</td>
-        <td>L’opérateur "Correspondance de caractères génériques" permet à l’utilisateur de définir un caractère générique interne dans le chemin, comme "/products/*/detail".Le caractère générique * dans le composant Chemin ** correspond à n’importe quelle séquence de caractères avant de rencontrer le premier caractère /.  /*/ correspond à toute séquence de caractères (y compris les sous-chemins)</td>
-        <td>Ex : "Correspondance générique : /products/*/detail", correspond à tous les chemins tels que : <ul><li>example.com/products/yoga/detail</li><li>example.com/products/surf/detail</li><li>example.com/products/tennis/detail</li><li>example.com/products/yoga/pants/detail</li></ul>Ex : "Correspond à : /prod*/detail, correspond à tous les chemins tels que : <ul><li>example.com/products/detail</li><li>example.com/production/detail</li></ul>ne correspond pas aux chemins tels que : <ul><li>example.com/products/yoga/detail</li></ul></td>
+        <td>Correspondance des caractères génériques</td>
+        <td>L’opérateur « Correspondance des caractères génériques » permet de définir un caractère générique interne à l’intérieur du chemin, comme « /produits/*/détail ».Le caractère générique * dans le composant Chemin ** correspond à n’importe quelle séquence de caractères avant de rencontrer le premier caractère /./*/ correspond à toute séquence de caractères (y compris les sous-chemins).</td>
+        <td>Par exemple : « Correspondance générique : /produits/*/détail », correspond à tous les chemins tels que :<ul><li>exemple.com/produits/yoga/detail</li><li>exemple.com/produits/surf/detail</li><li>exemple.com/produits/tennis/detail</li><li>exemple.com/produits/yoga/pantalons/detail</li></ul>Par exemple : « Correspond à : /prod*/détail, correspond à tous les chemins tels que :<ul><li>exemple.com/produits/detail</li><li>exemple.com/production/detail</li></ul>ne correspond pas à des chemins tels que : <ul><li>exemple.com/produits/yoga/detail</li></ul></td>
     </tr>
     <tr>
         <td>Contient</td>
         <td>« Contient » est traduit en caractère générique comme « machaîne » et correspond à tous les chemins contenant cette séquence de caractères.</td>
-        <td>Ex : "Contains : product", correspond à tous les chemins contenant le produit sous forme de chaîne, tels que : <ul><li>example.com/products</li><li>example.com/yoga/perfproduct</li><li>example.com/surf/productdescription</li><li>example.com/home/product/page</li></ul></td>
+        <td>Ex. : « Contient : produit », correspond à tous les chemins contenant le produit sous forme de chaîne, tels que :<ul><li>exemple.com/produits</li><li>exemple.com/yoga/produitperf</li><li>exemple.com/surf/descriptionproduit</li><li>exemple.com/accueil/produits/page</li></ul></td>
     </tr>
     </tbody>
 </table>

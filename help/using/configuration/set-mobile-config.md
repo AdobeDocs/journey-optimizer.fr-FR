@@ -10,9 +10,9 @@ level: Experienced
 keywords: canal, surface, technique, paramètres, optimizer
 exl-id: 846e0d11-798b-4f3b-80db-848a17d32830
 source-git-commit: 77e2892dc188ebdd79031792434b4f55913ee811
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '770'
-ht-degree: 50%
+ht-degree: 100%
 
 ---
 
@@ -26,26 +26,26 @@ ht-degree: 50%
 >[!CONTEXTUALHELP]
 >id="ajo_mobile_web_setup_validate_assurance"
 >title="Valider avec Assurance"
->abstract="Adobe Experience Platform Assurance est incorporé à ce workflow pour vous aider à contrôler l’implémentation de votre SDK, ainsi qu’à simuler et valider des événements d’application."
->additional-url="https://experienceleague.adobe.com/fr/docs/experience-platform/assurance/home" text="Présentation de Adobe Experience Platform Assurance"
+>abstract="Le produit Adobe Experience Platform Assurance est incorporé à ce workflow pour vous aider à contrôler l’implémentation de votre SDK, ainsi qu’à simuler et valider des événements d’application."
+>additional-url="https://experienceleague.adobe.com/fr/docs/experience-platform/assurance/home" text="Vue d’ensemble d’Adobe Experience Platform Assurance"
 
-Cette opération facilite la configuration rapide des canaux marketing, en s’assurant que toutes les ressources requises sont facilement disponibles dans Experience Platform, Journey Optimizer et la collecte de données. Cela permet à votre équipe marketing de commencer à créer des campagnes et des parcours.
+Cette opération facilite la configuration rapide des canaux marketing, en s’assurant que toutes les ressources requises sont facilement disponibles dans Experience Platform, Journey Optimizer et la Collecte de données. Cela permet à votre équipe marketing de lancer la création de campagnes et de parcours.
 
 La configuration du canal guidée prend en charge les plateformes et canaux suivants.
 
-* Plateformes et SDK :
+* Plateformes et SDK :
 
    * Swift par Apple, iOS
 
    * Kotlin, Android
 
-   * JavaScript, Web
+   * JavaScript, web
 
-* Canaux :
+* Canaux :
 
-   * Mobile In-App
+   * Mobile in-app
 
-   * Message push mobile
+   * Message de notification push mobile
 
    * Web de base
 
@@ -109,29 +109,29 @@ Notez que pour chaque plateforme que vous souhaitez configurer, il est nécessai
 
 +++
 
-* Si vous utilisez l’option Configuration existante , veillez à utiliser les versions suivantes de l’extension SDK Mobile Adobe Experience Platform. Pour plus d’informations sur la configuration du SDK, y compris les dépendances requises et le code d’initialisation, reportez-vous à la [documentation suivante](https://experienceleague.adobe.com/en/docs/platform-learn/implement-mobile-sdk/app-implementation/install-sdks?lang=en).
+* Si vous utilisez l’option Configuration existante , veillez à utiliser les versions suivantes de l’extension du SDK mobile Adobe Experience Platform. Pour plus d’informations sur la configuration du SDK, y compris les dépendances requises et le code d’initialisation, reportez-vous à la [documentation suivante](https://experienceleague.adobe.com/fr/docs/platform-learn/implement-mobile-sdk/app-implementation/install-sdks).
 
   Pour Android
 
-   * Mobile Core v3.1.0 ou version ultérieure
-   * Adobe Journey Optimizer v3.1.0 ou version ultérieure
+   * Mobile Core v3.1.0 ou version ultérieure
+   * Adobe Journey Optimizer v3.1.0 ou version ultérieure
 
   Pour iOS
 
-   * Mobile Core v5.2.0 ou version ultérieure
-   * Adobe Journey Optimizer v5.1.1 ou version ultérieure
+   * Mobile Core v5.2.0 ou version ultérieure
+   * Adobe Journey Optimizer v5.1.1 ou version ultérieure
 
 ## Ressources créées automatiquement {#auto-create-resources}
 
-La configuration guidée des canaux simplifie la configuration rapide des canaux marketing, rendant ainsi toutes les ressources essentielles facilement disponibles dans les applications Experience Platform, Journey Optimizer et Data Collection. Cela permet à votre équipe marketing de commencer rapidement à créer des campagnes et des parcours. Vous trouverez ci-dessous une liste des ressources générées et configurées automatiquement dans le cadre de la configuration de canal guidée.
+Ce paramétrage de canal guidé simplifie la configuration rapide de canaux marketing, mettant facilement à disposition toutes les ressources essentielles dans les applications Experience Platform, Journey Optimizer et Collecte de données. Cela permet à votre équipe marketing de commencer rapidement à créer des campagnes et des parcours. Vous trouverez ci-dessous une liste des ressources générées et configurées automatiquement dans le cadre de la configuration de canal guidée.
 
-Accédez aux onglets ci-dessous pour accéder aux listes complètes de toutes les ressources générées automatiquement :
+Parcourez les onglets ci-dessous pour accéder aux listes complètes de toutes les ressources générées automatiquement :
 
 >[!BEGINTABS]
 
 >[!TAB iOS]
 
-Pour la **configuration initiale**, ci-dessous est une liste complète de toutes les ressources créées sur l’écran **Configuration Details** lorsque vous cliquez sur **Créer automatiquement des ressources**.
+Pour la **configuration initiale**, vous trouverez ci-dessous une liste complète de toutes les ressources créées sur l’écran **Details de la configuration** lorsque vous cliquez sur **Créer automatiquement des ressources**.
 
 <table>
   <thead>
@@ -200,7 +200,7 @@ Pour la **configuration initiale**, ci-dessous est une liste complète de toutes
   </tbody>
   </table>
 
-Pour la **configuration de canal**, ci-dessous est une liste complète de toutes les ressources créées sur l’écran **Ajouter des canaux**.
+Pour la **configuration de canal**, vous trouverez ci-dessous une liste complète de toutes les ressources créées sur l’écran **Ajouter des canaux**.
 
 <table>
   <thead>
@@ -217,7 +217,7 @@ Pour la **configuration de canal**, ci-dessous est une liste complète de toutes
   <td>
   <ul>
   <li>Configuration des canaux</li>
-  <li>Chargement des informations d’identification push (message push mobile uniquement)</li>
+  <li>Charger les informations d’identification push (message push mobile uniquement)</li>
   </ul>
   </td>
   </tr>
@@ -226,7 +226,7 @@ Pour la **configuration de canal**, ci-dessous est une liste complète de toutes
 
 >[!TAB Android]
 
-Pour la **configuration initiale**, ci-dessous est une liste complète de toutes les ressources créées sur l’écran **Configuration Details** lorsque vous cliquez sur **Créer automatiquement des ressources**.
+Pour la **configuration initiale**, vous trouverez ci-dessous une liste complète de toutes les ressources créées sur l’écran **Détails de la configuration** lorsque vous cliquez sur **Créer automatiquement des ressources**.
 
 <table>
   <thead>
@@ -295,7 +295,7 @@ Pour la **configuration initiale**, ci-dessous est une liste complète de toutes
   </tbody>
   </table>
 
-Pour la **configuration de canal**, ci-dessous est une liste complète de toutes les ressources créées sur l’écran **Ajouter des canaux**.
+Pour la **configuration de canal**, vous trouverez ci-dessous une liste complète de toutes les ressources créées sur l’écran **Ajouter des canaux**.
 
 <table>
   <thead>
@@ -312,7 +312,7 @@ Pour la **configuration de canal**, ci-dessous est une liste complète de toutes
   <td>
   <ul>
   <li>Configuration des canaux</li>
-  <li>Chargement des informations d’identification push (message push mobile uniquement)</li>
+  <li>Charger les informations d’identification push (message push mobile uniquement)</li>
   </ul>
   </td>
   </tr>
@@ -321,7 +321,7 @@ Pour la **configuration de canal**, ci-dessous est une liste complète de toutes
 
 >[!TAB Web]
 
-Pour la **configuration initiale**, ci-dessous est une liste complète de toutes les ressources créées sur l’écran **Configuration Details** lorsque vous cliquez sur **Créer automatiquement des ressources**.
+Pour la **configuration initiale**, vous trouverez ci-dessous une liste complète de toutes les ressources créées sur l’écran **Détails de la configuration** lorsque vous cliquez sur **Créer automatiquement des ressources**.
 
 <table>
   <thead>

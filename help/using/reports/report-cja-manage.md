@@ -10,9 +10,9 @@ level: Intermediate
 badge: label="Disponibilité limitée" type="Informative"
 exl-id: d2ff175a-8bca-4b62-931c-a909cfd9308d
 source-git-commit: 9be8b3864a41b37f3a61f24b6e6b54ec184d41aa
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '889'
-ht-degree: 36%
+ht-degree: 100%
 
 ---
 
@@ -72,25 +72,25 @@ Vous pouvez maintenant consulter, télécharger ou partager votre rapport en fic
 
 >[!ENDTABS]
 
-## Création d’une mesure simple {#create-simple-metric}
+## Créer une mesure simple {#create-simple-metric}
 
-Vous pouvez créer des mesures calculées personnalisées directement dans vos rapports. Vous pouvez générer des informations plus personnalisées et mieux analyser vos données en combinant deux mesures existantes en fonction de vos besoins de création de rapports spécifiques.
+Vous pouvez créer des mesures calculées personnalisées directement dans vos rapports. Vous pouvez générer des informations plus personnalisées et mieux analyser vos données en combinant deux mesures existantes en fonction de vos besoins de création de rapports spécifiques.
 
 1. Commencez par accéder au rapport dans lequel vous souhaitez ajouter une nouvelle mesure.
 
 1. Dans le tableau de votre rapport, sélectionnez les mesures souhaitées en maintenant les touches `Shift` ou `CTRL/CMD` enfoncées tout en cliquant dessus. Cliquez ensuite avec le bouton droit et sélectionnez **[!UICONTROL Créer une mesure d’après la sélection]**.
 
-   Si vous sélectionnez plus de deux mesures, seules les deux premières sont utilisées dans le créateur de mesures.
+   Si vous sélectionnez plus de deux mesures, seules les deux premières sont utilisées dans le créateur de mesures.
 
    ![](assets/cja-create-metric_2.png)
 
-1. Dans le créateur de mesures calculées, nommez votre nouvelle mesure en saisissant le champ **[!UICONTROL Titre]** . Vous pouvez également ajouter une **[!UICONTROL description]**.
+1. Dans le créateur de mesures calculées, nommez votre nouvelle mesure en saisissant dans le champ **[!UICONTROL Titre]**. Vous pouvez également ajouter une **[!UICONTROL description]**.
 
    >[!NOTE]
    >
-   >Si vous possédez un Customer Journey Analytics, vous pouvez personnaliser davantage vos mesures à l’aide d’options supplémentaires. [En savoir plus](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-components/cja-calcmetrics/cm-workflow/cm-build-metrics#areas-of-the-calculated-metrics-builder)
+   >Si vous possédez Customer Journey Analytics, vous pouvez personnaliser davantage vos mesures à l’aide d’options supplémentaires. [En savoir plus](https://experienceleague.adobe.com/fr/docs/analytics-platform/using/cja-components/cja-calcmetrics/cm-workflow/cm-build-metrics#areas-of-the-calculated-metrics-builder)
 
-1. Sélectionnez le **[!UICONTROL nombre de décimales]** approprié et choisissez un **[!UICONTROL format]** (nombre de décimales, heure, pourcentage ou devise) en fonction de la manière dont votre mesure doit être affichée.
+1. Sélectionnez le **[!UICONTROL Nombre de décimales après la virgule]** approprié et choisissez un **[!UICONTROL format]** (décimale, heure, pourcentage ou devise) en fonction de la manière dont votre mesure doit être affichée.
 
 1. Sélectionnez l’opérateur, tel que l’addition, la soustraction, la multiplication ou la division, qui déterminera le mode de calcul de la mesure.
 
@@ -100,31 +100,31 @@ Vous pouvez créer des mesures calculées personnalisées directement dans vos r
 
 1. Lorsque vos paramètres vous conviennent, cliquez sur **[!UICONTROL Appliquer]** pour finaliser votre nouvelle mesure.
 
-1. La nouvelle mesure s’affiche en regard des mesures d’origine dans votre rapport.
+1. Votre nouvelle mesure s’affiche en regard des mesures d’origine dans votre rapport.
 
    ![](assets/cja-create-metric_3.png)
 
-La mesure que vous venez de créer sera incluse lorsque vous exportez le rapport au format PDF ou CSV. Cependant, il sera supprimé du rapport une fois que vous l’aurez quitté.
+La mesure que vous venez de créer sera incluse lorsque vous exportez le rapport au format PDF ou CSV. Cependant, elle sera supprimée du rapport une fois que vous l’aurez quitté.
 
-## Exploration des données à l’aide de l’analyse exploratoire {#exploratory}
+## Explorer les données à l’aide de l’analyse exploratoire {#exploratory}
 
-Utilisez l’outil d’analyse exploratoire pour créer facilement des tableaux et des visualisations à partir des **[!UICONTROL Dimensions]** et **[!UICONTROL Mesures]** sélectionnées. Cet outil simplifie l’exploration des données, ce qui vous permet de personnaliser et d’analyser automatiquement et facilement les informations. Apprenez-en davantage en consultant [cette documentation](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/panels/quickinsight).
+Utilisez l’outil d’analyse exploratoire pour créer facilement des tableaux et des visualisations à partir des **[!UICONTROL dimensions]** et **[!UICONTROL mesures]** sélectionnées. Cet outil simplifie l’exploration des données, ce qui vous permet de personnaliser et d’analyser automatiquement et facilement les informations. Apprenez-en davantage en consultant [cette documentation](https://experienceleague.adobe.com/fr/docs/analytics/analyze/analysis-workspace/panels/quickinsight).
 
-1. Commencez par accéder au rapport dans lequel vous souhaitez utiliser l’ analyse exploratoire .
+1. Commencez par accéder au rapport dans lequel vous souhaitez utiliser l’ analyse exploratoire.
 
 1. Sélectionnez le menu Analyse exploratoire dans le menu du rail de gauche.
 
    ![](assets/exploratory_analysis_1.png)
 
-1. Créez une requête en choisissant une **[!UICONTROL Dimension]** et une **[!UICONTROL mesure]** à l’aide des menus déroulants. Vous pouvez également sélectionner un **[!UICONTROL segment]** si nécessaire.
+1. Créez une requête en choisissant une **[!UICONTROL dimension]** et une **[!UICONTROL mesure]** à l’aide des menus déroulants. Vous pouvez également sélectionner un **[!UICONTROL segment]** si nécessaire.
 
    ![](assets/exploratory_analysis_2.png)
 
 1. Définissez la période de votre analyse afin de spécifier la période sur laquelle vous souhaitez vous concentrer. Par défaut, la période est définie sur celle utilisée dans le panneau du rapport.
 
-1. Utilisez les options **[!UICONTROL Ajouter une ventilation]** ou **[!UICONTROL Ajouter une mesure]** pour inclure des dimensions supplémentaires, ce qui permet une ventilation des données plus détaillée.
+1. Utilisez les options **[!UICONTROL Ajouter une répartition]** ou **[!UICONTROL Ajouter une mesure]** pour inclure des dimensions supplémentaires, ce qui permet une répartition des données plus détaillée.
 
-   Notez que vous ne pouvez ajouter que trois **[!UICONTROL Dimensions]**, **[!UICONTROL Mesures]** et **[!UICONTROL Segments]**.
+   Notez que vous ne pouvez ajouter que trois **[!UICONTROL dimensions]**, **[!UICONTROL mesures]** et **[!UICONTROL segments]**.
 
 Vous pouvez désormais analyser vos données à l’aide de vos outils de visualisation et de tableau personnalisés.
 
@@ -139,11 +139,11 @@ c. In the metric selector, choose whichever conversion metric seems appropriate 
 d. Open the report for the journey that you added the metric to and ensure that the metric has been added to the table alongside all the other pre-configured metrics.
 -->
 
-## Création d’une audience à partir de données de rapport {#create-audience}
+## Créer une audience à partir de données de rapport {#create-audience}
 
 >[!IMPORTANT]
 >
->Chaque organisation est limitée à la publication de 25 audiences. En outre, les utilisateurs peuvent publier un maximum de 5 audiences par heure et 20 par jour.
+>Chaque organisation est limitée à la publication de 25 audiences. En outre, les utilisateurs et utilisatrices peuvent publier un maximum de 5 audiences par heure et 20 par jour.
 
 Vous pouvez désormais sélectionner des données spécifiques dans le tableau et créer directement une audience à partir de ces sélections, en rationalisant et en simplifiant le processus de création d’audience.
 
@@ -151,17 +151,17 @@ Vous pouvez désormais sélectionner des données spécifiques dans le tableau e
 
 1. Cliquez avec le bouton droit sur la cellule de votre choix et sélectionnez **[!UICONTROL Créer une audience]**.
 
-   Vous pouvez également lancer la création d’audience à partir du widget **[!UICONTROL Parcours canvas]** en sélectionnant un noeud et en cliquant dessus avec le bouton droit de la souris.
+   Vous pouvez également lancer la création d’audience à partir du widget **[!UICONTROL Zone de travail du parcours]** en sélectionnant un nœud et en cliquant dessus avec le bouton droit de la souris.
 
-1. Dans la fenêtre **[!UICONTROL Créer une audience]** , saisissez un **[!UICONTROL nom]** et définissez une **[!UICONTROL plage de dates unique]** pour l’audience que vous prévoyez de publier.
+1. Dans la fenêtre **[!UICONTROL Créer une audience]**, saisissez un **[!UICONTROL nom]** et définissez une **[!UICONTROL période unique]** pour l’audience que vous prévoyez de publier.
 
    >[!NOTE]
    >
-   >Si vous possédez un Customer Journey Analytics, vous pouvez personnaliser davantage vos mesures à l’aide d’options supplémentaires. [En savoir plus](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-components/audiences/publish)
+   >Si vous possédez Customer Journey Analytics, vous pouvez personnaliser davantage vos mesures à l’aide d’options supplémentaires. [En savoir plus](https://experienceleague.adobe.com/fr/docs/analytics-platform/using/cja-components/audiences/publish)
 
    ![](assets/audience_1.png)
 
 1. Cliquez sur le bouton **[!UICONTROL Créer]** pour finaliser la création de l’audience. Notez que ce processus peut nécessiter un certain temps.
 
-Vous pouvez maintenant utiliser l’audience nouvellement créée avec un Parcours ou une campagne.
+Vous pouvez maintenant utiliser l’audience nouvellement créée avec un parcours ou une campagne.
 

@@ -10,9 +10,9 @@ level: Experienced
 keywords: canal, surface, technique, paramètres, optimizer
 exl-id: 9038528f-3da0-4e0e-9b82-b72c67b42391
 source-git-commit: 4cd7e193079f0e9d141d28ca80dd0cf7a899fbea
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1737'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -274,6 +274,6 @@ Vous ne pouvez pas modifier directement une configuration de canal désactivée.
 
 ## Vidéo pratique{#video-presets}
 
-Découvrez les configurations de canal et leur utilisation dans Adobe Journey Optimizer.
+Découvrez les configurations de canal et leur utilisation dans Adobe Journey Optimizer.
 
 >[!VIDEO](https://video.tv.adobe.com/v/3433124/?learn=on)

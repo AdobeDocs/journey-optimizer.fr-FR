@@ -1,26 +1,26 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Création d’une configuration de canal
-description: Découvrez comment créer une configuration de canal
+title: Créer une configuration de canal
+description: Découvrir comment créer une configuration de canal
 feature: Surface, Channel Configuration
 topic: Administration
 role: Admin
 level: Experienced
 keywords: canal, surface, technique, paramètres, optimizer
 source-git-commit: 77e2892dc188ebdd79031792434b4f55913ee811
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '646'
-ht-degree: 76%
+ht-degree: 100%
 
 ---
 
-# Création d’une configuration de canal {#set-mobile-ios}
+# Créer une configuration de canal {#set-mobile-ios}
 
 >[!CONTEXTUALHELP]
 >id="ajo_mobile_web_setup_javascript_code"
 >title="Code JavaScript"
->abstract="La balise d’en-tête contient les métadonnées et les ressources essentielles qui sont chargées avant le contenu principal de votre page web. Le placement du code dans cette section garantit son initialisation correcte et son exécution précoce, ce qui permet à votre page web de se charger et de fonctionner efficacement. En ajoutant du code à la section head , vous améliorez la structure, les performances et l’expérience utilisateur globale de votre site."
+>abstract="La balise head contient des métadonnées et des ressources essentielles qui sont chargées avant le contenu principal de votre page web. Le placement du code dans cette section garantit son initialisation correcte et son exécution précoce, ce qui permet à votre page web de se charger et de fonctionner efficacement. En ajoutant du code à la section head, vous améliorez la structure, les performances et l’expérience d’utilisation globale de votre site."
 
 >[!CONTEXTUALHELP]
 >id="ajo_mobile_web_setup_push_token"
@@ -53,7 +53,7 @@ ht-degree: 76%
 >abstract="L’ID d’équipe, une valeur de chaîne utilisée pour identifier votre équipe, se trouve sous l’onglet **Abonnement** de votre compte de développeur ou développeuse."
 
 
-Cette configuration simplifie la configuration rapide des canaux marketing, rendant toutes les ressources essentielles facilement disponibles dans les applications Experience Platform, Journey Optimizer et Data Collection. Cela permet à votre équipe marketing de commencer rapidement à créer des campagnes et des parcours.
+Ce paramètre simplifie la configuration rapide de canaux marketing, mettant facilement à disposition toutes les ressources essentielles dans les applications Experience Platform, Journey Optimizer et Collecte de données. Cela permet à votre équipe marketing de commencer rapidement à créer des campagnes et des parcours.
 
 1. Sur la page d’accueil de Journey Optimizer, cliquez sur **[!UICONTROL Commencer]** dans la carte **[!UICONTROL Configurer les canaux mobiles et web]**.
 
@@ -69,21 +69,21 @@ Cette configuration simplifie la configuration rapide des canaux marketing, rend
 
 1. Si votre entreprise dispose de plusieurs trains de données, sélectionnez-en un parmi les options existantes. Si vous n’en avez pas, un train de données sera créé automatiquement.
 
-1. Sélectionnez votre plateforme et cliquez sur **[!UICONTROL Créer automatiquement les ressources]**.
+1. Sélectionnez votre plateforme et cliquez sur **[!UICONTROL Créer automatiquement des ressources]**.
 
 1. Pour simplifier le processus de configuration, les ressources nécessaires sont automatiquement créées pour vous aider à démarrer. Cela comprend la création d’une **[!UICONTROL propriété de balise mobile]** et l’installation d’extensions.
 
 [En savoir plus sur les ressources générées automatiquement](set-mobile-config.md#auto-create-resources)
 
-1. Une fois la génération des ressources terminée, suivez les instructions de l’interface utilisateur pour configurer et valider vos SDK et canaux.
+1. Une fois la génération des ressources terminée, suivez les instructions de l’interface d’utilisation pour configurer et valider vos SDK et canaux.
 
 1. Une fois la configuration terminée, partagez la **[!UICONTROL configuration de canal]** générée automatiquement avec les personnes membres de l’équipe chargées de créer des parcours et des campagnes.
 
    ![](assets/guided-setup-config-ios-8.png){zoomable="yes"}
 
-1. Vous pouvez désormais référencer la **[!UICONTROL configuration de canal]** dans l’interface Campagnes ou Parcours, ce qui vous permet d’établir une connexion transparente entre votre configuration et l’exécution des parcours et campagnes ciblés pour votre audience.
+1. Vous devez désormais référencer la **[!UICONTROL configuration de canal]** dans l’interface Campagnes ou Parcours, ce qui permet une connexion transparente entre votre paramétrage et l’exécution des parcours et campagnes ciblés pour votre audience.
 
-## Modification d’une configuration existante mobile {#reconnect}
+## Modifier une configuration existante mobile {#reconnect}
 
 Une fois votre configuration créée, vous pouvez facilement la revoir à tout moment pour ajouter des canaux supplémentaires ou effectuer d’autres réglages en fonction de vos besoins.
 

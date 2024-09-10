@@ -7,9 +7,9 @@ role: Admin
 level: Experienced
 exl-id: 1aff2f6f-914c-4088-afd8-58bd9edfe07d
 source-git-commit: 77e2892dc188ebdd79031792434b4f55913ee811
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1125'
-ht-degree: 83%
+ht-degree: 100%
 
 ---
 
@@ -89,34 +89,34 @@ Pour créer une configuration des canaux, procédez comme suit :
    >
    >Assurez-vous que l’URI de surface utilisé dans votre campagne basée sur le code correspond à celui utilisé dans votre propre mise en œuvre. Sinon, les modifications ne seront pas diffusées.
 
-1. Renseignez le champ **[!UICONTROL URL d’aperçu]** pour activer les aperçus sur l’appareil. Cette URL informe le service d’aperçu de l’URL spécifique à utiliser lors du déclenchement d’un aperçu.
+1. Renseignez le champ **[!UICONTROL URL de prévisualisation]** pour activer les prévisualisations sur l’appareil. Cette URL informe le service de prévisualisation de l’URL spécifique à utiliser lors du déclenchement d’une prévisualisation.
 
    * Pour le web :
 
-      * Si une seule URL de page est saisie, cette URL sera utilisée pour l’aperçu.
-      * Si une règle de mise en correspondance de page est sélectionnée, vous devez saisir une URL d’aperçu par défaut qui sera utilisée pour prévisualiser l’expérience dans le navigateur.
+      * Si une URL de page unique est saisie, cette URL sera utilisée pour la prévisualisation.
+      * Si une règle de correspondance de page est sélectionnée, vous devez saisir une URL de prévisualisation par défaut qui sera utilisée pour prévisualiser l’expérience dans le navigateur.
 
-   * Pour les plateformes mobiles (iOS/Android) :
+   * Pour les plateformes mobiles (iOS/Android) :
 
-      * L’URL d’aperçu est un lien profond configuré par le développeur de l’application dans votre application. Cela garantit que toutes les URL correspondant au modèle de lien profond s’ouvriront dans l’application plutôt que dans un navigateur web mobile. Contactez le développeur de votre application pour obtenir le schéma de lien profond configuré pour votre application.
+      * L’URL de prévisualisation est un lien profond configuré par le développeur ou la développeuse de l’application dans votre application. Cela garantit que toutes les URL correspondant au modèle de lien profond s’ouvriront dans l’application plutôt que dans un navigateur web mobile. Contactez le développeur ou la développeuse de votre application pour obtenir le schéma de lien profond configuré pour votre application.
 
-+++  Les ressources suivantes peuvent vous aider à configurer des liens profonds pour la mise en oeuvre de votre application.
++++  Les ressources suivantes peuvent vous aider à configurer des liens profonds pour l’implémentation de votre application.
 
       * Pour Android :
 
-         * [Création de liens profonds vers le contexte de l’application](https://developer.android.com/training/app-links/deep-linking)
+         * [Créer des liens profonds vers le contexte de l’application](https://developer.android.com/training/app-links/deep-linking)
 
-      * Pour iOS:
+      * Pour iOS :
 
-         * [Définition d’un schéma d’URL personnalisé pour votre application](https://developer.apple.com/documentation/xcode/defining-a-custom-url-scheme-for-your-app)
+         * [Définir un schéma d’URL personnalisé pour votre application](https://developer.apple.com/documentation/xcode/defining-a-custom-url-scheme-for-your-app)
 
-         * [Prise en charge des liens universels dans votre application](https://developer.apple.com/documentation/xcode/supporting-universal-links-in-your-app)
+         * [Prendre en charge des liens universels dans votre application](https://developer.apple.com/documentation/xcode/supporting-universal-links-in-your-app)
 
 +++
 
    >[!NOTE]
    >
-   >Si vous rencontrez des problèmes lors de la prévisualisation de l&#39;expérience, reportez-vous à [cette documentation](https://experienceleague.adobe.com/en/docs/experience-platform/assurance/troubleshooting#app-does-not-open-link).
+   >Si vous rencontrez des problèmes lors de la prévisualisation de l’expérience, reportez-vous à [cette documentation](https://experienceleague.adobe.com/fr/docs/experience-platform/assurance/troubleshooting#app-does-not-open-link).
 
 1. Sélectionnez le format attendu par l’application à cet emplacement spécifique. Cela sera utilisé lors de la création de l’expérience basée sur le code dans les campagnes et les parcours.
 

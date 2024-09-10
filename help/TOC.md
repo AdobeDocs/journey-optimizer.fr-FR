@@ -6,9 +6,9 @@ user-guide-description: Utilisez Journey Optimizer pour créer et proposer aux 
 type: Documentation
 solution: Journey Optimizer
 source-git-commit: 06f79b7af3fe3c5ca556e2226d7e241a9c5b56d3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1963'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -584,7 +584,7 @@ ht-degree: 99%
    + [Paramétrer des configurations de canal](using/configuration/channel-surfaces.md)
    + Configuration de canal guidée {#guided-setup}
       + [Commencer avec la configuration guidée des canaux](using/configuration/set-mobile-config.md)
-      + [Création d’une configuration de canal](using/configuration/create-channel-set-up.md)
+      + [Créer une configuration de canal](using/configuration/create-channel-set-up.md)
    + Déléguer les sous-domaines d’e-mail {#delegate-subdomains}
       + [Commencer avec la délégation de sous-domaines](using/configuration/about-subdomain-delegation.md)
       + [Délégation d’un sous-domaine](using/configuration/delegate-subdomain.md)
