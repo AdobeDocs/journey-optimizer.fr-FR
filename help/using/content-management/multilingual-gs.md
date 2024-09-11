@@ -10,10 +10,10 @@ level: Beginner
 keywords: commencer, démarrer, contenu, expérience
 exl-id: b57683b4-6dcc-4f6c-a8b2-4ba371d78d21
 badge: label="Disponibilité limitée" type="Informative"
-source-git-commit: e2ebb540fe9380497b42d331d1ea259538d72f00
-workflow-type: ht
-source-wordcount: '252'
-ht-degree: 100%
+source-git-commit: e3685815dfed23c9fefa148e0025181258537135
+workflow-type: tm+mt
+source-wordcount: '414'
+ht-degree: 60%
 
 ---
 
@@ -37,6 +37,11 @@ Avec Journey Optimizer, vous avez la possibilité de créer du contenu multilin
 
 ## Conditions préalables {#prerequisites}
 
+>[!CONTEXTUALHELP]
+>id="ajo_multi_translation_error"
+>title="Erreur de traduction
+>abstract="Si vous ne parvenez pas à accéder à la page Traduction, cela est probablement dû au fait que la fonction Traduction n’est pas activée. Pour résoudre ce problème, vous devez vous assurer que la fonction de traduction est activée par votre administrateur d’organisation et de sandbox."
+
 Adobe Journey Optimizer s’intègre actuellement aux fournisseurs de traduction, qui offrent des services de traduction tiers (traduction automatique ou humaine), indépendants d’Adobe Journey Optimizer.
 
 Avant d’ajouter votre fournisseur de traduction sélectionné, vous devez créer un compte auprès de ce fournisseur.
@@ -44,6 +49,22 @@ Avant d’ajouter votre fournisseur de traduction sélectionné, vous devez cré
 Votre utilisation des services de traduction d’un fournisseur de traduction sera soumise aux conditions générales supplémentaires de ce fournisseur. En tant que solutions tierces, les services de traduction sont disponibles pour les utilisateurs et utilisatrices d’Adobe Journey Optimizer via une intégration. Adobe ne contrôle pas les produits tiers et n’en est pas responsable.
 
 Pour tout problème ou toute demande d’aide relative à vos traductions, contactez le fournisseur de traduction concerné.
+
+Si vous ne pouvez pas accéder à la page Traduction, vous devez activer la fonction Traduction.
+
++++ Découvrez comment activer la fonction de traduction
+
+1. Si la page d’erreur suivante s’affiche, cela indique que la fonction **[!UICONTROL Traduction]** n’a pas encore été activée. Contactez votre administrateur d’organisation et de sandbox. pour demander l’accès.
+
+   ![](assets/multi-troubleshoot.png)
+
+1. Votre administrateur devra accéder au menu **[!UICONTROL Traduction]** dans la barre latérale gauche. Le système activera automatiquement la fonction de traduction.
+
+1. Une fois la fonctionnalité activée, vous pourrez accéder à la page **[!UICONTROL Traduction]**, ainsi qu’aux onglets **[!UICONTROL Projets]**, **[!UICONTROL Fournisseurs]** et **[!UICONTROL Paramètre régional]**.
+
+1. Si cette procédure a échoué, la même page d’erreur s’affiche toujours. Dans ce cas, contactez votre représentant Adobe pour obtenir de l’aide.
+
++++
 
 ## Vidéo pratique {#video}
 
