@@ -10,7 +10,7 @@ level: Beginner
 keywords: commencer, démarrer, contenu, expérience
 exl-id: b57683b4-6dcc-4f6c-a8b2-4ba371d78d21
 badge: label="Disponibilité limitée" type="Informative"
-source-git-commit: 27c0be31ffc4ce7c43975a4db431713cd68f0461
+source-git-commit: 34156eb7f801586154506fbb18546d705e542f25
 workflow-type: tm+mt
 source-wordcount: '414'
 ht-degree: 60%
@@ -58,7 +58,9 @@ Si vous ne pouvez pas accéder à la page Traduction, vous devez activer la fonc
 
    ![](assets/multi-troubleshoot.png)
 
-1. Votre administrateur devra accéder au menu **[!UICONTROL Traduction]** dans la barre latérale gauche. Le système activera automatiquement la fonction de traduction.
+1. Votre administrateur devra accéder au menu **[!UICONTROL Traduction]** dans la barre latérale gauche.
+
+   Le système activera automatiquement la fonction de traduction.
 
 1. Une fois la fonctionnalité activée, vous pourrez accéder à la page **[!UICONTROL Traduction]**, ainsi qu’aux onglets **[!UICONTROL Projets]**, **[!UICONTROL Fournisseurs]** et **[!UICONTROL Paramètre régional]**.
 
