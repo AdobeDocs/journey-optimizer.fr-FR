@@ -7,14 +7,14 @@ feature: Content Assistant
 topic: Content Management
 role: User
 level: Beginner
-source-git-commit: f188566fb68ba369085ed03649899648858b894b
+source-git-commit: 5798d4850ef9f8f2bc6761a9468fe6120460c524
 workflow-type: tm+mt
-source-wordcount: '1010'
+source-wordcount: '1007'
 ht-degree: 47%
 
 ---
 
-# Génération de pages web avec l’assistant AI dans Journey Optimizer - Content Accelerator {#generative-web}
+# Génération de pages web avec l’assistant d’IA - Accélérateur de contenu {#generative-web}
 
 >[!IMPORTANT]
 >
