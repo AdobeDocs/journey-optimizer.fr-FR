@@ -5,9 +5,9 @@ user-guide-title: Guide de Journey Optimizer
 user-guide-description: Utilisez Journey Optimizer pour créer et proposer aux clients des expériences connectées, contextuelles et personnalisées
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 33dd0568ff55750d0f067e51442b5187820ec36a
+source-git-commit: 17b05590d1518b5cc6aa33a45619c96d6bd4a78e
 workflow-type: tm+mt
-source-wordcount: '1973'
+source-wordcount: '1979'
 ht-degree: 98%
 
 ---
@@ -278,11 +278,11 @@ ht-degree: 98%
 + Gestion de contenu {#content-management}
    + Utiliser l’assistant IA{#ai-assistant}
       + [Prise en main de l’assistant d’IA - Accélérateur de contenu](using/content-management/gs-generative.md)
-      + [Génération d’e-mails](using/content-management/generative-email.md)
-      + [Génération de notifications push](using/content-management/generative-push.md)
-      + [Génération de SMS](using/content-management/generative-sms.md)
-      + [Génération web](using/content-management/generative-web.md)
-      + [Expérience de contenu avec l’assistant IA](using/content-management/generative-experimentation.md)
+      + [Génération d’emails avec IA](using/content-management/generative-email.md)
+      + [Génération de notifications push avec IA](using/content-management/generative-push.md)
+      + [Génération de SMS avec IA](using/content-management/generative-sms.md)
+      + [Génération web avec IA](using/content-management/generative-web.md)
+      + [Expérience de contenu avec l’IA](using/content-management/generative-experimentation.md)
       + [ Cas d’utilisation de l’assistant AI](using/content-management/generative-uc.md)
    + Utiliser du contenu multilingue{#content-multilingual}
       + [Commencer avec le contenu multilingue](using/content-management/multilingual-gs.md)
