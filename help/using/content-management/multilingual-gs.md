@@ -10,7 +10,7 @@ level: Beginner
 keywords: commencer, démarrer, contenu, expérience
 exl-id: b57683b4-6dcc-4f6c-a8b2-4ba371d78d21
 badge: label="Disponibilité limitée" type="Informative"
-source-git-commit: e3685815dfed23c9fefa148e0025181258537135
+source-git-commit: 27c0be31ffc4ce7c43975a4db431713cd68f0461
 workflow-type: tm+mt
 source-wordcount: '414'
 ht-degree: 60%
@@ -39,7 +39,7 @@ Avec Journey Optimizer, vous avez la possibilité de créer du contenu multilin
 
 >[!CONTEXTUALHELP]
 >id="ajo_multi_translation_error"
->title="Erreur de traduction
+>title="Erreur de traduction"
 >abstract="Si vous ne parvenez pas à accéder à la page Traduction, cela est probablement dû au fait que la fonction Traduction n’est pas activée. Pour résoudre ce problème, vous devez vous assurer que la fonction de traduction est activée par votre administrateur d’organisation et de sandbox."
 
 Adobe Journey Optimizer s’intègre actuellement aux fournisseurs de traduction, qui offrent des services de traduction tiers (traduction automatique ou humaine), indépendants d’Adobe Journey Optimizer.
