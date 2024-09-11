@@ -1,50 +1,38 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Génération de notifications push avec l’assistant IA
-description: Commencer à générer du contenu push avec l’assistant IA
+title: Génération push avec l’assistant d’IA dans Journey Optimizer pour l’accélération de contenu
+description: Commencez à générer du contenu push avec l’assistant d’IA dans Journey Optimizer pour l’accélération du contenu.
 feature: Content Assistant
 topic: Content Management
 role: User
 level: Beginner
-badge: label="Version bêta" type="Informative"
-hide: true
-hidefromtoc: true
 exl-id: a9f9d8af-c762-4038-8bbc-bbd519e0ef3a
-source-git-commit: b62f8954e09f50896ad5e70784c5a93943617e85
+source-git-commit: 24561293e744c048dd3f895360a487c8598b0765
 workflow-type: tm+mt
-source-wordcount: '958'
-ht-degree: 100%
+source-wordcount: '1500'
+ht-degree: 59%
 
 ---
 
-# Génération de notifications push avec l’assistant IA {#generative-push}
+# Génération push avec l’assistant d’IA dans Journey Optimizer - Accélérateur de contenu  {#generative-push}
 
->[!BEGINSHADEBOX]
-
-**Table des matières**
-
-* [Commencer avec l’assistant IA](gs-generative.md)
-* [Génération d’e-mails avec l’assistant IA](generative-email.md)
-* [Génération de SMS avec l’assistant IA](generative-sms.md)
-* Génération de notifications push avec l’assistant IA
-* [Expérience de contenu avec l’assistant IA](generative-experimentation.md)
-
->[!ENDSHADEBOX]
-
->[!NOTE]
+>[!IMPORTANT]
 >
 >Avant de commencer à utiliser cette fonctionnalité, lisez la section connexe [Mécanismes de sécurisation et limitations](gs-generative.md#generative-guardrails).
+></br>
+>
+>Vous devez accepter un [contrat utilisateur](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html) avant de pouvoir utiliser l’assistant d’IA dans Journey Optimizer pour l’accélération du contenu. Pour en savoir plus, contactez votre représentant ou représentante Adobe.
 
-Une fois que vous avez créé et personnalisé vos messages, améliorez la qualité du contenu de votre notification push avec l’assistant IA dans Adobe Journey Optimizer.
+Une fois que vous avez créé et personnalisé vos messages, repositionnez le contenu de vos notifications push au niveau supérieur avec l&#39;assistant d&#39;IA dans Journey Optimizer pour l&#39;accélération de contenu.
 
-Explorez les onglets ci-dessous pour savoir comment utiliser l’assistant IA dans Journey Optimizer.
+Consultez les onglets ci-dessous pour savoir comment utiliser l’assistant d’IA dans Journey Optimizer pour l’accélération du contenu.
 
 >[!BEGINTABS]
 
 >[!TAB Génération de notification push complète]
 
-Dans cet exemple particulier, apprenez à envoyer une notification push accrocheuse à l’aide de l’assistant IA.
+Dans cet exemple particulier, découvrez comment envoyer une notification push attrayante à l’aide de l’assistant AI dans Journey Optimizer for Content Acceleration.
 
 Procédez de la façon suivante :
 
@@ -60,9 +48,7 @@ Procédez de la façon suivante :
 
    ![](assets/push-genai-full-1.png){zoomable="yes"}
 
-1. Activez l’option **[!UICONTROL Utiliser le contenu original]** de l’assistant IA afin de personnaliser le nouveau contenu en fonction du contenu de votre campagne, du nom de la campagne et de l’audience sélectionnée.
-
-   Votre invite doit toujours être liée à un contexte spécifique.
+1. Activez l’option **[!UICONTROL Utiliser le contenu d’origine]** de l’assistant d’IA pour l’accélération du contenu afin de personnaliser l’option du nouveau contenu en fonction du contenu sélectionné.
 
 1. Affinez le contenu en décrivant ce que vous souhaitez générer dans le champ **[!UICONTROL Invite]**.
 
@@ -70,17 +56,28 @@ Procédez de la façon suivante :
 
    ![](assets/push-genai-full-2.png){zoomable="yes"}
 
-1. Sélectionnez **[!UICONTROL Charger une ressource de marque]** pour ajouter toute ressource de marque incluant du contenu pouvant fournir du contexte supplémentaire à l’assistant IA.
+1. Sélectionnez le champ à générer : **[!UICONTROL Titre]**, **[!UICONTROL Message]** et/ou **[!UICONTROL Image]**.
 
-1. Sélectionnez le champ à générer : **[!UICONTROL Titre]** ou **[!UICONTROL Message]**.
-
-1. Adaptez votre invite avec les différentes options :
+1. Personnalisez votre invite avec l’option **[!UICONTROL Paramètres de texte]** :
 
    * **[!UICONTROL Stratégie de communication]** : choisissez le style de communication le plus adapté au texte généré.
-   * **[!UICONTROL Langue]** : sélectionnez la langue dans laquelle vous souhaitez générer votre contenu.
-   * **[!UICONTROL Ton]** : le ton de votre e-mail doit résonner auprès de votre audience. Que vous souhaitiez communiquer de façon informative, ludique ou convaincante, l’assistant IA peut adapter le message en conséquence.
+   * **[!UICONTROL Tone]** : le ton de vos notifications push doit résonner avec votre audience. Que vous souhaitiez communiquer de façon informative, ludique ou convaincante, l’assistant IA peut adapter le message en conséquence.
 
    ![](assets/push-genai-full-3.png){zoomable="yes"}
+
+1. Sélectionnez vos **[!UICONTROL paramètres d&#39;image]** :
+
+   * **[!UICONTROL Type de contenu]** : cette propriété classe la nature de l’élément visuel en faisant la distinction entre les différentes formes de représentation visuelle, telles que les photos, les graphiques ou les illustrations.
+   * **[!UICONTROL Intensité visuelle]** : vous pouvez contrôler l’impact de l’image en ajustant son intensité. Un paramètre inférieur (2) crée un aspect plus modéré et plus modéré, tandis qu’un paramètre supérieur (10) rend l’image plus vivante et visuellement plus puissante.
+   * **[!UICONTROL Couleur et ton]** : aspect général des couleurs dans une image et humeur ou ambiance qu’elles véhiculent.
+   * **[!UICONTROL Éclairage]** : fait référence à l’éclairage présent dans une image qui forme son atmosphère et met en évidence des éléments spécifiques.
+   * **[!UICONTROL Composition]** : fait référence à la disposition des éléments dans le cadre d’une image.
+
+   ![](assets/push-genai-full-5.png){zoomable="yes"}
+
+1. Dans le menu **[!UICONTROL Ressources de marque]**, cliquez sur **[!UICONTROL Télécharger une ressource de marque]** pour ajouter toute ressource de marque qui contient du contenu pouvant fournir un contexte supplémentaire à l’assistant d’IA ou en sélectionner une précédemment téléchargée.
+
+   Les fichiers précédemment téléchargés sont disponibles dans la liste déroulante **[!UICONTROL Ressources de marque téléchargées]** . Il vous suffit d’activer/désactiver les ressources que vous souhaitez inclure dans votre génération.
 
 1. Lorsque votre texte descriptif est prêt, cliquez sur **[!UICONTROL Générer]**.
 
@@ -92,7 +89,9 @@ Procédez de la façon suivante :
 
    * **[!UICONTROL Reformuler]** : l’assistant IA peut reformuler votre message de différentes manières en conservant une écriture soignée et attrayante pour diverses audiences.
 
-   * **[!UICONTROL Utiliser un langage simple]** : utilisez l’assistant IA pour simplifier votre langage en assurant clarté et accessibilité pour une audience plus large.
+   * **[!UICONTROL Utiliser un langage simplifié]** : utilisez l’assistant IA pour simplifier votre langage, garantissant ainsi clarté et accessibilité pour une audience plus large.
+
+   Vous pouvez également modifier les **[!UICONTROL tons]** et la **[!UICONTROL stratégie de communication]** de votre texte.
 
    ![](assets/push-genai-full-4.png){zoomable="yes"}
 
@@ -100,13 +99,13 @@ Procédez de la façon suivante :
 
    Vous pouvez également activer l’expérience pour votre contenu. [En savoir plus](generative-experimentation.md)
 
-1. Insérez des champs de personnalisation pour personnaliser le contenu de votre e-mail en fonction des données de profil. Cliquez ensuite sur le bouton **[!UICONTROL Simuler le contenu]** pour contrôler le rendu et vérifier les paramètres de personnalisation avec les profils de test. [En savoir plus](../personalization/personalize.md)
+1. Insérez des champs de personnalisation pour personnaliser le contenu de votre notification push en fonction des données de profil. Cliquez ensuite sur le bouton **[!UICONTROL Simuler le contenu]** pour contrôler le rendu et vérifier les paramètres de personnalisation avec les profils de test. [En savoir plus](../personalization/personalize.md)
 
 Lorsque vous avez défini le contenu, l’audience et le planning, vous pouvez préparer votre campagne de notifications push. [En savoir plus](../campaigns/review-activate-campaign.md)
 
->[!TAB Génération de texte]
+>[!TAB Génération de texte uniquement]
 
-Dans cet exemple particulier, apprenez à utiliser l’assistant IA pour du contenu spécifique. Procédez de la façon suivante :
+Dans cet exemple particulier, découvrez comment utiliser l’assistant d’IA dans Journey Optimizer pour l’accélération du contenu pour du contenu spécifique. Procédez de la façon suivante :
 
 1. Après avoir créé et configuré votre campagne de notifications push, cliquez sur **[!UICONTROL Modifier le contenu]**.
 
@@ -116,13 +115,11 @@ Dans cet exemple particulier, apprenez à utiliser l’assistant IA pour du con
 
 1. Personnalisez vos notifications push selon vos besoins. [En savoir plus](../push/design-push.md)
 
-1. Accédez au menu **[!UICONTROL Afficher l’assistant IA]** en regard de votre champ **[!UICONTROL Titre]** ou **[!UICONTROL Message]**.
+1. Accédez au menu **[!UICONTROL Modifier le texte avec l’assistant d’IA]** en regard de vos champs **[!UICONTROL Titre]** ou **[!UICONTROL Message]** .
 
    ![](assets/push-genai-1.png){zoomable="yes"}
 
-1. Activez l’option **[!UICONTROL Utiliser le contenu de référence]** de l’assistant IA afin de personnaliser le nouveau contenu en fonction du contenu de votre campagne, du nom de la campagne et de l’audience sélectionnée.
-
-   Votre invite doit toujours être liée à un contexte spécifique.
+1. Activez l’option **[!UICONTROL Utiliser le contenu de référence]** de l’assistant d’IA pour l’accélération du contenu pour personnaliser le nouveau contenu en fonction du contenu sélectionné.
 
 1. Affinez le contenu en décrivant ce que vous souhaitez générer dans le champ **[!UICONTROL Invite]**.
 
@@ -130,22 +127,19 @@ Dans cet exemple particulier, apprenez à utiliser l’assistant IA pour du con
 
    ![](assets/push-genai-2.png){zoomable="yes"}
 
-1. Sélectionnez **[!UICONTROL Charger une ressource de marque]** pour ajouter toute ressource de marque incluant du contenu pouvant fournir du contexte supplémentaire à l’assistant IA.
-
-   ![](assets/push-genai-3.png){zoomable="yes"}
-
-1. Adaptez votre invite avec les différentes options :
+1. Personnalisez votre invite avec l’option **[!UICONTROL Paramètres de texte]** :
 
    * **[!UICONTROL Stratégie de communication]** : choisissez le style de communication le plus adapté au texte généré.
-   * **[!UICONTROL Langue]** : sélectionnez la langue dans laquelle vous souhaitez générer votre contenu.
-   * **[!UICONTROL Ton]** : le ton de votre e-mail doit résonner auprès de votre audience. Que vous souhaitiez communiquer de façon informative, ludique ou convaincante, l’assistant IA peut adapter le message en conséquence.
+   * **[!UICONTROL Tone]** : le ton de votre notification push doit résonner avec votre audience. Que vous souhaitiez communiquer de façon informative, ludique ou convaincante, l’assistant IA peut adapter le message en conséquence.
    * **[!UICONTROL Longueur]** : sélectionnez la longueur de votre contenu à l’aide du curseur de plage.
 
    ![](assets/push-genai-4.png){zoomable="yes"}
 
-1. Lorsque votre texte descriptif est prêt, cliquez sur **[!UICONTROL Générer]**.
+1. Dans le menu **[!UICONTROL Ressources de marque]**, cliquez sur **[!UICONTROL Télécharger une ressource de marque]** pour ajouter toute ressource de marque qui contient du contenu pouvant fournir un contexte supplémentaire à l’assistant d’IA ou en sélectionner une précédemment téléchargée.
 
-1. Parcourez les **[!UICONTROL variations]** générées et cliquez sur **[!UICONTROL Prévisualisation]** pour afficher une version plein écran de la variation sélectionnée.
+   Les fichiers précédemment téléchargés sont disponibles dans la liste déroulante **[!UICONTROL Ressources de marque téléchargées]** . Il vous suffit d’activer/désactiver les ressources que vous souhaitez inclure dans votre génération.
+
+1. Lorsque votre texte descriptif est prêt, cliquez sur **[!UICONTROL Générer]**.
 
 1. Naviguez vers l’option **[!UICONTROL Affiner]** dans la fenêtre **[!UICONTROL Aperçu]** pour accéder à d’autres fonctionnalités de personnalisation :
 
@@ -153,11 +147,13 @@ Dans cet exemple particulier, apprenez à utiliser l’assistant IA pour du con
 
    * **[!UICONTROL Élaborer]** : l’assistant IA peut vous aider à développer des sujets spécifiques, en fournissant des détails supplémentaires pour une meilleure compréhension et un meilleur engagement.
 
-   * **[!UICONTROL Résumé]** : de longues informations peuvent embrouiller les personnes destinataires des e-mails. Utilisez l’assistant IA pour condenser des points clés en résumés clairs et concis qui attirent l’attention et pour les encourager à lire davantage.
+   * **[!UICONTROL Résumer]** : de longues informations peuvent surcharger les destinataires. Utilisez l’assistant IA pour condenser des points clés en résumés clairs et concis qui attirent l’attention et pour les encourager à lire davantage.
 
    * **[!UICONTROL Reformuler]** : l’assistant IA peut reformuler votre message de différentes manières en conservant une écriture soignée et attrayante pour diverses audiences.
 
    * **[!UICONTROL Utiliser un langage simplifié]** : utilisez l’assistant IA pour simplifier votre langage, garantissant ainsi clarté et accessibilité pour une audience plus large.
+
+   Vous pouvez également modifier les **[!UICONTROL tons]** et la **[!UICONTROL stratégie de communication]** de votre texte.
 
    ![](assets/push-genai-5.png){zoomable="yes"}
 
@@ -165,7 +161,55 @@ Dans cet exemple particulier, apprenez à utiliser l’assistant IA pour du con
 
    Vous pouvez également activer l’expérience pour votre contenu. [En savoir plus](generative-experimentation.md)
 
-1. Insérez des champs de personnalisation pour personnaliser le contenu de votre e-mail en fonction des données de profil. Cliquez ensuite sur le bouton **[!UICONTROL Simuler le contenu]** pour contrôler le rendu et vérifier les paramètres de personnalisation avec les profils de test. [En savoir plus](../personalization/personalize.md)
+1. Insérez des champs de personnalisation pour personnaliser le contenu de votre notification push en fonction des données de profil. Cliquez ensuite sur le bouton **[!UICONTROL Simuler le contenu]** pour contrôler le rendu et vérifier les paramètres de personnalisation avec les profils de test. [En savoir plus](../personalization/personalize.md)
+
+Lorsque vous avez défini le contenu, l’audience et le planning, vous pouvez préparer votre campagne de notifications push. [En savoir plus](../campaigns/review-activate-campaign.md)
+
+>[!TAB Génération d’images uniquement]
+
+1. Après avoir créé et configuré votre campagne de notifications push, cliquez sur **[!UICONTROL Modifier le contenu]**.
+
+   Pour plus d’informations sur la configuration de votre campagne de notifications push, consultez [cette page](../push/create-push.md).
+
+1. Renseignez les **[!UICONTROL Détails de base]** de votre campagne. Une fois terminé, cliquez sur **[!UICONTROL Modifier le contenu]**.
+
+1. Personnalisez vos notifications push selon vos besoins. [En savoir plus](../push/design-push.md)
+
+1. Accédez au menu **[!UICONTROL Ajouter un média]** .
+
+   ![](assets/push-gen-img.png){zoomable="yes"}
+
+1. Activez l’option **[!UICONTROL Style de référence]** de l’assistant d’IA pour l’accélération du contenu afin de personnaliser le nouveau contenu en fonction du contenu de référence. Vous pouvez également charger une image pour ajouter du contexte à votre variation.
+
+1. Affinez le contenu en décrivant ce que vous souhaitez générer dans le champ **[!UICONTROL Invite]**.
+
+   Si vous avez besoin d’aide pour concevoir votre invite, accédez à la **[!UICONTROL Bibliothèque d’invites]** qui offre un large éventail d’idées d’invites pour améliorer vos campagnes.
+
+   ![](assets/push-gen-img-1.png){zoomable="yes"}
+
+1. Sélectionnez vos **[!UICONTROL paramètres d&#39;image]** :
+
+   * **[!UICONTROL Type de contenu]** : cette propriété classe la nature de l’élément visuel en faisant la distinction entre les différentes formes de représentation visuelle, telles que les photos, les graphiques ou les illustrations.
+   * **[!UICONTROL Intensité visuelle]** : vous pouvez contrôler l’impact de l’image en ajustant son intensité. Un paramètre inférieur (2) crée un aspect plus modéré et plus modéré, tandis qu’un paramètre supérieur (10) rend l’image plus vivante et visuellement plus puissante.
+   * **[!UICONTROL Couleur et ton]** : aspect général des couleurs dans une image et humeur ou ambiance qu’elles véhiculent.
+   * **[!UICONTROL Éclairage]** : fait référence à l’éclairage présent dans une image qui forme son atmosphère et met en évidence des éléments spécifiques.
+   * **[!UICONTROL Composition]** : fait référence à la disposition des éléments dans le cadre d’une image.
+
+1. Dans le menu **[!UICONTROL Ressources de marque]**, cliquez sur **[!UICONTROL Télécharger une ressource de marque]** pour ajouter toute ressource de marque qui contient du contenu pouvant fournir un contexte supplémentaire à l’assistant d’IA ou en sélectionner une précédemment téléchargée.
+
+   Les fichiers précédemment téléchargés sont disponibles dans la liste déroulante **[!UICONTROL Ressources de marque téléchargées]** . Il vous suffit d’activer/désactiver les ressources que vous souhaitez inclure dans votre génération.
+
+1. Lorsque votre texte descriptif est prêt, cliquez sur **[!UICONTROL Générer]**.
+
+1. Parcourez les **[!UICONTROL Variations]** générées.
+
+   ![](assets/push-gen-img-2.png){zoomable="yes"}
+
+1. Sélectionnez **[!UICONTROL Générer le même]** pour afficher les variations d’image qui correspondent étroitement à l’option actuelle, fournissant des conceptions alternatives avec un thème cohérent.
+
+1. Cliquez sur **[!UICONTROL Sélectionner]** une fois que vous avez trouvé le contenu approprié.
+
+   Vous pouvez également activer l’expérience pour votre contenu. [En savoir plus](generative-experimentation.md)
 
 Lorsque vous avez défini le contenu, l’audience et le planning, vous pouvez préparer votre campagne de notifications push. [En savoir plus](../campaigns/review-activate-campaign.md)
 
