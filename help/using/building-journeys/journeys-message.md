@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: parcours, message, notification push, sms, e-mail, in-app
 exl-id: 4db07a9e-c3dd-4873-8bd9-ac34c860694c
-source-git-commit: 2c4c9064b11bce44331b6604c91221ba9829eff7
-workflow-type: ht
-source-wordcount: '1177'
-ht-degree: 100%
+source-git-commit: f81fde0076fc8689c689fae7a0ee8c7aa9fdbeed
+workflow-type: tm+mt
+source-wordcount: '1195'
+ht-degree: 98%
 
 ---
 
@@ -40,13 +40,15 @@ Pour ajouter un message dans un parcours, procédez comme suit :
 
 1. Dans la section **Actions** de la palette, effectuez un glisser-déposer d’une activité **E-mail**, **In-app**, **SMS** ou **Push** dans la zone de travail.
 
-1. Configurez votre activité. Découvrez les étapes détaillées pour créer le contenu de votre message dans les pages suivantes :
+1. Configurez votre activité.
+
+   Découvrez les étapes détaillées pour créer le contenu de votre message dans les pages suivantes :
 
    <table style="table-layout:fixed">
    <tr style="border: 0;">
    <td>
    <a href="../email/create-email.md">
-   <img alt="Prospect" src="../assets/do-not-localize/email.jpg">
+   <img alt="Lead" src="../assets/do-not-localize/email.jpg">
    </a>
    <div><a href="../email/create-email.md"><strong>Créer des e-mails</strong>
    </div>
@@ -80,6 +82,11 @@ Pour ajouter un message dans un parcours, procédez comme suit :
    </td>
    </tr>
    </table>
+
+>[!NOTE]
+>
+>Chaque activité de message entrant (message in-app, expérience basée sur le code ou carte) est fournie avec une activité **Attente** de 3 jours. [En savoir plus](../building-journeys/wait-activity.md#auto-wait-node)
+>
 
 ## Mettre à jour le contenu dynamique{#update-live-content}
 
