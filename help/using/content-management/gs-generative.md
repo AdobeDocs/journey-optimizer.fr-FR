@@ -1,21 +1,21 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Prise en main de l’assistant AI dans Journey Optimizer - Content Accelerator
-description: Découvrez comment accéder à l’assistant AI et l’utiliser dans Journey Optimizer - Content Accelerator
+title: Prise en main de l’assistant d’IA dans l’accélérateur de contenu Journey Optimizer
+description: Découvrez comment accéder à l’assistant AI et l’utiliser dans Journey Optimizer Content Accelerator.
 feature: Content Assistant
 topic: Content Management
 role: User
 level: Beginner
 exl-id: 6e291ce3-f324-4e5d-975b-5229dea4d581
-source-git-commit: 33dd0568ff55750d0f067e51442b5187820ec36a
+source-git-commit: a531f4b0a9f3fbc3185a0e84d9c2634e3b589011
 workflow-type: tm+mt
 source-wordcount: '883'
 ht-degree: 44%
 
 ---
 
-# Prise en main de l’assistant d’IA - Accélérateur de contenu {#gs-content-assistant}
+# Prise en main de l’accélérateur de contenu de l’assistant d’IA {#gs-content-assistant}
 
 >[!CONTEXTUALHELP]
 >id="ajo_ai_generation_settings"
