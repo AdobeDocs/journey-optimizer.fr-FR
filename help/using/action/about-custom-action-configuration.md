@@ -9,10 +9,10 @@ role: Data Engineer, Data Architect, Admin
 level: Experienced
 keywords: action, tiers, personnalisé, parcours, API
 exl-id: 4df2fc7c-85cb-410a-a31f-1bc1ece237bb
-source-git-commit: 3d79eca67dbfe5011a4bbc4955bbbfb5d6c17b38
+source-git-commit: b86a459681cda66596e0658b9f703185821aceea
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1552'
+ht-degree: 92%
 
 ---
 
@@ -141,11 +141,13 @@ Lors de la configuration d’une action personnalisée, vous devez définir les 
 
 ## Prise en charge du protocole mTLS {#mtls-protocol-support}
 
-Vous pouvez désormais utiliser le protocole mTLS (Mutual Transport Layer Security) pour améliorer la sécurité des connexions sortantes aux actions personnalisées Adobe Journey Optimizer. Le protocole mTLS est une méthode de sécurité de bout en bout pour une authentification mutuelle qui garantit que les deux parties qui partagent des informations sont celles qu’elles prétendent être avant que les données ne soient partagées. Le protocole mTLS inclut une étape supplémentaire par rapport à TLS, dans laquelle le serveur demande également le certificat du client et le vérifie de son côté.
+Vous pouvez utiliser le protocole mTLS (Mutual Transport Layer Security) pour garantir une sécurité renforcée dans les connexions sortantes aux actions personnalisées de Adobe Journey Optimizer. Le protocole mTLS est une méthode de sécurité de bout en bout pour une authentification mutuelle qui garantit que les deux parties qui partagent des informations sont celles qu’elles prétendent être avant que les données ne soient partagées. Le protocole mTLS inclut une étape supplémentaire par rapport à TLS, dans laquelle le serveur demande également le certificat du client et le vérifie de son côté.
 
 L’authentification TLS mutuelle (mTLS) est prise en charge dans les actions personnalisées. Aucune configuration supplémentaire n’est requise dans l’action personnalisée ou le parcours pour activer mTLS. Cela se produit automatiquement lorsqu’un point d’entrée compatible avec mTLS est détecté. [En savoir plus](https://experienceleague.adobe.com/fr/docs/experience-platform/landing/governance-privacy-security/encryption#mtls-protocol-support).
 
 ## Définir les paramètres de payload {#define-the-message-parameters}
+
+Vous pouvez définir le paramètre de payload comme décrit ci-dessous :
 
 1. Dans la section **[!UICONTROL Requête]**, collez un exemple de payload JSON à envoyer au service externe. Ce champ est facultatif et disponible uniquement pour les méthodes d’appel POST et PUT.
 
@@ -157,11 +159,15 @@ L’authentification TLS mutuelle (mTLS) est prise en charge dans les actions pe
 >
 >L’exemple de payload ne peut pas contenir de valeurs nulles. Les noms de champ de la payload ne peuvent pas contenir de caractère &quot;.&quot; . Ils ne peuvent pas commencer par le caractère &quot;$&quot;.
 
-Vous pourrez définir le type de paramètre (par exemple : chaîne, entier, etc.).
-
-Vous aurez également la possibilité de spécifier si un paramètre est une constante ou une variable :
-
-* Le paramètre « **Constant** » signifie que la valeur du paramètre est définie dans le volet de configuration des actions par une persona ayant un rôle technique. La valeur reste identique dans tous les parcours et la personne chargée du marketing ne la voit pas lors de l’utilisation de l’action personnalisée dans le parcours. Il peut s&#39;agir, par exemple, d&#39;un identifiant attendu par le système tiers. Dans ce cas, le champ situé à droite du bouton bascule Constante/Variable correspond à la valeur transmise.
-* Le paramètre « **Variable** » signifie que la valeur du paramètre varie. Le spécialiste marketing qui utilise cette action personnalisée dans un parcours sera libre de transmettre la valeur de son choix ou bien d’indiquer où récupérer la valeur de ce paramètre (à partir de l’événement, d‘Adobe Experience Platform, etc.). Dans ce cas, le champ situé à droite du bouton bascule Constante/Variable correspond au libellé que le spécialiste marketing voit dans le parcours pour nommer ce paramètre.
-
 ![](assets/customactionpayloadmessage2.png)
+
+Dans la configuration des champs, vous devez :
+
+* Sélectionnez le type de paramètre, par exemple : chaîne, entier, etc.
+
+* Définissez une constante ou un paramètre de variable :
+
+   * Le paramètre « **Constant** » signifie que la valeur du paramètre est définie dans le volet de configuration des actions par une persona ayant un rôle technique. La valeur reste identique dans tous les parcours Elle ne varie pas et le marketeur ne peut pas la voir lors de l’utilisation de l’action personnalisée dans le parcours. Il peut s&#39;agir, par exemple, d&#39;un identifiant attendu par le système tiers. Dans ce cas, la valeur constante est définie sur le champ à droite du bouton bascule Constante/Variable.
+
+   * Le paramètre « **Variable** » signifie que la valeur du paramètre varie. Les marketeurs qui utilisent cette action personnalisée dans un parcours peuvent transmettre la valeur de leur choix ou indiquer où récupérer la valeur de ce paramètre (à partir de l’événement, de Adobe Experience Platform, etc.). Dans ce cas, le champ situé à droite du bouton bascule Constante/Variable correspond au libellé que le spécialiste marketing voit dans le parcours pour nommer ce paramètre.
+
