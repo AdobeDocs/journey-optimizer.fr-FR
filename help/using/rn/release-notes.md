@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Notes de mise à jour d’Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: a531f4b0a9f3fbc3185a0e84d9c2634e3b589011
+source-git-commit: b560c88bf97143ca9dadf1399862165cb3f7bc62
 workflow-type: tm+mt
 source-wordcount: '928'
-ht-degree: 83%
+ht-degree: 82%
 
 ---
 
@@ -27,6 +27,11 @@ ht-degree: 83%
 ![Newsletter](../assets/do-not-localize/nl-icon.png) Inscrivez-vous à la [newsletter trimestrielle d’Adobe Journey Optimizer](https://www.adobe.com/subscription/Adobe_Journey_Optimizer_NL.html){target="_blank"} dès aujourd’hui, et recevez les dernières mises à jour produits, les articles les plus intéressants, des cas pratiques, des conseils et bien plus encore, directement dans votre boîte de réception, tous les trimestres.
 
 ## Mises à jour de septembre {#9-2024}
+
+>[!IMPORTANT]
+>
+>L’expérience actuelle de création de rapports sera abandonnée à compter de la version d’octobre. À partir de cette date, la nouvelle expérience de création de rapports deviendra la norme. Nous vous recommandons de vous familiariser avec les nouvelles fonctionnalités pour garantir une transition fluide.
+> [Prise en main de la nouvelle interface de création de rapports de Journey Optimizer](../reports/report-gs-cja.md)
 
 <table>
 <thead>
@@ -200,10 +205,6 @@ Cette version apporte les améliorations répertoriées ci-dessous.
 ### Autres modifications {#changes}
 
 **Création de rapports**
-
-* L’expérience actuelle de création de rapports sera abandonnée à compter de la version d’octobre. À partir de cette date, la nouvelle expérience de création de rapports deviendra la norme. Nous vous recommandons de vous familiariser avec les nouvelles fonctionnalités pour garantir une transition fluide.
-
-[Commencer avec la nouvelle interface de création de rapports de Journey Optimizer](../reports/report-gs-cja.md)
 
 * De nouveaux cas d’utilisation ont été ajoutés à la nouvelle expérience de création de rapports :
 
