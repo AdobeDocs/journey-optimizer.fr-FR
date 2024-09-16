@@ -9,10 +9,10 @@ role: Data Engineer, Data Architect, Admin
 level: Experienced
 keywords: action, tiers, personnalisé, parcours, API
 exl-id: 4df2fc7c-85cb-410a-a31f-1bc1ece237bb
-source-git-commit: 067c990f7f82594418d59c3b1587a62a04799c09
+source-git-commit: 3d79eca67dbfe5011a4bbc4955bbbfb5d6c17b38
 workflow-type: tm+mt
-source-wordcount: '1561'
-ht-degree: 100%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -150,10 +150,6 @@ L’authentification TLS mutuelle (mTLS) est prise en charge dans les actions pe
 1. Dans la section **[!UICONTROL Requête]**, collez un exemple de payload JSON à envoyer au service externe. Ce champ est facultatif et disponible uniquement pour les méthodes d’appel POST et PUT.
 
 1. Dans la section **[!UICONTROL Réponse]**, collez un exemple de payload renvoyée par l’appel. Ce champ est facultatif et disponible pour toutes les méthodes d’appel. Pour plus d’informations sur l’utilisation des réponses d’appel API dans les actions personnalisées, reportez-vous à [cette page](../action/action-response.md).
-
->[!NOTE]
->
->La fonctionnalité de réponse est actuellement disponible en version Beta.
 
 ![](assets/action-response2bis.png){width="70%" align="left"}
 
