@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Notes de mise à jour d’Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: b560c88bf97143ca9dadf1399862165cb3f7bc62
+source-git-commit: d7d77bcbd401f7af68f644ded25d61f0921c03be
 workflow-type: tm+mt
-source-wordcount: '928'
-ht-degree: 82%
+source-wordcount: '950'
+ht-degree: 80%
 
 ---
 
@@ -71,9 +71,15 @@ ht-degree: 82%
 </tbody>
 </table>
 
+**Audiences**
+
+(Date de disponibilité : 17 septembre) **Utilisation de la licence** - Le tableau de bord Utilisation de la licence affiche désormais les profils activables, au lieu des audiences activables. [En savoir plus](../audience/license-usage.md)
+
 **Parcours**
 
 (Date de disponibilité : 10 septembre) **Fonctionnalité de reprise** - Les reprises sont désormais appliquées par défaut sur les parcours déclenchés par l’audience (commençant par une **audience de lecture** ou un **événement commercial**) lors de la récupération de la tâche d’exportation. Si une erreur se produit lors de la création de la tâche d’exportation, des reprises sont effectuées toutes les 10 minutes, pendant 1 heure au maximum. Après cela, nous le considérerons comme un échec. Ces types de parcours peuvent donc être exécutés jusqu’à 1 heure après l’heure planifiée. [En savoir plus](../building-journeys/read-audience.md#retries)
+
+
 
 ## Notes de mise à jour d’août 2024 {#8-2024}
 
