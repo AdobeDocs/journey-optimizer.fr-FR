@@ -9,8 +9,8 @@ role: User
 level: Intermediate
 keywords: parcours, configuration, propriétés
 exl-id: 6c21371c-6cbc-4d39-8fe6-39f1b8b13280
-source-git-commit: c15894e0d474fbf3a8aa789632719b2c4c8d9612
-workflow-type: ht
+source-git-commit: fbe8d14ba81e168ecfb141d54bf3009a2565751c
+workflow-type: tm+mt
 source-wordcount: '1724'
 ht-degree: 100%
 
@@ -24,7 +24,7 @@ ht-degree: 100%
 >abstract="Cette section présente les propriétés du parcours. Par défaut, les paramètres en lecture seule sont masqués. Les paramètres disponibles dépendent du statut du parcours, de vos autorisations et de la configuration de votre produit."
 
 >[!CONTEXTUALHELP]
->id="ajo_journey_exit_criteria"
+>id="ajo_journey_exit_criterias"
 >title="Critères de sortie de parcours"
 >abstract="Cette section présente les options des critères de sortie. Vous pouvez créer une ou plusieurs règles de critères de sortie pour votre parcours."
 
