@@ -10,9 +10,9 @@ level: Intermediate
 keywords: activité, parcours, lecture, audience, platform
 exl-id: 7b27d42e-3bfe-45ab-8a37-c55b231052ee
 source-git-commit: 75b7d7402363709a0790ffaae051cf836bed6c81
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1635'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -31,7 +31,7 @@ Prenons l’exemple de l’audience « Ouverture et passage en caisse de l’ap
 
 ➡️ [Découvrir cette fonctionnalité en vidéo](#video)
 
-## Barrières de sécurité et bonnes pratiques {#must-read}
+## Mécanismes de sécurisation et bonnes pratiques {#must-read}
 
 * Pour les parcours qui utilisent une activité **Lecture d’audience**, il y a un nombre maximal de parcours pouvant commencer exactement au même moment. Les reprises seront effectuées par le système, mais évitez d’avoir plus de cinq parcours (avec **Lecture d’audience**, planifié ou commençant « le plus tôt possible ») commençant exactement au même moment. La bonne pratique consiste à les espacer au fil du temps, par exemple avec une intervalle de 5 à 10 minutes.
 
@@ -197,9 +197,9 @@ Après une union, vous pouvez fractionner à nouveau l’audience en exécutant 
 
 ## Reprises {#read-audience-retry}
 
-Les reprises sont appliquées par défaut sur les parcours déclenchés par l’audience (commençant par une **audience de lecture** ou un **événement commercial**) lors de la récupération de la tâche d’exportation. Si une erreur se produit lors de la création de la tâche d’exportation, des reprises sont effectuées toutes les 10 minutes, pendant 1 heure au maximum. Après cela, nous le considérerons comme un échec. Ces types de parcours peuvent donc être exécutés jusqu’à 1 heure après l’heure planifiée.
+Les reprises sont appliquées par défaut sur les parcours déclenchés par l’audience (commençant par une **Lecture d’audience** ou un **événement métier**) lors de la récupération du traitement d’export. Si une erreur se produit lors de la création du traitement d’export, des reprises sont effectuées toutes les 10 minutes, pendant 1 heure au maximum. Après cela, nous considérerons cela comme un échec. Ces types de parcours peuvent donc être exécutés jusqu’à 1 heure après l’heure planifiée.
 
-Les déclencheurs **Lecture d’audience** échoués sont capturés et affichés dans les **Alertes**. L’alerte **Lecture d’audience** vous avertit si une activité **Lecture d’audience** n’a traité aucun profil 10 minutes après l’heure planifiée de l’exécution. Cet échec peut être dû à des problèmes techniques ou parce que l’audience est vide. Si cet échec est dû à des problèmes techniques, sachez que des reprises peuvent toujours se produire, selon le type de problème (par exemple : si la création de la tâche d’exportation a échoué, nous allons réessayer toutes les 10 minutes pour 1 h max). [En savoir plus](../reports/alerts.md#alert-read-audiences)
+Les déclencheurs **Lecture d’audience** échoués sont capturés et affichés dans les **Alertes**. L’**alerte Lecture d’audience** vous avertit si une activité **Lecture d’audience** n’a traité aucun profil 10 minutes après l’heure planifiée de l’exécution. Cet échec peut être dû à des problèmes techniques ou parce que l’audience est vide. Si cet échec est dû à des problèmes techniques, sachez que des reprises peuvent toujours se produire, selon le type de problème (par exemple : si la création du traitement d’export a échoué, nous allons réessayer toutes les 10 minutes pendant 1 h au maximum). [En savoir plus](../reports/alerts.md#alert-read-audiences)
 
 ## Vidéo pratique {#video}
 

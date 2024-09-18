@@ -9,9 +9,9 @@ level: Beginner
 keywords: externe, API, optimizer, limitation
 exl-id: 27859689-dc61-4f7a-b942-431cdf244455
 source-git-commit: ae92a1e950822d4a0dbac1aa535078fe535113c0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1343'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -98,7 +98,7 @@ Prenons un exemple pour une temporisation de 5 secondes.
 
 **Comment configurer une règle de plafonnement ou de limitation ? Existe-t-il une règle par défaut ?**
 
-Pour créer des règles de limitation ou de limitation, reportez-vous à [cette section](../configuration/external-systems.md#capping). Par défaut, il n’existe pas de règle de ralentissement, mais une limite de limitation de 300 000 appels de plus d’une minute définie pour toutes les actions personnalisées, par hôte et par environnement de test. Cette limite a été définie en fonction de l’utilisation de la clientèle, afin de protéger les points d’entrée externes ciblés par des actions personnalisées. Vous devez prendre cela en compte dans vos parcours basés sur l’audience en définissant un taux de lecture approprié (5 000 profils/s lors de l’utilisation d’actions personnalisées). Si nécessaire, vous pouvez remplacer ce paramètre en définissant une limite de limitation ou de ralentissement plus élevée via nos API de limitation/limitation.
+Pour créer des règles de limitation ou de ralentissement, reportez-vous à [cette section](../configuration/external-systems.md#capping). Par défaut, il n’y a aucune règle de ralentissement mais une limitation de 300 000 appels de plus d’une minute est définie pour toutes les actions personnalisées, par hôte et par sandbox. Cette limite a été définie en fonction de l’utilisation de la clientèle, afin de protéger les points d’entrée externes ciblés par des actions personnalisées. Vous devez prendre cela en compte dans vos parcours basés sur l’audience en définissant un taux de lecture approprié (5 000 profils/s lors de l’utilisation d’actions personnalisées). Si nécessaire, vous pouvez remplacer ce paramètre en définissant une limitation ou un ralentissement plus élevé via nos API de limitation/ralentissement.
 
 **Combien de reprises sont effectuées ? Puis-je modifier le nombre de reprises ou définir une période d&#39;attente minimale entre deux reprises ?**
 

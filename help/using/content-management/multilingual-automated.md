@@ -11,9 +11,9 @@ keywords: commencer, démarrer, contenu, expérience
 exl-id: 38e82eb2-67d9-4a7d-8c1f-77dab20bcec4
 badge: label="Disponibilité limitée" type="Informative"
 source-git-commit: a190b5547c2d8e13563391bd9d784add75c55fd4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1617'
-ht-degree: 82%
+ht-degree: 100%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 82%
 
 >[!CONTEXTUALHELP]
 >id="ajo_multi_edit_provider"
->title="Modifier le fournisseur"
+>title="Modifier un fournisseur"
 >abstract="Modifiez les fournisseurs de traduction existants et ajoutez des paramètres régionaux selon les besoins. Cette fonctionnalité vous permet de contrôler les fournisseurs et paramètres régionaux actifs pour votre projet, ce qui vous offre la possibilité d’ajuster les ressources et de cibler des audiences spécifiques en fonction de vos besoins actuels et des objectifs du projet."
 
 >[!AVAILABILITY]
@@ -73,12 +73,12 @@ Lors de la configuration des paramètres de langue, comme décrit dans la sectio
 >[!CONTEXTUALHELP]
 >id="ajo_multi_create_project"
 >title="Créer un projet"
->abstract="Pour commencer à créer du contenu multilingue, démarrez votre projet de traduction en identifiant les paramètres régionaux cibles, en sélectionnant la langue appropriée ou le dialecte régional pour votre audience. Ensuite, choisissez un fournisseur de traduction qui s’aligne sur les besoins de votre projet."
+>abstract="Pour commencer à créer du contenu multilingue, démarrez votre projet de traduction en identifiant les paramètres régionaux cible, en sélectionnant la langue appropriée ou le dialecte régional pour votre audience. Ensuite, choisissez un fournisseur de traduction qui s’aligne sur les besoins de votre projet."
 
 >[!CONTEXTUALHELP]
 >id="ajo_multi_edit_project"
->title="Modifier le projet"
->abstract="Mettez à jour votre projet de traduction pour incorporer d’autres paramètres régionaux, ce qui vous permet de développer votre contenu pour atteindre un plus large public."
+>title="Modifier un projet"
+>abstract="Mettez à jour votre projet de traduction pour incorporer d’autres paramètres régionaux, ce qui vous permet de développer votre contenu pour atteindre une audience plus large."
 
 Démarrez votre projet de traduction en spécifiant les paramètres régionaux cibles, en indiquant la langue ou la région spécifique pour votre contenu. Vous pouvez ensuite choisir votre fournisseur de traduction.
 
@@ -232,8 +232,8 @@ Vous pouvez maintenant activer votre campagne ou votre parcours. Après l’envo
 
 >[!CONTEXTUALHELP]
 >id="ajo_multi_insourcing_project"
->title="Projet de traduction d&#39;origine"
->abstract="L’externalisation de projet de traduction vous permet de gérer et d’exécuter des traductions directement dans votre projet de traduction, en rationalisant le processus et en maintenant un meilleur contrôle sur la qualité et la cohérence de la traduction."
+>title="Approvisionner un projet de traduction"
+>abstract="L’approvisionnement d’un projet de traduction vous permet de gérer et d’exécuter des traductions directement dans votre projet de traduction, en rationalisant le processus et en maintenant un meilleur contrôle sur la qualité et la cohérence de la traduction."
 
 Si vous avez sélectionné Approvisionnement lors de la configuration des paramètres de langue, vous pouvez traduire votre contenu directement dans votre projet de traduction.
 
@@ -256,12 +256,12 @@ Si vous avez sélectionné Approvisionnement lors de la configuration des param�
 >[!CONTEXTUALHELP]
 >id="ajo_multi_review_project"
 >title="Réviser votre projet de traduction"
->abstract="Une fois la traduction terminée, vous pouvez consulter les résultats directement dans Journey Optimizer. Vous pouvez ainsi évaluer l’exactitude et la qualité de la traduction, en vous assurant qu’elle s’aligne sur vos attentes et les exigences du projet avant de la finaliser."
+>abstract="Une fois la traduction terminée par votre fournisseur, vous pouvez consulter les résultats directement dans Journey Optimizer. Vous pouvez ainsi évaluer l’exactitude et la qualité de la traduction, en vous assurant qu’elle s’aligne sur vos attentes et les exigences du projet avant de la finaliser."
 
 >[!CONTEXTUALHELP]
 >id="ajo_multi_preview_project"
->title="Aperçu de votre projet de traduction"
->abstract="La fenêtre Aperçu vous permet de visualiser l’affichage du contenu traduit dans chaque langue. Cette fonctionnalité vous permet d’examiner le rendu et de vous assurer que le contenu s’affiche correctement et efficacement dans toutes les langues sélectionnées."
+>title="Prévisualiser votre projet de traduction"
+>abstract="La fenêtre Prévisualisation vous permet de visualiser l’affichage du contenu traduit dans chaque langue. Cette fonctionnalité vous permet d’examiner le rendu et de vous assurer que le contenu s’affiche correctement et efficacement dans toutes les langues sélectionnées."
 
 Si vous avez sélectionné l’option **[!UICONTROL Activer le workflow de révision]** dans votre **[!UICONTROL projet de traduction]**, vous pouvez réviser la traduction directement dans Journey Optimizer une fois la traduction effectuée par le fournisseur de traduction sélectionné.
 
