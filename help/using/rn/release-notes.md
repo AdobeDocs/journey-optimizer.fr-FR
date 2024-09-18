@@ -9,7 +9,7 @@ exl-id: 06fa956a-b500-416e-9d42-b683c328e837
 source-git-commit: d7d77bcbd401f7af68f644ded25d61f0921c03be
 workflow-type: tm+mt
 source-wordcount: '950'
-ht-degree: 80%
+ht-degree: 96%
 
 ---
 
@@ -42,11 +42,11 @@ ht-degree: 80%
 <tbody>
 <tr>
 <td>
-<p>Une fois que vous avez créé et personnalisé votre message, repositionnez votre contenu au niveau supérieur avec l’assistant d’IA dans Journey Optimizer pour l’accélération de contenu. Vous pouvez désormais utiliser l’assistant d’IA pour optimiser l’impact de votre message en testant différents titres et images principaux. Chaque variante est gérée en tant que traitement unique, afin de la mesurer et de la comparer pour savoir quel titre génère le plus de clics.</p>
-<p>Découvrez une expérience pratique avec <a href="https://experienceleague.adobe.com/en/apps/journey-optimizer/ai-assistant-content-accelerator">notre aperçu des fonctionnalités en direct</a>, conçu pour vous permettre d’explorer directement ses fonctionnalités et de comprendre pleinement ses fonctionnalités.</a>.</p>
+<p>Une fois que vous avez créé et personnalisé votre message, améliorez la qualité de votre contenu avec l’Assistant IA de Journey Optimizer pour l’accélération de contenu. Vous pouvez désormais utiliser l’assistant IA pour optimiser l’impact de votre message en testant différents titres principaux et images. Chaque variante est gérée en tant que traitement unique, afin de la mesurer et de la comparer pour savoir quel titre génère le plus de clics.</p>
+<p>Découvrez une expérience pratique avec <a href="https://experienceleague.adobe.com/fr/apps/journey-optimizer/ai-assistant-content-accelerator">notre aperçu des fonctionnalités en direct</a>, conçu pour vous permettre d’explorer directement ses fonctionnalités et de les comprendre pleinement.</a>.</p>
 <p>Pour plus d’informations, consultez la <a href="../content-management/gs-generative.md">documentation détaillée</a>.</p>
 <img src="assets/do-not-localize/ai-content.gif"/>
-<p>Date de disponibilité : 12 septembre</p>
+<p>Date de disponibilité : 12 septembre</p>
 </td>
 </tr>
 </tbody>
@@ -64,7 +64,7 @@ ht-degree: 80%
 <p>La configuration de canal guidée vous permet d’automatiser et de valider la configuration de canal dans une expérience unifiée, ce qui accélère le processus de prise en main de Journey Optimizer. Cette nouvelle configuration guidée simplifie la configuration rapide des canaux, en s’assurant que toutes les ressources nécessaires sont facilement installées et qu’elles fonctionnent dans Experience Platform, Journey Optimizer et la Collecte de données. Cela permet aux équipes d’ingénierie marketing, produit et données de lancer rapidement la création de campagnes et de parcours.</p>
 <p>Pour plus d’informations, consultez la <a href="../configuration/set-mobile-config.md">documentation détaillée</a>.</p>
 <img src="assets/do-not-localize/guided-setup.gif"/>
-<p>Date de disponibilité : 3 septembre</p>
+<p>Date de disponibilité : 3 septembre</p>
 </br>
 </td>
 </tr>
@@ -77,7 +77,7 @@ ht-degree: 80%
 
 **Parcours**
 
-(Date de disponibilité : 10 septembre) **Fonctionnalité de reprise** - Les reprises sont désormais appliquées par défaut sur les parcours déclenchés par l’audience (commençant par une **audience de lecture** ou un **événement commercial**) lors de la récupération de la tâche d’exportation. Si une erreur se produit lors de la création de la tâche d’exportation, des reprises sont effectuées toutes les 10 minutes, pendant 1 heure au maximum. Après cela, nous le considérerons comme un échec. Ces types de parcours peuvent donc être exécutés jusqu’à 1 heure après l’heure planifiée. [En savoir plus](../building-journeys/read-audience.md#retries)
+(Date de disponibilité : 10 septembre) **Fonctionnalité de reprise** : les reprises sont désormais appliquées par défaut sur les parcours déclenchés par l’audience (commençant par une **Lecture d’audience** ou un **événement métier**) lors de la récupération du traitement d’export. Si une erreur se produit lors de la création du traitement d’export, des reprises sont effectuées toutes les 10 minutes, pendant 1 heure au maximum. Après cela, nous considérerons cela comme un échec. Ces types de parcours peuvent donc être exécutés jusqu’à 1 heure après l’heure planifiée. [En savoir plus](../building-journeys/read-audience.md#retries)
 
 
 

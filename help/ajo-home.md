@@ -24,7 +24,7 @@ Découvrez les améliorations les plus récentes apportées au produit et à la 
 
 ✨ Découvrez l’aperçu de nos fonctionnalités en direct [Accélérateur de contenu d’assistant d’IA](../help/using/content-management/gs-generative.md), conçu pour vous permettre d’explorer directement ses fonctionnalités et de comprendre pleinement ses fonctionnalités.
 
-[![En savoir plus](using/assets/do-not-localize/try-it-button.svg)](https://experienceleague.adobe.com/en/apps/journey-optimizer/ai-assistant-content-accelerator){target="_blank"}
+[![En savoir plus](using/assets/do-not-localize/try-it-button.svg)](https://experienceleague.adobe.com/fr/apps/journey-optimizer/ai-assistant-content-accelerator){target="_blank"}
 
 >[!TAB Création de rapports avec Customer Journey Analytics (version bêta)]
 

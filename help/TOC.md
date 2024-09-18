@@ -8,7 +8,7 @@ solution: Journey Optimizer
 source-git-commit: 8a902298bbbac5689b4f84266dd9c9027e45fad5
 workflow-type: tm+mt
 source-wordcount: '2010'
-ht-degree: 96%
+ht-degree: 97%
 
 ---
 
@@ -174,8 +174,8 @@ ht-degree: 96%
    + [Vérification et activation d’une campagne](using/campaigns/review-activate-campaign.md)
    + [Gérer les campagnes](using/campaigns/modify-stop-campaign.md)
    + [Déclencher des campagnes à l’aide d’API](using/campaigns/api-triggered-campaigns.md)
-+ Test de vos diffusions {#test}
-   + Prévisualiser et tester le contenu {#preview-test}
++ Tester vos diffusions {#test}
+   + Prévisualiser et tester votre contenu {#preview-test}
       + [Prise en main de la prévisualisation et du test](using/content-management/preview-test.md)
       + [Sélectionner des profils de test](using/content-management/test-profiles.md)
       + [Prévisualiser votre contenu](using/content-management/preview.md)
@@ -291,7 +291,7 @@ ht-degree: 96%
       + [Génération de SMS avec IA](using/content-management/generative-sms.md)
       + [Génération web avec IA](using/content-management/generative-web.md)
       + [Expérience de contenu avec l’IA](using/content-management/generative-experimentation.md)
-      + [ Cas d’utilisation de l’assistant AI](using/content-management/generative-uc.md)
+      + [Cas d’utilisation de l’assistant IA](using/content-management/generative-uc.md)
    + Utiliser du contenu multilingue{#content-multilingual}
       + [Commencer avec le contenu multilingue](using/content-management/multilingual-gs.md)
       + [Créer du contenu multilingue avec traduction manuelle](using/content-management/multilingual-manual.md)

@@ -11,7 +11,7 @@ exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
 source-git-commit: 1c2505ba3dcd86834aa9961fa4e53cee9320724d
 workflow-type: tm+mt
 source-wordcount: '1545'
-ht-degree: 95%
+ht-degree: 99%
 
 ---
 
@@ -235,8 +235,8 @@ Pour modifier la langue :
 
 >[!CONTEXTUALHELP]
 >id="ajo_rule_set_concurrency_prioritization"
->title="L’avenir de la priorité"
->abstract="L’avenir de la priorité"
+>title="Avenir de la priorité"
+>abstract="Avenir de la priorité"
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_capping_rule"
@@ -298,15 +298,15 @@ Pour modifier la langue :
 
 >[!CONTEXTUALHELP]
 >id="ajo_data_governance_policy_violation"
->title="Violation de la politique de gouvernance des données"
->abstract="Violation de la politique de gouvernance des données"
+>title="Violations de la politique de gouvernance des données"
+>abstract="Violations de la politique de gouvernance des données"
 
 <!--APPROVAL POLICIES-->
 
 >[!CONTEXTUALHELP]
 >id="ajo_permissions_approval_policy"
->title="Stratégie de validation"
->abstract="Stratégie de validation"
+>title="Politique d’approbation"
+>abstract="Politique d’approbation"
 
 >[!CONTEXTUALHELP]
 >id="ajo_approval_policy_request_approval"
@@ -315,8 +315,8 @@ Pour modifier la langue :
 
 >[!CONTEXTUALHELP]
 >id="ajo_approval_policy_request_change"
->title="Demande de modification"
->abstract="Demande de modification"
+>title="Demander une modification"
+>abstract="Demander une modification"
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_edit_disabled"
@@ -330,8 +330,8 @@ Pour modifier la langue :
 
 >[!CONTEXTUALHELP]
 >id="ajo_approval_policy_approval_status"
->title="État de validation"
->abstract="État de validation"
+>title="Statut d’approbation"
+>abstract="Statut d’approbation"
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_approve"
