@@ -8,10 +8,10 @@ topic: Content Management
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: d2d4667d9d2297004905d77f2a8f03fd6758f90f
+source-git-commit: d998a66421c277b7a46e5f15585a9768bc360a7a
 workflow-type: tm+mt
-source-wordcount: '1263'
-ht-degree: 44%
+source-wordcount: '1264'
+ht-degree: 43%
 
 ---
 
@@ -187,9 +187,9 @@ Cette version est fournie avec les améliorations répertoriées ci-dessous.
 
 **API**
 
-* La [documentation de l’API Adobe Journey Optimizer](https://developer.adobe.com/journey-optimizer-apis/references/simulations/) est désormais interactive. Explorez les points de terminaison de l’API directement à partir des pages de documentation pour obtenir des commentaires immédiats et accélérer votre mise en oeuvre technique.
+* La [documentation de l’API Adobe Journey Optimizer](https://developer.adobe.com/journey-optimizer-apis/references/simulations/){target="_blank"} est désormais interactive. Explorez les points de terminaison de l’API directement à partir des pages de documentation pour obtenir des commentaires immédiats et accélérer votre mise en oeuvre technique.
 
-  Toutes les pages de référence d’API disposent désormais d’une fonctionnalité **Essayer** que vous pouvez utiliser pour tester les appels d’API directement sur la page du site web de documentation. [Obtenez les informations d’authentification requises](/help/landing/api-authentication.md) et commencez à utiliser la fonctionnalité pour explorer les points d’entrée de l’API.
+  Toutes les pages de référence d’API disposent désormais d’une fonctionnalité **Essayer** que vous pouvez utiliser pour tester les appels d’API directement sur la page du site web de documentation. [Obtenez les informations d’identification d’authentification requises](https://experienceleague.adobe.com/en/docs/experience-platform/landing/platform-apis/api-authentication){target="_blank"} et commencez à utiliser la fonctionnalité pour explorer les points de terminaison de l’API.
 
   Utilisez cette nouvelle fonctionnalité pour explorer les requêtes envoyées à et les réponses provenant des points de terminaison de l’API, afin d’obtenir des commentaires immédiats et d’accélérer votre mise en oeuvre technique.
 
@@ -198,5 +198,5 @@ Cette version est fournie avec les améliorations répertoriées ci-dessous.
   >Notez qu’en utilisant la fonctionnalité d’API interactive sur les pages de documentation, vous effectuez de vrais appels API vers les points d’entrée. Gardez cela à l’esprit lorsque vous effectuez des tests dans des sandbox de production.
 
 
-* **API de simulation de campagne** - Utilisez cette API pour déclencher la tâche de BAT d’une campagne. L’envoi du BAT Campaign est un processus asynchrone. L’API renvoie un BATJobId qui peut être utilisé pour vérifier le statut du BAT. [En savoir plus](https://developer.adobe.com/journey-optimizer-apis/references/simulations/)
+* **API de simulation de campagne** - Utilisez cette API pour déclencher la tâche de BAT d’une campagne. L’envoi du BAT Campaign est un processus asynchrone. L’API renvoie un BATJobId qui peut être utilisé pour vérifier le statut du BAT. [En savoir plus](https://developer.adobe.com/journey-optimizer-apis/references/simulations/){target="_blank"}
 
