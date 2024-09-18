@@ -8,7 +8,7 @@ topic: Content Management
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: d998a66421c277b7a46e5f15585a9768bc360a7a
+source-git-commit: 9fdfc729346bc15f5781a7bca39c76055af71eb2
 workflow-type: tm+mt
 source-wordcount: '1264'
 ht-degree: 43%
@@ -189,7 +189,7 @@ Cette version est fournie avec les améliorations répertoriées ci-dessous.
 
 * La [documentation de l’API Adobe Journey Optimizer](https://developer.adobe.com/journey-optimizer-apis/references/simulations/){target="_blank"} est désormais interactive. Explorez les points de terminaison de l’API directement à partir des pages de documentation pour obtenir des commentaires immédiats et accélérer votre mise en oeuvre technique.
 
-  Toutes les pages de référence d’API disposent désormais d’une fonctionnalité **Essayer** que vous pouvez utiliser pour tester les appels d’API directement sur la page du site web de documentation. [Obtenez les informations d’identification d’authentification requises](https://experienceleague.adobe.com/en/docs/experience-platform/landing/platform-apis/api-authentication){target="_blank"} et commencez à utiliser la fonctionnalité pour explorer les points de terminaison de l’API.
+  Toutes les pages de référence d’API disposent désormais d’une fonctionnalité **Essayer** que vous pouvez utiliser pour tester les appels d’API directement sur la page du site web de documentation. [Obtenez les informations d’identification d’authentification requises](https://developer.adobe.com/journey-optimizer-apis/references/authentication/){target="_blank"} et commencez à utiliser la fonctionnalité pour explorer les points de terminaison de l’API.
 
   Utilisez cette nouvelle fonctionnalité pour explorer les requêtes envoyées à et les réponses provenant des points de terminaison de l’API, afin d’obtenir des commentaires immédiats et d’accélérer votre mise en oeuvre technique.
 
