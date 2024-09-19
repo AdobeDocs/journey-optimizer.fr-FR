@@ -8,10 +8,10 @@ topic: Content Management
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 9fdfc729346bc15f5781a7bca39c76055af71eb2
+source-git-commit: fc65a5d12af2b295cfb4bcac6f05a1f6ad4896d3
 workflow-type: tm+mt
-source-wordcount: '1264'
-ht-degree: 43%
+source-wordcount: '907'
+ht-degree: 49%
 
 ---
 
@@ -29,23 +29,21 @@ ht-degree: 43%
 
 Cette version apporte les nouvelles fonctionnalités détaillées ci-dessous.
 
-<table>
+<!--table>
 <thead>
 <tr>
-<th><strong>Cartes de contenu pour les applications mobiles et les sites web</strong><br/></th>
+<th><strong>Content Cards for mobile apps and websites</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Les cartes de contenu sont une nouvelle fonctionnalité de messagerie numérique de Adobe Journey Optimizer qui fournit du contenu personnalisé et attrayant directement dans les applications mobiles et les sites web. Contrairement aux notifications push traditionnelles, les cartes de contenu s’intègrent de manière transparente à l’interface d’utilisation, en offrant des mises à jour persistantes et non intrusives qui améliorent l’interaction et l’expérience des utilisateurs et utilisatrices.</p>
-<p>Grâce à cette fonctionnalité, les spécialistes du marketing peuvent présenter du contenu multimédia pertinent aux utilisateurs et utilisatrices, augmenter l’engagement des personnes et veiller à ce que les messages importants soient affichés sans interrompre le parcours d’utilisation.</p>
-<!--p>For more information, refer to the <a href="../content-management/gs-generative.md">detailed documentation</a>.</p>
-<img src="assets/do-not-localize/ai-content.gif"/-->
+<p>Content cards are a new digital messaging feature in Adobe Journey Optimizer that delivers personalized and engaging content directly within mobile apps and websites. Unlike traditional push notifications, Content Cards integrate seamlessly into the user interface, offering persistent, non-intrusive updates that enhance user interaction and experience.</p>
+<p>This feature enables marketers to present relevant, rich media content to users, driving higher engagement and ensuring important messages are seen without disrupting the user journey.</p>
 </td>
 </tr>
 </tbody>
-</table>
+</table-->
 
 <table>
 <thead>
@@ -82,22 +80,37 @@ Cette version apporte les nouvelles fonctionnalités détaillées ci-dessous.
 </tbody>
 </table>
 
-
-
 <table>
 <thead>
 <tr>
-<th><strong>Expériences basées sur le code dans parcours</strong><br/></th>
+<th><strong>Critères de sortie globale en parcours</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Grâce au canal d’expérience basé sur le code, Adobe Journey Optimizer vous permet d’effectuer des tests et une personnalisation avancés pour l’une de vos propriétés entrantes, ce qui vous permet de diffuser facilement des expériences personnalisées sur différents points de contact tels que des applications web, des applications mobiles, des applications de bureau, des consoles vidéo, des périphériques connectés à la télévision, des téléviseurs intelligents, des kiosques, des distributeurs automatiques, des périphériques IoT, etc. Le canal d’expérience basé sur le code est désormais disponible dans la zone de travail du parcours.</p>
-<p>Pour plus d’informations, consultez la <a href="../code-based/get-started-code-based.md">documentation détaillée</a>.</p>
+<p>Vous pouvez désormais définir et combiner des règles de critères de sortie pour vos parcours.</p>
+<!--p>For more information, refer to the <a href="../content-management/gs-generative.md">detailed documentation</a>.</p>
+<img src="assets/do-not-localize/ai-content.gif"/-->
+</td>
 </tr>
 </tbody>
 </table>
+
+<!--table>
+<thead>
+<tr>
+<th><strong>Code-based experiences in journeys</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>With the Code-based experience channel, Adobe Journey Optimizer allows you to do advanced personalization and testing for any of your inbound properties, enabling seamless delivery of tailored experiences across diverse touchpoints such as web apps, mobile apps, desktop apps, video consoles, TV connected devices, smart TVs, kiosks, ATMs, IoT devices, and more. The Code-based experience channel is now available in the journey canvas.</p>
+<p>For more information, refer to the <a href="../code-based/get-started-code-based.md">detailed documentation</a>.</p>
+</tr>
+</tbody>
+</table-->
 
 
 <table>
@@ -151,25 +164,25 @@ Cette version est fournie avec les améliorations répertoriées ci-dessous.
 **Audiences**
 
 * L’utilisation d’audiences issues d’un chargement personnalisé (fichier CSV) est désormais disponible avec le module complémentaire Privacy and Security Shield.
-* Lors du ciblage d’une audience de chargement personnalisé (fichier CSV), vous pouvez désormais utiliser les attributs du fichier dans vos campagnes et parcours. Ces attributs sont disponibles dans l’éditeur de personnalisation, pour personnaliser vos messages, et dans l’éditeur d’expression avancé du parcours.
+  <!--* When targeting a custom upload (CSV file) audience, you can now use attributes from the file in your campaigns and journeys. These attributes are available in the personalization editor, to personalize your messages, and the journey advanced expression editor.-->
 * (Date de disponibilité : 17 septembre) **Utilisation de la licence** - Le tableau de bord Utilisation de la licence affiche désormais les profils activables, au lieu des audiences activables. [En savoir plus](../audience/license-usage.md)
 
 **Gouvernance des données**
 
 * Vous pouvez désormais appliquer des stratégies de gouvernance des données aux canaux Journey Optimizer, en plus des actions personnalisées dans les parcours. Cette amélioration permet d’éviter l’utilisation de champs sensibles dans les communications en appliquant des actions marketing directement dans les configurations de vos canaux.
 
+<!--
+**Frequency and priority management**
 
-**Gestion des fréquences et des priorités**
+* **Frequency capping by campaign or journey** - You can now create frequency rules to apply to your journeys, allowing you to limit the number of journeys per day, week, or month, as well as control the number of concurrent journeys running simultaneously.
 
-* **Limitation de la fréquence par campagne ou parcours** : vous pouvez désormais créer des règles de fréquence à appliquer à vos parcours, ce qui vous permet de limiter le nombre de parcours par jour, semaine ou mois, ainsi que de contrôler le nombre de parcours simultanés exécutés simultanément.
+* **Priority score** - You can now assign a priority score to a campaign or a journey, ranging from 0 to 100. A higher number indicates a higher priority. When two campaigns or journeys use the same surface, Journey Optimizer will select the one with the highest priority score. If the campaigns have the same score, the campaign that was most recently modified will be chosen. Priority score is available for all inbound channels in campaigns, and for the in-app channel in journeys.    
 
-* **Score de priorité** : vous pouvez désormais attribuer un score de priorité à une campagne ou à un parcours, allant de 0 à 100. Les nombres plus élevés signalent une priorité plus élevée. Lorsque deux campagnes ou parcours utilisent la même surface, Journey Optimizer sélectionne celle ayant le score de priorité le plus élevé. Si les campagnes ont le même score, la campagne la plus récemment modifiée sera choisie. Le score de priorité est disponible pour tous les canaux entrants dans les campagnes, et pour le canal in-app dans les parcours.
+* **View conflicts** - A new **View conflicts** button in journeys and campaigns now allows you to check whenever there's a possibility of overlap with other journeys or campaigns such as the start date, the targeted audience, or the selected channel configuration.
+-->
 
-* **Afficher les conflits** - Un nouveau bouton **Afficher les conflits** dans les parcours et les campagnes permet désormais de vérifier chaque fois qu’il existe un chevauchement avec d’autres parcours ou campagnes, comme la date de début, l’audience ciblée ou la configuration de canal sélectionnée.
 
 **Parcours**
-
-* **Critères de sortie globaux** - Vous pouvez désormais définir et combiner des règles de critères de sortie pour vos parcours.
 
 * **Nombre maximal de parcours en direct** : Journey Optimizer dispose désormais d’un garde-fou de 500 parcours en direct sur les environnements de test de production, au lieu de 100. Le nombre de parcours actifs est visible dans la zone de travail du parcours.
 
