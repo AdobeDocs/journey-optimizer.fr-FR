@@ -8,10 +8,10 @@ topic: Content Management
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 777286e2c3e0fa6458f1f503756b0494cbcc9020
+source-git-commit: 23ff5c26620c8d7119abec5994c7ac3e7e2a208d
 workflow-type: tm+mt
-source-wordcount: '956'
-ht-degree: 50%
+source-wordcount: '973'
+ht-degree: 46%
 
 ---
 
@@ -186,9 +186,11 @@ Cette version est fournie avec les améliorations répertoriées ci-dessous.
 
 * **Nombre maximal de parcours en direct** : Journey Optimizer dispose désormais d’un garde-fou de 500 parcours en direct sur les environnements de test de production, au lieu de 100. Le nombre de parcours actifs est visible dans la zone de travail du parcours.
 
-* **Rapports en direct par Parcours** - Les rapports en direct fournissent des informations sur les performances de vos parcours au cours des dernières 24 heures. Nous l’avons améliorée en ajoutant de nouvelles mesures (profils et profils entrés, sortis, ignorés par erreur), ce qui vous permet de mieux comprendre le comportement et les performances des utilisateurs directement à partir du canevas de Parcours.
+* **Améliorations des rapports en direct** - Les rapports en direct fournissent des informations sur les performances de vos parcours au cours des dernières 24 heures. Nous l’avons améliorée en ajoutant de nouvelles mesures (profils et profils entrés, sortis, ignorés par erreur), ce qui vous permet de mieux comprendre le comportement et les performances des utilisateurs directement à partir du canevas de Parcours.
 
-* (Date de disponibilité : 10 septembre) **Fonctionnalité de reprise** : les reprises sont désormais appliquées par défaut sur les parcours déclenchés par l’audience (commençant par une **Lecture d’audience** ou un **événement métier**) lors de la récupération du traitement d’export. Si une erreur se produit lors de la création du traitement d’export, des reprises sont effectuées toutes les 10 minutes, pendant 1 heure au maximum. Après cela, nous considérerons cela comme un échec. Ces types de parcours peuvent donc être exécutés jusqu’à 1 heure après l’heure planifiée. [En savoir plus](../building-journeys/read-audience.md#retries)
+* **Paramètres dans les actions personnalisées** - Les paramètres NULL et facultatifs sont désormais pris en charge dans les actions personnalisées.
+
+* (Date de disponibilité : 10 septembre) **Reprises automatiques sur l’audience de lecture** - Les reprises sont désormais appliquées par défaut sur les parcours déclenchés par l’audience (commençant par une **audience de lecture** ou un **événement commercial**) lors de la récupération de la tâche d’exportation. Si une erreur se produit lors de la création du traitement d’export, des reprises sont effectuées toutes les 10 minutes, pendant 1 heure au maximum. Après cela, nous considérerons cela comme un échec. Ces types de parcours peuvent donc être exécutés jusqu’à 1 heure après l’heure planifiée. [En savoir plus](../building-journeys/read-audience.md#retries)
 
 **Canal e-mail**
 
