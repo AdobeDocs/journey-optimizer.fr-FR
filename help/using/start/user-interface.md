@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
-source-git-commit: 9833f24479891bbf19b99674036856f585c53b3d
+source-git-commit: f5bcafb0963c5adf4a0ab307f611fd9cc0b34005
 workflow-type: tm+mt
-source-wordcount: '1591'
-ht-degree: 95%
+source-wordcount: '1797'
+ht-degree: 80%
 
 ---
 
@@ -201,22 +201,22 @@ Pour modifier la langue :
 >[!CONTEXTUALHELP]
 >id="ajo_journey_priority"
 >title="Priorité"
->abstract="Attribuez un score de priorité au parcours, allant de 0 à 100. Les nombres plus élevés signalent une priorité plus élevée. Lorsque deux parcours utilisent la même surface, Journey Optimizer sélectionne le parcours ayant le score de priorité le plus élevé. Si les parcours ont le même score, le parcours choisi sera celui qui a été le plus récemment modifié."
+>abstract="Attribuez un score de priorité au parcours, allant de 0 à 100. Les nombres plus élevés signalent une priorité plus élevée. La valeur de priorité insérée ici est héritée par toute action entrante (In-App, par exemple) contenue dans ce parcours. Dans les cas où cette même surface entrante est utilisée dans d&#39;autres opérations ou parcours, l&#39;action entrante ayant le score de priorité le plus élevé est présentée au destinataire. Si plusieurs parcours ou campagnes ont le même score, l’élément qui a été modifié le plus récemment est sélectionné."
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_campaign_priority"
 >title="Priorité"
->abstract="Attribuez un score de priorité à la campagne, allant de 0 à 100. Les nombres plus élevés signalent une priorité plus élevée. Lorsque deux campagnes utilisent la même surface, Journey Optimizer sélectionne la campagne ayant le score de priorité le plus élevé. Si les campagnes ont le même score, la campagne modifiée en dernier sera choisie."
+>abstract="Attribuez un score de priorité à la campagne, allant de 0 à 100. Les nombres plus élevés signalent une priorité plus élevée. Dans les cas où cette même surface entrante (In-App, par exemple) est utilisée dans d&#39;autres campagnes ou parcours, l&#39;action entrante ayant le score de priorité le plus élevé est présentée au destinataire. Si plusieurs parcours ou campagnes ont le même score, l’élément qui a été modifié le plus récemment est sélectionné."
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_campaign_conflict"
 >title="Visionneuse de conflits dans les campagnes"
->abstract="Visionneuse de conflits dans les campagnes"
+>abstract="Cet outil peut vous aider à déterminer le chevauchement avec d’autres parcours, campagnes ou surfaces. Si vous souhaitez identifier le chevauchement sur l’audience, la date de début et de fin, la configuration du canal, le canal ou le jeu de règles, vous pouvez afficher les conflits potentiels ici. "
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_conflict"
 >title="Visionneuse de conflits dans les parcours"
->abstract="Visionneuse de conflits dans les parcours"
+>abstract="Cet outil peut vous aider à déterminer le chevauchement avec d’autres parcours, campagnes ou surfaces. Si vous souhaitez identifier le chevauchement sur l’audience, la date de début et de fin, la configuration du canal, le canal ou le jeu de règles, vous pouvez afficher les conflits potentiels ici. "
 
 >[!CONTEXTUALHELP]
 >id="ajo_rule_set_domain"
@@ -226,7 +226,7 @@ Pour modifier la langue :
 >[!CONTEXTUALHELP]
 >id="ajo_journey_capping_rule"
 >title="Appliquer un jeu de règles aux parcours"
->abstract="À déterminer"
+>abstract="Appliquez un jeu de règles pour exclure ce parcours d’une partie de votre audience en fonction des règles de limitation de fréquence."
 
 >[!CONTEXTUALHELP]
 >id="ajo_rule_set_rule_type"
@@ -236,7 +236,7 @@ Pour modifier la langue :
 >[!CONTEXTUALHELP]
 >id="ajo_rule_set_concurrency_prioritization"
 >title="Avenir de la priorité"
->abstract="Avenir de la priorité"
+>abstract=" Si un parcours de priorité plus élevée est planifié dans la période spécifiée ici, le client sera alors empêché d’entrer dans ce parcours. Dans les cas où vous souhaitez que les parcours soient entrés lors du premier arrivé, nous vous suggérons de choisir la période d’avant-garde &quot;Jour&quot; et de vous assurer que le score de priorité de tout autre parcours ce jour-là est inférieur au score de priorité du parcours. Un score de priorité de 100 à un parcours garantirait également sa saisie."
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_capping_rule"
