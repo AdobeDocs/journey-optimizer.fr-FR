@@ -11,7 +11,7 @@ keywords: commencer, démarrer, contenu, expérience
 exl-id: 38e82eb2-67d9-4a7d-8c1f-77dab20bcec4
 badge: label="Disponibilité limitée" type="Informative"
 source-git-commit: a190b5547c2d8e13563391bd9d784add75c55fd4
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1617'
 ht-degree: 100%
 
