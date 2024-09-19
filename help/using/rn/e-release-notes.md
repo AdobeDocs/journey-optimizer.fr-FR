@@ -8,10 +8,10 @@ topic: Content Management
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: fc65a5d12af2b295cfb4bcac6f05a1f6ad4896d3
+source-git-commit: 777286e2c3e0fa6458f1f503756b0494cbcc9020
 workflow-type: tm+mt
-source-wordcount: '907'
-ht-degree: 49%
+source-wordcount: '956'
+ht-degree: 50%
 
 ---
 
@@ -193,6 +193,7 @@ Cette version est fournie avec les améliorations répertoriées ci-dessous.
 **Canal e-mail**
 
 * **En-tête de message Cci** - Un nouvel en-tête a été ajouté à tous les emails. La valeur de cet en-tête est propre à chaque email envoyé et à sa copie d’email en Cci correspondante. Cet en-tête est également stocké dans les jeux de données de retour des messages et des commentaires en Cci, ce qui permet de réconcilier la copie en Cci et les informations d’email envoyées correspondantes.
+* **Spam scoring** (GA) : vous pouvez désormais vérifier votre score de spam de contenu dans un rapport de spam dédié. Grâce à SpamAssassin, Adobe Journey Optimizer peut désormais tester le contenu de vos e-mails et lui attribuer un score pour indiquer si les FAI ou les fournisseurs de messagerie le considèrent comme un spam ou non. [En savoir plus](../content-management/spam-report.md)
 
 **Canal SMS**
 
