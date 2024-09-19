@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Notes de mise à jour d’Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: d7d77bcbd401f7af68f644ded25d61f0921c03be
+source-git-commit: 27f7c60380dc408a486651e77dab58a25e23db2a
 workflow-type: tm+mt
-source-wordcount: '950'
-ht-degree: 96%
+source-wordcount: '1588'
+ht-degree: 65%
 
 ---
 
@@ -26,17 +26,108 @@ ht-degree: 96%
 
 ![Newsletter](../assets/do-not-localize/nl-icon.png) Inscrivez-vous à la [newsletter trimestrielle d’Adobe Journey Optimizer](https://www.adobe.com/subscription/Adobe_Journey_Optimizer_NL.html){target="_blank"} dès aujourd’hui, et recevez les dernières mises à jour produits, les articles les plus intéressants, des cas pratiques, des conseils et bien plus encore, directement dans votre boîte de réception, tous les trimestres.
 
-## Mises à jour de septembre {#9-2024}
+## Notes de mise à jour de septembre 2024 (nouveau) {#24-9-rn}
 
->[!IMPORTANT]
+
+>[!CAUTION]
 >
->L’expérience actuelle de création de rapports sera abandonnée à compter de la version d’octobre. À partir de cette date, la nouvelle expérience de création de rapports deviendra la norme. Nous vous recommandons de vous familiariser avec les nouvelles fonctionnalités pour garantir une transition fluide.
-> [Prise en main de la nouvelle interface de création de rapports de Journey Optimizer](../reports/report-gs-cja.md)
+>**Les notes de mise à jour anticipées ci-dessous peuvent être modifiées sans préavis jusqu’à la date de publication**. Les liens, les copies d’écran et la documentation mise à jour sont publiés à la date de publication.
+>
+
+**Date de publication** : 24-25 septembre 2024
+
+### Nouvelles fonctionnalités {#24-9-features}
+
+Cette version apporte les nouvelles fonctionnalités détaillées ci-dessous.
+
+<!--table>
+<thead>
+<tr>
+<th><strong>Content Cards for mobile apps and websites</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Content cards are a new digital messaging feature in Adobe Journey Optimizer that delivers personalized and engaging content directly within mobile apps and websites. Unlike traditional push notifications, Content Cards integrate seamlessly into the user interface, offering persistent, non-intrusive updates that enhance user interaction and experience.</p>
+<p>This feature enables marketers to present relevant, rich media content to users, driving higher engagement and ensuring important messages are seen without disrupting the user journey.</p>
+</td>
+</tr>
+</tbody>
+</table-->
 
 <table>
 <thead>
 <tr>
-<th><strong>Accélérateur de contenu de l’assistant AI </strong><br/></th>
+<th><strong>Validations dans les parcours et campagnes</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Grâce aux stratégies d’approbation, vous pouvez désormais configurer un processus d’approbation dans Journey Optimizer qui permet aux équipes marketing de s’assurer que les campagnes et les parcours sont examinés et approuvés par les parties prenantes appropriées avant qu’ils ne soient mis en ligne.</p>
+<!--p>For more information, refer to the <a href="../content-management/gs-generative.md">detailed documentation</a>.</p>
+<img src="assets/do-not-localize/ai-content.gif"/-->
+</td>
+</tr>
+</tbody>
+</table>
+
+
+<table>
+<thead>
+<tr>
+<th><strong>Verrouillage du contenu d’email</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Journey Optimizer vous permet désormais de verrouiller le contenu dans les modèles d’email, soit en verrouillant l’intégralité du modèle, soit des structures et composants spécifiques. Cela vous permet d’éviter les modifications ou suppressions involontaires, de mieux contrôler la personnalisation des modèles et d’améliorer l’efficacité et la fiabilité de vos campagnes par e-mail.</p>
+<!--p>For more information, refer to the <a href="../content-management/gs-generative.md">detailed documentation</a>.</p>
+<img src="assets/do-not-localize/ai-content.gif"/-->
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Critères de sortie globale en parcours</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Vous définissez maintenant des critères de sortie au niveau du parcours. En ajoutant des critères de sortie, vous faites quitter le parcours aux profils dès qu’un événement se produit (un achat, par exemple) ou qu’ils répondent aux critères d’une audience. Cela empêchera l’utilisateur d’obtenir d’autres communications du parcours.</p>
+<!--p>For more information, refer to the <a href="../content-management/gs-generative.md">detailed documentation</a>.</p>
+<img src="assets/do-not-localize/ai-content.gif"/-->
+</td>
+</tr>
+</tbody>
+</table>
+
+<!--table>
+<thead>
+<tr>
+<th><strong>Code-based experiences in journeys</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>With the Code-based experience channel, Adobe Journey Optimizer allows you to do advanced personalization and testing for any of your inbound properties, enabling seamless delivery of tailored experiences across diverse touchpoints such as web apps, mobile apps, desktop apps, video consoles, TV connected devices, smart TVs, kiosks, ATMs, IoT devices, and more. The Code-based experience channel is now available in the journey canvas.</p>
+<p>For more information, refer to the <a href="../code-based/get-started-code-based.md">detailed documentation</a>.</p>
+</tr>
+</tbody>
+</table-->
+
+
+<table>
+<thead>
+<tr>
+<th><strong>Accélérateur de contenu de l'assistant IA </strong><br/></th>
 </tr>
 </thead>
 <tbody>
@@ -71,26 +162,75 @@ ht-degree: 96%
 </tbody>
 </table>
 
+>[!IMPORTANT]
+>
+>L’expérience actuelle de création de rapports sera abandonnée à compter de la version d’octobre. À partir de cette date, la nouvelle expérience de création de rapports deviendra la norme. Nous vous recommandons de vous familiariser avec les nouvelles fonctionnalités pour garantir une transition fluide.
+> [Prise en main de la nouvelle interface de création de rapports de Journey Optimizer](../reports/report-gs-cja.md)
+
+
+### Améliorations {#24-9-improvements}
+
+Cette version est fournie avec les améliorations répertoriées ci-dessous.
+
 **Audiences**
 
-(Date de disponibilité : 17 septembre) **Utilisation de la licence** - Le tableau de bord Utilisation de la licence affiche désormais les profils activables, au lieu des audiences activables. [En savoir plus](../audience/license-usage.md)
+* L’utilisation d’audiences issues d’un chargement personnalisé (fichier CSV) est désormais disponible avec le module complémentaire Privacy and Security Shield.
+  <!--* When targeting a custom upload (CSV file) audience, you can now use attributes from the file in your campaigns and journeys. These attributes are available in the personalization editor, to personalize your messages, and the journey advanced expression editor.-->
+* (Date de disponibilité : 17 septembre) **Utilisation de la licence** - Le tableau de bord Utilisation de la licence affiche désormais les profils activables, au lieu des audiences activables. [En savoir plus](../audience/license-usage.md)
+
+**Gouvernance des données**
+
+* Vous pouvez désormais appliquer des stratégies de gouvernance des données aux canaux Journey Optimizer, en plus des actions personnalisées dans les parcours. Cette amélioration permet d’éviter l’utilisation de champs sensibles dans les communications en appliquant des actions marketing directement dans les configurations de vos canaux.
+
+<!--
+**Frequency and priority management**
+
+* **Frequency capping by campaign or journey** - You can now create frequency rules to apply to your journeys, allowing you to limit the number of journeys per day, week, or month, as well as control the number of concurrent journeys running simultaneously.
+
+* **Priority score** - You can now assign a priority score to a campaign or a journey, ranging from 0 to 100. A higher number indicates a higher priority. When two campaigns or journeys use the same surface, Journey Optimizer will select the one with the highest priority score. If the campaigns have the same score, the campaign that was most recently modified will be chosen. Priority score is available for all inbound channels in campaigns, and for the in-app channel in journeys.    
+
+* **View conflicts** - A new **View conflicts** button in journeys and campaigns now allows you to check whenever there's a possibility of overlap with other journeys or campaigns such as the start date, the targeted audience, or the selected channel configuration.
+-->
+
 
 **Parcours**
 
-(Date de disponibilité : 10 septembre) **Fonctionnalité de reprise** : les reprises sont désormais appliquées par défaut sur les parcours déclenchés par l’audience (commençant par une **Lecture d’audience** ou un **événement métier**) lors de la récupération du traitement d’export. Si une erreur se produit lors de la création du traitement d’export, des reprises sont effectuées toutes les 10 minutes, pendant 1 heure au maximum. Après cela, nous considérerons cela comme un échec. Ces types de parcours peuvent donc être exécutés jusqu’à 1 heure après l’heure planifiée. [En savoir plus](../building-journeys/read-audience.md#retries)
+* **Nombre maximal de parcours en direct** : Journey Optimizer dispose désormais d’un garde-fou de 500 parcours en direct sur les environnements de test de production, au lieu de 100. Le nombre de parcours actifs est visible dans la zone de travail du parcours.
 
+* **Améliorations des rapports en direct** - Les rapports en direct fournissent des informations sur les performances de vos parcours au cours des dernières 24 heures. Nous l’avons améliorée en ajoutant de nouvelles mesures (profils et profils entrés, sortis, ignorés par erreur), ce qui vous permet de mieux comprendre le comportement et les performances des utilisateurs directement à partir du canevas de Parcours.
+
+* **Paramètres dans les actions personnalisées** - Les paramètres NULL et facultatifs sont désormais pris en charge dans les actions personnalisées.
+
+* (Date de disponibilité : 10 septembre) **Reprises automatiques sur l’audience de lecture** - Les reprises sont désormais appliquées par défaut sur les parcours déclenchés par l’audience (commençant par une **audience de lecture** ou un **événement commercial**) lors de la récupération de la tâche d’exportation. Si une erreur se produit lors de la création du traitement d’export, des reprises sont effectuées toutes les 10 minutes, pendant 1 heure au maximum. Après cela, nous considérerons cela comme un échec. Ces types de parcours peuvent donc être exécutés jusqu’à 1 heure après l’heure planifiée. [En savoir plus](../building-journeys/read-audience.md#retries)
+
+**Canal e-mail**
+
+* **En-tête de message Cci** - Un nouvel en-tête a été ajouté à tous les emails. La valeur de cet en-tête est propre à chaque email envoyé et à sa copie d’email en Cci correspondante. Cet en-tête est également stocké dans les jeux de données de retour des messages et des commentaires en Cci, ce qui permet de réconcilier la copie en Cci et les informations d’email envoyées correspondantes.
+* **Spam scoring** (GA) : vous pouvez désormais vérifier votre score de spam de contenu dans un rapport de spam dédié. Grâce à SpamAssassin, Adobe Journey Optimizer peut désormais tester le contenu de vos e-mails et lui attribuer un score pour indiquer si les FAI ou les fournisseurs de messagerie le considèrent comme un spam ou non. [En savoir plus](../content-management/spam-report.md)
+
+**Canal SMS**
+
+* Vous pouvez maintenant modifier les configurations SMS existantes.
+
+**API**
+
+* La [documentation de l’API Adobe Journey Optimizer](https://developer.adobe.com/journey-optimizer-apis/references/simulations/){target="_blank"} est désormais interactive. Explorez les points de terminaison de l’API directement à partir des pages de documentation pour obtenir des commentaires immédiats et accélérer votre mise en oeuvre technique.
+
+  Toutes les pages de référence d’API disposent désormais d’une fonctionnalité **Essayer** que vous pouvez utiliser pour tester les appels d’API directement sur la page du site web de documentation. [Obtenez les informations d’identification d’authentification requises](https://developer.adobe.com/journey-optimizer-apis/references/authentication/){target="_blank"} et commencez à utiliser la fonctionnalité pour explorer les points de terminaison de l’API.
+
+  Utilisez cette nouvelle fonctionnalité pour explorer les requêtes envoyées à et les réponses provenant des points de terminaison de l’API, afin d’obtenir des commentaires immédiats et d’accélérer votre mise en oeuvre technique.
+
+  >[!CAUTION]
+  >
+  >Notez qu’en utilisant la fonctionnalité d’API interactive sur les pages de documentation, vous effectuez de vrais appels API vers les points d’entrée. Gardez cela à l’esprit lorsque vous effectuez des tests dans des sandbox de production.
+
+
+* **API de simulation de campagne** - Utilisez cette API pour déclencher la tâche de BAT d’une campagne. L’envoi du BAT Campaign est un processus asynchrone. L’API renvoie un BATJobId qui peut être utilisé pour vérifier le statut du BAT. [En savoir plus](https://developer.adobe.com/journey-optimizer-apis/references/simulations/){target="_blank"}
 
 
 ## Notes de mise à jour d’août 2024 {#8-2024}
 
 **Date de publication** : 20-21 août 2024
-
-<!--
->[!CAUTION]
->
->**Early release notes below are subject to change without prior notice until the release date**. Links, screens and updated documentation are published at the release date.
->
--->
 
 ### Nouvelles fonctionnalités {#8-features}
 

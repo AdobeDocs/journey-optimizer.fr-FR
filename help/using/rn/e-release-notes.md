@@ -8,10 +8,10 @@ topic: Content Management
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 23ff5c26620c8d7119abec5994c7ac3e7e2a208d
+source-git-commit: 27f7c60380dc408a486651e77dab58a25e23db2a
 workflow-type: tm+mt
-source-wordcount: '973'
-ht-degree: 46%
+source-wordcount: '1008'
+ht-degree: 45%
 
 ---
 
@@ -89,7 +89,7 @@ Cette version apporte les nouvelles fonctionnalités détaillées ci-dessous.
 <tbody>
 <tr>
 <td>
-<p>Vous pouvez désormais définir et combiner des règles de critères de sortie pour vos parcours.</p>
+<p>Vous définissez maintenant des critères de sortie au niveau du parcours. En ajoutant des critères de sortie, vous faites quitter le parcours aux profils dès qu’un événement se produit (un achat, par exemple) ou qu’ils répondent aux critères d’une audience. Cela empêchera l’utilisateur d’obtenir d’autres communications du parcours.</p>
 <!--p>For more information, refer to the <a href="../content-management/gs-generative.md">detailed documentation</a>.</p>
 <img src="assets/do-not-localize/ai-content.gif"/-->
 </td>
@@ -116,7 +116,7 @@ Cette version apporte les nouvelles fonctionnalités détaillées ci-dessous.
 <table>
 <thead>
 <tr>
-<th><strong>Accélérateur de contenu de l’assistant AI </strong><br/></th>
+<th><strong>Accélérateur de contenu de l'assistant IA </strong><br/></th>
 </tr>
 </thead>
 <tbody>
