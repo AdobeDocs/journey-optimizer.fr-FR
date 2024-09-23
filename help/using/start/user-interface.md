@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
-source-git-commit: 6229f295b961b0535139b64928216e40c3759947
+source-git-commit: c609694693f11c77bc61ab31f0e7851262aadcce
 workflow-type: tm+mt
-source-wordcount: '1789'
-ht-degree: 80%
+source-wordcount: '1558'
+ht-degree: 89%
 
 ---
 
@@ -197,26 +197,6 @@ Pour modifier la langue :
 <!--CONTEXTUAL HELP TO DISPATCH IN DOCS ONCE FEATURE LIVE-->
 
 <!--PRIORITIZATION & CONFLICT MANAGEMENT-->
-
->[!CONTEXTUALHELP]
->id="ajo_journey_priority"
->title="Priorité"
->abstract="Attribuez un score de priorité au parcours, allant de 0 à 100. Les nombres plus élevés signalent une priorité plus élevée. La valeur de priorité insérée ici est héritée par toute action entrante (In-App, par exemple) contenue dans ce parcours. Dans les cas où cette même surface entrante est utilisée dans d&#39;autres opérations ou parcours, l&#39;action entrante ayant le score de priorité le plus élevé est présentée au destinataire. Si plusieurs parcours ou campagnes ont le même score, l’élément qui a été modifié le plus récemment est sélectionné."
-
->[!CONTEXTUALHELP]
->id="ajo_campaigns_campaign_priority"
->title="Priorité"
->abstract="Attribuez un score de priorité à la campagne, allant de 0 à 100. Les nombres plus élevés signalent une priorité plus élevée. Dans les cas où cette même surface entrante (In-App, par exemple) est utilisée dans d&#39;autres campagnes ou parcours, l&#39;action entrante ayant le score de priorité le plus élevé est présentée au destinataire. Si plusieurs parcours ou campagnes ont le même score, l’élément qui a été modifié le plus récemment est sélectionné."
-
->[!CONTEXTUALHELP]
->id="ajo_campaigns_campaign_conflict"
->title="Visionneuse de conflits dans les campagnes"
->abstract="Cet outil peut vous aider à déterminer le chevauchement avec d’autres parcours, campagnes ou surfaces. Si vous souhaitez identifier le chevauchement sur l’audience, la date de début et de fin, la configuration du canal, le canal ou le jeu de règles, vous pouvez afficher les conflits potentiels ici. "
-
->[!CONTEXTUALHELP]
->id="ajo_journey_conflict"
->title="Visionneuse de conflits dans les parcours"
->abstract="Cet outil peut vous aider à déterminer le chevauchement avec d’autres parcours, campagnes ou surfaces. Si vous souhaitez identifier le chevauchement sur l’audience, la date de début et de fin, la configuration du canal, le canal ou le jeu de règles, vous pouvez afficher les conflits potentiels ici. "
 
 >[!CONTEXTUALHELP]
 >id="ajo_rule_set_domain"
