@@ -8,10 +8,10 @@ role: Data Engineer, Architect
 level: Experienced
 keywords: requête, collections, fonctions, payload, parcours
 exl-id: 09b38179-9ace-4921-985b-ddd17eb64681
-source-git-commit: b58d6bbcf2311be3f841f7eef0c0bf10692f1704
+source-git-commit: 1ba767ba8d2ecaabc17b717a983e7ad285dd52bb
 workflow-type: tm+mt
-source-wordcount: '633'
-ht-degree: 100%
+source-wordcount: '696'
+ht-degree: 86%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 100%
 
 Le langage d’expression s’accompagne également d’un ensemble de fonctions permettant d’interroger les collections.
 
-Ces fonctions sont expliquées ci-dessous. Dans les exemples suivants, nous allons utiliser la payload d’événement contenant une collection :
+Ces fonctions sont expliquées ci-dessous. Dans les exemples suivants, nous allons utiliser la payload d’événement contenant une collection :
 
 ```json
                 { 
@@ -69,7 +69,7 @@ La fonction **[!UICONTROL all]** permet de définir un filtre sur une collection
 <listExpression>.all(<condition>)
 ```
 
-Par exemple, parmi tous les utilisateurs de l’application, vous pouvez extraire ceux qui utilisent IOS 13 (expression booléenne « app used == IOS 13 »). Le résultat de cette fonction est une liste filtrée contenant les éléments qui correspondent à l’expression booléenne (exemple : utilisateur 1 de l’application, utilisateur 34 de l’application, utilisateur 432 de l’application).
+Par exemple, parmi tous les utilisateurs de l’application, vous pouvez obtenir ceux qui utilisent IOS 13 (expression booléenne &quot;app used == IOS 13&quot;). Le résultat de cette fonction est une liste filtrée contenant les éléments qui correspondent à l’expression booléenne (exemple : utilisateur 1 de l’application, utilisateur 34 de l’application, utilisateur 432 de l’application).
 
 Dans une activité Condition de source de données, vous pouvez vérifier si le résultat de la fonction **[!UICONTROL all]** est nul ou non. Vous pouvez également combiner cette fonction **[!UICONTROL all]** à d’autres fonctions, telles que **[!UICONTROL count]**. Pour plus d’informations, voir [Activité Condition de source de données](../condition-activity.md#data_source_condition).
 
@@ -236,10 +236,14 @@ Le résultat est « token_2 ».
 
 **Autres exemples**
 
+Cette expression renvoie les noms des produits en fonction de la valeur de SKU. La liste de ces produits est incluse dans la liste des événements, la condition étant l’identifiant d’événement.
+
 ```json
-#{ExperiencePlatform.ExperienceEventFieldGroup.experienceevent. all(currentDataPackField._aepgdcdevenablement2.purchase_event.receipt_nbr == "10-337-4016"). 
-_aepgdcdevenablement2.purchase_event.productListItems. all(currentDataPackField.SKU == "AB17 1234 1775 19DT B4DR 8HDK 762").name}
+#{ExperiencePlatform.ExperienceEventFieldGroup.experienceevent.all(currentDataPackField._aepgdcdevenablement2.purchase_event.receipt_nbr == "10-337-4016"). 
+_aepgdcdevenablement2.purchase_event.productListItems.all(currentDataPackField.SKU == "AB17 1234 1775 19DT B4DR 8HDK 762").name}
 ```
+
+Cette expression récupère le nom du dernier produit de la liste de produits d’un événement de commerce dont le type d’événement est &quot;productListAdds&quot; et le prix total est supérieur ou égal à 150.
 
 ```json
  #{ExperiencePlatform.ExperienceEventFieldGroup.experienceevent.last(
