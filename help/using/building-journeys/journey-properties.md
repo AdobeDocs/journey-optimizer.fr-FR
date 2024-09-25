@@ -10,7 +10,7 @@ level: Intermediate
 keywords: parcours, configuration, propriétés
 exl-id: 6c21371c-6cbc-4d39-8fe6-39f1b8b13280
 source-git-commit: fbe8d14ba81e168ecfb141d54bf3009a2565751c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1724'
 ht-degree: 100%
 
