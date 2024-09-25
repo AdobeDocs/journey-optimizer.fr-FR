@@ -10,9 +10,9 @@ level: Intermediate
 badge: label="Version bêta"
 hide: true
 hidefromtoc: true
-source-git-commit: 131cacc88670a965ed2e233984ffa941b37e8a08
+source-git-commit: 13221645a22524deadc5576624bf6c31633c55c5
 workflow-type: tm+mt
-source-wordcount: '757'
+source-wordcount: '771'
 ht-degree: 1%
 
 ---
@@ -23,7 +23,7 @@ ht-degree: 1%
 >[!CONTEXTUALHELP]
 >id="ajo_simulate_sample_profiles"
 >title="Simulation à l’aide d’un exemple de saisie"
->abstract="Dans cet écran, vous pouvez tester différentes variantes du contenu de votre email en fournissant des valeurs pour les champs de personnalisation via un modèle CSV (télécharger un fichier CSV) ou en saisissant manuellement les valeurs.
+>abstract="Dans cet écran, vous pouvez tester différentes variantes du contenu de votre email en fournissant des valeurs pour les champs de personnalisation via un modèle CSV (télécharger un fichier CSV) ou en saisissant manuellement les valeurs."
 
 >[!AVAILABILITY]
 >
@@ -46,7 +46,7 @@ Les principales étapes pour tester votre contenu sont les suivantes :
 
 Avant de commencer à tester votre contenu à l’aide d’exemples de données d’entrée, tenez compte des barrières de sécurité et des conditions préalables suivantes.
 
-* Pour l’instant, le test à l’aide de données d’entrée d’exemple n’est disponible que pour le canal email.
+* Pour l’instant, le test à l’aide de données d’entrée d’exemple n’est disponible que pour le canal email. L’expérience est inaccessible à partir du bouton &quot;Simuler le contenu&quot; dans le Designer email.
 * Les fonctionnalités suivantes ne sont pas disponibles dans l&#39;expérience actuelle : Inbox rendering, rapports sur les spams, contenu multilingue et expérience de contenu. Pour utiliser ces fonctionnalités, cliquez sur le bouton **[!UICONTROL Simuler le contenu]** de votre contenu pour accéder à l’interface utilisateur précédente.
 * Seuls les attributs de profil sont actuellement pris en charge. Si des attributs contextuels sont utilisés dans votre contenu à des fins de personnalisation, vous ne pourrez pas tester votre contenu à l’aide de ces attributs.
 * Seuls les types de données suivants sont pris en charge lors de la saisie de données pour vos variantes : nombre (entier et décimal), chaîne, valeur booléenne et type de date. Tout autre type de données affiche une erreur.
