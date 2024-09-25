@@ -6,9 +6,9 @@ feature: Release Notes
 topic: Content Management
 description: Notes de mise à jour d’Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: a33b1f0323efd0a482781d21fded66c9c8dd6360
+source-git-commit: 2efff12350ffeada28728ef32cf59bfb0f5d5c49
 workflow-type: tm+mt
-source-wordcount: '1588'
+source-wordcount: '1600'
 ht-degree: 64%
 
 ---
@@ -177,6 +177,10 @@ Cette version est fournie avec les améliorations répertoriées ci-dessous.
 <!--* The use of audiences from custom upload (CSV file) is now available for use with Privacy and Security Shield add-on.
 * When targeting a custom upload (CSV file) audience, you can now use attributes from the file in your campaigns and journeys. These attributes are available in the personalization editor, to personalize your messages, and the journey advanced expression editor.-->
 * (Date de disponibilité : 17 septembre) **Utilisation de la licence** - Le tableau de bord Utilisation de la licence affiche désormais les profils activables, au lieu des audiences activables. [En savoir plus](../audience/license-usage.md)
+
+**Gestion de contenu**
+
+* Vous pouvez désormais exporter des modèles de contenu et des fragments entre des environnements de test.
 
 **Gouvernance des données**
 
