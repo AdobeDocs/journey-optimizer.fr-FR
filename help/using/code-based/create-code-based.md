@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Experienced
 exl-id: 25c2c448-9380-47b0-97c5-16d9afb794c5
-source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
-workflow-type: ht
-source-wordcount: '1083'
-ht-degree: 100%
+source-git-commit: dd4173698d7034173b7ae9f44afec397d62a6f78
+workflow-type: tm+mt
+source-wordcount: '1127'
+ht-degree: 96%
 
 ---
 
@@ -113,6 +113,10 @@ Pour afficher un aperçu de votre expérience basée sur le code qui a été mod
     When copying the test URI, the content displayed is the one personalized for the test profile used when the content simulation was generated in [!DNL Journey Optimizer].-->
 
 ## Activer la campagne basée sur le code {#activate-code-based-campaign}
+
+>[!IMPORTANT]
+>
+>À compter de la version de septembre, une nouvelle expérience d’activation de campagne et de parcours vous permet de gérer l’ensemble du processus d’approbation, en veillant à ce que les campagnes et les parcours soient minutieusement examinés et approuvés par les parties prenantes appropriées avant de passer en ligne. Cette fonctionnalité est disponible en disponibilité limitée. [En savoir plus](../test-approve/gs-approval.md)
 
 Une fois que vous avez défini votre campagne basée sur le code et modifié votre contenu selon vos besoins à l’aide de l’[éditeur basé sur le code](#edit-code), vous pouvez la vérifier et l’activer. Suivez les étapes ci-dessous.
 

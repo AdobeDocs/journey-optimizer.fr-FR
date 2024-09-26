@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: parcours, limitation
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: 18296fe54dcef6620d4f74374848199368f01475
 workflow-type: tm+mt
 source-wordcount: '512'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
@@ -32,7 +32,7 @@ Voici les limitations liées à l&#39;utilisation des parcours.
 * Un parcours commençant par une activité d&#39;événement dans la version_v1 ne peut pas débuter avec un autre élément qu&#39;un événement dans d&#39;autres versions. Vous ne pouvez pas débuter un parcours avec un événement **Qualification d’audience**.
 * Un parcours commençant par une activité **Qualification d’audience** dans la version v1 doit toujours débuter avec une **qualification d’audience** dans d’autres versions.
 * L’audience et l’espace de noms sélectionnés dans **Qualification d’audience** (premier nœud) ne peuvent pas être modifiés dans les nouvelles versions.
-* La règle de reprise doit être la même dans toutes les versions du parcours.
+* La règle de rentrée doit être la même dans toutes les versions de parcours.
 * Un parcours commençant par une **lecture d’audience** ne peut pas commencer par un autre événement dans les versions suivantes.
 
 ## Limites des actions personnalisées {#custom-actions-limitations}

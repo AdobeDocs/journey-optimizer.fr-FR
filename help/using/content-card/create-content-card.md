@@ -4,34 +4,14 @@ description: Découvrez comment créer des cartes de contenu et modifier son con
 topic: Content Management
 role: User
 level: Beginner
-badge: label="Disponibilité limitée" type="Informative"
-hide: true
-hidefromtoc: true
-source-git-commit: 8a902298bbbac5689b4f84266dd9c9027e45fad5
+source-git-commit: 12cf3f9ed82350dd55b74de4596e10be9d5654ef
 workflow-type: tm+mt
-source-wordcount: '968'
-ht-degree: 68%
+source-wordcount: '919'
+ht-degree: 70%
 
 ---
 
 # Création de cartes de contenu {#create-content-card}
-
->[!BEGINSHADEBOX]
-
-**Table des matières**
-
-* [Prise en main des cartes de contenu](get-started-content-card.md)
-* [Prérequis pour les cartes de contenu](content-card-configuration-prereq.md)
-* [Configuration du canal de cartes de contenu dans Journey Optimizer](content-card-configuration.md)
-* **Créer des cartes de contenu**
-* [Concevoir des cartes de contenu](design-content-card.md)
-* [Rapport sur les cartes de contenu](content-card-report.md)
-
->[!ENDSHADEBOX]
-
->[!AVAILABILITY]
->
->Actuellement, les cartes de contenu ne sont disponibles que pour un ensemble d’organisations (disponibilité limitée). Pour en bénéficier, contactez votre représentant ou représentante Adobe.
 
 >[!BEGINTABS]
 

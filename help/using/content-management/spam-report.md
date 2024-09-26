@@ -4,12 +4,11 @@ description: Découvrez comment utiliser le rapport de spam des e-mails.
 feature: Preview
 role: User
 level: Beginner
-badge: label="Version bêta"
 exl-id: 9ab43b14-41cf-49f1-bdcf-6fee58db5000
-source-git-commit: 5f69b252f5812f43b3d0a6fed0aac074ece0d10f
+source-git-commit: 9d95c3cf5c7f9a0da98654795370f40e84611dc9
 workflow-type: tm+mt
-source-wordcount: '363'
-ht-degree: 100%
+source-wordcount: '365'
+ht-degree: 93%
 
 ---
 
@@ -21,10 +20,6 @@ ht-degree: 100%
 >abstract="Le rapport de spam vous permet de vérifier la notation de spam du contenu de vos e-mails. Cette note indique si les FAI ou les fournisseurs de messagerie considèrent votre message comme un spam ou non. Plus la note est faible, mieux c’est. Si la note du contenu de votre e-mail est supérieure à 2, envisagez de résoudre les problèmes qui provoquent l’échec des tests."
 
 Vous pouvez vérifier la note de spam du contenu de vos e-mails dans un rapport de spam dédié. À l’aide de [SpamAssassin](https://spamassassin.apache.org/){target="_blank"}, Adobe Journey Optimizer peut tester le contenu de votre e-mail et lui attribuer une note pour indiquer si les FAI ou les fournisseurs de messagerie le considèrent comme un spam ou non.
-
->[!AVAILABILITY]
->
->Cette fonctionnalité est actuellement en version bêta et disponible uniquement pour les clientes et clients bêta. Pour rejoindre le programme de version bêta, contactez l’assistance clientèle d’Adobe.
 
 Lors de la modification ou de la prévisualisation du contenu de votre e-mail, le bouton **[!UICONTROL Rapport de spam]** fournit une notation et des conseils afin d’améliorer les notes de chaque élément répertorié.
 
@@ -49,6 +44,11 @@ Pour accéder à la fonctionnalité **[!UICONTROL Rapport de spam]**, suivez les
 1. Vérifiez les scores et les descriptions de chaque élément.
 
    Plus la note est faible, mieux c’est. Si la note est supérieure à 5, un avertissement s’affiche : il indique que certains messages peuvent être bloqués ou marqués comme spam lors de leur réception. La bonne pratique consiste à obtenir une note inférieure à 2.
+
+   >[!NOTE]
+   >
+   >Le score de spam est dérivé via [SpamAssassin](https://spamassassin.apache.org/){target="_blank"}, et les règles ne sont pas détenues par Adobe. Pour plus d&#39;informations sur ces règles, consultez la documentation de SpamAssassin .
+   >
 
 1. En fonction de cette note, si vous considérez que certains éléments peuvent être améliorés, modifiez votre contenu dans le [Concepteur d’e-mail](../email/content-from-scratch.md) et effectuez les mises à jour nécessaires.
 

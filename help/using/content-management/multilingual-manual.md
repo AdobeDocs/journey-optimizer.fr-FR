@@ -10,10 +10,10 @@ level: Beginner
 keywords: commencer, démarrer, contenu, expérience
 exl-id: 6244d717-fbd6-468e-9164-60451d0d62f0
 badge: label="Disponibilité limitée" type="Informative"
-source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
-workflow-type: ht
-source-wordcount: '617'
-ht-degree: 100%
+source-git-commit: dd4173698d7034173b7ae9f44afec397d62a6f78
+workflow-type: tm+mt
+source-wordcount: '661'
+ht-degree: 93%
 
 ---
 
@@ -139,6 +139,10 @@ Après avoir configuré votre contenu multilingue, vous pouvez concevoir votre c
    ![](assets/multilingual-campaign-8.png)
 
 Vous pouvez maintenant activer votre campagne ou votre parcours. Après l’envoi, vous pouvez mesurer l’impact de votre parcours ou de votre campagne multilingue dans les rapports.
+
+>[!IMPORTANT]
+>
+>À compter de la version de septembre, une nouvelle expérience d’activation de campagne et de parcours vous permet de gérer l’ensemble du processus d’approbation, en veillant à ce que les campagnes et les parcours soient minutieusement examinés et approuvés par les parties prenantes appropriées avant de passer en ligne. Cette fonctionnalité est disponible en disponibilité limitée. [En savoir plus](../test-approve/gs-approval.md)
 
 <!--
 # Create a multilingual journey {#create-multilingual-journey}

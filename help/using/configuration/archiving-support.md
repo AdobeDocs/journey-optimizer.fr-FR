@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: archive, messages, HIPAA, CCI, e-mails
 exl-id: 186a5044-80d5-4633-a7a7-133e155c5e9f
-source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
-workflow-type: ht
-source-wordcount: '1132'
-ht-degree: 100%
+source-git-commit: 794724670c41e5d36ff063072a2e29c37dd5fadd
+workflow-type: tm+mt
+source-wordcount: '1337'
+ht-degree: 84%
 
 ---
 
@@ -119,9 +119,9 @@ Pour ce faire, suivez les étapes ci-après.
 
 Le reporting en tant que tel en Cci n&#39;est pas disponible dans les rapports de message et parcours. Toutefois, les informations sont stockées dans un jeu de données système appelé **[!UICONTROL Jeu de données d’événement de retour AJO Cci]**. Vous pouvez exécuter des requêtes sur ce jeu de données pour trouver des informations utiles à des fins de débogage, par exemple.
 
-Vous pouvez accéder à ce jeu de données par le biais de l’interface utilisateur. Sélectionnez **[!UICONTROL Gestion des données]** > **[!UICONTROL Jeux de données]** > **[!UICONTROL Parcourir]** et activez le bouton à bascule **[!UICONTROL Affichage des jeux de données système]** à partir du filtre pour afficher les jeux de données générés par le système. En savoir plus sur l’accès aux jeux de données dans [cette section](../data/get-started-datasets.md#access-datasets).
+Pour accéder à ce jeu de données par le biais de l’interface utilisateur, sélectionnez **[!UICONTROL Data management]** > **[!UICONTROL Datasets]** > **[!UICONTROL Browse]**. En savoir plus sur l’accès aux jeux de données dans [cette section](../data/get-started-datasets.md#access-datasets).
 
-![](assets/preset-bcc-dataset.png)
+<!--![](assets/preset-bcc-dataset.png)-->
 
 Pour exécuter des requêtes sur ce jeu de données, vous pouvez utiliser l’éditeur de requêtes fourni par le [Query Service d’Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html?lang=fr){target="_blank"}. Pour y accéder, sélectionnez **[!UICONTROL Gestion des données]** > **[!UICONTROL Requêtes]** et cliquez sur **[!UICONTROL Créer une requête]**. [En savoir plus](../data/get-started-queries.md)
 
@@ -223,3 +223,65 @@ Selon les informations que vous recherchez, vous pouvez exécuter les requêtes 
    mfe._experience.customerjourneymanagement.messagedeliveryfeedback.feedbackstatus IN ('bounce', 'out_of_band') 
     WHERE bcc.timestamp > now() - INTERVAL '30' DAY;
    ```
+
+### Utiliser l’en-tête de message pour réconcilier la copie en Cci et les informations d’email envoyées {#bcc-header}
+
+Lorsque vos copies d&#39;emails en Cci sont archivées sur un système externe, par exemple, vous pouvez récupérer les informations sur les emails envoyés correspondants à l&#39;aide d&#39;un en-tête inclus dans le message.
+
+Chaque message électronique contient désormais un en-tête appelé `x-message-profile-id`. La valeur de cet en-tête est différente pour chaque profil : elle est propre à chaque email envoyé et à sa copie d&#39;email en Cci correspondante.
+
+L’en-tête `x-message-profile-id` est également stocké dans les jeux de données système suivants : [Jeu de données d’événement de retour de message AJO](../data/datasets-query-examples.md#message-feedback-event-dataset) (emails envoyés) et [Jeu de données d’événement de retour en Cci AJO](#bcc-reporting) (copies en Cci). Vous pouvez interroger ces jeux de données pour réconcilier la copie en copie carbone invisible et l’e-mail réel correspondant.
+
+* Pour accéder à ces jeux de données par le biais de l’interface utilisateur, sélectionnez **[!UICONTROL Data Management]** > **[!UICONTROL Datasets]** > **[!UICONTROL Parcourir]**. En savoir plus sur l’accès aux jeux de données dans [cette section](../data/get-started-datasets.md#access-datasets).
+
+* Utilisez l’éditeur de requêtes fourni par le [Adobe Experience Platform Query Service](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html?lang=fr){target="_blank"}. Pour y accéder, sélectionnez **[!UICONTROL Gestion des données]** > **[!UICONTROL Requêtes]** et cliquez sur **[!UICONTROL Créer une requête]**. [En savoir plus](../data/get-started-queries.md)
+
+Vous trouverez ci-dessous quelques exemples de requêtes que vous pouvez exécuter pour récupérer des informations correspondant à vos copies Cci.
+
+**Requête 1**
+
+Pour associer l’événement Cci à l’événement de retour correspondant au courrier électronique réel avec les détails de l’action de campagne :
+
+```
+SELECT
+  mfe.timestamp as OriginalRecipientFeedbackEventTime,
+  mfe._experience.customerJourneyManagement.emailChannelContext.address AS OriginalRecipientEmailAddress,
+  mfe._experience.customerjourneymanagement.messagedeliveryfeedback.feedbackstatus AS OriginalRecipientMessageFeedbackStatus,
+  mfe._experience.customerJourneyManagement.messageExecution.campaignID AS CampaignID,
+  mfe._experience.customerJourneyManagement.messageExecution.campaignActionID AS CampaignActionID,
+  mfe._experience.customerJourneyManagement.messageExecution.batchInstanceID AS BatchInstanceID,
+  mfe._experience.customerJourneyManagement.messageExecution.messageID AS MessageID AS MessageID
+FROM ajo_bcc_feedback_event_dataset bcc
+LEFT JOIN cjm_message_feedback_event_dataset mfe
+ON bcc._experience.customerJourneyManagement.messageProfile.messageProfileID =
+    mfe._experience.customerJourneyManagement.messageProfile.messageProfileID AND 
+    mfe.timestamp > now() - INTERVAL '30' day
+WHERE 
+  bcc.timestamp > now() - INTERVAL '30' DAY AND 
+  bcc._experience.customerJourneyManagement.messageProfile.messageProfileID = 'x-message-profile-id'
+ORDER BY timestamp DESC;
+```
+
+**Requête 2**
+
+Pour que l’événement Cci soit associé à l’événement de commentaire correspondant pour le courrier électronique réel avec les détails de l’action de parcours :
+
+```
+SELECT
+  mfe.timestamp as OriginalRecipientFeedbackEventTime,
+  mfe._experience.customerJourneyManagement.emailChannelContext.address AS OriginalRecipientEmailAddress,
+  mfe._experience.customerjourneymanagement.messagedeliveryfeedback.feedbackstatus AS OriginalRecipientMessageFeedbackStatus,
+  mfe._experience.customerJourneyManagement.messageExecution.journeyVersionID AS JourneyVersionID,
+  mfe._experience.customerJourneyManagement.messageExecution.journeyVersionInstanceID AS JourneyVersionInstanceID,
+  mfe._experience.customerJourneyManagement.messageExecution.batchInstanceID AS BatchInstanceID,
+  mfe._experience.customerJourneyManagement.messageExecution.messageID AS MessageID AS MessageID
+FROM ajo_bcc_feedback_event_dataset bcc
+LEFT JOIN cjm_message_feedback_event_dataset mfe
+ON bcc._experience.customerJourneyManagement.messageProfile.messageProfileID =
+    mfe._experience.customerJourneyManagement.messageProfile.messageProfileID AND 
+    mfe.timestamp > now() - INTERVAL '30' day
+WHERE 
+  bcc.timestamp > now() - INTERVAL '30' DAY AND 
+  bcc._experience.customerJourneyManagement.messageProfile.messageProfileID = 'x-message-profile-id'
+ORDER BY timestamp DESC;
+```

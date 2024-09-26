@@ -7,10 +7,10 @@ role: User
 level: Beginner
 keywords: in-app, message, création, commencer
 exl-id: 9e9c235a-b78c-4669-af82-822b6f1e6fca
-source-git-commit: 364e78e0ef3a9e8bcd54c4983c0503863bce1e34
+source-git-commit: dd4173698d7034173b7ae9f44afec397d62a6f78
 workflow-type: tm+mt
-source-wordcount: '362'
-ht-degree: 100%
+source-wordcount: '406'
+ht-degree: 89%
 
 ---
 
@@ -45,6 +45,10 @@ Pour ce faire, cliquez sur **[!UICONTROL Simuler du contenu]**, puis ajoutez un 
 Vous trouverez des informations détaillées sur la sélection des profils de test et la prévisualisation de votre contenu dans la section [Gestion de contenu](../content-management/preview-test.md).
 
 ## Vérifier et activer votre notification in-app{#in-app-review}
+
+>[!IMPORTANT]
+>
+>À compter de la version de septembre, une nouvelle expérience d’activation de campagne et de parcours vous permet de gérer l’ensemble du processus d’approbation, en veillant à ce que les campagnes et les parcours soient minutieusement examinés et approuvés par les parties prenantes appropriées avant de passer en ligne. Cette fonctionnalité est disponible en disponibilité limitée. [En savoir plus](../test-approve/gs-approval.md)
 
 Une fois votre message in-app créé et son contenu défini et personnalisé, vous pouvez le vérifier et l’activer.
 

@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
-workflow-type: ht
+source-git-commit: 18296fe54dcef6620d4f74374848199368f01475
+workflow-type: tm+mt
 source-wordcount: '5454'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -169,7 +169,7 @@ Cette page répertorie toutes les mises à jour récentes de la documentation de
 ## Juillet 2023 {#july-2023}
 
 * Toutes les nouvelles fonctionnalités et améliorations de la version du 23 juillet de [!DNL Journey Optimizer] sont présentées dans la documentation. [En savoir plus](release-notes.md)
-* La page de documentation sur l’activité d’attente a été enrichie avec des informations supplémentaires et des bonnes pratiques relatives à la temporisation globale et à l’utilisation de la reprise. [En savoir plus](../building-journeys/wait-activity.md)
+* La page de documentation de l’activité d’attente a été améliorée avec des informations supplémentaires et des bonnes pratiques relatives à l’utilisation du délai d’expiration global et de la réentrée. [En savoir plus](../building-journeys/wait-activity.md)
 * La page sur la gestion des entrées a été améliorée. [En savoir plus](../building-journeys/entry-management.md)
 * Des informations supplémentaires sur le taux de limitation ont été ajoutées dans la documentation sur l’activité Lecture d’audience. [En savoir plus](../building-journeys/read-audience.md)
 * Des informations supplémentaires sur les reprises ont été ajoutées. [En savoir plus](../start/guardrails.md#general-actions-g)

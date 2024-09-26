@@ -9,10 +9,10 @@ level: Intermediate
 hide: true
 hidefromtoc: true
 exl-id: 271fb85d-5621-4a12-b3d1-65cf6021b174
-source-git-commit: e411810196c591727fb1049826dc761e3807ed03
+source-git-commit: e19cd0c301b1f2a8f47ca4c9f9882d36fd560dbe
 workflow-type: tm+mt
 source-wordcount: '982'
-ht-degree: 100%
+ht-degree: 95%
 
 ---
 
@@ -50,9 +50,14 @@ Cette section vous guide sur la mise à l’échelle avec les deux limites suiva
 
 * Lorsque vous publiez des parcours, Journey Optimizer les met automatiquement à l’échelle et les ajuste pour garantir une stabilité et un débit maximaux. Lorsque vous approchez du jalon de 100 parcours actifs à la fois dans une sandbox, un recouvrement orange et un signe d’avertissement s’affichent dans l’interface pour cette réalisation. Si cette notification s’affiche et que vous devez étendre vos parcours au-delà de 100 parcours actifs à la fois, créez un ticket pour l’assistance clientèle. Nous vous aiderons à atteindre vos objectifs.
 
+<!--DOCAC-10977
+
+* As you publish journeys, Journey Optimizer automatically scales and adjusts to ensure maximum throughput and stability. As you near the milestone of 500 live journeys at one time in a sandbox, you will see an orange overlay and warning sign appear in the interface on this achievement. If you see this notification and have a need to extend your journeys beyond 500 live journeys at a time, please create a ticket for customer care and we will help you reach your goals.-->
+
+
 Il existe un certain nombre de bonnes pratiques que vous pouvez adopter, qui vous aideront à respecter les mécanismes de sécurisation et à utiliser le système efficacement.
 
-* Si vous approchez de votre limite en termes de parcours actifs, la première étape que vous pouvez effectuer est d’accéder à l’onglet **Vue d’ensemble** sous **Parcours** pour voir le nombre de parcours actifs au cours des dernières 24 heures (parcours ayant un profil actif). Vous pouvez vérifier le nombre de profils entrant et sortant du parcours dans cette section.
+* Si vous approchez de votre limite de parcours actifs, la première étape que vous pouvez effectuer est d’accéder à l’onglet **Aperçu** sous **Parcours** pour voir combien de parcours ont été actifs au cours des dernières 24 heures de parcours qui avaient des profils actifs. Vous pouvez vérifier le nombre de profils entrant et sortant du parcours dans cette section.
 
   ![](assets/journey-guardrails2.png)
 

@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: attente, activité, parcours, suivant, zone de travail
 exl-id: 7268489a-38c1-44da-b043-f57aaa12d7d5
-source-git-commit: f81fde0076fc8689c689fae7a0ee8c7aa9fdbeed
+source-git-commit: 18296fe54dcef6620d4f74374848199368f01475
 workflow-type: tm+mt
 source-wordcount: '598'
-ht-degree: 90%
+ht-degree: 86%
 
 ---
 
@@ -43,9 +43,9 @@ Lorsque vous utilisez plusieurs activités **Attente** dans un parcours, gardez 
 
 Une personne ne peut entrer dans une activité **Attente** que si elle dispose de suffisamment de temps restant dans le parcours pour compléter la durée d’attente avant le délai d’expiration de 91 jours du parcours.
 
-### Attente et reprise {#wait-re-entrance}
+### Attente et rentrée {#wait-reentrance}
 
-La bonne pratique est de ne pas utiliser d’activités **Attente** pour bloquer une reprise. Utilisez plutôt l’option **Autoriser la reprise** au niveau des propriétés du parcours. En savoir plus sur [cette page](../building-journeys/journey-properties.md#entrance).
+Il est recommandé de ne pas utiliser les activités **Wait** pour bloquer la réentrée. Utilisez plutôt l’option **Autoriser la rentrée** au niveau des propriétés du parcours. En savoir plus sur [cette page](../building-journeys/journey-properties.md#entrance).
 
 ### Attente et mode test {#wait-test-modd}
 

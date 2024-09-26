@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 badge: label="Disponibilité limitée" type="Informative"
 exl-id: 51cbe27f-3f3f-471e-a5d9-e3a88fcfdd68
-source-git-commit: b80d794f3782056a10310c65144a8eecbddaaf3e
+source-git-commit: 12cf3f9ed82350dd55b74de4596e10be9d5654ef
 workflow-type: tm+mt
-source-wordcount: '4252'
-ht-degree: 100%
+source-wordcount: '4623'
+ht-degree: 94%
 
 ---
 
@@ -33,6 +33,7 @@ La page **Rapport de campagne** s’affiche avec les onglets suivants en fonctio
 * [Notification push](#push-notification)
 * [Courrier](#direct-mail)
 * [Web](#web)
+* [Carte de contenu](#content-card)
 
 Pour en savoir plus sur Customer Journey Analytics Workspace et sur le filtrage et l’analyse des données, consultez [cette page](https://experienceleague.adobe.com/fr/docs/analytics-platform/using/cja-workspace/home).
 
@@ -783,6 +784,74 @@ Le tableau **[!UICONTROL URL des liens suivis]** fournit une vue d’ensemble co
 
 * **[!UICONTROL Affichages]** : nombre d’ouvertures du message.
 
-* **[!UICONTROL Affichages uniques]** : nombre d’ouvertures du message, les interactions multiples d’un même profil ne sont pas prises en compte.
+* **[!UICONTROL Affichages uniques]** : nombre dʼouvertures du message, les multiples interactions dʼun même profil ne sont pas prises en compte.
+
++++
+
+## Carte de contenu {#content-card}
+
+### Tendance d’affichage et de clic {#display-click}
+
+![](assets/content-card-report-1.png)
+
+Les graphiques **[!UICONTROL tendance d’affichage et de clic]** vous aident à comprendre la portée globale du message et le nombre de profils uniques qui l’interagissent.
+
++++ En savoir plus sur les mesures d’affichage et de clic
+
+* **[!UICONTROL Clics]** : nombre de clics sur un contenu dans la carte Contenu.
+
+* **[!UICONTROL Affichages]** : nombre d’ouvertures du message.
+
+* **[!UICONTROL Affichages uniques]** : nombre dʼouvertures du message, les multiples interactions dʼun même profil ne sont pas prises en compte.
+
++++
+
+### Données de suivi {#tracking-data}
+
+![](assets/content-card-report-2.png)
+
+La table **[!UICONTROL Données de suivi]** offre un instantané détaillé de l’activité de profil liée à vos cartes de contenu, fournissant des informations essentielles sur l’engagement et l’efficacité de la carte de contenu.
+
++++ En savoir plus sur les mesures de données de suivi
+
+* **[!UICONTROL Personnes]** : nombre de profils utilisateur qualifiés comme profils cibles pour vos cartes de contenu.
+
+* **[!UICONTROL Taux de clics (CTR)]** : pourcentage d’utilisateurs ayant interagi avec la carte Contenu.
+
+* **[!UICONTROL Clics]** : nombre de clics sur un contenu dans la carte Contenu.
+
+* **[!UICONTROL Clics uniques]** : nombre de profils ayant cliqué sur un contenu dans la carte Contenu.
+
+* **[!UICONTROL Affichages]** : nombre d’ouvertures du message.
+
+* **[!UICONTROL Affichages uniques]** : nombre dʼouvertures du message, les multiples interactions dʼun même profil ne sont pas prises en compte.
+
++++
+
+### Libellés suivis {#tracked-labels}
+
+Le tableau **[!UICONTROL Libellés suivis]** offre un aperçu complet des libellés des liens dans vos cartes Contenu, en mettant en évidence ceux qui génèrent le plus fort trafic de visiteurs. Cette fonctionnalité vous permet d’identifier et de hiérarchiser les liens les plus populaires.
+
++++ En savoir plus sur les mesures d’étiquettes suivies
+
+* **[!UICONTROL Clics uniques]** : nombre de profils ayant cliqué sur un contenu dans vos cartes de contenu.
+
+* **[!UICONTROL Clics]** : nombre de clics sur un contenu dans vos cartes de contenu.
+
+* **[!UICONTROL Affichages]** : nombre d’ouvertures du message.
+
+* **[!UICONTROL Affichages uniques]** : nombre dʼouvertures du message, les multiples interactions dʼun même profil ne sont pas prises en compte.
+
++++
+
+### URL des liens de suivi {#tracked-link-url}
+
+La table **[!UICONTROL URL de lien trackées]** offre un aperçu complet des URL de vos cartes de contenu qui attirent le plus de visiteurs. Cela vous permet d’identifier et de classer par priorité les liens les plus populaires, ce qui améliore votre compréhension de l’engagement des profils avec du contenu spécifique dans vos cartes de contenu.
+
++++ En savoir plus sur les mesures des URL des liens de suivi
+
+* **[!UICONTROL Clics uniques]** : nombre de profils ayant cliqué sur un contenu dans vos cartes de contenu.
+
+* **[!UICONTROL Clics]** : nombre de clics sur un contenu dans vos cartes de contenu.
 
 +++

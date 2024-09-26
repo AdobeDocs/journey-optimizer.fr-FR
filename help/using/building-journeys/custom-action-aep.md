@@ -8,18 +8,18 @@ topic: Content Management
 role: Developer, Data Engineer
 level: Experienced
 exl-id: 890a194f-f54d-4230-863a-fb2b924d716a
-source-git-commit: 778ef71a531346774c5e10e296dbf1112fed891d
+source-git-commit: f00b157ec843eacdee480dcfe00a8724ab4a3495
 workflow-type: tm+mt
-source-wordcount: '355'
-ht-degree: 100%
+source-wordcount: '369'
+ht-degree: 92%
 
 ---
 
-# Cas d’utilisation : utiliser des actions personnalisées pour écrire des événements de parcours dans Experience Platform{#custom-action-aep}
+# Cas d’utilisation : utiliser des actions personnalisées pour écrire des événements de parcours dans Experience Platform {#custom-action-aep}
 
 Ce cas d’utilisation explique comment écrire des événements personnalisés dans Adobe Experience Platform à partir de parcours à l’aide d’actions personnalisées et d’appels authentifiés.
 
-## Configurer un projet IO
+## Configurer un projet IO {#custom-action-aep-IO}
 
 1. Dans Adobe Developer Console, cliquez sur **Projet** et ouvrez votre projet IO.
 
@@ -94,7 +94,11 @@ curl -X POST 'https://ims-na1.adobelogin.com/ims/token/v3' -H 'Content-Type: app
 }
 ```
 
-## Configurer l’action personnalisée
+## Configurer l’action personnalisée {#custom-action-config}
+
+La configuration des actions personnalisées est détaillée dans [cette page](../action/about-custom-action-configuration.md).
+
+Pour cet exemple, procédez comme suit :
 
 1. Ouvrez Adobe Journey Optimizer, puis cliquez sur **Configurations**, sous **Administration** dans le menu de gauche. Sous **Actions**, cliquez sur **Gérer** et sur **Créer une action**.
 
@@ -106,7 +110,7 @@ curl -X POST 'https://ims-na1.adobelogin.com/ims/token/v3' -H 'Content-Type: app
 
    ![](assets/custom-action-aep-7bis.png)
 
-### Configurer l’authentification
+### Configurer l’authentification {#custom-action-aep-authentication}
 
 1. Sélectionnez le **Type** **Personnalisé** avec la payload suivante.
 
@@ -140,7 +144,7 @@ curl -X POST 'https://ims-na1.adobelogin.com/ims/token/v3' -H 'Content-Type: app
 
    ![](assets/custom-action-aep-8.png)
 
-### Configurer la payload
+### Configurer la payload {#custom-action-aep-payload}
 
 1. Dans les champs **Demande** et **Réponse**, collez la payload de la connexion source utilisée auparavant.
 
@@ -167,7 +171,9 @@ curl -X POST 'https://ims-na1.adobelogin.com/ims/token/v3' -H 'Content-Type: app
    }
    ```
 
-1. Modifiez la configuration du champ de **Constant** à **Variable** pour les champs qui seront renseignés dynamiquement. Enregistrez l’action personnalisée.
+1. Remplacez la configuration de champ de **Constante** par **Variable** pour les champs qui seront renseignés dynamiquement.
+
+1. Enregistrez l’action personnalisée.
 
 ## Parcours
 

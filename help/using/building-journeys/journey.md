@@ -8,10 +8,10 @@ role: User
 level: Beginner, Intermediate
 keywords: parcours, découverte, commencer
 exl-id: 73cfd48b-72e6-4b72-bbdf-700a32a34bda
-source-git-commit: e34c39c02f71361277f28b1a116a54390875f93d
+source-git-commit: 18296fe54dcef6620d4f74374848199368f01475
 workflow-type: tm+mt
 source-wordcount: '610'
-ht-degree: 100%
+ht-degree: 96%
 
 ---
 
@@ -82,7 +82,7 @@ Lorsque vous recherchez un parcours, les versions les plus récentes apparaissen
 
 >[!NOTE]
 >
->Dans la plupart des cas, un profil ne peut pas être présent plusieurs fois dans le même parcours, en même temps. Si la reprise est activée, un profil peut rejoindre à nouveau un parcours, mais ne peut pas le faire tant qu’il n’a pas complètement quitté cette instance précédente du parcours. [En savoir plus](end-journey.md).
+>Dans la plupart des cas, un profil ne peut pas être présent plusieurs fois dans le même parcours, en même temps. Si la rentrée est activée, un profil peut revenir à un parcours, mais il ne peut pas le faire tant qu’il n’a pas complètement quitté cette instance précédente du parcours. [En savoir plus](end-journey.md).
 
 Si vous devez apporter des modifications à un parcours actif, vous devez en créer une nouvelle version.
 

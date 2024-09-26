@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 1fc708e1-a993-4a2a-809c-c5dc08a4bae1
-source-git-commit: c42fc1069e11b8e34b7477fc26ed8a6b4ef95ac7
+source-git-commit: 62b5cfd480414c898ab6f123de8c6b9f99667b7d
 workflow-type: tm+mt
-source-wordcount: '905'
-ht-degree: 100%
+source-wordcount: '980'
+ht-degree: 92%
 
 ---
 
@@ -128,3 +128,9 @@ Pour ce faire, cliquez sur l’icône **[!UICONTROL Plus d’actions]** en regar
 Pour désarchiver un fragment, filtrez sur les éléments **[!UICONTROL archivés]** et sélectionnez **[!UICONTROL Désarchiver]** dans le menu **[!UICONTROL Autres actions]**. Le fragment est à nouveau accessible à partir de la liste des fragments et peut être utilisé dans n’importe quel e-mail ou modèle.
 
 ![](assets/fragment-list-unarchive.png)
+
+## Exportation de fragments vers un autre environnement de test {#export}
+
+Journey Optimizer vous permet de copier un fragment d’un environnement de test vers un autre. Par exemple, vous pouvez copier un fragment de votre environnement de test d’évaluation vers votre environnement de test de production.
+
+Le processus de copie est effectué via un **export et import de package** entre les environnements de test source et cible. Des informations détaillées sur l’exportation d’objets et leur importation dans un environnement de test cible sont disponibles dans cette section : [Copier des objets vers un autre environnement de test](../configuration/copy-objects-to-sandbox.md)

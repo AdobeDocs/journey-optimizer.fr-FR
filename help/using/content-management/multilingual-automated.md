@@ -10,10 +10,10 @@ level: Beginner
 keywords: commencer, démarrer, contenu, expérience
 exl-id: 38e82eb2-67d9-4a7d-8c1f-77dab20bcec4
 badge: label="Disponibilité limitée" type="Informative"
-source-git-commit: a190b5547c2d8e13563391bd9d784add75c55fd4
+source-git-commit: dd4173698d7034173b7ae9f44afec397d62a6f78
 workflow-type: tm+mt
-source-wordcount: '1617'
-ht-degree: 100%
+source-wordcount: '1661'
+ht-degree: 97%
 
 ---
 
@@ -225,6 +225,10 @@ Une fois que vous avez configuré votre projet de traduction et les paramètres 
    ![](assets/multilingual-campaign-automated-7.png)
 
 1. Vérifiez que votre campagne est correctement configurée, puis cliquez sur **[!UICONTROL Activer]**.
+
+   >[!IMPORTANT]
+   >
+   >À compter de la version de septembre, une nouvelle expérience d’activation de campagne et de parcours vous permet de gérer l’ensemble du processus d’approbation, en veillant à ce que les campagnes et les parcours soient minutieusement examinés et approuvés par les parties prenantes appropriées avant de passer en ligne. Cette fonctionnalité est disponible en disponibilité limitée. [En savoir plus](../test-approve/gs-approval.md)
 
 Vous pouvez maintenant activer votre campagne ou votre parcours. Après l’envoi, vous pouvez mesurer l’impact de votre parcours ou de votre campagne multilingue dans les rapports.
 

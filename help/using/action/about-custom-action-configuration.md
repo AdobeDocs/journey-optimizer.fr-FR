@@ -9,10 +9,10 @@ role: Data Engineer, Data Architect, Admin
 level: Experienced
 keywords: action, tiers, personnalisé, parcours, API
 exl-id: 4df2fc7c-85cb-410a-a31f-1bc1ece237bb
-source-git-commit: b86a459681cda66596e0658b9f703185821aceea
+source-git-commit: 9f990d2b311237e49c3b93201cd7e9c2b02facef
 workflow-type: tm+mt
-source-wordcount: '1552'
-ht-degree: 92%
+source-wordcount: '1566'
+ht-degree: 89%
 
 ---
 
@@ -149,7 +149,7 @@ L’authentification TLS mutuelle (mTLS) est prise en charge dans les actions pe
 
 Vous pouvez définir le paramètre de payload comme décrit ci-dessous :
 
-1. Dans la section **[!UICONTROL Requête]**, collez un exemple de payload JSON à envoyer au service externe. Ce champ est facultatif et disponible uniquement pour les méthodes d’appel POST et PUT.
+1. Dans la section **[!UICONTROL Requête]**, collez un exemple de payload JSON à envoyer au service externe. Ce champ est facultatif et disponible uniquement pour les méthodes d&#39;appel POST et PUT. <!--DOCAC-10562 - Enable the **[!UICONTROL Allow NULL values]** option to keep Null values in the external call. Note that sending arrays of int, string, etc. with Null values within is not fully supported. For example the following array of integers [1, null, 2, 3] is sent as [1, 2, 3] even if this option is checked.-->
 
 1. Dans la section **[!UICONTROL Réponse]**, collez un exemple de payload renvoyée par l’appel. Ce champ est facultatif et disponible pour toutes les méthodes d’appel. Pour plus d’informations sur l’utilisation des réponses d’appel API dans les actions personnalisées, reportez-vous à [cette page](../action/action-response.md).
 
@@ -157,7 +157,8 @@ Vous pouvez définir le paramètre de payload comme décrit ci-dessous :
 
 >[!NOTE]
 >
->L’exemple de payload ne peut pas contenir de valeurs nulles. Les noms de champ de la payload ne peuvent pas contenir de caractère &quot;.&quot; . Ils ne peuvent pas commencer par le caractère &quot;$&quot;.
+>Les noms de champ de la payload ne peuvent pas contenir de caractère &quot;.&quot; . Ils ne peuvent pas commencer par le caractère &quot;$&quot;.
+>
 
 ![](assets/customactionpayloadmessage2.png)
 
@@ -171,3 +172,9 @@ Dans la configuration des champs, vous devez :
 
    * Le paramètre « **Variable** » signifie que la valeur du paramètre varie. Les marketeurs qui utilisent cette action personnalisée dans un parcours peuvent transmettre la valeur de leur choix ou indiquer où récupérer la valeur de ce paramètre (à partir de l’événement, de Adobe Experience Platform, etc.). Dans ce cas, le champ situé à droite du bouton bascule Constante/Variable correspond au libellé que le spécialiste marketing voit dans le parcours pour nommer ce paramètre.
 
+<!--DOCAC-10562 - For optional parameters, enable the **[!UICONTROL Is optional]** option at the end of the line. By checking this option, you mark the parameter as non-mandatory, and let the journey practitioners choose to fill it or not when authoring that custom action in a journey.-->
+
+>[!NOTE]
+>
+>Si vous configurez des paramètres facultatifs tout en autorisant des valeurs Null, les paramètres non renseignés par un praticien de parcours sont envoyés comme nuls.
+>

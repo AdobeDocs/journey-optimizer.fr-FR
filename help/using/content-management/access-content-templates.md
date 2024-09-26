@@ -6,13 +6,13 @@ description: Découvrir comment accéder aux modèles de contenu et les gérer
 topic: Content Management
 role: User
 level: Beginner
-source-git-commit: 59c675dd2ac94b6967cfb3a93f74b2016a090190
+exl-id: ef6110c4-1aa6-4835-b0b0-b3c4fe0e7024
+source-git-commit: 62b5cfd480414c898ab6f123de8c6b9f99667b7d
 workflow-type: tm+mt
-source-wordcount: '240'
-ht-degree: 100%
+source-wordcount: '317'
+ht-degree: 75%
 
 ---
-
 
 # Accéder aux modèles de contenu et les gérer {#access-manage-templates}
 
@@ -63,3 +63,9 @@ Sélectionnez le mode de **[!UICONTROL vue Grille]** pour afficher chaque modèl
 >Actuellement, les miniatures appropriées ne peuvent être générées que pour les modèles de contenu d’e-mail de type HTML.
 
 Lorsque vous mettez à jour un contenu, vous devrez peut-être attendre quelques secondes avant que les modifications ne soient reflétées dans la miniature.
+
+## Exporter des modèles de contenu vers un autre environnement de test {#export}
+
+Journey Optimizer vous permet de copier un modèle de contenu d’un environnement de test à un autre. Par exemple, vous pouvez copier un modèle de votre environnement de test d’évaluation dans votre environnement de test de production.
+
+Le processus de copie est effectué via un **export et import de package** entre les environnements de test source et cible. Des informations détaillées sur l’exportation d’objets et leur importation dans un environnement de test cible sont disponibles dans cette section : [Copier des objets vers un autre environnement de test](../configuration/copy-objects-to-sandbox.md)

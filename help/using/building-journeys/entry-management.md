@@ -6,12 +6,12 @@ description: Découvrez comment gérer l’entrée de profil.
 feature: Journeys, Profiles
 role: User
 level: Intermediate
-keywords: reprise, parcours, profil, récurrent
+keywords: réentrée, parcours, profil, récurrent
 exl-id: 8874377c-6594-4a5a-9197-ba5b28258c02
-source-git-commit: 135dd7528e87a6fde7e148745ef2f49104809bc1
+source-git-commit: 33f9c61035822765586e572918d11c305d2a22fa
 workflow-type: tm+mt
 source-wordcount: '701'
-ht-degree: 100%
+ht-degree: 83%
 
 ---
 
@@ -32,13 +32,13 @@ Dans tous les types de parcours, un profil ne peut pas être présent plusieurs 
 
 ## Parcours Événement unitaire et Qualification de l’audience{#entry-unitary}
 
-Dans les parcours **Événement unitaire** et **Qualification de l’audience**, vous pouvez activer ou désactiver la reprise :
+Dans les parcours **Événement unitaire** et **Qualification de l’audience**, vous pouvez activer ou désactiver la réentrée :
 
-* Si la reprise est activée, un profil peut rejoindre plusieurs fois un parcours, mais ne peut pas le faire tant qu’il n’a pas complètement quitté l’instance précédente du parcours.
+* Si la rentrée est activée, un profil peut entrer un parcours plusieurs fois, mais il ne peut pas le faire tant qu’il n’a pas complètement quitté l’instance précédente du parcours.
 
-* Si la reprise est désactivée, un profil ne peut pas rejoindre plusieurs fois le même parcours pendant le délai d’expiration global du parcours. Consultez cette [section](../building-journeys/journey-properties.md#global_timeout).
+* Si la réentrée est désactivée, un profil ne peut pas entrer plusieurs fois le même parcours, dans le délai d’expiration du parcours global. Consultez cette [section](../building-journeys/journey-properties.md#global_timeout).
 
-Par défaut, les parcours autorisent la reprise. Lorsque l’option **Autoriser une reprise** est activée, le champ **Période d’attente de reprise** s’affiche. Il vous permet de définir le temps d’attente avant qu’un profil puisse rejoindre à nouveau le parcours. Cela empêche les parcours d’être déclenchés plusieurs fois par erreur pour le même événement. Par défaut, le champ est défini sur 5 minutes. La durée maximale est de 91 jours ([temporisation globale](journey-properties.md#global_timeout)).
+Par défaut, les parcours autorisent la réentrée. Lorsque l’option **Autoriser la rentrée** est activée, le champ **Période d’attente de la rentrée** s’affiche. Il vous permet de définir le temps d’attente avant qu’un profil puisse rejoindre à nouveau le parcours. Cela empêche les parcours d’être déclenchés plusieurs fois par erreur pour le même événement. Par défaut, le champ est défini sur 5 minutes. La durée maximale est de 91 jours ([temporisation globale](journey-properties.md#global_timeout)).
 
 <!--
 When a journey ends, its status is **[!UICONTROL Closed]**. New individuals can no longer enter the journey. Persons already in the journey automatically exit the journey. 
@@ -46,15 +46,15 @@ When a journey ends, its status is **[!UICONTROL Closed]**. New individuals can 
 
 ![](assets/journey-re-entrance.png)
 
-Après la période de reprise, les profils peuvent rejoindre à nouveau le parcours. Pour éviter cela et désactiver complètement la possibilité de reprise pour ces profils, vous pouvez ajouter une condition de test pour savoir si le profil est déjà entré ou non, à l’aide des données de profil ou d’audience.
+Après la période de rentrée, les profils peuvent à nouveau entrer dans le parcours. Pour éviter cela et désactiver complètement la réentrée pour ces profils, vous pouvez ajouter une condition afin de tester si le profil a déjà été renseigné ou non, à l&#39;aide des données de profil ou d&#39;audience.
 
 <!--
-Due to the 30-day journey timeout, when journey re-entrance is not allowed, we cannot make sure the re-entrance blocking will work more than 91 days. Indeed, as we remove all information about persons who entered the journey 91 days after they enter, we cannot know the person entered previously, more than 91 days ago. -->
+Due to the 30-day journey timeout, when journey reentrance is not allowed, we cannot make sure the reentrance blocking will work more than 91 days. Indeed, as we remove all information about persons who entered the journey 91 days after they enter, we cannot know the person entered previously, more than 91 days ago. -->
 
 ## Parcours métier {#entry-business}
 
 <!--
-Business events follow re-entrance rules in the same way as for unitary events. If a journey allows re-entrance, the next business event will be processed.
+Business events follow reentrance rules in the same way as for unitary events. If a journey allows reentrance, the next business event will be processed.
 -->
 
 Dans les **parcours métier**, pour autoriser plusieurs exécutions d’événements métier, activez l’option correspondante dans la section **[!UICONTROL Exécution]** des propriétés du parcours.
@@ -83,7 +83,7 @@ Deux options sont disponibles pour les parcours Lecture d’audience récurrents
   >
   >Si vous ciblez une [audience de chargement personnalisé](../audience/about-audiences.md#segments-in-journey-optimizer) dans votre parcours, les profils ne sont récupérés que lors de la première périodicité si cette option est activée dans un parcours récurrent, car ces audiences sont fixes.
 
-* **Forcer une reprise sur la périodicité** : cette option vous permet de faire en sorte que tous les profils toujours présents dans le parcours le quittent automatiquement lors de l’exécution suivante. Si la durée de vie de vos profils dans ce parcours peut être supérieure à la fréquence de périodicité (par exemple, si vous utilisez des activités d’attente), n’activez pas cette option pour vous assurer que les profils puissent terminer leur parcours.
+* **Forcer une reprise sur une périodicité** : cette option vous permet de faire en sorte que tous les profils toujours présents dans le parcours le quittent automatiquement lors de l’exécution suivante. Si la durée de vie de vos profils dans ce parcours peut être supérieure à la fréquence de périodicité (par exemple, si vous utilisez des activités d’attente), n’activez pas cette option pour vous assurer que les profils puissent terminer leur parcours.
 
 ![](assets/read-audience-options.png)
 
