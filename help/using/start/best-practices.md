@@ -9,7 +9,7 @@ level: Intermediate
 hide: true
 hidefromtoc: true
 exl-id: 271fb85d-5621-4a12-b3d1-65cf6021b174
-source-git-commit: bd5b32049e9cfbbccaf6b12c98a8f4dfcc8d14ac
+source-git-commit: a8b49bf278b26a31b0da9532fb07f211f397119e
 workflow-type: tm+mt
 source-wordcount: '982'
 ht-degree: 95%
@@ -48,7 +48,12 @@ Cette section vous guide sur la mise à l’échelle avec les deux limites suiva
 
 * Journey Optimizer dispose d’un mécanisme de sécurisation de 50 activités dans la zone de travail du parcours. Ce mécanisme de sécurisation permet de faciliter la lisibilité, l’assurance qualité et la résolution des problèmes. Le nombre d’activités d’un parcours apparaît dans la section supérieure gauche de sa zone de travail lorsque vous approchez de la limite (10 activités).
 
-* Lorsque vous publiez des parcours, Journey Optimizer les met automatiquement à l’échelle et les ajuste pour garantir une stabilité et un débit maximaux. Lorsque vous approchez du jalon de 500 parcours actifs à la fois dans une sandbox, un recouvrement orange et un signe d’avertissement s’affichent dans l’interface pour cette réalisation. Si cette notification s’affiche et que vous devez étendre vos parcours au-delà de 500 parcours actifs à la fois, créez un ticket pour l’assistance clientèle. Nous vous aiderons à atteindre vos objectifs.
+* Lorsque vous publiez des parcours, Journey Optimizer les met automatiquement à l’échelle et les ajuste pour garantir une stabilité et un débit maximaux. Lorsque vous approchez du jalon de 100 parcours actifs à la fois dans une sandbox, un recouvrement orange et un signe d’avertissement s’affichent dans l’interface pour cette réalisation. Si cette notification s’affiche et que vous devez étendre vos parcours au-delà de 100 parcours actifs à la fois, créez un ticket pour l’assistance clientèle. Nous vous aiderons à atteindre vos objectifs.
+
+<!--DOCAC-10977
+
+* As you publish journeys, Journey Optimizer automatically scales and adjusts to ensure maximum throughput and stability. As you near the milestone of 500 live journeys at one time in a sandbox, you will see an orange overlay and warning sign appear in the interface on this achievement. If you see this notification and have a need to extend your journeys beyond 500 live journeys at a time, please create a ticket for customer care and we will help you reach your goals.-->
+
 
 Il existe un certain nombre de bonnes pratiques que vous pouvez adopter, qui vous aideront à respecter les mécanismes de sécurisation et à utiliser le système efficacement.
 
