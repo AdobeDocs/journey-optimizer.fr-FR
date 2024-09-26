@@ -6,7 +6,7 @@ feature: Release Notes
 topic: Content Management
 description: Notes de mise à jour d’Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 53b33a97a8361d1d9579ccd2111e02a263a0aa37
+source-git-commit: b89bb9791d8b8e34a598b1044c495a439f6107b4
 workflow-type: tm+mt
 source-wordcount: '1571'
 ht-degree: 68%
@@ -104,7 +104,6 @@ Cette version apporte les nouvelles fonctionnalités détaillées ci-dessous.
 <td>
 <p>Vous définissez maintenant des critères de sortie au niveau du parcours. En ajoutant des critères de sortie, vous faites quitter le parcours aux profils dès qu’un événement se produit (un achat, par exemple) ou qu’ils répondent aux critères d’une audience. Cela empêchera l’utilisateur d’obtenir d’autres communications du parcours.</p>
 <p>Pour plus d’informations, consultez la <a href="../building-journeys/journey-properties.md">documentation détaillée</a>.</p>
-<img src="assets/do-not-localize/ai-content.gif" /-->
 </td>
 </tr>
 </tbody>
