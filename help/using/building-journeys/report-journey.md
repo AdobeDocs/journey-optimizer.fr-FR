@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Intermediate
 keywords: publication, parcours, dynamique, validité, vérifier
-source-git-commit: 0cdf61bc97baaa8df08822d62a5b9f658c44c117
+source-git-commit: 59a597a563074fa4daa74c64e97f6bb5c0f6834d
 workflow-type: tm+mt
 source-wordcount: '317'
 ht-degree: 3%
@@ -35,7 +35,7 @@ Pour votre parcours de vie, vous avez accès aux éléments suivants :
 * **[!UICONTROL Profils ignorés]** : nombre total d’individus qui ont été ignorés du parcours pour l’une des raisons suivantes :
 
    * Pour les activités **Qualification de l’audience**, un abandon peut se produire si le verbe attendu pour la qualification de l’audience ne correspond pas au parcours reçu (par exemple &quot;sortant&quot; au lieu de &quot;réalisé&quot;).
-   * Pour les parcours **déclenchés par un événement**, un abandon peut se produire si l’individu a tenté de réentrer trop tôt le parcours ou lorsque la rentrée n’a pas été autorisée.
+   * Pour les parcours **déclenchés par un événement**, un abandon peut se produire si l’individu a tenté de revenir trop tôt au parcours ou lorsque le retour n’a pas été autorisé.
    * Sur les **parcours récurrents**, une remise est comptabilisée à chaque périodicité si l’individu figure déjà dans le parcours et que la stratégie de retour n’est pas définie sur &quot;forcer la réentrée&quot;.
    * Sur les activités **Lecture d’audience**, une exception se produit si aucune identité n’est définie pour la personne exportée ou si l’espace de noms d’identité reçu ne correspond pas à celui attendu pour le parcours.
 
