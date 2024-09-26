@@ -11,11 +11,11 @@ exl-id: 6e291ce3-f324-4e5d-975b-5229dea4d581
 source-git-commit: 9de2f498e104d316491e6061cbd851b2eb506036
 workflow-type: tm+mt
 source-wordcount: '884'
-ht-degree: 93%
+ht-degree: 94%
 
 ---
 
-# Prise en main de l’accélérateur de contenu de l’assistant d’IA {#gs-content-assistant}
+# Commencer avec l’accélérateur de contenu de l’Assistant IA {#gs-content-assistant}
 
 >[!CONTEXTUALHELP]
 >id="ajo_ai_generation_settings"

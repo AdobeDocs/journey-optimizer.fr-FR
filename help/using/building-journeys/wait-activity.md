@@ -12,7 +12,7 @@ exl-id: 7268489a-38c1-44da-b043-f57aaa12d7d5
 source-git-commit: f81fde0076fc8689c689fae7a0ee8c7aa9fdbeed
 workflow-type: tm+mt
 source-wordcount: '598'
-ht-degree: 84%
+ht-degree: 90%
 
 ---
 
@@ -108,12 +108,12 @@ This type of wait uses a score calculated in Adobe Experience Platform. The scor
 
 ![](assets/journey57bis.png)-->
 
-## Noeud d’attente automatique  {#auto-wait-node}
+## Nœud d’attente automatique  {#auto-wait-node}
 
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_auto_wait_node "
->title="À propos du noeud d’attente automatique"
->abstract="Une activité **Attente** est automatiquement ajoutée après cette activité. Il est fixé à 3 jours. Vous pouvez la supprimer ou la configurer selon vos besoins."
+>title="À propos du nœud d’attente automatique"
+>abstract="Une activité d’**attente** est automatiquement ajoutée après cette activité. Elle est fixée à 3 jours. Vous pouvez la supprimer ou la configurer selon vos besoins."
 
 Chaque activité de message entrant (message in-app, expérience basée sur le code ou carte) est fournie avec une activité **Attente** de 3 jours. Comme les messages entrants se terminent automatiquement lorsqu’un profil atteint la fin du parcours, nous supposons que vous souhaitez que vos utilisateurs le voient pendant au moins 3 jours. Vous pouvez supprimer cette activité **Attente** ou modifier sa configuration si nécessaire.
