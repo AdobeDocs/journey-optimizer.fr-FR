@@ -8,7 +8,7 @@ role: User
 level: Intermediate
 keywords: réentrée, parcours, profil, récurrent
 exl-id: 8874377c-6594-4a5a-9197-ba5b28258c02
-source-git-commit: 33f9c61035822765586e572918d11c305d2a22fa
+source-git-commit: e5c1ae1b3ec50dd28736412cde738f3152325c79
 workflow-type: tm+mt
 source-wordcount: '701'
 ht-degree: 83%
@@ -38,7 +38,7 @@ Dans les parcours **Événement unitaire** et **Qualification de l’audience**,
 
 * Si la réentrée est désactivée, un profil ne peut pas entrer plusieurs fois le même parcours, dans le délai d’expiration du parcours global. Consultez cette [section](../building-journeys/journey-properties.md#global_timeout).
 
-Par défaut, les parcours autorisent la réentrée. Lorsque l’option **Autoriser la rentrée** est activée, le champ **Période d’attente de la rentrée** s’affiche. Il vous permet de définir le temps d’attente avant qu’un profil puisse rejoindre à nouveau le parcours. Cela empêche les parcours d’être déclenchés plusieurs fois par erreur pour le même événement. Par défaut, le champ est défini sur 5 minutes. La durée maximale est de 91 jours ([temporisation globale](journey-properties.md#global_timeout)).
+Par défaut, les parcours autorisent la réentrée. Lorsque l’option **Autoriser la rentrée** est activée, le champ **Période d’attente de rentrée** s’affiche. Il vous permet de définir le temps d’attente avant qu’un profil puisse rejoindre à nouveau le parcours. Cela empêche les parcours d’être déclenchés plusieurs fois par erreur pour le même événement. Par défaut, le champ est défini sur 5 minutes. La durée maximale est de 91 jours ([temporisation globale](journey-properties.md#global_timeout)).
 
 <!--
 When a journey ends, its status is **[!UICONTROL Closed]**. New individuals can no longer enter the journey. Persons already in the journey automatically exit the journey. 
