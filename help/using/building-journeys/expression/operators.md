@@ -8,10 +8,10 @@ role: Data Engineer, Architect
 level: Experienced
 keywords: expression, syntaxe, opérateurs, éditeur, parcours
 exl-id: 706e2e02-9bd9-46e7-a73d-dda3c9ae4ba8
-source-git-commit: 4e7c4e7e6fcf488f572ccf3e9037e597dde06510
+source-git-commit: 20dfd2a0c5e660601e6a0acea661eadfd42423d7
 workflow-type: tm+mt
-source-wordcount: '531'
-ht-degree: 100%
+source-wordcount: '551'
+ht-degree: 97%
 
 ---
 
@@ -41,6 +41,10 @@ not (@event{LobbyBeacon.endUserIDs._experience.emailid.id}=="example@adobe.com")
 * Lors de l’utilisation d’une multiplication (`*`), les deux champs d’opération doivent avoir le même type, entier ou décimal. Exemple :
    * L’exemple suivant est correct :`3.0 * 4.0`
    * `3 * 4.0` entraîne une erreur
+
+* Lors de l’utilisation de l’opérateur `+`, l’expression doit être encapsulée entre parenthèses. Exemple :
+   * `toDateTimeOnly(toDateTime((currentTimeInMillis()) + 1))` est correct
+   * `toDateTimeOnly(toDateTime(currentTimeInMillis() + 1))` entraîne une erreur
 
 ## Logique  {#logical}
 
@@ -172,7 +176,7 @@ Exemple :
 
 >[!NOTE]
 >
->Pour &lt;expression1> et &lt;expression2> il n’existe aucun contrôle de type de données.
+Pour &lt;expression1> et &lt;expression2> il n’existe aucun contrôle de type de données.
 
 Le résultat est booléen.
 
