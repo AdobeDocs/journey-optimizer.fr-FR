@@ -8,7 +8,7 @@ role: User
 level: Intermediate
 keywords: réentrée, parcours, profil, récurrent
 exl-id: 8874377c-6594-4a5a-9197-ba5b28258c02
-source-git-commit: e5c1ae1b3ec50dd28736412cde738f3152325c79
+source-git-commit: 7f21098d5ae157f1c0d3de3aa584564c6f73310a
 workflow-type: tm+mt
 source-wordcount: '701'
 ht-degree: 83%
@@ -46,7 +46,7 @@ When a journey ends, its status is **[!UICONTROL Closed]**. New individuals can 
 
 ![](assets/journey-re-entrance.png)
 
-Après la période de rentrée, les profils peuvent à nouveau entrer dans le parcours. Pour éviter cela et désactiver complètement la réentrée pour ces profils, vous pouvez ajouter une condition afin de tester si le profil a déjà été renseigné ou non, à l&#39;aide des données de profil ou d&#39;audience.
+Après la période de rentrée, les profils peuvent revenir au parcours. Pour éviter cela et désactiver complètement la réentrée pour ces profils, vous pouvez ajouter une condition afin de tester si le profil a déjà été renseigné ou non, à l&#39;aide des données de profil ou d&#39;audience.
 
 <!--
 Due to the 30-day journey timeout, when journey reentrance is not allowed, we cannot make sure the reentrance blocking will work more than 91 days. Indeed, as we remove all information about persons who entered the journey 91 days after they enter, we cannot know the person entered previously, more than 91 days ago. -->
@@ -73,7 +73,7 @@ Les parcours **Lecture d’audience** peuvent être récurrents ou ponctuels :
 
 * Pour les parcours non récurrents/ponctuels : le profil rejoint une seule fois le parcours.
 
-* Pour les parcours récurrents : par défaut, tous les profils appartenant à l’audience rejoignent le parcours à chaque périodicité. Ils doivent terminer le parcours avant de pouvoir rejoindre à nouveau une autre occurrence.
+* Pour les parcours récurrents : par défaut, tous les profils appartenant à l’audience rejoignent le parcours à chaque périodicité. Elles doivent terminer le parcours avant de pouvoir rejoindre à nouveau une autre occurrence.
 
 Deux options sont disponibles pour les parcours Lecture d’audience récurrents :
 

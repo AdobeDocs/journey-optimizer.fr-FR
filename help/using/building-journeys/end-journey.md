@@ -6,12 +6,12 @@ description: Découvrez comment un parcours se termine dans Journey Optimizer.
 feature: Journeys
 role: User
 level: Intermediate
-keywords: reprise, parcours, fin, dynamique, arrêt
+keywords: rentrée, parcours, fin, live, stop
 exl-id: ea1ecbb0-12b5-44e8-8e11-6d3b8bff06aa
-source-git-commit: 18296fe54dcef6620d4f74374848199368f01475
+source-git-commit: 7f21098d5ae157f1c0d3de3aa584564c6f73310a
 workflow-type: tm+mt
 source-wordcount: '662'
-ht-degree: 98%
+ht-degree: 97%
 
 ---
 
@@ -22,7 +22,7 @@ Un parcours peut se terminer pour un individu dans deux contextes spécifiques 
 * Le client arrive à la dernière activité d&#39;un chemin.
 * Le client arrive à une activité **Condition** (ou à une activité **Attente** avec une condition) et ne répond à aucune des conditions.
 
-La personne peut alors entrer de nouveau dans le parcours si la rentrée est autorisée. Voir [cette page](../building-journeys/journey-properties.md#entrance)
+La personne peut alors réentrer dans le parcours si la rentrée est autorisée. Voir [cette page](../building-journeys/journey-properties.md#entrance)
 
 Pour terminer un parcours actif, nous vous recommandons de le fermer. L’arrivée de nouveaux clients dans le parcours sera alors bloquée. Les clients qui ont déjà rejoint le parcours peuvent l’expérimenter jusqu’à la fin. Consultez [cette section](../building-journeys/journey.md#close-journey)
 

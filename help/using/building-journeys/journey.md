@@ -8,10 +8,10 @@ role: User
 level: Beginner, Intermediate
 keywords: parcours, découverte, commencer
 exl-id: 73cfd48b-72e6-4b72-bbdf-700a32a34bda
-source-git-commit: 18296fe54dcef6620d4f74374848199368f01475
+source-git-commit: 7f21098d5ae157f1c0d3de3aa584564c6f73310a
 workflow-type: tm+mt
 source-wordcount: '610'
-ht-degree: 96%
+ht-degree: 93%
 
 ---
 
@@ -96,7 +96,7 @@ Si vous devez apporter des modifications à un parcours actif, vous devez en cr�
 
 1. Apportez vos modifications, cliquez sur **[!UICONTROL Publier]** et confirmez.
 
-Dès la publication du parcours, les personnes vont accéder à la dernière version du parcours. Les clients qui ont déjà accédé à une version antérieure y restent jusqu&#39;à la fin du parcours. Si celles-ci entrent à nouveau dans le même parcours par la suite, elles accéderont à la dernière version.
+Dès la publication du parcours, les personnes vont accéder à la dernière version du parcours. Les clients qui ont déjà accédé à une version antérieure y restent jusqu&#39;à la fin du parcours. S’ils entrent à nouveau plus tard dans le même parcours, ils accéderont à la dernière version.
 
 Les versions de parcours peuvent être arrêtées individuellement. Toutes les versions de parcours portent le même nom.
 
