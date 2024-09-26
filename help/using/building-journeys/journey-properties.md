@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: parcours, configuration, propriétés
 exl-id: 6c21371c-6cbc-4d39-8fe6-39f1b8b13280
-source-git-commit: 7f21098d5ae157f1c0d3de3aa584564c6f73310a
+source-git-commit: a0c7dad29aabe6c377468a64b9638d7363f0b6f6
 workflow-type: tm+mt
 source-wordcount: '1983'
 ht-degree: 78%
@@ -66,7 +66,7 @@ Par défaut, les nouveaux parcours autorisent la réentrée. Vous pouvez décoch
 ### Période d’attente de rentrée  {#reentrance-wait}
 
 >[!CONTEXTUALHELP]
->id="ajo_journey_properties_reentrance_wait"
+>id="ajo_journey_properties_re-entrance_wait"
 >title="Période d’attente de rentrée"
 >abstract="Définissez le temps d’attente avant de permettre à un profil de reprendre le parcours dans les parcours unitaires. Cela empêche les utilisateurs de revenir sur le parcours pendant une durée donnée. Durée maximale : 90 jours."
 >additional-url="https://experienceleague.adobe.com/fr/docs/journey-optimizer/using/orchestrate-journeys/manage-journey/entry-management" text="Gestion des entrées de profil"
