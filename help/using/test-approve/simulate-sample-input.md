@@ -2,7 +2,7 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Tester votre contenu à l’aide d’exemples de données d’entrée
-description: Découvrez comment prévisualiser le contenu d’un email et envoyer des bons à tirer à l’aide d’un exemple de saisie.
+description: Découvrez comment prévisualiser le contenu d’un email et envoyer des bons à tirer à l’aide d’exemples de données d’entrée.
 feature: Overview, Get Started
 topic: Content Management
 role: User
@@ -10,9 +10,9 @@ level: Intermediate
 badge: label="Version bêta"
 hide: true
 hidefromtoc: true
-source-git-commit: 13221645a22524deadc5576624bf6c31633c55c5
+source-git-commit: 100c9ca994199a3b90650ebfbabbf0b7ac8726c2
 workflow-type: tm+mt
-source-wordcount: '771'
+source-wordcount: '769'
 ht-degree: 1%
 
 ---
@@ -44,15 +44,12 @@ Les principales étapes pour tester votre contenu sont les suivantes :
 
 ## Mécanismes de sécurisation et limitations {#limitations}
 
-Avant de commencer à tester votre contenu à l’aide d’exemples de données d’entrée, tenez compte des barrières de sécurité et des conditions préalables suivantes.
+Avant de commencer à tester votre contenu à l’aide des exemples de données d’entrée, tenez compte des barrières de sécurité et des conditions préalables suivantes.
 
 * Pour l’instant, le test à l’aide de données d’entrée d’exemple n’est disponible que pour le canal email. L’expérience est inaccessible à partir du bouton &quot;Simuler le contenu&quot; dans le Designer email.
 * Les fonctionnalités suivantes ne sont pas disponibles dans l&#39;expérience actuelle : Inbox rendering, rapports sur les spams, contenu multilingue et expérience de contenu. Pour utiliser ces fonctionnalités, cliquez sur le bouton **[!UICONTROL Simuler le contenu]** de votre contenu pour accéder à l’interface utilisateur précédente.
 * Seuls les attributs de profil sont actuellement pris en charge. Si des attributs contextuels sont utilisés dans votre contenu à des fins de personnalisation, vous ne pourrez pas tester votre contenu à l’aide de ces attributs.
 * Seuls les types de données suivants sont pris en charge lors de la saisie de données pour vos variantes : nombre (entier et décimal), chaîne, valeur booléenne et type de date. Tout autre type de données affiche une erreur.
-
-
-pas de l’acrite
 
 ## Ajouter des variantes {#profiles}
 
