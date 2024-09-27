@@ -11,10 +11,10 @@ keywords: politiques, gouvernance, platform, healthcare shield, consentement
 hide: true
 hidefromtoc: true
 badgePrivateBeta: label="Private Beta" type="Informative"
-source-git-commit: aeafadeac819d25518de879747866a71d032b4b0
+source-git-commit: b783832bc43e6a12d97b210e7d4441381eac63a2
 workflow-type: tm+mt
-source-wordcount: '1349'
-ht-degree: 79%
+source-wordcount: '1260'
+ht-degree: 77%
 
 ---
 
@@ -128,21 +128,6 @@ Pour certains types de communications importantes, par exemple un message transa
 Les autres étapes de configuration d’une action personnalisée sont présentées dans [cette section](../action/about-custom-action-configuration.md#consent-management).
 
 ### Utilisation des stratégies de consentement lors de l’ajout d’une action personnalisée dans un parcours {#consent-journey}
-
->[!CONTEXTUALHELP]
->id="ajo_consent_required_marketing_action_canvas"
->title="Action marketing requise"
->abstract="Une action marketing requise est définie lors de la création d’une action personnalisée. Cette action marketing requise ne peut pas être supprimée de l’action ou modifiée."
-
->[!CONTEXTUALHELP]
->id="ajo_consent_additional_marketing_action_canvas"
->title="Action marketing supplémentaire"
->abstract="Ajoutez une autre action marketing en plus de celle requise. Les règles de consentement liées aux deux actions marketing seront appliquées."
-
->[!CONTEXTUALHELP]
->id="ajo_consent_refresh_policies_canvas"
->title="Visualiser les politiques de consentement qui s’appliqueront au moment de l’exécution"
->abstract="Les actions marketing apportent des politiques de consentement qui combinent des paramètres d’action et des valeurs de consentement de profil individuel pour filtrer les utilisateurs. Obtenez la dernière définition de ces politiques en cliquant sur le bouton pour l’actualiser."
 
 Lors de l’ajout de l’action personnalisée dans un parcours, plusieurs options vous permettent de gérer le consentement. Cliquez sur le bouton **Afficher les champs en lecture seule** pour afficher tous les paramètres.
 
