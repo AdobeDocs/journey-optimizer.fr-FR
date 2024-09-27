@@ -6,9 +6,9 @@ topic: Content Management
 role: Admin
 level: Experienced
 exl-id: ac901f88-5fde-4220-88c6-fe05433866cc
-source-git-commit: 59ecb9a5376e697061ddac4cc68f09dee68570c0
+source-git-commit: 6adad3dfc9a0ec23c26be2027b0e1b3e2b757f6a
 workflow-type: tm+mt
-source-wordcount: '610'
+source-wordcount: '587'
 ht-degree: 100%
 
 ---
@@ -23,9 +23,7 @@ Pour pouvoir utiliser des actions d’expérience basée sur le code dans [!DNL 
 
 >[!CAUTION]
 >
->* Le canal Expérience basée sur le code n’est pas disponible pour les organisations qui ont acheté les offres complémentaires **Healthcare Shield** et **Privacy and Security Shield** d’Adobe.
->
->* Vous ne pouvez créer des expériences basées sur le code que dans des **campagnes**. [En savoir plus](../campaigns/create-campaign.md#configure).
+>Vous ne pouvez créer des expériences basées sur le code que dans des **campagnes**. [En savoir plus](../campaigns/create-campaign.md#configure).
 
 ## Conditions préalables à l’implémentation {#implementation-prerequisites}
 

@@ -7,9 +7,9 @@ role: User
 level: Beginner
 keywords: in-app, message, création, commencer
 exl-id: 51562843-7b50-4eb5-bf79-5ce03f7549cb
-source-git-commit: f759c88ed46d8c13e2844c48a71a2634d9507fd8
+source-git-commit: 6adad3dfc9a0ec23c26be2027b0e1b3e2b757f6a
 workflow-type: tm+mt
-source-wordcount: '147'
+source-wordcount: '125'
 ht-degree: 100%
 
 ---
@@ -19,11 +19,6 @@ ht-degree: 100%
 Les messages in-app sont des notifications qui peuvent être envoyées aux utilisateurs et utilisatrices dans votre application, les guidant vers des points ciblés spécifiques. Ces notifications peuvent être utilisées à différentes fins, par exemple pour promouvoir de nouvelles fonctionnalités, présenter des offres spéciales ou faciliter l’intégration des utilisateurs et utilisatrices. En utilisant les messages in-app, vous pouvez interagir efficacement avec votre audience et l’orienter vers des aspects importants de votre application.
 
 Utilisez Journey Optimizer pour créer des notifications in-app et configurer des options d’expérience, notamment la disposition et l’affichage du message, le texte et les options de bouton.
-
->[!AVAILABILITY]
->
->Le canal in-app n’est pas disponible pour les organisations qui ont acheté les offres complémentaires **Healthcare Shield** et **Privacy and Security Shield** d’Adobe.
-
 
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td>
