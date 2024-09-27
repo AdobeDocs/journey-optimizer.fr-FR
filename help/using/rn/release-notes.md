@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Notes de mise à jour d’Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 12c3c1e2d6dabdc5c9b741742fd36c35c8b0992c
+source-git-commit: 5e0d683bf52df4992773c6147b9e418241777e5d
 workflow-type: tm+mt
-source-wordcount: '1073'
-ht-degree: 53%
+source-wordcount: '1103'
+ht-degree: 52%
 
 ---
 
@@ -243,3 +243,7 @@ Cette version est fournie avec les améliorations répertoriées ci-dessous.
   >[!CAUTION]
   >
   >Notez qu’en utilisant la fonctionnalité d’API interactive sur les pages de documentation, vous effectuez de vrais appels API vers les points d’entrée. Gardez cela à l’esprit lorsque vous effectuez des tests dans des sandbox de production.
+
+**Configuration**
+
+* Formules de chauffage par IP : cette fonctionnalité est désormais disponible pour tous les clients, y compris les organisations qui ont acheté l&#39;Adobe complémentaire **Bouclier de santé** ou **Bouclier de protection et de confidentialité**. [En savoir plus](../configuration/ip-warmup-gs.md)
