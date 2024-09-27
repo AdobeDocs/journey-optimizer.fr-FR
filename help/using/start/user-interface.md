@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
-source-git-commit: c609694693f11c77bc61ab31f0e7851262aadcce
+source-git-commit: aeafadeac819d25518de879747866a71d032b4b0
 workflow-type: tm+mt
-source-wordcount: '1558'
-ht-degree: 90%
+source-wordcount: '1504'
+ht-degree: 93%
 
 ---
 
@@ -273,13 +273,6 @@ Pour modifier la langue :
 >id="ajo_email_locking_read_only"
 >title="Lecture seule"
 >abstract="Ce contenu est en lecture seule et ne peut pas être modifié."
-
-<!--GOVERNANCE POLICIES-->
-
->[!CONTEXTUALHELP]
->id="ajo_data_governance_policy_violation"
->title="Violations de la politique de gouvernance des données"
->abstract="Si le système identifie un champ restreint dans un parcours/une campagne ou une action personnalisée, une erreur s&#39;affiche vous empêchant de le publier. Utilisez le diagramme de lignage des données de cette boîte de dialogue pour comprendre les autres modifications de configuration qui doivent être apportées avant de pouvoir activer votre parcours ou campagne."
 
 <!--APPROVAL POLICIES-->
 
