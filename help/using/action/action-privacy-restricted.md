@@ -11,7 +11,7 @@ keywords: données, gouvernance, DULE, libellés, étiqueter, platform, politiqu
 hide: true
 hidefromtoc: true
 badgePrivateBeta: label="Private Beta" type="Informative"
-source-git-commit: aeafadeac819d25518de879747866a71d032b4b0
+source-git-commit: 7384bcbba3e9793018628a66bb683c381d00e87a
 workflow-type: tm+mt
 source-wordcount: '1311'
 ht-degree: 30%
@@ -90,7 +90,7 @@ Avant d’activer le parcours ou la campagne, le système vérifie si l’action
 
 Si le système identifie un champ restreint, une erreur s&#39;affiche vous empêchant de publier le parcours ou la campagne. [Découvrez comment détecter une violation de stratégie de gouvernance](#violation)
 
-![](../privacy/assets/governance-policy-schema.png){zoomable="yes"}
+![](assets/governance-policy-schema.png){zoomable="yes"}
 
 *Étapes d’analyse des violations de stratégie pour les parcours et les campagnes*
 
@@ -126,7 +126,7 @@ Prenons l’exemple du champ de type sanguin que vous devez restreindre à l’e
 
 Si l’un des champs étiquetés _ePHI1_ (le champ de type sang dans notre exemple) est détecté dans les paramètres de l’action, une erreur s’affiche, vous empêchant de publier le parcours. [Découvrez comment détecter une violation de stratégie de gouvernance](#violation)
 
-![](../privacy/assets/governance-policy-custom-action-schema.png){zoomable="yes"}
+![](assets/governance-policy-custom-action-schema.png){zoomable="yes"}
 
 *Étapes d’analyse des violations de stratégie pour les actions personnalisées parcours*
 
