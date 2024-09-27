@@ -5,10 +5,10 @@ description: Découvrez comment utiliser Adobe Journey Optimizer.
 solution: Journey Optimizer
 product: journey optimizer
 exl-id: 3a1b6c61-82df-421c-98d8-2af4f2a5e0de
-source-git-commit: 12c3c1e2d6dabdc5c9b741742fd36c35c8b0992c
+source-git-commit: 9688a0303726d706106ba7c89157529e02ecbfca
 workflow-type: tm+mt
-source-wordcount: '392'
-ht-degree: 83%
+source-wordcount: '390'
+ht-degree: 84%
 
 ---
 
@@ -22,7 +22,7 @@ Découvrez les améliorations les plus récentes apportées au produit et à la 
 
 >[!TAB Version de septembre]
 
-La version de septembre est désormais en ligne, y compris les cartes de contenu pour les applications mobiles et les sites web, les politiques d’approbation dans les parcours et les campagnes (LA), les critères de sortie globale dans les parcours, etc./
+La version de septembre est désormais en ligne, notamment les cartes de contenu pour les applications mobiles et les sites web, les politiques d’approbation dans les parcours et les campagnes (LA), les critères de sortie globale dans les parcours, etc.
 
 [![En savoir plus](using/assets/do-not-localize/learn-more-button.svg)](using/rn/release-notes.md)
 
@@ -32,7 +32,7 @@ La version de septembre est désormais en ligne, y compris les cartes de contenu
 
 [![En savoir plus](using/assets/do-not-localize/try-it-button.svg)](https://experienceleague.adobe.com/fr/apps/journey-optimizer/ai-assistant-content-accelerator){target="_blank"}
 
->[!TAB Reporting avec Customer Journey Analytics]
+>[!TAB Création de rapports avec CJA]
 
 La création de rapports Journey Optimizer est fournie avec une interopérabilité améliorée avec les fonctionnalités de Customer Journey Analytics, ce qui permet de normaliser la création de rapports sur les deux plateformes et d’améliorer la cohérence et la fiabilité des données.
 
