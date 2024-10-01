@@ -116,7 +116,7 @@ Cette version apporte les nouvelles fonctionnalités détaillées ci-dessous.
 <table>
 <thead>
 <tr>
-<th><strong>Accélérateur de contenu de l'assistant IA </strong><br/></th>
+<th><strong>Accélérateur de contenu de l’Assistant IA </strong><br/></th>
 </tr>
 </thead>
 <tbody>

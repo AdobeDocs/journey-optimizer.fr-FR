@@ -10,7 +10,7 @@ level: Intermediate
 keywords: activité, condition, zone de travail, parcours
 exl-id: 496c7666-a133-4aeb-be8e-c37b3b9bf5f9
 source-git-commit: 428e08ca712724cb0b3453681bee1c7e86ce49dc
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1493'
 ht-degree: 100%
 
