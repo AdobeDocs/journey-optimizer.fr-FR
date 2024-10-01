@@ -7,9 +7,9 @@ level: Beginner
 badge: label="Version bêta"
 hide: true
 hidefromtoc: true
-source-git-commit: c609694693f11c77bc61ab31f0e7851262aadcce
+source-git-commit: 0322a13304875c4ba9ae8a9e7710fa2e71e459b3
 workflow-type: tm+mt
-source-wordcount: '950'
+source-wordcount: '970'
 ht-degree: 27%
 
 ---
@@ -53,7 +53,7 @@ Journey Optimizer vous permet de vérifier chaque fois qu’il existe un risque 
 
    >[!NOTE]
    >
-   >Le bouton **[!UICONTROL Afficher les conflits potentiels]** devient disponible pour sélection dès que vous avez attribué l’un des paramètres suivants : **[!UICONTROL Date de début/fin]**, **[!UICONTROL Audience]**, **[!UICONTROL Canal]**, **[!UICONTROL Configuration de canal]** et **[!UICONTROL Ensemble de règles]**.
+   >Le bouton **[!UICONTROL Afficher les conflits potentiels]** devient disponible pour sélection dès que vous avez attribué l’un des paramètres suivants : **[!UICONTROL Date de début/fin]**, **[!UICONTROL Audience]**, **[!UICONTROL Canal]**, **[!UICONTROL Configuration de canal]** et **[!UICONTROL Ensemble de règles]**. Assurez-vous de sélectionner **[!UICONTROL Enregistrer]** après avoir affecté ces paramètres, car le bouton ne sera pas sélectionnable tant que les modifications ne seront pas enregistrées.
 
 1. La fenêtre **[!UICONTROL Conflits potentiels]** s’ouvre, ce qui vous permet de visualiser tous les éléments qui chevauchent le parcours/la campagne actuel.
 
@@ -91,7 +91,7 @@ Journey Optimizer vous permet d’attribuer un score de priorité à un parcours
 
 >[!NOTE]
 >
->Le score de priorité est disponible pour les canaux entrants : web, in-app et code-based. En parcours, le score de priorité est disponible uniquement pour le canal **in-app**.
+>Le score de priorité est disponible pour les canaux entrants : web, in-app et code-based. En parcours, le score de priorité est disponible uniquement pour les canaux **in-app** et **basés sur du code**.
 
 L’attribution d’un score de priorité est essentielle pour la communication entrante, par exemple web, mobile et in-app. Si plusieurs campagnes utilisent la même configuration de canal (une bannière dans la partie supérieure de votre page web, par exemple), cela peut s’avérer problématique, car seul le contenu d’une campagne peut être affiché. Le score de priorité est l&#39;emplacement où vous insérerez vos préférences pour la campagne qui doit s&#39;afficher lorsque le destinataire peut être admissible pour plusieurs campagnes.
 
@@ -99,4 +99,4 @@ Pour attribuer un score de priorité à un parcours ou à une campagne, saisisse
 
 ![](assets/priority-score.png)
 
-Dans les cas où deux campagnes ont le même score de priorité, la dernière campagne activée s’affiche.
+Dans les cas où deux campagnes ont le même score de priorité, la campagne la moins récemment activée s’affiche.
