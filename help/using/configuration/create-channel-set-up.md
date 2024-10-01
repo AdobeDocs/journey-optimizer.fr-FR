@@ -36,7 +36,7 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="ajo_mobile_web_push_certificate_fcm"
 >title="Fournir un certificat push"
->abstract="Glissez-déposez votre fichier de clé privée .json. Ce fichier contient les informations d’authentification requises pour l’intégration et la communication sécurisées entre votre application et le serveur."
+>abstract="Effectuez le glisser-déposer de votre fichier de clé privée .json. Ce fichier contient les informations d’authentification requises pour l’intégration et la communication sécurisées entre votre application et le serveur."
 
 >[!CONTEXTUALHELP]
 >id="ajo_mobile_web_setup_push_certificate"
