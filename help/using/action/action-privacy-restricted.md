@@ -14,7 +14,7 @@ badgePrivateBeta: label="Private Beta" type="Informative"
 source-git-commit: b8a71c43ad5b456bfc9ec9b9d3fba06049e604ed
 workflow-type: tm+mt
 source-wordcount: '1311'
-ht-degree: 30%
+ht-degree: 34%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 30%
 >[!CONTEXTUALHELP]
 >id="ajo_data_governance_policy_violation"
 >title="Violations de la politique de gouvernance des données"
->abstract="Si le système identifie un champ restreint dans un parcours/une campagne ou une action personnalisée, une erreur s&#39;affiche vous empêchant de le publier. Utilisez le diagramme de lignage des données de cette boîte de dialogue pour comprendre les autres modifications de configuration qui doivent être apportées avant de pouvoir activer votre parcours ou campagne."
+>abstract="Si le système identifie un champ restreint dans un parcours, une campagne, ou une action personnalisée, une erreur s’affiche vous empêchant sa publication. Utilisez le diagramme de lignage des données de cette boîte de dialogue pour comprendre les autres modifications de configuration qui doivent être apportées avant de pouvoir activer votre parcours ou campagne."
 
 >[!AVAILABILITY]
 >

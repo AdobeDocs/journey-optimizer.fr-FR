@@ -13,7 +13,7 @@ hidefromtoc: true
 source-git-commit: 100c9ca994199a3b90650ebfbabbf0b7ac8726c2
 workflow-type: tm+mt
 source-wordcount: '769'
-ht-degree: 1%
+ht-degree: 8%
 
 ---
 
@@ -22,8 +22,8 @@ ht-degree: 1%
 
 >[!CONTEXTUALHELP]
 >id="ajo_simulate_sample_profiles"
->title="Simulation à l’aide d’un exemple de saisie"
->abstract="Dans cet écran, vous pouvez tester différentes variantes du contenu de votre email en fournissant des valeurs pour les champs de personnalisation via un modèle CSV (télécharger un fichier CSV) ou en saisissant manuellement les valeurs."
+>title="Simuler à l’aide d’un exemple d’entrée"
+>abstract="Dans cet écran, vous pouvez tester différentes variantes du contenu de votre e-mail en fournissant des valeurs pour les champs de personnalisation via un modèle CSV (télécharger un fichier CSV) ou en saisissant manuellement les valeurs."
 
 >[!AVAILABILITY]
 >
