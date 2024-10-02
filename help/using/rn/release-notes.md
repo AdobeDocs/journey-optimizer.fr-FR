@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Notes de mise à jour d’Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 86625e5c88a5f4667782964e4dc9d7a77a50af31
+source-git-commit: 4d6890c8e0e8673ca5d793b9bf9a6cbb7add8ee5
 workflow-type: tm+mt
-source-wordcount: '1103'
-ht-degree: 81%
+source-wordcount: '1239'
+ht-degree: 74%
 
 ---
 
@@ -25,6 +25,46 @@ ht-degree: 81%
 [!DNL Adobe Journey Optimizer] est créé de manière native sur [!DNL Adobe Experience Platform] et hérite de ses dernières innovations et améliorations. En savoir plus sur ces modifications dans les [Notes de mise à jour d’Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=fr){target="_blank"}.
 
 ![Newsletter](../assets/do-not-localize/nl-icon.png) Inscrivez-vous à la [newsletter trimestrielle d’Adobe Journey Optimizer](https://www.adobe.com/subscription/Adobe_Journey_Optimizer_NL.html){target="_blank"} dès aujourd’hui, et recevez les dernières mises à jour produits, les articles les plus intéressants, des cas pratiques, des conseils et bien plus encore, directement dans votre boîte de réception, tous les trimestres.
+
+## Mises à jour d’octobre 2024 {#24-10-rn}
+
+**Date de publication** : mercredi 1 octobre 2024
+
+### Nouvelles fonctionnalités {#24-10-features}
+
+Cette mise à jour présente les nouvelles fonctionnalités présentées ci-dessous.
+
+<table>
+<thead>
+<tr>
+<th><strong>Expériences basées sur le code dans parcours</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Grâce au canal d’expérience basé sur le code, Adobe Journey Optimizer vous permet d’effectuer des tests et une personnalisation avancés pour l’une de vos propriétés entrantes, ce qui vous permet de diffuser facilement des expériences personnalisées sur différents points de contact tels que des applications web, des applications mobiles, des applications de bureau, des consoles vidéo, des périphériques connectés à la télévision, des téléviseurs intelligents, des kiosques, des distributeurs automatiques, des périphériques IoT, etc. Le canal d’expérience basé sur le code est désormais disponible dans la zone de travail du parcours.</p>
+<p>Pour plus d’informations, consultez la <a href="../code-based/create-code-based.md">documentation détaillée</a>.</p>
+<img src="../assets/do-not-localize/code-based-journey.gif"/>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Expériences web dans les parcours</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Avec le canal web, Adobe Journey Optimizer vous permet de personnaliser l’expérience web que vous diffusez à vos clients par le biais de parcours web entrants. Le canal web est désormais disponible dans le canevas de parcours.</p>
+<p>Pour plus d’informations, consultez la <a href="../web/create-web.md">documentation détaillée</a>.</p>
+<img src="../assets/do-not-localize/web-journey.gif"/>
+</tr>
+</tbody>
+</table>
 
 ## Notes de mise à jour de septembre 2024 {#24-9-rn}
 
