@@ -8,13 +8,13 @@ topic: Content Management
 role: User
 level: Beginner
 source-git-commit: a531f4b0a9f3fbc3185a0e84d9c2634e3b589011
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1007'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
-# Génération de pages web avec l’accélérateur de contenu de l’assistant d’IA {#generative-web}
+# Génération de pages web avec l’accélérateur de contenu de l’assistant IA {#generative-web}
 
 >[!IMPORTANT]
 >

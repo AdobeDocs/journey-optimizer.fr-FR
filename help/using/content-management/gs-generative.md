@@ -1,21 +1,21 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Prise en main de l’assistant d’IA dans l’accélérateur de contenu Journey Optimizer
-description: Découvrez comment accéder à l’assistant AI et l’utiliser dans Journey Optimizer Content Accelerator.
+title: Commencer avec l’assistant IA dans l’accélérateur de contenu Journey Optimizer
+description: Découvrir comment accéder à l’assistant IA et l’utiliser dans l’accélérateur de contenu Journey Optimizer
 feature: Content Assistant
 topic: Content Management
 role: User
 level: Beginner
 exl-id: 6e291ce3-f324-4e5d-975b-5229dea4d581
 source-git-commit: 9de2f498e104d316491e6061cbd851b2eb506036
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '884'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
-# Commencer avec l’accélérateur de contenu de l’Assistant IA {#gs-content-assistant}
+# Commencer avec l’accélérateur de contenu de l’assistant IA {#gs-content-assistant}
 
 >[!CONTEXTUALHELP]
 >id="ajo_ai_generation_settings"
@@ -35,7 +35,7 @@ ht-degree: 94%
 
 >[!INFO]
 >
->Découvrez une expérience pratique avec [notre aperçu des fonctionnalités en direct](https://experienceleague.adobe.com/fr/apps/journey-optimizer/ai-assistant-content-accelerator){target="_blank"}, conçu pour vous permettre d’explorer directement ses fonctionnalités et de comprendre pleinement ses fonctionnalités.
+>Découvrez une expérience pratique avec [notre aperçu des fonctionnalités en direct](https://experienceleague.adobe.com/fr/apps/journey-optimizer/ai-assistant-content-accelerator){target="_blank"}, conçu pour vous permettre d’explorer directement ses fonctionnalités et de les comprendre pleinement.
 
 
 L’assistant IA d’Adobe Journey Optimizer pour l’accélération de contenu, optimisé par Microsoft Azure OpenAI et Azure Firefly, offre des suggestions de variations de contenu proactives pour le texte et les images. Il est disponible pour les canaux e-mail, notification push et SMS. Cette nouvelle fonctionnalité permet de générer rapidement du texte et des images. La génération d’images est gérée avec Adobe Firefly.

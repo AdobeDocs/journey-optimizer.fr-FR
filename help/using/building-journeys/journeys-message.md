@@ -10,9 +10,9 @@ level: Intermediate
 keywords: parcours, message, notification push, sms, e-mail, in-app
 exl-id: 4db07a9e-c3dd-4873-8bd9-ac34c860694c
 source-git-commit: f81fde0076fc8689c689fae7a0ee8c7aa9fdbeed
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1195'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -85,7 +85,7 @@ Pour ajouter un message dans un parcours, procédez comme suit :
 
 >[!NOTE]
 >
->Chaque activité de message entrant (message in-app, expérience basée sur le code ou carte) est fournie avec une activité **Attente** de 3 jours. [En savoir plus](../building-journeys/wait-activity.md#auto-wait-node)
+>Chaque activité de message entrant (message in-app, expérience basée sur le code ou carte) est fournie avec une activité **Attente** de 3 jours. [En savoir plus](../building-journeys/wait-activity.md#auto-wait-node)
 >
 
 ## Mettre à jour le contenu dynamique{#update-live-content}

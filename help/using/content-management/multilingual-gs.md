@@ -11,7 +11,7 @@ keywords: commencer, démarrer, contenu, expérience
 exl-id: b57683b4-6dcc-4f6c-a8b2-4ba371d78d21
 badge: label="Disponibilité limitée" type="Informative"
 source-git-commit: 7a324f3ece4d30085e3e447526cd0a2ff7fa72dd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '449'
 ht-degree: 100%
 
@@ -22,7 +22,7 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="ajo_multi_translation_homepage"
 >title="Traductions"
->abstract="La fonctionnalité multilingue vous permet de créer facilement du contenu dans plusieurs langues au sein d’une campagne ou d’un parcours. La page Traductions vous permet de configurer des projets, de sélectionner des fournisseurs de services de traduction ou de gérer des dictionnaires spécifiques aux paramètres régionaux."
+>abstract="La fonctionnalité multilingue vous permet de créer facilement du contenu dans plusieurs langues au sein d’une campagne ou d’un parcours. La page Traductions vous permet de configurer des projets, de sélectionner des fournisseurs de traduction ou de gérer des dictionnaires spécifiques aux paramètres régionaux."
 
 >[!AVAILABILITY]
 >

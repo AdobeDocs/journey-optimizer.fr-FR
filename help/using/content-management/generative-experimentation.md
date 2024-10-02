@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Expérience de contenu avec l’assistant d’IA dans l’accélérateur de contenu Journey Optimizer
+title: Expérience de contenu avec l’assistant IA dans l’accélérateur de contenu de Journey Optimizer
 description: Expérience de contenu avec l’assistant IA dans Journey Optimizer pour l’accélération de contenu
 feature: Content Assistant
 topic: Content Management
@@ -9,13 +9,13 @@ role: User
 level: Beginner
 exl-id: c47af613-0529-4922-bd0d-5ef4cc619305
 source-git-commit: a531f4b0a9f3fbc3185a0e84d9c2634e3b589011
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '271'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
-# Expérience de contenu avec l’accélérateur de contenu de l’assistant d’IA {#generative-experimentation}
+# Expérience de contenu avec l’accélérateur de contenu de l’assistant IA {#generative-experimentation}
 
 >[!IMPORTANT]
 >
