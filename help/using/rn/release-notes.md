@@ -9,7 +9,7 @@ exl-id: 06fa956a-b500-416e-9d42-b683c328e837
 source-git-commit: 86625e5c88a5f4667782964e4dc9d7a77a50af31
 workflow-type: tm+mt
 source-wordcount: '1103'
-ht-degree: 52%
+ht-degree: 81%
 
 ---
 
@@ -35,7 +35,7 @@ ht-degree: 52%
 >
 -->
 
-**Date de publication** : 24-26 septembre 2024
+**Date de publication** : 24-26 septembre 2024
 
 ### Nouvelles fonctionnalités {#24-9-features}
 
@@ -68,7 +68,7 @@ Cette version apporte les nouvelles fonctionnalités détaillées ci-dessous.
 <tbody>
 <tr>
 <td>
-<p>Grâce aux stratégies d’approbation, vous pouvez désormais configurer un processus d’approbation dans Journey Optimizer qui permet aux équipes marketing de s’assurer que les campagnes et les parcours sont examinés et approuvés par les parties prenantes appropriées avant qu’ils ne soient mis en ligne.</p>
+<p>Grâce aux politiques d’approbation, vous pouvez désormais configurer un processus d’approbation dans Journey Optimizer qui permet aux équipes marketing de s’assurer que les campagnes et les parcours sont examinés et approuvés par les parties prenantes appropriées avant qu’ils ne soient mis en ligne.</p>
 <p>Actuellement, les stratégies d’approbation ne sont disponibles que pour un ensemble d’organisations (disponibilité limitée). Pour en bénéficier, contactez votre représentant ou représentante Adobe.</p>
 <p>Pour plus d’informations, consultez la <a href="../test-approve/gs-approval.md">documentation détaillée</a>.</p>
 <img src="assets/do-not-localize/approval.gif"/>
@@ -97,13 +97,13 @@ Cette version apporte les nouvelles fonctionnalités détaillées ci-dessous.
 <table>
 <thead>
 <tr>
-<th><strong>Critères de sortie globale en parcours</strong><br/></th>
+<th><strong>Critères de sortie globale dans les parcours</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Vous définissez maintenant des critères de sortie au niveau du parcours. En ajoutant des critères de sortie, vous faites quitter le parcours aux profils dès qu’un événement se produit (un achat, par exemple) ou qu’ils répondent aux critères d’une audience. Cela empêchera l’utilisateur d’obtenir d’autres communications du parcours.</p>
+<p>Vous définissez maintenant des critères de sortie au niveau du parcours. En ajoutant des critères de sortie, vous faites quitter le parcours aux profils dès qu’un événement se produit (un achat, par exemple) ou qu’ils répondent aux critères d’une audience. Cela évite à l’utilisateur ou à l’utilisatrice de recevoir d’autres communications du parcours.</p>
 <p>Pour plus d’informations, consultez la <a href="../building-journeys/journey-properties.md">documentation détaillée</a>.</p>
 </td>
 </tr>
@@ -143,7 +143,7 @@ Cette version apporte les nouvelles fonctionnalités détaillées ci-dessous.
 <table>
 <thead>
 <tr>
-<th><strong>Accélérateur de contenu de l’Assistant IA </strong><br/></th>
+<th><strong>Accélérateur de contenu de l’assistant IA </strong><br/></th>
 </tr>
 </thead>
 <tbody>
@@ -192,7 +192,7 @@ Cette version est fournie avec les améliorations répertoriées ci-dessous.
 **Audiences**
 
 <!--* The use of audiences from custom upload (CSV file) is now available for use with Privacy and Security Shield add-on.-->
-* (Date de disponibilité : 17 septembre) **Utilisation de la licence** - Le tableau de bord Utilisation de la licence affiche désormais les profils activables, au lieu des audiences activables. [En savoir plus](../audience/license-usage.md)
+* (Date de disponibilité : 17 septembre) **Utilisation de la licence** : le tableau de bord Utilisation de la licence affiche désormais les profils engageables, au lieu des audiences engageables. [En savoir plus](../audience/license-usage.md)
 
 **Gestion de contenu**
 
@@ -214,32 +214,32 @@ Cette version est fournie avec les améliorations répertoriées ci-dessous.
 
 <!-- DOCAC-10977 * **Max number of Live journeys** - Journey Optimizer now has a guardrail of 500 live journeys on production sandboxes, instead of 100. The number of live journeys is visible in the journey canvas.-->
 
-* **Améliorations des rapports en direct** - Les rapports en direct fournissent des informations sur les performances de vos parcours au cours des dernières 24 heures. Nous l’avons améliorée en ajoutant de nouvelles mesures (profils et profils entrés, sortis, ignorés par erreur), ce qui vous permet de mieux comprendre le comportement et les performances des utilisateurs directement à partir du canevas de Parcours. [En savoir plus](../building-journeys/report-journey.md)
+* **Améliorations des rapports dynamiques** : les rapports dynamiques fournissent des informations sur les performances de vos parcours au cours des dernières 24 heures. Nous l’avons améliorée en ajoutant de nouvelles mesures (profils et profils entrés, sortis, ignorés par erreur), ce qui vous permet de mieux comprendre le comportement et les performances des utilisateurs directement à partir du canevas de Parcours. [En savoir plus](../building-journeys/report-journey.md)
 
 <!-- DOCAC-10562* **Parameters in custom actions** - NULL and optional parameters are now supported in custom actions. [Learn more](../action/about-custom-action-configuration.md#define-the-message-parameters)-->
 
-* (Date de disponibilité : 10 septembre) **Reprises automatiques sur l’audience de lecture** - Les reprises sont désormais appliquées par défaut sur les parcours déclenchés par l’audience (commençant par une **audience de lecture** ou un **événement commercial**) lors de la récupération de la tâche d’exportation. Si une erreur se produit lors de la création du traitement d’export, des reprises sont effectuées toutes les 10 minutes, pendant 1 heure au maximum. Après cela, nous considérerons cela comme un échec. Ces types de parcours peuvent donc être exécutés jusqu’à 1 heure après l’heure planifiée. [En savoir plus](../building-journeys/read-audience.md#retries)
+* (Date de disponibilité : 10 septembre) **Reprises automatiques sur la Lecture d’audience** : les reprises sont désormais appliquées par défaut sur les parcours déclenchés par l’audience (commençant par une **Lecture d’audience** ou un **Événement métier**) lors de la récupération du traitement d’export. Si une erreur se produit lors de la création du traitement d’export, des reprises sont effectuées toutes les 10 minutes, pendant 1 heure au maximum. Après cela, nous considérerons cela comme un échec. Ces types de parcours peuvent donc être exécutés jusqu’à 1 heure après l’heure planifiée. [En savoir plus](../building-journeys/read-audience.md#retries)
 
 **Canal e-mail**
 
-* **En-tête du message dans l’email envoyé et copie en Cci** - Un nouvel en-tête a été ajouté à tous les emails. La valeur de cet en-tête est propre à chaque email envoyé et à sa copie d’email en Cci correspondante. Cet en-tête est également stocké dans les jeux de données de retour des messages et des commentaires en Cci, ce qui permet de réconcilier la copie en Cci et les informations d’email envoyées correspondantes. [En savoir plus](../configuration/archiving-support.md#bcc-header)
+* **En-tête du message dans l’email envoyé et copie en Cci** - Un nouvel en-tête a été ajouté à tous les emails. La valeur de cet en-tête est propre à chaque e-mail envoyé et à sa copie d’e-mail en Cci correspondante. Cet en-tête est également stocké dans les jeux de données de retour des messages et des commentaires en Cci, ce qui permet de réconcilier la copie en Cci et les informations d’email envoyées correspondantes. [En savoir plus](../configuration/archiving-support.md#bcc-header)
 
 * **Spam scoring** (GA) : vous pouvez désormais vérifier votre score de spam de contenu dans un **rapport de spam** dédié. Grâce à SpamAssassin, Adobe Journey Optimizer peut désormais tester le contenu de vos e-mails et lui attribuer un score pour indiquer si les FAI ou les fournisseurs de messagerie le considèrent comme un spam ou non. [En savoir plus](../content-management/spam-report.md)
 
 **Canal SMS**
 
-* **Modifier les informations d’identification de l’API** - Vous pouvez désormais modifier les paramètres dans les informations d’identification de l’API SMS, y compris les mises à jour des mots-clés et réponses d’inclusion/exclusion.
+* **Modifier les informations d’identification de l’API** : vous pouvez désormais modifier les paramètres dans les informations d’identification de l’API SMS, y compris les mises à jour des mots-clés et réponses d’inclusion/exclusion.
 
 **API**
 
-* **API de simulation de campagne** - Utilisez cette API pour déclencher la tâche de BAT d’une campagne. L’envoi du BAT Campaign est un processus asynchrone. L’API renvoie un BATJobId qui peut être utilisé pour vérifier le statut du BAT. [En savoir plus](https://developer.adobe.com/journey-optimizer-apis/references/simulations/){target="_blank"}
+* **API de simulation de campagne** : utilisez cette API pour déclencher le traitement de BAT d’une campagne. L’envoi du BAT de campagne est un processus asynchrone. L’API renvoie un BATJobId qui peut être utilisé pour vérifier le statut du BAT. [En savoir plus](https://developer.adobe.com/journey-optimizer-apis/references/simulations/){target="_blank"}
 
-* (Date de disponibilité : 10 septembre) La [documentation de l’API Adobe Journey Optimizer](https://developer.adobe.com/journey-optimizer-apis/references/simulations/){target="_blank"} est désormais interactive. Explorez les points de terminaison de l’API directement à partir des pages de documentation pour obtenir des commentaires immédiats et accélérer votre mise en oeuvre technique.
+* (Date de disponibilité : 10 septembre) La [documentation de l’API Adobe Journey Optimizer](https://developer.adobe.com/journey-optimizer-apis/references/simulations/){target="_blank"} est désormais interactive. Explorez les points d’entrée de l’API directement à partir des pages de la documentation pour obtenir des commentaires immédiats et accélérer votre implémentation technique.
 
 
-  Toutes les pages de référence d’API disposent désormais d’une fonctionnalité **Essayer** que vous pouvez utiliser pour tester les appels d’API directement sur la page du site web de documentation. [Obtenez les informations d’identification d’authentification requises](https://developer.adobe.com/journey-optimizer-apis/references/authentication/){target="_blank"} et commencez à utiliser la fonctionnalité pour explorer les points de terminaison de l’API.
+  Toutes les pages de référence de l’API possèdent désormais une fonctionnalité **Essayer**. Cette fonctionnalité vous permet de tester les appels API directement sur la page du site web de la documentation. [Obtenez les informations d’authentification requises](https://developer.adobe.com/journey-optimizer-apis/references/authentication/){target="_blank"} et commencez à utiliser la fonctionnalité pour explorer les points d’entrée de l’API.
 
-  Utilisez cette nouvelle fonctionnalité pour explorer les requêtes envoyées à et les réponses provenant des points de terminaison de l’API, afin d’obtenir des commentaires immédiats et d’accélérer votre mise en oeuvre technique.
+  Utilisez cette nouvelle fonctionnalité pour explorer les requêtes envoyées et les réponses issues des points d’entrée de l’API, afin d’obtenir des commentaires immédiats et d’accélérer votre implémentation technique.
 
   >[!CAUTION]
   >

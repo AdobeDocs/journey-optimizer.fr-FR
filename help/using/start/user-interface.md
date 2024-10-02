@@ -206,7 +206,7 @@ Pour modifier la langue :
 >[!CONTEXTUALHELP]
 >id="ajo_journey_capping_rule"
 >title="Appliquer un jeu de règles aux parcours"
->abstract="Appliquez un jeu de règles pour exclure ce parcours d’une partie de votre audience en fonction des règles de limitation de fréquence."
+>abstract="Appliquez un jeu de règles pour exclure ce parcours d’une partie de votre audience en fonction des règles de capping de la fréquence."
 
 >[!CONTEXTUALHELP]
 >id="ajo_rule_set_rule_type"
@@ -216,7 +216,7 @@ Pour modifier la langue :
 >[!CONTEXTUALHELP]
 >id="ajo_rule_set_concurrency_prioritization"
 >title="Avenir de la priorité"
->abstract=" Si un parcours de priorité plus élevée est planifié dans la période spécifiée ici, le client ou la cliente n’aura pas l’autorisation d’entrer dans ce parcours. Dans les cas où vous souhaitez que les parcours soient accessibles sur la base du premier arrivé, premier servi, nous vous suggérons de choisir la période d’anticipation quotidienne et de vous assurer que le score de priorité de tout autre parcours ce jour-là est inférieur au score de priorité du parcours. Un score de priorité de 100 à un parcours garantirait également son accessibilité."
+>abstract=" Si un parcours de priorité plus élevée est planifié dans la période spécifiée ici, le client ou la cliente ne pourra pas entrer dans ce parcours. Dans les cas où vous souhaitez que les parcours soient accessibles sur la base du premier arrivé, premier servi, nous vous suggérons de choisir la période d’anticipation quotidienne et de vous assurer que le score de priorité de tout autre parcours ce jour-là est inférieur au score de priorité du parcours. Un score de priorité de 100 à un parcours garantirait également son accessibilité."
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_capping_rule"
@@ -332,5 +332,5 @@ Pour modifier la langue :
 
 >[!CONTEXTUALHELP]
 >id="ajo_email_enable_experience_decisioning"
->title="Activer Décisions pour les expériences"
->abstract="Activer Décisions pour les expériences"
+>title="Activer les décisions pour les expériences"
+>abstract="Activer les décisions pour les expériences"

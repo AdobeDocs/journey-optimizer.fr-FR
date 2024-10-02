@@ -8,7 +8,7 @@ exl-id: 3a1b6c61-82df-421c-98d8-2af4f2a5e0de
 source-git-commit: 9688a0303726d706106ba7c89157529e02ecbfca
 workflow-type: tm+mt
 source-wordcount: '390'
-ht-degree: 84%
+ht-degree: 91%
 
 ---
 
@@ -28,7 +28,7 @@ La version de septembre est désormais en ligne, notamment les cartes de contenu
 
 >[!TAB Assistant IA]
 
-✨ Découvrez l’aperçu de nos fonctionnalités en direct [Accélérateur de contenu d’assistant d’IA](../help/using/content-management/gs-generative.md), conçu pour vous permettre d’explorer directement ses fonctionnalités et de comprendre pleinement ses fonctionnalités.
+✨ Découvrez une expérience pratique avec l’aperçu des fonctionnalités en direct de notre [Accélérateur de contenu de l’assistant IA](../help/using/content-management/gs-generative.md), conçu pour vous permettre d’explorer directement ses fonctionnalités et de les comprendre pleinement.
 
 [![En savoir plus](using/assets/do-not-localize/try-it-button.svg)](https://experienceleague.adobe.com/fr/apps/journey-optimizer/ai-assistant-content-accelerator){target="_blank"}
 

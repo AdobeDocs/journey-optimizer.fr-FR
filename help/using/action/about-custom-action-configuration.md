@@ -12,7 +12,7 @@ exl-id: 4df2fc7c-85cb-410a-a31f-1bc1ece237bb
 source-git-commit: 9f990d2b311237e49c3b93201cd7e9c2b02facef
 workflow-type: tm+mt
 source-wordcount: '1566'
-ht-degree: 89%
+ht-degree: 97%
 
 ---
 
@@ -141,13 +141,13 @@ Lors de la configuration d’une action personnalisée, vous devez définir les 
 
 ## Prise en charge du protocole mTLS {#mtls-protocol-support}
 
-Vous pouvez utiliser le protocole mTLS (Mutual Transport Layer Security) pour garantir une sécurité renforcée dans les connexions sortantes aux actions personnalisées de Adobe Journey Optimizer. Le protocole mTLS est une méthode de sécurité de bout en bout pour une authentification mutuelle qui garantit que les deux parties qui partagent des informations sont celles qu’elles prétendent être avant que les données ne soient partagées. Le protocole mTLS inclut une étape supplémentaire par rapport à TLS, dans laquelle le serveur demande également le certificat du client et le vérifie de son côté.
+Vous pouvez utiliser le protocole mTLS (Mutual Transport Layer Security) pour améliorer la sécurité des connexions sortantes aux actions personnalisées Adobe Journey Optimizer. Le protocole mTLS est une méthode de sécurité de bout en bout pour une authentification mutuelle qui garantit que les deux parties qui partagent des informations sont celles qu’elles prétendent être avant que les données ne soient partagées. Le protocole mTLS inclut une étape supplémentaire par rapport à TLS, dans laquelle le serveur demande également le certificat du client et le vérifie de son côté.
 
 L’authentification TLS mutuelle (mTLS) est prise en charge dans les actions personnalisées. Aucune configuration supplémentaire n’est requise dans l’action personnalisée ou le parcours pour activer mTLS. Cela se produit automatiquement lorsqu’un point d’entrée compatible avec mTLS est détecté. [En savoir plus](https://experienceleague.adobe.com/fr/docs/experience-platform/landing/governance-privacy-security/encryption#mtls-protocol-support).
 
 ## Définir les paramètres de payload {#define-the-message-parameters}
 
-Vous pouvez définir le paramètre de payload comme décrit ci-dessous :
+Vous pouvez définir le paramètre de payload comme décrit ci-dessous :
 
 1. Dans la section **[!UICONTROL Requête]**, collez un exemple de payload JSON à envoyer au service externe. Ce champ est facultatif et disponible uniquement pour les méthodes d&#39;appel POST et PUT. <!--DOCAC-10562 - Enable the **[!UICONTROL Allow NULL values]** option to keep Null values in the external call. Note that sending arrays of int, string, etc. with Null values within is not fully supported. For example the following array of integers [1, null, 2, 3] is sent as [1, 2, 3] even if this option is checked.-->
 
@@ -162,15 +162,15 @@ Vous pouvez définir le paramètre de payload comme décrit ci-dessous :
 
 ![](assets/customactionpayloadmessage2.png)
 
-Dans la configuration des champs, vous devez :
+Dans la configuration des champs, vous devez procédez comme suit :
 
-* Sélectionnez le type de paramètre, par exemple : chaîne, entier, etc.
+* Sélectionnez le type de paramètre, par exemple : chaîne, entier, etc.
 
-* Définissez une constante ou un paramètre de variable :
+* Définissez une constante ou un paramètre de variable :
 
-   * Le paramètre « **Constant** » signifie que la valeur du paramètre est définie dans le volet de configuration des actions par une persona ayant un rôle technique. La valeur reste identique dans tous les parcours Elle ne varie pas et le marketeur ne peut pas la voir lors de l’utilisation de l’action personnalisée dans le parcours. Il peut s&#39;agir, par exemple, d&#39;un identifiant attendu par le système tiers. Dans ce cas, la valeur constante est définie sur le champ à droite du bouton bascule Constante/Variable.
+   * Le paramètre « **Constant** » signifie que la valeur du paramètre est définie dans le volet de configuration des actions par une persona ayant un rôle technique. La valeur reste identique dans tous les parcours Cet élément ne varie pas et les spécialistes du marketing ne le voient pas lors de l’utilisation de l’action personnalisée dans le parcours. Il peut s’agir, par exemple, d’un identifiant attendu par le système tiers. Dans ce cas, la valeur constante est définie sur le champ à droite du bouton (bascule) Constante/Variable.
 
-   * Le paramètre « **Variable** » signifie que la valeur du paramètre varie. Les marketeurs qui utilisent cette action personnalisée dans un parcours peuvent transmettre la valeur de leur choix ou indiquer où récupérer la valeur de ce paramètre (à partir de l’événement, de Adobe Experience Platform, etc.). Dans ce cas, le champ situé à droite du bouton bascule Constante/Variable correspond au libellé que le spécialiste marketing voit dans le parcours pour nommer ce paramètre.
+   * Le paramètre « **Variable** » signifie que la valeur du paramètre varie. Les spécialistes marketing qui utilisent cette action personnalisée dans un parcours sont libres de transmettre la valeur de leur choix ou bien d’indiquer où récupérer la valeur de ce paramètre (à partir de l’événement, d‘Adobe Experience Platform, etc.). Dans ce cas, le champ situé à droite du bouton (bascule) Constante/Variable correspond au libellé que la personne spécialisée dans le marketing voit dans le parcours pour nommer ce paramètre.
 
 <!--DOCAC-10562 - For optional parameters, enable the **[!UICONTROL Is optional]** option at the end of the line. By checking this option, you mark the parameter as non-mandatory, and let the journey practitioners choose to fill it or not when authoring that custom action in a journey.-->
 

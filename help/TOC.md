@@ -8,7 +8,7 @@ solution: Journey Optimizer
 source-git-commit: aeafadeac819d25518de879747866a71d032b4b0
 workflow-type: tm+mt
 source-wordcount: '2055'
-ht-degree: 95%
+ht-degree: 98%
 
 ---
 
@@ -271,12 +271,12 @@ ht-degree: 95%
    + [Exemples de méthodes de mise en œuvre](using/code-based/code-based-implementation-samples.md)
    + [Créer des expériences basées sur le code](using/code-based/create-code-based.md)
 + Cartes de contenu{#content-card}
-   + [Prise en main des cartes de contenu](using/content-card/get-started-content-card.md)
-   + Configuration du canal de carte de contenu {#configure}
-      + [Prérequis pour les cartes de contenu](using/content-card/content-card-configuration-prereq.md)
-      + [Configuration du canal de cartes de contenu dans Journey Optimizer](using/content-card/content-card-configuration.md)
+   + [Commencer avec les cartes de contenu](using/content-card/get-started-content-card.md)
+   + Configurer le canal de carte de contenu {#configure}
+      + [Conditions préalables des cartes de contenu](using/content-card/content-card-configuration-prereq.md)
+      + [Configurer le canal des cartes de contenu dans Journey Optimizer](using/content-card/content-card-configuration.md)
       + [Configuration de la prise en charge des cartes de contenu dans le SDK Web](using/content-card/content-card-configuration-sdk.md)
-   + [Création de cartes de contenu](using/content-card/create-content-card.md)
+   + [Créer des cartes de contenu](using/content-card/create-content-card.md)
    + [Concevoir des cartes de contenu](using/content-card/design-content-card.md)
 +  Pages de destination {#landing-pages}
    + [Prise en main des pages de destination](using/landing-pages/get-started-lp.md)
@@ -293,11 +293,11 @@ ht-degree: 95%
       + [Définir les préréglages de page de destination](using/landing-pages/lp-presets.md)
 + Gestion de contenu {#content-management}
    + Utiliser l’assistant IA{#ai-assistant}
-      + [Commencer avec l’accélérateur de contenu de l’Assistant IA](using/content-management/gs-generative.md)
-      + [Génération d’emails avec IA](using/content-management/generative-email.md)
-      + [Génération de notifications push avec IA](using/content-management/generative-push.md)
-      + [Génération de SMS avec IA](using/content-management/generative-sms.md)
-      + [Génération web avec IA](using/content-management/generative-web.md)
+      + [Commencer avec l’accélérateur de contenu de l’assistant IA](using/content-management/gs-generative.md)
+      + [Génération d’e-mails avec l’IA](using/content-management/generative-email.md)
+      + [Génération de notifications push avec l’IA](using/content-management/generative-push.md)
+      + [Génération de SMS avec l’IA](using/content-management/generative-sms.md)
+      + [Génération web avec l’IA](using/content-management/generative-web.md)
       + [Expérience de contenu avec l’IA](using/content-management/generative-experimentation.md)
       + [Cas d’utilisation de l’assistant IA](using/content-management/generative-uc.md)
    + Utiliser du contenu multilingue{#content-multilingual}
