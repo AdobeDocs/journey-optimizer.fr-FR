@@ -9,7 +9,7 @@ role: Data Engineer, Data Architect, Admin
 level: Experienced
 keywords: action, tiers, personnalisé, parcours, API
 exl-id: 4df2fc7c-85cb-410a-a31f-1bc1ece237bb
-source-git-commit: b429082f44090033e0fdef64f05ab1e9964297b6
+source-git-commit: 9059e3192170681293816a78703e39a60127a112
 workflow-type: tm+mt
 source-wordcount: '1670'
 ht-degree: 91%
@@ -153,7 +153,7 @@ Vous pouvez définir le paramètre de payload comme décrit ci-dessous :
 
    Activez l’option **[!UICONTROL Autoriser les valeurs NULL]** pour conserver les valeurs Null dans l’appel externe. Notez que l’envoi de tableaux de int, de chaîne, etc. avec les valeurs null dans n’est pas entièrement pris en charge. Par exemple, le tableau suivant d’entiers `[1, null, 2, 3]` est envoyé en tant que `[1, 2, 3]` même si cette option est cochée. En outre, si ce tableau est nul, il est envoyé en tant que tableau vide.
 
-   ![](assets/null-values.png)
+   ![](assets/null-values.png){width="70%" align="left"}
 
 1. Dans la section **[!UICONTROL Réponse]**, collez un exemple de payload renvoyée par l’appel. Ce champ est facultatif et disponible pour toutes les méthodes d’appel. Pour plus d’informations sur l’utilisation des réponses d’appel API dans les actions personnalisées, reportez-vous à [cette page](../action/action-response.md).
 
