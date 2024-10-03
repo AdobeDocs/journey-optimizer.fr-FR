@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Notes de mise à jour d’Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 4d6890c8e0e8673ca5d793b9bf9a6cbb7add8ee5
+source-git-commit: 7dda0468c91a6e5e74426179bd363bb4dede7b33
 workflow-type: tm+mt
-source-wordcount: '1239'
-ht-degree: 74%
+source-wordcount: '1269'
+ht-degree: 72%
 
 ---
 
@@ -46,6 +46,7 @@ Cette mise à jour présente les nouvelles fonctionnalités présentées ci-dess
 <p>Grâce au canal d’expérience basé sur le code, Adobe Journey Optimizer vous permet d’effectuer des tests et une personnalisation avancés pour l’une de vos propriétés entrantes, ce qui vous permet de diffuser facilement des expériences personnalisées sur différents points de contact tels que des applications web, des applications mobiles, des applications de bureau, des consoles vidéo, des périphériques connectés à la télévision, des téléviseurs intelligents, des kiosques, des distributeurs automatiques, des périphériques IoT, etc. Le canal d’expérience basé sur le code est désormais disponible dans la zone de travail du parcours.</p>
 <p>Pour plus d’informations, consultez la <a href="../code-based/create-code-based.md">documentation détaillée</a>.</p>
 <img src="../assets/do-not-localize/code-based-journey.gif"/>
+<p>Date de disponibilité : 1er octobre</p>
 </tr>
 </tbody>
 </table>
@@ -62,9 +63,17 @@ Cette mise à jour présente les nouvelles fonctionnalités présentées ci-dess
 <p>Avec le canal web, Adobe Journey Optimizer vous permet de personnaliser l’expérience web que vous diffusez à vos clients par le biais de parcours web entrants. Le canal web est désormais disponible dans le canevas de parcours.</p>
 <p>Pour plus d’informations, consultez la <a href="../web/create-web.md">documentation détaillée</a>.</p>
 <img src="../assets/do-not-localize/web-journey.gif"/>
+<p>Date de disponibilité : 1er octobre</p>
 </tr>
 </tbody>
 </table>
+
+
+**Améliorations du Parcours**
+
+* (Date de disponibilité : 3 octobre) **Paramètres dans les actions personnalisées** - Les paramètres NULL et facultatifs sont désormais pris en charge dans les actions personnalisées. [En savoir plus](../action/about-custom-action-configuration.md#define-the-message-parameters)
+
+
 
 ## Notes de mise à jour de septembre 2024 {#24-9-rn}
 
@@ -256,7 +265,6 @@ Cette version est fournie avec les améliorations répertoriées ci-dessous.
 
 * **Améliorations des rapports dynamiques** : les rapports dynamiques fournissent des informations sur les performances de vos parcours au cours des dernières 24 heures. Nous l’avons améliorée en ajoutant de nouvelles mesures (profils et profils entrés, sortis, ignorés par erreur), ce qui vous permet de mieux comprendre le comportement et les performances des utilisateurs directement à partir du canevas de Parcours. [En savoir plus](../building-journeys/report-journey.md)
 
-<!-- DOCAC-10562* **Parameters in custom actions** - NULL and optional parameters are now supported in custom actions. [Learn more](../action/about-custom-action-configuration.md#define-the-message-parameters)-->
 
 * (Date de disponibilité : 10 septembre) **Reprises automatiques sur la Lecture d’audience** : les reprises sont désormais appliquées par défaut sur les parcours déclenchés par l’audience (commençant par une **Lecture d’audience** ou un **Événement métier**) lors de la récupération du traitement d’export. Si une erreur se produit lors de la création du traitement d’export, des reprises sont effectuées toutes les 10 minutes, pendant 1 heure au maximum. Après cela, nous considérerons cela comme un échec. Ces types de parcours peuvent donc être exécutés jusqu’à 1 heure après l’heure planifiée. [En savoir plus](../building-journeys/read-audience.md#retries)
 
