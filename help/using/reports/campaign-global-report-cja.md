@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 badge: label="Disponibilité limitée" type="Informative"
 exl-id: 51cbe27f-3f3f-471e-a5d9-e3a88fcfdd68
-source-git-commit: 12cf3f9ed82350dd55b74de4596e10be9d5654ef
+source-git-commit: d816b12ea88631d6682cf444e176622f8fc36d85
 workflow-type: tm+mt
-source-wordcount: '4623'
-ht-degree: 94%
+source-wordcount: '4540'
+ht-degree: 95%
 
 ---
 
@@ -840,18 +840,7 @@ Le tableau **[!UICONTROL Libellés suivis]** offre un aperçu complet des libell
 
 * **[!UICONTROL Affichages]** : nombre d’ouvertures du message.
 
-* **[!UICONTROL Affichages uniques]** : nombre dʼouvertures du message, les multiples interactions dʼun même profil ne sont pas prises en compte.
+* **[!UICONTROL Affichages uniques]** : nombre d’ouvertures du message, les interactions multiples d’un même profil ne sont pas prises en compte.
 
 +++
 
-### URL des liens de suivi {#tracked-link-url}
-
-La table **[!UICONTROL URL de lien trackées]** offre un aperçu complet des URL de vos cartes de contenu qui attirent le plus de visiteurs. Cela vous permet d’identifier et de classer par priorité les liens les plus populaires, ce qui améliore votre compréhension de l’engagement des profils avec du contenu spécifique dans vos cartes de contenu.
-
-+++ En savoir plus sur les mesures des URL des liens de suivi
-
-* **[!UICONTROL Clics uniques]** : nombre de profils ayant cliqué sur un contenu dans vos cartes de contenu.
-
-* **[!UICONTROL Clics]** : nombre de clics sur un contenu dans vos cartes de contenu.
-
-+++

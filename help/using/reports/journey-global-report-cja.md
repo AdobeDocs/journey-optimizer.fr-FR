@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 badge: label="Disponibilité limitée" type="Informative"
 exl-id: d43ae701-6e3b-4dcf-8da1-11c07be10fcf
-source-git-commit: 66504f7affb767d5b102cd1a91934147638c68e5
+source-git-commit: d816b12ea88631d6682cf444e176622f8fc36d85
 workflow-type: tm+mt
-source-wordcount: '4184'
-ht-degree: 99%
+source-wordcount: '4802'
+ht-degree: 86%
 
 ---
 
@@ -33,6 +33,8 @@ La page **[!UICONTROL Rapport de parcours]** s’affiche avec les onglets suivan
 * [In-app](#in-app-global)
 * [Web](#web-cja)
 * [Courrier](#direct-mail-cja)
+* [Code basé sur](#code-based)
+* [Carte de contenu](#content-card)
 
 Pour en savoir plus sur l’espace de travail Customer Journey Analytics et sur le filtrage et l’analyse des données, consultez [cette page](https://experienceleague.adobe.com/fr/docs/analytics-platform/using/cja-workspace/home).
 
@@ -641,16 +643,15 @@ Le graphe **[!UICONTROL Clics]** affiche les mesures de clics sur les pages web,
 
 ![](assets/cja-web-displays.png)
 
-Le graphe **[!UICONTROL Affichages]** vous permet de comprendre à la fois la portée globale du message et le nombre de profils uniques qui interagissent avec lui.
+Le graphique **[!UICONTROL Affichages]** vous permet de comprendre à la fois la portée globale de l’expérience basée sur le code a été ouverte et le nombre de profils uniques qui l’utilisent.
 
 +++ En savoir plus sur les mesures d’affichage
 
-* **[!UICONTROL Affichages]** : nombre d’ouvertures du message.
+* **[!UICONTROL Affichages]** : nombre de fois où l’expérience basée sur le code a été ouverte.
 
-* **[!UICONTROL Affichages uniques]** : nombre dʼouvertures du message, les multiples interactions dʼun même profil ne sont pas prises en compte.
+* **[!UICONTROL Affichages uniques]** : nombre de fois que l’expérience basée sur le code a été ouverte, plusieurs interactions d’un profil ne sont pas prises en compte.
 
 +++
-
 
 ### Données de suivi {#track-data-web}
 
@@ -761,3 +762,119 @@ Le tableau **[!UICONTROL Raisons des erreurs]** offre une visibilité des erreur
 Le tableau **[!UICONTROL Causes d’exclusion]** décrit visuellement les différents facteurs qui ont conduit à l’exclusion des profils d’utilisateurs et d’utilisatrices de l’audience ciblée, ce qui les empêche de recevoir vos messages de publipostage direct.
 
 Consultez [cette page](exclusion-list.md) pour la liste complète des causes d’exclusion.
+
+## Expérience basée sur du code
+
+### Afficher et cliquer {#impressions-code}
+
+![](assets/code-based-display.png)
+
+Les graphiques **[!UICONTROL Display &amp; Click]** présentent une analyse détaillée de l’engagement de vos profils avec vos expériences basées sur du code, ce qui vous offre des informations précieuses sur la manière dont les profils interagissent avec votre contenu.
+
++++ En savoir plus sur les mesures Impression et clic
+
+* **[!UICONTROL Clics uniques]** : nombre de profils ayant cliqué sur un contenu dans vos expériences.
+
+* **[!UICONTROL Clics]** : nombre de clics sur un contenu dans vos expériences.
+
+* **[!UICONTROL Affichages]** : nombre de fois où l’expérience a été ouverte.
+
+* **[!UICONTROL Affichages uniques]** : nombre de fois où l’expérience a été ouverte, plusieurs interactions d’un profil ne sont pas prises en compte.
+
++++
+
+### Données de suivi {#track-data-code}
+
+![](assets/code-based-tracking-data.png)
+
+La table **[!UICONTROL Données de suivi]** offre un instantané détaillé de l’activité de profil liée à vos expériences basées sur le code, ce qui vous donne des informations essentielles sur l’engagement et l’efficacité des expériences.
+
++++ En savoir plus sur les mesures de données de suivi
+
+* **[!UICONTROL Personnes]** : nombre de profils d’utilisateurs qualifiés de profils cibles pour vos expériences.
+
+* **[!UICONTROL Taux de clics (CTR)]** : pourcentage d’utilisateurs qui ont interagi avec vos expériences.
+
+* **[!UICONTROL Clics]** : nombre de clics sur un contenu dans vos expériences.
+
+* **[!UICONTROL Clics uniques]** : nombre de profils ayant cliqué sur un contenu dans vos expériences.
+
+* **[!UICONTROL Affichages]** : nombre de fois où votre expérience a été ouverte.
+
+* **[!UICONTROL Affichages uniques]** : nombre de fois où votre expérience a été ouverte, plusieurs interactions d’un profil ne sont pas prises en compte.
+
++++
+
+### Libellés des liens de suivi {#track-link-code}
+
+La table **[!UICONTROL Libellés de liens trackés]** offre un aperçu complet des libellés de liens dans vos expériences basées sur le code, en mettant en évidence ceux qui génèrent le plus fort trafic de visiteurs. Cette fonctionnalité vous permet d’identifier et de hiérarchiser les liens les plus populaires.
+
++++ En savoir plus sur les mesures des libellés des liens de suivi
+
+* **[!UICONTROL Clics uniques]** : nombre de profils ayant cliqué sur un contenu dans vos expériences basées sur le code.
+
+* **[!UICONTROL Clics]** : nombre de clics sur un contenu dans vos expériences basées sur le code.
+
+* **[!UICONTROL Affichages]** : nombre de fois où l’expérience a été ouverte.
+
+* **[!UICONTROL Affichages uniques]** : nombre de fois où l’expérience a été ouverte, plusieurs interactions d’un profil ne sont pas prises en compte.
+
++++
+
+## Carte de contenu {#content-card}
+
+### Afficher et cliquer {#displays-content-card}
+
+![](assets/content-card-jo-display.png)
+
+Les graphiques **[!UICONTROL Display &amp; Click]** présentent une analyse détaillée de l’engagement de vos profils avec vos cartes de contenu, offrant des informations précieuses sur la manière dont les profils interagissent avec votre contenu.
+
++++ En savoir plus sur les mesures Affichages et Clics
+
+* **[!UICONTROL Clics uniques]** : nombre de profils ayant cliqué sur un contenu dans vos cartes de contenu.
+
+* **[!UICONTROL Clics]** : nombre de clics sur un contenu dans vos cartes de contenu.
+
+* **[!UICONTROL Affichages]** : nombre de fois où votre carte de contenu a été ouverte.
+
+* **[!UICONTROL Affichages uniques]** : nombre de fois où la carte Contenu a été ouverte, plusieurs interactions d’un profil ne sont pas prises en compte.
+
++++
+
+### Données de suivi {#track-data-content}
+
+![](assets/code-based-tracking-data.png)
+
+La table **[!UICONTROL Données de suivi]** offre un instantané détaillé de l’activité de profil liée à vos cartes de contenu, fournissant des informations essentielles sur l’engagement et l’efficacité des expériences.
+
++++ En savoir plus sur les mesures de données de suivi
+
+* **[!UICONTROL Personnes]** : nombre de profils utilisateur qualifiés comme profils cibles pour vos cartes de contenu.
+
+* **[!UICONTROL Taux de clics (CTR)]** : pourcentage d’utilisateurs ayant interagi avec vos cartes de contenu.
+
+* **[!UICONTROL Clics]** : nombre de clics sur un contenu dans vos cartes de contenu.
+
+* **[!UICONTROL Clics uniques]** : nombre de profils ayant cliqué sur un contenu dans vos cartes de contenu.
+
+* **[!UICONTROL Affichages]** : nombre de fois où votre carte de contenu a été ouverte.
+
+* **[!UICONTROL Affichages uniques]** : nombre de fois où votre carte de contenu a été ouverte, plusieurs interactions d’un profil ne sont pas prises en compte.
+
++++
+
+### Libellés des liens de suivi {#track-link-content}
+
+La table **[!UICONTROL Libellés de liens trackés]** offre un aperçu complet des libellés de liens dans vos cartes Contenu, en mettant en évidence ceux qui génèrent le plus fort trafic de visiteurs. Cette fonctionnalité vous permet d’identifier et de hiérarchiser les liens les plus populaires.
+
++++ En savoir plus sur les mesures des libellés des liens de suivi
+
+* **[!UICONTROL Clics uniques]** : nombre de profils ayant cliqué sur un contenu dans vos cartes de contenu.
+
+* **[!UICONTROL Clics]** : nombre de clics sur un contenu dans vos cartes de contenu.
+
+* **[!UICONTROL Affichages]** : nombre de fois où la carte Contenu a été ouverte.
+
+* **[!UICONTROL Affichages uniques]** : nombre de fois où la carte Contenu a été ouverte, plusieurs interactions d’un profil ne sont pas prises en compte.
+
++++
