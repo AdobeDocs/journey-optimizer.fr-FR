@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
-source-git-commit: aeafadeac819d25518de879747866a71d032b4b0
+source-git-commit: 7403058fac2e88a27b2e4dfc2f56bb4e3c2b1528
 workflow-type: tm+mt
 source-wordcount: '1504'
 ht-degree: 100%
@@ -60,7 +60,7 @@ Créez des campagnes et des parcours à partir de cette section.
 * **[!UICONTROL Pages de destination]** - Créez, concevez, testez et publiez des pages de destination : envoyez à vos utilisateurs et utilisatrices des liens vers des formulaires en ligne où ils ou elles peuvent choisir de recevoir ou non vos communications ou s’abonner à des services spécifiques. [En savoir plus](../landing-pages/get-started-lp.md)
 
 
-### [!UICONTROL GESTION DES DÉCISIONS] {#left-nav-offers}
+### [!UICONTROL GESTION DES DÉCISIONS] {#left-nav-decision}
 
 Créez des offres et des composants à partir de cette section.
 
