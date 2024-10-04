@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 badge: label="Disponibilité limitée" type="Informative"
 exl-id: 51cbe27f-3f3f-471e-a5d9-e3a88fcfdd68
-source-git-commit: d816b12ea88631d6682cf444e176622f8fc36d85
+source-git-commit: 67f1b70d4f55a0bfb289720c43b1ac8b336ab380
 workflow-type: tm+mt
-source-wordcount: '4540'
-ht-degree: 95%
+source-wordcount: '4840'
+ht-degree: 90%
 
 ---
 
@@ -34,6 +34,7 @@ La page **Rapport de campagne** s’affiche avec les onglets suivants en fonctio
 * [Courrier](#direct-mail)
 * [Web](#web)
 * [Carte de contenu](#content-card)
+* [Expériences basées sur le code](#code-based)
 
 Pour en savoir plus sur Customer Journey Analytics Workspace et sur le filtrage et l’analyse des données, consultez [cette page](https://experienceleague.adobe.com/fr/docs/analytics-platform/using/cja-workspace/home).
 
@@ -840,7 +841,64 @@ Le tableau **[!UICONTROL Libellés suivis]** offre un aperçu complet des libell
 
 * **[!UICONTROL Affichages]** : nombre d’ouvertures du message.
 
-* **[!UICONTROL Affichages uniques]** : nombre d’ouvertures du message, les interactions multiples d’un même profil ne sont pas prises en compte.
+* **[!UICONTROL Affichages uniques]** : nombre dʼouvertures du message, les multiples interactions dʼun même profil ne sont pas prises en compte.
 
 +++
 
+## Expériences basées sur le code {#code-based}
+
+### Afficher et cliquer {#impressions-code}
+
+![](assets/code-based-display-campaign.png)
+
+Les graphiques **[!UICONTROL Display &amp; Click]** présentent une analyse détaillée de l’engagement de vos profils avec vos expériences basées sur du code, ce qui vous offre des informations précieuses sur la manière dont les profils interagissent avec votre contenu.
+
++++ En savoir plus sur les mesures Impression et clic
+
+* **[!UICONTROL Clics uniques]** : nombre de profils ayant cliqué sur un contenu dans vos expériences.
+
+* **[!UICONTROL Clics]** : nombre de clics sur un contenu dans vos expériences.
+
+* **[!UICONTROL Affichages]** : nombre de fois où l’expérience a été ouverte.
+
+* **[!UICONTROL Affichages uniques]** : nombre de fois où l’expérience a été ouverte, plusieurs interactions d’un profil ne sont pas prises en compte.
+
++++
+
+### Données de suivi {#track-data-code}
+
+![](assets/code-based-tracking-data-campaign.png)
+
+La table **[!UICONTROL Données de suivi]** offre un instantané détaillé de l’activité de profil liée à vos expériences basées sur le code, ce qui vous donne des informations essentielles sur l’engagement et l’efficacité des expériences.
+
++++ En savoir plus sur les mesures de données de suivi
+
+* **[!UICONTROL Personnes]** : nombre de profils d’utilisateurs qualifiés de profils cibles pour vos expériences.
+
+* **[!UICONTROL Taux de clics (CTR)]** : pourcentage d’utilisateurs qui ont interagi avec vos expériences.
+
+* **[!UICONTROL Clics]** : nombre de clics sur un contenu dans vos expériences.
+
+* **[!UICONTROL Clics uniques]** : nombre de profils ayant cliqué sur un contenu dans vos expériences.
+
+* **[!UICONTROL Affichages]** : nombre de fois où votre expérience a été ouverte.
+
+* **[!UICONTROL Affichages uniques]** : nombre de fois où votre expérience a été ouverte, plusieurs interactions d’un profil ne sont pas prises en compte.
+
++++
+
+### Libellés des liens de suivi {#track-link-code}
+
+La table **[!UICONTROL Libellés de liens trackés]** offre un aperçu complet des libellés de liens dans vos expériences basées sur le code, en mettant en évidence ceux qui génèrent le plus fort trafic de visiteurs. Cette fonctionnalité vous permet d’identifier et de hiérarchiser les liens les plus populaires.
+
++++ En savoir plus sur les mesures des libellés des liens de suivi
+
+* **[!UICONTROL Clics uniques]** : nombre de profils ayant cliqué sur un contenu dans vos expériences basées sur le code.
+
+* **[!UICONTROL Clics]** : nombre de clics sur un contenu dans vos expériences basées sur le code.
+
+* **[!UICONTROL Affichages]** : nombre de fois où l’expérience a été ouverte.
+
+* **[!UICONTROL Affichages uniques]** : nombre de fois où l’expérience a été ouverte, plusieurs interactions d’un profil ne sont pas prises en compte.
+
++++
