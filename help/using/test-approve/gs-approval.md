@@ -3,8 +3,9 @@ title: Prise en main de la validation des parcours et campagnes
 description: Découvrez comment configurer un processus d’approbation pour vos parcours et campagnes.
 role: User
 level: Beginner
+feature: Approval
 badge: label="Disponibilité limitée" type="Informative"
-source-git-commit: dd4173698d7034173b7ae9f44afec397d62a6f78
+source-git-commit: 94114fac56b68aa0940ae9843f672823d64c19df
 workflow-type: tm+mt
 source-wordcount: '583'
 ht-degree: 18%

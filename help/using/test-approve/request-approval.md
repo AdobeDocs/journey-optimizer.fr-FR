@@ -3,8 +3,9 @@ title: Demander l’approbation
 description: Découvrez comment demander une approbation avant de publier vos parcours et campagnes.
 role: User
 level: Beginner
+feature: Approval
 badge: label="Disponibilité limitée" type="Informative"
-source-git-commit: dd4173698d7034173b7ae9f44afec397d62a6f78
+source-git-commit: 94114fac56b68aa0940ae9843f672823d64c19df
 workflow-type: tm+mt
 source-wordcount: '347'
 ht-degree: 3%
