@@ -9,18 +9,18 @@ role: User
 level: Intermediate
 badge: label="Disponibilité limitée" type="Informative"
 exl-id: bfd88d2a-e7b8-4e3b-85a1-4a14b0ba56dc
-source-git-commit: 40fde856e76d7e2d609ba90f93d4e07fe90f858f
+source-git-commit: bccbf4af4610486dd2d4141b902737c6328b1034
 workflow-type: tm+mt
-source-wordcount: '365'
-ht-degree: 86%
+source-wordcount: '389'
+ht-degree: 81%
 
 ---
 
 # Commencer avec la nouvelle interface de création de rapports {#channel-report-gs-cja}
 
->[!NOTE]
+>[!IMPORTANT]
 >
-> Pour rétablir la création de rapports traditionnelle de Journey Optimizer, il suffit de désactiver l’option **[!UICONTROL Utiliser la nouvelle expérience]**.
+>La création de rapports dans Adobe Journey Optimizer est actuellement normalisée en UTC. La possibilité de personnaliser le fuseau horaire des rapports sera introduite dans une prochaine version.
 
 La création de rapports Journey Optimizer est fournie avec une interopérabilité améliorée avec les fonctionnalités de Customer Journey Analytics, ce qui permet de normaliser la création de rapports sur les deux plateformes et d’améliorer la cohérence et la fiabilité des données. L’intégration transparente entre Journey Optimizer et Customer Journey Analytics fournit une meilleure visibilité des mesures de performance, ce qui aide les utilisateurs et les utilisatrices à prendre des décisions plus éclairées.
 
@@ -39,6 +39,10 @@ La création de rapports Journey Optimizer est fournie avec une interopérabili
 * Si vous souhaitez cibler des mesures pour toutes les campagnes et tous les parcours de votre environnement, accédez à la **Vue d’ensemble** du rapport en accédant au menu **[!UICONTROL Rapports]** dans la section **[!UICONTROL Gestion des parcours]**. [En savoir plus sur le rapport de vue d’ensemble](channel-report-cja.md)
 
   ![](assets/gs-cja-report-1.png)
+
+>[!NOTE]
+>
+> Pour rétablir la création de rapports traditionnelle de Journey Optimizer, il suffit de désactiver l’option **[!UICONTROL Utiliser la nouvelle expérience]**.
 
 ## Conditions préalables {#prerequisites}
 
