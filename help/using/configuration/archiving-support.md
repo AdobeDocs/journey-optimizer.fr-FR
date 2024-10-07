@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: archive, messages, HIPAA, CCI, e-mails
 exl-id: 186a5044-80d5-4633-a7a7-133e155c5e9f
-source-git-commit: 794724670c41e5d36ff063072a2e29c37dd5fadd
+source-git-commit: bbc64b4274cee083e6c35147314b230391b35317
 workflow-type: tm+mt
 source-wordcount: '1337'
-ht-degree: 84%
+ht-degree: 83%
 
 ---
 
@@ -28,7 +28,7 @@ Des réglementations telles que la loi HIPAA exigent que [!DNL Journey Optimizer
 
 >[!NOTE]
 >
->[!DNL Journey Optimizer] ne possède pas la prise en charge des exigences d’archivage des SMS. Pour une prise en charge dédiée de l’archivage, collaborez avec votre fournisseur SMS (Synch, Infobip ou Twilio).
+>[!DNL Journey Optimizer] ne possède pas la prise en charge des exigences d’archivage des SMS. Pour une prise en charge d’archivage dédiée, contactez votre fournisseur SMS (Sinch, Infobip ou Twilio).
 
 ## Utilisation de la fonctionnalité Cci pour les e-mails {#bcc-email}
 
