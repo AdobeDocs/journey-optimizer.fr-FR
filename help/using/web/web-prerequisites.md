@@ -6,10 +6,10 @@ topic: Content Management
 role: Admin
 level: Experienced
 exl-id: 9509fd67-6d12-4440-aad8-59690936be97
-source-git-commit: b8a71c43ad5b456bfc9ec9b9d3fba06049e604ed
+source-git-commit: d4dce7b31d898d86c330048e6d0a1587e87a617c
 workflow-type: tm+mt
-source-wordcount: '1136'
-ht-degree: 100%
+source-wordcount: '1134'
+ht-degree: 93%
 
 ---
 
@@ -127,19 +127,21 @@ Pour que l’expérience web soit correctement diffusée, les paramètres suivan
 
   [En savoir plus sur la vue Edge Delivery](https://experienceleague.adobe.com/fr/docs/experience-platform/assurance/view/edge-delivery)
 
-## Conditions préalables à l’expérience de contenu {#experiment-prerequisites}
+## Conditions préalables pour la création de rapports {#experiment-prerequisites}
 
-Pour activer les expériences de contenu pour le canal web, vous devez vous assurer que le [jeu de données](../data/get-started-datasets.md) utilisé dans le [train de données](https://experienceleague.adobe.com/docs/experience-platform/datastreams/overview.html?lang=fr){target="_blank"} de votre implémentation web est également inclus dans la configuration des rapports.
+Pour activer la création de rapports pour le canal web, vous devez vous assurer que le [jeu de données](../data/get-started-datasets.md) utilisé dans votre mise en oeuvre web [datastream](https://experienceleague.adobe.com/docs/experience-platform/datastreams/overview.html?lang=fr){target="_blank"} est également inclus dans votre configuration de création de rapports.
 
-En d’autres termes, lors de la configuration des rapports d’expérience, si vous ajoutez un jeu de données qui n’est pas présent dans votre train de données web, les données web ne s’afficheront pas dans les rapports d’expérience de contenu.
+En d’autres termes, lors de la configuration de la création de rapports, si vous ajoutez un jeu de données qui n’est pas présent dans votre flux de données web, les données web ne s’afficheront pas dans vos rapports.
 
-Découvrez comment ajouter des jeux de données pour les rapports d’expérience de contenu dans [cette section](../content-management/reporting-configuration.md#add-datasets).
+Découvrez comment ajouter des jeux de données pour la création de rapports dans [cette section](../reports/reporting-configuration.md#add-datasets).
 
 >[!NOTE]
 >
->Le jeu de données est utilisé en lecture seule par le système de création de rapports de [!DNL Journey Optimizer] et n’affecte pas la collecte ni l’ingestion de données.
+>Le jeu de données est utilisé en lecture seule par le système de création de rapports de [!DNL Journey Optimizer] et n’a aucune incidence sur la collecte ou l’ingestion de données.
 
 Si vous n’utilisez **pas** les [groupes de champs](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=fr#field-group){target="_blank"} prédéfinis suivants pour votre schéma du jeu de données : `AEP Web SDK ExperienceEvent` et `Consumer Experience Event` (comme défini dans [cette page](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/initial-configuration/configure-schemas.html?lang=fr#add-field-groups){target="_blank"}), assurez-vous d’ajouter les groupes de champs suivants : `Experience Event - Proposition Interactions`, `Application Details`, `Commerce Details` et `Web Details`. Ils participent à la création de rapports d’expérience de contenu de [!DNL Journey Optimizer], car ils effectuent le suivi des expériences et des traitements auxquels chaque profil participe.
+
+[En savoir plus sur la configuration des rapports](../reports/reporting-configuration.md)
 
 >[!NOTE]
 >

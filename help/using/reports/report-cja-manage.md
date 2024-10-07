@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 badge: label="Disponibilité limitée" type="Informative"
 exl-id: d2ff175a-8bca-4b62-931c-a909cfd9308d
-source-git-commit: 9be8b3864a41b37f3a61f24b6e6b54ec184d41aa
+source-git-commit: d4dce7b31d898d86c330048e6d0a1587e87a617c
 workflow-type: tm+mt
-source-wordcount: '889'
-ht-degree: 100%
+source-wordcount: '918'
+ht-degree: 95%
 
 ---
 
@@ -143,7 +143,8 @@ d. Open the report for the journey that you added the metric to and ensure that 
 
 >[!IMPORTANT]
 >
->Chaque organisation est limitée à la publication de 25 audiences. En outre, les utilisateurs et utilisatrices peuvent publier un maximum de 5 audiences par heure et 20 par jour.
+>Chaque organisation est limitée à la publication de 25 audiences. En outre, les utilisateurs peuvent publier un maximum de 5 audiences par heure et 20 par jour.
+> Les audiences ponctuelles ont une durée de vie de 48 heures. Par conséquent, si 25 audiences sont publiées au cours de cette période, les audiences supplémentaires ne peuvent être publiées qu’une fois la période de 48 heures écoulée.
 
 Vous pouvez désormais sélectionner des données spécifiques dans le tableau et créer directement une audience à partir de ces sélections, en rationalisant et en simplifiant le processus de création d’audience.
 

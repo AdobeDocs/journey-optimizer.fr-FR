@@ -6,10 +6,10 @@ feature: In App
 level: Intermediate
 keywords: in-app, message, configuration, platform
 exl-id: 469c05f2-652a-4899-a657-ddc4cebe3b42
-source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
+source-git-commit: d4dce7b31d898d86c330048e6d0a1587e87a617c
 workflow-type: tm+mt
-source-wordcount: '869'
-ht-degree: 100%
+source-wordcount: '867'
+ht-degree: 91%
 
 ---
 
@@ -109,19 +109,21 @@ Pour que les messages in-app soit correctement diffusés, les paramètres suivan
 
 Vous pouvez maintenant sélectionner votre configuration lors de la création de votre message in-app.
 
-## Conditions préalables à l’expérience de contenu {#experiment-prerequisites}
-
-Pour activer les expériences de contenu pour le canal in-app, vous devez vous assurer que le [jeu de données](../data/get-started-datasets.md) utilisé dans le [train de données](https://experienceleague.adobe.com/docs/experience-platform/datastreams/overview.html?lang=fr){target="_blank"} de votre implémentation in-app est également inclus dans la configuration des rapports.
-
-En d’autres termes, lors de la configuration des rapports d’expérience, si vous ajoutez un jeu de données qui n’est pas présent dans votre train de données web, les données web ne s’afficheront pas dans les rapports d’expérience de contenu.
-
-Découvrez comment ajouter des jeux de données pour les rapports d’expérience de contenu dans [cette section](../content-management/reporting-configuration.md#add-datasets).
+## Conditions préalables pour la création de rapports {#experiment-prerequisites}
 
 >[!NOTE]
 >
->Le jeu de données est utilisé en lecture seule par le système de création de rapports de [!DNL Journey Optimizer] et n’affecte pas la collecte ni l’ingestion de données.
+>Le jeu de données est utilisé en lecture seule par le système de création de rapports de [!DNL Journey Optimizer] et n’a aucune incidence sur la collecte ou l’ingestion de données.
+
+Pour activer la création de rapports pour le canal In-App, vous devez vous assurer que le [jeu de données](../data/get-started-datasets.md) utilisé dans votre mise en oeuvre in-app [datastream](https://experienceleague.adobe.com/docs/experience-platform/datastreams/overview.html?lang=fr){target="_blank"} est également inclus dans votre configuration de création de rapports.
+
+En d’autres termes, lors de la configuration de la création de rapports, si vous ajoutez un jeu de données qui n’est pas présent dans votre flux de données d’application, les données de l’application ne s’afficheront pas dans vos rapports.
+
+Découvrez comment ajouter des jeux de données pour la création de rapports dans [cette section](../reports/reporting-configuration.md#add-datasets).
 
 Si vous n’utilisez **pas** les [groupes de champs](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=fr#field-group){target="_blank"} prédéfinis suivants pour votre schéma du jeu de données : `AEP Web SDK ExperienceEvent` et `Consumer Experience Event` (comme défini dans [cette page](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/initial-configuration/configure-schemas.html?lang=fr#add-field-groups){target="_blank"}), assurez-vous d’ajouter les groupes de champs suivants : `Experience Event - Proposition Interactions`, `Application Details`, `Commerce Details` et `Web Details`. Ils participent à la création de rapports d’expérience de contenu de [!DNL Journey Optimizer], car ils effectuent le suivi des expériences et des traitements auxquels chaque profil participe.
+
+[En savoir plus sur la configuration des rapports](../reports/reporting-configuration.md)
 
 >[!NOTE]
 >

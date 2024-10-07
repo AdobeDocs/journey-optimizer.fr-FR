@@ -5,14 +5,14 @@ feature: Channel Configuration
 topic: Content Management
 role: Admin
 level: Experienced
-source-git-commit: 12cf3f9ed82350dd55b74de4596e10be9d5654ef
+source-git-commit: d4dce7b31d898d86c330048e6d0a1587e87a617c
 workflow-type: tm+mt
 source-wordcount: '265'
-ht-degree: 17%
+ht-degree: 18%
 
 ---
 
-# Prérequis pour les cartes de contenu {#content-card-configuration-prereq}
+# Conditions préalables des cartes de contenu {#content-card-configuration-prereq}
 
 Pour que Adobe Journey Optimizer affiche correctement les cartes de contenu, vous devez configurer les paramètres Adobe Experience Platform suivants :
 
@@ -45,4 +45,4 @@ Ajoutez le groupe de champs **Experience Event - Proposition Interaction** à vo
 
   Assurez-vous que le jeu de données utilisé dans la [datastream](https://experienceleague.adobe.com/en/docs/experience-platform/datastreams/overview#_blank) de votre application est également inclus dans votre configuration de création de rapports d’expérience de contenu. Les données de l’application ne s’afficheront pas dans les rapports si les jeux de données ne correspondent pas.
 
-  Découvrez comment ajouter des jeux de données pour les rapports d’expérience de contenu dans [cette section](../content-management/reporting-configuration.md).
+  Découvrez comment ajouter des jeux de données pour les rapports d’expérience de contenu dans [cette section](../reports/reporting-configuration.md).
