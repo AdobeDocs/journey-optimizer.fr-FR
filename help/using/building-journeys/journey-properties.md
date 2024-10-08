@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: parcours, configuration, propriétés
 exl-id: 6c21371c-6cbc-4d39-8fe6-39f1b8b13280
-source-git-commit: a3a0820565bbd8b2d8d0ce37e5b3e5ad37b064cf
+source-git-commit: e6da92e2459c83019a9bb72b79809fdf7cf68c98
 workflow-type: tm+mt
-source-wordcount: '2049'
+source-wordcount: '2048'
 ht-degree: 81%
 
 ---
@@ -278,18 +278,15 @@ Les critères de sortie sont définis au niveau du parcours. Un parcours peut co
 Pour **créer** un critère de sortie, procédez comme suit :
 
 1. Ouvrez votre parcours.
+
 1. Cliquez sur l’icône **[!UICONTROL Afficher les critères de sortie]** située dans la section supérieure droite du canevas de parcours.
-
-![](assets/exitcriteria_icon.png){width="40%" align="left"}
-
+   ![](assets/exitcriteria_icon.png){width="40%" align="left"}
 1. Cliquez sur le bouton **[!UICONTROL Ajouter des critères de sortie]** .
-
-![](assets/exitcriteria.png){width="40%" align="left"}
-
-1. Saisissez un **libellé** et sélectionnez si vos critères de sortie sont basés sur un événement ou une audience.
+   ![](assets/exitcriteria.png){width="40%" align="left"}
+1. Saisissez un **Libellé** et sélectionnez si vos critères de sortie sont basés sur un **Événement** ou une **Audience**.
 
 * Pour les critères de sortie basés sur un événement, sélectionnez uniquement un événement unitaire.
-* Pour les critères de sortie basés sur une audience, sélectionnez une audience. Remarque : Les critères de sortie utilisant une audience peuvent prendre jusqu’à 10 minutes pour être opérationnels.
+* Pour les critères de sortie basés sur une audience, sélectionnez une audience. Remarque : Pour être efficace, les critères de sortie à l’aide d’une audience peuvent prendre jusqu’à 10 minutes.
 
 Vous pouvez ajouter plusieurs critères de sortie.
 
