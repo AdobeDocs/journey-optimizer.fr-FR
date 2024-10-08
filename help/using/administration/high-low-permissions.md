@@ -9,9 +9,9 @@ role: Admin, Architect, Developer
 level: Experienced
 keywords: autorisation, haut niveau, bas niveau, profil, admin console
 exl-id: 1b286f9d-43ef-4b80-b4ee-136da857bb95
-source-git-commit: a3a0a1515823995e16865bfee9757f995b97c821
+source-git-commit: e18c3ecdd78565277c3661bfab282b4f241ab378
 workflow-type: tm+mt
-source-wordcount: '1069'
+source-wordcount: '1067'
 ht-degree: 100%
 
 ---
@@ -245,8 +245,6 @@ Par exemple, le rôle **[!DNL Journey administrator]** se voit attribuer lʼauto
       * schemas.read
       * segment.read
       * datasets.read
-      * datasets.write
-      * datasets.delete
 
 +++
 
