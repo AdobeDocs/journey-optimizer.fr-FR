@@ -9,10 +9,10 @@ role: User
 level: Beginner
 mini-toc-levels: 1
 exl-id: 10d2de34-23c1-4a5e-b868-700b462312eb
-source-git-commit: 8b92f0c2bc5dd44e9059154e4a9b40872ad802f8
+source-git-commit: 64eb253efbe73d151dd1c94f4e4cb51a35e9d1a4
 workflow-type: tm+mt
-source-wordcount: '1910'
-ht-degree: 100%
+source-wordcount: '2272'
+ht-degree: 78%
 
 ---
 
@@ -67,25 +67,15 @@ Vous pouvez utiliser les audiences dans **[!DNL Journey Optimizer]** de différe
 
 ## Utiliser les attributs d’enrichissement d’audiences {#enrichment}
 
-Lors du ciblage d’une audience générée à l’aide de workflows de composition, vous pouvez utiliser les attributs d’enrichissement de ces audiences pour créer votre parcours et personnaliser vos messages.
+Lors du ciblage d’une audience générée à l’aide de workflows de composition ou d’une audience personnalisée (fichier CSV), vous pouvez tirer parti des attributs d’enrichissement de ces audiences pour créer votre parcours et personnaliser vos messages.
 
-Pour utiliser les attributs d’enrichissement dans un parcours, assurez-vous qu’ils sont ajoutés à un groupe de champs dans la source de données « Experience Platform ».
+>[!NOTE]
+>
+>Les audiences créées par le biais d’un fichier CSV transféré et personnalisé avant le 1er octobre 2024 ne peuvent pas être personnalisées. Pour utiliser les attributs de ces audiences et tirer pleinement parti de cette fonctionnalité, recréez et rechargez toute audience CSV externe importée avant cette date.
+>
+>Les stratégies de consentement ne prennent pas en charge les attributs d’enrichissement. Par conséquent, toutes les règles de stratégie de consentement doivent être basées uniquement sur les attributs trouvés dans le profil.
 
-+++ Découvrez comment ajouter des attributs d’enrichissement à un groupe de champs.
-
-1. Accédez à « Administration » > « Configuration » > « Sources de données ».
-1. Sélectionnez « Experience Platform » et créez ou modifiez un groupe de champs.
-1. Ouvrez le sélecteur de champ, recherchez les attributs d’enrichissement que vous souhaitez ajouter, puis cochez la case en regard de ces attributs.
-1. Enregistrez vos modifications.
-
-Des informations détaillées sur les sources de données sont disponibles dans les sections suivantes :
-
-* [Utiliser la source de données Adobe Experience Platform](../datasource/adobe-experience-platform-data-source.md)
-* [Configurer une source de données](../datasource/configure-data-sources.md)
-
-+++
-
-Une fois les attributs d’enrichissement ajoutés à un groupe de champs, vous pouvez les utiliser à divers emplacements dans Journey Optimizer :
+Voici les actions que vous pouvez effectuer à l’aide des attributs d’enrichissement des audiences :
 
 * **Créez plusieurs chemins dans un parcours** en fonction de règles qui utilisent les attributs d’enrichissement de l’audience ciblée. Pour ce faire, ciblez l’audience à l’aide d’une activité [Lecture d’audience](../building-journeys/read-audience.md), puis créez des règles dans une activité [Condition](../building-journeys/condition-activity.md) basée sur les attributs d’enrichissement de l’audience.
 
@@ -95,9 +85,41 @@ Une fois les attributs d’enrichissement ajoutés à un groupe de champs, vous 
 
   ![](assets/audience-enrichment-attribute-perso.png){width="70%" zoomable="yes"}
 
->[!AVAILABILITY]
+>[!IMPORTANT]
 >
->Les attributs d’enrichissement de chargement personnalisé ne sont pas encore disponibles dans Journey Optimizer.
+>Pour utiliser des attributs d’enrichissement provenant d’audiences créées à l’aide de processus de composition, assurez-vous qu’elles sont ajoutées à un groupe de champs dans le Source de données &quot;Experience Platform&quot;.
+>
++++ Découvrez comment ajouter des attributs d’enrichissement à un groupe de champs.>
+>
+1. Accédez à « Administration » > « Configuration » > « Sources de données ».
+1. Sélectionnez « Experience Platform » et créez ou modifiez un groupe de champs.
+1. Dans le sélecteur de schéma, sélectionnez le schéma approprié. Le nom du schéma sera au format suivant : &#39;Schéma pour audienceId:&#39; + l&#39;identifiant de l&#39;audience. L’identifiant de l’audience se trouve dans l’écran des détails de l’audience de l’inventaire de l’audience.
+1. Ouvrez le sélecteur de champ, recherchez les attributs d’enrichissement que vous souhaitez ajouter, puis cochez la case en regard de ces attributs.
+1. Enregistrez vos modifications.
+1. Une fois les attributs d’enrichissement ajoutés à un groupe de champs, vous pouvez les exploiter dans Journey Optimizer aux emplacements répertoriés ci-dessus.
+>
+Des informations détaillées sur les sources de données sont disponibles dans les sections suivantes :
+>
+* [Utilisation de la source de données Adobe Experience Platform](../datasource/adobe-experience-platform-data-source.md)
+* [Configurer une source de données](../datasource/configure-data-sources.md)
+>
++++
+
+## Audiences de téléchargement personnalisées (fichier CSV) {#csv}
+
+Cette section fournit des informations clés à garder à l’esprit lorsque vous utilisez des audiences de téléchargement personnalisées (fichiers CSV) :
+
+* **Prise en charge de l’aperçu et du BAT pour les audiences CSV :** Actuellement, l’aperçu et le BAT ne sont pas pris en charge pour les audiences créées à l’aide du transfert CSV. Gardez cela à l’esprit lors de la planification de vos campagnes.
+
+* **Retards d’activation et de combinaison d’identités rapides :** l’architecture Adobe Experience Platform retarde la combinaison d’identités afin de rendre les audiences de chargement personnalisées immédiatement disponibles pour activation dans Journey Optimizer, avec les impacts suivants :
+
+   * Les audiences sont prêtes à être utilisées dans Journey Optimizer une fois l’ingestion terminée. Bien que ce soit généralement en moins d&#39;une heure, il est sujet à une certaine variabilité.
+   * Le nombre d’enregistrements activés peut différer du nombre de profils après combinaison d’identités.
+   * Chaque enregistrement du fichier CSV est activé, y compris les doublons. Lors de la prochaine exportation de profils UPS, ces enregistrements passeront par le regroupement d’identités.
+
+* **Ciblage de nouveaux profils à partir des téléchargements CSV :** Lorsqu’une correspondance est introuvable entre un enregistrement CSV et un profil UPS, un nouveau profil vide est créé. Ce profil est lié aux attributs d&#39;enrichissement stockés dans le lac de données. Ce nouveau profil étant vide, les champs de ciblage généralement utilisés dans Journey Optimizer (par exemple, personalEmail.address, mobilePhone.number) sont vides et ne peuvent donc pas être utilisés pour le ciblage.
+
+  Pour résoudre ce problème, vous pouvez spécifier le &quot;champ d’exécution&quot; (ou &quot;adresse d’exécution&quot; selon le canal) dans la configuration du canal comme &quot;identityMap&quot;. Ainsi, l’attribut choisi comme identité lors du transfert CSV sera celui utilisé pour le ciblage dans Journey Optimizer.
 
 ## Méthodes d’évaluation d’audience {#evaluation-method-in-journey-optimizer}
 
@@ -111,7 +133,7 @@ La segmentation par flux est un processus continu de sélection des données qui
 
 >[!NOTE]
 >
->Veillez à utiliser les événements appropriés comme critères de segmentation par streaming. [En savoir plus](#streaming-segmentation-events-guardrails)
+Veillez à utiliser les événements appropriés comme critères de segmentation par streaming. [En savoir plus](#streaming-segmentation-events-guardrails)
 
 +++
 
@@ -161,7 +183,7 @@ Par conséquent, pour obtenir des performances optimales en matière de segmenta
 
 >[!NOTE]
 >
->Vous pouvez utiliser les événements **Message ouvert** et **Message envoyé** dans la segmentation par lots sans souci de performances.
+Vous pouvez utiliser les événements **Message ouvert** et **Message envoyé** dans la segmentation par lots sans souci de performances.
 
 
 ## Questions fréquentes sur la composition d’audience et le chargement personnalisé {#faq}
@@ -178,7 +200,7 @@ Les audiences issues de la composition d’audience et du chargement personnalis
 
   >[!NOTE]
   >
-  >Pour les audiences de chargement personnalisé, si l’option « Lecture incrémentielle » est activée dans un parcours récurrent, les profils ne sont récupérés que lors de la première périodicité, car ces audiences sont fixes.
+  Pour les audiences de chargement personnalisé, si l’option « Lecture incrémentielle » est activée dans un parcours récurrent, les profils ne sont récupérés que lors de la première périodicité, car ces audiences sont fixes.
 
 Ces audiences peuvent également être utilisées dans l’éditeur de personnalisation pour personnaliser vos messages dans les parcours et les campagnes. [Découvrir comment utiliser l’éditeur de personnalisation](../personalization/personalization-build-expressions.md)
 
@@ -200,15 +222,11 @@ Les attributs d’enrichissement provenant de la composition de l’audience peu
 * Attributs d’action personnalisée (parcours)
 * Personnalisation des messages (parcours et campagnes)
 
->[!AVAILABILITY]
->
->Les attributs d’enrichissement de chargement personnalisé ne sont pas encore disponibles dans Journey Optimizer.
-
 +++
 
 +++ Comment activer les attributs d’enrichissement dans des parcours ?
 
-Pour utiliser les attributs d’enrichissement dans un parcours, assurez-vous qu’ils sont ajoutés à un groupe de champs dans la source de données « Experience Platform ». Vous trouverez des informations sur l’ajout d’attributs d’enrichissement à un groupe de champs dans [cette section](#enrichment).
+Pour utiliser des attributs d’enrichissement provenant d’audiences créées à l’aide de processus de composition, assurez-vous qu’elles sont ajoutées à un groupe de champs dans le Source de données &quot;Experience Platform&quot;. Vous trouverez des informations sur l’ajout d’attributs d’enrichissement à un groupe de champs dans [cette section](#enrichment).
 
 +++
 
