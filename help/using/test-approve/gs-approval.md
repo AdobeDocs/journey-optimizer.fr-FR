@@ -5,7 +5,7 @@ role: User
 level: Beginner
 feature: Approval
 badge: label="Disponibilité limitée" type="Informative"
-source-git-commit: 94114fac56b68aa0940ae9843f672823d64c19df
+source-git-commit: a3a0820565bbd8b2d8d0ce37e5b3e5ad37b064cf
 workflow-type: tm+mt
 source-wordcount: '583'
 ht-degree: 18%
@@ -85,6 +85,6 @@ Le processus global d&#39;approbation est le suivant :
 
 ## Surveiller les demandes d’approbation {#monitor}
 
-Vous pouvez surveiller toutes les demandes d’approbation et de modification qui ont été soumises pour un parcours ou une campagne donné. Pour ce faire, cliquez sur le bouton **[!UICONTROL Afficher le journal d’audit]** situé dans la section supérieure droite du canevas de parcours ou de l’écran de révision de la campagne.
+Vous pouvez surveiller toutes les demandes d’approbation et de modification qui ont été soumises pour un parcours ou une campagne donné. Pour ce faire, cliquez sur l’icône **[!UICONTROL Afficher le journal d’audit]** située dans la section supérieure droite du canevas de parcours ou de l’écran de révision de la campagne.
 
 ![](assets/monitor-requests.png)

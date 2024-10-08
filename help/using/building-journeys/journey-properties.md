@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: parcours, configuration, propriétés
 exl-id: 6c21371c-6cbc-4d39-8fe6-39f1b8b13280
-source-git-commit: a0c7dad29aabe6c377468a64b9638d7363f0b6f6
+source-git-commit: a3a0820565bbd8b2d8d0ce37e5b3e5ad37b064cf
 workflow-type: tm+mt
-source-wordcount: '1983'
+source-wordcount: '2049'
 ht-degree: 78%
 
 ---
@@ -261,45 +261,45 @@ Pour en savoir plus sur les politiques de fusion, consultez la [documentation d�
 >title="Critères de sortie de parcours"
 >abstract="Cette section présente les options des critères de sortie. Vous pouvez créer une ou plusieurs règles de critères de sortie pour votre parcours."
 
-### Description
+### Description {#exit-criteria-desc}
 
-Souvent, les marketeurs souhaitent supprimer des profils d’un parcours lorsqu’ils ne remplissent plus l’objectif du parcours. Pour ce faire, **critères de sortie globaux**, qui sont étroitement associés à la gestion des objectifs.
+En ajoutant des critères de sortie, vous faites quitter le parcours aux profils dès qu’un événement se produit (un achat, par exemple) ou qu’ils répondent aux critères d’une audience. Cela évite à l’utilisateur ou à l’utilisatrice de recevoir d’autres communications du parcours.
 
-**Exemple de cas d’utilisation :**
+Vous pouvez supprimer des profils d’un parcours lorsqu’ils ne remplissent plus l’objectif du parcours. Pour ce faire, **critères de sortie globaux**, qui sont étroitement associés à la gestion des objectifs.
 
-Un marketeur dispose d’un parcours promotionnel avec une série de communications. Chacune de ces communications a pour but de pousser le client à faire un achat. Dès que l&#39;achat est effectué, le client ne doit pas recevoir le reste des messages de la série. En définissant un critère de sortie, tous les profils ayant effectué un achat sont supprimés du parcours.
+**Exemple de cas d’utilisation**
 
-### Configuration et utilisation
+Un marketeur dispose d’un parcours promotionnel avec une série de communications. Chacune de ces communications a pour but de pousser le client à faire un achat. Dès que l’achat est effectué, le client ne doit pas recevoir le reste des messages de la série. En définissant un critère de sortie, tous les profils ayant effectué un achat sont supprimés du parcours.
 
-Les critères de sortie sont définis au niveau du parcours. Un parcours peut comporter plusieurs critères de sortie. Lorsque plusieurs critères de sortie sont définis, l’évaluation se fait de haut en bas avec une logique OU. Ainsi, si vous disposez des critères de sortie n°1 et n°2, ils seront évalués sous la forme n°1 **ou** n°2. Les critères sont évalués à chaque étape du parcours.
+### Configuration et utilisation {#exit-criteria-config}
 
-Pour **créer** un critère de sortie :
+Les critères de sortie sont définis au niveau du parcours. Un parcours peut comporter plusieurs critères de sortie. Lorsque plusieurs critères de sortie sont définis, l’évaluation se fait de haut en bas avec une logique `OR`. Ainsi, si vous disposez des critères de sortie A et de sortie B, ils seront évalués en tant que A **OR** B. Les critères sont évalués à chaque étape du parcours.
 
-* Cliquez sur l’icône suivante ![](assets/exitcriteria_icon.png){width="40%" align="left"} dans le rail de droite.
-* Cliquez sur le bouton **Ajouter des critères de sortie** .
+Pour **créer** un critère de sortie, procédez comme suit :
+
+1. Ouvrez votre parcours.
+1. Cliquez sur l’icône **[!UICONTROL Afficher les critères de sortie]** située dans la section supérieure droite du canevas de parcours.
+
+![](assets/exitcriteria_icon.png){width="40%" align="left"}
+
+1. Cliquez sur le bouton **[!UICONTROL Ajouter des critères de sortie]** .
 
 ![](assets/exitcriteria.png){width="40%" align="left"}
 
-* Vous pouvez ajouter plusieurs critères de sortie.
-* Saisissez un **libellé** et sélectionnez si vos critères de sortie sont basés sur un événement ou une audience.
+1. Saisissez un **libellé** et sélectionnez si vos critères de sortie sont basés sur un événement ou une audience.
 
-### Critères de sortie basés sur un événement
+* Pour les critères de sortie basés sur un événement, sélectionnez uniquement un événement unitaire.
+* Pour les critères de sortie basés sur une audience, sélectionnez une audience. Remarque : Les critères de sortie utilisant une audience peuvent prendre jusqu’à 10 minutes pour être opérationnels.
 
-Sélectionnez un événement unitaire uniquement.
+Vous pouvez ajouter plusieurs critères de sortie.
 
-![](assets/exitcriteria_event.png){width="40%" align="left"}
+![](assets/exitcriteria-sample.png){width="40%" align="left"}
 
-### Critères de sortie basés sur une audience
+### Mécanismes de sécurisation et limitations {#exit-criteria-guardrails}
 
-Choisissez une audience.
+Les barrières de sécurité et limitations suivantes s’appliquent à la fonctionnalité de critères de sortie de parcours :
 
-![](assets/exitcriteria_audience.png){width="40%" align="left"}
-
-Remarque : Les critères de sortie utilisant une audience peuvent prendre jusqu’à 10 minutes pour être opérationnels.
-
-### Contraintes et limitations
-
-* Les critères de sortie sont définis en état de brouillon
+* Les critères de sortie sont définis en état de brouillon uniquement
 * Cohérence de l’espace de noms de parcours entre les événements et les critères de sortie basés sur un événement
 
 
