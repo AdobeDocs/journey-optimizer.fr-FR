@@ -12,7 +12,7 @@ exl-id: 6c21371c-6cbc-4d39-8fe6-39f1b8b13280
 source-git-commit: a3a0820565bbd8b2d8d0ce37e5b3e5ad37b064cf
 workflow-type: tm+mt
 source-wordcount: '2049'
-ht-degree: 78%
+ht-degree: 81%
 
 ---
 
@@ -53,22 +53,22 @@ Le mode d’entrée des profils est défini au niveau du parcours, dans le volet
 
 La gestion des entrées de profil dépend du type de parcours. Pour en savoir plus sur la gestion des entrées et des entrées de profil, consultez [cette page](entry-management.md).
 
-### Autoriser la réentrée  {#allow-reentrance}
+### Autoriser une nouvelle entrée  {#allow-reentrance}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_properties_entrance"
->title="Autoriser la réentrée"
->abstract="Par défaut, les nouveaux parcours autorisent la réentrée. Vous pouvez décocher l&#39;option **Autoriser la rentrée** par exemple si vous souhaitez offrir un cadeau unique lorsqu&#39;une personne entre dans une boutique."
+>title="Autoriser une nouvelle entrée"
+>abstract="Par défaut, les nouveaux parcours autorisent une nouvelle entrée. Vous pouvez désélectionner l’option **Autoriser une nouvelle entrée** si vous souhaitez par exemple offrir un cadeau unique à un utilisateur ou une utilisatrice qui effectue sa première visite dans la boutique."
 >additional-url="https://experienceleague.adobe.com/fr/docs/journey-optimizer/using/orchestrate-journeys/manage-journey/entry-management" text="Gestion des entrées de profil"
 
-Par défaut, les nouveaux parcours autorisent la réentrée. Vous pouvez décocher l&#39;option **Autoriser la rentrée** pour les parcours &quot;à un tir&quot;, par exemple si vous souhaitez offrir un cadeau ponctuel lorsqu&#39;une personne entre dans une boutique.
+Par défaut, les nouveaux parcours autorisent une nouvelle entrée. Vous pouvez décocher l&#39;option **Autoriser la rentrée** pour les parcours &quot;à un tir&quot;, par exemple si vous souhaitez offrir un cadeau ponctuel lorsqu&#39;une personne entre dans une boutique.
 
-### Période d’attente de rentrée  {#reentrance-wait}
+### Période d’attente de nouvelle entrée  {#reentrance-wait}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_properties_re-entrance_wait"
->title="Période d’attente de rentrée"
->abstract="Définissez le temps d’attente avant de permettre à un profil de reprendre le parcours dans les parcours unitaires. Cela empêche les utilisateurs de revenir sur le parcours pendant une durée donnée. Durée maximale : 90 jours."
+>title="Période d’attente de nouvelle entrée"
+>abstract="Définissez le temps d’attente avant de permettre à un profil de reprendre le parcours dans les parcours unitaires. Cela empêche les utilisateurs et utilisatrices d’entrer de nouveau dans le parcours pendant une durée donnée. Durée maximale : 90 jours."
 >additional-url="https://experienceleague.adobe.com/fr/docs/journey-optimizer/using/orchestrate-journeys/manage-journey/entry-management" text="Gestion des entrées de profil"
 
 Lorsque l’option **Autoriser la rentrée** est activée, le champ **Période d’attente de rentrée** s’affiche. Ce champ vous permet de définir le temps d’attente avant d’autoriser un profil à entrer à nouveau dans un parcours pour les parcours unitaires (en commençant par un événement ou une qualification d’audience). Cela empêche les parcours d’être déclenchés plusieurs fois par erreur pour le même événement. Par défaut, le champ est défini sur 5 minutes. La durée maximale est de 90 jours.
