@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Notes de mise à jour d’Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: a3a0820565bbd8b2d8d0ce37e5b3e5ad37b064cf
+source-git-commit: 9b1153b321a0e73412eac45c66d469bbe4b81d38
 workflow-type: tm+mt
-source-wordcount: '1277'
-ht-degree: 72%
+source-wordcount: '1305'
+ht-degree: 70%
 
 ---
 
@@ -74,7 +74,9 @@ Les dernières fonctionnalités disponibles dans Adobe Journey Optimizer sont r�
 
 * (Date de disponibilité : 3 octobre) **Paramètres dans les actions personnalisées** - Les paramètres NULL et facultatifs sont désormais pris en charge dans les actions personnalisées. [En savoir plus](../action/about-custom-action-configuration.md#define-the-message-parameters)
 
+**Audiences**
 
+* Lors du ciblage d’une audience de fichier CSV, vous pouvez désormais utiliser les attributs du fichier dans l’éditeur de personnalisation et dans le créateur de règles de parcours et de campagnes. [En savoir plus](../audience/about-audiences.md)
 
 ## Notes de mise à jour de septembre 2024 {#24-9-rn}
 
