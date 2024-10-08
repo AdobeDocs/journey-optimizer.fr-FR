@@ -9,10 +9,10 @@ role: User
 level: Beginner
 keywords: créer, optimizer, campagne, surface, messages
 exl-id: 617d623c-e038-4b5b-a367-5254116b7815
-source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
+source-git-commit: e96aefefd8391d1a59a5a4f9d50c6ac819bf60f8
 workflow-type: tm+mt
-source-wordcount: '914'
-ht-degree: 100%
+source-wordcount: '907'
+ht-degree: 97%
 
 ---
 
@@ -65,7 +65,7 @@ Définissez la population ciblée par la campagne en suivant les étapes suivant
 
 >[!IMPORTANT]
 >
->L’utilisation d’audiences et d’attributs provenant de la [composition de l’audience](../audience/get-started-audience-orchestration.md) et du [chargement personnalisé (fichier CSV)](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=fr#import-audience) n’est actuellement pas disponible avec Healthcare Shield ou Privacy and Security Shield.
+>L’utilisation d’audiences et d’attributs provenant de la [composition d’audience](../audience/get-started-audience-orchestration.md) n’est actuellement pas disponible avec Healthcare Shield ou Privacy and Security Shield.
 >
 >Pour les campagnes déclenchées par API, l’audience doit être définie via un appel d’API.
 
