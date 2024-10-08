@@ -8,10 +8,10 @@ role: Data Engineer, Data Architect, Admin
 level: Experienced
 keywords: platform, lac de données, créer, lac, jeux de données, profil
 exl-id: dcdd3c81-0f00-4259-a8a5-9062a4c40b6f
-source-git-commit: ceead77b1b0f03d853f69c763a09c9fbd0584723
+source-git-commit: 979cb8270a4be4c7ad08db8f0a2e072d590906de
 workflow-type: tm+mt
-source-wordcount: '804'
-ht-degree: 100%
+source-wordcount: '860'
+ht-degree: 93%
 
 ---
 
@@ -35,15 +35,24 @@ Par défaut, seuls les jeux de données que vous avez ingérés s’affichent. S
 
 ![](assets/ajo-system-datasets.png)
 
+>[!NOTE]
+>
+>À compter du 1er novembre 2024, une barrière de sécurité TTL (time-to-live) sera appliquée sur les jeux de données générés par le système Journey Optimizer comme suit :
+>
+>* 90 jours pour les données dans la banque de profils
+>* 13 mois pour les données du lac de données
+>
+>En outre, à ce moment-là, la segmentation par flux ne prendra plus en charge l’utilisation des événements d’envoi et d’ouverture des jeux de données de suivi et de retour.
+
+
+
 Sélectionnez le nom d’un jeu de données pour accéder à l’écran Activité du jeu de données et consulter les détails du jeu de données que vous avez sélectionné. L’onglet activité contient un graphique qui permet de visualiser le taux de messages consommé ainsi qu’une liste des lots réussis et en échec.
 
 Les jeux de données système pour Adobe Journey Optimizer sont répertoriés ci-dessous.
 
-
 >[!CAUTION]
 >
 > Les jeux de données système **ne doivent pas être modifiés**. Toute modification est automatiquement annulée à chaque mise à jour du produit.
->
 
 **Création de rapports**
 
