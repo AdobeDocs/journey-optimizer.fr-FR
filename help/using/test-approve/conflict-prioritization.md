@@ -7,10 +7,10 @@ level: Beginner
 badge: label="Version bêta"
 hide: true
 hidefromtoc: true
-source-git-commit: 0322a13304875c4ba9ae8a9e7710fa2e71e459b3
+source-git-commit: ff529c9319a6eb5fe6762f30b739f2c39c3d5685
 workflow-type: tm+mt
-source-wordcount: '970'
-ht-degree: 27%
+source-wordcount: '1186'
+ht-degree: 22%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 27%
 
 Dans Journey Optimizer, la gestion du volume et du timing des campagnes et des parcours est essentielle pour éviter que les clients ne soient trop nombreux à avoir trop d’interactions. Les deux sections suivantes présentent des outils clés pour vous aider à maintenir l’équilibre et à hiérarchiser efficacement les communications.
 
-## Afficher les conflits potentiels dans les parcours et les campagnes {#conflict}
+## Identifier les conflits potentiels dans les parcours et campagnes {#conflict}
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_campaign_conflict"
@@ -43,9 +43,21 @@ Les principaux domaines à surveiller pour détecter un chevauchement potentiel 
 * **Audience** : quel pourcentage de mon audience de parcours fait également partie d’autres parcours ?
 * **Canal** : Existe-t-il d’autres communications programmées pour la même période, et si oui, combien ?
 * **Jeu de règles de limitation** : quels types de parcours suis-je en train de plafonner et y a-t-il chevauchement dans ceux-ci ?
-* **Configuration de canal** : Existe-t-il d’autres parcours ou campagnes utilisant cette configuration de canal qui pourraient empêcher l’affichage de cette campagne à l’utilisateur ?
+* **Configuration de canal** : existe-t-il d’autres parcours ou campagnes utilisant une configuration de canal utilisée dans le même parcours ou la même campagne qui peut empêcher l’affichage du parcours ou de la campagne à l’utilisateur final ?
 
-Journey Optimizer vous permet de vérifier chaque fois qu’il existe un risque de chevauchement avec d’autres parcours ou campagnes. Pour ce faire, procédez comme suit :
+### Détection des conflits par Journey Optimizer {#detection}
+
+Vous trouverez ci-dessous un résumé de la manière dont Journey Optimizer identifie les conflits potentiels pour les parcours et les campagnes :
+
+* **Portée d’identification des conflits** : les conflits s’affichent uniquement pour les campagnes et les parcours en direct ou planifiés.
+* **parcours unitaires** : si le parcours sélectionné est unitaire, d’autres parcours commençant par le même événement s’affichent, car cet événement déclenchera tous ces parcours.
+* **Qualification de l’audience et Lecture de l’audience/de l’événement professionnel** parcours : si le parcours sélectionné est une qualification d’audience ou un parcours Lecture d’audience/d’événement professionnel, tous les autres parcours du même type avec une audience valide sont affichés, car il peut y avoir des chevauchements entre les audiences.
+* **Campagnes** : comme toutes les campagnes ciblent des audiences et qu’il n’existe aucun concept d’événement, toutes les campagnes peuvent entrer en conflit avec des parcours déclenchés par un segment (en commençant par une activité Lecture d’audience).
+* **Campagnes en direct/planifiées** : les campagnes en direct et planifiées peuvent entrer en conflit les unes avec les autres en raison d’un chevauchement d’audiences potentiel. Pour une campagne donnée, toutes les campagnes en direct ou planifiées sont répertoriées dans la visionneuse de conflits.
+
+### Affichage des conflits identifiés pour un parcours ou une campagne spécifique {#view}
+
+Lors de la création d’un parcours ou d’une campagne, Journey Optimizer vous permet de vérifier chaque fois qu’il existe un risque de chevauchement avec d’autres parcours ou campagnes. Pour ce faire, procédez comme suit :
 
 1. Au moment de créer un parcours ou une campagne, cliquez sur le bouton **[!UICONTROL Afficher les conflits potentiels]** dans les propriétés du parcours ou de la campagne.
 
@@ -61,11 +73,15 @@ Journey Optimizer vous permet de vérifier chaque fois qu’il existe un risque 
 
    ![](assets/potential-conflicts.png)
 
->[!NOTE]
->
->Pour affiner davantage votre recherche de superpositions potentielles, vous pouvez filtrer votre liste de campagnes et de parcours en fonction du ou des champs pertinents. Pour ce faire, sélectionnez l’icône de filtre dans la vue de stock. [Découvrez comment utiliser les filtres](../start/search-filter-categorize.md#filter-lists)
+   >[!NOTE]
+   >
+   >Les nouvelles campagnes publiées peuvent prendre jusqu’à 5 minutes pour s’afficher dans la visionneuse de conflits en raison de la mise en cache implémentée.
 
-Une fois les chevauchements potentiels identifiés, Journey Optimizer fournit plusieurs moyens de les résoudre.
+Pour affiner davantage votre recherche de superpositions potentielles, vous pouvez filtrer votre liste de campagnes et de parcours en fonction du ou des champs pertinents. Pour ce faire, sélectionnez l’icône de filtre dans la vue de stock. [Découvrez comment utiliser les filtres](../start/search-filter-categorize.md#filter-lists)
+
+### Résoudre les conflits {#resolve}
+
+Voici quelques conseils pour réduire les conflits potentiels une fois identifiés :
 
 * Ajustez les **dates de début/fin** pour éviter le chevauchement de campagnes ou de parcours.
 * Affinez le **ciblage d’audience** afin de minimiser le chevauchement entre les parcours.
@@ -99,4 +115,4 @@ Pour attribuer un score de priorité à un parcours ou à une campagne, saisisse
 
 ![](assets/priority-score.png)
 
-Dans les cas où deux campagnes ont le même score de priorité, la campagne la moins récemment activée s’affiche.
+Dans les cas où deux campagnes ont le même score de priorité, la campagne qui a été activée en premier s’affiche.
