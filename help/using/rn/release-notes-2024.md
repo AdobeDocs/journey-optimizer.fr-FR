@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: bae533c5-1bfc-48bf-9f8d-1145383c040c
-source-git-commit: 12c3c1e2d6dabdc5c9b741742fd36c35c8b0992c
+source-git-commit: 9bd4f854292f4928216c9ad4602098930743c1bd
 workflow-type: tm+mt
-source-wordcount: '3850'
-ht-degree: 96%
+source-wordcount: '3842'
+ht-degree: 95%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 96%
 Cette page répertorie toutes les fonctionnalités et améliorations pour [!DNL Journey Optimizer] publiées en 2024.
 
 
-## Notes de mise à jour d’août 2024 {#8-2024}
+## Version du 24 août {#8-2024}
 
 **Date de publication** : 20-21 août 2024
 
@@ -148,7 +148,7 @@ Cette version apporte les améliorations répertoriées ci-dessous.
 
 
 
-## Notes de mise à jour de juillet 2024 {#24-7-2024}
+## Version du 24 juillet {#24-7-2024}
 
 **Date de version** : 30-31 juillet 2024
 
@@ -199,7 +199,7 @@ Cette version est fournie avec les améliorations répertoriées ci-dessous.
 
 
 
-## Notes de mise à jour de juin 2024 {#24-6-2024}
+## Version du 24 juin {#24-6-2024}
 
 **Date de publication** : 18-19 juin 2024
 
@@ -344,7 +344,6 @@ En savoir plus dans la documentation sur les [fragments de contenu](../content-m
 * **Les politiques de fusion** sont maintenant disponibles de manière générale : les politiques de fusion utilisées par un parcours sont désormais visibles et cohérentes dans l’ensemble du parcours. [En savoir plus](../building-journeys/journey-properties.md#merge-policies)
 
 
-
 #### Campagnes
 
 * Lors de la création d’une campagne dans Adobe Journey Optimizer, vous pouvez désormais choisir le type de campagne (planifiée ou déclenchée) dans une nouvelle boîte de dialogue modale. [En savoir plus](../campaigns/create-campaign.md)
@@ -376,7 +375,7 @@ En savoir plus dans la documentation sur les [fragments de contenu](../content-m
 
 
 
-## Notes de mise à jour de mai 2024 {#may-2024}
+## Version du 24 mai {#may-2024}
 
 **Date de publication** : 21-22 mai 2024
 
@@ -525,9 +524,7 @@ De la version bêta à cette version, les améliorations suivantes ont été ajo
 Dans le cadre de nos efforts continus pour offrir une expérience utilisateur et utilisatrice unifiée, nous harmonisons la terminologie utilisée dans les produits et applications Adobe Experience Cloud. Cela concerne le terme allemand « Titel » qui est remplacé par « Label » lorsqu’il se rapporte au nom d’un objet. Les modifications seront progressivement déployées dans l’interface utilisateur et dans la documentation.
 
 
-
-
-## Notes de mise à jour d’avril 2024 {#apr-2024}
+## Version du 24 avril {#apr-2024}
 
 **Date de publication** : 2 mai 2024
 
@@ -636,7 +633,7 @@ Cette version est fournie avec les améliorations répertoriées ci-dessous.
 
 
 
-## Notes de mise à jour de mars 2024 {#mar-2024}
+## Version du 24 mars {#mar-2024}
 
 **Date de publication** : 19-20 mars 2024
 
@@ -686,7 +683,7 @@ De nouveaux statuts intermédiaires ont été ajoutés au cycle de vie de créat
 
 Lorsqu’un parcours se trouve dans un état intermédiaire, il est en lecture seule. [En savoir plus](../building-journeys/journey-gs.md#filter)
 
-## Notes de mise à jour de février 2024 {#feb-2024}
+## Version du 24 février {#feb-2024}
 
 **Date de publication** : 21-22 février 2024
 
@@ -772,7 +769,7 @@ Antérieurement disponibles en version bêta, les améliorations suivantes sont 
 * **Capping rules** - You can now add **multiple capping rules** for one offer. This allows you to increase the level of control over the way offers are sent.-->
 
 
-## Notes de mise à jour de janvier 2024 {#jan-2024}
+## Version du 24 janvier {#jan-2024}
 
 **Date de publication** : 30-31 janvier 2024
 
