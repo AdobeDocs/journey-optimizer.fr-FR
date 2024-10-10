@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Notes de mise à jour d’Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 5c9802eaa3fa35a43f53ef5dd86495b502149a04
+source-git-commit: ff2ad535b0919c3c9d8cf098dfcedf3f9ea8bba6
 workflow-type: tm+mt
-source-wordcount: '1333'
-ht-degree: 69%
+source-wordcount: '1331'
+ht-degree: 67%
 
 ---
 
@@ -26,11 +26,11 @@ ht-degree: 69%
 
 ![Newsletter](../assets/do-not-localize/nl-icon.png) Inscrivez-vous à la [newsletter trimestrielle d’Adobe Journey Optimizer](https://www.adobe.com/subscription/Adobe_Journey_Optimizer_NL.html){target="_blank"} dès aujourd’hui, et recevez les dernières mises à jour produits, les articles les plus intéressants, des cas pratiques, des conseils et bien plus encore, directement dans votre boîte de réception, tous les trimestres.
 
-## Mises à jour d’octobre 2024 {#24-10-rn}
+## Mises à jour du 24 octobre {#24-10-rn}
 
 ### Nouvelles fonctionnalités {#24-10-features}
 
-Les dernières fonctionnalités disponibles dans Adobe Journey Optimizer sont répertoriées ci-dessous.
+Les nouvelles fonctionnalités disponibles dans Adobe Journey Optimizer sont répertoriées ci-dessous.
 
 <table>
 <thead>
@@ -41,11 +41,10 @@ Les dernières fonctionnalités disponibles dans Adobe Journey Optimizer sont r�
 <tbody>
 <tr>
 <td>
-<p>Date de disponibilité : 1er octobre</p>
 <p>Grâce au canal d’expérience basé sur le code, Adobe Journey Optimizer vous permet d’effectuer des tests et une personnalisation avancés pour l’une de vos propriétés entrantes, ce qui vous permet de diffuser facilement des expériences personnalisées sur différents points de contact tels que des applications web, des applications mobiles, des applications de bureau, des consoles vidéo, des périphériques connectés à la télévision, des téléviseurs intelligents, des kiosques, des distributeurs automatiques, des périphériques IoT, etc. Le canal d’expérience basé sur le code est désormais disponible dans la zone de travail du parcours.</p>
 <p>Pour plus d’informations, consultez la <a href="../code-based/create-code-based.md">documentation détaillée</a>.</p>
 <img src="../assets/do-not-localize/code-based-journey.gif"/>
-<p>Date de disponibilité : 1er octobre</p>
+<p>Date de disponibilité : 1er octobre 2024</p>
 </tr>
 </tbody>
 </table>
@@ -59,28 +58,27 @@ Les dernières fonctionnalités disponibles dans Adobe Journey Optimizer sont r�
 <tbody>
 <tr>
 <td>
-<p>Date de disponibilité : 1er octobre</p>
 <p>Avec le canal web, Adobe Journey Optimizer vous permet de personnaliser l’expérience web que vous diffusez à vos clients par le biais de parcours web entrants. Le canal web est désormais disponible dans le canevas de parcours.</p>
 <p>Pour plus d’informations, consultez la <a href="../web/create-web.md">documentation détaillée</a>.</p>
 <img src="../assets/do-not-localize/web-journey.gif"/>
-<p>Date de disponibilité : 1er octobre</p>
+<p>Date de disponibilité : 1er octobre 2024</p>
 </tr>
 </tbody>
 </table>
 
 ### Améliorations {#24-10-improvements}
 
-**Parcours**
+**Parcours** - Date de disponibilité : 3 octobre 2024
 
-* (Date de disponibilité : 3 octobre) **Paramètres dans les actions personnalisées** - Les paramètres NULL et facultatifs sont désormais pris en charge dans les actions personnalisées. [En savoir plus](../action/about-custom-action-configuration.md#define-the-message-parameters)
+* **Paramètres dans les actions personnalisées** - Les paramètres NULL et facultatifs sont désormais pris en charge dans les actions personnalisées. [En savoir plus](../action/about-custom-action-configuration.md#define-the-message-parameters)
 
-**Audiences** - Date de disponibilité : 8 octobre
+**Audiences** - Date de disponibilité : 8 octobre 2024
 
 * Lors du ciblage d’une audience de fichier CSV, vous pouvez désormais utiliser les attributs du fichier dans l’éditeur de personnalisation et dans le créateur de règles de parcours et de campagnes. [En savoir plus](../audience/about-audiences.md)
 
 * L’utilisation d’audiences et d’attributs à partir d’un téléchargement personnalisé (fichier CSV) est désormais disponible avec Healthcare Shield ou Privacy and Security Shield.
 
-## Notes de mise à jour de septembre 2024 {#24-9-rn}
+## Version du 24 septembre {#24-9-rn}
 
 <!--
 >[!CAUTION]
@@ -164,36 +162,6 @@ Cette version apporte les nouvelles fonctionnalités détaillées ci-dessous.
 </tbody>
 </table>
 
-<!--table>
-<thead>
-<tr>
-<th><strong>Code-based experiences in journeys</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>With the Code-based experience channel, Adobe Journey Optimizer allows you to do advanced personalization and testing for any of your inbound properties, enabling seamless delivery of tailored experiences across diverse touchpoints such as web apps, mobile apps, desktop apps, video consoles, TV connected devices, smart TVs, kiosks, ATMs, IoT devices, and more. The Code-based experience channel is now available in the journey canvas.</p>
-<p>For more information, refer to the <a href="../code-based/get-started-code-based.md">detailed documentation</a>.</p>
-</tr>
-</tbody>
-</table-->
-
-<!--table>
-<thead>
-<tr>
-<th><strong>Web experiences in journeys</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>With the Web channel, Adobe Journey Optimizer allows you to personalize the web experience you deliver to your customers through inbound web journeys. The Web channel is now available in the journey canvas.</p>
-<p>For more information, refer to the <a href="../web/get-started-web.md">detailed documentation</a>.</p>
-</tr>
-</tbody>
-</table-->
-
 <table>
 <thead>
 <tr>
@@ -207,7 +175,7 @@ Cette version apporte les nouvelles fonctionnalités détaillées ci-dessous.
 <p>Découvrez une expérience pratique avec <a href="https://experienceleague.adobe.com/fr/apps/journey-optimizer/ai-assistant-content-accelerator">notre aperçu des fonctionnalités en direct</a>, conçu pour vous permettre d’explorer directement ses fonctionnalités et de les comprendre pleinement.</a>.</p>
 <p>Pour plus d’informations, consultez la <a href="../content-management/gs-generative.md">documentation détaillée</a>.</p>
 <img src="assets/do-not-localize/ai-content.gif"/>
-<p>Date de disponibilité : 12 septembre</p>
+<p>Date de disponibilité : 12 septembre 2024</p>
 </td>
 </tr>
 </tbody>
@@ -225,7 +193,7 @@ Cette version apporte les nouvelles fonctionnalités détaillées ci-dessous.
 <p>La configuration de canal guidée vous permet d’automatiser et de valider la configuration de canal dans une expérience unifiée, ce qui accélère le processus de prise en main de Journey Optimizer. Cette nouvelle configuration guidée simplifie la configuration rapide des canaux, en s’assurant que toutes les ressources nécessaires sont facilement installées et qu’elles fonctionnent dans Experience Platform, Journey Optimizer et la Collecte de données. Cela permet aux équipes d’ingénierie marketing, produit et données de lancer rapidement la création de campagnes et de parcours.</p>
 <p>Pour plus d’informations, consultez la <a href="../configuration/set-mobile-config.md">documentation détaillée</a>.</p>
 <img src="assets/do-not-localize/guided-setup.gif"/>
-<p>Date de disponibilité : 3 septembre</p>
+<p>Date de disponibilité : 3 septembre 2024</p>
 </br>
 </td>
 </tr>
@@ -243,10 +211,10 @@ Cette version apporte les nouvelles fonctionnalités détaillées ci-dessous.
 
 Cette version est fournie avec les améliorations répertoriées ci-dessous.
 
-**Audiences**
+**Audiences** - Date de disponibilité : 17 septembre 2024
 
 <!--* The use of audiences from custom upload (CSV file) is now available for use with Privacy and Security Shield add-on.-->
-* (Date de disponibilité : 17 septembre) **Utilisation de la licence** : le tableau de bord Utilisation de la licence affiche désormais les profils engageables, au lieu des audiences engageables. [En savoir plus](../audience/license-usage.md)
+* **Utilisation de la licence** - Le tableau de bord Utilisation de la licence affiche désormais les profils activables au lieu des audiences activables. [En savoir plus](../audience/license-usage.md)
 
 **Gestion de contenu**
 
