@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Notes de mise à jour d’Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: ff2ad535b0919c3c9d8cf098dfcedf3f9ea8bba6
+source-git-commit: 6b721c04db34fecae2274604113061e4e97db149
 workflow-type: tm+mt
-source-wordcount: '1331'
-ht-degree: 67%
+source-wordcount: '1489'
+ht-degree: 61%
 
 ---
 
@@ -71,6 +71,16 @@ Les nouvelles fonctionnalités disponibles dans Adobe Journey Optimizer sont ré
 **Parcours** - Date de disponibilité : 3 octobre 2024
 
 * **Paramètres dans les actions personnalisées** - Les paramètres NULL et facultatifs sont désormais pris en charge dans les actions personnalisées. [En savoir plus](../action/about-custom-action-configuration.md#define-the-message-parameters)
+
+**Gouvernance des données et politiques de consentement** - Date de disponibilité : 7 octobre 2024
+
+* L’application **des stratégies de gouvernance des données** a désormais lieu sur tous les canaux dans Journey Optimizer. Pour les clients qui ont créé des stratégies dans Adobe Experience Platform, elles sont appliquées aux actions marketing dans le cadre de la configuration des canaux. Lorsque vous créez du contenu à l’aide d’une configuration, le système vérifie tous les champs de personnalisation à la recherche de toute violation de gouvernance des données. Si une violation est trouvée, la publication d’un parcours ou d’une campagne ne sera pas possible. [En savoir plus](../action/action-privacy.md)
+
+* **Les stratégies de consentement personnalisé** s’appliquent désormais à tous les canaux Journey Optimizer. Lors de l’application avant l’envoi d’un message ou la diffusion d’une expérience entrante, le système vérifie que l’utilisateur a donné son consentement pour utiliser des champs de personnalisation dans le contenu qu’il recevra. Si aucun consentement n’est donné, l’expérience ne s’affiche pas. [En savoir plus](../action/consent.md)
+
+  >[!NOTE]
+  >
+  >Les politiques de consentement ne sont actuellement disponibles que pour les organisations qui ont acheté les offres complémentaires Adobe **Healthcare Shield** et **Privacy and Security Shield**.
 
 **Audiences** - Date de disponibilité : 8 octobre 2024
 
