@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
-source-git-commit: d4dce7b31d898d86c330048e6d0a1587e87a617c
+source-git-commit: 72bda999c9e866398375422d8419516e5fea97b5
 workflow-type: tm+mt
-source-wordcount: '1507'
+source-wordcount: '1505'
 ht-degree: 98%
 
 ---
@@ -214,16 +214,14 @@ Pour modifier la langue :
 >abstract="Type de règle"
 
 >[!CONTEXTUALHELP]
+>id="ajo_rule_set_rule_capping"
+>title="Limitation des règles"
+>abstract="Limitation des règles"
+
+>[!CONTEXTUALHELP]
 >id="ajo_rule_set_concurrency_prioritization"
 >title="Avenir de la priorité"
 >abstract=" Si un parcours de priorité plus élevée est planifié dans la période spécifiée ici, le client ou la cliente ne pourra pas entrer dans ce parcours. Dans les cas où vous souhaitez que les parcours soient accessibles sur la base du premier arrivé, premier servi, nous vous suggérons de choisir la période d’anticipation quotidienne et de vous assurer que le score de priorité de tout autre parcours ce jour-là est inférieur au score de priorité du parcours. Un score de priorité de 100 à un parcours garantirait également son accessibilité."
-
->[!CONTEXTUALHELP]
->id="ajo_campaigns_capping_rule"
->title="Appliquer un jeu de règles aux campagnes"
->abstract="À déterminer"
-
-<!--TO REMOVE?-->
 
 >[!CONTEXTUALHELP]
 >id="ajo_rule_set_prioritization"

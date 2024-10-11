@@ -9,9 +9,9 @@ role: User
 level: Beginner
 keywords: créer, optimizer, campagne, surface, messages
 exl-id: 617d623c-e038-4b5b-a367-5254116b7815
-source-git-commit: e96aefefd8391d1a59a5a4f9d50c6ac819bf60f8
+source-git-commit: 72bda999c9e866398375422d8419516e5fea97b5
 workflow-type: tm+mt
-source-wordcount: '907'
+source-wordcount: '858'
 ht-degree: 97%
 
 ---
@@ -33,11 +33,6 @@ Pour créer une campagne, accédez au menu **[!UICONTROL Campagnes]**, puis cliq
 >id="ajo_campaigns_campaign_type"
 >title="Type de campagne"
 >abstract="Les **campagnes planifiées** sont exécutées immédiatement ou à une date spécifiée et sont destinées à envoyer des messages de type marketing. Les campagnes **déclenchées par API** sont exécutées à l’aide d’un appel API. Elles sont destinées à envoyer soit des messages marketing (messages promotionnels nécessitant le consentement de la personne), soit des messages transactionnels (messages non commerciaux, qui peuvent également être envoyés à des profils désabonnés dans des contextes spécifiques)."
-
->[!CONTEXTUALHELP]
->id="ajo_campaigns_campaign_category"
->title="Catégorie de campagne"
->abstract="Si vous créez une campagne planifiée, le type **marketing** est automatiquement sélectionné. Pour les campagnes déclenchées par l’API, choisissez si vous souhaitez envoyer un message **marketing** (message promotionnel nécessitant le consentement de la personne) ou un message **transactionnel** (message non commercial, qui peut également être envoyé à des profils désabonnés dans des contextes spécifiques)."
 
 1. Sélectionner le type de campagne que vous souhaitez exécuter.
 
