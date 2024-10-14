@@ -6,9 +6,9 @@ topic: Content Management
 role: Admin
 level: Experienced
 exl-id: 1aff2f6f-914c-4088-afd8-58bd9edfe07d
-source-git-commit: e3c597f66436e8e0e22d06f1905fc7ca9a9dd570
+source-git-commit: 83c8417d4aee278eba33e4adf6ccd033bcc6be1a
 workflow-type: tm+mt
-source-wordcount: '1514'
+source-wordcount: '1531'
 ht-degree: 42%
 
 ---
@@ -160,7 +160,7 @@ Pour définir les paramètres de configuration de l’expérience basés sur du 
 
 1. Sélectionnez **[!UICONTROL Autre]** comme plateforme si votre mise en oeuvre n’est pas destinée au Web, à iOS ou à Android, ou si vous devez cibler des URI spécifiques.
 
-1. Saisissez l’ **[!UICONTROL URI de surface]**. [En savoir plus](#surface-definition)
+1. Saisissez l’ **[!UICONTROL URI de surface]**. Un URI de surface est un identifiant unique correspondant à l’entité dans laquelle vous souhaitez diffuser votre expérience. [En savoir plus](#surface-definition)
 
    ![](assets/code_config_5.png)
 
@@ -174,7 +174,7 @@ Pour définir les paramètres de configuration de l’expérience basés sur du 
    >
    >Lors de l’ajout de plusieurs URI, le contenu est diffusé à tous les composants répertoriés.
 
-## Qu’est-ce qu’un URI de surface ? {#surface-definition}
+## Qu’est-ce qu’une surface ? {#surface-definition}
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_surface_uri"
