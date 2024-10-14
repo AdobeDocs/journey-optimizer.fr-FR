@@ -9,7 +9,7 @@ role: User
 level: Beginner
 exl-id: 6e291ce3-f324-4e5d-975b-5229dea4d581
 source-git-commit: 9de2f498e104d316491e6061cbd851b2eb506036
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '884'
 ht-degree: 100%
 
@@ -20,16 +20,16 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="ajo_ai_generation_settings"
 >title="Assistant IA dans Journey Optimizer pour l’accélération de contenu"
->abstract="Une fois que vous avez conçu et personnalisé votre diffusion, vous pouvez utiliser l’assistant IA dans Journey Optimizer pour l’accélération de contenu pour améliorer votre contenu. Cette fonctionnalité simplifie le processus de personnalisation et d’amélioration du contenu en vous permettant d’affiner le contenu en décrivant ce que vous souhaitez générer."
+>abstract="Une fois que vous avez conçu et personnalisé votre diffusion, vous pouvez utiliser l’assistant IA dans Journey Optimizer pour l’accélération de contenu afin d’améliorer votre contenu. Cette fonctionnalité simplifie le processus de personnalisation et d’amélioration du contenu en vous permettant d’affiner le contenu à travers la description de ce que vous souhaitez générer."
 
 >[!CONTEXTUALHELP]
 >id="ajo_ai_generation_context"
 >title="Charger une ressource de marque"
->abstract="Le menu Charger une ressource de marque permet d’ajouter toute ressource de marque incluant du contenu pouvant fournir du contexte supplémentaire à l’assistant IA dans Journey Optimizer pour l’accélération de contenu ou d’en sélectionner une chargée précédemment. Cette option permet de s’assurer que l’Assistant IA a accès à tous les supports nécessaires pour améliorer ses fonctionnalités et sa pertinence."
+>abstract="Le menu Charger une ressource de marque permet d’ajouter une ressource de marque qui inclut du contenu capable de fournir un contexte supplémentaire à l’assistant IA dans Journey Optimizer pour l’accélération. Il permet également de sélectionner une ressource de marque téléchargée précédemment. Cette option permet de s’assurer que l’Assistant IA a accès à tous les supports nécessaires pour améliorer ses fonctionnalités et sa pertinence."
 
 >[!CONTEXTUALHELP]
 >id="ajo_ai_generation_start"
->title="Conditions d’IA générative Adobe"
+>title="Conditions de l’IA Generative d’Adobe"
 >abstract="L’accès à cette fonctionnalité est soumis à votre accord des directives d’utilisation de l’IA générative d’Adobe Experience Cloud. Vous devez vérifier la précision des résultats produits par cette fonctionnalité et vous assurer qu’ils sont adaptés à votre cas d’utilisation."
 >additional-url="https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html" text="Directives d’utilisation de l’IA générative d’Adobe"
 
