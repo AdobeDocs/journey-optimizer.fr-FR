@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Experienced
 exl-id: 25c2c448-9380-47b0-97c5-16d9afb794c5
-source-git-commit: 503bedc30c35305537c62f9452f4a2dc07424523
+source-git-commit: e3c597f66436e8e0e22d06f1905fc7ca9a9dd570
 workflow-type: tm+mt
-source-wordcount: '1172'
-ht-degree: 52%
+source-wordcount: '1215'
+ht-degree: 50%
 
 ---
 
@@ -167,6 +167,8 @@ Vous pouvez également prévisualiser le contenu de votre expérience basé sur 
 >Si vous activez un parcours/campagne basé sur du code qui impacte les mêmes pages qu’un autre parcours ou campagne déjà actif, toutes les modifications seront appliquées à votre contenu.
 >
 >Si plusieurs parcours ou campagnes basés sur du code mettent à jour le ou les mêmes éléments de votre contenu, le parcours/la campagne de priorité la plus élevée est prioritaire.
+
+Une fois votre parcours ou campagne basé sur du code actif, votre équipe de mise en oeuvre d’application est chargée d’effectuer des appels d’API ou de SDK explicites pour récupérer du contenu pour les surfaces définies dans la [configuration d’expérience basée sur le code](code-based-configuration.md) sélectionnée. Pour en savoir plus sur les différentes mises en oeuvre client, consultez [cette section](code-based-implementation-samples.md).
 
 ### Publish d’un parcours basé sur le code {#publish-code-based-journey}
 

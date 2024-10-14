@@ -6,9 +6,9 @@ topic: Content Management
 role: Admin
 level: Experienced
 exl-id: ac901f88-5fde-4220-88c6-fe05433866cc
-source-git-commit: d4dce7b31d898d86c330048e6d0a1587e87a617c
+source-git-commit: e3c597f66436e8e0e22d06f1905fc7ca9a9dd570
 workflow-type: tm+mt
-source-wordcount: '580'
+source-wordcount: '570'
 ht-degree: 88%
 
 ---
@@ -20,10 +20,6 @@ Pour pouvoir utiliser des actions d’expérience basée sur le code dans [!DNL 
 * Pour ajouter des modifications à vos applications, vous devez disposer d’une mise en œuvre spécifique. [En savoir plus](#implementation-prerequisites)
 
 * Pour que les expériences basées sur le code soient correctement diffusées, veillez à définir les paramètres d’Experience Platform présentés [ici](#delivery-prerequisites).
-
->[!CAUTION]
->
->Vous ne pouvez créer des expériences basées sur le code que dans des **campagnes**. [En savoir plus](../campaigns/create-campaign.md#configure).
 
 ## Conditions préalables à l’implémentation {#implementation-prerequisites}
 

@@ -6,10 +6,10 @@ topic: Content Management
 role: Admin
 level: Experienced
 exl-id: 9509fd67-6d12-4440-aad8-59690936be97
-source-git-commit: d4dce7b31d898d86c330048e6d0a1587e87a617c
+source-git-commit: e3c597f66436e8e0e22d06f1905fc7ca9a9dd570
 workflow-type: tm+mt
-source-wordcount: '1134'
-ht-degree: 93%
+source-wordcount: '1145'
+ht-degree: 91%
 
 ---
 
@@ -25,8 +25,6 @@ Pour créer et accéder à des pages web dans l’interface utilisateur de [!DNL
 
 ## Notes de mise en garde {#caution-notes-web}
 
-* Dans [!DNL Journey Optimizer], vous ne pouvez actuellement créer des expériences web que dans des **campagnes**. [En savoir plus](../campaigns/create-campaign.md#configure).
-
 * Les campagnes web de [!DNL Journey Optimizer] ciblent les nouveaux profils qui n’ont jamais été engagés sur d’autres canaux. Cela augmente le nombre total de profils engageables, ce qui peut avoir des implications de coût si le nombre contractuel de profils engageables que vous avez achetés est dépassé. Les mesures de licence de chaque package sont répertoriées dans la page [Description du produit Journey Optimizer](https://helpx.adobe.com/fr/legal/product-descriptions/adobe-journey-optimizer.html).{target="_blank"}
 
 ## Conditions préalables à l’implémentation {#implementation-prerequisites}
@@ -39,11 +37,11 @@ Deux types d’implémentation sont pris en charge pour permettre la création e
   >
   >Assurez-vous que la version de votre [SDK web Adobe Experience Platform](https://experienceleague.adobe.com/fr/docs/experience-platform/web-sdk/release-notes){target="_blank"} est 2.16 ou supérieure.
 
-* Mode hybride : vous pouvez utiliser l’[API du serveur Edge Network AEP](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/data-collection/interactive-data-collection.html?lang=fr){target="_blank"} pour demander une personnalisation côté serveur ; la réponse est fournie au SDK web Adobe Experience Platform pour effectuer le rendu des modifications côté client. Pour plus d’informations, consultez la [documentation de l’API du serveur Edge Network Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/overview.html?lang=fr){target="_blank"}. Vous pouvez en savoir plus sur le mode hybride et consulter quelques exemples d’implémentations dans [cet article de blog](https://blog.developer.adobe.com/hybrid-personalization-in-the-adobe-experience-platform-web-sdk-6a1bb674bf41){target="_blank"}.
+* Mode hybride : vous pouvez utiliser l’[API du serveur Edge Network AEP](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/data-collection/interactive-data-collection.html?lang=fr){target="_blank"} pour demander une personnalisation côté serveur ; la réponse est fournie au SDK web Adobe Experience Platform pour effectuer le rendu des modifications côté client. Pour plus d’informations, consultez la [documentation de l’API du serveur Edge Network Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/overview.html?lang=fr){target="_blank"}. Vous pouvez en savoir plus sur le mode hybride et consulter quelques exemples de mise en œuvre dans cet [article de blog](https://blog.developer.adobe.com/hybrid-personalization-in-the-adobe-experience-platform-web-sdk-6a1bb674bf41){target="_blank"}.
 
 >[!NOTE]
 >
->L’implémentation côté serveur uniquement n’est actuellement pas prise en charge.
+>La mise en oeuvre côté serveur uniquement n’est actuellement pas prise en charge avec le canal web. Si vous disposez d’une implémentation côté serveur uniquement pour vos pages web, vous pouvez utiliser le [canal d’expérience basé sur le code](../code-based/get-started-code-based.md) à la place.
 
 <!--If the Adobe Experience Platform Web SDK is not yet implemented on the website, a message displays in the web designer suggesting that you install the Visual Editing Helper browser extension and implement the [Web SDK](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html){target="_blank"}.-->
 
