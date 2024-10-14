@@ -5,10 +5,10 @@ user-guide-title: Guide de Journey Optimizer
 user-guide-description: Utilisez Journey Optimizer pour créer et proposer aux clients des expériences connectées, contextuelles et personnalisées
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 6b721c04db34fecae2274604113061e4e97db149
+source-git-commit: e1121d998711ea4751da5293efdd7c1578ee44a2
 workflow-type: tm+mt
-source-wordcount: '2049'
-ht-degree: 97%
+source-wordcount: '2067'
+ht-degree: 96%
 
 ---
 
@@ -177,6 +177,11 @@ ht-degree: 97%
    + [Déclencher des campagnes à l’aide d’API](using/campaigns/api-triggered-campaigns.md)
 + Test et approbation {#test}
    + [Gestion des conflits et hiérarchisation](using/test-approve/conflict-prioritization.md)
+   + Gestion des conflits et hiérarchisation {#conflict-prioritization}
+      + [Prise en main de la gestion des conflits et de la hiérarchisation](using/test-approve/gs-conflict-prioritization.md)
+      + [Identifier les conflits potentiels](using/test-approve/conflicts.md)
+      + [Attribution de scores de priorité](using/test-approve/priority-scores.md)
+      + [Limitation et arbitrage des parcours](using/test-approve/journey-capping.md)
    + Prévisualiser et tester votre contenu {#preview-test}
       + [Tester votre contenu à l’aide d’exemples de données d’entrée](using/test-approve/simulate-sample-input.md)
       + [Prise en main de la prévisualisation et du test](using/content-management/preview-test.md)
