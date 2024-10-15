@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Experienced
 exl-id: 25c2c448-9380-47b0-97c5-16d9afb794c5
-source-git-commit: c53fc226be1b6ab858c5cd75bcae363769fefa74
+source-git-commit: 3c4aef3e062eb6a8b106ce00b86cd0594e94d7b0
 workflow-type: tm+mt
-source-wordcount: '1729'
+source-wordcount: '1731'
 ht-degree: 35%
 
 ---
@@ -213,7 +213,7 @@ Lors de la création d’expériences basées sur du code pour des pages web ou 
 
    <!--When creating a content experiment, you need to select a given treatment and click the **[!UICONTROL Simulate content]** button to obtain the link corresponding to that treatment, then select another treatment, click the **[!UICONTROL Simulate content]** button to obtain a new preview link, and so on.-->
 
-   Lorsque vous sélectionnez un autre profil ou traitement de test, le lien d’aperçu change afin que vous puissiez disposer d’un lien pour chaque profil de test et/ou traitement, puis comparer les expériences.
+   Lors de la mise à jour du contenu ou de la sélection d’un autre profil ou traitement de test, le lien de prévisualisation est automatiquement actualisé. Vous pouvez copier le lien dans différents onglets du navigateur et comparer les expériences.
 
 ## Mettre en ligne votre expérience basée sur le code {#code-based-experience-live}
 
