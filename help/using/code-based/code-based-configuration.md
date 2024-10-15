@@ -6,9 +6,9 @@ topic: Content Management
 role: Admin
 level: Experienced
 exl-id: 1aff2f6f-914c-4088-afd8-58bd9edfe07d
-source-git-commit: 83c8417d4aee278eba33e4adf6ccd033bcc6be1a
+source-git-commit: c53fc226be1b6ab858c5cd75bcae363769fefa74
 workflow-type: tm+mt
-source-wordcount: '1531'
+source-wordcount: '1537'
 ht-degree: 42%
 
 ---
@@ -104,7 +104,7 @@ Pour définir les paramètres de configuration de l’expérience basés sur du 
 1. Les conditions suivantes s’appliquent à l’URL d’aperçu :
 
    * Si une seule URL de page est saisie, cette URL sera utilisée pour l’aperçu ; il n’est pas nécessaire de saisir une autre URL.
-   * Si une [page correspondant à la règle](../web/web-configuration.md#web-page-matching-rule) est sélectionnée, vous devez saisir une **[!UICONTROL URL de création et d’aperçu par défaut]** qui sera utilisée pour prévisualiser l’expérience dans le navigateur.
+   * Si une [page correspondant à la règle](../web/web-configuration.md#web-page-matching-rule) est sélectionnée, vous devez saisir une **[!UICONTROL URL de création et d’aperçu par défaut]** qui sera utilisée pour prévisualiser l’expérience dans le navigateur. [En savoir plus](../code-based/create-code-based.md#preview-on-device)
 
      ![](assets/code_config_matching_rules_preview.png)
 
@@ -132,7 +132,7 @@ Pour définir les paramètres de configuration d’expérience basés sur du cod
 
    ![](assets/code_config_3.png){width="500"}
 
-1. Renseignez le champ **[!UICONTROL URL de prévisualisation]** pour activer les prévisualisations sur l’appareil. Cette URL informe le service d’aperçu de l’URL spécifique à utiliser lors du déclenchement d’un aperçu<!--on device. Learn more-->.
+1. Renseignez le champ **[!UICONTROL URL de prévisualisation]** pour activer les prévisualisations sur l’appareil. Cette URL informe le service d’aperçu de l’URL spécifique à utiliser lors du déclenchement de l’aperçu sur le périphérique. [En savoir plus](../code-based/create-code-based.md#preview-on-device)
 
    L’URL d’aperçu est un lien profond configuré par le développeur de l’application dans votre application. Cela garantit que toutes les URL correspondant au modèle de lien profond s’ouvriront dans l’application plutôt que dans un navigateur web mobile. Contactez le développeur de votre application pour obtenir le schéma de lien profond configuré pour votre application.
 

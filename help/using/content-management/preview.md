@@ -5,14 +5,16 @@ feature: Preview, Proofs
 role: User
 level: Beginner
 exl-id: 6477270c-0309-411a-8254-c7ffc4419492
-source-git-commit: feae2cb9d0bed35f12eb117cf2969c9290ebc06f
+source-git-commit: c53fc226be1b6ab858c5cd75bcae363769fefa74
 workflow-type: tm+mt
-source-wordcount: '171'
-ht-degree: 100%
+source-wordcount: '196'
+ht-degree: 86%
 
 ---
 
-# Prévisualiser votre contenu {#preview}
+# Vérifier le contenu {#preview}
+
+<!--## Preview your content {#preview-content}-->
 
 Une fois les [profils de test](test-profiles.md) sélectionnés, vous pouvez prévisualiser votre contenu. Suivez les étapes ci-dessous :
 
@@ -37,3 +39,8 @@ Une fois les [profils de test](test-profiles.md) sélectionnés, vous pouvez pr�
    ![](../email/assets/preview-test-profile.png)
 
 1. Sélectionnez d’autres profils de test pour prévisualiser votre e-mail pour chaque variante de votre message.
+
+>[!NOTE]
+>
+>Lors de la création d’expériences basées sur du code, vous pouvez prévisualiser votre contenu personnalisé directement dans votre navigateur ou sur vos appareils mobiles pour une simulation réelle. [En savoir plus](../code-based/create-code-based.md#preview-on-device)
+

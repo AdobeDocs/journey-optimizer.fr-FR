@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Experienced
 exl-id: 25c2c448-9380-47b0-97c5-16d9afb794c5
-source-git-commit: e3c597f66436e8e0e22d06f1905fc7ca9a9dd570
+source-git-commit: c53fc226be1b6ab858c5cd75bcae363769fefa74
 workflow-type: tm+mt
-source-wordcount: '1215'
-ht-degree: 50%
+source-wordcount: '1729'
+ht-degree: 35%
 
 ---
 
@@ -111,7 +111,7 @@ Pour plus d’informations sur la configuration d’une campagne, consultez cett
 
    Vous pouvez également enregistrer une partie de votre contenu de code en tant que fragment. [Voici comment procéder](../content-management/fragments.md#save-as-expression-fragment)
 
-1. Grâce aux expériences basées sur du code, vous pouvez utiliser la fonction de prise de décision relative aux expériences. Sélectionnez l’icône **[!UICONTROL Stratégie de décision]** dans la barre de gauche et cliquez sur **[!UICONTROL Ajouter une stratégie de décision]**. [En savoir plus](../experience-decisioning/create-decision.md) <!--UI labels TBC + TBC for journeys (visible in UI so probably confirmed) -->
+1. Grâce aux expériences basées sur du code, vous pouvez utiliser la fonction de prise de décision relative aux expériences. Sélectionnez l’icône **[!UICONTROL Stratégie de décision]** dans la barre de gauche et cliquez sur **[!UICONTROL Ajouter une stratégie de décision]**. [En savoir plus](../experience-decisioning/create-decision.md)
 
    ![](assets/code-based-campaign-create-decision.png)
 
@@ -131,7 +131,7 @@ Désormais, dès que votre développeur ou développeuse lance un appel d’API 
 >title="Prévisualiser votre expérience basée sur le code"
 >abstract="Effectuez une simulation de ce à quoi ressemblera votre expérience basée sur le code."
 
-Pour afficher un aperçu de votre expérience basée sur le code qui a été modifiée, suivez les étapes ci-dessous. Vous trouverez des informations détaillées sur la sélection des profils de test et la prévisualisation de votre contenu dans la [page Prévisualiser et tester votre contenu](../content-management/preview-test.md).
+Pour afficher un aperçu de votre expérience basée sur le code qui a été modifiée, suivez les étapes ci-dessous.
 
 >[!CAUTION]
 >
@@ -145,12 +145,75 @@ Pour afficher un aperçu de votre expérience basée sur le code qui a été mod
 
 1. Un aperçu de votre expérience basée sur le code qui a été modifiée s’affiche.
 
-<!--
-    ![](assets/code-based-designer-preview.png)
+Des informations détaillées sur la sélection des profils de test et la prévisualisation de votre contenu sont disponibles dans [cette section](../content-management/preview.md).
 
-    You can also open it in the default browser, or copy the test URI to paste it in any browser. This allows you to share the link with your team and stakeholders who will be able to preview the new web experience in any browser before the campaign goes live.
+### Aperçu sur l’appareil {#preview-on-device}
 
-    When copying the test URI, the content displayed is the one personalized for the test profile used when the content simulation was generated in [!DNL Journey Optimizer].-->
+>[!CONTEXTUALHELP]
+>id="ajo_code_based_preview_device"
+>title="Prévisualisation de votre expérience basée sur du code sur un appareil réel"
+>abstract="Obtenez un aperçu de vos expériences personnalisées directement sur votre navigateur ou vos appareils mobiles, afin de voir à quoi elles ressemblent sur des appareils réels."
+
+>[!CONTEXTUALHELP]
+>id="ajo_code_based_preview_device_web"
+>title="Prévisualisation de votre expérience web basée sur du code sur un appareil"
+>abstract="Analysez le code QR ou copiez le lien pour prévisualiser sur l’appareil."
+
+>[!CONTEXTUALHELP]
+>id="ajo_code_based_preview_device_mobile"
+>title="Prévisualisation de votre expérience mobile basée sur du code sur un appareil"
+>abstract="Analysez le code QR ou copiez le lien pour prévisualiser sur l’appareil. Une fois connecté, saisissez la broche sur l’appareil. Vous devrez peut-être redémarrer votre application pour afficher les modifications chaque fois que vous mettez à jour vos liens d’aperçu."
+
+>[!CONTEXTUALHELP]
+>id="ajo_code_based_preview_device_refresh"
+>title="Actualiser le lien d’aperçu pour refléter la vue actuelle"
+>abstract="L’aperçu sur appareil affiche le contenu à partir du moment où vous avez créé ou actualisé le lien d’aperçu. Si vous avez modifié le contenu ou sélectionné un autre profil de test ou traitement, actualisez l’aperçu pour qu’il reflète la vue actuelle."
+
+Lors de la création d’expériences basées sur du code pour des pages web ou des applications mobiles, vous pouvez prévisualiser vos expériences personnalisées directement sur votre navigateur ou sur vos appareils mobiles, afin de voir à quoi ressemblent ces expériences sur des appareils réels.
+
+>[!WARNING]
+>
+>L’aperçu sur l’appareil n’est pas disponible lors de l’utilisation des attributs contextuels [ de ](../experience-decisioning/create-decision.md) ou [personnalisation](../personalization/personalization-build-expressions.md).
+
+1. Dans l&#39;écran **[!UICONTROL Simuler]**, cliquez sur le bouton **[!UICONTROL Ouvrir les options d&#39;aperçu]**. Les options d’aperçu dépendent de la plateforme sélectionnée dans votre [configuration basée sur le code](code-based-configuration.md#create-code-based-configuration).
+
+1. Si vous utilisez une [plateforme web](code-based-configuration.md#web) dans votre configuration basée sur le code, le champ **[!UICONTROL URL d’aperçu de périphérique]** en lecture seule est prérempli avec l’URL saisie pour la configuration de canal actuelle.
+
+   ![](assets/preview-on-device-web.png)
+
+   Vous pouvez effectuer l’une des actions suivantes :
+
+   * Sélectionnez le bouton **[!UICONTROL Copier le lien]** et collez le lien dans un onglet de navigateur. Vous pouvez également partager le lien avec votre équipe et les parties prenantes, qui peuvent prévisualiser la nouvelle expérience dans n’importe quel navigateur avant que les modifications ne soient mises en ligne.
+
+   * Cliquez sur **[!UICONTROL Ouvrir dans un nouvel onglet]** pour ouvrir le lien dans votre navigateur actuel.
+
+   * Analysez le code QR avec votre appareil mobile pour ouvrir le lien d’aperçu sur un navigateur mobile.
+
+1. Si vous utilisez [Plateformes mobiles](code-based-configuration.md#mobile) (iOS/Android) dans votre configuration basée sur le code, le champ **[!UICONTROL Lien profond]** en lecture seule est prérempli avec la valeur **[!UICONTROL URL d’aperçu]** saisie dans la configuration de canal pour la plateforme sélectionnée.
+
+   Basculez entre les onglets **[!UICONTROL iOS]** et **[!DNL Android]** pour prévisualiser votre expérience pour la plateforme de votre choix.
+
+   ![](assets/preview-on-device-mobile.png)
+
+   Vous pouvez effectuer l’une des actions suivantes :
+
+   * Sélectionnez le bouton **[!UICONTROL Copier le lien]** et partagez le lien avec votre équipe et les parties prenantes, qui peuvent prévisualiser la nouvelle expérience dans n’importe quel navigateur mobile avant que les modifications ne soient mises en ligne.
+
+   * Analysez le code QR avec votre appareil mobile pour ouvrir le lien d’aperçu directement dans l’application mobile. Vous devez saisir le code PIN sur votre appareil pour établir la session [Assurance](https://experienceleague.adobe.com/en/docs/experience-platform/assurance/tutorials/implement-assurance){target="_blank"}.
+
+     >[!NOTE]
+     >
+     >**Adobe Experience Platform Assurance** est un produit de Adobe Experience Cloud qui vous aide à inspecter, à tester, à simuler et à valider la manière dont vous collectez des données ou diffusez des expériences dans votre application mobile. [En savoir plus](https://experienceleague.adobe.com/fr/docs/experience-platform/assurance/home){target="_blank"}
+
+1. Les liens d’aperçu sont générés pour le profil de test sélectionné et, si vous utilisez [Expérience de contenu](../content-management/content-experiment.md) dans votre parcours ou campagne, pour le traitement sélectionné.
+
+   <!--If you have modified the content or selected a different treatment or test profile, scroll down to the bottom of the **[!UICONTROL Preview on device]** pop-up and click **[!UICONTROL Refresh preview link]** to reflect the current state.
+
+   ![](assets/preview-on-device-refresh.png)-->
+
+   <!--When creating a content experiment, you need to select a given treatment and click the **[!UICONTROL Simulate content]** button to obtain the link corresponding to that treatment, then select another treatment, click the **[!UICONTROL Simulate content]** button to obtain a new preview link, and so on.-->
+
+   Lorsque vous sélectionnez un autre profil ou traitement de test, le lien d’aperçu change afin que vous puissiez disposer d’un lien pour chaque profil de test et/ou traitement, puis comparer les expériences.
 
 ## Mettre en ligne votre expérience basée sur le code {#code-based-experience-live}
 
