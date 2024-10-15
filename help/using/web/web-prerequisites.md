@@ -6,10 +6,10 @@ topic: Content Management
 role: Admin
 level: Experienced
 exl-id: 9509fd67-6d12-4440-aad8-59690936be97
-source-git-commit: 573d6e8611e90df2390576912929d5f85e386537
+source-git-commit: c5308cfdb237fcf563886db1dfca257d23bb4449
 workflow-type: tm+mt
-source-wordcount: '1145'
-ht-degree: 91%
+source-wordcount: '1155'
+ht-degree: 86%
 
 ---
 
@@ -23,9 +23,10 @@ Pour créer et accéder à des pages web dans l’interface utilisateur de [!DNL
 
 * Pour que l’expérience web soit correctement diffusée, veillez à définir les paramètres d’Adobe Experience Platform détaillés [ici](#delivery-prerequisites).
 
-## Notes de mise en garde {#caution-notes-web}
-
-* Les campagnes web de [!DNL Journey Optimizer] ciblent les nouveaux profils qui n’ont jamais été engagés sur d’autres canaux. Cela augmente le nombre total de profils engageables, ce qui peut avoir des implications de coût si le nombre contractuel de profils engageables que vous avez achetés est dépassé. Les mesures de licence de chaque package sont répertoriées dans la page [Description du produit Journey Optimizer](https://helpx.adobe.com/fr/legal/product-descriptions/adobe-journey-optimizer.html).{target="_blank"}
+>[!IMPORTANT]
+>
+>Les campagnes web de [!DNL Journey Optimizer] ciblent les nouveaux profils qui n’ont jamais été engagés sur d’autres canaux. Cela augmente le nombre total de profils engageables, ce qui peut avoir des implications de coût si le nombre contractuel de profils engageants que vous avez achetés est dépassé. Les mesures de licence pour chaque package sont répertoriées sur la page [Description du produit Journey Optimizer](https://helpx.adobe.com/fr/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}. Vous pouvez vérifier le nombre de profils engageants dans le [tableau de bord de l’utilisation des licences](../audience/license-usage.md).
+>
 
 ## Conditions préalables à l’implémentation {#implementation-prerequisites}
 
