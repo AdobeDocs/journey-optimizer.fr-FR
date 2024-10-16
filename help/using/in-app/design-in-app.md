@@ -7,10 +7,10 @@ role: User
 level: Beginner
 keywords: in-app, message, conception, mise en forme
 exl-id: 7d7aa721-96aa-4ebc-a51c-e693f893f34f
-source-git-commit: 8a1ec5acef067e3e1d971deaa4b10cffa6294d75
+source-git-commit: 47482adb84e05fe41eb1c50479a8b50e00469ec4
 workflow-type: tm+mt
-source-wordcount: '1154'
-ht-degree: 100%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -243,7 +243,7 @@ Si le **[!UICONTROL Mode de formatage avancé]** est activé, vous pouvez person
 **Rubriques connexes :**
 
 * [Créer un message in-app](create-in-app.md)
-* [Rapport in-app](../reports/campaign-global-report.md#inapp-report)
+* [Rapport in-app](../reports/campaign-global-report-cja-inapp.md)
 * [Configuration in-app](inapp-configuration.md)
 
 ## Vidéo pratique{#video}

@@ -8,10 +8,10 @@ topic: Content Management
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 27f7c60380dc408a486651e77dab58a25e23db2a
-workflow-type: ht
-source-wordcount: '1008'
-ht-degree: 100%
+source-git-commit: 47482adb84e05fe41eb1c50479a8b50e00469ec4
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -150,12 +150,6 @@ Cette version apporte les nouvelles fonctionnalités détaillées ci-dessous.
 </tr>
 </tbody>
 </table>
-
->[!IMPORTANT]
->
->L’expérience actuelle de création de rapports sera abandonnée à compter de la version d’octobre. À partir de cette date, la nouvelle expérience de création de rapports deviendra la norme. Nous vous recommandons de vous familiariser avec les nouvelles fonctionnalités pour garantir une transition fluide.
-> [Commencer avec la nouvelle interface de création de rapports de Journey Optimizer](../reports/report-gs-cja.md)
-
 
 ### Améliorations {#e-improvements}
 

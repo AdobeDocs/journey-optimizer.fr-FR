@@ -9,10 +9,10 @@ role: User
 level: Beginner
 keywords: contenu, expérience, multiple, audience, traitement
 exl-id: bd35ae19-8713-4571-80bc-5f40e642d121
-source-git-commit: d4dce7b31d898d86c330048e6d0a1587e87a617c
+source-git-commit: 47482adb84e05fe41eb1c50479a8b50e00469ec4
 workflow-type: tm+mt
-source-wordcount: '755'
-ht-degree: 100%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -45,10 +45,6 @@ L’objectif ici est de voir si les destinataires interagissent avec l’e-mail 
 ## Créer votre contenu {#campaign-experiment}
 
 1. Commencez par créer et configurer votre [parcours](../building-journeys/journeys-message.md) par e-mail, SMS ou notification push ou votre [campagne](../campaigns/create-campaign.md) selon vos besoins.
-
-   >[!AVAILABILITY]
-   >
-   >L’expérimentation dans le parcours n’est actuellement disponible que pour un ensemble donné d’organisations (disponibilité limitée). Pour en bénéficier, contactez votre représentant ou représentante Adobe.
 
 1. Dans la fenêtre **[!UICONTROL Modifier le contenu]**, commencez à personnaliser votre traitement A.
 
@@ -128,4 +124,4 @@ L’objectif ici est de voir si les destinataires interagissent avec l’e-mail 
 
 1. Une fois le contenu de votre message défini, cliquez sur le bouton **[!UICONTROL Simuler du contenu]** afin de contrôler le rendu de votre diffusion et vérifiez les paramètres de personnalisation avec les profils de test. [En savoir plus](../content-management/preview-test.md).
 
-Après avoir paramétré votre expérimentation, vous pouvez suivre le succès de votre diffusion avec votre rapport. [En savoir plus](../reports/campaign-global-report.md#experimentation-report)
+Après avoir paramétré votre expérimentation, vous pouvez suivre le succès de votre diffusion avec votre rapport. [En savoir plus](../reports/campaign-global-report-cja-experimentation.md)

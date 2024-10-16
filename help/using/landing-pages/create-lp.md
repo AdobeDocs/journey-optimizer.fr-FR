@@ -9,10 +9,10 @@ role: User
 level: Beginner
 keywords: destination, page de destination, création, publication
 exl-id: 18f9bdff-f5c6-4601-919d-4f3124e484b5
-source-git-commit: ab4219c7045f9c4ba77fceb2cbb46fbbe6f536ac
+source-git-commit: 47482adb84e05fe41eb1c50479a8b50e00469ec4
 workflow-type: tm+mt
-source-wordcount: '1716'
-ht-degree: 100%
+source-wordcount: '1715'
+ht-degree: 98%
 
 ---
 
@@ -38,7 +38,7 @@ La liste des **[!UICONTROL Pages de destination]** affiche tous les éléments c
 
 ![](assets/lp_access-list-filter.png)
 
-Depuis cette liste, vous pouvez accéder au [Rapport dynamique sur les pages de destination](../reports/lp-report-live.md) ou au [Rapport global sur les pages de destination](../reports/lp-report-global.md) pour les éléments publiés.
+À partir de cette liste, vous pouvez accéder au [ rapport de page d’entrée en direct ](../reports/lp-report-live.md) ou au [ rapport de page d’entrée ](../reports/lp-report-global-cja.md) pour les éléments publiés.
 
 Vous pouvez également supprimer, dupliquer et dépublier une page de destination.
 

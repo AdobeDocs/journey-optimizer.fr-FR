@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Rapport global sur les pages de destination
+title: Rapport sur les pages de destination
 description: Découvrir comment utiliser les données de votre rapport sur les pages de destination
 feature: Reporting, Landing Pages
 topic: Content Management
@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 badge: label="Disponibilité limitée" type="Informative"
 exl-id: e73cdca9-3e83-4642-a2bb-d5453afa77fe
-source-git-commit: b80d794f3782056a10310c65144a8eecbddaaf3e
+source-git-commit: 47482adb84e05fe41eb1c50479a8b50e00469ec4
 workflow-type: tm+mt
-source-wordcount: '792'
-ht-degree: 100%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 

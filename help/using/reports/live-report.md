@@ -8,18 +8,14 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 8dd48bb2-a805-4c46-a16c-c68173a9ac08
-source-git-commit: 428e08ca712724cb0b3453681bee1c7e86ce49dc
+source-git-commit: 47482adb84e05fe41eb1c50479a8b50e00469ec4
 workflow-type: tm+mt
-source-wordcount: '572'
-ht-degree: 100%
+source-wordcount: '529'
+ht-degree: 95%
 
 ---
 
 # Prise en main du rapport dynamique {#live-report}
-
->[!AVAILABILITY]
->
->L’expérience actuelle de création de rapports sera abandonnée à compter de la version d’octobre. À partir de cette date, la nouvelle expérience de création de rapports deviendra la norme. Nous vous recommandons de vous familiariser avec les nouvelles fonctionnalités pour garantir une transition fluide. [Commencez avec la nouvelle interface de création de rapports de Journey Optimizer.](report-gs-cja.md)
 
 Utilisez le **[!UICONTROL rapport dynamique]** pour mesurer et visualiser en temps réel l’impact et les performances de vos parcours et de vos messages dans un tableau de bord natif.
 Les données sont disponibles dans le **[!UICONTROL rapport dynamique]** aussitôt que votre diffusion est envoyée ou que votre parcours est exécuté dans l’onglet **[!UICONTROL Dernières 24 heures]**.
@@ -32,7 +28,7 @@ Les données sont disponibles dans le **[!UICONTROL rapport dynamique]** aussit�
 
   ![](assets/report_campaign.png)
 
-* Si vous souhaitez passer du **[!UICONTROL rapport global]** au **[!UICONTROL rapport dynamique]** pour votre diffusion, cliquez sur **[!UICONTROL Dernières 24 heures]** dans le sélecteur d’onglets.
+* Si vous souhaitez passer des **rapports du Customer Journey Analytics** aux **[!UICONTROL rapports en direct]** pour votre diffusion, cliquez sur **[!UICONTROL Dernières 24 heures]** dans le sélecteur d’onglets.
 
   ![](assets/report_3.png)
 

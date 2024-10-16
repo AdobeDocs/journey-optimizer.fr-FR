@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 61e6291f-c063-44a0-950c-8bb76de693f2
-source-git-commit: 9bd4f854292f4928216c9ad4602098930743c1bd
+source-git-commit: 47482adb84e05fe41eb1c50479a8b50e00469ec4
 workflow-type: tm+mt
-source-wordcount: '4384'
+source-wordcount: '4377'
 ht-degree: 98%
 
 ---
@@ -136,7 +136,7 @@ En outre, les attributs calculés simplifient la segmentation et les workflows d
 <p>La fonction de rapports sur le canal offre aux analystes et aux spécialistes du marketing un aperçu complet du trafic et de l’engagement au niveau du canal.</p>
 <p>Pour accéder au menu <b>Rapport</b>, vous devez disposer de l’autorisation <b>Afficher les rapports du canal</b>.</p>
 <img src="assets/channel-reports.png"/>
-<p>Pour plus d’informations, consultez la <a href="../reports/channel-report.md">documentation détaillée</a> et visualisez la <a href="../reports/channel-report.md#channel-report-video">vidéo pratique</a>.</p>
+<p>Pour plus d’informations, consultez la <a href="../reports/channel-report-cja.md">documentation détaillée</a>.</p>
 </tr>
 </tbody>
 </table>
@@ -223,7 +223,7 @@ Cette version est fournie avec les améliorations répertoriées ci-dessous.
 
 **Reporting**
 
-* Vous pouvez désormais exporter des rapports Journey Optimizer en tant que fichier CSV. En savoir plus dans la [documentation détaillée](../reports/global-report.md#export-reports) et la [vidéo pratique](../reports/global-report.md#video-csv).
+* Vous pouvez désormais exporter des rapports Journey Optimizer en tant que fichier CSV. Pour en savoir plus, consultez la [documentation détaillée](../reports/report-gs-cja.md).
 
 **Assets**
 
@@ -531,7 +531,7 @@ Enhancements have been made to the audience picker in journeys or campaigns, wit
 <td>
 <p>You can now measure the performance of your campaigns across inbound and outbound through dedicated reports. Adobe Journey Optimizer reports can retrieve additional metrics to use in the Objectives tab of your campaign reports.</p>
 <img src="assets/do-not-localize/performance_report.gif"/>
-<p>For more information, refer to the <a href="../reports/campaign-global-report.md">detailed documentation</a>.</p>
+<p>For more information, refer to the <a href="../reports/campaign-global-report-cja.md">detailed documentation</a>.</p>
 </td>
 </tr>
 </tbody>
@@ -722,7 +722,7 @@ Enhancements have been made to the audience picker in journeys or campaigns, wit
 
 **Créer des rapports**
 
-* Vous pouvez désormais exporter des rapports Journey Optimizer en tant que PDF. [En savoir plus](../reports/global-report.md#export-reports).
+* Vous pouvez désormais exporter des rapports Journey Optimizer en tant que PDF. [En savoir plus](../reports/report-gs-cja.md).
 
 **Concepteur de contenu**
 
@@ -824,7 +824,7 @@ Enhancements have been made to the audience picker in journeys or campaigns, wit
 
 * Amélioration de la fonctionnalité de widget de création de rapports et personnalisation de l’affichage des données des utilisateurs et utilisatrices. Grâce à cette amélioration, les utilisateurs et utilisatrices peuvent désormais choisir entre plusieurs options de visualisation, notamment les graphiques, les tableaux et les graphiques en anneau.
 
-  Pour avoir accès aux derniers widgets, vous devrez réinitialiser les différents tableaux de bord de rapports. Pour plus d’informations sur la personnalisation des tableaux de bord, consultez la [documentation détaillée](../reports/global-report.md#modify-dashboard).
+  Pour avoir accès aux derniers widgets, vous devrez réinitialiser les différents tableaux de bord de rapports. Pour plus d’informations sur la personnalisation des tableaux de bord, consultez la [documentation détaillée](../reports/report-gs-cja.md).
 
 ## Version du 23 février {#feb-2023}
 

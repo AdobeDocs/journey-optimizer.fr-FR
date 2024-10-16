@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: message, fréquence, règles, pression
 exl-id: 49248fb6-5a91-45b2-9de8-2f078d59c0fc
-source-git-commit: f47f4e783dd66d9031c7f7c447c1b20418a583c0
+source-git-commit: 47482adb84e05fe41eb1c50479a8b50e00469ec4
 workflow-type: tm+mt
-source-wordcount: '1262'
-ht-degree: 100%
+source-wordcount: '1264'
+ht-degree: 97%
 
 ---
 
@@ -176,7 +176,7 @@ Pour appliquer une règle commerciale à un message, procédez comme suit.
    >
    >Les messages pour lesquels la catégorie sélectionnée est **[!UICONTROL Transactionnel]** ne seront pas évalués par rapport aux règles de fréquence.
 
-1. Vous pouvez afficher le nombre de profils exclus de la diffusion dans le [rapport global](../reports/global-report.md) et dans le [rapport dynamique](../reports/live-report.md), où les règles commerciales seront répertoriées comme une raison possible pour les utilisateurs et utilisatrices exclus de la diffusion.
+1. Vous pouvez afficher le nombre de profils exclus de la diffusion dans le [rapport Customer Journey Analytics](../reports/report-gs-cja.md) et dans le [rapport en direct](../reports/live-report.md), où les règles de fonctionnement seront répertoriées comme une raison possible pour les utilisateurs exclus de la diffusion.
 
 >[!NOTE]
 >

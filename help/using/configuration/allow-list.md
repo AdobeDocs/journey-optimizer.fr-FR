@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: liste autorisée, liste, sécurisé, configuration
 exl-id: 70ab8f57-c132-4de1-847b-11f0ab14f422
-source-git-commit: 6c35809af2aaf4803eef7a8e5b3d8b0f351c8ba0
+source-git-commit: 47482adb84e05fe41eb1c50479a8b50e00469ec4
 workflow-type: tm+mt
-source-wordcount: '1143'
-ht-degree: 99%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -201,7 +201,7 @@ Lorsque la liste autorisée est [activée](#enable-allow-list), la logique suiva
 >
 >Les profils avec le statut **[!UICONTROL Non autorisé]** sont exclus pendant le processus d’envoi du message. Par conséquent, bien que les **rapports de parcours** indiquent que ces profils ont traversé le parcours ([Lecture d’audience](../building-journeys/read-audience.md) et [activités de message](../building-journeys/journeys-message.md)), les **rapports d’e-mails** ne les incluront pas dans les mesures **[!UICONTROL Envoyé]** étant donné qu’ils sont filtrés avant l’envoi des e-mails.
 >
->En savoir plus sur le [Rapport dynamique](../reports/live-report.md) et le [Rapport global](../reports/global-report.md).
+>En savoir plus sur les [rapports en direct](../reports/live-report.md) et le [rapport Customer Journey Analytics](../reports/report-gs-cja.md).
 
 Lorsque la liste autorisée est [désactivée](#deactivate-allow-list), tous les e-mails que vous envoyez à partir du sandbox actuel sont envoyés à tous les destinataires (à condition qu’ils ne figurent pas dans la liste de suppression), y compris les adresses réelles des clients.
 

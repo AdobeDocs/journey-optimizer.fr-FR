@@ -9,10 +9,10 @@ role: User
 level: Beginner, Intermediate
 hidefromtoc: true
 exl-id: 0e43be98-f471-4860-be84-8f99ab93e983
-source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
+source-git-commit: 47482adb84e05fe41eb1c50479a8b50e00469ec4
 workflow-type: tm+mt
-source-wordcount: '2035'
-ht-degree: 100%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -132,7 +132,7 @@ Consultez également les [Notes de mise à jour d’octobre d’Adobe Experienc
 <td>
 <p>De nouvelles mesures sont disponibles dans les rapports : Ciblé et Exclu pour les e-mails et les messages push sont visibles dans les rapports dynamiques et globaux. </br> Pour avoir accès aux dernières mesures, vous devrez réinitialiser les différents tableaux de bord de rapports pour chaque canal et type de rapport. Pour plus d’informations sur la personnalisation des tableaux de bord, consultez la <a href="../reports/live-report.md">documentation détaillée.</a></p>
 <p>Une nouvelle colonne de la liste d'exécution des messages affiche le nombre de profils ciblés pour chaque exécution du message. </p>
-<p>Pour plus d'informations, consultez la <a href="../reports/global-report.md">documentation détaillée</a>.</p>
+<p>Pour plus d'informations, consultez la <a href="../reports/report-gs-cja.md">documentation détaillée</a>.</p>
 </td>
 </tr>
 </tbody>

@@ -7,10 +7,10 @@ role: User
 level: Beginner
 keywords: in-app, message, création, commencer
 exl-id: 51562843-7b50-4eb5-bf79-5ce03f7549cb
-source-git-commit: b8a71c43ad5b456bfc9ec9b9d3fba06049e604ed
+source-git-commit: 47482adb84e05fe41eb1c50479a8b50e00469ec4
 workflow-type: tm+mt
-source-wordcount: '125'
-ht-degree: 100%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -47,11 +47,11 @@ Utilisez Journey Optimizer pour créer des notifications in-app et configurer de
 </div>
 <p></td>
 <td>
-<a href="../reports/campaign-global-report.md#inapp-global">
+<a href="../reports/campaign-global-report-cja-inapp.md">
 <img alt="Validation" src="../assets/do-not-localize/inapp-report.jpg">
 </a>
 <div>
-<a href="../reports/campaign-global-report.md#inapp-global"><strong>Accéder aux rapports in-app</strong></a>
+<a href="../reports/campaign-global-report-cja-inapp.md"><strong>Accéder aux rapports in-app</strong></a>
 </div>
 <p>
 </td>

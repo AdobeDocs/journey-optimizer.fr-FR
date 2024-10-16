@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: parcours, message, push, sms, email, in-app, web, carte de contenu, expérience basée sur le code
 exl-id: 4db07a9e-c3dd-4873-8bd9-ac34c860694c
-source-git-commit: 4d6890c8e0e8673ca5d793b9bf9a6cbb7add8ee5
+source-git-commit: 47482adb84e05fe41eb1c50479a8b50e00469ec4
 workflow-type: tm+mt
 source-wordcount: '1268'
 ht-degree: 77%
@@ -190,7 +190,7 @@ Vous pouvez voir le score global dans l’interface **Profils**. Pour chacun des
 
 +++Quels sont les rapports disponibles ?
 
-Accédez à votre parcours, cliquez sur le bouton **Afficher le rapport** en haut à droite et sélectionnez l’onglet **Parcours** de gauche. [En savoir plus](../reports/journey-global-report.md)
+Accédez à votre parcours, cliquez sur le bouton **Afficher le rapport** en haut à droite et sélectionnez l’onglet **Parcours** de gauche. [En savoir plus](../reports/journey-global-report-cja.md)
 
 +++
 

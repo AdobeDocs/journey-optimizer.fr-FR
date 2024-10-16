@@ -9,7 +9,7 @@ role: User
 level: Beginner, Intermediate
 hidefromtoc: true
 exl-id: 0997a640-3f89-4460-ba93-ea21a9d4efc5
-source-git-commit: 18296fe54dcef6620d4f74374848199368f01475
+source-git-commit: 47482adb84e05fe41eb1c50479a8b50e00469ec4
 workflow-type: tm+mt
 source-wordcount: '3598'
 ht-degree: 99%
@@ -306,9 +306,9 @@ Cette page répertorie toutes les fonctionnalités et améliorations pour [!DNL 
 
 **Reporting**
 
-* Le tableau et le graphique des politiques de consentement sont désormais disponibles dans les rapports globaux de parcours. Ces widgets vous permettent de suivre les profils exclus des politiques de vos actions personnalisées. [En savoir plus](../reports/journey-global-report.md#journey-global)
+* Le tableau et le graphique des politiques de consentement sont désormais disponibles dans les rapports globaux de parcours. Ces widgets vous permettent de suivre les profils exclus des politiques de vos actions personnalisées. [En savoir plus](../reports/journey-global-report-cja.md#journey-global)
 
-  Pour avoir accès aux derniers widgets, vous devrez réinitialiser les différents tableaux de bord de rapports. Pour plus d’informations sur la personnalisation des tableaux de bord, consultez la [documentation détaillée](../reports/global-report.md).
+  Pour avoir accès aux derniers widgets, vous devrez réinitialiser les différents tableaux de bord de rapports. Pour plus d’informations sur la personnalisation des tableaux de bord, consultez la [documentation détaillée](../reports/report-gs-cja.md).
 
 **Administration**
 

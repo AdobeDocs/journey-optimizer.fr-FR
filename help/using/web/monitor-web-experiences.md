@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: d89795bb-c51d-4d1f-b7ed-2b2c5d278922
-source-git-commit: 503bedc30c35305537c62f9452f4a2dc07424523
+source-git-commit: 47482adb84e05fe41eb1c50479a8b50e00469ec4
 workflow-type: tm+mt
-source-wordcount: '286'
-ht-degree: 86%
+source-wordcount: '288'
+ht-degree: 77%
 
 ---
 
@@ -17,9 +17,9 @@ ht-degree: 86%
 
 ## Vérifier les rapports web {#check-web-reports}
 
-Une fois votre expérience web activée, vous pouvez consulter l’onglet **[!UICONTROL Web]** du [rapport Parcours](../reports/journey-global-report-cja.md#web-cja) et du [rapport Campagne](../reports/campaign-global-report-cja.md#web) pour comparer des éléments tels que le nombre d’impressions, le taux de clics et le nombre d’engagements avec votre page web.
+Une fois votre expérience web activée, vous pouvez consulter l’onglet **[!UICONTROL Web]** du [rapport Parcours](../reports/journey-global-report-cja-web.md) et du [rapport Campagne](../reports/campaign-global-report-cja-web.md) pour comparer des éléments tels que le nombre d’impressions, le taux de clics et le nombre d’engagements avec votre page web.
 
-<!--You can check the **[!UICONTROL Web]** tab of the campaign reports. Learn more on the campaign web [live report](../reports/campaign-live-report.md#web-tab) and [global report](../reports/campaign-global-report.md#web-tab).-->
+<!--You can check the **[!UICONTROL Web]** tab of the campaign reports. Learn more on the campaign web [live report](../reports/campaign-live-report.md#web-tab) and [global report](../reports/campaign-global-report-cja.md#web).-->
 
 Pour améliorer davantage la surveillance de l’expérience web, vous pouvez également effectuer le suivi des clics sur n’importe quel élément spécifique de votre site web. Vous pouvez ainsi afficher le nombre de clics sur cet élément dans les rapports web. [Voici comment procéder.](#use-click-tracing)
 
@@ -27,7 +27,7 @@ Pour améliorer davantage la surveillance de l’expérience web, vous pouvez é
 
 Le designer web vous permet de sélectionner n’importe quel élément de votre site web et d’effectuer le suivi des clics sur cet élément.
 
-Ces informations peuvent se révéler utiles pour améliorer l’expérience des utilisateurs et utilisatrices de votre site web. Par exemple, si les [rapports web](../reports/campaign-global-report.md#web-tab) affichent que de nombreux utilisateurs et utilisatrices cliquent sur un élément qui n’est pas réellement cliquable, vous pouvez ajouter un lien à cet élément.
+Ces informations peuvent se révéler utiles pour améliorer l’expérience des utilisateurs et utilisatrices de votre site web. Par exemple, si les [rapports web](../reports/campaign-global-report-cja-web.md) affichent que de nombreux utilisateurs et utilisatrices cliquent sur un élément qui n’est pas réellement cliquable, vous pouvez ajouter un lien à cet élément.
 
 1. Sélectionnez un élément dans votre page et choisissez **[!UICONTROL Clic sur l’élément de suivi]** dans le menu contextuel.
 
@@ -49,4 +49,4 @@ Ces informations peuvent se révéler utiles pour améliorer l’expérience des
 
 1. Pour supprimer le suivi des clics sur un élément, sélectionnez l’icône de suppression correspondante.
 
-Une fois votre campagne activée, vous pouvez vérifier le nombre de clics sur chaque élément dans le [rapport dynamique](../reports/campaign-live-report.md#web-tab) et le [rapport global](../reports/campaign-global-report.md#web-tab) de la campagne web.
+Une fois votre campagne activée, vous pouvez vérifier le nombre de clics pour chaque élément du [rapport actif](../reports/campaign-live-report.md#web-tab) et du [rapport Customer Journey Analytics](../reports/campaign-global-report-cja-web.md) du Web de campagne.

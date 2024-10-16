@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 1f88626a-b491-4b36-8e3f-57f2b7567dd0
-source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
+source-git-commit: 47482adb84e05fe41eb1c50479a8b50e00469ec4
 workflow-type: tm+mt
-source-wordcount: '1016'
-ht-degree: 100%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -159,12 +159,12 @@ Cliquez sur le bouton **[!UICONTROL Simuler le contenu]** pour prévisualiser le
 
 Une fois que vous avez effectué vos tests et validé le contenu, vous pouvez envoyer votre message texte à votre audience. Ces étapes sont présentées sur [cette page](send-sms.md).
 
-Après leur envoi, vous pouvez mesurer l’impact de vos SMS dans les rapports des campagnes et des parcours. Pour plus d’informations sur les rapports, consultez [cette section](../reports/campaign-global-report.md#sms-tab).
+Après leur envoi, vous pouvez mesurer l’impact de vos SMS dans les rapports des campagnes et des parcours. Pour plus d’informations sur les rapports, consultez [cette section](../reports/campaign-global-report-cja-sms.md).
 
 **Rubriques connexes**
 
 * [Prévisualiser, tester et envoyer votre message texte](send-sms.md)
 * [Configurer le canal SMS](sms-configuration.md)
-* [Rapports SMS/MMS](../reports/journey-global-report.md#sms-global)
+* [Rapports SMS/MMS](../reports/journey-global-report-cja-sms.md)
 * [Ajouter un message dans un parcours](../building-journeys/journeys-message.md)
 * [Ajouter un message dans une campagne](../campaigns/create-campaign.md)

@@ -9,10 +9,10 @@ role: Admin
 level: Intermediate
 badge: label="Version bêta" type="Informative"
 exl-id: 364ef926-3f92-4297-acbd-a283668106ac
-source-git-commit: c4ab97999d000d969f6f09f4d84be017d1288f94
+source-git-commit: 47482adb84e05fe41eb1c50479a8b50e00469ec4
 workflow-type: tm+mt
-source-wordcount: '357'
-ht-degree: 100%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -75,5 +75,5 @@ La configuration automatisée est terminée. Vous pouvez désormais accéder à 
 * [Prise en main des notifications push](get-started-push.md)
 * [Flux de données et composants des notifications push](push-gs.md)
 * [Configuration du canal push](push-configuration.md)
-* [Rapport des notifications push](../reports/journey-global-report.md#push-global)
+* [Rapport des notifications push](../reports/journey-global-report-cja-push.md#push-global)
 * [Créer une notification push](create-push.md)

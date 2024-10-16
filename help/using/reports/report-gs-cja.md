@@ -2,17 +2,16 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Nouvelle interface d’utilisation de création de rapports
-description: Commencer avec la nouvelle interface de création de rapports
+description: Prise en main du rapport CJA
 feature: Reporting
 topic: Content Management
 role: User
 level: Intermediate
-badge: label="Disponibilité limitée" type="Informative"
 exl-id: bfd88d2a-e7b8-4e3b-85a1-4a14b0ba56dc
-source-git-commit: bccbf4af4610486dd2d4141b902737c6328b1034
+source-git-commit: 47482adb84e05fe41eb1c50479a8b50e00469ec4
 workflow-type: tm+mt
-source-wordcount: '389'
-ht-degree: 81%
+source-wordcount: '352'
+ht-degree: 77%
 
 ---
 
@@ -40,10 +39,6 @@ La création de rapports Journey Optimizer est fournie avec une interopérabili
 
   ![](assets/gs-cja-report-1.png)
 
->[!NOTE]
->
-> Pour rétablir la création de rapports traditionnelle de Journey Optimizer, il suffit de désactiver l’option **[!UICONTROL Utiliser la nouvelle expérience]**.
-
 ## Conditions préalables {#prerequisites}
 
 * Si vous ne disposez **pas** de Customer Journey Analytics, ou si vous en disposez mais que vous n’avez **pas** accès à un profil de produit de Customer Journey Analytics, les autorisations sont gérées dans Journey Optimizer. Dans ce cas, vous aurez besoin des éléments suivants :
@@ -57,10 +52,6 @@ La création de rapports Journey Optimizer est fournie avec une interopérabili
    * **[!UICONTROL Gérer les profils]** autorisation pour Adobe Journey Optimizer. [En savoir plus](../administration/permissions.md)
 
 * Vos vues de données Customer Journey Analytics doivent être configurées avec le paramètre suivant : **Définir comme vue de données par défaut dans Adobe Journey Optimizer**. [En savoir plus sur les vues de données](https://experienceleague.adobe.com/fr/docs/analytics-platform/using/cja-dataviews/create-dataview)
-
-* Pour accéder au tableau de bord de Customer Journey Analytics dans Journey Optimizer, il vous suffit d’activer la fonction **[!UICONTROL Utiliser la nouvelle expérience]** dans votre rapport.
-
-  ![](assets/cja-option.png)
 
 ## Vidéo pratique{#video}
 

@@ -7,10 +7,10 @@ level: Beginner
 feature: Get Started
 Role: User
 exl-id: 34304142-3ee8-4081-94b9-e914968c75ba
-source-git-commit: b960757113a1620ac4d2f251e66c35c4943f6a9d
+source-git-commit: 47482adb84e05fe41eb1c50479a8b50e00469ec4
 workflow-type: tm+mt
-source-wordcount: '456'
-ht-degree: 100%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -48,4 +48,4 @@ Reportez-vous aux sections suivantes pour configurer votre premier parcours, ajo
 
    Découvrez comment concevoir et exécuter des parcours [dans cette section](../../building-journeys/journey-gs.md).
 
-1. **Surveiller les messages et les parcours**. Pour vous assurer que vos messages sont exécutés, envoyés et diffusés avec succès, [!DNL Journey Optimizer] offre des fonctionnalités permettant de surveiller les messages actuellement publiés et déclenchés. Découvrez comment surveiller les performances [dans cette section](../../reports/global-report.md).
+1. **Surveiller les messages et les parcours**. Pour vous assurer que vos messages sont exécutés, envoyés et diffusés avec succès, [!DNL Journey Optimizer] offre des fonctionnalités permettant de surveiller les messages actuellement publiés et déclenchés. Découvrez comment surveiller les performances [dans cette section](../../reports/report-gs-cja.md).

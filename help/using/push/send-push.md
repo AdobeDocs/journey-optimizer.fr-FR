@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: aad4e08a-3369-454d-9e32-974347a3b393
-source-git-commit: dd4173698d7034173b7ae9f44afec397d62a6f78
+source-git-commit: 47482adb84e05fe41eb1c50479a8b50e00469ec4
 workflow-type: tm+mt
 source-wordcount: '400'
 ht-degree: 89%
@@ -59,7 +59,7 @@ Une fois votre message push prêt, effectuez la configuration de votre [parcours
 **Rubriques connexes**
 
 * [Configuration du canal push](push-configuration.md)
-* [Rapport des notifications push](../reports/journey-global-report.md#push-global)
+* [Rapport des notifications push](../reports/journey-global-report-cja-push.md)
 * [Créer une notification push](create-push.md)
 * [Ajouter un message dans un parcours](../building-journeys/journeys-message.md)
 * [Ajouter un message dans une campagne](../campaigns/create-campaign.md)

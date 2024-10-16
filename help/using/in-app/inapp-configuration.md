@@ -6,7 +6,7 @@ feature: In App
 level: Intermediate
 keywords: in-app, message, configuration, platform
 exl-id: 469c05f2-652a-4899-a657-ddc4cebe3b42
-source-git-commit: d4dce7b31d898d86c330048e6d0a1587e87a617c
+source-git-commit: 47482adb84e05fe41eb1c50479a8b50e00469ec4
 workflow-type: tm+mt
 source-wordcount: '867'
 ht-degree: 91%
@@ -134,5 +134,5 @@ Si vous n’utilisez **pas** les [groupes de champs](https://experienceleague.ad
 * [Créer un message in-app](create-in-app.md)
 * [Création d’une campagne](../campaigns/create-campaign.md)
 * [Concevoir un message in-app](design-in-app.md)
-* [Rapport in-app](../reports/campaign-global-report.md#inapp-report)
+* [Rapport in-app](../reports/campaign-global-report-cja-inapp.md)
 

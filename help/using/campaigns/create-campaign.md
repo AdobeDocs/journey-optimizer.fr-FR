@@ -9,10 +9,10 @@ role: User
 level: Beginner
 keywords: créer, optimizer, campagne, surface, messages
 exl-id: 617d623c-e038-4b5b-a367-5254116b7815
-source-git-commit: 72bda999c9e866398375422d8419516e5fea97b5
+source-git-commit: 47482adb84e05fe41eb1c50479a8b50e00469ec4
 workflow-type: tm+mt
-source-wordcount: '858'
-ht-degree: 97%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -129,7 +129,7 @@ Définissez la population ciblée par la campagne en suivant les étapes suivant
 
 1. Dans la section **[!UICONTROL Tracking des actions]**, indiquez si vous souhaitez suivre la réaction des destinataires à votre diffusion : vous pouvez effectuer le suivi des clics et/ou des ouvertures.
 
-   Les résultats du suivi seront accessibles dans le rapport de la campagne, une fois celle-ci exécutée. [En savoir plus sur les rapports de campagne](../reports/campaign-global-report.md)
+   Les résultats du suivi seront accessibles dans le rapport de la campagne, une fois celle-ci exécutée. [En savoir plus sur les rapports de campagne](../reports/campaign-global-report-cja.md)
 
 ## Planifier la campagne {#schedule}
 

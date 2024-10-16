@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: campagne, révision, validation, activation, activer, optimizer
 exl-id: 7c4afc98-0d79-4e26-90f8-558bac037169
-source-git-commit: dd4173698d7034173b7ae9f44afec397d62a6f78
+source-git-commit: 47482adb84e05fe41eb1c50479a8b50e00469ec4
 workflow-type: tm+mt
 source-wordcount: '297'
 ht-degree: 85%
@@ -48,6 +48,6 @@ Une fois votre campagne configurée, vous devez passer en revue son paramètre e
 
 1. Une fois qu’une campagne a été activée, vous pouvez vérifier à tout moment ses informations en l’ouvrant. Le résumé vous permet d’obtenir des statistiques sur le nombre de profils ciblés et les actions diffusées et en échec.
 
-   Vous pouvez également obtenir des statistiques supplémentaires dans les rapports dédiés en cliquant sur le bouton **[!UICONTROL Rapports]**. [En savoir plus](../reports/campaign-global-report.md)
+   Vous pouvez également obtenir des statistiques supplémentaires dans les rapports dédiés en cliquant sur le bouton **[!UICONTROL Rapports]**. [En savoir plus](../reports/campaign-global-report-cja.md)
 
    ![](assets/create-campaign-summary.png)
