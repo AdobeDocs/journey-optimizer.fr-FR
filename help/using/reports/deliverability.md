@@ -8,10 +8,10 @@ topic: Content Management
 role: Admin
 level: Intermediate, Experienced
 exl-id: 8f33dda7-9bd5-4293-8d0d-222205cbc7d5
-source-git-commit: e34c39c02f71361277f28b1a116a54390875f93d
+source-git-commit: f8a6c2a3b27d5dca422dfdc868f802c6a10b001d
 workflow-type: tm+mt
-source-wordcount: '945'
-ht-degree: 100%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -88,6 +88,12 @@ DMARC (Domain-based Message Authentication, Reporting, and Conformance, soit Aut
 [En savoir plus sur l’enregistrement DMARC](../configuration/dmarc-record.md)
 
 ## Connaître les boucles de rétroaction {#feedback-loops}
+
+>[!CONTEXTUALHELP]
+>id="ajo_surface_dynamic_subdomain_list"
+>title="Certains sous-domaines peuvent ne pas être disponibles."
+>abstract="Certains sous-domaines ne peuvent actuellement pas être sélectionnés en raison d’un enregistrement de boucle de rétroaction en attente. Ce processus peut prendre jusqu’à 10 jours ouvrables. Une fois cette opération terminée, vous pouvez choisir parmi tous les sous-domaines disponibles."
+>additional-url="https://experienceleague.adobe.com/fr/docs/journey-optimizer/using/configuration/delegate-subdomains/about-subdomain-delegation" text="Commencer avec la délégation de sous-domaines"
 
 Une boucle de rétroaction (FBL) est un service proposé par certains FAI qui permet à l’expéditeur ou l’expéditrice de l’e-mail de recevoir automatiquement un avertissement lorsque l’utilisateur ou l’utilisatrice qui reçoit un e-mail choisit de le marquer comme spam (également appelé une « plainte »).
 

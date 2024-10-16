@@ -10,10 +10,10 @@ level: Experienced
 keywords: paramètres, e-mail, configuration, sous-domaine
 badge: label="Disponibilité limitée"
 exl-id: 1e004a76-5d6d-43a1-b198-5c9b41f5332c
-source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
+source-git-commit: f8a6c2a3b27d5dca422dfdc868f802c6a10b001d
 workflow-type: tm+mt
-source-wordcount: '834'
-ht-degree: 100%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -36,12 +36,6 @@ Pour plus de flexibilité et de contrôle sur vos paramètres de canal e-mail, [
 >id="ajo_surface_dynamic_subdomain"
 >title="Activer des sous-domaines dynamiques"
 >abstract="Lors de la création d’une configuration du canal e-mail, vous pouvez paramétrer des sous-domaines dynamiques en fonction de conditions définies à l’aide de l’éditeur de personnalisation. Vous pouvez ajouter jusqu’à 50 sous-domaines dynamiques."
-
->[!CONTEXTUALHELP]
->id="ajo_surface_dynamic_subdomain_list"
->title="Certains sous-domaines peuvent ne pas être disponibles."
->abstract="Certains sous-domaines ne peuvent actuellement pas être sélectionnés en raison d’un enregistrement de boucle de rétroaction en attente. Ce processus peut prendre jusqu’à 10 jours ouvrables. Une fois cette opération terminée, vous pouvez choisir parmi tous les sous-domaines disponibles."
->additional-url="https://experienceleague.adobe.com/fr/docs/journey-optimizer/using/configuration/delegate-subdomains/about-subdomain-delegation" text="Commencer avec la délégation de sous-domaines"
 
 Lors de la création d’une configuration du canal e-mail, vous pouvez paramétrer des sous-domaines dynamiques en fonction de conditions spécifiques.
 
