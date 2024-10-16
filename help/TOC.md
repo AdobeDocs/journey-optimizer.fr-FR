@@ -5,10 +5,10 @@ user-guide-title: Guide de Journey Optimizer
 user-guide-description: Utilisez Journey Optimizer pour créer et proposer aux clients des expériences connectées, contextuelles et personnalisées
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 1e46321de543196277613889c438dc6756e45652
+source-git-commit: 9e810d5dcc9099411e7a81d18e22e9915c170bc2
 workflow-type: tm+mt
-source-wordcount: '2073'
-ht-degree: 96%
+source-wordcount: '2136'
+ht-degree: 93%
 
 ---
 
@@ -384,17 +384,47 @@ ht-degree: 96%
       + [Rapport dynamique de campagne](using/reports/campaign-live-report.md)
       + [Rapport dynamique sur les pages de destination](using/reports/lp-report-live.md)
       + [Rapport dynamique sur les listes d’abonnements](using/reports/subscription-report-live.md)
-   + Rapport global {#global-report}
-      + [Prise en main du rapport global](using/reports/global-report.md)
-      + [Liste des composants](using/reports/global-report-components.md)
-      + [Rapport global sur les parcours](using/reports/journey-global-report.md)
-      + [Rapport global de campagne](using/reports/campaign-global-report.md)
-      + [Rapport d’objectif](using/reports/objective-report.md)
-      + [Rapport global sur les pages de destination](using/reports/lp-report-global.md)
-      + [Rapport global sur les listes d’abonnements](using/reports/subscription-report-global.md)
-   + Rapports sur le canal {#channel-report}
-      + [Prise en main des rapports sur les canaux](using/reports/channel-report-gs.md)
-      + [Rapports sur les canaux](using/reports/channel-report.md)
+   + Rapports du Customer Journey Analytics{#channel-report}
+      + [Prise en main des rapports de Customer Journey Analytics](using/reports/report-gs-cja.md)
+      + [Configuration manuelle du Customer Journey Analytics](using/reports/cja-ajo.md)
+      + [Gérer vos rapports](using/reports/report-cja-manage.md)
+      + [Conditions préalables pour le reporting et l&#39;expérimentation](using/reports/reporting-configuration.md)
+      + Rapports de campagne{#reporting}
+         + [Rapport de campagne](using/reports/campaign-global-report-cja.md)
+         + [Rapport de campagne basé sur le code](using/reports/campaign-global-report-cja-code.md)
+         + [Rapport de campagne par carte de contenu](using/reports/campaign-global-report-cja-content.md)
+         + [Rapport de campagne par courrier](using/reports/campaign-global-report-cja-direct.md)
+         + [Rapport de campagne par e-mail](using/reports/campaign-global-report-cja-email.md)
+         + [Rapport de campagne d’expérience](using/reports/campaign-global-report-cja-experimentation.md)
+         + [Rapport de campagne in-app](using/reports/campaign-global-report-cja-inapp.md)
+         + [Rapport de l&#39;opération de notification push](using/reports/campaign-global-report-cja-push.md)
+         + [Rapport de campagne par SMS](using/reports/campaign-global-report-cja-sms.md)
+         + [Rapport des campagnes web](using/reports/campaign-global-report-cja-web.md)
+      + Rapports de parcours{#reporting}
+         + [Rapport de parcours](using/reports/journey-global-report-cja.md)
+         + [Rapport de parcours basé sur le code](using/reports/journey-global-report-cja-code.md)
+         + [Rapport parcours de carte de contenu](using/reports/journey-global-report-cja-content.md)
+         + [Rapport parcours courrier](using/reports/journey-global-report-cja-direct.md)
+         + [Rapport parcours de messagerie](using/reports/journey-global-report-cja-email.md)
+         + [Rapport parcours in-app](using/reports/journey-global-report-cja-inapp.md)
+         + [Rapport parcours push](using/reports/journey-global-report-cja-push.md)
+         + [Rapport parcours SMS](using/reports/journey-global-report-cja-sms.md)
+         + [Rapport parcours web](using/reports/journey-global-report-cja-web.md)
+      + [Rapport d’aperçu](using/reports/channel-report-cja.md)
+      + [Rapport sur les pages de destination](using/reports/lp-report-global-cja.md)
+      + [Rapport sur les listes d’abonnements](using/reports/subscription-report-global-cja.md)
+   + Ancien tableau de bord des rapports {#reports}
+      + Rapport global {#global-report}
+         + [Prise en main du rapport global](using/reports/global-report.md)
+         + [Liste des composants](using/reports/global-report-components.md)
+         + [Rapport global sur les parcours](using/reports/journey-global-report.md)
+         + [Rapport global de campagne](using/reports/campaign-global-report.md)
+         + [Rapport d’objectif](using/reports/objective-report.md)
+         + [Rapport global sur les pages de destination](using/reports/lp-report-global.md)
+         + [Rapport global sur les listes d’abonnements](using/reports/subscription-report-global.md)
+      + Rapports sur le canal {#channel-report}
+         + [Prise en main des rapports sur les canaux](using/reports/channel-report-gs.md)
+         + [Rapports sur les canaux](using/reports/channel-report.md)
    + Rapports de parcours {#reports}
       + [Création de rapports de parcours](using/reports/sharing-overview.md)
       + [Liste des champs d’événement d’étape](using/reports/sharing-field-list.md)
@@ -411,17 +441,7 @@ ht-degree: 96%
       + [Présentation de la liste de suppression](using/reports/suppression-list.md)
       + [Nouvelle exigence DMARC](using/configuration/dmarc-record-update.md)
    + [Alertes](using/reports/alerts.md)
-   + [Utiliser Customer Journey Analytics](using/reports/cja-ajo.md)
-   + [Motifs d’exclusion](using/reports/exclusion-list.md)
-+ Nouvelle interface de création de rapports (disponibilité limitée){#channel-report}
-   + [Commencer avec la nouvelle interface de création de rapports](using/reports/report-gs-cja.md)
-   + [Conditions préalables pour le reporting et l&#39;expérimentation](using/reports/reporting-configuration.md)
-   + [Gérer vos rapports](using/reports/report-cja-manage.md)
-   + [Rapport de parcours](using/reports/journey-global-report-cja.md)
-   + [Rapport de campagne](using/reports/campaign-global-report-cja.md)
-   + [Rapport d’aperçu](using/reports/channel-report-cja.md)
-   + [Rapport sur les pages de destination](using/reports/lp-report-global-cja.md)
-   + [Rapport sur les listes d’abonnements](using/reports/subscription-report-global-cja.md)
+   + [Causes d’exclusion](using/reports/exclusion-list.md)
 + Prise de décision {#decisioning}
    + Gestion des décisions {#offer-decisioning}
       + Prise en main de la gestion des décisions {#get-started-decision}
