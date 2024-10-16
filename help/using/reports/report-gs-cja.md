@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: bfd88d2a-e7b8-4e3b-85a1-4a14b0ba56dc
-source-git-commit: 47482adb84e05fe41eb1c50479a8b50e00469ec4
+source-git-commit: 903378c3bc28c4b4c5773238e422d0a3a448246a
 workflow-type: tm+mt
-source-wordcount: '352'
-ht-degree: 77%
+source-wordcount: '357'
+ht-degree: 71%
 
 ---
 
@@ -29,7 +29,7 @@ La création de rapports Journey Optimizer est fournie avec une interopérabili
 
   ![](assets/gs-cja-report-3.png)
 
-* Si vous souhaitez cibler une campagne, dans le menu **[!UICONTROL Campagnes]**, accédez à votre campagne et cliquez sur le bouton **[!UICONTROL Rapports]**.
+* Si vous souhaitez cibler une campagne, dans le menu **[!UICONTROL Campagnes]**, accédez à votre campagne et cliquez sur le bouton **[!UICONTROL Rapports]** , puis **[!UICONTROL Afficher tout le rapport temporel]**.
 
   Dans la liste des campagnes existantes, vous pouvez également sélectionner **[!UICONTROL Rapport]** dans le menu avancé de la campagne que vous avez sélectionnée. [En savoir plus sur le rapport de campagne](campaign-global-report-cja.md)
 

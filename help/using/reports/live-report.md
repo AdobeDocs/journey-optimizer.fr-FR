@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 8dd48bb2-a805-4c46-a16c-c68173a9ac08
-source-git-commit: 47482adb84e05fe41eb1c50479a8b50e00469ec4
+source-git-commit: 903378c3bc28c4b4c5773238e422d0a3a448246a
 workflow-type: tm+mt
-source-wordcount: '529'
-ht-degree: 95%
+source-wordcount: '512'
+ht-degree: 87%
 
 ---
 
@@ -20,17 +20,13 @@ ht-degree: 95%
 Utilisez le **[!UICONTROL rapport dynamique]** pour mesurer et visualiser en temps réel l’impact et les performances de vos parcours et de vos messages dans un tableau de bord natif.
 Les données sont disponibles dans le **[!UICONTROL rapport dynamique]** aussitôt que votre diffusion est envoyée ou que votre parcours est exécuté dans l’onglet **[!UICONTROL Dernières 24 heures]**.
 
-* Si vous souhaitez cibler un parcours dans le contexte d’un parcours, dans le menu **[!UICONTROL Parcours]**, accédez à votre parcours et cliquez sur le bouton **[!UICONTROL Afficher le rapport]**.
+* Si vous souhaitez cibler un parcours dans le contexte d’un parcours, dans le menu **[!UICONTROL Parcours]**, accédez au menu **[!UICONTROL Autres actions]** de votre parcours et cliquez sur le bouton **[!UICONTROL Afficher le rapport des 24 dernières heures]**.
 
   ![](assets/report_journey.png)
 
-* Si vous souhaitez cibler une campagne, dans le menu **[!UICONTROL Campagnes]**, accédez à votre campagne et cliquez sur le bouton **[!UICONTROL Rapports]**.
+* Si vous souhaitez cibler une campagne, dans le menu **[!UICONTROL Campagnes]**, accédez à votre campagne et cliquez sur le bouton **[!UICONTROL Rapports]** , puis **[!UICONTROL Afficher le rapport des 24 dernières heures]**.
 
   ![](assets/report_campaign.png)
-
-* Si vous souhaitez passer des **rapports du Customer Journey Analytics** aux **[!UICONTROL rapports en direct]** pour votre diffusion, cliquez sur **[!UICONTROL Dernières 24 heures]** dans le sélecteur d’onglets.
-
-  ![](assets/report_3.png)
 
 Pour obtenir la liste détaillée de chaque mesure disponible dans Adobe Journey Optimizer, reportez-vous à [cette page](#list-of-components-live).
 
@@ -92,7 +88,7 @@ Votre rapport peut maintenant être affiché ou partagé dans un fichier PDF.
 
    ![](assets/export_4.png)
 
-1. Vous pouvez également choisir d’exporter des données à partir d’un widget spécifique. Cliquez sur **[!UICONTROL Exporter des données de widget au format CSV]** en regard du widget sélectionné.
+1. Vous pouvez également choisir d’exporter des données à partir d’un widget spécifique. Cliquez sur **[!UICONTROL Télécharger le fichier CSV]** en regard du widget sélectionné.
 
    ![](assets/export_5.png)
 
