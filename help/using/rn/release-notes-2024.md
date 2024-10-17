@@ -1,8 +1,8 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Notes de mise à jour 2024
-description: Notes de mise à jour 2024 pour Journey Optimizer
+title: Notes de mise à jour de 2024
+description: Notes de mise à jour de 2024 pour Journey Optimizer
 feature: Release Notes
 topic: Content Management
 role: User
@@ -10,17 +10,17 @@ level: Beginner, Intermediate
 exl-id: bae533c5-1bfc-48bf-9f8d-1145383c040c
 source-git-commit: 47482adb84e05fe41eb1c50479a8b50e00469ec4
 workflow-type: tm+mt
-source-wordcount: '3842'
-ht-degree: 95%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
-# Notes de mise à jour 2024 {#release-notes-2024}
+# Notes de mise à jour de 2024 {#release-notes-2024}
 
 Cette page répertorie toutes les fonctionnalités et améliorations pour [!DNL Journey Optimizer] publiées en 2024.
 
 
-## Version du 24 août {#8-2024}
+## Version d’août 2024 {#8-2024}
 
 **Date de publication** : 20-21 août 2024
 
@@ -148,7 +148,7 @@ Cette version apporte les améliorations répertoriées ci-dessous.
 
 
 
-## Version du 24 juillet {#24-7-2024}
+## Version de juillet 2024 {#24-7-2024}
 
 **Date de version** : 30-31 juillet 2024
 
@@ -199,7 +199,7 @@ Cette version est fournie avec les améliorations répertoriées ci-dessous.
 
 
 
-## Version du 24 juin {#24-6-2024}
+## Version de juin 2024 {#24-6-2024}
 
 **Date de publication** : 18-19 juin 2024
 
@@ -375,7 +375,7 @@ En savoir plus dans la documentation sur les [fragments de contenu](../content-m
 
 
 
-## Version du 24 mai {#may-2024}
+## Version de mai 2024 {#may-2024}
 
 **Date de publication** : 21-22 mai 2024
 
@@ -393,7 +393,7 @@ Cette version apporte les nouvelles fonctionnalités détaillées ci-dessous.
 <tr>
 <td>
 <p>Décisions pour les expériences simplifie la personnalisation en offrant un catalogue centralisé d’offres marketing connues sous le nom d’« éléments de décision » et un moteur de décision sophistiqué. Ce moteur tire parti des règles et des critères de classement pour sélectionner et présenter les éléments de décision les plus pertinents à chaque individu.</p>
-<p>Ces éléments de décision sont intégrés de manière transparente à un large éventail de configurations entrantes par le biais du nouveau canal d’expérience basé sur le code, désormais accessible dans les campagnes Journey Optimizer. Les politiques de décisions pour les expériences ne peuvent être utilisées que dans des campagnes d’expérience basées sur du code.</p>
+<p>Ces éléments de décision sont intégrés de manière transparente à un large éventail de configurations entrantes grâce au nouveau canal d’expérience basée sur le code, désormais accessible dans les campagnes Journey Optimizer. Les politiques de décisions pour les expériences ne peuvent être utilisées que dans des campagnes d’expérience basées sur du code.</p>
 <p>Ces décisions pour les expériences ne sont actuellement disponibles que pour un ensemble d’organisations (disponibilité limitée). Pour en bénéficier, contactez votre représentant ou représentante Adobe.</p>
 <img src="assets/do-not-localize/gif-exd.gif"/>
 <p>Pour plus d’informations, consultez la <a href="../experience-decisioning/gs-experience-decisioning.md">documentation détaillée</a>.</p>
@@ -405,13 +405,13 @@ Cette version apporte les nouvelles fonctionnalités détaillées ci-dessous.
 <table>
 <thead>
 <tr>
-<th><strong>Personnalisation de la configuration des emails - Disponibilité limitée</strong><br/></th>
+<th><strong>Personnalisation de la configuration du canal e-mail - Disponibilité limitée</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Vous pouvez désormais définir des sous-domaines dynamiques et des paramètres d’en-tête personnalisés lors de la création de configurations de canal de courrier électronique pour une flexibilité accrue et un contrôle accru de vos paramètres de courrier électronique.</p>
+<p>Vous pouvez désormais définir des sous-domaines dynamiques et des paramètres d’en-tête personnalisés lors de la création de configuration de canal e-mail pour une meilleure flexibilité et un meilleur contrôle de vos paramètres d’e-mail.</p>
 <p>La personnalisation de la configuration du canal e-mail n’est actuellement disponible que pour un ensemble d’organisations (disponibilité limitée). Pour en bénéficier, contactez votre représentant ou représentante Adobe.</p>
 <p>Pour plus d’informations, consultez la <a href="../email/surface-personalization.md">documentation détaillée</a>.</p>
 </td>
@@ -524,7 +524,7 @@ De la version bêta à cette version, les améliorations suivantes ont été ajo
 Dans le cadre de nos efforts continus pour offrir une expérience utilisateur et utilisatrice unifiée, nous harmonisons la terminologie utilisée dans les produits et applications Adobe Experience Cloud. Cela concerne le terme allemand « Titel » qui est remplacé par « Label » lorsqu’il se rapporte au nom d’un objet. Les modifications seront progressivement déployées dans l’interface utilisateur et dans la documentation.
 
 
-## Version du 24 avril {#apr-2024}
+## Version d’avril 2024 {#apr-2024}
 
 **Date de publication** : 2 mai 2024
 
@@ -619,9 +619,9 @@ Cette version est fournie avec les améliorations répertoriées ci-dessous.
 
 **Configuration**
 
-* Vous pouvez désormais sélectionner une action marketing au niveau de la configuration du canal. Lorsqu’elles sont utilisées dans une configuration, toutes les stratégies de consentement associées à cette action marketing sont exploitées afin de respecter les préférences de vos clients. [En savoir plus](../action/consent.md#surface-marketing-actions)
+* Vous pouvez désormais sélectionner une action marketing au niveau de la configuration des canaux. Lorsqu’elles sont utilisées dans la configuration, toutes les politiques de consentement associées à cette action marketing sont utilisées afin de respecter les préférences de vos clientes et clients. [En savoir plus](../action/consent.md#surface-marketing-actions)
 * L’utilisation du contrôle d’accès au niveau de l’objet est désormais disponible pour les configurations de canal. [En savoir plus](../configuration/channel-surfaces.md#create-channel-surface)
-* Lors de l’activation du désabonnement de la liste dans une configuration de canal, vous pouvez maintenant définir le niveau de consentement pour vous aligner sur la manière dont vous gérez le consentement de toutes les autres sources. [En savoir plus](../email/email-settings.md#list-unsubscribe)
+* Lors de l’activation du désabonnement de la liste dans une configuration des canaux, vous pouvez maintenant définir le niveau de consentement pour vous aligner sur la manière dont vous gérez le consentement de toutes les autres sources. [En savoir plus](../email/email-settings.md#list-unsubscribe)
 
 **Gestion de contenu**
 
@@ -633,7 +633,7 @@ Cette version est fournie avec les améliorations répertoriées ci-dessous.
 
 
 
-## Version du 24 mars {#mar-2024}
+## Version de mars 2024 {#mar-2024}
 
 **Date de publication** : 19-20 mars 2024
 
@@ -683,7 +683,7 @@ De nouveaux statuts intermédiaires ont été ajoutés au cycle de vie de créat
 
 Lorsqu’un parcours se trouve dans un état intermédiaire, il est en lecture seule. [En savoir plus](../building-journeys/journey-gs.md#filter)
 
-## Version du 24 février {#feb-2024}
+## Version de février 2024 {#feb-2024}
 
 **Date de publication** : 21-22 février 2024
 
@@ -769,7 +769,7 @@ Antérieurement disponibles en version bêta, les améliorations suivantes sont 
 * **Capping rules** - You can now add **multiple capping rules** for one offer. This allows you to increase the level of control over the way offers are sent.-->
 
 
-## Version du 24 janvier {#jan-2024}
+## Version de janvier 2024 {#jan-2024}
 
 **Date de publication** : 30-31 janvier 2024
 

@@ -7,8 +7,8 @@ type: Documentation
 solution: Journey Optimizer
 source-git-commit: 9e810d5dcc9099411e7a81d18e22e9915c170bc2
 workflow-type: tm+mt
-source-wordcount: '2136'
-ht-degree: 93%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -50,8 +50,8 @@ ht-degree: 93%
       + [Tester votre parcours](using/building-journeys/testing-the-journey.md)
       + [Simuler votre parcours](using/building-journeys/journey-simulation.md)
       + [Publier votre parcours](using/building-journeys/publishing-the-journey.md)
-      + [Rapport en direct dans votre parcours](using/building-journeys/report-journey.md)
-   + Gestion des parcours{#manage-journey}
+      + [Rapport dynamique dans votre parcours](using/building-journeys/report-journey.md)
+   + Gérer vos parcours{#manage-journey}
       + [Gestion des entrées de profil](using/building-journeys/entry-management.md)
       + [Gestion des fuseaux horaires](using/building-journeys/timezone-management.md)
       + [Fin de votre parcours](using/building-journeys/end-journey.md)
@@ -175,7 +175,7 @@ ht-degree: 93%
    + [Vérification et activation d’une campagne](using/campaigns/review-activate-campaign.md)
    + [Gérer les campagnes](using/campaigns/modify-stop-campaign.md)
    + [Déclencher des campagnes à l’aide d’API](using/campaigns/api-triggered-campaigns.md)
-+ Test et approbation {#test}
++ Tester et approuver {#test}
    + [Gestion des conflits et hiérarchisation](using/test-approve/conflict-prioritization.md)
    + Gestion des conflits et hiérarchisation {#conflict-prioritization}
       + [Prise en main de la gestion des conflits et de la hiérarchisation](using/test-approve/gs-conflict-prioritization.md)
@@ -190,11 +190,11 @@ ht-degree: 93%
       + [Envoyer des BAT d’e-mail](using/content-management/proofs.md)
       + [Tester le rendu des e-mails](using/content-management/rendering.md)
       + [Rapport de spam des e-mails](using/content-management/spam-report.md)
-   + Approuver les parcours et campagnes {#approve}
-      + [Prise en main des validations](using/test-approve/gs-approval.md)
-      + [Création et gestion des stratégies d’approbation](using/test-approve/approval-policies.md)
+   + Approuver les parcours et les campagnes {#approve}
+      + [Commencer avec les approbations](using/test-approve/gs-approval.md)
+      + [Créer et gérer des politiques d’approbation](using/test-approve/approval-policies.md)
       + [Demander l’approbation](using/test-approve/request-approval.md)
-      + [Approbation d’une requête](using/test-approve/review-approve-request.md)
+      + [Approuver une demande](using/test-approve/review-approve-request.md)
 + Canal e-mail {#email}
    + [Prise en main des e-mails](using/email/get-started-email.md)
    + [Créer un e-mail](using/email/create-email.md)
@@ -267,7 +267,7 @@ ht-degree: 93%
    + Créer des pages web {#author-web-pages}
       + [Modifier le contenu d’une page web](using/web/edit-web-content.md)
       + [Gérer les modifications](using/web/manage-web-modifications.md)
-      + [Surveiller vos expériences web](using/web/monitor-web-experiences.md)
+      + [Surveiller vos expériences web](using/web/monitor-web-experiences.md)
       + [Créer des applications monopage](using/web/web-spa.md)
 + Expérience basée sur le code {#code-based-experience}
    + [Commencer avec le canal basé sur le code](using/code-based/get-started-code-based.md)
@@ -280,7 +280,7 @@ ht-degree: 93%
    + Configurer le canal de carte de contenu {#configure}
       + [Conditions préalables des cartes de contenu](using/content-card/content-card-configuration-prereq.md)
       + [Configurer le canal des cartes de contenu dans Journey Optimizer](using/content-card/content-card-configuration.md)
-      + [Configuration de la prise en charge des cartes de contenu dans le SDK Web](using/content-card/content-card-configuration-sdk.md)
+      + [Configurer la prise en charge des cartes de contenu dans le SDK web](using/content-card/content-card-configuration-sdk.md)
    + [Créer des cartes de contenu](using/content-card/create-content-card.md)
    + [Concevoir des cartes de contenu](using/content-card/design-content-card.md)
 +  Pages de destination {#landing-pages}
@@ -388,7 +388,7 @@ ht-degree: 93%
       + [Prise en main des rapports de Customer Journey Analytics](using/reports/report-gs-cja.md)
       + [Configuration manuelle du Customer Journey Analytics](using/reports/cja-ajo.md)
       + [Gérer vos rapports](using/reports/report-cja-manage.md)
-      + [Conditions préalables pour le reporting et l&#39;expérimentation](using/reports/reporting-configuration.md)
+      + [Conditions préalables à la création de rapports et à l’expérimentation](using/reports/reporting-configuration.md)
       + Rapports de campagne{#reporting}
          + [Rapport de campagne](using/reports/campaign-global-report-cja.md)
          + [Rapport de campagne basé sur le code](using/reports/campaign-global-report-cja-code.md)
@@ -679,7 +679,7 @@ ht-degree: 93%
          + [Utiliser des réponses d’appel API dans des actions personnalisées](using/action/action-response.md)
          + [Intégration à Marketo Engage](using/action/marketo-engage.md)
    + [Sources](using/start/get-started-sources.md)
-   + [Exporter des objets vers un autre environnement de test](using/configuration/copy-objects-to-sandbox.md)
+   + [Exporter des objets vers un autre sandbox](using/configuration/copy-objects-to-sandbox.md)
 + Contrôle d’accès {#access-control}
    + Vue d’ensemble du contrôle d’accès {#privacy}
       + [Prise en main de User Management](using/administration/permissions-overview.md)

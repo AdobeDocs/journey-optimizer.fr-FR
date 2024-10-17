@@ -10,8 +10,8 @@ level: Beginner, Intermediate
 exl-id: 61e6291f-c063-44a0-950c-8bb76de693f2
 source-git-commit: 47482adb84e05fe41eb1c50479a8b50e00469ec4
 workflow-type: tm+mt
-source-wordcount: '4377'
-ht-degree: 98%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 98%
 Cette page répertorie toutes les fonctionnalités et améliorations pour [!DNL Journey Optimizer] publiées en 2023.
 
 
-## Version du 23 octobre {#oct-rn-2023}
+## Version d’octobre 2023 {#oct-rn-2023}
 
 ### Nouvelles fonctionnalités{#oct-2023-features}
 
@@ -87,7 +87,7 @@ Cette version est fournie avec les améliorations répertoriées ci-dessous.
 * La durée maximale que vous pouvez définir dans n’importe quel temps d’attente est désormais de 29 jours au lieu de 30. Cette amélioration a été introduite afin d’éviter que les temps d’attente ne dépassent la durée de vie de 30 jours du parcours. Cela s’applique aux éléments suivants :
 
    * Le champ **Durée** dans l’[activité d’attente](../building-journeys/wait-activity.md).
-   * la **période d’attente de rentrée** dans [ propriétés de parcours](../building-journeys/journey-properties.md#entrance)
+   * La **période d’attente de nouvelle entrée** dans les [propriétés du parcours](../building-journeys/journey-properties.md#entrance).
    * Le champ **Attendre pendant** dans la définition du délai d’expiration des [activités d’événement](../building-journeys/general-events.md#events-specific-time).
 
 <!--
@@ -101,7 +101,7 @@ Cette version est fournie avec les améliorations répertoriées ci-dessous.
 
 
 
-## Version du 23 septembre {#sept-rn-2023}
+## Version de septembre 2023 {#sept-rn-2023}
 
 ### Nouvelles fonctionnalités{#sept-2023-features}
 
@@ -233,7 +233,7 @@ Cette version est fournie avec les améliorations répertoriées ci-dessous.
 
 Enhancements have been made to the audience picker in journeys or campaigns, with the addition of new columns displaying the origin and update frequency of audiences.    -->
 
-## Version du 23 août {#aug-rn-2023}
+## Version d’août 2023 {#aug-rn-2023}
 
 ### Nouvelles fonctionnalités{#aug-2023-features}
 
@@ -322,7 +322,7 @@ A new option is available in the email surface settings to include email address
 
 
 
-## Version du 23 juillet {#july-rn-2023}
+## Version de juillet 2023 {#july-rn-2023}
 
 ### Nouvelles fonctionnalités{#july-2023-features}
 
@@ -446,7 +446,7 @@ L’export des jeux de données Journey Optimizer vers les destinations d’esp
 
 
 
-## Version du 23 juin {#june-rn-2023}
+## Version de juin 2023 {#june-rn-2023}
 
 <table>
 <thead>
@@ -496,7 +496,7 @@ Enhancements have been made to the audience picker in journeys or campaigns, wit
 * A new type of system alert has been introduced. You can now get notified when a custom action fails.
 -->
 
-## Version du 23 mai {#may-rn-2023}
+## Version de mai 2023 {#may-rn-2023}
 
 ### Nouvelles fonctionnalités{#may-2023-features}
 
@@ -649,7 +649,7 @@ Enhancements have been made to the audience picker in journeys or campaigns, wit
 * Messages in-app : correction d’un problème en raison duquel la planification de campagne était en conflit avec les paramètres de fréquence des messages.
 
 
-## Version du 23 avril {#apr-rn-2023}
+## Version d’avril 2023 {#apr-rn-2023}
 
 <!--Information below is subject to change without prior notice until the release availability date. Updated documentation will be published at the release date, and direct links will be added in this page.
 
@@ -730,7 +730,7 @@ Enhancements have been made to the audience picker in journeys or campaigns, wit
 
 
 
-## Version du 23 mars {#mar-2023}
+## Version de mars 2023 {#mar-2023}
 
 ### Nouvelles fonctionnalités{#mar-2023-features}
 
@@ -826,7 +826,7 @@ Enhancements have been made to the audience picker in journeys or campaigns, wit
 
   Pour avoir accès aux derniers widgets, vous devrez réinitialiser les différents tableaux de bord de rapports. Pour plus d’informations sur la personnalisation des tableaux de bord, consultez la [documentation détaillée](../reports/report-gs-cja.md).
 
-## Version du 23 février {#feb-2023}
+## Version de février 2023 {#feb-2023}
 
 ### Nouvelles fonctionnalités{#feb-2023-features}
 
@@ -922,7 +922,7 @@ Note that each widget can be resized and deleted as needed.
 
 **Parcours**
 
-* Le champ **Période d’attente de rentrée** a été ajouté aux propriétés du parcours. Ce champ vous permet de définir le temps d’attente avant d’autoriser un profil à entrer à nouveau dans un parcours pour les parcours unitaires (en commençant par un événement ou une qualification d’audience). Cela empêche les parcours d’être déclenchés plusieurs fois par erreur pour le même événement. Par défaut, le champ est défini sur 5 minutes. [En savoir plus](../building-journeys/journey-properties.md#entrance).
+* Le champ **Période d’attente de nouvelle entrée** a été ajouté aux propriétés du parcours. Ce champ vous permet de définir le temps d’attente avant d’autoriser un profil à entrer à nouveau dans un parcours pour les parcours unitaires (en commençant par un événement ou une qualification d’audience). Cela empêche les parcours d’être déclenchés plusieurs fois par erreur pour le même événement. Par défaut, le champ est défini sur 5 minutes. [En savoir plus](../building-journeys/journey-properties.md#entrance).
 
 * Des améliorations ont été apportées aux **dates de début et de fin de parcours**. Si vous n’avez pas spécifié de date de début, elle est désormais automatiquement ajoutée au moment de la publication. Pour les parcours **Lecture d’audience**, vous pouvez désormais ajouter une date de fin. Cela permet aux profils de se fermer automatiquement lorsque la date est atteinte. [En savoir plus](../building-journeys/journey-gs.md#dates)
 
@@ -954,7 +954,7 @@ Note that each widget can be resized and deleted as needed.
 
 * **Personnalisation des URL** : lorsque vous ajoutez des URL en tant que contenu aux représentations de vos offres, vous pouvez désormais personnaliser ces URL à l’aide de l’éditeur d’expression. [En savoir plus](../offers/offer-library/add-representations.md).
 
-## Version du 23 janvier {#jan-2023-release}
+## Version de janvier 2023 {#jan-2023-release}
 
 ### Nouvelles fonctionnalités{#jan-2023-features}
 
