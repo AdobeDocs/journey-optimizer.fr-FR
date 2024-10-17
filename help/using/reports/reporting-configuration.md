@@ -12,11 +12,11 @@ exl-id: 327a0c45-0805-4f64-9bab-02d67276eff8
 source-git-commit: d4dce7b31d898d86c330048e6d0a1587e87a617c
 workflow-type: tm+mt
 source-wordcount: '572'
-ht-degree: 91%
+ht-degree: 92%
 
 ---
 
-# Conditions préalables pour le reporting et l&#39;expérimentation {#reporting-configuration}
+# Conditions préalables pour la création de rapports et l’expérimentation {#reporting-configuration}
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_reporting_config"

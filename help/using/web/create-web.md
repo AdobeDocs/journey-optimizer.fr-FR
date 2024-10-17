@@ -9,7 +9,7 @@ exl-id: e28c038b-49ed-4685-bfe6-514116eb0711
 source-git-commit: 503bedc30c35305537c62f9452f4a2dc07424523
 workflow-type: tm+mt
 source-wordcount: '1167'
-ht-degree: 47%
+ht-degree: 49%
 
 ---
 
@@ -97,7 +97,7 @@ Pour plus d’informations sur la configuration d’une campagne, consultez cett
 
 >[!ENDTABS]
 
-## Tester l’expérience web {#test-web-experience}
+## Test de l’expérience web {#test-web-experience}
 
 >[!CONTEXTUALHELP]
 >id="ajo_web_designer_preview"
