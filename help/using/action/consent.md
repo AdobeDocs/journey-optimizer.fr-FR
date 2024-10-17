@@ -9,34 +9,34 @@ role: Data Engineer, Data Architect, Admin
 level: Experienced
 keywords: politiques, gouvernance, platform, healthcare shield, consentement
 source-git-commit: 6b721c04db34fecae2274604113061e4e97db149
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1242'
-ht-degree: 79%
+ht-degree: 100%
 
 ---
 
 # Utiliser les politiques de consentement {#consent-management}
 
-Vos données peuvent être soumises à des restrictions d’utilisation définies par votre organisation ou par des réglementations juridiques. Il est donc important de s’assurer que vos opérations de données au sein de Journey Optimizer sont conformes aux [politiques d’utilisation des données](https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/overview.html?lang=fr){target="_blank"}. Ces stratégies sont des règles Adobe Experience Platform qui définissent les actions marketing que vous êtes autorisé à effectuer sur les données.
+Vos données peuvent être soumises à des restrictions d’utilisation définies par votre organisation ou par des réglementations juridiques. Il est donc important de s’assurer que vos opérations de données au sein de Journey Optimizer sont conformes aux [politiques d’utilisation des données](https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/overview.html?lang=fr){target="_blank"}. Ces politiques sont des règles Adobe Experience Platform qui définissent les actions marketing que vous avez l’autorisation d’effectuer sur les données.
 
-Par défaut, si un profil s’est désabonné de la réception des communications de votre part, le profil correspondant est exclu des prochaines diffusions. Vous pouvez créer une **stratégie de consentement** qui remplace cette logique par défaut. Par exemple, vous pouvez créer des stratégies de consentement dans Experience Platform afin d’exclure les clients qui n’ont pas consenti à recevoir une communication pour un canal donné. En l’absence de politique personnalisée, la politique par défaut s’applique.
+Par défaut, si un profil s’est désabonné de la réception des communications de votre part, le profil correspondant est exclu des prochaines diffusions. Vous pouvez créer une **politique de consentement** qui remplace cette logique par défaut. Par exemple, vous pouvez créer des politiques de consentement dans Experience Platform pour exclure les clientes et clients qui n’ont pas consenti à recevoir des communications sur un canal donné. En l’absence de politique personnalisée, la politique par défaut s’applique.
 
 >[!IMPORTANT]
 >
 >Les politiques de consentement ne sont actuellement disponibles que pour les organisations qui ont acheté les offres complémentaires Adobe **Healthcare Shield** et **Privacy and Security Shield**.
 
-Les principales étapes pour appliquer les stratégies de consentement sont les suivantes :
+Les principales étapes pour appliquer des politiques de consentement sont les suivantes :
 
-1. Créez une stratégie de consentement dans Adobe Experience Platform avec une action marketing associée. [Découvrez comment créer une stratégie de consentement](https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/user-guide.html?lang=fr#consent-policy){target="_blank"}
+1. Créez une politique de consentement dans Adobe Experience Platform avec une action marketing associée. [Découvrir comment créer une politique de consentement](https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/user-guide.html?lang=fr#consent-policy){target="_blank"}
 
-2. Appliquez des stratégies de consentement dans Adobe Journey Optimizer à l’aide de configurations de canal ou d’actions personnalisées parcours.
+2. Appliquez des politiques de consentement dans Adobe Journey Optimizer à l’aide de configurations de canal ou d’actions personnalisées de parcours.
 
-   * Créez une configuration de canal avec une action marketing associée. Lors de la création d’une communication à l’aide de la configuration du canal, elle héritera de l’action marketing associée et appliquera les stratégies de consentement correspondantes définies dans Adobe Experience Platform. [Découvrez comment tirer parti des stratégies de consentement par le biais de configurations de canal](#surface-marketing-actions)
+   * Créez une configuration des canaux avec une action marketing associée. Si vous créez une communication à l’aide de la configuration des canaux, elle hérite de l’action marketing associée et applique les politiques de consentement correspondantes définies dans Adobe Experience Platform. [Découvrir comment tirer parti des politiques de consentement par le biais de configurations de canal](#surface-marketing-actions)
 
-   * Au niveau du parcours, vous pouvez effectuer l’une des opérations suivantes :
+   * Au niveau du parcours, vous pouvez effectuer l’une des opérations suivantes :
 
-      * Associez un canal et une action marketing à une action personnalisée lors de sa configuration. [Découvrez comment tirer parti des stratégies de consentement lors de la configuration d&#39;une action personnalisée](#consent-custom-action)
-      * Définissez une action marketing supplémentaire lors de l’ajout d’une action personnalisée dans un parcours. [Découvrez comment tirer parti des stratégies de consentement lors de l&#39;ajout d&#39;une action personnalisée dans un parcours](#consent-journey)
+      * Associer un canal et une action marketing à une action personnalisée lors de sa configuration. [Découvrir comment tirer parti des politiques de consentement lors de la configuration d’une action personnalisée](#consent-custom-action)
+      * Définir une action marketing supplémentaire lors de l’ajout d’une action personnalisée dans un parcours. [Découvrir comment tirer parti des politiques de consentement lors de l’ajout d’une action personnalisée dans un parcours](#consent-journey)
 
 ## Exploiter les politiques de consentement par le biais de configurations de canal {#surface-marketing-actions}
 
@@ -104,7 +104,7 @@ There are two types of latency regarding the use of consent policies:
 * **Consent policy latency**: the delay from the time a consent policy is created or updated to the moment it is applied. This can take up to 6 hours
 -->
 
-### Utilisation des stratégies de consentement lors de la configuration d’une action personnalisée{#consent-custom-action}
+### Tirer parti des politiques de consentement lors de la configuration d’une action personnalisée{#consent-custom-action}
 
 Lors de la configuration d’une action personnalisée, deux champs peuvent être utilisés pour la gestion du consentement.
 
@@ -120,7 +120,7 @@ Pour certains types de communications importantes, par exemple un message transa
 
 Les autres étapes de configuration d’une action personnalisée sont présentées dans [cette section](../action/about-custom-action-configuration.md#consent-management).
 
-### Utilisation des stratégies de consentement lors de l’ajout d’une action personnalisée dans un parcours {#consent-journey}
+### Tirer parti des politiques de consentement lors de l’ajout d’une action personnalisée dans un parcours {#consent-journey}
 
 Lors de l’ajout de l’action personnalisée dans un parcours, plusieurs options vous permettent de gérer le consentement. Cliquez sur le bouton **Afficher les champs en lecture seule** pour afficher tous les paramètres.
 

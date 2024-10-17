@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
 source-git-commit: 72bda999c9e866398375422d8419516e5fea97b5
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1505'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -126,7 +126,7 @@ Contrôlez les demandes et la gestion concernant la confidentialité à partir d
 
 * **[!UICONTROL Configurations]** - Utilisez ce menu pour configurer les [événements](../event/about-events.md), les [sources de données](../datasource/about-data-sources.md) et les [actions](../action/action.md) à utiliser dans vos parcours.
 
-  Vous pouvez également accéder à la section **Reporting** pour configurer les rapports pour l’expérimentation de campagnes et le web/mobile. [En savoir plus](../reports/reporting-configuration.md)
+  Vous pouvez également accéder à la section **Création de rapports** pour configurer les rapports pour l’expérimentation de campagnes, ainsi que pour le web et les applications mobiles. [En savoir plus](../reports/reporting-configuration.md)
 
 * **[!UICONTROL Règles commerciales]** - Utilisez cette section pour créer des règles commerciales cross-canal afin de contrôler la fréquence à laquelle les utilisateurs et utilisatrices reçoivent un message ou entrent dans un parcours. [En savoir plus](../configuration/frequency-rules.md).
 
@@ -215,8 +215,8 @@ Pour modifier la langue :
 
 >[!CONTEXTUALHELP]
 >id="ajo_rule_set_rule_capping"
->title="Limitation des règles"
->abstract="Limitation des règles"
+>title="Capping des règles"
+>abstract="Capping des règles"
 
 >[!CONTEXTUALHELP]
 >id="ajo_rule_set_concurrency_prioritization"

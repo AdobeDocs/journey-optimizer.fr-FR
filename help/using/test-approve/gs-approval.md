@@ -1,39 +1,39 @@
 ---
-title: Prise en main de la validation des parcours et campagnes
+title: Commencer avec l’approbation des parcours et des campagnes
 description: Découvrez comment configurer un processus d’approbation pour vos parcours et campagnes.
 role: User
 level: Beginner
 feature: Approval
 badge: label="Disponibilité limitée" type="Informative"
 source-git-commit: a3a0820565bbd8b2d8d0ce37e5b3e5ad37b064cf
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '583'
-ht-degree: 18%
+ht-degree: 100%
 
 ---
 
 
-# Prise en main de la validation des parcours et campagnes {#send-proofs}
+# Commencer avec l’approbation des parcours et des campagnes {#send-proofs}
 
 >[!AVAILABILITY]
 >
-> Actuellement, les stratégies d’approbation ne sont disponibles que pour un ensemble d’organisations (disponibilité limitée). Pour en bénéficier, contactez votre représentant ou représentante Adobe.
+> Les politiques d’approbation ne sont actuellement disponibles que pour un ensemble d’organisations (disponibilité limitée). Pour en bénéficier, contactez votre représentant ou représentante Adobe.
 
-## Prise en main des stratégies d’approbation {#gs}
+## Commencer avec les politiques d’approbation {#gs}
 
-Journey Optimizer vous permet de configurer un processus d’approbation qui permet aux équipes marketing de vérifier que les campagnes et les parcours sont examinés et approuvés par les parties prenantes appropriées avant qu’ils ne soient mis en ligne.
+Journey Optimizer permet de définir des politiques d’approbation pour que les équipes de marketing puissent s’assurer que les campagnes et les parcours sont examinés et approuvés par les parties prenantes appropriées avant leur mise en ligne.
 
-Les stratégies de validation introduisent un workflow structuré directement dans l’interface utilisateur, éliminant ainsi la nécessité de recourir à des supports externes tels que des outils de gestion des emails ou des tâches, et assurant la gestion et le suivi centralisés de toutes les validations.
+Les politiques d’approbation introduisent un workflow structuré directement dans l’interface d’utilisation, éliminant ainsi la nécessité de recourir à des supports externes tels que des outils de gestion des e-mails ou des tâches, tout en assurant la gestion et le suivi centralisés de toutes les approbations.
 
-En outre, cette fonctionnalité offre un meilleur contrôle sur la publication de vos parcours et campagnes : le processus d’approbation étant incorporé dans Journey Optimizer, les campagnes et les parcours restent dans un état &quot;verrouillé&quot; pendant la révision, ce qui garantit qu’aucune modification ou activation involontaire ne se produit avant que toutes les validations nécessaires ne soient mises en place.
+En outre, cette fonctionnalité offre un meilleur contrôle sur la publication de vos parcours et campagnes : le processus d’approbation étant incorporé dans Journey Optimizer, les campagnes et les parcours restent à l’état Verrouillé pendant la révision, ce qui garantit qu’aucune modification ou activation involontaire ne se produit avant que toutes les approbations nécessaires ne soient mises en place.
 
 ## Conditions préalables {#prerequisites}
 
 Avant de commencer, vérifiez que les autorisations ci-dessous ont été configurées.
 
-Pour accéder aux parcours et campagnes d’approbation et de publication, les utilisateurs doivent se voir accorder les autorisations **Approuver et publier des campagnes** et **Approuver et publier des Parcours**. [En savoir plus](../administration/permissions.md)
+Pour accéder aux parcours et campagnes d’approbation et de publication, les utilisateurs et utilisatrices doivent se voir accorder les autorisations **Approuver et publier des campagnes** et **Approuver et publier des parcours**. [En savoir plus](../administration/permissions.md)
 
-+++  Découvrez comment attribuer des autorisations liées à l’approbation
++++  Découvrir comment attribuer des autorisations liées à l’approbation
 
 1. Dans le produit **Autorisations**, accédez à l’onglet **Rôles** et sélectionnez le **Rôle** de votre choix.
 
@@ -43,7 +43,7 @@ Pour accéder aux parcours et campagnes d’approbation et de publication, les u
 
    ![](assets/permissions_approval.png){zoomable="yes"}
 
-1. Ajoutez la ressource **Parcours**, puis sélectionnez **Approuver et publier des Parcours** dans le menu déroulant.
+1. Ajoutez la ressource **Parcours**, puis sélectionnez **Approuver et publier des parcours** dans le menu déroulant.
 
    ![](assets/permissions_approval_2.png){zoomable="yes"}
 
@@ -61,30 +61,30 @@ La personne recevra un e-mail avec des instructions pour accéder à votre insta
 
 +++
 
-## Présentation du processus de validation {#process}
+## Vue d’ensemble du processus d’approbation {#process}
 
-Le processus global d&#39;approbation est le suivant :
+Le processus d’approbation global se présente comme suit :
 
 ![](assets/approval-process.png){zoomable="yes"}
 
-1. **Configuration des stratégies d’approbation**
+1. **Configuration des politiques d’approbation**
 
-   Un administrateur crée une stratégie de validation qui définit les conditions dans lesquelles la stratégie doit s’appliquer aux parcours ou aux campagnes. Vous pouvez par exemple créer une stratégie d’approbation qui exige que toutes les campagnes planifiées créées par un utilisateur donné soient approuvées avant d’être activées. [Découvrez comment créer des stratégies d’approbation](approval-policies.md)
+   L’équipe d’administration crée une politique d’approbation qui définit les conditions dans lesquelles la politique doit s’appliquer aux parcours ou aux campagnes. Vous pouvez par exemple créer une politique d’approbation qui exige que toutes les campagnes planifiées créées par une personne donnée soient approuvées avant d’être activées. [Découvrir comment créer des politiques d’approbation](approval-policies.md)
 
 1. **Envoi de campagne/parcours pour approbation**
 
-   Les créateurs de la campagne/du parcours créent un parcours ou une campagne et l’envoient pour approbation. La campagne/le parcours entre dans un état &quot;En révision&quot;, durant lequel aucune modification ne peut être effectuée, sauf si la demande est annulée. [Découvrez comment demander l’approbation](request-approval.md)
+   Les personnes à l’origine de la campagne/du parcours créent un parcours ou une campagne et l’envoient pour approbation. La campagne/le parcours passe à l’état En révision, durant lequel aucune modification ne peut être effectuée, sauf si la demande est annulée. [Découvrir comment demander l’approbation](request-approval.md)
 
    >[!NOTE]
    >
-   >Les campagnes et les parcours ne doivent être soumis à validation que si une stratégie de validation est en place. Si aucune stratégie de ce type ne s’applique, le créateur peut publier directement la campagne ou le parcours sans nécessiter d’approbation.
+   >Les campagnes et les parcours ne doivent être soumis à approbation que si une politique d’approbation est en place. Si aucune politique de ce type ne s’applique, le créateur ou la créatrice peut publier directement la campagne ou le parcours sans nécessiter d’approbation.
 
 1. **Révision et approbation**
 
-   Le ou les approbateurs définis dans la politique de validation qui s&#39;applique au parcours ou à l&#39;opération reçoivent une notification. Ils peuvent consulter le contenu, l’audience et les paramètres du parcours ou de la campagne. Si des modifications sont nécessaires, l’approbateur les demande, renvoyant la campagne à &quot;Version préliminaire&quot; pour les révisions. S’ils sont prêts, ils peuvent activer et lancer le parcours ou la campagne. [Découvrez comment réviser et approuver une requête](review-approve-request.md)
+   Les personnes en charge de l’approbation définies dans la politique d’approbation qui s’applique au parcours ou à la campagne reçoivent une notification. Elles peuvent consulter le contenu, l’audience et les paramètres du parcours ou de la campagne. Si des modifications sont nécessaires, la personne en charge de l’approbation les demande et renvoie la campagne à l’état « Version préliminaire » pour les révisions. Une fois que tout est prêt, la personne en charge de l’approbation peut activer et lancer le parcours ou la campagne. [Découvrir comment réviser et approuver une demande](review-approve-request.md)
 
 ## Surveiller les demandes d’approbation {#monitor}
 
-Vous pouvez surveiller toutes les demandes d’approbation et de modification qui ont été soumises pour un parcours ou une campagne donné. Pour ce faire, cliquez sur l’icône **[!UICONTROL Afficher le journal d’audit]** située dans la section supérieure droite du canevas de parcours ou de l’écran de révision de la campagne.
+Vous pouvez surveiller toutes les demandes d’approbation et de modification qui ont été soumises pour un parcours donné ou une campagne donnée. Pour ce faire, cliquez sur l’icône **[!UICONTROL Afficher le journal d’audit]** située dans la section supérieure droite de la zone de travail du parcours ou de l’écran de révision de la campagne.
 
 ![](assets/monitor-requests.png)

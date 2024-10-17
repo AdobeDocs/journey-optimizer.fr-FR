@@ -6,9 +6,9 @@ solution: Journey Optimizer
 product: journey optimizer
 exl-id: 3a1b6c61-82df-421c-98d8-2af4f2a5e0de
 source-git-commit: b29179518dec9a4c034e6dd21972aa2145839739
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '391'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -20,9 +20,9 @@ Découvrez les améliorations les plus récentes apportées au produit et à la 
 
 >[!BEGINTABS]
 
->[!TAB Version du 24 septembre]
+>[!TAB Version de septembre 2024]
 
-La version de septembre est désormais en ligne, notamment les cartes de contenu pour les applications mobiles et les sites web, les politiques d’approbation dans les parcours et les campagnes (LA), les critères de sortie globale dans les parcours, etc.
+La version de septembre est désormais en ligne, notamment les cartes de contenu pour les applications mobiles et les sites web, les politiques d’approbation dans les parcours et les campagnes (disponibilité limitée), les critères de sortie globale dans les parcours, etc.
 
 [![En savoir plus](using/assets/do-not-localize/learn-more-button.svg)](using/rn/release-notes.md)
 
