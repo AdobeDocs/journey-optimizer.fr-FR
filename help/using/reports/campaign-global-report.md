@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: fa64f5b8-75f2-40e6-8566-5766fafe6cd6
-source-git-commit: 94d6ebe6e0ad5fa48eaad9d8cfa8cff584f2b819
+source-git-commit: c9505b482d2dedc10c4025574cccb662fe149510
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '4552'
+ht-degree: 99%
 
 ---
 
@@ -47,6 +47,10 @@ Le **[!UICONTROL Rapport global]** de campagne est divisé en différents widget
 Pour obtenir la liste détaillée de chaque mesure disponible dans Adobe Journey Optimizer, reportez-vous à [cette page](global-report.md#list-of-components-global.md).
 
 ## Onglet Campagne {#campaign-global}
+
+>[!NOTE]
+>
+>Le rapport Expérience est accessible exclusivement dans les rapports de Customer Journey Analytics. [En savoir plus](campaign-global-report-cja-experimentation.md)
 
 ### Diffusion {#delivery-global}
 
