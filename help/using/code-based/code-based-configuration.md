@@ -6,7 +6,7 @@ topic: Content Management
 role: Admin
 level: Experienced
 exl-id: 1aff2f6f-914c-4088-afd8-58bd9edfe07d
-source-git-commit: c3300b240bd0dc0563ed6d4e6de40bd9fa36a92e
+source-git-commit: b057d198d3c5b12121ee50d7a97ff4b33b8209b4
 workflow-type: tm+mt
 source-wordcount: '1558'
 ht-degree: 41%
@@ -130,7 +130,7 @@ Pour définir les paramètres de configuration d’expérience basés sur du cod
 
 1. Indiquez l’ **[!UICONTROL emplacement ou chemin d’accès dans l’application]**. Ce champ indique la destination exacte à laquelle les utilisateurs doivent accéder dans l’application. Il peut s’agir d’une section ou d’une page spécifique au sein de la structure de navigation de l’application, telle que &quot;bannière-produit&quot; ou &quot;rail-produit&quot;.
 
-   ![](assets/code_config_3.png){width="500"}
+   ![](assets/code_config_3.png)
 
 1. Renseignez le champ **[!UICONTROL URL de prévisualisation]** pour activer les prévisualisations sur l’appareil. Cette URL informe le service d’aperçu de l’URL spécifique à utiliser lors du déclenchement de l’aperçu sur le périphérique. [En savoir plus](../code-based/create-code-based.md#preview-on-device)
 
