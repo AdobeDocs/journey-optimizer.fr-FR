@@ -8,9 +8,9 @@ topic: Content Management
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 5714e0aab20bce91ecf588c6b170a975be1f7d89
+source-git-commit: 5eea9467660ba19bbd2d95e8a82490e645266f69
 workflow-type: tm+mt
-source-wordcount: '1671'
+source-wordcount: '1672'
 ht-degree: 47%
 
 ---
@@ -100,26 +100,6 @@ Ce mode de modification non visuel est utile si vous ne pouvez pas installer d�
 </tbody>
 </table>
 
-
-
-<table>
-<thead>
-<tr>
-<th><strong>Intégration d’encre mobile et de Adobe Journey Optimizer</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>Vous pouvez désormais intégrer Mofiable Ink Da Vinci et Adobe Journey Optimizer. Avec cette nouvelle intégration, vous pouvez : </p>
-<p><ul><li>Tirez parti des puissantes fonctionnalités du produit Da Vinci de Mofiable Ink pour assembler et personnaliser les variations d’email pour les campagnes par lots</li>
-<li>Accélérer les workflows de mise en oeuvre pour les clients Journey Optimizer à l’aide de Da Vinci pour la création et d’AJO pour l’optimisation et la diffusion</li>
-<li>Optimisez les modèles Da Vinci avec les données d’Adobe.</li></ul></p>
-<!--p>For more information, refer to the <a href="../code-based/get-started-code-based.md">detailed documentation</a>.</p-->
-</tr>
-</tbody>
-</table>
-
 <table>
 <thead>
 <tr>
@@ -172,20 +152,39 @@ Ce mode de modification non visuel est utile si vous ne pouvez pas installer d�
 </tbody>
 </table>
 
-
 <table>
 <thead>
 <tr>
-<th><strong> Expérience de création de rapports mise à jour (disponibilité générale)</strong><br/>Disponible depuis le 16 octobre 2024<br/></th>
+<th><strong>Intégration d’encre mobile et de Adobe Journey Optimizer</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
+<p>Vous pouvez désormais intégrer Mofiable Ink Da Vinci et Adobe Journey Optimizer. Avec cette nouvelle intégration, vous pouvez : </p>
+<p><ul><li>Tirez parti des puissantes fonctionnalités du produit Da Vinci de Mofiable Ink pour assembler et personnaliser les variations d’email pour les campagnes par lots</li>
+<li>Accélérer les workflows de mise en oeuvre pour les clients Journey Optimizer à l’aide de Da Vinci pour la création et d’AJO pour l’optimisation et la diffusion</li>
+<li>Optimisez les modèles Da Vinci avec les données d’Adobe.</li></ul></p>
+<!--p>For more information, refer to the <a href="../code-based/get-started-code-based.md">detailed documentation</a>.</p-->
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Mise à jour de l’expérience de création de rapports (disponibilité générale)</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Disponible depuis le 16 octobre 2024</p>
 <p>Les rapports Journey Optimizer sont désormais disponibles dans l’ensemble (GA). Ils s’accompagnent d’une interopérabilité améliorée avec les fonctionnalités des Customer Journey Analytics, de la normalisation des rapports sur les deux plateformes et de l’amélioration de la cohérence et de la fiabilité des données. L’intégration transparente entre Journey Optimizer et Customer Journey Analytics fournit une meilleure visibilité des mesures de performance, ce qui aide les utilisateurs et les utilisatrices à prendre des décisions plus éclairées.</p>
 <p>Avec la disponibilité générale, quatre nouvelles fonctionnalités sont introduites : la possibilité de créer des mesures simples, de créer et de publier des audiences, de poser des questions ad hoc à l’aide d’Insight Builder et de planifier des rapports qui seront automatiquement envoyés par courriel aux destinataires clés.</p>
 <p>Pour plus d’informations, consultez la <a href="../reports/report-cja-manage.md">documentation détaillée</a>.</p>
 <img src="assets/do-not-localize/ajo-cja.gif">
+<p>Important : L’expérience de création de rapports actuelle sera abandonnée à compter de janvier 2025. À partir de cette date, la nouvelle expérience de création de rapports deviendra la norme. Nous vous recommandons de vous familiariser avec les nouvelles fonctionnalités pour garantir une transition fluide. <a href="../reports/report-gs-cja.md">Découvrir la nouvelle interface de création de rapports de Journey Optimizer</a></p>
 </tr>
 </tbody>
 </table>
@@ -199,10 +198,10 @@ Ce mode de modification non visuel est utile si vous ne pouvez pas installer d�
 <tbody>
 <tr>
 <td>
+<p>Disponible depuis le 1er octobre 2024</p>
 <p>Grâce au nouveau canal d’expérience basée sur le code, Adobe Journey Optimizer vous permet d’effectuer des tests et des personnalisations avancés pour l’une de vos propriétés entrantes, ce qui vous permet de diffuser facilement des expériences personnalisées sur différents points de contact (touchpoints) tels que des applications web, des applications mobiles, des applications de bureau, des consoles vidéo, des appareils connectés à la télévision, des téléviseurs intelligents, des kiosques, des distributeurs automatiques, des périphériques IoT, etc. Le canal d’expérience basée sur le code est désormais disponible dans la zone de travail du parcours.</p>
 <p>Pour plus d’informations, consultez la <a href="../code-based/create-code-based.md">documentation détaillée</a>.</p>
 <img src="../assets/do-not-localize/code-based-journey.gif"/>
-<p>Date de disponibilité : 1er octobre_2024</p>
 </tr>
 </tbody>
 </table>
@@ -216,20 +215,13 @@ Ce mode de modification non visuel est utile si vous ne pouvez pas installer d�
 <tbody>
 <tr>
 <td>
+<p>Disponible depuis le 1er octobre 2024</p>
 <p>Avec le canal web, Adobe Journey Optimizer vous permet de personnaliser l’expérience web que vous diffusez à votre clientèle par le biais de parcours web entrants. Le canal web est désormais disponible dans la zone de travail du parcours.</p>
 <p>Pour plus d’informations, consultez la <a href="../web/create-web.md">documentation détaillée</a>.</p>
 <img src="../assets/do-not-localize/web-journey.gif"/>
-<p>Date de disponibilité : 1er octobre_2024</p>
 </tr>
 </tbody>
 </table>
-
->[!IMPORTANT]
->
->L’expérience actuelle en matière de rapports sera abandonnée à compter de janvier 2025. À partir de cette date, la nouvelle expérience de création de rapports deviendra la norme. Nous vous recommandons de vous familiariser avec les nouvelles fonctionnalités pour garantir une transition fluide.
->
-> [Découvrir la nouvelle interface de création de rapports de Journey Optimizer](../reports/report-gs-cja.md)
-
 
 ### Améliorations {#e-improvements}
 
@@ -270,11 +262,11 @@ Des améliorations ont été apportées aux SMS pour améliorer vos fonctionnali
    * 90 jours pour les données dans la banque de profils
    * 13 mois pour les données du lac de données
 
-En outre, à ce moment-là, la segmentation par flux ne prendra plus en charge l’utilisation des événements d’envoi et de retour des jeux de données de suivi et de retour. Nous recommandons de ne pas utiliser ces événements pour la segmentation par flux pendant un certain temps et nous allons maintenant les désactiver complètement.
+  En outre, à ce moment-là, la segmentation par flux ne prendra plus en charge l’utilisation des événements d’envoi et de retour des jeux de données de suivi et de retour. Nous recommandons de ne pas utiliser ces événements pour la segmentation par flux pendant un certain temps et nous allons maintenant les désactiver complètement.
 
-* Cette modification limite uniquement l’utilisation des événements d’envoi/d’ouverture dans la segmentation par flux. Les événements de clic peuvent toujours être utilisés dans un segment de diffusion en continu. En outre, les événements d’envoi/d’ouverture peuvent toujours être utilisés dans un segment par lot.
-* Les données de suivi seront toujours collectées. Cette modification n’a aucune incidence sur le suivi. Vous pouvez toujours suivre à qui un email a été envoyé et qui a cliqué sur un email.
-* Les événements de réaction dans les Parcours ne sont pas affectés par cette modification.
+   * Cette modification limite uniquement l’utilisation des événements d’envoi/d’ouverture dans la segmentation par flux. Les événements de clic peuvent toujours être utilisés dans un segment de diffusion en continu. En outre, les événements d’envoi/d’ouverture peuvent toujours être utilisés dans un segment par lot.
+   * Les données de suivi seront toujours collectées. Cette modification n’a aucune incidence sur le suivi. Vous pouvez toujours suivre à qui un email a été envoyé et qui a cliqué sur un email.
+   * Les événements de réaction dans les Parcours ne sont pas affectés par cette modification.
 
 * **Paramètres dans les actions personnalisées** (Date de disponibilité : 3 octobre 2024) - Les paramètres NULL et facultatifs sont désormais pris en charge dans les actions personnalisées. [En savoir plus](../action/about-custom-action-configuration.md#define-the-message-parameters)
 
