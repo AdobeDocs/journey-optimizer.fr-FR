@@ -5,10 +5,10 @@ user-guide-title: Guide de Journey Optimizer
 user-guide-description: Utilisez Journey Optimizer pour créer et proposer aux clients des expériences connectées, contextuelles et personnalisées
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 9e810d5dcc9099411e7a81d18e22e9915c170bc2
+source-git-commit: a64cfe6a474864df02e18fdb772974d73ec58cc5
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '2135'
+ht-degree: 95%
 
 ---
 
@@ -384,8 +384,8 @@ ht-degree: 0%
       + [Rapport dynamique de campagne](using/reports/campaign-live-report.md)
       + [Rapport dynamique sur les pages de destination](using/reports/lp-report-live.md)
       + [Rapport dynamique sur les listes d’abonnements](using/reports/subscription-report-live.md)
-   + Rapports du Customer Journey Analytics{#channel-report}
-      + [Prise en main des rapports de Customer Journey Analytics](using/reports/report-gs-cja.md)
+   + Expérience de création de rapports mise à jour {#channel-report}
+      + [Prise en main de la mise à jour de l’expérience de création de rapports](using/reports/report-gs-cja.md)
       + [Configuration manuelle du Customer Journey Analytics](using/reports/cja-ajo.md)
       + [Gérer vos rapports](using/reports/report-cja-manage.md)
       + [Conditions préalables à la création de rapports et à l’expérimentation](using/reports/reporting-configuration.md)
@@ -413,7 +413,7 @@ ht-degree: 0%
       + [Rapport d’aperçu](using/reports/channel-report-cja.md)
       + [Rapport sur les pages de destination](using/reports/lp-report-global-cja.md)
       + [Rapport sur les listes d’abonnements](using/reports/subscription-report-global-cja.md)
-   + Ancien tableau de bord des rapports {#reports}
+   + Ancienne expérience de création de rapports {#reports}
       + Rapport global {#global-report}
          + [Prise en main du rapport global](using/reports/global-report.md)
          + [Liste des composants](using/reports/global-report-components.md)
