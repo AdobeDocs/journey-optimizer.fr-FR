@@ -8,9 +8,9 @@ topic: Content Management
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 5eea9467660ba19bbd2d95e8a82490e645266f69
+source-git-commit: d953f4e411b6d73886c9cb1d6d47152a0480de36
 workflow-type: tm+mt
-source-wordcount: '1672'
+source-wordcount: '1674'
 ht-degree: 47%
 
 ---
@@ -238,7 +238,7 @@ Des améliorations ont été apportées aux SMS pour améliorer vos fonctionnali
 
 * **Limitation de la fréquence par campagne ou parcours** : vous pouvez désormais créer des règles de fréquence à appliquer à vos parcours, ce qui vous permet de limiter le nombre de parcours par jour, semaine ou mois, ainsi que de contrôler le nombre de parcours simultanés exécutés simultanément.
 
-* **Score de priorité** : vous pouvez désormais attribuer un score de priorité à une campagne ou à un parcours, allant de 0 à 100. Les nombres plus élevés signalent une priorité plus élevée. Lorsque deux campagnes ou parcours utilisent la même surface, Journey Optimizer sélectionne celle ayant le score de priorité le plus élevé. Si les campagnes ont le même score, la campagne la plus récemment modifiée sera choisie. Le score de priorité est disponible pour tous les canaux entrants dans les campagnes, et pour le canal in-app dans les parcours.
+* **Score de priorité** : vous pouvez désormais attribuer un score de priorité à une campagne ou à un parcours, allant de 0 à 100. Les nombres plus élevés signalent une priorité plus élevée. Lorsque deux campagnes ou parcours utilisent la même configuration de canal, Journey Optimizer sélectionne celle qui obtient le score de priorité le plus élevé. Si les campagnes ont le même score, la campagne la plus récemment modifiée sera choisie. Le score de priorité est disponible pour tous les canaux entrants dans les campagnes, et pour le canal in-app dans les parcours.
 
 * **Afficher les conflits** - Un nouveau bouton **Afficher les conflits** dans les parcours et les campagnes permet désormais de vérifier chaque fois qu’il existe un chevauchement avec d’autres parcours ou campagnes, comme la date de début, l’audience ciblée ou la configuration de canal sélectionnée.
 
@@ -249,7 +249,7 @@ Des améliorations ont été apportées aux SMS pour améliorer vos fonctionnali
 
 **Configuration**
 
-* **Personnalisation de surface** - Lorsque vous utilisez une configuration personnalisée dans une campagne ou un parcours, vous pouvez maintenant prévisualiser le contenu de votre email pour rechercher les erreurs potentielles avec les paramètres dynamiques que vous avez définis.
+* **Personnalisation de la configuration du canal** - Lorsque vous utilisez une configuration personnalisée dans une campagne ou un parcours, vous pouvez maintenant prévisualiser le contenu de votre email pour rechercher les erreurs potentielles avec les paramètres dynamiques que vous avez définis.
 
 **Parcours**
 
