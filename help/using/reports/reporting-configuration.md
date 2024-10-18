@@ -9,14 +9,14 @@ role: Admin
 level: Intermediate
 keywords: configuration, expérimentation, création de rapports, optimizer
 exl-id: 327a0c45-0805-4f64-9bab-02d67276eff8
-source-git-commit: d4dce7b31d898d86c330048e6d0a1587e87a617c
+source-git-commit: f7a0feb38b902b14c402f631cb5c77c1e329886e
 workflow-type: tm+mt
-source-wordcount: '572'
-ht-degree: 92%
+source-wordcount: '585'
+ht-degree: 90%
 
 ---
 
-# Conditions préalables pour la création de rapports et l’expérimentation {#reporting-configuration}
+# Conditions préalables à la création de rapports et à l’expérimentation {#reporting-configuration}
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_reporting_config"
@@ -77,6 +77,10 @@ The table below shows which metrics will be added to the **[!UICONTROL Objective
 -->
 
 ## Ajouter des jeux de données {#add-datasets}
+
+>[!NOTE]
+>
+>Les jeux de données nouvellement créés seront uniquement disponibles dans les rapports de Customer Journey Analytics.
 
 1. Dans le menu **[!UICONTROL Administration]**, sélectionnez **[!UICONTROL Configurations]**. Dans la section **[!UICONTROL Rapports]**, cliquez sur **[!UICONTROL Gérer]**.
 
