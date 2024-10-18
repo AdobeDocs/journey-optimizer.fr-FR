@@ -6,10 +6,10 @@ topic: Content Management
 role: Admin
 level: Experienced
 exl-id: 1aff2f6f-914c-4088-afd8-58bd9edfe07d
-source-git-commit: c53fc226be1b6ab858c5cd75bcae363769fefa74
+source-git-commit: c3300b240bd0dc0563ed6d4e6de40bd9fa36a92e
 workflow-type: tm+mt
-source-wordcount: '1537'
-ht-degree: 42%
+source-wordcount: '1558'
+ht-degree: 41%
 
 ---
 
@@ -28,8 +28,8 @@ Une configuration d’expérience basée sur du code doit faire référence à l
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_location"
->title="Saisissez l’emplacement spécifique."
->abstract="Ce champ indique la destination exacte sur la page ou dans l’application à laquelle vous souhaitez que les utilisateurs accèdent. Il peut s’agir d’une section ou d’une page spécifique au coeur de la structure de navigation."
+>title="Indiquez l’emplacement spécifique dans votre page ou application."
+>abstract="Ce champ indique la destination exacte à l’intérieur d’une page ou dans l’application à laquelle vous souhaitez que les utilisateurs accèdent. Il peut s’agir d’une section spécifique dans une page web ou d’une page au plus profond de la structure de navigation de l’application."
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_default_mobile_url"
@@ -108,7 +108,7 @@ Pour définir les paramètres de configuration de l’expérience basés sur du 
 
      ![](assets/code_config_matching_rules_preview.png)
 
-1. Le champ **[!UICONTROL Emplacement sur la page]** spécifie la destination exacte à laquelle les utilisateurs doivent accéder dans le site Web. Il peut s’agir d’une section ou d’une page spécifique au plus profond de la structure de navigation du site.
+1. Le champ **[!UICONTROL Emplacement sur la page]** spécifie la destination exacte à l’intérieur de la page à laquelle vous souhaitez que les utilisateurs accèdent. Il peut s’agir d’une section spécifique sur une page dans la structure de navigation du site, telle que &quot;bannière-produit&quot; ou &quot;rail-produit&quot;.
 
    ![](assets/code_config_location_on_page.png)
 
@@ -128,7 +128,7 @@ Pour définir les paramètres de configuration d’expérience basés sur du cod
 
 1. Saisissez votre **[!UICONTROL ID d’application]**. Cela permet une identification et une configuration précises au sein de l’environnement opérationnel de l’application et garantit une intégration et des fonctionnalités homogènes.
 
-1. Indiquez l’ **[!UICONTROL emplacement ou chemin d’accès dans l’application]**. Ce champ indique la destination exacte à laquelle les utilisateurs doivent accéder dans l’application. Il peut s’agir d’une section ou d’une page spécifique au cœur de la structure de navigation de l’application.
+1. Indiquez l’ **[!UICONTROL emplacement ou chemin d’accès dans l’application]**. Ce champ indique la destination exacte à laquelle les utilisateurs doivent accéder dans l’application. Il peut s’agir d’une section ou d’une page spécifique au sein de la structure de navigation de l’application, telle que &quot;bannière-produit&quot; ou &quot;rail-produit&quot;.
 
    ![](assets/code_config_3.png){width="500"}
 
