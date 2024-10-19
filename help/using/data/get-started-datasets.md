@@ -8,10 +8,10 @@ role: Data Engineer, Data Architect, Admin
 level: Experienced
 keywords: platform, lac de données, créer, lac, jeux de données, profil
 exl-id: dcdd3c81-0f00-4259-a8a5-9062a4c40b6f
-source-git-commit: 72bda999c9e866398375422d8419516e5fea97b5
-workflow-type: ht
-source-wordcount: '860'
-ht-degree: 100%
+source-git-commit: f16ce53f61d64d23f530d007e0124a84e2cc3405
+workflow-type: tm+mt
+source-wordcount: '844'
+ht-degree: 95%
 
 ---
 
@@ -37,12 +37,7 @@ Par défaut, seuls les jeux de données que vous avez ingérés s’affichent. S
 
 >[!NOTE]
 >
->À compter du 1er novembre 2024, un mécanisme de sécurisation sur la durée de vie (TTL) sera appliqué sur les jeux de données générés par le système Journey Optimizer comme suit :
->
->* 90 jours pour les données dans la banque de profils
->* 13 mois pour les données du lac de données
->
->En outre, à cette date, la segmentation du streaming ne prendra plus en charge l’utilisation des événements d’envoi et d’ouverture provenant des jeux de données de tracking et de commentaires.
+>À compter du 1er novembre 2024, une barrière de sécurité TTL (time-to-live) sera appliquée sur les jeux de données générés par le système Journey Optimizer. En outre, à ce moment-là, la segmentation par flux ne prendra plus en charge l’utilisation des événements d’envoi et d’ouverture des jeux de données de suivi et de retour. [En savoir plus](datasets-ttl.md)
 
 Sélectionnez le nom d’un jeu de données pour accéder à l’écran Activité du jeu de données et consulter les détails du jeu de données que vous avez sélectionné. L’onglet activité contient un graphique qui permet de visualiser le taux de messages consommé ainsi qu’une liste des lots réussis et en échec.
 
