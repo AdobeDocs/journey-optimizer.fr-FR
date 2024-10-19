@@ -1,21 +1,21 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: À propos du nouveau garde-fou de durée de vie (TTL)
-description: Nouvelle protection de durée de vie (TTL) dans Adobe Journey Optimizer
+title: À propos des modifications de la segmentation par flux et de la durée de vie (TTL)
+description: Modifications de la segmentation par flux et de la durée de vie dans Adobe Journey Optimizer
 feature: Data Model, Datasets, Data Management
 role: Data Engineer, Data Architect, Admin
 level: Experienced
 keywords: platform, lac de données, créer, lac, jeux de données, profil
-source-git-commit: f16ce53f61d64d23f530d007e0124a84e2cc3405
+source-git-commit: 1be920fb8b3ea825e38084f459523ccde0ad979b
 workflow-type: tm+mt
-source-wordcount: '385'
+source-wordcount: '388'
 ht-degree: 7%
 
 ---
 
 
-# Mises à jour de la segmentation par flux et de la durée de vie {#ttl-guardrail}
+# Modifications de la segmentation par flux et du temps d’activation {#ttl-guardrail}
 
 ## Barrière de sécurité de la durée de vie (TTL) {#ttl}
 
@@ -49,7 +49,7 @@ Les données de CJA sont conservées synchronisées avec l’Experience Platform
 
 ## Mises à jour de la segmentation par flux {#segmentation-update}
 
-En outre, le 1er novembre, la segmentation par flux ne prendra plus en charge l’utilisation des événements d’envoi et de retour des jeux de données de suivi et de retour. Vous trouverez des informations sur les raisons pour lesquelles cette pratique a été découragée par le passé [ici](../audience/about-audiences.md#streaming-segmentation-events-guardrails).
+En outre, le 1er novembre, la segmentation par flux ne prendra plus en charge l’utilisation des événements d’envoi et de retour des jeux de données de suivi et de retour.  Vous trouverez des informations sur les raisons pour lesquelles cette pratique a été découragée par le passé [ici](../audience/about-audiences.md#streaming-segmentation-events-guardrails).
 
 
 **Questions fréquentes**
