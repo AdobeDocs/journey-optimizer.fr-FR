@@ -7,9 +7,9 @@ feature: Data Model, Datasets, Data Management
 role: Data Engineer, Data Architect, Admin
 level: Experienced
 keywords: platform, lac de données, créer, lac, jeux de données, profil
-source-git-commit: 1be920fb8b3ea825e38084f459523ccde0ad979b
+source-git-commit: a88cb8fbf324bc9c03bc7570b6637e8c95f43a20
 workflow-type: tm+mt
-source-wordcount: '388'
+source-wordcount: '401'
 ht-degree: 7%
 
 ---
@@ -49,8 +49,7 @@ Les données de CJA sont conservées synchronisées avec l’Experience Platform
 
 ## Mises à jour de la segmentation par flux {#segmentation-update}
 
-En outre, le 1er novembre, la segmentation par flux ne prendra plus en charge l’utilisation des événements d’envoi et de retour des jeux de données de suivi et de retour.  Vous trouverez des informations sur les raisons pour lesquelles cette pratique a été découragée par le passé [ici](../audience/about-audiences.md#streaming-segmentation-events-guardrails).
-
+En outre, le 1er novembre, la segmentation par flux ne prendra plus en charge l’utilisation des événements d’envoi et de retour des jeux de données de suivi et de retour.  Vous trouverez des informations sur les raisons pour lesquelles cette pratique a été découragée par le passé [ici](../audience/about-audiences.md#streaming-segmentation-events-guardrails). Cette modification s’appliquera à tous les environnements de test et organisations client à ce moment-là.
 
 **Questions fréquentes**
 
