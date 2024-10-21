@@ -9,10 +9,10 @@ role: User
 level: Beginner
 mini-toc-levels: 1
 exl-id: 10d2de34-23c1-4a5e-b868-700b462312eb
-source-git-commit: 1e46321de543196277613889c438dc6756e45652
+source-git-commit: b09a66743770eff9da7f183a1bf8de0d241db3d0
 workflow-type: tm+mt
-source-wordcount: '2266'
-ht-degree: 77%
+source-wordcount: '2279'
+ht-degree: 75%
 
 ---
 
@@ -45,11 +45,12 @@ Les audiences peuvent être générées à l’aide de différentes méthodes :
 
 ## Cibler des audiences dans [!DNL Journey Optimizer] {#segments-in-journey-optimizer}
 
-Vous pouvez sélectionner dans des campagnes et des parcours toute audience générée à l’aide de définitions de segment, du chargement personnalisé ou de workflows de composition.
+Vous pouvez sélectionner dans des campagnes et des parcours toute audience générée à l’aide de définitions de segment, de téléchargements personnalisés, de workflows de composition ou de composition d’audiences fédérées.
 
 >[!AVAILABILITY]
 >
->L’utilisation d’audiences et d’attributs provenant de la composition de l’audience n’est actuellement pas disponible avec Healthcare Shield ou Privacy and Security Shield. [Découvrez comment utiliser les attributs d’enrichissement d’audiences dans Journey Optimizer](../audience/about-audiences.md#enrichment)
+>
+L’utilisation d’audiences et d’attributs provenant de la composition de l’audience n’est actuellement pas disponible avec Healthcare Shield ou Privacy and Security Shield. [Découvrez comment utiliser les attributs d’enrichissement d’audiences dans Journey Optimizer](../audience/about-audiences.md#enrichment)
 
 Vous pouvez utiliser les audiences dans **[!DNL Journey Optimizer]** de différentes manières :
 
@@ -63,11 +64,11 @@ Vous pouvez utiliser les audiences dans **[!DNL Journey Optimizer]** de différe
 
   >[!NOTE]
   >
-  >En raison de la nature par lots des audiences créées à l’aide de workflows de composition et du chargement personnalisé, vous ne pouvez pas cibler ces audiences dans une activité « Qualification de l’audience ». Seules les audiences créées à l’aide de définitions de segment peuvent être utilisées dans cette activité.
+  >En raison de la nature du lot des audiences créées à l’aide de workflows de composition, d’un téléchargement personnalisé ou d’une composition d’audience fédérée, vous ne pouvez pas cibler ces audiences dans une activité &quot;Qualification de l’audience&quot;. Seules les audiences créées à l’aide de définitions de segment peuvent être utilisées dans cette activité.
 
 ## Utiliser les attributs d’enrichissement d’audiences {#enrichment}
 
-Lors du ciblage d’une audience générée à l’aide de workflows de composition ou d’une audience personnalisée (fichier CSV), vous pouvez tirer parti des attributs d’enrichissement de ces audiences pour créer votre parcours et personnaliser vos messages.
+Lors du ciblage d’une audience générée à l’aide de processus de composition, d’une audience personnalisée (fichier CSV) ou d’une composition d’audience fédérée, vous pouvez tirer parti des attributs d’enrichissement de ces audiences pour créer votre parcours et personnaliser vos messages.
 
 >[!NOTE]
 >
@@ -105,21 +106,21 @@ Des informations détaillées sur les sources de données sont disponibles dans 
 >
 +++
 
-## Audiences de téléchargement personnalisées (fichier CSV) {#csv}
+## Téléchargement personnalisé et audiences de composition d’audiences fédérées {#csv}
 
-Cette section fournit des informations clés à garder à l’esprit lorsque vous utilisez des audiences de téléchargement personnalisées (fichiers CSV) :
+Cette section fournit des informations clés à garder à l’esprit lors de l’utilisation du téléchargement personnalisé (fichiers CSV) et des audiences de composition d’audience fédérée :
 
-* **Prise en charge de l’aperçu et du BAT pour les audiences CSV :** Actuellement, l’aperçu et le BAT ne sont pas pris en charge pour les audiences créées à l’aide du transfert CSV. Gardez cela à l’esprit lors de la planification de vos campagnes.
+* **Prise en charge de l’aperçu et du BAT :** Actuellement, l’aperçu et le BAT ne sont pas pris en charge pour les audiences créées à l’aide du téléchargement CSV ou de la composition d’audiences fédérées. Gardez cela à l’esprit lors de la planification de vos campagnes.
 
-* **Retards d’activation et de combinaison d’identités rapides :** l’architecture Adobe Experience Platform retarde la combinaison d’identités afin de rendre les audiences de chargement personnalisées immédiatement disponibles pour activation dans Journey Optimizer, avec les impacts suivants :
+* **Retards d’activation et de combinaison d’identités rapides :** l’architecture Adobe Experience Platform retarde l’assemblage d’identités pour rendre les audiences de téléchargement personnalisées et de composition d’audiences fédérées immédiatement disponibles pour activation dans Journey Optimizer, avec les impacts suivants :
 
    * Les audiences sont prêtes à être utilisées dans Journey Optimizer une fois l’ingestion terminée. Bien que ce soit généralement en moins d&#39;une heure, il est sujet à une certaine variabilité.
    * Le nombre d’enregistrements activés peut différer du nombre de profils après combinaison d’identités.
-   * Chaque enregistrement du fichier CSV est activé, y compris les doublons. Lors de la prochaine exportation de profils UPS, ces enregistrements passeront par le regroupement d’identités.
+   * Chaque enregistrement de l’audience sera activé, y compris les doublons. Lors de la prochaine exportation de profils UPS, ces enregistrements passeront par le regroupement d’identités.
 
-* **Ciblage de nouveaux profils à partir des téléchargements CSV :** Lorsqu’une correspondance est introuvable entre un enregistrement CSV et un profil UPS, un nouveau profil vide est créé. Ce profil est lié aux attributs d&#39;enrichissement stockés dans le lac de données. Ce nouveau profil étant vide, les champs de ciblage généralement utilisés dans Journey Optimizer (par exemple, personalEmail.address, mobilePhone.number) sont vides et ne peuvent donc pas être utilisés pour le ciblage.
+* **Ciblage de nouveaux profils :** Lorsqu’une correspondance est introuvable entre un enregistrement et un profil UPS, un nouveau profil vide est créé. Ce profil est lié aux attributs d&#39;enrichissement stockés dans le lac de données. Ce nouveau profil étant vide, les champs de ciblage généralement utilisés dans Journey Optimizer (par exemple, personalEmail.address, mobilePhone.number) sont vides et ne peuvent donc pas être utilisés pour le ciblage.
 
-  Pour résoudre ce problème, vous pouvez spécifier le &quot;champ d’exécution&quot; (ou &quot;adresse d’exécution&quot; selon le canal) dans la configuration du canal comme &quot;identityMap&quot;. Ainsi, l’attribut choisi comme identité lors du transfert CSV sera celui utilisé pour le ciblage dans Journey Optimizer.
+  Pour résoudre ce problème, vous pouvez spécifier le &quot;champ d’exécution&quot; (ou &quot;adresse d’exécution&quot; selon le canal) dans la configuration du canal comme &quot;identityMap&quot;. Ainsi, l’attribut choisi comme identité lors de la création de l’audience sera celui utilisé pour le ciblage dans Journey Optimizer.
 
 ## Méthodes d’évaluation d’audience {#evaluation-method-in-journey-optimizer}
 
