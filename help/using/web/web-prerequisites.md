@@ -6,10 +6,10 @@ topic: Content Management
 role: Admin
 level: Experienced
 exl-id: 9509fd67-6d12-4440-aad8-59690936be97
-source-git-commit: c5308cfdb237fcf563886db1dfca257d23bb4449
+source-git-commit: 5f261b4c097023557f95831635f2be141dfc5bc8
 workflow-type: tm+mt
-source-wordcount: '1155'
-ht-degree: 86%
+source-wordcount: '1183'
+ht-degree: 81%
 
 ---
 
@@ -22,6 +22,8 @@ Pour créer et accéder à des pages web dans l’interface utilisateur de [!DNL
 * Pour accéder au concepteur web de [!DNL Journey Optimizer], une extension de navigateur Google Chrome spécifique doit être installée. [En savoir plus](#visual-authoring-prerequisites).
 
 * Pour que l’expérience web soit correctement diffusée, veillez à définir les paramètres d’Adobe Experience Platform détaillés [ici](#delivery-prerequisites).
+
+* Pour activer la création de rapports pour le canal web, vous devez vous assurer que le jeu de données utilisé dans votre flux de données d’implémentation web est également inclus dans votre configuration de création de rapports. [En savoir plus](#experiment-prerequisites).
 
 >[!IMPORTANT]
 >
@@ -138,13 +140,13 @@ Découvrez comment ajouter des jeux de données pour la création de rapports da
 >
 >Le jeu de données est utilisé en lecture seule par le système de création de rapports de [!DNL Journey Optimizer] et n’a aucune incidence sur la collecte ou l’ingestion de données.
 
-Si vous n’utilisez **pas** les [groupes de champs](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=fr#field-group){target="_blank"} prédéfinis suivants pour votre schéma du jeu de données : `AEP Web SDK ExperienceEvent` et `Consumer Experience Event` (comme défini dans [cette page](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/initial-configuration/configure-schemas.html?lang=fr#add-field-groups){target="_blank"}), assurez-vous d’ajouter les groupes de champs suivants : `Experience Event - Proposition Interactions`, `Application Details`, `Commerce Details` et `Web Details`. Ils participent à la création de rapports d’expérience de contenu de [!DNL Journey Optimizer], car ils effectuent le suivi des expériences et des traitements auxquels chaque profil participe.
+Si vous n’utilisez **pas** les [groupes de champs](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=fr#field-group){target="_blank"} prédéfinis suivants pour votre schéma du jeu de données : `AEP Web SDK ExperienceEvent` et `Consumer Experience Event` (comme défini dans [cette page](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/initial-configuration/configure-schemas.html?lang=fr#add-field-groups){target="_blank"}), assurez-vous d’ajouter les groupes de champs suivants : `Experience Event - Proposition Interactions`, `Application Details`, `Commerce Details` et `Web Details`. Ils sont nécessaires pour la création de rapports [!DNL Journey Optimizer], car ils effectuent le suivi des campagnes et des parcours auxquels chaque profil participe.
 
 [En savoir plus sur la configuration des rapports](../reports/reporting-configuration.md)
 
 >[!NOTE]
 >
->L’ajout de ces groupes de champs n’a aucune incidence sur la collecte de données standard. Seules les pages où une expérience est en cours d’exécution sont concernées. Les autres éléments de suivi restent inchangés.
+>L’ajout de ces groupes de champs n’a aucune incidence sur la collecte de données standard. Il n’est additif que pour les pages sur lesquelles une campagne ou un parcours est en cours d’exécution, en ne modifiant pas le suivi de tous les autres.
 
 ## Domaines de marque pour les ressources {#branded-domains-for-assets}
 
