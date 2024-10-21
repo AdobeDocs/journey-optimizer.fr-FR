@@ -6,7 +6,7 @@ level: Beginner
 badge: label="Disponibilité limitée"
 hide: true
 hidefromtoc: true
-source-git-commit: d53d4ee40771e3f74ccd801cf22598b69661a403
+source-git-commit: 9e7c70c45fc49946c18617c6a5b81383b73da248
 workflow-type: tm+mt
 source-wordcount: '698'
 ht-degree: 2%
@@ -102,7 +102,7 @@ Pour créer une règle de limitation de parcours, procédez comme suit :
 
 1. Activez l’ensemble des règles en cliquant sur le bouton représentant des points de suspension en regard du bouton Ajouter une règle dans le coin supérieur droit de l’écran.
 
-   ![](assets/journey-capping-activate-rule-set.png){width="50%" zommable="yes"}
+   ![](assets/journey-capping-activate-rule-set.png)
 
 ## Application de règles de limitation aux parcours {#apply-capping}
 
