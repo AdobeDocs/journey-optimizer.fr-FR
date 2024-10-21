@@ -8,10 +8,10 @@ topic: Administration
 role: Data Engineer, Data Architect, Admin
 level: Experienced
 keywords: données, gouvernance, DULE, libellés, étiqueter, platform, politique
-source-git-commit: 6b721c04db34fecae2274604113061e4e97db149
-workflow-type: ht
-source-wordcount: '1293'
-ht-degree: 100%
+source-git-commit: 7f54200facc8845d5c39bb5d16751ed49579ea8a
+workflow-type: tm+mt
+source-wordcount: '1292'
+ht-degree: 97%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 100%
 
 ## Commencer avec les politiques de gouvernance des données {#gs}
 
-Avec son cadre de gouvernance [Data Usage Labelling and Enforcement(DULE)](https://experienceleague.adobe.com/docs/experience-platform/data-governance/home.html?lang=fr),{_blank} Adobe Experience Platform vous permet de gérer et d’appliquer des politiques de gouvernance des données sur vos canaux en **étiquetant vos champs** et en créant des **actions marketing** pour chaque canal.
+Avec son cadre de gouvernance [Data Usage Labelling and Enforcement(DULE)](https://experienceleague.adobe.com/docs/experience-platform/data-governance/home.html?lang=fr){target="_blank"}, Adobe Experience Platform vous permet de gérer et d’appliquer des stratégies de gouvernance des données sur vos canaux en **étiquetant vos champs** et en créant des **actions marketing** pour chaque canal.
 
 Une fois les actions marketing et les libellés définis, vous pouvez créer des **politiques de gouvernance des données** qui lient ces deux éléments. Par exemple, vous pouvez configurer une politique qui associe un libellé « ePHI » à une action marketing de « ciblage e-mail », en veillant à ce que les champs étiquetés « ePHI » ne soient pas utilisés pour personnaliser les e-mails. [Découvrir comment créer des politiques de gouvernance des données](#governance-policies)
 
