@@ -6,9 +6,9 @@ level: Beginner
 badge: label="Disponibilité limitée"
 hide: true
 hidefromtoc: true
-source-git-commit: e1121d998711ea4751da5293efdd7c1578ee44a2
+source-git-commit: ea947514012c342fd28155e6610b2eb13547b465
 workflow-type: tm+mt
-source-wordcount: '596'
+source-wordcount: '698'
 ht-degree: 2%
 
 ---
@@ -33,8 +33,10 @@ Ce guide couvre les sujets suivants :
 
 La limitation des parcours permet de limiter le nombre de parcours dans lesquels un profil peut être inscrit, ce qui évite la surcharge de communication. Dans Journey Optimizer, vous pouvez définir deux types de règles de limitation :
 
-* **La limitation des entrées** limite le nombre d’entrées dans un parcours sur une période donnée pour un profil.
-* **La limitation de simultanéité** limite le nombre de parcours dans lesquels un profil peut être inscrit simultanément. Ce type de limitation exploite les scores de priorité des parcours pour arbitrer les entrées si les profils sont éligibles à plusieurs parcours en même temps sur une période donnée.
+* **La limitation des entrées** limite le nombre d’entrées de parcours sur une période donnée pour un profil.
+* **La limitation de simultanéité** limite le nombre de parcours dans lesquels un profil peut être inscrit simultanément.
+
+Les deux types de limitation de parcours tirent parti de scores de priorité pour arbitrer les entrées.
 
 ## Création d’une règle de limitation de parcours {#create-rule}
 
@@ -67,21 +69,28 @@ Pour créer une règle de limitation de parcours, procédez comme suit :
 
      +++Configuration d’une règle de limitation d’entrée de parcours
 
-      1. Dans le champ **[!UICONTROL Limitation]** , définissez le nombre maximal de fois qu’un profil peut entrer dans le parcours.
-      1. Dans le champ **[!UICONTROL Durée]** , définissez la période à prendre en compte.
+      1. Dans le champ **[!UICONTROL Limitation]** , définissez le nombre maximal de parcours qu’un profil peut saisir.
+      1. Dans le champ **[!UICONTROL Durée]** , définissez la période à prendre en compte. Veuillez noter que la durée est basée sur le fuseau horaire UTC. Par exemple, la limite quotidienne est réinitialisée à minuit UTC.
 
-     Dans cet exemple, nous voulons limiter l’entrée des profils sur ce parcours à plus de &quot;5&quot; fois par mois.
+     Dans cet exemple, nous voulons limiter la saisie de plus de &quot;5&quot; parcours par mois pour les profils.
 
      ![](assets/journey-capping-entry-example.png)
+
+     >[!NOTE]
+     >
+     >Le système prendra en compte la priorité des parcours planifiés à venir auxquels cette même règle est appliquée.
+     >
+     >Dans cet exemple, si le marketeur est déjà entré 4 parcours et qu’il y a un autre parcours planifié à venir ce mois-ci avec une priorité plus élevée, les clients seront alors supprimés de l’accès au parcours de priorité plus faible.
 
 +++
 
      +++Configuration d’une règle de limitation de la simultanéité des parcours
 
       1. Dans le champ **[!UICONTROL Limitation]** , définissez le nombre maximal de parcours dans lesquels un profil peut être inscrit simultanément.
+
       1. Utilisez le champ **[!UICONTROL Aperçu de la hiérarchisation]** pour arbitrer les entrées de parcours en fonction des scores de priorité sur une période donnée (par exemple, 1 jour, 7 jours, 30 jours). Cela permet de donner la priorité à l’entrée dans des parcours à plus forte valeur si un profil est éligible à plusieurs parcours.
 
-     Dans cet exemple, nous allons restreindre l&#39;entrée des profils sur le parcours s&#39;ils sont déjà inscrits dans un autre parcours. Si un autre parcours des 7 jours suivants a un score de priorité plus élevé, le profil entre dans ce parcours.
+     Dans cet exemple, nous voulons empêcher les profils d’entrer dans le parcours s’ils sont déjà inscrits dans un autre parcours contenant le même ensemble de règles. Si un autre parcours dans les 7 jours à venir a un score de priorité plus élevé, le profil n’entre pas dans ce parcours.
 
      ![](assets/journey-capping-concurrency-example.png){width="50%" zommable="yes"}
 
@@ -98,6 +107,11 @@ Pour créer une règle de limitation de parcours, procédez comme suit :
 ## Application de règles de limitation aux parcours {#apply-capping}
 
 Pour appliquer une règle de limitation à un parcours, accédez au parcours et ouvrez ses propriétés. Dans la liste déroulante **[!UICONTROL Règles de limitation]** , sélectionnez le jeu de règles approprié.
+
 Une fois le parcours activé, les règles de limitation définies dans le jeu de règles prennent effet.
 
 ![](assets/journey-capping-apply.png)
+
+>[!IMPORTANT]
+>
+>Si un parcours est activé immédiatement, cela peut prendre jusqu’à 15 minutes pour que le système puisse commencer à supprimer les clients. Vous pouvez planifier votre parcours pour qu’il commence au moins 15 minutes dans le futur afin d’éviter cette éventualité.
