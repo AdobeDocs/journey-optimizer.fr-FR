@@ -9,7 +9,7 @@ role: User
 level: Beginner
 mini-toc-levels: 1
 exl-id: 10d2de34-23c1-4a5e-b868-700b462312eb
-source-git-commit: b09a66743770eff9da7f183a1bf8de0d241db3d0
+source-git-commit: 0da5f10953ca3b5e14ddd2dd41eac14d5edca767
 workflow-type: tm+mt
 source-wordcount: '2279'
 ht-degree: 75%
@@ -49,8 +49,7 @@ Vous pouvez sélectionner dans des campagnes et des parcours toute audience gén
 
 >[!AVAILABILITY]
 >
->
-L’utilisation d’audiences et d’attributs provenant de la composition de l’audience n’est actuellement pas disponible avec Healthcare Shield ou Privacy and Security Shield. [Découvrez comment utiliser les attributs d’enrichissement d’audiences dans Journey Optimizer](../audience/about-audiences.md#enrichment)
+>L’utilisation d’audiences et d’attributs provenant de la composition de l’audience n’est actuellement pas disponible avec Healthcare Shield ou Privacy and Security Shield. [Découvrez comment utiliser les attributs d’enrichissement d’audiences dans Journey Optimizer](../audience/about-audiences.md#enrichment)
 
 Vous pouvez utiliser les audiences dans **[!DNL Journey Optimizer]** de différentes manières :
 
