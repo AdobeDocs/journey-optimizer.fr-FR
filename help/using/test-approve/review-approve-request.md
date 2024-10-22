@@ -4,20 +4,15 @@ description: Découvrez comment passer en revue et approuver une requête pour l
 role: User
 level: Beginner
 feature: Approval
-badge: label="Disponibilité limitée" type="Informative"
-source-git-commit: 94114fac56b68aa0940ae9843f672823d64c19df
+source-git-commit: 8fecd0d4812ba875dba1d47bc32ab08178a13f2c
 workflow-type: tm+mt
-source-wordcount: '340'
-ht-degree: 2%
+source-wordcount: '343'
+ht-degree: 0%
 
 ---
 
 
 # Révision et approbation d’une requête {#approve-requests}
-
->[!AVAILABILITY]
->
-> Actuellement, les stratégies d’approbation ne sont disponibles que pour un ensemble d’organisations (disponibilité limitée). Pour en bénéficier, contactez votre représentant ou représentante Adobe.
 
 Si une stratégie de validation s&#39;applique à un parcours ou à une opération, elle doit être soumise à validation pour être publiée. Pour ce faire, le créateur du parcours/de la campagne envoie une demande au ou aux approbateurs définis dans la stratégie d’approbation et le parcours/la campagne obtient le statut **[!UICONTROL En révision]** .
 
@@ -51,3 +46,7 @@ Pour ce faire, cliquez sur le bouton **[!UICONTROL Demander les modifications]**
 ![](assets/request-changes.png)
 
 Après l’envoi de la demande, le créateur de parcours/de campagne est informé par e-mail et par une alerte Journey Optimizer. La campagne revient au statut &quot;En création&quot;. Une fois les modifications intégrées, le créateur du parcours/de la campagne peut la soumettre à nouveau pour approbation.
+
+>[!NOTE]
+>
+> Si vous ne recevez pas de notification de validation par email, vous devez mettre à jour vos préférences d&#39;abonnement dans vos profils Experience Cloud. [En savoir plus](https://experienceleague.adobe.com/fr/docs/core-services/interface/features/account-preferences)

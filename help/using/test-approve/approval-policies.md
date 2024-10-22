@@ -4,20 +4,19 @@ description: Découvrez comment créer et gérer des stratégies d’approbation
 role: User
 level: Beginner
 feature: Approval
-badge: label="Disponibilité limitée" type="Informative"
-source-git-commit: cd46b3346e284958e6f3f9fa641b548f68672000
+source-git-commit: 8fecd0d4812ba875dba1d47bc32ab08178a13f2c
 workflow-type: tm+mt
-source-wordcount: '435'
-ht-degree: 5%
+source-wordcount: '432'
+ht-degree: 3%
 
 ---
 
 
 # Création et gestion des stratégies d’approbation {#approval-policies}
 
->[!AVAILABILITY]
+>[!NOTE]
 >
-> Actuellement, les stratégies d’approbation ne sont disponibles que pour un ensemble d’organisations (disponibilité limitée). Pour en bénéficier, contactez votre représentant ou représentante Adobe.
+>Pour créer des stratégies d’approbation, vous devez disposer de droits d’administrateur système ou produit dans Adobe Experience Platform. [En savoir plus](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/home)
 
 Les stratégies d’approbation permettent aux administrateurs d’établir un processus de validation pour les parcours et les campagnes. Ce système décrit des conditions spécifiques qui déterminent si un parcours ou une campagne doit être approuvé. Ces stratégies peuvent être d’une complexité variable, allant du simple fait d’exiger que toutes les campagnes soient examinées par un utilisateur ou une équipe spécifique à l’établissement de critères en fonction de la personne qui a créé la campagne.
 

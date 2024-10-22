@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: campagne, révision, validation, activation, activer, optimizer
 exl-id: 7c4afc98-0d79-4e26-90f8-558bac037169
-source-git-commit: 47482adb84e05fe41eb1c50479a8b50e00469ec4
+source-git-commit: 8fecd0d4812ba875dba1d47bc32ab08178a13f2c
 workflow-type: tm+mt
-source-wordcount: '297'
-ht-degree: 85%
+source-wordcount: '279'
+ht-degree: 91%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 85%
 
 >[!IMPORTANT]
 >
->À compter de la version de septembre, une nouvelle expérience d’activation de campagne et de parcours vous permet de gérer l’ensemble du processus d’approbation, en veillant à ce que les campagnes et les parcours soient minutieusement examinés et approuvés par les parties prenantes appropriées avant de passer en ligne. Cette fonctionnalité est disponible en disponibilité limitée. [En savoir plus](../test-approve/gs-approval.md)
+> Si votre campagne est soumise à une politique de validation, vous devez en demander la validation afin de pouvoir l&#39;envoyer. [En savoir plus](../test-approve/gs-approval.md)
 
 Une fois votre campagne configurée, vous devez passer en revue son paramètre et son contenu avant de l’activer. Pour ce faire, procédez comme suit :
 

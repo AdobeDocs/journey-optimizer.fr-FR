@@ -4,20 +4,15 @@ description: Découvrez comment demander une approbation avant de publier vos pa
 role: User
 level: Beginner
 feature: Approval
-badge: label="Disponibilité limitée" type="Informative"
-source-git-commit: 94114fac56b68aa0940ae9843f672823d64c19df
+source-git-commit: 8fecd0d4812ba875dba1d47bc32ab08178a13f2c
 workflow-type: tm+mt
-source-wordcount: '347'
-ht-degree: 3%
+source-wordcount: '325'
+ht-degree: 1%
 
 ---
 
 
 # Demander l’approbation {#request-approval}
-
->[!AVAILABILITY]
->
-> Actuellement, les stratégies d’approbation ne sont disponibles que pour un ensemble d’organisations (disponibilité limitée). Pour en bénéficier, contactez votre représentant ou représentante Adobe.
 
 Si la fonctionnalité de workflow d’approbation a été activée pour votre organisation, vous remarquerez que les boutons **[!UICONTROL Activer]** et **[!UICONTROL Publish]** ne sont plus disponibles dans les deux modes de création de campagne et de Parcours, respectivement. Ces boutons ont été remplacés par le bouton **[!UICONTROL Demander l’approbation]** .
 

@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 31c9b080-e334-4a11-af33-4c6f115c70a4
-source-git-commit: 47482adb84e05fe41eb1c50479a8b50e00469ec4
+source-git-commit: 8fecd0d4812ba875dba1d47bc32ab08178a13f2c
 workflow-type: tm+mt
-source-wordcount: '306'
-ht-degree: 86%
+source-wordcount: '289'
+ht-degree: 91%
 
 ---
 
@@ -46,7 +46,7 @@ Vous devez vérifier les alertes dans la section supérieure de l’éditeur. Ce
 
 >[!IMPORTANT]
 >
->À compter de la version de septembre, une nouvelle expérience d’activation de campagne et de parcours vous permet de gérer l’ensemble du processus d’approbation, en veillant à ce que les campagnes et les parcours soient minutieusement examinés et approuvés par les parties prenantes appropriées avant de passer en ligne. Cette fonctionnalité est disponible en disponibilité limitée. [En savoir plus](../test-approve/gs-approval.md)
+> Si votre campagne est soumise à une politique de validation, vous devrez effectuer une demande de validation afin de pouvoir envoyer vos SMS. [En savoir plus](../test-approve/gs-approval.md)
 
 Une fois votre message texte prêt, effectuez la configuration de votre [parcours](../building-journeys/journey-gs.md) ou [campagne](../campaigns/create-campaign.md) pour l’envoyer.
 

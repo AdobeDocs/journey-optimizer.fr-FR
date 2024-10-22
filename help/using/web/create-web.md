@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: e28c038b-49ed-4685-bfe6-514116eb0711
-source-git-commit: 503bedc30c35305537c62f9452f4a2dc07424523
+source-git-commit: 8fecd0d4812ba875dba1d47bc32ab08178a13f2c
 workflow-type: tm+mt
-source-wordcount: '1167'
+source-wordcount: '1150'
 ht-degree: 49%
 
 ---
@@ -122,7 +122,7 @@ Vous trouverez des informations détaillées sur la sélection des profils de te
 
 >[!IMPORTANT]
 >
->À compter de la version de septembre, une nouvelle expérience d’activation de campagne et de parcours vous permet de gérer l’ensemble du processus d’approbation, en veillant à ce que les campagnes et les parcours soient minutieusement examinés et approuvés par les parties prenantes appropriées avant de passer en ligne. Cette fonctionnalité est disponible en disponibilité limitée. [En savoir plus](../test-approve/gs-approval.md)
+> Si votre campagne fait l&#39;objet d&#39;une politique de validation, vous devez demander sa validation afin de pouvoir activer vos expériences web. [En savoir plus](../test-approve/gs-approval.md)
 
 Une fois que vous avez défini votre expérience web et modifié votre contenu comme vous le souhaitez à l’aide du [concepteur web](edit-web-content.md#work-with-web-designer), vous pouvez activer votre parcours ou campagne pour rendre vos modifications visibles à votre audience.
 

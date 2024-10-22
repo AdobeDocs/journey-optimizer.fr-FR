@@ -4,20 +4,15 @@ description: Découvrez comment configurer un processus d’approbation pour vos
 role: User
 level: Beginner
 feature: Approval
-badge: label="Disponibilité limitée" type="Informative"
-source-git-commit: a3a0820565bbd8b2d8d0ce37e5b3e5ad37b064cf
-workflow-type: ht
-source-wordcount: '583'
+source-git-commit: 8fecd0d4812ba875dba1d47bc32ab08178a13f2c
+workflow-type: tm+mt
+source-wordcount: '561'
 ht-degree: 100%
 
 ---
 
 
 # Commencer avec l’approbation des parcours et des campagnes {#send-proofs}
-
->[!AVAILABILITY]
->
-> Les politiques d’approbation ne sont actuellement disponibles que pour un ensemble d’organisations (disponibilité limitée). Pour en bénéficier, contactez votre représentant ou représentante Adobe.
 
 ## Commencer avec les politiques d’approbation {#gs}
 
