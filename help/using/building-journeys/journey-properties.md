@@ -53,15 +53,15 @@ Le mode d’entrée des profils est défini au niveau du parcours, dans le volet
 
 La gestion des entrées de profil dépend du type de parcours. Pour en savoir plus sur la gestion des entrées et des entrées de profil, consultez [cette page](entry-management.md).
 
-### Autoriser une nouvelle entrée  {#allow-reentrance}
+### Autoriser une nouvelle rentrée  {#allow-reentrance}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_properties_entrance"
->title="Autoriser une nouvelle entrée"
->abstract="Par défaut, les nouveaux parcours autorisent une nouvelle entrée. Vous pouvez désélectionner l’option **Autoriser une nouvelle entrée** si vous souhaitez par exemple offrir un cadeau unique à un utilisateur ou une utilisatrice qui effectue sa première visite dans la boutique."
+>title="Autoriser une nouvelle rentrée"
+>abstract="Par défaut, les nouveaux parcours autorisent les rentrées. Vous pouvez décocher l&#39;option **Autoriser une rentrée** si vous souhaitez par exemple offrir un cadeau unique à un utilisateur ou une utilisatrice qui effectue sa première visite dans la boutique."
 >additional-url="https://experienceleague.adobe.com/fr/docs/journey-optimizer/using/orchestrate-journeys/manage-journey/entry-management" text="Gestion des entrées de profil"
 
-Par défaut, les nouveaux parcours autorisent une nouvelle entrée. Vous pouvez décocher l&#39;option **Autoriser la rentrée** pour les parcours &quot;à un tir&quot;, par exemple si vous souhaitez offrir un cadeau ponctuel lorsqu&#39;une personne entre dans une boutique.
+Par défaut, les nouveaux parcours autorisent les rentrées. Vous pouvez décocher l&#39;option **Autoriser la rentrée** pour les parcours &quot;à un tir&quot;, par exemple si vous souhaitez offrir un cadeau ponctuel lorsqu&#39;une personne entre dans une boutique.
 
 ### Période d’attente de nouvelle entrée  {#reentrance-wait}
 
