@@ -9,7 +9,7 @@ exl-id: 1aff2f6f-914c-4088-afd8-58bd9edfe07d
 source-git-commit: b057d198d3c5b12121ee50d7a97ff4b33b8209b4
 workflow-type: tm+mt
 source-wordcount: '1558'
-ht-degree: 41%
+ht-degree: 49%
 
 ---
 
@@ -24,7 +24,7 @@ Avant de [créer votre expérience](create-code-based.md), vous devez créer une
 
 Une configuration d’expérience basée sur du code doit faire référence à la surface, qui est essentiellement l’emplacement où vous souhaitez effectuer le rendu de vos modifications. Selon la plateforme sélectionnée, vous devez saisir un emplacement/chemin ou l’URI de surface complet. [En savoir plus](#surface-definition)
 
-## Création d’une configuration d’expérience basée sur du code {#create-code-based-configuration}
+## Créer une configuration d’expérience basée sur le code {#create-code-based-configuration}
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_location"
@@ -33,7 +33,7 @@ Une configuration d’expérience basée sur du code doit faire référence à l
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_default_mobile_url"
->title="Définition d’une URL pour la création et la prévisualisation de contenu"
+>title="Définir une URL pour la création et la prévisualisation de contenu"
 >abstract="Ce champ garantit que les pages générées ou mises en correspondance par la règle ont une URL désignée, essentielle pour la création et la prévisualisation efficaces du contenu."
 
 Pour créer une configuration de canal d’expérience basée sur du code, procédez comme suit :
@@ -78,11 +78,11 @@ Vous pouvez maintenant sélectionner cette configuration lors de la [création d
 >
 >Votre équipe de mise en oeuvre d’application est chargée d’effectuer des appels d’API ou de SDK explicites pour récupérer du contenu pour les surfaces définies dans la configuration d’expérience basée sur le code sélectionnée. Pour en savoir plus sur les différentes mises en oeuvre client, consultez [cette section](code-based-implementation-samples.md).
 
-### Plateformes web {#web}
+### Plateformes web {#web}
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_default_web_url"
->title="Définition d’une URL pour la création et la prévisualisation de contenu"
+>title="Définir une URL pour la création et la prévisualisation de contenu"
 >abstract="Ce champ garantit que les pages générées ou mises en correspondance par la règle ont une URL désignée, essentielle pour la création et la prévisualisation efficaces du contenu."
 
 Pour définir les paramètres de configuration de l’expérience basés sur du code pour les plateformes web, procédez comme suit.
@@ -116,12 +116,12 @@ Pour définir les paramètres de configuration de l’expérience basés sur du 
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_app_id"
->title="Fournir votre ID d’application"
->abstract="Saisissez l’ID de l’application pour une identification et une configuration précises au sein de l’environnement opérationnel de l’application, afin d’assurer une intégration et des fonctionnalités homogènes."
+>title="Saisir votre ID d’application"
+>abstract="Indiquez l’ID d’application pour une identification et une configuration précises au sein de l’environnement opérationnel de l’application, ce qui garantit une intégration et des fonctionnalités transparentes."
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_mobile_url_preview"
->title="Saisissez l&#39;URL de prévisualisation du contenu"
+>title="Saisir l’URL de prévisualisation du contenu"
 >abstract="Ce champ est essentiel pour activer la simulation et la prévisualisation de votre contenu directement sur votre appareil au sein de votre application."
 
 Pour définir les paramètres de configuration d’expérience basés sur du code pour les plateformes mobiles, procédez comme suit.
@@ -178,9 +178,9 @@ Pour définir les paramètres de configuration de l’expérience basés sur du 
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_surface_uri"
->title="Ajout de l’URI de surface pour votre composant"
->abstract="Si votre mise en oeuvre n’est pas destinée au Web, à iOS ou à Android, ou si vous devez cibler des URI spécifiques, saisissez un URI de surface, qui est un identifiant unique qui dirige vers l’entité où vous souhaitez diffuser votre expérience. Veillez à saisir un URI de surface correspondant à celui utilisé dans votre propre mise en oeuvre."
->additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/code-based-experience/code-based-configuration#other" text="Création d’une configuration d’expérience basée sur du code pour d’autres plateformes"
+>title="Ajouter l’URI de surface pour votre composant"
+>abstract="Si votre mise en œuvre n’est pas destinée au Web, à iOS ou à Android, ou si vous devez cibler des URI spécifiques, saisissez un URI de surface, c’est-à-dire un identifiant unique qui dirige vers l’entité où vous souhaitez diffuser votre expérience. Veillez à saisir un URI de surface correspondant à celui utilisé dans votre propre mise en œuvre."
+>additional-url="https://experienceleague.adobe.com/fr/docs/journey-optimizer/using/code-based-experience/code-based-configuration#other" text="Créer une configuration d’expérience basée sur le code pour d’autres plateformes"
 
 Une expérience basée sur du code **surface** est toute entité conçue pour l’interaction de l’utilisateur ou du système, qui est identifiée de manière unique par un **URI**. La surface est spécifiée dans l’implémentation de l’application et doit correspondre à la surface référencée dans la configuration de votre canal d’expérience basée sur le code.
 

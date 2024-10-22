@@ -23,7 +23,7 @@ ht-degree: 22%
 
 Dans Journey Optimizer, la gestion du volume et du timing des campagnes et des parcours est essentielle pour éviter que les clients ne soient trop nombreux à avoir trop d’interactions. Les deux sections suivantes présentent des outils clés pour vous aider à maintenir l’équilibre et à hiérarchiser efficacement les communications.
 
-## Identifier les conflits potentiels dans les parcours et campagnes {#conflict}
+## Identifier les conflits potentiels dans les parcours et les campagnes {#conflict}
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_campaign_conflict"

@@ -9,7 +9,7 @@ exl-id: 25c2c448-9380-47b0-97c5-16d9afb794c5
 source-git-commit: 8fecd0d4812ba875dba1d47bc32ab08178a13f2c
 workflow-type: tm+mt
 source-wordcount: '1714'
-ht-degree: 35%
+ht-degree: 44%
 
 ---
 
@@ -151,23 +151,23 @@ Des informations détaillées sur la sélection des profils de test et la prévi
 
 >[!CONTEXTUALHELP]
 >id="ajo_code_based_preview_device"
->title="Prévisualisation de votre expérience basée sur du code sur un appareil réel"
->abstract="Obtenez un aperçu de vos expériences personnalisées directement sur votre navigateur ou vos appareils mobiles, afin de voir à quoi elles ressemblent sur des appareils réels."
+>title="Prévisualiser votre expérience basée sur du code sur un appareil réel"
+>abstract="Obtenez une prévisualisation de vos expériences personnalisées directement sur votre navigateur ou vos appareils mobiles, afin de voir à quoi elles ressemblent sur des appareils réels."
 
 >[!CONTEXTUALHELP]
 >id="ajo_code_based_preview_device_web"
->title="Prévisualisation de votre expérience web basée sur du code sur un appareil"
->abstract="Analysez le code QR ou copiez le lien pour prévisualiser sur l’appareil."
+>title="Prévisualiser votre expérience web basée sur du code sur un appareil"
+>abstract="Scannez le code QR ou copiez le lien pour effectuer la prévisualisation sur l’appareil."
 
 >[!CONTEXTUALHELP]
 >id="ajo_code_based_preview_device_mobile"
->title="Prévisualisation de votre expérience mobile basée sur du code sur un appareil"
->abstract="Analysez le code QR ou copiez le lien pour prévisualiser sur l’appareil. Une fois connecté, saisissez la broche sur l’appareil. Vous devrez peut-être redémarrer votre application pour afficher les modifications chaque fois que vous mettez à jour vos liens d’aperçu."
+>title="Prévisualiser sur un appareil votre expérience mobile basée sur du code"
+>abstract="Scannez le code QR ou copiez le lien pour effectuer la prévisualisation sur l’appareil. Une fois la connexion établie, saisissez le code PIN sur l’appareil. Vous devrez peut-être redémarrer votre application pour afficher les modifications chaque fois que vous mettez à jour vos liens de prévisualisation."
 
 >[!CONTEXTUALHELP]
 >id="ajo_code_based_preview_device_refresh"
->title="Actualiser le lien d’aperçu pour refléter la vue actuelle"
->abstract="L’aperçu sur appareil affiche le contenu à partir du moment où vous avez créé ou actualisé le lien d’aperçu. Si vous avez modifié le contenu ou sélectionné un autre profil de test ou traitement, actualisez l’aperçu pour qu’il reflète la vue actuelle."
+>title="Actualiser le lien de prévisualisation pour refléter la vue actuelle"
+>abstract="La prévisualisation sur appareil affiche le contenu à partir du moment où vous avez créé ou actualisé le lien de prévisualisation. Si vous avez modifié le contenu ou sélectionné un autre profil de test ou traitement, actualisez la prévisualisation pour qu’elle reflète la vue actuelle."
 
 Lors de la création d’expériences basées sur du code pour des pages web ou des applications mobiles, vous pouvez prévisualiser vos expériences personnalisées directement sur votre navigateur ou sur vos appareils mobiles, afin de voir à quoi ressemblent ces expériences sur des appareils réels.
 

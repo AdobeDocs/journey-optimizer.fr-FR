@@ -9,7 +9,7 @@ exl-id: 2161baf0-38b7-4397-bffe-083929e8033a
 source-git-commit: e3c597f66436e8e0e22d06f1905fc7ca9a9dd570
 workflow-type: tm+mt
 source-wordcount: '935'
-ht-degree: 62%
+ht-degree: 63%
 
 ---
 
@@ -58,7 +58,7 @@ Vous pouvez maintenant sélectionner cette configuration lorsque vous utilisez l
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_default_url"
->title="Définition d’une URL pour la création et la prévisualisation de contenu"
+>title="Définir une URL pour la création et la prévisualisation de contenu"
 >abstract="Ce champ garantit que les pages générées ou mises en correspondance par la règle ont une URL désignée, essentielle pour la création et la prévisualisation efficaces du contenu."
 
 Lors de la création d’une configuration web ou [d’expérience basée sur le code](../code-based/get-started-code-based.md), vous pouvez créer une **[!UICONTROL règle de correspondance de pages]** pour cibler plusieurs URL correspondant à la même règle. Vous pouvez donc appliquer les mêmes modifications de contenu sur plusieurs pages à la fois.
