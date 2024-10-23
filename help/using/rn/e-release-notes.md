@@ -8,10 +8,10 @@ topic: Content Management
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: d953f4e411b6d73886c9cb1d6d47152a0480de36
+source-git-commit: 0e8c9927f7516abf1927606fd8236b8506b54c96
 workflow-type: tm+mt
-source-wordcount: '1674'
-ht-degree: 47%
+source-wordcount: '1775'
+ht-degree: 44%
 
 ---
 
@@ -120,14 +120,14 @@ Ce mode de modification non visuel est utile si vous ne pouvez pas installer d�
 <table>
 <thead>
 <tr>
-<th><strong>Règles de fonctionnement (Disponibilité générale)</strong><br/></th>
+<th><strong>Jeux de règles (disponibilité limitée)</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Vous pouvez désormais créer des règles de limitation de fréquence granulaires et les appliquer à différents types de communications marketing par le biais d’ensembles de règles. Grâce à cette nouvelle fonctionnalité, vous pouvez contrôler la fréquence à laquelle vos audiences reçoivent un message en définissant des règles cross-canal, qui excluent automatiquement les profils sur-sollicités des messages et actions.</p>
-<p>Auparavant disponibles pour un ensemble d’organisations (LA), les ensembles de règles sont désormais disponibles pour tous les utilisateurs (GA).</p>
+<p>Vous pouvez désormais créer des règles de limitation de la fréquence granulaires et les appliquer à vos messages ou parcours par le biais d’ensembles de règles. Grâce à cette nouvelle fonctionnalité, vous pouvez contrôler la fréquence à laquelle vos audiences reçoivent un message en définissant des règles cross-canal, qui excluent automatiquement les profils sur-sollicités des messages et actions.</p><p>Il vous permet également de limiter le nombre de parcours par jour, semaine ou mois, ainsi que de contrôler le nombre de parcours simultanés exécutés simultanément.</p>
+<p> Les jeux de règles sont disponibles dans Disponibilité limitée pour un groupe sélectionné de clients. Veuillez noter que ces fonctionnalités seront progressivement déployées vers d’autres utilisateurs à l’avenir. Contactez l’équipe de votre compte si vous souhaitez être ajouté à la liste d’attente de cette fonctionnalité.</p>
 <!--p>For more information, refer to the <a href="../configuration/business-rules.md">detailed documentation</a>.</p-->
 </td>
 </tr>
@@ -234,13 +234,17 @@ Des améliorations ont été apportées aux SMS pour améliorer vos fonctionnali
 * Vous pouvez définir et gérer des mots-clés uniques pour vos campagnes et parcours SMS, ce qui permet une communication plus personnalisée et efficace.
 * Vous pouvez créer et diffuser un SMS par défaut lorsqu&#39;un mot-clé n&#39;est pas reconnu.
 
-**Gestion des fréquences et des priorités**
+**Gestion des conflits et des priorités**
 
-* **Limitation de la fréquence par campagne ou parcours** : vous pouvez désormais créer des règles de fréquence à appliquer à vos parcours, ce qui vous permet de limiter le nombre de parcours par jour, semaine ou mois, ainsi que de contrôler le nombre de parcours simultanés exécutés simultanément.
+* **Limitation de la fréquence par parcours** : vous pouvez désormais créer des ensembles de règles à appliquer à vos parcours, ce qui vous permet de limiter le nombre de parcours par jour, par semaine ou par mois, ainsi que de contrôler le nombre de parcours simultanés exécutés simultanément.
 
 * **Score de priorité** : vous pouvez désormais attribuer un score de priorité à une campagne ou à un parcours, allant de 0 à 100. Les nombres plus élevés signalent une priorité plus élevée. Lorsque deux campagnes ou parcours utilisent la même configuration de canal, Journey Optimizer sélectionne celle qui obtient le score de priorité le plus élevé. Si les campagnes ont le même score, la campagne la plus récemment modifiée sera choisie. Le score de priorité est disponible pour tous les canaux entrants dans les campagnes, et pour le canal in-app dans les parcours.
 
 * **Afficher les conflits** - Un nouveau bouton **Afficher les conflits** dans les parcours et les campagnes permet désormais de vérifier chaque fois qu’il existe un chevauchement avec d’autres parcours ou campagnes, comme la date de début, l’audience ciblée ou la configuration de canal sélectionnée.
+
+>[!AVAILABILITY]
+>
+>Les fonctionnalités de gestion des conflits et des priorités sont disponibles dans Disponibilité limitée pour un groupe sélectionné de clients. Veuillez noter que ces fonctionnalités seront progressivement déployées vers d’autres utilisateurs à l’avenir. Contactez l’équipe de votre compte si vous souhaitez être ajouté à la liste d’attente de cette fonctionnalité.
 
 **Gestion des décisions**
 
