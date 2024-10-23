@@ -8,10 +8,10 @@ topic: Content Management
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 826d9a26753dee7aae609344e0a72268658285c6
+source-git-commit: 4663cecda07bdccd1bd0651047d83e2f7e0512d8
 workflow-type: tm+mt
-source-wordcount: '1793'
-ht-degree: 43%
+source-wordcount: '1854'
+ht-degree: 41%
 
 ---
 
@@ -111,6 +111,26 @@ Ce mode de modification non visuel est utile si vous ne pouvez pas installer d�
 <td>
 <p>Déjà disponible dans les campagnes, Adobe Journey Optimizer prend désormais en charge les expérimentations dans les parcours. Les expériences sont des essais randomisés, ce qui, dans le cadre des tests en ligne, signifie que vous exposez certains utilisateurs et utilisatrices sélectionnés de manière aléatoire à une variante donnée d’un message et un autre ensemble d’utilisateurs et utilisatrices sélectionnés de manière aléatoire à une autre variation de traitement. Après l’exposition, vous pouvez ensuite mesurer les mesures de résultats qui vous intéressent, par exemple les ouvertures d’e-mails, les abonnements ou les achats.</p>
 <p>Auparavant disponibles pour un ensemble d’organisations (LA), les expériences dans les parcours sont désormais disponibles pour tous les utilisateurs (GA).</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+
+<table>
+<thead>
+<tr>
+<th><strong>Prise de décision (disponibilité générale)</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>La prise de décision, auparavant disponible pour un ensemble d’organisations (LA) et appelée prise de décision d’expérience, est désormais disponible pour tous les utilisateurs (GA). Elle simplifie la personnalisation en offrant un catalogue centralisé d'offres marketing appelées "éléments de décision" et un moteur de décision sophistiqué. Ce moteur tire parti des règles et des critères de classement pour sélectionner et présenter les éléments de décision les plus pertinents à chaque individu. Ces éléments de décision sont intégrés de manière transparente à un large éventail de surfaces entrantes par le biais du canal d’expérience basé sur le code.</p>
+
+<p>Pour l’instant, la prise de décision n’est pas disponible pour les clients qui ont acheté les offres complémentaires Bouclier de santé et Bouclier de confidentialité et Bouclier de sécurité Adobe.</p>
+
+<!--p>For more information, refer to the <a href="../configuration/business-rules.md">detailed documentation</a>.</p-->
 </td>
 </tr>
 </tbody>
@@ -245,11 +265,6 @@ Des améliorations ont été apportées aux SMS pour améliorer vos fonctionnali
 >[!AVAILABILITY]
 >
 >Les fonctionnalités de gestion des conflits et des priorités sont disponibles dans Disponibilité limitée pour un groupe sélectionné de clients. Veuillez noter que ces fonctionnalités seront progressivement déployées vers d’autres utilisateurs à l’avenir. Contactez l’équipe de votre compte si vous souhaitez être ajouté à la liste d’attente de cette fonctionnalité.
-
-**Gestion des décisions**
-
-* **Audits** - L’onglet **Journal des modifications** vous permettant de voir toutes les modifications apportées à une offre ou à une décision a été supprimé. Les modifications liées aux offres et aux décisions sont désormais visibles dans le menu **Audits**.
-
 
 **Configuration**
 
