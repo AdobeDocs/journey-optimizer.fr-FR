@@ -9,7 +9,7 @@ exl-id: ac901f88-5fde-4220-88c6-fe05433866cc
 source-git-commit: e3c597f66436e8e0e22d06f1905fc7ca9a9dd570
 workflow-type: tm+mt
 source-wordcount: '570'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
@@ -55,13 +55,13 @@ Pour que les expériences basées sur le code soient correctement diffusées, le
 
   [En savoir plus sur la vue Edge Delivery](https://experienceleague.adobe.com/fr/docs/experience-platform/assurance/view/edge-delivery)
 
-## Conditions préalables pour la création de rapports {#experiment-prerequisites}
+## Conditions préalables des rapports {#experiment-prerequisites}
 
-Pour activer la création de rapports pour le canal basé sur le code, vous devez vous assurer que le [jeu de données](../data/get-started-datasets.md) utilisé dans la mise en oeuvre de votre application [datastream](https://experienceleague.adobe.com/docs/experience-platform/datastreams/overview.html?lang=fr){target="_blank"} est également inclus dans votre configuration de création de rapports.
+Pour activer les rapports pour le canal basé sur du code, vous devez vous assurer que le [jeu de données](../data/get-started-datasets.md) utilisé dans le [train de données](https://experienceleague.adobe.com/docs/experience-platform/datastreams/overview.html?lang=fr){target="_blank"} de l’implémentation de votre application est également inclus dans la configuration des rapports.
 
-En d’autres termes, lors de la configuration de la création de rapports, si vous ajoutez un jeu de données qui n’est pas présent dans votre flux de données d’application, les données de l’application ne s’afficheront pas dans vos rapports.
+En d’autres termes, lors de la configuration des rapports, si vous ajoutez un jeu de données qui n’est pas présent dans le train de données de votre application, les données de l’application ne s’afficheront pas dans vos rapports.
 
-Découvrez comment ajouter des jeux de données pour la création de rapports dans [cette section](../reports/reporting-configuration.md#add-datasets).
+Découvrez comment ajouter des jeux de données pour les rapports dans [cette section](../reports/reporting-configuration.md#add-datasets).
 
 >[!NOTE]
 >

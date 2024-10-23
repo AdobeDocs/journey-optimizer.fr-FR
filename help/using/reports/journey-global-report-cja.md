@@ -10,7 +10,7 @@ level: Intermediate
 source-git-commit: 47482adb84e05fe41eb1c50479a8b50e00469ec4
 workflow-type: tm+mt
 source-wordcount: '735'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -74,7 +74,7 @@ Le tableau **[!UICONTROL Statistiques du parcours]** offre un résumé détaill�
 
 ![](assets/cja-journey-canvas.png)
 
-Le widget **[!UICONTROL Parcours Canvas]** vous permet de tracer visuellement la trajectoire de vos profils ciblés lorsqu’ils parcourent votre parcours. [En savoir plus dans la documentation du Customer Journey Analytics](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/visualizations/journey-canvas/journey-canvas)
+Le widget **[!UICONTROL Zone de travail du parcours]** vous permet de retracer visuellement la trajectoire de vos profils ciblés tout au long de votre parcours. [En savoir plus dans la documentation de Customer Journey Analytics](https://experienceleague.adobe.com/fr/docs/analytics-platform/using/cja-workspace/visualizations/journey-canvas/journey-canvas)
 
 Améliorez la personnalisation de votre zone de travail à l’aide des options suivantes :
 

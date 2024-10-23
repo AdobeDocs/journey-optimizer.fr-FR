@@ -12,7 +12,7 @@ exl-id: 186a5044-80d5-4633-a7a7-133e155c5e9f
 source-git-commit: 47482adb84e05fe41eb1c50479a8b50e00469ec4
 workflow-type: tm+mt
 source-wordcount: '1337'
-ht-degree: 83%
+ht-degree: 100%
 
 ---
 
@@ -28,7 +28,7 @@ Des réglementations telles que la loi HIPAA exigent que [!DNL Journey Optimizer
 
 >[!NOTE]
 >
->[!DNL Journey Optimizer] ne possède pas la prise en charge des exigences d’archivage des SMS. Pour une prise en charge d’archivage dédiée, contactez votre fournisseur SMS (Sinch, Infobip ou Twilio).
+>[!DNL Journey Optimizer] ne possède pas la prise en charge des exigences d’archivage des SMS. Pour une prise en charge dédiée de l’archivage, collaborez avec votre fournisseur SMS (Sinch, Infobip ou Twilio).
 
 ## Utilisation de la fonctionnalité Cci pour les e-mails {#bcc-email}
 
@@ -119,7 +119,7 @@ Pour ce faire, suivez les étapes ci-après.
 
 Le reporting en tant que tel en Cci n&#39;est pas disponible dans les rapports de message et parcours. Toutefois, les informations sont stockées dans un jeu de données système appelé **[!UICONTROL Jeu de données d’événement de retour AJO Cci]**. Vous pouvez exécuter des requêtes sur ce jeu de données pour trouver des informations utiles à des fins de débogage, par exemple.
 
-Pour accéder à ce jeu de données par le biais de l’interface utilisateur, sélectionnez **[!UICONTROL Data management]** > **[!UICONTROL Datasets]** > **[!UICONTROL Browse]**. En savoir plus sur l’accès aux jeux de données dans [cette section](../data/get-started-datasets.md#access-datasets).
+Pour accéder à ce jeu de données par le biais de l’interface d’utilisation, sélectionnez **[!UICONTROL Gestion des données]** > **[!UICONTROL Jeux de données]** > **[!UICONTROL Parcourir]**. En savoir plus sur l’accès aux jeux de données dans [cette section](../data/get-started-datasets.md#access-datasets).
 
 <!--![](assets/preset-bcc-dataset.png)-->
 
@@ -224,23 +224,23 @@ Selon les informations que vous recherchez, vous pouvez exécuter les requêtes 
     WHERE bcc.timestamp > now() - INTERVAL '30' DAY;
    ```
 
-### Utiliser l’en-tête de message pour réconcilier la copie en Cci et les informations d’email envoyées {#bcc-header}
+### Utiliser l’en-tête de message pour réconcilier la copie en Cci et les informations d’e-mail envoyées {#bcc-header}
 
-Lorsque vos copies d&#39;emails en Cci sont archivées sur un système externe, par exemple, vous pouvez récupérer les informations sur les emails envoyés correspondants à l&#39;aide d&#39;un en-tête inclus dans le message.
+Lorsque vos copies d’e-mails en Cci sont archivées sur un système externe, par exemple, vous pouvez récupérer les informations sur les e-mails envoyés correspondants à l’aide d’un en-tête inclus dans le message.
 
-Chaque message électronique contient désormais un en-tête appelé `x-message-profile-id`. La valeur de cet en-tête est différente pour chaque profil : elle est propre à chaque email envoyé et à sa copie d&#39;email en Cci correspondante.
+Chaque e-mail contient désormais un en-tête appelé `x-message-profile-id`. La valeur de cet en-tête est différente pour chaque profil : elle est propre à chaque e-mail envoyé et à sa copie d’e-mail en Cci correspondante.
 
-L’en-tête `x-message-profile-id` est également stocké dans les jeux de données système suivants : [Jeu de données d’événement de retour de message AJO](../data/datasets-query-examples.md#message-feedback-event-dataset) (emails envoyés) et [Jeu de données d’événement de retour en Cci AJO](#bcc-reporting) (copies en Cci). Vous pouvez interroger ces jeux de données pour réconcilier la copie en copie carbone invisible et l’e-mail réel correspondant.
+L’en-tête `x-message-profile-id` est également stocké dans les jeux de données système suivants : [Jeu de données d’événement de retour de message AJO](../data/datasets-query-examples.md#message-feedback-event-dataset) (e-mails envoyés) et [Jeu de données d’événement de retour en Cci AJO](#bcc-reporting) (copies en Cci). Vous pouvez interroger ces jeux de données pour réconcilier la copie en Cci et l’e-mail réel correspondant.
 
-* Pour accéder à ces jeux de données par le biais de l’interface utilisateur, sélectionnez **[!UICONTROL Data Management]** > **[!UICONTROL Datasets]** > **[!UICONTROL Parcourir]**. En savoir plus sur l’accès aux jeux de données dans [cette section](../data/get-started-datasets.md#access-datasets).
+* Pour accéder à ces jeux de données par le biais de l’interface d’utilisation, sélectionnez **[!UICONTROL Gestion des données]** > **[!UICONTROL Jeux de données]** > **[!UICONTROL Parcourir]**. En savoir plus sur l’accès aux jeux de données dans [cette section](../data/get-started-datasets.md#access-datasets).
 
-* Utilisez l’éditeur de requêtes fourni par le [Adobe Experience Platform Query Service](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html?lang=fr){target="_blank"}. Pour y accéder, sélectionnez **[!UICONTROL Gestion des données]** > **[!UICONTROL Requêtes]** et cliquez sur **[!UICONTROL Créer une requête]**. [En savoir plus](../data/get-started-queries.md)
+* Utilisez le requêteur fourni par le [service de requête Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html?lang=fr){target="_blank"}. Pour y accéder, sélectionnez **[!UICONTROL Gestion des données]** > **[!UICONTROL Requêtes]** et cliquez sur **[!UICONTROL Créer une requête]**. [En savoir plus](../data/get-started-queries.md)
 
-Vous trouverez ci-dessous quelques exemples de requêtes que vous pouvez exécuter pour récupérer des informations correspondant à vos copies Cci.
+Vous trouverez ci-dessous quelques exemples de requêtes que vous pouvez exécuter pour récupérer des informations correspondant à vos copies en Cci.
 
-**Requête 1**
+**Requête 1**
 
-Pour associer l’événement Cci à l’événement de retour correspondant au courrier électronique réel avec les détails de l’action de campagne :
+Pour associer l’événement Cci à l’événement de retour correspondant à l’e-mail réel avec les détails de l’action de campagne, procédez comme suit :
 
 ```
 SELECT
@@ -263,9 +263,9 @@ WHERE
 ORDER BY mfe.timestamp DESC;
 ```
 
-**Requête 2**
+**Requête 2**
 
-Pour que l’événement Cci soit associé à l’événement de commentaire correspondant pour le courrier électronique réel avec les détails de l’action de parcours :
+Pour associer l’événement Cci à l’événement de retour correspondant à l’e-mail réel avec les détails de l’action de parcours, procédez comme suit :
 
 ```
 SELECT

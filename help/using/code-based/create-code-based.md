@@ -9,7 +9,7 @@ exl-id: 25c2c448-9380-47b0-97c5-16d9afb794c5
 source-git-commit: 8fecd0d4812ba875dba1d47bc32ab08178a13f2c
 workflow-type: tm+mt
 source-wordcount: '1714'
-ht-degree: 44%
+ht-degree: 73%
 
 ---
 
@@ -19,45 +19,45 @@ Dans [!DNL Journey Optimizer], vous pouvez créer des expériences basées sur d
 
 Des mécanismes de sécurisation et recommandations spécifiques pour les expériences basées sur le code sont détaillés dans [cette page](code-based-prerequisites.md).
 
-## Ajout d’une expérience basée sur du code par le biais d’un parcours ou d’une campagne {#create-code-based-experience}
+## Ajouter une expérience basée sur du code par le biais d’un parcours ou d’une campagne {#create-code-based-experience}
 
-Pour commencer à créer votre expérience basée sur du code par le biais d’un parcours ou d’une campagne, procédez comme suit.
+Pour commencer à créer votre expérience basée sur du code par le biais d’un parcours ou d’une campagne, suivez les étapes ci-dessous.
 
 >[!BEGINTABS]
 
->[!TAB Ajouter une expérience basée sur le code à un parcours]
+>[!TAB Ajouter une expérience basée sur du code à un parcours]
 
-Pour ajouter une activité **expérience basée sur le code** à un parcours, procédez comme suit :
+Pour ajouter une activité **expérience basée sur du code** à un parcours, procédez comme suit :
 
 1. [Créez un parcours](../building-journeys/journey-gs.md).
 
 1. Débutez votre parcours avec une activité [Événement](../building-journeys/general-events.md) ou [Lecture d’audience](../building-journeys/read-audience.md).
 
-1. Faites glisser et déposez une activité **[!UICONTROL Expérience basée sur le code]** depuis la section **[!UICONTROL Actions]** de la palette.
+1. Faites glisser et déposez une activité **[!UICONTROL Expérience basée sur du code]** depuis la section **[!UICONTROL Actions]** de la palette.
 
    ![](assets/code-based-activity-journey.png)
 
    >[!NOTE]
    >
-   >Comme **Expérience basée sur le code** est une activité de message entrant, elle est fournie avec une activité **Attente** de 3 jours. [En savoir plus](../building-journeys/wait-activity.md#auto-wait-node)
+   >Comme l’activité **Expérience basée sur du code** est une activité de message entrant, elle est accompagnée d’une activité **Attente** de 3 jours. [En savoir plus](../building-journeys/wait-activity.md#auto-wait-node)
 
 1. Saisissez un **[!UICONTROL libellé]** et une **[!UICONTROL description]** pour votre message.
 
-1. Sélectionnez ou créez la [configuration d’expérience basée sur le code](code-based-configuration.md) à utiliser.
+1. Sélectionnez ou créez la [configuration d’expérience basée sur du code](code-based-configuration.md) à utiliser.
 
    ![](assets/code-based-activity-config.png)
 
-1. Sélectionnez le bouton **[!UICONTROL Editer le contenu]** et modifiez votre contenu selon vos besoins à l&#39;aide de l&#39;éditeur de personnalisation. [En savoir plus](#edit-code)
+1. Sélectionnez le bouton **[!UICONTROL Modifier le contenu]** et modifiez votre contenu selon vos besoins à l’aide de l’éditeur de personnalisation. [En savoir plus](#edit-code)
 
 1. Si nécessaire, complétez votre flux de parcours en faisant glisser et en déposant des actions ou des événements supplémentaires. [En savoir plus](../building-journeys/about-journey-activities.md).
 
-1. Une fois votre expérience basée sur le code prête, finalisez la configuration et publiez votre parcours pour l’activer. [En savoir plus](../building-journeys/publishing-the-journey.md)
+1. Une fois votre expérience basée sur du code prête, finalisez la configuration et publiez votre parcours pour l’activer. [En savoir plus](../building-journeys/publishing-the-journey.md)
 
-Pour plus d’informations sur la configuration de votre parcours, consultez cette [page](../building-journeys/journey-gs.md).
+Pour plus d’informations sur la configuration de votre parcours, consultez [cette page](../building-journeys/journey-gs.md).
 
 >[!TAB Créer une expérience de campagne basée sur le code]
 
-Pour commencer à créer votre **expérience basée sur du code** par le biais d’une campagne, procédez comme suit.
+Pour commencer à créer votre **expérience basée sur du code** par le biais d’une campagne, suivez les étapes ci-dessous.
 
 1. Création d’une campagne. [En savoir plus](../campaigns/create-campaign.md)
 
@@ -91,7 +91,7 @@ Pour plus d’informations sur la configuration d’une campagne, consultez cett
 >abstract="Insérez et modifiez le code que vous souhaitez diffuser dans le cadre de cette action d’expérience basée sur le code."
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/content-management/personalization/expression-editor/personalization-build-expressions.html?lang=fr" text="Commencer avec l’éditeur de personnalisation"
 
-1. Dans l&#39;écran d&#39;édition de campagne ou d&#39;activité de parcours, sélectionnez **[!UICONTROL Modifier le code]**.
+1. Dans l’écran de modification de la campagne ou d’activité du parcours, sélectionnez **[!UICONTROL Modifier le code]**.
 
    ![](assets/code-based-campaign-edit-code.png)
 
@@ -111,7 +111,7 @@ Pour plus d’informations sur la configuration d’une campagne, consultez cett
 
    Vous pouvez également enregistrer une partie de votre contenu de code en tant que fragment. [Voici comment procéder](../content-management/fragments.md#save-as-expression-fragment)
 
-1. Grâce aux expériences basées sur du code, vous pouvez utiliser la fonction de prise de décision relative aux expériences. Sélectionnez l’icône **[!UICONTROL Stratégie de décision]** dans la barre de gauche et cliquez sur **[!UICONTROL Ajouter une stratégie de décision]**. [En savoir plus](../experience-decisioning/create-decision.md)
+1. Dans les expériences basées sur du code, vous pouvez utiliser la fonctionnalité de décisions pour les expériences. Sélectionnez l’icône **[!UICONTROL Politique de décision]** dans la barre de gauche, puis cliquez sur **[!UICONTROL Ajouter une politique de décision]**. [En savoir plus](../experience-decisioning/create-decision.md)
 
    ![](assets/code-based-campaign-create-decision.png)
 
@@ -124,7 +124,7 @@ Pour plus d’informations sur la configuration d’une campagne, consultez cett
 
 Désormais, dès que votre développeur ou développeuse lance un appel d’API ou de SDK pour récupérer du contenu pour la surface définie dans votre configuration de canal, les modifications sont appliquées à votre page web ou votre application.
 
-## Test de l’expérience basée sur le code {#test-code-based-experience}
+## Tester l’expérience basée sur du code {#test-code-based-experience}
 
 >[!CONTEXTUALHELP]
 >id="ajo_code_based_preview"
@@ -137,7 +137,7 @@ Pour afficher un aperçu de votre expérience basée sur le code qui a été mod
 >
 >Vous devez disposer de profils de test pour simuler les offres qui leur seront diffusées. Découvrez comment [créer des profils de test](../audience/creating-test-profiles.md).
 
-1. Dans le parcours ou la campagne, dans l&#39;écran de personnalisation ou d&#39;édition de contenu, sélectionnez **[!UICONTROL Simuler le contenu]**.
+1. Dans le parcours ou la campagne, sur l’écran de modification du contenu ou sur l’écran de l’éditeur de personnalisation, sélectionnez **[!UICONTROL Simuler le contenu]**.
 
    ![](assets/code-based-campaign-simulate.png)
 
@@ -215,45 +215,45 @@ Lors de la création d’expériences basées sur du code pour des pages web ou 
 
    Lors de la mise à jour du contenu ou de la sélection d’un autre profil ou traitement de test, le lien de prévisualisation est automatiquement actualisé. Vous pouvez copier le lien dans différents onglets du navigateur et comparer les expériences.
 
-## Mettre en ligne votre expérience basée sur le code {#code-based-experience-live}
+## Mettre en ligne votre expérience basée sur du code {#code-based-experience-live}
 
 >[!IMPORTANT]
 >
 > Si votre campagne est soumise à une politique d’approbation, vous devrez demander son approbation afin de pouvoir activer vos expériences basées sur du code. [En savoir plus](../test-approve/gs-approval.md)
 
-Une fois que vous avez défini votre expérience basée sur du code et modifié votre contenu comme vous le souhaitez à l’aide de l’[éditeur basé sur le code](#edit-code), vous pouvez activer votre parcours ou campagne pour rendre vos modifications visibles à votre audience.
+Une fois que vous avez défini votre expérience basée sur du code et modifié votre contenu comme vous le souhaitez à l’aide de l’[éditeur basé sur du code](#edit-code), vous pouvez activer votre parcours ou votre campagne pour rendre vos modifications visibles à votre audience.
 
-Vous pouvez également prévisualiser le contenu de votre expérience basé sur le code avant de le rendre actif. [En savoir plus](#test-code-based-experience)
+Vous pouvez également prévisualiser le contenu de votre expérience basée sur du code avant de le mettre en ligne. [En savoir plus](#test-code-based-experience)
 
 >[!NOTE]
 >
->Si vous activez un parcours/campagne basé sur du code qui impacte les mêmes pages qu’un autre parcours ou campagne déjà actif, toutes les modifications seront appliquées à votre contenu.
+>Si vous activez une campagne ou un parcours basé sur le code ayant un impact sur les mêmes pages qu’une autre campagne ou qu’un autre parcours déjà en ligne, toutes les modifications seront appliquées à votre contrenu.
 >
->Si plusieurs parcours ou campagnes basés sur du code mettent à jour le ou les mêmes éléments de votre contenu, le parcours/la campagne de priorité la plus élevée est prioritaire.
+>Si plusieurs parcours ou campagnes basés sur du code mettent à jour le ou les mêmes éléments de votre contenu, le parcours ou la campagne avec la priorité la plus élevée prévaut.
 
 Une fois votre parcours ou campagne basé sur du code actif, votre équipe de mise en oeuvre d’application est chargée d’effectuer des appels d’API ou de SDK explicites pour récupérer du contenu pour les surfaces définies dans la [configuration d’expérience basée sur le code](code-based-configuration.md) sélectionnée. Pour en savoir plus sur les différentes mises en oeuvre client, consultez [cette section](code-based-implementation-samples.md).
 
-### Publish d’un parcours basé sur le code {#publish-code-based-journey}
+### Publier un parcours basé sur du code {#publish-code-based-journey}
 
-Pour rendre votre expérience basée sur le code en direct à partir d’un parcours, procédez comme suit.
+Pour mettre en ligne votre expérience basée sur du code à partir d’un parcours, procédez comme suit.
 
 1. Vérifiez que votre parcours est valide et qu’il n’y a aucune erreur. [En savoir plus](../building-journeys/troubleshooting.md#checking-for-errors-before-testing)
 
-1. Dans le parcours, sélectionnez l’option **[!UICONTROL Publish]** située dans le menu déroulant supérieur droit.
+1. Depuis le parcours, sélectionnez l’option **[!UICONTROL Publier]** située dans le menu déroulant qui se trouve en haut à droite.
 
    ![](assets/code-based-journey-publish.png)
 
    >[!NOTE]
    >
-   >En savoir plus sur la publication de parcours dans [cette section](../building-journeys/publishing-the-journey.md).
+   >Découvrez la publication des parcours dans [cette section](../building-journeys/publishing-the-journey.md).
 
-Votre parcours basé sur le code prend l’état **[!UICONTROL Live]** et est désormais visible pour l’audience sélectionnée. Chaque destinataire de votre parcours peut voir vos modifications.
+Le statut de votre parcours basé sur du code passe à **[!UICONTROL Actif]** et l’audience sélectionnée peut voir votre parcours. Chaque destinataire de votre campagne peut voir vos modifications.
 
 >[!NOTE]
 >
->Une fois que vous avez cliqué sur **[!UICONTROL Publish]**, la disponibilité des modifications peut prendre jusqu’à 15 minutes.
+>Après avoir cliqué sur **[!UICONTROL Publier]**, les modifications peuvent prendre jusqu’à 15 minutes avant d’être mises en ligne.
 
-### Activation d’une campagne basée sur du code {#activate-code-based-campaign}
+### Activer une campagne basée sur du code {#activate-code-based-campaign}
 
 1. Dans votre campagne basée sur le code, sélectionnez **[!UICONTROL Examiner pour activer]**.
 
@@ -273,23 +273,23 @@ Votre campagne basée sur le code passe au statut **[!UICONTROL Actif]** et est 
 
 >[!NOTE]
 >
->Une fois que vous avez cliqué sur **[!UICONTROL Activer]**, la disponibilité de vos modifications peut prendre jusqu’à 15 minutes.
+>Après avoir cliqué sur **[!UICONTROL Activer]**, les modifications peuvent prendre jusqu’à 15 minutes avant d’être mises en ligne.
 >
 >Si vous avez défini un planning pour votre campagne basée sur le code, celle-ci conserve le statut **[!UICONTROL Planifié]** jusqu’à ce que la date et l’heure de début soient atteintes.
 
-## Arrêter un parcours ou une campagne basé sur du code {#stop-code-based-experience}
+## Arrêter un parcours basé sur du code ou une campagne basée sur du code {#stop-code-based-experience}
 
 Lorsqu’une expérience basée sur du code est active, vous pouvez l’arrêter afin d’empêcher votre audience de voir vos modifications. Suivez les étapes ci-dessous.
 
-1. Sélectionnez un parcours ou une campagne actif dans la liste correspondante.
+1. Sélectionnez une campagne active ou un parcours actif dans la liste correspondante.
 
-1. Effectuez l’action appropriée en fonction de votre cas :
+1. Effectuez l’action appropriée en fonction de votre cas :
 
    * Dans le menu supérieur de la campagne, sélectionnez **[!UICONTROL Arrêter la campagne]**.
 
      ![](assets/code-based-campaign-stop.png)
 
-   * Dans le menu supérieur parcours, cliquez sur le bouton **[!UICONTROL Plus]** et sélectionnez **[!UICONTROL Arrêter]**.
+   * Dans le menu supérieur du parcours, cliquez sur le bouton **[!UICONTROL Plus]** et sélectionnez **[!UICONTROL Arrêter]**.
 
      ![](assets/code-based-journey-stop.png)
 
@@ -297,7 +297,7 @@ Lorsqu’une expérience basée sur du code est active, vous pouvez l’arrêter
 
 >[!NOTE]
 >
->Une fois qu’un parcours ou une campagne basé sur du code est arrêté, vous ne pouvez plus le modifier ni l’activer. Vous pouvez uniquement le dupliquer et activer le parcours/la campagne dupliqué.
+>Après l’arrêt d’une campagne basée sur du code ou d’un parcours basé sur du code, vous ne pouvez plus y apporter des modifications ni l’activer. Vous pouvez uniquement dupliquer la campagne ou le parcours et activer l’élément dupliqué.
 
 <!--Reporting TBC
 

@@ -1,51 +1,51 @@
 ---
-title: Révision et approbation d’une requête
-description: Découvrez comment passer en revue et approuver une requête pour la publication de parcours et de campagnes.
+title: Examiner et approuver une demande
+description: Découvrez comment examiner et approuver une demande pour la publication de parcours et de campagnes.
 role: User
 level: Beginner
 feature: Approval
 source-git-commit: 8fecd0d4812ba875dba1d47bc32ab08178a13f2c
 workflow-type: tm+mt
 source-wordcount: '343'
-ht-degree: 0%
+ht-degree: 93%
 
 ---
 
 
-# Révision et approbation d’une requête {#approve-requests}
+# Examiner et approuver une demande {#approve-requests}
 
-Si une stratégie de validation s&#39;applique à un parcours ou à une opération, elle doit être soumise à validation pour être publiée. Pour ce faire, le créateur du parcours/de la campagne envoie une demande au ou aux approbateurs définis dans la stratégie d’approbation et le parcours/la campagne obtient le statut **[!UICONTROL En révision]** .
+Un élément (parcours ou campagne) auquel une politique d’approbation est appliquée doit être soumis pour approbation afin d’être publié. Pour ce faire, le créateur ou la créatrice du parcours ou de la campagne envoie une demande aux approbateurs et approbatrices définis dans la politque d’approbation et le parcours ou la campagne obtient le statut **[!UICONTROL En révision]**.
 
-Si vous avez été sélectionné en tant qu’approbateur, vous en êtes informé par e-mail et par une alerte Journey Optimizer, accessible lorsque vous cliquez sur l’icône représentant une cloche en haut à droite de l’écran, dans l’onglet **[!UICONTROL Demandes]** .
+Si le rôle d’approbateur ou d’approbatrice vous a été attribué, vous recevez un e-mail et une alerte Journey Optimizer, accessible lorsque vous cliquez sur l’icône représentant une cloche en haut à droite de l’écran, dans l’onglet **[!UICONTROL Demandes]**.
 
 ![](assets/request-notification.png)
 
-Pour passer en revue le parcours/la campagne, ouvrez-le à partir du courrier électronique ou de l’alerte, puis vérifiez ses paramètres tels que son audience, son contenu ou ses paramètres.
-Une fois que vous avez terminé, vous pouvez [approuver et publier le parcours/la campagne](#approve) ou [demander des modifications avant de l&#39;activer](#changes).
+Pour examiner le parcours ou la campagne, ouvrez l’élément à partir de l’e-mail ou de l’alerte, puis vérifiez ses paramètres tels que son audience, son contenu ou ses paramètres.
+Une fois que vous avez terminé, vous pouvez [approuver et publier le parcours ou la campagne](#approve) ou [demander des modifications avant de l’activer](#changes).
 
 >[!NOTE]
 >
->La vérification d&#39;une campagne est une étape en lecture seule : vous pouvez visualiser tous ses paramètres, mais ne pouvez pas y effectuer d&#39;action.
+>L’examen d’une campagne est une étape en lecture seule : vous pouvez visualiser tous ses paramètres, mais ne pouvez pas effectuer d’action sur la campagne.
 >
->Avant de passer en revue un parcours ou une campagne, assurez-vous de disposer des autorisations requises.
+>Avant d’examiner un parcours ou une campagne, assurez-vous de disposer des autorisations requises.
 
-## Approuver et publier un parcours/une campagne {#approve}
+## Approuver et publier un parcours ou une campagne {#approve}
 
-Si un parcours ou une campagne est prêt à être mis en ligne, vous pouvez l’approuver en cliquant sur le bouton **[!UICONTROL Approuver]** .
+Si un élément (parcours ou campagne) peut être mis en ligne, vous pouvez l’approuver en cliquant sur le bouton **[!UICONTROL Approuver]**.
 
-Dans la fenêtre qui s’affiche, cliquez sur **[!UICONTROL Approuver et activer]** pour activer le parcours/la campagne.
+Dans la fenêtre qui s’affiche, cliquez sur **[!UICONTROL Approuver et activer]** pour mettre en ligne le parcours ou la campagne.
 
 ![](assets/approve-request.png)
 
-## Demander des modifications à un parcours/une campagne {#changes}
+## Demander des modifications pour un parcours ou une campagne {#changes}
 
-Si des modifications sont nécessaires dans un parcours ou une campagne qui a été envoyé pour approbation, vous pouvez envoyer une demande au créateur afin qu’il apporte les modifications nécessaires.
+Si des modifications sont nécessaires dans un élément (parcours ou campagne) qui a été envoyé pour approbation, vous pouvez envoyer une demande au créateur ou à la créatrice afin que cette personne apporte les modifications nécessaires.
 
-Pour ce faire, cliquez sur le bouton **[!UICONTROL Demander les modifications]** . Dans les volets qui s’ouvrent, fournissez un message détaillant votre demande, puis cliquez sur **[!UICONTROL Envoyer]** pour envoyer votre demande.
+Pour ce faire, cliquez sur le bouton **[!UICONTROL Demander des modifications]**. Dans les volets qui s’ouvrent, fournissez un message détaillant votre demande, puis cliquez sur **[!UICONTROL Envoyer]** pour envoyer votre demande.
 
 ![](assets/request-changes.png)
 
-Après l’envoi de la demande, le créateur de parcours/de campagne est informé par e-mail et par une alerte Journey Optimizer. La campagne revient au statut &quot;En création&quot;. Une fois les modifications intégrées, le créateur du parcours/de la campagne peut la soumettre à nouveau pour approbation.
+Après l’envoi de la demande, le créateur ou la créatrice du parcours ou de la campagne reçoit un e-mail et une alerte Journey Optimizer. La campagne revient au statut « Brouillon ». Une fois les modifications intégrées, le créateur ou la créatrice du parcours ou de la campagne peut le soumettre à nouveau pour approbation.
 
 >[!NOTE]
 >

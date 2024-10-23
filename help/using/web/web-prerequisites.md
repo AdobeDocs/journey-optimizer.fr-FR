@@ -9,7 +9,7 @@ exl-id: 9509fd67-6d12-4440-aad8-59690936be97
 source-git-commit: 5f261b4c097023557f95831635f2be141dfc5bc8
 workflow-type: tm+mt
 source-wordcount: '1183'
-ht-degree: 81%
+ht-degree: 87%
 
 ---
 
@@ -128,13 +128,13 @@ Pour que l’expérience web soit correctement diffusée, les paramètres suivan
 
   [En savoir plus sur la vue Edge Delivery](https://experienceleague.adobe.com/fr/docs/experience-platform/assurance/view/edge-delivery)
 
-## Conditions préalables pour la création de rapports {#experiment-prerequisites}
+## Conditions préalables des rapports {#experiment-prerequisites}
 
-Pour activer la création de rapports pour le canal web, vous devez vous assurer que le [jeu de données](../data/get-started-datasets.md) utilisé dans votre mise en oeuvre web [datastream](https://experienceleague.adobe.com/docs/experience-platform/datastreams/overview.html?lang=fr){target="_blank"} est également inclus dans votre configuration de création de rapports.
+Pour activer les rapports pour le canal web, vous devez vous assurer que le [jeu de données](../data/get-started-datasets.md) utilisé dans le [train de données](https://experienceleague.adobe.com/docs/experience-platform/datastreams/overview.html?lang=fr){target="_blank"} de votre implémentation web est également inclus dans la configuration des rapports.
 
-En d’autres termes, lors de la configuration de la création de rapports, si vous ajoutez un jeu de données qui n’est pas présent dans votre flux de données web, les données web ne s’afficheront pas dans vos rapports.
+En d’autres termes, lors de la configuration des rapports, si vous ajoutez un jeu de données qui n’est pas présent dans votre train de données web, les données web ne s’afficheront pas dans vos rapports.
 
-Découvrez comment ajouter des jeux de données pour la création de rapports dans [cette section](../reports/reporting-configuration.md#add-datasets).
+Découvrez comment ajouter des jeux de données pour les rapports dans [cette section](../reports/reporting-configuration.md#add-datasets).
 
 >[!NOTE]
 >

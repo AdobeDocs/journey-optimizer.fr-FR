@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Vérifier et activer une campagne
+title: Examiner et activer une campagne
 description: Découvrez comment vérifier et activer des campagnes dans Journey Optimizer.
 feature: Campaigns
 topic: Content Management
@@ -16,7 +16,7 @@ ht-degree: 91%
 
 ---
 
-# Vérifier et activer une campagne {#review-activate}
+# Examiner et activer une campagne {#review-activate}
 
 >[!IMPORTANT]
 >

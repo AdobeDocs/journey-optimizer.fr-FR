@@ -12,11 +12,11 @@ exl-id: 327a0c45-0805-4f64-9bab-02d67276eff8
 source-git-commit: f7a0feb38b902b14c402f631cb5c77c1e329886e
 workflow-type: tm+mt
 source-wordcount: '585'
-ht-degree: 90%
+ht-degree: 97%
 
 ---
 
-# Conditions préalables à la création de rapports et à l’expérimentation {#reporting-configuration}
+# Conditions préalables aux rapports et à l’expérimentation {#reporting-configuration}
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_reporting_config"
@@ -30,13 +30,13 @@ ht-degree: 90%
 
 >[!NOTE]
 >
->La configuration du reporting doit être effectuée par un utilisateur technique.
+>La configuration des rapports doit être effectuée par un utilisateur ou une utilisatrice technique.
 
 La configuration des sources de données de rapports vous permet de définir une connexion à un système afin de récupérer des informations supplémentaires qui seront utilisées dans vos rapports.
 
 Pour cette configuration, vous devez ajouter un ou plusieurs jeu(x) de données contenant les éléments supplémentaires que vous souhaitez utiliser pour vos rapports. Pour ce faire, suivez les étapes [ci-après](#add-datasets).
 
-Notez que pour les canaux web, basés sur du code et In-App, vous devez vous assurer que le [jeu de données](../data/get-started-datasets.md) configuré pour la collecte de données est également ajouté à cette configuration de création de rapports. Dans le cas contraire, les données web et in-app ne s’afficheront pas dans les rapports d’expérience de contenu.
+Pour les canaux web, basés sur du code et in-app, assurez-vous que le [jeu de données](../data/get-started-datasets.md) configuré pour la collecte de données est également ajouté à la configuration des rapports. Dans le cas contraire, les données web et in-app ne s’afficheront pas dans les rapports d’expérience de contenu.
 
 ## Conditions préalables
 

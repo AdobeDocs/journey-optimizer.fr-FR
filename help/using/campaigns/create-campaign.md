@@ -11,8 +11,8 @@ keywords: créer, optimizer, campagne, surface, messages
 exl-id: 617d623c-e038-4b5b-a367-5254116b7815
 source-git-commit: 47482adb84e05fe41eb1c50479a8b50e00469ec4
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '858'
+ht-degree: 100%
 
 ---
 
@@ -60,7 +60,7 @@ Définissez la population ciblée par la campagne en suivant les étapes suivant
 
 >[!IMPORTANT]
 >
->L’utilisation d’audiences et d’attributs provenant de la [composition d’audience](../audience/get-started-audience-orchestration.md) n’est actuellement pas disponible avec Healthcare Shield ou Privacy and Security Shield.
+>L’utilisation des audiences et des attributs de la [composition d’audiences](../audience/get-started-audience-orchestration.md) est actuellement indisponible avec Healthcare Shield ou Privacy and Security Shield.
 >
 >Pour les campagnes déclenchées par API, l’audience doit être définie via un appel d’API.
 

@@ -9,15 +9,15 @@ exl-id: e28c038b-49ed-4685-bfe6-514116eb0711
 source-git-commit: 8fecd0d4812ba875dba1d47bc32ab08178a13f2c
 workflow-type: tm+mt
 source-wordcount: '1150'
-ht-degree: 49%
+ht-degree: 97%
 
 ---
 
 # Créer des expériences web {#create-web}
 
-[!DNL Journey Optimizer] vous permet de personnaliser l’expérience web que vous diffusez à vos clients par le biais de parcours ou de campagnes entrants.
+[!DNL Journey Optimizer] vous permet de personnaliser l’expérience web que vous diffusez à vos clientes et clients par le biais de campagnes ou parcours entrants.
 
-## Ajout d’une expérience web par le biais d’un parcours ou d’une campagne {#create-web-experience}
+## Ajouter une expérience web par le biais d’un parcours ou d’une campagne {#create-web-experience}
 
 >[!CONTEXTUALHELP]
 >id="ajo_web_surface"
@@ -29,7 +29,7 @@ ht-degree: 49%
 >title="Créer une règle de correspondance de pages"
 >abstract="Une règle de correspondance de pages permet de cibler plusieurs URL qui correspondent à la même règle, notamment si vous souhaitez appliquer les modifications à une bannière principale sur l’ensemble d’un site web ou ajouter une image principale qui s’affiche sur toutes les pages de produits d’un site web."
 
-Pour commencer à créer votre expérience web par le biais d’une campagne ou d’un parcours, procédez comme suit.
+Pour commencer à créer votre expérience web par le biais d’une campagne ou d’un parcours, suivez les étapes ci-dessous.
 
 >[!NOTE]
 >
@@ -39,7 +39,7 @@ Pour commencer à créer votre expérience web par le biais d’une campagne ou 
 
 >[!TAB Ajouter une expérience web à un parcours]
 
-Pour ajouter une activité **Web** à un parcours, procédez comme suit :
+Pour ajouter une activité **Web** pour un parcours, procédez comme suit :
 
 1. [Créez un parcours](../building-journeys/journey-gs.md).
 
@@ -51,11 +51,11 @@ Pour ajouter une activité **Web** à un parcours, procédez comme suit :
 
    >[!NOTE]
    >
-   >Comme **Web** est une activité de message entrant, elle est fournie avec une activité **Attente** de 3 jours. [En savoir plus](../building-journeys/wait-activity.md#auto-wait-node)
+   >Comme **Web** est une activité de message entrant, elle est fournie avec une activité **Attente** de 3 jours. [En savoir plus](../building-journeys/wait-activity.md#auto-wait-node)
 
 1. Saisissez un **[!UICONTROL libellé]** et une **[!UICONTROL description]** pour votre message.
 
-1. Sélectionnez ou créez la [configuration Web](web-configuration.md) à utiliser.
+1. Sélectionnez ou créez la [configuration web](web-configuration.md) à utiliser.
 
    ![](assets/web-activity-configuration.png)
 
@@ -65,7 +65,7 @@ Pour ajouter une activité **Web** à un parcours, procédez comme suit :
 
 1. Une fois votre expérience web prête, finalisez la configuration et publiez votre parcours pour l’activer. [En savoir plus](../building-journeys/publishing-the-journey.md)
 
-Pour plus d’informations sur la configuration de votre parcours, consultez cette [page](../building-journeys/journey-gs.md).
+Pour plus d’informations sur la configuration de votre parcours, consultez [cette page](../building-journeys/journey-gs.md).
 
 >[!TAB Créer une campagne web]
 
@@ -77,7 +77,7 @@ Pour commencer à créer votre expérience web par le biais d’une campagne, su
 
    * **Scheduled - Marketing** : permet d’exécuter la campagne immédiatement ou à une date spécifiée. Les campagnes planifiées visent à envoyer des messages marketing. Elles sont configurées et exécutées à partir de l’interface d’utilisation.
 
-   * **API-triggered - Marketing/Transactional** : permet d’exécuter la campagne à l’aide d’un appel API. Les campagnes déclenchées par l’API sont destinées à envoyer des messages marketing ou transactionnels, c’est-à-dire des messages envoyés suite à une action effectuée par un individu : réinitialisation de mot de passe, achat de panier, etc. [Découvrez comment déclencher une campagne à l’aide d’API](../campaigns/api-triggered-campaigns.md)
+   * **API-triggered - Marketing/Transactional** : permet d’exécuter la campagne à l’aide d’un appel API. Les campagnes déclenchées par API sont destinées à envoyer des messages marketing, ou transactionnels, c’est-à-dire des messages envoyés suite à une action effectuée par une personne : réinitialisation du mot de passe, achat du panier, etc. [Découvrir comment déclencher une campagne à l’aide d’API](../campaigns/api-triggered-campaigns.md)
 
 1. Suivez les étapes de création d’une campagne web, telles que les propriétés de la campagne, l’[audience](../audience/about-audiences.md) et le [planning](../campaigns/create-campaign.md#schedule).
 
@@ -87,17 +87,17 @@ Pour commencer à créer votre expérience web par le biais d’une campagne, su
 
    ![](assets/web-campaign-steps.png)
 
-1. Cliquez sur le bouton **[!UICONTROL Modifier le contenu]** pour modifier votre contenu comme vous le souhaitez à l’aide du concepteur web. [En savoir plus](edit-web-content.md)
+1. Cliquez sur le bouton **[!UICONTROL Modifier le contenu]** pour modifier votre contenu selon vos besoins à l’aide du concepteur web. [En savoir plus](edit-web-content.md)
 
    <!--![](assets/web-campaign-edit-content.png)-->
 
 Pour plus d’informations sur la configuration d’une campagne, consultez cette [page](../campaigns/get-started-with-campaigns.md).
 
-➡️ [Découvrez comment créer une campagne web dans cette vidéo](#video)
+➡️ [Découvrir comment créer une campagne web dans cette vidéo](#video)
 
 >[!ENDTABS]
 
-## Test de l’expérience web {#test-web-experience}
+## Tester l’expérience web {#test-web-experience}
 
 >[!CONTEXTUALHELP]
 >id="ajo_web_designer_preview"
@@ -106,7 +106,7 @@ Pour plus d’informations sur la configuration d’une campagne, consultez cett
 
 Une fois que vous avez [créé votre expérience web](edit-web-content.md) grâce au concepteur web, vous pouvez afficher un aperçu de vos pages web modifiées. Si vous avez inséré du contenu personnalisé, vous pouvez vérifier l’affichage de ce contenu à l’aide des données de profil de test.
 
-Pour ce faire, cliquez sur **[!UICONTROL Simuler le contenu]** à partir de l’écran de contenu d’édition de parcours ou de campagne, puis ajoutez un profil de test pour vérifier votre page web à l’aide des données de profil de test.
+Pour ce faire, cliquez sur **[!UICONTROL Simuler du contenu]** depuis l’écran de modification de contenu de la campagne ou du parcours, puis ajoutez un profil de test pour vérifier votre page web à l’aide des données du profil de test.
 
 ![](assets/web-designer-preview.png)
 
@@ -124,39 +124,39 @@ Vous trouverez des informations détaillées sur la sélection des profils de te
 >
 > Si votre campagne fait l&#39;objet d&#39;une politique de validation, vous devez demander sa validation afin de pouvoir activer vos expériences web. [En savoir plus](../test-approve/gs-approval.md)
 
-Une fois que vous avez défini votre expérience web et modifié votre contenu comme vous le souhaitez à l’aide du [concepteur web](edit-web-content.md#work-with-web-designer), vous pouvez activer votre parcours ou campagne pour rendre vos modifications visibles à votre audience.
+Une fois que vous avez défini votre expérience web et modifié votre contenu comme vous le souhaitez à l’aide du [concepteur web](edit-web-content.md#work-with-web-designer), vous pouvez activer votre parcours ou votre campagne pour rendre vos modifications visibles à votre audience.
 
-Vous pouvez également prévisualiser le contenu de votre expérience web avant de le rendre actif. [En savoir plus](#test-web-experience)
+Vous pouvez également prévisualiser le contenu de votre expérience web avant de la mettre en ligne. [En savoir plus](#test-web-experience)
 
 >[!NOTE]
 >
->Si vous activez un parcours/une campagne web ayant un impact sur les mêmes pages qu’un autre parcours ou campagne déjà actif, toutes les modifications seront appliquées à vos pages web.
+>Si vous activez une campagne ou un parcours web ayant un impact sur les mêmes pages qu’une autre campagne ou qu’un autre parcours déjà en ligne, toutes les modifications seront appliquées à vos pages web.
 >
->Si plusieurs parcours ou campagnes mettent à jour le ou les mêmes éléments de votre site web, le parcours/la campagne de priorité la plus élevée est prioritaire.
+>Si plusieurs parcours ou campagnes mettent à jour le ou les mêmes éléments de votre site web, le parcours ou la campagne avec la priorité la plus élevée prévaut.
 
-### Publish d’un parcours web {#activate-web-journey}
+### Publier un parcours web {#activate-web-journey}
 
-Pour rendre votre expérience web active à partir d’un parcours, procédez comme suit.
+Pour mettre en ligne votre expérience web à partir d’un parcours, procédez comme suit.
 
 1. Vérifiez que votre parcours est valide et qu’il n’y a aucune erreur. [En savoir plus](../building-journeys/troubleshooting.md#checking-for-errors-before-testing)
 
-1. Dans le parcours, sélectionnez l’option **[!UICONTROL Publish]** située dans le menu déroulant supérieur droit.
+1. Depuis le parcours, sélectionnez l’option **[!UICONTROL Publier]** située dans le menu déroulant qui se trouve en haut à droite.
 
    ![](assets/web-journey-publish.png)
 
    >[!NOTE]
    >
-   >En savoir plus sur la publication de parcours dans [cette section](../building-journeys/publishing-the-journey.md).
+   >Découvrez la publication des parcours dans [cette section](../building-journeys/publishing-the-journey.md).
 
-Votre parcours web prend l’état **[!UICONTROL Live]** et est désormais en lecture seule. Chaque destinataire de votre parcours peut voir les modifications que vous avez ajoutées à votre site web.
+Le statut de votre parcours web est alors **[!UICONTROL Actif]** et il est désormais en lecture seule. Chaque destinataire de votre parcours peut voir les modifications que vous avez ajoutées à votre site web.
 
 >[!NOTE]
 >
->Une fois que vous avez cliqué sur **[!UICONTROL Publish]**, les modifications peuvent prendre jusqu’à 15 minutes pour être disponibles en direct sur votre site web.
+>Après avoir cliqué sur **[!UICONTROL Activer]**, les modifications des campagnes web peuvent prendre jusqu’à 15 minutes avant d’être mises en ligne sur votre site web.
 
 ### Activer une campagne web {#activate-web-campaign}
 
-Une fois que vous avez défini les paramètres de vos campagnes web et que vous avez modifié le contenu à l’aide du [concepteur web](edit-web-content.md#work-with-web-designer), vous pouvez passer en revue et activer votre campagne web. Suivez les étapes ci-dessous.
+Une fois que vous avez défini vos paramètres de campagne web et que vous avez modifié votre contenu selon vos besoins à l’aide du [concepteur web](edit-web-content.md#work-with-web-designer), vous pouvez examiner et activer votre campagne web. Suivez les étapes ci-dessous.
 
 1. Dans votre campagne web, sélectionnez **[!UICONTROL Examiner pour activer]**.
 
@@ -178,19 +178,19 @@ Votre campagne web passe au statut **[!UICONTROL Actif]** et est maintenant visi
 >
 >Si vous avez défini un planning pour votre campagne web, celle-ci conserve le statut **[!UICONTROL Planifié]** jusqu’à ce que la date et l’heure de début soient atteintes.
 
-## Arrêter un parcours web ou une campagne {#stop-web-experience}
+## Arrêter un parcours ou une campagne web {#stop-web-experience}
 
-Lorsqu’un parcours web ou une campagne est actif, vous pouvez l’arrêter afin d’empêcher votre audience de voir vos modifications. Suivez les étapes ci-dessous.
+Lorsqu’une campagne ou est parcours web est en ligne, vous pouvez l’arrêter afin d’empêcher votre audience de voir vos modifications. Suivez les étapes ci-dessous.
 
-1. Sélectionnez un parcours ou une campagne actif dans la liste correspondante.
+1. Sélectionnez une campagne active ou un parcours actif dans la liste correspondante.
 
-1. Effectuez l’action appropriée en fonction de votre cas :
+1. Effectuez l’action appropriée en fonction de votre cas :
 
    * Dans le menu supérieur de la campagne, sélectionnez **[!UICONTROL Arrêter la campagne]**.
 
      ![](assets/web-campaign-stop.png)
 
-   * Dans le menu supérieur parcours, cliquez sur le bouton **[!UICONTROL Plus]** et sélectionnez **[!UICONTROL Arrêter]**.
+   * Dans le menu supérieur du parcours, cliquez sur le bouton **[!UICONTROL Plus]** et sélectionnez **[!UICONTROL Arrêter]**.
 
      ![](assets/web-journey-stop.png)
 
@@ -198,7 +198,7 @@ Lorsqu’un parcours web ou une campagne est actif, vous pouvez l’arrêter afi
 
 >[!NOTE]
 >
->Une fois qu’un parcours web ou une campagne est arrêté, vous ne pouvez plus le modifier ni l’activer. Vous pouvez uniquement le dupliquer et activer le parcours/la campagne dupliqué.
+>Après l’arrêt d’une campagne ou d’un parcours web, vous ne pouvez plus y apporter de modifications ni l’activer. Vous pouvez uniquement dupliquer la campagne ou le parcours et activer l’élément dupliqué.
 
 ## Vidéo pratique{#video}
 

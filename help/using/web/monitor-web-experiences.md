@@ -9,7 +9,7 @@ exl-id: d89795bb-c51d-4d1f-b7ed-2b2c5d278922
 source-git-commit: 47482adb84e05fe41eb1c50479a8b50e00469ec4
 workflow-type: tm+mt
 source-wordcount: '288'
-ht-degree: 77%
+ht-degree: 90%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 77%
 
 ## Vérifier les rapports web {#check-web-reports}
 
-Une fois votre expérience web activée, vous pouvez consulter l’onglet **[!UICONTROL Web]** du [rapport Parcours](../reports/journey-global-report-cja-web.md) et du [rapport Campagne](../reports/campaign-global-report-cja-web.md) pour comparer des éléments tels que le nombre d’impressions, le taux de clics et le nombre d’engagements avec votre page web.
+Une fois votre expérience web activée, vous pouvez vérifier l’onglet **[!UICONTROL Web]** du [rapport de parcours](../reports/journey-global-report-cja-web.md) et du [rapport de campagne](../reports/campaign-global-report-cja-web.md) pour comparer des éléments tels que le nombre d’impressions, le taux de clics et le nombre d’engagements de votre page web.
 
 <!--You can check the **[!UICONTROL Web]** tab of the campaign reports. Learn more on the campaign web [live report](../reports/campaign-live-report.md#web-tab) and [global report](../reports/campaign-global-report-cja.md#web).-->
 
