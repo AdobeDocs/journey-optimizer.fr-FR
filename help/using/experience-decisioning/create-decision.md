@@ -7,10 +7,10 @@ role: User
 level: Experienced
 badge: label="Disponibilité limitée"
 exl-id: 63aa1763-2220-4726-a45d-3a3a8b8a55ec
-source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
+source-git-commit: 5ffa0937bd9f23f29c8f02d2951cccac73d75f1b
 workflow-type: tm+mt
-source-wordcount: '1481'
-ht-degree: 100%
+source-wordcount: '1794'
+ht-degree: 71%
 
 ---
 
@@ -29,6 +29,12 @@ Les politiques de décision contiennent toute la logique de sélection afin que 
 >[!NOTE]
 >
 >Dans l’interface utilisateur [!DNL Journey Optimizer], les politiques de décision sont étiquetées comme étant des décisions<!--but they are decision policies. TBC if this note is needed-->.
+
+Les principales étapes pour exploiter les stratégies de décision dans vos campagnes basées sur du code sont les suivantes :
+
+1. [Créer une stratégie de décision dans une campagne basée sur du code](#add-decision)
+1. [Utilisation de la stratégie de décision dans la campagne basée sur le code](#use-decision-policy)
+1. [Créer des tableaux de bord de rapports de Customer Journey Analytics personnalisés](#cja)
 
 ## Ajouter une politique de décision à une campagne basée sur du code {#add-decision}
 
@@ -51,6 +57,8 @@ Les politiques de décision contiennent toute la logique de sélection afin que 
 
 Pour présenter la meilleure offre et expérience dynamique aux visiteurs et visiteuses de votre site Web ou de votre application mobile, ajoutez une politique de décision à une campagne basée sur du code. Pour ce faire, procédez comme suit.
 
+### Création de la stratégie de décision {#add}
+
 1. Créez une campagne et sélectionnez l’action **[!UICONTROL Expérience basée sur le code]**. [En savoir plus](../code-based/create-code-based.md)
 
 1. Dans l’[éditeur de code](../code-based/create-code-based.md#edit-code), sélectionnez l’icône **[!UICONTROL Politique de décision]**, et cliquez sur **[!UICONTROL Ajouter une politique de décision]**.
@@ -63,50 +71,45 @@ Pour présenter la meilleure offre et expérience dynamique aux visiteurs et vis
    >
    >Actuellement, seul le catalogue par défaut **[!UICONTROL Offres]** est disponible.
 
-   ![](assets/decision-code-based-details.png)
-
 1. Sélectionnez le nombre d’éléments à renvoyer. Par exemple, si vous sélectionnez 2, les 2 meilleures offres éligibles seront présentées pour la configuration actuelle. Cliquez sur **[!UICONTROL Suivant]**.
 
-1. Utilisez le bouton **[!UICONTROL Ajouter une stratégie]** pour définir les stratégies de sélection de votre politique de décision. Chaque stratégie consiste en une collection d’offres associée à une contrainte d’éligibilité et à une méthode de classement permettant de déterminer les offres à afficher. [En savoir plus](selection-strategies.md)
+   ![](assets/decision-code-based-details.png)
 
-   ![](assets/decision-code-based-strategies.png)
+### Sélection d’éléments et de stratégies de sélection {#select}
 
-   >[!NOTE]
-   >
-   >Au moins une stratégie est requise. Vous ne pouvez pas ajouter plus de 10 stratégies.
+La section **[!UICONTROL Séquence de stratégie]** vous permet de sélectionner les éléments de décision et les stratégies de sélection à présenter avec la stratégie de décision.
 
-1. Dans l’écran **[!UICONTROL Ajouter une stratégie]**, vous pouvez également créer une stratégie. Le bouton **[!UICONTROL Créer une stratégie de sélection]** vous redirige vers le menu **[!UICONTROL Prise de décision basée sur l’expérience]** > **[!UICONTROL Configuration de la stratégie]**. [En savoir plus](selection-strategies.md)
+1. Cliquez sur le bouton **[!UICONTROL Ajouter]** , puis sélectionnez le type d’objet à inclure dans la stratégie :
 
-   ![](assets/decision-code-based-add-strategy.png)
+   * **[!UICONTROL Stratégie de sélection]** : ajoutez une ou plusieurs stratégies de sélection. Les stratégies de décision tirent parti des collections associées aux contraintes d’éligibilité et aux méthodes de classement pour déterminer les éléments à afficher. Vous pouvez sélectionner une stratégie de sélection existante ou en créer une à l’aide du bouton **[!UICONTROL Créer une stratégie de sélection]** .[Découvrez comment créer des stratégies de sélection](selection-strategies.md)
 
-1. Lorsque vous ajoutez plusieurs stratégies, elles sont évaluées dans un ordre spécifique. La première stratégie ajoutée à la séquence sera évaluée en premier, etc. [En savoir plus](#evaluation-order)
+   * **[!UICONTROL Élément de décision]** : ajoutez des éléments de décision uniques à présenter sans avoir à exécuter une stratégie de sélection. Vous pouvez sélectionner un seul élément de décision à la fois. Toutes les contraintes d’éligibilité définies pour l’article s’appliquent.
 
-   Pour modifier la séquence par défaut, vous pouvez faire glisser et déposer les stratégies et/ou les groupes afin de les réorganiser selon vos besoins.
-
-   ![](assets/decision-code-based-strategy-groups.png)
-
-1. Ajoutez une offre secours. Un élément d’offre de secours s’affiche pour l’utilisateur ou l’utilisatrice si aucune des stratégies de sélection ci-dessus n’est qualifiée.
-
-   ![](assets/decision-code-based-strategy-fallback.png)
-
-   Vous pouvez sélectionner n’importe quel élément de la liste, qui affiche tous les éléments de décision créés dans le sandbox actuel. Si aucune stratégie de sélection n’est qualifiée, l’offre de secours est affichée pour l’utilisateur ou utilisatrice, quelles que soient les dates et les contraintes d’éligibilité appliquées à l’élément sélectionné.<!--nor frequency capping when available - TO CLARIFY-->.
+   ![](assets/decision-code-based-strategy-sequence.png)
 
    >[!NOTE]
    >
-   >Une offre de secours est facultative. Si aucune offre de secours n’est sélectionnée et qu’aucune stratégie n’est qualifiée, rien ne sera affiché par [!DNL Journey Optimizer].
+   >Au moins un élément de décision ou une stratégie est requis. Vous ne pouvez pas ajouter plus de 10 stratégies.
 
-1. Enregistrez votre sélection et cliquez sur **[!UICONTROL Créer]**. Maintenant que la politique de décision est créée, vous pouvez utiliser les attributs de décision dans votre contenu d’expérience basée sur le code. [En savoir plus](#use-decision-policy)
+1. Lorsque vous ajoutez plusieurs éléments de décision et/ou stratégies, ils sont évalués dans un ordre spécifique. Le premier objet ajouté à la séquence sera évalué en premier, etc.     Pour modifier la séquence par défaut, vous pouvez faire glisser les objets et/ou les groupes pour les réorganiser selon vos besoins. [En savoir plus sur l’ordre d’évaluation de stratégie de décision](#evaluation-order)
 
-   ![](assets/decision-code-based-decision-added.png)
+### Gestion de l’ordre d’évaluation dans une stratégie de décision {#evaluation-order}
 
-## Ordre d’évaluation {#evaluation-order}
+Une fois que vous avez ajouté des éléments de décision et des stratégies de sélection à votre politique, vous pouvez organiser leur ordre pour déterminer leur ordre d’évaluation et combiner des stratégies de sélection pour les évaluer ensemble.
 
-Comme décrit ci-dessus, une stratégie se compose d’une collection, d’une méthode de classement et de contraintes d’éligibilité.
+L’ **ordre séquentiel** dans lequel les éléments et les stratégies seront évalués est indiqué par des nombres à gauche de chaque objet ou groupe d’objets. Pour déplacer la position d’une stratégie de sélection (ou d’un groupe de stratégies) dans la séquence, effectuez un glisser-déposer vers une autre position.
 
-Vous pouvez :
+>[!NOTE]
+>
+>Seules les stratégies de sélection peuvent être glissées-déposées dans une séquence. Pour modifier la position d’un élément de décision, vous devez le supprimer et l’ajouter à nouveau à l’aide du bouton **[!UICONTROL Ajouter]** après avoir ajouté les autres éléments que vous souhaitez évaluer auparavant.
 
-* définir l’ordre séquentiel souhaité pour l’évaluation des stratégies ;
-* combiner plusieurs stratégies afin qu’elles soient évaluées ensemble et non séparément.
+![](assets/decision-code-based-strategy-groups.png)
+
+Vous pouvez également **combiner** plusieurs stratégies de sélection en groupes afin qu’elles soient évaluées ensemble et non séparément. Pour ce faire, cliquez sur le bouton **`+`** sous une stratégie de sélection pour l’associer à une autre. Vous pouvez également faire glisser et déposer une stratégie de sélection sur une autre afin de regrouper les deux stratégies dans un groupe.
+
+>[!NOTE]
+>
+>Les éléments de décision ne peuvent pas être regroupés avec d’autres éléments ou stratégies de sélection.
 
 Plusieurs stratégies et leur regroupement déterminent la priorité des stratégies et le classement des offres éligibles. La première stratégie a la priorité la plus élevée et les stratégies combinées au sein d’un même groupe ont la même priorité.
 
@@ -159,6 +162,22 @@ Les offres de la stratégie 3 sont évaluées (offre 5 et offre 6). Nous arri
 Les offres classées sont désormais les suivantes : offre 5 , offre 3, offre 4, offre 2, offre 1 et offre 6.
 
 +++
+
+### Ajout d’offres de secours {#fallback}
+
+Une fois que vous avez sélectionné des éléments de décision et/ou des stratégies de sélection, vous pouvez ajouter des offres de secours qui s’afficheront aux utilisateurs si aucun des éléments ou stratégies de sélection ci-dessus n’est qualifié.
+
+![](assets/decision-code-based-strategy-fallback.png)
+
+Vous pouvez sélectionner n’importe quel élément de la liste, qui affiche tous les éléments de décision créés dans le sandbox actuel. Si aucune stratégie de sélection n’est qualifiée, l’offre de secours est affichée pour l’utilisateur ou utilisatrice, quelles que soient les dates et les contraintes d’éligibilité appliquées à l’élément sélectionné.<!--nor frequency capping when available - TO CLARIFY-->.
+
+>[!NOTE]
+>
+>Une offre de secours est facultative. Si aucun secours n’est sélectionné et qu’aucune stratégie n’est qualifiée, rien ne s’affichera par [!DNL Journey Optimizer]. Vous pouvez ajouter jusqu’au nombre d’éléments demandés par la stratégie de décision. Cela garantit le renvoi d’un certain nombre d’éléments si nécessaire pour le cas d’utilisation.
+
+Lorsque votre stratégie de décision est prête, enregistrez-la et cliquez sur **[!UICONTROL Créer]**. Maintenant que la politique de décision est créée, vous pouvez utiliser les attributs de décision dans votre contenu d’expérience basée sur le code. [En savoir plus](#use-decision-policy)
+
+![](assets/decision-code-based-decision-added.png)
 
 ## Utiliser la politique de décision dans l’éditeur de code {#use-decision-policy}
 
