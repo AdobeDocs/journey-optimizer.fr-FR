@@ -8,10 +8,10 @@ topic: Content Management
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 4663cecda07bdccd1bd0651047d83e2f7e0512d8
+source-git-commit: f2282fc4d0bbe67a945c43a191648e28b6b60c00
 workflow-type: tm+mt
-source-wordcount: '1854'
-ht-degree: 41%
+source-wordcount: '1885'
+ht-degree: 40%
 
 ---
 
@@ -309,5 +309,6 @@ Des améliorations ont été apportées aux SMS pour améliorer vos fonctionnali
 
 * L’utilisation des audiences et des attributs du chargement personnalisé (fichiers CSV) est désormais disponible avec Healthcare Shield ou Privacy and Security Shield.
 
+**Canal basé sur le code**
 
-
+Lors de la modification d’une campagne d’expérience basée sur du code, les modèles disponibles pour le choix sont désormais définis sur HTML ou JSON en fonction de la configuration de canal choisie précédemment.
