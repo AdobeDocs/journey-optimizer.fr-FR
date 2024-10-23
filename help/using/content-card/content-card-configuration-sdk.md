@@ -1,22 +1,22 @@
 ---
-title: SDK Web de configuration des cartes de contenu
-description: Configuration de la prise en charge des cartes de contenu dans le SDK Web
+title: SDK web de configuration des cartes de contenu
+description: Configurer la prise en charge des cartes de contenu dans le SDK web
 feature: Channel Configuration
 topic: Content Management
 role: Admin
 level: Experienced
 source-git-commit: 02c4b61f22591a99824eb727aaccfd0cbe1facfc
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '484'
-ht-degree: 2%
+ht-degree: 100%
 
 ---
 
-# Configuration de la prise en charge des cartes de contenu dans le SDK Web {#content-card-configuration-sdk}
+# Configurer la prise en charge des cartes de contenu dans le SDK web {#content-card-configuration-sdk}
 
-Cet exemple explique comment récupérer les cartes de contenu de Adobe Journey Optimizer (AJO) à l’aide de Adobe Experience Platform. En utilisant le [SDK Web de Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/home), le contenu de personnalisation est récupéré et rendu entièrement du côté client.
+Cet exemple explique comment récupérer les cartes de contenu depuis Adobe Journey Optimizer (AJO) à l’aide d’Adobe Experience Platform. En utilisant le [SDK web d’Adobe Experience Platform](https://experienceleague.adobe.com/fr/docs/experience-platform/web-sdk/home), le contenu de personnalisation est récupéré et rendu entièrement du côté client.
 
-Lors du chargement initial de la page, la page affiche son état par défaut. Cependant, si vous interagissez avec les boutons **Dépôt de fonds** ou **Partager sur les médias sociaux**, d’autres cartes de contenu s’affichent. Ces cartes sont déclenchées par des conditions côté client, en veillant à ce qu’elles ne s’affichent que lorsque des actions spécifiques sont effectuées.
+Lors du chargement initial de la page, la page affiche son état par défaut. Cependant, si vous interagissez avec les boutons **Déposer des fonds** ou **Partager sur les médias sociaux**, d’autres cartes de contenu s’affichent. Ces cartes sont déclenchées par des conditions côté client, en veillant à ce qu’elles ne s’affichent que lorsque des actions spécifiques sont effectuées.
 
 ![](assets/content-card-web-1.png)
 
@@ -24,18 +24,18 @@ Lors du chargement initial de la page, la page affiche son état par défaut. Ce
 
 >[!PREREQUISITES]
 >
->Vous devez installer node et npm. [Reportez-vous à cette documentation](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm)
+>Vous devez installer node et npm. [Consulter cette documentation](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm)
 
 
-1. Configurez des certificats SSL locaux pour HTTPS. Ces exemples nécessitent des certificats SSL signés localement pour diffuser du contenu via HTTPS :
+1. Configurez des certificats SSL locaux pour HTTPS. Ces exemples nécessitent des certificats SSL signés localement pour diffuser du contenu via HTTPS :
 
    1. Installez `mkcert` sur votre ordinateur.
 
    1. Après l’installation, exécutez `mkcert -install` pour installer le certificat `mkcert root`.
 
-1. Cloner le référentiel sur votre ordinateur local.
+1. Clonez le référentiel sur votre ordinateur local.
 
-1. Ouvrez un terminal et accédez au dossier de l’exemple.
+1. Ouvrez une fenêtre de terminal et accédez au dossier de l’exemple.
 
 1. Installez les dépendances requises en exécutant `npm install`.
 
@@ -45,7 +45,7 @@ Lors du chargement initial de la page, la page affiche son état par défaut. Ce
 
 ## Fonctionnement {#setup}
 
-1. Insérez et configurez le [SDK Web](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/home) sur la page à l’aide des paramètres du fichier `.env` dans l’exemple de dossier.
+1. Insérez et configurez le [SDK web](https://experienceleague.adobe.com/fr/docs/experience-platform/web-sdk/home) sur la page à l’aide des paramètres du fichier `.env` dans l’exemple de dossier.
 
    ```
    <script src="https://cdn1.adoberesources.net/alloy/2.18.0/alloy.min.js" async></script>
@@ -128,7 +128,7 @@ Lors du chargement initial de la page, la page affiche son état par défaut. Ce
    const contentCards = extractContentCards(propositions);
    ```
 
-1. Effectuez le rendu des cartes de contenu en fonction des détails définis pour chaque campagne. Chaque carte comprend `title`, `body`, `imageUrl` et d’autres valeurs de données personnalisées.
+1. Effectuez le rendu des cartes de contenu en fonction des détails définis pour chaque campagne. Chaque carte comprend les éléments `title`, `body`, `imageUrl` et d’autres valeurs de données personnalisées.
 
    ```
    const renderContentCards = () => {
@@ -163,7 +163,7 @@ Lors du chargement initial de la page, la page affiche son état par défaut. Ce
    };
    ```
 
-1. Lorsque le rappel `subscribeRulesetItems` est appelé, une fonction pratique appelée `collectEvent` est également fournie. Cette fonction est utilisée pour envoyer des événements Experience Edge afin d’effectuer le suivi des interactions, des affichages et d’autres actions de l’utilisateur. Dans cet exemple, collectEvent effectue le suivi lorsqu’un utilisateur clique sur une carte de contenu. De plus, si vous cliquez sur le bouton de la carte de contenu, le navigateur est dirigé vers le `actionUrl` spécifié par la campagne.
+1. Lorsque le rappel `subscribeRulesetItems` est appelé, une fonction pratique appelée `collectEvent` est également fournie. Cette fonction est utilisée pour envoyer des événements Experience Edge afin d’effectuer le suivi des interactions, des affichages et d’autres actions d’utilisateur ou d’utilisatrice. Dans cet exemple, collectEvent effectue le suivi lorsqu’une carte de contenu fait l’objet d’un clic. De plus, si la carte de contenu fait l’objet d’un clic, le navigateur est dirigé vers l’élément `actionUrl` spécifié par la campagne.
 
    ```
    const handleContentCardClick = (evt) => {
@@ -197,27 +197,27 @@ Lors du chargement initial de la page, la page affiche son état par défaut. Ce
 
 ### personalizationStorageEnabled
 
-L’option `personalizationStorageEnabled` est définie sur `true` dans la commande `configure`. Cela garantit que les cartes de contenu précédemment qualifiées sont stockées et continuent à être affichées dans toutes les sessions utilisateurs.
+L’option `personalizationStorageEnabled` est définie sur `true` dans la commande `configure`. Cela garantit que les cartes de contenu précédemment qualifiées sont stockées et continuent à être affichées dans toutes les sessions des utilisateurs et utilisatrices.
 
 ### Déclencheurs
 
-Les cartes de contenu prennent en charge les déclencheurs personnalisés évalués côté client. Lorsqu’une règle de déclenchement est respectée, d’autres cartes de contenu s’affichent. Cet exemple utilise quatre campagnes différentes, une pour chaque carte de contenu, toutes partageant la même surface : `web://alloy-samples.adobe.com/#content-cards-sample`. Le tableau ci-dessous décrit les règles de déclenchement pour chaque campagne et la manière de les satisfaire.
+Les cartes de contenu prennent en charge les déclencheurs personnalisés évalués côté client. Lorsqu’une règle de déclenchement est respectée, d’autres cartes de contenu s’affichent. Cet exemple utilise quatre campagnes différentes, une pour chaque carte de contenu, toutes partageant la même surface : `web://alloy-samples.adobe.com/#content-cards-sample`. Le tableau ci-dessous décrit les règles de déclenchement de chaque campagne et comment les respecter.
 
 <table>
     <tr>
         <th>Règle de déclenchement</th>
         <th>Carte</th>
-        <th>Comment satisfaire la règle de déclenchement</th>
+        <th>Respecter la règle de déclenchement</th>
     </tr>
     <tr>
-        <td>Aucun</td>
+        <td>Aucune</td>
         <td><img src="assets/content-card-web-2.png"></td>
-        <td>sendEvent, commande. Aucune règle côté client à satisfaire.</td>
+        <td>Commande sendEvent. Aucune règle côté client à respecter.</td>
     </tr>
     <tr>
-        <td>Aucun</td>
+        <td>Aucune</td>
         <td><img src="assets/content-card-web-3.png"></td>
-        <td>sendEvent, commande. Aucune règle côté client à satisfaire.</td>
+        <td>Commande sendEvent. Aucune règle côté client à respecter.</td>
     </tr>
     <tr>
         <td><img src="assets/content-card-web-4.png"></td>
@@ -231,7 +231,7 @@ Les cartes de contenu prennent en charge les déclencheurs personnalisés évalu
     </tr>
 </table>
 
-La commande `evaluateRulesets` est déclenchée lorsque vous cliquez sur les boutons &quot;Déposer les fonds&quot; et &quot;Partager sur les médias sociaux&quot;. Chaque bouton spécifie le `decisionContext` approprié pour respecter les règles définies pour les campagnes respectives.
+La commande `evaluateRulesets` est déclenchée lorsque vous cliquez sur les boutons « Déposer des fonds » et « Partager sur les médias sociaux ». Chaque bouton spécifie le `decisionContext` approprié pour respecter les règles définies pour les campagnes respectives.
 
 ```
 document.getElementById("action-button-1").addEventListener("click", () => {

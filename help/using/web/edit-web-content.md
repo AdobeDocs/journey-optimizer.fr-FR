@@ -7,15 +7,15 @@ role: User
 level: Beginner
 exl-id: 3847ac1d-2c0a-4f80-8df9-e8e304faf261
 source-git-commit: 503bedc30c35305537c62f9452f4a2dc07424523
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1068'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
 # Modifier un contenu web {#edit-web-content}
 
-Une fois que vous avez [ajouté une expérience web](create-web.md#create-web-experience) à un parcours ou à une campagne, vous pouvez modifier le contenu de votre site à l’aide du concepteur web.
+Après l’[ajout d’une expérience web](create-web.md#create-web-experience) dans un parcours ou une campagne, vous pouvez modifier le contenu de votre site à l’aide du concepteur web.
 
 [Découvrez comment créer une campagne web dans cette vidéo.](#video)
 
@@ -45,9 +45,9 @@ Accédez aux sections suivantes pour en savoir plus sur chaque rubrique :
 >abstract="Saisissez l’URL d’une page web spécifique à utiliser pour la modification du contenu qui sera appliqué à toutes les pages correspondant à la règle. La page web doit être mise en œuvre à l’aide du SDK web Adobe Experience Platform."
 >additional-url="https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html?lang=fr" text="En savoir plus"
 
-Pour commencer à créer votre expérience web, procédez comme suit.
+Pour commencer à créer votre expérience web, procédez comme suit :
 
-1. Dans l&#39;onglet **[!UICONTROL Action]** de la campagne ou de l&#39;activité d&#39;expérience web dans le parcours, sélectionnez **[!UICONTROL Modifier le contenu]**.<!--change screen with rule-->
+1. Dans l’onglet **[!UICONTROL Action]** de la campagne ou de l’activité d’expérience web dans le parcours, sélectionnez **[!UICONTROL Modifier le contenu]**.<!--change screen with rule-->
 
    ![](assets/web-campaign-edit-content.png)
 

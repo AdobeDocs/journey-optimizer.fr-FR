@@ -9,9 +9,9 @@ role: User
 level: Beginner
 exl-id: af71d24d-77eb-44df-8216-b0aeaf4c4fa4
 source-git-commit: e96aefefd8391d1a59a5a4f9d50c6ac819bf60f8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '307'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -36,7 +36,7 @@ Une fois cette opération terminée, les **audiences obtenues** sont enregistré
 
 >[!IMPORTANT]
 >
->L’utilisation d’audiences et d’attributs provenant de la composition de l’audience n’est actuellement pas disponible avec Healthcare Shield ou Privacy and Security Shield.
+>L’utilisation des audiences et des attributs de la composition d’audiences est actuellement indisponible avec Healthcare Shield ou Privacy and Security Shield.
 >
 >Les attributs d’enrichissement ne sont pas encore intégrés au service d’application des politiques. Par conséquent, les libellés d’utilisation des données que vous appliquez à vos attributs d’enrichissement ne sont pas implémentés dans les campagnes et les parcours Journey Optimizer.
 

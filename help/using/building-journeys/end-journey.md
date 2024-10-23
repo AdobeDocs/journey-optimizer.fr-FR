@@ -6,12 +6,12 @@ description: Découvrez comment un parcours se termine dans Journey Optimizer.
 feature: Journeys
 role: User
 level: Intermediate
-keywords: rentrée, parcours, fin, live, stop
+keywords: rentrée, parcours, fin, dynamique, arrêt
 exl-id: ea1ecbb0-12b5-44e8-8e11-6d3b8bff06aa
 source-git-commit: 20d99c082ef8d1f2442900dc6a6e6db6b0aaa46f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '689'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -22,7 +22,7 @@ Un parcours peut se terminer pour un individu dans deux contextes spécifiques 
 * Le client arrive à la dernière activité d&#39;un chemin.
 * Le client arrive à une activité **Condition** (ou à une activité **Attente** avec une condition) et ne répond à aucune des conditions.
 
-La personne peut alors réentrer dans le parcours si la rentrée est autorisée. Voir [cette page](../building-journeys/journey-properties.md#entrance)
+La personne peut alors rejoindre à nouveau le parcours si la rentrée est autorisée. Voir [cette page](../building-journeys/journey-properties.md#entrance)
 
 Pour terminer un parcours actif, nous vous recommandons de le fermer. L’arrivée de nouveaux clients dans le parcours sera alors bloquée. Les clients qui ont déjà rejoint le parcours peuvent l’expérimenter jusqu’à la fin. Consultez [cette section](../building-journeys/journey.md#close-journey)
 
@@ -53,10 +53,10 @@ The **[!UICONTROL End]** activity allows you to mark the end of each path of the
 Les raisons suivantes peuvent entraîner la fermeture d&#39;un parcours :
 
 * Le parcours est fermé manuellement par le biais du bouton **[!UICONTROL Fermer aux nouvelles entrées]**.
-* Parcours basé sur un segment ponctuel qui a terminé de s’exécuter et a atteint le délai d’expiration global de 91 jours.
+* Un parcours basé sur un segment unique qui a terminé son exécution et a atteint la temporisation globale de 91 jours.
 * Après la dernière occurrence d’un parcours récurrent basé sur une audience.
 
-Le fait de fermer un parcours manuellement assure que les clients qui l’ont déjà rejoint puissent terminer leur chemin, mais que les nouveaux utilisateurs ne puissent pas le rejoindre. Lorsqu&#39;un parcours est fermé (pour l&#39;une des raisons ci-dessus), le statut **[!UICONTROL Fermé]** lui est attribué. Il n&#39;est alors plus accessible aux nouveaux individus. En revanche, la procédure suit son cours normal pour les personnes qui ont déjà rejoint le parcours. Après le délai d’expiration global par défaut de 91 jours, le parcours passe à l’état Terminé . Consultez [cette section](journey-properties.md#timeout).
+Le fait de fermer un parcours manuellement assure que les clients qui l’ont déjà rejoint puissent terminer leur chemin, mais que les nouveaux utilisateurs ne puissent pas le rejoindre. Lorsqu&#39;un parcours est fermé (pour l&#39;une des raisons ci-dessus), le statut **[!UICONTROL Fermé]** lui est attribué. Il n&#39;est alors plus accessible aux nouveaux individus. En revanche, la procédure suit son cours normal pour les personnes qui ont déjà rejoint le parcours. Au-delà de la temporisation globale par défaut de 91 jours, le statut du parcours passe à Terminé. Consultez [cette section](journey-properties.md#timeout).
 
 Après le délai de [temporisation globale](journey-properties.md#timeout) de 91 jours, le statut d’un parcours de lecture d’audience passe à **Terminé**. Ce comportement est défini uniquement sur 91 jours (c’est-à-dire sur la [valeur de temporisation globale du parcours](journey-properties.md#global_timeout)), car toutes les informations relatives aux profils déjà entrés dans le parcours sont supprimées 91 jours après leur entrée. Les personnes toujours présentes dans le parcours sont automatiquement affectées. Elles quittent le parcours après la temporisation de 91 jours.
 

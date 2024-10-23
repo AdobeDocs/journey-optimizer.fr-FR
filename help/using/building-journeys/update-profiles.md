@@ -10,9 +10,9 @@ level: Intermediate
 keywords: profil, mise à jour, parcours, activité
 exl-id: 8b2b2d1e-9bd1-439d-a15e-acdbab387c4b
 source-git-commit: dc226803d2df198bde9c525f82431161734f53f8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '630'
-ht-degree: 78%
+ht-degree: 100%
 
 ---
 
@@ -32,14 +32,14 @@ Utilisez l’activité d&#39;action **[!UICONTROL Mettre à jour le profil]** po
 * Vous ne pouvez pas utiliser l&#39;action **Mettre à jour le profil** pour générer des événements d&#39;expérience, par exemple un achat.
 * Comme toute autre action, vous pouvez définir un chemin alternatif en cas d&#39;erreur ou de temporisation, et vous ne pouvez pas placer deux actions en parallèle.
 * La demande de mise à jour envoyée à Adobe Experience Platform est immédiate/inférieure à une seconde. Cela prendra normalement quelques secondes, parfois plus, sans aucune garantie. En conséquence, par exemple, si une action utilise « champ 1 » mis à jour par une action **Mettre à jour le profil** positionnée juste avant, vous ne devriez pas vous attendre à une mise à jour du « champ 1 » dans l&#39;action.
-* L’activité **Mettre à jour le profil** ne prend pas en charge les champs XDM définis comme énumérations ou valeurs suggérées.
+* L’activité **Mettre à jour le profil** ne prend pas en charge les champs XDM définis comme des énumérations ou des valeurs suggérées.
 * L’activité **[!UICONTROL Mettre à jour le profil]** ne met à jour que le [magasin de profils](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=fr#profile-data-store){target="_blank"} et non le lac de données.
 
 ## Sélection du jeu de données {#dataset-selection}
 
-L’activité **Mise à jour de profil** nécessite un jeu de données dédié pour stocker les mises à jour. Puisque cette activité ne met à jour que la banque de profils (et non le lac de données), toutes les mises à jour doivent être enregistrées dans un jeu de données activé pour les profils spécialement désigné pour les actions **Mettre à jour le profil**. L’utilisation d’un jeu de données utilisé pour l’ingestion par lots ou par flux entraînera l’écrasement de données nouvellement intégrées par les modifications apportées par l’action **Mettre à jour le profil**.
+L’activité **Mettre à jour le profil** nécessite un jeu de données dédié pour stocker les mises à jour. Puisque cette activité ne met à jour que le magasin de profils (et non le lac de données), toutes les mises à jour doivent être enregistrées dans un jeu de données compatible avec les profils spécialement conçu pour les actions **Mettre à jour le profil**. L’utilisation d’un jeu de données utilisé pour une ingestion par lots ou en streaming entraînera l’écrasement de données nouvellement intégrées par les modifications apportées par l’action **Mettre à jour le profil**.
 
-En outre, la configuration d’activité **Mettre à jour le profil** ne nécessite pas d’espace de noms d’identité. Par conséquent, assurez-vous que le jeu de données sélectionné utilise le même **espace de noms d’identité** que celui utilisé par l’action qui a lancé le parcours, car il s’agit de l’espace de noms que ces mises à jour utiliseront. Le mappage des identités peut également être utilisé par le jeu de données sélectionné. Si vous ne sélectionnez pas un jeu de données avec l’espace de noms correct ou si vous utilisez le mappage d’identité, l’activité de mise à jour de profil échouera.
+En outre, la configuration d’activité **Mettre à jour le profil** ne nécessite pas d’espace de noms d’identité. Par conséquent, assurez-vous que le jeu de données sélectionné utilise le même **espace de noms d’identité** que celui utilisé par l’action qui a lancé le parcours, car il s’agit de l’espace de noms que ces mises à jour utiliseront. Le mappage des identités peut également être utilisé par le jeu de données sélectionné. Si vous ne sélectionnez pas un jeu de données avec le bon espace de noms ou un jeu de données utilisant le mappage d’identité, l’activité Mettre à jour le profil échouera.
 
 ## Utilisation de la mise à jour du profil
 

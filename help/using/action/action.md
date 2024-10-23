@@ -10,9 +10,9 @@ level: Experienced
 keywords: actions, parcours, messages, envoi, connexions
 exl-id: 7f0cda1d-daf0-4d4c-9978-ddef81473813
 source-git-commit: 503bedc30c35305537c62f9452f4a2dc07424523
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '255'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -37,9 +37,9 @@ Les actions personnalisées vous permettent de configurer la connexion d&#39;un 
 
 >[!CAUTION]
 >
->La configuration des actions personnalisées doit être effectuée par un **utilisateur technique**.
+>La configuration des actions personnalisées doit être effectuée par un **utilisateur ou une utilisatrice technique**.
 
-Les actions personnalisées sont disponibles dans la palette gauche de votre parcours, dans la catégorie **[!UICONTROL Action]** . Consultez [cette page](../building-journeys/about-journey-activities.md#action-activities).
+Les actions personnalisées sont disponibles dans la palette gauche de votre parcours, dans la catégorie **[!UICONTROL Action]**. Consultez [cette page](../building-journeys/about-journey-activities.md#action-activities).
 
 Pour afficher la liste des actions ou configurer une nouvelle action, sélectionnez **[!UICONTROL Configurations]** dans la section du menu ADMINISTRATION. Dans la section **[!UICONTROL Actions]**, cliquez sur **[!UICONTROL Gérer]**. La liste des actions s&#39;affiche. Pour plus d&#39;informations sur l&#39;interface, voir [cette page](../start/user-interface.md)
 

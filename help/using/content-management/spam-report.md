@@ -6,9 +6,9 @@ role: User
 level: Beginner
 exl-id: 9ab43b14-41cf-49f1-bdcf-6fee58db5000
 source-git-commit: 9d95c3cf5c7f9a0da98654795370f40e84611dc9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '365'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -47,7 +47,7 @@ Pour accéder à la fonctionnalité **[!UICONTROL Rapport de spam]**, suivez les
 
    >[!NOTE]
    >
-   >Le score de spam est dérivé via [SpamAssassin](https://spamassassin.apache.org/){target="_blank"}, et les règles ne sont pas détenues par Adobe. Pour plus d&#39;informations sur ces règles, consultez la documentation de SpamAssassin .
+   >Le score de spam est dérivé via [SpamAssassin](https://spamassassin.apache.org/){target="_blank"} et les règles ne sont pas détenues par Adobe. Pour plus d’informations sur ces règles, consultez la documentation de SpamAssassin.
    >
 
 1. En fonction de cette note, si vous considérez que certains éléments peuvent être améliorés, modifiez votre contenu dans le [Concepteur d’e-mail](../email/content-from-scratch.md) et effectuez les mises à jour nécessaires.

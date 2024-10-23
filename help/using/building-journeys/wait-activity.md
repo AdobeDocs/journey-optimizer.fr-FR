@@ -10,9 +10,9 @@ level: Intermediate
 keywords: attente, activité, parcours, suivant, zone de travail
 exl-id: 7268489a-38c1-44da-b043-f57aaa12d7d5
 source-git-commit: 18296fe54dcef6620d4f74374848199368f01475
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '598'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -45,7 +45,7 @@ Une personne ne peut entrer dans une activité **Attente** que si elle dispose d
 
 ### Attente et rentrée {#wait-reentrance}
 
-Il est recommandé de ne pas utiliser les activités **Wait** pour bloquer la réentrée. Utilisez plutôt l’option **Autoriser la rentrée** au niveau des propriétés du parcours. En savoir plus sur [cette page](../building-journeys/journey-properties.md#entrance).
+La bonne pratique est de ne pas utiliser d’activités **Attente** pour bloquer une rentrée. Utilisez plutôt l’option **Autoriser la rentrée** au niveau des propriétés du parcours. En savoir plus sur [cette page](../building-journeys/journey-properties.md#entrance).
 
 ### Attente et mode test {#wait-test-modd}
 

@@ -8,9 +8,9 @@ role: User
 level: Beginner
 exl-id: ef6110c4-1aa6-4835-b0b0-b3c4fe0e7024
 source-git-commit: 62b5cfd480414c898ab6f123de8c6b9f99667b7d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '317'
-ht-degree: 75%
+ht-degree: 100%
 
 ---
 
@@ -64,8 +64,8 @@ Sélectionnez le mode de **[!UICONTROL vue Grille]** pour afficher chaque modèl
 
 Lorsque vous mettez à jour un contenu, vous devrez peut-être attendre quelques secondes avant que les modifications ne soient reflétées dans la miniature.
 
-## Exporter des modèles de contenu vers un autre environnement de test {#export}
+## Exporter des modèles de contenu vers un autre sandbox {#export}
 
-Journey Optimizer vous permet de copier un modèle de contenu d’un environnement de test à un autre. Par exemple, vous pouvez copier un modèle de votre environnement de test d’évaluation dans votre environnement de test de production.
+Journey Optimizer vous permet de copier un modèle de contenu d’un sandbox à un autre. Par exemple, vous pouvez copier un modèle de votre sandbox d’évaluation vers votre sandbox de production.
 
-Le processus de copie est effectué via un **export et import de package** entre les environnements de test source et cible. Des informations détaillées sur l’exportation d’objets et leur importation dans un environnement de test cible sont disponibles dans cette section : [Copier des objets vers un autre environnement de test](../configuration/copy-objects-to-sandbox.md)
+Le processus de copie est réalisé via un **import et un export de package** entre les sandbox source et cible. Des informations détaillées sur l’export d’objets et leur import dans un sandbox cible sont disponibles dans cette section : [Copier des objets vers un autre sandbox](../configuration/copy-objects-to-sandbox.md).

@@ -1,43 +1,43 @@
 ---
-title: Création de cartes de contenu
-description: Découvrez comment créer des cartes de contenu et modifier son contenu dans Journey Optimizer
+title: Créer des cartes de contenu
+description: Découvrir comment créer des cartes de contenu et modifier son contenu dans Journey Optimizer
 topic: Content Management
 role: User
 level: Beginner
 source-git-commit: 12cf3f9ed82350dd55b74de4596e10be9d5654ef
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '919'
-ht-degree: 70%
+ht-degree: 100%
 
 ---
 
-# Création de cartes de contenu {#create-content-card}
+# Créer des cartes de contenu {#create-content-card}
 
 >[!BEGINTABS]
 
 >[!TAB Ajouter des cartes de contenu à un parcours]
 
-Pour ajouter une carte de contenu à un parcours, procédez comme suit :
+Pour ajouter des cartes de contenu à un parcours, procédez comme suit :
 
-1. Ouvrez votre parcours, puis faites glisser et déposez une activité **[!UICONTROL Carte]** depuis la section **[!UICONTROL Actions]** de la palette.
+1. Ouvrez votre parcours, puis effectuez un glisser-déposer d’une activité **[!UICONTROL Carte]** depuis la section **[!UICONTROL Actions]** de la palette.
 
    ![](assets/content-card-jo-1.png)
 
 1. Saisissez un **[!UICONTROL libellé]** et une **[!UICONTROL description]** pour votre message.
 
-1. Sélectionnez la [configuration de la carte de contenu](content-card-configuration.md) à utiliser.
+1. Choisissez la [configuration de carte de contenu](content-card-configuration.md) à utiliser.
 
    ![](assets/content-card-jo-2.png)
 
 1. Vous pouvez maintenant commencer à concevoir votre contenu à l’aide du bouton **[!UICONTROL Modifier le contenu]**. [En savoir plus](design-content-card.md).
 
-1. Activez l’option **[!UICONTROL Activer les règles de diffusion supplémentaires]** . Ensuite, **[!UICONTROL Modifiez les règles]** pour choisir le ou les événements et les critères qui déclencheront votre message. Les créateurs de règles permettent aux utilisateurs de spécifier des critères et des valeurs qui, lorsqu’ils sont satisfaits, déclenchent un ensemble d’actions.
+1. Activez l’option **[!UICONTROL Activer les règles de diffusion supplémentaires]**. Cliquez ensuite sur **[!UICONTROL Modifier les règles]** pour choisir le ou les événements et les critères qui déclencheront votre message. Les créateurs de règles permettent aux utilisateurs et utilisatrices de spécifier des critères et des valeurs qui, lorsqu’ils sont satisfaits, déclenchent un ensemble d’actions.
 
    ![](assets/content-card-jo-3.png)
 
    1. Cliquez sur **[!UICONTROL Ajouter une condition]** pour sélectionner votre événement.
 
-      +++Voir Événement disponible.
+      +++Voir l’événement disponible.
 
       | Package | Déclencheur | Définition |
       |---|---|---|
@@ -82,13 +82,13 @@ Pour ajouter une carte de contenu à un parcours, procédez comme suit :
 
 1. Si nécessaire, complétez votre flux de parcours en faisant glisser et en déposant des actions ou des événements supplémentaires. [En savoir plus](../building-journeys/about-journey-activities.md).
 
-1. Une fois votre carte Contenu prête, finalisez la configuration et publiez votre parcours pour l’activer.
+1. Une fois votre carte de contenu prête, finalisez la configuration et publiez votre parcours pour l’activer.
 
-Pour plus d’informations sur la configuration de votre parcours, consultez cette [page](../building-journeys/journey-gs.md).
+Pour plus d’informations sur la configuration de votre parcours, consultez [cette page](../building-journeys/journey-gs.md).
 
 >[!TAB Ajouter des cartes de contenu à une campagne]
 
-Pour commencer à créer vos cartes de contenu par le biais d’une campagne, procédez comme suit.
+Pour commencer à créer vos cartes de contenu par le biais d’une campagne, suivez les étapes ci-dessous.
 
 1. Création d’une campagne. [En savoir plus](../campaigns/create-campaign.md)
 
@@ -106,23 +106,23 @@ Pour commencer à créer vos cartes de contenu par le biais d’une campagne, pr
 
 1. Dans le champ **[!UICONTROL Espace de noms d’identité]**, choisissez l’espace de noms à utiliser pour identifier les personnes à partir du segment sélectionné. [En savoir plus sur les espaces de noms](../event/about-creating.md#select-the-namespace)
 
-1. Sélectionnez l’action **[!UICONTROL Carte de contenu]** .
+1. Sélectionnez l’action **[!UICONTROL Carte de contenu]**.
 
    ![](assets/content-card-create-2.png)
 
 1. Sélectionnez ou créez une [configuration de carte de contenu](content-card-configuration.md).
 
-1. Pour tester le contenu de votre message, cliquez sur **[!UICONTROL Créer une expérience]**. Vous pouvez ainsi tester plusieurs variables d’une diffusion sur des populations d’échantillons afin de déterminer quel traitement a le plus d’impact sur l’audience ciblée. [En savoir plus sur l’expérience de contenu](../content-management/content-experiment.md).
+1. Pour tester le contenu de votre message, cliquez sur **[!UICONTROL Créer une expérience]**. Vous pouvez ainsi tester plusieurs variables d’une diffusion sur des échantillons de population afin de déterminer quel traitement a le plus d’impact sur l’audience ciblée. [En savoir plus sur l’expérience de contenu](../content-management/content-experiment.md).
 
-1. Si d’autres déclencheurs sont requis, utilisez le bouton bascule **[!UICONTROL Activer les règles de diffusion supplémentaires]** . Des règles de diffusion supplémentaires ne sont pas requises.
+1. Si d’autres déclencheurs sont requis, utilisez le bouton (bascule) **[!UICONTROL Activer les règles de diffusion supplémentaires]**. Des règles de diffusion supplémentaires ne sont pas requises.
 
-   Cliquez sur **[!UICONTROL Modifier les déclencheurs]** pour sélectionner le ou les événements et les critères de diffusion du message. Le créateur de règles vous permet de spécifier des conditions et des valeurs qui, lorsqu’elles sont remplies, déclenchent des actions.
+   Cliquez sur **[!UICONTROL Modifier les déclencheurs]** pour sélectionner le ou les événements et les critères de diffusion du message. Le créateur de règles vous permet de spécifier des conditions et des valeurs qui, lorsqu’elles sont satisfaites, déclenchent des actions.
 
    ![](assets/content-card-create-3.png)
 
-1. Vous pouvez planifier votre campagne à une date spécifique ou la définir pour qu’elle se répète à intervalles réguliers. [En savoir plus](../campaigns/create-campaign.md#schedule)
+1. Vous pouvez planifier vos campagnes à une date spécifique ou à intervalles réguliers. [En savoir plus](../campaigns/create-campaign.md#schedule)
 
-1. Vous pouvez maintenant commencer à concevoir votre contenu à l’aide de l’option **[!UICONTROL Modifier le contenu]**. [En savoir plus](design-content-card.md)
+1. Vous pouvez maintenant commencer à concevoir votre contenu à l’aide du bouton **[!UICONTROL Modifier le contenu]**. [En savoir plus](design-content-card.md)
 
    ![](assets/content-card-create-4.png)
 

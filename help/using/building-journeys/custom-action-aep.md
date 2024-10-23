@@ -9,9 +9,9 @@ role: Developer, Data Engineer
 level: Experienced
 exl-id: 890a194f-f54d-4230-863a-fb2b924d716a
 source-git-commit: f00b157ec843eacdee480dcfe00a8724ab4a3495
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '369'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -96,9 +96,9 @@ curl -X POST 'https://ims-na1.adobelogin.com/ims/token/v3' -H 'Content-Type: app
 
 ## Configurer l’action personnalisée {#custom-action-config}
 
-La configuration des actions personnalisées est détaillée dans [cette page](../action/about-custom-action-configuration.md).
+La configuration de l’action personnalisée est présentée sur [cette page](../action/about-custom-action-configuration.md).
 
-Pour cet exemple, procédez comme suit :
+Pour cet exemple, procédez comme suit :
 
 1. Ouvrez Adobe Journey Optimizer, puis cliquez sur **Configurations**, sous **Administration** dans le menu de gauche. Sous **Actions**, cliquez sur **Gérer** et sur **Créer une action**.
 
@@ -171,7 +171,7 @@ Pour cet exemple, procédez comme suit :
    }
    ```
 
-1. Remplacez la configuration de champ de **Constante** par **Variable** pour les champs qui seront renseignés dynamiquement.
+1. Modifiez la configuration du champ de **Constant** à **Variable** pour les champs qui seront renseignés dynamiquement.
 
 1. Enregistrez l’action personnalisée.
 

@@ -10,9 +10,9 @@ level: Intermediate
 keywords: parcours, configuration, propriétés
 exl-id: 6c21371c-6cbc-4d39-8fe6-39f1b8b13280
 source-git-commit: 1b8442a13e046855bd3670e0ebdee60518f09bd4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2048'
-ht-degree: 81%
+ht-degree: 100%
 
 ---
 
@@ -29,7 +29,7 @@ Les propriétés d’un parcours sont centralisées dans le rail de droite. Cett
 
 Depuis cette section, vous pouvez définir le nom du parcours, ajouter une description et :
 
-* gérer [entrée et rentrée](#entrance),
+* gérer [l’entrée et la rentrée](#entrance),
 * choisir les [dates](#dates) de début et de fin,
 * gérer [l’accès aux données](#manage-access),
 * définir une [durée de temporisation](#timeout) dans les activités de parcours (pour les personnes chargées de l’administration uniquement),
@@ -51,17 +51,17 @@ Pour plus d’informations sur les champs techniques liés à un parcours pour u
 
 Le mode d’entrée des profils est défini au niveau du parcours, dans le volet de configuration de droite. Les paramètres sont décrits ci-dessous.
 
-La gestion des entrées de profil dépend du type de parcours. Pour en savoir plus sur la gestion des entrées et des entrées de profil, consultez [cette page](entry-management.md).
+La gestion des entrées de profil dépend du type de parcours. Pour plus d’informations sur la gestion des entrées et des rentrées de profils, consultez [cette page](entry-management.md).
 
-### Autoriser une nouvelle rentrée  {#allow-reentrance}
+### Autoriser une nouvelle entrée  {#allow-reentrance}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_properties_entrance"
->title="Autoriser une nouvelle rentrée"
->abstract="Par défaut, les nouveaux parcours autorisent les rentrées. Vous pouvez décocher l&#39;option **Autoriser une rentrée** si vous souhaitez par exemple offrir un cadeau unique à un utilisateur ou une utilisatrice qui effectue sa première visite dans la boutique."
+>title="Autoriser une nouvelle entrée"
+>abstract="Par défaut, les nouveaux parcours autorisent la rentrée. Vous pouvez désélectionner l’option **Autoriser une nouvelle entrée** si vous souhaitez par exemple offrir un cadeau unique à un utilisateur ou une utilisatrice qui effectue sa première visite dans la boutique."
 >additional-url="https://experienceleague.adobe.com/fr/docs/journey-optimizer/using/orchestrate-journeys/manage-journey/entry-management" text="Gestion des entrées de profil"
 
-Par défaut, les nouveaux parcours autorisent les rentrées. Vous pouvez décocher l&#39;option **Autoriser la rentrée** pour les parcours &quot;à un tir&quot;, par exemple si vous souhaitez offrir un cadeau ponctuel lorsqu&#39;une personne entre dans une boutique.
+Par défaut, les nouveaux parcours autorisent la rentrée. Vous pouvez désélectionner l’option **Autoriser la rentrée** pour les parcours « uniques », par exemple, si vous souhaitez offrir un cadeau unique à un utilisateur ou une utilisatrice qui effectue sa première visite dans la boutique.
 
 ### Période d’attente de nouvelle entrée  {#reentrance-wait}
 
@@ -71,7 +71,7 @@ Par défaut, les nouveaux parcours autorisent les rentrées. Vous pouvez décoch
 >abstract="Définissez le temps d’attente avant de permettre à un profil de reprendre le parcours dans les parcours unitaires. Cela empêche les utilisateurs et utilisatrices d’entrer de nouveau dans le parcours pendant une durée donnée. Durée maximale : 90 jours."
 >additional-url="https://experienceleague.adobe.com/fr/docs/journey-optimizer/using/orchestrate-journeys/manage-journey/entry-management" text="Gestion des entrées de profil"
 
-Lorsque l’option **Autoriser la rentrée** est activée, le champ **Période d’attente de rentrée** s’affiche. Ce champ vous permet de définir le temps d’attente avant d’autoriser un profil à entrer à nouveau dans un parcours pour les parcours unitaires (en commençant par un événement ou une qualification d’audience). Cela empêche les parcours d’être déclenchés plusieurs fois par erreur pour le même événement. Par défaut, le champ est défini sur 5 minutes. La durée maximale est de 90 jours.
+Lorsque l’option **Autoriser une rentrée** est activée, le champ **Période d’attente de rentrée** s’affiche. Ce champ vous permet de définir le temps d’attente avant d’autoriser un profil à entrer à nouveau dans un parcours pour les parcours unitaires (en commençant par un événement ou une qualification d’audience). Cela empêche les parcours d’être déclenchés plusieurs fois par erreur pour le même événement. Par défaut, le champ est défini sur 5 minutes. La durée maximale est de 90 jours.
 
 
 ## Gérer l’accès {#manage-access}
@@ -101,7 +101,7 @@ Pour plus d&#39;informations sur la gestion des fuseaux horaires, voir [cette pa
 
 Vous pouvez définir une **date de début**. Si vous n’en avez pas spécifié une, elle sera automatiquement définie au moment de la publication.
 
-Vous pouvez également ajouter une **date de fin**. Cela permet aux profils de se fermer automatiquement lorsque la date est atteinte. Si aucune date de fin n’est spécifiée, les profils peuvent rester jusqu’à la [temporisation globale du parcours](#global_timeout) (ce qui correspond généralement à 91 jours). La seule exception concerne les parcours d’audience en lecture récurrente avec l’activation de l’option **Forcer la réentrée sur la périodicité**, qui se terminent à la date de début de l’occurrence suivante.
+Vous pouvez également ajouter une **date de fin**. Cela permet aux profils de se fermer automatiquement lorsque la date est atteinte. Si aucune date de fin n’est spécifiée, les profils peuvent rester jusqu’à la [temporisation globale du parcours](#global_timeout) (ce qui correspond généralement à 91 jours). La seule exception concerne les parcours de lecture d’audience récurrents avec l’option **Forcer une rentrée sur la périodicité** activée, qui se termine à la date de début de l’occurrence suivante.
 
 ## Temporisation {#timeout}
 
@@ -127,7 +127,7 @@ En plus de la [temporisation](#timeout_and_error) utilisée dans les activités 
 
 Cette temporisation globale met fin à la progression des personnes dans le parcours **91 jours** après leur entrée. En d’autres termes, la durée du parcours d’une personne ne peut pas excéder 91 jours. Après cette période de temporisation, les données de cette personne sont supprimées. Les personnes qui sont encore actives dans le parcours au terme de cette période de temporisation seront arrêtées et ne seront pas prises en compte dans le cadre du reporting. Vous pouvez donc voir plus de personnes rejoindre le parcours que le quitter.
 
-En raison du délai d’attente de 91 jours du parcours, lorsque la réentrée du parcours n’est pas autorisée, nous ne pouvons pas nous assurer que le blocage de la réentrée fonctionnera plus de 91 jours. En effet, étant donné que nous supprimons toutes les informations sur les personnes qui ont rejoint le parcours 91 jours après leur entrée, rien ne nous permet de savoir qu’une personne l’a déjà rejoint il y a plus de 91 jours.
+Compte tenu de la temporisation de 91 jours du parcours, lorsque la rentrée de celui-ci n’est pas autorisée, nous sommes dans l’impossibilité de garantir que le blocage de la rentrée fonctionnera plus de 91 jours. En effet, étant donné que nous supprimons toutes les informations sur les personnes qui ont rejoint le parcours 91 jours après leur entrée, rien ne nous permet de savoir qu’une personne l’a déjà rejoint il y a plus de 91 jours.
 
 Une personne ne peut entrer dans une activité d’attente que si elle dispose de suffisamment de temps dans le parcours pour terminer la durée d’attente avant la temporisation de 91 jours du parcours. Consultez [cette page](../building-journeys/wait-activity.md).
 
@@ -265,28 +265,28 @@ Pour en savoir plus sur les politiques de fusion, consultez la [documentation d�
 
 En ajoutant des critères de sortie, vous faites quitter le parcours aux profils dès qu’un événement se produit (un achat, par exemple) ou qu’ils répondent aux critères d’une audience. Cela évite à l’utilisateur ou à l’utilisatrice de recevoir d’autres communications du parcours.
 
-Vous pouvez supprimer des profils d’un parcours lorsqu’ils ne remplissent plus l’objectif du parcours. Pour ce faire, **critères de sortie globaux**, qui sont étroitement associés à la gestion des objectifs.
+Vous pouvez supprimer des profils d’un parcours lorsqu’ils ne remplissent plus l’objectif du parcours. Pour ce faire, utilisez les **critères de sortie globale**, qui sont étroitement associés à la gestion des objectifs.
 
 **Exemple de cas d’utilisation**
 
-Un marketeur dispose d’un parcours promotionnel avec une série de communications. Chacune de ces communications a pour but de pousser le client à faire un achat. Dès que l’achat est effectué, le client ne doit pas recevoir le reste des messages de la série. En définissant un critère de sortie, tous les profils ayant effectué un achat sont supprimés du parcours.
+Une personne spécialiste du marketing dispose d’un parcours promotionnel avec une série de communications. Chacune de ces communications a pour but d’inciter le client ou la cliente à effectuer un achat. Dès que l’achat est effectué, le client ou la cliente ne doit pas recevoir le reste des messages de la série. En définissant un critère de sortie, tous les profils ayant effectué un achat sont supprimés du parcours.
 
 ### Configuration et utilisation {#exit-criteria-config}
 
-Les critères de sortie sont définis au niveau du parcours. Un parcours peut comporter plusieurs critères de sortie. Lorsque plusieurs critères de sortie sont définis, l’évaluation se fait de haut en bas avec une logique `OR`. Ainsi, si vous disposez des critères de sortie A et de sortie B, ils seront évalués en tant que A **OR** B. Les critères sont évalués à chaque étape du parcours.
+Les critères de sortie sont définis au niveau du parcours. Un parcours peut comporter plusieurs critères de sortie. Lorsque plusieurs critères de sortie sont définis, l’évaluation se fait de haut en bas avec une logique `OR`. Ainsi, si vous disposez des critères de sortie A et B, ils seront évalués en tant que A **OU** B. Les critères sont évalués à chaque étape du parcours.
 
-Pour **créer** un critère de sortie, procédez comme suit :
+Pour **créer** un critère de sortie, procédez comme suit :
 
 1. Ouvrez votre parcours.
 
-1. Cliquez sur l’icône **[!UICONTROL Afficher les critères de sortie]** située dans la section supérieure droite du canevas de parcours.
+1. Cliquez sur l’icône **[!UICONTROL Afficher les critères de sortie]** située dans la section supérieure droite de la zone de travail du parcours.
    ![](assets/exitcriteria_icon.png){width="40%" align="left"}
-1. Cliquez sur le bouton **[!UICONTROL Ajouter des critères de sortie]** .
+1. Cliquez sur le bouton **[!UICONTROL Ajouter des critères de sortie]**.
    ![](assets/exitcriteria.png){width="40%" align="left"}
-1. Saisissez un **Libellé** et sélectionnez si vos critères de sortie sont basés sur un **Événement** ou une **Audience**.
+1. Saisissez un **libellé** et sélectionnez si votre critère de sortie est basé sur un **événement** ou une **audience**.
 
 * Pour les critères de sortie basés sur un événement, sélectionnez uniquement un événement unitaire.
-* Pour les critères de sortie basés sur une audience, sélectionnez une audience. Remarque : Pour être efficace, les critères de sortie à l’aide d’une audience peuvent prendre jusqu’à 10 minutes.
+* Pour les critères de sortie basés sur une audience, sélectionnez une audience. Note : pour être efficaces, les critères de sortie utilisant une audience peuvent prendre jusqu’à 10 minutes.
 
 Vous pouvez ajouter plusieurs critères de sortie.
 
@@ -294,8 +294,8 @@ Vous pouvez ajouter plusieurs critères de sortie.
 
 ### Mécanismes de sécurisation et limitations {#exit-criteria-guardrails}
 
-Les barrières de sécurité et limitations suivantes s’appliquent à la fonctionnalité de critères de sortie de parcours :
+Les mécanismes de sécurisation et limitations suivants s’appliquent à la fonctionnalité de critère de sortie de parcours :
 
-* Les critères de sortie sont définis en état de brouillon uniquement
+* Les critères de sortie sont définis en état de brouillon uniquement.
 * Cohérence de l’espace de noms de parcours entre les événements et les critères de sortie basés sur un événement
 

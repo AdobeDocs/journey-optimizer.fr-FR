@@ -1,26 +1,26 @@
 ---
 title: Configuration des cartes de contenu
-description: Configuration du canal de cartes de contenu
+description: Configuration des canaux des cartes de contenu
 feature: Channel Configuration
 topic: Content Management
 role: Admin
 level: Experienced
 source-git-commit: 12cf3f9ed82350dd55b74de4596e10be9d5654ef
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '595'
-ht-degree: 74%
+ht-degree: 100%
 
 ---
 
-# Configuration des cartes de contenu {#content-card-configuration}
+# Configurer des cartes de contenu {#content-card-configuration}
 
-## Qu’est-ce qu’une configuration ? {#surface-definition}
+## Qu’est-ce qu’une configuration ? {#surface-definition}
 
-Une **configuration d’expérience de carte de contenu** est toute entité conçue pour l’interaction de l’utilisateur ou du système, qui est identifiée de manière unique par un **URI**.
+Une **configuration d’expérience de carte de contenu** est toute entité conçue pour l’interaction avec les utilisateurs et utilisatrices ou le système qui est identifiée de manière unique par un **URI**.
 
-En d’autres termes, une surface peut être vue comme un conteneur à n’importe quel niveau de hiérarchie avec une entité (point de contact) qui existe.
+Autrement dit, une surface peut être considérée comme un conteneur à n’importe quel niveau de hiérarchie ayant une entité (point de contact) qui existe.
 
-* Il peut s’agir d’une page web, d’une application mobile, d’une appli de bureau, d’un emplacement de contenu spécifique au sein d’une entité plus grande (par exemple, un `div`) ou d’un modèle d’affichage non standard (par exemple, un kiosque ou une bannière d’application de bureau).
+* Il peut s’agir d’une page web, d’une application mobile, d’une application de bureau, d’un emplacement de contenu spécifique au sein d’une entité plus grande (par exemple, une `div`) ou d’un modèle d’affichage non standard (par exemple, un kiosque ou une bannière d’application de bureau).
 
 * Elle peut également s’étendre à des éléments spécifiques de conteneurs de contenu à des fins de non-affichage ou d’affichage abstrait (par exemple, des objets blob JSON fournis à des services).
 
@@ -59,9 +59,9 @@ Les tableaux ci-dessous répertorient quelques exemples de définition d’URI d
 | Caractère générique web | `wildcard:web://domain.com/*#element` | Surface de caractères génériques : représente un élément individuel dans chacune des pages sous un domaine spécifique. |
 | Caractère générique web | `wildcard:web://*domain.com/*#element` | Surface de caractères génériques : représente un élément individuel dans chacune des pages sous tous les domaines se terminant par « domain.com ». |
 
-## Création d’une configuration de carte de contenu {#create-config}
+## Créer une configuration de carte de contenu {#create-config}
 
-1. Accédez au menu **[!UICONTROL Canaux]** > **[!UICONTROL Marques]** > **[!UICONTROL Configurations de canaux]** , puis cliquez sur **[!UICONTROL Créer une configuration de canal]**.
+1. Accédez au menu **[!UICONTROL Canaux]** > **** > **[!UICONTROL Branding]**, puis cliquez sur **[!UICONTROL Créer une configuration des canaux]**.
 
    ![](assets/content_card_config_1.png)
 
@@ -91,9 +91,9 @@ Les tableaux ci-dessous répertorient quelques exemples de définition d’URI d
 
 1. Pour iOS et Android :
 
-   * Saisissez ou sélectionnez votre **[!UICONTROL ID d’application]**, **[!UICONTROL Emplacement ou chemin dans l’application]** et **[!UICONTROL URL d’aperçu]**.
+   * Saisissez ou sélectionnez votre **[!UICONTROL ID d’application]**, **[!UICONTROL emplacement ou chemin dans l’application]** et **[!UICONTROL URL de prévisualisation]**.
 
 1. Soumettez vos modifications.
 
-Vous pouvez maintenant sélectionner votre configuration lors de la création de votre expérience de carte de contenu.
+Vous pouvez désormais sélectionner votre configuration lors de la création de votre expérience de carte de contenu.
 

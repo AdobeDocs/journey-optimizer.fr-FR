@@ -10,9 +10,9 @@ level: Intermediate, Experienced
 keywords: événement, parcours, entreprise, configuration
 exl-id: 39eb40e1-d7f5-4a8e-9b64-c620940d5ff2
 source-git-commit: 18296fe54dcef6620d4f74374848199368f01475
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1126'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -52,7 +52,7 @@ Voici quelques remarques importantes qui s’appliquent lorsque plusieurs évén
 
 **Quel est le comportement lors de la réception d’un événement métier pendant le traitement du parcours ?**
 
-Les événements professionnels suivent les règles de rentrée de la même manière que pour les événements unitaires. Si un parcours permet une rentrée, l’événement d’entreprise suivant est traité.
+Les événements métier suivent les règles de rentrée de la même manière que les événements unitaires. Si un parcours permet une rentrée, l’événement métier suivant est traité.
 
 **Quelles sont les mécanismes de sécurisation permettant d’éviter la surcharge des audiences matérialisées ?**
 

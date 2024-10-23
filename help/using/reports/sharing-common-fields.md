@@ -9,9 +9,9 @@ role: Data Engineer, Data Architect, Admin
 level: Experienced
 exl-id: 42aec986-2352-456a-a725-7f1585ae01f8
 source-git-commit: 0bf1636f527aeefe8ce54ee97389fe8658e716f0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '634'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -55,31 +55,31 @@ Type : booléen
 
 ID de l’événement traité, pour le traitement de l’étape. Si l’événement est externe, la valeur est son eventId. Si l’événement est interne, la valeur est l’eventId interne (tel que scheduledNotificationReceived, executedAction, etc.).
 
-Type : Chaîne
+Type : chaîne
 
 ## nodeID {#nodeid-field}
 
 ID de nœud client (à partir de la zone de travail).
 
-Type : Chaîne
+Type : chaîne
 
 ## stepID {#stepdid-field}
 
 Identifiant unique de l’étape en cours de traitement.
 
-Type : Chaîne
+Type : chaîne
 
 ## stepName {#stepname-field}
 
 Nom de l’étape en cours de traitement.
 
-Type : Chaîne
+Type : chaîne
 
 ## stepType {#steptype-field}
 
 Type de l’étape.
 
-Type : Chaîne
+Type : chaîne
 
 Valeurs possibles :
 
@@ -92,7 +92,7 @@ Valeurs possibles :
 
 Statut de l’étape, représentant l’état de l’étape, une fois son traitement terminé (et l’événement de l’étape déclenché).
 
-Type : Chaîne
+Type : chaîne
 
 Le statut peut être :
 
@@ -107,13 +107,13 @@ Le statut peut être :
 
 ID du parcours.
 
-Type : Chaîne
+Type : chaîne
 
 ## journeyVersionID {#journeyversionid-field}
 
 Identifiant de la version du parcours. Cet identifiant représente la référence d’identité du parcours, dans le cas du journeyStepEvent.
 
-Type : Chaîne
+Type : chaîne
 
 >[!NOTE]
 >
@@ -123,7 +123,7 @@ Type : Chaîne
 
 Nom de la version du parcours.
 
-Type : Chaîne
+Type : chaîne
 
 >[!NOTE]
 >
@@ -133,43 +133,43 @@ Type : Chaîne
 
 Nom de la version du parcours.
 
-Type : Chaîne
+Type : chaîne
 
 ## instanceID {#instanceid-field}
 
 ID interne de l’instance de parcours.
 
-Type : Chaîne
+Type : chaîne
 
 ## externalKey {#externalkey-field}
 
 Clé externe extraite de l’événement pour le traiter.
 
-Type : Chaîne
+Type : chaîne
 
 ## parentStepID {#parenstepid-field}
 
 ID d’étape du parent de l’étape en cours de traitement dans l’instance.
 
-Type : Chaîne
+Type : chaîne
 
 ## parentStepName {#parentstepname-field}
 
 Nom de l’étape du parent de l’étape en cours.
 
-Type : Chaîne
+Type : chaîne
 
 ## parentTransitionID {#parenttransitionid-field}
 
 Identifiant de la transition qui a conduit l’instance à l’étape de traitement.
 
-Type : Chaîne
+Type : chaîne
 
 ## parentTransitionName {#parenttransitionname-field}
 
 Nom de la transition qui a conduit l’instance à l’étape de traitement.
 
-Type : Chaîne
+Type : chaîne
 
 ## inTest {#intest-field}
 
@@ -187,7 +187,7 @@ Type : long
 
 Indique le type d’instance, s’il s’agit d’un lot ou d’une unité.
 
-Type : Chaîne
+Type : chaîne
 
 Valeurs : batch/unitary
 
@@ -207,28 +207,28 @@ Type : booléen
 
 Clé externe pour un événement batch.
 
-Type : Chaîne
+Type : chaîne
 
 ## batchInstanceID {#batchinstanceid-field}
 
 Il s’agit de l’ID d’instance de lot.
 
-Type : Chaîne
+Type : chaîne
 
 ## batchUnitaryBranchID {#batchunitarybranchid-field}
 
 si l’instance a été déclenchée à partir d’une instance de lot, ID de branche unitaire.
 
-Type : Chaîne
+Type : chaîne
 
-## exitCritèresID
+## exitCriteriaID
 
-ID de exitCritère
+Identifiant du exitCriteria
 
 Type : chaîne
 
-## exitCritèresName
+## exitCriteriaName
 
-Nom de exitCritère
+Nom du exitCriteria
 
 Type : chaîne

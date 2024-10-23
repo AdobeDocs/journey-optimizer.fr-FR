@@ -10,9 +10,9 @@ level: Beginner, Intermediate
 keywords: parcours, activités, commencer, événements, action
 exl-id: 239b3d72-3be0-4a82-84e6-f219e33ddca4
 source-git-commit: 503bedc30c35305537c62f9452f4a2dc07424523
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '577'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -52,7 +52,7 @@ Les activités d’orchestration ci-dessous sont disponibles dans la palette sit
 
 Les actions sont ce que vous voulez qu’il se produise à la suite d’un déclencheur, comme l’envoi d’un message. C’est le parcours que le client ou la cliente effectue.
 
-La catégorie **[!UICONTROL Actions]** se trouve dans la palette située dans la partie gauche de l’écran, sous **[!UICONTROL Événements]** et **[!UICONTROL Orchestration]**. Les activités d&#39;action suivantes sont disponibles :
+La catégorie **[!UICONTROL Actions]** se trouve dans la palette située dans la partie gauche de l’écran, sous **[!UICONTROL Événements]** et **[!UICONTROL Orchestration]**. Les activités d’action suivantes sont disponibles :
 
 * [Actions de canal intégrées](../building-journeys/journeys-message.md)
 * [Actions personnalisées](../building-journeys/using-custom-actions.md)
@@ -68,10 +68,10 @@ Vous pouvez également configurer des actions spécifiques pour vous envoyer des
 
 * Si vous utilisez un système tiers pour envoyer vos messages, vous pouvez créer une action personnalisée spécifique. [En savoir plus](../action/action.md)
 
-* Si vous utilisez Campaign et Journey Optimizer, reportez-vous aux sections suivantes :
+* Si vous utilisez Campaign et Journey Optimizer, reportez-vous aux sections suivantes :
 
    * [[!DNL Journey Optimizer] et Campaign v7/v8](../action/acc-action.md)
-   * [[!DNL Journey Optimizer] et Campaign Standard](../action/acs-action.md)
+   * [[!DNL Journey Optimizer] et Campaign Standard](../action/acs-action.md)
 
 ## Bonnes pratiques {#best-practices}
 

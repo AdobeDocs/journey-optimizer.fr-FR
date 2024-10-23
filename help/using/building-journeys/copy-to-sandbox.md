@@ -7,12 +7,12 @@ feature: Journeys, Sandboxes
 topic: Content Management
 role: User, Developer, Data Engineer
 level: Experienced
-keywords: sandbox, parcours, copie, environnement
+keywords: sandbox, parcours, copier, environnement
 exl-id: 8c63f2f2-5cec-4cb2-b3bf-2387eefb5002
 source-git-commit: 62b5cfd480414c898ab6f123de8c6b9f99667b7d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '119'
-ht-degree: 32%
+ht-degree: 100%
 
 ---
 
@@ -40,8 +40,8 @@ ht-degree: 32%
 >abstract="This is the list of associated objects used in the journey. This list displays the name, the object type, as well as the internal Journey Optimizer ID."
 -->
 
-Journey Optimizer vous permet de copier un parcours complet d’un sandbox à un autre. Par exemple, vous pouvez copier un parcours de votre environnement de test dans votre environnement de test de production.
+Journey Optimizer vous permet de copier un parcours complet d’un sandbox à un autre. Par exemple, vous pouvez copier un parcours de votre environnement de sandbox d’évaluation vers votre sandbox de production.
 
-Outre le parcours lui-même, Journey Optimizer copie également la plupart des objets dont dépend le parcours : audiences, schémas, événements et actions.
+En plus du parcours lui-même, Journey Optimizer copie également la plupart des objets dont dépend le parcours : audiences, schémas, événements et actions.
 
-Le processus de copie est effectué via un **export et import de package** entre les environnements de test source et cible. Des informations détaillées sur l’exportation d’objets et leur importation dans un environnement de test cible sont disponibles dans cette section : [Copier des objets vers un autre environnement de test](../configuration/copy-objects-to-sandbox.md)
+Le processus de copie est réalisé via un **import et un export de package** entre les sandbox source et cible. Des informations détaillées sur l’export d’objets et leur import dans un sandbox cible sont disponibles dans cette section : [Copier des objets vers un autre sandbox](../configuration/copy-objects-to-sandbox.md).

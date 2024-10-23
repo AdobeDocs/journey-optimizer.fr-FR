@@ -9,9 +9,9 @@ level: Experienced
 keywords: expression, syntaxe, opérateurs, éditeur, parcours
 exl-id: 706e2e02-9bd9-46e7-a73d-dda3c9ae4ba8
 source-git-commit: 20dfd2a0c5e660601e6a0acea661eadfd42423d7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '551'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -43,7 +43,7 @@ not (@event{LobbyBeacon.endUserIDs._experience.emailid.id}=="example@adobe.com")
    * `3 * 4.0` entraîne une erreur
 
 * Lors de l’utilisation de l’opérateur `+`, l’expression doit être encapsulée entre parenthèses. Exemple :
-   * `toDateTimeOnly(toDateTime((currentTimeInMillis()) + 1))` est correct
+   * `toDateTimeOnly(toDateTime((currentTimeInMillis()) + 1))` est correct.
    * `toDateTimeOnly(toDateTime(currentTimeInMillis() + 1))` entraîne une erreur
 
 ## Logique  {#logical}

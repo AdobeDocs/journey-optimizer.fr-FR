@@ -10,9 +10,9 @@ level: Experienced
 keywords: action, tiers, personnalisé, parcours, API
 exl-id: 4df2fc7c-85cb-410a-a31f-1bc1ece237bb
 source-git-commit: f706a7b2511d6d0314e3b6df4cd08d44abf29a5e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1670'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -151,7 +151,7 @@ Vous pouvez définir le paramètre de payload comme décrit ci-dessous :
 
 1. Dans la section **[!UICONTROL Requête]**, collez un exemple de payload JSON à envoyer au service externe. Ce champ est facultatif et disponible uniquement pour les méthodes d’appel POST et PUT.
 
-   Activez l’option **[!UICONTROL Autoriser les valeurs NULL]** pour conserver les valeurs Null dans l’appel externe. Notez que l’envoi de tableaux de int, de chaîne, etc. avec les valeurs null dans n’est pas entièrement pris en charge. Par exemple, le tableau suivant d’entiers `[1, null, 2, 3]` est envoyé en tant que `[1, 2, 3]` même si cette option est cochée. En outre, si ce tableau est nul, il est envoyé en tant que tableau vide.
+   Activez l’option **[!UICONTROL Autoriser les valeurs nulles]** pour conserver les valeurs nulles dans l’appel externe. Notez que l’envoi de tableaux d’entiers, de chaînes, etc. avec des valeurs nulles n’est pas entièrement pris en charge. Par exemple, le tableau suivant d’entiers `[1, null, 2, 3]` est envoyé en tant que `[1, 2, 3]` même si cette option est cochée. En outre, si ce tableau est nul, il est envoyé en tant que tableau vide.
 
    ![](assets/null-values.png){width="70%" align="left"}
 
@@ -159,7 +159,7 @@ Vous pouvez définir le paramètre de payload comme décrit ci-dessous :
 
 >[!NOTE]
 >
->Les noms de champ dans la payload ne peuvent pas contenir de caractère `.` de point ni commencer par un caractère `$`.
+>Les noms de champ dans le payload ne peuvent pas contenir de caractère de point (`.`) ni commencer par un caractère `$`.
 >
 
 ![](assets/customactionpayloadmessage2.png)
@@ -172,11 +172,11 @@ Dans la configuration des champs, vous devez procédez comme suit :
 
    * Le paramètre « **Constant** » signifie que la valeur du paramètre est définie dans le volet de configuration des actions par une persona ayant un rôle technique. La valeur reste identique dans tous les parcours Cet élément ne varie pas et les spécialistes du marketing ne le voient pas lors de l’utilisation de l’action personnalisée dans le parcours. Il peut s’agir, par exemple, d’un identifiant attendu par le système tiers. Dans ce cas, la valeur constante est définie sur le champ à droite du bouton (bascule) Constante/Variable.
 
-   * **Variable** signifie que la valeur du paramètre peut varier. Les spécialistes marketing qui utilisent cette action personnalisée dans un parcours sont libres de transmettre la valeur de leur choix ou bien d’indiquer où récupérer la valeur de ce paramètre (à partir de l’événement, d‘Adobe Experience Platform, etc.). Dans ce cas, le champ situé à droite du bouton (bascule) Constante/Variable correspond au libellé que la personne spécialisée dans le marketing voit dans le parcours pour nommer ce paramètre.
+   * Le paramètre « **Variable** » signifie que la valeur du paramètre peut varier. Les spécialistes marketing qui utilisent cette action personnalisée dans un parcours sont libres de transmettre la valeur de leur choix ou bien d’indiquer où récupérer la valeur de ce paramètre (à partir de l’événement, d‘Adobe Experience Platform, etc.). Dans ce cas, le champ situé à droite du bouton (bascule) Constante/Variable correspond au libellé que la personne spécialisée dans le marketing voit dans le parcours pour nommer ce paramètre.
 
-  Pour les paramètres facultatifs, activez l’option **[!UICONTROL Est facultatif]** à la fin de la ligne. En cochant cette option, vous marquez le paramètre comme non obligatoire et laissez les spécialistes du parcours choisir de le remplir ou non lors de la création de cette action personnalisée dans un parcours.
+  Pour les paramètres facultatifs, activez l’option **[!UICONTROL Est facultatif]** à la fin de la ligne. En cochant cette option, vous marquez le paramètre comme non obligatoire et laissez les personnes praticiennes du parcours choisir de le remplir ou non lors de la création de cette action personnalisée dans un parcours.
 
 >[!NOTE]
 >
->Si vous configurez des paramètres facultatifs tout en autorisant des valeurs Null, les paramètres non renseignés par un praticien de parcours sont envoyés comme nuls.
+>Si vous configurez des paramètres facultatifs tout en autorisant des valeurs nulles, les paramètres non renseignés par une personne praticienne de parcours sont envoyés comme valeurs nulles.
 >
