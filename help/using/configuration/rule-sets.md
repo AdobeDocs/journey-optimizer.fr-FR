@@ -12,10 +12,10 @@ badge: label="Version bêta"
 hide: true
 hidefromtoc: true
 exl-id: 07f5f0b4-417e-408e-8d9e-86615c8a3fbf
-source-git-commit: 47482adb84e05fe41eb1c50479a8b50e00469ec4
+source-git-commit: fd644d4d4a92eb0e0770c1d04fe8e7cd90f3ebae
 workflow-type: tm+mt
-source-wordcount: '1595'
-ht-degree: 97%
+source-wordcount: '1960'
+ht-degree: 74%
 
 ---
 
@@ -30,13 +30,15 @@ ht-degree: 97%
 >
 >Les jeux de règles sont actuellement disponibles en version bêta pour certains utilisateurs et utilisatrices uniquement. Contactez votre représentant ou représentante Adobe pour accéder à la version bêta.
 
-## Que sont les jeux de règles ? {#what}
+## Prise en main des ensembles de règles {#gs}
 
-Outre les règles commerciales globales qui limitent le nombre de fois où les utilisateurs et utilisatrices reçoivent des messages sur un ou plusieurs canaux, les jeux de règles vous permettent de **regrouper plusieurs règles dans des jeux de règles** et de les appliquer aux campagnes de votre choix. La granularité est ainsi améliorée afin de contrôler la fréquence à laquelle les utilisateurs et utilisatrices recevront un message selon le type de communication.
+### Que sont les jeux de règles ? {#what}
+
+Outre les règles commerciales globales qui limitent le nombre de fois où les utilisateurs reçoivent des messages sur un ou plusieurs canaux, les ensembles de règles vous permettent de **regrouper plusieurs règles en ensembles** et de les appliquer aux campagnes de votre choix. La granularité est ainsi améliorée afin de contrôler la fréquence à laquelle les utilisateurs et utilisatrices recevront un message selon le type de communication.
 
 Vous pouvez par exemple créer un jeu de règles pour limiter le nombre de **communications promotionnelles** envoyées à votre clientèle et créer un autre jeu de règles pour limiter le nombre de **newsletters** qu’elle reçoit. Selon le type de campagne que vous créez, vous pouvez ensuite choisir d’appliquer la communication promotionnelle ou le jeu de règles des newsletters.
 
-## Jeux de règles globaux et personnalisés {#global-custom}
+### Jeux de règles globaux et personnalisés {#global-custom}
 
 Lors de l’accès aux jeux de règles pour la première fois à partir du menu **[!UICONTROL Administration]** > **[!UICONTROL Règles commerciales (version bêta)]**, un jeu de règles par défaut est précréé et actif : **Jeu de règles par défaut global**.
 
@@ -50,9 +52,18 @@ Outre ce jeu de règles « Jeu de règles par défaut global », vous pouvez c
 >
 >Pour l’instant, les jeux de règles personnalisées peuvent être appliqués uniquement aux **campagnes**. Seules les règles définies dans le jeu de règles « Jeu de règles par défaut global » s’appliquent aux communications de parcours et de campagnes.
 
+### Règles de limitation des canaux et parcours {#domain}
+
+Lors de la création d’un jeu de règles, vous devez indiquer si les règles de l’ensemble de règles appliqueront des règles de limitation spécifiques aux canaux de communication ou aux parcours.
+
+Pour ce faire, sélectionnez un canal ou un domaine de Parcours pour le jeu de règles lors de sa création. [Découvrez comment créer un jeu de règles]
+
+* Domaine **Canal** : appliquez des règles de limitation pour les canaux de communication. Par exemple, n’envoyez pas plus d’un email ou d’un SMS par jour.
+* Domaine **Parcours** : appliquez des règles de limitation d’entrée et de simultanéité à un parcours. Par exemple, ne saisissez pas de profils simultanément dans plusieurs parcours.
+
 ## Créer votre premier jeu de règles personnalisées {#create-rule-set}
 
-### Créer le jeu de règles {#create}
+### Créez le jeu de règles et sélectionnez son domaine. {#create}
 
 Pour créer un jeu de règles, procédez comme suit.
 
@@ -64,13 +75,16 @@ Pour créer un jeu de règles, procédez comme suit.
 
    ![](assets/rule-sets-create-button.png)
 
-1. Définissez le nom du jeu de règles, ajoutez une description si nécessaire, puis cliquez sur **[!UICONTROL Enregistrer]**.
+1. Définissez un nom unique pour le jeu de règles et ajoutez une description.
+
+1. Sélectionnez le domaine du jeu de règles. Le domaine vous permet de spécifier si le jeu de règles contiendra des règles de limitation spécifiques aux canaux de communication ou aux parcours :
+
+   * **Canal** : appliquez des règles de limitation pour les canaux de communication. Par exemple, n’envoyez pas plus d’un email ou d’un SMS par jour.
+   * **Parcours** : appliquez des règles de limitation d’entrée et de simultanéité à un parcours. Par exemple, ne saisissez pas de profils simultanément dans plusieurs parcours.
 
    ![](assets/rule-sets-create.png)
 
-   >[!NOTE]
-   >
-   >Le nom du jeu de règles doit être unique.
+1. Cliquez sur **[!UICONTROL Enregistrer]**.
 
 1. Vous pouvez maintenant [définir les règles](#create-new-rule) que vous souhaitez ajouter à ce jeu de règles.
 
@@ -96,13 +110,15 @@ Pour créer un jeu de règles, procédez comme suit.
 >title="Sélectionner la catégorie de règle relative aux messages"
 >abstract="Lorsqu’elle sont activées et appliquées à un message, toutes les règles de fréquence correspondant à la catégorie sélectionnée seront automatiquement appliquées à ce message. Actuellement, seule la catégorie Marketing est disponible."
 
-Pour ajouter une règle à un jeu de règles, procédez comme suit :
+Pour ajouter une règle à un jeu de règles, accédez au jeu de règles et cliquez sur **[!UICONTROL Ajouter une règle]**.
 
-1. Dans le jeu de règles que vous venez de créer, cliquez sur **[!UICONTROL Ajouter une règle]**.
+Les paramètres disponibles pour la règle dépendent du domaine du jeu de règles sélectionné à sa création.
 
-   ![](assets/rule-sets-create-rule-button.png)
++++Configurez les règles de limitation de canal (**Domaine Canal**)
 
-1. Définir un **nom de règle** unique.
+![](assets/rule-set-channels.png)
+
+1. Définissez un nom unique pour la règle.
 
 1. Le champ **Catégorie** spécifie la catégorie de message à laquelle la règle s’applique. Pour l’instant, ce champ est en lecture seule, car seule la catégorie **[!UICONTROL Marketing]** est disponible.
 
@@ -130,8 +146,6 @@ Pour ajouter une règle à un jeu de règles, procédez comme suit :
 
 1. Sélectionnez le canal à utiliser pour cette règle : **[!UICONTROL E-mail]**, **[!UICONTROL SMS]**, **[!UICONTROL Notification push]** ou **[!UICONTROL Courrier]**.
 
-   ![](assets/rule-set-channels.png)
-
    >[!NOTE]
    >
    >Vous devez sélectionner au moins un canal pour pouvoir créer la règle.
@@ -139,6 +153,23 @@ Pour ajouter une règle à un jeu de règles, procédez comme suit :
 1. Sélectionnez plusieurs canaux si vous souhaitez appliquer une limitation sur tous les canaux sélectionnés en tant que nombre total.
 
    Par exemple, définissez la limitation sur 5 et sélectionnez les canaux e-mail et SMS. Si un profil a déjà reçu 3 e-mails marketing et 2 SMS marketing pour la période sélectionnée, ce profil sera exclu de la prochaine diffusion de tout e-mail ou SMS marketing.
+
++++
+
++++Configuration des règles de limitation des parcours (**domaine Parcours**)
+
+![](assets/rule-set-journey.png)
+
+1. Attribuez un nom unique à la règle.
+
+1. Dans la liste déroulante **[!UICONTROL Type de règle]**, spécifiez le type de limitation de la règle.
+
+   * **[!UICONTROL Limite d’entrée de Parcours]** : limite le nombre d’entrées dans le parcours sur une période donnée pour un profil.
+   * **[!UICONTROL Limite de simultanéité par Parcours]** : limite le nombre de parcours dans lesquels un profil peut être inscrit simultanément.
+
+1. Des informations détaillées sur la configuration des règles de limitation de parcours sont disponibles dans la section [limitation et arbitrage des Parcours](../test-approve/journey-capping.md) .
+
++++
 
 1. Cliquez sur **[!UICONTROL Enregistrer]** pour confirmer la création de la règle. Votre message est ajouté au jeu de règles, au statut **[!UICONTROL Brouillon]**.
 
@@ -206,9 +237,11 @@ Users with the **[!UICONTROL View frequency rules]** permission are able to view
 
 Learn more about permissions in [this section](../administration/high-low-permissions.md).-->
 
-## Appliquer un jeu de règles à un message {#apply-frequency-rule}
+## Application d’ensembles de règles à un message ou à un parcours {#apply-frequency-rule}
 
-Pour appliquer une règle commerciale à un message, procédez comme suit.
+Vous pouvez appliquer un jeu de règles à un message ou à un parcours, en fonction du domaine sélectionné lors de la création du jeu de règles. Pour plus d’informations, développez les sections ci-dessous.
+
++++ Appliquer un jeu de règles à un message
 
 1. Lors de la création d’une [campagne](../campaigns/create-campaign.md), sélectionnez l’un des canaux que vous avez définis pour votre jeu de règles et modifiez le contenu de votre message.
 
@@ -266,3 +299,17 @@ In this scenario, an individual profile:
 * but will be excluded from marketing push notifications after they have received 4 push notifications.-->
 
 Lors du test des règles de fréquence, il est recommandé d’utiliser un nouveau [profil de test](../audience/creating-test-profiles.md), car une fois la limitation de fréquence d’un profil atteinte, il n’est pas possible de réinitialiser le compteur avant la période suivante. La désactivation d’une règle permet aux profils limités de recevoir des messages, mais elle ne supprime pas les incréments de compteur.
+
++++
+
++++ Appliquer un jeu de règles à un parcours
+
+Pour appliquer une règle de limitation à un parcours, accédez au parcours et ouvrez ses propriétés. Dans la liste déroulante **[!UICONTROL Règles de limitation]** , sélectionnez le jeu de règles approprié.
+
+![](assets/journey-capping-apply.png)
+
+>[!IMPORTANT]
+>
+>Si un parcours est activé immédiatement, cela peut prendre jusqu’à 15 minutes pour que le système puisse commencer à supprimer les clients. Vous pouvez planifier votre parcours pour qu’il commence au moins 15 minutes dans le futur afin d’éviter cette éventualité.
+
++++

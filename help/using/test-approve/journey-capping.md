@@ -6,7 +6,7 @@ level: Beginner
 badge: label="Disponibilité limitée"
 hide: true
 hidefromtoc: true
-source-git-commit: 9e7c70c45fc49946c18617c6a5b81383b73da248
+source-git-commit: fd644d4d4a92eb0e0770c1d04fe8e7cd90f3ebae
 workflow-type: tm+mt
 source-wordcount: '698'
 ht-degree: 2%
@@ -110,7 +110,7 @@ Pour appliquer une règle de limitation à un parcours, accédez au parcours et 
 
 Une fois le parcours activé, les règles de limitation définies dans le jeu de règles prennent effet.
 
-![](assets/journey-capping-apply.png)
+![](../test-approve/assets/journey-capping-apply.png)
 
 >[!IMPORTANT]
 >
