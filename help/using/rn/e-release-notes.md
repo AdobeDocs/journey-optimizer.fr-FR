@@ -8,10 +8,10 @@ topic: Content Management
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 0e8c9927f7516abf1927606fd8236b8506b54c96
+source-git-commit: 826d9a26753dee7aae609344e0a72268658285c6
 workflow-type: tm+mt
-source-wordcount: '1775'
-ht-degree: 44%
+source-wordcount: '1793'
+ht-degree: 43%
 
 ---
 
@@ -272,7 +272,11 @@ Des améliorations ont été apportées aux SMS pour améliorer vos fonctionnali
    * Les données de suivi seront toujours collectées. Cette modification n’a aucune incidence sur le suivi. Vous pouvez toujours suivre à qui un email a été envoyé et qui a cliqué sur un email.
    * Les événements de réaction dans les Parcours ne sont pas affectés par cette modification.
 
-* **Paramètres dans les actions personnalisées** (Date de disponibilité : 3 octobre 2024) - Les paramètres NULL et facultatifs sont désormais pris en charge dans les actions personnalisées. [En savoir plus](../action/about-custom-action-configuration.md#define-the-message-parameters)
+* **Paramètres dans les actions personnalisées** (Date de disponibilité : 3 octobre 2024) - Les paramètres NULL et facultatifs sont désormais pris en charge dans les actions personnalisées. [En savoir plus](../action/about-custom-action-configuration.md#define-the-message-parameters).
+
+**Créer des rapports**
+
+* **Le rapport de prise de décision d’expérience** est désormais disponible et offre des informations essentielles sur la manière dont vos visiteurs interagissent avec vos expériences.
 
 **Gouvernance des données et politiques de consentement** : date de disponibilité : 7 octobre 2024
 
