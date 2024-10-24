@@ -7,10 +7,10 @@ feature: Reporting, Journeys
 topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: 47482adb84e05fe41eb1c50479a8b50e00469ec4
+source-git-commit: a2219bf7791bc5c598228af883d0507180628abf
 workflow-type: tm+mt
-source-wordcount: '735'
-ht-degree: 100%
+source-wordcount: '810'
+ht-degree: 90%
 
 ---
 
@@ -82,6 +82,12 @@ Améliorez la personnalisation de votre zone de travail à l’aide des options 
 * Ajustez la **[!UICONTROL Valeur de pourcentage]** pour déterminer la distribution du flux entre différents parcours.
 * Personnalisez vos **[!UICONTROL Paramètres de flèche]** pour inclure des libellés, des conditions, ou optez pour un affichage clair.
 * Activez l’option **[!UICONTROL Afficher les abandons]** pour visualiser les profils qui ont quitté votre parcours directement sur la zone de travail.
+
+Les règles suivantes s’appliquent lors de l’utilisation du filtrage **[!UICONTROL Type de noeud]** :
+
+* Lors de la création d’un segment sur un noeud, il inclura toujours les noeuds des étapes précédentes du parcours, même si ces noeuds ont été exclus par le biais du filtre **[!UICONTROL Type de noeud]**.
+
+* Vous ne pouvez pas créer de segments formés à partir d’une flèche si les noeuds situés à des étapes antérieures du parcours ont été exclus via le filtre **[!UICONTROL Type de noeud]**. Dans ce cas, la fonctionnalité de clic droit sera désactivée sur ces flèches.
 
 ## Performances des actions {#action-performance}
 
