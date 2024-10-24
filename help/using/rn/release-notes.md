@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Notes de mise à jour d’Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: acc3d61b571f577187503157b78de1d27ce5e1ee
+source-git-commit: 87cba1d13af7a80cfe3b37a7b79e5fdd95ee5521
 workflow-type: tm+mt
-source-wordcount: '3066'
-ht-degree: 57%
+source-wordcount: '3162'
+ht-degree: 56%
 
 ---
 
@@ -51,6 +51,25 @@ Cette version apporte les nouvelles fonctionnalités détaillées ci-dessous.
 </tbody>
 </table>
 
+
+<table>
+<thead>
+<tr>
+<th><strong>Personnalisation de la configuration des emails (Disponibilité générale) </strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Pour une flexibilité et un contrôle accrus de vos paramètres d’email, vous pouvez définir des sous-domaines dynamiques et des paramètres d’en-tête personnalisés lors de la création de configurations de canal email.
+</p>
+<p>Anciennement disponible pour un ensemble d’organisations (LA), la personnalisation de la configuration des emails est désormais disponible pour tous les utilisateurs (GA).</p>
+<p>Pour plus d’informations, consultez la <a href="../email/surface-personalization.md">documentation détaillée</a>.</p>
+<img src="assets/do-not-localize/surface-perso.gif"/>
+<p>Date de disponibilité : 23 octobre 2024</p>
+</tr>
+</tbody>
+</table>
 
 <table>
 <thead>
@@ -342,7 +361,10 @@ Des améliorations ont été apportées aux SMS pour améliorer vos fonctionnali
 
 * L’utilisation des audiences et des attributs du chargement personnalisé (fichiers CSV) est désormais disponible avec Healthcare Shield ou Privacy and Security Shield.
 
-**Canal basé sur le code**
+**Configuration** - Date de disponibilité : 23 octobre 2024
+
+* Lors de l&#39;utilisation d&#39;une configuration personnalisée dans une opération ou un parcours, vous pouvez désormais prévisualiser le contenu de votre email afin de rechercher les erreurs potentielles avec les paramètres dynamiques que vous avez définis. [En savoir plus](../email/surface-personalization.md#check-configuration)
+  **Canal basé sur le code**
 
 * Des modèles de contenu sont désormais disponibles. Vous pouvez accélérer la création de vos expériences basées sur du code à partir d’un modèle de contenu créé par vos développeurs. L’utilisation d’un modèle de contenu permet au marketeur de modifier uniquement certaines valeurs ou certains champs, au lieu de composer l’ensemble de l’HTML ou de la payload du contenu JSON.
 

@@ -10,20 +10,16 @@ level: Experienced
 keywords: paramètres, e-mail, configuration, sous-domaine
 badge: label="Disponibilité limitée"
 exl-id: 1e004a76-5d6d-43a1-b198-5c9b41f5332c
-source-git-commit: f8a6c2a3b27d5dca422dfdc868f802c6a10b001d
+source-git-commit: 87cba1d13af7a80cfe3b37a7b79e5fdd95ee5521
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1057'
+ht-degree: 68%
 
 ---
 
 # Personnaliser les paramètres de configuration du canal e-mail {#surface-personalization}
 
 Pour plus de flexibilité et de contrôle sur vos paramètres de canal e-mail, [!DNL Journey Optimizer] permet de définir des valeurs personnalisées pour les sous-domaines et les en-têtes<!--and URL tracking parameters--> lors de la création de configurations de canal e-mail.
-
->[!AVAILABILITY]
->
->La personnalisation de la configuration du canal e-mail n’est actuellement disponible que pour un ensemble d’organisations (disponibilité limitée). Pour en bénéficier, contactez votre représentant ou représentante Adobe.
 
 ## Ajouter des sous-domaines dynamiques {#dynamic-subdomains}
 
@@ -110,13 +106,19 @@ Pour utiliser des variables personnalisées pour vos paramètres d’en-tête de
 
    ![](assets/surface-email-personalize-header.png)
 
-1. L’[éditeur de personnalisation](../personalization/personalization-build-expressions.md) s’ouvre. Définissez la condition à votre convenance et enregistrez vos modifications.
+1. L’[éditeur de personnalisation](../personalization/personalization-build-expressions.md) s’ouvre. Définissez votre condition comme vous le souhaitez et enregistrez vos modifications.
 
-   Par exemple, définissez une condition telle que chaque personne destinataire reçoit un e-mail de son propre représentant de marque.
+   <!--For example, set a condition such as each recipient receives an email from their own brand representative.-->
 
    >[!NOTE]
    >
    >Vous pouvez uniquement sélectionner **[!UICONTROL Attributs de profil]** et **[!UICONTROL Fonctions d’assistance]**.
+
+   Supposons que vous souhaitiez gérer dynamiquement les emails envoyés pour le compte d’un assistant de vente, où l’assistant de vente est récupéré à partir des paramètres contextuels d’un événement ou d’une campagne. Par exemple :
+
+   * Dans un [parcours](../building-journeys/journey-gs.md), lorsqu’un événement d’achat est lié à l’assistant de vente d’une boutique spécifique, l’en-tête de l’email (nom de l’expéditeur, adresse de l’expéditeur, adresse de réponse) peut être personnalisé avec les paramètres de l’assistant de vente, issus des attributs d’événement.
+
+   * Dans une [campagne déclenchée par l’API](../campaigns/api-triggered-campaigns.md), initiée en externe par un assistant de vente, l’e-mail déclenché peut être envoyé au nom de l’assistant de vente et les valeurs de personnalisation de l’en-tête issues des paramètres contextuels de la campagne.
 
 1. Répétez les étapes ci-dessus pour chaque paramètre auquel vous souhaitez ajouter une personnalisation.
 
@@ -138,7 +140,7 @@ Now when the email is sent out, this parameter will be automatically appended to
 
 ## Afficher les détails de configuration {#view-surface-details}
 
-Lorsque vous utilisez une configuration avec des paramètres personnalisés dans une campagne ou une configuration, vous pouvez afficher les détails de la configuration directement dans la campagne ou la configuration. Suivez les étapes ci-dessous.
+Lors de l&#39;utilisation d&#39;une configuration avec des paramètres personnalisés dans une opération ou un parcours, vous pouvez afficher les détails de la configuration directement dans l&#39;opération ou le parcours. Suivez les étapes ci-dessous.
 
 1. Créez une [campagne](../campaigns/create-campaign.md) e-mail ou un [parcours](../building-journeys/journey-gs.md) e-mail.
 
@@ -157,3 +159,33 @@ Lorsque vous utilisez une configuration avec des paramètres personnalisés dans
 1. Sélectionnez **[!UICONTROL Développer]** pour afficher les détails des sous-domaines dynamiques.
 
    ![](assets/campaign-delivery-settings-subdomain-expand.png)
+
+## Vérifier votre configuration {#check-configuration}
+
+Lors de l&#39;utilisation d&#39;une configuration personnalisée dans une opération ou un parcours, vous pouvez prévisualiser le contenu de votre email afin de rechercher les erreurs potentielles avec les paramètres dynamiques que vous avez définis. Suivez les étapes ci-dessous.
+
+1. Dans l&#39;écran d&#39;édition du contenu de votre message ou dans le Designer email, cliquez sur le bouton **[!UICONTROL Simuler le contenu]** . [En savoir plus](../content-management/preview.md)
+
+1. Sélectionnez un [profil de test](../content-management/test-profiles.md).
+
+1. Si une erreur s&#39;affiche, cliquez sur le bouton **[!UICONTROL Afficher les détails de la configuration]** .
+
+   ![](assets/campaign-simulate-config-error.png)
+
+1. Vérifiez les détails de l’erreur dans l’écran **[!UICONTROL Paramètres de diffusion]** .
+
+   ![](assets/campaign-simulate-config-details.png)
+
+Les erreurs possibles peuvent être les suivantes :
+
+* Le **sous-domaine** n’a pas été résolu pour le profil de test sélectionné. Par exemple, votre configuration utilise plusieurs sous-domaines d’envoi correspondant à différents pays, mais le profil sélectionné n’a pas de valeur définie pour l’attribut `Country` ou l’attribut est défini sur `France`, mais cette valeur n’est associée à aucun sous-domaine de cette configuration.
+
+* Le profil sélectionné n’a aucune valeur associée pour un ou plusieurs **paramètres d’en-tête**.
+
+En cas d’erreur, l’email n’est pas envoyé au profil de test sélectionné.
+
+Pour éviter ce type d&#39;erreur, assurez-vous que les paramètres d&#39;en-tête que vous définissez utilisent des attributs personnalisés avec des valeurs pour la plupart de vos profils. Les valeurs manquantes peuvent avoir un impact sur la délivrabilité de vos emails.
+
+>[!NOTE]
+>
+>En savoir plus sur la délivrabilité dans [cette section](../reports/deliverability.md)

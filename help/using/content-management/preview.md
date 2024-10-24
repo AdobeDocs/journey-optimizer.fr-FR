@@ -5,10 +5,10 @@ feature: Preview, Proofs
 role: User
 level: Beginner
 exl-id: 6477270c-0309-411a-8254-c7ffc4419492
-source-git-commit: c53fc226be1b6ab858c5cd75bcae363769fefa74
+source-git-commit: 87cba1d13af7a80cfe3b37a7b79e5fdd95ee5521
 workflow-type: tm+mt
-source-wordcount: '196'
-ht-degree: 86%
+source-wordcount: '213'
+ht-degree: 76%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 86%
 
 <!--## Preview your content {#preview-content}-->
 
-Une fois les [profils de test](test-profiles.md) sélectionnés, vous pouvez prévisualiser votre contenu. Suivez les étapes ci-dessous :
+Une fois les [profils de test](test-profiles.md) définis, vous pouvez prévisualiser votre contenu. Suivez les étapes ci-dessous :
 
 1. Dans l’écran Modifier le contenu de votre message, ou dans le concepteur d’e-mail, cliquez sur le bouton **[!UICONTROL Simuler du contenu]**.
 
@@ -42,5 +42,7 @@ Une fois les [profils de test](test-profiles.md) sélectionnés, vous pouvez pr�
 
 >[!NOTE]
 >
->Lors de la création d’expériences basées sur du code, vous pouvez prévisualiser votre contenu personnalisé directement dans votre navigateur ou sur vos appareils mobiles pour une simulation réelle. [En savoir plus](../code-based/create-code-based.md#preview-on-device)
+>Si une erreur se trouve dans les détails de configuration, cliquez sur le bouton **[!UICONTROL Afficher les détails de configuration]** . [En savoir plus](../email/surface-personalization.md#check-configuration)
+
+Lors de la création d’expériences basées sur du code, vous pouvez prévisualiser votre contenu personnalisé directement dans votre navigateur ou sur vos appareils mobiles pour une simulation réelle. [En savoir plus](../code-based/create-code-based.md#preview-on-device)
 
