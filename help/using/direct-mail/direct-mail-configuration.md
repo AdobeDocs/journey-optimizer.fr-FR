@@ -7,10 +7,10 @@ role: User
 level: Experienced
 keyword: direct, mail, configuration, direct-mail, provider
 exl-id: ae5cc885-ade1-4683-b97e-eda1f2142041
-source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
+source-git-commit: f715fb9135c446d569a4384ce73e9e92c72cb9ff
 workflow-type: tm+mt
 source-wordcount: '1384'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -36,7 +36,7 @@ Avant de pouvoir générer ce fichier, vous devez créer les éléments suivants
 >id="ajo_dm_file_routing_details"
 >title="Définir la configuration du routage des fichiers"
 >abstract="Une fois que vous avez créé un message de publipostage direct, le fichier contenant les données de l’audience ciblée sera généré et exporté vers un serveur. Vous devez spécifier les détails du serveur afin que votre fournisseur de publipostage direct puisse accéder à ce fichier et l’utiliser pour diffuser du publipostage direct."
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/direct-mail/create-direct-mail.html?lang=fr" text="Créer un message de publipostage direct"
+>additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/communication-channels/direct-mail/create-direct-mail" text="Créer un message de publipostage direct"
 
 >[!CONTEXTUALHELP]
 >id="ajo_dm_file_routing_details_header"
@@ -168,7 +168,7 @@ Pour configurer le routage des fichiers, suivez les étapes ci-dessous.
 >id="ajo_dm_surface_settings"
 >title="Définir les paramètres du publipostage direct"
 >abstract="Une configuration de publipostage direct contient les paramètres de formatage du fichier qui contient les données de l’audience ciblée et qui seront utilisées par le fournisseur du publipostage direct. Vous devez également définir l’endroit où le fichier sera exporté en sélectionnant la configuration du routage du fichier."
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/direct-mail/direct-mail-configuration.html?lang=fr#file-routing-configuration" text="Configurer le routage des fichiers"
+>additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/communication-channels/direct-mail/direct-mail-configuration#file-routing-configuration" text="Configurer le routage des fichiers"
 
 <!--
 >[!CONTEXTUALHELP]

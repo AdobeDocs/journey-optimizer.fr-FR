@@ -8,10 +8,10 @@ topic: Content Management
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: af3ed02a1af6c0fea3078bdfca6f568356c06eb4
+source-git-commit: f715fb9135c446d569a4384ce73e9e92c72cb9ff
 workflow-type: tm+mt
-source-wordcount: '1853'
-ht-degree: 43%
+source-wordcount: '1897'
+ht-degree: 42%
 
 ---
 
@@ -75,7 +75,7 @@ Cette version apporte les nouvelles fonctionnalités détaillées ci-dessous.
 <tbody>
 <tr>
 <td>
-<p>Vous pouvez désormais définir des sous-domaines dynamiques et des paramètres d’en-tête personnalisés lors de la création de configuration de canal e-mail pour une meilleure flexibilité et un meilleur contrôle de vos paramètres d’e-mail.</p>
+<p>Vous pouvez désormais définir des sous-domaines dynamiques et des paramètres d’en-tête personnalisés lors de la création de configuration de canal e-mail pour une meilleure flexibilité et un meilleur contrôle de vos paramètres d’e-mail.</p><p>L'utilisation d'une configuration personnalisée dans une opération ou un parcours vous permet de prévisualiser le contenu de votre email afin de rechercher les erreurs potentielles avec les paramètres dynamiques que vous avez définis.</p>
 <p>Anciennement disponible pour un ensemble d’organisations (LA), la personnalisation de la configuration des emails est désormais disponible pour tous les utilisateurs (GA).</p>
 <p>Pour plus d’informations, consultez la <a href="../email/surface-personalization.md">documentation détaillée</a>.</p>
 </td>
@@ -277,10 +277,6 @@ Des améliorations ont été apportées aux SMS pour améliorer vos fonctionnali
 * Vous pouvez définir et gérer des mots-clés uniques pour vos campagnes et parcours SMS, ce qui permet une communication plus personnalisée et efficace.
 * Vous pouvez créer et diffuser un SMS par défaut lorsqu&#39;un mot-clé n&#39;est pas reconnu.
 
-**Configuration**
-
-* **Personnalisation de la configuration du canal** - Lorsque vous utilisez une configuration personnalisée dans une campagne ou un parcours, vous pouvez maintenant prévisualiser le contenu de votre email pour rechercher les erreurs potentielles avec les paramètres dynamiques que vous avez définis.
-
 **Parcours**
 
 * **Expérience de chemin dans parcours** - Grâce à l’expérience de chemin de parcours, vous pouvez désormais définir et suivre des mesures clés pour vos chemins de parcours, ce qui vous permet de mesurer l’impact de vos activités et de fournir des informations plus claires sur vos performances.
@@ -317,3 +313,10 @@ Des améliorations ont été apportées aux SMS pour améliorer vos fonctionnali
 * Lors du ciblage d’une audience de fichier CSV, vous pouvez désormais utiliser les attributs du fichier dans l’éditeur de personnalisation et dans le créateur de règles de parcours et de campagnes. [En savoir plus](../audience/about-audiences.md)
 
 * L’utilisation des audiences et des attributs du chargement personnalisé (fichiers CSV) est désormais disponible avec Healthcare Shield ou Privacy and Security Shield.
+
+**Canal basé sur le code**
+
+* Des modèles de contenu sont désormais disponibles. Vous pouvez accélérer la création de vos expériences basées sur du code à partir d’un modèle de contenu créé par vos développeurs. L’utilisation d’un modèle de contenu permet au marketeur de modifier uniquement certaines valeurs ou certains champs, au lieu de composer l’ensemble de l’HTML ou de la payload du contenu JSON.
+
+
+
