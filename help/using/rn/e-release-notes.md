@@ -8,10 +8,10 @@ topic: Content Management
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: f2282fc4d0bbe67a945c43a191648e28b6b60c00
+source-git-commit: af3ed02a1af6c0fea3078bdfca6f568356c06eb4
 workflow-type: tm+mt
-source-wordcount: '1885'
-ht-degree: 40%
+source-wordcount: '1853'
+ht-degree: 43%
 
 ---
 
@@ -83,6 +83,29 @@ Cette version apporte les nouvelles fonctionnalités détaillées ci-dessous.
 </tbody>
 </table>
 
+
+<table>
+<thead>
+<tr>
+<th><strong>Gestion des conflits et des priorités (disponibilité limitée)</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Dans Journey Optimizer, la gestion du volume et du calendrier des campagnes et des parcours est essentielle pour éviter de submerger les clientes et clients avec un trop grand nombre d’interactions. Journey Optimizer propose désormais plusieurs outils de gestion des conflits et de hiérarchisation des priorités.</p><p><ul><li><b>Limitation de la fréquence des Parcours</b> : vous pouvez désormais créer des ensembles de règles à appliquer à vos parcours, ce qui vous permet de limiter le nombre de parcours par jour, par semaine ou par mois, ainsi que de contrôler le nombre de parcours simultanés exécutés simultanément.</li>
+<li><b>Score de priorité</b> : vous pouvez désormais attribuer un score de priorité à une campagne ou à un parcours, allant de 0 à 100. Les nombres plus élevés signalent une priorité plus élevée. Lorsque deux campagnes ou actions de parcours utilisent la même configuration de canal, Journey Optimizer sélectionne celle avec le score de priorité le plus élevé. Si les campagnes ont le même score, la campagne qui a été la moins récemment modifiée sera choisie.</li>
+<li><b>Afficher les conflits potentiels</b> : un nouveau bouton "Afficher les conflits potentiels" dans les parcours et les campagnes vous permet désormais d’identifier le chevauchement avec d’autres parcours ou campagnes tels que la date de début, l’audience ciblée ou la configuration de canal sélectionnée.</li>
+<li><b>Arbitrage du Parcours</b> : cette nouvelle fonctionnalité vous permet de prioriser les parcours les plus importants pour vos clients. Vous pouvez créer une règle pour supprimer une entrée dans un parcours de priorité inférieure lorsqu’un client est admissible pour un parcours de priorité supérieure à venir.</li></ul></p>
+<!--<p>For more information, refer to the <a href="../email/surface-personalization.md">detailed documentation</a>.</p>-->
+<p>Les fonctionnalités de gestion des conflits et des priorités sont disponibles dans Disponibilité limitée pour un groupe sélectionné de clients. Veuillez noter que ces fonctionnalités seront progressivement déployées vers d’autres utilisateurs à l’avenir. Contactez l’équipe de votre compte si vous souhaitez être ajouté à la liste d’attente pour ces fonctionnalités.</p>
+
+</td>
+</tr>
+</tbody>
+</table>
+
+
 <table>
 <thead>
 <tr>
@@ -147,7 +170,7 @@ Ce mode de modification non visuel est utile si vous ne pouvez pas installer d�
 <tr>
 <td>
 <p>Vous pouvez désormais créer des règles de limitation de la fréquence granulaires et les appliquer à vos messages ou parcours par le biais d’ensembles de règles. Grâce à cette nouvelle fonctionnalité, vous pouvez contrôler la fréquence à laquelle vos audiences reçoivent un message en définissant des règles cross-canal, qui excluent automatiquement les profils sur-sollicités des messages et actions.</p><p>Il vous permet également de limiter le nombre de parcours par jour, semaine ou mois, ainsi que de contrôler le nombre de parcours simultanés exécutés simultanément.</p>
-<p> Les jeux de règles sont disponibles dans Disponibilité limitée pour un groupe sélectionné de clients. Veuillez noter que ces fonctionnalités seront progressivement déployées vers d’autres utilisateurs à l’avenir. Contactez l’équipe de votre compte si vous souhaitez être ajouté à la liste d’attente de cette fonctionnalité.</p>
+<p>Les jeux de règles sont disponibles dans Disponibilité limitée pour un groupe sélectionné de clients. Veuillez noter que ces fonctionnalités seront progressivement déployées vers d’autres utilisateurs à l’avenir. Contactez l’équipe de votre compte si vous souhaitez être ajouté à la liste d’attente de cette fonctionnalité.</p>
 <!--p>For more information, refer to the <a href="../configuration/business-rules.md">detailed documentation</a>.</p-->
 </td>
 </tr>
@@ -254,18 +277,6 @@ Des améliorations ont été apportées aux SMS pour améliorer vos fonctionnali
 * Vous pouvez définir et gérer des mots-clés uniques pour vos campagnes et parcours SMS, ce qui permet une communication plus personnalisée et efficace.
 * Vous pouvez créer et diffuser un SMS par défaut lorsqu&#39;un mot-clé n&#39;est pas reconnu.
 
-**Gestion des conflits et des priorités**
-
-* **Limitation de la fréquence par parcours** : vous pouvez désormais créer des ensembles de règles à appliquer à vos parcours, ce qui vous permet de limiter le nombre de parcours par jour, par semaine ou par mois, ainsi que de contrôler le nombre de parcours simultanés exécutés simultanément.
-
-* **Score de priorité** : vous pouvez désormais attribuer un score de priorité à une campagne ou à un parcours, allant de 0 à 100. Les nombres plus élevés signalent une priorité plus élevée. Lorsque deux campagnes ou parcours utilisent la même configuration de canal, Journey Optimizer sélectionne celle qui obtient le score de priorité le plus élevé. Si les campagnes ont le même score, la campagne la plus récemment modifiée sera choisie. Le score de priorité est disponible pour tous les canaux entrants dans les campagnes, et pour le canal in-app dans les parcours.
-
-* **Afficher les conflits** - Un nouveau bouton **Afficher les conflits** dans les parcours et les campagnes permet désormais de vérifier chaque fois qu’il existe un chevauchement avec d’autres parcours ou campagnes, comme la date de début, l’audience ciblée ou la configuration de canal sélectionnée.
-
->[!AVAILABILITY]
->
->Les fonctionnalités de gestion des conflits et des priorités sont disponibles dans Disponibilité limitée pour un groupe sélectionné de clients. Veuillez noter que ces fonctionnalités seront progressivement déployées vers d’autres utilisateurs à l’avenir. Contactez l’équipe de votre compte si vous souhaitez être ajouté à la liste d’attente de cette fonctionnalité.
-
 **Configuration**
 
 * **Personnalisation de la configuration du canal** - Lorsque vous utilisez une configuration personnalisée dans une campagne ou un parcours, vous pouvez maintenant prévisualiser le contenu de votre email pour rechercher les erreurs potentielles avec les paramètres dynamiques que vous avez définis.
@@ -276,16 +287,14 @@ Des améliorations ont été apportées aux SMS pour améliorer vos fonctionnali
 
 * **Nombre maximal de parcours actifs** : Journey Optimizer dispose désormais d’un mécanisme de sécurisation de 500 parcours actifs sur les sandbox de production, au lieu de 100. Le nombre de parcours actifs est visible dans la zone de travail du parcours. <!-- DOCAC-10977-->
 
-* **Barrière de sécurité de durée de vie** - À compter du 1er novembre 2024, une barrière de sécurité de durée de vie (TTL) sera appliquée sur les jeux de données générés par le système Journey Optimizer comme suit :
+* **Barrière de sécurité de durée de vie** - À compter du 1er novembre 2024, une barrière de sécurité de durée de vie (TTL) sera déployée sur les jeux de données générés par le système Journey Optimizer dans les nouveaux environnements de test et les nouvelles organisations comme suit :
 
-   * 90 jours pour les données dans la banque de profils
-   * 13 mois pour les données du lac de données
+   * 90 jours pour les données dans la banque de profils
+   * 13 mois pour les données du lac de données
 
-  En outre, à ce moment-là, la segmentation par flux ne prendra plus en charge l’utilisation des événements d’envoi et de retour des jeux de données de suivi et de retour. Nous recommandons de ne pas utiliser ces événements pour la segmentation par flux pendant un certain temps et nous allons maintenant les désactiver complètement.
+  Cette modification sera déployée ultérieurement sur les environnements de test client existants dans une seconde phase.
 
-   * Cette modification limite uniquement l’utilisation des événements d’envoi/d’ouverture dans la segmentation par flux. Les événements de clic peuvent toujours être utilisés dans un segment de diffusion en continu. En outre, les événements d’envoi/d’ouverture peuvent toujours être utilisés dans un segment par lot.
-   * Les données de suivi seront toujours collectées. Cette modification n’a aucune incidence sur le suivi. Vous pouvez toujours suivre à qui un email a été envoyé et qui a cliqué sur un email.
-   * Les événements de réaction dans les Parcours ne sont pas affectés par cette modification.
+  En outre, à compter du 1er novembre, la segmentation par flux ne prendra plus en charge l’utilisation des événements d’envoi et d’ouverture des jeux de données de suivi et de retour. Cette modification s’appliquera à tous les environnements de test et organisations clients à ce moment-là. [En savoir plus](../data/datasets-ttl.md)
 
 * **Paramètres dans les actions personnalisées** (Date de disponibilité : 3 octobre 2024) - Les paramètres NULL et facultatifs sont désormais pris en charge dans les actions personnalisées. [En savoir plus](../action/about-custom-action-configuration.md#define-the-message-parameters).
 
@@ -308,7 +317,3 @@ Des améliorations ont été apportées aux SMS pour améliorer vos fonctionnali
 * Lors du ciblage d’une audience de fichier CSV, vous pouvez désormais utiliser les attributs du fichier dans l’éditeur de personnalisation et dans le créateur de règles de parcours et de campagnes. [En savoir plus](../audience/about-audiences.md)
 
 * L’utilisation des audiences et des attributs du chargement personnalisé (fichiers CSV) est désormais disponible avec Healthcare Shield ou Privacy and Security Shield.
-
-**Canal basé sur le code**
-
-Lors de la modification d’une campagne d’expérience basée sur du code, les modèles disponibles pour le choix sont désormais définis sur HTML ou JSON en fonction de la configuration de canal choisie précédemment.
