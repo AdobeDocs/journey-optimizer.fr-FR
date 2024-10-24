@@ -5,9 +5,9 @@ user-guide-title: Guide de Journey Optimizer
 user-guide-description: Utilisez Journey Optimizer pour créer et proposer aux clients des expériences connectées, contextuelles et personnalisées
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 972d517ec2a5779f8c3196b40f1418b9c207d791
+source-git-commit: 2a666364144cf320a9ed20741da7d6f5d22b0d96
 workflow-type: tm+mt
-source-wordcount: '2147'
+source-wordcount: '2152'
 ht-degree: 94%
 
 ---
@@ -350,6 +350,7 @@ ht-degree: 94%
       + [Commencer avec les modèles de contenu](using/content-management/content-templates.md)
       + [Accéder aux modèles et les gérer](using/content-management/access-content-templates.md)
       + [Créer des modèles de contenu](using/content-management/create-content-templates.md)
+      + [Verrouillage de contenu dans les modèles de courrier électronique](using/content-management/content-locking.md)
       + [Tester des modèles de contenu](using/content-management/test-content-templates.md)
       + [Utiliser des modèles de contenu](using/content-management/use-content-templates.md)
    + Fragments de contenu réutilisables {#fragments}
@@ -390,7 +391,7 @@ ht-degree: 94%
       + [Prise en main de la mise à jour de l’expérience de création de rapports](using/reports/report-gs-cja.md)
       + [Configuration manuelle du Customer Journey Analytics](using/reports/cja-ajo.md)
       + [Gérer vos rapports](using/reports/report-cja-manage.md)
-      + [Conditions préalables à la création de rapports et à l’expérimentation](using/reports/reporting-configuration.md)
+      + [Conditions préalables aux rapports et à l’expérimentation](using/reports/reporting-configuration.md)
       + Rapports de campagne{#reporting}
          + [Rapport de campagne](using/reports/campaign-global-report-cja.md)
          + [Rapport de campagne basé sur le code](using/reports/campaign-global-report-cja-code.md)
