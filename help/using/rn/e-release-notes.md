@@ -8,10 +8,10 @@ topic: Content Management
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 08754b850f26c95f3c09ab5277e4f2ea156d2da7
+source-git-commit: 92ecd1261e6c734743c4ab5173969da6e54cd15a
 workflow-type: tm+mt
-source-wordcount: '1942'
-ht-degree: 42%
+source-wordcount: '1990'
+ht-degree: 41%
 
 ---
 
@@ -341,5 +341,6 @@ Des améliorations ont été apportées aux SMS pour améliorer vos fonctionnali
 
 * Des modèles de contenu sont désormais disponibles. Vous pouvez accélérer la création de vos expériences basées sur du code à partir d’un modèle de contenu créé par vos développeurs. L’utilisation d’un modèle de contenu permet au marketeur de modifier uniquement certaines valeurs ou certains champs, au lieu de composer l’ensemble de l’HTML ou de la payload du contenu JSON.
 
+**Prise de décision**
 
-
+Les utilisateurs d’ [Adobe Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html?lang=fr) peuvent désormais choisir des modèles personnalisés à optimiser lors de la configuration d’un modèle d’IA dans la prise de décision (anciennement connu sous le nom de prise de décision d’expérience). Cela vous permet, par exemple, d’optimiser sur une table personnalisée &quot;achats&quot; plutôt que sur des contraintes définies telles que le taux de clics.&quot;
