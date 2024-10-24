@@ -8,9 +8,9 @@ topic: Content Management
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: afe642177f690cdf873f838ec81044b7f8a7172e
+source-git-commit: 2f56a072f7ae6ee2dfa65597cf5597b63dacdbe3
 workflow-type: tm+mt
-source-wordcount: '1971'
+source-wordcount: '1937'
 ht-degree: 42%
 
 ---
@@ -111,7 +111,7 @@ Cette version apporte les nouvelles fonctionnalités détaillées ci-dessous.
 <tbody>
 <tr>
 <td>
-<p>Dans Journey Optimizer, la gestion du volume et du calendrier des campagnes et des parcours est essentielle pour éviter de submerger les clientes et clients avec un trop grand nombre d’interactions. Journey Optimizer propose désormais plusieurs outils de gestion des conflits et de hiérarchisation des priorités.</p><p><ul><li><b>Limitation de la fréquence des Parcours</b> : vous pouvez désormais créer des ensembles de règles à appliquer à vos parcours, ce qui vous permet de limiter le nombre de parcours par jour, par semaine ou par mois, ainsi que de contrôler le nombre de parcours simultanés exécutés simultanément.</li>
+<p>Dans Journey Optimizer, la gestion du volume et du calendrier des campagnes et des parcours est essentielle pour éviter de submerger les clientes et clients avec un trop grand nombre d’interactions. Journey Optimizer propose désormais plusieurs outils de gestion des conflits et de hiérarchisation des priorités.</p><p><ul><li><b>Limitation de la fréquence des Parcours</b> : vous pouvez désormais créer des ensembles de règles à appliquer à vos parcours, ce qui vous permet de limiter le nombre de parcours d’un profil par jour, semaine ou mois, ainsi que de contrôler le nombre de parcours simultanés exécutés simultanément.</li>
 <li><b>Score de priorité</b> : vous pouvez désormais attribuer un score de priorité à une campagne ou à un parcours, allant de 0 à 100. Les nombres plus élevés signalent une priorité plus élevée. Lorsque deux campagnes ou actions de parcours utilisent la même configuration de canal, Journey Optimizer sélectionne celle avec le score de priorité le plus élevé. Si les campagnes ont le même score, la campagne qui a été la moins récemment modifiée sera choisie.</li>
 <li><b>Afficher les conflits potentiels</b> : un nouveau bouton "Afficher les conflits potentiels" dans les parcours et les campagnes vous permet désormais d’identifier le chevauchement avec d’autres parcours ou campagnes tels que la date de début, l’audience ciblée ou la configuration de canal sélectionnée.</li>
 <li><b>Arbitrage du Parcours</b> : cette nouvelle fonctionnalité vous permet de prioriser les parcours les plus importants pour vos clients. Vous pouvez créer une règle pour supprimer une entrée dans un parcours de priorité inférieure lorsqu’un client est admissible pour un parcours de priorité supérieure à venir.</li></ul></p>
@@ -144,7 +144,7 @@ Ce mode de modification non visuel est utile si vous ne pouvez pas installer d�
 <table>
 <thead>
 <tr>
-<th><strong>Expérience dans les parcours (disponibilité générale)</strong><br/></th>
+<th><strong>Expérience de contenu en parcours (disponibilité générale)</strong><br/></th>
 </tr>
 </thead>
 <tbody>
@@ -295,11 +295,13 @@ Des améliorations ont été apportées aux SMS pour améliorer vos fonctionnali
 * Vous pouvez définir et gérer des mots-clés uniques pour vos campagnes et parcours SMS, ce qui permet une communication plus personnalisée et efficace.
 * Vous pouvez créer et diffuser un SMS par défaut lorsqu&#39;un mot-clé n&#39;est pas reconnu.
 
-**Parcours**
+<!--**Journeys**-->
 
-* **Expérience de chemin dans parcours** - Grâce à l’expérience de chemin de parcours, vous pouvez désormais définir et suivre des mesures clés pour vos chemins de parcours, ce qui vous permet de mesurer l’impact de vos activités et de fournir des informations plus claires sur vos performances.
+<!--* **Path experiment in journeys** - With the journey path experiment, you can now define and track key metrics for your journey paths, allowing you to measure the impact of your activities and to provide clearer insights into your performance. -->
 
-* **Nombre maximal de parcours actifs** : Journey Optimizer dispose désormais d’un mécanisme de sécurisation de 500 parcours actifs sur les sandbox de production, au lieu de 100. Le nombre de parcours actifs est visible dans la zone de travail du parcours. <!-- DOCAC-10977-->
+&lt;!—* **Nombre maximal de parcours en direct** - Journey Optimizer dispose désormais d’une barrière de sécurité de 500 parcours en direct sur les environnements de test de production, au lieu de 100. Le nombre de parcours actifs est visible dans la zone de travail du parcours. <!-- DOCAC-10977-->
+
+**Jeux de données**
 
 * **Barrière de sécurité de durée de vie** - À compter du 1er novembre 2024, une barrière de sécurité de durée de vie (TTL) sera déployée sur les jeux de données générés par le système Journey Optimizer dans les nouveaux environnements de test et les nouvelles organisations comme suit :
 
