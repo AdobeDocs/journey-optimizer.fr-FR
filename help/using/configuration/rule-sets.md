@@ -12,7 +12,7 @@ badge: label="Version bêta"
 hide: true
 hidefromtoc: true
 exl-id: 07f5f0b4-417e-408e-8d9e-86615c8a3fbf
-source-git-commit: 0eedadee1e8c1d4642d8602d48bcc9a49a0a2e53
+source-git-commit: 87e2308b2d6a9aeb3cbc0ef4bb28ea7aeb3b869a
 workflow-type: tm+mt
 source-wordcount: '1968'
 ht-degree: 74%
@@ -56,9 +56,7 @@ Outre ce jeu de règles « Jeu de règles par défaut global », vous pouvez c
 
 ### Règles de limitation des canaux et parcours {#domain}
 
-Lors de la création d’un jeu de règles, vous devez indiquer si les règles de l’ensemble de règles appliqueront des règles de limitation spécifiques aux canaux de communication ou aux parcours.
-
-Pour ce faire, sélectionnez un canal ou un domaine de Parcours pour le jeu de règles lors de sa création. [Découvrez comment créer un jeu de règles]
+Lors de la création d’un jeu de règles, vous devez indiquer si les règles de l’ensemble de règles appliqueront des règles de limitation spécifiques aux canaux de communication ou aux parcours.  Pour ce faire, sélectionnez un canal ou un domaine de Parcours pour le jeu de règles lors de sa création. [Découvrez comment créer un jeu de règles](#create)
 
 * Domaine **Canal** : appliquez des règles de limitation pour les canaux de communication. Par exemple, n’envoyez pas plus d’un email ou d’un SMS par jour.
 * Domaine **Parcours** : appliquez des règles de limitation d’entrée et de simultanéité à un parcours. Par exemple, ne saisissez pas de profils simultanément dans plusieurs parcours.
