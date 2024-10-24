@@ -8,9 +8,9 @@ topic: Content Management
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: f715fb9135c446d569a4384ce73e9e92c72cb9ff
+source-git-commit: afe642177f690cdf873f838ec81044b7f8a7172e
 workflow-type: tm+mt
-source-wordcount: '1897'
+source-wordcount: '1971'
 ht-degree: 42%
 
 ---
@@ -78,6 +78,24 @@ Cette version apporte les nouvelles fonctionnalités détaillées ci-dessous.
 <p>Vous pouvez désormais définir des sous-domaines dynamiques et des paramètres d’en-tête personnalisés lors de la création de configuration de canal e-mail pour une meilleure flexibilité et un meilleur contrôle de vos paramètres d’e-mail.</p><p>L'utilisation d'une configuration personnalisée dans une opération ou un parcours vous permet de prévisualiser le contenu de votre email afin de rechercher les erreurs potentielles avec les paramètres dynamiques que vous avez définis.</p>
 <p>Anciennement disponible pour un ensemble d’organisations (LA), la personnalisation de la configuration des emails est désormais disponible pour tous les utilisateurs (GA).</p>
 <p>Pour plus d’informations, consultez la <a href="../email/surface-personalization.md">documentation détaillée</a>.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+
+<table>
+<thead>
+<tr>
+<th><strong>Testez votre contenu à l’aide d’exemples de données d’entrée (Beta)</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>L’outil d’optimisation des parcours vous permet désormais de tester différentes variantes du contenu de votre email en le prévisualisant et en envoyant des bons à tirer à l’aide d’exemples de données d’entrée téléchargées à partir d’un fichier CSV ou ajoutées manuellement. Tous les attributs de profil utilisés dans votre contenu pour la personnalisation sont automatiquement détectés par le système et peuvent être utilisés pour vos tests afin de créer plusieurs variantes.</p>
+<p>Cette fonctionnalité est actuellement disponible en version bêta.</p>
+<!--<p>For more information, refer to the <a href="../email/surface-personalization.md">detailed documentation</a>.</p>-->
 </td>
 </tr>
 </tbody>
