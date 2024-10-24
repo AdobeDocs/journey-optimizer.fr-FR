@@ -4,10 +4,10 @@ description: Découvrez comment demander une approbation avant de publier vos pa
 role: User
 level: Beginner
 feature: Approval
-source-git-commit: ade30d6b33467ad05146ddee3ea1c1a4115d38b2
+source-git-commit: 509ebc377ac8c24db464728b7544eaa96e8e5da4
 workflow-type: tm+mt
-source-wordcount: '445'
-ht-degree: 41%
+source-wordcount: '466'
+ht-degree: 39%
 
 ---
 
@@ -24,9 +24,11 @@ L&#39;accès au workflow de validation est déterminé par votre cas pratique sp
 
 * **Il existe des stratégies d’approbation actives**
 
-   * **Campagnes** : s’il existe une ou plusieurs stratégies d’approbation actives pour l’objet de campagne dans un environnement de test, toutes les campagnes de cet environnement de test afficheront le bouton **[!UICONTROL Demander l’approbation]** . Cela signifie que les campagnes ne peuvent pas être directement activées sans validation.
+   * **Campagnes** : s’il existe une ou plusieurs stratégies d’approbation actives pour l’objet de campagne dans un environnement de test, toutes les campagnes de cet environnement de test afficheront le bouton **[!UICONTROL Demander l’approbation]** .
+Si aucune stratégie d’approbation ne s’applique à l’objet sélectionné lorsque vous cliquez sur le bouton **[!UICONTROL Demander l’approbation]** , le processus de validation automatique est déclenché.
 
-   * **Parcours** : s’il existe une ou plusieurs stratégies d’approbation actives pour l’objet de Parcours dans un environnement de test, tous les parcours afficheront le bouton **[!UICONTROL Demander l’approbation]** . Comme pour les campagnes, les parcours ne peuvent pas être publiés directement si une stratégie de validation est active.
+   * **Parcours** : s’il existe une ou plusieurs stratégies d’approbation actives pour l’objet de Parcours dans un environnement de test, tous les parcours afficheront le bouton **[!UICONTROL Demander l’approbation]** .
+Si aucune stratégie d’approbation ne s’applique à l’objet sélectionné lorsque vous cliquez sur le bouton **[!UICONTROL Demander l’approbation]** , le processus de validation automatique est déclenché.
 
 ## Envoyer une demande d’approbation
 
