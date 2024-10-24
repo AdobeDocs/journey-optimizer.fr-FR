@@ -6,10 +6,10 @@ level: Beginner
 badge: label="Disponibilité limitée"
 hide: true
 hidefromtoc: true
-source-git-commit: fd644d4d4a92eb0e0770c1d04fe8e7cd90f3ebae
+source-git-commit: 0eedadee1e8c1d4642d8602d48bcc9a49a0a2e53
 workflow-type: tm+mt
-source-wordcount: '698'
-ht-degree: 2%
+source-wordcount: '706'
+ht-degree: 3%
 
 ---
 
@@ -37,6 +37,8 @@ La limitation des parcours permet de limiter le nombre de parcours dans lesquels
 * **La limitation de simultanéité** limite le nombre de parcours dans lesquels un profil peut être inscrit simultanément.
 
 Les deux types de limitation de parcours tirent parti de scores de priorité pour arbitrer les entrées.
+
+➡️ [Découvrir cette fonctionnalité en vidéo](#video)
 
 ## Création d’une règle de limitation de parcours {#create-rule}
 
@@ -115,3 +117,7 @@ Une fois le parcours activé, les règles de limitation définies dans le jeu de
 >[!IMPORTANT]
 >
 >Si un parcours est activé immédiatement, cela peut prendre jusqu’à 15 minutes pour que le système puisse commencer à supprimer les clients. Vous pouvez planifier votre parcours pour qu’il commence au moins 15 minutes dans le futur afin d’éviter cette éventualité.
+
+## Vidéo pratique {#video}
+
+>[!VIDEO](https://video.tv.adobe.com/v/3435530?quality=12)

@@ -12,9 +12,9 @@ badge: label="Version bêta"
 hide: true
 hidefromtoc: true
 exl-id: 07f5f0b4-417e-408e-8d9e-86615c8a3fbf
-source-git-commit: d458cf01c9d14682deb080083ab8bb468b3b4fd7
+source-git-commit: 0eedadee1e8c1d4642d8602d48bcc9a49a0a2e53
 workflow-type: tm+mt
-source-wordcount: '1960'
+source-wordcount: '1968'
 ht-degree: 74%
 
 ---
@@ -37,6 +37,8 @@ ht-degree: 74%
 Outre les règles commerciales globales qui limitent le nombre de fois où les utilisateurs reçoivent des messages sur un ou plusieurs canaux, les ensembles de règles vous permettent de **regrouper plusieurs règles en ensembles** et de les appliquer aux campagnes de votre choix. La granularité est ainsi améliorée afin de contrôler la fréquence à laquelle les utilisateurs et utilisatrices recevront un message selon le type de communication.
 
 Vous pouvez par exemple créer un jeu de règles pour limiter le nombre de **communications promotionnelles** envoyées à votre clientèle et créer un autre jeu de règles pour limiter le nombre de **newsletters** qu’elle reçoit. Selon le type de campagne que vous créez, vous pouvez ensuite choisir d’appliquer la communication promotionnelle ou le jeu de règles des newsletters.
+
+➡️ [Découvrir cette fonctionnalité en vidéo](#video)
 
 ### Jeux de règles globaux et personnalisés {#global-custom}
 
@@ -313,3 +315,7 @@ Pour appliquer une règle de limitation à un parcours, accédez au parcours et 
 >Si un parcours est activé immédiatement, cela peut prendre jusqu’à 15 minutes pour que le système puisse commencer à supprimer les clients. Vous pouvez planifier votre parcours pour qu’il commence au moins 15 minutes dans le futur afin d’éviter cette éventualité.
 
 +++
+
+## Vidéo pratique {#video}
+
+>[!VIDEO](https://video.tv.adobe.com/v/3435531?quality=12)

@@ -6,10 +6,10 @@ level: Beginner
 badge: label="Disponibilité limitée"
 hide: true
 hidefromtoc: true
-source-git-commit: e1121d998711ea4751da5293efdd7c1578ee44a2
+source-git-commit: 0eedadee1e8c1d4642d8602d48bcc9a49a0a2e53
 workflow-type: tm+mt
-source-wordcount: '313'
-ht-degree: 6%
+source-wordcount: '321'
+ht-degree: 85%
 
 ---
 
@@ -31,16 +31,22 @@ Ce guide couvre les sujets suivants :
 >
 >Les outils de gestion des conflits et de hiérarchisation des conflits sont actuellement disponibles en tant que disponibilité limitée pour certains utilisateurs uniquement.
 
-Journey Optimizer vous permet d’attribuer un score de priorité à un parcours ou à une campagne. La priorité est essentielle pour donner la priorité à un parcours, à une campagne ou à une action lorsqu’une contrainte est imposée (par exemple, une limite de fréquence). Dans les cas où un client est admissible pour de nombreux parcours, campagnes ou communications et où vous souhaitez être sélectif quant aux adresses auxquelles il doit entrer et recevoir, vous devez utiliser ce champ.
+Journey Optimizer vous permet d’attribuer un score de priorité à un parcours ou à une campagne. La priorité est essentielle pour donner la priorité à un parcours, à une campagne ou à une action lorsqu’une contrainte est imposée (par exemple, une limitation de la fréquence). Dans les cas où une personne est admissible pour plusieurs parcours, campagnes ou communications et que vous souhaitez choisir ceux qu’elle doit rejoindre et recevoir, vous devez utiliser ce champ.
 
 >[!NOTE]
 >
->Le score de priorité est disponible pour les canaux entrants : web, in-app et code-based. En parcours, le score de priorité est disponible uniquement pour les canaux **in-app** et **basés sur du code**.
+>Le score de priorité est disponible pour les canaux entrants : web, in-app et basé sur du code. Dans le parcours, le score de priorité est disponible uniquement pour les canaux **in-app** et **basés sur du code**.
 
-L’attribution d’un score de priorité est essentielle pour la communication entrante, par exemple web, mobile et in-app. Si plusieurs campagnes utilisent la même configuration de canal (une bannière dans la partie supérieure de votre page web, par exemple), cela peut s’avérer problématique, car seul le contenu d’une campagne peut être affiché. Le score de priorité est l&#39;emplacement où vous insérerez vos préférences pour la campagne qui doit s&#39;afficher lorsque le destinataire peut être admissible pour plusieurs campagnes.
+➡️ [Découvrir cette fonctionnalité en vidéo](#video)
 
-Pour attribuer un score de priorité à un parcours ou à une campagne, saisissez une valeur numérique (de 0 à 100) dans le champ **[!UICONTROL Priority score]** situé dans les propriétés du parcours ou de la campagne. Veuillez noter que plus le nombre est élevé, plus la priorité est élevée. Si vous créez cette campagne et souhaitez vous assurer que le contenu de cette campagne s’affiche, vous lui donnez un score de 100.
+L’attribution d’un score de priorité est essentielle pour la communication entrante, par exemple web, mobile et in-app. Si plusieurs campagnes utilisent la même configuration des canaux (une bannière dans la partie supérieure de votre page web, par exemple), cela peut s’avérer problématique, car seul le contenu d’une campagne peut être affiché. Le score de priorité est l’emplacement où vous insérerez vos préférences pour la campagne qui doit s’afficher lorsque les destinataires peuvent être admissibles pour plusieurs campagnes.
+
+Pour attribuer un score de priorité à un parcours ou à une campagne, saisissez une valeur numérique (de 0 à 100) dans le champ **[!UICONTROL Score de priorité]** situé dans les propriétés du parcours ou de la campagne. Notez que plus le nombre est élevé, plus la priorité est élevée. Si vous créez cette campagne et souhaitez vous assurer que le contenu de cette campagne s’affiche, donnez-lui un score de 100.
 
 ![](assets/priority-score.png)
 
 Dans les cas où deux campagnes ont le même score de priorité, la campagne qui a été activée en premier s’affiche.
+
+## Vidéo pratique {#video}
+
+>[!VIDEO](https://video.tv.adobe.com/v/3435529?quality=12)
