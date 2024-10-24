@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Notes de mise à jour d’Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 87cba1d13af7a80cfe3b37a7b79e5fdd95ee5521
+source-git-commit: 7ae8a92be62f6b699a6b222ee5440540fbacffaa
 workflow-type: tm+mt
-source-wordcount: '3162'
-ht-degree: 56%
+source-wordcount: '3096'
+ht-degree: 58%
 
 ---
 
@@ -44,8 +44,8 @@ Cette version apporte les nouvelles fonctionnalités détaillées ci-dessous.
 <tr>
 <td>
 <p>Journey Optimizer vous permet désormais de verrouiller le contenu dans les modèles d’e-mail, soit en verrouillant l’intégralité du modèle, soit des structures et composants spécifiques. Cela vous permet d’éviter les modifications ou suppressions involontaires, de mieux contrôler la personnalisation des modèles et d’améliorer l’efficacité et la fiabilité de vos campagnes par e-mail.</p>
-<!--p>For more information, refer to the <a href="../content-management/gs-generative.md">detailed documentation</a>.</p>-->
-<img src="assets/do-not-localize/ai-content.gif">
+<p>Pour plus d’informations, consultez la <a href="../content-management/content-locking.md">documentation détaillée</a>.</p>
+<img src="assets/do-not-localize/gif-content-locking.gif">
 </td>
 </tr>
 </tbody>
@@ -138,10 +138,10 @@ Cette version apporte les nouvelles fonctionnalités détaillées ci-dessous.
 <p>Dans Journey Optimizer, la gestion du volume et du calendrier des campagnes et des parcours est essentielle pour éviter de submerger les clientes et clients avec un trop grand nombre d’interactions. Journey Optimizer propose désormais plusieurs outils de gestion des conflits et de hiérarchisation des priorités.</p><p><ul><li><b>Limitation de la fréquence des Parcours</b> : vous pouvez désormais créer des ensembles de règles à appliquer à vos parcours, ce qui vous permet de limiter le nombre de parcours d’un profil par jour, semaine ou mois, ainsi que de contrôler le nombre de parcours simultanés exécutés simultanément.</li>
 <li><b>Score de priorité</b> : vous pouvez désormais attribuer un score de priorité à une campagne ou à un parcours, allant de 0 à 100. Les nombres plus élevés signalent une priorité plus élevée. Lorsque deux campagnes ou actions de parcours utilisent la même configuration de canal, Journey Optimizer sélectionne celle avec le score de priorité le plus élevé. Si les campagnes ont le même score, la campagne qui a été la moins récemment modifiée sera choisie.</li>
 <li><b>Afficher les conflits potentiels</b> : un nouveau bouton "Afficher les conflits potentiels" dans les parcours et les campagnes vous permet désormais d’identifier le chevauchement avec d’autres parcours ou campagnes tels que la date de début, l’audience ciblée ou la configuration de canal sélectionnée.</li>
-<li><b>Arbitrage du Parcours</b> : cette nouvelle fonctionnalité vous permet de prioriser les parcours les plus importants pour vos clients. Vous pouvez créer une règle pour supprimer une entrée dans un parcours de priorité inférieure lorsqu’un client est admissible pour un parcours de priorité supérieure à venir.</li></ul></p>
+<li><b>Arbitrage du Parcours</b> : cette nouvelle fonctionnalité vous permet de prioriser les parcours les plus importants pour vos clients. Vous pouvez créer une règle pour supprimer une entrée dans un parcours de priorité inférieure lorsqu’un client est admissible pour un parcours de priorité supérieure à venir.</li>
+<li><b>Limitation de la fréquence par type de communication : </b>Avec les jeux de règles, vous pouvez désormais définir des règles granulaires par type de communication (par exemple, Ventes, Promotionnel) pour éviter de surcharger les clients avec des messages similaires. Vous pouvez contrôler la fréquence sur plusieurs canaux, en excluant automatiquement les profils sur-sollicités afin d’offrir une meilleure expérience client.</li></ul>
 <!--<p>For more information, refer to the <a href="../email/surface-personalization.md">detailed documentation</a>.</p>-->
 <p>Les fonctionnalités de gestion des conflits et des priorités sont disponibles dans Disponibilité limitée pour un groupe sélectionné de clients. Veuillez noter que ces fonctionnalités seront progressivement déployées vers d’autres utilisateurs à l’avenir. Contactez l’équipe de votre compte si vous souhaitez être ajouté à la liste d’attente pour ces fonctionnalités.</p>
-
 </td>
 </tr>
 </tbody>
@@ -191,34 +191,13 @@ Ce mode de modification non visuel est utile si vous ne pouvez pas installer d�
 <tbody>
 <tr>
 <td>
-<p>La prise de décision, auparavant disponible pour un ensemble d’organisations (LA) et appelée prise de décision d’expérience, est désormais disponible pour tous les utilisateurs (GA). Elle simplifie la personnalisation en offrant un catalogue centralisé d'offres marketing appelées "éléments de décision" et un moteur de décision sophistiqué. Ce moteur tire parti des règles et des critères de classement pour sélectionner et présenter les éléments de décision les plus pertinents à chaque individu. Ces éléments de décision sont intégrés de manière transparente à un large éventail de surfaces entrantes par le biais du canal d’expérience basé sur le code.</p>
+<p>La prise de décision, auparavant disponible pour un ensemble d’organisations (LA) et appelée prise de décision d’expérience, est désormais disponible pour tous les utilisateurs (GA), y compris les organisations qui ont acheté les offres de module complémentaire Adobe Healthcare Shield ou Privacy and Security Shield.</p><p>La prise de décision simplifie la personnalisation en offrant un catalogue centralisé d’offres marketing appelées "éléments de décision" et un moteur de décision sophistiqué. Ce moteur tire parti des règles et des critères de classement pour sélectionner et présenter les éléments de décision les plus pertinents à chaque individu. Ces éléments de décision sont intégrés de manière transparente à un large éventail de surfaces entrantes par le biais du canal d’expérience basé sur le code.</p>
 
-<p>Pour l’instant, la prise de décision n’est pas disponible pour les clients qui ont acheté les offres complémentaires Bouclier de santé et Bouclier de confidentialité et Bouclier de sécurité Adobe.</p>
-
-<!--p>For more information, refer to the <a href="../configuration/business-rules.md">detailed documentation</a>.</p-->
+<p>Pour plus d’informations, consultez la <a href="../experience-decisioning/gs-experience-decisioning.md">documentation détaillée</a>.</p>
 </td>
 </tr>
 </tbody>
 </table>
-
-
-<table>
-<thead>
-<tr>
-<th><strong>Jeux de règles (disponibilité limitée)</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>Vous pouvez désormais créer des règles de limitation de la fréquence granulaires et les appliquer à vos messages ou parcours par le biais d’ensembles de règles. Grâce à cette nouvelle fonctionnalité, vous pouvez contrôler la fréquence à laquelle vos audiences reçoivent un message en définissant des règles cross-canal, qui excluent automatiquement les profils sur-sollicités des messages et actions.</p><p>Il vous permet également de limiter le nombre de parcours par jour, semaine ou mois, ainsi que de contrôler le nombre de parcours simultanés exécutés simultanément.</p>
-<p>Les jeux de règles sont disponibles dans Disponibilité limitée pour un groupe sélectionné de clients. Veuillez noter que ces fonctionnalités seront progressivement déployées vers d’autres utilisateurs à l’avenir. Contactez l’équipe de votre compte si vous souhaitez être ajouté à la liste d’attente de cette fonctionnalité.</p>
-<!--p>For more information, refer to the <a href="../configuration/business-rules.md">detailed documentation</a>.</p-->
-</td>
-</tr>
-</tbody>
-</table>
-
 
 <table>
 <thead>
