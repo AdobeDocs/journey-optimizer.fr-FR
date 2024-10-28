@@ -6,10 +6,10 @@ topic: Content Management
 role: Admin
 level: Experienced
 exl-id: 1aff2f6f-914c-4088-afd8-58bd9edfe07d
-source-git-commit: f715fb9135c446d569a4384ce73e9e92c72cb9ff
+source-git-commit: bcccc7b385f031fba2c2b57ec62cae127eda8466
 workflow-type: tm+mt
 source-wordcount: '1558'
-ht-degree: 49%
+ht-degree: 52%
 
 ---
 
@@ -29,7 +29,7 @@ Une configuration d’expérience basée sur du code doit faire référence à l
 >[!CONTEXTUALHELP]
 >id="ajo_admin_location"
 >title="Indiquez l’emplacement spécifique dans votre page ou application."
->abstract="Ce champ indique la destination exacte à l’intérieur d’une page ou dans l’application à laquelle vous souhaitez que les utilisateurs accèdent. Il peut s’agir d’une section spécifique dans une page web ou d’une page au plus profond de la structure de navigation de l’application."
+>abstract="Ce champ indique la destination exacte dans la page ou dans l’application à laquelle les personnes doivent accéder. Il peut s’agir d’une section spécifique dans une page web ou d’une page au plus profond de la structure de navigation de l’application."
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_default_mobile_url"
@@ -180,7 +180,7 @@ Pour définir les paramètres de configuration de l’expérience basés sur du 
 >id="ajo_admin_surface_uri"
 >title="Ajouter l’URI de surface pour votre composant"
 >abstract="Si votre mise en œuvre n’est pas destinée au Web, à iOS ou à Android, ou si vous devez cibler des URI spécifiques, saisissez un URI de surface, c’est-à-dire un identifiant unique qui dirige vers l’entité où vous souhaitez diffuser votre expérience. Veillez à saisir un URI de surface correspondant à celui utilisé dans votre propre mise en œuvre."
->additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/communication-channels/code-based-experience/code-based-configuration#other" text="Créer une configuration d’expérience basée sur le code pour d’autres plateformes"
+>additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/channels/code-based-experience/code-based-configuration#other" text="Créer une configuration d’expérience basée sur le code pour d’autres plateformes"
 
 Une expérience basée sur du code **surface** est toute entité conçue pour l’interaction de l’utilisateur ou du système, qui est identifiée de manière unique par un **URI**. La surface est spécifiée dans l’implémentation de l’application et doit correspondre à la surface référencée dans la configuration de votre canal d’expérience basée sur le code.
 
