@@ -8,9 +8,9 @@ role: Data Engineer, Data Architect, Admin
 level: Experienced
 keywords: platform, lac de données, créer, lac, jeux de données, profil
 exl-id: dcdd3c81-0f00-4259-a8a5-9062a4c40b6f
-source-git-commit: f16ce53f61d64d23f530d007e0124a84e2cc3405
+source-git-commit: f9fdb738210c5450376bdbf86b44d385cd740fd0
 workflow-type: tm+mt
-source-wordcount: '844'
+source-wordcount: '848'
 ht-degree: 95%
 
 ---
@@ -37,7 +37,7 @@ Par défaut, seuls les jeux de données que vous avez ingérés s’affichent. S
 
 >[!NOTE]
 >
->À compter du 1er novembre 2024, une barrière de sécurité TTL (time-to-live) sera appliquée sur les jeux de données générés par le système Journey Optimizer. En outre, à ce moment-là, la segmentation par flux ne prendra plus en charge l’utilisation des événements d’envoi et d’ouverture des jeux de données de suivi et de retour. [En savoir plus](datasets-ttl.md)
+>À compter du 1er novembre 2024, la segmentation par flux ne prendra plus en charge l’utilisation des événements d’envoi et d’ouverture des jeux de données de suivi et de retour Journey Optimizer. En outre, à compter de février 2025, un garde-fou de durée de vie (TTL) sera déployé dans les jeux de données générés par le système Journey Optimizer. [En savoir plus](datasets-ttl.md)
 
 Sélectionnez le nom d’un jeu de données pour accéder à l’écran Activité du jeu de données et consulter les détails du jeu de données que vous avez sélectionné. L’onglet activité contient un graphique qui permet de visualiser le taux de messages consommé ainsi qu’une liste des lots réussis et en échec.
 

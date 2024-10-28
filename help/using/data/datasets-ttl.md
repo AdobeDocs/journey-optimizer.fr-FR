@@ -7,49 +7,19 @@ feature: Data Model, Datasets, Data Management
 role: Data Engineer, Data Architect, Admin
 level: Experienced
 keywords: platform, lac de données, créer, lac, jeux de données, profil
-source-git-commit: a88cb8fbf324bc9c03bc7570b6637e8c95f43a20
+source-git-commit: f9fdb738210c5450376bdbf86b44d385cd740fd0
 workflow-type: tm+mt
-source-wordcount: '401'
-ht-degree: 7%
+source-wordcount: '428'
+ht-degree: 6%
 
 ---
 
 
 # Modifications de la segmentation par flux et du temps d’activation {#ttl-guardrail}
 
-## Barrière de sécurité de la durée de vie (TTL) {#ttl}
-
-À compter du 1er novembre 2024, un garde-fou de durée de vie (TTL) sera déployé dans les jeux de données générés par le système Journey Optimizer dans **de nouveaux environnements de test et de nouvelles organisations** comme suit :
-
-* 90 jours pour les données dans la banque de profils
-* 13 mois pour les données du lac de données
-
-Cette modification sera déployée par la suite vers les **environnements de test client existants** dans une phase ultérieure.
-
-**Questions fréquentes**
-
-+++ Cette modification s’appliquera-t-elle uniquement aux environnements de test de production ou s’appliquera-t-elle également aux environnements de test de développement ?
-
-Cette modification s’applique à tous les types d’environnements de test.
-
-+++
-
-
-+++ Pour la durée de vie de 90 jours dans la banque de profils, les profils eux-mêmes sont-ils affectés ?
-
-Les données du jeu de données généré par le système dans le profil sont ignorées au bout de 90 jours, et non pas les profils eux-mêmes.
-
-+++
-
-+++ Si les données d’un jeu de données généré par le système sont transmises à Customer Journey Analytics (CJA), les données de CJA seront-elles également affectées par le TTL ?
-
-Les données de CJA sont conservées synchronisées avec l’Experience Platform. Par conséquent, la suppression de données en raison d’un TTL sur les données de jeu de données générées par le système aura également un impact sur les données dans CJA.
-
-+++
-
 ## Mises à jour de la segmentation par flux {#segmentation-update}
 
-En outre, le 1er novembre, la segmentation par flux ne prendra plus en charge l’utilisation des événements d’envoi et de retour des jeux de données de suivi et de retour.  Vous trouverez des informations sur les raisons pour lesquelles cette pratique a été découragée par le passé [ici](../audience/about-audiences.md#streaming-segmentation-events-guardrails). Cette modification s’appliquera à tous les environnements de test et organisations client à ce moment-là.
+À compter du 1er novembre 2024, la segmentation par flux ne prendra plus en charge l’utilisation des événements d’envoi et d’ouverture des jeux de données de suivi et de retour Journey Optimizer. Cette modification s’applique à tous les environnements de test et organisations de clients. Vous trouverez des informations sur les raisons pour lesquelles cette pratique a été découragée par le passé [ici](../audience/about-audiences.md#streaming-segmentation-events-guardrails).
 
 **Questions fréquentes**
 
@@ -82,5 +52,40 @@ Les événements de réaction dans les Parcours ne sont pas affectés par cette 
 +++ Cette modification s’appliquera-t-elle uniquement aux environnements de test de production ou s’appliquera-t-elle également aux environnements de test de développement ?
 
 Cette modification s’applique à tous les types d’environnements de test.
+
++++
+
++++ Les événements de retour résultant de l’événement d’envoi sont-ils également affectés par la modification ?
+
+Cette modification s’applique également aux événements d’exclusion et aux événements de rebond/retard résultant de l’envoi.
+
++++
+
+## Mise à jour de la durée de vie (TTL) par phases {#ttl}
+
+À compter de février 2025, un garde-fou de durée de vie (TTL) sera déployé dans les jeux de données générés par le système Journey Optimizer dans **nouveaux environnements de test et nouvelles organisations** comme suit :
+
+* 90 jours pour les données dans la banque de profils
+* 13 mois pour les données du lac de données
+
+Cette modification sera déployée sur les **environnements de test client existants** dans une phase ultérieure.
+
+**Questions fréquentes**
+
++++ Cette modification s’appliquera-t-elle uniquement aux environnements de test de production ou s’appliquera-t-elle également aux environnements de test de développement ?
+
+Cette modification s’applique à tous les types d’environnements de test.
+
++++
+
++++ Pour la durée de vie de 90 jours dans la banque de profils, les profils eux-mêmes sont-ils affectés ?
+
+Les données du jeu de données généré par le système dans le profil sont ignorées au bout de 90 jours, et non pas les profils eux-mêmes.
+
++++
+
++++ Si les données d’un jeu de données généré par le système sont transmises à Customer Journey Analytics (CJA), les données de CJA seront-elles également affectées par le TTL ?
+
+Les données de CJA sont conservées synchronisées avec l’Experience Platform. Par conséquent, la suppression de données en raison d’un TTL sur les données de jeu de données générées par le système aura également un impact sur les données dans CJA.
 
 +++

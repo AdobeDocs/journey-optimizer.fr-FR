@@ -6,9 +6,9 @@ feature: Release Notes
 topic: Content Management
 description: Notes de mise à jour d’Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 7ae8a92be62f6b699a6b222ee5440540fbacffaa
+source-git-commit: f9fdb738210c5450376bdbf86b44d385cd740fd0
 workflow-type: tm+mt
-source-wordcount: '3096'
+source-wordcount: '3101'
 ht-degree: 58%
 
 ---
@@ -309,14 +309,14 @@ Des améliorations ont été apportées aux SMS pour améliorer vos fonctionnali
 
 **Jeux de données**
 
-* **Barrière de sécurité de durée de vie** - À compter du 1er novembre 2024, une barrière de sécurité de durée de vie (TTL) sera déployée sur les jeux de données générés par le système Journey Optimizer dans les nouveaux environnements de test et les nouvelles organisations comme suit :
+* **Envoyer et ouvrir des événements** - À compter du 1er novembre 2024, la segmentation par flux ne prendra plus en charge l’utilisation des événements d’envoi et d’ouverture à partir des jeux de données de suivi et de retour Journey Optimizer. Cette modification s’applique à tous les environnements de test et organisations de clients. [En savoir plus](../data/datasets-ttl.md#segmentation-update)
+
+* **Durée de vie du jeu de données (TTL)** - À compter de février 2025, une barrière de sécurité de durée de vie (TTL) sera déployée sur les jeux de données générés par le système Journey Optimizer dans les nouveaux environnements de test et les nouvelles organisations comme suit :
 
    * 90 jours pour les données dans la banque de profils
    * 13 mois pour les données du lac de données
 
-  Cette modification sera déployée ultérieurement sur les environnements de test client existants dans une seconde phase.
-
-  En outre, à compter du 1er novembre, la segmentation par flux ne prendra plus en charge l’utilisation des événements d’envoi et d’ouverture des jeux de données de suivi et de retour. Cette modification s’appliquera à tous les environnements de test et organisations clients à ce moment-là. [En savoir plus](../data/datasets-ttl.md)
+  Cette modification sera déployée sur les environnements de test client existants au cours d’une phase ultérieure. [En savoir plus](../data/datasets-ttl.md#ttl)
 
 * **Paramètres dans les actions personnalisées** (Date de disponibilité : 3 octobre 2024) - Les paramètres NULL et facultatifs sont désormais pris en charge dans les actions personnalisées. [En savoir plus](../action/about-custom-action-configuration.md#define-the-message-parameters).
 
