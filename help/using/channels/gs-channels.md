@@ -5,7 +5,7 @@ title: Prise en main des canaux de communication dans [!DNL Adobe Journey Optimi
 description: Découvrez comment utiliser les canaux de communication  [!DNL Adobe Journey Optimizer] .
 role: User
 level: Beginner
-source-git-commit: 972d517ec2a5779f8c3196b40f1418b9c207d791
+source-git-commit: d83339f8b6e02e6035b759b6b52bd18ea9a626e3
 workflow-type: tm+mt
 source-wordcount: '411'
 ht-degree: 3%
@@ -22,27 +22,30 @@ Dans le paysage marketing dynamique actuel, atteindre efficacement votre audienc
 ## Canal entrant et sortant {#inbound-outbound}
 
 Pour optimiser votre stratégie de communication, il est essentiel de comprendre la différence entre les canaux entrants et sortants :
+
 * Canaux entrants : ces canaux permettent aux clients de lancer des interactions. Par exemple, la messagerie in-app et les interactions web, dans lesquelles les utilisateurs peuvent interagir avec le contenu selon leurs propres conditions.
+
 * Canaux sortants : il s’agit d’envoyer des messages aux clients sans interaction préalable. Par exemple, les campagnes par e-mail et les notifications push, dans lesquelles vous atteignez de manière proactive votre audience.
+
 L’utilisation efficace des deux types de canaux peut améliorer l’expérience client et stimuler l’engagement.
 
 ## Canaux disponibles {#channels}
 
 Adobe Journey Optimizer offre divers canaux de communication pour interagir efficacement avec votre audience. Voici la liste des canaux que vous pouvez exploiter :
 
-Canaux sortants :
+* Canaux sortant
 
-* **Email** : diffuser des messages personnalisés directement dans les boîtes de réception de vos clients.
-* **SMS/MMS** : envoyez des SMS pour atteindre les utilisateurs sur leurs appareils mobiles.
-* **Notification push** : engagez les utilisateurs avec des notifications instantanées sur leurs appareils, ce qui entraîne une action immédiate.
-* **Direct Mail** : utilisez le courrier physique pour créer une connexion tangible avec votre audience.
+   * **Email** : diffuser des messages personnalisés directement dans les boîtes de réception de vos clients.
+   * **SMS/MMS** : envoyez des SMS pour atteindre les utilisateurs sur leurs appareils mobiles.
+   * **Notification push** : engagez les utilisateurs avec des notifications instantanées sur leurs appareils, ce qui entraîne une action immédiate.
+   * **Direct Mail** : utilisez le courrier physique pour créer une connexion tangible avec votre audience.
 
-Canaux entrants :
+* Canaux entrants
 
-* **Dans l’application** : communiquez avec les utilisateurs de vos applications mobiles ou web pour améliorer leur expérience.
-* **Web** : utilisez la messagerie Web pour interagir avec les utilisateurs qui naviguent sur votre site.
-* **Expérience basée sur le code** : implémentez des expériences personnalisées par le codage pour des opportunités d’engagement uniques.
-* **Cartes de contenu** : partagez du contenu dynamique directement dans vos applications ou sites web pour informer les utilisateurs et les impliquer.
+   * **Dans l’application** : communiquez avec les utilisateurs de vos applications mobiles ou web pour améliorer leur expérience.
+   * **Web** : utilisez la messagerie Web pour interagir avec les utilisateurs qui naviguent sur votre site.
+   * **Expérience basée sur le code** : implémentez des expériences personnalisées par le codage pour des opportunités d’engagement uniques.
+   * **Cartes de contenu** : partagez du contenu dynamique directement dans vos applications ou sites web pour informer les utilisateurs et les impliquer.
 
 ## Utilisation des canaux dans les parcours et campagnes {#leverage}
 
