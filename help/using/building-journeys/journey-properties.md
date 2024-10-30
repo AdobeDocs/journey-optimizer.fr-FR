@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: parcours, configuration, propriétés
 exl-id: 6c21371c-6cbc-4d39-8fe6-39f1b8b13280
-source-git-commit: 1b8442a13e046855bd3670e0ebdee60518f09bd4
-workflow-type: ht
-source-wordcount: '2048'
-ht-degree: 100%
+source-git-commit: 7632b144625a02810796d7afc858fcb5809d9220
+workflow-type: tm+mt
+source-wordcount: '2233'
+ht-degree: 95%
 
 ---
 
@@ -35,6 +35,7 @@ Depuis cette section, vous pouvez définir le nom du parcours, ajouter une descr
 * définir une [durée de temporisation](#timeout) dans les activités de parcours (pour les personnes chargées de l’administration uniquement),
 * sélectionner les [fuseaux horaires](#timezone) des parcours et des profils,
 * attribuer des balises unifiées Adobe Experience Platform à votre parcours afin de les classer facilement et d’améliorer la recherche dans la liste des campagnes. [Découvrir comment utiliser les balises](../start/search-filter-categorize.md#tags)
+* surveillez les conflits et donnez la priorité à vos parcours à l’aide des [outils de gestion des conflits](#conflict).
 
 ![](assets/journey32.png)
 
@@ -46,19 +47,18 @@ La fonction **Copier les détails techniques** permet de copier les informations
 
 Pour plus d’informations sur les champs techniques liés à un parcours pour un profil donné et comment les utiliser, consultez [cette page](expression/journey-properties.md).
 
-
 ## Entrée et rentrée {#entrance}
 
 Le mode d’entrée des profils est défini au niveau du parcours, dans le volet de configuration de droite. Les paramètres sont décrits ci-dessous.
 
 La gestion des entrées de profil dépend du type de parcours. Pour plus d’informations sur la gestion des entrées et des rentrées de profils, consultez [cette page](entry-management.md).
 
-### Autoriser une nouvelle entrée  {#allow-reentrance}
+### Autoriser une nouvelle rentrée  {#allow-reentrance}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_properties_entrance"
->title="Autoriser une nouvelle entrée"
->abstract="Par défaut, les nouveaux parcours autorisent la rentrée. Vous pouvez désélectionner l’option **Autoriser une nouvelle entrée** si vous souhaitez par exemple offrir un cadeau unique à un utilisateur ou une utilisatrice qui effectue sa première visite dans la boutique."
+>title="Autoriser une nouvelle rentrée"
+>abstract="Par défaut, les nouveaux parcours autorisent la rentrée. Vous pouvez décocher l&#39;option **Autoriser une rentrée** si vous souhaitez par exemple offrir un cadeau unique à un utilisateur ou une utilisatrice qui effectue sa première visite dans la boutique."
 >additional-url="https://experienceleague.adobe.com/fr/docs/journey-optimizer/using/orchestrate-journeys/manage-journey/entry-management" text="Gestion des entrées de profil"
 
 Par défaut, les nouveaux parcours autorisent la rentrée. Vous pouvez désélectionner l’option **Autoriser la rentrée** pour les parcours « uniques », par exemple, si vous souhaitez offrir un cadeau unique à un utilisateur ou une utilisatrice qui effectue sa première visite dans la boutique.
@@ -299,3 +299,14 @@ Les mécanismes de sécurisation et limitations suivants s’appliquent à la fo
 * Les critères de sortie sont définis en état de brouillon uniquement.
 * Cohérence de l’espace de noms de parcours entre les événements et les critères de sortie basés sur un événement
 
+## Gestion des conflits {#conflict}
+
+La section **[!UICONTROL Gestion des conflits]** des propriétés du parcours vous permet de surveiller les conflits et de hiérarchiser vos parcours. Vous pouvez effectuer les actions suivantes :
+
+* Appliquez un **jeu de règles** pour exclure ce parcours d’une partie de votre audience en fonction de règles de limitation. [Découvrez comment utiliser des ensembles de règles](../configuration/rule-sets.md)
+
+* Attribuez un **score de priorité** au parcours, compris entre 0 et 100. Les nombres plus élevés signalent une priorité plus élevée. La valeur de priorité insérée ici est héritée par toute action entrante (in-app, par exemple) contenue dans ce parcours. [apprenez à utiliser les scores de priorité](../conflict-prioritization/priority-scores.md)
+
+  Dans les cas où cette même configuration de canal entrant est utilisée dans d’autres campagnes ou parcours, l’action entrante ayant le score de priorité le plus élevé est présentée aux destinataires. Si plusieurs parcours ou campagnes ont le même score, l’élément qui a été modifié le plus récemment est sélectionné.
+
+* **Afficher les conflits** avec d’autres parcours, campagnes ou configurations de canal. Si vous souhaitez identifier le chevauchement sur l’audience, la date de début et de fin, la configuration du canal, le canal ou le jeu de règles, vous pouvez afficher les conflits potentiels ici. [Découvrez comment identifier les conflits potentiels dans parcours](../conflict-prioritization/conflicts.md)

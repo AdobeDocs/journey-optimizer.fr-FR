@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Utiliser des jeux de règles
+title: Utilisation des jeux de règles (LA)
 description: Découvrir comment créer et appliquer des jeux de règles
 feature: Rules
 topic: Content Management
@@ -12,10 +12,10 @@ badge: label="Version bêta"
 hide: true
 hidefromtoc: true
 exl-id: 07f5f0b4-417e-408e-8d9e-86615c8a3fbf
-source-git-commit: 87e2308b2d6a9aeb3cbc0ef4bb28ea7aeb3b869a
+source-git-commit: 7632b144625a02810796d7afc858fcb5809d9220
 workflow-type: tm+mt
-source-wordcount: '1968'
-ht-degree: 74%
+source-wordcount: '1988'
+ht-degree: 72%
 
 ---
 
@@ -28,7 +28,7 @@ ht-degree: 74%
 
 >[!AVAILABILITY]
 >
->Les jeux de règles sont actuellement disponibles en version bêta pour certains utilisateurs et utilisatrices uniquement. Contactez votre représentant ou représentante Adobe pour accéder à la version bêta.
+>Les jeux de règles sont actuellement disponibles dans Disponibilité limitée pour un groupe sélectionné de clients. Veuillez noter que cette fonctionnalité sera progressivement déployée vers d’autres utilisateurs à l’avenir. Contactez l’équipe de votre compte si vous souhaitez être ajouté à la liste de attente.
 
 ## Prise en main des ensembles de règles {#gs}
 
@@ -167,7 +167,7 @@ Les paramètres disponibles pour la règle dépendent du domaine du jeu de règl
    * **[!UICONTROL Limite d’entrée de Parcours]** : limite le nombre d’entrées dans le parcours sur une période donnée pour un profil.
    * **[!UICONTROL Limite de simultanéité par Parcours]** : limite le nombre de parcours dans lesquels un profil peut être inscrit simultanément.
 
-1. Des informations détaillées sur la configuration des règles de limitation de parcours sont disponibles dans la section [limitation et arbitrage des Parcours](../test-approve/journey-capping.md) .
+1. Des informations détaillées sur la configuration des règles de limitation de parcours sont disponibles dans la section [limitation et arbitrage des Parcours](../conflict-prioritization/journey-capping.md) .
 
 +++
 
@@ -306,7 +306,7 @@ Lors du test des règles de fréquence, il est recommandé d’utiliser un nouve
 
 Pour appliquer une règle de limitation à un parcours, accédez au parcours et ouvrez ses propriétés. Dans la liste déroulante **[!UICONTROL Règles de limitation]** , sélectionnez le jeu de règles approprié.
 
-![](../test-approve/assets/journey-capping-apply.png)
+![](../conflict-prioritization//assets/journey-capping-apply.png)
 
 >[!IMPORTANT]
 >

@@ -5,9 +5,9 @@ user-guide-title: Guide de Journey Optimizer
 user-guide-description: Utilisez Journey Optimizer pour créer et proposer aux clients des expériences connectées, contextuelles et personnalisées
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: c858d16ec520418148fb28ad2ecec0d3a6377ba9
+source-git-commit: 7632b144625a02810796d7afc858fcb5809d9220
 workflow-type: tm+mt
-source-wordcount: '2163'
+source-wordcount: '2161'
 ht-degree: 93%
 
 ---
@@ -175,13 +175,12 @@ ht-degree: 93%
    + [Vérification et activation d’une campagne](using/campaigns/review-activate-campaign.md)
    + [Gérer les campagnes](using/campaigns/modify-stop-campaign.md)
    + [Déclencher des campagnes à l’aide d’API](using/campaigns/api-triggered-campaigns.md)
++ Gestion des conflits et hiérarchisation {#conflict-prioritization}
+   + [Prise en main de la gestion des conflits et de la hiérarchisation](using/conflict-prioritization/gs-conflict-prioritization.md)
+   + [Identifier les conflits potentiels](using/conflict-prioritization/conflicts.md)
+   + [Attribution de scores de priorité](using/conflict-prioritization/priority-scores.md)
+   + [Limitation et arbitrage des parcours](using/conflict-prioritization/journey-capping.md)
 + Tester et approuver {#test}
-   + [Gestion des conflits et hiérarchisation](using/test-approve/conflict-prioritization.md)
-   + Gestion des conflits et hiérarchisation {#conflict-prioritization}
-      + [Prise en main de la gestion des conflits et de la hiérarchisation](using/test-approve/gs-conflict-prioritization.md)
-      + [Identifier les conflits potentiels](using/test-approve/conflicts.md)
-      + [Attribution de scores de priorité](using/test-approve/priority-scores.md)
-      + [Limitation et arbitrage des parcours](using/test-approve/journey-capping.md)
    + Prévisualiser et tester votre contenu {#preview-test}
       + [Tester votre contenu à l’aide d’exemples de données d’entrée](using/test-approve/simulate-sample-input.md)
       + [Prise en main de la prévisualisation et du test](using/content-management/preview-test.md)
@@ -658,7 +657,7 @@ ht-degree: 93%
    + [Prise en charge de l’archivage](using/configuration/archiving-support.md)
    + [Modifier les adresses d’exécution](using/configuration/primary-email-addresses.md)
    + [Configurer des règles commerciales](using/configuration/frequency-rules.md)
-   + [Utiliser des jeux de règles](using/configuration/rule-sets.md)
+   + [Utilisation des jeux de règles (LA)](using/configuration/rule-sets.md)
    + Configuration des parcours {#configure-journeys}
       + [À propos des sources de données, des événements et des actions](using/configuration/about-data-sources-events-actions.md)
       + Intégration aux systèmes externes {#external-systems}
