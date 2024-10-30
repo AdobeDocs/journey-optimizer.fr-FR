@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
-source-git-commit: e3ebbb021b7336fa859deb19d4e5786a4f4fdf30
+source-git-commit: ac8ccb52bd16a26c14dea148f989256e28170765
 workflow-type: tm+mt
-source-wordcount: '1446'
-ht-degree: 100%
+source-wordcount: '1444'
+ht-degree: 99%
 
 ---
 
@@ -292,5 +292,5 @@ Pour modifier la langue :
 
 >[!CONTEXTUALHELP]
 >id="ajo_email_enable_experience_decisioning"
->title="Activer les décisions pour les expériences"
->abstract="Activer les décisions pour les expériences"
+>title="Activation de la prise de décision"
+>abstract="Activation de la prise de décision"

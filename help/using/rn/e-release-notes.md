@@ -8,9 +8,9 @@ topic: Content Management
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 42b9bfcc9079570a047462c23001d102abda58c9
+source-git-commit: ac8ccb52bd16a26c14dea148f989256e28170765
 workflow-type: tm+mt
-source-wordcount: '2000'
+source-wordcount: '1999'
 ht-degree: 40%
 
 ---
@@ -323,7 +323,7 @@ Des améliorations ont été apportées aux SMS pour améliorer vos fonctionnali
 
 **Créer des rapports**
 
-* **Le rapport de prise de décision d’expérience** est désormais disponible et offre des informations essentielles sur la manière dont vos visiteurs interagissent avec vos expériences.
+* **La création de rapports de prise de décision** est désormais disponible et offre des informations essentielles sur la manière dont vos visiteurs interagissent avec vos expériences.
 
 **Gouvernance des données et politiques de consentement** : date de disponibilité : 7 octobre 2024
 

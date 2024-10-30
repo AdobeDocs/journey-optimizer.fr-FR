@@ -1,39 +1,39 @@
 ---
-title: Commencer avec la prise de décision basée sur l’expérience
-description: En savoir plus sur Experience Decisioning
+title: Prise en main de la prise de décision
+description: En savoir plus sur la prise de décision
 feature: Experience Decisioning
 topic: Integrations
 role: User
 level: Intermediate
 badge: label="Disponibilité limitée"
 exl-id: 4c57dbf9-b2a4-42da-8aa3-5a1b3a475a32
-source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
+source-git-commit: ac8ccb52bd16a26c14dea148f989256e28170765
 workflow-type: tm+mt
-source-wordcount: '420'
-ht-degree: 100%
+source-wordcount: '408'
+ht-degree: 75%
 
 ---
 
-# Commencer avec la prise de décision basée sur l’expérience {#get-started-experience-decisioning}
+# Prise en main de la prise de décision {#get-started-experience-decisioning}
 
 >[!AVAILABILITY]
 >
->Ces décisions pour les expériences ne sont actuellement disponibles que pour un ensemble d’organisations (disponibilité limitée). Pour en bénéficier, contactez votre représentant ou représentante Adobe.
+>Actuellement, la prise de décision n’est disponible que pour un ensemble d’organisations (disponibilité limitée). Pour en bénéficier, contactez votre représentant ou représentante Adobe.
 >
 >Pour l’instant, la fonctionnalité n’est pas disponible pour les clientes et les clients qui ont acheté les offres complémentaires **Healthcare Shield** et **Privacy and Security Shield**.
 
-## Présentation de la prise de décision basée sur l’expérience {#about}
+## Présentation de la prise de décision {#about}
 
-Décisions pour les expériences simplifie la personnalisation en offrant un catalogue centralisé d’offres marketing connues sous le nom d’« éléments de décision » et un moteur de décision sophistiqué. Ce moteur tire parti des règles et des critères de classement pour sélectionner et présenter les éléments de décision les plus pertinents à chaque individu.
+La prise de décision simplifie la personnalisation en offrant un catalogue centralisé d’offres marketing appelées &quot;éléments de décision&quot; et un moteur de décision sophistiqué. Ce moteur tire parti des règles et des critères de classement pour sélectionner et présenter les éléments de décision les plus pertinents à chaque individu.
 
-Ces éléments de décision sont intégrés de manière transparente à un large éventail de surfaces entrantes grâce au [nouveau canal d’expérience basé sur le code](https://experienceleague.adobe.com/fr/docs/journey-optimizer/using/code-based-experience/get-started-code-based), désormais accessible dans les campagnes Journey Optimizer. Les politiques de décision de prise de décision basée sur l’expérience ne peuvent être utilisées que dans des campagnes d’expérience basées sur du code.
+Ces éléments de décision sont intégrés de manière transparente à un large éventail de surfaces entrantes grâce au [nouveau canal d’expérience basé sur le code](https://experienceleague.adobe.com/fr/docs/journey-optimizer/using/code-based-experience/get-started-code-based), désormais accessible dans les campagnes Journey Optimizer. Les stratégies de décision ne peuvent être utilisées que dans des campagnes d’expérience basées sur du code.
 
 
-## Étapes clés d’Experience Decisioning {#steps}
+## Étapes clés de prise de décision {#steps}
 
-Les principales étapes pour travailler avec Experience Decisioning sont les suivantes :
+Les principales étapes à suivre pour utiliser le service de prise de décision sont les suivantes :
 
-1. **Attribuez les autorisations appropriées**. La prise de décision basée sur l’expérience n’est disponible que pour les utilisateurs et les utilisatrices ayant accès à un **[!UICONTROL rôle]** lié à la prise de décision basée sur l’expérience, comme les personnes gestionnaires de décisions. Si vous ne pouvez pas accéder à la prise de décision basée sur l’expérience, vos autorisations doivent être étendues.
+1. **Attribuez les autorisations appropriées**. La prise de décision n’est disponible que pour les utilisateurs ayant accès à un **[!UICONTROL rôle]** lié à la prise de décision, tel que les gestionnaires de décision. Si vous ne pouvez pas accéder à la prise de décision, vos autorisations doivent être étendues.
 
    +++Découvrir comment attribuer le rôle de personne gestionnaire de décision
 

@@ -1,32 +1,32 @@
 ---
-title: Utiliser des données contextuelles dans la prise de décision basée sur l’expérience
-description: Découvrir comment utiliser les données contextuelles dans la prise de décision basée sur l’expérience
+title: Exploitation des données contextuelles dans le cadre de la prise de décision
+description: Découvrez comment exploiter les données contextuelles dans la prise de décision
 feature: Experience Decisioning
 topic: Integrations
 role: User
 level: Intermediate
 badge: label="Disponibilité limitée"
 exl-id: ddc4b681-020b-4433-b4b3-3791c41907c9
-source-git-commit: 2349145fcf698769d16326a19a48a413a3c1dd95
+source-git-commit: ac8ccb52bd16a26c14dea148f989256e28170765
 workflow-type: tm+mt
-source-wordcount: '292'
-ht-degree: 100%
+source-wordcount: '284'
+ht-degree: 59%
 
 ---
 
-# Utiliser des données contextuelles dans la prise de décision basée sur l’expérience {#context}
+# Exploitation des données contextuelles dans le cadre de la prise de décision {#context}
 
-Avec la prise de décision basée sur l’expérience, vous pouvez tirer profit de toutes les informations disponibles dans Adobe Experience Platform pour effectuer diverses actions, telles que la création de [règles de décision](rules.md) ou de [formules de classement](ranking.md). Par exemple, vous pouvez créer une règle de décision qui exige que la température actuelle soit de ≥ 80 degrés Fahrenheit au moment de la demande de décision.
+Avec la prise de décision, vous pouvez exploiter toutes les informations disponibles dans Adobe Experience Platform pour effectuer diverses actions, telles que la création de [règles de décision](rules.md) ou de [formules de classement](ranking.md). Par exemple, vous pouvez créer une règle de décision qui exige que la température actuelle soit de ≥ 80 degrés Fahrenheit au moment de la demande de décision.
 
 >[!NOTE]
 >
 >Les données contextuelles sont définies dans Adobe Experience Platform et envoyées au moment d’une demande de décision. Elles n’incluent pas de données historiques.
 
-Pour utiliser des données contextuelles, vous devez d’abord définir les données à rendre disponibles dans la prise de décision basée sur l’expérience. Une fois cette opération terminée, ces données s’intègrent de manière transparente à la prise de décision basée sur l’expérience sous l’onglet **[!UICONTROL Données contextuelles]** et sont disponibles lors de la création d’une règle de décision. Vous pouvez également utiliser les données lors de la modification d’une formule de classement.
+Pour utiliser des données contextuelles, vous devez d’abord définir les données que vous souhaitez rendre disponibles dans la prise de décision. Une fois cette opération terminée, ces données s’intègrent de manière transparente à la prise de décision dans l’onglet **[!UICONTROL Données contextuelles]** disponible lors de la création d’une règle de décision. Vous pouvez également utiliser les données lors de la modification d’une formule de classement.
 
 ![](assets/decision-rules-context.png)
 
-Les étapes d’intégration des données Adobe Experience Platform dans Experience Decisioning sont les suivantes :
+Les étapes pour alimenter la prise de décision avec les données Adobe Experience Platform sont les suivantes :
 
 1. Créez un **schéma d’événement d’expérience** dans Adobe Experience Platform et son **jeu de données** associé.[Découvrir comment créer des schémas](https://experienceleague.adobe.com/fr/docs/experience-platform/xdm/ui/resources/schemas){target="_blank"}
 
@@ -42,7 +42,7 @@ Les étapes d’intégration des données Adobe Experience Platform dans Exper
 
       ![](assets/decision-rules-context-datastream-service.png)
 
-Une fois le train de données enregistré, les informations du jeu de données sélectionné sont automatiquement récupérées et intégrées dans Experience Decisioning et deviennent généralement disponibles dans les 24 heures.
+Une fois le flux de données enregistré, les informations du jeu de données sélectionné sont automatiquement récupérées et intégrées dans la prise de décision, généralement disponibles dans les 24 heures environ.
 
 Pour plus d’informations sur l’utilisation d’Adobe Experience Platform, consultez les ressources suivantes :
 

@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Experienced
 exl-id: 25c2c448-9380-47b0-97c5-16d9afb794c5
-source-git-commit: 2a7707f5538a8d01a7b0d7e531d94d9ef922097a
+source-git-commit: ac8ccb52bd16a26c14dea148f989256e28170765
 workflow-type: tm+mt
-source-wordcount: '1804'
-ht-degree: 70%
+source-wordcount: '1802'
+ht-degree: 68%
 
 ---
 
@@ -115,13 +115,13 @@ Pour plus d’informations sur la configuration d’une campagne, consultez cett
 
    Vous pouvez également enregistrer une partie de votre contenu de code en tant que fragment. [Voici comment procéder](../content-management/fragments.md#save-as-expression-fragment)
 
-1. Dans les expériences basées sur du code, vous pouvez utiliser la fonctionnalité de décisions pour les expériences. Sélectionnez l’icône **[!UICONTROL Politique de décision]** dans la barre de gauche, puis cliquez sur **[!UICONTROL Ajouter une politique de décision]**. [En savoir plus](../experience-decisioning/create-decision.md)
+1. Avec les expériences basées sur du code, vous pouvez utiliser la fonction de prise de décision. Sélectionnez l’icône **[!UICONTROL Politique de décision]** dans la barre de gauche, puis cliquez sur **[!UICONTROL Ajouter une politique de décision]**. [En savoir plus](../experience-decisioning/create-decision.md)
 
    ![](assets/code-based-campaign-create-decision.png)
 
    >[!NOTE]
    >
-   >Ces décisions pour les expériences ne sont actuellement disponibles que pour un ensemble d’organisations (disponibilité limitée). Pour en bénéficier, contactez votre représentant ou représentante Adobe.
+   >Actuellement, la prise de décision n’est disponible que pour un ensemble d’organisations (disponibilité limitée). Pour en bénéficier, contactez votre représentant ou représentante Adobe.
 
 
 1. Cliquez sur **[!UICONTROL Enregistrer et fermer]** pour confirmer vos modifications.

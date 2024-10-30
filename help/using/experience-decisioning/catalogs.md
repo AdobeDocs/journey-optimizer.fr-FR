@@ -7,16 +7,16 @@ role: User
 level: Intermediate
 badge: label="Disponibilité limitée"
 exl-id: 2d118f5a-32ee-407c-9513-fe0ebe3ce8f0
-source-git-commit: 5ce388e5d86950e5cc6b173aab48225825f1c648
+source-git-commit: ac8ccb52bd16a26c14dea148f989256e28170765
 workflow-type: tm+mt
-source-wordcount: '307'
-ht-degree: 100%
+source-wordcount: '305'
+ht-degree: 90%
 
 ---
 
 # Catalogue d’éléments {#catalog}
 
-Dans la prise de décision basée sur l’expérience, les catalogues servent de conteneurs centraux pour organiser les éléments de décision. Chaque catalogue est lié à un schéma Adobe Experience Platform, englobant tous les attributs affectés à un élément de décision.
+Dans la prise de décision, les catalogues servent de conteneurs centraux pour organiser les éléments de décision. Chaque catalogue est lié à un schéma Adobe Experience Platform, englobant tous les attributs affectés à un élément de décision.
 
 Pour l’instant, tous les éléments de décision créés sont consolidés dans un seul catalogue « Offres », accessible via le menu **[!UICONTROL Catalogues]**.
 
@@ -41,7 +41,7 @@ Pour accéder au schéma du catalogue où les attributs des éléments de décis
 
    >[!CAUTION]
    >
-   >Pour l’instant, la prise de décision basée sur l’expérience prend exclusivement en charge les types de données suivants : chaîne, entier, booléen, date, DateTime et ressource de prise de décision. Aucun champ ne se trouvant dans ces types de données ne pourra pas être utilisé lors de la création d’un élément de décision ou d’un catalogue.
+   >Pour l’instant, la prise de décision prend exclusivement en charge les types de données suivants : chaîne, entier, booléen, date, dateTime et ressource de prise de décision. Aucun champ ne se trouvant dans ces types de données ne pourra pas être utilisé lors de la création d’un élément de décision ou d’un catalogue.
 
    La valeur saisie sur un attribut avec l’attribut de ressource de prise de décision est une URL publique. La plupart du temps, cela pointe vers une image.
 

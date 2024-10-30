@@ -1,19 +1,19 @@
 ---
-title: Cas d’utilisation de la prise de décision basée sur l’expérience
+title: Cas pratique de prise de décision
 description: Découvrez comment créer des décisions à l’aide d’expériences avec le canal basé sur le code.
 feature: Experience Decisioning
 topic: Integrations
 role: User
 level: Intermediate, Experienced
 badge: label="Disponibilité limitée"
-source-git-commit: 59ecb9a5376e697061ddac4cc68f09dee68570c0
+source-git-commit: ac8ccb52bd16a26c14dea148f989256e28170765
 workflow-type: tm+mt
-source-wordcount: '330'
-ht-degree: 100%
+source-wordcount: '327'
+ht-degree: 95%
 
 ---
 
-# Cas d’utilisation de la prise de décision basée sur l’expérience {#experience-decisioning-uc}
+# Cas pratique de prise de décision {#experience-decisioning-uc}
 
 Dans ce cas d’utilisation, vous définissez deux traitements de diffusion contenant chacun une politique de décision différente afin de mesurer celui qui fonctionne le mieux pour votre audience cible.
 
@@ -21,7 +21,7 @@ Dans ce cas d’utilisation, vous définissez deux traitements de diffusion cont
 
 Vous devez d’abord créer des éléments, les regrouper dans des collections, configurer des règles et des méthodes de classement. Ces éléments vous permettront de créer des stratégies de sélection.
 
-1. Accédez à **[!UICONTROL Prise de décision basée sur l’expérience]** > **[!UICONTROL Catalogues]** et créez plusieurs éléments d’offre. Définissez des contraintes à l’aide d’audiences ou de règles afin de limiter chaque élément à des profils spécifiques uniquement. [En savoir plus](items.md)
+1. Accédez à **[!UICONTROL Prise de décision]** > **[!UICONTROL Catalogues]** et créez plusieurs éléments d’offre. Définissez des contraintes à l’aide d’audiences ou de règles afin de limiter chaque élément à des profils spécifiques uniquement. [En savoir plus](items.md)
 
    <!--
    1. From the items list, click the **[!UICONTROL Edit schema]** button  and edit the custom attributes if needed. [Learn how to work with catalogs](catalogs.md)-->

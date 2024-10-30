@@ -5,9 +5,9 @@ user-guide-title: Guide de Journey Optimizer
 user-guide-description: Utilisez Journey Optimizer pour créer et proposer aux clients des expériences connectées, contextuelles et personnalisées
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 4b822eb45857556359ba9444e9bf7379608f1dff
+source-git-commit: ac8ccb52bd16a26c14dea148f989256e28170765
 workflow-type: tm+mt
-source-wordcount: '2157'
+source-wordcount: '2156'
 ht-degree: 94%
 
 ---
@@ -446,7 +446,7 @@ ht-degree: 94%
       + [Nouvelle exigence DMARC](using/configuration/dmarc-record-update.md)
    + [Alertes](using/reports/alerts.md)
    + [Causes d’exclusion](using/reports/exclusion-list.md)
-+ Prise de décision {#decisioning}
++ Fonctionnalités de décision {#decisioning}
    + Gestion des décisions {#offer-decisioning}
       + Prise en main de la gestion des décisions {#get-started-decision}
          + [À propos de la gestion des décisions](using/offers/get-started/starting-offer-decisioning.md)
@@ -587,8 +587,8 @@ ht-degree: 94%
             + [API Decisioning](using/offers/api-reference/offer-delivery-api/decisioning-api.md)
             + [API Edge Decisioning](using/offers/api-reference/offer-delivery-api/edge-decisioning-api.md)
             + [API Batch Decisioning](using/offers/api-reference/offer-delivery-api/batch-decisioning-api.md)
-   + Décisions pour les expériences (disponibilité limitée) {#experience-decisioning}
-      + [Commencer avec les décisions pour les expériences](using/experience-decisioning/gs-experience-decisioning.md)
+   + Prise de décision (LA) {#experience-decisioning}
+      + [Prise en main de la prise de décision](using/experience-decisioning/gs-experience-decisioning.md)
       + Référence de l’API{#api-reference}
          + Éléments de décision{#decision-items}
             + [Créer des éléments de décision](using/experience-decisioning/api-reference/decisions-items/create.md)
