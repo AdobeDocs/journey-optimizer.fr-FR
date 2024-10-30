@@ -9,9 +9,9 @@ role: User
 level: Beginner
 keywords: destination, page de destination, création, publication
 exl-id: 18f9bdff-f5c6-4601-919d-4f3124e484b5
-source-git-commit: 47482adb84e05fe41eb1c50479a8b50e00469ec4
+source-git-commit: 13f07c2c6af38661ad6d58b2f1505c8199c0cc0b
 workflow-type: tm+mt
-source-wordcount: '1715'
+source-wordcount: '1705'
 ht-degree: 98%
 
 ---
@@ -60,8 +60,6 @@ Cliquez sur les trois points en regard d’une page de destination pour sélecti
 >id="ajo_lp_create"
 >title="Définissez et configurez votre page de destination."
 >abstract="Pour créer une page de destination, vous devez sélectionner un préréglage, puis configurer la page principale et les sous-pages, et enfin tester la page avant de la publier."
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/landing-pages/lp-configuration/lp-presets.html?lang=fr#lp-create-preset" text="Créer des préréglages de page de destination"
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/landing-pages/create-lp.html?lang=fr#publish-landing-page" text="Publier la page de destination"
 
 >[!CONTEXTUALHELP]
 >id="ajo_lp_access_management_labels"
