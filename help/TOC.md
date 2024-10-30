@@ -5,10 +5,10 @@ user-guide-title: Guide de Journey Optimizer
 user-guide-description: Utilisez Journey Optimizer pour créer et proposer aux clients des expériences connectées, contextuelles et personnalisées
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: ac8ccb52bd16a26c14dea148f989256e28170765
+source-git-commit: c858d16ec520418148fb28ad2ecec0d3a6377ba9
 workflow-type: tm+mt
-source-wordcount: '2156'
-ht-degree: 94%
+source-wordcount: '2163'
+ht-degree: 93%
 
 ---
 
@@ -310,6 +310,8 @@ ht-degree: 94%
       + [Cas d’utilisation de l’assistant IA](using/content-management/generative-uc.md)
    + Utiliser du contenu multilingue{#content-multilingual}
       + [Commencer avec le contenu multilingue](using/content-management/multilingual-gs.md)
+      + [Créer un paramètre régional](using/content-management/multilingual-locale.md)
+      + [Création d’un fournisseur de langues](using/content-management/multilingual-provider.md)
       + [Créer du contenu multilingue avec traduction manuelle](using/content-management/multilingual-manual.md)
       + [Créer du contenu multilingue avec traduction automatisée](using/content-management/multilingual-automated.md)
    + Utiliser une expérience de contenu {#content-experiment}
