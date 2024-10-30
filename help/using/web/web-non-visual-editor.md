@@ -5,9 +5,9 @@ feature: Web Channel
 topic: Content Management
 role: User
 level: Experienced
-source-git-commit: 6f517ca209ae992f8daf3b285ccabebac100081b
+source-git-commit: 59fae238326186092a29d4a451655efabaabb4b2
 workflow-type: tm+mt
-source-wordcount: '378'
+source-wordcount: '401'
 ht-degree: 11%
 
 ---
@@ -66,8 +66,8 @@ Pour créer vos expériences web avec l’éditeur non visuel, procédez comme s
    Vous pouvez également passer au concepteur web si vous le souhaitez. Toutes vos modifications seront conservées.
 
 
-1. Vous pouvez activer le suivi des clics et définir les actions à suivre à partir de la deuxième icône du rail de gauche, comme illustré ci-dessous :
+1. Vous pouvez sélectionner n’importe quel élément de votre site web et suivre les clics sur cet élément. Pour activer le suivi des clics et définir les actions à suivre, cliquez sur la deuxième icône du rail de gauche, comme illustré ci-dessous :
 
    ![](assets/web-campaign-click.png)
 
-   Cliquez sur le bouton **Ajouter un composant** pour sélectionner une nouvelle action à suivre.
+   Utilisez le bouton **Ajouter un composant** pour sélectionner une nouvelle action à suivre. En savoir plus sur l’utilisation du suivi des clics dans [cette section](monitor-web-experiences.md#use-click-tracking).
