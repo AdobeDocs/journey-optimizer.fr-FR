@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: e28c038b-49ed-4685-bfe6-514116eb0711
-source-git-commit: 8fecd0d4812ba875dba1d47bc32ab08178a13f2c
+source-git-commit: 4b822eb45857556359ba9444e9bf7379608f1dff
 workflow-type: tm+mt
-source-wordcount: '1150'
-ht-degree: 97%
+source-wordcount: '1363'
+ht-degree: 83%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 97%
 
 [!DNL Journey Optimizer] vous permet de personnaliser l’expérience web que vous diffusez à vos clientes et clients par le biais de campagnes ou parcours entrants.
 
-## Ajouter une expérience web par le biais d’un parcours ou d’une campagne {#create-web-experience}
+## Définition d’une expérience web par le biais d’un parcours ou d’une campagne {#create-web-experience}
 
 >[!CONTEXTUALHELP]
 >id="ajo_web_surface"
@@ -59,7 +59,7 @@ Pour ajouter une activité **Web** pour un parcours, procédez comme suit :
 
    ![](assets/web-activity-configuration.png)
 
-1. Sélectionnez le bouton **[!UICONTROL Modifier le contenu]** et modifiez votre contenu selon vos besoins à l’aide du concepteur web. [En savoir plus](edit-web-content.md)
+1. Sélectionnez le bouton **[!UICONTROL Modifier le contenu]** et modifiez votre contenu suivant vos besoins. [En savoir plus](#edit-web-content)
 
 1. Si nécessaire, complétez votre flux de parcours en faisant glisser et en déposant des actions ou des événements supplémentaires. [En savoir plus](../building-journeys/about-journey-activities.md).
 
@@ -87,7 +87,7 @@ Pour commencer à créer votre expérience web par le biais d’une campagne, su
 
    ![](assets/web-campaign-steps.png)
 
-1. Cliquez sur le bouton **[!UICONTROL Modifier le contenu]** pour modifier votre contenu selon vos besoins à l’aide du concepteur web. [En savoir plus](edit-web-content.md)
+1. Cliquez sur le bouton **[!UICONTROL Modifier le contenu]** pour modifier votre contenu suivant vos besoins. [En savoir plus](#edit-web-content)
 
    <!--![](assets/web-campaign-edit-content.png)-->
 
@@ -97,6 +97,41 @@ Pour plus d’informations sur la configuration d’une campagne, consultez cett
 
 >[!ENDTABS]
 
+## Modifier un contenu web {#edit-web-content}
+
+>[!CONTEXTUALHELP]
+>id="ajo_web_url_to_edit_surface"
+>title="Confirmer l’URL à modifier"
+>abstract="Confirmez l’URL de la page web spécifique à utiliser pour modifier le contenu qui sera appliquée sur la configuration web définie ci-dessus. La page web doit être implémentée à l’aide du SDK Web Adobe Experience Platform."
+>additional-url="https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html?lang=fr" text="En savoir plus"
+
+>[!CONTEXTUALHELP]
+>id="ajo_web_url_to_edit_rule"
+>title="Saisissez l’URL à modifier."
+>abstract="Saisissez l’URL d’une page web spécifique à utiliser pour la modification du contenu qui sera appliqué à toutes les pages correspondant à la règle. La page web doit être mise en œuvre à l’aide du SDK web Adobe Experience Platform."
+>additional-url="https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html?lang=fr" text="En savoir plus"
+
+Une fois que vous avez [ajouté une action web](#create-web-experience) à un parcours ou à une campagne, vous pouvez modifier le contenu de votre site à l’aide de :
+
+* le [concepteur web](web-visual-editor.md), pour créer votre expérience à l’aide d’un éditeur visuel ;
+* ou l’ [éditeur non visuel](web-non-visual-editor.md).
+
+Pour commencer à créer votre expérience web, procédez comme suit :
+
+1. Dans l&#39;onglet **[!UICONTROL Action]** de la campagne ou l&#39;activité **[!UICONTROL Web]** dans le parcours, sélectionnez **[!UICONTROL Modifier le contenu]**.
+
+   ![](assets/web-campaign-edit-content.png)
+
+1. L’écran d’édition s’affiche. Vous pouvez effectuer l’une des actions suivantes :
+
+   * Cliquez sur le bouton **[!UICONTROL Modifier la page web]** pour commencer à créer votre contenu à l’aide du concepteur web pour une expérience visuelle. [En savoir plus](web-visual-editor.md)
+
+     ![](assets/web-campaign-edit-web-page.png)
+
+   * Désélectionnez l’option **[!UICONTROL Éditeur visuel]** pour utiliser le mode d’édition non visuel, puis cliquez sur **[!UICONTROL Ajouter une modification]** pour commencer à modifier votre contenu web sans charger l’éditeur visuel. [En savoir plus](web-non-visual-editor.md)
+
+     ![](assets/web-campaign-add-modification.png)
+
 ## Tester l’expérience web {#test-web-experience}
 
 >[!CONTEXTUALHELP]
@@ -104,7 +139,7 @@ Pour plus d’informations sur la configuration d’une campagne, consultez cett
 >title="Prévisualiser votre expérience web."
 >abstract="Effectuez une simulation de ce à quoi ressemblera votre expérience web."
 
-Une fois que vous avez [créé votre expérience web](edit-web-content.md) grâce au concepteur web, vous pouvez afficher un aperçu de vos pages web modifiées. Si vous avez inséré du contenu personnalisé, vous pouvez vérifier l’affichage de ce contenu à l’aide des données de profil de test.
+Une fois que vous avez [créé votre expérience web](web-visual-editor.md) grâce au concepteur web, vous pouvez afficher un aperçu de vos pages web modifiées. Si vous avez inséré du contenu personnalisé, vous pouvez vérifier l’affichage de ce contenu à l’aide des données de profil de test.
 
 Pour ce faire, cliquez sur **[!UICONTROL Simuler du contenu]** depuis l’écran de modification de contenu de la campagne ou du parcours, puis ajoutez un profil de test pour vérifier votre page web à l’aide des données du profil de test.
 
@@ -124,7 +159,7 @@ Vous trouverez des informations détaillées sur la sélection des profils de te
 >
 > Si votre campagne fait l&#39;objet d&#39;une politique de validation, vous devez demander sa validation afin de pouvoir activer vos expériences web. [En savoir plus](../test-approve/gs-approval.md)
 
-Une fois que vous avez défini votre expérience web et modifié votre contenu comme vous le souhaitez à l’aide du [concepteur web](edit-web-content.md#work-with-web-designer), vous pouvez activer votre parcours ou votre campagne pour rendre vos modifications visibles à votre audience.
+Une fois que vous avez défini votre expérience web et que vous avez modifié votre contenu selon vos besoins, vous pouvez activer votre parcours ou campagne pour rendre vos modifications visibles à votre audience.
 
 Vous pouvez également prévisualiser le contenu de votre expérience web avant de la mettre en ligne. [En savoir plus](#test-web-experience)
 
@@ -156,7 +191,7 @@ Le statut de votre parcours web est alors **[!UICONTROL Actif]** et il est déso
 
 ### Activer une campagne web {#activate-web-campaign}
 
-Une fois que vous avez défini vos paramètres de campagne web et que vous avez modifié votre contenu selon vos besoins à l’aide du [concepteur web](edit-web-content.md#work-with-web-designer), vous pouvez examiner et activer votre campagne web. Suivez les étapes ci-dessous.
+Une fois que vous avez défini les paramètres de votre campagne web et que vous avez modifié votre contenu selon vos besoins, vous pouvez passer en revue et activer votre campagne web. Suivez les étapes ci-dessous.
 
 1. Dans votre campagne web, sélectionnez **[!UICONTROL Examiner pour activer]**.
 
@@ -177,6 +212,8 @@ Votre campagne web passe au statut **[!UICONTROL Actif]** et est maintenant visi
 >Après avoir cliqué sur **[!UICONTROL Activer]**, les modifications des campagnes web peuvent prendre jusqu’à 15 minutes pour être disponibles en direct sur votre site web.
 >
 >Si vous avez défini un planning pour votre campagne web, celle-ci conserve le statut **[!UICONTROL Planifié]** jusqu’à ce que la date et l’heure de début soient atteintes.
+
+Une fois votre expérience mise en ligne, vous pouvez surveiller vos parcours web et vos campagnes. [En savoir plus](monitor-web-experiences.md)
 
 ## Arrêter un parcours ou une campagne web {#stop-web-experience}
 

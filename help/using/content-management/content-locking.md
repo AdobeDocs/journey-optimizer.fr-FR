@@ -6,21 +6,45 @@ description: Découvrez comment verrouiller du contenu dans vos modèles d’ema
 topic: Content Management
 role: User
 level: Beginner, Intermediate
-source-git-commit: 2a666364144cf320a9ed20741da7d6f5d22b0d96
+source-git-commit: 38aaa3005e72a8300cef0e28a6fecd9f5d06c1f1
 workflow-type: tm+mt
-source-wordcount: '940'
-ht-degree: 3%
+source-wordcount: '1245'
+ht-degree: 7%
 
 ---
 
-
 # Verrouillage de contenu dans les modèles de courrier électronique {#lock-content-email-templates}
+
+>[!CONTEXTUALHELP]
+>id="ajo_locking_governance"
+>title="Gouvernance"
+>abstract="Activez/désactivez la gouvernance pour verrouiller le contenu dans le modèle, soit en verrouillant l’intégralité du modèle, soit des structures et composants spécifiques. Cela vous permet d’éviter les modifications ou suppressions involontaires, de mieux contrôler la personnalisation des modèles et d’améliorer l’efficacité et la fiabilité de vos campagnes par e-mail."
+
+>[!CONTEXTUALHELP]
+>id="ajo_locking_mode"
+>title="Mode"
+>abstract="Sélectionnez le mode de verrouillage souhaité pour le modèle. Le **verrouillage du contenu** vous permet de verrouiller des sections spécifiques du contenu dans le modèle. **Lecture seule** permet de verrouiller le contenu complet du modèle, en empêchant toute modification."
+
+>[!CONTEXTUALHELP]
+>id="ajo_locking_content_addition"
+>title="Activer l’ajout de contenu"
+>abstract="Activez cette option pour définir plus précisément comment les utilisateurs peuvent interagir avec le modèle. Sélectionnez **Autoriser la structure et l’ajout de contenu** pour permettre aux utilisateurs d’ajouter des structures entre les structures existantes et d’ajouter des composants de contenu ou des fragments dans des structures modifiables. **Autoriser l’ajout de contenu uniquement** permet aux utilisateurs d’ajouter des composants de contenu ou des fragments dans des structures modifiables sans pouvoir ajouter ou dupliquer des structures."
+
+>[!CONTEXTUALHELP]
+>id="ajo_email_locking_activated"
+>title="Gouvernance activée"
+>abstract="Le verrouillage du contenu est activé et peut vous empêcher d’effectuer des modifications."
+
+>[!CONTEXTUALHELP]
+>id="ajo_email_locking_read_only"
+>title="Lecture seule"
+>abstract="Ce contenu est en lecture seule et ne peut pas être modifié."
 
 Journey Optimizer vous permet de verrouiller le contenu dans les modèles d’email, soit en verrouillant l’intégralité du modèle, soit des structures et composants spécifiques. Cela vous permet d’éviter les modifications ou suppressions involontaires, de mieux contrôler la personnalisation des modèles et d’améliorer l’efficacité et la fiabilité de vos campagnes par e-mail.
 
 >[!AVAILABILITY]
 >
->Les utilisateurs autorisés à créer des modèles de contenu peuvent activer le verrouillage.
+>Les utilisateurs autorisés à créer des modèles de contenu peuvent activer le verrouillage du contenu.
 
 Le verrouillage du contenu peut être appliqué au niveau **structure** ou au niveau **composant**. Voici les principales qui s’appliquent au niveau de la structure et du composant lors du verrouillage du contenu dans votre modèle.
 
@@ -72,6 +96,11 @@ Vous pouvez ajuster les paramètres **[!UICONTROL Gouvernance]** à tout moment 
 
 ### Verrouillage des structures {#lock-structures}
 
+>[!CONTEXTUALHELP]
+>id="ajo_locking_structure"
+>title="Verrouillage du contenu dans la structure"
+>abstract="Pour verrouiller la structure dans le modèle, sélectionnez **Verrouillé** dans la liste déroulante **Type de verrouillage** . Par défaut, les utilisateurs ne peuvent pas supprimer les structures verrouillées. Vous pouvez contourner cette restriction en activant l’option **[!UICONTROL Autoriser la suppression]**."
+
 Pour verrouiller une structure dans votre modèle :
 
 1. Sélectionnez la structure à verrouiller.
@@ -95,6 +124,11 @@ Après le verrouillage d&#39;une structure, aucun autre composant de contenu ou 
    ![](assets/template-lock-editable-component.png)
 
 ### Verrouillage de composants {#lock-components}
+
+>[!CONTEXTUALHELP]
+>id="ajo_locking_component"
+>title="Utiliser un verrouillage spécifique dans le composant"
+>abstract="Pour verrouiller le composant dans le modèle, activez l’option **Utiliser le verrouillage spécifique** . Dans la liste déroulante **[!UICONTROL Type de verrouillage]**, sélectionnez l’option de verrouillage de votre choix : **Verrouillage de contenu modifiable uniquement** permet de verrouiller les styles du composant, mais permet l’édition de contenu, tandis que **Verrouillé** verrouille entièrement le contenu et les styles du composant."
 
 Pour verrouiller un composant spécifique dans une structure :
 
@@ -123,9 +157,14 @@ Dans l’exemple ci-dessous, la gouvernance est activée pour le corps du modèl
 
 ## Utiliser des modèles avec du contenu verrouillé {#use}
 
+>[!CONTEXTUALHELP]
+>id="ajo_email_editable_areas"
+>title="Mettre en surbrillance les zones modifiables"
+>abstract="Selon le type de verrouillage appliqué au modèle, vous pouvez effectuer différentes actions sur les structures et composants du modèle. Pour identifier rapidement toutes les zones modifiables dans le modèle, activez l’option **[!UICONTROL Mettre en surbrillance les zones modifiables]** ."
+
 Lors de l’utilisation d’un modèle avec du contenu verrouillé, le message **[!UICONTROL Gouvernance activée]** s’affiche dans le volet de droite.
 
-Selon le type de verrouillage appliqué au modèle, vous pouvez effectuer différentes actions sur les structures et composants du modèle. Pour identifier rapidement toutes les zones modifiables dans le modèle, activez les options **[!UICONTROL Mettre en surbrillance les zones modifiables]** .
+Selon le type de verrouillage appliqué au modèle, vous pouvez effectuer différentes actions sur les structures et composants du modèle. Pour identifier rapidement toutes les zones modifiables dans le modèle, activez l’option **[!UICONTROL Mettre en surbrillance les zones modifiables]** .
 
 Par exemple, dans le modèle ci-dessous, toutes les zones sont modifiables, à l’exception de l’image du haut qui a été verrouillée, ce qui signifie que vous ne pouvez pas la modifier ni la supprimer.
 
