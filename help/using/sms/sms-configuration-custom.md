@@ -7,10 +7,10 @@ feature: SMS, Channel Configuration
 role: Admin
 level: Intermediate
 exl-id: fd713864-96b9-4687-91bd-84e3533273ff
-source-git-commit: 7bfbb88c2817d18b7897a7fe1657ebf11be6eb58
+source-git-commit: c9a35c2950c061318f673cdd53d0a5fd08063c27
 workflow-type: tm+mt
-source-wordcount: '250'
-ht-degree: 100%
+source-wordcount: '283'
+ht-degree: 88%
 
 ---
 
@@ -51,6 +51,10 @@ Pour envoyer des messages dans Journey Optimizer à l’aide d’un fournisseur
      Assurez-vous que le payload inclut `{{toNumber}}`, `{{fromNumber}}`, `{{message}}`.
 
 1. Cliquez sur **[!UICONTROL Envoyer]** lorsque vous avez terminé la configuration de vos informations d’identification API.
+
+1. Dans le menu **[!UICONTROL Informations d’identification de l’API]**, cliquez sur l’icône de la corbeille pour supprimer vos informations d’identification d’API.
+
+1. Pour modifier les informations d’identification existantes, recherchez les informations d’identification de l’API souhaitées et cliquez sur l’option **[!UICONTROL Modifier]** pour apporter les modifications nécessaires.
 
 Après avoir créé et configuré vos informations d’identification API, vous devez maintenant créer une surface de canal pour les messages SMS. [En savoir plus](sms-configuration-surface.md)
 

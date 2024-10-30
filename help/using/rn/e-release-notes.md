@@ -8,10 +8,10 @@ topic: Content Management
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 92ecd1261e6c734743c4ab5173969da6e54cd15a
+source-git-commit: 42b9bfcc9079570a047462c23001d102abda58c9
 workflow-type: tm+mt
-source-wordcount: '1990'
-ht-degree: 41%
+source-wordcount: '2000'
+ht-degree: 40%
 
 ---
 
@@ -289,6 +289,10 @@ Ce mode de modification non visuel est utile si vous ne pouvez pas installer d�
 Cette version est fournie avec les améliorations répertoriées ci-dessous.
 
 **Canal SMS**
+
+>[!AVAILABILITY]
+>
+>Les améliorations suivantes ne sont disponibles que pour les fournisseurs Sinch et Infobip.
 
 Des améliorations ont été apportées aux SMS pour améliorer vos fonctionnalités de messagerie :
 

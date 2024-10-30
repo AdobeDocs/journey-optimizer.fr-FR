@@ -7,10 +7,10 @@ feature: SMS, Channel Configuration
 role: Admin
 level: Intermediate
 exl-id: 85412a85-edf0-4069-8bc7-b80371375f1f
-source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
+source-git-commit: c9a35c2950c061318f673cdd53d0a5fd08063c27
 workflow-type: tm+mt
-source-wordcount: '594'
-ht-degree: 100%
+source-wordcount: '730'
+ht-degree: 81%
 
 ---
 
@@ -54,7 +54,15 @@ Pour configurer votre fournisseur Sinch pour envoyer des SMS et des MMS avec Jou
 
    * **[!UICONTROL Numéro entrant]** : ajoutez votre numéro entrant unique ou votre code court. Cela permet d’utiliser les mêmes informations d’identification d’API dans différents sandbox, chacun ayant son propre numéro entrant ou code court.
 
-1. Cliquez sur **[!UICONTROL Envoyer]** lorsque vous avez terminé la configuration de vos informations d’identification d’API.
+   * **[!UICONTROL Mots-clés entrants personnalisés]** : définissez des mots-clés uniques pour des actions spécifiques, par exemple DISCOUNT, OFFERS, ENROLL. Ces mots-clés sont capturés et stockés en tant qu’attributs dans le profil, ce qui vous permet de déclencher une qualification de segment en continu dans le parcours et de fournir une réponse ou une action personnalisée.
+
+   * **[!UICONTROL Message de réponse entrante par défaut]** : saisissez la réponse par défaut envoyée lorsqu’un utilisateur final envoie un SMS entrant qui ne correspond à aucun des mots-clés définis.
+
+1. Cliquez sur **[!UICONTROL Envoyer]** lorsque vous avez terminé la configuration de vos informations d’identification API.
+
+1. Dans le menu **[!UICONTROL Informations d’identification de l’API]**, cliquez sur l’icône de la corbeille pour supprimer vos informations d’identification d’API.
+
+1. Pour modifier les informations d’identification existantes, recherchez les informations d’identification de l’API souhaitées et cliquez sur l’option **[!UICONTROL Modifier]** pour apporter les modifications nécessaires.
 
 Après avoir créé et configuré vos informations d’identification d’API, vous devez maintenant créer une configuration des canaux pour les messages SMS. [En savoir plus](sms-configuration-surface.md)
 
@@ -82,5 +90,9 @@ Pour configurer Sinch MMS avec Journey Optimizer, procédez comme suit :
    * **[!UICONTROL Identifiant de plan de service]** et **[!UICONTROL Jeton d’API SMS]** : votre **[!UICONTROL Identifiant de plan de service]** et votre **[!UICONTROL Jeton d’API SMS]** se trouvent dans l’onglet SMS de la page des API.
 
 1. Cliquez sur **[!UICONTROL Envoyer]** lorsque vous avez terminé la configuration de vos informations d’identification API.
+
+1. Dans le menu **[!UICONTROL Informations d’identification de l’API]**, cliquez sur l’icône de la corbeille pour supprimer vos informations d’identification d’API.
+
+1. Pour modifier les informations d’identification existantes, recherchez les informations d’identification de l’API souhaitées et cliquez sur l’option **[!UICONTROL Modifier]** pour apporter les modifications nécessaires.
 
 Après avoir créé et configuré vos informations d’identification d’API, vous devez maintenant créer une configuration des canaux pour les messages MMS. [En savoir plus](sms-configuration-surface.md)

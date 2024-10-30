@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
-source-git-commit: 72bda999c9e866398375422d8419516e5fea97b5
+source-git-commit: e3ebbb021b7336fa859deb19d4e5786a4f4fdf30
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1446'
+ht-degree: 100%
 
 ---
 
@@ -232,45 +232,7 @@ Pour modifier la langue :
 
 <!--CONTENT LOCKING-->
 
->[!CONTEXTUALHELP]
->id="ajo_locking_governance"
->title="Gouvernance"
->abstract="Gouvernance"
 
->[!CONTEXTUALHELP]
->id="ajo_locking_mode"
->title="Mode"
->abstract="Mode"
-
->[!CONTEXTUALHELP]
->id="ajo_locking_content_addition"
->title="Activer l’ajout de contenu"
->abstract="Activer l’ajout de contenu"
-
->[!CONTEXTUALHELP]
->id="ajo_locking_structure"
->title="Verrouillage du contenu dans la structure"
->abstract="Verrouillage du contenu dans la structure"
-
->[!CONTEXTUALHELP]
->id="ajo_locking_component"
->title="Utiliser un verrouillage spécifique dans le composant"
->abstract="Utiliser un verrouillage spécifique dans le composant"
-
->[!CONTEXTUALHELP]
->id="ajo_email_editable_areas"
->title="Mettre en surbrillance les zones modifiables"
->abstract="Mettre en surbrillance les zones modifiables"
-
->[!CONTEXTUALHELP]
->id="ajo_email_locking_activated"
->title="Gouvernance activée"
->abstract="Le verrouillage du contenu est activé et peut vous empêcher d’effectuer des modifications."
-
->[!CONTEXTUALHELP]
->id="ajo_email_locking_read_only"
->title="Lecture seule"
->abstract="Ce contenu est en lecture seule et ne peut pas être modifié."
 
 <!--APPROVAL POLICIES-->
 

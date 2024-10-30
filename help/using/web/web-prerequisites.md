@@ -6,7 +6,7 @@ topic: Content Management
 role: Admin
 level: Experienced
 exl-id: 9509fd67-6d12-4440-aad8-59690936be97
-source-git-commit: 5f261b4c097023557f95831635f2be141dfc5bc8
+source-git-commit: 4b822eb45857556359ba9444e9bf7379608f1dff
 workflow-type: tm+mt
 source-wordcount: '1183'
 ht-degree: 87%
@@ -80,7 +80,7 @@ Pour télécharger et installer l’extension de navigateur Visual Editing Hel
 
    ![](assets/web-visual-editing-extension-edge.png)
 
-L’extension Visual Editing Helper d’Adobe Experience Cloud est désormais automatiquement activée lorsqu’un site web est ouvert dans le [concepteur web](edit-web-content.md#work-with-web-designer) [!DNL Journey Optimizer] pour optimiser la création.
+L’extension Visual Editing Helper d’Adobe Experience Cloud est désormais automatiquement activée lorsqu’un site web est ouvert dans le [concepteur web](web-visual-editor.md) [!DNL Journey Optimizer] pour optimiser la création.
 
 L’extension ne dispose d’aucun paramètre conditionnel et gère automatiquement tous les paramètres, y compris les paramètres des cookies SameSite.
 
