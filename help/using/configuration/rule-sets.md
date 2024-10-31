@@ -10,10 +10,10 @@ level: Intermediate
 keywords: message, fréquence, règles, pression
 badge: label="Disponibilité limitée"
 exl-id: 07f5f0b4-417e-408e-8d9e-86615c8a3fbf
-source-git-commit: a7fdde15f7c491fd9a3b1fef898f018ba9954cde
+source-git-commit: 9c49786385db782bd2fa70b19003261284e980a5
 workflow-type: tm+mt
-source-wordcount: '1989'
-ht-degree: 72%
+source-wordcount: '1924'
+ht-degree: 71%
 
 ---
 
@@ -44,13 +44,9 @@ Lors de l’accès aux jeux de règles pour la première fois à partir du menu 
 
 Ce jeu de règles contient des règles globales que vous pouvez appliquer pour contrôler la fréquence à laquelle les utilisateurs et utilisatrices reçoivent des messages sur un ou plusieurs canaux, comme le font les règles commerciales actuelles. Toutes les règles définies dans ce jeu de règles s’appliquent à tous les canaux sélectionnés, que les communications soient envoyées d’un parcours ou d’une campagne. [Découvrir comment utiliser les règles commerciales](frequency-rules.md)
 
-Outre ce jeu de règles « Jeu de règles par défaut global », vous pouvez créer des jeux de **règles personnalisées** que vous pouvez appliquer à n’importe quelle campagne pour limiter le nombre de messages envoyés dans cette campagne. [Découvrir comment créer des jeux de règles personnalisées](#create)
+Outre ce jeu de règles &quot;Jeu de règles par défaut global&quot;, vous pouvez créer des **jeux de règles personnalisés** que vous pouvez appliquer à n’importe quelle campagne pour limiter le nombre de messages envoyés dans cette campagne. [Découvrir comment créer des jeux de règles personnalisées](#create)
 
 ![](assets/rule-sets-default.png)
-
->[!IMPORTANT]
->
->Pour l’instant, les jeux de règles personnalisées peuvent être appliqués uniquement aux **campagnes**. Seules les règles définies dans le jeu de règles « Jeu de règles par défaut global » s’appliquent aux communications de parcours et de campagnes.
 
 ### Règles de limitation des canaux et parcours {#domain}
 
@@ -75,10 +71,7 @@ Pour créer un jeu de règles, procédez comme suit.
 
 1. Définissez un nom unique pour le jeu de règles et ajoutez une description.
 
-1. Sélectionnez le domaine du jeu de règles. Le domaine vous permet de spécifier si le jeu de règles contiendra des règles de limitation spécifiques aux canaux de communication ou aux parcours :
-
-   * **Canal** : appliquez des règles de limitation pour les canaux de communication. Par exemple, n’envoyez pas plus d’un email ou d’un SMS par jour.
-   * **Parcours** : appliquez des règles de limitation d’entrée et de simultanéité à un parcours. Par exemple, ne saisissez pas de profils simultanément dans plusieurs parcours.
+1. Sélectionnez le domaine du jeu de règles. Le domaine vous permet de spécifier si le jeu de règles contiendra des règles de limitation spécifiques aux canaux de communication ou aux parcours. [En savoir plus sur les règles de limitation de canal et de parcours](#domain)
 
    ![](assets/rule-sets-create.png)
 
