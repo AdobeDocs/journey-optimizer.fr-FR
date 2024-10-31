@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Notes de mise à jour d’Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 35b0304df8bdb885ca494b561cb6a0eaa5e96545
+source-git-commit: 96ae7baf50f262aac86f86ecb04cc98b57968c28
 workflow-type: tm+mt
-source-wordcount: '1904'
-ht-degree: 43%
+source-wordcount: '1910'
+ht-degree: 42%
 
 ---
 
@@ -275,15 +275,16 @@ Cette version est fournie avec les améliorations répertoriées ci-dessous.
 
 **Canal SMS**
 
-Des améliorations ont été apportées aux SMS pour améliorer vos fonctionnalités de messagerie :
-
-* Vous pouvez définir et gérer des mots-clés uniques pour vos campagnes et parcours SMS, ce qui permet une communication plus personnalisée et efficace.
-
-* Vous pouvez créer et diffuser un SMS par défaut lorsqu&#39;un mot-clé n&#39;est pas reconnu.
-
 * Vous pouvez désormais modifier ou supprimer une configuration de canal de l’API SMS.
 
-Pour en savoir plus sur ces améliorations, consultez la documentation de configuration des SMS pour [Infobip](../sms/sms-configuration-infobip.md) et [Sinch](../sms/sms-configuration-sinch.md).
+* Les améliorations suivantes ont été ajoutées pour améliorer vos fonctionnalités de messagerie SMS avec Infobip et Sinch :
+
+   * Vous pouvez définir et gérer des mots-clés uniques pour vos campagnes et parcours SMS, ce qui permet une communication plus personnalisée et efficace.
+
+   * Vous pouvez créer et diffuser un SMS par défaut lorsqu&#39;un mot-clé n&#39;est pas reconnu.
+
+  Pour en savoir plus sur ces améliorations, consultez la documentation de configuration des SMS pour [Infobip](../sms/sms-configuration-infobip.md) et [Sinch](../sms/sms-configuration-sinch.md).
+
 
 <!--**Journeys**-->
 
@@ -307,7 +308,7 @@ Pour en savoir plus sur ces améliorations, consultez la documentation de config
 
   Cette modification sera déployée sur les environnements de test client existants au cours d’une phase ultérieure. [En savoir plus](../data/datasets-ttl.md#ttl)
 
-* **Paramètres dans les actions personnalisées** (Date de disponibilité : 3 octobre 2024) - Les paramètres NULL et facultatifs sont désormais pris en charge dans les actions personnalisées. [En savoir plus](../action/about-custom-action-configuration.md#define-the-message-parameters).
+* **Paramètres dans les actions personnalisées** - Date de disponibilité : 3 octobre 2024 - Les paramètres NULL et facultatifs sont désormais pris en charge dans les actions personnalisées. [En savoir plus](../action/about-custom-action-configuration.md#define-the-message-parameters).
 
 **Créer des rapports**
 
