@@ -6,9 +6,9 @@ description: Découvrez comment verrouiller du contenu dans vos modèles d’ema
 topic: Content Management
 role: User
 level: Beginner, Intermediate
-source-git-commit: 38aaa3005e72a8300cef0e28a6fecd9f5d06c1f1
+source-git-commit: 9bb2b287f6f470f817a7f7dd89346bbe2aa7d090
 workflow-type: tm+mt
-source-wordcount: '1245'
+source-wordcount: '1269'
 ht-degree: 7%
 
 ---
@@ -42,9 +42,9 @@ ht-degree: 7%
 
 Journey Optimizer vous permet de verrouiller le contenu dans les modèles d’email, soit en verrouillant l’intégralité du modèle, soit des structures et composants spécifiques. Cela vous permet d’éviter les modifications ou suppressions involontaires, de mieux contrôler la personnalisation des modèles et d’améliorer l’efficacité et la fiabilité de vos campagnes par e-mail.
 
->[!AVAILABILITY]
+>[!IMPORTANT]
 >
->Les utilisateurs autorisés à créer des modèles de contenu peuvent activer le verrouillage du contenu.
+>Le verrouillage du contenu est une fonctionnalité au niveau de l’éditeur pour les auteurs et ne garantit pas que le contenu ne sera pas modifié lorsqu’il est importé ou créé via l’API.
 
 Le verrouillage du contenu peut être appliqué au niveau **structure** ou au niveau **composant**. Voici les principales qui s’appliquent au niveau de la structure et du composant lors du verrouillage du contenu dans votre modèle.
 
@@ -59,6 +59,10 @@ Le verrouillage du contenu peut être appliqué au niveau **structure** ou au ni
 
    * Les composants de contenu individuels peuvent être verrouillés dans cette structure.
    * Par défaut, vous ne pouvez pas supprimer un composant s’il est verrouillé ou si l’option &quot;Verrouillage de contenu modifiable uniquement&quot; est sélectionnée. Vous pouvez contourner cette restriction en activant l’option &quot;Autoriser la suppression&quot;.
+
+>[!AVAILABILITY]
+>
+>Les utilisateurs autorisés à créer des modèles de contenu peuvent activer le verrouillage du contenu.
 
 ## Verrouillage d’un modèle de courrier électronique {#define}
 
