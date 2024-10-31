@@ -6,9 +6,9 @@ feature: Release Notes
 topic: Content Management
 description: Notes de mise à jour d’Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: a7fdde15f7c491fd9a3b1fef898f018ba9954cde
+source-git-commit: 94ac5fda2d10beb1fd016f41aa298a82694043c3
 workflow-type: tm+mt
-source-wordcount: '1812'
+source-wordcount: '1904'
 ht-degree: 43%
 
 ---
@@ -92,7 +92,7 @@ Les nouvelles fonctionnalités présentées dans cette version sont les suivante
 <tbody>
 <tr>
 <td>
-<p>Dans Journey Optimizer, la gestion du volume et du calendrier des campagnes et des parcours est essentielle pour éviter de submerger les clientes et clients avec un trop grand nombre d’interactions. Journey Optimizer propose désormais plusieurs outils de gestion des conflits et de hiérarchisation des priorités. <p>Pour plus d’informations, consultez la <a href="../email/surface-personalization.md">documentation détaillée</a>.</p></p><p><ul><li><b>Limitation de la fréquence des Parcours</b> : vous pouvez désormais créer des ensembles de règles à appliquer à vos parcours, ce qui vous permet de limiter le nombre de parcours d’un profil par jour, semaine ou mois, ainsi que de contrôler le nombre de parcours simultanés exécutés simultanément.</li>
+<p>Dans Journey Optimizer, la gestion du volume et du calendrier des campagnes et des parcours est essentielle pour éviter de submerger les clientes et clients avec un trop grand nombre d’interactions. Journey Optimizer propose désormais plusieurs outils de gestion des conflits et de hiérarchisation des priorités. <p>Pour plus d’informations, consultez la <a href="../conflict-prioritization/gs-conflict-prioritization.md">documentation détaillée</a>.</p></p><p><ul><li><b>Limitation de la fréquence des Parcours</b> : vous pouvez désormais créer des ensembles de règles à appliquer à vos parcours, ce qui vous permet de limiter le nombre de parcours d’un profil par jour, semaine ou mois, ainsi que de contrôler le nombre de parcours simultanés exécutés simultanément.</li>
 <li><b>Score de priorité</b> : vous pouvez désormais attribuer un score de priorité à une campagne ou à un parcours, allant de 0 à 100. Les nombres plus élevés signalent une priorité plus élevée. Lorsque deux campagnes ou actions de parcours utilisent la même configuration de canal, Journey Optimizer sélectionne celle avec le score de priorité le plus élevé. Si les campagnes ont le même score, la campagne qui a été la moins récemment modifiée sera choisie.</li>
 <li><b>Afficher les conflits potentiels</b> : un nouveau bouton "Afficher les conflits potentiels" dans les parcours et les campagnes vous permet désormais d’identifier le chevauchement avec d’autres parcours ou campagnes tels que la date de début, l’audience ciblée ou la configuration de canal sélectionnée.</li>
 <li><b>Arbitrage du Parcours</b> : cette nouvelle fonctionnalité vous permet de prioriser les parcours les plus importants pour vos clients. Vous pouvez créer une règle pour supprimer une entrée dans un parcours de priorité inférieure lorsqu’un client est admissible pour un parcours de priorité supérieure à venir.</li>
@@ -233,25 +233,24 @@ Antérieurement disponibles pour un ensemble d’organisations (LA), les fonctio
 </tbody>
 </table>
 
-
-<!--The following capabilities are available to all customers in public beta:
-
 <table>
 <thead>
 <tr>
-<th><strong>Test your content using sample input data (Beta)</strong><br/></th>
+<th><strong>Testez votre contenu à l’aide d’exemples de données d’entrée (Beta)</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Journey optimizer now allows you to test different variants of your email content by previewing it and sending proofs using sample input data uploaded from a file or added manually. All the profiles attributes used in your content for personalization are automatically detected by the system and can be used for your tests to create multiple variants.</p>
-<p>This capability is currently available to all customers as a public beta.</p>
-<p>For more information, refer to the <a href="../email/surface-personalization.md">detailed documentation</a>.</p>
+<p>Parcours optimizer vous permet désormais de tester différentes variantes de votre contenu en le prévisualisant et en envoyant des bons à tirer à l’aide d’exemples de données d’entrée téléchargées à partir d’un fichier ou ajoutées manuellement. Tous les attributs de profil utilisés dans votre contenu pour la personnalisation sont automatiquement détectés par le système et peuvent être utilisés pour vos tests afin de créer plusieurs variantes.</p>
+<p>Cette fonctionnalité est actuellement disponible pour tous les clients en version bêta publique, pour les canaux Email, SMS et Notification push.</p>
+<p>Pour plus d’informations, consultez la <a href="../test-approve/simulate-sample-input.md">documentation détaillée</a>.</p>
 </td>
 </tr>
 </tbody>
-</table>-->
+</table>
+
+<!--The following capabilities are available to all customers in public beta:
 
 <!--<table>
 <thead>
