@@ -4,10 +4,10 @@ description: Découvrez comment tirer parti des outils de gestion des conflits e
 role: User
 level: Beginner
 badge: label="Disponibilité limitée"
-source-git-commit: 7632b144625a02810796d7afc858fcb5809d9220
+source-git-commit: a7fdde15f7c491fd9a3b1fef898f018ba9954cde
 workflow-type: tm+mt
-source-wordcount: '356'
-ht-degree: 8%
+source-wordcount: '403'
+ht-degree: 7%
 
 ---
 
@@ -24,6 +24,8 @@ Grâce à l&#39;**outil de détection des conflits**, vous pouvez identifier les
 
 En outre, les **scores de priorité** vous aident à contrôler les campagnes ou les parcours qui sont prioritaires lorsqu’un client est admissible pour plusieurs communications. Cela s’avère particulièrement utile pour les canaux entrants, tels que le web et les appareils mobiles, où une seule campagne peut être affichée à un moment donné. En attribuant un score de priorité à chaque parcours ou campagne, vous pouvez vous assurer que le message le plus important est diffusé en premier. [Découvrez comment attribuer des scores de priorité aux parcours et campagnes](priority-scores.md)
 
-Enfin, la **limitation et arbitrage des parcours** vous permet de limiter la fréquence et le nombre de parcours qu’un client peut entrer dans une certaine période. Vous pouvez configurer des règles afin de limiter le nombre d’entrées de parcours pour un profil ou le nombre de parcours auxquels un client peut être inscrit en même temps. De plus, vous pouvez utiliser les paramètres d’arbitrage pour décider quel parcours un client doit entrer s’il remplit les conditions requises pour plusieurs parcours, à l’aide de scores de priorité pour déterminer la meilleure approximation. [Découvrez comment utiliser la limitation et l’arbitrage de parcours](journey-capping.md)
+**La limitation et l’arbitrage des Parcours** vous permettent de limiter la fréquence et le nombre de parcours qu’un client peut entrer au cours d’une période donnée. Vous pouvez configurer des règles afin de limiter le nombre d’entrées de parcours pour un profil ou le nombre de parcours auxquels un client peut être inscrit en même temps. De plus, vous pouvez utiliser les paramètres d’arbitrage pour décider quel parcours un client doit entrer s’il remplit les conditions requises pour plusieurs parcours, à l’aide de scores de priorité pour déterminer la meilleure approximation. [Découvrez comment utiliser la limitation et l’arbitrage de parcours](journey-capping.md)
+
+Enfin, vous pouvez également utiliser des ensembles de règles pour définir la **limitation de fréquence par type de communication** (par exemple, Ventes, Promotionnel) afin d’éviter de surcharger les clients avec des messages similaires. Vous pouvez contrôler la fréquence sur plusieurs canaux, en excluant automatiquement les profils sur-sollicités afin d’offrir une meilleure expérience client. [Découvrez comment utiliser des ensembles de règles](../configuration/rule-sets.md)</li></ul>
 
 En exploitant ces fonctionnalités, vous pouvez garantir des efforts de marketing plus réguliers et plus ciblés, en délivrant le message approprié au bon moment tout en évitant les conflits et la surcharge.
