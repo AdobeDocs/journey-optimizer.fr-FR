@@ -7,10 +7,10 @@ role: User
 level: Intermediate
 badge: label="Disponibilité limitée"
 exl-id: c1d69bc9-4486-4037-b218-f4f704b2ba9c
-source-git-commit: 5ce388e5d86950e5cc6b173aab48225825f1c648
+source-git-commit: 018ff365780c5064afd94c8f842ca0498fe06065
 workflow-type: tm+mt
-source-wordcount: '308'
-ht-degree: 100%
+source-wordcount: '558'
+ht-degree: 55%
 
 ---
 
@@ -46,6 +46,31 @@ Pour créer une méthode de classement, procédez comme suit :
    * [Formules de classement](../offers/ranking/create-ranking-formulas.md)
    * [Modèles d’IA](../offers/ranking/ai-models.md)
 
++++ Optimisation de modèles sur des mesures [!DNL Customer Journey Analytics] personnalisées
+
+>[!NOTE]
+>
+>Cette fonctionnalité est disponible uniquement pour les clients [!DNL Customer Journey Analytics] disposant de droits d’administration.
+>
+>Avant de commencer, assurez-vous d’avoir intégré Journey Optimizer à Customer Journey Analytics afin d’exporter des jeux de données Journey Optimizer dans vos vues de données par défaut. [Découvrez comment exploiter les  [!DNL Journey Optmizer] données dans [!DNL Customer Journey Analytics]](../reports/cja-ajo.md)
+
+Les modèles d’optimisation personnalisés sont un type de modèle d’IA qui vous permet de définir des objectifs commerciaux et d’utiliser les données clients pour former des modèles orientés vers l’entreprise afin de proposer des offres personnalisées et d’optimiser les IPC. Vous trouverez des informations détaillées sur la création d’un modèle d’IA personnalisé dans la [documentation sur la gestion des décisions](../offers/ranking/personalized-optimization-model.md).
+
+Par défaut, les modèles d’optimisation personnalisés utilisent **clics sur les offres** comme mesure d’optimisation. Si vous utilisez [!DNL Customer Journey Analytics], [!DNL Decisioning] vous permet d’exploiter vos propres mesures personnalisées pour optimiser votre modèle.
+
+Pour ce faire, accédez à l’écran de création de modèle d’IA personnalisé et développez la liste déroulante **[!UICONTROL Conversion event]** . Toutes les mesures de votre [!DNL Customer Journey Analytics] [vue de données](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dataviews/data-views){target="_blank"} par défaut s’affichent dans la liste. Sélectionnez la mesure sur laquelle vous souhaitez optimiser votre modèle, puis effectuez la création du modèle AI comme vous le faites habituellement.
+
+![](assets/ai-ranking-custom-metrics.png)
+
+>[!NOTE]
+>
+>Par défaut, les mesures de [!DNL Customer Journey Analytics] utilisent un modèle d’attribution &quot;Dernière touche&quot;, qui attribue 100 % du crédit au point de contact qui survient le plus récemment avant la conversion.
+>
+>Bien qu’il soit possible de modifier le modèle d’attribution, tous les modèles d’attribution ne sont pas idéaux pour l’optimisation du modèle d’IA. Nous vous recommandons de sélectionner soigneusement un modèle d’attribution qui s’aligne sur vos objectifs d’optimisation afin d’assurer la précision et les performances du modèle.
+>
+>Pour plus d’informations sur les modèles d’attribution disponibles et des conseils sur leur utilisation, consultez la [[!DNL Customer Journey Analytics] documentation](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dataviews/component-settings/attribution){target="_blank"}
+
++++
 
 ## Utiliser des attributs d’éléments de décision dans des formules {#items}
 
