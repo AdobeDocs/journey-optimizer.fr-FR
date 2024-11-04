@@ -2,16 +2,16 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Testez votre contenu à l’aide d’exemples de données d’entrée (Beta)
-description: Découvrez comment prévisualiser le contenu et envoyer des BAT d’email à l’aide d’exemples de données d’entrée.
-feature: Overview, Get Started
+description: Découvrez comment prévisualiser du contenu et envoyer un BAT d’email à l’aide d’exemples de données d’entrée à partir d’un fichier CSV ou JSON ou ajouté manuellement.
+feature: Email, Email Rendering, Personalization, Preview, Proofs
 topic: Content Management
 role: User
 level: Intermediate
 badge: label="Version bêta"
-source-git-commit: 53efa1af8089b7cec9c94f4a17295a544c3ab4d1
+source-git-commit: 678a2fbce1b4048aad6a2214bb41ec3722db2b2d
 workflow-type: tm+mt
-source-wordcount: '884'
-ht-degree: 50%
+source-wordcount: '896'
+ht-degree: 49%
 
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 50%
 >
 >Cette fonctionnalité est actuellement disponible pour tous les clients en version bêta publique.
 
-Parcours optimizer vous permet de tester différentes variantes de votre contenu en le prévisualisant et en envoyant des bons à tirer à l’aide d’exemples de données d’entrée téléchargées à partir d’un fichier ou ajoutées manuellement. Tous les attributs de profil utilisés dans votre contenu pour la personnalisation sont automatiquement détectés par le système et peuvent être utilisés pour vos tests afin de créer plusieurs variantes.
+L’optimiseur de parcours vous permet de tester différentes variantes de votre contenu en le prévisualisant et en envoyant des bons à tirer à l’aide d’exemples de données d’entrée téléchargées à partir d’un fichier CSV ou JSON ou ajoutées manuellement. Tous les attributs de profil utilisés dans votre contenu pour la personnalisation sont automatiquement détectés par le système et peuvent être utilisés pour vos tests afin de créer plusieurs variantes.
 
 >[!NOTE]
 >
