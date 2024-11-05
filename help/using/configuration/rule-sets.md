@@ -10,14 +10,29 @@ level: Intermediate
 keywords: message, fréquence, règles, pression
 badge: label="Disponibilité limitée"
 exl-id: 07f5f0b4-417e-408e-8d9e-86615c8a3fbf
-source-git-commit: 9c49786385db782bd2fa70b19003261284e980a5
+source-git-commit: 2375ea3e8fb100642dee07e9c46640d47e393b44
 workflow-type: tm+mt
-source-wordcount: '1924'
+source-wordcount: '1936'
 ht-degree: 71%
 
 ---
 
 # Utiliser des jeux de règles {#rule-sets}
+
+>[!CONTEXTUALHELP]
+>id="ajo_rule_set_domain"
+>title="Type d’objet"
+>abstract="Type d’objet"
+
+>[!CONTEXTUALHELP]
+>id="ajo_rule_set_rule_type"
+>title="Type de règle"
+>abstract="Type de règle"
+
+>[!CONTEXTUALHELP]
+>id="ajo_rule_set_rule_capping"
+>title="Capping des règles"
+>abstract="Capping des règles"
 
 >[!CONTEXTUALHELP]
 >id="ajo_business_rules_rule_sets"

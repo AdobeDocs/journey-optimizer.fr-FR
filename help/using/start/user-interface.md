@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
-source-git-commit: c858d16ec520418148fb28ad2ecec0d3a6377ba9
+source-git-commit: 2375ea3e8fb100642dee07e9c46640d47e393b44
 workflow-type: tm+mt
-source-wordcount: '1434'
-ht-degree: 99%
+source-wordcount: '1305'
+ht-degree: 100%
 
 ---
 
@@ -196,39 +196,7 @@ Pour modifier la langue :
 
 <!--CONTEXTUAL HELP TO DISPATCH IN DOCS ONCE FEATURE LIVE-->
 
-<!--PRIORITIZATION & CONFLICT MANAGEMENT-->
 
->[!CONTEXTUALHELP]
->id="ajo_rule_set_domain"
->title="Type d’objet"
->abstract="Type d’objet"
-
->[!CONTEXTUALHELP]
->id="ajo_journey_capping_rule"
->title="Appliquer un jeu de règles aux parcours"
->abstract="Appliquez un jeu de règles pour exclure ce parcours d’une partie de votre audience en fonction des règles de capping de la fréquence."
-
->[!CONTEXTUALHELP]
->id="ajo_rule_set_rule_type"
->title="Type de règle"
->abstract="Type de règle"
-
->[!CONTEXTUALHELP]
->id="ajo_rule_set_rule_capping"
->title="Capping des règles"
->abstract="Capping des règles"
-
->[!CONTEXTUALHELP]
->id="ajo_rule_set_concurrency_prioritization"
->title="Avenir de la priorité"
->abstract=" Si un parcours de priorité plus élevée est planifié dans la période spécifiée ici, le client ou la cliente ne pourra pas entrer dans ce parcours. Dans les cas où vous souhaitez que les parcours soient accessibles sur la base du premier arrivé, premier servi, nous vous suggérons de choisir la période d’anticipation quotidienne et de vous assurer que le score de priorité de tout autre parcours ce jour-là est inférieur au score de priorité du parcours. Un score de priorité de 100 à un parcours garantirait également son accessibilité."
-
->[!CONTEXTUALHELP]
->id="ajo_rule_set_prioritization"
->title="Facteur de hiérarchisation"
->abstract="À déterminer"
-
-<!--TO REMOVE?-->
 
 <!--CONTENT LOCKING-->
 
