@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 4a53ea96-632a-41c7-ab15-b85b99db4f3e
-source-git-commit: f8d62a702824bcfca4221c857acf1d1294427543
+source-git-commit: 88e7140183700da0283fa00d89f6fff2c71c138f
 workflow-type: tm+mt
-source-wordcount: '766'
-ht-degree: 100%
+source-wordcount: '804'
+ht-degree: 97%
 
 ---
 
@@ -38,6 +38,16 @@ La liste des offres personnalisées est accessible dans le menu **[!UICONTROL Of
 >id="ajo_decisioning_offer_attributes"
 >title="Attributs d’offre"
 >abstract="Les attributs de l’offre vous permettent d’associer des paires clé-valeur à l’offre à des fins de reporting et d’analyse."
+
+>[!CONTEXTUALHELP]
+>id="ajo_decisioning_new_personalized"
+>title="Offre personnalisée"
+>abstract="Une offre personnalisée est un message personnalisable basé sur des règles et des contraintes d’éligibilité."
+
+>[!CONTEXTUALHELP]
+>id="ajo_decisioning_new_fallback"
+>title="Offre de secours"
+>abstract="Une offre de secours est l’offre par défaut affichée lorsqu’un utilisateur final n’est éligible à aucune des offres personnalisées."
 
 Pour créer une **offre**, procédez comme suit :
 

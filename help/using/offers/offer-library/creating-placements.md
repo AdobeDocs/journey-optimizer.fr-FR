@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: dfaf887e-d4b3-45b0-8297-bffdb0abff4d
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: 88e7140183700da0283fa00d89f6fff2c71c138f
 workflow-type: tm+mt
-source-wordcount: '537'
-ht-degree: 100%
+source-wordcount: '630'
+ht-degree: 91%
 
 ---
 
@@ -19,6 +19,16 @@ ht-degree: 100%
 >id="ajo_decisioning_placement"
 >title="Emplacement"
 >abstract="Un emplacement est un conteneur utilisé pour présenter des offres. Il permet de s’assurer que le contenu d’offre approprié s’affiche au bon endroit dans votre message. Les emplacements sont créés à partir du menu « Composants »."
+
+>[!CONTEXTUALHELP]
+>id="ajo_decisioning_placement_request"
+>title="Paramètres de la requête"
+>abstract="Activez l’option **[!UICONTROL Autoriser les doublons entre emplacements]** pour que le système considère la même offre pour plusieurs emplacements. Utilisez le champ **[!UICONTROL Demander l’offre]** pour ajuster le nombre d’offres renvoyées. Par exemple, si vous sélectionnez 2, les 2 meilleures offres s’afficheront pour la portée de décision sélectionnée."
+
+>[!CONTEXTUALHELP]
+>id="ajo_decisioning_placement_response"
+>title="Format de réponse"
+>abstract="Les options **[!UICONTROL Inclure le contenu]** et **[!UICONTROL Inclure les métadonnées]** vous permettent de spécifier si le contenu et les métadonnées de l’offre doivent être renvoyés dans la réponse de l’API. Vous pouvez inclure toutes les métadonnées ou seulement des champs spécifiques. Par défaut, la valeur du champ Inclure les métadonnées est définie sur « true »."
 
 Un emplacement permet de s&#39;assurer que le contenu d&#39;offre approprié s&#39;affiche au bon endroit dans votre message. Lorsque vous ajoutez du contenu à une offre, vous êtes invité à sélectionner un emplacement dans lequel ce contenu peut être affiché.
 
@@ -46,7 +56,6 @@ Pour créer une emplacement, procédez comme suit :
    * **[!UICONTROL Description]** : description de l’emplacement (facultatif).
 
    ![](../assets/offers_placement_creation_properties.png)
-
 
 1. Les sections **[!UICONTROL Paramètres de requête]** et **[!UICONTROL Format de réponse]** offrent les paramètres supplémentaires suivants :
 

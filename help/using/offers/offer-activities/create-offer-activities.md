@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 7a217c97-57e1-4f04-a92c-37632f8dfe91
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: 88e7140183700da0283fa00d89f6fff2c71c138f
 workflow-type: tm+mt
-source-wordcount: '2355'
-ht-degree: 100%
+source-wordcount: '2511'
+ht-degree: 95%
 
 ---
 
@@ -32,6 +32,11 @@ Avant de créer une décision, vérifiez que les composants suivants ont été c
 
 ## Création de la décision {#create-activity}
 
+>[!CONTEXTUALHELP]
+>id="ajo_decisioning_decision_details"
+>title="Détails de la décision d’offre"
+>abstract="Indiquez le nom de la décision et définissez une date et une heure de début et de fin si nécessaire. Pour attribuer des libellés d’utilisation des données personnalisés ou de base à la décision, sélectionnez **[!UICONTROL Gérer l’accès]**."
+
 1. Accédez à la liste des décisions, puis cliquez sur **[!UICONTROL Créer une décision]**.
 
 1. Indiquez le nom de la décision.
@@ -43,6 +48,21 @@ Avant de créer une décision, vérifiez que les composants suivants ont été c
 1. Pour attribuer des étiquettes d’utilisation des données personnalisées ou de base à la décision, sélectionnez **[!UICONTROL Gérer l’accès]**. [En savoir plus sur le contrôle d’accès au niveau de l’objet (OLAC)](../../administration/object-based-access.md)
 
 ## Définir des portées de décision {#add-decision-scopes}
+
+>[!CONTEXTUALHELP]
+>id="ajo_decisioning_decision_scopes"
+>title="Portées de décision"
+>abstract="Configurez une ou plusieurs portées pour la décision d’offre afin de déterminer les offres à afficher. Pour ce faire, sélectionnez un emplacement et un critère d’évaluation associé à cet emplacement."
+
+>[!CONTEXTUALHELP]
+>id="ajo_decisioning_decision_placement"
+>title="Emplacement"
+>abstract="Sélectionnez l’emplacement où les offres seront diffusées."
+
+>[!CONTEXTUALHELP]
+>id="ajo_decisioning_decision_evaluation"
+>title="Critères d’évaluation"
+>abstract="Les critères d’évaluation se composent d’une collection d’offres associée à une contrainte d’éligibilité et d’une méthode de classement permettant de déterminer les offres à afficher dans l’emplacement. La séquence des critères d’évaluation détermine la collection qui sera évaluée en premier. Au moins un critère d&#39;évaluation est requis."
 
 1. Sélectionnez un emplacement dans la liste déroulante. Il sera ajouté à la première portée de décision de votre décision.
 
@@ -285,6 +305,11 @@ La sélection se présente comme suit :
 +++
 
 ## Ajouter une offre de secours {#add-fallback}
+
+>[!CONTEXTUALHELP]
+>id="ajo_decisioning_decision_fallback"
+>title="Ajout d’une offre de fackback"
+>abstract="Une fois que vous avez défini les portées de décision, définissez l’offre de secours qui sera présentée en dernier recours aux clients qui ne correspondent pas aux règles d’éligibilité et contraintes des offres."
 
 Une fois que vous avez défini les portées de décision, définissez l’offre de secours qui sera présentée en dernier recours aux clients qui ne correspondent pas aux règles d’éligibilité et contraintes des offres.
 

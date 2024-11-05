@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 0c8808e3-9148-4a33-9fd5-9218e02c2dfd
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: 88e7140183700da0283fa00d89f6fff2c71c138f
 workflow-type: tm+mt
-source-wordcount: '365'
-ht-degree: 100%
+source-wordcount: '463'
+ht-degree: 83%
 
 ---
 
@@ -19,6 +19,26 @@ ht-degree: 100%
 >id="ajo_decisioning_decision_collection"
 >title="À propos des collections d&#39;offres"
 >abstract="Avec les collections d&#39;offres, vous pouvez organiser vos offres en les regroupant en catégories de votre choix."
+
+>[!CONTEXTUALHELP]
+>id="ajo_decisioning_collection_dynamic"
+>title="Collection dynamique"
+>abstract="Utilisez les qualificateurs de collection pour qualifier dynamiquement les offres d’une collection."
+
+>[!CONTEXTUALHELP]
+>id="ajo_decisioning_collection_static"
+>title="Collection statique"
+>abstract="Sélectionnez manuellement et regroupez les offres à l’aide de critères tels que le statut, les qualificateurs de collection, la date et le canal."
+
+>[!CONTEXTUALHELP]
+>id="ajo_decisioning_collection_static_select"
+>title="Aperçu de la collection statique"
+>abstract="Les collections statiques sont créées en sélectionnant manuellement des offres individuelles à inclure dans la collection. La collection ne peut être mise à jour qu&#39;en y ajoutant manuellement d&#39;autres offres."
+
+>[!CONTEXTUALHELP]
+>id="ajo_decisioning_collection_dynamic_select"
+>title="Aperçu de collection dynamique"
+>abstract="Les collections dynamiques collectent les offres en fonction des qualificateurs de collection. Ces collections sont mises à jour automatiquement. Par exemple, si une nouvelle offre est créée avec le qualificateur de collection &quot;sports&quot;, elle sera automatiquement ajoutée à la collection correspondante."
 
 Les collections permettent d&#39;organiser vos offres en les regroupant en catégories de votre choix. Vous pouvez, par exemple, créer une collection « sport » qui contiendra uniquement des offres liées au sport.
 
