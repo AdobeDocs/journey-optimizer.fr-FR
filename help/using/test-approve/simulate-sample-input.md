@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Testez votre contenu à l’aide d’exemples de données d’entrée (Beta)
+title: Tester votre contenu à l’aide d’exemples de données d’entrée (version bêta)
 description: Découvrez comment prévisualiser du contenu et envoyer un BAT d’email à l’aide d’exemples de données d’entrée à partir d’un fichier CSV ou JSON ou ajouté manuellement.
 feature: Email, Email Rendering, Personalization, Preview, Proofs
 topic: Content Management
@@ -11,12 +11,12 @@ badge: label="Version bêta"
 source-git-commit: 678a2fbce1b4048aad6a2214bb41ec3722db2b2d
 workflow-type: tm+mt
 source-wordcount: '896'
-ht-degree: 49%
+ht-degree: 51%
 
 ---
 
 
-# Testez votre contenu à l’aide d’exemples de données d’entrée (Beta) {#custom-profiles}
+# Tester votre contenu à l’aide d’exemples de données d’entrée (version bêta) {#custom-profiles}
 
 >[!CONTEXTUALHELP]
 >id="ajo_simulate_sample_profiles"
