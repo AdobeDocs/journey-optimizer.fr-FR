@@ -4,10 +4,10 @@ description: Découvrez comment attribuer des scores de priorité aux parcours e
 role: User
 level: Beginner
 badge: label="Disponibilité limitée"
-source-git-commit: 4ab4b48ba87c73552a15c9815877517934029d57
+source-git-commit: 8b1ae663accf6b6c049dc7cc2a427811369a42bc
 workflow-type: tm+mt
-source-wordcount: '448'
-ht-degree: 76%
+source-wordcount: '438'
+ht-degree: 72%
 
 ---
 
@@ -32,7 +32,7 @@ Journey Optimizer vous permet d’attribuer un score de priorité à un parcours
 
 >[!NOTE]
 >
->Le score de priorité est disponible pour les canaux entrants : web, in-app et basé sur du code. Dans le parcours, le score de priorité est disponible uniquement pour les canaux **in-app** et **basés sur du code**.
+>Dans les campagnes, le score de priorité est disponible uniquement pour les canaux entrants web, in-app et basés sur du code.
 
 ➡️ [Découvrir cette fonctionnalité en vidéo](#video)
 

@@ -4,10 +4,10 @@ description: Découvrez comment identifier les conflits potentiels dans les parc
 role: User
 level: Beginner
 badge: label="Disponibilité limitée"
-source-git-commit: 4ab4b48ba87c73552a15c9815877517934029d57
+source-git-commit: 8b1ae663accf6b6c049dc7cc2a427811369a42bc
 workflow-type: tm+mt
-source-wordcount: '802'
-ht-degree: 84%
+source-wordcount: '817'
+ht-degree: 83%
 
 ---
 
@@ -27,6 +27,10 @@ Les principaux domaines à surveiller pour détecter un chevauchement potentiel 
 * **Canal** : existe-t-il d’autres communications programmées pour la même période, et si oui, combien ?
 * **Jeu de règles de capping** : quels types de parcours suis-je en train de limiter et se chevauchent-ils ?
 * **Configuration des canaux** : existe-t-il d’autres parcours ou campagnes utilisant une configuration des canaux utilisée dans le même parcours ou la même campagne qui peut empêcher l’affichage du parcours ou de la campagne aux utilisateurs et utilisatrices finaux ?
+
+>[!NOTE]
+>
+>Dans les campagnes, le score de priorité est disponible uniquement pour les canaux entrants web, in-app et basés sur du code.
 
 ➡️ [Découvrir cette fonctionnalité en vidéo](#video)
 
