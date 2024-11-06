@@ -4,10 +4,10 @@ description: Découvrez comment identifier les conflits potentiels dans les parc
 role: User
 level: Beginner
 badge: label="Disponibilité limitée"
-source-git-commit: 7632b144625a02810796d7afc858fcb5809d9220
+source-git-commit: 4ab4b48ba87c73552a15c9815877517934029d57
 workflow-type: tm+mt
-source-wordcount: '704'
-ht-degree: 91%
+source-wordcount: '802'
+ht-degree: 84%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 91%
 
 >[!AVAILABILITY]
 >
->Les fonctionnalités de conflit et de hiérarchisation sont actuellement disponibles dans Disponibilité limitée pour un groupe sélectionné de clients. Veuillez noter que ces fonctionnalités seront progressivement déployées vers d’autres utilisateurs à l’avenir. Contactez l’équipe de votre compte si vous souhaitez être ajouté à la liste d’attente pour ces fonctionnalités.
+>Les fonctionnalités de conflit et de hiérarchisation sont actuellement disponibles dans Disponibilité limitée pour un groupe sélectionné de clients. Notez que ces fonctionnalités seront progressivement déployées vers d’autres utilisateurs et utilisatrices à l’avenir. Contactez votre équipe de compte si vous souhaitez qu’elle vous ajoute à la liste d’attente pour ces fonctionnalités.
 
 À mesure que les personnes spécialisées dans le marketing augmentent le volume des campagnes et des parcours dans Journey Optimizer, il devient de plus en plus difficile pour elles de savoir si leurs clientes et clients sont submergés par un trop grand nombre d’interactions marketing. Il est donc essentiel d’identifier facilement les chevauchements des campagnes et des parcours pour s’assurer d’un bon équilibre dans les communications marketing tout en atténuant le risque de lassitude des clientes et clients.
 
@@ -41,6 +41,16 @@ Vous trouverez ci-dessous un résumé de la manière dont Journey Optimizer ide
 * **Campagnes en ligne/planifiées** : les campagnes en ligne et planifiées peuvent entrer en conflit les unes avec les autres en raison d’un chevauchement d’audiences potentiel. Pour une campagne donnée, toutes les campagnes en ligne ou planifiées sont répertoriées dans la visionneuse de conflits.
 
 ## Afficher les conflits identifiés pour un parcours ou une campagne spécifique {#view}
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaigns_campaign_conflict"
+>title="Afficher les conflits potentiels"
+>abstract="Vérifiez chaque fois qu’il existe un risque de chevauchement avec d’autres campagnes. Les conflits s’affichent uniquement pour les campagnes en direct et planifiées. Notez que le bouton devient disponible dès que vous avez attribué l’un des paramètres suivants : **[!UICONTROL Date de début/fin]**, **[!UICONTROL Audience]**, **[!UICONTROL Canal]**, **[!UICONTROL Configuration de canal]** et **[!UICONTROL Ensemble de règles]**."
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_conflict"
+>title="Afficher les conflits potentiels"
+>abstract="Vérifiez chaque fois qu’il existe un risque de chevauchement avec d’autres parcours. Les conflits s’affichent uniquement pour les parcours en direct et planifiés. Notez que le bouton devient disponible dès que vous avez attribué l’un des paramètres suivants : **[!UICONTROL Date de début/fin]**, **[!UICONTROL Audience]**, **[!UICONTROL Canal]**, **[!UICONTROL Configuration de canal]** et **[!UICONTROL Ensemble de règles]**."
 
 Lors de la création d’un parcours ou d’une campagne, Journey Optimizer vous permet de vérifier chaque fois qu’il existe un risque de chevauchement avec d’autres parcours ou campagnes. Pour ce faire, procédez comme suit :
 

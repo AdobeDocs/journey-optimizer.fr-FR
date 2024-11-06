@@ -4,30 +4,15 @@ description: Découvrez comment créer des règles de limitation pour vos parcou
 role: User
 level: Beginner
 badge: label="Disponibilité limitée"
-source-git-commit: 2375ea3e8fb100642dee07e9c46640d47e393b44
+source-git-commit: 4ab4b48ba87c73552a15c9815877517934029d57
 workflow-type: tm+mt
-source-wordcount: '864'
-ht-degree: 19%
+source-wordcount: '903'
+ht-degree: 18%
 
 ---
 
 
 # Limitation et arbitrage des parcours {#journey-capping}
-
->[!CONTEXTUALHELP]
->id="ajo_journey_capping_rule"
->title="Appliquer un jeu de règles aux parcours"
->abstract="Appliquez un jeu de règles pour exclure ce parcours d’une partie de votre audience en fonction des règles de capping de la fréquence."
-
->[!CONTEXTUALHELP]
->id="ajo_rule_set_concurrency_prioritization"
->title="Avenir de la priorité"
->abstract=" Si un parcours de priorité plus élevée est planifié dans la période spécifiée ici, le client ou la cliente ne pourra pas entrer dans ce parcours. Dans les cas où vous souhaitez que les parcours soient accessibles sur la base du premier arrivé, premier servi, nous vous suggérons de choisir la période d’anticipation quotidienne et de vous assurer que le score de priorité de tout autre parcours ce jour-là est inférieur au score de priorité du parcours. Un score de priorité de 100 à un parcours garantirait également son accessibilité."
-
->[!CONTEXTUALHELP]
->id="ajo_rule_set_prioritization"
->title="Facteur de hiérarchisation"
->abstract="À déterminer"
 
 >[!AVAILABILITY]
 >
@@ -43,6 +28,16 @@ Les deux types de limitation de parcours tirent parti de scores de priorité pou
 ➡️ [Découvrir cette fonctionnalité en vidéo](#video)
 
 ## Création d’une règle de limitation de parcours {#create-rule}
+
+>[!CONTEXTUALHELP]
+>id="ajo_rule_set_concurrency_prioritization"
+>title="Avenir de la priorité"
+>abstract=" Si un parcours de priorité plus élevée est planifié dans la période spécifiée ici, le client ou la cliente ne pourra pas entrer dans ce parcours. Dans les cas où vous souhaitez que les parcours soient accessibles sur la base du premier arrivé, premier servi, nous vous suggérons de choisir la période d’anticipation quotidienne et de vous assurer que le score de priorité de tout autre parcours ce jour-là est inférieur au score de priorité du parcours. Un score de priorité de 100 à un parcours garantirait également son accessibilité."
+
+>[!CONTEXTUALHELP]
+>id="ajo_rule_set_rule_type"
+>title="Type de règle"
+>abstract="Spécifiez le type de limitation de la règle. **[!UICONTROL Limite d’entrée sur le Parcours]** limite le nombre d’entrées dans le parcours sur une période donnée pour un profil, tandis que la **[!UICONTROL limitation de la simultanéité sur le Parcours]** limite le nombre de parcours dans lesquels un profil peut être inscrit simultanément."
 
 Pour créer une règle de limitation de parcours, procédez comme suit :
 
@@ -109,6 +104,11 @@ Pour créer une règle de limitation de parcours, procédez comme suit :
    ![](assets/journey-capping-activate-rule-set.png)
 
 ## Application de règles de limitation aux parcours {#apply-capping}
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_capping_rule"
+>title="Appliquer un jeu de règles aux parcours"
+>abstract="Appliquez un jeu de règles pour exclure ce parcours d’une partie de votre audience en fonction des règles de capping de la fréquence."
 
 Pour appliquer une règle de limitation à un parcours, accédez au parcours et ouvrez ses propriétés. Dans la liste déroulante **[!UICONTROL Règles de limitation]** , sélectionnez le jeu de règles approprié. Une fois le parcours activé, les règles de limitation définies dans le jeu de règles prennent effet.
 

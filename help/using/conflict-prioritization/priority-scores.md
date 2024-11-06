@@ -4,19 +4,29 @@ description: Découvrez comment attribuer des scores de priorité aux parcours e
 role: User
 level: Beginner
 badge: label="Disponibilité limitée"
-source-git-commit: 7632b144625a02810796d7afc858fcb5809d9220
+source-git-commit: 4ab4b48ba87c73552a15c9815877517934029d57
 workflow-type: tm+mt
-source-wordcount: '326'
-ht-degree: 82%
+source-wordcount: '448'
+ht-degree: 76%
 
 ---
 
 
 # Attribuer des scores de priorité aux parcours et aux campagnes {#priority}
 
+>[!CONTEXTUALHELP]
+>id="ajo_campaigns_campaign_priority"
+>title="Priorité"
+>abstract="Attribuez un score de priorité à la campagne. La priorité est essentielle pour prioriser une campagne en cas de contrainte imposée, telle qu’une limite de fréquence. Saisissez une valeur numérique (de 0 à 100). Notez que plus le nombre est élevé, plus la priorité est élevée. Dans les cas où deux campagnes ont le même score de priorité, la campagne qui a été activée en premier s’affiche."
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_priority"
+>title="Priorité"
+>abstract="Attribuez un score de priorité au parcours. La priorité est essentielle pour donner la priorité à un parcours lorsqu’il existe une contrainte imposée telle qu’un plafond de fréquence. Entrez une valeur numérique (de 0 à 100). Notez que plus le nombre est élevé, plus la priorité est élevée. Dans les cas où deux parcours ont le même score de priorité, le parcours qui a été activé en premier s’affiche."
+
 >[!AVAILABILITY]
 >
->Les fonctionnalités de conflit et de hiérarchisation sont actuellement disponibles dans Disponibilité limitée pour un groupe sélectionné de clients. Veuillez noter que ces fonctionnalités seront progressivement déployées vers d’autres utilisateurs à l’avenir. Contactez l’équipe de votre compte si vous souhaitez être ajouté à la liste d’attente pour ces fonctionnalités.
+>Les fonctionnalités de conflit et de hiérarchisation sont actuellement disponibles dans Disponibilité limitée pour un groupe sélectionné de clients. Notez que ces fonctionnalités seront progressivement déployées vers d’autres utilisateurs et utilisatrices à l’avenir. Contactez votre équipe de compte si vous souhaitez qu’elle vous ajoute à la liste d’attente pour ces fonctionnalités.
 
 Journey Optimizer vous permet d’attribuer un score de priorité à un parcours ou à une campagne. La priorité est essentielle pour donner la priorité à un parcours, à une campagne ou à une action lorsqu’une contrainte est imposée (par exemple, une limitation de la fréquence). Dans les cas où une personne est admissible pour plusieurs parcours, campagnes ou communications et que vous souhaitez choisir ceux qu’elle doit rejoindre et recevoir, vous devez utiliser ce champ.
 

@@ -10,34 +10,19 @@ level: Intermediate
 keywords: message, fréquence, règles, pression
 badge: label="Disponibilité limitée"
 exl-id: 07f5f0b4-417e-408e-8d9e-86615c8a3fbf
-source-git-commit: 2375ea3e8fb100642dee07e9c46640d47e393b44
+source-git-commit: 4ab4b48ba87c73552a15c9815877517934029d57
 workflow-type: tm+mt
-source-wordcount: '1936'
-ht-degree: 71%
+source-wordcount: '1950'
+ht-degree: 67%
 
 ---
 
 # Utiliser des jeux de règles {#rule-sets}
 
 >[!CONTEXTUALHELP]
->id="ajo_rule_set_domain"
->title="Type d’objet"
->abstract="Type d’objet"
-
->[!CONTEXTUALHELP]
->id="ajo_rule_set_rule_type"
->title="Type de règle"
->abstract="Type de règle"
-
->[!CONTEXTUALHELP]
->id="ajo_rule_set_rule_capping"
->title="Capping des règles"
->abstract="Capping des règles"
-
->[!CONTEXTUALHELP]
 >id="ajo_business_rules_rule_sets"
 >title="Jeux de règles"
->abstract="Utilisez les jeux de règles pour appliquer le capping de fréquence à différents types de communications marketing. Vous pouvez par exemple créer un jeu de règles pour limiter le nombre de **communications promotionnelles** envoyées à votre clientèle et créer un autre jeu de règles pour limiter le nombre de **newsletters** qu’elle reçoit."
+>abstract="Utilisez les jeux de règles pour appliquer le capping de fréquence à différents types de communications marketing. Vous pouvez également créer des ensembles de règles pour exclure des parcours d’une partie de votre audience en fonction des règles de limitation de fréquence."
 
 >[!AVAILABILITY]
 >
@@ -65,7 +50,12 @@ Outre ce jeu de règles &quot;Jeu de règles par défaut global&quot;, vous pouv
 
 ### Règles de limitation des canaux et parcours {#domain}
 
-Lors de la création d’un jeu de règles, vous devez indiquer si les règles de l’ensemble de règles appliqueront des règles de limitation spécifiques aux canaux de communication ou aux parcours.  Pour ce faire, sélectionnez un canal ou un domaine de Parcours pour le jeu de règles lors de sa création. [Découvrez comment créer un jeu de règles](#create)
+>[!CONTEXTUALHELP]
+>id="ajo_rule_set_domain"
+>title="Domaine du jeu de règles"
+>abstract="Lors de la création d’un jeu de règles, vous devez indiquer si les règles de l’ensemble de règles appliqueront des règles de limitation spécifiques aux canaux de communication ou aux parcours."
+
+Lors de la création d’un jeu de règles, vous devez indiquer si les règles de l’ensemble de règles appliqueront des règles de limitation spécifiques aux canaux de communication ou aux parcours. Pour ce faire, sélectionnez un canal ou un domaine de Parcours pour le jeu de règles lors de sa création. [Découvrez comment créer un jeu de règles](#create)
 
 * Domaine **Canal** : appliquez des règles de limitation pour les canaux de communication. Par exemple, n’envoyez pas plus d’un email ou d’un SMS par jour.
 * Domaine **Parcours** : appliquez des règles de limitation d’entrée et de simultanéité à un parcours. Par exemple, ne saisissez pas de profils simultanément dans plusieurs parcours.
@@ -101,10 +91,11 @@ Pour créer un jeu de règles, procédez comme suit.
 >title="Sélectionner la catégorie de règle relative aux messages"
 >abstract="Lorsqu’elle sont activées et appliquées à un message, toutes les règles de fréquence correspondant à la catégorie sélectionnée seront automatiquement appliquées à ce message. Actuellement, seule la catégorie Marketing est disponible."
 
->[!CONTEXTUALHELP]
+<!--NOT USED?
+[!CONTEXTUALHELP]
 >id="ajo_rule_sets_capping"
->title="Définir la limitation de votre règle"
->abstract="Spécifiez le nombre maximal de messages envoyés à un profil client au cours de la période choisie. La limite de fréquence sera basée sur la période calendaire sélectionnée et sera réinitialisée au début de la période correspondante."
+>title="Set the capping for your rule"
+>abstract="Specify the maximum number of messages sent to a customer profile within the chosen time frame. The frequency cap will be based on the selected calendar period and will be reset at the beginning of the corresponding time frame."-->
 
 >[!CONTEXTUALHELP]
 >id="ajo_rule_sets_channel"
@@ -115,6 +106,11 @@ Pour créer un jeu de règles, procédez comme suit.
 >id="ajo_rule_sets_duration"
 >title="Sélectionner la catégorie de règle relative aux messages"
 >abstract="Lorsqu’elle sont activées et appliquées à un message, toutes les règles de fréquence correspondant à la catégorie sélectionnée seront automatiquement appliquées à ce message. Actuellement, seule la catégorie Marketing est disponible."
+
+>[!CONTEXTUALHELP]
+>id="ajo_rule_set_rule_capping"
+>title="Capping des règles"
+>abstract="Définissez la limitation de votre règle. En fonction du domaine du jeu de règles et de la sélection dans le champ Type de règle , ce champ peut définir le nombre maximal de messages qui peuvent être envoyés à un profil, ou le nombre maximal de parcours auxquels le profil peut être inscrit ou dans lesquels il peut être inscrit simultanément."
 
 Pour ajouter une règle à un jeu de règles, accédez au jeu de règles et cliquez sur **[!UICONTROL Ajouter une règle]**.
 
