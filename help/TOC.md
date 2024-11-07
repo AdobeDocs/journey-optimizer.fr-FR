@@ -5,10 +5,10 @@ user-guide-title: Guide de Journey Optimizer
 user-guide-description: Utilisez Journey Optimizer pour créer et proposer aux clients des expériences connectées, contextuelles et personnalisées
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 53efa1af8089b7cec9c94f4a17295a544c3ab4d1
+source-git-commit: 22eae783ec2a7db2209b2a12b78b286e4f97ee1b
 workflow-type: tm+mt
-source-wordcount: '2161'
-ht-degree: 93%
+source-wordcount: '2160'
+ht-degree: 98%
 
 ---
 
@@ -175,10 +175,10 @@ ht-degree: 93%
    + [Vérification et activation d’une campagne](using/campaigns/review-activate-campaign.md)
    + [Gérer les campagnes](using/campaigns/modify-stop-campaign.md)
    + [Déclencher des campagnes à l’aide d’API](using/campaigns/api-triggered-campaigns.md)
-+ Gestion des conflits et hiérarchisation {#conflict-prioritization}
-   + [Prise en main de la gestion des conflits et de la hiérarchisation](using/conflict-prioritization/gs-conflict-prioritization.md)
++ Gestion et hiérarchisation des conflits {#conflict-prioritization}
+   + [Commencer avec la gestion et la hiérarchisation des conflits](using/conflict-prioritization/gs-conflict-prioritization.md)
    + [Identifier les conflits potentiels](using/conflict-prioritization/conflicts.md)
-   + [Attribution de scores de priorité](using/conflict-prioritization/priority-scores.md)
+   + [Attribuer des scores de priorité](using/conflict-prioritization/priority-scores.md)
    + [Limitation et arbitrage des parcours](using/conflict-prioritization/journey-capping.md)
 + Tester et approuver {#test}
    + Prévisualiser et tester votre contenu {#preview-test}
@@ -227,7 +227,7 @@ ht-degree: 93%
    + Canal in-app{#in-app}
       + [Prise en main du canal in-app](using/in-app/get-started-in-app.md)
       + [Conditions préalables pour le canal in-app](using/in-app/inapp-configuration.md)
-      + [Création d’un message In-App mobile](using/in-app/create-in-app.md)
+      + [Créer un message mobile in-app](using/in-app/create-in-app.md)
       + [Créer un message web in-app](using/in-app/create-in-app-web.md)
       + [Concevoir votre contenu in-app](using/in-app/design-in-app.md)
       + [Vérifier et envoyer votre notification in-app](using/in-app/send-in-app.md)
@@ -299,7 +299,7 @@ ht-degree: 93%
       + [Configurer les sous-domaines des pages de destination](using/landing-pages/lp-subdomains.md)
       + [Définir les préréglages de page de destination](using/landing-pages/lp-presets.md)
 + Gestion de contenu {#content-management}
-   + Utilisation de l’assistant d’IA{#ai-assistant}
+   + Utiliser l’assistant IA{#ai-assistant}
       + [Commencer avec l’accélérateur de contenu de l’assistant IA](using/content-management/gs-generative.md)
       + [Génération d’e-mails avec l’IA](using/content-management/generative-email.md)
       + [Génération de notifications push avec l’IA](using/content-management/generative-push.md)
@@ -352,7 +352,7 @@ ht-degree: 93%
       + [Commencer avec les modèles de contenu](using/content-management/content-templates.md)
       + [Accéder aux modèles et les gérer](using/content-management/access-content-templates.md)
       + [Créer des modèles de contenu](using/content-management/create-content-templates.md)
-      + [Verrouillage de contenu dans les modèles de courrier électronique](using/content-management/content-locking.md)
+      + [Verrouiller le contenu dans les modèles d’e-mail](using/content-management/content-locking.md)
       + [Tester des modèles de contenu](using/content-management/test-content-templates.md)
       + [Utiliser des modèles de contenu](using/content-management/use-content-templates.md)
    + Fragments de contenu réutilisables {#fragments}
@@ -389,32 +389,32 @@ ht-degree: 93%
       + [Rapport dynamique de campagne](using/reports/campaign-live-report.md)
       + [Rapport dynamique sur les pages de destination](using/reports/lp-report-live.md)
       + [Rapport dynamique sur les listes d’abonnements](using/reports/subscription-report-live.md)
-   + Expérience de création de rapports mise à jour {#channel-report}
-      + [Prise en main de la mise à jour de l’expérience de création de rapports](using/reports/report-gs-cja.md)
-      + [Configuration manuelle du Customer Journey Analytics](using/reports/cja-ajo.md)
+   + Expérience de création de rapports mise à jour{#channel-report}
+      + [Commencer avec l’expérience de création de rapports mise à jour](using/reports/report-gs-cja.md)
+      + [Configurer manuellement Customer Journey Analytics](using/reports/cja-ajo.md)
       + [Gérer vos rapports](using/reports/report-cja-manage.md)
       + [Conditions préalables aux rapports et à l’expérimentation](using/reports/reporting-configuration.md)
       + Rapports de campagne{#reporting}
          + [Rapport de campagne](using/reports/campaign-global-report-cja.md)
-         + [Rapport de campagne basé sur le code](using/reports/campaign-global-report-cja-code.md)
-         + [Rapport de campagne par carte de contenu](using/reports/campaign-global-report-cja-content.md)
+         + [Rapport de campagne basée sur le code](using/reports/campaign-global-report-cja-code.md)
+         + [Rapport de campagne de carte de contenu](using/reports/campaign-global-report-cja-content.md)
          + [Rapport de campagne par courrier](using/reports/campaign-global-report-cja-direct.md)
          + [Rapport de campagne par e-mail](using/reports/campaign-global-report-cja-email.md)
-         + [Rapport d’expérimentation de campagne](using/reports/campaign-global-report-cja-experimentation.md)
+         + [Rapport de campagne d’expérimentation](using/reports/campaign-global-report-cja-experimentation.md)
          + [Rapport de campagne in-app](using/reports/campaign-global-report-cja-inapp.md)
-         + [Rapport de l&#39;opération de notification push](using/reports/campaign-global-report-cja-push.md)
+         + [Rapport de campagne de notifications push](using/reports/campaign-global-report-cja-push.md)
          + [Rapport de campagne par SMS](using/reports/campaign-global-report-cja-sms.md)
-         + [Rapport des campagnes web](using/reports/campaign-global-report-cja-web.md)
+         + [Rapport de campagne web](using/reports/campaign-global-report-cja-web.md)
       + Rapports de parcours{#reporting}
          + [Rapport de parcours](using/reports/journey-global-report-cja.md)
          + [Rapport de parcours basé sur le code](using/reports/journey-global-report-cja-code.md)
-         + [Rapport parcours de carte de contenu](using/reports/journey-global-report-cja-content.md)
-         + [Rapport parcours courrier](using/reports/journey-global-report-cja-direct.md)
-         + [Rapport parcours de messagerie](using/reports/journey-global-report-cja-email.md)
-         + [Rapport parcours in-app](using/reports/journey-global-report-cja-inapp.md)
-         + [Rapport parcours push](using/reports/journey-global-report-cja-push.md)
-         + [Rapport parcours SMS](using/reports/journey-global-report-cja-sms.md)
-         + [Rapport parcours web](using/reports/journey-global-report-cja-web.md)
+         + [Rapport de parcours de carte de contenu](using/reports/journey-global-report-cja-content.md)
+         + [Rapport de parcours de courrier](using/reports/journey-global-report-cja-direct.md)
+         + [Rapport de parcours d’e-mail](using/reports/journey-global-report-cja-email.md)
+         + [Rapport de parcours in-app](using/reports/journey-global-report-cja-inapp.md)
+         + [Rapport de parcours de notification push](using/reports/journey-global-report-cja-push.md)
+         + [Rapport de parcours SMS](using/reports/journey-global-report-cja-sms.md)
+         + [Rapport de parcours web](using/reports/journey-global-report-cja-web.md)
       + [Rapport d’aperçu](using/reports/channel-report-cja.md)
       + [Rapport sur les pages de destination](using/reports/lp-report-global-cja.md)
       + [Rapport sur les listes d’abonnements](using/reports/subscription-report-global-cja.md)
@@ -448,12 +448,44 @@ ht-degree: 93%
    + [Alertes](using/reports/alerts.md)
    + [Causes d’exclusion](using/reports/exclusion-list.md)
 + Fonctionnalités de décision {#decisioning}
+   + Prise de décision {#experience-decisioning}
+      + [Prise en main de la prise de décision](using/experience-decisioning/gs-experience-decisioning.md)
+      + Référence de l’API{#api-reference}
+         + Éléments de décision{#decision-items}
+            + [Créer des éléments de décision](using/experience-decisioning/api-reference/decisions-items/create.md)
+            + [Liste d’éléments de décision](using/experience-decisioning/api-reference/decisions-items/decision-items-list.md)
+            + [Supprimer des éléments de décision](using/experience-decisioning/api-reference/decisions-items/delete.md)
+            + [Rechercher des éléments de décision](using/experience-decisioning/api-reference/decisions-items/lookup.md)
+            + [Mettre à jour des éléments de décision](using/experience-decisioning/api-reference/decisions-items/update.md)
+         + Collections d’éléments{#items-collections}
+            + [Créer des collections d’éléments](using/experience-decisioning/api-reference/items-collections/create.md)
+            + [Supprimer des collections d’éléments](using/experience-decisioning/api-reference/items-collections/delete.md)
+            + [Liste de collections d’éléments](using/experience-decisioning/api-reference/items-collections/items-collections-list.md)
+            + [Rechercher des collections d’éléments](using/experience-decisioning/api-reference/items-collections/lookup.md)
+            + [Mettre à jour des collections d’éléments](using/experience-decisioning/api-reference/items-collections/update.md)
+         + Stratégies de sélection{#selection-strategies}
+            + [Créer des stratégies de sélection](using/experience-decisioning/api-reference/selection-strategies/create.md)
+            + [Supprimer des stratégies de sélection](using/experience-decisioning/api-reference/selection-strategies/delete.md)
+            + [Rechercher des stratégies de sélection](using/experience-decisioning/api-reference/selection-strategies/lookup.md)
+            + [Liste de stratégies de sélection](using/experience-decisioning/api-reference/selection-strategies/selection-strategies-list.md)
+            + [Mettre à jour des stratégies de sélection](using/experience-decisioning/api-reference/selection-strategies/update.md)
+      + Gérer les éléments de décision {#decision-items}
+         + [Configurer le catalogue d’éléments](using/experience-decisioning/catalogs.md)
+         + [Créer des éléments de décision](using/experience-decisioning/items.md)
+         + [Gérer des collections d’éléments](using/experience-decisioning/collections.md)
+      + Configurer la sélection d’éléments {#selection}
+         + [Créer des règles de décision](using/experience-decisioning/rules.md)
+         + [Créer des méthodes de classement](using/experience-decisioning/ranking.md)
+         + [Utiliser des données contextuelles](using/experience-decisioning/context-data.md)
+      + [Créer des stratégies de sélection](using/experience-decisioning/selection-strategies.md)
+      + [Créer des politiques de décision](using/experience-decisioning/create-decision.md)
+      + [Rapports dans Customer Journey Analytics](using/experience-decisioning/cja-reporting.md)
    + Gestion des décisions {#offer-decisioning}
       + Prise en main de la gestion des décisions {#get-started-decision}
          + [À propos de la gestion des décisions](using/offers/get-started/starting-offer-decisioning.md)
          + [Interface utilisateur](using/offers/get-started/user-interface.md)
          + [Étapes clés de création et de gestion des offres](using/offers/offer-library/key-steps.md)
-         + [Utilisation des audiences de chargement personnalisées pour la prise de décision](using/offers/custom-upload-decisioning.md)
+         + [Tirer profit des audiences de chargement personnalisées pour la prise de décision](using/offers/custom-upload-decisioning.md)
          + [Cas pratique : insertion d’offres dans un e-mail](using/offers/offers-e2e.md)
       + Création de composants {#create-components}
          + [Créer des emplacements](using/offers/offer-library/creating-placements.md)
@@ -588,44 +620,12 @@ ht-degree: 93%
             + [API Decisioning](using/offers/api-reference/offer-delivery-api/decisioning-api.md)
             + [API Edge Decisioning](using/offers/api-reference/offer-delivery-api/edge-decisioning-api.md)
             + [API Batch Decisioning](using/offers/api-reference/offer-delivery-api/batch-decisioning-api.md)
-   + Prise de décision (LA) {#experience-decisioning}
-      + [Prise en main de la prise de décision](using/experience-decisioning/gs-experience-decisioning.md)
-      + Référence de l’API{#api-reference}
-         + Éléments de décision{#decision-items}
-            + [Créer des éléments de décision](using/experience-decisioning/api-reference/decisions-items/create.md)
-            + [Liste d’éléments de décision](using/experience-decisioning/api-reference/decisions-items/decision-items-list.md)
-            + [Supprimer des éléments de décision](using/experience-decisioning/api-reference/decisions-items/delete.md)
-            + [Rechercher des éléments de décision](using/experience-decisioning/api-reference/decisions-items/lookup.md)
-            + [Mettre à jour des éléments de décision](using/experience-decisioning/api-reference/decisions-items/update.md)
-         + Collections d’éléments{#items-collections}
-            + [Créer des collections d’éléments](using/experience-decisioning/api-reference/items-collections/create.md)
-            + [Supprimer des collections d’éléments](using/experience-decisioning/api-reference/items-collections/delete.md)
-            + [Liste de collections d’éléments](using/experience-decisioning/api-reference/items-collections/items-collections-list.md)
-            + [Rechercher des collections d’éléments](using/experience-decisioning/api-reference/items-collections/lookup.md)
-            + [Mettre à jour des collections d’éléments](using/experience-decisioning/api-reference/items-collections/update.md)
-         + Stratégies de sélection{#selection-strategies}
-            + [Créer des stratégies de sélection](using/experience-decisioning/api-reference/selection-strategies/create.md)
-            + [Supprimer des stratégies de sélection](using/experience-decisioning/api-reference/selection-strategies/delete.md)
-            + [Rechercher des stratégies de sélection](using/experience-decisioning/api-reference/selection-strategies/lookup.md)
-            + [Liste de stratégies de sélection](using/experience-decisioning/api-reference/selection-strategies/selection-strategies-list.md)
-            + [Mettre à jour des stratégies de sélection](using/experience-decisioning/api-reference/selection-strategies/update.md)
-      + Gérer les éléments de décision {#decision-items}
-         + [Configurer le catalogue d’éléments](using/experience-decisioning/catalogs.md)
-         + [Créer des éléments de décision](using/experience-decisioning/items.md)
-         + [Gérer des collections d’éléments](using/experience-decisioning/collections.md)
-      + Configurer la sélection d’éléments {#selection}
-         + [Créer des règles de décision](using/experience-decisioning/rules.md)
-         + [Créer des méthodes de classement](using/experience-decisioning/ranking.md)
-         + [Utiliser des données contextuelles](using/experience-decisioning/context-data.md)
-      + [Créer des stratégies de sélection](using/experience-decisioning/selection-strategies.md)
-      + [Créer des politiques de décision](using/experience-decisioning/create-decision.md)
-      + [Rapports dans Customer Journey Analytics](using/experience-decisioning/cja-reporting.md)
 + Gestion des données {#data-management}
    + [Prise en main de la gestion des données](using/data/gs-data.md)
    + [Utilisation des schémas](using/data/get-started-schemas.md)
    + Jeux de données Journey Optimizer {#datasets}
       + [Prise en main des jeux de données](using/data/get-started-datasets.md)
-      + [Mises à jour de la segmentation par flux et de la durée de vie](using/data/datasets-ttl.md)
+      + [Mises à jour de la segmentation du streaming et de la durée de vie](using/data/datasets-ttl.md)
       + [Exporter des jeux de données Journey Optimizer](using/data/export-datasets.md)
       + [Exemples de requêtes](using/data/datasets-query-examples.md)
       + [Schémas intégrés >](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=fr)
