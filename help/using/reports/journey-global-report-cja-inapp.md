@@ -8,13 +8,13 @@ topic: Content Management
 role: User
 level: Intermediate
 source-git-commit: 47482adb84e05fe41eb1c50479a8b50e00469ec4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '507'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
-# Rapport parcours in-app {#journey-global-report}
+# Rapport de parcours in-app {#journey-global-report}
 
 ## Tendance impressions et clics {#impression-click-trend}
 

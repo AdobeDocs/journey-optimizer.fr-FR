@@ -2,35 +2,35 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Rapport de parcours
-description: Découvrez comment utiliser des données basées sur du code du rapport de parcours
+description: Découvrez comment utiliser les données basées sur du code du rapport de parcours.
 feature: Reporting, Journeys
 topic: Content Management
 role: User
 level: Intermediate
 source-git-commit: 47482adb84e05fe41eb1c50479a8b50e00469ec4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '311'
-ht-degree: 10%
+ht-degree: 100%
 
 ---
 
-# Rapport de parcours basé sur le code {#journey-global-report}
+# Rapport de parcours basé sur du code {#journey-global-report}
 
-## Afficher et cliquer {#impressions-code}
+## Affichages et clics {#impressions-code}
 
 ![](assets/code-based-display.png)
 
-Les graphiques **[!UICONTROL Display &amp; Click]** présentent une analyse détaillée de l’engagement de vos profils avec vos expériences basées sur du code, ce qui vous offre des informations précieuses sur la manière dont les profils interagissent avec votre contenu.
+Les graphiques **[!UICONTROL Affichages et clics]** présentent une analyse détaillée de l’engagement de vos profils avec vos expériences basées sur du code, offrant des informations précieuses sur la manière dont les profils interagissent avec votre contenu.
 
-+++ En savoir plus sur les mesures Impression et clic
++++ En savoir plus sur les mesures des impressions et des clics
 
-* **[!UICONTROL Clics uniques]** : nombre de profils ayant cliqué sur un contenu dans vos expériences.
+* **[!UICONTROL Clics uniques]** : nombre de profils qui ont cliqué sur un contenu dans vos expériences.
 
-* **[!UICONTROL Clics]** : nombre de clics sur un contenu dans vos expériences.
+* **[!UICONTROL Clics]** : nombre de clics sur un contenu dans vos expériences.
 
-* **[!UICONTROL Affichages]** : nombre de fois où l’expérience a été ouverte.
+* **[!UICONTROL Affichages]** : nombre dʼouvertures de l’expérience.
 
-* **[!UICONTROL Affichages uniques]** : nombre de fois où l’expérience a été ouverte, plusieurs interactions d’un profil ne sont pas prises en compte.
+* **[!UICONTROL Affichages uniques]** : nombre dʼouvertures de l’expérience, les multiples interactions dʼun même profil ne sont pas prises en compte.
 
 +++
 
@@ -38,36 +38,36 @@ Les graphiques **[!UICONTROL Display &amp; Click]** présentent une analyse dét
 
 ![](assets/code-based-tracking-data.png)
 
-La table **[!UICONTROL Données de suivi]** offre un instantané détaillé de l’activité de profil liée à vos expériences basées sur le code, ce qui vous donne des informations essentielles sur l’engagement et l’efficacité des expériences.
+Le tableau **[!UICONTROL Données de suivi]** offre un instantané détaillé de l’activité de profil liée à vos expériences basées sur du code, fournissant des informations essentielles sur l’engagement et l’efficacité des expériences.
 
 +++ En savoir plus sur les mesures de données de suivi
 
-* **[!UICONTROL Personnes]** : nombre de profils d’utilisateurs qualifiés de profils cibles pour vos expériences.
+* **[!UICONTROL Personnes]** : nombre de profils d’utilisateurs et d’utilisatrices qui sont qualifiés en tant que profils cibles pour vos expériences.
 
-* **[!UICONTROL Taux de clics (CTR)]** : pourcentage d’utilisateurs qui ont interagi avec vos expériences.
+* **[!UICONTROL Taux de clics (CTR)]** : pourcentage d’utilisateurs et d’utilisatrices ayant interagi avec vos expériences.
 
-* **[!UICONTROL Clics]** : nombre de clics sur un contenu dans vos expériences.
+* **[!UICONTROL Clics]** : nombre de clics sur un contenu dans vos expériences.
 
-* **[!UICONTROL Clics uniques]** : nombre de profils ayant cliqué sur un contenu dans vos expériences.
+* **[!UICONTROL Clics uniques]** : nombre de profils qui ont cliqué sur un contenu dans vos expériences.
 
-* **[!UICONTROL Affichages]** : nombre de fois où votre expérience a été ouverte.
+* **[!UICONTROL Affichages]** : nombre dʼouvertures de votre expérience.
 
-* **[!UICONTROL Affichages uniques]** : nombre de fois où votre expérience a été ouverte, plusieurs interactions d’un profil ne sont pas prises en compte.
+* **[!UICONTROL Affichages uniques]** : nombre dʼouvertures de votre expérience, les multiples interactions dʼun même profil ne sont pas prises en compte.
 
 +++
 
 ## Libellés des liens de suivi {#track-link-code}
 
-La table **[!UICONTROL Libellés de liens trackés]** offre un aperçu complet des libellés de liens dans vos expériences basées sur le code, en mettant en évidence ceux qui génèrent le plus fort trafic de visiteurs. Cette fonctionnalité vous permet d’identifier et de hiérarchiser les liens les plus populaires.
+Le tableau **[!UICONTROL Libellés des liens de suivi]** fournit une vue d’ensemble complète des libellés des liens dans vos expériences basées sur du code qui génèrent le plus de trafic de visiteurs et de visiteuses. Cette fonctionnalité vous permet d’identifier et de hiérarchiser les liens les plus populaires.
 
 +++ En savoir plus sur les mesures des libellés des liens de suivi
 
-* **[!UICONTROL Clics uniques]** : nombre de profils ayant cliqué sur un contenu dans vos expériences basées sur le code.
+* **[!UICONTROL Clics uniques]** : nombre de profils qui ont cliqué sur un contenu dans vos expériences basées sur du code.
 
-* **[!UICONTROL Clics]** : nombre de clics sur un contenu dans vos expériences basées sur le code.
+* **[!UICONTROL Clics]** : nombre de clics sur un contenu dans vos expériences basées sur du code.
 
-* **[!UICONTROL Affichages]** : nombre de fois où l’expérience a été ouverte.
+* **[!UICONTROL Affichages]** : nombre dʼouvertures de l’expérience.
 
-* **[!UICONTROL Affichages uniques]** : nombre de fois où l’expérience a été ouverte, plusieurs interactions d’un profil ne sont pas prises en compte.
+* **[!UICONTROL Affichages uniques]** : nombre dʼouvertures de l’expérience, les multiples interactions dʼun même profil ne sont pas prises en compte.
 
 +++

@@ -8,13 +8,13 @@ topic: Content Management
 role: User
 level: Intermediate
 source-git-commit: 47482adb84e05fe41eb1c50479a8b50e00469ec4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '520'
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 
-# Rapport parcours web {#journey-global-report}
+# Rapport de parcours web {#journey-global-report}
 
 ## Tendance impressions et clics {#impressions-web}
 
@@ -48,13 +48,13 @@ Le graphe **[!UICONTROL Clics]** affiche les mesures de clics sur les pages web,
 
 ![](assets/cja-web-displays.png)
 
-Le graphique **[!UICONTROL Affichages]** vous permet de comprendre à la fois la portée globale de l’expérience basée sur le code a été ouverte et le nombre de profils uniques qui l’utilisent.
+Le graphique **[!UICONTROL Affichages]** vous permet de comprendre la portée globale de l’expérience basée sur du code, grâce au nombre d’ouvertures et au nombre d’interactions avec des profils uniques.
 
 +++ En savoir plus sur les mesures d’affichage
 
-* **[!UICONTROL Affichages]** : nombre de fois où l’expérience basée sur le code a été ouverte.
+* **[!UICONTROL Affichages]** : nombre dʼouvertures de l’expérience basée sur du code.
 
-* **[!UICONTROL Affichages uniques]** : nombre de fois que l’expérience basée sur le code a été ouverte, plusieurs interactions d’un profil ne sont pas prises en compte.
+* **[!UICONTROL Affichages uniques]** : nombre dʼouvertures de l’expérience basée sur du code, les multiples interactions dʼun même profil ne sont pas prises en compte.
 
 +++
 

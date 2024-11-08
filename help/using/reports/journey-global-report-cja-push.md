@@ -2,19 +2,19 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Rapport de parcours
-description: Découvrez comment utiliser les données de notification push du rapport parcours
+description: Découvrez comment utiliser les données des notifications push du rapport de parcours
 feature: Reporting, Journeys
 topic: Content Management
 role: User
 level: Intermediate
 source-git-commit: 47482adb84e05fe41eb1c50479a8b50e00469ec4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '507'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
-# Rapport parcours des notifications push {#journey-global-report}
+# Rapport de parcours des notifications push {#journey-global-report}
 
 ## Statistiques d’envoi {#sending-statistics-push}
 

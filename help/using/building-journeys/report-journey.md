@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: publication, parcours, dynamique, validité, vérifier
 source-git-commit: 9b4ff0325d099252a5785aa13cfe0f1fe42acac6
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '320'
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 
@@ -29,7 +29,7 @@ Les événements affichés se sont produits au cours des dernières 24 heures, 
 
 Pour votre parcours dynamique, vous avez accès aux éléments suivants :
 
-* **[!UICONTROL Profils entrés]** : nombre total d’individus ayant quitté le parcours (erreurs incluses).
+* **[!UICONTROL Profils entrés]** : nombre total de personnes ayant quitté le parcours (y compris les erreurs).
 * **[!UICONTROL Profils sortis]** : nombre total de personnes ayant quitté le parcours de cette activité en raison d’un critère de sortie.
 * **[!UICONTROL Profils en erreur]** : nombre total de personnes ayant rencontré une erreur au cours de leur parcours.
 * **[!UICONTROL Profils rejetés]** : nombre total de personnes qui ont été exclues du parcours pour l’une des raisons suivantes :
@@ -41,6 +41,6 @@ Pour votre parcours dynamique, vous avez accès aux éléments suivants :
 
 Pour chaque activité au sein de chaque parcours dynamique, vous avez accès aux éléments suivants :
 
-* **[!UICONTROL Entré]** : nombre total d’individus entrés dans cette activité.
-* **[!UICONTROL Sortie (critères de sortie satisfaits)]** : nombre total d’individus qui ont quitté le parcours de cette activité, en raison d’un critère de sortie.
+* **[!UICONTROL Entrées]** : nombre total de personnes ayant rejoint cette activité.
+* **[!UICONTROL Sorties (critères de sortie remplis)]** : nombre total de personnes ayant quitté le parcours de cette activité en raison d’un critère de sortie.
 * **[!UICONTROL Erreur]** : nombre total de personnes ayant rencontré une erreur pour cette activité.

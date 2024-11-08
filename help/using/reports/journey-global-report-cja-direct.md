@@ -2,19 +2,19 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Rapport de parcours
-description: Découvrez comment utiliser les données directes du rapport parcours
+description: Découvrez comment utiliser les données courrier du rapport de parcours
 feature: Reporting, Journeys
 topic: Content Management
 role: User
 level: Intermediate
 source-git-commit: 47482adb84e05fe41eb1c50479a8b50e00469ec4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '334'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
-# Rapport parcours courrier {#journey-global-report}
+# Rapport de parcours de courrier {#journey-global-report}
 
 ## Statistiques d’envoi {#sending-statistics-directmail}
 

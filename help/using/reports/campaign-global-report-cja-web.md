@@ -2,19 +2,19 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Rapport de campagne
-description: Découvrez comment utiliser les données web du rapport Campaign
+description: Découvrez comment utiliser les données web du rapport de campagne.
 feature: Reporting
 topic: Content Management
 role: User
 level: Intermediate
 source-git-commit: 47482adb84e05fe41eb1c50479a8b50e00469ec4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '515'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
-# Rapport des campagnes web {#campaign-global-report-cja-web}
+# Rapport de campagne web {#campaign-global-report-cja-web}
 
 ## Tendance impressions et clics {#impressions-web}
 

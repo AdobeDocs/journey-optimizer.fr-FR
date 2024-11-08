@@ -10,9 +10,9 @@ level: Intermediate
 keywords: configuration, expérimentation, création de rapports, optimizer
 exl-id: 327a0c45-0805-4f64-9bab-02d67276eff8
 source-git-commit: f7a0feb38b902b14c402f631cb5c77c1e329886e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '585'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -80,7 +80,7 @@ The table below shows which metrics will be added to the **[!UICONTROL Objective
 
 >[!NOTE]
 >
->Les jeux de données nouvellement créés seront uniquement disponibles dans les rapports de Customer Journey Analytics.
+>Les jeux de données nouvellement créés seront uniquement disponibles dans les rapports Customer Journey Analytics.
 
 1. Dans le menu **[!UICONTROL Administration]**, sélectionnez **[!UICONTROL Configurations]**. Dans la section **[!UICONTROL Rapports]**, cliquez sur **[!UICONTROL Gérer]**.
 

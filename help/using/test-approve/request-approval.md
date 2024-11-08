@@ -5,48 +5,48 @@ role: User
 level: Beginner
 feature: Approval
 source-git-commit: 509ebc377ac8c24db464728b7544eaa96e8e5da4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '466'
-ht-degree: 39%
+ht-degree: 100%
 
 ---
 
 
 # Demander l’approbation {#request-approval}
 
-L&#39;accès au workflow de validation est déterminé par votre cas pratique spécifique :
+L’accès au workflow d’approbation est déterminé par votre cas pratique spécifique :
 
-* **Il n’existe aucune stratégie d’approbation active**
+* **Il n’existe aucune politique d’approbation active**
 
-   * **Campagnes** : si aucune stratégie d’approbation n’est active pour l’objet de campagne dans un environnement de test, les campagnes affichent le bouton **[!UICONTROL Activer]**, ce qui vous permet de les activer sans avoir à les approuver.
+   * **Campagnes** : si aucune politique d’approbation n’est active pour l’objet de campagne dans un sandbox, les campagnes affichent le bouton **[!UICONTROL Activer]**, ce qui vous permet de les activer sans avoir à les approuver.
 
-   * **Parcours** : si aucune stratégie d’approbation n’est active pour l’objet de Parcours, les parcours affichent le bouton **[!UICONTROL Publish]**, ce qui vous permet de publier directement.
+   * **Parcours** : si aucune politique d’approbation n’est active pour l’objet de parcours, les parcours affichent le bouton **[!UICONTROL Publier]**, ce qui vous permet de publier directement.
 
-* **Il existe des stratégies d’approbation actives**
+* **Il existe des politiques d’approbation actives**
 
-   * **Campagnes** : s’il existe une ou plusieurs stratégies d’approbation actives pour l’objet de campagne dans un environnement de test, toutes les campagnes de cet environnement de test afficheront le bouton **[!UICONTROL Demander l’approbation]** .
-Si aucune stratégie d’approbation ne s’applique à l’objet sélectionné lorsque vous cliquez sur le bouton **[!UICONTROL Demander l’approbation]** , le processus de validation automatique est déclenché.
+   * **Campagnes** : s’il existe une ou plusieurs politiques d’approbation actives pour l’objet de campagne dans un sandbox, toutes les campagnes de ce sandbox afficheront le bouton **[!UICONTROL Demander l’approbation]**.
+Si aucune politique d’approbation ne s’applique à l’objet sélectionné lorsque vous cliquez sur le bouton **[!UICONTROL Demander l’approbation]**, le processus d’approbation automatique est déclenché.
 
-   * **Parcours** : s’il existe une ou plusieurs stratégies d’approbation actives pour l’objet de Parcours dans un environnement de test, tous les parcours afficheront le bouton **[!UICONTROL Demander l’approbation]** .
-Si aucune stratégie d’approbation ne s’applique à l’objet sélectionné lorsque vous cliquez sur le bouton **[!UICONTROL Demander l’approbation]** , le processus de validation automatique est déclenché.
+   * **Parcours** : s’il existe une ou plusieurs politiques d’approbation actives pour l’objet de parcours dans un sandbox, tous les parcours afficheront le bouton **[!UICONTROL Demander l’approbation]**.
+Si aucune politique d’approbation ne s’applique à l’objet sélectionné lorsque vous cliquez sur le bouton **[!UICONTROL Demander l’approbation]**, le processus d’approbation automatique est déclenché.
 
 ## Envoyer une demande d’approbation
 
-Après avoir créé votre campagne ou votre parcours, cliquez sur le bouton **[!UICONTROL Demander l’approbation]** . Cela permet de vérifier si votre environnement de test contient une stratégie d’approbation active qui s’applique à la campagne ou au parcours.
+Après avoir créé votre campagne ou votre parcours, cliquez sur le bouton **[!UICONTROL Demander l’approbation]**. Vous pouvez ainsi vérifier si votre sandbox contient une politique d’approbation active qui s’applique à la campagne ou au parcours.
 
-* Si une stratégie d’approbation applicable est trouvée, votre campagne ou votre parcours sera envoyé pour révision.
+* S’il existe une politique d’approbation applicable, votre campagne ou votre parcours sera envoyé(e) pour révision.
 
-* Si aucune stratégie d’approbation n’est applicable à la campagne ou au parcours après avoir cliqué sur le bouton **[!UICONTROL Demander l’approbation]** , la campagne ou le parcours sera automatiquement approuvé et activé ou publié.
+* Si aucune politique d’approbation n’est applicable à la campagne ou au parcours après avoir cliqué sur le bouton **[!UICONTROL Demander l’approbation]**, la campagne ou le parcours sera automatiquement approuvé(e) et activé(e) ou publié(e).
 
 Le volet **[!UICONTROL Demander l’approbation]** s’ouvre. Si nécessaire, envoyez un message aux approbateurs et approbatrices, puis cliquez sur **[!UICONTROL Envoyer]** pour envoyer votre demande.
 
 ![](assets/approval-request.png)
 
-Bien que l’état de la campagne ou du parcours soit **[!UICONTROL En révision]**, vous avez la possibilité d’annuler la demande d’approbation. En cliquant sur le bouton **[!UICONTROL Annuler la demande]** , la campagne ou le parcours revient à l’étape de brouillon et une notification est envoyée aux réviseurs les informant que la demande a été annulée. Vous pouvez ensuite apporter les modifications nécessaires et demander à nouveau une approbation pour la campagne ou le parcours.
+Bien que l’état de la campagne ou du parcours soit **[!UICONTROL En révision]**, vous avez la possibilité d’annuler la demande d’approbation. En cliquant sur le bouton **[!UICONTROL Annuler la demande]**, la campagne ou le parcours revient à l’étape de brouillon et une notification est envoyée aux réviseurs et réviseuses, les informant que la demande a été annulée. Vous pouvez ensuite apporter les modifications nécessaires et demander à nouveau une approbation pour la campagne ou le parcours.
 
 ![](assets/approval-cancel.png)
 
-## Gestion des demandes d’approbation
+## Gérer les demandes d’approbation
 
 Une fois que la demande d’approbation a été envoyée aux personnes en charge de l’approbation, elles peuvent la vérifier et activer le parcours ou la campagne pour sa mise en ligne, ou demander des modifications si nécessaire. [Découvrir comment réviser et approuver une demande](review-approve-request.md)
 

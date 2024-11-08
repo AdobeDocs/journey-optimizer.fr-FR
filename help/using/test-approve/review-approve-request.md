@@ -5,9 +5,9 @@ role: User
 level: Beginner
 feature: Approval
 source-git-commit: 8fecd0d4812ba875dba1d47bc32ab08178a13f2c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '343'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -49,4 +49,4 @@ Après l’envoi de la demande, le créateur ou la créatrice du parcours ou de 
 
 >[!NOTE]
 >
-> Si vous ne recevez pas de notification de validation par email, vous devez mettre à jour vos préférences d&#39;abonnement dans vos profils Experience Cloud. [En savoir plus](https://experienceleague.adobe.com/fr/docs/core-services/interface/features/account-preferences)
+> Si vous ne recevez pas de notification d’approbation par e-mail, vous devez mettre à jour vos préférences d’abonnement dans vos profils Experience Cloud. [En savoir plus](https://experienceleague.adobe.com/fr/docs/core-services/interface/features/account-preferences)

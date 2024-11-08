@@ -2,15 +2,15 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Rapport de campagne
-description: Découvrez comment utiliser les données d’expérience du rapport Campaign
+description: Découvrez comment utiliser les données d’expérimentation du rapport de campagne.
 feature: Reporting
 topic: Content Management
 role: User
 level: Intermediate
 source-git-commit: 47482adb84e05fe41eb1c50479a8b50e00469ec4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '279'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 

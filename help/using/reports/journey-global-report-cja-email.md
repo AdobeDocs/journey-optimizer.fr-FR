@@ -2,19 +2,19 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Rapport de parcours
-description: Découvrez comment utiliser les données d’email du rapport parcours
+description: Découvrez comment utiliser les données des e-mails du rapport de parcours
 feature: Reporting, Journeys
 topic: Content Management
 role: User
 level: Intermediate
 source-git-commit: 47482adb84e05fe41eb1c50479a8b50e00469ec4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '955'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
-# Rapport parcours de messagerie {#journey-global-report}
+# Rapport de parcours d’e-mail {#journey-global-report}
 
 ## Tendance diffusés et clics {#delivered-click}
 

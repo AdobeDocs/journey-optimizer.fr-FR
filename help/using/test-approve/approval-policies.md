@@ -5,9 +5,9 @@ role: User
 level: Beginner
 feature: Approval
 source-git-commit: 8fecd0d4812ba875dba1d47bc32ab08178a13f2c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '432'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -16,13 +16,13 @@ ht-degree: 93%
 
 >[!NOTE]
 >
->Pour créer des stratégies d’approbation, vous devez disposer de droits d’administrateur système ou produit dans Adobe Experience Platform. [En savoir plus](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/home)
+>Pour créer des politiques d’approbation, vous devez disposer de droits d’administration du système ou du produit dans Adobe Experience Platform. [En savoir plus](https://experienceleague.adobe.com/fr/docs/experience-platform/access-control/home)
 
 Les politiques d’approbation permettent à l’équipe d’administration d’établir un processus de validation pour les parcours et les campagnes. Ce système décrit des conditions spécifiques qui déterminent si un parcours ou une campagne nécessite une approbation. Ces politiques peuvent être d’une complexité variable, allant du simple fait d’exiger que toutes les campagnes soient examinées par une personne ou une équipe spécifique à l’établissement de critères en fonction de la personne qui a créé la campagne.
 
 ## Créer des politiques d’approbation {#create-policies}
 
-1. Dans le menu **[!UICONTROL Administration]** de Journey Optimizer, accédez à **[!UICONTROL Autorisations]**, puis **[!UICONTROL Stratégies]**.
+1. Dans Journey Optimizer, dans le menu **[!UICONTROL Administration]**, accédez à **[!UICONTROL Autorisations]**, puis à **[!UICONTROL Politiques]**.
 
    ![](assets/policy_create_1.png)
 
