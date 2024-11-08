@@ -1,32 +1,82 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Utiliser les données Adobe Experience Platform pour la personnalisation (version bêta)
+title: Utilisation des données Adobe Experience Platform pour la personnalisation (Beta)
 description: Découvrez comment utiliser les données Adobe Experience Platform pour la personnalisation.
 feature: Personalization, Rules
 topic: Personalization
 role: Data Engineer
 level: Intermediate
 keywords: expression, éditeur
-hidefromtoc: true
-hide: true
 exl-id: 2fc10fdd-ca9e-46f0-94ed-2d7ea4de5baf
-source-git-commit: a03541b5f1d9c799c30bf1d38b6f187d94c21dff
+source-git-commit: cb7842209e03c579904979480304e543a6b50f50
 workflow-type: tm+mt
-source-wordcount: '537'
-ht-degree: 100%
+source-wordcount: '1015'
+ht-degree: 39%
 
 ---
 
-# Utiliser les données Adobe Experience Platform pour la personnalisation (version bêta) {#aep-data}
+# Utilisation des données Adobe Experience Platform pour la personnalisation (Beta) {#aep-data}
 
 >[!AVAILABILITY]
 >
->Cette fonctionnalité est publiée sous forme de version bêta privée.
+>Cette fonctionnalité est actuellement disponible pour tous les clients en version bêta publique.
 >
->Pour l’instant, elle n’est disponible que pour le **canal e-mail** et à des fins de test dans le sandbox hors production que vous avez fourni à Adobe et pour les jeux de données requis pour la version bêta.
+>Pour utiliser cette fonctionnalité, vous devez d’abord accepter les termes bêta de votre entreprise qui s’affichent lors de l’ajout des nouvelles fonctions d’assistance &quot;datasetLookup&quot; dans l’éditeur de personnalisation.
 
-Journey Optimizer vous permet d’utiliser les données d’Adobe Experience Platform dans l’éditeur de personnalisation pour [personnaliser votre contenu](../personalization/personalize.md). Les étapes sont les suivantes :
+Journey Optimizer vous permet d’utiliser les données d’Adobe Experience Platform dans l’éditeur de personnalisation pour [personnaliser votre contenu](../personalization/personalize.md). Pour ce faire, les jeux de données nécessaires à la personnalisation de la recherche doivent d’abord être activés par le biais d’un appel API, comme décrit ci-dessous. Une fois que vous avez terminé, vous pouvez utiliser leurs données pour personnaliser votre contenu dans [!DNL Journey Optimizer].
+
+## Restrictions et directives de Beta {#guidelines}
+
+Avant de commencer, consultez les restrictions et les directives suivantes :
+
+### Activation des jeux de données {#enablement}
+
+* **La taille du jeu de données** est limitée à 5 Go pour les jeux de données de production et 1 Go pour les jeux de données de l’environnement de test de développement.
+* **Un maximum de 50 jeux de données peuvent être activés** pour la recherche par organisation à tout moment.
+* **Le nombre d’enregistrements** est limité à 5M dans les jeux de données de production et 1M dans les jeux de données sandbox de développement.
+* **L’étiquetage et l’application de l’utilisation des données** n’est pas appliquée pour l’instant pour les jeux de données activés pour la recherche.
+* **Les jeux de données activés pour la recherche et utilisés dans la personnalisation ne sont pas protégés de la suppression**. Il vous appartient de déterminer quels jeux de données sont utilisés pour la personnalisation afin de vous assurer qu’ils ne sont pas supprimés ou supprimés.
+
+### Personalization utilisant des données [!DNL Adobe Experience Platform] {#perso}
+
+* **Canaux pris en charge** : pour l’instant, cette fonctionnalité n’est disponible que pour une utilisation dans les canaux email, SMS, push et courrier.
+* **L’étiquetage et l’application de l’utilisation des données** n’est pas appliquée pour l’instant pour les jeux de données activés pour la recherche.
+* **Fragments d’expression** : pour le moment, la personnalisation de la recherche de jeux de données ne peut pas être placée dans des fragments d’expression.
+
+## Activation d’un jeu de données pour la recherche de données {#enable}
+
+Afin d’exploiter les données de votre jeu de données pour la personnalisation, vous devez utiliser un appel API pour récupérer son état et activer le service de recherche.
+
+### Conditions préalables {#prerequisites-enable}
+
+* Suivez les instructions détaillées dans [cette documentation](https://developer.adobe.com/journey-optimizer-apis/references/authentication/) pour configurer votre environnement afin d’envoyer des commandes API.
+* Les API Adobe Journey Optimizer et Adobe Experience Platform doivent être ajoutées au projet du développeur.
+
+  ![](assets/aep-data-api.png)
+
+* Vous devez disposer de l’autorisation de gestion des jeux de données dans le cadre de votre rôle.
+* Le schéma sur lequel le jeu de données est basé doit contenir une **identité principale** pouvant agir comme clé de recherche.
+
+### Structure de l’appel API {#call}
+
+```
+curl -s -XPATCH "https://platform.adobe.io/data/core/entity/lookup/dataSets/${DATASET_ID}/${ACTION}" \ -H "Authorization: Bearer ${ACCESS_TOKEN}" \ -H "x-api-key: ${API_KEY}" \ -H "x-gw-ims-org-id: ${IMS_ORG}" \ -H "x-sandbox-name: ${SANDBOX_NAME}"
+```
+
+où :
+
+* **L’URL** est `https://platform.adobe.io/data/core/entity/lookup/dataSets/${DATASET_ID}/${ACTION}`
+* **L’identifiant du jeu de données** est le jeu de données pour lequel vous souhaitez activer.
+* **L’action** est activée OU désactivée.
+* **Le jeton d’accès** peut être récupéré à partir de la console du développeur.
+* La **clé API** peut être récupérée à partir de la console de développement.
+* **L’identifiant de l’organisation IMS** est votre organisation Adobe IMS.
+* **Sandbox Name** est le nom de l’environnement de test dans lequel se trouve le jeu de données (c’est-à-dire prod, dev, etc.).
+
+## Utilisation d’un jeu de données pour la personnalisation {#leverage}
+
+Une fois qu’un jeu de données a été activé pour la personnalisation de la recherche à l’aide d’un appel API, vous pouvez utiliser ses données pour personnaliser votre contenu dans [!DNL Journey Optimizer].
 
 1. Ouvrez l’éditeur de personnalisation, disponible dans tout contexte où vous pouvez définir une personnalisation, tel que les messages. [Découvrir comment utiliser l’éditeur de personnalisation](../personalization/personalization-build-expressions.md)
 
@@ -37,17 +87,21 @@ Journey Optimizer vous permet d’utiliser les données d’Adobe Experience 
 1. Cette fonction fournit une syntaxe prédéfinie pour vous permettre d’appeler des champs à partir de vos jeux de données Adobe Experience Platform. La syntaxe se présente comme suit :
 
    ```
-   {{entity.datasetId="datasetId" id="key" result="store"}}
+   {{datasetLookup datasetId="datasetId" id="key" result="store" required=false}}
    ```
 
-   * **entity.datasetId** est l’identifiant du jeu de données que vous utilisez.
+   * **datasetId** est l’identifiant du jeu de données que vous utilisez.
    * **id** est l’identifiant de la colonne source qui doit être associée à l’identité principale du jeu de données de recherche.
 
      >[!NOTE]
      >
-     >La valeur saisie pour ce champ peut être un identifiant du champ (*profile.couponValue*), un champ transmis dans un événement de parcours (*context.journey.events.event_ID.couponValue*) ou une valeur statique (*couponAbcd*). Dans tous les cas, le système utilisera la valeur et la recherche du jeu de données pour vérifier si celui-ci correspond à une clé.
+     >La valeur saisie pour ce champ peut être un identifiant de champ (*profile.packages.packageSKU*), un champ transmis dans un événement de parcours (*context.parcours.events.event_ID.productSKU*) ou une valeur statique (*sku007653*). Dans tous les cas, le système utilisera la valeur et la recherche dans le jeu de données pour vérifier s’il correspond à une clé.
+     >
+     >Si vous utilisez une valeur de chaîne littérale pour la clé, conservez le texte entre guillemets. Par exemple : `{{datasetLookup datasetId="datasetId" id="SKU1234" result="store" required=false}}`. Si vous utilisez une valeur d’attribut comme clé dynamique, supprimez les guillemets. Par exemple : `{{datasetLookup datasetId="datasetId" id=category.product.SKU result="SKU" required=false}}`
 
    * **result** est un nom arbitraire que vous devez fournir pour référencer toutes les valeurs de champ que vous allez récupérer du jeu de données. Cette valeur sera utilisée dans votre code pour appeler chaque champ.
+
+   * **required=false** : si la valeur TRUE est définie sur obligatoire, le message n’est délivré que si une clé correspondante est trouvée. S’il est défini sur false, une clé correspondante n’est pas requise et le message peut toujours être diffusé. Notez que, s’il est défini sur false, il est recommandé de tenir compte des valeurs de secours ou par défaut dans le contenu de votre message.
 
    +++Où récupérer un identifiant de jeu de données ?
 
@@ -60,7 +114,7 @@ Journey Optimizer vous permet d’utiliser les données d’Adobe Experience 
 1. Adaptez la syntaxe à vos besoins. Dans cet exemple, nous allons récupérer les données relatives aux vols des passagères et passagers. La syntaxe se présente comme suit :
 
    ```
-   {{entity.datasetId="1234567890abcdtId" id=profile.upcomingFlightId result="flight"}}
+   {{datasetLookup datasetId="1234567890abcdtId" id=profile.upcomingFlightId result="flight"}}
    ```
 
    * Nous travaillons dans le jeu de données dont l’identifiant est « 1234567890abcdtId »,
@@ -73,8 +127,12 @@ Journey Optimizer vous permet d’utiliser les données d’Adobe Experience 
    {{result.fieldId}}
    ```
 
+   >[!NOTE]
+   >
+   >Lors du référencement d’un champ de jeu de données, veillez à correspondre au chemin d’accès au champ complet tel que défini dans le schéma.
+
    * **result** est la valeur que vous avez attribuée au paramètre **result** dans la fonction d’assistance **MultiEntity**. Dans cet exemple, « vol ».
-   * **fieldID** est l’identifiant du champ à récupérer. Cet identifiant est visible dans l’interface d’utilisation d’Adobe Experience Platform lors de la navigation dans votre jeu de données. Développez la section ci-dessous pour afficher un exemple :
+   * **fieldID** est l’identifiant du champ à récupérer. Cet identifiant est visible dans l’interface utilisateur de [!DNL Adobe Experience Platform] lors de la navigation dans le schéma d’enregistrement associé à votre jeu de données :
 
      +++Où récupérer un identifiant de champ ?
 

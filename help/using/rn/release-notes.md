@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Notes de mise à jour d’Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 22eae783ec2a7db2209b2a12b78b286e4f97ee1b
+source-git-commit: cb7842209e03c579904979480304e543a6b50f50
 workflow-type: tm+mt
-source-wordcount: '2065'
-ht-degree: 80%
+source-wordcount: '2135'
+ht-degree: 78%
 
 ---
 
@@ -257,22 +257,22 @@ Antérieurement disponibles pour un ensemble d’organisations (LA), les fonctio
 </table>
 
 
-<!--<table>
+<table>
 <thead>
 <tr>
-<th><strong>Use Adobe Experience Platform data for personalization (Beta)</strong><br/></th>
+<th><strong>Utilisation des données Adobe Experience Platform pour la personnalisation (Beta)</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Leverage data from Adobe Experience Platform in the personalization editor to personalize your content. To do this, datasets needed for lookup personalization must first be enabled through an API call. Once done, you can use their data to personalize your content into [!DNL Journey Optimizer].</p>
-<p>This capability is currently available to all customers as a public beta.</p>
-<p>For more information, refer to the <a href="../personalization/lookup-aep-data.md"</a>.</p>
+<p>Utilisez les données de Adobe Experience Platform dans l’éditeur de personnalisation pour personnaliser votre contenu. Pour ce faire, les jeux de données nécessaires à la personnalisation de la recherche doivent d’abord être activés par le biais d’un appel API. Une fois que vous avez terminé, vous pouvez utiliser leurs données pour personnaliser votre contenu dans [!DNL Journey Optimizer].</p>
+<p>Cette fonctionnalité est actuellement disponible en version bêta publique pour l’ensemble des clientes et clients.</p>
+<p>Pour plus d’informations, consultez la <a href="../personalization/lookup-aep-data.md">documentation détaillée</a>.</p>
 </td>
 </tr>
 </tbody>
-</table>-->
+</table>
 
 ### Améliorations {#24-10-improvements}
 
