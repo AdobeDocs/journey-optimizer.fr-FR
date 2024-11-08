@@ -12,7 +12,7 @@ exl-id: 10d2de34-23c1-4a5e-b868-700b462312eb
 source-git-commit: 26d311802236a1f9e8f6273c1291bcb54138aad2
 workflow-type: tm+mt
 source-wordcount: '2049'
-ht-degree: 95%
+ht-degree: 99%
 
 ---
 
@@ -36,7 +36,7 @@ Les audiences peuvent être générées à l’aide de différentes méthodes :
 
 * **Définitions de segment** : créez une définition d’audience à l’aide du Service de segmentation d’Adobe Experience Platform. [Découvrir comment créer des définitions de segment](creating-a-segment-definition.md)
 
-* **Chargement personnalisé** : importez une audience à l’aide d’un fichier CSV. Découvrez comment importer des audiences dans la [documentation du service de segmentation](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/audience-portal#import-audience){target="_blank"} d’Adobe Experience Platform.
+* **Chargement personnalisé** : importez une audience à l’aide d’un fichier CSV. Découvrez comment importer des audiences dans la [documentation du service de segmentation](https://experienceleague.adobe.com/fr/docs/experience-platform/segmentation/ui/audience-portal#import-audience){target="_blank"} d’Adobe Experience Platform.
 
 * **Composition d’audiences** : créez un workflow de composition afin de combiner les audiences d’Adobe Experience Platform existantes dans une zone de travail visuelle et d’exploiter diverses activités (telles que le partage, l’exclusion, etc.) pour créer de nouvelles audiences. [Prise en main de la composition d’audiences](get-started-audience-orchestration.md)
 
@@ -50,7 +50,7 @@ Pour plus d’informations sur l’utilisation des audiences de chargement perso
 
 ## Cibler des audiences dans [!DNL Journey Optimizer] {#segments-in-journey-optimizer}
 
-Vous pouvez sélectionner dans des campagnes et des parcours toute audience générée à l’aide de définitions de segment, de téléchargements personnalisés, de workflows de composition ou de composition d’audiences fédérées.
+Vous pouvez sélectionner dans des campagnes et des parcours n’importe quelle audience générée à l’aide de définitions de segment, de chargement personnalisé, de workflows de composition ou de composition d’audiences fédérées.
 
 >[!AVAILABILITY]
 >
@@ -68,11 +68,11 @@ Vous pouvez utiliser les audiences dans **[!DNL Journey Optimizer]** de différe
 
   >[!NOTE]
   >
-  >En raison de la nature du lot des audiences créées à l’aide de workflows de composition, d’un téléchargement personnalisé ou d’une composition d’audience fédérée, vous ne pouvez pas cibler ces audiences dans une activité &quot;Qualification de l’audience&quot;. Seules les audiences créées à l’aide de définitions de segment peuvent être utilisées dans cette activité.
+  >En raison de la nature par lots des audiences créées à l’aide de workflows de composition, du chargement personnalisé et de la composition d’audiences fédérées, vous ne pouvez pas cibler ces audiences dans une activité « Qualification de l’audience ». Seules les audiences créées à l’aide de définitions de segment peuvent être utilisées dans cette activité.
 
 ## Utiliser les attributs d’enrichissement d’audiences {#enrichment}
 
-Lors du ciblage d’une audience générée à l’aide de processus de composition, d’une audience personnalisée (fichier CSV) ou d’une composition d’audience fédérée, vous pouvez tirer parti des attributs d’enrichissement de ces audiences pour créer votre parcours et personnaliser vos messages.
+Lors du ciblage d’une audience générée à l’aide de workflows de composition, d’une audience personnalisée (fichier CSV) ou d’une composition d’audiences fédérées, vous pouvez utiliser les attributs d’enrichissement de ces audiences pour créer votre parcours et personnaliser vos messages.
 
 >[!NOTE]
 >

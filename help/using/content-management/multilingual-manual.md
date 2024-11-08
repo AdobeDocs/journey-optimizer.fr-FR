@@ -12,7 +12,7 @@ exl-id: 6244d717-fbd6-468e-9164-60451d0d62f0
 source-git-commit: d63b12c9c7d3b16309661ffbe20baf8a9c140945
 workflow-type: tm+mt
 source-wordcount: '949'
-ht-degree: 34%
+ht-degree: 37%
 
 ---
 
@@ -20,13 +20,13 @@ ht-degree: 34%
 
 >[!IMPORTANT]
 >
->Pour le flux manuel, les utilisateurs doivent disposer de l’autorisation Gérer les **[!UICONTROL paramètres]** de langue.
+>Pour le flux manuel, les utilisateurs doivent se voir accorder l’autorisation **[!UICONTROL Gérer les paramètres de langue]**.
 
-Grâce au flux manuel, vous pouvez facilement traduire votre contenu directement dans vos campagnes et vos parcours, ce qui vous donne des options de contrôle et de personnalisation précises pour vos messages multilingues. De plus, vous pouvez facilement importer du contenu multilingue préexistant à l’aide de l’option Importer un HTML.
+Grâce au flux manuel, vous pouvez traduire facilement votre contenu directement dans vos campagnes et parcours, ce qui vous permet de disposer d’options de contrôle et de personnalisation précises pour vos messages multilingues. De plus, vous pouvez facilement importer du contenu multilingue préexistant à l’aide de l’option Importer un HTML.
 
 Pour créer du contenu multilingue à l’aide de la traduction manuelle, procédez comme suit :
 
-1. [Ajoutez votre fournisseur (facultatif)](multilingual-provider.md)
+1. [Ajouter votre fournisseur (facultatif)](multilingual-provider.md)
 
 1. [Ajouter des paramètres régionaux (facultatif)](multilingual-locale.md)
 
@@ -44,7 +44,7 @@ Dans cette section, vous pouvez définir vos différents paramètres régionaux 
 
    ![](assets/language_settings_1.png)
 
-1. Saisissez le nom de vos **[!UICONTROL paramètres]** de langue et choisissez **[!UICONTROL Traduction manuelle]**.
+1. Saisissez le nom de vos **[!UICONTROL paramètres de langue]** et choisissez **[!UICONTROL Traduction manuelle]**.
 
 1. Sélectionnez les **[!UICONTROL Paramètres régionaux]** associés à ces paramètres. Vous pouvez ajouter 50 paramètres régionaux au maximum.
 
@@ -52,7 +52,7 @@ Dans cette section, vous pouvez définir vos différents paramètres régionaux 
 
    ![](assets/multilingual-settings-2.png)
 
-1. Sélectionnez une **[!UICONTROL préférence]** de secours pour définir une option de sauvegarde lorsqu’un profil ne répond pas aux critères nécessaires à la diffusion de contenu.
+1. Sélectionnez une **[!UICONTROL Préférences de secours]** pour définir une option de sauvegarde lorsqu’un profil ne répond pas aux critères nécessaires pour la diffusion de contenu.
 
    Notez que si aucune option de secours n’est sélectionnée, la campagne ou le parcours ne sera pas envoyé.
 
@@ -65,7 +65,7 @@ Dans cette section, vous pouvez définir vos différents paramètres régionaux 
 
    ![](assets/multilingual-settings-3.png)
 
-1. Si vous sélectionnez **[!UICONTROL Créer des règles]** conditionnelles personnalisées, sélectionnez les paramètres régionaux pour lesquels vous souhaitez créer des conditions. Ensuite, créez des règles basées sur des facteurs tels que l’emplacement de l’utilisateur, les préférences linguistiques ou d’autres éléments contextuels.
+1. Si vous sélectionnez **[!UICONTROL Créer des règles conditionnelles personnalisées]**, sélectionnez le paramètre régional pour lequel vous souhaitez créer des conditions. Créez ensuite des règles basées sur des facteurs tels que l’emplacement de l’utilisateur, les préférences linguistiques ou d’autres éléments contextuels.
 
    ![](assets/multilingual-settings-4.png)
 
@@ -73,13 +73,13 @@ Dans cette section, vous pouvez définir vos différents paramètres régionaux 
 
    >[!IMPORTANT]
    >
-   >Les données contextuelles sont disponibles exclusivement pour les canaux Web, In-App, Expérience et Cartes de contenu basés sur Code. S’il est utilisé pour les canaux Email, SMS, Push notification ou Direct Mail, sans attributs supplémentaires, la campagne ou le parcours sera envoyé dans la langue de la première option de la liste.
+   >Les données contextuelles sont disponibles exclusivement pour les canaux web, in-app, d’expérience basée sur le code et les cartes de contenu. S&#39;il est utilisé pour les canaux Email, SMS, Notification push ou Courrier, sans attributs supplémentaires, la campagne ou le parcours sera envoyé dans la langue de la première option de la liste.
 
    ![](assets/multilingual-settings-6.png)
 
-   +++Prérequis pour utiliser des événements contextuels dans vos conditions
+   +++Conditions préalables pour utiliser les événements contextuels dans vos conditions
 
-   Lorsque les utilisateurs affichent votre contenu, une demande de personnalisation est envoyée avec l’événement d’expérience. Pour exploiter les données contextuelles dans vos conditions, vous devez joindre des données supplémentaires à la charge utile de la demande de personnalisation. Pour ce faire, vous devez créer une règle dans la collecte de données Adobe Experience Platform pour spécifier : SI une demande de personnalisation est envoyée, alors joignez des données supplémentaires à la demande, en définissant l’attribut à associer au champ de langue de votre schéma.
+   Lorsque les utilisateurs affichent votre contenu, une demande de personnalisation est envoyée avec l’événement d’expérience. Pour exploiter les données contextuelles dans vos conditions, vous devez joindre des données supplémentaires au payload de la demande de personnalisation. Pour ce faire, vous devez créer une règle dans la collecte de données Adobe Experience Platform pour spécifier : SI une demande de personnalisation est envoyée, alors joignez des données supplémentaires à la demande, en définissant l’attribut à associer au champ de langue de votre schéma.
 
    >[!NOTE]
    >
@@ -91,17 +91,17 @@ Dans cette section, vous pouvez définir vos différents paramètres régionaux 
 
       ![](assets/multilingual-experience-events-rule-if.png)
 
-      * Choisissez l’extension **** avec laquelle vous travaillez.
-      * Dans le champ Type d’événement ****, sélectionnez « Événement de requête AEP ».
-      * Dans le volet droit, sélectionnez « Type d’événement XDM est égal à personalization.request »
-      * Cliquez sur le bouton Conserver **[!UICONTROL les modifications]** pour confirmer.
+      * Sélectionnez l’ **[!UICONTROL extension]** que vous utilisez.
+      * Dans le champ **[!UICONTROL Event type]** , sélectionnez &quot;AEP Request Event&quot;.
+      * Dans le volet de droite, sélectionnez &quot;XDM Event Type equals personalization.request&quot;.
+      * Cliquez sur le bouton **[!UICONTROL Conserver les modifications]** pour confirmer.
 
-   3. Dans la section ALORS ]**de**[!UICONTROL  la règle, ajoutez une action configurée comme ci-dessous :
+   3. Dans la section **[!UICONTROL THEN]** de la règle, ajoutez une action configurée comme ci-dessous :
 
       ![](assets/multilingual-experience-events-rule-then.png)
 
-      * Choisissez l’extension **** avec laquelle vous travaillez.
-      * Dans le champ Type d’action ****, sélectionnez « Joindre des données ».
+      * Sélectionnez l’ **[!UICONTROL extension]** que vous utilisez.
+      * Dans le champ **[!UICONTROL Type d’action]**, sélectionnez &quot;Joindre des données&quot;.
       * Dans la section de la payload JSON, assurez-vous que l’attribut utilisé pour récupérer la langue à utiliser (dans l’exemple ci-dessous &quot;language&quot;) correspond au nom de l’attribut spécifié dans le schéma dans lequel votre flux de données de collecte de données est en cours d’exécution.
 
         ```JSON
@@ -159,13 +159,13 @@ Après avoir configuré votre contenu multilingue, vous pouvez concevoir votre c
 
    ![](assets/multilingual-campaign-3.png)
 
-1. Dans le menu déroulant, choisissez le paramètre régional souhaité pour l’appliquer au contenu créé existant.
+1. Choisissez la langue souhaitée dans le menu déroulant à appliquer au contenu créé existant.
 
-1. Accédez aux paramètres avancés du **[!UICONTROL menu Paramètres régionaux]** et sélectionnez **[!UICONTROL Copier dans tous les paramètres régionaux]**.
+1. Accédez aux paramètres avancés du menu **[!UICONTROL Paramètres régionaux]** et sélectionnez **[!UICONTROL Copier vers tous les paramètres régionaux]**.
 
    ![](assets/multilingual-campaign-4.png)
 
-1. Maintenant que votre contenu est dupliqué dans les paramètres régionaux sélectionnés **[!UICONTROL , accédez à chaque paramètre régional et cliquez sur**[!UICONTROL  Modifier le corps ]**de l’e-mail pour traduire votre]** contenu.
+1. Maintenant que votre contenu est dupliqué dans l’ensemble des **[!UICONTROL Paramètres régionaux]** sélectionnés, accédez à chaque paramètre régional et cliquez sur **[!UICONTROL Modifier le corps de l’email]** pour traduire votre contenu.
 
    ![](assets/multilingual-campaign-5.png)
 
@@ -189,7 +189,7 @@ Vous pouvez maintenant activer votre campagne ou votre parcours. Après l’envo
 
 >[!IMPORTANT]
 >
-> Si votre campagne est soumise à une politique d’approbation, vous devrez demander une approbation pour pouvoir envoyer votre campagne ou parcours multilingue. [En savoir plus](../test-approve/gs-approval.md)
+> Si votre campagne est soumise à une politique d’approbation, vous devrez effectuer une demande d’approbation afin de pouvoir envoyer votre campagne ou votre parcours multilingue. [En savoir plus](../test-approve/gs-approval.md)
 
 <!--
 # Create a multilingual journey {#create-multilingual-journey}

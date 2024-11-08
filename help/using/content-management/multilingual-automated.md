@@ -12,7 +12,7 @@ exl-id: 38e82eb2-67d9-4a7d-8c1f-77dab20bcec4
 source-git-commit: d63b12c9c7d3b16309661ffbe20baf8a9c140945
 workflow-type: tm+mt
 source-wordcount: '2041'
-ht-degree: 68%
+ht-degree: 70%
 
 ---
 
@@ -282,7 +282,7 @@ Une fois que vous avez configuré votre projet de traduction et les paramètres 
 
    >[!IMPORTANT]
    >
-   > Si votre campagne est soumise à une politique de validation, vous devrez effectuer une demande de validation afin de pouvoir envoyer votre campagne multilingue. [En savoir plus](../test-approve/gs-approval.md)
+   > Si votre campagne est soumise à une politique d’approbation, vous devrez effectuer une demande d’approbation afin de pouvoir envoyer votre parcours multilingue. [En savoir plus](../test-approve/gs-approval.md)
 
 Vous pouvez maintenant activer votre campagne ou votre parcours. Après l’envoi, vous pouvez mesurer l’impact de votre parcours ou de votre campagne multilingue dans les rapports.
 

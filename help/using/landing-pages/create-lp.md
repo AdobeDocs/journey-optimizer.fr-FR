@@ -12,7 +12,7 @@ exl-id: 18f9bdff-f5c6-4601-919d-4f3124e484b5
 source-git-commit: 13f07c2c6af38661ad6d58b2f1505c8199c0cc0b
 workflow-type: tm+mt
 source-wordcount: '1705'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -38,7 +38,7 @@ La liste des **[!UICONTROL Pages de destination]** affiche tous les éléments c
 
 ![](assets/lp_access-list-filter.png)
 
-À partir de cette liste, vous pouvez accéder au [ rapport de page d’entrée en direct ](../reports/lp-report-live.md) ou au [ rapport de page d’entrée ](../reports/lp-report-global-cja.md) pour les éléments publiés.
+À partir de cette liste, vous pouvez accéder au [Rapport dynamique sur les pages de destination](../reports/lp-report-live.md) ou au [Rapport sur les pages de destination](../reports/lp-report-global-cja.md) pour les éléments publiés.
 
 Vous pouvez également supprimer, dupliquer et dépublier une page de destination.
 

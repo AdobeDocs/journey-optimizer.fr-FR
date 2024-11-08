@@ -13,7 +13,7 @@ exl-id: 07f5f0b4-417e-408e-8d9e-86615c8a3fbf
 source-git-commit: 4ab4b48ba87c73552a15c9815877517934029d57
 workflow-type: tm+mt
 source-wordcount: '1950'
-ht-degree: 67%
+ht-degree: 87%
 
 ---
 
@@ -28,11 +28,11 @@ ht-degree: 67%
 >
 >Les jeux de règles sont actuellement disponibles dans Disponibilité limitée pour un groupe sélectionné de clients. Veuillez noter que cette fonctionnalité sera progressivement déployée vers d’autres utilisateurs à l’avenir. Contactez l’équipe de votre compte si vous souhaitez être ajouté à la liste de attente.
 
-## Prise en main des ensembles de règles {#gs}
+## Commencer avec les jeux de règles {#gs}
 
 ### Que sont les jeux de règles ? {#what}
 
-Outre les règles commerciales globales qui limitent le nombre de fois où les utilisateurs reçoivent des messages sur un ou plusieurs canaux, les ensembles de règles vous permettent de **regrouper plusieurs règles en ensembles** et de les appliquer aux campagnes de votre choix. La granularité est ainsi améliorée afin de contrôler la fréquence à laquelle les utilisateurs et utilisatrices recevront un message selon le type de communication.
+Outre les règles commerciales globales qui limitent le nombre de fois où les utilisateurs et utilisatrices reçoivent des messages sur un ou plusieurs canaux, les jeux de règles vous permettent de **regrouper plusieurs règles dans des jeux de règles** et de les appliquer aux campagnes de votre choix. La granularité est ainsi améliorée afin de contrôler la fréquence à laquelle les utilisateurs et utilisatrices recevront un message selon le type de communication.
 
 Vous pouvez par exemple créer un jeu de règles pour limiter le nombre de **communications promotionnelles** envoyées à votre clientèle et créer un autre jeu de règles pour limiter le nombre de **newsletters** qu’elle reçoit. Selon le type de campagne que vous créez, vous pouvez ensuite choisir d’appliquer la communication promotionnelle ou le jeu de règles des newsletters.
 
@@ -48,21 +48,21 @@ Outre ce jeu de règles &quot;Jeu de règles par défaut global&quot;, vous pouv
 
 ![](assets/rule-sets-default.png)
 
-### Règles de limitation des canaux et parcours {#domain}
+### Règles de limitation des canaux et des parcours {#domain}
 
 >[!CONTEXTUALHELP]
 >id="ajo_rule_set_domain"
 >title="Domaine du jeu de règles"
 >abstract="Lors de la création d’un jeu de règles, vous devez indiquer si les règles de l’ensemble de règles appliqueront des règles de limitation spécifiques aux canaux de communication ou aux parcours."
 
-Lors de la création d’un jeu de règles, vous devez indiquer si les règles de l’ensemble de règles appliqueront des règles de limitation spécifiques aux canaux de communication ou aux parcours. Pour ce faire, sélectionnez un canal ou un domaine de Parcours pour le jeu de règles lors de sa création. [Découvrez comment créer un jeu de règles](#create)
+Lors de la création d’un jeu de règles, vous devez indiquer si les règles de l’ensemble de règles appliqueront des règles de limitation spécifiques aux canaux de communication ou aux parcours. Pour ce faire, sélectionnez un domaine de Canal ou de Parcours pour le jeu de règles lors de sa création. [Découvrez comment créer un jeu de règles](#create)
 
-* Domaine **Canal** : appliquez des règles de limitation pour les canaux de communication. Par exemple, n’envoyez pas plus d’un email ou d’un SMS par jour.
-* Domaine **Parcours** : appliquez des règles de limitation d’entrée et de simultanéité à un parcours. Par exemple, ne saisissez pas de profils simultanément dans plusieurs parcours.
+* Domaine de **Canal** : appliquez des règles de limitation pour les canaux de communication. Par exemple, ne pas envoyer plus d’un e-mail ou d’un SMS par jour.
+* Domaine de **Parcours** : appliquez des règles de limitation d’entrée et de simultanéité à un parcours. Par exemple, ne pas entrer simultanément des profils dans plusieurs parcours.
 
 ## Créer votre premier jeu de règles personnalisées {#create-rule-set}
 
-### Créez le jeu de règles et sélectionnez son domaine. {#create}
+### Créer le jeu de règles et sélectionner son domaine {#create}
 
 Pour créer un jeu de règles, procédez comme suit.
 
@@ -116,7 +116,7 @@ Pour ajouter une règle à un jeu de règles, accédez au jeu de règles et cliq
 
 Les paramètres disponibles pour la règle dépendent du domaine du jeu de règles sélectionné à sa création.
 
-+++Configurez les règles de limitation de canal (**Domaine Canal**)
++++Configurer les règles de limitation des canaux (domaine **Canal**)
 
 ![](assets/rule-set-channels.png)
 
@@ -158,18 +158,18 @@ Les paramètres disponibles pour la règle dépendent du domaine du jeu de règl
 
 +++
 
-+++Configuration des règles de limitation des parcours (**domaine Parcours**)
++++Configurer des règles de limitation des parcours (domaine **Parcours**)
 
 ![](assets/rule-set-journey.png)
 
-1. Attribuez un nom unique à la règle.
+1. Indiquez un nom unique pour la règle.
 
 1. Dans la liste déroulante **[!UICONTROL Type de règle]**, spécifiez le type de limitation de la règle.
 
-   * **[!UICONTROL Limite d’entrée de Parcours]** : limite le nombre d’entrées dans le parcours sur une période donnée pour un profil.
-   * **[!UICONTROL Limite de simultanéité par Parcours]** : limite le nombre de parcours dans lesquels un profil peut être inscrit simultanément.
+   * **[!UICONTROL Limite des entrées de parcours]** : limite le nombre d’entrées dans le parcours sur une période donnée pour un profil.
+   * **[!UICONTROL Limite de simultanéité des parcours]** : limite le nombre de parcours dans lesquels un profil peut être inscrit simultanément.
 
-1. Des informations détaillées sur la configuration des règles de limitation de parcours sont disponibles dans la section [limitation et arbitrage des Parcours](../conflict-prioritization/journey-capping.md) .
+1. Des informations détaillées sur la configuration des règles de limitation de parcours sont disponibles dans la section [Limitation et arbitrage des parcours](../conflict-prioritization/journey-capping.md).
 
 +++
 
@@ -239,7 +239,7 @@ Users with the **[!UICONTROL View frequency rules]** permission are able to view
 
 Learn more about permissions in [this section](../administration/high-low-permissions.md).-->
 
-## Application d’ensembles de règles à un message ou à un parcours {#apply-frequency-rule}
+## Appliquer des ensembles de règles à un message ou à un parcours {#apply-frequency-rule}
 
 Vous pouvez appliquer un jeu de règles à un message ou à un parcours, en fonction du domaine sélectionné lors de la création du jeu de règles. Pour plus d’informations, développez les sections ci-dessous.
 
@@ -265,7 +265,7 @@ Vous pouvez appliquer un jeu de règles à un message ou à un parcours, en fonc
 
    ![](assets/rule-set-schedule-campaign.png)
 
-1. Vous pouvez afficher le nombre de profils exclus de la diffusion dans le [rapport Customer Journey Analytics](../reports/report-gs-cja.md) et dans le [rapport en direct](../reports/live-report.md), où les règles de fréquence seront répertoriées comme une raison possible pour les utilisateurs exclus de la diffusion.
+1. Vous pouvez visualiser le nombre de profils exclus de la diffusion dans le [rapport Customer Journey Analytics](../reports/report-gs-cja.md) et dans le [rapport dynamique](../reports/live-report.md), où les règles de fréquence seront répertoriées comme une raison possible pour les personnes exclues de la diffusion.
 
 >[!NOTE]
 >
@@ -306,13 +306,13 @@ Lors du test des règles de fréquence, il est recommandé d’utiliser un nouve
 
 +++ Appliquer un jeu de règles à un parcours
 
-Pour appliquer une règle de limitation à un parcours, accédez au parcours et ouvrez ses propriétés. Dans la liste déroulante **[!UICONTROL Règles de limitation]** , sélectionnez le jeu de règles approprié.
+Pour appliquer une règle de limitation à un parcours, accédez au parcours et ouvrez ses propriétés. Dans la liste déroulante **[!UICONTROL Règles de limitation]**, sélectionnez le jeu de règles approprié.
 
 ![](../conflict-prioritization//assets/journey-capping-apply.png)
 
 >[!IMPORTANT]
 >
->Si un parcours est activé immédiatement, cela peut prendre jusqu’à 15 minutes pour que le système puisse commencer à supprimer les clients. Vous pouvez planifier votre parcours pour qu’il commence au moins 15 minutes dans le futur afin d’éviter cette éventualité.
+>Si un parcours est activé immédiatement, cela peut prendre jusqu’à 15 minutes pour que le système puisse commencer à supprimer la clientèle. Vous pouvez planifier votre parcours pour qu’il commence au moins 15 minutes dans le futur afin d’éviter cette éventualité.
 
 +++
 
