@@ -10,9 +10,9 @@ level: Beginner, Intermediate
 keywords: liens, tracking, surveillance, e-mail
 exl-id: 689e630a-00ca-4893-8bf5-6d1ec60c52e7
 source-git-commit: 47482adb84e05fe41eb1c50479a8b50e00469ec4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1055'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -160,9 +160,9 @@ Le [Concepteur d&#39;e-mail](content-from-scratch.md) permet de gérer les URL s
    * **[!UICONTROL Page miroir]** : considère cette URL comme une URL de page miroir.
    * **[!UICONTROL Jamais]** : n’active jamais le suivi de cette URL.
 
-La création de rapports sur les ouvertures et les clics est disponible dans le [rapport en direct](../reports/live-report.md) et dans le [rapport Customer Journey Analytics](../reports/report-gs-cja.md).
+La création de rapports sur les ouvertures et les clics est disponible dans le [rapport dynamique](../reports/live-report.md) et dans le [rapport Customer Journey Analytics](../reports/report-gs-cja.md).
 
-## Personnaliser le suivi des URL {#url-tracking}
+## Personnalisation du suivi des URL {#url-tracking}
 
 Généralement, le [tracking des URL](email-settings.md#url-tracking) est géré au niveau de la configuration, mais les attributs de profil ne sont pas pris en charge. Actuellement, la seule façon de le faire est de [personnaliser les URL](../personalization/personalization-syntax.md#perso-urls) dans le concepteur d’e-mail.
 

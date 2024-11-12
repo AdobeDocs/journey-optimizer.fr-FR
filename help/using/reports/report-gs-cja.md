@@ -2,20 +2,20 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Expérience de création de rapports mise à jour
-description: Prise en main de la mise à jour de l’expérience de création de rapports
+description: Commencer avec l’expérience de création de rapports mise à jour
 feature: Reporting
 topic: Content Management
 role: User
 level: Intermediate
 exl-id: bfd88d2a-e7b8-4e3b-85a1-4a14b0ba56dc
 source-git-commit: a64cfe6a474864df02e18fdb772974d73ec58cc5
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '360'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
-# Prise en main de la mise à jour de l’expérience de création de rapports {#channel-report-gs-cja}
+# Commencer avec l’expérience de création de rapports mise à jour {#channel-report-gs-cja}
 
 >[!IMPORTANT]
 >
@@ -29,7 +29,7 @@ La création de rapports Journey Optimizer est fournie avec une interopérabili
 
   ![](assets/gs-cja-report-3.png)
 
-* Si vous souhaitez cibler une campagne, dans le menu **[!UICONTROL Campagnes]**, accédez à votre campagne et cliquez sur le bouton **[!UICONTROL Rapports]** , puis **[!UICONTROL Afficher tout le rapport temporel]**.
+* Si vous souhaitez cibler une campagne, dans le menu **[!UICONTROL Campagnes]**, accédez à votre campagne, cliquez sur le bouton **[!UICONTROL Rapports]**, puis sur **[!UICONTROL Afficher le rapport complet]**.
 
   Dans la liste des campagnes existantes, vous pouvez également sélectionner **[!UICONTROL Rapport]** dans le menu avancé de la campagne que vous avez sélectionnée. [En savoir plus sur le rapport de campagne](campaign-global-report-cja.md)
 

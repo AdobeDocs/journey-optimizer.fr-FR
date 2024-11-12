@@ -2,15 +2,15 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Rapport de parcours
-description: Découvrez comment utiliser les données du rapport de parcours
+description: Découvrez comment utiliser les données du rapport de parcours.
 feature: Reporting, Journeys
 topic: Content Management
 role: User
 level: Intermediate
 source-git-commit: a2219bf7791bc5c598228af883d0507180628abf
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '810'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -83,7 +83,7 @@ Améliorez la personnalisation de votre zone de travail à l’aide des options 
 * Personnalisez vos **[!UICONTROL Paramètres de flèche]** pour inclure des libellés, des conditions, ou optez pour un affichage clair.
 * Activez l’option **[!UICONTROL Afficher les abandons]** pour visualiser les profils qui ont quitté votre parcours directement sur la zone de travail.
 
-Les règles suivantes s’appliquent lors de l’utilisation du filtrage **[!UICONTROL Type de noeud]** :
+Les règles suivantes s’appliquent lors de l’utilisation du filtrage **[!UICONTROL Type de noeud]** :
 
 * Lors de la création d’un segment sur un noeud, il inclura toujours les noeuds des étapes précédentes du parcours, même si ces noeuds ont été exclus par le biais du filtre **[!UICONTROL Type de noeud]**.
 

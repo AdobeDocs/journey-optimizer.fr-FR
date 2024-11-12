@@ -7,13 +7,13 @@ role: Admin
 level: Experienced
 exl-id: 2161baf0-38b7-4397-bffe-083929e8033a
 source-git-commit: e3c597f66436e8e0e22d06f1905fc7ca9a9dd570
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '935'
-ht-degree: 63%
+ht-degree: 100%
 
 ---
 
-# Configuration de vos expériences web {#web-configuration}
+# Configuration des expériences web {#web-configuration}
 
 ## Création d’une configuration de canal web {#create-web-configuration}
 
@@ -33,27 +33,27 @@ Pour créer une configuration de canal web, procédez comme suit.
 
 1. Pour attribuer des libellés d’utilisation des données personnalisés ou de base à la configuration, vous pouvez sélectionner **[!UICONTROL Gérer l’accès]**. [En savoir plus sur le contrôle d’accès au niveau de l’objet (OLAC)](../administration/object-based-access.md)
 
-1. Sélectionnez le canal **Web** .
+1. Sélectionnez le canal **Web**.
 
    ![](assets/web_config_2.png)
 
 1. Sélectionnez une **[!UICONTROL Action marketing]** ou plusieurs pour associer des politiques de consentement aux messages utilisant cette configuration. Toutes les politiques de consentement associées à cette action marketing sont utilisées afin de respecter les préférences de vos clientes et clients. [En savoir plus](../action/consent.md#surface-marketing-actions)
 
-1. Dans la section **[!UICONTROL Paramètres Web]** , sélectionnez l’une des options suivantes :
+1. Dans la section **[!UICONTROL Paramètres Web]**, sélectionnez l’une des options suivantes :
 
-   * **[!UICONTROL Page unique]** - Si vous souhaitez appliquer les modifications à une seule page, saisissez une **[!UICONTROL URL de page]**.
+   * **[!UICONTROL Page unique]** - Si vous souhaitez appliquer les modifications uniquement à une seule page, saisissez une **[!UICONTROL URL de page]**.
 
-   * **[!UICONTROL Règle de correspondance de pages]** - Pour cibler plusieurs URL correspondant à la même règle, créez une règle de correspondance de pages et saisissez une **[!UICONTROL URL de création et d’aperçu par défaut]**. [En savoir plus](#web-page-matching-rule)
+   * **[!UICONTROL Règle de correspondance de pages]** - Pour cibler plusieurs URL correspondant à la même règle, créez une règle de correspondance de pages et saisissez une **[!UICONTROL URL de création et de prévisualisation par défaut]**. [En savoir plus](#web-page-matching-rule)
 
-1. Cliquez sur **[!UICONTROL Submit]** pour enregistrer vos modifications.
+1. Cliquez sur **[!UICONTROL Envoyer]** pour enregistrer vos modifications.
 
-Vous pouvez maintenant sélectionner cette configuration lorsque vous utilisez le canal web dans vos campagnes ou parcours.
+Vous pouvez maintenant sélectionner cette configuration lorsque vous utilisez le canal web dans vos campagnes ou vos parcours.
 
-## Créer une règle de correspondance de pages {#web-page-matching-rule}
+## Création d’une règle de correspondance de pages {#web-page-matching-rule}
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_page_rule"
->title="Créer une règle de correspondance de pages"
+>title="Création d’une règle de correspondance de pages"
 >abstract="Pour gérer et cibler efficacement un groupe d’URL qui partagent les mêmes critères, créez une règle de correspondance de pages. Cette règle permet de rassembler plusieurs URL sous une seule directive, ce qui simplifie l’application de paramètres et d’actions cohérents à ces pages."
 
 >[!CONTEXTUALHELP]
@@ -61,35 +61,35 @@ Vous pouvez maintenant sélectionner cette configuration lorsque vous utilisez l
 >title="Définir une URL pour la création et la prévisualisation de contenu"
 >abstract="Ce champ garantit que les pages générées ou mises en correspondance par la règle ont une URL désignée, essentielle pour la création et la prévisualisation efficaces du contenu."
 
-Lors de la création d’une configuration web ou [d’expérience basée sur le code](../code-based/get-started-code-based.md), vous pouvez créer une **[!UICONTROL règle de correspondance de pages]** pour cibler plusieurs URL correspondant à la même règle. Vous pouvez donc appliquer les mêmes modifications de contenu sur plusieurs pages à la fois.
+Lors de la création d’une configuration d’expérience web ou [basée sur du code](../code-based/get-started-code-based.md), vous pouvez créer une **[!UICONTROL règle de correspondance de pages]** pour cibler plusieurs URL correspondant à la même règle. Vous pouvez donc appliquer les mêmes modifications de contenu à plusieurs pages à la fois.
 
-Par exemple, vous pouvez appliquer les modifications à une bannière principale sur l’ensemble d’un site web ou ajouter une image de haut niveau qui s’affiche sur toutes les pages de produits d’un site web.
+Par exemple, vous pouvez appliquer les modifications d’une bannière principale à l’ensemble d’un site web ou ajouter une image principale qui s’affiche sur toutes les pages de produits d’un site web.
 
-1. Lors de la configuration de votre [web](#web-configuration) ou [expérience basée sur du code](../code-based/code-based-configuration.md), sélectionnez **[!UICONTROL Règle de correspondance de pages]**.
+1. Lors de la configuration de votre expérience [web](#web-configuration) ou [basée sur du code](../code-based/code-based-configuration.md), sélectionnez **[!UICONTROL Règle de correspondance de pages]**.
 
-1. Définissez vos critères pour les champs **[!UICONTROL Domaine]** et **[!UICONTROL Page]**. Vérifiez les opérateurs disponibles dans [cette section](#available-operators).
+1. Définissez vos critères pour les champs **[!UICONTROL Domaine]** et **[!UICONTROL Page]**. Consultez les opérateurs disponibles dans [cette section](#available-operators).
 
    Par exemple, si vous souhaitez modifier des éléments qui s’affichent sur toutes les pages de produits pour femmes de votre site web Luma, sélectionnez **[!UICONTROL Domaine]** > **[!UICONTROL Commence par]** > `luma` et **[!UICONTROL Page]** > **[!UICONTROL Contient]** > `women`.
 
    ![](assets/web_config_3.png)
 
-1. Si votre cas d’utilisation ne peut pas être modélisé à l’aide d’une règle, vous avez la possibilité d’ajouter plusieurs règles. Cliquez sur **[!UICONTROL Ajouter une autre règle de page]** et répétez l’étape ci-dessus.
+1. Si votre cas d’utilisation ne peut pas être mis en œuvre avec une seule règle, vous avez la possibilité d’ajouter plusieurs règles. Cliquez sur **[!UICONTROL Ajouter une autre règle de page]** et répétez l’étape ci-dessus.
 
    >[!NOTE]
    >
-   >Vous pouvez ajouter jusqu’à dix règles.
+   >Vous pouvez ajouter jusqu’à 10 règles.
 
-1. Vous pouvez utiliser les opérateurs **[!UICONTROL Or]** ou **[!UICONTROL Exclure]** entre les différentes règles.
+1. Vous pouvez utiliser les opérateurs **[!UICONTROL Ou]** ou **[!UICONTROL Exclure]** entre les différentes règles.
 
-   **[!UICONTROL Exclure]** est utile lorsque l’une des pages qui correspondent à la règle définie ne doit pas être ciblée. Par exemple, vous pouvez cibler toutes les `luma.com` pages qui contiennent `product`, à l’exception de la page suivante : `https://luma.com/blogs/productinfo`.
+   **[!UICONTROL Exclure]** est utile lorsque l’une des pages correspondant à la règle définie ne doit pas être ciblée. Par exemple, vous pouvez cibler toutes les pages `luma.com` qui contiennent `product`, tout en excluant la page suivante : `https://luma.com/blogs/productinfo`.
 
    ![](assets/web_config_4.png)
 
-1. Saisissez l’ **[!UICONTROL URL de création et de prévisualisation par défaut]**. Cette étape permet de s’assurer que les pages générées ou mises en correspondance par la règle possèdent une URL désignée à des fins de création et d’aperçu de contenu.
+1. Sélectionnez l’**[!UICONTROL URL de création et de prévisualisation par défaut]**. Cette étape permet de s’assurer que les pages générées ou mises en correspondance par la règle possèdent une URL désignée à des fins de création et de prévisualisation de contenu.
 
 ### Opérateurs disponibles pour créer des règles de correspondance de pages {#available-operators}
 
-Lors de la création d’une règle [qui correspond à plusieurs pages](#web-page-matching-rule), vous pouvez utiliser différents opérateurs sur les sections **[!UICONTROL Domaine]** et **[!UICONTROL Chemin]** pour créer la règle de votre choix. Les opérateurs disponibles sont listés ci-dessous.
+Lors de la création d’une [règle correspondant à plusieurs pages](#web-page-matching-rule), vous pouvez utiliser différents opérateurs sur les sections **[!UICONTROL Domaine]** et **[!UICONTROL Chemin]** pour créer la règle de votre choix. Les opérateurs disponibles sont répertoriés ci-dessous.
 
 * **Domaine**
 

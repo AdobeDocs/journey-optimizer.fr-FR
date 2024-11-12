@@ -7,9 +7,9 @@ role: Developer
 level: Experienced
 exl-id: e5ae8b4e-7cd2-4a1d-b2c0-8dafd5c4cdfd
 source-git-commit: c3300b240bd0dc0563ed6d4e6de40bd9fa36a92e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '799'
-ht-degree: 75%
+ht-degree: 100%
 
 ---
 
@@ -29,19 +29,19 @@ L’expérience basée sur le code est compatible avec n’importe quelle mise e
 
 Si vous disposez d’une implémentation côté client, vous pouvez utiliser l’un des SDK AEP client : SDK AEP Web ou SDK AEP Mobile.
 
-* Les étapes [ci-dessous](#client-side-how) décrivent le processus de récupération du contenu publié sur le serveur Edge par les parcours d’expérience et campagnes basés sur le code dans un exemple d’implémentation **SDK Web** et l’affichage du contenu personnalisé.
+* Les étapes [ci-dessous](#client-side-how) décrivent le processus de récupération du contenu publié en périphérie par les campagnes et parcours d’expériences basées sur du code dans un exemple d’implémentation du **SDK Web** et de l’affichage du contenu personnalisé.
 
-* Les étapes d’implémentation du canal basé sur le code à l’aide de **SDK Mobile** sont décrites dans [ce tutoriel](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/code-based/tutorial/){target="_blank"}.
+* Les étapes d’implémentation du canal basé sur du code à l’aide du **SDK Mobile** sont décrites dans [ce tutoriel](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/code-based/tutorial/){target="_blank"}.
 
   >[!NOTE]
   >
-  >Des exemples de mise en oeuvre pour des cas pratiques mobiles sont disponibles pour [l’application iOS](https://github.com/adobe/aepsdk-messaging-ios/tree/main/TestApps/MessagingDemoAppSwiftUI){target="_blank"} et [l’application Android](https://github.com/adobe/aepsdk-messaging-android/tree/main/code/testapp){target="_blank"}.
+  >Des exemples d’implémentation pour des cas d’utilisation mobiles sont disponibles dans l’[application iOS](https://github.com/adobe/aepsdk-messaging-ios/tree/main/TestApps/MessagingDemoAppSwiftUI){target="_blank"} et l’[application Android](https://github.com/adobe/aepsdk-messaging-android/tree/main/code/testapp){target="_blank"}.
 
 ### Fonctionnement - SDK Web {#client-side-how}
 
 1. Le [SDK Web](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=fr){target="_blank"} est inclus dans la page.
 
-1. Vous devez utiliser la commande `sendEvent` et spécifier l’ [URI de surface](code-based-configuration.md#surface-definition)<!--( or location/path)--> pour récupérer le contenu de personnalisation.
+1. Vous devez utiliser la commande `sendEvent` et spécifier l’[URI de surface](code-based-configuration.md#surface-definition)<!--( or location/path)--> pour récupérer le contenu de personnalisation.
 
    ```javascript
    alloy("sendEvent", {
@@ -52,9 +52,9 @@ Si vous disposez d’une implémentation côté client, vous pouvez utiliser l�
    }).then(applyPersonalization("#sample-json-content"));
    ```
 
-1. Les éléments d’expérience basés sur le code doivent être appliqués manuellement par le code de mise en œuvre (à l’aide de la méthode [`applyPersonalization`](https://github.com/adobe/alloy-samples/blob/ac83b6927d007dc456caad2c6ce0b324c99c26c9/ajo/personalization-client-side/public/script.js){target="_blank"}) pour mettre à jour le modèle DOM en fonction de la décision.
+1. Les éléments d’expérience basés sur du code doivent être appliqués manuellement par le code de mise en œuvre (à l’aide de la méthode [`applyPersonalization`](https://github.com/adobe/alloy-samples/blob/ac83b6927d007dc456caad2c6ce0b324c99c26c9/ajo/personalization-client-side/public/script.js){target="_blank"}) pour mettre à jour le modèle DOM en fonction de la décision.
 
-1. Pour les parcours d’expérience et les campagnes basés sur du code, les événements d’affichage doivent être envoyés manuellement pour indiquer le moment où le contenu a été affiché. Cela s’effectue via la commande `sendEvent`.
+1. Pour les campagnes et parcours d’expériences basées sur du code, les événements d’affichage doivent être envoyés manuellement pour indiquer le moment où le contenu a été affiché. Cela s’effectue via la commande `sendEvent`.
 
    ```javascript
    function sendDisplayEvent(decision) {
@@ -80,7 +80,7 @@ Si vous disposez d’une implémentation côté client, vous pouvez utiliser l�
    }
    ```
 
-1. Pour les parcours d’expérience et les campagnes basés sur du code, les événements d’interaction doivent être envoyés manuellement pour indiquer quand un utilisateur a interagi avec le contenu. Cela s’effectue via la commande `sendEvent`.
+1. Pour les campagnes et parcours d’expériences basées sur du code, les événements d’interaction doivent être envoyés manuellement pour indiquer le moment où un utilisateur ou une utilisatrice a interagi avec le contenu. Cela s’effectue via la commande `sendEvent`.
 
    ```javascript
    function sendInteractEvent(label, proposition) {
@@ -140,7 +140,7 @@ Les requêtes envoyées à l’API Adobe Experience Platform sont nécessaires
 
 Si vous disposez d’une implémentation côté serveur, vous pouvez utiliser l’une des API AEP Edge Network.
 
-Les étapes ci-dessous décrivent le processus de récupération du contenu publié en périphérie par les parcours d’expérience et les campagnes basés sur le code dans un exemple d’implémentation de l’API Edge Network pour une page web et l’affichage du contenu personnalisé.
+Les étapes ci-dessous décrivent le processus de récupération du contenu publié en périphérie par les campagnes et parcours d’expériences basées sur du code dans un exemple de mise en œuvre de l’API Edge Network pour une page web et de l’affichage du contenu personnalisé.
 
 ### Fonctionnement
 
@@ -226,9 +226,9 @@ Les étapes ci-dessous décrivent le processus de récupération du contenu publ
    ).then((res) => res.json());
    ```
 
-1. L’expérience JSON issue des parcours d’expérience et de la campagne basés sur le code est lue à partir de la réponse et utilisée lors de la production de la réponse de l’HTML.
+1. L’expérience JSON de la campagne et du parcours d’expériences basées sur le code est lue à partir de la réponse et utilisée lors de la production de la réponse HTML.
 
-1. Pour les parcours d’expérience et les campagnes basés sur du code, les événements d’affichage doivent être envoyés manuellement dans l’implémentation pour indiquer le moment où le contenu du parcours ou de la campagne a été affiché. Dans cet exemple, la notification est envoyée côté serveur pendant le cycle de vie de la requête.
+1. Pour les campagnes et parcours d’expériences basées sur le code, les événements d’affichage doivent être envoyés manuellement dans la mise en œuvre pour indiquer le moment où le contenu du parcours ou de la campagne a été affiché. Dans cet exemple, la notification est envoyée côté serveur, pendant le cycle de vie de la requête.
 
    ```javascript
    function sendDisplayEvent(aepEdgeClient, req, propositions, cookieEntries) {

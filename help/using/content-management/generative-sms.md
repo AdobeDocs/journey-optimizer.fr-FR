@@ -9,9 +9,9 @@ role: User
 level: Beginner
 exl-id: 5fd1cc3a-c023-4e8e-bfac-9a86bd33bbb3
 source-git-commit: f316ec79958ac23e0e416f0cafd49c017f2b6d4c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '904'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
@@ -22,13 +22,13 @@ ht-degree: 89%
 >Avant de commencer à utiliser cette fonctionnalité, lisez la section connexe [Mécanismes de sécurisation et limitations](gs-generative.md#generative-guardrails).
 ></br>
 >
->Vous devez accepter un [ contrat utilisateur](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html) avant de pouvoir utiliser l’accélérateur de contenu de l’assistant d’IA dans Journey Optimizer. Pour en savoir plus, contactez votre représentant ou représentante Adobe.
+>Vous devez accepter un [contrat d’utilisation](https://www.adobe.com/fr/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html) avant de pouvoir utiliser l’assistant IA dans Journey Optimizer pour l’accélération de contenu. Pour en savoir plus, contactez votre représentant ou représentante Adobe.
 
-Après avoir conçu et adapté vos SMS en fonction des préférences de votre audience, augmentez votre communication avec l’accélérateur de contenu de l’assistant d’IA dans Journey Optimizer.
+Après avoir conçu et personnalisé vos SMS en fonction des préférences de votre audience, améliorez votre communication avec l’accélérateur de contenu de l’assistant IA dans Journey Optimizer.
 
 Cette ressource offre des recommandations pertinentes pour affiner votre contenu, permettant à vos messages d’avoir un impact et de générer un engagement maximal.
 
-Consultez les onglets ci-dessous pour savoir comment utiliser l’accélérateur de contenu de l’assistant d’IA dans Journey Optimizer.
+Explorez les onglets ci-dessous pour savoir comment utiliser l’accélérateur de contenu de l’assistant IA dans Journey Optimizer.
 
 >[!BEGINTABS]
 
@@ -105,7 +105,7 @@ Lorsque vous avez défini le contenu, l’audience et le planning, vous pouvez p
 
    ![](assets/sms-text-genai-1.png){zoomable="yes"}
 
-1. Activez l’option **[!UICONTROL Utiliser le contenu de référence]** pour que l’accélérateur de contenu de l’assistant d’IA personnalise le nouveau contenu en fonction du contenu sélectionné.
+1. Activez l’option **[!UICONTROL Utiliser le contenu de référence]** pour l’accélérateur de contenu de l’assistant IA afin de personnaliser le nouveau contenu en fonction du contenu sélectionné.
 
 1. Affinez le contenu en décrivant ce que vous souhaitez générer dans le champ **[!UICONTROL Invite]**.
 

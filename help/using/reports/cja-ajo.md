@@ -9,9 +9,9 @@ role: User
 level: Beginner
 exl-id: 5349b0cf-da4e-458c-89be-c75a38e4721a
 source-git-commit: 47482adb84e05fe41eb1c50479a8b50e00469ec4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '418'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -19,13 +19,13 @@ ht-degree: 92%
 
 L’intégration de [!DNL Journey Optimizer] à [!DNL Customer Journey Analytics] offre une vue d’ensemble de tous vos parcours avec une distribution de rapports automatisée et des visualisations personnalisées des données.
 
-La section suivante explique comment utiliser manuellement les données générées par Journey Optimizer pour une analyse approfondie dans Customer Journey Analytics. Cette intégration peut être configurée automatiquement. [En savoir plus](report-gs-cja.md)
+La section suivante explique comment utiliser manuellement les données générées par Journey Optimizer pour une analyse approfondie dans Customer Journey Analytics. Notez que cette intégration peut être configurée automatiquement. [En savoir plus](report-gs-cja.md)
 
 ![](assets/cja.png)
 
 Une fois que vous avez créé votre parcours dans [!DNL Journey Optimizer], vous pouvez commencer à importer vos données clients dans [!DNL Customer Journey Analytics] afin de lancer des rapports et de comprendre l’impact de chaque interaction d’un(e) client(e) avec vos parcours.
 
-➡️ [Découvrir Customer Journey Analytics](https://experienceleague.adobe.com/en/docs/analytics-platform/using/integrations/ajo#manually-configure-a-data-view-to-be-used-with-journey-optimizer){target="_blank"}
+➡️ [Découvrir Customer Journey Analytics](https://experienceleague.adobe.com/fr/docs/analytics-platform/using/integrations/ajo#manually-configure-a-data-view-to-be-used-with-journey-optimizer){target="_blank"}
 
 >[!NOTE]
 >

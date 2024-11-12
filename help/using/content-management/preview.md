@@ -6,13 +6,13 @@ role: User
 level: Beginner
 exl-id: 6477270c-0309-411a-8254-c7ffc4419492
 source-git-commit: 87cba1d13af7a80cfe3b37a7b79e5fdd95ee5521
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '213'
-ht-degree: 76%
+ht-degree: 100%
 
 ---
 
-# Vérifier le contenu {#preview}
+# Vérifier votre contenu {#preview}
 
 <!--## Preview your content {#preview-content}-->
 
@@ -42,7 +42,7 @@ Une fois les [profils de test](test-profiles.md) définis, vous pouvez prévisua
 
 >[!NOTE]
 >
->Si une erreur se trouve dans les détails de configuration, cliquez sur le bouton **[!UICONTROL Afficher les détails de configuration]** . [En savoir plus](../email/surface-personalization.md#check-configuration)
+>Si les détails de configuration contiennent une erreur, cliquez sur le bouton **[!UICONTROL Afficher les détails de configuration]**. [En savoir plus](../email/surface-personalization.md#check-configuration)
 
 Lors de la création d’expériences basées sur du code, vous pouvez prévisualiser votre contenu personnalisé directement dans votre navigateur ou sur vos appareils mobiles pour une simulation réelle. [En savoir plus](../code-based/create-code-based.md#preview-on-device)
 

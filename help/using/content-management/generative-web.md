@@ -2,15 +2,15 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Génération de pages web avec l’assistant IA
-description: Commencez à générer du contenu et des ressources de page Web à l’aide de l’accélérateur de contenu de l’assistant d’IA dans Journey Optimizer.
+description: Commencez à générer le contenu et la ressource de la page web à l’aide de l’accélérateur de contenu de l’assistant IA dans Journey Optimizer.
 feature: Content Assistant
 topic: Content Management
 role: User
 level: Beginner
 source-git-commit: f316ec79958ac23e0e416f0cafd49c017f2b6d4c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '999'
-ht-degree: 82%
+ht-degree: 100%
 
 ---
 
@@ -21,11 +21,11 @@ ht-degree: 82%
 >Avant de commencer à utiliser cette fonctionnalité, lisez la section connexe [Mécanismes de sécurisation et limitations](gs-generative.md#generative-guardrails).
 ></br>
 >
->Vous devez accepter un [ contrat utilisateur](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html) avant de pouvoir utiliser l’accélérateur de contenu de l’assistant d’IA dans Journey Optimizer. Pour en savoir plus, contactez votre représentant ou représentante Adobe.
+>Vous devez accepter un [contrat d’utilisation](https://www.adobe.com/fr/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html) avant de pouvoir utiliser l’assistant IA dans Journey Optimizer pour l’accélération de contenu. Pour en savoir plus, contactez votre représentant ou représentante Adobe.
 
-Une fois que vous avez créé et personnalisé vos pages web, utilisez l’accélérateur de contenu de l’assistant d’IA dans Journey Optimizer, optimisé par l’IA générative, pour passer votre contenu au niveau supérieur.
+Une fois que vous avez créé et personnalisé vos pages web, utilisez l’accélérateur de contenu de l’assistant IA dans Journey Optimizer, optimisé par l’IA générative, pour améliorer votre contenu.
 
-L’accélérateur de contenu de l’assistant d’IA dans Journey Optimizer peut vous aider à optimiser l’impact de vos diffusions en suggérant un contenu différent plus susceptible de résonner auprès de votre audience.
+L’accélérateur de contenu de l’assistant IA dans Journey Optimizer peut vous aider à optimiser l’impact de vos diffusions en suggérant un contenu différent et davantage susceptible de résonner auprès de votre audience.
 
 >[!BEGINTABS]
 
@@ -39,7 +39,7 @@ L’accélérateur de contenu de l’assistant d’IA dans Journey Optimizer peu
 
    ![](assets/web-gen-full-1.png){zoomable="yes"}
 
-1. Activez l’option **[!UICONTROL Utiliser le contenu d’origine]** de l’accélérateur de contenu de l’assistant d’IA pour personnaliser le nouveau contenu en fonction du contenu sélectionné.
+1. Activez l’option **[!UICONTROL Utiliser le contenu d’origine]** de l’accélérateur de contenu de l’assistant IA pour personnaliser le nouveau contenu en fonction du contenu sélectionné.
 
 1. Affinez le contenu en décrivant ce que vous souhaitez générer dans le champ **[!UICONTROL Invite]**.
 
@@ -87,19 +87,19 @@ Une fois que vous avez défini vos paramètres de campagne web et que vous avez 
 
 >[!TAB Génération d’images de page web]
 
-Dans l’exemple ci-dessous, découvrez comment tirer parti de l’accélérateur de contenu de l’assistant d’IA dans Journey Optimizer pour optimiser et améliorer vos ressources, afin d’offrir une expérience plus conviviale.
+Dans l’exemple ci-dessous, découvrez comment tirer parti de l’accélérateur de contenu de l’assistant IA dans Journey Optimizer pour optimiser et améliorer vos ressources, afin d’offrir une expérience plus conviviale.
 
 1. Après avoir créé et configuré votre page web, cliquez sur **[!UICONTROL Modifier la page web]**.
 
    Pour plus d’informations sur la configuration de votre page web, consultez [cette page](../web/create-web.md).
 
-1. Sélectionnez la ressource que vous souhaitez modifier à l’aide de l’accélérateur de contenu de l’assistant d’IA.
+1. Sélectionnez la ressource que vous souhaitez modifier à l’aide de l’accélérateur de contenu de l’assistant IA.
 
 1. Dans le menu de droite, sélectionnez **[!UICONTROL Afficher l’assistant IA]**.
 
    ![](assets/web-gen-img-1.png){zoomable="yes"}
 
-1. Activez l’option **[!UICONTROL Style de référence]** de l’accélérateur de contenu de l’assistant d’IA pour personnaliser le nouveau contenu en fonction du contenu de référence. Vous pouvez également charger une image pour ajouter du contexte à votre variation.
+1. Activez l’option **[!UICONTROL Style de référence]** pour l’accélérateur de contenu de l’assistant IA afin de personnaliser le nouveau contenu en fonction du contenu de référence. Vous pouvez également charger une image pour ajouter du contexte à votre variation.
 
 1. Affinez le contenu en décrivant ce que vous souhaitez générer dans le champ **[!UICONTROL Invite]**.
 

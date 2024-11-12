@@ -8,15 +8,15 @@ level: Beginner
 keywords: in-app, message, création, commencer
 exl-id: 9e9c235a-b78c-4669-af82-822b6f1e6fca
 source-git-commit: 8fecd0d4812ba875dba1d47bc32ab08178a13f2c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '389'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
 # Vérifier et envoyer votre notification in-app {#create-in-app}
 
-## Aperçu sur l’appareil {#preview-device}
+## Prévisualiser sur l’appareil {#preview-device}
 
 Vous pouvez prévisualiser la notification in-app sur un appareil spécifique avant qu’elle ne soit activée pour l’ensemble des utilisateurs et utilisatrices. Cette fonctionnalité garantit que la notification s’affiche et fonctionne comme prévu sur l’appareil choisi, offrant ainsi une meilleure expérience client à votre audience.
 
@@ -48,7 +48,7 @@ Vous trouverez des informations détaillées sur la sélection des profils de te
 
 >[!IMPORTANT]
 >
-> Si votre campagne fait l&#39;objet d&#39;une politique de validation, vous devrez effectuer une demande de validation afin de pouvoir envoyer votre notification In-App. [En savoir plus](../test-approve/gs-approval.md)
+> Si votre campagne est soumise à une politique d’approbation, vous devrez effectuer une demande d’approbation afin de pouvoir envoyer votre notification in-app. [En savoir plus](../test-approve/gs-approval.md)
 
 Une fois votre message in-app créé et son contenu défini et personnalisé, vous pouvez le vérifier et l’activer.
 

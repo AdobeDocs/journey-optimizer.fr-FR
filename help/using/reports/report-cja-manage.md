@@ -2,16 +2,16 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Création de rapports
-description: Prise en main de la création de rapports
+description: Commencer avec les rapports
 feature: Reporting
 topic: Content Management
 role: User
 level: Intermediate
 exl-id: d2ff175a-8bca-4b62-931c-a909cfd9308d
 source-git-commit: b3d1d02605ff5e759c665847efad2d78bef6a1cf
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1083'
-ht-degree: 82%
+ht-degree: 100%
 
 ---
 
@@ -47,7 +47,7 @@ Vous pouvez facilement exporter vos différents rapports au format PDF ou CSV, c
 
 >[!TAB Exporter votre rapport au format CSV]
 
-1. Dans votre rapport, cliquez sur **[!UICONTROL Partager]** et sélectionnez **[!UICONTROL Télécharger CSV]** pour générer un fichier CSV au niveau du rapport global.
+1. Dans votre rapport, cliquez sur **[!UICONTROL Partager]** et sélectionnez **[!UICONTROL Télécharger le CSV]** pour générer un fichier CSV au niveau du rapport global.
 
    ![](assets/export_cja_csv.png)
 
@@ -72,25 +72,25 @@ Vous pouvez maintenant consulter, télécharger ou partager votre rapport en fic
 >[!ENDTABS]
 
 
-## Planification des exports {#schedule-export}
+## Planifier les exports {#schedule-export}
 
-L’ **export de planification** vous permet d’automatiser la remise de 10 rapports au maximum à des intervalles hebdomadaires, mensuels ou annuels. Vous pouvez également facilement gérer vos rapports planifiés avec des options permettant de mettre à jour, modifier, annuler ou supprimer l’une de vos exportations planifiées.
+La fonction **Planifier les exports** permet d’automatiser la remise de 10 rapports au maximum à des intervalles hebdomadaires, mensuels ou annuels. Vous pouvez également facilement gérer vos rapports planifiés avec des options permettant de mettre à jour, modifier, annuler ou supprimer l’un de vos exports planifiés.
 
-1. Dans votre rapport, cliquez sur **[!UICONTROL Partager]** et sélectionnez **[!UICONTROL Planifier l’exportation]**.
+1. Dans votre rapport, cliquez sur **[!UICONTROL Partager]** et sélectionnez **[!UICONTROL Planifier l’export]**.
 
    ![](assets/export-schedule-1.png)
 
-1. Choisissez le **[!UICONTROL type de fichier]** entre CSV et PDF.
+1. Choisissez le **[!UICONTROL type de fichier]** (CSV ou PDF).
 
-1. Si nécessaire, vous pouvez ajouter une **[!UICONTROL Description]** à votre exportation.
+1. Si nécessaire, vous pouvez ajouter une **[!UICONTROL Description]** à votre export.
 
 1. Saisissez le nom des destinataires qui recevront cette diffusion automatisée.
 
    ![](assets/export-schedule-2.png)
 
-1. Sélectionnez la **[!UICONTROL Fréquence]**.
+1. Choisissez la **[!UICONTROL fréquence]**.
 
-1. En fonction de la fréquence sélectionnée, fournissez les détails de planification pertinents, tels que :
+1. En fonction de la fréquence sélectionnée, fournissez les détails de planification pertinents, tels que les suivants :
 
    * Dates de début et de fin
 
@@ -98,21 +98,21 @@ L’ **export de planification** vous permet d’automatiser la remise de 10 rap
 
    * Jour spécifique de la semaine
 
-   * Semaine dans le mois
+   * Semaine du mois
 
-   * Jour au cours du mois
+   * Jour du mois
 
    * Mois de l’année
 
 1. Cliquez sur **[!UICONTROL Envoyer selon le planning]**.
 
-1. Pour modifier l’exportation planifiée créée précédemment, cliquez sur **[!UICONTROL Partager]** et sélectionnez **[!UICONTROL Gérer les plannings]**.
+1. Pour modifier l’export planifié créé précédemment, cliquez sur **[!UICONTROL Partager]** et sélectionnez **[!UICONTROL Gérer les plannings]**.
 
    ![](assets/export-schedule-3.png)
 
 1. Dans la liste des exports planifiés, choisissez celui que vous souhaitez mettre à jour et apportez les modifications nécessaires.
 
-1. Pour supprimer un rapport planifié, sélectionnez-en un dans la liste des planifications gérées et cliquez sur **[!UICONTROL Supprimer]**.
+1. Pour supprimer un rapport planifié, sélectionnez-le dans la liste des plannings gérés et cliquez sur **[!UICONTROL Supprimer]**.
 
    ![](assets/export-schedule-4.png)
 

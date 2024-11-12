@@ -1,18 +1,18 @@
 ---
-title: Diffuser des décisions par lots
+title: Prise de décision par lots
 description: Découvrez comment diffuser les décisions d’offres à tous les profils d’une audience Adobe Experience Platform donnée.
 feature: Decision Management
 role: User
 level: Intermediate
 exl-id: 810c05b3-2bae-4368-bf12-3ea8c2f31c01
 source-git-commit: b057d198d3c5b12121ee50d7a97ff4b33b8209b4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '841'
 ht-degree: 100%
 
 ---
 
-# Diffuser des décisions par lots {#deliver}
+# Prise de décision par lots {#deliver}
 
 ## Prise en main de la diffusion de décisions par lots {#start}
 

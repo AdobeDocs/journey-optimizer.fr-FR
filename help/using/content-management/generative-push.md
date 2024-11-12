@@ -1,17 +1,17 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Génération push avec l’accélérateur de contenu de l’assistant d’IA dans Journey Optimizer
-description: Commencer à générer du contenu push avec l’accélérateur de contenu de l’assistant d’IA dans Journey Optimizer
+title: Génération de notifications push avec l’accélérateur de contenu de l’assistant IA dans Journey Optimizer
+description: Commencer à générer du contenu push avec l’accélérateur de contenu de l’assistant IA dans Journey Optimizer
 feature: Content Assistant
 topic: Content Management
 role: User
 level: Beginner
 exl-id: a9f9d8af-c762-4038-8bbc-bbd519e0ef3a
 source-git-commit: f316ec79958ac23e0e416f0cafd49c017f2b6d4c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1487'
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 
@@ -22,19 +22,19 @@ ht-degree: 87%
 >Avant de commencer à utiliser cette fonctionnalité, lisez la section connexe [Mécanismes de sécurisation et limitations](gs-generative.md#generative-guardrails).
 ></br>
 >
->Vous devez accepter un [ contrat utilisateur](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html) avant de pouvoir utiliser l’accélérateur de contenu de l’assistant d’IA dans Journey Optimizer. Pour en savoir plus, contactez votre représentant ou représentante Adobe.
+>Vous devez accepter un [contrat d’utilisation](https://www.adobe.com/fr/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html) avant de pouvoir utiliser l’assistant IA dans Journey Optimizer pour l’accélération de contenu. Pour en savoir plus, contactez votre représentant ou représentante Adobe.
 
-Une fois vos messages créés et personnalisés, repositionnez leur contenu de notification push au niveau supérieur grâce à l’accélérateur de contenu de l’assistant d’IA dans Journey Optimizer.
+Une fois que vous avez créé et personnalisé vos messages, améliorez la qualité de votre contenu avec l’accélérateur de contenu de l’assistant IA dans Journey Optimizer.
 
-Consultez les onglets ci-dessous pour savoir comment utiliser l’accélérateur de contenu de l’assistant d’IA dans Journey Optimizer.
+Explorez les onglets ci-dessous pour savoir comment utiliser l’accélérateur de contenu de l’assistant IA dans Journey Optimizer.
 
 >[!BEGINTABS]
 
->[!TAB Génération de notification push complète]
+>[!TAB Génération de notifications push complètes]
 
-Dans cet exemple particulier, découvrez comment envoyer une notification push attrayante à l’aide de l’accélérateur de contenu de l’assistant IA dans Journey Optimizer.
+Dans cet exemple particulier, apprenez à envoyer une notification push accrocheuse à l’aide de l’accélérateur de contenu de l’assistant IA dans Journey Optimizer.
 
-Procédez de la façon suivante :
+Procédez comme suit :
 
 1. Après avoir créé et configuré votre campagne de notifications push, cliquez sur **[!UICONTROL Modifier le contenu]**.
 
@@ -48,7 +48,7 @@ Procédez de la façon suivante :
 
    ![](assets/push-genai-full-1.png){zoomable="yes"}
 
-1. Activez l’option **[!UICONTROL Utiliser le contenu d’origine]** de l’accélérateur de contenu de l’assistant d’IA pour personnaliser l’option du nouveau contenu en fonction du contenu sélectionné.
+1. Activez l’option **[!UICONTROL Utiliser le contenu d’origine]** de l’accélérateur de contenu de l’assistant IA afin de personnaliser l’option du nouveau contenu en fonction du contenu sélectionné.
 
 1. Affinez le contenu en décrivant ce que vous souhaitez générer dans le champ **[!UICONTROL Invite]**.
 
@@ -105,7 +105,7 @@ Lorsque vous avez défini le contenu, l’audience et le planning, vous pouvez p
 
 >[!TAB Génération de texte uniquement]
 
-Dans cet exemple particulier, découvrez comment utiliser l’accélérateur de contenu de l’assistant d’IA dans Journey Optimizer pour du contenu spécifique. Procédez de la façon suivante :
+Dans cet exemple particulier, apprenez à utiliser l’accélérateur de contenu de l’assistant IA dans Journey Optimizer pour du contenu spécifique. Procédez comme suit :
 
 1. Après avoir créé et configuré votre campagne de notifications push, cliquez sur **[!UICONTROL Modifier le contenu]**.
 
@@ -119,7 +119,7 @@ Dans cet exemple particulier, découvrez comment utiliser l’accélérateur de 
 
    ![](assets/push-genai-1.png){zoomable="yes"}
 
-1. Activez l’option **[!UICONTROL Utiliser le contenu de référence]** pour que l’accélérateur de contenu de l’assistant d’IA personnalise le nouveau contenu en fonction du contenu sélectionné.
+1. Activez l’option **[!UICONTROL Utiliser le contenu de référence]** pour l’accélérateur de contenu de l’assistant IA afin de personnaliser le nouveau contenu en fonction du contenu de référence.
 
 1. Affinez le contenu en décrivant ce que vous souhaitez générer dans le champ **[!UICONTROL Invite]**.
 
@@ -179,7 +179,7 @@ Lorsque vous avez défini le contenu, l’audience et le planning, vous pouvez p
 
    ![](assets/push-gen-img.png){zoomable="yes"}
 
-1. Activez l’option **[!UICONTROL Style de référence]** de l’accélérateur de contenu de l’assistant d’IA pour personnaliser le nouveau contenu en fonction du contenu de référence. Vous pouvez également charger une image pour ajouter du contexte à votre variation.
+1. Activez l’option **[!UICONTROL Style de référence]** pour l’accélérateur de contenu de l’assistant IA afin de personnaliser le nouveau contenu en fonction du contenu de référence. Vous pouvez également charger une image pour ajouter du contexte à votre variation.
 
 1. Affinez le contenu en décrivant ce que vous souhaitez générer dans le champ **[!UICONTROL Invite]**.
 

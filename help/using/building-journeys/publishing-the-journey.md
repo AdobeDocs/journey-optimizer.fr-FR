@@ -10,9 +10,9 @@ level: Intermediate
 keywords: publication, parcours, dynamique, validité, vérifier
 exl-id: e0ca8aef-4f1d-4631-8c34-1692d96e8b51
 source-git-commit: 8fecd0d4812ba875dba1d47bc32ab08178a13f2c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '269'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -32,7 +32,7 @@ Si vous arrêtez un parcours, il l’est définitivement. Toutes les personnes f
 
    >[!NOTE]
    >
-   > Si votre parcours est soumis à une politique d&#39;approbation, vous devrez demander votre approbation afin de pouvoir publier votre parcours. [En savoir plus](../test-approve/gs-approval.md)
+   > Si votre parcours est soumis à une politique d’approbation, vous devrez effectuer une demande d’approbation afin de pouvoir le publier. [En savoir plus](../test-approve/gs-approval.md)
 
 
    ![](assets/journeyuc1_18.png)

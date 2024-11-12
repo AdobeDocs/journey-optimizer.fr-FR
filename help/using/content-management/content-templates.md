@@ -9,9 +9,9 @@ role: User
 level: Beginner
 exl-id: 327de13a-1c99-4d5e-86cf-8180fb7aaf23
 source-git-commit: 2a666364144cf320a9ed20741da7d6f5d22b0d96
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '214'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -26,7 +26,7 @@ Cette fonctionnalité permet aux utilisateurs et utilisatrices orientés sur le 
 
 Par exemple, un utilisateur ou une utilisatrice de votre société est responsable du contenu uniquement et n’a donc pas accès aux campagnes ou aux parcours. Cependant, cet utilisateur ou cette utilisatrice peut créer un modèle d‘email que les responsables marketing de votre organisation pourront sélectionner pour une utilisation dans tous les e-mails comme point de départ.
 
-Vous pouvez créer des modèles de contenu pour les canaux Email, Push, In-App, SMS et Courrier.
+Vous pouvez créer des modèles de contenu pour les canaux E-mail, Push, In-App, SMS et Courrier.
 
 >[!AVAILABILITY]
 >

@@ -10,9 +10,9 @@ level: Experienced
 keywords: paramètres, e-mail, configuration, sous-domaine
 exl-id: 1e004a76-5d6d-43a1-b198-5c9b41f5332c
 source-git-commit: 9b4ff0325d099252a5785aa13cfe0f1fe42acac6
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1055'
-ht-degree: 68%
+ht-degree: 100%
 
 ---
 
@@ -105,7 +105,7 @@ Pour utiliser des variables personnalisées pour vos paramètres d’en-tête de
 
    ![](assets/surface-email-personalize-header.png)
 
-1. L’[éditeur de personnalisation](../personalization/personalization-build-expressions.md) s’ouvre. Définissez votre condition comme vous le souhaitez et enregistrez vos modifications.
+1. L’[éditeur de personnalisation](../personalization/personalization-build-expressions.md) s’ouvre. Définissez la condition à votre convenance et enregistrez vos modifications.
 
    <!--For example, set a condition such as each recipient receives an email from their own brand representative.-->
 
@@ -113,11 +113,11 @@ Pour utiliser des variables personnalisées pour vos paramètres d’en-tête de
    >
    >Vous pouvez uniquement sélectionner **[!UICONTROL Attributs de profil]** et **[!UICONTROL Fonctions d’assistance]**.
 
-   Supposons que vous souhaitiez gérer dynamiquement les emails envoyés pour le compte d’un assistant de vente, où l’assistant de vente est récupéré à partir des paramètres contextuels d’un événement ou d’une campagne. Par exemple :
+   Supposons que vous souhaitiez gérer dynamiquement les e-mails envoyés pour le compte d’une personne assistante de vente, et que celle-ci est récupérée à partir des paramètres contextuels d’un événement ou d’une campagne. Par exemple :
 
-   * Dans un [parcours](../building-journeys/journey-gs.md), lorsqu’un événement d’achat est lié à l’assistant de vente d’une boutique spécifique, l’en-tête de l’email (nom de l’expéditeur, adresse de l’expéditeur, adresse de réponse) peut être personnalisé avec les paramètres de l’assistant de vente, issus des attributs d’événement.
+   * Dans un [parcours](../building-journeys/journey-gs.md), lorsqu’un événement d’achat est lié à la personne assistante de vente d’une boutique spécifique, l’en-tête de l’email (nom de l’expéditeur, adresse de l’expéditeur, adresse de réponse) peut être personnalisé avec les paramètres de la personne assistante de vente, issus des attributs de l’événement.
 
-   * Dans une [campagne déclenchée par l’API](../campaigns/api-triggered-campaigns.md), initiée en externe par un assistant de vente, l’e-mail déclenché peut être envoyé au nom de l’assistant de vente et les valeurs de personnalisation de l’en-tête issues des paramètres contextuels de la campagne.
+   * Dans une [campagne déclenchée par une API](../campaigns/api-triggered-campaigns.md), démarrée de manière externe par une personne assistante de vente, l’e-mail déclenché peut être envoyé pour le compte de la personne assistante de vente et les valeurs de personnalisation de l’en-tête peuvent être issues des paramètres contextuels de la campagne.
 
 1. Répétez les étapes ci-dessus pour chaque paramètre auquel vous souhaitez ajouter une personnalisation.
 
@@ -139,7 +139,7 @@ Now when the email is sent out, this parameter will be automatically appended to
 
 ## Afficher les détails de configuration {#view-surface-details}
 
-Lors de l&#39;utilisation d&#39;une configuration avec des paramètres personnalisés dans une opération ou un parcours, vous pouvez afficher les détails de la configuration directement dans l&#39;opération ou le parcours. Suivez les étapes ci-dessous.
+Lorsque vous utilisez une configuration avec des paramètres personnalisés dans une campagne ou un parcours, vous pouvez afficher les détails de la configuration directement dans la campagne ou le parcours. Suivez les étapes ci-dessous.
 
 1. Créez une [campagne](../campaigns/create-campaign.md) e-mail ou un [parcours](../building-journeys/journey-gs.md) e-mail.
 
@@ -159,32 +159,32 @@ Lors de l&#39;utilisation d&#39;une configuration avec des paramètres personnal
 
    ![](assets/campaign-delivery-settings-subdomain-expand.png)
 
-## Vérifier votre configuration {#check-configuration}
+## Vérification de votre configuration {#check-configuration}
 
-Lors de l&#39;utilisation d&#39;une configuration personnalisée dans une opération ou un parcours, vous pouvez prévisualiser le contenu de votre email afin de rechercher les erreurs potentielles avec les paramètres dynamiques que vous avez définis. Suivez les étapes ci-dessous.
+Lors de l’utilisation d’une configuration personnalisée dans une campagne ou un parcours, vous pouvez prévisualiser le contenu de votre e-mail afin de rechercher les erreurs potentielles avec les paramètres dynamiques que vous avez définis. Suivez les étapes ci-dessous.
 
-1. Dans l&#39;écran d&#39;édition du contenu de votre message ou dans le Designer email, cliquez sur le bouton **[!UICONTROL Simuler le contenu]** . [En savoir plus](../content-management/preview.md)
+1. Dans l’écran Modifier le contenu de votre message, ou dans le Concepteur d’e-mail, cliquez sur le bouton **[!UICONTROL Simuler du contenu]**. [En savoir plus](../content-management/preview.md)
 
 1. Sélectionnez un [profil de test](../content-management/test-profiles.md).
 
-1. Si une erreur s&#39;affiche, cliquez sur le bouton **[!UICONTROL Afficher les détails de la configuration]** .
+1. Si une erreur s&#39;affiche, cliquez sur le bouton **[!UICONTROL Afficher les détails de la configuration]**.
 
    ![](assets/campaign-simulate-config-error.png)
 
-1. Vérifiez les détails de l’erreur dans l’écran **[!UICONTROL Paramètres de diffusion]** .
+1. Consultez les détails de l’erreur sur l’écran **[!UICONTROL Paramètres de diffusion]**.
 
    ![](assets/campaign-simulate-config-details.png)
 
-Les erreurs possibles peuvent être les suivantes :
+Les erreurs possibles peuvent être les suivantes :
 
 * Le **sous-domaine** n’a pas été résolu pour le profil de test sélectionné. Par exemple, votre configuration utilise plusieurs sous-domaines d’envoi correspondant à différents pays, mais le profil sélectionné n’a pas de valeur définie pour l’attribut `Country` ou l’attribut est défini sur `France`, mais cette valeur n’est associée à aucun sous-domaine de cette configuration.
 
 * Le profil sélectionné n’a aucune valeur associée pour un ou plusieurs **paramètres d’en-tête**.
 
-En cas d’erreur, l’email n’est pas envoyé au profil de test sélectionné.
+Si l’une de ces erreurs se produit, l’e-mail n’est pas envoyé au profil de test sélectionné.
 
-Pour éviter ce type d&#39;erreur, assurez-vous que les paramètres d&#39;en-tête que vous définissez utilisent des attributs personnalisés avec des valeurs pour la plupart de vos profils. Les valeurs manquantes peuvent avoir un impact sur la délivrabilité de vos emails.
+Pour éviter ce type d’erreur, assurez-vous que les paramètres d’en-tête que vous définissez utilisent des attributs personnalisés avec des valeurs pour la plupart de vos profils. Des valeurs manquantes peuvent avoir un impact sur la délivrabilité de vos e-mails.
 
 >[!NOTE]
 >
->En savoir plus sur la délivrabilité dans [cette section](../reports/deliverability.md)
+>En savoir plus sur la délivrabilité dans [cette section](../reports/deliverability.md).

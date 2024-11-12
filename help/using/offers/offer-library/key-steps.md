@@ -7,9 +7,9 @@ role: User
 level: Intermediate
 exl-id: e375fd3a-b10d-45f4-a95b-ceb48116e841
 source-git-commit: 6a416ccbf658d128feb417ac2ab9ac79a0951a5a
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '326'
+ht-degree: 100%
 
 ---
 
@@ -109,7 +109,7 @@ Avant de commencer à créer des offres, vous devez définir plusieurs composant
 
 1. [Configurez la décision](../offer-activities/create-offer-activities.md#add-decision-scopes). Pour ce faire, sélectionnez les emplacements, puis, pour chaque emplacement, sélectionnez une collection et une offre de secours.
 
-1. Si nécessaire, vous pouvez [attribuer une formule de classement](../offer-activities/configure-offer-selection.md#assign-ranking-formula) ou [Classement AI](../offer-activities/configure-offer-selection.md#use-ranking-strategy) à un emplacement lors de la configuration de la décision.
+1. Si nécessaire, vous pouvez [attribuer une formule de classement](../offer-activities/configure-offer-selection.md#assign-ranking-formula) ou [un classement AI](../offer-activities/configure-offer-selection.md#use-ranking-strategy) à un emplacement lors de la configuration de la décision.
 
 <!--
 <table style="table-layout:fixed">

@@ -9,9 +9,9 @@ role: Admin
 level: Intermediate
 exl-id: 9718c4b6-2558-4dfd-9d8f-f8845def19ba
 source-git-commit: 47482adb84e05fe41eb1c50479a8b50e00469ec4
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '731'
+ht-degree: 100%
 
 ---
 
@@ -42,7 +42,7 @@ Le graphique suivant montre les systèmes et services impliqués dans les flux d
 1. Les payloads push personnalisées sont transférées vers un service de diffusion de messagerie push interne.
 1. Ce service interne valide ensuite les informations d&#39;identification de l&#39;application associée au message, et
 1. envoie le message aux services de messagerie Apple et Google pour une diffusion finale.
-1. Les commentaires des services de messagerie sont signalés, les erreurs et les succès sont consignés pour la création de rapports dans le rapport Parcours Live &amp; Customer Journey Analytics.
+1. Les retours d’expérience des services de messagerie sont notés, les erreurs et les succès sont consignés pour le reporting dans les rapports dynamiques sur les parcours et Customer Journey Analytics.
 1. Les notifications push sont diffusées sur les appareils de l&#39;utilisateur final.
 1. Les interactions de notification push de l&#39;utilisateur final sont envoyées en tant qu&#39;événements d&#39;expérience depuis le client de l&#39;utilisateur final via l&#39;intégration du SDK.
 
