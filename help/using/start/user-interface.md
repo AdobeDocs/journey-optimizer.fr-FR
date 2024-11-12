@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
-source-git-commit: 2375ea3e8fb100642dee07e9c46640d47e393b44
+source-git-commit: d9fde8bfc7fd3ab3139c4212e2fef490dd9a8cce
 workflow-type: tm+mt
-source-wordcount: '1305'
-ht-degree: 100%
+source-wordcount: '1351'
+ht-degree: 96%
 
 ---
 
@@ -250,3 +250,18 @@ Pour modifier la langue :
 >id="ajo_email_enable_experience_decisioning"
 >title="Activation de la prise de décision"
 >abstract="Activation de la prise de décision"
+
+>[!CONTEXTUALHELP]
+>id="ajo_exd_decision_policy"
+>title="Sélectionner des attributs de décision dans le catalogue"
+>abstract="Les attributs de décision sont stockés dans le schéma du catalogue. Sélectionnez un attribut que vous souhaitez utiliser ici dans le catalogue sélectionné."
+
+>[!CONTEXTUALHELP]
+>id="ajo_exd_placements"
+>title="Politique de décision"
+>abstract="Une stratégie de décision vous permet de sélectionner les meilleurs éléments du moteur de décision et de les diffuser à chaque audience."
+
+>[!CONTEXTUALHELP]
+>id="ajo_exd_decision_attribute"
+>title="Emplacement"
+>abstract="Emplacement"
