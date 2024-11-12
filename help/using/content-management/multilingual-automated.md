@@ -9,10 +9,10 @@ role: User
 level: Beginner
 keywords: commencer, démarrer, contenu, expérience
 exl-id: 38e82eb2-67d9-4a7d-8c1f-77dab20bcec4
-source-git-commit: d63b12c9c7d3b16309661ffbe20baf8a9c140945
+source-git-commit: 40f46fd815a567934f886dd086102d830dea5ade
 workflow-type: tm+mt
-source-wordcount: '2041'
-ht-degree: 70%
+source-wordcount: '2053'
+ht-degree: 69%
 
 ---
 
@@ -31,6 +31,11 @@ ht-degree: 70%
 >[!IMPORTANT]
 >
 >Pour le flux automatisé, les utilisateurs ont besoin d’autorisations liées à la fonctionnalité **[!UICONTROL Service de traduction]**. [En savoir plus sur les autorisations](../administration/permissions.md)
+
+>[!AVAILABILITY]
+>
+> Le flux automatisé est temporairement indisponible pour les utilisateurs de la région EMEA.
+
 
 Avec le flux automatisé, vous pouvez simplement sélectionner la langue cible et le fournisseur de langues. Votre contenu est alors directement envoyé pour être traduit, prêt à être révisé une fois terminé.
 
