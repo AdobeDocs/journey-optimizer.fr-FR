@@ -8,10 +8,11 @@ topic: Administration
 role: Data Engineer, Data Architect, Admin
 level: Experienced
 keywords: données, gouvernance, DULE, libellés, étiqueter, platform, politique
-source-git-commit: 7f54200facc8845d5c39bb5d16751ed49579ea8a
+exl-id: be3efd3b-35d5-4cf7-9015-29d1e305355d
+source-git-commit: f5df65a0225754ab66fb2ffa33c5130f7137b644
 workflow-type: tm+mt
 source-wordcount: '1292'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -19,12 +20,12 @@ ht-degree: 97%
 
 >[!CONTEXTUALHELP]
 >id="ajo_data_governance_policy_violation"
->title="Violationsde la politique de gouvernance des données"
+>title="Violations de la politique de gouvernance des données"
 >abstract="Si le système identifie un champ restreint dans un parcours ou une campagne, ou une action personnalisée, une erreur s’affiche empêchant sa publication. Utilisez le diagramme de lignage des données de cette boîte de dialogue pour comprendre les autres modifications de configuration qui doivent être apportées avant de pouvoir activer votre parcours ou campagne."
 
 ## Commencer avec les politiques de gouvernance des données {#gs}
 
-Avec son cadre de gouvernance [Data Usage Labelling and Enforcement(DULE)](https://experienceleague.adobe.com/docs/experience-platform/data-governance/home.html?lang=fr){target="_blank"}, Adobe Experience Platform vous permet de gérer et d’appliquer des stratégies de gouvernance des données sur vos canaux en **étiquetant vos champs** et en créant des **actions marketing** pour chaque canal.
+Avec son cadre de gouvernance [Data Usage Labelling and Enforcement(DULE)](https://experienceleague.adobe.com/docs/experience-platform/data-governance/home.html?lang=fr){target="_blank"}, Adobe Experience Platform vous permet de gérer et d’appliquer des politiques de gouvernance des données sur vos canaux en **étiquetant vos champs** et en créant des **actions marketing** pour chaque canal.
 
 Une fois les actions marketing et les libellés définis, vous pouvez créer des **politiques de gouvernance des données** qui lient ces deux éléments. Par exemple, vous pouvez configurer une politique qui associe un libellé « ePHI » à une action marketing de « ciblage e-mail », en veillant à ce que les champs étiquetés « ePHI » ne soient pas utilisés pour personnaliser les e-mails. [Découvrir comment créer des politiques de gouvernance des données](#governance-policies)
 
