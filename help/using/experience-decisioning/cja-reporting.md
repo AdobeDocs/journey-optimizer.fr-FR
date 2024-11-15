@@ -1,20 +1,31 @@
 ---
-title: Rapports dans Customer Journey Analytics
-description: Découvrir comment générer des rapports dans Customer Journey Analytics
+title: Rapport sur la prise de décision
+description: Découvrez comment créer des rapports sur la prise de décision.
 feature: Experience Decisioning
 topic: Integrations
 role: User
 level: Experienced
 badge: label="Disponibilité limitée"
 exl-id: 7c45cd8a-8e86-4646-ba0a-db393e92d9da
-source-git-commit: ac8ccb52bd16a26c14dea148f989256e28170765
+source-git-commit: 841a114610bfee743f5ebb349e3eef6312de0f7b
 workflow-type: tm+mt
-source-wordcount: '167'
-ht-degree: 81%
+source-wordcount: '221'
+ht-degree: 55%
 
 ---
 
-# Rapports dans Customer Journey Analytics {#cja}
+
+# Rapport sur la prise de décision {#decisioning-report}
+
+## Rapports de campagnes basés sur le code {#campaigns}
+
+Une fois l’expérience basée sur le code activée, vous pouvez accéder à des rapports dédiés pour surveiller les indicateurs de performance clés (IPC) en tant que tableau de bord global, ce qui vous permet d’analyser les mesures essentielles associées à votre campagne.
+
+Cela inclut les détails liés aux performances des éléments de décision et la manière dont les utilisateurs ont interagi avec eux. [Découvrez comment utiliser les rapports d’expérience basés sur le code](../reports/campaign-global-report-cja-code.md)
+
+![](../reports/assets/cja-decisioning-item-performance.png)
+
+## Rapports dans Customer Journey Analytics {#cja}
 
 Si vous utilisez Customer Journey Analytics, vous pouvez créer des tableaux de bord de création de rapports personnalisés pour vos campagnes basées sur du code en exploitant la prise de décision.
 
