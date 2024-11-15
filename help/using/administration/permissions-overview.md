@@ -9,10 +9,10 @@ role: Admin, Architect
 level: Intermediate
 keywords: autorisations, droits, restrictions, accès, sandbox
 exl-id: b8e266b1-d8eb-4c77-9341-9761b82609b0
-source-git-commit: 9f43387ff63c3d2c2849fad1ca6a98310b3915b3
+source-git-commit: c2f68054cb0c378b188797a2b3aa4fb2841b7384
 workflow-type: tm+mt
-source-wordcount: '178'
-ht-degree: 97%
+source-wordcount: '149'
+ht-degree: 96%
 
 ---
 
@@ -32,8 +32,10 @@ La gestion des utilisateurs dans [!DNL Journey Optimizer] repose sur trois conce
 
 ![](assets/do-not-localize/permissions_2.png)
 
-## Vidéo pratique{#video}
+<!--
+## How-to video{#video}
 
-En savoir plus sur le système de contrôle d’accès et les rôles personnalisés dans Adobe Journey Optimizer. Découvrez comment gérer les rôles et les autorisations, et comment ajouter et gérer des utilisateurs et des utilisatrices.
+Learn more about access control system and custom proles in Adobe Journey Optimizer. Learn how to manage roles and permissions and how to add and manage users.
 
 >[!VIDEO](https://video.tv.adobe.com/v/333998?quality=12)
+-->
