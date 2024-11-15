@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
-source-git-commit: d9fde8bfc7fd3ab3139c4212e2fef490dd9a8cce
+source-git-commit: 594bb029c7d8b711fe60697c5c2e06d9943189fa
 workflow-type: tm+mt
-source-wordcount: '1351'
-ht-degree: 96%
+source-wordcount: '1374'
+ht-degree: 95%
 
 ---
 
@@ -252,16 +252,16 @@ Pour modifier la langue :
 >abstract="Activation de la prise de décision"
 
 >[!CONTEXTUALHELP]
->id="ajo_exd_decision_policy"
+>id="ajo_exd_decision_attribute"
 >title="Sélectionner des attributs de décision dans le catalogue"
 >abstract="Les attributs de décision sont stockés dans le schéma du catalogue. Sélectionnez un attribut que vous souhaitez utiliser ici dans le catalogue sélectionné."
 
 >[!CONTEXTUALHELP]
->id="ajo_exd_placements"
+>id="ajo_exd_decision_policy"
 >title="Politique de décision"
 >abstract="Une stratégie de décision vous permet de sélectionner les meilleurs éléments du moteur de décision et de les diffuser à chaque audience."
 
 >[!CONTEXTUALHELP]
->id="ajo_exd_decision_attribute"
+>id="ajo_exd_placements"
 >title="Emplacement"
->abstract="Emplacement"
+>abstract="Un emplacement détermine où les éléments renvoyés du moteur de décision apparaissent dans un message. Vous pouvez suivre leurs performances à différents emplacements dans les rapports."
