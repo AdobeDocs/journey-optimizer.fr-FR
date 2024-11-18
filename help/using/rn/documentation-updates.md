@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: d83339f8b6e02e6035b759b6b52bd18ea9a626e3
+source-git-commit: 9c5dd4a8de32ccc037d6c8d57667ce3a5f455535
 workflow-type: tm+mt
-source-wordcount: '5707'
-ht-degree: 97%
+source-wordcount: '5724'
+ht-degree: 99%
 
 ---
 
@@ -23,11 +23,12 @@ Cette page répertorie toutes les mises à jour récentes de la documentation de
 
 * Toutes les nouvelles fonctionnalités et améliorations de la version [!DNL Journey Optimizer] d’octobre 2024 ont été présentées dans la documentation. [En savoir plus](release-notes.md)
 * Tous les canaux de communication disponibles dans [!DNL Journey Optimizer] sont désormais regroupés dans une section dédiée de la documentation. [En savoir plus](../channels/gs-channels.md)
-* La page **Configurer votre expérience basée sur du code** a été améliorée afin de rendre le processus plus clair, y compris la section expliquant ce qu’est un URI de surface. [En savoir plus](../code-based/code-based-configuration.md)
+* La page **Configurer votre expérience basée sur le code** a été améliorée afin de rendre le processus plus clair, y compris la section expliquant ce qu’est un URI de surface. [En savoir plus](../code-based/code-based-configuration.md)
 * La page **Créer une configuration de canal web** a été mise à jour afin de clarifier les étapes de création d’une règle de correspondance de pages, qui s’applique également à la configuration d’expérience basée sur le code. [En savoir plus](../web/web-configuration.md#web-page-matching-rule)
-* Ajout d’une note sur la prochaine barrière de sécurité de la durée de vie (TTL) pour les jeux de données générés par le système - [En savoir plus](../data/get-started-datasets.md)
-* Une nouvelle section a été ajoutée pour décrire comment prévisualiser vos expériences personnalisées basées sur du code directement sur votre navigateur ou vos appareils mobiles, à l’aide de l’option Aperçu sur l’appareil lors de la simulation de contenu dans un parcours ou une campagne - [En savoir plus](../code-based/create-code-based.md#preview-on-device)
+* Une note concernant le prochain mécanisme de sécurisation sur la durée de vie (TTL) pour les jeux de données générés par le système a été ajoutée. [En savoir plus](../data/get-started-datasets.md)
+* Une nouvelle section a été ajoutée pour décrire comment prévisualiser vos expériences personnalisées basées sur du code directement sur votre navigateur ou vos appareils mobiles, à l’aide de l’option Prévisualiser sur l’appareil lors de la simulation de contenu dans un parcours ou une campagne. [En savoir plus](../code-based/create-code-based.md#preview-on-device)
 * Une nouvelle page a été ajoutée sur la manière d’exploiter les audiences de chargement personnalisées pour la prise de décision. [En savoir plus](../offers/custom-upload-decisioning.md)
+* Une nouvelle page a été ajoutée pour présenter les fonctionnalités de décision disponibles dans Journey Optimizer. [En savoir plus](../experience-decisioning/gs-decision.md)
 
 ## Septembre 2024 {#sept-2024}
 
@@ -35,7 +36,7 @@ Cette page répertorie toutes les mises à jour récentes de la documentation de
 * Ajout d’une section sur la gestion des reprises de parcours. [En savoir plus](../building-journeys/read-audience.md#read-audience-retry)
 * Mise à jour des questions fréquentes sur la règle de capping et de limitation pour les actions personnalisées afin de mentionner la règle de capping par défaut. [En savoir plus](../configuration/external-systems.md#faq)
 * La section Accès au contrôle a été mise à jour avec des autorisations liées au générateur de contenu de l’assistant IA. [En savoir plus](../administration/high-low-permissions.md#ai-permission)
-* Ajout d’une vidéo sur l’assistant de génération de contenu de l’IA pour la génération d’emails - [En savoir plus](../content-management/generative-email.md#video)
+* Une vidéo sur le générateur de contenu de l’assistant IA pour la génération d’e-mails a été ajoutée. [En savoir plus](../content-management/generative-email.md#video)
 
 
 ## Août 2024 {#aug-2024}
