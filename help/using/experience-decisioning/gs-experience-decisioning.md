@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 4c57dbf9-b2a4-42da-8aa3-5a1b3a475a32
-source-git-commit: 2ca6659319482db09efd86ded418b151a022442c
+source-git-commit: 05ce9083d9f45332c718adc9d01ec3410ca84050
 workflow-type: tm+mt
-source-wordcount: '365'
-ht-degree: 81%
+source-wordcount: '548'
+ht-degree: 55%
 
 ---
 
@@ -20,6 +20,26 @@ ht-degree: 81%
 La prise de décision simplifie la personnalisation en offrant un catalogue centralisé d’offres marketing connues sous le nom d’« éléments de décision » et un moteur de décision sophistiqué. Ce moteur tire parti des règles et des critères de classement pour sélectionner et présenter les éléments de décision les plus pertinents à chaque individu.
 
 Ces éléments de décision sont intégrés de manière transparente à un large éventail de surfaces entrantes grâce au [nouveau canal d’expérience basé sur le code](https://experienceleague.adobe.com/fr/docs/journey-optimizer/using/code-based-experience/get-started-code-based), désormais accessible dans les campagnes Journey Optimizer. Les stratégies de décision ne peuvent être utilisées que dans des campagnes d’expérience basées sur du code.
+
+## Mécanismes de sécurisation et limitations {#guardrails}
+
+Pour garantir une utilisation optimale de la prise de décision, gardez à l’esprit les barrières de sécurité et les limites suivantes :
+
+### Barrières de sécurité générales {#general}
+
+* **Éléments d’offre** : chaque collection d’éléments peut contenir jusqu’à 500 éléments d’offre.
+* **Attributs personnalisés** : un élément de décision peut inclure un maximum de 100 attributs personnalisés.
+* **Stratégies de sélection et éléments manuels par stratégie** : une stratégie de décision prend en charge jusqu’à 10 stratégies de sélection et éléments manuels combinés.
+
+### Règles d’éligibilité {#eligibility}
+
+* **Niveaux d’imbrication** : la profondeur d’imbrication est limitée à 30 niveaux. Ceci est mesuré en comptant les parenthèses fermantes `)` dans la chaîne PQL.
+* **Taille de chaîne de règle** : la taille d’une chaîne de règle peut aller jusqu’à 15 Ko pour les caractères codés en UTF-8. Cela équivaut à 15 000 caractères ASCII (1 octet chacun) ou 3 750 à 7 500 caractères non ASCII (2 à 4 octets chacun).
+
+### Formules de classement {#ranking}
+
+* **Niveaux d’imbrication** : la profondeur d’imbrication est limitée à 30 niveaux. Ceci est mesuré en comptant les parenthèses fermantes `)` dans la chaîne PQL.
+* **Taille de chaîne de formule** : la taille d’une chaîne de règle peut aller jusqu’à 8 Ko pour les caractères codés en UTF-8. Cela correspond à 8 000 caractères ASCII (1 octet chacun) ou à 2 000 à 4 000 caractères non ASCII (2 à 4 octets chacun).
 
 ## Étapes clés de prise de décision {#steps}
 
