@@ -9,8 +9,8 @@ role: User
 level: Beginner, Intermediate
 hidefromtoc: true
 exl-id: 0997a640-3f89-4460-ba93-ea21a9d4efc5
-source-git-commit: 47482adb84e05fe41eb1c50479a8b50e00469ec4
-workflow-type: ht
+source-git-commit: 4acb6777994c9f4252d106fe8e9e5405e73c9349
+workflow-type: tm+mt
 source-wordcount: '3598'
 ht-degree: 100%
 
@@ -449,7 +449,6 @@ Cette page répertorie toutes les fonctionnalités et améliorations pour [!DNL 
 <tr>
 <td>
 <p>Le module d’intégration du concepteur d’e-mail Adobe Stock et Adobe Journey Optimizer fournit aux clients une façon simple de naviguer, d’acquérir des produits sous licence et d’enregistrer des images en vue de les utiliser dans la création de messages. </br>La nouvelle option <b>Rechercher des photos Stock similaires</b> vous permet également de localiser les photos Stock qui correspondent au contenu, à la couleur et à la composition de vos images. </p>
-<!--img src="assets/do-not-localize/stock-rn.gif"/-->
 <p>Pour plus d’informations, consultez la <a href="../content-management/stock.md">documentation détaillée</a>.</p>
 </td>
 </tr>
@@ -466,7 +465,6 @@ Cette page répertorie toutes les fonctionnalités et améliorations pour [!DNL 
 <tr>
 <td>
 <p>Vous pouvez désormais utiliser la fonctionnalité Email Cci (copie carbone invisible) pour stocker les e-mails envoyés par Adobe Journey Optimizer. Activez cette option dans vos préréglages d’e-mail de sorte que chaque e-mail envoyé soit copié de façon invisible vers votre adresse Cci.</p>
-<!--img src="assets/do-not-localize/bcc-rn.gif"/-->
 <p>Pour plus d’informations, consultez la <a href="../configuration/archiving-support.md#bcc-email">documentation détaillée</a>.</p>
 </td>
 </tr>
@@ -547,7 +545,6 @@ Cette page répertorie toutes les fonctionnalités et améliorations pour [!DNL 
 <tr>
 <td>
 <p>Vous pouvez désormais définir des règles métier cross-canal qui excluront automatiquement les profils sursollicités des messages et actions.</p>
-<!--img src="assets/do-not-localize/frequency-rn.gif"/-->
 <p>Pour plus d’informations, consultez la <a href="../configuration/frequency-rules.md">documentation détaillée</a>.</p>
 </td>
 </tr>
@@ -564,7 +561,6 @@ Cette page répertorie toutes les fonctionnalités et améliorations pour [!DNL 
 <tr>
 <td>
 <p>Vous pouvez désormais utiliser des systèmes de modèle formés dans la gestion des décisions. Cette nouvelle fonctionnalité permet de classer les offres à afficher pour un profil donné.</p>
-<!--img src="assets/do-not-localize/optimization.gif"/-->
 <p>Pour plus d’informations, consultez la <a href="../offers/offer-activities/configure-offer-selection.md#use-ranking-strategy">documentation détaillée</a>.</p>
 </td>
 </tr>
@@ -598,7 +594,6 @@ Cette page répertorie toutes les fonctionnalités et améliorations pour [!DNL 
 <tr>
 <td>
 <p>Vous pouvez désormais surveiller les actions effectuées par les utilisateurs sur les ressources Adobe Journey Optimizer.</p>
-<!--img src="assets/do-not-localize/audit-rn.gif"/-->
 <p>Pour plus d’informations, consultez la <a href="../privacy/audit-logs.md">documentation détaillée</a>.</p>
 </td>
 </tr>

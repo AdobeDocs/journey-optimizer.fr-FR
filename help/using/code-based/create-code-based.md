@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Experienced
 exl-id: 25c2c448-9380-47b0-97c5-16d9afb794c5
-source-git-commit: 22eae783ec2a7db2209b2a12b78b286e4f97ee1b
+source-git-commit: 4acb6777994c9f4252d106fe8e9e5405e73c9349
 workflow-type: tm+mt
 source-wordcount: '1783'
-ht-degree: 69%
+ht-degree: 94%
 
 ---
 
@@ -144,9 +144,9 @@ Pour afficher un aperçu de votre expérience basée sur le code qui a été mod
 
 1. Un aperçu de votre expérience basée sur le code qui a été modifiée s’affiche.
 
-Des informations détaillées sur la sélection des profils de test et la prévisualisation de votre contenu sont disponibles dans [cette section](../content-management/preview.md).
+Vous trouverez des informations détaillées sur la sélection des profils de test et la prévisualisation de votre contenu dans [cette section](../content-management/preview.md).
 
-### Aperçu sur l’appareil {#preview-on-device}
+### Prévisualiser sur l’appareil {#preview-on-device}
 
 >[!CONTEXTUALHELP]
 >id="ajo_code_based_preview_device"
@@ -172,11 +172,11 @@ Lors de la création d’expériences basées sur du code pour des pages web ou 
 
 >[!WARNING]
 >
->L’aperçu sur l’appareil n’est pas disponible lors de l’utilisation des attributs contextuels [ de ](../experience-decisioning/create-decision.md) ou [personnalisation](../personalization/personalization-build-expressions.md).
+>La prévisualisation sur l’appareil n’est pas disponible lors de l’utilisation des [politiques de décision](../experience-decisioning/create-decision.md) ou des attributs contextuels de [personnalisation](../personalization/personalization-build-expressions.md).
 
-1. Dans l&#39;écran **[!UICONTROL Simuler]**, cliquez sur le bouton **[!UICONTROL Ouvrir les options d&#39;aperçu]**. Les options d’aperçu dépendent de la plateforme sélectionnée dans votre [configuration basée sur le code](code-based-configuration.md#create-code-based-configuration).
+1. Dans l’écran **[!UICONTROL Simuler]**, cliquez sur le bouton **[!UICONTROL Ouvrir les options de prévisualisation]**. Les options de prévisualisation dépendent de la plateforme sélectionnée dans votre [configuration basée sur le code](code-based-configuration.md#create-code-based-configuration).
 
-1. Si vous utilisez une [plateforme web](code-based-configuration.md#web) dans votre configuration basée sur le code, le champ **[!UICONTROL URL d’aperçu de périphérique]** en lecture seule est prérempli avec l’URL saisie pour la configuration de canal actuelle.
+1. Si vous utilisez une [plateforme web](code-based-configuration.md#web) dans votre configuration basée sur le code, le champ **[!UICONTROL URL de prévisualisation sur l’appareil]** en lecture seule est prérempli avec l’URL saisie pour la configuration de canal actuelle.
 
    ![](assets/preview-on-device-web.png)
 
@@ -186,9 +186,9 @@ Lors de la création d’expériences basées sur du code pour des pages web ou 
 
    * Cliquez sur **[!UICONTROL Ouvrir dans un nouvel onglet]** pour ouvrir le lien dans votre navigateur actuel.
 
-   * Analysez le code QR avec votre appareil mobile pour ouvrir le lien d’aperçu sur un navigateur mobile.
+   * Analysez le code QR avec votre appareil mobile pour ouvrir le lien de prévisualisation sur un navigateur mobile.
 
-1. Si vous utilisez [Plateformes mobiles](code-based-configuration.md#mobile) (iOS/Android) dans votre configuration basée sur le code, le champ **[!UICONTROL Lien profond]** en lecture seule est prérempli avec la valeur **[!UICONTROL URL d’aperçu]** saisie dans la configuration de canal pour la plateforme sélectionnée.
+1. Si vous utilisez des [plateformes mobiles](code-based-configuration.md#mobile) (iOS/Android) dans votre configuration basée sur le code, le champ **[!UICONTROL Lien profond]** en lecture seule est prérempli avec la valeur **[!UICONTROL URL de prévisualisation]** saisie dans la configuration de canal pour la plateforme sélectionnée.
 
    Basculez entre les onglets **[!UICONTROL iOS]** et **[!DNL Android]** pour prévisualiser votre expérience pour la plateforme de votre choix.
 
@@ -198,13 +198,13 @@ Lors de la création d’expériences basées sur du code pour des pages web ou 
 
    * Sélectionnez le bouton **[!UICONTROL Copier le lien]** et partagez le lien avec votre équipe et les parties prenantes, qui peuvent prévisualiser la nouvelle expérience dans n’importe quel navigateur mobile avant que les modifications ne soient mises en ligne.
 
-   * Analysez le code QR avec votre appareil mobile pour ouvrir le lien d’aperçu directement dans l’application mobile. Vous devez saisir le code PIN sur votre appareil pour établir la session [Assurance](https://experienceleague.adobe.com/en/docs/experience-platform/assurance/tutorials/implement-assurance){target="_blank"}.
+   * Analysez le code QR avec votre appareil mobile pour ouvrir le lien de prévisualisation directement dans l’application mobile. Vous devez saisir le code PIN sur votre appareil pour établir la session [Assurance](https://experienceleague.adobe.com/fr/docs/experience-platform/assurance/tutorials/implement-assurance){target="_blank"}.
 
      >[!NOTE]
      >
-     >**Adobe Experience Platform Assurance** est un produit de Adobe Experience Cloud qui vous aide à inspecter, à tester, à simuler et à valider la manière dont vous collectez des données ou diffusez des expériences dans votre application mobile. [En savoir plus](https://experienceleague.adobe.com/fr/docs/experience-platform/assurance/home){target="_blank"}
+     >**Adobe Experience Platform Assurance** est un produit d’Adobe Experience Cloud qui vous aide à inspecter, à tester, à simuler et à valider la manière dont vous collectez des données ou diffusez des expériences dans votre application mobile. [En savoir plus](https://experienceleague.adobe.com/fr/docs/experience-platform/assurance/home){target="_blank"}
 
-1. Les liens d’aperçu sont générés pour le profil de test sélectionné et, si vous utilisez [Expérience de contenu](../content-management/content-experiment.md) dans votre parcours ou campagne, pour le traitement sélectionné.
+1. Les liens de prévisualisation sont générés pour le profil de test sélectionné et, si vous utilisez [Expérience de contenu](../content-management/content-experiment.md) dans votre parcours ou campagne, pour le traitement sélectionné.
 
    <!--If you have modified the content or selected a different treatment or test profile, scroll down to the bottom of the **[!UICONTROL Preview on device]** pop-up and click **[!UICONTROL Refresh preview link]** to reflect the current state.
 
@@ -230,7 +230,7 @@ Vous pouvez également prévisualiser le contenu de votre expérience basée sur
 >
 >Si plusieurs parcours ou campagnes basés sur du code mettent à jour le ou les mêmes éléments de votre contenu, le parcours ou la campagne avec la priorité la plus élevée prévaut.
 
-Une fois votre parcours ou campagne basé sur du code actif, votre équipe de mise en oeuvre d’application est chargée d’effectuer des appels d’API ou de SDK explicites pour récupérer du contenu pour les surfaces définies dans la [configuration d’expérience basée sur le code](code-based-configuration.md) sélectionnée. Pour en savoir plus sur les différentes mises en oeuvre client, consultez [cette section](code-based-implementation-samples.md).
+Une fois votre parcours ou campagne basé sur du code actif, votre équipe de mise en oeuvre d’application est chargée d’effectuer des appels d’API ou de SDK explicites pour récupérer du contenu pour les surfaces définies dans la [configuration d’expérience basée sur le code](code-based-configuration.md) sélectionnée. Pour en savoir plus sur les différentes mises en œuvre des clientes et clients, consultez [cette section](code-based-implementation-samples.md).
 
 ### Publier un parcours basé sur du code {#publish-code-based-journey}
 
@@ -332,8 +332,6 @@ TBC: The **[!UICONTROL Interactions by element]** table details the main informa
 Code-based campaign global report can be accessed directly from your journey or campaign with the **[!UICONTROL View report]** button. [Learn more on global report](../reports/campaign-global-report-cja.md)
 
 From your Campaign **[!UICONTROL Global report]**, the **[!UICONTROL Code-based experience]** tab details the main information relative to your apps or web pages.
-
-![](assets/code-based-campaign-global-report.png)
 
 Add image TBC
 
