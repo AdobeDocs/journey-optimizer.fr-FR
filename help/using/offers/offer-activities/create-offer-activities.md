@@ -6,7 +6,7 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 7a217c97-57e1-4f04-a92c-37632f8dfe91
-source-git-commit: 88e7140183700da0283fa00d89f6fff2c71c138f
+source-git-commit: 8535040fd3fe1622d4358a762f92bd93f5694cfa
 workflow-type: tm+mt
 source-wordcount: '2511'
 ht-degree: 95%
@@ -308,7 +308,7 @@ La sélection se présente comme suit :
 
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_decision_fallback"
->title="Ajout d’une offre de fackback"
+>title="Ajouter une offre de secours"
 >abstract="Une fois que vous avez défini les portées de décision, définissez l’offre de secours qui sera présentée en dernier recours aux clients qui ne correspondent pas aux règles d’éligibilité et contraintes des offres."
 
 Une fois que vous avez défini les portées de décision, définissez l’offre de secours qui sera présentée en dernier recours aux clients qui ne correspondent pas aux règles d’éligibilité et contraintes des offres.
@@ -384,7 +384,7 @@ Vous pouvez également supprimer ou modifier le statut de plusieurs décisions e
 
 ![](../assets/decision_multiple-selection.png)
 
-Si vous souhaitez modifier le statut de plusieurs décisions dont les statuts sont différents, seuls les statuts correspondants seront modifiés.
+Si vous souhaitez modifier l’état de plusieurs décisions avec des états différents, seuls les états pertinents seront modifiés.
 
 ![](../assets/decision_change-status.png)
 
