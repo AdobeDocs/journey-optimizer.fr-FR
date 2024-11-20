@@ -6,9 +6,9 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 4c57dbf9-b2a4-42da-8aa3-5a1b3a475a32
-source-git-commit: 05ce9083d9f45332c718adc9d01ec3410ca84050
+source-git-commit: c179d81e664fea2b03bf734cafaf287709fa10a0
 workflow-type: tm+mt
-source-wordcount: '548'
+source-wordcount: '549'
 ht-degree: 55%
 
 ---
@@ -29,7 +29,7 @@ Pour garantir une utilisation optimale de la prise de décision, gardez à l’e
 
 * **Éléments d’offre** : chaque collection d’éléments peut contenir jusqu’à 500 éléments d’offre.
 * **Attributs personnalisés** : un élément de décision peut inclure un maximum de 100 attributs personnalisés.
-* **Stratégies de sélection et éléments manuels par stratégie** : une stratégie de décision prend en charge jusqu’à 10 stratégies de sélection et éléments manuels combinés.
+* **Stratégies de sélection et éléments de décision par stratégie** : une stratégie de décision prend en charge jusqu’à 10 stratégies de sélection et éléments de décision combinés.
 
 ### Règles d’éligibilité {#eligibility}
 
@@ -39,7 +39,7 @@ Pour garantir une utilisation optimale de la prise de décision, gardez à l’e
 ### Formules de classement {#ranking}
 
 * **Niveaux d’imbrication** : la profondeur d’imbrication est limitée à 30 niveaux. Ceci est mesuré en comptant les parenthèses fermantes `)` dans la chaîne PQL.
-* **Taille de chaîne de formule** : la taille d’une chaîne de règle peut aller jusqu’à 8 Ko pour les caractères codés en UTF-8. Cela correspond à 8 000 caractères ASCII (1 octet chacun) ou à 2 000 à 4 000 caractères non ASCII (2 à 4 octets chacun).
+* **Taille de chaîne de formule** : la taille d’une chaîne de règle peut aller jusqu’à 8 Ko pour les caractères codés en UTF-8. Cela équivaut à 8 000 caractères ASCII (1 octet chacun) ou 2 000 à 4 000 caractères non ASCII (2 à 4 octets chacun).
 
 ## Étapes clés de prise de décision {#steps}
 

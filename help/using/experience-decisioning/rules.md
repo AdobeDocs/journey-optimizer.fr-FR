@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 033a11b8-c848-4e4a-b6f0-62fa0a2152bf
-source-git-commit: 22eae783ec2a7db2209b2a12b78b286e4f97ee1b
+source-git-commit: c179d81e664fea2b03bf734cafaf287709fa10a0
 workflow-type: tm+mt
-source-wordcount: '384'
-ht-degree: 100%
+source-wordcount: '448'
+ht-degree: 85%
 
 ---
 
@@ -58,3 +58,6 @@ Pour créer cette règle de décision, procédez comme suit :
 
 1. Une fois votre règle de décision prête, cliquez sur **[!UICONTROL Enregistrer]**. La règle apparaît dans la liste et peut être utilisée dans les éléments de décision et les stratégies de sélection pour régir la présentation des éléments de décision aux profils.
 
+   >[!NOTE]
+   >
+   >La profondeur d’imbrication dans une règle d’éligibilité est limitée à 30 niveaux. Ceci est mesuré en comptant les parenthèses fermantes `)` dans la chaîne PQL. La taille d’une chaîne de règle peut aller jusqu’à 15 Ko pour les caractères codés en UTF-8. Cela équivaut à 15 000 caractères ASCII (1 octet chacun) ou 3 750 à 7 500 caractères non ASCII (2 à 4 octets chacun). [En savoir plus sur les barrières de sécurité et les limitations de prise de décision](gs-experience-decisioning.md#guardrails)

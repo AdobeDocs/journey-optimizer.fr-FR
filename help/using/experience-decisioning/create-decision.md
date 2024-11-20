@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Experienced
 exl-id: 63aa1763-2220-4726-a45d-3a3a8b8a55ec
-source-git-commit: 22eae783ec2a7db2209b2a12b78b286e4f97ee1b
+source-git-commit: c179d81e664fea2b03bf734cafaf287709fa10a0
 workflow-type: tm+mt
-source-wordcount: '1788'
-ht-degree: 96%
+source-wordcount: '1791'
+ht-degree: 94%
 
 ---
 
@@ -88,9 +88,9 @@ La section **[!UICONTROL Séquence de stratégies]** vous permet de sélectionne
 
    >[!NOTE]
    >
-   >Au moins un élément ou une stratégie de décision est requis(e). Vous ne pouvez pas ajouter plus de 10 stratégies.
+   >Une politique de décision prend en charge jusqu’à 10 stratégies de sélection et éléments de décision combinés. [En savoir plus sur les barrières de sécurité et les limitations de prise de décision](gs-experience-decisioning.md#guardrails)
 
-1. Lorsque vous ajoutez plusieurs éléments et/ou stratégies de décision, ils sont évalués dans un ordre spécifique. Le premier objet ajouté à la séquence sera évalué en premier, etc.     Pour modifier la séquence par défaut, vous pouvez faire glisser et déposer les objets et/ou les groupes afin de les réorganiser selon vos besoins. [En savoir plus sur l’ordre d’évaluation des politiques de décision](#evaluation-order)
+1. Lorsque vous ajoutez plusieurs éléments et/ou stratégies de décision, ils sont évalués dans un ordre spécifique. Le premier objet ajouté à la séquence sera évalué en premier, etc. Pour modifier la séquence par défaut, vous pouvez faire glisser et déposer les objets et/ou les groupes afin de les réorganiser selon vos besoins. [En savoir plus sur l’ordre d’évaluation des politiques de décision](#evaluation-order)
 
 ### Gestion de l’ordre d’évaluation dans une politique de décision {#evaluation-order}
 

@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 2d118f5a-32ee-407c-9513-fe0ebe3ce8f0
-source-git-commit: 22eae783ec2a7db2209b2a12b78b286e4f97ee1b
+source-git-commit: c179d81e664fea2b03bf734cafaf287709fa10a0
 workflow-type: tm+mt
-source-wordcount: '303'
-ht-degree: 90%
+source-wordcount: '320'
+ht-degree: 80%
 
 ---
 
@@ -46,4 +46,8 @@ Pour accéder au schéma du catalogue où les attributs des éléments de décis
 
    Vous trouverez des informations détaillées sur l’utilisation des schémas Adobe Experience Platform dans la [Documentation du système XDM](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/overview.html?lang=fr).
 
-1. Une fois les attributs personnalisés souhaités ajoutés, enregistrez le schéma. Le nouveau champ est désormais disponible dans l’écran de création des décisions d’élément, dans la section **[!UICONTROL Attributs personnalisés]**.
+1. Une fois les attributs personnalisés souhaités ajoutés, enregistrez le schéma. Le nouveau champ est désormais disponible dans l’écran de création de l’élément de décision, dans la section **[!UICONTROL Attributs personnalisés]** .
+
+>[!NOTE]
+>
+>Un élément de décision peut inclure un maximum de 100 attributs personnalisés. [En savoir plus sur les barrières de sécurité et les limitations de prise de décision](gs-experience-decisioning.md#guardrails)
