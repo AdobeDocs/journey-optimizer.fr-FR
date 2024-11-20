@@ -9,10 +9,10 @@ role: Admin
 level: Intermediate
 keywords: IP, groupes, délivrabilité
 exl-id: a9995ca1-d7eb-4f8d-a9d9-fe56198ac325
-source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
+source-git-commit: cf946f8d59728a743b3c4b571c07fc70e3c6cf87
 workflow-type: tm+mt
 source-wordcount: '423'
-ht-degree: 100%
+ht-degree: 93%
 
 ---
 
@@ -31,7 +31,7 @@ Pour créer une campagne de préchauffage d’adresses IP, suivez les étapes ci
 
    >[!NOTE]
    >
-   >Découvrez comment sélectionner le domaine et les adresses IP à utiliser dans une configuration du canal e-mail dans [cette section](../email/email-settings.md#subdomains-and-ip-pools).
+   >* Découvrez comment sélectionner le domaine et les adresses IP à utiliser dans une configuration du canal e-mail dans [cette section](../email/email-settings.md#subdomains-and-ip-pools).
    >
    >* Contactez votre conseiller ou conseillère en délivrabilité pour identifier le domaine et les adresses IP à utiliser pour votre plan de préchauffage d’adresses IP.<!--TBC-->
 
@@ -55,13 +55,17 @@ Pour créer une campagne de préchauffage d’adresses IP, suivez les étapes ci
 
 1. Suivez les étapes de création d’une campagne par e-mail, telles que définir les propriétés, l’[audience](../audience/about-audiences.md)<!--best practices for IP warmup in terms of audience?--> et le [contenu](../email/get-started-email-design.md#key-steps) de la campagne.
 
-   Notez que vous devez sélectionner une audience basée sur des règles pour votre campagne de préchauffage des adresses IP. [En savoir plus](../audience/creating-a-segment-definition.md)
+   >[!IMPORTANT]
+   >
+   >Les audiences autorisées dans une campagne de réchauffement des adresses IP doivent être [basées sur des segments](../audience/creating-a-segment-definition.md) et créées à l’aide de la [ stratégie de fusion par défaut](https://experienceleague.adobe.com/en/docs/experience-platform/profile/merge-policies/overview#default-merge-policy){target="_blank"}.
 
    Pour plus d’informations sur la configuration d’une campagne, consultez cette [page](../campaigns/get-started-with-campaigns.md).
 
 1. [Activez](../campaigns/review-activate-campaign.md) la campagne. Son statut passe à **[!UICONTROL Actif]**.
 
-   Notez que les règles commerciales ne doivent pas être utilisées dans le cadre d’un plan de préchauffage des adresses IP. L’application de ces règles peut empêcher d’atteindre le nombre souhaité de profils ciblés pour les campagnes.
+   >[!NOTE]
+   >
+   >[Les règles de fonctionnement](rule-sets.md#apply-frequency-rule) ne doivent pas être utilisées sur les plans de réchauffement d’IP. L’application de ces règles peut empêcher d’atteindre le nombre souhaité de profils ciblés pour les campagnes.
 
    Pour une campagne active avec un plan de préchauffage d’adresses IP activé, le bouton **[!UICONTROL Supprimer]** est disponible jusqu’à ce qu’il soit associé à un plan de préchauffage d’adresses IP. Une fois utilisée dans un plan, la campagne ne peut plus être supprimée.
 

@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: IP, groupe, sous-domaines, délivrabilité
 exl-id: 752ffd7f-09c2-4aa3-a067-2dbe0634709c
-source-git-commit: 47482adb84e05fe41eb1c50479a8b50e00469ec4
-workflow-type: ht
-source-wordcount: '2532'
-ht-degree: 100%
+source-git-commit: cf946f8d59728a743b3c4b571c07fc70e3c6cf87
+workflow-type: tm+mt
+source-wordcount: '2628'
+ht-degree: 95%
 
 ---
 
@@ -103,7 +103,7 @@ At phase level, system ensures that previously targeted + new profiles are picke
       >
       >Cette section n’est pas modifiable.
 
-1. Si nécessaire, vous pouvez remplacer la campagne en cliquant sur le bouton **[!UICONTROL Remplacer]**. Vous pouvez également **[!UICONTROL effacer]** la campagne sélectionnée en cliquant sur le bouton **[!UICONTROL Effacer]**. Cette action va non seulement effacer la campagne, mais également d’autres propriétés au niveau de la phase, telles que l’exclusion des groupes de domaines, la campagne, l’exclusion des parcours, etc. Après l’effacement, vous pouvez décider d’une nouvelle campagne, immédiatement ou à une date ultérieure.
+1. Si nécessaire, vous pouvez remplacer la campagne en cliquant sur le bouton **[!UICONTROL Remplacer]**. Vous pouvez également **[!UICONTROL effacer]** la campagne sélectionnée en cliquant sur le bouton **[!UICONTROL Effacer]**. Cette action va non seulement effacer la campagne, mais également les autres propriétés de niveau phase (groupes de domaines excludes, Campaign, Exclusion de Parcours, etc.). Après l’effacement, vous pouvez décider d’une nouvelle campagne, immédiatement ou à une date ultérieure.
 
    ![](assets/ip-warmup-plan-replace-campaign.png)
 
@@ -187,6 +187,12 @@ At phase level, system ensures that previously targeted + new profiles are picke
 1. Sélectionnez l’option **[!UICONTROL Annuler les exécutions activées en cas d’erreurs]** pour annuler une exécution si les profils qualifiés sont inférieurs aux profils ciblés une fois que l’audience a été évaluée pour cette exécution. Dans ce cas, l’exécution prend le statut **[!UICONTROL Échec]**.
 
    ![](assets/ip-warmup-plan-pause.png)
+
+   Si le nombre de profils qualifiés ne correspond pas au nombre de profils ciblés (par exemple, 1 500 adresses Gmail sont ciblées lors de l&#39;exécution, mais seulement 700 profils Gmail sont qualifiés) :
+
+   * Si l’option est activée, l’exécution échoue. Vous pouvez ensuite choisir de cibler moins de profils lors de l’exécution suivante ou de [fractionner l’exécution](#split-phase) à une nouvelle phase et sélectionner une nouvelle campagne pour la nouvelle phase afin de cibler à nouveau les mêmes profils.
+
+   * Si l’option n’est pas activée, l’exécution est exécutée, mais seul le nombre de profils disponibles est ciblé.
 
 1. **[!UICONTROL Activez]** l’exécution. [En savoir plus](#activate-run)
 
