@@ -9,10 +9,10 @@ role: Admin, Developer, Architect
 level: Experienced
 keywords: objet, niveau, accès, contrôle, libellés, olac, autorisation
 exl-id: 02ccdd95-426c-4b61-9834-7f2dcd5abdbb
-source-git-commit: f9f2cd339680d0dbff1812e64c5082ca97a34771
+source-git-commit: fbcd5ae83c024d672d608d5f5aefc6a4252ec8c0
 workflow-type: tm+mt
-source-wordcount: '496'
-ht-degree: 61%
+source-wordcount: '460'
+ht-degree: 60%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 61%
 >title="Libellés de gestion des accès"
 >abstract="Vous pouvez limiter l&#39;accès à cette campagne en fonction des libellés d&#39;accès. Pour ajouter une limitation d’accès, cliquez sur le bouton **Gérer l’accès** en haut de cette page. Veillez à sélectionner uniquement les étiquettes pour lesquelles vous disposez des autorisations."
 
-Le contrôle d’accès au niveau de l’objet (OLAC) permet de définir des autorisations pour gérer l’accès aux données d’une sélection d’objets :
+La fonctionnalité de contrôle d&#39;accès au niveau objet (OLAC) permet de définir des autorisations pour gérer l&#39;accès aux données à une sélection d&#39;objets :
 
 * Parcours
 * Campagne
@@ -36,15 +36,13 @@ Le contrôle d’accès au niveau de l’objet (OLAC) permet de définir des aut
 * Configuration des canaux
 * Plan de préchauffage des adresses IP
 
-Les étiquettes normalisées vous permettent de classer les audiences en fonction de leurs stratégies de gouvernance et de contrôle d’accès. Par exemple, une étiquette d’audience peut être utilisée pour empêcher une marque de cibler des membres d’une audience spécifique avec de la publicité sur site.
-
 Son objectif est de protéger les ressources numériques sensibles contre les utilisateurs non autorisés, ce qui permet une protection supplémentaire des données personnelles.
 
 ## Conditions préalables {#prereq-labels}
 
 Pour pouvoir [créer des libellés](#create-labels), vous devez faire partie d’un rôle avec l’autorisation **[!UICONTROL Gérer les libellés d’utilisation]**.
 
-Pour pouvoir [attribuer des étiquettes](#assign-labels), vous devez faire partie d’un rôle avec une autorisation **Gérer**, c’est-à-dire [!DNL Manage journeys], [!DNL Manage Campaigns] ou [!DNL Manage decisions]. Sans cette autorisation, le bouton **[!UICONTROL Gérer l’accès]** sera grisé.
+Pour pouvoir [attribuer des étiquettes](#assign-labels), vous devez faire partie d’un rôle avec une autorisation **Gérer**, c’est-à-dire [!DNL Manage journeys], [!DNL Manage Campaigns] ou [!DNL Manage decisions]. Sans cette autorisation, le bouton **[!UICONTROL Gérer l&#39;accès]** est grisé.
 
 Pour en savoir plus sur les autorisations, consultez [cette section](../administration/permissions.md).
 

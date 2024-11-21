@@ -9,10 +9,10 @@ role: User
 level: Beginner
 keywords: créer, optimizer, campagne, surface, messages
 exl-id: 617d623c-e038-4b5b-a367-5254116b7815
-source-git-commit: f9f2cd339680d0dbff1812e64c5082ca97a34771
+source-git-commit: fbcd5ae83c024d672d608d5f5aefc6a4252ec8c0
 workflow-type: tm+mt
-source-wordcount: '995'
-ht-degree: 68%
+source-wordcount: '1204'
+ht-degree: 46%
 
 ---
 
@@ -34,29 +34,40 @@ Pour créer une campagne, accédez au menu **[!UICONTROL Campagnes]**, puis cliq
 >title="Type de campagne"
 >abstract="Les **campagnes planifiées** sont exécutées immédiatement ou à une date spécifiée et sont destinées à envoyer des messages de type marketing. Les campagnes **déclenchées par API** sont exécutées à l’aide d’un appel API. Elles sont destinées à envoyer soit des messages marketing (messages promotionnels nécessitant le consentement de la personne), soit des messages transactionnels (messages non commerciaux, qui peuvent également être envoyés à des profils désabonnés dans des contextes spécifiques)."
 
-1. Sélectionner le type de campagne que vous souhaitez exécuter.
+Lorsque vous créez une campagne, vous devez d&#39;abord sélectionner le type de campagne. Trois types de campagnes sont disponibles :
 
-   * **[!UICONTROL Scheduled - Marketing]** : permet d’exécuter la campagne immédiatement ou à une date spécifiée. Les campagnes planifiées visent à envoyer des messages de **marketing**. Elles sont configurées et exécutées à partir de l’interface d’utilisation.
+1. **[!UICONTROL Planifié - Marketing]** - Ces campagnes sont exécutées immédiatement ou à une date spécifiée. Les campagnes planifiées sont destinées à envoyer des messages **marketing** ou à créer des actions entrantes. Elles sont configurées et exécutées à partir de l’interface d’utilisation.
 
-   * **[!UICONTROL API-triggered - Marketing/Transactional]** : permet d’exécuter la campagne à l’aide d’un appel API. Les campagnes déclenchées par API sont destinées à envoyer des messages **marketing**, ou **transactionnels**, c’est-à-dire des messages envoyés suite à une action effectuée par une personne : réinitialisation du mot de passe, abandon de panier, etc. [Découvrez comment déclencher une campagne à l’aide d’API](api-triggered-campaigns.md)
+1. **[!UICONTROL déclenchée par l’API - Marketing]** - Ces campagnes sont exécutées à l’aide d’un appel API. Sélectionnez ce type de campagne pour envoyer des communications marketing personnalisées aux audiences ciblées.  [Découvrir comment déclencher une campagne à l’aide d’API](api-triggered-campaigns.md)
+
+1. **[!UICONTROL déclenchée par l’API - Transactional]** - Comme pour les campagnes marketing déclenchées par l’API, ces campagnes sont exécutées à l’aide d’un appel API. Les campagnes transactionnelles déclenchées par l’API sont destinées à envoyer des messages **transactionnels**, c’est-à-dire des messages envoyés suite à une action effectuée par un individu : demande de réinitialisation de mot de passe, achat de panier, etc.  [Découvrir comment déclencher une campagne à l’aide d’API](api-triggered-campaigns.md)
 
    ![](assets/create-campaign-modal.png)
 
-1. Cliquez sur **[!UICONTROL Créer]** pour créer la campagne.
-
 ## Définir les propriétés de la campagne {#create}
+
+Une fois l&#39;opération créée, vous devez définir ses propriétés. Suivez les étapes ci-dessous :
 
 1. Dans la section **[!UICONTROL Propriétés]** , saisissez le nom et une description de votre campagne.
 
    <!--To test the content of your message, toggle the **[!UICONTROL Content experiment]** option on. This allows you to test multiple variables of a delivery on populations samples, in order to define which treatment has the biggest impact on the targeted population.[Learn more about content experiment](../content-management/content-experiment.md).-->
 
-1. Utilisez le champ **Balises** pour attribuer des balises Adobe Experience Platform unifiées à votre campagne. Vous pouvez ainsi facilement les classer et améliorer la recherche à partir de la liste des campagnes. [Découvrez comment utiliser les balises](../start/search-filter-categorize.md#tags).
+1. (Facultatif) Utilisez le champ **Balises** pour attribuer des balises unifiées Adobe Experience Platform à votre campagne. Vous pouvez ainsi facilement les classer et améliorer la recherche à partir de la liste des campagnes. [Découvrez comment utiliser les balises](../start/search-filter-categorize.md#tags).
 
-1. Vous pouvez limiter l&#39;accès à cette campagne en fonction des libellés d&#39;accès. Pour ajouter une limitation d’accès, cliquez sur le bouton **[!UICONTROL Gérer l’accès]** en haut de cette page. Veillez à sélectionner uniquement les étiquettes pour lesquelles vous disposez des autorisations. [En savoir plus sur le contrôle d’accès au niveau de l’objet](../administration/object-based-access.md).
+1. (Facultatif) Vous pouvez limiter l&#39;accès à cette campagne en fonction des libellés d&#39;accès. Pour ajouter une limitation d’accès, cliquez sur le bouton **[!UICONTROL Gérer l’accès]** en haut de cette page. Veillez à sélectionner uniquement les étiquettes pour lesquelles vous disposez des autorisations. [En savoir plus sur le contrôle d’accès au niveau de l’objet](../administration/object-based-access.md).
 
 ## Définir l’audience de la campagne {#audience}
 
-Une audience est un ensemble de personnes qui partagent des comportements et/ou des caractéristiques similaires. Pour définir la population ciblée par l&#39;opération, procédez comme suit :
+Vous pouvez maintenant sélectionner l’audience de votre campagne. Une audience est un ensemble de personnes qui partagent des comportements et/ou des caractéristiques similaires.
+
+>[!IMPORTANT]
+>
+>* L’utilisation des audiences et des attributs de la [composition d’audiences](../audience/get-started-audience-orchestration.md) est actuellement indisponible avec Healthcare Shield ou Privacy and Security Shield.
+>
+>* Pour les campagnes déclenchées par l’API, l’audience doit être définie via un appel API.
+
+
+Pour définir la population ciblée par une campagne marketing planifiée, procédez comme suit :
 
 1. Dans la section **Audience**, cliquez sur le bouton **[!UICONTROL Sélectionner une audience]** pour afficher la liste des audiences Adobe Experience Platform disponibles. En savoir plus sur les audiences dans [cette section](../audience/about-audiences.md).
 
@@ -70,18 +81,15 @@ Une audience est un ensemble de personnes qui partagent des comportements et/ou 
 
    <!--If you are are creating an API-triggered campaign, the **[!UICONTROL cURL request]** section allows you to retrieve the **[!UICONTROL Campaign ID]** to use in the API call. [Learn more](api-triggered-campaigns.md)-->
 
->[!IMPORTANT]
->
->* L’utilisation des audiences et des attributs de la [composition d’audiences](../audience/get-started-audience-orchestration.md) est actuellement indisponible avec Healthcare Shield ou Privacy and Security Shield.
->
->* Pour les campagnes déclenchées par API, l’audience doit être définie via un appel d’API.
 
 
 ## Créer le message et configurer le suivi {#content}
 
-1. Dans la section **[!UICONTROL Actions]** , sélectionnez le canal.
+Vous pouvez maintenant définir le contenu du message. Suivez les étapes ci-dessous :
 
-   La liste des canaux disponibles dépend de votre modèle de licence. Pour les campagnes transactionnelles déclenchées par l’API, seuls les canaux Email, SMS et Notification push sont disponibles.
+1. Dans la section **[!UICONTROL Actions]** , sélectionnez le canal de communication.
+
+   La liste des canaux disponibles dépend de votre modèle de licence et de modules complémentaires. Pour les campagnes déclenchées par l’API, seuls les canaux Email, SMS et Notification push sont disponibles.
 
 1. Sélectionnez la configuration du canal.
 
@@ -132,11 +140,11 @@ Une audience est un ensemble de personnes qui partagent des comportements et/ou 
 
    ![](assets/create-campaign-design.png)
 
-1. Dans la section **[!UICONTROL Expérience de contenu]**, vous pouvez utiliser le bouton **[!UICONTROL Créer une expérience]** pour tester le contenu qui fonctionne le mieux. Les fonctionnalités d&#39;expérimentation de contenu sont présentées dans [cette section](../content-management/content-experiment.md).
+1. (Facultatif) Dans la section **[!UICONTROL Expérience de contenu]**, vous pouvez utiliser le bouton **[!UICONTROL Créer une expérience]** pour tester le contenu qui fonctionne le mieux. Les fonctionnalités d&#39;expérimentation de contenu sont présentées dans [cette section](../content-management/content-experiment.md).
 
-1. Dans la section **[!UICONTROL Tracking des actions]**, indiquez si vous souhaitez suivre la réaction des destinataires à votre diffusion : vous pouvez effectuer le suivi des clics et/ou des ouvertures.
+1. Dans la section **[!UICONTROL Suivi des actions]**, indiquez si vous souhaitez suivre la réaction des destinataires à votre diffusion : vous pouvez effectuer le suivi des clics et/ou des ouvertures.
 
-   Les résultats du suivi seront accessibles dans le rapport de la campagne, une fois celle-ci exécutée. [En savoir plus sur les rapports de campagne](../reports/campaign-global-report-cja.md)
+   Les résultats du tracking sont accessibles à partir du rapport de l&#39;opération, une fois l&#39;opération exécutée. [En savoir plus sur les rapports de campagne](../reports/campaign-global-report-cja.md)
 
 ## Planifier la campagne {#schedule}
 
@@ -160,12 +168,23 @@ Une audience est un ensemble de personnes qui partagent des comportements et/ou 
 >title="Déclencheurs d’action de campagne"
 >abstract="Vous pouvez définir la fréquence d’envoi du message de la campagne."
 
-Par défaut, les campagnes démarrent une fois qu’elles ont été activées manuellement et se terminent dès que le message a été envoyé une fois.
+Par défaut, les campagnes planifiées démarrent une fois qu’elles sont activées manuellement et se terminent dès que le message a été envoyé une fois.
 
-Vous pouvez définir la fréquence d’envoi du message de la campagne. Pour ce faire, utilisez la méthode **[!UICONTROL Déclencheurs d’action]** dans l’écran de création de la campagne pour indiquer si la campagne doit être exécutée tous les jours, toutes les semaines ou tous les mois.
-
-Si vous ne souhaitez pas exécuter votre campagne juste après son activation, vous pouvez spécifier la date et l’heure auxquelles le message doit être envoyé à l’aide de l’option **[!UICONTROL Début de campagne]**. L’option **[!UICONTROL Fin de campagne]** permet de spécifier le moment où une campagne récurrente doit cesser d’être exécutée.
+Si vous ne souhaitez pas exécuter votre campagne juste après son activation, vous pouvez spécifier la date et l’heure auxquelles le message doit être envoyé à l’aide de l’option **[!UICONTROL Début de campagne]**. L’option **[!UICONTROL Fin de campagne]** vous permet de spécifier le moment où une campagne doit cesser d’être exécutée.
 
 ![](assets/create-campaign-schedule.png)
 
-Une fois votre campagne prête, vous pouvez la passer en revue et l’activer. [En savoir plus](review-activate-campaign.md)
+Pour les campagnes par email, SMS et notification push, vous pouvez définir la fréquence d&#39;envoi du message de la campagne. Pour ce faire, utilisez la méthode **[!UICONTROL Déclencheurs d’action]** dans l’écran de création de la campagne pour indiquer si la campagne doit être exécutée tous les jours, toutes les semaines ou tous les mois.
+
+## Autres paramètres {#settings}
+
+Certains paramètres sont spécifiques au canal de communication sélectionné pour la campagne ou utilisés pour des cas d’utilisation spécifiques. Elles sont présentées ci-dessous.
+
+* Pour les emails, vous pouvez créer des campagnes d’activation de plans de chaleur IP spécifiques. En savoir plus dans [cette section](../configuration/ip-warmup-campaign.md).
+* Pour les canaux web, in-app et basés sur du code, vous pouvez attribuer un score de priorité à votre campagne. En savoir plus dans [cette section](../conflict-prioritization/priority-scores.md).
+* Pour les campagnes par carte de contenu, vous pouvez activer des règles de diffusion supplémentaires afin de choisir le ou les événements et critères qui déclenchent votre message. En savoir plus dans [cette section](../content-card/create-content-card.md).
+* Pour les messages in-app, vous pouvez utiliser le bouton **[!UICONTROL Modifier les déclencheurs]** pour choisir le ou les événements et les critères qui déclenchent votre message. En savoir plus dans [cette section](../in-app/create-in-app.md).
+
+## Étapes suivantes {#next}
+
+Une fois la configuration et le contenu de votre campagne prêts, vous pouvez les vérifier et les activer. [En savoir plus](review-activate-campaign.md)
