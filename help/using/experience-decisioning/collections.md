@@ -1,12 +1,12 @@
 ---
 title: Collections
 description: Découvrir comment utiliser les collections
-feature: Experience Decisioning
+feature: Decisioning
 topic: Integrations
 role: User
 level: Intermediate
 exl-id: 099d1439-34f7-47fe-9181-0e9ce2032a01
-source-git-commit: 6b0735f619379e01e87012ba4300c0ec41334fd4
+source-git-commit: 616e1dd9fbfd029f7209356d5c19cfff9d4b4f06
 workflow-type: tm+mt
 source-wordcount: '384'
 ht-degree: 91%
