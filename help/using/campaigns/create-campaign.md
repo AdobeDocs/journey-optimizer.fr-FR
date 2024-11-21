@@ -9,9 +9,9 @@ role: User
 level: Beginner
 keywords: créer, optimizer, campagne, surface, messages
 exl-id: 617d623c-e038-4b5b-a367-5254116b7815
-source-git-commit: d39d46ad5376bb8418331f788e4287e21e4322a4
+source-git-commit: becd2d8bdb93abbe21a24c3767179b4e90c01523
 workflow-type: tm+mt
-source-wordcount: '1221'
+source-wordcount: '1222'
 ht-degree: 40%
 
 ---
@@ -66,7 +66,7 @@ Pour définir la population ciblée par une campagne marketing planifiée, proc�
 
 1. Dans la section **Audience**, cliquez sur le bouton **[!UICONTROL Sélectionner une audience]** pour afficher la liste des audiences Adobe Experience Platform disponibles. En savoir plus sur les audiences dans [cette section](../audience/about-audiences.md).
 
-1. Dans le champ **[!UICONTROL Type d’identité]** , sélectionnez le type de clé à utiliser pour identifier les individus de l’audience sélectionnée. Vous pouvez soit créer un type d’identité existant, soit en créer un à l’aide du service Adobe Experience Platform Identity. Les espaces de noms d’identité standard sont répertoriés dans [cette page](https://experienceleague.adobe.com/en/docs/experience-platform/identity/features/namespaces#standard){target="_blank"}.
+1. Dans le champ **[!UICONTROL Type d’identité]** , sélectionnez le type de clé à utiliser pour identifier les individus de l’audience sélectionnée. Vous pouvez utiliser un type d’identité existant ou en créer un nouveau à l’aide du service Adobe Experience Platform Identity. Les espaces de noms d’identité standard sont répertoriés dans [cette page](https://experienceleague.adobe.com/en/docs/experience-platform/identity/features/namespaces#standard){target="_blank"}.
 
    Un seul type d’identité est autorisé par campagne. Les personnes appartenant à un segment qui n’a pas le type d’identité sélectionné parmi leurs différentes identités ne peuvent pas être ciblées par la campagne.
 
