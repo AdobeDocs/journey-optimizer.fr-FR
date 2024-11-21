@@ -9,10 +9,10 @@ role: Admin, Developer, Architect
 level: Experienced
 keywords: objet, niveau, accès, contrôle, libellés, olac, autorisation
 exl-id: 02ccdd95-426c-4b61-9834-7f2dcd5abdbb
-source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
+source-git-commit: f9f2cd339680d0dbff1812e64c5082ca97a34771
 workflow-type: tm+mt
-source-wordcount: '413'
-ht-degree: 100%
+source-wordcount: '496'
+ht-degree: 61%
 
 ---
 
@@ -20,8 +20,8 @@ ht-degree: 100%
 
 >[!CONTEXTUALHELP]
 >id="ajo_olac_manage_access"
->title="Contrôle d’accès au niveau de l’objet"
->abstract="Pour conserver l’accès à cet objet, appliquez uniquement des libellés pour lesquels vous disposez d’une autorisation."
+>title="Libellés de gestion des accès"
+>abstract="Vous pouvez limiter l&#39;accès à cette campagne en fonction des libellés d&#39;accès. Pour ajouter une limitation d’accès, cliquez sur le bouton **Gérer l’accès** en haut de cette page. Veillez à sélectionner uniquement les étiquettes pour lesquelles vous disposez des autorisations."
 
 Le contrôle d’accès au niveau de l’objet (OLAC) permet de définir des autorisations pour gérer l’accès aux données d’une sélection d’objets :
 
@@ -36,21 +36,27 @@ Le contrôle d’accès au niveau de l’objet (OLAC) permet de définir des aut
 * Configuration des canaux
 * Plan de préchauffage des adresses IP
 
+Les étiquettes normalisées vous permettent de classer les audiences en fonction de leurs stratégies de gouvernance et de contrôle d’accès. Par exemple, une étiquette d’audience peut être utilisée pour empêcher une marque de cibler des membres d’une audience spécifique avec de la publicité sur site.
+
 Son objectif est de protéger les ressources numériques sensibles contre les utilisateurs non autorisés, ce qui permet une protection supplémentaire des données personnelles.
 
-Dans Adobe Journey Optimizer, OLAC vous permet de protéger les données et d’accorder un accès spécifique à des objets spécifiques.
+## Conditions préalables {#prereq-labels}
 
-## Créer des étiquettes {#create-assign-labels}
+Pour pouvoir [créer des libellés](#create-labels), vous devez faire partie d’un rôle avec l’autorisation **[!UICONTROL Gérer les libellés d’utilisation]**.
 
->[!IMPORTANT]
->
->Pour pouvoir créer des étiquettes, vous devez faire partie d’un rôle avec l’autorisation **[!UICONTROL Gestion des étiquettes d’utilisation]**.
+Pour pouvoir [attribuer des étiquettes](#assign-labels), vous devez faire partie d’un rôle avec une autorisation **Gérer**, c’est-à-dire [!DNL Manage journeys], [!DNL Manage Campaigns] ou [!DNL Manage decisions]. Sans cette autorisation, le bouton **[!UICONTROL Gérer l’accès]** sera grisé.
+
+Pour en savoir plus sur les autorisations, consultez [cette section](../administration/permissions.md).
+
+## Créer des libellés {#create-labels}
 
 Les **[!UICONTROL étiquettes]** vous permettent de classer les jeux de données et les champs en fonction des politiques d’utilisation qui s’appliquent à ces données. Vous pouvez appliquer des **[!UICONTROL étiquettes]** à tout moment, ce qui vous offre une certaine flexibilité quant à la manière dont vous choisissez de gérer les données.
 
-Vous pouvez créer des étiquettes dans le produit [!DNL Permissions]. Pour plus d’informations, consultez [cette page](https://experienceleague.adobe.com/docs/experience-platform/access-control/abac/permissions-ui/labels.html?lang=fr).
+Utilisez des étiquettes pour fournir l’accès aux utilisateurs, ainsi que pour appliquer la gouvernance des données et les stratégies de consentement. Ces étiquettes de gouvernance peuvent affecter la consommation en aval.
 
-Les **[!UICONTROL étiquettes]** peuvent également être créées directement dans Journey Optimizer :
+Vous pouvez créer des étiquettes dans le produit [!DNL Permissions]. Voir à ce propos [cette page](https://experienceleague.adobe.com/docs/experience-platform/access-control/abac/permissions-ui/labels.html?lang=fr){target="_blank"}.
+
+Vous pouvez également créer des **[!UICONTROL libellés]** directement dans Journey Optimizer. Pour créer un libellé, procédez comme suit :
 
 1. Depuis un objet Adobe Journey Optimizer, ici une nouvelle **[!UICONTROL campagne]**, cliquez sur le bouton **[!UICONTROL Gérer l’accès]**.
 
@@ -73,10 +79,6 @@ Votre nouvelle **[!UICONTROL Étiquette]** est désormais disponible dans la lis
 
 ## Attribuer des étiquettes {#assign-labels}
 
->[!IMPORTANT]
->
->Pour pouvoir attribuer des étiquettes, vous devez faire partie d’un rôle avec une autorisation Gérer, c’est-à-dire [!DNL Manage journeys], [!DNL Manage Campaigns] ou [!DNL Manage decisions]. Sans cette autorisation, le bouton **[!UICONTROL Gérer l’accès]** sera grisé.
-
 Pour attribuer des étiquettes d’utilisation des données personnalisées ou de base à vos objets Journey Optimizer, procédez comme suit :
 
 1. Depuis un objet Adobe Journey Optimizer, ici une nouvelle **[!UICONTROL campagne]**, cliquez sur le bouton **[!UICONTROL Gérer l’accès]**.
@@ -85,7 +87,7 @@ Pour attribuer des étiquettes d’utilisation des données personnalisées ou d
 
 1. Dans la fenêtre **[!UICONTROL Gérer l’accès]**, sélectionnez votre ou vos étiquettes d’utilisation des données de base ou personnalisées pour gérer l’accès à cet objet.
 
-   Pour plus d’informations sur les étiquettes d’utilisation des données de base, reportez-vous à [cette page](https://experienceleague.adobe.com/docs/experience-platform/data-governance/labels/reference.html?lang=fr).
+   Pour plus d&#39;informations sur les libellés d&#39;utilisation des données de base, consultez [cette page](https://experienceleague.adobe.com/docs/experience-platform/data-governance/labels/reference.html?lang=fr){target="_blank"}.
 
    ![](assets/olac_4.png)
 
@@ -94,4 +96,4 @@ Pour attribuer des étiquettes d’utilisation des données personnalisées ou d
 Pour pouvoir accéder à cet objet, les utilisateurs doivent disposer de l’**[!UICONTROL étiquette]** spécifique incluse dans leurs **[!UICONTROL rôles]**.
 Par exemple, un utilisateur avec l’étiquette C1 n’aura accès qu’aux objets étiquetés C1 ou non étiquetés.
 
-Pour plus d’informations sur la manière d’attribuer une **[!UICONTROL étiquette]** à un **[!UICONTROL rôle]**, consultez [cette page](https://experienceleague.adobe.com/docs/experience-platform/access-control/abac/permissions-ui/permissions.html?lang=fr#manage-labels-for-a-role).
+Pour plus d&#39;informations sur l&#39;affectation de **[!UICONTROL Libellé]** à un **[!UICONTROL Rôle]**, consultez [cette page](https://experienceleague.adobe.com/docs/experience-platform/access-control/abac/permissions-ui/permissions.html?lang=fr#manage-labels-for-a-role){target="_blank"}.

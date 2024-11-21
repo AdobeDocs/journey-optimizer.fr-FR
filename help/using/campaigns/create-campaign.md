@@ -9,14 +9,16 @@ role: User
 level: Beginner
 keywords: créer, optimizer, campagne, surface, messages
 exl-id: 617d623c-e038-4b5b-a367-5254116b7815
-source-git-commit: 47482adb84e05fe41eb1c50479a8b50e00469ec4
-workflow-type: ht
-source-wordcount: '858'
-ht-degree: 100%
+source-git-commit: f9f2cd339680d0dbff1812e64c5082ca97a34771
+workflow-type: tm+mt
+source-wordcount: '995'
+ht-degree: 68%
 
 ---
 
 # Créer une campagne {#create-campaign}
+
+Pour créer une campagne, accédez au menu **[!UICONTROL Campagnes]**, puis cliquez sur **[!UICONTROL Créer une campagne]**. Vous pouvez également dupliquer une campagne active existante pour en créer une nouvelle. [En savoir plus](modify-stop-campaign.md#duplicate)
 
 >[!NOTE]
 >
@@ -25,9 +27,7 @@ ht-degree: 100%
 >* [Créer des configurations de canal](../configuration/channel-surfaces.md)
 >* [Commencer avec les audiences](../audience/about-audiences.md)
 
-Pour créer une campagne, accédez au menu **[!UICONTROL Campagnes]**, puis cliquez sur **[!UICONTROL Créer une campagne]**. Vous pouvez également dupliquer une campagne active existante pour en créer une nouvelle. [En savoir plus](modify-stop-campaign.md#duplicate)
-
-## Choisir le type de campagne {#campaigntype}
+## Sélectionner le type de campagne {#campaigntype}
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_campaign_type"
@@ -46,37 +46,44 @@ Pour créer une campagne, accédez au menu **[!UICONTROL Campagnes]**, puis cliq
 
 ## Définir les propriétés de la campagne {#create}
 
-1. Dans la section **[!UICONTROL Propriétés]**, indiquez un nom et une description pour la campagne.
+1. Dans la section **[!UICONTROL Propriétés]** , saisissez le nom et une description de votre campagne.
 
    <!--To test the content of your message, toggle the **[!UICONTROL Content experiment]** option on. This allows you to test multiple variables of a delivery on populations samples, in order to define which treatment has the biggest impact on the targeted population.[Learn more about content experiment](../content-management/content-experiment.md).-->
 
-1. Le champ **Balises** vous permet d’affecter des balises unifiées Adobe Experience Platform à votre campagne. Vous pouvez ainsi facilement les classer et améliorer la recherche à partir de la liste des campagnes. [Découvrir comment utiliser les balises](../start/search-filter-categorize.md#tags)
+1. Utilisez le champ **Balises** pour attribuer des balises Adobe Experience Platform unifiées à votre campagne. Vous pouvez ainsi facilement les classer et améliorer la recherche à partir de la liste des campagnes. [Découvrez comment utiliser les balises](../start/search-filter-categorize.md#tags).
 
-1. Pour attribuer des étiquettes d’utilisation des données personnalisées ou de base à la campagne, cliquez sur le bouton **[!UICONTROL Gérer l’accès]**. [En savoir plus sur le contrôle d’accès au niveau de l’objet (OLA)](../administration/object-based-access.md)
+1. Vous pouvez limiter l&#39;accès à cette campagne en fonction des libellés d&#39;accès. Pour ajouter une limitation d’accès, cliquez sur le bouton **[!UICONTROL Gérer l’accès]** en haut de cette page. Veillez à sélectionner uniquement les étiquettes pour lesquelles vous disposez des autorisations. [En savoir plus sur le contrôle d’accès au niveau de l’objet](../administration/object-based-access.md).
 
 ## Définir l’audience de la campagne {#audience}
 
-Définissez la population ciblée par la campagne en suivant les étapes suivantes :
+Une audience est un ensemble de personnes qui partagent des comportements et/ou des caractéristiques similaires. Pour définir la population ciblée par l&#39;opération, procédez comme suit :
 
->[!IMPORTANT]
->
->L’utilisation des audiences et des attributs de la [composition d’audiences](../audience/get-started-audience-orchestration.md) est actuellement indisponible avec Healthcare Shield ou Privacy and Security Shield.
->
->Pour les campagnes déclenchées par API, l’audience doit être définie via un appel d’API.
+1. Dans la section **Audience**, cliquez sur le bouton **[!UICONTROL Sélectionner une audience]** pour afficher la liste des audiences Adobe Experience Platform disponibles. En savoir plus sur les audiences dans [cette section](../audience/about-audiences.md).
 
-1. Dans la section **Audience**, cliquez sur le bouton **[!UICONTROL Sélectionner une audience]** pour afficher la liste des audiences Adobe Experience Platform disponibles. [En savoir plus sur les audiences](../audience/about-audiences.md)
+1. Dans le champ **[!UICONTROL Type d’identité]** , sélectionnez le type de clé à utiliser pour identifier les individus de l’audience sélectionnée. Vous pouvez soit créer un type d’identité existant, soit en créer un à l’aide du service Adobe Experience Platform Identity. Les espaces de noms d’identité standard sont répertoriés dans [cette page](https://experienceleague.adobe.com/en/docs/experience-platform/identity/features/namespaces#standard){target="_blank"}.
 
-1. Dans le champ **[!UICONTROL Espace de noms d’identité]**, choisissez l’espace de noms à utiliser pour identifier les personnes à partir du segment sélectionné.
-
-   Les individus appartenant à un segment qui n’a pas l’identité sélectionnée (espace de noms) parmi leurs différentes identités ne seront pas ciblés par la campagne. [En savoir plus sur les espaces de noms](../event/about-creating.md#select-the-namespace)
+   Un seul type d’identité est autorisé par campagne. Les personnes appartenant à un segment qui n’a pas le type d’identité sélectionné parmi leurs différentes identités ne peuvent pas être ciblées par la campagne.
 
    ![](assets/create-campaign-namespace.png)
 
+   Pour en savoir plus sur les types d’identité et les espaces de noms, consultez la [documentation Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/identity/home.html?lang=fr){target="_blank"}.
+
    <!--If you are are creating an API-triggered campaign, the **[!UICONTROL cURL request]** section allows you to retrieve the **[!UICONTROL Campaign ID]** to use in the API call. [Learn more](api-triggered-campaigns.md)-->
+
+>[!IMPORTANT]
+>
+>* L’utilisation des audiences et des attributs de la [composition d’audiences](../audience/get-started-audience-orchestration.md) est actuellement indisponible avec Healthcare Shield ou Privacy and Security Shield.
+>
+>* Pour les campagnes déclenchées par API, l’audience doit être définie via un appel d’API.
+
 
 ## Créer le message et configurer le suivi {#content}
 
-1. Dans la section **[!UICONTROL Actions]**, sélectionnez ou créez une configuration.
+1. Dans la section **[!UICONTROL Actions]** , sélectionnez le canal.
+
+   La liste des canaux disponibles dépend de votre modèle de licence. Pour les campagnes transactionnelles déclenchées par l’API, seuls les canaux Email, SMS et Notification push sont disponibles.
+
+1. Sélectionnez la configuration du canal.
 
    Celle-ci est définie par une [équipe d’administration système](../start/path/administrator.md). Elle contient tous les paramètres techniques relatifs à l’envoi du message, tels que les paramètres d’en-tête, le sous-domaine, les applications mobiles, etc. [En savoir plus](../configuration/channel-surfaces.md).
 
@@ -121,11 +128,11 @@ Définissez la population ciblée par la campagne en suivant les étapes suivant
     </tr>
     </table>
 
-1. Une fois votre contenu défini, cliquez sur le bouton **[!UICONTROL Simuler du contenu]** pour prévisualiser et tester votre contenu avec des profils de test. [En savoir plus](../content-management/preview-test.md).
-
-1. Cliquez sur la flèche pour revenir à l’écran de création de la campagne.
+   Une fois votre contenu défini, cliquez sur le bouton **[!UICONTROL Simuler du contenu]** pour prévisualiser et tester votre contenu avec des profils de test. [En savoir plus](../content-management/preview-test.md). Pour revenir à l&#39;écran de création de campagne, cliquez sur la flèche vers la gauche.
 
    ![](assets/create-campaign-design.png)
+
+1. Dans la section **[!UICONTROL Expérience de contenu]**, vous pouvez utiliser le bouton **[!UICONTROL Créer une expérience]** pour tester le contenu qui fonctionne le mieux. Les fonctionnalités d&#39;expérimentation de contenu sont présentées dans [cette section](../content-management/content-experiment.md).
 
 1. Dans la section **[!UICONTROL Tracking des actions]**, indiquez si vous souhaitez suivre la réaction des destinataires à votre diffusion : vous pouvez effectuer le suivi des clics et/ou des ouvertures.
 
@@ -136,7 +143,7 @@ Définissez la population ciblée par la campagne en suivant les étapes suivant
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_schedule"
 >title="Planning de la campagne"
->abstract="Par défaut, les campagnes démarrent lors d’une activation manuelle et se terminent immédiatement après l’envoi du message. Vous avez toutefois la possibilité de définir une date et une heure spécifiques pour l’envoi du message. De plus, vous pouvez spécifier une date de fin pour les campagnes récurrentes ou déclenchées par l’API. Dans les déclencheurs d’action, vous pouvez également configurer la fréquence d’envoi des messages en fonction de vos préférences."
+>abstract="Par défaut, les campagnes démarrent lors d’une activation manuelle et se terminent immédiatement après l’envoi du message une seule fois. Vous avez la possibilité de définir une date et une heure spécifiques pour l’envoi du message. De plus, vous pouvez spécifier une date de fin pour les campagnes récurrentes ou déclenchées par l’API. Dans les déclencheurs d’action, vous pouvez également configurer la fréquence d’envoi des messages en fonction de vos préférences."
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_schedule_start"
@@ -161,4 +168,4 @@ Si vous ne souhaitez pas exécuter votre campagne juste après son activation, v
 
 ![](assets/create-campaign-schedule.png)
 
-Une fois votre campagne prête, vous pouvez la réviser et la publier. [En savoir plus](review-activate-campaign.md)
+Une fois votre campagne prête, vous pouvez la passer en revue et l’activer. [En savoir plus](review-activate-campaign.md)

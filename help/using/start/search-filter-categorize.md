@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 6151aea2-6a34-4000-ba48-161efe4d94d7
-source-git-commit: fec6b15db9f8e6b2a07b55bc9e8fc4d9cb0d73d7
+source-git-commit: f9f2cd339680d0dbff1812e64c5082ca97a34771
 workflow-type: tm+mt
-source-wordcount: '535'
-ht-degree: 100%
+source-wordcount: '576'
+ht-degree: 82%
 
 ---
 
@@ -52,12 +52,13 @@ Il est possible d’effectuer des actions de base sur chaque élément des diff�
 >title="Balises"
 >abstract="Ce champ vous permet d’attribuer des balises unifiées Adobe Experience Platform à votre campagne. Vous pouvez ainsi facilement les classer et améliorer la recherche à partir de la liste des campagnes."
 
-Avec les [balises unifiées](https://experienceleague.adobe.com/docs/experience-platform/administrative-tags/overview.html?lang=fr) Adobe Experience Platform, vous pouvez facilement classer vos parcours et campagnes Journey Optimizer pour améliorer la recherche dans les listes.
+Avec Adobe Experience Platform [Balises unifiées](https://experienceleague.adobe.com/docs/experience-platform/administrative-tags/overview.html?lang=fr), vous pouvez facilement classer vos objets Journey Optimizer pour améliorer la recherche à partir des listes.
 
 ![](../rn/assets/do-not-localize/campaigns-tag.gif)
 
+L’ajout de balises significatives aux audiences dans Journey Optimizer vous permet par la suite de filtrer et de rechercher des audiences plus facilement. Les balises peuvent en outre être utilisées pour organiser les audiences dans des dossiers pertinents pouvant faire l’objet de recherches, créer des offres et des expériences personnalisées et les utiliser dans des règles de décision d’expérience.
 
-### Ajouter des balises à un objet
+### Ajouter des balises à un objet {#add-tags}
 
 Le champ **[!UICONTROL Balises]** vous permet de définir des balises pour votre objet. Les balises sont disponibles pour les objets suivants :
 
@@ -77,9 +78,9 @@ Vous pouvez sélectionner une balise existante ou en créer une nouvelle. Pour c
 
    >[!NOTE]
    >
-   > Les balises ne sont pas sensibles à la casse.
+   > Les balises ne respectent pas la casse.
 
-1. Si la balise recherchée n’est pas disponible, cliquez sur **[!UICONTROL Créer «»]** pour en définir une nouvelle. Elle sera automatiquement ajoutée à l’objet actif et sera disponible pour tous les autres objets.
+1. Si la balise que vous recherchez n’est pas disponible, cliquez sur **[!UICONTROL Créer &quot;&quot;]** pour en définir une nouvelle. Elle est automatiquement ajoutée à l’objet actif et devient disponible pour tous les autres objets.
 
    ![](assets/tags4.png)
 
@@ -89,7 +90,7 @@ Vous pouvez sélectionner une balise existante ou en créer une nouvelle. Pour c
 > 
 > Si vous dupliquez ou créez une nouvelle version d’un objet, les balises sont conservées.
 
-### Filtrer les balises
+### Filtrer les balises {#filter-on-tags}
 
 La liste des objets comporte une colonne dédiée permettant de visualiser facilement les balises.
 
@@ -101,7 +102,7 @@ Vous pouvez ajouter ou supprimer des balises de n’importe quel type de parcour
 
 ![](assets/tags3.png)
 
-### Gérer les balises
+### Gérer les balises {#manage-tags}
 
 L’administration peut supprimer des balises et les classer par catégorie dans le menu **[!UICONTROL Balises]**, sous **[!UICONTROL Administration]**. En savoir plus sur la gestion des balises dans la [documentation sur les balises unifiées](https://experienceleague.adobe.com/docs/experience-platform/administrative-tags/ui/managing-tags.html?lang=fr).
 
