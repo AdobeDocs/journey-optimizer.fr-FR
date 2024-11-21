@@ -9,23 +9,18 @@ role: User
 level: Beginner
 keywords: créer, optimizer, campagne, surface, messages
 exl-id: 617d623c-e038-4b5b-a367-5254116b7815
-source-git-commit: fbcd5ae83c024d672d608d5f5aefc6a4252ec8c0
+source-git-commit: d39d46ad5376bb8418331f788e4287e21e4322a4
 workflow-type: tm+mt
-source-wordcount: '1204'
-ht-degree: 46%
+source-wordcount: '1221'
+ht-degree: 40%
 
 ---
 
 # Créer une campagne {#create-campaign}
 
-Pour créer une campagne, accédez au menu **[!UICONTROL Campagnes]**, puis cliquez sur **[!UICONTROL Créer une campagne]**. Vous pouvez également dupliquer une campagne active existante pour en créer une nouvelle. [En savoir plus](modify-stop-campaign.md#duplicate)
+Pour créer une campagne, accédez au menu **[!UICONTROL Campagnes]** sur le rail de gauche, puis cliquez sur **[!UICONTROL Créer une campagne]**. Vous pouvez également dupliquer une campagne active existante pour en créer une nouvelle. [Découvrez comment ](modify-stop-campaign.md#duplicate).
 
->[!NOTE]
->
->Avant de créer une campagne, assurez-vous de disposer d’une configuration de canal (c’est-à-dire une surface de message) et d’une audience Adobe Experience Platform prête à l’emploi. En savoir plus dans ces sections :
->
->* [Créer des configurations de canal](../configuration/channel-surfaces.md)
->* [Commencer avec les audiences](../audience/about-audiences.md)
+Avant de commencer, lisez les conditions préalables de la campagne dans [cette page](get-started-with-campaigns.md#before-starting-campaign-prerequisites).
 
 ## Sélectionner le type de campagne {#campaigntype}
 
@@ -82,12 +77,11 @@ Pour définir la population ciblée par une campagne marketing planifiée, proc�
    <!--If you are are creating an API-triggered campaign, the **[!UICONTROL cURL request]** section allows you to retrieve the **[!UICONTROL Campaign ID]** to use in the API call. [Learn more](api-triggered-campaigns.md)-->
 
 
+## Sélectionner le canal {#channel}
 
-## Créer le message et configurer le suivi {#content}
+Vous pouvez maintenant sélectionner le canal et sa configuration. Suivez les étapes ci-dessous :
 
-Vous pouvez maintenant définir le contenu du message. Suivez les étapes ci-dessous :
-
-1. Dans la section **[!UICONTROL Actions]** , sélectionnez le canal de communication.
+1. Dans la section **[!UICONTROL Action]** , sélectionnez le canal de communication.
 
    La liste des canaux disponibles dépend de votre modèle de licence et de modules complémentaires. Pour les campagnes déclenchées par l’API, seuls les canaux Email, SMS et Notification push sont disponibles.
 
@@ -103,42 +97,40 @@ Vous pouvez maintenant définir le contenu du message. Suivez les étapes ci-des
    >
    >Si vous créez une campagne de notification push, vous pouvez activer le **[!UICONTROL Mode de diffusion rapide]**, qui est un module complémentaire Journey Optimizer permettant d’envoyer des messages push très rapidement et en grandes quantités. [En savoir plus](../push/create-push.md#rapid-delivery).
 
-1. Cliquez sur le bouton **[!UICONTROL Modifier le contenu]** pour créer et concevoir votre message. Découvrez les étapes détaillées pour créer le contenu de votre message dans les pages suivantes :
+## Modifier le contenu {#content}
 
-   <table style="table-layout:fixed">
-    <tr style="border: 0;">
-    <td>
-    <a href="../email/create-email.md">
-    <img alt="Lead" src="../assets/do-not-localize/email.jpg">
-    </a>
-    <div><a href="../email/create-email.md"><strong>Créer des e-mails</strong>
-    </div>
-    <p>
-    </td>
-    <td>
-    <a href="../push/create-push.md">
-      <img alt="Peu fréquent" src="../assets/do-not-localize/push.jpg">
-    </a>
-    <div>
-    <a href="../push/create-push.md"><strong>Créer des notifications push</strong></a>
-    </div>
-    <p>
-    </td>
-    <td>
-    <a href="../sms/create-sms.md">
-      <img alt="Validation" src="../assets/do-not-localize/sms.jpg">
-    </a>
-    <div>
-    <a href="../sms/create-sms.md"><strong>Créer des SMS</strong></a>
-    </div>
-    <p>
-    </td>
-    </tr>
-    </table>
+Vous pouvez maintenant définir le contenu du message à partir du bouton **[!UICONTROL Editer le contenu]** . Le processus de création de contenu dépend du canal que vous avez sélectionné.
 
-   Une fois votre contenu défini, cliquez sur le bouton **[!UICONTROL Simuler du contenu]** pour prévisualiser et tester votre contenu avec des profils de test. [En savoir plus](../content-management/preview-test.md). Pour revenir à l&#39;écran de création de campagne, cliquez sur la flèche vers la gauche.
+Découvrez les étapes détaillées pour créer le contenu de votre message dans les pages suivantes :
 
-   ![](assets/create-campaign-design.png)
+
+<table style="table-layout:fixed"><tr style="border: 0;">
+<td><a href="../email/create-email.md"><img alt="adresse e-mail" src="../channels/assets/do-not-localize/email.png"></a>
+<div align="center"><a href="../email/create-email.md"><strong>E-mail.</strong></a></div></td>
+<td><a href="../sms/create-sms.md"><img alt="sms" src="../channels/assets/do-not-localize/sms.png"></a>
+<div align="center"><a href="../sms/create-sms.md"><strong>SMS</strong></a></div></td>
+<td><a href="../push/create-push.md"><img alt="push" src="../channels/assets/do-not-localize/push.png"></a>
+<div align="center"><a href="../push/create-push.md"><strong>Notification push</strong></a></div></td>
+<td><a href="../direct-mail/create-direct-mail.md"><img alt="courrier" src="../channels/assets/do-not-localize/direct-mail.jpg"></a>
+<div align="center"><a href="../direct-mail/create-direct-mail.md"><strong>Courrier (publipostage direct)</strong></a></div></td>
+</tr></table>
+
+<table style="table-layout:fixed"><tr style="border: 0;">
+<td><a href="../in-app/create-in-app.md"><img alt="in-app" src="../channels/assets/do-not-localize/inapp.jpg"></a>
+<div align="center"><a href="../in-app/create-in-app.md"><strong>In-app</strong></a></div></td>
+<td><a href="../web/create-web.md"><img alt="web" src="../channels/assets/do-not-localize/web.jpg"></a>
+<div align="center"><a href="../web/create-web.md"><strong>Web</strong></a></div></td>
+<td><a href="../code-based/create-code-based.md"><img alt="expérience basée sur le code" src="../channels/assets/do-not-localize/code.png"></a>
+<div align="center"><a href="../code-based/create-code-based.md"><strong>Expérience basée sur le code</strong></a></div></td>
+<td><a href="../content-card/create-content-card.md"><img alt="cartes de contenu" src="../channels/assets/do-not-localize/cards.png"></a>
+<div align="center"><a href="../content-card/create-content-card.md"><strong>Cartes de contenu</strong></a></div></td>
+</tr></table>
+
+Une fois votre contenu défini, cliquez sur le bouton **[!UICONTROL Simuler du contenu]** pour prévisualiser et tester votre contenu avec des profils de test. [En savoir plus](../content-management/preview-test.md). Pour revenir à l&#39;écran de création de campagne, cliquez sur la flèche vers la gauche.
+
+![](assets/create-campaign-design.png)
+
+En plus du contenu du message, vous pouvez configurer les paramètres suivants :
 
 1. (Facultatif) Dans la section **[!UICONTROL Expérience de contenu]**, vous pouvez utiliser le bouton **[!UICONTROL Créer une expérience]** pour tester le contenu qui fonctionne le mieux. Les fonctionnalités d&#39;expérimentation de contenu sont présentées dans [cette section](../content-management/content-experiment.md).
 
