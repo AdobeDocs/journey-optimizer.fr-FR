@@ -11,8 +11,8 @@ keywords: désinscription, e-mail, lien, désabonnement
 exl-id: 4bb51bef-5dab-4a72-8511-1a5e528f4b95
 source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
 workflow-type: tm+mt
-source-wordcount: '1341'
-ht-degree: 100%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -42,7 +42,7 @@ Pour insérer un lien de désinscription dans le contenu de votre e-mail, vous p
 >[!CONTEXTUALHELP]
 >id="ajo_admin_preset_unsubscribe"
 >title="Ajouter une URL de désabonnement dans l’en-tête de l’e-mail"
->abstract="Activez l’en-tête de désabonnement de liste pour ajouter une URL de désabonnement dans l’en-tête de l’e-mail. Pour définir une URL de désabonnement, insérez un lien d’exclusion en un clic dans le contenu de l’e-mail."
+>abstract="Activez l’en-tête de désabonnement de liste pour ajouter une URL de désabonnement dans l’en-tête de l’e-mail. Pour définir une URL de désabonnement, insérez un lien d&#39;opt-out en un clic dans le contenu de l’e-mail."
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/privacy/consent/opt-out.html?lang=fr#one-click-opt-out" text="Opt-out en un clic"
 
 Une URL de désabonnement de liste en un clic est un lien ou un bouton de désabonnement affiché en regard des informations sur l’expéditeur ou l’expéditrice de l’e-mail et permet aux personnes destinataires de se désabonner instantanément de vos listes de publipostage en un seul clic. Dans Adobe Journey Optimizer, lorsque l’option **Activer le désabonnement de la liste** est activée, l’en-tête de l’e-mail comprend par défaut un mailto et/ou une URL que les personnes destinataires peuvent utiliser pour se désabonner de votre liste de publipostage.
