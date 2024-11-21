@@ -10,7 +10,7 @@ exl-id: 81d07ec8-e808-4bc6-97b1-b9f7db2aec22
 source-git-commit: 88e7140183700da0283fa00d89f6fff2c71c138f
 workflow-type: tm+mt
 source-wordcount: '480'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 90%
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_ai_model_metric"
 >title="Mesure d’optimisation"
->abstract="Offres de classement de [!DNL Journey Optimizer] en fonction du **taux de conversion** (Taux de conversion = Nombre total d’événements de conversion/Nombre total d’événements d’impression). Le taux de conversion est calculé à l’aide de deux types de mesures : **Événements d’impression** (offres affichées) et **Événements de conversion** (offres qui génèrent des clics par courrier électronique ou sur le Web). Ces événements sont automatiquement capturés à l’aide du SDK Web ou du SDK Mobile fourni."
+>abstract="Offres de classement de [!DNL Journey Optimizer] en fonction du **taux de conversion** (Taux de conversion = Nombre total d’événements de conversion/Nombre total d’événements d’impression). Le taux de conversion est calculé à l’aide de deux types de mesures : **Événements d’impression** (offres affichées) et **Événements de conversion** (offres qui génèrent des clics par e-mail ou sur le web). Ces événements sont automatiquement capturés à l’aide du SDK web ou du SDK mobile fourni."
 
 Pour créer un modèle d’IA, procédez comme suit :
 

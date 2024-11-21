@@ -9,7 +9,7 @@ exl-id: 4a53ea96-632a-41c7-ab15-b85b99db4f3e
 source-git-commit: 88e7140183700da0283fa00d89f6fff2c71c138f
 workflow-type: tm+mt
 source-wordcount: '804'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -47,7 +47,7 @@ La liste des offres personnalisées est accessible dans le menu **[!UICONTROL Of
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_new_fallback"
 >title="Offre de secours"
->abstract="Une offre de secours est l’offre par défaut affichée lorsqu’un utilisateur final n’est éligible à aucune des offres personnalisées."
+>abstract="Une offre de secours est l’offre par défaut affichée lorsqu’un utilisateur final ou une utilisatrice finale n’est pas éligible à l’une des offres personnalisées."
 
 Pour créer une **offre**, procédez comme suit :
 

@@ -8,20 +8,20 @@ topic: Content Management
 role: User
 level: Intermediate
 badge: label="Version bêta"
-source-git-commit: 678a2fbce1b4048aad6a2214bb41ec3722db2b2d
+exl-id: 8462c75e-4f4b-4c4f-8734-19efbbc70c7a
+source-git-commit: f5df65a0225754ab66fb2ffa33c5130f7137b644
 workflow-type: tm+mt
 source-wordcount: '896'
-ht-degree: 51%
+ht-degree: 54%
 
 ---
-
 
 # Tester votre contenu à l’aide d’exemples de données d’entrée (version bêta) {#custom-profiles}
 
 >[!CONTEXTUALHELP]
 >id="ajo_simulate_sample_profiles"
 >title="Simuler à l’aide d’un exemple d’entrée"
->abstract="Dans cet écran, vous pouvez tester différentes variantes de votre contenu en fournissant des valeurs pour les champs de personnalisation par le biais d’un modèle CSV ou JSON, ou en saisissant manuellement les valeurs."
+>abstract="Dans cet écran, vous pouvez tester différentes variantes de votre contenu en fournissant des valeurs pour les champs de personnalisation via un modèle CSV ou en saisissant manuellement les valeurs."
 
 >[!AVAILABILITY]
 >

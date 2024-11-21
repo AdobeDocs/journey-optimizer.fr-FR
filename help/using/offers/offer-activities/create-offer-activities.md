@@ -9,7 +9,7 @@ exl-id: 7a217c97-57e1-4f04-a92c-37632f8dfe91
 source-git-commit: 8535040fd3fe1622d4358a762f92bd93f5694cfa
 workflow-type: tm+mt
 source-wordcount: '2511'
-ht-degree: 95%
+ht-degree: 99%
 
 ---
 
@@ -34,8 +34,8 @@ Avant de créer une décision, vérifiez que les composants suivants ont été c
 
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_decision_details"
->title="Détails de la décision d’offre"
->abstract="Indiquez le nom de la décision et définissez une date et une heure de début et de fin si nécessaire. Pour attribuer des libellés d’utilisation des données personnalisés ou de base à la décision, sélectionnez **[!UICONTROL Gérer l’accès]**."
+>title="Détails de la décision d’offres"
+>abstract="Indiquez le nom de la décision et définissez une date et une heure de début et de fin si nécessaire. Pour attribuer des libellés d’utilisation des données personnalisées ou de base à la décision, sélectionnez **[!UICONTROL Gérer l’accès]**."
 
 1. Accédez à la liste des décisions, puis cliquez sur **[!UICONTROL Créer une décision]**.
 
@@ -52,17 +52,17 @@ Avant de créer une décision, vérifiez que les composants suivants ont été c
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_decision_scopes"
 >title="Portées de décision"
->abstract="Configurez une ou plusieurs portées pour la décision d’offre afin de déterminer les offres à afficher. Pour ce faire, sélectionnez un emplacement et un critère d’évaluation associé à cet emplacement."
+>abstract="Configurez une ou plusieurs portées pour la décision d’offres afin de déterminer les offres à afficher. Pour ce faire, sélectionnez un placement et un critère d’évaluation associé à cet placement."
 
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_decision_placement"
 >title="Emplacement"
->abstract="Sélectionnez l’emplacement où les offres seront diffusées."
+>abstract="Sélectionnez un placement où les offres seront diffusées."
 
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_decision_evaluation"
 >title="Critères d’évaluation"
->abstract="Les critères d’évaluation se composent d’une collection d’offres associée à une contrainte d’éligibilité et d’une méthode de classement permettant de déterminer les offres à afficher dans l’emplacement. La séquence des critères d’évaluation détermine la collection qui sera évaluée en premier. Au moins un critère d&#39;évaluation est requis."
+>abstract="Chaque critère d’évaluation consiste en une collection d’offres associée à une contrainte d’éligibilité et à une méthode de classement permettant de déterminer les offres à afficher dans le placement. La séquence de critères d’évaluation détermine la collection qui sera évaluée en premier. Au moins un critère d’évaluation est requis."
 
 1. Sélectionnez un emplacement dans la liste déroulante. Il sera ajouté à la première portée de décision de votre décision.
 

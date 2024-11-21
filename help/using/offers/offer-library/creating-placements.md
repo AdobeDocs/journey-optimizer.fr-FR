@@ -9,7 +9,7 @@ exl-id: dfaf887e-d4b3-45b0-8297-bffdb0abff4d
 source-git-commit: 88e7140183700da0283fa00d89f6fff2c71c138f
 workflow-type: tm+mt
 source-wordcount: '630'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -22,13 +22,13 @@ ht-degree: 91%
 
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_placement_request"
->title="Paramètres de la requête"
->abstract="Activez l’option **[!UICONTROL Autoriser les doublons entre emplacements]** pour que le système considère la même offre pour plusieurs emplacements. Utilisez le champ **[!UICONTROL Demander l’offre]** pour ajuster le nombre d’offres renvoyées. Par exemple, si vous sélectionnez 2, les 2 meilleures offres s’afficheront pour la portée de décision sélectionnée."
+>title="Paramètres de requête"
+>abstract="Activez l’option **[!UICONTROL Autoriser les doublons entre placements]** pour que le système envisage la même offre pour plusieurs placements. Utilisez le champ **[!UICONTROL Demander l’offre]** pour ajuster le nombre d’offres renvoyées. Par exemple, si vous sélectionnez 2, les 2 meilleures offres s’afficheront pour la portée de décision sélectionnée."
 
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_placement_response"
 >title="Format de réponse"
->abstract="Les options **[!UICONTROL Inclure le contenu]** et **[!UICONTROL Inclure les métadonnées]** vous permettent de spécifier si le contenu et les métadonnées de l’offre doivent être renvoyés dans la réponse de l’API. Vous pouvez inclure toutes les métadonnées ou seulement des champs spécifiques. Par défaut, la valeur du champ Inclure les métadonnées est définie sur « true »."
+>abstract="Les options **[!UICONTROL Inclure le contenu]** et **[!UICONTROL Inclure les métadonnées]** vous permettent d’indiquer si le contenu et les métadonnées de l’offre doivent être renvoyés dans la réponse d’API. Vous pouvez inclure toutes les métadonnées ou seulement des champs spécifiques. Par défaut, la valeur du champ Inclure les métadonnées est définie sur « true »."
 
 Un emplacement permet de s&#39;assurer que le contenu d&#39;offre approprié s&#39;affiche au bon endroit dans votre message. Lorsque vous ajoutez du contenu à une offre, vous êtes invité à sélectionner un emplacement dans lequel ce contenu peut être affiché.
 

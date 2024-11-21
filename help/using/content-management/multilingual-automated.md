@@ -12,7 +12,7 @@ exl-id: 38e82eb2-67d9-4a7d-8c1f-77dab20bcec4
 source-git-commit: 40f46fd815a567934f886dd086102d830dea5ade
 workflow-type: tm+mt
 source-wordcount: '2053'
-ht-degree: 69%
+ht-degree: 73%
 
 ---
 
@@ -113,12 +113,12 @@ Votre projet de traduction est maintenant créé et peut être utilisé dans une
 >[!CONTEXTUALHELP]
 >id="ajo_multi_custom_conditional"
 >title="Paramètres conditionnels personnalisés"
->abstract="Les paramètres conditionnels personnalisés sont des ensembles de règles qui déterminent dans quels paramètres régionaux votre contenu sera affiché, selon des critères spécifiques. Ces paramètres vous permettent de contrôler l’affichage du contenu en fonction de facteurs tels que l’emplacement de l’utilisateur, les préférences linguistiques ou d’autres éléments contextuels."
+>abstract="Les paramètres conditionnels personnalisés sont des ensembles de règles qui déterminent dans quels paramètres régionaux votre contenu sera affiché, selon des critères spécifiques. Ces paramètres vous permettent de contrôler l’affichage du contenu en fonction de facteurs tels que l’emplacement des personnes, les préférences linguistiques ou d’autres éléments contextuels."
 
 >[!CONTEXTUALHELP]
 >id="ajo_multi_fallback"
 >title="Préférences de secours"
->abstract="Le choix d’une préférence de secours est essentiel pour améliorer l’expérience utilisateur. Si aucun secours n’est sélectionné et qu’un profil ne répond pas aux exigences, le contenu n’est pas diffusé. En sélectionnant une solution de secours appropriée, vous garantissez une diffusion de contenu cohérente, même si les profils ne correspondent pas aux critères initiaux."
+>abstract="Le choix d’une préférence de secours est essentiel pour améliorer l’expérience client. Si aucun secours n’est sélectionné et qu’un profil ne répond pas aux exigences, le contenu n’est pas diffusé. En sélectionnant une solution de secours appropriée, vous garantissez une diffusion de contenu cohérente, même si les profils ne correspondent pas aux critères initiaux."
 
 Dans cette section, vous pouvez définir vos différents paramètres régionaux pour gérer votre contenu multilingue. Vous pouvez également choisir l’attribut que vous souhaitez utiliser pour rechercher des informations relatives à la langue du profil.
 
