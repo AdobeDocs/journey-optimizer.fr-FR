@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 4c57dbf9-b2a4-42da-8aa3-5a1b3a475a32
-source-git-commit: c179d81e664fea2b03bf734cafaf287709fa10a0
+source-git-commit: 6b0735f619379e01e87012ba4300c0ec41334fd4
 workflow-type: tm+mt
-source-wordcount: '549'
-ht-degree: 55%
+source-wordcount: '609'
+ht-degree: 45%
 
 ---
 
@@ -69,14 +69,28 @@ Les principales étapes à suivre pour utiliser le service de prise de décision
 
 1. **Configurez des attributs personnalisés** : personnalisez le catalogue d’éléments selon vos besoins spécifiques en configurant des attributs personnalisés dans le schéma du catalogue.
 
+   ➡️ [Découvrez comment configurer le catalogue d’éléments ](catalogs.md)
+
 1. **Créez des éléments de décision** pour l’afficher à l’audience ciblée.
+
+   ➡️ [Découvrez comment créer des éléments de décision](items.md) ([documentation de l’API](api-reference/decisions-items/create.md))
 
 1. **Organisez des collections** : utilisez des collections pour classer les éléments de décision en fonction de règles basées sur des attributs. Incorporez des collections dans vos stratégies de sélection afin de déterminer la collection d’éléments de décision à prendre en compte.
 
+   ➡️ [Découvrez comment gérer les collections d’éléments](collections.md) ([documentation de l’API](api-reference/items-collections/create.md))
+
 1. **Créez des règles de décision** : les règles de décision sont utilisées dans les éléments de décision et/ou les stratégies de sélection pour déterminer qui a accès à un élément de décision.
+
+   ➡️ [Découvrez comment créer des règles de décision](rules.md)
 
 1. **Mettez en œuvre des méthodes de classement** : créez des méthodes de classement et appliquez-les dans les stratégies de décision afin de déterminer l’ordre de priorité de sélection des éléments de décision.
 
+   ➡️ [Découvrez comment créer des méthodes de classement](ranking.md)
+
 1. **Créez des stratégies de sélection** : créez des stratégies de sélection qui tirent parti des collections, des règles de décision et des méthodes de classement afin d’identifier les éléments de décision pouvant être affichés dans les profils.
 
-1. **Incorporez une politique de décision dans une campagne basée sur du code** : les politiques de décision combinent plusieurs stratégies de sélection pour déterminer les éléments de décision éligibles à afficher pour l’audience prévue.
+   ➡️ [Découvrez comment créer des stratégies de sélection](selection-strategies.md) ([documentation de l’API](api-reference/selection-strategies/create.md))
+
+1. **Créez une stratégie de décision et incorporez-la dans votre campagne basée sur le code** : les stratégies de décision combinent plusieurs stratégies de sélection pour déterminer les éléments de décision admissibles à afficher pour l’audience prévue.
+
+   ➡️ [Découvrez comment utiliser les stratégies de décision](create-decision.md)
