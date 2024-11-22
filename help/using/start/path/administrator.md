@@ -7,35 +7,33 @@ feature: Get Started
 role: Admin
 level: Intermediate
 exl-id: 24f85ced-aa45-493f-b2c4-7c7b58351b38
-source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
+source-git-commit: 13cbb0877326b772c3750bd3339e21eee5c3f323
 workflow-type: tm+mt
-source-wordcount: '707'
-ht-degree: 100%
+source-wordcount: '671'
+ht-degree: 68%
 
 ---
 
 # Prise en main pour les administrateurs système {#get-started-sys-admins}
 
-Avant de commencer à utiliser [!DNL Adobe Journey Optimizer], plusieurs étapes sont nécessaires pour préparer votre environnement.  Vous devez effectuer les étapes suivantes afin que l’[Ingénieur de données](data-engineer.md) et le [praticien Parcours](marketer.md) puissent commencer à utiliser [!DNL Adobe Journey Optimizer]. 
+Avant de commencer à utiliser [!DNL Adobe Journey Optimizer], plusieurs étapes sont nécessaires pour préparer votre environnement.  Vous devez effectuer ces étapes de sorte que l’ [ingénieur de données](data-engineer.md) et le [praticien de Parcours](marketer.md) puissent commencer à travailler avec [!DNL Adobe Journey Optimizer].
 
+En tant qu&#39; **administrateur système**, vous devez **comprendre les rôles et attribuer des autorisations** pour l’administration des environnements de test et la configuration des canaux. Vous devez également configurer des environnements de test et les gérer pour les rôles disponibles. Vous pourrez ensuite affecter des membres de l’équipe à des rôles.
 
-En tant qu’**administrateur système**, vous devez **connaître les profils de produit et attribuer des autorisations** pour l’administration des sandbox et la configuration des canaux. Vous devez également configurer des sandbox et les gérer pour les profils de produit disponibles. Vous pourrez ensuite affecter des membres de l’équipe aux profils de produit.
-
-Ces fonctionnalités peuvent être gérées par les **[!UICONTROL administrateurs produits]** qui ont accès à Admin Console. [En savoir plus sur Adobe Admin Console](https://helpx.adobe.com/fr/enterprise/admin-guide.html){target="_blank"}.
+Ces fonctionnalités peuvent être gérées par les **[!UICONTROL administrateurs de produit]** ayant accès au produit Autorisations. [En savoir plus sur les autorisations](../../administration/permissions.md){target="_blank"}.
 
 Découvrez la gestion des accès dans les pages suivantes :
 
 1. **Créer des sandbox** pour partitionner vos instances en environnements virtuels distincts et isolés. Les **sandbox** sont créés dans [!DNL Journey Optimizer]. Pour en savoir plus, consultez la section [Sandbox](../../administration/sandboxes.md).
 
    >[!NOTE]
-   >En tant qu’**administrateur ou administratrice système**, si le menu **[!UICONTROL Sandbox]** ne s’affiche pas dans [!DNL Journey Optimizer], mettez à jour vos autorisations dans l’[Admin Console](https://adminconsole.adobe.com/){target="_blank"}. Découvrez comment mettre à jour votre profil de produit sur [cette page](../../administration/permissions.md#edit-product-profile).
-   >
+   >En tant qu&#39; **administrateur système**, si vous ne pouvez pas voir le menu **[!UICONTROL Sandbox]** dans [!DNL Journey Optimizer], vous devez mettre à jour vos autorisations. Découvrez comment mettre à jour votre rôle dans [cette page](../../administration/permissions.md#edit-product-profile).
 
-1. **Assimilez les profils de produit**. Les profils de produit sont un ensemble de droits unitaires qui permet aux utilisateurs d’accéder à certaines fonctionnalités ou à certains objets dans l’interface. Pour en savoir plus, consultez la section [Profils de produit d’usine](../../administration/ootb-product-profiles.md).
+1. **Comprendre les rôles**. Les rôles sont un ensemble de droits unitaires qui permet aux utilisateurs d’accéder à certaines fonctionnalités ou à certains objets de l’interface. Pour en savoir plus, consultez la section [Rôles d&#39;usine](../../administration/ootb-product-profiles.md) .
 
-1. **Définissez les autorisations** pour les profils de produit, y compris les **Sandbox**, et donnez l’accès aux membres de votre équipe en les affectant à différents profils de produit. Cette étape est effectuée dans l’[Admin Console](https://adminconsole.adobe.com/){target="_blank"}. Les autorisations sont des droits unitaires qui vous permettent de définir les autorisations attribuées au **[!UICONTROL Profil de produit]**. Chaque autorisation est regroupée sous des fonctionnalités, par exemple Parcours ou Offres, ce qui représente les différentes fonctionnalités ou objets dans [!DNL Journey Optimizer]. Pour en savoir plus, consultez la section [Niveaux d’autorisation](../../administration/high-low-permissions.md).
+1. **Définissez des autorisations** pour les rôles, y compris **Sandbox**, et accordez l’accès aux membres de votre équipe en les affectant à différents rôles. Les autorisations sont des droits unitaires qui vous permettent de définir les autorisations attribuées à **[!UICONTROL Rôle]**. Chaque autorisation est regroupée sous des fonctionnalités, par exemple Parcours ou Offres, ce qui représente les différentes fonctionnalités ou objets dans [!DNL Journey Optimizer]. Pour en savoir plus, consultez la section [Niveaux d’autorisation](../../administration/high-low-permissions.md).
 
-En outre, vous devez ajouter les utilisateurs qui doivent accéder à Assets Essentials aux profils de produit **Utilisateurs clients dʼAssets Essentials** ou/et **Utilisateurs dʼAssets Essentials**. [Pour en savoir plus, consultez la documentation sur Assets Essentials](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/deploy-administer.html?lang=fr){target="_blank"}.
+En outre, vous devez ajouter aux rôles **Utilisateurs consommateurs Assets Essentials** ou/et **Utilisateurs Assets Essentials** les utilisateurs qui doivent avoir accès aux Assets Essentials. [Pour en savoir plus, consultez la documentation sur Assets Essentials](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/deploy-administer.html?lang=fr){target="_blank"}.
 
 >[!NOTE]
 >Pour les produits Journey Optimizer obtenus avant le 6 janvier 2022, vous devez déployer [!DNL Adobe Experience Manager Assets Essentials] pour votre organisation. Pour en savoir plus, reportez-vous à la section [Déploiement d’Assets Essentials](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/deploy-administer.html?lang=fr){target="_blank"}
@@ -45,7 +43,7 @@ Lorsque vous accédez à [!DNL Journey Optimizer] pour la première fois, un san
 Pour pouvoir créer vos parcours et envoyer des messages, accédez au menu **ADMINISTRATION**. Parcourez le menu **[!UICONTROL Canaux]** pour configurer les messages et les configurations des canaux (c’est-à-dire les paramètres prédéfinis de message).
 
 >[!NOTE]
->En tant qu’**administrateur ou administratrice système**, si le menu **[!UICONTROL Canaux]** ne s’affiche pas dans [!DNL Journey Optimizer], mettez à jour vos autorisations dans l’[Admin Console](https://adminconsole.adobe.com/){target="_blank"}. Découvrez comment mettre à jour votre profil de produit sur [cette page](../../administration/permissions.md#edit-product-profile).
+>En tant qu&#39; **administrateur système**, si vous ne pouvez pas voir le menu **[!UICONTROL Canaux]** dans [!DNL Journey Optimizer], mettez à jour vos autorisations dans le produit [Autorisations](../../administration/permissions.md){target="_blank"}.
 >
 
 Suivez les étapes énumérées ci-dessous :
