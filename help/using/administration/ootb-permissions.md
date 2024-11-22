@@ -10,9 +10,9 @@ level: Intermediate
 keywords: autorisations, création, messages
 exl-id: 5d014017-ca7c-4206-b783-989677ec0e1c
 source-git-commit: c858d16ec520418148fb28ad2ecec0d3a6377ba9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '905'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -44,7 +44,7 @@ Les autorisations intégrées représentent les différentes autorisations qui p
 | Rapports | **[!DNL View channel reports]** : lecture et modification des rapports de canal. |
 | Administration des sandbox | **[!DNL Export sandboxes]** : capacité à exporter un sandbox.</br>**[!DNL Manage packages]** : lecture, création, modification et suppression des packages.</br>**[!DNL Manage sandboxes]** : lecture, création, modification et suppression des sandbox.</br>**[!DNL View sandboxes]** : accès en lecture seule aux sandbox appartenant à votre organisation.</br>**[!DNL Reset sandboxes]** : capacité à réinitialiser un sandbox. |
 | Administration des sandbox | **[!DNL Export sandboxes]** : capacité à exporter un sandbox.</br>**[!DNL Manage packages]** : lecture, création, modification et suppression des packages.</br>**[!DNL Manage sandboxes]** : lecture, création, modification et suppression des sandbox.</br>**[!DNL View sandboxes]** : accès en lecture seule aux sandbox appartenant à votre organisation.</br>**[!DNL Reset sandboxes]** : capacité à réinitialiser un sandbox. |
-| Service de traduction | **[!DNL Manage translation projects]** : lire, créer, modifier et supprimer des projets de traduction.</br>**[!DNL View translation projects]**: accès en lecture seule pour les projets de traduction.</br>**[!DNL Manage translation tasks]** : lire, créer, modifier et supprimer des tâches de traduction.</br>**[!DNL View translation tasks]**: accès en lecture seule pour les tâches de traduction.</br> **[!DNL Manage translation reviews]** : lire, créer, modifier et supprimer des révisions de traduction.</br>**[!DNL View translation reviews]**: accès en lecture seule pour les révisions de traduction.</br>**[!DNL Manage translation in house]** : lire, créer, modifier et supprimer la traduction en interne.</br>**[!DNL View translation in house]**: accès en lecture seule pour la traduction en interne.</br>**[!DNL Manage translation settings]** : lire, créer, modifier et supprimer les paramètres de traduction. |
+| Service de traduction | **[!DNL Manage translation projects]** : lecture, création, modification et suppression des projets de traduction.</br>**[!DNL View translation projects]** : accès en lecture seule aux projets de traduction.</br>**[!DNL Manage translation tasks]** : lecture, création, modification et suppression des tâches de traduction.</br>**[!DNL View translation tasks]** : accès en lecture seule aux tâches de traduction.</br> **[!DNL Manage translation reviews]** : lecture, création, modification et suppression des révisions de traduction.</br>**[!DNL View translation reviews]** : accès en lecture seule aux révisions de traduction.</br>**[!DNL Manage translation in house]** : lecture, création, modification et suppression de la traduction en interne.</br>**[!DNL View translation in house]** : accès en lecture seule à la traduction en interne.</br>**[!DNL Manage translation settings]** : lecture, création, modification et suppression des paramètres de traduction. |
 
 {style="table-layout:fixed"}
 

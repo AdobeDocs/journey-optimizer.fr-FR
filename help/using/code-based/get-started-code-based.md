@@ -7,9 +7,9 @@ role: User, Developer, Admin
 level: Experienced
 exl-id: 987de2bf-cebe-4753-98b4-01eb3fded492
 source-git-commit: 4b822eb45857556359ba9444e9bf7379608f1dff
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '719'
-ht-degree: 83%
+ht-degree: 100%
 
 ---
 
@@ -95,7 +95,7 @@ Pour exécuter des cas d’utilisation web, vous pouvez utiliser le canal web ou
 
 * Modifiez votre contenu à l’aide de l’[éditeur de personnalisation](create-code-based.md#edit-code).
 * L’expérience basée sur le code nécessite un travail de développement en aval de votre implémentation pour que vos applications puissent interpréter et diffuser le contenu publié sur Edge par [!DNL Journey Optimizer] pour ces emplacements. [En savoir plus](code-based-configuration.md#surface-definition)
-* Cela nécessite davantage de planification et ne peut modifier que les éléments spécifiés par les développeurs et développeuses. Il est donc essentiel d’identifier les composants (bannière d’accueil, image principale, barre de menus, etc.) sur les applications qui doivent être modifiées pour la personnalisation ou le test, et de collaborer avec votre équipe de développement pour créer l’implémentation nécessaire pour gérer ces modifications.
+* Cela nécessite davantage de planification et ne peut modifier que les éléments spécifiés par les développeurs et développeuses. Par conséquent, il est essentiel d’identifier les composants (bannière d’accueil, image principale, barre de menus, etc.) sur les applications qui doivent être modifiées pour la personnalisation ou le test, et de collaborer avec votre équipe de développement pour créer l’implémentation nécessaire pour gérer ces modifications.
 * Cela vous permet d’utiliser du contenu de code JSON.
 * Cette fonctionnalité est axée sur le persona-développeur.
 
@@ -103,20 +103,20 @@ Pour exécuter des cas d’utilisation web, vous pouvez utiliser le canal web ou
 
 >[!CAUTION]
 >
->Cette fonctionnalité est destinée aux développeurs et développeuses et/ou aux personnes expérimentées. Il peut être utilisé par les marketeurs qui possèdent certaines compétences en écriture de code, à condition que les configurations de canal et la configuration initiale soient gérées par votre équipe de développement.
+>Cette fonctionnalité est destinée aux développeurs et développeuses et/ou aux personnes expérimentées. Elle peut être utilisée par les spécialistes marketing qui possèdent certaines compétences en écriture de code, à condition que les configurations de canaux et la configuration initiale soient gérées par votre équipe de développement.
 
-Pour modifier votre contenu à l’aide de la fonctionnalité d’expérience basée sur le code [!DNL Journey Optimizer], vos pages ou applications doivent être instrumentées. Pour ce faire, vous devez déclarer au-dessus des emplacements individuels spécifiques (appelés &quot;[surfaces](code-based-configuration.md#surface-definition)&quot;) où vous souhaitez insérer ou remplacer du contenu.
+Pour modifier votre contenu à l’aide de la fonctionnalité d’expérience basée sur le code [!DNL Journey Optimizer], vos pages ou applications doivent être instrumentées. Pour ce faire, vous devez déclarer à l’avance les emplacements individuels spécifiques (appelés « [surfaces](code-based-configuration.md#surface-definition) ») où vous souhaitez insérer ou remplacer du contenu.
 
 >[!NOTE]
 >
->Actuellement, le contenu associé à une configuration ne peut être qu’HTML ou JSON.
+>Actuellement, le contenu associé à une configuration ne peut être que de type HTML ou JSON.
 
 Les étapes clés de mise en œuvre d’une campagne basée sur le code sont les suivantes.
 
-1. Définissez une [surface](code-based-configuration.md#surface-definition) dans l’implémentation de votre application, qui est essentiellement l’emplacement où vous souhaitez ajouter votre expérience basée sur le code, et créez une configuration de canal d’expérience basée sur le code qui référence cet emplacement. [Voici comment procéder](code-based-configuration.md#create-code-based-configuration)
+1. Définissez une [surface](code-based-configuration.md#surface-definition) dans l’implémentation de votre application, qui est essentiellement l’emplacement où vous souhaitez ajouter votre expérience basée sur le code, puis créez une configuration de canal d’expérience basée sur le code qui référence cet emplacement. [Voici comment procéder](code-based-configuration.md#create-code-based-configuration)
 
 1. Créez un parcours ou une campagne dans [!DNL Journey Optimizer] à l’aide de cette configuration. [Voici comment procéder](create-code-based.md#create-code-based-campaign)
 
 1. Composez une expérience en spécifiant du contenu pour la configuration sélectionnée à l’aide de l’éditeur de personnalisation [!DNL Journey Optimizer]. [Voici comment procéder.](create-code-based.md#edit-code)
 
-1. Votre équipe de mise en œuvre d’application effectue des appels d’API ou de SDK explicites pour récupérer du contenu pour les surfaces nommées, « Texte de bannière » ou « Barre d’état de recommendations 1 », ou des points de décision non liés à l’interface utilisateur dans une application, comme « paramètres d’algorithme de recherche ». Dans ce cas, l’équipe de mise en oeuvre est chargée du rendu ou de l’interprétation ou de l’action sur le contenu renvoyé. [En savoir plus](code-based-implementation-samples.md)
+1. Votre équipe de mise en œuvre d’application effectue des appels d’API ou de SDK explicites pour récupérer du contenu pour les surfaces nommées, « Texte de bannière » ou « Barre d’état de recommendations 1 », ou des points de décision non liés à l’interface utilisateur dans une application, comme « paramètres d’algorithme de recherche ». Dans ce cas, l’équipe de mise en œuvre est chargée du rendu, de l’interprétation et de l’action sur le contenu renvoyé. [En savoir plus](code-based-implementation-samples.md)

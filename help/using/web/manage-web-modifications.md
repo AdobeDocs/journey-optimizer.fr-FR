@@ -7,9 +7,9 @@ role: User
 level: Beginner, Intermediate
 exl-id: 213511b4-7556-4a25-aa23-b50acd11cd34
 source-git-commit: 4b822eb45857556359ba9444e9bf7379608f1dff
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '971'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -38,7 +38,7 @@ Vous pouvez facilement gérer tous les composants, réglages et styles que vous 
    >
    >Procédez avec précaution lors de la suppression d’une action, car elle peut avoir un impact sur les actions suivantes.
 
-1. Si vous créez une [application d&#39;une seule page](web-spa.md), vous pouvez appliquer toute modification à d&#39;autres vues. [En savoir plus](web-spa.md#apply-modifications-views)
+1. Si vous créez une [application à page unique](web-spa.md), vous pouvez appliquer n’importe quelle modification aux autres vues. [En savoir plus](web-spa.md#apply-modifications-views)
 
 1. Pour supprimer plusieurs modifications en même temps, cliquez sur le bouton **[!UICONTROL Sélectionner]** en haut du volet **[!UICONTROL Modifications]**, vérifiez les modifications de votre choix et cliquez sur l’icône **[!UICONTROL Supprimer]**.
 

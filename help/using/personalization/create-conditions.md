@@ -10,9 +10,9 @@ level: Intermediate
 keywords: expression, éditeur, condition, règles
 exl-id: 246a4a55-059e-462c-ac1e-43b90f4abda4
 source-git-commit: 6f9bdb179f2bfff30494495b68a15aaac77d6b9e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '571'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -63,10 +63,10 @@ Les principales étapes de création d’une règle conditionnelle sont les suiv
    Les attributs sont organisés en trois onglets :
 
    * **[!UICONTROL Profile]** :
-      * **[!UICONTROL Audiences]** répertorie tous les attributs d’audience (état, version, etc.) pour le [Service de segmentation d’Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=fr),
+      * **[!UICONTROL Audiences]** répertorie tous les attributs d’audience (c’est-à-dire le statut, la version, etc.) pour le [service de segmentation Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=fr).
       * **[!UICONTROL Profils individuels XDM]** répertorie tous les attributs de profil associés au [Schéma du modèle de données d’expérience (XDM)](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=fr) défini dans Adobe Experience Platform.
    * **[!UICONTROL Contextuel]** : lorsque le message est utilisé dans un parcours, les champs de parcours contextuels sont disponibles dans cet onglet.
-   * **[!UICONTROL Audiences]** : répertorie toutes les audiences générées à partir des définitions de segment créées dans [Adobe Experience Platform Segmentation service](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=fr).
+   * **[!UICONTROL Audiences]** : répertorie toutes les audiences générées à partir des segments créés dans le [service de segmentation Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=fr).
 
 1. Une fois votre règle conditionnelle prête, vous pouvez l’ajouter à votre message pour créer du contenu dynamique. [Découvrez comment ajouter du contenu dynamique](dynamic-content.md)
 

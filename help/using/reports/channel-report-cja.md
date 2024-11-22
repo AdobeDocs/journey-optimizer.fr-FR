@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 exl-id: 393f02c0-f54c-4222-b668-0931b67590ce
 source-git-commit: b9dbda18b2e997d6c3acc9763cbb0088abbece1b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '644'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -37,7 +37,7 @@ Les indicateurs clés de performance **[!UICONTROL Faits saillants]** constituen
 
 +++ En savoir plus sur les mesures de faits saillants
 
-* **[!UICONTROL Engagement par Parcours]** : nombre total d’individus uniques ayant reçu des messages envoyés par le parcours, représentant des profils distincts ayant atteint un point d’action désigné dans le parcours.
+* **[!UICONTROL Engagement du parcours]** : nombre total de personnes uniques ayant reçu des messages envoyés depuis le parcours et représentant des profils distincts ayant atteint un point d’action désigné dans le parcours.
 
 * **[!UICONTROL Entrées du parcours]** : nombre total de personnes ayant atteint l’événement d’entrée du parcours.
 

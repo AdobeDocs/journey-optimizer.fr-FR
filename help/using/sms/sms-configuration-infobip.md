@@ -8,9 +8,9 @@ role: Admin
 level: Intermediate
 exl-id: 7b6dc89a-1a81-49c2-b2a7-bf24b9d215e3
 source-git-commit: c9a35c2950c061318f673cdd53d0a5fd08063c27
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '485'
-ht-degree: 78%
+ht-degree: 100%
 
 ---
 
@@ -54,14 +54,14 @@ Pour configurer Infobip avec Journey Optimizer, procédez comme suit :
 
    * **[!UICONTROL Numéro entrant]** : ajoutez votre numéro entrant unique. Cela vous permet d’utiliser les mêmes informations d’identification d’API dans différents sandbox, chacun ayant son propre numéro entrant.
 
-   * **[!UICONTROL Mots-clés entrants personnalisés]** : définissez des mots-clés uniques pour des actions spécifiques, par exemple DISCOUNT, OFFERS, ENROLL. Ces mots-clés sont capturés et stockés en tant qu’attributs dans le profil, ce qui vous permet de déclencher une qualification de segment en continu dans le parcours et de fournir une réponse ou une action personnalisée.
+   * **[!UICONTROL Mots-clés entrants personnalisés]** : définissez des mots-clés uniques pour des actions spécifiques, par exemple REMISE, OFFRES, INSCRIRE. Ces mots-clés sont capturés et stockés en tant qu’attributs dans le profil, ce qui vous permet de déclencher une qualification de segment en continu dans le parcours et de fournir une réponse ou une action personnalisée.
 
-   * **[!UICONTROL Message de réponse entrante par défaut]** : saisissez la réponse par défaut envoyée lorsqu’un utilisateur final envoie un SMS entrant qui ne correspond à aucun des mots-clés définis.
+   * **[!UICONTROL Message de réponse entrant par défaut]** : saisissez la réponse par défaut envoyée lorsqu’un utilisateur final ou une utilisatrice finale envoie un SMS entrant qui ne correspond à aucun des mots-clés définis.
 
-1. Cliquez sur **[!UICONTROL Envoyer]** lorsque vous avez terminé la configuration de vos informations d’identification API.
+1. Cliquez sur **[!UICONTROL Envoyer]** lorsque vous avez terminé la configuration de vos informations d’identification d’API.
 
-1. Dans le menu **[!UICONTROL Informations d’identification de l’API]**, cliquez sur l’icône de la corbeille pour supprimer vos informations d’identification d’API.
+1. Dans le menu **[!UICONTROL Informations d’identification d’API]**, cliquez sur l’icône de corbeille pour supprimer vos informations d’identification d’API.
 
-1. Pour modifier les informations d’identification existantes, recherchez les informations d’identification de l’API souhaitées et cliquez sur l’option **[!UICONTROL Modifier]** pour apporter les modifications nécessaires.
+1. Pour modifier les informations d’identification existantes, recherchez les informations d’identification d’API souhaitées et cliquez sur l’option **[!UICONTROL Modifier]** pour apporter les modifications nécessaires.
 
 Après avoir créé et configuré vos informations d’identification de l’API, vous devez maintenant créer une configuration de canal pour les messages SMS et MMS. [En savoir plus](sms-configuration-surface.md)

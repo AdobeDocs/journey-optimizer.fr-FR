@@ -10,9 +10,9 @@ level: Intermediate
 keywords: parcours, configuration, propriétés
 exl-id: 6c21371c-6cbc-4d39-8fe6-39f1b8b13280
 source-git-commit: 7632b144625a02810796d7afc858fcb5809d9220
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2233'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -35,7 +35,7 @@ Depuis cette section, vous pouvez définir le nom du parcours, ajouter une descr
 * définir une [durée de temporisation](#timeout) dans les activités de parcours (pour les personnes chargées de l’administration uniquement),
 * sélectionner les [fuseaux horaires](#timezone) des parcours et des profils,
 * attribuer des balises unifiées Adobe Experience Platform à votre parcours afin de les classer facilement et d’améliorer la recherche dans la liste des campagnes. [Découvrir comment utiliser les balises](../start/search-filter-categorize.md#tags)
-* surveillez les conflits et donnez la priorité à vos parcours à l’aide des [outils de gestion des conflits](#conflict).
+* Surveillez les conflits et gérez la priorité de vos parcours à l’aide des [outils de gestion des conflits](#conflict).
 
 ![](assets/journey32.png)
 
@@ -301,12 +301,12 @@ Les mécanismes de sécurisation et limitations suivants s’appliquent à la fo
 
 ## Gestion des conflits {#conflict}
 
-La section **[!UICONTROL Gestion des conflits]** des propriétés du parcours vous permet de surveiller les conflits et de hiérarchiser vos parcours. Vous pouvez effectuer les actions suivantes :
+La section **[!UICONTROL Gestion des conflits]** dans les propriétés du parcours vous permet de surveiller les conflits et de gérer la priorité de vos parcours. Vous pouvez effectuer les actions suivantes :
 
-* Appliquez un **jeu de règles** pour exclure ce parcours d’une partie de votre audience en fonction de règles de limitation. [Découvrez comment utiliser des ensembles de règles](../configuration/rule-sets.md)
+* Appliquez un **jeu de règles** pour exclure ce parcours pour une partie de votre audience en fonction de règles de capping de fréquence. [Découvrir comment utiliser les jeux de règles](../configuration/rule-sets.md)
 
-* Attribuez un **score de priorité** au parcours, compris entre 0 et 100. Les nombres plus élevés signalent une priorité plus élevée. La valeur de priorité insérée ici est héritée par toute action entrante (in-app, par exemple) contenue dans ce parcours. [apprenez à utiliser les scores de priorité](../conflict-prioritization/priority-scores.md)
+* Attribuez un **score de priorité** au parcours, allant de 0 à 100. Un nombre plus élevé indique une priorité plus élevée. La valeur de priorité insérée ici est héritée par toute action entrante (in-app, par exemple) contenue dans ce parcours. [Découvrir comment utiliser les scores de priorité](../conflict-prioritization/priority-scores.md)
 
   Dans les cas où cette même configuration de canal entrant est utilisée dans d’autres campagnes ou parcours, l’action entrante ayant le score de priorité le plus élevé est présentée aux destinataires. Si plusieurs parcours ou campagnes ont le même score, l’élément qui a été modifié le plus récemment est sélectionné.
 
-* **Afficher les conflits** avec d’autres parcours, campagnes ou configurations de canal. Si vous souhaitez identifier le chevauchement sur l’audience, la date de début et de fin, la configuration du canal, le canal ou le jeu de règles, vous pouvez afficher les conflits potentiels ici. [Découvrez comment identifier les conflits potentiels dans parcours](../conflict-prioritization/conflicts.md)
+* **Affichez les conflits** avec d’autres configuration de parcours, de campagnes, ou de canaux. Si vous souhaitez identifier un chevauchement concernant l’audience, la date de début et de fin, la configuration des canaux, le canal ou le jeu de règles, vous pouvez afficher les conflits potentiels ici. [Découvrir comment identifier les conflits potentiels dans un parcours](../conflict-prioritization/conflicts.md)

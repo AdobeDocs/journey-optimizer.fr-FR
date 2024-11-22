@@ -6,9 +6,9 @@ solution: Journey Optimizer
 product: journey optimizer
 exl-id: 3a1b6c61-82df-421c-98d8-2af4f2a5e0de
 source-git-commit: a1502d2fa13508650cb9353e53ab3a43de650c27
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '381'
-ht-degree: 86%
+ht-degree: 100%
 
 ---
 
@@ -20,9 +20,9 @@ Découvrez les améliorations les plus récentes apportées au produit et à la 
 
 >[!BEGINTABS]
 
->[!TAB Version du 24 octobre]
+>[!TAB Version d’octobre 2024]
 
-La version d’octobre est désormais en ligne, y compris le verrouillage du contenu des emails, l’intégration avec l’encre mobile, les expériences web et basées sur le code dans parcours. Auparavant, les fonctionnalités suivantes étaient disponibles pour tous : personnalisation de la configuration des emails, stratégies d’approbation, expérimentation de contenu, amélioration de l’expérience de création de rapports, contenu multilingue, etc.
+La version d’octobre est désormais en ligne, y compris le verrouillage du contenu des e-mails, l’intégration à Movable Ink et les expériences web et basées sur du code dans les parcours. Auparavant en disponibilité limitée, les fonctionnalités suivantes sont désormais disponibles pour tout le monde : personnalisation de la configuration des e-mails, politiques d’approbation, expérimentation de contenu, amélioration de l’expérience de création de rapports, contenu multilingue, etc.
 
 [![En savoir plus](using/assets/do-not-localize/learn-more-button.svg)](using/rn/release-notes.md)
 

@@ -2,16 +2,17 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Créer un paramètre régional
-description: Découvrez comment créer des paramètres régionaux pour le contenu multilingue dans Journey Optimizer
+description: Découvrez comment créer un paramètre régional pour du contenu multilingue dans Journey Optimizer.
 feature: Multilingual Content
 topic: Content Management
 role: User
 level: Beginner
 keywords: commencer, démarrer, contenu, expérience
-source-git-commit: c858d16ec520418148fb28ad2ecec0d3a6377ba9
-workflow-type: tm+mt
+exl-id: 0b0e9344-f1ca-4aed-b143-facaa74c9b29
+source-git-commit: f5df65a0225754ab66fb2ffa33c5130f7137b644
+workflow-type: ht
 source-wordcount: '120'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -35,4 +36,3 @@ Lors de la configuration des paramètres de langue, comme décrit dans la sectio
 1. Cliquez sur **[!UICONTROL Enregistrer]** pour créer votre paramètre régional.
 
    ![](assets/locale_2.png)
-

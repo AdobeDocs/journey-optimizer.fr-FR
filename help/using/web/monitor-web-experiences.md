@@ -1,15 +1,15 @@
 ---
 title: Surveiller vos expériences web
-description: Découvrez comment surveiller vos expériences web dans Journey Optimizer
+description: Découvrir comment surveiller vos expériences web dans Journey Optimizer
 feature: Web Channel, Reporting
 topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: d89795bb-c51d-4d1f-b7ed-2b2c5d278922
 source-git-commit: 4b822eb45857556359ba9444e9bf7379608f1dff
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '288'
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 
@@ -49,4 +49,4 @@ Ces informations peuvent se révéler utiles pour améliorer l’expérience des
 
 1. Pour supprimer le suivi des clics sur un élément, sélectionnez l’icône de suppression correspondante.
 
-Une fois votre campagne activée, vous pouvez vérifier le nombre de clics pour chaque élément du [rapport actif](../reports/campaign-live-report.md#web-tab) et du [rapport Customer Journey Analytics](../reports/campaign-global-report-cja-web.md) du Web de campagne.
+Une fois votre campagne activée, vous pouvez vérifier le nombre de clics sur chaque élément dans le [rapport dynamique](../reports/campaign-live-report.md#web-tab) et le [rapport Customer Journey Analytics](../reports/campaign-global-report-cja-web.md) de la campagne web.

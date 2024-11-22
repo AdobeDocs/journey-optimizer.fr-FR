@@ -1,17 +1,17 @@
 ---
-title: Modifier le contenu à l’aide du concepteur web
-description: Découvrez comment créer une page web et modifier son contenu à l’aide de l’éditeur web de Journey Optimizer
+title: Modifier du contenu à l’aide du concepteur web
+description: Découvrir comment créer une page web et modifier son contenu dans l’éditeur web de Journey Optimizer
 feature: Web Channel
 topic: Content Management
 role: User
 level: Beginner
-source-git-commit: 7cf58ae33c0b3e6d6b9ce19aa71ba105db40c602
-workflow-type: tm+mt
+exl-id: 98e99978-8538-40b4-92ac-7184864017eb
+source-git-commit: f5df65a0225754ab66fb2ffa33c5130f7137b644
+workflow-type: ht
 source-wordcount: '933'
-ht-degree: 83%
+ht-degree: 100%
 
 ---
-
 
 # Utiliser le concepteur web {#work-with-web-designer}
 
@@ -29,7 +29,7 @@ ht-degree: 83%
 >additional-url="https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html" text="Learn more"
 -->
 
-Dans [!DNL Journey Optimizer], la création web visuelle est optimisée par l’extension de navigateur Chrome **Adobe Experience Cloud Visual Helper**. [En savoir plus](web-prerequisites.md#visual-authoring-prerequisites).
+Dans [!DNL Journey Optimizer], la création web est optimisée par l’extension de navigateur Chrome **Adobe Experience Cloud Visual Helper**. [En savoir plus](web-prerequisites.md#visual-authoring-prerequisites).
 
 >[!CAUTION]
 >
@@ -41,9 +41,9 @@ Pour commencer à créer votre expérience web à l’aide du concepteur web vis
 
 >[!CAUTION]
 >
->Le [SDK Web Adobe Experience Platform](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html?lang=fr){target="_blank"} doit être inclus dans votre page web. [En savoir plus](web-prerequisites.md#implementation-prerequisites)
+>Le [SDK web Adobe Experience Platform](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html?lang=fr){target="_blank"} doit être inclus dans votre page web. [En savoir plus](web-prerequisites.md#implementation-prerequisites)
 
-1. Dans l&#39;écran **[!UICONTROL Modifier le contenu]**, cliquez sur **[!UICONTROL Modifier la page web]** pour ouvrir le concepteur web.
+1. Sur l’écran **[!UICONTROL Modifier le contenu]**, cliquez sur **[!UICONTROL Modifier la page web]** pour ouvrir le concepteur web.
 
    ![](assets/web-campaign-edit-web-page.png)
 
@@ -57,7 +57,7 @@ Pour commencer à créer votre expérience web à l’aide du concepteur web vis
 
 1. Une fois dans le concepteur web, sélectionnez un élément dans la zone de travail, tel qu’une image, un bouton, un paragraphe, un texte, un conteneur, un en-tête, un lien, etc. [En savoir plus](#content-components)
 
-1. Pour modifier un élément, vous pouvez utiliser :
+1. Pour modifier un élément, vous pouvez utiliser les éléments suivants :
 
    * Le menu contextuel permettant de modifier son contenu, sa mise en page, d’insérer des liens ou la personnalisation, etc.
 

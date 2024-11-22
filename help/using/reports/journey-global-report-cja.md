@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 exl-id: 30d4f967-e085-44f1-973d-11e79f693e6e
 source-git-commit: b9dbda18b2e997d6c3acc9763cbb0088abbece1b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '828'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -37,7 +37,7 @@ Les indicateurs clés de performances (KPI) du **[!UICONTROL parcours]** foncti
 
 +++ En savoir plus sur les mesures des indicateurs clés de performances du parcours
 
-* **[!UICONTROL Engagement par Parcours]** : nombre total d’individus uniques ayant reçu des messages envoyés par le parcours, représentant des profils distincts ayant atteint un point d’action désigné dans le parcours.
+* **[!UICONTROL Engagement du parcours]** : nombre total de personnes uniques ayant reçu des messages envoyés depuis le parcours et représentant des profils distincts ayant atteint un point d’action désigné dans le parcours.
 
 * **[!UICONTROL Entrées du parcours]** : nombre total de personnes ayant atteint l’événement d’entrée du parcours.
 
@@ -55,7 +55,7 @@ Le tableau **[!UICONTROL Statistiques du parcours]** offre un résumé détaill�
 
 +++ En savoir plus sur les mesures des statistiques du parcours
 
-* **[!UICONTROL Engagement par Parcours]** : nombre total d’individus uniques ayant reçu des messages envoyés par le parcours, représentant des profils distincts ayant atteint un point d’action désigné dans le parcours.
+* **[!UICONTROL Engagement du parcours]** : nombre total de personnes uniques ayant reçu des messages envoyés depuis le parcours et représentant des profils distincts ayant atteint un point d’action désigné dans le parcours.
 
 * **[!UICONTROL Entrées du parcours]** : nombre total de personnes ayant atteint l’événement d’entrée du parcours.
 
