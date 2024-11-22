@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 01726ab6-f581-4d19-aedd-2541bc0f27c6
-source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
+source-git-commit: 03cb3298c905766bc059e82c58969a2111379345
 workflow-type: tm+mt
-source-wordcount: '193'
-ht-degree: 100%
+source-wordcount: '216'
+ht-degree: 82%
 
 ---
 
@@ -37,4 +37,4 @@ Vous pouvez tester le rendu de certains de vos modèles d’e-mail, qu’ils aie
 
 >[!CAUTION]
 >
->Pour l’instant, le suivi n’est pas pris en charge lors du test des modèles de contenu d’e-mail. Dès lors, le suivi des événements, des paramètres UTM et des liens de page de destination n’est pas assuré dans les BAT envoyés à partir d’un modèle. Pour tester le suivi, [utilisez le modèle de contenu](../email/use-email-templates.md) d’un e-mail et [envoyez un BAT](../content-management/preview-test.md#send-proofs).
+>Pour l’instant, le suivi n’est pas pris en charge lors du test des modèles de contenu d’e-mail. Dès lors, le suivi des événements, des paramètres UTM et des liens de page de destination n’est pas assuré dans les BAT envoyés à partir d’un modèle. Pour tester le suivi, [ utilisez le modèle de contenu](../email/use-email-templates.md) dans un email et envoyez un BAT à l’aide de profils de test, ou d’exemples de données d’entrée téléchargées à partir d’un fichier CSV/JSON, ou ajoutés manuellement. [Découvrez comment prévisualiser et tester votre contenu](../content-management/preview-test.md)

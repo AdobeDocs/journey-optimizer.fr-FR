@@ -7,10 +7,10 @@ level: Beginner
 feature: Get Started
 Role: User
 exl-id: 34304142-3ee8-4081-94b9-e914968c75ba
-source-git-commit: 47482adb84e05fe41eb1c50479a8b50e00469ec4
-workflow-type: ht
-source-wordcount: '456'
-ht-degree: 100%
+source-git-commit: 03cb3298c905766bc059e82c58969a2111379345
+workflow-type: tm+mt
+source-wordcount: '465'
+ht-degree: 89%
 
 ---
 
@@ -32,7 +32,9 @@ Reportez-vous aux sections suivantes pour configurer votre premier parcours, ajo
 
    ![](../assets/offers-e2e-offers-displayed.png)
 
-1. **Tester et valider**. Une fois votre contenu défini, vous pouvez utiliser les profils de test pour prévisualiser son contenu. Si vous avez inséré du [contenu personnalisé](../../personalization/personalize.md), vous pourrez vérifier l’affichage de ce dernier dans le message à l’aide des données de profil de test. De plus, exploitez votre compte **Litmus** dans [!DNL Journey Optimizer] pour prévisualiser instantanément votre **rendu d&#39;e-mail** dans les clients de messagerie populaires. Vous pouvez ensuite vous assurer que le contenu de votre e-mail s&#39;affiche correctement et fonctionne correctement dans chaque boîte de réception. Découvrez comment tester et valider vos messages [dans cette section](../../content-management/preview-test.md).
+1. **Tester et valider**. Une fois votre contenu défini, vous pouvez utiliser des profils de test ou des exemples de données d’entrée chargés à partir d’un fichier CSV/JSON, ou ajoutés manuellement pour prévisualiser son contenu.
+
+   Si vous avez inséré [contenu personnalisé](../../personalization/personalize.md), vous pourrez vérifier l’affichage de ce contenu dans le message. De plus, exploitez votre compte **Litmus** dans [!DNL Journey Optimizer] pour prévisualiser instantanément votre **rendu d&#39;e-mail** dans les clients de messagerie populaires. Vous pouvez ensuite vous assurer que le contenu de votre e-mail s&#39;affiche correctement et fonctionne correctement dans chaque boîte de réception. Découvrez comment tester et valider vos messages [dans cette section](../../content-management/preview-test.md).
 
 1. **Concevoir des parcours clients** pour offrir des expériences contextuelles personnalisées. [!DNL Journey Optimizer] vous permet de créer des cas d’utilisation d’orchestration en temps réel avec des données contextuelles stockées dans des événements ou des sources de données. Concevez des scénarios avancés à plusieurs étapes avec les fonctionnalités suivantes :
 
