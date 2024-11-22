@@ -5,17 +5,15 @@ title: Prise en main des canaux de communication dans [!DNL Adobe Journey Optimi
 description: Découvrez comment utiliser les canaux de communication  [!DNL Adobe Journey Optimizer] .
 role: User
 level: Beginner
-source-git-commit: d83339f8b6e02e6035b759b6b52bd18ea9a626e3
+exl-id: 5779bcee-49c0-4ffa-9b17-329ef458c96a
+source-git-commit: ac71350cd344845582e09fa039fb796e9408b048
 workflow-type: tm+mt
-source-wordcount: '411'
+source-wordcount: '410'
 ht-degree: 3%
 
 ---
 
-
 # Prise en main des canaux de communication [!DNL Adobe Journey Optimizer] {#get-started-email}
-
-## [!DNL Adobe Journey Optimizer] canaux {#overview}
 
 Dans le paysage marketing dynamique actuel, atteindre efficacement votre audience sur différentes plateformes est essentiel pour établir des relations durables et susciter un engagement. Cette section présente un aperçu complet des canaux de communication disponibles dans [!DNL Adobe Journey Optimizer], afin de vous aider à comprendre comment utiliser efficacement chaque canal dans vos stratégies marketing.
 
