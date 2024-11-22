@@ -6,10 +6,10 @@ topic: Content Management
 role: Admin
 level: Experienced
 exl-id: 1aff2f6f-914c-4088-afd8-58bd9edfe07d
-source-git-commit: bcccc7b385f031fba2c2b57ec62cae127eda8466
-workflow-type: ht
-source-wordcount: '1558'
-ht-degree: 100%
+source-git-commit: bf0a6fa496a08348be16896a7f2313882eb97c06
+workflow-type: tm+mt
+source-wordcount: '1073'
+ht-degree: 93%
 
 ---
 
@@ -104,11 +104,15 @@ Pour définir les paramètres de configuration de l’expérience basée sur du 
 1. Les conditions suivantes s’appliquent à l’URL de prévisualisation :
 
    * Si une URL de page unique est saisie, cette URL sera utilisée pour la prévisualisation. Il n’y a pas besoin de saisir une autre URL.
-   * Si une [règle de correspondance de pages](../web/web-configuration.md#web-page-matching-rule) est sélectionnée, vous devez saisir une **[!UICONTROL URL de création et de prévisualisation par défaut]** qui sera utilisée pour prévisualiser l’expérience dans le navigateur. [En savoir plus](../code-based/create-code-based.md#preview-on-device)
+   * Si une [page correspondant à la règle](../web/web-configuration.md#web-page-matching-rule) est sélectionnée, vous devez saisir une **[!UICONTROL URL de création et d’aperçu par défaut]** qui sera utilisée pour prévisualiser l’expérience dans un navigateur. [En savoir plus](test-code-based.md#preview-on-device)
 
      ![](assets/code_config_matching_rules_preview.png)
 
 1. Le champ **[!UICONTROL Emplacement sur la page]** spécifie la destination exacte à l’intérieur de la page à laquelle vous souhaitez que les personnes accèdent. Il peut s’agir d’une section spécifique sur une page dans la structure de navigation du site, telle que « bannière-produit » ou « rail-produit ».
+
+   >[!CAUTION]
+   >
+   >La chaîne ou le chemin saisi dans ce champ doit correspondre à celui déclaré dans l’application ou la mise en oeuvre de la page. Cela garantit que le contenu est diffusé à l’emplacement souhaité dans l’application ou la page spécifiée. [En savoir plus](code-based-surface.md#uri-composition)
 
    ![](assets/code_config_location_on_page.png)
 
@@ -132,7 +136,7 @@ Pour définir les paramètres de configuration d’expérience basée sur du cod
 
    ![](assets/code_config_3.png)
 
-1. Renseignez le champ **[!UICONTROL URL de prévisualisation]** pour activer les prévisualisations sur l’appareil. Cette URL informe le service de prévisualisation de l’URL spécifique à utiliser lors du déclenchement d’une prévisualisation sur un appareil. [En savoir plus](../code-based/create-code-based.md#preview-on-device)
+1. Renseignez le champ **[!UICONTROL URL de prévisualisation]** pour activer les prévisualisations sur l’appareil. Cette URL informe le service de prévisualisation de l’URL spécifique à utiliser lors du déclenchement d’une prévisualisation sur un appareil. [En savoir plus](test-code-based.md#preview-on-device)
 
    L’URL de prévisualisation est un lien profond configuré par le développeur ou la développeuse dans votre application. Cela garantit que toutes les URL correspondant au modèle de lien profond s’ouvriront dans l’application plutôt que dans un navigateur web mobile. Contactez le développeur ou la développeuse pour obtenir le schéma de lien profond configuré pour votre application.
 
@@ -160,73 +164,16 @@ Pour définir les paramètres de configuration d’expérience basée sur du cod
 
 1. Sélectionnez **[!UICONTROL Autre]** comme plateforme si votre implémentation n’est pas destinée au Web, à iOS ou à Android, ou si vous devez cibler des URI spécifiques.
 
-1. Saisissez l’**[!UICONTROL URI de surface]**. Un URI de surface est un identifiant unique correspondant à l’entité dans laquelle vous souhaitez diffuser votre expérience. [En savoir plus](#surface-definition)
+1. Saisissez l’**[!UICONTROL URI de surface]**. Un URI de surface est un identifiant unique correspondant à l’entité dans laquelle vous souhaitez diffuser votre expérience. [En savoir plus](code-based-surface.md#surface-uri)
 
    ![](assets/code_config_5.png)
 
    >[!CAUTION]
    >
-   >Veillez à saisir un URI de surface correspondant à celui utilisé dans votre propre mise en œuvre. Sinon, les modifications ne seront pas diffusées.
+   >Veillez à saisir un URI de surface correspondant à celui utilisé dans votre propre mise en œuvre. Dans le cas contraire, les modifications ne peuvent pas être diffusées. [En savoir plus](code-based-surface.md#uri-composition)
 
 1. **[!UICONTROL Ajoutez un autre URI de surface]** si nécessaire. Vous pouvez ajouter jusqu’à 10 URI.
 
    >[!NOTE]
    >
    >Lors de l’ajout de plusieurs URI, le contenu est diffusé vers tous les composants répertoriés.
-
-## Qu’est-ce qu’une surface ? {#surface-definition}
-
->[!CONTEXTUALHELP]
->id="ajo_admin_surface_uri"
->title="Ajouter l’URI de surface pour votre composant"
->abstract="Si votre mise en œuvre n’est pas destinée au Web, à iOS ou à Android, ou si vous devez cibler des URI spécifiques, saisissez un URI de surface, c’est-à-dire un identifiant unique qui dirige vers l’entité où vous souhaitez diffuser votre expérience. Veillez à saisir un URI de surface correspondant à celui utilisé dans votre propre mise en œuvre."
->additional-url="https://experienceleague.adobe.com/fr/docs/journey-optimizer/using/channels/code-based-experience/code-based-configuration#other" text="Création d’une configuration d’expérience basée sur du code pour d’autres plateformes"
-
-Une **surface** d’expérience basée sur du code est toute entité conçue pour l’interaction de la personne ou du système, qui est identifiée de manière unique par un **URI**. La surface est spécifiée dans l’implémentation de l’application et doit correspondre à celle référencée dans la configuration des canaux d’expérience basée sur du code.
-
-Une surface peut être considérée comme un conteneur à n’importe quel niveau de hiérarchie ayant une entité (point de contact) qui existe.
-
-* Il peut s’agir d’une page web, d’une application mobile, d’une appli de bureau, d’un emplacement de contenu spécifique au sein d’une entité plus grande (par exemple, une `div`) ou d’un modèle d’affichage non standard (par exemple, un kiosque ou une bannière d’application de bureau).<!--In retail, a kiosk is a digital display or small structure that businesses often place in high-traffic areas to engage customers.-->
-
-* Elle peut également s’étendre à des éléments spécifiques de conteneurs de contenu à des fins de non-affichage ou d’affichage abstrait (par exemple, des objets blob JSON fournis à des services).
-
-* Il peut également s’agir d’une surface de caractères génériques qui correspond à diverses définitions de surface client (par exemple, un emplacement d’image principale sur chaque page de votre site web peut se traduire en un URI de surface comme : web://mondomaine.com/*#image_principale).
-
-Lors de la création d’une configuration de canaux d’expérience basée sur du code, vous avez deux manières de spécifier la surface en fonction de la plateforme sélectionnée :
-
-* Pour les plateformes **[!UICONTROL Web]**, **[!UICONTROL iOS]** et **[!UICONTROL Android]**, vous devez saisir un **emplacement ou chemin** pour composer la surface.
-
-* Si la plateforme est **[!UICONTROL Autre]**, vous devez saisir l’**URI de surface** complet, comme dans les exemples ci-dessous.
-
-Un URI de surface sert d’identifiant précis orientant vers des éléments ou des composants de l’interface d’utilisation distincts au sein d’une application. Fondamentalement, un URI de surface est composé de plusieurs sections :
-
-1. **Type** : web, application mobile, ATM, kiosque, tvcd, service, etc.
-1. **Propriété** : URL de page ou bundle d’applications.
-1. **Conteneur** : emplacement sur l’activité page/application.
-
-Les tableaux ci-dessous répertorient quelques exemples de définition d’URI de surface pour divers appareils.
-
-**Web et mobile**
-
-| Type | URI | Description |
-| --------- | ----------- | ------- | 
-| Web | `web://domain.com/path/page.html#element` | Représente un élément individuel dans une page spécifique d’un domaine spécifique, où un élément peut être un libellé comme dans les exemples suivants : hero_banner, top_nav, menu, pied de page, etc. |
-| Application iOS | `mobileapp://com.vendor.bundle/activity#element` | Représente un élément spécifique dans une activité application native, tel qu’un bouton ou un autre élément de vue. |
-| Application Android | `mobileapp://com.vendor.bundle/#element` | Représente un élément spécifique dans une application native. |
-
-**Autres types d’appareils**
-
-| Type | URI | Description |
-| --------- | ----------- | ------- | 
-| Bureau | `desktop://com.vendor.bundle/#element` | Représente un élément spécifique dans une application, tel qu’un bouton, un menu, une bannière principale, etc. |
-| Application TV | `tvcd://com.vendor.bundle/#element` | Représente un élément spécifique dans un identifiant de bundle spécifique à l’application d’un appareil connecté à la télévision ou à la télévision intelligente. |
-| Service | `service://servicename/#element` | Représente un processus côté serveur ou une autre entité manuelle. |
-| Kiosque | `kiosk://location/screen#element` | Exemple de types de surfaces supplémentaires potentiels pouvant être ajoutés facilement. |
-| ATM | `atm://location/screen#element` | Exemple de types de surfaces supplémentaires potentiels pouvant être ajoutés facilement. |
-
-**Surfaces de caractères génériques**
-
-| Type | URI | Description |
-| --------- | ----------- | ------- | 
-| Caractère générique web | `wildcard:web://domain.com/*#element` | Surface de caractères génériques : représente un élément individuel dans chacune des pages sous un domaine spécifique. |
-| Caractère générique web | `wildcard:web://*domain.com/*#element` | Surface de caractères génériques : représente un élément individuel dans chacune des pages sous tous les domaines se terminant par « domain.com ». |

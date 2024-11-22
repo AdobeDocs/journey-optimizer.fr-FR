@@ -6,10 +6,10 @@ topic: Content Management
 role: Developer
 level: Experienced
 exl-id: e5ae8b4e-7cd2-4a1d-b2c0-8dafd5c4cdfd
-source-git-commit: c3300b240bd0dc0563ed6d4e6de40bd9fa36a92e
-workflow-type: ht
-source-wordcount: '799'
-ht-degree: 100%
+source-git-commit: bf0a6fa496a08348be16896a7f2313882eb97c06
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -41,7 +41,7 @@ Si vous disposez d’une implémentation côté client, vous pouvez utiliser l�
 
 1. Le [SDK Web](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=fr){target="_blank"} est inclus dans la page.
 
-1. Vous devez utiliser la commande `sendEvent` et spécifier l’[URI de surface](code-based-configuration.md#surface-definition)<!--( or location/path)--> pour récupérer le contenu de personnalisation.
+1. Vous devez utiliser la commande `sendEvent` et spécifier l’[URI de surface](code-based-surface.md)<!--( or location/path)--> pour récupérer le contenu de personnalisation.
 
    ```javascript
    alloy("sendEvent", {

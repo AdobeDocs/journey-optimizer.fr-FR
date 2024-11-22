@@ -5,7 +5,7 @@ feature: Preview, Proofs
 role: User
 level: Beginner
 exl-id: 6477270c-0309-411a-8254-c7ffc4419492
-source-git-commit: 03cb3298c905766bc059e82c58969a2111379345
+source-git-commit: bf0a6fa496a08348be16896a7f2313882eb97c06
 workflow-type: tm+mt
 source-wordcount: '261'
 ht-degree: 75%
@@ -50,5 +50,5 @@ Pour prévisualiser votre contenu à l’aide de profils de test, procédez comm
 >
 >Si les détails de configuration contiennent une erreur, cliquez sur le bouton **[!UICONTROL Afficher les détails de configuration]**. [En savoir plus](../email/surface-personalization.md#check-configuration)
 
-Lors de la création d’expériences basées sur du code, vous pouvez prévisualiser votre contenu personnalisé directement dans votre navigateur ou sur vos appareils mobiles pour une simulation réelle. [En savoir plus](../code-based/create-code-based.md#preview-on-device)
+Lors de la création d’expériences basées sur du code, vous pouvez prévisualiser votre contenu personnalisé directement dans votre navigateur ou sur vos appareils mobiles pour une simulation réelle. [En savoir plus](../code-based/test-code-based.md#preview-on-device)
 

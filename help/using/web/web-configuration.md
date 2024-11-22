@@ -6,8 +6,8 @@ topic: Content Management
 role: Admin
 level: Experienced
 exl-id: 2161baf0-38b7-4397-bffe-083929e8033a
-source-git-commit: e3c597f66436e8e0e22d06f1905fc7ca9a9dd570
-workflow-type: ht
+source-git-commit: bf0a6fa496a08348be16896a7f2313882eb97c06
+workflow-type: tm+mt
 source-wordcount: '935'
 ht-degree: 100%
 
@@ -67,7 +67,11 @@ Par exemple, vous pouvez appliquer les modifications d’une bannière principal
 
 1. Lors de la configuration de votre expérience [web](#web-configuration) ou [basée sur du code](../code-based/code-based-configuration.md), sélectionnez **[!UICONTROL Règle de correspondance de pages]**.
 
-1. Définissez vos critères pour les champs **[!UICONTROL Domaine]** et **[!UICONTROL Page]**. Consultez les opérateurs disponibles dans [cette section](#available-operators).
+1. Définissez vos critères pour les champs **[!UICONTROL Domaine]** et **[!UICONTROL Page]**.
+
+   >[!NOTE]
+   >
+   >Consultez les opérateurs disponibles dans [cette section](#available-operators).
 
    Par exemple, si vous souhaitez modifier des éléments qui s’affichent sur toutes les pages de produits pour femmes de votre site web Luma, sélectionnez **[!UICONTROL Domaine]** > **[!UICONTROL Commence par]** > `luma` et **[!UICONTROL Page]** > **[!UICONTROL Contient]** > `women`.
 
