@@ -9,7 +9,7 @@ exl-id: 1b73b398-050a-40bb-a8ae-1c66e3e26ce8
 source-git-commit: 616e1dd9fbfd029f7209356d5c19cfff9d4b4f06
 workflow-type: tm+mt
 source-wordcount: '719'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -32,7 +32,7 @@ Une stratégie de sélection est réutilisable et est constituée d’une collec
 
 ## Accéder aux stratégies de sélection et les gérer
 
-1. Accédez à **[!UICONTROL Prise de décision]** > **[!UICONTROL Configuration de la stratégie]** > **[!UICONTROL Stratégies de sélection]**.
+1. Accédez à **[!UICONTROL Prise de décision]** > **[!UICONTROL Configuration de la stratégie]** > **[!UICONTROL Stratégies de sélection]**.
 
 1. Toutes les stratégies de sélection créées jusqu’à présent y sont répertoriées. Des filtres sont disponibles pour vous aider à récupérer les stratégies en fonction de la méthode de classement.
 

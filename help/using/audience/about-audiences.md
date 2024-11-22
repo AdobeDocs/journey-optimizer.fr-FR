@@ -12,7 +12,7 @@ exl-id: 10d2de34-23c1-4a5e-b868-700b462312eb
 source-git-commit: a98312d9ac5a457bfd6789bf79ad80a24d894a0b
 workflow-type: tm+mt
 source-wordcount: '2011'
-ht-degree: 98%
+ht-degree: 99%
 
 ---
 
@@ -42,7 +42,7 @@ Les audiences peuvent être générées à l’aide de différentes méthodes :
 
 * **Composition d’audiences fédérées** : fédérez directement les jeux de données de votre entrepôt de données existant pour créer et enrichir les audiences et les attributs Adobe Experience Platform dans un seul système. Veuillez lire le guide sur la [Composition d’audiences fédérées](https://experienceleague.adobe.com/fr/docs/federated-audience-composition/using/home).
 
-Pour plus d’informations sur l’utilisation des audiences de chargement personnalisé et de composition d’audience fédérée dans [!DNL Journey Optimizer], consultez [cette section](custom-upload-fac.md).
+Pour plus d’informations sur l’utilisation d’audiences avec chargement personnalisé et d’audiences avec composition d’audiences fédérées dans [!DNL Journey Optimizer], consultez [cette section](custom-upload-fac.md).
 
 ## Cibler des audiences dans [!DNL Journey Optimizer] {#segments-in-journey-optimizer}
 

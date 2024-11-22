@@ -11,7 +11,7 @@ exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
 source-git-commit: 594bb029c7d8b711fe60697c5c2e06d9943189fa
 workflow-type: tm+mt
 source-wordcount: '1374'
-ht-degree: 95%
+ht-degree: 98%
 
 ---
 
@@ -253,13 +253,13 @@ Pour modifier la langue :
 
 >[!CONTEXTUALHELP]
 >id="ajo_exd_decision_attribute"
->title="Sélectionner des attributs de décision dans le catalogue"
+>title="Sélectionner des attributs de décision dans un catalogue"
 >abstract="Les attributs de décision sont stockés dans le schéma du catalogue. Sélectionnez un attribut que vous souhaitez utiliser ici dans le catalogue sélectionné."
 
 >[!CONTEXTUALHELP]
 >id="ajo_exd_decision_policy"
 >title="Politique de décision"
->abstract="Une stratégie de décision vous permet de sélectionner les meilleurs éléments du moteur de décision et de les diffuser à chaque audience."
+>abstract="Une politique de décision vous permet de sélectionner les meilleurs éléments du moteur de décision et de les diffuser à chaque audience."
 
 >[!CONTEXTUALHELP]
 >id="ajo_exd_placements"

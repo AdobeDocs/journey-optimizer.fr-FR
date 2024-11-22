@@ -35,7 +35,7 @@ Avant de créer une décision, vérifiez que les composants suivants ont été c
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_decision_details"
 >title="Détails de la décision d’offres"
->abstract="Indiquez le nom de la décision et définissez une date et une heure de début et de fin si nécessaire. Pour attribuer des libellés d’utilisation des données personnalisées ou de base à la décision, sélectionnez **[!UICONTROL Gérer l’accès]**."
+>abstract="Indiquez le nom de la décision et définissez une date et une heure de début et de fin si nécessaire. Pour attribuer des libellés d’utilisation des données personnalisés ou de base à la décision, sélectionnez **[!UICONTROL Gérer l’accès]**."
 
 1. Accédez à la liste des décisions, puis cliquez sur **[!UICONTROL Créer une décision]**.
 
@@ -52,17 +52,17 @@ Avant de créer une décision, vérifiez que les composants suivants ont été c
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_decision_scopes"
 >title="Portées de décision"
->abstract="Configurez une ou plusieurs portées pour la décision d’offres afin de déterminer les offres à afficher. Pour ce faire, sélectionnez un placement et un critère d’évaluation associé à cet placement."
+>abstract="Configurez une ou plusieurs portées pour la décision d’offres afin de déterminer les offres à afficher. Pour ce faire, sélectionnez un emplacement et un critère d’évaluation associé à cet emplacement."
 
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_decision_placement"
 >title="Emplacement"
->abstract="Sélectionnez un placement où les offres seront diffusées."
+>abstract="Sélectionnez l’emplacement où les offres seront diffusées."
 
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_decision_evaluation"
 >title="Critères d’évaluation"
->abstract="Chaque critère d’évaluation consiste en une collection d’offres associée à une contrainte d’éligibilité et à une méthode de classement permettant de déterminer les offres à afficher dans le placement. La séquence de critères d’évaluation détermine la collection qui sera évaluée en premier. Au moins un critère d’évaluation est requis."
+>abstract="Les critères d’évaluation consistent en une collection d’offres associée à une contrainte d’éligibilité et à une méthode de classement permettant de déterminer les offres à afficher dans l’emplacement. La séquence de critères d’évaluation détermine la collection qui sera évaluée en premier. Au moins un critère d’évaluation est requis."
 
 1. Sélectionnez un emplacement dans la liste déroulante. Il sera ajouté à la première portée de décision de votre décision.
 
@@ -309,9 +309,9 @@ La sélection se présente comme suit :
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_decision_fallback"
 >title="Ajouter une offre de secours"
->abstract="Une fois que vous avez défini les portées de décision, définissez l’offre de secours qui sera présentée en dernier recours aux clients qui ne correspondent pas aux règles d’éligibilité et contraintes des offres."
+>abstract="Une fois que vous avez défini les portées de décision, définissez l’offre de secours qui sera présentée en dernier recours aux clientes et aux clients qui ne correspondent pas aux règles d’éligibilité et aux contraintes des offres."
 
-Une fois que vous avez défini les portées de décision, définissez l’offre de secours qui sera présentée en dernier recours aux clients qui ne correspondent pas aux règles d’éligibilité et contraintes des offres.
+Une fois que vous avez défini les portées de décision, définissez l’offre de secours qui sera présentée en dernier recours aux clientes et aux clients qui ne correspondent pas aux règles d’éligibilité et aux contraintes des offres.
 
 Pour ce faire, sélectionnez-la dans la liste des offres de secours disponibles pour les emplacements définis dans la décision, puis cliquez sur **[!UICONTROL Suivant]**.
 

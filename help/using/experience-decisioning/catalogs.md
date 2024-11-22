@@ -9,7 +9,7 @@ exl-id: 2d118f5a-32ee-407c-9513-fe0ebe3ce8f0
 source-git-commit: 616e1dd9fbfd029f7209356d5c19cfff9d4b4f06
 workflow-type: tm+mt
 source-wordcount: '320'
-ht-degree: 80%
+ht-degree: 89%
 
 ---
 
@@ -40,7 +40,7 @@ Pour accéder au schéma du catalogue où les attributs des éléments de décis
 
    >[!CAUTION]
    >
-   >Pour l’instant, la prise de décision prend exclusivement en charge les types de données suivants : chaîne, entier, booléen, date, dateTime et ressource de prise de décision. Aucun champ ne se trouvant dans ces types de données ne pourra pas être utilisé lors de la création d’un élément de décision ou d’un catalogue.
+   >Pour l’instant, la prise de décision prend exclusivement en charge les types de données suivants : chaîne, entier, booléen, date, DateHeure et ressource de prise de décision. Aucun champ ne se trouvant dans ces types de données ne pourra pas être utilisé lors de la création d’un élément de décision ou d’un catalogue.
 
    La valeur saisie sur un attribut avec l’attribut de ressource de prise de décision est une URL publique. La plupart du temps, cela pointe vers une image.
 

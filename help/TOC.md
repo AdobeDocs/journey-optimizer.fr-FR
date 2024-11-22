@@ -8,7 +8,7 @@ solution: Journey Optimizer
 source-git-commit: 2ca6659319482db09efd86ded418b151a022442c
 workflow-type: tm+mt
 source-wordcount: '2168'
-ht-degree: 97%
+ht-degree: 99%
 
 ---
 
@@ -187,7 +187,7 @@ ht-degree: 97%
       + [Prévisualiser votre contenu](using/content-management/preview.md)
       + [Envoyer des BAT d’e-mail](using/content-management/proofs.md)
       + [Tester le rendu des e-mails](using/content-management/rendering.md)
-      + [Test du contenu à l’aide d’exemples de données d’entrée (Beta)](using/test-approve/simulate-sample-input.md)
+      + [Tester votre contenu à l’aide d’exemples de données d’entrée (version bêta)](using/test-approve/simulate-sample-input.md)
       + [Rapport de spam des e-mails](using/content-management/spam-report.md)
    + Approuver les parcours et les campagnes {#approve}
       + [Commencer avec les approbations](using/test-approve/gs-approval.md)
@@ -267,7 +267,7 @@ ht-degree: 97%
       + [Créer des expériences web](using/web/create-web.md)
       + Créer des pages web {#author-web-pages}
          + [Utiliser le concepteur web](using/web/web-visual-editor.md)
-         + [Utilisation de l’éditeur non visuel](using/web/web-non-visual-editor.md)
+         + [Utiliser l’éditeur non visuel](using/web/web-non-visual-editor.md)
          + [Gérer les modifications](using/web/manage-web-modifications.md)
          + [Surveiller vos expériences web](using/web/monitor-web-experiences.md)
          + [Créer des applications monopage](using/web/web-spa.md)
@@ -310,7 +310,7 @@ ht-degree: 97%
    + Utiliser du contenu multilingue{#content-multilingual}
       + [Commencer avec le contenu multilingue](using/content-management/multilingual-gs.md)
       + [Créer un paramètre régional](using/content-management/multilingual-locale.md)
-      + [Création d’un fournisseur de langues](using/content-management/multilingual-provider.md)
+      + [Créer un fournisseur de langue](using/content-management/multilingual-provider.md)
       + [Créer du contenu multilingue avec traduction manuelle](using/content-management/multilingual-manual.md)
       + [Créer du contenu multilingue avec traduction automatisée](using/content-management/multilingual-automated.md)
    + Utiliser une expérience de contenu {#content-experiment}
@@ -326,7 +326,7 @@ ht-degree: 97%
       + [Commencer avec la personnalisation](using/personalization/personalize.md)
       + [Contextes de personnalisation](using/personalization/personalization-contexts.md)
       + [Syntaxe de personnalisation](using/personalization/personalization-syntax.md)
-      + [Utilisation des données Adobe Experience Platform pour la personnalisation (Beta)](using/personalization/lookup-aep-data.md)
+      + [Utiliser les données Adobe Experience Platform pour la personnalisation (version bêta)](using/personalization/lookup-aep-data.md)
       + Utiliser l’éditeur de personnalisation {#expression-editor}
          + [À propos de l’éditeur de personnalisation](using/personalization/personalization-build-expressions.md)
          + [Ajouter des attributs aux favoris](using/personalization/personalization-favorites.md)
@@ -451,7 +451,7 @@ ht-degree: 97%
 + Fonctionnalités de décision {#decisioning}
    + [Prise en main des fonctionnalités de décision](using/experience-decisioning/gs-decision.md)
    + Prise de décision {#experience-decisioning}
-      + [Prise en main de la prise de décision](using/experience-decisioning/gs-experience-decisioning.md)
+      + [Commencer avec la prise de décision](using/experience-decisioning/gs-experience-decisioning.md)
       + Référence de l’API{#api-reference}
          + Éléments de décision{#decision-items}
             + [Créer des éléments de décision](using/experience-decisioning/api-reference/decisions-items/create.md)
@@ -659,7 +659,7 @@ ht-degree: 97%
    + [Prise en charge de l’archivage](using/configuration/archiving-support.md)
    + [Modifier les adresses d’exécution](using/configuration/primary-email-addresses.md)
    + [Configurer des règles commerciales](using/configuration/frequency-rules.md)
-   + [Utilisation des jeux de règles (LA)](using/configuration/rule-sets.md)
+   + [Utiliser des jeux de règles (disponibilité limitée)](using/configuration/rule-sets.md)
    + Configuration des parcours {#configure-journeys}
       + [À propos des sources de données, des événements et des actions](using/configuration/about-data-sources-events-actions.md)
       + Intégration aux systèmes externes {#external-systems}

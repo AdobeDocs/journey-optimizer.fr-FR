@@ -12,7 +12,7 @@ exl-id: 38e82eb2-67d9-4a7d-8c1f-77dab20bcec4
 source-git-commit: 1b48cb825eb1f3110a27389d1e780cb1d7e80fad
 workflow-type: tm+mt
 source-wordcount: '2041'
-ht-degree: 74%
+ht-degree: 98%
 
 ---
 
@@ -30,13 +30,13 @@ ht-degree: 74%
 
 >[!IMPORTANT]
 >
->Pour le flux automatisé, les utilisateurs ont besoin d’autorisations liées à la fonctionnalité **[!UICONTROL Service de traduction]**. [En savoir plus sur les autorisations](../administration/permissions.md)
+>Pour le flux automatisé, les utilisateurs et les utilisatrices ont besoin d’autorisations liées à la fonctionnalité **[!UICONTROL Service de traduction]**. [En savoir plus sur les autorisations](../administration/permissions.md)
 
 Avec le flux automatisé, vous pouvez simplement sélectionner la langue cible et le fournisseur de langues. Votre contenu est alors directement envoyé pour être traduit, prêt à être révisé une fois terminé.
 
 Pour créer du contenu multilingue à l’aide de la traduction automatisée, procédez comme suit :
 
-1. [Ajout de votre fournisseur](multilingual-provider.md)
+1. [Ajouter votre fournisseur](multilingual-provider.md)
 
 1. [Ajouter des paramètres régionaux (facultatif)](multilingual-locale.md)
 
@@ -46,7 +46,7 @@ Pour créer du contenu multilingue à l’aide de la traduction automatisée, pr
 
 1. [Créer un contenu multilingue](#create-a-multilingual-campaign)
 
-1. [Vérifier votre tâche de traduction (facultatif)](#review-translation-project)
+1. [Réviser votre tâche de traduction (facultatif)](#review-translation-project)
 
 ## Créer un projet de traduction {#translation-project}
 
@@ -108,12 +108,12 @@ Votre projet de traduction est maintenant créé et peut être utilisé dans une
 >[!CONTEXTUALHELP]
 >id="ajo_multi_custom_conditional"
 >title="Paramètres conditionnels personnalisés"
->abstract="Les paramètres conditionnels personnalisés sont des ensembles de règles qui déterminent dans quels paramètres régionaux votre contenu sera affiché, selon des critères spécifiques. Ces paramètres vous permettent de contrôler l’affichage du contenu en fonction de facteurs tels que l’emplacement des personnes, les préférences linguistiques ou d’autres éléments contextuels."
+>abstract="Les paramètres conditionnels personnalisés sont des ensembles de règles qui déterminent dans quels paramètres régionaux votre contenu sera affiché, selon des critères spécifiques. Ces paramètres vous permettent de contrôler l’affichage du contenu en fonction de facteurs tels que l’emplacement de la personne, les préférences linguistiques ou d’autres éléments contextuels."
 
 >[!CONTEXTUALHELP]
 >id="ajo_multi_fallback"
 >title="Préférences de secours"
->abstract="Le choix d’une préférence de secours est essentiel pour améliorer l’expérience client. Si aucun secours n’est sélectionné et qu’un profil ne répond pas aux exigences, le contenu n’est pas diffusé. En sélectionnant une solution de secours appropriée, vous garantissez une diffusion de contenu cohérente, même si les profils ne correspondent pas aux critères initiaux."
+>abstract="Le choix d’une préférence de secours est essentiel pour améliorer l’expérience d’utilisation. Si aucune solution secours n’est sélectionnée et qu’un profil ne répond pas aux exigences, le contenu n’est pas diffusé. En sélectionnant une solution de secours appropriée, vous garantissez une diffusion de contenu cohérente, même si les profils ne correspondent pas aux critères initiaux."
 
 Dans cette section, vous pouvez définir vos différents paramètres régionaux pour gérer votre contenu multilingue. Vous pouvez également choisir l’attribut que vous souhaitez utiliser pour rechercher des informations relatives à la langue du profil.
 
@@ -127,61 +127,61 @@ Dans cette section, vous pouvez définir vos différents paramètres régionaux 
 
 1. Dans le champ **[!UICONTROL Projet de traduction]**, cliquez sur **[!UICONTROL Modifier]** et sélectionnez le **[!UICONTROL projet de traduction]** créé précédemment.
 
-   Les **[!UICONTROL Paramètres régionaux]** précédemment configurés sont automatiquement importés.
+   Les **[!UICONTROL paramètres régionaux]** précédemment configurés sont automatiquement importés.
 
-1. Sélectionnez une **[!UICONTROL Préférences de secours]** pour définir une option de sauvegarde lorsqu’un profil ne répond pas aux critères nécessaires pour la diffusion de contenu.
+1. Sélectionnez **[!UICONTROL Préférences de secours]** pour définir une option de sauvegarde au cas où un profil ne répondrait pas aux critères nécessaires pour la diffusion de contenu.
 
-   Notez que si aucune option de secours n’est sélectionnée, la campagne ou le parcours ne sera pas envoyé.
+   Notez que si aucune option de secours n’est sélectionnée, l’envoi de la campagne ou du parcours ne sera pas effectué.
 
    ![](assets/language_settings_2.png)
 
-1. Choisissez votre préférence d&#39;envoi parmi les options suivantes :
+1. Choisissez votre préférence d’envoi parmi les options suivantes :
 
    * **[!UICONTROL Sélectionner les attributs de préférence de langue du profil]**
    * **[!UICONTROL Créer des règles conditionnelles personnalisées]**
 
-1. Si vous sélectionnez **[!UICONTROL Sélectionner les attributs de préférence de langue de profil]**, choisissez l’attribut approprié dans le menu **[!UICONTROL Attributs de préférence de langue de profil]** pour rechercher les informations de langue de profil.
+1. Si vous sélectionnez **[!UICONTROL Sélectionner les attributs de préférence de langue de profil]**, choisissez l’attribut approprié dans le menu **[!UICONTROL Attributs de préférence de langue de profil]** pour rechercher les informations de langue d’un profil.
 
    ![](assets/multilingual-settings-3.png)
 
-1. Si vous sélectionnez **[!UICONTROL Créer des règles conditionnelles personnalisées]**, sélectionnez le paramètre régional pour lequel vous souhaitez créer des conditions. Créez ensuite des règles basées sur des facteurs tels que l’emplacement de l’utilisateur, les préférences linguistiques ou d’autres éléments contextuels.
+1. Si vous sélectionnez **[!UICONTROL Créer des règles conditionnelles personnalisées]**, sélectionnez le paramètre régional pour lequel vous souhaitez créer des conditions. Créez ensuite des règles basées sur des facteurs tels que l’emplacement de l’utilisateur ou de l’utilisatrice, les préférences linguistiques ou d’autres éléments contextuels.
 
    ![](assets/language_settings_3.png)
 
-1. Commencez à créer des conditions en ajoutant un attribut, un événement ou une audience pour définir votre groupe cible.
+1. Commencez à créer des conditions en ajoutant un attribut, un événement ou une audience pour définir votre population cible.
 
    >[!IMPORTANT]
    >
-   >Les données contextuelles sont disponibles exclusivement pour les canaux web, in-app, d’expérience basée sur le code et les cartes de contenu. S&#39;il est utilisé pour les canaux Email, SMS, Notification push ou Courrier, sans attributs supplémentaires, la campagne ou le parcours sera envoyé dans la langue de la première option de la liste.
+   >Les données contextuelles sont disponibles exclusivement pour les canaux web, in-app, d’expérience basée sur du code et de cartes de contenu. Si celles-ci sont utilisées pour des canaux E-mail, SMS, Notification Push ou Courrier, sans attributs supplémentaires, l’envoi de la campagne ou du parcours sera effectué dans la langue de la première option de la liste.
 
    ![](assets/multilingual-settings-6.png)
 
-   +++Conditions préalables pour utiliser les événements contextuels dans vos conditions
+   +++Conditions préalables pour utiliser des événements contextuels dans vos conditions
 
-   Lorsque les utilisateurs affichent votre contenu, une demande de personnalisation est envoyée avec l’événement d’expérience. Pour exploiter les données contextuelles dans vos conditions, vous devez joindre des données supplémentaires au payload de la demande de personnalisation. Pour ce faire, vous devez créer une règle dans la collecte de données Adobe Experience Platform pour spécifier : SI une demande de personnalisation est envoyée, alors joignez des données supplémentaires à la demande, en définissant l’attribut à associer au champ de langue de votre schéma.
+   Lorsque des utilisateurs et des utilisatrices affichent votre contenu, une demande de personnalisation est envoyée avec l’événement d’expérience. Pour exploiter les données contextuelles dans vos conditions, vous devez joindre des données supplémentaires au payload de la demande de personnalisation. Pour ce faire, vous devez créer une règle dans la collecte de données Adobe Experience Platform pour spécifier : IF (si) une demande de personnalisation est envoyée, THEN (alors) joindre des données supplémentaires à la demande, définissant ainsi l’attribut à associer au champ de langue de votre schéma.
 
    >[!NOTE]
    >
-   >Ces conditions préalables sont requises uniquement pour les canaux Carte de contenu et In-App.
+   >Ces conditions préalables sont requises uniquement pour les canaux Cartes de contenu et In-app.
 
-   1. Dans la collecte de données Adobe Experience Platform, accédez au menu **[!UICONTROL Règles]** et créez une nouvelle règle. Des informations détaillées sur la création de règles sont disponibles dans la [!DNL Adobe Experience Platform] [documentation sur la collecte de données](https://experienceleague.adobe.com/en/docs/experience-platform/collection/e2e#create-a-rule){target="_blank"}
+   1. Dans la collecte de données Adobe Experience Platform, accédez au menu **[!UICONTROL Règles]** et créez une règle. Des informations détaillées sur la création de règles sont disponibles dans la [Documentation [!DNL Adobe Experience Platform] sur la collecte de données](https://experienceleague.adobe.com/fr/docs/experience-platform/collection/e2e#create-a-rule){target="_blank"}.
 
    2. Dans la section **[!UICONTROL IF]** de la règle, ajoutez un événement configuré comme ci-dessous :
 
       ![](assets/multilingual-experience-events-rule-if.png)
 
-      * Sélectionnez l’ **[!UICONTROL extension]** que vous utilisez.
-      * Dans le champ **[!UICONTROL Event type]** , sélectionnez &quot;AEP Request Event&quot;.
-      * Dans le volet de droite, sélectionnez &quot;XDM Event Type equals personalization.request&quot;.
+      * Sélectionnez l’**[!UICONTROL extension]** que vous utilisez.
+      * Dans le champ **[!UICONTROL Type d’événement]**, sélectionnez « Événement de demande AEP ».
+      * Dans le volet de droite, sélectionnez « Le type d’événement XDM est égal à personalization.request ».
       * Cliquez sur le bouton **[!UICONTROL Conserver les modifications]** pour confirmer.
 
    3. Dans la section **[!UICONTROL THEN]** de la règle, ajoutez une action configurée comme ci-dessous :
 
       ![](assets/multilingual-experience-events-rule-then.png)
 
-      * Sélectionnez l’ **[!UICONTROL extension]** que vous utilisez.
-      * Dans le champ **[!UICONTROL Type d’action]**, sélectionnez &quot;Joindre des données&quot;.
-      * Dans la section de la payload JSON, assurez-vous que l’attribut utilisé pour récupérer la langue à utiliser (dans l’exemple ci-dessous &quot;language&quot;) correspond au nom de l’attribut spécifié dans le schéma dans lequel votre flux de données de collecte de données est en cours d’exécution.
+      * Sélectionnez l’**[!UICONTROL extension]** que vous utilisez.
+      * Dans le champ **[!UICONTROL Type d’action]**, sélectionnez « Joindre des données ».
+      * Dans la section du payload JSON, assurez-vous que l’attribut utilisé pour récupérer la langue à utiliser (dans l’exemple ci-dessous « langue ») correspond au nom de l’attribut spécifié dans le schéma dans lequel votre train de données de collecte de données est en cours d’exécution.
 
         ```JSON
         {
@@ -218,7 +218,7 @@ Notez qu’une fois vos préférences linguistiques configurées, vous n’aurez
 
 >[!AVAILABILITY]
 >
-> L’aperçu des expériences basées sur le code et le contenu des cartes de contenu ne sont actuellement pas disponibles avec le flux automatisé.
+> La prévisualisation des expériences basées sur le code et le contenu des cartes de contenu ne sont actuellement pas disponibles avec le flux automatisé.
 
 Une fois que vous avez configuré votre projet de traduction et les paramètres de langue, vous pouvez créer votre campagne ou votre parcours et personnaliser votre contenu pour vos différents paramètres régionaux.
 

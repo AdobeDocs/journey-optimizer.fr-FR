@@ -1,5 +1,5 @@
 ---
-title: Cas pratique de prise de décision
+title: Cas d’utilisation de prise de décision
 description: Découvrez comment créer des décisions à l’aide d’expériences avec le canal basé sur le code.
 feature: Decisioning
 topic: Integrations
@@ -8,11 +8,11 @@ level: Intermediate, Experienced
 source-git-commit: 616e1dd9fbfd029f7209356d5c19cfff9d4b4f06
 workflow-type: tm+mt
 source-wordcount: '342'
-ht-degree: 75%
+ht-degree: 77%
 
 ---
 
-# Cas pratique de prise de décision {#experience-decisioning-uc}
+# Cas d’utilisation de prise de décision {#experience-decisioning-uc}
 
 Dans ce cas pratique, vous créez une campagne dans laquelle vous définissez deux traitements de diffusion : chacun contenant une stratégie de décision différente afin de mesurer celle qui fonctionne le mieux pour votre audience cible.
 

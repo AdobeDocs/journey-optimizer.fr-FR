@@ -1,6 +1,6 @@
 ---
-title: Prise en main de la prise de décision
-description: En savoir plus sur la prise de décision
+title: Commencer avec la prise de décision
+description: En savoir plus sur la prise de décisions
 feature: Decisioning
 topic: Integrations
 role: User
@@ -9,17 +9,17 @@ exl-id: 4c57dbf9-b2a4-42da-8aa3-5a1b3a475a32
 source-git-commit: 616e1dd9fbfd029f7209356d5c19cfff9d4b4f06
 workflow-type: tm+mt
 source-wordcount: '609'
-ht-degree: 45%
+ht-degree: 56%
 
 ---
 
-# Prise en main de la prise de décision {#get-started-experience-decisioning}
+# Commencer avec la prise de décision {#get-started-experience-decisioning}
 
-## Présentation de la prise de décision {#about}
+## Qu’est-ce que la prise de décision ? {#about}
 
-La prise de décision simplifie la personnalisation en offrant un catalogue centralisé d’offres marketing connues sous le nom d’« éléments de décision » et un moteur de décision sophistiqué. Ce moteur tire parti des règles et des critères de classement pour sélectionner et présenter les éléments de décision les plus pertinents à chaque individu.
+La prise de décision simplifie la personnalisation en offrant un catalogue centralisé d’offres marketing connues sous le nom d’« éléments de décision » et un moteur de décision sophistiqué. Ce moteur tire parti des règles et des critères de classement pour sélectionner et présenter les éléments de décision les plus pertinents à chaque personne.
 
-Ces éléments de décision sont intégrés de manière transparente à un large éventail de surfaces entrantes grâce au [nouveau canal d’expérience basé sur le code](https://experienceleague.adobe.com/fr/docs/journey-optimizer/using/code-based-experience/get-started-code-based), désormais accessible dans les campagnes Journey Optimizer. Les stratégies de décision ne peuvent être utilisées que dans des campagnes d’expérience basées sur du code.
+Ces éléments de décision sont intégrés de manière transparente à un large éventail de surfaces entrantes grâce au [nouveau canal d’expérience basé sur le code](https://experienceleague.adobe.com/fr/docs/journey-optimizer/using/code-based-experience/get-started-code-based), désormais accessible dans les campagnes Journey Optimizer. Les politiques de décision, dans la prise de décision, ne peuvent être utilisées que dans des campagnes d’expérience basée sur du code.
 
 ## Mécanismes de sécurisation et limitations {#guardrails}
 
@@ -41,11 +41,11 @@ Pour garantir une utilisation optimale de la prise de décision, gardez à l’e
 * **Niveaux d’imbrication** : la profondeur d’imbrication est limitée à 30 niveaux. Ceci est mesuré en comptant les parenthèses fermantes `)` dans la chaîne PQL.
 * **Taille de chaîne de formule** : la taille d’une chaîne de règle peut aller jusqu’à 8 Ko pour les caractères codés en UTF-8. Cela équivaut à 8 000 caractères ASCII (1 octet chacun) ou 2 000 à 4 000 caractères non ASCII (2 à 4 octets chacun).
 
-## Étapes clés de prise de décision {#steps}
+## Étapes clés de la prise de décision {#steps}
 
-Les principales étapes à suivre pour utiliser le service de prise de décision sont les suivantes :
+Les principales étapes pour utiliser la prise de décision sont les suivantes :
 
-1. **Attribuez les autorisations appropriées**. La prise de décision n’est disponible que pour les utilisateurs ayant accès à un **[!UICONTROL rôle]** lié à la prise de décision, tel que les gestionnaires de décision. Si vous ne pouvez pas accéder à la prise de décision, vos autorisations doivent être étendues.
+1. **Attribuez les autorisations appropriées**. La prise de décision n’est disponible que pour les utilisateurs et les utilisatrices ayant accès à un **[!UICONTROL rôle]** associé à la prise de décision, comme les Gestionnaires de décisions. Si vous ne pouvez pas accéder à la prise de décision, vos autorisations doivent être étendues.
 
    +++Découvrir comment attribuer le rôle de personne gestionnaire de décision
 

@@ -9,7 +9,7 @@ exl-id: 25c2c448-9380-47b0-97c5-16d9afb794c5
 source-git-commit: 4acb6777994c9f4252d106fe8e9e5405e73c9349
 workflow-type: tm+mt
 source-wordcount: '1783'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -49,7 +49,7 @@ Pour ajouter une activité **expérience basée sur du code** à un parcours, pr
 
 1. Sélectionnez le bouton **[!UICONTROL Modifier le contenu]** et modifiez votre contenu selon vos besoins à l’aide de l’éditeur de personnalisation. [En savoir plus](#edit-code)
 
-   Vous pouvez également utiliser un modèle de contenu existant comme base pour le contenu de votre code. Notez que les modèles disponibles pour le choix sont définis sur HTML ou JSON en fonction de la configuration de canal choisie précédemment. [Découvrez comment utiliser les modèles de contenu](../content-management/use-content-templates.md)
+   Vous pouvez également utiliser un modèle de contenu existant comme base pour le contenu de votre code. Notez que les modèles disponibles pouvant être choisis sont définis sur HTML ou JSON en fonction de la configuration de canal choisie précédemment. [Découvrir comment utiliser les modèles de contenu](../content-management/use-content-templates.md)
 
 1. Si nécessaire, complétez votre flux de parcours en faisant glisser et en déposant des actions ou des événements supplémentaires. [En savoir plus](../building-journeys/about-journey-activities.md).
 
@@ -79,7 +79,7 @@ Pour commencer à créer votre **expérience basée sur du code** par le biais d
 
 1. Modifiez le contenu selon vos besoins à l’aide de l’éditeur de personnalisation. [En savoir plus](#edit-code)
 
-   Vous pouvez également utiliser un modèle de contenu existant comme base pour le contenu de votre code. Notez que les modèles disponibles pour le choix sont définis sur HTML ou JSON en fonction de la configuration de canal choisie précédemment. [Découvrez comment utiliser les modèles de contenu](../content-management/use-content-templates.md)
+   Vous pouvez également utiliser un modèle de contenu existant comme base pour le contenu de votre code. Notez que les modèles disponibles pouvant être choisis sont définis sur HTML ou JSON en fonction de la configuration de canal choisie précédemment. [Découvrir comment utiliser les modèles de contenu](../content-management/use-content-templates.md)
 
    <!--![](assets/code-based-campaign-edit-content.png)-->
 
@@ -115,7 +115,7 @@ Pour plus d’informations sur la configuration d’une campagne, consultez cett
 
    Vous pouvez également enregistrer une partie de votre contenu de code en tant que fragment. [Voici comment procéder](../content-management/fragments.md#save-as-expression-fragment)
 
-1. Avec les expériences basées sur du code, vous pouvez utiliser la fonction de prise de décision. Sélectionnez l’icône **[!UICONTROL Politique de décision]** dans la barre de gauche, puis cliquez sur **[!UICONTROL Ajouter une politique de décision]**. [En savoir plus](../experience-decisioning/create-decision.md)
+1. Dans les expériences basées sur du code, vous pouvez utiliser la fonctionnalité de prise de décision. Sélectionnez l’icône **[!UICONTROL Politique de décision]** dans la barre de gauche, puis cliquez sur **[!UICONTROL Ajouter une politique de décision]**. [En savoir plus](../experience-decisioning/create-decision.md)
 
    ![](assets/code-based-campaign-create-decision.png)
 
