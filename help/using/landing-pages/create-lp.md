@@ -9,10 +9,10 @@ role: User
 level: Beginner
 keywords: destination, page de destination, création, publication
 exl-id: 18f9bdff-f5c6-4601-919d-4f3124e484b5
-source-git-commit: 13f07c2c6af38661ad6d58b2f1505c8199c0cc0b
-workflow-type: ht
-source-wordcount: '1705'
-ht-degree: 100%
+source-git-commit: 47b549f3e1e220b7e8f0c82d9a1f9ecfd5dd2340
+workflow-type: tm+mt
+source-wordcount: '1729'
+ht-degree: 94%
 
 ---
 
@@ -30,29 +30,33 @@ Pour diriger vos clientes et clients vers une page web définie que vous souhait
 
 ## Accès aux pages de destination {#access-landing-pages}
 
-Pour accéder à la liste des pages de destination, sélectionnez **[!UICONTROL Gestion des parcours]** > **[!UICONTROL Pages de destination]** dans le menu de gauche.
+Pour accéder à la liste des landing pages, sélectionnez **[!UICONTROL Gestion de contenu]** > **[!UICONTROL Landing pages]** dans le menu de gauche.
 
 ![](assets/lp_access-list.png)
 
-La liste des **[!UICONTROL Pages de destination]** affiche tous les éléments créés. Vous pouvez les filtrer selon leur état ou leur date de modification.
+La liste des **[!UICONTROL Pages de destination]** affiche tous les éléments créés. Vous pouvez les filtrer selon leur état, la date de modification ou les balises.
 
 ![](assets/lp_access-list-filter.png)
 
-À partir de cette liste, vous pouvez accéder au [Rapport dynamique sur les pages de destination](../reports/lp-report-live.md) ou au [Rapport sur les pages de destination](../reports/lp-report-global-cja.md) pour les éléments publiés.
-
-Vous pouvez également supprimer, dupliquer et dépublier une page de destination.
-
->[!CAUTION]
->
->Si vous dépubliez une page de destination référencée dans un message, le lien vers celle-ci est rompu et une page d’erreur s’affiche.
-
-Cliquez sur les trois points en regard d’une page de destination pour sélectionner l’action souhaitée.
+Vous pouvez accéder à plusieurs actions à partir de cette liste. Cliquez sur les trois points en regard d’une landing page pour sélectionner l’action souhaitée :
 
 ![](assets/lp_access-list-actions.png)
 
->[!NOTE]
->
->Vous ne pouvez pas supprimer une page de destination [publiée](#publish-landing-page). Pour la supprimer, vous devez d’abord la dépublier.
+* Pour les éléments publiés, vous pouvez accéder au [rapport de page d’entrée](../reports/lp-report-global-cja.md) ou au [rapport en direct sur les 24 dernières heures](../reports/lp-report-live.md).
+
+* Vous pouvez supprimer ou dupliquer une landing page.
+
+  >[!NOTE]
+  >
+  >Vous ne pouvez pas supprimer une page de destination [publiée](#publish-landing-page). Pour la supprimer, vous devez d’abord la dépublier.
+
+* Vous pouvez dépublier une landing page publiée.
+
+  >[!CAUTION]
+  >
+  >Si vous dépubliez une page de destination référencée dans un message, le lien vers celle-ci est rompu et une page d’erreur s’affiche.
+
+* Vous pouvez également modifier les [balises](../start/search-filter-categorize.md#tags) associées à une page d’entrée.
 
 ## Création d’une page de destination {#create-landing-page}
 
@@ -280,11 +284,6 @@ Deux types d’alertes peuvent avoir lieu :
 
 **Errors**:
 
-* 
-
->[!CAUTION]
->
-> To be able to publish your message, you must resolve all **error** alerts.
 -->
 
 ## Publier la page de destination {#publish-landing-page}
