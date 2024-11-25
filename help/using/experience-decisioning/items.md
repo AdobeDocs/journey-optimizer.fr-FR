@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 5c866814-d79a-4a49-bfcb-7a767d802e90
-source-git-commit: 616e1dd9fbfd029f7209356d5c19cfff9d4b4f06
+source-git-commit: 5a64190203563d66309c897fe3ee806a74e8bfc9
 workflow-type: tm+mt
 source-wordcount: '1743'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -25,7 +25,7 @@ Journey Optimizer vous permet de créer des offres marketing, appelées éléme
 
 Avant de créer un élément de décision, veillez à créer une **règle de décision** si vous souhaitez définir des conditions pour déterminer pour qui l’élément de décision peut être affiché. [Découvrez comment créer des règles de décision](rules.md).
 
-Pour créer un élément de décision, accédez à **[!UICONTROL Prise de décision]** > **[!UICONTROL Catalogues]**, puis cliquez sur **[!UICONTROL Créer un élément]** et suivez les étapes présentées dans les sections ci-dessous.
+Pour créer un élément de décision, accédez à **[!UICONTROL Prise de décision]** > **[!UICONTROL Catalogues]**, puis cliquez sur **[!UICONTROL Créer un élément]** et suivez les étapes présentées dans les sections ci-dessous.
 
 ## Définir les attributs de l’élément de décision {#attributes}
 

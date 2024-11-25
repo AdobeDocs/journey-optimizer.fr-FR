@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 2d118f5a-32ee-407c-9513-fe0ebe3ce8f0
-source-git-commit: 616e1dd9fbfd029f7209356d5c19cfff9d4b4f06
+source-git-commit: 5a64190203563d66309c897fe3ee806a74e8bfc9
 workflow-type: tm+mt
 source-wordcount: '320'
-ht-degree: 89%
+ht-degree: 83%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 89%
 
 Dans la prise de décision, les catalogues servent de conteneurs centraux pour organiser les éléments de décision. Chaque catalogue est lié à un schéma Adobe Experience Platform, englobant tous les attributs affectés à un élément de décision.
 
-Pour l’instant, tous les éléments de décision créés sont consolidés dans un seul catalogue « Offres », accessible via le menu **[!UICONTROL Catalogues]**.
+Pour l’instant, tous les éléments de décision créés sont consolidés dans un seul catalogue &quot;Offres&quot;, accessible via le menu **[!UICONTROL Catalogues]** .
 
 ![](assets/catalogs-list.png)
 

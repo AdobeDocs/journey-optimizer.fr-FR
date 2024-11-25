@@ -5,7 +5,9 @@ feature: Decisioning
 topic: Integrations
 role: User
 level: Intermediate, Experienced
-source-git-commit: 616e1dd9fbfd029f7209356d5c19cfff9d4b4f06
+hide: true
+hidefromtoc: true
+source-git-commit: 5a64190203563d66309c897fe3ee806a74e8bfc9
 workflow-type: tm+mt
 source-wordcount: '342'
 ht-degree: 77%
@@ -20,7 +22,7 @@ Dans ce cas pratique, vous créez une campagne dans laquelle vous définissez de
 
 Vous devez d’abord créer des éléments, les regrouper dans des collections, configurer des règles et des méthodes de classement. Ces éléments vous permettront de créer des stratégies de sélection.
 
-1. Accédez à **[!UICONTROL Catalogue de prise de décision]** > **** et créez plusieurs éléments de décision. Définissez des contraintes à l’aide d’audiences ou de règles afin de limiter chaque élément à des profils spécifiques uniquement. [En savoir plus](items.md)
+1. Accédez à **[!UICONTROL Prise de décision]** > **[!UICONTROL Catalogues]** et créez plusieurs éléments de décision. Définissez des contraintes à l’aide d’audiences ou de règles afin de limiter chaque élément à des profils spécifiques uniquement. [En savoir plus](items.md)
 
    <!--
    1. From the items list, click the **[!UICONTROL Edit schema]** button  and edit the custom attributes if needed. [Learn how to work with catalogs](catalogs.md)-->
