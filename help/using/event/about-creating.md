@@ -12,7 +12,7 @@ exl-id: e22e2bc7-0c15-457a-8980-97bea5da7784
 source-git-commit: f9f2cd339680d0dbff1812e64c5082ca97a34771
 workflow-type: tm+mt
 source-wordcount: '1638'
-ht-degree: 80%
+ht-degree: 81%
 
 ---
 
@@ -111,7 +111,7 @@ La définition de la payload vous permet de choisir les informations que le syst
 
    ![](assets/journey12.png)
 
-## Sélection du type d’identité {#select-the-namespace}
+## Sélectionner le type d’identité {#select-the-namespace}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_namespace"

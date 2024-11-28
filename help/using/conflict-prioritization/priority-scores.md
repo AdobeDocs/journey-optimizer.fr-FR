@@ -4,25 +4,25 @@ description: Découvrez comment attribuer des scores de priorité aux parcours e
 role: User
 level: Beginner
 badge: label="Disponibilité limitée"
-source-git-commit: 8b1ae663accf6b6c049dc7cc2a427811369a42bc
+exl-id: f33ca0a8-ed33-4964-a85c-8705a4ff728e
+source-git-commit: f5df65a0225754ab66fb2ffa33c5130f7137b644
 workflow-type: tm+mt
 source-wordcount: '438'
-ht-degree: 72%
+ht-degree: 93%
 
 ---
-
 
 # Attribuer des scores de priorité aux parcours et aux campagnes {#priority}
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_campaign_priority"
 >title="Priorité"
->abstract="Attribuez un score de priorité à la campagne. La priorité est essentielle pour prioriser une campagne en cas de contrainte imposée, telle qu’une limite de fréquence. Saisissez une valeur numérique (de 0 à 100). Notez que plus le nombre est élevé, plus la priorité est élevée. Dans les cas où deux campagnes ont le même score de priorité, la campagne qui a été activée en premier s’affiche."
+>abstract="Attribuez un score de priorité à la campagne. La priorité est essentielle pour donner la priorité à une campagne en cas de contrainte imposée, comme un capping de la fréquence. Saisissez une valeur numérique (de 0 à 100). Notez que plus le nombre est élevé, plus la priorité est élevée. Dans les cas où deux campagnes ont le même score de priorité, la campagne qui a été activée en premier s’affiche."
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_priority"
 >title="Priorité"
->abstract="Attribuez un score de priorité au parcours. La priorité est essentielle pour donner la priorité à un parcours lorsqu’il existe une contrainte imposée telle qu’un plafond de fréquence. Entrez une valeur numérique (de 0 à 100). Notez que plus le nombre est élevé, plus la priorité est élevée. Dans les cas où deux parcours ont le même score de priorité, le parcours qui a été activé en premier s’affiche."
+>abstract="Attribuez un score de priorité au parcours. La priorité est essentielle pour donner la priorité à un parcours en cas de contrainte imposée, telle qu’une limite de fréquence. Saisissez une valeur numérique (de 0 à 100). Notez que plus le nombre est élevé, plus la priorité est élevée. Dans les cas où deux parcours ont le même score de priorité, le parcours qui a été activé en premier s’affiche."
 
 >[!AVAILABILITY]
 >

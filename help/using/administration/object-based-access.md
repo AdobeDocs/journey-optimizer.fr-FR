@@ -12,7 +12,7 @@ exl-id: 02ccdd95-426c-4b61-9834-7f2dcd5abdbb
 source-git-commit: fbcd5ae83c024d672d608d5f5aefc6a4252ec8c0
 workflow-type: tm+mt
 source-wordcount: '460'
-ht-degree: 60%
+ht-degree: 68%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 60%
 >[!CONTEXTUALHELP]
 >id="ajo_olac_manage_access"
 >title="Libellés de gestion des accès"
->abstract="Vous pouvez limiter l&#39;accès à cette campagne en fonction des libellés d&#39;accès. Pour ajouter une limitation d’accès, cliquez sur le bouton **Gérer l’accès** en haut de cette page. Veillez à sélectionner uniquement les étiquettes pour lesquelles vous disposez des autorisations."
+>abstract="Vous pouvez limiter l’accès à cette campagne en fonction des libellés d’accès. Pour ajouter une limitation d’accès, cliquez sur le bouton **Gérer l’accès** en haut de cette page. Veillez à sélectionner uniquement les libellés pour lesquels vous disposez d’une autorisation."
 
 La fonctionnalité de contrôle d&#39;accès au niveau objet (OLAC) permet de définir des autorisations pour gérer l&#39;accès aux données à une sélection d&#39;objets :
 

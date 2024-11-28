@@ -12,7 +12,7 @@ exl-id: 617d623c-e038-4b5b-a367-5254116b7815
 source-git-commit: 03cb3298c905766bc059e82c58969a2111379345
 workflow-type: tm+mt
 source-wordcount: '1235'
-ht-degree: 38%
+ht-degree: 42%
 
 ---
 
@@ -143,7 +143,7 @@ En plus du contenu du message, vous pouvez configurer les paramètres suivants :
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_schedule"
 >title="Planning de la campagne"
->abstract="Par défaut, les campagnes démarrent lors d’une activation manuelle et se terminent immédiatement après l’envoi du message une seule fois. Vous avez la possibilité de définir une date et une heure spécifiques pour l’envoi du message. De plus, vous pouvez spécifier une date de fin pour les campagnes récurrentes ou déclenchées par l’API. Dans les déclencheurs d’action, vous pouvez également configurer la fréquence d’envoi des messages en fonction de vos préférences."
+>abstract="Par défaut, les campagnes démarrent lors d’une activation manuelle et se terminent immédiatement après l’envoi du message. Vous avez la possibilité de définir une date et une heure spécifiques pour l’envoi du message. De plus, vous pouvez spécifier une date de fin pour les campagnes récurrentes ou déclenchées par l’API. Dans les déclencheurs d’action, vous pouvez également configurer la fréquence d’envoi des messages en fonction de vos préférences."
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_schedule_start"

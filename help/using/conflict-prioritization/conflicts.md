@@ -1,18 +1,18 @@
 ---
-title: Identifier les conflits potentiels dans les parcours et les campagnes
+title: Identification des conflits potentiels dans les parcours et les campagnes
 description: Découvrez comment identifier les conflits potentiels dans les parcours et les campagnes.
 role: User
 level: Beginner
 badge: label="Disponibilité limitée"
-source-git-commit: 8b1ae663accf6b6c049dc7cc2a427811369a42bc
+exl-id: efbb5ac4-4c07-4c62-9460-39eb4fed129a
+source-git-commit: f5df65a0225754ab66fb2ffa33c5130f7137b644
 workflow-type: tm+mt
 source-wordcount: '817'
-ht-degree: 83%
+ht-degree: 96%
 
 ---
 
-
-# Détecter les conflits potentiels dans les parcours et campagnes {#conflict}
+# Détecter les conflits potentiels dans les parcours et les campagnes {#conflict}
 
 >[!AVAILABILITY]
 >
@@ -49,12 +49,12 @@ Vous trouverez ci-dessous un résumé de la manière dont Journey Optimizer ide
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_campaign_conflict"
 >title="Afficher les conflits potentiels"
->abstract="Vérifiez chaque fois qu’il existe un risque de chevauchement avec d’autres campagnes. Les conflits s’affichent uniquement pour les campagnes en direct et planifiées. Notez que le bouton devient disponible dès que vous avez attribué l’un des paramètres suivants : **[!UICONTROL Date de début/fin]**, **[!UICONTROL Audience]**, **[!UICONTROL Canal]**, **[!UICONTROL Configuration de canal]** et **[!UICONTROL Ensemble de règles]**."
+>abstract="Vérifiez chaque fois qu’il existe un risque de chevauchement avec d’autres campagnes. Les conflits s’affichent uniquement pour les campagnes actives et planifiées. Notez que le bouton devient disponible dès que vous avez attribué l’un des paramètres suivants : **[!UICONTROL Date de début/fin]**, **[!UICONTROL Audience]**, **[!UICONTROL Canal]**, **[!UICONTROL Configuration des canaux]** et **[!UICONTROL Jeu de règles]**."
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_conflict"
 >title="Afficher les conflits potentiels"
->abstract="Vérifiez chaque fois qu’il existe un risque de chevauchement avec d’autres parcours. Les conflits s’affichent uniquement pour les parcours en direct et planifiés. Notez que le bouton devient disponible dès que vous avez attribué l’un des paramètres suivants : **[!UICONTROL Date de début/fin]**, **[!UICONTROL Audience]**, **[!UICONTROL Canal]**, **[!UICONTROL Configuration de canal]** et **[!UICONTROL Ensemble de règles]**."
+>abstract="Vérifiez chaque fois qu’il existe un risque de chevauchement avec d’autres parcours. Les conflits s’affichent uniquement pour les parcours actifs et planifiés. Notez que le bouton devient disponible dès que vous avez attribué l’un des paramètres suivants : **[!UICONTROL Date de début/fin]**, **[!UICONTROL Audience]**, **[!UICONTROL Canal]**, **[!UICONTROL Configuration des canaux]** et **[!UICONTROL Jeu de règles]**."
 
 Lors de la création d’un parcours ou d’une campagne, Journey Optimizer vous permet de vérifier chaque fois qu’il existe un risque de chevauchement avec d’autres parcours ou campagnes. Pour ce faire, procédez comme suit :
 
