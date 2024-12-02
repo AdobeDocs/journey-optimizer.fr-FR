@@ -1,16 +1,16 @@
 ---
 title: Rapport sur les cartes de contenu
 description: Découvrir comment utiliser les données du rapport sur les cartes de contenu
-feature: Reporting
+feature: Reporting, Content Cards
 topic: Content Management
 role: User
 level: Beginner
 hide: true
 hidefromtoc: true
-source-git-commit: 8a902298bbbac5689b4f84266dd9c9027e45fad5
-workflow-type: ht
-source-wordcount: '480'
-ht-degree: 100%
+source-git-commit: c24dc217567cc65f8ce0dc79d648f016cd8ad740
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
