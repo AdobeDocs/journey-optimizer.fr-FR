@@ -9,10 +9,10 @@ role: User
 level: Beginner
 keywords: commencer, démarrer, contenu, expérience
 exl-id: 62327f8c-7a9d-44c3-88f9-3048ff8bd326
-source-git-commit: f5df65a0225754ab66fb2ffa33c5130f7137b644
-workflow-type: ht
-source-wordcount: '160'
-ht-degree: 100%
+source-git-commit: e2024a9418374bed224db7d701d1a7642121f293
+workflow-type: tm+mt
+source-wordcount: '186'
+ht-degree: 86%
 
 ---
 
@@ -33,6 +33,10 @@ Avant d’ajouter le fournisseur de traduction que vous avez choisi, assurez-vou
    ![](assets/provider_1.png)
 
 1. Dans la liste déroulante **[!UICONTROL Fournisseurs]**, sélectionnez le fournisseur de votre choix.
+
+   >[!NOTE]
+   >
+   >Pour ajouter un fournisseur à la liste, vous pouvez demander à votre fournisseur de suivre les instructions détaillées dans [ce document](https://developer.adobe.com/gcs/partner/) pour terminer son processus d’intégration.
 
    ![](assets/provider_2.png)
 
