@@ -7,16 +7,25 @@ role: User
 level: Intermediate, Experienced
 hide: true
 hidefromtoc: true
-source-git-commit: 5a64190203563d66309c897fe3ee806a74e8bfc9
+exl-id: 09770df2-c514-4217-a71b-e31c248df543
+source-git-commit: 196caffc918ef4f8fd97c2eb2c790ae4583aa311
 workflow-type: tm+mt
-source-wordcount: '342'
-ht-degree: 77%
+source-wordcount: '393'
+ht-degree: 67%
 
 ---
 
 # Cas d’utilisation de prise de décision {#experience-decisioning-uc}
 
+Vous ne savez pas si une formule de classement spécifique sera plus performante que les priorités d’offre préaffectées.
+
 Dans ce cas pratique, vous créez une campagne dans laquelle vous définissez deux traitements de diffusion : chacun contenant une stratégie de décision différente afin de mesurer celle qui fonctionne le mieux pour votre audience cible.
+
+Configurez l’expérience de sorte que :
+
+* Le premier traitement contient une stratégie de sélection avec pour méthode de classement une priorité.
+* Le second traitement contient une stratégie de sélection différente pour laquelle une formule est la méthode de classement.
+
 
 ## Création d’éléments de décision et de stratégies de sélection
 
@@ -68,5 +77,3 @@ Pour présenter la meilleure offre et expérience dynamique aux visiteurs et vis
 1. Dans la fenêtre **[!UICONTROL Modifier le contenu]** , sélectionnez votre traitement B pour modifier le contenu, puis répétez les étapes ci-dessus pour créer une autre décision.
 
 1. Enregistrez votre contenu.
-
-
