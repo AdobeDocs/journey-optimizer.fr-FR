@@ -9,9 +9,9 @@ role: User
 level: Beginner
 exl-id: 31c9b080-e334-4a11-af33-4c6f115c70a4
 source-git-commit: 03cb3298c905766bc059e82c58969a2111379345
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '299'
-ht-degree: 71%
+ht-degree: 100%
 
 ---
 
@@ -19,13 +19,13 @@ ht-degree: 71%
 
 ## Prévisualiser votre message texte {#preview-sms}
 
-Une fois le contenu de votre message défini, vous pouvez utiliser des profils de test ou des exemples de données d’entrée téléchargés à partir d’un fichier CSV/JSON, ou ajoutés manuellement pour prévisualiser son contenu. Si vous avez inséré du contenu personnalisé, vous pouvez vérifier l&#39;affichage de ce contenu dans le message. [Découvrez comment tester votre contenu à l’aide d’exemples de données d’entrée](../test-approve/simulate-sample-input.md)
+Une fois le contenu de votre message défini, vous pouvez utiliser des profils de test ou des exemples de données d’entrée chargés à partir d’un fichier CSV/JSON ou ajoutés manuellement pour prévisualiser son contenu. Si vous avez inséré du contenu personnalisé, vous pouvez vérifier la façon dont celui-ci s’affiche dans le message. [Découvrir comment tester votre contenu à l’aide d’exemples de données d’entrée](../test-approve/simulate-sample-input.md)
 
-Pour ce faire, cliquez sur **[!UICONTROL Simuler le contenu]** , puis vérifiez votre message à l’aide des données de profil de test.
+Pour ce faire, cliquez sur **[!UICONTROL Simuler du contenu]**, puis vérifiez votre message à l’aide des données de profil de test.
 
 ![](assets/sms_preview_2.png)
 
-Des informations détaillées sur la façon de prévisualiser et de tester le contenu sont disponibles dans la section [Gestion de contenu](../content-management/preview-test.md) .
+Vous trouverez des informations détaillées sur comment prévisualiser et tester votre contenu dans la section [Gestion de contenu](../content-management/preview-test.md).
 
 ## Valider votre contenu {#sms-validate}
 

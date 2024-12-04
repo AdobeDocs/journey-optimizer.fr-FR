@@ -1,24 +1,25 @@
 ---
-title: Test d’expériences basées sur du code
-description: Découvrez comment tester des expériences basées sur du code dans Journey Optimizer
+title: Tester des expériences basées sur du code
+description: Découvrir comment tester des expériences basées sur du code dans Journey Optimizer
 feature: Code-based Experiences
 topic: Content Management
 role: User
 level: Experienced
-source-git-commit: bf0a6fa496a08348be16896a7f2313882eb97c06
-workflow-type: tm+mt
+exl-id: 9a1c148c-a6c3-406b-8f2e-1cf8b8239e75
+source-git-commit: f247ef3c3cd7d1d270893ae6bf88fadf3932d05e
+workflow-type: ht
 source-wordcount: '642'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
-# Test d’expériences basées sur du code {#test-code-based}
+# Tester des expériences basées sur du code {#test-code-based}
 
-## Prévisualiser votre expérience basée sur le code {#preview-code-based}
+## Prévisualiser votre expérience basée sur du code {#preview-code-based}
 
 >[!CONTEXTUALHELP]
 >id="ajo_code_based_preview"
->title="Prévisualiser votre expérience basée sur le code"
+>title="Prévisualiser votre expérience basée sur du code"
 >abstract="Effectuez une simulation de ce à quoi ressemblera votre expérience basée sur le code."
 
 Pour afficher un aperçu de votre expérience basée sur le code qui a été modifiée, suivez les étapes ci-dessous.
@@ -106,4 +107,3 @@ Lors de la création d’expériences basées sur du code pour des pages web ou 
    >[!TIP]
    >
    >Lors de la mise à jour du contenu ou de la sélection d’un autre profil ou traitement de test, le lien de prévisualisation est automatiquement actualisé. Vous pouvez copier le lien dans différents onglets du navigateur et comparer les expériences.
-

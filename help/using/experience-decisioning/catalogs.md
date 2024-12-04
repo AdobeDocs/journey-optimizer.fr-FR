@@ -7,9 +7,9 @@ role: User
 level: Intermediate
 exl-id: 2d118f5a-32ee-407c-9513-fe0ebe3ce8f0
 source-git-commit: 5a64190203563d66309c897fe3ee806a74e8bfc9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '320'
-ht-degree: 83%
+ht-degree: 100%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 83%
 
 Dans la prise de décision, les catalogues servent de conteneurs centraux pour organiser les éléments de décision. Chaque catalogue est lié à un schéma Adobe Experience Platform, englobant tous les attributs affectés à un élément de décision.
 
-Pour l’instant, tous les éléments de décision créés sont consolidés dans un seul catalogue &quot;Offres&quot;, accessible via le menu **[!UICONTROL Catalogues]** .
+Pour l’instant, tous les éléments de décision créés sont consolidés dans un seul catalogue « Offres », accessible via le menu **[!UICONTROL Catalogues]**.
 
 ![](assets/catalogs-list.png)
 
@@ -46,8 +46,8 @@ Pour accéder au schéma du catalogue où les attributs des éléments de décis
 
    Vous trouverez des informations détaillées sur l’utilisation des schémas Adobe Experience Platform dans la [Documentation du système XDM](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/overview.html?lang=fr).
 
-1. Une fois les attributs personnalisés souhaités ajoutés, enregistrez le schéma. Le nouveau champ est désormais disponible dans l’écran de création de l’élément de décision, dans la section **[!UICONTROL Attributs personnalisés]** .
+1. Une fois les attributs personnalisés souhaités ajoutés, enregistrez le schéma. Le nouveau champ est désormais disponible dans l’écran de création des éléments de décision, dans la section **[!UICONTROL Attributs personnalisés]**.
 
 >[!NOTE]
 >
->Un élément de décision peut inclure un maximum de 100 attributs personnalisés. [En savoir plus sur les barrières de sécurité et les limitations de prise de décision](gs-experience-decisioning.md#guardrails)
+>Un élément de décision peut inclure un maximum de 100 attributs personnalisés. [En savoir plus sur les mécanismes de sécurisation et sur les limitations de la prise de décision](gs-experience-decisioning.md#guardrails)

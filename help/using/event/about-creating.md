@@ -10,9 +10,9 @@ level: Intermediate, Experienced
 keywords: événement, unitaire, créer, parcours
 exl-id: e22e2bc7-0c15-457a-8980-97bea5da7784
 source-git-commit: f9f2cd339680d0dbff1812e64c5082ca97a34771
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1638'
-ht-degree: 81%
+ht-degree: 100%
 
 ---
 
@@ -73,9 +73,9 @@ Les premières étapes nécessaires pour configurer un nouvel événement sont l
    >
    >Si vous modifiez votre schéma avec de nouvelles valeurs d’énumération après avoir créé l’événement, vous devez suivre les étapes suivantes pour appliquer les modifications à l’événement existant : désélectionnez le champ d’énumération des champs de l’événement, confirmez la sélection, puis sélectionnez à nouveau le champ d’énumération. La nouvelle valeur d’énumération s’affiche maintenant.
 
-1. Ajoutez un type d’identité. Cette étape est facultative, mais recommandée. En effet, l’ajout d’un type d’identité vous permet d’exploiter les informations stockées dans le service de profil client en temps réel. Il définit le type de clé dont dispose l&#39;événement. En savoir plus dans [cette section](../event/about-creating.md#select-the-namespace).
+1. Ajoutez un type d’identité. Cette étape est facultative, mais recommandée. En effet, l’ajout d’un type d’identité permet d’exploiter les informations stockées dans le service de profil client en temps réel. Il définit le type de clé dont dispose l’événement. En savoir plus dans [cette section](../event/about-creating.md#select-the-namespace).
 
-1. Définissez l&#39;identifiant du profil : effectuez votre choix parmi vos champs de payload ou définissez une formule pour identifier la personne associée à l&#39;événement. Cette clé est configurée automatiquement (mais peut toujours être modifiée) si vous sélectionnez un type d’identité. En effet, parcours sélectionne la clé qui doit correspondre au type d’identité (par exemple, si vous sélectionnez un type d’identité de courrier électronique, la clé de courrier électronique est sélectionnée). En savoir plus dans [cette section](../event/about-creating.md#define-the-event-key).
+1. Définissez l’identifiant du profil : effectuez votre choix parmi vos champs de payload ou définissez une formule pour identifier la personne associée à l’événement. Cette clé est configurée automatiquement (mais peut toujours être modifiée) si vous sélectionnez un type d’identité. En effet, le parcours sélectionne la clé qui doit correspondre au type d’identité : par exemple, si vous sélectionnez un type d’identité d’e-mail, la clé d’e-mail est sélectionnée. En savoir plus dans [cette section](../event/about-creating.md#define-the-event-key).
 
    ![](assets/jo-event7.png)
 
@@ -118,13 +118,13 @@ La définition de la payload vous permet de choisir les informations que le syst
 >title="Type d’identité"
 >abstract="Sélectionnez la clé pour identifier le profil client associé à l’événement."
 
-Le type d’identité (précédemment appelé &quot;espace de noms&quot;) permet de définir le type de clé utilisé pour identifier la personne associée à l’événement. Sa configuration est facultative. Elle est obligatoire si vous souhaitez récupérer, dans vos parcours, des informations supplémentaires provenant du [profil client en temps réel](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=fr){target="_blank"}. La définition du type d’identité n’est pas nécessaire si vous utilisez uniquement des données provenant d’un système tiers via une source de données personnalisée.
+Le type d’identité (anciennement appelé « espace de noms ») vous permet de définir le type de clé utilisé pour identifier la personne associée à l’événement. Sa configuration est facultative. Elle est obligatoire si vous souhaitez récupérer, dans vos parcours, des informations supplémentaires provenant du [profil client en temps réel](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=fr){target="_blank"}. Il n’est pas nécessaire de définir le type d’identité si vous utilisez uniquement des données provenant d’un système tiers via une source de données personnalisée.
 
-Vous pouvez soit créer un type d’identité existant, soit en créer un à l’aide du service Adobe Experience Platform Identity. Pour en savoir plus, consultez la [documentation Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/identity/home.html?lang=fr){target="_blank"}.
+Vous pouvez soit créer un type d’identité existant, soit en créer un nouveau à l’aide du service d’identités Adobe Experience Platform. Pour en savoir plus, consultez la [documentation Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/identity/home.html?lang=fr){target="_blank"}.
 
-Si vous sélectionnez un schéma doté d’une identité principale, les champs **[!UICONTROL Identifiant du profileur]** et **[!UICONTROL Type d’identité]** sont préremplis. Si aucune identité n&#39;est définie, _identityMap > id_ est sélectionné comme clé principale. Ensuite, vous devez sélectionner un type d’identité et la clé sera préremplie (sous le champ **[!UICONTROL Type d’identité]** ) à l’aide de _identityMap > id_.
+Si vous sélectionnez un schéma doté d’une identité principale, alors les champs **[!UICONTROL Identifiant du profil]** et **[!UICONTROL Type d’identité]** sont déjà renseignés. Si aucune identité n’est définie, _identityMap > id_ est sélectionné comme clé principale. Vous devez ensuite sélectionner un type d’identité et la clé sera déjà renseignée (sous le champ **[!UICONTROL Type d’identité]**) à l’aide de _identityMap > id_.
 
-Lors de la sélection de champs, les champs d&#39;identité principale sont balisés.
+Lors de la sélection de champs, les champs de l’identité principale sont balisés.
 
 ![](assets/primary-identity.png)
 
@@ -136,7 +136,7 @@ Un seul type d’identité est autorisé par parcours. Si vous utilisez plusieur
 
 >[!NOTE]
 >
->Vous pouvez uniquement sélectionner un type d’identité basé sur les personnes. Si vous avez défini un type d’identité pour une table de recherche (par exemple : Type d’identité ProductID pour une recherche de produit), il ne sera pas disponible dans la liste déroulante **Type d’identité**.
+>Vous pouvez uniquement sélectionner un type d’identité basé sur des personnes. Si vous avez défini un type d’identité pour une table de recherche (par exemple, un type d’identité ProductID pour une recherche de produit), celui-ci ne sera pas disponible dans la liste déroulante **Type d’identité**.
 
 ## Définir l’identifiant du profil {#define-the-event-key}
 
@@ -144,9 +144,9 @@ La clé correspond au champ ou à la combinaison de champs faisant partie des do
 
 Pour utiliser les données stockées dans la base de données de profil client en temps réel d’Adobe, la clé d’événement doit correspondre aux informations que vous avez définies en tant qu’identité d’un profil dans [Service de profil client en temps réel](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=fr){target="_blank"}.
 
-Le système peut ainsi effectuer la réconciliation entre l’événement et le profil de l’iindividu. Si vous sélectionnez un schéma qui possède une identité principale, les champs **[!UICONTROL Identifiant de profil]** et **[!UICONTROL Type d’identité]** sont préremplis. Si aucune identité n&#39;est définie, _identityMap > id_ est la clé principale. Vous devez ensuite sélectionner un type d’identité et la clé est automatiquement préremplie à l’aide de _identityMap > id_.
+Le système peut ainsi effectuer la réconciliation entre l’événement et le profil de la personne. Si vous sélectionnez un schéma doté d’une identité principale, alors les champs **[!UICONTROL Identifiant du profil]** et **[!UICONTROL Type d’identité]** sont déjà renseignés. Si aucune identité n’est définie, _identityMap > id_ est la clé principale. Vous devez ensuite sélectionner un type d’identité et la clé est automatiquement renseignée à l’aide de la fonction _identityMap > id_.
 
-Lors de la sélection de champs, les champs d&#39;identité principale sont balisés.
+Lors de la sélection de champs, les champs de l’identité principale sont balisés.
 
 ![](assets/primary-identity.png)
 
@@ -158,7 +158,7 @@ Si vous devez utiliser une autre clé, telle qu&#39;un ID CRM ou une adresse e-
 
 1. Sélectionnez le champ choisi comme clé dans la liste des champs de payload.
 
-Lorsque l&#39;événement est reçu, la valeur de la clé permet au système d&#39;identifier la personne qui y est associée. Associée à un [type d’identité](../event/about-creating.md#select-the-namespace), la clé peut être utilisée pour exécuter des requêtes sur Adobe Experience Platform. Voir [cette page](../building-journeys/about-journey-activities.md#orchestration-activities).
+Lorsque l’événement est reçu, la valeur de la clé permet au système d’identifier la personne qui y est associée. Associée à un [type d’identité](../event/about-creating.md#select-the-namespace), la clé peut être utilisée pour exécuter des requêtes vers Adobe Experience Platform. Voir [cette page](../building-journeys/about-journey-activities.md#orchestration-activities).
 La clé sert également à vérifier qu&#39;une personne se trouve dans un parcours. En effet, une personne ne peut se trouver à deux endroits différents dans le même parcours. Par conséquent, le système n&#39;autorise pas qu&#39;une même clé (CRMID=3224, par exemple) se trouve à des endroits différents dans un même parcours.
 
 ## Éditeur d’expression avancé {#adv-exp-editor}

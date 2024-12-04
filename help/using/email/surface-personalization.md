@@ -10,9 +10,9 @@ level: Experienced
 keywords: paramètres, e-mail, configuration, sous-domaine
 exl-id: 1e004a76-5d6d-43a1-b198-5c9b41f5332c
 source-git-commit: 03cb3298c905766bc059e82c58969a2111379345
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1112'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -161,13 +161,13 @@ Lorsque vous utilisez une configuration avec des paramètres personnalisés dans
 
 ## Vérification de votre configuration {#check-configuration}
 
-Lors de l&#39;utilisation d&#39;une configuration personnalisée dans une opération ou un parcours, vous pouvez prévisualiser le contenu de votre email à l&#39;aide de profils de test afin de rechercher les erreurs potentielles avec les paramètres dynamiques que vous avez définis. Suivez les étapes ci-dessous.
+Lors de l’utilisation d’une configuration personnalisée dans une campagne ou un parcours, vous pouvez prévisualiser le contenu de votre e-mail à l’aide de profils de test afin de rechercher les erreurs potentielles avec les paramètres dynamiques que vous avez définis. Suivez les étapes ci-dessous.
 
 >[!NOTE]
 >
->Outre les profils de test, [!DNL Journey optimizer] vous permet de tester différentes variantes de votre contenu en le prévisualisant et en envoyant des bons à tirer à l’aide d’exemples de données d’entrée téléchargées à partir d’un fichier CSV/JSON ou ajoutées manuellement. [Découvrez comment tester votre contenu à l’aide d’exemples de données d’entrée](../test-approve/simulate-sample-input.md)
+>En plus des profils de test, [!DNL Journey optimizer] vous permet également de tester différentes variantes de votre contenu en le prévisualisant et en envoyant des BAT à l’aide d’exemples de données d’entrée chargés à partir d’un fichier CSV/JSON ou ajoutés manuellement. [Découvrir comment tester votre contenu à l’aide d’exemples de données d’entrée](../test-approve/simulate-sample-input.md)
 
-Pour prévisualiser votre contenu à l’aide de profils de test, procédez comme suit :
+Pour prévisualiser votre contenu à l’aide de profils de test, procédez comme suit :
 
 1. Dans l’écran Modifier le contenu de votre message, ou dans le Concepteur d’e-mail, cliquez sur le bouton **[!UICONTROL Simuler du contenu]**. [En savoir plus](../content-management/preview.md)
 

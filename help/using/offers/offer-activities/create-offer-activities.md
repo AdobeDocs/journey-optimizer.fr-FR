@@ -7,9 +7,9 @@ role: User
 level: Intermediate
 exl-id: 7a217c97-57e1-4f04-a92c-37632f8dfe91
 source-git-commit: 8535040fd3fe1622d4358a762f92bd93f5694cfa
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2511'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -384,7 +384,7 @@ Vous pouvez également supprimer ou modifier le statut de plusieurs décisions e
 
 ![](../assets/decision_multiple-selection.png)
 
-Si vous souhaitez modifier l’état de plusieurs décisions avec des états différents, seuls les états pertinents seront modifiés.
+Si vous souhaitez modifier le statut de plusieurs décisions dont les statuts sont différents, seuls les statuts correspondants seront modifiés.
 
 ![](../assets/decision_change-status.png)
 

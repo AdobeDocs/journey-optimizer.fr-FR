@@ -10,9 +10,9 @@ level: Intermediate
 keywords: profils de test, tests, test, parcours
 exl-id: bd5e053a-69eb-463b-add3-8b9168c8e280
 source-git-commit: 03cb3298c905766bc059e82c58969a2111379345
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1367'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -22,7 +22,7 @@ Les profils de test sont requis lors de l’utilisation du [mode test](../buildi
 
 >[!NOTE]
 >
->[!DNL Journey optimizer] vous permet également de tester différentes variantes de votre contenu en le prévisualisant et en envoyant des bons à tirer à l’aide d’exemples de données d’entrée téléchargées à partir d’un fichier CSV/JSON, ou ajoutées manuellement. [Découvrez comment tester votre contenu à l’aide d’exemples de données d’entrée](../test-approve/simulate-sample-input.md)
+>[!DNL Journey optimizer] vous permet également de tester différentes variantes de votre contenu en le prévisualisant et en envoyant des BAT à l’aide d’exemples de données d’entrée chargées à partir d’un fichier CSV/JSON ou ajoutées manuellement. [Découvrir comment tester votre contenu à l’aide d’exemples de données d’entrée](../test-approve/simulate-sample-input.md)
 
 Il existe plusieurs façons de créer des profils de test. Vous trouverez sur cette page des informations détaillées pour :
 

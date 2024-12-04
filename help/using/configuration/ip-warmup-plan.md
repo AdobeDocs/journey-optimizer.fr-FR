@@ -10,9 +10,9 @@ level: Experienced
 keywords: IP, groupe, sous-domaines, délivrabilité
 exl-id: c2434086-2ed4-4cd0-aecd-2eea8f0a55f6
 source-git-commit: cf946f8d59728a743b3c4b571c07fc70e3c6cf87
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1760'
-ht-degree: 82%
+ht-degree: 100%
 
 ---
 
@@ -92,18 +92,18 @@ Vous trouverez ci-dessous un exemple de fichier contenant un plan de préchauffa
 
 ![](assets/ip-warmup-sample-file.png)
 
-### Onglet Plan de maintenance {#ip-warmup-plan-tab}
+### Onglet Plan de préchauffage {#ip-warmup-plan-tab}
 
-Pour créer votre plan de chauffage par IP, renseignez dans le premier onglet les données dont vous avez besoin pour alimenter votre plan.
+Pour créer votre plan de préchauffage d’adresses IP, renseignez dans le premier onglet les données dont vous avez besoin pour mettre en place votre plan.
 
-* Dans l’exemple ci-dessus, un plan a été préparé sur 17 jours (appelé &quot;**run**&quot;) pour atteindre un volume cible de plus d’un million de profils.
+* Dans l’exemple ci-dessus, un plan a été préparé pour une période de 17 jours (appelés « **runs** » (exécutions)) pour atteindre un volume cible de plus d’un million de profils.
 
 * Ce plan est exécuté en six **phases**, chacune d’elles contenant au moins une exécution.
 
 * Vous pouvez disposer de 6 colonnes au maximum (4 colonnes pour les groupes de domaines, une pour la colonne **Autres** et une pour la colonne **Jours d’engagement**). Dans cet exemple, le plan est divisé en six colonnes :
 
-   * Trois d’entre eux correspondent à des **groupes de domaines d’usine** à utiliser dans votre plan (Gmail, Yahoo et Microsoft). Les groupes de domaines d&#39;usine sont tous répertoriés dans l&#39;onglet [Groupes de domaines prêts à l&#39;emploi](#ootb-domain-groups-tab).
-   * Une colonne correspond à un groupe de domaines personnalisé (que vous devez ajouter à l’aide de l’onglet [Groupe de domaines personnalisés](#custom-domain-group-tab) ).
+   * Trois d’entre elles correspondent aux **groupes de domaines prêts à l’emploi** à utiliser dans votre plan (Gmail, Yahoo et Microsoft). Les groupes de domaines prêts à l’emploi sont tous répertoriés dans l’onglet [Groupes de domaines prêts à l’emploi](#ootb-domain-groups-tab).
+   * Une colonne correspond à un groupe de domaines personnalisés (que vous devez ajouter à l’aide de l’onglet [Groupe de domaines personnalisés](#custom-domain-group-tab)).
    * La cinquième colonne, **Autres**, contient toutes les adresses restantes d’autres domaines qui ne sont pas explicitement couverts dans le plan. Cette colonne est facultative : si elle est omise, les e-mails seront envoyés uniquement aux domaines spécifiés.
    * La dernière colonne, **Jours d’engagement**, vous permet de spécifier le nombre de jours pendant lesquels l’engagement doit être suivi ou évalué.
 
@@ -113,13 +113,13 @@ L’idée est d’augmenter progressivement le nombre d’adresses ciblées au c
 
 Vous pouvez également ajouter d’autres colonnes à votre plan en incluant des groupes de domaines personnalisés.
 
-Utilisez l’onglet **[!UICONTROL Groupe de domaines personnalisés]** pour définir un nouveau groupe de domaines. Pour chaque domaine, vous pouvez ajouter tous les sous-domaines qu’il couvre.
+Utilisez l’onglet **[!UICONTROL Groupe de domaines personnalisés]** pour définir un nouveau groupe de domaines. Pour chaque domaine, vous pouvez ajouter tous les sous-domaines qu’il inclut.
 
 >[!IMPORTANT]
 >
->Assurez-vous que chaque domaine est unique à son groupe de domaines et ne chevauche pas d’autres groupes de domaines ou [groupes de domaines d’usine](#ootb-domain-groups-tab).
+>Assurez-vous que chaque domaine est propre à son groupe de domaines et n’est pas présent dans plusieurs groupes de domaines ou [groupes de domaines prêts à l’emploi](#ootb-domain-groups-tab).
 
-Par exemple, si vous ajoutez le domaine personnalisé Roadrunner, vous souhaitez inclure les sous-domaines suivants, comme dans l’exemple ci-dessous : roadrunner.com, nc.rr.com, tampabay.rr.com, rochester.rr.com, etc.
+Par exemple, si vous ajoutez le domaine personnalisé Roadrunner, vous voulez inclure les sous-domaines suivants, comme dans l’exemple ci-dessous : roadrunner.com, nc.rr.com, tampabay.rr.com, rochester.rr.com, etc.
 
 ![](assets/ip-warmup-sample-file-custom.png)
 
@@ -129,15 +129,15 @@ Par exemple, si vous ajoutez le domaine personnalisé Roadrunner, vous souhaitez
 
 ### Onglet Groupes de domaines prêts à l’emploi {#ootb-domain-groups-tab}
 
-L’onglet **Groupes de domaines prêts à l’emploi** du modèle de plan de nettoyage d’adresses IP contient tous les groupes de domaines principaux prêts à l’emploi que vous pouvez ajouter à votre plan.
+L’onglet **Groupes de domaines prêts à l’emploi** du modèle de plan de préchauffage d’adresses IP contient tous les groupes de domaines principaux prêts à l’emploi que vous pouvez ajouter à votre plan.
 
 ![](assets/ip-warmup-sample-file-ootb.png)
 
 >[!NOTE]
 >
->Si un groupe de domaines n’est pas répertorié dans cet onglet, vous devez créer un groupe de domaines personnalisé dans l’onglet correspondant. [En savoir plus](#custom-domain-group-tab)
+>Si un groupe de domaines n’est pas répertorié dans cet onglet, vous devez créer un groupe de domaines personnalisés dans l’onglet correspondant. [En savoir plus](#custom-domain-group-tab)
 
-Les groupes de domaines principaux d&#39;usine sont également répertoriés ci-dessous :
+Les principaux groupes de domaines prêts à l’emploi sont également répertoriés ci-dessous :
 
 +++ Gmail
 gmail.com;google.com;googlemail.com;googlemail.co.uk
@@ -208,13 +208,13 @@ Les domaines autres que Hotmail et ceux provenant du groupe de domaines Microsof
 
 1. Ajoutez tous les domaines Hotmail sur la même ligne.
 
-   Vous pouvez [copier-coller](#copy-paste) tous les domaines Hotmail répertoriés dans la section [ Groupes de domaines prêts à l’emploi](#ootb-domain-groups-tab) .
+   Vous pouvez [copier et coller](#copy-paste) tous les domaines Hotmail répertoriés dans la section de [l’onglet Groupes de domaines prêts à l’emploi](#ootb-domain-groups-tab).
 
 1. Ajoutez une autre ligne.
 
 1. Créez le groupe de domaines **Microsoft_X**.
 
-1. Ajoutez tous les domaines Microsoft qui ne sont pas Hotmail sur la même ligne. De même, vous pouvez les [copier-coller](#copy-paste) dans la liste ci-dessus.
+1. Ajoutez tous les domaines Microsoft qui ne sont pas Hotmail sur la même ligne. De même, vous pouvez les [copier et les coller](#copy-paste) à partir de la liste ci-dessus.
 
 1. Revenez à l’onglet **[!UICONTROL Plan de préchauffage d’adresses IP]**.
 
@@ -226,7 +226,7 @@ Les domaines autres que Hotmail et ceux provenant du groupe de domaines Microsof
 
 ### Copier et coller les domaines par défaut {#copy-paste}
 
-Si vous souhaitez créer un groupe de domaines personnalisé contenant tous les domaines Hotmail, par exemple, vous pouvez copier et coller les domaines à partir de l’onglet **Groupes de domaines prêts à l’emploi** du [ modèle de plan de chauffage par IP](assets/IPWarmupPlan-Template.xlsx) ou de la liste fournie [ci-dessus](#ip-warmup-plan-tab).
+Si vous souhaitez créer un groupe de domaines personnalisés contenant par exemple tous les domaines Hotmail, vous pouvez copier et coller les domaines à partir de l’onglet **Groupes de domaines prêts à l’emploi** du [modèle de plan de préchauffage d’adresses IP](assets/IPWarmupPlan-Template.xlsx) ou de la liste fournie [ci-dessus](#ip-warmup-plan-tab).
 
 Utilisez ensuite l’outil de conversion Excel pour convertir le texte en colonnes :
 

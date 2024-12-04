@@ -6,9 +6,9 @@ role: User
 level: Beginner
 exl-id: e742c04e-2987-4466-84af-bdaf4d714552
 source-git-commit: 03cb3298c905766bc059e82c58969a2111379345
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '282'
-ht-degree: 81%
+ht-degree: 100%
 
 ---
 
@@ -18,9 +18,9 @@ Un BAT est un message spécifique qui permet de tester un message avant son envo
 
 >[!NOTE]
 >
->[!DNL Journey optimizer] vous permet également de tester différentes variantes de votre contenu en le prévisualisant et en envoyant des bons à tirer à l’aide d’exemples de données d’entrée téléchargées à partir d’un fichier CSV/JSON, ou ajoutées manuellement. [Découvrez comment tester votre contenu à l’aide d’exemples de données d’entrée](../test-approve/simulate-sample-input.md)
+>[!DNL Journey optimizer] vous permet également de tester différentes variantes de votre contenu en le prévisualisant et en envoyant des BAT à l’aide d’exemples de données d’entrée chargées à partir d’un fichier CSV/JSON ou ajoutées manuellement. [Découvrir comment tester votre contenu à l’aide d’exemples de données d’entrée](../test-approve/simulate-sample-input.md)
 
-Pour envoyer des BAT d&#39;email après la sélection de [profils de test](test-profiles.md), procédez comme suit :
+Pour envoyer des BAT d’e-mails une fois des [profils de test](test-profiles.md) sélectionnés, procédez comme suit :
 
 1. Dans l’écran **[!UICONTROL Simuler]**, cliquez sur le bouton **[!UICONTROL Envoyer le BAT]**.
 

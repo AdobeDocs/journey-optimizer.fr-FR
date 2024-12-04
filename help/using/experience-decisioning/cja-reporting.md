@@ -1,5 +1,5 @@
 ---
-title: Rapport sur la prise de décision
+title: Rapports sur la prise de décision
 description: Découvrez comment créer des rapports sur la prise de décision.
 feature: Decisioning
 topic: Integrations
@@ -8,20 +8,20 @@ level: Experienced
 badge: label="Disponibilité limitée"
 exl-id: 7c45cd8a-8e86-4646-ba0a-db393e92d9da
 source-git-commit: 616e1dd9fbfd029f7209356d5c19cfff9d4b4f06
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '221'
-ht-degree: 69%
+ht-degree: 100%
 
 ---
 
 
-# Rapport sur la prise de décision {#decisioning-report}
+# Rapports sur la prise de décision {#decisioning-report}
 
-## Rapports de campagnes basés sur le code {#campaigns}
+## Rapports de campagnes basées sur du code {#campaigns}
 
-Une fois l’expérience basée sur le code activée, vous pouvez accéder à des rapports dédiés pour surveiller les indicateurs de performance clés (IPC) en tant que tableau de bord global, ce qui vous permet d’analyser les mesures essentielles associées à votre campagne.
+Une fois les expériences basées sur du code activées, vous pouvez accéder à des rapports dédiés pour surveiller les indicateurs de performance clés sous la forme d’un tableau de bord global qui vous fournit une analyse des mesures essentielles associées à votre campagne.
 
-Cela inclut les détails liés aux performances des éléments de décision et la manière dont les utilisateurs ont interagi avec eux. [Découvrez comment utiliser les rapports d’expérience basés sur le code](../reports/campaign-global-report-cja-code.md)
+Celui-ci inclut des détails liés aux performances des éléments de décision et la manière dont les utilisateurs et les utilisatrices ont interagi avec eux. [Découvrir comment utiliser les rapports sur l’expérience basée sur du code](../reports/campaign-global-report-cja-code.md)
 
 ![](../reports/assets/cja-decisioning-item-performance.png)
 

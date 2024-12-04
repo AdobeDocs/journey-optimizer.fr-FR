@@ -6,9 +6,9 @@ role: User
 level: Beginner
 exl-id: 6477270c-0309-411a-8254-c7ffc4419492
 source-git-commit: bf0a6fa496a08348be16896a7f2313882eb97c06
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '261'
-ht-degree: 75%
+ht-degree: 100%
 
 ---
 
@@ -20,9 +20,9 @@ Une fois les [profils de test](test-profiles.md) définis, vous pouvez prévisua
 
 >[!NOTE]
 >
->[!DNL Journey optimizer] vous permet également de tester différentes variantes de votre contenu en le prévisualisant et en envoyant des bons à tirer à l’aide d’exemples de données d’entrée téléchargées à partir d’un fichier CSV/JSON, ou ajoutées manuellement. [Découvrez comment tester votre contenu à l’aide d’exemples de données d’entrée](../test-approve/simulate-sample-input.md)
+>[!DNL Journey optimizer] vous permet également de tester différentes variantes de votre contenu en le prévisualisant et en envoyant des BAT à l’aide d’exemples de données d’entrée chargés à partir d’un fichier CSV/JSON ou ajoutés manuellement. [Découvrir comment tester votre contenu à l’aide d’exemples de données d’entrée](../test-approve/simulate-sample-input.md)
 
-Pour prévisualiser votre contenu à l’aide de profils de test, procédez comme suit :
+Pour prévisualiser votre contenu à l’aide de profils de test, procédez comme suit :
 
 1. Dans l’écran Modifier le contenu de votre message, ou dans le concepteur d’e-mail, cliquez sur le bouton **[!UICONTROL Simuler du contenu]**.
 

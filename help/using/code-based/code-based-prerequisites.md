@@ -7,9 +7,9 @@ role: Admin
 level: Experienced
 exl-id: ac901f88-5fde-4220-88c6-fe05433866cc
 source-git-commit: bf0a6fa496a08348be16896a7f2313882eb97c06
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '640'
-ht-degree: 83%
+ht-degree: 100%
 
 ---
 
@@ -21,15 +21,15 @@ Pour pouvoir utiliser des actions d’expérience basée sur le code dans [!DNL 
 
 * Pour que les expériences basées sur le code soient correctement diffusées, veillez à définir les paramètres d’Experience Platform présentés [ici](#delivery-prerequisites).
 
-* Pour que les données s’affichent dans vos rapports d’expérience basés sur du code, veillez à respecter les [conditions préalables au reporting](#reporting-prerequisites).
+* Pour que les données s’affichent dans vos rapports d’expérience basée sur du code, assurez-vous de respecter ces [conditions préalables à la création de rapports](#reporting-prerequisites).
 
-* Lors de la création d’une [configuration de canal d’expérience basée sur le code](code-based-configuration.md), veillez à saisir une chaîne/chemin ou un URI de surface correspondant à celui déclaré dans votre propre mise en oeuvre. Cela garantit que le contenu est diffusé à l’emplacement souhaité dans l’application ou la page spécifiée. Dans le cas contraire, les modifications ne peuvent pas être diffusées. [En savoir plus](code-based-surface.md)
+* Lors de la création d’une [configuration de canal d’expérience basée sur du code](code-based-configuration.md), assurez-vous de saisir une chaîne/un chemin ou un URI de surface correspondant à l’élément déclaré dans votre propre implémentation. Cela garantit que le contenu est diffusé à l’emplacement souhaité dans l’application ou la page spécifiée. Sinon, les modifications ne sont pas diffusées. [En savoir plus](code-based-surface.md)
 
 ## Conditions préalables à l’implémentation {#implementation-prerequisites}
 
 L’expérience basée sur le code prend en charge n’importe quel type d’implémentation du client ou de la cliente, comme illustré dans les options ci-dessous. Vous pouvez utiliser une méthode d’implémentation côté client, côté serveur ou hybride pour vos propriétés :
 
-* Côté client uniquement : pour ajouter des modifications à vos pages web ou applications mobiles, vous devez mettre en oeuvre le [SDK web Adobe Experience Platform](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html?lang=fr){target="_blank"} sur votre site web ou le [SDK mobile Adobe Experience Platform](https://developer.adobe.com/client-sdks/documentation/){target="_blank"} sur vos applications mobiles.
+* Côté client uniquement - Pour ajouter des modifications à vos pages web ou applications mobiles, vous devez implémenter le [SDK web Adobe Experience Platform](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html?lang=fr){target="_blank"} sur votre site web ou le [SDK mobile Adobe Experience Platform](https://developer.adobe.com/client-sdks/documentation/){target="_blank"} sur vos applications mobiles.
 
 * Mode hybride : vous pouvez utiliser l’[API du serveur Edge Network AEP](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/data-collection/interactive-data-collection.html?lang=fr){target="_blank"} pour demander une personnalisation côté serveur ; la réponse est fournie au SDK web Adobe Experience Platform pour effectuer le rendu des modifications côté client. Pour plus d’informations, consultez la [documentation de l’API du serveur Edge Network Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/overview.html?lang=fr){target="_blank"}. Vous pouvez en savoir plus sur le mode hybride et consulter quelques exemples de mise en œuvre dans cet [article de blog](https://blog.developer.adobe.com/hybrid-personalization-in-the-adobe-experience-platform-web-sdk-6a1bb674bf41){target="_blank"}.
 

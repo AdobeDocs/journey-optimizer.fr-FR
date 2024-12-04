@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 exl-id: 6151aea2-6a34-4000-ba48-161efe4d94d7
 source-git-commit: f9f2cd339680d0dbff1812e64c5082ca97a34771
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '576'
-ht-degree: 82%
+ht-degree: 100%
 
 ---
 
@@ -52,11 +52,11 @@ Il est possible d’effectuer des actions de base sur chaque élément des diff�
 >title="Balises"
 >abstract="Ce champ vous permet d’attribuer des balises unifiées Adobe Experience Platform à votre campagne. Vous pouvez ainsi facilement les classer et améliorer la recherche à partir de la liste des campagnes."
 
-Avec Adobe Experience Platform [Balises unifiées](https://experienceleague.adobe.com/docs/experience-platform/administrative-tags/overview.html?lang=fr), vous pouvez facilement classer vos objets Journey Optimizer pour améliorer la recherche à partir des listes.
+Avec les [balises unifiées](https://experienceleague.adobe.com/docs/experience-platform/administrative-tags/overview.html?lang=fr) Adobe Experience Platform, vous pouvez facilement classer vos objets Journey Optimizer pour améliorer la recherche dans les listes.
 
 ![](../rn/assets/do-not-localize/campaigns-tag.gif)
 
-L’ajout de balises significatives aux audiences dans Journey Optimizer vous permet par la suite de filtrer et de rechercher des audiences plus facilement. Les balises peuvent en outre être utilisées pour organiser les audiences dans des dossiers pertinents pouvant faire l’objet de recherches, créer des offres et des expériences personnalisées et les utiliser dans des règles de décision d’expérience.
+Ajouter des balises explicites aux audiences dans Journey Optimizer vous permet par la suite de filtrer et de rechercher ces dernières plus facilement. Les balises peuvent également être utilisées dans des règles de décision d’expérience, ainsi que pour organiser les audiences dans des dossiers pertinents et recherchables, et créer des offres et des expériences personnalisées.
 
 ### Ajouter des balises à un objet {#add-tags}
 
@@ -78,9 +78,9 @@ Vous pouvez sélectionner une balise existante ou en créer une nouvelle. Pour c
 
    >[!NOTE]
    >
-   > Les balises ne respectent pas la casse.
+   > Les balises ne sont pas sensibles à la casse.
 
-1. Si la balise que vous recherchez n’est pas disponible, cliquez sur **[!UICONTROL Créer &quot;&quot;]** pour en définir une nouvelle. Elle est automatiquement ajoutée à l’objet actif et devient disponible pour tous les autres objets.
+1. Si la balise que vous recherchez n’est pas disponible, cliquez sur **[!UICONTROL Créer «  »]** pour en définir une nouvelle. Elle est automatiquement ajoutée à l’objet actif et devient disponible pour tous les autres objets.
 
    ![](assets/tags4.png)
 

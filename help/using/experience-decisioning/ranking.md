@@ -7,9 +7,9 @@ role: User
 level: Intermediate
 exl-id: c1d69bc9-4486-4037-b218-f4f704b2ba9c
 source-git-commit: 616e1dd9fbfd029f7209356d5c19cfff9d4b4f06
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '639'
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 
@@ -47,9 +47,9 @@ Pour créer une méthode de classement, procédez comme suit :
 
    >[!NOTE]
    >
-   >La profondeur d’imbrication dans une formule de classement est limitée à 30 niveaux. Ceci est mesuré en comptant les parenthèses fermantes `)` dans la chaîne PQL. La taille d’une chaîne de règle peut aller jusqu’à 8 Ko pour les caractères codés en UTF-8. Cela équivaut à 8 000 caractères ASCII (1 octet chacun) ou 2 000 à 4 000 caractères non ASCII (2 à 4 octets chacun). [En savoir plus sur les barrières de sécurité et les limitations de prise de décision](gs-experience-decisioning.md#guardrails)
+   >La profondeur d’imbrication dans une formule de classement est limitée à 30 niveaux. Celle-ci est mesurée en comptant les parenthèses fermantes `)` dans la chaîne PQL. La taille d’une chaîne de règle est de 8 Ko maximum pour les caractères codés en UTF-8. Cela équivaut à 8 000 caractères ASCII (1 octet chacun) ou 2 000 à 4 000 caractères non ASCII (2 à 4 octets chacun). [En savoir plus sur les mécanismes de sécurisation et sur les limitations de la prise de décision](gs-experience-decisioning.md#guardrails)
 
-Une politique de décision prend en charge jusqu’à 10 stratégies de sélection et éléments de décision combinés. [En savoir plus sur les barrières de sécurité et les limitations de prise de décision](gs-experience-decisioning.md#guardrails)
+Une politique de décision prend en charge jusqu’à 10 stratégies de sélection et éléments de décision combinés. [En savoir plus sur les mécanismes de sécurisation et sur les limitations de la prise de décision](gs-experience-decisioning.md#guardrails)
 
 +++ Optimisation de modèles sur des mesures [!DNL Customer Journey Analytics] personnalisées
 

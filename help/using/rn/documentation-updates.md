@@ -9,9 +9,9 @@ role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
 source-git-commit: bf0a6fa496a08348be16896a7f2313882eb97c06
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '5736'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -28,8 +28,8 @@ Cette page répertorie toutes les mises à jour récentes de la documentation de
 * Une note concernant le prochain mécanisme de sécurisation sur la durée de vie (TTL) pour les jeux de données générés par le système a été ajoutée. [En savoir plus](../data/get-started-datasets.md)
 * Une nouvelle section a été ajoutée pour décrire comment prévisualiser vos expériences personnalisées basées sur du code directement sur votre navigateur ou vos appareils mobiles, à l’aide de l’option Prévisualiser sur l’appareil lors de la simulation de contenu dans un parcours ou une campagne. [En savoir plus](../code-based/test-code-based.md#preview-on-device)
 * Une nouvelle page a été ajoutée sur la manière d’exploiter les audiences de chargement personnalisées pour la prise de décision. [En savoir plus](../offers/custom-upload-decisioning.md)
-* Une nouvelle page a été ajoutée pour présenter les fonctionnalités de décision disponibles dans Journey Optimizer. [En savoir plus](../experience-decisioning/gs-decision.md)
-* Des protections et des limites ont été ajoutées à la documentation de prise de décision. [En savoir plus](../experience-decisioning/gs-experience-decisioning.md#guardrails)
+* Une nouvelle page a été ajoutée pour présenter les fonctionnalités de décision disponibles dans Journey Optimizer. [En savoir plus](../experience-decisioning/gs-decision.md)
+* Les mécanismes de sécurisation et les limites ont été ajoutés à la documentation de la prise de décision. [En savoir plus](../experience-decisioning/gs-experience-decisioning.md#guardrails)
 
 ## Septembre 2024 {#sept-2024}
 

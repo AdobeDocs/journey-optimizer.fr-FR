@@ -6,9 +6,9 @@ role: User
 level: Beginner
 exl-id: c51e4089-7f51-437d-a5ed-de10bab46cf8
 source-git-commit: 03cb3298c905766bc059e82c58969a2111379345
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '274'
-ht-degree: 83%
+ht-degree: 100%
 
 ---
 
@@ -23,7 +23,7 @@ Avant de prévisualiser ou de tester votre contenu, vous devez d’abord sélect
 
 >[!NOTE]
 >
->Outre les profils de test, [!DNL Journey optimizer] vous permet de tester différentes variantes de votre contenu en le prévisualisant et en envoyant des bons à tirer à l’aide d’exemples de données d’entrée téléchargées à partir d’un fichier CSV/JSON ou ajoutées manuellement. [Découvrez comment tester votre contenu à l’aide d’exemples de données d’entrée](../test-approve/simulate-sample-input.md)
+>En plus des profils de test, [!DNL Journey optimizer] vous permet également de tester différentes variantes de votre contenu en le prévisualisant et en envoyant des BAT à l’aide d’exemples de données d’entrée chargés à partir d’un fichier CSV/JSON ou ajoutés manuellement. [Découvrir comment tester votre contenu à l’aide d’exemples de données d’entrée](../test-approve/simulate-sample-input.md)
 
 Pour sélectionner des profils de test, procédez comme suit :
 

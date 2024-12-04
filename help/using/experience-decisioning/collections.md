@@ -7,9 +7,9 @@ role: User
 level: Intermediate
 exl-id: 099d1439-34f7-47fe-9181-0e9ce2032a01
 source-git-commit: 616e1dd9fbfd029f7209356d5c19cfff9d4b4f06
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '384'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -34,11 +34,11 @@ Les collections vous permettent de classer et de regrouper vos éléments de dé
 
 Supposons, par exemple, que vous ayez ajouté un attribut personnalisé « Catégorie » au schéma de catalogue de vos éléments de décision. Vous pouvez ainsi créer une collection qui inclut tous les éléments de décision avec la valeur « Yoga » dans l’attribut « Categorie ».
 
-La liste des collections est accessible à partir du menu **[!UICONTROL Catalogues]** .
+La liste des collections est accessible à partir du menu **[!UICONTROL Catalogues]**.
 
 Pour créer une collection, procédez comme suit :
 
-1. Accédez à **[!UICONTROL Catalogues]** > **[!UICONTROL Collections]** et cliquez sur **[!UICONTROL Créer une collection]**.
+1. Accédez à **[!UICONTROL Catalogues]** > **[!UICONTROL Collections]** et cliquez sur **[!UICONTROL Créer une collection]**.
 1. Fournissez un nom et une description pour la collection.
 1. Ajoutez une ou plusieurs règles pour déterminer les éléments à inclure dans la collection. Pour ce faire :
 
@@ -53,4 +53,4 @@ Pour créer une collection, procédez comme suit :
 
 >[!NOTE]
 >
->Chaque collection d’éléments peut contenir jusqu’à 500 éléments d’offre. [En savoir plus sur les barrières de sécurité et les limitations de prise de décision](gs-experience-decisioning.md#guardrails)
+>Chaque collection d’éléments peut contenir jusqu’à 500 éléments d’offre. [En savoir plus sur les mécanismes de sécurisation et sur les limitations de la prise de décision](gs-experience-decisioning.md#guardrails)

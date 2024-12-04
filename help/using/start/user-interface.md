@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
 source-git-commit: 594bb029c7d8b711fe60697c5c2e06d9943189fa
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '1374'
+ht-degree: 100%
 
 ---
 
@@ -264,4 +264,4 @@ Pour modifier la langue :
 >[!CONTEXTUALHELP]
 >id="ajo_exd_placements"
 >title="Emplacement"
->abstract="Un placement détermine où les éléments renvoyés du moteur de décision apparaissent dans un message. Vous pouvez suivre leurs performances à différents placements dans les rapports."
+>abstract="Un emplacement détermine où les éléments renvoyés par le moteur de décision apparaissent dans un message. Vous pouvez suivre leurs performances sur les différents emplacements dans les rapports."

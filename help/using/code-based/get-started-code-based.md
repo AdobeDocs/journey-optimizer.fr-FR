@@ -7,9 +7,9 @@ role: User, Developer, Admin
 level: Experienced
 exl-id: 987de2bf-cebe-4753-98b4-01eb3fded492
 source-git-commit: bf0a6fa496a08348be16896a7f2313882eb97c06
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '767'
-ht-degree: 66%
+ht-degree: 100%
 
 ---
 
@@ -51,7 +51,7 @@ Avec la fonctionnalité d’**expérience basée sur le code**, vous pouvez déf
 <img alt="Validation" src="../assets/do-not-localize/web-design.jpg">
 </a>
 <div>
-<a href="code-based-implementation-samples.md"><strong>Configuration de canal basée sur le code</strong></a>
+<a href="code-based-implementation-samples.md"><strong>Configuration du canal basé sur du code</strong></a>
 </div>
 <p>
 </td>
@@ -77,18 +77,18 @@ Quand utiliser le canal basé sur le code plutôt que d’autres canaux [!DNL Jo
 
 <!--* You can use the code-based channel as an alternative to the [!DNL Journey Optimizer] web channel if your website cannot be loaded into the [web designer](../web/web-visual-editor.md){target="_blank"} visual editor or if you cannot use the [browser extension](../web/web-prerequisites.md#visual-authoring-prerequisites){target="_blank"} that powers visual authoring for web channel.-->
 
-* Vous pouvez utiliser le canal basé sur le code comme alternative aux canaux web ou in-app [!DNL Journey Optimizer] si vous disposez d’une implémentation basée sur l’API, sans interface ou côté serveur.
+* Vous pouvez également utiliser le canal basé sur du code comme alternative aux canaux web ou in-app [!DNL Journey Optimizer] si vous disposez d’une implémentation basée sur une API, découplée ou côté serveur.
 
-* Vous pouvez également utiliser le canal basé sur le code sur les applications mobiles natives en tant qu’alternative au canal in-app si vous souhaitez modifier le contenu dans votre application native au lieu d’afficher des modules, fenêtres contextuelles ou superpositions.
+* Vous pouvez également utiliser le canal basé sur du code sur les applications mobiles natives en tant qu’alternative au canal in-app si vous souhaitez modifier du contenu dans votre application native au lieu d’afficher des fenêtres modales, contextuelles ou superposées.
 
 ### Canal basé sur le code ou canal web {#code-based-vs-web}
 
-Pour exécuter des cas d’utilisation web, vous pouvez utiliser le canal web ou l’expérience basée sur du code, mais selon votre contexte, l’un peut être plus approprié que l’autre. Les principales différences sont répertoriées ci-dessous afin que vous puissiez prendre une décision éclairée sur ce qu’il convient d’utiliser et quand.
+Pour exécuter des cas d’utilisation web, vous pouvez utiliser le canal web ou l’expérience basée sur du code, mais selon votre contexte, l’un peut être plus approprié que l’autre. Les principales différences sont répertoriées ci-dessous afin que vous puissiez prendre une décision éclairée sur ce qu’il convient d’utiliser et à quel moment.
 
 **Web**
 
-* Modifiez votre contenu à l’aide de l’éditeur visuel [web designer](../web/web-visual-editor.md){target="_blank"} ou de l’ [éditeur non visuel](../web/web-non-visual-editor.md) web.
-* Vous avez besoin du [SDK Web de Adobe Experience Platform](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html?lang=fr){target="_blank"} - une mise en oeuvre côté client.
+* Modifiez votre contenu à l’aide de l’éditeur visuel du [concepteur web](../web/web-visual-editor.md){target="_blank"} ou de l’[éditeur non visuel](../web/web-non-visual-editor.md) web.
+* Vous avez besoin du [SDK web Adobe Experience Platform](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html?lang=fr){target="_blank"}, qui est une implémentation côté client.
   <!--* You need the [Adobe Experience Cloud Visual Editing Helper](https://chrome.google.com/webstore/detail/adobe-experience-cloud-vi/kgmjjkfjacffaebgpkpcllakjifppnca){target="_blank"} extension installed on your web browser. [Learn more](../web/web-prerequisites.md){target="_blank"}-->
 * Le canal web vous permet de tout modifier sur votre page et dispose d’une liste prédéfinie des actions que vous pouvez utiliser pour apporter des modifications. [En savoir plus](../web/web-visual-editor.md){target="_blank"}
 * Il est facile à configurer et à optimiser.
@@ -97,7 +97,7 @@ Pour exécuter des cas d’utilisation web, vous pouvez utiliser le canal web ou
 **Expérience basée sur le code**
 
 * Modifiez votre contenu à l’aide de l’[éditeur de personnalisation](create-code-based.md#edit-code).
-* Vous avez besoin de l’[ SDK Web Adobe Experience Platform](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html?lang=fr){target="_blank"} - mise en oeuvre côté client ou de l’[ API serveur Edge Network AEP](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/data-collection/interactive-data-collection.html?lang=fr){target="_blank"} - mise en oeuvre côté serveur.
+* Vous avez besoin du [SDK web Adobe Experience Platform](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html?lang=fr){target="_blank"}, qui est une implémentation côté client, ou de l’[API serveur AEP Edge Network](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/data-collection/interactive-data-collection.html?lang=fr){target="_blank"}, qui est une implémentation côté serveur.
 * L’expérience basée sur le code nécessite un travail de développement en aval de votre implémentation pour que vos applications puissent interpréter et diffuser le contenu publié sur Edge par [!DNL Journey Optimizer] pour ces emplacements. [En savoir plus](code-based-surface.md)
 * Cela nécessite davantage de planification et ne peut modifier que les éléments spécifiés par les développeurs et développeuses. Par conséquent, il est essentiel d’identifier les composants (bannière d’accueil, image principale, barre de menus, etc.) sur les applications qui doivent être modifiées pour la personnalisation ou le test, et de collaborer avec votre équipe de développement pour créer l’implémentation nécessaire pour gérer ces modifications.
 * Cela vous permet d’utiliser du contenu de code JSON.
@@ -117,7 +117,7 @@ Pour modifier votre contenu à l’aide de la fonctionnalité d’expérience ba
 
 Les étapes clés pour créer et diffuser une expérience basée sur du code sont les suivantes.
 
-1. Veillez à respecter les conditions préalables spécifiques au canal. [En savoir plus](code-based-prerequisites.md)
+1. Assurez-vous de respecter les conditions préalables spécifiques au canal. [En savoir plus](code-based-prerequisites.md)
 
 1. Définissez une [surface](code-based-surface.md#surface-definition) dans l’implémentation de votre application, qui correspond essentiellement à l’emplacement où vous souhaitez ajouter votre expérience.
 
@@ -129,13 +129,13 @@ Les étapes clés pour créer et diffuser une expérience basée sur du code son
 
 1. Testez votre expérience basée sur du code. [Voici comment procéder](test-code-based.md)
 
-1. Publish-le. [Voici comment procéder](publish-code-based.md)
+1. Publiez-la. [Voici comment procéder](publish-code-based.md)
 
-1. Une fois votre parcours d’expérience ou votre campagne basé sur du code actif, l’implémentation de l’application ou de la page qui demande du contenu pour la surface doit être en place pour que le contenu soit récupéré et affiché.
+1. Une fois que vous avez activé votre parcours ou votre campagne d’expérience basée sur du code, l’implémentation de l’application ou de la page qui demande le contenu pour la surface doit être en place pour que le contenu soit récupéré et affiché.
 
    >[!INFO]
    >
-   >Pour ce faire, votre équipe de mise en oeuvre d’application effectue des appels d’API ou de SDK explicites afin de récupérer du contenu pour la surface définie dans la configuration basée sur le code, comme &quot;Texte de bannière&quot; ou &quot;Bac 1 de Recommendations&quot;, ou des points de décision non liés à l’interface utilisateur dans une application, tels que &quot;paramètres d’algorithme de recherche&quot;. <!--In this case, the implementation team is responsible for rendering or otherwise interpreting and acting on the returned content.--> [En savoir plus](code-based-implementation-samples.md)
+   >Pour s’assurer que cela soit effectué, votre équipe d’implémentation d’application effectue des appels API ou de SDK explicites pour récupérer du contenu pour la surface définie dans la configuration basée sur du code, telle que « Texte de bannière » ou « Barre de recommandations 1 », ou des points de décision non liés à l’interface d’utilisation dans une application, tels que « paramètres d’algorithme de recherche ». <!--In this case, the implementation team is responsible for rendering or otherwise interpreting and acting on the returned content.--> [En savoir plus](code-based-implementation-samples.md)
 
 
 

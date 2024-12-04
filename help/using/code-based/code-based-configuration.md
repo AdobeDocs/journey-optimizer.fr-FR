@@ -7,9 +7,9 @@ role: Admin
 level: Experienced
 exl-id: 1aff2f6f-914c-4088-afd8-58bd9edfe07d
 source-git-commit: bf0a6fa496a08348be16896a7f2313882eb97c06
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1073'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -104,7 +104,7 @@ Pour définir les paramètres de configuration de l’expérience basée sur du 
 1. Les conditions suivantes s’appliquent à l’URL de prévisualisation :
 
    * Si une URL de page unique est saisie, cette URL sera utilisée pour la prévisualisation. Il n’y a pas besoin de saisir une autre URL.
-   * Si une [page correspondant à la règle](../web/web-configuration.md#web-page-matching-rule) est sélectionnée, vous devez saisir une **[!UICONTROL URL de création et d’aperçu par défaut]** qui sera utilisée pour prévisualiser l’expérience dans un navigateur. [En savoir plus](test-code-based.md#preview-on-device)
+   * Si une [règle de correspondance de pages](../web/web-configuration.md#web-page-matching-rule) est sélectionnée, vous devez saisir une **[!UICONTROL URL de création et de prévisualisation par défaut]** qui sera utilisée pour prévisualiser l’expérience dans un navigateur. [En savoir plus](test-code-based.md#preview-on-device)
 
      ![](assets/code_config_matching_rules_preview.png)
 
@@ -112,7 +112,7 @@ Pour définir les paramètres de configuration de l’expérience basée sur du 
 
    >[!CAUTION]
    >
-   >La chaîne ou le chemin saisi dans ce champ doit correspondre à celui déclaré dans l’application ou la mise en oeuvre de la page. Cela garantit que le contenu est diffusé à l’emplacement souhaité dans l’application ou la page spécifiée. [En savoir plus](code-based-surface.md#uri-composition)
+   >La chaîne saisie ou le chemin saisi dans ce champ doit correspondre à l’élément déclaré dans votre implémentation d’application ou de page. Cela garantit que le contenu est diffusé à l’emplacement souhaité dans l’application ou la page spécifiée. [En savoir plus](code-based-surface.md#uri-composition)
 
    ![](assets/code_config_location_on_page.png)
 
@@ -170,7 +170,7 @@ Pour définir les paramètres de configuration d’expérience basée sur du cod
 
    >[!CAUTION]
    >
-   >Veillez à saisir un URI de surface correspondant à celui utilisé dans votre propre mise en œuvre. Dans le cas contraire, les modifications ne peuvent pas être diffusées. [En savoir plus](code-based-surface.md#uri-composition)
+   >Veillez à saisir un URI de surface correspondant à celui utilisé dans votre propre mise en œuvre. Sinon, les modifications ne sont pas diffusées. [En savoir plus](code-based-surface.md#uri-composition)
 
 1. **[!UICONTROL Ajoutez un autre URI de surface]** si nécessaire. Vous pouvez ajouter jusqu’à 10 URI.
 

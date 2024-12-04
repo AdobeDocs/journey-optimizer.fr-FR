@@ -7,9 +7,9 @@ role: User
 level: Experienced
 exl-id: 25c2c448-9380-47b0-97c5-16d9afb794c5
 source-git-commit: bf0a6fa496a08348be16896a7f2313882eb97c06
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '713'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -85,7 +85,7 @@ Pour commencer à créer votre **expérience basée sur du code** par le biais d
 
 Pour plus d’informations sur la configuration d’une campagne, consultez cette [page](../campaigns/get-started-with-campaigns.md).
 
-➡️ [Découvrez comment créer une campagne d’expérience basée sur le code dans cette vidéo](#video)
+➡️ [Découvrir comment créer une campagne par expérience basée sur du code dans cette vidéo](#video)
 
 >[!ENDTABS]
 
@@ -127,6 +127,6 @@ Désormais, dès que votre développeur ou développeuse lance un appel d’API 
 
 ## Vidéo pratique{#video}
 
-La vidéo ci-dessous montre comment créer une campagne d’expérience basée sur du code, configurer ses propriétés, la tester et la publier.
+La vidéo ci-dessous montre comment créer une campagne par expérience basée sur du code, configurer ses propriétés, la tester et la publier.
 
 >[!VIDEO](https://video.tv.adobe.com/v/3428868/?quality=12&learn=on)

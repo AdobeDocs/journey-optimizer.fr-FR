@@ -6,9 +6,9 @@ user-guide-description: Utilisez Journey Optimizer pour créer et proposer aux 
 type: Documentation
 solution: Journey Optimizer
 source-git-commit: 5a64190203563d66309c897fe3ee806a74e8bfc9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2188'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -273,15 +273,15 @@ ht-degree: 98%
          + [Créer des applications monopage](using/web/web-spa.md)
    + Expérience basée sur le code {#code-based-experience}
       + [Commencer avec le canal basé sur le code](using/code-based/get-started-code-based.md)
-      + Configuration d’un canal basé sur le code {#configure-code-based-channel}
+      + Configurer le canal basé sur du code {#configure-code-based-channel}
          + [Mécanismes de sécurisation et conditions préalables](using/code-based/code-based-prerequisites.md)
-         + [Surfaces d’expérience basées sur le code](using/code-based/code-based-surface.md)
+         + [Surfaces d’expérience basée sur du code](using/code-based/code-based-surface.md)
          + [Exemples de méthodes de mise en œuvre](using/code-based/code-based-implementation-samples.md)
          + [Créer une configuration de l’expérience basée sur du code](using/code-based/code-based-configuration.md)
       + Créer des expériences basées sur du code {#create-code-based-experiences}
-         + [Création et composition d’expériences basées sur du code](using/code-based/create-code-based.md)
-         + [Test d’expériences basées sur du code](using/code-based/test-code-based.md)
-         + [Gestion des expériences basées sur du code](using/code-based/publish-code-based.md)
+         + [Créer et composer des expériences basées sur du code](using/code-based/create-code-based.md)
+         + [Tester des expériences basées sur du code](using/code-based/test-code-based.md)
+         + [Gérer des expériences basées sur du code](using/code-based/publish-code-based.md)
    + Cartes de contenu{#content-card}
       + [Commencer avec les cartes de contenu](using/content-card/get-started-content-card.md)
       + Configurer le canal de carte de contenu {#configure}
@@ -292,7 +292,7 @@ ht-degree: 98%
       + [Concevoir des cartes de contenu](using/content-card/design-content-card.md)
 +  Pages de destination {#landing-pages}
    + [Prise en main des pages de destination](using/landing-pages/get-started-lp.md)
-   + [Création d’une page de destination](using/landing-pages/create-lp.md)
+   + [Créer une page de destination](using/landing-pages/create-lp.md)
    + Conception du contenu {#landing-pages-design}
       + [À propos de la conception d&#39;une page de destination](using/landing-pages/design-lp.md)
       + [Création du contenu de la page de destination](using/landing-pages/lp-content.md)
@@ -380,7 +380,7 @@ ht-degree: 98%
          + [Créer des workflows de composition](using/audience/create-compositions.md)
          + [Utiliser la zone de travail de composition](using/audience/composition-canvas.md)
          + [Accéder aux audiences et les gérer](using/audience/access-audiences.md)
-      + [Composition de l’audience fédérée](https://experienceleague.adobe.com/fr/docs/federated-audience-composition/using/home)
+      + [Composition d’audiences fédérées](https://experienceleague.adobe.com/fr/docs/federated-audience-composition/using/home)
    + Profils{#profiles}
       + [Prise en main des profils](using/audience/get-started-profiles.md)
       + [Créer des profils de test](using/audience/creating-test-profiles.md)
@@ -454,7 +454,7 @@ ht-degree: 98%
    + [Alertes](using/reports/alerts.md)
    + [Causes d’exclusion](using/reports/exclusion-list.md)
 + Fonctionnalités de décision {#decisioning}
-   + [Prise en main des fonctionnalités de décision](using/experience-decisioning/gs-decision.md)
+   + [Commencer avec les fonctionnalités de décision](using/experience-decisioning/gs-decision.md)
    + Prise de décision {#experience-decisioning}
       + [Commencer avec la prise de décision](using/experience-decisioning/gs-experience-decisioning.md)
       + Référence de l’API{#api-reference}
@@ -486,8 +486,8 @@ ht-degree: 98%
          + [Utiliser des données contextuelles](using/experience-decisioning/context-data.md)
       + [Créer des stratégies de sélection](using/experience-decisioning/selection-strategies.md)
       + [Créer des politiques de décision](using/experience-decisioning/create-decision.md)
-      + [Rapport sur la prise de décision](using/experience-decisioning/cja-reporting.md)
-      + [Cas d’utilisation de prise de décision](using/experience-decisioning/experience-decisioning-uc.md)
+      + [Rapports sur la prise de décision](using/experience-decisioning/cja-reporting.md)
+      + [Cas d’utilisation de la prise de décision](using/experience-decisioning/experience-decisioning-uc.md)
    + Gestion des décisions {#offer-decisioning}
       + Prise en main de la gestion des décisions {#get-started-decision}
          + [À propos de la gestion des décisions](using/offers/get-started/starting-offer-decisioning.md)
@@ -702,7 +702,7 @@ ht-degree: 98%
       + [Niveaux d’autorisation](using/administration/high-low-permissions.md)
    + [Gérer les utilisateurs et utilisatrices, et les rôles](using/administration/permissions.md)
    + [Contrôle d’accès basé sur les attributs](using/administration/attribute-based-access.md)
-   + [Contrôle d’accès au niveau de l’objet](using/administration/object-based-access.md)
+   + [Contrôle d’accès au niveau des objets](using/administration/object-based-access.md)
    + [Gestion des sandbox](using/administration/sandboxes.md)
 + Confidentialité {#privacy}
    + [Prise en main de la confidentialité](using/privacy/get-started-privacy.md)

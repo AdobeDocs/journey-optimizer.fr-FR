@@ -1,5 +1,5 @@
 ---
-title: Prise en main de la gestion des décisions
+title: Commencer avec la gestion des décisions
 description: Découvrez comment Adobe Journey Optimizer peut vous aider à envoyer à vos clients la bonne offre au bon moment
 feature: Decision Management
 topic: Integrations
@@ -7,13 +7,13 @@ role: User
 level: Intermediate
 exl-id: 659984cb-b232-47ba-9f5a-604bf97a5e92
 source-git-commit: c9efdf634831822e670257f6ee738310081a96fb
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '933'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
-# Prise en main de la gestion des décisions {#about-decision-management}
+# Commencer avec la gestion des décisions {#about-decision-management}
 
 Utilisez [!DNL Journey Optimizer] pour offrir au bon moment à vos clients les meilleures offre et expérience possibles à tous les points de contact. Une fois la conception réalisée, ciblez vos audiences avec des offres personnalisées.
 
@@ -36,7 +36,7 @@ Voici quelques-uns des avantages :
 
 ## À lire absolument {#must-read}
 
-* Pour l’instant, la gestion de la décision ne prend pas en charge ces fonctionnalités : contrôle d’accès au niveau de l’objet, contrôle d’accès au niveau du champ et service d’application de la stratégie de consentement. Si vous souhaitez utiliser l’une d’elles, pensez à utiliser la fonctionnalité de prise de décision de Journey Optimizer [1}.](../../experience-decisioning/gs-experience-decisioning.md)
+* Pour l’instant, la gestion des décisions ne prend pas en charge les fonctionnalités suivantes : contrôle d’accès au niveau des objets, contrôle d’accès au niveau des champs et service d’application de la politique de consentement. Si vous souhaitez utiliser l’une d’entre elles, envisagez d’utiliser la fonctionnalité de [prise de décision](../../experience-decisioning/gs-experience-decisioning.md) de Journey Optimizer.
 
 * Si vous êtes un utilisateur ou une utilisatrice d’[Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/home.html?lang=fr){target="_blank"} qui utilise l’application **Offer Decisioning**, toutes les fonctionnalités de gestion des décisions décrites dans cette section s’appliquent également à vous.
 

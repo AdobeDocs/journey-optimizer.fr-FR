@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Création d’une page de destination
+title: Créer une page de destination
 description: Découvrez comment configurer et publier une page de destination dans Journey Optimizer
 feature: Landing Pages
 topic: Content Management
@@ -10,9 +10,9 @@ level: Beginner
 keywords: destination, page de destination, création, publication
 exl-id: 18f9bdff-f5c6-4601-919d-4f3124e484b5
 source-git-commit: 47b549f3e1e220b7e8f0c82d9a1f9ecfd5dd2340
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1729'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -28,37 +28,37 @@ Pour diriger vos clientes et clients vers une page web définie que vous souhait
 >
 >Vous ne pouvez pas accéder à votre page de destination en copiant-collant dans un navigateur web l’URL définie lors de la [création de la page](#create-landing-page), même si elle est publiée. Vous pouvez plutôt la tester à l’aide de la fonction de prévisualisation, comme décrit dans [cette section](#test-landing-page).
 
-## Accès aux pages de destination {#access-landing-pages}
+## Accéder aux pages de destination {#access-landing-pages}
 
-Pour accéder à la liste des landing pages, sélectionnez **[!UICONTROL Gestion de contenu]** > **[!UICONTROL Landing pages]** dans le menu de gauche.
+Pour accéder à la liste des pages de destination, sélectionnez **[!UICONTROL Gestion du contenu]** > **[!UICONTROL Pages de destination]** dans le menu de gauche.
 
 ![](assets/lp_access-list.png)
 
-La liste des **[!UICONTROL Pages de destination]** affiche tous les éléments créés. Vous pouvez les filtrer selon leur état, la date de modification ou les balises.
+La liste des **[!UICONTROL pages de destination]** affiche tous les éléments créés. Vous pouvez les filtrer selon leur statut, leur date de modification ou leurs balises.
 
 ![](assets/lp_access-list-filter.png)
 
-Vous pouvez accéder à plusieurs actions à partir de cette liste. Cliquez sur les trois points en regard d’une landing page pour sélectionner l’action souhaitée :
+Vous pouvez accéder à plusieurs actions à partir de cette liste. Cliquez sur les trois points à côté d’une page de destination pour sélectionner l’action souhaitée :
 
 ![](assets/lp_access-list-actions.png)
 
-* Pour les éléments publiés, vous pouvez accéder au [rapport de page d’entrée](../reports/lp-report-global-cja.md) ou au [rapport en direct sur les 24 dernières heures](../reports/lp-report-live.md).
+* Pour les éléments publiés, vous pouvez accéder au [rapport de page de destination](../reports/lp-report-global-cja.md) ou au [rapport en direct sur les dernières 24 heures](../reports/lp-report-live.md).
 
-* Vous pouvez supprimer ou dupliquer une landing page.
+* Vous pouvez supprimer ou dupliquer une page de destination.
 
   >[!NOTE]
   >
   >Vous ne pouvez pas supprimer une page de destination [publiée](#publish-landing-page). Pour la supprimer, vous devez d’abord la dépublier.
 
-* Vous pouvez dépublier une landing page publiée.
+* Vous ne pouvez pas dépublier une page de destination publiée.
 
   >[!CAUTION]
   >
   >Si vous dépubliez une page de destination référencée dans un message, le lien vers celle-ci est rompu et une page d’erreur s’affiche.
 
-* Vous pouvez également modifier les [balises](../start/search-filter-categorize.md#tags) associées à une page d’entrée.
+* Vous pouvez également modifier les [balises](../start/search-filter-categorize.md#tags) associées à une page de destination.
 
-## Création d’une page de destination {#create-landing-page}
+## Créer une page de destination {#create-landing-page}
 
 >[!CONTEXTUALHELP]
 >id="ajo_lp_create"
@@ -69,7 +69,7 @@ Vous pouvez accéder à plusieurs actions à partir de cette liste. Cliquez sur 
 >id="ajo_lp_access_management_labels"
 >title="Attribuer des libellés à votre page de destination"
 >abstract="Pour protéger les ressources numériques sensibles, vous pouvez définir des autorisations afin de gérer l&#39;accès aux données de votre page de destination à l&#39;aide de libellés."
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/access-control/object-based-access.html?lang=fr" text="Contrôle d’accès au niveau de l’objet"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/access-control/object-based-access.html?lang=fr" text="Contrôle d’accès au niveau des objets"
 
 Suivez les étapes principales de création de pages de destination décrites ci-après :
 

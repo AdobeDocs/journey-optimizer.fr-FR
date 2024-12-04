@@ -6,9 +6,9 @@ role: User
 level: Beginner
 exl-id: 736fc861-17f2-47b7-8635-9afd261ea3a8
 source-git-commit: a5eacd7a746b2f17804062b23aee3146db0434c9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '438'
-ht-degree: 50%
+ht-degree: 100%
 
 ---
 
@@ -24,11 +24,11 @@ ht-degree: 50%
 >title="Vérifier le rendu de votre contenu"
 >abstract="Une fois votre contenu défini, vous pouvez le prévisualiser et vérifier si le rendu est correct en fonction du canal que vous utilisez."
 
-## A propos de l&#39;aperçu et du test {#about}
+## À propos de la prévisualisation et du test {#about}
 
-Une fois votre contenu défini, vous pouvez prévisualiser son contenu avant d&#39;envoyer le message. Il s’agit d’une étape cruciale pour vous assurer qu’il est exact, mais également exempt d’erreurs au niveau du contenu et des paramètres de personnalisation.
+Une fois votre contenu défini, vous pouvez le prévisualiser avant d’envoyer le message. Il s’agit d’une étape cruciale pour vous assurer qu’il est exact, mais également exempt d’erreurs au niveau du contenu et des paramètres de personnalisation.
 
-Vous pouvez également envoyer des diffusions test de vos emails à des destinataires ou des abonnés spécifiques à des fins de test et de validation, et vérifier leur rendu sur des clients populaires de bureau, mobiles et web.
+Vous pouvez également envoyer des diffusions de test de vos e-mails à des destinataires ou à des personnes abonnées spécifiques à des fins de test et de validation, et vérifier la façon dont ils s’affichent sur les clients populaires de bureau, mobiles et web.
 
 >[!CAUTION]
 >
@@ -38,40 +38,40 @@ Toutes ces actions peuvent être effectuées à l’aide du bouton **[!UICONTROL
 
 ![](../email/assets/email-preview-button.png)
 
-Notez que l’autorisation **[!DNL Manage Simulate Content]** doit être incluse dans le profil de produit **[!DNL Content Library Manager]**. [En savoir plus](../administration/ootb-product-profiles.md#content-library-manager).
+Notez que vous devez disposer de l’autorisation **[!DNL Manage Simulate Content]** incluse dans le profil de produit **[!DNL Content Library Manager]**. [En savoir plus](../administration/ootb-product-profiles.md#content-library-manager).
 
 ## Test à l’aide de profils de test ou d’exemples de données d’entrée {#methods}
 
-Vous pouvez prévisualiser et tester votre contenu à l’aide des éléments suivants :
+Vous pouvez prévisualiser et tester votre contenu à l’aide des éléments suivants :
 
 * **Profils de test**
 
-  Utilisez des profils de test pour prévisualiser votre contenu, envoyer des BAT d’email et vérifier le rendu des emails. Si vous avez ajouté des champs personnalisés, vous pouvez vérifier leur affichage à l&#39;aide des données de profil de test. Pour plus d’informations, consultez les sections suivantes :
+  Utilisez des profils de test pour prévisualiser votre contenu, envoyer des BAT d’e-mails et vérifier le rendu des e-mails. Si vous avez ajouté des champs personnalisés, vous pouvez vérifier la manière dont ils sont affichés à l’aide des données des profils de test. Pour plus d’informations, consultez les sections suivantes :
 
-  ➡️ [Sélectionner des profils de test](test-profiles.md)
+  ➡️ [Sélectionner des profils de test](test-profiles.md)
 
-  ➡️ [Prévisualisez votre contenu à l’aide des profils de test](preview.md)
+  ➡️ [Prévisualiser votre contenu à l’aide de profils de test](preview.md)
 
-  ➡️ [Envoyer des BAT d&#39;email](proofs.md)
+  ➡️ [Envoyer des BAT d’e-mails](proofs.md)
 
-  ➡️ [Vérifier le rendu des emails](rendering.md)
+  ➡️ [Vérifier le rendu des e-mails](rendering.md)
 
-  ➡️ [Prévisualisez et testez votre email (vidéo)](#video-preview)
+  ➡️ [Prévisualiser et tester votre e-mail (vidéo)](#video-preview)
 
 * **Exemple de données d’entrée**
 
-  [!DNL Journey optimizer] vous permet de tester différentes variantes de votre contenu en le prévisualisant et en envoyant des bons à tirer à l’aide d’exemples de données d’entrée téléchargées à partir d’un fichier CSV/JSON, ou ajoutées manuellement.
+  [!DNL Journey optimizer] vous permet de tester différentes variantes de votre contenu en le prévisualisant et en envoyant des BAT à l’aide d’exemples de données d’entrée chargées à partir d’un fichier CSV/JSON ou ajoutées manuellement.
 
   Tous les attributs de profil utilisés dans votre contenu pour la personnalisation sont automatiquement détectés par le système et peuvent être utilisés pour vos tests afin de créer plusieurs variantes.
 
-  ➡️ [Découvrez comment tester votre contenu à l’aide d’exemples de données d’entrée](../test-approve/simulate-sample-input.md)
+  ➡️ [Découvrir comment tester votre contenu à l’aide d’exemples de données d’entrée](../test-approve/simulate-sample-input.md)
 
   >[!NOTE]
   >
-  >Cette fonctionnalité est actuellement disponible pour tous les clients en version bêta publique uniquement pour les canaux Email, SMS et Notification push.
+  >Cette fonctionnalité est actuellement disponible pour tous les clientes et clients en version bêta publique et uniquement pour les canaux E-mail, SMS et Notification push.
 
 ## Vidéo pratique {#video-preview}
 
-Découvrez comment utiliser des profils de test pour tester le rendu des emails dans les boîtes de réception, prévisualiser vos emails personnalisés par rapport aux profils de test et envoyer des bons à tirer.
+Découvrez comment utiliser des profils de test pour tester le rendu d’e-mails dans différentes boîtes de réception, prévisualiser vos e-mails personnalisés avec des profils de test et envoyer des BAT.
 
 >[!VIDEO](https://video.tv.adobe.com/v/3425026?quality=12)

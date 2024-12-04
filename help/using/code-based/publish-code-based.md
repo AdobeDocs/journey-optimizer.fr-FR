@@ -1,18 +1,19 @@
 ---
-title: Publish et gestion d’expériences basées sur du code
-description: Découvrez comment publier et arrêter des expériences basées sur du code dans Journey Optimizer
+title: Publier et gérer des expériences basées sur du code
+description: Découvrir comment publier et arrêter des expériences basées sur du code dans Journey Optimizer
 feature: Code-based Experiences
 topic: Content Management
 role: User
 level: Experienced
-source-git-commit: bf0a6fa496a08348be16896a7f2313882eb97c06
-workflow-type: tm+mt
+exl-id: a1daf6f7-c26c-4d70-984b-0b4eeb04a1a8
+source-git-commit: f247ef3c3cd7d1d270893ae6bf88fadf3932d05e
+workflow-type: ht
 source-wordcount: '494'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
-# Gestion des expériences basées sur du code {#publish-code-based}
+# Gérer des expériences basées sur du code {#publish-code-based}
 
 ## Mettre en ligne votre expérience basée sur du code {#code-based-experience-live}
 
@@ -153,4 +154,3 @@ TBC: The **[!UICONTROL Interactions by element]** table details the main informa
 +++
 
 -->
-

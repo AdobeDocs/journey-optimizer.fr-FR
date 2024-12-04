@@ -9,9 +9,9 @@ role: User
 level: Beginner
 exl-id: aad4e08a-3369-454d-9e32-974347a3b393
 source-git-commit: 03cb3298c905766bc059e82c58969a2111379345
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '393'
-ht-degree: 80%
+ht-degree: 100%
 
 ---
 
@@ -19,13 +19,13 @@ ht-degree: 80%
 
 ## Prévisualiser votre notification push {#preview-push}
 
-Une fois le contenu de votre message défini, vous pouvez utiliser des profils de test ou des exemples de données d’entrée téléchargés à partir d’un fichier CSV/JSON, ou ajoutés manuellement pour prévisualiser son contenu. Si vous avez inséré du contenu personnalisé, vous pouvez vérifier l&#39;affichage de ce contenu dans le message. [Découvrez comment tester votre contenu à l’aide d’exemples de données d’entrée](../test-approve/simulate-sample-input.md)
+Une fois le contenu de votre message défini, vous pouvez utiliser des profils de test ou des exemples de données d’entrée chargés à partir d’un fichier CSV/JSON ou ajoutés manuellement pour prévisualiser son contenu. Si vous avez inséré du contenu personnalisé, vous pouvez vérifier la façon dont celui-ci s’affiche dans le message. [Découvrir comment tester votre contenu à l’aide d’exemples de données d’entrée](../test-approve/simulate-sample-input.md)
 
 Pour ce faire, cliquez sur **[!UICONTROL Simuler le contenu]**. Vous pouvez sélectionner le type d’appareil sur lequel prévisualiser le contenu : **[!UICONTROL iOS]** ou **[!UICONTROL Android]**.
 
 ![](assets/push_preview_3.png)
 
-Des informations détaillées sur la façon de prévisualiser et de tester le contenu sont disponibles dans la section [Gestion de contenu](../content-management/preview-test.md) .
+Vous trouverez des informations détaillées sur comment prévisualiser et tester votre contenu dans la section [Gestion de contenu](../content-management/preview-test.md).
 
 ## Valider la notification push {#push-validate}
 

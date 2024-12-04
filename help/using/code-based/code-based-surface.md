@@ -1,18 +1,19 @@
 ---
-title: Surface basée sur le code
-description: Découvrez ce qu’est une surface d’expérience basée sur du code
+title: Surface basée sur du code
+description: Découvrir le concept de surface d’expérience basée sur du code
 feature: Code-based Experiences, Channel Configuration
 topic: Content Management
 role: Admin
 level: Experienced
-source-git-commit: e9181c333fb9188cdfcee3fd96c1d3bb94b8dd75
-workflow-type: tm+mt
+exl-id: 07ec74fb-7fbc-48c6-a8fc-f58f24a60723
+source-git-commit: f247ef3c3cd7d1d270893ae6bf88fadf3932d05e
+workflow-type: ht
 source-wordcount: '728'
-ht-degree: 56%
+ht-degree: 100%
 
 ---
 
-# Surfaces d’expérience basées sur le code {#code-based-surface}
+# Surfaces d’expérience basée sur du code {#code-based-surface}
 
 ## Qu’est-ce qu’une surface ? {#surface-definition}
 
@@ -20,9 +21,9 @@ ht-degree: 56%
 >id="ajo_admin_surface_uri"
 >title="Ajouter l’URI de surface pour votre composant"
 >abstract="Si votre mise en œuvre n’est pas destinée au Web, à iOS ou à Android, ou si vous devez cibler des URI spécifiques, saisissez un URI de surface, c’est-à-dire un identifiant unique qui dirige vers l’entité où vous souhaitez diffuser votre expérience. Veillez à saisir un URI de surface correspondant à celui utilisé dans votre propre mise en œuvre."
->additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/channels/code-based-experience/configure-code-based-channel/code-based-configuration#other" text="Création d’une configuration d’expérience basée sur du code pour d’autres plateformes"
+>additional-url="https://experienceleague.adobe.com/fr/docs/journey-optimizer/using/channels/code-based-experience/configure-code-based-channel/code-based-configuration#other" text="Créer une configuration d’expérience basée sur du code pour d’autres plateformes"
 
-Une expérience basée sur du code **surface** est toute entité conçue pour l’interaction de l’utilisateur ou du système, identifiée de manière unique par un [URI](#surface-uri). La surface est spécifiée dans l’ [implémentation de l’application](code-based-prerequisites.md#implementation-prerequisites) et doit correspondre à la surface référencée dans votre [ configuration de canal d’expérience basée sur le code](code-based-configuration.md).
+Une **surface** d’expérience basée sur du code est toute entité conçue pour une interaction utilisateur ou utilisatrice ou système, identifiée de manière unique par un [URI](#surface-uri). La surface est spécifiée dans l’[implémentation de l’application](code-based-prerequisites.md#implementation-prerequisites) et doit correspondre à celle référencée dans votre [configuration de canal d’expérience basée sur du code](code-based-configuration.md).
 
 Une surface peut être considérée comme un conteneur à n’importe quel niveau de hiérarchie ayant une entité (point de contact) qui existe.
 
@@ -34,7 +35,7 @@ Une surface peut être considérée comme un conteneur à n’importe quel nivea
 
 ## Identifiant de surface {#surface-uri}
 
-Un **URI de surface** sert d’identifiant précis pour diriger vers des éléments ou des composants d’interface utilisateur distincts au sein d’une application. Fondamentalement, un URI de surface est composé de plusieurs sections :
+Un **URI de surface** sert d’identifiant précis pointant vers des éléments ou des composants de l’interface d’utilisation distincts au sein d’une application. Fondamentalement, un URI de surface est composé de plusieurs sections :
 
 1. **Type** : web, application mobile, ATM, kiosque, tvcd, service, etc.
 1. **Propriété** : URL de page ou bundle d’applications.
@@ -67,27 +68,27 @@ Les tableaux ci-dessous répertorient quelques exemples de définition d’URI d
 | Caractère générique web | `wildcard:web://domain.com/*#element` | Surface de caractères génériques : représente un élément individuel dans chacune des pages sous un domaine spécifique. |
 | Caractère générique web | `wildcard:web://*domain.com/*#element` | Surface de caractères génériques : représente un élément individuel dans chacune des pages sous tous les domaines se terminant par « domain.com ». |
 
-## composition d’URI {#uri-composition}
+## Composition d’URI {#uri-composition}
 
-Dans [!DNL Journey Optimizer], le canal d’expérience basé sur le code prend en charge deux types d’implémentations client :
+Dans [!DNL Journey Optimizer], le canal d’expérience basé sur du code prend en charge deux types d’implémentations clientes :
 
-* Basé sur le [ SDK Web Adobe Experience Platform](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html?lang=fr){target="_blank"} pour vos sites Web ou sur le [ SDK Mobile Adobe Experience Platform ](https://developer.adobe.com/client-sdks/documentation/){target="_blank"} pour vos applications mobiles ;
-* Côté serveur ou hybride à l’aide des [API de serveur Edge Network AEP](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/data-collection/interactive-data-collection.html?lang=fr){target="_blank"}.
+* Basée sur le [SDK web Adobe Experience Platform](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html?lang=fr){target="_blank"} pour vos sites web ou sur le [SDK mobile Adobe Experience Platform](https://developer.adobe.com/client-sdks/documentation/){target="_blank"} pour vos applications mobiles ;
+* Côté serveur ou hybride à l’aide des [API de serveur AEP Edge Network](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/data-collection/interactive-data-collection.html?lang=fr){target="_blank"}.
 
 >[!NOTE]
 >
->Pour en savoir plus sur les conditions préalables à la mise en oeuvre, consultez [cette section](code-based-prerequisites.md#implementation-prerequisites).
+>Pour en savoir plus sur les conditions préalables à l’implémentation, consultez [cette section](code-based-prerequisites.md#implementation-prerequisites).
 
-À l’aide d’expériences basées sur du code, vous pouvez modifier du contenu sur des emplacements granulaires <!--(such as a specific location on a page, or inside a mobile native app)--> qui sont identifiés de manière unique par [!DNL Journey Optimizer] à l’aide des [URI de surface](#surface-uri).
+À l’aide d’expériences basées sur du code, vous pouvez modifier du contenu dans des emplacements granulaires <!--(such as a specific location on a page, or inside a mobile native app)-->, identifiés de manière unique par [!DNL Journey Optimizer] à l’aide d’[URI de surface](#surface-uri).
 
-Ces URI de surface sont composés et gérés selon la méthode d’implémentation :
+Ces URI de surface sont composés et gérés en fonction de la méthode d’implémentation :
 
-* **SDK Web/Mobile** : votre développeur web/mobile doit définir ces emplacements granulaires sous la forme de chaînes simples, car le SDK Web/Mobile est capable de composer automatiquement l’URI de surface en fonction de l’URL/de l’application actuelle et de la chaîne d’emplacement.
+* **SDK web/mobile** : votre développeur ou développeuse web/mobile doit définir ces emplacements granulaires sous la forme de chaînes simples, car le SDK web/mobile est capable de composer automatiquement l’URI de surface en fonction de l’URL/de l’identifiant d’application actuels et de la chaîne d’emplacement.
 
-* **API Edge Network** : le développeur d’applications/de pages doit définir des URI de surface complets qui incluent le chemin et l’emplacement complets où le contenu sera utilisé, car les URI complets sont requis dans ce type d’implémentation.
+* **API Edge Network** : le développeur ou la développeuse d’applications/de pages doit définir des URI de surface complets qui incluent le chemin complet et l’emplacement où le contenu sera utilisé, car des URI complets sont requis pour ce type d’implémentation.
 
-C’est pourquoi, lors de la création d’une [ configuration de canal d’expérience basée sur le code ](code-based-configuration.md), vous avez deux manières de spécifier la surface en fonction de la plateforme sélectionnée :
+C’est ainsi que, lors de la création d’une [configuration de canal d’expérience basée sur du code](code-based-configuration.md), vous avez deux manières de spécifier la surface en fonction de la plateforme sélectionnée :
 
-* Pour les plateformes **[!UICONTROL Web]**, **[!UICONTROL iOS]** et **[!UICONTROL Android]**, vous devez saisir l’ **URL/app ID** et un **emplacement ou chemin** pour composer la surface. En savoir plus sur la configuration des expériences basées sur le code pour les plateformes [web](code-based-configuration.md#web) et [mobile](code-based-configuration.md#mobile)
+* Pour les plateformes **[!UICONTROL Web]**, **[!UICONTROL iOS]** et **[!UICONTROL Android]**, vous devez saisir **l’URL/l’identifiant de l’application** et un **emplacement ou un chemin** pour composer la surface. En savoir plus sur la configuration des expériences basées sur du code pour les plateformes [web](code-based-configuration.md#web) et [mobiles](code-based-configuration.md#mobile)
 
-* Si la plateforme est **[!UICONTROL Autre]**, vous devez saisir l’ **URI de surface** complet, comme dans les exemples [ci-dessus](#surface-uri). En savoir plus sur la configuration d’expériences basées sur le code pour [autres](code-based-configuration.md#other) plateformes
+* Si la plateforme est **[!UICONTROL Autre]**, vous devez saisir l’**URI de surface** complet, comme dans les exemples [ci-dessus](#surface-uri). En savoir plus sur la configuration d’expériences basées sur du code pour les [autres](code-based-configuration.md#other) plateformes

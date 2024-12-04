@@ -10,9 +10,9 @@ level: Intermediate
 keywords: IP, groupes, délivrabilité
 exl-id: a9995ca1-d7eb-4f8d-a9d9-fe56198ac325
 source-git-commit: cf946f8d59728a743b3c4b571c07fc70e3c6cf87
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '423'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -57,7 +57,7 @@ Pour créer une campagne de préchauffage d’adresses IP, suivez les étapes ci
 
    >[!IMPORTANT]
    >
-   >Les audiences autorisées dans une campagne de réchauffement des adresses IP doivent être [basées sur des segments](../audience/creating-a-segment-definition.md) et créées à l’aide de la [ stratégie de fusion par défaut](https://experienceleague.adobe.com/en/docs/experience-platform/profile/merge-policies/overview#default-merge-policy){target="_blank"}.
+   >Les audiences autorisées dans une campagne de préchauffage des adresses IP doivent être [basées sur des segments](../audience/creating-a-segment-definition.md) et créées à l’aide de la [politique de fusion par défaut](https://experienceleague.adobe.com/fr/docs/experience-platform/profile/merge-policies/overview#default-merge-policy){target="_blank"}.
 
    Pour plus d’informations sur la configuration d’une campagne, consultez cette [page](../campaigns/get-started-with-campaigns.md).
 
@@ -65,7 +65,7 @@ Pour créer une campagne de préchauffage d’adresses IP, suivez les étapes ci
 
    >[!NOTE]
    >
-   >[Les règles de fonctionnement](rule-sets.md#apply-frequency-rule) ne doivent pas être utilisées sur les plans de réchauffement d’IP. L’application de ces règles peut empêcher d’atteindre le nombre souhaité de profils ciblés pour les campagnes.
+   >Les [règles commerciales](rule-sets.md#apply-frequency-rule) ne doivent pas être utilisées dans le cadre d’un plan de préchauffage des adresses IP. L’application de ces règles peut empêcher d’atteindre le nombre souhaité de profils ciblés pour les campagnes.
 
    Pour une campagne active avec un plan de préchauffage d’adresses IP activé, le bouton **[!UICONTROL Supprimer]** est disponible jusqu’à ce qu’il soit associé à un plan de préchauffage d’adresses IP. Une fois utilisée dans un plan, la campagne ne peut plus être supprimée.
 

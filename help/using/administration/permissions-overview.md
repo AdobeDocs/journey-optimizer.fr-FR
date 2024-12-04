@@ -10,9 +10,9 @@ level: Intermediate
 keywords: autorisations, droits, restrictions, accès, sandbox
 exl-id: b8e266b1-d8eb-4c77-9341-9761b82609b0
 source-git-commit: c2f68054cb0c378b188797a2b3aa4fb2841b7384
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '149'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -28,7 +28,7 @@ La gestion des utilisateurs dans [!DNL Journey Optimizer] repose sur trois conce
 
 * **[!UICONTROL Autorisations]** : droits unitaires qui permettent de définir les autorisations attribuées aux **[!UICONTROL Rôles]**. Chaque autorisation est regroupée sous des ressources, par exemple Parcours ou Offres, ce qui représente les différentes fonctionnalités ou objets dans [!DNL Journey Optimizer]. Reportez-vous à la section [Niveaux d&#39;autorisation](high-low-permissions.md).
 
-* **[!UICONTROL Sandbox]** : sandbox virtuels qui divisent les instances en environnements virtuels distincts et isolés. Reportez-vous à la section [Utilisation des environnements de test](sandboxes.md).
+* **[!UICONTROL Sandbox]** : sandbox virtuels qui divisent les instances en environnements virtuels distincts et isolés. Consultez la section [Utilisation de sandbox](sandboxes.md).
 
 ![](assets/do-not-localize/permissions_2.png)
 
