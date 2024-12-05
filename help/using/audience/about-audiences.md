@@ -90,21 +90,21 @@ Voici les actions que vous pouvez effectuer à l’aide des attributs d’enrich
 >
 >Pour utiliser les attributs d’enrichissement des audiences créées à l’aide de workflows de composition, assurez-vous qu’ils sont ajoutés à un groupe de champs dans la source de données « ExperiencePlatform ».
 >
-+++ Découvrez comment ajouter des attributs d’enrichissement à un groupe de champs.>
+>+++ Découvrez comment ajouter des attributs d’enrichissement à un groupe de champs.>
 >
-1. Accédez à « Administration » > « Configuration » > « Sources de données ».
-1. Sélectionnez « Experience Platform » et créez ou modifiez un groupe de champs.
-1. Dans le sélecteur de schéma, sélectionnez le schéma approprié. Le nom du schéma sera au format suivant : « Schéma pour audienceId: » + identifiant de l’audience. L’identifiant de l’audience se trouve dans l’écran des détails de l’audience de l’inventaire de l’audience.
-1. Ouvrez le sélecteur de champ, recherchez les attributs d’enrichissement que vous souhaitez ajouter, puis cochez la case en regard de ces attributs.
-1. Enregistrez vos modifications.
-1. Une fois les attributs d’enrichissement ajoutés à un groupe de champs, vous pouvez les utiliser dans Journey Optimizer aux emplacements répertoriés ci-dessus.
+>1. Accédez à « Administration » > « Configuration » > « Sources de données ».
+>1. Sélectionnez « Experience Platform » et créez ou modifiez un groupe de champs.
+>1. Dans le sélecteur de schéma, sélectionnez le schéma approprié. Le nom du schéma sera au format suivant : « Schéma pour audienceId: » + identifiant de l’audience. L’identifiant de l’audience se trouve dans l’écran des détails de l’audience de l’inventaire de l’audience.
+>1. Ouvrez le sélecteur de champ, recherchez les attributs d’enrichissement que vous souhaitez ajouter, puis cochez la case en regard de ces attributs.
+>1. Enregistrez vos modifications.
+>1. Une fois les attributs d’enrichissement ajoutés à un groupe de champs, vous pouvez les utiliser dans Journey Optimizer aux emplacements répertoriés ci-dessus.
 >
-Des informations détaillées sur les sources de données sont disponibles dans les sections suivantes :
+>Des informations détaillées sur les sources de données sont disponibles dans les sections suivantes :
 >
-* [Utiliser la source de données Adobe Experience Platform](../datasource/adobe-experience-platform-data-source.md)
-* [Configurer une source de données](../datasource/configure-data-sources.md)
+>* [Utiliser la source de données Adobe Experience Platform](../datasource/adobe-experience-platform-data-source.md)
+>* [Configurer une source de données](../datasource/configure-data-sources.md)
 >
-+++
+>+++
 
 ## Méthodes d’évaluation d’audience {#evaluation-method-in-journey-optimizer}
 
@@ -118,7 +118,7 @@ La segmentation par flux est un processus continu de sélection des données qui
 
 >[!NOTE]
 >
-Veillez à utiliser les événements appropriés comme critères de segmentation par streaming. [En savoir plus](#streaming-segmentation-events-guardrails)
+>Veillez à utiliser les événements appropriés comme critères de segmentation par streaming. [En savoir plus](#streaming-segmentation-events-guardrails)
 
 +++
 
@@ -168,7 +168,7 @@ Par conséquent, pour obtenir des performances optimales en matière de segmenta
 
 >[!NOTE]
 >
-Vous pouvez utiliser les événements **Message ouvert** et **Message envoyé** dans la segmentation par lots sans souci de performances.
+>Vous pouvez utiliser les événements **Message ouvert** et **Message envoyé** dans la segmentation par lots sans souci de performances.
 
 ## Questions fréquentes sur la composition d’audience et le chargement personnalisé {#faq}
 
@@ -184,7 +184,7 @@ Les audiences issues de la composition d’audience et du chargement personnalis
 
   >[!NOTE]
   >
-  Pour les audiences de chargement personnalisé, si l’option « Lecture incrémentielle » est activée dans un parcours récurrent, les profils ne sont récupérés que lors de la première périodicité, car ces audiences sont fixes.
+  >Pour les audiences de chargement personnalisé, si l’option « Lecture incrémentielle » est activée dans un parcours récurrent, les profils ne sont récupérés que lors de la première périodicité, car ces audiences sont fixes.
 
 Ces audiences peuvent également être utilisées dans l’éditeur de personnalisation pour personnaliser vos messages dans les parcours et les campagnes. [Découvrir comment utiliser l’éditeur de personnalisation](../personalization/personalization-build-expressions.md)
 
