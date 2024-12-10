@@ -8,16 +8,20 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: bf0a6fa496a08348be16896a7f2313882eb97c06
-workflow-type: ht
-source-wordcount: '5736'
-ht-degree: 100%
+source-git-commit: d0419710c12bd7726bc161069b9c2ebff986826a
+workflow-type: tm+mt
+source-wordcount: '5767'
+ht-degree: 99%
 
 ---
 
 # Mises à jour de la documentation {#latest-updates}
 
 Cette page répertorie toutes les mises à jour récentes de la documentation de [!DNL Journey Optimizer].
+
+## Décembre 2024 {#nov-2024}
+
+* Une note a été ajoutée pour vous aider à résoudre un message d’erreur potentiel lors d’un appel API pour activer les jeux de données pour la personnalisation à l’aide des données Adobe Experience Platform. [En savoir plus](../personalization/lookup-aep-data.md)
 
 ## Octobre 2024 {#oct-2024}
 
