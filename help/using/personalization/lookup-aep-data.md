@@ -10,9 +10,9 @@ level: Intermediate
 keywords: expression, éditeur
 exl-id: 2fc10fdd-ca9e-46f0-94ed-2d7ea4de5baf
 source-git-commit: a2e09052ef5cb38ca34cd8faa476ca750ea1965f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1044'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -40,7 +40,7 @@ Avant de commencer, consultez les restrictions et les directives suivantes :
 
 ### Personnalisation utilisant des données [!DNL Adobe Experience Platform] {#perso}
 
-* **Canaux pris en charge** : pour l’instant, cette fonctionnalité n’est disponible que pour une utilisation dans les canaux email, SMS et courrier.
+* **Canaux pris en charge** : pour l’instant, cette fonctionnalité n’est disponible que pour une utilisation dans les canaux e-mail, SMS et courrier.
 * **L’étiquetage et l’application de l’utilisation des données** n’est pas appliquée pour l’instant pour les jeux de données activés pour la recherche.
 * **Fragments d’expression** : pour le moment, la personnalisation de la recherche de jeux de données ne peut pas être placée dans des fragments d’expression.
 
@@ -76,7 +76,7 @@ Où ce qui suit est vrai :
 
 >[!NOTE]
 >
->Si vous rencontrez l’erreur ci-dessous lors de la tentative d’un appel API pour activer des jeux de données, essayez de supprimer les API Adobe Journey Optimizer de votre projet de console de développement, puis de les rajouter.
+>Si vous rencontrez l’erreur ci-dessous lors de la tentative d’un appel API pour activer des jeux de données, essayez de supprimer les API Adobe Journey Optimizer de votre projet Developer Console, puis de les rajouter.
 >
 >```
 >

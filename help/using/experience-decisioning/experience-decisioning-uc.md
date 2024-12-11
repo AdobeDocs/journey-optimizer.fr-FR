@@ -9,9 +9,9 @@ hide: true
 hidefromtoc: true
 exl-id: 09770df2-c514-4217-a71b-e31c248df543
 source-git-commit: 196caffc918ef4f8fd97c2eb2c790ae4583aa311
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '393'
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 
@@ -21,9 +21,9 @@ Vous ne savez pas si une formule de classement spécifique sera plus performante
 
 Dans ce cas d’utilisation, vous créez une campagne dans laquelle vous définissez deux traitements de diffusion contenant chacun une politique de décision différente afin de mesurer celle qui fonctionne le mieux pour votre audience cible.
 
-Configurez l’expérience de sorte que :
+Configurez l’expérience pour vous assurer de ce qui suit :
 
-* Le premier traitement contient une stratégie de sélection avec pour méthode de classement une priorité.
+* Le premier traitement contient une stratégie de sélection avec une priorité pour méthode de classement.
 * Le second traitement contient une stratégie de sélection différente pour laquelle une formule est la méthode de classement.
 
 

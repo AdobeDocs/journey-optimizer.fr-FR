@@ -10,9 +10,9 @@ level: Beginner
 keywords: commencer, démarrer, contenu, expérience
 exl-id: 62327f8c-7a9d-44c3-88f9-3048ff8bd326
 source-git-commit: e2b35cfb2cdaf0dac002ff74a11b2fe98206cd6f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '187'
-ht-degree: 85%
+ht-degree: 100%
 
 ---
 
@@ -36,7 +36,7 @@ Avant d’ajouter le fournisseur de traduction que vous avez choisi, assurez-vou
 
    >[!NOTE]
    >
-   >Pour ajouter un nouveau **Provider** à la liste, vous pouvez demander à votre **Provider** de suivre les instructions détaillées dans [ce document](https://developer.adobe.com/gcs/partner/) pour terminer le processus d&#39;intégration.
+   >Pour ajouter un nouveau **Fournisseur** à la liste, vous pouvez demander à votre **Fournisseur** de suivre les instructions détaillées dans [ce document](https://developer.adobe.com/gcs/partner/) pour terminer le processus d’intégration.
 
    ![](assets/provider_2.png)
 
