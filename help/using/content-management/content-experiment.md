@@ -10,9 +10,9 @@ level: Beginner
 keywords: contenu, expérience, multiple, audience, traitement
 exl-id: bd35ae19-8713-4571-80bc-5f40e642d121
 source-git-commit: 84cb51a3fdb01fab0b23289993bbcdd30c68cd01
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '729'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -44,7 +44,7 @@ L’objectif ici est de voir si les destinataires interagissent avec l’e-mail 
 
 ## Créer votre contenu {#campaign-experiment}
 
-1. Commencez par créer et configurer votre [campagne](../campaigns/create-campaign.md) ou [parcours ](../building-journeys/journeys-message.md) en fonction de vos besoins.
+1. Commencez par créer et configurer votre [campagne](../campaigns/create-campaign.md) ou votre [parcours](../building-journeys/journeys-message.md) en fonction de vos besoins.
 
 1. Dans la fenêtre **[!UICONTROL Modifier le contenu]**, commencez à personnaliser votre traitement A.
 

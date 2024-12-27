@@ -10,9 +10,9 @@ level: Beginner, Intermediate
 keywords: e-mail, conception, stock, ressources
 exl-id: e4f91870-f06a-4cd3-98b7-4c413233e310
 source-git-commit: 57a309956ebe2997dce3fe0eb1b6bb70b911da5e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '608'
-ht-degree: 79%
+ht-degree: 100%
 
 ---
 
@@ -36,11 +36,11 @@ Lors de l’envoi d’e-mails, il est important de tenir compte du fait que les 
 
 Pour minimiser ces problèmes de rendu, nous vous recommandons de garder votre structure de conception d’e-mail aussi simple que possible. Essayez d’utiliser une conception unique qui fonctionne aussi bien pour les ordinateurs de bureau et les appareils mobiles, et évitez d’utiliser des classes CSS complexes ou d’autres éléments de conception qui ne sont pas entièrement pris en charge par tous les clients de messagerie. En suivant ces bonnes pratiques, vous aurez l’assurance que vos e-mails sont correctement rendus, quelle que soit la manière dont ils sont affichés ou transférés par les destinataires.
 
-Consultez le tableau ci-dessous pour connaître les bonnes pratiques en matière de conception d’e-mail :
+Consultez le tableau ci-dessous pour connaître les bonnes pratiques en matière de conception d’e-mail :
 
-| Recommandé | Utilisation avec précaution | Non recommandé |
+| Recommandé | À utiliser avec précaution | Non recommandé |
 |-|-|-|
-| <ul><li><b>Dispositions statiques, basées sur des tableaux</b> pour la structure</li> <li><b>HTML des tableaux et des tableaux imbriqués</b> pour la cohérence de la disposition</li> <li><b>Largeurs des modèles</b> comprises entre 600 px et 800 px </li> <li><b>CSS simple et intégré</b> pour le style </li> <li><b>Polices sécurisées pour le web</b> pour une compatibilité universelle</li> | <ul><li><b>Les images d’arrière-plan</b> peuvent ne pas apparaître sur certaines plateformes de messagerie.</li><li><b>Les polices web personnalisées</b> ne sont pas prises en charge de manière universelle.</li><li><b>disposition large</b> peut mal s’afficher sur des écrans plus petits.</li><li>Les <b>zones cliquables</b> offrent des fonctionnalités limitées.</li><li>Le <b>CSS incorporé</b> est parfois supprimé lors de la diffusion de l’e-mail.</li> | <ul><li><b>JavaScript</b> n’est généralement pas pris en charge dans les environnements de messagerie.</li> <li> <b>`<iframe>`</b> balises sont bloquées sur la plupart des plateformes. </li> <li><b>Flash </b> est obsolète et n&#39;est plus pris en charge.</li> <li>La lecture du fichier <b>audio intégré</b> échoue souvent.</li> <li>La <b>vidéo intégrée</b> est incompatible avec de nombreuses plateformes de messagerie.</li> <li> <b>Forms</b> ne fonctionne pas dans les e-mails.</li> <li> `<div>` superposition peut entraîner des problèmes de rendu.</li> |
+| <ul><li><b>Mises en page statiques, basées sur des tableaux</b> pour la structure</li> <li><b>Tableaux HTML et tableaux imbriqués</b> pour la cohérence de la mise en page</li> <li><b>Largeurs des modèles</b> comprises entre 600 px et 800 px </li> <li><b>CSS simples et intégrées</b> pour le style </li> <li><b>Polices compatibles web</b> pour une conformité universelle</li> | <ul><li>Les <b>images d’arrière-plan</b> peuvent ne pas apparaître sur certaines plateformes de messagerie.</li><li>Les <b>polices web personnalisées</b> ne profitent pas d’une prise en charge universelle.</li><li>Les <b>mises en page larges</b> peuvent mal s’afficher sur de petits écrans.</li><li>Les <b>zones cliquables</b> offrent des fonctionnalités limitées.</li><li>Les <b>CSS incorporées</b> sont parfois supprimées lors de la diffusion des e-mails.</li> | <ul><li>Le code <b>JavaScript</b> n’est généralement pas pris en charge dans les environnements de messagerie.</li> <li> Les balises <b>`<iframe>`</b> sont bloquées sur la plupart des plateformes. </li> <li>Les éléments <b>Flash</b> sont obsolètes et ne sont plus pris en charge.</li> <li>Les <b>fichiers audio intégrés</b> provoquent souvent un blocage.</li> <li>Les <b>vidéos intégrées</b> sont incompatibles avec de nombreuses plateformes de messagerie.</li> <li> Les <b>formulaires</b> ne fonctionnent pas dans les e-mails.</li> <li> La superposition `<div>` peut entraîner des problèmes de rendu.</li> |
 
 ## Étapes clés de création de contenu d’e-mail {#key-steps}
 
