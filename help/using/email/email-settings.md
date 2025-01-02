@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: paramètres, e-mail, configuration
 exl-id: 13536962-7541-4eb6-9ccb-4f97e167734a
-source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
+source-git-commit: 953adc90278a984ca8b73576274ec73fe98c08a1
 workflow-type: tm+mt
-source-wordcount: '2530'
-ht-degree: 100%
+source-wordcount: '2687'
+ht-degree: 96%
 
 ---
 
@@ -340,3 +340,26 @@ Vous pouvez prévisualiser de manière dynamique l’URL de tracking obtenue. Ch
 >[!NOTE]
 >
 >Vous pouvez également ajouter des paramètres de suivi personnalisés et dynamiques aux liens présents dans le contenu de votre e-mail, mais cela n’est pas possible au niveau de la configuration. Vous devez le faire lors de la création de votre message à l’aide du concepteur d’e-mail. [En savoir plus](message-tracking.md#url-tracking).
+
+## Adresse d’exécution {#execution-address}
+
+>[!CONTEXTUALHELP]
+>id="ajo_email_config_execution_address"
+>title="Définir l’adresse à utiliser"
+>abstract="Lorsque plusieurs adresses e-mail ou numéros de téléphone sont disponibles dans la base de données (personnel, professionnel, etc.), vous pouvez choisir l’adresse ou le numéro auquel donner la priorité pour l’envoi."
+
+Lorsque vous ciblez un profil, plusieurs adresses e-mail peuvent être disponibles dans la base de données (adresse e-mail professionnelle, adresse e-mail personnelle, etc.).
+
+Dans ce cas, [!DNL Journey Optimizer] utilise l’adresse spécifiée dans le champ **[!UICONTROL Champs d’exécution]** au niveau de la sandbox pour déterminer l’adresse e-mail à utiliser en priorité à partir du service de profil. [En savoir plus](../configuration/primary-email-addresses.md)
+
+>[!NOTE]
+>
+>Pour vérifier les champs actuellement utilisés par défaut, accédez au menu **[!UICONTROL Administration]** > **[!UICONTROL Canaux]** > **[!UICONTROL Paramètres généraux]** > **[!UICONTROL Champs d’exécution]**.
+
+Cependant, vous pouvez modifier ce champ d’exécution par défaut au niveau de la configuration du canal e-mail.
+
+Pour ce faire, modifiez le champ **[!UICONTROL Adresse de diffusion]** et sélectionnez un élément dans la liste des champs XDM de type e-mail disponibles.
+
+![](assets/email-config-delivery-address.png)
+
+Le champ d’exécution est mis à jour, puis utilisé comme adresse principale. Il remplace le paramètre général au niveau du sandbox.

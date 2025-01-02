@@ -9,10 +9,10 @@ role: Admin
 level: Intermediate
 keywords: IP, groupes, délivrabilité
 exl-id: a9995ca1-d7eb-4f8d-a9d9-fe56198ac325
-source-git-commit: cf946f8d59728a743b3c4b571c07fc70e3c6cf87
-workflow-type: ht
-source-wordcount: '423'
-ht-degree: 100%
+source-git-commit: 953adc90278a984ca8b73576274ec73fe98c08a1
+workflow-type: tm+mt
+source-wordcount: '437'
+ht-degree: 84%
 
 ---
 
@@ -27,13 +27,13 @@ Avant de créer le plan de préchauffage d’adresses IP dans [!DNL Journey Opti
 
 Pour créer une campagne de préchauffage d’adresses IP, suivez les étapes ci-dessous.
 
-1. Créez une [configuration](channel-surfaces.md) de canal [e-mail](../email/email-settings.md) pour le domaine et les adresses IP que vous avez identifiés pour votre plan de préchauffage.
+1. Créez un canal e-mail [configuration](channel-surfaces.md) pour le domaine et les adresses IP que vous avez identifiées pour votre plan de préchauffage.
+
+   Contactez votre consultant ou consultante en délivrabilité pour identifier le domaine et les adresses IP à utiliser. Découvrez comment les sélectionner dans une configuration d’e-mail dans [cette section](../email/email-settings.md#subdomains-and-ip-pools).
 
    >[!NOTE]
    >
-   >* Découvrez comment sélectionner le domaine et les adresses IP à utiliser dans une configuration du canal e-mail dans [cette section](../email/email-settings.md#subdomains-and-ip-pools).
-   >
-   >* Contactez votre conseiller ou conseillère en délivrabilité pour identifier le domaine et les adresses IP à utiliser pour votre plan de préchauffage d’adresses IP.<!--TBC-->
+   >Même si vous modifiez l’[ adresse d’exécution ](../email/email-settings.md#execution-address) dans la configuration de l’e-mail, le champ par défaut défini au niveau du sandbox est toujours utilisé. [En savoir plus](primary-email-addresses.md)
 
 1. Créez une [campagne](../campaigns/create-campaign.md) marketing programmée et sélectionnez l’action [E-mail](../email/create-email.md#create-email-journey-campaign).
 
