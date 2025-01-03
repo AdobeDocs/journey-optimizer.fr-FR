@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: paramètres, e-mail, configuration
 exl-id: 13536962-7541-4eb6-9ccb-4f97e167734a
-source-git-commit: f5f8855f23200253a2cb8fca3e01ca7d5b31f274
+source-git-commit: fb14db58f9facac87e83a85e8f163ea31732a374
 workflow-type: tm+mt
-source-wordcount: '2737'
-ht-degree: 93%
+source-wordcount: '2724'
+ht-degree: 86%
 
 ---
 
@@ -63,9 +63,7 @@ Sélectionnez le sous-domaine à utiliser pour envoyer les e-mails.
 
 Pour préserver la réputation de votre domaine, accélérer le processus de préchauffage des adresses IP et améliorer la délivrabilité, déléguez vos sous-domaines d’envoi à Adobe. [En savoir plus](../configuration/about-subdomain-delegation.md)
 
-
 ## Détails du groupe d’adresses IP {#ip-pools}
-
 
 Sélectionnez le groupe d’adresses IP à associer à la configuration. [En savoir plus](../configuration/ip-pools.md)
 
@@ -83,10 +81,9 @@ Une fois qu’un groupe d’adresses IP a été sélectionné, les informations 
 >
 >Si un enregistrement PTR n’est pas configuré, contactez votre représentant(e) Adobe.
 
-## En-tête de désabonnement de la liste{#list-unsubscribe}
+## Désabonnement de la liste{#list-unsubscribe}
 
 <!--Do not modify - Legal Review Done -->
-
 
 Lors de la [sélection d’un sous-domaine](#subdomains-and-ip-pools) dans la liste, l’option **[!UICONTROL Activer le désabonnement de la liste]** s’affiche.
 
@@ -94,20 +91,23 @@ Cette option est activée par défaut pour inclure une URL de désabonnement en 
 
 ![](assets/preset-list-unsubscribe-header.png)
 
-Si vous désactivez cette option, aucune URL de désabonnement en un clic ne s’affiche dans l’en-tête de l’e-mail.
+>[!NOTE]
+>
+>Si vous désactivez cette option, aucune URL de désabonnement en un clic ne s’affiche dans l’en-tête de l’e-mail.
 
 Vous pouvez sélectionner le niveau de consentement dans la liste déroulante **[!UICONTROL Niveau de consentement]**. Il peut être spécifique au canal ou à l’identité du profil. En fonction de ce paramètre, lorsqu’un utilisateur ou une utilisatrice se désabonne à l’aide de l’URL de désabonnement de la liste dans l’en-tête d’un e-mail, le consentement est mis à jour dans Adobe Journey Optimizer au niveau du canal ou au niveau de l’ID.
 
-L’en-tête de désabonnement de la liste propose deux fonctionnalités (URL de désabonnement Mailto ou en un clic, comme expliqué ci-dessous) qui sont activées par défaut, sauf si vous désélectionnez l’une des deux fonctionnalités, ou les deux :
+L’en-tête Désabonnement de la liste propose deux fonctionnalités qui sont activées par défaut, sauf si vous désélectionnez l’une des fonctionnalités ou les deux :
+
+![](assets/surface-list-unsubscribe-mailto.png){width="80%"}
+
+<!--![](assets/surface-list-unsubscribe.png){width="80%"}-->
 
 * Une adresse **Mailto (se désabonner)**, qui est l’adresse de destination vers laquelle les demandes de désabonnement sont acheminées pour le traitement automatique.
 
   Dans Journey Optimizer, l’adresse e-mail de désabonnement est l’adresse par défaut **Mailto (se désabonner)** affichée dans la configuration de canal, en fonction du [sous-domaine sélectionné](#subdomains-and-ip-pools).
 
-  ![](assets/surface-list-unsubscribe-mailto.png){width="80%" align="left"}
-
-
-* **URL de désabonnement en un clic**, qui est par défaut l’URL d’opt-out en un clic générée par l’en-tête de désabonnement de la liste, en fonction du sous-domaine que vous avez défini et configuré dans les paramètres de surface de canal.
+* L’URL de désabonnement en un clic **One-click**, qui est par défaut l’en-tête de désabonnement de la liste générée par l’URL d’opt-out en un clic, en fonction du sous-domaine que vous avez défini et configuré dans les paramètres de configuration du canal.
 
 <!--
     >[!AVAILABILITY]
@@ -116,15 +116,19 @@ L’en-tête de désabonnement de la liste propose deux fonctionnalités (URL de
     >
 -->
 
-Les fonctionnalités **[!UICONTROL Mailto (se désabonner)]** et **[!UICONTROL URL de désabonnement en un clic]** sont facultatives. Si vous ne souhaitez pas utiliser l’URL de désabonnement en un clic générée par défaut, vous pouvez décocher la fonction. Dans le scénario dans lequel l’option **[!UICONTROL Configuration d’opt-out]** est activée et où la fonctionnalité **[!UICONTROL URL de désabonnement en un clic]** n’est pas cochée, si vous ajoutez un [lien d’opt-out en un clic](../privacy/opt-out.md#one-click-opt-out) dans un message créé à l’aide de cette configuration, l’en-tête de désabonnement de la liste récupère le lien d’opt-out en un clic que vous avez inséré dans le corps de l’e-mail et l’utilise comme valeur de l’URL de désabonnement en un clic.
+Les fonctionnalités **[!UICONTROL Mailto (unsubscribe)]** et **[!UICONTROL URL de désabonnement en un clic]** sont facultatives.
+
+Si vous ne souhaitez pas utiliser l’URL de désabonnement en un clic générée par défaut, vous pouvez décocher la fonction. Dans le cas où l’option **[!UICONTROL Activer List-Unsubscribe]** est activée et que la fonction **[!UICONTROL URL de désabonnement en un clic]** est décochée, si vous ajoutez un lien d’opt-out en un clic [ à un message créé à l’aide de cette configuration](../privacy/opt-out.md#one-click-opt-out) l’en-tête Liste de désabonnement sélectionne le lien d’opt-out en un clic que vous avez inséré dans le corps de l’e-mail et l’utilise comme valeur d’URL de désabonnement en un clic.
 
 ![](assets/preset-list-unsubscribe-opt-out-url.png)
 
 >[!NOTE]
 >
->Si vous n’ajoutez pas de lien d’opt-out en un clic dans le contenu de votre message et que l’URL de désabonnement en un clic par défaut est décochée dans les paramètres de configuration de canal, aucune URL n’est transmise à l’en-tête de l’e-mail dans le cadre de l’en-tête de désabonnement de la liste.
+>Si vous n’ajoutez pas de lien d’opt-out en un clic dans le contenu de votre message et que l’URL de désabonnement en un clic par défaut est décochée dans les paramètres de configuration du canal, aucune URL n’est transmise dans l’en-tête de l’e-mail dans le cadre de l’en-tête Désabonnement de la liste .
 
 Pour plus d’informations sur la gestion des fonctionnalités de désabonnement dans vos messages, consultez [cette section](../email/email-opt-out.md#unsubscribe-header).
+
+<!--![](assets/surface-list-unsubscribe-custom.png){width="80%"}-->
 
 ## Paramètres d’en-tête {#email-header}
 
@@ -146,7 +150,7 @@ Dans la section **[!UICONTROL Paramètres d’en-tête]**, saisissez les noms de
 >
 >Les adresses **[!UICONTROL e-mail expéditeur]** et **[!UICONTROL e-mail d’erreur]** doivent utiliser le [sous-domaine délégué](../configuration/about-subdomain-delegation.md) actuel. Par exemple, si le sous-domaine délégué est *marketing.luma.com*, vous pouvez utiliser *contact@marketing.luma.com* et *error@marketing.luma.com*.
 
-![](assets/preset-header.png)
+![](assets/preset-header.png){width="80%"}
 
 >[!NOTE]
 >
@@ -255,7 +259,7 @@ Une liste de contrôle dans [!DNL Journey Optimizer] vous permet d’inclure aut
 
 Sélectionnez la liste qui vous intéresse dans la section **[!UICONTROL Liste de contrôle]**. Découvrez comment créer une liste de contrôle dans [cette section](../configuration/seed-lists.md#create-seed-list).
 
-![](../configuration/assets/seed-list-surface.png)
+![](../configuration/assets/seed-list-surface.png){width="80%"}
 
 >[!NOTE]
 >
@@ -305,7 +309,7 @@ Les paramètres définis dans cette section seront ajoutés à la fin des URL in
 
 Vous pouvez ajouter jusqu’à 10 paramètres de tracking à l’aide du bouton **[!UICONTROL Ajouter un nouveau paramètre]**.
 
-![](assets/preset-url-tracking.png)
+![](assets/preset-url-tracking.png){width="80%"}
 
 Pour configurer un paramètre de tracking d’URL, vous pouvez saisir directement les valeurs souhaitées dans les champs **[!UICONTROL Nom]** et **[!UICONTROL Valeur]**.
 
