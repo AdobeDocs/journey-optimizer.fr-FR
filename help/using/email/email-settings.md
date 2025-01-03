@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: paramètres, e-mail, configuration
 exl-id: 13536962-7541-4eb6-9ccb-4f97e167734a
-source-git-commit: 8d6ac8b3d201baf8115d92b35639d5d6e22b9b2d
+source-git-commit: f5f8855f23200253a2cb8fca3e01ca7d5b31f274
 workflow-type: tm+mt
-source-wordcount: '2716'
-ht-degree: 95%
+source-wordcount: '2737'
+ht-degree: 93%
 
 ---
 
@@ -351,8 +351,8 @@ Vous pouvez prévisualiser de manière dynamique l’URL de tracking obtenue. Ch
 
 >[!CONTEXTUALHELP]
 >id="ajo_email_config_execution_address"
->title="Définir l’adresse à utiliser"
->abstract="Lorsque plusieurs adresses e-mail ou numéros de téléphone sont disponibles dans la base de données (personnel, professionnel, etc.), vous pouvez choisir l’adresse ou le numéro auquel donner la priorité pour l’envoi."
+>title="Remplacer l’adresse d’exécution par défaut à utiliser"
+>abstract="Lorsque plusieurs adresses e-mail sont disponibles dans la base de données (personnelle, professionnelle, etc.), vous pouvez choisir celle à prioriser pour l’envoi. L’adresse principale est définie au niveau du sandbox, mais vous pouvez remplacer ici le paramètre par défaut pour cette configuration d’e-mail spécifique."
 
 Lorsque vous ciblez un profil, plusieurs adresses e-mail peuvent être disponibles dans la base de données (adresse e-mail professionnelle, adresse e-mail personnelle, etc.).
 
