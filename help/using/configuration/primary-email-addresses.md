@@ -9,10 +9,10 @@ role: Admin
 level: Intermediate
 keywords: principal, exécution, e-mail, cible, profil, optimizer
 exl-id: fe2f6516-7790-4501-a3a1-3d7cb94d7874
-source-git-commit: 953adc90278a984ca8b73576274ec73fe98c08a1
+source-git-commit: 462928883ae22998f8c16dcbe6f37f062487c5ad
 workflow-type: tm+mt
-source-wordcount: '484'
-ht-degree: 88%
+source-wordcount: '483'
+ht-degree: 78%
 
 ---
 
@@ -66,17 +66,17 @@ Le champ d&#39;exécution est mis à jour et sera désormais utilisé comme adre
 
 <!--1. You can also select an additional field to use as secondary email address. This allows you to determine which field to use if the primary field is empty for a profile. -->
 
-## Remplacer la valeur par défaut {#override-default-execution-address}
+## Remplacer le champ d’exécution par défaut {#override-default-execution-address}
+
+Pour des cas d’utilisation spécifiques, vous pouvez remplacer le champ d’exécution défini globalement et définir une valeur différente au niveau de la configuration du canal e-mail ou au niveau du parcours.
 
 ### Dans la configuration des e-mails
 
-Vous pouvez modifier le champ d’exécution par défaut défini au niveau du sandbox lors de la définition d’une configuration de canal e-mail. [En savoir plus](../email/email-settings.md#execution-address)
+Vous pouvez modifier le champ d’exécution par défaut défini dans les [paramètres généraux](#admin-settings) lors de la définition d’une configuration de canal e-mail. [En savoir plus](../email/email-settings.md#execution-address)
 
-Lorsque l’adresse d’exécution est définie au niveau de la configuration, elle est utilisée comme adresse principale et remplace le paramètre général au niveau du sandbox.
+Lorsqu’une adresse d’exécution est définie dans la configuration de l’e-mail, elle est utilisée comme adresse principale et remplace le paramètre général au niveau du sandbox.
 
 ### Dans les paramètres de parcours {#journey-parameters}
-
-Pour des cas d’utilisation spécifiques uniquement, vous pouvez remplacer le champ d’exécution défini globalement et définir une valeur différente au niveau du parcours, en particulier pour le canal e-mail.
 
 Lors de l’ajout d’une action **[!UICONTROL E-mail]** à un [parcours](../email/create-email.md#create-email-journey-campaign), l’adresse e-mail principale s’affiche sous les paramètres avancés du parcours.
 
@@ -90,6 +90,6 @@ Dans certains contextes spécifiques, vous pouvez remplacer cette valeur en cliq
 
 Par exemple, cette valeur peut être utile pour effectuer les actions suivantes :
 
-* Tesert un e-mail. Vous pouvez ajouter votre adresse e-mail : une fois que vous avez publié le parcours, l’e-mail vous est envoyé.
+* Tesert un e-mail. Vous pouvez ajouter votre propre adresse e-mail : une fois le parcours publié, l’e-mail vous est envoyé.
 * Envoyer un message aux personnes abonnées à une liste. En savoir plus sur [ce cas d’utilisation](../building-journeys/message-to-subscribers-uc.md).
 

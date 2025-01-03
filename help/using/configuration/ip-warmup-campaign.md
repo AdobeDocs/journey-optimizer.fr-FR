@@ -9,10 +9,10 @@ role: Admin
 level: Intermediate
 keywords: IP, groupes, délivrabilité
 exl-id: a9995ca1-d7eb-4f8d-a9d9-fe56198ac325
-source-git-commit: 953adc90278a984ca8b73576274ec73fe98c08a1
+source-git-commit: 462928883ae22998f8c16dcbe6f37f062487c5ad
 workflow-type: tm+mt
-source-wordcount: '437'
-ht-degree: 84%
+source-wordcount: '441'
+ht-degree: 83%
 
 ---
 
@@ -33,7 +33,7 @@ Pour créer une campagne de préchauffage d’adresses IP, suivez les étapes ci
 
    >[!NOTE]
    >
-   >Même si vous modifiez l’[ adresse d’exécution ](../email/email-settings.md#execution-address) dans la configuration de l’e-mail, le champ par défaut défini au niveau du sandbox est toujours utilisé. [En savoir plus](primary-email-addresses.md)
+   >Pour les campagnes de préchauffage d’adresses IP, même si vous modifiez l’adresse [d’exécution](../email/email-settings.md#execution-address) dans la configuration des e-mails, le champ par défaut défini au niveau du sandbox est toujours utilisé. [En savoir plus](primary-email-addresses.md)
 
 1. Créez une [campagne](../campaigns/create-campaign.md) marketing programmée et sélectionnez l’action [E-mail](../email/create-email.md#create-email-journey-campaign).
 
