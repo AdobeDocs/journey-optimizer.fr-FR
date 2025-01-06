@@ -9,7 +9,7 @@ role: User
 level: Beginner
 keywords: commencer, démarrer, contenu, expérience
 exl-id: 38e82eb2-67d9-4a7d-8c1f-77dab20bcec4
-source-git-commit: 3d9fc6480719cf46a3485914c57a883451f2a058
+source-git-commit: eea6cbaf29f3558f85b462d3dd3750d7f716bbcc
 workflow-type: tm+mt
 source-wordcount: '2045'
 ht-degree: 99%
@@ -168,7 +168,7 @@ Dans cette section, vous pouvez définir vos différents paramètres régionaux 
 
    1. Accédez au menu **[!UICONTROL Règles]** et créez une règle. Des informations détaillées sur la création de règles sont disponibles dans la [Documentation [!DNL Adobe Experience Platform] sur la collecte de données](https://experienceleague.adobe.com/fr/docs/experience-platform/collection/e2e#create-a-rule){target="_blank"}.
 
-   2. Dans la section **[!UICONTROL SI]** de la règle, ajoutez un événement configuré comme ci-dessous :
+   1. Dans la section **[!UICONTROL SI]** de la règle, ajoutez un événement configuré comme ci-dessous :
 
       ![](assets/multilingual-experience-events-rule-if.png)
 
@@ -177,7 +177,7 @@ Dans cette section, vous pouvez définir vos différents paramètres régionaux 
       * Dans le volet de droite, sélectionnez « Le type d’événement XDM est égal à personalization.request ».
       * Cliquez sur le bouton **[!UICONTROL Conserver les modifications]** pour confirmer.
 
-   3. Dans la section **[!UICONTROL ALORS]** de la règle, ajoutez une action configurée comme ci-dessous :
+   1. Dans la section **[!UICONTROL ALORS]** de la règle, ajoutez une action configurée comme ci-dessous :
 
       ![](assets/multilingual-experience-events-rule-then.png)
 
