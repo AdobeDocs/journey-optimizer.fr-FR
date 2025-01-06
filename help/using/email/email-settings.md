@@ -9,9 +9,9 @@ role: Admin
 level: Experienced
 keywords: paramètres, e-mail, configuration
 exl-id: 13536962-7541-4eb6-9ccb-4f97e167734a
-source-git-commit: fb14db58f9facac87e83a85e8f163ea31732a374
+source-git-commit: 8a9f0b42acb19f0b28340f11dada19f5b6524c66
 workflow-type: tm+mt
-source-wordcount: '2724'
+source-wordcount: '2735'
 ht-degree: 86%
 
 ---
@@ -366,7 +366,7 @@ Dans ce cas, [!DNL Journey Optimizer] utilise l’adresse spécifiée dans le ch
 >
 >Pour vérifier les champs actuellement utilisés par défaut, accédez au menu **[!UICONTROL Administration]** > **[!UICONTROL Canaux]** > **[!UICONTROL Paramètres généraux]** > **[!UICONTROL Champs d’exécution]**.
 
-Cependant, vous pouvez modifier ce champ d’exécution par défaut au niveau de la configuration du canal e-mail.
+Cependant, vous pouvez modifier ce champ d’exécution par défaut au niveau de la configuration du canal e-mail. Vous pouvez ensuite appliquer ce paramètre à des campagnes ou des parcours spécifiques.
 
 Pour ce faire, modifiez le champ **[!UICONTROL Adresse de diffusion]** et sélectionnez un élément dans la liste des champs XDM de type e-mail disponibles.
 
