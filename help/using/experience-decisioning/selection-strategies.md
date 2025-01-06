@@ -6,8 +6,8 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 1b73b398-050a-40bb-a8ae-1c66e3e26ce8
-source-git-commit: 616e1dd9fbfd029f7209356d5c19cfff9d4b4f06
-workflow-type: ht
+source-git-commit: 83ad828a4d342bba10284cdd20d22eb325e3e1f7
+workflow-type: tm+mt
 source-wordcount: '719'
 ht-degree: 100%
 
@@ -44,7 +44,7 @@ Une stratégie de sélection est réutilisable et est constituée d’une collec
 
    ![](assets/strategy-list-edit-collection.png)
 
-## Créer une stratégie de sélection
+## Créer une stratégie de sélection {#create-selection-strategy}
 
 Pour créer une stratégie de sélection, procédez comme suit.
 
