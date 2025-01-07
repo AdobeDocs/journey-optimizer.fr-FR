@@ -8,10 +8,10 @@ level: Intermediate, Experienced
 hide: true
 hidefromtoc: true
 exl-id: 09770df2-c514-4217-a71b-e31c248df543
-source-git-commit: 83ad828a4d342bba10284cdd20d22eb325e3e1f7
+source-git-commit: 7da07ebb5fd2ded0f86ee1ca8fc355e422f01502
 workflow-type: tm+mt
-source-wordcount: '560'
-ht-degree: 37%
+source-wordcount: '636'
+ht-degree: 28%
 
 ---
 
@@ -23,7 +23,7 @@ Ce cas pratique présente toutes les étapes nécessaires pour utiliser Decision
 
 Dans ce cas d&#39;utilisation, vous ne savez pas si une formule de classement spécifique sera plus performante que les priorités d&#39;offre préaffectées.
 
-Pour mesurer celui qui fonctionne le mieux pour votre audience cible, créez une campagne où vous définissez deux traitements de diffusion :
+Pour mesurer celui qui fonctionne le mieux pour votre audience cible, créez une campagne à l’aide de [Expérience de contenu](../content-management/content-experiment.md) où vous définissez deux traitements de diffusion :
 
 <!--Set up the experiment such that:-->
 
@@ -48,23 +48,23 @@ Dans la première stratégie de sélection, sélectionnez priorité comme métho
    >
    >La priorité est un type de données Entier. Tous les attributs qui sont des types de données Entier doivent contenir des valeurs entières (pas de décimales).
 
-1. Définissez des audiences ou des règles pour limiter l’élément à des profils spécifiques uniquement. [Découvrez comment définir l&#39;éligibilité de l&#39;élément de décision](items.md#eligibility)
+1. Définissez l’éligibilité de l’élément de décision :
 
-1. Définissez des règles de limitation pour définir le nombre maximal de fois où une offre peut être présentée. [Voici comment procéder](items.md#capping)
+   * Définissez des audiences ou des règles pour limiter l’élément à des profils spécifiques uniquement. [En savoir plus](items.md#eligibility)
 
-<!--1. If needed, repeat the steps above to create one or more additional decision items.-->
+   * Définissez des règles de limitation pour définir le nombre maximal de fois où une offre peut être présentée. [En savoir plus](items.md#capping)
+
+1. Si nécessaire, répétez les étapes ci-dessus pour créer des éléments de décision supplémentaires.
 
 1. Créez une **collection** où vos éléments de décision seront inclus. [En savoir plus](collections.md)
 
-1. Créez une **stratégie de sélection**. [Voici comment procéder](selection-strategies.md#create-selection-strategy)
+1. Créez une [stratégie de sélection](selection-strategies.md#create-selection-strategy) et sélectionnez la [collection](collections.md) qui contient la ou les offres à prendre en compte.
 
-1. Sélectionnez la [collection](collections.md) qui contient la ou les offres à prendre en compte.
+1. [Choisissez la méthode de classement](#select-ranking-method) à utiliser pour sélectionner la meilleure offre pour chaque profil.
 
-1. [Choisissez la méthode de classement](#select-ranking-method) à utiliser pour sélectionner la meilleure offre pour chaque profil. Dans ce cas, sélectionnez **[!UICONTROL Priorité des offres]**. [En savoir plus](selection-strategies.md#offer-priority)
+   Dans ce cas, sélectionnez **[!UICONTROL Priorité des offres]** : si plusieurs offres sont éligibles pour cette stratégie, le moteur Decisioning utilise la valeur définie comme **[!UICONTROL Priorité]** dans la ou les offres. [En savoir plus](selection-strategies.md#offer-priority)
 
    ![](assets/exd-uc-strategy-priority.png)
-
-   <!--If multiple offers are eligible for this strategy, the [Offer priority](#offer-priority) method uses the value defined in the offers.-->
 
 ### Créer la deuxième stratégie de sélection
 
@@ -74,51 +74,49 @@ Dans la deuxième stratégie de sélection, sélectionnez une formule comme mét
 
 <!--1. Set the same **[!UICONTROL Priority]** as for the first decision item. TBC?-->
 
-1. Définissez des audiences ou des règles pour limiter l’élément à des profils spécifiques uniquement. [Découvrez comment définir l&#39;éligibilité de l&#39;élément de décision](items.md#eligibility)
+1. Définissez l’éligibilité de l’élément de décision :
 
-1. Définissez des règles de limitation pour définir le nombre maximal de fois où une offre peut être présentée. [Voici comment procéder](items.md#capping)
+   * Définissez des audiences ou des règles pour limiter l’élément à des profils spécifiques uniquement. [En savoir plus](items.md#eligibility)
 
-<!--1. If needed, repeat the steps above to create one or more additional decision items.-->
+   * Définissez des règles de limitation pour définir le nombre maximal de fois où une offre peut être présentée. [En savoir plus](items.md#capping)
+
+1. Si nécessaire, répétez les étapes ci-dessus pour créer des éléments de décision supplémentaires.
 
 1. Créez une **collection** où vos éléments de décision seront inclus. [En savoir plus](collections.md)
 
-1. Créez une **stratégie de sélection**. [Voici comment procéder](selection-strategies.md#create-selection-strategy)
+1. Créez une [stratégie de sélection](selection-strategies.md#create-selection-strategy) et sélectionnez la [collection](collections.md) qui contient la ou les offres à prendre en compte.
 
-1. Sélectionnez la [collection](collections.md) qui contient la ou les offres à prendre en compte.
+1. [Choisissez la méthode de classement](#select-ranking-method) à utiliser pour sélectionner la meilleure offre pour chaque profil.
 
-1. [Sélectionnez la méthode de classement](#select-ranking-method) à utiliser pour sélectionner la meilleure offre pour chaque profil. Dans ce cas, sélectionnez **[!UICONTROL Formule]** pour utiliser un score calculé spécifique afin de choisir l’offre éligible à diffuser. [En savoir plus](selection-strategies.md#ranking-formula)
+   Dans ce cas, sélectionnez **[!UICONTROL Formule]** pour utiliser un score calculé spécifique afin de choisir l’offre éligible à diffuser. [En savoir plus](selection-strategies.md#ranking-formula)
 
    ![](assets/exd-uc-strategy-formula.png)
 
-<!--
-## Create decision items and selection strategies
-
-You first need to create items, group them together in collections, set up rules and ranking methods. These elements will allow you to build selection strategies.
-
-1. Navigate to **[!UICONTROL Decisioning]** > **[!UICONTROL Catalogs]** and create several decision items. Set constraints using audiences or rules to restrict each item to specific profiles only. [Learn more](items.md)
-
-1. From the items list, click the **[!UICONTROL Edit schema]** button  and edit the custom attributes if needed. [Learn how to work with catalogs](catalogs.md)
-
-1. Create **collections** to categorize and group your decision items according to your preferences. [Learn more](collections.md)
-
-1. Create **decision rules** to determine to whom a decision item can be shown. [Learn more](rules.md)
-
-1. Create **ranking methods** and apply them within decision strategies to determine the priority order for selecting decision items. [Learn more](ranking.md)
-
-1. Build **selection strategies** that leverage collections, decision rules, and ranking methods to identify the decision items suitable for displaying to profiles. [Learn more](selection-strategies.md)
--->
-
-## Créer des politiques de décision
+## Création d’une campagne d’expérience basée sur du code
 
 <!--To present the best dynamic offer and experience to your visitors on your website or mobile app, add a decision policy to a code-based campaign.
 
 Define two delivery treatments each containing a different decision policy.-->
 
-1. Créez une campagne et sélectionnez l’action **[!UICONTROL Expérience basée sur du code]**. [En savoir plus](../code-based/create-code-based.md).
+Une fois que vous avez configuré les deux stratégies de sélection, créez une campagne d’expérience basée sur le code dans laquelle vous définissez un traitement différent pour chaque stratégie afin de comparer celle qui fonctionne le mieux.
 
-1. Dans la fenêtre **[!UICONTROL Modifier le contenu]**, commencez à personnaliser votre traitement A.
+1. Créez une campagne et sélectionnez l’action **[!UICONTROL Expérience basée sur du code]**. [En savoir plus](../code-based/create-code-based.md)
 
-1. Sélectionnez l’icône **[!UICONTROL Décisions]**, cliquez sur **[!UICONTROL Créer une décision]** et renseignez les détails de la décision. [En savoir plus](create-decision.md)
+1. Dans la page de résumé de la campagne, cliquez sur **[!UICONTROL Créer une expérience]** pour commencer à configurer votre expérience de contenu. [En savoir plus](../content-management/content-experiment.md)
+
+   ![](assets/exd-uc-create-experiment.png)
+
+1. Cliquez sur **[!UICONTROL Modifier le contenu]**.
+
+<!--1. Sart personalizing **Treatment A** by clicking **[!UICONTROL Create]**.
+
+    ![](assets/exd-uc-create-treatment-a.png)-->
+
+1. Dans la fenêtre d’édition du contenu, commencez à personnaliser **Traitement A** en cliquant sur **[!UICONTROL Modifier le code]**.
+
+   ![](assets/exd-uc-experiment-treatment-a.png)
+
+1. Sélectionnez **[!UICONTROL Politique de décision]**, cliquez sur **[!UICONTROL Ajouter une politique de décision]** et renseignez les détails de la décision. [En savoir plus](create-decision.md)
 
    ![](assets/decision-code-based-create.png)
 
@@ -136,10 +134,8 @@ Define two delivery treatments each containing a different decision policy.-->
 
    ![](assets/decision-code-based-decision-profile-attribute.png)
 
-1. Dans la page de résumé de la campagne, cliquez sur **[!UICONTROL Créer une expérience]** pour commencer à configurer votre expérience de contenu. [En savoir plus](../content-management/content-experiment.md)
+1. Dans la fenêtre de modification du contenu, sélectionnez **Traitement B**, puis répétez les étapes ci-dessus pour créer une autre politique de décision et sélectionnez la deuxième stratégie de sélection que vous avez créée.
 
-1. Dans la fenêtre **[!UICONTROL Modifier le contenu]**, sélectionnez le traitement B et répétez les étapes ci-dessus pour créer une autre décision.
-
-1. Sélectionnez la deuxième stratégie que vous avez créée. Cliquez sur **[!UICONTROL Ajouter une stratégie]**.
+   ![](assets/exd-uc-experiment-treatment-b.png)
 
 1. Enregistrez votre contenu.
