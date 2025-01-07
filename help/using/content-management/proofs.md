@@ -5,20 +5,22 @@ feature: Preview, Proofs
 role: User
 level: Beginner
 exl-id: e742c04e-2987-4466-84af-bdaf4d714552
-source-git-commit: 03cb3298c905766bc059e82c58969a2111379345
-workflow-type: ht
-source-wordcount: '282'
-ht-degree: 100%
+source-git-commit: 83da97926138c867ea2dacca6e5cf5e40c926eda
+workflow-type: tm+mt
+source-wordcount: '309'
+ht-degree: 83%
 
 ---
 
 # Envoyer des BAT d’e-mail {#send-proofs}
 
+>[!PREREQUISITES]
+>
+>Pour envoyer des BAT, les utilisateurs doivent disposer des autorisations **Approuver et publier** pour la ressource, la campagne ou le parcours spécifique associé à l’e-mail. [En savoir plus sur les autorisations](../administration/ootb-permissions.md)
+
 Un BAT est un message spécifique qui permet de tester un message avant son envoi à l&#39;audience principale. Les destinataires du BAT sont chargés d&#39;approuver le message : rendu, contenu, paramètres de personnalisation, configuration.
 
->[!NOTE]
->
->[!DNL Journey optimizer] vous permet également de tester différentes variantes de votre contenu en le prévisualisant et en envoyant des BAT à l’aide d’exemples de données d’entrée chargées à partir d’un fichier CSV/JSON ou ajoutées manuellement. [Découvrir comment tester votre contenu à l’aide d’exemples de données d’entrée](../test-approve/simulate-sample-input.md)
+Notez que [!DNL Journey optimizer] vous permet également de tester différentes variantes de votre contenu en le prévisualisant et en envoyant des BAT à l’aide des exemples de données d’entrée téléchargées à partir d’un fichier CSV/JSON ou ajoutées manuellement. [Découvrir comment tester votre contenu à l’aide d’exemples de données d’entrée](../test-approve/simulate-sample-input.md)
 
 Pour envoyer des BAT d’e-mails une fois des [profils de test](test-profiles.md) sélectionnés, procédez comme suit :
 
