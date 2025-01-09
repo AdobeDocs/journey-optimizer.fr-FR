@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Experienced
 exl-id: 63aa1763-2220-4726-a45d-3a3a8b8a55ec
-source-git-commit: 616e1dd9fbfd029f7209356d5c19cfff9d4b4f06
-workflow-type: ht
-source-wordcount: '1791'
-ht-degree: 100%
+source-git-commit: bfc16476f525328b2b8451bfdd57b6b2027db916
+workflow-type: tm+mt
+source-wordcount: '1798'
+ht-degree: 94%
 
 ---
 
@@ -60,9 +60,15 @@ Pour présenter la meilleure offre et expérience dynamique aux visiteurs et vis
 
 1. Créez une campagne et sélectionnez l’action **[!UICONTROL Expérience basée sur le code]**. [En savoir plus](../code-based/create-code-based.md)
 
-1. Dans l’[éditeur de code](../code-based/create-code-based.md#edit-code), sélectionnez l’icône **[!UICONTROL Politique de décision]**, et cliquez sur **[!UICONTROL Ajouter une politique de décision]**.
+1. Dans l’[éditeur de code](../code-based/create-code-based.md#edit-code), sélectionnez **[!UICONTROL Politique de décision]** et cliquez sur **[!UICONTROL Ajouter une politique de décision]**.
 
    ![](assets/decision-code-based-create.png)
+
+1. Par défaut, créez une politique.
+
+   >[!NOTE]
+   >
+   >Vous pouvez également choisir de sélectionner une politique existante.
 
 1. Renseignez les détails de votre politique de décision : ajoutez un nom et sélectionnez un catalogue.
 
@@ -78,9 +84,11 @@ Pour présenter la meilleure offre et expérience dynamique aux visiteurs et vis
 
 La section **[!UICONTROL Séquence de stratégies]** vous permet de sélectionner les éléments de décision et les stratégies de sélection à inclure avec la politique de décision.
 
-1. Cliquez sur le bouton **[!UICONTROL Ajouter]**, puis sélectionnez le type d’objet à inclure dans la politique :
+1. Cliquez sur le bouton **[!UICONTROL Ajouter]**.
 
-   * **[!UICONTROL Stratégie de sélection]** : ajoutez une ou plusieurs stratégies de sélection. Les stratégies de décision tirent parti des collections associées aux contraintes d’éligibilité et aux méthodes de classement pour déterminer les éléments à afficher. Vous pouvez sélectionner une stratégie de sélection existante ou en créer une à l’aide du bouton **[!UICONTROL Créer une stratégie de sélection]**.[Découvrir comment créer des stratégies de sélection](selection-strategies.md)
+1. Choisissez le type d’objet à inclure dans la politique :
+
+   * **[!UICONTROL Stratégie de sélection]** : ajoutez une ou plusieurs stratégies de sélection. Les stratégies de décision tirent parti des collections associées aux contraintes d’éligibilité et aux méthodes de classement pour déterminer les éléments à afficher. Vous pouvez sélectionner une stratégie de sélection existante ou en créer une nouvelle à l’aide du bouton **[!UICONTROL Créer une stratégie de sélection]**. [Découvrir comment créer des stratégies de sélection](selection-strategies.md)
 
    * **[!UICONTROL Élément de décision]** : ajoutez des éléments de décision uniques à présenter sans avoir à exécuter une stratégie de sélection. Vous pouvez sélectionner un seul élément de décision à la fois. Toutes les contraintes d’éligibilité définies pour l’élément s’appliquent.
 
@@ -90,7 +98,9 @@ La section **[!UICONTROL Séquence de stratégies]** vous permet de sélectionne
    >
    >Une politique de décision prend en charge jusqu’à 10 stratégies de sélection et éléments de décision combinés. [En savoir plus sur les mécanismes de sécurisation et sur les limitations de la prise de décision](gs-experience-decisioning.md#guardrails)
 
-1. Lorsque vous ajoutez plusieurs éléments et/ou stratégies de décision, ils sont évalués dans un ordre spécifique. Le premier objet ajouté à la séquence sera évalué en premier, et ainsi de suite. Pour modifier la séquence par défaut, vous pouvez faire glisser et déposer les objets et/ou les groupes afin de les réorganiser selon vos besoins. [En savoir plus sur l’ordre d’évaluation des politiques de décision](#evaluation-order)
+1. Lorsque vous ajoutez plusieurs éléments et/ou stratégies de décision, ils sont évalués dans un ordre spécifique. Le premier objet qui a été ajouté à la séquence sera évalué en premier, et ainsi de suite.
+
+   Pour modifier la séquence par défaut, faites glisser et déposez les objets et/ou les groupes pour les réorganiser selon vos besoins. [En savoir plus](#evaluation-order)
 
 ### Gestion de l’ordre d’évaluation dans une politique de décision {#evaluation-order}
 

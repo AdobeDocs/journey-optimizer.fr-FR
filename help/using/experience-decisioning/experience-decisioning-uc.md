@@ -8,10 +8,10 @@ level: Intermediate, Experienced
 hide: true
 hidefromtoc: true
 exl-id: 09770df2-c514-4217-a71b-e31c248df543
-source-git-commit: ff17e7609eb6504632d35671a4bd2aa11a613372
+source-git-commit: bfc16476f525328b2b8451bfdd57b6b2027db916
 workflow-type: tm+mt
-source-wordcount: '640'
-ht-degree: 22%
+source-wordcount: '737'
+ht-degree: 14%
 
 ---
 
@@ -30,6 +30,10 @@ Pour mesurer celui qui fonctionne le mieux pour votre audience cible, créez une
 
 Tout d’abord, vous devez créer deux stratégies de sélection : une avec la priorité comme méthode de classement et une autre avec une formule comme méthode de classement.
 
+>[!NOTE]
+>
+>Vous pouvez également créer des éléments de décision uniques sans avoir à exécuter une stratégie de sélection. La priorité définie pour chaque élément s’applique.
+
 ### Création de la première stratégie de sélection
 
 Pour créer la première stratégie de sélection avec la priorité comme méthode de classement, procédez comme suit.
@@ -38,7 +42,7 @@ Pour créer la première stratégie de sélection avec la priorité comme métho
 
 1. Définissez la **[!UICONTROL priorité]** de l’élément de décision par rapport aux autres. Si un profil est éligible à plusieurs éléments, une priorité plus élevée accorde la priorité sur les autres.
 
-   ![](assets/exd-uc-item-priority.png)
+   ![](assets/exd-uc-item-priority.png){width="80%"}
 
    >[!NOTE]
    >
@@ -58,7 +62,7 @@ Pour créer la première stratégie de sélection avec la priorité comme métho
 
 1. [Choisissez la méthode de classement](#select-ranking-method) à utiliser pour sélectionner la meilleure offre pour chaque profil. Dans ce cas, sélectionnez **[!UICONTROL Priorité des offres]** : si plusieurs offres sont éligibles pour cette stratégie, le moteur Decisioning utilise la valeur définie comme **[!UICONTROL Priorité]** dans la ou les offres. [En savoir plus](selection-strategies.md#offer-priority)
 
-   ![](assets/exd-uc-strategy-priority.png)
+   ![](assets/exd-uc-strategy-priority.png){width="80%"}
 
 ### Créer la deuxième stratégie de sélection
 
@@ -66,7 +70,7 @@ Pour créer la deuxième stratégie de sélection avec sélectionner une formule
 
 1. Créez un élément de décision. [Voici comment procéder](items.md)
 
-   <!--1. Set the same **[!UICONTROL Priority]** as for the first decision item. TBC?-->
+   <!--Do you need to set the same **[!UICONTROL Priority]** as for the first decision item, or it won't be considered at all?-->
 
 1. Définissez l’éligibilité de l’élément de décision :
 
@@ -90,46 +94,52 @@ Pour créer la deuxième stratégie de sélection avec sélectionner une formule
 
 Define two delivery treatments each containing a different decision policy.-->
 
-Une fois que vous avez configuré les deux stratégies de sélection, créez une campagne d’expérience basée sur le code dans laquelle vous définissez un traitement différent pour chaque stratégie afin de comparer celle qui fonctionne le mieux.
+Une fois que vous avez configuré les deux stratégies de sélection, créez une campagne d’expérience basée sur le code dans laquelle vous définissez un traitement différent pour chaque stratégie, afin de comparer celle qui fonctionne le mieux.
 
 1. Créez une campagne et sélectionnez l’action **[!UICONTROL Expérience basée sur du code]**. [En savoir plus](../code-based/create-code-based.md)
 
 1. Dans la page de résumé de la campagne, cliquez sur **[!UICONTROL Créer une expérience]** pour commencer à configurer votre expérience de contenu. [En savoir plus](../content-management/content-experiment.md)
 
-   ![](assets/exd-uc-create-experiment.png)
+   ![](assets/exd-uc-create-experiment.png){width="80%"}
 
-1. Dans la page de résumé de la campagne, sélectionnez ou créez une configuration basée sur du code, puis cliquez sur **[!UICONTROL Modifier le contenu]**.
+1. Dans la page de résumé de la campagne, sélectionnez une configuration basée sur du code, puis cliquez sur **[!UICONTROL Modifier le contenu]**.
 
-   ![](assets/exd-uc-edit-cbe-content.png)
+   ![](assets/exd-uc-edit-cbe-content.png){width="80%"}
 
-<!--1. Sart personalizing **Treatment A** by clicking **[!UICONTROL Create]**.
+1. Dans la fenêtre d’édition du contenu, pour commencer à personnaliser **Traitement A**, cliquez sur **[!UICONTROL Modifier le code]**.
 
-    ![](assets/exd-uc-create-treatment-a.png)-->
+   ![](assets/exd-uc-experiment-treatment-a.png){width="80%"}
 
-1. Dans la fenêtre d’édition du contenu, commencez à personnaliser **Traitement A** en cliquant sur **[!UICONTROL Modifier le code]**.
-
-   ![](assets/exd-uc-experiment-treatment-a.png)
-
-1. Sélectionnez **[!UICONTROL Politique de décision]**, cliquez sur **[!UICONTROL Ajouter une politique de décision]** et renseignez les détails de la décision. [En savoir plus](create-decision.md)
+1. Dans l’[éditeur de code](../code-based/create-code-based.md#edit-code), sélectionnez **[!UICONTROL Politique de décision]**, cliquez sur **[!UICONTROL Ajouter une politique de décision]** et renseignez les détails de la décision. [En savoir plus](create-decision.md#add)
 
    ![](assets/decision-code-based-create.png)
 
-1. Sélectionnez la première stratégie que vous avez créée. Cliquez sur **[!UICONTROL Ajouter une stratégie]**.
+1. Dans la section **[!UICONTROL Séquence de stratégie]**, cliquez sur le bouton **[!UICONTROL Ajouter]** et choisissez **[!UICONTROL Stratégie de sélection]**. [En savoir plus](create-decision.md#select)
 
-1. Cliquez sur **[!UICONTROL Créer]**. La nouvelle décision est ajoutée sous **[!UICONTROL Décisions]**.
+   ![](assets/decision-code-based-strategy-sequence.png){width="80%"}
 
-   ![](assets/decision-code-based-decision-added.png)
+   >[!NOTE]
+   >
+   >Vous pouvez également sélectionner **[!UICONTROL Élément de décision]** pour ajouter des éléments uniques sans avoir à exécuter une stratégie de sélection. La priorité définie pour chaque élément s’applique.
 
-1. Cliquez sur l’icône d’actions supplémentaires (points de suspension) et sélectionnez **[!UICONTROL Ajouter]**. Vous pouvez maintenant ajouter tous les attributs de décision que vous souhaitez dans cette section.
+1. Sélectionnez la première stratégie que vous avez créée.
 
-   ![](assets/decision-code-based-add-decision.png)
+   ![](assets/exd-uc-experiment-strategy-priority.png){width="80%"}
 
-1. Vous pouvez également ajouter tout autre attribut disponible dans l’éditeur de personnalisation, tel que des attributs de profil.
+1. Enregistrez vos modifications et cliquez sur **[!UICONTROL Créer]**. La nouvelle décision est ajoutée sous **[!UICONTROL Politique de décision]**.
 
-   ![](assets/decision-code-based-decision-profile-attribute.png)
+1. Cliquez sur le bouton **[!UICONTROL Insérer une politique]**. Le code correspondant à la politique de décision est ajouté. Ajoutez ensuite tous les attributs souhaités au code, y compris les attributs de profil. [En savoir plus](create-decision.md#use-decision-policy).
 
-1. Dans la fenêtre de modification du contenu, sélectionnez **Traitement B**, puis répétez les étapes ci-dessus pour créer une autre politique de décision et sélectionnez la deuxième stratégie de sélection que vous avez créée.
+   ![](assets/exd-uc-experiment-insert-policy.png){width="80%"}
 
-   ![](assets/exd-uc-experiment-treatment-b.png)
+1. Enregistrez vos modifications.
 
-1. Enregistrez votre contenu.
+1. Revenez à la fenêtre d’édition du contenu, sélectionnez le bouton + pour ajouter **Traitement B**, sélectionnez-le et cliquez sur **[!UICONTROL Modifier le code]**.
+
+   ![](assets/exd-uc-experiment-treatment-b.png){width="80%"}
+
+1. Répétez les étapes ci-dessus pour créer une autre politique de décision et sélectionnez la deuxième stratégie de sélection que vous avez créée. <!--Do you need to create exactly the same content to compare only the ranking method?-->
+
+1. Enregistrez vos modifications et [ publiez votre campagne d’expérience basée sur le code ](../code-based/publish-code-based.md).
+
+Vous pouvez suivre les performances de votre campagne à l’aide du [rapport de campagne d’expérimentation](../reports/campaign-global-report-cja-experimentation.md) et du [rapport sur la prise de décision](cja-reporting.md). <!--TBC how to check which treatment performs best-->
