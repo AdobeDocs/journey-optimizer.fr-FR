@@ -8,9 +8,9 @@ level: Intermediate, Experienced
 hide: true
 hidefromtoc: true
 exl-id: 09770df2-c514-4217-a71b-e31c248df543
-source-git-commit: bfc16476f525328b2b8451bfdd57b6b2027db916
+source-git-commit: aa0791b7ca3eb4c39f700fbe23937b5529f44376
 workflow-type: tm+mt
-source-wordcount: '737'
+source-wordcount: '739'
 ht-degree: 14%
 
 ---
@@ -19,12 +19,10 @@ ht-degree: 14%
 
 Ce cas pratique présente toutes les étapes nécessaires pour utiliser Decisioning avec le canal basé sur le code [!DNL Journey Optimizer].
 
-Dans cet exemple, vous ne savez pas si une formule de classement spécifique sera plus performante que les priorités d&#39;offre préaffectées.
-
-Pour mesurer celui qui fonctionne le mieux pour votre audience cible, créez une campagne à l’aide de [Expérience de contenu](../content-management/content-experiment.md) où vous définissez deux traitements de diffusion :
+Dans cet exemple, vous ne savez pas si une formule de classement spécifique sera plus performante que les priorités d&#39;offre préaffectées. Pour mesurer celui qui fonctionne le mieux pour votre audience cible, vous créez une campagne à l’aide de [Expérience de contenu](../content-management/content-experiment.md) où vous définissez deux traitements de diffusion :
 
 * Le premier traitement utilise la priorité comme méthode de classement.
-* Le deuxième traitement utilise une formule qui est la méthode de classement.
+* Le deuxième traitement utilise une formule comme méthode de classement.
 
 ## Créer des stratégies de sélection
 
@@ -34,7 +32,7 @@ Tout d’abord, vous devez créer deux stratégies de sélection : une avec la p
 >
 >Vous pouvez également créer des éléments de décision uniques sans avoir à exécuter une stratégie de sélection. La priorité définie pour chaque élément s’applique.
 
-### Création de la première stratégie de sélection
+### Création d’une stratégie à l’aide de la priorité
 
 Pour créer la première stratégie de sélection avec la priorité comme méthode de classement, procédez comme suit.
 
@@ -64,7 +62,7 @@ Pour créer la première stratégie de sélection avec la priorité comme métho
 
    ![](assets/exd-uc-strategy-priority.png){width="80%"}
 
-### Créer la deuxième stratégie de sélection
+### Création d’une autre stratégie à l’aide d’une formule
 
 Pour créer la deuxième stratégie de sélection avec sélectionner une formule comme méthode de classement, procédez comme suit.
 
