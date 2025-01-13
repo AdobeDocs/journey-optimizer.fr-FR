@@ -11,13 +11,13 @@ exl-id: 09770df2-c514-4217-a71b-e31c248df543
 source-git-commit: fbe07345079c6e8cf5ae081094fbc8c25f6d0e57
 workflow-type: tm+mt
 source-wordcount: '739'
-ht-degree: 14%
+ht-degree: 60%
 
 ---
 
 # Cas d’utilisation de la prise de décision {#experience-decisioning-uc}
 
-Ce cas pratique présente toutes les étapes nécessaires pour utiliser Decisioning avec le canal basé sur le code [!DNL Journey Optimizer].
+Ce cas pratique présente toutes les étapes nécessaires pour utiliser les décisions avec le canal basé sur le code [!DNL Journey Optimizer].
 
 Dans cet exemple, vous ne savez pas si une formule de classement spécifique sera plus performante que les priorités d&#39;offre préaffectées. Pour mesurer celui qui fonctionne le mieux pour votre audience cible, vous créez une campagne à l’aide de [Expérience de contenu](../content-management/content-experiment.md) où vous définissez deux traitements de diffusion :
 
@@ -26,7 +26,7 @@ Dans cet exemple, vous ne savez pas si une formule de classement spécifique ser
 
 ## Créer des stratégies de sélection
 
-Tout d’abord, vous devez créer deux stratégies de sélection : une avec la priorité comme méthode de classement et une autre avec une formule comme méthode de classement.
+Tout d’abord, vous devez créer deux stratégies de sélection : une avec la priorité comme méthode de classement et une autre avec une formule comme méthode de classement.
 
 >[!NOTE]
 >
@@ -46,47 +46,47 @@ Pour créer la première stratégie de sélection avec la priorité comme métho
    >
    >La priorité est un type de données Entier. Tous les attributs qui sont des types de données Entier doivent contenir des valeurs entières (pas de décimales).
 
-1. Définissez l’éligibilité de l’élément de décision :
+1. Configurez l’éligibilité de l’élément de décision :
 
-   * Définissez des audiences ou des règles pour limiter l’élément à des profils spécifiques uniquement. [En savoir plus](items.md#eligibility)
+   * Définissez les audiences ou les règles afin de limiter l’élément à des profils spécifiques uniquement. [En savoir plus](items.md#eligibility)
 
-   * Définissez des règles de limitation pour définir le nombre maximal de fois où une offre peut être présentée. [En savoir plus](items.md#capping)
+   * La définition de règles de limitation est utilisée pour définir le nombre maximum de fois où une offre peut être présentée. [En savoir plus](items.md#capping)
 
 1. Si nécessaire, répétez les étapes ci-dessus pour créer des éléments de décision supplémentaires.
 
-1. Créez une **collection** où vos éléments de décision seront inclus. [En savoir plus](collections.md)
+1. Créez une **collection** dans laquelle vos éléments de décision seront inclus. [En savoir plus](collections.md)
 
 1. Créez une [stratégie de sélection](selection-strategies.md#create-selection-strategy) et sélectionnez la [collection](collections.md) qui contient la ou les offres à prendre en compte.
 
-1. [Choisissez la méthode de classement](#select-ranking-method) à utiliser pour sélectionner la meilleure offre pour chaque profil. Dans ce cas, sélectionnez **[!UICONTROL Priorité des offres]** : si plusieurs offres sont éligibles pour cette stratégie, le moteur Decisioning utilise la valeur définie comme **[!UICONTROL Priorité]** dans la ou les offres. [En savoir plus](selection-strategies.md#offer-priority)
+1. [Définissez la méthode de classement](#select-ranking-method) à utiliser pour sélectionner la meilleure offre pour chaque profil. Dans ce cas, sélectionnez **[!UICONTROL Priorité des offres]** : si plusieurs offres sont éligibles pour cette stratégie, le moteur de décision utilise la valeur définie comme **[!UICONTROL Priorité]** dans la ou les offres. [En savoir plus](selection-strategies.md#offer-priority)
 
    ![](assets/exd-uc-strategy-priority.png){width="90%"}
 
 ### Création d’une autre stratégie à l’aide d’une formule
 
-Pour créer la deuxième stratégie de sélection avec sélectionner une formule comme méthode de classement, procédez comme suit.
+Pour créer la deuxième stratégie de sélection avec la sélection d’une formule comme méthode de classement, procédez comme suit.
 
 1. Créez un élément de décision. [Voici comment procéder](items.md)
 
    <!--Do you need to set the same **[!UICONTROL Priority]** as for the first decision item, or it won't be considered at all?-->
 
-1. Définissez l’éligibilité de l’élément de décision :
+1. Configurez l’éligibilité de l’élément de décision :
 
-   * Définissez des audiences ou des règles pour limiter l’élément à des profils spécifiques uniquement. [En savoir plus](items.md#eligibility)
+   * Définissez les audiences ou les règles afin de limiter l’élément à des profils spécifiques uniquement. [En savoir plus](items.md#eligibility)
 
-   * Définissez des règles de limitation pour définir le nombre maximal de fois où une offre peut être présentée. [En savoir plus](items.md#capping)
+   * La définition de règles de limitation est utilisée pour définir le nombre maximum de fois où une offre peut être présentée. [En savoir plus](items.md#capping)
 
 1. Si nécessaire, répétez les étapes ci-dessus pour créer des éléments de décision supplémentaires.
 
-1. Créez une **collection** où vos éléments de décision seront inclus. [En savoir plus](collections.md)
+1. Créez une **collection** dans laquelle vos éléments de décision seront inclus. [En savoir plus](collections.md)
 
 1. Créez une [stratégie de sélection](selection-strategies.md#create-selection-strategy) et sélectionnez la [collection](collections.md) qui contient la ou les offres à prendre en compte.
 
-1. [Choisissez la méthode de classement](#select-ranking-method) à utiliser pour sélectionner la meilleure offre pour chaque profil. Dans ce cas, sélectionnez **[!UICONTROL Formule]** pour utiliser un score calculé spécifique afin de déterminer l’offre éligible à diffuser. [En savoir plus](selection-strategies.md#ranking-formula)
+1. [Définissez la méthode de classement](#select-ranking-method) à utiliser pour sélectionner la meilleure offre pour chaque profil. Dans ce cas, sélectionnez **[!UICONTROL Formule]** pour utiliser un score calculé spécifique afin de déterminer l’offre éligible à diffuser. [En savoir plus](selection-strategies.md#ranking-formula)
 
    ![](assets/exd-uc-strategy-formula.png){width="90%"}
 
-## Création d’une campagne d’expérience basée sur du code
+## Créer une campagne d’expérience basée sur le code
 
 <!--To present the best dynamic offer and experience to your visitors on your website or mobile app, add a decision policy to a code-based campaign.
 
