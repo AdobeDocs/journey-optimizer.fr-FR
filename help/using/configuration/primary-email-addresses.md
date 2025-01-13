@@ -10,9 +10,9 @@ level: Intermediate
 keywords: principal, exécution, e-mail, cible, profil, optimizer
 exl-id: fe2f6516-7790-4501-a3a1-3d7cb94d7874
 source-git-commit: 462928883ae22998f8c16dcbe6f37f062487c5ad
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '483'
-ht-degree: 78%
+ht-degree: 100%
 
 ---
 
@@ -70,13 +70,13 @@ Le champ d&#39;exécution est mis à jour et sera désormais utilisé comme adre
 
 Pour des cas d’utilisation spécifiques, vous pouvez remplacer le champ d’exécution défini globalement et définir une valeur différente au niveau de la configuration du canal e-mail ou au niveau du parcours.
 
-### Dans la configuration des e-mails
+### Dans la configuration du canal e-mail
 
-Vous pouvez modifier le champ d’exécution par défaut défini dans les [paramètres généraux](#admin-settings) lors de la définition d’une configuration de canal e-mail. [En savoir plus](../email/email-settings.md#execution-address)
+Vous pouvez modifier le champ d’exécution par défaut défini dans les [paramètres généraux](#admin-settings) lors de la définition d’une configuration du canal e-mail. [En savoir plus](../email/email-settings.md#execution-address)
 
-Lorsqu’une adresse d’exécution est définie dans la configuration de l’e-mail, elle est utilisée comme adresse principale et remplace le paramètre général au niveau du sandbox.
+Lorsqu’une adresse d’exécution est définie dans la configuration du canal e-mail, elle est utilisée comme adresse principale et remplace le paramètre général au niveau du sandbox.
 
-### Dans les paramètres de parcours {#journey-parameters}
+### Dans les paramètres du parcours {#journey-parameters}
 
 Lors de l’ajout d’une action **[!UICONTROL E-mail]** à un [parcours](../email/create-email.md#create-email-journey-campaign), l’adresse e-mail principale s’affiche sous les paramètres avancés du parcours.
 
@@ -90,6 +90,6 @@ Dans certains contextes spécifiques, vous pouvez remplacer cette valeur en cliq
 
 Par exemple, cette valeur peut être utile pour effectuer les actions suivantes :
 
-* Tesert un e-mail. Vous pouvez ajouter votre propre adresse e-mail : une fois le parcours publié, l’e-mail vous est envoyé.
+* Tesert un e-mail. Vous pouvez ajouter votre adresse e-mail : une fois que vous avez publié le parcours, l’e-mail vous est envoyé.
 * Envoyer un message aux personnes abonnées à une liste. En savoir plus sur [ce cas d’utilisation](../building-journeys/message-to-subscribers-uc.md).
 

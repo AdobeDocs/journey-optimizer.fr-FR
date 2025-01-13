@@ -9,9 +9,9 @@ role: Data Engineer, Data Architect, Admin
 level: Experienced
 exl-id: 26ad12c3-0a2b-4f47-8f04-d25a6f037350
 source-git-commit: 1a3e09c87b3edeedd1b7558314cf413ea0b2c9d9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1486'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -47,7 +47,7 @@ AND _experience.journeyOrchestration.stepEvents.instanceType = 'unitary'
 AND DATE(timestamp) > (now() - interval '<last x hours>' hour);
 ```
 
-**Nombre d’erreurs qui se sont produites sur chaque nœud d’un parcours spécifique pendant une certaine période**
+**Le nombre d’erreurs qui se sont produites sur chaque nœud d’un parcours spécifique pendant une certaine période**
 
 _Requête du lac de données_
 

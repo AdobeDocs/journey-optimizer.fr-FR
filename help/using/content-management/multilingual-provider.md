@@ -10,9 +10,9 @@ level: Beginner
 keywords: commencer, démarrer, contenu, expérience
 exl-id: 62327f8c-7a9d-44c3-88f9-3048ff8bd326
 source-git-commit: 3d9fc6480719cf46a3485914c57a883451f2a058
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '194'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -40,7 +40,7 @@ Avant d’ajouter le fournisseur de traduction que vous avez choisi, assurez-vou
 
    ![](assets/provider_2.png)
 
-1. Si vous utilisez Microsoft Translator comme fournisseur, saisissez votre **[!UICONTROL clé d’abonnement]** et votre **[!UICONTROL URL de point d’entrée]**.
+1. Si vous utilisez Microsoft Translator comme fournisseur, saisissez votre **[!UICONTROL clé d’abonnement]** et votre **[!UICONTROL URL de point d’entrée]**.
 
    Cliquez sur **[!UICONTROL Valider les informations d’identification]** pour tester votre connexion.
 

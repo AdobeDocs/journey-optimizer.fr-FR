@@ -10,9 +10,9 @@ level: Experienced
 keywords: paramètres, e-mail, configuration, sous-domaine
 exl-id: 1e004a76-5d6d-43a1-b198-5c9b41f5332c
 source-git-commit: 8a9f0b42acb19f0b28340f11dada19f5b6524c66
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1069'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -113,7 +113,7 @@ Pour utiliser des variables personnalisées pour vos paramètres d’en-tête de
    >
    >Vous pouvez uniquement sélectionner **[!UICONTROL Attributs de profil]** et **[!UICONTROL Fonctions d’assistance]**.
 
-   Par exemple, vous souhaitez gérer dynamiquement les e-mails envoyés au nom d’un gestionnaire de relations, dont les détails sont stockés dans le profil client, de sorte que chaque client soit lié à un gestionnaire de relations. Dans un parcours [](../building-journeys/journey-gs.md), l&#39;en-tête de l&#39;e-mail (nom de l&#39;expéditeur, e-mail de l&#39;expéditeur, adresse de réponse) peut être personnalisé avec les paramètres du gestionnaire de relations, extraits des attributs de profil.
+   Par exemple, vous souhaitez gérer dynamiquement les e-mails envoyés au nom des gestionnaires de relations, dont les détails sont stockés dans le profil client, de sorte que chaque personne soit liée à un ou une gestionnaire de relations. Dans un [parcours](../building-journeys/journey-gs.md), l’en-tête de l’e-mail (nom de l’expéditeur ou de l’expéditrice, adresse e-mail de l’expéditeur ou de l’expéditrice, adresse de réponse) peut être personnalisé avec les paramètres des gestionnaires de relations, extraits des attributs de profil.
 
    <!--The examples below use event parameters, which are currently not available.
     

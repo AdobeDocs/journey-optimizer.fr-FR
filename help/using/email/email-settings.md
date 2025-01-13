@@ -10,9 +10,9 @@ level: Experienced
 keywords: paramètres, e-mail, configuration
 exl-id: 13536962-7541-4eb6-9ccb-4f97e167734a
 source-git-commit: 8a9f0b42acb19f0b28340f11dada19f5b6524c66
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2735'
-ht-degree: 86%
+ht-degree: 100%
 
 ---
 
@@ -97,7 +97,7 @@ Cette option est activée par défaut pour inclure une URL de désabonnement en 
 
 Vous pouvez sélectionner le niveau de consentement dans la liste déroulante **[!UICONTROL Niveau de consentement]**. Il peut être spécifique au canal ou à l’identité du profil. En fonction de ce paramètre, lorsqu’un utilisateur ou une utilisatrice se désabonne à l’aide de l’URL de désabonnement de la liste dans l’en-tête d’un e-mail, le consentement est mis à jour dans Adobe Journey Optimizer au niveau du canal ou au niveau de l’ID.
 
-L’en-tête Désabonnement de la liste propose deux fonctionnalités qui sont activées par défaut, sauf si vous désélectionnez l’une des fonctionnalités ou les deux :
+L’en-tête Désabonnement de la liste propose deux fonctionnalités qui sont activées par défaut, sauf si vous désélectionnez l’une des fonctionnalités ou les deux :
 
 ![](assets/surface-list-unsubscribe-mailto.png){width="80%"}
 
@@ -107,7 +107,7 @@ L’en-tête Désabonnement de la liste propose deux fonctionnalités qui sont a
 
   Dans Journey Optimizer, l’adresse e-mail de désabonnement est l’adresse par défaut **Mailto (se désabonner)** affichée dans la configuration de canal, en fonction du [sous-domaine sélectionné](#subdomains-and-ip-pools).
 
-* L’URL de désabonnement en un clic **One-click**, qui est par défaut l’en-tête de désabonnement de la liste générée par l’URL d’opt-out en un clic, en fonction du sous-domaine que vous avez défini et configuré dans les paramètres de configuration du canal.
+* L’**URL de désabonnement en un clic**, qui est par défaut l’URL d’opt-out en un clic générée par l’en-tête de désabonnement de la liste en fonction du sous-domaine que vous avez défini et dont la configuration est effectuée dans les paramètres de configuration des canaux.
 
 <!--
     >[!AVAILABILITY]
@@ -116,15 +116,15 @@ L’en-tête Désabonnement de la liste propose deux fonctionnalités qui sont a
     >
 -->
 
-Les fonctionnalités **[!UICONTROL Mailto (unsubscribe)]** et **[!UICONTROL URL de désabonnement en un clic]** sont facultatives.
+Les fonctionnalités **[!UICONTROL Mailto (se désabonner)]** et **[!UICONTROL URL de désabonnement en un clic]** sont facultatives.
 
-Si vous ne souhaitez pas utiliser l’URL de désabonnement en un clic générée par défaut, vous pouvez décocher la fonction. Dans le cas où l’option **[!UICONTROL Activer List-Unsubscribe]** est activée et que la fonction **[!UICONTROL URL de désabonnement en un clic]** est décochée, si vous ajoutez un lien d’opt-out en un clic [ à un message créé à l’aide de cette configuration](../privacy/opt-out.md#one-click-opt-out) l’en-tête Liste de désabonnement sélectionne le lien d’opt-out en un clic que vous avez inséré dans le corps de l’e-mail et l’utilise comme valeur d’URL de désabonnement en un clic.
+Si vous ne souhaitez pas utiliser l’URL de désabonnement en un clic générée par défaut, vous pouvez décocher la fonction. Dans le scénario dans lequel l’option **[!UICONTROL Activer le désabonnement de la liste]** est activée et où la fonctionnalité **[!UICONTROL URL de désabonnement en un clic]** n’est pas cochée, si vous ajoutez un [lien d’exclusion en un clic](../privacy/opt-out.md#one-click-opt-out) dans un message créé à l’aide de cette configuration, l’en-tête de désabonnement de la liste récupère le lien d’exclusion en un clic que vous avez inséré dans le corps de l’e-mail et l’utilise comme valeur de l’URL de désabonnement en un clic.
 
 ![](assets/preset-list-unsubscribe-opt-out-url.png)
 
 >[!NOTE]
 >
->Si vous n’ajoutez pas de lien d’opt-out en un clic dans le contenu de votre message et que l’URL de désabonnement en un clic par défaut est décochée dans les paramètres de configuration du canal, aucune URL n’est transmise dans l’en-tête de l’e-mail dans le cadre de l’en-tête Désabonnement de la liste .
+>Si vous n’ajoutez pas de lien d’exclusion en un clic dans le contenu de votre message et que l’URL de désabonnement en un clic par défaut est décochée dans les paramètres de configuration des canaux, aucune URL n’est transmise à l’en-tête de l’e-mail dans le cadre de l’en-tête de désabonnement de la liste.
 
 Pour plus d’informations sur la gestion des fonctionnalités de désabonnement dans vos messages, consultez [cette section](../email/email-opt-out.md#unsubscribe-header).
 
@@ -356,11 +356,11 @@ Vous pouvez prévisualiser de manière dynamique l’URL de tracking obtenue. Ch
 >[!CONTEXTUALHELP]
 >id="ajo_email_config_execution_address"
 >title="Remplacer l’adresse d’exécution par défaut à utiliser"
->abstract="Lorsque plusieurs adresses e-mail sont disponibles dans la base de données (personnelle, professionnelle, etc.), vous pouvez choisir celle à prioriser pour l’envoi. L’adresse principale est définie au niveau du sandbox, mais vous pouvez remplacer ici le paramètre par défaut pour cette configuration d’e-mail spécifique."
+>abstract="Lorsque plusieurs adresses sont disponibles dans la base de données (personnelle, professionnelle, etc.), vous pouvez choisir l’adresse à prioriser pour l’envoi. L’adresse principale est définie au niveau du sandbox, mais vous pouvez remplacer ici le paramètre par défaut pour cette configuration du canal e-mail spécifique."
 
-Lorsque vous ciblez un profil, plusieurs adresses e-mail peuvent être disponibles dans la base de données (adresse e-mail professionnelle, adresse e-mail personnelle, etc.).
+Lorsque vous ciblez un profil, plusieurs adresses e-mail peuvent être disponibles dans la base de données (adresse e-mail personnelle, professionnelle, etc.).
 
-Dans ce cas, [!DNL Journey Optimizer] utilise l’adresse spécifiée dans le champ **[!UICONTROL Champs d’exécution]** au niveau de la sandbox pour déterminer l’adresse e-mail à utiliser en priorité à partir du service de profil. [En savoir plus](../configuration/primary-email-addresses.md)
+Dans ce cas, [!DNL Journey Optimizer] utilise l’adresse spécifiée dans les **[!UICONTROL Champs d’exécution]** au niveau du sandbox pour déterminer l’adresse e-mail à utiliser en priorité à partir du service de profil. [En savoir plus](../configuration/primary-email-addresses.md)
 
 >[!NOTE]
 >
@@ -372,4 +372,4 @@ Pour ce faire, modifiez le champ **[!UICONTROL Adresse de diffusion]** et sélec
 
 ![](assets/email-config-delivery-address.png)
 
-Le champ d’exécution est mis à jour, puis utilisé comme adresse principale. Il remplace le paramètre général au niveau du sandbox.
+Le champ d’exécution est mis à jour et sera désormais utilisé comme adresse principale. Il remplace le paramètre général au niveau du sandbox.
