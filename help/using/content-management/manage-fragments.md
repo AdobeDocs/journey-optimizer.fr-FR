@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 1fc708e1-a993-4a2a-809c-c5dc08a4bae1
-source-git-commit: 62b5cfd480414c898ab6f123de8c6b9f99667b7d
-workflow-type: ht
-source-wordcount: '980'
-ht-degree: 100%
+source-git-commit: d93ef15df4a25e7a6d6fab3df1f9838a0c3d31df
+workflow-type: tm+mt
+source-wordcount: '979'
+ht-degree: 98%
 
 ---
 
@@ -89,7 +89,7 @@ Pour modifier un fragment, procédez comme suit.
 
    >[!NOTE]
    >
-   >Lors de la modification d’un fragment d’expression, vous pouvez supprimer tout champ de personnalisation, mais vous ne pouvez pas en ajouter de nouveaux au contenu du fragment. Si vous souhaitez ajouter des champs de personnalisation, dupliquez le fragment afin d’en créer un .
+   >Lors de la modification d’un fragment, vous pouvez supprimer n’importe quel champ de personnalisation, mais vous ne pouvez pas en ajouter de nouveaux au contenu du fragment. Si vous souhaitez ajouter des champs de personnalisation, dupliquez le fragment afin d’en créer un .
 
    Vous pouvez également vérifier la liste des parcours, campagnes et modèles de contenu dans lesquels le fragment est actuellement utilisé en sélectionnant l’option **Explorer les références**. [En savoir plus](#explore-references)
 
