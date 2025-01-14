@@ -5,10 +5,10 @@ user-guide-title: Guide de Journey Optimizer
 user-guide-description: Utilisez Journey Optimizer pour créer et proposer aux clients des expériences connectées, contextuelles et personnalisées
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 50b36446ff0e9f4aec9f28056c3c30cc2df3f530
-workflow-type: ht
-source-wordcount: '2193'
-ht-degree: 100%
+source-git-commit: a9efa676242b1e3453033c77f1f5afb9da931a3d
+workflow-type: tm+mt
+source-wordcount: '2154'
+ht-degree: 99%
 
 ---
 
@@ -396,8 +396,8 @@ ht-degree: 100%
       + [Rapport dynamique de campagne](using/reports/campaign-live-report.md)
       + [Rapport dynamique sur les pages de destination](using/reports/lp-report-live.md)
       + [Rapport dynamique sur les listes d’abonnements](using/reports/subscription-report-live.md)
-   + Expérience de création de rapports mise à jour{#channel-report}
-      + [Commencer avec l’expérience de création de rapports mise à jour](using/reports/report-gs-cja.md)
+   + Rapport à toute heure{#channel-report}
+      + [Prise en main du rapport À toute heure](using/reports/report-gs-cja.md)
       + [Configurer manuellement Customer Journey Analytics](using/reports/cja-ajo.md)
       + [Gérer vos rapports](using/reports/report-cja-manage.md)
       + [Conditions préalables aux rapports et à l’expérimentation](using/reports/reporting-configuration.md)
@@ -425,18 +425,6 @@ ht-degree: 100%
       + [Rapport d’aperçu](using/reports/channel-report-cja.md)
       + [Rapport sur les pages de destination](using/reports/lp-report-global-cja.md)
       + [Rapport sur les listes d’abonnements](using/reports/subscription-report-global-cja.md)
-   + Ancienne expérience de création de rapports {#reports}
-      + Rapport global {#global-report}
-         + [Prise en main du rapport global](using/reports/global-report.md)
-         + [Liste des composants](using/reports/global-report-components.md)
-         + [Rapport global sur les parcours](using/reports/journey-global-report.md)
-         + [Rapport global de campagne](using/reports/campaign-global-report.md)
-         + [Rapport d’objectif](using/reports/objective-report.md)
-         + [Rapport global sur les pages de destination](using/reports/lp-report-global.md)
-         + [Rapport global sur les listes d’abonnements](using/reports/subscription-report-global.md)
-      + Rapports sur le canal {#channel-report}
-         + [Prise en main des rapports sur les canaux](using/reports/channel-report-gs.md)
-         + [Rapports sur les canaux](using/reports/channel-report.md)
    + Rapports de parcours {#reports}
       + [Création de rapports de parcours](using/reports/sharing-overview.md)
       + [Liste des champs d’événement d’étape](using/reports/sharing-field-list.md)
