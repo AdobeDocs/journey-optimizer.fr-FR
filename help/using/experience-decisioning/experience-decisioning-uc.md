@@ -8,10 +8,10 @@ level: Intermediate, Experienced
 hide: true
 hidefromtoc: true
 exl-id: 09770df2-c514-4217-a71b-e31c248df543
-source-git-commit: fbe07345079c6e8cf5ae081094fbc8c25f6d0e57
+source-git-commit: 98b7a5493a4e325328ab349c405af423b3836807
 workflow-type: tm+mt
-source-wordcount: '739'
-ht-degree: 60%
+source-wordcount: '789'
+ht-degree: 54%
 
 ---
 
@@ -96,7 +96,7 @@ Une fois que vous avez configuré les deux stratégies de sélection, créez une
 
 1. Créez une campagne et sélectionnez l’action **[!UICONTROL Expérience basée sur du code]**. [En savoir plus](../code-based/create-code-based.md)
 
-1. Dans la page de résumé de la campagne, cliquez sur **[!UICONTROL Créer une expérience]** pour commencer à configurer votre expérience de contenu. [En savoir plus](../content-management/content-experiment.md)
+1. Dans la page de résumé de la campagne, cliquez sur **[!UICONTROL Créer une expérience]** pour configurer votre expérience de contenu. [Voici comment procéder](../content-management/content-experiment.md)
 
    ![](assets/exd-uc-create-experiment.png){width="90%"}
 
@@ -140,4 +140,6 @@ Une fois que vous avez configuré les deux stratégies de sélection, créez une
 
 1. Enregistrez vos modifications et [ publiez votre campagne d’expérience basée sur le code ](../code-based/publish-code-based.md).
 
-Vous pouvez suivre les performances de votre campagne à l’aide du [rapport de campagne d’expérimentation](../reports/campaign-global-report-cja-experimentation.md) et du [rapport sur la prise de décision](cja-reporting.md). <!--TBC how to check which treatment performs best-->
+Après avoir exécuté votre expérience, suivez les performances de vos traitements de campagne avec le [rapport de campagne d’expérimentation](../reports/campaign-global-report-cja-experimentation.md).<!-- and [report on decisioning](cja-reporting.md).--> Vous pouvez ensuite interpréter les résultats de votre expérience. [Voici comment procéder](../content-management/get-started-experiment.md#interpret-results)
+
+Si le résultat de votre expérience est concluant, vous pouvez envoyer le traitement avec le classement le plus performant à tous vos clients. Vous pouvez également créer une campagne à l’aide de la stratégie de sélection dans laquelle la méthode de classement la plus performante est répliquée.
