@@ -8,10 +8,10 @@ topic: Content Management
 role: Admin
 level: Intermediate, Experienced
 exl-id: 8f33dda7-9bd5-4293-8d0d-222205cbc7d5
-source-git-commit: f8a6c2a3b27d5dca422dfdc868f802c6a10b001d
+source-git-commit: 0eeb9f6aa6276b99a4d38efc2d371ebdb58c141d
 workflow-type: tm+mt
-source-wordcount: '987'
-ht-degree: 100%
+source-wordcount: '1045'
+ht-degree: 93%
 
 ---
 
@@ -55,11 +55,14 @@ Pour protéger votre délivrabilité, les destinataires dont les adresses se tro
 
 ## Utiliser les outils de surveillance {#monitoring-tools}
 
-Utilisez les outils proposés par [!DNL Journey Optimizer] pour surveiller votre délivrabilité.
+Utilisez les fonctionnalités de reporting proposées par [!DNL Journey Optimizer] pour surveiller votre délivrabilité.
 
-L&#39;onglet **[!UICONTROL Exécutions]** de la liste de messages vous permet de vérifier les performances de vos diffusions au moyen d&#39;un ensemble d&#39;indicateurs en temps réel. Cet onglet affiche, entre autres :
+Les rapports de campagne et de parcours vous permettent de vérifier les performances de vos diffusions au moyen d’un ensemble d’indicateurs en temps réel. Ils affichent entre autres :
+
 * Le nombre de messages exécutés, envoyés et délivrés avec succès.
 * Le nombre de messages ayant été ouverts et le nombre de messages/liens ayant fait l&#39;objet d&#39;un clic.
+
+En savoir plus sur le [rapport dynamique](../reports/live-report.md) et le [rapport à tout moment](../reports/report-gs-cja.md)
 
 ## Adapter le contenu des messages {#adapt-message-content}
 
@@ -76,6 +79,12 @@ Pour améliorer votre taux de délivrabilité et vous assurer que vos emails att
 ## Asseyez votre réputation dʼexpéditeur. {#reputation}
 
 Si vous avez récemment migré vers un autre fournisseur de services de messagerie, dʼadresse IP ou de domaine ou sous-domaine de messagerie, vous devez asseoir votre réputation d’expéditeur. Dans le cas contraire, vos diffusions risquent dʼêtre bloquées voire déplacées dans le dossier des courriers indésirables de la boîte aux lettres des destinataires.
+
+Lors de l’envoi d’e-mails sur une toute nouvelle adresse IP, vous pouvez désormais facilement exécuter des workflows de préchauffage d’adresses IP directement depuis l’interface utilisateur.
+
+Adobe Journey Optimizer offre un moyen standardisé et efficace de préchauffer vos adresses IP en respectant les bonnes pratiques de délivrabilité optimale.
+
+[En savoir plus sur les plans de préchauffage d’adresses IP](../configuration/ip-warmup-gs.md)
 
 <!--To warm up your IP, you can gradually ramp up the number of your deliveries. Learn more in this [use case](../building-journeys/ramp-up-deliveries-uc.md).-->
 
