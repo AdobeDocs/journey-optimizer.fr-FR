@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 1f88626a-b491-4b36-8e3f-57f2b7567dd0
-source-git-commit: 47482adb84e05fe41eb1c50479a8b50e00469ec4
-workflow-type: ht
-source-wordcount: '1016'
-ht-degree: 100%
+source-git-commit: 25ca0dd72622ef15db3edeedfd16b91d392127d4
+workflow-type: tm+mt
+source-wordcount: '1042'
+ht-degree: 97%
 
 ---
 
@@ -111,7 +111,7 @@ Pour configurer le contenu de votre SMS, procédez comme suit. Les paramètres d
 
    Notez que, pour utiliser la fonction de raccourcissement des URL, vous devez d’abord configurer un sous-domaine, qui sera ensuite lié à votre configuration. [En savoir plus](sms-subdomains.md)
 
-   >[!CAUTION]
+   >[!NOTE]
    >
    > Pour accéder aux sous-domaines SMS et les modifier, vous devez disposer de l’autorisation **[!UICONTROL Gestion des sous-domaines SMS]** dans le sandbox de production. Pour en savoir plus sur les autorisations, consultez [cette section](../administration/high-low-permissions.md).
 
@@ -123,6 +123,10 @@ Pour configurer le contenu de votre SMS, procédez comme suit. Les paramètres d
 
 1. Dans le champ `originalUrl`, collez l’URL à raccourcir, puis cliquez sur **[!UICONTROL Enregistrer]**.
 
+   >[!CAUTION]
+   >
+   > La durée de vie des URL courtes est définie sur 15 jours. Passé ce délai, ces URL courtes ne seront plus accessibles et afficheront le message : `404 short-code not found`.
+
 1. Cliquez sur **[!UICONTROL Enregistrer]** et vérifiez votre message dans l’aperçu. Vous pouvez maintenant tester et vérifier le contenu de votre message, comme indiqué dans [cette section](#sms-mms-test).
 
 ## Définir le contenu de votre MMS{#mms-content}
@@ -131,7 +135,7 @@ Vous pouvez améliorer votre communication en envoyant des messages MMS (Multime
 
 >[!NOTE]
 >
->* Le canal MMS est fourni avec quelques limites répertoriées sur [cette page](../start/guardrails.md#sms-guardrails).
+> Le canal MMS est fourni avec quelques limites répertoriées sur [cette page](../start/guardrails.md#sms-guardrails).
 
 Pour créer du contenu MMS, procédez comme suit :
 
