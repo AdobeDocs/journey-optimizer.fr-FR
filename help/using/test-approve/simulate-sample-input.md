@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 badge: label="Version bêta"
 exl-id: 8462c75e-4f4b-4c4f-8734-19efbbc70c7a
-source-git-commit: f5df65a0225754ab66fb2ffa33c5130f7137b644
+source-git-commit: e6e7890d2ff1fc91155da14e1e6c1cde01f25447
 workflow-type: tm+mt
-source-wordcount: '896'
-ht-degree: 100%
+source-wordcount: '933'
+ht-degree: 93%
 
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 100%
 >
 >Cette fonctionnalité est actuellement disponible en version bêta publique pour l’ensemble des clientes et des clients.
 
-Journey Optimizer vous permet de tester différentes variantes de votre contenu en le prévisualisant et en envoyant des BAT à l’aide d’exemples de données d’entrée chargées à partir d’un fichier CSV ou JSON ou ajoutées manuellement. Tous les attributs de profil utilisés dans votre contenu pour la personnalisation sont automatiquement détectés par le système et peuvent être utilisés pour vos tests afin de créer plusieurs variantes.
+Journey Optimizer vous permet de tester différentes variantes de votre contenu en le prévisualisant et en envoyant des BAT à l’aide d’exemples de données d’entrée chargées à partir d’un fichier CSV ou JSON ou ajoutées manuellement. Tous les attributs de profil utilisés dans votre contenu pour la personnalisation sont automatiquement détectés par le système et peuvent être utilisés pour que vos tests créent plusieurs variantes. Une variante fait référence à une version du contenu avec différentes valeurs pour ses attributs.
 
 >[!NOTE]
 >
@@ -66,13 +66,29 @@ Vous pouvez ajouter jusqu’à 30 variantes pour tester votre contenu, soit à
 Pour ajouter une variante à l’aide d’un fichier, procédez comme suit :
 
 1. Cliquez sur le lien **[!UICONTROL télécharger l’exemple]** pour récupérer un modèle de fichier, puis choisissez le format de fichier à utiliser (CSV, JSON ou JSONLINES).
-
 1. Cliquez sur **[!UICONTROL Télécharger]**, puis stockez le modèle à l’emplacement souhaité.
-
 1. Ouvrez le fichier, puis remplissez le modèle en fonction de vos besoins. Le modèle inclut une colonne pour chaque attribut de profil utilisé dans votre contenu pour la personnalisation.
 
-1. Lorsque votre fichier est prêt, cliquez sur **[!UICONTROL Charger les données d’entrée]** pour les charger afin de tester votre contenu.
+   +++Exemple de fichier
 
+   ```
+   {
+   "profile": {
+       "attributes": {
+       "person": {
+           "name": {
+               "lastName": "Doe",
+               "firstName": "John"
+               }
+           }
+       }
+   }
+   }
+   ```
+
++++
+
+1. Lorsque votre fichier est prêt, cliquez sur **[!UICONTROL Charger les données d’entrée]** pour les charger afin de tester votre contenu.
 1. Une fois le fichier chargé, une zone est ajoutée dans le volet de gauche pour chaque ligne du fichier. Chaque zone contient tous les attributs de profil utilisés dans votre contenu pour la personnalisation. Vous pouvez maintenant utiliser les variantes pour prévisualiser votre contenu dans le volet de droite et envoyer des BAT.
 
    ![](assets/simulate-custom-variants.png)
@@ -95,9 +111,13 @@ Pour ajouter manuellement une variante, procédez comme suit :
 
 Pour prévisualiser votre contenu à l’aide de l’une des variantes, cochez la case correspondante afin de mettre à jour la prévisualisation du contenu dans la section de droite avec les informations renseignées pour cette variante.
 
-Vous pouvez supprimer une variante à tout moment à l’aide du bouton représentant des points de suspension dans le coin supérieur droit et en sélectionnant **[!UICONTROL Supprimer]**. Pour modifier les informations d’une variante, cliquez sur le bouton représentant des points de suspension et sélectionnez **[!UICONTROL Modifier]**.
+Dans l’exemple ci-dessous, nous avons ajouté deux variantes pour l’objet de l’e-mail :
 
-![](assets/simulate-custom-boxes.png)
+| Sélection de la variante 1 | Sélection de la variante 2 |
+|----------|-------------|
+| ![](assets/simulate-custom-boxes.png) | ![](assets/simulate-custom-boxes2.png) |
+
+Vous pouvez supprimer une variante à tout moment à l’aide du bouton représentant des points de suspension dans le coin supérieur droit et en sélectionnant **[!UICONTROL Supprimer]**. Pour modifier les informations d’une variante, cliquez sur le bouton représentant des points de suspension et sélectionnez **[!UICONTROL Modifier]**.
 
 ## Envoyer des épreuves {#proofs}
 
