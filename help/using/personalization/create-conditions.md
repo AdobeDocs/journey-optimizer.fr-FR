@@ -10,7 +10,7 @@ level: Intermediate
 keywords: expression, éditeur, condition, règles
 exl-id: 246a4a55-059e-462c-ac1e-43b90f4abda4
 source-git-commit: 6f9bdb179f2bfff30494495b68a15aaac77d6b9e
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '571'
 ht-degree: 100%
 

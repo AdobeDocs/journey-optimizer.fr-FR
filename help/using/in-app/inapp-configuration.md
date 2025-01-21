@@ -7,7 +7,7 @@ level: Intermediate
 keywords: in-app, message, configuration, platform
 exl-id: 469c05f2-652a-4899-a657-ddc4cebe3b42
 source-git-commit: 5f261b4c097023557f95831635f2be141dfc5bc8
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '866'
 ht-degree: 100%
 

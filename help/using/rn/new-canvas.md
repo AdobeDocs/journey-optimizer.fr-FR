@@ -17,66 +17,66 @@ ht-degree: 2%
 
 # Bienvenue dans le concepteur de parcours amélioré {#new-canvas}
 
-Journey Optimizer propose désormais un **modèle de parcours simplifié** visant à améliorer l’expérience utilisateur et les processus internes. À compter de la version d’avril, vous pouvez bénéficier des fonctionnalités suivantes :
+Journey Optimizer propose désormais un **modèle de parcours simplifié** qui vise à améliorer l’expérience utilisateur et les processus internes. À compter de la version d’avril, vous pouvez bénéficier des fonctionnalités suivantes :
 
-* Un **canevas de parcours reconçu** conçu pour une expérience d’interface utilisateur modernisée
-* Une interface utilisateur de **création de rapports en direct** directement disponible dans la zone de travail du parcours
+* Une **toile de parcours repensée** conçue pour une expérience utilisateur modernisée
+* Interface utilisateur **rapports en direct** directement disponible dans la zone de travail du parcours
 
 >[!NOTE]
 >
->Gardez à l’esprit que le déploiement de cette fonctionnalité sera progressif. Il se peut que vous ne voyiez pas les modifications immédiatement.
+>N’oubliez pas que le déploiement de cette fonctionnalité sera progressif. Il se peut que les modifications ne s’affichent pas immédiatement.
 
-## Mises à jour du modèle de parcours
+## Mises à jour sur le modèle de parcours
 
-Le nouveau modèle de parcours sera en ligne avec le modèle existant, ce qui signifie qu’il y aura des parcours utilisant **deux modèles différents** :
+Le nouveau modèle de parcours cohabitera avec le modèle existant, ce qui signifie que des parcours utiliseront **deux modèles différents** :
 
-* Le modèle hérité
+* Modèle hérité
 * Le nouveau modèle
 
-Tous les parcours du modèle hérité y resteront. Vous pourrez toujours les modifier, les tester ou les publier. Toute nouvelle version créée à partir d’un parcours sur le modèle hérité y restera également. Il n’existe **aucune modification fonctionnelle** autour de ces parcours.
+Tous les parcours du modèle hérité y resteront. Vous pourrez toujours les modifier, les tester ou les publier. Toute nouvelle version créée à partir d’un parcours sur le modèle hérité y restera également. Il n&#39;y a **aucun changement fonctionnel** autour de ces parcours.
 
-Comme vous pouvez le voir dans la capture d’écran ci-dessous, les noeuds sont en forme ronde, qui est l’ancienne interface utilisateur pour les parcours sur le modèle hérité.
+Comme vous le voyez dans la capture d’écran ci-dessous, les nœuds ont une forme arrondie, ce qui correspond à l’ancienne interface utilisateur pour les parcours du modèle hérité.
 
 ![](assets/new-canvas.png)
 
-Cependant, lorsque vous **créez un parcours** ou **dupliquez un  existant**, il se trouve sur le nouveau modèle. Les parcours sur le modèle hérité seront toujours pris en charge jusqu’à ce qu’une majorité de clients soient transférés vers le nouveau modèle.
+Cependant, lorsque vous **créez un nouveau parcours** ou **dupliquez un modèle existant**, celui-ci sera sur le nouveau modèle. Les parcours de l’ancien modèle seront toujours pris en charge jusqu’à ce qu’une majorité de clients passent au nouveau modèle.
 
-Le nouveau modèle de parcours présente une limitation. Il ne sera **pas possible de copier et coller des activités du modèle hérité vers le nouveau modèle, et inversement**. Si vous souhaitez effectuer cette opération, nous vous conseillons de dupliquer votre parcours hérité pour le changer en nouveau modèle, puis de copier vos activités.
+Il existe une limite au nouveau modèle de parcours ; il **sera pas possible de copier et coller des activités du modèle hérité dans le nouveau modèle et vice versa**. Si vous souhaitez le faire, nous vous conseillons de dupliquer votre ancien parcours pour le passer au nouveau, puis de copier vos activités.
 
-Dans la capture d’écran ci-dessous, vous pouvez voir l’interface utilisateur repensée pour le canevas de parcours (disponible uniquement avec le nouveau modèle) :
+Dans la capture d’écran ci-dessous, vous pouvez voir l’interface utilisateur repensée pour la zone de travail du parcours (disponible uniquement avec le nouveau modèle) :
 
 ![](assets/new-canvas2.png)
 
-**Toute nouvelle fonctionnalité ajoutée au concepteur de parcours (y compris les rapports en direct) ne sera disponible que pour les parcours sur le nouveau modèle à partir de ce moment.**
+**À partir de maintenant, toute nouvelle fonctionnalité ajoutée au concepteur de parcours (y compris les rapports en direct) ne sera disponible que pour les parcours sur le nouveau modèle.**
 
-## Amélioration de la conception du canevas de parcours
+## Amélioration de la conception de la zone de travail de parcours
 
-Avec le nouveau modèle de parcours, nous proposons une **interface utilisateur de canevas de parcours** nouvelle et améliorée, qui s’intègre parfaitement à l’écosystème d’applications et de solutions Adobe Experience Cloud, ce qui permet une expérience utilisateur intuitive et efficace. Tout parcours dans le nouveau modèle sera sur cette nouvelle conception.
+Avec le nouveau modèle de parcours, nous introduisons une interface utilisateur de zone de travail de parcours **** nouvelle et améliorée, qui s’intègre de manière transparente dans l’écosystème des solutions et applications Adobe Experience Cloud, pour une expérience utilisateur intuitive et efficace. Tout parcours du nouveau modèle sera sur cette nouvelle conception.
 
 ![](assets/new-canvas3.gif)
 
 Les activités seront désormais représentées par des cases carrées avec les fonctionnalités suivantes :
 
-* La première ligne représentant le type d’activité qui sera souvent remplacée par des informations plus contextuelles (dans Lecture d’audience, elle contiendra le nom de l’audience sélectionnée) ou par un libellé personnalisé si vous en définissez une.
-* La deuxième ligne représente toujours le type d’activité.
+* La première ligne représentant le type d’activité qui sera souvent remplacée par davantage d’informations contextuelles (dans Lecture d’audiences, elle contiendra le nom de l’audience sélectionnée) ou par un libellé personnalisé si vous en définissez un.
+* Deuxième ligne représentant toujours le type d’activité.
 
 ![](assets/new-canvas4.png)
 
-Cette nouvelle interface utilisateur améliore la lisibilité du canevas de parcours en fournissant des **libellés et types d’activité plus clairs**.
+Cette nouvelle interface utilisateur améliore la lisibilité de la zone de travail du parcours en fournissant des libellés et des types d’activité **plus clairs**.
 
-Elle permet également à l’équipe produit d’ajouter plus d’informations sur la zone de travail avec moins de clics. Un exemple d’&quot;informations supplémentaires&quot; est l’inclusion des rapports en direct dans le canevas de parcours, où vous pouvez voir les profils entrant et sortant de vos activités en raison d’erreurs.
+Il permet également à l’équipe produit d’ajouter plus d’informations sur la zone de travail avec moins de clics. Un exemple d’« informations supplémentaires » serait l’inclusion de rapports dynamiques dans la zone de travail du parcours, où vous pouvez voir les profils qui rejoignent et quittent vos activités en raison d’erreurs.
 
 ![](assets/new-canvas5.png)
 
-## Création de rapports en direct dans le canevas de parcours
+## Rapports dynamiques dans la zone de travail du parcours
 
-Outre la disposition améliorée du canevas de parcours, une nouvelle fonctionnalité est introduite pour permettre aux utilisateurs d’afficher les mesures de création de rapports en temps réel à partir de **les dernières 24 heures**, appelées rapports en direct, directement dans la zone de travail du parcours.
+Outre l’amélioration de la disposition de la zone de travail de parcours, une nouvelle fonctionnalité a été introduite pour permettre aux utilisateurs d’afficher les mesures de rapports en temps réel des **dernières 24 heures**, appelées rapports en direct, directement dans la zone de travail de parcours.
 
-Pour chaque activité au sein de chaque parcours actif utilisant le nouveau modèle, vous avez accès aux éléments suivants :
+Pour chaque activité de chaque parcours actif utilisant le nouveau modèle, vous avez accès aux éléments suivants :
 
 
-* Nombre de profils entrant dans cette activité.
-* Nombre de profils sortant de cette activité en raison d’une erreur.
+* Nombre de profils participant à cette activité.
+* Nombre de profils ayant quitté cette activité en raison d’une erreur.
 
 ![](assets/new-canvas6bis.png)
 

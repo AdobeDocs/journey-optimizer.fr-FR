@@ -61,7 +61,7 @@ Cela active le connecteur source Analytics pour cette suite de rapports. Chaque 
 
 ![](assets/ajo-aa_4.png)
 
-Pour en savoir plus sur le connecteur source Adobe Analytics, consultez la [documentation Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html?lang=fr){target="_blank"} et le [tutoriel](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html?lang=fr){target="_blank"}.
+En savoir plus sur le connecteur source Adobe Analytics dans la documentation](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html?lang=fr){target="_blank"} la [ et le tutoriel Adobe Experience Platform [](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html?lang=fr){target="_blank"}.
 
 ## Activer cette configuration {#activate-analytics-data}
 

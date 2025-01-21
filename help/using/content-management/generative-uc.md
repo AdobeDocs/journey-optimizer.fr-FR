@@ -7,7 +7,8 @@ feature: Content Assistant
 topic: Content Management
 role: User
 level: Beginner
-source-git-commit: 5798d4850ef9f8f2bc6761a9468fe6120460c524
+exl-id: 958ad2bb-b62e-431d-8ad6-7b294cbba544
+source-git-commit: f5df65a0225754ab66fb2ffa33c5130f7137b644
 workflow-type: tm+mt
 source-wordcount: '547'
 ht-degree: 100%

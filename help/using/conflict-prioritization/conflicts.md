@@ -16,7 +16,7 @@ ht-degree: 96%
 
 >[!AVAILABILITY]
 >
->Les fonctionnalités de conflit et de hiérarchisation sont actuellement disponibles dans Disponibilité limitée pour un groupe sélectionné de clients. Notez que ces fonctionnalités seront progressivement déployées vers d’autres utilisateurs et utilisatrices à l’avenir. Contactez votre équipe de compte si vous souhaitez qu’elle vous ajoute à la liste d’attente pour ces fonctionnalités.
+>Les fonctionnalités de gestion des conflits et de hiérarchisation sont actuellement disponibles en disponibilité limitée pour un groupe restreint de clients. Notez que ces fonctionnalités seront progressivement déployées vers d’autres utilisateurs et utilisatrices à l’avenir. Contactez votre équipe de compte si vous souhaitez qu’elle vous ajoute à la liste d’attente pour ces fonctionnalités.
 
 À mesure que les personnes spécialisées dans le marketing augmentent le volume des campagnes et des parcours dans Journey Optimizer, il devient de plus en plus difficile pour elles de savoir si leurs clientes et clients sont submergés par un trop grand nombre d’interactions marketing. Il est donc essentiel d’identifier facilement les chevauchements des campagnes et des parcours pour s’assurer d’un bon équilibre dans les communications marketing tout en atténuant le risque de lassitude des clientes et clients.
 

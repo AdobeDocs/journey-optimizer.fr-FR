@@ -33,7 +33,7 @@ Les termes suivants sont utiles pour aborder l’optimisation automatique :
 
 * **Échantillonnage de Thomson** : l’échantillonnage de Thompson est un algorithme relatif aux problèmes de décision en ligne où les actions sont entreprises de manière séquentielle, de façon à trouver l’équilibre entre l’exploitation de ce qui est connu pour maximiser les performances immédiates et l’investissement pour accumuler de nouvelles informations susceptibles d’améliorer les performances futures. [En savoir plus](#thompson-sampling)
 
-* [**Distribution Beta**](https://fr.wikipedia.org/wiki/Loi_bêta){target="_blank"} : ensemble de [distributions de probabilité](https://fr.wikipedia.org/wiki/Loi_de_probabilité){target="_blank"} continues définies sur l’intervalle [0, 1] [ ](https://en.wikipedia.org/wiki/Statistical_parameter){target="_blank"} par deux [paramètres de forme](https://fr.wikipedia.org/wiki/Paramètre_de_forme){target="_blank"} positifs.
+* [**loi Beta**](https://fr.wikipedia.org/wiki/Loi_bêta){target="_blank"} : ensemble de lois de probabilité [ continues](https://fr.wikipedia.org/wiki/Loi_de_probabilité){target="_blank"} définies sur l&#39;intervalle [0, 1] [paramétré](https://en.wikipedia.org/wiki/Statistical_parameter){target="_blank"} par deux [paramètres de forme](https://fr.wikipedia.org/wiki/Paramètre_de_forme){target="_blank"} positifs.
 
 ## Échantillonnage de Thompson {#thompson-sampling}
 
@@ -71,7 +71,7 @@ L’optimisation automatique est conçue pour prendre en compte les récompenses
 
 ![](../assets/ai-ranking-beta-distribution.png)
 
-La fonction de probabilité comme nous l’avons expliqué ci-dessus est modélisée par une distribution binomiale, avec ses succès (conversions) et ses échecs (aucune conversion) et q est une [variable aléatoire](https://fr.wikipedia.org/wiki/Variable_aléatoire){target="_blank"} avec une [distribution bêta](https://fr.wikipedia.org/wiki/Loi_bêta){target="_blank"}.
+Comme nous l’avons expliqué ci-dessus, la fonction de Vraisemblance est modélisée par une loi binomiale, avec s succès (conversions) et f échecs (aucune conversion), et q est une [variable aléatoire](https://fr.wikipedia.org/wiki/Variable_aléatoire){target="_blank"} avec une loi [bêta](https://fr.wikipedia.org/wiki/Loi_bêta){target="_blank"}.
 
 La loi a priori est modélisée par la loi Beta et la loi a posteriori se présente comme suit :
 

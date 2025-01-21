@@ -4,13 +4,13 @@ description: Découvrez comment utiliser des audiences de chargement personnalis
 feature: Decision Management
 role: User
 level: Intermediate
-source-git-commit: 1e46321de543196277613889c438dc6756e45652
-workflow-type: ht
+exl-id: bd950410-691b-49d8-8851-8c6c448c00fd
+source-git-commit: f5df65a0225754ab66fb2ffa33c5130f7137b644
+workflow-type: tm+mt
 source-wordcount: '532'
 ht-degree: 100%
 
 ---
-
 
 # Utilisation d’audiences de chargement personnalisé pour la prise de décision {#custom-upload-decisioning}
 

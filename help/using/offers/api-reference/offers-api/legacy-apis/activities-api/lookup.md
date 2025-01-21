@@ -1,5 +1,5 @@
 ---
-title: Recherche d'une règle
+title: 'Recherche d''une règle '
 description: Une décision contient la logique sous-tendant la sélection d’une offre.
 feature: Decision Management, API
 topic: Integrations

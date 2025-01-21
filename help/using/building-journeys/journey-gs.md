@@ -10,7 +10,7 @@ level: Intermediate
 keywords: parcours, premier, commencer, démarrage rapide, audience, événement, action
 exl-id: d940191e-8f37-4956-8482-d2df0c4274aa
 source-git-commit: 18296fe54dcef6620d4f74374848199368f01475
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1244'
 ht-degree: 100%
 

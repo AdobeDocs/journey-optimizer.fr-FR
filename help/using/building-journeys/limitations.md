@@ -10,9 +10,9 @@ level: Intermediate
 keywords: parcours, limitation
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
 source-git-commit: 18296fe54dcef6620d4f74374848199368f01475
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '512'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -41,7 +41,7 @@ Voici les limitations liées à l&#39;utilisation des parcours.
 * Seules les méthodes d’appel POST et PUT sont prises en charge. 
 * Le nom du paramètre de la requête ou de l’en-tête ne doit pas commencer par « . » ou « $ ». 
 * Les adresses IP ne sont pas autorisées. 
-* Les adresses Adobe internes (.adobe.) ne sont pas autorisées.
+* Les adresses d’Adobe interne (.adobe.) ne sont pas autorisées.
 
 ## Limitations des événements {#events-limitations}
 

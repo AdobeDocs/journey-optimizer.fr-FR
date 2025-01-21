@@ -10,7 +10,7 @@ level: Beginner, Intermediate
 keywords: e-mail, conception, stock, ressources
 exl-id: e4f91870-f06a-4cd3-98b7-4c413233e310
 source-git-commit: 57a309956ebe2997dce3fe0eb1b6bb70b911da5e
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '608'
 ht-degree: 100%
 

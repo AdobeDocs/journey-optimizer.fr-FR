@@ -1,8 +1,8 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Commencer la configuration de  [!DNL Journey Optimizer]
-description: En savoir plus sur la configuration de  [!DNL Journey Optimizer]
+title: 'Commencer la configuration de  [!DNL Journey Optimizer] '
+description: 'En savoir plus sur la configuration de  [!DNL Journey Optimizer] '
 role: Admin, Developer
 level: Intermediate, Experienced
 exl-id: 0964a484-f957-4aae-a571-61b2a1615026
@@ -41,7 +41,7 @@ Pour pouvoir créer vos parcours et envoyer des messages, vous devez suivre les 
 
    * Activez l’**option d’e-mail Cci** pour conserver une copie des messages envoyés aux individus. [En savoir plus](archiving-support.md#enable-bcc)
 
-   * Configurez les **règles commerciales** pour éviter de sur-solliciter vos personnes destinataires. [En savoir plus](frequency-rules.md)
+   * Configurez les **règles métier** pour éviter de sur-solliciter vos destinataires. [En savoir plus](frequency-rules.md)
 
    * Déterminez l’adresse e-mail et/ou le numéro de téléphone à utiliser en priorité pour vos destinataires lorsque plusieurs adresses/numéros sont disponibles dans Adobe Experience Platform. [En savoir plus](primary-email-addresses.md)
 

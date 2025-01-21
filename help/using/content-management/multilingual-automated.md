@@ -10,7 +10,7 @@ level: Beginner
 keywords: commencer, démarrer, contenu, expérience
 exl-id: 38e82eb2-67d9-4a7d-8c1f-77dab20bcec4
 source-git-commit: eea6cbaf29f3558f85b462d3dd3750d7f716bbcc
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '2045'
 ht-degree: 100%
 

@@ -653,7 +653,7 @@ ht-degree: 99%
    + [Utiliser des listes de contrôle](using/configuration/seed-lists.md)
    + [Prise en charge de l’archivage](using/configuration/archiving-support.md)
    + [Modifier les adresses d’exécution](using/configuration/primary-email-addresses.md)
-   + [Configurer des règles commerciales](using/configuration/frequency-rules.md)
+   + [Configurer des règles métier](using/configuration/frequency-rules.md)
    + [Utiliser des jeux de règles (disponibilité limitée)](using/configuration/rule-sets.md)
    + Configuration des parcours {#configure-journeys}
       + [À propos des sources de données, des événements et des actions](using/configuration/about-data-sources-events-actions.md)

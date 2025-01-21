@@ -11,8 +11,8 @@ keywords: expression, éditeur, syntaxe, personnalisation
 exl-id: 5a562066-ece0-4a78-92a7-52bf3c3b2eea
 source-git-commit: 8a1ec5acef067e3e1d971deaa4b10cffa6294d75
 workflow-type: tm+mt
-source-wordcount: '719'
-ht-degree: 100%
+source-wordcount: '721'
+ht-degree: 98%
 
 ---
 
@@ -128,7 +128,7 @@ Un assistant Handlebars est un identifiant simple qui peut être suivi de param�
 Chaque paramètre est une expression Handlebars. Ces assistants sont accessibles depuis n&#39;importe quel contexte dans un modèle.
 
 Ces assistants de bloc sont identifiés par un # précédant le nom de l&#39;assistant et nécessitent une fermeture /, du même nom.
-Les blocs sont des expressions qui ont une ouverture de bloc ({{# }}) and closing ({{/}}).
+Les blocs sont des expressions qui ont une ouverture de bloc ({{# }}) et une fermeture ({{/}}).
 
 
 >[!NOTE]

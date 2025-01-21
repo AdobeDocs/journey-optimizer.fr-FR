@@ -10,7 +10,7 @@ level: Beginner
 keywords: destination, page de destination, création, publication
 exl-id: 18f9bdff-f5c6-4601-919d-4f3124e484b5
 source-git-commit: 47b549f3e1e220b7e8f0c82d9a1f9ecfd5dd2340
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1729'
 ht-degree: 100%
 

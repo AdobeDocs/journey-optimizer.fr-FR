@@ -89,4 +89,4 @@ Vous êtes maintenant prêt à [créer des pages de destination](../landing-page
 **Rubriques connexes** :
 
 * [Prise en main des pages de destination](../landing-pages/get-started-lp.md)
-* [Création d’une page de destination](../landing-pages/create-lp.md#create-a-lp)
+* [Créer une page de destination](../landing-pages/create-lp.md#create-a-lp)

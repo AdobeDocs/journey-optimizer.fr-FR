@@ -10,7 +10,7 @@ level: Intermediate
 keywords: abac, attribut, autorisations, données, accès, sensible, ressources
 exl-id: 162b0848-313a-447e-9237-5a6dbc8102c6
 source-git-commit: fbcd5ae83c024d672d608d5f5aefc6a4252ec8c0
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1023'
 ht-degree: 100%
 

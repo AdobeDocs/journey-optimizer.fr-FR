@@ -8,7 +8,7 @@ role: User
 level: Intermediate
 keywords: artificiel, IA, intelligent, parcours, service
 exl-id: 20da09e1-0611-4d27-a589-30552011e06c
-source-git-commit: 61bd9ce680c56b0eb8737804fb013dbad430f1cc
+source-git-commit: bb66785f0b699d0ccf6cced035e64f206b104293
 workflow-type: tm+mt
 source-wordcount: '191'
 ht-degree: 100%

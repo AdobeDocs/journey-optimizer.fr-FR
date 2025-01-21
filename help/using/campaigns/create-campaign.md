@@ -10,7 +10,7 @@ level: Beginner
 keywords: créer, optimizer, campagne, surface, messages
 exl-id: 617d623c-e038-4b5b-a367-5254116b7815
 source-git-commit: 37862682a25843ce138c076e443f6d9b6229ece3
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1235'
 ht-degree: 100%
 

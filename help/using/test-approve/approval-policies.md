@@ -4,13 +4,13 @@ description: Découvrez comment créer et gérer des politiques d’approbation.
 role: User
 level: Beginner
 feature: Approval
-source-git-commit: 8fecd0d4812ba875dba1d47bc32ab08178a13f2c
-workflow-type: ht
+exl-id: e518cb3c-f361-43a4-b9a5-ec070c612e75
+source-git-commit: f5df65a0225754ab66fb2ffa33c5130f7137b644
+workflow-type: tm+mt
 source-wordcount: '432'
 ht-degree: 100%
 
 ---
-
 
 # Créer et gérer des politiques d’approbation {#approval-policies}
 
@@ -133,4 +133,3 @@ Vous pouvez maintenant activer votre politique d’approbation pour l’applique
 1. Dans le menu **[!UICONTROL Politique]**, ouvrez les options avancées pour **[!UICONTROL modifier]**, **[!UICONTROL désactiver]** ou **[!UICONTROL dupliquer]** la politique selon les besoins.
 
    ![](assets/policy_activate_2.png)
-

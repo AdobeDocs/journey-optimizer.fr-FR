@@ -12,7 +12,7 @@ exl-id: f19749c4-d683-4db6-bede-9360b9610eef
 source-git-commit: 7c55cc25fe1286d466f2de719aa42dcb76154881
 workflow-type: tm+mt
 source-wordcount: '831'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -87,7 +87,7 @@ Vous pouvez définir une relation de schéma sur un ensemble de chaînes de cara
 
 ![](assets/schema15.png)
 
-Vous pouvez également définir une relation de schéma avec un attribut dans un ensemble d’objets, par exemple une liste d’informations d’achat (identifiant de produit, nom de produit, prix, remise). Les valeurs de recherche seront disponibles dans les parcours (conditions, actions personnalisées, etc.). ni dans la personnalisation des messages.
+Vous pouvez également définir une relation de schéma avec un attribut dans un ensemble d’objets, par exemple une liste d’informations d’achat (identifiant de produit, nom de produit, prix, remise). Les valeurs de recherche seront disponibles dans les parcours (conditions, actions personnalisées, etc.) et la personnalisation des messages.
 
 ![](assets/schema16.png)
 

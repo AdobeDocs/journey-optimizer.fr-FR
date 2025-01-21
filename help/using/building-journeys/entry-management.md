@@ -9,7 +9,7 @@ level: Intermediate
 keywords: rentrée, parcours, profil, récurrent
 exl-id: 8874377c-6594-4a5a-9197-ba5b28258c02
 source-git-commit: 7f21098d5ae157f1c0d3de3aa584564c6f73310a
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '701'
 ht-degree: 100%
 

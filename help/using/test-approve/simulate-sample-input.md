@@ -10,7 +10,7 @@ level: Intermediate
 badge: label="Version bêta"
 exl-id: 8462c75e-4f4b-4c4f-8734-19efbbc70c7a
 source-git-commit: f5df65a0225754ab66fb2ffa33c5130f7137b644
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '896'
 ht-degree: 100%
 

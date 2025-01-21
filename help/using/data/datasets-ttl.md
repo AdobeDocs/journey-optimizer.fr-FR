@@ -7,13 +7,13 @@ feature: Data Model, Datasets, Data Management
 role: Data Engineer, Data Architect, Admin
 level: Experienced
 keywords: platform, lac de données, créer, lac, jeux de données, profil
-source-git-commit: f9fdb738210c5450376bdbf86b44d385cd740fd0
-workflow-type: ht
+exl-id: 08633a79-5601-4e36-b8cf-080234956d99
+source-git-commit: f5df65a0225754ab66fb2ffa33c5130f7137b644
+workflow-type: tm+mt
 source-wordcount: '428'
 ht-degree: 100%
 
 ---
-
 
 # Modifications de la segmentation du streaming et de la durée de vie {#ttl-guardrail}
 

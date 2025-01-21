@@ -10,7 +10,7 @@ level: Intermediate
 keywords: autorisations, création, messages
 exl-id: 5d014017-ca7c-4206-b783-989677ec0e1c
 source-git-commit: c858d16ec520418148fb28ad2ecec0d3a6377ba9
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '905'
 ht-degree: 100%
 

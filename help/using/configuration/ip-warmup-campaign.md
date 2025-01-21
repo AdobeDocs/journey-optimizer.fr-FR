@@ -10,7 +10,7 @@ level: Intermediate
 keywords: IP, groupes, délivrabilité
 exl-id: a9995ca1-d7eb-4f8d-a9d9-fe56198ac325
 source-git-commit: 462928883ae22998f8c16dcbe6f37f062487c5ad
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '441'
 ht-degree: 100%
 
@@ -65,7 +65,7 @@ Pour créer une campagne de préchauffage d’adresses IP, suivez les étapes ci
 
    >[!NOTE]
    >
-   >Les [règles commerciales](rule-sets.md#apply-frequency-rule) ne doivent pas être utilisées dans le cadre d’un plan de préchauffage des adresses IP. L’application de ces règles peut empêcher d’atteindre le nombre souhaité de profils ciblés pour les campagnes.
+   >Les [règles métier](rule-sets.md#apply-frequency-rule) ne doivent pas être utilisées dans le cadre d’un plan de préchauffage des adresses IP. L’application de ces règles peut empêcher d’atteindre le nombre souhaité de profils ciblés pour les campagnes.
 
    Pour une campagne active avec un plan de préchauffage d’adresses IP activé, le bouton **[!UICONTROL Supprimer]** est disponible jusqu’à ce qu’il soit associé à un plan de préchauffage d’adresses IP. Une fois utilisée dans un plan, la campagne ne peut plus être supprimée.
 

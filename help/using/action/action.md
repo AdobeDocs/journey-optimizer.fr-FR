@@ -10,7 +10,7 @@ level: Experienced
 keywords: actions, parcours, messages, envoi, connexions
 exl-id: 7f0cda1d-daf0-4d4c-9978-ddef81473813
 source-git-commit: 503bedc30c35305537c62f9452f4a2dc07424523
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '255'
 ht-degree: 100%
 

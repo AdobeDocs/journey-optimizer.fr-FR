@@ -9,9 +9,9 @@ role: Admin
 level: Intermediate, Experienced
 exl-id: a4653378-b70f-454c-a446-ab4a14d2580a
 source-git-commit: 47482adb84e05fe41eb1c50479a8b50e00469ec4
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '830'
-ht-degree: 100%
+ht-degree: 94%
 
 ---
 
@@ -33,7 +33,7 @@ En outre, vous pouvez tirer parti de l’**API REST de suppression** Journey Op
 
 Pour contrôler les e-mails reçus par les propriétaires de boîte de réception et s&#39;assurer que ces derniers ne reçoivent que les e-mails souhaités, les fournisseurs d&#39;accès Internet (FAI) et les filtres de spam commercial disposent de leurs algorithmes propriétaires afin de suivre la réputation globale des expéditeurs d&#39;e-mail en fonction des adresses IP et du ou des domaine(s) d&#39;envoi qu&#39;ils utilisent.
 
-Si vous ne tenez pas compte de leurs retours (comme les plaintes contre le spam, les rebonds, etc.), ils évalueront votre réputation à la baisse. La liste de suppression vous permet de tenir compte des retours des FAI.
+Si vous ne tenez pas compte de leurs retours (comme les plaintes contre le spam, les bounces, etc.), ils vont évaluer votre réputation à la baisse. La liste de suppression vous permet de tenir compte des retours des FAI.
 
 Les destinataires dont les adresses e-mail sont supprimées sont automatiquement exclus de la diffusion des messages. Le taux d&#39;erreur ayant une incidence importante sur la vitesse de diffusion, les envois sont ainsi accélérés.
 

@@ -10,7 +10,7 @@ level: Beginner
 keywords: commencer, démarrer, contenu, expérience
 exl-id: 6244d717-fbd6-468e-9164-60451d0d62f0
 source-git-commit: d63b12c9c7d3b16309661ffbe20baf8a9c140945
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '949'
 ht-degree: 100%
 
@@ -85,7 +85,7 @@ Dans cette section, vous pouvez définir vos différents paramètres régionaux 
    >
    >Ces conditions préalables sont requises uniquement pour les canaux Cartes de contenu et In-app.
 
-   1. Dans la collecte de données Adobe Experience Platform, accédez au menu **[!UICONTROL Règles]** et créez une règle. Des informations détaillées sur la création de règles sont disponibles dans la [!DNL Adobe Experience Platform] [Documentation sur la collecte de données](https://experienceleague.adobe.com/fr/docs/experience-platform/collection/e2e#create-a-rule){target="_blank"}.
+   1. Dans la collecte de données Adobe Experience Platform, accédez au menu **[!UICONTROL Règles]** et créez une règle. Des informations détaillées sur la création de règles sont disponibles dans la [Documentation [!DNL Adobe Experience Platform] sur la collecte de données](https://experienceleague.adobe.com/fr/docs/experience-platform/collection/e2e#create-a-rule){target="_blank"}.
 
    2. Dans la section **[!UICONTROL IF]** de la règle, ajoutez un événement configuré comme ci-dessous :
 

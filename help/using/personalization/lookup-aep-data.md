@@ -10,7 +10,7 @@ level: Intermediate
 keywords: expression, éditeur
 exl-id: 2fc10fdd-ca9e-46f0-94ed-2d7ea4de5baf
 source-git-commit: a2e09052ef5cb38ca34cd8faa476ca750ea1965f
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1044'
 ht-degree: 100%
 
