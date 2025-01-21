@@ -6,10 +6,10 @@ topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: 1ed01a6b-5e42-47c8-a436-bdb388f50b4e
-source-git-commit: bab4cd8065830e36fd6188d3ebf0bd62a63947f3
+source-git-commit: d2451bbaf9830ce3d928e71a609627c23a7566fa
 workflow-type: tm+mt
-source-wordcount: '729'
-ht-degree: 100%
+source-wordcount: '744'
+ht-degree: 97%
 
 ---
 
@@ -102,13 +102,14 @@ curl -X POST 'https://platform.adobe.io/data/core/dwm/workloads/decisions' \
 
 | Propriété | Description | Exemple |
 | -------- | ----------- | ------- |
-| `xdm:segmentIds` | La valeur est un tableau qui contient l’identifiant unique de l’audience. Il ne peut contenir qu&#39;une seule valeur. | `609028e4-e66c-4776-b0d9-c782887e2273` |
+| `xdm:activityId` | L&#39;identifiant unique de la décision. |
 | `xdm:dataSetId` | Le jeu de données de sortie dans lequel les événements de décision peuvent être écrits. | `6196b4a1a63bd118dafe093c` |
-| `xdm:propositionRequests` | Un wrapper qui contient `placementId` et `activityId` |  |
-| `xdm:activityId` | L&#39;identifiant unique de la décision. | `xcore:offer-activity:1410cdcda196707b` |
-| `xdm:placementId` | Identifiant d&#39;emplacement unique. | `xcore:offer-placement:1410c4117306488a` |
-| `xdm:itemCount` | Il s’agit d&#39;un champ facultatif indiquant le nombre d&#39;éléments, tels que les options demandées pour la portée de la décision. Par défaut, l&#39;API renvoie une option par portée, mais vous pouvez demander explicitement plus d&#39;options en spécifiant ce champ. Un minimum de 1 option et un maximum de 30 options peuvent être demandés par portée. | `1` |
+| `xdm:enrichedAudience` | Ajoutez ce paramètre et définissez-le sur « true » si vous ciblez une audience CSV | `true` |
 | `xdm:includeContent` | Il s&#39;agit d&#39;un champ facultatif qui est `false` par défaut. Si `true`, le contenu de l&#39;offre est inclus dans les événements de décision du jeu de données. | `false` |
+| `xdm:itemCount` | Il s’agit d&#39;un champ facultatif indiquant le nombre d&#39;éléments, tels que les options demandées pour la portée de la décision. Par défaut, l&#39;API renvoie une option par portée, mais vous pouvez demander explicitement plus d&#39;options en spécifiant ce champ. Un minimum de 1 option et un maximum de 30 options peuvent être demandés par portée. | `1` | `xcore:offer-activity:1410cdcda196707b` |
+| `xdm:placementId` | Identifiant d&#39;emplacement unique. | `xcore:offer-placement:1410c4117306488a` |
+| `xdm:propositionRequests` | Un wrapper qui contient `placementId` et `activityId` |
+| `xdm:segmentIds` | La valeur est un tableau qui contient l’identifiant unique de l’audience. Il ne peut contenir qu&#39;une seule valeur. | `609028e4-e66c-4776-b0d9-c782887e2273` |
 
 Reportez-vous à la section [Documentation de la gestion des décisions](../../get-started/starting-offer-decisioning.md) pour un aperçu des concepts et propriétés principaux.
 
