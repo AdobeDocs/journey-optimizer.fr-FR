@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Règles commerciales
+title: Règles métier
 description: Découvrir comment définir des règles de fréquence
 feature: Rules
 topic: Content Management
@@ -10,22 +10,22 @@ level: Intermediate
 keywords: message, fréquence, règles, pression
 exl-id: 49248fb6-5a91-45b2-9de8-2f078d59c0fc
 source-git-commit: 47482adb84e05fe41eb1c50479a8b50e00469ec4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1264'
 ht-degree: 100%
 
 ---
 
-# Règles commerciales {#frequency-rules}
+# Règles métier {#frequency-rules}
 
 >[!CONTEXTUALHELP]
 >id="ajo_business_rules_message_frequency_rules"
->title="Règles commerciales"
->abstract="Les règles de fréquence des messages sont un type de règle commerciale qui limite le nombre de fois où les utilisateurs et les utilisatrices reçoivent des messages ou entrent dans des parcours via un ou plusieurs canaux. Ces règles cross-canal excluent automatiquement des messages et des actions les profils sur-sollicités."
+>title="Règles métier"
+>abstract="Les règles de fréquence des messages sont un type de règle métier qui limite le nombre de fois où les utilisateurs et les utilisatrices reçoivent des messages ou entrent dans des parcours via un ou plusieurs canaux. Ces règles cross-canal excluent automatiquement des messages et des actions les profils sur-sollicités."
 
-[!DNL Journey Optimizer] vous permet de contrôler la fréquence à laquelle les utilisateurs et les utilisatrices reçoivent un message ou entrent dans un parcours via un ou plusieurs canaux. Règles de fréquence des messages qui excluent automatiquement des messages et des actions les profils sur-sollicités.
+[!DNL Journey Optimizer] vous permet de contrôler la fréquence à laquelle les utilisateurs et les utilisatrices reçoivent un message ou entrent dans un parcours via un ou plusieurs canaux. Règles de fréquence des messages qui excluent automatiquement les profils sur-sollicités des messages et des actions.
 
-Par exemple, pour une marque, une règle peut être de ne pas envoyer plus de 4 messages marketing par mois à sa clientèle. Pour cela, vous pouvez utiliser une règle commerciale qui limite le nombre de messages envoyés sur un ou plusieurs canaux au cours d’une période calendaire mensuelle.
+Par exemple, pour une marque, une règle peut être de ne pas envoyer plus de 4 messages marketing par mois à sa clientèle. Pour cela, vous pouvez utiliser une règle métier qui limite le nombre de messages envoyés sur un ou plusieurs canaux au cours d’une période calendaire mensuelle.
 
 ![](assets/do-not-localize/sms-dm-rules.gif)
 
@@ -35,15 +35,15 @@ Par exemple, pour une marque, une règle peut être de ne pas envoyer plus de 4�
 
 ➡️ [Découvrez cette fonctionnalité en vidéo](#video)
 
-## Accéder aux règles commerciales {#access-rules}
+## Accéder aux règles métier {#access-rules}
 
-Les règles commerciales sont disponibles à partir du menu **[!UICONTROL Administration]** > **[!UICONTROL Règles commerciales]**. Toutes les règles sont répertoriées, triées par date de modification. Utilisez l&#39;icône de filtre pour filtrer par catégorie, statut et/ou canal. Vous pouvez également effectuer une recherche sur le libellé du message.
+Les règles métier sont disponibles à partir du menu **[!UICONTROL Administration]** > **[!UICONTROL Règles métier]**. Toutes les règles sont répertoriées, triées par date de modification. Utilisez l&#39;icône de filtre pour filtrer par catégorie, statut et/ou canal. Vous pouvez également effectuer une recherche sur le libellé du message.
 
 ![](assets/message-rules-filter.png)
 
 ### Autorisations{#permissions-frequency-rules}
 
-Pour accéder aux règles commerciales, en créer, les modifier ou les supprimer, vous devez disposer de l’autorisation **[!UICONTROL Gérer les règles commerciales]**.
+Pour accéder aux règles métier, en créer, les modifier ou les supprimer, vous devez disposer de l’autorisation **[!UICONTROL Gérer les règles métier]**.
 
 Les utilisateurs avec l’autorisation **[!UICONTROL Afficher les règles de fréquence]** peuvent afficher les règles, mais pas les modifier ni les supprimer.
 
@@ -51,26 +51,26 @@ Les utilisateurs avec l’autorisation **[!UICONTROL Afficher les règles de fr�
 
 Pour en savoir plus sur les autorisations, consultez [cette section](../administration/high-low-permissions.md).
 
-## Créer une règle commerciale {#create-new-rule}
+## Créer une règle métier {#create-new-rule}
 
 >[!CONTEXTUALHELP]
 >id="ajo_rules_category"
 >title="Sélectionner la catégorie de règle relative aux messages"
->abstract="Lorsqu’elle sont activées et appliquées à un message, toutes les règles commerciales correspondant à la catégorie sélectionnée seront automatiquement appliquées à ce message. Actuellement, seule la catégorie Marketing est disponible."
+>abstract="Lorsqu’elle sont activées et appliquées à un message, toutes les règles métier correspondant à la catégorie sélectionnée seront automatiquement appliquées à ce message. Actuellement, seule la catégorie Marketing est disponible."
 
 >[!CONTEXTUALHELP]
 >id="ajo_rules_capping"
->title="Définir la limitation de votre règle commerciale"
+>title="Définir la limitation de votre règle métier"
 >abstract="Spécifiez le nombre maximal de messages envoyés à un profil client au cours de la période choisie. La limite de fréquence sera basée sur la période calendaire sélectionnée et sera réinitialisée au début de la période correspondante."
 
 >[!CONTEXTUALHELP]
 >id="ajo_rules_channel"
->title="Définissez le ou les canaux auxquels la règle commerciale s’applique."
+>title="Définissez le ou les canaux auxquels la règle métier s’applique."
 >abstract="Sélectionnez au moins un canal. Le plafond est calculé sur l’ensemble des canaux."
 
-Pour créer une règle commerciale, procédez comme suit.
+Pour créer une règle métier, procédez comme suit.
 
-1. Accédez à la liste **[!UICONTROL Règles commerciales]**, puis cliquez sur **[!UICONTROL Créer une règle]**.
+1. Accédez à la liste **[!UICONTROL Règles métier]**, puis cliquez sur **[!UICONTROL Créer une règle]**.
 
    ![](assets/message-rules-create.png)
 
@@ -132,19 +132,19 @@ La limite de fréquence quotidienne est valable pour la journée jusqu’à 23:5
 >
 >Pour garantir la précision des règles de capping de la fréquence quotidienne, nous vous recommandons d’utiliser la méthode [Segmentation en streaming](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/streaming-segmentation.html?lang=fr){target="_blank"}. En savoir plus sur les méthodes d’évaluation de l’audience dans [cette section](../audience/about-audiences.md#evaluation-method-in-journey-optimizer).
 
-## Activer une règle commerciale {#activate-rule}
+## Activer une règle métier {#activate-rule}
 
-Une fois créée, la règle commerciale affiche le statut **[!UICONTROL Brouillon]** et n’a encore aucune incidence sur le message. Pour l’activer, cliquez sur les points de suspension en regard de la règle et sélectionnez **[!UICONTROL Activer]**.
+Une fois créée, la règle métier affiche le statut **[!UICONTROL Brouillon]** et n’a encore aucune incidence sur le message. Pour l’activer, cliquez sur les points de suspension en regard de la règle et sélectionnez **[!UICONTROL Activer]**.
 
 ![](assets/message-rules-activate.png)
 
-L&#39;activation d&#39;une règle aura un impact sur tous les messages auxquels elle s&#39;applique lors de leur exécution suivante. Découvrez comment [appliquer une règle commerciale à un message](#apply-frequency-rule).
+L&#39;activation d&#39;une règle aura un impact sur tous les messages auxquels elle s&#39;applique lors de leur exécution suivante. Découvrez comment [appliquer une règle métier à un message](#apply-frequency-rule).
 
 >[!NOTE]
 >
 >L’activation complète d’une règle peut prendre jusqu’à 10 minutes. Vous n’avez pas besoin de modifier des messages ou de republier des parcours pour qu’une règle prenne effet.
 
-Pour désactiver une règle commerciale, cliquez sur les points de suspension en regard de la règle et sélectionnez **[!UICONTROL Désactiver]**.
+Pour désactiver une règle métier, cliquez sur les points de suspension en regard de la règle et sélectionnez **[!UICONTROL Désactiver]**.
 
 ![](assets/message-rules-deactivate.png)
 
@@ -154,9 +154,9 @@ L&#39;état de la règle devient **[!UICONTROL Inactif]** et la règle ne s&#39;
 >
 >La désactivation d&#39;une règle n&#39;affecte ou ne réinitialise aucun comptage sur les profils individuels.
 
-## Appliquer une règle commerciale à un message {#apply-frequency-rule}
+## Appliquer une règle métier à un message {#apply-frequency-rule}
 
-Pour appliquer une règle commerciale à un message, procédez comme suit.
+Pour appliquer une règle métier à un message, procédez comme suit.
 
 1. Lors de la création d’un [parcours](../building-journeys/journey-gs.md), ajoutez un message en sélectionnant l’un des canaux que vous avez définis pour votre règle.
 
@@ -166,11 +166,11 @@ Pour appliquer une règle commerciale à un message, procédez comme suit.
 
    >[!NOTE]
    >
-   >Actuellement, seule la catégorie **[!UICONTROL Marketing]** est disponible pour les règles commerciales.
+   >Actuellement, seule la catégorie **[!UICONTROL Marketing]** est disponible pour les règles métier.
 
 1. Cliquez sur le lien **[!UICONTROL Règle de fréquence]** pour ouvrir l’écran des règles de fréquence dans un nouvel onglet. [En savoir plus](#access-rules).
 
-   Toutes les règles commerciales correspondant à la catégorie et aux canaux sélectionnés seront automatiquement appliquées à ce message.
+   Toutes les règles métier correspondant à la catégorie et aux canaux sélectionnés seront automatiquement appliquées à ce message.
 
    >[!NOTE]
    >
@@ -184,9 +184,9 @@ Pour appliquer une règle commerciale à un message, procédez comme suit.
 
 ## Exemple : combiner plusieurs règles {#frequency-rule-example}
 
-Vous pouvez combiner plusieurs règles commerciales, comme décrit dans l’exemple ci-dessous.
+Vous pouvez combiner plusieurs règles métier, comme décrit dans l’exemple ci-dessous.
 
-1. [Créez une règle commerciale](#create-new-rule) appelée *Limitation marketing globale* :
+1. [Créez une règle métier](#create-new-rule) appelée *Limitation marketing globale* :
 
    * Sélectionnez tous les canaux.
    * Définissez la limitation mensuelle sur 12.
@@ -202,7 +202,7 @@ Vous pouvez combiner plusieurs règles commerciales, comme décrit dans l’exem
 
 1. Enregistrez et [activez](#activate-rule) la règle.
 
-1. [Créez un message](../building-journeys/journeys-message.md) pour chaque canal par lequel vous souhaitez communiquer et sélectionnez la catégorie **[!UICONTROL Marketing]** pour chaque message. [Découvrir comment appliquer une règle commerciale](#apply-frequency-rule)
+1. [Créez un message](../building-journeys/journeys-message.md) pour chaque canal par lequel vous souhaitez communiquer et sélectionnez la catégorie **[!UICONTROL Marketing]** pour chaque message. [Découvrir comment appliquer une règle métier](#apply-frequency-rule)
 
    ![](assets/journey-message-category.png)
 
@@ -229,10 +229,10 @@ Dans ce scénario, un profil individuel :
 
 >[!NOTE]
 >
->Lors du test des règles commerciales, il est recommandé d’utiliser un nouveau [profil de test](../audience/creating-test-profiles.md), car une fois la limitation de fréquence d’un profil atteinte, il n’est pas possible de réinitialiser le compteur avant le mois suivant. La désactivation d’une règle permet aux profils limités de recevoir des messages, mais elle ne supprime pas les incréments de compteur.
+>Lors du test des règles métier, il est recommandé d’utiliser un nouveau [profil de test](../audience/creating-test-profiles.md), car une fois la limitation de fréquence d’un profil atteinte, il n’est pas possible de réinitialiser le compteur avant le mois suivant. La désactivation d’une règle permet aux profils limités de recevoir des messages, mais elle ne supprime pas les incréments de compteur.
 
 ## Vidéo pratique {#video}
 
-Découvrez comment créer, activer, tester et générer des rapports sur les règles commerciales.
+Découvrez comment créer, activer, tester et générer des rapports sur les règles métier.
 
 >[!VIDEO](https://video.tv.adobe.com/v/344451?quality=12)
