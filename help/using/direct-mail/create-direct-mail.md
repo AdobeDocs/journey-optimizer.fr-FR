@@ -7,10 +7,10 @@ role: User
 level: Beginner
 keywords: courrier, message, campagne
 exl-id: 6b438268-d983-4ab8-9276-c4b7de74e6bd
-source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
+source-git-commit: 88f8a5e3e7314992cdb5835b9676b78127f20960
 workflow-type: tm+mt
-source-wordcount: '803'
-ht-degree: 100%
+source-wordcount: '747'
+ht-degree: 94%
 
 ---
 
@@ -75,23 +75,17 @@ Vous pouvez maintenant commencer à configurer le fichier d&#39;extraction à en
 >title="Formatage des fichiers d’extraction"
 >abstract="Pour chaque champ, indiquez un libellé et les informations à afficher à l’aide de l’éditeur de personnalisation. <br/><br/>L’option <b>Trier par</b> vous permet d’utiliser le champ sélectionné pour trier les colonnes du fichier d’extraction."
 
-1. Configurez les colonnes et les informations à afficher dans le fichier d’extraction :
-
-   1. Cliquez sur le bouton **[!UICONTROL Ajouter]** pour créer une nouvelle colonne.
-
-   1. Le volet **[!UICONTROL Formatage]** s’affiche sur le côté droit, ce qui vous permet de configurer la colonne sélectionnée. Spécifiez un **[!UICONTROL Libellé]** pour la colonne.
-
-   1. Dans le champ **[!UICONTROL Données]**, sélectionnez les attributs de profil à afficher à l’aide de l’[éditeur de personnalisation](../personalization/personalization-build-expressions.md).
-
-   1. Pour trier le fichier d’extraction à l&#39;aide d’une colonne, sélectionnez la colonne et activez l’option **[!UICONTROL Trier par]**. L’icône **[!UICONTROL Trier par]** s’affiche en regard du libellé de la colonne dans la section **[!UICONTROL Champs de données]**.
-
 Le fichier d’extraction est requis par les opérateurs de services postaux pour envoyer du courrier à vos clientes et clients. Pour définir la configuration du fichier d&#39;extraction, procédez comme suit :
 
 1. Dans l’écran de configuration de la campagne, cliquez sur le bouton **[!UICONTROL Modifier le contenu]** pour configurer le contenu du fichier d’extraction.
 
 1. Ajustez les propriétés du fichier d’extraction :
 
-   1. Spécifiez le **[!UICONTROL Nom de fichier]** pour le fichier d’extraction.
+   1. Dans le champ **[!UICONTROL Nom de fichier]**, indiquez un nom pour le fichier d’extraction.
+
+      >[!NOTE]
+      >
+      >Par défaut, le fichier est écrit dans le répertoire racine. Le champ **[!UICONTROL Nom de fichier]** accepte le format « /your/path/here/Filename.csv », où le chemin d’accès spécifié correspond au répertoire cible sur le serveur sélectionné. <!--TBC if for SFTP and Azure only, or for all servers including S3-->
 
    1. Vous pouvez éventuellement activer l’option **[!UICONTROL Ajouter une date et une heure pour exporter le nom de fichier]** si vous souhaitez ajouter une date et une heure automatiques au nom de fichier spécifié.
 
@@ -116,3 +110,4 @@ Le fichier d’extraction est requis par les opérateurs de services postaux pou
       Pour modifier la position d’une colonne, faites-la glisser et déposez-la à l’emplacement de votre choix dans la section **[!UICONTROL Champ de données]**. Pour supprimer une colonne, sélectionnez-la et cliquez sur le bouton **[!UICONTROL Supprimer]** dans le volet **[!UICONTROL Formatage]**.
 
 Vous pouvez maintenant tester votre message de courrier et l’envoyer à votre audience. [Découvrez comment tester et envoyer des messages de courrier](test-send-direct-mail.md).
+
