@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: paramètres, e-mail, configuration
 exl-id: 13536962-7541-4eb6-9ccb-4f97e167734a
-source-git-commit: 8a9f0b42acb19f0b28340f11dada19f5b6524c66
+source-git-commit: 397bc830f1f4991d19142c6eccf68e929a4ac0ea
 workflow-type: tm+mt
-source-wordcount: '2735'
-ht-degree: 100%
+source-wordcount: '2804'
+ht-degree: 97%
 
 ---
 
@@ -84,6 +84,11 @@ Une fois qu’un groupe d’adresses IP a été sélectionné, les informations 
 ## Désabonnement de la liste{#list-unsubscribe}
 
 <!--Do not modify - Legal Review Done -->
+
+>[!CONTEXTUALHELP]
+>id="ajo_email_config_unsubscribe_custom"
+>title="Ajouter une URL de désabonnement dans l’en-tête de l’e-mail"
+>abstract="Si vous gérez le consentement en dehors d’Adobe, sélectionnez l’option **Gestion des clients** pour saisir une adresse e-mail de désabonnement personnalisée et votre propre URL de désabonnement en un clic. Dans ce cas, sachez que l’Adobe ne stocke aucune information de désabonnement. Le propriétaire des informations de consentement de vos clients est chargé de gérer leurs données de consentement et de les renvoyer à Journey Optimizer."
 
 Lors de la [sélection d’un sous-domaine](#subdomains-and-ip-pools) dans la liste, l’option **[!UICONTROL Activer le désabonnement de la liste]** s’affiche.
 
