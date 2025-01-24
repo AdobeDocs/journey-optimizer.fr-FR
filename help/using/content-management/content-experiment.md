@@ -10,9 +10,9 @@ level: Beginner
 keywords: contenu, expérience, multiple, audience, traitement
 exl-id: bd35ae19-8713-4571-80bc-5f40e642d121
 source-git-commit: 98b7a5493a4e325328ab349c405af423b3836807
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '729'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -76,7 +76,7 @@ L’objectif ici est de voir si les destinataires interagissent avec l’e-mail 
 
    ![](assets/content_experiment_11.png)
 
-1. Lors de la configuration d’une expérience à l’aide du canal in-app ou web et du choix des **[!UICONTROL Clics entrants]**, **[!UICONTROL Clics entrants uniques]**, **[!UICONTROL Pages vues]** ou **[!UICONTROL Mesures Pages vues uniques]** , la liste déroulante **[!UICONTROL Action de clic]** vous permet d’effectuer et de surveiller précisément les clics et les vues sur des pages spécifiques.
+1. Lors de la configuration d’une expérience utilisant le canal in-app ou web et du choix de **[!UICONTROL Clics entrants]**, **[!UICONTROL Clics entrants uniques]**, **[!UICONTROL Pages vues]** ou **[!UICONTROL Mesures des pages vues uniques]**, le menu déroulant **[!UICONTROL Action de clic]** vous permet de suivre et de surveiller précisément les clics et les vues sur des pages spécifiques.
 
    ![](assets/content_experiment_20.png)
 

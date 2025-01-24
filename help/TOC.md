@@ -6,9 +6,9 @@ user-guide-description: Utilisez Journey Optimizer pour créer et proposer aux 
 type: Documentation
 solution: Journey Optimizer
 source-git-commit: abdfa7fa107e8be5d395c634057c38a512a4a03d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2154'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -396,8 +396,8 @@ ht-degree: 99%
       + [Rapport dynamique de campagne](using/reports/campaign-live-report.md)
       + [Rapport dynamique sur les pages de destination](using/reports/lp-report-live.md)
       + [Rapport dynamique sur les listes d’abonnements](using/reports/subscription-report-live.md)
-   + Rapport à toute heure{#channel-report}
-      + [Prise en main du rapport à toute heure](using/reports/report-gs-cja.md)
+   + Rapport complet{#channel-report}
+      + [Prise en main du rapport complet](using/reports/report-gs-cja.md)
       + [Configurer manuellement Customer Journey Analytics](using/reports/cja-ajo.md)
       + [Gérer vos rapports](using/reports/report-cja-manage.md)
       + [Conditions préalables aux rapports et à l’expérimentation](using/reports/reporting-configuration.md)
@@ -653,7 +653,7 @@ ht-degree: 99%
    + [Utiliser des listes de contrôle](using/configuration/seed-lists.md)
    + [Prise en charge de l’archivage](using/configuration/archiving-support.md)
    + [Modifier les adresses d’exécution](using/configuration/primary-email-addresses.md)
-   + [Configurer des règles métier](using/configuration/frequency-rules.md)
+   + [Configurer des règles commerciales](using/configuration/frequency-rules.md)
    + [Utiliser des jeux de règles (disponibilité limitée)](using/configuration/rule-sets.md)
    + Configuration des parcours {#configure-journeys}
       + [À propos des sources de données, des événements et des actions](using/configuration/about-data-sources-events-actions.md)

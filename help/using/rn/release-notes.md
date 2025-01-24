@@ -7,9 +7,9 @@ topic: Content Management
 description: Notes de mise à jour d’Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
 source-git-commit: 4eef896bd139cfb4acb4b817527dee67e246082d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2172'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -22,21 +22,21 @@ ht-degree: 97%
 
 [!DNL Adobe Journey Optimizer] offre en permanence de nouvelles fonctionnalités, des améliorations des fonctionnalités existantes et des correctifs. Toutes les modifications sont consolidées la dernière semaine de chaque mois dans ces notes de mise à jour. [!DNL Adobe Journey Optimizer] est créé de manière native sur [!DNL Adobe Experience Platform] et hérite de ses dernières innovations et améliorations. En savoir plus sur ces modifications dans les [Notes de mise à jour d’Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=fr){target="_blank"}.
 
-## Mises à jour de janvier 2025 {#25-01-rn}
+## Mises à jour de janvier 2025 {#25-01-rn}
 
 <table>
 <thead>
 <tr>
-<th><strong>Modèles de Customer Journey Analytics</strong><br/></th>
+<th><strong>Modèles Customer Journey Analytics</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Vous avez désormais la possibilité d’améliorer vos rapports Journey Optimizer à l’aide de modèles de Customer Journey Analytics. Cette nouvelle fonctionnalité vous permet de rationaliser votre processus de création de rapports à l’aide de modèles préconçus et adaptés à vos besoins en matière d’analyse.
+<p>Vous avez désormais la possibilité d’améliorer vos rapports Journey Optimizer à l’aide de modèles Customer Journey Analytics. Cette nouvelle fonctionnalité vous permet de rationaliser votre processus de création de rapports à l’aide de modèles préconçus et adaptés à vos besoins en matière d’analyse.
 </p>
 <p>Pour plus d’informations, consultez la <a href="../reports/report-cja-manage.md#cja-template">documentation détaillée</a>.</p>
-<p> La fonctionnalité <b>Modèle</b> est progressivement déployée par phases, avec une disponibilité générale complète prévue pour la fin janvier</p>
+<p> La fonctionnalité <b>Modèle</b> est progressivement déployée par phases, avec une disponibilité générale complète prévue d’ici la fin janvier.</p>
 </tr>
 </tbody>
 </table>

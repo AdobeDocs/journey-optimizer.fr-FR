@@ -8,9 +8,9 @@ level: Experienced
 badge: label="Disponibilité limitée"
 exl-id: 7c45cd8a-8e86-4646-ba0a-db393e92d9da
 source-git-commit: bfc16476f525328b2b8451bfdd57b6b2027db916
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '221'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -35,4 +35,4 @@ Suivez les étapes principales ci-dessous : Vous trouverez des informations dé
 
 1. Créez une **vue des données** et associez-la à la connexion créée précédemment. Sous l’onglet **[!UICONTROL Composants]**, sélectionnez les champs de schéma appropriés que vous souhaitez afficher dans les rapports. Pour la prise de décision, veillez à inclure les champs **propositioninteract** et **propositiondisplay**. [Découvrir comment créer et configurer des vues de données](https://experienceleague.adobe.com/fr/docs/analytics-platform/using/cja-dataviews/create-dataview){target="_blank"}
 
-1. Combinez des composants de données, des tableaux et des visualisations dans des **projets Workspace** pour créer et partager des rapports pour votre campagne basée sur le code. [Découvrir comment créer des projets Workspace](https://experienceleague.adobe.com/fr/docs/analytics-platform/using/cja-workspace/build-workspace-project/create-projects){target="_blank"}
+1. Combinez des composants de données, des tableaux et des visualisations dans des **projets Workspace** pour créer et partager des rapports pour votre campagne basée sur du code. [Découvrir comment créer des projets Workspace](https://experienceleague.adobe.com/fr/docs/analytics-platform/using/cja-workspace/build-workspace-project/create-projects){target="_blank"}

@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 exl-id: d2ff175a-8bca-4b62-931c-a909cfd9308d
 source-git-commit: 4eef896bd139cfb4acb4b817527dee67e246082d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1353'
-ht-degree: 80%
+ht-degree: 100%
 
 ---
 
@@ -215,42 +215,42 @@ Vous pouvez désormais sélectionner des données spécifiques dans le tableau e
 
 Vous pouvez maintenant utiliser l’audience nouvellement créée avec un parcours ou une campagne.
 
-## Gestion des modèles {#cja-template}
+## Gérer les modèles {#cja-template}
 
 >[!AVAILABILITY]
 >
-> La fonctionnalité **Modèle** est progressivement déployée par phases, avec une disponibilité générale complète prévue d’ici la fin janvier, et disponible exclusivement pour les utilisateurs disposant d’une licence [!DNL Customer Journey Analytics].
+> La fonctionnalité **Modèle** est progressivement déployée par phases, avec une disponibilité générale complète prévue d’ici la fin janvier. Elle est disponible exclusivement pour les personnes disposant d’une licence [!DNL Customer Journey Analytics].
 
-Vous avez désormais la possibilité d’améliorer vos rapports Journey Optimizer à l’aide de modèles de Customer Journey Analytics. [En savoir plus sur le modèle de Customer Journey Analytics ](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/templates/use-templates#use-reports)
+Vous avez désormais la possibilité d’améliorer vos rapports Journey Optimizer à l’aide de modèles Customer Journey Analytics. [En savoir plus sur le modèle Customer Journey Analytics](https://experienceleague.adobe.com/fr/docs/analytics-platform/using/cja-workspace/templates/use-templates#use-reports)
 
-Lors de l’accès aux rapports, vous pouvez choisir entre deux types de modèle dans le menu déroulant **[!UICONTROL Sélectionner un modèle]** :
+Lors de l’accès aux rapports, vous pouvez choisir entre deux types de modèles dans le menu déroulant **[!UICONTROL Sélectionner un modèle]** :
 
 * Modèle par défaut fourni par Adobe
-* Modèles générés par le client
+* Modèles générés par la clientèle
 
 ![](assets/cja_template_5.png)
 
 Si aucun modèle n’a été créé, la liste déroulante **[!UICONTROL Sélectionner un modèle]** n’apparaît pas dans votre interface de création de rapports.
 
-Pour créer un modèle, procédez comme suit :
+Pour créer un modèle, procédez comme suit :
 
-1. Dans [!DNL Customer Journey Analytics], accédez au menu **[!UICONTROL Workspace]** et sélectionnez **[!UICONTROL Modèles d’Adobe]**. [En savoir plus sur les modèles disponibles](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/templates/use-templates#available-templates)
+1. Dans [!DNL Customer Journey Analytics], accédez au menu **[!UICONTROL Workspace]** et sélectionnez **[!UICONTROL Modèles Adobe]**. [En savoir plus sur les modèles disponibles](https://experienceleague.adobe.com/fr/docs/analytics-platform/using/cja-workspace/templates/use-templates#available-templates)
 
 1. Parcourez les modèles préconfigurés disponibles et cliquez sur **[!UICONTROL Utiliser le modèle]** pour en sélectionner un.
 
    ![](assets/cja_template_1.png)
 
-1. Ajustez votre rapport en fonction de vos besoins. Consultez la documentation du Customer Journey Analytics [](https://experienceleague.adobe.com/fr/docs/analytics-platform/using/cja-workspace/home).
+1. Ajustez votre rapport en fonction de vos besoins. Consultez la documentation [Customer Journey Analytics](https://experienceleague.adobe.com/fr/docs/analytics-platform/using/cja-workspace/home).
 
 1. Une fois le modèle personnalisé terminé, accédez au menu **[!UICONTROL Projet]** et sélectionnez **[!UICONTROL Enregistrer en tant que modèle]**.
 
    ![](assets/cja_template_2.png)
 
-1. Fournissez les détails nécessaires pour votre modèle. Consultez la documentation du Customer Journey Analytics [](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/templates/create-templates#edit-or-delete-a-template) pour plus d&#39;informations.
+1. Fournissez les détails nécessaires pour votre modèle. Consultez la documentation [Customer Journey Analytics](https://experienceleague.adobe.com/fr/docs/analytics-platform/using/cja-workspace/templates/create-templates#edit-or-delete-a-template) pour plus d’informations.
 
    >[!IMPORTANT]
    >
-   > Veillez à choisir **Journey Optimizer** sous **[!UICONTROL Cas d’utilisation]** et à spécifier le type d’activité **Journey Optimizer** et **activité** correspondants. Cela permet à votre rapport d’apparaître dans Journey Optimizer.
+   > Veillez à choisir **Journey Optimizer** sous **[!UICONTROL Cas d’utilisation]** et à spécifier le type d’activité et l’**activité** **Journey Optimizer** correspondants. Ainsi, votre rapport apparaîtra dans Journey Optimizer.
 
    ![](assets/cja_template_3.png)
 
@@ -258,4 +258,4 @@ Pour créer un modèle, procédez comme suit :
 
    ![](assets/cja_template_4.png)
 
-Pour créer directement un modèle à partir de votre rapport d’optimisation de Parcours, il vous suffit d’accéder à votre campagne ou à votre rapport de parcours, de sélectionner **[!UICONTROL Analyser dans CJA]** et de personnaliser le modèle par défaut en suivant les étapes décrites ci-dessus.
+Pour créer directement un modèle à partir de votre rapport Journey Optimizer, il vous suffit d’accéder à votre campagne ou à votre rapport de parcours, de sélectionner **[!UICONTROL Analyser dans CJA]** et de personnaliser le modèle par défaut en suivant les étapes décrites ci-dessus.

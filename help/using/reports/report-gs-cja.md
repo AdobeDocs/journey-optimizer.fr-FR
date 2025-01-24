@@ -2,20 +2,20 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Expérience de création de rapports mise à jour
-description: Prise en main du rapport à toute heure
+description: Prise en main du rapport complet
 feature: Reporting
 topic: Content Management
 role: User
 level: Intermediate
 exl-id: bfd88d2a-e7b8-4e3b-85a1-4a14b0ba56dc
 source-git-commit: abdfa7fa107e8be5d395c634057c38a512a4a03d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '358'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
-# Prise en main du rapport à toute heure {#channel-report-gs-cja}
+# Prise en main du rapport complet {#channel-report-gs-cja}
 
 >[!IMPORTANT]
 >

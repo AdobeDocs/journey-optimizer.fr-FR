@@ -9,9 +9,9 @@ role: Admin
 level: Intermediate, Experienced
 exl-id: 8f33dda7-9bd5-4293-8d0d-222205cbc7d5
 source-git-commit: 0eeb9f6aa6276b99a4d38efc2d371ebdb58c141d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1045'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -57,12 +57,12 @@ Pour protéger votre délivrabilité, les destinataires dont les adresses se tro
 
 Utilisez les fonctionnalités de reporting proposées par [!DNL Journey Optimizer] pour surveiller votre délivrabilité.
 
-Les rapports de campagne et de parcours vous permettent de vérifier les performances de vos diffusions au moyen d’un ensemble d’indicateurs en temps réel. Ils affichent entre autres :
+Les rapports sur les campagnes et les parcours permettent de vérifier les performances de vos diffusions au moyen d’un ensemble d’indicateurs en temps réel. Ils affichent entre autres :
 
 * Le nombre de messages exécutés, envoyés et délivrés avec succès.
 * Le nombre de messages ayant été ouverts et le nombre de messages/liens ayant fait l&#39;objet d&#39;un clic.
 
-En savoir plus sur le [rapport dynamique](../reports/live-report.md) et le [rapport à tout moment](../reports/report-gs-cja.md)
+En savoir plus sur le [Rapport dynamique](../reports/live-report.md) et le [Rapport complet](../reports/report-gs-cja.md).
 
 ## Adapter le contenu des messages {#adapt-message-content}
 
@@ -80,7 +80,7 @@ Pour améliorer votre taux de délivrabilité et vous assurer que vos emails att
 
 Si vous avez récemment migré vers un autre fournisseur de services de messagerie, dʼadresse IP ou de domaine ou sous-domaine de messagerie, vous devez asseoir votre réputation d’expéditeur. Dans le cas contraire, vos diffusions risquent dʼêtre bloquées voire déplacées dans le dossier des courriers indésirables de la boîte aux lettres des destinataires.
 
-Lors de l’envoi d’e-mails sur une toute nouvelle adresse IP, vous pouvez désormais facilement exécuter des workflows de préchauffage d’adresses IP directement depuis l’interface utilisateur.
+Quand vous envoyez des e-mails sur une toute nouvelle adresse IP, vous pouvez désormais facilement exécuter des workflows de préchauffage d’adresses IP directement à partir de l’interface d’utilisation.
 
 Adobe Journey Optimizer offre un moyen standardisé et efficace de préchauffer vos adresses IP en respectant les bonnes pratiques de délivrabilité optimale.
 

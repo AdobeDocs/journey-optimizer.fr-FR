@@ -9,9 +9,9 @@ role: User
 level: Beginner
 exl-id: 1f88626a-b491-4b36-8e3f-57f2b7567dd0
 source-git-commit: 25ca0dd72622ef15db3edeedfd16b91d392127d4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1042'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -125,7 +125,7 @@ Pour configurer le contenu de votre SMS, procédez comme suit. Les paramètres d
 
    >[!CAUTION]
    >
-   > La durée de vie des URL courtes est définie sur 15 jours. Passé ce délai, ces URL courtes ne seront plus accessibles et afficheront le message : `404 short-code not found`.
+   > La durée de vie des URL courtes est définie sur 15 jours. Passé ce délai, ces URL courtes ne seront plus accessibles et afficheront le message suivant : `404 short-code not found`.
 
 1. Cliquez sur **[!UICONTROL Enregistrer]** et vérifiez votre message dans l’aperçu. Vous pouvez maintenant tester et vérifier le contenu de votre message, comme indiqué dans [cette section](#sms-mms-test).
 
