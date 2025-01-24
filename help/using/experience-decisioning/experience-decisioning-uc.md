@@ -11,7 +11,7 @@ exl-id: 09770df2-c514-4217-a71b-e31c248df543
 source-git-commit: bb66785f0b699d0ccf6cced035e64f206b104293
 workflow-type: tm+mt
 source-wordcount: '817'
-ht-degree: 51%
+ht-degree: 85%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 51%
 
 Ce cas pratique présente toutes les étapes nécessaires pour utiliser les décisions avec le canal basé sur le code [!DNL Journey Optimizer].
 
-Dans cet exemple, vous ne savez pas si une formule de classement spécifique sera plus performante que les priorités d&#39;offre préaffectées. Pour mesurer celui qui fonctionne le mieux pour votre audience cible, vous créez une campagne à l’aide de [Expérience de contenu](../content-management/content-experiment.md) où vous définissez deux traitements de diffusion :
+Dans cet exemple, vous ne savez pas si une formule de classement spécifique sera plus performante que les priorités d’offre préaffectées. Pour mesurer celui qui fonctionne le mieux pour votre audience cible, vous créez une campagne à l’aide de [Expérience de contenu](../content-management/content-experiment.md) où vous définissez deux traitements de diffusion :
 
 * Le premier traitement utilise **priorité** comme méthode de classement.
 * Le deuxième traitement utilise **une formule** comme méthode de classement.
@@ -30,9 +30,9 @@ Tout d’abord, vous devez créer deux stratégies de sélection : une avec la
 
 >[!NOTE]
 >
->Vous pouvez également créer des éléments de décision uniques sans avoir à exécuter une stratégie de sélection. La priorité définie pour chaque élément s’applique.
+>Vous pouvez également créer des éléments de décision uniques sans avoir à exécuter de stratégie de sélection. La priorité définie pour chaque élément s’applique.
 
-### Création d’une stratégie à l’aide de la priorité
+### Créer une stratégie en utilisant la priorité
 
 Pour créer la première stratégie de sélection avec la priorité comme méthode de classement, procédez comme suit.
 
@@ -62,7 +62,7 @@ Pour créer la première stratégie de sélection avec la priorité comme métho
 
    ![](assets/exd-uc-strategy-priority.png){width="90%"}
 
-### Création d’une autre stratégie à l’aide d’une formule
+### Créer une autre stratégie en utilisant une formule
 
 Pour créer la deuxième stratégie de sélection avec la sélection d’une formule comme méthode de classement, procédez comme suit.
 
@@ -92,7 +92,7 @@ Pour créer la deuxième stratégie de sélection avec la sélection d’une for
 
 Define two delivery treatments each containing a different decision policy.-->
 
-Une fois que vous avez configuré les deux stratégies de sélection, créez une campagne d’expérience basée sur le code dans laquelle vous définissez un traitement différent pour chaque stratégie, afin de comparer celle qui fonctionne le mieux.
+Une fois que vous avez configuré les deux stratégies de sélection, créez une campagne d’expérience basée sur le code dans laquelle vous définissez un traitement différent pour chaque stratégie afin de comparer celle qui fonctionne le mieux.
 
 1. Créez une campagne et sélectionnez l’action **[!UICONTROL Expérience basée sur du code]**. [En savoir plus](../code-based/create-code-based.md)
 
@@ -104,7 +104,7 @@ Une fois que vous avez configuré les deux stratégies de sélection, créez une
 
    ![](assets/exd-uc-edit-cbe-content.png){width="90%"}
 
-1. Dans la fenêtre d’édition du contenu, pour commencer à personnaliser **Traitement A**, cliquez sur **[!UICONTROL Modifier le code]**.
+1. Dans la fenêtre d’édition du contenu, commencez à personnaliser le **Traitement A** en cliquant sur **[!UICONTROL Modifier le code]**.
 
    ![](assets/exd-uc-experiment-treatment-a.png){width="90%"}
 
@@ -124,7 +124,7 @@ Une fois que vous avez configuré les deux stratégies de sélection, créez une
 
    ![](assets/exd-uc-experiment-strategy-priority.png){width="90%"}
 
-1. Enregistrez vos modifications et cliquez sur **[!UICONTROL Créer]**. La nouvelle décision est ajoutée sous **[!UICONTROL Politique de décision]**.
+1. Enregistrez votre sélection et cliquez sur **[!UICONTROL Créer]**. La nouvelle décision est ajoutée sous **[!UICONTROL Politique de décision]**.
 
 1. Cliquez sur le bouton **[!UICONTROL Insérer une politique]**. Le code correspondant à la politique de décision est ajouté. Ajoutez ensuite tous les attributs souhaités au code, y compris les attributs de profil. [En savoir plus](create-decision.md#use-decision-policy).
 
@@ -132,7 +132,7 @@ Une fois que vous avez configuré les deux stratégies de sélection, créez une
 
 1. Enregistrez vos modifications.
 
-1. Revenez à la fenêtre d’édition du contenu, sélectionnez le bouton + pour ajouter **Traitement B**, sélectionnez-le et cliquez sur **[!UICONTROL Modifier le code]**.
+1. Revenez à la fenêtre d’édition du contenu, sélectionnez le bouton + pour ajouter le **Traitement B**, sélectionnez-le et cliquez sur **[!UICONTROL Modifier le code]**.
 
    ![](assets/exd-uc-experiment-treatment-b.png){width="90%"}
 
@@ -142,7 +142,7 @@ Une fois que vous avez configuré les deux stratégies de sélection, créez une
 
 1. Modifiez votre politique de décision selon vos besoins (voir les étapes 8 et 9 ci-dessus).
 
-1. Enregistrez vos modifications et [ publiez votre campagne d’expérience basée sur le code ](../code-based/publish-code-based.md).
+1. Enregistrez vos modifications et [publiez votre campagne d’expérience basée sur le code](../code-based/publish-code-based.md).
 
 Après avoir exécuté l’expérience, suivez les performances de vos traitements de campagne avec le [rapport de campagne d’expérimentation](../reports/campaign-global-report-cja-experimentation.md).<!-- and [report on decisioning](cja-reporting.md).--> Vous pouvez ensuite interpréter les résultats de votre expérience. [Voici comment procéder](../content-management/get-started-experiment.md#interpret-results)
 
