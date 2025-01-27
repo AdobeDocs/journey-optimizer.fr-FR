@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: paramètres, e-mail, configuration
 exl-id: 13536962-7541-4eb6-9ccb-4f97e167734a
-source-git-commit: 397bc830f1f4991d19142c6eccf68e929a4ac0ea
+source-git-commit: 8559fce278974dcf18ba038996fd65b9f72400f4
 workflow-type: tm+mt
-source-wordcount: '2804'
-ht-degree: 97%
+source-wordcount: '2801'
+ht-degree: 96%
 
 ---
 
@@ -83,12 +83,12 @@ Une fois qu’un groupe d’adresses IP a été sélectionné, les informations 
 
 ## Désabonnement de la liste{#list-unsubscribe}
 
-<!--Do not modify - Legal Review Done -->
-
 >[!CONTEXTUALHELP]
 >id="ajo_email_config_unsubscribe_custom"
->title="Ajouter une URL de désabonnement dans l’en-tête de l’e-mail"
+>title="Saisir des points d’entrée List-Unsubscribe personnalisés"
 >abstract="Si vous gérez le consentement en dehors d’Adobe, sélectionnez l’option **Gestion des clients** pour saisir une adresse e-mail de désabonnement personnalisée et votre propre URL de désabonnement en un clic. Dans ce cas, sachez que l’Adobe ne stocke aucune information de désabonnement. Le propriétaire des informations de consentement de vos clients est chargé de gérer leurs données de consentement et de les renvoyer à Journey Optimizer."
+
+<!--Do not modify - Legal Review Done -->
 
 Lors de la [sélection d’un sous-domaine](#subdomains-and-ip-pools) dans la liste, l’option **[!UICONTROL Activer le désabonnement de la liste]** s’affiche.
 
@@ -123,13 +123,13 @@ L’en-tête Désabonnement de la liste propose deux fonctionnalités qui sont 
 
 Les fonctionnalités **[!UICONTROL Mailto (se désabonner)]** et **[!UICONTROL URL de désabonnement en un clic]** sont facultatives.
 
-Si vous ne souhaitez pas utiliser l’URL de désabonnement en un clic générée par défaut, vous pouvez décocher la fonction. Dans le scénario dans lequel l’option **[!UICONTROL Activer le désabonnement de la liste]** est activée et où la fonctionnalité **[!UICONTROL URL de désabonnement en un clic]** n’est pas cochée, si vous ajoutez un [lien d’exclusion en un clic](../privacy/opt-out.md#one-click-opt-out) dans un message créé à l’aide de cette configuration, l’en-tête de désabonnement de la liste récupère le lien d’exclusion en un clic que vous avez inséré dans le corps de l’e-mail et l’utilise comme valeur de l’URL de désabonnement en un clic.
+Si vous ne souhaitez pas utiliser l’URL de désabonnement en un clic générée par défaut, vous pouvez décocher la fonction. Dans le scénario dans lequel l’option **[!UICONTROL Activer le désabonnement de la liste]** est activée et où la fonctionnalité **[!UICONTROL URL de désabonnement en un clic]** n’est pas cochée, si vous ajoutez un [lien d’exclusion en un clic](../email/email-opt-out.md#one-click-opt-out) dans un message créé à l’aide de cette configuration, l’en-tête de désabonnement de la liste récupère le lien d’exclusion en un clic que vous avez inséré dans le corps de l’e-mail et l’utilise comme valeur de l’URL de désabonnement en un clic.
 
 ![](assets/preset-list-unsubscribe-opt-out-url.png)
 
 >[!NOTE]
 >
->Si vous n’ajoutez pas de lien d’exclusion en un clic dans le contenu de votre message et que l’URL de désabonnement en un clic par défaut est décochée dans les paramètres de configuration des canaux, aucune URL n’est transmise à l’en-tête de l’e-mail dans le cadre de l’en-tête de désabonnement de la liste.
+>Si vous n’ajoutez pas de lien d’opt-out en un clic dans le contenu de votre message et que la case par défaut **[!UICONTROL URL de désabonnement en un clic]** est décochée dans les paramètres de configuration du canal, aucune URL n’est transmise dans l’en-tête de l’e-mail dans le cadre de l’en-tête Désabonnement de la liste .
 
 Pour plus d’informations sur la gestion des fonctionnalités de désabonnement dans vos messages, consultez [cette section](../email/email-opt-out.md#unsubscribe-header).
 
