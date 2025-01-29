@@ -6,9 +6,9 @@ topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: 692d0aae-6fa1-40b8-a35f-9845d78317a3
-source-git-commit: 129863516a4b027906d1ed809148053ffd1df22e
+source-git-commit: f415209a7a62c8b7936abdb474b1b5b70c788973
 workflow-type: tm+mt
-source-wordcount: '1018'
+source-wordcount: '1012'
 ht-degree: 100%
 
 ---
@@ -23,8 +23,6 @@ Vous pouvez créer et diffuser des offres en effectuant une requête POST à l&#
 Ce tutoriel nécessite une bonne compréhension des API, tout particulièrement en ce qui concerne la gestion des décisions.
 Pour plus d&#39;informations, consultez le [Guide de l&#39;API de gestion des décisions destiné aux développeurs](../getting-started.md).
 Ce tutoriel nécessite aussi que vous disposiez d&#39;un identifiant d&#39;emplacement et d&#39;un identifiant de décision uniques. Si vous ne disposez pas de ces valeurs, consultez les tutoriels sur la [création d&#39;un emplacement](../offers-api/placements/create.md) et la [création d&#39;une décision](../activities-api/activities/create.md).
-
-➡️  [Découvrez cette fonctionnalité en vidéo](#video)
 
 ## En-têtes requis {#required-headers}
 
