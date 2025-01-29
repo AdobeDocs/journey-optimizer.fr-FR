@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 1fc708e1-a993-4a2a-809c-c5dc08a4bae1
-source-git-commit: c32f1e86eb803a0a4b25111d07989872b33a3bed
+source-git-commit: abbc5c77545f30ac2d70d718f605acd30f7e7830
 workflow-type: tm+mt
-source-wordcount: '1062'
-ht-degree: 68%
+source-wordcount: '1075'
+ht-degree: 60%
 
 ---
 
@@ -81,27 +81,31 @@ Les fragments peuvent avoir plusieurs statuts :
 
 Pour modifier un fragment, procédez comme suit.
 
-1. Cliquez sur le fragment de votre choix dans la liste **[!UICONTROL Fragments]**.
+1. Cliquez sur le fragment de votre choix dans la liste **[!UICONTROL Fragments]**. L’écran des propriétés du fragment s’ouvre avec un aperçu de son contenu.
 
-1. Les propriétés du fragment s’ouvrent avec un aperçu de son contenu.
+1. Vous pouvez vérifier la liste des parcours, campagnes et modèles de contenu dans lesquels le fragment est actuellement utilisé en sélectionnant l’option **[!UICONTROL Explorer les références]**. [En savoir plus](#explore-references)
+
+   ![](assets/fragment-edit-references.png)
 
 1. Si le fragment en cours de modification possède le statut **[!UICONTROL Actif]**, cliquez sur le bouton **[!UICONTROL Modifier]** pour créer un brouillon du fragment.
 
+   <!--![](assets/fragment-live-modify.png)-->
+
    >[!NOTE]
    >
-   >La version actuelle du fragment reste active jusqu’à ce que vous publiiez la version brouillon.
+   >La version actuelle du fragment reste active jusqu’à ce que vous publiiez la nouvelle version mise à jour.
 
-1. Apportez les modifications souhaitées au fragment. Pour modifier son contenu, cliquez sur le bouton **[!UICONTROL Modifier]** et mettez à jour votre contenu comme vous le feriez lors de la création d’un fragment à partir de zéro. [Découvrir comment créer un fragment](#create-from-scratch)
+1. Apportez les modifications souhaitées au fragment.
+
+1. Pour modifier le contenu, cliquez sur le bouton **[!UICONTROL Modifier]** et mettez à jour votre contenu comme vous le feriez lors de la création d’un fragment à partir de zéro. [Découvrir comment créer un fragment](#create-from-scratch)
+
+   ![](assets/fragment-edit.png)
 
    >[!NOTE]
    >
    >Lors de la modification d’un fragment publié, vous pouvez supprimer n’importe quel champ de personnalisation, mais vous ne pouvez pas en ajouter de nouveaux au contenu du fragment. Si vous souhaitez ajouter des attributs personnalisés, vous devez dupliquer le fragment. [En savoir plus](#adding-new-attributes)
 
-1. Vous pouvez également vérifier la liste des parcours, campagnes et modèles de contenu dans lesquels le fragment est actuellement utilisé en sélectionnant l’option **Explorer les références**. [En savoir plus](#explore-references)
-
-   ![](assets/fragment-edit.png)
-
-1. Une fois vos modifications prêtes, cliquez sur le bouton **Publier** pour rendre vos modifications actives.
+1. Une fois vos modifications prêtes, enregistrez-les et cliquez sur le bouton **Publish** pour les activer.
 
 Lorsque vous modifiez un fragment, les modifications sont automatiquement propagées à tout le contenu utilisant ce fragment, y compris les parcours et campagnes en direct, à l’exception du contenu pour lequel vous avez rompu l’héritage du fragment d’origine.
 
@@ -113,17 +117,19 @@ Lorsque vous modifiez un fragment, les modifications sont automatiquement propag
 
 >[!WARNING]
 >
->L’ajout de nouveaux attributs à un fragment actif n’est pas pris en charge.
+>L’ajout de nouveaux [attributs personnalisés](../personalization/personalization-build-expressions.md) à un fragment actif n’est pas pris en charge.
 
 Une fois qu’un fragment est publié, l’ensemble des attributs personnalisés ou contextuels est verrouillé pour toutes les campagnes et tous les parcours qui y font référence.
 
 Pour incorporer des attributs supplémentaires à un fragment actif, procédez comme suit.
 
-1. Dupliquez le fragment existant.
+1. Dupliquez le fragment existant à l’aide du bouton **[!UICONTROL Autres actions]**.
 
-1. Ajoutez les attributs requis au brouillon dupliqué.
+   ![](assets/fragment-list-more-actions.png)
 
-1. Publish la nouvelle version.
+1. [Ajoutez les nouveaux attributs souhaités](../personalization/personalization-build-expressions.md#add) à la version brouillon dupliquée.
+
+1. Publish la nouvelle version. [Voici comment procéder](create-fragments.md#publish)
 
 1. Mettez à jour les campagnes ou les parcours pour référencer le fragment mis à jour où les nouveaux attributs ont été ajoutés.
 
