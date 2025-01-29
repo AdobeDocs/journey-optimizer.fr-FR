@@ -6,10 +6,10 @@ topic: Integrations
 role: User, Data Engineer
 level: Intermediate
 exl-id: f30abea1-b204-4470-9836-75fae916bbb1
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: 91584f394d956df4b69a885feacc40435360dae3
 workflow-type: tm+mt
-source-wordcount: '83'
-ht-degree: 100%
+source-wordcount: '114'
+ht-degree: 72%
 
 ---
 
@@ -25,6 +25,10 @@ L&#39;export crée un jeu de données pour chaque objet de votre bibliothèque d
 * Décisions
 
 Chaque fois que l’un de ces objets est modifié dans la bibliothèque des offres, un nouveau traitement d’exportation est automatiquement exécuté afin de mettre à jour les jeux de données.
+
+>[!NOTE]
+>
+>Cette fonctionnalité est activée par défaut. Vous pouvez commencer à l’utiliser sans étapes d’activation supplémentaires. Une fois activées, les tâches d’exportation seront automatisées et ne nécessiteront aucune action de votre part.
 
 <!--
 >[!NOTE]
