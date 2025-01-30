@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: da3ffe9c-a244-4246-b4b5-a3a1d0508676
-source-git-commit: 5951428b9317af9c1e40fac64f0d18c6c80c15b0
+source-git-commit: 69aa2eb79ac5a86c8cc5e27951d3b4edd2a5d8bf
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '626'
+ht-degree: 87%
 
 ---
 
@@ -47,7 +47,7 @@ Pour créer un fragment, suivez les étapes présentées ci-dessous.
 
 1. Sélectionnez ou créez des balises Adobe Experience Platform à partir du champ **[!UICONTROL Balises]** pour classer votre fragment en vue d’une recherche améliorée. [Découvrir comment utiliser les balises unifiées](../start/search-filter-categorize.md#tags)
 
-1. Sélectionnez le type de fragment : **Fragment visuel** ou **Fragment d’expression**. [En savoir plus sur les fragments visuels et d’expression](../content-management/fragments.md#visual-expression)
+1. Sélectionnez le type de fragment : **Fragment visuel** ou **Fragment d’expression**. [En savoir plus](../content-management/fragments.md#visual-expression)
 
    >[!NOTE]
    >
