@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 1fc708e1-a993-4a2a-809c-c5dc08a4bae1
-source-git-commit: fd9cea04711dcf57afb0d44ade7a1643e4649b46
+source-git-commit: 730e3da767ba54973ea886057262fe0210b46dd2
 workflow-type: tm+mt
-source-wordcount: '1146'
+source-wordcount: '1148'
 ht-degree: 56%
 
 ---
@@ -38,7 +38,7 @@ Vous pouvez choisir d’afficher tous les fragments ou uniquement les éléments
 Cliquez sur le bouton **[!UICONTROL Plus d’actions]** en regard de chaque fragment pour effectuer les opérations suivantes :
 
 * Ajoutez-le à un package pour l’exportation. [En savoir plus](#export)
-* Si le fragment est actif, ouvrez un brouillon pour le modifier. [En savoir plus](#edit-fragments)
+* Si un fragment actif est en cours de modification, ouvrez le brouillon de ce fragment. [En savoir plus](#edit-fragments)
 * Dupliquez le fragment.
 * Utilisez l’option **[!UICONTROL Explorer les références]** pour afficher les parcours, les campagnes ou les modèles dans lesquels ils sont utilisés. [En savoir plus](#explore-references).
 * Archivez le fragment. [En savoir plus](#archive-fragments)

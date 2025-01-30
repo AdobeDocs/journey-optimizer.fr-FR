@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: da3ffe9c-a244-4246-b4b5-a3a1d0508676
-source-git-commit: c30b7f4d75222db0553fbf576b90791af58cda57
+source-git-commit: 730e3da767ba54973ea886057262fe0210b46dd2
 workflow-type: tm+mt
-source-wordcount: '637'
-ht-degree: 87%
+source-wordcount: '639'
+ht-degree: 82%
 
 ---
 
@@ -83,7 +83,7 @@ Si votre fragment est prêt à être lancé, vous pouvez le prévisualiser et le
 
 1. Revenez à l’écran de création de fragment après avoir conçu son contenu ou ouvrez-le depuis la liste des fragments.
 
-1. Une prévisualisation du fragment est disponible sous le champ **[!UICONTROL Balises]**, permettant de vérifier son rendu. Si vous devez apporter des modifications, cliquez sur le bouton **[!UICONTROL Modifier]** dans la section supérieure de l’écran pour ouvrir le concepteur d’e-mail ou l’éditeur de personnalisation en fonction du type de fragment.
+1. Une prévisualisation du fragment est disponible sous le champ **[!UICONTROL Balises]**, permettant de vérifier son rendu. Si vous devez apporter des modifications, cliquez sur le bouton **[!UICONTROL Modifier]** dans la section supérieure de l’écran pour ouvrir le Designer d’e-mail ou l’éditeur de personnalisation, selon le type de fragment. [En savoir plus](manage-fragments.md#edit-fragments)
 
    ![](assets/fragment-preview.png)
 
