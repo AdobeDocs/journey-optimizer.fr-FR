@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: a8b49bf278b26a31b0da9532fb07f211f397119e
+source-git-commit: 35dde8b905cf4c37c0c1b5f6b8a84f41821eb240
 workflow-type: tm+mt
 source-wordcount: '2361'
-ht-degree: 99%
+ht-degree: 98%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 99%
 
 Les droits, les limitations de produit et la sécurisation des performances sont répertoriés dans la [page de description du produit Adobe Journey Optimizer](https://helpx.adobe.com/fr/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}.
 
-Vous devez également connaître les [mécanismes de sécurisation pour les données du profil client en temps réel avant de commencer](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=fr){target="_blank"}.
+Vous devez également connaître les [mécanismes de sécurisation pour les données du profil client en temps réel](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=fr){target="_blank"} avant de commencer.
 
 Vous trouverez ci-dessous des mécanismes de sécurisation et des limitations supplémentaires lors de l’utilisation d’[!DNL Adobe Journey Optimizer].
 
