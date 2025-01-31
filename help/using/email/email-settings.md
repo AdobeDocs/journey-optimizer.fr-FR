@@ -10,9 +10,9 @@ level: Experienced
 keywords: paramètres, e-mail, configuration
 exl-id: 13536962-7541-4eb6-9ccb-4f97e167734a
 source-git-commit: dfe59dc0533fca394ee197193ad4558568c4c11c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2854'
-ht-degree: 86%
+ht-degree: 100%
 
 ---
 
@@ -86,7 +86,7 @@ Une fois qu’un groupe d’adresses IP a été sélectionné, les informations 
 >[!CONTEXTUALHELP]
 >id="ajo_email_config_unsubscribe_custom"
 >title="Saisir des points d’entrée List-Unsubscribe personnalisés"
->abstract="Si vous gérez le consentement en dehors d’Adobe, sélectionnez l’option **Gestion des clients** pour saisir une adresse e-mail de désabonnement personnalisée et votre propre URL de désabonnement en un clic. Dans ce cas, sachez que l’Adobe ne stocke aucune information de désabonnement. Le propriétaire des informations de consentement de vos clients est chargé de gérer leurs données de consentement et de les renvoyer à Journey Optimizer."
+>abstract="Si vous gérez le consentement en dehors d’Adobe, sélectionnez l’option **Géré par le client ou la cliente** pour saisir une adresse e-mail de désabonnement personnalisée et votre propre URL de désabonnement en un clic. Dans ce cas, sachez qu’Adobe ne stocke aucune information de désabonnement. Le ou la propriétaire des informations de consentement de votre clientèle se charge de gérer les données de consentement et de les renvoyer à Journey Optimizer."
 
 <!--Do not modify - Legal Review Done -->
 
@@ -129,7 +129,7 @@ Si vous ne souhaitez pas utiliser l’URL de désabonnement en un clic généré
 
 >[!NOTE]
 >
->Si vous n’ajoutez pas de lien d’opt-out en un clic dans le contenu de votre message et que la case par défaut **[!UICONTROL URL de désabonnement en un clic]** est décochée dans les paramètres de configuration du canal, aucune URL n’est transmise dans l’en-tête de l’e-mail dans le cadre de l’en-tête Désabonnement de la liste .
+>Si vous n’ajoutez pas de lien d’exclusion en un clic au contenu de votre message et que l’**[!UICONTROL URL de désabonnement en un clic]** par défaut est décochée dans les paramètres de configuration des canaux, aucune URL n’est transmise à l’en-tête de l’e-mail dans le cadre de l’en-tête de désabonnement de la liste.
 
 Pour plus d’informations sur la gestion des fonctionnalités de désabonnement dans vos messages, consultez [cette section](../email/email-opt-out.md#unsubscribe-header).
 
@@ -143,19 +143,19 @@ Dans la section **[!UICONTROL Paramètres d’en-tête]**, saisissez les noms de
 >
 >Pour un contrôle accru des paramètres d’e-mail, vous pouvez personnaliser les paramètres d’en-tête. [En savoir plus](../email/surface-personalization.md#personalize-header)
 
-* **[!UICONTROL Nom de l’expéditeur]** : le nom de l’expéditeur, tel que le nom de votre marque.
-* **[!UICONTROL Préfixe d’e-mail de l’expéditeur]** : adresse e-mail que vous souhaitez utiliser pour vos communications.
-* **[!UICONTROL Nom de la réponse au]** : nom qui sera utilisé lorsque le destinataire clique sur le bouton **Répondre** de son logiciel de messagerie.
-* **[!UICONTROL Répondre à l’e-mail]** : adresse e-mail qui sera utilisée lorsque le destinataire clique sur le bouton **Répondre** de son logiciel de messagerie. [En savoir plus](#reply-to-email)
-* **[!UICONTROL Préfixe des e-mails d&#39;erreur]** : toutes les erreurs générées par les FAI après quelques jours de diffusion de l&#39;e-mail (bounces asynchrones) sont reçues sur cette adresse. Les notifications d’absence du bureau et les réponses de défi sont également reçues à cette adresse.
+* **[!UICONTROL Nom de l’expéditeur ou de l’expéditrice]** : nom de l’expéditeur ou de l’expéditrice, tel que le nom de votre marque.
+* **[!UICONTROL Préfixe d’e-mail d’expéditeur]** : adresse e-mail à utiliser pour vos communications.
+* **[!UICONTROL Répondre à (nom)]** : nom qui est utilisé lorsque le ou la destinataire clique sur le bouton **Répondre** de son logiciel de messagerie.
+* **[!UICONTROL Répondre à (e-mail)]** : adresse e-mail qui est utilisée lorsque le ou la destinataire clique sur le bouton **Répondre** de son logiciel de messagerie. [En savoir plus](#reply-to-email)
+* **[!UICONTROL Préfixe d’e-mail d’erreur]** : toutes les erreurs générées par les FAI après quelques jours de diffusion de l’e-mail (rebonds asynchrones) sont reçues à cette adresse. Les notifications d’absence du bureau et les réponses de défi sont également reçues à cette adresse.
 
   Si vous souhaitez recevoir les notifications d’absence du bureau et demander des réponses de défi à une adresse e-mail spécifique qui n’est pas déléguée à Adobe, vous devez configurer un [processus de transfert](#forward-email). Dans ce cas, veillez à mettre en place une solution manuelle ou automatisée pour traiter les e-mails arrivant dans cette boîte de réception.
 
 >[!NOTE]
 >
->Les adresses **[!UICONTROL Préfixe d’e-mail de l’expéditeur]** et **[!UICONTROL Préfixe d’e-mail d’erreur]** utilisent le [sous-domaine délégué](../configuration/about-subdomain-delegation.md) actuellement sélectionné pour envoyer l’e-mail. Par exemple, si le sous-domaine délégué est *marketing.luma.com* :
->* Saisissez *contact* comme préfixe d’e-mail **[!UICONTROL De]** - l’e-mail de l’expéditeur est *contact@marketing.luma.com*.
->* Saisissez *error* comme **[!UICONTROL préfixe d’e-mail d’erreur]** - l’adresse d’erreur est *error@marketing.luma.com*.
+>Les adresses **[!UICONTROL Préfixe d’e-mail d’expéditeur]** et **[!UICONTROL Préfixe d’e-mail d’erreur]** utilisent le [sous-domaine délégué](../configuration/about-subdomain-delegation.md) actuellement sélectionné pour envoyer l’e-mail. Par exemple, si le sous-domaine délégué est *marketing.luma.com* :
+>* Saisissez *contact* comme **[!UICONTROL Préfixe d’e-mail d’expéditeur]** : l’e-mail de l’expéditeur est *contact@marketing.luma.com*.
+>* Saisissez *erreur* comme **[!UICONTROL préfixe d’e-mail d’erreur]** : l’adresse d’erreur est *error@marketing.luma.com*.
 
 
 ![](assets/preset-header.png){width="80%"}
@@ -166,9 +166,9 @@ Dans la section **[!UICONTROL Paramètres d’en-tête]**, saisissez les noms de
 
 ### Adresse e-mail de réponse {#reply-to-email}
 
-Lors de la définition de l’adresse **[!UICONTROL Répondre à un e-mail]**, vous pouvez indiquer toute adresse e-mail à condition qu’il s’agisse d’une adresse valide, au format approprié et sans erreur de frappe.
+Lors de la définition de l’adresse **[!UICONTROL Répondre à (e-mail)]**, vous pouvez indiquer toute adresse e-mail à condition qu’il s’agisse d’une adresse valide, au format approprié et sans erreur de frappe.
 
-La boîte de réception utilisée pour les réponses recevra tous les e-mails de réponse, à l’exception des notifications d’absence du bureau et des réponses de défi, qui sont reçues sur l’adresse **E-mail d’erreur**.
+La boîte de réception utilisée pour les réponses recevra tous les e-mails de réponse, à l’exception des notifications d’absence du bureau et des réponses de défi, qui sont reçues à l’adresse **E-mail d’erreur**.
 
 Pour assurer une bonne gestion des réponses, procédez comme suit :
 
@@ -178,7 +178,7 @@ Pour assurer une bonne gestion des réponses, procédez comme suit :
 
 * Ne marquez pas les messages comme spam dans la boîte de réception de réponse, car cela aura un impact sur tous les autres e-mails envoyés à cette adresse.
 
-En outre, lors de la définition de l’adresse **[!UICONTROL Répondre à un e-mail]**, veillez à utiliser un sous-domaine possédant une configuration d’enregistrement MX valide, sinon le traitement de la configuration du courrier électronique échouera.
+En outre, lors de la définition de l’adresse **[!UICONTROL Répondre à (e-mail)]**, veillez à utiliser un sous-domaine possédant une configuration d’enregistrement MX valide, sinon le traitement de la configuration du canal e-mail échouera.
 
 Si vous obtenez une erreur lors de l’envoi de la configuration du canal e-mail, cela signifie que l’enregistrement MX n’est pas configuré pour le sous-domaine de l’adresse que vous avez saisie. Contactez votre administrateur ou administratrice pour configurer l’enregistrement MX correspondant ou utilisez une autre adresse avec une configuration d’enregistrement MX valide.
 
@@ -192,7 +192,7 @@ Pour transférer vers une adresse e-mail spécifique tous les e-mails reçus par
 
 >[!NOTE]
 >
->Si le sous-domaine utilisé pour l’adresse **[!UICONTROL Répondre à l’e-mail]** n’est pas délégué à l’Adobe, le transfert ne peut pas fonctionner pour cette adresse.
+>Si le sous-domaine utilisé pour l’adresse **[!UICONTROL Répondre à (e-mail)]** n’est pas délégué à Adobe, le transfert ne peut pas fonctionner pour cette adresse.
 
 Vous devrez fournir les éléments suivants :
 
@@ -207,11 +207,11 @@ Vous devrez fournir les éléments suivants :
 
 L’adresse e-mail de transfert sera configurée par Adobe. Cela peut prendre 3 à 4 jours.
 
-Une fois cette opération terminée, tous les messages reçus sur les adresses e-mail **[!UICONTROL Répondre à l’e-mail]** et **E-mail d’erreur**, ainsi que tous les e-mails envoyés à l’adresse e-mail **De** sont transférés à l’adresse e-mail spécifique que vous avez fournie.
+Une fois cette opération terminée, tous les messages reçus aux adresses **[!UICONTROL Répondre à (e-mail)]** et **E-mail d’erreur**, ainsi que tous les e-mails envoyés à l’adresse **E-mail d’expéditeur**, sont transférés à l’adresse e-mail spécifique que vous avez fournie.
 
 >[!NOTE]
 >
->Par défaut, si le transfert n’est pas activé, les e-mails envoyés directement à l’adresse **E-mail de l’expéditeur** sont ignorés.
+>Par défaut, si le transfert n’est pas activé, les e-mails envoyés directement à l’adresse **E-mail d’expéditeur** sont ignorés.
 
 ## E-mail Cci {#bcc-email}
 

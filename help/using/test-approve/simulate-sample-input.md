@@ -10,9 +10,9 @@ level: Intermediate
 badge: label="Version bêta"
 exl-id: 8462c75e-4f4b-4c4f-8734-19efbbc70c7a
 source-git-commit: e6e7890d2ff1fc91155da14e1e6c1cde01f25447
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '933'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 93%
 >
 >Cette fonctionnalité est actuellement disponible en version bêta publique pour l’ensemble des clientes et des clients.
 
-Journey Optimizer vous permet de tester différentes variantes de votre contenu en le prévisualisant et en envoyant des BAT à l’aide d’exemples de données d’entrée chargées à partir d’un fichier CSV ou JSON ou ajoutées manuellement. Tous les attributs de profil utilisés dans votre contenu pour la personnalisation sont automatiquement détectés par le système et peuvent être utilisés pour que vos tests créent plusieurs variantes. Une variante fait référence à une version du contenu avec différentes valeurs pour ses attributs.
+Journey Optimizer vous permet de tester différentes variantes de votre contenu en le prévisualisant et en envoyant des BAT à l’aide d’exemples de données d’entrée chargées à partir d’un fichier CSV ou JSON ou ajoutées manuellement. Tous les attributs de profil utilisés dans votre contenu pour la personnalisation sont automatiquement détectés par le système et peuvent être utilisés pour vos tests afin de créer plusieurs variantes. Une variante fait référence à une version du contenu dont les attributs ont des valeurs différentes.
 
 >[!NOTE]
 >
@@ -111,9 +111,9 @@ Pour ajouter manuellement une variante, procédez comme suit :
 
 Pour prévisualiser votre contenu à l’aide de l’une des variantes, cochez la case correspondante afin de mettre à jour la prévisualisation du contenu dans la section de droite avec les informations renseignées pour cette variante.
 
-Dans l’exemple ci-dessous, nous avons ajouté deux variantes pour l’objet de l’e-mail :
+Dans l’exemple ci-dessous, nous avons ajouté deux variantes pour l’objet de l’e-mail :
 
-| Sélection de la variante 1 | Sélection de la variante 2 |
+| Sélection de la variante 1 | Sélection de la variante 2 |
 |----------|-------------|
 | ![](assets/simulate-custom-boxes.png) | ![](assets/simulate-custom-boxes2.png) |
 

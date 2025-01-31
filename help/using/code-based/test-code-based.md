@@ -7,9 +7,9 @@ role: User
 level: Experienced
 exl-id: 9a1c148c-a6c3-406b-8f2e-1cf8b8239e75
 source-git-commit: c402a8ab41eb588eae47463fd0217693853d8ca7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '707'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -100,9 +100,9 @@ Lors de la création d’expériences basées sur du code pour des pages web ou 
 
    ![](assets/preview-on-device-other.png)
 
-   * Sélectionnez le bouton **[!UICONTROL Copier le lien]** pour coller le lien dans un onglet du navigateur ou partager le lien avec votre équipe et les parties prenantes.
+   * Sélectionnez le bouton **[!UICONTROL Copier le lien]** pour coller le lien dans un onglet du navigateur ou le partager avec votre équipe et les parties prenantes.
 
-   * Si vous avez ajouté plusieurs URI à votre configuration (jusqu’à 10), vous pouvez sélectionner n’importe lequel pour l’aperçu.
+   * Si vous avez ajouté plusieurs URI à votre configuration (jusqu’à 10), vous pouvez sélectionner n’importe lequel pour la prévisualisation.
 
 1. Les liens de prévisualisation sont générés pour le profil de test sélectionné et, si vous utilisez [Expérience de contenu](../content-management/content-experiment.md) dans votre parcours ou campagne, pour le traitement sélectionné.
 

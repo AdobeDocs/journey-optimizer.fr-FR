@@ -8,9 +8,9 @@ level: Experienced
 keyword: direct, mail, configuration, direct-mail, provider
 exl-id: ae5cc885-ade1-4683-b97e-eda1f2142041
 source-git-commit: 88f8a5e3e7314992cdb5835b9676b78127f20960
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1411'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -126,7 +126,7 @@ Pour configurer le routage des fichiers, suivez les étapes ci-dessous.
 
    >[!NOTE]
    >
-   >Pour spécifier un chemin d’accès sur le serveur pour l’enregistrement du fichier, mettez à jour le champ **[!UICONTROL Nom de fichier]** de la campagne de publipostage direct afin d’inclure le chemin d’accès souhaité. [En savoir plus](create-direct-mail.md#extraction-file)
+   >Pour spécifier un chemin d’accès sur le serveur afin d’enregistrer le fichier, mettez à jour le **[!UICONTROL nom de fichier]** de la campagne de publipostage direct afin d’inclure le chemin d’accès souhaité. [En savoir plus](create-direct-mail.md#extraction-file)
 
 1. Pour chiffrer le fichier, copiez-collez votre clé de chiffrement dans le champ **[!UICONTROL Clé de chiffrement PGP/GPG]**.
 
@@ -156,7 +156,7 @@ Pour configurer le routage des fichiers, suivez les étapes ci-dessous.
 
    * **Nom du conteneur** : pour rechercher votre **nom du conteneur**, consultez [cette page](https://learn.microsoft.com/fr-fr/azure/storage/blobs/blob-containers-portal).
 
-     Le **nom du conteneur** doit contenir uniquement le nom du conteneur sans aucune barre oblique. Pour spécifier un chemin d’accès dans le conteneur pour l’enregistrement du fichier, mettez à jour le champ **[!UICONTROL Nom de fichier]** de la campagne de publipostage direct afin d’inclure le chemin d’accès souhaité. [En savoir plus](create-direct-mail.md#extraction-file)
+     Le **nom du conteneur** doit contenir uniquement le nom du conteneur sans aucune barre oblique. Pour spécifier un chemin d’accès dans le conteneur afin d’enregistrer le fichier, mettez à jour le **[!UICONTROL nom de fichier]** de la campagne de publipostage direct afin d’inclure le chemin d’accès souhaité. [En savoir plus](create-direct-mail.md#extraction-file)
 
 1. Pour chiffrer le fichier, copiez-collez votre clé de chiffrement dans le champ **[!UICONTROL Clé de chiffrement PGP/GPG]**.
 

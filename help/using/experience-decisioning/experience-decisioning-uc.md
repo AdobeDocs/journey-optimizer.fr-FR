@@ -9,9 +9,9 @@ hide: true
 hidefromtoc: true
 exl-id: 09770df2-c514-4217-a71b-e31c248df543
 source-git-commit: bb66785f0b699d0ccf6cced035e64f206b104293
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '817'
-ht-degree: 85%
+ht-degree: 100%
 
 ---
 
@@ -19,10 +19,10 @@ ht-degree: 85%
 
 Ce cas pratique présente toutes les étapes nécessaires pour utiliser les décisions avec le canal basé sur le code [!DNL Journey Optimizer].
 
-Dans cet exemple, vous ne savez pas si une formule de classement spécifique sera plus performante que les priorités d’offre préaffectées. Pour mesurer celui qui fonctionne le mieux pour votre audience cible, vous créez une campagne à l’aide de [Expérience de contenu](../content-management/content-experiment.md) où vous définissez deux traitements de diffusion :
+Dans cet exemple, vous ne savez pas si une formule de classement spécifique sera plus performante que les priorités d’offre préaffectées. Pour mesurer celle qui fonctionne le mieux pour votre audience cible, créez une campagne à l’aide de l’[Expérience de contenu](../content-management/content-experiment.md), dans laquelle vous définissez deux traitements de diffusion :
 
-* Le premier traitement utilise **priorité** comme méthode de classement.
-* Le deuxième traitement utilise **une formule** comme méthode de classement.
+* Le premier traitement utilise la **priorité** comme méthode de classement.
+* Le deuxième traitement utilise une **formule** comme méthode de classement.
 
 ## Créer des stratégies de sélection
 
@@ -120,7 +120,7 @@ Une fois que vous avez configuré les deux stratégies de sélection, créez un
    >
    >Vous pouvez également sélectionner **[!UICONTROL Élément de décision]** pour ajouter des éléments uniques sans avoir à exécuter une stratégie de sélection. La priorité définie pour chaque élément s’applique.
 
-1. Sélectionnez la première stratégie que vous avez créée, celle dont la méthode de classement est Priorité .
+1. Sélectionnez la première stratégie que vous avez créée, dont la méthode de classement est Priorité.
 
    ![](assets/exd-uc-experiment-strategy-priority.png){width="90%"}
 
@@ -136,17 +136,17 @@ Une fois que vous avez configuré les deux stratégies de sélection, créez un
 
    ![](assets/exd-uc-experiment-treatment-b.png){width="90%"}
 
-1. Répétez les étapes 5 et 6 ci-dessus pour créer une autre politique de décision et sélectionnez la deuxième stratégie de sélection que vous avez créée, celle avec la formule comme méthode de classement. <!--Do you need to create exactly the same content to compare only the ranking method?-->
+1. Répétez les étapes 5 et 6 ci-dessus pour créer une autre politique de décision et sélectionnez la deuxième stratégie de sélection que vous avez créée, dont la méthode de classement est Formule. <!--Do you need to create exactly the same content to compare only the ranking method?-->
 
    ![](assets/exd-uc-experiment-strategy-formula.png){width="90%"}
 
-1. Modifiez votre politique de décision selon vos besoins (voir les étapes 8 et 9 ci-dessus).
+1. Modifiez votre politique de décision selon vos besoins (voir les étapes 8 et 9 ci-dessus).
 
 1. Enregistrez vos modifications et [publiez votre campagne d’expérience basée sur le code](../code-based/publish-code-based.md).
 
 Après avoir exécuté l’expérience, suivez les performances de vos traitements de campagne avec le [rapport de campagne d’expérimentation](../reports/campaign-global-report-cja-experimentation.md).<!-- and [report on decisioning](cja-reporting.md).--> Vous pouvez ensuite interpréter les résultats de votre expérience. [Voici comment procéder](../content-management/get-started-experiment.md#interpret-results)
 
-Si le résultat est concluant :
+Si le résultat est concluant :
 
-* Vous pouvez envoyer le traitement avec le classement le plus performant à tous vos clients.
+* Vous pouvez envoyer le traitement avec le classement le plus performant à l’ensemble de votre clientèle.
 * Vous pouvez également créer une campagne à l’aide de la stratégie de sélection dans laquelle la méthode de classement la plus performante est répliquée.
