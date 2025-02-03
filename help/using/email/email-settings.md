@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: paramètres, e-mail, configuration
 exl-id: 13536962-7541-4eb6-9ccb-4f97e167734a
-source-git-commit: dfe59dc0533fca394ee197193ad4558568c4c11c
-workflow-type: ht
-source-wordcount: '2854'
-ht-degree: 100%
+source-git-commit: a1bdbc741a96325d71562b8f5ce5279096689cf0
+workflow-type: tm+mt
+source-wordcount: '2834'
+ht-degree: 98%
 
 ---
 
@@ -85,8 +85,8 @@ Une fois qu’un groupe d’adresses IP a été sélectionné, les informations 
 
 >[!CONTEXTUALHELP]
 >id="ajo_email_config_unsubscribe_custom"
->title="Saisir des points d’entrée List-Unsubscribe personnalisés"
->abstract="Si vous gérez le consentement en dehors d’Adobe, sélectionnez l’option **Géré par le client ou la cliente** pour saisir une adresse e-mail de désabonnement personnalisée et votre propre URL de désabonnement en un clic. Dans ce cas, sachez qu’Adobe ne stocke aucune information de désabonnement. Le ou la propriétaire des informations de consentement de votre clientèle se charge de gérer les données de consentement et de les renvoyer à Journey Optimizer."
+>title="Définir comment les données de désabonnement sont gérées"
+>abstract="**Adobe géré** : les données de consentement sont gérées par vous dans le système d’Adobe.<br>**Gestion par le client** : les données de consentement sont gérées par vous dans un système externe et aucune synchronisation des données de consentement n’est mise à jour dans le système d’Adobe, sauf si vous en êtes l’initiateur."
 
 <!--Do not modify - Legal Review Done -->
 
