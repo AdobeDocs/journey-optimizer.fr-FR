@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 2d118f5a-32ee-407c-9513-fe0ebe3ce8f0
-source-git-commit: 5a64190203563d66309c897fe3ee806a74e8bfc9
+source-git-commit: 50687bad19e4866ace1e3e94f3efcdad84e98c96
 workflow-type: tm+mt
-source-wordcount: '320'
-ht-degree: 100%
+source-wordcount: '378'
+ht-degree: 76%
 
 ---
 
@@ -20,6 +20,25 @@ Dans la prise de décision, les catalogues servent de conteneurs centraux pour o
 Pour l’instant, tous les éléments de décision créés sont consolidés dans un seul catalogue « Offres », accessible via le menu **[!UICONTROL Catalogues]**.
 
 ![](assets/catalogs-list.png)
+
+## Mécanismes de sécurisation et limitations
+
+Pour garantir des performances et une cohérence optimales, Decisioning applique les mécanismes de sécurisation et limitations suivantes :
+
+* **Types de données pris en charge**
+
+  Pour l’instant, Decisioning prend exclusivement en charge les types de données suivants : chaîne, entier, booléen, date, date et heure, ressource de prise de décision et objet. Aucun champ ne se trouvant dans ces types de données ne pourra pas être utilisé lors de la création d’un élément de décision ou d’un catalogue.
+
+
+* **Limite d’attributs personnalisés**
+
+  Chaque élément de décision peut inclure jusqu’à 100 attributs personnalisés.
+
+* **Restrictions d’imbrication**
+
+  Un maximum de quatre niveaux d’imbrication est pris en charge. Les images ne sont pas prises en charge au dernier niveau.
+
+## Accéder au schéma du catalogue et le modifier
 
 Pour accéder au schéma du catalogue où les attributs des éléments de décision sont stockés, procédez comme suit :
 
@@ -38,16 +57,14 @@ Pour accéder au schéma du catalogue où les attributs des éléments de décis
 
 1. Renseignez les champs nécessaires pour l’attribut ajouté et cliquez sur **[!UICONTROL Appliquer]**.
 
-   >[!CAUTION]
-   >
-   >Pour l’instant, la prise de décision prend exclusivement en charge les types de données suivants : chaîne, entier, booléen, date, DateHeure et ressource de prise de décision. Aucun champ ne se trouvant dans ces types de données ne pourra pas être utilisé lors de la création d’un élément de décision ou d’un catalogue.
-
    La valeur saisie sur un attribut avec l’attribut de ressource de prise de décision est une URL publique. La plupart du temps, cela pointe vers une image.
 
    Vous trouverez des informations détaillées sur l’utilisation des schémas Adobe Experience Platform dans la [Documentation du système XDM](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/overview.html?lang=fr).
 
 1. Une fois les attributs personnalisés souhaités ajoutés, enregistrez le schéma. Le nouveau champ est désormais disponible dans l’écran de création des éléments de décision, dans la section **[!UICONTROL Attributs personnalisés]**.
 
->[!NOTE]
->
->Un élément de décision peut inclure un maximum de 100 attributs personnalisés. [En savoir plus sur les mécanismes de sécurisation et sur les limitations de la prise de décision](gs-experience-decisioning.md#guardrails)
+
+   L’exemple ci-dessous montre un écran de création d’élément avec des attributs personnalisés tels que des objets définis dans le schéma.
+
+   ![](assets/custom-attributes.png)
+
