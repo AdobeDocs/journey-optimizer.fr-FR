@@ -7,14 +7,23 @@ feature: Reporting, Journeys
 topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: 47482adb84e05fe41eb1c50479a8b50e00469ec4
-workflow-type: ht
-source-wordcount: '955'
-ht-degree: 100%
+exl-id: 82558447-9d42-4fac-8fc1-fded9bf4bfcc
+source-git-commit: 87a9baf1ee042bb4386fdc2bd631637e3cc9859e
+workflow-type: tm+mt
+source-wordcount: '1037'
+ht-degree: 92%
 
 ---
 
 # Rapport de parcours d’e-mail {#journey-global-report}
+
+>[!BEGINSHADEBOX]
+
+Depuis qu’Apple a introduit de nouvelles fonctionnalités de protection de la confidentialité pour son application Mail native, y compris la protection de la confidentialité dans Mail, les expéditeurs ne sont plus en mesure d’utiliser les pixels de tracking pour collecter des données sur les profils qui ont activé la protection de la confidentialité dans Mail d’Apple. Par conséquent, la capacité de Adobe Journey Optimizer à suivre les ouvertures d’e-mail à l’aide de pixels de suivi peut être affectée. [En savoir plus](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-classic-blogs/the-impact-of-apple-ios-privacy-changes-on-email-marketing-and/ba-p/699780) sur l’impact des modifications apportées à la confidentialité d’Apple iOS sur le marketing par e-mail.
+
+Nous vous recommandons de vous concentrer sur les clics et les mesures de conversion plutôt que sur les taux d’ouverture pour obtenir des informations plus précises.
+
+>[!ENDSHADEBOX]
 
 ## Tendance diffusés et clics {#delivered-click}
 
