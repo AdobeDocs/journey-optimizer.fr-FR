@@ -9,10 +9,10 @@ role: Data Engineer, Data Architect, Admin
 level: Intermediate, Experienced
 keywords: externe, sources, données, configuration, connexion, tiers
 exl-id: f3cdc01a-9f1c-498b-b330-1feb1ba358af
-source-git-commit: 428e08ca712724cb0b3453681bee1c7e86ce49dc
+source-git-commit: 0dc8f4700a9ffe9073aecfda1b3ad31e0d30610e
 workflow-type: tm+mt
-source-wordcount: '1535'
-ht-degree: 100%
+source-wordcount: '1593'
+ht-degree: 89%
 
 ---
 
@@ -23,15 +23,15 @@ ht-degree: 100%
 >title="Sources de données externes"
 >abstract="Les sources de données externes vous permettent de définir une connexion à des systèmes tiers ; par exemple, si vous utilisez un système de réservation d’hôtels pour vérifier si la personne a réservé une chambre. Contrairement à la source de données Adobe Experience Platform intégrée, vous pouvez créer autant de sources de données externes que nécessaire."
 
+## Utiliser des sources de données externes {#gs-ext-data-sources}
+
 Les sources de données externes vous permettent de définir une connexion à des systèmes tiers ; par exemple, si vous utilisez un système de réservation d’hôtels pour vérifier si la personne a réservé une chambre. Contrairement à la source de données Adobe Experience Platform intégrée, vous pouvez créer autant de sources de données externes que nécessaire.
 
 >[!NOTE]
 >
->Les mécanismes de sécurisation lorsque vous utilisez des systèmes externes sont répertoriés dans [cette page](../configuration/external-systems.md).
-
->[!NOTE]
+>* Les mécanismes de sécurisation lorsque vous utilisez des systèmes externes sont répertoriés dans [cette page](../configuration/external-systems.md).
 >
->Les réponses étant désormais prises en charge, vous devez utiliser des actions personnalisées au lieu de sources de données pour les cas d’utilisation de sources de données externes. Pour plus d’informations sur les réponses, voir [cette section](../action/action-response.md)
+>* Les réponses étant désormais prises en charge, vous devez utiliser des actions personnalisées au lieu de sources de données pour les cas d’utilisation de sources de données externes. Pour plus d’informations sur les réponses, voir [cette section](../action/action-response.md)
 
 Les API REST utilisant POST ou GET et renvoyant JSON sont prises en charge. Les modes d’authentification par clé API, de base et personnalisée sont pris en charge.
 
@@ -44,7 +44,10 @@ Voici deux exemples d’appel API :
 
 L’appel est composé d’une URL principale (_https://api.adobeweather.org/weather_), de deux jeux de paramètres (« city » pour la ville et « lat/long » pour la latitude et la longitude) et la clé API (appid).
 
-Les principales étapes de création et de configuration d’une source de données externe sont les suivantes :
+
+## Créer et configurer une source de données externe {#create-ext-data-sources}
+
+Vous trouverez ci-dessous les étapes principales pour créer et configurer une nouvelle source de données externe :
 
 1. Dans la liste des sources de données, cliquez sur **[!UICONTROL Créer une source de données]** pour créer une source de données externe.
 
@@ -75,9 +78,12 @@ Les principales étapes de création et de configuration d’une source de donn�
 
    >[!NOTE]
    >
-   >Lorsque l’appel d’authentification est effectué, la chaîne `<username>:<password>`, codée en base64, est ajoutée dans l’en-tête Authentification.
+   >* Lorsque l’appel d’authentification est effectué, la chaîne `<username>:<password>`, codée en base64, est ajoutée dans l’en-tête Authentification.
+   >
+   >* Adobe Journey Optimizer chiffre automatiquement les secrets définis dans les actions personnalisées. Les clés de chiffrement de chaque organisation sont gérées en toute sécurité dans un coffre dédié lié à leur organisation. Lorsque les informations d’identification s’affichent dans l’interface, elles sont masquées par défaut afin d’éviter toute exposition accidentelle.
 
-   Pour plus d’informations sur le mode d’authentification personnalisée, reportez-vous à [cette section](../datasource/external-data-sources.md#custom-authentication-mode). Dans notre exemple, nous choisissons le mode d’authentification de clé API :
+
+   Pour plus d’informations sur le mode d’authentification personnalisée, consultez [cette section](../datasource/external-data-sources.md#custom-authentication-mode). Dans notre exemple, nous choisissons le mode d’authentification par clé API, comme ci-dessous :
 
    * **[!UICONTROL Type]** : « clé API »
    * **[!UICONTROL Nom]** : « appid » (il s’agit du nom du paramètre de la clé API)
@@ -108,28 +114,28 @@ Dans le cas d’une méthode GET nécessitant un ou plusieurs paramètres, vous 
 
 ![](assets/journey29.png)
 
-Cliquez sur **[!UICONTROL Enregistrer]**.
+1. Cliquez sur **[!UICONTROL Enregistrer]**.
 
 La source de données est maintenant configurée et prête à être utilisée dans vos parcours, par exemple dans vos conditions ou pour personnaliser un e-mail. Si la température est supérieure à 30 °C, vous pouvez choisir d’envoyer une communication spécifique.
 
-## Mode d’authentification personnalisé {#custom-authentication-mode}
+## Mode d’authentification personnalisé  {#custom-authentication-mode}
 
 >[!CONTEXTUALHELP]
 >id="jo_authentication_payload"
 >title="À propos de l’authentification personnalisée"
 >abstract="Le mode d’authentification personnalisée est utilisé pour l’authentification complexe afin d’appeler les protocoles d’encapsulage d’API tels qu’OAuth2. L’exécution de l’action est un processus en deux étapes. Tout d’abord, un appel au point d’entrée est effectué pour générer le jeton d’accès. Ensuite, le jeton d’accès est injecté dans la requête HTTP de l’action."
 
-Ce mode d’authentification est utilisé pour une authentification complexe, fréquemment utilisée pour appeler les protocoles d’encapsulage d’API tels qu’OAuth2, afin de récupérer un jeton d’accès à injecter dans la requête HTTP réelle de l’action.
+Le mode d’authentification personnalisé est utilisé pour une authentification complexe, fréquemment utilisée pour appeler les protocoles d’encapsulation des API tels qu’OAuth2, afin de récupérer un jeton d’accès à injecter dans la requête HTTP réelle pour l’action.
 
-Lorsque vous configurez l’authentification personnalisée, vous pouvez cliquer sur le bouton ci-dessous pour vérifier si le payload de l’authentification personnalisée est correctement configuré.
+Lorsque vous configurez l’authentification personnalisée, utilisez le bouton **[!UICONTROL Cliquer pour vérifier l’authentification]** pour contrôler si la payload de l’authentification personnalisée est correctement configurée.
 
 ![](assets/journey29-bis.png)
 
-Si le test est réussi, le bouton devient vert.
+Lorsque le test réussit, le bouton devient vert.
 
 ![](assets/journey29-ter.png)
 
-Avec cette authentification, l’exécution de l’action est un processus en deux étapes :
+Avec ce mode d’authentification, l’exécution de l’action est un processus en deux étapes :
 
 1. Appelez le point d’entrée pour générer le jeton d’accès.
 1. Appelez l’API REST en injectant correctement le jeton d’accès.
