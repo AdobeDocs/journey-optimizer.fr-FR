@@ -8,14 +8,20 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 7591a07b-1680-4081-a745-192755d35371
-source-git-commit: f5df65a0225754ab66fb2ffa33c5130f7137b644
+source-git-commit: 673e86ccd07c7afdf0b87859434145f16f7b7d26
 workflow-type: tm+mt
-source-wordcount: '520'
-ht-degree: 100%
+source-wordcount: '576'
+ht-degree: 90%
 
 ---
 
 # Rapport de parcours web {#journey-global-report}
+
+>[!BEGINSHADEBOX]
+
+Votre rapport de parcours peut afficher simultanément des informations provenant de plusieurs parcours, car les utilisateurs et utilisatrices peuvent être impliqués dans plusieurs parcours à la fois. Par conséquent, les communications entrantes (in-app, web et basées sur du code) peuvent apparaître dans plusieurs parcours si elles ont été déclenchées pour un utilisateur participant à des parcours actifs simultanés, ce qui peut entraîner un chevauchement des données.
+
+>[!ENDSHADEBOX]
 
 ## Tendance impressions et clics {#impressions-web}
 
