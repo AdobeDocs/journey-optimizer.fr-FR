@@ -9,10 +9,10 @@ level: Beginner
 hide: true
 hidefromtoc: true
 exl-id: 57d7c25f-7e39-46ad-85c1-65e2c18e2686
-source-git-commit: 3d0576983854b5cc33d8dc956c601b638164a813
+source-git-commit: 098fbf3bdc13cb916804c30a77b72944f0902046
 workflow-type: tm+mt
-source-wordcount: '405'
-ht-degree: 100%
+source-wordcount: '423'
+ht-degree: 85%
 
 ---
 
@@ -67,16 +67,9 @@ Après avoir créé et personnalisé vos [fragments de contenu AEM](https://exp
 
 1. Sélectionnez un **[!UICONTROL fragment de contenu]** dans la liste des éléments à importer dans votre contenu Journey Optimizer.
 
-   >[!IMPORTANT]
-   >
-   >Seuls les **[!UICONTROL fragments de contenu]** publiés peuvent être utilisés.
-
 1. Cliquez sur **[!UICONTROL Afficher les filtres]** pour affiner votre liste de fragments de contenu.
 
-   Le sélecteur de fragments de contenu comprend des filtres préconfigurés :
-
-   * **[!UICONTROL Statut]** : Publié, Modifié
-   * **[!UICONTROL Balise]** : définie automatiquement en fonction de votre environnement Journey Optimizer (identifiant d’organisation et sandbox)
+   Par défaut, le filtre Fragment de contenu est prédéfini pour afficher uniquement le contenu approuvé.
 
    ![](assets/aem_campaign_4.png)
 
@@ -84,7 +77,9 @@ Après avoir créé et personnalisé vos [fragments de contenu AEM](https://exp
 
    ![](assets/aem_campaign_5.png)
 
-1. Sélectionnez les champs de votre **[!UICONTROL fragment de contenu]** à ajouter à votre contenu.
+1. Sélectionnez les champs de votre **[!UICONTROL fragment de contenu]** à ajouter à votre contenu. Vous pouvez ajouter votre contenu ou copier sa valeur.
+
+   Notez que si vous choisissez de copier la valeur, les futures mises à jour du **[!UICONTROL fragment de contenu]** ne seront pas répercutées dans votre campagne ou votre parcours.
 
    ![](assets/aem_campaign_6.png)
 
