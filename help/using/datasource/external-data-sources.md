@@ -9,7 +9,7 @@ role: Data Engineer, Data Architect, Admin
 level: Intermediate, Experienced
 keywords: externe, sources, données, configuration, connexion, tiers
 exl-id: f3cdc01a-9f1c-498b-b330-1feb1ba358af
-source-git-commit: 0dc8f4700a9ffe9073aecfda1b3ad31e0d30610e
+source-git-commit: 3fae8e27dd043762ba4e5e2705300798298fc613
 workflow-type: tm+mt
 source-wordcount: '1593'
 ht-degree: 89%
@@ -90,7 +90,7 @@ Vous trouverez ci-dessous les étapes principales pour créer et configurer une 
    * **[!UICONTROL Valeur]** : « 1234 » (valeur de la clé API)
    * **[!UICONTROL Emplacement]** : « Paramètre de requête » (la clé API se trouve dans l’URL).
 
-   ![](assets/journey28.png)
+     ![](assets/journey28.png)
 
 1. Ajoutez un nouveau groupe de champs pour chaque jeu de paramètres API en cliquant sur **[!UICONTROL Ajouter un nouveau groupe de champs]**. Seuls les caractères alphanumériques et les traits de soulignement sont autorisés dans le nom du groupe de champs. La longueur maximale est de 30 caractères. Dans notre exemple, nous devons créer deux groupes de champs, un pour chaque jeu de paramètres (city et long/lat).
 
