@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: test, parcours, vérification, erreur, dépannage
 exl-id: 9937d9b5-df5e-4686-83ac-573c4eba983a
-source-git-commit: cc4ea97f858a212b82ac3b77328e61f59e3bfc27
+source-git-commit: fcad0d71b6de9ae7e21b201fb954e712b2028526
 workflow-type: tm+mt
-source-wordcount: '1536'
-ht-degree: 100%
+source-wordcount: '1644'
+ht-degree: 91%
 
 ---
 
@@ -61,8 +61,8 @@ Pour utiliser le mode test, procédez comme suit :
 
 ## Remarques importantes {#important_notes}
 
-* En mode test, vous pouvez déclencher des événements dans l’interface. Les événements ne peuvent pas être déclenchés à partir de systèmes externes à l’aide d’une API.
-* Seules les personnes identifiées comme « profils de test » dans le service de profil client en temps réel seront autorisées à entrer dans le parcours testé. Reportez-vous à cette [section](../audience/creating-test-profiles.md).
+* En mode test, vous pouvez uniquement déclencher des événements à l’aide de l’interface . Les événements ne peuvent pas être déclenchés à partir de systèmes externes à l’aide d’une API.
+* Seuls les individus indiqués comme « profils de test » dans le service de profil client en temps réel sont autorisés à rejoindre le parcours testé. Reportez-vous à cette [section](../audience/creating-test-profiles.md).
 * Le mode test n’est disponible que dans les parcours dans un état de brouillon qui utilisent un espace de noms. Le mode test doit vérifier si une personne qui participe au parcours est un profil de test ou non et doit donc être en mesure d’accéder à Adobe Experience Platform.
 * Le nombre maximal de profils de test pouvant entrer dans un parcours au cours d’une session de test est de 100.
 * Lorsque vous désactivez le mode test, les parcours sont vidés de toutes les personnes qui y sont entrées dans le passé ou qui s’y trouvent actuellement. Les rapports son également effacés.
@@ -71,6 +71,8 @@ Pour utiliser le mode test, procédez comme suit :
 * Lors qu&#39;un partage est atteint, la branche supérieure est toujours choisie. Vous pouvez réorganiser la position des branches partagées si vous souhaitez que le test choisisse un autre chemin.
 * Pour optimiser les performances et empêcher l’utilisation des ressources obsolètes, tous les parcours en mode test qui n’ont pas été déclenchés pendant une semaine repassent au statut **Brouillon**.
 * Les événements déclenchés par le mode test sont stockés dans des jeux de données dédiés. Ces jeux de données sont libellés comme suit : `JOtestmode - <schema of your event>`
+* Lors du test de parcours qui incluent plusieurs événements, vous devez déclencher chaque événement dans l’ordre. L’envoi d’un événement trop tôt (avant la fin du premier nœud d’attente) ou trop tard (après la temporisation configurée) ignore l’événement et envoie le profil vers un chemin de temporisation. Vérifiez toujours que les références aux champs de payload d&#39;événement restent valides en envoyant la payload dans la fenêtre définie
+
 
 <!--
 * Fields from related entities are hidden from the test mode.
@@ -87,9 +89,13 @@ Utilisez le bouton **[!UICONTROL Déclencher un événement]** pour configurer u
 
 >[!NOTE]
 >
->Lorsque vous déclenchez un événement en mode test, un événement réel est généré, ce qui signifie qu’il sera également utilisé pour un autre parcours qui écoute cet événement.
+>* Lorsque vous déclenchez un événement en mode test, un événement réel est généré, ce qui signifie qu’il sera également utilisé pour un autre parcours qui écoute cet événement.
+>
+>*Vérifiez que chaque événement en mode test est déclenché dans le bon ordre et dans la fenêtre d’attente configurée. Par exemple, en cas d’attente de 60 secondes, le deuxième événement ne doit être déclenché qu’après l’expiration de cette attente de 60 secondes et avant l’expiration du délai d’expiration.
+>
 
 Vous devez, au préalable, savoir quels profils sont identifiés comme profils de test dans Adobe Experience Platform. En effet, le mode test autorise uniquement ces profils dans le parcours et l’événement doit contenir un identifiant. L’identifiant attendu dépend de la configuration de l’événement. Il peut s’agir d’un ECID ou d’une adresse e-mail, par exemple. La valeur de cette clé doit être ajoutée dans le champ **Identifiant du profil**.
+
 
 Si votre parcours contient plusieurs événements, sélectionnez-les dans la liste déroulante. Ensuite, pour chaque événement, configurez les champs transmis et l&#39;exécution de l&#39;envoi de l’événement. L’interface vous permet de transmettre les informations appropriées dans le payload de l’événement et de vous assurer que le type d’information est correct. Le mode test enregistre les derniers paramètres utilisés dans une session de test en vue d’une utilisation ultérieure.
 
