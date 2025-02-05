@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: parcours, message, notification push, sms, e-mail, in-app, web, carte de contenu, expérience basée sur du code
 exl-id: 4db07a9e-c3dd-4873-8bd9-ac34c860694c
-source-git-commit: 47482adb84e05fe41eb1c50479a8b50e00469ec4
-workflow-type: ht
-source-wordcount: '1268'
-ht-degree: 100%
+source-git-commit: b6c2b6370c5a68937ebcafcbe70c4a240bc14536
+workflow-type: tm+mt
+source-wordcount: '1308'
+ht-degree: 95%
 
 ---
 
@@ -183,8 +183,11 @@ L’optimisation de l’heure d’envoi tente de prévoir le meilleur moment pou
 
 +++Où puis-je consulter l’heure d’envoi prévue pour chaque profil ?
 
-Vous pouvez voir le score global dans l’interface **Profils**. Pour chacun des trois ensembles de 168 scores, les classements vont de -83 à 84. Plus le classement est élevé, plus le moment choisi pour l’interaction avec le ou la destinataire est bon. Puisque vous pouvez définir le début et la durée d’un parcours, il est possible que le meilleur classement (84) ne tombe pas dans cette fenêtre temporelle. Dans ce cas, nous vous recommandons de choisir une heure ayant la valeur de classement la plus élevée.
+Les rangs dans toute « heure de la semaine » vont de -83 à 84, mais ils sont regroupés en une seule valeur pour éviter d’encombrer le profil avec 168 valeurs distinctes. Pour chacun des trois ensembles de 168 scores, les rangs passent de -83 à 84.
 
+La valeur est lue par l’algorithme d’optimisation. Cette valeur n’est pas conçue pour être lisible par un utilisateur.
+
+Plus le classement est élevé, plus le moment choisi pour l’interaction avec le ou la destinataire est bon. Puisque vous pouvez définir le début et la durée d’un parcours, il est possible que le meilleur classement (84) ne tombe pas dans cette fenêtre temporelle. Dans ce cas, nous vous recommandons de choisir une heure ayant la valeur de classement la plus élevée.
 +++
 
 
