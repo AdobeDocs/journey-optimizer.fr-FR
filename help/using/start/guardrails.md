@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: d108d449786d9c3aa3e95aefc1bca07292cd690d
+source-git-commit: ccb4cc944271fb197e7aee87f57b51c28cb3565f
 workflow-type: tm+mt
-source-wordcount: '2421'
+source-wordcount: '2476'
 ht-degree: 95%
 
 ---
@@ -38,6 +38,15 @@ L&#39;interface d&#39;Adobe [!DNL Journey Optimizer] est conçue pour fonctionne
 * Vous ne pouvez pas ajouter de pièces jointes à un e-mail avec [!DNL Journey Optimizer].
 * Vous ne pouvez pas utiliser le même domaine d’envoi pour envoyer des messages depuis [!DNL Adobe Journey Optimizer] et depuis un autre produit, tel que [!DNL Adobe Campaign] ou [!DNL Adobe Marketo Engage] par exemple.
 
+## Mécanismes de sécurisation des jeux de données {#datasets-guardrails}
+
+Dès février 2025, un mécanisme de sécurisation de la durée de vie (TTL) sera déployé dans les jeux de données générés par le système Journey Optimizer dans **les nouveaux sandbox et les nouvelles organisations** comme suit :
+
+* 90 jours pour les données dans la banque de profils
+* 13 mois pour les données du lac de données
+
+Explorez la [section Forum aux questions](../data/datasets-ttl.md#ttl) pour plus d’informations sur ces mécanismes de sécurisation.
+
 ## Mécanismes de sécurisation des pages de destination {#lp-guardrails}
 
 * Un seul composant de **Formulaire** peut être utilisé dans une page principale unique.
@@ -54,7 +63,6 @@ L&#39;interface d&#39;Adobe [!DNL Journey Optimizer] est conçue pour fonctionne
 ### Mécanismes de sécurisation pour les canaux web {#web-guardrails}
 
 Les campagnes web de [!DNL Journey Optimizer] ciblent les nouveaux profils qui n’ont jamais été engagés sur d’autres canaux. Cela augmente le nombre total de profils engageables, ce qui peut avoir des implications de coût si le nombre contractuel de profils engageables que vous avez achetés est dépassé. Les mesures de licence de chaque package sont répertoriées dans la page [Description du produit Journey Optimizer](https://helpx.adobe.com/fr/legal/product-descriptions/adobe-journey-optimizer.html).{target="_blank"}
-
 
 ## Mécanismes de sécurisation des sous-domaines {#subdomain-guardrails}
 

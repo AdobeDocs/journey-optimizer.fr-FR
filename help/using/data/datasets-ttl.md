@@ -8,7 +8,7 @@ role: Data Engineer, Data Architect, Admin
 level: Experienced
 keywords: platform, lac de données, créer, lac, jeux de données, profil
 exl-id: 08633a79-5601-4e36-b8cf-080234956d99
-source-git-commit: f5df65a0225754ab66fb2ffa33c5130f7137b644
+source-git-commit: ccb4cc944271fb197e7aee87f57b51c28cb3565f
 workflow-type: tm+mt
 source-wordcount: '428'
 ht-degree: 100%
@@ -41,13 +41,11 @@ Cette modification n’a aucune incidence sur la collecte des données de tracki
 
 +++
 
-
 +++ Les événements de réaction sont-ils affectés par ce changement ?
 
 Les événements de réaction dans les parcours ne sont pas affectés par cette modification.
 
 +++
-
 
 +++ Cette modification s’appliquera-t-elle uniquement aux sandbox de production ou s’appliquera-t-elle également aux sandbox de développement ?
 
