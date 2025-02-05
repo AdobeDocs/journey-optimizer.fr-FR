@@ -8,10 +8,11 @@ topic: Content Management
 role: User
 level: Intermediate
 keywords: publication, parcours, dynamique, validité, vérifier
-source-git-commit: 9b4ff0325d099252a5785aa13cfe0f1fe42acac6
-workflow-type: ht
-source-wordcount: '320'
-ht-degree: 100%
+exl-id: 186b061d-0941-48be-8917-bbdfff6dae90
+source-git-commit: b604ab6d94f414b96378f15986edbcf92cee77dc
+workflow-type: tm+mt
+source-wordcount: '312'
+ht-degree: 92%
 
 ---
 
@@ -29,8 +30,8 @@ Les événements affichés se sont produits au cours des dernières 24 heures, 
 
 Pour votre parcours dynamique, vous avez accès aux éléments suivants :
 
-* **[!UICONTROL Profils entrés]** : nombre total de personnes ayant quitté le parcours (y compris les erreurs).
-* **[!UICONTROL Profils sortis]** : nombre total de personnes ayant quitté le parcours de cette activité en raison d’un critère de sortie.
+* **[!UICONTROL Profils entrés]** : nombre total de particuliers ayant rejoint le parcours.
+* **[!UICONTROL Profils sortis]** : nombre total de personnes ayant quitté le parcours (erreurs comprises).
 * **[!UICONTROL Profils en erreur]** : nombre total de personnes ayant rencontré une erreur au cours de leur parcours.
 * **[!UICONTROL Profils rejetés]** : nombre total de personnes qui ont été exclues du parcours pour l’une des raisons suivantes :
 
