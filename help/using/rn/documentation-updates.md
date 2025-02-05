@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 2258a305f1d3b477b728ce50b882ac226f3e4342
+source-git-commit: 280238fb3f41cef08c4e5a8720839aff5b767cf5
 workflow-type: tm+mt
-source-wordcount: '5888'
+source-wordcount: '5907'
 ht-degree: 97%
 
 ---
@@ -28,6 +28,8 @@ Cette page répertorie toutes les mises à jour récentes de la documentation de
 * Mise à jour de la section **Paramètres d’en-tête** pour prendre en compte les nouveaux libellés et modifications dans l’interface utilisateur. [En savoir plus](../email/email-settings.md#email-header)
 
 * La section **Transférer l’e-mail** a été mise à jour afin d’indiquer que tous les e-mails envoyés à l’adresse **E-mail d’expédition** sont transférés à l’adresse e-mail de transfert. Si aucun e-mail de transfert n’est spécifié, ces e-mails sont ignorés. [En savoir plus](../email/email-settings.md#forward-email)
+
+* La taille maximale des attributs contextuels transmis dans une requête de campagne déclenchée par l’API a été mise à jour à 200 Ko. [En savoir plus](../campaigns/api-triggered-campaigns.md#contextual)
 
 <!--* A new use case has been added to present all the steps needed to use Decisioning with the [!DNL Journey Optimizer] code-based channel. [Read more](../experience-decisioning/experience-decisioning-uc.md)-->
 
