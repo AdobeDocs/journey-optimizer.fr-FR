@@ -9,10 +9,10 @@ role: User
 level: Beginner
 mini-toc-levels: 1
 exl-id: 10d2de34-23c1-4a5e-b868-700b462312eb
-source-git-commit: a98312d9ac5a457bfd6789bf79ad80a24d894a0b
+source-git-commit: 0d2c6cca9fa71f6920a934176abf7bfd12142a9d
 workflow-type: tm+mt
-source-wordcount: '2011'
-ht-degree: 100%
+source-wordcount: '2162'
+ht-degree: 92%
 
 ---
 
@@ -90,21 +90,21 @@ Voici les actions que vous pouvez effectuer à l’aide des attributs d’enrich
 >
 >Pour utiliser les attributs d’enrichissement des audiences créées à l’aide de workflows de composition, assurez-vous qu’ils sont ajoutés à un groupe de champs dans la source de données « ExperiencePlatform ».
 >
->+++ Découvrez comment ajouter des attributs d’enrichissement à un groupe de champs.>
++++ Découvrez comment ajouter des attributs d’enrichissement à un groupe de champs.>
 >
->1. Accédez à « Administration » > « Configuration » > « Sources de données ».
->1. Sélectionnez « Experience Platform » et créez ou modifiez un groupe de champs.
->1. Dans le sélecteur de schéma, sélectionnez le schéma approprié. Le nom du schéma sera au format suivant : « Schéma pour audienceId: » + identifiant de l’audience. L’identifiant de l’audience se trouve dans l’écran des détails de l’audience de l’inventaire de l’audience.
->1. Ouvrez le sélecteur de champ, recherchez les attributs d’enrichissement que vous souhaitez ajouter, puis cochez la case en regard de ces attributs.
->1. Enregistrez vos modifications.
->1. Une fois les attributs d’enrichissement ajoutés à un groupe de champs, vous pouvez les utiliser dans Journey Optimizer aux emplacements répertoriés ci-dessus.
+1. Accédez à « Administration » > « Configuration » > « Sources de données ».
+1. Sélectionnez « Experience Platform » et créez ou modifiez un groupe de champs.
+1. Dans le sélecteur de schéma, sélectionnez le schéma approprié. Le nom du schéma sera au format suivant : « Schéma pour audienceId: » + identifiant de l’audience. L’identifiant de l’audience se trouve dans l’écran des détails de l’audience de l’inventaire de l’audience.
+1. Ouvrez le sélecteur de champ, recherchez les attributs d’enrichissement que vous souhaitez ajouter, puis cochez la case en regard de ces attributs.
+1. Enregistrez vos modifications.
+1. Une fois les attributs d’enrichissement ajoutés à un groupe de champs, vous pouvez les utiliser dans Journey Optimizer aux emplacements répertoriés ci-dessus.
 >
->Des informations détaillées sur les sources de données sont disponibles dans les sections suivantes :
+Des informations détaillées sur les sources de données sont disponibles dans les sections suivantes :
 >
->* [Utiliser la source de données Adobe Experience Platform](../datasource/adobe-experience-platform-data-source.md)
->* [Configurer une source de données](../datasource/configure-data-sources.md)
+* [Utiliser la source de données Adobe Experience Platform](../datasource/adobe-experience-platform-data-source.md)
+* [Configurer une source de données](../datasource/configure-data-sources.md)
 >
->+++
++++
 
 ## Méthodes d’évaluation d’audience {#evaluation-method-in-journey-optimizer}
 
@@ -118,7 +118,7 @@ La segmentation par flux est un processus continu de sélection des données qui
 
 >[!NOTE]
 >
->Veillez à utiliser les événements appropriés comme critères de segmentation par streaming. [En savoir plus](#streaming-segmentation-events-guardrails)
+Veillez à utiliser les événements appropriés comme critères de segmentation par streaming. [En savoir plus](#streaming-segmentation-events-guardrails)
 
 +++
 
@@ -152,9 +152,26 @@ Une fois que vous avez défini une audience pour la première fois, les profils 
 
 Le renvoi de l’audience à partir de données antérieures peut prendre jusqu’à 24 heures. Une fois l’audience renvoyée, elle est constamment tenue à jour et toujours prête pour le ciblage.
 
+### [!BADGE Disponibilité limitée]{type=Informative} Évaluation flexible des audiences (Disponibilité limitée) {#flexible}
+
+>[!AVAILABILITY]
+>
+L’évaluation flexible des audiences n’est disponible que pour un ensemble d’organisations (disponibilité limitée). Pour en bénéficier, contactez votre représentant ou représentante Adobe.
+
+Adobe Experience Platform Audience Portal vous permet d’exécuter une tâche de segmentation à la demande pour des audiences sélectionnées, en vous assurant de toujours disposer des données d’audience les plus récentes avant de les cibler dans les parcours et campagnes Journey Optimizer.
+
+Grâce à l’évaluation d’audience flexible, vous pouvez :
+
+1. Créez un nouveau segment en fonction de vos dernières données.
+1. Évaluez l’audience en temps réel pour garantir sa précision. Pour ce faire, choisissez les audiences que vous souhaitez évaluer et sélectionnez « Évaluer les audiences », à condition qu’elles répondent à des critères spécifiques (par exemple, basé sur les personnes, origine du service de segmentation).
+1. Utiliser l’audience évaluée dans Adobe Journey Optimizer
+des campagnes ou des parcours pour un ciblage précis.
+
+Vous pouvez évaluer jusqu’à 20 audiences à la fois. Les audiences inéligibles seront automatiquement exclues. Pour plus d’informations, consultez la [documentation d’Audience Portal](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/audience-portal#flexible-audience-evaluation).
+
 ### Utilisation des événements avec la segmentation par streaming {#streaming-segmentation-events-guardrails}
 
-La segmentation par streaming est utile pour la personnalisation en temps réel avec des cas d’utilisation à forte valeur ajoutée. Cependant, il est important de choisir les bons [événements](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html?lang=fr#events){target="_blank"} à utiliser comme critères de segmentation.
+La segmentation par streaming est utile pour la personnalisation en temps réel avec des cas d’utilisation à forte valeur ajoutée. Cependant, il est important de choisir les bons [événements](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html?lang=fr#events){target="_vide"}
 
 Par conséquent, pour obtenir des performances optimales en matière de segmentation par streaming, évitez d’utiliser les événements suivants :
 
@@ -168,7 +185,7 @@ Par conséquent, pour obtenir des performances optimales en matière de segmenta
 
 >[!NOTE]
 >
->Vous pouvez utiliser les événements **Message ouvert** et **Message envoyé** dans la segmentation par lots sans souci de performances.
+Vous pouvez utiliser les événements **Message ouvert** et **Message envoyé** dans la segmentation par lots sans souci de performances.
 
 ## Questions fréquentes sur la composition d’audience et le chargement personnalisé {#faq}
 
@@ -184,7 +201,7 @@ Les audiences issues de la composition d’audience et du chargement personnalis
 
   >[!NOTE]
   >
-  >Pour les audiences de chargement personnalisé, si l’option « Lecture incrémentielle » est activée dans un parcours récurrent, les profils ne sont récupérés que lors de la première périodicité, car ces audiences sont fixes.
+  Pour les audiences de chargement personnalisé, si l’option « Lecture incrémentielle » est activée dans un parcours récurrent, les profils ne sont récupérés que lors de la première périodicité, car ces audiences sont fixes.
 
 Ces audiences peuvent également être utilisées dans l’éditeur de personnalisation pour personnaliser vos messages dans les parcours et les campagnes. [Découvrir comment utiliser l’éditeur de personnalisation](../personalization/personalization-build-expressions.md)
 

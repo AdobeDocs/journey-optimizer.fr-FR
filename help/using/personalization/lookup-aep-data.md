@@ -9,10 +9,10 @@ role: Data Engineer
 level: Intermediate
 keywords: expression, éditeur
 exl-id: 2fc10fdd-ca9e-46f0-94ed-2d7ea4de5baf
-source-git-commit: a2e09052ef5cb38ca34cd8faa476ca750ea1965f
+source-git-commit: 844c0f8dc9b14d69cbd87893042f048443d7a5e6
 workflow-type: tm+mt
-source-wordcount: '1044'
-ht-degree: 100%
+source-wordcount: '1043'
+ht-degree: 99%
 
 ---
 
@@ -71,7 +71,7 @@ Où ce qui suit est vrai :
 * **L’action** est Activer OU Désactiver.
 * **Le jeton d’accès** peut être récupéré à partir de Developer Console.
 * **La clé d’API** peut être récupérée à partir de Developer Console.
-* **L’identifiant d’organisation IMS** est votre organisation Adobe IMS.
+* **ID d’organisation IMS** est votre organisation d’Adobe.
 * **Le nom du sandbox** est le nom du sandbox dans lequel se trouve le jeu de données (c’est-à-dire prod, dev, etc.).
 
 >[!NOTE]
