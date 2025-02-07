@@ -9,15 +9,15 @@ role: User
 level: Beginner, Intermediate
 exl-id: 1fc708e1-a993-4a2a-809c-c5dc08a4bae1
 source-git-commit: 730e3da767ba54973ea886057262fe0210b46dd2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1148'
-ht-degree: 56%
+ht-degree: 100%
 
 ---
 
 # Gérer les fragments {#manage-fragments}
 
-## Accès aux fragments {#access-fragments}
+## Accéder aux fragments {#access-fragments}
 
 Pour gérer vos fragments, accédez à la liste des fragments à partir du menu de gauche **[!UICONTROL Gestion de contenu]** > **[!UICONTROL Fragments]**.
 
@@ -37,12 +37,12 @@ Vous pouvez choisir d’afficher tous les fragments ou uniquement les éléments
 
 Cliquez sur le bouton **[!UICONTROL Plus d’actions]** en regard de chaque fragment pour effectuer les opérations suivantes :
 
-* Ajoutez-le à un package pour l’exportation. [En savoir plus](#export)
-* Si un fragment actif est en cours de modification, ouvrez le brouillon de ce fragment. [En savoir plus](#edit-fragments)
-* Dupliquez le fragment.
+* L’ajouter à un package pour l’export. [En savoir plus](#export)
+* Si un fragment actif est en cours de modification, ouvrir le brouillon de ce fragment. [En savoir plus](#edit-fragments)
+* Dupliquer le fragment.
 * Utilisez l’option **[!UICONTROL Explorer les références]** pour afficher les parcours, les campagnes ou les modèles dans lesquels ils sont utilisés. [En savoir plus](#explore-references).
-* Archivez le fragment. [En savoir plus](#archive-fragments)
-* Modifiez les balises du fragment. [Découvrez comment utiliser les balises unifiées](../start/search-filter-categorize.md#tags)
+* Archiver le fragment. [En savoir plus](#archive-fragments)
+* Modifier les balises du fragment. [Découvrir comment utiliser les balises unifiées](../start/search-filter-categorize.md#tags)
 
 ![](assets/fragment-list-more-actions.png){width="70%" align="left"}
 
@@ -51,7 +51,7 @@ Cliquez sur le bouton **[!UICONTROL Plus d’actions]** en regard de chaque frag
 >[!CONTEXTUALHELP]
 >id="ajo_fragment_statuses"
 >title="Nouveaux statuts de fragments"
->abstract="Depuis que les statuts **Brouillon** et **Actif** ont été introduits dans la version de juin de Journey Optimizer, tous les fragments créés avant cette version ont le statut **Brouillon**, même s’ils sont utilisés dans un parcours ou une campagne. Si vous apportez des modifications à ces fragments, vous devez les publier pour les rendre **actifs** et propager les modifications aux campagnes et parcours associés. Vous devez également créer une version de parcours/campagne et la publier. <br/>La publication requiert l’autorisation utilisateur <a href="https://experienceleague.adobe.com/fr/docs/journey-optimizer/using/access-control/privacy/ootb-product-profiles#content-library-manage">Publier un fragment</a>."
+>abstract="Depuis que les statuts **Brouillon** et **Actif** ont été introduits avec la version de juin de Journey Optimizer, tous les fragments créés avant cette version ont le statut **Brouillon**, même s’ils sont utilisés dans un parcours ou une campagne. Si vous apportez des modifications à ces fragments, vous devez les publier pour les rendre **Actifs** et propager les modifications aux campagnes et parcours associés. Vous devez également créer une version de parcours/campagne et la publier. <br/>La publication requiert l’autorisation utilisateur <a href="https://experienceleague.adobe.com/fr/docs/journey-optimizer/using/access-control/privacy/ootb-product-profiles#content-library-manage">Publier un fragment</a>."
 >additional-url="https://experienceleague.adobe.com/fr/docs/journey-optimizer/using/access-control/privacy/ootb-product-profiles#content-library-manager" text="En savoir plus sur les autorisations des fragments de contenu"
 
 Les fragments peuvent avoir plusieurs statuts :
@@ -67,9 +67,9 @@ Les fragments peuvent avoir plusieurs statuts :
 
 >[!CAUTION]
 >
->Depuis que les statuts **Brouillon** et **Actif** ont été introduits dans la version de juin de Journey Optimizer, tous les fragments créés avant cette version ont le statut **Brouillon**, même s’ils sont utilisés dans un parcours ou une campagne. Si vous apportez des modifications à ces fragments, vous devez les publier pour les rendre **actifs** et propager les modifications aux campagnes et parcours associés. Vous devez également créer une version de parcours/campagne et la publier. La publication requiert l’autorisation utilisateur [Publier un fragment](../administration/ootb-product-profiles.md#content-library-manager).
+>Depuis que les statuts **Brouillon** et **Actif** ont été introduits avec la version de juin de Journey Optimizer, tous les fragments créés avant cette version ont le statut **Brouillon**, même s’ils sont utilisés dans un parcours ou une campagne. Si vous apportez des modifications à ces fragments, vous devez les publier pour les rendre **Actifs** et propager les modifications aux campagnes et parcours associés. Vous devez également créer une version de parcours/campagne et la publier. La publication requiert l’autorisation utilisateur [Publier un fragment](../administration/ootb-product-profiles.md#content-library-manager).
 
-## Modification d’un fragment {#edit-fragments}
+## Modifier un fragment {#edit-fragments}
 
 >[!CONTEXTUALHELP]
 >id="ajo_fragments_update_campaigns"
@@ -85,7 +85,7 @@ Pour modifier un fragment, procédez comme suit.
 
 1. Cliquez sur le fragment de votre choix dans la liste **[!UICONTROL Fragments]**. L’écran des propriétés du fragment s’ouvre avec un aperçu de son contenu.
 
-1. Vous pouvez vérifier la liste des parcours, campagnes et modèles de contenu dans lesquels le fragment est actuellement utilisé. Pour ce faire, sélectionnez l’option **[!UICONTROL Explorer les références]** à partir du bouton Plus d’actions . [En savoir plus](#explore-references)
+1. Vous pouvez vérifier la liste des parcours, campagnes et modèles de contenu dans lesquels le fragment est actuellement utilisé. Pour ce faire, sélectionnez l’option **[!UICONTROL Explorer les références]** à partir du bouton Plus d’actions. [En savoir plus](#explore-references)
 
 1. Si le fragment en cours de modification a le statut **[!UICONTROL Actif]**, cliquez sur le bouton **[!UICONTROL Modifier]** pour créer une version brouillon du fragment. Cliquez sur **[!UICONTROL Confirmer]**.
 
@@ -97,7 +97,7 @@ Pour modifier un fragment, procédez comme suit.
 
 1. Apportez les modifications souhaitées aux détails du fragment, si nécessaire.
 
-1. Pour modifier le contenu du fragment, cliquez sur le bouton **[!UICONTROL Modifier]** et mettez à jour votre contenu comme vous le feriez lors de la création d’un fragment à partir de zéro. [Découvrir comment créer un fragment](create-fragments.md#content)
+1. Pour modifier le contenu du fragment, cliquez sur le bouton **[!UICONTROL Modifier]**, puis modifiez votre contenu comme vous le feriez lors de la création d’un fragment à partir de zéro. [Découvrir comment créer un fragment](create-fragments.md#content)
 
    ![](assets/fragment-edit.png){width="70%" align="left"}
 
@@ -105,15 +105,15 @@ Pour modifier un fragment, procédez comme suit.
    >
    >Lors de la modification d’un fragment publié, vous pouvez supprimer n’importe quel champ de personnalisation, mais vous ne pouvez pas en ajouter de nouveaux au contenu du fragment. Si vous souhaitez ajouter des attributs personnalisés, vous devez dupliquer le fragment. [En savoir plus](#adding-new-attributes)
 
-1. Une fois vos modifications prêtes, enregistrez-les et cliquez sur le bouton **[!UICONTROL Publish]** pour les activer. [En savoir plus](create-fragments.md#publish)
+1. Une fois vos modifications prêtes, enregistrez-les et cliquez sur le bouton **[!UICONTROL Publier]** pour rendre vos modifications actives. [En savoir plus](create-fragments.md#publish)
 
-Lorsque vous modifiez un fragment, les modifications sont automatiquement propagées à tout le contenu utilisant ce fragment, y compris les parcours et campagnes en direct, à l’exception du contenu pour lequel vous avez rompu l’héritage du fragment d’origine.
+Lorsque vous apportez des modifications à un fragment, celles-ci sont automatiquement répercutées sur tous les contenus utilisant ce fragment, y compris les campagnes et parcours actifs, sauf pour les contenus dont l’héritage du fragment original a été rompu.
 
 >[!NOTE]
 >
 >Découvrez comment rompre l’héritage dans les sections [Ajouter des fragments visuels à vos e-mails](../email/use-visual-fragments.md#break-inheritance) et [Utiliser des fragments d’expression](../personalization/use-expression-fragments.md#break-inheritance).
 
-### Ajout de nouveaux attributs à un fragment dynamique {#adding-new-attributes}
+### Ajouter de nouveaux attributs à un fragment actif {#adding-new-attributes}
 
 >[!WARNING]
 >
@@ -135,14 +135,14 @@ Pour incorporer des attributs supplémentaires à un fragment actif, procédez c
 
 1. Enregistrez vos modifications et publiez le nouveau fragment. [Voici comment procéder](create-fragments.md#publish)
 
-1. Mettez à jour les campagnes ou les parcours pour référencer le fragment mis à jour où les nouveaux attributs ont été ajoutés.
+1. Mettez à jour les campagnes ou les parcours pour référencer le fragment mis à jour dans lequel les nouveaux attributs ont été ajoutés.
 
    * [Découvrir comment utiliser des fragments visuels](../email/use-visual-fragments.md)
    * [Découvrir comment utiliser des fragments d’expression](../personalization/use-expression-fragments.md)
 
 ## Explorer les références {#explore-references}
 
-Vous pouvez afficher la liste des parcours, des campagnes et des modèles de contenu qui utilisent actuellement un fragment. Pour ce faire, sélectionnez **[!UICONTROL Explorer les références]** dans le menu **[!UICONTROL Plus d’actions]** soit dans la liste des fragments, soit dans l’écran des propriétés du fragment.
+Vous pouvez afficher la liste des parcours, des campagnes et des modèles de contenu qui utilisent actuellement un fragment. Pour ce faire, sélectionnez **[!UICONTROL Explorer les références]**, soit à partir du menu **[!UICONTROL Autres actions]** dans la liste des fragments, soit dans l’écran des propriétés du fragment.
 
 ![](assets/fragment-explore-references.png){width="70%" align="left"}
 
@@ -174,4 +174,4 @@ Pour désarchiver un fragment, filtrez sur les éléments **[!UICONTROL archivé
 
 Journey Optimizer vous permet de copier un fragment d’un sandbox à un autre. Par exemple, vous pouvez copier un fragment de votre sandbox d’évaluation vers votre sandbox de production.
 
-Le processus de copie est réalisé via un **import et un export de package** entre les sandbox source et cible. Vous trouverez des informations détaillées sur la manière d’exporter des objets et de les importer dans un sandbox cible dans cette section : [Copier des objets dans un autre sandbox](../configuration/copy-objects-to-sandbox.md).
+Le processus de copie est réalisé via un **import et un export de package** entre les sandbox source et cible. Des informations détaillées sur l’export d’objets et leur import dans un sandbox cible sont disponibles dans cette section : [Copier des objets vers un autre sandbox](../configuration/copy-objects-to-sandbox.md).

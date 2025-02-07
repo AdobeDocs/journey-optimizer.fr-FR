@@ -7,9 +7,9 @@ role: User, Data Engineer
 level: Intermediate
 exl-id: f30abea1-b204-4470-9836-75fae916bbb1
 source-git-commit: 91584f394d956df4b69a885feacc40435360dae3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '114'
-ht-degree: 72%
+ht-degree: 100%
 
 ---
 
@@ -28,7 +28,7 @@ Chaque fois que l’un de ces objets est modifié dans la bibliothèque des offr
 
 >[!NOTE]
 >
->Cette fonctionnalité est activée par défaut. Vous pouvez commencer à l’utiliser sans étapes d’activation supplémentaires. Une fois activées, les tâches d’exportation seront automatisées et ne nécessiteront aucune action de votre part.
+>Cette fonctionnalité est activée par défaut. Vous pouvez commencer à l’utiliser sans étapes d’activation supplémentaires. Une fois qu’elle est activée, les traitements d’export sont automatisés et ne nécessitent aucune action de votre part.
 
 <!--
 >[!NOTE]
