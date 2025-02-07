@@ -7,12 +7,11 @@ feature: Audiences, Profiles
 topic: Content Management
 role: User
 level: Beginner
-mini-toc-levels: 1
 exl-id: 10d2de34-23c1-4a5e-b868-700b462312eb
-source-git-commit: 0d2c6cca9fa71f6920a934176abf7bfd12142a9d
+source-git-commit: a48fe20dcd06771c41164ecb1ea6df9d83a9a96c
 workflow-type: tm+mt
-source-wordcount: '2162'
-ht-degree: 92%
+source-wordcount: '2160'
+ht-degree: 93%
 
 ---
 
@@ -152,7 +151,7 @@ Une fois que vous avez défini une audience pour la première fois, les profils 
 
 Le renvoi de l’audience à partir de données antérieures peut prendre jusqu’à 24 heures. Une fois l’audience renvoyée, elle est constamment tenue à jour et toujours prête pour le ciblage.
 
-### [!BADGE Disponibilité limitée]{type=Informative} Évaluation flexible des audiences (Disponibilité limitée) {#flexible}
+### [!BADGE Disponibilité limitée]{type=Informative} Évaluation des audiences flexibles {#flexible}
 
 >[!AVAILABILITY]
 >
