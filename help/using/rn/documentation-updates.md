@@ -11,7 +11,7 @@ exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
 source-git-commit: dbe312f332031391c49a973f323994f860e354e3
 workflow-type: tm+mt
 source-wordcount: '5954'
-ht-degree: 96%
+ht-degree: 98%
 
 ---
 
@@ -21,13 +21,13 @@ Cette page répertorie toutes les mises à jour récentes de la documentation de
 
 ## Janvier 2025 {#jan-2025}
 
-* Ajout d&#39;une section sur l&#39;option **[!UICONTROL Adresse d&#39;exécution]** dans la configuration des emails. L’adresse principale est définie au niveau du sandbox, mais le paramètre par défaut peut être remplacé pour une configuration d’adresse électronique spécifique. [En savoir plus](../email/email-settings.md#execution-address)
+* Une section sur l’option **[!UICONTROL Adresse d’exécution]** dans la configuration du canal e-mail a été ajoutée. L’adresse principale est définie au niveau du sandbox, mais le paramètre par défaut peut être remplacé pour une configuration du canal e-mail spécifique. [En savoir plus](../email/email-settings.md#execution-address)
 
-* Mise à jour de la page **Prise en main de la délivrabilité** avec la possibilité de créer des workflows de préchauffage d’adresses IP directement depuis l’interface utilisateur. [En savoir plus](../reports/deliverability.md#reputation)
+* La page **Commencer avec la délivrabilité** a été mise à jour, avec la possibilité de créer des workflows de préchauffage d’adresses IP directement depuis l’interface d’utilisation. [En savoir plus](../reports/deliverability.md#reputation)
 
-* Mise à jour de la section **Paramètres d’en-tête** pour prendre en compte les nouveaux libellés et modifications dans l’interface utilisateur. [En savoir plus](../email/email-settings.md#email-header)
+* La section **Paramètres d’en-tête** a été mise à jour pour prendre en compte les nouveaux libellés et leurs modifications dans l’interface d’utilisation. [En savoir plus](../email/email-settings.md#email-header)
 
-* La section **Transférer l’e-mail** a été mise à jour afin d’indiquer que tous les e-mails envoyés à l’adresse **E-mail d’expédition** sont transférés à l’adresse e-mail de transfert. Si aucun e-mail de transfert n’est spécifié, ces e-mails sont ignorés. [En savoir plus](../email/email-settings.md#forward-email)
+* La section **Transférer l’e-mail** a été mise à jour afin d’indiquer que tous les e-mails envoyés à l’**e-mail d’expédition** sont transférés à l’adresse e-mail de transfert. Si aucun e-mail de transfert n’est spécifié, ces e-mails sont ignorés. [En savoir plus](../email/email-settings.md#forward-email)
 
 * La taille maximale des attributs contextuels transmis dans une requête de campagne déclenchée par l’API a été mise à jour à 200 Ko. [En savoir plus](../campaigns/api-triggered-campaigns.md#contextual)
 
@@ -48,7 +48,7 @@ Cette page répertorie toutes les mises à jour récentes de la documentation de
 * La page **Configurer votre expérience basée sur le code** a été améliorée afin de rendre le processus plus clair, y compris la section expliquant ce qu’est un URI de surface. [En savoir plus](../code-based/code-based-configuration.md)
 * La page **Créer une configuration de canal web** a été mise à jour afin de clarifier les étapes de création d’une règle de correspondance de pages, qui s’applique également à la configuration d’expérience basée sur le code. [En savoir plus](../web/web-configuration.md#web-page-matching-rule)
 * Une note concernant le prochain mécanisme de sécurisation sur la durée de vie (TTL) pour les jeux de données générés par le système a été ajoutée. [En savoir plus](../data/get-started-datasets.md)
-* Une nouvelle section a été ajoutée pour décrire comment prévisualiser vos expériences personnalisées basées sur le code directement sur votre navigateur ou sur vos appareils mobiles, à l’aide de l’option **Prévisualiser sur l’appareil** lors de la simulation de contenu dans un parcours ou une campagne. [En savoir plus](../code-based/test-code-based.md#preview-on-device)
+* Une nouvelle section a été ajoutée pour décrire comment prévisualiser vos expériences personnalisées basées sur du code directement sur votre navigateur ou vos appareils mobiles, à l’aide de l’option **Prévisualiser sur l’appareil** lors de la simulation de contenu dans un parcours ou une campagne. [En savoir plus](../code-based/test-code-based.md#preview-on-device)
 * Une nouvelle page a été ajoutée sur la manière d’exploiter les audiences de chargement personnalisées pour la prise de décision. [En savoir plus](../offers/custom-upload-decisioning.md)
 * Une nouvelle page a été ajoutée pour présenter les fonctionnalités de décision disponibles dans Journey Optimizer. [En savoir plus](../experience-decisioning/gs-decision.md)
 * Les mécanismes de sécurisation et les limites ont été ajoutés à la documentation de la prise de décision. [En savoir plus](../experience-decisioning/gs-experience-decisioning.md#guardrails)
