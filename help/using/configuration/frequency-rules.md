@@ -10,7 +10,7 @@ level: Intermediate
 keywords: message, fréquence, règles, pression
 exl-id: 49248fb6-5a91-45b2-9de8-2f078d59c0fc
 source-git-commit: 47482adb84e05fe41eb1c50479a8b50e00469ec4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1264'
 ht-degree: 100%
 
@@ -21,9 +21,9 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="ajo_business_rules_message_frequency_rules"
 >title="Règles métier"
->abstract="Les règles de fréquence des messages sont un type de règle métier qui limite le nombre de fois où les utilisateurs et les utilisatrices reçoivent des messages ou entrent dans des parcours via un ou plusieurs canaux. Ces règles cross-canal excluent automatiquement des messages et des actions les profils sur-sollicités."
+>abstract="Une règle de fréquence des messages est un type de règle métier qui limite le nombre de fois où les utilisateurs et les utilisatrices reçoivent des messages ou rejoignent des parcours via un ou plusieurs canaux. Ces règles cross-canal excluent automatiquement les profils sur-sollicités des messages et des actions."
 
-[!DNL Journey Optimizer] vous permet de contrôler la fréquence à laquelle les utilisateurs et les utilisatrices reçoivent un message ou entrent dans un parcours via un ou plusieurs canaux. Règles de fréquence des messages qui excluent automatiquement les profils sur-sollicités des messages et des actions.
+[!DNL Journey Optimizer] vous permet de contrôler la fréquence à laquelle les utilisateurs et les utilisatrices reçoivent un message ou rejoignent un parcours via un ou plusieurs canaux. Règles de fréquence des messages qui excluent automatiquement les profils sur-sollicités des messages et des actions.
 
 Par exemple, pour une marque, une règle peut être de ne pas envoyer plus de 4 messages marketing par mois à sa clientèle. Pour cela, vous pouvez utiliser une règle métier qui limite le nombre de messages envoyés sur un ou plusieurs canaux au cours d’une période calendaire mensuelle.
 
@@ -31,13 +31,13 @@ Par exemple, pour une marque, une règle peut être de ne pas envoyer plus de 4�
 
 >[!NOTE]
 >
->Les règles métier sont différentes de la gestion des désinscriptions, qui permet aux utilisateurs et utilisatrices de se désinscrire de la réception des communications de la part d’une marque. [En savoir plus](../privacy/opt-out.md#opt-out-management)
+>Les règles métier sont différentes de la gestion d’opt-out, qui permet aux utilisateurs et utilisatrices de se désinscrire des communications envoyées par une marque. [En savoir plus](../privacy/opt-out.md#opt-out-management)
 
 ➡️ [Découvrez cette fonctionnalité en vidéo](#video)
 
 ## Accéder aux règles métier {#access-rules}
 
-Les règles métier sont disponibles à partir du menu **[!UICONTROL Administration]** > **[!UICONTROL Règles métier]**. Toutes les règles sont répertoriées, triées par date de modification. Utilisez l&#39;icône de filtre pour filtrer par catégorie, statut et/ou canal. Vous pouvez également effectuer une recherche sur le libellé du message.
+Les règles métier sont disponibles à partir du menu **[!UICONTROL Administration]** > **[!UICONTROL Règles métier]**. Toutes les règles sont répertoriées, triées par date de modification. Utilisez l’icône de filtre pour filtrer le contenu par catégorie, statut et/ou canal. Vous pouvez également effectuer une recherche sur le libellé du message.
 
 ![](assets/message-rules-filter.png)
 
@@ -45,7 +45,7 @@ Les règles métier sont disponibles à partir du menu **[!UICONTROL Administrat
 
 Pour accéder aux règles métier, en créer, les modifier ou les supprimer, vous devez disposer de l’autorisation **[!UICONTROL Gérer les règles métier]**.
 
-Les utilisateurs avec l’autorisation **[!UICONTROL Afficher les règles de fréquence]** peuvent afficher les règles, mais pas les modifier ni les supprimer.
+Les personnes qui possèdent l’autorisation **[!UICONTROL Afficher les règles de fréquence]** peuvent afficher les règles, mais pas les modifier ni les supprimer.
 
 ![](assets/message-rules-access.png)
 
@@ -56,7 +56,7 @@ Pour en savoir plus sur les autorisations, consultez [cette section](../administ
 >[!CONTEXTUALHELP]
 >id="ajo_rules_category"
 >title="Sélectionner la catégorie de règle relative aux messages"
->abstract="Lorsqu’elle sont activées et appliquées à un message, toutes les règles métier correspondant à la catégorie sélectionnée seront automatiquement appliquées à ce message. Actuellement, seule la catégorie Marketing est disponible."
+>abstract="Une fois activées et appliquées à un message, toutes les règles métier correspondant à la catégorie sélectionnée seront automatiquement appliquées à ce message. Actuellement, seule la catégorie Marketing est disponible."
 
 >[!CONTEXTUALHELP]
 >id="ajo_rules_capping"
@@ -66,7 +66,7 @@ Pour en savoir plus sur les autorisations, consultez [cette section](../administ
 >[!CONTEXTUALHELP]
 >id="ajo_rules_channel"
 >title="Définissez le ou les canaux auxquels la règle métier s’applique."
->abstract="Sélectionnez au moins un canal. Le plafond est calculé sur l’ensemble des canaux."
+>abstract="Sélectionnez au moins un canal. La limitation est calculée sur l’ensemble des canaux."
 
 Pour créer une règle métier, procédez comme suit.
 
@@ -84,7 +84,7 @@ Pour créer une règle métier, procédez comme suit.
 
 1. Dans la liste déroulante **[!UICONTROL Durée]**, sélectionnez une période pour la limitation à appliquer. [En savoir plus](#frequency-cap)
 
-1. Définissez la limitation de votre règle, c’est-à-dire le nombre maximum de messages qui peuvent être envoyés à un profil individuel chaque mois ou chaque semaine <!--or day-->, en fonction de votre sélection ci-dessous.
+1. Définissez la limitation de votre règle, c’est-à-dire le nombre maximum de messages pouvant être envoyés à un profil individuel chaque mois ou chaque semaine <!--or day-->, en fonction de la sélection effectuée ci-dessus.
 
    <!--![](assets/message-rules-capping.png)-->
 
@@ -98,15 +98,15 @@ Pour créer une règle métier, procédez comme suit.
 
 1. Sélectionnez plusieurs canaux si vous souhaitez appliquer une limitation sur tous les canaux sélectionnés en tant que nombre total.
 
-   Par exemple, définissez la limitation sur 15 et sélectionnez les canaux e-mail et push. Si un profil a déjà reçu 10 e-mails marketing et 5 notifications push marketing pour la période sélectionnée, ce profil sera exclu de la prochaine diffusion de tout e-mail ou notification push marketing.
+   Par exemple, définissez la limitation sur 15, et sélectionnez les canaux E-mail et Notification push. Si un profil a déjà reçu 10 e-mails marketing et 5 notifications push marketing pour la période sélectionnée, ce profil sera exclu de la prochaine diffusion de tout e-mail ou notification push marketing.
 
-1. Cliquez sur **[!UICONTROL Enregistrer comme brouillon]** pour confirmer la création de la règle. Votre message est ajouté à la liste de règles, dans l&#39;état **[!UICONTROL Brouillon]**.
+1. Cliquez sur **[!UICONTROL Enregistrer comme brouillon]** pour confirmer la création de la règle. Votre message est ajouté à la liste de règles, avec le statut **[!UICONTROL Brouillon]**.
 
    ![](assets/message-rules-created.png)
 
 ### Limite de fréquence {#frequency-cap}
 
-Dans la liste déroulante **[!UICONTROL Durée]**, sélectionnez si vous souhaitez que la limitation soit appliquée tous les mois ou toutes les semaines.
+Dans la liste déroulante **[!UICONTROL Durée]**, indiquez si vous souhaitez que la limitation soit appliquée tous les mois ou toutes les semaines.
 
 >[!NOTE]
 >
@@ -118,7 +118,7 @@ La limite de fréquence est basée sur la période calendaire sélectionnée. El
 
 L’expiration du compteur pour chaque période se présente comme suit :
 
-* **[!UICONTROL Mensuelle]** : la limite de fréquence est valable jusqu’au dernier jour du mois à 23:59:59 UTC. Par exemple, la date d’expiration mensuelle pour janvier est le 31 janvier à 23:59:59 UTC.
+* **[!UICONTROL Mensuele]** : la limite de fréquence est valable jusqu’au dernier jour du mois à 23:59:59 UTC. Par exemple, la date d’expiration mensuelle pour janvier est le 31 janvier à 23:59:59 UTC.
 
 * **[!UICONTROL Hebdomadaire]** : la limite de fréquence est valable jusqu’au samedi à 23:59:59 UTC de cette semaine, car la semaine calendaire commence le dimanche. L’expiration est indépendante de la création de la règle. Par exemple, si la règle est créée le jeudi, cette règle est valide jusqu’au samedi à 23:59:59.
 
@@ -134,11 +134,11 @@ La limite de fréquence quotidienne est valable pour la journée jusqu’à 23:5
 
 ## Activer une règle métier {#activate-rule}
 
-Une fois créée, la règle métier affiche le statut **[!UICONTROL Brouillon]** et n’a encore aucune incidence sur le message. Pour l’activer, cliquez sur les points de suspension en regard de la règle et sélectionnez **[!UICONTROL Activer]**.
+Une fois créée, la règle métier affiche le statut **[!UICONTROL Brouillon]** et n’a pas encore d’incidence sur les messages. Pour l’activer, cliquez sur les points de suspension en regard de la règle et sélectionnez **[!UICONTROL Activer]**.
 
 ![](assets/message-rules-activate.png)
 
-L&#39;activation d&#39;une règle aura un impact sur tous les messages auxquels elle s&#39;applique lors de leur exécution suivante. Découvrez comment [appliquer une règle métier à un message](#apply-frequency-rule).
+L’activation d’une règle aura un impact sur tous les messages auxquels elle s’applique lors de leur prochaine exécution. Découvrez comment [appliquer une règle métier à un message](#apply-frequency-rule).
 
 >[!NOTE]
 >
@@ -148,11 +148,11 @@ Pour désactiver une règle métier, cliquez sur les points de suspension en reg
 
 ![](assets/message-rules-deactivate.png)
 
-L&#39;état de la règle devient **[!UICONTROL Inactif]** et la règle ne s&#39;appliquera pas aux futures exécutions de messages. Les messages en cours d&#39;exécution ne seront pas affectés.
+Le statut de la règle passe sur **[!UICONTROL Inactif]** et la règle ne s’appliquera pas aux futures exécutions de messages. Les messages en cours d’exécution ne seront pas affectés.
 
 >[!NOTE]
 >
->La désactivation d&#39;une règle n&#39;affecte ou ne réinitialise aucun comptage sur les profils individuels.
+>En cas de désactivation d’une règle, le décompte sur les différents profils n’est ni affecté ni réinitialisé.
 
 ## Appliquer une règle métier à un message {#apply-frequency-rule}
 
@@ -170,13 +170,13 @@ Pour appliquer une règle métier à un message, procédez comme suit.
 
 1. Cliquez sur le lien **[!UICONTROL Règle de fréquence]** pour ouvrir l’écran des règles de fréquence dans un nouvel onglet. [En savoir plus](#access-rules).
 
-   Toutes les règles métier correspondant à la catégorie et aux canaux sélectionnés seront automatiquement appliquées à ce message.
+   Toutes les règles correspondant à la catégorie et aux canaux sélectionnés seront automatiquement appliquées à ce message.
 
    >[!NOTE]
    >
    >Les messages pour lesquels la catégorie sélectionnée est **[!UICONTROL Transactionnel]** ne seront pas évalués par rapport aux règles de fréquence.
 
-1. Vous pouvez visualiser le nombre de profils exclus de la diffusion dans le [rapport Customer Journey Analytics](../reports/report-gs-cja.md) et dans le [rapport dynamique](../reports/live-report.md), où les règles de fréquence seront répertoriées comme une raison possible pour les personnes exclues de la diffusion.
+1. Vous pouvez visualiser le nombre de profils exclus de la diffusion dans le [rapport Customer Journey Analytics](../reports/report-gs-cja.md) et dans le [rapport dynamique](../reports/live-report.md), où les règles métier seront répertoriées comme une raison possible pour les personnes exclues de la diffusion.
 
 >[!NOTE]
 >
@@ -189,14 +189,14 @@ Vous pouvez combiner plusieurs règles métier, comme décrit dans l’exemple c
 1. [Créez une règle métier](#create-new-rule) appelée *Limitation marketing globale* :
 
    * Sélectionnez tous les canaux.
-   * Définissez la limitation mensuelle sur 12.
+   * Définissez une limite de 12 avec une durée mensuelle.
 
    ![](assets/message-rules-ex-overall-cap.png)
 
-1. Pour limiter davantage le nombre de notifications push marketing envoyées à un utilisateur, créez une deuxième règle appelée *Limitation Push marketing* :
+1. Pour limiter davantage le nombre de notifications push marketing envoyées à un utilisateur ou une utilisatrice, créez une deuxième règle appelée *Push Marketing Cap* :
 
-   * Sélectionnez le canal push.
-   * Définissez la limitation mensuelle sur 4.
+   * Sélectionnez le canal Notification push.
+   * Définissez une limite de 4 avec une durée mensuelle.
 
    ![](assets/message-rules-ex-push-cap.png)
 
