@@ -9,7 +9,7 @@ role: User
 level: Beginner
 keywords: prise en main, commencer, contenu, expérience
 exl-id: 7fe4b24e-f60a-4107-a064-00010b0cbbfc
-source-git-commit: 5b377982f43902a4549f24c022fa8f4947d896a8
+source-git-commit: 102ea61835144b274c018b28881cacdb5ebba1fa
 workflow-type: tm+mt
 source-wordcount: '2004'
 ht-degree: 98%
@@ -24,7 +24,7 @@ Les expériences de contenu vous permettent d’optimiser le contenu pour les ac
 
 Les expériences sont un ensemble d’essais randomisés, ce qui, dans le cadre des tests en ligne, signifie que certains utilisateurs sélectionnés de manière aléatoire sont exposés à une variante donnée d’un message et un autre ensemble d’utilisateurs sélectionnés de manière aléatoire à un autre traitement. Après l’envoi du message, vous pouvez ensuite évaluer les mesures de résultats qui vous intéressent, par exemple les ouvertures d’e-mails ou les clics.
 
-➡️ Un cas pratique de bout en bout montrant comment utiliser les expériences de contenu pour comparer les décisions avec le canal d’expérience basé sur le code est présenté dans [cette section](experience-decisioning-uc.md).
+➡️ Un cas pratique de bout en bout montrant comment utiliser les expériences de contenu pour comparer les décisions avec le canal d’expérience basé sur le code est présenté dans [cette section](../experience-decisioning/experience-decisioning-uc.md).
 
 ## Pourquoi exécuter des expériences ?
 
