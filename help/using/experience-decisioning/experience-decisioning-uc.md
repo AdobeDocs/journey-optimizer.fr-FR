@@ -1,21 +1,19 @@
 ---
 title: Cas d’utilisation de la prise de décision
-description: Découvrez comment créer des décisions à l’aide d’expériences avec le canal basé sur le code.
+description: Découvrez comment créer des décisions et les utiliser dans des expériences de contenu avec le canal d’expérience basé sur le code
 feature: Decisioning
 topic: Integrations
 role: User
 level: Intermediate, Experienced
-hide: true
-hidefromtoc: true
 exl-id: 09770df2-c514-4217-a71b-e31c248df543
-source-git-commit: bb66785f0b699d0ccf6cced035e64f206b104293
-workflow-type: ht
-source-wordcount: '817'
-ht-degree: 100%
+source-git-commit: 5b377982f43902a4549f24c022fa8f4947d896a8
+workflow-type: tm+mt
+source-wordcount: '828'
+ht-degree: 96%
 
 ---
 
-# Cas d’utilisation de la prise de décision {#experience-decisioning-uc}
+# Utiliser la prise de décision dans une expérience basée sur du code avec une expérience de contenu {#experience-decisioning-uc}
 
 Ce cas pratique présente toutes les étapes nécessaires pour utiliser les décisions avec le canal basé sur le code [!DNL Journey Optimizer].
 

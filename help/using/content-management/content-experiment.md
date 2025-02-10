@@ -9,10 +9,10 @@ role: User
 level: Beginner
 keywords: contenu, expérience, multiple, audience, traitement
 exl-id: bd35ae19-8713-4571-80bc-5f40e642d121
-source-git-commit: 98b7a5493a4e325328ab349c405af423b3836807
-workflow-type: ht
-source-wordcount: '729'
-ht-degree: 100%
+source-git-commit: 5b377982f43902a4549f24c022fa8f4947d896a8
+workflow-type: tm+mt
+source-wordcount: '748'
+ht-degree: 97%
 
 ---
 
@@ -41,6 +41,8 @@ Chaque personne de l’audience ciblée recevra une version de l’e-mail, avec 
 L’objectif ici est de voir si les destinataires interagissent avec l’e-mail en fonction de l’expérience reçue. Nous choisirons donc **[!UICONTROL Ouvertures d’e-mails]** comme mesure d’objectif principal dans cette expérience de contenu.
 
 ![](assets/content_experiment.png)
+
+➡️ Découvrez comment utiliser les expériences de contenu pour comparer les décisions avec le canal d’expérience basé sur du code dans [ce cas d’utilisation](experience-decisioning-uc.md).
 
 ## Créer votre contenu {#campaign-experiment}
 
@@ -125,3 +127,4 @@ L’objectif ici est de voir si les destinataires interagissent avec l’e-mail 
 1. Une fois le contenu de votre message défini, cliquez sur le bouton **[!UICONTROL Simuler du contenu]** afin de contrôler le rendu de votre diffusion et vérifiez les paramètres de personnalisation avec les profils de test. [En savoir plus](../content-management/preview-test.md).
 
 Après avoir paramétré votre expérimentation, vous pouvez suivre le succès de votre diffusion avec votre rapport. [En savoir plus](../reports/campaign-global-report-cja-experimentation.md)
+
