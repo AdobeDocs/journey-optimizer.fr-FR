@@ -2,27 +2,27 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Contrôle d’accès basé sur attribut
-description: Le contrôle d’accès basé sur les attributs (ABAC) permet de définir des autorisations pour gérer l’accès aux données pour des équipes ou des groupes d’utilisateurs spécifiques.
+description: Le contrôle d’accès basé sur les attributs vous permet de définir des autorisations pour gérer l’accès aux données pour des équipes ou des groupes d’utilisateurs spécifiques.
 feature: Access Management
 topic: Administration
 role: Admin,Leader
 level: Intermediate
 keywords: abac, attribut, autorisations, données, accès, sensible, ressources
 exl-id: 162b0848-313a-447e-9237-5a6dbc8102c6
-source-git-commit: fbcd5ae83c024d672d608d5f5aefc6a4252ec8c0
+source-git-commit: 79bea396ba1ff482aaa4edcab1a31ca3847b3f52
 workflow-type: tm+mt
-source-wordcount: '1023'
-ht-degree: 100%
+source-wordcount: '1025'
+ht-degree: 88%
 
 ---
 
 # Contrôle d’accès basé sur les attributs {#attribute-based-access}
 
-Le contrôle d’accès basé sur les attributs (ABAC) permet de définir des autorisations pour gérer l’accès aux données pour des équipes ou des groupes d’utilisateurs et d’utilisatrices spécifiques. Son objectif est de protéger les ressources numériques sensibles contre les utilisateurs et utilisatrices non autorisés, ce qui permet une protection supplémentaire des données personnelles.
+La fonctionnalité de contrôle d’accès basé sur les attributs vous permet de définir des autorisations pour gérer l’accès aux données pour des équipes ou des groupes d’utilisateurs spécifiques. Son objectif est de protéger les ressources numériques sensibles contre les utilisateurs et utilisatrices non autorisés, ce qui permet une protection supplémentaire des données personnelles.
 
-Dans Adobe Journey Optimizer, l’ABAC vous permet de protéger les données et d’accorder un accès spécifique à des éléments de champ spécifiques, y compris des schémas de modèle de données d’expérience (XDM), des attributs de profil et des audiences.
+Utilisez le contrôle d’accès basé sur les attributs dans Adobe Journey Optimizer pour protéger les données et accorder un accès spécifique à des éléments de champ spécifiques, y compris des schémas de modèle de données d’expérience (XDM), des attributs de profil et des audiences.
 
-Pour obtenir une liste plus détaillée de la terminologie utilisée avec ABAC, reportez-vous à la [documentation Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/access-control/abac/overview.html?lang=fr).
+Pour obtenir une liste plus détaillée de la terminologie utilisée avec le contrôle d’accès basé sur les attributs, consultez la documentation de [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/access-control/abac/overview.html?lang=fr){target="_blank"}.
 
 Dans cet exemple, nous allons ajouter un libellé au champ de schéma **Nationalité** pour empêcher des utilisateurs non autorisés de l’utiliser. Pour que cela fonctionne, vous devez effectuer les étapes suivantes :
 
@@ -32,13 +32,13 @@ Dans cet exemple, nous allons ajouter un libellé au champ de schéma **National
 
 1. Utilisez le **[!UICONTROL Champ de schéma]** dans Adobe Journey Optimizer.
 
-Notez que les **[!UICONTROL Rôles]**, **[!UICONTROL Politiques]** et **[!UICONTROL Produits]** sont également accessibles avec l’API de contrôle d’accès basé sur les attributs. Voir à ce propos cette [documentation](https://experienceleague.adobe.com/docs/experience-platform/access-control/abac/abac-api/overview.html?lang=fr).
+Notez que les **[!UICONTROL Rôles]**, **[!UICONTROL Politiques]** et **[!UICONTROL Produits]** sont également accessibles avec l’API de contrôle d’accès basé sur les attributs. Pour plus d’informations, consultez cette [documentation](https://experienceleague.adobe.com/docs/experience-platform/access-control/abac/abac-api/overview.html?lang=fr){target="_blank"}.
 
 ## Création d’un rôle et attribution de libellés {#assign-role}
 
 >[!IMPORTANT]
 >
->Avant de gérer les autorisations d’un rôle, vous devez créer une politique. Pour plus d’informations à ce sujet, consultez la [documentation d’Adobe Experience Platform ](https://experienceleague.adobe.com/docs/experience-platform/access-control/abac/permissions-ui/policies.html?lang=fr).
+>Avant de gérer les autorisations d’un rôle, vous devez créer une politique. Pour plus d’informations, consultez la [documentation d’Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/access-control/abac/permissions-ui/policies.html?lang=fr){target="_blank"}.
 
 Les **[!UICONTROL rôles]** sont un ensemble d’utilisateurs qui partagent les mêmes autorisations, libellés et sandbox au sein de votre organisation. Chaque utilisateur appartenant à un **[!UICONTROL rôle]** a droit aux applications et services d&#39;Adobe contenus dans le produit.
 Vous pouvez également créer vos propres **[!UICONTROL Rôles]** si vous souhaitez affiner l’accès de vos utilisateurs et utilisatrices à certaines fonctionnalités ou objets de l’interface.
@@ -92,7 +92,7 @@ Dans cet exemple, nous allons restreindre l’accès au champ **Nationalité**. 
 
 Notez que vous pouvez également ajouter un **[!UICONTROL libellé]** à un **[!UICONTROL schéma]**, à des **[!UICONTROL jeux de données]** et à des **[!UICONTROL audiences]**.
 
-1. Créez votre **[!UICONTROL Schéma]**. Voir à ce propos [cette documentation](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html?lang=fr).
+1. Créez votre **[!UICONTROL Schéma]**. Voir à ce propos [cette documentation](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html?lang=fr){target="_blank"}.
 
    ![](assets/label_1.png)
 
@@ -104,11 +104,11 @@ Notez que vous pouvez également ajouter un **[!UICONTROL libellé]** à un **[!
 
    ![](assets/label_3.png)
 
-1. Sélectionnez le **[!UICONTROL libellé]** correspondant, dans ce cas, le C2 - Les données ne peuvent pas être exportées vers un tiers. Pour obtenir la liste détaillée des libellés disponibles, reportez-vous à [cette page](https://experienceleague.adobe.com/docs/experience-platform/data-governance/labels/reference.html?lang=fr#contract-labels).
+1. Sélectionnez le **[!UICONTROL libellé]** correspondant, dans ce cas, le C2 - Les données ne peuvent pas être exportées vers un tiers. Pour obtenir la liste détaillée des libellés disponibles, reportez-vous à [cette page](https://experienceleague.adobe.com/docs/experience-platform/data-governance/labels/reference.html?lang=fr#contract-labels){target="_blank"}.
 
    ![](assets/label_4.png)
 
-1. Personnalisez davantage votre schéma si nécessaire, puis activez-le. Pour obtenir les étapes détaillées afin d’activer votre schéma, reportez-vous à cette [page](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/resources/schemas.html?lang=fr#profile).
+1. Personnalisez davantage votre schéma si nécessaire, puis activez-le. Pour obtenir les étapes détaillées afin d’activer votre schéma, consultez cette [page](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/resources/schemas.html?lang=fr#profile){target="_blank"}.
 
 Le champ de votre schéma sera désormais uniquement visible et ne peut désormais être utilisé que par les utilisateurs qui font partie d’un jeu de rôles avec le libellé C2.
 En appliquant un **[!UICONTROL Libellé]** à votre **[!UICONTROL Nom du champ]**, notez que le **[!UICONTROL libellé]** s’applique automatiquement au champ **Nationalité** dans chaque schéma créé.
