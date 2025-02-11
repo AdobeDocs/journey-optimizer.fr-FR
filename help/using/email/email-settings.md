@@ -86,7 +86,7 @@ Une fois qu’un groupe d’adresses IP a été sélectionné, les informations 
 >[!CONTEXTUALHELP]
 >id="ajo_email_config_unsubscribe_custom"
 >title="Définir comment les données de désabonnement sont gérées"
->abstract="**Adobe géré** : les données de consentement sont gérées par vous dans le système d’Adobe.<br>**Gestion par le client** : les données de consentement sont gérées par vous dans un système externe et aucune synchronisation des données de consentement n’est mise à jour dans le système d’Adobe, sauf si vous en êtes l’initiateur."
+>abstract="**Adobe géré** : les données de consentement sont gérées par vous dans le système Adobe.<br>**Gestion par le client** : les données de consentement sont gérées par vous dans un système externe et aucune synchronisation des données de consentement n’est mise à jour dans le système Adobe, sauf si vous en êtes l’initiateur."
 
 <!--Do not modify - Legal Review Done -->
 
