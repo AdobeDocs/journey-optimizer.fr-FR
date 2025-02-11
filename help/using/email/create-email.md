@@ -9,8 +9,8 @@ role: User
 level: Beginner
 keywords: créer, e-mail, commencer, parcours, campagne
 exl-id: c77dc420-a375-4376-ad86-ac740e214c3c
-source-git-commit: 03cb3298c905766bc059e82c58969a2111379345
-workflow-type: ht
+source-git-commit: 994eac32591f4ca352d310bc06057bd20ea03886
+workflow-type: tm+mt
 source-wordcount: '956'
 ht-degree: 100%
 
@@ -43,7 +43,7 @@ Pour créer un e-mail dans [!DNL Journey Optimizer], ajoutez une action d’**[!
 
 >[!NOTE]
 >
->Vous pouvez utiliser l’option Optimisation de l’heure d’envoi pour prévoir le meilleur moment pour envoyer le message afin d’optimiser l’engagement en fonction des taux historiques d’ouverture et de clic. [Découvrez comment utiliser l’optimisation de l’heure d’envoi](../building-journeys/journeys-message.md#send-time-optimization)
+>Vous pouvez utiliser l’option Optimisation de l’heure d’envoi pour prévoir le meilleur moment pour envoyer le message afin d’optimiser l’engagement en fonction des taux historiques d’ouverture et de clic. [Découvrez comment utiliser l’optimisation de l’heure d’envoi](../building-journeys/send-time-optimization.md)
 
 Pour plus d’informations sur la configuration de votre parcours, consultez cette [page](../building-journeys/journey-gs.md).
 

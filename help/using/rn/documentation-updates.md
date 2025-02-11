@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 5b377982f43902a4549f24c022fa8f4947d896a8
+source-git-commit: 994eac32591f4ca352d310bc06057bd20ea03886
 workflow-type: tm+mt
-source-wordcount: '5981'
+source-wordcount: '6014'
 ht-degree: 98%
 
 ---
@@ -18,6 +18,12 @@ ht-degree: 98%
 # Mises à jour de la documentation {#latest-updates}
 
 Cette page répertorie toutes les mises à jour récentes de la documentation de [!DNL Journey Optimizer].
+
+
+## Février 2025 {#feb-2025}
+
+* La documentation relative à **[!UICONTROL l’optimisation de l’heure d’envoi]** et ses questions fréquentes associées ont été mises à jour, améliorées et déplacées vers une nouvelle page dédiée. [En savoir plus](../building-journeys/send-time-optimization.md)
+* De nouveaux mécanismes de sécurisation ont été ajoutés pour les événements de parcours. [En savoir plus](../start/guardrails.md#events-g)
 
 ## Janvier 2025 {#jan-2025}
 
@@ -99,7 +105,7 @@ Cette page répertorie toutes les mises à jour récentes de la documentation de
 * Ajout d’informations sur la création d’identité avec des espaces de noms personnalisés lors de l’utilisation de campagnes déclenchées par des API. [En savoir plus](../campaigns/api-triggered-campaigns.md)
 * Les captures d’écran ont été mises à jour pour prendre en compte la zone de travail de parcours améliorée.
 * Les contraintes de nommage ont été mises à jour dans les pages suivantes : [Configurer un événement unitaire](../event/about-creating.md), [Configurer un événement métier](../event/about-creating-business.md#gs-business-events), [Configurer une action personnalisée](../action/about-custom-action-configuration.md#configuration-steps), [Sources de données externes](../datasource/external-data-sources.md).
-* Une note a été ajoutée sur la disponibilité de l’optimisation de l’heure d’envoi. [En savoir plus](../building-journeys/journeys-message.md#send-time-optimization)
+* Une note a été ajoutée sur la disponibilité de l’optimisation de l’heure d’envoi. [En savoir plus](../building-journeys/send-time-optimization.md)
 * Un nouveau cas d’utilisation technique a été ajouté sur la création d’une action personnalisée pour envoyer des données à Experience Platform. [En savoir plus](../building-journeys/custom-action-aep.md)
 
 ## Mars 2024 {#march-2024}
@@ -358,7 +364,7 @@ Cette page répertorie toutes les mises à jour récentes de la documentation de
 * La page Liste autorisée a été déplacée vers la section Configuration. [En savoir plus](../configuration/allow-list.md)
 * La page Liste de suppression a été mise à jour afin de clarifier certaines informations, notamment le fait que tous les caractères ASCII compris entre 32 et 126 sont autorisés dans le champ de motif de suppression. [En savoir plus](../configuration/manage-suppression-list.md)
 * Ajout du lien vers les mécanismes de sécurisation et les limites statiques pour la gestion des décisions. [En savoir plus](../start/guardrails.md)
-* L’optimisation de l’heure d’envoi est désormais disponible pour tous les clients. La mention Beta a été supprimée. [En savoir plus](../building-journeys/journeys-message.md#send-time-optimization)
+* L’optimisation de l’heure d’envoi est désormais disponible pour tous les clients. La mention Beta a été supprimée. [En savoir plus](../building-journeys/send-time-optimization.md)
 * L’API Batch Decisioning a été ajoutée à la liste des API disponibles pour diffuser des offres personnalisées. [En savoir plus](../offers/api-reference/offer-delivery-api/start-offer-delivery-apis.md)
 
 ## Mai 2022 {#may-2022}
