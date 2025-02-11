@@ -9,19 +9,14 @@ role: User
 level: Intermediate
 keywords: heure d’envoi, envoi, message, optimisation, parcours, IA, Intelligent
 exl-id: ec604e91-4c7f-459c-b6ff-d825919e7181
-source-git-commit: b9ec336abbe329c33098880b16aaeabd8ec0c310
+source-git-commit: a0ace8232d6851b7cd41ba4d8a06a2a42bb799e6
 workflow-type: tm+mt
-source-wordcount: '1542'
-ht-degree: 13%
+source-wordcount: '1505'
+ht-degree: 11%
 
 ---
 
 # Optimisation de l’heure d’envoi{#send-time-optimization}
-
->[!CONTEXTUALHELP]
->id="jo_bestsendtime_disabled"
->title="À propos de l&#39;optimisation de l&#39;heure d&#39;envoi"
->abstract="La fonctionnalité d’optimisation de l’heure d&#39;envoi d’Adobe Journey Optimizer, proposée par les services d’IA d’Adobe, peut prévoir le meilleur moment pour envoyer un e-mail ou un message push afin d’optimiser l’engagement en fonction des taux historiques d’ouverture et de clic."
 
 >[!CONTEXTUALHELP]
 >id="jo_bestsendtime_disabled"
