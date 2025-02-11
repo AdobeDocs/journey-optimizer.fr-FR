@@ -9,7 +9,7 @@ role: User
 level: Beginner
 exl-id: 6e291ce3-f324-4e5d-975b-5229dea4d581
 source-git-commit: 2de3766c9fea36422c017ccaab3eb0a2501c6740
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '874'
 ht-degree: 100%
 
@@ -19,7 +19,7 @@ ht-degree: 100%
 
 >[!CONTEXTUALHELP]
 >id="ajo_ai_generation_settings"
->title="Accélérateur de contenu de l’Assistant AI dans Journey Optimizer"
+>title="Accélérateur de contenu de l’assistant IA dans Journey Optimizer"
 >abstract="Une fois que vous avez conçu et personnalisé votre diffusion, vous pouvez utiliser l’accélérateur de contenu de l’Assistant IA pour améliorer votre contenu. Cette fonctionnalité simplifie le processus de personnalisation et d’amélioration du contenu en vous permettant d’affiner le contenu à travers la description de ce que vous souhaitez générer."
 
 >[!CONTEXTUALHELP]

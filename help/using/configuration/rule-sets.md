@@ -100,7 +100,7 @@ Pour créer un jeu de règles, procédez comme suit.
 >[!CONTEXTUALHELP]
 >id="ajo_rule_sets_channel"
 >title="Définissez le ou les canaux auxquels la règle s’applique."
->abstract="Sélectionnez au moins un canal. Le plafond est calculé sur l’ensemble des canaux."
+>abstract="Sélectionnez au moins un canal. La limitation est calculée sur l’ensemble des canaux."
 
 >[!CONTEXTUALHELP]
 >id="ajo_rule_sets_duration"
@@ -130,7 +130,7 @@ Les paramètres disponibles pour la règle dépendent du domaine du jeu de règl
 
    L’expiration du compteur pour chaque période se présente comme suit :
 
-   * **[!UICONTROL Mensuelle]** : la limite de fréquence est valable jusqu’au dernier jour du mois à 23:59:59 UTC. Par exemple, la date d’expiration mensuelle pour janvier est le 31 janvier à 23:59:59 UTC.
+   * **[!UICONTROL Mensuele]** : la limite de fréquence est valable jusqu’au dernier jour du mois à 23:59:59 UTC. Par exemple, la date d’expiration mensuelle pour janvier est le 31 janvier à 23:59:59 UTC.
 
    * **[!UICONTROL Hebdomadaire]** : la limite de fréquence est valable jusqu’au samedi à 23:59:59 UTC de cette semaine, car la semaine calendaire commence le dimanche. L’expiration est indépendante de la création de la règle. Par exemple, si la règle est créée le jeudi, cette règle est valide jusqu’au samedi à 23:59:59.
 
