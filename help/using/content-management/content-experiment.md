@@ -9,7 +9,7 @@ role: User
 level: Beginner
 keywords: contenu, expérience, multiple, audience, traitement
 exl-id: bd35ae19-8713-4571-80bc-5f40e642d121
-source-git-commit: 5b377982f43902a4549f24c022fa8f4947d896a8
+source-git-commit: 824926a3448acc57ed10074a92cc283cb8bbb658
 workflow-type: tm+mt
 source-wordcount: '748'
 ht-degree: 97%
@@ -42,7 +42,7 @@ L’objectif ici est de voir si les destinataires interagissent avec l’e-mail 
 
 ![](assets/content_experiment.png)
 
-➡️ Découvrez comment utiliser les expériences de contenu pour comparer les décisions avec le canal d’expérience basé sur du code dans [ce cas d’utilisation](experience-decisioning-uc.md).
+➡️ Découvrez comment utiliser les expériences de contenu pour comparer les décisions avec le canal d’expérience basé sur du code dans [ce cas d’utilisation](../experience-decisioning/experience-decisioning-uc.md).
 
 ## Créer votre contenu {#campaign-experiment}
 
