@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: af71d24d-77eb-44df-8216-b0aeaf4c4fa4
-source-git-commit: e96aefefd8391d1a59a5a4f9d50c6ac819bf60f8
-workflow-type: ht
-source-wordcount: '307'
-ht-degree: 100%
+source-git-commit: 435898d7e806e93ee0154c3da22f6a011fc78175
+workflow-type: tm+mt
+source-wordcount: '681'
+ht-degree: 89%
 
 ---
 
@@ -30,8 +30,7 @@ Cette documentation fournit des informations détaillées sur l’utilisation de
 
 La composition d’audiences vous permet de créer des **workflows de composition**, où vous pouvez combiner des audiences d’Adobe Experience Platform existantes en une zone de travail visuelle et exploiter diverses activités (telles que le partage, l’exclusion...) pour créer de nouvelles audiences.
 
-Une fois cette opération terminée, les **audiences obtenues** sont enregistrées dans Adobe Experience Platform avec les audiences existantes et sont prêtes à être utilisées dans des campagnes Journey Optimizer pour cibler les clientes et les clients. [Découvrir comment créer des audiences cibles dans Journey Optimizer](../audience/about-audiences.md#segments-in-journey-optimizer)
-
+Une fois cette opération terminée, les **audiences obtenues** sont enregistrées dans Adobe Experience Platform avec les audiences existantes et sont prêtes à être utilisées dans des campagnes Journey Optimizer pour cibler les clientes et les clients. Découvrez comment cibler des audiences dans Journey Optimizer
 ![](assets/audiences-process.png)
 
 >[!IMPORTANT]
@@ -50,13 +49,64 @@ La composition de l’audience est accessible à partir du menu **[!UICONTROL Au
 
 * L’onglet **[!UICONTROL Compositions]** vous permet de créer des workflows de composition dans lesquels vous pouvez combiner et organiser des audiences pour en créer de nouvelles.
 
-Cliquez sur chaque vignette pour découvrir comment utiliser la composition de l’audience :
+## Créer un workflow de composition {#create}
 
-<table style="table-layout:fixed"><tr style="border: 0;">
-<td><a href="create-compositions.md"><img alt="Créer des workflows de composition" src="../assets/do-not-localize/ao-workflows.jpg"></a>
-<div><a href="create-compositions.md"><strong>Créer votre premier workflow de composition</strong></a></div></td>
-<td><a href="composition-canvas.md"><img alt="Utiliser la zone de travail de composition" src="../assets/do-not-localize/ao-canvas.jpg"></a>
-<div><a href="composition-canvas.md"><strong>Utiliser la zone de travail de composition</strong></a></div></td>
-<td><a href="access-audiences.md"><img alt="Accéder aux audiences et les gérer" src="../assets/do-not-localize/ao-audiences.jpeg"></a>
-<div><a href="access-audiences.md"><strong>Accéder aux audiences et les gérer</strong></a></div></td>
-</tr></table>
+Pour créer un workflow de composition, procédez comme suit :
+
+1. Accédez au menu **[!UICONTROL Audiences]** et sélectionnez **[!UICONTROL Créer une audience]**.
+
+1. Sélectionnez **[!UICONTROL Composer l’audience]**.
+
+   ![](assets/audiences-create.png)
+
+1. La zone de travail de composition s’affiche avec deux activités par défaut :
+
+   * **[!UICONTROL Audience]** : le point de départ de votre composition. Cette activité permet de sélectionner une ou plusieurs audiences comme base de votre workflow,
+
+   * **[!UICONTROL Enregistrer]** : la dernière étape de votre composition. Cette activité permet d&#39;enregistrer le résultat de votre workflow dans une nouvelle audience.
+
+1. Ouvrez les propriétés de composition pour spécifier un titre et une description.
+
+   Si aucun titre n’est défini dans les propriétés, le libellé de la composition comporte le terme « Composition », suivi de sa date et de son heure de création.
+
+   ![](assets/audiences-properties.png)
+
+1. Configurez votre composition en ajoutant autant d’activités que nécessaire entre les activités **[!UICONTROL Audience]** et **[!UICONTROL Enregistrer]**. Pour plus d’informations sur la création d’une composition, consultez la [documentation sur la composition d’audience](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/audience-composition).
+
+   ![](assets/audiences-publish.png)
+
+1. Une fois votre composition prête, cliquez sur le bouton **[!UICONTROL Publier]** pour publier la composition et enregistrez les audiences obtenues dans Adobe Experience Platform.
+
+   >[!IMPORTANT]
+   >
+   >Vous pouvez publier jusqu’à 10 compositions dans une sandbox donnée. Si vous avez atteint ce seuil, vous devez supprimer une composition pour libérer de l’espace et en publier une nouvelle.
+
+   Si une erreur se produit lors de la publication, des alertes s’affichent avec des informations sur la façon de résoudre le problème.
+
+   ![](assets/audiences-alerts.png)
+
+1. La composition est publiée. Les audiences qui en résultent sont enregistrées dans Adobe Experience Platform et sont prêtes à être ciblées dans Journey Optimizer. [Découvrir comment cibler des audiences dans Journey Optimizer](../audience/about-audiences.md#segments-in-journey-optimizer)
+
+>[!NOTE]
+>
+>Les audiences de **composition d’audience** sont exécutées quotidiennement. Vous devrez peut-être donc attendre jusqu’à 24 heures pour les utiliser dans Journey Optimizer. Les attributs enrichis des audiences de composition d’audience sont aussi récents que la dernière exécution de composition, qui peut durer jusqu’à 24 heures.
+
+## Accéder aux compositions {#access}
+
+>[!CONTEXTUALHELP]
+>id="ajo_ao_publish"
+>title="Publier votre audience"
+>abstract="Publiez votre composition pour enregistrer les audiences obtenues dans Adobe Experience Platform."
+
+Toutes les compositions créées sont accessibles à partir de l’onglet **[!UICONTROL Compositions]** . Vous pouvez dupliquer ou supprimer une composition existante à tout moment à l’aide du bouton représentant des points de suspension dans la liste.
+
+Les compositions peuvent avoir plusieurs statuts :
+
+* **[!UICONTROL Brouillon]** : la composition est en cours et n’a pas été publiée.
+* **[!UICONTROL Publié]** : la composition a été publiée, les audiences qui en résultent ont été enregistrées et peuvent être utilisées.
+
+![](assets/audiences-compositions.png)
+
+>[!NOTE]
+>
+>La composition de l’audience n’est actuellement pas intégrée à la fonctionnalité de réinitialisation des sandbox. Avant de réinitialiser un sandbox, vous devez supprimer vos compositions manuellement pour vous assurer que les données d’audience associées sont correctement nettoyées. Des informations détaillées sont disponibles dans la [documentation sur les sandbox](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/user-guide.html?lang=fr#delete-audience-compositions) d’Adobe Experience Platform.

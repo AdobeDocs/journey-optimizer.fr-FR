@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: c5bae757-a109-45f8-bf8d-182044a73cca
-source-git-commit: 4de37520b3ea7842d7f385f38c07cdf4984a5939
+source-git-commit: 435898d7e806e93ee0154c3da22f6a011fc78175
 workflow-type: tm+mt
-source-wordcount: '1062'
-ht-degree: 100%
+source-wordcount: '1056'
+ht-degree: 98%
 
 ---
 
@@ -69,7 +69,7 @@ Lors de l’utilisation des offres, les préférences de personnalisation ne son
 >
 >Les portées de décision utilisées dans les canaux [!DNL Journey Optimizer] créés répondent à cette exigence de la campagne ou du parcours auxquels ils appartiennent.
 
-1. Créez une [audience Adobe Experience Platform](../audience/access-audiences.md) à l’aide du [service de segmentation](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=fr){target="_blank"} et utilisez un attribut de profil tel que **[!UICONTROL Personnaliser le contenu = Oui (opt-in)]** pour cibler les utilisateurs et utilisatrices qui ont consenti à la personnalisation.
+1. Créez une [audience Adobe Experience Platform](../audience/about-audiences.md) à l’aide du [service de segmentation](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=fr){target="_blank"} et utilisez un attribut de profil tel que **[!UICONTROL Personnaliser le contenu = Oui (opt-in)]** pour cibler les utilisateurs et utilisatrices qui ont consenti à la personnalisation.
 
    ![](assets/perso-consent-od-audience.png)
 
@@ -121,7 +121,7 @@ Pour appliquer manuellement le consentement à la personnalisation dans les camp
 
 Vous pouvez utiliser le créateur de règles de segments pour créer une audience contenant des profils d’exclusion.
 
-1. Créez une [audience Adobe Experience Platform](../audience/access-audiences.md) à l’aide du [service de segmentation](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=fr){target="_blank"}.
+1. Créez une [audience Adobe Experience Platform](../audience/about-audiences.md) à l’aide du [service de segmentation](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=fr){target="_blank"}.
 
    ![](assets/perso-consent-audience-build-rule.png)
 
@@ -137,13 +137,13 @@ Vous pouvez désormais utiliser cette audience pour filtrer les profils qui n’
 
 Vous pouvez également ajouter une vérification du consentement à la personnalisation à une audience en ajoutant une activité de partage à un workflow de composition.
 
-1. Créez une audience à l’aide de l’option **[!UICONTROL Composer une audience]**. [En savoir plus sur la création d’un workflow de composition](../audience/create-compositions.md).
+1. Créez une audience à l’aide de l’option **[!UICONTROL Composer une audience]**. [En savoir plus sur la création d’un workflow de composition](../audience/get-started-audience-orchestration.md).
 
    ![](assets/perso-consent-audience-compose.png)
 
 1. Ajoutez l’audience de départ à l’aide du bouton spécifique situé à droite.
 
-1. Cliquez sur l’icône **+** et sélectionnez une activité **[!UICONTROL Partage]** pour créer une audience partagée. [En savoir plus sur l’activité Partage](../audience/composition-canvas.md#split).
+1. Cliquez sur l’icône **+** et sélectionnez une activité **[!UICONTROL Partage]** pour créer une audience partagée.
 
    ![](assets/perso-consent-audience-split.png)
 
