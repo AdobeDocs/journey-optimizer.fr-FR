@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: parcours, configuration, propriétés
 exl-id: 6c21371c-6cbc-4d39-8fe6-39f1b8b13280
-source-git-commit: 7632b144625a02810796d7afc858fcb5809d9220
+source-git-commit: 2ce069f92e11fa9246736a4b71dfd66391d8b06c
 workflow-type: tm+mt
-source-wordcount: '2233'
-ht-degree: 100%
+source-wordcount: '2232'
+ht-degree: 97%
 
 ---
 
@@ -273,7 +273,7 @@ Une personne spécialiste du marketing dispose d’un parcours promotionnel avec
 
 ### Configuration et utilisation {#exit-criteria-config}
 
-Les critères de sortie sont définis au niveau du parcours. Un parcours peut comporter plusieurs critères de sortie. Lorsque plusieurs critères de sortie sont définis, l’évaluation se fait de haut en bas avec une logique `OR`. Ainsi, si vous disposez des critères de sortie A et B, ils seront évalués en tant que A **OU** B. Les critères sont évalués à chaque étape du parcours.
+Les critères de sortie sont définis au niveau du parcours. Un parcours peut comporter plusieurs critères de sortie. Si vous avez défini plusieurs critères de sortie, l’évaluation se produit de haut en bas avec une logique `OR`. Par conséquent, si vous avez les critères de sortie A et B, ils sont évalués en tant que A **OU** B. Les critères sont évalués à chaque étape du parcours.
 
 Pour **créer** un critère de sortie, procédez comme suit :
 
@@ -285,8 +285,8 @@ Pour **créer** un critère de sortie, procédez comme suit :
    ![](assets/exitcriteria.png){width="40%" align="left"}
 1. Saisissez un **libellé** et sélectionnez si votre critère de sortie est basé sur un **événement** ou une **audience**.
 
-* Pour les critères de sortie basés sur un événement, sélectionnez uniquement un événement unitaire.
-* Pour les critères de sortie basés sur une audience, sélectionnez une audience. Note : pour être efficaces, les critères de sortie utilisant une audience peuvent prendre jusqu’à 10 minutes.
+Pour les critères de sortie basés sur un événement, sélectionnez uniquement un événement unitaire.
+Pour les critères de sortie basés sur une audience, sélectionnez une audience. Note : pour être efficaces, les critères de sortie utilisant une audience peuvent prendre jusqu’à 10 minutes.
 
 Vous pouvez ajouter plusieurs critères de sortie.
 
