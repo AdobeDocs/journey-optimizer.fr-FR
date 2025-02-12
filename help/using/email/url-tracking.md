@@ -8,7 +8,7 @@ topic: Administration
 role: Admin
 level: Experienced
 keywords: paramètres, e-mail, configuration
-source-git-commit: 8e8f2d9fd360438f692a5cf79359d3a64c1220be
+source-git-commit: ad70e369dac61dc3ea261e7931c0b58e46c23dda
 workflow-type: tm+mt
 source-wordcount: '401'
 ht-degree: 84%
@@ -16,7 +16,7 @@ ht-degree: 84%
 ---
 
 
-## Tracking des URL {#url-tracking}
+# Tracking des URL {#url-tracking}
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_preset_utm"
