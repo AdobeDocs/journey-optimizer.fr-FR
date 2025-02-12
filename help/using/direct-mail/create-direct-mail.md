@@ -7,10 +7,10 @@ role: User
 level: Beginner
 keywords: courrier, message, campagne
 exl-id: 6b438268-d983-4ab8-9276-c4b7de74e6bd
-source-git-commit: 88f8a5e3e7314992cdb5835b9676b78127f20960
-workflow-type: ht
-source-wordcount: '747'
-ht-degree: 100%
+source-git-commit: 6bcfbc835a61aa326d4ee548722a6ad6e2942ea2
+workflow-type: tm+mt
+source-wordcount: '751'
+ht-degree: 95%
 
 ---
 
@@ -85,7 +85,7 @@ Le fichier d’extraction est requis par les opérateurs de services postaux pou
 
       >[!NOTE]
       >
-      >Par défaut, le fichier est écrit dans le répertoire racine. Le champ **[!UICONTROL Nom de fichier]** accepte le format « /votre/chemin/ici/NomDeFichier.csv », où le chemin d’accès spécifié correspond au répertoire cible sur le serveur sélectionné. <!--TBC if for SFTP and Azure only, or for all servers including S3-->
+      >Par défaut, le fichier est écrit dans le répertoire racine sur le serveur. Le champ **[!UICONTROL Nom de fichier]** accepte également le format « /your/path/here/Filename.csv », où le chemin d’accès spécifié correspond au répertoire cible sur le serveur sélectionné. <!--TBC if for SFTP and Azure only, or for all servers including S3-->
 
    1. Vous pouvez éventuellement activer l’option **[!UICONTROL Ajouter une date et une heure pour exporter le nom de fichier]** si vous souhaitez ajouter une date et une heure automatiques au nom de fichier spécifié.
 
