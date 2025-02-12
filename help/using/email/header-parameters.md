@@ -8,7 +8,7 @@ topic: Administration
 role: Admin
 level: Experienced
 keywords: paramètres, e-mail, configuration
-source-git-commit: 8e8f2d9fd360438f692a5cf79359d3a64c1220be
+source-git-commit: ad70e369dac61dc3ea261e7931c0b58e46c23dda
 workflow-type: tm+mt
 source-wordcount: '713'
 ht-degree: 93%
@@ -44,7 +44,7 @@ Lors de la configuration d’une nouvelle [configuration du canal e-mail](email-
 >
 >Les adresses doivent commencer par une lettre (A-Z) et ne peuvent contenir que des caractères alphanumériques. Vous pouvez également utiliser le trait de soulignement `_`, le point`.` et le trait dʼunion `-`.
 
-### Adresse e-mail de réponse {#reply-to-email}
+## Adresse e-mail de réponse {#reply-to-email}
 
 Lors de la définition de l’adresse **[!UICONTROL Répondre à (e-mail)]**, vous pouvez indiquer toute adresse e-mail à condition qu’il s’agisse d’une adresse valide, au format approprié et sans erreur de frappe.
 
@@ -66,7 +66,7 @@ Si vous obtenez une erreur lors de l’envoi de la configuration du canal e-mail
 >
 >Si le sous-domaine de l’adresse que vous avez saisie est un domaine qui a été [entièrement délégué](../configuration/delegate-subdomain.md#full-subdomain-delegation) à Adobe, contactez votre gestionnaire de compte Adobe.
 
-### Transférer un e-mail {#forward-email}
+## Transférer un e-mail {#forward-email}
 
 Pour transférer vers une adresse e-mail spécifique tous les e-mails reçus par [!DNL Journey Optimizer] pour le sous-domaine délégué, contactez l’Assistance clientèle d’Adobe.
 
