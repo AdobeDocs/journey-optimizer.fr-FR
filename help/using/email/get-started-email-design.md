@@ -9,7 +9,7 @@ role: User
 level: Beginner, Intermediate
 keywords: e-mail, conception, stock, ressources
 exl-id: e4f91870-f06a-4cd3-98b7-4c413233e310
-source-git-commit: 57a309956ebe2997dce3fe0eb1b6bb70b911da5e
+source-git-commit: ccfc0870a8d59d16c7f5b6b02856785aa28dd307
 workflow-type: tm+mt
 source-wordcount: '608'
 ht-degree: 100%
@@ -22,9 +22,9 @@ Vous pouvez importer du contenu existant dans [!DNL Journey Optimizer] ou tirer 
 
 * Tirez parti des **fonctionnalités de conception d’e-mail** [!DNL Journey Optimizer] pour créer ou importer des e-mails réactifs. [En savoir plus](content-from-scratch.md)
 
-* Utiliser **Adobe Experience Manager Assets Essentials** pour enrichir vos e-mails, créer et gérer votre propre base de données de ressources. [En savoir plus](../content-management/assets.md)
+* Utiliser **Adobe Experience Manager Assets Essentials** pour enrichir vos e-mails, créer et gérer votre propre base de données de ressources. [En savoir plus](../integrations/assets.md)
 
-* Rechercher des **photos Adobe Stock** pour créer votre contenu et améliorer votre conception d’e-mail. [En savoir plus](../content-management/stock.md)
+* Rechercher des **photos Adobe Stock** pour créer votre contenu et améliorer votre conception d’e-mail. [En savoir plus](../integrations/stock.md)
 
 * Améliorez l’expérience des clients en créant des messages dynamiques personnalisés en fonction de leurs attributs de profil. En savoir plus sur [Personnalisation](../personalization/personalize.md) et [Contenu dynamique](../personalization/get-started-dynamic-content.md).
 
@@ -52,7 +52,7 @@ Une fois que vous avez [ajouté un e-mail](create-email.md) dans un parcours ou 
 
 1. Dans la page d’accueil du concepteur d’e-mail, choisissez la manière de concevoir votre e-mail à l’aide des options suivantes :
 
-   * **Concevez votre e-mail en partant de zéro** dans lʼinterface du concepteur d’e-mail et tirez parti des images provenant dʼ[Adobe Experience Manager Assets](../content-management/assets.md). Découvrez comment concevoir le contenu des e-mails dans [cette section](content-from-scratch.md).
+   * **Concevez votre e-mail en partant de zéro** dans lʼinterface du concepteur d’e-mail et tirez parti des images provenant dʼ[Adobe Experience Manager Assets](../integrations/assets.md). Découvrez comment concevoir le contenu des e-mails dans [cette section](content-from-scratch.md).
 
    * **Codez ou collez du code HTML brut** directement dans le concepteur d’e-mail. Découvrez comment coder votre propre contenu dans [cette section](code-content.md).
 

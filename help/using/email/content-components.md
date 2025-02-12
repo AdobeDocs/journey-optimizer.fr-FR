@@ -9,7 +9,7 @@ role: User
 level: Beginner, Intermediate
 keywords: composants, concepteur d’e-mail, éditeur, e-mail
 exl-id: a4aaa814-3fd4-439e-8f34-faf97208378a
-source-git-commit: 4899dbe71243184b6283a32a4fe7eb2edb82f872
+source-git-commit: ccfc0870a8d59d16c7f5b6b02856785aa28dd307
 workflow-type: tm+mt
 source-wordcount: '1401'
 ht-degree: 98%
@@ -102,7 +102,7 @@ Utilisez le composant **[!UICONTROL Bouton]** pour insérer un ou plusieurs bout
 
 ## Texte {#text}
 
-Utilisez le composant **[!UICONTROL Texte]** pour insérer du texte dans votre email et ajustez le style (bordure, taille, remplissage, etc.) à l&#39;aide de l&#39;onglet **[!UICONTROL Styles]** .
+Utilisez le composant **[!UICONTROL Texte]** pour insérer du texte dans votre e-mail et ajuster le style (bordure, taille, marge intérieure, etc.) à l’aide de l’onglet **[!UICONTROL Styles]**.
 
 ![](assets/email_designer_text_component.png)
 
@@ -121,7 +121,7 @@ Utilisez le composant **[!UICONTROL Texte]** pour insérer du texte dans votre e
    * **Taille de police** : sélectionnez la taille de police de votre texte en pixels.
    * **[!UICONTROL Changer la couleur de la police]** : choisissez la couleur de votre police.
    * **[!UICONTROL Insérer un lien]** : ajoutez n’importe quel type de lien à votre contenu.
-   * **[!UICONTROL Modifier l’image]** : ajoutez une image ou une ressource à votre composant de texte. [En savoir plus sur la gestion des ressources](../content-management/assets.md)
+   * **[!UICONTROL Modifier l’image]** : ajoutez une image ou une ressource à votre composant de texte. [En savoir plus sur la gestion des ressources](../integrations/assets.md)
    * **[!UICONTROL Modifier la couleur de la police]** : choisissez la couleur de votre police.
    * **[!UICONTROL Ajouter une personnalisation]** : ajoutez des champs de personnalisation pour personnaliser le contenu à partir des données de vos profils. [En savoir plus sur la personnalisation de contenu](../personalization/personalize.md)
    * **[!UICONTROL Afficher le code source]** : affichez le code source de votre texte. Ceci ne peut pas être modifié.
@@ -184,7 +184,7 @@ Utilisez le composant **[!UICONTROL Image]** pour insérer un fichier image de v
 
    ![](assets/email_designer_10.png)
 
-1. Vous pouvez également choisir **[!UICONTROL Trouver des photos Stock similaires]**. [En savoir plus](../content-management/stock.md).
+1. Vous pouvez également choisir **[!UICONTROL Trouver des photos Stock similaires]**. [En savoir plus](../integrations/stock.md).
 
 1. Dans l’onglet **[!UICONTROL Styles]**, ajustez les autres attributs de style, tels que la marge, la bordure, etc. ou ajoutez un lien pour rediriger votre audience vers un autre contenu à partir du volet **[!UICONTROL Paramètres des composants]**.
 

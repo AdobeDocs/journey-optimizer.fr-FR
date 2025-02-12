@@ -8,7 +8,7 @@ feature: Web Channel, Subdomains
 level: Experienced
 keywords: web, sous-domaines, configuration
 exl-id: 6e00466d-4ce5-4d80-89ff-c7331a5ab158
-source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
+source-git-commit: ccfc0870a8d59d16c7f5b6b02856785aa28dd307
 workflow-type: tm+mt
 source-wordcount: '894'
 ht-degree: 100%
@@ -32,7 +32,7 @@ ht-degree: 100%
 >title="Définir un sous-domaine web"
 >abstract="Sélectionnez un sous-domaine dans la liste des sous-domaines délégués à Adobe. Vous pouvez définir ce sous-domaine web comme sous-domaine par défaut, mais un seul sous-domaine par défaut peut être utilisé à la fois."
 
-Lors de la création d’expériences web, si vous ajoutez du contenu provenant de la bibliothèque [Adobe Experience Manager Assets](../content-management/assets.md), vous devez configurer le sous-domaine qui sera utilisé pour publier ce contenu.
+Lors de la création d’expériences web, si vous ajoutez du contenu provenant de la bibliothèque [Adobe Experience Manager Assets](../integrations/assets.md), vous devez configurer le sous-domaine qui sera utilisé pour publier ce contenu.
 
 Vous pouvez utiliser un sous-domaine déjà délégué à Adobe ou en configurer un autre. En savoir plus sur la délégation de sous-domaines à Adobe dans [cette section](../configuration/delegate-subdomain.md).
 

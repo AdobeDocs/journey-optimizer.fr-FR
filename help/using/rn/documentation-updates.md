@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 6b75f1f1916a20c1ad66f5b89ec706e5b8b6844b
+source-git-commit: ccfc0870a8d59d16c7f5b6b02856785aa28dd307
 workflow-type: tm+mt
 source-wordcount: '6024'
 ht-degree: 98%
@@ -130,7 +130,7 @@ Cette page répertorie toutes les mises à jour récentes de la documentation de
 ## Février 2024 {#feb-2024}
 
 * Toutes les nouvelles fonctionnalités et améliorations de la version [!DNL Journey Optimizer] de février 2024 ont été présentées dans la documentation. [En savoir plus](release-notes.md#feb-2024)
-* L’intégration Journey Optimizer + Workfront a été ajoutée à la page des intégrations. [En savoir plus](../start/ajo-integrations.md)
+* L’intégration Journey Optimizer + Workfront a été ajoutée à la page des intégrations. [En savoir plus](../integrations/ajo-integrations.md)
 * Ajout d’informations sur la personnalisation des représentations des offres en fonction des données contextuelles. [En savoir plus](../offers/offer-library/add-representations.md#context-data)
 * La page des mécanismes de sécurisation a été mise à jour avec une note sur les actions personnalisées qui prennent en charge le format JSON uniquement lors de l’utilisation des payloads de requêtes ou de réponses. [En savoir plus](../start/guardrails.md#custom-actions-g)
 * Ajout d’informations supplémentaires sur le type d’authentification simple dans les sources de données externes. [En savoir plus](../datasource/external-data-sources.md)
@@ -250,7 +250,7 @@ Cette page répertorie toutes les mises à jour récentes de la documentation de
 * Une note a été ajoutée pour indiquer que les actions intégrées ne peuvent pas être supprimées. [En savoir plus](../start/guardrails.md#custom-actions-g)
 * Des informations ont été ajoutées sur serviceEvents ainsi qu’un exemple de requête pour vérifier les détails d’un serviceEvent. [En savoir plus](../reports/query-examples.md#common-queries)
 * Une note a été ajoutée pour indiquer que vous ne pouvez pas exécuter de requêtes sur des séries temporelles. [En savoir plus](../building-journeys/condition-activity.md).
-* Adobe Experience Manager Assets Essentials et Adobe Stock ont été ajoutés à la page d’intégration multi-solution. [En savoir plus](../start/ajo-integrations.md).
+* Adobe Experience Manager Assets Essentials et Adobe Stock ont été ajoutés à la page d’intégration multi-solution. [En savoir plus](../integrations/ajo-integrations.md).
 * L’avertissement sur les sous-domaines de messagerie à plusieurs niveaux non autorisés a été supprimé, car ils sont désormais pris en charge. [En savoir plus](../configuration/delegate-subdomain.md).
 * Une note a été ajoutée pour indiquer que, si des modifications sont apportées à une décision d’offres utilisée dans le message d’un parcours, vous devez dépublier le parcours puis le republier. [En savoir plus](../building-journeys/publishing-the-journey.md).
 * La gestion des décisions a clarifié la manière de s’assurer que les événements sont correctement pris en compte dans la section **Événement de limitation**. [En savoir plus](../offers/offer-library/add-constraints.md#capping-event).
@@ -306,7 +306,7 @@ Cette page répertorie toutes les mises à jour récentes de la documentation de
 
 ## Novembre 2022 {#november-2022}
 
-* Ajout d’une nouvelle page sur les intégrations de Journey Optimizer. [En savoir plus](../start/ajo-integrations.md)
+* Ajout d’une nouvelle page sur les intégrations de Journey Optimizer. [En savoir plus](../integrations/ajo-integrations.md)
 * Ajout d’une recommandation sur la longueur des URL des pages miroir. [En savoir plus](../email/message-tracking.md)
 * Ajout d’une nouvelle sous-section dans la configuration des paramètres d’e-mail concernant la réponse à l’adresse e-mail, y compris des recommandations pour assurer une gestion adéquate des réponses. [En savoir plus](../email/email-settings.md#reply-to-email)
 * Ajout d’une section relative à la modification du contenu d’un message dans un parcours actif. [En savoir plus](../building-journeys/journeys-message.md#update-live-content)

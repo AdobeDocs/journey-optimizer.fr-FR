@@ -9,7 +9,7 @@ role: User
 level: Beginner, Intermediate
 hidefromtoc: true
 exl-id: 0997a640-3f89-4460-ba93-ea21a9d4efc5
-source-git-commit: 4acb6777994c9f4252d106fe8e9e5405e73c9349
+source-git-commit: ccfc0870a8d59d16c7f5b6b02856785aa28dd307
 workflow-type: tm+mt
 source-wordcount: '3598'
 ht-degree: 100%
@@ -449,7 +449,7 @@ Cette page répertorie toutes les fonctionnalités et améliorations pour [!DNL 
 <tr>
 <td>
 <p>Le module d’intégration du concepteur d’e-mail Adobe Stock et Adobe Journey Optimizer fournit aux clients une façon simple de naviguer, d’acquérir des produits sous licence et d’enregistrer des images en vue de les utiliser dans la création de messages. </br>La nouvelle option <b>Rechercher des photos Stock similaires</b> vous permet également de localiser les photos Stock qui correspondent au contenu, à la couleur et à la composition de vos images. </p>
-<p>Pour plus d’informations, consultez la <a href="../content-management/stock.md">documentation détaillée</a>.</p>
+<p>Pour plus d’informations, consultez la <a href="../integrations/stock.md">documentation détaillée</a>.</p>
 </td>
 </tr>
 </tbody>

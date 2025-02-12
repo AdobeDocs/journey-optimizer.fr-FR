@@ -9,7 +9,7 @@ role: User
 level: Beginner
 keywords: destination, page de destination, conception, HTML
 exl-id: c61b8d80-17e1-4fdd-a739-efcee032dc23
-source-git-commit: 4899dbe71243184b6283a32a4fe7eb2edb82f872
+source-git-commit: ccfc0870a8d59d16c7f5b6b02856785aa28dd307
 workflow-type: tm+mt
 source-wordcount: '159'
 ht-degree: 100%
@@ -24,7 +24,7 @@ Pour commencer à créer du contenu pour la [page principale](create-lp.md#confi
 
 Plusieurs possibilités sʼoffrent alors à vous :
 
-* **Concevez votre page de destination en partant de zéro** dans lʼinterface du concepteur de contenu et tirez parti des images provenant dʼ[Adobe Experience Manager Assets](../content-management/assets.md). Découvrez comment concevoir le contenu de vos <!--or use built-in templates--> [dans cette section](../email/content-from-scratch.md).
+* **Concevez votre page de destination en partant de zéro** dans lʼinterface du concepteur de contenu et tirez parti des images provenant dʼ[Adobe Experience Manager Assets](../integrations/assets.md). Découvrez comment concevoir le contenu de vos <!--or use built-in templates--> [dans cette section](../email/content-from-scratch.md).
 
 * **Codez ou collez du code HTML brut** directement dans le concepteur de contenu. Découvrez comment coder votre propre contenu [dans cette section](../email/code-content.md).
 
