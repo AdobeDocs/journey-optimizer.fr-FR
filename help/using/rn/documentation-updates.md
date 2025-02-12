@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: ccfc0870a8d59d16c7f5b6b02856785aa28dd307
+source-git-commit: 8e8f2d9fd360438f692a5cf79359d3a64c1220be
 workflow-type: tm+mt
-source-wordcount: '6024'
-ht-degree: 98%
+source-wordcount: '6051'
+ht-degree: 97%
 
 ---
 
@@ -43,6 +43,8 @@ Cette page répertorie toutes les mises à jour récentes de la documentation de
 * Une section « Mécanismes de sécurisation et limitations » a été ajoutée à la documentation sur les outils de gestion des conflits et de hiérarchisation. [En savoir plus](../conflict-prioritization/gs-conflict-prioritization.md)
 
 * Un nouveau cas pratique de bout en bout a été ajouté pour présenter toutes les étapes nécessaires à l’utilisation de Decisioning dans les expériences de contenu avec le canal d’expérience basé sur le code [!DNL Journey Optimizer]. [En savoir plus](../experience-decisioning/experience-decisioning-uc.md)
+
+* La page **Configurer les paramètres d’e-mail** a été divisée en plusieurs sous-pages pour une meilleure lisibilité, y compris les nouvelles pages autonomes dédiées à [Désabonnement de la liste](../email/list-unsubscribe.md), [Paramètres d’en-tête](../email/header-parameters.md) et [Tracking des URL](../email/url-tracking.md).
 
 ## Décembre 2024 {#nov-2024}
 

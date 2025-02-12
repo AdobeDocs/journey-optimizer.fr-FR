@@ -5,9 +5,9 @@ user-guide-title: Guide de Journey Optimizer
 user-guide-description: Utilisez Journey Optimizer pour créer et proposer aux clients des expériences connectées, contextuelles et personnalisées
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: ccfc0870a8d59d16c7f5b6b02856785aa28dd307
+source-git-commit: 8e8f2d9fd360438f692a5cf79359d3a64c1220be
 workflow-type: tm+mt
-source-wordcount: '2156'
+source-wordcount: '2160'
 ht-degree: 98%
 
 ---
@@ -221,9 +221,11 @@ ht-degree: 98%
       + [Gérer les désinscriptions aux e-mails](using/email/email-opt-out.md)
       + Configurer le canal e-mail {#configure-email}
          + [Prise en main de la configuration du canal e-mail](using/email/get-started-email-config.md)
-         + [Définir les paramètres de la configuration du canal e-mail](using/email/email-settings.md)
-         + [Personnaliser la configuration du canal e-mail](using/email/surface-personalization.md)
+         + [Définition des paramètres de configuration du canal e-mail](using/email/email-settings.md)
          + [Activer le désabonnement de la liste](using/email/list-unsubscribe.md)
+         + [Paramètres d’en-tête](using/email/header-parameters.md)
+         + [Tracking des URL](using/email/url-tracking.md)
+         + [Personnaliser la configuration du canal e-mail](using/email/surface-personalization.md)
    + Canal in-app{#in-app}
       + [Prise en main du canal in-app](using/in-app/get-started-in-app.md)
       + [Conditions préalables pour le canal in-app](using/in-app/inapp-configuration.md)
