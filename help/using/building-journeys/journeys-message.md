@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: parcours, message, notification push, sms, e-mail, in-app, web, carte de contenu, expérience basée sur du code
 exl-id: 4db07a9e-c3dd-4873-8bd9-ac34c860694c
-source-git-commit: 4c1908ad8022ff811537aa25be95db66a55882b4
+source-git-commit: 76b97c513a78def54a520279c178fb24002040b7
 workflow-type: tm+mt
-source-wordcount: '491'
+source-wordcount: '493'
 ht-degree: 58%
 
 ---
@@ -33,7 +33,7 @@ Pour ajouter une action de canal intégrée à votre parcours, faites glisser et
 
 ## Ajouter un message dans un parcours  {#add-msg-in-journey}
 
-Avec les actions de canal intégrées, vous pouvez configurer les messages sortants ou entrants. Les canaux entrants pris en charge sont les e-mails, les messages texte (SMS/MMS) et les notifications push. Les canaux sortants pris en charge sont les suivants : expérience in-app, web, basée sur le code et carte de contenu.
+Avec les actions de canal intégrées, vous pouvez configurer les messages sortants ou entrants. Les canaux entrants pris en charge sont les e-mails, les SMS et les notifications push. Les canaux sortants pris en charge sont les suivants : in-app, web, expérience basée sur le code et carte de contenu.
 
 Pour ajouter une action de canal intégrée à un parcours, procédez comme suit :
 
@@ -79,10 +79,6 @@ Pour ajouter une action de canal intégrée à un parcours, procédez comme suit
       </tr>
       </table>
 
-     >[!NOTE]
-     >
-     >Pour les e-mails et les notifications push, vous pouvez activer l’optimisation de l’heure d’envoi. [En savoir plus](send-time-optimization.md)
-
    * Découvrez ci-dessous les étapes détaillées pour créer votre action entrante :
 
      <table style="table-layout:fixed">
@@ -123,9 +119,12 @@ Pour ajouter une action de canal intégrée à un parcours, procédez comme suit
       </tr>
       </table>
 
-     >[!NOTE]
-     >
-     >Chaque activité de message entrant est accompagnée d’une activité **Attente** de 3 jours. [En savoir plus](wait-activity.md#auto-wait-node)
+>[!NOTE]
+>
+>* Chaque activité de message entrant est accompagnée d’une activité **Attente** de 3 jours. [En savoir plus](wait-activity.md#auto-wait-node)
+>
+>* Pour les e-mails et les notifications push, vous pouvez activer l’optimisation de l’heure d’envoi. [En savoir plus](send-time-optimization.md)
+
 
 
 ## Mise à jour d’un contenu dynamique {#update-live-content}
