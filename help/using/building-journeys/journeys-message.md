@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: parcours, message, notification push, sms, e-mail, in-app, web, carte de contenu, expérience basée sur du code
 exl-id: 4db07a9e-c3dd-4873-8bd9-ac34c860694c
-source-git-commit: 994eac32591f4ca352d310bc06057bd20ea03886
+source-git-commit: 56a1ef1ba256d1aac3593d8a61e67bdc42c17d32
 workflow-type: tm+mt
-source-wordcount: '431'
-ht-degree: 100%
+source-wordcount: '444'
+ht-degree: 83%
 
 ---
 
@@ -72,6 +72,10 @@ Pour ajouter une action de canal intégrée à un parcours, procédez comme suit
       </tr>
       </table>
 
+     >[!NOTE]
+     >
+     >Pour les e-mails et les notifications push, vous pouvez activer l’optimisation de l’heure d’envoi. [En savoir plus](send-time-optimization.md)
+
    * Découvrez ci-dessous les étapes détaillées pour créer votre action entrante :
 
      <table style="table-layout:fixed">
@@ -114,20 +118,10 @@ Pour ajouter une action de canal intégrée à un parcours, procédez comme suit
 
      >[!NOTE]
      >
-     >Chaque activité de message entrant est accompagnée d’une activité **Attente** de 3 jours. [En savoir plus](../building-journeys/wait-activity.md#auto-wait-node)
+     >Chaque activité de message entrant est accompagnée d’une activité **Attente** de 3 jours. [En savoir plus](wait-activity.md#auto-wait-node)
 
-## Recommandation {#recommendation}
 
-[!DNL Journey Optimizer] est fourni avec une fonctionnalité de message intégrée. Cependant, les actions personnalisées vous permettent de configurer la connexion d’un système tiers pour envoyer des messages ou des appels d’API.
-
-* Si vous utilisez un système tiers pour envoyer vos messages, vous pouvez créer une action personnalisée. [En savoir plus](../action/action.md)
-
-* Si vous utilisez Campaign et Journey Optimizer, reportez-vous aux sections suivantes :
-
-   * [[!DNL Journey Optimizer] et Campaign v7/v8](../action/acc-action.md)
-   * [[!DNL Journey Optimizer] et Campaign Standard](../action/acs-action.md)
-
-## Mettre à jour le contenu dynamique{#update-live-content}
+## Mettre à jour le contenu dynamique {#update-live-content}
 
 Vous pouvez mettre à jour le contenu d’une action de canal intégrée dans un parcours dynamique.
 
@@ -137,8 +131,19 @@ Pour ce faire, ouvrez votre parcours dynamique, sélectionnez l’activité de c
 
 Cependant, vous ne pouvez pas modifier les attributs utilisés dans la personnalisation, qu’il s’agisse d’attributs de profil ou de données contextuelles (à partir des propriétés d’événement ou de parcours).
 
-Si vous avez modifié des données contextuelles, le message d’erreur suivant s’affiche : ERR_AUTHORING_JOURNEYVERSION_201.
+Si vous avez modifié des données contextuelles, le message d’erreur suivant s’affiche : `ERR_AUTHORING_JOURNEYVERSION_201`
 
-Si vous avez modifié des attributs de profil, le message d’erreur suivant s’affiche : ERR_AUTHORING_JOURNEYVERSION_202.
+Si vous avez modifié les attributs de profil, le message d’erreur suivant s’affiche : `ERR_AUTHORING_JOURNEYVERSION_202`
 
 Notez que pour l’activité in-app, des modifications peuvent être apportées au contenu pendant que le parcours est actif, mais les triggers in-app ne peuvent pas être modifiés.
+
+## Envoyer avec des actions personnalisées {#recommendation}
+
+Au lieu d&#39;utiliser les fonctionnalités de message intégrées, vous pouvez utiliser des actions personnalisées pour configurer la connexion d&#39;un système tiers afin d&#39;envoyer des messages ou des appels d&#39;API.
+
+* Si vous utilisez un système tiers pour envoyer vos messages, vous pouvez créer une action personnalisée. [En savoir plus](../action/action.md)
+
+* Si vous utilisez Adobe Campaign, reportez-vous aux sections suivantes :
+
+   * [[!DNL Journey Optimizer] et Campaign v7/v8](../action/acc-action.md)
+   * [[!DNL Journey Optimizer] et Campaign Standard](../action/acs-action.md)
