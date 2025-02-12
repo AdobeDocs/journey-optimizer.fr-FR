@@ -3,14 +3,14 @@ solution: Journey Optimizer
 product: journey optimizer
 title: Configuration mobile et web
 description: Découvrez comment configurer et surveiller les canaux web et mobiles
-feature: Surface, Channel Configuration
+feature: Channel Configuration
 topic: Administration
 role: Admin
 level: Experienced
 keywords: canal, surface, technique, paramètres, optimizer
 exl-id: 846e0d11-798b-4f3b-80db-848a17d32830
-source-git-commit: 7a5bed3f4ee16c1a42289779fc53148bf6ab39e8
-workflow-type: ht
+source-git-commit: f916d91ffd2c41261612f2127f35c41275c9d013
+workflow-type: tm+mt
 source-wordcount: '770'
 ht-degree: 100%
 

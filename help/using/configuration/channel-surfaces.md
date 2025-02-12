@@ -3,13 +3,13 @@ solution: Journey Optimizer
 product: journey optimizer
 title: Paramétrer des configurations de canal
 description: Découvrir comment configurer et surveiller les configurations des canaux
-feature: Surface, Channel Configuration
+feature: Channel Configuration
 topic: Administration
 role: Admin
 level: Experienced
 keywords: canal, surface, technique, paramètres, optimizer
 exl-id: 9038528f-3da0-4e0e-9b82-b72c67b42391
-source-git-commit: 4cd7e193079f0e9d141d28ca80dd0cf7a899fbea
+source-git-commit: f916d91ffd2c41261612f2127f35c41275c9d013
 workflow-type: tm+mt
 source-wordcount: '1737'
 ht-degree: 100%

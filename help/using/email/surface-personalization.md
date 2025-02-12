@@ -3,13 +3,13 @@ solution: Journey Optimizer
 product: journey optimizer
 title: Personnaliser les paramètres de configuration du canal e-mail
 description: Découvrir comment définir des valeurs personnalisées pour vos paramètres au niveau de la configuration de canal e-mail
-feature: Surface, Subdomains
+feature: Subdomains, Channel Configuration
 topic: Administration
 role: Admin
 level: Experienced
 keywords: paramètres, e-mail, configuration, sous-domaine
 exl-id: 1e004a76-5d6d-43a1-b198-5c9b41f5332c
-source-git-commit: 8a9f0b42acb19f0b28340f11dada19f5b6524c66
+source-git-commit: f916d91ffd2c41261612f2127f35c41275c9d013
 workflow-type: tm+mt
 source-wordcount: '1069'
 ht-degree: 100%
