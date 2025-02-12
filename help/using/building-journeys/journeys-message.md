@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: parcours, message, notification push, sms, e-mail, in-app, web, carte de contenu, expérience basée sur du code
 exl-id: 4db07a9e-c3dd-4873-8bd9-ac34c860694c
-source-git-commit: 76b97c513a78def54a520279c178fb24002040b7
+source-git-commit: 40c067d85b278380abd874fc6edc69f32c0c56ef
 workflow-type: tm+mt
-source-wordcount: '493'
+source-wordcount: '494'
 ht-degree: 58%
 
 ---
@@ -29,7 +29,7 @@ Pour ajouter une action de canal intégrée à votre parcours, faites glisser et
 
 >[!NOTE]
 >
->Vous pouvez également configurer des actions personnalisées pour vous envoyer des messages. [En savoir plus](#recommendation)
+>Vous pouvez également configurer des actions personnalisées pour envoyer vos messages dans [!DNL Journey Optimizer] . [En savoir plus](#recommendation)
 
 ## Ajouter un message dans un parcours  {#add-msg-in-journey}
 
