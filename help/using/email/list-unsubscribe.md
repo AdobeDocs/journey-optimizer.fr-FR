@@ -8,7 +8,7 @@ topic: Administration
 role: Admin
 level: Experienced
 keywords: paramètres, e-mail, configuration
-source-git-commit: d782c668b412cebeacd1289c79bbf86ec710786b
+source-git-commit: 8e299b90f601cd931940a64e691e186894d4012e
 workflow-type: tm+mt
 source-wordcount: '770'
 ht-degree: 32%
@@ -76,7 +76,7 @@ Si vous gérez le consentement en dehors d’Adobe, sélectionnez l’option **[
 >
 >Si vous utilisez l’option **[!UICONTROL Gestion par le client]**, Adobe ne stocke aucune donnée de désabonnement ou de consentement. Avec l’option **[!UICONTROL Gestion par le client]**, les organisations choisissent d’utiliser un système externe et seront chargées de gérer leurs données de consentement dans ce système externe. Il n’existe pas de synchronisation automatique des données de consentement entre le système externe et [!DNL Journey Optimizer]. Toute synchronisation des données de consentement, qui provient du système externe pour mettre à jour les données de consentement des utilisateurs en [!DNL Journey Optimizer], doit être lancée par l’organisation sous la forme d’un transfert de données pour renvoyer les données de consentement en [!DNL Journey Optimizer].
 
-## Configuration de l’API de déchiffrement {#configure-decrypt-api}
+### Configuration de l’API de déchiffrement {#configure-decrypt-api}
 
 Avec l’option **[!UICONTROL Géré par le client]** sélectionnée, si vous saisissez des points d’entrée personnalisés et les utilisez dans une campagne ou un parcours, [!DNL Journey Optimizer] ajoute certains paramètres spécifiques au profil par défaut à l’événement de mise à jour du consentement <!--sent to the custom endpoint -->lorsque vos destinataires cliquent sur le lien Se désabonner.
 
