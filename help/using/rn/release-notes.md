@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Notes de mise à jour d’Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: fc6a552700a52c5f513299ab861750263aeda98a
+source-git-commit: d782c668b412cebeacd1289c79bbf86ec710786b
 workflow-type: tm+mt
-source-wordcount: '2270'
-ht-degree: 96%
+source-wordcount: '2346'
+ht-degree: 93%
 
 ---
 
@@ -22,7 +22,25 @@ ht-degree: 96%
 
 [!DNL Adobe Journey Optimizer] offre en permanence de nouvelles fonctionnalités, des améliorations des fonctionnalités existantes et des correctifs. Toutes les modifications sont consolidées la dernière semaine de chaque mois dans ces notes de mise à jour. [!DNL Adobe Journey Optimizer] est créé de manière native sur [!DNL Adobe Experience Platform] et hérite de ses dernières innovations et améliorations. En savoir plus sur ces modifications dans les [Notes de mise à jour d’Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=fr){target="_blank"}.
 
-## Mises à jour de janvier 2025 {#25-01-rn}
+## Dernières mises à jour de &#39;25 {#25-01-rn}
+
+### Amélioration de février {#25-02-improvements}
+
+L’amélioration ci-dessous est apportée à la mise à jour de février.
+
+**Configuration des emails** - Date de disponibilité : 10 février 2025
+
+* Si vous gérez le consentement en dehors d’Adobe, vous pouvez désormais définir une adresse e-mail de désabonnement personnalisée et une URL de désabonnement en un clic personnalisée dans le cadre des paramètres de configuration de votre canal e-mail. [En savoir plus](../email/list-unsubscribe.md#custom-managed)
+
+  ![](../email/assets/surface-list-unsubscribe-custom.png){width="80%"}
+
+  >[!AVAILABILITY]
+  >
+  >Cette fonctionnalité est publiée en disponibilité limitée pour un petit groupe de personnes.
+
+### Nouvelles fonctionnalités {#25-01-features}
+
+Les nouvelles fonctionnalités publiées en janvier sont présentées ci-dessous.
 
 <table>
 <thead>
@@ -59,9 +77,9 @@ ht-degree: 96%
 </tbody>
 </table>
 
-### Améliorations {#25-01-improvements}
+### Améliorations de janvier {#25-01-improvements}
 
-Cette version est fournie avec les améliorations répertoriées ci-dessous.
+Les améliorations publiées en janvier sont répertoriées ci-dessous.
 
 **Prise de décision**
 
