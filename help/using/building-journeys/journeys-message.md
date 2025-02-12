@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: parcours, message, notification push, sms, e-mail, in-app, web, carte de contenu, expérience basée sur du code
 exl-id: 4db07a9e-c3dd-4873-8bd9-ac34c860694c
-source-git-commit: 56a1ef1ba256d1aac3593d8a61e67bdc42c17d32
+source-git-commit: 4c1908ad8022ff811537aa25be95db66a55882b4
 workflow-type: tm+mt
-source-wordcount: '444'
-ht-degree: 83%
+source-wordcount: '491'
+ht-degree: 58%
 
 ---
 
@@ -23,23 +23,30 @@ ht-degree: 83%
 >title="Action de canal intégrée"
 >abstract="Journey Optimizer est fourni avec des fonctionnalités d’actions de canal intégrées. Vous pouvez simplement ajouter à votre parcours une activité sortante (e-mail, message texte (SMS/MMS), notification push) ou entrante (in-app, web, expérience basée sur du code, carte de contenu) et définir les paramètres et le contenu. Elle est ensuite exécutée et envoyée dans le contexte du parcours."
 
-[!DNL Journey Optimizer] est fourni avec des fonctionnalités d’actions de canal intégrées. Vous pouvez simplement ajouter à votre parcours une activité sortante (e-mail, message texte (SMS/MMS), notification push) ou entrante (in-app, web, expérience basée sur du code, carte de contenu) et définir les paramètres et le contenu. Elle est ensuite exécutée et envoyée dans le contexte du parcours.
+[!DNL Journey Optimizer] est fourni avec des fonctionnalités d’action de canal intégrées qui sont utilisées pour envoyer des messages : lorsqu’un profil entre dans cette activité, un message lui est envoyé.
+
+Pour ajouter une action de canal intégrée à votre parcours, faites glisser et déposez une activité de canal, puis définissez ses paramètres et son contenu. Elle est ensuite exécutée et envoyée dans le contexte du parcours.
 
 >[!NOTE]
 >
->Vous pouvez également configurer des actions spécifiques pour envoyer vos messages. [En savoir plus](#recommendation)
+>Vous pouvez également configurer des actions personnalisées pour vous envoyer des messages. [En savoir plus](#recommendation)
+
+## Ajouter un message dans un parcours  {#add-msg-in-journey}
+
+Avec les actions de canal intégrées, vous pouvez configurer les messages sortants ou entrants. Les canaux entrants pris en charge sont les e-mails, les messages texte (SMS/MMS) et les notifications push. Les canaux sortants pris en charge sont les suivants : expérience in-app, web, basée sur le code et carte de contenu.
 
 Pour ajouter une action de canal intégrée à un parcours, procédez comme suit :
 
 1. Débutez votre parcours avec une activité [Événement](general-events.md) ou [Lecture d’audience](read-audience.md).
 
-1. Dans la section **Actions** de la palette, effectuez un glisser-déposer d’une activité sortante (**e-mail**, **notification push**, **SMS**) ou entrante (**in-app**, **web**, **expérience basée sur du code**, **carte de contenu**) dans la zone de travail.
+1. Dans la section **Actions** de la palette, effectuez un glisser-déposer d’une activité de canal dans la zone de travail.
 
    ![](assets/journey-web-activity.png)
 
-1. Configurez votre activité.
 
-   * Découvrez ci-dessous les étapes détaillées pour créer le contenu de votre message :
+1. Configurez votre activité. Des instructions de configuration détaillées sont disponibles dans les liens ci-dessous.
+
+   * Découvrez les étapes détaillées pour créer votre action sortante comme suit :
 
      <table style="table-layout:fixed">
       <tr style="border: 0;">
@@ -121,7 +128,7 @@ Pour ajouter une action de canal intégrée à un parcours, procédez comme suit
      >Chaque activité de message entrant est accompagnée d’une activité **Attente** de 3 jours. [En savoir plus](wait-activity.md#auto-wait-node)
 
 
-## Mettre à jour le contenu dynamique {#update-live-content}
+## Mise à jour d’un contenu dynamique {#update-live-content}
 
 Vous pouvez mettre à jour le contenu d’une action de canal intégrée dans un parcours dynamique.
 
