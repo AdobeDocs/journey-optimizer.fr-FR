@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: heure d’envoi, envoi, message, optimisation, parcours, IA, Intelligent
 exl-id: ec604e91-4c7f-459c-b6ff-d825919e7181
-source-git-commit: a0ace8232d6851b7cd41ba4d8a06a2a42bb799e6
+source-git-commit: 78b8b4d6e8cf49ab39150b7bc412bef009bbad2b
 workflow-type: tm+mt
-source-wordcount: '1505'
+source-wordcount: '1485'
 ht-degree: 11%
 
 ---
@@ -33,30 +33,24 @@ ht-degree: 11%
 >title="Activer l’optimisation de l’heure d’envoi"
 >abstract="Les messages push sont définis par défaut sur l&#39;option d&#39;ouverture, car les clics ne s&#39;appliquent pas à la messagerie push. Vous pouvez également choisir de mettre entre crochets les heures d&#39;envoi utilisées par le système en saisissant une valeur pour l&#39;option Envoyer pendant."
 
-
 La fonctionnalité d&#39;optimisation de l&#39;heure d&#39;envoi de Adobe Journey Optimizer, optimisée par les services d&#39;IA en Parcours d&#39;Adobe, choisit l&#39;heure d&#39;envoi optimale pour les e-mails et les messages push afin d&#39;optimiser l&#39;engagement du client, en fonction du comportement historique d&#39;ouverture et de clic de vos clients.
 
 L’optimisation de l’heure d’envoi n’est disponible que pour les types d’action intégrés E-mail et Push de Journey Optimizer et n’est actuellement pas disponible pour les messages envoyés par le biais d’actions personnalisées ou pour d’autres types d’action. L’optimisation de l’heure d’envoi n’est disponible que pour les actions E-mail et Push dans les Parcours et n’est actuellement pas disponible pour les messages envoyés via les campagnes.
 
 >[!AVAILABILITY]
 >
->* Au moins 1 000 profils avec des données de messagerie récentes sont recommandés pour la formation et la notation initiales de l&#39;optimisation de l&#39;heure d&#39;envoi.
+>* La fonctionnalité d’optimisation de l’heure d’envoi est activée sur demande pour les clients Adobe Journey Optimizer. Contactez l’assistance clientèle d’Adobe ou votre représentant Adobe pour activer la fonctionnalité pour votre organisation.
 >
 >* L’optimisation de l’heure d’envoi s’applique uniquement aux canaux **e-mail** et **notification push**.
-
-## Activer l’optimisation de l’heure d’envoi{#enable-send-time-optimization}
-
-La fonctionnalité d’optimisation de l’heure d’envoi est activée sur demande pour les clients Adobe Journey Optimizer. Contactez l’assistance clientèle d’Adobe ou votre représentant Adobe pour activer la fonctionnalité pour votre organisation.
+>
 
 ## Utiliser l’optimisation de l’heure d’envoi{#use-send-time-optimization}
 
 Utilisez l’optimisation de l’heure d’envoi sur une action e-mail ou push en activant le commutateur Optimisation de l’heure d’envoi à partir des paramètres d’action.
 
-![](assets/sto-use.png)
+![](assets/jo-message5.png)
 
->[!TIP]
->
->L’optimisation de l’heure d’envoi ne doit pas être utilisée pour les messages opérationnels urgents et sensibles au temps, par exemple, une confirmation de commande, une notification de réinitialisation de mot de passe ou une notification de changement de porte d’embarquement. L’optimisation de l’heure d’envoi est mieux utilisée sur les communications marketing moins urgentes, par exemple, une publicité hebdomadaire, des informations promotionnelles sur un nouveau produit ou des informations sur une vente d’un mois.
+L’optimisation de l’heure d’envoi ne doit pas être utilisée pour les messages opérationnels urgents et sensibles au temps, par exemple, une confirmation de commande, une notification de réinitialisation de mot de passe ou une notification de changement de porte d’embarquement. L’optimisation de l’heure d’envoi est mieux utilisée sur les communications marketing moins urgentes, par exemple, une publicité hebdomadaire, des informations promotionnelles sur un nouveau produit ou des informations sur une vente d’un mois.
 
 Pour les e-mails, choisissez si vous souhaitez optimiser les ouvertures d&#39;e-mail ou les clics sur e-mail en sélectionnant le bouton radio approprié. Les messages push sont toujours optimisés pour les ouvertures.
 
