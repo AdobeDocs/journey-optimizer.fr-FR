@@ -6,7 +6,7 @@ feature: Release Notes
 topic: Content Management
 description: Notes de mise à jour d’Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 9538c8c19b242036ce58799b51ef25b8204bf6ec
+source-git-commit: 8c9e69e35ee2c56215f7fe3f4a1f5f9759a2f9b8
 workflow-type: tm+mt
 source-wordcount: '2346'
 ht-degree: 93%
@@ -53,6 +53,7 @@ Les nouvelles fonctionnalités publiées en janvier sont présentées ci-dessous
 <td>
 <p>Vous avez désormais la possibilité d’améliorer vos rapports Journey Optimizer à l’aide de modèles Customer Journey Analytics. Cette nouvelle fonctionnalité vous permet de rationaliser votre processus de création de rapports à l’aide de modèles préconçus et adaptés à vos besoins en matière d’analyse.
 </p>
+<img src="assets/do-not-localize/cja-templates.gif">
 <p>Pour plus d’informations, consultez la <a href="../reports/report-cja-manage.md#cja-template">documentation détaillée</a>.</p>
 <p>Date de disponibilité : à partir du 15 janvier 2025</p>
 </tr>
