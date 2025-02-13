@@ -1,40 +1,40 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Génération d’e-mails avec l’assistant IA dans l’accélérateur de contenu de Journey Optimizer
-description: Commencer à générer du contenu et des ressources d’e-mail avec l’accélérateur de contenu de l’assistant IA dans Journey Optimizer
+title: Génération d’e-mails avec l’assistant AI dans Journey Optimizer
+description: Commencer à générer du contenu et des ressources d’e-mail avec l’assistant AI dans Journey Optimizer
 feature: Content Assistant
 topic: Content Management
 role: User
 level: Beginner
 exl-id: 1b3930ff-f7b0-43f0-bcf2-5c3de0a88b25
-source-git-commit: f316ec79958ac23e0e416f0cafd49c017f2b6d4c
+source-git-commit: 5cfae89416219fac54d310d9fa3f40fdfdd8878e
 workflow-type: tm+mt
-source-wordcount: '1593'
-ht-degree: 100%
+source-wordcount: '1563'
+ht-degree: 92%
 
 ---
 
-# Génération d’e-mails avec l’accélérateur de contenu de l’assistant IA {#generative-email}
+# Génération d’e-mails avec l’assistant IA  {#generative-email}
 
 >[!IMPORTANT]
 >
 >Avant de commencer à utiliser cette fonctionnalité, lisez la section connexe [Mécanismes de sécurisation et limitations](gs-generative.md#generative-guardrails).
 ></br>
 >
->Vous devez accepter un [contrat d’utilisation](https://www.adobe.com/fr/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html) avant de pouvoir utiliser l’assistant IA dans Journey Optimizer pour l’accélération de contenu. Pour en savoir plus, contactez votre représentant ou représentante Adobe.
+>Vous devez accepter un [contrat d’utilisateur](https://www.adobe.com/fr/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html) avant de pouvoir utiliser l’assistant AI dans Journey Optimizer. Pour en savoir plus, contactez votre représentant ou représentante Adobe.
 
-Après avoir conçu et personnalisé vos e-mails, utilisez toute la puissance de l’assistant IA dans Journey Optimizer, alimenté par l’IA générative, pour améliorer votre contenu.
+Après avoir conçu et personnalisé vos e-mails, utilisez la puissance de l’assistant IA dans Journey Optimizer, alimenté par l’IA générative, pour améliorer votre contenu.
 
-Utilisez l’accélérateur de contenu de l’assistant IA de Journey Optimizer pour améliorer l’efficacité de vos campagnes en créant des e-mails complets, des fragments de texte personnalisés et des images personnalisées qui s’adressent directement à votre audience, stimulant ainsi l’engagement et l’interaction.
+Utilisez l’assistant d’IA dans Journey Optimizer pour améliorer l’efficacité de vos campagnes en créant des e-mails complets, des fragments de texte personnalisés et des images personnalisées qui s’adressent directement à votre audience, ce qui stimule l’engagement et les interactions.
 
-Explorez les onglets ci-dessous pour savoir comment utiliser l’accélérateur de contenu de l’assistant IA dans Journey Optimizer.
+Explorez les onglets ci-dessous pour savoir comment utiliser l’assistant IA dans Journey Optimizer.
 
 >[!BEGINTABS]
 
 >[!TAB Génération d’e-mail complet]
 
-Dans l’exemple suivant, nous utiliserons l’accélérateur de contenu de l’assistant IA pour peaufiner un modèle d’e-mail existant.
+Dans l’exemple suivant, nous utiliserons l’assistant AI pour affiner un modèle d’e-mail existant.
 
 1. Après avoir créé et configuré votre campagne par e-mail, cliquez sur **[!UICONTROL Modifier le contenu]**.
 
@@ -44,7 +44,7 @@ Dans l’exemple suivant, nous utiliserons l’accélérateur de contenu de l’
 
    ![](assets/full-email-1.png){zoomable="yes"}
 
-1. Activez l’option **[!UICONTROL Utiliser le contenu d’origine]** de l’accélérateur de contenu de l’assistant IA pour personnaliser le nouveau contenu en fonction du contenu sélectionné.
+1. Activez l’option **[!UICONTROL Utiliser le contenu original]** de l’assistant IA afin de personnaliser le nouveau contenu en fonction du contenu sélectionné.
 
 1. Affinez le contenu en décrivant ce que vous souhaitez générer dans le champ **[!UICONTROL Invite]**.
 
@@ -101,7 +101,7 @@ Lorsque vous avez défini le contenu, l’audience et le planning, vous pouvez p
 
 >[!TAB Génération de texte uniquement]
 
-Dans l’exemple suivant, nous utiliserons l’accélérateur de contenu de l’assistant IA afin d’améliorer le contenu de notre e-mail.
+Dans l’exemple suivant, nous utiliserons l’assistant AI pour améliorer le contenu de notre e-mail.
 
 1. Après avoir créé et configuré votre campagne par e-mail, cliquez sur **[!UICONTROL Modifier le contenu]**.
 
@@ -111,7 +111,7 @@ Dans l’exemple suivant, nous utiliserons l’accélérateur de contenu de l’
 
    ![](assets/text-genai-1.png){zoomable="yes"}
 
-1. Activez l’option **[!UICONTROL Utiliser le contenu d’origine]** de l’accélérateur de contenu de l’assistant IA pour personnaliser le nouveau contenu en fonction du contenu sélectionné.
+1. Activez l’option **[!UICONTROL Utiliser le contenu original]** de l’assistant IA afin de personnaliser le nouveau contenu en fonction du contenu sélectionné.
 
 1. Affinez le contenu en décrivant ce que vous souhaitez générer dans le champ **[!UICONTROL Invite]**.
 
@@ -163,19 +163,19 @@ Lorsque vous avez défini le contenu, l’audience et le planning, vous pouvez p
 
 >[!TAB Génération d’images uniquement]
 
-Dans l’exemple ci-dessous, découvrez comment tirer parti de l’accélérateur de contenu de l’assistant IA pour optimiser et améliorer vos ressources, afin d’offrir une expérience plus conviviale.
+Dans l’exemple ci-dessous, découvrez comment tirer parti de l’assistant IA pour optimiser et améliorer vos ressources, afin d’offrir une expérience plus conviviale.
 
 1. Après avoir créé et configuré votre campagne par e-mail, cliquez sur **[!UICONTROL Modifier le contenu]**.
 
    Pour plus d’informations sur la configuration de votre campagne par e-mail, consultez [cette page](../email/create-email.md).
 
-1. Sélectionnez la ressource à modifier à l’aide de l’accélérateur de contenu de l’assistant IA.
+1. Sélectionnez la ressource que vous souhaitez modifier à l’aide de l’assistant IA.
 
 1. Dans le menu de droite, sélectionnez **[!UICONTROL Assistant IA]**.
 
    ![](assets/image-genai-1.png){zoomable="yes"}
 
-1. Activez l’option **[!UICONTROL Style de référence]** pour l’accélérateur de contenu de l’assistant IA afin de personnaliser le nouveau contenu en fonction du contenu de référence. Vous pouvez également charger une image pour ajouter du contexte à votre variation.
+1. Activez l’option **[!UICONTROL Style de référence]** pour l’assistant IA afin de personnaliser le nouveau contenu en fonction du contenu de référence. Vous pouvez également charger une image pour ajouter du contexte à votre variation.
 
 1. Affinez le contenu en décrivant ce que vous souhaitez générer dans le champ **[!UICONTROL Invite]**.
 
@@ -219,6 +219,6 @@ Dans l’exemple ci-dessous, découvrez comment tirer parti de l’accélérateu
 
 ## Vidéo pratique {#video}
 
-Découvrez comment utiliser l’accélérateur de contenu de l’assistant IA dans Journey Optimizer afin de générer des e-mails, du texte ou des images complets.
+Découvrez comment utiliser l’assistant d’IA dans Journey Optimizer pour générer des e-mails, du texte ou des images complets.
 
 >[!VIDEO](https://video.tv.adobe.com/v/3433552)

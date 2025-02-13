@@ -1,21 +1,21 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Assistant IA pour les cas d’utilisation de l’accélérateur de contenu
-description: Découvrir comment utiliser l’assistant IA pour l’accélérateur de contenu à travers les cas d’utilisation
+title: Cas d’utilisation de l’Assistant IA
+description: Découvrez à travers les cas d’utilisation comment utiliser l’assistant AI
 feature: Content Assistant
 topic: Content Management
 role: User
 level: Beginner
 exl-id: 958ad2bb-b62e-431d-8ad6-7b294cbba544
-source-git-commit: f5df65a0225754ab66fb2ffa33c5130f7137b644
+source-git-commit: 5cfae89416219fac54d310d9fa3f40fdfdd8878e
 workflow-type: tm+mt
-source-wordcount: '547'
-ht-degree: 100%
+source-wordcount: '529'
+ht-degree: 87%
 
 ---
 
-# Assistant IA pour les cas d’utilisation de l’accélérateur de contenu {#generative-uc}
+# Cas d’utilisation de l’Assistant IA {#generative-uc}
 
 >[!NOTE]
 >
@@ -29,7 +29,7 @@ ht-degree: 100%
 
 1. Ouvrez la section **[!UICONTROL Assistant IA]**.
 
-1. Activez la fonctionnalité **[!UICONTROL Utiliser le contenu d’origine]** de l’assistant IA pour l’accélérateur de contenu afin de personnaliser le nouveau contenu en fonction des détails de votre campagne, y compris le nom de la campagne et l’audience ciblée.
+1. Activez la fonction **[!UICONTROL Utiliser le contenu d’origine]** dans l’assistant d’IA pour personnaliser le nouveau contenu en fonction des détails de votre campagne, y compris le nom de la campagne et l’audience ciblée.
 
 1. Ajustez le contenu en spécifiant votre requête dans la zone **[!UICONTROL Prompt]** et personnalisez les paramètres selon vos besoins.
 
@@ -95,11 +95,11 @@ Lorsque vous avez défini le contenu, l’audience et le planning, vous pouvez p
 
 1. Après avoir défini et configuré votre campagne par e-mail, cliquez sur **[!UICONTROL Modifier le contenu]**.
 
-1. Sélectionnez la ressource à modifier à l’aide de l’assistant IA pour l’accélérateur de contenu.
+1. Sélectionnez la ressource à modifier à l’aide de l’assistant d’IA.
 
 1. Dans le menu de droite, sélectionnez **[!UICONTROL Assistant IA]**.
 
-1. Activez l’option **[!UICONTROL Référence stylistique]** afin que l’assistant IA pour l’accélérateur de contenu puisse générer un nouveau contenu à l’aide du matériel de référence.
+1. Activez l’option **[!UICONTROL Style de référence]** afin que l’assistant d’IA puisse générer du nouveau contenu à l’aide du matériau de référence.
 
 1. Cliquez sur **[!UICONTROL Charger l’image]** pour inclure une image qui ajoute du contexte à votre variation.
 
