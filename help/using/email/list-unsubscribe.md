@@ -1,17 +1,18 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Configurer les paramètres d’e-mail
-description: Découvrez comment configurer List-Unsubscribe au niveau de la configuration des canaux
+title: Configurer le désabonnement de la liste
+description: Découvrez comment inclure une URL de désabonnement en un clic dans l’en-tête de vos e-mails lors de la configuration de votre canal
 feature: Email, Surface
 topic: Administration
 role: Admin
 level: Experienced
 keywords: paramètres, e-mail, configuration
-source-git-commit: 8e299b90f601cd931940a64e691e186894d4012e
+exl-id: c6c77975-ec9c-44c8-a8d8-50ca6231fea6
+source-git-commit: 8e8f2d9fd360438f692a5cf79359d3a64c1220be
 workflow-type: tm+mt
-source-wordcount: '770'
-ht-degree: 32%
+source-wordcount: '779'
+ht-degree: 31%
 
 ---
 
