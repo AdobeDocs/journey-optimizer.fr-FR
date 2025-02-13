@@ -8,10 +8,10 @@ topic: Content Management
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: e1192f6540ee3317a0e03100dedb7780708f7bec
+source-git-commit: 99f4dc8dc7ba3c6acb886e4a37ba36d9b187c68b
 workflow-type: tm+mt
-source-wordcount: '625'
-ht-degree: 26%
+source-wordcount: '676'
+ht-degree: 25%
 
 ---
 
@@ -104,6 +104,8 @@ Les nouvelles fonctionnalités de cette version sont présentées ci-dessous.
 
 Les améliorations ci-dessous accompagnent la mise à jour de février.
 
+* **Parcours** - Vous pouvez désormais tester vos actions personnalisées de parcours en envoyant des appels API à partir de l’interface utilisateur d’administration. Cette nouvelle fonctionnalité vous permet de résoudre les problèmes liés aux actions personnalisées.
+
 * **Durée de vie (TTL) du jeu de données** - À compter de ce mois-ci, un mécanisme de sécurisation de durée de vie (TTL) sera déployé vers les jeux de données générés par le système Journey Optimizer dans de nouveaux sandbox et de nouvelles organisations, comme suit :
 
    * 90 jours pour les données dans la banque de profils
@@ -114,6 +116,12 @@ Les améliorations ci-dessous accompagnent la mise à jour de février.
 * **Playbooks** - Vous pouvez désormais créer et publier vos propres playbooks de cas d’utilisation dans Journey Optimizer.
 
 * **Publipostage direct** - DLZ (DAta Landing Zone) est désormais pris en charge en tant que type de serveur pour le routage des fichiers dans la configuration du publipostage direct.
+
+**Personnalisation**
+
+* L’éditeur de personnalisation a été amélioré avec de nouvelles fonctionnalités telles que les options de saisie automatique, de recherche et de filtrage. Vous pouvez également afficher ou masquer les attributs obsolètes.
+
+* Date de disponibilité : 29 janvier 2025 - De nouvelles fonctions d’assistance date/heure sont disponibles dans l’éditeur de personnalisation. [En savoir plus](../personalization/functions/dates.md)
 
 **Configuration des emails** - Date de disponibilité : 12 février 2025
 
@@ -128,7 +136,3 @@ Les améliorations ci-dessous accompagnent la mise à jour de février.
 **Decisioning** - Date de disponibilité : 28 janvier 2025
 
 * Decisioning prend désormais en charge les types de données Objet lors de la modification du schéma du catalogue d&#39;articles. [En savoir plus](../experience-decisioning/catalogs.md)
-
-**Personalization** - Date de disponibilité : 29 janvier 2025
-
-* De nouvelles fonctions d’assistance date/heure peuvent être utilisées dans l’éditeur de personnalisation. [En savoir plus](../personalization/functions/dates.md)
