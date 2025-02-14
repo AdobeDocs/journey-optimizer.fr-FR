@@ -8,10 +8,10 @@ topic: Content Management
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 39e52d7e552859137c9e179f48319ed508caabb5
+source-git-commit: f371f2181b5a4b302e3cb1f47c85d470a58b9f90
 workflow-type: tm+mt
-source-wordcount: '652'
-ht-degree: 25%
+source-wordcount: '637'
+ht-degree: 26%
 
 ---
 
@@ -113,7 +113,7 @@ Les améliorations ci-dessous accompagnent la mise à jour de février.
 
   Cette modification sera déployée dans les sandbox clients existants au cours d’une phase ultérieure.
 
-* **Playbooks** - Vous pouvez désormais créer et publier vos propres playbooks de cas d’utilisation dans Journey Optimizer.
+<!--* **Playbooks** - You can now create and publish your own Use Case Playbooks in Journey Optimizer.-->
 
 * **Publipostage direct** - DLZ (DAta Landing Zone) est désormais pris en charge en tant que type de serveur pour le routage des fichiers dans la configuration du publipostage direct.
 
