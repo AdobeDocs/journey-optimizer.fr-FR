@@ -8,10 +8,10 @@ topic: Content Management
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 1ac5f7362cd0184b7207b0f175d83c5c60921e7e
+source-git-commit: 4e405fe395c8432ed22d64887631b222df83a3e9
 workflow-type: tm+mt
-source-wordcount: '634'
-ht-degree: 24%
+source-wordcount: '711'
+ht-degree: 21%
 
 ---
 
@@ -30,7 +30,7 @@ Les nouvelles fonctionnalités de cette version sont présentées ci-dessous.
 <table>
 <thead>
 <tr>
-<th><strong>Règles métier</strong><br/></th>
+<th><strong>Créer et gérer des règles métier</strong><br/></th>
 </tr>
 </thead>
 <tbody>
@@ -62,24 +62,41 @@ Les nouvelles fonctionnalités de cette version sont présentées ci-dessous.
 </tbody>
 </table>
 
-
 <table>
 <thead>
 <tr>
-<th><strong>Modèles Customer Journey Analytics</strong><br/></th>
+<th><strong>Générer des pages de destination avec l’assistant AI</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Vous avez désormais la possibilité d’améliorer vos rapports Journey Optimizer à l’aide de modèles Customer Journey Analytics. Cette nouvelle fonctionnalité vous permet de rationaliser votre processus de création de rapports à l’aide de modèles préconçus et adaptés à vos besoins en matière d’analyse.
-</p>
-<img src="assets/do-not-localize/cja-templates.gif">
-<p>Pour plus d’informations, consultez la <a href="../reports/report-cja-manage.md#cja-template">documentation détaillée</a>.</p>
-<p>Date de disponibilité : à partir du 15 janvier 2025</p>
+<p>L’assistant AI est désormais disponible avec vos diffusions de page de destination, ce qui vous permet de générer du texte, des images ou des mises en page complètes.</p>
+<!--img src="assets/do-not-localize/ai-lp.gif">
+<p>For more information on AI Assistant, refer to the <a href="../email/generative-lp.md">detailed documentation</a>.</p-->
+</td>
 </tr>
 </tbody>
 </table>
+
+
+<table>
+<thead>
+<tr>
+<th><strong>Directives relatives aux marques (version bêta)</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Vous pouvez maintenant définir vos propres directives relatives à la marque pour définir l’identité visuelle et verbale de votre marque. Notez que la fonctionnalité Marques est disponible en version bêta privée et sera progressivement disponible pour tous les clients dans les prochaines versions.</p>
+<!--p>For more information, refer to the <a href="../configuration/business-rules.md">detailed documentation</a>.</p-->
+</td>
+</tr>
+</tbody>
+</table>
+
+
 
 <table>
 <thead>
@@ -100,11 +117,33 @@ Les nouvelles fonctionnalités de cette version sont présentées ci-dessous.
 </table>
 
 
+
+<table>
+<thead>
+<tr>
+<th><strong>Modèles Customer Journey Analytics</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Vous avez désormais la possibilité d’améliorer vos rapports Journey Optimizer à l’aide de modèles Customer Journey Analytics. Cette nouvelle fonctionnalité vous permet de rationaliser votre processus de création de rapports à l’aide de modèles préconçus et adaptés à vos besoins en matière d’analyse.
+</p>
+<img src="assets/do-not-localize/cja-templates.gif">
+<p>Pour plus d’informations, consultez la <a href="../reports/report-cja-manage.md#cja-template">documentation détaillée</a>.</p>
+<p>Date de disponibilité : à partir du 15 janvier 2025</p>
+</tr>
+</tbody>
+</table>
+
+
+
+
 ### Améliorations {#25-02-improvements}
 
 Les améliorations ci-dessous accompagnent la mise à jour de février.
 
-* **Parcours** - Vous pouvez désormais tester vos actions personnalisées de parcours en envoyant des appels API à partir de l’interface utilisateur d’administration. Cette nouvelle fonctionnalité vous permet de résoudre les problèmes liés aux actions personnalisées.
+* **Parcours** - Vous pouvez désormais tester vos actions personnalisées en envoyant des appels d’API à partir de la section administration. Cette nouvelle fonctionnalité vous permet de résoudre les problèmes liés aux actions personnalisées avant ou après leur utilisation dans un parcours.
 
 * **Durée de vie (TTL) du jeu de données** - À compter de ce mois-ci, un mécanisme de sécurisation de durée de vie (TTL) sera déployé vers les jeux de données générés par le système Journey Optimizer dans de nouveaux sandbox et de nouvelles organisations, comme suit :
 
