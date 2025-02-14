@@ -8,10 +8,10 @@ topic: Content Management
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: f371f2181b5a4b302e3cb1f47c85d470a58b9f90
+source-git-commit: c1712985598b927d26da0b0d0562cd3fe60aa962
 workflow-type: tm+mt
-source-wordcount: '637'
-ht-degree: 26%
+source-wordcount: '632'
+ht-degree: 24%
 
 ---
 
@@ -113,6 +113,8 @@ Les améliorations ci-dessous accompagnent la mise à jour de février.
 
   Cette modification sera déployée dans les sandbox clients existants au cours d’une phase ultérieure.
 
+  En savoir plus sur cette mise à jour dans [cette FAQ dédiée](../data/datasets-ttl.md#frequently-asked-questions).
+
 <!--* **Playbooks** - You can now create and publish your own Use Case Playbooks in Journey Optimizer.-->
 
 * **Publipostage direct** - DLZ (DAta Landing Zone) est désormais pris en charge en tant que type de serveur pour le routage des fichiers dans la configuration du publipostage direct.
@@ -129,10 +131,6 @@ Les améliorations ci-dessous accompagnent la mise à jour de février.
 * Si vous gérez le consentement en dehors d’Adobe, vous pouvez désormais définir une adresse e-mail de désabonnement personnalisée et une URL de désabonnement en un clic personnalisée dans le cadre des paramètres de configuration de votre canal e-mail. [En savoir plus](../email/list-unsubscribe.md#custom-managed)
 
   ![](../email/assets/surface-list-unsubscribe-custom.png){width="80%"}
-
-  >[!AVAILABILITY]
-  >
-  >Cette fonctionnalité est publiée en disponibilité limitée pour un petit groupe de personnes.
 
 **Decisioning** - Date de disponibilité : 28 janvier 2025
 
