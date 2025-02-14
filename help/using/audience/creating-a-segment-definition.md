@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 289aac5d-6cdb-411f-985e-3acef58050a8
-source-git-commit: 435898d7e806e93ee0154c3da22f6a011fc78175
+source-git-commit: 7aaaa566ec9e5a1cf50e067d7c3836bfc305b909
 workflow-type: tm+mt
-source-wordcount: '868'
-ht-degree: 73%
+source-wordcount: '981'
+ht-degree: 63%
 
 ---
 
@@ -78,9 +78,14 @@ La liste des profils de l’audience est actualisée en temps réel pendant que 
 
 La segmentation par flux est un processus continu de sélection des données qui met à jour vos audiences en réponse à l’activité des utilisateurs et utilisatrices. Une fois qu’une définition de segment a été créée et que l’audience obtenue a été enregistrée, la définition du segment s’applique aux données entrantes dans Journey Optimizer. Cela signifie que des personnes sont ajoutées ou supprimées de l’audience au fur et à mesure que leurs données de profil changent, permettant de toujours assurer la pertinence de votre audience cible. [En savoir plus](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/streaming-segmentation.html?lang=fr){target="_blank"}.
 
->[!NOTE]
+>[!IMPORTANT]
 >
->Veillez à utiliser les événements appropriés comme critères de segmentation par streaming. [En savoir plus](#streaming-segmentation-events-guardrails)
+>Depuis le 1er novembre 2024, la segmentation en flux continu ne prend plus en charge l’utilisation des événements **send** et **open** à partir des jeux de données de tracking et de commentaires Journey Optimizer.
+>* Cette modification s’applique à toutes les sandbox et organisations clientes.
+>* Seuls les événements d’envoi et d’ouverture sont affectés : les clics et les autres événements de suivi restent disponibles pour la segmentation en flux continu.
+>* Cette modification s’applique uniquement à la segmentation en flux continu. Les événements d’envoi et d’ouverture peuvent toujours être utilisés dans les segments par lots, mais s’ils sont inclus dans un segment en flux continu, ils seront évalués par lots. En outre, les événements d’exclusion et les événements de bounce/retard résultant d’événements d’envoi sont également affectés par cette modification.
+>* La collecte des données de tracking n’est pas affectée. Les événements d’envoi et d’ouverture continueront à être collectés comme d’habitude.
+>* Les événements de réaction dans les parcours ne sont pas affectés par cette modification.
 
 +++
 

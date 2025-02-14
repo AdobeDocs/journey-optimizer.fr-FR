@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: 2bc4dba1353b1d19b1bae0b7718fbbc9e9f37147
+source-git-commit: 7aaaa566ec9e5a1cf50e067d7c3836bfc305b909
 workflow-type: tm+mt
-source-wordcount: '2505'
-ht-degree: 95%
+source-wordcount: '2513'
+ht-degree: 93%
 
 ---
 
@@ -40,12 +40,12 @@ L&#39;interface d&#39;Adobe [!DNL Journey Optimizer] est conçue pour fonctionne
 
 ## Mécanismes de sécurisation des jeux de données {#datasets-guardrails}
 
-Dès février 2025, un mécanisme de sécurisation de la durée de vie (TTL) sera déployé dans les jeux de données générés par le système Journey Optimizer dans **les nouveaux sandbox et les nouvelles organisations** comme suit :
+Depuis février 2025, un mécanisme de sécurisation de durée de vie (TTL) est déployé sur les jeux de données générés par le système Journey Optimizer dans **nouveaux sandbox et nouvelles organisations** comme suit :
 
-* 90 jours pour les données dans la banque de profils
-* 13 mois pour les données du lac de données
+* 90 jours pour les données dans la banque de profils,
+* 13 mois pour les données du lac de données.
 
-Explorez la [section Forum aux questions](../data/datasets-ttl.md#ttl) pour plus d’informations sur ces mécanismes de sécurisation.
+Cette modification sera déployée dans les **sandbox client existants** lors d’une phase ultérieure. [En savoir plus sur les mécanismes de sécurisation de durée de vie (TTL) des jeux de données](../data/datasets-ttl.md)
 
 ## Mécanismes de sécurisation des pages de destination {#lp-guardrails}
 
