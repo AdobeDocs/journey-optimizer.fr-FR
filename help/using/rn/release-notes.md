@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Notes de mise à jour d’Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 9b7e7a908f7f38570d35d8727a42cbcc216a1387
+source-git-commit: 417d9f1787aced7d41a7374576d3abcc4dd98c1b
 workflow-type: tm+mt
-source-wordcount: '2795'
-ht-degree: 77%
+source-wordcount: '2760'
+ht-degree: 79%
 
 ---
 
@@ -127,41 +127,35 @@ Les nouvelles fonctionnalités de cette version sont présentées ci-dessous.
 
 Les améliorations ci-dessous accompagnent la mise à jour de février.
 
-**Parcours** - Vous pouvez désormais tester vos actions personnalisées en envoyant des appels d’API à partir de la section administration. Cette nouvelle fonctionnalité vous permet de résoudre les problèmes liés à vos actions personnalisées avant ou après leur utilisation dans un parcours.
+* **Parcours** - Vous pouvez désormais tester vos actions personnalisées en envoyant des appels d’API à partir de la section administration. Cette nouvelle fonctionnalité vous permet de résoudre les problèmes liés à vos actions personnalisées avant ou après leur utilisation dans un parcours.
 
-**Durée de vie (TTL) du jeu de données** - À compter de ce mois-ci, un mécanisme de sécurisation de durée de vie (TTL) sera déployé vers les jeux de données générés par le système Journey Optimizer dans de nouveaux sandbox et de nouvelles organisations, comme suit :
+* **Durée de vie (TTL) du jeu de données** - À compter de ce mois-ci, un mécanisme de sécurisation de durée de vie (TTL) sera déployé vers les jeux de données générés par le système Journey Optimizer dans de nouveaux sandbox et de nouvelles organisations, comme suit :
 
-    * 90 jours pour les données du magasin de profils
-    * 13 mois pour les données du lac de données
-    
-    Cette modification sera déployée sur les sandbox clients existants dans une phase ultérieure.
-    
-    En savoir plus sur cette mise à jour dans [cette FAQ dédiée](../data/datasets-ttl.md#frequently-asked-questions).
+   * 90 jours pour les données dans la banque de profils
+   * 13 mois pour les données du lac de données
+
+  Cette modification sera déployée dans les sandbox clients existants au cours d’une phase ultérieure.
+
+  En savoir plus sur cette mise à jour dans [cette FAQ dédiée](../data/datasets-ttl.md#frequently-asked-questions).
 
 <!--* **Playbooks** - You can now create and publish your own Use Case Playbooks in Journey Optimizer.-->
 
-**Publipostage direct** - Un nouveau type de serveur, la zone d’entrée des données, est désormais pris en charge pour le routage des fichiers dans la configuration du canal de publipostage direct.
+* **Publipostage direct** - Un nouveau type de serveur, la zone d’entrée des données, est désormais pris en charge pour le routage des fichiers dans la configuration du canal de publipostage direct.
 
-**SMS** - Vous pouvez désormais gérer la diffusion de messages SMS à partir de points d’entrée multi-régionaux en remplaçant les URL de diffusion, de retour, d’entrée et de rappel. Pour ce faire, une nouvelle URL de remplacement de champ a été ajoutée à la configuration des informations d’identification d’API. Cette modification est disponible uniquement auprès du fournisseur Sinch. [En savoir plus](../sms/sms-configuration-sinch.md)
+* **SMS** - Vous pouvez désormais gérer la diffusion de messages SMS à partir de points d’entrée multi-régionaux en remplaçant les URL de diffusion, de retour, d’entrée et de rappel. Pour ce faire, une nouvelle URL de remplacement de champ a été ajoutée à la configuration des informations d’identification d’API. Cette modification est disponible uniquement auprès du fournisseur Sinch. [En savoir plus](../sms/sms-configuration-sinch.md)
 
-**Personalization** (Date de disponibilité : 29 janvier 2025) - De nouvelles fonctions d’assistance date/heure sont disponibles dans l’éditeur de personnalisation. [En savoir plus](../personalization/functions/dates.md)
+* **Personalization** (Date de disponibilité : 29 janvier 2025) - De nouvelles fonctions d’assistance date/heure sont disponibles dans l’éditeur de personnalisation. [En savoir plus](../personalization/functions/dates.md)
 
 
 <!--
 * The personalization editor has been enhanced with new capabilities such as Auto-complete, Search, and filtering options. You can also show or hide deprecated attributes.-->
 
 
-**Configuration des e-mails** (Date de disponibilité : 12 février 2025)
-
-* Si vous gérez le consentement en dehors d’Adobe, vous pouvez désormais définir une adresse e-mail de désabonnement personnalisée et une URL de désabonnement en un clic personnalisée dans le cadre des paramètres de configuration de votre canal e-mail. [En savoir plus](../email/list-unsubscribe.md#custom-managed)
+* **Configuration des e-mails** (Date de disponibilité : 12 février 2025) - Si vous gérez le consentement en dehors d’Adobe, vous pouvez désormais définir une adresse e-mail de désabonnement personnalisée et une URL de désabonnement en un clic personnalisée dans le cadre des paramètres de configuration de votre canal e-mail. [En savoir plus](../email/list-unsubscribe.md#custom-managed)
 
   ![](../email/assets/surface-list-unsubscribe-custom.png){width="80%"}
 
-* Si vous gérez le consentement en dehors d’Adobe, vous pouvez désormais définir une adresse e-mail de désabonnement personnalisée et une URL de désabonnement en un clic personnalisée dans le cadre des paramètres de configuration de votre canal e-mail. [En savoir plus](../email/list-unsubscribe.md#custom-managed)
-
-  ![](../email/assets/surface-list-unsubscribe-custom.png){width="80%"}
-
-**Prise de décision** (date de disponibilité : 28 janvier 2025) - La prise de décision prend désormais en charge les types de données d’objet lors de la modification du schéma du catalogue d’articles. [En savoir plus](../experience-decisioning/catalogs.md)
+* **Prise de décision** (date de disponibilité : 28 janvier 2025) - La prise de décision prend désormais en charge les types de données d’objet lors de la modification du schéma du catalogue d’articles. [En savoir plus](../experience-decisioning/catalogs.md)
 
 
 ## Version d’octobre 2024 {#24-10-rn}
