@@ -6,7 +6,7 @@ feature: Release Notes
 topic: Content Management
 description: Notes de mise à jour d’Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 417d9f1787aced7d41a7374576d3abcc4dd98c1b
+source-git-commit: ce2c5e26ae4d17898f50f890c146ccfafc93a7c2
 workflow-type: tm+mt
 source-wordcount: '2760'
 ht-degree: 79%
@@ -136,7 +136,7 @@ Les améliorations ci-dessous accompagnent la mise à jour de février.
 
   Cette modification sera déployée dans les sandbox clients existants au cours d’une phase ultérieure.
 
-  En savoir plus sur cette mise à jour dans [cette FAQ dédiée](../data/datasets-ttl.md#frequently-asked-questions).
+  En savoir plus sur cette mise à jour dans [la FAQ dédiée](../data/datasets-ttl.md#frequently-asked-questions).
 
 <!--* **Playbooks** - You can now create and publish your own Use Case Playbooks in Journey Optimizer.-->
 
