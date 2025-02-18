@@ -7,9 +7,9 @@ role: User
 level: Experienced
 keyword: direct, mail, configuration, direct-mail, provider
 exl-id: ae5cc885-ade1-4683-b97e-eda1f2142041
-source-git-commit: b134fe166402e4ae49cd96fc09a19e14beb13523
+source-git-commit: 63786170a4aaa5659751a9bb5febd98419e2e64a
 workflow-type: tm+mt
-source-wordcount: '1529'
+source-wordcount: '1532'
 ht-degree: 93%
 
 ---
@@ -60,7 +60,7 @@ Avant de pouvoir générer ce fichier, vous devez créer les éléments suivants
 
 >[!NOTE]
 >
->Actuellement, Amazon S3, SFTP et Azure sont pris en charge dans [!DNL Journey Optimizer].
+>Actuellement, Amazon S3, SFTP, Azure et la zone d’atterrissage des données sont pris en charge dans [!DNL Journey Optimizer].
 
 Pour diffuser un message de publipostage direct, [!DNL Journey Optimizer] génère et exporte vers un serveur le fichier contenant les données de votre audience ciblée.
 

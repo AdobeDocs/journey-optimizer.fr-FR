@@ -6,9 +6,9 @@ feature: Release Notes
 topic: Content Management
 description: Notes de mise à jour d’Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: f25fb5ef7eb8febbe9f94f67aa16b0d8e725bbf9
+source-git-commit: 63786170a4aaa5659751a9bb5febd98419e2e64a
 workflow-type: tm+mt
-source-wordcount: '764'
+source-wordcount: '766'
 ht-degree: 22%
 
 ---
@@ -142,7 +142,7 @@ Les améliorations ci-dessous accompagnent la mise à jour de février.
 
 <!--* **Playbooks** - You can now create and publish your own Use Case Playbooks in Journey Optimizer.-->
 
-* **Publipostage direct** - Un nouveau type de serveur, la zone d’entrée des données, est désormais pris en charge pour le routage des fichiers dans la configuration du canal de publipostage direct.
+* **Publipostage direct** - Un nouveau type de serveur, la zone d’entrée des données, est désormais pris en charge pour le routage des fichiers dans la configuration du canal de publipostage direct. [En savoir plus](../direct-mail/direct-mail-configuration.md#file-routing-configuration)
 
 * **SMS** - Vous pouvez désormais gérer la diffusion de messages SMS à partir de points d’entrée multi-régionaux en remplaçant les URL de diffusion, de retour, d’entrée et de rappel. Pour ce faire, une nouvelle URL de remplacement de champ a été ajoutée à la configuration des informations d’identification d’API. Cette modification est disponible uniquement auprès du fournisseur Sinch. [En savoir plus](../sms/sms-configuration-sinch.md)
 
