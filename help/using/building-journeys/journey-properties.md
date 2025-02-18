@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: parcours, configuration, propriétés
 exl-id: 6c21371c-6cbc-4d39-8fe6-39f1b8b13280
-source-git-commit: 2ce069f92e11fa9246736a4b71dfd66391d8b06c
+source-git-commit: 3331fd2ca9277bb634e3df0dd2e5a262bef459d7
 workflow-type: tm+mt
-source-wordcount: '2232'
-ht-degree: 97%
+source-wordcount: '2261'
+ht-degree: 95%
 
 ---
 
@@ -285,8 +285,8 @@ Pour **créer** un critère de sortie, procédez comme suit :
    ![](assets/exitcriteria.png){width="40%" align="left"}
 1. Saisissez un **libellé** et sélectionnez si votre critère de sortie est basé sur un **événement** ou une **audience**.
 
-Pour les critères de sortie basés sur un événement, sélectionnez uniquement un événement unitaire.
-Pour les critères de sortie basés sur une audience, sélectionnez une audience. Note : pour être efficaces, les critères de sortie utilisant une audience peuvent prendre jusqu’à 10 minutes.
+* Pour les critères de sortie basés sur un événement, comme le téléchargement d’une application ou l’ajout d’un produit à un panier, sélectionnez uniquement un événement unitaire.
+* Pour Quitter les critères en fonction d’une audience, par exemple une audience qui vérifie si un client a effectué un achat au cours des dernières 24 heures, sélectionnez une audience. Note : pour être efficaces, les critères de sortie utilisant une audience peuvent prendre jusqu’à 10 minutes.
 
 Vous pouvez ajouter plusieurs critères de sortie.
 

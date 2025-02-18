@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: a9f9d8af-c762-4038-8bbc-bbd519e0ef3a
-source-git-commit: 5cfae89416219fac54d310d9fa3f40fdfdd8878e
+source-git-commit: d2c008ab9b63df5b7a0ded317a97a4d26d2319e3
 workflow-type: tm+mt
-source-wordcount: '1465'
-ht-degree: 90%
+source-wordcount: '1626'
+ht-degree: 81%
 
 ---
 
@@ -50,6 +50,10 @@ Procédez comme suit :
 
 1. Activez l’option **[!UICONTROL Utiliser le contenu d’origine]** pour que l’assistant AI personnalise le nouveau contenu en fonction du contenu sélectionné.
 
+1. Sélectionnez votre **[!UICONTROL Marque]** pour vous assurer que le contenu généré par l’IA correspond aux spécifications de votre marque. [En savoir plus](brands.md) sur les marques.
+
+   Notez que la fonctionnalité Marques est disponible en version bêta privée et sera progressivement disponible pour tous les clients dans les prochaines versions.
+
 1. Affinez le contenu en décrivant ce que vous souhaitez générer dans le champ **[!UICONTROL Invite]**.
 
    Si vous avez besoin d’aide pour concevoir votre invite, accédez à la **[!UICONTROL Bibliothèque d’invites]** qui offre un large éventail d’idées d’invites pour améliorer vos campagnes.
@@ -61,6 +65,7 @@ Procédez comme suit :
 1. Adaptez votre prompt avec l’option **[!UICONTROL Paramètres de texte]** :
 
    * **[!UICONTROL Stratégie de communication]** : choisissez le style de communication le plus adapté au texte généré.
+   * **[!UICONTROL Langues]** : les options en espagnol, italien, suédois et norvégien sont disponibles en version bêta privée et seront progressivement disponibles pour tous les clients dans les prochaines versions.
    * **[!UICONTROL Ton]** : le ton de votre notification push doit résonner auprès de votre audience. Que vous souhaitiez communiquer de façon informative, ludique ou convaincante, l’assistant IA peut adapter le message en conséquence.
 
    ![](assets/push-genai-full-3.png){zoomable="yes"}
@@ -121,6 +126,10 @@ Dans cet exemple particulier, découvrez comment utiliser l’assistant d’IA d
 
 1. Activez l’option **[!UICONTROL Utiliser du contenu de référence]** pour que l’assistant d’IA personnalise le nouveau contenu en fonction du contenu sélectionné.
 
+1. Sélectionnez votre **[!UICONTROL Marque]** pour vous assurer que le contenu généré par l’IA correspond aux spécifications de votre marque. [En savoir plus](brands.md) sur les marques.
+
+   Notez que la fonctionnalité Marques est disponible en version bêta privée et sera progressivement disponible pour tous les clients dans les prochaines versions.
+
 1. Affinez le contenu en décrivant ce que vous souhaitez générer dans le champ **[!UICONTROL Invite]**.
 
    Si vous avez besoin d’aide pour concevoir votre invite, accédez à la **[!UICONTROL Bibliothèque d’invites]** qui offre un large éventail d’idées d’invites pour améliorer vos campagnes.
@@ -130,6 +139,7 @@ Dans cet exemple particulier, découvrez comment utiliser l’assistant d’IA d
 1. Adaptez votre prompt avec l’option **[!UICONTROL Paramètres de texte]** :
 
    * **[!UICONTROL Stratégie de communication]** : choisissez le style de communication le plus adapté au texte généré.
+   * **[!UICONTROL Langues]** : les options en espagnol, italien, suédois et norvégien sont disponibles en version bêta privée et seront progressivement disponibles pour tous les clients dans les prochaines versions.
    * **[!UICONTROL Ton]** : le ton de votre notification push doit résonner auprès de votre audience. Que vous souhaitiez communiquer de façon informative, ludique ou convaincante, l’assistant IA peut adapter le message en conséquence.
    * **[!UICONTROL Longueur]** : sélectionnez la longueur de votre contenu à l’aide du curseur de plage.
 
@@ -180,6 +190,10 @@ Lorsque vous avez défini le contenu, l’audience et le planning, vous pouvez p
    ![](assets/push-gen-img.png){zoomable="yes"}
 
 1. Activez l’option **[!UICONTROL Style de référence]** pour l’assistant IA afin de personnaliser le nouveau contenu en fonction du contenu de référence. Vous pouvez également charger une image pour ajouter du contexte à votre variation.
+
+1. Sélectionnez votre **[!UICONTROL Marque]** pour vous assurer que le contenu généré par l’IA correspond aux spécifications de votre marque. [En savoir plus](brands.md) sur les marques.
+
+   Notez que la fonctionnalité Marques est disponible en version bêta privée et sera progressivement disponible pour tous les clients dans les prochaines versions.
 
 1. Affinez le contenu en décrivant ce que vous souhaitez générer dans le champ **[!UICONTROL Invite]**.
 

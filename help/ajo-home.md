@@ -5,10 +5,10 @@ description: Découvrez comment utiliser Adobe Journey Optimizer.
 solution: Journey Optimizer
 product: journey optimizer
 exl-id: 3a1b6c61-82df-421c-98d8-2af4f2a5e0de
-source-git-commit: 5cfae89416219fac54d310d9fa3f40fdfdd8878e
+source-git-commit: 8b0dc1ba58c856cc3a0864e408415c87e10801cf
 workflow-type: tm+mt
-source-wordcount: '379'
-ht-degree: 92%
+source-wordcount: '348'
+ht-degree: 87%
 
 ---
 
@@ -20,9 +20,9 @@ Découvrez les améliorations les plus récentes apportées au produit et à la 
 
 >[!BEGINTABS]
 
->[!TAB Version d’octobre 2024]
+>[!TAB Version du 25 février]
 
-La version d’octobre est désormais en ligne, y compris le verrouillage du contenu des e-mails, l’intégration à Movable Ink et les expériences web et basées sur du code dans les parcours. Auparavant en disponibilité limitée, les fonctionnalités suivantes sont désormais disponibles pour tout le monde : personnalisation de la configuration des e-mails, politiques d’approbation, expérimentation de contenu, amélioration de l’expérience de création de rapports, contenu multilingue, etc.
+La version de février est maintenant en ligne ! Consultez les notes de mise à jour pour découvrir les nouvelles fonctionnalités et améliorations.
 
 [![En savoir plus](using/assets/do-not-localize/learn-more-button.svg)](using/rn/release-notes.md)
 

@@ -7,10 +7,10 @@ feature: SMS, Channel Configuration
 role: Admin
 level: Intermediate
 exl-id: 85412a85-edf0-4069-8bc7-b80371375f1f
-source-git-commit: a196a27fd22a03915838ab4a9bb6139f85242f6b
+source-git-commit: 4f077e8223f9afe74288874542f8ef0052640dab
 workflow-type: tm+mt
-source-wordcount: '705'
-ht-degree: 100%
+source-wordcount: '750'
+ht-degree: 68%
 
 ---
 
@@ -30,33 +30,27 @@ Pour configurer votre fournisseur Sinch pour envoyer des SMS et des MMS avec Jou
 
 1. Configurez vos informations d’identification pour l’API SMS, comme indiqué ci-dessous :
 
-   * **[!UICONTROL Fournisseur de SMS]** : Sinch.
++++ Liste des informations d’identification SMS pour la configuration
 
-   * **[!UICONTROL Nom]** : choisissez un nom pour vos informations d’identification d’API.
+   | Champs de configuration | Description |
+   |---|---|    
+   | Fournisseur SMS | Sinch |
+   | Nom | Choisissez un nom pour vos informations d’identification API. |
+   | ID de service et jeton API | Accédez à la page des API , puis à vos informations d’identification sous l’onglet SMS . En savoir plus dans la [Documentation Sinch](https://developers.sinch.com/docs/sms/getting-started/){target="_blank"}. |
+   | Mots-Clés D’Opt-In | Saisissez les mots-clés par défaut ou personnalisés qui déclencheront automatiquement votre message d’accord préalable. Pour plusieurs mots-clés, utilisez des valeurs séparées par des virgules. |
+   | Message D’Opt-In | Saisissez la réponse personnalisée qui est automatiquement envoyée en tant que message d’accord préalable. |
+   | Mots-clés de droit d’opposition | Saisissez les mots-clés par défaut ou personnalisés qui déclencheront automatiquement votre message d’opt-out. Pour plusieurs mots-clés, utilisez des valeurs séparées par des virgules. |
+   | Message D’Opt-Out | Saisissez la réponse personnalisée qui est automatiquement envoyée en tant que message d’opt-out. |
+   | Mots-clés d’aide | Saisissez les mots-clés par défaut ou personnalisés qui déclencheront automatiquement votre **message d’aide**. Pour plusieurs mots-clés, utilisez des valeurs séparées par des virgules. |
+   | Message d’aide | Saisissez la réponse personnalisée qui est automatiquement envoyée en tant que **message d’aide**. |
+   | Mots-Clés De Double Opt-In | Saisissez les mots-clés qui déclenchent le processus de double opt-in. Si un profil de personne n’existe pas, il est créé lors de la confirmation. Pour plusieurs mots-clés, utilisez des valeurs séparées par des virgules. [En savoir plus sur le double opt-in SMS](https://video.tv.adobe.com/v/3427129/?learn=on). |
+   | Message De Double Opt-In | Saisissez la réponse personnalisée qui est automatiquement envoyée en réponse à la confirmation de double opt-in. |
+   | Numéro entrant | Ajoutez votre numéro entrant unique ou votre numéro court. Cela permet d’utiliser les mêmes informations d’identification d’API dans différents sandbox, chacun ayant son propre numéro entrant ou code court. |
+   | Mots-clés entrants personnalisés | Définir des mots-clés uniques pour des actions spécifiques, par exemple REMISE, OFFRES, INSCRIPTION. Ces mots-clés sont capturés et stockés en tant qu’attributs dans le profil, ce qui vous permet de déclencher une qualification de segment en continu dans le parcours et de fournir une réponse ou une action personnalisée. |
+   | Message de réponse entrant par défaut | Saisissez la réponse par défaut qui est envoyée lorsqu’un utilisateur final envoie un SMS entrant qui ne correspond à aucun des mots-clés définis. |
+   | Remplacer l’URL | Saisissez votre URL personnalisée pour remplacer les points d’entrée par défaut des rapports de diffusion par SMS, des données de commentaires, des messages entrants ou des notifications d’événement. Sinch enverra toutes les mises à jour pertinentes à cette URL au lieu des mises à jour prédéfinies. |
 
-   * **[!UICONTROL ID de service]** et **[!UICONTROL Jeton API]** : accédez à la page des API, puis à vos informations d’identification sous l’onglet SMS. En savoir plus dans la [Documentation Sinch](https://developers.sinch.com/docs/sms/getting-started/){target="_blank"}.
-
-   * **[!UICONTROL Mots-clés d’opt-in]** : saisissez les mots-clés par défaut ou personnalisés qui déclencheront automatiquement votre **[!UICONTROL message d’opt-in]**. Pour plusieurs mots-clés, utilisez des valeurs séparées par des virgules.
-
-   * **[!UICONTROL Message d’opt-in]** : saisissez la réponse personnalisée qui est automatiquement envoyée en tant que **[!UICONTROL message d’opt-in]**.
-
-   * **[!UICONTROL Mots-clés d’opt-out]** : saisissez les mots-clés par défaut ou personnalisés qui déclencheront automatiquement votre **[!UICONTROL message d’opt-out]**. Pour plusieurs mots-clés, utilisez des valeurs séparées par des virgules.
-
-   * **[!UICONTROL Message d’opt-out]** : saisissez la réponse personnalisée qui est automatiquement envoyée en tant que **[!UICONTROL message d’opt-out]**.
-
-   * **[!UICONTROL Mots-clés d’aide]** : saisissez les mots-clés par défaut ou personnalisés qui déclencheront automatiquement votre **message d’aide**. Pour plusieurs mots-clés, utilisez des valeurs séparées par des virgules.
-
-   * **[!UICONTROL Message d’aide]** : saisissez la réponse personnalisée qui est automatiquement envoyée en tant que **message d’aide**.
-
-   * **[!UICONTROL Mots-clés de double opt-in]** : saisissez les mots-clés qui déclenchent le processus de double opt-in. Si un profil de personne n’existe pas, il est créé lors de la confirmation. Pour plusieurs mots-clés, utilisez des valeurs séparées par des virgules. [En savoir plus sur le double opt-in SMS](https://video.tv.adobe.com/v/3427129/?learn=on).
-
-   * **[!UICONTROL Message de double opt-in]** : saisissez la réponse personnalisée qui est automatiquement envoyée en réponse à la confirmation de double opt-in.
-
-   * **[!UICONTROL Numéro entrant]** : ajoutez votre numéro entrant unique ou votre code court. Cela permet d’utiliser les mêmes informations d’identification d’API dans différents sandbox, chacun ayant son propre numéro entrant ou code court.
-
-   * **[!UICONTROL Mots-clés entrants personnalisés]** : définissez des mots-clés uniques pour des actions spécifiques, par exemple REMISE, OFFRES, INSCRIRE. Ces mots-clés sont capturés et stockés en tant qu’attributs dans le profil, ce qui vous permet de déclencher une qualification de segment en continu dans le parcours et de fournir une réponse ou une action personnalisée.
-
-   * **[!UICONTROL Message de réponse entrant par défaut]** : saisissez la réponse par défaut envoyée lorsqu’un utilisateur final ou une utilisatrice finale envoie un SMS entrant qui ne correspond à aucun des mots-clés définis.
++++
 
 1. Cliquez sur **[!UICONTROL Envoyer]** lorsque vous avez terminé la configuration de vos informations d’identification d’API.
 

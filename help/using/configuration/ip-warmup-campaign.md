@@ -9,10 +9,10 @@ role: Admin
 level: Intermediate
 keywords: IP, groupes, délivrabilité
 exl-id: a9995ca1-d7eb-4f8d-a9d9-fe56198ac325
-source-git-commit: 462928883ae22998f8c16dcbe6f37f062487c5ad
+source-git-commit: 84cbaebc9c274f620ee707cb0d9320673ae24b71
 workflow-type: tm+mt
-source-wordcount: '441'
-ht-degree: 100%
+source-wordcount: '427'
+ht-degree: 96%
 
 ---
 
@@ -31,9 +31,9 @@ Pour créer une campagne de préchauffage d’adresses IP, suivez les étapes ci
 
    Contactez votre conseiller ou conseillère en délivrabilité pour identifier le domaine et les adresses IP à utiliser. Découvrez comment les sélectionner dans une configuration du canal e-mail dans [cette section](../email/email-settings.md#subdomains-and-ip-pools).
 
-   >[!NOTE]
+   >[!CAUTION]
    >
-   >Pour les campagnes de préchauffage d’adresses IP, même si vous modifiez l’[adresse d’exécution](../email/email-settings.md#execution-address) dans la configuration du canal e-mail, le champ par défaut défini au niveau du sandbox est toujours utilisé. [En savoir plus](primary-email-addresses.md)
+   >Ne modifiez pas la configuration du canal e-mail une fois le plan de préchauffage d’adresses IP [démarré](ip-warmup-execution.md).
 
 1. Créez une [campagne](../campaigns/create-campaign.md) marketing programmée et sélectionnez l’action [E-mail](../email/create-email.md#create-email-journey-campaign).
 

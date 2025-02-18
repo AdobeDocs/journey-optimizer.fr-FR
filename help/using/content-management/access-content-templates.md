@@ -7,10 +7,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: ef6110c4-1aa6-4835-b0b0-b3c4fe0e7024
-source-git-commit: 62b5cfd480414c898ab6f123de8c6b9f99667b7d
-workflow-type: ht
-source-wordcount: '317'
-ht-degree: 100%
+source-git-commit: 5ce76bd61a61e1ed5e896f8da224fc20fba74b53
+workflow-type: tm+mt
+source-wordcount: '320'
+ht-degree: 94%
 
 ---
 
@@ -48,19 +48,19 @@ Vous pouvez également choisir d’afficher uniquement les éléments que vous a
 >
 >Lorsqu’un modèle est modifié ou supprimé, les campagnes ou les parcours, y compris le contenu créé à l’aide de ce modèle, ne sont pas affectés.
 
-## Afficher les modèles sous forme de miniatures {#template-thumbnails}
+## [!BADGE Disponibilité limitée]{type=Informative} Afficher les modèles sous forme de miniatures {#template-thumbnails}
 
 Sélectionnez le mode de **[!UICONTROL vue Grille]** pour afficher chaque modèle sous la forme d’une miniature.
 
 >[!AVAILABILITY]
 >
->Cette fonctionnalité est publiée en disponibilité limitée pour un petit groupe de personnes.
+Cette fonctionnalité est publiée en disponibilité limitée pour un petit groupe de personnes.
 
 ![](assets/content-template-grid-view.png)
 
 >[!NOTE]
 >
->Actuellement, les miniatures appropriées ne peuvent être générées que pour les modèles de contenu d’e-mail de type HTML.
+Actuellement, les miniatures appropriées ne peuvent être générées que pour un type HTML email modèles de contenu.
 
 Lorsque vous mettez à jour un contenu, vous devrez peut-être attendre quelques secondes avant que les modifications ne soient reflétées dans la miniature.
 

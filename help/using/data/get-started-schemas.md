@@ -2,16 +2,16 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Prise en main des schémas
-description: Découvrez comment utiliser les schémas Adobe Experience Platform dans Adobe Journey Optimizer
+description: Découvrez comment utiliser les schémas Adobe Experience Platform dans Adobe Journey Optimizer
 feature: Data Model, Datasets, Data Management
 role: Data Engineer, Data Architect, Admin
 level: Experienced
 keywords: schémas, platform, données, structure
 exl-id: c2a8df2e-ff94-4f9a-a53e-bbf9f663cc81
-source-git-commit: ceead77b1b0f03d853f69c763a09c9fbd0584723
+source-git-commit: 46c4d3081603115db71b01a05f12187cd7e0d34c
 workflow-type: tm+mt
-source-wordcount: '286'
-ht-degree: 100%
+source-wordcount: '288'
+ht-degree: 78%
 
 ---
 
@@ -31,9 +31,9 @@ L’espace de travail **Schémas** de l’interface utilisateur [!DNL Adobe Jour
 
 Découvrez comment utiliser l’interface utilisateur des schémas dans [cette documentation](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/overview.html?lang=fr){target="_blank"}.
 
-La documentation détaillée pour créer un schéma à l’aide de l’éditeur de schémas est disponible sur [cette page](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=fr){target="_blank"}.
+La documentation détaillée pour créer un schéma à l’aide de l’éditeur de schémas est disponible dans la documentation de [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=fr){target="_blank"}.
 
-Pour consulter la liste complète des champs et attributs de chaque schéma, consultez le [dictionnaire de schémas de Journey Optimizer](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=fr){target="_blank"}.
+Consultez le dictionnaire des schémas de Journey Optimizer [](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=fr){target="_blank"} pour afficher la liste complète des champs et attributs de chaque schéma.
 
 
 ## Vidéo pratique{#video-schema}

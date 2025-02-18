@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Prise en main des données dans Journey Optimizer
+title: Prise en main de la gestion des données dans Journey Optimizer
 description: Découvrez comment utiliser les données dans Journey Optimizer.
 feature: Journeys
 topic: Content Management
@@ -9,14 +9,14 @@ role: User
 level: Intermediate
 keywords: données, gestion, platform
 exl-id: 25519acb-a017-446a-992b-653d3a8a3d96
-source-git-commit: ccfc0870a8d59d16c7f5b6b02856785aa28dd307
+source-git-commit: 46c4d3081603115db71b01a05f12187cd7e0d34c
 workflow-type: tm+mt
 source-wordcount: '655'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
-# Prise en main de la gestion des données dans [!DNL Journey Optimizer] {#about-data}
+# Prise en main de la gestion des données {#about-data}
 
 La richesse et la couverture des données des clients et clientes finaux sont des éléments qui définissent la force et le succès de toute solution d’expérience client. Pour tout(e) client(e), ces données revêtent un caractère sacré et sont d’une valeur inestimable. La sélection de technologies est désormais intrinsèquement intégrée à l’évaluation rigoureuse des fonctionnalités de gestion des données.
 

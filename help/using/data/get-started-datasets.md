@@ -2,16 +2,16 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Prise en main des jeux de données
-description: Découvrez comment utiliser des jeux de données Adobe Experience Platform dans Adobe Journey Optimizer
+description: Découvrez comment utiliser des jeux de données Adobe Experience Platform dans Adobe Journey Optimizer
 feature: Data Model, Datasets, Data Management
 role: Data Engineer, Data Architect, Admin
 level: Experienced
 keywords: platform, lac de données, créer, lac, jeux de données, profil
 exl-id: dcdd3c81-0f00-4259-a8a5-9062a4c40b6f
-source-git-commit: f9fdb738210c5450376bdbf86b44d385cd740fd0
+source-git-commit: 46c4d3081603115db71b01a05f12187cd7e0d34c
 workflow-type: tm+mt
 source-wordcount: '848'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 

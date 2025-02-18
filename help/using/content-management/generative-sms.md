@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 5fd1cc3a-c023-4e8e-bfac-9a86bd33bbb3
-source-git-commit: 5cfae89416219fac54d310d9fa3f40fdfdd8878e
+source-git-commit: d2c008ab9b63df5b7a0ded317a97a4d26d2319e3
 workflow-type: tm+mt
-source-wordcount: '892'
-ht-degree: 93%
+source-wordcount: '1000'
+ht-degree: 82%
 
 ---
 
@@ -46,6 +46,10 @@ Explorez les onglets ci-dessous pour savoir comment utiliser l’assistant IA d
 
    ![](assets/sms-genai-1.png){zoomable="yes"}
 
+1. Sélectionnez votre **[!UICONTROL Marque]** pour vous assurer que le contenu généré par l’IA correspond aux spécifications de votre marque. [En savoir plus](brands.md) sur les marques.
+
+   Notez que la fonctionnalité Marques est disponible en version bêta privée et sera progressivement disponible pour tous les clients dans les prochaines versions.
+
 1. Affinez le contenu en décrivant ce que vous souhaitez générer dans le champ **[!UICONTROL Invite]**.
 
    Si vous avez besoin d’aide pour concevoir votre invite, accédez à la **[!UICONTROL Bibliothèque d’invites]** qui offre un large éventail d’idées d’invites pour améliorer vos campagnes.
@@ -55,7 +59,7 @@ Explorez les onglets ci-dessous pour savoir comment utiliser l’assistant IA d
 1. Adaptez votre prompt avec l’option **[!UICONTROL Paramètres de texte]** :
 
    * **[!UICONTROL Stratégie de communication]** : sélectionnez l’approche de communication souhaitée pour le texte généré.
-   * **[!UICONTROL Langue]** : choisissez la langue du contenu de la variante.
+   * **[!UICONTROL Langues]** : les options en espagnol, italien, suédois et norvégien sont disponibles en version bêta privée et seront progressivement disponibles pour tous les clients dans les prochaines versions.
    * **[!UICONTROL Ton]** : assurez-vous que le texte est adapté à votre audience et à votre objectif.
    * **[!UICONTROL Longueur]** : sélectionnez la longueur de votre contenu à l’aide du curseur de plage.
 
@@ -107,6 +111,10 @@ Lorsque vous avez défini le contenu, l’audience et le planning, vous pouvez p
 
 1. Activez l’option **[!UICONTROL Utiliser du contenu de référence]** pour que l’assistant d’IA personnalise le nouveau contenu en fonction du contenu sélectionné.
 
+1. Sélectionnez votre **[!UICONTROL Marque]** pour vous assurer que le contenu généré par l’IA correspond aux spécifications de votre marque. [En savoir plus](brands.md) sur les marques.
+
+   Notez que la fonctionnalité Marques est disponible en version bêta privée et sera progressivement disponible pour tous les clients dans les prochaines versions.
+
 1. Affinez le contenu en décrivant ce que vous souhaitez générer dans le champ **[!UICONTROL Invite]**.
 
    Si vous avez besoin d’aide pour concevoir votre invite, accédez à la **[!UICONTROL Bibliothèque d’invites]** qui offre un large éventail d’idées d’invites pour améliorer vos campagnes.
@@ -116,7 +124,7 @@ Lorsque vous avez défini le contenu, l’audience et le planning, vous pouvez p
 1. Adaptez votre prompt avec l’option **[!UICONTROL Paramètres de texte]** :
 
    * **[!UICONTROL Stratégie de communication]** : sélectionnez l’approche de communication souhaitée pour le texte généré.
-   * **[!UICONTROL Langue]** : choisissez la langue du contenu de la variante.
+   * **[!UICONTROL Langues]** : les options en espagnol, italien, suédois et norvégien sont disponibles en version bêta privée et seront progressivement disponibles pour tous les clients dans les prochaines versions.
    * **[!UICONTROL Ton]** : assurez-vous que le texte est adapté à votre audience et à votre objectif.
    * **[!UICONTROL Longueur]** : sélectionnez la longueur de votre contenu à l’aide du curseur de plage.
 

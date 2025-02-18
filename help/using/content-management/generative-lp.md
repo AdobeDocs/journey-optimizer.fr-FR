@@ -1,70 +1,63 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Génération d’e-mails avec l’assistant AI dans Journey Optimizer
-description: Commencer à générer du contenu et des ressources d’e-mail avec l’assistant AI dans Journey Optimizer
+title: Génération de pages de destination avec l’assistant AI dans Journey Optimizer
+description: Commencez à générer le contenu et la ressource de la page de destination avec l’assistant AI dans Journey Optimizer
 feature: Content Assistant
 topic: Content Management
 role: User
 level: Beginner
-exl-id: 1b3930ff-f7b0-43f0-bcf2-5c3de0a88b25
-source-git-commit: d2c008ab9b63df5b7a0ded317a97a4d26d2319e3
+source-git-commit: 099c0955e9ad2b1abe345d0256d656d41fc0748e
 workflow-type: tm+mt
-source-wordcount: '1724'
-ht-degree: 83%
+source-wordcount: '1545'
+ht-degree: 71%
 
 ---
 
-# Génération d’e-mails avec l’assistant IA  {#generative-email}
+# Génération de pages de destination avec l’assistant AI {#generative-lp}
 
 >[!IMPORTANT]
 >
->Avant de commencer à utiliser cette fonctionnalité, lisez la section connexe [Mécanismes de sécurisation et limitations](gs-generative.md#generative-guardrails).
-></br>
+>* Avant de commencer à utiliser cette fonctionnalité, lisez la section connexe [Mécanismes de sécurisation et limitations](gs-generative.md#generative-guardrails).
 >
->Vous devez accepter un [contrat d’utilisateur](https://www.adobe.com/fr/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html) avant de pouvoir utiliser l’assistant AI dans Journey Optimizer. Pour en savoir plus, contactez votre représentant ou représentante Adobe.
+>
+>* Vous devez accepter le [contrat d’utilisation](https://www.adobe.com/fr/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html) avant de pouvoir utiliser l’assistant AI dans Journey Optimizer. Pour en savoir plus, contactez votre représentant ou représentante Adobe.
 
-Après avoir conçu et personnalisé vos e-mails, utilisez la puissance de l’assistant IA dans Journey Optimizer, alimenté par l’IA générative, pour améliorer votre contenu.
+Transformez vos pages de destination avec l’assistant d’IA dans Journey Optimizer, optimisé par l’IA générative.
 
-Utilisez l’assistant d’IA dans Journey Optimizer pour améliorer l’efficacité de vos campagnes en créant des e-mails complets, des fragments de texte personnalisés et des images personnalisées qui s’adressent directement à votre audience, ce qui stimule l’engagement et les interactions.
+Créez sans effort du contenu percutant, y compris des pages complètes, des fragments de texte personnalisés et des visuels personnalisés qui résonnent avec votre audience, ce qui entraîne un engagement et une interaction accrus.
 
 Explorez les onglets ci-dessous pour savoir comment utiliser l’assistant IA dans Journey Optimizer.
 
 >[!BEGINTABS]
 
->[!TAB Génération d’e-mail complet]
+>[!TAB Génération complète de la page de destination]
 
-Dans l’exemple suivant, nous utiliserons l’assistant AI pour affiner un modèle d’e-mail existant.
+Dans l’exemple suivant, nous utiliserons l’assistant AI pour affiner un modèle de page de destination existant.
 
-1. Après avoir créé et configuré votre campagne par e-mail, cliquez sur **[!UICONTROL Modifier le contenu]**.
+1. Après avoir créé et configuré votre page de destination, cliquez sur **[!UICONTROL Modifier le contenu]**.
 
-   Pour plus d’informations sur la configuration de votre campagne par e-mail, consultez [cette page](../campaigns/create-campaign.md).
+   Pour plus d&#39;informations sur la configuration de votre page de destination, reportez-vous à [cette page](../landing-pages/create-lp.md).
 
 1. Personnalisez votre disposition selon vos besoins et accédez au menu **[!UICONTROL Assistant IA]**.
 
-   ![](assets/full-email-1.png){zoomable="yes"}
+   ![](assets/lp-full-gen-1.png){zoomable="yes"}
 
 1. Activez l’option **[!UICONTROL Utiliser le contenu original]** de l’assistant IA afin de personnaliser le nouveau contenu en fonction du contenu sélectionné.
 
-1. Sélectionnez votre **[!UICONTROL Marque]** pour vous assurer que le contenu généré par l’IA correspond aux spécifications de votre marque. [En savoir plus](brands.md) sur les marques.
-
-   Notez que la fonctionnalité Marques est disponible en version bêta privée et sera progressivement disponible pour tous les clients dans les prochaines versions.
-
 1. Affinez le contenu en décrivant ce que vous souhaitez générer dans le champ **[!UICONTROL Invite]**.
 
-   Si vous avez besoin d’aide pour concevoir votre invite, accédez à la **[!UICONTROL Bibliothèque d’invites]** qui offre un large éventail d’idées d’invites pour améliorer vos campagnes.
+   Si vous recherchez de l&#39;aide pour concevoir votre invite, accédez à la **[!UICONTROL bibliothèque d&#39;invites]** qui fournit un large éventail d&#39;idées d&#39;invites pour améliorer votre page de destination.
 
-   ![](assets/full-email-2.png){zoomable="yes"}
-
-1. Vous pouvez activer les options **[!UICONTROL Objet]** et **[!UICONTROL Pré-en-tête]** pour les inclure à la génération des variantes.
+   ![](assets/lp-full-gen-2.png){zoomable="yes"}
 
 1. Adaptez votre prompt avec l’option **[!UICONTROL Paramètres de texte]** :
 
    * **[!UICONTROL Stratégie de communication]** : choisissez le style de communication le plus adapté au texte généré.
    * **[!UICONTROL Langues]** : les options en espagnol, italien, suédois et norvégien sont disponibles en version bêta privée et seront progressivement disponibles pour tous les clients dans les prochaines versions.
-   * **[!UICONTROL Ton]** : le ton de votre e-mail doit résonner auprès de votre audience. Que vous souhaitiez communiquer de façon informative, ludique ou convaincante, l’assistant IA peut adapter le message en conséquence.
+   * **[!UICONTROL Ton]** : le ton de votre page de destination doit résonner auprès de votre audience. Que vous souhaitiez communiquer de façon informative, ludique ou convaincante, l’assistant IA peut adapter le message en conséquence.
 
-   ![](assets/full-email-4.png){zoomable="yes"}
+   ![](assets/lp-full-gen-3.png){zoomable="yes"}
 
 1. Sélectionnez vos **[!UICONTROL paramètres d’image]** :
 
@@ -74,13 +67,13 @@ Dans l’exemple suivant, nous utiliserons l’assistant AI pour affiner un mod�
    * **[!UICONTROL Éclairage]** : fait référence à l’éclairage présent dans une image qui forme son atmosphère et met en évidence des éléments spécifiques.
    * **[!UICONTROL Composition]** : fait référence à la disposition des éléments dans le cadre d’une image.
 
-   ![](assets/full-email-6.png){zoomable="yes"}
+   ![](assets/lp-full-gen-4.png){zoomable="yes"}
 
 1. Depuis le menu **[!UICONTROL Ressources de marque]**, cliquez sur **[!UICONTROL Charger une ressource de marque]** pour ajouter toute ressource de marque incluant du contenu pouvant fournir du contexte supplémentaire à l’assistant IA ou sélectionnez-en une chargée précédemment.
 
    Les fichiers précédemment chargés sont disponibles dans la liste déroulante **[!UICONTROL Ressources de marque chargées]**. Il vous suffit d’activer/de désactiver les ressources que vous souhaitez inclure dans votre génération.
 
-   ![](assets/full-email-3.png){zoomable="yes"}
+   ![](assets/lp-full-gen-5.png){zoomable="yes"}
 
 1. Lorsque votre prompt est prêt, cliquez sur **[!UICONTROL Générer]**.
 
@@ -94,54 +87,48 @@ Dans l’exemple suivant, nous utiliserons l’assistant AI pour affiner un mod�
 
    Vous pouvez également modifier le **[!UICONTROL ton]** et la **[!UICONTROL stratégie de communication]** de votre texte.
 
-   ![](assets/full-email-5.png){zoomable="yes"}
+   ![](assets/lp-full-gen-6.png){zoomable="yes"}
 
 1. Cliquez sur **[!UICONTROL Sélectionner]** une fois que vous avez trouvé le contenu approprié.
 
-   Vous pouvez également activer l’expérience pour votre contenu. [En savoir plus](generative-experimentation.md)
+1. Insérez des champs de personnalisation pour personnaliser le contenu de votre page de destination en fonction des données de profil. Cliquez ensuite sur le bouton **[!UICONTROL Simuler le contenu]** pour contrôler le rendu et vérifier les paramètres de personnalisation avec les profils de test. [En savoir plus](../personalization/personalize.md)
 
-1. Insérez des champs de personnalisation pour personnaliser le contenu de votre e-mail en fonction des données de profil. Cliquez ensuite sur le bouton **[!UICONTROL Simuler le contenu]** pour contrôler le rendu et vérifier les paramètres de personnalisation avec les profils de test. [En savoir plus](../personalization/personalize.md)
+Une fois votre page de destination prête, vous pouvez la publier pour la rendre disponible pour une utilisation dans un message. [En savoir plus](../landing-pages/create-lp.md#publish-landing-page)
 
-Lorsque vous avez défini le contenu, l’audience et le planning, vous pouvez préparer votre campagne par e-mail. [En savoir plus](../campaigns/review-activate-campaign.md)
+>[!TAB Génération texte uniquement]
 
->[!TAB Génération de texte uniquement]
+Dans l’exemple suivant, nous utiliserons l’assistant d’IA pour améliorer le contenu de notre page de destination.
 
-Dans l’exemple suivant, nous utiliserons l’assistant AI pour améliorer le contenu de notre e-mail.
+1. Après avoir créé et configuré votre page de destination, cliquez sur **[!UICONTROL Modifier le contenu]**.
 
-1. Après avoir créé et configuré votre campagne par e-mail, cliquez sur **[!UICONTROL Modifier le contenu]**.
-
-   Pour plus d’informations sur la configuration de votre campagne par e-mail, consultez [cette page](../email/create-email.md).
+   Pour plus d&#39;informations sur la configuration de votre page de destination, reportez-vous à [cette page](../landing-pages/create-lp.md).
 
 1. Sélectionnez un **[!UICONTROL composant de texte]** pour cibler uniquement un contenu spécifique. Accédez au menu **[!UICONTROL Assistant IA]**.
 
-   ![](assets/text-genai-1.png){zoomable="yes"}
+   ![](assets/lp-text-gen-1.png){zoomable="yes"}
 
 1. Activez l’option **[!UICONTROL Utiliser le contenu original]** de l’assistant IA afin de personnaliser le nouveau contenu en fonction du contenu sélectionné.
 
-1. Sélectionnez votre **[!UICONTROL Marque]** pour vous assurer que le contenu généré par l’IA correspond aux spécifications de votre marque. [En savoir plus](brands.md) sur les marques.
-
-   Notez que la fonctionnalité Marques est disponible en version bêta privée et sera progressivement disponible pour tous les clients dans les prochaines versions.
-
 1. Affinez le contenu en décrivant ce que vous souhaitez générer dans le champ **[!UICONTROL Invite]**.
 
-   Si vous avez besoin d’aide pour concevoir votre invite, accédez à la **[!UICONTROL Bibliothèque d’invites]** qui offre un large éventail d’idées d’invites pour améliorer vos campagnes.
+   Si vous recherchez de l&#39;aide pour concevoir votre invite, accédez à la **[!UICONTROL bibliothèque d&#39;invites]** qui fournit un large éventail d&#39;idées d&#39;invites pour améliorer vos landing pages.
 
-   ![](assets/text-genai-2.png){zoomable="yes"}
+   ![](assets/lp-text-gen-2.png){zoomable="yes"}
 
 1. Adaptez votre prompt avec l’option **[!UICONTROL Paramètres de texte]** :
 
    * **[!UICONTROL Stratégie de communication]** : choisissez le style de communication le plus adapté au texte généré.
    * **[!UICONTROL Langues]** : les options en espagnol, italien, suédois et norvégien sont disponibles en version bêta privée et seront progressivement disponibles pour tous les clients dans les prochaines versions.
-   * **[!UICONTROL Ton]** : le ton de votre e-mail doit résonner auprès de votre audience. Que vous souhaitiez communiquer de façon informative, ludique ou convaincante, l’assistant IA peut adapter le message en conséquence.
+   * **[!UICONTROL Ton]** : le ton de votre page de destination doit résonner auprès de votre audience. Que vous souhaitiez communiquer de façon informative, ludique ou convaincante, l’assistant IA peut adapter le message en conséquence.
    * **Longueur de texte** : utilisez le curseur pour sélectionner la longueur souhaitée de votre texte.
 
-   ![](assets/text-genai-4.png){zoomable="yes"}
+   ![](assets/lp-text-gen-3.png){zoomable="yes"}
 
 1. Depuis le menu **[!UICONTROL Ressources de marque]**, cliquez sur **[!UICONTROL Charger une ressource de marque]** pour ajouter toute ressource de marque incluant du contenu pouvant fournir du contexte supplémentaire à l’assistant IA ou sélectionnez-en une chargée précédemment.
 
    Les fichiers précédemment chargés sont disponibles dans la liste déroulante **[!UICONTROL Ressources de marque chargées]**. Il vous suffit d’activer/de désactiver les ressources que vous souhaitez inclure dans votre génération.
 
-   ![](assets/text-genai-3.png){zoomable="yes"}
+   ![](assets/lp-text-gen-4.png){zoomable="yes"}
 
 1. Lorsque votre prompt est prêt, cliquez sur **[!UICONTROL Générer]**.
 
@@ -153,7 +140,7 @@ Dans l’exemple suivant, nous utiliserons l’assistant AI pour améliorer le c
 
    * **[!UICONTROL Élaborer]** : l’assistant IA peut vous aider à développer des sujets spécifiques, en fournissant des détails supplémentaires pour une meilleure compréhension et un meilleur engagement.
 
-   * **[!UICONTROL Résumé]** : de longues informations peuvent embrouiller les personnes destinataires des e-mails. Utilisez l’assistant IA pour condenser des points clés en résumés clairs et concis qui attirent l’attention et pour les encourager à lire davantage.
+   * **[!UICONTROL Résumer]** : la longueur des informations peut surcharger les destinataires de la page de destination. Utilisez l’assistant IA pour condenser des points clés en résumés clairs et concis qui attirent l’attention et pour les encourager à lire davantage.
 
    * **[!UICONTROL Reformuler]** : l’assistant IA peut reformuler votre message de différentes manières en conservant une écriture soignée et attrayante pour diverses audiences.
 
@@ -161,41 +148,35 @@ Dans l’exemple suivant, nous utiliserons l’assistant AI pour améliorer le c
 
    Vous pouvez également modifier le **[!UICONTROL ton]** et la **[!UICONTROL stratégie de communication]** de votre texte.
 
-   ![](assets/text-genai-5.png){zoomable="yes"}
+   ![](assets/lp-text-gen-5.png){zoomable="yes"}
 
 1. Cliquez sur **[!UICONTROL Sélectionner]** une fois que vous avez trouvé le contenu approprié.
 
-   Vous pouvez également activer l’expérience pour votre contenu. [En savoir plus](generative-experimentation.md)
+1. Insérez des champs de personnalisation pour personnaliser le contenu de votre page de destination en fonction des données de profil. Cliquez ensuite sur le bouton **[!UICONTROL Simuler le contenu]** pour contrôler le rendu et vérifier les paramètres de personnalisation avec les profils de test. [En savoir plus](../personalization/personalize.md)
 
-1. Insérez des champs de personnalisation pour personnaliser le contenu de votre e-mail en fonction des données de profil. Cliquez ensuite sur le bouton **[!UICONTROL Simuler le contenu]** pour contrôler le rendu et vérifier les paramètres de personnalisation avec les profils de test. [En savoir plus](../personalization/personalize.md)
-
-Lorsque vous avez défini le contenu, l’audience et le planning, vous pouvez préparer votre campagne par e-mail. [En savoir plus](../campaigns/review-activate-campaign.md)
+Une fois votre page de destination prête, vous pouvez la publier pour la rendre disponible pour une utilisation dans un message. [En savoir plus](../landing-pages/create-lp.md#publish-landing-page)
 
 >[!TAB Génération d’images uniquement]
 
 Dans l’exemple ci-dessous, découvrez comment tirer parti de l’assistant IA pour optimiser et améliorer vos ressources, afin d’offrir une expérience plus conviviale.
 
-1. Après avoir créé et configuré votre campagne par e-mail, cliquez sur **[!UICONTROL Modifier le contenu]**.
+1. Après avoir créé et configuré votre page de destination, cliquez sur **[!UICONTROL Modifier le contenu]**.
 
-   Pour plus d’informations sur la configuration de votre campagne par e-mail, consultez [cette page](../email/create-email.md).
+   Pour plus d&#39;informations sur la configuration de votre page de destination, reportez-vous à [cette page](../landing-pages/create-lp.md).
 
 1. Sélectionnez la ressource que vous souhaitez modifier à l’aide de l’assistant IA.
 
 1. Dans le menu de droite, sélectionnez **[!UICONTROL Assistant IA]**.
 
-   ![](assets/image-genai-1.png){zoomable="yes"}
+   ![](assets/lp-image-gen-1.png){zoomable="yes"}
 
 1. Activez l’option **[!UICONTROL Style de référence]** pour l’assistant IA afin de personnaliser le nouveau contenu en fonction du contenu de référence. Vous pouvez également charger une image pour ajouter du contexte à votre variation.
 
-1. Sélectionnez votre **[!UICONTROL Marque]** pour vous assurer que le contenu généré par l’IA correspond aux spécifications de votre marque. [En savoir plus](brands.md) sur les marques.
-
-   Notez que la fonctionnalité Marques est disponible en version bêta privée et sera progressivement disponible pour tous les clients dans les prochaines versions.
-
 1. Affinez le contenu en décrivant ce que vous souhaitez générer dans le champ **[!UICONTROL Invite]**.
 
-   Si vous avez besoin d’aide pour concevoir votre invite, accédez à la **[!UICONTROL Bibliothèque d’invites]** qui offre un large éventail d’idées d’invites pour améliorer vos campagnes.
+   Si vous recherchez de l&#39;aide pour concevoir votre invite, accédez à la **[!UICONTROL bibliothèque d&#39;invites]** qui fournit un large éventail d&#39;idées d&#39;invites pour améliorer vos landing pages.
 
-   ![](assets/image-genai-2.png){zoomable="yes"}
+   ![](assets/lp-image-gen-2.png){zoomable="yes"}
 
 1. Adaptez votre prompt avec l’option **[!UICONTROL Paramètres des images]** :
 
@@ -206,7 +187,7 @@ Dans l’exemple ci-dessous, découvrez comment tirer parti de l’assistant IA 
    * **[!UICONTROL Éclairage]** : fait référence à l’éclairage présent dans une image qui forme son atmosphère et met en évidence des éléments spécifiques.
    * **[!UICONTROL Composition]** : fait référence à la disposition des éléments dans le cadre d’une image.
 
-   ![](assets/image-genai-4.png){zoomable="yes"}
+   ![](assets/lp-image-gen-3.png){zoomable="yes"}
 
 1. Depuis le menu **[!UICONTROL Ressources de marque]**, cliquez sur **[!UICONTROL Charger une ressource de marque]** pour ajouter toute ressource de marque incluant du contenu pouvant fournir du contexte supplémentaire à l’assistant IA ou sélectionnez-en une chargée précédemment.
 
@@ -220,19 +201,13 @@ Dans l’exemple ci-dessous, découvrez comment tirer parti de l’assistant IA 
 
 1. Choisissez **[!UICONTROL Générer des résultats similaires]** si vous souhaitez afficher les images associées à cette variante.
 
-1. Cliquez sur **[!UICONTROL Sélectionner]** une fois que vous avez trouvé le contenu approprié.
+   ![](assets/lp-image-gen-4.png){zoomable="yes"}
 
-   Vous pouvez également activer l’expérience pour votre contenu. [En savoir plus](generative-experimentation.md)
+1. Cliquez sur **[!UICONTROL Sélectionner]** une fois que vous avez trouvé le contenu approprié.
 
 1. Après avoir défini le contenu de votre message, cliquez sur le bouton **[!UICONTROL Simuler du contenu]** pour contrôler le rendu et vérifier les paramètres de personnalisation avec les profils de test. [En savoir plus](../personalization/personalize.md)
 
-1. Lorsque vous avez défini le contenu, l’audience et le planning, vous pouvez préparer votre campagne par e-mail. [En savoir plus](../campaigns/review-activate-campaign.md)
+Une fois votre page de destination prête, vous pouvez la publier pour la rendre disponible pour une utilisation dans un message. [En savoir plus](../landing-pages/create-lp.md#publish-landing-page)
+
 
 >[!ENDTABS]
-
-
-## Vidéo pratique {#video}
-
-Découvrez comment utiliser l’assistant d’IA dans Journey Optimizer pour générer des e-mails, du texte ou des images complets.
-
->[!VIDEO](https://video.tv.adobe.com/v/3433552)

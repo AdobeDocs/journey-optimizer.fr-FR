@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 10d2de34-23c1-4a5e-b868-700b462312eb
-source-git-commit: 435898d7e806e93ee0154c3da22f6a011fc78175
+source-git-commit: 5ce76bd61a61e1ed5e896f8da224fc20fba74b53
 workflow-type: tm+mt
 source-wordcount: '480'
 ht-degree: 34%
@@ -37,7 +37,9 @@ Lorsque les données en temps réel diffusent ou sont chargées par lots, les je
 >[!BEGINSHADEBOX]
 
 Cette documentation fournit des informations sur l’utilisation des audiences dans [!DNL Adobe Journey Optimizer]. Vous trouverez des informations détaillées sur le portail Audience et les audiences dans la documentation du service Segmentation de Adobe Experience Platform . Consultez ces sections pour plus d’informations :
+
 * [ Guide de l’interface utilisateur du service de segmentation ](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/overview){target="_blank"}
+
 * [Service de segmentation - Questions fréquentes](https://experienceleague.adobe.com/fr/docs/experience-platform/segmentation/faq){target="_blank"}
 
 >[!ENDSHADEBOX]

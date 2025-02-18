@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: IP, groupe, sous-domaines, délivrabilité
 exl-id: 752ffd7f-09c2-4aa3-a067-2dbe0634709c
-source-git-commit: 88dff9f42636a81b54b7050da3542f839c14164e
+source-git-commit: 0c128feac32baff14f1b71aed688e3bde4c67d35
 workflow-type: tm+mt
-source-wordcount: '2589'
-ht-degree: 100%
+source-wordcount: '2634'
+ht-degree: 98%
 
 ---
 
@@ -79,6 +79,10 @@ At phase level, system ensures that previously targeted + new profiles are picke
       >[!NOTE]
       >
       >Vous pouvez uniquement exclure un groupe de domaines personnalisé qui a été ajouté au [modèle de plan de préchauffage des adresses IP](ip-warmup-plan.md#prepare-file). Si ce n’est pas le cas, mettez à jour le modèle avec le groupe de domaines personnalisé à exclure et [chargez à nouveau le plan](#re-upload-plan).
+
+      >[!CAUTION]
+      >
+      >Une fois le plan de préchauffage d’adresses IP en cours d’exécution, si vous mettez à jour la [adresse d’exécution](../email/email-settings.md#execution-address) dans la [configuration](channel-surfaces.md) de canal e-mail utilisée dans la campagne de préchauffage d’adresses IP, l’exclusion de domaine peut échouer. Ne modifiez pas la configuration du canal e-mail une fois le plan de préchauffage d’adresses IP démarré.
 
    1. Dans la section **[!UICONTROL Campagne pour l’exclusion de profils]**, sélectionnez les campagnes dont vous souhaitez exclure les audiences de la phase actuelle.
 

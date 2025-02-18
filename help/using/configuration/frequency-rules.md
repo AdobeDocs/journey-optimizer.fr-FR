@@ -1,22 +1,22 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Règles métier
-description: Découvrir comment définir des règles de fréquence
+title: Configuration des règles métier
+description: Découvrez comment définir des règles de fréquence métier.
 feature: Rules
 topic: Content Management
 role: User
 level: Intermediate
 keywords: message, fréquence, règles, pression
 exl-id: 49248fb6-5a91-45b2-9de8-2f078d59c0fc
-source-git-commit: 47482adb84e05fe41eb1c50479a8b50e00469ec4
+source-git-commit: 46c4d3081603115db71b01a05f12187cd7e0d34c
 workflow-type: tm+mt
-source-wordcount: '1264'
-ht-degree: 100%
+source-wordcount: '1267'
+ht-degree: 99%
 
 ---
 
-# Règles métier {#frequency-rules}
+# Configurer des règles métier {#frequency-rules}
 
 >[!CONTEXTUALHELP]
 >id="ajo_business_rules_message_frequency_rules"

@@ -9,24 +9,24 @@ role: Data Engineer, Data Architect, Admin
 level: Experienced
 keywords: jeu de données, optimizer, cas d’utilisation
 exl-id: 26ba8093-8b6d-4ba7-becf-b41c9a06e1e8
-source-git-commit: 0571a11eabffeb5e318bebe341a8df18da7db598
+source-git-commit: 46c4d3081603115db71b01a05f12187cd7e0d34c
 workflow-type: tm+mt
-source-wordcount: '844'
+source-wordcount: '843'
 ht-degree: 100%
 
 ---
 
-# Cas d’utilisation des jeux de données {#tracking-datasets}
+# Exemples de requêtes {#query-examples}
 
 Dans cette page, vous trouverez la liste des jeux de données Adobe Journey Optimizer et des cas d’utilisation associés :
 
-[Jeu de données d’événement d’expérience de tracking e-mail](#email-tracking-experience-event-dataset)
-[Jeu de données d’événement de commentaires de message](#message-feedback-event-dataset)
-[Jeu de données d’événement d’expérience de tracking push](#push-tracking-experience-event-dataset)
-[Événement d’étape de parcours](#journey-step-event)
-[Jeu de données d’événement Decisioning](#ode-decisionevents)
-[Jeu de données d’événement de commentaires en Cci](#bcc-feedback-event-dataset)
-[Jeu de données d’entité](#entity-dataset)
+* [Jeu de données d’événement d’expérience de tracking e-mail](#email-tracking-experience-event-dataset)
+* [Jeu de données d’événement de retour de message](#message-feedback-event-dataset)
+* [Jeu de données d’événement d’expérience de tracking de notifications push](#push-tracking-experience-event-dataset)
+* [Événement d’étape de parcours](#journey-step-event)
+* [Jeu de données d’événement Decisioning](#ode-decisionevents)
+* [Jeu de données d’événement de retour en Cci](#bcc-feedback-event-dataset)
+* [Jeu de données d’entité](#entity-dataset)
 
 Pour consulter la liste complète des champs et attributs de chaque schéma, consultez le [dictionnaire de schémas de Journey Optimizer](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=fr){target="_blank"}.
 

@@ -9,9 +9,9 @@ role: Admin
 level: Experienced
 keywords: paramètres, e-mail, configuration
 exl-id: c6c77975-ec9c-44c8-a8d8-50ca6231fea6
-source-git-commit: 8e8f2d9fd360438f692a5cf79359d3a64c1220be
+source-git-commit: b3655506dff97756a59a63d5b8f0c358dc7c7510
 workflow-type: tm+mt
-source-wordcount: '779'
+source-wordcount: '765'
 ht-degree: 97%
 
 ---
@@ -64,10 +64,6 @@ Pour plus d’informations sur la gestion des fonctionnalités de désabonnement
 >id="ajo_email_config_unsubscribe_custom"
 >title="Définir comment les données de désabonnement sont gérées"
 >abstract="**Géré par Adobe** : les données de consentement sont gérées par vous dans le système Adobe.<br>**Géré par le client ou la cliente** : les données de consentement sont gérées par vous dans un système externe et aucune synchronisation des données de consentement n’est mise à jour dans le système Adobe, sauf si vous en êtes à l’origine."
-
->[!AVAILABILITY]
->
->Cette fonctionnalité est publiée en disponibilité limitée pour un petit groupe de personnes.
 
 Si vous gérez le consentement en dehors d’Adobe, sélectionnez l’option **[!UICONTROL Géré par le client ou la cliente]** pour saisir une adresse e-mail de désabonnement personnalisée et votre propre URL de désabonnement en un clic.
 

@@ -5,10 +5,10 @@ role: User
 level: Beginner
 badge: label="Disponibilité limitée"
 exl-id: 4c0ee178-81fb-41ae-b7f5-22da995e6fc6
-source-git-commit: f5df65a0225754ab66fb2ffa33c5130f7137b644
+source-git-commit: 6e2a2505f1ffb7ff00f5e24763152b759073869d
 workflow-type: tm+mt
-source-wordcount: '903'
-ht-degree: 93%
+source-wordcount: '920'
+ht-degree: 91%
 
 ---
 
@@ -70,6 +70,10 @@ Pour créer une règle de limitation de parcours, procédez comme suit :
 
       1. Dans le champ **[!UICONTROL Limitation]**, définissez le nombre maximal de parcours qu’un profil peut rejoindre.
       1. Dans le champ **[!UICONTROL Durée]**, définissez la période à prendre en compte. Veuillez noter que la durée est basée sur le fuseau horaire UTC. Par exemple, la limite quotidienne est réinitialisée à minuit UTC.
+
+     >[!AVAILABILITY]
+     >
+     >La durée « quotidienne » est disponible uniquement à la demande. Pour obtenir l’accès, contactez votre représentant ou représentante Adobe.
 
      Dans cet exemple, nous voulons limiter à « 5 » le nombre de parcours par mois que les profils peuvent rejoindre.
 

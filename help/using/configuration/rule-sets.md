@@ -1,19 +1,18 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Utiliser des jeux de règles (disponibilité limitée)
+title: Utiliser des jeux de règles
 description: Découvrir comment créer et appliquer des jeux de règles
 feature: Rules
 topic: Content Management
 role: User
 level: Intermediate
 keywords: message, fréquence, règles, pression
-badge: label="Disponibilité limitée"
 exl-id: 07f5f0b4-417e-408e-8d9e-86615c8a3fbf
-source-git-commit: 4ab4b48ba87c73552a15c9815877517934029d57
+source-git-commit: 6e2a2505f1ffb7ff00f5e24763152b759073869d
 workflow-type: tm+mt
-source-wordcount: '1950'
-ht-degree: 100%
+source-wordcount: '1933'
+ht-degree: 97%
 
 ---
 
@@ -23,10 +22,6 @@ ht-degree: 100%
 >id="ajo_business_rules_rule_sets"
 >title="Jeux de règles"
 >abstract="Utilisez les jeux de règles pour appliquer le capping de fréquence à différents types de communications marketing. Vous pouvez également créer des jeux de règles pour exclure des parcours d’une partie de votre audience en fonction de règles de capping de fréquence."
-
->[!AVAILABILITY]
->
->Les jeux de règles sont actuellement accessibles en disponibilité limitée pour un groupe sélectionné de clientes et de clients. Notez que cette fonctionnalité sera progressivement déployée pour d’autres utilisateurs et utilisatrices ultérieurement. Contactez votre équipe en charge des comptes si vous souhaitez intégrer la liste d’attente.
 
 ## Commencer avec les jeux de règles {#gs}
 
@@ -68,7 +63,7 @@ Pour créer un jeu de règles, procédez comme suit.
 
 >[!NOTE]
 >
->Vous pouvez créer jusqu’à 3 jeux de règles personnalisées.
+>Vous pouvez créer jusqu’à 3 ensembles de règles locales de domaine de canal et jusqu’à 5 ensembles de règles locales de domaine de parcours.
 
 1. Accédez à la liste **[!UICONTROL Jeux de règles]**, puis cliquez sur **[!UICONTROL Créer un jeu de règles]**.
 
@@ -127,6 +122,10 @@ Les paramètres disponibles pour la règle dépendent du domaine du jeu de règl
 1. Dans la liste déroulante **[!UICONTROL Durée]**, sélectionnez si vous souhaitez que la limitation soit appliquée tous les mois, toutes les semaines ou tous les jours. La limite de fréquence est basée sur la période calendaire sélectionnée. Elle est réinitialisée au début de la période correspondante.
 
    ![](assets/rule-set-capping-duration.png)
+
+   >[!AVAILABILITY]
+   >
+   >La durée « quotidienne » est disponible uniquement à la demande. Pour obtenir l’accès, contactez votre représentant ou représentante Adobe.
 
    L’expiration du compteur pour chaque période se présente comme suit :
 
@@ -193,7 +192,7 @@ Vous devez également activer le jeu de règles pour pouvoir y accéder dans les
 
 >[!NOTE]
 >
->L’activation complète d’un jeu de règles peut prendre jusqu’à 10 minutes. Vous n’avez pas besoin de modifier des messages ou de republier des parcours pour qu’une règle prenne effet.
+>L’activation complète d’un jeu de règles peut prendre jusqu’à 20 minutes. Vous n’avez pas besoin de modifier des messages ou de republier des parcours pour qu’une règle prenne effet.
 
 <!--Currently, once a rule set is activated, no more rules can be added to that rule set.-->
 

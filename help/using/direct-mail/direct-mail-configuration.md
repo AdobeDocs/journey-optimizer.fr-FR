@@ -7,10 +7,10 @@ role: User
 level: Experienced
 keyword: direct, mail, configuration, direct-mail, provider
 exl-id: ae5cc885-ade1-4683-b97e-eda1f2142041
-source-git-commit: 179d0f8571bf2e4d4ea1c5ad8ab498de9e7b5550
+source-git-commit: b134fe166402e4ae49cd96fc09a19e14beb13523
 workflow-type: tm+mt
-source-wordcount: '1405'
-ht-degree: 98%
+source-wordcount: '1529'
+ht-degree: 93%
 
 ---
 
@@ -108,7 +108,7 @@ Pour configurer le routage des fichiers, suivez les étapes ci-dessous.
 
 1. Attribuez un nom à votre configuration.
 
-1. Sélectionnez SFTP comme **[!UICONTROL type de serveur]** à utiliser pour exporter les fichiers de publipostage direct.
+1. Sélectionnez SFTP comme **[!UICONTROL Type de serveur]** à utiliser pour exporter les fichiers de publipostage direct.
 
    ![](assets/file-routing-config-type-sftp.png){width="800" align="center"}
 
@@ -142,7 +142,7 @@ Pour configurer le routage des fichiers, suivez les étapes ci-dessous.
 
 1. Attribuez un nom à votre configuration.
 
-1. Sélectionnez le **[!UICONTROL type de serveur]** Azure pour exporter les fichiers de publipostage direct.
+1. Sélectionnez Azure comme **[!UICONTROL type de serveur]** à utiliser pour l’exportation des fichiers de publipostage direct.
 
    ![](assets/file-routing-config-type-azure.png){width="800" align="center"}
 
@@ -162,7 +162,29 @@ Pour configurer le routage des fichiers, suivez les étapes ci-dessous.
 
 1. Sélectionnez **[!UICONTROL Envoyer]**. La configuration du routage des fichiers est créée avec le statut **[!UICONTROL Actif]**. Elle est maintenant prête à être utilisée dans une [configuration de publipostage direct](#direct-mail-surface).
 
-   Vous pouvez également sélectionner **[!UICONTROL Enregistrer comme brouillon]** pour créer la configuration du routage des fichiers, mais vous ne pourrez pas la sélectionner pour une configuration tant qu’elle ne sera pas **[!UICONTROL Active]**.
+   Vous pouvez également sélectionner **[!UICONTROL Enregistrer comme brouillon]** pour créer la configuration du routage des fichiers, mais vous ne pourrez pas la sélectionner pour une configuration tant qu&#39;elle ne sera pas **[!UICONTROL Active]**.
+
+>[!TAB Zone d’atterrissage des données]
+
+1. Accédez au menu **[!UICONTROL Administration]** > **[!UICONTROL Canaux]** > **[!UICONTROL Paramètres de publipostage direct]** > **[!UICONTROL Routage des fichiers]**, puis cliquez sur **[!UICONTROL Créer une configuration de routage]**.
+
+   ![](assets/file-routing-config-button.png){width="800" align="center"}
+
+1. Attribuez un nom à votre configuration.
+
+1. Sélectionnez Zone d’entrée des données comme **[!UICONTROL type de serveur]** à utiliser pour exporter les fichiers de publipostage direct.
+
+   ![](assets/file-routing-config-type-dlz.png){width="800" align="center"}
+
+1. Pour chiffrer le fichier, copiez-collez votre clé de chiffrement dans le champ **[!UICONTROL Clé de chiffrement PGP/GPG]**. <!--To find it, ...-->
+
+   ![](assets/file-routing-config-dlz-detail.png)
+
+1. Sélectionnez **[!UICONTROL Envoyer]**. La configuration du routage des fichiers est créée avec le statut **[!UICONTROL Actif]**. Elle est maintenant prête à être utilisée dans une [configuration de publipostage direct](#direct-mail-surface).
+
+   Vous pouvez également sélectionner **[!UICONTROL Enregistrer comme brouillon]** pour créer la configuration du routage des fichiers, mais vous ne pourrez pas la sélectionner pour une configuration tant qu&#39;elle ne sera pas **[!UICONTROL Active]**.
+
+En savoir plus sur la zone d’atterrissage des données dans la documentation de [Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/cloud-storage/data-landing-zone){target="_blank"}.
 
 >[!ENDTABS]
 
