@@ -7,10 +7,10 @@ role: User
 level: Experienced
 keyword: direct, mail, configuration, direct-mail, provider
 exl-id: ae5cc885-ade1-4683-b97e-eda1f2142041
-source-git-commit: 324e477ca334e2d614265b3ea25428bea089ac69
+source-git-commit: 8f296109555edcfdc9e66fae312e6100e98ed78e
 workflow-type: tm+mt
-source-wordcount: '1317'
-ht-degree: 90%
+source-wordcount: '1356'
+ht-degree: 84%
 
 ---
 
@@ -22,13 +22,13 @@ Lors de la [création d’un message de publipostage direct](../direct-mail/crea
 
 Avant de pouvoir générer ce fichier, vous devez créer les éléments suivants :
 
-1. Une [configuration du routage des fichiers](#file-routing-configuration) pour spécifier le serveur sur lequel le fichier sera exporté et chiffré, le cas échéant.
+1. [une configuration du routage des fichiers](#file-routing-configuration) pour spécifier le serveur sur lequel le fichier sera exporté et chiffrer le fichier, si nécessaire.
 
    >[!CAUTION]
    >
-   >Pour créer une configuration de routage de fichier, vous devez disposer de l’autorisation intégrée **[!DNL Manage file routing]**. [En savoir plus](../administration/ootb-product-profiles.md#content-library-manager).
+   >Pour créer une configuration de routage de fichier, vous devez disposer de l’autorisation intégrée **[!DNL Manage file routing]**. [En savoir plus](../administration/ootb-product-profiles.md#content-library-manager)
 
-1. Une [configuration du publipostage direct](#direct-mail-configuration) qui fera référence à la configuration du routage des fichiers. Si vous n’avez configuré aucune option de routage de fichier, vous ne pourrez pas créer de configuration de publipostage direct.
+1. [configuration du publipostage direct](#direct-mail-configuration) qui fera référence à la configuration du routage des fichiers. Si vous n’avez configuré aucune option de routage de fichier, vous ne pourrez pas créer de configuration de publipostage direct.
 
 ## Configurer le routage des fichiers {#file-routing-configuration}
 
@@ -68,97 +68,99 @@ Vous devez spécifier les détails du serveur afin que votre fournisseur de publ
 
 Pour configurer le routage des fichiers, suivez les étapes ci-dessous.
 
-1. Accédez au menu **[!UICONTROL Administration]** > **[!UICONTROL Canaux]** > **[!UICONTROL Paramètres de publipostage direct]** > **[!UICONTROL Routage des fichiers]**, puis cliquez sur **[!UICONTROL Créer une configuration de routage]**.
+1. Accédez au menu **[!UICONTROL Administration]** > **[!UICONTROL Canaux]** > **[!UICONTROL Paramètres du publipostage direct]** > **[!UICONTROL Routage des fichiers]**, puis cliquez sur **[!UICONTROL Créer une configuration de routage des fichiers]**.
 
    ![](assets/file-routing-config-button.png){width="800" align="center"}
 
 1. Attribuez un nom à votre configuration.
 
-1. Sélectionnez le type de serveur à utiliser pour exporter vos fichiers de publipostage direct : Amazon S3, SFTP, Azure ou Data Landing Zone. Les champs spécifiques à chaque type de serveur sont présentés dans les onglets ci-dessous.
+1. Sélectionnez le type de serveur à utiliser pour exporter vos fichiers de publipostage direct : Amazon S3, SFTP, Azure ou Data Landing Zone.
 
    ![](assets/file-routing-config-type.png){width="800" align="center"}
 
-1. Sélectionnez **[!UICONTROL Envoyer]**. La configuration du routage des fichiers est créée avec le statut **[!UICONTROL Actif]**. Elle est maintenant prête à être utilisée dans une [configuration de publipostage direct](#direct-mail-surface).
+1. Renseignez les champs spécifiques à chaque type de serveur, comme indiqué dans les onglets ci-dessous.
 
-   Vous pouvez également sélectionner **[!UICONTROL Enregistrer comme brouillon]** pour créer la configuration du routage des fichiers, mais vous ne pourrez pas la sélectionner pour une configuration tant qu&#39;elle ne sera pas **[!UICONTROL Active]**.
+   >[!BEGINTABS]
 
->[!BEGINTABS]
+   >[!TAB Amazon S3]
 
->[!TAB Amazon S3]
+   Si vous avez sélectionné **[!UICONTROL Amazon S3]** en tant que **[!UICONTROL type de serveur]** :
 
-1. Sélectionnez **[!UICONTROL Amazon S3]** comme **[!UICONTROL Type de serveur]**.
+   1. Renseigner les détails et les informations d’identification de votre serveur
 
-1. Renseigner les détails et les informations d’identification de votre serveur
+      * **Nom du compartiment AWS** : pour savoir où trouver votre nom du compartiment AWS, consultez [cette page](https://docs.aws.amazon.com/AmazonS3/latest/userguide/UsingBucket.html).
 
-   * **Nom du compartiment AWS** : pour savoir où trouver votre nom du compartiment AWS, consultez [cette page](https://docs.aws.amazon.com/AmazonS3/latest/userguide/UsingBucket.html).
+      * **Clé d’accès AWS** : pour savoir où trouver votre ID de la clé d’accès AWS, consultez [cette page](https://docs.aws.amazon.com/IAM/latest/UserGuide/security-creds.html#access-keys-and-secret-access-keys).
 
-   * **Clé d’accès AWS** : pour savoir où trouver votre ID de la clé d’accès AWS, consultez [cette page](https://docs.aws.amazon.com/IAM/latest/UserGuide/security-creds.html#access-keys-and-secret-access-keys).
+      * **Clé d’accès AWS** : pour savoir où trouver votre clé secrète AWS, consultez [cette page](https://aws.amazon.com/fr/blogs/security/wheres-my-secret-access-key/).
 
-   * **Clé d’accès AWS** : pour savoir où trouver votre clé secrète AWS, consultez [cette page](https://aws.amazon.com/fr/blogs/security/wheres-my-secret-access-key/).
+      * **Région AWS** : sélectionnez la **[!UICONTROL région AWS]** où se trouve l’infrastructure du serveur. Les régions AWS sont des zones géographiques qu’AWS utilise pour héberger ses infrastructures cloud. En règle générale, il est préférable de choisir la région la plus proche de l’emplacement de votre fournisseur de publipostage direct.
 
-   * **Région AWS** : sélectionnez la **[!UICONTROL région AWS]** où se trouve l’infrastructure du serveur. Les régions AWS sont des zones géographiques qu’AWS utilise pour héberger ses infrastructures cloud. En règle générale, il est préférable de choisir la région la plus proche de l’emplacement de votre fournisseur de publipostage direct.
+      ![](assets/file-routing-config-aws-region.png){width="800" align="center"}
 
-   ![](assets/file-routing-config-aws-region.png){width="800" align="center"}
+   1. Pour chiffrer le fichier, copiez-collez votre clé de chiffrement dans le champ **[!UICONTROL Clé de chiffrement PGP/GPG]**.
 
-1. Pour chiffrer le fichier, copiez-collez votre clé de chiffrement dans le champ **[!UICONTROL Clé de chiffrement PGP/GPG]**.
+   >[!TAB SFTP]
 
->[!TAB SFTP]
+   Si vous avez sélectionné **[!UICONTROL SFTP]** comme **[!UICONTROL Type de serveur]** :
 
-1. Sélectionnez **[!UICONTROL SFTP]** comme **[!UICONTROL Type de serveur]**.
+   1. Renseignez les détails et les informations d’identification de votre serveur :
 
-1. Renseignez les détails et les informations d’identification de votre serveur :
+      * **Compte** : nom du compte utilisé pour se connecter au serveur SFTP.
 
-   * **Compte** : nom du compte utilisé pour se connecter au serveur SFTP.
+      * **Adresse du serveur** : URL du serveur SFTP.
 
-   * **Adresse du serveur** : URL du serveur SFTP.
+      * **Port** : numéro de port de la connexion FTP.
 
-   * **Port** : numéro de port de la connexion FTP.
+      * **Mot de passe** : mot de passe utilisé pour se connecter au serveur SFTP.
 
-   * **Mot de passe** : mot de passe utilisé pour se connecter au serveur SFTP.
+      ![](assets/file-routing-config-sftp-detail.png)
 
-   ![](assets/file-routing-config-sftp-detail.png)
+      >[!NOTE]
+      >
+      >Pour spécifier un chemin d’accès sur le serveur afin d’enregistrer le fichier, mettez à jour le **[!UICONTROL nom de fichier]** de la campagne de publipostage direct afin d’inclure le chemin d’accès souhaité. [En savoir plus](create-direct-mail.md#extraction-file)
 
-   >[!NOTE]
-   >
-   >Pour spécifier un chemin d’accès sur le serveur afin d’enregistrer le fichier, mettez à jour le **[!UICONTROL nom de fichier]** de la campagne de publipostage direct afin d’inclure le chemin d’accès souhaité. [En savoir plus](create-direct-mail.md#extraction-file)
+   1. Pour chiffrer le fichier, copiez-collez votre clé de chiffrement dans le champ **[!UICONTROL Clé de chiffrement PGP/GPG]**.
 
-1. Pour chiffrer le fichier, copiez-collez votre clé de chiffrement dans le champ **[!UICONTROL Clé de chiffrement PGP/GPG]**.
+   >[!TAB Azure]
 
->[!TAB Azure]
+   Si vous avez sélectionné **[!UICONTROL Azure]** comme **[!UICONTROL type de serveur]** :
 
-1. Sélectionnez **[!UICONTROL Azure]** comme **[!UICONTROL Type de serveur]**.
+   1. Renseignez les détails et les informations d’identification de votre serveur :
 
-1. Renseignez les détails et les informations d’identification de votre serveur :
+      * **Chaîne de connexion Azure** : pour rechercher votre **chaîne de connexion Azure**, consultez [cette page](https://learn.microsoft.com/fr-fr/azure/storage/common/storage-configure-connection-string#configure-a-connection-string-for-an-azure-storage-account).
 
-   * **Chaîne de connexion Azure** : pour rechercher votre **chaîne de connexion Azure**, consultez [cette page](https://learn.microsoft.com/fr-fr/azure/storage/common/storage-configure-connection-string#configure-a-connection-string-for-an-azure-storage-account).
+        La **chaîne de connexion Azure** doit suivre le format présenté ci-dessous :
 
-     La **chaîne de connexion Azure** doit suivre le format présenté ci-dessous :
+        `DefaultEndpointsProtocol=[http|https];AccountName=myAccountName;AccountKey=myAccountKey`
 
-     `DefaultEndpointsProtocol=[http|https];AccountName=myAccountName;AccountKey=myAccountKey`
+      * **Nom du conteneur** : pour rechercher votre **nom du conteneur**, consultez [cette page](https://learn.microsoft.com/fr-fr/azure/storage/blobs/blob-containers-portal).
 
-   * **Nom du conteneur** : pour rechercher votre **nom du conteneur**, consultez [cette page](https://learn.microsoft.com/fr-fr/azure/storage/blobs/blob-containers-portal).
+        Le **nom du conteneur** doit uniquement contenir le nom du conteneur sans barre oblique.
 
-     Le **nom du conteneur** doit uniquement contenir le nom du conteneur sans barre oblique.
+        >[!NOTE]
+        >
+        >Pour spécifier un chemin d’accès dans le conteneur afin d’enregistrer le fichier, mettez à jour le **[!UICONTROL nom de fichier]** de la campagne de publipostage direct afin d’inclure le chemin d’accès souhaité. [En savoir plus](create-direct-mail.md#extraction-file)
 
-     >[!NOTE]
-     >
-     >Pour spécifier un chemin d’accès dans le conteneur afin d’enregistrer le fichier, mettez à jour le **[!UICONTROL nom de fichier]** de la campagne de publipostage direct afin d’inclure le chemin d’accès souhaité. [En savoir plus](create-direct-mail.md#extraction-file)
+        ![](assets/file-routing-config-azure-detail.png)
 
-     ![](assets/file-routing-config-azure-detail.png)
+   1. Pour chiffrer le fichier, copiez-collez votre clé de chiffrement dans le champ **[!UICONTROL Clé de chiffrement PGP/GPG]**.
 
-1. Pour chiffrer le fichier, copiez-collez votre clé de chiffrement dans le champ **[!UICONTROL Clé de chiffrement PGP/GPG]**.
+   >[!TAB Zone d’atterrissage des données]
 
->[!TAB Zone d’atterrissage des données]
+   Si vous avez sélectionné **[!UICONTROL Zone d’atterrissage de données]** comme **[!UICONTROL Type de serveur]**, aucun détail spécifique n’est nécessaire.
 
-1. Sélectionnez **[!UICONTROL Zone d’entrée des données]** comme **[!UICONTROL Type de serveur]**.
-
-1. Pour chiffrer le fichier, copiez-collez votre clé de chiffrement dans le champ **[!UICONTROL Clé de chiffrement PGP/GPG]**.
+   Pour chiffrer le fichier, copiez-collez votre clé de chiffrement dans le champ **[!UICONTROL Clé de chiffrement PGP/GPG]**.
 
    ![](assets/file-routing-config-dlz-detail.png)
 
-En savoir plus sur la zone d’atterrissage de données dans la documentation de Adobe Experience Platform [](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/cloud-storage/data-landing-zone){target="_blank"}.
+   Tous les clients de [!DNL Adobe Experience Platform] sont configurés avec un conteneur Data Landing Zone par sandbox. En savoir plus sur la zone d’atterrissage de données dans la documentation de Adobe Experience Platform [](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/cloud-storage/data-landing-zone){target="_blank"}.
 
->[!ENDTABS]
+   >[!ENDTABS]
+
+1. Une fois que vous avez renseigné les détails de votre type de serveur, sélectionnez **[!UICONTROL Envoyer]**. La configuration du routage des fichiers est créée avec le statut **[!UICONTROL Actif]**. Elle est maintenant prête à être utilisée dans une [configuration de publipostage direct](#direct-mail-surface).
+
+   Vous pouvez également sélectionner **[!UICONTROL Enregistrer comme brouillon]** pour créer la configuration du routage des fichiers, mais vous ne pourrez pas la sélectionner pour une configuration tant qu’elle ne sera pas **[!UICONTROL Active]**.
 
 ## Créer une configuration de publipostage direct {#direct-mail-surface}
 
