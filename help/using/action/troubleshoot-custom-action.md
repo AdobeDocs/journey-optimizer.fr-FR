@@ -9,9 +9,9 @@ topic: Administration
 role: Data Engineer, Data Architect, Admin
 level: Experienced
 keywords: action, tiers, personnalisé, parcours, API
-source-git-commit: 51882b5f664e335c472afd790494f86b300e0e56
+source-git-commit: d6501c8cc7e3293bd6a057d8e74654bced7dae75
 workflow-type: tm+mt
-source-wordcount: '583'
+source-wordcount: '582'
 ht-degree: 3%
 
 ---
@@ -34,7 +34,7 @@ L’utilisation de cette fonctionnalité simplifie le processus de test et de va
 
 ## Conditions préalables {#troubleshoot-custom-action-prereq}
 
-Pour utiliser la fonctionnalité **[!UICONTROL Envoyer une requête de test]**, une **Action personnalisée** doit être préconfigurée avec une URL, des en-têtes et des paramètres d’authentification.
+Pour utiliser la fonctionnalité **[!UICONTROL Envoyer une requête de test]**, une **action personnalisée** doit être préconfigurée avec une URL, des en-têtes et des paramètres d’authentification.
 
 Pour que les administrateurs puissent utiliser cette fonctionnalité, les autorisations suivantes sont requises :
 
@@ -48,7 +48,7 @@ En savoir plus sur les autorisations de parcours dans [cette section](../adminis
 
 Pour tester une action personnalisée, procédez comme suit :
 
-1. Accédez à l’écran de configuration **Actions personnalisées** et sélectionnez une action personnalisée.
+1. Accédez à l’écran de configuration **Actions** et sélectionnez une action personnalisée.
 1. Cliquez sur le bouton **[!UICONTROL Envoyer la requête de test]** en bas de l’écran de configuration de l’action.
    ![Bouton Envoyer la demande de test dans le panneau Configuration de l’action](assets/test-request.png){width="70%" align="left"}
 1. Dans la fenêtre pop-up, vous pouvez spécifier les paramètres de la demande :
