@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: bd5e053a-69eb-463b-add3-8b9168c8e280
-source-git-commit: 27447578dad6bd2612989d79cd0dc8ddbe78d629
+source-git-commit: e798d413a4962bb037ff3cae595bcd87f4121e4f
 workflow-type: tm+mt
 source-wordcount: '1323'
 ht-degree: 100%
@@ -174,9 +174,12 @@ Dans Adobe Experience Platform, vous pouvez créer des profils en télécharge
    ![](assets/test-profiles-21.png)
 
 Vos profils de test sont ajoutés et peuvent désormais être utilisés lors du test d&#39;un parcours. Reportez-vous à [cette section](../building-journeys/testing-the-journey.md).
+
+
 >[!NOTE]
 >
 > Pour plus d’informations sur les importations de fichiers CSV, consultez la [documentation sur l’ingestion de données](https://experienceleague.adobe.com/docs/experience-platform/ingestion/tutorials/map-a-csv-file.html?lang=fr#tutorials){target="_blank"}.
+
 
 ## Création de profils de test à l&#39;aide d&#39;appels d&#39;API{#create-test-profiles-api}
 
