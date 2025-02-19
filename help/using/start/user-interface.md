@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
-source-git-commit: ccfc0870a8d59d16c7f5b6b02856785aa28dd307
+source-git-commit: 40bef9a05fef1433773a73d546752e84f81b7366
 workflow-type: tm+mt
 source-wordcount: '1370'
 ht-degree: 100%
@@ -128,7 +128,7 @@ Contrôlez les demandes et la gestion concernant la confidentialité à partir d
 
   Vous pouvez également accéder à la section **Création de rapports** pour configurer les rapports pour l’expérimentation de campagnes, ainsi que pour le web et les applications mobiles. [En savoir plus](../reports/reporting-configuration.md)
 
-* **[!UICONTROL Règles métier]** - Utilisez cette section pour créer des règles métier cross-canal afin de contrôler la fréquence à laquelle les utilisateurs et utilisatrices reçoivent un message ou entrent dans un parcours. [En savoir plus](../configuration/frequency-rules.md).
+* **[!UICONTROL Règles métier]** - Utilisez cette section pour créer des règles métier cross-canal afin de contrôler la fréquence à laquelle les utilisateurs et utilisatrices reçoivent un message ou entrent dans un parcours. [En savoir plus](../configuration/rule-sets.md).
 
 * **[!UICONTROL Alertes]** - Lʼinterface utilisateur vous permet de consulter lʼhistorique des alertes reçues en fonction des mesures affichées par Adobe Experience Platform Observability Insights. Lʼinterface utilisateur vous permet également dʼafficher, dʼactiver et de désactiver les règles dʼalerte disponibles. [En savoir plus](../reports/alerts.md).
 

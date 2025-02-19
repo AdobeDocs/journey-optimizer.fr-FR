@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 8e8f2d9fd360438f692a5cf79359d3a64c1220be
+source-git-commit: 40bef9a05fef1433773a73d546752e84f81b7366
 workflow-type: tm+mt
-source-wordcount: '6051'
-ht-degree: 97%
+source-wordcount: '6045'
+ht-degree: 96%
 
 ---
 
@@ -123,7 +123,7 @@ Cette page répertorie toutes les mises à jour récentes de la documentation de
    * E : raccourci utilisé pour déclencher un événement dans un parcours basé sur un événement.
    * P : raccourci pour déclencher un événement dans un parcours basé sur des audiences pour lequel l’option Un profil unique à la fois est activée.
    * L : raccourci désigné pour afficher les journaux de test.
-* La page Règles de fréquence des messages a été mise à jour avec une nouvelle sous-section sur la limite de fréquence quotidienne, disponible à la demande en plus de la limitation hebdomadaire ou mensuelle. [En savoir plus](../configuration/frequency-rules.md#daily-frequency-cap)
+* La page Règles de fréquence des messages a été mise à jour avec une nouvelle sous-section sur la limitation de la fréquence quotidienne, disponible sur demande en plus de la limitation hebdomadaire ou mensuelle.
 * La page Utiliser les politiques de consentement a été améliorée et mise à jour avec des liens utiles vers la documentation d’Experience Platform. [En savoir plus](../action/consent.md)
 * Une nouvelle section a été ajoutée pour refléter le fait que vous pouvez afficher des modèles de contenu d’e-mail HTML sous forme de miniatures en mode de vue Grille (disponibilité limitée). [En savoir plus](../content-management/content-templates.md#template-thumbnails)
 * Une nouvelle section a été ajoutée à la page Délivrabilité pour expliquer ce que sont les boucles de rétroaction et comment les utiliser. [En savoir plus](../reports/deliverability.md#feedback-loops)
@@ -140,7 +140,7 @@ Cette page répertorie toutes les mises à jour récentes de la documentation de
 * La liste des fonctions disponibles dans l’éditeur d’expression avancé a été mise à jour. [En savoir plus](../building-journeys/expression/functions.md)
 * La page de la fonction de partage a été mise à jour. [En savoir plus](../building-journeys/functions/functioninaudience.md)
 * Ajout d’informations concernant l’impact des notifications push d’opt-in ou d’opt-out sur les messages in-app. [En savoir plus](../in-app/create-in-app.md)
-* La page des règles de fréquence des messages a été mise à jour pour prendre en compte les options de durée disponibles dans l’interface utilisateur (hebdomadaire ou mensuelle). [En savoir plus](../configuration/frequency-rules.md)
+* La page Règles de fréquence des messages a été mise à jour pour prendre en compte les options de durée disponibles dans l’interface utilisateur (hebdomadaire ou mensuelle).
 * La section Modifier l’enregistrement PTR a été mise à jour afin de clarifier le fait que les enregistrements PTR ne peuvent pas être créés manuellement et que vous devez modifier les enregistrements PTR pour leur attribuer de nouveaux sous-domaines. [En savoir plus](../configuration/ptr-records.md#edit-ptr-record)
 
 ## Janvier 2024 {#jan-2024}
@@ -338,7 +338,7 @@ Cette page répertorie toutes les mises à jour récentes de la documentation de
 ## Août 2022 {#august-2022}
 
 * Toutes les nouvelles fonctionnalités et améliorations de la version [!DNL Journey Optimizer] d’août 2022 ont été présentées dans la documentation. [En savoir plus](release-notes.md)
-* La section Règles de fréquence a été mise à jour pour prendre en compte le nouveau flux de messages en ligne. [En savoir plus](../configuration/frequency-rules.md#apply-frequency-rule)
+* La section Règles de fréquence a été mise à jour pour prendre en compte le nouveau flux de messagerie en ligne.
 * Une vidéo montrant comment configurer les abonnements et créer des pages de destination est désormais référencée dans la section « Prise en main des pages de destination ». [En savoir plus](../landing-pages/get-started-lp.md#video)
 * Ajout d’une limitation pour les parcours utilisant les activités de lecture d’audience. [En savoir plus](../building-journeys/read-audience.md).
 * La page des opérateurs de l’éditeur d’expression a été améliorée. [En savoir plus](../building-journeys/expression/operators.md)

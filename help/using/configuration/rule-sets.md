@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: message, fréquence, règles, pression
 exl-id: 07f5f0b4-417e-408e-8d9e-86615c8a3fbf
-source-git-commit: 6e2a2505f1ffb7ff00f5e24763152b759073869d
+source-git-commit: 40bef9a05fef1433773a73d546752e84f81b7366
 workflow-type: tm+mt
 source-wordcount: '1933'
 ht-degree: 97%
@@ -37,7 +37,7 @@ Vous pouvez par exemple créer un jeu de règles pour limiter le nombre de **com
 
 Lors de l’accès aux jeux de règles pour la première fois à partir du menu **[!UICONTROL Administration]** > **[!UICONTROL Règles métier (version bêta)]**, un jeu de règles par défaut est précréé et actif : **Jeu de règles par défaut global**.
 
-Ce jeu de règles contient des règles globales que vous pouvez appliquer pour contrôler la fréquence à laquelle les utilisateurs et utilisatrices reçoivent des messages sur un ou plusieurs canaux, comme le font les règles métier actuelles. Toutes les règles définies dans ce jeu de règles s’appliquent à tous les canaux sélectionnés, que les communications soient envoyées d’un parcours ou d’une campagne. [Découvrir comment utiliser les règles métier](frequency-rules.md)
+Ce jeu de règles contient des règles globales que vous pouvez appliquer pour contrôler la fréquence à laquelle les utilisateurs et utilisatrices reçoivent des messages sur un ou plusieurs canaux, comme le font les règles métier actuelles. Toutes les règles définies dans ce jeu de règles s’appliquent à tous les canaux sélectionnés, que les communications soient envoyées d’un parcours ou d’une campagne. [Découvrir comment utiliser les règles métier](../configuration/rule-sets.md)
 
 En plus du jeu de règles « Jeu de règles par défaut global », vous pouvez créer des **jeux de règles personnalisés** que vous pouvez appliquer à n’importe quelle campagne pour limiter le nombre de messages envoyés au sein de cette campagne. [Découvrir comment créer des jeux de règles personnalisés](#create)
 
