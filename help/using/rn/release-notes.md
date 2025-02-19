@@ -6,9 +6,9 @@ feature: Release Notes
 topic: Content Management
 description: Notes de mise à jour d’Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 63786170a4aaa5659751a9bb5febd98419e2e64a
+source-git-commit: e47c95ac8981356bcfb742105cbf1faa5d53c189
 workflow-type: tm+mt
-source-wordcount: '766'
+source-wordcount: '768'
 ht-degree: 22%
 
 ---
@@ -129,7 +129,7 @@ Les nouvelles fonctionnalités de cette version sont présentées ci-dessous.
 
 Les améliorations ci-dessous accompagnent la mise à jour de février.
 
-* **Parcours** - Vous pouvez désormais tester vos actions personnalisées en envoyant des appels d’API à partir de la section administration. Cette nouvelle fonctionnalité vous permet de résoudre les problèmes liés à vos actions personnalisées avant ou après leur utilisation dans un parcours.
+* **Parcours** - Vous pouvez désormais tester vos actions personnalisées en envoyant des appels d’API à partir de la section administration. Cette nouvelle fonctionnalité vous permet de résoudre les problèmes liés à vos actions personnalisées avant ou après leur utilisation dans un parcours. [En savoir plus](../action/troubleshoot-custom-action.md)
 
 * **Durée de vie (TTL) du jeu de données** - À compter de ce mois-ci, un mécanisme de sécurisation de durée de vie (TTL) sera déployé vers les jeux de données générés par le système Journey Optimizer dans de nouveaux sandbox et de nouvelles organisations, comme suit :
 
