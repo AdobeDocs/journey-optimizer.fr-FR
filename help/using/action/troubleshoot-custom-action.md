@@ -9,7 +9,7 @@ topic: Administration
 role: Data Engineer, Data Architect, Admin
 level: Experienced
 keywords: action, tiers, personnalisé, parcours, API
-source-git-commit: d7ef9cb8b74781d5c711bd2958070767735a3b24
+source-git-commit: 51882b5f664e335c472afd790494f86b300e0e56
 workflow-type: tm+mt
 source-wordcount: '583'
 ht-degree: 3%
@@ -50,9 +50,7 @@ Pour tester une action personnalisée, procédez comme suit :
 
 1. Accédez à l’écran de configuration **Actions personnalisées** et sélectionnez une action personnalisée.
 1. Cliquez sur le bouton **[!UICONTROL Envoyer la requête de test]** en bas de l’écran de configuration de l’action.
-
-![Bouton Envoyer la demande de test dans le panneau Configuration de l’action](assets/test-request.png){width="70%" align="left"}
-
+   ![Bouton Envoyer la demande de test dans le panneau Configuration de l’action](assets/test-request.png){width="70%" align="left"}
 1. Dans la fenêtre pop-up, vous pouvez spécifier les paramètres de la demande :
 
    * Si la méthode d’action personnalisée **est GET**, aucune payload n’est requise.
