@@ -9,7 +9,7 @@ exl-id: 4c57dbf9-b2a4-42da-8aa3-5a1b3a475a32
 source-git-commit: 5b377982f43902a4549f24c022fa8f4947d896a8
 workflow-type: tm+mt
 source-wordcount: '668'
-ht-degree: 87%
+ht-degree: 92%
 
 ---
 
@@ -17,8 +17,8 @@ ht-degree: 87%
 
 >[!CONTEXTUALHELP]
 >id="ajo_email_enable_experience_decisioning"
->title="Qu’est-ce que la prise de décision ?"
->abstract="La prise de décision est un nouvel outil, en plus de la gestion des décisions, permettant de sélectionner les meilleurs éléments du moteur de décision et de les diffuser à chaque individu. Elle nécessite une configuration supplémentaire pour pouvoir être utilisée."
+>title="Qu’est-ce que la prise de décision ?"
+>abstract="La prise de décision est un nouvel outil qui vient s’ajouter à la gestion des décisions pour sélectionner les meilleurs éléments à partir du moteur de décision et les diffuser à chaque individu. Une configuration supplémentaire est nécessaire pour pouvoir l’utiliser."
 
 ## Qu’est-ce que la prise de décision ? {#about}
 
