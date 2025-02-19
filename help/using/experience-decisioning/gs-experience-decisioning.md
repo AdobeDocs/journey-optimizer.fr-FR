@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 4c57dbf9-b2a4-42da-8aa3-5a1b3a475a32
-source-git-commit: 5b377982f43902a4549f24c022fa8f4947d896a8
+source-git-commit: b6c31528784c0c8576e3200e7611a6b6cd43d7a7
 workflow-type: tm+mt
-source-wordcount: '668'
-ht-degree: 92%
+source-wordcount: '484'
+ht-degree: 89%
 
 ---
 
@@ -31,26 +31,6 @@ Ces éléments de décision sont intégrés de manière transparente à un large
 >Les politiques de décision, dans la prise de décision, ne peuvent être utilisées que dans des campagnes d’expérience basée sur du code.
 
 ➡️ Un cas d’utilisation complet montrant comment créer des décisions et les utiliser dans des expériences de contenu avec le canal d’expérience basé sur le code est présenté dans [cette section](experience-decisioning-uc.md).
-
-## Mécanismes de sécurisation et limitations {#guardrails}
-
-Pour garantir une utilisation optimale de la prise de décision, gardez à l’esprit les mécanismes de sécurisation et limites suivants :
-
-### Mécanismes de sécurisation généraux {#general}
-
-* **Éléments d’offre** : chaque collection d’éléments peut contenir jusqu’à 500 éléments d’offre.
-* **Attributs personnalisés** : un élément de décision peut inclure un maximum de 100 attributs personnalisés.
-* **Stratégies de sélection et éléments de décision par politique** : une politique de décision prend en charge jusqu’à 10 stratégies de sélection et éléments de décision combinés.
-
-### Règles d’éligibilité {#eligibility}
-
-* **Niveaux d’imbrication** : la profondeur d’imbrication est limitée à 30 niveaux. Celle-ci est mesurée en comptant les parenthèses fermantes `)` dans la chaîne PQL.
-* **Taille d’une chaîne de règle** : la taille d’une chaîne de règle est de 15 Ko maximum pour les caractères codés en UTF-8. Cela équivaut à 15 000 caractères ASCII (1 octet chacun) ou 3 750 à 7 500 caractères non ASCII (2 à 4 octets chacun).
-
-### Formules de classement {#ranking}
-
-* **Niveaux d’imbrication** : la profondeur d’imbrication est limitée à 30 niveaux. Celle-ci est mesurée en comptant les parenthèses fermantes `)` dans la chaîne PQL.
-* **Taille d’une chaîne de formule** : la taille d’une chaîne de règle est de 8 Ko maximum pour les caractères codés en UTF-8. Cela équivaut à 8 000 caractères ASCII (1 octet chacun) ou 2 000 à 4 000 caractères non ASCII (2 à 4 octets chacun).
 
 ## Étapes clés de la prise de décision {#steps}
 

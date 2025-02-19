@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: 7aaaa566ec9e5a1cf50e067d7c3836bfc305b909
+source-git-commit: b6c31528784c0c8576e3200e7611a6b6cd43d7a7
 workflow-type: tm+mt
-source-wordcount: '2513'
-ht-degree: 93%
+source-wordcount: '2305'
+ht-degree: 91%
 
 ---
 
@@ -75,6 +75,17 @@ Cependant, en fonction de votre contrat de licence, vous pouvez déléguer jusqu
 * Les fragments visuels ne sont disponibles que pour le canal E-mail.
 * Les fragments d’expression ne sont pas disponibles pour les canaux In-app.
 
+## Mécanismes de sécurisation des audiences {#audience}
+
+Vous pouvez publier jusqu’à 10 audiences dans un sandbox donné. Si vous avez atteint ce seuil, vous devez supprimer une composition pour libérer de l’espace et en publier une nouvelle.
+
+## Mécanismes de sécurisation de prise de décision et de gestion des décisions {#decisioning}
+
+Les mécanismes de sécurisation et les limitations à garder à l’esprit lorsque vous utilisez la prise de décision ou la gestion des décisions sont détaillés dans ces sections Prise de décision et gestion des décisions :
+
+* [Mécanismes de sécurisation et limitations des décisions](../experience-decisioning/decisioning-guardrails.md)
+* [Mécanismes de sécurisation et limitations de la gestion des décisions](../offers/decision-management-guardrails.md)
+
 ## Mécanismes de sécurisation des parcours {#journeys-guardrails}
 
 ### Mécanismes de sécurisation généraux des parcours {#journeys-guardrails-journeys}
@@ -85,7 +96,6 @@ Cependant, en fonction de votre contrat de licence, vous pouvez déléguer jusqu
 * Lorsque vous utilisez une qualification d’audience dans un parcours, cette activité de qualification d’audience peut demander jusqu’à 10 minutes avant d’être active et d’écouter les profils entrant ou sortant de l’audience.
 * La taille maximale d’une instance de parcours pour un profil est de 1 Mo. Toutes les données collectées dans le cadre de l’exécution du parcours sont stockées dans cette instance de parcours. Par conséquent, les données d’un événement entrant, les informations de profil extraites d’Adobe Experience Platform, les réponses d’action personnalisée, etc. sont stockées dans cette instance de parcours et affectent la taille du parcours. Il est conseillé, lorsqu’un parcours commence par un événement, de limiter la taille maximale de cette payload d’événement (par exemple, à moins de 800 Ko), afin d’éviter d’atteindre cette limite après quelques activités, dans l’exécution du parcours. Lorsque cette limite est atteinte, le profil est au statut d’erreur et est exclu du parcours.
 * Outre la temporisation utilisée dans les activités de parcours, il existe une temporisation globale qui n’est pas affichée dans l’interface et qui ne peut pas être modifiée. Cette temporisation globale met fin à la progression des personnes dans le parcours 91 jours après leur entrée. [En savoir plus](../building-journeys/journey-properties.md#global_timeout)
-
 
 ### Actions générales {#general-actions-g}
 
@@ -127,7 +137,6 @@ Cependant, en fonction de votre contrat de licence, vous pouvez déléguer jusqu
 * Les parcours unitaires (commençant par un événement ou une qualification d’audience) incluent une mécanisme de sécurisation qui empêche les parcours d’être déclenchés par erreur plusieurs fois pour le même événement. La rentrée du profil est temporairement bloquée par défaut pendant 5 minutes. Par exemple, si un événement déclenche un parcours à 12 h 01 pour un profil spécifique et qu’un autre arrive à 12 h 03 (qu’il s’agisse du même événement ou d’un autre déclenchant le même parcours), ce parcours ne reprendra pas pour ce profil.
 * Journey Optimizer exige que les événements soient diffusés en continu vers Data Collection Core Service (DCCS) pour pouvoir déclencher un parcours. Les événements ingérés par lot ou les événements provenant de jeux de données Journey Optimizer internes (commentaires des messages, tracking e-mail, etc.) ne peuvent pas être utilisés pour déclencher un parcours. Pour les cas d’utilisation où vous ne pouvez pas obtenir d’événements en flux continu, vous devez créer une audience basée sur ces événements et utiliser l’activité **Lecture d’audience** à la place. La qualification d’audience peut techniquement être utilisée. Cette méthode n’est toutefois pas recommandée, car elle peut entraîner des difficultés en aval en fonction des actions utilisées.
 
-
 ### Sources de données {#data-sources-g}
 
 * Les sources de données externes peuvent être exploitées au cours d’un parcours client pour consulter des données externes en temps réel. Ces sources doivent être utilisables via l’API REST, prendre en charge JSON et être en mesure de gérer le volume de requêtes.
@@ -153,7 +162,6 @@ Vous pouvez choisir l’une des deux solutions suivantes :
 
 Des mécanismes de sécurisation spécifiques s’appliquent à l’activité **[!UICONTROL Mise à jour de profil]**. Ils sont répertoriés sur [cette page](../building-journeys/update-profiles.md).
 
-
 ### Lecture d’audience {#read-segment-g}
 
 Les mécanismes de sécurisation suivants s’appliquent à l’activité **[!UICONTROL Lecture d’audience]** :
@@ -166,18 +174,15 @@ Les mécanismes de sécurisation suivants s’appliquent à l’activité **[!UI
 * Voir aussi des recommandations sur l’utilisation de l’activité **Lecture d’audience** sur [cette page](../building-journeys/read-audience.md).
 * Les reprises sont appliquées par défaut sur les parcours déclenchés par l’audience (commençant par une **lecture d’audience** ou un **événement métier**) lors de la récupération du traitement d’export. Si une erreur se produit lors de la création du traitement d’export, des reprises sont effectuées toutes les 10 minutes, pendant 1 heure au maximum. Après cela, nous considérerons cela comme un échec. Ces types de parcours peuvent donc être exécutés jusqu’à 1 heure après l’heure planifiée.
 
-
 ### Qualification d’audience {#audience-qualif-g}
 
 Le mécanisme de sécurisation suivant s’applique à l’activité **[!UICONTROL Qualification d’audience]** :
 
 * L’activité Qualification d’audience ne peut pas être utilisée avec les activités Adobe Campaign.
 
-
 ### Éditeur d’expression {#expression-editor}
 
 * Les groupes de champs d’événement d’expérience ne peuvent pas être utilisés dans les parcours commençant par une activité Lecture d’audience, Qualification d’audience ou événement métier. Vous devez créer une audience et utiliser une condition inAudience dans le parcours.
-
 
 ### Activité in-app {#in-app-activity-limitations}
 
@@ -197,8 +202,6 @@ Le mécanisme de sécurisation suivant s’applique à l’activité **[!UICONTR
 
 * La taille du contenu du message in-app est limitée à 2 Mo. L’inclusion d’images de grande taille peut entraver le processus de publication.
 
-
-
 ### Activité Saut {#jump-g}
 
 Des mécanismes de sécurisation spécifiques s’appliquent à l’activité **[!UICONTROL Saut]**. Ils sont répertoriés sur [cette page](../building-journeys/jump.md#jump-limitations).
@@ -209,37 +212,3 @@ Les mécanismes de sécurisation suivants s’appliquent aux activités **[!UICO
 
 * Les activités Adobe Campaign ne peuvent pas être utilisées avec une activité Lecture d’audience ou Qualification d’audience.
 * Ces activités ne peuvent pas être utilisées avec les activités in-app.
-
-## Mécanismes de sécurisation des audiences {#audience}
-
-Vous pouvez publier jusqu’à 10 audiences dans un sandbox donné. Si vous avez atteint ce seuil, vous devez supprimer une composition pour libérer de l’espace et en publier une nouvelle.
-
-## Mécanismes de sécurisation de la gestion des décisions {#decision-management}
-
-### Mécanismes de sécurisation des performances {#performance-guardrails}
-
-Le débit de diffusion correspond au nombre de réponses de décision qui peuvent être diffusées par le service de l’application de gestion des décisions dans un délai spécifié. Le nombre de décisions par seconde est indiqué dans le tableau ci-dessous.
-
-| API | Décisions par seconde |
-|---------|----------|
-| Requêtes de l’API Decisioning | 500 par seconde |
-| Requêtes de l’API Edge Decisioning avec segmentation Edge | 1 500 par seconde |
-| Requêtes de l’API Edge Decisioning sans segmentation Edge | 5 000 par seconde |
-
-### Limites {#offers-limitations}
-
-Les limites de la gestion des décisions sont répertoriées ci-dessous.
-
-* **Offres personnalisées approuvées + Offres de secours** - Jusqu’à 10 000 offres personnalisées approuvées et offres de secours approuvées.
-* **Décisions** - Jusqu’à 10 000 décisions.
-* **Décisions en direct** - Le service de l’application Offer Decisioning prend en charge jusqu’à 1 000 décisions en direct.
-* **Offres renvoyées par réponse** - La prise de décisions sur les offres prend en charge jusqu’à 100 offres renvoyées par requête pour toutes les portées de décision dans la requête.
-* **Collections** - Jusqu’à 10 000 collections.
-* **Collections par décision** - Jusqu’à 30 collections par décision.
-* **Règles de décision + Fonctions de classement** - Jusqu’à 10 000 règles de décision et fonctions de classement.
-* **Emplacements** - Jusqu’à 1 000 emplacements.
-* **Emplacements par décision** - Jusqu’à 30 emplacements par décision.
-* **Méthode de classement par décision** - Le service de l’application Offer Decisioning prend en charge jusqu’à 30 fonctions de classement par décision.
-* **Modèle de classement AI** - Le service de l’application Offer Decisioning prend en charge jusqu’à 5 modèles de classement AI.
-* **Qualificateur de collection par offre ou collection** - Le service de l’application Offer Decisioning prend en charge jusqu’à 20 qualificateurs de collection dans n’importe quelle offre personnalisée ou collection unique.
-* **Total des qualificateurs de collection** - Le service de l’application Offer Decisioning prend en charge jusqu’à 1 000 qualificateurs de collection.

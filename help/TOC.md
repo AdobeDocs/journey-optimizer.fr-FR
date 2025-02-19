@@ -5,9 +5,9 @@ user-guide-title: Guide de Journey Optimizer
 user-guide-description: Utilisez Journey Optimizer pour créer et proposer aux clients des expériences connectées, contextuelles et personnalisées
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: d2c008ab9b63df5b7a0ded317a97a4d26d2319e3
+source-git-commit: b6c31528784c0c8576e3200e7611a6b6cd43d7a7
 workflow-type: tm+mt
-source-wordcount: '2167'
+source-wordcount: '2174'
 ht-degree: 97%
 
 ---
@@ -452,6 +452,7 @@ ht-degree: 97%
    + [Commencer avec les fonctionnalités de décision](using/experience-decisioning/gs-decision.md)
    + Prise de décision {#experience-decisioning}
       + [Commencer avec la prise de décision](using/experience-decisioning/gs-experience-decisioning.md)
+      + [Mécanismes de sécurisation et limitations des décisions](using/experience-decisioning/decisioning-guardrails.md)
       + Référence de l’API{#api-reference}
          + Éléments de décision{#decision-items}
             + [Créer des éléments de décision](using/experience-decisioning/api-reference/decisions-items/create.md)
@@ -486,6 +487,7 @@ ht-degree: 97%
    + Gestion des décisions {#offer-decisioning}
       + Prise en main de la gestion des décisions {#get-started-decision}
          + [À propos de la gestion des décisions](using/offers/get-started/starting-offer-decisioning.md)
+         + [Mécanismes de sécurisation et limitations de la gestion des décisions](using/offers/decision-management-guardrails.md)
          + [Interface utilisateur](using/offers/get-started/user-interface.md)
          + [Étapes clés de création et de gestion des offres](using/offers/offer-library/key-steps.md)
          + [Tirer profit des audiences de chargement personnalisées pour la prise de décision](using/offers/custom-upload-decisioning.md)
