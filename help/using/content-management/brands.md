@@ -7,14 +7,14 @@ badge: label="Version bêta" type="Informative"
 topic: Content Management
 role: User
 level: Beginner, Intermediate
-source-git-commit: b1ccacd30acb886e06a3305f0c7046d85f558357
+source-git-commit: 288f44de1f92e808aa038020f247a720fefb6b1f
 workflow-type: tm+mt
-source-wordcount: '427'
-ht-degree: 22%
+source-wordcount: '389'
+ht-degree: 24%
 
 ---
 
-# Création et gestion de vos marques {#brands}
+# Créer et gérer vos marques {#brands}
 
 >[!AVAILABILITY]
 >
@@ -22,7 +22,9 @@ ht-degree: 22%
 
 Les directives sur la marque sont un ensemble détaillé de règles et de normes qui établissent l&#39;identité visuelle et verbale d&#39;une marque. Ils servent de référence pour maintenir une représentation cohérente de la marque sur toutes les plateformes de marketing et de communication.
 
-Dans [!DNL Journey Optimizer], vous avez désormais la possibilité de saisir et d’organiser manuellement les détails de votre marque ou de télécharger des documents de directives sur la marque pour l’extraction automatique des informations.
+<!--Upload feature currently behind feature flag--
+
+In [!DNL Journey Optimizer], you now have the option to manually input and organize your brand details or upload brand guideline documents for automatic information extraction.-->
 
 ## Accéder aux marques {#generative-access}
 
@@ -36,7 +38,7 @@ Pour accéder au menu **[!UICONTROL Marques]** dans [!DNL Adobe Journey Optimize
 
 1. Ajoutez la ressource **Assistant IA**, puis sélectionnez **Kit de marque géré** ou **[!UICONTROL Activer l’assistant IA]** dans le menu déroulant.
 
-   Notez que l’autorisation **[!UICONTROL Activer l’assistant d’IA]** permet uniquement d’accéder en lecture seule au menu Marques.
+   Notez que l’autorisation **[!UICONTROL Activer l’assistant d’IA]** permet uniquement d’accéder en lecture seule au menu **[!UICONTROL Marques]**.
 
    ![](assets/brands-permission.png){zoomable="yes"}
 
@@ -54,7 +56,11 @@ Pour accéder au menu **[!UICONTROL Marques]** dans [!DNL Adobe Journey Optimize
 
 ## Création de votre marque {#create-brand-kit}
 
-Pour créer et gérer vos directives de marque, vous pouvez saisir vous-même les détails ou charger votre document de directives de marque pour que les informations soient extraites automatiquement :
+Pour créer et gérer vos directives de marque, procédez comme suit.
+
+<!--Upload feature currently behind feature flag--
+
+To create and manage your Brand guideline, you can either enter the details yourself, or upload your brand guidelines document to have the information extracted automatically:-->
 
 1. Dans le menu **[!UICONTROL Marques]**, cliquez sur **[!UICONTROL Créer une marque]**.
 
@@ -64,9 +70,7 @@ Pour créer et gérer vos directives de marque, vous pouvez saisir vous-même le
 
    ![](assets/brands-2-temp.png)
 
-<!--
-
-[Upload feature currently behind feature flag so hidden from doc - should be available again by EOM (Feb)]
+<!--Upload feature currently behind feature flag so hidden from doc - should be available again by EOM (Feb)--
 
 1. Drag and drop or select your file to upload your brand guidelines and extract automatically relevant brand information. Click **[!UICONTROL Create brand]**.
 
@@ -78,19 +82,23 @@ Pour créer et gérer vos directives de marque, vous pouvez saisir vous-même le
 
 -->
 
-1. Dans l’onglet **[!UICONTROL Style d’écriture]**, cliquez sur ![](assets/do-not-localize/Smock_Add_18_N.svg) pour ajouter une directive ou une exclusion. Vous pouvez également ajouter des exemples.
+1. Dans l’onglet **[!UICONTROL Style d’écriture]**, cliquez sur ![](assets/do-not-localize/Smock_Add_18_N.svg) pour ajouter une instruction ou une exclusion, ainsi que des exemples.
 
    ![](assets/brands-3.png)
 
 1. Dans l’onglet **[!UICONTROL Contenu visuel]**, cliquez sur ![](assets/do-not-localize/Smock_Add_18_N.svg) pour ajouter une autre directive ou exclusion.
 
-1. Pour ajouter un exemple d’image, cliquez sur **[!UICONTROL Sélectionner une image]**. Vous pouvez également ajouter une image montrant une utilisation incorrecte comme exemple d’exclusion.
+1. Pour ajouter une image montrant une utilisation correcte, sélectionnez **[!UICONTROL Exemple]** et cliquez sur **[!UICONTROL Sélectionner une image]**. Vous pouvez également ajouter une image montrant une utilisation incorrecte comme exemple d’exclusion.
 
    ![](assets/brands-4.png)
 
 1. Une fois la configuration effectuée, cliquez sur **[!UICONTROL Enregistrer]** puis **[!UICONTROL Publier]** pour rendre vos directives de marque disponibles dans l’assistant d’IA.
 
-1. Pour apporter des modifications à votre marque publiée, cliquez sur **[!UICONTROL Modifier la marque]**. Notez que cela crée une copie temporaire en mode d’édition, qui remplace la version active une fois publiée.
+1. Pour apporter des modifications à votre marque publiée, cliquez sur **[!UICONTROL Modifier la marque]**.
+
+   >[!NOTE]
+   >
+   >Cela crée une copie temporaire en mode d’édition, qui remplace la version active une fois publiée.
 
    ![](assets/brands-8.png)
 
@@ -105,6 +113,6 @@ Pour créer et gérer vos directives de marque, vous pouvez saisir vous-même le
 
    ![](assets/brands-6.png)
 
-Vos directives de marque sont désormais accessibles à partir de la liste déroulante Marques dans le menu de l’assistant d’IA, ce qui lui permet de générer du contenu et des ressources conformes à vos spécifications. [En savoir plus sur l’assistant IA](gs-generative.md)
+Les directives de votre marque sont désormais accessibles à partir de la liste déroulante **[!UICONTROL Marque]** dans le menu de l’assistant d’IA, ce qui lui permet de générer du contenu et des ressources conformes à vos spécifications. [En savoir plus sur l’assistant IA](gs-generative.md)
 
 ![](assets/brands-7.png)
