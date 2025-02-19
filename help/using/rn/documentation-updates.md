@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: b6c31528784c0c8576e3200e7611a6b6cd43d7a7
+source-git-commit: 9b66f4871d8b539bf0201b2974590672205a3243
 workflow-type: tm+mt
-source-wordcount: '6064'
-ht-degree: 96%
+source-wordcount: '6117'
+ht-degree: 95%
 
 ---
 
@@ -25,9 +25,10 @@ Cette page répertorie toutes les mises à jour récentes de la documentation de
 * La documentation relative à l’**[!UICONTROL optimisation de l’heure d’envoi]** et ses questions fréquentes associées ont été mises à jour, améliorées et déplacées vers une nouvelle page dédiée. [En savoir plus](../building-journeys/send-time-optimization.md)
 * De nouveaux mécanismes de sécurisation ont été ajoutés pour les événements de parcours. [En savoir plus](../start/guardrails.md#events-g)
 * La page des actions de canal intégrée a été réorganisée. [En savoir plus](../building-journeys/journeys-message.md)
-* Des mécanismes de sécurisation et des limitations ont été ajoutés à la section Prise de décision et gestion des décisions .
+* Des mécanismes de sécurisation et des limitations ont été ajoutés dans les sections Prise de décision et Gestion des décisions .
    * [Mécanismes de sécurisation et limitations des décisions](../experience-decisioning/decisioning-guardrails.md)
    * [Mécanismes de sécurisation et limitations de la gestion des décisions](../offers/decision-management-guardrails.md)
+* Une nouvelle section sur les données contextuelles a été ajoutée à la documentation Gestion des décisions . Elle fournit des informations sur la manière d’exploiter les données contextuelles dans le moteur de décision, par exemple pour concevoir une règle de décision qui nécessite que la météo actuelle soit de ≥80 degrés au moment où la demande de décision est effectuée. [En savoir plus](../offers/context-data.md)
 
 ## Janvier 2025 {#jan-2025}
 

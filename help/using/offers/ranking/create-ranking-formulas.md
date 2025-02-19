@@ -5,11 +5,12 @@ feature: Ranking, Decision Management
 topic: Integrations
 role: User
 level: Intermediate
+mini-toc-levels: 1
 exl-id: 8bc808da-4796-4767-9433-71f1f2f0a432
-source-git-commit: baf76d3c571c62105c1f0a59e07ca70e61a83cc6
+source-git-commit: 9b66f4871d8b539bf0201b2974590672205a3243
 workflow-type: tm+mt
-source-wordcount: '531'
-ht-degree: 100%
+source-wordcount: '595'
+ht-degree: 66%
 
 ---
 
@@ -37,7 +38,7 @@ Pour créer une formule de classement, procédez comme suit :
 
 1. Indiquez le nom, la description et la formule de la formule de classement.
 
-   Dans cet exemple, nous voulons augmenter la priorité de toutes les offres contenant l&#39;attribut « chaud » en cas de météo avec températures chaudes. Pour ce faire, **contextData.weather=hot** a été transmis dans l&#39;appel de décision.
+   Dans cet exemple, nous voulons augmenter la priorité de toutes les offres contenant l&#39;attribut « chaud » en cas de météo avec températures chaudes. Pour ce faire, le **contextData.weather=hot** a été transmis dans l&#39;appel de décision. [Découvrez comment utiliser les données contextuelles](../context-data.md)
 
    ![](../assets/ranking-syntax.png)
 
@@ -105,42 +106,6 @@ if( offer.characteristics.get("city") = homeAddress.city, offer.rank.priority * 
 if( offer.selectionConstraint.endDate occurs <= 24 hours after now, offer.rank.priority * 3, offer.rank.priority)
 ```
 
-### Booster les offres avec un attribut d’offre spécifique basé sur les données contextuelles
-
-Boostez certaines offres en fonction des données contextuelles transmises dans l’appel de prise de décision. Par exemple, si la valeur `contextData.weather=hot` est transmise dans l’appel de prise de décision, la priorité de toutes les offres avec la valeur `attribute=hot` doit être augmentée.
-
-**Formule de classement:**
-
-```
-if (@{_xdm.context.additionalParameters;version=1}.weather.isNotNull()
-and offer.characteristics.get("weather")=@{_xdm.context.additionalParameters;version=1}.weather, offer.rank.priority + 5, offer.rank.priority)
-```
-
-Notez que lorsque vous utilisez l’API de prise de décision, les données contextuelles sont ajoutées à l’élément de profil dans le corps de la requête, comme dans l’exemple ci-dessous.
-
-**Extrait de code du corps de la requête :**
-
-```
-"xdm:profiles": [
-{
-    "xdm:identityMap": {
-        "crmid": [
-            {
-            "xdm:id": "CRMID1"
-            }
-        ]
-    },
-    "xdm:contextData": [
-        {
-            "@type":"_xdm.context.additionalParameters;version=1",
-            "xdm:data":{
-                "xdm:weather":"hot"
-            }
-        }
-    ]
- }],
-```
-
 ### Booster les offres en fonction de la propension des clients à acheter le produit proposé
 
 Vous pouvez augmenter le score d’une offre en fonction d’un score de propension du client.
@@ -169,14 +134,100 @@ Ainsi, pour un profil tel que :
 }
 ```
 
-Les offres contiennent un attribut pour *propensionType* correspondant à la catégorie des scores :
+### Booster les offres en fonction des données contextuelles {#context-data}
 
-![](../assets/ranking-example-propensityType.png)
+[!DNL Journey Optimizer] permet d’amplifier certaines offres en fonction des données contextuelles transmises dans l’appel. Par exemple, si le `contextData.weather=hot` est transmis, la priorité de toutes les offres avec `attribute=hot` doit être augmentée. Des informations détaillées sur la manière de transmettre des données contextuelles à l’aide des API **Edge Decisioning** et **Decisioning** sont disponibles dans [cette section](../context-data.md)
 
-Votre formule de classement peut alors définir la priorité de chaque offre pour qu’elle soit égale aux clients *propensionScore* pour ce *propensionType*. Si aucun score n’est trouvé, utilisez la priorité statique définie sur l’offre :
+Notez que lors de l’utilisation de l’API **Decisioning**, les données contextuelles sont ajoutées à l’élément de profil dans le corps de la requête, comme dans l’exemple ci-dessous.
 
 ```
-let score = (select _Individual_Scoring1 from _salesvelocity.individualScoring
-             where _Individual_Scoring1.core.category.equals(offer.characteristics.get("propensityType"), false)).head().core.propensityScore
-in if(score.isNotNull(), score, offer.rank.priority)
+"xdm:profiles": [
+{
+    "xdm:identityMap": {
+        "crmid": [
+            {
+            "xdm:id": "CRMID1"
+            }
+        ]
+    },
+    "xdm:contextData": [
+        {
+            "@type":"_xdm.context.additionalParameters;version=1",
+            "xdm:data":{
+                "xdm:weather":"hot"
+            }
+        }
+    ]
+    
+}],
 ```
+
+Voici des exemples illustrant comment utiliser les données contextuelles dans les formules de classement pour augmenter la priorité des offres. Développez chaque section pour obtenir des détails sur la syntaxe de la formule de classement.
+
+>[!NOTE]
+>
+>Dans les exemples de l’API Edge Decisioning, remplacez `<OrgID>` par votre ID de client d’organisation.
+
++++Augmentez la priorité d’offre de 10 si le canal des données contextuelles correspond au canal préféré du client ou de la cliente
+
+>[!BEGINTABS]
+
+>[!TAB  API Decisioning ]
+
+`if (@{_xdm.context.additionalParameters;version=1}.channel.isNotNull() and @{_xdm.context.additionalParameters;version=1}.channel.equals(_abcMobile.preferredChannel), offer.rank.priority + 10, offer.rank.priority)`
+
+>[!TAB API Edge Decisioning]
+
+`if (xEvent.<OrgID>.channel.isNotNull() and xEvent.<OrgID>.channel.equals(_abcMobile.preferredChannel), offer.rank.priority + 10, offer.rank.priority)`
+
+>[!ENDTABS]
+
++++
+
++++Boostez la priorité de toutes les offres avec « attribute=hot » si « contextData.weather=hot » est transmis dans l&#39;appel.
+
+>[!BEGINTABS]
+
+>[!TAB  API Decisioning ]
+
+`if (@{_xdm.context.additionalParameters;version=1}.weather.isNotNull() and offer.characteristics.get("weather")=@{_xdm.context.additionalParameters;version=1}.weather, offer.rank.priority + 5, offer.rank.priority)`
+
+>[!TAB API Edge Decisioning]
+
+`if (xEvent.<OrgID>.weather.isNotNull() and offer.characteristics.get("weather")=xEvent.<OrgID>.weather, offer.rank.priority + 5, offer.rank.priority)`
+
+>[!ENDTABS]
+
++++
+
++++Content Origin Boost
+
+>[!BEGINTABS]
+
+>[!TAB  API Decisioning ]
+
+`if (@{_xdm.context.additionalParameters;version=1}.contentorigin.isNotNull() and offer.characteristics.contentorigin=@{_xdm.context.additionalParameters;version=1}.contentorigin, offer.rank.priority * 100, offer.rank.priority)`
+
+>[!TAB API Edge Decisioning]
+
+`if (xEvent.<OrgID>.contentorigin.isNotNull() and offer.characteristics.contentorigin=xEvent.<OrgID>.contentorigin, offer.rank.priority * 100, offer.rank.priority)`
+
+>[!ENDTABS]
+
++++
+
++++Amplification météorologique
+
+>[!BEGINTABS]
+
+>[!TAB  API Decisioning ]
+
+`if (@{_xdm.context.additionalParameters;version=1}.weather.isNotNull() and offer.characteristics.weather=@{_xdm.context.additionalParameters;version=1}.weather, offer.rank.priority * offer.characteristics.scoringBoost, offer.rank.priority)`
+
+>[!TAB API Edge Decisioning]
+
+`if (xEvent.<OrgID>.weather.isNotNull() and offer.characteristics.weather=xEvent.<OrgID>.weather, offer.rank.priority * offer.characteristics.scoringBoost, offer.rank.priority)`
+
+>[!ENDTABS]
+
++++
