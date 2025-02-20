@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: af71d24d-77eb-44df-8216-b0aeaf4c4fa4
-source-git-commit: ef7ae0a6ad1f582f91e53fd93dabffa39036a584
+source-git-commit: c0698c949622dbd9b4d97eaefedb67ff9f557347
 workflow-type: tm+mt
-source-wordcount: '1062'
+source-wordcount: '1030'
 ht-degree: 93%
 
 ---
@@ -97,13 +97,6 @@ ht-degree: 93%
 >title="Autres profils"
 >abstract="Activez cette option pour créer un chemin d’accès supplémentaire avec les profils restants qui ne correspondent à aucune des conditions spécifiées dans les autres chemins d’accès."
 
->[!CONTEXTUALHELP]
->id="ajo_ao_publish"
->title="Publier votre audience"
->abstract="Publiez votre composition pour enregistrer les audiences obtenues dans Adobe Experience Platform."
->
-[!BEGINSHADEBOX]
-
 Cette documentation fournit des informations détaillées sur l’utilisation de la composition d’audiences dans Adobe Journey Optimizer. Si vous êtes un client ou une cliente Profil client en temps réel uniquement et que vous n’utilisez pas Adobe Journey Optimizer, [cliquez ici](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/audience-composition.html?lang=fr){target="_blank"}.
 
 >[!ENDSHADEBOX]
@@ -172,11 +165,6 @@ Pour créer un workflow de composition, procédez comme suit :
 >Les audiences de **composition d’audience** sont exécutées quotidiennement. Vous devrez peut-être donc attendre jusqu’à 24 heures pour les utiliser dans Journey Optimizer. Les attributs enrichis des audiences de composition d’audience sont aussi récents que la dernière exécution de composition, qui peut durer jusqu’à 24 heures.
 
 ## Accéder aux compositions {#access}
-
->[!CONTEXTUALHELP]
->id="ajo_ao_publish"
->title="Publier votre audience"
->abstract="Publiez votre composition pour enregistrer les audiences obtenues dans Adobe Experience Platform."
 
 Toutes les compositions créées sont accessibles à partir de l’onglet **[!UICONTROL Compositions]** . Vous pouvez dupliquer ou supprimer une composition existante à tout moment à l’aide du bouton représentant des points de suspension dans la liste.
 
