@@ -8,13 +8,13 @@ topic: Administration
 role: Admin
 level: Experienced
 keywords: paramètres, e-mail, configuration
-source-git-commit: ad70e369dac61dc3ea261e7931c0b58e46c23dda
-workflow-type: ht
+exl-id: 5a12280c-b937-4cd9-a1ef-563bab48e42e
+source-git-commit: 2bb24061d05bc4cabc8565d35cd49be5314c056a
+workflow-type: tm+mt
 source-wordcount: '401'
 ht-degree: 100%
 
 ---
-
 
 # Tracking d’URL {#url-tracking}
 
