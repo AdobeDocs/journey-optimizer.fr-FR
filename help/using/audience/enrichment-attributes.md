@@ -9,9 +9,9 @@ role: User
 level: Beginner
 exl-id: 3ec496ba-7555-49e2-992c-403c33302a90
 source-git-commit: f99ba639b5d47fa334741b7e55e7bce83697626d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '519'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -65,7 +65,7 @@ Des informations détaillées sur les sources de données sont disponibles dans 
 
 Les attributs d’enrichissement sont des attributs supplémentaires qui sont contextuels et spécifiques à une audience. Ils ne sont pas associés au profil et sont généralement utilisés à des fins de personnalisation.
 
-Les attributs d’enrichissement sont liés à une audience par le biais d’une activité d’enrichissement dans la composition de l’audience ou par le biais d’un processus de chargement personnalisé.
+Les attributs d’enrichissement sont liés à une audience via une activité Enrichir dans la composition d’audiences ou par le biais du processus de chargement personnalisé.
 
 +++
 

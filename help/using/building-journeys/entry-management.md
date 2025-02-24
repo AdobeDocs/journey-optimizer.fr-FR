@@ -9,9 +9,9 @@ level: Intermediate
 keywords: rentrée, parcours, profil, récurrent
 exl-id: 8874377c-6594-4a5a-9197-ba5b28258c02
 source-git-commit: aec3d79ad07ec6904e55afd6fc61ba9b4f403fc8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '699'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -28,7 +28,7 @@ La gestion des entrées de profil dépend du type de parcours. Dans Adobe Journ
 
 * Parcours **Qualification de l’audience** : ces parcours commencent par un événement Qualification de l’audience. Ces parcours écoutent les entrées et les sorties des profils dans les audiences. Lorsque cela se produit, le profil associé rejoint le parcours. [En savoir plus](#entry-unitary)
 
-Dans tous les types de parcours, un profil ne peut pas être présent plusieurs fois dans le même parcours, en même temps. Pour vérifier qu’une personne se trouve dans un parcours, l’identité du profil est utilisée comme clé. Le système ne permet pas que la même touche, par exemple la touche `CRMID=3224`, se trouve à différents endroits dans le même parcours.
+Dans tous les types de parcours, un profil ne peut pas être présent plusieurs fois dans le même parcours, en même temps. Pour vérifier qu’une personne se trouve dans un parcours, l’identité du profil est utilisée comme clé. Le système n’autorise pas qu’une même clé (`CRMID=3224`, par exemple) se trouve à des endroits différents dans un même parcours.
 
 ## Parcours Événement unitaire et Qualification de l’audience{#entry-unitary}
 

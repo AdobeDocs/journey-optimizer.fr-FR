@@ -1,22 +1,22 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Configuration du tracking des URL
-description: Découvrez comment configurer le tracking des URL au niveau de la configuration du canal e-mail
+title: Configuration du tracking d’URL
+description: Découvrez comment configurer le tracking d’URL au niveau de la configuration du canal e-mail.
 feature: Email, Surface
 topic: Administration
 role: Admin
 level: Experienced
 keywords: paramètres, e-mail, configuration
 source-git-commit: ad70e369dac61dc3ea261e7931c0b58e46c23dda
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '401'
-ht-degree: 84%
+ht-degree: 100%
 
 ---
 
 
-# Tracking des URL {#url-tracking}
+# Tracking d’URL {#url-tracking}
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_preset_utm"
@@ -34,7 +34,7 @@ Lors de la configuration d’une nouvelle [configuration du canal e-mail](email-
 >
 >Cette fonctionnalité est facultative.
 
-Les paramètres définis dans la section correspondante seront ajoutés à la fin des URL incluses dans le contenu de votre e-mail. Vous pouvez ensuite capturer ces paramètres dans des outils d’analyse web tels qu’Adobe Analytics ou Google Analytics, et créer divers rapports de performances.
+Les paramètres définis dans cette section seront ajoutés à la fin des URL incluses dans le contenu de votre e-mail. Vous pouvez ensuite capturer ces paramètres dans des outils d’analyse web tels qu’Adobe Analytics ou Google Analytics, et créer divers rapports de performances.
 
 Vous pouvez ajouter jusqu’à 10 paramètres de tracking à l’aide du bouton **[!UICONTROL Ajouter un nouveau paramètre]**.
 

@@ -2,7 +2,7 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Contrôle d’accès basé sur attribut
-description: Le contrôle d’accès basé sur les attributs vous permet de définir des autorisations pour gérer l’accès aux données pour des équipes ou des groupes d’utilisateurs spécifiques.
+description: Le contrôle d’accès basé sur les attributs (ABAC) permet de définir des autorisations pour gérer l’accès aux données pour des équipes ou des groupes d’utilisateurs et d’utilisatrices spécifiques.
 feature: Access Management
 topic: Administration
 role: Admin,Leader
@@ -10,19 +10,19 @@ level: Intermediate
 keywords: abac, attribut, autorisations, données, accès, sensible, ressources
 exl-id: 162b0848-313a-447e-9237-5a6dbc8102c6
 source-git-commit: 79bea396ba1ff482aaa4edcab1a31ca3847b3f52
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1025'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
 # Contrôle d’accès basé sur les attributs {#attribute-based-access}
 
-La fonctionnalité de contrôle d’accès basé sur les attributs vous permet de définir des autorisations pour gérer l’accès aux données pour des équipes ou des groupes d’utilisateurs spécifiques. Son objectif est de protéger les ressources numériques sensibles contre les utilisateurs et utilisatrices non autorisés, ce qui permet une protection supplémentaire des données personnelles.
+Le contrôle d’accès basé sur les attributs (ABAC) permet de définir des autorisations pour gérer l’accès aux données pour des équipes ou des groupes d’utilisateurs et d’utilisatrices spécifiques. Son objectif est de protéger les ressources numériques sensibles contre les utilisateurs et utilisatrices non autorisés, ce qui offre une protection supplémentaire des données personnelles.
 
-Utilisez le contrôle d’accès basé sur les attributs dans Adobe Journey Optimizer pour protéger les données et accorder un accès spécifique à des éléments de champ spécifiques, y compris des schémas de modèle de données d’expérience (XDM), des attributs de profil et des audiences.
+Dans Adobe Journey Optimizer, le contrôle d’accès basé sur les attributs vous permet de protéger les données et d’accorder un accès spécifique à des éléments de champ particuliers, notamment des schémas de modèle de données d’expérience (XDM), des attributs de profil et des audiences.
 
-Pour obtenir une liste plus détaillée de la terminologie utilisée avec le contrôle d’accès basé sur les attributs, consultez la documentation de [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/access-control/abac/overview.html?lang=fr){target="_blank"}.
+Pour obtenir une liste plus détaillée de la terminologie utilisée avec le contrôle d’accès basé sur les attributs, reportez-vous à la [documentation Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/access-control/abac/overview.html?lang=fr){target="_blank"}.
 
 Dans cet exemple, nous allons ajouter un libellé au champ de schéma **Nationalité** pour empêcher des utilisateurs non autorisés de l’utiliser. Pour que cela fonctionne, vous devez effectuer les étapes suivantes :
 
@@ -92,7 +92,7 @@ Dans cet exemple, nous allons restreindre l’accès au champ **Nationalité**. 
 
 Notez que vous pouvez également ajouter un **[!UICONTROL libellé]** à un **[!UICONTROL schéma]**, à des **[!UICONTROL jeux de données]** et à des **[!UICONTROL audiences]**.
 
-1. Créez votre **[!UICONTROL Schéma]**. Voir à ce propos [cette documentation](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html?lang=fr){target="_blank"}.
+1. Créez votre **[!UICONTROL schéma]**. Pour plus d’informations, consultez [cette documentation](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html?lang=fr){target="_blank"}.
 
    ![](assets/label_1.png)
 
@@ -108,7 +108,7 @@ Notez que vous pouvez également ajouter un **[!UICONTROL libellé]** à un **[!
 
    ![](assets/label_4.png)
 
-1. Personnalisez davantage votre schéma si nécessaire, puis activez-le. Pour obtenir les étapes détaillées afin d’activer votre schéma, consultez cette [page](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/resources/schemas.html?lang=fr#profile){target="_blank"}.
+1. Personnalisez davantage votre schéma si nécessaire, puis activez-le. Pour obtenir les étapes détaillées afin d’activer votre schéma, reportez-vous à cette [page](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/resources/schemas.html?lang=fr#profile){target="_blank"}.
 
 Le champ de votre schéma sera désormais uniquement visible et ne peut désormais être utilisé que par les utilisateurs qui font partie d’un jeu de rôles avec le libellé C2.
 En appliquant un **[!UICONTROL Libellé]** à votre **[!UICONTROL Nom du champ]**, notez que le **[!UICONTROL libellé]** s’applique automatiquement au champ **Nationalité** dans chaque schéma créé.

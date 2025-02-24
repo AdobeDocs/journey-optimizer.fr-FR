@@ -10,9 +10,9 @@ level: Intermediate
 keywords: campaign, standard, intégration, limitation, action
 exl-id: 2f0218c9-e1b1-44ba-be51-15824b9fc6d2
 source-git-commit: 79bea396ba1ff482aaa4edcab1a31ca3847b3f52
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '431'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -26,7 +26,7 @@ Le message transactionnel Campaign Standard et son événement associé doivent
 
 ## Remarques importantes {#important-notes}
 
-* Une règle de limitation de 4 000 appels toutes les 5 minutes est automatiquement définie pour les actions Adobe Campaign Standard. Cela correspond à l’échelle officielle des messages transactionnels d’Adobe Campaign Standard. Pour en savoir plus sur les SLA de messagerie transactionnelle, consultez la Description du produit [Adobe Campaign Standard](https://helpx.adobe.com/fr/legal/product-descriptions/campaign-standard.html){target="_blank"}.
+* Une règle de limitation de 4 000 appels toutes les 5 minutes est automatiquement définie pour les actions Adobe Campaign Standard. Cela correspond à l’échelle officielle des messages transactionnels d’Adobe Campaign Standard. Pour en savoir plus sur les SLA de messagerie transactionnelle, consultez la [description du produit Adobe Campaign Standard](https://helpx.adobe.com/fr/legal/product-descriptions/campaign-standard.html){target="_blank"}.
 
 * L’intégration d’Adobe Campaign Standard est configurée par le biais d’une action intégrée dédiée dans la liste d’actions. Cela doit être configuré pour chaque sandbox.
 

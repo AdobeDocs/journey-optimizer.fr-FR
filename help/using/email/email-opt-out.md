@@ -10,9 +10,9 @@ level: Intermediate
 keywords: désinscription, e-mail, lien, désabonnement
 exl-id: 4bb51bef-5dab-4a72-8511-1a5e528f4b95
 source-git-commit: f916d91ffd2c41261612f2127f35c41275c9d013
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1313'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -37,7 +37,7 @@ Pour insérer un lien de désinscription dans le contenu de votre e-mail, vous p
 
 À l’aide d’[!DNL Adobe Journey Optimizer], vous pouvez configurer vos [paramètres de configuration du canal e-mail](email-settings.md#list-unsubscribe) avec une URL de désabonnement en un clic générée automatiquement et une adresse mailto dans l’en-tête de l’e-mail, ou inclure une URL d’exclusion en un clic dans le corps de votre e-mail.
 
-Lorsqu’un destinataire clique sur le lien d’opt-out en un clic, sa demande de désabonnement est traitée en conséquence.
+Lorsqu’un ou une destinataire clique sur le lien d’exclusion en un clic, sa demande de désabonnement est traitée en conséquence.
 
 ### URL de désabonnement en un clic dans l’en-tête d’e-mail {#unsubscribe-header}
 
@@ -140,12 +140,12 @@ Cet appel POST est le suivant :
 
 Point dʼentrée : https://platform.adobe.io/journey/imp/consent/preferences
 
-Paramètres de requête:
+Paramètres de requête :
 
 * **params** : contient la payload chiffrée
 * **pid** : identifiant de profil chiffré
 
-Ces deux paramètres seront inclus dans l’URL de page de destination tierce envoyée à votre destinataire :
+Ces deux paramètres seront inclus dans l’URL de page de destination tierce envoyée à votre destinataire :
 
 ![](assets/opt-out-parameters.png)
 

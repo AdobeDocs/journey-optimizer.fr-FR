@@ -10,9 +10,9 @@ level: Experienced
 keywords: paramètres, e-mail, configuration
 exl-id: 13536962-7541-4eb6-9ccb-4f97e167734a
 source-git-commit: abb837b6af232e23bbbc6a1f1b2607dbc2ee2679
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1471'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -89,7 +89,7 @@ Elle vous permet d’inclure une URL de désabonnement en un clic dans l’en-t�
 
 ## Paramètres d’en-tête {#email-header}
 
-Dans la section **[!UICONTROL Paramètres d’en-tête]** , saisissez les noms d’expéditeur et les adresses e-mail associées au type d’e-mails envoyés à l’aide de cette configuration. [En savoir plus](header-parameters.md)
+Dans la section **[!UICONTROL Paramètres d’en-tête]**, saisissez les noms de l’expéditeur ou de l’expéditrice et les adresses e-mail associées au type d’e-mails envoyés à l’aide de cette configuration. [En savoir plus](header-parameters.md)
 
 ## E-mail Cci {#bcc-email}
 
@@ -181,7 +181,7 @@ Vous devez saisir une valeur entière (en heures ou minutes) dans la plage suiva
 
 En savoir plus sur les reprises dans [cette section](../configuration/retries.md).
 
-## Tracking des URL {#url-tracking}
+## Tracking d’URL {#url-tracking}
 
 Vous pouvez utiliser les **[!UICONTROL paramètres de tracking d’URL]** pour mesurer l’efficacité de vos efforts marketing sur l’ensemble des canaux. [En savoir plus](url-tracking.md)
 

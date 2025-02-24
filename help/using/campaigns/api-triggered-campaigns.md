@@ -10,9 +10,9 @@ level: Experienced
 keywords: campagnes, déclenchées par l’API, REST, optimizer, messages
 exl-id: 0ef03d33-da11-43fa-8e10-8e4b80c90acb
 source-git-commit: 280238fb3f41cef08c4e5a8720839aff5b767cf5
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1005'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -32,7 +32,7 @@ Les canaux disponibles pour les campagnes déclenchées par API sont E-mail, SMS
 >
 >Pour l’instant, le mode Diffusion rapide n’est pas pris en charge pour les campagnes déclenchées par l’API de notification push.
 
-➡️ [Découvrez cette fonctionnalité en vidéo.](#video)
+➡️ [Découvrez cette fonctionnalité en vidéo](#video)
 
 ## Créer une campagne déclenchée par API {#create}
 
@@ -110,7 +110,7 @@ La syntaxe `{{context.<contextualAttribute>}}` est mappée à un type de donnée
 
 >[!IMPORTANT]
 >
->Les attributs contextuels transmis dans la requête ne peuvent pas dépasser 200 Ko et sont toujours considérés de type chaîne.
+>Les attributs contextuels transmis dans la requête ne peuvent pas dépasser 200 Ko et sont toujours considérés de type chaîne.
 >
 >La syntaxe `context.system` est limitée à l’utilisation interne d’Adobe uniquement et ne doit pas être utilisée pour transmettre des attributs contextuels.
 

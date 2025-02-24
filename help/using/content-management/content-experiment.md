@@ -10,9 +10,9 @@ level: Beginner
 keywords: contenu, expérience, multiple, audience, traitement
 exl-id: bd35ae19-8713-4571-80bc-5f40e642d121
 source-git-commit: 824926a3448acc57ed10074a92cc283cb8bbb658
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '748'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 

@@ -1,21 +1,21 @@
 ---
-title: Cas d’utilisation de la prise de décision
-description: Découvrez comment créer des décisions et les utiliser dans des expériences de contenu avec le canal d’expérience basé sur le code
+title: Cas d’utilisation de prise de décision
+description: Découvrez comment créer des décisions et les utiliser dans des expériences de contenu avec le canal d’expérience basé sur le code.
 feature: Decisioning
 topic: Integrations
 role: User
 level: Intermediate, Experienced
 exl-id: 09770df2-c514-4217-a71b-e31c248df543
 source-git-commit: 5b377982f43902a4549f24c022fa8f4947d896a8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '828'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
-# Utiliser la prise de décision dans une expérience basée sur du code avec une expérience de contenu {#experience-decisioning-uc}
+# Utiliser la prise de décision dans une expérience basée sur le code avec une expérience de contenu {#experience-decisioning-uc}
 
-Ce cas pratique présente toutes les étapes nécessaires pour utiliser les décisions avec le canal basé sur le code [!DNL Journey Optimizer].
+Ce cas d’utilisation présente toutes les étapes nécessaires pour utiliser la prise de décisions avec le canal basé sur le code [!DNL Journey Optimizer].
 
 Dans cet exemple, vous ne savez pas si une formule de classement spécifique sera plus performante que les priorités d’offre préaffectées. Pour mesurer celle qui fonctionne le mieux pour votre audience cible, créez une campagne à l’aide de l’[Expérience de contenu](../content-management/content-experiment.md), dans laquelle vous définissez deux traitements de diffusion :
 

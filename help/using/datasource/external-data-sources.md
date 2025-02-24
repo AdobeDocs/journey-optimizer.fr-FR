@@ -10,9 +10,9 @@ level: Intermediate, Experienced
 keywords: externe, sources, données, configuration, connexion, tiers
 exl-id: f3cdc01a-9f1c-498b-b330-1feb1ba358af
 source-git-commit: 844c0f8dc9b14d69cbd87893042f048443d7a5e6
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1595'
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 87%
 >title="Sources de données externes"
 >abstract="Les sources de données externes vous permettent de définir une connexion à des systèmes tiers ; par exemple, si vous utilisez un système de réservation d’hôtels pour vérifier si la personne a réservé une chambre. Contrairement à la source de données Adobe Experience Platform intégrée, vous pouvez créer autant de sources de données externes que nécessaire."
 
-## Utiliser des sources de données externes {#gs-ext-data-sources}
+## Utilisation de sources de données externes {#gs-ext-data-sources}
 
 Les sources de données externes vous permettent de définir une connexion à des systèmes tiers ; par exemple, si vous utilisez un système de réservation d’hôtels pour vérifier si la personne a réservé une chambre. Contrairement à la source de données Adobe Experience Platform intégrée, vous pouvez créer autant de sources de données externes que nécessaire.
 
@@ -45,9 +45,9 @@ Voici deux exemples d’appel API :
 L’appel est composé d’une URL principale (_https://api.adobeweather.org/weather_), de deux jeux de paramètres (« city » pour la ville et « lat/long » pour la latitude et la longitude) et la clé API (appid).
 
 
-## Créer et configurer une source de données externe {#create-ext-data-sources}
+## Création et configuration d’une source de données externe {#create-ext-data-sources}
 
-Vous trouverez ci-dessous les étapes principales pour créer et configurer une nouvelle source de données externe :
+Les principales étapes de création et de configuration d’une source de données externe sont les suivantes :
 
 1. Dans la liste des sources de données, cliquez sur **[!UICONTROL Créer une source de données]** pour créer une source de données externe.
 
@@ -80,10 +80,10 @@ Vous trouverez ci-dessous les étapes principales pour créer et configurer une 
    >
    >* Lorsque l’appel d’authentification est effectué, la chaîne `<username>:<password>`, codée en base64, est ajoutée dans l’en-tête Authentification.
    >
-   >* Adobe Journey Optimizer chiffre automatiquement les secrets définis dans les actions personnalisées. Les clés de chiffrement de chaque organisation sont gérées en toute sécurité dans un coffre dédié lié à leur organisation. Lorsque les informations d’identification s’affichent dans l’interface, elles sont masquées par défaut afin d’éviter toute exposition accidentelle.
+   >* Adobe Journey Optimizer chiffre automatiquement les secrets définis dans les actions personnalisées. Les clés de chiffrement de chaque organisation sont gérées en toute sécurité dans un coffre dédié lié à leur organisation. Lorsque les informations d’identification s’affichent dans l’interface, elles sont masquées par défaut afin d’éviter toute exposition accidentelle.
 
 
-   Pour plus d’informations sur le mode d’authentification personnalisée, consultez [cette section](../datasource/external-data-sources.md#custom-authentication-mode). Dans notre exemple, nous choisissons le mode d’authentification par clé API, comme ci-dessous :
+   Pour plus d’informations sur le mode d’authentification personnalisée, reportez-vous à [cette section](../datasource/external-data-sources.md#custom-authentication-mode). Dans notre exemple, nous choisissons le mode d’authentification de clé API, comme présenté ci-dessous :
 
    * **[!UICONTROL Type]** : « clé API »
    * **[!UICONTROL Nom]** : « appid » (il s’agit du nom du paramètre de la clé API)
@@ -123,17 +123,17 @@ Une fois vos modifications enregistrées, la source de données est configurée 
 >title="À propos de l’authentification personnalisée"
 >abstract="Le mode d’authentification personnalisée est utilisé pour l’authentification complexe afin d’appeler les protocoles d’encapsulage d’API tels qu’OAuth2. L’exécution de l’action est un processus en deux étapes. Tout d’abord, un appel au point d’entrée est effectué pour générer le jeton d’accès. Ensuite, le jeton d’accès est injecté dans la requête HTTP de l’action."
 
-Le mode d’authentification personnalisé est utilisé pour une authentification complexe, fréquemment utilisée pour appeler les protocoles d’encapsulation des API tels qu’OAuth2, afin de récupérer un jeton d’accès à injecter dans la requête HTTP réelle pour l’action.
+Ce mode d’authentification personnalisée est utilisé pour une authentification complexe. Il est fréquemment utilisé pour appeler les protocoles d’encapsulage d’API, comme OAuth2, afin de récupérer un jeton d’accès à injecter dans la requête HTTP réelle pour l’action.
 
-Lorsque vous configurez l’authentification personnalisée, utilisez le bouton **[!UICONTROL Cliquer pour vérifier l’authentification]** pour contrôler si la payload de l’authentification personnalisée est correctement configurée.
+Lorsque vous configurez l’authentification personnalisée, utilisez le bouton **[!UICONTROL Cliquer pour vérifier l’authentification]** pour contrôler si la payload d’authentification personnalisée est correctement configurée.
 
 ![](assets/journey29-bis.png)
 
-Lorsque le test réussit, le bouton devient vert.
+Si le test est réussi, le bouton devient vert.
 
 ![](assets/journey29-ter.png)
 
-Avec ce mode d’authentification, l’exécution de l’action est un processus en deux étapes :
+Avec ce mode d’authentification, l’exécution de l’action est un processus en deux étapes :
 
 1. Appelez le point d’entrée pour générer le jeton d’accès.
 1. Appelez l’API REST en injectant correctement le jeton d’accès.

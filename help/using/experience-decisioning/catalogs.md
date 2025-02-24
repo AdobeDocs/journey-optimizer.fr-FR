@@ -7,9 +7,9 @@ role: User
 level: Intermediate
 exl-id: 2d118f5a-32ee-407c-9513-fe0ebe3ce8f0
 source-git-commit: 50687bad19e4866ace1e3e94f3efcdad84e98c96
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '378'
-ht-degree: 76%
+ht-degree: 100%
 
 ---
 
@@ -23,16 +23,16 @@ Pour l’instant, tous les éléments de décision créés sont consolidés dans
 
 ## Mécanismes de sécurisation et limitations
 
-Pour garantir des performances et une cohérence optimales, Decisioning applique les mécanismes de sécurisation et limitations suivantes :
+Pour garantir des performances et une cohérence optimales, la prise de décision applique les mécanismes de sécurisation et limitations suivants :
 
 * **Types de données pris en charge**
 
-  Pour l’instant, Decisioning prend exclusivement en charge les types de données suivants : chaîne, entier, booléen, date, date et heure, ressource de prise de décision et objet. Aucun champ ne se trouvant dans ces types de données ne pourra pas être utilisé lors de la création d’un élément de décision ou d’un catalogue.
+  Pour l’instant, la prise de décision prend exclusivement en charge les types de données suivants : chaîne, entier, booléen, date, DateHeure, ressource de prise de décision et objet. Aucun champ ne se trouvant dans ces types de données ne pourra pas être utilisé lors de la création d’un élément de décision ou d’un catalogue.
 
 
 * **Limite d’attributs personnalisés**
 
-  Chaque élément de décision peut inclure jusqu’à 100 attributs personnalisés.
+  Chaque élément de décision peut inclure jusqu’à 100 attributs personnalisés.
 
 * **Restrictions d’imbrication**
 

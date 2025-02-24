@@ -8,9 +8,9 @@ role: User
 level: Experienced
 exl-id: c73b3092-e96d-4957-88e6-500e99542782
 source-git-commit: 9188b144d1f98f57c585c3828420b9cd48d1d90a
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '806'
+ht-degree: 100%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 ## Vue d’ensemble {#overview}
 
-En tirant parti des technologies de pointe en matière de machine learning et de deep learning supervisés, l’optimisation personnalisée permet à un utilisateur professionnel (marketeur) de définir des objectifs commerciaux et d’utiliser ses données client pour entraîner des modèles orientés métier afin de diffuser des offres personnalisées et d’optimiser les KPI.
+En tirant parti des technologies de pointe en matière de machine learning et de deep learning supervisés, l’optimisation personnalisée permet à une personne professionnelle (spécialiste marketing) de définir des objectifs commerciaux et d’utiliser ses données clients pour entraîner des modèles orientés métier afin de fournir des offres personnalisées et d’optimiser les KPI.
 
 ![](../../rn/assets/do-not-localize/ai-ranking.gif)
 
@@ -46,7 +46,7 @@ Il existe trois types de fonctionnalités :
 Le modèle comporte deux phases :
 
 * Dans la phase d’**entraînement de modèle hors ligne**, un modèle est entraîné en apprenant et en mémorisant les interactions de fonctionnalités dans les données historiques.
-* Dans la phase d’**inférence en ligne**, les offres des candidats sont classées en fonction des scores en temps réel générés par le modèle. Contrairement aux techniques de filtrage collaboratif traditionnelles, difficiles à inclure pour les utilisateurs et les offres, l’optimisation personnalisée est une méthode de recommandation basée sur le deep learning, qui permet d’inclure et d’apprendre des modèles d’interaction de fonctionnalités complexes et non linéaires.
+* Dans la phase d’**inférence en ligne**, les offres des candidats sont classées en fonction des scores en temps réel générés par le modèle. Contrairement aux techniques de filtrage collaboratif traditionnelles, difficiles à inclure pour les utilisateurs et utilisatrices et les offres, l’optimisation personnalisée est une méthode de recommandation basée sur le deep learning, qui permet d’inclure et d’apprendre des modèles d’interaction de fonctionnalités complexes et non linéaires.
 
 Voici un exemple simplifié illustrant l’idée de base derrière l’optimisation personnalisée. Supposons que nous ayons un jeu de données qui stocke les interactions historiques entre les utilisateurs et les offres, comme illustré dans la figure 1. Il existe :
 * Deux offres, offer_1 et offer_2,
@@ -61,7 +61,7 @@ En gros, il s’agit d’apprendre et de mémoriser les interactions des caract�
 
 ## Problème du démarrage à froid {#cold-start}
 
-Un problème de démarrage à froid se produit lorsqu’il n’y a pas assez de données pour faire une recommandation. Pour une optimisation personnalisée, il existe deux types de problèmes de démarrage à froid.
+Un problème de démarrage à froid se produit lorsqu’il n’y a pas assez de données pour faire une recommandation. Pour l’optimisation personnalisée, il existe deux types de problèmes de démarrage à froid.
 
 * **Après avoir créé un nouveau modèle d’IA sans données historiques**, les offres seront diffusées de manière aléatoire pendant une période afin de collecter des données, et les données seront utilisées pour former le premier modèle.
 * **Une fois le premier modèle libéré**, 10 % du trafic total seront affectés à une diffusion aléatoire tandis que 90 % du trafic seront utilisés pour les recommandations de modèle. Par conséquent, si de nouvelles offres étaient ajoutées au modèle d’IA, elles seraient diffusées dans le cadre des 10 % de trafic. Les données collectées sur ces offres déterminent le nombre de fois où elles sont sélectionnées parmi les 90 % de trafic au fur et à mesure de la mise à jour du modèle.

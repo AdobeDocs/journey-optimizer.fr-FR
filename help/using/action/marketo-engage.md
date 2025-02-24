@@ -10,9 +10,9 @@ level: Intermediate
 keywords: marketo, intégration marketo engage
 exl-id: 70d1ef5a-743b-4362-bb65-93a8c996209f
 source-git-commit: 844c0f8dc9b14d69cbd87893042f048443d7a5e6
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '249'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -26,7 +26,7 @@ Optez pour une intégration transparente des données avec Marketo Engage. Cett
 ## Conditions préalables {#prerequisites}
 
 * L’instance cliente de Marketo Engage doit être compatible avec IMS.
-* L’instance de Marketo Engage et l’instance de Adobe Experience Platform/Journey Optimizer doivent se trouver dans la même organisation.
+* L’instance Marketo Engage et l’instance Adobe Experience Platform/Journey Optimizer doivent se trouver dans la même organisation.
 * Le client ou la cliente doit recevoir un accès **MktoSync : service d’ingestion**.
 
 ## Configurer l’action {#configure-marketo-action}

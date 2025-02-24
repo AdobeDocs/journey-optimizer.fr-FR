@@ -10,9 +10,9 @@ level: Intermediate
 keywords: parcours, message, notification push, sms, e-mail, in-app, web, carte de contenu, expérience basée sur du code
 exl-id: 4db07a9e-c3dd-4873-8bd9-ac34c860694c
 source-git-commit: 40c067d85b278380abd874fc6edc69f32c0c56ef
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '494'
-ht-degree: 58%
+ht-degree: 100%
 
 ---
 
@@ -23,30 +23,30 @@ ht-degree: 58%
 >title="Action de canal intégrée"
 >abstract="Journey Optimizer est fourni avec des fonctionnalités d’actions de canal intégrées. Vous pouvez simplement ajouter à votre parcours une activité sortante (e-mail, message texte (SMS/MMS), notification push) ou entrante (in-app, web, expérience basée sur du code, carte de contenu) et définir les paramètres et le contenu. Elle est ensuite exécutée et envoyée dans le contexte du parcours."
 
-[!DNL Journey Optimizer] est fourni avec des fonctionnalités d’action de canal intégrées qui sont utilisées pour envoyer des messages : lorsqu’un profil entre dans cette activité, un message lui est envoyé.
+[!DNL Journey Optimizer] est fourni avec des fonctionnalités d’action de canal intégrées qui sont utilisées pour envoyer des messages : lorsqu’un profil entre dans cette activité, un message lui est envoyé.
 
 Pour ajouter une action de canal intégrée à votre parcours, faites glisser et déposez une activité de canal, puis définissez ses paramètres et son contenu. Elle est ensuite exécutée et envoyée dans le contexte du parcours.
 
 >[!NOTE]
 >
->Vous pouvez également configurer des actions personnalisées pour envoyer vos messages dans [!DNL Journey Optimizer] . [En savoir plus](#recommendation)
+>Vous pouvez également configurer des actions personnalisées pour envoyer vos messages dans [!DNL Journey Optimizer]. [En savoir plus](#recommendation)
 
-## Ajouter un message dans un parcours  {#add-msg-in-journey}
+## Ajout d’un message dans un parcours  {#add-msg-in-journey}
 
-Avec les actions de canal intégrées, vous pouvez configurer les messages sortants ou entrants. Les canaux entrants pris en charge sont les e-mails, les SMS et les notifications push. Les canaux sortants pris en charge sont les suivants : in-app, web, expérience basée sur le code et carte de contenu.
+Avec les actions de canal intégrées, vous pouvez configurer les messages sortants ou entrants. Les canaux entrants pris en charge sont les e-mails, les SMS/MMS et les notifications push. Les canaux sortants pris en charge sont les suivants : in-app, web, expérience basée sur le code et carte de contenu.
 
 Pour ajouter une action de canal intégrée à un parcours, procédez comme suit :
 
 1. Débutez votre parcours avec une activité [Événement](general-events.md) ou [Lecture d’audience](read-audience.md).
 
-1. Dans la section **Actions** de la palette, effectuez un glisser-déposer d’une activité de canal dans la zone de travail.
+1. Dans la section **Actions** de la palette, faites glisser et déposez une activité de canal dans la zone de travail.
 
    ![](assets/journey-web-activity.png)
 
 
 1. Configurez votre activité. Des instructions de configuration détaillées sont disponibles dans les liens ci-dessous.
 
-   * Découvrez les étapes détaillées pour créer votre action sortante comme suit :
+   * Découvrez ci-dessous les étapes détaillées pour créer votre action sortante :
 
      <table style="table-layout:fixed">
       <tr style="border: 0;">
@@ -123,11 +123,11 @@ Pour ajouter une action de canal intégrée à un parcours, procédez comme suit
 >
 >* Chaque activité de message entrant est accompagnée d’une activité **Attente** de 3 jours. [En savoir plus](wait-activity.md#auto-wait-node)
 >
->* Pour les e-mails et les notifications push, vous pouvez activer l’optimisation de l’heure d’envoi. [En savoir plus](send-time-optimization.md)
+>* Pour les notifications push et les e-mails, vous pouvez activer l’optimisation de l’heure d’envoi. [En savoir plus](send-time-optimization.md)
 
 
 
-## Mise à jour d’un contenu dynamique {#update-live-content}
+## Mise à jour du contenu dynamique {#update-live-content}
 
 Vous pouvez mettre à jour le contenu d’une action de canal intégrée dans un parcours dynamique.
 
@@ -137,19 +137,19 @@ Pour ce faire, ouvrez votre parcours dynamique, sélectionnez l’activité de c
 
 Cependant, vous ne pouvez pas modifier les attributs utilisés dans la personnalisation, qu’il s’agisse d’attributs de profil ou de données contextuelles (à partir des propriétés d’événement ou de parcours).
 
-Si vous avez modifié des données contextuelles, le message d’erreur suivant s’affiche : `ERR_AUTHORING_JOURNEYVERSION_201`
+Si vous avez modifié des données contextuelles, le message d’erreur suivant s’affiche : `ERR_AUTHORING_JOURNEYVERSION_201`.
 
-Si vous avez modifié les attributs de profil, le message d’erreur suivant s’affiche : `ERR_AUTHORING_JOURNEYVERSION_202`
+Si vous avez modifié des attributs de profil, le message d’erreur suivant s’affiche : `ERR_AUTHORING_JOURNEYVERSION_202`.
 
 Notez que pour l’activité in-app, des modifications peuvent être apportées au contenu pendant que le parcours est actif, mais les triggers in-app ne peuvent pas être modifiés.
 
-## Envoyer avec des actions personnalisées {#recommendation}
+## Envoi avec des actions personnalisées {#recommendation}
 
-Au lieu d&#39;utiliser les fonctionnalités de message intégrées, vous pouvez utiliser des actions personnalisées pour configurer la connexion d&#39;un système tiers afin d&#39;envoyer des messages ou des appels d&#39;API.
+Au lieu d’utiliser les fonctionnalités de message intégrées, vous pouvez utiliser des actions personnalisées pour configurer la connexion d’un système tiers afin d’envoyer des messages ou des appels API.
 
 * Si vous utilisez un système tiers pour envoyer vos messages, vous pouvez créer une action personnalisée. [En savoir plus](../action/action.md)
 
-* Si vous utilisez Adobe Campaign, reportez-vous aux sections suivantes :
+* Si vous utilisez Adobe Campaign, reportez-vous aux sections suivantes :
 
    * [[!DNL Journey Optimizer] et Campaign v7/v8](../action/acc-action.md)
    * [[!DNL Journey Optimizer] et Campaign Standard](../action/acs-action.md)

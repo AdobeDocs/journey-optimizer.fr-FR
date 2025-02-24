@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 exl-id: 7591a07b-1680-4081-a745-192755d35371
 source-git-commit: 673e86ccd07c7afdf0b87859434145f16f7b7d26
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '576'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 90%
 
 >[!BEGINSHADEBOX]
 
-Votre rapport de parcours peut afficher simultanément des informations provenant de plusieurs parcours, car les utilisateurs et utilisatrices peuvent être impliqués dans plusieurs parcours à la fois. Par conséquent, les communications entrantes (in-app, web et basées sur du code) peuvent apparaître dans plusieurs parcours si elles ont été déclenchées pour un utilisateur participant à des parcours actifs simultanés, ce qui peut entraîner un chevauchement des données.
+Votre rapport de parcours peut afficher simultanément des informations provenant de plusieurs parcours, car les utilisateurs et utilisatrices peuvent être impliqués dans plusieurs parcours à la fois. Par conséquent, les communications entrantes (in-app, web et basées sur le code) peuvent apparaître dans plusieurs parcours si elles ont été déclenchées pour une personne participant à des parcours actifs simultanés, ce qui peut entraîner un chevauchement des données.
 
 >[!ENDSHADEBOX]
 

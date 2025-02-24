@@ -2,23 +2,23 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Configurer les paramètres d’en-tête des e-mails
-description: Découvrez comment configurer les paramètres d’en-tête des e-mails au niveau de la configuration des canaux
+description: Découvrez comment configurer les paramètres d’en-tête des e-mails au niveau de la configuration des canaux.
 feature: Email, Surface
 topic: Administration
 role: Admin
 level: Experienced
 keywords: paramètres, e-mail, configuration
 source-git-commit: ad70e369dac61dc3ea261e7931c0b58e46c23dda
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '713'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
 
 # Paramètres d’en-tête {#email-header}
 
-Lors de la configuration d’une nouvelle [configuration du canal e-mail](email-settings.md), dans la section **[!UICONTROL Paramètres d’en-tête]**, saisissez les noms d’expéditeur et les adresses e-mail associées au type d’e-mails envoyés à l’aide de cette configuration.
+Lors de la configuration d’une nouvelle [configuration du canal e-mail](email-settings.md), dans la section **[!UICONTROL Paramètres d’en-tête]**, saisissez les noms d’expéditeur ou d’expéditrice et les adresses e-mail associées au type d’e-mails envoyés à l’aide de cette configuration.
 
 >[!NOTE]
 >

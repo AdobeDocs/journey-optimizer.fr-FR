@@ -9,13 +9,13 @@ role: User
 level: Beginner
 exl-id: 78b95ccd-bc28-46cd-937a-f68e3f34cc1e
 source-git-commit: 691474e332e9c62dd1be8b8b044e0d02781805ff
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '567'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
-# Activation de l’audience dans [!DNL Journey Optimizer] {#segments-in-journey-optimizer}
+# Audience Activation dans [!DNL Journey Optimizer] {#segments-in-journey-optimizer}
 
 Vous pouvez sélectionner dans des campagnes et des parcours n’importe quelle audience générée à l’aide de définitions de segment, de chargement personnalisé, de workflows de composition ou de composition d’audiences fédérées.
 
@@ -25,11 +25,11 @@ Vous pouvez sélectionner dans des campagnes et des parcours n’importe quelle 
 
 ## Délai d’activation des audiences {#activation}
 
-Les audiences sont prêtes à être utilisées dans Journey Optimizer une fois l’ingestion terminée. Bien que ce délai soit généralement d&#39;une heure, il est sujet à certaines variations. Les audiences obtenues à partir de compositions doivent être disponibles 24 heures après leur publication.
+Les audiences sont prêtes à être utilisées dans Journey Optimizer une fois l’ingestion terminée. Ce délai est généralement de moins d’une heure, mais il peut varier. Les audiences obtenues à partir de compositions devraient être disponibles 24 heures après leur publication.
 
-## Chargement personnalisé et composition d’audience fédérée
+## Chargement personnalisé et composition d’audiences fédérées
 
-Pour les audiences de chargement personnalisé et de composition d’audiences fédérées, notez les mécanismes de sécurisation suivants :
+Pour les audiences de chargement personnalisé et de composition d’audiences fédérées, notez les mécanismes de sécurisation suivants :
 
 * **Prise en charge de la prévisualisation et du BAT :** actuellement, la prévisualisation et le BAT ne sont pas pris en charge pour les audiences créées à l’aide du chargement CSV ou de la composition d’audiences fédérées. Gardez cela à l’esprit lors de la planification de vos campagnes.
 

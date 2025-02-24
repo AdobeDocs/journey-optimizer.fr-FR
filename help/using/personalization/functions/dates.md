@@ -7,9 +7,9 @@ role: Data Engineer
 level: Experienced
 exl-id: edc040de-dfb3-4ebc-91b4-239e10c2260b
 source-git-commit: 3eab04f28b1daab556c4b4395d67f28d292fc52b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1034'
-ht-degree: 46%
+ht-degree: 100%
 
 ---
 
@@ -19,7 +19,7 @@ Les fonctions de date et d’heure sont utilisées pour effectuer des opération
 
 ## Ajouter des jours {#add-days}
 
-La fonction `addDays` ajuste une date donnée selon un nombre de jours spécifié, en utilisant des valeurs positives pour incrémenter et des valeurs négatives pour décrémenter.
+La fonction `addDays` ajuste une date donnée d’un nombre de jours spécifié, en utilisant des valeurs positives pour incrémenter et des valeurs négatives pour diminuer.
 
 **Syntaxe**
 
@@ -29,14 +29,14 @@ La fonction `addDays` ajuste une date donnée selon un nombre de jours spécifi�
 
 +++Exemple
 
-* Entrée : `{%= addDays(stringToDate("2024-11-01T17:19:51Z"),10) %}`
-* Sortie : `2024-11-11T17:19:51Z`
+* Entrée : `{%= addDays(stringToDate("2024-11-01T17:19:51Z"),10) %}`
+* Sortie : `2024-11-11T17:19:51Z`
 
 +++
 
 ## Ajouter des heures {#add-hours}
 
-La fonction `addHours` ajuste une date donnée d’un nombre d’heures spécifié, en utilisant des valeurs positives pour incrémenter et des valeurs négatives pour décrémenter.
+La fonction `addHours` ajuste une date donnée d’un nombre d’heures spécifié, en utilisant des valeurs positives pour incrémenter et des valeurs négatives pour diminuer.
 
 **Syntaxe**
 
@@ -46,14 +46,14 @@ La fonction `addHours` ajuste une date donnée d’un nombre d’heures spécifi
 
 +++Exemple
 
-* Entrée : `{%= addHours(stringToDate("2024-11-01T17:19:51Z"),1) %}`
-* Sortie : `2024-11-01T18:19:51Z`
+* Entrée : `{%= addHours(stringToDate("2024-11-01T17:19:51Z"),1) %}`
+* Sortie : `2024-11-01T18:19:51Z`
 
 +++
 
 ## Ajouter des minutes {#add-minutes}
 
-La fonction `addMinutes` ajuste une date donnée selon un nombre de minutes spécifié, en utilisant des valeurs positives pour incrémenter et des valeurs négatives pour décrémenter
+La fonction `addMinutes` ajuste une date donnée d’un nombre de minutes spécifié, en utilisant des valeurs positives pour incrémenter et des valeurs négatives pour diminuer.
 
 **Syntaxe**
 
@@ -63,14 +63,14 @@ La fonction `addMinutes` ajuste une date donnée selon un nombre de minutes spé
 
 +++Exemple
 
-* Entrée : `{%= addMinutes(stringToDate("2024-11-01T17:59:51Z"),10) %}`
-* Sortie : `2024-11-01T18:09:51Z`
+* Entrée : `{%= addMinutes(stringToDate("2024-11-01T17:59:51Z"),10) %}`
+* Sortie : `2024-11-01T18:09:51Z`
 
 +++
 
 ## Ajouter des mois {#add-months}
 
-La fonction `addMonths` ajuste une date donnée d’un nombre de mois spécifié, en utilisant des valeurs positives pour incrémenter et des valeurs négatives pour décrémenter.
+La fonction `addMonths` ajuste une date donnée d’un nombre de mois spécifié, en utilisant des valeurs positives pour incrémenter et des valeurs négatives pour diminuer.
 
 **Syntaxe**
 
@@ -80,14 +80,14 @@ La fonction `addMonths` ajuste une date donnée d’un nombre de mois spécifié
 
 +++Exemple
 
-* Entrée : `{%= addMonths(stringToDate("2024-11-01T17:19:51Z"),2) %}`
-* Sortie : `2025-01-01T17:19:51Z`
+* Entrée : `{%= addMonths(stringToDate("2024-11-01T17:19:51Z"),2) %}`
+* Sortie : `2025-01-01T17:19:51Z`
 
 +++
 
 ## Ajouter des secondes {#add-seconds}
 
-Le `addSeconds` ajuste une date donnée d’un nombre spécifié de secondes, en utilisant des valeurs positives pour incrémenter et des valeurs négatives pour décrémenter.
+La fonction `addSeconds` ajuste une date donnée d’un nombre de secondes spécifié, en utilisant des valeurs positives pour incrémenter et des valeurs négatives pour diminuer.
 
 **Syntaxe**
 
@@ -97,14 +97,14 @@ Le `addSeconds` ajuste une date donnée d’un nombre spécifié de secondes, en
 
 +++Exemple
 
-* Entrée : `{%= addSeconds(stringToDate("2024-11-01T17:19:51Z"),10) %}`
-* Sortie : `2024-11-01T17:20:01Z`
+* Entrée : `{%= addSeconds(stringToDate("2024-11-01T17:19:51Z"),10) %}`
+* Sortie : `2024-11-01T17:20:01Z`
 
 +++
 
 ## Ajouter des années {#add-years}
 
-L’`addYears` ajuste une date donnée sur un nombre spécifié d’années, en utilisant des valeurs positives pour incrémenter et des valeurs négatives pour décrémenter.
+La fonction `addYears` ajuste une date donnée d’un nombre d’années spécifié, en utilisant des valeurs positives pour incrémenter et des valeurs négatives pour diminuer.
 
 **Syntaxe**
 
@@ -114,12 +114,12 @@ L’`addYears` ajuste une date donnée sur un nombre spécifié d’années, en 
 
 +++Exemple
 
-* Entrée : `{%= addYears(stringToDate("2024-11-01T17:19:51Z"),2) %}`
-* Sortie : `2026-11-01T17:19:51Z`
+* Entrée : `{%= addYears(stringToDate("2024-11-01T17:19:51Z"),2) %}`
+* Sortie : `2026-11-01T17:19:51Z`
 
 +++
 
-## Âge{#age}
+## Ancienneté{#age}
 
 La fonction `age` sert à récupérer l’âge à partir d’une date donnée.
 
@@ -141,7 +141,7 @@ The following operation gets the value of the identity map for the key `example@
 
 ## Ancienneté en jours {#age-days}
 
-La fonction `ageInDays` calcule l&#39;âge d&#39;une date donnée en jours, c&#39;est-à-dire le nombre de jours écoulés entre la date donnée et la date actuelle, négatif pour les dates futures et positif pour les dates passées.
+La fonction `ageInDays` calcule l’ancienneté d’une date donnée en jours, c’est-à-dire le nombre de jours écoulés entre la date donnée et la date actuelle, négatif pour les dates futures et positif pour les dates passées.
 
 **Syntaxe**
 
@@ -153,14 +153,14 @@ La fonction `ageInDays` calcule l&#39;âge d&#39;une date donnée en jours, c&#3
 
 currentDate = 2025-01-07T12:17:10.720122+05:30 (Asie/Calcutta)
 
-* Entrée : `{%= ageInDays(stringToDate("2025-01-01T17:19:51Z"))%}`
-* Sortie : `5`
+* Entrée : `{%= ageInDays(stringToDate("2025-01-01T17:19:51Z"))%}`
+* Sortie : `5`
 
 +++
 
 ## Ancienneté en mois {#age-months}
 
-La fonction `ageInMonths` calcule l&#39;âge d&#39;une date donnée en mois, c&#39;est-à-dire le nombre de mois écoulés entre la date donnée et la date actuelle , négatif pour les dates futures et positif pour les dates passées.
+La fonction `ageInMonths` calcule l’ancienneté d’une date donnée en mois, c’est-à-dire le nombre de mois écoulés entre la date donnée et la date actuelle, négatif pour les dates futures et positif pour les dates passées.
 
 **Syntaxe**
 
@@ -172,14 +172,14 @@ La fonction `ageInMonths` calcule l&#39;âge d&#39;une date donnée en mois, c&#
 
 currentDate = 2025-01-07T12:22:46.993748+05:30(Asie/Calcutta)
 
-* Entrée : `{%=ageInMonths(stringToDate("2024-01-01T00:00:00Z"))%}`
-* Sortie : `12`
+* Entrée : `{%=ageInMonths(stringToDate("2024-01-01T00:00:00Z"))%}`
+* Sortie : `12`
 
 +++
 
 ## Comparer les dates {#compare-dates}
 
-La fonction `compareDates` compare la première date d&#39;entrée à l&#39;autre. Renvoie 0 si date1 est égale à date2, -1 si date1 est antérieure à date2 et 1 si date1 est postérieure à date2.
+La fonction `compareDates` compare la première date d’entrée à l’autre. Renvoie 0 si la valeur date1 est égale à date2, -1 si la valeur date1 est antérieure à date2 et 1 si la valeur date1 est postérieure à date2.
 
 **Syntaxe**
 
@@ -189,14 +189,14 @@ La fonction `compareDates` compare la première date d&#39;entrée à l&#39;autr
 
 +++Exemple
 
-* Entrée : `{%=compareDates(stringToDate("2024-12-02T00:00:00Z"), stringToDate("2024-12-03T00:00:00Z"))%}`
-* Sortie : `-1`
+* Entrée : `{%=compareDates(stringToDate("2024-12-02T00:00:00Z"), stringToDate("2024-12-03T00:00:00Z"))%}`
+* Sortie : `-1`
 
 +++
 
 ## Convertir ZonedDateTime {#convert-zoned-date-time}
 
-La fonction `convertZonedDateTime` convertit une date et une heure en un fuseau horaire donné.
+La fonction `convertZonedDateTime` convertit une date-heure en un fuseau horaire donné.
 
 **Syntaxe**
 
@@ -206,8 +206,8 @@ La fonction `convertZonedDateTime` convertit une date et une heure en un fuseau 
 
 +++Exemple
 
-* Entrée : `{%=convertZonedDateTime(stringToDate("2019-02-19T08:09:00Z"), "Asia/Tehran")%}`
-* Sortie : `2019-02-19T11:39+03:30[Asia/Tehran]`
+* Entrée : `{%=convertZonedDateTime(stringToDate("2019-02-19T08:09:00Z"), "Asia/Tehran")%}`
+* Sortie : `2019-02-19T11:39+03:30[Asia/Tehran]`
 
 +++
 
@@ -253,7 +253,7 @@ The following operation gets all the values for the map `identityMap`.
 
 ## Jour du mois {#day-month}
 
-La `dayOfWeek` renvoie le nombre représentant le jour du mois.
+La fonction `dayOfWeek` renvoie le nombre représentant le jour du mois.
 
 **Syntaxe**
 
@@ -263,8 +263,8 @@ La `dayOfWeek` renvoie le nombre représentant le jour du mois.
 
 +++Exemple
 
-* Entrée : `{%= dayOfMonth(stringToDate("2024-11-05T17:19:51Z")) %}`
-* Sortie : `5`
+* Entrée : `{%= dayOfMonth(stringToDate("2024-11-05T17:19:51Z")) %}`
+* Sortie : `5`
 
 +++
 
@@ -311,7 +311,7 @@ The following operation gets all the values for the map `identityMap`.
 
 ## Différence en secondes {#diff-seconds}
 
-La fonction `diffInSeconds` renvoie la différence entre deux dates en termes de secondes.
+La fonction `diffInSeconds` renvoie la différence entre deux dates en nombre de secondes.
 
 **Syntaxe**
 
@@ -321,14 +321,14 @@ La fonction `diffInSeconds` renvoie la différence entre deux dates en termes de
 
 +++Exemple
 
-* Entrée : `{%=diffInSeconds(stringToDate("2024-11-01T17:19:51Z"), stringToDate("2024-11-01T17:19:01Z"))%}`
-* Sortie : `50`
+* Entrée : `{%=diffInSeconds(stringToDate("2024-11-01T17:19:51Z"), stringToDate("2024-11-01T17:19:01Z"))%}`
+* Sortie : `50`
 
 +++
 
 ## Extraire les heures {#extract-hours}
 
-La fonction `extractHours` extrait le composant d’heure d’un horodatage donné.
+La fonction `extractHours` extrait le composant des heures d’un horodatage donné.
 
 **Syntaxe**
 
@@ -338,14 +338,14 @@ La fonction `extractHours` extrait le composant d’heure d’un horodatage donn
 
 +++Exemple
 
-* Entrée : `{%= extractHours(stringToDate("2024-11-01T17:19:51Z"))%}`
-* Sortie : `17`
+* Entrée : `{%= extractHours(stringToDate("2024-11-01T17:19:51Z"))%}`
+* Sortie : `17`
 
 +++
 
 ## Extraire les minutes {#extract-minutes}
 
-La fonction `extractMinutes` extrait le composant des minutes d’une date et heure données.
+La fonction `extractMinutes` extrait le composant des minutes d’un horodatage donné.
 
 **Syntaxe**
 
@@ -355,14 +355,14 @@ La fonction `extractMinutes` extrait le composant des minutes d’une date et he
 
 +++Exemple
 
-* Entrée : `{%= extractMinute(stringToDate("2024-11-01T17:19:51Z"))%}`
-* Sortie : `19`
+* Entrée : `{%= extractMinute(stringToDate("2024-11-01T17:19:51Z"))%}`
+* Sortie : `19`
 
 +++
 
 ## Extraire les mois {#extract-months}
 
-La fonction `extractMonth` extrait le composant « month » d’un horodatage donné.
+La fonction `extractMonth` extrait le composant des mois d’un horodatage donné.
 
 **Syntaxe**
 
@@ -372,14 +372,14 @@ La fonction `extractMonth` extrait le composant « month » d’un horodatage do
 
 +++Exemple
 
-* Entrée : `{%=extractMonth(stringToDate("2024-11-01T17:19:51Z"))%}`
-* Sortie : `11`
+* Entrée : `{%=extractMonth(stringToDate("2024-11-01T17:19:51Z"))%}`
+* Sortie : `11`
 
 +++
 
 ## Extraire les secondes {#extract-seconds}
 
-La fonction `extractSeconds` extrait le deuxième composant d’un horodatage donné.
+La fonction `extractSeconds` extrait le composant des secondes d’un horodatage donné.
 
 **Syntaxe**
 
@@ -389,12 +389,12 @@ La fonction `extractSeconds` extrait le deuxième composant d’un horodatage do
 
 +++Exemple
 
-* Entrée : `{%=extractSeconds(stringToDate("2024-11-01T17:19:51Z"))%}`
-* Sortie : `51`
+* Entrée : `{%=extractSeconds(stringToDate("2024-11-01T17:19:51Z"))%}`
+* Sortie : `51`
 
 +++
 
-## Date de format{#format-date}
+## Mettre en forme la date{#format-date}
 
 La fonction `formatDate` sert à formater une valeur de date et d’heure. Le format doit être un modèle Java DateTimeFormat valide.
 
@@ -460,14 +460,14 @@ La fonction `getCurrentZonedDateTime` renvoie la date et l’heure actuelles ave
 
 +++Exemple
 
-* Entrée : `{%= getCurrentZonedDateTime() %}`
-* Sortie : `2024-12-06T17:22:02.281067+05:30[Asia/Kolkata]`
+* Entrée : `{%= getCurrentZonedDateTime() %}`
+* Sortie : `2024-12-06T17:22:02.281067+05:30[Asia/Kolkata]`
 
 +++
 
 ## Différence en heures {#hours-difference}
 
-La fonction `diffInHours` renvoie la différence entre deux dates en termes d’heures.
+La fonction `diffInHours` renvoie la différence entre deux dates en nombre d’heures.
 
 **Syntaxe**
 
@@ -477,14 +477,14 @@ La fonction `diffInHours` renvoie la différence entre deux dates en termes d’
 
 +++Exemple
 
-* Entrée : `{%= diffInHours(stringToDate("2024-11-01T17:19:51Z"), stringToDate("2024-11-01T07:19:51Z"))%}`
-* Sortie : `10`
+* Entrée : `{%= diffInHours(stringToDate("2024-11-01T17:19:51Z"), stringToDate("2024-11-01T07:19:51Z"))%}`
+* Sortie : `10`
 
 +++
 
 ## Différence en minutes{#diff-minutes}
 
-La fonction `diffInMinutes` est utilisée pour renvoyer la différence entre deux dates en termes de minutes.
+La fonction `diffInMinutes` sert à renvoyer la différence entre deux dates en nombre de minutes.
 
 **Syntaxe**
 
@@ -494,14 +494,14 @@ La fonction `diffInMinutes` est utilisée pour renvoyer la différence entre deu
 
 +++Exemple
 
-* Entrée : `{%= diffInMinutes(stringToDate("2024-11-01T17:19:51Z"), stringToDate("2024-11-01T16:19:51Z"))%}`
-* Sortie : `60`
+* Entrée : `{%= diffInMinutes(stringToDate("2024-11-01T17:19:51Z"), stringToDate("2024-11-01T16:19:51Z"))%}`
+* Sortie : `60`
 
 +++
 
 ## Différence en mois {#months-difference}
 
-La fonction `diffInMonths` renvoie la différence entre deux dates en termes de mois.
+La fonction `diffInMonths` renvoie la différence entre deux dates en nombre de mois.
 
 **Syntaxe**
 
@@ -511,8 +511,8 @@ La fonction `diffInMonths` renvoie la différence entre deux dates en termes de 
 
 +++Exemple
 
-* Entrée : `{%=diffInMonths(stringToDate("2024-11-01T17:19:51Z"), stringToDate("2024-08-01T17:19:51Z"))%}`
-* Sortie : `3`
+* Entrée : `{%=diffInMonths(stringToDate("2024-11-01T17:19:51Z"), stringToDate("2024-08-01T17:19:51Z"))%}`
+* Sortie : `3`
 
 +++
 
@@ -568,8 +568,8 @@ La fonction `ToDateTime` convertit une chaîne en date. Elle renvoie la date de 
 
 +++Exemple
 
-* Entrée : `{%=toDateTime("2024-11-01T17:19:51Z")%}`
-* Sortie : `2024-11-01T17:19:51Z`
+* Entrée : `{%=toDateTime("2024-11-01T17:19:51Z")%}`
+* Sortie : `2024-11-01T17:19:51Z`
 
 +++
 
@@ -595,7 +595,7 @@ The following operation gets all the values for the map `identityMap`.
 
 ## Tronquer au début de la journée {#truncate-day}
 
-La fonction `truncateToStartOfDay` est utilisée pour modifier une date-heure donnée en la définissant sur le début de la journée avec l’heure définie sur 00:00.
+La fonction `truncateToStartOfDay` modifie une date-heure donnée en la définissant sur le début de la journée et sur 00:00.
 
 **Syntaxe**
 
@@ -605,14 +605,14 @@ La fonction `truncateToStartOfDay` est utilisée pour modifier une date-heure do
 
 +++Exemple
 
-* Entrée : `{%= truncateToStartOfDay(stringToDate("2024-11-01T17:19:51Z")) %}`
-* Sortie : `2024-11-01T00:00Z`
+* Entrée : `{%= truncateToStartOfDay(stringToDate("2024-11-01T17:19:51Z")) %}`
+* Sortie : `2024-11-01T00:00Z`
 
 +++
 
 ## truncateToStartOfQuarter {#truncate-quarter}
 
-La fonction `truncateToStartOfQuarter` sert à tronquer une date et une heure au premier jour de son trimestre (par exemple, 1er janvier, 1er avril, 1er juillet, 1er octobre) à 00:00.
+La fonction `truncateToStartOfQuarter` tronque une date-heure au premier jour de son trimestre (par exemple, 1er janvier, 1er avril, 1er juillet, 1er octobre) à 00:00.
 
 **Syntaxe**
 
@@ -622,8 +622,8 @@ La fonction `truncateToStartOfQuarter` sert à tronquer une date et une heure au
 
 +++Exemple
 
-* Entrée : `{%=truncateToStartOfQuarter(stringToDate("2024-11-01T17:19:51Z"))%}`
-* Sortie : `2024-10-01T00:00Z`
+* Entrée : `{%=truncateToStartOfQuarter(stringToDate("2024-11-01T17:19:51Z"))%}`
+* Sortie : `2024-10-01T00:00Z`
 
 +++
 
@@ -639,14 +639,14 @@ La fonction `truncateToStartOfWeek` modifie une date-heure donnée en la défini
 
 +++Exemple
 
-* Entrée : `truncateToStartOfWeek(stringToDate("2024-11-19T17:19:51Z"))%} // tuesday`
-* Sortie : `2024-11-18T00:00Z // monday`
+* Entrée : `truncateToStartOfWeek(stringToDate("2024-11-19T17:19:51Z"))%} // tuesday`
+* Sortie : `2024-11-18T00:00Z // monday`
 
 +++
 
 ## truncateToStartOfYear {#truncate-year}
 
-La fonction `truncateToStartOfYear` permet de modifier une date-heure donnée en la tronquant au premier jour de l’année (1er janvier) à 00:00.
+La fonction `truncateToStartOfYear` modifie une date-heure donnée en la tronquant au premier jour de l’année (1er janvier) à 00:00.
 
 **Syntaxe**
 
@@ -656,8 +656,8 @@ La fonction `truncateToStartOfYear` permet de modifier une date-heure donnée en
 
 +++Exemple
 
-* Entrée : `{%=truncateToStartOfYear(stringToDate("2024-11-01T17:19:51Z"))%}`
-* Sortie : `2024-01-01T00:00Z`
+* Entrée : `{%=truncateToStartOfYear(stringToDate("2024-11-01T17:19:51Z"))%}`
+* Sortie : `2024-01-01T00:00Z`
 
 +++
 
@@ -683,7 +683,7 @@ The following operation gets all the values for the map `identityMap`.
 
 ## Différence en années {#diff-years}
 
-La fonction `diffInYears` est utilisée pour renvoyer la différence entre deux dates en termes d&#39;années.
+La fonction `diffInYears` sert à renvoyer la différence entre deux dates en nombre d’années.
 
 **Syntaxe**
 
@@ -693,7 +693,7 @@ La fonction `diffInYears` est utilisée pour renvoyer la différence entre deux 
 
 +++Exemple
 
-* Entrée : `{%=diffInYears(stringToDate("2024-11-01T17:19:51Z"), stringToDate("2019-10-01T17:19:51Z"))%}`
-* Sortie : `5`
+* Entrée : `{%=diffInYears(stringToDate("2024-11-01T17:19:51Z"), stringToDate("2019-10-01T17:19:51Z"))%}`
+* Sortie : `5`
 
 +++
