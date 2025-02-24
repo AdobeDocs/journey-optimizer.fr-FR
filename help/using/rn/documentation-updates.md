@@ -11,7 +11,7 @@ exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
 source-git-commit: 9b66f4871d8b539bf0201b2974590672205a3243
 workflow-type: tm+mt
 source-wordcount: '6117'
-ht-degree: 95%
+ht-degree: 97%
 
 ---
 
@@ -22,7 +22,7 @@ Cette page répertorie toutes les mises à jour récentes de la documentation de
 
 ## Février 2025 {#feb-2025}
 
-* La documentation relative à l’**[!UICONTROL optimisation de l’heure d’envoi]** et ses questions fréquentes associées ont été mises à jour, améliorées et déplacées vers une nouvelle page dédiée. [En savoir plus](../building-journeys/send-time-optimization.md)
+* La documentation relative à l’**[!UICONTROL optimisation de l’heure d’envoi]** et ses questions fréquentes associées ont été mises à jour, enrichies et déplacées vers une nouvelle page dédiée. [En savoir plus](../building-journeys/send-time-optimization.md)
 * De nouveaux mécanismes de sécurisation ont été ajoutés pour les événements de parcours. [En savoir plus](../start/guardrails.md#events-g)
 * La page des actions de canal intégrée a été réorganisée. [En savoir plus](../building-journeys/journeys-message.md)
 * Des mécanismes de sécurisation et des limitations ont été ajoutés dans les sections Prise de décision et Gestion des décisions .
@@ -40,15 +40,15 @@ Cette page répertorie toutes les mises à jour récentes de la documentation de
 
 * La section **Transférer l’e-mail** a été mise à jour afin d’indiquer que tous les e-mails envoyés à l’**e-mail d’expédition** sont transférés à l’adresse e-mail de transfert. Si aucun e-mail de transfert n’est spécifié, ces e-mails sont ignorés. [En savoir plus](../email/email-settings.md#forward-email)
 
-* La taille maximale des attributs contextuels transmis dans une requête de campagne déclenchée par l’API a été mise à jour à 200 Ko. [En savoir plus](../campaigns/api-triggered-campaigns.md#contextual)
+* La taille maximale des attributs contextuels transmis dans une requête de campagne déclenchée par API a été mise à jour à 200 Ko. [En savoir plus](../campaigns/api-triggered-campaigns.md#contextual)
 
-* Une nouvelle section a été ajoutée à la page **Gérer les fragments** pour décrire comment ajouter de nouveaux attributs à un fragment actif. La page entière a également été améliorée. [En savoir plus](../content-management/manage-fragments.md#adding-new-attributes)
+* Une nouvelle section a été ajoutée à la page **Gérer les fragments** pour décrire comment ajouter de nouveaux attributs à un fragment actif. La page entière a également été enrichie. [En savoir plus](../content-management/manage-fragments.md#adding-new-attributes)
 
-* Une section « Mécanismes de sécurisation et limitations » a été ajoutée à la documentation sur les outils de gestion des conflits et de hiérarchisation. [En savoir plus](../conflict-prioritization/gs-conflict-prioritization.md)
+* Une section « Mécanismes de sécurisation et limitations » a été ajoutée à la documentation sur les outils de gestion des conflits et de hiérarchisation. [En savoir plus](../conflict-prioritization/gs-conflict-prioritization.md)
 
-* Un nouveau cas pratique de bout en bout a été ajouté pour présenter toutes les étapes nécessaires à l’utilisation de Decisioning dans les expériences de contenu avec le canal d’expérience basé sur le code [!DNL Journey Optimizer]. [En savoir plus](../experience-decisioning/experience-decisioning-uc.md)
+* Un nouveau cas d’utilisation de bout en bout a été ajouté pour présenter toutes les étapes nécessaires à l’utilisation de la prise de décision dans les expériences de contenu avec le canal d’expérience basé sur le code [!DNL Journey Optimizer]. [En savoir plus](../experience-decisioning/experience-decisioning-uc.md)
 
-* La page **Configurer les paramètres d’e-mail** a été divisée en plusieurs sous-pages pour une meilleure lisibilité, y compris les nouvelles pages autonomes dédiées à [Désabonnement de la liste](../email/list-unsubscribe.md), [Paramètres d’en-tête](../email/header-parameters.md) et [Tracking des URL](../email/url-tracking.md).
+* La page **Configurer les paramètres d’e-mail** a été divisée en plusieurs sous-pages pour une meilleure lisibilité, y compris les nouvelles pages autonomes dédiées au [Désabonnement de la liste](../email/list-unsubscribe.md), aux [Paramètres d’en-tête](../email/header-parameters.md) et au [Tracking d’URL](../email/url-tracking.md).
 
 ## Décembre 2024 {#nov-2024}
 

@@ -11,7 +11,7 @@ exl-id: af71d24d-77eb-44df-8216-b0aeaf4c4fa4
 source-git-commit: c0698c949622dbd9b4d97eaefedb67ff9f557347
 workflow-type: tm+mt
 source-wordcount: '1030'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -103,7 +103,7 @@ Cette documentation fournit des informations détaillées sur l’utilisation de
 
 La composition d’audiences vous permet de créer des **workflows de composition**, où vous pouvez combiner des audiences d’Adobe Experience Platform existantes en une zone de travail visuelle et exploiter diverses activités (telles que le partage, l’exclusion...) pour créer de nouvelles audiences.
 
-Une fois cette opération terminée, les **audiences obtenues** sont enregistrées dans Adobe Experience Platform avec les audiences existantes et sont prêtes à être utilisées dans des campagnes Journey Optimizer pour cibler les clientes et les clients. Découvrez comment cibler des audiences dans Journey Optimizer
+Une fois cette opération terminée, les **audiences obtenues** sont enregistrées dans Adobe Experience Platform avec les audiences existantes et sont prêtes à être utilisées dans des campagnes Journey Optimizer pour cibler les clientes et les clients. Découvrir comment cibler des audiences dans Journey Optimizer
 ![](assets/audiences-process.png)
 
 >[!IMPORTANT]
@@ -138,17 +138,17 @@ Pour créer un workflow de composition, procédez comme suit :
 
    * **[!UICONTROL Enregistrer]** : la dernière étape de votre composition. Cette activité permet d&#39;enregistrer le résultat de votre workflow dans une nouvelle audience.
 
-1. Ouvrez les propriétés de composition pour spécifier un titre et une description.
+1. Ouvrez les propriétés de la composition pour spécifier un titre et une description.
 
    Si aucun titre n’est défini dans les propriétés, le libellé de la composition comporte le terme « Composition », suivi de sa date et de son heure de création.
 
    ![](assets/audiences-properties.png)
 
-1. Configurez votre composition en ajoutant autant d’activités que nécessaire entre les activités **[!UICONTROL Audience]** et **[!UICONTROL Enregistrer]**. Pour plus d’informations sur la création d’une composition, consultez la [documentation sur la composition d’audience](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/audience-composition).
+1. Configurez votre composition en ajoutant autant d’activités que nécessaire entre les activités **[!UICONTROL Audience]** et **[!UICONTROL Enregistrer]**. Pour plus d’informations sur la création d’une composition, reportez-vous à la [documentation sur la composition d’audiences](https://experienceleague.adobe.com/fr/docs/experience-platform/segmentation/ui/audience-composition).
 
    ![](assets/audiences-publish.png)
 
-1. Une fois votre composition prête, cliquez sur le bouton **[!UICONTROL Publier]** pour publier la composition et enregistrez les audiences obtenues dans Adobe Experience Platform.
+1. Une fois votre composition prête, cliquez sur le bouton **[!UICONTROL Publier]** pour la publier et enregistrez les audiences obtenues dans Adobe Experience Platform.
 
    >[!IMPORTANT]
    >
@@ -162,7 +162,7 @@ Pour créer un workflow de composition, procédez comme suit :
 
 >[!NOTE]
 >
->Les audiences de **composition d’audience** sont exécutées quotidiennement. Vous devrez peut-être donc attendre jusqu’à 24 heures pour les utiliser dans Journey Optimizer. Les attributs enrichis des audiences de composition d’audience sont aussi récents que la dernière exécution de composition, qui peut durer jusqu’à 24 heures.
+>Les audiences issues de la **composition d’audiences** sont exécutées tous les jours ; il se peut donc que vous deviez attendre jusqu’à 24 heures pour les utiliser dans Journey Optimizer. Les attributs enrichis dans les audiences issues de la composition d’audiences sont aussi récents que la dernière exécution de la composition, qui peut aller jusqu’à 24 heures dans le passé.
 
 ## Accéder aux compositions {#access}
 

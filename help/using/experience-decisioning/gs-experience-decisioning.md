@@ -9,7 +9,7 @@ exl-id: 4c57dbf9-b2a4-42da-8aa3-5a1b3a475a32
 source-git-commit: b6c31528784c0c8576e3200e7611a6b6cd43d7a7
 workflow-type: tm+mt
 source-wordcount: '484'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
@@ -17,20 +17,20 @@ ht-degree: 89%
 
 >[!CONTEXTUALHELP]
 >id="ajo_email_enable_experience_decisioning"
->title="Qu’est-ce que la prise de décision ?"
->abstract="La prise de décision est un nouvel outil qui vient s’ajouter à la gestion des décisions pour sélectionner les meilleurs éléments à partir du moteur de décision et les diffuser à chaque individu. Une configuration supplémentaire est nécessaire pour pouvoir l’utiliser."
+>title="Qu’est-ce que la prise de décisions ?"
+>abstract="La prise de décisions est un nouvel outil, en plus de la gestion des décisions, permettant de sélectionner les meilleurs éléments du moteur de décision et de les diffuser à chaque individu. Elle nécessite une configuration supplémentaire pour pouvoir être utilisée."
 
 ## Qu’est-ce que la prise de décision ? {#about}
 
 La prise de décision simplifie la personnalisation en offrant un catalogue centralisé d’offres marketing connues sous le nom d’« éléments de décision » et un moteur de décision sophistiqué. Ce moteur tire parti des règles et des critères de classement pour sélectionner et présenter les éléments de décision les plus pertinents à chaque personne.
 
-Ces éléments de décision sont intégrés de manière transparente à un large éventail de surfaces entrantes par le biais du [nouveau canal d’expérience basé sur le code](https://experienceleague.adobe.com/fr/docs/journey-optimizer/using/code-based-experience/get-started-code-based), désormais accessible dans les campagnes Journey Optimizer.
+Ces éléments de décision sont intégrés de manière transparente à un large éventail de surfaces entrantes grâce au [nouveau canal d’expérience basé sur le code](https://experienceleague.adobe.com/fr/docs/journey-optimizer/using/code-based-experience/get-started-code-based), désormais accessible dans les campagnes Journey Optimizer.
 
 >[!IMPORTANT]
 >
->Les politiques de décision, dans la prise de décision, ne peuvent être utilisées que dans des campagnes d’expérience basée sur du code.
+>Les politiques de décision, dans la prise de décisions, ne peuvent être utilisées que dans des campagnes d’expérience basée sur du code.
 
-➡️ Un cas d’utilisation complet montrant comment créer des décisions et les utiliser dans des expériences de contenu avec le canal d’expérience basé sur le code est présenté dans [cette section](experience-decisioning-uc.md).
+➡️ Un cas d’utilisation de bout en bout montrant comment créer des décisions et les utiliser dans des expériences de contenu avec le canal d’expérience basé sur le code est présenté dans [cette section](experience-decisioning-uc.md).
 
 ## Étapes clés de la prise de décision {#steps}
 

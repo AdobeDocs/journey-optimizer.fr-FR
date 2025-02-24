@@ -11,7 +11,7 @@ exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
 source-git-commit: b6c31528784c0c8576e3200e7611a6b6cd43d7a7
 workflow-type: tm+mt
 source-wordcount: '2305'
-ht-degree: 91%
+ht-degree: 95%
 
 ---
 
@@ -26,7 +26,7 @@ Vous devez également connaître les [mécanismes de sécurisation pour les donn
 
 >[!NOTE]
 >
->Dans de rares cas, des pannes temporaires dans une région spécifique peuvent entraîner l’exclusion de profils valides des parcours ou l’indication erronée des e-mails comme rebonds. Une fois les services restaurés, vérifiez à nouveau les journaux de parcours, les champs du profil de consentement et republiez le parcours si nécessaire. En cas de panne du FAI, découvrez comment supprimer des profils de la liste de suppression dans [cette section](../configuration/manage-suppression-list.md#remove-from-suppression-list).
+>Dans de rares cas, des pannes temporaires dans une zone géographique spécifique peuvent entraîner l’exclusion de profils valides des parcours ou l’indication erronée des e-mails comme rebonds. Une fois les services restaurés, vérifiez à nouveau les journaux du parcours, les champs du profil de consentement et republiez le parcours si nécessaire. En cas de panne du FAI, découvrez comment supprimer des profils de la liste de suppression dans [cette section](../configuration/manage-suppression-list.md#remove-from-suppression-list).
 >
 
 ## Navigateurs pris en charge {#browsers}
@@ -130,8 +130,8 @@ Les mécanismes de sécurisation et les limitations à garder à l’esprit lors
 
 ### Événements {#events-g}
 
-* Journey Optimizer prend en charge un volume maximal de 5 000 événements de parcours entrants par seconde.
-* Les parcours déclenchés par un événement peuvent prendre jusqu’à 5 minutes pour traiter la première action du parcours.
+* Journey Optimizer prend en charge un volume maximal de 5 000 événements de parcours entrants par seconde.
+* Les parcours déclenchés par un événement peuvent prendre jusqu’à 5 minutes pour traiter la première action du parcours.
 * En ce qui concerne les événements générés par le système, les données de diffusion en continu utilisées pour initier un parcours client doivent d’abord être configurées dans Journey Optimizer pour obtenir un identifiant d’orchestration unique. Cet identifiant d’orchestration doit être ajouté à la payload de diffusion en continu entrant dans Adobe Experience Platform. Cette limitation ne s’applique pas aux événements basés sur une règle.
 * Les événements métier ne peuvent pas être utilisés conjointement avec des événements unitaires ou des activités de qualification d’audience.
 * Les parcours unitaires (commençant par un événement ou une qualification d’audience) incluent une mécanisme de sécurisation qui empêche les parcours d’être déclenchés par erreur plusieurs fois pour le même événement. La rentrée du profil est temporairement bloquée par défaut pendant 5 minutes. Par exemple, si un événement déclenche un parcours à 12 h 01 pour un profil spécifique et qu’un autre arrive à 12 h 03 (qu’il s’agisse du même événement ou d’un autre déclenchant le même parcours), ce parcours ne reprendra pas pour ce profil.

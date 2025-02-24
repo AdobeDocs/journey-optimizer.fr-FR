@@ -12,7 +12,7 @@ exl-id: 6c21371c-6cbc-4d39-8fe6-39f1b8b13280
 source-git-commit: 3331fd2ca9277bb634e3df0dd2e5a262bef459d7
 workflow-type: tm+mt
 source-wordcount: '2261'
-ht-degree: 95%
+ht-degree: 97%
 
 ---
 
@@ -273,7 +273,7 @@ Une personne spécialiste du marketing dispose d’un parcours promotionnel avec
 
 ### Configuration et utilisation {#exit-criteria-config}
 
-Les critères de sortie sont définis au niveau du parcours. Un parcours peut comporter plusieurs critères de sortie. Si vous avez défini plusieurs critères de sortie, l’évaluation se produit de haut en bas avec une logique `OR`. Par conséquent, si vous avez les critères de sortie A et B, ils sont évalués en tant que A **OU** B. Les critères sont évalués à chaque étape du parcours.
+Les critères de sortie sont définis au niveau du parcours. Un parcours peut comporter plusieurs critères de sortie. Lorsque plusieurs critères de sortie sont définis, l’évaluation se fait de haut en bas avec une logique `OR`. Ainsi, si vous disposez des critères de sortie A et B, ils seront évalués en tant que A **OU** B. Les critères sont évalués à chaque étape du parcours.
 
 Pour **créer** un critère de sortie, procédez comme suit :
 

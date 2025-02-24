@@ -2,7 +2,7 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Configurer le désabonnement de la liste
-description: Découvrez comment inclure une URL de désabonnement en un clic dans l’en-tête de vos e-mails lors de la configuration de votre canal
+description: Découvrez comment inclure une URL de désabonnement en un clic dans l’en-tête des e-mails lors de la configuration des canaux.
 feature: Email, Surface
 topic: Administration
 role: Admin
@@ -12,7 +12,7 @@ exl-id: c6c77975-ec9c-44c8-a8d8-50ca6231fea6
 source-git-commit: b3655506dff97756a59a63d5b8f0c358dc7c7510
 workflow-type: tm+mt
 source-wordcount: '765'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 97%
 
 <!--Do not modify - Legal Review Done -->
 
-Lors de la configuration d’une nouvelle configuration des canaux, au moment de la [sélection d’un sous-domaine](email-settings.md#subdomains-and-ip-pools) dans la liste, l’option **[!UICONTROL Activer le désabonnement de la liste]** s’affiche.
+Lors de la configuration d’une nouvelle configuration de canal e-mail, au moment de la [sélection d’un sous-domaine](email-settings.md#subdomains-and-ip-pools) dans la liste, l’option **[!UICONTROL Activer List-Unsubscribe]** s’affiche.
 
 ![](assets/preset-list-unsubscribe.png)
 
@@ -34,11 +34,11 @@ Cette option est activée par défaut pour inclure une URL de désabonnement en 
 >
 >Si vous désactivez cette option, aucune URL de désabonnement en un clic ne s’affiche dans l’en-tête de l’e-mail.
 
-L’en-tête Se désabonner de la liste propose deux options qui sont activées par défaut, sauf si vous désélectionnez l’une d’elles ou les deux :
+L’en-tête Désabonnement de la liste propose deux fonctionnalités qui sont activées par défaut, sauf si vous désélectionnez l’une des fonctionnalités ou les deux :
 
 ![](assets/surface-list-unsubscribe.png){width="80%"}
 
-* Une adresse **[!UICONTROL Mailto (se désabonner)]**, qui est l’adresse de destination vers laquelle les demandes de désabonnement sont acheminées pour le traitement automatique.
+* Une adresse **[!UICONTROL Mailto (annuler l’abonnement)]**, qui est l’adresse de destination vers laquelle les demandes de désabonnement sont acheminées pour le traitement automatique.
 
   Dans [!DNL Journey Optimizer], l’adresse e-mail de désabonnement est l’adresse par défaut **[!UICONTROL Mailto (annuler l’abonnement)]** affichée dans la configuration des canaux, en fonction du [sous-domaine sélectionné](#subdomains-and-ip-pools).<!--With this method, clicking the Unsubscribe link sends a pre-filled email to the unsubscribe address specified in the email header.-->
 
@@ -62,7 +62,7 @@ Pour plus d’informations sur la gestion des fonctionnalités de désabonnement
 
 >[!CONTEXTUALHELP]
 >id="ajo_email_config_unsubscribe_custom"
->title="Définir comment les données de désabonnement sont gérées"
+>title="Définir la manière de gérer les données de désabonnement"
 >abstract="**Géré par Adobe** : les données de consentement sont gérées par vous dans le système Adobe.<br>**Géré par le client ou la cliente** : les données de consentement sont gérées par vous dans un système externe et aucune synchronisation des données de consentement n’est mise à jour dans le système Adobe, sauf si vous en êtes à l’origine."
 
 Si vous gérez le consentement en dehors d’Adobe, sélectionnez l’option **[!UICONTROL Géré par le client ou la cliente]** pour saisir une adresse e-mail de désabonnement personnalisée et votre propre URL de désabonnement en un clic.
@@ -79,13 +79,13 @@ Lorsque l’option **[!UICONTROL Géré par le client ou la cliente]** est séle
 
 Ces paramètres sont envoyés au point d’entrée de manière chiffrée. Par conséquent, le système de consentement externe doit mettre en œuvre une API spécifique via [Adobe Developer](https://developer.adobe.com){target="_blank"} pour déchiffrer les paramètres envoyés par Adobe.
 
-L’appel GET pour récupérer ces paramètres dépend de l’option de désabonnement de la liste que vous utilisez : **[!UICONTROL URL de désabonnement en un clic]** ou **[!UICONTROL Mailto (annuler l’abonnement)]**.
+L’appel GET pour récupérer ces paramètres dépend de l’option de désabonnement de la liste que vous utilisez : **[!UICONTROL URL de désabonnement en un clic]** ou **[!UICONTROL Mailto (annuler l’abonnement)]**.
 
 <!--To configure the API to send back the information to [!DNL Adobe Journey Optimizer] when a recipient has unsubscribed using the List unsubscribe option with custom endpoints, follow the steps below.-->
 
 +++ URL de désabonnement en un clic
 
-Avec l’option **[!UICONTROL URL de désabonnement en un clic]**, cliquer sur le lien de désabonnement annule directement l’abonnement.
+Avec l’option **[!UICONTROL URL de désabonnement en un clic]**, cliquer sur le lien de désabonnement annule directement l’abonnement de l’utilisateur ou de l’utilisatrice.
 
 L’appel GET se présente comme suit :
 

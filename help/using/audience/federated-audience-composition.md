@@ -11,25 +11,25 @@ exl-id: 90328ba9-e6b0-4105-abcf-3e3a9ed41aa6
 source-git-commit: 5ce76bd61a61e1ed5e896f8da224fc20fba74b53
 workflow-type: tm+mt
 source-wordcount: '223'
-ht-degree: 8%
+ht-degree: 78%
 
 ---
 
 # Composition d’audiences fédérées {#fac}
 
-Bien que vous puissiez utiliser les fonctionnalités de composition d’audience pour créer des audiences précieuses et hautement affinées pour le ciblage, vous pouvez enrichir davantage les audiences pour une personnalisation plus approfondie à l’aide des données de votre entrepôt de données d’entreprise et de partenaires de confiance.
+Bien que vous puissiez utiliser les fonctionnalités de composition d’audiences pour créer des audiences précieuses et hautement affinées pour le ciblage, vous pouvez enrichir davantage les audiences pour une personnalisation plus approfondie à l’aide des données de votre entrepôt de données d’entreprise et de partenaires de confiance.
 
-La fonctionnalité de composition d’audiences fédérées disponible dans Adobe [!DNL Journey Optimizer] peut interroger des données ou un profil dans un entrepôt de données
-attributs à utiliser pour composer des audiences, conserver les données sensibles dans l’entrepôt de données et éviter la duplication des données. Cela peut inclure à la fois les données basées sur les profils et les données autres que les profils. Par exemple, un groupe de restauration rapide pourrait enrichir les profils des clients
+La fonctionnalité de composition d’audiences fédérées disponible dans Adobe [!DNL Journey Optimizer] peut interroger des attributs de données
+ou de profil dans un entrepôt de données pour les utiliser dans la composition des audiences, tout en conservant les données sensibles dans l’entrepôt de données et en évitant la duplication des données. Cela peut inclure à la fois les données basées sur les profils et les données autres que les profils. Par exemple, un groupe de restauration rapide pourrait enrichir les profils des clients
 qui a récemment passé des commandes en ligne avec l’emplacement de restaurant préféré de chaque client, ce qui permet au groupe de restaurants d’envoyer aux clients des offres qui peuvent être utilisées dans ces emplacements préférés.
 
-* **Intégration de données** - Améliorez la flexibilité et l’efficacité grâce à la possibilité d’interroger des audiences et des jeux de données préconfigurés pertinents depuis votre entrepôt de données d’entreprise et vos partenaires dans un environnement unique afin d’augmenter les cas d’utilisation de Adobe Experience Platform.
-* **Processus marketing améliorés** - Déverrouillez une prise en charge supplémentaire des cas d’utilisation de segmentation, de ciblage et d’activation à l’aide de workflows rationalisés et adaptables.
-* **Gestion efficace des données** - Minimisez la copie des données, gérez les données sensibles.
-utilisation des données et optimisation des investissements informatiques pour compléter les cas d’utilisation cross-canal en temps réel sur Adobe
+* **Intégration de données** : stimulez la flexibilité et l’efficacité grâce à la possibilité d’interroger des audiences et des jeux de données préconfigurés pertinents depuis votre entrepôt de données d’entreprise et vos partenaires dans un environnement unique afin d’améliorer les cas d’utilisation d’Adobe Experience Platform.
+* **Processus marketing améliorés** : obtenez une prise en charge supplémentaire des cas d’utilisation de segmentation, de ciblage et d’activation à l’aide de workflows rationalisés et adaptables.
+* **Gestion efficace des données** : minimisez la copie des données, gérez l’utilisation de données
+sensibles et optimisez les investissements informatiques pour compléter les cas d’utilisation cross-canal en temps réel sur Adobe.
 
 Pour plus d’informations, veuillez lire le guide sur [la composition de l’audience fédérée](https://experienceleague.adobe.com/fr/docs/federated-audience-composition/using/home){target="_blank"}.
 
-En savoir plus sur la composition d’audiences fédérées en vidéo :
+En savoir plus sur la composition d’audiences fédérées dans cette vidéo :
 
 >[!VIDEO](https://video.tv.adobe.com/v/3432261?quality=12)

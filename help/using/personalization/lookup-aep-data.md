@@ -13,7 +13,7 @@ exl-id: 2fc10fdd-ca9e-46f0-94ed-2d7ea4de5baf
 source-git-commit: f41426bd41078b98a26c32ce259a848ab49d724c
 workflow-type: tm+mt
 source-wordcount: '1043'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -72,8 +72,8 @@ Où ce qui suit est vrai :
 * **L’action** est Activer OU Désactiver.
 * **Le jeton d’accès** peut être récupéré à partir de Developer Console.
 * **La clé d’API** peut être récupérée à partir de Developer Console.
-* **ID d’organisation IMS** est votre organisation Adobe.
-* **Le nom du sandbox** est le nom du sandbox dans lequel se trouve le jeu de données (c’est-à-dire prod, dev, etc.).
+* L’**identifiant d’organisation IMS** est votre organisation Adobe.
+* Le **nom du sandbox** est le nom du sandbox dans lequel se trouve le jeu de données (c’est-à-dire prod, dev, etc.).
 
 >[!NOTE]
 >

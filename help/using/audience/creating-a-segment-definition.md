@@ -11,7 +11,7 @@ exl-id: 289aac5d-6cdb-411f-985e-3acef58050a8
 source-git-commit: 7aaaa566ec9e5a1cf50e067d7c3836bfc305b909
 workflow-type: tm+mt
 source-wordcount: '981'
-ht-degree: 63%
+ht-degree: 87%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 63%
 
 ## Création d’une définition de segment {#create}
 
-Dans cet exemple, nous allons créer une audience pour cibler tous les clientes et clients résidant à Atlanta, San Francisco ou Seattle et nés après 1980. Tous ces clients doivent avoir effectué un achat au cours des 7 derniers jours.
+Dans cet exemple, nous allons créer une audience pour cibler tous les clientes et clients résidant à Atlanta, San Francisco ou Seattle et nés après 1980. Tous ces clients et clientes doivent avoir effectué un achat au cours des 7 derniers jours.
 
 ➡️ [Découvrez comment créer des audiences dans cette vidéo](#video-segment).
 
@@ -42,21 +42,21 @@ Dans cet exemple, nous allons créer une audience pour cibler tous les clientes 
 
 1. Réalisez un glisser-déposer dans les champs de votre choix depuis le volet de gauche vers l’espace de travail central, puis configurez-les en fonction de vos besoins.
 
-   Les blocs de création de base des définitions de segment sont les **attributs** et **événements**. En outre, les attributs et les événements contenus dans les audiences existantes peuvent être utilisés comme composants de nouvelles définitions. [En savoir plus dans la documentation du service de segmentation](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/segment-builder#building-blocks){target="_blank"}
+   Les blocs de création de base des définitions de segment sont les **attributs** et les **événements**. En outre, les attributs et les événements contenus dans les audiences existantes peuvent être utilisés comme éléments de nouvelles définitions. [En savoir plus dans la documentation sur le service de segmentation](https://experienceleague.adobe.com/fr/docs/experience-platform/segmentation/ui/segment-builder#building-blocks){target="_blank"}
 
    >[!NOTE]
    >
-   >Notez que les champs disponibles dans le volet de gauche varient selon la configuration des schémas **profil individuel XDM** et **XDM ExperienceEvent** pour votre organisation.  Pour en savoir plus, consultez la [documentation Modèle de données d’expérience (XDM)](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=fr){target="_blank"}.
+   >Notez que les champs disponibles dans le volet de gauche varient selon la configuration des schémas **profil individuel XDM** et **XDM ExperienceEvent** pour votre organisation. Pour en savoir plus, consultez la [documentation Modèle de données d’expérience (XDM)](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=fr){target="_blank"}.
 
    ![](assets/drag-fields.png)
 
    Dans cet exemple, nous devons nous baser sur les champs **Attributs** et **Événements** pour créer l’audience :
 
-   * **Attributs** : profils qui vivent à Atlanta, San Francisco ou Seattle, nés après 1980.
+   * **Attributs** : profils vivant à Atlanta, San Francisco ou Seattle, nés après 1980
 
      ![](assets/add-attributes.png)
 
-   * **Événements** : profils ayant effectué un achat au cours des 7 derniers jours.
+   * **Événements** : profils ayant effectué un achat au cours des 7 derniers jours.
 
      ![](assets/add-events.png)
 
@@ -115,24 +115,24 @@ Si vous savez quelle méthode d’évaluation utiliser, sélectionnez-la à l’
 >
 >If the **[!UICONTROL Evaluation method]** column does not display, you  need to add it using configuration button on the top right of the list.-->
 
-Une fois que vous avez défini une audience pour la première fois, les profils sont ajoutés à l’audience lorsqu’ils remplissent les critères. Le renvoi de l’audience à partir de données antérieures peut prendre jusqu’à 24 heures. Une fois l’audience renvoyée, elle est constamment tenue à jour et toujours prête pour le ciblage.
+Une fois que vous avez défini une audience, les profils sont ajoutés à l’audience lorsqu’ils remplissent les critères. Le renvoi de l’audience à partir de données antérieures peut prendre jusqu’à 24 heures. Une fois l’audience renvoyée, elle est constamment tenue à jour et toujours prête pour le ciblage.
 
-## [!BADGE Disponibilité limitée]{type=Informative} Évaluation des audiences flexibles {#flexible}
+## [!BADGE Disponibilité limitée]{type=Informative} Évaluation flexible des audiences {#flexible}
 
 >[!AVAILABILITY]
 >
-L’évaluation flexible des audiences n’est disponible que pour un ensemble d’organisations (disponibilité limitée). Pour en bénéficier, contactez votre représentant ou représentante Adobe.
+L’évaluation flexible des audiences n’est actuellement disponible que pour un ensemble d’organisations (disponibilité limitée). Pour en bénéficier, contactez votre représentant ou représentante Adobe.
 
-Adobe Experience Platform Audience Portal vous permet d’exécuter une tâche de segmentation à la demande pour des audiences sélectionnées, en vous assurant de toujours disposer des données d’audience les plus récentes avant de les cibler dans les parcours et campagnes Journey Optimizer.
+Le portail Audience Adobe Experience Platform vous permet d’exécuter une tâche de segmentation à la demande pour des audiences sélectionnées, en vous assurant de toujours disposer des données d’audience les plus récentes avant de les cibler dans les parcours et campagnes Journey Optimizer.
 
-Grâce à l’évaluation d’audience flexible, vous pouvez :
+Grâce à l’évaluation flexible des audiences, vous pouvez effectuer les opérations suivantes :
 
-1. Créez un nouveau segment en fonction de vos dernières données.
-1. Évaluez l’audience en temps réel pour garantir sa précision. Pour ce faire, choisissez les audiences que vous souhaitez évaluer et sélectionnez « Évaluer les audiences », à condition qu’elles répondent à des critères spécifiques (par exemple, basé sur les personnes, origine du service de segmentation).
-1. Utiliser l’audience évaluée dans Adobe Journey Optimizer
-des campagnes ou des parcours pour un ciblage précis.
+1. Créer un segment en fonction de vos dernières données
+1. Évaluer l’audience en temps réel pour garantir sa précision Pour ce faire, choisissez les audiences que vous souhaitez évaluer et sélectionnez « Évaluer les audiences », à condition qu’elles répondent à des critères spécifiques (par exemple, basé sur les personnes, origine du service de segmentation).
+1. Utiliser l’audience évaluée dans les campagnes ou parcours
+Adobe Journey Optimizer pour un ciblage précis.
 
-Vous pouvez évaluer jusqu’à 20 audiences à la fois. Les audiences inéligibles seront automatiquement exclues. Pour plus d’informations, consultez la [documentation d’Audience Portal](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/audience-portal#flexible-audience-evaluation).
+Vous pouvez évaluer jusqu’à 20 audiences à la fois. Les audiences inéligibles seront automatiquement exclues. Pour plus d’informations, consultez la [documentation du portail Audience](https://experienceleague.adobe.com/fr/docs/experience-platform/segmentation/ui/audience-portal#flexible-audience-evaluation).
 
 ## Vidéo pratique{#video-segment}
 
