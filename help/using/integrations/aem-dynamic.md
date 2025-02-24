@@ -10,7 +10,7 @@ hide: true
 hidefromtoc: true
 badge: label="Version bêta" type="Informative"
 exl-id: 3e777cc5-a935-4e68-9de7-60b241e78f63
-source-git-commit: 962dbbb070bbfe944e174bc330659599a1101ebe
+source-git-commit: 3a10f8440515bd569f9def6d15ac74d57427c1cf
 workflow-type: tm+mt
 source-wordcount: '436'
 ht-degree: 2%
@@ -55,7 +55,7 @@ Améliorez et optimisez votre contenu pour n’importe quel écran ou navigateur
 
 Votre contenu comprend désormais Dynamic Media. Toutes les mises à jour effectuées dans Experience Manager apparaîtront automatiquement dans Journey Optimizer.
 
-## Personalization avec superposition de texte
+## Personnaliser la superposition de texte
 
 Personnalisez facilement n’importe quel média dynamique en remplaçant la superposition de texte existante par un nouveau texte de votre choix, ce qui permet des mises à jour et une personnalisation transparentes.
 
