@@ -8,22 +8,24 @@ topic: Content Management
 role: User
 level: Intermediate
 keywords: parcours, premier, commencer, démarrage rapide, audience, événement, action
-source-git-commit: 4847415fa33ebf1c21622ebf4faecafd4decc8d3
+exl-id: 770bdbf2-560d-4127-bdb9-1f82495a566f
+source-git-commit: 0f09de039d9d9555327413b2d65dda295e971bde
 workflow-type: tm+mt
-source-wordcount: '947'
-ht-degree: 94%
+source-wordcount: '950'
+ht-degree: 88%
 
 ---
 
 # Parcourir et filtrer vos parcours {#browse-journeys}
 
-## Accéder aux parcours {#journey-access}
-
-### Tableau de bord du parcours {#dashboard-jo}
+## Tableau de bord du parcours {#dashboard-jo}
 
 Dans la section du menu GESTION DES PARCOURS, cliquez sur **[!UICONTROL Parcours]**. Deux onglets sont disponibles : **[!UICONTROL Aperçu]** et **[!UICONTROL Parcourir]**.
 
-* L’onglet **[!UICONTROL Aperçu]** affiche un tableau de bord avec les mesures clés liées à vos parcours :
+
+* L’onglet **[!UICONTROL Aperçu]** affiche un tableau de bord avec les mesures clés liées à vos parcours.
+
+  Tableau de bord de parcours ![mettant en surbrillance l’onglet Aperçu](assets/journeys-dashboard.png)
 
    * **Profils traités** : nombre total de profils traités au cours des dernières 24 heures
    * **Parcours dynamiques** : nombre total de parcours dynamiques avec trafic au cours des dernières 24 heures. Les parcours dynamiques incluent les **parcours unitaires** (basés sur un événement) et les **parcours par lots** (lecture d’audience).
@@ -34,36 +36,18 @@ Dans la section du menu GESTION DES PARCOURS, cliquez sur **[!UICONTROL Parcours
   >
   >Ce tableau de bord prend en compte les parcours avec trafic au cours des dernières 24 heures. Seuls les parcours auxquels vous avez accès s’affichent. Les mesures sont actualisées toutes les 30 minutes et uniquement lorsque de nouvelles données sont disponibles.
 
-  ![](assets/journeys-dashboard.png)
 
 * L’onglet **[!UICONTROL Parcourir]** affiche la liste des parcours existants. Vous pouvez rechercher des parcours, utiliser des filtres et effectuer des actions de base sur chaque élément. Vous pouvez par exemple dupliquer ou supprimer un élément.
 
-  ![](assets/journeys-browse.png)
+  Tableau de bord de parcours ![mettant en surbrillance l’onglet Parcourir](assets/journeys-browse.png)
 
-### Filtrer vos parcours {#filter}
+## Filtrer vos parcours {#journey-filter}
 
-Dans la liste des parcours, vous pouvez utiliser différents filtres pour affiner la liste des parcours afin d’en améliorer la lisibilité.
+Dans la liste des parcours, l’utilisation de différents filtres permet d’affiner la liste des parcours.
 
 ![](assets/filter-journeys.png)
 
-Voici les différentes opérations de filtrage que vous pouvez effectuer :
-
-Filtrez les parcours en fonction de leur statut, type, version et balises attribuées depuis les **[!UICONTROL Filtres de statut et de version]**.
-
-Les différents types sont les suivants : **[!UICONTROL Événement unitaire]**, **[!UICONTROL Qualification de l’audience]**, **[!UICONTROL Lecture d’audience]**, **[!UICONTROL Événement métier]**.
-
-Le statut peut être :
-
-* **Fermé** : le parcours a été fermé à l’aide du bouton **Fermer aux nouvelles entrées**. Il n’est alors plus accessible aux nouveaux individus. En revanche, les personnes qui ont déjà intégré le parcours peuvent le terminer normalement.
-* **Brouillon** : le parcours en est à sa première étape. Il n’a pas encore été publié.
-* **Brouillon (test)** : le mode test a été activé à l’aide du bouton **Mode test**.
-* **Terminé** : le parcours passe automatiquement à ce statut après la [temporisation globale](journey-properties.md#global_timeout) de 91 jours. Les profils de clientes et clients qui ont déjà intégré le parcours le terminent normalement. Les nouveaux profils ne peuvent plus rejoindre le parcours.
-* **Actif** : le parcours a été publié à l’aide du bouton **Publier**.
-* **Arrêté** : le parcours a été désactivé à l’aide du bouton **Arrêter**. Toutes les personnes quittent instantanément le parcours.
-
->[!NOTE]
->
->Le cycle de vie de création de parcours comprend également un ensemble de statuts intermédiaires qui ne sont pas disponibles pour le filtrage : « Publication » (entre « Brouillon » et « Actif »), « Activer le mode test » ou « Désactiver le mode test » (entre « Brouillon » et « Brouillon (test) ») et « Arrêt en cours » (entre « Actif » et « Arrêté »). Lorsqu’un parcours se trouve dans un état intermédiaire, il est en lecture seule.
+Vous pouvez filtrer les parcours en fonction de leurs [statut](#journey-statuses), [type](#journey-types), [version](#journey-versions) et [balises](../start/search-filter-categorize.md#tags) attribuées à partir des **[!UICONTROL filtres de statut et de version]**.
 
 Utilisez les **[!UICONTROL filtres de création]** pour filtrer les parcours en fonction de leur date de création ou de la personne qui les a créés.
 
@@ -77,6 +61,25 @@ Dans les volets de configuration des événements, des sources de données et de
 
 ![](assets/journey3bis.png)
 
+
+## types de parcours {#journey-types}
+
+Les différents types sont les suivants : **[!UICONTROL Événement unitaire]**, **[!UICONTROL Qualification de l’audience]**, **[!UICONTROL Lecture d’audience]**, **[!UICONTROL Événement métier]**.
+
+## Statuts des parcours {#journey-statuses}
+
+Le statut du parcours peut être :
+
+* **Fermé** : le parcours a été fermé à l’aide du bouton **Fermer aux nouvelles entrées**. Il n’est alors plus accessible aux nouveaux individus. En revanche, les personnes qui ont déjà intégré le parcours peuvent le terminer normalement.
+* **Brouillon** : le parcours en est à sa première étape. Il n’a pas encore été publié.
+* **Brouillon (test)** : le mode test a été activé à l’aide du bouton **Mode test**.
+* **Terminé** : le parcours passe automatiquement à ce statut après la [temporisation globale](journey-properties.md#global_timeout) de 91 jours. Les profils de clientes et clients qui ont déjà intégré le parcours le terminent normalement. Les nouveaux profils ne peuvent plus rejoindre le parcours.
+* **Actif** : le parcours a été publié à l’aide du bouton **Publier**.
+* **Arrêté** : le parcours a été désactivé à l’aide du bouton **Arrêter**. Toutes les personnes quittent instantanément le parcours.
+
+>[!NOTE]
+>
+>Le cycle de vie de création de parcours comprend également un ensemble de statuts intermédiaires qui ne sont pas disponibles pour le filtrage : « Publication » (entre « Brouillon » et « Actif »), « Activer le mode test » ou « Désactiver le mode test » (entre « Brouillon » et « Brouillon (test) ») et « Arrêt en cours » (entre « Actif » et « Arrêté »). Lorsqu’un parcours se trouve dans un état intermédiaire, il est en lecture seule.
 
 ## Versions de parcours {#journey-versions}
 
@@ -124,4 +127,3 @@ Pour ce faire, suivez les étapes ci-après :
    ![](assets/duplicate-jo2.png)
 
 1. Le nouveau parcours est créé et disponible dans la liste des parcours.
-
