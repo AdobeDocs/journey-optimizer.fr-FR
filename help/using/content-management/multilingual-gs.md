@@ -9,10 +9,10 @@ role: User
 level: Beginner
 keywords: commencer, démarrer, contenu, expérience
 exl-id: b57683b4-6dcc-4f6c-a8b2-4ba371d78d21
-source-git-commit: c858d16ec520418148fb28ad2ecec0d3a6377ba9
+source-git-commit: 766530a2f443a2795d61161c9d08de299a5363d6
 workflow-type: tm+mt
-source-wordcount: '487'
-ht-degree: 100%
+source-wordcount: '604'
+ht-degree: 88%
 
 ---
 
@@ -22,11 +22,6 @@ ht-degree: 100%
 >id="ajo_multi_translation_homepage"
 >title="Traductions"
 >abstract="La fonctionnalité multilingue vous permet de créer facilement du contenu dans plusieurs langues au sein d’une campagne ou d’un parcours. La page Traductions vous permet de configurer des projets, de sélectionner des fournisseurs de traduction ou de gérer des dictionnaires spécifiques aux paramètres régionaux."
-
->[!IMPORTANT]
->
->Pour commencer à créer du contenu multilingue, les utilisateurs et les utilisatrices doivent obtenir l’autorisation **[!UICONTROL Gérer les paramètres de langue]**.
->Pour un flux automatisé, les utilisateurs et les utilisatrices auront également besoin d’autorisations liées aux fonctionnalités du **[!UICONTROL service de traduction]**. [En savoir plus sur les autorisations](../administration/permissions.md)
 
 La fonctionnalité multilingue vous permet de créer facilement du contenu dans plusieurs langues au sein d’une campagne ou d’un parcours. Grâce à cette fonctionnalité, vous pouvez passer d’une langue à une autre lors de la modification de votre campagne, ce qui optimise l’ensemble du processus de modification et améliore votre capacité à gérer efficacement du contenu multilingue.
 
@@ -55,23 +50,49 @@ Votre utilisation des services de traduction d’un fournisseur de traduction se
 
 Pour tout problème ou toute demande d’aide relative à vos traductions, contactez le fournisseur de traduction concerné.
 
-Pour utiliser la fonctionnalité Traduction dans Journey Optimizer, vous devez affecter l’API au rôle correspondant. [En savoir plus](https://experienceleague.adobe.com/fr/docs/experience-platform/landing/platform-apis/api-authentication#assign-api-to-a-role)
+Pour le contenu multilingue, les paramètres suivants doivent être définis :
 
-Si vous ne parvenez pas à accéder à la page Traduction, vous devez activer la fonctionnalité Traduction et obtenir les autorisations associées au **[!UICONTROL service de traduction]**. [En savoir plus](../administration/ootb-permissions.md)
+* Pour utiliser la fonctionnalité Traduction dans Journey Optimizer, vous devez affecter l’API au rôle correspondant. [En savoir plus](https://experienceleague.adobe.com/fr/docs/experience-platform/landing/platform-apis/api-authentication#assign-api-to-a-role)
+
+* Pour commencer à créer du contenu multilingue, les utilisateurs doivent disposer de l’autorisation **[!UICONTROL Gérer les paramètres de langue]**. Pour un flux automatisé, les utilisateurs devront également disposer d’autorisations liées aux fonctionnalités du **[!UICONTROL Service de traduction]**. [En savoir plus sur les autorisations](../administration/permissions.md)
+
++++ Découvrez comment attribuer des autorisations liées multilingues
+
+   1. Dans le produit **Autorisations**, accédez à l’onglet **Rôles** et sélectionnez le **Rôle** de votre choix.
+
+   1. Cliquez sur **Modifier** pour modifier les autorisations.
+
+   1. Ajoutez la ressource **Service de traduction**, puis sélectionnez les autorisations multilingues appropriées dans le menu déroulant.
+
+      ![](assets/multilingual-permission.png){zoomable="yes"}
+
+   1. Cliquez sur **Enregistrer** pour appliquer vos modifications.
+
+      Les autorisations des personnes déjà affectées à ce rôle seront automatiquement mises à jour.
+
+   1. Pour attribuer ce rôle à de nouvelles personnes, accédez à l’onglet **Utilisateurs et utilisatrices** du tableau de bord **Rôles** et cliquez sur **Ajouter un utilisateur ou une utilisatrice**.
+
+   1. Saisissez le nom de la personne, son adresse e-mail ou choisissez dans la liste, puis cliquez sur **Enregistrer**.
+
+   1. Si le profil de l’utilisateur ou de l’utilisatrice n’a pas été créé auparavant, consultez cette [documentation](https://experienceleague.adobe.com/fr/docs/experience-platform/access-control/abac/permissions-ui/users).
+
++++
+
+* Si vous ne parvenez pas à accéder à la page Traduction, vous devez activer la fonctionnalité Traduction et obtenir les autorisations associées au **[!UICONTROL service de traduction]**. [En savoir plus](../administration/ootb-permissions.md)
 
 +++ Découvrez comment activer la fonctionnalité « Traduction ».
 
-1. Si la page d’erreur suivante s’affiche, cela indique que la fonctionnalité **[!UICONTROL Traduction]** n’a pas encore été activée. Contactez votre administrateur ou administratrice d’organisation et de sandbox pour demander l’accès.
+   1. Si la page d’erreur suivante s’affiche, cela indique que la fonctionnalité **[!UICONTROL Traduction]** n’a pas encore été activée. Contactez votre organisation et l’administrateur Sandbox pour demander l’accès.
 
-   ![](assets/multi-troubleshoot.png)
+  ![](assets/multi-troubleshoot.png)
 
-1. Votre administrateur ou administratrice devra accéder au menu **[!UICONTROL Traduction]** dans la barre latérale gauche.
+   1. Votre administrateur ou administratrice devra accéder au menu **[!UICONTROL Traduction]** dans la barre latérale gauche.
 
-   Le système activera automatiquement la fonctionnalité « Traduction ».
+      Le système activera automatiquement la fonctionnalité « Traduction ».
 
-1. Une fois la fonctionnalité activée, vous pourrez accéder à la page **[!UICONTROL Traduction]**, ainsi qu’aux onglets **[!UICONTROL Projets]**, **[!UICONTROL Fournisseurs]** et **[!UICONTROL Paramètre régional]**.
+   1. Une fois la fonctionnalité activée, vous pourrez accéder à la page **[!UICONTROL Traduction]**, ainsi qu’aux onglets **[!UICONTROL Projets]**, **[!UICONTROL Fournisseurs]** et **[!UICONTROL Paramètre régional]**.
 
-1. Si cette procédure a échoué, la même page d’erreur s’affiche toujours. Dans ce cas, contactez votre représentant ou représentante Adobe pour obtenir de l’aide.
+   1. Si cette procédure a échoué, la même page d’erreur s’affiche toujours. Dans ce cas, contactez votre représentant ou représentante Adobe pour obtenir de l’aide.
 
 +++
 
