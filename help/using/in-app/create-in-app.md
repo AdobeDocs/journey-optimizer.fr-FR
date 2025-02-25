@@ -7,7 +7,7 @@ role: User
 level: Beginner
 keywords: in-app, message, création, commencer
 exl-id: b3b79fe2-7db3-490d-9c3d-87267aa55eea
-source-git-commit: 9bfa902ba9fa62f6ca6148be205322121964c477
+source-git-commit: da27bb78de305c0d80737aaf7423cd62962732da
 workflow-type: tm+mt
 source-wordcount: '2009'
 ht-degree: 100%
@@ -240,7 +240,7 @@ Pour ajouter un message in-app dans une campagne, procédez comme suit :
 
   +++Voir la vidéo
 
-  >[!VIDEO](https://video.tv.adobe.com/v/3419898)
+  >[!VIDEO](https://video.tv.adobe.com/v/3419898/?learn=on&autoplay=true)
 
 +++
 
