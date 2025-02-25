@@ -8,10 +8,10 @@ role: User
 level: Beginner, Intermediate
 keywords: parcours, découverte, commencer
 exl-id: 73cfd48b-72e6-4b72-bbdf-700a32a34bda
-source-git-commit: 99099cb6b705cb5a7b97652154c42f0565fdfdb9
+source-git-commit: e9964494fa38a9e693eeb6c8bdfd6dd3d21262e0
 workflow-type: tm+mt
-source-wordcount: '478'
-ht-degree: 33%
+source-wordcount: '411'
+ht-degree: 38%
 
 ---
 
@@ -19,10 +19,6 @@ ht-degree: 33%
 # Prise en main des parcours{#jo-general-principle}
 
 Le concepteur de parcours Journey Optimizer fournit tout ce dont les marketeurs et les spécialistes du parcours ont besoin pour orchestrer des parcours 1:1 à plusieurs étapes sur plusieurs canaux. Vous y trouverez une zone de travail intuitive par glisser-déposer pour orchestrer chaque étape du parcours, définir l’audience cible et inclure les messages, les offres et le contenu sur les canaux que les membres de l’audience cible verront en fonction du comportement, des données contextuelles et des événements métier.
-
-Nous commençons par définir l’action ou l’événement qui lance le parcours client, puis les points de contact où les actions du client, les événements,
-ou les données contextuelles les guideront en toute simplicité vers leur prochaine meilleure étape. Ce processus commence par la définition de l’action ou de l’événement qui lance l’
-parcours, suivi de la définition des points de contact où les actions du client, les événements ou les données contextuelles le guident en toute transparence vers la meilleure étape suivante.
 
 Utilisez [!DNL Journey Optimizer] pour créer des cas d’utilisation d’orchestration en temps réel à l’aide de données contextuelles stockées dans des événements ou des sources de données. Vous pouvez concevoir des scénarios avancés à plusieurs étapes avec les fonctionnalités suivantes :
 
@@ -33,10 +29,6 @@ Utilisez [!DNL Journey Optimizer] pour créer des cas d’utilisation d’orches
 * Utilisez les **actions intégrées** pour envoyer des messages conçus dans [!DNL Journey Optimizer] ou créez des **actions personnalisées** si vous utilisez un système tiers pour envoyer vos messages.
 
 * Avec le **concepteur de parcours**, créez vos cas d’utilisation à plusieurs étapes : en toute facilité, faites glisser et déposez un événement d’entrée ou une activité de lecture d’audience, ajoutez des conditions et envoyez des messages personnalisés.
-
->[!NOTE]
->
->Les mécanismes de sécurisation et limitations des parcours sont détaillés sur [cette page](../start/guardrails.md).
 
 Découvrez comment créer et concevoir votre premier parcours dans [cette page](journey-gs.md).
 
@@ -53,6 +45,10 @@ Découvrez comment créer des parcours dans les cas d’utilisation complets sui
 * [Envoyer un message aux abonnés](message-to-subscribers-uc.md)
 * [Transmettre des collections de manière dynamique à l’aide d’actions personnalisées](collections.md)
 * [Limiter le débit avec des sources de données externes et des actions personnalisées](limit-throughput.md)
+
+>[!NOTE]
+>
+>Les mécanismes de sécurisation et limitations des parcours sont détaillés sur [cette page](../start/guardrails.md).
 
 ## Vidéo pratique {#video}
 
