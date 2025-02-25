@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: parcours, premier, commencer, démarrage rapide, audience, événement, action
 exl-id: d940191e-8f37-4956-8482-d2df0c4274aa
-source-git-commit: d3ec39dc08b23f315914be57a617c921903fead8
+source-git-commit: 59bdddbf959505140be7a070dafe3e67aaae691b
 workflow-type: tm+mt
-source-wordcount: '765'
-ht-degree: 64%
+source-wordcount: '761'
+ht-degree: 65%
 
 ---
 
@@ -112,4 +112,6 @@ Une fois publié, vous pouvez surveiller votre parcours à l’aide des outils d
 
 En savoir plus sur les rapports de parcours dans cette [section](../reports/live-report.md).
 
-Notez que vous pouvez dupliquer un parcours existant ou créer une nouvelle version d’un parcours. Découvrez comment dans [cette page](journey-ui.md)
+>[!NOTE]
+>
+>Si vous devez apporter des modifications à un parcours **actif**, [créez une nouvelle version](journey-ui.md#journey-versions) de votre parcours.

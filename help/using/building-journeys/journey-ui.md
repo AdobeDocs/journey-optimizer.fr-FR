@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: parcours, premier, commencer, démarrage rapide, audience, événement, action
 exl-id: 770bdbf2-560d-4127-bdb9-1f82495a566f
-source-git-commit: 0f09de039d9d9555327413b2d65dda295e971bde
+source-git-commit: 59bdddbf959505140be7a070dafe3e67aaae691b
 workflow-type: tm+mt
-source-wordcount: '950'
-ht-degree: 88%
+source-wordcount: '986'
+ht-degree: 83%
 
 ---
 
@@ -79,7 +79,10 @@ Le statut du parcours peut être :
 
 >[!NOTE]
 >
->Le cycle de vie de création de parcours comprend également un ensemble de statuts intermédiaires qui ne sont pas disponibles pour le filtrage : « Publication » (entre « Brouillon » et « Actif »), « Activer le mode test » ou « Désactiver le mode test » (entre « Brouillon » et « Brouillon (test) ») et « Arrêt en cours » (entre « Actif » et « Arrêté »). Lorsqu’un parcours se trouve dans un état intermédiaire, il est en lecture seule.
+>* Le cycle de vie de création de parcours comprend également un ensemble de statuts intermédiaires qui ne sont pas disponibles pour le filtrage : « Publication » (entre « Brouillon » et « Actif »), « Activer le mode test » ou « Désactiver le mode test » (entre « Brouillon » et « Brouillon (test) ») et « Arrêt en cours » (entre « Actif » et « Arrêté »). Lorsqu’un parcours se trouve dans un état intermédiaire, il est en lecture seule.
+>
+>* Si vous devez apporter des modifications à un parcours **actif**, [créez une nouvelle version](#journey-versions) de votre parcours.
+
 
 ## Versions de parcours {#journey-versions}
 
@@ -91,7 +94,9 @@ Dans la liste des parcours, toutes les versions de parcours sont accompagnées d
 >
 >Dans la plupart des cas, un profil ne peut pas être présent plusieurs fois dans le même parcours, en même temps. Si la nouvelle entrée est activée, un profil peut rejoindre à nouveau un parcours, mais ne peut pas le faire tant qu’il n’a pas complètement quitté cette instance précédente du parcours. [En savoir plus](end-journey.md).
 
-Si vous devez apporter des modifications à un parcours actif, vous devez en créer une nouvelle version.
+### Création d’une nouvelle version d’un parcours {#journey-create-new-version}
+
+Si vous devez apporter des modifications à un parcours actif, créez une nouvelle version de votre parcours. Pour créer une nouvelle version d’un parcours existant, procédez comme suit :
 
 1. Ouvrez la dernière version de votre parcours actif, puis cliquez sur **[!UICONTROL Créer une version]**, puis confirmez.
 
