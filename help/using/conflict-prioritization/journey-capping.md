@@ -5,7 +5,7 @@ role: User
 level: Beginner
 badge: label="Disponibilité limitée"
 exl-id: 4c0ee178-81fb-41ae-b7f5-22da995e6fc6
-source-git-commit: 6e2a2505f1ffb7ff00f5e24763152b759073869d
+source-git-commit: 53d319454d47260c44a457ed547a4f3c6b33592c
 workflow-type: tm+mt
 source-wordcount: '920'
 ht-degree: 91%
@@ -120,7 +120,7 @@ Pour appliquer une règle de limitation à un parcours, accédez au parcours et 
 
 >[!IMPORTANT]
 >
->Si un parcours est activé immédiatement, cela peut prendre jusqu’à 15 minutes pour que le système puisse commencer à supprimer la clientèle. Vous pouvez planifier votre parcours pour qu’il commence au moins 15 minutes dans le futur afin d’éviter cette éventualité.
+>Si un parcours est activé immédiatement, cela peut prendre jusqu’à 20 minutes pour que le système puisse commencer à supprimer la clientèle. Vous pouvez planifier votre parcours pour qu’il commence au moins 20 minutes dans le futur afin d’éviter cette éventualité.
 
 Une fois le parcours actif, vous pouvez vérifier dans le rapport de parcours si l’ensemble de règles a entraîné une exclusion du parcours, dans le tableau **[!UICONTROL Exclusions de Parcours]**. [Découvrez comment utiliser les rapports de parcours ](../reports/journey-global-report-cja.md)
 
