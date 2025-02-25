@@ -5,10 +5,10 @@ user-guide-title: Guide de Journey Optimizer
 user-guide-description: Utilisez Journey Optimizer pour créer et proposer aux clients des expériences connectées, contextuelles et personnalisées
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 9b66f4871d8b539bf0201b2974590672205a3243
+source-git-commit: 99099cb6b705cb5a7b97652154c42f0565fdfdb9
 workflow-type: tm+mt
-source-wordcount: '2191'
-ht-degree: 96%
+source-wordcount: '2196'
+ht-degree: 97%
 
 ---
 
@@ -28,7 +28,7 @@ ht-degree: 96%
 + Prise en main{#get-started}
    + [Qu’est-ce que Journey Optimizer ?](using/start/get-started.md)
    + Guides de démarrage rapide{#quick-start}
-      + [Présentation](using/start/quick-start.md)
+      + [Vue d’ensemble](using/start/quick-start.md)
       + [Prise en main en tant que spécialiste marketing](using/start/path/marketer.md)
       + [Prise en main en tant qu’ingénieur de données](using/start/path/data-engineer.md)
       + [Prise en main en tant qu’administrateur](using/start/path/administrator.md)
@@ -42,6 +42,7 @@ ht-degree: 96%
    + [Bonnes pratiques](using/start/best-practices.md)
 + Parcours {#orchestrate-journeys}
    + [Prise en main des parcours](using/building-journeys/journey.md)
+   + [Parcourir et filtrer vos parcours](using/building-journeys/journey-ui.md)
    + Création d’un parcours{#create-journey}
       + [Créer votre premier parcours](using/building-journeys/journey-gs.md)
       + [Définir les propriétés de votre parcours](using/building-journeys/journey-properties.md)
@@ -221,10 +222,10 @@ ht-degree: 96%
       + [Gérer les désinscriptions aux e-mails](using/email/email-opt-out.md)
       + Configurer le canal e-mail {#configure-email}
          + [Prise en main de la configuration du canal e-mail](using/email/get-started-email-config.md)
-         + [Définition des paramètres de configuration du canal e-mail](using/email/email-settings.md)
+         + [Définir les paramètres de configuration du canal e-mail](using/email/email-settings.md)
          + [Activer le désabonnement de la liste](using/email/list-unsubscribe.md)
          + [Paramètres d’en-tête](using/email/header-parameters.md)
-         + [Tracking des URL](using/email/url-tracking.md)
+         + [Tracking d’URL](using/email/url-tracking.md)
          + [Personnaliser la configuration du canal e-mail](using/email/surface-personalization.md)
    + Canal in-app{#in-app}
       + [Prise en main du canal in-app](using/in-app/get-started-in-app.md)
@@ -374,26 +375,26 @@ ht-degree: 96%
 + Audiences, profils et identité{#audiences-profiles-identities}
    + Audiences {#audiences}
       + [Commencer avec les audiences](using/audience/about-audiences.md)
-      + Création d&#39;audiences {#create}
+      + Créer des audiences {#create}
          + [Définitions de segment](using/audience/creating-a-segment-definition.md)
-         + [Composition de l’audience](using/audience/get-started-audience-orchestration.md)
+         + [Composition d’audiences](using/audience/get-started-audience-orchestration.md)
          + [Chargement personnalisé](using/audience/custom-upload.md)
          + [Composition d’audiences fédérées](using/audience/federated-audience-composition.md)
       + [Activation de l’audience dans les campagnes et les parcours](using/audience/target-audiences.md)
-      + [Utilisation des attributs d’enrichissement](using/audience/enrichment-attributes.md)
+      + [Tirer profit des attributs d’enrichissement](using/audience/enrichment-attributes.md)
    + Profils{#profiles}
       + [Prise en main des profils](using/audience/get-started-profiles.md)
       + [Créer des profils de test](using/audience/creating-test-profiles.md)
       + [Utiliser des attributs calculés](using/audience/computed-attributes.md)
    + [Identités](using/audience/get-started-identity.md)
    + [Utilisation des licences](using/audience/license-usage.md)
-+ Intégrations {#assets-images}
-   + [Intégrations à d’autres solutions](using/integrations/ajo-integrations.md)
++ Intégrations{#assets-images}
+   + [Intégrations avec d’autres solutions](using/integrations/ajo-integrations.md)
    + [Utiliser Experience Manager Assets](using/integrations/assets.md)
    + [Utiliser Adobe Stock](using/integrations/stock.md)
-   + [Utilisation de modèles Experience Manager](using/integrations/aem-templates.md)
-   + [Utilisation des fragments de contenu Experience Manager](using/integrations/aem-fragments.md)
-   + [Utilisation de Dynamic Media](using/integrations/aem-dynamic.md)
+   + [Utiliser les modèles Experience Manager](using/integrations/aem-templates.md)
+   + [Utiliser les fragments de contenu Experience Manager](using/integrations/aem-fragments.md)
+   + [Utiliser Dynamic Media](using/integrations/aem-dynamic.md)
 + Suivre et surveiller {#reporting}
    + Rapport dynamique {#live-report}
       + [Prise en main du rapport dynamique](using/reports/live-report.md)
@@ -483,7 +484,7 @@ ht-degree: 96%
       + [Créer des stratégies de sélection](using/experience-decisioning/selection-strategies.md)
       + [Créer des politiques de décision](using/experience-decisioning/create-decision.md)
       + [Rapports sur la prise de décision](using/experience-decisioning/cja-reporting.md)
-      + [Cas d’utilisation de la prise de décision](using/experience-decisioning/experience-decisioning-uc.md)
+      + [Cas d’utilisation de prise de décision](using/experience-decisioning/experience-decisioning-uc.md)
    + Gestion des décisions {#offer-decisioning}
       + Prise en main de la gestion des décisions {#get-started-decision}
          + [À propos de la gestion des décisions](using/offers/get-started/starting-offer-decisioning.md)

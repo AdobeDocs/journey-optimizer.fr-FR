@@ -1,0 +1,127 @@
+---
+solution: Journey Optimizer
+product: journey optimizer
+title: Parcourir et filtrer vos parcours
+description: Parcourez et filtrez vos parcours dans Adobe Journey Optimizer
+feature: Journeys, Get Started
+topic: Content Management
+role: User
+level: Intermediate
+keywords: parcours, premier, commencer, démarrage rapide, audience, événement, action
+source-git-commit: 99099cb6b705cb5a7b97652154c42f0565fdfdb9
+workflow-type: tm+mt
+source-wordcount: '948'
+ht-degree: 94%
+
+---
+
+# Parcourir et filtrer vos parcours {#browse-journeys}
+
+## Accéder aux parcours {#journey-access}
+
+### Tableau de bord du parcours {#dashboard-jo}
+
+Dans la section du menu GESTION DES PARCOURS, cliquez sur **[!UICONTROL Parcours]**. Deux onglets sont disponibles : **[!UICONTROL Aperçu]** et **[!UICONTROL Parcourir]**.
+
+* L’onglet **[!UICONTROL Aperçu]** affiche un tableau de bord avec les mesures clés liées à vos parcours :
+
+   * **Profils traités** : nombre total de profils traités au cours des dernières 24 heures
+   * **Parcours dynamiques** : nombre total de parcours dynamiques avec trafic au cours des dernières 24 heures. Les parcours dynamiques incluent les **parcours unitaires** (basés sur un événement) et les **parcours par lots** (lecture d’audience).
+   * **Taux d’erreur** : ratio de tous les profils en erreur par rapport au nombre total de profils entrés au cours des dernières 24 heures.
+   * **Taux de rejet** : ratio de tous les profils rejetés par rapport au nombre total de profils entrés au cours des dernières 24 heures. Un profil rejeté représente une personne qui ne répond pas aux conditions d’entrée du parcours, par exemple en raison d’un espace de noms incorrect ou des règles de rentrée.
+
+  >[!NOTE]
+  >
+  >Ce tableau de bord prend en compte les parcours avec trafic au cours des dernières 24 heures. Seuls les parcours auxquels vous avez accès s’affichent. Les mesures sont actualisées toutes les 30 minutes et uniquement lorsque de nouvelles données sont disponibles.
+
+  ![](assets/journeys-dashboard.png)
+
+* L’onglet **[!UICONTROL Parcourir]** affiche la liste des parcours existants. Vous pouvez rechercher des parcours, utiliser des filtres et effectuer des actions de base sur chaque élément. Vous pouvez par exemple dupliquer ou supprimer un élément.
+
+  ![](assets/journeys-browse.png)
+
+### Filtrer vos parcours {#filter}
+
+Dans la liste des parcours, vous pouvez utiliser différents filtres pour affiner la liste des parcours afin d’en améliorer la lisibilité.
+
+![](assets/filter-journeys.png)
+
+Voici les différentes opérations de filtrage que vous pouvez effectuer :
+
+Filtrez les parcours en fonction de leur statut, type, version et balises attribuées depuis les **[!UICONTROL Filtres de statut et de version]**.
+
+Les différents types sont les suivants : **[!UICONTROL Événement unitaire]**, **[!UICONTROL Qualification de l’audience]**, **[!UICONTROL Lecture d’audience]**, **[!UICONTROL Événement métier]**.
+
+Le statut peut être :
+
+* **Fermé** : le parcours a été fermé à l’aide du bouton **Fermer aux nouvelles entrées**. Il n’est alors plus accessible aux nouveaux individus. En revanche, les personnes qui ont déjà intégré le parcours peuvent le terminer normalement.
+* **Brouillon** : le parcours en est à sa première étape. Il n’a pas encore été publié.
+* **Brouillon (test)** : le mode test a été activé à l’aide du bouton **Mode test**.
+* **Terminé** : le parcours passe automatiquement à ce statut après la [temporisation globale](journey-properties.md#global_timeout) de 91 jours. Les profils de clientes et clients qui ont déjà intégré le parcours le terminent normalement. Les nouveaux profils ne peuvent plus rejoindre le parcours.
+* **Actif** : le parcours a été publié à l’aide du bouton **Publier**.
+* **Arrêté** : le parcours a été désactivé à l’aide du bouton **Arrêter**. Toutes les personnes quittent instantanément le parcours.
+
+>[!NOTE]
+>
+>Le cycle de vie de création de parcours comprend également un ensemble de statuts intermédiaires qui ne sont pas disponibles pour le filtrage : « Publication » (entre « Brouillon » et « Actif »), « Activer le mode test » ou « Désactiver le mode test » (entre « Brouillon » et « Brouillon (test) ») et « Arrêt en cours » (entre « Actif » et « Arrêté »). Lorsqu’un parcours se trouve dans un état intermédiaire, il est en lecture seule.
+
+Utilisez les **[!UICONTROL filtres de création]** pour filtrer les parcours en fonction de leur date de création ou de la personne qui les a créés.
+
+Affichez les parcours qui utilisent un événement, un groupe de champs ou une action spécifique à l’aide des **[!UICONTROL filtres d’activité]** et des **[!UICONTROL filtres de données]**.
+
+Utilisez les **[!UICONTROL filtres de publication]** pour sélectionner une date de publication ou une personne. Vous pouvez choisir, par exemple, d’afficher les dernières versions des parcours actifs publiées la veille.
+
+Pour filtrer les parcours selon une période spécifique, sélectionnez **[!UICONTROL Personnalisé]** dans la liste déroulante **[!UICONTROL Publié]**.
+
+Dans les volets de configuration des événements, des sources de données et des actions, le champ **[!UICONTROL Utilisé dans]** affiche également le nombre de parcours qui utilisent cet événement, ce groupe de champs ou cette action spécifique. Vous pouvez cliquer sur le bouton **[!UICONTROL Afficher les parcours]** pour faire apparaître la liste des parcours correspondants.
+
+![](assets/journey3bis.png)
+
+
+## Versions de parcours {#journey-versions}
+
+Dans la liste des parcours, toutes les versions de parcours sont accompagnées d&#39;un numéro. Lorsque vous recherchez un parcours, les versions les plus récentes apparaissent en haut de la liste la première fois que vous ouvrez l&#39;application. Vous pouvez ensuite définir l&#39;ordre de tri souhaité ; l&#39;application le conservera en tant que préférence utilisateur. La version du parcours est également affichée en haut de l&#39;interface d&#39;édition des parcours, au-dessus de la zone de travail.
+
+![](assets/journeyversions1.png)
+
+>[!NOTE]
+>
+>Dans la plupart des cas, un profil ne peut pas être présent plusieurs fois dans le même parcours, en même temps. Si la nouvelle entrée est activée, un profil peut rejoindre à nouveau un parcours, mais ne peut pas le faire tant qu’il n’a pas complètement quitté cette instance précédente du parcours. [En savoir plus](end-journey.md).
+
+Si vous devez apporter des modifications à un parcours actif, vous devez en créer une nouvelle version.
+
+1. Ouvrez la dernière version de votre parcours actif, puis cliquez sur **[!UICONTROL Créer une version]**, puis confirmez.
+
+   ![](assets/journeyversions2.png)
+
+   >[!NOTE]
+   >
+   >Vous ne pouvez créer une version qu&#39;à partir de la dernière version d&#39;un parcours.
+
+1. Apportez vos modifications, cliquez sur **[!UICONTROL Publier]** et confirmez.
+
+Dès la publication du parcours, les personnes vont accéder à la dernière version du parcours. Les clients qui ont déjà accédé à une version antérieure y restent jusqu&#39;à la fin du parcours. Si les personnes entrent à nouveau dans le même parcours par la suite, elles accéderont à la dernière version.
+
+Les versions de parcours peuvent être arrêtées individuellement. Toutes les versions de parcours portent le même nom.
+
+Lorsque vous publiez une nouvelle version d&#39;un parcours, la version précédente se termine automatiquement et passe au statut **Fermé**. Aucune entrée dans le parcours ne peut se produire. Même si vous arrêtez la dernière version, la version précédente reste fermée.
+
+
+
+## Dupliquer un parcours {#duplicate-a-journey}
+
+Vous pouvez dupliquer un parcours existant à partir de l’onglet **Parcourir**. Tous les objets et paramètres sont dupliqués dans la copie de parcours.
+
+Pour ce faire, suivez les étapes ci-après :
+
+1. Accédez au parcours à copier, puis cliquez sur l’icône **Autres actions** (les points de suspension en regard du nom du parcours).
+1. Sélectionnez **Dupliquer**.
+
+   ![Duplication d’un parcours.](assets/duplicate-jo.png)
+
+1. Saisissez le nom du parcours et confirmez. Vous pouvez également modifier le nom dans l’écran des propriétés du parcours. Par défaut, le nom est défini comme suit : `[JOURNEY-NAME]_copy`
+
+   ![](assets/duplicate-jo2.png)
+
+1. Le nouveau parcours est créé et disponible dans la liste des parcours.
+

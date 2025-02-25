@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 9b66f4871d8b539bf0201b2974590672205a3243
+source-git-commit: 99099cb6b705cb5a7b97652154c42f0565fdfdb9
 workflow-type: tm+mt
-source-wordcount: '6117'
+source-wordcount: '6152'
 ht-degree: 97%
 
 ---
@@ -22,6 +22,8 @@ Cette page répertorie toutes les mises à jour récentes de la documentation de
 
 ## Février 2025 {#feb-2025}
 
+* Les étapes de création de vos premiers parcours ont été détaillées et des liens vers la section de documentation ont été ajoutés. [En savoir plus](../building-journeys/journey-gs.md)
+* Une nouvelle page est désormais disponible pour détailler les parcours de l’interface utilisateur de gestion des parcours. [En savoir plus](../building-journeys/journey-ui.md)
 * La documentation relative à l’**[!UICONTROL optimisation de l’heure d’envoi]** et ses questions fréquentes associées ont été mises à jour, enrichies et déplacées vers une nouvelle page dédiée. [En savoir plus](../building-journeys/send-time-optimization.md)
 * De nouveaux mécanismes de sécurisation ont été ajoutés pour les événements de parcours. [En savoir plus](../start/guardrails.md#events-g)
 * La page des actions de canal intégrée a été réorganisée. [En savoir plus](../building-journeys/journeys-message.md)

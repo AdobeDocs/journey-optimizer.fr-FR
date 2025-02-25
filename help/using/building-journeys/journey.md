@@ -8,19 +8,23 @@ role: User
 level: Beginner, Intermediate
 keywords: parcours, découverte, commencer
 exl-id: 73cfd48b-72e6-4b72-bbdf-700a32a34bda
-source-git-commit: 7f21098d5ae157f1c0d3de3aa584564c6f73310a
+source-git-commit: 99099cb6b705cb5a7b97652154c42f0565fdfdb9
 workflow-type: tm+mt
-source-wordcount: '610'
-ht-degree: 100%
+source-wordcount: '478'
+ht-degree: 33%
 
 ---
 
 
 # Prise en main des parcours{#jo-general-principle}
 
-Utilisez [!DNL Journey Optimizer] pour créer des cas d’utilisation d’orchestration en temps réel à l’aide de données contextuelles stockées dans des événements ou des sources de données.
+Le concepteur de parcours Journey Optimizer fournit tout ce dont les marketeurs et les spécialistes du parcours ont besoin pour orchestrer des parcours 1:1 à plusieurs étapes sur plusieurs canaux. Vous y trouverez une zone de travail intuitive par glisser-déposer pour orchestrer chaque étape du parcours, définir l’audience cible et inclure les messages, les offres et le contenu sur les canaux que les membres de l’audience cible verront en fonction du comportement, des données contextuelles et des événements métier.
 
-Concevez des scénarios avancés à plusieurs étapes avec les fonctionnalités suivantes :
+Nous commençons par définir l’action ou l’événement qui lance le parcours client, puis les points de contact où les actions du client, les événements,
+ou les données contextuelles les guideront en toute simplicité vers leur prochaine meilleure étape. Ce processus commence par la définition de l’action ou de l’événement qui lance l’
+parcours, suivi de la définition des points de contact où les actions du client, les événements ou les données contextuelles le guident en toute transparence vers la meilleure étape suivante.
+
+Utilisez [!DNL Journey Optimizer] pour créer des cas d’utilisation d’orchestration en temps réel à l’aide de données contextuelles stockées dans des événements ou des sources de données. Vous pouvez concevoir des scénarios avancés à plusieurs étapes avec les fonctionnalités suivantes :
 
 * Envoyez des **diffusions unitaires** en temps réel déclenchées lors de la réception d’un événement ou **par lots** à l’aide d’audiences Adobe Experience Platform.
 
@@ -34,73 +38,21 @@ Concevez des scénarios avancés à plusieurs étapes avec les fonctionnalités 
 >
 >Les mécanismes de sécurisation et limitations des parcours sont détaillés sur [cette page](../start/guardrails.md).
 
-## Procédure de création d’un parcours{#steps-journey}
-
-Adobe Journey Optimizer vous permet de concevoir et d’orchestrer des parcours personnalisés dans une zone de travail unique. Suivez les étapes principales de création dʼun parcours décrites ci-après :
-
-![](assets/journey-creation-process.png)
-
-➡️ [Découvrir cette fonctionnalité en vidéo](#video)
-
-Adobe Journey Optimizer comprend une zone de travail d’orchestration omnicanal qui permet aux spécialistes du marketing d’harmoniser la portée marketing avec l’engagement client individuel. L’interface utilisateur vous permet de faire glisser facilement des activités de la palette vers la zone de travail pour créer votre parcours.
-
-![](assets/interface-journeys.png)
-
-Découvrez comment commencer et créer votre premier parcours sur [cette page](journey-gs.md).
-
-Le concepteur de parcours omnicanaux dispose d’une interface intuitive par glisser-déposer, qui vous permet de créer des parcours à plusieurs étapes avec des audiences ciblées, des mises à jour basées sur des interactions client ou commerciale en temps réel et des messages omnicanaux.
-
-![](assets/journey38.png)
-
-En savoir plus dans [cette section](using-the-journey-designer.md).
-
-Les ingénieurs de données peuvent consulter [cette section](../configuration/about-data-sources-events-actions.md) pour en savoir plus sur la procédure de configuration des parcours, y compris les sources de données, les événements et les actions.
-
+Découvrez comment créer et concevoir votre premier parcours dans [cette page](journey-gs.md).
 
 ## Cas d’utilisation{#uc-journey}
 
-Découvrez comment créer des parcours dans les cas d’utilisation complets suivants.
+À partir du concepteur de parcours , les marketeurs peuvent envoyer des messages 1:1 déclenchés en temps réel via n’importe quel canal lorsqu’un événement se produit. Par exemple, lorsqu’un client s’abonne à un service, cela peut [déclencher un e-mail de bienvenue](message-to-subscribers-uc.md) l’encourageant à se connecter pour la première fois à l’application et à définir ses préférences. Des actions telles que terminer l’achat, ouvrir l’e-mail et se connecter à l’application peuvent être utilisées pour faire progresser les nouveaux clients sur leurs parcours.
 
-Cas d’utilisation commerciale :
+Le [concepteur de parcours ](using-the-journey-designer.md) fournit des [actions de canal intégrées](journeys-message.md) qui prennent en charge les messages sortants, tels que les e-mails, les notifications push et les SMS/MMS, ainsi que les canaux entrants, notamment les applications mobiles, les sites web et les expériences basées sur du code créées directement dans Journey Optimizer. Vous pouvez également utiliser des systèmes tiers pour envoyer des messages (par e-mail, par texte ou par d’autres canaux). Journey Optimizer inclut des [actions personnalisées](using-custom-actions.md) pour permettre l’intégration de ces systèmes dans les parcours directement à partir du concepteur de parcours.
+
+Découvrez comment créer des parcours dans les cas d’utilisation complets suivants :
 
 * [Envoi de messages multi-canal](journeys-uc.md)
 * [Envoi de messages à l’aide de Campaign v7/v8](ajo-ac.md)
 * [Envoyer un message aux abonnés](message-to-subscribers-uc.md)
-
-Cas d’utilisation technique :
-
 * [Transmettre des collections de manière dynamique à l’aide d’actions personnalisées](collections.md)
 * [Limiter le débit avec des sources de données externes et des actions personnalisées](limit-throughput.md)
-
-## Versions de parcours{#journey-versions}
-
-Dans la liste des parcours, toutes les versions de parcours sont accompagnées d&#39;un numéro. Voir [cette page](../building-journeys/using-the-journey-designer.md).
-
-Lorsque vous recherchez un parcours, les versions les plus récentes apparaissent en haut de la liste la première fois que vous ouvrez l&#39;application. Vous pouvez ensuite définir l&#39;ordre de tri souhaité ; l&#39;application le conservera en tant que préférence utilisateur. La version du parcours est également affichée en haut de l&#39;interface d&#39;édition des parcours, au-dessus de la zone de travail.
-
-![](assets/journeyversions1.png)
-
->[!NOTE]
->
->Dans la plupart des cas, un profil ne peut pas être présent plusieurs fois dans le même parcours, en même temps. Si la nouvelle entrée est activée, un profil peut rejoindre à nouveau un parcours, mais ne peut pas le faire tant qu’il n’a pas complètement quitté cette instance précédente du parcours. [En savoir plus](end-journey.md).
-
-Si vous devez apporter des modifications à un parcours actif, vous devez en créer une nouvelle version.
-
-1. Ouvrez la dernière version de votre parcours actif, puis cliquez sur **[!UICONTROL Créer une version]**, puis confirmez.
-
-   ![](assets/journeyversions2.png)
-
-   >[!NOTE]
-   >
-   >Vous ne pouvez créer une version qu&#39;à partir de la dernière version d&#39;un parcours.
-
-1. Apportez vos modifications, cliquez sur **[!UICONTROL Publier]** et confirmez.
-
-Dès la publication du parcours, les personnes vont accéder à la dernière version du parcours. Les clients qui ont déjà accédé à une version antérieure y restent jusqu&#39;à la fin du parcours. Si les personnes entrent à nouveau dans le même parcours par la suite, elles accéderont à la dernière version.
-
-Les versions de parcours peuvent être arrêtées individuellement. Toutes les versions de parcours portent le même nom.
-
-Lorsque vous publiez une nouvelle version d&#39;un parcours, la version précédente se termine automatiquement et passe au statut **Fermé**. Aucune entrée dans le parcours ne peut se produire. Même si vous arrêtez la dernière version, la version précédente reste fermée.
 
 ## Vidéo pratique {#video}
 

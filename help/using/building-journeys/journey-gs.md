@@ -9,24 +9,42 @@ role: User
 level: Intermediate
 keywords: parcours, premier, commencer, démarrage rapide, audience, événement, action
 exl-id: d940191e-8f37-4956-8482-d2df0c4274aa
-source-git-commit: 18296fe54dcef6620d4f74374848199368f01475
+source-git-commit: 99099cb6b705cb5a7b97652154c42f0565fdfdb9
 workflow-type: tm+mt
-source-wordcount: '1244'
-ht-degree: 100%
+source-wordcount: '716'
+ht-degree: 71%
 
 ---
 
-# Créer votre premier parcours{#jo-quick-start}
+# Créer votre premier parcours {#jo-quick-start}
 
 >[!CONTEXTUALHELP]
 >id="ajo_homepage_card2"
 >title="Créer des parcours"
 >abstract="Utilisez **Adobe Journey Optimizer** pour créer des cas d’utilisation d’orchestration en temps réel à l’aide de données contextuelles stockées dans des événements ou des sources de données."
 
+>[!CONTEXTUALHELP]
+>id="ajo_journey_create"
+>title="Parcours"
+>abstract="Concevoir des parcours clients pour offrir des expériences contextuelles personnalisées. Journey Optimizer vous permet de créer des cas d’utilisation d’orchestration en temps réel avec des données contextuelles stockées dans des événements ou des sources de données. L’onglet **Vue d’ensemble** affiche un tableau de bord avec les mesures clés liées à vos parcours : L’onglet **Parcourir** affiche la liste des parcours existants."
 
-## Conditions préalables{#start-prerequisites}
 
-Pour envoyer des messages avec des parcours, les configurations suivantes sont requises :
+Adobe Journey Optimizer comprend une zone de travail d’orchestration omnicanal qui permet aux spécialistes du marketing d’harmoniser la portée marketing avec l’engagement client individuel. L’interface utilisateur vous permet de faire glisser facilement des activités de la palette vers la zone de travail pour créer votre parcours.
+
+![](assets/journey38.png)
+
+Suivez les étapes principales de création dʼun parcours décrites ci-après :
+
+![](assets/journey-creation-process.png)
+
+➡️ [Découvrir cette fonctionnalité en vidéo](#video)
+
+L’interface utilisateur du parcours est présentée dans [cette page](journey-ui.md).
+
+
+## Conditions préalables {#start-prerequisites}
+
+Pour envoyer des messages avec des parcours, les prérequis suivants sont nécessaires :
 
 1. **Configurer un événement** : si vous souhaitez déclencher vos parcours une fois qu&#39;un événement est reçu, vous devez configurer un événement. Vous devez définir les informations attendues et comment les traiter. Cette étape est effectuée par un **utilisateur technique**. [En savoir plus](../event/about-events.md).
 
@@ -44,123 +62,57 @@ Pour envoyer des messages avec des parcours, les configurations suivantes sont r
 
    ![](assets/custom2.png)
 
-## Accéder aux parcours {#journey-access}
 
->[!CONTEXTUALHELP]
->id="ajo_journey_create"
->title="Parcours"
->abstract="Concevoir des parcours clients pour offrir des expériences contextuelles personnalisées. Journey Optimizer vous permet de créer des cas d’utilisation d’orchestration en temps réel avec des données contextuelles stockées dans des événements ou des sources de données. L’onglet **Vue d’ensemble** affiche un tableau de bord avec les mesures clés liées à vos parcours : L’onglet **Parcourir** affiche la liste des parcours existants."
 
-### Mesures clés et liste des parcours {#access-metrics}
+Les ingénieurs de données peuvent consulter [cette section](../configuration/about-data-sources-events-actions.md) pour en savoir plus sur la procédure de configuration des parcours, y compris les sources de données, les événements et les actions.
 
-Dans la section du menu GESTION DES PARCOURS, cliquez sur **[!UICONTROL Parcours]**. Deux onglets sont disponibles :
-
-**Vue d’ensemble** : cet onglet affiche un tableau de bord avec les mesures clés liées à vos parcours :
-
-* **Profils traités** : nombre total de profils traités au cours des dernières 24 heures
-* **Parcours dynamiques** : nombre total de parcours dynamiques avec trafic au cours des dernières 24 heures. Les parcours dynamiques incluent les **parcours unitaires** (basés sur un événement) et les **parcours par lots** (lecture d’audience).
-* **Taux d’erreur** : ratio de tous les profils en erreur par rapport au nombre total de profils entrés au cours des dernières 24 heures.
-* **Taux de rejet** : ratio de tous les profils rejetés par rapport au nombre total de profils entrés au cours des dernières 24 heures. Un profil rejeté représente une personne qui ne répond pas aux conditions d’entrée du parcours, par exemple en raison d’un espace de noms incorrect ou des règles de rentrée.
 
 >[!NOTE]
 >
->Ce tableau de bord prend en compte les parcours avec trafic au cours des dernières 24 heures. Seuls les parcours auxquels vous avez accès s’affichent. Les mesures sont actualisées toutes les 30 minutes et uniquement lorsque de nouvelles données sont disponibles.
+>Les mécanismes de sécurisation et limitations des parcours sont détaillés sur [cette page](../start/guardrails.md).
 
-![](assets/journeys-dashboard.png)
+## Création d’un parcours à plusieurs étapes {#jo-build}
 
-**Parcourir** : cet onglet affiche la liste des parcours existants. Vous pouvez rechercher des parcours, utiliser des filtres et effectuer des actions de base sur chaque élément. Vous pouvez par exemple dupliquer ou supprimer un élément. Voir à ce sujet [cette section](../start/user-interface.md#filter-lists).
+Pour créer un parcours à plusieurs étapes, procédez comme suit :
 
-![](assets/journeys-browse.png)
+1. Dans la section du menu Gestion des PARCOURS, cliquez sur **[!UICONTROL Parcours]**.
 
-### Filtrer les parcours {#filter}
+1. Cliquez sur le bouton **[!UICONTROL Créer un Parcours]** pour créer un parcours.
 
-Dans la liste des parcours, vous pouvez utiliser différents filtres pour affiner la liste des parcours afin d’en améliorer la lisibilité.
-
-![](assets/filter-journeys.png)
-
-Voici les différentes opérations de filtrage que vous pouvez effectuer :
-
-Filtrez les parcours en fonction de leur statut, type, version et balises attribuées depuis les **[!UICONTROL Filtres de statut et de version]**.
-
-Les différents types sont les suivants : **[!UICONTROL Événement unitaire]**, **[!UICONTROL Qualification de l’audience]**, **[!UICONTROL Lecture d’audience]**, **[!UICONTROL Événement métier]**.
-
-Le statut peut être :
-
-* **Fermé** : le parcours a été fermé à l’aide du bouton **Fermer aux nouvelles entrées**. Il n’est alors plus accessible aux nouveaux individus. En revanche, les personnes qui ont déjà intégré le parcours peuvent le terminer normalement.
-* **Brouillon** : le parcours en est à sa première étape. Il n’a pas encore été publié.
-* **Brouillon (test)** : le mode test a été activé à l’aide du bouton **Mode test**.
-* **Terminé** : le parcours passe automatiquement à ce statut après la [temporisation globale](journey-properties.md#global_timeout) de 91 jours. Les profils de clientes et clients qui ont déjà intégré le parcours le terminent normalement. Les nouveaux profils ne peuvent plus rejoindre le parcours.
-* **Actif** : le parcours a été publié à l’aide du bouton **Publier**.
-* **Arrêté** : le parcours a été désactivé à l’aide du bouton **Arrêter**. Toutes les personnes quittent instantanément le parcours.
-
->[!NOTE]
->
->Le cycle de vie de création de parcours comprend également un ensemble de statuts intermédiaires qui ne sont pas disponibles pour le filtrage : « Publication » (entre « Brouillon » et « Actif »), « Activer le mode test » ou « Désactiver le mode test » (entre « Brouillon » et « Brouillon (test) ») et « Arrêt en cours » (entre « Actif » et « Arrêté »). Lorsqu’un parcours se trouve dans un état intermédiaire, il est en lecture seule.
-
-Utilisez les **[!UICONTROL filtres de création]** pour filtrer les parcours en fonction de leur date de création ou de la personne qui les a créés.
-
-Affichez les parcours qui utilisent un événement, un groupe de champs ou une action spécifique à l’aide des **[!UICONTROL filtres d’activité]** et des **[!UICONTROL filtres de données]**.
-
-Utilisez les **[!UICONTROL filtres de publication]** pour sélectionner une date de publication ou une personne. Vous pouvez choisir, par exemple, d’afficher les dernières versions des parcours actifs publiées la veille.
-
-Pour filtrer les parcours selon une période spécifique, sélectionnez **[!UICONTROL Personnalisé]** dans la liste déroulante **[!UICONTROL Publié]**.
-
-Dans les volets de configuration des événements, des sources de données et des actions, le champ **[!UICONTROL Utilisé dans]** affiche également le nombre de parcours qui utilisent cet événement, ce groupe de champs ou cette action spécifique. Vous pouvez cliquer sur le bouton **[!UICONTROL Afficher les parcours]** pour faire apparaître la liste des parcours correspondants.
-
-![](assets/journey3bis.png)
-
-## Créer votre parcours {#jo-build}
-
-Concevez des parcours pour offrir des expériences contextuelles personnalisées. [!DNL Journey Optimizer] vous permet de créer des cas d’utilisation d’orchestration en temps réel avec des données contextuelles stockées dans des événements ou des sources de données. Concevez des scénarios avancés à plusieurs étapes avec les fonctionnalités suivantes :
-
-* Envoyez des **diffusions unitaires** en temps réel déclenchées lors de la réception d’un événement ou **par lots** à l’aide d’audiences Adobe Experience Platform.
-
-* Tirez parti des **données contextuelles** issues des événements, des informations d’Adobe Experience Platform ou des données provenant de services d’API tiers.
-
-* Utilisez les **actions de canal intégrées** (E-mail, SMS, Push, In-app) pour envoyer des messages conçus dans [!DNL Journey Optimizer] ou créez des **actions personnalisées** si vous utilisez un système tiers pour envoyer vos messages.
-
-* Avec le **concepteur de parcours**, créez vos cas d’utilisation à plusieurs étapes : faites glisser et déposez facilement un événement d’entrée ou une activité de lecture d’audience, ajoutez des conditions et envoyez des messages personnalisés.
-
-➡️ [Découvrir cette fonctionnalité en vidéo](journey.md#video)
-
-Les étapes pour envoyer des messages par le biais des parcours sont répertoriées ci-dessous :
-
-1. Dans l’onglet **Parcourir**, cliquez sur **[!UICONTROL Créer un Parcours]** pour créer un parcours.
-
-1. Modifiez les propriétés du parcours dans le volet de configuration qui s&#39;affiche dans la partie droite. Découvrez comment définir les propriétés de votre parcours dans [cette page](journey-properties.md).
+1. Modifiez le volet de configuration du parcours pour définir le nom du parcours et ses propriétés. Découvrez comment définir les propriétés de votre parcours dans [cette page](journey-properties.md).
 
    ![](assets/jo-properties.png)
+
+Vous pouvez ensuite commencer à concevoir votre parcours.
+
+## Concevoir le parcours {#jo-design}
+
+Le concepteur de parcours omnicanaux dispose d’une interface intuitive par glisser-déposer, qui vous permet de créer des parcours à plusieurs étapes avec des audiences ciblées, des mises à jour basées sur des interactions client ou commerciale en temps réel et des messages omnicanaux.
+
+![](assets/journey38.png)
 
 1. Commencez par effectuer un glisser-déposer d’un événement ou d’une activité **Lecture d’audience** de la palette vers la zone de travail. Pour en savoir plus sur la conception d&#39;un parcours, consultez [cette section](using-the-journey-designer.md).
 
    ![](assets/read-segment.png)
 
-1. Faites glisser et déposez les étapes suivantes que l&#39;individu doit suivre. Par exemple, vous pouvez ajouter une condition suivie d’une action de canal. Pour en savoir plus sur les activités, consultez [cette section](using-the-journey-designer.md).
+1. Faites glisser et déposez les étapes suivantes que l&#39;individu doit suivre. Par exemple, vous pouvez ajouter une condition suivie d’une action de canal. Pour en savoir plus sur les activités, consultez [cette section](about-journey-activities.md).
 
-1. Testez votre parcours à l&#39;aide de profils de test. En savoir plus dans cette [section](testing-the-journey.md)
+## Tester le parcours {#jo-test}
 
-1. Publiez votre parcours pour l&#39;activer. En savoir plus dans cette [section](publishing-the-journey.md).
+Une fois que vous avez créé votre parcours, vous pouvez le tester avant de le publier. Journey Optimizer propose un « mode test » pour afficher les profils de test lors de leur déplacement sur le parcours, détectant les erreurs potentielles avant l’activation. L’exécution de tests rapides vous permet de vérifier que les parcours fonctionnent correctement afin de pouvoir les publier en toute confiance.
 
-   ![](assets/jo-journeyuc2_32bis.png)
+En savoir plus dans cette [section](testing-the-journey.md)
 
-1. Surveillez votre parcours à l&#39;aide des outils de rapports dédiés afin de mesurer l&#39;efficacité de votre parcours. En savoir plus dans cette [section](../reports/live-report.md).
+## Publier le parcours {#jo-pub}
 
-   ![](assets/jo-dynamic_report_journey_12.png)
+Vous devez publier un parcours pour l’activer et le rendre disponible pour que de nouveaux profils puissent y accéder. Avant de publier votre parcours, vérifiez qu’il est valide et qu’il ne comporte aucune erreur, Vous ne pouvez pas publier un parcours contenant des erreurs. En savoir plus sur la publication du parcours dans cette [section](publishing-the-journey.md).
 
+![](assets/jo-journeyuc2_32bis.png)
 
-## Dupliquer un parcours {#duplicate-a-journey}
+Une fois publié, vous pouvez surveiller votre parcours à l’aide des outils de rapports dédiés afin de mesurer l’efficacité de votre parcours.
 
-Vous pouvez dupliquer un parcours existant à partir de l’onglet **Parcourir**. Tous les objets et paramètres sont dupliqués dans la copie de parcours.
+![](assets/jo-dynamic_report_journey_12.png)
 
-Pour ce faire, suivez les étapes ci-après :
+En savoir plus sur les rapports de parcours dans cette [section](../reports/live-report.md).
 
-1. Accédez au parcours à copier, puis cliquez sur l’icône **Autres actions** (les points de suspension en regard du nom du parcours).
-1. Sélectionnez **Dupliquer**.
-
-   ![Duplication d’un parcours.](assets/duplicate-jo.png)
-
-1. Saisissez le nom du parcours et confirmez. Vous pouvez également modifier le nom dans l’écran des propriétés du parcours. Par défaut, le nom est défini comme suit : `[JOURNEY-NAME]_copy`
-
-   ![](assets/duplicate-jo2.png)
-
-1. Le nouveau parcours est créé et disponible dans la liste des parcours.
+Notez que vous pouvez dupliquer un parcours existant ou créer une nouvelle version d’un parcours. Découvrez comment dans [cette page](journey-ui.md)

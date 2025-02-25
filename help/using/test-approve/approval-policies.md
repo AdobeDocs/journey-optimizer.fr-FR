@@ -5,10 +5,10 @@ role: User
 level: Beginner
 feature: Approval
 exl-id: e518cb3c-f361-43a4-b9a5-ec070c612e75
-source-git-commit: decd8e222a1cd2f8767a1b88b0af03aa209a741e
+source-git-commit: 99099cb6b705cb5a7b97652154c42f0565fdfdb9
 workflow-type: tm+mt
-source-wordcount: '494'
-ht-degree: 85%
+source-wordcount: '509'
+ht-degree: 83%
 
 ---
 
@@ -140,6 +140,8 @@ Pour définir les conditions associées à une politique d’approbation, procé
 Vous pouvez maintenant activer votre politique d’approbation pour l’appliquer.
 
 ## Activer et gérer des politiques d’approbation {#activate-policies}
+
+Pour appliquer votre stratégie d&#39;approbation, vous devez l&#39;activer. Pour ce faire, procédez comme suit :
 
 1. Accédez à votre **[!UICONTROL politique d’approbation]**.
 
