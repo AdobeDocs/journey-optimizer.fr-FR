@@ -5,14 +5,26 @@ role: User
 level: Beginner
 feature: Approval
 exl-id: e518cb3c-f361-43a4-b9a5-ec070c612e75
-source-git-commit: f5df65a0225754ab66fb2ffa33c5130f7137b644
+source-git-commit: decd8e222a1cd2f8767a1b88b0af03aa209a741e
 workflow-type: tm+mt
-source-wordcount: '432'
-ht-degree: 100%
+source-wordcount: '494'
+ht-degree: 85%
 
 ---
 
 # Créer et gérer des politiques d’approbation {#approval-policies}
+
+
+>[!CONTEXTUALHELP]
+>id="ajo_approval_policy_request_approval"
+>title="Demander l’approbation"
+>abstract="Demander l’approbation"
+
+>[!CONTEXTUALHELP]
+>id="ajo_approval_policy_request_change"
+>title="Demander une modification"
+>abstract="Demander une modification"
+
 
 >[!NOTE]
 >
@@ -21,6 +33,13 @@ ht-degree: 100%
 Les politiques d’approbation permettent à l’équipe d’administration d’établir un processus de validation pour les parcours et les campagnes. Ce système décrit des conditions spécifiques qui déterminent si un parcours ou une campagne nécessite une approbation. Ces politiques peuvent être d’une complexité variable, allant du simple fait d’exiger que toutes les campagnes soient examinées par une personne ou une équipe spécifique à l’établissement de critères en fonction de la personne qui a créé la campagne.
 
 ## Créer des politiques d’approbation {#create-policies}
+
+>[!CONTEXTUALHELP]
+>id="ajo_permissions_approval_policy"
+>title="Nouvelle politique d’approbation"
+>abstract="Dans cet écran, saisissez le nom et sélectionnez le contexte de la stratégie d&#39;approbation, puis créez les conditions pour déterminer qui peut lancer la demande d&#39;approbation et qui peut la valider."
+
+Pour créer une politique d’approbation, procédez comme suit :
 
 1. Dans Journey Optimizer, dans le menu **[!UICONTROL Administration]**, accédez à **[!UICONTROL Autorisations]**, puis à **[!UICONTROL Politiques]**.
 
@@ -34,9 +53,11 @@ Les politiques d’approbation permettent à l’équipe d’administration d’
 
    ![](assets/policy_create_2.png)
 
-Vous pouvez maintenant affiner les conditions afin de spécifier qui lancera la demande d’approbation et qui la validera.
+Vous pouvez maintenant affiner les conditions pour spécifier qui peut initier la demande d&#39;approbation et qui peut la valider.
 
 ## Définir les conditions des politiques d’approbation {#conditions}
+
+Pour définir les conditions associées à une politique d’approbation, procédez comme suit :
 
 1. Accédez à votre **[!UICONTROL politique d’approbation]**.
 
