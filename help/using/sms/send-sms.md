@@ -8,14 +8,14 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 31c9b080-e334-4a11-af33-4c6f115c70a4
-source-git-commit: 03cb3298c905766bc059e82c58969a2111379345
-workflow-type: ht
-source-wordcount: '299'
-ht-degree: 100%
+source-git-commit: 4847415fa33ebf1c21622ebf4faecafd4decc8d3
+workflow-type: tm+mt
+source-wordcount: '298'
+ht-degree: 97%
 
 ---
 
-# Vérifier et envoyer votre message texte (SMS/MMS){#send-sms}
+# Vérifier et envoyer votre SMS (SMS/MMS){#send-sms}
 
 ## Prévisualiser votre message texte {#preview-sms}
 

@@ -5,10 +5,10 @@ user-guide-title: Guide de Journey Optimizer
 user-guide-description: Utilisez Journey Optimizer pour créer et proposer aux clients des expériences connectées, contextuelles et personnalisées
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 99099cb6b705cb5a7b97652154c42f0565fdfdb9
+source-git-commit: 4847415fa33ebf1c21622ebf4faecafd4decc8d3
 workflow-type: tm+mt
-source-wordcount: '2196'
-ht-degree: 97%
+source-wordcount: '2168'
+ht-degree: 93%
 
 ---
 
@@ -168,13 +168,13 @@ ht-degree: 97%
       + Cas d’utilisation technique {#technical-use-cases}
          + [Transmettre des collections de manière dynamique à l’aide d’actions personnalisées](using/building-journeys/collections.md)
          + [Accélérer les diffusions](using/building-journeys/ramp-up-deliveries-uc.md)
-         + [Limiter le débit avec des sources de données externes et des actions personnalisées](using/building-journeys/limit-throughput.md)
+         + [Limiter le débit avec les sources de données externes et les actions personnalisées](using/building-journeys/limit-throughput.md)
          + [Utiliser des actions personnalisées pour écrire des événements de parcours dans Experience Platform](using/building-journeys/custom-action-aep.md)
 + Campagnes{#campaigns}
    + [Commencer avec les campagnes](using/campaigns/get-started-with-campaigns.md)
    + [Création d’une campagne](using/campaigns/create-campaign.md)
-   + [Vérification et activation d’une campagne](using/campaigns/review-activate-campaign.md)
-   + [Gérer les campagnes](using/campaigns/modify-stop-campaign.md)
+   + [Vérifier et activer une campagne](using/campaigns/review-activate-campaign.md)
+   + [Gestion des campagnes](using/campaigns/modify-stop-campaign.md)
    + [Déclencher des campagnes à l’aide d’API](using/campaigns/api-triggered-campaigns.md)
 + Gestion et hiérarchisation des conflits {#conflict-prioritization}
    + [Commencer avec la gestion et la hiérarchisation des conflits](using/conflict-prioritization/gs-conflict-prioritization.md)
@@ -182,7 +182,7 @@ ht-degree: 97%
    + [Attribuer des scores de priorité](using/conflict-prioritization/priority-scores.md)
    + [Limitation et arbitrage des parcours](using/conflict-prioritization/journey-capping.md)
 + Tester et approuver {#test}
-   + Prévisualiser et tester votre contenu {#preview-test}
+   + Prévisualiser et tester les {#preview-test} de contenu
       + [Prise en main de la prévisualisation et du test](using/content-management/preview-test.md)
       + [Sélectionner des profils de test](using/content-management/test-profiles.md)
       + [Prévisualiser votre contenu](using/content-management/preview.md)
@@ -210,14 +210,14 @@ ht-degree: 97%
          + Concevoir votre contenu {#add-content}
             + [Utiliser des composants de contenu](using/email/content-components.md)
             + [Utiliser des fragments visuels](using/email/use-visual-fragments.md)
-            + [Ajouter des liens et suivre les messages](using/email/message-tracking.md)
+            + [Ajouter des liens et tracker les messages](using/email/message-tracking.md)
             + [Insérer des offres personnalisées](using/email/add-offers-email.md)
             + [Génération de la version texte](using/email/text-version-email.md)
             + [Ajout d’un pré-titre](using/email/preheader.md)
          + Modifier le style {#edit-style}
             + [Prise en main du style des e-mails](using/email/get-started-email-style.md)
             + [Modifier les paramètres d’arrière-plan](using/email/backgrounds.md)
-            + [Ajuster l&#39;alignement vertical et la marge intérieure](using/email/alignment-and-padding.md)
+            + [Ajuster l’alignement vertical et la marge intérieure](using/email/alignment-and-padding.md)
             + [Ajouter des attributs de style intégrés](using/email/inline-styling.md)
       + [Gérer les désinscriptions aux e-mails](using/email/email-opt-out.md)
       + Configurer le canal e-mail {#configure-email}
@@ -246,7 +246,7 @@ ht-degree: 97%
    + Canal SMS/MMS{#sms}
       + [Commencer avec les messages texte](using/sms/get-started-sms.md)
       + [Créer un message texte (SMS/MMS)](using/sms/create-sms.md)
-      + [Vérifier et envoyer vos messages texte](using/sms/send-sms.md)
+      + [Vérifier et envoyer vos SMS](using/sms/send-sms.md)
       + [Gestion des droits d’opposition pour les messages texte](using/sms/sms-opt-out.md)
       + [Configurer des sous-domaines SMS](using/sms/sms-subdomains.md)
       + Configurer le canal SMS/MMS{#configure-sms}
@@ -343,7 +343,7 @@ ht-degree: 97%
          + [Prise en main des fonctions d’assistance](using/personalization/functions/functions.md)
          + [Fonctions d’agrégation](using/personalization/functions/aggregation.md)
          + [Fonctions arithmétiques](using/personalization/functions/arithmetic-functions.md)
-         + [Tableaux et fonctions de liste](using/personalization/functions/arrays-list.md)
+         + [Fonctions de liste et de tableau](using/personalization/functions/arrays-list.md)
          + [Fonctions de date](using/personalization/functions/dates.md)
          + [Fonctions booléennes et de comparaison](using/personalization/functions/operators.md)
          + [Assistants](using/personalization/functions/helpers.md)
@@ -395,7 +395,7 @@ ht-degree: 97%
    + [Utiliser les modèles Experience Manager](using/integrations/aem-templates.md)
    + [Utiliser les fragments de contenu Experience Manager](using/integrations/aem-fragments.md)
    + [Utiliser Dynamic Media](using/integrations/aem-dynamic.md)
-+ Suivre et surveiller {#reporting}
++ Suivi et surveillance des {#reporting}
    + Rapport dynamique {#live-report}
       + [Prise en main du rapport dynamique](using/reports/live-report.md)
       + [Liste des composants](using/reports/live-report-components.md)
@@ -506,14 +506,14 @@ ht-degree: 97%
             + [Modèle dʼoptimisation automatique](using/offers/ranking/auto-optimization-model.md)
             + [Modèle d’optimisation personnalisé](using/offers/ranking/personalized-optimization-model.md)
             + [Créer des modèles d’IA](using/offers/ranking/create-ranking-strategies.md)
-      + Création et gestion des offres {#managing-offers-in-the-offer-library}
+      + Créer et gérer des offres {#managing-offers-in-the-offer-library}
          + Configuration des offres {#configure-offers}
             + [Créer des offres personnalisées](using/offers/offer-library/creating-personalized-offers.md)
             + [Ajouter des représentations](using/offers/offer-library/add-representations.md)
             + [Ajouter des contraintes](using/offers/offer-library/add-constraints.md)
          + [Créer des offres de secours](using/offers/offer-library/creating-fallback-offers.md)
          + [Créer des collections](using/offers/offer-library/creating-collections.md)
-      + Création et gestion des décisions {#create-manage-activities}
+      + Créer et gérer des {#create-manage-activities} de décisions
          + [Création de décisions](using/offers/offer-activities/create-offer-activities.md)
          + [Configurer la sélection des offres dans les décisions](using/offers/offer-activities/configure-offer-selection.md)
          + [Création de simulations](using/offers/offer-activities/simulation.md)
@@ -538,7 +538,7 @@ ht-degree: 97%
          + [Jeu de données de secours](using/offers/export-catalog/export-fallback.md)
       + Référence d’API {#api-reference}
          + [Prise en main](using/offers/api-reference/getting-started.md)
-         + Création et gestion des offres à l’aide d’API {#offers-api}
+         + Créer et gérer des offres à l’aide d’API {#offers-api}
             + Emplacements {#placements}
                + [Liste des emplacements](using/offers/api-reference/offers-api/placements/placements-list.md)
                + [Recherche d’un emplacement](using/offers/api-reference/offers-api/placements/lookup.md)
@@ -668,8 +668,8 @@ ht-degree: 97%
    + [Modifier les adresses d’exécution](using/configuration/primary-email-addresses.md)
    + [Configurer des règles métier](using/configuration/frequency-rules.md)
    + [Utiliser des jeux de règles](using/configuration/rule-sets.md)
-   + Configuration des parcours {#configure-journeys}
-      + [À propos des sources de données, des événements et des actions](using/configuration/about-data-sources-events-actions.md)
+   + Configurer des parcours {#configure-journeys}
+      + [Configuration Des Sources De Données, Des Événements Et Des Actions](using/configuration/about-data-sources-events-actions.md)
       + Intégration aux systèmes externes {#external-systems}
          + [Intégration des parcours à des systèmes externes](using/configuration/external-systems.md)
          + [API de plafonnement](using/configuration/capping.md)
@@ -703,7 +703,7 @@ ht-degree: 97%
       + [Rôles intégrés](using/administration/ootb-product-profiles.md)
       + [Autorisations intégrées](using/administration/ootb-permissions.md)
       + [Niveaux d’autorisation](using/administration/high-low-permissions.md)
-   + [Gérer les utilisateurs et utilisatrices, et les rôles](using/administration/permissions.md)
+   + [Gérer les utilisateurs et les rôles](using/administration/permissions.md)
    + [Contrôle d’accès basé sur les attributs](using/administration/attribute-based-access.md)
    + [Contrôle d’accès au niveau des objets](using/administration/object-based-access.md)
    + [Gestion des sandbox](using/administration/sandboxes.md)
@@ -716,4 +716,4 @@ ht-degree: 97%
       + [Gérer le processus d’opt-out](using/privacy/opt-out.md)
       + [Utiliser les politiques de consentement](using/action/consent.md)
    + [Gouvernance des données](using/action/action-privacy.md)
-   + [Configurer et gérer des clés gérées par la clientèle](using/privacy/cmk.md)
+   + [Configurer et gérer les clés gérées par la clientèle](using/privacy/cmk.md)

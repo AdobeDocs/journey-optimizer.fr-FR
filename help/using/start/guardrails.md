@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: b6c31528784c0c8576e3200e7611a6b6cd43d7a7
+source-git-commit: 4847415fa33ebf1c21622ebf4faecafd4decc8d3
 workflow-type: tm+mt
-source-wordcount: '2305'
-ht-degree: 95%
+source-wordcount: '2333'
+ht-degree: 94%
 
 ---
 
@@ -64,6 +64,10 @@ Cette modification sera déployée dans les **sandbox client existants** lors d�
 
 Les campagnes web de [!DNL Journey Optimizer] ciblent les nouveaux profils qui n’ont jamais été engagés sur d’autres canaux. Cela augmente le nombre total de profils engageables, ce qui peut avoir des implications de coût si le nombre contractuel de profils engageables que vous avez achetés est dépassé. Les mesures de licence de chaque package sont répertoriées dans la page [Description du produit Journey Optimizer](https://helpx.adobe.com/fr/legal/product-descriptions/adobe-journey-optimizer.html).{target="_blank"}
 
+### Mécanismes de sécurisation des canaux basés sur le code {#code-based-guardrails}
+
+Pour utiliser des actions d’expérience basées sur du code dans [!DNL Journey Optimizer] et diffuser une payload de contenu de code pouvant être utilisée par vos applications, suivez les conditions préalables décrites dans [cette page](../code-based/code-based-prerequisites.md).
+
 ## Mécanismes de sécurisation des sous-domaines {#subdomain-guardrails}
 
 Par défaut, [!DNL Journey Optimizer] vous permet de déléguer jusqu’à 10 sous-domaines au total (incluant les canaux e-mail et web).
@@ -85,6 +89,7 @@ Les mécanismes de sécurisation et les limitations à garder à l’esprit lors
 
 * [Mécanismes de sécurisation et limitations des décisions](../experience-decisioning/decisioning-guardrails.md)
 * [Mécanismes de sécurisation et limitations de la gestion des décisions](../offers/decision-management-guardrails.md)
+
 
 ## Mécanismes de sécurisation des parcours {#journeys-guardrails}
 

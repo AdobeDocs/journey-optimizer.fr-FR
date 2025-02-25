@@ -8,14 +8,14 @@ role: Developer, Data Engineer
 level: Experienced
 keywords: parcours, sources de données, limite, débit, personnalisé, actions
 exl-id: 45d6bb82-88ea-4510-a023-a75a82cc6f7b
-source-git-commit: aec3d79ad07ec6904e55afd6fc61ba9b4f403fc8
-workflow-type: ht
-source-wordcount: '754'
-ht-degree: 100%
+source-git-commit: 4847415fa33ebf1c21622ebf4faecafd4decc8d3
+workflow-type: tm+mt
+source-wordcount: '753'
+ht-degree: 98%
 
 ---
 
-# Cas d’utilisation : limiter le débit avec les sources de données externes et les actions personnalisées{#limit-throughput}
+# Cas d’utilisation : limiter le débit avec les sources de données externes et les actions personnalisées{#limit-throughput}
 
 ## Description du cas d’utilisation
 
