@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: parcours, premier, commencer, démarrage rapide, audience, événement, action
 exl-id: d940191e-8f37-4956-8482-d2df0c4274aa
-source-git-commit: 99099cb6b705cb5a7b97652154c42f0565fdfdb9
+source-git-commit: d3ec39dc08b23f315914be57a617c921903fead8
 workflow-type: tm+mt
-source-wordcount: '716'
-ht-degree: 71%
+source-wordcount: '765'
+ht-degree: 64%
 
 ---
 
@@ -28,18 +28,15 @@ ht-degree: 71%
 >title="Parcours"
 >abstract="Concevoir des parcours clients pour offrir des expériences contextuelles personnalisées. Journey Optimizer vous permet de créer des cas d’utilisation d’orchestration en temps réel avec des données contextuelles stockées dans des événements ou des sources de données. L’onglet **Vue d’ensemble** affiche un tableau de bord avec les mesures clés liées à vos parcours : L’onglet **Parcourir** affiche la liste des parcours existants."
 
+Créez des parcours client à plusieurs étapes qui lancent une séquence d’interactions, d’offres et de messages sur plusieurs canaux en temps réel. Cette approche garantit que les clients sont engagés aux moments optimaux en fonction de leurs actions et des signaux commerciaux pertinents.
 
-Adobe Journey Optimizer comprend une zone de travail d’orchestration omnicanal qui permet aux spécialistes du marketing d’harmoniser la portée marketing avec l’engagement client individuel. L’interface utilisateur vous permet de faire glisser facilement des activités de la palette vers la zone de travail pour créer votre parcours.
+![exemple de zone de travail de parcours ](assets/journey38.png)
 
-![](assets/journey38.png)
+Adobe Journey Optimizer comprend une zone de travail d’orchestration omnicanal qui permet aux spécialistes du marketing d’harmoniser la portée marketing avec l’engagement client individuel. L’interface utilisateur vous permet de faire glisser facilement des activités de la palette vers la zone de travail pour créer votre parcours. L’interface utilisateur du parcours est présentée dans [cette page](journey-ui.md).
 
-Suivez les étapes principales de création dʼun parcours décrites ci-après :
+Les étapes principales de création d’un parcours sont présentées dans cette page. Elles sont simplifiées comme suit :
 
-![](assets/journey-creation-process.png)
-
-➡️ [Découvrir cette fonctionnalité en vidéo](#video)
-
-L’interface utilisateur du parcours est présentée dans [cette page](journey-ui.md).
+![étapes de création de parcours : création, conception, test et publication](assets/journey-creation-process.png)
 
 
 ## Conditions préalables {#start-prerequisites}

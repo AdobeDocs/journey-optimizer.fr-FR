@@ -8,9 +8,9 @@ role: User
 level: Beginner, Intermediate
 keywords: parcours, découverte, commencer
 exl-id: 73cfd48b-72e6-4b72-bbdf-700a32a34bda
-source-git-commit: e9964494fa38a9e693eeb6c8bdfd6dd3d21262e0
+source-git-commit: d3ec39dc08b23f315914be57a617c921903fead8
 workflow-type: tm+mt
-source-wordcount: '411'
+source-wordcount: '417'
 ht-degree: 38%
 
 ---
@@ -31,6 +31,8 @@ Utilisez [!DNL Journey Optimizer] pour créer des cas d’utilisation d’orches
 * Avec le **concepteur de parcours**, créez vos cas d’utilisation à plusieurs étapes : en toute facilité, faites glisser et déposez un événement d’entrée ou une activité de lecture d’audience, ajoutez des conditions et envoyez des messages personnalisés.
 
 Découvrez comment créer et concevoir votre premier parcours dans [cette page](journey-gs.md).
+
+➡️ [Découvrir Journey Optimizer en vidéo](#video)
 
 ## Cas d’utilisation{#uc-journey}
 
