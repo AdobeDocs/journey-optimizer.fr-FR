@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: parcours, premier, commencer, démarrage rapide, audience, événement, action
 exl-id: 770bdbf2-560d-4127-bdb9-1f82495a566f
-source-git-commit: 59bdddbf959505140be7a070dafe3e67aaae691b
+source-git-commit: 5af420f5ba312949e475c772e56c60a0368a4796
 workflow-type: tm+mt
-source-wordcount: '986'
-ht-degree: 83%
+source-wordcount: '1124'
+ht-degree: 73%
 
 ---
 
@@ -64,11 +64,19 @@ Dans les volets de configuration des événements, des sources de données et de
 
 ## types de parcours {#journey-types}
 
-Les différents types sont les suivants : **[!UICONTROL Événement unitaire]**, **[!UICONTROL Qualification de l’audience]**, **[!UICONTROL Lecture d’audience]**, **[!UICONTROL Événement métier]**.
+Le type de parcours dépend des activités utilisées dans ce parcours. Il peut s’agir des éléments suivants :
+
+* **[!UICONTROL Événement unitaire]** - Les parcours d’événements unitaires sont liés à un profil spécifique. Les événements sont liés au comportement d’une personne ou à un événement lié à une personne (par exemple, une personne a atteint 10 000 points de fidélité). [En savoir plus](../event/about-events.md).
+* **[!UICONTROL Événement métier]**. Le parcours d’événements métier commence par un événement non lié au profil. La configuration de l’événement est effectuée par un utilisateur technique et ne peut pas être modifiée. [En savoir plus](../event/about-events.md).
+* **[!UICONTROL Qualification de l’audience]** - Les parcours de qualification d’audience écoutent les entrées et les sorties des profils dans les audiences Adobe Experience Platform afin de faire en sorte que des individus rejoignent un parcours ou y progressent. [En savoir plus](audience-qualification-events.md).
+* **[!UICONTROL Lecture d’audience]** - Dans les parcours Lecture d’audience , tous les individus de l’audience rejoignent le parcours et reçoivent les messages inclus dans votre parcours.  [En savoir plus](read-audience.md).
+
+
+En savoir plus sur les types de parcours et la gestion des entrées associée dans [cette page](entry-management.md).
 
 ## Statuts des parcours {#journey-statuses}
 
-Le statut du parcours peut être :
+Le statut du parcours dépend de son cycle de vie. Il peut s’agir des éléments suivants :
 
 * **Fermé** : le parcours a été fermé à l’aide du bouton **Fermer aux nouvelles entrées**. Il n’est alors plus accessible aux nouveaux individus. En revanche, les personnes qui ont déjà intégré le parcours peuvent le terminer normalement.
 * **Brouillon** : le parcours en est à sa première étape. Il n’a pas encore été publié.
