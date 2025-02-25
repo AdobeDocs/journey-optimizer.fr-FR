@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: 4847415fa33ebf1c21622ebf4faecafd4decc8d3
+source-git-commit: 341c5c6a1a451819737797bfa70a8625f900388d
 workflow-type: tm+mt
 source-wordcount: '2333'
-ht-degree: 94%
+ht-degree: 93%
 
 ---
 
@@ -60,9 +60,11 @@ Cette modification sera déployée dans les **sandbox client existants** lors d�
 * La synchronisation des commentaires des messages n’est actuellement pas disponible pour les MMS.
 * La gestion du consentement fonctionne au niveau du canal SMS pour les MMS.
 
-### Mécanismes de sécurisation pour les canaux web {#web-guardrails}
+## Mécanismes de sécurisation pour les canaux web {#web-guardrails}
 
-Les campagnes web de [!DNL Journey Optimizer] ciblent les nouveaux profils qui n’ont jamais été engagés sur d’autres canaux. Cela augmente le nombre total de profils engageables, ce qui peut avoir des implications de coût si le nombre contractuel de profils engageables que vous avez achetés est dépassé. Les mesures de licence de chaque package sont répertoriées dans la page [Description du produit Journey Optimizer](https://helpx.adobe.com/fr/legal/product-descriptions/adobe-journey-optimizer.html).{target="_blank"}
+Les campagnes web de [!DNL Journey Optimizer] ciblent les nouveaux profils qui n’ont jamais été engagés sur d’autres canaux. Cela augmente le nombre total de profils engageables, ce qui peut avoir des implications de coût si le nombre contractuel de profils engageables que vous avez achetés est dépassé.
+
+Les mesures de licence de chaque package sont répertoriées dans la page [Description du produit Journey Optimizer](https://helpx.adobe.com/fr/legal/product-descriptions/adobe-journey-optimizer.html).{target="_blank"}
 
 ### Mécanismes de sécurisation des canaux basés sur le code {#code-based-guardrails}
 
