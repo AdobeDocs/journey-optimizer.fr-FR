@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 956178c0-9985-4ff8-a29e-17dd367ce4d4
-source-git-commit: 99099cb6b705cb5a7b97652154c42f0565fdfdb9
+source-git-commit: fa1b26900ca4cf56a3ad95429320d1f5e9c920ed
 workflow-type: tm+mt
-source-wordcount: '660'
-ht-degree: 100%
+source-wordcount: '676'
+ht-degree: 95%
 
 ---
 
@@ -54,6 +54,12 @@ Les fonctionnalités principales sont les suivantes :
 
 * **Prise de décision et personnalisation intelligentes** : les marques peuvent appliquer une prise de décision centralisée et intégrer l’intelligence artificielle et le machine learning pour rechercher des informations prédictives tout au long de l’expérience du client ou de la cliente, ce qui facilite l’automatisation des décisions et l’optimisation de l’expérience à grande échelle. Decisioning alimente les offres centralisées sur tous les canaux à l’échelle via [!DNL Adobe Journey Optimizer].
 
+
+>[!NOTE]
+>
+> Les composants et fonctionnalités disponibles dans votre environnement dépendent de vos [autorisations](../administration/permissions.md) et de votre [package de licence](https://helpx.adobe.com/fr/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}. Pour toute question, contactez votre responsable du succès client Adobe ou votre représentant Adobe.
+
+
 ## Architecture {#architecture}
 
 Découvrez l’architecture de base d’[!DNL Adobe Journey Optimizer], les points d’intégration et la relation entre [!DNL Journey Optimizer] et [!DNL Experience Platform], dans le diagramme ci-dessous.
@@ -64,7 +70,7 @@ Découvrez l’architecture de base d’[!DNL Adobe Journey Optimizer], les poin
 >[!NOTE]
 >
 > Les lignes directrices et procédures générales d&#39;Adobe Experience Cloud sur la protection des données personnelles s&#39;appliquent à [!DNL Journey Optimizer]. [En savoir plus sur la confidentialité d&#39;Adobe Experience Cloud](https://www.adobe.com/fr/privacy/experience-cloud.html).
-> Vous devez également connaître les [mécanismes de sécurisation pour les données du profil client en temps réel avant de commencer](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=fr).
+>
 
 
 >[!MORELIKETHIS]
