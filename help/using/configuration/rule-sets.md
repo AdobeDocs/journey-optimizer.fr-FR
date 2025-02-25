@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: message, fréquence, règles, pression
 exl-id: 07f5f0b4-417e-408e-8d9e-86615c8a3fbf
-source-git-commit: 40bef9a05fef1433773a73d546752e84f81b7366
+source-git-commit: 6ba6f697060db83e2703bc0ac7cccbbccf816437
 workflow-type: tm+mt
 source-wordcount: '1933'
 ht-degree: 97%
@@ -258,7 +258,7 @@ Vous pouvez appliquer un jeu de règles à un message ou à un parcours, en fonc
 
    <!--Messages where the category selected is **[!UICONTROL Transactional]** will not be evaluated against business rules.-->
 
-1. Avant d’activer votre campagne, assurez-vous de planifier son exécution au moins 10 minutes à l’avance.
+1. Avant d’activer votre campagne, assurez-vous de planifier son exécution au moins 20 minutes à l’avance.
 
    Cela laisse suffisamment de temps pour renseigner les valeurs de compteur sur le profil pour la règle métier que vous avez sélectionnée. Si vous activez immédiatement la campagne, les valeurs de compteur de jeux de règles ne seront pas renseignées sur les profils des personnes destinataires et le message ne sera pas comptabilisé dans les règles de capping de fréquence pour les jeux de règles personnalisées.
 
