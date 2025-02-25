@@ -9,22 +9,25 @@ role: User
 level: Intermediate
 keywords: publication, parcours, dynamique, validité, vérifier
 exl-id: e0ca8aef-4f1d-4631-8c34-1692d96e8b51
-source-git-commit: 59bdddbf959505140be7a070dafe3e67aaae691b
+source-git-commit: 3a1e00ecc74ccca5cba0e15ac642eeb7ddb40ae0
 workflow-type: tm+mt
-source-wordcount: '304'
-ht-degree: 42%
+source-wordcount: '305'
+ht-degree: 39%
 
 ---
 
 # Publier votre parcours {#publishing-the-journey}
 
-Vous devez publier un parcours pour l’activer et le rendre disponible pour que de nouveaux profils puissent y accéder. Avant de publier votre parcours, vérifiez qu’il est valide et qu’il ne comporte aucune erreur, Vous ne pouvez pas publier un parcours contenant des erreurs. Découvrez comment tester votre parcours sur [cette page](testing-the-journey.md).
+Vous devez publier un parcours pour l’activer et le rendre disponible pour que de nouveaux profils puissent y accéder. Avant de publier votre parcours, vérifiez qu’il est valide et qu’il ne comporte aucune erreur, Vous ne pouvez pas publier un parcours contenant des erreurs.
 
 ➡️ [Découvrez cette fonctionnalité en vidéo](#video)
 
 Les étapes de publication d’un parcours sont détaillées ci-dessous :
 
-1. Avant de publier votre parcours, vérifiez qu’il est valide et qu’il ne comporte aucune erreur, sans quoi toute publication s’avérera impossible. Découvrez comment résoudre les problèmes liés à votre parcours dans [cette section](../building-journeys/troubleshooting.md#checking-for-errors-before-testing).
+1. Avant de publier votre parcours, vérifiez qu’il est valide et qu’il ne comporte aucune erreur, Vous ne pourrez pas publier un parcours contenant des erreurs.
+
+   * Découvrez comment tester votre parcours sur [cette page](testing-the-journey.md).
+   * Découvrez comment résoudre les erreurs de parcours dans [cette section](../building-journeys/troubleshooting.md#checking-for-errors-before-testing).
 
 1. Pour publier le parcours, cliquez sur l’option **[!UICONTROL Publier]** située dans le menu déroulant qui se trouve en haut à droite.
 
