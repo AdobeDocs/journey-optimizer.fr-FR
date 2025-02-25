@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: 341c5c6a1a451819737797bfa70a8625f900388d
+source-git-commit: 9cab78c89d0885b6da6b43a444754e9ad1e17ae0
 workflow-type: tm+mt
-source-wordcount: '2333'
+source-wordcount: '2335'
 ht-degree: 93%
 
 ---
@@ -33,11 +33,6 @@ Vous devez également connaître les [mécanismes de sécurisation pour les donn
 
 L&#39;interface d&#39;Adobe [!DNL Journey Optimizer] est conçue pour fonctionner de manière optimale avec la dernière version de Google Chrome. Vous pouvez rencontrer des problèmes lors de l&#39;utilisation de certaines fonctions sur des versions plus anciennes ou d&#39;autres navigateurs.
 
-## Mécanismes de sécurisation des messages {#message-guardrails}
-
-* Vous ne pouvez pas ajouter de pièces jointes à un e-mail avec [!DNL Journey Optimizer].
-* Vous ne pouvez pas utiliser le même domaine d’envoi pour envoyer des messages depuis [!DNL Adobe Journey Optimizer] et depuis un autre produit, tel que [!DNL Adobe Campaign] ou [!DNL Adobe Marketo Engage] par exemple.
-
 ## Mécanismes de sécurisation des jeux de données {#datasets-guardrails}
 
 Depuis février 2025, un mécanisme de sécurisation de durée de vie (TTL) est déployé sur les jeux de données générés par le système Journey Optimizer dans **nouveaux sandbox et nouvelles organisations** comme suit :
@@ -47,20 +42,20 @@ Depuis février 2025, un mécanisme de sécurisation de durée de vie (TTL) est 
 
 Cette modification sera déployée dans les **sandbox client existants** lors d’une phase ultérieure. [En savoir plus sur les mécanismes de sécurisation de durée de vie (TTL) des jeux de données](../data/datasets-ttl.md)
 
-## Mécanismes de sécurisation des pages de destination {#lp-guardrails}
+## Mécanismes de sécurisation de canal {#channel-guardrails}
 
-* Un seul composant de **Formulaire** peut être utilisé dans une page principale unique.
-* Le composant de **Formulaire** ne peut pas être utilisé dans les sous-pages.
-* Vous ne pouvez pas ajouter de pré-titre à une page de destination.
-* Vous ne pouvez pas sélectionner l’option **Coder le vôtre** lors de la conception d’une page de destination principale.
+### Mécanismes de sécurisation des e-mails {#message-guardrails}
 
-## Mécanismes de sécurisation des SMS {#sms-guardrails}
+* Vous ne pouvez pas ajouter de pièces jointes à un e-mail avec [!DNL Journey Optimizer].
+* Vous ne pouvez pas utiliser le même domaine d’envoi pour envoyer des messages depuis [!DNL Adobe Journey Optimizer] et depuis un autre produit, tel que [!DNL Adobe Campaign] ou [!DNL Adobe Marketo Engage] par exemple.
+
+### Mécanismes de sécurisation des SMS {#sms-guardrails}
 
 * Les fichiers multimédias pour MMS peuvent être inclus via une URL prise en charge. Assurez-vous que le fichier multimédia est chargé séparément.
 * La synchronisation des commentaires des messages n’est actuellement pas disponible pour les MMS.
 * La gestion du consentement fonctionne au niveau du canal SMS pour les MMS.
 
-## Mécanismes de sécurisation pour les canaux web {#web-guardrails}
+### Mécanismes de sécurisation pour les canaux web {#web-guardrails}
 
 Les campagnes web de [!DNL Journey Optimizer] ciblent les nouveaux profils qui n’ont jamais été engagés sur d’autres canaux. Cela augmente le nombre total de profils engageables, ce qui peut avoir des implications de coût si le nombre contractuel de profils engageables que vous avez achetés est dépassé.
 
@@ -69,6 +64,13 @@ Les mesures de licence de chaque package sont répertoriées dans la page [Descr
 ### Mécanismes de sécurisation des canaux basés sur le code {#code-based-guardrails}
 
 Pour utiliser des actions d’expérience basées sur du code dans [!DNL Journey Optimizer] et diffuser une payload de contenu de code pouvant être utilisée par vos applications, suivez les conditions préalables décrites dans [cette page](../code-based/code-based-prerequisites.md).
+
+## Mécanismes de sécurisation des pages de destination {#lp-guardrails}
+
+* Un seul composant de **Formulaire** peut être utilisé dans une page principale unique.
+* Le composant de **Formulaire** ne peut pas être utilisé dans les sous-pages.
+* Vous ne pouvez pas ajouter de pré-titre à une page de destination.
+* Vous ne pouvez pas sélectionner l’option **Coder le vôtre** lors de la conception d’une page de destination principale.
 
 ## Mécanismes de sécurisation des sous-domaines {#subdomain-guardrails}
 
@@ -85,7 +87,7 @@ Cependant, en fonction de votre contrat de licence, vous pouvez déléguer jusqu
 
 Vous pouvez publier jusqu’à 10 audiences dans un sandbox donné. Si vous avez atteint ce seuil, vous devez supprimer une composition pour libérer de l’espace et en publier une nouvelle.
 
-## Mécanismes de sécurisation de prise de décision et de gestion des décisions {#decisioning}
+## Mécanismes de sécurisation de prise de décision et de gestion des décisions {#decisioning-guardrails}
 
 Les mécanismes de sécurisation et les limitations à garder à l’esprit lorsque vous utilisez la prise de décision ou la gestion des décisions sont détaillés dans ces sections Prise de décision et gestion des décisions :
 
