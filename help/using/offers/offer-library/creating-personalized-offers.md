@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 4a53ea96-632a-41c7-ab15-b85b99db4f3e
-source-git-commit: 88e7140183700da0283fa00d89f6fff2c71c138f
+source-git-commit: b4bd7290fca3221798ce677bdbfb2281e34cec37
 workflow-type: tm+mt
-source-wordcount: '804'
-ht-degree: 100%
+source-wordcount: '817'
+ht-degree: 98%
 
 ---
 
@@ -28,6 +28,12 @@ La liste des offres personnalisées est accessible dans le menu **[!UICONTROL Of
 ![](../assets/offers_list.png)
 
 ## Création d’une offre {#create-offer}
+
+>[!CONTEXTUALHELP]
+>id="ajo_decisioning_offer_details"
+>title="Détails de l’offre"
+>abstract="Renseignez le nom de l&#39;offre et ses dates de début et de fin.
+Outside of these dates, the offer won't be selected by the Decisioning engine."
 
 >[!CONTEXTUALHELP]
 >id="od_offer_attributes"
