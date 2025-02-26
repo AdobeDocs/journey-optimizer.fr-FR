@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: parcours, premier, commencer, démarrage rapide, audience, événement, action
 exl-id: d940191e-8f37-4956-8482-d2df0c4274aa
-source-git-commit: 7adee85117a3aad1a347f9f0808b0f32531dc548
+source-git-commit: 93dab17fc74396887e3b68051be777645e02709f
 workflow-type: tm+mt
 source-wordcount: '711'
 ht-degree: 45%
@@ -42,19 +42,19 @@ La création de parcours clients à plusieurs étapes lance une séquence d’in
 
 * Si vous souhaitez déclencher vos parcours une fois qu’un événement est reçu, vous devez **configurer un événement**. Vous devez définir les informations attendues et comment les traiter. [En savoir plus](../event/about-events.md).
 
-  ![](assets/jo-event7bis.png)
+<!--   ![](assets/jo-event7bis.png)  -->
 
 * Votre parcours peut également écouter les audiences Adobe Experience Platform afin d’envoyer des messages par lots à un ensemble de profils spécifié. Pour cela, vous devez **créer des audiences**. [En savoir plus](../audience/about-audiences.md).
 
-  ![](assets/segment2.png)
+<!--   ![](assets/segment2.png)  -->
 
 * Vous pouvez définir une connexion à un système afin de récupérer des informations supplémentaires qui seront utilisées dans vos parcours, par exemple dans vos conditions. Cette connexion repose sur une **source de données**. [En savoir plus](../datasource/about-data-sources.md)
 
-  ![](assets/jo-datasource.png)
+<!--   ![](assets/jo-datasource.png)  -->
 
 * Journey Optimizer est fourni avec des fonctionnalités [message intégré](../building-journeys/journeys-message.md). Si vous utilisez un système tiers pour envoyer vos messages, vous pouvez **créer une action personnalisée**. En savoir plus dans cette [section](../action/action.md).
 
-  ![](assets/custom2.png)
+<!--    ![](assets/custom2.png)  -->
 
 
 Les ingénieurs de données peuvent consulter [cette section](../configuration/about-data-sources-events-actions.md) pour en savoir plus sur la procédure de configuration des parcours, y compris les sources de données, les événements et les actions.
