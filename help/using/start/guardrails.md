@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: 9cab78c89d0885b6da6b43a444754e9ad1e17ae0
+source-git-commit: 82a73c9e6d03563ce9dcc5bd4eaa8eb1166caf1f
 workflow-type: tm+mt
 source-wordcount: '2335'
 ht-degree: 93%
@@ -42,7 +42,7 @@ Depuis février 2025, un mécanisme de sécurisation de durée de vie (TTL) est 
 
 Cette modification sera déployée dans les **sandbox client existants** lors d’une phase ultérieure. [En savoir plus sur les mécanismes de sécurisation de durée de vie (TTL) des jeux de données](../data/datasets-ttl.md)
 
-## Mécanismes de sécurisation de canal {#channel-guardrails}
+## Mécanismes de sécurisation des canaux {#channel-guardrails}
 
 ### Mécanismes de sécurisation des e-mails {#message-guardrails}
 
