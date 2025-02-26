@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: paramètres, e-mail, configuration
 exl-id: 5a12280c-b937-4cd9-a1ef-563bab48e42e
-source-git-commit: 2bb24061d05bc4cabc8565d35cd49be5314c056a
+source-git-commit: 5f7e9556a27fb12618f8da35da5427de3a0867dc
 workflow-type: tm+mt
-source-wordcount: '401'
-ht-degree: 100%
+source-wordcount: '402'
+ht-degree: 93%
 
 ---
 
@@ -28,11 +28,7 @@ ht-degree: 100%
 >title="Prévisualiser les paramètres de tracking d’URL"
 >abstract="Prévisualisez comment les paramètres de tracking seront ajoutés aux adresses URL présentes dans votre contenu d’e-mail."
 
-Lors de la configuration d’une nouvelle [configuration du canal e-mail](email-settings.md), vous pouvez définir des **[!UICONTROL paramètres de tracking d’URL]** pour mesurer l’efficacité de vos efforts marketing sur l’ensemble des canaux.
-
->[!NOTE]
->
->Cette fonctionnalité est facultative.
+Lors de la configuration d’une nouvelle [configuration du canal e-mail](email-settings.md), vous pouvez définir des **[!UICONTROL paramètres de tracking d’URL]** pour mesurer l’efficacité de vos efforts marketing sur l’ensemble des canaux. L’activation de cette fonctionnalité est facultative.
 
 Les paramètres définis dans cette section seront ajoutés à la fin des URL incluses dans le contenu de votre e-mail. Vous pouvez ensuite capturer ces paramètres dans des outils d’analyse web tels qu’Adobe Analytics ou Google Analytics, et créer divers rapports de performances.
 
