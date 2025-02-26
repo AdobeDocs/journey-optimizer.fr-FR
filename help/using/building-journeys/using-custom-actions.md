@@ -9,10 +9,10 @@ role: User, Developer
 level: Intermediate
 keywords: action, personnalisé, API, parcours, configuration, service
 exl-id: 2b1b3613-3096-43ec-a860-600dda1d83b2
-source-git-commit: 0571a11eabffeb5e318bebe341a8df18da7db598
+source-git-commit: 8b96c9d4698dc58abdc5ae0261db92b0ce708597
 workflow-type: tm+mt
-source-wordcount: '398'
-ht-degree: 100%
+source-wordcount: '412'
+ht-degree: 91%
 
 ---
 
@@ -23,7 +23,11 @@ ht-degree: 100%
 >title="Actions personnalisées "
 >abstract="Les actions personnalisées vous permettent de configurer la connexion d&#39;un système tiers pour envoyer des messages ou des appels d&#39;API. Une action peut être configurée avec n&#39;importe quel service de n&#39;importe quel fournisseur qui peut être appelé via une API REST avec un payload au format JSON."
 
-Les actions personnalisées vous permettent de configurer la connexion d&#39;un système tiers pour envoyer des messages ou des appels d&#39;API. Une action peut être configurée avec n&#39;importe quel service de n&#39;importe quel fournisseur qui peut être appelé via une API REST avec un payload au format JSON.
+Utilisez des actions personnalisées pour activer la connexion à un système tiers afin d’envoyer des messages ou des appels d’API. Une action peut être configurée avec n&#39;importe quel service de n&#39;importe quel fournisseur qui peut être appelé via une API REST avec un payload au format JSON.
+
+En savoir plus sur les actions personnalisées dans [cette section](../action/action.md).
+
+Découvrez comment créer et configurer une action personnalisée sur [cette page](../action/about-custom-action-configuration.md).
 
 ## Consentement et gouvernance des données {#privacy}
 
@@ -67,6 +71,3 @@ Pour spécifier la valeur des champs d’en-tête dynamique et de paramètres de
 
 Dans la section **[!UICONTROL Paramètres d’action]**, vous verrez les paramètres de message définis comme _« Variable »_. Pour ces paramètres, vous pouvez définir où obtenir ces informations (événements, sources de données, par exemple), transmettre des valeurs manuellement ou utiliser l’éditeur d’expression avancé pour des cas d’utilisation avancés. Les cas d’utilisation avancés peuvent être la manipulation de données et d’autres utilisations de la fonction. Voir cette [page](expression/expressionadvanced.md).
 
-**Rubriques connexes**
-
-[Configurer une action](../action/about-custom-action-configuration.md)
