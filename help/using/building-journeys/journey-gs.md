@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: parcours, premier, commencer, démarrage rapide, audience, événement, action
 exl-id: d940191e-8f37-4956-8482-d2df0c4274aa
-source-git-commit: 93dab17fc74396887e3b68051be777645e02709f
+source-git-commit: 5f48c3df14768e699e174e5a3539438e9b774e1a
 workflow-type: tm+mt
 source-wordcount: '711'
 ht-degree: 45%
@@ -38,7 +38,9 @@ Les étapes principales de création d’un parcours sont présentées dans cett
 ![étapes de création de parcours : création, conception, test et publication](assets/journey-creation-process.png)
 
 
-La création de parcours clients à plusieurs étapes lance une séquence d’interactions, d’offres et de messages sur plusieurs canaux en temps réel. Cette approche garantit que les clients sont engagés aux moments optimaux en fonction de leurs actions et des signaux commerciaux pertinents. Les audiences cibles peuvent être définies en fonction du comportement, des données contextuelles et des événements métier. Les prérequis dépendent de votre cas d’utilisation et du [ type de parcours ](entry-management.md#types-of-journeys) vous créez. Avant de commencer à concevoir votre parcours, vérifiez que les étapes de configuration appropriées sont effectuées :
+La création de parcours clients à plusieurs étapes lance une séquence d’interactions, d’offres et de messages sur plusieurs canaux en temps réel. Cette approche garantit que les clients sont engagés aux moments optimaux en fonction de leurs actions et des signaux commerciaux pertinents. Les audiences cibles peuvent être définies en fonction du comportement, des données contextuelles et des événements métier. Les prérequis dépendent de votre cas d’utilisation et du [ type de parcours ](entry-management.md#types-of-journeys) vous créez.
+
+Avant de commencer à créer votre parcours, vérifiez que les étapes de configuration appropriées sont effectuées :
 
 * Si vous souhaitez déclencher vos parcours une fois qu’un événement est reçu, vous devez **configurer un événement**. Vous devez définir les informations attendues et comment les traiter. [En savoir plus](../event/about-events.md).
 
