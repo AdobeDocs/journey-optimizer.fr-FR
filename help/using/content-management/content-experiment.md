@@ -9,10 +9,10 @@ role: User
 level: Beginner
 keywords: contenu, expérience, multiple, audience, traitement
 exl-id: bd35ae19-8713-4571-80bc-5f40e642d121
-source-git-commit: 824926a3448acc57ed10074a92cc283cb8bbb658
-workflow-type: ht
-source-wordcount: '748'
-ht-degree: 100%
+source-git-commit: c1dc65616219520a72416a62399f7c2dbca7ca77
+workflow-type: tm+mt
+source-wordcount: '746'
+ht-degree: 95%
 
 ---
 
@@ -21,13 +21,13 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_content_experiment"
 >title="Expérience de contenu"
->abstract="Vous pouvez choisir de varier le contenu, l’objet ou la personne expéditrice du message, afin de définir plusieurs traitements et déterminer la meilleure combinaison pour vos audiences."
+>abstract="Vous pouvez choisir de varier le contenu ou l’objet du message afin de définir plusieurs traitements et déterminer la meilleure combinaison pour vos audiences."
 
 >[!NOTE]
 >
 >Avant de commencer l’expérience de contenu, assurez-vous que votre configuration des rapports est définie pour vos jeux de données personnalisés. En savoir plus dans [cette section](../reports/reporting-configuration.md).
 
-L’expérience de contenu Journey Optimizer vous permet de définir plusieurs traitements de diffusion afin de mesurer celui qui fonctionne le mieux pour votre audience cible. Vous pouvez choisir de varier le contenu, l’objet ou l’expéditeur ou expéditrice de la diffusion. L’audience ciblée est attribuée de manière aléatoire à chaque traitement afin de déterminer lequel fonctionne le mieux en termes de mesure spécifiée.
+L’expérience de contenu Journey Optimizer vous permet de définir plusieurs traitements de diffusion afin de mesurer celui qui fonctionne le mieux pour votre audience cible. Vous pouvez choisir de varier le contenu ou l’objet de la diffusion. L’audience ciblée est attribuée de manière aléatoire à chaque traitement afin de déterminer lequel fonctionne le mieux en termes de mesure spécifiée.
 
 ![](../rn/assets/do-not-localize/experiment.gif)
 
