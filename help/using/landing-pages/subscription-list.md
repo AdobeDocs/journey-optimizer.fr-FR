@@ -9,10 +9,10 @@ role: User
 level: Beginner
 keywords: destination, page de destination, liste, abonnement, service
 exl-id: 5e5419a0-5121-4aa7-a975-b1f08e2918c9
-source-git-commit: 0000d5e4a11c316340382ea9b68f8252f109cb61
+source-git-commit: c66fe22f0cf81cf8e14592df1433739735afbe43
 workflow-type: tm+mt
-source-wordcount: '669'
-ht-degree: 62%
+source-wordcount: '673'
+ht-degree: 61%
 
 ---
 
@@ -98,7 +98,7 @@ Voici les statuts possibles :
 
 ## Surveiller vos listes d’abonnements {#monitor-subscription-lists}
 
-Vous pouvez surveiller les impacts de votre liste d’abonnements au moyen de rapports dédiés. Vous pouvez accéder à :
+Vous pouvez surveiller les impacts de votre liste d’abonnements au moyen de rapports dédiés. Vous pouvez accéder à deux types de rapports :
 
 * Rapport dynamique sur les listes d’abonnements
 
