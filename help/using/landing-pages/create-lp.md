@@ -9,24 +9,20 @@ role: User
 level: Beginner
 keywords: destination, page de destination, création, publication
 exl-id: 18f9bdff-f5c6-4601-919d-4f3124e484b5
-source-git-commit: 47b549f3e1e220b7e8f0c82d9a1f9ecfd5dd2340
+source-git-commit: 4a9034c0c875cd504e25c8eb22a2715004416ea1
 workflow-type: tm+mt
-source-wordcount: '1729'
-ht-degree: 100%
+source-wordcount: '1712'
+ht-degree: 97%
 
 ---
 
 # Créer et publer des pages de destination {#create-lp}
 
->[!CAUTION]
->
->Pour pouvoir tester et publier des pages de destination, vous devez disposer de l’autorisation **[!UICONTROL Publier des messages]**.
-
 Pour diriger vos clientes et clients vers une page web définie que vous souhaitez afficher lorsqu’ils cliquent sur un lien spécifique, créez une page de destination dans [!DNL Journey Optimizer], configurez la page principale et les sous-pages, puis testez-la et publiez-la.
 
->[!CAUTION]
->
->Vous ne pouvez pas accéder à votre page de destination en copiant-collant dans un navigateur web l’URL définie lors de la [création de la page](#create-landing-page), même si elle est publiée. Vous pouvez plutôt la tester à l’aide de la fonction de prévisualisation, comme décrit dans [cette section](#test-landing-page).
+Suivez les étapes principales de création de pages de destination décrites ci-après :
+
+![](assets/lp-creation-process.png)
 
 ## Accéder aux pages de destination {#access-landing-pages}
 
@@ -71,9 +67,11 @@ Vous pouvez accéder à plusieurs actions à partir de cette liste. Cliquez sur 
 >abstract="Pour protéger les ressources numériques sensibles, vous pouvez définir des autorisations afin de gérer l&#39;accès aux données de votre page de destination à l&#39;aide de libellés."
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/access-control/object-based-access.html?lang=fr" text="Contrôle d’accès au niveau des objets"
 
-Suivez les étapes principales de création de pages de destination décrites ci-après :
 
-![](assets/lp-creation-process.png)
+Pour créer une page de destination, vous devez sélectionner un préréglage, puis configurer la page principale et les sous-pages, et enfin tester la page avant de la publier. Ces étapes sont détaillées ci-dessous :
+
+
+1. Accédez à **[!UICONTROL Gestion de contenu]** > **[!UICONTROL Pages de destination]** à partir du menu de gauche.
 
 1. Dans la liste des pages de destination, cliquez sur **[!UICONTROL Créer une page de destination]**.
 
@@ -290,7 +288,8 @@ Deux types d’alertes peuvent avoir lieu :
 
 >[!CAUTION]
 >
->Pour pouvoir publier des pages de destination, vous devez disposer de l’autorisation **[!UICONTROL Publier des messages]**.
+>Pour publier des pages de destination, les utilisateurs doivent disposer de l’autorisation **[!UICONTROL Publier des messages]**.
+
 
 Une fois votre page de destination configurée, vous pouvez la publier pour quʼelle puisse être utilisée dans un message.
 
