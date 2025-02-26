@@ -8,10 +8,10 @@ topic: Content Management
 role: Data Engineer, Data Architect, Admin
 level: Experienced
 exl-id: 26ad12c3-0a2b-4f47-8f04-d25a6f037350
-source-git-commit: 1a3e09c87b3edeedd1b7558314cf413ea0b2c9d9
+source-git-commit: 2e1168f321d6f2c83733c6112e11d834d5e7eb95
 workflow-type: tm+mt
 source-wordcount: '1486'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -429,7 +429,7 @@ GROUP BY DATE(timestamp)
 ORDER BY DATE(timestamp) desc
 ```
 
-La requête renvoie, pour la période définie, le nombre de profils ayant rejoint le parcours chaque jour. Si un profil a rejoint le parcours via plusieurs identités, il sera comptabilisé deux fois. Si la rentrée est activée, le nombre de profils peut être dupliqué sur plusieurs jours si le profil a rejoint le parcours un autre jour.
+La requête renvoie, pour la période définie, le nombre de profils ayant rejoint le parcours chaque jour. Si un profil a rejoint le parcours via plusieurs identités, il sera comptabilisé deux fois. Si la reprise est activée, le nombre de profils peut être dupliqué sur différents jours s’il est entré à nouveau dans le parcours un autre jour.
 
 ## Requêtes relatives à la lecture d’audience {#read-segment-queries}
 

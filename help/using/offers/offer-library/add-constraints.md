@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 7234a8e8-4ab0-4f17-a833-5e452fadac35
-source-git-commit: 0362cb5af7845333d5657829b073881e1ee3c542
+source-git-commit: 2e1168f321d6f2c83733c6112e11d834d5e7eb95
 workflow-type: tm+mt
 source-wordcount: '2636'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -61,7 +61,7 @@ Par exemple, si vous définissez les contraintes suivantes :
 
 * L’offre sera prise en compte uniquement pour les utilisateurs qui correspondent à la règle de décision « Clients fidèles Gold ».
 * La priorité de l’offre est définie sur « 50 », ce qui signifie que l’offre sera présentée avant les offres dont la priorité est comprise entre 1 et 49, et après celles dont la priorité est d’au moins 51.
-* L’offre ne sera présentée qu’une seule fois par mois, pour chaque personne utilisatrice, à tous les emplacements.
+* L’offre ne sera présentée qu’une seule fois par mois, pour chaque utilisateur, à tous les emplacements.
 
 ## Admissibilité {#eligibility}
 
@@ -217,7 +217,7 @@ Le champ **[!UICONTROL Choisir l’événement de limitation]** vous permet de d
 
 ### Type de limitation {#capping-type}
 
-Vous pouvez indiquer si vous souhaitez que la limitation soit appliquée à tous les utilisateurs et utilisatrices ou à un seul profil spécifique :
+Vous pouvez indiquer si vous souhaitez que la limitation soit appliquée à tous les utilisateurs et utilisatrices ou à un profil spécifique :
 
 ![](../assets/offer-capping-total.png)
 
