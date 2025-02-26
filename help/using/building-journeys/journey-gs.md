@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: parcours, premier, commencer, démarrage rapide, audience, événement, action
 exl-id: d940191e-8f37-4956-8482-d2df0c4274aa
-source-git-commit: 3984009b7bf78673fa46481e26d75fae1bb007ea
+source-git-commit: 7adee85117a3aad1a347f9f0808b0f32531dc548
 workflow-type: tm+mt
-source-wordcount: '761'
-ht-degree: 65%
+source-wordcount: '711'
+ht-degree: 45%
 
 ---
 
@@ -32,33 +32,29 @@ Adobe Journey Optimizer comprend une zone de travail d’orchestration omnicanal
 
 ![exemple de zone de travail de parcours ](assets/journey38.png)
 
-Créez des parcours client à plusieurs étapes qui lancent une séquence d’interactions, d’offres et de messages sur plusieurs canaux en temps réel. Cette approche garantit que les clients sont engagés aux moments optimaux en fonction de leurs actions et des signaux commerciaux pertinents.
 
 Les étapes principales de création d’un parcours sont présentées dans cette page. Elles sont simplifiées comme suit :
 
 ![étapes de création de parcours : création, conception, test et publication](assets/journey-creation-process.png)
 
 
-## Conditions préalables {#start-prerequisites}
+La création de parcours clients à plusieurs étapes lance une séquence d’interactions, d’offres et de messages sur plusieurs canaux en temps réel. Cette approche garantit que les clients sont engagés aux moments optimaux en fonction de leurs actions et des signaux commerciaux pertinents. Les audiences cibles peuvent être définies en fonction du comportement, des données contextuelles et des événements métier. Les prérequis dépendent de votre cas d’utilisation et du [ type de parcours ](entry-management.md#types-of-journeys) vous créez. Avant de commencer à concevoir votre parcours, vérifiez que les étapes de configuration appropriées sont effectuées :
 
-Pour envoyer des messages avec des parcours, les prérequis suivants sont nécessaires :
+* Si vous souhaitez déclencher vos parcours une fois qu’un événement est reçu, vous devez **configurer un événement**. Vous devez définir les informations attendues et comment les traiter. [En savoir plus](../event/about-events.md).
 
-1. **Configurer un événement** : si vous souhaitez déclencher vos parcours une fois qu&#39;un événement est reçu, vous devez configurer un événement. Vous devez définir les informations attendues et comment les traiter. Cette étape est effectuée par un **utilisateur technique**. [En savoir plus](../event/about-events.md).
+  ![](assets/jo-event7bis.png)
 
-   ![](assets/jo-event7bis.png)
+* Votre parcours peut également écouter les audiences Adobe Experience Platform afin d’envoyer des messages par lots à un ensemble de profils spécifié. Pour cela, vous devez **créer des audiences**. [En savoir plus](../audience/about-audiences.md).
 
-1. **Créer une audience** : votre parcours peut également écouter les audiences Adobe Experience Platform afin d’envoyer des messages par lots à un ensemble de profils spécifié. Pour cela, vous devez créer des audiences. [En savoir plus](../audience/about-audiences.md).
+  ![](assets/segment2.png)
 
-   ![](assets/segment2.png)
+* Vous pouvez définir une connexion à un système afin de récupérer des informations supplémentaires qui seront utilisées dans vos parcours, par exemple dans vos conditions. Cette connexion repose sur une **source de données**. [En savoir plus](../datasource/about-data-sources.md)
 
-1. **Configurer la source de données** : vous devez définir une connexion à un système pour récupérer des informations supplémentaires qui seront utilisées pour vos parcours, par exemple dans vos conditions. Une source de données Adobe Experience Platform intégrée est également définie au moment de l&#39;approvisionnement. Cette étape n&#39;est pas obligatoire si vous n&#39;exploitez que les données des événements de votre parcours. Cette étape est effectuée par un **utilisateur technique**. [En savoir plus](../datasource/about-data-sources.md)
+  ![](assets/jo-datasource.png)
 
-   ![](assets/jo-datasource.png)
+* Journey Optimizer est fourni avec des fonctionnalités [message intégré](../building-journeys/journeys-message.md). Si vous utilisez un système tiers pour envoyer vos messages, vous pouvez **créer une action personnalisée**. En savoir plus dans cette [section](../action/action.md).
 
-1. **Configurer une action** : si vous utilisez un système tiers pour envoyer vos messages, vous pouvez créer une action personnalisée. En savoir plus dans cette [section](../action/action.md). Cette étape est effectuée par un **utilisateur technique**. Si vous utilisez les fonctionnalités de message intégrées à Journey Optimizer, vous devez simplement ajouter une action de canal à votre parcours et concevoir votre contenu.
-
-   ![](assets/custom2.png)
-
+  ![](assets/custom2.png)
 
 
 Les ingénieurs de données peuvent consulter [cette section](../configuration/about-data-sources-events-actions.md) pour en savoir plus sur la procédure de configuration des parcours, y compris les sources de données, les événements et les actions.
@@ -68,7 +64,7 @@ Les ingénieurs de données peuvent consulter [cette section](../configuration/a
 >
 >Les mécanismes de sécurisation et limitations des parcours sont détaillés sur [cette page](../start/guardrails.md).
 
-## Création d’un parcours à plusieurs étapes {#jo-build}
+## Créer un parcours {#jo-build}
 
 Pour créer un parcours à plusieurs étapes, procédez comme suit :
 
