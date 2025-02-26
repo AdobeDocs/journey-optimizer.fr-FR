@@ -6,10 +6,10 @@ topic: Content Management
 role: Admin
 level: Experienced
 exl-id: 1aff2f6f-914c-4088-afd8-58bd9edfe07d
-source-git-commit: bf0a6fa496a08348be16896a7f2313882eb97c06
+source-git-commit: 890d3925a418c117451864558be92030a3a0f87f
 workflow-type: tm+mt
 source-wordcount: '1073'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -66,7 +66,7 @@ Pour créer une configuration de canal d’expérience basée sur du code, proc�
    >
    >Vous pouvez sélectionner plusieurs plateformes. Lorsque vous sélectionnez plusieurs plateformes, le contenu est diffusé sur toutes les pages ou applications sélectionnées.
 
-1. Sélectionnez le format attendu par l’application à cet emplacement spécifique. Cela sera utilisé lors de la création de l’expérience basée sur du code dans les campagnes et les parcours.
+1. Sélectionnez le format attendu par l’application à cet emplacement spécifique. Elle sera utilisée lors de la création de l’expérience basée sur le code dans les campagnes et les parcours.
 
    ![](assets/code_config_4.png)
 
