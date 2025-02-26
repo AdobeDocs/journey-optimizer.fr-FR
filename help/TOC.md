@@ -5,10 +5,10 @@ user-guide-title: Guide de Journey Optimizer
 user-guide-description: Utilisez Journey Optimizer pour créer et proposer aux clients des expériences connectées, contextuelles et personnalisées
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 05dc60a4eb33be91ba9cc7b4897fa1f28b5557b6
+source-git-commit: d498f32a42b13bfdee20f32a589dd31c77d88fa8
 workflow-type: tm+mt
-source-wordcount: '2168'
-ht-degree: 93%
+source-wordcount: '2175'
+ht-degree: 92%
 
 ---
 
@@ -169,7 +169,7 @@ ht-degree: 93%
          + [Transmettre des collections de manière dynamique à l’aide d’actions personnalisées](using/building-journeys/collections.md)
          + [Accélérer les diffusions](using/building-journeys/ramp-up-deliveries-uc.md)
          + [Limiter le débit avec les sources de données externes et les actions personnalisées](using/building-journeys/limit-throughput.md)
-         + [Utiliser des actions personnalisées pour écrire des événements de parcours dans Experience Platform](using/building-journeys/custom-action-aep.md)
+         + [Utilisation d’actions personnalisées pour écrire des événements de parcours dans Experience Platform](using/building-journeys/custom-action-aep.md)
 + Campagnes{#campaigns}
    + [Commencer avec les campagnes](using/campaigns/get-started-with-campaigns.md)
    + [Création d’une campagne](using/campaigns/create-campaign.md)
@@ -683,17 +683,17 @@ ht-degree: 93%
          + [Configuration d’un événement métier](using/event/about-creating-business.md)
          + [Étapes supplémentaires pour l’envoi d’événements](using/event/additional-steps-to-send-events-to-journey.md)
       + Configuration des sources de données{#data-source-journeys}
-         + [À propos des sources de données](using/datasource/about-data-sources.md)
+         + [Prise en main des sources de données](using/datasource/about-data-sources.md)
          + [Configurer une source de données](using/datasource/configure-data-sources.md)
          + [Source de données Adobe Experience Platform](using/datasource/adobe-experience-platform-data-source.md)
          + [Sources de données externes](using/datasource/external-data-sources.md)
       + Configuration des actions {#action-journeys}
-         + [À propos des actions](using/action/action.md)
-         + [Configuration d’une action](using/action/about-custom-action-configuration.md)
-         + [Résolution des problèmes liés à l’action personnalisée](using/action/troubleshoot-custom-action.md)
+         + [Prise en main des actions personnalisées](using/action/action.md)
+         + [Configurer une action personnalisée](using/action/about-custom-action-configuration.md)
+         + [Résolution des problèmes liés à une action personnalisée](using/action/troubleshoot-custom-action.md)
+         + [Utiliser des réponses d’appel API dans des actions personnalisées](using/action/action-response.md)
          + [Intégration à Adobe Campaign Standard](using/action/acs-action.md)
          + [Intégration à Adobe Campaign v7/v8](using/action/acc-action.md)
-         + [Utiliser des réponses d’appel API dans des actions personnalisées](using/action/action-response.md)
          + [Intégration à Marketo Engage](using/action/marketo-engage.md)
    + [Sources](using/start/get-started-sources.md)
    + [Exporter des objets vers un autre sandbox](using/configuration/copy-objects-to-sandbox.md)
