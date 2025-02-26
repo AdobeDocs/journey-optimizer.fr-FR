@@ -9,10 +9,10 @@ role: User
 level: Beginner
 keywords: destination, page de destination, création, publication
 exl-id: 18f9bdff-f5c6-4601-919d-4f3124e484b5
-source-git-commit: 4a9034c0c875cd504e25c8eb22a2715004416ea1
+source-git-commit: 2f8c59a3c07dfc772cb62efe5665189d7a176d6f
 workflow-type: tm+mt
-source-wordcount: '1712'
-ht-degree: 97%
+source-wordcount: '1723'
+ht-degree: 90%
 
 ---
 
@@ -30,29 +30,28 @@ Pour accéder à la liste des pages de destination, sélectionnez **[!UICONTROL 
 
 ![](assets/lp_access-list.png)
 
-La liste des **[!UICONTROL pages de destination]** affiche tous les éléments créés. Vous pouvez les filtrer selon leur statut, leur date de modification ou leurs balises.
+La liste **[!UICONTROL Pages de destination]** affiche toutes les pages de destination existantes. Vous pouvez les filtrer selon leur statut, leur date de modification ou leurs balises.
 
 ![](assets/lp_access-list-filter.png)
 
-Vous pouvez accéder à plusieurs actions à partir de cette liste. Cliquez sur les trois points à côté d’une page de destination pour sélectionner l’action souhaitée :
+Depuis cette liste, vous pouvez également dupliquer, supprimer, dépublier une page de destination ou accéder aux rapports sur les pages de destination. Pour ce faire, cliquez sur les trois points en regard d’une page de destination et sélectionnez l’action souhaitée :
 
 ![](assets/lp_access-list-actions.png)
 
-* Pour les éléments publiés, vous pouvez accéder au [rapport de page de destination](../reports/lp-report-global-cja.md) ou au [rapport en direct sur les dernières 24 heures](../reports/lp-report-live.md).
 
-* Vous pouvez supprimer ou dupliquer une page de destination.
+Vous pouvez effectuer les actions suivantes :
 
-  >[!NOTE]
-  >
-  >Vous ne pouvez pas supprimer une page de destination [publiée](#publish-landing-page). Pour la supprimer, vous devez d’abord la dépublier.
+* Accédez aux **rapports** suivants pour les pages de destination publiées : [rapport sur la page de destination](../reports/lp-report-global-cja.md) et [rapport dynamique sur les dernières 24 heures](../reports/lp-report-live.md).
 
-* Vous ne pouvez pas dépublier une page de destination publiée.
+* **Supprimer** ou **dupliquer** une landing page. Vous ne pouvez pas supprimer une page de destination [publiée](#publish-landing-page). Pour le supprimer, vous devez d’abord **dépublier**.
+
+* **Dépublier** page de destination.
 
   >[!CAUTION]
   >
-  >Si vous dépubliez une page de destination référencée dans un message, le lien vers celle-ci est rompu et une page d’erreur s’affiche.
+  >Si vous dépubliez une page de destination référencée dans un message, le lien vers celle-ci est rompu et les utilisateurs et utilisatrices reçoivent une page d’erreur s’ils ou elles tentent d’y accéder.
 
-* Vous pouvez également modifier les [balises](../start/search-filter-categorize.md#tags) associées à une page de destination.
+* Modifiez les [balises](../start/search-filter-categorize.md#tags) associées à une page de destination.
 
 ## Créer une page de destination {#create-landing-page}
 
