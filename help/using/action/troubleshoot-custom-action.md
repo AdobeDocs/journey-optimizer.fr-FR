@@ -9,13 +9,13 @@ topic: Administration
 role: Data Engineer, Data Architect, Admin
 level: Experienced
 keywords: action, tiers, personnalisé, parcours, API
-source-git-commit: d6501c8cc7e3293bd6a057d8e74654bced7dae75
+exl-id: c0bb473a-82dc-4604-bd8a-020447ac0c93
+source-git-commit: 4cedc368d630c0932782ac031fdd904e9b003fa0
 workflow-type: tm+mt
-source-wordcount: '582'
+source-wordcount: '580'
 ht-degree: 3%
 
 ---
-
 
 # Résolution des problèmes liés aux actions personnalisées {#troubleshoot-a-custom-action}
 
@@ -71,7 +71,7 @@ Lorsqu’une action personnalisée inclut une authentification, Adobe Journey Op
 
 * **Authentification de base :** l’utilisateur doit fournir le *mot de passe*.
 * **Authentification de la clé API :** l’utilisateur doit saisir la clé API *valeur*.
-* **Authentification personnalisée :** l’utilisateur doit fournir les paramètres d’authentification dans la requête *bodyParam*. Deux sections à compléter sont ajoutées dans ce cas : **Requête d’authentification** et **Réponse d’authentification**.
+* **Authentification personnalisée :** l’utilisateur doit fournir les paramètres d’authentification dans la requête *bodyParam*. Deux sections sont ajoutées dans ce cas : **Requête d’authentification** et **Réponse d’authentification**.
 
 ## Avantages clés {#troubleshoot-custom-action-benefits}
 
@@ -94,4 +94,3 @@ Si la requête échoue, vous pouvez vérifier les éléments suivants :
 * La méthode de requête (GET ou POST) et la payload correspondante.
 * Point d’entrée de l’API et en-têtes définis dans l’action personnalisée.
 * Utilisez les données de réponse pour identifier les erreurs de configuration potentielles.
-
