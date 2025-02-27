@@ -9,10 +9,10 @@ role: Admin, User
 level: Intermediate
 keywords: autorisations, création, messages
 exl-id: 5d014017-ca7c-4206-b783-989677ec0e1c
-source-git-commit: da46230b9a086743fea1052b57b48bf18b920abd
+source-git-commit: 5c84bc726d50df555b9a156233c70f08f3febaba
 workflow-type: tm+mt
-source-wordcount: '903'
-ht-degree: 97%
+source-wordcount: '934'
+ht-degree: 94%
 
 ---
 
@@ -39,6 +39,7 @@ Les autorisations intégrées représentent les différentes autorisations qui p
 | Bibliothèque Journey Optimizer | **[!DNL Manage Library Items]** : ajout et suppression des expressions enregistrées dans la bibliothèque [!DNL Journey Optimizer].</br>**[!DNL Simulate content]** : accéder à l’option Simuler du contenu pour l’aperçu et le BAT.</br>**[!DNL Publish fragments]** : publiez des fragments de contenu. |
 | Règles Journey Optimizer | **[!DNL Manage frequency rules]** : accès, création, modification ou suppression des règles de fréquence des messages.</br>**[!DNL View frequency rules]** : accès en lecture seule aux règles. |
 | Parcours | **[!DNL Approve & publish Journeys]** : droit d’approuver et de publier des parcours lorsqu’une politique est appliquée. </br> **[!DNL Manage journeys]** : lecture, création, modification et suppression des parcours. Pour accéder aux parcours et les gérer, combinez cette autorisation à **[!DNL View journeys events, data sources and actions]**.</br>**[!DNL Manage journeys events, data sources and actions]** : lecture, création, modification et suppression des événements, des sources ou des actions.</br>**[!DNL Publish journeys]** : publication des parcours.</br>**[!DNL View journeys]** : accès en lecture seule aux parcours.</br>**[!DNL View journeys events, data sources and actions]** : accès en lecture seule aux événements de parcours, aux actions personnalisées de parcours et aux sources de données de parcours.</br>**[!DNL View journeys report]** : lecture et modification du rapport de parcours.</br> |
+| Messages | **[!DNL Manage messages]** : la lecture, la création, la modification et la suppression des messages. </br>**[!DNL Manage messages preview and test]**: droit pour approuver et publier des messages lorsqu&#39;une politique est appliquée.</br>**[!DNL Publish messages]** : droit pour publier des messages.</br>**[!DNL View messages]**: accès en lecture seule aux messages.</br>**[!DNL View messages report]** : la lecture et la modification des rapports de messages. |
 | Gestion des profils | **[!DNL Evaluate a segment to an audience]** : génération de profils pour une audience en évaluant une définition de segment.</br>**[!DNL Export audience segments]** : export d’un segment d’audience évalué vers un jeu de données.</br>**[!DNL Manage merge policies]** : lecture, création, modification et suppression des politiques de fusion.</br>**[!DNL Manage profiles]**: lecture, création, modification et suppression des jeux de données utilisés pour les profils de clients et clientes. Accès en lecture seule aux profils disponibles.</br>**[!DNL View merge policies]** : accès en lecture seule aux politiques de fusion disponibles.</br>**[!DNL View profiles]** : accès en lecture seule aux profils disponibles.</br>**[!DNL View segments]** : accès en lecture seule aux audiences disponibles. |
 | Query Service | **[!DNL Manage queries]** : lecture, création, modification et suppression des requêtes SQL structurées pour les données Platform.</br>**[!DNL Manage query service integration]** : création, mise à jour et suppression des informations dʼidentification sans date dʼexpiration pour lʼaccès à Query Service. |
 | Rapports | **[!DNL View channel reports]** : lecture et modification des rapports de canal. |
