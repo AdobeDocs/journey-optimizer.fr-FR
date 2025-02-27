@@ -9,10 +9,10 @@ role: Admin, User
 level: Intermediate
 keywords: autorisations, création, messages
 exl-id: 5d014017-ca7c-4206-b783-989677ec0e1c
-source-git-commit: 5cfae89416219fac54d310d9fa3f40fdfdd8878e
+source-git-commit: da46230b9a086743fea1052b57b48bf18b920abd
 workflow-type: tm+mt
 source-wordcount: '903'
-ht-degree: 99%
+ht-degree: 97%
 
 ---
 
@@ -28,7 +28,7 @@ Les autorisations intégrées représentent les différentes autorisations qui p
 | Tableaux de bord | **[!DNL View license usage dashboards]** : accès en lecture seule au [tableau de bord de l’utilisation des licences](../audience/license-usage.md). </br>**[!DNL Manage custom dashboards]** : permet de créer un tableau de bord ou de modifier un tableau de bord existant.</br>**[!DNL Manage standard dashboards]** : permet de créer des widgets personnalisés et de modifier le schéma de widget par le biais de la bibliothèque de widgets.</br>**[!DNL View custom dashboards]** : accès en lecture seule aux tableaux de bord définis par l’utilisateur ou l’utilisatrice.</br>**[!DNL View standard dashboards]** : l’accès en lecture seule aux tableaux de bord Profils, Destinations et Audiences. |
 | Collecte de données | **[!DNL Manage datastream]** : lecture, création et modification des trains de données.</br>**[!DNL View datastream]** : accès en lecture seule aux trains de données. |
 | Gouvernance des données | **[!DNL Manage usage labels]** : lecture, création, modification et suppression des libellés.</br>**[!DNL Manage data usage policies]** : la lecture, la ccréation, la modification et la suppression des politiques dʼutilisation des données.</br>**[!DNL View data usage policies]** : accès en lecture seule aux politiques dʼutilisation des données appartenant à votre organisation.</br>**[!DNL View user activity log]** : accès en lecture seule aux logs d’audit enregistrés des activités de Platform. |
-| Hygiène des données | **[!DNL Manage data hygiene]** : lecture, création, modification et suppression de lʼhygiène des données.</br>**[!DNL View data hygiene]** : accès en lecture seule à l’hygiène des données. |
+| Cycle de vie des données | **[!DNL Manage data lifecycle]** : lecture, création, modification et suppression du cycle de vie des données.</br>**[!DNL View data lifecycle]**: accès en lecture seule au cycle de vie des données. |
 | Ingestion de données | **[!DNL Manage sources]** : lecture, création, modification et désactivation de sources.</br>**[!DNL View sources]** : accès en lecture seule aux sources disponibles dans l’onglet Catalogue et aux sources authentifiées dans l’onglet Parcourir. |
 | Gestion des données | **[!DNL Data monitoring]** : accès en lecture seule à la surveillance des jeux de données et des trains de données.</br>**[!DNL Manage datasets]** : lecture, création, modification et suppression des jeux de données. Accès en lecture seule aux schémas.</br>**[!DNL View datasets]** : accès en lecture seule aux jeux de données et aux schémas. |
 | Modélisation des données | **[!DNL Manage identity metadata]** : lecture, création, modification et suppression des métadonnées dʼidentité pour les schémas.</br> **[!DNL Manage relationships]** : lecture, création, modification et suppression des relations de schéma.</br>**[!DNL Manage schemas]** : lecture, création et modification des schémas de modèle de données d’expérience (XDM).</br>**[!DNL View schemas]** : accès en lecture seule aux schémas. |

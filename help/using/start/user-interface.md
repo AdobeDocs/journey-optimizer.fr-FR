@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
-source-git-commit: fa1b26900ca4cf56a3ad95429320d1f5e9c920ed
+source-git-commit: da46230b9a086743fea1052b57b48bf18b920abd
 workflow-type: tm+mt
 source-wordcount: '1361'
-ht-degree: 97%
+ht-degree: 96%
 
 ---
 
@@ -122,7 +122,7 @@ Contrôlez les demandes et la gestion concernant la confidentialité à partir d
 
 * **[!UICONTROL Audit]** - Accédez à cette section pour vérifier les journaux d’activité. [En savoir plus](../privacy/audit-logs.md).
 
-* **[!UICONTROL Hygiène des données]** - Cette section vous permet de configurer et de planifier les opérations d’hygiène des données, en veillant à ce que vos enregistrements soient correctement conservés. [En savoir plus](../privacy/data-hygiene.md)
+* **[!UICONTROL Cycle de vie des données]** - Cette section vous permet de configurer et de planifier les opérations du cycle de vie des données, en veillant à ce que vos enregistrements soient correctement conservés. [En savoir plus](../privacy/data-hygiene.md)
 
 ### [!UICONTROL ADMINISTRATION] {#left-nav-admin}
 
