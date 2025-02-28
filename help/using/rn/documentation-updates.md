@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: a35b8005592aa84dc9a3ac674129064d012e3a56
+source-git-commit: c5873b9ec8cf8302e3af0598245facf571513925
 workflow-type: tm+mt
-source-wordcount: '6153'
+source-wordcount: '6164'
 ht-degree: 97%
 
 ---
@@ -22,6 +22,7 @@ Cette page répertorie toutes les mises à jour récentes de la documentation de
 
 ## Février 2025 {#feb-2025}
 
+* Les mécanismes de sécurisation de parcours lors de l’utilisation des activités Campaign ont été mis à jour. [En savoir plus](../start/guardrails.md#ac-g)
 * Les étapes de création de vos premiers parcours ont été détaillées et des liens vers la section de documentation ont été ajoutés. [En savoir plus](../building-journeys/journey-gs.md)
 * Une nouvelle page est désormais disponible pour détailler le tableau de bord du parcours et l’interface utilisateur de filtrage. [En savoir plus](../building-journeys/journey-ui.md)
 * La documentation relative à l’**[!UICONTROL optimisation de l’heure d’envoi]** et ses questions fréquentes associées ont été mises à jour, enrichies et déplacées vers une nouvelle page dédiée. [En savoir plus](../building-journeys/send-time-optimization.md)
