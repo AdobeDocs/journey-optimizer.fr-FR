@@ -9,10 +9,10 @@ role: User, Developer, Data Engineer
 level: Experienced
 keywords: sandbox, parcours, copier, environnement
 exl-id: 356d56a5-9a90-4eba-9875-c7ba96967da9
-source-git-commit: 46c4d3081603115db71b01a05f12187cd7e0d34c
+source-git-commit: bf18b629c23f9ef48d53b0042d466ba7c1f57c78
 workflow-type: tm+mt
-source-wordcount: '1070'
-ht-degree: 98%
+source-wordcount: '1042'
+ht-degree: 97%
 
 ---
 
@@ -30,8 +30,6 @@ Le processus de copie est réalisé via un export de package et un import entre 
 
 1. Ajoutez l’objet à exporter en tant que package dans le sandbox source.
 1. Exportez le package vers le sandbox cible.
-
-En outre, vous pouvez tirer parti de l’**API REST du service de copie d’objet** Journey Optimizer pour gérer les objets des sandbox. [Découvrez comment utiliser l’API REST du service de copie d’objet.](https://developer.adobe.com/journey-optimizer-apis/references/sandbox/)
 
 ## Objets exportés et bonnes pratiques {#objects}
 
