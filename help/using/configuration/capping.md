@@ -8,10 +8,10 @@ role: User
 level: Beginner
 keywords: externe, API, optimizer, plafonnement
 exl-id: 377b2659-d26a-47c2-8967-28870bddf5c5
-source-git-commit: d4ecfecdc74c26890658d68d352c36b75f7c9039
+source-git-commit: 24e6d2baf3470df402550a031d26ba33887f4fb9
 workflow-type: tm+mt
-source-wordcount: '612'
-ht-degree: 100%
+source-wordcount: '621'
+ht-degree: 98%
 
 ---
 
@@ -153,6 +153,10 @@ En un seul appel d’API, vous pouvez annuler le déploiement et supprimer la co
 1. delete, avec le paramètre forceDelete
 
 Cas d’utilisation n°5 : **mise à jour d’une configuration de limitation déjà déployée**
+
+>[!NOTE]
+>
+>Vous devez redéployer en cas de mise à jour d’une configuration déjà déployée.
 
 1. list
 1. get
