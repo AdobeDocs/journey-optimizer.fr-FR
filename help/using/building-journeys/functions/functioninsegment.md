@@ -7,10 +7,10 @@ role: Data Engineer, Architect
 level: Experienced
 keywords: inSegment, fonction, expression, parcours
 exl-id: 8417af75-6e97-4ad4-86b4-3ecd264a5560
-source-git-commit: be372f8f80d304067748d539fb8e210df6280721
+source-git-commit: 85a8d0713f87a8b3505a2294402156ba6598c8bb
 workflow-type: tm+mt
-source-wordcount: '191'
-ht-degree: 100%
+source-wordcount: '183'
+ht-degree: 80%
 
 ---
 
@@ -26,13 +26,12 @@ Le nom de l’audience doit être une constante sous forme de chaîne. Il ne peu
 
 Les audiences sont définies dans [Adobe Experience Platform](https://platform.adobe.com/audience/overview). L’éditeur d’expression fournit une liste des audiences remplie automatiquement.
 
-Les audiences peuvent posséder trois statuts :
+Les audiences peuvent avoir deux statuts :
 
-* existant : lʼentité reste dans l’audience.
-* réalisé : lʼentité entre dans l’audience.
-* sorti : lʼentité quitte l’audience.
+* Réalisé : l’entité est admissible pour la définition de segment.
+* sorti : l’entité quitte la définition de segment.
 
-Seules les personnes présentant les statuts de participationd&#39;audience d’audience **Réalisé** et **Existant** sont considérés comme membres de l’audience. Pour plus d’informations sur l’évaluation d’une audience, consultez la [documentation du service de segmentation](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html?lang=fr#interpret-segment-results).
+Seuls les individus présentant le statut de participation **Réalisé** à l’audience seront considérés comme membres de l’audience. Pour plus d’informations sur l’évaluation d’une audience, consultez la [documentation du service de segmentation](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html?lang=fr#interpret-segment-results).
 
 `IF inSegment('segmentName') == true` signifie que vous avez un mappage segmentMembership avec le statut « entered/existing ».
 

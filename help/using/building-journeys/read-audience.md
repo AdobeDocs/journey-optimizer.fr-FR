@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: activité, parcours, lecture, audience, platform
 exl-id: 7b27d42e-3bfe-45ab-8a37-c55b231052ee
-source-git-commit: 75b7d7402363709a0790ffaae051cf836bed6c81
+source-git-commit: 85a8d0713f87a8b3505a2294402156ba6598c8bb
 workflow-type: tm+mt
-source-wordcount: '1635'
-ht-degree: 100%
+source-wordcount: '1633'
+ht-degree: 99%
 
 ---
 
@@ -73,7 +73,7 @@ Les étapes de configuration de l’activité Lecture d’audience sont les suiv
 
    >[!NOTE]
    >
-   >Seules les personnes présentant les statuts de participationd&#39;audience **Réalisé** et **Existant** rejoignent le parcours. Pour plus d’informations sur l’évaluation d’une audience, consultez la [documentation du service de segmentation](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html?lang=fr#interpret-segment-results){target="_blank"}.
+   >Seuls les individus présentant le statut de participation **Réalisé** à l’audience accéderont au parcours. Pour plus d’informations sur l’évaluation d’une audience, consultez la [documentation du service de segmentation](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html?lang=fr#interpret-segment-results){target="_blank"}.
 
 1. Dans le champ **[!UICONTROL Espace de noms]**, choisissez l’espace de noms à utiliser pour identifier les personnes. Par défaut, le champ est prérempli avec le dernier espace de noms utilisé. [En savoir plus sur les espace de noms](../event/about-creating.md#select-the-namespace).
 
