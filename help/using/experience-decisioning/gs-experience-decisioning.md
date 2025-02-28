@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 4c57dbf9-b2a4-42da-8aa3-5a1b3a475a32
-source-git-commit: b6c31528784c0c8576e3200e7611a6b6cd43d7a7
+source-git-commit: 5e907e12958055f0a4f75fe99103218288c758fa
 workflow-type: tm+mt
-source-wordcount: '484'
-ht-degree: 100%
+source-wordcount: '501'
+ht-degree: 95%
 
 ---
 
@@ -84,4 +84,5 @@ Les principales étapes pour utiliser la prise de décision sont les suivantes 
 
 1. **Créez une politique de décision et incorporez-la dans votre campagne basée sur du code** : les politiques de décision combinent plusieurs stratégies de sélection pour déterminer les éléments de décision éligibles à afficher pour l’audience prévue.
 
-   ➡️ [Découvrir comment utiliser les politiques de décision](create-decision.md)
+   ➡️ [Découvrez comment utiliser les politiques de décision](create-decision.md)
+➡️ Pour diffuser avec succès l’offre via le canal basé sur le code, suivez les étapes d’implémentation de [cette section](../code-based/code-based-implementation-samples.md)
