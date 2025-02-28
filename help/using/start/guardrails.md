@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: 82a73c9e6d03563ce9dcc5bd4eaa8eb1166caf1f
+source-git-commit: 7475debd0e6b751725e5b5d7c2efa4b8b9e01a15
 workflow-type: tm+mt
-source-wordcount: '2335'
-ht-degree: 93%
+source-wordcount: '2346'
+ht-degree: 92%
 
 ---
 
@@ -40,7 +40,7 @@ Depuis février 2025, un mécanisme de sécurisation de durée de vie (TTL) est 
 * 90 jours pour les données dans la banque de profils,
 * 13 mois pour les données du lac de données.
 
-Cette modification sera déployée dans les **sandbox client existants** lors d’une phase ultérieure. [En savoir plus sur les mécanismes de sécurisation de durée de vie (TTL) des jeux de données](../data/datasets-ttl.md)
+Cette modification sera déployée dans les **sandbox client existants** lors d’une phase ultérieure. [En savoir plus sur les mécanismes de sécurisation de la durée de vie (TTL) des jeux de données](../data/datasets-ttl.md)
 
 ## Mécanismes de sécurisation des canaux {#channel-guardrails}
 
@@ -220,4 +220,4 @@ Des mécanismes de sécurisation spécifiques s’appliquent à l’activité **
 Les mécanismes de sécurisation suivants s’appliquent aux activités **[!UICONTROL Campaign v7/v8]** et **[!UICONTROL Campaign Standard]** :
 
 * Les activités Adobe Campaign ne peuvent pas être utilisées avec une activité Lecture d’audience ou Qualification d’audience.
-* Ces activités ne peuvent pas être utilisées avec les activités in-app.
+* Les activités Campaign ne peuvent pas être utilisées avec les activités des autres canaux : Carte, Expérience basée sur le code, E-mail, Push, SMS, Messages in-app, Web.
