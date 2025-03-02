@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: parcours, premier, commencer, démarrage rapide, audience, événement, action
 exl-id: 770bdbf2-560d-4127-bdb9-1f82495a566f
-source-git-commit: 5af420f5ba312949e475c772e56c60a0368a4796
+source-git-commit: d7ebba4144eeb5b29e9e6fa21afde06a7e520e07
 workflow-type: tm+mt
 source-wordcount: '1124'
 ht-degree: 73%
@@ -68,7 +68,7 @@ Le type de parcours dépend des activités utilisées dans ce parcours. Il peut 
 
 * **[!UICONTROL Événement unitaire]** - Les parcours d’événements unitaires sont liés à un profil spécifique. Les événements sont liés au comportement d’une personne ou à un événement lié à une personne (par exemple, une personne a atteint 10 000 points de fidélité). [En savoir plus](../event/about-events.md).
 * **[!UICONTROL Événement métier]**. Le parcours d’événements métier commence par un événement non lié au profil. La configuration de l’événement est effectuée par un utilisateur technique et ne peut pas être modifiée. [En savoir plus](../event/about-events.md).
-* **[!UICONTROL Qualification de l’audience]** - Les parcours de qualification d’audience écoutent les entrées et les sorties des profils dans les audiences Adobe Experience Platform afin de faire en sorte que des individus rejoignent un parcours ou y progressent. [En savoir plus](audience-qualification-events.md).
+* **[!UICONTROL Qualification de l’audience]** - Les parcours de qualification de l’audience écoutent les entrées et les sorties des profils dans les audiences Adobe Experience Platform afin de faire en sorte que des individus rejoignent un parcours ou y progressent. [En savoir plus](audience-qualification-events.md).
 * **[!UICONTROL Lecture d’audience]** - Dans les parcours Lecture d’audience , tous les individus de l’audience rejoignent le parcours et reçoivent les messages inclus dans votre parcours.  [En savoir plus](read-audience.md).
 
 
