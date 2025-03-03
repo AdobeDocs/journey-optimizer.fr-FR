@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: d7ebba4144eeb5b29e9e6fa21afde06a7e520e07
+source-git-commit: 4367e39013e87b12848fc172df9b68cd637fc802
 workflow-type: tm+mt
-source-wordcount: '6180'
+source-wordcount: '6193'
 ht-degree: 96%
 
 ---
@@ -22,6 +22,7 @@ Cette page répertorie toutes les mises à jour récentes de la documentation de
 ## Mars 2025 {#mar-2025}
 
 * La page sur les événements de qualification d’audience a été mise à jour avec de nouvelles recommandations. [En savoir plus](../building-journeys/audience-qualification-events.md)
+* La fonctionnalité de dépannage d’action personnalisée est désormais disponible pour tous les clients (GA). [En savoir plus](../action/troubleshoot-custom-action.md)
 
 ## Février 2025 {#feb-2025}
 
