@@ -11,7 +11,7 @@ exl-id: 6e291ce3-f324-4e5d-975b-5229dea4d581
 source-git-commit: 5cfae89416219fac54d310d9fa3f40fdfdd8878e
 workflow-type: tm+mt
 source-wordcount: '846'
-ht-degree: 75%
+ht-degree: 82%
 
 ---
 
@@ -19,13 +19,13 @@ ht-degree: 75%
 
 >[!CONTEXTUALHELP]
 >id="ajo_ai_generation_settings"
->title="Assistant AI dans Journey Optimizer"
->abstract="Une fois que vous avez conçu et personnalisé votre diffusion, vous pouvez utiliser l’assistant d’IA dans Journey Optimizer pour améliorer votre contenu. Cette fonctionnalité simplifie le processus de personnalisation et d’amélioration du contenu en vous permettant d’affiner le contenu à travers la description de ce que vous souhaitez générer."
+>title="Assistant IA dans Journey Optimizer"
+>abstract="Une fois que vous avez conçu et personnalisé votre diffusion, vous pouvez utiliser l’Assistant IA de Journey Optimizer pour améliorer votre contenu. Cette fonctionnalité simplifie le processus de personnalisation et d’amélioration du contenu en vous permettant d’affiner le contenu à travers la description de ce que vous souhaitez générer."
 
 >[!CONTEXTUALHELP]
 >id="ajo_ai_generation_context"
 >title="Charger une ressource de marque"
->abstract="Le menu Charger une ressource de marque vous permet d’ajouter une ressource de marque dont le contenu peut fournir un contexte supplémentaire pour l’assistant AI dans Journey Optimizer, ou de sélectionner une ressource précédemment chargée. Cette option permet de s’assurer que l’Assistant IA a accès à tous les supports nécessaires pour améliorer ses fonctionnalités et sa pertinence."
+>abstract="Le menu Charger une ressource de marque permet d’ajouter une ressource de marque qui inclut du contenu capable de fournir un contexte supplémentaire à l’Assistant IA dans Journey Optimizer. Il permet également de sélectionner une ressource de marque chargée précédemment. Cette option permet de s’assurer que l’Assistant IA a accès à tous les supports nécessaires pour améliorer ses fonctionnalités et sa pertinence."
 
 >[!CONTEXTUALHELP]
 >id="ajo_ai_generation_start"
