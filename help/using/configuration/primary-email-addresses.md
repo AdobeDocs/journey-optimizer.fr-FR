@@ -9,7 +9,7 @@ role: Admin
 level: Intermediate
 keywords: principal, exécution, e-mail, cible, profil, optimizer
 exl-id: fe2f6516-7790-4501-a3a1-3d7cb94d7874
-source-git-commit: 462928883ae22998f8c16dcbe6f37f062487c5ad
+source-git-commit: 5b6543fd98b0457652374a34712e91501ace898c
 workflow-type: tm+mt
 source-wordcount: '483'
 ht-degree: 100%
@@ -70,6 +70,11 @@ Le champ d&#39;exécution est mis à jour et sera désormais utilisé comme adre
 
 Pour des cas d’utilisation spécifiques, vous pouvez remplacer le champ d’exécution défini globalement et définir une valeur différente au niveau de la configuration du canal e-mail ou au niveau du parcours.
 
+Par exemple, cette valeur peut être utile pour effectuer les actions suivantes :
+
+* Tesert un e-mail. Vous pouvez ajouter votre adresse e-mail : une fois que vous avez publié le parcours, l’e-mail vous est envoyé.
+* Envoyer un message aux personnes abonnées à une liste. En savoir plus sur [ce cas d’utilisation](../building-journeys/message-to-subscribers-uc.md).
+
 ### Dans la configuration du canal e-mail
 
 Vous pouvez modifier le champ d’exécution par défaut défini dans les [paramètres généraux](#admin-settings) lors de la définition d’une configuration du canal e-mail. [En savoir plus](../email/email-settings.md#execution-address)
@@ -88,8 +93,4 @@ Dans certains contextes spécifiques, vous pouvez remplacer cette valeur en cliq
 >
 >Le remplacement de l’adresse e-mail ne doit être utilisé que pour des cas d’utilisation spécifiques. La plupart du temps, il n’est pas nécessaire de modifier l’adresse e-mail, car la valeur définie comme adresse principale dans les **[!UICONTROL Champs d’exécution]** est celle qui doit être utilisée.
 
-Par exemple, cette valeur peut être utile pour effectuer les actions suivantes :
-
-* Tesert un e-mail. Vous pouvez ajouter votre adresse e-mail : une fois que vous avez publié le parcours, l’e-mail vous est envoyé.
-* Envoyer un message aux personnes abonnées à une liste. En savoir plus sur [ce cas d’utilisation](../building-journeys/message-to-subscribers-uc.md).
 
