@@ -8,10 +8,10 @@ role: Data Engineer, Data Architect, Admin
 level: Experienced
 keywords: platform, lac de données, créer, lac, jeux de données, profil
 exl-id: 08633a79-5601-4e36-b8cf-080234956d99
-source-git-commit: 7aaaa566ec9e5a1cf50e067d7c3836bfc305b909
+source-git-commit: 0e164877044430509fc7b2f2bf3ca2eda8e7497b
 workflow-type: tm+mt
-source-wordcount: '696'
-ht-degree: 30%
+source-wordcount: '655'
+ht-degree: 27%
 
 ---
 
@@ -46,13 +46,6 @@ Le tableau ci-dessous répertorie tous les jeux de données affectés et leur du
 | Référentiel d’objets de décision - Emplacements | 13 mois | S.O. |
 | Référentiel d’objets de décision - Activités | 13 mois | S.O. |
 | ODE DecisionEvents - Décisions de production | 13 mois | S.O. |
-| Jeu de données du service de consentement AJO | S.O. | 90 jours |
-| Jeu de données de profil de messagerie interactive AJO | S.O. | 90 jours |
-| Extension de compteurs de profils AJO | S.O. | 90 jours |
-| Jeu de données de profil push AJO | S.O. | 90 jours |
-| Jeu de données de profil AJO Engageable | S.O. | 90 jours |
-
-
 
 ## Questions fréquentes {#faq}
 
