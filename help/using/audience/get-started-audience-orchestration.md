@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: af71d24d-77eb-44df-8216-b0aeaf4c4fa4
-source-git-commit: c0698c949622dbd9b4d97eaefedb67ff9f557347
+source-git-commit: 1ff33c3da5236cb4a89a893f83476867a2ecddd3
 workflow-type: tm+mt
 source-wordcount: '1030'
 ht-degree: 100%
@@ -96,6 +96,8 @@ ht-degree: 100%
 >id="ajo_ao_split_otherprofiles_text"
 >title="Autres profils"
 >abstract="Activez cette option pour créer un chemin d’accès supplémentaire avec les profils restants qui ne correspondent à aucune des conditions spécifiées dans les autres chemins d’accès."
+
+>[!BEGINSHADEBOX]
 
 Cette documentation fournit des informations détaillées sur l’utilisation de la composition d’audiences dans Adobe Journey Optimizer. Si vous êtes un client ou une cliente Profil client en temps réel uniquement et que vous n’utilisez pas Adobe Journey Optimizer, [cliquez ici](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/audience-composition.html?lang=fr){target="_blank"}.
 
