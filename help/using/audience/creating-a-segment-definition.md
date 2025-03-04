@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 289aac5d-6cdb-411f-985e-3acef58050a8
-source-git-commit: 7aaaa566ec9e5a1cf50e067d7c3836bfc305b909
+source-git-commit: 96f6fe5d1a941a904ecddf66e9b4a51802e5d00b
 workflow-type: tm+mt
 source-wordcount: '981'
-ht-degree: 87%
+ht-degree: 85%
 
 ---
 
@@ -129,8 +129,7 @@ Grâce à l’évaluation flexible des audiences, vous pouvez effectuer les opé
 
 1. Créer un segment en fonction de vos dernières données
 1. Évaluer l’audience en temps réel pour garantir sa précision Pour ce faire, choisissez les audiences que vous souhaitez évaluer et sélectionnez « Évaluer les audiences », à condition qu’elles répondent à des critères spécifiques (par exemple, basé sur les personnes, origine du service de segmentation).
-1. Utiliser l’audience évaluée dans les campagnes ou parcours
-Adobe Journey Optimizer pour un ciblage précis.
+1. Utilisez l’audience évaluée dans les campagnes ou parcours Adobe Journey Optimizer pour un ciblage précis.
 
 Vous pouvez évaluer jusqu’à 20 audiences à la fois. Les audiences inéligibles seront automatiquement exclues. Pour plus d’informations, consultez la [documentation du portail Audience](https://experienceleague.adobe.com/fr/docs/experience-platform/segmentation/ui/audience-portal#flexible-audience-evaluation).
 
