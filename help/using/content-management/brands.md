@@ -8,19 +8,30 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: b1b7abbe-8600-4a8d-b0b5-0dbd49abc275
-source-git-commit: 88d15684f13b234bcb00227bd609ca387070952a
+source-git-commit: 7e354b5235aa6a6378ebc3d13a2c99017064379f
 workflow-type: tm+mt
-source-wordcount: '445'
-ht-degree: 21%
+source-wordcount: '497'
+ht-degree: 19%
 
 ---
 
 # Créer et gérer vos marques {#brands}
 
 >[!CONTEXTUALHELP]
->id="ajo_brands_overview"
->title="Marques"
+>id="ajo_brand_overview"
+>title="Prise en main des marques"
 >abstract="Créez et personnalisez vos propres marques pour définir votre identité visuelle et verbale unique tout en facilitant la génération de contenu correspondant au style et à la voix de votre marque."
+
+>[!CONTEXTUALHELP]
+>id="ajo_brand_ai_menu"
+>title="Sélectionner votre marque"
+>abstract="Choisissez votre marque pour vous assurer que tout le contenu généré par l’IA est adapté conformément aux spécifications et aux directives de votre marque."
+
+>[!CONTEXTUALHELP]
+>id="ajo_brand_score"
+>title="Score d’alignement de la marque"
+>abstract="Le score d’alignement de votre marque mesure dans quelle mesure le contenu généré par l’IA respecte les directives de votre marque, en assurant la cohérence des couleurs, des polices, du logo, des images et du style d’écriture."
+
 
 >[!AVAILABILITY]
 >
