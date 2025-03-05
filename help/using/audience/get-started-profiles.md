@@ -7,10 +7,10 @@ feature: Profiles
 role: User
 level: Beginner
 exl-id: be3936e4-8185-4031-9daf-95eea58077d0
-source-git-commit: 435898d7e806e93ee0154c3da22f6a011fc78175
-workflow-type: ht
-source-wordcount: '426'
-ht-degree: 100%
+source-git-commit: 12a3520ec05737cbf5cdc813aa22ce16a9270d18
+workflow-type: tm+mt
+source-wordcount: '436'
+ht-degree: 76%
 
 ---
 
@@ -22,31 +22,19 @@ Tirez profit du profil client en temps réel dans [!DNL Adobe Journey Optimizer]
 
 ➡️ [Découvrez cette fonctionnalité en vidéo](#video)
 
-**Profil client en temps réel**
+**Real-time Customer Profile &#x200B;** - Intégrez des attributs et des événements client provenant de sources en ligne, hors ligne et pseudonymes dans un profil unique et unifié. &#x200B;Utilisez le profil pour impliquer les clientes et clients avec des expériences personnalisées en temps réel sur plusieurs points de contact.
 
-Intégrez des attributs et des événements clients provenant de sources en ligne, hors ligne et pseudonymes dans un profil unique et unifié.Utilisez le profil pour impliquer les clientes et clients avec des expériences personnalisées en temps réel sur plusieurs points de contact.
+**Ingestion de données** - Connectez-vous à diverses sources de données pour ingérer des données comportementales, transactionnelles, financières et opérationnelles. Ingérez des données en temps réel ou par le biais de chargements par lots pour maintenir les profils à jour en permanence.
 
-**Ingestion des données**
+**Graphique d’identités** - Combinez des données provenant de différentes sources à l’aide des identités du client, telles que les identifiants de fidélité ou les identifiants système CRM. &#x200B;Créez une vue d’ensemble exhaustive du client ou de la cliente en mappant les relations entre les différentes identités dans les jeux de données d’une marque.
 
-Connectez-vous à diverses sources de données pour ingérer des données comportementales, transactionnelles, financières et opérationnelles. Ingérez des données en temps réel ou par le biais de chargements par lots pour maintenir les profils à jour en permanence.
+**Engagement client** - Utilisez le profil client en temps réel pour offrir des expériences contextuelles personnalisées, telles que des offres et des messages ciblés. &#x200B;Interagissez avec les clients et les clientes sur différents canaux, notamment les campagnes marketing, le service clientèle et les mises à jour transactionnelles.
 
-**Graphique d’identité**
-
-Combinez des données provenant de différentes sources à l’aide d’identités clientes, telles que des identifiants de fidélité ou des identifiants de système CRM.Créez une vue d’ensemble exhaustive du client ou de la cliente en mappant les relations entre les différentes identités dans les jeux de données d’une marque.
-
-**Engagement de la clientèle**
-
-Utilisez le profil client en temps réel pour offrir des expériences contextuelles et personnalisées, telles que des offres et des messages ciblés.Interagissez avec les clients et les clientes sur différents canaux, notamment les campagnes marketing, le service clientèle et les mises à jour transactionnelles.
-
-**Partage de données**
-
-Partagez des profils clients avec les principaux fournisseurs de stockage dans le cloud tels qu’Amazon Web Services, Microsoft Azure et Google Cloud. Utilisez des profils partagés pour la création de rapports, l’archivage données ou une analyse plus approfondie avec des outils de Business Intelligence.
+**Partage de données** - Partagez des profils client avec les meilleurs fournisseurs de stockage dans le cloud tels que Amazon Web Services, Microsoft Azure et Google Cloud. Utilisez des profils partagés pour la création de rapports, l’archivage données ou une analyse plus approfondie avec des outils de Business Intelligence.
 
 ## Tableau de bord des profils
 
 Pour accéder aux profils, accédez au menu **[!UICONTROL Client ou cliente]**/**[!UICONTROL Profils]** dans le volet de navigation de gauche.
-
-![](assets/profiles-home.png)
 
 >[!NOTE]
 >
@@ -54,9 +42,12 @@ Pour accéder aux profils, accédez au menu **[!UICONTROL Client ou cliente]**/*
 
 Vous pouvez rassembler des données issues de plusieurs sources et les combiner pour obtenir une vue complète de chacun de vos clients ou chacune de vos clientes. Lors de la combinaison de ces données, les politiques de fusion sont les règles utilisées pour déterminer quelle est la priorité des données et quelles données seront combinées pour créer cette vue unifiée. Apprenez-en davantage sur les **politiques de fusion** dans cette [documentation](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/ui-guide.html?lang=fr){target="_blank"}.
 
+![](assets/profiles-home.png)
+
 >[!MORELIKETHIS]
 >
 >* [Documentation sur le profil client en temps réel](https://experienceleague.adobe.com/docs/experience-platform/query/home.html?lang=fr){target="_blank"}
+>* [Mécanismes de sécurisation par défaut pour les données et la segmentation du profil client en temps réel](https://experienceleague.adobe.com/fr/docs/experience-platform/profile/guardrails){target="_blank"}
 >* [Vidéo de vue d’ensemble du profil client en temps réel](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=fr){target="_blank"}
 
 ## Vidéo pratique {#video}
