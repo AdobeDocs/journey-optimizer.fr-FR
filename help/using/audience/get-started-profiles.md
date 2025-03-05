@@ -7,10 +7,10 @@ feature: Profiles
 role: User
 level: Beginner
 exl-id: be3936e4-8185-4031-9daf-95eea58077d0
-source-git-commit: 12a3520ec05737cbf5cdc813aa22ce16a9270d18
+source-git-commit: f6c77a93c4adea33df8434ff8f950b8d39c92845
 workflow-type: tm+mt
-source-wordcount: '436'
-ht-degree: 76%
+source-wordcount: '434'
+ht-degree: 72%
 
 ---
 
@@ -32,6 +32,12 @@ Tirez profit du profil client en temps réel dans [!DNL Adobe Journey Optimizer]
 
 **Partage de données** - Partagez des profils client avec les meilleurs fournisseurs de stockage dans le cloud tels que Amazon Web Services, Microsoft Azure et Google Cloud. Utilisez des profils partagés pour la création de rapports, l’archivage données ou une analyse plus approfondie avec des outils de Business Intelligence.
 
+>[!MORELIKETHIS]
+>
+>* [Documentation sur le profil client en temps réel](https://experienceleague.adobe.com/docs/experience-platform/query/home.html?lang=fr){target="_blank"}
+>* [Mécanismes de sécurisation par défaut pour les données et la segmentation du profil client en temps réel](https://experienceleague.adobe.com/fr/docs/experience-platform/profile/guardrails){target="_blank"}
+>* &#x200B;[documentation sur l’ingestion de données](https://experienceleague.adobe.com/en/docs/experience-platform/ingestion/home){target="_blank"}
+
 ## Tableau de bord des profils
 
 Pour accéder aux profils, accédez au menu **[!UICONTROL Client ou cliente]**/**[!UICONTROL Profils]** dans le volet de navigation de gauche.
@@ -43,12 +49,6 @@ Pour accéder aux profils, accédez au menu **[!UICONTROL Client ou cliente]**/*
 Vous pouvez rassembler des données issues de plusieurs sources et les combiner pour obtenir une vue complète de chacun de vos clients ou chacune de vos clientes. Lors de la combinaison de ces données, les politiques de fusion sont les règles utilisées pour déterminer quelle est la priorité des données et quelles données seront combinées pour créer cette vue unifiée. Apprenez-en davantage sur les **politiques de fusion** dans cette [documentation](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/ui-guide.html?lang=fr){target="_blank"}.
 
 ![](assets/profiles-home.png)
-
->[!MORELIKETHIS]
->
->* [Documentation sur le profil client en temps réel](https://experienceleague.adobe.com/docs/experience-platform/query/home.html?lang=fr){target="_blank"}
->* [Mécanismes de sécurisation par défaut pour les données et la segmentation du profil client en temps réel](https://experienceleague.adobe.com/fr/docs/experience-platform/profile/guardrails){target="_blank"}
->* [Vidéo de vue d’ensemble du profil client en temps réel](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=fr){target="_blank"}
 
 ## Vidéo pratique {#video}
 
