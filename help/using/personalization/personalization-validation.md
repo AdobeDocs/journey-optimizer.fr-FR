@@ -9,7 +9,7 @@ role: Data Engineer
 level: Intermediate
 keywords: expression, éditeur, validation, erreurs, personnalisation
 exl-id: 7abeec5e-743f-48fb-a4a6-056665e8bfda
-source-git-commit: ff6619925a36d2687922d1b631d1cabbcb98167e
+source-git-commit: 155ae8ef14e5482d94e54b15962afa09aa6826fc
 workflow-type: tm+mt
 source-wordcount: '315'
 ht-degree: 100%
@@ -24,11 +24,13 @@ Sur l’écran de l’**éditeur de personnalisation**, utilisez le bouton **Val
 
 >[!NOTE]
 > La validation est automatiquement effectuée lorsque vous cliquez sur le bouton **Ajouter** pour fermer la fenêtre de l&#39;éditeur.
+>
 
 ![](assets/perso_validation1.png)
 
 >[!IMPORTANT]
 > Si la syntaxe de personnalisation n’est pas valide, vous ne pouvez pas fermer la fenêtre de l’éditeur de personnalisation.
+>
 
 ## Erreurs courantes {#common-errors}
 

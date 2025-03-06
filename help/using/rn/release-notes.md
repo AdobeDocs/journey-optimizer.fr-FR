@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Notes de mise à jour d’Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: ff6619925a36d2687922d1b631d1cabbcb98167e
+source-git-commit: 155ae8ef14e5482d94e54b15962afa09aa6826fc
 workflow-type: tm+mt
-source-wordcount: '863'
-ht-degree: 24%
+source-wordcount: '746'
+ht-degree: 27%
 
 ---
 
@@ -22,20 +22,6 @@ ht-degree: 24%
 
 [!DNL Adobe Journey Optimizer] offre en permanence de nouvelles fonctionnalités, des améliorations des fonctionnalités existantes et des correctifs. Toutes les modifications sont consolidées la dernière semaine de chaque mois dans ces notes de mise à jour. [!DNL Adobe Journey Optimizer] est créé de manière native sur [!DNL Adobe Experience Platform] et hérite de ses dernières innovations et améliorations. En savoir plus sur ces modifications dans les [Notes de mise à jour d’Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=fr){target="_blank"}.
 
-## Mises à jour de mars 2025 {#25-03-rn}
-
-**Améliorations de l’éditeur Personalization**
-
-L’éditeur de personnalisation Journey Optimizer a été mis à jour avec de nouvelles fonctionnalités :
-* **Mise à jour de la conception de l’éditeur de code** - Une interface moderne et plus propre pour une meilleure convivialité et un meilleur focus.
-* **Rechercher et remplacer** - Ajout d’une fonctionnalité pour rechercher et remplacer rapidement du contenu dans l’éditeur.
-* **Prise en charge de l’annulation et de la restauration** - Vous permet d’annuler ou de réappliquer facilement les modifications.
-* **Taille de police personnalisable** - Permet d’ajuster la taille de police de l’éditeur pour une meilleure lisibilité.
-* **Validation JSON intégrée** - Fournit une validation côté client en temps réel du contenu JSON pour accélérer la détection des erreurs.
-* **Saisie automatique pour les attributs de profil et de contexte** - Propose des suggestions intelligentes pour rationaliser la création de contenu.
-* **Mise en surbrillance améliorée de la syntaxe** - Améliore la lisibilité en rendant la structure du code plus visuellement distincte.
-
-Pour plus d’informations, consultez la [documentation détaillée](../personalization/personalization-build-expressions.md).
 
 ## Notes de mise à jour de février 2025 {#25-02-rn}
 
