@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: activité, parcours, lecture, audience, platform
 exl-id: 7b27d42e-3bfe-45ab-8a37-c55b231052ee
-source-git-commit: 85a8d0713f87a8b3505a2294402156ba6598c8bb
+source-git-commit: 4407961654a1d55bf20d8091447dc2f1ef703ea3
 workflow-type: tm+mt
-source-wordcount: '1633'
-ht-degree: 99%
+source-wordcount: '1687'
+ht-degree: 96%
 
 ---
 
@@ -32,6 +32,10 @@ Prenons l’exemple de l’audience « Ouverture et passage en caisse de l’ap
 ➡️ [Découvrir cette fonctionnalité en vidéo](#video)
 
 ## Mécanismes de sécurisation et bonnes pratiques {#must-read}
+
+* Une seule activité **[!UICONTROL Lecture d’audience]** peut être utilisée dans un parcours. Il doit s’agir de la première activité de la zone de travail.
+
+* L’activité **[!UICONTROL Lecture d’audience]** ne peut cibler qu’une seule audience. Si plusieurs audiences sont requises, envisagez de les fusionner en une seule avant de les utiliser. [Découvrez comment combiner des audiences à l’aide de workflows de composition](../audience/get-started-audience-orchestration.md)
 
 * Pour les parcours qui utilisent une activité **Lecture d’audience**, il y a un nombre maximal de parcours pouvant commencer exactement au même moment. Les reprises seront effectuées par le système, mais évitez d’avoir plus de cinq parcours (avec **Lecture d’audience**, planifié ou commençant « le plus tôt possible ») commençant exactement au même moment. La bonne pratique consiste à les espacer au fil du temps, par exemple avec une intervalle de 5 à 10 minutes.
 
