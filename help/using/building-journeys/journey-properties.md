@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: parcours, configuration, propriétés
 exl-id: 6c21371c-6cbc-4d39-8fe6-39f1b8b13280
-source-git-commit: 3331fd2ca9277bb634e3df0dd2e5a262bef459d7
+source-git-commit: 43cf43c6ba92d64836222ce872054b5dec6d11fe
 workflow-type: tm+mt
-source-wordcount: '2261'
-ht-degree: 97%
+source-wordcount: '2259'
+ht-degree: 96%
 
 ---
 
@@ -279,14 +279,14 @@ Pour **créer** un critère de sortie, procédez comme suit :
 
 1. Ouvrez votre parcours.
 
-1. Cliquez sur l’icône **[!UICONTROL Afficher les critères de sortie]** située dans la section supérieure droite de la zone de travail du parcours.
-   ![](assets/exitcriteria_icon.png){width="40%" align="left"}
-1. Cliquez sur le bouton **[!UICONTROL Ajouter des critères de sortie]**.
-   ![](assets/exitcriteria.png){width="40%" align="left"}
+1. Cliquez sur l’icône ![](assets/do-not-localize/Smock_UserCheckedOut_18_N.svg) **[!UICONTROL Afficher les critères de sortie]** située dans la section supérieure droite de la zone de travail du parcours.
+
+1. Sélectionnez **[!UICONTROL Ajouter un critère de sortie]**.
+
 1. Saisissez un **libellé** et sélectionnez si votre critère de sortie est basé sur un **événement** ou une **audience**.
 
-* Pour les critères de sortie basés sur un événement, comme le téléchargement d’une application ou l’ajout d’un produit à un panier, sélectionnez uniquement un événement unitaire.
-* Pour Quitter les critères en fonction d’une audience, par exemple une audience qui vérifie si un client a effectué un achat au cours des dernières 24 heures, sélectionnez une audience. Note : pour être efficaces, les critères de sortie utilisant une audience peuvent prendre jusqu’à 10 minutes.
+   * Pour les critères de sortie basés sur un événement, comme le téléchargement d’une application ou l’ajout d’un produit à un panier, sélectionnez uniquement un événement unitaire.
+   * Pour Quitter les critères en fonction d’une audience, par exemple une audience qui vérifie si un client a effectué un achat au cours des dernières 24 heures, sélectionnez une audience. Note : pour être efficaces, les critères de sortie utilisant une audience peuvent prendre jusqu’à 10 minutes.
 
 Vous pouvez ajouter plusieurs critères de sortie.
 
