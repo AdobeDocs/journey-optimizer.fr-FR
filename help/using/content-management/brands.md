@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: b1b7abbe-8600-4a8d-b0b5-0dbd49abc275
-source-git-commit: 3646c67dd23bb786cf2486c5c43748197ba04f85
+source-git-commit: 12dc96bb08f03865c82382baac276f46bc42baeb
 workflow-type: tm+mt
-source-wordcount: '592'
-ht-degree: 16%
+source-wordcount: '618'
+ht-degree: 15%
 
 ---
 
@@ -28,9 +28,14 @@ ht-degree: 16%
 >abstract="Choisissez votre marque pour vous assurer que tout le contenu généré par l’IA est adapté conformément aux spécifications et aux directives de votre marque."
 
 >[!CONTEXTUALHELP]
+>id="ajo_brand_score_overview"
+>title="Sélection de la marque"
+>abstract="Sélectionnez votre marque pour vous assurer que votre contenu est conçu conformément à ses directives, normes et identités spécifiques, en préservant la cohérence et l’intégrité de la marque."
+
+>[!CONTEXTUALHELP]
 >id="ajo_brand_score"
 >title="Score d’alignement de la marque"
->abstract="Le score d’alignement de votre marque mesure dans quelle mesure le contenu généré par l’IA respecte les directives de votre marque, en assurant la cohérence des couleurs, des polices, du logo, des images et du style d’écriture."
+>abstract="Le score d’alignement de votre marque mesure dans quelle mesure votre contenu respecte les directives de votre marque, en assurant la cohérence des couleurs, des polices, du logo, des images et du style d’écriture."
 
 
 >[!AVAILABILITY]
