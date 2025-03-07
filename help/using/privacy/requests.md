@@ -7,9 +7,9 @@ feature: Privacy
 role: User
 level: Intermediate
 exl-id: 19ec3410-761e-4a9c-a277-f105fc446d7a
-source-git-commit: 95d02900fb9686466fa6b20c90e1c425567db145
+source-git-commit: b400b48d6f0429b05be523d4c2f520c383eef514
 workflow-type: tm+mt
-source-wordcount: '490'
+source-wordcount: '491'
 ht-degree: 45%
 
 ---
@@ -69,7 +69,7 @@ Pour envoyer des demandes d’accès et de suppression de données pour Adobe J
 
 >[!IMPORTANT]
 >
->Lors de l’envoi de demandes d’accès à des informations personnelles, veillez à spécifier « [!DNL '**Adobe Journey Optimizer**] » en tant que nom de produit ciblé et **tous les espaces de noms d’identité** (par exemple, « E-mail », « ECID » ou « ID de fidélité ») associés aux données de profil qui doivent être accessibles ou supprimées. En particulier, pour les requêtes de suppression , si vous n’incluez pas explicitement le nom du produit et tous les espaces de noms applicables, les données resteront en [!DNL Adobe Journey Optimizer].
+>Lors de l’envoi de demandes d’accès à des informations personnelles, veillez à spécifier « [!DNL '**Adobe Journey Optimizer**] » en tant que nom de produit ciblé et **tous les espaces de noms d’identité** (par exemple, « E-mail », « ECID » ou « ID de fidélité ») associés aux données de profil qui doivent être accessibles ou supprimées. En particulier, pour les requêtes de suppression , si vous n’incluez pas explicitement le nom du produit et tous les espaces de noms applicables, les données ne sont pas supprimées de [!DNL Adobe Journey Optimizer].
 
 ### Valeurs de champ requises dans Journey Optimizer pour les requêtes API
 
