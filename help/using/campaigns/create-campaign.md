@@ -9,10 +9,10 @@ role: User
 level: Beginner
 keywords: créer, optimizer, campagne, surface, messages
 exl-id: 617d623c-e038-4b5b-a367-5254116b7815
-source-git-commit: 37862682a25843ce138c076e443f6d9b6229ece3
+source-git-commit: c1ca6175e504dff5e89aaddc2105d150992a8b28
 workflow-type: tm+mt
-source-wordcount: '1235'
-ht-degree: 100%
+source-wordcount: '1277'
+ht-degree: 96%
 
 ---
 
@@ -166,6 +166,10 @@ Si vous ne souhaitez pas exécuter votre campagne juste après son activation, v
 ![](assets/create-campaign-schedule.png)
 
 Pour les campagnes par e-mail, SMS et notification push, vous pouvez définir la fréquence d’envoi du message de la campagne. Pour ce faire, utilisez la méthode **[!UICONTROL Déclencheurs d’action]** dans l’écran de création de la campagne pour indiquer si la campagne doit être exécutée tous les jours, toutes les semaines ou tous les mois.
+
+>[!NOTE]
+>
+>Lors de la planification de campagnes dans [!DNL Adobe Journey Optimizer], assurez-vous que la date/l’heure de début correspond à la première diffusion souhaitée. Pour les campagnes récurrentes, si l’heure planifiée initiale est déjà dépassée, les campagnes sont reportées au prochain créneau horaire disponible en fonction de leurs règles de périodicité.
 
 ## Autres paramètres {#settings}
 
