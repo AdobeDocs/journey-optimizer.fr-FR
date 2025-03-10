@@ -54,13 +54,13 @@ Sélectionnez le mode de **[!UICONTROL vue Grille]** pour afficher chaque modèl
 
 >[!AVAILABILITY]
 >
-Cette fonctionnalité est publiée en disponibilité limitée pour un petit groupe de personnes.
+>Cette fonctionnalité est publiée en disponibilité limitée pour un petit groupe de personnes.
 
 ![](assets/content-template-grid-view.png)
 
 >[!NOTE]
 >
-Actuellement, les miniatures appropriées ne peuvent être générées que pour les modèles de contenu email de type HTML.
+>Actuellement, les miniatures appropriées ne peuvent être générées que pour les modèles de contenu email de type HTML.
 
 Lorsque vous mettez à jour du contenu, vous devrez peut-être attendre quelques secondes avant que les modifications ne soient reflétées dans la miniature.
 
