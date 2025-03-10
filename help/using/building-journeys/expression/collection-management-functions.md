@@ -8,10 +8,10 @@ role: Data Engineer, Architect
 level: Experienced
 keywords: requête, collections, fonctions, payload, parcours
 exl-id: 09b38179-9ace-4921-985b-ddd17eb64681
-source-git-commit: 1ba767ba8d2ecaabc17b717a983e7ad285dd52bb
+source-git-commit: 0d6b0cad90dbeded671a79732a6f101289568f81
 workflow-type: tm+mt
 source-wordcount: '696'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 100%
 
 Le langage d’expression s’accompagne également d’un ensemble de fonctions permettant d’interroger les collections.
 
-Ces fonctions sont expliquées ci-dessous. Dans les exemples suivants, nous allons utiliser le payload d’événement contenant une collection :
+Ces fonctions sont expliquées ci-dessous. Dans l&#39;exemple suivant, utilisons la payload d&#39;événement contenant une collection :
 
 ```json
                 { 
