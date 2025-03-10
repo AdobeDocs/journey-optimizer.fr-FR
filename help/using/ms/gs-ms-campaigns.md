@@ -5,10 +5,10 @@ title: Prise en main des campagnes à plusieurs étapes
 description: Découvrez comment commencer avec des campagnes à plusieurs étapes.
 hide: true
 hidefromtoc: true
-source-git-commit: a0bdab445a53521be621ce4ace390f83964a0c79
+source-git-commit: f8c7d2a21f87f558e3bf8ee3da7a46abda97326b
 workflow-type: tm+mt
-source-wordcount: '434'
-ht-degree: 27%
+source-wordcount: '419'
+ht-degree: 26%
 
 ---
 
@@ -21,17 +21,12 @@ Les campagnes à plusieurs étapes améliorent Adobe Journey Optimizer en introd
 
 **Table des matières**
 
-* Prise en main des campagnes à plusieurs étapes
-* [Principes clés](gs-campaign-creation.md)
-* [Mécanismes de sécurisation et limitations](guardrails.md)
-* [Créer la campagne](create-ms-campaign.md)
-* [Orchestrer les activités](orchestrate-activities.md)
-* [Configurer les paramètres de campagne](ms-campaign-settings.md)
+* [Principes clés](gs-campaign-creation.md) - [Mécanismes de sécurisation et limitations](guardrails.md)
+* [Créer une campagne](create-ms-campaign.md) - [Configurer les paramètres de campagne](ms-campaign-settings.md)
 * [Démarrer et surveiller vos campagnes](start-monitor-campaigns.md)
-* [Variables d’événement dans les campagnes à plusieurs étapes](event-variables.md)
-* Utilisation d’activités de campagne à plusieurs étapes
-   * [Commencer avec les activités](activities/about-activities.md)
-   * Liste des activités : [Rendez-vous](activities/and-join.md) - [Créer une audience](activities/build-audience.md) - [Modifier la dimension](activities/change-dimension.md) - [Combiner](activities/combine.md) - [Déduplication](activities/deduplication.md) - [Channel actions](activities/channels.md) - [Enrichissement](activities/enrichment.md) - [Fork](activities/fork.md) - [Charger le fichier](activities/load-file.md) - [Enregistrer l’audience](activities/reconciliation.md) - [Scheduler](activities/save-audience.md) - [Split](activities/scheduler.md) - [Test](activities/split.md) - [Mettre à jour les données](activities/test.md) - [Attente](activities/update-data.md) [ ](activities/wait.md)
+* [Les variables d&#39;événements](event-variables.md)
+* [Prise en main des activités](activities/about-activities.md) - [Orchestrer les activités](orchestrate-activities.md)
+* Liste des activités : [Rendez-vous](activities/and-join.md) - [Créer une audience](activities/build-audience.md) - [Modifier la dimension](activities/change-dimension.md) - [Combiner](activities/combine.md) - [Déduplication](activities/deduplication.md) - [Channel actions](activities/channels.md) - [Enrichissement](activities/enrichment.md) - [Fork](activities/fork.md) - [Charger le fichier](activities/load-file.md) - [Enregistrer l’audience](activities/reconciliation.md) - [Scheduler](activities/save-audience.md) - [Split](activities/scheduler.md) - [Test](activities/split.md) - [Mettre à jour les données](activities/test.md) - [Attente](activities/update-data.md) [ ](activities/wait.md)
 
 >[!ENDSHADEBOX]
 
