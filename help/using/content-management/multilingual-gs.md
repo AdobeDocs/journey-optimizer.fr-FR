@@ -10,9 +10,9 @@ level: Beginner
 keywords: commencer, démarrer, contenu, expérience
 exl-id: b57683b4-6dcc-4f6c-a8b2-4ba371d78d21
 source-git-commit: 766530a2f443a2795d61161c9d08de299a5363d6
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '604'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
@@ -50,13 +50,13 @@ Votre utilisation des services de traduction d’un fournisseur de traduction se
 
 Pour tout problème ou toute demande d’aide relative à vos traductions, contactez le fournisseur de traduction concerné.
 
-Pour le contenu multilingue, les paramètres suivants doivent être définis :
+Pour le contenu multilingue, les paramètres suivants doivent être définis :
 
 * Pour utiliser la fonctionnalité Traduction dans Journey Optimizer, vous devez affecter l’API au rôle correspondant. [En savoir plus](https://experienceleague.adobe.com/fr/docs/experience-platform/landing/platform-apis/api-authentication#assign-api-to-a-role)
 
-* Pour commencer à créer du contenu multilingue, les utilisateurs doivent disposer de l’autorisation **[!UICONTROL Gérer les paramètres de langue]**. Pour un flux automatisé, les utilisateurs devront également disposer d’autorisations liées aux fonctionnalités du **[!UICONTROL Service de traduction]**. [En savoir plus sur les autorisations](../administration/permissions.md)
+* Pour commencer à créer du contenu multilingue, les utilisateurs et les utilisatrices doivent obtenir l’autorisation **[!UICONTROL Gérer les paramètres de langue]**. Pour un flux automatisé, les utilisateurs et les utilisatrices auront également besoin d’autorisations liées aux fonctionnalités du **[!UICONTROL service de traduction]**. [En savoir plus sur les autorisations](../administration/permissions.md)
 
-+++ Découvrez comment attribuer des autorisations liées multilingues
++++ Découvrez comment attribuer des autorisations multilingues.
 
    1. Dans le produit **Autorisations**, accédez à l’onglet **Rôles** et sélectionnez le **Rôle** de votre choix.
 
@@ -82,7 +82,7 @@ Pour le contenu multilingue, les paramètres suivants doivent être définis :
 
 +++ Découvrez comment activer la fonctionnalité « Traduction ».
 
-   1. Si la page d’erreur suivante s’affiche, cela indique que la fonctionnalité **[!UICONTROL Traduction]** n’a pas encore été activée. Contactez votre organisation et l’administrateur Sandbox pour demander l’accès.
+   1. Si la page d’erreur suivante s’affiche, cela indique que la fonctionnalité **[!UICONTROL Traduction]** n’a pas encore été activée. Contactez votre organisation et l’administration Sandbox pour demander l’accès.
 
   ![](assets/multi-troubleshoot.png)
 

@@ -10,13 +10,13 @@ level: Intermediate
 keywords: configuration, expérimentation, création de rapports, optimizer
 exl-id: 327a0c45-0805-4f64-9bab-02d67276eff8
 source-git-commit: 4847415fa33ebf1c21622ebf4faecafd4decc8d3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '584'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
-# Conditions préalables aux rapports et à l’expérimentation {#reporting-configuration}
+# Conditions préalables à la création de rapports et à l’expérimentation {#reporting-configuration}
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_reporting_config"

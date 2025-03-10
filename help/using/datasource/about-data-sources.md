@@ -1,8 +1,8 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Prise en main des sources de données
-description: Découvrez comment commencer à utiliser les sources de données
+title: Commencer avec les sources de données
+description: Découvrez comment commencer avec les sources de données.
 feature: Journeys, Data Sources
 topic: Administration
 role: Data Engineer, Data Architect, Admin
@@ -10,13 +10,13 @@ level: Intermediate, Experienced
 keywords: données, source, parcours, platform
 exl-id: e0cb261f-7cf7-42de-8e56-576492e3b5cc
 source-git-commit: d498f32a42b13bfdee20f32a589dd31c77d88fa8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '344'
-ht-degree: 85%
+ht-degree: 100%
 
 ---
 
-# Prise en main des sources de données {#about-data-sources}
+# Commencer avec les sources de données {#about-data-sources}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_data_source_list"
@@ -36,7 +36,7 @@ Cette configuration n’est pas requise si vos parcours utilisent uniquement les
 
 Il existe deux types de sources de données :
 
-* La source de données Adobe Experience Platform **préconfigurée** qui définit la connexion au service de profil client en temps réel. Il s’agit d’une source de données intégrée. Voir [cette page](../datasource/adobe-experience-platform-data-source.md).
+* La source de données Adobe Experience Platform **préconfigurée** qui définit la connexion au service de profil client en temps réel. Il s’agit d’une source de données intégrée. Voir [cette page](../datasource/adobe-experience-platform-data-source.md).
 * Les sources de données **externes** qui vous permettent de définir une connexion à des systèmes externes. Il s’agit des sources de données que vous pouvez créer. Voir [cette page](../datasource/external-data-sources.md).
 
 >[!NOTE]

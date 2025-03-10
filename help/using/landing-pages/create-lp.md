@@ -10,15 +10,15 @@ level: Beginner
 keywords: destination, page de destination, création, publication
 exl-id: 18f9bdff-f5c6-4601-919d-4f3124e484b5
 source-git-commit: 2f8c59a3c07dfc772cb62efe5665189d7a176d6f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1723'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
 # Créer et publer des pages de destination {#create-lp}
 
-Pour diriger vos clientes et clients vers une page web définie que vous souhaitez afficher lorsqu’ils cliquent sur un lien spécifique, créez une page de destination dans [!DNL Journey Optimizer], configurez la page principale et les sous-pages, puis testez-la et publiez-la.
+Pour rediriger vos clientes et clients vers une page web définie que vous souhaitez afficher lorsqu’ils cliquent sur un lien spécifique, créez une page de destination dans [!DNL Journey Optimizer], configurez la page principale et les sous-pages, puis testez-la et publiez-la.
 
 Suivez les étapes principales de création de pages de destination décrites ci-après :
 
@@ -30,26 +30,26 @@ Pour accéder à la liste des pages de destination, sélectionnez **[!UICONTROL 
 
 ![](assets/lp_access-list.png)
 
-La liste **[!UICONTROL Pages de destination]** affiche toutes les pages de destination existantes. Vous pouvez les filtrer selon leur statut, leur date de modification ou leurs balises.
+La liste des **[!UICONTROL Pages de destination]** affiche toutes les pages de destination existantes. Vous pouvez les filtrer selon leur statut, leur date de modification ou leurs balises.
 
 ![](assets/lp_access-list-filter.png)
 
-Depuis cette liste, vous pouvez également dupliquer, supprimer, dépublier une page de destination ou accéder aux rapports sur les pages de destination. Pour ce faire, cliquez sur les trois points en regard d’une page de destination et sélectionnez l’action souhaitée :
+Depuis cette liste, vous pouvez également dupliquer, supprimer, dépublier une page de destination ou accéder aux rapports sur les pages de destination. Pour ce faire, cliquez sur les trois points à côté d’une page de destination et sélectionnez l’action souhaitée :
 
 ![](assets/lp_access-list-actions.png)
 
 
 Vous pouvez effectuer les actions suivantes :
 
-* Accédez aux **rapports** suivants pour les pages de destination publiées : [rapport sur la page de destination](../reports/lp-report-global-cja.md) et [rapport dynamique sur les dernières 24 heures](../reports/lp-report-live.md).
+* Accéder aux **rapports** suivants pour les pages de destination publiées : [rapport sur les pages de destination](../reports/lp-report-global-cja.md) et [rapport dynamique sur les dernières 24 heures](../reports/lp-report-live.md).
 
-* **Supprimer** ou **dupliquer** une landing page. Vous ne pouvez pas supprimer une page de destination [publiée](#publish-landing-page). Pour le supprimer, vous devez d’abord **dépublier**.
+* **Supprimer** ou **dupliquer** une page de destination. Vous ne pouvez pas supprimer une page de destination [publiée](#publish-landing-page). Avant de la supprimer, vous devez d’abord la **dépublier**.
 
-* **Dépublier** page de destination.
+* **Dépublier** la page de destination.
 
   >[!CAUTION]
   >
-  >Si vous dépubliez une page de destination référencée dans un message, le lien vers celle-ci est rompu et les utilisateurs et utilisatrices reçoivent une page d’erreur s’ils ou elles tentent d’y accéder.
+  >Si vous dépubliez une page de destination référencée dans un message, le lien vers celle-ci est rompu et les personnes qui tentent d’y accéder verront une page d’erreur.
 
 * Modifiez les [balises](../start/search-filter-categorize.md#tags) associées à une page de destination.
 
@@ -67,7 +67,7 @@ Vous pouvez effectuer les actions suivantes :
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/access-control/object-based-access.html?lang=fr" text="Contrôle d’accès au niveau des objets"
 
 
-Pour créer une page de destination, vous devez sélectionner un préréglage, puis configurer la page principale et les sous-pages, et enfin tester la page avant de la publier. Ces étapes sont détaillées ci-dessous :
+Pour créer une page de destination, vous devez sélectionner un préréglage, puis configurer la page principale et les sous-pages, et enfin tester la page avant de la publier. Ces méthodes sont décrites ci-dessous :
 
 
 1. Accédez à **[!UICONTROL Gestion de contenu]** > **[!UICONTROL Pages de destination]** à partir du menu de gauche.
@@ -287,7 +287,7 @@ Deux types d’alertes peuvent avoir lieu :
 
 >[!CAUTION]
 >
->Pour publier des pages de destination, les utilisateurs doivent disposer de l’autorisation **[!UICONTROL Publier des messages]**.
+>Pour publier des pages de destination, les utilisateurs et utilisatrices doivent disposer de l’autorisation **[!UICONTROL Publier des messages]**.
 
 
 Une fois votre page de destination configurée, vous pouvez la publier pour quʼelle puisse être utilisée dans un message.

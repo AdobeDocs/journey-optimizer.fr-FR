@@ -1,43 +1,44 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Génération de pages de destination avec l’assistant AI dans Journey Optimizer
-description: Commencez à générer le contenu et la ressource de la page de destination avec l’assistant AI dans Journey Optimizer
+title: Génération de pages de destination avec l’Assistant IA dans Journey Optimizer
+description: Commencez à générer le contenu et la ressource de la page de destination à l’aide de l’Assistant IA dans Journey Optimizer.
 feature: Content Assistant
 topic: Content Management
 role: User
 level: Beginner
-source-git-commit: 099c0955e9ad2b1abe345d0256d656d41fc0748e
-workflow-type: tm+mt
+exl-id: d38c3b44-9183-4537-a9dd-fd7761328cc1
+source-git-commit: c3d256fcd06eb096a589d1154a0a4c97462005a9
+workflow-type: ht
 source-wordcount: '1545'
-ht-degree: 71%
+ht-degree: 100%
 
 ---
 
-# Génération de pages de destination avec l’assistant AI {#generative-lp}
+# Génération de pages de destination avec l’Assistant IA {#generative-lp}
 
 >[!IMPORTANT]
 >
 >* Avant de commencer à utiliser cette fonctionnalité, lisez la section connexe [Mécanismes de sécurisation et limitations](gs-generative.md#generative-guardrails).
 >
 >
->* Vous devez accepter le [contrat d’utilisation](https://www.adobe.com/fr/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html) avant de pouvoir utiliser l’assistant AI dans Journey Optimizer. Pour en savoir plus, contactez votre représentant ou représentante Adobe.
+>* Vous devez accepter un [contrat d’utilisation](https://www.adobe.com/fr/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html) avant d’utiliser l’assistant IA dans Journey Optimizer. Pour plus d’informations, contactez votre représentant ou représentante Adobe.
 
-Transformez vos pages de destination avec l’assistant d’IA dans Journey Optimizer, optimisé par l’IA générative.
+Transformez vos pages de destination avec l’Assistant IA dans Journey Optimizer, optimisé par l’IA générative.
 
-Créez sans effort du contenu percutant, y compris des pages complètes, des fragments de texte personnalisés et des visuels personnalisés qui résonnent avec votre audience, ce qui entraîne un engagement et une interaction accrus.
+Créez sans effort du contenu à fort impact, y compris des pages complètes, des fragments de texte et des visuels personnalisés qui correspondent à votre audience, ce qui entraîne un engagement et une interaction accrus.
 
-Explorez les onglets ci-dessous pour savoir comment utiliser l’assistant IA dans Journey Optimizer.
+Explorez les onglets ci-dessous pour savoir comment utiliser l’Assistant IA dans Journey Optimizer.
 
 >[!BEGINTABS]
 
->[!TAB Génération complète de la page de destination]
+>[!TAB Génération complète d’une page de destination]
 
-Dans l’exemple suivant, nous utiliserons l’assistant AI pour affiner un modèle de page de destination existant.
+Dans l’exemple suivant, nous allons utiliser l’Assistant IA pour affiner un modèle de page de destination existant.
 
 1. Après avoir créé et configuré votre page de destination, cliquez sur **[!UICONTROL Modifier le contenu]**.
 
-   Pour plus d&#39;informations sur la configuration de votre page de destination, reportez-vous à [cette page](../landing-pages/create-lp.md).
+   Pour plus d’informations sur la configuration de votre page de destination, consultez [cette page](../landing-pages/create-lp.md).
 
 1. Personnalisez votre disposition selon vos besoins et accédez au menu **[!UICONTROL Assistant IA]**.
 
@@ -45,17 +46,17 @@ Dans l’exemple suivant, nous utiliserons l’assistant AI pour affiner un mod�
 
 1. Activez l’option **[!UICONTROL Utiliser le contenu original]** de l’assistant IA afin de personnaliser le nouveau contenu en fonction du contenu sélectionné.
 
-1. Affinez le contenu en décrivant ce que vous souhaitez générer dans le champ **[!UICONTROL Invite]**.
+1. Affinez le contenu en décrivant ce que vous souhaitez générer dans le champ **[!UICONTROL Prompt]**.
 
-   Si vous recherchez de l&#39;aide pour concevoir votre invite, accédez à la **[!UICONTROL bibliothèque d&#39;invites]** qui fournit un large éventail d&#39;idées d&#39;invites pour améliorer votre page de destination.
+   Si vous avez besoin d’aide pour concevoir votre prompt, accédez à la **[!UICONTROL Bibliothèque de prompts]** qui propose un large éventail d’idées de prompts pour améliorer votre page de destination.
 
    ![](assets/lp-full-gen-2.png){zoomable="yes"}
 
 1. Adaptez votre prompt avec l’option **[!UICONTROL Paramètres de texte]** :
 
    * **[!UICONTROL Stratégie de communication]** : choisissez le style de communication le plus adapté au texte généré.
-   * **[!UICONTROL Langues]** : les options en espagnol, italien, suédois et norvégien sont disponibles en version bêta privée et seront progressivement disponibles pour tous les clients dans les prochaines versions.
-   * **[!UICONTROL Ton]** : le ton de votre page de destination doit résonner auprès de votre audience. Que vous souhaitiez communiquer de façon informative, ludique ou convaincante, l’assistant IA peut adapter le message en conséquence.
+   * **[!UICONTROL Langues]** : les options linguistiques Espagnol, Italien, Suédois et Norvégien sont disponibles en version Private Beta et seront progressivement déployées pour l’ensemble de la clientèle dans les versions ultérieures.
+   * **[!UICONTROL Ton]** : le ton de votre page de destination doit correspondre à votre audience. Que vous souhaitiez communiquer de façon informative, ludique ou convaincante, l’assistant IA peut adapter le message en conséquence.
 
    ![](assets/lp-full-gen-3.png){zoomable="yes"}
 
@@ -91,17 +92,17 @@ Dans l’exemple suivant, nous utiliserons l’assistant AI pour affiner un mod�
 
 1. Cliquez sur **[!UICONTROL Sélectionner]** une fois que vous avez trouvé le contenu approprié.
 
-1. Insérez des champs de personnalisation pour personnaliser le contenu de votre page de destination en fonction des données de profil. Cliquez ensuite sur le bouton **[!UICONTROL Simuler le contenu]** pour contrôler le rendu et vérifier les paramètres de personnalisation avec les profils de test. [En savoir plus](../personalization/personalize.md)
+1. Insérez des champs de personnalisation pour personnaliser le contenu de votre page de destination en fonction des données des profils. Cliquez ensuite sur le bouton **[!UICONTROL Simuler le contenu]** pour contrôler le rendu et vérifier les paramètres de personnalisation avec les profils de test. [En savoir plus](../personalization/personalize.md)
 
-Une fois votre page de destination prête, vous pouvez la publier pour la rendre disponible pour une utilisation dans un message. [En savoir plus](../landing-pages/create-lp.md#publish-landing-page)
+Une fois votre page de destination prête, vous pouvez la publier afin de pouvoir l’utiliser dans un message. [En savoir plus](../landing-pages/create-lp.md#publish-landing-page)
 
->[!TAB Génération texte uniquement]
+>[!TAB Génération de texte uniquement]
 
-Dans l’exemple suivant, nous utiliserons l’assistant d’IA pour améliorer le contenu de notre page de destination.
+Dans l’exemple suivant, nous allons utiliser l’Assistant IA pour améliorer le contenu de notre page de destination.
 
 1. Après avoir créé et configuré votre page de destination, cliquez sur **[!UICONTROL Modifier le contenu]**.
 
-   Pour plus d&#39;informations sur la configuration de votre page de destination, reportez-vous à [cette page](../landing-pages/create-lp.md).
+   Pour plus d’informations sur la configuration de votre page de destination, consultez [cette page](../landing-pages/create-lp.md).
 
 1. Sélectionnez un **[!UICONTROL composant de texte]** pour cibler uniquement un contenu spécifique. Accédez au menu **[!UICONTROL Assistant IA]**.
 
@@ -109,17 +110,17 @@ Dans l’exemple suivant, nous utiliserons l’assistant d’IA pour améliorer 
 
 1. Activez l’option **[!UICONTROL Utiliser le contenu original]** de l’assistant IA afin de personnaliser le nouveau contenu en fonction du contenu sélectionné.
 
-1. Affinez le contenu en décrivant ce que vous souhaitez générer dans le champ **[!UICONTROL Invite]**.
+1. Affinez le contenu en décrivant ce que vous souhaitez générer dans le champ **[!UICONTROL Prompt]**.
 
-   Si vous recherchez de l&#39;aide pour concevoir votre invite, accédez à la **[!UICONTROL bibliothèque d&#39;invites]** qui fournit un large éventail d&#39;idées d&#39;invites pour améliorer vos landing pages.
+   Si vous avez besoin d’aide pour concevoir votre prompt, accédez à la **[!UICONTROL Bibliothèque de prompts]** qui propose un large éventail d’idées de prompts pour améliorer vos pages de destination.
 
    ![](assets/lp-text-gen-2.png){zoomable="yes"}
 
 1. Adaptez votre prompt avec l’option **[!UICONTROL Paramètres de texte]** :
 
    * **[!UICONTROL Stratégie de communication]** : choisissez le style de communication le plus adapté au texte généré.
-   * **[!UICONTROL Langues]** : les options en espagnol, italien, suédois et norvégien sont disponibles en version bêta privée et seront progressivement disponibles pour tous les clients dans les prochaines versions.
-   * **[!UICONTROL Ton]** : le ton de votre page de destination doit résonner auprès de votre audience. Que vous souhaitiez communiquer de façon informative, ludique ou convaincante, l’assistant IA peut adapter le message en conséquence.
+   * **[!UICONTROL Langues]** : les options linguistiques Espagnol, Italien, Suédois et Norvégien sont disponibles en version Private Beta et seront progressivement déployées pour l’ensemble de la clientèle dans les versions ultérieures.
+   * **[!UICONTROL Ton]** : le ton de votre page de destination doit correspondre à votre audience. Que vous souhaitiez communiquer de façon informative, ludique ou convaincante, l’assistant IA peut adapter le message en conséquence.
    * **Longueur de texte** : utilisez le curseur pour sélectionner la longueur souhaitée de votre texte.
 
    ![](assets/lp-text-gen-3.png){zoomable="yes"}
@@ -140,7 +141,7 @@ Dans l’exemple suivant, nous utiliserons l’assistant d’IA pour améliorer 
 
    * **[!UICONTROL Élaborer]** : l’assistant IA peut vous aider à développer des sujets spécifiques, en fournissant des détails supplémentaires pour une meilleure compréhension et un meilleur engagement.
 
-   * **[!UICONTROL Résumer]** : la longueur des informations peut surcharger les destinataires de la page de destination. Utilisez l’assistant IA pour condenser des points clés en résumés clairs et concis qui attirent l’attention et pour les encourager à lire davantage.
+   * **[!UICONTROL Résumer]** : des informations trop longues peuvent déconcerter les destinataires de la page de destination. Utilisez l’assistant IA pour condenser des points clés en résumés clairs et concis qui attirent l’attention et pour les encourager à lire davantage.
 
    * **[!UICONTROL Reformuler]** : l’assistant IA peut reformuler votre message de différentes manières en conservant une écriture soignée et attrayante pour diverses audiences.
 
@@ -152,19 +153,19 @@ Dans l’exemple suivant, nous utiliserons l’assistant d’IA pour améliorer 
 
 1. Cliquez sur **[!UICONTROL Sélectionner]** une fois que vous avez trouvé le contenu approprié.
 
-1. Insérez des champs de personnalisation pour personnaliser le contenu de votre page de destination en fonction des données de profil. Cliquez ensuite sur le bouton **[!UICONTROL Simuler le contenu]** pour contrôler le rendu et vérifier les paramètres de personnalisation avec les profils de test. [En savoir plus](../personalization/personalize.md)
+1. Insérez des champs de personnalisation pour personnaliser le contenu de votre page de destination en fonction des données des profils. Cliquez ensuite sur le bouton **[!UICONTROL Simuler le contenu]** pour contrôler le rendu et vérifier les paramètres de personnalisation avec les profils de test. [En savoir plus](../personalization/personalize.md)
 
-Une fois votre page de destination prête, vous pouvez la publier pour la rendre disponible pour une utilisation dans un message. [En savoir plus](../landing-pages/create-lp.md#publish-landing-page)
+Une fois votre page de destination prête, vous pouvez la publier afin de pouvoir l’utiliser dans un message. [En savoir plus](../landing-pages/create-lp.md#publish-landing-page)
 
 >[!TAB Génération d’images uniquement]
 
-Dans l’exemple ci-dessous, découvrez comment tirer parti de l’assistant IA pour optimiser et améliorer vos ressources, afin d’offrir une expérience plus conviviale.
+Dans l’exemple ci-dessous, découvrez comment tirer parti de l’Assistant IA pour optimiser et améliorer vos ressources, afin d’offrir une expérience plus conviviale.
 
 1. Après avoir créé et configuré votre page de destination, cliquez sur **[!UICONTROL Modifier le contenu]**.
 
-   Pour plus d&#39;informations sur la configuration de votre page de destination, reportez-vous à [cette page](../landing-pages/create-lp.md).
+   Pour plus d’informations sur la configuration de votre page de destination, consultez [cette page](../landing-pages/create-lp.md).
 
-1. Sélectionnez la ressource que vous souhaitez modifier à l’aide de l’assistant IA.
+1. Sélectionnez la ressource que vous souhaitez modifier à l’aide de l’Assistant IA.
 
 1. Dans le menu de droite, sélectionnez **[!UICONTROL Assistant IA]**.
 
@@ -172,9 +173,9 @@ Dans l’exemple ci-dessous, découvrez comment tirer parti de l’assistant IA 
 
 1. Activez l’option **[!UICONTROL Style de référence]** pour l’assistant IA afin de personnaliser le nouveau contenu en fonction du contenu de référence. Vous pouvez également charger une image pour ajouter du contexte à votre variation.
 
-1. Affinez le contenu en décrivant ce que vous souhaitez générer dans le champ **[!UICONTROL Invite]**.
+1. Affinez le contenu en décrivant ce que vous souhaitez générer dans le champ **[!UICONTROL Prompt]**.
 
-   Si vous recherchez de l&#39;aide pour concevoir votre invite, accédez à la **[!UICONTROL bibliothèque d&#39;invites]** qui fournit un large éventail d&#39;idées d&#39;invites pour améliorer vos landing pages.
+   Si vous avez besoin d’aide pour concevoir votre prompt, accédez à la **[!UICONTROL Bibliothèque de prompts]** qui propose un large éventail d’idées de prompts pour améliorer vos pages de destination.
 
    ![](assets/lp-image-gen-2.png){zoomable="yes"}
 
@@ -207,7 +208,7 @@ Dans l’exemple ci-dessous, découvrez comment tirer parti de l’assistant IA 
 
 1. Après avoir défini le contenu de votre message, cliquez sur le bouton **[!UICONTROL Simuler du contenu]** pour contrôler le rendu et vérifier les paramètres de personnalisation avec les profils de test. [En savoir plus](../personalization/personalize.md)
 
-Une fois votre page de destination prête, vous pouvez la publier pour la rendre disponible pour une utilisation dans un message. [En savoir plus](../landing-pages/create-lp.md#publish-landing-page)
+Une fois votre page de destination prête, vous pouvez la publier afin de pouvoir l’utiliser dans un message. [En savoir plus](../landing-pages/create-lp.md#publish-landing-page)
 
 
 >[!ENDTABS]

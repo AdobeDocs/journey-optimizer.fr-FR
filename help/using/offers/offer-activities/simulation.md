@@ -7,9 +7,9 @@ role: User
 level: Intermediate
 exl-id: da9e898b-8e5d-43da-9226-5c9ccb78e174
 source-git-commit: 2e1168f321d6f2c83733c6112e11d834d5e7eb95
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '885'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -138,7 +138,7 @@ Pour modifier les paramètres par défaut de vos simulations, procédez comme su
 
    >[!NOTE]
    >
-   >Tous les indicateurs de déduplication sont activés par défaut pour la simulation, ce qui signifie que le moteur de décision autorise les doublons et peut donc faire la même proposition à travers plusieurs décisions/emplacements. En savoir plus sur les [!DNL Decisioning]propriétés de la demande API dans [cette section](../api-reference/offer-delivery-api/decisioning-api.md). 
+   >Tous les indicateurs de déduplication sont activés par défaut pour la simulation, ce qui signifie que le moteur de décision autorise les doublons et peut donc faire la même proposition dans plusieurs décisions/placements. En savoir plus sur les [!DNL Decisioning]propriétés de la demande API dans [cette section](../api-reference/offer-delivery-api/decisioning-api.md). 
 
 1. Dans la section **[!UICONTROL Format de la réponse]**, vous pouvez choisir d’inclure les métadonnées dans l’affichage du code. Cochez l’option correspondante, puis sélectionnez les métadonnées de votre choix. Elles s’affichent dans les payloads de la requête et de la réponse lors de la sélection de **[!UICONTROL Afficher le code]**. En savoir plus dans la section [Affichage des résultats de la simulation](#simulation-results).
 

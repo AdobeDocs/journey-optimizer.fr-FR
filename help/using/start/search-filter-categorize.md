@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 exl-id: 6151aea2-6a34-4000-ba48-161efe4d94d7
 source-git-commit: cbd121dda4093fdea6f6bded02e8ae3e188e827d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '575'
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 87%
 
 ## Recherche {#unified-search}
 
-Dans l’interface Adobe Journey Optimizer, utilisez la fonctionnalité de recherche Adobe Experience Cloud unifiée au centre de la barre supérieure pour rechercher des ressources, des parcours, des jeux de données et plus encore dans vos sandbox.
+Dans l’interface Adobe Journey Optimizer, utilisez la recherche Adobe Experience Cloud unifiée au centre de la barre supérieure pour rechercher des ressources, des parcours, des jeux de données et plus encore dans vos sandbox.
 
 Commencez à saisir du contenu pour afficher les meilleurs résultats. Les articles d’aide sur les mots-clés saisis apparaissent également dans les résultats.
 
@@ -33,7 +33,7 @@ Appuyez sur **Entrée** pour accéder à tous les résultats et filtrer par obje
 
 Dans la plupart des listes, utilisez la barre de recherche pour rechercher des éléments spécifiques et définir des critères de filtrage.
 
-Pour accéder aux filtres, cliquez sur l’icône en forme de filtre en haut à gauche d’une liste. Le menu Filtrer vous permet de filtrer les éléments affichés en fonction de différents critères : vous pouvez choisir d’afficher uniquement les éléments d’un certain type ou statut, ceux que vous avez créés ou ceux que vous avez modifiés au cours des 30 derniers jours. Les options varient en fonction du contexte.
+Pour accéder aux filtres, cliquez sur l’icône en forme de filtre en haut à gauche d’une liste. Le menu Filtrer vous permet de filtrer les éléments affichés selon différents critères : vous pouvez choisir d’afficher uniquement les éléments d’un certain type ou statut, ceux que vous avez créés ou ceux que vous avez modifiés au cours des 30 derniers jours. Les options varient en fonction du contexte.
 
 De plus, vous pouvez utiliser les balises unifiées pour filtrer une liste en fonction des balises affectées à un objet. Pour l’instant, les balises sont disponibles pour les parcours et les campagnes. [Découvrir comment utiliser les balises](#tags)
 
@@ -67,7 +67,7 @@ Le champ **[!UICONTROL Balises]** vous permet de définir des balises pour votre
 * [Fragments](../content-management/fragments.md)
 * [Parcours](../building-journeys/journey-properties.md)
 * [Pages de destination](../landing-pages/create-lp.md)
-* [Listes dʼabonnements](../landing-pages/subscription-list.md)
+* [Listes des abonnements](../landing-pages/subscription-list.md)
 * [Modèles](../content-management/content-templates.md)
 
 Vous pouvez sélectionner une balise existante ou en créer une nouvelle. Pour ce faire, procédez comme suit.

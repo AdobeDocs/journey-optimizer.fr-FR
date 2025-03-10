@@ -10,9 +10,9 @@ level: Intermediate
 keywords: message, fréquence, règles, pression
 exl-id: 07f5f0b4-417e-408e-8d9e-86615c8a3fbf
 source-git-commit: 53d319454d47260c44a457ed547a4f3c6b33592c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1933'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -63,7 +63,7 @@ Pour créer un jeu de règles, procédez comme suit.
 
 >[!NOTE]
 >
->Vous pouvez créer jusqu’à 3 ensembles de règles locales de domaine de canal et jusqu’à 5 ensembles de règles locales de domaine de parcours.
+>Vous pouvez créer jusqu’à 3 jeux de règles locales de domaine de canal et jusqu’à 5 jeux de règles locales de domaine de parcours.
 
 1. Accédez à la liste **[!UICONTROL Jeux de règles]**, puis cliquez sur **[!UICONTROL Créer un jeu de règles]**.
 
@@ -125,9 +125,9 @@ Les paramètres disponibles pour la règle dépendent du domaine du jeu de règl
 
    >[!AVAILABILITY]
    >
-   >La durée « quotidienne » est disponible uniquement à la demande. Pour obtenir l’accès, contactez votre représentant ou représentante Adobe.
+   >La durée « quotidienne » est disponible uniquement à la demande. Pour en bénéficier, contactez votre représentant ou représentante Adobe.
 
-   L’expiration du compteur pour chaque période se présente comme suit :
+   L’expiration du compteur pour chaque période est la suivante :
 
    * **[!UICONTROL Mensuele]** : la limite de fréquence est valable jusqu’au dernier jour du mois à 23:59:59 UTC. Par exemple, la date d’expiration mensuelle pour janvier est le 31 janvier à 23:59:59 UTC.
 

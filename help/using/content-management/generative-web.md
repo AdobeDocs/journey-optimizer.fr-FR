@@ -1,32 +1,32 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Génération de pages web avec l’assistant IA
-description: Commencez à générer du contenu et des ressources de page web avec l’assistant AI dans Journey Optimizer.
+title: Génération de pages web avec l’Assistant IA
+description: Commencez à générer le contenu et la ressource de la page web à l’aide de l’Assistant IA dans Journey Optimizer.
 feature: Content Assistant
 topic: Content Management
 role: User
 level: Beginner
 exl-id: ebe2df77-4aaa-45b1-a8ce-931d4191cc67
 source-git-commit: d2c008ab9b63df5b7a0ded317a97a4d26d2319e3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1080'
-ht-degree: 80%
+ht-degree: 100%
 
 ---
 
-# Génération de pages web avec l’assistant IA {#generative-web}
+# Génération de pages web avec l’Assistant IA {#generative-web}
 
 >[!IMPORTANT]
 >
 >Avant de commencer à utiliser cette fonctionnalité, lisez la section connexe [Mécanismes de sécurisation et limitations](gs-generative.md#generative-guardrails).
 ></br>
 >
->Vous devez accepter un [contrat d’utilisateur](https://www.adobe.com/fr/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html) avant de pouvoir utiliser l’assistant AI dans Journey Optimizer. Pour en savoir plus, contactez votre représentant ou représentante Adobe.
+>Vous devez accepter un [contrat d’utilisation](https://www.adobe.com/fr/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html) avant de pouvoir utiliser l’Assistant IA dans Journey Optimizer. Pour plus d’informations, contactez votre représentant ou représentante Adobe.
 
-Une fois vos pages web créées et personnalisées, utilisez l’assistant d’IA dans Journey Optimizer optimisé par l’IA générative pour booster votre contenu.
+Une fois que vous avez créé et personnalisé vos pages web, utilisez l’Assistant IA dans Journey Optimizer optimisé par l’IA générative pour améliorer votre contenu.
 
-L’assistant d’IA dans Journey Optimizer peut vous aider à optimiser l’impact de vos diffusions en suggérant différents contenus plus susceptibles de résonner auprès de votre audience.
+L’Assistant IA dans Journey Optimizer peut vous aider à optimiser l’impact de vos diffusions en suggérant un contenu différent et plus susceptible de résonner auprès de votre audience.
 
 >[!BEGINTABS]
 
@@ -40,13 +40,13 @@ L’assistant d’IA dans Journey Optimizer peut vous aider à optimiser l’imp
 
    ![](assets/web-gen-full-1.png){zoomable="yes"}
 
-1. Activez l’option **[!UICONTROL Utiliser le contenu original]** de l’assistant IA afin de personnaliser le nouveau contenu en fonction du contenu sélectionné.
+1. Activez l’option **[!UICONTROL Utiliser le contenu original]** de l’Assistant IA afin de personnaliser le nouveau contenu en fonction du contenu sélectionné.
 
-1. Sélectionnez votre **[!UICONTROL Marque]** pour vous assurer que le contenu généré par l’IA correspond aux spécifications de votre marque. [En savoir plus](brands.md) sur les marques.
+1. Sélectionnez votre **[!UICONTROL Marque]** pour vous assurer que le contenu généré par l’IA correspond aux spécifications de celle-ci. [En savoir plus](brands.md) sur les marques.
 
-   Notez que la fonctionnalité Marques est disponible en version bêta privée et sera progressivement disponible pour tous les clients dans les prochaines versions.
+   Notez que cette fonctionnalité est disponible en version Private Beta et sera progressivement disponible pour l’ensemble de la clientèle dans les versions ultérieures.
 
-1. Affinez le contenu en décrivant ce que vous souhaitez générer dans le champ **[!UICONTROL Invite]**.
+1. Affinez le contenu en décrivant ce que vous souhaitez générer dans le champ **[!UICONTROL Prompt]**.
 
    Si vous avez besoin d’aide pour concevoir votre invite, accédez à la **[!UICONTROL Bibliothèque d’invites]** qui offre un large éventail d’idées d’invites pour améliorer vos campagnes.
 
@@ -55,7 +55,7 @@ L’assistant d’IA dans Journey Optimizer peut vous aider à optimiser l’imp
 1. Adaptez votre prompt avec l’option **[!UICONTROL Paramètres de texte]** :
 
    * **[!UICONTROL Stratégie de communication]** : choisissez le style de communication le plus adapté au texte généré.
-   * **[!UICONTROL Langues]** : les options en espagnol, italien, suédois et norvégien sont disponibles en version bêta privée et seront progressivement disponibles pour tous les clients dans les prochaines versions.
+   * **[!UICONTROL Langues]** : les options linguistiques Espagnol, Italien, Suédois et Norvégien sont disponibles en version Private Beta et seront progressivement déployées pour l’ensemble de la clientèle dans les versions ultérieures.
    * **[!UICONTROL Ton]** : le ton de votre page web doit résonner auprès de votre audience. Que vous souhaitiez communiquer de façon informative, ludique ou convaincante, l’assistant IA peut adapter le message en conséquence.
    * **Longueur de texte** : utilisez le curseur pour sélectionner la longueur souhaitée de votre texte.
 
@@ -93,25 +93,25 @@ Une fois que vous avez défini vos paramètres de campagne web et que vous avez 
 
 >[!TAB Génération d’images de page web]
 
-Dans l’exemple ci-dessous, découvrez comment tirer parti de l’assistant d’IA dans Journey Optimizer pour optimiser et améliorer vos ressources, offrant ainsi une expérience plus conviviale.
+Dans l’exemple ci-dessous, découvrez comment tirer parti de l’Assistant IA dans Journey Optimizer pour optimiser et améliorer vos ressources, afin d’offrir une expérience plus conviviale.
 
 1. Après avoir créé et configuré votre page web, cliquez sur **[!UICONTROL Modifier la page web]**.
 
    Pour plus d’informations sur la configuration de votre page web, consultez [cette page](../web/create-web.md).
 
-1. Sélectionnez la ressource que vous souhaitez modifier à l’aide de l’assistant IA.
+1. Sélectionnez la ressource que vous souhaitez modifier à l’aide de l’Assistant IA.
 
-1. Dans le menu de droite, sélectionnez **[!UICONTROL Afficher l’assistant IA]**.
+1. Dans le menu de droite, sélectionnez **[!UICONTROL Afficher l’Assistant IA]**.
 
    ![](assets/web-gen-img-1.png){zoomable="yes"}
 
 1. Activez l’option **[!UICONTROL Style de référence]** pour l’assistant IA afin de personnaliser le nouveau contenu en fonction du contenu de référence. Vous pouvez également charger une image pour ajouter du contexte à votre variation.
 
-1. Sélectionnez votre **[!UICONTROL Marque]** pour vous assurer que le contenu généré par l’IA correspond aux spécifications de votre marque. [En savoir plus](brands.md) sur les marques.
+1. Sélectionnez votre **[!UICONTROL Marque]** pour vous assurer que le contenu généré par l’IA correspond aux spécifications de celle-ci. [En savoir plus](brands.md) sur les marques.
 
-   Notez que la fonctionnalité Marques est disponible en version bêta privée et sera progressivement disponible pour tous les clients dans les prochaines versions.
+   Notez que cette fonctionnalité est disponible en version Private Beta et sera progressivement disponible pour l’ensemble de la clientèle dans les versions ultérieures.
 
-1. Affinez le contenu en décrivant ce que vous souhaitez générer dans le champ **[!UICONTROL Invite]**.
+1. Affinez le contenu en décrivant ce que vous souhaitez générer dans le champ **[!UICONTROL Prompt]**.
 
    Si vous avez besoin d’aide pour concevoir votre invite, accédez à la **[!UICONTROL Bibliothèque d’invites]** qui offre un large éventail d’idées d’invites pour améliorer vos campagnes.
 

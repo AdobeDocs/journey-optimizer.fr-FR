@@ -10,9 +10,9 @@ level: Intermediate
 keywords: test, parcours, vérification, erreur, dépannage
 exl-id: 9937d9b5-df5e-4686-83ac-573c4eba983a
 source-git-commit: 99099cb6b705cb5a7b97652154c42f0565fdfdb9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1671'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 96%
 >title="Tester votre parcours"
 >abstract="Utilisez des profils de test pour tester votre parcours avant de le publier. Vous pouvez ainsi analyser le flux des individus dans le parcours et résoudre les problèmes avant la publication."
 
-Une fois que vous avez créé votre parcours, vous pouvez le tester avant de le publier. Journey Optimizer propose un « mode test » pour afficher les profils de test lors de leur déplacement sur le parcours, détectant les erreurs potentielles avant l’activation. L’exécution de tests rapides vous permet de vérifier que les parcours fonctionnent correctement afin de pouvoir les publier en toute confiance.
+Une fois que vous avez créé votre parcours, vous pouvez le tester avant de le publier. Journey Optimizer propose un « mode test » pour afficher les profils de test au fur et à mesure de leur progression dans le parcours et ainsi détecter les erreurs potentielles avant leur activation. L’exécution de tests rapides vous permet de vérifier que les parcours fonctionnent correctement afin de pouvoir les publier en toute confiance.
 
 Seuls les profils de test peuvent rejoindre un parcours en mode test. Vous pouvez créer des profils de test ou transformer des profils existants en profils de test. En savoir plus sur les profils de test dans [cette section](../audience/creating-test-profiles.md).
 

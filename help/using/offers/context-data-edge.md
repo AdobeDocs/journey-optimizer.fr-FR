@@ -1,124 +1,124 @@
 ---
 product: experience platform
 solution: Experience Platform
-title: Données contextuelles et requêtes de prise de décision Edge
+title: Données contextuelles et requêtes Edge Decisioning
 description: Découvrez comment transmettre des données contextuelles dans les requêtes Edge Decisioning.
 feature: Decision Management
 role: Developer, Data Engineer
 level: Experienced
-source-git-commit: 9b66f4871d8b539bf0201b2974590672205a3243
-workflow-type: tm+mt
+exl-id: c9e14d4d-f2e2-43f9-b1c5-4b005ce858ad
+source-git-commit: c3d256fcd06eb096a589d1154a0a4c97462005a9
+workflow-type: ht
 source-wordcount: '812'
-ht-degree: 1%
+ht-degree: 100%
 
 ---
 
+# Données contextuelles et requêtes Edge Decisioning {#edge}
 
-# Données contextuelles et requêtes de prise de décision Edge {#edge}
+Cette section vous guide tout au long de la transmission de données contextuelles dans les requêtes Edge Decisioning et de leur utilisation dans les règles d&#39;éligibilité. Nous allons explorer un cas d’utilisation complet qui montre comment diffuser des offres personnalisées en fonction du type d’appareil utilisé par les clients et les clientes.
 
-Cette section vous guide tout au long de la transmission des données contextuelles dans les requêtes Edge Decisioning et de leur utilisation dans les règles d&#39;éligibilité. Nous allons explorer un cas pratique de bout en bout qui montre comment diffuser des offres personnalisées en fonction du type d’appareil utilisé par les clients.
+Ce cas pratique comporte plusieurs étapes clés :
 
-Ce cas pratique implique plusieurs étapes clés :
-
-1. [Configurer les conditions préalables](#prerequisites) : assurez-vous que toutes les étapes nécessaires sont effectuées pour transmettre des données contextuelles dans vos requêtes.
-1. [Utiliser des données contextuelles dans les règles d’éligibilité](#rule) : créez des règles qui déterminent les offres à afficher en fonction du type d’appareil de l’utilisateur.
-1. [Concevoir des offres spécifiques à un appareil](#offers) : créez des offres personnalisées pour chaque type d’appareil et liez-les aux règles correspondantes.
-1. [Créer une collection d&#39;offres](#collection) : regroupez toutes les offres dans une collection statique.
-1. [Configurer une décision](#decision) : créez une décision qui utilise le moteur de décision d’offre pour sélectionner la meilleure offre à présenter aux utilisateurs en fonction de leur type d’appareil.
-1. [Transmettre des données contextuelles dans la requête de prise de décision Edge](#request) : transmettez des données contextuelles par le biais de votre requête API pour récupérer et présenter les offres appropriées aux utilisateurs.
+1. [Configurer les conditions préalables](#prerequisites) : assurez-vous que toutes les étapes nécessaires sont effectuées pour transmettre des données contextuelles dans vos requêtes.
+1. [Utiliser des données contextuelles dans les règles d’éligibilité](#rule) : créez des règles qui déterminent les offres à afficher en fonction du type d’appareil de l’utilisateur ou de l’utilisatrice.
+1. [Concevoir des offres spécifiques à un appareil](#offers) : créez des offres personnalisées pour chaque type d’appareil et associez-les aux règles correspondantes.
+1. [Créer une collection d&#39;offres](#collection) : regroupez toutes les offres dans une collection statique.
+1. [Configurer une décision](#decision) : créez une décision qui utilise le moteur de décision d’offres pour sélectionner la meilleure offre à présenter aux utilisateurs et utilisatrices en fonction de leur type d’appareil.
+1. [Transmettre des données contextuelles dans la requête Edge Decisioning](#request) : transmettez des données contextuelles par le biais de votre requête API pour récupérer et présenter les offres appropriées aux utilisateurs et utilisatrices.
 
 >[!BEGINSHADEBOX]
 
-Pour aller plus loin, vous pouvez également exploiter les données contextuelles dans des **formules de classement** ou **personnaliser dynamiquement les représentations de votre offre**. Par exemple, vous pouvez créer une offre unique et utiliser des champs de personnalisation pour adapter sa représentation en fonction des données contextuelles. Par exemple, affichez une image donnée si l’utilisateur dispose d’un iphone et une autre pour les utilisateurs d’ipad. Pour plus d’informations, reportez-vous aux sections suivantes :
+Pour aller plus loin, vous pouvez également exploiter les données contextuelles dans des **formules de classement** ou **personnaliser dynamiquement les rendus de votre offre**. Par exemple, vous pouvez créer une offre unique et utiliser des champs de personnalisation pour adapter son rendu en fonction des données contextuelles. Par exemple, affichez une image donnée si la personne dispose d’un iPhone et une autre pour celles possédant un iPad. Pour plus d’informations, consultez les sections suivantes :
 
-* [Formules de classement - Booster les offres en fonction des données contextuelles](../offers/ranking/create-ranking-formulas.md#context-data)
+* [Formules de classement : améliorer les offres en fonction des données contextuelles](../offers/ranking/create-ranking-formulas.md#context-data)
 * [Personnaliser des représentations basées sur des données contextuelles](../offers/offer-library/add-representations.md#context-data)
 
 >[!ENDSHADEBOX]
 
 ## Conditions préalables pour transmettre des données contextuelles dans les requêtes Edge Decisioning {#prerequisites}
 
-Contrairement à la transmission du contexte dans un format assez libre à l’aide de l’API Decisioning, la payload du contexte de prise de décision d’Edge doit être compatible avec les événements d’expérience XDM. Pour ce faire, le contexte doit être défini dans le cadre de l’« Événement d’expérience XDM » utilisé pour la collecte de données.
+Contrairement à la transmission du contexte dans un format assez libre à l’aide de l’API Decisioning, la payload du contexte Edge Decisioning doit être compatible avec les événements d’expérience XDM. Pour ce faire, le contexte doit être défini dans le cadre de l’« Événement d’expérience XDM » utilisé pour la collecte de données.
 
-1. Définissez un schéma d’événement d’expérience. Pour les besoins de ce cas d’utilisation, un schéma « Contexte de l’offre » est créé et les champs de contexte de l’offre font partie d’un groupe de champs « Contexte de l’offre ». En réalité, le groupe de champs serait ajouté au schéma d’événement d’expérience utilisé pour la collecte de données associée au flux de données « Réseau de collecte Edge ».
+1. Définissez un schéma d’événement d’expérience. Pour les besoins de ce cas d’utilisation, un schéma « Contexte de l’offre » est créé et les champs de contexte de l’offre font partie d’un groupe de champs « Contexte de l’offre ». En réalité, le groupe de champs serait ajouté au schéma d’événement d’expérience utilisé pour la collecte de données associée au train de données « Réseau de collecte Edge ».
 
    >[!NOTE]
    >
-   >Le schéma d’événement d’expérience du contexte d’offre doit faire partie du profil, avec un champ « CUSTOMER_ID » utilisé comme identité principale.
+   >Le schéma d’événement d’expérience du contexte d’offre doit faire partie du profil, avec un champ « CUSTOMER_ID » utilisé comme identité principale.
 
-   Dans cet exemple, le groupe de champs « Contexte de l’offre » possède deux propriétés : language et deviceType. Ces propriétés seront utilisées dans le classement des offres et les règles d’éligibilité.
+   Dans cet exemple, le groupe de champs « Contexte de l’offre » possède deux propriétés : language et deviceType. Ces propriétés seront utilisées dans le classement des offres et les règles d’éligibilité.
 
    ![](assets/context-edge-xdm.png){width="60%" align="center" zoomable="yes"}
 
-   Découvrez comment utiliser les schémas dans le guide Adobe Experience Platform [Modèle de données d’expérience (XDM)](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/home){target="_blank"}
+   Découvrez comment utiliser les schémas dans le guide d’Adobe Experience Platform sur le [Modèle de données d’expérience (XDM)](https://experienceleague.adobe.com/fr/docs/experience-platform/xdm/home){target="_blank"}.
 
-1. Créez un jeu de données (ici, « Contexte de l’offre ») et assurez-vous qu’il est activé pour le profil.
+1. Créez un jeu de données (ici, « Contexte de l’offre ») et assurez-vous qu’il est activé pour le profil.
 
-1. Créez un flux de données à partir du menu **[!UICONTROL Collecte de données]** > **[!UICONTROL Flux de données]**. Découvrez comment créer et configurer un flux de données dans Adobe Experience Platform [Guide des flux de données](https://experienceleague.adobe.com/fr/docs/experience-platform/datastreams/configure){target="_blank"}
+1. Créez un train de données à partir du menu **[!UICONTROL Collecte de données]** > **[!UICONTROL Trains de données]**. Découvrez comment créer et configurer un train de données dans le [Guide d’Adobe Experience Platform sur les trains de données](https://experienceleague.adobe.com/fr/docs/experience-platform/datastreams/configure){target="_blank"}.
 
-   Ici, nous avons créé un flux de données « Contexte de l’offre », avec le schéma d’événement « Contenu de l’offre » sélectionné.
+   Ici, nous avons créé un train de données « Contexte de l’offre », avec le schéma d’événement « Contenu de l’offre » sélectionné.
 
    ![](assets/context-edge-datastream.png)
 
-1. Modifiez le flux de données nouvellement créé et sélectionnez « Adobe Experience Platform » comme service et « Contexte de l’offre » comme jeu de données d’événement.
+1. Modifiez le train de données nouvellement créé et sélectionnez « Adobe Experience Platform » comme service et « Contexte de l’offre » comme jeu de données d’événement.
 
    ![](assets/context-edge-datastream-new.png)
 
-1. Enregistrez le flux de données et copiez son identifiant. Cet identifiant sera utilisé dans votre point d’entrée de requête API. [Découvrez comment créer l’appel API](#request)
+1. Enregistrez le train de données et copiez son identifiant. Cet identifiant sera utilisé dans votre point d’entrée de requête API. [Découvrez comment créer l’appel API](#request).
 
    ![](assets/context-edge-datastream-copy.png)
 
-## Utilisation de données contextuelles dans les règles d’éligibilité {#rules}
+## Utiliser des données contextuelles dans les règles d’éligibilité {#rules}
 
-Créez des règles d’éligibilité qui déterminent les offres à afficher en fonction du type d’appareil de l’utilisateur :
+Créez des règles d’éligibilité qui déterminent les offres à afficher en fonction du type d’appareil cible :
 
 ![](assets/context-edge-device.png)
 
-* règle d’appareil iphone :
+* règle pour les appareils iPhone :
 
-   * Nom de la règle : « Règle de contexte Edge - iphone »
-   * Configuration : deviceType = « iphone »
-   * Syntaxe de PQL :
+   * Nom de la règle : « Règle contextuelle Edge - iPhone »
+   * Configuration : deviceType = « iphone »
+   * Syntaxe PQL :
 
      ```
      select _Any1 from xEvent where _Any1._experienceplatform.offerContextData.deviceType.equals("iphone", false)
      ```
 
-* règle d’appareil ipad :
+* règle pour les appareils iPad :
 
-   * Nom de la règle : « Règle de contexte Edge - ipad »
-   * Configuration : deviceType = « ipad »
-   * Syntaxe de PQL
+   * Nom de la règle : « Règle contextuelle Edge - iPad »
+   * Configuration : deviceType = « ipad »
+   * Syntaxe PQL
 
      ```
      select _Any1 from xEvent where _Any1._experienceplatform.offerContextData.deviceType.equals("ipad", false)
      ```
 
-## Création d’offres {#offers}
+## Créer des offres {#offers}
 
-Créez une offre pour chaque type d&#39;appareil et liez-la à la règle d&#39;éligibilité correspondante créée précédemment :
+Créez une offre pour chaque type d’appareil et liez-la à la règle d’éligibilité correspondante créée précédemment :
 
-* Offre pour les utilisateurs d&#39;iphone :
+* Offre pour les personnes utilisant un iPhone :
 
-   * Nom de l’offre : « Contexte Edge - Contenu de l’offre iPhone »
-   * Règle associée : « Règle de contexte Edge - iphone »
+   * Nom de l’offre : « Contexte Edge - Contenu de l’offre iPhone »
+   * Règle associée : « Règle de contexte Edge - iPhone »
 
-* Offre pour les utilisateurs d&#39;ipad :
+* Offre pour les personnes utilisant un iPad :
 
-   * Nom de l’offre : Contexte Edge - Contenu de l’offre iPad :
-   * Règle associée : « Règle de contexte Edge - ipad »
+   * Nom de l’offre : Contexte Edge - Contenu de l’offre iPad :
+   * Règle associée : « Règle de contexte Edge - iPad »
 
-En outre, créez une offre de secours (ici, « Contenu de secours contextuel ») à afficher si aucun critère spécifique d’appareil n’est satisfait.
+En outre, créez une offre de secours (ici, « Contenu de secours contextuel ») à afficher si aucun critère spécifique d’appareil n’est satisfait.
 
-## Ajouter des offres dans une collection {#collection}
+## Ajouter des offres à une collection {#collection}
 
-Ajoutez les offres créées précédemment à une collection statique nommée ici « Edge Device Context ». Cette collection correspond à l’endroit où la décision d’offre sélectionne les offres éligibles à présenter aux clients.
+Ajoutez les offres créées précédemment à une collection statique nommée ici « Contexte des appareils Edge ». Cette collection correspond à l’endroit où la décision d’offres sélectionne les offres éligibles à présenter à la clientèle.
 
 ![](assets/context-edge-collection.png)
 
-## Créer une décision d’offre {#decision}
+## Créer une décision d’offres {#decision}
 
-Créez une décision qui utilise le moteur de décision d’offre pour sélectionner la meilleure offre à présenter aux utilisateurs en fonction de leur type d’appareil avec l’offre « Secours contextuel » sélectionnée comme offre de secours.
+Créez une décision qui utilise le moteur de décision d’offres pour sélectionner la meilleure offre à présenter aux personnes en fonction de leur type d’appareil avec l’offre « Secours contextuel » sélectionnée comme offre de secours.
 
 ![](assets/context-edge-decision.png)
 
@@ -126,11 +126,11 @@ Créez une décision qui utilise le moteur de décision d’offre pour sélectio
 >
 >Pour aller plus loin, vous pouvez exploiter les données contextuelles dans des formules de classement et les affecter à votre décision. AJOUTER DES INFORMATIONS
 
-## Transmission de données contextuelles dans la requête Edge Decisioning {#request}
+## Transmettre des données contextuelles dans la requête Edge Decisioning {#request}
 
 ### Point d’entrée
 
-Dans le point d’entrée , utilisez l’identifiant du [flux de données](#prerequisites) créé précédemment.
+Dans le point d’entrée, utilisez l’identifiant du [train de données](#prerequisites) créé précédemment.
 
 `https://edge.adobedc.net/ee/irl1/v1/interact?configId=f3c47f2a-c484-4908-87a5-a82b55039e22`
 
@@ -139,9 +139,9 @@ Dans le point d’entrée , utilisez l’identifiant du [flux de données](#prer
 Voici un exemple de requête transmettant des données contextuelles.
 
 * Les informations sur le type d’appareil sont transmises dans le nœud `xdm:ContextData`.
-* Dans le nœud `decisionScopes`, copiez-collez la portée de décision de la [décision d&#39;offre](#decision) configurée précédemment.
+* Dans le nœud `decisionScopes`, copiez-collez la portée de la [décision d’offres](#decision) configurée précédemment.
 
-  +++Où récupérer la portée de décision
+  +++Où récupérer la portée de décision ?
 
   ![](assets/context-edge-copy-scope.png)
 
@@ -181,7 +181,7 @@ Voici un exemple de requête transmettant des données contextuelles.
 
 ### Réponse
 
-Voici un exemple de réponse :
+Voici un exemple de réponse :
 
 ```
 {

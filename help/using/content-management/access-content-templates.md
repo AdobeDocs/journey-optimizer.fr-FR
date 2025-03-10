@@ -8,9 +8,9 @@ role: User
 level: Beginner
 exl-id: ef6110c4-1aa6-4835-b0b0-b3c4fe0e7024
 source-git-commit: 5ce76bd61a61e1ed5e896f8da224fc20fba74b53
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '320'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -60,9 +60,9 @@ Cette fonctionnalité est publiée en disponibilité limitée pour un petit grou
 
 >[!NOTE]
 >
-Actuellement, les miniatures appropriées ne peuvent être générées que pour un type HTML email modèles de contenu.
+Actuellement, les miniatures appropriées ne peuvent être générées que pour les modèles de contenu email de type HTML.
 
-Lorsque vous mettez à jour un contenu, vous devrez peut-être attendre quelques secondes avant que les modifications ne soient reflétées dans la miniature.
+Lorsque vous mettez à jour du contenu, vous devrez peut-être attendre quelques secondes avant que les modifications ne soient reflétées dans la miniature.
 
 ## Exporter des modèles de contenu vers un autre sandbox {#export}
 

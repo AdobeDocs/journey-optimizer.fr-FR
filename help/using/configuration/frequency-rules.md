@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Configuration des règles métier
+title: Configurer des règles métier
 description: Découvrez comment définir des règles de fréquence métier.
 feature: Rules
 topic: Content Management
@@ -14,9 +14,9 @@ googlebot: noindex
 keywords: message, fréquence, règles, pression
 exl-id: 49248fb6-5a91-45b2-9de8-2f078d59c0fc
 source-git-commit: 40bef9a05fef1433773a73d546752e84f81b7366
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1267'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -120,7 +120,7 @@ La limite de fréquence est basée sur la période calendaire sélectionnée. El
 
 ![](assets/message-rules-capping-duration.png)
 
-L’expiration du compteur pour chaque période se présente comme suit :
+L’expiration du compteur pour chaque période est la suivante :
 
 * **[!UICONTROL Mensuele]** : la limite de fréquence est valable jusqu’au dernier jour du mois à 23:59:59 UTC. Par exemple, la date d’expiration mensuelle pour janvier est le 31 janvier à 23:59:59 UTC.
 

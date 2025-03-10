@@ -7,9 +7,9 @@ role: User
 level: Intermediate
 exl-id: 718af505-7b7c-495e-8974-bd9c35d796bb
 source-git-commit: 9b66f4871d8b539bf0201b2974590672205a3243
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '767'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -140,7 +140,7 @@ Vous pouvez également insérer du contenu de type texte lors de la sélection d
 
 Lorsque des données contextuelles sont transmises dans l’appel [Prise de décision Edge](../api-reference/offer-delivery-api/edge-decisioning-api.md), vous pouvez utiliser ces données pour personnaliser dynamiquement les représentations. Par exemple, vous pouvez personnaliser la représentation d’une offre en fonction de facteurs en temps réel, tels que les conditions météorologiques actuelles au moment de la décision.
 
-Pour utiliser les données contextuelles dans les représentations d&#39;offre, incorporez la variable de données contextuelles directement dans le contenu de la représentation à l&#39;aide de l&#39;espace de noms `profile.timeSeriesEvents.`.
+Pour utiliser les données contextuelles dans les représentations des offres, incorporez la variable de données contextuelles directement dans le contenu de représentation à l’aide de l’espace de noms `profile.timeSeriesEvents.`.
 
 Voici un exemple de syntaxe utilisé pour personnaliser la représentation d’une offre en fonction des systèmes d’exploitation des utilisateurs et des utilisatrices :
 

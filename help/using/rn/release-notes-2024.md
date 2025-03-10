@@ -9,9 +9,9 @@ role: User
 level: Beginner, Intermediate
 exl-id: bae533c5-1bfc-48bf-9f8d-1145383c040c
 source-git-commit: 40bef9a05fef1433773a73d546752e84f81b7366
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '6785'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -441,7 +441,7 @@ Cette version apporte les nouvelles fonctionnalités détaillées ci-dessous.
 <tbody>
 <tr>
 <td>
-<p>Une fois que vous avez créé et personnalisé votre message, faites passer votre contenu au niveau supérieur avec l’assistant d’IA dans Journey Optimizer. Vous pouvez désormais utiliser l’assistant IA pour optimiser l’impact de votre message en testant différents titres principaux et images. Chaque variante est gérée en tant que traitement unique, afin de la mesurer et de la comparer pour savoir quel titre génère le plus de clics.</p>
+<p>Une fois que vous avez créé et personnalisé votre message, améliorez la qualité de votre contenu avec l’Assistant IA dans Journey Optimizer. Vous pouvez désormais utiliser l’assistant IA pour optimiser l’impact de votre message en testant différents titres principaux et images. Chaque variante est gérée en tant que traitement unique, afin de la mesurer et de la comparer pour savoir quel titre génère le plus de clics.</p>
 <p>Découvrez une expérience pratique avec <a href="https://experienceleague.adobe.com/fr/apps/journey-optimizer/ai-assistant-content-accelerator">notre aperçu des fonctionnalités en direct</a>, conçu pour vous permettre d’explorer directement ses fonctionnalités et de les comprendre pleinement.</a>.</p>
 <p>Pour plus d’informations, consultez la <a href="../content-management/gs-generative.md">documentation détaillée</a>.</p>
 <img src="assets/do-not-localize/ai-content.gif"/>

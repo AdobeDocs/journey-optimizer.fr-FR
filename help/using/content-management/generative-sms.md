@@ -9,26 +9,26 @@ role: User
 level: Beginner
 exl-id: 5fd1cc3a-c023-4e8e-bfac-9a86bd33bbb3
 source-git-commit: d2c008ab9b63df5b7a0ded317a97a4d26d2319e3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1000'
-ht-degree: 82%
+ht-degree: 100%
 
 ---
 
-# Génération de SMS avec l’assistant AI dans Journey Optimizer {#generative-sms}
+# Génération de SMS avec l’assistant IA dans Journey Optimizer {#generative-sms}
 
 >[!IMPORTANT]
 >
 >Avant de commencer à utiliser cette fonctionnalité, lisez la section connexe [Mécanismes de sécurisation et limitations](gs-generative.md#generative-guardrails).
 ></br>
 >
->Vous devez accepter un [contrat d’utilisateur](https://www.adobe.com/fr/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html) avant de pouvoir utiliser l’assistant AI dans Journey Optimizer. Pour en savoir plus, contactez votre représentant ou représentante Adobe.
+>Vous devez accepter un [contrat d’utilisation](https://www.adobe.com/fr/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html) avant de pouvoir utiliser l’Assistant IA dans Journey Optimizer. Pour plus d’informations, contactez votre représentant ou représentante Adobe.
 
 Après avoir conçu et personnalisé vos SMS en fonction des préférences de votre audience, améliorez votre communication avec l’assistant IA dans Journey Optimizer.
 
 Cette ressource offre des recommandations pertinentes pour affiner votre contenu, permettant à vos messages d’avoir un impact et de générer un engagement maximal.
 
-Explorez les onglets ci-dessous pour savoir comment utiliser l’assistant IA dans Journey Optimizer.
+Explorez les onglets ci-dessous pour savoir comment utiliser l’Assistant IA dans Journey Optimizer.
 
 >[!BEGINTABS]
 
@@ -46,11 +46,11 @@ Explorez les onglets ci-dessous pour savoir comment utiliser l’assistant IA d
 
    ![](assets/sms-genai-1.png){zoomable="yes"}
 
-1. Sélectionnez votre **[!UICONTROL Marque]** pour vous assurer que le contenu généré par l’IA correspond aux spécifications de votre marque. [En savoir plus](brands.md) sur les marques.
+1. Sélectionnez votre **[!UICONTROL Marque]** pour vous assurer que le contenu généré par l’IA correspond aux spécifications de celle-ci. [En savoir plus](brands.md) sur les marques.
 
-   Notez que la fonctionnalité Marques est disponible en version bêta privée et sera progressivement disponible pour tous les clients dans les prochaines versions.
+   Notez que cette fonctionnalité est disponible en version Private Beta et sera progressivement disponible pour l’ensemble de la clientèle dans les versions ultérieures.
 
-1. Affinez le contenu en décrivant ce que vous souhaitez générer dans le champ **[!UICONTROL Invite]**.
+1. Affinez le contenu en décrivant ce que vous souhaitez générer dans le champ **[!UICONTROL Prompt]**.
 
    Si vous avez besoin d’aide pour concevoir votre invite, accédez à la **[!UICONTROL Bibliothèque d’invites]** qui offre un large éventail d’idées d’invites pour améliorer vos campagnes.
 
@@ -59,7 +59,7 @@ Explorez les onglets ci-dessous pour savoir comment utiliser l’assistant IA d
 1. Adaptez votre prompt avec l’option **[!UICONTROL Paramètres de texte]** :
 
    * **[!UICONTROL Stratégie de communication]** : sélectionnez l’approche de communication souhaitée pour le texte généré.
-   * **[!UICONTROL Langues]** : les options en espagnol, italien, suédois et norvégien sont disponibles en version bêta privée et seront progressivement disponibles pour tous les clients dans les prochaines versions.
+   * **[!UICONTROL Langues]** : les options linguistiques Espagnol, Italien, Suédois et Norvégien sont disponibles en version Private Beta et seront progressivement déployées pour l’ensemble de la clientèle dans les versions ultérieures.
    * **[!UICONTROL Ton]** : assurez-vous que le texte est adapté à votre audience et à votre objectif.
    * **[!UICONTROL Longueur]** : sélectionnez la longueur de votre contenu à l’aide du curseur de plage.
 
@@ -109,13 +109,13 @@ Lorsque vous avez défini le contenu, l’audience et le planning, vous pouvez p
 
    ![](assets/sms-text-genai-1.png){zoomable="yes"}
 
-1. Activez l’option **[!UICONTROL Utiliser du contenu de référence]** pour que l’assistant d’IA personnalise le nouveau contenu en fonction du contenu sélectionné.
+1. Activez l’option **[!UICONTROL Utiliser le contenu de référence]** de l’Assistant IA afin de personnaliser le nouveau contenu en fonction du contenu sélectionné.
 
 1. Sélectionnez votre **[!UICONTROL Marque]** pour vous assurer que le contenu généré par l’IA correspond aux spécifications de votre marque. [En savoir plus](brands.md) sur les marques.
 
-   Notez que la fonctionnalité Marques est disponible en version bêta privée et sera progressivement disponible pour tous les clients dans les prochaines versions.
+   Notez que cette fonctionnalité est disponible en version Private Beta et sera progressivement disponible pour l’ensemble de la clientèle dans les versions ultérieures.
 
-1. Affinez le contenu en décrivant ce que vous souhaitez générer dans le champ **[!UICONTROL Invite]**.
+1. Affinez le contenu en décrivant ce que vous souhaitez générer dans le champ **[!UICONTROL Prompt]**.
 
    Si vous avez besoin d’aide pour concevoir votre invite, accédez à la **[!UICONTROL Bibliothèque d’invites]** qui offre un large éventail d’idées d’invites pour améliorer vos campagnes.
 
@@ -124,7 +124,7 @@ Lorsque vous avez défini le contenu, l’audience et le planning, vous pouvez p
 1. Adaptez votre prompt avec l’option **[!UICONTROL Paramètres de texte]** :
 
    * **[!UICONTROL Stratégie de communication]** : sélectionnez l’approche de communication souhaitée pour le texte généré.
-   * **[!UICONTROL Langues]** : les options en espagnol, italien, suédois et norvégien sont disponibles en version bêta privée et seront progressivement disponibles pour tous les clients dans les prochaines versions.
+   * **[!UICONTROL Langues]** : les options linguistiques Espagnol, Italien, Suédois et Norvégien sont disponibles en version Private Beta et seront progressivement déployées pour l’ensemble de la clientèle dans les versions ultérieures.
    * **[!UICONTROL Ton]** : assurez-vous que le texte est adapté à votre audience et à votre objectif.
    * **[!UICONTROL Longueur]** : sélectionnez la longueur de votre contenu à l’aide du curseur de plage.
 

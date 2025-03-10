@@ -4,18 +4,18 @@ product: journey optimizer
 title: Configurer votre fournisseur personnalisé
 description: Découvrir comment configurer votre environnement pour envoyer des messages SMS avec Journey Optimizer par le biais d’un fournisseur personnalisé
 feature: SMS, Channel Configuration
-badge: label="Version bêta" type="Informative"
+badge: label="Beta" type="Informative"
 role: Admin
 level: Intermediate
 exl-id: fd713864-96b9-4687-91bd-84e3533273ff
 source-git-commit: f41426bd41078b98a26c32ce259a848ab49d724c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '283'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
-# Configuration d’un fournisseur personnalisé {#sms-configuration-custom}
+# Configurer un fournisseur personnalisé {#sms-configuration-custom}
 
 >[!AVAILABILITY]
 >

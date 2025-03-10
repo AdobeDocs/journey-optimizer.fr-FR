@@ -10,9 +10,9 @@ level: Intermediate
 keywords: conception, zone de travail, parcours, interface, glisser, déposer
 exl-id: 1998f6fc-60fd-4038-8669-39cd55bc02d1
 source-git-commit: 99099cb6b705cb5a7b97652154c42f0565fdfdb9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1644'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -65,7 +65,7 @@ Selon le statut du parcours, vous pouvez effectuer différentes actions à l’a
 
 ## Démarrage de votre parcours {#start-your-journey}
 
-Lorsque vous concevez votre parcours, la première question que vous devez vous poser est la suivante : comment les profils vont-ils entrer dans le parcours ?
+Lorsque vous concevez votre parcours, la première question que vous devez vous poser est la suivante : comment les profils vont-ils rejoindre le parcours ?
 
 Il existe deux possibilités :
 

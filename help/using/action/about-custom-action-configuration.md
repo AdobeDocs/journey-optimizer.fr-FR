@@ -10,9 +10,9 @@ level: Experienced
 keywords: action, tiers, personnalisé, parcours, API
 exl-id: 4df2fc7c-85cb-410a-a31f-1bc1ece237bb
 source-git-commit: 2af3cef357bf68091d9b8b5d2750e73a290bc682
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1692'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 97%
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_action_custom_configuration"
->title="Actions personnalisées "
+>title="Actions personnalisées"
 >abstract="Si vous utilisez un système tiers pour envoyer des messages ou souhaitez que les parcours envoient des appels API à un système tiers, utilisez des actions personnalisées pour configurer la connexion de ce système aux parcours."
 
 Si vous utilisez un système tiers pour envoyer des messages ou souhaitez que les parcours envoient des appels API à un système tiers, utilisez des actions personnalisées pour configurer la connexion de ce système aux parcours. Par exemple, vous pouvez vous connecter aux systèmes suivants avec des actions personnalisées : Epsilon, Slack, [Adobe Developer](https://developer.adobe.com){target="_blank"}, Firebase, etc.
@@ -143,7 +143,7 @@ Lors de la configuration d’une action personnalisée, vous devez définir les 
 
 ### Prise en charge du protocole TLS {#tls-protocol-support}
 
-Adobe Journey Optimizer prend en charge TLS 1.3 par défaut pour les actions personnalisées. Si un client prend également en charge TLS 1.3, la communication s’effectue via TLS 1.3. Sinon, le processus de négociation TLS peut revenir à TLS 1.2.
+Adobe Journey Optimizer prend en charge TLS 1.3 par défaut pour les actions personnalisées. Si un client prend également en charge TLS 1.3, la communication s’effectue via TLS 1.3. Sinon, le processus de négociation TLS peut revenir à TLS 1.2.
 
 ### Prise en charge du protocole mTLS {#mtls-protocol-support}
 

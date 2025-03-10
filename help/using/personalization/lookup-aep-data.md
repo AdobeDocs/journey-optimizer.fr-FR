@@ -2,8 +2,8 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Utiliser les données Adobe Experience Platform pour la personnalisation (version bêta)
-description: Découvrez comment utiliser les données Adobe Experience Platform pour la personnalisation.
-badge: label="Version bêta" type="Informative"
+description: Découvrez comment utiliser des données Adobe Experience Platform pour la personnalisation.
+badge: label="Beta" type="Informative"
 feature: Personalization, Rules
 topic: Personalization
 role: Data Engineer
@@ -11,9 +11,9 @@ level: Intermediate
 keywords: expression, éditeur
 exl-id: 2fc10fdd-ca9e-46f0-94ed-2d7ea4de5baf
 source-git-commit: 47ff62f7dee5974afbffdd38dfe4a3f967781e93
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1044'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -43,7 +43,7 @@ Avant de commencer, consultez les restrictions et les directives suivantes :
 
 * **Canaux pris en charge** : pour l’instant, cette fonctionnalité n’est disponible que pour une utilisation dans les canaux e-mail, SMS et courrier.
 * **L’étiquetage et l’application de l’utilisation des données** n’est pas appliquée pour l’instant pour les jeux de données activés pour la recherche.
-* **Fragments** : la personnalisation de la recherche de jeu de données ne peut pas être placée dans les fragments d’expression ou visuels pour le moment.
+* **Fragments** : pour le moment, la personnalisation de la recherche de jeux de données ne peut pas être placée dans des fragments d’expression ou visuels.
 
 ## Activer un jeu de données pour la recherche de données {#enable}
 

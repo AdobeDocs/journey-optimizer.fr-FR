@@ -10,9 +10,9 @@ level: Intermediate
 keywords: action, personnalisé, API, parcours, configuration, service
 exl-id: 2b1b3613-3096-43ec-a860-600dda1d83b2
 source-git-commit: 8b96c9d4698dc58abdc5ae0261db92b0ce708597
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '412'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -20,14 +20,14 @@ ht-degree: 91%
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_action_custom"
->title="Actions personnalisées "
->abstract="Les actions personnalisées vous permettent de configurer la connexion d&#39;un système tiers pour envoyer des messages ou des appels d&#39;API. Une action peut être configurée avec n&#39;importe quel service de n&#39;importe quel fournisseur qui peut être appelé via une API REST avec un payload au format JSON."
+>title="Actions personnalisées"
+>abstract="Les actions personnalisées vous permettent de configurer la connexion d&#39;un système tiers pour envoyer des messages ou des appels d&#39;API. Une action peut être configurée avec n’importe quel service de n’importe quel fournisseur qui peut être appelé via une API REST avec une payload au format JSON."
 
-Utilisez des actions personnalisées pour activer la connexion à un système tiers afin d’envoyer des messages ou des appels d’API. Une action peut être configurée avec n&#39;importe quel service de n&#39;importe quel fournisseur qui peut être appelé via une API REST avec un payload au format JSON.
+Utilisez des actions personnalisées pour permettre la connexion à un système tiers et envoyer des messages ou des appels API. Une action peut être configurée avec n’importe quel service de n’importe quel fournisseur qui peut être appelé via une API REST avec une payload au format JSON.
 
 En savoir plus sur les actions personnalisées dans [cette section](../action/action.md).
 
-Découvrez comment créer et configurer une action personnalisée sur [cette page](../action/about-custom-action-configuration.md).
+Découvrez comment créer et configurer une action personnalisée dans [cette section](../action/about-custom-action-configuration.md).
 
 ## Consentement et gouvernance des données {#privacy}
 

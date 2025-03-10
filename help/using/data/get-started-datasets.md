@@ -1,21 +1,21 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Prise en main des jeux de données
-description: Découvrez comment utiliser des jeux de données Adobe Experience Platform dans Adobe Journey Optimizer
+title: Commencer avec les jeux de données
+description: Découvrez comment utiliser des jeux de données Adobe Experience Platform dans Adobe Journey Optimizer.
 feature: Data Model, Datasets, Data Management
 role: Data Engineer, Data Architect, Admin
 level: Experienced
 keywords: platform, lac de données, créer, lac, jeux de données, profil
 exl-id: dcdd3c81-0f00-4259-a8a5-9062a4c40b6f
 source-git-commit: 46c4d3081603115db71b01a05f12187cd7e0d34c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '848'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
-# Prise en main des jeux de données {#datasets-gs}
+# Commencer avec les jeux de données {#datasets-gs}
 
 Toutes les données correctement ingérées par Adobe Experience Platform sont conservées sous forme de jeux de données dans le lac de données. Un jeu de données est une structure de stockage et de gestion pour la collecte de données, généralement sous la forme d&#39;un tableau, qui contient un schéma (des colonnes) et des champs (des lignes).
 
@@ -76,7 +76,7 @@ Dans l’écran Activité du jeu de données, sélectionnez **Prévisualiser le 
 
 Pour créer un jeu de données, commencez par sélectionner **Créer un jeu de données** dans le tableau de bord Jeux de données.
 
-Vous pouvez :
+Vous pouvez effectuer les actions suivantes :
 
 * Créer un jeu de données à partir d’un schéma. [En savoir plus dans cette documentation.](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/user-guide.html?lang=fr#schema){target="_blank"}
 * Créez un jeu de données à partir d’un fichier CSV. [En savoir plus dans cette documentation.](https://experienceleague.adobe.com/docs/experience-platform/ingestion/tutorials/map-a-csv-file.html?lang=fr){target="_blank"}

@@ -9,9 +9,9 @@ level: Beginner
 keywords: platform, lac de données, créer, lac, jeux de données, profil
 exl-id: 66b5c691-ddc4-4e9b-9386-2ce6c307451c
 source-git-commit: 46c4d3081603115db71b01a05f12187cd7e0d34c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '870'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -29,17 +29,17 @@ Vous pouvez exporter des jeux de données vers 6 destinations d’espace de sto
 
 Des informations détaillées sur chaque destination sont disponibles dans la documentation Adobe Experience Platform :
 
-* [Amazon S3](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/cloud-storage/amazon-s3.html?lang=fr){target="_blank"}
+* [Amazon S3](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/cloud-storage/amazon-s3.html?lang=fr){target="_blank"}
 * [Azure Blob](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/cloud-storage/azure-blob.html?lang=fr){target="_blank"}
-* [Azure Data Lake Gen 2](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/cloud-storage/adls-gen2.html?lang=fr){target="_blank"}
+* [Azure Data Lake Gen2](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/cloud-storage/adls-gen2.html?lang=fr){target="_blank"}
 * [Zone dʼatterrissage de données](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/cloud-storage/data-landing-zone.html?lang=fr){target="_blank"}
 * [Google Cloud Storage](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/cloud-storage/google-cloud-storage.html?lang=fr){target="_blank"}
-* [SFTP](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/cloud-storage/sftp.html?lang=fr){target="_blank"}
+* [SFTP](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/cloud-storage/sftp.html?lang=fr){target="_blank"}.
 
 
 ## Conditions préalables {#prerequisites}
 
-Pour exporter des jeux de données, vous avez besoin des [autorisations de contrôle d’accès](https://experienceleague.adobe.com/docs/experience-platform/access-control/home.html?lang=fr#permissions){target="_blank"} répertoriées ci-dessous. Lisez la [présentation du contrôle d’accès](https://experienceleague.adobe.com/docs/experience-platform/access-control/ui/overview.html?lang=fr){target="_blank"} ou contactez votre administrateur de produit pour obtenir les autorisations requises.
+Pour exporter des jeux de données, vous avez besoin des [autorisations de contrôle d’accès](https://experienceleague.adobe.com/docs/experience-platform/access-control/home.html?lang=fr#permissions){target="_blank"} répertoriées ci-dessous. Lisez la [vue d’ensemble du contrôle d’accès](https://experienceleague.adobe.com/docs/experience-platform/access-control/ui/overview.html?lang=fr){target="_blank"} ou contactez votre équipe d’administration de produit pour obtenir les autorisations requises.
 
 | Catégorie | Autorisation |
 |--|--|
@@ -94,7 +94,7 @@ Découvrez dans le tableau ci-dessous les jeux de données Journey Optimizer qu
 | Jeu de données d’entité AJO | Jeu de données permettant de stocker les métadonnées des entités pour les messages envoyés à l’utilisateur final ou à l’utilisatrice finale.  |
 | Jeu de données d’événement d’activité entrante AJO | Jeu de données pour les canaux web et in-app Journey Optimizer pour les événements de diffusion et d’interaction. |
 | Jeu de données de profil de messagerie interactive AJO | Stocke les profils créés pour prendre en charge les campagnes déclenchées par API. |
-| Jeu de données d’événement de feedback sur les messages AJO | Logs de diffusion des messages : Informations sur toutes les diffusions de messages à partir de Journey Optimizer à des fins de création de rapports et d’audiences. Les commentaires des FAI de messagerie sur les rebonds sont également enregistrés dans ce jeu de données. |
+| Jeu de données d’événement de retour sur les messages AJO | Logs de diffusion des messages : Informations sur toutes les diffusions de messages à partir de Journey Optimizer à des fins de création de rapports et d’audiences. Les commentaires des FAI de messagerie sur les rebonds sont également enregistrés dans ce jeu de données. |
 | Extension de compteurs de profils AJO | Contient un mappage d’objets contenant counter_value et expiryDate, saisi par counter_id. |
 | Jeu de données de profil push AJO | Stocke les jetons de notifications push d’un profil. |
 | Jeu de données d’événement d’expérience de tracking de notifications push AJO | Logs d’interaction pour le canal Notification push utilisé à des fins de création de rapports et d’audiences.  |

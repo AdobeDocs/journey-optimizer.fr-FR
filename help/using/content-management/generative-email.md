@@ -1,40 +1,40 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Génération d’e-mails avec l’assistant AI dans Journey Optimizer
-description: Commencer à générer du contenu et des ressources d’e-mail avec l’assistant AI dans Journey Optimizer
+title: Génération d’e-mails avec l’Assistant IA dans Journey Optimizer
+description: Commencez à générer du contenu et des ressources d’e-mail avec l’Assistant IA dans Journey Optimizer.
 feature: Content Assistant
 topic: Content Management
 role: User
 level: Beginner
 exl-id: 1b3930ff-f7b0-43f0-bcf2-5c3de0a88b25
 source-git-commit: d2c008ab9b63df5b7a0ded317a97a4d26d2319e3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1724'
-ht-degree: 83%
+ht-degree: 100%
 
 ---
 
-# Génération d’e-mails avec l’assistant IA  {#generative-email}
+# Génération d’e-mails avec l’Assistant IA  {#generative-email}
 
 >[!IMPORTANT]
 >
 >Avant de commencer à utiliser cette fonctionnalité, lisez la section connexe [Mécanismes de sécurisation et limitations](gs-generative.md#generative-guardrails).
 ></br>
 >
->Vous devez accepter un [contrat d’utilisateur](https://www.adobe.com/fr/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html) avant de pouvoir utiliser l’assistant AI dans Journey Optimizer. Pour en savoir plus, contactez votre représentant ou représentante Adobe.
+>Vous devez accepter un [contrat d’utilisation](https://www.adobe.com/fr/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html) avant de pouvoir utiliser l’Assistant IA dans Journey Optimizer. Pour plus d’informations, contactez votre représentant ou représentante Adobe.
 
-Après avoir conçu et personnalisé vos e-mails, utilisez la puissance de l’assistant IA dans Journey Optimizer, alimenté par l’IA générative, pour améliorer votre contenu.
+Après avoir conçu et personnalisé vos e-mails, utilisez la puissance de l’Assistant IA dans Journey Optimizer, alimenté par l’IA générative, pour améliorer votre contenu.
 
-Utilisez l’assistant d’IA dans Journey Optimizer pour améliorer l’efficacité de vos campagnes en créant des e-mails complets, des fragments de texte personnalisés et des images personnalisées qui s’adressent directement à votre audience, ce qui stimule l’engagement et les interactions.
+Utilisez l’Assistant IA de Journey Optimizer pour améliorer l’efficacité de vos campagnes en créant des e-mails complets, des fragments de texte personnalisés et des images personnalisées qui s’adressent directement à votre audience, stimulant ainsi l’engagement et l’interaction.
 
-Explorez les onglets ci-dessous pour savoir comment utiliser l’assistant IA dans Journey Optimizer.
+Explorez les onglets ci-dessous pour savoir comment utiliser l’Assistant IA dans Journey Optimizer.
 
 >[!BEGINTABS]
 
 >[!TAB Génération d’e-mail complet]
 
-Dans l’exemple suivant, nous utiliserons l’assistant AI pour affiner un modèle d’e-mail existant.
+Dans l’exemple suivant, nous utiliserons l’Assistant IA pour peaufiner un modèle d’e-mail existant.
 
 1. Après avoir créé et configuré votre campagne par e-mail, cliquez sur **[!UICONTROL Modifier le contenu]**.
 
@@ -46,11 +46,11 @@ Dans l’exemple suivant, nous utiliserons l’assistant AI pour affiner un mod�
 
 1. Activez l’option **[!UICONTROL Utiliser le contenu original]** de l’assistant IA afin de personnaliser le nouveau contenu en fonction du contenu sélectionné.
 
-1. Sélectionnez votre **[!UICONTROL Marque]** pour vous assurer que le contenu généré par l’IA correspond aux spécifications de votre marque. [En savoir plus](brands.md) sur les marques.
+1. Sélectionnez votre **[!UICONTROL Marque]** pour vous assurer que le contenu généré par l’IA correspond aux spécifications de celle-ci. [En savoir plus](brands.md) sur les marques.
 
-   Notez que la fonctionnalité Marques est disponible en version bêta privée et sera progressivement disponible pour tous les clients dans les prochaines versions.
+   Notez que cette fonctionnalité est disponible en version Private Beta et sera progressivement disponible pour l’ensemble de la clientèle dans les versions ultérieures.
 
-1. Affinez le contenu en décrivant ce que vous souhaitez générer dans le champ **[!UICONTROL Invite]**.
+1. Affinez le contenu en décrivant ce que vous souhaitez générer dans le champ **[!UICONTROL Prompt]**.
 
    Si vous avez besoin d’aide pour concevoir votre invite, accédez à la **[!UICONTROL Bibliothèque d’invites]** qui offre un large éventail d’idées d’invites pour améliorer vos campagnes.
 
@@ -61,7 +61,7 @@ Dans l’exemple suivant, nous utiliserons l’assistant AI pour affiner un mod�
 1. Adaptez votre prompt avec l’option **[!UICONTROL Paramètres de texte]** :
 
    * **[!UICONTROL Stratégie de communication]** : choisissez le style de communication le plus adapté au texte généré.
-   * **[!UICONTROL Langues]** : les options en espagnol, italien, suédois et norvégien sont disponibles en version bêta privée et seront progressivement disponibles pour tous les clients dans les prochaines versions.
+   * **[!UICONTROL Langues]** : les options linguistiques Espagnol, Italien, Suédois et Norvégien sont disponibles en version Private Beta et seront progressivement déployées pour l’ensemble de la clientèle dans les versions ultérieures.
    * **[!UICONTROL Ton]** : le ton de votre e-mail doit résonner auprès de votre audience. Que vous souhaitiez communiquer de façon informative, ludique ou convaincante, l’assistant IA peut adapter le message en conséquence.
 
    ![](assets/full-email-4.png){zoomable="yes"}
@@ -106,7 +106,7 @@ Lorsque vous avez défini le contenu, l’audience et le planning, vous pouvez p
 
 >[!TAB Génération de texte uniquement]
 
-Dans l’exemple suivant, nous utiliserons l’assistant AI pour améliorer le contenu de notre e-mail.
+Dans l’exemple suivant, nous utiliserons l’Assistant IA afin d’améliorer le contenu de notre e-mail.
 
 1. Après avoir créé et configuré votre campagne par e-mail, cliquez sur **[!UICONTROL Modifier le contenu]**.
 
@@ -120,9 +120,9 @@ Dans l’exemple suivant, nous utiliserons l’assistant AI pour améliorer le c
 
 1. Sélectionnez votre **[!UICONTROL Marque]** pour vous assurer que le contenu généré par l’IA correspond aux spécifications de votre marque. [En savoir plus](brands.md) sur les marques.
 
-   Notez que la fonctionnalité Marques est disponible en version bêta privée et sera progressivement disponible pour tous les clients dans les prochaines versions.
+   Notez que cette fonctionnalité est disponible en version Private Beta et sera progressivement disponible pour l’ensemble de la clientèle dans les versions ultérieures.
 
-1. Affinez le contenu en décrivant ce que vous souhaitez générer dans le champ **[!UICONTROL Invite]**.
+1. Affinez le contenu en décrivant ce que vous souhaitez générer dans le champ **[!UICONTROL Prompt]**.
 
    Si vous avez besoin d’aide pour concevoir votre invite, accédez à la **[!UICONTROL Bibliothèque d’invites]** qui offre un large éventail d’idées d’invites pour améliorer vos campagnes.
 
@@ -131,7 +131,7 @@ Dans l’exemple suivant, nous utiliserons l’assistant AI pour améliorer le c
 1. Adaptez votre prompt avec l’option **[!UICONTROL Paramètres de texte]** :
 
    * **[!UICONTROL Stratégie de communication]** : choisissez le style de communication le plus adapté au texte généré.
-   * **[!UICONTROL Langues]** : les options en espagnol, italien, suédois et norvégien sont disponibles en version bêta privée et seront progressivement disponibles pour tous les clients dans les prochaines versions.
+   * **[!UICONTROL Langues]** : les options linguistiques Espagnol, Italien, Suédois et Norvégien sont disponibles en version Private Beta et seront progressivement déployées pour l’ensemble de la clientèle dans les versions ultérieures.
    * **[!UICONTROL Ton]** : le ton de votre e-mail doit résonner auprès de votre audience. Que vous souhaitiez communiquer de façon informative, ludique ou convaincante, l’assistant IA peut adapter le message en conséquence.
    * **Longueur de texte** : utilisez le curseur pour sélectionner la longueur souhaitée de votre texte.
 
@@ -173,13 +173,13 @@ Lorsque vous avez défini le contenu, l’audience et le planning, vous pouvez p
 
 >[!TAB Génération d’images uniquement]
 
-Dans l’exemple ci-dessous, découvrez comment tirer parti de l’assistant IA pour optimiser et améliorer vos ressources, afin d’offrir une expérience plus conviviale.
+Dans l’exemple ci-dessous, découvrez comment tirer parti de l’Assistant IA pour optimiser et améliorer vos ressources, afin d’offrir une expérience plus conviviale.
 
 1. Après avoir créé et configuré votre campagne par e-mail, cliquez sur **[!UICONTROL Modifier le contenu]**.
 
    Pour plus d’informations sur la configuration de votre campagne par e-mail, consultez [cette page](../email/create-email.md).
 
-1. Sélectionnez la ressource que vous souhaitez modifier à l’aide de l’assistant IA.
+1. Sélectionnez la ressource que vous souhaitez modifier à l’aide de l’Assistant IA.
 
 1. Dans le menu de droite, sélectionnez **[!UICONTROL Assistant IA]**.
 
@@ -187,11 +187,11 @@ Dans l’exemple ci-dessous, découvrez comment tirer parti de l’assistant IA 
 
 1. Activez l’option **[!UICONTROL Style de référence]** pour l’assistant IA afin de personnaliser le nouveau contenu en fonction du contenu de référence. Vous pouvez également charger une image pour ajouter du contexte à votre variation.
 
-1. Sélectionnez votre **[!UICONTROL Marque]** pour vous assurer que le contenu généré par l’IA correspond aux spécifications de votre marque. [En savoir plus](brands.md) sur les marques.
+1. Sélectionnez votre **[!UICONTROL Marque]** pour vous assurer que le contenu généré par l’IA correspond aux spécifications de celle-ci. [En savoir plus](brands.md) sur les marques.
 
-   Notez que la fonctionnalité Marques est disponible en version bêta privée et sera progressivement disponible pour tous les clients dans les prochaines versions.
+   Notez que cette fonctionnalité est disponible en version Private Beta et sera progressivement disponible pour l’ensemble de la clientèle dans les versions ultérieures.
 
-1. Affinez le contenu en décrivant ce que vous souhaitez générer dans le champ **[!UICONTROL Invite]**.
+1. Affinez le contenu en décrivant ce que vous souhaitez générer dans le champ **[!UICONTROL Prompt]**.
 
    Si vous avez besoin d’aide pour concevoir votre invite, accédez à la **[!UICONTROL Bibliothèque d’invites]** qui offre un large éventail d’idées d’invites pour améliorer vos campagnes.
 
@@ -233,6 +233,6 @@ Dans l’exemple ci-dessous, découvrez comment tirer parti de l’assistant IA 
 
 ## Vidéo pratique {#video}
 
-Découvrez comment utiliser l’assistant d’IA dans Journey Optimizer pour générer des e-mails, du texte ou des images complets.
+Découvrez comment utiliser l’Assistant IA dans Journey Optimizer afin de générer des e-mails, du texte ou des images complets.
 
 >[!VIDEO](https://video.tv.adobe.com/v/3433552)

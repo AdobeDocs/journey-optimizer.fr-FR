@@ -7,9 +7,9 @@ level: Intermediate
 keywords: in-app, message, configuration, platform
 exl-id: 469c05f2-652a-4899-a657-ddc4cebe3b42
 source-git-commit: ca296c9aa3705985a1fafcb64ec0f3fbe2fe84fa
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '921'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -73,11 +73,11 @@ Pour que les messages in-app soit correctement diffusés, les paramètres suivan
 
    ![](assets/inapp_config_9.png)
 
-1. Sélectionnez la plateforme pour laquelle vous souhaitez définir les paramètres. Vous pouvez ainsi spécifier l’application cible pour chaque plateforme et assurer la cohérence de la diffusion du contenu sur plusieurs plateformes.
+1. Sélectionnez la plateforme pour laquelle définir les paramètres. Vous pouvez ainsi spécifier l’application cible pour chaque plateforme et assurer la cohérence de la diffusion du contenu sur plusieurs plateformes.
 
    >[!NOTE]
    >
-   >Pour les plateformes iOS et Android, la diffusion se base uniquement sur l&#39;identifiant de l&#39;application. Si les deux applications partagent le même ID d’application, le contenu sera diffusé aux deux, quelle que soit la plateforme sélectionnée dans la **[!UICONTROL configuration du canal]**.
+   >Pour les plateformes iOS et Android, la diffusion se base uniquement sur l’ID d’application. Si les deux applications possèdent le même ID d’application, le contenu sera diffusé sur les deux, quelle que soit la plateforme sélectionnée dans la **[!UICONTROL configuration des canaux]**.
 
    ![](assets/inapp_config_10.png)
 

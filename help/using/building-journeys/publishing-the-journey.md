@@ -10,37 +10,37 @@ level: Intermediate
 keywords: publication, parcours, dynamique, validité, vérifier
 exl-id: e0ca8aef-4f1d-4631-8c34-1692d96e8b51
 source-git-commit: 3a1e00ecc74ccca5cba0e15ac642eeb7ddb40ae0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '305'
-ht-degree: 39%
+ht-degree: 100%
 
 ---
 
 # Publier votre parcours {#publishing-the-journey}
 
-Vous devez publier un parcours pour l’activer et le rendre disponible pour que de nouveaux profils puissent y accéder. Avant de publier votre parcours, vérifiez qu’il est valide et qu’il ne comporte aucune erreur, Vous ne pouvez pas publier un parcours contenant des erreurs.
+Vous devez publier un parcours pour l’activer et le rendre disponible pour que de nouveaux profils puissent le rejoindre. Avant de publier votre parcours, vérifiez qu’il est valide et qu’il ne comporte aucune erreur. Vous ne pouvez pas publier un parcours comportant des erreurs.
 
-➡️ [Découvrez cette fonctionnalité en vidéo](#video)
+➡️ [Découvrez cette fonctionnalité en vidéo.](#video)
 
-Les étapes de publication d’un parcours sont détaillées ci-dessous :
+Les étapes de publication d’un parcours sont détaillées ci-dessous :
 
-1. Avant de publier votre parcours, vérifiez qu’il est valide et qu’il ne comporte aucune erreur, Vous ne pourrez pas publier un parcours contenant des erreurs.
+1. Avant de publier votre parcours, vérifiez qu’il est valide et qu’il ne comporte aucune erreur. Le cas échéant, la publication s’avérera impossible.
 
-   * Découvrez comment tester votre parcours sur [cette page](testing-the-journey.md).
-   * Découvrez comment résoudre les erreurs de parcours dans [cette section](../building-journeys/troubleshooting.md#checking-for-errors-before-testing).
+   * Découvrez comment tester votre parcours dans [cette page](testing-the-journey.md).
+   * Découvrez comment résoudre les erreurs présentes dans votre parcours dans [cette section](../building-journeys/troubleshooting.md#checking-for-errors-before-testing).
 
 1. Pour publier le parcours, cliquez sur l’option **[!UICONTROL Publier]** située dans le menu déroulant qui se trouve en haut à droite.
 
    >[!NOTE]
    >
-   > Si votre parcours est soumis à une politique de validation, vous devez demander une validation afin de pouvoir publier votre parcours. [En savoir plus](../test-approve/gs-approval.md)
+   > Si votre parcours est soumis à une politique d’approbation, vous devrez effectuer une demande d’approbation afin de pouvoir le publier. [En savoir plus](../test-approve/gs-approval.md)
 
 
    ![](assets/journeyuc1_18.png)
 
-Lorsque le parcours est publié, il est en mode **lecture seule**. Lorsqu’un parcours est en lecture seule, vous ne pouvez modifier que les libellés et descriptions des activités, le nom du parcours et la description du parcours. Si vous devez apporter d’autres modifications à un parcours publié, créez [une nouvelle version](journey-ui.md#journey-versions) de votre parcours.
+Une fois le parcours publié, il est en **lecture seule**. Lorsqu’un parcours est en lecture seule, vous ne pouvez modifier que les libellés et les descriptions d’activité, ainsi que le nom et la description du parcours. Si vous devez apporter des modifications à un parcours publié, vous devez en créer [une nouvelle version](journey-ui.md#journey-versions).
 
-Lorsque vous arrêtez un parcours, il est arrêté en permanence : toutes les personnes qui circulent dans le parcours sont arrêtées en permanence, et le parcours cesse d&#39;autoriser de nouvelles entrées. Si vous devez réexécuter le parcours, vous devez le dupliquer et publier le nouveau parcours.
+Lorsque vous arrêtez un parcours, il est définitivement arrêté : toutes les personnes présentes dans le parcours sont définitivement arrêtées, et le parcours cesse d’autoriser de nouvelles entrées. Si vous devez réexécuter le parcours, vous devez le dupliquer et publier le nouveau parcours.
 
 
 >[!IMPORTANT]
@@ -49,6 +49,6 @@ Lorsque vous arrêtez un parcours, il est arrêté en permanence : toutes les pe
 
 ## Vidéo pratique {#video}
 
-Découvrez comment publier un parcours dans cette vidéo :
+Découvrez comment publier un parcours dans cette vidéo :
 
 >[!VIDEO](https://video.tv.adobe.com/v/3424998?quality=12)

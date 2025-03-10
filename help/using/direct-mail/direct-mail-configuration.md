@@ -8,9 +8,9 @@ level: Experienced
 keyword: direct, mail, configuration, direct-mail, provider
 exl-id: ae5cc885-ade1-4683-b97e-eda1f2142041
 source-git-commit: f930fd23431d826ba7efc72035811f0023fcf4d1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1311'
-ht-degree: 83%
+ht-degree: 100%
 
 ---
 
@@ -22,13 +22,13 @@ Lors de la [création d’un message de publipostage direct](../direct-mail/crea
 
 Avant de pouvoir générer ce fichier, vous devez créer les éléments suivants :
 
-1. [une configuration du routage des fichiers](#file-routing-configuration) pour spécifier le serveur sur lequel le fichier sera exporté et chiffrer le fichier, si nécessaire.
+1. [Une configuration du routage des fichiers](#file-routing-configuration) pour spécifier le serveur sur lequel le fichier sera exporté et chiffré, le cas échéant.
 
    >[!CAUTION]
    >
    >Pour créer une configuration de routage de fichier, vous devez disposer de l’autorisation intégrée **[!DNL Manage file routing]**. [En savoir plus](../administration/ootb-product-profiles.md#content-library-manager)
 
-1. [configuration du publipostage direct](#direct-mail-configuration) qui fera référence à la configuration du routage des fichiers. Si vous n’avez configuré aucune option de routage de fichier, vous ne pourrez pas créer de configuration de publipostage direct.
+1. [Une configuration du publipostage direct](#direct-mail-configuration) qui fera référence à la configuration du routage des fichiers. Si vous n’avez configuré aucune option de routage de fichier, vous ne pourrez pas créer de configuration de publipostage direct.
 
 ## Configurer le routage des fichiers {#file-routing-configuration}
 
@@ -51,7 +51,7 @@ Avant de pouvoir générer ce fichier, vous devez créer les éléments suivants
 >[!CONTEXTUALHELP]
 >id="ajo_dm_file_routing_type"
 >title="Sélectionnez le type de serveur pour votre fichier"
->abstract="Choisissez le type de serveur à utiliser pour exporter vos fichiers de publipostage direct : Amazon S3, SFTP, Azure ou Data Landing Zone."
+>abstract="Choisissez le type de serveur à utiliser pour l’export de vos fichiers de publipostage direct : Amazon S3, SFTP, Azure ou Zone d’atterrissage des données."
 
 >[!CONTEXTUALHELP]
 >id="ajo_dm_file_routing_aws_region"
@@ -60,7 +60,7 @@ Avant de pouvoir générer ce fichier, vous devez créer les éléments suivants
 
 >[!NOTE]
 >
->Actuellement, Amazon S3, SFTP, Azure et Data Landing Zone sont pris en charge dans [!DNL Journey Optimizer].
+>[!DNL Journey Optimizer] prend actuellement en charge Amazon S3, SFTP, Azure et Zone d’atterrissage des données.
 
 Pour diffuser un message de publipostage direct, [!DNL Journey Optimizer] génère et exporte vers un serveur le fichier contenant les données de votre audience ciblée.
 
@@ -68,13 +68,13 @@ Vous devez spécifier les détails du serveur afin que votre fournisseur de publ
 
 Pour configurer le routage des fichiers, suivez les étapes ci-dessous.
 
-1. Accédez au menu **[!UICONTROL Administration]** > **[!UICONTROL Canaux]** > **[!UICONTROL Paramètres du publipostage direct]** > **[!UICONTROL Routage des fichiers]**, puis cliquez sur **[!UICONTROL Créer une configuration de routage des fichiers]**.
+1. Accédez au menu **[!UICONTROL Administration]** > **[!UICONTROL Canaux]** > **[!UICONTROL Paramètres de publipostage direct]** > **[!UICONTROL Routage des fichiers]**, puis cliquez sur **[!UICONTROL Créer une configuration de routage de fichiers]**.
 
    ![](assets/file-routing-config-button.png){width="800" align="center"}
 
 1. Attribuez un nom à votre configuration.
 
-1. Sélectionnez le type de serveur à utiliser pour exporter vos fichiers de publipostage direct : Amazon S3, SFTP, Azure ou Data Landing Zone.
+1. Sélectionnez le type de serveur à utiliser pour l’export de vos fichiers de publipostage direct : Amazon S3, SFTP, Azure ou Zone d’atterrissage des données.
 
    ![](assets/file-routing-config-type.png){width="800" align="center"}
 
@@ -84,7 +84,7 @@ Pour configurer le routage des fichiers, suivez les étapes ci-dessous.
 
 >[!TAB Amazon S3]
 
-Si vous avez sélectionné **[!UICONTROL Amazon S3]** en tant que **[!UICONTROL type de serveur]**, renseignez les détails et les informations d’identification de votre serveur :
+Si vous avez sélectionné **[!UICONTROL Amazon S3]** en tant que **[!UICONTROL type de serveur]**, renseignez les détails et les informations d’identification de votre serveur :
 
 * **Nom du compartiment AWS** : pour savoir où trouver votre nom du compartiment AWS, consultez [cette page](https://docs.aws.amazon.com/AmazonS3/latest/userguide/UsingBucket.html).
 
@@ -98,7 +98,7 @@ Si vous avez sélectionné **[!UICONTROL Amazon S3]** en tant que **[!UICONTROL 
 
 >[!TAB SFTP]
 
-Si vous avez sélectionné **[!UICONTROL SFTP]** comme **[!UICONTROL Type de serveur]**, renseignez les informations d’identification et de connexion de votre serveur :
+Si vous avez sélectionné **[!UICONTROL SFTP]** en tant que **[!UICONTROL type de serveur]**, renseignez les détails et les informations d’identification de votre serveur :
 
 * **Compte** : nom du compte utilisé pour se connecter au serveur SFTP.
 
@@ -116,7 +116,7 @@ Si vous avez sélectionné **[!UICONTROL SFTP]** comme **[!UICONTROL Type de ser
 
 >[!TAB Azure]
 
-Si vous avez sélectionné **[!UICONTROL Azure]** comme **[!UICONTROL type de serveur]**, renseignez les informations d’identification et de connexion de votre serveur :
+Si vous avez sélectionné **[!UICONTROL Azure]** en tant que **[!UICONTROL type de serveur]**, renseignez les détails et les informations d’identification de votre serveur :
 
 * **Chaîne de connexion Azure** : pour rechercher votre **chaîne de connexion Azure**, consultez [cette page](https://learn.microsoft.com/fr-fr/azure/storage/common/storage-configure-connection-string#configure-a-connection-string-for-an-azure-storage-account).
 
@@ -126,7 +126,7 @@ Si vous avez sélectionné **[!UICONTROL Azure]** comme **[!UICONTROL type de se
 
 * **Nom du conteneur** : pour rechercher votre **nom du conteneur**, consultez [cette page](https://learn.microsoft.com/fr-fr/azure/storage/blobs/blob-containers-portal).
 
-  Le **nom du conteneur** doit uniquement contenir le nom du conteneur sans barre oblique.
+  Le **nom du conteneur** doit contenir uniquement le nom du conteneur sans aucune barre oblique.
 
   >[!NOTE]
   >
@@ -136,11 +136,11 @@ Si vous avez sélectionné **[!UICONTROL Azure]** comme **[!UICONTROL type de se
 
 >[!TAB Zone d’atterrissage des données]
 
-Si vous avez sélectionné **[!UICONTROL Zone d’atterrissage de données]** comme **[!UICONTROL Type de serveur]**, aucun détail spécifique n’est nécessaire.
+Si vous avez sélectionné **[!UICONTROL Zone d’atterrissage des données]** en tant que **[!UICONTROL type de serveur]**, aucun détail spécifique n’est nécessaire.
 
 ![](assets/file-routing-config-dlz-detail.png)
 
-Tous les clients de [!DNL Adobe Experience Platform] sont configurés avec un conteneur Data Landing Zone par sandbox. En savoir plus sur la zone d’atterrissage de données dans la documentation de Adobe Experience Platform [](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/cloud-storage/data-landing-zone){target="_blank"}.
+L&#39;ensemble de la clientèle d’[!DNL Adobe Experience Platform] est approvisionné avec un conteneur Zone d’atterrissage des données par sandbox. Pour en savoir plus sur les zones d’atterrissage des données, consultez la [documentation d’Adobe Experience Platform](https://experienceleague.adobe.com/fr/docs/experience-platform/sources/connectors/cloud-storage/data-landing-zone){target="_blank"}.
 
 >[!ENDTABS]
 

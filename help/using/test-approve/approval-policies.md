@@ -6,9 +6,9 @@ level: Beginner
 feature: Approval
 exl-id: e518cb3c-f361-43a4-b9a5-ec070c612e75
 source-git-commit: 99099cb6b705cb5a7b97652154c42f0565fdfdb9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '509'
-ht-degree: 83%
+ht-degree: 100%
 
 ---
 
@@ -37,9 +37,9 @@ Les politiques d’approbation permettent à l’équipe d’administration d’
 >[!CONTEXTUALHELP]
 >id="ajo_permissions_approval_policy"
 >title="Nouvelle politique d’approbation"
->abstract="Dans cet écran, saisissez le nom et sélectionnez le contexte de la stratégie d&#39;approbation, puis créez les conditions pour déterminer qui peut lancer la demande d&#39;approbation et qui peut la valider."
+>abstract="Dans cet écran, saisissez le nom et sélectionnez le contexte de la politique d’approbation, puis créez les conditions pour déterminer qui peut lancer la demande d’approbation et qui peut la valider."
 
-Pour créer une politique d’approbation, procédez comme suit :
+Pour créer une politique d’approbation, procédez comme suit :
 
 1. Dans Journey Optimizer, dans le menu **[!UICONTROL Administration]**, accédez à **[!UICONTROL Autorisations]**, puis à **[!UICONTROL Politiques]**.
 
@@ -53,11 +53,11 @@ Pour créer une politique d’approbation, procédez comme suit :
 
    ![](assets/policy_create_2.png)
 
-Vous pouvez maintenant affiner les conditions pour spécifier qui peut initier la demande d&#39;approbation et qui peut la valider.
+Vous pouvez maintenant affiner les conditions afin de spécifier qui peut lancer la demande d’approbation et qui peut la valider.
 
 ## Définir les conditions des politiques d’approbation {#conditions}
 
-Pour définir les conditions associées à une politique d’approbation, procédez comme suit :
+Pour définir les conditions associées à une politique d’approbation, procédez comme suit :
 
 1. Accédez à votre **[!UICONTROL politique d’approbation]**.
 
@@ -141,7 +141,7 @@ Vous pouvez maintenant activer votre politique d’approbation pour l’applique
 
 ## Activer et gérer des politiques d’approbation {#activate-policies}
 
-Pour appliquer votre stratégie d&#39;approbation, vous devez l&#39;activer. Pour ce faire, procédez comme suit :
+Pour appliquer votre politique d’approbation, vous devez l’activer. Pour ce faire, procédez comme suit :
 
 1. Accédez à votre **[!UICONTROL politique d’approbation]**.
 

@@ -8,9 +8,9 @@ level: Intermediate
 mini-toc-levels: 1
 exl-id: 8bc808da-4796-4767-9433-71f1f2f0a432
 source-git-commit: 9b66f4871d8b539bf0201b2974590672205a3243
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '595'
-ht-degree: 66%
+ht-degree: 100%
 
 ---
 
@@ -38,7 +38,7 @@ Pour créer une formule de classement, procédez comme suit :
 
 1. Indiquez le nom, la description et la formule de la formule de classement.
 
-   Dans cet exemple, nous voulons augmenter la priorité de toutes les offres contenant l&#39;attribut « chaud » en cas de météo avec températures chaudes. Pour ce faire, le **contextData.weather=hot** a été transmis dans l&#39;appel de décision. [Découvrez comment utiliser les données contextuelles](../context-data.md)
+   Dans cet exemple, nous voulons augmenter la priorité de toutes les offres contenant l&#39;attribut « chaud » en cas de météo avec températures chaudes. Pour ce faire, **contextData.weather=hot** a été transmis dans l’appel de prise de décisions. [Découvrez comment utiliser les données contextuelles](../context-data.md).
 
    ![](../assets/ranking-syntax.png)
 
@@ -134,11 +134,11 @@ Ainsi, pour un profil tel que :
 }
 ```
 
-### Booster les offres en fonction des données contextuelles {#context-data}
+### Booster les offres basées sur des données contextuelles {#context-data}
 
-[!DNL Journey Optimizer] permet d’amplifier certaines offres en fonction des données contextuelles transmises dans l’appel. Par exemple, si le `contextData.weather=hot` est transmis, la priorité de toutes les offres avec `attribute=hot` doit être augmentée. Des informations détaillées sur la manière de transmettre des données contextuelles à l’aide des API **Edge Decisioning** et **Decisioning** sont disponibles dans [cette section](../context-data.md)
+[!DNL Journey Optimizer] permet de booster certaines offres en fonction des données contextuelles transmises dans l’appel. Par exemple, si la valeur `contextData.weather=hot` est transmise, la priorité de toutes les offres avec la valeur `attribute=hot` doit être boostée. Des informations détaillées sur la manière de transmettre des données contextuelles à l’aide des API **Edge Decisioning** et **Decisioning** sont disponibles dans [cette section](../context-data.md).
 
-Notez que lors de l’utilisation de l’API **Decisioning**, les données contextuelles sont ajoutées à l’élément de profil dans le corps de la requête, comme dans l’exemple ci-dessous.
+Notez que lorsque vous utilisez l’API **Decisioning**, les données contextuelles sont ajoutées à l’élément de profil dans le corps de la requête, comme dans l’exemple ci-dessous.
 
 ```
 "xdm:profiles": [
@@ -162,17 +162,17 @@ Notez que lors de l’utilisation de l’API **Decisioning**, les données conte
 }],
 ```
 
-Voici des exemples illustrant comment utiliser les données contextuelles dans les formules de classement pour augmenter la priorité des offres. Développez chaque section pour obtenir des détails sur la syntaxe de la formule de classement.
+Voici des exemples illustrant comment utiliser les données contextuelles dans les formules de classement pour booster la priorité des offres. Développez chaque section pour obtenir des détails sur la syntaxe de la formule de classement.
 
 >[!NOTE]
 >
 >Dans les exemples de l’API Edge Decisioning, remplacez `<OrgID>` par votre ID de client d’organisation.
 
-+++Augmentez la priorité d’offre de 10 si le canal des données contextuelles correspond au canal préféré du client ou de la cliente
++++Boostez la priorité d’offre par 10 si le canal des données contextuelles correspond au canal préféré du client ou de la cliente.
 
 >[!BEGINTABS]
 
->[!TAB  API Decisioning ]
+>[!TAB API Decisioning]
 
 `if (@{_xdm.context.additionalParameters;version=1}.channel.isNotNull() and @{_xdm.context.additionalParameters;version=1}.channel.equals(_abcMobile.preferredChannel), offer.rank.priority + 10, offer.rank.priority)`
 
@@ -184,11 +184,11 @@ Voici des exemples illustrant comment utiliser les données contextuelles dans l
 
 +++
 
-+++Boostez la priorité de toutes les offres avec « attribute=hot » si « contextData.weather=hot » est transmis dans l&#39;appel.
++++Boostez la priorité de toutes les offres avec « attribute=hot » si « contextData.weather=hot » est transmis dans l’appel.
 
 >[!BEGINTABS]
 
->[!TAB  API Decisioning ]
+>[!TAB API Decisioning]
 
 `if (@{_xdm.context.additionalParameters;version=1}.weather.isNotNull() and offer.characteristics.get("weather")=@{_xdm.context.additionalParameters;version=1}.weather, offer.rank.priority + 5, offer.rank.priority)`
 
@@ -200,11 +200,11 @@ Voici des exemples illustrant comment utiliser les données contextuelles dans l
 
 +++
 
-+++Content Origin Boost
++++Amélioration de l’origine de la recherche
 
 >[!BEGINTABS]
 
->[!TAB  API Decisioning ]
+>[!TAB API Decisioning]
 
 `if (@{_xdm.context.additionalParameters;version=1}.contentorigin.isNotNull() and offer.characteristics.contentorigin=@{_xdm.context.additionalParameters;version=1}.contentorigin, offer.rank.priority * 100, offer.rank.priority)`
 
@@ -216,11 +216,11 @@ Voici des exemples illustrant comment utiliser les données contextuelles dans l
 
 +++
 
-+++Amplification météorologique
++++Amélioration de la météo
 
 >[!BEGINTABS]
 
->[!TAB  API Decisioning ]
+>[!TAB API Decisioning]
 
 `if (@{_xdm.context.additionalParameters;version=1}.weather.isNotNull() and offer.characteristics.weather=@{_xdm.context.additionalParameters;version=1}.weather, offer.rank.priority * offer.characteristics.scoringBoost, offer.rank.priority)`
 

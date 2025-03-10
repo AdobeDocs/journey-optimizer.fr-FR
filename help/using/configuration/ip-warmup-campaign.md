@@ -10,9 +10,9 @@ level: Intermediate
 keywords: IP, groupes, délivrabilité
 exl-id: a9995ca1-d7eb-4f8d-a9d9-fe56198ac325
 source-git-commit: 84cbaebc9c274f620ee707cb0d9320673ae24b71
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '427'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 

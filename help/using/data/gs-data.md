@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Prise en main de la gestion des données dans Journey Optimizer
+title: Commencer avec la gestion des données dans Journey Optimizer
 description: Découvrez comment utiliser les données dans Journey Optimizer.
 feature: Journeys
 topic: Content Management
@@ -10,13 +10,13 @@ level: Intermediate
 keywords: données, gestion, platform
 exl-id: 25519acb-a017-446a-992b-653d3a8a3d96
 source-git-commit: da46230b9a086743fea1052b57b48bf18b920abd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '655'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
-# Prise en main de la gestion des données {#about-data}
+# Commencer avec la gestion des données {#about-data}
 
 La richesse et la couverture des données des clients et clientes finaux sont des éléments qui définissent la force et le succès de toute solution d’expérience client. Pour tout(e) client(e), ces données revêtent un caractère sacré et sont d’une valeur inestimable. La sélection de technologies est désormais intrinsèquement intégrée à l’évaluation rigoureuse des fonctionnalités de gestion des données.
 
@@ -77,7 +77,7 @@ Vous pouvez utiliser la flexibilité des données de [!DNL Journey Optimizer] po
 
 * **Purge et mécanismes d’archivage** : la purge et l’archivage des données peuvent être librement définis et automatisés dans [!DNL Adobe Journey Optimizer] afin d’automatiser les politiques de conservation des données. Il est possible de définir différentes politiques de vieillissement pour les différentes entités de données. Des mécanismes d’exportation peuvent également être définis pour exporter automatiquement les données âgées avant qu’elles ne soient purgées ou archivées.
 
-  L’espace de travail Cycle de vie des données vous permet de créer et de surveiller diverses tâches du cycle de vie des données, notamment la suppression des identités des clients et la planification des expirations de jeux de données. Cet espace de travail est disponible avec Security &amp; Privacy Shield et Healthcare Shield. En savoir plus sur [cette page](../privacy/data-hygiene.md).
+  L’espace de travail Cycle de vie des données vous permet de créer et de surveiller diverses tâches de cycle de vie des données, notamment la suppression des identités des consommateurs et consommatrices, ou encore la planification des expirations de jeux de données. Cet espace de travail est disponible avec Security &amp; Privacy Shield et Healthcare Shield. En savoir plus sur [cette page](../privacy/data-hygiene.md).
 
 <!--
 * **Data Lake and Deletions**: Customer Data stored in the Data Lake can be retained by Journey Optimizer:

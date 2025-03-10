@@ -1,21 +1,21 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Prise en main des schémas
-description: Découvrez comment utiliser les schémas Adobe Experience Platform dans Adobe Journey Optimizer
+title: Commencer avec les schémas
+description: Découvrez comment utiliser les schémas Adobe Experience Platform dans Adobe Journey Optimizer.
 feature: Data Model, Datasets, Data Management
 role: Data Engineer, Data Architect, Admin
 level: Experienced
 keywords: schémas, platform, données, structure
 exl-id: c2a8df2e-ff94-4f9a-a53e-bbf9f663cc81
 source-git-commit: 46c4d3081603115db71b01a05f12187cd7e0d34c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '288'
-ht-degree: 78%
+ht-degree: 100%
 
 ---
 
-# Prise en main des schémas {#schemas-gs}
+# Commencer avec les schémas {#schemas-gs}
 
 Les schémas sont la manière standard de décrire les données dans Experience Platform. Ils permettent à toutes les données conformes aux schémas d’être réutilisables sans conflit au sein d’une organisation et même d’être partagées entre plusieurs organisations.
 
@@ -23,7 +23,7 @@ Les schémas sont la manière standard de décrire les données dans Experience�
 
 Un schéma est un jeu de règles qui représente et valide la structure et le format des données. À un niveau élevé, les schémas fournissent une définition abstraite d’un objet du monde réel (une personne, par exemple) et indiquent les données à inclure dans chaque instance de cet objet (comme le prénom, le nom, l’anniversaire, etc.).
 
-Découvrez comment créer des schémas dans [cette documentation](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html?lang=fr){target="_blank"}.
+En savoir plus sur la création de schémas dans [cette documentation](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html?lang=fr){target="_blank"}.
 
 L’espace de travail **Schémas** de l’interface utilisateur [!DNL Adobe Journey Optimizer] vous permet de gérer les ressources du modèle de données d’expérience (XDM), y compris les schémas, les classes, les groupes de champs de schéma et les types de données. Vous pouvez afficher et explorer les ressources de base fournies par Adobe, ainsi que créer des ressources et des schémas personnalisés pour votre organisation.
 
@@ -31,9 +31,9 @@ L’espace de travail **Schémas** de l’interface utilisateur [!DNL Adobe Jour
 
 Découvrez comment utiliser l’interface utilisateur des schémas dans [cette documentation](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/overview.html?lang=fr){target="_blank"}.
 
-La documentation détaillée pour créer un schéma à l’aide de l’éditeur de schémas est disponible dans la documentation de [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=fr){target="_blank"}.
+La documentation détaillée pour créer un schéma à l’aide de l’éditeur de schémas est disponible dans la [documentation Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=fr){target="_blank"}.
 
-Consultez le dictionnaire des schémas de Journey Optimizer [](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=fr){target="_blank"} pour afficher la liste complète des champs et attributs de chaque schéma.
+Consultez le [dictionnaire des schémas de Journey Optimizer](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=fr){target="_blank"} pour consulter la liste complète des champs et des attributs de chaque schéma.
 
 
 ## Vidéo pratique{#video-schema}

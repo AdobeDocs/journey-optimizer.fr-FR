@@ -9,9 +9,9 @@ role: User
 level: Beginner
 exl-id: 956178c0-9985-4ff8-a29e-17dd367ce4d4
 source-git-commit: fa1b26900ca4cf56a3ad95429320d1f5e9c920ed
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '676'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -31,7 +31,7 @@ ht-degree: 95%
 You can also create audience-based campaigns to send messages.-->
 
 
-## Cas d&#39;utilisation {#use-cases}
+## Cas d’utilisation {#use-cases}
 
 * Les spécialistes marketing peuvent utiliser [!DNL Adobe Journey Optimizer] pour envoyer à la fois des communications personnalisées et des communications par lots basées sur l’audience. Par exemple, une boutique de vêtements envoie généralement des enquêtes après achat à tous les clients qui ont acheté des produits la semaine précédente. En raison des intempéries, quelques envois ont été retardés. En identifiant les clientes et clients qui n’ont pas reçu leurs achats, la boutique de vêtements peut les exclure de l’envoi de l’enquête de satisfaction client programmée et envoyer à la place un e-mail personnalisé s’excusant du retard et proposant un code de remise avec des suggestions de produits basées sur leurs achats précédents.
 
@@ -52,12 +52,12 @@ Les fonctionnalités principales sont les suivantes :
 
 * **Exécution et orchestration omnicanal modernes** : une zone de travail unique sur laquelle harmoniser et optimiser le parcours client pour l&#39;engagement client 1:1 et les activités marketing, afin d&#39;aider les marques à proposer une plus grande valeur ajoutée tout au long du cycle de vie du client. Les parcours client conçus dans [!DNL Adobe Journey Optimizer] peuvent être dynamiques et basés sur des événements afin d&#39;aider les marques à réagir aux signaux en temps réel et à associer ces interactions à des campagnes planifiées afin de pouvoir prendre les bonnes décisions concernant les communications à envoyer à un client, le moment et les canaux.
 
-* **Prise de décision et personnalisation intelligentes** : les marques peuvent appliquer une prise de décision centralisée et intégrer l’intelligence artificielle et le machine learning pour rechercher des informations prédictives tout au long de l’expérience du client ou de la cliente, ce qui facilite l’automatisation des décisions et l’optimisation de l’expérience à grande échelle. Decisioning alimente les offres centralisées sur tous les canaux à l’échelle via [!DNL Adobe Journey Optimizer].
+* **Prise de décision et personnalisation intelligentes** : les marques peuvent appliquer une prise de décision centralisée et intégrer l’intelligence artificielle et le machine learning pour rechercher des informations prédictives tout au long de l’expérience du client ou de la cliente, ce qui facilite l’automatisation des décisions et l’optimisation de l’expérience à grande échelle. La prise de décisions alimente les offres centralisées sur tous les canaux à l’échelle via [!DNL Adobe Journey Optimizer].
 
 
 >[!NOTE]
 >
-> Les composants et fonctionnalités disponibles dans votre environnement dépendent de vos [autorisations](../administration/permissions.md) et de votre [package de licence](https://helpx.adobe.com/fr/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}. Pour toute question, contactez votre responsable du succès client Adobe ou votre représentant Adobe.
+> Les composants et fonctionnalités disponibles dans votre environnement dépendent de vos [autorisations](../administration/permissions.md) et de votre [package de licence](https://helpx.adobe.com/fr/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}. Pour toute question, contactez votre responsable Succès client Adobe ou votre représentant ou représentante Adobe.
 
 
 ## Architecture {#architecture}

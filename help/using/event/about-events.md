@@ -10,9 +10,9 @@ level: Intermediate, Experienced
 keywords: événements, événement, parcours, définition, commencer
 exl-id: fb3e51b5-4cbb-4949-8992-1075959da67d
 source-git-commit: 5af420f5ba312949e475c772e56c60a0368a4796
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '986'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -21,9 +21,9 @@ ht-degree: 97%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_event_list"
 >title="Événements de parcours"
->abstract="Un événement est lié à une personne. Il s’agit du comportement d’une personne (par exemple, une personne a acheté un produit, a visité un magasin, est sortie d’un site web, etc.) ou d’un élément lié à une personne (par exemple, une personne a atteint 10 000 points de fidélité). Journey Optimizer écoute les événements unitaires dans les parcours pour orchestrer les meilleures actions suivantes."
+>abstract="Un événement est lié à une personne. Il s’agit du comportement d’une personne (par exemple, une personne a acheté un produit, a visité un magasin, est sortie d’un site web, etc.) ou d’un élément lié à une personne (par exemple, une personne a atteint 10 000 points de fidélité). Journey Optimizer écoute les événements unitaires dans les parcours pour orchestrer les meilleures actions suivantes."
 
-La configuration d’événement vous permet de définir les informations que [!DNL Journey Optimizer] recevez en tant qu’événements. Vous pouvez utiliser plusieurs événements (à différentes étapes d’un parcours) et plusieurs parcours peuvent utiliser un même événement.
+La configuration d’événement vous permet de définir les informations que [!DNL Journey Optimizer] recevra en tant qu’événements. Vous pouvez utiliser plusieurs événements (à différentes étapes d’un parcours) et plusieurs parcours peuvent utiliser un même événement.
 
 >[!CAUTION]
 >

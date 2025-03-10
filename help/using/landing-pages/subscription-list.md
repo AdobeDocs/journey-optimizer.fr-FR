@@ -10,13 +10,13 @@ level: Beginner
 keywords: destination, page de destination, liste, abonnement, service
 exl-id: 5e5419a0-5121-4aa7-a975-b1f08e2918c9
 source-git-commit: c66fe22f0cf81cf8e14592df1433739735afbe43
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '673'
-ht-degree: 61%
+ht-degree: 100%
 
 ---
 
-# Listes dʼabonnements {#create-subscription-list}
+# Listes des abonnements {#create-subscription-list}
 
 >[!CONTEXTUALHELP]
 >id="ajo_subscription_list"
@@ -26,7 +26,7 @@ ht-degree: 61%
 
 Un service d’abonnement fait référence aux produits et services marketing fournis aux clients qui ont choisi de recevoir des communications sur un sujet/événement/intérêt spécifique etc. de manière régulière. Dans [!DNL Journey Optimizer], ces clients inscrits sont regroupés dans une liste d’abonnements.
 
-Un service d’abonnement peut être utilisé pour :
+Voici quelques exemples de services dʼabonnement :
 
 * une newsletter, par exemple : « Série de courses »
 * un événement, par exemple : « Sommet 2021 »
@@ -64,21 +64,21 @@ Pour créer une liste dʼabonnements, procédez comme suit :
 
 1. Cliquez sur **[!UICONTROL Enregistrer]**.
 
-## Utiliser une liste d’abonnements {#use-subscription-lists}
+## Utiliser une liste dʼabonnements {#use-subscription-lists}
 
-Une fois la liste d’abonnements créée, vous pouvez :
+Une fois la liste d’abonnements créée, vous pouvez :
 
 * Ajouter des profils à la liste d’abonnements
 
-  Vous pouvez inviter des personnes à **rejoindre la liste**, en vous abonnant à une newsletter ou en vous inscrivant à un événement. Vous pouvez également **envoyer des messages personnalisés** aux abonnés.
+  Vous pouvez inviter des personnes à **rejoindre la liste**, en vous abonnant à une newsletter ou en vous inscrivant à un événement. Vous pouvez également **envoyer des messages personnalisés** aux personnes abonnées.
 
-  Par exemple, pour inviter une audience à s’inscrire à un événement ou à s’abonner à une newsletter, vous pouvez lui envoyer un message avec un lien vers une page de destination afin qu’elle puisse rejoindre l’événement ou s’abonner. Les profils inscrits via le formulaire de la page de destination sont ajoutés à la liste d’abonnements que vous avez créée à cet effet.
+  Par exemple, pour inviter une audience à s’inscrire à un événement ou à s’abonner à une newsletter, vous pouvez lui envoyer un message avec un lien vers une page de destination afin qu’elle puisse rejoindre l’événement ou s’abonner. Les profils abonnés via le formulaire de la page de destination sont ajoutés à la liste d’abonnements que vous avez créée à cet effet.
 
-* Envoyer des messages aux abonnés
+* Envoyer des messages aux personnes abonnées
 
-  Vous pouvez également utiliser les listes d’abonnements comme audiences lors de la création de parcours et de l’ajout de personnalisations.
+  Vous pouvez également utiliser les listes d’abonnements comme des audiences lorsque vous créez des parcours et ajoutez une personnalisation supplémentaire.
 
-  Par exemple, lorsqu’un client s’abonne à un service de streaming, il peut déclencher l’envoi immédiat d’une série d’e-mails de bienvenue, ce qui l’encourage à se connecter pour la première fois à l’application et à définir ses préférences de visionnage.
+  Par exemple, lorsqu’une personne s’abonne à un service de streaming, elle peut déclencher l’envoi immédiat d’une série d’e-mails de bienvenue, ce qui l’incite à se connecter pour la première fois à l’application et à définir ses préférences de visionnage.
 
 Découvrez comment utiliser votre liste d’abonnements dans [ce cas d’utilisation](lp-use-cases.md#subscription-to-a-service).
 
@@ -98,12 +98,12 @@ Voici les statuts possibles :
 
 ## Surveiller vos listes d’abonnements {#monitor-subscription-lists}
 
-Vous pouvez surveiller les impacts de votre liste d’abonnements au moyen de rapports dédiés. Vous pouvez accéder à deux types de rapports :
+Vous pouvez surveiller lʼimpact de votre liste d’abonnements grâce à des rapports spécifiques. Vous pouvez accéder à deux types de rapports :
 
 * Rapport dynamique sur les listes d’abonnements
 
   Les rapports dynamiques, accessibles à partir de l’onglet Dernières 24 heures, affichent les événements qui se sont produits au cours des dernières 24 heures, avec un intervalle de temps minimal de deux minutes à compter de l’occurrence de l’événement. [En savoir plus](../reports/subscription-report-live.md)
 
-* Rapports à tout moment sur la liste d’abonnements, avec Customer Journey Analytics
+* Les rapports à toute heure sur les listes d’abonnements, avec Customer Journey Analytics
 
-  Ces rapports portent sur les événements qui se sont produits il y a au moins deux heures et couvrent les événements sur une période sélectionnée. Le **rapport d’abonnement** offre des informations essentielles sur les abonnements et les désabonnements des profils associés à des listes spécifiques, ce qui vous aide à comprendre l’efficacité des différentes campagnes d’abonnement et initiatives pour stimuler l’engagement et les conversions. [En savoir plus](../reports/subscription-report-global-cja.md)
+  Ces rapports globaux portent sur les événements qui se sont produits il y a au moins deux heures et couvrent les événements sur une période sélectionnée. Le **Rapport sur les abonnements** offre des informations essentielles sur les abonnements et désabonnements des profils associés à des listes spécifiques, vous aidant à comprendre l’efficacité des différentes campagnes et initiatives d’abonnement pour stimuler l’engagement et les conversions. [En savoir plus](../reports/subscription-report-global-cja.md)

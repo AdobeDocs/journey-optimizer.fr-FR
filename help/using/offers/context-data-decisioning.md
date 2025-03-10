@@ -1,22 +1,22 @@
 ---
 product: experience platform
 solution: Experience Platform
-title: Demandes de données contextuelles et de prise de décision
-description: Découvrez comment transmettre des données contextuelles dans les requêtes de prise de décision.
+title: Requêtes de données contextuelles et de décision
+description: Découvrez comment transmettre des données contextuelles dans les requêtes de décision.
 feature: Decision Management
 role: Developer, Data Engineer
 level: Experienced
-source-git-commit: 9b66f4871d8b539bf0201b2974590672205a3243
-workflow-type: tm+mt
+exl-id: 45d060ce-0a12-4a6e-a594-ec10cdff8f38
+source-git-commit: c3d256fcd06eb096a589d1154a0a4c97462005a9
+workflow-type: ht
 source-wordcount: '154'
-ht-degree: 0%
+ht-degree: 100%
 
 ---
 
+# Requêtes de données contextuelles et de décision {#context-data-decisioning}
 
-# Demandes de données contextuelles et de prise de décision {#context-data-decisioning}
-
-Cette section vous guide tout au long de la transmission des données contextuelles dans les requêtes de prise de décision et de leur utilisation dans les règles d&#39;éligibilité.
+Cette section vous guide tout au long de la transmission des données contextuelles dans les requêtes de décision et de leur utilisation dans les règles d&#39;éligibilité.
 
 >[!BEGINSHADEBOX]
 
@@ -24,13 +24,13 @@ Pour aller plus loin, vous pouvez également utiliser le contexte dans des **for
 
 >[!ENDSHADEBOX]
 
-## Transmission de données contextuelles dans les requêtes de prise de décision
+## Transmettre des données contextuelles dans les requêtes de décision
 
-Les données contextuelles dans les requêtes Prise de décision sont définies à l’aide de la clé : `xdm:ContextData`.
+Les données contextuelles dans les requêtes de décision sont définies à l’aide de la clé suivante : `xdm:ContextData`.
 
-Les attributs de données contextuelles ne sont pas pilotés par le schéma XDM. Vous pouvez transmettre n’importe quelle donnée contextuelle dans JSON dans le cadre de la payload de requête de prise de décision.
+Les attributs de données contextuelles ne sont pas pilotés par le schéma XDM. Vous pouvez transmettre n’importe quelle donnée contextuelle dans JSON dans le cadre de la payload de requête de décision.
 
-Voici un exemple de requête de prise de décision avec des données contextuelles (voir `xdm:ContextData`) :
+Voici un exemple de requête de décision comportant des données contextuelles (voir `xdm:ContextData`) :
 
 ```
 curl --location 'https://platform-stage.adobe.io/data/core/ods/decisions' \
@@ -100,17 +100,17 @@ curl --location 'https://platform-stage.adobe.io/data/core/ods/decisions' \
 }'
 ```
 
-## Utilisation de données contextuelles dans les règles d’éligibilité
+## Utiliser des données contextuelles dans les règles d’éligibilité
 
-Voici des exemples illustrant comment utiliser les données contextuelles transmises dans les requêtes Decisioning dans les règles d’éligibilité.
+Voici des exemples illustrant comment utiliser les données contextuelles transmises dans les requêtes de décision dans les règles d’éligibilité.
 
-* Éligible si les fonctionnalités de données contextuelles contiennent une valeur particulière :
+* Éligible si les fonctionnalités de données contextuelles contiennent une valeur particulière :
 
   ```
   select contextData from @{_xdm.context.additionalParameters;version=1} where contextData.features AND (select personetic from contextData.features where personetic.contains("123"))
   ```
 
-* Éligible si le canal est non vide et égal à mobile :
+* Éligible si le canal est non vide et égal à mobile :
 
   ```
   select contextData from @{_xdm.context.additionalParameters;version=1} where !contextData.channel.isNull() AND contextData.channel!="" AND contextData.channel="mobile"

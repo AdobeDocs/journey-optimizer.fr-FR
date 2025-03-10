@@ -2,16 +2,16 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Cas d’utilisation de l’Assistant IA
-description: Découvrez à travers les cas d’utilisation comment utiliser l’assistant AI
+description: Découvrez comment utiliser l’Assistant IA à travers les cas d’utilisation.
 feature: Content Assistant
 topic: Content Management
 role: User
 level: Beginner
 exl-id: 958ad2bb-b62e-431d-8ad6-7b294cbba544
 source-git-commit: 5cfae89416219fac54d310d9fa3f40fdfdd8878e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '529'
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 
@@ -29,7 +29,7 @@ ht-degree: 87%
 
 1. Ouvrez la section **[!UICONTROL Assistant IA]**.
 
-1. Activez la fonction **[!UICONTROL Utiliser le contenu d’origine]** dans l’assistant d’IA pour personnaliser le nouveau contenu en fonction des détails de votre campagne, y compris le nom de la campagne et l’audience ciblée.
+1. Activez la fonctionnalité **[!UICONTROL Utiliser le contenu original]** de l’Assistant IA afin de personnaliser le nouveau contenu en fonction des détails de votre campagne, y compris le nom de la campagne et l’audience ciblée.
 
 1. Ajustez le contenu en spécifiant votre requête dans la zone **[!UICONTROL Prompt]** et personnalisez les paramètres selon vos besoins.
 
@@ -95,11 +95,11 @@ Lorsque vous avez défini le contenu, l’audience et le planning, vous pouvez p
 
 1. Après avoir défini et configuré votre campagne par e-mail, cliquez sur **[!UICONTROL Modifier le contenu]**.
 
-1. Sélectionnez la ressource à modifier à l’aide de l’assistant d’IA.
+1. Sélectionnez la ressource à modifier à l’aide de l’Assistant IA.
 
 1. Dans le menu de droite, sélectionnez **[!UICONTROL Assistant IA]**.
 
-1. Activez l’option **[!UICONTROL Style de référence]** afin que l’assistant d’IA puisse générer du nouveau contenu à l’aide du matériau de référence.
+1. Activez l’option **[!UICONTROL Référence stylistique]** afin que l’Assistant IA puisse générer un nouveau contenu à l’aide du matériel de référence.
 
 1. Cliquez sur **[!UICONTROL Charger l’image]** pour inclure une image qui ajoute du contexte à votre variation.
 

@@ -7,9 +7,9 @@ role: User
 level: Intermediate
 exl-id: 7a217c97-57e1-4f04-a92c-37632f8dfe91
 source-git-commit: 2e1168f321d6f2c83733c6112e11d834d5e7eb95
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2511'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -264,7 +264,7 @@ La sélection se présente comme suit :
 
 **Si la duplication est activée**
 
-Lorsque la duplication est autorisée à tous les emplacements, la même offre peut être proposée plusieurs fois à différents emplacements. Si cette option est activée, le système accepte de placer la même offre dans plusieurs emplacements. [En savoir plus sur le paramètre de duplication](../offer-library/creating-placements.md)
+Lorsque la duplication est autorisée entre tous les emplacements, la même offre peut être proposée plusieurs fois à différents emplacements. Si cette option est activée, le système accepte de placer la même offre dans plusieurs emplacements. [En savoir plus sur le paramètre de duplication](../offer-library/creating-placements.md)
 
 Prenons le même exemple que ci-dessus, dans lequel vous avez ajouté deux portées de décision, telles que :
 
