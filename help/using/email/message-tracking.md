@@ -9,10 +9,10 @@ role: User
 level: Beginner, Intermediate
 keywords: liens, tracking, surveillance, e-mail
 exl-id: 689e630a-00ca-4893-8bf5-6d1ec60c52e7
-source-git-commit: 4847415fa33ebf1c21622ebf4faecafd4decc8d3
+source-git-commit: 85bc9308402eaf2f13df0ca8d340b96769fc777e
 workflow-type: tm+mt
-source-wordcount: '1054'
-ht-degree: 99%
+source-wordcount: '1193'
+ht-degree: 69%
 
 ---
 
@@ -22,7 +22,7 @@ Utilisez [!DNL Journey Optimizer] pour ajouter des liens à votre contenu et sui
 
 ## Activation du suivi {#enable-tracking}
 
-Vous pouvez activer le tracking au niveau des e-mails en cochant les options **[!UICONTROL Ouvertures d’e-mails]** et/ou **[!UICONTROL Cliquer sur l’e-mail]** lorsque vous créez votre message dans un parcours ou une campagne.
+Vous pouvez activer le tracking au niveau des emails en cochant les options **[!UICONTROL Ouvertures d’emails]** et/ou **[!UICONTROL Cliquer sur l’email]** lors de la création de votre message dans un parcours ou une campagne, comme dans les onglets ci-dessous :
 
 >[!BEGINTABS]
 
@@ -40,38 +40,34 @@ Vous pouvez activer le tracking au niveau des e-mails en cochant les options **[
 >
 >Les deux options sont activées par défaut.
 
-Vous pourrez ainsi suivre le comportement de vos destinataires via :
+Lorsqu’elles sont activées, ces options effectuent le suivi du comportement des destinataires de vos messages :
 
-* **[!UICONTROL Ouvertures d’e-mails]** : messages ayant été ouverts.
-* **[!UICONTROL Clics sur l&#39;e-mail]** : clics sur les liens dans un e-mail.
+* La mesure **[!UICONTROL Ouvertures d’e-mails]** vérifie le nombre de messages ouverts.
+* La mesure **[!UICONTROL Clic sur l’e-mail]** calcule le nombre de clics effectués sur des liens dans un e-mail.
 
 ## Insertion de liens {#insert-links}
 
-Lors de la conception d&#39;un message, vous pouvez ajouter des liens à votre contenu.
-
->[!NOTE]
->
->Lorsque le [suivi est activé](#enable-tracking), tous les liens inclus dans le contenu du message sont suivis.
+Lorsque le [suivi est activé](#enable-tracking), tous les liens inclus dans le contenu du message sont suivis.
 
 Pour insérer des liens dans le contenu de votre e-mail, procédez comme suit :
 
-1. Sélectionnez un élément et cliquez sur **[!UICONTROL Ajouter un lien]** dans la barre d&#39;outils contextuelle.
+1. Sélectionnez un élément (texte ou image) et cliquez sur **[!UICONTROL Insérer un lien]** dans la barre d’outils contextuelle.
 
    ![](assets/message-tracking-insert-link.png)
 
 1. Choisissez le type de lien que vous souhaitez créer :
 
-   * **[!UICONTROL Lien externe]** : insérez un lien vers une URL externe.
+   * Sélectionnez **[!UICONTROL Lien externe]** pour insérer un lien vers une URL externe.
 
-   * **[!UICONTROL Page de destination]** : insérez un lien vers une page de destination. [En savoir plus](../landing-pages/get-started-lp.md).
+   * Sélectionnez **[!UICONTROL Page de destination]** pour insérer un lien vers une page de destination. [En savoir plus](../landing-pages/get-started-lp.md)
 
-   * **[!UICONTROL Opt-out en un clic]** : insérez un lien pour permettre aux utilisateurs et utilisatrices de se désabonner rapidement de vos communications sans avoir à confirmer leur opt-out. [En savoir plus](email-opt-out.md#one-click-opt-out).
+   * Sélectionnez **[!UICONTROL Opt-out en un clic]** pour insérer un lien permettant aux utilisateurs de se désabonner rapidement de vos communications sans avoir à confirmer leur opt-out. [En savoir plus](email-opt-out.md#one-click-opt-out).
 
-   * **[!UICONTROL Abonnement/opt-in externe]** : insérez un lien pour accepter la réception de communications de votre marque.
+   * Sélectionnez **[!UICONTROL Abonnement/opt-in externe]** pour insérer un lien permettant d’accepter la réception de communications de votre marque.
 
-   * **[!UICONTROL Désabonnement/opt-out externe]** : insérez un lien pour se désabonner de la réception des communications de votre marque. En savoir plus sur la gestion des processus d’opt-out dans [cette section](email-opt-out.md#opt-out-management).
+   * Sélectionnez **[!UICONTROL Désinscription/opt-out externe]** pour insérer un lien permettant de se désabonner de la réception des communications de votre marque. En savoir plus sur la gestion des processus d’opt-out dans [cette section](email-opt-out.md#opt-out-management).
 
-   * **[!UICONTROL Page miroir]** : insérez un lien pour afficher le contenu de l’e-mail dans un navigateur web. [En savoir plus](#mirror-page).
+   * Sélectionnez **[!UICONTROL Page miroir]** pour ajouter un lien vers la page miroir de l’e-mail. [En savoir plus](#mirror-page).
 
 1. Saisissez l’URL de votre choix dans le champ correspondant, ou sélectionnez une page de destination et définissez les styles et paramètres du lien. [En savoir plus](#adjust-links).
 
@@ -91,13 +87,40 @@ Pour insérer des liens dans le contenu de votre e-mail, procédez comme suit :
 >
 >Les e-mails de type marketing doivent inclure un [lien d’exclusion](../privacy/opt-out.md#opt-out-management), qui n’est pas obligatoire pour les messages transactionnels. La catégorie du message (**[!UICONTROL Marketing]** ou **[!UICONTROL Transactionnel]**) est définie au niveau de la [configuration des canaux](../configuration/channel-surfaces.md#email-type), lors de la création du message.
 
-## Ajuster les liens {#adjust-links}
 
-Vous pouvez ajuster vos liens à l’aide des volets **[!UICONTROL Paramètres]** et **[!UICONTROL Styles]** à droite. Vous pouvez souligner un lien, en modifier la couleur ou sélectionner sa cible.
+## Lien vers une page miroir {#mirror-page}
+
+La page miroir est une version en ligne de votre e-mail. L’ajout d’un lien vers la page miroir est une bonne pratique de marketing par e-mail. Les utilisateurs et utilisatrices consultent la page miroir d’un e-mail en cas de problème d’affichage des images dans leur boîte de réception ou lorsque ces dernières sont endommagées. Il est également recommandé de fournir une version en ligne pour des raisons d’accessibilité ou pour faciliter le partage sur les réseaux sociaux.
+
+La page miroir générée par Adobe Journey Optimizer contient toutes les données de personnalisation.
+
+Pour ajouter un lien vers une page miroir dans votre e-mail, [insérez un lien](#insert-links) et sélectionnez **[!UICONTROL Page miroir]** comme type de lien.
+
+![](assets/message-tracking-mirror-page.png)
+
+La page miroir est automatiquement créée. Une fois l&#39;e-mail envoyé, lorsque les destinataires cliquent sur le lien de la page miroir, le contenu de l’email s&#39;affiche dans leur navigateur web par défaut.
+
+La période de conservation d’une page miroir est de **60 jours**. Une fois ce délai écoulé, la page miroir n’est plus disponible.
+
+>[!CAUTION]
+>
+>* Les liens de pages miroir sont générés automatiquement et ne peuvent pas être modifiés. Ils contiennent toutes les données personnalisées et chiffrées nécessaires pour générer l’e-mail original. Par conséquent, l’utilisation d’attributs personnalisés dotés de valeurs élevées peut générer des URL de pages miroir longues et empêcher le fonctionnement du lien dans les navigateurs web appliquant une longueur maximale d’URL.
+>
+>* Dans le [BAT](../content-management/proofs.md) envoyé aux profils de test, le lien vers la page miroir n’est pas actif. Il n’est actif que dans les messages finaux.
+
+## Personnalisation de l’aspect du lien et de la cible {#adjust-links}
+
+Vous pouvez ajuster vos liens, par exemple en les soulignant, en modifiant leur couleur ou en sélectionnant leur cible.  Ces modifications sont définies dans les volets **[!UICONTROL Paramètres]** et **[!UICONTROL Styles]** de la section droite de l’éditeur de contenu.
+
+### Target {#link-target}
+
+L’attribut **target** est utilisé pour contrôler l’emplacement d’ouverture d’une page liée. L’ajout d’un attribut cible dans une balise d’ancrage peut indiquer si le lien doit s’ouvrir dans un nouvel onglet, dans le même onglet ou dans un autre cadre.
+
+Pour définir la cible d&#39;un lien, procédez comme suit :
 
 1. Dans un composant **[!UICONTROL Texte]** contenant un lien, sélectionnez ce dernier.
 
-1. Dans l’onglet **[!UICONTROL Paramètres]**, choisissez comment votre audience sera redirigée à l’aide du menu déroulant **[!UICONTROL Cible]** :
+1. Dans l’onglet **[!UICONTROL Paramètres]**, sélectionnez l’emplacement où s’ouvre le lien dans le menu déroulant **[!UICONTROL Cible]** :
 
    * **[!UICONTROL Aucune]** : ouvre le lien dans le même cadre que celui sur lequel l’utilisateur a cliqué (par défaut).
    * **[!UICONTROL Vierge]** : ouvre le lien dans une nouvelle fenêtre ou un nouvel onglet.
@@ -107,37 +130,21 @@ Vous pouvez ajuster vos liens à l’aide des volets **[!UICONTROL Paramètres]*
 
    ![](assets/link_2.png)
 
-1. Cochez la case **[!UICONTROL Souligner le lien]** pour souligner le texte du libellé de votre lien.
-
-   ![](assets/link_1.png)
-
-1. Pour modifier la couleur de votre lien, cliquez sur **[!UICONTROL Couleur du lien]** dans l’onglet **[!UICONTROL Styles]**.
-
-   ![](assets/link_3.png)
-
 1. Enregistrez vos modifications.
 
-## Lien vers une page miroir {#mirror-page}
 
-La page miroir est une page HTML accessible en ligne via un navigateur web. Son contenu est identique à celui de votre e-mail.
+### Souligner le lien {#link-underline}
 
-Pour ajouter un lien vers une page miroir dans votre e-mail, [insérez un lien](#insert-links) et sélectionnez **[!UICONTROL Page miroir]** comme type de lien.
+Cochez l’option **[!UICONTROL Souligner le lien]** pour souligner le libellé de votre lien.
 
-![](assets/message-tracking-mirror-page.png)
+![](assets/link_1.png)
 
-La page miroir est automatiquement créée.
+### Couleur du lien {#link-color}
 
->[!IMPORTANT]
->
->Les liens de pages miroir sont générés automatiquement et ne peuvent pas être modifiés. Ils contiennent toutes les données personnalisées et chiffrées nécessaires pour générer l’e-mail original. Par conséquent, l’utilisation d’attributs personnalisés dotés de valeurs élevées peut générer des URL de pages miroir longues et empêcher le fonctionnement du lien dans les navigateurs web appliquant une longueur maximale d’URL.
+Pour modifier la couleur de votre lien, cliquez sur **[!UICONTROL Couleur du lien]** dans l’onglet **[!UICONTROL Styles]**.
 
-Une fois l&#39;e-mail envoyé, lorsque les destinataires cliquent sur le lien de la page miroir, le contenu de l’email s&#39;affiche dans leur navigateur web par défaut.
+![](assets/link_3.png)
 
->[!NOTE]
->
->Dans le [BAT](../content-management/proofs.md) envoyé aux profils de test, le lien vers la page miroir n’est pas actif. Il n&#39;est activé que dans les messages finaux.
-
-La période de conservation d’une page miroir est de 60 jours. Passé ce délai, la page miroir n’est plus disponible.
 
 ## Gestion du suivi {#manage-tracking}
 
