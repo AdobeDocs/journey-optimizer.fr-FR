@@ -5,10 +5,10 @@ user-guide-title: Guide de Journey Optimizer
 user-guide-description: Utilisez Journey Optimizer pour créer et proposer aux clients des expériences connectées, contextuelles et personnalisées
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: dfc0774468710a7b8791c9b2a6c70397a90443fa
+source-git-commit: 170dd966ae9fe9721a92bdebccd76305ad6fa1dc
 workflow-type: tm+mt
-source-wordcount: '2187'
-ht-degree: 91%
+source-wordcount: '2251'
+ht-degree: 90%
 
 ---
 
@@ -170,8 +170,36 @@ ht-degree: 91%
          + [Accélérer les diffusions](using/building-journeys/ramp-up-deliveries-uc.md)
          + [Limiter le débit avec les sources de données externes et les actions personnalisées](using/building-journeys/limit-throughput.md)
          + [Utilisation d’actions personnalisées pour écrire des événements de parcours dans Experience Platform](using/building-journeys/custom-action-aep.md)
-+ Campagnes{#campaigns}
-   + [Commencer avec les campagnes](using/campaigns/get-started-with-campaigns.md)
++ Campagnes à plusieurs étapes {#ms-campaigns}
+   + [Prise en main des campagnes à plusieurs étapes](using/ms/gs-ms-campaigns.md)
+   + Création de votre première {#create-ms-campaign} de campagne à plusieurs étapes
+      + [Principes clés](using/ms/gs-campaign-creation.md)
+      + [Mécanismes de sécurisation et limitations](using/ms/guardrails.md)
+      + [Créer la campagne](using/ms/create-ms-campaign.md)
+      + [Orchestrer les activités](using/ms/orchestrate-activities.md)
+      + [Configurer les paramètres de campagne](using/ms/ms-campaign-settings.md)
+      + [Démarrer et surveiller vos campagnes](using/ms/start-monitor-campaigns.md)
+      + [Variables d’événement dans les campagnes à plusieurs étapes](using/ms/event-variables.md)
+   + {#design-campaigns} des activités de campagne à plusieurs étapes
+      + [À propos des activités de campagne à plusieurs étapes](using/ms/activities/about-activities.md)
+      + [Rendez-vous](using/ms/activities/and-join.md)
+      + [Créer une audience](using/ms/activities/build-audience.md)
+      + [Changement de dimension](using/ms/activities/change-dimension.md)
+      + [Combiner](using/ms/activities/combine.md)
+      + [Déduplication](using/ms/activities/deduplication.md)
+      + [Actions de canal](using/ms/activities/channels.md)
+      + [Enrichissement](using/ms/activities/enrichment.md)
+      + [Branchement](using/ms/activities/fork.md)
+      + [Charger un fichier](using/ms/activities/load-file.md)
+      + [Réconciliation](using/ms/activities/reconciliation.md)
+      + [Enregistrer l’audience](using/ms/activities/save-audience.md)
+      + [Planificateur](using/ms/activities/scheduler.md)
+      + [Partage](using/ms/activities/split.md)
+      + [Test](using/ms/activities/test.md)
+      + [Mise à jour de données](using/ms/activities/update-data.md)
+      + [Attente](using/ms/activities/wait.md)
++ Campagnes {#campaigns}
+   + [Prise en main des campagnes](using/campaigns/get-started-with-campaigns.md)
    + [Création d’une campagne](using/campaigns/create-campaign.md)
    + [Vérifier et activer une campagne](using/campaigns/review-activate-campaign.md)
    + [Gestion des campagnes](using/campaigns/modify-stop-campaign.md)
