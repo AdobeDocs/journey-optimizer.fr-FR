@@ -11,12 +11,12 @@ keywords: liens, tracking, surveillance, e-mail
 exl-id: 689e630a-00ca-4893-8bf5-6d1ec60c52e7
 source-git-commit: 85bc9308402eaf2f13df0ca8d340b96769fc777e
 workflow-type: tm+mt
-source-wordcount: '1193'
-ht-degree: 69%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
-# Ajouter des liens et tracker les messages {#tracking}
+# Ajouter des liens et suivre les messages {#tracking}
 
 Utilisez [!DNL Journey Optimizer] pour ajouter des liens à votre contenu et suivre les messages envoyés afin de surveiller le comportement de vos destinataires.
 

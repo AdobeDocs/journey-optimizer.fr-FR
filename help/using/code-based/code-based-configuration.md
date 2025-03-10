@@ -8,8 +8,8 @@ level: Experienced
 exl-id: 1aff2f6f-914c-4088-afd8-58bd9edfe07d
 source-git-commit: 9ea7f2c76cc09949bb4467d5b9b2c19550f9975e
 workflow-type: tm+mt
-source-wordcount: '1073'
-ht-degree: 98%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -66,7 +66,7 @@ Pour créer une configuration de canal d’expérience basée sur du code, proc�
    >
    >Vous pouvez sélectionner plusieurs plateformes. Lorsque vous sélectionnez plusieurs plateformes, le contenu est diffusé sur toutes les pages ou applications sélectionnées.
 
-1. Sélectionnez le format attendu par l’application à cet emplacement spécifique. Elle sera utilisée lors de la création de l’expérience basée sur le code dans les campagnes et les parcours.
+1. Sélectionnez le format attendu par l’application à cet emplacement spécifique. Cela sera utilisé lors de la création de l’expérience basée du code dans les campagnes et les parcours.
 
    ![](assets/code_config_4.png)
 

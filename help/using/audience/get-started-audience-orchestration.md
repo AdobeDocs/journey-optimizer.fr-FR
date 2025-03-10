@@ -10,8 +10,8 @@ level: Beginner
 exl-id: af71d24d-77eb-44df-8216-b0aeaf4c4fa4
 source-git-commit: 1ff33c3da5236cb4a89a893f83476867a2ecddd3
 workflow-type: tm+mt
-source-wordcount: '1030'
-ht-degree: 100%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -168,7 +168,7 @@ Pour créer un workflow de composition, procédez comme suit :
 
 ## Accéder aux compositions {#access}
 
-Toutes les compositions créées sont accessibles à partir de l’onglet **[!UICONTROL Compositions]** . Vous pouvez dupliquer ou supprimer une composition existante à tout moment à l’aide du bouton représentant des points de suspension dans la liste.
+Toutes les compositions créées sont accessibles à partir de l’onglet **[!UICONTROL Compositions]**. Vous pouvez dupliquer ou supprimer une composition existante à tout moment à l’aide du bouton représentant des points de suspension dans la liste.
 
 Les compositions peuvent avoir plusieurs statuts :
 

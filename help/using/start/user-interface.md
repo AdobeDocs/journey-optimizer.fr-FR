@@ -10,12 +10,12 @@ level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
 source-git-commit: 3e9392d65bc4a5cbbb95ed27350c6de56edcbf18
 workflow-type: tm+mt
-source-wordcount: '1366'
-ht-degree: 95%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
-# Interface utilisateur {#cjm-user-interface}
+# Interface d’utilisation {#cjm-user-interface}
 
 Pour accéder à [!DNL Adobe Journey Optimizer], connectez-vous à [Adobe Experience Cloud](https://experience.adobe.com) avec votre Adobe ID, puis sélectionnez [!DNL Journey Optimizer].
 
@@ -24,7 +24,7 @@ Les concepts clés lors de la navigation dans l’interface utilisateur sont les
 
 >[!NOTE]
 >
->* Les composants et fonctionnalités disponibles dans votre environnement dépendent de vos [autorisations](../administration/permissions.md) et de votre [package de licence](https://helpx.adobe.com/fr/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}. Pour toute question, contactez votre responsable du succès client Adobe ou votre représentant Adobe.
+>* Les composants et fonctionnalités disponibles dans l&#39;interface d’utilisation dépendent de vos [autorisations](../administration/permissions.md) et de votre [package de licence](https://helpx.adobe.com/fr/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}. Pour toute question, contactez votre responsable Succès client Adobe ou votre représentant ou représentante Adobe.
 >
 >* Cette documentation est fréquemment mise à jour pour prendre en compte les dernières modifications de l&#39;interface utilisateur du produit. Cependant, certaines captures d&#39;écran peuvent être légèrement différentes de votre interface utilisateur.
 >
@@ -122,7 +122,7 @@ Contrôlez les demandes et la gestion concernant la confidentialité à partir d
 
 * **[!UICONTROL Audit]** - Accédez à cette section pour vérifier les journaux d’activité. [En savoir plus](../privacy/audit-logs.md).
 
-* **[!UICONTROL Cycle de vie des données]** - Cette section vous permet de configurer et de planifier les opérations du cycle de vie des données, en veillant à ce que vos enregistrements soient correctement conservés. [En savoir plus](../privacy/data-hygiene.md)
+* **[!UICONTROL Cycle de vie des données]** : cette section vous permet de configurer et de planifier les opérations de cycle de vie des données, en veillant à ce que vos enregistrements soient correctement conservés. [En savoir plus](../privacy/data-hygiene.md)
 
 ### [!UICONTROL ADMINISTRATION] {#left-nav-admin}
 

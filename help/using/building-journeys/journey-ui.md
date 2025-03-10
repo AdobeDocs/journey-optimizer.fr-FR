@@ -2,7 +2,7 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Parcourir et filtrer vos parcours
-description: Parcourez et filtrez vos parcours dans Adobe Journey Optimizer
+description: Parcourez et filtrez vos parcours dans Adobe Journey Optimizer.
 feature: Journeys, Get Started
 topic: Content Management
 role: User
@@ -12,20 +12,20 @@ exl-id: 770bdbf2-560d-4127-bdb9-1f82495a566f
 source-git-commit: d7ebba4144eeb5b29e9e6fa21afde06a7e520e07
 workflow-type: tm+mt
 source-wordcount: '1124'
-ht-degree: 73%
+ht-degree: 97%
 
 ---
 
 # Parcourir et filtrer vos parcours {#browse-journeys}
 
-## Tableau de bord du parcours {#dashboard-jo}
+## Tableau de bord des parcours {#dashboard-jo}
 
-Dans la section du menu GESTION DES PARCOURS, cliquez sur **[!UICONTROL Parcours]**. Deux onglets sont disponibles : **[!UICONTROL Aperçu]** et **[!UICONTROL Parcourir]**.
+Dans la section du menu GESTION DES PARCOURS, cliquez sur **[!UICONTROL Parcours]**. Deux onglets sont disponibles : **[!UICONTROL Vue d’ensemble]** et **[!UICONTROL Parcourir]**.
 
 
-* L’onglet **[!UICONTROL Aperçu]** affiche un tableau de bord avec les mesures clés liées à vos parcours.
+* L’onglet **[!UICONTROL Vue d’ensemble]** affiche un tableau de bord avec les mesures clés liées à vos parcours.
 
-  Tableau de bord de parcours ![mettant en surbrillance l’onglet Aperçu](assets/journeys-dashboard.png)
+  ![Tableau de bord de parcours mettant en surbrillance l’onglet Vue d’ensemble](assets/journeys-dashboard.png)
 
    * **Profils traités** : nombre total de profils traités au cours des dernières 24 heures
    * **Parcours dynamiques** : nombre total de parcours dynamiques avec trafic au cours des dernières 24 heures. Les parcours dynamiques incluent les **parcours unitaires** (basés sur un événement) et les **parcours par lots** (lecture d’audience).
@@ -39,15 +39,15 @@ Dans la section du menu GESTION DES PARCOURS, cliquez sur **[!UICONTROL Parcours
 
 * L’onglet **[!UICONTROL Parcourir]** affiche la liste des parcours existants. Vous pouvez rechercher des parcours, utiliser des filtres et effectuer des actions de base sur chaque élément. Vous pouvez par exemple dupliquer ou supprimer un élément.
 
-  Tableau de bord de parcours ![mettant en surbrillance l’onglet Parcourir](assets/journeys-browse.png)
+  ![Tableau de bord de parcours mettant en surbrillance l’onglet Parcourir](assets/journeys-browse.png)
 
 ## Filtrer vos parcours {#journey-filter}
 
-Dans la liste des parcours, l’utilisation de différents filtres permet d’affiner la liste des parcours.
+Dans la liste des parcours, l’utilisation de différents filtres permet d’affiner la liste.
 
 ![](assets/filter-journeys.png)
 
-Vous pouvez filtrer les parcours en fonction de leurs [statut](#journey-statuses), [type](#journey-types), [version](#journey-versions) et [balises](../start/search-filter-categorize.md#tags) attribuées à partir des **[!UICONTROL filtres de statut et de version]**.
+Filtrez les parcours en fonction de leur [statut](#journey-statuses), [type](#journey-types), [version](#journey-versions) et [balises](../start/search-filter-categorize.md#tags) attribuées depuis les **[!UICONTROL Filtres de statut et de version]**.
 
 Utilisez les **[!UICONTROL filtres de création]** pour filtrer les parcours en fonction de leur date de création ou de la personne qui les a créés.
 
@@ -62,17 +62,17 @@ Dans les volets de configuration des événements, des sources de données et de
 ![](assets/journey3bis.png)
 
 
-## types de parcours {#journey-types}
+## Types de parcours {#journey-types}
 
 Le type de parcours dépend des activités utilisées dans ce parcours. Il peut s’agir des éléments suivants :
 
-* **[!UICONTROL Événement unitaire]** - Les parcours d’événements unitaires sont liés à un profil spécifique. Les événements sont liés au comportement d’une personne ou à un événement lié à une personne (par exemple, une personne a atteint 10 000 points de fidélité). [En savoir plus](../event/about-events.md).
-* **[!UICONTROL Événement métier]**. Le parcours d’événements métier commence par un événement non lié au profil. La configuration de l’événement est effectuée par un utilisateur technique et ne peut pas être modifiée. [En savoir plus](../event/about-events.md).
+* **[!UICONTROL Événements unitaires]** : les événements unitaires des parcours sont liés à un profil spécifique. Les événements sont liés au comportement d’une personne ou à un événement lié à une personne (par exemple, une personne a atteint 10 000 points de fidélité). [En savoir plus](../event/about-events.md).
+* **[!UICONTROL Événement métier]**. Le parcours d’événements métier commence par un événement non lié au profil. La configuration de l’événement est effectuée par un utilisateur ou une utilisatrice technique et ne peut pas être modifiée. [En savoir plus](../event/about-events.md).
 * **[!UICONTROL Qualification de l’audience]** - Les parcours de qualification de l’audience écoutent les entrées et les sorties des profils dans les audiences Adobe Experience Platform afin de faire en sorte que des individus rejoignent un parcours ou y progressent. [En savoir plus](audience-qualification-events.md).
-* **[!UICONTROL Lecture d’audience]** - Dans les parcours Lecture d’audience , tous les individus de l’audience rejoignent le parcours et reçoivent les messages inclus dans votre parcours.  [En savoir plus](read-audience.md).
+* **[!UICONTROL Lecture d’audience]** : dans les parcours Lecture d’audience, toutes les personnes de l’audience rejoignent le parcours et reçoivent les messages inclus dans votre parcours. [En savoir plus](read-audience.md).
 
 
-En savoir plus sur les types de parcours et la gestion des entrées associée dans [cette page](entry-management.md).
+Pour plus d’informations sur les types de parcours et la gestion des entrées associées, consultez [cette page](entry-management.md).
 
 ## Statuts des parcours {#journey-statuses}
 
@@ -89,7 +89,7 @@ Le statut du parcours dépend de son cycle de vie. Il peut s’agir des élémen
 >
 >* Le cycle de vie de création de parcours comprend également un ensemble de statuts intermédiaires qui ne sont pas disponibles pour le filtrage : « Publication » (entre « Brouillon » et « Actif »), « Activer le mode test » ou « Désactiver le mode test » (entre « Brouillon » et « Brouillon (test) ») et « Arrêt en cours » (entre « Actif » et « Arrêté »). Lorsqu’un parcours se trouve dans un état intermédiaire, il est en lecture seule.
 >
->* Si vous devez apporter des modifications à un parcours **actif**, [créez une nouvelle version](#journey-versions) de votre parcours.
+>* Si vous devez apporter des modifications à un parcours **publié**, vous devez en [créer une nouvelle version](#journey-versions).
 
 
 ## Versions de parcours {#journey-versions}
@@ -102,9 +102,9 @@ Dans la liste des parcours, toutes les versions de parcours sont accompagnées d
 >
 >Dans la plupart des cas, un profil ne peut pas être présent plusieurs fois dans le même parcours, en même temps. Si la nouvelle entrée est activée, un profil peut rejoindre à nouveau un parcours, mais ne peut pas le faire tant qu’il n’a pas complètement quitté cette instance précédente du parcours. [En savoir plus](end-journey.md).
 
-### Création d’une nouvelle version d’un parcours {#journey-create-new-version}
+### Créer une nouvelle version d’un parcours {#journey-create-new-version}
 
-Si vous devez apporter des modifications à un parcours actif, créez une nouvelle version de votre parcours. Pour créer une nouvelle version d’un parcours existant, procédez comme suit :
+Si vous devez apporter des modifications à un parcours publié, vous devez en créer une nouvelle version. Pour créer une nouvelle version d’un parcours existant, procédez comme suit :
 
 1. Ouvrez la dernière version de votre parcours actif, puis cliquez sur **[!UICONTROL Créer une version]**, puis confirmez.
 

@@ -11,7 +11,7 @@ exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
 source-git-commit: 4407961654a1d55bf20d8091447dc2f1ef703ea3
 workflow-type: tm+mt
 source-wordcount: '6222'
-ht-degree: 96%
+ht-degree: 99%
 
 ---
 
@@ -29,14 +29,14 @@ Cette page répertorie toutes les mises à jour récentes de la documentation de
 * Les mécanismes de sécurisation de l’activité « Lecture d’audience » ont été mis à jour afin d’indiquer qu’une seule activité peut être utilisée dans un parcours et qu’elle ne peut cibler qu’une seule audience. [En savoir plus](../building-journeys/read-audience.md)
 * Les mécanismes de sécurisation de parcours lors de l’utilisation des activités Campaign ont été mis à jour. [En savoir plus](../start/guardrails.md#ac-g)
 * Les étapes de création de vos premiers parcours ont été détaillées et des liens vers la section de documentation ont été ajoutés. [En savoir plus](../building-journeys/journey-gs.md)
-* Une nouvelle page est désormais disponible pour détailler le tableau de bord du parcours et l’interface utilisateur de filtrage. [En savoir plus](../building-journeys/journey-ui.md)
+* Une nouvelle page est désormais disponible pour présenter le tableau de bord du parcours et l’interface d’utilisation de filtrage. [En savoir plus](../building-journeys/journey-ui.md)
 * La documentation relative à l’**[!UICONTROL optimisation de l’heure d’envoi]** et ses questions fréquentes associées ont été mises à jour, enrichies et déplacées vers une nouvelle page dédiée. [En savoir plus](../building-journeys/send-time-optimization.md)
 * De nouveaux mécanismes de sécurisation ont été ajoutés pour les événements de parcours. [En savoir plus](../start/guardrails.md#events-g)
 * La page des actions de canal intégrée a été réorganisée. [En savoir plus](../building-journeys/journeys-message.md)
-* Des mécanismes de sécurisation et des limitations ont été ajoutés dans les sections Prise de décision et Gestion des décisions .
-   * [Mécanismes de sécurisation et limitations des décisions](../experience-decisioning/decisioning-guardrails.md)
+* Des mécanismes de sécurisation et des limitations ont été ajoutés dans les sections Prise de décision et Gestion des décisions.
+   * [Mécanismes de sécurisation et limitations des prises de décision](../experience-decisioning/decisioning-guardrails.md)
    * [Mécanismes de sécurisation et limitations de la gestion des décisions](../offers/decision-management-guardrails.md)
-* Une nouvelle section sur les données contextuelles a été ajoutée à la documentation Gestion des décisions . Elle fournit des informations sur la manière d’exploiter les données contextuelles dans le moteur de décision, par exemple pour concevoir une règle de décision qui nécessite que la météo actuelle soit de ≥80 degrés au moment où la demande de décision est effectuée. [En savoir plus](../offers/context-data.md)
+* Une nouvelle section sur les données contextuelles a été ajoutée à la documentation Gestion des décisions. Elle fournit des informations sur la manière d’exploiter les données contextuelles dans le moteur de décision, par exemple pour concevoir une règle de décision qui nécessite que la météo actuelle soit de ≥27 degrés au moment où la demande de décision est effectuée. [En savoir plus](../offers/context-data.md)
 
 ## Janvier 2025 {#jan-2025}
 
@@ -135,7 +135,7 @@ Cette page répertorie toutes les mises à jour récentes de la documentation de
    * E : raccourci utilisé pour déclencher un événement dans un parcours basé sur un événement.
    * P : raccourci pour déclencher un événement dans un parcours basé sur des audiences pour lequel l’option Un profil unique à la fois est activée.
    * L : raccourci désigné pour afficher les journaux de test.
-* La page Règles de fréquence des messages a été mise à jour avec une nouvelle sous-section sur la limitation de la fréquence quotidienne, disponible sur demande en plus de la limitation hebdomadaire ou mensuelle.
+* La page Règles de fréquence des messages a été mise à jour avec une nouvelle sous-section sur la limite de fréquence quotidienne, disponible à la demande en plus de la limitation hebdomadaire ou mensuelle.
 * La page Utiliser les politiques de consentement a été améliorée et mise à jour avec des liens utiles vers la documentation d’Experience Platform. [En savoir plus](../action/consent.md)
 * Une nouvelle section a été ajoutée pour refléter le fait que vous pouvez afficher des modèles de contenu d’e-mail HTML sous forme de miniatures en mode de vue Grille (disponibilité limitée). [En savoir plus](../content-management/content-templates.md#template-thumbnails)
 * Une nouvelle section a été ajoutée à la page Délivrabilité pour expliquer ce que sont les boucles de rétroaction et comment les utiliser. [En savoir plus](../reports/deliverability.md#feedback-loops)
@@ -152,7 +152,7 @@ Cette page répertorie toutes les mises à jour récentes de la documentation de
 * La liste des fonctions disponibles dans l’éditeur d’expression avancé a été mise à jour. [En savoir plus](../building-journeys/expression/functions.md)
 * La page de la fonction de partage a été mise à jour. [En savoir plus](../building-journeys/functions/functioninaudience.md)
 * Ajout d’informations concernant l’impact des notifications push d’opt-in ou d’opt-out sur les messages in-app. [En savoir plus](../in-app/create-in-app.md)
-* La page Règles de fréquence des messages a été mise à jour pour prendre en compte les options de durée disponibles dans l’interface utilisateur (hebdomadaire ou mensuelle).
+* La page des règles de fréquence des messages a été mise à jour pour prendre en compte les options de durée disponibles dans l’interface d’utilisation (hebdomadaire ou mensuelle).
 * La section Modifier l’enregistrement PTR a été mise à jour afin de clarifier le fait que les enregistrements PTR ne peuvent pas être créés manuellement et que vous devez modifier les enregistrements PTR pour leur attribuer de nouveaux sous-domaines. [En savoir plus](../configuration/ptr-records.md#edit-ptr-record)
 
 ## Janvier 2024 {#jan-2024}
@@ -350,7 +350,7 @@ Cette page répertorie toutes les mises à jour récentes de la documentation de
 ## Août 2022 {#august-2022}
 
 * Toutes les nouvelles fonctionnalités et améliorations de la version [!DNL Journey Optimizer] d’août 2022 ont été présentées dans la documentation. [En savoir plus](release-notes.md)
-* La section Règles de fréquence a été mise à jour pour prendre en compte le nouveau flux de messagerie en ligne.
+* La section Règles de fréquence a été mise à jour pour prendre en compte le nouveau flux de messages en ligne.
 * Une vidéo montrant comment configurer les abonnements et créer des pages de destination est désormais référencée dans la section « Prise en main des pages de destination ». [En savoir plus](../landing-pages/get-started-lp.md#video)
 * Ajout d’une limitation pour les parcours utilisant les activités de lecture d’audience. [En savoir plus](../building-journeys/read-audience.md).
 * La page des opérateurs de l’éditeur d’expression a été améliorée. [En savoir plus](../building-journeys/expression/operators.md)
@@ -400,7 +400,7 @@ Cette page répertorie toutes les mises à jour récentes de la documentation de
 * Toutes les nouvelles fonctionnalités et améliorations de la version d’avril 2022 de [!DNL Journey Optimizer] ont été présentées dans la documentation. [En savoir plus](release-notes.md)
 * La page de documentation sur les événements de **réaction** a été mise à jour. [En savoir plus](../building-journeys/reaction-events.md)
 * Les vidéos relatives aux fonctionnalités de gestion des décisions ont été mises à jour pour refléter l’interface utilisateur de Journey Optimizer. [En savoir plus](../offers/get-started/starting-offer-decisioning.md)
-* La section **Prise en main des jeux de données** a été améliorée afin d’expliquer en détail comment accéder aux jeux de données et les créer. [En savoir plus](../data/get-started-datasets.md)
+* La section **Commencer avec les jeux de données** a été améliorée afin d’expliquer en détail comment accéder aux jeux de données et les créer. [En savoir plus](../data/get-started-datasets.md)
 * Des liens vers les guides d’aide et les notes de mise à jour du produit ont été ajoutés à la page d’accueil de la **Documentation d’Adobe Journey Optimizer**. [En savoir plus](https://experienceleague.adobe.com/docs/journey-optimizer.html?lang=fr)
 * La section **Créer des préréglages de messages** indique désormais que vous ne pouvez pas procéder à la création de préréglages tant que le groupe d’adresses IP sélectionné est en cours d’édition (statut de **[!UICONTROL traitement]**) et n’a jamais été associé au sous-domaine sélectionné. [En savoir plus](../configuration/channel-surfaces.md#subdomains-and-ip-pools)
 * La section **Suivi des URL** des préréglages de messages a été mise à jour pour refléter des changements mineurs dans l’interface utilisateur. [En savoir plus](../configuration/channel-surfaces.md#url-tracking)

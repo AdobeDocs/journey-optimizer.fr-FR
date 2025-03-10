@@ -11,7 +11,7 @@ exl-id: 289aac5d-6cdb-411f-985e-3acef58050a8
 source-git-commit: c60ad071d41c9b322e9a6b9285a044321df536cc
 workflow-type: tm+mt
 source-wordcount: '1041'
-ht-degree: 79%
+ht-degree: 91%
 
 ---
 
@@ -80,12 +80,12 @@ La segmentation par flux est un processus continu de sélection des données qui
 
 >[!IMPORTANT]
 >
->Depuis le 1er novembre 2024, la segmentation en flux continu ne prend plus en charge l’utilisation des événements **send** et **open** à partir des jeux de données de tracking et de commentaires Journey Optimizer.
->* Cette modification s’applique à toutes les sandbox et organisations clientes.
->* Seuls les événements d’envoi et d’ouverture sont affectés : les clics et les autres événements de suivi restent disponibles pour la segmentation en flux continu.
->* Cette modification s’applique uniquement à la segmentation en flux continu. Les événements d’envoi et d’ouverture peuvent toujours être utilisés dans les segments par lots, mais s’ils sont inclus dans un segment en flux continu, ils seront évalués par lots. En outre, les événements d’exclusion et les événements de bounce/retard résultant d’événements d’envoi sont également affectés par cette modification.
->* La collecte des données de tracking n’est pas affectée. Les événements d’envoi et d’ouverture continueront à être collectés comme d’habitude.
->* Les événements de réaction dans les parcours ne sont pas affectés par cette modification.
+>Depuis le 1er novembre 2024, la segmentation du streaming ne prendra plus en charge l’utilisation des événements d’**envoi** et d’**ouverture** provenant des jeux de données de tracking et de retour de Journey Optimizer.
+>* Cette modification s’applique à l’ensemble des sandbox et organisations de nos clientes et clients.
+>* Seuls les événements d’envoi et d’ouverture sont affectés : les clics et les autres événements de suivi restent disponibles pour la segmentation du streaming.
+>* Cette modification s’applique uniquement à la segmentation du streaming. Les événements d’envoi et d’ouverture peuvent toujours être utilisés dans les segments par lots, mais s’ils sont inclus dans un segment de streaming, ils seront évalués par lots. En outre, les événements d’exclusion et les événements de rebond/retard résultant d’événements d’envoi sont également concernés par cette modification.
+>* La collecte des données de tracking n’est pas concernée. Les événements d’envoi et d’ouverture continueront à être collectés comme d’habitude.
+>* Les événements de réaction dans les parcours ne sont pas concernés par cette modification.
 
 +++
 
