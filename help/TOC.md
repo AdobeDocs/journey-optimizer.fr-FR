@@ -5,10 +5,10 @@ user-guide-title: Guide de Journey Optimizer
 user-guide-description: Utilisez Journey Optimizer pour créer et proposer aux clients des expériences connectées, contextuelles et personnalisées
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: ff31c69255e6d4e0762a57430f112c92f34191c3
+source-git-commit: 78c1464ccddec75e4827cbb1877d8fab5ac08b90
 workflow-type: tm+mt
-source-wordcount: '2280'
-ht-degree: 96%
+source-wordcount: '2266'
+ht-degree: 95%
 
 ---
 
@@ -359,15 +359,11 @@ ht-degree: 96%
          + [Comprendre les calculs statistiques dans le rapport d’expérience](using/content-management/experiment-report-calculations.md)
    + Personnalisation {#personalization}
       + [Commencer avec la personnalisation](using/personalization/personalize.md)
-      + [Contextes de personnalisation](using/personalization/personalization-contexts.md)
+      + [Ajouter de la personnalisation](using/personalization/personalization-build-expressions.md)
       + [Syntaxe de personnalisation](using/personalization/personalization-syntax.md)
-      + [Utiliser les données Adobe Experience Platform pour la personnalisation (version bêta)](using/personalization/lookup-aep-data.md)
-      + Utiliser l’éditeur de personnalisation {#expression-editor}
-         + [À propos de l’éditeur de personnalisation](using/personalization/personalization-build-expressions.md)
-         + [Ajouter des attributs aux favoris](using/personalization/personalization-favorites.md)
-         + [Utiliser des fragments d’expression](using/personalization/use-expression-fragments.md)
-         + [Validation de la personnalisation](using/personalization/personalization-validation.md)
-      + Fonctions helper{#functions}
+      + [Réutiliser des fragments d’expression](using/personalization/use-expression-fragments.md)
+      + [Utilisation des données Adobe Experience Platform pour la personnalisation (Beta)](using/personalization/lookup-aep-data.md)
+      + Liste des fonctions d&#39;assistance {#functions}
          + [Prise en main des fonctions d’assistance](using/personalization/functions/functions.md)
          + [Fonctions d’agrégation](using/personalization/functions/aggregation.md)
          + [Fonctions arithmétiques](using/personalization/functions/arithmetic-functions.md)
