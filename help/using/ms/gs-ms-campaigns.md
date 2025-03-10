@@ -5,13 +5,13 @@ title: Prise en main des campagnes à plusieurs étapes
 description: Découvrez comment commencer avec des campagnes à plusieurs étapes.
 hide: true
 hidefromtoc: true
-source-git-commit: f8c7d2a21f87f558e3bf8ee3da7a46abda97326b
+exl-id: 611dd06d-aa18-4fa3-a477-8a910cec21d8
+source-git-commit: 040635e03fe4fa0542eeddbc0a2b87c6c838d339
 workflow-type: tm+mt
 source-wordcount: '419'
 ht-degree: 26%
 
 ---
-
 
 # Prise en main des campagnes à plusieurs étapes {#ms-camp}
 
