@@ -9,10 +9,10 @@ role: User
 level: Beginner, Intermediate
 keywords: liens, tracking, surveillance, e-mail
 exl-id: 689e630a-00ca-4893-8bf5-6d1ec60c52e7
-source-git-commit: 85bc9308402eaf2f13df0ca8d340b96769fc777e
+source-git-commit: b77cac6ba9984139f7fd5cb761759cafb26ccc48
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1198'
+ht-degree: 69%
 
 ---
 
@@ -120,7 +120,7 @@ Pour définir la cible d&#39;un lien, procédez comme suit :
 
 1. Dans un composant **[!UICONTROL Texte]** contenant un lien, sélectionnez ce dernier.
 
-1. Dans l’onglet **[!UICONTROL Paramètres]**, sélectionnez l’emplacement où s’ouvre le lien dans le menu déroulant **[!UICONTROL Cible]** :
+1. Dans l’onglet **[!UICONTROL Paramètres]**, sélectionnez l’emplacement où s’ouvre le lien dans le menu déroulant **[!UICONTROL Cible]**. Les valeurs possibles sont répertoriées ci-dessous :
 
    * **[!UICONTROL Aucune]** : ouvre le lien dans le même cadre que celui sur lequel l’utilisateur a cliqué (par défaut).
    * **[!UICONTROL Vierge]** : ouvre le lien dans une nouvelle fenêtre ou un nouvel onglet.
