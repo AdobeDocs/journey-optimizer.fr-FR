@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Experienced
 exl-id: 25c2c448-9380-47b0-97c5-16d9afb794c5
-source-git-commit: b7cd42f89ea6fb4c0359b2be6c75202d5e1ea001
+source-git-commit: 7658448ad902e2d2d2ef73ee7f71ea2cdda8d497
 workflow-type: tm+mt
-source-wordcount: '617'
-ht-degree: 99%
+source-wordcount: '623'
+ht-degree: 98%
 
 ---
 
@@ -89,7 +89,7 @@ Pour plus d’informations sur la configuration d’une campagne, consultez cett
 >id="ajo_code_based_experience"
 >title="Utiliser l’éditeur de personnalisation"
 >abstract="Insérez et modifiez le code que vous souhaitez diffuser dans le cadre de cette action d’expérience basée sur le code."
-
+>additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/personalization/personalization-build-expressions" text="Utiliser l’éditeur de personnalisation"
 
 1. Dans l’écran de modification de la campagne ou d’activité du parcours, sélectionnez **[!UICONTROL Modifier le code]**.
 
