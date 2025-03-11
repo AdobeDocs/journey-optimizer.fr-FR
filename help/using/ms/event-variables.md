@@ -1,18 +1,19 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Variables d’événement de campagne à plusieurs étapes
+title: Utilisation de variables d’événement dans des campagnes à plusieurs étapes
 description: Découvrez comment exploiter les variables d’événement dans vos campagnes à plusieurs étapes
 hide: true
 hidefromtoc: true
-source-git-commit: dfa6c6e11db10f3e843035d32e322b212361548c
+exl-id: f86dd262-0209-42f6-a180-736f1de98d78
+source-git-commit: 271c4739a5537a99da981913606bc9eb099b5139
 workflow-type: tm+mt
-source-wordcount: '300'
+source-wordcount: '303'
 ht-degree: 64%
 
 ---
 
-# Variables d’événement de campagne à plusieurs étapes {#event-variables}
+# Utilisation des variables d’événement {#event-variables}
 
 Certaines activités de campagne à plusieurs étapes vous permettent de modifier des scripts dans l’éditeur d’expression afin d’effectuer des actions spécifiques, telles que la récupération de données provenant d’activités précédentes, la création de conditions ou le calcul de noms de fichier en fonction de variables d’événement.
 

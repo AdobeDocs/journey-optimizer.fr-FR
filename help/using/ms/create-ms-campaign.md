@@ -1,25 +1,35 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Création d’une campagne à plusieurs étapes avec Journey Optimizer
+title: Création de campagnes à plusieurs étapes avec Journey Optimizer
 description: Découvrez comment créer une campagne à plusieurs étapes avec Adobe Journey Optimizer
 hide: true
 hidefromtoc: true
-source-git-commit: 00f843300a9cfe798ea4d3a92fbe89ba80e70bc5
+exl-id: 13da680d-fef8-4749-9190-8ca3d77b060a
+source-git-commit: 271c4739a5537a99da981913606bc9eb099b5139
 workflow-type: tm+mt
-source-wordcount: '689'
-ht-degree: 12%
+source-wordcount: '706'
+ht-degree: 13%
 
 ---
 
-
-# Création de la campagne à plusieurs étapes {#create-first-campaign}
+# Création d’une campagne orchestrée {#create-first-campaign}
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_creation_workflow"
 >title="Liste des campagnes à plusieurs étapes"
 >abstract="L’onglet **à plusieurs étapes** répertorie toutes les campagnes à plusieurs étapes. Cliquez sur le nom d’une campagne à plusieurs étapes pour la modifier. Utilisez le bouton **Créer une campagne à plusieurs étapes** pour ajouter une nouvelle campagne à plusieurs étapes."
 
+## Conditions préalables
+
+### Autorisations
+
+### Paramètres
+
+Présentation des nouveaux paramètres d’administration > schémas, champs d’exécution, politique de fusion. [En savoir plus](ms-schemas.md)
+
+
+## Étapes de création
 
 Pour créer une campagne à plusieurs étapes, procédez comme suit :
 

@@ -5,9 +5,9 @@ user-guide-title: Guide de Journey Optimizer
 user-guide-description: Utilisez Journey Optimizer pour créer et proposer aux clients des expériences connectées, contextuelles et personnalisées
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 78c1464ccddec75e4827cbb1877d8fab5ac08b90
+source-git-commit: 271c4739a5537a99da981913606bc9eb099b5139
 workflow-type: tm+mt
-source-wordcount: '2266'
+source-wordcount: '2270'
 ht-degree: 95%
 
 ---
@@ -172,14 +172,17 @@ ht-degree: 95%
          + [Utiliser des actions personnalisées pour écrire des événements de parcours dans Experience Platform](using/building-journeys/custom-action-aep.md)
 + Campagnes à plusieurs étapes {#ms-campaigns}
    + [Prise en main des campagnes à plusieurs étapes](using/ms/gs-ms-campaigns.md)
+   + [Principes clés](using/ms/gs-campaign-creation.md)
+   + [Mécanismes de sécurisation et limitations](using/ms/guardrails.md)
+   + Configuration {#ms-config}
+      + [Schémas](using/ms/ms-schemas.md)
+      + [Utilisation des variables d’événement](using/ms/event-variables.md)
    + Création de votre première {#create-ms-campaign} de campagne à plusieurs étapes
-      + [Principes clés](using/ms/gs-campaign-creation.md)
-      + [Mécanismes de sécurisation et limitations](using/ms/guardrails.md)
-      + [Créer la campagne](using/ms/create-ms-campaign.md)
+      + [Création d’une campagne orchestrée](using/ms/create-ms-campaign.md)
       + [Orchestrer les activités](using/ms/orchestrate-activities.md)
       + [Configurer les paramètres de campagne](using/ms/ms-campaign-settings.md)
       + [Démarrer et surveiller vos campagnes](using/ms/start-monitor-campaigns.md)
-      + [Variables d’événement dans les campagnes à plusieurs étapes](using/ms/event-variables.md)
+      + [Gérer la personnalisation](using/ms/ms-personalization.md)
    + {#design-campaigns} des activités de campagne à plusieurs étapes
       + [À propos des activités de campagne à plusieurs étapes](using/ms/activities/about-activities.md)
       + [Rendez-vous](using/ms/activities/and-join.md)

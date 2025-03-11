@@ -5,10 +5,11 @@ title: Création de campagnes à plusieurs étapes avec Journey Optimizer
 description: Découvrez comment créer des campagnes à plusieurs étapes avec Journey Optimizer
 hide: true
 hidefromtoc: true
-source-git-commit: 00f843300a9cfe798ea4d3a92fbe89ba80e70bc5
+exl-id: 8c80010f-e432-48ea-87cf-af635932d26b
+source-git-commit: 271c4739a5537a99da981913606bc9eb099b5139
 workflow-type: tm+mt
-source-wordcount: '327'
-ht-degree: 14%
+source-wordcount: '265'
+ht-degree: 15%
 
 ---
 
@@ -33,16 +34,6 @@ Pour dupliquer ou supprimer une campagne à plusieurs étapes, cliquez sur le bo
 >[!NOTE]
 >
 >Vous pouvez dupliquer une campagne à plusieurs étapes en cours, mais vous ne pouvez pas la supprimer.
-
-## Statuts des workflows {#status}
-
-Les workflows peuvent adopter plusieurs statuts :
-
-* **[!UICONTROL Brouillon]** : la campagne à plusieurs étapes a été créée et enregistrée.
-* **[!UICONTROL En cours]** : la campagne à plusieurs étapes est en cours d’exécution.
-* **[!UICONTROL Terminé]** : l’exécution de la campagne en plusieurs étapes est terminée.
-* **[!UICONTROL En pause]** : la campagne à plusieurs étapes a été suspendue.
-* **[!UICONTROL Avec erreur]** : une erreur s’est produite lors de la campagne à plusieurs étapes. Ouvrez la campagne à plusieurs étapes et accédez aux journaux et aux tâches pour identifier l’erreur et la résoudre.
 
 
 ## Modèles de campagne à plusieurs étapes {#templates}

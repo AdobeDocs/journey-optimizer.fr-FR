@@ -5,21 +5,25 @@ title: Principes clés de la création de campagnes en plusieurs étapes
 description: Découvrez les principes fondamentaux des campagnes à plusieurs étapes avec Adobe Journey Optimizer
 hide: true
 hidefromtoc: true
-source-git-commit: 00f843300a9cfe798ea4d3a92fbe89ba80e70bc5
+exl-id: b04aa15a-71bf-4683-bcbf-f611c189ffe1
+source-git-commit: 271c4739a5537a99da981913606bc9eb099b5139
 workflow-type: tm+mt
-source-wordcount: '199'
-ht-degree: 36%
+source-wordcount: '266'
+ht-degree: 28%
 
 ---
 
-
-# Principes clés de la création de campagnes en plusieurs étapes {#ms-campaign-creation}
+# Principes clés d’une campagne orchestrée {#ms-campaign-creation}
 
 Avec Adobe Journey Optimizer, vous pouvez créer des campagnes à plusieurs étapes dans une zone de travail visuelle afin de concevoir des processus cross-canal tels que la segmentation, l’exécution de campagnes ou le traitement de fichiers.
 
+## Création d’une requête
+
+## Instructions relatives à Personalization
+
 ## Que contient une campagne à plusieurs étapes ? {#gs-ms-campaign-inside}
 
-Le diagramme de campagne à plusieurs étapes est une représentation de ce qui est censé se produire. Il décrit les différentes tâches à effectuer et la manière dont elles sont liées.
+La zone de travail de campagne à plusieurs étapes est une représentation de ce qui est censé se produire. Il décrit les différentes tâches à effectuer et la manière dont elles sont liées.
 
 ![](assets/workflow-example.png){zoomable="yes"} {zoomable="yes"}
 
@@ -38,4 +42,14 @@ Chaque campagne à plusieurs étapes contient les éléments suivants :
 Les étapes clés de création d’une campagne à plusieurs étapes sont les suivantes :
 
 ![](assets/workflow-creation-process.png){zoomable="yes"}
+
+## Statuts et cycle de vie
+
+Les campagnes peuvent avoir plusieurs statuts :
+
+* **[!UICONTROL Brouillon]** : la campagne à plusieurs étapes a été créée et enregistrée.
+* **[!UICONTROL En cours]** : la campagne à plusieurs étapes est en cours d’exécution.
+* **[!UICONTROL Terminé]** : l’exécution de la campagne en plusieurs étapes est terminée.
+* **[!UICONTROL En pause]** : la campagne à plusieurs étapes a été suspendue.
+* **[!UICONTROL Avec erreur]** : une erreur s’est produite lors de la campagne à plusieurs étapes. Ouvrez la campagne à plusieurs étapes et accédez aux journaux et aux tâches pour identifier l’erreur et la résoudre.
 

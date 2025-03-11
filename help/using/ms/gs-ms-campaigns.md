@@ -6,30 +6,28 @@ description: Découvrez comment commencer avec des campagnes à plusieurs étape
 hide: true
 hidefromtoc: true
 exl-id: 611dd06d-aa18-4fa3-a477-8a910cec21d8
-source-git-commit: 040635e03fe4fa0542eeddbc0a2b87c6c838d339
+source-git-commit: 271c4739a5537a99da981913606bc9eb099b5139
 workflow-type: tm+mt
-source-wordcount: '419'
-ht-degree: 26%
+source-wordcount: '404'
+ht-degree: 18%
 
 ---
 
 # Prise en main des campagnes à plusieurs étapes {#ms-camp}
 
-Les campagnes à plusieurs étapes améliorent Adobe Journey Optimizer en introduisant de puissantes fonctionnalités de campagnes par lots initiées par la marque. Vous pouvez ainsi planifier et orchestrer des campagnes cross-canal à l’aide de stratégies de segmentation avancées.
-
 >[!BEGINSHADEBOX]
 
 **Table des matières**
 
+* Prise en main des campagnes à plusieurs étapes
 * [Principes clés](gs-campaign-creation.md) - [Mécanismes de sécurisation et limitations](guardrails.md)
-* [Créer une campagne](create-ms-campaign.md) - [Configurer les paramètres de campagne](ms-campaign-settings.md)
-* [Démarrer et surveiller vos campagnes](start-monitor-campaigns.md)
-* [Les variables d&#39;événements](event-variables.md)
-* [Prise en main des activités](activities/about-activities.md) - [Orchestrer les activités](orchestrate-activities.md)
+* Configuration : [Utilisation de schémas](ms-schemas.md) - [Utilisation de variables d’événement](event-variables.md)
+* Prise en main : [Créer une campagne orchestrée](create-ms-campaign.md) - [Configurer les paramètres de la campagne](ms-campaign-settings.md) - [Démarrer et surveiller vos campagnes](start-monitor-campaigns.md) - [Commencer avec les activités](activities/about-activities.md) - [Orchestrer les activités](orchestrate-activities.md) - [Personalization](ms-personalization.md)
 * Liste des activités : [Rendez-vous](activities/and-join.md) - [Créer une audience](activities/build-audience.md) - [Modifier la dimension](activities/change-dimension.md) - [Combiner](activities/combine.md) - [Déduplication](activities/deduplication.md) - [Channel actions](activities/channels.md) - [Enrichissement](activities/enrichment.md) - [Fork](activities/fork.md) - [Charger le fichier](activities/load-file.md) - [Enregistrer l’audience](activities/reconciliation.md) - [Scheduler](activities/save-audience.md) - [Split](activities/scheduler.md) - [Test](activities/split.md) - [Mettre à jour les données](activities/test.md) - [Attente](activities/update-data.md) [ ](activities/wait.md)
 
 >[!ENDSHADEBOX]
 
+Les campagnes à plusieurs étapes améliorent Adobe Journey Optimizer en introduisant de puissantes fonctionnalités de campagnes par lots initiées par la marque. Vous pouvez ainsi planifier et orchestrer des campagnes cross-canal à l’aide de stratégies de segmentation avancées.
 
 ## Qu’est-ce qu’une campagne à plusieurs étapes ?
 
@@ -41,12 +39,10 @@ Les campagnes à plusieurs étapes sont incroyablement polyvalentes et peuvent �
 
 Grâce à un environnement graphique complet, vous pouvez concevoir des processus tels que la segmentation, l’exécution de campagnes ou le traitement de fichiers. Les campagnes à plusieurs étapes peuvent également impliquer les utilisateurs et utilisatrices en leur affectant des tâches ou en leur demandant d’approuver les tâches effectuées, ce qui facilite la gestion du travail de votre équipe et garantit son bon déroulement.
 
-Voici quelques exemples d’utilisation de campagnes à plusieurs étapes dans Adobe Journey Optimizer :
 
-* Lancez une campagne de suivi pour la clientèle inactive,
-* envoyez un e-mail de bienvenue à toutes les nouvelles personnes abonnées à un service,
-* personnalisez des diffusions cross-canal en fonction du statut du programme de fidélité de la clientèle ou de points ciblés.
+## orchestration des parcours et orchestration des campagnes
 
+Parcours ou campagnes - Expliquez les différences, les cas d’utilisation et les bonnes pratiques
 
 ## Explorons plus en détail
 
