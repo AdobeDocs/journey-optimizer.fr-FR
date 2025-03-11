@@ -9,7 +9,7 @@ role: User
 level: Beginner
 keywords: commencer, démarrer, contenu, expérience
 exl-id: 6244d717-fbd6-468e-9164-60451d0d62f0
-source-git-commit: d63b12c9c7d3b16309661ffbe20baf8a9c140945
+source-git-commit: a009743e176f81cc0ad843c1c056983d66c5cc48
 workflow-type: tm+mt
 source-wordcount: '949'
 ht-degree: 100%
@@ -30,9 +30,9 @@ Pour créer du contenu multilingue à l’aide de la traduction manuelle, procé
 
 1. [Ajouter des paramètres régionaux (facultatif)](multilingual-locale.md)
 
-1. [Créer des paramètres de langue](#create-language-settings)
+1. [Créer des paramètres de langue](#language-settings)
 
-1. [Créer un contenu multilingue](#create-a-multilingual-campaign)
+1. [Créer un contenu multilingue](#create-multilingual-campaign)
 
 ## Créer des paramètres de langue {#language-settings}
 
@@ -48,7 +48,7 @@ Dans cette section, vous pouvez définir vos différents paramètres régionaux 
 
 1. Sélectionnez les **[!UICONTROL Paramètres régionaux]** associés à ces paramètres. Vous pouvez ajouter 50 paramètres régionaux au maximum.
 
-   Si un **[!UICONTROL paramètre régional]** est manquant, vous pouvez le créer manuellement au préalable à partir du menu **[!UICONTROL Traduction]** ou par API. Voir [Créer un paramètre régional](#create-locale).
+   Si un **[!UICONTROL paramètre régional]** est manquant, vous pouvez le créer manuellement au préalable à partir du menu **[!UICONTROL Traduction]** ou par API. Voir [Créer un paramètre régional](multilingual-locale.md).
 
    ![](assets/multilingual-settings-2.png)
 
@@ -85,9 +85,9 @@ Dans cette section, vous pouvez définir vos différents paramètres régionaux 
    >
    >Ces conditions préalables sont requises uniquement pour les canaux Cartes de contenu et In-app.
 
-   1. Dans la collecte de données Adobe Experience Platform, accédez au menu **[!UICONTROL Règles]** et créez une règle. Des informations détaillées sur la création de règles sont disponibles dans la [Documentation [!DNL Adobe Experience Platform] sur la collecte de données](https://experienceleague.adobe.com/fr/docs/experience-platform/collection/e2e#create-a-rule){target="_blank"}.
+   1. Dans la collecte de données Adobe Experience Platform, accédez au menu **[!UICONTROL Règles]** et créez une règle. Des informations détaillées sur la création de règles sont disponibles dans la [Documentation sur la collecte de données](https://experienceleague.adobe.com/fr/docs/experience-platform/collection/e2e#create-a-rule){target="_blank"} [!DNL Adobe Experience Platform].
 
-   2. Dans la section **[!UICONTROL IF]** de la règle, ajoutez un événement configuré comme ci-dessous :
+   2. Dans la section **[!UICONTROL SI]** de la règle, ajoutez un événement configuré comme ci-dessous :
 
       ![](assets/multilingual-experience-events-rule-if.png)
 
@@ -96,7 +96,7 @@ Dans cette section, vous pouvez définir vos différents paramètres régionaux 
       * Dans le volet de droite, sélectionnez « Le type d’événement XDM est égal à personalization.request ».
       * Cliquez sur le bouton **[!UICONTROL Conserver les modifications]** pour confirmer.
 
-   3. Dans la section **[!UICONTROL THEN]** de la règle, ajoutez une action configurée comme ci-dessous :
+   3. Dans la section **[!UICONTROL ALORS]** de la règle, ajoutez une action configurée comme ci-dessous :
 
       ![](assets/multilingual-experience-events-rule-then.png)
 
@@ -155,7 +155,7 @@ Après avoir configuré votre contenu multilingue, vous pouvez concevoir votre c
 
    ![](assets/multilingual-campaign-2.png)
 
-1. Cliquez sur **[!UICONTROL Ajouter des langues]** et sélectionnez les **[!UICONTROL paramètres de langue]** créés précédemment. [En savoir plus](#create-language-settings)
+1. Cliquez sur **[!UICONTROL Ajouter des langues]** et sélectionnez les **[!UICONTROL paramètres de langue]** créés précédemment. [En savoir plus](#language-settings)
 
    ![](assets/multilingual-campaign-3.png)
 
