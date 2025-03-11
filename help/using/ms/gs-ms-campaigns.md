@@ -6,10 +6,10 @@ description: Découvrez comment commencer avec des campagnes à plusieurs étape
 hide: true
 hidefromtoc: true
 exl-id: 611dd06d-aa18-4fa3-a477-8a910cec21d8
-source-git-commit: 326a0a47c859f475d9036c6142b057a5b59b0ae9
+source-git-commit: 3ecb1691cc8a1c429d9bd9919b06ddc5a316eff7
 workflow-type: tm+mt
 source-wordcount: '402'
-ht-degree: 19%
+ht-degree: 18%
 
 ---
 
@@ -19,8 +19,7 @@ ht-degree: 19%
 
 **Table des matières**
 
-* Prise en main des campagnes à plusieurs étapes
-* [Principes clés](gs-campaign-creation.md)
+* Prise en main des campagnes à plusieurs étapes - [Principes clés](gs-campaign-creation.md)
 * Configuration : [Utilisation de schémas](ms-schemas.md) - [Utilisation de variables d’événement](event-variables.md)
 * Prise en main : [Créer une campagne orchestrée](create-ms-campaign.md) - [Configurer les paramètres de la campagne](ms-campaign-settings.md) - [Démarrer et surveiller vos campagnes](start-monitor-campaigns.md) - [Commencer avec les activités](activities/about-activities.md) - [Orchestrer les activités](orchestrate-activities.md) - [Personalization](ms-personalization.md)
 * Liste des activités : [Rendez-vous](activities/and-join.md) - [Créer une audience](activities/build-audience.md) - [Modifier la dimension](activities/change-dimension.md) - [Combiner](activities/combine.md) - [Déduplication](activities/deduplication.md) - [Channel actions](activities/channels.md) - [Enrichissement](activities/enrichment.md) - [Fork](activities/fork.md) - [Charger le fichier](activities/load-file.md) - [Enregistrer l’audience](activities/reconciliation.md) - [Scheduler](activities/save-audience.md) - [Split](activities/scheduler.md) - [Test](activities/split.md) - [Mettre à jour les données](activities/test.md) - [Attente](activities/update-data.md) [ ](activities/wait.md)
