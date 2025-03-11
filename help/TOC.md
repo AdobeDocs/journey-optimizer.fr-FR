@@ -5,7 +5,7 @@ user-guide-title: Guide de Journey Optimizer
 user-guide-description: Utilisez Journey Optimizer pour créer et proposer aux clients des expériences connectées, contextuelles et personnalisées
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 326a0a47c859f475d9036c6142b057a5b59b0ae9
+source-git-commit: 62d8da17a806713b1e77d8e7e494106dbb825c8b
 workflow-type: tm+mt
 source-wordcount: '2267'
 ht-degree: 95%
@@ -419,7 +419,7 @@ ht-degree: 95%
    + [Utiliser Experience Manager Assets](using/integrations/assets.md)
    + [Utiliser Adobe Stock](using/integrations/stock.md)
    + [Utiliser les modèles Experience Manager](using/integrations/aem-templates.md)
-   + [Utiliser les fragments de contenu Experience Manager](using/integrations/aem-fragments.md)
+   + [Utiliser des fragments de contenu Experience Manager](using/integrations/aem-fragments.md)
    + [Utiliser Dynamic Media](using/integrations/aem-dynamic.md)
 + Suivre et surveiller {#reporting}
    + Rapport dynamique {#live-report}
