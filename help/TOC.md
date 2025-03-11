@@ -5,9 +5,9 @@ user-guide-title: Guide de Journey Optimizer
 user-guide-description: Utilisez Journey Optimizer pour créer et proposer aux clients des expériences connectées, contextuelles et personnalisées
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 271c4739a5537a99da981913606bc9eb099b5139
+source-git-commit: 326a0a47c859f475d9036c6142b057a5b59b0ae9
 workflow-type: tm+mt
-source-wordcount: '2270'
+source-wordcount: '2267'
 ht-degree: 95%
 
 ---
@@ -173,7 +173,6 @@ ht-degree: 95%
 + Campagnes à plusieurs étapes {#ms-campaigns}
    + [Prise en main des campagnes à plusieurs étapes](using/ms/gs-ms-campaigns.md)
    + [Principes clés](using/ms/gs-campaign-creation.md)
-   + [Mécanismes de sécurisation et limitations](using/ms/guardrails.md)
    + Configuration {#ms-config}
       + [Schémas](using/ms/ms-schemas.md)
       + [Utilisation des variables d’événement](using/ms/event-variables.md)
