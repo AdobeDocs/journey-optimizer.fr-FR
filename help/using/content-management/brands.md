@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: b1b7abbe-8600-4a8d-b0b5-0dbd49abc275
-source-git-commit: 12dc96bb08f03865c82382baac276f46bc42baeb
+source-git-commit: d80f9309cfff4307b1b37ce44b037730a374d4a2
 workflow-type: tm+mt
-source-wordcount: '618'
-ht-degree: 60%
+source-wordcount: '640'
+ht-degree: 58%
 
 ---
 
@@ -37,6 +37,30 @@ ht-degree: 60%
 >title="Score d’alignement de la marque"
 >abstract="Le score d’alignement de votre marque mesure dans quelle mesure votre contenu respecte les directives de votre marque, en assurant la cohérence des couleurs, des polices, du logo, des images et du style d’écriture."
 
+>[!CONTEXTUALHELP]
+>id="ajo_brand_colors"
+>title="Score des couleurs"
+>abstract="Score des couleurs"
+
+>[!CONTEXTUALHELP]
+>id="ajo_brand_fonts"
+>title="Score des polices"
+>abstract="Score des polices"
+
+>[!CONTEXTUALHELP]
+>id="ajo_brand_logos"
+>title="Score des logos"
+>abstract="Score des logos"
+
+>[!CONTEXTUALHELP]
+>id="ajo_brand_imagery"
+>title="Score de l’imagerie"
+>abstract="Score de l’imagerie"
+
+>[!CONTEXTUALHELP]
+>id="ajo_brand_writing_style"
+>title="Écriture du score de style"
+>abstract="Écriture du score de style"
 
 >[!AVAILABILITY]
 >
