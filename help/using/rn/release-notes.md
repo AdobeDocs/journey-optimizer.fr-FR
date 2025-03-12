@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Notes de mise à jour d’Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 13bf2bca3997ff85aca619c8b610aaa0be9142f8
+source-git-commit: a0e657842ba67b8e96996bcb95e2170da6fcbb97
 workflow-type: tm+mt
-source-wordcount: '871'
-ht-degree: 86%
+source-wordcount: '853'
+ht-degree: 82%
 
 ---
 
@@ -114,7 +114,7 @@ Les nouvelles fonctionnalités de cette version sont présentées ci-dessous.
 <tbody>
 <tr>
 <td>
-<p>Vous pouvez désormais valider une configuration d’action personnalisée en effectuant des appels API réels directement depuis Adobe Journey Optimizer. </p>
+<p>Vous pouvez désormais valider une configuration d’action personnalisée en effectuant des appels API réels directement depuis Adobe Journey Optimizer. Cette nouvelle fonctionnalité vous permet de résoudre les problèmes liés à vos actions personnalisées avant ou après leur utilisation dans un parcours. </p>
 <p>Pour plus d’informations, consultez la <a href="../action/troubleshoot-custom-action.md">documentation détaillée</a>.</p>
 <!--p> This capability is only available for a set of organizations (Limited Availability). To gain access, contact your Adobe representative.</p-->
 </td>
@@ -145,8 +145,6 @@ Les nouvelles fonctionnalités de cette version sont présentées ci-dessous.
 ### Améliorations {#25-02-improvements}
 
 Les améliorations ci-dessous proviennent de la mise à jour de février.
-
-* **Parcours** : vous pouvez désormais tester vos actions personnalisées en envoyant des appels API à partir de la section Administration. Cette nouvelle fonctionnalité vous permet de résoudre les problèmes liés à vos actions personnalisées avant ou après leur utilisation dans un parcours. [En savoir plus](../action/troubleshoot-custom-action.md)
 
 * **Durée de vie du jeu de données (TTL)** : à compter de ce mois-ci, un mécanisme de sécurisation sur la durée de vie (TTL) sera déployé sur les jeux de données générés par le système Journey Optimizer dans les nouveaux sandbox et les nouvelles organisations comme suit :
 
