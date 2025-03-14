@@ -5,16 +5,15 @@ topic: Content Management
 feature: Content Cards
 role: User
 level: Beginner
-hide: true
-hidefromtoc: true
-source-git-commit: 163a4cc533b5c24e762b2be95a1f2c7dea0eea96
+exl-id: 8e1a1e94-c3c1-4981-9380-76b7d8302c78
+source-git-commit: 0351f0ffafe73245582453ab35742951bb42af7c
 workflow-type: tm+mt
 source-wordcount: '159'
-ht-degree: 8%
+ht-degree: 3%
 
 ---
 
-# Configurer la prise en charge des cartes de contenu dans le SDK web {#content-card-lp}
+# Configuration de la prise en charge des cartes de contenu dans Mobile SDK {#content-card-lp}
 
 Les cartes de contenu peuvent être récupérées à partir de Adobe Journey Optimizer et rendues dans votre application mobile à l’aide des SDK mobiles Adobe Experience Platform qui alimentent l’engagement de bout en bout dans vos applications mobiles. Messaging SDK fournit des API simples et faciles à utiliser pour récupérer les cartes de contenu créées sur Adobe Journey Optimizer et crée des vues mobiles natives pour ces cartes qui peuvent être facilement utilisées par votre application ou personnalisées pour correspondre au thème de votre application. Il suit également automatiquement toutes les interactions des utilisateurs et utilisatrices de l’application avec les cartes de contenu affichées afin d’assurer un compte rendu des performances précis pour les campagnes sur Journey Optimizer.
 
@@ -48,4 +47,3 @@ Reportez-vous aux pages de documentation suivantes pour savoir comment intégrer
 <p>
 </td>
 </tr></table>
-
