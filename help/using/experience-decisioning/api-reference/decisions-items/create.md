@@ -6,7 +6,7 @@ topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: e60b0eec-29bc-4411-9eab-08eaf738fc79
-source-git-commit: 7bfbb88c2817d18b7897a7fe1657ebf11be6eb58
+source-git-commit: c5370b6bafbe20b9aa5f0e617a47ef32287aee9f
 workflow-type: tm+mt
 source-wordcount: '79'
 ht-degree: 100%
@@ -82,3 +82,4 @@ Une réponse réussie renvoie les détails du nouvel élément de décision cré
     "lastModifiedByClientId": "{MODIFIED_CLIENT_ID}"
 }
 ```
+
