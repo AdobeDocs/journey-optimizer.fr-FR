@@ -9,10 +9,10 @@ role: User
 level: Beginner
 keywords: destination, page de destination, création, publication
 exl-id: 18f9bdff-f5c6-4601-919d-4f3124e484b5
-source-git-commit: 2f8c59a3c07dfc772cb62efe5665189d7a176d6f
-workflow-type: ht
-source-wordcount: '1723'
-ht-degree: 100%
+source-git-commit: 5af58cd9efc465b30386fad5dc6cd073626c3aed
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -157,9 +157,9 @@ Pour définir les paramètres de la page principale, procédez comme suit.
 
    ![](assets/lp_expiry-date.png)
 
-1. Dans la section **[!UICONTROL Données additionnelles]**, définissez une ou plusieurs clés et leurs valeurs de paramètre correspondantes. Vous pouvez utiliser ces clés dans le contenu de votre page principale et de vos sous-pages à l’aide de l’[éditeur de personnalisation](../personalization/personalization-build-expressions.md). En savoir plus dans [cette section](lp-content.md#use-form-component#use-additional-data).
+<!--1. In the **[!UICONTROL Additional data]** section, define one or more keys and their corresponding parameter values. You will be able to leverage these keys in the content of your primary page and subpages using the [personalization editor](../personalization/personalization-build-expressions.md). Learn more in [this section](lp-content.md#use-form-component#use-additional-data).
 
-   ![](assets/lp_create-lp-additional-data.png)
+    ![](assets/lp_create-lp-additional-data.png)-->
 
 1. Si vous avez sélectionné une ou plusieurs listes dʼabonnements lors de la [conception de la page principale](design-lp.md), elles sont affichées dans la section **[!UICONTROL Liste dʼabonnements]**.
 
