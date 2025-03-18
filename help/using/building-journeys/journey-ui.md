@@ -12,7 +12,7 @@ exl-id: 770bdbf2-560d-4127-bdb9-1f82495a566f
 source-git-commit: 0a7c1ebf01a0aec9f84e86b14df14bbfcd24a7b4
 workflow-type: tm+mt
 source-wordcount: '1134'
-ht-degree: 96%
+ht-degree: 99%
 
 ---
 
@@ -71,7 +71,7 @@ Le type de parcours dépend des activités utilisées dans ce parcours. Il peut 
 
 * **[!UICONTROL Événements unitaires]** : les événements unitaires des parcours sont liés à un profil spécifique. Les événements sont liés au comportement d’une personne ou à un événement lié à une personne (par exemple, une personne a atteint 10 000 points de fidélité). [En savoir plus](../event/about-events.md).
 * **[!UICONTROL Événement métier]**. Le parcours d’événements métier commence par un événement non lié au profil. La configuration de l’événement est effectuée par un utilisateur ou une utilisatrice technique et ne peut pas être modifiée. [En savoir plus](../event/about-events.md).
-* **[!UICONTROL Qualification de l’audience]** - Les parcours de qualification de l’audience écoutent les entrées et les sorties des profils dans les audiences Adobe Experience Platform afin de faire en sorte que des individus rejoignent un parcours ou y progressent. [En savoir plus](audience-qualification-events.md).
+* **[!UICONTROL Qualification d’audience]** : les parcours de qualification d’audience écoutent les entrées et les sorties des profils dans les audiences Adobe Experience Platform pour que les personnes puissent rejoindre le parcours ou y progresser. [En savoir plus](audience-qualification-events.md).
 * **[!UICONTROL Lecture d’audience]** : dans les parcours Lecture d’audience, toutes les personnes de l’audience rejoignent le parcours et reçoivent les messages inclus dans votre parcours. [En savoir plus](read-audience.md).
 
 

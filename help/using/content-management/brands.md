@@ -11,7 +11,7 @@ exl-id: b1b7abbe-8600-4a8d-b0b5-0dbd49abc275
 source-git-commit: d80f9309cfff4307b1b37ce44b037730a374d4a2
 workflow-type: tm+mt
 source-wordcount: '640'
-ht-degree: 88%
+ht-degree: 96%
 
 ---
 
@@ -25,17 +25,17 @@ ht-degree: 88%
 >[!CONTEXTUALHELP]
 >id="ajo_brand_ai_menu"
 >title="Sélectionner votre marque"
->abstract="Choisissez votre marque pour vous assurer que le contenu généré par l’IA est adapté aux spécifications et aux directives de votre marque."
+>abstract="Choisissez votre marque pour vous assurer que tout le contenu généré par l’IA est adapté aux spécifications et aux directives de votre marque."
 
 >[!CONTEXTUALHELP]
 >id="ajo_brand_score_overview"
 >title="Sélection de la marque"
->abstract="Sélectionnez votre marque pour vous assurer que votre contenu est conçu conformément à ses directives et standards spécifiques et à son identité propre, en préservant la cohérence et l’intégrité de la marque."
+>abstract="Sélectionnez votre marque pour vous assurer que votre contenu est conçu conformément à ses directives, standards et identités spécifiques, en préservant la cohérence et l’intégrité de la marque."
 
 >[!CONTEXTUALHELP]
 >id="ajo_brand_score"
->title="Score d’alignement de la marque"
->abstract="Le score d’alignement de votre marque mesure la concordance de votre contenu avec vos directives de marque, en assurant la cohérence des couleurs, des polices, du logo, des images et du style d’écriture."
+>title="Score d’alignement sur la marque"
+>abstract="Le score d’alignement sur la marque mesure le niveau de concordance du contenu avec les directives de votre marque, ce qui assure la cohérence des couleurs, des polices, du logo, des images et du style de rédaction."
 
 >[!CONTEXTUALHELP]
 >id="ajo_brand_colors"
@@ -68,7 +68,7 @@ ht-degree: 88%
 
 Les consignes de marque sont un ensemble détaillé de règles et de normes qui établissent l’identité visuelle et verbale d’une marque. Elles servent de référence pour maintenir une représentation cohérente de la marque sur toutes les plateformes de marketing et de communication.
 
-Dans [!DNL Journey Optimizer], vous avez désormais la possibilité de saisir et d’organiser manuellement les détails de votre marque ou de télécharger des documents de directives sur la marque pour l’extraction automatique des informations.
+Dans [!DNL Journey Optimizer], vous avez désormais la possibilité de saisir et d’organiser manuellement les détails de votre marque ou de charger des documents de directives pour une extraction automatique des informations.
 
 ## Accéder aux marques {#generative-access}
 
@@ -103,23 +103,23 @@ Pour accéder au menu **[!UICONTROL Marques]** dans [!DNL Adobe Journey Optimize
 >[!CONTEXTUALHELP]
 >id="ajo_brands_create"
 >title="Créer votre marque"
->abstract="Saisissez votre nom de marque et chargez votre fichier de directives de marque. L’outil extrait automatiquement les détails clés, ce qui facilite la gestion de votre identité de marque."
+>abstract="Saisissez votre nom de marque et chargez votre fichier de directives de marque. L’outil extrait automatiquement les détails clés, ce qui facilite la gestion de l’identité de votre marque."
 
-Pour créer et gérer vos directives de marque, vous pouvez saisir vous-même les détails ou charger votre document de directives de marque pour que les informations soient extraites automatiquement :
+Pour créer et gérer vos directives de marque, vous pouvez saisir vous-même les détails ou charger votre document de directives de marque pour que les informations soient extraites automatiquement :
 
 1. Dans le menu **[!UICONTROL Marques]**, cliquez sur **[!UICONTROL Créer une marque]**.
 
    ![](assets/brands-1.png)
 
-1. Saisissez le **[!UICONTROL nom]** de votre marque.
+1. Saisissez le **[!UICONTROL Nom]** de votre marque.
 
-1. Effectuez un glisser-déposer ou sélectionnez votre fichier pour charger vos directives de marque et extraire automatiquement les informations pertinentes. Cliquez sur **[!UICONTROL Créer une marque]**.
+1. Effectuez un glisser-déposer ou sélectionnez votre fichier pour charger vos directives de marque et extraire automatiquement les informations pertinentes sur la marque. Cliquez sur **[!UICONTROL Créer une marque]**.
 
-   Le processus d’extraction des informations commence alors. Notez que cette opération peut prendre plusieurs minutes.
+   Le processus d’extraction des informations commence maintenant. Notez que l’opération peut prendre plusieurs minutes.
 
    ![](assets/brands-2.png)
 
-1. Vos normes de création visuelle et de contenu sont désormais automatiquement renseignées. Parcourez les différents onglets pour adapter les informations selon vos besoins.
+1. Vos standards de création visuelle et de contenu sont désormais automatiquement renseignés. Parcourez les différents onglets pour adapter les informations selon vos besoins.
 
 1. Dans l’onglet **[!UICONTROL Style d’écriture]**, cliquez sur ![](assets/do-not-localize/Smock_Add_18_N.svg) pour ajouter une consigne ou une exclusion, ainsi que des exemples.
 
