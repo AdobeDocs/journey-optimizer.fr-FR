@@ -8,9 +8,9 @@ role: User
 level: Beginner
 exl-id: be3936e4-8185-4031-9daf-95eea58077d0
 source-git-commit: f6c77a93c4adea33df8434ff8f950b8d39c92845
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '434'
-ht-degree: 72%
+ht-degree: 100%
 
 ---
 
@@ -22,21 +22,21 @@ Tirez profit du profil client en temps réel dans [!DNL Adobe Journey Optimizer]
 
 ➡️ [Découvrez cette fonctionnalité en vidéo](#video)
 
-**Real-time Customer Profile &#x200B;** - Intégrez des attributs et des événements client provenant de sources en ligne, hors ligne et pseudonymes dans un profil unique et unifié. &#x200B;Utilisez le profil pour impliquer les clientes et clients avec des expériences personnalisées en temps réel sur plusieurs points de contact.
+**Profil client en temps réel** : intégrez des attributs et des événements clients provenant de sources en ligne, hors ligne et sous pseudonymes dans un profil unique et unifié.Utilisez le profil pour impliquer les clientes et clients avec des expériences personnalisées en temps réel sur plusieurs points de contact.
 
-**Ingestion de données** - Connectez-vous à diverses sources de données pour ingérer des données comportementales, transactionnelles, financières et opérationnelles. Ingérez des données en temps réel ou par le biais de chargements par lots pour maintenir les profils à jour en permanence.
+**Ingestion de données** : connectez-vous à diverses sources de données pour ingérer des données comportementales, transactionnelles, financières et opérationnelles. Ingérez des données en temps réel ou par le biais de chargements par lots pour maintenir les profils à jour en permanence.
 
-**Graphique d’identités** - Combinez des données provenant de différentes sources à l’aide des identités du client, telles que les identifiants de fidélité ou les identifiants système CRM. &#x200B;Créez une vue d’ensemble exhaustive du client ou de la cliente en mappant les relations entre les différentes identités dans les jeux de données d’une marque.
+**Graphique d’identité** : combinez des données provenant de différentes sources à l’aide d’identités de clientes et clients, telles que des identifiants de fidélité ou des identifiants de système CRM.Créez une vue d’ensemble exhaustive du client ou de la cliente en mappant les relations entre les différentes identités dans les jeux de données d’une marque.
 
-**Engagement client** - Utilisez le profil client en temps réel pour offrir des expériences contextuelles personnalisées, telles que des offres et des messages ciblés. &#x200B;Interagissez avec les clients et les clientes sur différents canaux, notamment les campagnes marketing, le service clientèle et les mises à jour transactionnelles.
+**Engagement de la cliente ou du client** : utilisez le profil client en temps réel pour offrir des expériences contextuelles et personnalisées, telles que des offres et des messages ciblés.Interagissez avec les clients et les clientes sur différents canaux, notamment les campagnes marketing, le service clientèle et les mises à jour transactionnelles.
 
-**Partage de données** - Partagez des profils client avec les meilleurs fournisseurs de stockage dans le cloud tels que Amazon Web Services, Microsoft Azure et Google Cloud. Utilisez des profils partagés pour la création de rapports, l’archivage données ou une analyse plus approfondie avec des outils de Business Intelligence.
+**Partage de données** : partagez des profils clients avec les principaux fournisseurs d’espace de stockage dans le cloud tels qu’Amazon Web Services, Microsoft Azure et Google Cloud. Utilisez des profils partagés pour la création de rapports, l’archivage données ou une analyse plus approfondie avec des outils de Business Intelligence.
 
 >[!MORELIKETHIS]
 >
 >* [Documentation sur le profil client en temps réel](https://experienceleague.adobe.com/docs/experience-platform/query/home.html?lang=fr){target="_blank"}
->* [Mécanismes de sécurisation par défaut pour les données et la segmentation du profil client en temps réel](https://experienceleague.adobe.com/fr/docs/experience-platform/profile/guardrails){target="_blank"}
->* &#x200B;[documentation sur l’ingestion de données](https://experienceleague.adobe.com/en/docs/experience-platform/ingestion/home){target="_blank"}
+>* [Mécanismes de sécurisation par défaut pour les données de profil client en temps réel et la segmentation](https://experienceleague.adobe.com/fr/docs/experience-platform/profile/guardrails){target="_blank"}
+>* [Documentation sur l’ingestion de données](https://experienceleague.adobe.com/fr/docs/experience-platform/ingestion/home){target="_blank"}
 
 ## Tableau de bord des profils
 

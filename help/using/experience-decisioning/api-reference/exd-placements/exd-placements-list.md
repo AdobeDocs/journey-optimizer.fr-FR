@@ -1,20 +1,20 @@
 ---
 title: Liste des emplacements d’extension
-description: Les emplacements supplémentaires se composent de collections associées à des contraintes et à des méthodes de classement pour déterminer les offres.
+description: Les emplacements d’extension se composent de collections associées à des contraintes et à des méthodes de classement pour déterminer les offres.
 feature: Decision Management, API, Collections
 topic: Integrations
 role: Data Engineer
 level: Experienced
 source-git-commit: 8fa34ebb7c853f9af5b3f58574374a3acb641dd9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '182'
-ht-degree: 58%
+ht-degree: 100%
 
 ---
 
 # Liste des emplacements d’extension {#list-exd-placements}
 
-Vous pouvez afficher une liste de tous les emplacements étendus en exécutant une seule requête GET sur l’API de la bibliothèque des offres.
+Vous pouvez afficher une liste de tous les emplacements d’extension en effectuant une seule requête GET sur l’API Bibliothèque des offres.
 
 **Format d’API**
 
@@ -26,9 +26,9 @@ GET /{ENDPOINT_PATH}/exd-placements?{QUERY_PARAMS}
 | --------- | ----------- | ------- |
 | `{ENDPOINT_PATH}` | Chemin d’accès de point d’entrée pour les API Persistence | `https://platform.adobe.io/data/core/dps` |
 
-## Utilisation des paramètres de requête {#using-query-parameters}
+## Utiliser des paramètres de requête {#using-query-parameters}
 
-Vous pouvez utiliser des paramètres de requête pour paginer et filtrer les résultats lors de l’établissement de listes de ressources. Vous pouvez filtrer par statut, canal et channelConfiguration.
+Vous pouvez utiliser des paramètres de requête pour paginer et filtrer les résultats lors de l&#39;organisation en liste des ressources. Vous pouvez filtrer par statut, canal et channelConfiguration.
 
 ### Pagination {#paging}
 
@@ -54,7 +54,7 @@ curl --location --request GET 'https://platform-stage.adobe.io/data/core/dps/exd
 
 **Réponse**
 
-Une réponse réussie renvoie une liste d’emplacements supplémentaires auxquels vous avez accès.
+Une réponse renvoie une liste des emplacements d’extension auxquelles vous avez accès.
 
 ```json
 {

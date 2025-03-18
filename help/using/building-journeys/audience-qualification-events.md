@@ -2,7 +2,7 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Événements de qualification d’audience
-description: Découvrez comment utiliser et configurer des événements de qualification d’audience
+description: Découvrez comment utiliser et configurer des événements de qualification d’audience.
 feature: Journeys, Activities, Audiences
 topic: Content Management
 role: User
@@ -10,9 +10,9 @@ level: Intermediate
 keywords: qualification, événements, audience, parcours, platform
 exl-id: 7e70b8a9-7fac-4450-ad9c-597fe0496df9
 source-git-commit: d7ebba4144eeb5b29e9e6fa21afde06a7e520e07
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1212'
-ht-degree: 76%
+ht-degree: 100%
 
 ---
 
@@ -35,27 +35,27 @@ Il est possible de positionner ce type d’événement dès la première étape,
 
 ### Remarques importantes {#important-notes-segment-qualification}
 
-* Les parcours de qualification d’audience sont principalement conçus pour fonctionner avec les audiences en flux continu : cette combinaison garantit une meilleure expérience en temps réel. Nous vous recommandons vivement d’utiliser uniquement l’**audience de diffusion en continu** dans l’activité Qualification d’audience.
+* Les parcours de qualification d’audience sont principalement conçus pour fonctionner avec les audiences en streaming : cette combinaison garantit une meilleure expérience en temps réel. Nous vous recommandons vivement d’utiliser uniquement l’**audience en streaming** dans l’activité de qualification d’audience.
 
-  Cependant, si vous souhaitez utiliser des attributs basés sur l’ingestion par lots dans votre audience de diffusion en continu, ou une audience par lots pour un parcours de qualification d’audience, tenez compte de la période d’évaluation/activation de l’audience. Une audience par lots ou une audience de diffusion en continu utilisant des attributs ingérés par lots doit être prête à être utilisée dans l’activité **Qualification d’audience** environ **2 heures** après la fin de votre tâche de segmentation (cette tâche s’exécute une fois par jour à l’heure définie par l’administrateur de votre organisation Adobe).
+  Cependant, si vous souhaitez utiliser des attributs basés sur l’ingestion par lots dans votre audience en streaming, ou une audience par lots pour un parcours de qualification d’audience, tenez compte de la période d’évaluation/activation de l’audience. Une audience par lots ou en streaming qui utilise des attributs ingérés par lots doit être prête à être utilisée dans l’activité de **qualification d’audience** environ **2 heures** après la fin du traitement de la segmentation (ce traitement s’exécute une fois par jour à l’heure définie par l’équipe d’administration de votre organisation Adobe).
 
 * N’oubliez pas que les audiences Adobe Experience Platform sont calculées une fois par jour (audiences **par lots**) ou en temps réel (audiences **en flux continu** à l’aide de l’option Audiences haute fréquence d’Adobe Experience Platform).
 
    * Si l’audience sélectionnée est en flux continu, les personnes appartenant à cette audience peuvent éventuellement rejoindre le parcours en temps réel.
    * Si l’audience est par lots, les personnes qui viennent d’être qualifiées pour cette audience peuvent éventuellement rejoindre le parcours lorsque le calcul de l’audience est exécuté sur Adobe Experience Platform.
 
-  Nous vous recommandons donc d’utiliser uniquement des audiences en flux continu dans une activité **Qualification d’audience**. Pour les cas d’utilisation par lots, utilisez une activité **[Lecture d’audience](read-audience.md)**.
+  En guise de bonne pratique, nous recommandons donc d’utiliser uniquement des audiences en streaming dans les activités de **qualification d’audience**. Pour les cas d’utilisation par lots, utilisez une activité **[Lecture d’audience](read-audience.md)**.
 
   >[!NOTE]
   >
   >En raison de la nature par lots des audiences créées à l’aide de workflows de composition et du chargement personnalisé, vous ne pouvez pas cibler ces audiences dans une activité « Qualification de l’audience ». Seules les audiences créées à l’aide de définitions de segment peuvent être utilisées dans cette activité.
 
-* Les groupes de champs d’événement d’expérience ne peuvent pas être utilisés dans les parcours commençant par une activité **Lecture d’audience**, **Qualification d’audience** ou **Événement métier**.
+* Vous ne pouvez pas utiliser les groupes de champs d’événement d’expérience dans les parcours qui commencent par une activité **Lecture d’audience**, **Qualification d’audience** ou **Événement métier**.
 
-* Lors de l’utilisation d’une activité **Qualification d’audience** dans un parcours, l’activité peut prendre jusqu’à 10 minutes et les profils peuvent rejoindre l’audience ou en sortir.
+* Lorsque vous utilisez une activité de **qualification d’audience** dans un parcours, cette activité peut prendre jusqu’à 10 minutes avant d’être active et d’écouter les profils entrant ou sortant de l’audience.
 
 
-Consultez également la section [ Bonnes pratiques en matière de qualification d’audience ](#best-practices-segments) ci-dessous.
+Consultez également la section [Bonnes pratiques en matière de qualification d’audience](#best-practices-segments) ci-dessous.
 
 ### Configurer l’activité {#configure-segment-qualification}
 
@@ -107,7 +107,7 @@ Voir [Activité de condition](../building-journeys/condition-activity.md#about_c
 
 ![](assets/segment8.png)
 
-Un nouveau parcours contenant un événement **Qualification de l’audience** est opérationnel dix minutes après sa publication. Cet intervalle de temps correspond à l&#39;intervalle d&#39;actualisation du cache du service dédié. Par conséquent, vous devez attendre dix minutes avant d&#39;utiliser ce parcours.
+Un nouveau parcours contenant un événement de **qualification d’audience** est opérationnel dix minutes après sa publication. Cet intervalle de temps correspond à l&#39;intervalle d&#39;actualisation du cache du service dédié. Par conséquent, vous devez attendre dix minutes avant d&#39;utiliser ce parcours.
 
 ## Bonnes pratiques {#best-practices-segments}
 
@@ -117,13 +117,13 @@ La vitesse de réception de ces informations est élevée. Les mesures effectué
 
 ### Audiences par lots {#batch-speed-segment-qualification}
 
-Lors de l’utilisation de la qualification de l’audience pour une audience par lots, notez qu’un pic d’entrée se produit au moment du calcul quotidien. La taille du pic dépend du nombre de personnes qui rejoignent (ou quittent) l’audience quotidiennement.
+Lorsque vous utilisez la qualification d’audience pour une audience par lots, notez qu’un pic d’entrée se produit au moment du calcul quotidien. La taille du pic dépend du nombre de personnes qui rejoignent (ou quittent) l’audience quotidiennement.
 
 De plus, si l’audience par lots est créée et utilisée immédiatement dans un parcours, le premier lot de calculs peut faire qu’un très grand nombre de personnes rejoignent le parcours.
 
 ### Audiences en flux continu {#streamed-speed-segment-qualification}
 
-Lors de l’utilisation de la qualification de l’audience pour les audiences en flux continu, il y a moins de risque d’obtenir d’importants pics d’entrées/sorties en raison de l’évaluation continue de l’audience. Néanmoins, si la définition de l’audience conduit à qualifier un grand nombre de clientes et clients en même temps, un pic peut également se produire.
+Lorsque vous utilisez la qualification d’audience pour les audiences en streaming, il y a moins de risque d’obtenir d’importants pics d’entrées et de sorties en raison de l’évaluation continue de l’audience. Néanmoins, si la définition de l’audience conduit à qualifier un grand nombre de clientes et clients en même temps, un pic peut également se produire.
 
 Évitez d’utiliser des événements d’ouverture et d’envoi avec la segmentation par streaming. Utilisez plutôt les signaux d’activité des utilisateurs et utilisatrices, tels que les clics, les achats ou les données de balise. Pour la logique de fréquence ou de suppression, utilisez des règles métier plutôt que des événements d&#39;envoi. [En savoir plus](../audience/about-audiences.md#open-and-send-event-guardrails)
 
@@ -145,6 +145,6 @@ Avant d’utiliser l’audience dans un parcours en production, évaluez d’abo
 
 ## Vidéo pratique {#video}
 
-Découvrez les cas d’utilisation applicables pour les parcours de qualification d’audience dans cette vidéo. Découvrez comment créer un parcours avec qualification d’audience et les bonnes pratiques à appliquer.
+Découvrez des cas d’utilisation des parcours de qualification d’audience dans cette vidéo. Découvrez comment créer un parcours avec qualification d’audience et les bonnes pratiques à appliquer.
 
 >[!VIDEO](https://video.tv.adobe.com/v/3425028?quality=12)

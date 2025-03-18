@@ -1,22 +1,23 @@
 ---
 title: Liste des règles d’éligibilité
-description: Les règles d’éligibilité vous permettent de définir les candidats éligibles en fonction de ce que vous souhaitez cibler, comme les attributs de profil et les audiences.
+description: Les règles d’éligibilité permettent de définir les candidats éligibles en fonction de ce que vous souhaitez cibler, comme les attributs de profil et les audiences.
 feature: Decision Management, API, Collections
 topic: Integrations
 role: Data Engineer
 level: Experienced
-source-git-commit: 8fa34ebb7c853f9af5b3f58574374a3acb641dd9
-workflow-type: tm+mt
+exl-id: c8f88954-a721-4d18-9137-035ee9dc1bcf
+source-git-commit: 6378c4a8cb911088c685166b9c1b29a1773d47b7
+workflow-type: ht
 source-wordcount: '199'
-ht-degree: 60%
+ht-degree: 100%
 
 ---
 
 # Liste des règles d’éligibilité {#list-eligibilit-rules}
 
-Une règle d’éligibilité se compose d’une expression de règle PQL qui définit la manière dont elle doit définir l’éligibilité.
+Une règle d’éligibilité se compose d’une expression de règle PQL qui définit la manière dont elle doit définir l’éligibilité.
 
-Vous pouvez afficher une liste de toutes les règles d&#39;éligibilité en exécutant une seule requête GET sur l&#39;API de la bibliothèque des offres.
+Vous pouvez afficher une liste de toutes les règles d’éligibilité en effectuant une seule requête GET sur l’API Bibliothèque des offres.
 
 **Format d’API**
 
@@ -29,7 +30,7 @@ GET /{ENDPOINT_PATH}/offer-rules?{QUERY_PARAMS}
 | `{ENDPOINT_PATH}` | Chemin d’accès de point d’entrée pour les API Persistence | `https://platform.adobe.io/data/core/dps` |
 | `{QUERY_PARAMS}` | exdRule. | `property=exdRule%3D%3Dtrue` |
 
-## Utilisation des paramètres de requête {#using-query-parameters}
+## Utiliser des paramètres de requête {#using-query-parameters}
 
 Vous pouvez utiliser des paramètres de requête pour paginer et filtrer les résultats lors de l&#39;organisation en liste des ressources.
 
@@ -56,7 +57,7 @@ curl -X GET 'https://platform.adobe.io/data/core/dps/offer-rules?property=exdRul
 
 **Réponse**
 
-Une réponse réussie renvoie une liste de règles d’éligibilité auxquelles vous avez accès.
+Une réponse renvoie une liste de règles d’éligibilité auxquelles vous avez accès.
 
 ```json
 {

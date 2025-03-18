@@ -1,26 +1,27 @@
 ---
-title: Mettre à jour les règles d’éligibilité
-description: Les règles d’éligibilité vous permettent de définir les candidats éligibles en fonction de ce que vous souhaitez cibler, comme les attributs de profil et les audiences.
+title: Mettre à jour des règles d’éligibilité
+description: Les règles d’éligibilité permettent de définir les candidats éligibles en fonction de ce que vous souhaitez cibler, comme les attributs de profil et les audiences.
 feature: Decision Management, API, Collections
 topic: Integrations
 role: Data Engineer
 level: Experienced
-source-git-commit: 8fa34ebb7c853f9af5b3f58574374a3acb641dd9
-workflow-type: tm+mt
+exl-id: 8d82b4db-2ba8-4692-a63e-9cb3c6c434c3
+source-git-commit: 6378c4a8cb911088c685166b9c1b29a1773d47b7
+workflow-type: ht
 source-wordcount: '158'
-ht-degree: 39%
+ht-degree: 100%
 
 ---
 
 # Mettre à jour une règle d’éligibilité {#update-eligibility-rule}
 
-Vous pouvez modifier ou mettre à jour une règle en effectuant une requête PUT à l&#39;API de la bibliothèque des offres.
+Vous pouvez modifier ou mettre à jour une règle en effectuant une requête PUT sur l’API Bibliothèque des offres.
 
-Pour plus d’informations sur JSON PUT, notamment sur les opérations disponibles, consultez la [documentation JSON PUT](https://jsonpatch.com/) officielle.
+Pour plus d’informations sur JSON PUT, notamment sur les opérations disponibles, consultez la [documentation JSON PUT](https://jsonpatch.com/) officielle.
 
 **En-têtes Accept et Content-Type**
 
-Le tableau suivant montre les valeurs valides qui comprennent les champs Type de contenu dans l’en-tête de la requête :
+Le tableau suivant montre les valeurs valides qui comprennent les champs Content-Type dans l’en-tête de la requête :
 
 | Nom de l&#39;en-tête | Valeur |
 | --------- | ----------- | 
@@ -88,7 +89,7 @@ curl -X PATCH 'https://platform.adobe.io/data/core/dps/offer-rules/rule1234' \
 
 **Réponse**
 
-Une réponse réussie renvoie les détails mis à jour de la règle d’éligibilité, y compris l’identifiant.
+Une réponse renvoie les détails mis à jour de la règle d’éligibilité, y compris son ID.
 
 ```json
 {

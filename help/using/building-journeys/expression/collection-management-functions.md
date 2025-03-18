@@ -9,9 +9,9 @@ level: Experienced
 keywords: requête, collections, fonctions, payload, parcours
 exl-id: 09b38179-9ace-4921-985b-ddd17eb64681
 source-git-commit: 0d6b0cad90dbeded671a79732a6f101289568f81
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '696'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 98%
 
 Le langage d’expression s’accompagne également d’un ensemble de fonctions permettant d’interroger les collections.
 
-Ces fonctions sont expliquées ci-dessous. Dans l&#39;exemple suivant, utilisons la payload d&#39;événement contenant une collection :
+Ces fonctions sont expliquées ci-dessous. Dans les exemples suivants, nous allons utiliser la payload d’événement contenant une collection :
 
 ```json
                 { 

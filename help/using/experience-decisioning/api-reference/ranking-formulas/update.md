@@ -1,26 +1,27 @@
 ---
 title: Mettre à jour les formules de classement
-description: Les formules de classement vous permettent de définir les fonctions de notation utilisées pour classer les éléments.
+description: Les formules de classement permettent de définir les fonctions de notation utilisées pour classer les éléments.
 feature: Decision Management, API, Collections
 topic: Integrations
 role: Data Engineer
 level: Experienced
-source-git-commit: 8fa34ebb7c853f9af5b3f58574374a3acb641dd9
-workflow-type: tm+mt
+exl-id: 4ef1bfc2-e74f-4b44-b3b5-8a4f2fbd6438
+source-git-commit: 6378c4a8cb911088c685166b9c1b29a1773d47b7
+workflow-type: ht
 source-wordcount: '153'
-ht-degree: 33%
+ht-degree: 100%
 
 ---
 
 # Mettre à jour une formule de classement {#update-ranking-formula}
 
-Vous pouvez modifier ou mettre à jour une formule de classement en effectuant une requête PUT à l&#39;API de la bibliothèque des offres.
+Vous pouvez modifier ou mettre à jour une formule de classement en effectuant une requête PUT sur l’API Bibliothèque des offres.
 
-Pour plus d’informations sur JSON PUT, notamment sur les opérations disponibles, consultez la [documentation JSON PUT](http://jsonpatch.com/) officielle.
+Pour plus d’informations sur JSON PUT, notamment sur les opérations disponibles, consultez la [documentation JSON PUT](http://jsonpatch.com/) officielle.
 
 **En-têtes Accept et Content-Type**
 
-Le tableau suivant montre les valeurs valides qui comprennent les champs Type de contenu dans l’en-tête de la requête :
+Le tableau suivant montre les valeurs valides qui comprennent les champs Content-Type dans l’en-tête de la requête :
 
 | Nom de l&#39;en-tête | Valeur |
 | --------- | ----------- |
@@ -35,7 +36,7 @@ PUT /{ENDPOINT_PATH}/ranking-formulas/{ID}
 | Paramètre | Description | Exemple |
 | --------- | ----------- | ------- |
 | `{ENDPOINT_PATH}` | Chemin d’accès de point d’entrée pour les API Persistence | `https://platform.adobe.io/data/core/dps` |
-| `{ID}` | Identifiant de l’entité à mettre à jour. | `rankingFormula1234` |
+| `{ID}` | ID de l’entité que vous souhaitez mettre à jour. | `rankingFormula1234` |
 
 **Requête**
 
@@ -80,11 +81,11 @@ curl -X PATCH 'https://platform.adobe.io/data/core/dps/ranking-formulas/rankingF
 | --------- | ----------- |
 | `value` | Nouvelle valeur avec laquelle vous souhaitez mettre à jour votre paramètre. |
 | `path` | Chemin d’accès du paramètre à mettre à jour. |
-| `op` | Appel d’opération utilisé pour définir l’action nécessaire pour mettre à jour la connexion. Les opérations incluent : `add`, `replace`, `remove`, `copy` et `test`. |
+| `op` | Appel d’opération utilisé pour définir l’action nécessaire pour mettre à jour la connexion. Les opérations comprennent : `add`, `replace`, `remove`, `copy` et `test`. |
 
 **Réponse**
 
-Une réponse réussie renvoie les détails mis à jour de la formule de classement, y compris l’identifiant.
+Une réponse renvoie les détails mis à jour de la formule de classement, y compris son ID.
 
 ```json
 {

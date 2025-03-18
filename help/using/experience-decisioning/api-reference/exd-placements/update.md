@@ -1,26 +1,26 @@
 ---
-title: Mettre à jour l’emplacement d’extension
-description: Les emplacements supplémentaires se composent de collections associées à des contraintes et à des méthodes de classement pour déterminer les offres.
+title: Mettre à jour un emplacement d’extension
+description: Les emplacements d’extension se composent de collections associées à des contraintes et à des méthodes de classement pour déterminer les offres.
 feature: Decision Management, API, Collections
 topic: Integrations
 role: Data Engineer
 level: Experienced
 source-git-commit: 8fa34ebb7c853f9af5b3f58574374a3acb641dd9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '148'
-ht-degree: 39%
+ht-degree: 100%
 
 ---
 
-# Mise à jour d’un emplacement supplémentaire {#update-exd-placement}
+# Mettre à jour un emplacement d’extension {#update-exd-placement}
 
-Vous pouvez modifier ou mettre à jour un emplacement en effectuant une requête PUT à l&#39;API de la bibliothèque des offres.
+Vous pouvez modifier ou mettre à jour un emplacement en effectuant une requête PUT sur l’API Bibliothèque des offres.
 
-Pour plus d’informations sur JSON PUT, y compris les opérations disponibles, consultez la documentation JSON PUT officielle.
+Pour plus d’informations sur JSON PUT, notamment les opérations disponibles, consultez la documentation JSON PUT officielle.
 
 **En-têtes Accept et Content-Type**
 
-Le tableau suivant montre les valeurs valides qui comprennent les champs Type de contenu dans l’en-tête de la requête :
+Le tableau suivant montre les valeurs valides qui comprennent les champs Content-Type dans l’en-tête de la requête :
 
 | Paramètre | Description |
 | --------- | ----------- |
@@ -57,11 +57,11 @@ curl --location --request PUT 'https://platform-stage.adobe.io/data/core/dps/exd
 | --------- | ----------- |
 | `value` | Nouvelle valeur avec laquelle vous souhaitez mettre à jour votre paramètre. |
 | `path` | Chemin d’accès du paramètre à mettre à jour. |
-| `op` | Appel d’opération utilisé pour définir l’action nécessaire pour mettre à jour la connexion. Les opérations incluent : `add`, `replace`, `remove`, `copy` et `test`. |
+| `op` | Appel d’opération utilisé pour définir l’action nécessaire pour mettre à jour la connexion. Les opérations comprennent : `add`, `replace`, `remove`, `copy` et `test`. |
 
 **Réponse**
 
-Une réponse réussie renvoie les détails mis à jour de l’emplacement d’extension, y compris l’identifiant.
+Une réponse renvoie les détails mis à jour de l’emplacement d’extension, y compris son ID.
 
 ```json
 {

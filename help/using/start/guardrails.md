@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
 source-git-commit: 7475debd0e6b751725e5b5d7c2efa4b8b9e01a15
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2346'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -35,12 +35,12 @@ L&#39;interface d&#39;Adobe [!DNL Journey Optimizer] est conçue pour fonctionne
 
 ## Mécanismes de sécurisation des jeux de données {#datasets-guardrails}
 
-Depuis février 2025, un mécanisme de sécurisation de durée de vie (TTL) est déployé sur les jeux de données générés par le système Journey Optimizer dans **nouveaux sandbox et nouvelles organisations** comme suit :
+À compter de février 2025, un mécanisme de sécurisation de la durée de vie (TTL) sera déployé dans les jeux de données générés par le système Journey Optimizer dans **les nouveaux sandbox et les nouvelles organisations** comme suit :
 
-* 90 jours pour les données dans la banque de profils,
-* 13 mois pour les données du lac de données.
+* 90 jours pour les données dans la banque de profils
+* 13 mois pour les données du lac de données
 
-Cette modification sera déployée dans les **sandbox client existants** lors d’une phase ultérieure. [En savoir plus sur les mécanismes de sécurisation de la durée de vie (TTL) des jeux de données](../data/datasets-ttl.md)
+Cette modification sera déployée sur les **sandbox client existants** dans une phase ultérieure. [En savoir plus sur les mécanismes de sécurisation de durée de vie (TTL) des jeux de données](../data/datasets-ttl.md)
 
 ## Mécanismes de sécurisation des canaux {#channel-guardrails}
 
@@ -61,9 +61,9 @@ Les campagnes web de [!DNL Journey Optimizer] ciblent les nouveaux profils qui n
 
 Les mesures de licence de chaque package sont répertoriées dans la page [Description du produit Journey Optimizer](https://helpx.adobe.com/fr/legal/product-descriptions/adobe-journey-optimizer.html).{target="_blank"}
 
-### Mécanismes de sécurisation des canaux basés sur le code {#code-based-guardrails}
+### Mécanismes de sécurisation des canaux basés sur du code {#code-based-guardrails}
 
-Pour utiliser des actions d’expérience basées sur du code dans [!DNL Journey Optimizer] et diffuser une payload de contenu de code pouvant être utilisée par vos applications, suivez les conditions préalables décrites dans [cette page](../code-based/code-based-prerequisites.md).
+Pour utiliser des actions d’expérience basée sur du code dans [!DNL Journey Optimizer] et diffuser la payload du contenu du code qui peut être utilisée par vos applications, assurez-vous de respecter les conditions préalables décrites dans [cette page](../code-based/code-based-prerequisites.md).
 
 ## Mécanismes de sécurisation des pages de destination {#lp-guardrails}
 
@@ -87,11 +87,11 @@ Cependant, en fonction de votre contrat de licence, vous pouvez déléguer jusqu
 
 Vous pouvez publier jusqu’à 10 audiences dans un sandbox donné. Si vous avez atteint ce seuil, vous devez supprimer une composition pour libérer de l’espace et en publier une nouvelle.
 
-## Mécanismes de sécurisation de prise de décision et de gestion des décisions {#decisioning-guardrails}
+## Mécanismes de sécurisation des décisions et de la gestion des décisions {#decisioning-guardrails}
 
-Les mécanismes de sécurisation et les limitations à garder à l’esprit lorsque vous utilisez la prise de décision ou la gestion des décisions sont détaillés dans ces sections Prise de décision et gestion des décisions :
+Les mécanismes de sécurisation et les limitations à garder à l’esprit lorsque vous utilisez la prise de décision ou la gestion des décisions sont détaillés dans les sections Prise de décision et gestion des décisions présentées ci-après :
 
-* [Mécanismes de sécurisation et limitations des décisions](../experience-decisioning/decisioning-guardrails.md)
+* [Mécanismes de sécurisation et limitations des prises de décision](../experience-decisioning/decisioning-guardrails.md)
 * [Mécanismes de sécurisation et limitations de la gestion des décisions](../offers/decision-management-guardrails.md)
 
 
@@ -220,4 +220,4 @@ Des mécanismes de sécurisation spécifiques s’appliquent à l’activité **
 Les mécanismes de sécurisation suivants s’appliquent aux activités **[!UICONTROL Campaign v7/v8]** et **[!UICONTROL Campaign Standard]** :
 
 * Les activités Adobe Campaign ne peuvent pas être utilisées avec une activité Lecture d’audience ou Qualification d’audience.
-* Les activités Campaign ne peuvent pas être utilisées avec les activités des autres canaux : Carte, Expérience basée sur le code, E-mail, Push, SMS, Messages in-app, Web.
+* Les activités de campagne ne peuvent pas être utilisées avec les activités des autres canaux : Carte, Expérience basée sur du code, E-mail, Notification push, SMS, Messages in-app, Web.

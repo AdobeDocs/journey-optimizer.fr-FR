@@ -7,9 +7,9 @@ role: Data Engineer
 level: Experienced
 exl-id: 9b0b0d8e-a819-4d2e-a241-f3c4d104eab9
 source-git-commit: 78c1464ccddec75e4827cbb1877d8fab5ac08b90
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2388'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -299,7 +299,7 @@ Cliquez sur l’icône `...` pour afficher la description de la fonction et l’
         <td><a href="string.md#doesNotStartWith">Ne commence pas par</a></td><td>Cette fonction permet de déterminer si une chaîne ne commence pas par une sous-chaîne donnée.</td>
     </tr>
     <tr>
-        <td><a href="string.md#encode64">Encode 64</a></td><td>Cette fonction est utilisée pour coder une chaîne</td>
+        <td><a href="string.md#encode64">Encode 64</a></td><td>Cette fonction sert à encoder une chaîne.</td>
     </tr>
     <tr>
         <td><a href="string.md#endsWith">Se termine par</a></td><td>Cette fonction permet de déterminer si une chaîne se termine par une sous-chaîne donnée.</td>

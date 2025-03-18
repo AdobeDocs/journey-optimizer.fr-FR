@@ -1,20 +1,21 @@
 ---
-title: Recherche d'une formule de classement
-description: Les formules de classement vous permettent de définir les fonctions de notation utilisées pour classer les éléments.
+title: Rechercher une formule de classement
+description: Les formules de classement permettent de définir les fonctions de notation utilisées pour classer les éléments.
 feature: Decision Management, API, Collections
 topic: Integrations
 role: Data Engineer
 level: Experienced
-source-git-commit: 8fa34ebb7c853f9af5b3f58574374a3acb641dd9
-workflow-type: tm+mt
+exl-id: f048b2d1-d26b-4987-8acb-3558df506ec2
+source-git-commit: 6378c4a8cb911088c685166b9c1b29a1773d47b7
+workflow-type: ht
 source-wordcount: '80'
-ht-degree: 16%
+ht-degree: 100%
 
 ---
 
-# Recherche d’un  {#list-ranking-formula}
+# Rechercher  {#list-ranking-formula}
 
-Vous pouvez rechercher une formule de classement spécifique en effectuant une requête GET à l&#39;API de la bibliothèque des offres qui inclut l&#39;identifiant dans le chemin de la requête.
+Vous pouvez rechercher une formule de classement spécifique en effectuant une requête GET sur l’API Bibliothèque des offres qui inclut l’ID dans le chemin de la requête.
 
 **Format d’API**
 
@@ -25,7 +26,7 @@ GET /{ENDPOINT_PATH}/ranking-formulas/{ID}
 | Paramètre | Description | Exemple |
 | --------- | ----------- | ------- |
 | `{ENDPOINT_PATH}` | Chemin d’accès de point d’entrée pour les API Persistence | `https://platform.adobe.io/data/core/dps` |
-| `{ID}` | L’identifiant de l’entité que vous souhaitez rechercher. | `rankingFormula1234` |
+| `{ID}` | ID de l’entité que vous souhaitez rechercher. | `rankingFormula1234` |
 
 **Requête**
 
@@ -40,7 +41,7 @@ curl -X GET 'https://platform.adobe.io/data/core/dps/ranking-formulas/rankingFor
 
 **Réponse**
 
-Une réponse réussie renvoie les détails de la formule de classement.
+Une réponse renvoie les détails de la formule de classement.
 
 ```json
 {

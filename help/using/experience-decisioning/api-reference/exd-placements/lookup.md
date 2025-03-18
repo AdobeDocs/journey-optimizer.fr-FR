@@ -1,20 +1,20 @@
 ---
-title: Recherche d’un emplacement d’extension
-description: Les emplacements supplémentaires se composent de collections associées à des contraintes et à des méthodes de classement pour déterminer les offres.
+title: Rechercher un emplacement d’extension
+description: Les emplacements d’extension se composent de collections associées à des contraintes et à des méthodes de classement pour déterminer les offres.
 feature: Decision Management, API, Collections
 topic: Integrations
 role: Data Engineer
 level: Experienced
 source-git-commit: 8fa34ebb7c853f9af5b3f58574374a3acb641dd9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '79'
-ht-degree: 29%
+ht-degree: 100%
 
 ---
 
-# Recherche d’un emplacement d’extension {#list-exd-placement}
+# Rechercher un emplacement d’extension {#list-exd-placement}
 
-Vous pouvez rechercher un remplacement spécifique en effectuant une requête GET à l&#39;API de la bibliothèque des offres qui inclut l&#39;identifiant dans le chemin de la requête.
+Vous pouvez rechercher un emplacement d’extension spécifique en effectuant une requête GET sur l’API Bibliothèque des offres qui inclut l’ID dans le chemin de la requête.
 
 **Format d’API**
 
@@ -40,7 +40,7 @@ curl --location 'https://platform-stage.adobe.io/data/core/dps/exd-placements/dp
 
 **Réponse**
 
-Une réponse réussie renvoie les détails de l’emplacement ajouté.
+Une réponse renvoie les détails de l’emplacement d’extension.
 
 ```json
 {

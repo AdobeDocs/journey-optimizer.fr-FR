@@ -1,24 +1,25 @@
 ---
-title: Création d'une formule de classement
-description: Les formules de classement vous permettent de définir les fonctions de notation utilisées pour classer les éléments.
+title: Créer une formule de classement
+description: Les formules de classement permettent de définir les fonctions de notation utilisées pour classer les éléments.
 feature: Decision Management, API, Collections
 topic: Integrations
 role: Data Engineer
 level: Experienced
-source-git-commit: 8fa34ebb7c853f9af5b3f58574374a3acb641dd9
-workflow-type: tm+mt
+exl-id: 2eb3ca65-f9f2-4483-ac6a-7bd896b0e516
+source-git-commit: 6378c4a8cb911088c685166b9c1b29a1773d47b7
+workflow-type: ht
 source-wordcount: '107'
-ht-degree: 23%
+ht-degree: 100%
 
 ---
 
-# Création d&#39;une formule de classement {#create-ranking-formula}
+# Créer une formule de classement {#create-ranking-formula}
 
-Vous pouvez créer une formule de classement en effectuant une requête POST à l&#39;API de la bibliothèque des offres.
+Vous pouvez créer une formule de classement en effectuant une requête POST sur l’API Bibliothèque des offres.
 
 **En-têtes Accept et Content-Type**
 
-Le tableau suivant montre les valeurs valides qui comprennent les champs Type de contenu dans l’en-tête de la requête :
+Le tableau suivant montre les valeurs valides qui comprennent les champs Content-Type dans l’en-tête de la requête :
 
 | Nom de l&#39;en-tête | Valeur |
 | --------- | ----------- | 
@@ -74,7 +75,7 @@ curl -X POST 'https://platform.adobe.io/data/core/dps/ranking-formulas' \
 
 **Réponse**
 
-Une réponse réussie renvoie les détails de la formule de classement nouvellement créée, y compris la `id`. Vous pouvez utiliser le `id` aux étapes suivantes pour mettre à jour ou supprimer votre formule de classement.
+Une réponse renvoie les détails de la formule de classement qui vient d’être créée, y compris l’`id`. Vous pouvez utiliser l’`id` aux étapes suivantes pour mettre à jour ou supprimer votre formule de classement.
 
 ```json
 {

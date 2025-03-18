@@ -1,20 +1,21 @@
 ---
-title: Supprimer une règle d'éligibilité
-description: Les règles d’éligibilité vous permettent de définir les candidats éligibles en fonction de ce que vous souhaitez cibler, comme les attributs de profil et les audiences.
+title: Supprimer une règle d’éligibilité
+description: Les règles d’éligibilité permettent de définir les candidats éligibles en fonction de ce que vous souhaitez cibler, comme les attributs de profil et les audiences.
 feature: Decision Management, API, Collections
 topic: Integrations
 role: Data Engineer
 level: Experienced
-source-git-commit: 8fa34ebb7c853f9af5b3f58574374a3acb641dd9
-workflow-type: tm+mt
+exl-id: 19baf888-23b7-46de-9d3c-9a0fa8ab2297
+source-git-commit: 6378c4a8cb911088c685166b9c1b29a1773d47b7
+workflow-type: ht
 source-wordcount: '127'
-ht-degree: 25%
+ht-degree: 100%
 
 ---
 
-# Supprimer une règle d&#39;éligibilité {#delete-eligibility-rule}
+# Supprimer une règle d’éligibilité {#delete-eligibility-rule}
 
-Il peut parfois être nécessaire de supprimer (DELETE) une règle d’éligibilité. Pour ce faire, il suffit d&#39;adresser une requête DELETE à l&#39;API de la bibliothèque des offres à l&#39;aide de l&#39;identifiant de la règle d&#39;éligibilité que vous souhaitez supprimer.
+Il peut parfois être nécessaire de supprimer (DELETE) une règle d’éligibilité. Pour ce faire, il vous suffit d’effectuer une requête DELETE sur l’API Bibliothèque des offres en utilisant l’ID de la règle d’éligibilité à supprimer.
 
 **Format d’API**
 
@@ -42,4 +43,4 @@ curl -X DELETE 'https://platform.adobe.io/data/core/dps/offer-rules/rule1234' \
 
 Une réponse réussie renvoie un état HTTP 200 et un corps vide.
 
-Vous pouvez confirmer la suppression en tentant d’adresser une requête de recherche (GET) à la règle . Vous devriez recevoir un statut HTTP 404 (Introuvable), car la règle a été supprimée.
+Vous pouvez confirmer la suppression en tentant d’effectuer une requête de recherche (GET) sur la règle. Vous devriez recevoir le statut HTTP 404 (Introuvable) car la règle a été supprimée.

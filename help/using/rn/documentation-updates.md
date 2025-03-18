@@ -9,9 +9,9 @@ role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
 source-git-commit: 4407961654a1d55bf20d8091447dc2f1ef703ea3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '6222'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -22,11 +22,11 @@ Cette page répertorie toutes les mises à jour récentes de la documentation de
 ## Mars 2025 {#mar-2025}
 
 * La page sur les événements de qualification d’audience a été mise à jour avec de nouvelles recommandations. [En savoir plus](../building-journeys/audience-qualification-events.md)
-* La fonctionnalité de dépannage d’action personnalisée est désormais disponible pour tous les clients (GA). [En savoir plus](../action/troubleshoot-custom-action.md)
+* La fonctionnalité de dépannage d’action personnalisée est désormais disponible pour tous les clients et clientes (GA). [En savoir plus](../action/troubleshoot-custom-action.md)
 
 ## Février 2025 {#feb-2025}
 
-* Les mécanismes de sécurisation de l’activité « Lecture d’audience » ont été mis à jour afin d’indiquer qu’une seule activité peut être utilisée dans un parcours et qu’elle ne peut cibler qu’une seule audience. [En savoir plus](../building-journeys/read-audience.md)
+* Les mécanismes de sécurisation de l’activité « Lecture d’audience » ont été mis à jour afin d’indiquer qu’une seule activité peut être utilisée dans un parcours et qu’elle ne peut cibler qu’une seule audience. [En savoir plus](../building-journeys/read-audience.md)
 * Les mécanismes de sécurisation de parcours lors de l’utilisation des activités Campaign ont été mis à jour. [En savoir plus](../start/guardrails.md#ac-g)
 * Les étapes de création de vos premiers parcours ont été détaillées et des liens vers la section de documentation ont été ajoutés. [En savoir plus](../building-journeys/journey-gs.md)
 * Une nouvelle page est désormais disponible pour présenter le tableau de bord du parcours et l’interface d’utilisation de filtrage. [En savoir plus](../building-journeys/journey-ui.md)

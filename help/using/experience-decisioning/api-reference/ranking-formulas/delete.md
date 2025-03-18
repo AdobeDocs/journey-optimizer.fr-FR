@@ -1,20 +1,21 @@
 ---
-title: Suppression d'une formule de classement
-description: Les formules de classement vous permettent de définir les fonctions de notation utilisées pour classer les éléments.
+title: Supprimer une formule de classement
+description: Les formules de classement permettent de définir les fonctions de notation utilisées pour classer les éléments.
 feature: Decision Management, API, Collections
 topic: Integrations
 role: Data Engineer
 level: Experienced
-source-git-commit: 8fa34ebb7c853f9af5b3f58574374a3acb641dd9
-workflow-type: tm+mt
+exl-id: 4ea50481-b1b9-4e0c-ad4e-c4139891bfdf
+source-git-commit: 6378c4a8cb911088c685166b9c1b29a1773d47b7
+workflow-type: ht
 source-wordcount: '123'
-ht-degree: 19%
+ht-degree: 100%
 
 ---
 
-# Suppression d&#39;une formule de classement {#delete-selection-strategy}
+# Supprimer une formule de classement {#delete-selection-strategy}
 
-Il peut parfois être nécessaire de supprimer (DELETE) une formule de classement. Pour ce faire, il suffit d&#39;adresser une requête DELETE à l&#39;API de la bibliothèque des offres à l&#39;aide de l&#39;identifiant de la formule de classement que vous souhaitez supprimer.
+Il peut parfois être nécessaire de supprimer (DELETE) une formule de classement. Pour ce faire, il vous suffit d’effectuer une requête DELETE sur l’API Bibliothèque des offres en utilisant l’ID de la formule de classement à supprimer.
 
 **Format d’API**
 
@@ -25,7 +26,7 @@ DELETE /{ENDPOINT_PATH}/ranking-formulas/{ID}
 | Paramètre | Description | Exemple |
 | --------- | ----------- | ------- |
 | `{ENDPOINT_PATH}` | Chemin d’accès de point d’entrée pour les API Persistence | `https://platform.adobe.io/data/core/dps` |
-| `{ID}` | L’identifiant de l’entité que vous souhaitez supprimer. | `rankingFormula1234` |
+| `{ID}` | ID de l’entité que vous souhaitez supprimer. | `rankingFormula1234` |
 
 **Requête**
 
@@ -42,5 +43,4 @@ curl -X DELETE 'https://platform.adobe.io/data/core/dps/ranking-formulas/ranking
 
 Une réponse réussie renvoie un état HTTP 200 et un corps vide.
 
-Vous pouvez confirmer la suppression en tentant d’adresser une requête de recherche (GET) à la formule de classement. Vous devriez recevoir un statut HTTP 404 (Introuvable), car la formule de classement a été supprimée.
-
+Vous pouvez confirmer la suppression en tentant d’effectuer une requête de recherche (GET) sur la formule de classement. Vous devriez recevoir le statut HTTP 404 (Introuvable), car la formule de classement a été supprimée.

@@ -1,20 +1,21 @@
 ---
-title: Rechercher une règle d'éligibilité
-description: Les règles d’éligibilité vous permettent de définir les candidats éligibles en fonction de ce que vous souhaitez cibler, comme les attributs de profil et les audiences.
+title: Rechercher une règle d’éligibilité
+description: Les règles d’éligibilité permettent de définir les candidats éligibles en fonction de ce que vous souhaitez cibler, comme les attributs de profil et les audiences.
 feature: Decision Management, API, Collections
 topic: Integrations
 role: Data Engineer
 level: Experienced
-source-git-commit: 8fa34ebb7c853f9af5b3f58574374a3acb641dd9
-workflow-type: tm+mt
+exl-id: a74f4c87-0b89-4583-97f5-df8e2a30a19b
+source-git-commit: 6378c4a8cb911088c685166b9c1b29a1773d47b7
+workflow-type: ht
 source-wordcount: '88'
-ht-degree: 14%
+ht-degree: 100%
 
 ---
 
-# Rechercher une règle d&#39;éligibilité {#list-eligibility-rule}
+# Rechercher une règle d’éligibilité {#list-eligibility-rule}
 
-Vous pouvez rechercher des règles d’éligibilité spécifiques en effectuant une requête GET à l’API de la bibliothèque des offres qui inclut l’identifiant dans le chemin de la requête.
+Vous pouvez rechercher une règle d’éligibilité spécifique en effectuant une requête GET sur l’API Bibliothèque des offres qui inclut l’ID dans le chemin de la requête.
 
 **Format d’API**
 
@@ -25,7 +26,7 @@ GET /{ENDPOINT_PATH}/offer-rules/{ID}
 | Paramètre | Description | Exemple |
 | --------- | ----------- | ------- |
 | `{ENDPOINT_PATH}` | Chemin d’accès de point d’entrée pour les API Persistence | `https://platform.adobe.io/data/core/dps` |
-| `{ID}` | L’identifiant de l’entité que vous souhaitez rechercher. | `rule1234` |
+| `{ID}` | ID de l’entité que vous souhaitez rechercher. | `rule1234` |
 
 **Requête**
 
@@ -40,7 +41,7 @@ curl -X GET 'https://platform.adobe.io/data/core/dps/offer-rules/rule1234' \
 
 **Réponse**
 
-Une réponse réussie renvoie les détails de la règle d’éligibilité.
+Une réponse renvoie les détails de la règle d’éligibilité.
 
 ```json
 {

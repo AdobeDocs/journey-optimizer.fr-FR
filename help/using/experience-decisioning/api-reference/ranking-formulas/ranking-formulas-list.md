@@ -1,22 +1,23 @@
 ---
 title: Liste des formules de classement
-description: Les formules de classement vous permettent de définir les fonctions de notation utilisées pour classer les éléments.
+description: Les formules de classement permettent de définir les fonctions de notation utilisées pour classer les éléments.
 feature: Decision Management, API, Collections
 topic: Integrations
 role: Data Engineer
 level: Experienced
-source-git-commit: 8fa34ebb7c853f9af5b3f58574374a3acb641dd9
-workflow-type: tm+mt
+exl-id: 8b07be08-b37c-4535-82d8-3304340cbcad
+source-git-commit: 6378c4a8cb911088c685166b9c1b29a1773d47b7
+workflow-type: ht
 source-wordcount: '191'
-ht-degree: 62%
+ht-degree: 100%
 
 ---
 
 # Liste des formules de classement {#list-ranking-formulas}
 
-Une formule de classement est constituée d’une fonction de classement qui définit son classement.
+Une formule de classement se compose d’une fonction de classement qui définit la manière de classer.
 
-Vous pouvez afficher une liste de toutes les formules de classement en exécutant une seule requête GET sur l&#39;API de la bibliothèque des offres.
+Vous pouvez afficher une liste de toutes les formules de classement en effectuant une seule requête GET sur l’API Bibliothèque des offres.
 
 **Format d’API**
 
@@ -29,7 +30,7 @@ GET /{ENDPOINT_PATH}/ranking-formulas?{QUERY_PARAMS}
 | `{ENDPOINT_PATH}` | Chemin d’accès de point d’entrée pour les API Persistence | `https://platform.adobe.io/data/core/dps` |
 | `{QUERY_PARAMS}` | exdFunction. | `property=exdFunction%3D%3Dtrue` |
 
-## Utilisation des paramètres de requête {#using-query-parameters}
+## Utiliser des paramètres de requête {#using-query-parameters}
 
 Vous pouvez utiliser des paramètres de requête pour paginer et filtrer les résultats lors de l&#39;organisation en liste des ressources.
 
@@ -56,7 +57,7 @@ curl -X GET 'https://platform.adobe.io/data/core/dps/ranking-formulas?property=e
 
 **Réponse**
 
-Une réponse réussie renvoie une liste de formules de classement auxquelles vous avez accès.
+Une réponse renvoie une liste des formules de classement auxquelles vous avez accès.
 
 ```json
 {

@@ -1,24 +1,24 @@
 ---
-title: Création d’un emplacement d’ajout
-description: Les stratégies d’extension se composent de collections associées à des contraintes et à des méthodes de classement permettant de déterminer les offres.
+title: Créer un emplacement d’extension
+description: Les stratégies d’extension se composent de collections associées à des contraintes et à des méthodes de classement pour déterminer les offres.
 feature: Decision Management, API, Collections
 topic: Integrations
 role: Data Engineer
 level: Experienced
 source-git-commit: 8fa34ebb7c853f9af5b3f58574374a3acb641dd9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '104'
-ht-degree: 15%
+ht-degree: 100%
 
 ---
 
-# Création d’un emplacement d’ajout {#create-exd-placement}
+# Créer un emplacement d’extension {#create-exd-placement}
 
-Vous pouvez créer un emplacement supplémentaire en effectuant une requête POST à l&#39;API de la bibliothèque des offres.
+Vous pouvez créer un emplacement d’extension en effectuant une requête POST sur l’API Bibliothèque des offres.
 
 **En-têtes Accept et Content-Type**
 
-Le tableau suivant montre les valeurs valides qui comprennent les champs Type de contenu dans l’en-tête de la requête :
+Le tableau suivant montre les valeurs valides qui comprennent les champs Content-Type dans l’en-tête de la requête :
 
 | Paramètre | Description |
 | --------- | ----------- |
@@ -55,7 +55,7 @@ curl --location 'https://platform-stage.adobe.io/data/core/dps/exd-placements' \
 
 **Réponse**
 
-Une réponse réussie renvoie les détails de l’emplacement d’extension nouvellement créé, y compris l’identifiant. Vous pouvez utiliser l’identifiant aux étapes suivantes pour mettre à jour ou supprimer votre emplacement ajouté.
+Une réponse renvoie les détails du nouvel emplacement d’extension, y compris son ID. Vous pouvez utiliser l’ID aux étapes suivantes pour mettre à jour ou supprimer votre emplacement d’extension.
 
 ```json
 {

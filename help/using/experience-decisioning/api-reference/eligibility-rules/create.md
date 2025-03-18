@@ -1,20 +1,21 @@
 ---
-title: Créer une règle d'éligibilité
-description: Les règles d’éligibilité vous permettent de définir les candidats éligibles en fonction de ce que vous souhaitez cibler, comme les attributs de profil et les audiences.
+title: Créer une règle d’éligibilité
+description: Les règles d’éligibilité permettent de définir les candidats éligibles en fonction de ce que vous souhaitez cibler, comme les attributs de profil et les audiences.
 feature: Decision Management, API, Collections
 topic: Integrations
 role: Data Engineer
 level: Experienced
-source-git-commit: 8fa34ebb7c853f9af5b3f58574374a3acb641dd9
-workflow-type: tm+mt
+exl-id: 39c6e82e-c1b1-4dda-a941-3db6324cef37
+source-git-commit: 6378c4a8cb911088c685166b9c1b29a1773d47b7
+workflow-type: ht
 source-wordcount: '89'
-ht-degree: 14%
+ht-degree: 100%
 
 ---
 
-# Créer une règle d&#39;éligibilité {#create-eligibility-rule}
+# Créer une règle d’éligibilité {#create-eligibility-rule}
 
-Vous pouvez créer une règle d&#39;éligibilité en effectuant une requête POST à l&#39;API de la bibliothèque des offres.
+Vous pouvez créer une règle d’éligibilité en effectuant une requête POST sur l’API Bibliothèque des offres.
 
 **Format d’API**
 
@@ -50,7 +51,7 @@ curl -X POST 'https://platform.adobe.io/data/core/dps/offer-rules' \
 
 **Réponse**
 
-Une réponse réussie renvoie les détails de la règle d’éligibilité nouvellement créée, y compris l’identifiant. Vous pouvez utiliser l’identifiant aux étapes suivantes pour mettre à jour ou supprimer votre règle d’éligibilité.
+Une réponse renvoie les détails de la nouvelle règle d’éligibilité, y compris son ID. Vous pouvez utiliser l’ID aux étapes suivantes pour mettre à jour ou supprimer votre règle d’éligibilité.
 
 ```json
 {

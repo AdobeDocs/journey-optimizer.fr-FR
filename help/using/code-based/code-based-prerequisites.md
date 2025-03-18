@@ -1,5 +1,5 @@
 ---
-title: Conditions préalables pour une expérience basée sur le code
+title: Conditions préalables à une expérience basée sur du code
 description: Pour pouvoir modifier des applications et des pages web à l’aide de la fonctionnalité basée sur le code Journey Optimizer, respectez les conditions préalables présentées dans cette page.
 feature: Code-based Experiences
 topic: Content Management
@@ -7,13 +7,13 @@ role: Admin
 level: Experienced
 exl-id: ac901f88-5fde-4220-88c6-fe05433866cc
 source-git-commit: 045fc6f140c9128adebc2513317c4007ed71cafa
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '638'
 ht-degree: 100%
 
 ---
 
-# Conditions préalables pour une expérience basée sur le code {#code-based-prerequisites}
+# Conditions préalables à une expérience basée sur du code {#code-based-prerequisites}
 
 Pour pouvoir utiliser des actions d’expérience basée sur le code dans [!DNL Journey Optimizer] et diffuser la payload du contenu du code qui peut être utilisée par vos applications, procédez comme suit :
 

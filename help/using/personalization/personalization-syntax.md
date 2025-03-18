@@ -10,15 +10,15 @@ level: Intermediate
 keywords: expression, éditeur, syntaxe, personnalisation
 exl-id: 5a562066-ece0-4a78-92a7-52bf3c3b2eea
 source-git-commit: 78c1464ccddec75e4827cbb1877d8fab5ac08b90
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '571'
-ht-degree: 78%
+ht-degree: 100%
 
 ---
 
 # Syntaxe de personnalisation {#personalization-syntax}
 
-Personalization dans [!DNL Journey Optimizer] est basé sur la syntaxe de modèle appelée Handlebars. Pour une description complète de la syntaxe Handlebars, consultez la [documentation HandlebarsJS](https://handlebarsjs.com/).
+La personnalisation dans [!DNL Journey Optimizer] est basée sur la syntaxe de modèle appelée Handlebars. Pour une description complète de la syntaxe Handlebars, consultez la [documentation HandlebarsJS](https://handlebarsjs.com/).
 
 Cette syntaxe utilise un modèle et un objet d&#39;entrée pour générer du code HTML ou d&#39;autres formats de texte. Les modèles Handlebars ressemblent à du texte normal avec des expressions Handlebars incorporées.
 
@@ -77,7 +77,7 @@ où :
 
 * **Offres**
 
-  Cet espace de noms vous permet de référencer les décisions d’offres existantes.
+  Cet espace de noms vous permet de référencer les décisions d’offre existantes.
 
   Pour référencer une offre, vous devez déclarer un chemin avec les différentes informations qui définissent une offre. Ce chemin possède la structure suivante :
 
@@ -90,9 +90,9 @@ où :
    * `Placement Id` et `Activity Id` sont des identifiants d&#39;emplacement et d&#39;activité.
    * `Attributes` sont des attributs spécifiques à l&#39;offre qui dépendent du type d&#39;offre. Exemple : `deliveryUrl` pour les images
 
-  Pour plus d’informations sur l’API Decisions et sur les représentations d’offres, consultez [cette page](../offers/api-reference/offer-delivery-api/decisioning-api.md)
+  Pour plus d’informations sur l’API Decisions et sur la représentation des offres, consultez [cette page](../offers/api-reference/offer-delivery-api/decisioning-api.md).
 
-  Toutes les références sont validées par rapport au schéma d&#39;offre avec un mécanisme de validation décrit dans [cette page](../personalization/personalization-build-expressions.md)
+  Toutes les références sont validées par rapport au schéma d’offre avec un mécanisme de validation décrit dans [cette page](../personalization/personalization-build-expressions.md)
 
   +++Exemples de références
 
@@ -118,11 +118,11 @@ où :
 
 Un assistant Handlebars est un identifiant simple qui peut être suivi de paramètres. Chaque paramètre est une expression Handlebars. Ces assistants sont accessibles depuis n&#39;importe quel contexte dans un modèle.
 
-Ces assistants de bloc sont identifiés par un `#` précédant le nom de l&#39;assistant et nécessitent une `/` de fermeture correspondante, du même nom.
+Ces assistants de bloc sont identifiés par un `#` placé devant le nom de l’assistant et une `/` correspondante doit être placée à la fin avec le même nom.
 
-Les blocs sont des expressions qui ont une ouverture de bloc (`{{# }}`) et une fermeture (`{{/}}`).
+Les blocs sont des expressions qui ont une ouverture (`{{# }}`) et une fermeture (`{{/}}`) de bloc.
 
-Pour plus d’informations sur les fonctions d’assistance, reportez-vous [cette section](functions/helpers.md).
+Pour plus d’informations sur les fonctions d’assistant, consultez [cette section](functions/helpers.md).
 
 ## Types littéraux {#literal-types}
 

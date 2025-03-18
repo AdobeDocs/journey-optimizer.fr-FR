@@ -9,9 +9,9 @@ level: Beginner
 keywords: externe, API, optimizer, plafonnement
 exl-id: 377b2659-d26a-47c2-8967-28870bddf5c5
 source-git-commit: fd89412703d015fa173f58fa117f65323b954fec
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '621'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -156,7 +156,7 @@ Cas d’utilisation n°5 : **mise à jour d’une configuration de limitation d
 
 >[!NOTE]
 >
->Vous devez redéployer en cas de mise à jour d’une configuration déjà déployée.
+>Vous devez effectuer un redéploiement en cas de mise à jour d’une configuration déjà déployée.
 
 1. list
 1. get
