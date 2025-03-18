@@ -10,8 +10,8 @@ level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
 source-git-commit: 3e9392d65bc4a5cbbb95ed27350c6de56edcbf18
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1366'
+ht-degree: 100%
 
 ---
 
@@ -251,5 +251,5 @@ Pour modifier la langue :
 
 >[!CONTEXTUALHELP]
 >id="ajo_express_menu"
->title="Intégration d’Adobe Express"
->abstract="Adobe express"
+>title="Intégration d’Adobe Express"
+>abstract="Adobe Express"

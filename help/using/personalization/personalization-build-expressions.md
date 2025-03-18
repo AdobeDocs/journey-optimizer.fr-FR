@@ -13,7 +13,7 @@ exl-id: 1ac2a376-a3a8-41ae-9b04-37886697f0fc
 source-git-commit: 47b8308030ca73b3383938a4be025e332265540e
 workflow-type: tm+mt
 source-wordcount: '1410'
-ht-degree: 47%
+ht-degree: 52%
 
 ---
 
@@ -91,7 +91,7 @@ La partie gauche de l&#39;écran affiche un sélecteur de domaine qui vous perme
 >[!CONTEXTUALHELP]
 >id="ajo_perso_editor_autocomplete"
 >title="Saisie semi-automatique"
->abstract="Activer cette option permet au système de suggérer et de remplir automatiquement le code au fur et à mesure que vous le tapez. Cette fonctionnalité est disponible uniquement pour les formats HTML et Texte et prend en charge les attributs de profil et de contexte. Si cette option est désactivée, l’éditeur fournit la saisie semi-automatique du code HTML natif à la place."
+>abstract="Activer cette option permet au système de suggérer et de remplir automatiquement le code au fur et à mesure que vous le tapez. Cette fonctionnalité est disponible uniquement pour les formats HTML et Texte et prend en charge les attributs de profil et de contexte. Si cette option est désactivée, l’éditeur assure la saisie semi-automatique du code HTML natif à la place."
 
 C’est dans l’espace de travail central que vous créez votre syntaxe de personnalisation. Pour utiliser un attribut afin de personnaliser votre message, localisez-le dans le volet de navigation de gauche, puis cliquez sur le bouton `+` pour l’ajouter à l’expression.
 
@@ -115,7 +115,7 @@ Les options disponibles sont les suivantes :
 
 1. **[!UICONTROL Rechercher]** / **[!UICONTROL Rechercher et remplacer]** : effectuez une recherche dans votre expression et remplacez automatiquement les parties de code.
 1. **[!UICONTROL Annuler]** / **[!UICONTROL Rétablir]** : annulez / rétablissez la dernière opération.
-1. **[!UICONTROL Saisie automatique]** : suggère et complète automatiquement le code au fur et à mesure que vous le tapez. Cette fonctionnalité est disponible uniquement pour les formats HTML et Texte et prend en charge les attributs de profil et de contexte. Si cette option est désactivée, l’éditeur fournit la saisie semi-automatique du code HTML natif à la place.
+1. **[!UICONTROL Saisie automatique]** : suggère et complète automatiquement le code au fur et à mesure que vous le tapez. Cette fonctionnalité est disponible uniquement pour les formats HTML et Texte et prend en charge les attributs de profil et de contexte. Si cette option est désactivée, l’éditeur assure la saisie semi-automatique du code HTML natif à la place.
 
    ![](assets/perso-complete.png){width="70%" align="center" zoomable="yes"}
 

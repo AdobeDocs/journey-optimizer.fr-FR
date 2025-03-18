@@ -5,10 +5,11 @@ title: Utiliser l’activité Partage
 description: Découvrez comment utiliser l’activité Partage dans une campagne à plusieurs étapes
 hide: true
 hidefromtoc: true
-source-git-commit: 00f843300a9cfe798ea4d3a92fbe89ba80e70bc5
+exl-id: 986bc566-123a-451d-a4a6-bbf5a2798849
+source-git-commit: 323472ef9d6203cbbadc44ceb17ddcc7f6207323
 workflow-type: tm+mt
 source-wordcount: '998'
-ht-degree: 87%
+ht-degree: 89%
 
 ---
 
@@ -26,7 +27,7 @@ L’activité **Partage** est une activité de **ciblage** vous permettant de se
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_split_segments"
 >title="Segments de l’activité de partage"
->abstract="Ajoutez autant de sous-ensembles que vous le souhaitez pour segmenter la population entrante.<br/></br>Lorsque l’activité **Partage** est exécutée, la population est segmentée entre les différents sous-ensembles dans l’ordre dans lequel ils sont ajoutés à l’activité. Avant de commencer votre campagne à plusieurs étapes, assurez-vous d’avoir trié les sous-ensembles dans l’ordre adapté à vos besoins à l’aide des boutons fléchés."
+>abstract="Ajoutez autant de sous-ensembles que vous le souhaitez pour segmenter la population entrante.<br/></br>Lorsque l’activité **Partage** est exécutée, la population est segmentée entre les différents sous-ensembles dans l’ordre dans lequel ils sont ajoutés à l’activité. Avant de démarrer votre campagne à étapes multiples, assurez-vous d’avoir trié les sous-ensembles dans l’ordre qui vous convient à l’aide des boutons fléchés."
 
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_split_filter"

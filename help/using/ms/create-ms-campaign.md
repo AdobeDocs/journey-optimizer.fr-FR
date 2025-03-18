@@ -9,16 +9,16 @@ exl-id: 13da680d-fef8-4749-9190-8ca3d77b060a
 source-git-commit: 271c4739a5537a99da981913606bc9eb099b5139
 workflow-type: tm+mt
 source-wordcount: '706'
-ht-degree: 13%
+ht-degree: 31%
 
 ---
 
-# Création d’une campagne orchestrée {#create-first-campaign}
+# Créer une campagne orchestrée {#create-first-campaign}
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_creation_workflow"
->title="Liste des campagnes à plusieurs étapes"
->abstract="L’onglet **à plusieurs étapes** répertorie toutes les campagnes à plusieurs étapes. Cliquez sur le nom d’une campagne à plusieurs étapes pour la modifier. Utilisez le bouton **Créer une campagne à plusieurs étapes** pour ajouter une nouvelle campagne à plusieurs étapes."
+>title="Liste de campagnes à étapes multiples"
+>abstract="L’onglet **étapes multiples** répertorie toutes les campagnes à étapes multiples. Cliquez sur le nom d’une campagne à étapes multiples pour la modifier. Cliquez sur le bouton **Créer une campagne à étapes multiples** pour ajouter une nouvelle campagne à étapes multiples."
 
 ## Conditions préalables
 
@@ -47,19 +47,19 @@ Pour créer une campagne à plusieurs étapes, procédez comme suit :
 
 Votre campagne à plusieurs étapes est maintenant créée et disponible dans la liste des workflows. Vous pouvez maintenant accéder à sa zone de travail visuelle et commencer à ajouter, configurer et orchestrer les tâches qu’il exécutera. [Découvrez comment orchestrer des activités de campagne à plusieurs étapes](orchestrate-activities.md).
 
-## Utilisation de modèles de campagne à plusieurs étapes {#campaign-templates}
+## Utiliser des modèles de campagnes à étapes multiples {#campaign-templates}
 
 >[!CONTEXTUALHELP]
 >id="ajo_workflow_template_for_campaign"
->title="Modèles de campagne à plusieurs étapes"
->abstract="Les modèles de campagne à plusieurs étapes contiennent des paramètres et des activités préconfigurés qui peuvent être réutilisés pour créer une campagne à plusieurs étapes."
+>title="Modèles de campagnes à étapes multiples"
+>abstract="Les modèles de campagnes à étapes multiples contiennent des activités et des paramètres préconfigurés qui peuvent être réutilisés pour créer d’autres campagnes à étapes multiples."
 
 >[!CONTEXTUALHELP]
 >id="ajo_workflow_template_creation_properties"
->title="Propriétés de campagne à plusieurs étapes"
->abstract="Les modèles de campagne à plusieurs étapes contiennent des paramètres et des activités préconfigurés qui peuvent être réutilisés pour créer des campagnes à plusieurs étapes. Dans cet écran, saisissez le libellé du modèle de campagne à plusieurs étapes et configurez ses paramètres tels que son nom interne, ses dossiers et dossiers d&#39;exécution, son fuseau horaire et son groupe de superviseurs."
+>title="Propriétés des campagnes à étapes multiples"
+>abstract="Les modèles de campagnes à étapes multiples contiennent des activités et des paramètres préconfigurés qui peuvent être réutilisés pour créer d’autres campagnes à étapes multiples. Dans cet écran, saisissez le libellé du modèle de campagne à étapes multiples et paramétrez-la, notamment avec son nom interne, son dossier et ses dossiers d’exécution, son fuseau horaire et son groupe de supervision."
 
-Les modèles de campagne à plusieurs étapes contiennent des paramètres et des activités préconfigurés qui peuvent être réutilisés pour créer des campagnes à plusieurs étapes. Vous pouvez sélectionner le modèle de votre campagne à plusieurs étapes dans les propriétés de la campagne à plusieurs étapes, lors de la création d’une campagne à plusieurs étapes. Un modèle vide est fourni par défaut.
+Les modèles de campagnes à étapes multiples contiennent des activités et des paramètres préconfigurés qui peuvent être réutilisés pour créer d’autres campagnes à étapes multiples. Vous pouvez sélectionner le modèle de votre campagne à plusieurs étapes dans les propriétés de la campagne à plusieurs étapes, lors de la création d’une campagne à plusieurs étapes. Un modèle vide est fourni par défaut.
 
 Vous pouvez créer un modèle à partir d’une campagne à plusieurs étapes existante ou créer un modèle à partir de zéro. Les deux méthodes sont présentées ci-dessous.
 

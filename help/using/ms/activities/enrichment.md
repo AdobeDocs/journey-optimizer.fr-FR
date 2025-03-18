@@ -5,10 +5,11 @@ title: Utiliser l’activité Enrichissement
 description: Découvrir comment utiliser l’activité Enrichissement
 hide: true
 hidefromtoc: true
-source-git-commit: 00f843300a9cfe798ea4d3a92fbe89ba80e70bc5
+exl-id: 8a0aeae8-f4f2-4f1d-9b89-28ce573fadfd
+source-git-commit: 323472ef9d6203cbbadc44ceb17ddcc7f6207323
 workflow-type: tm+mt
 source-wordcount: '2049'
-ht-degree: 78%
+ht-degree: 86%
 
 ---
 
@@ -49,12 +50,12 @@ Pour configurer l’activité **Enrichissement**, procédez comme suit :
 >[!CONTEXTUALHELP]
 >id="ajo_targetdata_personalization_enrichmentdata"
 >title="Données d’enrichissement"
->abstract="Sélectionnez les données à utiliser pour enrichir votre campagne à plusieurs étapes. Vous pouvez sélectionner deux types de données d’enrichissement : un seul attribut d’enrichissement de la dimension cible ou un lien de collection, qui est un lien avec une cardinalité 1-N entre les tableaux."
+>abstract="Sélectionnez les données à utiliser pour enrichir votre campagne à étapes multiples. Vous pouvez sélectionner deux types de données d’enrichissement : un seul attribut d’enrichissement de la dimension cible ou un lien de collection, qui est un lien avec une cardinalité 1-N entre les tableaux."
 
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_enrichment_data"
 >title="Activité Enrichissement"
->abstract="Une fois que les données d’enrichissement ont été ajoutées à la campagne à plusieurs étapes, vous pouvez les utiliser dans les activités ajoutées après l’activité Enrichissement pour segmenter les clients en groupes distincts en fonction de leurs comportements, préférences et besoins. Vous pouvez également vous en servir pour créer des messages et des campagnes marketing personnalisés qui résonneront davantage auprès de votre audience cible."
+>abstract="Une fois que les données d’enrichissement ont été ajoutées à la campagne à étapes multiples, vous pouvez les utiliser dans les activités ajoutées après l’activité Enrichissement pour segmenter les clientes et clients en groupes distincts en fonction de leurs comportements, préférences et besoins. Vous pouvez également vous en servir pour créer des messages et des campagnes marketing personnalisés qui résonneront davantage auprès de votre audience cible."
 
 1. Cliquez sur **Ajouter des données d’enrichissement** et sélectionnez l’attribut à utiliser pour enrichir les données.
 
@@ -73,9 +74,9 @@ Pour configurer l’activité **Enrichissement**, procédez comme suit :
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_enrichment_simplejoin"
 >title="Définition de lien"
->abstract="Créer un lien entre les données de la table de travail et Adobe Journey Optimizer. Par exemple, si vous chargez les données d’un fichier contenant le numéro de compte, le pays et l’e-mail des personnes destinataires, vous devez créer un lien vers le tableau des pays afin de mettre à jour cette information dans leur profil."
+>abstract="Créez un lien entre les données de la table de travail et Adobe Journey Optimizer. Par exemple, si vous chargez les données d’un fichier contenant le numéro de compte, le pays et l’adresse e-mail des personnes destinataires, vous devez créer un lien vers le tableau des pays afin de mettre à jour cette information dans leur profil."
 
-La section **[!UICONTROL Définition du lien]** vous permet de créer un lien entre les données de la table de travail et Adobe Journey Optimizer. Par exemple, si vous chargez les données d’un fichier contenant le numéro de compte, le pays et l’e-mail des personnes destinataires, vous devez créer un lien vers le tableau des pays afin de mettre à jour cette information dans leur profil.
+La section **[!UICONTROL Définition du lien]** vous permet de créer un lien entre les données de la table de travail et Adobe Journey Optimizer. Par exemple, si vous chargez les données d’un fichier contenant le numéro de compte, le pays et l’adresse e-mail des personnes destinataires, vous devez créer un lien vers le tableau des pays afin de mettre à jour cette information dans leur profil.
 
 Plusieurs types de liens sont disponibles :
 
@@ -108,9 +109,9 @@ Un exemple de workflow utilisant des liens est disponible dans la section [Exemp
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_enrichment_reconciliation"
 >title="Réconciliation"
->abstract="L&#39;activité **Enrichissement** peut être utilisée pour réconcilier des données du schéma Journey Optimizer avec des données provenant d&#39;un autre schéma, ou avec des données provenant d&#39;un schéma temporaire telles que des données téléchargées à l&#39;aide d&#39;une activité Chargement de fichier . Ce type de lien définit une réconciliation vers un enregistrement unique. Journey Optimizer crée un lien vers une table cible en y ajoutant une clé étrangère pour stocker une référence à l&#39;enregistrement unique."
+>abstract="L’activité **Enrichissement** peut être utilisée pour réconcilier des données provenant du schéma de Journey Optimizer avec des données issues d’un autre schéma, ou avec des données provenant d’un schéma temporaire, comme des données chargées à l’aide d’une activité Chargement de fichier. Ce type de lien définit une réconciliation vers un enregistrement unique. Journey Optimizer crée un lien vers un tableau cible en ajoutant une clé étrangère permettant de stocker une référence vers l’enregistrement unique."
 
-L’activité **Enrichissement** peut être utilisée pour réconcilier des données provenant du schéma de la base de données Campaign avec des données issues d’un autre schéma, ou avec des données provenant d’un schéma temporaire, comme des données chargées à l’aide d’une activité Chargement de fichier. Ce type de lien définit une réconciliation vers un enregistrement unique. Journey Optimizer crée un lien vers une table cible en y ajoutant une clé étrangère pour stocker une référence à l&#39;enregistrement unique.
+L’activité **Enrichissement** peut être utilisée pour réconcilier des données provenant du schéma de la base de données Campaign avec des données issues d’un autre schéma, ou avec des données provenant d’un schéma temporaire, comme des données chargées à l’aide d’une activité Chargement de fichier. Ce type de lien définit une réconciliation vers un enregistrement unique. Journey Optimizer crée un lien vers un tableau cible en ajoutant une clé étrangère permettant de stocker une référence vers l’enregistrement unique.
 
 Par exemple, vous pouvez utiliser cette option pour réconcilier le pays d’un profil, indiqué dans un fichier chargé, avec l’un des pays disponibles dans le tableau dédié de la base de données Campaign.
 
@@ -268,4 +269,3 @@ L’exemple ci-dessous montre une campagne en plusieurs étapes configurée pour
 * Une deuxième activité **Enrichissement** est ajoutée afin d&#39;enrichir les données de la table de campagne à plusieurs étapes avec les données d&#39;achat provenant de l&#39;activité **Chargement de fichier**. Cela nous permet d’utiliser ces données dans d’autres activités, par exemple pour personnaliser les messages envoyés aux clientes et clients avec des informations sur leur achat.
 
   ![](../assets/enrichment-uc-link-data.png)
-

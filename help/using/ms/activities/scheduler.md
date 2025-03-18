@@ -5,10 +5,11 @@ title: Utiliser l’activité Planificateur
 description: Découvrez comment utiliser l’activité Planificateur dans une campagne à plusieurs étapes
 hide: true
 hidefromtoc: true
-source-git-commit: dfa6c6e11db10f3e843035d32e322b212361548c
+exl-id: da77a0bf-7b17-40fc-b2cb-2f0940152e64
+source-git-commit: 323472ef9d6203cbbadc44ceb17ddcc7f6207323
 workflow-type: tm+mt
 source-wordcount: '547'
-ht-degree: 35%
+ht-degree: 42%
 
 ---
 
@@ -18,10 +19,10 @@ ht-degree: 35%
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_scheduler"
 >title="Activité Planificateur"
->abstract="L’activité **Planificateur** vous permet de planifier le démarrage de la campagne à plusieurs étapes. Cette activité est à considérer comme un démarrage planifié. Elle ne peut être utilisée que comme première activité de la campagne à plusieurs étapes."
+>abstract="L’activité **Planificateur** vous permet de planifier le démarrage de la campagne à étapes multiples. Cette activité est à considérer comme un démarrage planifié. Elle ne peut être utilisée que comme première activité de la campagne à étapes multiples."
 
 
-L’activité **Planificateur** est une activité de **contrôle de flux**. Elle vous permet de planifier le démarrage de la campagne à plusieurs étapes. Cette activité est à considérer comme un démarrage planifié. Elle ne peut être utilisée que comme première activité de la campagne à plusieurs étapes.
+L’activité **Planificateur** est une activité de **contrôle de flux**. Elle vous permet de planifier le démarrage de la campagne à plusieurs étapes. Cette activité est à considérer comme un démarrage planifié. Elle ne peut être utilisée que comme première activité de la campagne à étapes multiples.
 
 ## Bonnes pratiques{#scheduler-best-practices}
 

@@ -5,10 +5,11 @@ title: Utiliser l'activité Chargement de fichier
 description: Découvrez comment utiliser l’activité Chargement de fichier dans une campagne à plusieurs étapes
 hide: true
 hidefromtoc: true
-source-git-commit: 00f843300a9cfe798ea4d3a92fbe89ba80e70bc5
+exl-id: ae0dc980-2361-4c3b-a68e-ae0bb5dc0a26
+source-git-commit: 323472ef9d6203cbbadc44ceb17ddcc7f6207323
 workflow-type: tm+mt
 source-wordcount: '1178'
-ht-degree: 85%
+ht-degree: 88%
 
 ---
 
@@ -105,7 +106,7 @@ Pour configurer le fichier d’exemple utilisé pour définir la structure de fi
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_loadfile_targetdb"
 >title="Base de données cible"
->abstract="Si vous accédez à une activité **[!UICONTROL Chargement de fichier]** déjà configurée, une section **[!UICONTROL Base de données cible]** supplémentaire est disponible si vous avez configuré l’activité pour charger le fichier dans une base de données externe."
+>abstract="Si vous accédez à une activité **[!UICONTROL Chargement de fichier]** qui a déjà été configurée, une section supplémentaire **[!UICONTROL Base de données cible]** est disponible si vous avez configuré l’activité pour qu’elle charge le fichier vers une base de données externe."
 
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_loadfile_command"

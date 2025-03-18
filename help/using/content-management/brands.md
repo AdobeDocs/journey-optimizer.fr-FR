@@ -11,7 +11,7 @@ exl-id: b1b7abbe-8600-4a8d-b0b5-0dbd49abc275
 source-git-commit: d80f9309cfff4307b1b37ce44b037730a374d4a2
 workflow-type: tm+mt
 source-wordcount: '640'
-ht-degree: 58%
+ht-degree: 88%
 
 ---
 
@@ -19,23 +19,23 @@ ht-degree: 58%
 
 >[!CONTEXTUALHELP]
 >id="ajo_brand_overview"
->title="Prise en main des marques"
->abstract="Créez et personnalisez vos propres marques pour définir votre identité visuelle et verbale unique tout en facilitant la génération de contenu correspondant au style et à la voix de votre marque."
+>title="Commencer avec les marques"
+>abstract="Créez et personnalisez vos propres marques pour définir votre identité visuelle et verbale unique, tout en facilitant la génération de contenu correspondant au style et à la voix de votre marque."
 
 >[!CONTEXTUALHELP]
 >id="ajo_brand_ai_menu"
 >title="Sélectionner votre marque"
->abstract="Choisissez votre marque pour vous assurer que tout le contenu généré par l’IA est adapté conformément aux spécifications et aux directives de votre marque."
+>abstract="Choisissez votre marque pour vous assurer que le contenu généré par l’IA est adapté aux spécifications et aux directives de votre marque."
 
 >[!CONTEXTUALHELP]
 >id="ajo_brand_score_overview"
 >title="Sélection de la marque"
->abstract="Sélectionnez votre marque pour vous assurer que votre contenu est conçu conformément à ses directives, normes et identités spécifiques, en préservant la cohérence et l’intégrité de la marque."
+>abstract="Sélectionnez votre marque pour vous assurer que votre contenu est conçu conformément à ses directives et standards spécifiques et à son identité propre, en préservant la cohérence et l’intégrité de la marque."
 
 >[!CONTEXTUALHELP]
 >id="ajo_brand_score"
 >title="Score d’alignement de la marque"
->abstract="Le score d’alignement de votre marque mesure dans quelle mesure votre contenu respecte les directives de votre marque, en assurant la cohérence des couleurs, des polices, du logo, des images et du style d’écriture."
+>abstract="Le score d’alignement de votre marque mesure la concordance de votre contenu avec vos directives de marque, en assurant la cohérence des couleurs, des polices, du logo, des images et du style d’écriture."
 
 >[!CONTEXTUALHELP]
 >id="ajo_brand_colors"
@@ -103,7 +103,7 @@ Pour accéder au menu **[!UICONTROL Marques]** dans [!DNL Adobe Journey Optimize
 >[!CONTEXTUALHELP]
 >id="ajo_brands_create"
 >title="Créer votre marque"
->abstract="Saisissez votre nom de marque et téléchargez votre fichier de directives de marque. L&#39;outil extrait automatiquement les détails clés, ce qui facilite la gestion de l&#39;identité de votre marque."
+>abstract="Saisissez votre nom de marque et chargez votre fichier de directives de marque. L’outil extrait automatiquement les détails clés, ce qui facilite la gestion de votre identité de marque."
 
 Pour créer et gérer vos directives de marque, vous pouvez saisir vous-même les détails ou charger votre document de directives de marque pour que les informations soient extraites automatiquement :
 
@@ -111,11 +111,11 @@ Pour créer et gérer vos directives de marque, vous pouvez saisir vous-même le
 
    ![](assets/brands-1.png)
 
-1. Saisissez un **[!UICONTROL Nom]** pour votre marque.
+1. Saisissez le **[!UICONTROL nom]** de votre marque.
 
-1. Effectuez un glisser-déposer ou sélectionnez votre fichier pour charger les directives de votre marque et extraire automatiquement les informations pertinentes sur la marque. Cliquez sur **[!UICONTROL Créer une marque]**.
+1. Effectuez un glisser-déposer ou sélectionnez votre fichier pour charger vos directives de marque et extraire automatiquement les informations pertinentes. Cliquez sur **[!UICONTROL Créer une marque]**.
 
-   Le processus d’extraction des informations commence maintenant. Notez que cette opération peut prendre plusieurs minutes.
+   Le processus d’extraction des informations commence alors. Notez que cette opération peut prendre plusieurs minutes.
 
    ![](assets/brands-2.png)
 

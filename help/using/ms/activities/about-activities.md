@@ -5,13 +5,13 @@ title: Utilisation d’activités de campagne à plusieurs étapes
 description: Découvrez comment effectuer des activités de campagne à plusieurs étapes
 hide: true
 hidefromtoc: true
-source-git-commit: 658d82820d3f307481c44a142c38727f777fd879
+exl-id: 02f986b2-8200-4e0e-8918-44e528a6a3ec
+source-git-commit: 323472ef9d6203cbbadc44ceb17ddcc7f6207323
 workflow-type: tm+mt
 source-wordcount: '452'
-ht-degree: 55%
+ht-degree: 58%
 
 ---
-
 
 # À propos des activités de campagne à plusieurs étapes {#ms-campaign-activities}
 
@@ -54,7 +54,7 @@ Adobe Journey Optimizer vous permet d’automatiser et d’exécuter des campagn
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_end"
 >title="Activité de fin"
->abstract="L’activité **Fin** vous permet de marquer graphiquement la fin d’une campagne à plusieurs étapes. Cette activité n’a aucun impact fonctionnel et est donc facultative."
+>abstract="L’activité **Fin** vous permet de marquer graphiquement la fin d’une campagne à étapes multiples. Cette activité n’a aucun impact fonctionnel et est donc facultative."
 
 Les activités suivantes sont spécifiques à l&#39;organisation et à l&#39;exécution de campagnes à plusieurs étapes. Leur principale tâche est de coordonner les autres activités :
 

@@ -5,10 +5,11 @@ title: Utiliser l’activité Créer une audience
 description: Découvrez comment utiliser l’activité Créer une audience dans une campagne à plusieurs étapes
 hide: true
 hidefromtoc: true
-source-git-commit: 00f843300a9cfe798ea4d3a92fbe89ba80e70bc5
+exl-id: 3959b5fa-0c47-42a5-828f-4d7ca9b7e72d
+source-git-commit: 323472ef9d6203cbbadc44ceb17ddcc7f6207323
 workflow-type: tm+mt
 source-wordcount: '368'
-ht-degree: 61%
+ht-degree: 79%
 
 ---
 
@@ -17,9 +18,9 @@ ht-degree: 61%
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_build_audience"
 >title="Activité Créer une audience"
->abstract="L’activité **Créer une audience** vous permet de définir l’audience qui va rejoindre la campagne à plusieurs étapes. Lors de l’envoi de messages dans le cadre d’une campagne à plusieurs étapes, l’audience du message n’est pas définie dans l’activité de canal, mais dans l’activité **Créer une audience**."
+>abstract="L’activité **Créer une audience** permet de définir l’audience qui va entrer dans la campagne à étapes multiples. Lors de l’envoi de messages dans le cadre d’une campagne à étapes multiples, l’audience du message n’est pas définie dans l’activité de canal, mais dans l’activité **Créer une audience**."
 
-L’activité **Créer une audience** est une activité de **ciblage**. Cette activité permet de définir l’audience qui va entrer dans la campagne à plusieurs étapes. Lors de l’envoi de messages dans le cadre d’une campagne à plusieurs étapes, l’audience du message n’est pas définie dans l’activité de canal, mais dans l’activité **Créer une audience**.
+L’activité **Créer une audience** est une activité de **ciblage**. Cette activité permet de définir l’audience qui va entrer dans la campagne à plusieurs étapes. Lors de l’envoi de messages dans le cadre d’une campagne à étapes multiples, l’audience du message n’est pas définie dans l’activité de canal, mais dans l’activité **Créer une audience**.
 
 Pour définir la population de l’audience, vous pouvez :
 

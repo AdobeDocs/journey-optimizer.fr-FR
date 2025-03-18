@@ -5,10 +5,11 @@ title: Utiliser l’activité Enregistrer l’audience
 description: Découvrez comment utiliser l’activité Branchement dans une campagne à plusieurs étapes
 hide: true
 hidefromtoc: true
-source-git-commit: dfa6c6e11db10f3e843035d32e322b212361548c
+exl-id: 84e34d21-dca1-4203-8539-f2b20e461936
+source-git-commit: 323472ef9d6203cbbadc44ceb17ddcc7f6207323
 workflow-type: tm+mt
 source-wordcount: '451'
-ht-degree: 67%
+ht-degree: 72%
 
 ---
 
@@ -17,7 +18,7 @@ ht-degree: 67%
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_save_audience"
 >title="Enregistrer une audience"
->abstract="Utilisez cette activité pour mettre à jour une audience existante ou créer une nouvelle audience à partir de la population calculée en amont dans la campagne à plusieurs étapes. Les audiences créées sont ajoutées à la liste des audiences et sont disponibles dans le menu **Audiences**."
+>abstract="Utilisez cette activité pour mettre à jour une audience existante ou créer une audience à partir de la population calculée en amont dans la campagne à étapes multiples. Les audiences créées sont ajoutées à la liste des audiences et sont disponibles dans le menu **Audiences**."
 
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_saveaudience_outbound"

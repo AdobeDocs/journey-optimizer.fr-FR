@@ -5,10 +5,11 @@ title: Utiliser l’activité Test dans vos campagnes à plusieurs étapes
 description: Découvrez comment utiliser l’activité Test
 hide: true
 hidefromtoc: true
-source-git-commit: dfa6c6e11db10f3e843035d32e322b212361548c
+exl-id: edd70849-0a21-45f2-91f3-4774a0cad9dd
+source-git-commit: 323472ef9d6203cbbadc44ceb17ddcc7f6207323
 workflow-type: tm+mt
 source-wordcount: '386'
-ht-degree: 64%
+ht-degree: 80%
 
 ---
 
@@ -22,7 +23,7 @@ ht-degree: 64%
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_test_conditions"
 >title="Conditions"
->abstract="L’activité **Test** peut avoir plusieurs transitions sortantes. Lors de l’exécution de la campagne en plusieurs étapes, chaque condition est testée de manière séquentielle jusqu’à ce que l’une d’elles soit remplie. Si aucune des conditions n’est remplie, la campagne à plusieurs étapes se poursuit sur le chemin de la **[!UICONTROL condition par défaut]**. Si aucune condition par défaut n’est activée, la campagne à plusieurs étapes s’arrête à ce stade."
+>abstract="L’activité **Test** peut avoir plusieurs transitions sortantes. Lors de l’exécution d’une campagne à étapes multiples, chaque condition est testée de manière séquentielle jusqu’à ce que l’une d’elles soit remplie. Si aucune des conditions n’est remplie, la campagne à étapes multiples se poursuit selon le chemin de la **[!UICONTROL condition par défaut]**. Si aucune condition par défaut n’est activée, la campagne à étapes multiples s’arrête à ce stade."
 
 L’activité **Test** est une activité de **contrôle de flux**. Il permet d’activer des transitions en fonction de conditions spécifiées.
 
@@ -42,7 +43,7 @@ Pour configurer l’activité **Test**, procédez comme suit :
 
 1. Vous pouvez ajouter plusieurs transitions de sortie à une activité **[!UICONTROL Test]**. Pour cela, cliquez sur le bouton **[!UICONTROL Ajouter une condition]** et configurez le libellé et la condition associée pour chaque transition.
 v
-1. Lors de l’exécution de la campagne en plusieurs étapes, chaque condition est testée de manière séquentielle jusqu’à ce que l’une d’elles soit remplie. Si aucune des conditions n’est remplie, les campagnes à plusieurs étapes se poursuivent sur le chemin de la **[!UICONTROL condition par défaut]**. Si aucune condition par défaut n’est activée, les workflows s’arrêtent à ce stade.
+1. Lors de l’exécution d’une campagne à étapes multiples, chaque condition est testée de manière séquentielle jusqu’à ce que l’une d’elles soit remplie. Si aucune des conditions n’est remplie, les campagnes à plusieurs étapes se poursuivent sur le chemin de la **[!UICONTROL condition par défaut]**. Si aucune condition par défaut n’est activée, les workflows s’arrêtent à ce stade.
 
 ## Exemple {#example}
 

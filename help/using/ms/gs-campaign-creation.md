@@ -9,7 +9,7 @@ exl-id: b04aa15a-71bf-4683-bcbf-f611c189ffe1
 source-git-commit: 3ecb1691cc8a1c429d9bd9919b06ddc5a316eff7
 workflow-type: tm+mt
 source-wordcount: '461'
-ht-degree: 25%
+ht-degree: 31%
 
 ---
 
@@ -17,8 +17,8 @@ ht-degree: 25%
 
 >[!CONTEXTUALHELP]
 >id="ajo_targeting_workflow_list"
->title="Campagne à plusieurs étapes"
->abstract="Dans cet écran, vous pouvez accéder à la liste complète des campagnes à plusieurs étapes, vérifier leur statut actuel, les dates de dernière exécution et de prochaine exécution, et créer une campagne à plusieurs étapes."
+>title="Campagne à étapes multiples"
+>abstract="Dans cet écran, vous pouvez accéder à la liste complète des campagnes à étapes multiples, vérifier leur statut actuel, les dates de dernière exécution et de prochaine exécution, et créer une campagne à étapes multiples."
 
 Avec Adobe Journey Optimizer, vous pouvez créer des campagnes à plusieurs étapes dans une zone de travail visuelle afin de concevoir des processus cross-canal tels que la segmentation, l’exécution de campagnes ou le traitement de fichiers.
 

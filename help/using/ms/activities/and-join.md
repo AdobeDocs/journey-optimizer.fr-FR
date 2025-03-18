@@ -5,10 +5,11 @@ title: Utiliser l’activité Rendez-vous
 description: Découvrez comment utiliser l’activité Rendez-vous dans une campagne à plusieurs étapes
 hide: true
 hidefromtoc: true
-source-git-commit: dfa6c6e11db10f3e843035d32e322b212361548c
+exl-id: 1b99313e-f131-44f7-a129-f85e1977fb05
+source-git-commit: 323472ef9d6203cbbadc44ceb17ddcc7f6207323
 workflow-type: tm+mt
 source-wordcount: '261'
-ht-degree: 66%
+ht-degree: 78%
 
 ---
 
@@ -17,7 +18,7 @@ ht-degree: 66%
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_and-join"
 >title="Activité Rendez-vous"
->abstract="L’activité **Rendez-vous** vous permet de synchroniser plusieurs branches d’exécution d’une campagne à plusieurs étapes. Elle est déclenchée une fois toutes les activités précédentes terminées. Vous pouvez ainsi vous assurer que certaines activités sont terminées avant de continuer à exécuter la campagne à plusieurs étapes."
+>abstract="L’activité **Rendez-vous** vous permet de synchroniser plusieurs branches d’exécution d’une campagne à étapes multiples. Elle est déclenchée une fois toutes les activités précédentes terminées. Vous pouvez ainsi vous assurer que certaines activités sont terminées avant de continuer à exécuter la campagne à étapes multiples."
 
 L’activité **Rendez-vous** est une activité de **contrôle de flux**. Elle permet de synchroniser plusieurs branches d’exécution d’une campagne à plusieurs étapes.
 

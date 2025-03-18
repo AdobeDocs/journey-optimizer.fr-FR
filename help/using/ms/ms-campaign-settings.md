@@ -1,24 +1,24 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Configuration des paramètres de campagne à plusieurs étapes
+title: Configurer des paramètres de campagne à étapes multiples
 description: Découvrez comment configurer les paramètres de campagne à plusieurs étapes avec Adobe Journey Optimizer
 hide: true
 hidefromtoc: true
-source-git-commit: 00f843300a9cfe798ea4d3a92fbe89ba80e70bc5
+exl-id: a9bb3782-a4d1-43fe-ae2a-aef3f17ba588
+source-git-commit: 323472ef9d6203cbbadc44ceb17ddcc7f6207323
 workflow-type: tm+mt
 source-wordcount: '1082'
-ht-degree: 22%
+ht-degree: 41%
 
 ---
 
-
-# Configuration des paramètres de campagne à plusieurs étapes {#workflow-settings}
+# Configurer des paramètres de campagne à étapes multiples {#workflow-settings}
 
 >[!CONTEXTUALHELP]
 >id="ajo_workflow_creation_properties"
->title="Propriétés de campagne à plusieurs étapes"
->abstract="Dans cet écran, choisissez le modèle à utiliser pour créer la campagne à plusieurs étapes et indiquez un libellé. Développez la section **Options supplémentaires** pour configurer d’autres paramètres tels que le nom interne de la campagne à plusieurs étapes, son dossier, son fuseau horaire et son groupe de superviseurs. Il est vivement recommandé de sélectionner un groupe de personnes responsables afin d’alerter les opérateurs et opératrices en cas d’erreur."
+>title="Propriétés des campagnes à étapes multiples"
+>abstract="Dans cet écran, choisissez le modèle à utiliser pour créer la campagne à étapes multiples et indiquez un libellé. Développez la section **Options supplémentaires** pour configurer d’autres paramètres, tels que le nom interne de la campagne à étapes multiples, son dossier, son fuseau horaire et le groupe de supervision. Il est vivement recommandé de sélectionner un groupe de supervision afin d’alerter les opérateurs et opératrices en cas d’erreur."
 
 Lors de la création d’une campagne à plusieurs étapes ou de l’orchestration d’activités de campagne à plusieurs étapes dans la zone de travail, vous pouvez accéder aux paramètres avancés de la campagne à plusieurs étapes. Par exemple, vous pouvez définir un fuseau horaire spécifique pour la campagne à plusieurs étapes, gérer le comportement de la campagne à plusieurs étapes en cas d’erreur ou gérer le délai après lequel l’historique de la campagne à plusieurs étapes doit être purgé.
 
@@ -26,12 +26,12 @@ Ces paramètres sont préconfigurés dans le modèle sélectionné lors de la cr
 
 ![](assets/workflow-settings-button.png){zoomable="yes"}{width="70%" align="left"}
 
-## Propriétés de campagne à plusieurs étapes {#properties}
+## Propriétés des campagnes à étapes multiples {#properties}
 
 >[!CONTEXTUALHELP]
 >id="ajo_workflow_settings_properties"
->title="Propriétés de campagne à plusieurs étapes"
->abstract="Cette section fournit des propriétés de campagne génériques à plusieurs étapes qui sont également accessibles lors de la création de la campagne à plusieurs étapes. Vous pouvez choisir le modèle à utiliser pour créer la campagne à plusieurs étapes et spécifier un libellé. Développez la section Options supplémentaires pour configurer des paramètres spécifiques tels que le dossier de stockage de la campagne à plusieurs étapes ou le fuseau horaire."
+>title="Propriétés des campagnes à étapes multiples"
+>abstract="Cette section fournit des propriétés de campagnes à étapes multiples génériques, lesquelles sont également accessibles lors de la création de la campagne à étapes multiples. Vous pouvez choisir le modèle à utiliser pour créer la campagne à étapes multiples et indiquer un libellé. Développez la section Options supplémentaires pour configurer des paramètres spécifiques, tels que le dossier de stockage de la campagne à étapes multiples ou le fuseau horaire."
 
 La section **[!UICONTROL Propriétés]** fournit des paramètres génériques qui peuvent être configurés lors de la création d’une campagne à plusieurs étapes. Pour accéder aux propriétés d’une campagne existante à plusieurs étapes, cliquez sur le bouton **[!UICONTROL Paramètres]** disponible dans la barre d’actions située au-dessus de la zone de travail de la campagne à plusieurs étapes.
 
@@ -58,7 +58,7 @@ Les valeurs possibles sont les suivantes :
 >[!CONTEXTUALHELP]
 >id="ajo_workflow_settings_segmentation"
 >title="Paramètres de segmentation"
->abstract="Dans cette section, vous pouvez sélectionner la dimension de ciblage pour cibler les profils dans la campagne à plusieurs étapes et choisir de conserver les résultats du workflow entre deux exécutions. Cette option ne doit être utilisée qu’à des fins de test. Elle ne doit en aucun cas être activée dans une campagne de production à plusieurs étapes."
+>abstract="Cette section vous permet de sélectionner la dimension de ciblage pour cibler les profils dans la campagne à étapes multiples et de conserver ou non les résultats du workflow entre deux exécutions. Cette option ne doit être utilisée qu’à des fins de test. Elle ne doit en aucun cas être activée dans une campagne de production à étapes multiples."
 
 * **[!UICONTROL Dimension de ciblage]** : sélectionnez la dimension de ciblage à utiliser pour cibler les profils (destinataires, bénéficiaires d’un contrat, opérateur ou opératrice, abonnées et abonnés, etc.).
 
@@ -71,7 +71,7 @@ Les valeurs possibles sont les suivantes :
 >[!CONTEXTUALHELP]
 >id="ajo_workflow_settings_execution"
 >title="Paramètres d’exécution"
->abstract="Dans cette section, vous pouvez configurer les paramètres liés à l&#39;exécution du workflow, tels que le nombre de jours pendant lesquels l&#39;historique de la campagne à plusieurs étapes est conservé."
+>abstract="Dans cette section, vous pouvez définir les paramètres relatifs à l’exécution du workflow, comme le nombre de jours pendant lesquels l’historique de la campagne à étapes multiples est conservé."
 
 * **[!UICONTROL Jours d’historique]** : indique le nombre de jours après lesquels l’historique doit être purgé. L’historique contient des éléments liés à la campagne à plusieurs étapes : logs, tâches, événements (objets techniques liés à l’opération de campagne à plusieurs étapes). La valeur par défaut est de 30 jours pour les modèles de campagne prêts à l’emploi à plusieurs étapes. La purge de l’historique est effectuée par la campagne technique à plusieurs étapes de nettoyage de la base de données, qui est exécutée par défaut tous les jours
 
@@ -93,7 +93,7 @@ Les valeurs possibles sont les suivantes :
 >[!CONTEXTUALHELP]
 >id="ajo_workflow_settings_error"
 >title="Paramètres de gestion des erreurs"
->abstract="Dans cette section, vous pouvez définir comment la campagne à plusieurs étapes doit gérer les erreurs lors de son exécution. Vous pouvez choisir de suspendre le processus, d’ignorer un certain nombre d’erreurs ou d’arrêter l’exécution de la campagne à plusieurs étapes."
+>abstract="Dans cette section, vous pouvez définir la façon dont la campagne à étapes multiples doit gérer les erreurs lors de son exécution. Vous pouvez choisir de suspendre le processus, d’ignorer un certain nombre d’erreurs ou d’arrêter l’exécution de la campagne à étapes multiples."
 
 * **[!UICONTROL Gestion des erreurs]** : ce champ vous permet de définir les actions à effectuer si une tâche de campagne multi-étapes comporte des erreurs. Trois choix s’offrent à vous :
 
@@ -106,4 +106,3 @@ Les valeurs possibles sont les suivantes :
 ## Script d’initialisation {#initialization-script}
 
 Ce **script d’initialisation** vous permet d’initialiser des variables ou de modifier des propriétés d’activité. Cliquez sur le bouton **Modifier le code** et saisissez l’extrait de code à exécuter. Le script est appelé lorsque la campagne à plusieurs étapes s’exécute. Consultez la section relative aux [variables d’événement](event-variables.md).
-
