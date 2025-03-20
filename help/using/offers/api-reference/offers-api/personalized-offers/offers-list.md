@@ -6,10 +6,10 @@ topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: 45d51918-1106-4b6b-b383-8ab4d9a4f7af
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: b3fed5a48480647010f59fa471c505b4031b8701
 workflow-type: tm+mt
-source-wordcount: '199'
-ht-degree: 100%
+source-wordcount: '283'
+ht-degree: 72%
 
 ---
 
@@ -42,7 +42,7 @@ curl -X GET 'https://platform.adobe.io/data/core/dps/offers?offer-type=personali
 -H 'x-sandbox-name: {SANDBOX_NAME}'
 ```
 
-## Utilisation des paramètres de requête {#using-query-parameters}
+## Utiliser des paramètres de requête {#using-query-parameters}
 
 Vous pouvez utiliser des paramètres de requête pour paginer et filtrer les résultats lors de l&#39;organisation en liste des ressources.
 
@@ -123,6 +123,76 @@ Une réponse réussie renvoie une liste d’offres personnalisées présentes au
         "self": {
             "href": "/offers?offer-type=personalized&href={SELF_HREF}",
             "type": "application/json"
+        }
+    }
+}
+```
+
+Effectuez la pagination si plusieurs offres personnalisées sont manquantes dans la réponse.
+
+**Réponse**
+
+```json
+{
+    "results": [...],
+    "count": 2,
+    "total": 43,
+    "_links": {
+        "self": {
+        "href": "/offers?orderby=-modified&limit=2&offer-type=PERSONALIZED",
+        "type": "application/json"
+        },
+        "next": {
+        "href": "/offers?orderby=-modified&limit=2&start={TIMESTAMP}&offer-type=PERSONALIZED",
+        "type": "application/json"
+        }
+    }
+    }
+```
+
+| Mesure | Description |
+|---------|-------------|
+| `total` | Nombre d’offres personnalisées. |
+| `count` | Nombre d’offres renvoyées dans cette réponse. |
+
+Récupérez le point d’entrée d’`_links.next.href` tels que `/offers?orderby=-modified&limit=2&start={TIMESTAMP}&offer-type=PERSONALIZED` et ajoutez-le à l’API.
+
+**Format d’API**
+
+```http
+GET /{ENDPOINT_PATH}/offers?orderby=-modified&limit=2&start={TIMESTAMP}&offer-type=PERSONALIZED
+```
+
+```json
+{
+    "results": [...],
+    "count": 2,
+    "total": 43,
+    "_links": {
+        "self": {...},
+        "next": {
+        "href": "/offers?orderby=-modified&limit=2&start={TIMESTAMP}&offer-type=PERSONALIZED",
+        "type": "application/json"
+        }
+    }
+}
+```
+
+De même, si vous n’êtes pas sur la première page et que vous devez récupérer la page précédente des offres personnalisées, utilisez la valeur `href` de `_links.prev`. Envoyez une requête à l’URL pour récupérer le jeu de résultats précédent, comme illustré dans l’exemple ci-dessous.
+
+**Réponse**
+
+```json
+{
+    "results": [...],
+    "count": 2,
+    "total": 43,
+    "_links": {
+        "self": {...},
+        "next": {...},
+        "prev": {
+        "href": "/offers?orderby=-modified&limit=2&start={TIMESTAMP}&offer-type=PERSONALIZED",
+        "type": "application/json"
         }
     }
 }
