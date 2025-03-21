@@ -8,10 +8,10 @@ topic: Content Management
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: d2039ce0efdefaa0708a790135599d2ce97e48f1
+source-git-commit: c4961af2653e8135c72dd57997131c56f54b24a5
 workflow-type: tm+mt
-source-wordcount: '663'
-ht-degree: 41%
+source-wordcount: '713'
+ht-degree: 38%
 
 ---
 
@@ -167,3 +167,7 @@ Vous pouvez désormais attribuer des balises unifiées Adobe Experience Platform
 **Délivrabilité**
 
 Vous pouvez désormais déléguer des sous-domaines avec DMARC géré à partir du côté parent.
+
+**Règles métier**
+
+Vous pouvez désormais utiliser le capping de la fréquence quotidienne dans les parcours et les campagnes avec la segmentation par lots. Pour garantir la précision des règles de limitation de la fréquence quotidienne, veillez à choisir l’espace de noms de priorité la plus élevée lors de la création d’une campagne ou d’un parcours. Pour en savoir plus sur la priorité des espaces de noms, consultez le guide [ Platform Identity Service ](https://experienceleague.adobe.com/en/docs/experience-platform/identity/features/identity-graph-linking-rules/namespace-priority){target="_blank"}
