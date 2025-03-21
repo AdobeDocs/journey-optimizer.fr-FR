@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 4407961654a1d55bf20d8091447dc2f1ef703ea3
-workflow-type: ht
-source-wordcount: '6222'
-ht-degree: 100%
+source-git-commit: 6acfe14469a74216b196e4d5ee059839aea32226
+workflow-type: tm+mt
+source-wordcount: '6333'
+ht-degree: 97%
 
 ---
 
@@ -23,11 +23,19 @@ Cette page répertorie toutes les mises à jour récentes de la documentation de
 
 * La page sur les événements de qualification d’audience a été mise à jour avec de nouvelles recommandations. [En savoir plus](../building-journeys/audience-qualification-events.md)
 * La fonctionnalité de dépannage d’action personnalisée est désormais disponible pour tous les clients et clientes (GA). [En savoir plus](../action/troubleshoot-custom-action.md)
+* L’hygiène des données correspond désormais au cycle de vie des données dans l’interface utilisateur du produit. La documentation a été mise à jour pour prendre en compte cette modification. [En savoir plus](../privacy/data-hygiene.md)
+* Les autorisations intégrées manquantes de la page de destination ont été ajoutées à la documentation. [En savoir plus](../administration/ootb-permissions.md)
+* Une note a été ajoutée concernant la planification des campagnes récurrentes. [En savoir plus](../campaigns/create-campaign.md)
+* Mise à jour et réorganisation de la section sur l&#39;insertion de liens et l&#39;activation du tracking dans un email. [En savoir plus](../email/message-tracking.md)
+* Réorganisation et amélioration de la section sur les fonctionnalités de personnalisation dans Adobe Journey Optimizer. [En savoir plus](../personalization/personalize.md)
+* L’API Decision Management pour répertorier les offres personnalisées a été mise à jour avec un exemple pour effectuer la pagination si plusieurs offres personnalisées sont manquantes dans la réponse. [En savoir plus](../offers/api-reference/offers-api/personalized-offers/offers-list.md)
+
+
 
 ## Février 2025 {#feb-2025}
 
-* Les mécanismes de sécurisation de l’activité « Lecture d’audience » ont été mis à jour afin d’indiquer qu’une seule activité peut être utilisée dans un parcours et qu’elle ne peut cibler qu’une seule audience. [En savoir plus](../building-journeys/read-audience.md)
-* Les mécanismes de sécurisation de parcours lors de l’utilisation des activités Campaign ont été mis à jour. [En savoir plus](../start/guardrails.md#ac-g)
+* Les mécanismes de sécurisation de l’activité Lecture d’audience ont été mis à jour afin d’indiquer qu’une seule activité peut être utilisée dans un parcours et qu’elle ne peut cibler qu’une seule audience. [En savoir plus](../building-journeys/read-audience.md)
+* Les mécanismes de sécurisation de parcours lors de l’utilisation des activités Adobe Campaign ont été mis à jour. [En savoir plus](../start/guardrails.md#ac-g)
 * Les étapes de création de vos premiers parcours ont été détaillées et des liens vers la section de documentation ont été ajoutés. [En savoir plus](../building-journeys/journey-gs.md)
 * Une nouvelle page est désormais disponible pour présenter le tableau de bord du parcours et l’interface d’utilisation de filtrage. [En savoir plus](../building-journeys/journey-ui.md)
 * La documentation relative à l’**[!UICONTROL optimisation de l’heure d’envoi]** et ses questions fréquentes associées ont été mises à jour, enrichies et déplacées vers une nouvelle page dédiée. [En savoir plus](../building-journeys/send-time-optimization.md)
