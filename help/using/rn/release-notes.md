@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Notes de mise à jour d’Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: a0e657842ba67b8e96996bcb95e2170da6fcbb97
+source-git-commit: 666ad2af2b6a2206e6c43b2f56cbacb5c164b152
 workflow-type: tm+mt
-source-wordcount: '853'
-ht-degree: 82%
+source-wordcount: '1399'
+ht-degree: 64%
 
 ---
 
@@ -22,22 +22,160 @@ ht-degree: 82%
 
 [!DNL Adobe Journey Optimizer] offre en permanence de nouvelles fonctionnalités, des améliorations des fonctionnalités existantes et des correctifs. Toutes les modifications sont consolidées la dernière semaine de chaque mois dans ces notes de mise à jour. [!DNL Adobe Journey Optimizer] est créé de manière native sur [!DNL Adobe Experience Platform] et hérite de ses dernières innovations et améliorations. En savoir plus sur ces modifications dans les [Notes de mise à jour d’Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=fr){target="_blank"}.
 
-## Mises à jour de mars 2025 {#25-03-rn}
 
-**Améliorations de l’éditeur Personalization**
+## Notes de mise à jour anticipées de mars 2025 {#25-3-rn}
 
-L’éditeur de personnalisation Journey Optimizer a été mis à jour avec de nouvelles fonctionnalités :
-* **Mise à jour de la conception de l’éditeur de code** - Une interface moderne et plus propre pour une meilleure convivialité et un meilleur focus.
-* **Rechercher et remplacer** - Ajout d’une fonctionnalité pour rechercher et remplacer rapidement du contenu dans l’éditeur.
-* **Prise en charge de l’annulation et de la restauration** - Vous permet d’annuler ou de réappliquer facilement les modifications.
-* **Taille de police personnalisable** - Permet d’ajuster la taille de police de l’éditeur pour une meilleure lisibilité.
-* **Validation JSON intégrée** - Fournit une validation côté client en temps réel du contenu JSON pour accélérer la détection des erreurs.
-* **Saisie automatique pour les attributs de profil et de contexte** - Propose des suggestions intelligentes pour rationaliser la création de contenu.
-* **Mise en surbrillance améliorée de la syntaxe** - Améliore la lisibilité en rendant la structure du code plus visuellement distincte.
+
+**Les notes de mise à jour anticipées ci-dessous peuvent être modifiées sans avertissement préalable jusqu’à la date de disponibilité de la version**. Les liens, les copies d’écran et la documentation mise à jour sont publiés à la date de publication.
+
+**Date de publication** : 26-27 mars 2025
+
+
+### Nouvelles fonctionnalités {#25-03-features}
+
+Les nouvelles fonctionnalités de cette version sont présentées ci-dessous.
+
+
+<table>
+<thead>
+<tr>
+<th><strong>Intégration avec Adobe Express</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>L’intégration d’Adobe Express à Adobe Journey Optimizer vous permet d’utiliser les outils d’édition d’Adobe Express directement lors de la création de contenu. Vous pouvez ainsi redimensionner, supprimer des arrière-plans, recadrer et convertir des ressources en JPEG ou PNG.<p>
+<!--p>For more information, refer to the <a href="../configuration/rule-sets.md">detailed documentation</a>.</p-->
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Mode Calendrier pour les parcours (disponibilité limitée)</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Une vue Calendrier vous permet désormais de visualiser toutes les activations de parcours. Cette fonctionnalité est disponible en tant que disponibilité limitée pour un groupe restreint de clients et clientes.<p>
+<p>Cette modification n’est disponible que pour un ensemble d’organisations (disponibilité limitée). Pour en bénéficier, contactez votre représentant ou représentante Adobe.</p>
+<!--p>For more information, refer to the <a href="../configuration/rule-sets.md">detailed documentation</a>.</p-->
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Intégration à Dynamic Media (disponibilité limitée)</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Les ressources Dynamic Media sont désormais directement disponibles et accessibles dans Journey Optimizer. Cette intégration vous permet d’effectuer les opérations suivantes :
+<ul>
+<li>Gestion centralisée des ressources avec mises à jour en temps réel</li>
+<li>Modifier instantanément les paramètres de vos ressources, tels que la largeur et la hauteur</li>
+<li>Personnaliser votre contenu à l’aide d’images avec des superpositions de texte</li>
+<li>Personnalisation des modèles Dynamic Media en mettant à jour votre contenu et en ajoutant des champs de personnalisation</li>
+</ul>
+<p>
+<p>Cette intégration est disponible uniquement pour un ensemble d’organisations (disponibilité limitée). Pour en bénéficier, contactez votre représentant ou représentante Adobe.</p>
+<!--p>For more information, refer to the <a href="../configuration/rule-sets.md">detailed documentation</a>.</p-->
+</td>
+</tr>
+</tbody>
+</table>
+
+
+
+<table>
+<thead>
+<tr>
+<th><strong>Intégration avec Adobe GenStudio (disponibilité limitée)</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Pour améliorer l’efficacité marketing et maintenir la cohérence de la marque, vous pouvez désormais intégrer facilement des expériences GenStudio for Performance Marketing à Journey Optimizer. Vous pouvez ainsi tirer parti de la création de contenu optimisée par l’IA de GenStudio ainsi que des fonctionnalités d’orchestration avancées de Journey Optimizer.<p>
+<p>L’utilisation de l’intégration de GenStudio dans Journey Optimizer n’est actuellement pas disponible pour une utilisation avec Healthcare Shield ou Privacy and Security Shield (disponibilité limitée).</p>
+<!--p>For more information, refer to the <a href="../configuration/rule-sets.md">detailed documentation</a>.</p-->
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Canal LINE (Disponibilité limitée)</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Adobe Journey Optimizer a étendu ses fonctionnalités cross-canal afin d’inclure la prise en charge du canal LINE. Cette amélioration vous permet de créer, de modifier et de prévisualiser des expériences LINE offrant des interactions plus personnalisées et plus attrayantes. Avec LINE, vous pouvez entrer en contact avec davantage de clients, envoyer du contenu pertinent et améliorer votre engagement.<p>
+<p>Cette fonctionnalité est disponible uniquement pour un nombre limité d’organisations (disponibilité limitée). Pour en bénéficier, contactez votre représentant ou représentante Adobe.</p>
+<!--p>For more information, refer to the <a href="../configuration/rule-sets.md">detailed documentation</a>.</p-->
+</td>
+</tr>
+</tbody>
+</table>
+
+
+### Améliorations {#25-03-improv}
+
+**Éditeur Personalization** (date de disponibilité : 12 mars)
+
+L’éditeur de personnalisation Journey Optimizer a été mis à jour avec de nouvelles fonctionnalités :
+* **Mise à jour de la conception de l’éditeur de code** : une interface moderne plus épurée pour une expérience plus conviviale et intuitive.
+* **Rechercher et remplacer** : ajout d’une fonctionnalité pour rechercher et remplacer rapidement du contenu dans l’éditeur.
+* **Prise en charge de l’annulation et de la restauration** : vous permet d’annuler ou de rétablir facilement les modifications.
+* **Taille de police personnalisable** : permet d’ajuster la taille de police de l’éditeur pour une meilleure lisibilité.
+* **Validation JSON intégrée** : fournit une validation côté client en temps réel du contenu JSON pour accélérer la détection des erreurs.
+* **Saisie automatique pour les attributs de profil et de contexte** : propose des suggestions intelligentes pour optimiser la création de contenu.
+* **Amélioration de la mise en surbrillance de la syntaxe** : améliore la lisibilité en rendant la structure du code plus identifiable visuellement.
 
 ![Vidéo présentant la nouvelle fonctionnalité dans l’éditeur Personalization](assets/do-not-localize/personalization-editor.gif)
 
 Pour plus d’informations, consultez la [documentation détaillée](../personalization/personalization-build-expressions.md).
+
+**Campagnes**
+
+* Dans la liste des campagnes, la sélection d’une campagne ouvre désormais un volet affichant ses détails.
+* Vous pouvez désormais copier vos campagnes d’un sandbox à un autre.
+
+**Personnalisation**
+
+Un nouveau bouton « Pilules » a été ajouté à l’éditeur de personnalisation. Une fois activés, les attributs de profil et contextuels s’affichent sous forme de pilules, ce qui améliore la lisibilité de votre code.
+
+**Validations**
+
+Lors de la définition des conditions d’une politique d’approbation, vous avez désormais la possibilité de filtrer par balise et/ou catégorie d’objet.
+
+**Configuration du canal**
+
+Vous pouvez désormais attribuer des balises unifiées Adobe Experience Platform aux configurations de canal. Vous pouvez ainsi facilement les classer et améliorer la recherche et la navigation dans toutes les listes.
+
+**Délivrabilité**
+
+Vous pouvez désormais déléguer des sous-domaines avec DMARC géré à partir du côté parent.
+
+**Règles métier**
+
+Vous pouvez désormais utiliser le capping de la fréquence quotidienne dans les parcours et les campagnes avec la segmentation par lots. Pour garantir la précision des règles de limitation de la fréquence quotidienne, veillez à choisir l’espace de noms de priorité la plus élevée lors de la création d’une campagne ou d’un parcours. Pour en savoir plus sur la priorité des espaces de noms, consultez le guide [ Platform Identity Service ](https://experienceleague.adobe.com/en/docs/experience-platform/identity/features/identity-graph-linking-rules/namespace-priority){target="_blank"}
+
+**Gestion de contenu**
+
+Pour gérer facilement vos fragments et vos modèles de contenu, vous pouvez désormais utiliser des dossiers pour les organiser plus efficacement dans une hiérarchie structurée.
+
 
 ## Notes de mise à jour de février 2025 {#25-02-rn}
 
