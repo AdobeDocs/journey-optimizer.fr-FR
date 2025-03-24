@@ -5,24 +5,25 @@ feature: Preview, Proofs
 role: User
 level: Beginner
 exl-id: e742c04e-2987-4466-84af-bdaf4d714552
-source-git-commit: 83da97926138c867ea2dacca6e5cf5e40c926eda
+source-git-commit: 80935cc31ef88a322c2dd555fc8998935c6e5621
 workflow-type: tm+mt
-source-wordcount: '309'
-ht-degree: 100%
+source-wordcount: '325'
+ht-degree: 84%
 
 ---
 
 # Envoyer des BAT d’e-mail {#send-proofs}
 
->[!PREREQUISITES]
->
->Pour envoyer des BAT, il est nécessaire de disposer des autorisations **Approuver et publier** pour la ressource, la campagne ou le parcours spécifique associé à l’e-mail. [En savoir plus sur les autorisations](../administration/ootb-permissions.md)
-
 Un BAT est un message spécifique qui permet de tester un message avant son envoi à l&#39;audience principale. Les destinataires du BAT sont chargés d&#39;approuver le message : rendu, contenu, paramètres de personnalisation, configuration.
 
 Notez que [!DNL Journey optimizer] vous permet également de tester différentes variantes de votre contenu en le prévisualisant et en envoyant des BAT à l’aide d’exemples de données d’entrée chargées à partir d’un fichier CSV/JSON ou ajoutées manuellement. [Découvrir comment tester votre contenu à l’aide d’exemples de données d’entrée](../test-approve/simulate-sample-input.md)
 
-Pour envoyer des BAT d’e-mails une fois des [profils de test](test-profiles.md) sélectionnés, procédez comme suit :
+>[!PREREQUISITES]
+>
+>Pour envoyer des BAT, vous devez disposer des autorisations **Approuver et publier** pour la ressource spécifique (campagne ou parcours) associée à l’e-mail. En outre, pour envoyer des BAT dans un parcours, l’autorisation **parcours de publication** est également requise. [En savoir plus sur les autorisations](../administration/ootb-permissions.md).
+
+
+Pour envoyer des BAT par e-mail, vous devez d&#39;abord sélectionner [profils de test](test-profiles.md). Procédez ensuite comme suit :
 
 1. Dans l’écran **[!UICONTROL Simuler]**, cliquez sur le bouton **[!UICONTROL Envoyer le BAT]**.
 
