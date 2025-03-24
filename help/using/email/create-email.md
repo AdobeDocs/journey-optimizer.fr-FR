@@ -9,10 +9,10 @@ role: User
 level: Beginner
 keywords: créer, e-mail, commencer, parcours, campagne
 exl-id: c77dc420-a375-4376-ad86-ac740e214c3c
-source-git-commit: 994eac32591f4ca352d310bc06057bd20ea03886
-workflow-type: ht
-source-wordcount: '956'
-ht-degree: 100%
+source-git-commit: e052e7bfea5381583ad8d2d7b785d44486cb9975
+workflow-type: tm+mt
+source-wordcount: '969'
+ht-degree: 98%
 
 ---
 
@@ -89,6 +89,12 @@ Pour plus d’informations sur la configuration d’une campagne, consultez cett
    ![](assets/email_designer_edit_content_header.png)
 
 1. Ajoutez un objet pour votre message. Pour configurer et personnaliser l’objet à l’aide de l’éditeur de personnalisation, cliquez sur l’icône **[!UICONTROL Ouvrir la boîte de dialogue de personnalisation]**. [En savoir plus](../personalization/personalization-build-expressions.md)
+
+   >[!NOTE]
+   >
+   >* L’objet est obligatoire.
+   >
+   >* L’objet ne doit pas inclure de sauts de ligne.
 
 1. Cliquez sur le bouton **[!UICONTROL Modifier le corps de l’e-mail]** pour accéder au Concepteur d’e-mail et commencer à créer votre contenu. [En savoir plus](get-started-email-design.md)
 
