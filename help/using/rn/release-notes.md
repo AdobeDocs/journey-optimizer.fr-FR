@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Notes de mise à jour d’Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 0a6fa748aca04f544954089d2dfdd8e9a3afdd97
+source-git-commit: 1776d9fa7352fc41d52f685c0a402e60bced348d
 workflow-type: tm+mt
-source-wordcount: '1426'
-ht-degree: 62%
+source-wordcount: '1441'
+ht-degree: 61%
 
 ---
 
@@ -160,13 +160,11 @@ Un nouveau bouton « Pilules » a été ajouté à l’éditeur de personnalisat
 
 Lors de la définition des conditions d’une politique d’approbation, vous avez désormais la possibilité de filtrer par balise et/ou catégorie d’objet.
 
-**Configuration du canal**
+**Configuration**
 
-Vous pouvez désormais attribuer des balises unifiées Adobe Experience Platform aux configurations de canal. Vous pouvez ainsi facilement les classer et améliorer la recherche et la navigation dans toutes les listes.
+* Vous pouvez désormais attribuer des balises unifiées Adobe Experience Platform aux configurations de canal. Vous pouvez ainsi facilement les classer et améliorer la recherche et la navigation dans toutes les listes.
 
-**Délivrabilité**
-
-Vous pouvez désormais déléguer des sous-domaines avec DMARC géré à partir du côté parent.
+* Lors de la configuration ou de la modification d’un sous-domaine d’e-mail dans Journey Optimizer, vous pouvez désormais choisir de gérer l’enregistrement DMARC associé vous-même, s’il est disponible sur le domaine parent.
 
 **Règles métier**
 
