@@ -12,7 +12,7 @@ exl-id: 770bdbf2-560d-4127-bdb9-1f82495a566f
 source-git-commit: 0a7c1ebf01a0aec9f84e86b14df14bbfcd24a7b4
 workflow-type: tm+mt
 source-wordcount: '1134'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -22,8 +22,8 @@ ht-degree: 99%
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_view"
->title="Vues Tableau et Chronologie Parcours"
->abstract="Vues Tableau et Chronologie Parcours"
+>title="Vues Tableau et chronologie des parcours"
+>abstract="Vues Tableau et chronologie des parcours"
 
 Dans la section du menu GESTION DES PARCOURS, cliquez sur **[!UICONTROL Parcours]**. Deux onglets sont disponibles : **[!UICONTROL Vue d’ensemble]** et **[!UICONTROL Parcourir]**.
 
