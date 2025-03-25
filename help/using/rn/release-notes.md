@@ -6,9 +6,9 @@ feature: Release Notes
 topic: Content Management
 description: Notes de mise à jour d’Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 666ad2af2b6a2206e6c43b2f56cbacb5c164b152
+source-git-commit: d023eaba1205ea8bfb402b195bfd341dae4f59d3
 workflow-type: tm+mt
-source-wordcount: '1399'
+source-wordcount: '1410'
 ht-degree: 64%
 
 ---
@@ -82,7 +82,6 @@ Les nouvelles fonctionnalités de cette version sont présentées ci-dessous.
 <ul>
 <li>Gestion centralisée des ressources avec mises à jour en temps réel</li>
 <li>Modifier instantanément les paramètres de vos ressources, tels que la largeur et la hauteur</li>
-<li>Personnaliser votre contenu à l’aide d’images avec des superpositions de texte</li>
 <li>Personnalisation des modèles Dynamic Media en mettant à jour votre contenu et en ajoutant des champs de personnalisation</li>
 </ul>
 <p>
@@ -135,6 +134,7 @@ Les nouvelles fonctionnalités de cette version sont présentées ci-dessous.
 **Éditeur Personalization** (date de disponibilité : 12 mars)
 
 L’éditeur de personnalisation Journey Optimizer a été mis à jour avec de nouvelles fonctionnalités :
+
 * **Mise à jour de la conception de l’éditeur de code** : une interface moderne plus épurée pour une expérience plus conviviale et intuitive.
 * **Rechercher et remplacer** : ajout d’une fonctionnalité pour rechercher et remplacer rapidement du contenu dans l’éditeur.
 * **Prise en charge de l’annulation et de la restauration** : vous permet d’annuler ou de rétablir facilement les modifications.
@@ -174,7 +174,7 @@ Vous pouvez désormais utiliser le capping de la fréquence quotidienne dans les
 
 **Gestion de contenu**
 
-Pour gérer facilement vos fragments et vos modèles de contenu, vous pouvez désormais utiliser des dossiers pour les organiser plus efficacement dans une hiérarchie structurée.
+Pour gérer facilement vos fragments et vos modèles de contenu, vous pouvez désormais utiliser des dossiers pour les organiser plus efficacement dans une hiérarchie structurée. Cette amélioration n’est disponible que pour un ensemble d’organisations (disponibilité limitée). Pour en bénéficier, contactez votre représentant ou représentante Adobe.
 
 
 ## Notes de mise à jour de février 2025 {#25-02-rn}
