@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: message, fréquence, règles, pression
 exl-id: 07f5f0b4-417e-408e-8d9e-86615c8a3fbf
-source-git-commit: 1e494c6e0b3dd45a5bef372b43c25928a2932355
+source-git-commit: 5e4d122c38c89055419102d54b3e749f1b8f925e
 workflow-type: tm+mt
-source-wordcount: '2013'
+source-wordcount: '2030'
 ht-degree: 94%
 
 ---
@@ -32,6 +32,15 @@ Outre les règles métier globales qui limitent le nombre de fois où les utilis
 Vous pouvez par exemple créer un jeu de règles pour limiter le nombre de **communications promotionnelles** envoyées à votre clientèle et créer un autre jeu de règles pour limiter le nombre de **newsletters** qu’elle reçoit. Selon le type de campagne que vous créez, vous pouvez ensuite choisir d’appliquer la communication promotionnelle ou le jeu de règles des newsletters.
 
 ➡️ [Découvrir cette fonctionnalité en vidéo](#video)
+
+### Autorisations {#permissions-frequency-rules}
+
+Pour utiliser les règles métier, vous avez besoin des autorisations suivantes :
+
+* **[!UICONTROL Afficher les règles de fréquence]** : accédez aux règles métier et affichez-les.
+* **[!UICONTROL Gérer les règles de fréquence]** : créez, modifiez ou supprimez des règles métier.
+
+Pour en savoir plus sur les autorisations, consultez [cette section](../administration/high-low-permissions.md).
 
 ### Jeux de règles globaux et personnalisés {#global-custom}
 
@@ -66,8 +75,6 @@ Lors de la création d’un jeu de règles, vous devez indiquer si les règles d
 Pour créer un jeu de règles, procédez comme suit.
 
 >[!NOTE]
->
->Pour créer un ensemble de règles, vous devez disposer de l’autorisation `Manage Messages Presets`. [En savoir plus sur la gestion des utilisateurs](../administration/permissions-overview.md)
 >
 >Vous pouvez créer jusqu’à 3 jeux de règles locales de domaine de canal et jusqu’à 5 jeux de règles locales de domaine de parcours.
 
@@ -237,16 +244,6 @@ Pour chaque règle du jeu de règles, le bouton **[!UICONTROL Autres actions]** 
 * Supprimer la règle
 
 ![](assets/rule-set-example-rules.png)
-
-<!--### Permissions{#permissions-frequency-rules}
-
-To access, create, edit or delete message frequency rules, you must have the **[!UICONTROL Manage frequency rules]** permission. 
-
-Users with the **[!UICONTROL View frequency rules]** permission are able to view rules, but not to modify or delete them.
-
-![](assets/message-rules-access.png)
-
-Learn more about permissions in [this section](../administration/high-low-permissions.md).-->
 
 ## Appliquer des ensembles de règles à un message ou à un parcours {#apply-frequency-rule}
 
