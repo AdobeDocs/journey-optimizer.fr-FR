@@ -5,10 +5,10 @@ role: User
 level: Beginner
 badge: label="Disponibilité limitée"
 exl-id: 4c0ee178-81fb-41ae-b7f5-22da995e6fc6
-source-git-commit: 53d319454d47260c44a457ed547a4f3c6b33592c
+source-git-commit: 1e494c6e0b3dd45a5bef372b43c25928a2932355
 workflow-type: tm+mt
-source-wordcount: '920'
-ht-degree: 91%
+source-wordcount: '941'
+ht-degree: 90%
 
 ---
 
@@ -24,6 +24,10 @@ La limitation des parcours permet de limiter le nombre de parcours dans lesquels
 * La **limitation de simultanéité** limite le nombre de parcours dans lesquels un profil peut être inscrit simultanément.
 
 Les deux types de limitation de parcours utilisent des scores de priorité pour arbitrer les entrées.
+
+>[!AVAILABILITY]
+>
+>Les ensembles de règles de domaine **Parcours** ne sont disponibles que pour un nombre limité d&#39;utilisateurs (disponibilité limitée). Pour en bénéficier, contactez votre représentant ou représentante Adobe.
 
 ➡️ [Découvrir cette fonctionnalité en vidéo](#video)
 
@@ -41,7 +45,7 @@ Les deux types de limitation de parcours utilisent des scores de priorité pour 
 
 Pour créer une règle de limitation de parcours, procédez comme suit :
 
-1. Allez au menu **[!UICONTROL Règles métier (Beta)]** pour accéder au stock des jeux de règles.
+1. Accédez au menu **[!UICONTROL Règles métier]** pour accéder à l’inventaire des jeux de règles.
 
 1. Sélectionnez le jeu de règles dans lequel vous souhaitez ajouter la règle de limitation ou créez un nouveau jeu de règles :
 
@@ -73,7 +77,7 @@ Pour créer une règle de limitation de parcours, procédez comme suit :
 
      >[!AVAILABILITY]
      >
-     >La durée « quotidienne » est disponible uniquement à la demande. Pour obtenir l’accès, contactez votre représentant ou représentante Adobe.
+     >La durée « quotidienne » est disponible uniquement à la demande. Pour en bénéficier, contactez votre représentant ou représentante Adobe.
 
      Dans cet exemple, nous voulons limiter à « 5 » le nombre de parcours par mois que les profils peuvent rejoindre.
 

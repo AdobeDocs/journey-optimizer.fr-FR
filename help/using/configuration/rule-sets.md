@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: message, fréquence, règles, pression
 exl-id: 07f5f0b4-417e-408e-8d9e-86615c8a3fbf
-source-git-commit: 53d319454d47260c44a457ed547a4f3c6b33592c
-workflow-type: ht
-source-wordcount: '1933'
-ht-degree: 100%
+source-git-commit: 1e494c6e0b3dd45a5bef372b43c25928a2932355
+workflow-type: tm+mt
+source-wordcount: '2013'
+ht-degree: 94%
 
 ---
 
@@ -35,7 +35,7 @@ Vous pouvez par exemple créer un jeu de règles pour limiter le nombre de **com
 
 ### Jeux de règles globaux et personnalisés {#global-custom}
 
-Lors de l’accès aux jeux de règles pour la première fois à partir du menu **[!UICONTROL Administration]** > **[!UICONTROL Règles métier (version bêta)]**, un jeu de règles par défaut est précréé et actif : **Jeu de règles par défaut global**.
+Lors de l’accès initial à des ensembles de règles à partir du menu **[!UICONTROL Administration]** > **[!UICONTROL Règles métier]**, un ensemble de règles par défaut est précréé et actif : **Ensemble de règles par défaut global**.
 
 Ce jeu de règles contient des règles globales que vous pouvez appliquer pour contrôler la fréquence à laquelle les utilisateurs et utilisatrices reçoivent des messages sur un ou plusieurs canaux, comme le font les règles métier actuelles. Toutes les règles définies dans ce jeu de règles s’appliquent à tous les canaux sélectionnés, que les communications soient envoyées d’un parcours ou d’une campagne. [Découvrir comment utiliser les règles métier](../configuration/rule-sets.md)
 
@@ -55,6 +55,10 @@ Lors de la création d’un jeu de règles, vous devez indiquer si les règles d
 * Domaine de **Canal** : appliquez des règles de limitation pour les canaux de communication. Par exemple, ne pas envoyer plus d’un e-mail ou d’un SMS par jour.
 * Domaine de **Parcours** : appliquez des règles de limitation d’entrée et de simultanéité à un parcours. Par exemple, ne pas entrer simultanément des profils dans plusieurs parcours.
 
+>[!AVAILABILITY]
+>
+>Alors que les ensembles de règles de domaine **Canal** sont disponibles pour tous les utilisateurs, les ensembles de règles de domaine **Parcours** ne sont disponibles que pour un nombre limité d’utilisateurs (disponibilité limitée). Pour en bénéficier, contactez votre représentant ou représentante Adobe.
+
 ## Créer votre premier jeu de règles personnalisées {#create-rule-set}
 
 ### Créer le jeu de règles et sélectionner son domaine {#create}
@@ -62,6 +66,8 @@ Lors de la création d’un jeu de règles, vous devez indiquer si les règles d
 Pour créer un jeu de règles, procédez comme suit.
 
 >[!NOTE]
+>
+>Pour créer un ensemble de règles, vous devez disposer de l’autorisation `Manage Messages Presets`. [En savoir plus sur la gestion des utilisateurs](../administration/permissions-overview.md)
 >
 >Vous pouvez créer jusqu’à 3 jeux de règles locales de domaine de canal et jusqu’à 5 jeux de règles locales de domaine de parcours.
 
@@ -74,6 +80,10 @@ Pour créer un jeu de règles, procédez comme suit.
 1. Sélectionnez le domaine du jeu de règles. Le domaine vous permet de spécifier si le jeu de règles contient des règles de limitation spécifiques aux canaux de communication ou aux parcours. [En savoir plus sur les règles de limitation des canaux et des parcours](#domain)
 
    ![](assets/rule-sets-create.png)
+
+   >[!AVAILABILITY]
+   >
+   >Alors que les ensembles de règles de domaine **Canal** sont disponibles pour tous les utilisateurs, les ensembles de règles de domaine **Parcours** ne sont disponibles que pour un nombre limité d’utilisateurs (disponibilité limitée). Pour en bénéficier, contactez votre représentant ou représentante Adobe.
 
 1. Cliquez sur **[!UICONTROL Enregistrer]**.
 
@@ -208,7 +218,7 @@ Le statut de la règle devient **[!UICONTROL Inactif]** et la règle ne s’appl
 
 ## Accéder aux jeux de règles et les gérer {#access-rule-sets}
 
-Tous les jeux de règles créés s’affichent dans le menu **[!UICONTROL Administration]** > **[!UICONTROL Règles métier (version bêta)]**. Ils sont triés par date de dernière modification.
+Tous les ensembles de règles créés s’affichent dans le menu **[!UICONTROL Administration]** > **[!UICONTROL Règles métier]**. Ils sont triés par date de dernière modification.
 
 ![](assets/rule-sets-list.png)
 
