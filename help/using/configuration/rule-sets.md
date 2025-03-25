@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: message, fréquence, règles, pression
 exl-id: 07f5f0b4-417e-408e-8d9e-86615c8a3fbf
-source-git-commit: 5e4d122c38c89055419102d54b3e749f1b8f925e
+source-git-commit: 74bb16aa01c442ad9d427cdd2c79c9e8b7b8a394
 workflow-type: tm+mt
 source-wordcount: '2030'
-ht-degree: 94%
+ht-degree: 90%
 
 ---
 
@@ -46,7 +46,7 @@ Pour en savoir plus sur les autorisations, consultez [cette section](../administ
 
 Lors de l’accès initial à des ensembles de règles à partir du menu **[!UICONTROL Administration]** > **[!UICONTROL Règles métier]**, un ensemble de règles par défaut est précréé et actif : **Ensemble de règles par défaut global**.
 
-Ce jeu de règles contient des règles globales que vous pouvez appliquer pour contrôler la fréquence à laquelle les utilisateurs et utilisatrices reçoivent des messages sur un ou plusieurs canaux, comme le font les règles métier actuelles. Toutes les règles définies dans ce jeu de règles s’appliquent à tous les canaux sélectionnés, que les communications soient envoyées d’un parcours ou d’une campagne. [Découvrir comment utiliser les règles métier](../configuration/rule-sets.md)
+Cet ensemble de règles contient des règles globales que vous pouvez appliquer pour contrôler la fréquence à laquelle les utilisateurs reçoivent des messages sur un ou plusieurs canaux, de la même manière que les règles métier actuelles fonctionnent. Toutes les règles définies dans ce jeu de règles s’appliquent à tous les canaux sélectionnés, que les communications soient envoyées d’un parcours ou d’une campagne. [Découvrir comment utiliser les règles métier](../configuration/rule-sets.md)
 
 En plus du jeu de règles « Jeu de règles par défaut global », vous pouvez créer des **jeux de règles personnalisés** que vous pouvez appliquer à n’importe quelle campagne pour limiter le nombre de messages envoyés au sein de cette campagne. [Découvrir comment créer des jeux de règles personnalisés](#create)
 
@@ -148,7 +148,7 @@ Les paramètres disponibles pour la règle dépendent du domaine du jeu de règl
 
    * **[!UICONTROL Mensuele]** : la limite de fréquence est valable jusqu’au dernier jour du mois à 23:59:59 UTC. Par exemple, la date d’expiration mensuelle pour janvier est le 31 janvier à 23:59:59 UTC.
 
-   * **[!UICONTROL Hebdomadaire]** : la limite de fréquence est valable jusqu’au samedi à 23:59:59 UTC de cette semaine, car la semaine calendaire commence le dimanche. L’expiration est indépendante de la création de la règle. Par exemple, si la règle est créée le jeudi, cette règle est valide jusqu’au samedi à 23:59:59.
+   * **[!UICONTROL Hebdomadaire]** : la limite de fréquence est valable jusqu’au samedi à 23:59:59 UTC de cette semaine, car la semaine calendaire commence le dimanche. La date d’expiration s’applique quelle que soit la date de création de la règle. Par exemple, si la règle est créée le jeudi, cette règle est valide jusqu’au samedi à 23:59:59.
 
    * **[!UICONTROL Quotidienne]** : la limite de fréquence quotidienne est valable pour la journée jusqu’à 23:59:59 UTC et est réinitialisée à 0 au début de la journée suivante.
 
@@ -158,7 +158,7 @@ Les paramètres disponibles pour la règle dépendent du domaine du jeu de règl
 
    Notez que la valeur du compteur de profils est mise à jour une fois la communication diffusée. Tenez-en compte lorsque vous envoyez un grand volume de communications, car le débit peut faire en sorte que les personnes destinataires reçoivent l’e-mail quelques minutes, voire quelques heures après le lancement de la communication (dans le cas où vous envoyez des millions de communications simultanément).
 
-   Cela est important dans le cas où des personnes destinataires reçoivent deux communications de manière rapprochée. Nous vous conseillons d’espacer les communications d’au moins deux heures afin que les personnes destinataires disposent de suffisamment de temps pour recevoir la communication et que la valeur de compteur soit mise à jour en conséquence.
+   Cela est important dans le cas où des personnes destinataires reçoivent deux communications de manière rapprochée. Nous suggérons d&#39;espacer les communications d&#39;au moins deux heures dans la mesure du possible afin de donner suffisamment de temps au destinataire pour recevoir la communication et la valeur du compteur pour se mettre à jour en conséquence.
 
 1. Définissez la limitation de votre règle, c’est-à-dire le nombre maximum de messages qui peuvent être envoyés à un profil utilisateur individuel chaque mois, chaque semaine ou chaque jour en fonction de votre sélection ci-dessous.
 
