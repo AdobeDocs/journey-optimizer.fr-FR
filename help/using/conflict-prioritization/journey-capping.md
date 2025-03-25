@@ -5,10 +5,10 @@ role: User
 level: Beginner
 badge: label="Disponibilité limitée"
 exl-id: 4c0ee178-81fb-41ae-b7f5-22da995e6fc6
-source-git-commit: 1e494c6e0b3dd45a5bef372b43c25928a2932355
+source-git-commit: 4c1c0b17b6dc1d5b2e35cb9f250c82f0d5d31faa
 workflow-type: tm+mt
-source-wordcount: '941'
-ht-degree: 90%
+source-wordcount: '944'
+ht-degree: 89%
 
 ---
 
@@ -77,7 +77,7 @@ Pour créer une règle de limitation de parcours, procédez comme suit :
 
      >[!AVAILABILITY]
      >
-     >La durée « quotidienne » est disponible uniquement à la demande. Pour en bénéficier, contactez votre représentant ou représentante Adobe.
+     >La durée « Quotidienne » n&#39;est disponible que pour un ensemble d&#39;organisations (disponibilité limitée). Pour en bénéficier, contactez votre représentant ou représentante Adobe.
 
      Dans cet exemple, nous voulons limiter à « 5 » le nombre de parcours par mois que les profils peuvent rejoindre.
 

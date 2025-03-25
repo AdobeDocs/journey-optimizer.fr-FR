@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: message, fréquence, règles, pression
 exl-id: 07f5f0b4-417e-408e-8d9e-86615c8a3fbf
-source-git-commit: 74bb16aa01c442ad9d427cdd2c79c9e8b7b8a394
+source-git-commit: 4c1c0b17b6dc1d5b2e35cb9f250c82f0d5d31faa
 workflow-type: tm+mt
-source-wordcount: '2030'
+source-wordcount: '2036'
 ht-degree: 90%
 
 ---
@@ -142,7 +142,7 @@ Les paramètres disponibles pour la règle dépendent du domaine du jeu de règl
 
    >[!AVAILABILITY]
    >
-   >La durée « quotidienne » est disponible uniquement à la demande. Pour en bénéficier, contactez votre représentant ou représentante Adobe.
+   >La durée « quotidienne » n’est disponible que pour un ensemble d’organisations (disponibilité limitée). Pour en bénéficier, contactez votre représentant ou représentante Adobe.
 
    L’expiration du compteur pour chaque période est la suivante :
 
