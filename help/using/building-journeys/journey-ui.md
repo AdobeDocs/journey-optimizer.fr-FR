@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: parcours, premier, commencer, démarrage rapide, audience, événement, action
 exl-id: 770bdbf2-560d-4127-bdb9-1f82495a566f
-source-git-commit: 0a7c1ebf01a0aec9f84e86b14df14bbfcd24a7b4
+source-git-commit: 41448cfa8efc4a7b74b0a490f02e53efdbc0a2e7
 workflow-type: tm+mt
-source-wordcount: '1134'
-ht-degree: 100%
+source-wordcount: '1150'
+ht-degree: 99%
 
 ---
 
@@ -126,6 +126,9 @@ Les versions de parcours peuvent être arrêtées individuellement. Toutes les v
 Lorsque vous publiez une nouvelle version d&#39;un parcours, la version précédente se termine automatiquement et passe au statut **Fermé**. Aucune entrée dans le parcours ne peut se produire. Même si vous arrêtez la dernière version, la version précédente reste fermée.
 
 
+>[!NOTE]
+>
+>Des mécanismes de sécurisation et des limitations spécifiques s’appliquent au contrôle de version des parcours. En savoir plus dans [cette page](../start/guardrails.md#journey-versions-journey-versions-g).
 
 ## Dupliquer un parcours {#duplicate-a-journey}
 
