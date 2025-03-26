@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: désinscription, e-mail, lien, désabonnement
 exl-id: 4bb51bef-5dab-4a72-8511-1a5e528f4b95
-source-git-commit: f916d91ffd2c41261612f2127f35c41275c9d013
-workflow-type: ht
-source-wordcount: '1313'
-ht-degree: 100%
+source-git-commit: a36f3dd1b58b2c40a99d9c2820427f710aa87660
+workflow-type: tm+mt
+source-wordcount: '976'
+ht-degree: 95%
 
 ---
 
@@ -41,51 +41,7 @@ Lorsqu’un ou une destinataire clique sur le lien d’exclusion en un clic, sa 
 
 ### URL de désabonnement en un clic dans l’en-tête d’e-mail {#unsubscribe-header}
 
-<!--Do not modify - Legal Review Done -->
-
->[!CONTEXTUALHELP]
->id="ajo_admin_preset_unsubscribe"
->title="Ajouter une URL de désabonnement à vos e-mails"
->abstract="Activez List-Unsubscribe pour ajouter automatiquement une URL de désabonnement dans l’en-tête de l’e-mail. Pour définir une URL de désabonnement dans un message, insérez un lien d’exclusion en un clic dans le contenu de l’e-mail."
->additional-url="https://experienceleague.adobe.com/fr/docs/journey-optimizer/using/channels/email/email-opt-out#one-click-opt-out" text="Désabonnement en un clic dans le contenu de l’e-mail"
->additional-url="https://experienceleague.adobe.com/fr/docs/journey-optimizer/using/channels/email/email-opt-out#one-click-opt-out" text="Activer List-Unsubscribe dans la configuration du canal e-mail"
-
-Une URL de désabonnement de liste en un clic est un lien ou un bouton de désabonnement affiché en regard des informations sur l’expéditeur ou l’expéditrice de l’e-mail. Elle permet aux destinataires de se désabonner instantanément de vos listes de publipostage en un seul clic.
-
-Dans [!DNL Adobe Journey Optimizer], lorsque l’option **Activer List-Unsubscribe** est activée, l’en-tête de l’e-mail comprend par défaut un mailto et/ou une URL que les destinataires peuvent utiliser pour se désabonner de votre liste de publipostage.
-
-Le bouton (bascule) [Activer le désabonnement de la liste](email-settings.md#list-unsubscribe) doit être activé au niveau de la configuration des canaux, de sorte que les e-mails utilisant cette configuration incluent l’URL de désabonnement en un clic dans l’en-tête de l’e-mail.
-
->[!NOTE]
->
->Pour afficher l’URL de désabonnement en un clic dans l’en-tête de l’e-mail, le client de messagerie de la personne destinataire doit prendre en charge cette fonctionnalité.
-
-
-Par exemple, l’URL de désabonnement en un clic affiche un lien de désabonnement comme celui-ci dans Gmail :
-
-![](assets/unsubscribe-header.png)
-
-
-<!--With Adobe Journey Optimizer, you can configure your email configuration settings with an auto-generated one-click unsubscribe URL and mailto address in the email header, or include a one-click opt-out URL in your email body: when a recipient clicks the one-click opt-out link, recipient's unsubscribe request is processed accordingly.-->
-
-<!--
->[!AVAILABILITY]
->
->One-click Unsubscribe URL Header will be available in Adobe Journey Optimizer starting June 3, 2024.
->
--->
-
-Selon le client de messagerie et les [paramètres de désabonnement de la configuration du canal e-mail](email-settings.md#list-unsubscribe), cliquer sur le lien de désabonnement dans l’en-tête de l’e-mail peut avoir les répercussions suivantes :
-
-* Lorsque la fonctionnalité **Mailto (se désabonner)** est activée, la demande de désabonnement est envoyée à l’adresse de désabonnement par défaut en fonction du sous-domaine que vous avez configuré.
-* Lorsque la fonctionnalité **URL de désabonnement en un clic** est activée (ou si vous avez inséré une URL de désabonnement dans le contenu de votre corps d’e-mail), la personne destinataire est directement désinscrite, au niveau du canal ou au niveau de l’ID (selon la configuration du consentement), lorsqu’elle clique sur l’URL de désabonnement en un clic (selon le sous-domaine que vous avez configuré).
-
-![](../email/assets/surface-list-unsubscribe-mailto.png){width="80%"}
-
-Dans les deux cas, le profil correspondant à la personne destinataire est immédiatement désinscrit et ce choix est mis à jour dans Experience Platform. Pour en savoir plus, consultez la [documentation Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/ui/user-guide.html?lang=fr#getting-started){target="_blank"}.
-
-Si vous avez activé l’option **[!UICONTROL Activer List-Unsubscribe]** dans les [paramètres de configuration du canal e-mail](email-settings.md#list-unsubscribe), nous vous recommandons d’activer les deux méthodes : **Mailto (se désabonner)** et **URL de désabonnement en un clic**. Les clients de messagerie ne prennent pas tous en charge la méthode HTTP. La fonctionnalité list-unsubscribe Mailto vous permet de sélectionner une alternative. Votre réputation d’expéditeur ou d’expéditrice peut être mieux protégée et l’ensemble de vos destinataires peuvent avoir accès à la fonctionnalité de désabonnement. [En savoir plus](email-settings.md#list-unsubscribe)
-
+L’URL de désabonnement de la liste en un clic est un lien ou un bouton de désabonnement affiché en regard des informations de l’expéditeur de l’e-mail et permettant aux destinataires de se désinscrire instantanément de vos listes de diffusion en un seul clic. Découvrez comment gérer l&#39;option **[!UICONTROL Désabonnement de la liste]** dans [cette section](list-unsubscribe.md).
 
 ### Désabonnement en un clic dans le contenu de l’e-mail {#one-click-opt-out}
 
@@ -100,7 +56,7 @@ Pour définir une URL de désabonnement personnalisée, insérez un lien d’exc
 
    >[!NOTE]
    >
-   >Si vous avez activé l’option **[!UICONTROL List-Unsubscribe]** au [niveau de la configuration des canaux](email-settings.md#list-unsubscribe) et que l’option **[!UICONTROL URL de désabonnement en un clic]** est décochée, l’URL de la page de destination est également utilisée lorsque les utilisateurs et utilisatrices cliquent sur le lien de désabonnement dans l’en-tête de l’e-mail. [En savoir plus](#unsubscribe-header)
+   >Si vous avez activé l’option **[!UICONTROL List-Unsubscribe]** au [niveau de la configuration des canaux](email-settings.md#list-unsubscribe) et que l’option **[!UICONTROL URL de désabonnement en un clic]** est décochée, l’URL de la page de destination est également utilisée lorsque les utilisateurs et utilisatrices cliquent sur le lien de désabonnement dans l’en-tête de l’e-mail. [En savoir plus](list-unsubscribe.md)
 
    ![](assets/message-tracking-opt-out-confirmation.png)
 
@@ -134,7 +90,7 @@ Vous pouvez également utiliser une page de destination externe. Dans ce cas, co
 
 +++ Découvrez comment mettre en œuvre un appel API d’opt-out
 
-Pour que vos destinataires soient désinscrit(e)s lorsqu’ils ou elles envoient leur choix à partir de la page de destination, vous devez implémenter un **appel API d’abonnement** via [Adobe Developer](https://developer.adobe.com){target="_blank"} pour mettre à jour les préférences des profils correspondants.
+Pour que vos destinataires soient désinscrit(e)s lorsqu’ils ou elles envoient leur choix à partir de la page de destination, vous devez implémenter un **appel API d’abonnement** via [Adobe Developer](https://developer.adobe.com/){target="_blank"} pour mettre à jour les préférences des profils correspondants.
 
 Cet appel POST est le suivant :
 
