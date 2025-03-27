@@ -6,9 +6,9 @@ feature: Release Notes
 topic: Content Management
 description: Notes de mise à jour d’Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: e29586f24f6ef84869a277ae6121d83f962405f7
+source-git-commit: 20d41af0829946300cffb5ff8585923b99a12a4b
 workflow-type: tm+mt
-source-wordcount: '1328'
+source-wordcount: '1336'
 ht-degree: 64%
 
 ---
@@ -166,6 +166,8 @@ Pour plus d’informations, consultez la [documentation détaillée](../personal
 **Validations**
 
 Lors de la définition des conditions d’une politique d’approbation, vous avez désormais la possibilité de filtrer par balise et/ou catégorie d’objet.
+
+Pour plus d’informations, consultez la [documentation détaillée](../test-approve/approval-policies.md).
 
 **Configuration**
 
