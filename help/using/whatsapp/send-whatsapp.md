@@ -3,14 +3,14 @@ solution: Journey Optimizer
 product: journey optimizer
 title: Vérifier et tester vos messages WhatsApp
 description: Découvrez comment vérifier et envoyer vos messages WhatsApp dans Journey Optimizer
-feature: WhatsApp
+feature: Whatsapp
 topic: Content Management
 role: User
 level: Beginner
 hide: true
 hidefromtoc: true
 badge: label="Beta" type="Informative"
-source-git-commit: 7ca149d420f802a6230e699cffefddc4117cb85e
+source-git-commit: 22664437fb1f548f4c1524ea5fa7ac9e7fdc7f59
 workflow-type: tm+mt
 source-wordcount: '276'
 ht-degree: 75%
