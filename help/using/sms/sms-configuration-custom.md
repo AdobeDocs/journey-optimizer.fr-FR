@@ -8,14 +8,34 @@ badge: label="Beta" type="Informative"
 role: Admin
 level: Intermediate
 exl-id: fd713864-96b9-4687-91bd-84e3533273ff
-source-git-commit: f41426bd41078b98a26c32ce259a848ab49d724c
-workflow-type: ht
-source-wordcount: '283'
-ht-degree: 100%
+source-git-commit: 201d7d367540f7b36f27ca4a09b6f0ce12e3e22f
+workflow-type: tm+mt
+source-wordcount: '376'
+ht-degree: 76%
 
 ---
 
 # Configurer un fournisseur personnalisé {#sms-configuration-custom}
+
+>[!CONTEXTUALHELP]
+>id="ajo_admin_sms_api_byop_provider_url"
+>title="URL du fournisseur"
+>abstract="Spécifiez l’URL de l’API externe à laquelle vous prévoyez de vous connecter. Cette URL sert de point d’entrée pour accéder aux fonctionnalités de l’API."
+
+>[!CONTEXTUALHELP]
+>id="ajo_admin_sms_api_byop_auth_type"
+>title="Type d’authentification"
+>abstract="Spécifiez la méthode d’authentification nécessaire pour accéder à l’API, telle que les jetons OAuth ou porteur. Cela garantit une communication sécurisée et autorisée avec le service externe."
+
+>[!CONTEXTUALHELP]
+>id="ajo_admin_sms_api_byop_header_parameters"
+>title="Paramètres d’en-tête"
+>abstract="Spécifiez le libellé, le type et la valeur des en-têtes supplémentaires pour permettre une authentification, une mise en forme du contenu et une communication API efficaces. "
+
+>[!CONTEXTUALHELP]
+>id="ajo_admin_sms_api_byop_provider_payload"
+>title="Payload du fournisseur"
+>abstract="Fournissez la payload de la requête pour vous assurer que les données correctes sont envoyées pour le traitement et la génération de la réponse."
 
 >[!AVAILABILITY]
 >
