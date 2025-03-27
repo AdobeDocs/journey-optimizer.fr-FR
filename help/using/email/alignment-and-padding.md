@@ -9,10 +9,10 @@ role: User
 level: Beginner, Intermediate
 keywords: alignement vertical, éditeur d’e-mail, marge intérieure
 exl-id: 1e1d90ff-df5d-4432-a63a-a32d0d281d48
-source-git-commit: 4847415fa33ebf1c21622ebf4faecafd4decc8d3
-workflow-type: ht
-source-wordcount: '147'
-ht-degree: 100%
+source-git-commit: 7ca149d420f802a6230e699cffefddc4117cb85e
+workflow-type: tm+mt
+source-wordcount: '199'
+ht-degree: 73%
 
 ---
 
@@ -41,3 +41,7 @@ Dans cet exemple, nous allons ajuster la marge intérieure et l&#39;alignement v
 1. Procédez de la même façon pour ajuster l’alignement et la marge intérieure des autres colonnes.
 
 1. Enregistrez vos modifications.
+
+>[!TIP]
+>
+>Lors de la conception de contenu d’e-mail pour Gmail sur les appareils Android, assurez-vous que les images et les séparateurs utilisent la marge intérieure des colonnes plutôt que de larges marges fixes. Gmail sur Android effectue souvent un rendu incorrect des images et des marges surdimensionnées, ce qui entraîne un débordement de la disposition ou une réduction des lignes de séparation. Utilisez une largeur d’image plus petite ou utilisez la marge intérieure basée sur les colonnes pour un affichage cohérent.

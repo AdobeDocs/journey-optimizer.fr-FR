@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: sous-domaine, domaine, courrier, dmarc, enregistrement
 exl-id: f9e217f8-5aa8-4d3a-96fc-65defcb5d340
-source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
+source-git-commit: 7ca149d420f802a6230e699cffefddc4117cb85e
 workflow-type: tm+mt
-source-wordcount: '1355'
-ht-degree: 100%
+source-wordcount: '1482'
+ht-degree: 85%
 
 ---
 
@@ -94,17 +94,21 @@ Pour vous assurer que l’enregistrement DMARC est configuré pour tous les sou
 
 1. Sélectionnez un sous-domaine auquel aucun enregistrement DMARC n’est associé et renseignez les champs **[!UICONTROL Enregistrement DMARC]** en fonction des besoins de votre entreprise. Les étapes pour renseigner les champs de l’enregistrement DMARC sont présentées dans [cette section](#implement-dmarc).
 
-1. Tenez compte des deux options ci-dessous :
+   <!--![](assets/dmarc-record-edit-full.png)-->
 
-   * Si vous modifiez un sous-domaine configuré avec [CNAME](delegate-subdomain.md#cname-subdomain-delegation), vous devez copier l’enregistrement DNS pour DMARC dans votre solution d’hébergement pour générer les enregistrements DNS correspondants.
+   >[!NOTE]
+   >
+   >Selon qu’un enregistrement DMARC est trouvé avec le domaine parent ou non, vous pouvez choisir d’utiliser les valeurs du domaine parent ou de laisser Adobe gérer l’enregistrement DMARC. [En savoir plus](#implement-dmarc)
+
+1. Si vous modifiez un sous-domaine :
+
+   * [Délégation complète](delegate-subdomain.md#full-subdomain-delegation) à Adobe, aucune autre action n’est requise.
+
+   * Configurez avec [CNAME](delegate-subdomain.md#cname-subdomain-delegation). Vous devez copier l’enregistrement DNS pour DMARC dans votre solution d’hébergement pour générer les enregistrements DNS correspondants.
 
      ![](assets/dmarc-record-edit-cname.png)
 
      Vérifiez que l’enregistrement DNS a été généré dans votre solution d’hébergement de domaine et cochez la case « Je confirme... ».
-
-   * Si vous modifiez un sous-domaine [entièrement délégué](delegate-subdomain.md#full-subdomain-delegation) à Adobe, il vous suffit de renseigner les champs **[!UICONTROL Enregistrement DMARC]** détaillés dans [cette section](#implement-dmarc). Aucune action supplémentaire n’est requise.
-
-     ![](assets/dmarc-record-edit-full.png)
 
 1. Enregistrez vos modifications.
 
@@ -122,13 +126,33 @@ Lors de la délégation de nouveaux sous-domaines à Adobe dans [!DNL Journey Op
 
 1. Accédez à la section **[!UICONTROL Enregistrement DMARC]**.
 
-   Si le sous-domaine comporte un enregistrement DMARC existant et s’il est récupéré par [!DNL Journey Optimizer], vous pouvez utiliser les mêmes valeurs que celles mises en surbrillance dans l’interface ou les modifier si nécessaire.
+1. Si un enregistrement DMARC est disponible sur le domaine parent associé à votre sous-domaine, deux options s’affichent :
 
    ![](assets/dmarc-record-found.png)
 
-   >[!NOTE]
-   >
-   >Si vous n’ajoutez pas de valeurs, les valeurs préremplies par défaut seront utilisées.
+   * **[!UICONTROL Gérer avec Adobe]** : Adobe peut gérer l’enregistrement DMARC pour votre sous-domaine. Suivez les étapes présentées dans [cette section](#manage-dmarc-with-adobe).
+
+   * **[!UICONTROL Gérer seul]** : <!--This option is selected by default.-->cette option permet de gérer l’enregistrement DMARC en dehors de [!DNL Journey Optimizer], à l’aide des valeurs de votre domaine parent. Ces valeurs s’affichent dans l’interface, mais vous ne pouvez pas les modifier.
+
+     ![](assets/dmarc-record-found-own.png){width="80%"}
+
+1. Si aucun enregistrement DMARC n’est trouvé sur le domaine parent, seule l’option **[!UICONTROL Gérer avec Adobe]** est disponible. Suivez les étapes [ci-dessous](#manage-dmarc-with-adobe) pour configurer l’enregistrement DMARC pour votre sous-domaine.
+
+   ![](assets/dmarc-record-not-found.png){width="80%"}
+
+### Gérer l’enregistrement DMARC avec Adobe {#manage-dmarc-with-adobe}
+
+Pour permettre à Adobe de gérer l’enregistrement DMARC à votre place, sélectionnez l’option **[!UICONTROL Gérer avec Adobe]** et procédez comme suit.
+
+>[!NOTE]
+>
+>Si elle est récupérée par [!DNL Journey Optimizer], vous pouvez utiliser les mêmes valeurs que celles mises en surbrillance dans l’interface ou les modifier si nécessaire.
+
+![](assets/dmarc-record-with-adobe-ex.png){width="80%"}
+
+>[!NOTE]
+>
+>Si vous n’ajoutez pas de valeurs, les valeurs préremplies par défaut seront utilisées.
 
 1. Définissez l’action que le serveur de la personne destinataire doit effectuer en cas d’échec de DMARC. Selon la [politique DMARC](#dmarc-policies) que vous souhaitez appliquer, sélectionnez l’une des trois options :
 
@@ -167,12 +191,11 @@ Lors de la délégation de nouveaux sous-domaines à Adobe dans [!DNL Journey Op
 
 1. Sélectionnez une **intervalle de rapports** entre 24 et 168 heures. Cela permet aux personnes propriétaires de domaine de recevoir des mises à jour régulières des résultats de l’authentification des e-mails et de prendre les mesures nécessaires pour améliorer la sécurité des e-mails.
 
-   <!--The DMARC reporting interval is specified in the DMARC policy published in the DNS (Domain Name System) records for a domain. The reporting interval can be set to daily, weekly, or another specified frequency, depending on the domain owner's preferences.
+<!--The DMARC reporting interval is specified in the DMARC policy published in the DNS (Domain Name System) records for a domain. The reporting interval can be set to daily, weekly, or another specified frequency, depending on the domain owner's preferences.
 
-    The default value (24 hours) is generally the email providers' expectation.-->
+The default value (24 hours) is generally the email providers' expectation.
 
-
-<!--
+**********
 
 Setting up a DMARC record involves adding a DNS TXT record to your domain's DNS settings. This record specifies your DMARC policy, such as whether to quarantine or reject messages that fail authentication. Implementing DMARC is a proactive step towards enhancing email security and protecting both your organization and your recipients from email-based threats.
 

@@ -8,10 +8,10 @@ topic: Content Management
 role: Admin
 level: Intermediate, Experienced
 exl-id: 8f33dda7-9bd5-4293-8d0d-222205cbc7d5
-source-git-commit: 0eeb9f6aa6276b99a4d38efc2d371ebdb58c141d
-workflow-type: ht
-source-wordcount: '1045'
-ht-degree: 100%
+source-git-commit: 7ca149d420f802a6230e699cffefddc4117cb85e
+workflow-type: tm+mt
+source-wordcount: '1138'
+ht-degree: 91%
 
 ---
 
@@ -171,3 +171,13 @@ L’ensemble des clientes et des clients Adobe est automatiquement inscrit sur l
 * Ziggo
 
 Adobe effectue régulièrement des audits de ces FBL pour s’assurer que les dernières FBL disponibles sont ajoutées.
+
+## Utiliser le relais SMTP {#smtp-relay}
+
+[!DNL Journey Optimizer] utilise des agents de transfert d’e-mails (MTA) et des adresses IP détenus par Adobe pour diffuser vos e-mails aux fournisseurs d’accès Internet (FAI). Cependant, dans certains cas, vous pouvez souhaiter acheminer les diffusions finales par e-mail via vos propres MTA et adresses IP, ou effectuer des validations finales sur les e-mails avant de les envoyer à vos destinataires.
+
+Dans ce cas, vous pouvez choisir de relayer vos e-mails vers des serveurs SMTP hébergés par votre organisation au lieu de les envoyer directement de Journey Optimizer aux FAI.
+
+>[!AVAILABILITY]
+>
+>La capacité de relais SMTP est disponible à la demande. Contactez votre représentant Adobe.

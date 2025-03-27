@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: canal, surface, technique, paramètres, optimizer
 exl-id: 9038528f-3da0-4e0e-9b82-b72c67b42391
-source-git-commit: f916d91ffd2c41261612f2127f35c41275c9d013
-workflow-type: ht
-source-wordcount: '1737'
-ht-degree: 100%
+source-git-commit: 7ca149d420f802a6230e699cffefddc4117cb85e
+workflow-type: tm+mt
+source-wordcount: '1800'
+ht-degree: 97%
 
 ---
 
@@ -267,10 +267,23 @@ Pour empêcher la création de nouveaux messages à partir d’une configuration
 >
 >Une fois désactivées, les configurations de canaux ne peuvent pas être supprimées pour éviter tout problème dans les parcours les utilisant pour l’envoi des messages.
 
-Vous ne pouvez pas modifier directement une configuration de canal désactivée. Cependant, vous pouvez le dupliquer et modifier la copie pour créer une nouvelle version que vous utiliserez pour créer de nouveaux messages. Vous pouvez également l’activer à nouveau et attendre que la mise à jour soit réussie pour le modifier. 
+Vous ne pouvez pas modifier directement une configuration de canal désactivée. Cependant, vous pouvez le dupliquer et modifier la copie pour créer une nouvelle version que vous utiliserez pour créer de nouveaux messages. Vous pouvez également l’activer à nouveau et attendre que la mise à jour soit réussie pour le modifier.
 
 ![](assets/preset-activate.png)
 
+## Ajout de balises à une configuration de canal {#channel-config-tags}
+
+1. Accédez à la liste des configurations de canaux.
+
+1. Pour la configuration active de votre choix, cliquez sur le bouton **[!UICONTROL Plus d’actions]**.
+
+1. Cliquez sur **[!UICONTROL Modifier les balises]**.
+
+1. Sélectionnez Balises Adobe Experience Platform dans la liste pour catégoriser la configuration de votre canal afin d’améliorer la recherche. [Découvrir comment utiliser les balises unifiées](../start/search-filter-categorize.md#tags)
+
+   ![](assets/config-edit-tags.png)
+
+1. Une fois que vous avez affecté des balises à vos configurations de canal, vous pouvez les [filtrer](../start/search-filter-categorize.md#filter-on-tags) sur les balises.
 
 ## Vidéo pratique{#video-presets}
 

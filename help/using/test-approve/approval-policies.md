@@ -5,10 +5,10 @@ role: User
 level: Beginner
 feature: Approval
 exl-id: e518cb3c-f361-43a4-b9a5-ec070c612e75
-source-git-commit: 99099cb6b705cb5a7b97652154c42f0565fdfdb9
+source-git-commit: 7ca149d420f802a6230e699cffefddc4117cb85e
 workflow-type: tm+mt
-source-wordcount: '509'
-ht-degree: 100%
+source-wordcount: '525'
+ht-degree: 97%
 
 ---
 
@@ -109,6 +109,14 @@ Pour définir les conditions associées à une politique d’approbation, procé
     </tr>
     <tr>
     <td>Carte de contenu</td>
+    </tr>
+    <tr>
+    <td>Balises</td>
+    <td>Nom de la balise utilisée pour organiser vos audiences. </td>
+    </tr>
+    <tr>
+    <td>Nom de l’objet</td>
+    <td>Nom de l’objet.</td>
     </tr>
     <tr>
     <td>Nom du demandeur ou de la demandeuse</td>

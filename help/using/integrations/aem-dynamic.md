@@ -6,14 +6,12 @@ description: Utilisation de Dynamic Media avec Journey Optimizer
 topic: Content Management
 role: User
 level: Beginner
-hide: true
-hidefromtoc: true
-badge: label="Beta" type="Informative"
+badge: label="Disponibilité limitée" type="Informative"
 exl-id: 3e777cc5-a935-4e68-9de7-60b241e78f63
-source-git-commit: 62d8da17a806713b1e77d8e7e494106dbb825c8b
+source-git-commit: 7ca149d420f802a6230e699cffefddc4117cb85e
 workflow-type: tm+mt
-source-wordcount: '755'
-ht-degree: 1%
+source-wordcount: '777'
+ht-degree: 2%
 
 ---
 
@@ -21,9 +19,11 @@ ht-degree: 1%
 
 >[!AVAILABILITY]
 >
->Cette intégration est disponible exclusivement pour les clients qui utilisent Dynamic Media Manager as a Cloud Service.
+>Cette intégration est disponible uniquement pour un ensemble d’organisations (disponibilité limitée). Pour en bénéficier, contactez votre représentant ou représentante Adobe.
 
 Le sélecteur de ressources prend désormais en charge Dynamic Media, ce qui vous permet de sélectionner et d’utiliser facilement des rendus Dynamic Media approuvés dans Journey Optimizer. Les modifications apportées aux ressources dans Adobe Experience Manager sont immédiatement répercutées dans votre contenu Journey Optimizer, ce qui garantit que les versions les plus récentes sont toujours utilisées sans nécessiter de mises à jour manuelles.
+
+Notez que cette intégration n’est disponible que pour les clients qui utilisent Dynamic Media Manager as a Cloud Service.
 
 Pour en savoir plus sur Dynamic Media dans Adobe Experience Manager as a Cloud Service, consultez la [documentation Experience Manager](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/dynamicmedia/dynamic-media){target="_blank"}.
 

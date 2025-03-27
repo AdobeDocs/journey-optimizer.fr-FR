@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 6151aea2-6a34-4000-ba48-161efe4d94d7
-source-git-commit: cbd121dda4093fdea6f6bded02e8ae3e188e827d
-workflow-type: ht
-source-wordcount: '575'
+source-git-commit: 7ca149d420f802a6230e699cffefddc4117cb85e
+workflow-type: tm+mt
+source-wordcount: '577'
 ht-degree: 100%
 
 ---
@@ -69,6 +69,7 @@ Le champ **[!UICONTROL Balises]** vous permet de définir des balises pour votre
 * [Pages de destination](../landing-pages/create-lp.md)
 * [Listes des abonnements](../landing-pages/subscription-list.md)
 * [Modèles](../content-management/content-templates.md)
+* [Configurations de canal](../configuration/channel-surfaces.md#channel-config-tags)
 
 Vous pouvez sélectionner une balise existante ou en créer une nouvelle. Pour ce faire, procédez comme suit.
 

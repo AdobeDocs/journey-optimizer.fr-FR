@@ -5,10 +5,10 @@ user-guide-title: Guide de Journey Optimizer
 user-guide-description: Utilisez Journey Optimizer pour créer et proposer aux clients des expériences connectées, contextuelles et personnalisées
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: ac9c3687100da33149e6d237b35ffbf6d22afac3
+source-git-commit: 7ca149d420f802a6230e699cffefddc4117cb85e
 workflow-type: tm+mt
-source-wordcount: '2279'
-ht-degree: 94%
+source-wordcount: '2314'
+ht-degree: 97%
 
 ---
 
@@ -45,6 +45,7 @@ ht-degree: 94%
    + Création d’un parcours{#create-journey}
       + [Créer votre premier parcours](using/building-journeys/journey-gs.md)
       + [Définir les propriétés de votre parcours](using/building-journeys/journey-properties.md)
+      + [Configurer et suivre votre mesure de parcours](using/building-journeys/success-metrics.md)
       + [Concevoir le parcours](using/building-journeys/using-the-journey-designer.md)
       + [Tester votre parcours](using/building-journeys/testing-the-journey.md)
       + [Simuler votre parcours](using/building-journeys/journey-simulation.md)
@@ -171,18 +172,18 @@ ht-degree: 94%
          + [Limiter le débit avec des sources de données externes et des actions personnalisées](using/building-journeys/limit-throughput.md)
          + [Utiliser des actions personnalisées pour écrire des événements de parcours dans Experience Platform](using/building-journeys/custom-action-aep.md)
 + Campagnes à plusieurs étapes {#ms-campaigns}
-   + [Prise en main des campagnes à plusieurs étapes](using/ms/gs-ms-campaigns.md)
-   + [Principes clés](using/ms/gs-campaign-creation.md)
+   + [Commencer avec les campagnes à plusieurs étapes](using/ms/gs-ms-campaigns.md)
+   + [Principes de base](using/ms/gs-campaign-creation.md)
    + Configuration {#ms-config}
       + [Schémas](using/ms/ms-schemas.md)
-      + [Utilisation des variables d’événement](using/ms/event-variables.md)
-   + Création de votre première {#create-ms-campaign} de campagne à plusieurs étapes
-      + [Création d’une campagne orchestrée](using/ms/create-ms-campaign.md)
+      + [Utiliser les variables d’événement](using/ms/event-variables.md)
+   + Créer votre première campagne à plusieurs étapes {#create-ms-campaign}
+      + [Créer une campagne orchestrée](using/ms/create-ms-campaign.md)
       + [Orchestrer les activités](using/ms/orchestrate-activities.md)
-      + [Configurer les paramètres de campagne](using/ms/ms-campaign-settings.md)
+      + [Configurer les paramètres de la campagne](using/ms/ms-campaign-settings.md)
       + [Démarrer et surveiller vos campagnes](using/ms/start-monitor-campaigns.md)
       + [Gérer la personnalisation](using/ms/ms-personalization.md)
-   + {#design-campaigns} des activités de campagne à plusieurs étapes
+   + Activités de campagne à plusieurs étapes {#design-campaigns}
       + [À propos des activités de campagne à plusieurs étapes](using/ms/activities/about-activities.md)
       + [Rendez-vous](using/ms/activities/and-join.md)
       + [Créer une audience](using/ms/activities/build-audience.md)
@@ -198,7 +199,7 @@ ht-degree: 94%
       + [Planificateur](using/ms/activities/scheduler.md)
       + [Partage](using/ms/activities/split.md)
       + [Test](using/ms/activities/test.md)
-      + [Mise à jour de données](using/ms/activities/update-data.md)
+      + [Mettre à jour les données](using/ms/activities/update-data.md)
       + [Attente](using/ms/activities/wait.md)
 + Campagnes {#campaigns}
    + [Prise en main des campagnes](using/campaigns/get-started-with-campaigns.md)
@@ -324,6 +325,11 @@ ht-degree: 94%
          + [Configurer la prise en charge des cartes de contenu dans le SDK web](using/content-card/content-card-configuration-sdk.md)
       + [Créer des cartes de contenu](using/content-card/create-content-card.md)
       + [Concevoir des cartes de contenu](using/content-card/design-content-card.md)
+   + WhatsApp{#whatsapp}
+      + [Prise en main des messages WhatsApp](using/whatsapp/get-started-whatsapp.md)
+      + [Configuration du canal WhatsApp dans Journey Optimizer](using/whatsapp/whatsapp-configuration.md)
+      + [Créer un message WhatsApp](using/whatsapp/create-whatsapp.md)
+      + [Vérifier et envoyer vos messages WhatsApp](using/whatsapp/send-whatsapp.md)
 +  Pages de destination {#landing-pages}
    + [Prise en main des pages de destination](using/landing-pages/get-started-lp.md)
    + [Créer une page de destination](using/landing-pages/create-lp.md)
@@ -338,7 +344,7 @@ ht-degree: 94%
       + [Configurer les sous-domaines des pages de destination](using/landing-pages/lp-subdomains.md)
       + [Définir les préréglages de page de destination](using/landing-pages/lp-presets.md)
 + Gestion de contenu {#content-management}
-   + Assistant AI pour la génération de contenu{#ai-assistant}
+   + Assistant IA pour la génération de contenu{#ai-assistant}
       + [Commencer avec l’Assistant IA](using/content-management/gs-generative.md)
       + [Génération d’e-mails avec l’IA](using/content-management/generative-email.md)
       + [Génération de notifications push avec l’IA](using/content-management/generative-push.md)
@@ -362,11 +368,11 @@ ht-degree: 94%
          + [Comprendre les calculs statistiques dans le rapport d’expérience](using/content-management/experiment-report-calculations.md)
    + Personnalisation {#personalization}
       + [Commencer avec la personnalisation](using/personalization/personalize.md)
-      + [Ajouter de la personnalisation](using/personalization/personalization-build-expressions.md)
+      + [Ajouter une personnalisation](using/personalization/personalization-build-expressions.md)
       + [Syntaxe de personnalisation](using/personalization/personalization-syntax.md)
       + [Réutiliser des fragments d’expression](using/personalization/use-expression-fragments.md)
-      + [Utilisation des données Adobe Experience Platform pour la personnalisation (Beta)](using/personalization/lookup-aep-data.md)
-      + Liste des fonctions d&#39;assistance {#functions}
+      + [Utiliser les données Adobe Experience Platform pour la personnalisation (Beta)](using/personalization/lookup-aep-data.md)
+      + Liste des fonctions d’assistance {#functions}
          + [Prise en main des fonctions d’assistance](using/personalization/functions/functions.md)
          + [Fonctions d’agrégation](using/personalization/functions/aggregation.md)
          + [Fonctions arithmétiques](using/personalization/functions/arithmetic-functions.md)
@@ -419,9 +425,11 @@ ht-degree: 94%
    + [Intégrations avec d’autres solutions](using/integrations/ajo-integrations.md)
    + [Utiliser Experience Manager Assets](using/integrations/assets.md)
    + [Utiliser Adobe Stock](using/integrations/stock.md)
+   + [Utilisation d’Adobe Express](using/integrations/express.md)
    + [Utiliser les modèles Experience Manager](using/integrations/aem-templates.md)
    + [Utiliser des fragments de contenu Experience Manager](using/integrations/aem-fragments.md)
    + [Utiliser Dynamic Media](using/integrations/aem-dynamic.md)
+   + [Utilisation de GenStudio](using/integrations/genstudio.md)
 + Suivre et surveiller {#reporting}
    + Rapport dynamique {#live-report}
       + [Prise en main du rapport dynamique](using/reports/live-report.md)
@@ -501,19 +509,19 @@ ht-degree: 94%
                + [Rechercher des stratégies de sélection](using/experience-decisioning/api-reference/selection-strategies/lookup.md)
                + [Liste de stratégies de sélection](using/experience-decisioning/api-reference/selection-strategies/selection-strategies-list.md)
                + [Mettre à jour des stratégies de sélection](using/experience-decisioning/api-reference/selection-strategies/update.md)
-            + Formules de classement {#ranking-formulas}
+            + Formules de classement{#ranking-formulas}
                + [Créer des formules de classement](using/experience-decisioning/api-reference/ranking-formulas/create.md)
                + [Supprimer les formules de classement](using/experience-decisioning/api-reference/ranking-formulas/delete.md)
-               + [Formules de classement de recherche](using/experience-decisioning/api-reference/ranking-formulas/lookup.md)
-               + [Formules de classement des sélections](using/experience-decisioning/api-reference/ranking-formulas/ranking-formulas-list.md)
+               + [Rechercher des formules de classement](using/experience-decisioning/api-reference/ranking-formulas/lookup.md)
+               + [Sélectionner des formules de classement](using/experience-decisioning/api-reference/ranking-formulas/ranking-formulas-list.md)
                + [Mettre à jour les formules de classement](using/experience-decisioning/api-reference/ranking-formulas/update.md)
-            + Règles d&#39;éligibilité {#eligibility-rules}
+            + Règles d’éligibilité{#eligibility-rules}
                + [Créer des règles d’éligibilité](using/experience-decisioning/api-reference/eligibility-rules/create.md)
-               + [Supprimer les règles d’éligibilité](using/experience-decisioning/api-reference/eligibility-rules/delete.md)
+               + [Supprimer des règles d’éligibilité](using/experience-decisioning/api-reference/eligibility-rules/delete.md)
                + [Rechercher des règles d’éligibilité](using/experience-decisioning/api-reference/eligibility-rules/lookup.md)
-               + [Liste des règles d&#39;éligibilité](using/experience-decisioning/api-reference/eligibility-rules/eligibility-rules-list.md)
-               + [Mettre à jour les règles d’éligibilité](using/experience-decisioning/api-reference/eligibility-rules/update.md)
-         + [Diffuser des offres à l’aide du canal d’expérience basé sur le code](using/experience-decisioning/api-reference/deliver.md)
+               + [Liste des règles d’éligibilité](using/experience-decisioning/api-reference/eligibility-rules/eligibility-rules-list.md)
+               + [Mettre à jour des règles d’éligibilité](using/experience-decisioning/api-reference/eligibility-rules/update.md)
+         + [Diffuser des offres à l’aide du canal d’expérience basée sur du code](using/experience-decisioning/api-reference/deliver.md)
       + Gérer les éléments de décision {#decision-items}
          + [Configurer le catalogue d’éléments](using/experience-decisioning/catalogs.md)
          + [Créer des éléments de décision](using/experience-decisioning/items.md)
