@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Notes de mise à jour d’Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 1776d9fa7352fc41d52f685c0a402e60bced348d
+source-git-commit: e10ffbbe553495b1f9d7a2aeafc3d10e54561389
 workflow-type: tm+mt
-source-wordcount: '1441'
-ht-degree: 61%
+source-wordcount: '1389'
+ht-degree: 64%
 
 ---
 
@@ -146,15 +146,6 @@ L’éditeur de personnalisation Journey Optimizer a été mis à jour avec de n
 ![Vidéo présentant la nouvelle fonctionnalité dans l’éditeur Personalization](assets/do-not-localize/personalization-editor.gif)
 
 Pour plus d’informations, consultez la [documentation détaillée](../personalization/personalization-build-expressions.md).
-
-**Campagnes**
-
-* Dans la liste des campagnes, la sélection d’une campagne ouvre désormais un volet affichant ses détails.
-* Vous pouvez désormais copier vos campagnes d’un sandbox à un autre.
-
-**Personnalisation**
-
-Un nouveau bouton « Pilules » a été ajouté à l’éditeur de personnalisation. Une fois activés, les attributs de profil et contextuels s’affichent sous forme de pilules, ce qui améliore la lisibilité de votre code.
 
 **Validations**
 
