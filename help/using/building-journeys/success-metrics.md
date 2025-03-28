@@ -8,9 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 keywords: publication, parcours, dynamique, validité, vérifier
-source-git-commit: 7ca149d420f802a6230e699cffefddc4117cb85e
+exl-id: 95d0267e-fab4-4057-8ab5-6f7c9c866b0f
+source-git-commit: 1e35c2ea2b0a6c8edd5b870311bb32b4b4b58e9a
 workflow-type: tm+mt
-source-wordcount: '487'
+source-wordcount: '488'
 ht-degree: 12%
 
 ---
@@ -22,7 +23,7 @@ En suivant ces mesures, vous pouvez évaluer les performances de votre parcours,
 
 ## Conditions préalables {#prerequisites}
 
-Avant d’utiliser votre mesure de parcours, vous devez ajouter un jeu de données qui inclut le `Commerce Details` [groupe de champs](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=fr#field-group){target="_blank"}.
+Avant d’utiliser votre mesure de parcours, vous devez ajouter un jeu de données qui inclut les groupes de champs `Commerce Details`, `Web` et `Mobile` [](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=fr#field-group){target="_blank"}.
 
 ## Mesures disponibles {#metrics}
 
