@@ -7,10 +7,10 @@ feature: Decision Management
 role: Developer, Data Engineer
 level: Experienced
 exl-id: c9e14d4d-f2e2-43f9-b1c5-4b005ce858ad
-source-git-commit: c3d256fcd06eb096a589d1154a0a4c97462005a9
-workflow-type: ht
+source-git-commit: 12a36b38958e2a3cdb702b4789a1a6dadf45e911
+workflow-type: tm+mt
 source-wordcount: '812'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
@@ -21,7 +21,7 @@ Cette section vous guide tout au long de la transmission de données contextuell
 Ce cas pratique comporte plusieurs étapes clés :
 
 1. [Configurer les conditions préalables](#prerequisites) : assurez-vous que toutes les étapes nécessaires sont effectuées pour transmettre des données contextuelles dans vos requêtes.
-1. [Utiliser des données contextuelles dans les règles d’éligibilité](#rule) : créez des règles qui déterminent les offres à afficher en fonction du type d’appareil de l’utilisateur ou de l’utilisatrice.
+1. [Utiliser des données contextuelles dans les règles d’éligibilité](#rules) : créez des règles qui déterminent les offres à afficher en fonction du type d’appareil de l’utilisateur.
 1. [Concevoir des offres spécifiques à un appareil](#offers) : créez des offres personnalisées pour chaque type d’appareil et associez-les aux règles correspondantes.
 1. [Créer une collection d&#39;offres](#collection) : regroupez toutes les offres dans une collection statique.
 1. [Configurer une décision](#decision) : créez une décision qui utilise le moteur de décision d’offres pour sélectionner la meilleure offre à présenter aux utilisateurs et utilisatrices en fonction de leur type d’appareil.
@@ -149,33 +149,33 @@ Voici un exemple de requête transmettant des données contextuelles.
 
 ```
 {
-	"events": [{
-		"xdm": {
-			"identityMap": {
-				"customerId": [{
-					"id": "0000158216",
-					"authenticatedState": "authenticated",
-					"primary": true
-				}]
-			},
-			"_experienceplatform": {
-				"identity": {
-					"core": {
-						"customerId": "0000158216"
-					}
-				},
+    "events": [{
+        "xdm": {
+            "identityMap": {
+                "customerId": [{
+                    "id": "0000158216",
+                    "authenticatedState": "authenticated",
+                    "primary": true
+                }]
+            },
+            "_experienceplatform": {
+                "identity": {
+                    "core": {
+                        "customerId": "0000158216"
+                    }
+                },
                 "offerContextData" : {
                     "language" : "NL",
                     "deviceType" : "iphone"
                 }
-			}
-		}
-	}],
-	"query": {
-		"personalization": {
-			"decisionScopes": ["eyJ4ZG06YWN0aXZpdHlJZCI6Inhjb3JlOm9mZmVyLWFjdGl2aXR5OjE3M2I1MGM5Mjg0ZGQ4NzkiLCJ4ZG06cGxhY2VtZW50SWQiOiJ4Y29yZTpvZmZlci1wbGFjZW1lbnQ6MTZhMzQxZWQ4ZDYyMzc2MSJ9"]
-		}
-	}
+            }
+        }
+    }],
+    "query": {
+        "personalization": {
+            "decisionScopes": ["eyJ4ZG06YWN0aXZpdHlJZCI6Inhjb3JlOm9mZmVyLWFjdGl2aXR5OjE3M2I1MGM5Mjg0ZGQ4NzkiLCJ4ZG06cGxhY2VtZW50SWQiOiJ4Y29yZTpvZmZlci1wbGFjZW1lbnQ6MTZhMzQxZWQ4ZDYyMzc2MSJ9"]
+        }
+    }
 }
 ```
 

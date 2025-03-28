@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 7234a8e8-4ab0-4f17-a833-5e452fadac35
-source-git-commit: 2e1168f321d6f2c83733c6112e11d834d5e7eb95
-workflow-type: ht
-source-wordcount: '2636'
-ht-degree: 100%
+source-git-commit: 12a36b38958e2a3cdb702b4789a1a6dadf45e911
+workflow-type: tm+mt
+source-wordcount: '2719'
+ht-degree: 96%
 
 ---
 
@@ -258,9 +258,9 @@ Le champ **[!UICONTROL Réinitialiser la fréquence de limitation]** vous permet
 >
 >Une fois que vous avez publié votre offre, vous ne pourrez plus modifier la période (mensuelle, hebdomadaire ou quotidienne) de la fréquence. Vous pouvez désormais modifier le capping de la fréquence si le statut de l’offre est **[!UICONTROL Brouillon]** et si l’offre n’a jamais été publiée auparavant avec le capping de la fréquence activé.
 
-+++ **À lire absolument : API de capping de fréquence et API Edge Decisioning**
++++ **À lire absolument : Capping de la fréquence et API de gestion des décisions**
 
-Le compteur de capping de fréquence est mis à jour et disponible dans une décision de l’API Edge Decisioning en moins de 3 secondes.
+Le compteur de limitation de la fréquence est mis à jour et disponible dans une décision [API Edge Decisioning](../api-reference/offer-delivery-api/start-offer-delivery-apis.md#edge) en moins de 3 secondes.
 
 Chaque région de hub est associée à une ou plusieurs régions périphériques. Les règles de capping de fréquence sont générées et exportées de chaque région de hub vers ses régions périphériques associées. Chaque fois qu’une décision est prise à l’aide de l’API Edge Decisioning, le système applique les règles disponibles dans la même région périphérique :
 
@@ -269,7 +269,17 @@ Chaque région de hub est associée à une ou plusieurs régions périphériques
 
 Par exemple, la région de hub de votre organisation est *NLD2* et vous envoyez une demande de prise de décision depuis l’Europe (région périphérique *IRL1*). Dans ce scénario, la requête de prise de décision incrémente le compteur du profil, car les règles sont disponibles dans la région *IRL1* (Irlande). Cependant, si la demande de prise de décision provient d’une région comme le Japon (*JPN3*), qui n’est pas une région périphérique liée à la région de hub *NLD2* (Pays-Bas), aucun compteur ne sera créé et les règles de limitation de fréquence ne seront pas appliquées.
 
+>[!NOTE]
+>
+>Lorsque les compteurs se propagent d&#39;un bord à l&#39;autre ou d&#39;un moyeu à l&#39;autre, un délai de quelques minutes peut s&#39;appliquer.
+
 Pour plus d’informations sur les régions de hub et périphériques associées à votre organisation, contactez votre représentant ou représentante Adobe.
+
+Avec les autres API, le compteur de limitation de la fréquence est mis à jour comme suit :
+
+* Dans une décision [API Decisioning](../api-reference/offer-delivery-api/start-offer-delivery-apis.md#decisioning), le compteur de limitation de fréquence peut être mis à jour avec un délai de quelques minutes, en fonction du trafic.
+
+* Dans une décision [API Batch Decisioning](../api-reference/offer-delivery-api/batch-decisioning-api.md), les instantanés sont utilisés lorsque le compteur de limitation de la fréquence reste fixe. Tant que le même instantané est utilisé, le compteur reste inchangé.
 
 +++
 

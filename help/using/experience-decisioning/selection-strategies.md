@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 1b73b398-050a-40bb-a8ae-1c66e3e26ce8
-source-git-commit: 83ad828a4d342bba10284cdd20d22eb325e3e1f7
-workflow-type: ht
-source-wordcount: '719'
-ht-degree: 100%
+source-git-commit: 12a36b38958e2a3cdb702b4789a1a6dadf45e911
+workflow-type: tm+mt
+source-wordcount: '733'
+ht-degree: 98%
 
 ---
 
@@ -114,6 +114,11 @@ Une fois créée, vous pouvez utiliser cette formule dans une stratégie de sél
 
 ### Classement par l’IA {#ai-ranking}
 
-Vous pouvez également utiliser un système de modèles formés qui classe automatiquement les offres à afficher pour un profil donné en sélectionnant un modèle d’IA. Découvrez comment créer un modèle d’IA dans [cette section](ranking.md).
+Vous pouvez également utiliser un système de modèles formés qui classe automatiquement les offres à afficher pour un profil donné en sélectionnant un modèle d’IA. Découvrez comment créer un modèle d’IA dans [cette section](../offers/ranking/ai-models.md).
 
 Une fois qu’un modèle d’IA a été créé, vous pouvez l’utiliser dans une stratégie de sélection. Si plusieurs offres sont éligibles, le système de modèles formés détermine l’offre qui doit être présentée en premier pour la stratégie de sélection.
+
+>[!NOTE]
+>
+>Actuellement, le rapport [Mesure de l’effet élévateur](../offers/ranking/auto-optimization-model.md#lift) n’est disponible que pour le modèle d’IA [Optimisation personnalisée](../offers/ranking/personalized-optimization-model.md).
+
