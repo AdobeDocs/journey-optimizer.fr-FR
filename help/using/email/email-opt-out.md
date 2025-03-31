@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: désinscription, e-mail, lien, désabonnement
 exl-id: 4bb51bef-5dab-4a72-8511-1a5e528f4b95
-source-git-commit: a36f3dd1b58b2c40a99d9c2820427f710aa87660
+source-git-commit: 564dcb691d61a2f48694d208644847d7bb65d664
 workflow-type: tm+mt
-source-wordcount: '976'
-ht-degree: 95%
+source-wordcount: '991'
+ht-degree: 88%
 
 ---
 
@@ -32,12 +32,19 @@ Pour insérer un lien de désinscription dans le contenu de votre e-mail, vous p
 
 * Insérez un **lien vers une page de destination**. [Découvrir comment ajouter une page de destination de désinscription](#opt-out-external-lp)
 
+Lorsqu&#39;un destinataire clique sur le lien d&#39;opt-out, sa demande de désabonnement est traitée en conséquence.
+
+Pour vérifier que le choix du profil correspondant a été mis à jour, accédez à Experience Platform et [accédez à ce profil](https://experienceleague.adobe.com/en/docs/experience-platform/profile/ui/user-guide#attributes-tab). Dans l’onglet **[!UICONTROL Attributs]**, vous pouvez voir la valeur de **[!UICONTROL choice]** remplacée par **[!UICONTROL no]**. Pour en savoir plus, consultez la [documentation Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/profile/ui/user-guide#browse-identity){target="_blank"}.
+
+![](assets/opt-out-profile-choice.png)
+
+>[!NOTE]
+>
+>Parfois, la prise en compte des événements de désabonnement au niveau du profil peut prendre plus de temps en raison du traitement des données en aval. Patientez quelques instants le temps que le système se mette à jour.
 
 ## Désinscription en une étape {#opt-out-one-step}
 
 À l’aide d’[!DNL Adobe Journey Optimizer], vous pouvez configurer vos [paramètres de configuration du canal e-mail](email-settings.md#list-unsubscribe) avec une URL de désabonnement en un clic générée automatiquement et une adresse mailto dans l’en-tête de l’e-mail, ou inclure une URL d’exclusion en un clic dans le corps de votre e-mail.
-
-Lorsqu’un ou une destinataire clique sur le lien d’exclusion en un clic, sa demande de désabonnement est traitée en conséquence.
 
 ### URL de désabonnement en un clic dans l’en-tête d’e-mail {#unsubscribe-header}
 
@@ -90,7 +97,7 @@ Vous pouvez également utiliser une page de destination externe. Dans ce cas, co
 
 +++ Découvrez comment mettre en œuvre un appel API d’opt-out
 
-Pour que vos destinataires soient désinscrit(e)s lorsqu’ils ou elles envoient leur choix à partir de la page de destination, vous devez implémenter un **appel API d’abonnement** via [Adobe Developer](https://developer.adobe.com/){target="_blank"} pour mettre à jour les préférences des profils correspondants.
+Pour que vos destinataires soient désinscrit(e)s lorsqu’ils ou elles envoient leur choix à partir de la page de destination, vous devez implémenter un **appel API d’abonnement** via [Adobe Developer](https://developer.adobe.com){target="_blank"} pour mettre à jour les préférences des profils correspondants.
 
 Cet appel POST est le suivant :
 
@@ -170,10 +177,4 @@ Une fois que vous avez configuré le lien de désabonnement sur votre page de de
    ![](assets/opt-out-confirmation-example.png)
 
    Par conséquent, cet utilisateur ne recevra aucune communication de votre marque à moins d&#39;être de nouveau abonné.
-
-1. Pour vérifier que le choix du profil correspondant a été mis à jour, accédez à Experience Platform et accédez au profil en sélectionnant un espace de noms d&#39;identité et une valeur d&#39;identité correspondante. Pour en savoir plus, consultez la [documentation Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/ui/user-guide.html?lang=fr#getting-started){target="_blank"}.
-
-   ![](assets/opt-out-profile-choice.png)
-
-   Dans l’onglet **[!UICONTROL Attributs]**, la valeur du **[!UICONTROL choix]** a été remplacée par **[!UICONTROL non]**.
 

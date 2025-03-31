@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: paramètres, e-mail, configuration
 exl-id: c6c77975-ec9c-44c8-a8d8-50ca6231fea6
-source-git-commit: a36f3dd1b58b2c40a99d9c2820427f710aa87660
+source-git-commit: 0fd6c054b9b4df9e3ed900c610e0d1186e479750
 workflow-type: tm+mt
-source-wordcount: '1294'
-ht-degree: 62%
+source-wordcount: '1371'
+ht-degree: 59%
 
 ---
 
@@ -43,11 +43,11 @@ Selon le client de messagerie et les paramètres de désabonnement de la configu
 >
 >Découvrez comment gérer les paramètres de désabonnement dans [cette section](#enable-list-unsubscribe) ci-dessous.
 
-Dans les deux cas, le profil correspondant au destinataire est immédiatement exclu et ce choix est mis à jour dans [Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/ui/user-guide.html?lang=fr#getting-started){target="_blank"}.
+Dans les deux cas, lorsqu&#39;un destinataire clique sur le lien d&#39;opt-out, sa demande de désabonnement est traitée en conséquence. Le profil correspondant est immédiatement exclu et ce choix est mis à jour dans [Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/ui/user-guide.html?lang=fr#getting-started){target="_blank"}.
 
 >[!NOTE]
 >
->Dans [!DNL Journey Optimizer], le consentement est géré par le [Schéma de consentement](https://experienceleague.adobe.com/docs/experience-platform/xdm/field-groups/profile/consents.html?lang=fr){target="_blank"} d’Experience Platform. Par défaut, la valeur du champ de consentement est vide et traitée comme un consentement pour recevoir vos communications. Vous pouvez modifier cette valeur par défaut lors de l’intégration à l’une des valeurs possibles répertoriées [ici](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/consents.html?lang=fr#choice-values){target="_blank"} ou utiliser [politiques de consentement](../action/consent.md) pour remplacer la logique par défaut.
+>Parfois, la prise en compte des événements de désabonnement au niveau du profil peut prendre plus de temps en raison du traitement des données en aval. Patientez quelques instants le temps que le système se mette à jour.
 
 ## Activer le désabonnement de la liste {#enable-list-unsubscribe}
 
@@ -89,7 +89,13 @@ Les fonctionnalités **[!UICONTROL Mailto (se désabonner)]** et **[!UICONTROL U
 
    * Si vous n’ajoutez pas de lien d’exclusion en un clic au contenu de votre message et que l’**[!UICONTROL URL de désabonnement en un clic]** par défaut est décochée dans les paramètres de configuration des canaux, aucune URL n’est transmise à l’en-tête de l’e-mail dans le cadre de l’en-tête de désabonnement de la liste.
 
-Pour plus d’informations sur la gestion des fonctionnalités de désabonnement dans vos messages, consultez [cette section](../email/email-opt-out.md#unsubscribe-header).
+  >[!NOTE]
+  >
+  >Pour plus d’informations sur la gestion des fonctionnalités de désabonnement dans vos messages, consultez [cette section](../email/email-opt-out.md#unsubscribe-header).
+
+Dans [!DNL Journey Optimizer], le consentement est géré par le [Schéma de consentement](https://experienceleague.adobe.com/docs/experience-platform/xdm/field-groups/profile/consents.html?lang=fr){target="_blank"} d’Experience Platform. Par défaut, la valeur du champ de consentement est vide et traitée comme un consentement pour recevoir vos communications. Vous pouvez modifier cette valeur par défaut lors de l’intégration à l’une des valeurs possibles répertoriées [ici](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/consents.html?lang=fr#choice-values){target="_blank"} ou utiliser [politiques de consentement](../action/consent.md) pour remplacer la logique par défaut.
+
+Actuellement, [!DNL Journey Optimizer] n’ajoute pas de balise spécifique pour désabonner les événements déclenchés par la fonction Désabonnement des listes . Si vous devez différencier les clics de désabonnement de la liste des autres actions de désabonnement, vous devez implémenter le balisage personnalisé en externe ou utiliser une page de destination externe pour le suivi.
 
 ## Gérer les données de désabonnement en externe {#custom-managed}
 
