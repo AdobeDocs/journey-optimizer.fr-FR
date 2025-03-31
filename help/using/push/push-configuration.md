@@ -7,10 +7,10 @@ feature: Push, Channel Configuration
 role: Admin
 level: Intermediate
 exl-id: 7099d44e-5d5d-4eef-9477-f68f4eaa1983
-source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
+source-git-commit: ec3f4b69e510d477d65fedb126cec50e15a3f072
 workflow-type: tm+mt
-source-wordcount: '1677'
-ht-degree: 100%
+source-wordcount: '1839'
+ht-degree: 92%
 
 ---
 
@@ -23,19 +23,7 @@ ht-degree: 100%
 >Le nouveau **workflow de démarrage rapide de l’intégration mobile** est désormais disponible. Utilisez cette nouvelle fonctionnalité de produit pour configurer rapidement le SDK mobile, afin de commencer à collecter et valider les données d’événement mobile et d’envoyer des notifications push mobiles. Cette fonctionnalité est accessible via la page d’accueil de collecte de données en tant que version Beta publique. [En savoir plus](mobile-onboarding-wf.md).
 >
 
-
-## Avant de commencer {#before-starting}
-
-<!--
-### Check provisioning
-
-Your Adobe Experience Platform account must be provisioned to contain following schemas and datasets for push notification data flow to function correctly:
-
-| Schema <br>Dataset                                                                       | Group of fields                                                                                                                                                                         | Operation                                                |
-| -------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------- |
-| CJM Push Profile Schema <br>CJM Push Profile Dataset                                     | Push Notification Details<br>Adobe CJM ExperienceEvent - Message Profile Details<br>Adobe CJM ExperienceEvent - Message Execution Details<br>Application Details<br>Environment Details | Register Push Token                                      |
-| CJM Push Tracking Experience Event Schema<br>CJM Push Tracking Experience Event Dataset | Push Notification Tracking                                                                                                                                                              | Track interactions and provide data for the reporting UI |
--->
+## Avant de commencer {#start-push}
 
 ### Configuration des autorisations {#setup-permissions}
 
@@ -109,6 +97,25 @@ Pour attribuer ce **[!UICONTROL profil de produit]** aux utilisateurs, procédez
    >Si l&#39;utilisateur n&#39;a pas été créé auparavant dans Admin Console, consultez la [documentation relative à l&#39;ajout d&#39;utilisateurs](https://helpx.adobe.com/fr/enterprise/admin-guide.html/enterprise/using/manage-users-individually.ug.html?lang=fr#add-users).
 
    ![](assets/push_product_7.png)
+
+
+### Vérifier vos jeux de données {#push-datasets}
+
+Les schémas et jeux de données suivants sont disponibles avec le canal Notification push :
+
+| Schéma <br>jeu de données | Groupe de champs | Opération |
+| -------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------- |
+| Schéma de profil push CJM <br>jeu de données de profil push CJM) | Détails de la notification push<br>Adobe CJM ExperienceEvent - Détails du profil du message<br>Adobe CJM ExperienceEvent - Détails d’exécution du message<br>Détails de l’application<br>Détails de l’environnement | Jeton push d’enregistrement |
+| Schéma d’événement d’expérience de suivi des notifications push CJM<br>jeu de données d’événement d’expérience de suivi des notifications push CJM | Suivi des notifications push | Suivre les interactions et fournir des données pour l’interface utilisateur de création de rapports |
+
+
+>[!NOTE]
+>
+>Lorsque des événements de suivi push sont ingérés dans le jeu de données d’événement d’expérience de suivi push CJM, certains échecs peuvent se produire, même si les données sont partiellement ingérées avec succès. Cela peut se produire si certains champs de votre mappage n’existent pas dans les événements entrants : le système consigne les avertissements mais n’empêche pas l’ingestion de parties valides des données. Ces avertissements apparaissent dans le statut du lot comme « échec », mais reflètent un succès partiel de l’ingestion.
+>
+>Pour consulter la liste complète des champs et attributs de chaque schéma, consultez le [dictionnaire de schémas de Journey Optimizer](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=fr){target="_blank"}.
+
+
 
 ### Configuration de votre application {#configure-app}
 
