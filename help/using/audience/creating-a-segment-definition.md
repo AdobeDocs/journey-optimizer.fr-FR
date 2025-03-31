@@ -124,7 +124,7 @@ Une fois que vous avez défini une audience, les profils sont ajoutés à l’au
 
 >[!AVAILABILITY]
 >
-L’évaluation flexible des audiences n’est actuellement disponible que pour un ensemble d’organisations (disponibilité limitée). Pour en bénéficier, contactez votre représentant ou représentante Adobe.
+>L’évaluation flexible des audiences n’est actuellement disponible que pour un ensemble d’organisations (disponibilité limitée). Pour en bénéficier, contactez votre représentant ou représentante Adobe.
 
 Le portail Audience Adobe Experience Platform vous permet d’exécuter une tâche de segmentation à la demande pour des audiences sélectionnées, en vous assurant de toujours disposer des données d’audience les plus récentes avant de les cibler dans les parcours et campagnes Journey Optimizer.
 
