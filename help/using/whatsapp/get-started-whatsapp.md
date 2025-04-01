@@ -11,7 +11,7 @@ hide: true
 hidefromtoc: true
 badge: label="Beta" type="Informative"
 exl-id: 22df2bfa-4d86-464e-ad83-3aa457e3a747
-source-git-commit: a40907925c7f8c783a3baf9673009a54f433b960
+source-git-commit: 514e9072ba2154bdb5d587ed91111f1b3941f6d1
 workflow-type: tm+mt
 source-wordcount: '293'
 ht-degree: 17%
@@ -70,7 +70,7 @@ Les fonctionnalités suivantes ne seront pas incluses dans cette version bêta :
 
 ## Vidéo pratique {#video}
 
-La vidéo ci-dessous montre comment créer un parcours avec une action Whatsapp.
+La vidéo ci-dessous montre comment créer un parcours avec une action WhatsApp.
 
 +++ Voir la vidéo
 
