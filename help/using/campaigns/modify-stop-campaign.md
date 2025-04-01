@@ -10,7 +10,7 @@ level: Beginner
 keywords: gérer les campagnes, statut, planification, accès, optimizer
 exl-id: 1b88c84e-9d92-4cc1-b9bf-27a2f1d29569
 source-git-commit: 0a7c1ebf01a0aec9f84e86b14df14bbfcd24a7b4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '598'
 ht-degree: 100%
 
@@ -22,7 +22,7 @@ Une fois qu’une campagne a été activée, vous pouvez la modifier ou l’arr�
 
 De plus, vous pouvez dupliquer des campagnes dynamiques (exécutées une fois ou de manière récurrente) pour en créer de nouvelles et archiver les campagnes terminées ou arrêtées.
 
-## Accès aux campagnes {#access}
+## Accéder aux campagnes {#access}
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_view"

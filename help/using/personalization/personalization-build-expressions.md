@@ -11,9 +11,9 @@ mini-toc-levels: 1
 keywords: expression, éditeur, à propos, commencer
 exl-id: 1ac2a376-a3a8-41ae-9b04-37886697f0fc
 source-git-commit: 4240f64cd7b6473f589d2324a2ebf87e2c60d394
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1406'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -32,7 +32,7 @@ Dans l’interface de l’éditeur de personnalisation, vous pouvez sélectionne
 
 ## Où puis-je ajouter une personnalisation ?
 
-Vous pouvez ajouter de la personnalisation dans **[!DNL Journey Optimizer]** dans chaque champ à l’aide de l’icône ![icône d’ajout de personnalisation](assets/do-not-localize/add-perso-icon.svg). Développez les sections ci-dessous pour plus d’informations.
+Dans **[!DNL Journey Optimizer]**, vous pouvez ajouter une personnalisation dans chaque champ à l’aide de l’icône ![icône d’ajout de personnalisation](assets/do-not-localize/add-perso-icon.svg). Pour plus d’informations, développez les sections ci-dessous.
 
 +++Messages
 
@@ -44,9 +44,9 @@ Vous pouvez également l’ajouter à d’autres sections de votre contenu. Par 
 
 +++
 
-+++Email Designer
++++Concepteur d’e-mail
 
-Lorsque vous modifiez le contenu d’un e-mail dans le [Concepteur d’e-mail](../email/get-started-email-design.md), vous pouvez ajouter une personnalisation dans les blocs de texte et dans les URL à l’aide de l’icône de la barre d’outils contextuelle.
+Lorsque vous modifiez le contenu d’un e-mail dans le [Concepteur d’e-mail](../email/get-started-email-design.md), vous pouvez ajouter une personnalisation dans les blocs de texte et dans les URL à l’aide de l’icône de la barre d’outils contextuelle.
 
 ![](assets/perso_insert.png)
 
@@ -62,7 +62,7 @@ Vous pouvez ajouter une personnalisation lors de l’utilisation de contenu de t
 
 Journey Optimizer vous permet également de personnaliser les **URL** dans votre message.  Les URL personnalisées orientent les destinataires vers des pages spécifiques dʼun site web ou vers un microsite personnalisé, en fonction des attributs du profil. La personnalisation des URL est disponible pour les types de liens suivants : **Lien externe**, **Lien de désabonnement** et **Opt-out**.
 
-Exemples d’URL personnalisées :
+Exemples d’adresses URL personnalisées :
 
 * `https://www.adobe.com/users/{{profile.person.name.lastName}}`
 * `https://www.adobe.com/users?uid={{profile.person.name.firstName}}`
@@ -99,9 +99,9 @@ Le volet de navigation vous permet de sélectionner la source pour la personnali
 >title="Saisie semi-automatique"
 >abstract="Activer cette option permet au système de suggérer et de remplir automatiquement le code au fur et à mesure que vous le tapez. Cette fonctionnalité est disponible uniquement pour les formats HTML et Texte et prend en charge les attributs de profil et de contexte. Si vous désactivez cette option, l’éditeur fournit une saisie automatique du code HTML natif à la place."
 
-C’est dans l’espace de travail central que vous créez votre syntaxe de personnalisation. Pour utiliser un attribut afin de personnaliser votre message, localisez-le dans le volet de navigation et cliquez sur le bouton `+` pour l’ajouter à l’expression.
+C’est dans l’espace de travail central que vous créez votre syntaxe de personnalisation. Pour utiliser un attribut afin de personnaliser votre message, localisez-le dans le volet de navigation, puis cliquez sur le bouton `+` pour l’ajouter à l’expression.
 
-Le menu à trois points en regard de l’icône `+` vous permet d’obtenir plus de détails sur chaque attribut et d’ajouter ceux que vous utilisez le plus souvent à vos favoris. Les attributs ajoutés aux favoris sont accessibles à partir du menu **[!UICONTROL Favoris]** dans le volet de navigation.
+Le menu à trois points en regard de l’icône `+` vous permet d’obtenir plus de détails sur chaque attribut et d’ajouter ceux que vous utilisez le plus souvent à vos favoris. Vous pouvez accéder aux attributs ajoutés aux favoris à partir du menu **[!UICONTROL Favoris]** dans le volet de navigation.
 
 De plus, vous pouvez définir un texte de remplacement par défaut qui s’affichera si un attribut de profil de type chaîne est vide. Pour ce faire, cliquez sur le bouton des points de suspension en regard de l’attribut et sélectionnez **[!UICONTROL Insérer avec un texte de remplacement]**. Rédigez le texte à afficher par défaut si la valeur de l’attribut est vide pour un profil, puis cliquez sur **[!UICONTROL Ajouter]**.
 

@@ -6,9 +6,9 @@ role: User
 level: Beginner
 exl-id: e742c04e-2987-4466-84af-bdaf4d714552
 source-git-commit: 80935cc31ef88a322c2dd555fc8998935c6e5621
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '325'
-ht-degree: 84%
+ht-degree: 100%
 
 ---
 
@@ -20,10 +20,10 @@ Notez que [!DNL Journey optimizer] vous permet également de tester différentes
 
 >[!PREREQUISITES]
 >
->Pour envoyer des BAT, vous devez disposer des autorisations **Approuver et publier** pour la ressource spécifique (campagne ou parcours) associée à l’e-mail. En outre, pour envoyer des BAT dans un parcours, l’autorisation **parcours de publication** est également requise. [En savoir plus sur les autorisations](../administration/ootb-permissions.md).
+>Pour envoyer des BAT, il est nécessaire de disposer des autorisations **Approuver et publier** pour la ressource (campagne ou parcours) spécifique associée à l’e-mail. En outre, pour envoyer des BAT dans un parcours, l’autorisation **Publier le parcours** est également requise. [En savoir plus sur les autorisations](../administration/ootb-permissions.md).
 
 
-Pour envoyer des BAT par e-mail, vous devez d&#39;abord sélectionner [profils de test](test-profiles.md). Procédez ensuite comme suit :
+Pour envoyer des BAT par e-mail, vous devez d’abord sélectionner des [profils de test](test-profiles.md). Suivez ensuite les étapes suivantes :
 
 1. Dans l’écran **[!UICONTROL Simuler]**, cliquez sur le bouton **[!UICONTROL Envoyer le BAT]**.
 

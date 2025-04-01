@@ -10,9 +10,9 @@ level: Beginner
 keywords: créer, e-mail, commencer, parcours, campagne
 exl-id: c77dc420-a375-4376-ad86-ac740e214c3c
 source-git-commit: e052e7bfea5381583ad8d2d7b785d44486cb9975
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '969'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -92,7 +92,7 @@ Pour plus d’informations sur la configuration d’une campagne, consultez cett
 
    >[!NOTE]
    >
-   >* L’objet est obligatoire.
+   >* La ligne d’objet est obligatoire.
    >
    >* L’objet ne doit pas inclure de sauts de ligne.
 

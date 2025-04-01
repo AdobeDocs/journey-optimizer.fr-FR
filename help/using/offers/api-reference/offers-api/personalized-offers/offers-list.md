@@ -7,9 +7,9 @@ role: Data Engineer
 level: Experienced
 exl-id: 45d51918-1106-4b6b-b383-8ab4d9a4f7af
 source-git-commit: b3fed5a48480647010f59fa471c505b4031b8701
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '283'
-ht-degree: 72%
+ht-degree: 100%
 
 ---
 
@@ -155,7 +155,7 @@ Effectuez la pagination si plusieurs offres personnalisées sont manquantes dans
 | `total` | Nombre d’offres personnalisées. |
 | `count` | Nombre d’offres renvoyées dans cette réponse. |
 
-Récupérez le point d’entrée d’`_links.next.href` tels que `/offers?orderby=-modified&limit=2&start={TIMESTAMP}&offer-type=PERSONALIZED` et ajoutez-le à l’API.
+Récupérez le point d’entrée depuis `_links.next.href`, par exemple `/offers?orderby=-modified&limit=2&start={TIMESTAMP}&offer-type=PERSONALIZED`, et ajoutez-le à l’API.
 
 **Format d’API**
 
@@ -178,7 +178,7 @@ GET /{ENDPOINT_PATH}/offers?orderby=-modified&limit=2&start={TIMESTAMP}&offer-ty
 }
 ```
 
-De même, si vous n’êtes pas sur la première page et que vous devez récupérer la page précédente des offres personnalisées, utilisez la valeur `href` de `_links.prev`. Envoyez une requête à l’URL pour récupérer le jeu de résultats précédent, comme illustré dans l’exemple ci-dessous.
+De même, si vous n’êtes pas sur la première page et que vous devez récupérer la page précédente des offres personnalisées, utilisez la valeur `href` depuis `_links.prev`. Envoyez une requête à l’URL pour récupérer le jeu de résultats précédent, comme illustré dans l’exemple ci-dessous.
 
 **Réponse**
 
