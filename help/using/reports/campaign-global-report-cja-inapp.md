@@ -9,16 +9,16 @@ role: User
 level: Intermediate
 badge: label="Disponibilité limitée" type="Informative"
 exl-id: 51cbe27f-3f3f-471e-a5d9-e3a88fcfdd68
-source-git-commit: 47482adb84e05fe41eb1c50479a8b50e00469ec4
+source-git-commit: 8feb2e74f4ca3321ba4c96204cbdd2343a4ba92b
 workflow-type: tm+mt
-source-wordcount: '509'
-ht-degree: 100%
+source-wordcount: '540'
+ht-degree: 94%
 
 ---
 
 # Rapport de campagne in-app {#campaign-global-report-cja-inapp}
 
-## Tendance impressions et clics {#impression-click-trend}
+## Tendance des affichages et des clics {#impression-click-trend}
 
 ![](assets/cja-inapp-impressions-click.png)
 
@@ -34,6 +34,8 @@ Le graphique **[!UICONTROL Tendance impressions et clics]** présente une analys
 
 ## Clics {#clicks-inapp}
 
+![](assets/cja-campaign-inapp-clicks.png)
+
 Le graphe **[!UICONTROL Clics]** affiche les mesures des clics in-app, qui illustrent à la fois le nombre total de clics sur le contenu et le nombre de profils uniques ayant cliqué sur le contenu.
 
 +++ En savoir plus sur les mesures de clics
@@ -46,6 +48,8 @@ Le graphe **[!UICONTROL Clics]** affiche les mesures des clics in-app, qui illus
 
 ## Affichage {#display-inapp}
 
+![](assets/cja-campaign-inapp-displays.png)
+
 Le graphique **[!UICONTROL Affichages]** vous permet de comprendre à la fois la portée globale du message et le nombre de profils uniques qui interagissent avec lui.
 
 +++ En savoir plus sur les mesures d’affichage
@@ -57,6 +61,8 @@ Le graphique **[!UICONTROL Affichages]** vous permet de comprendre à la fois la
 +++
 
 ## Données de suivi {#tracking-data-inapp}
+
+![](assets/cja-campaign-inapp-tracking-data.png)
 
 Le tableau **[!UICONTROL Données de suivi]** offre un instantané détaillé de l’activité de profil liée à vos messages in-app, fournissant des informations essentielles sur l’engagement et l’efficacité des messages in-app.
 
@@ -78,11 +84,11 @@ Le tableau **[!UICONTROL Données de suivi]** offre un instantané détaillé de
 
 * **[!UICONTROL Envois]** : nombre total de messages in-app envoyés.
 
-<!--
-* **[!UICONTROL Inbound triggered]**: 
+* **[!UICONTROL Entrant déclenché]** : nombre de fois qu’un message in-app a été déclenché par une interaction utilisateur ou un événement prédéfini.
 
-* **[!UICONTROL Inbound dismisses]**: 
--->
+* **[!UICONTROL Rejets entrants]** : nombre de fois où les utilisateurs et utilisatrices ont ignoré le message in-app sans interagir avec celui-ci.
+
+
 +++
 
 ## Libellés des liens de suivi {#track-link-label-inapp}

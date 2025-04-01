@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: d11dd1cb-041b-48cd-b1fc-bcbe12338a07
-source-git-commit: 32f34b6e2a5cd3eda6de9177c5a4b5c2be7b8058
-workflow-type: ht
-source-wordcount: '1062'
-ht-degree: 100%
+source-git-commit: 8feb2e74f4ca3321ba4c96204cbdd2343a4ba92b
+workflow-type: tm+mt
+source-wordcount: '1056'
+ht-degree: 95%
 
 ---
 
@@ -65,13 +65,13 @@ Le tableau **[!UICONTROL Statistiques d’envoi]** fournit un résumé complet d
 
 +++ En savoir plus sur les mesures de statistiques d’envoi
 
-* **[!UICONTROL Personnes]** : nombre de profils d’utilisateurs et d’utilisatrices qui sont qualifiés en tant que profils cibles pour vos messages.
-
 * **[!UICONTROL Ciblés]** : nombre total d’e-mails traités lors de la procédure d’envoi.
 
 * **[!UICONTROL Envois]** : nombre total d’e-mails envoyés.
 
 * **[!UICONTROL Diffusés]** : nombre d’e-mails envoyés avec succès, par rapport au nombre total de messages envoyés.
+
+* **[!UICONTROL Diffusés uniques]** : nombre de profils ayant reçu au moins un e-mail avec succès.
 
 * **[!UICONTROL Rebonds pour les canaux sortants]** : nombre total d’erreurs cumulées lors de la procédure d’envoi et du traitement automatique des retours par rapport au nombre total de messages envoyés.
 
@@ -99,12 +99,13 @@ Le tableau **[!UICONTROL E-mail - Statistiques de tracking]** offre un compte re
 
 * **[!UICONTROL Ouvertures d’e-mail]** : nombre d’ouvertures de vos e-mails dans une campagne.
 
-* **[!UICONTROL Ouvertures uniques d’e-mail]** : pourcentage d’e-mails ouverts.
+* **[!UICONTROL Ouvertures uniques d’e-mails]** : nombre de profils ayant ouvert des e-mails.
 
 * **[!UICONTROL Plaintes relatives aux spams]** : nombre de fois où un message a été déclaré comme spam ou courrier indésirable.
 
 * **[!UICONTROL Désabonnements]** : nombre de clics sur le lien de désabonnement.
 
+* **[!UICONTROL Désabonnements uniques des e-mails]** : nombre de profils qui se sont désabonnés de vos e-mails.
 +++
 
 ## Domaines d’e-mails {#email-domains}
@@ -119,13 +120,12 @@ Le tableau **[!UICONTROL Domaines d’e-mails]** propose une ventilation détail
 
 * **[!UICONTROL Diffusés]** : nombre d’e-mails envoyés avec succès, par rapport au nombre total d’e-mails envoyés.
 
-* **[!UICONTROL Ouvertures d’e-mail]** : nombre d’ouvertures de vos e-mails dans une campagne.
-
-* **[!UICONTROL Clics]** : nombre de clics sur un contenu dans vos e-mails.
-
 * **[!UICONTROL Rebonds pour les canaux sortants]** : nombre total d’erreurs cumulées lors de la procédure d’envoi et du traitement automatique des retours par rapport au nombre total d’e-mails envoyés.
 
 * **[!UICONTROL Erreurs sortantes]** : nombre total d’erreurs survenues au cours de la procédure d’envoi, empêchant l’envoi à des profils.
+
+* **[!UICONTROL Exclusions sortantes]** : nombre de profils qui ont été exclus par Adobe Journey Optimizer.
+
 +++
 
 ## Libellés des liens de suivi {#track-link-label}
@@ -154,10 +154,6 @@ Le tableau **[!UICONTROL URL des liens de suivi]** fournit une vue d’ensemble 
 
 * **[!UICONTROL Clics]** : nombre de clics sur un contenu dans vos e-mails.
 
-* **[!UICONTROL Affichages]** : nombre de fois où l’e-mail a été ouvert.
-
-* **[!UICONTROL Affichages uniques]** : nombre de fois que l’e-mail a été ouvert, les interactions multiples d’un même profil ne sont pas prises en compte.
-
 +++
 
 ## Objets des e-mails {#email-subjects}
@@ -168,8 +164,9 @@ Le tableau **[!UICONTROL Objets des e-mails]** présente une vue d’ensemble co
 
 +++ En savoir plus sur les mesures des objets des e-mails
 
-* **[!UICONTROL Personnes]** : nombre de profils qui sont qualifiés en tant que profils cibles pour vos e-mails.
+* **[!UICONTROL Diffusés]** : nombre d’e-mails envoyés avec succès, par rapport au nombre total d’e-mails envoyés.
 
+* **[!UICONTROL Diffusés uniques]** : nombre de profils distincts ayant reçu au moins un e-mail, s’assurant que les doublons ne sont pas comptabilisés.
 +++
 
 ## Causes d’exclusion {#excluded-reasons}

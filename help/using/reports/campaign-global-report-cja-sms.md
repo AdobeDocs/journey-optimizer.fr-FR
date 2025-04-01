@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: bd743a3b-0317-45d9-8e76-98d5cc258752
-source-git-commit: f5df65a0225754ab66fb2ffa33c5130f7137b644
+source-git-commit: 8feb2e74f4ca3321ba4c96204cbdd2343a4ba92b
 workflow-type: tm+mt
 source-wordcount: '640'
 ht-degree: 100%
@@ -18,6 +18,8 @@ ht-degree: 100%
 # Rapport de campagne par SMS {#campaign-global-report-cja-sms}
 
 ## Tendance diffusés et clics {#delivered-click-sms}
+
+![](assets/cja-campaign-sms-delivered.png)
 
 Le graphe **[!UICONTROL Tendance diffusés et clics]** présente une analyse détaillée de l’engagement de vos profils avec vos e-mails, fournissant des informations précieuses sur la manière dont les profils interagissent avec votre contenu.
 
@@ -30,6 +32,8 @@ Le graphe **[!UICONTROL Tendance diffusés et clics]** présente une analyse dé
 +++
 
 ## Statut de la diffusion {#delivery-status-sms}
+
+![](assets/cja-campaign-sms-status.png)
 
 Le tableau **[!UICONTROL Statut de diffusion]** offre un compte-rendu détaillé de l’activité du profil associée à vos campagnes par SMS. Cela inclut des mesures sur les diffusions, les clics et d’autres indicateurs d’engagement pertinents, offrant une vue d’ensemble complète de la manière dont les profils interagissent avec le contenu de vos SMS.
 

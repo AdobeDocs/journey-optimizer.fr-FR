@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: f10b3ab9-db0a-4759-98e4-2ac1988eb8c4
-source-git-commit: 673e86ccd07c7afdf0b87859434145f16f7b7d26
-workflow-type: ht
-source-wordcount: '563'
-ht-degree: 100%
+source-git-commit: 8feb2e74f4ca3321ba4c96204cbdd2343a4ba92b
+workflow-type: tm+mt
+source-wordcount: '594'
+ht-degree: 94%
 
 ---
 
@@ -83,11 +83,10 @@ Le tableau **[!UICONTROL Données de suivi]** offre un instantané détaillé de
 
 * **[!UICONTROL Envois]** : nombre total de messages in-app envoyés.
 
-<!--
-* **[!UICONTROL Inbound triggered]**: 
+* **[!UICONTROL Entrant déclenché]** : nombre de fois qu’un message in-app a été déclenché par une interaction utilisateur ou un événement prédéfini.
 
-* **[!UICONTROL Inbound dismisses]**: 
--->
+* **[!UICONTROL Rejets entrants]** : nombre de fois où les utilisateurs et utilisatrices ont ignoré le message in-app sans interagir avec celui-ci.
+
 +++
 
 ## Libellés des liens de suivi {#track-link-label-inapp}

@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 82558447-9d42-4fac-8fc1-fded9bf4bfcc
-source-git-commit: 32f34b6e2a5cd3eda6de9177c5a4b5c2be7b8058
-workflow-type: ht
-source-wordcount: '1037'
-ht-degree: 100%
+source-git-commit: 8feb2e74f4ca3321ba4c96204cbdd2343a4ba92b
+workflow-type: tm+mt
+source-wordcount: '1059'
+ht-degree: 95%
 
 ---
 
@@ -65,17 +65,17 @@ Le tableau **[!UICONTROL Statistiques d’envoi]** vous aide à comprendre les p
 
 +++ En savoir plus sur les mesures de statistiques d’envoi
 
-* **[!UICONTROL Personnes]** : nombre de profils d’utilisateurs et d’utilisatrices qui sont qualifiés en tant que profils cibles pour vos messages.
-
 * **[!UICONTROL Ciblés]** : nombre total d’e-mails traités lors de la procédure d’envoi.
 
 * **[!UICONTROL Envois]** : nombre total d’e-mails envoyés.
 
 * **[!UICONTROL Diffusés]** : nombre d’e-mails envoyés avec succès, par rapport au nombre total de messages envoyés.
 
-* **[!UICONTROL Rebonds]** : nombre total d’erreurs cumulées lors de la procédure d’envoi et du traitement automatique des retours par rapport au nombre total de messages envoyés.
+* **[!UICONTROL Diffusés uniques]** : nombre de profils ayant reçu au moins un e-mail avec succès.
 
-* **[!UICONTROL Erreurs sortantes]** : nombre total d’erreurs survenues au cours de la procédure d’envoi, empêchant l’envoi à des profils.
+* **[!UICONTROL Rebonds pour les canaux sortants]** : nombre total d’erreurs cumulées lors de la procédure d’envoi et du traitement automatique des retours par rapport au nombre total de messages envoyés.
+
+* **[!UICONTROL Erreurs sortantes]** : nombre total d’erreurs survenues au cours de la procédure d’envoi, empêchant le message d’être envoyé à des profils.
 
 * **[!UICONTROL Exclusions sortantes]** : nombre de profils qui ont été exclus par Adobe Journey Optimizer.
 
@@ -97,19 +97,20 @@ Le tableau **[!UICONTROL E-mail – Statistiques de tracking]** offre un compte 
 
 * **[!UICONTROL Clics uniques]** : nombre de profils qui ont cliqué sur un contenu dans un e-mail.
 
-* **[!UICONTROL Ouvertures d’e-mails]** : nombre d’ouvertures de vos e-mails dans un parcours.
+* **[!UICONTROL Ouvertures d’e-mail]** : nombre d’ouvertures de vos e-mails dans une campagne.
 
-* **[!UICONTROL Ouvertures uniques d’e-mails]** : pourcentage d’e-mails ouverts.
+* **[!UICONTROL Ouvertures uniques d’e-mails]** : nombre de profils ayant ouvert des e-mails.
 
 * **[!UICONTROL Plaintes relatives aux spams]** : nombre de fois où un message a été déclaré comme spam ou courrier indésirable.
 
 * **[!UICONTROL Désabonnements]** : nombre de clics sur le lien de désabonnement.
 
+* **[!UICONTROL Désabonnements uniques des e-mails]** : nombre de profils qui se sont désabonnés de vos e-mails.
 +++
 
 ## Domaines d’e-mails {#email-domains}
 
-![](assets/cja-journey-email-domain.png)
+![](assets/cja-email-email-domains.png)
 
 Le tableau **[!UICONTROL Domaines des e-mails]** offre une ventilation très détaillée des e-mails classés par domaine, ce qui permet d’obtenir des informations précises sur les mesures de performance des parcours de vos e-mails. Cette analyse exhaustive vous permet de comprendre le comportement de différents domaines en réponse au contenu de vos e-mails.
 
@@ -126,6 +127,9 @@ Le tableau **[!UICONTROL Domaines des e-mails]** offre une ventilation très dé
 * **[!UICONTROL Rebonds pour les canaux sortants]** : nombre total d’erreurs cumulées lors de la procédure d’envoi et du traitement automatique des retours par rapport au nombre total d’e-mails envoyés.
 
 * **[!UICONTROL Erreurs sortantes]** : nombre total d’erreurs survenues au cours de la procédure d’envoi, empêchant l’envoi à des profils.
+
+* **[!UICONTROL Exclusions sortantes]** : nombre de profils qui ont été exclus par Adobe Journey Optimizer.
+
 +++
 
 ## Libellés des liens de suivi {#track-link-label}
@@ -154,31 +158,33 @@ Le tableau **[!UICONTROL URL des liens de suivi]** fournit une vue d’ensemble 
 
 * **[!UICONTROL Clics]** : nombre de clics sur un contenu dans vos e-mails.
 
-* **[!UICONTROL Affichages]** : nombre d’ouvertures du message.
-
-* **[!UICONTROL Affichages uniques]** : nombre dʼouvertures du message, les multiples interactions dʼun même profil ne sont pas prises en compte.
-
 +++
+
 
 ## Objets des e-mails {#email-subject}
 
-![](assets/cja-journey-email-subjects.png)
+![](assets/cja-email-subject.png)
 
 Le tableau **[!UICONTROL Objets des e-mails]** fournit une vue d’ensemble complète des objets des e-mails qui attirent le plus de visiteurs et de visiteuses. Cette ressource offre des informations précieuses sur la dynamique d’engagement des audiences.
 
 +++ En savoir plus sur les mesures des objets des e-mails
 
-* **[!UICONTROL Personnes]** : nombre de profils d’utilisateurs et d’utilisatrices qui sont qualifiés en tant que profils cibles pour vos e-mails.
+* **[!UICONTROL Diffusés]** : nombre d’e-mails envoyés avec succès, par rapport au nombre total d’e-mails envoyés.
 
+* **[!UICONTROL Diffusés uniques]** : nombre de profils distincts ayant reçu au moins un e-mail, s’assurant que les doublons ne sont pas comptabilisés.
 +++
 
 ## Raisons de rebond {#email-bounce-reasons}
+
+![](assets/cja-journey-email-bounce.png)
 
 Le tableau **[!UICONTROL Raisons de rebond]** compile les données disponibles relatives aux rebonds de messages, fournissant des informations détaillées sur les raisons spécifiques des rebonds d’e-mails.
 
 Pour plus d’informations sur les rebonds, consultez la page [Liste de suppression](../reports/suppression-list.md).
 
 ## Causes d’exclusion {#email-excluded}
+
+![](assets/cja-journey-email-excluded.png)
 
 Le tableau **[!UICONTROL Causes d’exclusion]** présente une vue d’ensemble complète des différents facteurs qui ont abouti à l’exclusion des profils d’utilisateurs et d’utilisatrices de l’audience ciblée, entraînant la non-réception du message.
 

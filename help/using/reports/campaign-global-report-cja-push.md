@@ -7,10 +7,11 @@ feature: Reporting
 topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: 47482adb84e05fe41eb1c50479a8b50e00469ec4
-workflow-type: ht
-source-wordcount: '519'
-ht-degree: 100%
+exl-id: 43b10f54-0c19-46a1-8d51-eb6bf22e6da9
+source-git-commit: 8feb2e74f4ca3321ba4c96204cbdd2343a4ba92b
+workflow-type: tm+mt
+source-wordcount: '495'
+ht-degree: 94%
 
 ---
 
@@ -24,15 +25,13 @@ Le tableau **[!UICONTROL Statistiques d’envoi]** fournit un résumé complet d
 
 +++ En savoir plus sur les mesures de statistiques d’envoi
 
-* **[!UICONTROL Personnes]** : nombre de profils qui sont qualifiés en tant que profils cibles pour les notifications push.
-
 * **[!UICONTROL Ciblées]** : nombre total de notifications push traitées lors de l’analyse.
 
 * **[!UICONTROL Envois]** : nombre total d’envois pour la notification push.
 
 * **[!UICONTROL Diffusées]** : nombre de notifications push envoyées avec succès, par rapport au nombre total de notifications push envoyées.
 
-* **[!UICONTROL Rebonds pour les canaux sortants]** : nombre total d’erreurs cumulées lors du processus d’envoi et du traitement automatique des retours par rapport au nombre total de notifications push envoyées.
+* **[!UICONTROL Diffusés uniques]** : nombre de profils ayant reçu au moins une notification push.
 
 * **[!UICONTROL Erreurs sortantes]** : nombre total d’erreurs survenues empêchant l’envoi à des profils.
 
@@ -50,18 +49,15 @@ Le tableau **[!UICONTROL Statistiques de suivi]** offre un instantané détaill�
 
 * **[!UICONTROL Taux de clics (CTR)]** : pourcentage d’utilisateurs et d’utilisatrices ayant interagi avec les notifications push.
 
-* **[!UICONTROL Taux d’ouverture par clic (CTOR)]** : nombre de fois où les notifications push ont été ouvertes.
-
 * **[!UICONTROL Clics]** : nombre de clics sur un contenu dans vos notifications push.
 
 * **[!UICONTROL Clics uniques]** : nombre de profils qui ont cliqué sur un contenu dans vos notifications push.
 
-<!--
-* **[!UICONTROL Push custom actions]**: 
--->
+* **[!UICONTROL Actions personnalisées push]** : nombre d’actions personnalisées entreprises par les profils en réponse aux notifications push.
+
 +++
 
-## Libellés des liens de suivi {#track-link-label-push}
+## Libellés suivis {#track-link-label-push}
 
 ![](assets/cja-campaign-push-link-labels.png)
 
