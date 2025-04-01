@@ -8,7 +8,7 @@ solution: Journey Optimizer
 source-git-commit: 25122d6770750e6ae58d3dd8a890547a068a484e
 workflow-type: tm+mt
 source-wordcount: '2318'
-ht-degree: 97%
+ht-degree: 98%
 
 ---
 
@@ -322,7 +322,7 @@ ht-degree: 97%
       + Configurer le canal de carte de contenu {#configure}
          + [Conditions préalables des cartes de contenu](using/content-card/content-card-configuration-prereq.md)
          + [Configurer le canal des cartes de contenu dans Journey Optimizer](using/content-card/content-card-configuration.md)
-         + [Configuration de la prise en charge des cartes de contenu dans Mobile SDK](using/content-card/content-card-lp.md)
+         + [Configurer la prise en charge des cartes de contenu dans le SDK mobile](using/content-card/content-card-lp.md)
          + [Configurer la prise en charge des cartes de contenu dans le SDK web](using/content-card/content-card-configuration-sdk.md)
       + [Créer des cartes de contenu](using/content-card/create-content-card.md)
       + [Concevoir des cartes de contenu](using/content-card/design-content-card.md)
@@ -428,7 +428,7 @@ ht-degree: 97%
    + [Utiliser Adobe Stock](using/integrations/stock.md)
    + [Utilisation d’Adobe Express](using/integrations/express.md)
    + [Utiliser les modèles Experience Manager](using/integrations/aem-templates.md)
-   + [Utiliser des fragments de contenu Experience Manager](using/integrations/aem-fragments.md)
+   + [Utiliser les fragments de contenu Experience Manager](using/integrations/aem-fragments.md)
    + [Utiliser Dynamic Media](using/integrations/aem-dynamic.md)
    + [Utilisation de GenStudio](using/integrations/genstudio.md)
 + Suivre et surveiller {#reporting}
@@ -492,7 +492,7 @@ ht-degree: 97%
       + [Commencer avec la prise de décision](using/experience-decisioning/gs-experience-decisioning.md)
       + [Mécanismes de sécurisation et limitations des prises de décision](using/experience-decisioning/decisioning-guardrails.md)
       + Référence de l’API{#api-reference}
-         + Créer et gérer des {#create-manage} d’articles d’offre
+         + Créer et gérer des éléments d’offre {#create-manage}
             + Éléments de décision{#decision-items}
                + [Créer des éléments de décision](using/experience-decisioning/api-reference/decisions-items/create.md)
                + [Liste d’éléments de décision](using/experience-decisioning/api-reference/decisions-items/decision-items-list.md)

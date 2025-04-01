@@ -12,7 +12,7 @@ exl-id: 07f5f0b4-417e-408e-8d9e-86615c8a3fbf
 source-git-commit: 173d73996a676be4ebcad471f396b5f5256b80a5
 workflow-type: tm+mt
 source-wordcount: '2045'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
@@ -35,18 +35,18 @@ Vous pouvez par exemple créer un jeu de règles pour limiter le nombre de **com
 
 ### Autorisations {#permissions-frequency-rules}
 
-Pour utiliser les règles métier, vous avez besoin des autorisations suivantes :
+Pour utiliser les règles métier, vous avez besoin des autorisations suivantes :
 
-* **[!UICONTROL Afficher les règles de fréquence]** : accédez aux règles métier et affichez-les.
-* **[!UICONTROL Gérer les règles de fréquence]** : créez, modifiez ou supprimez des règles métier.
+* **[!UICONTROL Afficher les règles de fréquence]** : accédez aux règles métier et affichez-les.
+* **[!UICONTROL Gérer les règles de fréquence]** : créez, modifiez ou supprimez des règles métier.
 
 Pour en savoir plus sur les autorisations, consultez [cette section](../administration/high-low-permissions.md).
 
 ### Jeux de règles globaux et personnalisés {#global-custom}
 
-Lors de l’accès initial à des ensembles de règles à partir du menu **[!UICONTROL Administration]** > **[!UICONTROL Règles métier]**, un ensemble de règles par défaut est précréé et actif : **Ensemble de règles par défaut global**.
+Lors de l’accès aux jeux de règles pour la première fois à partir du menu **[!UICONTROL Administration]** > **[!UICONTROL Règles métier]**, un jeu de règles par défaut est précréé et actif : **Jeu de règles par défaut global**.
 
-Cet ensemble de règles contient des règles globales que vous pouvez appliquer pour contrôler la fréquence à laquelle les utilisateurs reçoivent des messages sur un ou plusieurs canaux, de la même manière que les règles métier actuelles fonctionnent. Toutes les règles définies dans ce jeu de règles s’appliquent à tous les canaux sélectionnés, que les communications soient envoyées d’un parcours ou d’une campagne. [Découvrir comment utiliser les règles métier](../configuration/rule-sets.md)
+Ce jeu de règles contient des règles globales que vous pouvez appliquer pour contrôler la fréquence à laquelle les utilisateurs et utilisatrices reçoivent des messages sur un ou plusieurs canaux, comme le font les règles métier actuelles. Toutes les règles définies dans ce jeu de règles s’appliquent à tous les canaux sélectionnés, que les communications soient envoyées d’un parcours ou d’une campagne. [Découvrir comment utiliser les règles métier](../configuration/rule-sets.md)
 
 En plus du jeu de règles « Jeu de règles par défaut global », vous pouvez créer des **jeux de règles personnalisés** que vous pouvez appliquer à n’importe quelle campagne pour limiter le nombre de messages envoyés au sein de cette campagne. [Découvrir comment créer des jeux de règles personnalisés](#create)
 
@@ -66,7 +66,7 @@ Lors de la création d’un jeu de règles, vous devez indiquer si les règles d
 
 >[!AVAILABILITY]
 >
->Alors que les ensembles de règles de domaine **Canal** sont disponibles pour tous les utilisateurs, les ensembles de règles de domaine **Parcours** ne sont disponibles que pour un nombre limité d’utilisateurs (disponibilité limitée). Pour en bénéficier, contactez votre représentant ou représentante Adobe.
+>Alors que les ensembles de règles de domaine **Canal** sont disponibles pour tous les utilisateurs et utilisatrices, les ensembles de règles de domaine **Parcours** ne sont disponibles que pour un nombre limité de personnes (disponibilité limitée). Pour en bénéficier, contactez votre représentant ou représentante Adobe.
 
 ## Créer votre premier jeu de règles personnalisées {#create-rule-set}
 
@@ -90,7 +90,7 @@ Pour créer un jeu de règles, procédez comme suit.
 
    >[!AVAILABILITY]
    >
-   >Alors que les ensembles de règles de domaine **Canal** sont disponibles pour tous les utilisateurs, les ensembles de règles de domaine **Parcours** ne sont disponibles que pour un nombre limité d’utilisateurs (disponibilité limitée). Pour en bénéficier, contactez votre représentant ou représentante Adobe.
+   >Alors que les ensembles de règles de domaine **Canal** sont disponibles pour tous les utilisateurs et utilisatrices, les ensembles de règles de domaine **Parcours** ne sont disponibles que pour un nombre limité de personnes (disponibilité limitée). Pour en bénéficier, contactez votre représentant ou représentante Adobe.
 
 1. Cliquez sur **[!UICONTROL Enregistrer]**.
 
@@ -142,7 +142,7 @@ Les paramètres disponibles pour la règle dépendent du domaine du jeu de règl
 
    >[!AVAILABILITY]
    >
-   >La durée « quotidienne » n’est disponible que pour un ensemble d’organisations (disponibilité limitée). Pour en bénéficier, contactez votre représentant ou représentante Adobe.
+   >La durée « Quotidienne » est disponible uniquement pour un ensemble d’organisations (disponibilité limitée). Pour en bénéficier, contactez votre représentant ou représentante Adobe.
 
    L’expiration du compteur pour chaque période est la suivante :
 
@@ -154,11 +154,11 @@ Les paramètres disponibles pour la règle dépendent du domaine du jeu de règl
 
      >[!CAUTION]
      > 
-     >Pour garantir la précision des règles de limitation de la fréquence quotidienne, veillez à choisir l’espace de noms de priorité la plus élevée lors de la création d’une campagne ou d’un parcours. Pour en savoir plus sur la priorité des espaces de noms, consultez le guide [ Platform Identity Service ](https://experienceleague.adobe.com/en/docs/experience-platform/identity/features/identity-graph-linking-rules/namespace-priority){target="_blank"}
+     >Pour garantir la précision des règles de capping de la fréquence quotidienne, veillez à choisir l’espace de noms de priorité la plus élevée lors de la création d’une campagne ou d’un parcours. Pour en savoir plus sur la priorité des espaces de noms, consultez le [guide sur le service d’identités Platform.](https://experienceleague.adobe.com/fr/docs/experience-platform/identity/features/identity-graph-linking-rules/namespace-priority){target="_blank"}
 
    Notez que la valeur du compteur de profils est mise à jour une fois la communication diffusée. Tenez-en compte lorsque vous envoyez un grand volume de communications, car le débit peut faire en sorte que les personnes destinataires reçoivent l’e-mail quelques minutes, voire quelques heures après le lancement de la communication (dans le cas où vous envoyez des millions de communications simultanément).
 
-   Cela est important dans le cas où des personnes destinataires reçoivent deux communications de manière rapprochée. Nous suggérons d&#39;espacer les communications d&#39;au moins deux heures dans la mesure du possible afin de donner suffisamment de temps au destinataire pour recevoir la communication et la valeur du compteur pour se mettre à jour en conséquence.
+   Cela est important dans le cas où des personnes destinataires reçoivent deux communications de manière rapprochée. Nous vous conseillons d’espacer les communications d’au moins deux heures afin que les personnes destinataires disposent de suffisamment de temps pour recevoir la communication et que la valeur de compteur soit mise à jour en conséquence.
 
 1. Définissez la limitation de votre règle, c’est-à-dire le nombre maximum de messages qui peuvent être envoyés à un profil utilisateur individuel chaque mois, chaque semaine ou chaque jour en fonction de votre sélection ci-dessous.
 
@@ -225,7 +225,7 @@ Le statut de la règle devient **[!UICONTROL Inactif]** et la règle ne s’appl
 
 ## Accéder aux jeux de règles et les gérer {#access-rule-sets}
 
-Tous les ensembles de règles créés s’affichent dans le menu **[!UICONTROL Administration]** > **[!UICONTROL Règles métier]**. Ils sont triés par date de dernière modification.
+Tous les jeux de règles créés s’affichent dans le menu **[!UICONTROL Administration]** > **[!UICONTROL Règles métier]**. Ils sont triés par date de dernière modification.
 
 ![](assets/rule-sets-list.png)
 
