@@ -9,7 +9,7 @@ exl-id: ffe1e77c-6c4f-4f23-9183-d715a4c7c402
 source-git-commit: 040c8387c73f9d867840225ddff6cf940cc96ac5
 workflow-type: tm+mt
 source-wordcount: '899'
-ht-degree: 40%
+ht-degree: 70%
 
 ---
 
@@ -29,32 +29,32 @@ Commencez à créer votre campagne à plusieurs étapes avec les activités pert
 
 * Pour envoyer une diffusion récurrente, lancez votre campagne à plusieurs étapes avec une activité **Planificateur**. Vous pouvez également utiliser une activité **Planificateur** pour les diffusions ponctuelles afin de définir la date de contact de celles-ci. Cette date de contact peut également être définie dans les paramètres de la diffusion. Consultez [cette section](scheduler.md).
 
-## Configuration d’une activité de canal {#create-a-delivery-in-a-workflow}
+## Configurer une activité de canal {#create-a-delivery-in-a-workflow}
 
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_email"
 >title="Activité e-mail"
->abstract="L’activité E-mail permet d’envoyer des e-mails dans votre campagne à plusieurs étapes, pour des messages ponctuels et récurrents. Il permet d’automatiser le processus d’envoi d’e-mails à une cible calculée dans la même campagne à plusieurs étapes. Vous pouvez combiner des activités de canal dans une zone de travail de campagne à plusieurs étapes afin de créer des campagnes cross-canal pouvant déclencher des actions en fonction du comportement du client et des données."
+>abstract="L’activité E-mail permet d’envoyer des e-mails dans votre campagne à plusieurs étapes pour des messages ponctuels et récurrents. Elle permet d’automatiser le processus d’envoi d’e-mails à une cible calculée dans la même campagne à plusieurs étapes. Vous pouvez combiner des activités de canal dans une zone de travail de campagne à plusieurs étapes, afin de créer des campagnes cross-canal pouvant déclencher des actions en fonction du comportement de la clientèle et des données."
 
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_sms"
 >title="Activité SMS"
->abstract="L’activité SMS permet d’envoyer des SMS dans votre campagne à plusieurs étapes, pour des messages ponctuels et récurrents. Il permet d’automatiser le processus d’envoi de SMS à une cible calculée dans la même campagne à plusieurs étapes. Vous pouvez combiner des activités de canal dans la zone de travail de campagne à plusieurs étapes afin de créer des campagnes cross-canal pouvant déclencher des actions en fonction du comportement du client et des données."
+>abstract="L’activité SMS permet d’envoyer des SMS dans votre campagne à plusieurs étapes pour les messages ponctuels et récurrents. Elle permet d’automatiser le processus d’envoi de SMS à une cible calculée dans la même campagne à plusieurs étapes. Vous pouvez combiner des activités de canal dans la zone de travail de campagne à plusieurs étapes, afin de créer des campagnes cross-canal pouvant déclencher des actions en fonction du comportement de la clientèle et des données."
 
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_push_ios"
->title="Activité notification push iOS"
->abstract="L’activité iOS push permet d’envoyer des notifications push iOS dans le cadre de votre campagne à plusieurs étapes. Il permet la diffusion de campagnes à plusieurs étapes uniques et récurrentes, automatisant l’envoi de notifications push iOS à une cible prédéfinie dans le même workflow. Vous pouvez combiner des activités de canal dans la zone de travail du workflow afin de créer des workflows cross-canal pouvant déclencher des actions en fonction du comportement et des données de la clientèle."
+>title="Activité Notification push iOS"
+>abstract="L’activité Notification push iOS permet d’envoyer des notifications push iOS dans le cadre de votre campagne à plusieurs étapes. Elle permet la diffusion de campagnes à plusieurs étapes ponctuelles et récurrentes, en automatisant l’envoi de notifications push iOS à une cible prédéfinie dans le même workflow. Vous pouvez combiner des activités de canal dans la zone de travail du workflow afin de créer des workflows cross-canal pouvant déclencher des actions en fonction du comportement et des données de la clientèle."
 
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_push_android"
 >title="Activité notification push Android"
->abstract="L’activité Android push permet d’envoyer des notifications push Android dans le cadre de votre campagne à plusieurs étapes. Il permet la diffusion de messages ponctuels et récurrents, automatisant l’envoi de notifications push Android à une cible prédéfinie dans la même campagne à plusieurs étapes. Vous pouvez combiner des activités de canal dans la zone de travail de campagne à plusieurs étapes afin de créer des campagnes cross-canal pouvant déclencher des actions en fonction du comportement du client et des données."
+>abstract="L’activité Notification push Android permet d’envoyer des notifications push Android dans le cadre de votre campagne à plusieurs étapes. Elle permet la diffusion de messages ponctuels et récurrents, en automatisant l’envoi de notifications push Android à une cible prédéfinie dans la même campagne à plusieurs étapes. Vous pouvez combiner des activités de canal dans la zone de travail de campagne à plusieurs étapes, afin de créer des campagnes cross-canal pouvant déclencher des actions en fonction du comportement de la clientèle et des données."
 
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_directmail"
 >title="Activité Courrier"
->abstract="L’activité Publipostage direct facilite l’envoi de publipostage direct dans votre campagne à plusieurs étapes, pour les messages ponctuels et récurrents. Elle permet d’automatiser le processus de génération du fichier d’extraction requis par les fournisseurs de services postaux. Vous pouvez combiner des activités de canal dans la zone de travail de campagne à plusieurs étapes afin de créer des campagnes cross-canal pouvant déclencher des actions en fonction du comportement du client et des données."
+>abstract="L’activité Courrier facilite l’envoi de courrier depuis votre campagne à plusieurs étapes pour les messages ponctuels et récurrents. Elle permet d’automatiser le processus de génération du fichier d’extraction requis par les fournisseurs de services postaux. Vous pouvez combiner des activités de canal dans la zone de travail de campagne à plusieurs étapes, afin de créer des campagnes cross-canal pouvant déclencher des actions en fonction du comportement de la clientèle et des données."
 
 Pour configurer une diffusion dans le cadre d&#39;une campagne à plusieurs étapes, procédez comme suit :
 
