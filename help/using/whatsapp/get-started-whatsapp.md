@@ -10,10 +10,11 @@ level: Beginner
 hide: true
 hidefromtoc: true
 badge: label="Beta" type="Informative"
-source-git-commit: 22664437fb1f548f4c1524ea5fa7ac9e7fdc7f59
+exl-id: 22df2bfa-4d86-464e-ad83-3aa457e3a747
+source-git-commit: a40907925c7f8c783a3baf9673009a54f433b960
 workflow-type: tm+mt
-source-wordcount: '227'
-ht-degree: 21%
+source-wordcount: '293'
+ht-degree: 17%
 
 ---
 
@@ -42,7 +43,22 @@ Vous pouvez désormais envoyer des messages WhatsApp directement via Journey Opt
 
 ![](assets/do-not-localize/whatsapp-beta.png){zoomable="yes"}
 
-## Limites {#limitations}
+## Prérequis {#prereq}
+
+Intégrer WhatsApp à Journey Optimizer nécessite ce qui suit :
+
+* Compte Meta Business Manager
+* Compte professionnel WhatsApp
+* Numéro de téléphone WhatsApp
+
+Vous devez également tenir compte des points suivants avant de poursuivre l’intégration :
+
+* [ Règles de contenu WhatsApp ](https://www.whatsapp.com/legal/messaging-guidelines)
+* [Conformité aux méta-politiques](https://www.whatsapp.com/legal)
+* Limites de conversation de [24 heures](https://developers.facebook.com/docs/whatsapp/messaging-limits/)
+* [Modèles de métadonnées approuvés](https://developers.facebook.com/docs/whatsapp/message-templates/guidelines/)
+
+## Limites de Beta {#limitations}
 
 Les fonctionnalités suivantes ne seront pas incluses dans cette version bêta :
 
@@ -51,3 +67,13 @@ Les fonctionnalités suivantes ne seront pas incluses dans cette version bêta :
 * **Mots-clés d’opt-in/opt-out** : les utilisateurs n’auront pas la possibilité de s’abonner ou de se désabonner à l’aide de mots-clés spécifiques à ce stade.
 
 * **Messages de réponse** : les messages de réponse automatisés ou prédéfinis ne seront pas pris en charge dans cette version.
+
+## Vidéo pratique {#video}
+
+La vidéo ci-dessous montre comment créer un parcours avec une action Whatsapp.
+
++++ Voir la vidéo
+
+>[!VIDEO](https://video.tv.adobe.com/v/3451621?learn=on)
+
++++

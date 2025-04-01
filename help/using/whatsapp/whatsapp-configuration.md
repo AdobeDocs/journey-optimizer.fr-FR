@@ -9,10 +9,11 @@ level: Intermediate
 hide: true
 hidefromtoc: true
 badge: label="Beta" type="Informative"
-source-git-commit: 22664437fb1f548f4c1524ea5fa7ac9e7fdc7f59
+exl-id: d1f40cd8-f311-4df6-b401-8858095cef3e
+source-git-commit: a40907925c7f8c783a3baf9673009a54f433b960
 workflow-type: tm+mt
-source-wordcount: '451'
-ht-degree: 46%
+source-wordcount: '461'
+ht-degree: 45%
 
 ---
 
@@ -42,7 +43,7 @@ Ces étapes doivent être exécutées par un [Administrateur ou une Administratr
 
 1. Configurez vos informations d’identification d’API, comme décrit ci-dessous :
 
-   * **Jeton API** : https://developers.facebook.com/docs/facebook-login/guides/access-tokens/
+   * **Jeton API** : saisissez votre jeton API. En savoir plus dans la [documentation Meta](https://developers.facebook.com/docs/facebook-login/guides/access-tokens/)
    * **Identifiant de compte professionnel** : saisissez le numéro unique associé à votre portefeuille professionnel. En savoir plus dans la [documentation Meta](https://www.facebook.com/business/help/1181250022022158?id=180505742745347).
 
    ![](assets/whatsapp-api.png)
@@ -88,7 +89,7 @@ Après avoir créé et configuré vos informations d’identification API, vous 
 
 1. Sélectionnez **[!UICONTROL Action(s) marketing)]** pour associer des politiques de consentement aux messages à l’aide de cette configuration. Toutes les politiques de consentement associées à cette action marketing sont utilisées afin de respecter les préférences de vos clientes et clients. En savoir plus
 
-1. Sélectionnez la configuration **[!UICONTROL WhatsApp]** précédemment créée.
+1. Sélectionnez la **[!UICONTROL configuration de l’API WhatsApp]** créée précédemment.
 
    ![](assets/whatsapp-config-3.png)
 

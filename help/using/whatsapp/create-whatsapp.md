@@ -10,10 +10,11 @@ level: Beginner
 hide: true
 hidefromtoc: true
 badge: label="Beta" type="Informative"
-source-git-commit: 22664437fb1f548f4c1524ea5fa7ac9e7fdc7f59
+exl-id: cac6f675-59e0-431d-8c20-f24ef16d7bf2
+source-git-commit: a40907925c7f8c783a3baf9673009a54f433b960
 workflow-type: tm+mt
-source-wordcount: '568'
-ht-degree: 35%
+source-wordcount: '613'
+ht-degree: 31%
 
 ---
 
@@ -31,8 +32,6 @@ ht-degree: 35%
 >[!ENDSHADEBOX]
 
 Avec Adobe Journey Optimizer, vous pouvez concevoir et envoyer des messages attrayants sur WhatsApp. Ajoutez simplement une action WhatsApp à votre parcours ou campagne et concevez le contenu de votre message comme décrit ci-dessous. Adobe Journey Optimizer vous permet également de tester vos messages WhatsApp avant de les envoyer, assurant ainsi un rendu parfait, une personnalisation précise et une configuration correcte de tous les paramètres.
-
->[!VIDEO](https://video.tv.adobe.com/v/3451621?learn=on)
 
 ## Ajouter un message WhatsApp {#create-whatsapp-journey-campaign}
 
@@ -76,7 +75,7 @@ Vous pouvez maintenant commencer à concevoir le contenu de votre message WhatsA
 
 1. Les campagnes sont conçues pour être exécutées à une date spécifique ou à une fréquence récurrente. Découvrez comment configurer le **[!UICONTROL Planning]** de votre campagne dans [cette section](../campaigns/create-campaign.md#schedule).
 
-1. Dans le menu **[!UICONTROL Déclencheurs d’action]**, choisissez la variable **[!UICONTROL Fréquence]** de votre SMS :
+1. Dans le menu **[!UICONTROL Déclencheurs d&#39;action]**, choisissez le **[!UICONTROL Fréquence]** de votre message WhatsApp :
 
    * Une fois
    * Quotidien
@@ -89,9 +88,13 @@ Vous pouvez maintenant commencer à concevoir le contenu de votre message WhatsA
 
 ## Définir votre contenu WhatsApp{#whatsapp-content}
 
->[!IMPORTANT]
->
->Avant de concevoir votre message WhatsApp dans Journey Optimizer, vous devez d&#39;abord créer votre modèle dans Meta. [En savoir plus](https://www.facebook.com/business/help/2055875911147364?id=2129163877102343)
+>[!BEGINSHADEBOX]
+
+Avant de concevoir votre message WhatsApp dans Journey Optimizer, vous devez d&#39;abord créer et concevoir votre modèle dans Meta. Seuls les éléments des messages sortants sont pris en charge dans Journey Optimizer. [En savoir plus](https://www.facebook.com/business/help/2055875911147364?id=2129163877102343)
+
+Notez que votre modèle WhatsApp doit d&#39;abord être approuvé par Meta avant de l&#39;utiliser dans Journey Optimizer. Ce processus prend généralement quelques heures, mais peut prendre jusqu’à 24 heures. [En savoir plus](https://developers.facebook.com/docs/whatsapp/message-templates/guidelines/#approval-process)
+
+>[!ENDSHADEBOX]
 
 1. Dans l&#39;écran de configuration du parcours ou de la campagne, cliquez sur le bouton **[!UICONTROL Modifier le contenu]** pour configurer le contenu du message WhatsApp.
 
