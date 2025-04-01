@@ -8,10 +8,10 @@ role: User
 level: Beginner
 keywords: externe, API, optimizer, plafonnement
 exl-id: 377b2659-d26a-47c2-8967-28870bddf5c5
-source-git-commit: fd89412703d015fa173f58fa117f65323b954fec
-workflow-type: ht
-source-wordcount: '621'
-ht-degree: 100%
+source-git-commit: ecb479f0875cfe1865a60667da6e2f84fad5044a
+workflow-type: tm+mt
+source-wordcount: '725'
+ht-degree: 59%
 
 ---
 
@@ -21,7 +21,9 @@ L’API de plafonnement vous permet de créer, configurer et surveiller vos conf
 
 Cette section fournit des informations générales sur l’utilisation de l’API. Consultez la description détaillée de l’API dans la [Documentation des API Adobe Journey Optimizer](https://developer.adobe.com/journey-optimizer-apis/).
 
-## Description de l’API de plafonnement
+## Description de l’API de limitation et collection Postman {#description}
+
+Le tableau ci-dessous répertorie les commandes disponibles pour l’API de limitation. Des informations détaillées, notamment des exemples de requête, des paramètres et des formats de réponse, sont disponibles dans la documentation des API Adobe Journey Optimizer [](https://developer.adobe.com/journey-optimizer-apis/references/journeys/).
 
 | Méthode | Chemin | Description |
 |---|---|---|
@@ -36,6 +38,15 @@ Cette section fournit des informations générales sur l’utilisation de l’AP
 
 Lorsqu’une configuration est créée ou mise à jour, une vérification est automatiquement effectuée pour garantir la syntaxe et l’intégrité de la payload.
 Si certains problèmes se produisent, l’opération renvoie un avertissement ou des erreurs pour vous aider à corriger la configuration.
+
+En outre, une collection Postman est disponible [ici](https://github.com/AdobeDocs/JourneyAPI/blob/master/postman-collections/Journeys_Capping-API_postman-collection.json) pour vous aider dans votre configuration de test.
+
+Cette collection a été configurée pour partager la collection de variables Postman générée via __[Intégrations de la console Adobe I/O](https://console.adobe.io/integrations) > Essayer > Télécharger pour Postman__, qui génère un fichier d’environnement Postman avec les valeurs d’intégration sélectionnées.
+
+Une fois le téléchargement puis le chargement effectués dans Postman, vous devez ajouter trois variables : `{JO_HOST}`, `{BASE_PATH}` et `{SANDBOX_NAME}`.
+* `{JO_HOST}` : URL de passerelle [!DNL Journey Optimizer].
+* `{BASE_PATH}` : point d’entrée pour l’API.
+* `{SANDBOX_NAME}` : l’en-tête **x-sandbox-name** (par exemple, « prod ») correspondant au nom sandbox dans lequel les opérations d’API auront lieu. Pour plus d’informations, consultez la [Présentation des sandbox](https://experienceleague.adobe.com/docs/experience-platform/sandbox/home.html?lang=fr).
 
 ## Configuration du point d’entrée
 
@@ -66,7 +77,7 @@ Voici la structure de base d’une configuration de point d’entrée :
 >
 >Lorsque la configuration de limitation est déployée, si aucune valeur « maxHttpConnection » n’a été fournie, une valeur par défaut « maxHttpConnection = -1 » est ajoutée dans la configuration déployée, ce qui signifie que Journey Optimizer utilisera la valeur système par défaut.
 
-### Exemple :
+Exemple :
 
 ```
 `{
@@ -112,55 +123,66 @@ L’avertissement potentiel est :
 
 ## Cas d’utilisation
 
-Cette section décrit les cinq principaux cas d’utilisation que vous pouvez mettre en œuvre pour gérer la configuration des limitations dans [!DNL Journey Optimizer].
+Cette section répertorie les cas d’utilisation clés pour la gestion des configurations de limitation dans [!DNL Journey Optimizer] et les commandes d’API associées requises pour mettre en œuvre le cas d’utilisation.
 
-Pour vous aider dans les tests et la configuration, une collection Postman est disponible [ici](https://github.com/AdobeDocs/JourneyAPI/blob/master/postman-collections/Journeys_Capping-API_postman-collection.json).
+Des détails sur chaque commande d’API sont disponibles dans la [description de l’API et collection Postman](#description).
 
-Elle a été créée pour partager la collection de variables Postman générée par le biais des options __[Intégrations de la console Adobe I/O](https://console.adobe.io/integrations) > Essayez-la > Télécharger pour Postman__, qui génère un fichier d’environnement Postman contenant les valeurs d’intégration sélectionnées.
++++Créer et déployer une nouvelle configuration de limitation
 
-Une fois le téléchargement puis le chargement effectués dans Postman, vous devez ajouter trois variables : `{JO_HOST}`, `{BASE_PATH}` et `{SANDBOX_NAME}`.
-* `{JO_HOST}` : URL de passerelle [!DNL Journey Optimizer]
-* `{BASE_PATH}` : point d’entrée pour l’API.
-* `{SANDBOX_NAME}` : l’en-tête **x-sandbox-name** (par exemple, « prod ») correspondant au nom sandbox dans lequel les opérations d’API auront lieu. Pour plus d’informations, consultez la [Présentation des sandbox](https://experienceleague.adobe.com/docs/experience-platform/sandbox/home.html?lang=fr).
+Appels d’API à utiliser :
 
-Dans la section suivante, vous trouverez la liste classée des appels API REST pour effectuer le cas d’utilisation.
+1. **`list`** - Récupère les configurations existantes.
+1. **`create`** - Crée une configuration.
+1. **`candeploy`** - Vérifie si la configuration peut être déployée.
+1. **`deploy`** - Déploie la configuration.
 
-Cas d’utilisation n°1 : **création et déploiement d’une nouvelle configuration de limitation**
++++
 
-1. list
-1. create
-1. candeploy
-1. deploy
++++Mise à jour et déploiement d’une configuration de limitation (pas encore déployée)
 
-Cas d’utilisation n°2 : **mise à jour et déploiement d’une configuration de limitation non encore déployée**
+Appels d’API à utiliser :
 
-1. list
-1. get
-1. update
-1. candeploy
-1. deploy
+1. **`list`** - Récupère les configurations existantes.
+1. **`get`** - Récupère les détails d’une configuration spécifique.
+1. **`update`** - Modifie la configuration.
+1. **`candeploy`** - Vérifie l’éligibilité du déploiement.
+1. **`deploy`** - Déploie la configuration.
 
-Cas d’utilisation n°3 : **annulation du déploiement et suppression d’une configuration de limitation déployée**
++++
 
-1. list
-1. undeploy
-1. delete
++++Annuler le déploiement et supprimer une configuration de limitation déployée
 
-Cas d’utilisation n°4 : **suppression d’une configuration de limitation déployée**
+Appels d’API à utiliser :
 
-En un seul appel d’API, vous pouvez annuler le déploiement et supprimer la configuration à l’aide du paramètre forceDelete.
-1. list
-1. delete, avec le paramètre forceDelete
+1. **`list`** - Récupère les configurations existantes.
+1. **`undeploy`** - Annule le déploiement de la configuration.
+1. **`delete`** - Supprime la configuration.
 
-Cas d’utilisation n°5 : **mise à jour d’une configuration de limitation déjà déployée**
++++
+
++++Supprimer une configuration de limitation déployée en une seule étape
+
+En un seul appel API, vous pouvez annuler le déploiement et supprimer la configuration à l’aide du paramètre `forceDelete` .
+
+Appels d’API à utiliser :
+
+1. **`list`** - Récupère les configurations existantes.
+1. **`delete`(avec `forceDelete` paramètre)** Force la suppression d’une configuration déployée en une seule étape.
+
++++
+
++++Mettre à jour une configuration de limitation déjà déployée
 
 >[!NOTE]
 >
->Vous devez effectuer un redéploiement en cas de mise à jour d’une configuration déjà déployée.
+>Un redéploiement est nécessaire après la mise à jour d’une configuration déjà déployée.
 
-1. list
-1. get
-1. update
-1. undeploy
-1. candeploy
-1. deploy
+Appels d’API à utiliser :
+1. **`list`** - Récupère les configurations existantes.
+1. **`get`** - Récupère les détails d’une configuration spécifique.
+1. **`update`** - Modifie la configuration.
+1. **`undeploy`** - Annule le déploiement de la configuration avant d’appliquer les modifications.
+1. **`candeploy`** - Vérifie l’éligibilité du déploiement.
+1. **`deploy`** - Déploie la configuration mise à jour.
+
++++
