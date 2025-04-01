@@ -5,9 +5,9 @@ user-guide-title: Guide de Journey Optimizer
 user-guide-description: Utilisez Journey Optimizer pour créer et proposer aux clients des expériences connectées, contextuelles et personnalisées
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: e80554570d62d1ddb52516366be55711387c5d19
+source-git-commit: 25122d6770750e6ae58d3dd8a890547a068a484e
 workflow-type: tm+mt
-source-wordcount: '2315'
+source-wordcount: '2318'
 ht-degree: 97%
 
 ---
@@ -434,13 +434,14 @@ ht-degree: 97%
 + Suivre et surveiller {#reporting}
    + Rapport dynamique {#live-report}
       + [Prise en main du rapport dynamique](using/reports/live-report.md)
-      + [Liste des composants](using/reports/live-report-components.md)
+      + [Liste des mesures](using/reports/live-report-components.md)
       + [Rapport dynamique sur les parcours](using/reports/journey-live-report.md)
       + [Rapport dynamique de campagne](using/reports/campaign-live-report.md)
       + [Rapport dynamique sur les pages de destination](using/reports/lp-report-live.md)
       + [Rapport dynamique sur les listes d’abonnements](using/reports/subscription-report-live.md)
    + Rapport complet{#channel-report}
       + [Prise en main du rapport complet](using/reports/report-gs-cja.md)
+      + [Liste des mesures](using/reports/global-report-components-cja.md)
       + [Configurer manuellement Customer Journey Analytics](using/reports/cja-ajo.md)
       + [Gérer vos rapports](using/reports/report-cja-manage.md)
       + [Conditions préalables à la création de rapports et à l’expérimentation](using/reports/reporting-configuration.md)
