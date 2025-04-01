@@ -11,7 +11,7 @@ hide: true
 hidefromtoc: true
 badge: label="Beta" type="Informative"
 exl-id: cac6f675-59e0-431d-8c20-f24ef16d7bf2
-source-git-commit: 514e9072ba2154bdb5d587ed91111f1b3941f6d1
+source-git-commit: 87931614150d6f764f565f683f83db4f63d88ee0
 workflow-type: tm+mt
 source-wordcount: '613'
 ht-degree: 31%
@@ -99,7 +99,7 @@ Notez que votre modèle WhatsApp doit d&#39;abord être approuvé par Meta avant
 1. Dans l&#39;écran de configuration du parcours ou de la campagne, cliquez sur le bouton **[!UICONTROL Modifier le contenu]** pour configurer le contenu du message WhatsApp.
 
 <!--
-1. Select **[!UICONTROL Template message]**. 
+1. Select **[!UICONTROL Template message]**.
 -->
 
 1. Choisissez votre **catégorie de modèles** :

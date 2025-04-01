@@ -11,7 +11,7 @@ hide: true
 hidefromtoc: true
 badge: label="Beta" type="Informative"
 exl-id: 22df2bfa-4d86-464e-ad83-3aa457e3a747
-source-git-commit: 514e9072ba2154bdb5d587ed91111f1b3941f6d1
+source-git-commit: 87931614150d6f764f565f683f83db4f63d88ee0
 workflow-type: tm+mt
 source-wordcount: '293'
 ht-degree: 17%
@@ -69,6 +69,7 @@ Les fonctionnalités suivantes ne seront pas incluses dans cette version bêta :
 * **Messages de réponse** : les messages de réponse automatisés ou prédéfinis ne seront pas pris en charge dans cette version.
 
 ## Vidéo pratique {#video}
+
 
 La vidéo ci-dessous montre comment créer un parcours avec une action WhatsApp.
 
