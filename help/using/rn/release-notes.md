@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Notes de mise à jour d’Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: e80554570d62d1ddb52516366be55711387c5d19
+source-git-commit: 48ef8d42057ffe51c27221c2176192d4e637fb96
 workflow-type: tm+mt
-source-wordcount: '682'
-ht-degree: 40%
+source-wordcount: '643'
+ht-degree: 41%
 
 ---
 
@@ -50,22 +50,22 @@ Les nouvelles fonctionnalités de cette version sont présentées ci-dessous.
 </table>
 
 
-<table>
+<!--table>
 <thead>
 <tr>
-<th><strong>Mesures de parcours</strong><br/></th>
+<th><strong>Journey metrics</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Des mesures parcours sont désormais disponibles, ce qui vous permet de mesurer l’impact de vos activités sur les mesures clés de votre entreprise et de fournir des informations plus claires sur votre performance.</p>
-<p>Pour plus d’informations, consultez la <a href="../building-journeys/success-metrics.md">documentation détaillée</a>.</p>
+<p>Journey metrics are now available, allowing you to measure the impact of your activities across the key metrics of your business and to provide clearer insights into your performance.</p>
+<p>For more information, refer to the <a href="../building-journeys/success-metrics.md">detailed documentation</a>.</p>
 <img src="assets/do-not-localize/success-metric.gif"/>
 </td>
 </tr>
 </tbody>
-</table>
+</table-->
 
 <!-- table>
 <thead>
