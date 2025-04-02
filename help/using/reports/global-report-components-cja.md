@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: aa060d8e-23e2-4bab-b709-636077eb5d20
-source-git-commit: 3de7826ae4a7efc2837288779fb444fa15688d3f
+source-git-commit: 5849d1d52f3b1b075e804efbd3473d83cbac9fbe
 workflow-type: tm+mt
-source-wordcount: '1362'
-ht-degree: 59%
+source-wordcount: '1829'
+ht-degree: 39%
 
 ---
 
@@ -444,53 +444,214 @@ Les tableaux ci-dessous contiennent la liste des mesures utilisées dans les dif
   <tr> 
    <th> Mesure<br/> </th> 
    <th> Définition<br/> </th> 
-</tr>
+  </tr>
  </thead> 
  <tbody>
  <tr> 
-  <td>Rebonds<br/> </td> 
-   <td>Nombre de personnes qui n’ont pas interagi avec la page de destination et n’ont pas effectué l’action d’inscription.<br/> </td> 
+   <td>Taux de rebond<br/> </td> 
+   <td>Pourcentage de personnes qui ont consulté la page de destination mais n’ont pas interagi ou ne se sont pas abonnées, par rapport au nombre total de visites.<br/> </td> 
 </tr>
  <tr> 
-   <td>Taux de rebond<br/> </td> 
-   <td>Nombre de personnes nʼayant pas interagi avec la page de destination ni effectué lʼaction dʼinscription, par rapport au nombre total de visites.<br/> </td> 
-</tr>
- <tr>
-  <tr> 
    <td>Clics<br/> </td> 
    <td>Nombre de clics sur un contenu de la page de destination.<br/> </td> 
 </tr>
- <tr> 
-   <td>Taux de clics<br/> </td> 
-   <td>Pourcentage de clics sur la page de destination.<br/> </td>
-</tr>
-<tr>
-<td>Conversion<br/> </td> 
+
+<tr> 
+   <td>Conversion de la page de destination <br/> </td> 
    <td>Nombre de personnes ayant interagi avec la page de destination, par exemple celles qui se sont inscrites à un formulaire.<br/> </td> 
 </tr>
-<tr>
+<tr> 
+   <td>Taux de conversion des landing pages<br/> </td> 
+   <td>Pourcentage de personnes ayant interagi avec la page de destination, par exemple celles qui se sont inscrites à un formulaire, par rapport au nombre total de visites.<br/> </td> 
+</tr>
+ <tr> 
+   <td>Pages de destination vues <br/> </td> 
+   <td>Nombre total de visites sur votre page de destination à partir de parcours et de sources externes, y compris les visites multiples du même profil.<br/> </td> 
+</tr>
+<tr> 
+   <td>Conversions de pages de destination uniques<br/> </td> 
+   <td>Nombre de personnes uniques ayant interagi avec la page de destination, en excluant les multiples interactions du même profil.<br/> </td> 
+</tr>
+ <tr> 
+   <td>Pages de destination uniques vues<br/> </td> 
+   <td>Nombre de personnes uniques qui ont visité votre page de destination, en excluant les visites multiples du même profil.<br/> </td> 
+</tr>
+ </tbody> 
+</table>
+
+## Courrier {#direct-mail}
+
+<table> 
+ <thead> 
+  <tr> 
+   <th> Mesure<br/> </th> 
+   <th> Définition<br/> </th> 
+  </tr>
+ </thead> 
+ <tbody>
+<tr> 
+   <td>Diffusés<br/> </td> 
+   <td>Nombre de messages de publipostage direct qui ont été correctement diffusés aux destinataires.<br/> </td> 
+</tr>
+<tr> 
+   <td>Erreurs sortantes <br/> </td> 
+   <td>Nombre de messages de publipostage direct qui ont rencontré des erreurs lors du traitement ou de l’envoi, empêchant une diffusion réussie.<br/> </td> 
+</tr>
+<tr> 
+   <td>Exclusions sortantes <br/> </td> 
+   <td>Nombre de profils exclus de la réception du publipostage direct en raison de critères prédéfinis ou d’un filtrage par Adobe Journey Optimizer.<br/> </td> 
+</tr>
+<tr> 
+   <td>Profils<br/> </td> 
+   <td>Nombre de profils utilisateur identifiés comme audience cible pour la campagne de publipostage direct.<br/> </td> 
+</tr>
+<tr> 
+   <td>Envoyés<br/> </td> 
+   <td>Nombre total de messages de publipostage direct envoyés avec succès dans le cadre de la campagne.<br/> </td> 
+</tr>
+<tr> 
+   <td>Ciblés<br/> </td> 
+   <td>Nombre total de messages de publipostage direct préparés et traités pour l’envoi.<br/> </td> 
+</tr>
+ </tbody> 
+</table>
+
+
+## Mesures de carte de contenu {#content-based}
+
+<table> 
+ <thead> 
+  <tr> 
+   <th> Mesure<br/> </th> 
+   <th> Définition<br/> </th> 
+  </tr>
+ </thead> 
+ <tbody>
+<tr> 
+   <td>Taux de clics (CTR)<br/> </td> 
+   <td>Pourcentage d’utilisateurs ayant interagi avec la carte Contenu.<br/> </td> 
+</tr>
+<tr> 
+   <td>Clics<br/> </td> 
+   <td>Nombre de clics sur un contenu de votre carte Contenu.<br/> </td> 
+</tr>
+<tr> 
+   <td>Affichages <br/> </td> 
+   <td>Nombre d’ouvertures du message.<br/> </td> 
+</tr>
+<tr> 
+   <td>Personnes <br/> </td> 
+   <td>Nombre de profils utilisateur qui sont qualifiés en tant que profils cibles pour vos cartes de contenu.<br/> </td> 
+</tr>
+<tr> 
+   <td>Clics uniques<br/> </td> 
+   <td>Nombre de profils ayant cliqué sur un contenu de votre carte Contenu.<br/> </td> 
+</tr>
+<tr> 
+   <td>Affichages uniques<br/> </td> 
+   <td>Nombre d’ouvertures du message : les interactions multiples d’un profil ne sont pas prises en compte.<br/> </td> 
+</tr>
+ </tbody> 
+</table>
+
+## Mesures des pages web {#web}
+
+<table> 
+ <thead> 
+  <tr> 
+   <th> Mesure<br/> </th> 
+   <th> Définition<br/> </th> 
+  </tr>
+ </thead> 
+ <tbody>
+<tr> 
+   <td>Clics<br/> </td> 
+   <td>Nombre de clics sur un contenu de vos pages web.<br/> </td> 
+</tr>
+<tr> 
+   <td>Taux de clics (CTR)<br/> </td> 
+   <td>Pourcentage d’utilisateurs et d’utilisatrices ayant interagi avec les pages web.<br/> </td> 
+</tr>
+<tr> 
+   <td>Affichages <br/> </td> 
+   <td>Nombre d’ouvertures de la page web.<br/> </td> 
+</tr>
+<tr> 
+   <td>Personnes <br/> </td> 
+   <td>Nombre de profils qui remplissent les critères de profils cibles pour vos pages web.<br/> </td> 
+</tr>
+<tr> 
+   <td>Clics uniques<br/> </td> 
+   <td>Nombre de profils ayant cliqué sur un contenu de vos pages web.<br/> </td> 
+</tr>
+<tr> 
+   <td>Affichages uniques<br/> </td> 
+   <td>Nombre d’ouvertures de la page web. Les interactions multiples d’un profil ne sont pas prises en compte.<br/> </td> 
+</tr>
+ </tbody> 
+</table>
+
+## Mesures d’expériences basées sur du code {#code-based}
+
+<table> 
+ <thead> 
+  <tr> 
+   <th> Mesure<br/> </th> 
+   <th> Définition<br/> </th> 
+  </tr>
+ </thead> 
+ <tbody>
+<tr> 
+   <td>Clics<br/> </td> 
+   <td>Nombre total de fois où les utilisateurs et utilisatrices ont cliqué sur des expériences personnalisées qui leur ont été présentées.<br/> </td> 
+</tr>
+<tr> 
+   <td>Taux de clic publicitaire (CTR)<br/> </td> 
+   <td>Pourcentage d’utilisateurs et d’utilisatrices qui cliquent sur un lien, une annonce publicitaire ou une recommandation par rapport au nombre de fois où elle a été affichée.<br/> </td> 
+</tr>
+<tr> 
    <td>Taux de conversion<br/> </td> 
-   <td>Nombre de personnes ayant interagi avec la page de destination, par exemple le nombre dʼinscrits à un formulaire par rapport au nombre total de visites.<br/> </td> 
+   <td>Pourcentage d’affichages ayant entraîné des actions de l’utilisateur (par exemple, des clics), indiquant le succès du modèle pour ce qui est d’impliquer les utilisateurs.<br/> </td> 
 </tr>
- <tr> 
-   <td>Parcours<br/> </td> 
-   <td>Nombre de visites sur votre page de destination provenant dʼun parcours.<br/> </td> 
+<tr> 
+   <td>Performances des éléments de décision<br/> </td> 
+   <td>Évalue les performances de chaque élément pour impliquer les utilisateurs et les utilisatrices et pour générer les actions souhaitées, telles que les achats, les clics ou d’autres réponses.<br/> </td> 
 </tr>
- <tr> 
-   <td>Autres sources<br/> </td> 
-   <td>Nombre de visites de votre page de destination provenant d’une source externe au lieu d’un parcours.<br/> </td> 
+<tr> 
+   <td>KPI de prise de décision <br/> </td> 
+   <td>Informations clés sur l’engagement des visiteurs et visiteuses avec les expériences , y compris le nombre total d’éléments, de clics, d’affichages au total et le taux de secours.<br/> </td> 
 </tr>
- <tr> 
-   <td>Nombre total de visites<br/> </td> 
-   <td> Nombre total de visites sur votre page de destination provenant de parcours et de sources externes, y compris les visites multiples d’un profil.<br/> </td> 
+<tr> 
+   <td>Affichages <br/> </td> 
+   <td>Nombre total de fois où des expériences personnalisées ont été présentées aux utilisateurs à travers différents points de contact.<br/> </td> 
 </tr>
- <tr> 
-   <td>Visiteurs uniques<br/> </td> 
-   <td>Nombre de personnes ayant visité votre page de destination, les visites multiples d’un profil ne sont pas prises en compte.<br/> </td> 
+<tr> 
+   <td>Entonnoir d’engagement<br/> </td> 
+   <td>Surveille les performances des expériences personnalisées en évaluant l’efficacité avec laquelle chaque étape de l’entonnoir génère des interactions utilisateur.<br/> </td> 
 </tr>
- <tr> 
-   <td>Visites<br/> </td> 
-   <td>Nombre de visites sur votre page de destination, y compris les visites multiples d’un profil.<br/> </td> 
+<tr> 
+   <td>Entonnoir d’engagement par stratégie de sélection<br/> </td> 
+   <td>Surveille et analyse l’efficacité avec laquelle différentes stratégies de sélection impliquent les utilisateurs et utilisatrices avec des expériences personnalisées.<br/> </td> 
+</tr>
+<tr> 
+   <td>Personnes <br/> </td> 
+   <td>Nombre de profils utilisateur qui sont qualifiés en tant que profils cibles pour vos expériences basées sur du code.<br/> </td> 
+</tr>
+<tr> 
+   <td>Stratégie de classement <br/> </td> 
+   <td>Des informations sur les performances des modèles de classement pilotés par l’IA comparant deux types de trafic : piloté par le modèle et exclu<br/> </td> 
+</tr>
+<tr> 
+   <td>Principaux éléments de décision par rapport au taux de clics <br/> </td> 
+   <td>Met en évidence les performances de chaque élément en fonction de son taux de clic publicitaire (CTR), ce qui permet d’évaluer les éléments les plus efficaces pour séduire les utilisateurs.<br/> </td> 
+</tr>
+<tr> 
+   <td>Clics uniques<br/> </td> 
+   <td>Nombre de profils ayant cliqué sur un contenu dans vos expériences basées sur du code.<br/> </td> 
+</tr>
+<tr> 
+   <td>Affichages uniques<br/> </td> 
+   <td>Nombre d’ouvertures de l’expérience. Les interactions multiples d’un profil ne sont pas prises en compte.<br/> </td> 
 </tr>
  </tbody> 
 </table>

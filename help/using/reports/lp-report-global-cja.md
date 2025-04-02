@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: e73cdca9-3e83-4642-a2bb-d5453afa77fe
-source-git-commit: ea016af2dc08321bcf2e5110538031f66c888b90
+source-git-commit: 5849d1d52f3b1b075e804efbd3473d83cbac9fbe
 workflow-type: tm+mt
-source-wordcount: '789'
-ht-degree: 100%
+source-wordcount: '787'
+ht-degree: 93%
 
 ---
 
@@ -65,7 +65,7 @@ Le graphe **[!UICONTROL Performances des pages de destination dans le temps]** m
 
 * **[!UICONTROL Vues de la page de destination]** : nombre total de visites sur votre page de destination provenant de parcours et de sources externes, y compris les visites multiples dʼun seul profil.
 
-* **[!UICONTROL Taux de conversion de la page de destination]** : nombre de personnes ayant interagi avec la page de destination, par exemple le nombre de personnes inscrites à un formulaire par rapport au nombre total de visites.
+* **[!UICONTROL Conversion de page de destination]** : nombre de personnes ayant interagi avec la page de destination, par exemple celles qui se sont inscrites à un formulaire, par rapport au nombre total de visites.
 
 ## Performances des pages de destination {#lp-performance}
 
@@ -79,7 +79,7 @@ Le tableau **[!UICONTROL Performances des pages de destination]** constitue un t
 
 * **[!UICONTROL Vues uniques de la page de destination]** : nombre de personnes ayant visité votre page de destination, les visites multiples dʼun même profil ne sont pas prises en compte.
 
-* **[!UICONTROL Taux de conversion de la page de destination unique]** : nombre de personnes ayant interagi avec la page de destination, les multiples interactions dʼun même profil ne sont pas prises en compte.
+* **[!UICONTROL Conversion unique de page de destination]** : nombre de personnes ayant interagi avec la page de destination, les interactions multiples d’un profil ne sont pas prises en compte.
 
 * **[!UICONTROL Vues de la page de destination]** : nombre total de visites sur votre page de destination provenant de parcours et de sources externes, y compris les visites multiples dʼun seul profil.
 
