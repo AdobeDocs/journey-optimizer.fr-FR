@@ -8,14 +8,14 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: aa060d8e-23e2-4bab-b709-636077eb5d20
-source-git-commit: 5849d1d52f3b1b075e804efbd3473d83cbac9fbe
+source-git-commit: ff722dd9f727a70fa3788f5e47a49e7a2fa7e952
 workflow-type: tm+mt
 source-wordcount: '1829'
 ht-degree: 39%
 
 ---
 
-# Liste des composants {#list-of-components-global}
+# Liste des mesures {#list-of-components-global}
 
 Les tableaux ci-dessous contiennent la liste des mesures utilisées dans les différents rapports et leur définition en fonction du type de diffusion.
 
