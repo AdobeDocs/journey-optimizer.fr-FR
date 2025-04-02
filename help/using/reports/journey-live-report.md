@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: e3781f79-7c8d-4512-b44f-835639b1471f
-source-git-commit: 994eac32591f4ca352d310bc06057bd20ea03886
-workflow-type: ht
-source-wordcount: '3705'
-ht-degree: 100%
+source-git-commit: 7d1b89ca851442d2a67dda1e5c08d50d74d44028
+workflow-type: tm+mt
+source-wordcount: '3712'
+ht-degree: 99%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 100%
 
 Les rapports dynamiques, accessibles à partir de l’onglet Dernières 24 heures, affichent les événements qui se sont produits au cours des dernières 24 heures, avec un intervalle de temps minimal de deux minutes à compter de l’occurrence de l’événement. En comparaison, les rapports Customer Journey Analytics portent sur les événements qui se sont produits il y a au moins deux heures et couvrent les événements sur une période sélectionnée.
 
-Vous pouvez accéder directement au rapport dynamique sur les parcours depuis votre parcours en cliquant sur le bouton **[!UICONTROL Afficher le rapport]**.
+Accédez au rapport de Parcours dynamique à partir du menu [!UICONTROL Parcours ] en ouvrant le menu [!UICONTROL Autres actions] de votre parcours et en sélectionnant [!UICONTROL Afficher le rapport des dernières 24 heures].
 
 ![](assets/report_journey.png)
 

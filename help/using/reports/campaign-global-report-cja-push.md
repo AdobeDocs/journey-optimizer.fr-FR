@@ -8,14 +8,22 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 43b10f54-0c19-46a1-8d51-eb6bf22e6da9
-source-git-commit: 8feb2e74f4ca3321ba4c96204cbdd2343a4ba92b
+source-git-commit: 7d1b89ca851442d2a67dda1e5c08d50d74d44028
 workflow-type: tm+mt
-source-wordcount: '495'
-ht-degree: 94%
+source-wordcount: '519'
+ht-degree: 90%
 
 ---
 
 # Rapport de campagne par notification push {#campaign-global-report-cja-push}
+
+>[!BEGINSHADEBOX]
+
+Pour accéder au rapport de campagne Notification push, cliquez sur le bouton **[!UICONTROL Rapports]** de votre campagne, puis sélectionnez **[!UICONTROL Afficher le rapport à toute heure]**. [En savoir plus](report-gs-cja.md)
+
+![](assets/report-access.png)
+
+>[!ENDSHADEBOX]
 
 ## Statistiques d’envoi {#sending-statistics-push}
 

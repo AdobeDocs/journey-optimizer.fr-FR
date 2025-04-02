@@ -8,20 +8,28 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: d11dd1cb-041b-48cd-b1fc-bcbe12338a07
-source-git-commit: 8feb2e74f4ca3321ba4c96204cbdd2343a4ba92b
+source-git-commit: 7d1b89ca851442d2a67dda1e5c08d50d74d44028
 workflow-type: tm+mt
-source-wordcount: '1056'
-ht-degree: 95%
+source-wordcount: '1079'
+ht-degree: 90%
 
 ---
 
 # Rapport de campagne par e-mail {#campaign-global-report-cja-email}
 
+>[!INFO]
+>
+>Depuis qu’Apple a introduit de nouvelles fonctionnalités de protection de la confidentialité pour son application Mail native, notamment la protection de la confidentialité dans Mail, les expéditeurs et expéditrices ne sont plus en mesure d’utiliser les pixels de suivi pour collecter des données sur les profils qui ont activé la protection de la confidentialité dans l’application Mail d’Apple. Par conséquent, la capacité de Adobe Journey Optimizer à suivre les ouvertures d’e-mail à l’aide de pixels de suivi peut être affectée.
+> [En savoir plus](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-classic-blogs/the-impact-of-apple-ios-privacy-changes-on-email-marketing-and/ba-p/699780?profile.language=fr) sur l’impact des modifications apportées à la confidentialité d’Apple iOS sur le marketing par e-mail.
+> 
+> Nous vous recommandons de vous concentrer sur les clics et les mesures de conversion plutôt que sur les taux d’ouverture pour obtenir des informations plus précises.
+
+
 >[!BEGINSHADEBOX]
 
-Depuis qu’Apple a introduit de nouvelles fonctionnalités de protection de la confidentialité pour son application Mail native, notamment la protection de la confidentialité dans Mail, les expéditeurs et expéditrices ne sont plus en mesure d’utiliser les pixels de suivi pour collecter des données sur les profils qui ont activé la protection de la confidentialité dans l’application Mail d’Apple. Par conséquent, la capacité d’Adobe Journey Optimizer à suivre les ouvertures d’e-mail à l’aide de pixels de suivi peut être affectée. [En savoir plus](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-classic-blogs/the-impact-of-apple-ios-privacy-changes-on-email-marketing-and/ba-p/699780?profile.language=fr) sur l’impact des modifications apportées à la confidentialité d’Apple iOS sur le marketing par e-mail.
+Pour accéder au rapport de campagne par e-mail, cliquez sur le bouton **[!UICONTROL Rapports]** de votre campagne, puis sélectionnez **[!UICONTROL Afficher le rapport à toute heure]**. [En savoir plus](report-gs-cja.md)
 
-Nous vous recommandons de vous concentrer sur les clics et les mesures de conversion plutôt que sur les taux d’ouverture pour obtenir des informations plus précises.
+![](assets/report-access.png)
 
 >[!ENDSHADEBOX]
 

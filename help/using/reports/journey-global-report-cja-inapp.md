@@ -8,28 +8,34 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: f10b3ab9-db0a-4759-98e4-2ac1988eb8c4
-source-git-commit: 8feb2e74f4ca3321ba4c96204cbdd2343a4ba92b
+source-git-commit: 7d1b89ca851442d2a67dda1e5c08d50d74d44028
 workflow-type: tm+mt
-source-wordcount: '594'
-ht-degree: 94%
+source-wordcount: '611'
+ht-degree: 86%
 
 ---
 
 # Rapport de parcours in-app {#journey-global-report}
 
+>[!INFO]
+>
+>Votre rapport de parcours peut afficher simultanément des informations provenant de plusieurs parcours, car les utilisateurs et utilisatrices peuvent être impliqués dans plusieurs parcours à la fois. Par conséquent, les communications entrantes (in-app, web et basées sur le code) peuvent apparaître dans plusieurs parcours si elles ont été déclenchées pour une personne participant à des parcours actifs simultanés, ce qui peut entraîner un chevauchement des données.
+
 >[!BEGINSHADEBOX]
 
-Votre rapport de parcours peut afficher simultanément des informations provenant de plusieurs parcours, car les utilisateurs et utilisatrices peuvent être impliqués dans plusieurs parcours à la fois. Par conséquent, les communications entrantes (in-app, web et basées sur le code) peuvent apparaître dans plusieurs parcours si elles ont été déclenchées pour une personne participant à des parcours actifs simultanés, ce qui peut entraîner un chevauchement des données.
+Vous pouvez accéder à votre rapport de parcours in-app en cliquant sur le bouton **[!UICONTROL Rapports]** dans votre parcours. [En savoir plus](report-gs-cja.md)
+
+![](assets/report-access.png)
 
 >[!ENDSHADEBOX]
 
-## Tendance impressions et clics {#impression-click-trend}
+## Tendance des affichages et des clics {#display-click-trend}
 
 ![](assets/cja-inapp-impressions-click.png)
 
-Le graphique **[!UICONTROL Tendance impressions et clics]** présente une analyse détaillée de l’engagement de vos profils avec vos messages in-app, offrant des informations précieuses sur la manière dont les profils interagissent avec votre contenu.
+Le graphique **[!UICONTROL Tendance d’affichage et de clic]** présente une analyse détaillée de l’engagement de vos profils avec vos messages in-app, offrant des informations précieuses sur la manière dont les profils interagissent avec votre contenu.
 
-+++ En savoir plus sur les mesures de tendance des impressions et des clics
++++ En savoir plus sur les mesures de tendance Afficher et cliquer .
 
 * **[!UICONTROL Clics]** : nombre de fois où un contenu a fait l’objet d’un clic dans vos messages in-app.
 

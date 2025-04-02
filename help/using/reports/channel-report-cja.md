@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 393f02c0-f54c-4222-b668-0931b67590ce
-source-git-commit: b9dbda18b2e997d6c3acc9763cbb0088abbece1b
-workflow-type: ht
-source-wordcount: '644'
-ht-degree: 100%
+source-git-commit: 7d1b89ca851442d2a67dda1e5c08d50d74d44028
+workflow-type: tm+mt
+source-wordcount: '659'
+ht-degree: 96%
 
 ---
 
@@ -87,7 +87,11 @@ En cliquant sur le nom d’une campagne dans ce tableau, vous pouvez examiner ch
 
 * **[!UICONTROL Personnes]** : nombre de profils d’utilisateurs et d’utilisatrices qui sont qualifiés en tant que profils cibles pour vos messages.
 
+* **[!UICONTROL Taux de clics (CTR)]** : pourcentage de clics dans vos messages.
+
 * **[!UICONTROL Envois]** : nombre total d’envois pour chaque campagne.
+
+* **[!UICONTROL Diffusés]** : nombre de messages envoyés avec succès.
 
 * **[!UICONTROL Affichages]** : nombre d’ouvertures du message.
 
@@ -107,9 +111,9 @@ Le tableau **[!UICONTROL Canaux]** fournit une ventilation détaillée de l’en
 
 * **[!UICONTROL Personnes]** : nombre de profils d’utilisateurs et d’utilisatrices qui sont qualifiés en tant que profils cibles pour vos messages.
 
-* **[!UICONTROL Taux de clics]** : pourcentage de clics dans vos messages.
+* **[!UICONTROL Taux de clics (CTR)]** : pourcentage de clics dans vos messages.
 
-* **[!UICONTROL Envois]** : nombre total d’e-mails envoyés pour chaque campagne.
+* **[!UICONTROL Diffusés]** : nombre de messages envoyés avec succès.
 
 * **[!UICONTROL Affichages]** : nombre d’ouvertures du message.
 

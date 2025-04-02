@@ -8,18 +8,24 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 33b6cc18-dd63-48d9-8d85-526500d83d37
-source-git-commit: 673e86ccd07c7afdf0b87859434145f16f7b7d26
-workflow-type: ht
-source-wordcount: '367'
-ht-degree: 100%
+source-git-commit: 7d1b89ca851442d2a67dda1e5c08d50d74d44028
+workflow-type: tm+mt
+source-wordcount: '385'
+ht-degree: 95%
 
 ---
 
 # Rapport de parcours basé sur du code {#journey-global-report}
 
+>[!INFO]
+>
+> Votre rapport de parcours peut afficher simultanément des informations provenant de plusieurs parcours, car les utilisateurs et utilisatrices peuvent être impliqués dans plusieurs parcours à la fois. Par conséquent, les communications entrantes (in-app, web et basées sur le code) peuvent apparaître dans plusieurs parcours si elles ont été déclenchées pour une personne participant à des parcours actifs simultanés, ce qui peut entraîner un chevauchement des données.
+
 >[!BEGINSHADEBOX]
 
-Votre rapport de parcours peut afficher simultanément des informations provenant de plusieurs parcours, car les utilisateurs et utilisatrices peuvent être impliqués dans plusieurs parcours à la fois. Par conséquent, les communications entrantes (in-app, web et basées sur le code) peuvent apparaître dans plusieurs parcours si elles ont été déclenchées pour une personne participant à des parcours actifs simultanés, ce qui peut entraîner un chevauchement des données.
+Vous pouvez accéder à votre rapport de parcours basé sur le code en cliquant sur le bouton **[!UICONTROL Afficher le rapport]** de votre parcours. [En savoir plus](report-gs-cja.md)
+
+![](assets/report-access-jo.png)
 
 >[!ENDSHADEBOX]
 
