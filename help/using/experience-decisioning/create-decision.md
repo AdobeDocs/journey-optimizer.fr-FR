@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Experienced
 exl-id: 63aa1763-2220-4726-a45d-3a3a8b8a55ec
-source-git-commit: baf3a8dba9e83e3b82390bd2ab0725b9fc844138
+source-git-commit: a82c9e2d999b28ed97374f3a3804e11d4acd7983
 workflow-type: tm+mt
-source-wordcount: '1761'
-ht-degree: 89%
+source-wordcount: '1756'
+ht-degree: 90%
 
 ---
 
@@ -227,27 +227,26 @@ Une fois créée, la politique de décision peut être utilisée dans l’[édit
 
 Suivez les étapes ci-dessous pour finaliser votre expérience basée sur le code et appliquer vos modifications.
 
-1. Avant de publier, affichez un aperçu de votre expérience basée sur le code pour la tester.
-
-   >[!CAUTION]
-   >
-   >Actuellement, vous ne pouvez pas simuler le contenu de l’interface utilisateur dans une campagne ou un parcours [basée sur le code](../code-based/create-code-based.md) à l’aide de décisions.
-
-   Pour tester la prise de décision, vous pouvez ajouter l’indicateur `dryRun` au bloc de `data` d’événement XDM dans votre implémentation client :
-
-   ```
-   {
-   "data": {
-       "__adobe": {
-       "ajo":
-   {         "dryRun": true       }
-       }
-   }
-   }
-   ```
-
 1. Examinez et publiez votre campagne ou parcours d’expérience basé sur le code. [Voici comment procéder](../code-based/publish-code-based.md)
 
    Désormais, dès que votre développeur ou développeuse lance un appel d’API ou de SDK pour récupérer du contenu pour la surface définie dans votre configuration de canal, les modifications sont appliquées à votre page web ou votre application.
 
+1. Actuellement, vous ne pouvez pas simuler le contenu de l’interface utilisateur dans une campagne ou un parcours [basée sur le code](../code-based/create-code-based.md) à l’aide de décisions.
+
+   Pour pallier ce problème, vous pouvez tester la prise de décision après la publication de votre campagne en ajoutant l’indicateur `dryRun` dans le bloc de `data` d’événement XDM de votre implémentation client :
+
+   ```
+   {
+       "data": {
+           "__adobe": {
+               "ajo": {
+                   "dryRun": true
+               }
+           }
+       }
+   }
+   ```
+
 1. Pour évaluer les performances de vos décisions, vous pouvez désormais créer des tableaux de bord de rapports [Customer Journey Analytics personnalisés](cja-reporting.md).
+
+
