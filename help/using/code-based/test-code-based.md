@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Experienced
 exl-id: 9a1c148c-a6c3-406b-8f2e-1cf8b8239e75
-source-git-commit: c402a8ab41eb588eae47463fd0217693853d8ca7
-workflow-type: ht
-source-wordcount: '707'
-ht-degree: 100%
+source-git-commit: baf3a8dba9e83e3b82390bd2ab0725b9fc844138
+workflow-type: tm+mt
+source-wordcount: '732'
+ht-degree: 96%
 
 ---
 
@@ -37,6 +37,11 @@ Pour afficher un aperçu de votre expérience basée sur le code qui a été mod
 1. Un aperçu de votre expérience basée sur le code qui a été modifiée s’affiche.
 
 Vous trouverez des informations détaillées sur la sélection des profils de test et la prévisualisation de votre contenu dans [cette section](../content-management/preview.md).
+
+>[!NOTE]
+>
+>Actuellement, vous ne pouvez pas simuler le contenu de l’interface utilisateur dans une campagne d’expérience ou un parcours basé sur du code à l’aide de [Decisioning](../experience-decisioning/gs-experience-decisioning.md). Une solution est disponible dans [cette section](../experience-decisioning/create-decision.md).
+
 
 ## Prévisualiser sur l’appareil {#preview-on-device}
 
