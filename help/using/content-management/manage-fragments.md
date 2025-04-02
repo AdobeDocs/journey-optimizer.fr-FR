@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 1fc708e1-a993-4a2a-809c-c5dc08a4bae1
-source-git-commit: 730e3da767ba54973ea886057262fe0210b46dd2
+source-git-commit: 67ebea8b1b46ee20735eee0680656e82f2839c41
 workflow-type: tm+mt
-source-wordcount: '1148'
-ht-degree: 100%
+source-wordcount: '1469'
+ht-degree: 78%
 
 ---
 
@@ -22,6 +22,16 @@ ht-degree: 100%
 Pour gérer vos fragments, accédez à la liste des fragments à partir du menu de gauche **[!UICONTROL Gestion de contenu]** > **[!UICONTROL Fragments]**.
 
 Tous les fragments qui ont été créés sur le sandbox actuel, soit [à partir du menu **[!UICONTROL Fragments]**](#create-fragments), soit à l’aide de l’option [Enregistrer en tant que fragment](#save-as-fragment), s’affichent.
+
+Le volet de gauche vous permet d’organiser les fragments en dossiers. Par défaut, tous les fragments sont affichés. Lors de la sélection d’un dossier, seuls les fragments et les dossiers inclus dans le dossier sélectionné s’affichent. [En savoir plus](#folders)
+
+>[!NOTE]
+>
+>Les dossiers de fragments ne sont disponibles que pour un ensemble d’organisations (disponibilité limitée) et seront progressivement déployés auprès d’un plus grand nombre d’utilisateurs.
+
+![](assets/fragment-list-folders.png)
+
+Pour trouver un élément spécifique, commencez à saisir un nom dans le champ de recherche. Lorsqu’un [dossier](#folders) est sélectionné, la recherche s’applique à tous les fragments ou dossiers du premier niveau de hiérarchie de ce dossier<!--(not nested items)-->.
 
 Vous pouvez filtrer les fragments selon leur :
 
@@ -43,10 +53,54 @@ Cliquez sur le bouton **[!UICONTROL Plus d’actions]** en regard de chaque frag
 * Utilisez l’option **[!UICONTROL Explorer les références]** pour afficher les parcours, les campagnes ou les modèles dans lesquels ils sont utilisés. [En savoir plus](#explore-references).
 * Archiver le fragment. [En savoir plus](#archive-fragments)
 * Modifier les balises du fragment. [Découvrir comment utiliser les balises unifiées](../start/search-filter-categorize.md#tags)
+* Déplacez le fragment vers un dossier. [En savoir plus](#folders)
 
-![](assets/fragment-list-more-actions.png){width="70%" align="left"}
+![](assets/fragment-list-more-actions.png)
 
-## Statuts des fragments
+## Utiliser des dossiers pour gérer les fragments {#folders}
+
+>[!CONTEXTUALHELP]
+>id="ajo_fragments_folders"
+>title="Organisation des fragments dans des dossiers"
+>abstract="Utilisez des dossiers pour classer et gérer vos fragments en fonction des besoins de votre organisation."
+
+>[!AVAILABILITY]
+>
+>Les dossiers de fragments ne sont disponibles que pour un ensemble d’organisations (disponibilité limitée) et seront progressivement déployés auprès d’un plus grand nombre d’utilisateurs.
+
+Pour parcourir facilement vos fragments, vous pouvez utiliser des dossiers pour les organiser plus efficacement dans une hiérarchie structurée. Vous pouvez ainsi catégoriser et gérer les éléments en fonction des besoins de votre organisation.
+
+![](assets/fragment-folders.png)
+
+1. Cliquez sur le bouton **[!UICONTROL Tous les fragments]** pour afficher tous les éléments créés précédemment sans le regroupement de dossiers.
+
+1. Cliquez sur le dossier **[!UICONTROL Racine]** pour afficher tous les dossiers créés.
+
+   >[!NOTE]
+   >
+   >Si vous n’avez pas encore créé de dossier, tous les fragments s’affichent.
+
+1. Cliquez sur n’importe quel dossier à l’intérieur du dossier **[!UICONTROL racine]** pour afficher son contenu.
+
+1. Cliquez sur le dossier **[!UICONTROL Racine]** ou sur tout autre dossier pour afficher le bouton **[!DNL Create folder]** . Sélectionnez-la.
+
+   ![](assets/fragment-create-folder.png)
+
+1. Saisissez le nom du nouveau dossier, puis cliquez sur **[!UICONTROL Enregistrer]**. Le nouveau dossier s’affiche en haut de la liste des fragments dans le dossier **[!UICONTROL Racine]** ou dans le dossier actuellement sélectionné.
+
+1. Vous pouvez cliquer sur le bouton **[!UICONTROL Autres actions]** pour renommer ou supprimer le dossier.
+
+   ![](assets/fragment-folder-more-actions.png)
+
+1. À l’aide du bouton **[!UICONTROL Autres actions]**, vous pouvez également déplacer le fragment vers un autre dossier existant.
+
+   ![](assets/fragment-folder-moved.png)
+
+1. Vous pouvez maintenant accéder au dossier que vous venez de créer. Chaque nouveau fragment que vous [créez](create-fragments.md) à partir d’ici est enregistré dans le dossier actif.
+
+   ![](assets/fragment-folder-create.png)
+
+## Statuts des fragments {#fragments-statuses}
 
 >[!CONTEXTUALHELP]
 >id="ajo_fragment_statuses"

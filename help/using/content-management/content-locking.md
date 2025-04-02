@@ -7,10 +7,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: f64fe1c4-3e30-4b74-80f8-b801a5f1d4c4
-source-git-commit: f5df65a0225754ab66fb2ffa33c5130f7137b644
+source-git-commit: 67ebea8b1b46ee20735eee0680656e82f2839c41
 workflow-type: tm+mt
-source-wordcount: '1269'
-ht-degree: 100%
+source-wordcount: '1285'
+ht-degree: 97%
 
 ---
 
@@ -45,7 +45,7 @@ Journey Optimizer vous permet de verrouiller le contenu dans les modèles d’e
 
 >[!IMPORTANT]
 >
->Le verrouillage du contenu est une fonctionnalité au niveau de l’éditeur pour les personnes chargées de la création et ne garantit pas que le contenu ne sera pas modifié s’il est importé ou créé via une API.
+>Le verrouillage de contenu est une fonctionnalité de niveau éditeur pour les auteurs et les autrices qui ne garantit pas que le contenu ne sera pas modifié lorsqu’il est importé ou créé via l’API.
 
 Le verrouillage du contenu peut être appliqué au niveau de la **structure** ou au niveau du **composant**. Voici les principaux principes qui s’appliquent au niveau de la structure et du composant lors du verrouillage du contenu dans votre modèle.
 
@@ -64,6 +64,8 @@ Le verrouillage du contenu peut être appliqué au niveau de la **structure** ou
 >[!AVAILABILITY]
 >
 >Les utilisateurs et les utilisatrices autorisés à créer des modèles de contenu peuvent activer le verrouillage de contenu.
+
+➡️ [Découvrez cette fonctionnalité en vidéo.](#video)
 
 ## Verrouillage d’un modèle d’e-mail {#define}
 
@@ -190,3 +192,9 @@ Voici quelques exemples de modification d’e-mails et de configuration de verro
 | Structure verrouillée qui ne peut pas être supprimée. | ![](assets/locking-sample-structure-locked-conf.png){zoomable="yes"} | ![](assets/locking-sample-structure-locked.png){zoomable="yes"} |
 | Composant avec des styles verrouillés et qui ne peut pas être supprimé. Les personnes peuvent uniquement modifier le contenu. | ![](assets/locking-sample-content-only-conf.png){zoomable="yes"} | ![](assets/locking-sample-content-only.png){zoomable="yes"} |
 | Composant modifiable dans une structure verrouillée. | ![](assets/locking-sample-editable-component-conf.png){zoomable="yes"} | ![](assets/locking-sample-editable-component.png){zoomable="yes"} |
+
+## Vidéo pratique {#video}
+
+Découvrez comment verrouiller du contenu dans des modèles d’e-mail.
+
+>[!VIDEO](https://video.tv.adobe.com/v/3451591?quality=12)

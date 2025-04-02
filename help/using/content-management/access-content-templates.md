@@ -7,10 +7,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: ef6110c4-1aa6-4835-b0b0-b3c4fe0e7024
-source-git-commit: 5ce76bd61a61e1ed5e896f8da224fc20fba74b53
-workflow-type: ht
-source-wordcount: '320'
-ht-degree: 100%
+source-git-commit: 67ebea8b1b46ee20735eee0680656e82f2839c41
+workflow-type: tm+mt
+source-wordcount: '626'
+ht-degree: 51%
 
 ---
 
@@ -24,6 +24,16 @@ Pour accéder à la liste des modèles de contenu, sélectionnez **[!UICONTROL G
 
 Tous les modèles qui ont été créés sur le sandbox actuel à partir d’un parcours ou d’une campagne à l’aide de l’option **[!UICONTROL Enregistrer en tant que modèle]** du menu **[!UICONTROL Modèles de contenu]** s’affichent. [Découvrir comment créer des modèles](#create-content-templates)
 
+Le volet de gauche vous permet d’organiser les modèles de contenu en dossiers. Par défaut, tous les modèles sont affichés. Lors de la sélection d’un dossier, seuls les modèles et les dossiers inclus dans le dossier sélectionné s’affichent. [En savoir plus](#folders)
+
+>[!NOTE]
+>
+>Les dossiers de modèles de contenu ne sont disponibles que pour un ensemble d’organisations (disponibilité limitée) et seront progressivement déployés auprès d’un plus grand nombre d’utilisateurs.
+
+![](assets/content-template-list-folders.png)
+
+Pour trouver un élément spécifique, commencez à saisir un nom dans le champ de recherche. Lorsqu’un [dossier](#folders) est sélectionné, la recherche s’applique à tous les modèles de contenu ou dossiers du premier niveau de la hiérarchie de ce dossier<!--(not nested items)-->.
+
 Vous pouvez trier les modèles de contenu par :
 * Type
 * Canal
@@ -33,6 +43,44 @@ Vous pouvez trier les modèles de contenu par :
 Vous pouvez également choisir d’afficher uniquement les éléments que vous avez créés ou modifiés.
 
 ![](assets/content-template-list-filters.png)
+
+## Utilisation de dossiers pour gérer les modèles de contenu {#folders}
+
+>[!AVAILABILITY]
+>
+>Les dossiers de modèles de contenu ne sont disponibles que pour un ensemble d’organisations (disponibilité limitée) et seront progressivement déployés auprès d’un plus grand nombre d’utilisateurs.
+
+Pour parcourir facilement vos modèles de contenu, vous pouvez utiliser des dossiers pour les organiser plus efficacement dans une hiérarchie structurée. Vous pouvez ainsi catégoriser et gérer les éléments en fonction des besoins de votre organisation.
+
+![](assets/content-template-folders.png)
+
+1. Cliquez sur le bouton **[!UICONTROL Tous les modèles de contenu]** pour afficher tous les éléments créés précédemment sans le regroupement de dossiers.
+
+1. Cliquez sur le dossier **[!UICONTROL Racine]** pour afficher tous les dossiers créés.
+
+   >[!NOTE]
+   >
+   >Si vous n’avez pas encore créé de dossiers, tous les modèles de contenu s’affichent.
+
+1. Cliquez sur n’importe quel dossier à l’intérieur du dossier **[!UICONTROL racine]** pour afficher son contenu.
+
+1. Cliquez sur le dossier **[!UICONTROL Racine]** ou sur tout autre dossier pour afficher le bouton **[!DNL Create folder]** . Sélectionnez-la.
+
+   ![](assets/content-template-create-folder.png)
+
+1. Saisissez le nom du nouveau dossier, puis cliquez sur **[!UICONTROL Enregistrer]**. Le nouveau dossier s’affiche en haut de la liste des modèles de contenu dans le dossier **[!UICONTROL Racine]** ou dans le dossier actuellement sélectionné.
+
+1. Vous pouvez cliquer sur le bouton **[!UICONTROL Autres actions]** pour renommer ou supprimer le dossier.
+
+   ![](assets/content-template-folder-more-actions.png)
+
+1. À l’aide du bouton **[!UICONTROL Autres actions]**, vous pouvez également déplacer le modèle de contenu vers un autre dossier existant.
+
+   ![](assets/content-template-folder-moved.png)
+
+1. Vous pouvez maintenant accéder au dossier que vous venez de créer. Chaque nouveau modèle de contenu que vous [créez](create-content-templates.md) à partir d’ici est enregistré dans le dossier actif.
+
+   ![](assets/content-template-folder-create.png)
 
 ## Modifier et supprimer des modèles de contenu {#edit}
 
@@ -54,13 +102,13 @@ Sélectionnez le mode de **[!UICONTROL vue Grille]** pour afficher chaque modèl
 
 >[!AVAILABILITY]
 >
->Cette fonctionnalité est publiée en disponibilité limitée pour un petit groupe de personnes.
+Cette fonctionnalité est publiée en disponibilité limitée pour un petit groupe de personnes.
 
 ![](assets/content-template-grid-view.png)
 
 >[!NOTE]
 >
->Actuellement, les miniatures appropriées ne peuvent être générées que pour les modèles de contenu email de type HTML.
+Actuellement, les miniatures appropriées ne peuvent être générées que pour les modèles de contenu email de type HTML.
 
 Lorsque vous mettez à jour du contenu, vous devrez peut-être attendre quelques secondes avant que les modifications ne soient reflétées dans la miniature.
 
