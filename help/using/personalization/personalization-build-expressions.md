@@ -10,7 +10,7 @@ level: Intermediate
 mini-toc-levels: 1
 keywords: expression, éditeur, à propos, commencer
 exl-id: 1ac2a376-a3a8-41ae-9b04-37886697f0fc
-source-git-commit: 1171888c277e58f45590cc17cb01885bd385b740
+source-git-commit: 0533051314530b90a19e3b170d94f7761927053e
 workflow-type: tm+mt
 source-wordcount: '1436'
 ht-degree: 96%
@@ -107,7 +107,7 @@ Le menu à trois points en regard de l’icône `+` vous permet d’obtenir plu
 
 >[!NOTE]
 >
->Par défaut, le volet Attributs affiche uniquement les attributs renseignés. Pour afficher tous les attributs, sélectionnez le bouton ![](assets/do-not-localize/settings-icon.svg) situé au-dessus du champ de recherche et activez l’option **[!UICONTROL Afficher uniquement les attributs renseignés]**.
+>Par défaut, le volet Attributs affiche uniquement les attributs renseignés. Pour afficher tous les attributs, sélectionnez le bouton ![](assets/do-not-localize/settings-icon.svg) situé au-dessus du champ de recherche et désactivez l’option **[!UICONTROL Afficher uniquement les attributs renseignés]**.
 
 De plus, vous pouvez définir un texte de remplacement par défaut qui s’affichera si un attribut de profil de type chaîne est vide. Pour ce faire, cliquez sur le bouton des points de suspension en regard de l’attribut et sélectionnez **[!UICONTROL Insérer avec un texte de remplacement]**. Rédigez le texte à afficher par défaut si la valeur de l’attribut est vide pour un profil, puis cliquez sur **[!UICONTROL Ajouter]**.
 
