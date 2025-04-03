@@ -5,16 +5,25 @@ title: Démarrer et surveiller des campagnes à plusieurs étapes avec Adobe Jou
 description: Découvrez comment démarrer et surveiller des campagnes à plusieurs étapes avec Adobe Journey Optimizer.
 hide: true
 hidefromtoc: true
-source-git-commit: f73d847c1d335260a0198e844d237a652e346729
+exl-id: 5fc2d1d6-75c3-4b45-bb2b-09982b9bd5ed
+source-git-commit: 70864a3e14a748562518c699513184e0f63c1139
 workflow-type: tm+mt
-source-wordcount: '553'
-ht-degree: 49%
+source-wordcount: '579'
+ht-degree: 43%
 
 ---
 
-# Démarrer et surveiller vos campagnes à plusieurs étapes {#start-monitor}
+# Démarrer et surveiller vos campagnes orchestrées {#start-monitor}
 
-Une fois que vous avez créé votre workflow et conçu les tâches à effectuer dans la zone de travail, vous pouvez lancer et contrôler son exécution.
+<audio controls><source src="../ms/assets/do-not-localize/sound.mp3" type="audio/mpeg">Votre navigateur ne prend pas en charge l’élément audio.</audio>
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaign_publication"
+>title="Publier la campagne orchestrée"
+>abstract="Pour démarrer votre campagne, vous devez la publier. Assurez-vous que tous les avertissements sont effacés avant la publication."
+
+
+Une fois que vous avez créé et conçu les tâches à effectuer dans la zone de travail, vous pouvez les publier et contrôler leur exécution.
 
 ## Démarrer une campagne en plusieurs étapes {#start}
 
