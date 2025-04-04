@@ -11,7 +11,7 @@ exl-id: fd713864-96b9-4687-91bd-84e3533273ff
 source-git-commit: 201d7d367540f7b36f27ca4a09b6f0ce12e3e22f
 workflow-type: tm+mt
 source-wordcount: '376'
-ht-degree: 76%
+ht-degree: 100%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 76%
 >[!CONTEXTUALHELP]
 >id="ajo_admin_sms_api_byop_auth_type"
 >title="Type d’authentification"
->abstract="Spécifiez la méthode d’authentification nécessaire pour accéder à l’API, telle que les jetons OAuth ou porteur. Cela garantit une communication sécurisée et autorisée avec le service externe."
+>abstract="Spécifiez la méthode d’authentification nécessaire pour accéder à l’API, telle que les jetons OAuth ou porteurs. Cela garantit une communication sécurisée et autorisée avec le service externe."
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_sms_api_byop_header_parameters"
@@ -35,7 +35,7 @@ ht-degree: 76%
 >[!CONTEXTUALHELP]
 >id="ajo_admin_sms_api_byop_provider_payload"
 >title="Payload du fournisseur"
->abstract="Fournissez la payload de la requête pour vous assurer que les données correctes sont envoyées pour le traitement et la génération de la réponse."
+>abstract="Fournissez le payload de la demande pour vous assurer que les données correctes sont envoyées pour le traitement et la génération de la réponse."
 
 >[!AVAILABILITY]
 >

@@ -12,7 +12,7 @@ exl-id: c6c77975-ec9c-44c8-a8d8-50ca6231fea6
 source-git-commit: 0fd6c054b9b4df9e3ed900c610e0d1186e479750
 workflow-type: tm+mt
 source-wordcount: '1371'
-ht-degree: 59%
+ht-degree: 61%
 
 ---
 
@@ -54,8 +54,8 @@ Dans les deux cas, lorsqu&#39;un destinataire clique sur le lien d&#39;opt-out, 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_preset_unsubscribe"
 >title="Ajouter une URL de désabonnement à vos e-mails"
->abstract="Activez cette option pour ajouter automatiquement une URL de désabonnement à l’en-tête de l’e-mail. Pour définir une URL de désabonnement dans un message, insérez un lien d’exclusion en un clic dans le contenu de l’e-mail."
->additional-url="https://experienceleague.adobe.com/fr/docs/journey-optimizer/using/channels/email/email-opt-out#one-click-opt-out" text="Définir le processus de désinscription en un clic pour le contenu de l’e-mail"
+>abstract="Activez cette option pour ajouter automatiquement une URL de désabonnement dans l’en-tête de l’e-mail. Pour définir une URL de désabonnement dans un message, insérez un lien d’exclusion en un clic dans le contenu de l’e-mail."
+>additional-url="https://experienceleague.adobe.com/fr/docs/journey-optimizer/using/channels/email/email-opt-out#one-click-opt-out" text="Définir le désabonnement en un clic dans le contenu de l’e-mail"
 
 Lorsque l’option **[!UICONTROL Activer le désabonnement de la liste]** est activée, si elle est prise en charge par le client de messagerie des destinataires, l’en-tête de l’e-mail comprend à la fois un mailto et/ou une URL par défaut que les destinataires peuvent utiliser pour se désabonner de votre liste de diffusion.
 
@@ -106,7 +106,7 @@ Actuellement, [!DNL Journey Optimizer] n’ajoute pas de balise spécifique pour
 
 >[!CONTEXTUALHELP]
 >id="ajo_email_config_unsubscribe_custom_url"
->title="Saisissez votre propre URL de désabonnement en un clic"
+>title="Saisir votre propre URL de désabonnement en un clic"
 >abstract="L’**URL de désabonnement en un clic** doit utiliser la méthode de requête POST."
 
 Si vous gérez le consentement en dehors d’Adobe, sélectionnez l’option **[!UICONTROL Géré par le client ou la cliente]** pour saisir une adresse e-mail de désabonnement personnalisée et votre propre URL de désabonnement en un clic.
