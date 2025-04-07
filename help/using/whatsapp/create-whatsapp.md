@@ -11,10 +11,10 @@ hide: true
 hidefromtoc: true
 badge: label="Beta" type="Informative"
 exl-id: cac6f675-59e0-431d-8c20-f24ef16d7bf2
-source-git-commit: 87931614150d6f764f565f683f83db4f63d88ee0
+source-git-commit: 6268989c14ccb0ae6fd5ac271a33efe4877dd903
 workflow-type: tm+mt
-source-wordcount: '613'
-ht-degree: 31%
+source-wordcount: '809'
+ht-degree: 24%
 
 ---
 
@@ -32,6 +32,35 @@ ht-degree: 31%
 >[!ENDSHADEBOX]
 
 Avec Adobe Journey Optimizer, vous pouvez concevoir et envoyer des messages attrayants sur WhatsApp. Ajoutez simplement une action WhatsApp à votre parcours ou campagne et concevez le contenu de votre message comme décrit ci-dessous. Adobe Journey Optimizer vous permet également de tester vos messages WhatsApp avant de les envoyer, assurant ainsi un rendu parfait, une personnalisation précise et une configuration correcte de tous les paramètres.
+
+Notez que seuls les éléments de messages sortants sont pris en charge dans Journey Optimizer.
+
++++ En savoir plus sur les éléments de message et les appels à l’action pris en charge
+
+Les types de messages supportés dans WhatsApp sont les suivants :
+
+| Fonctionnalité de message | Description |
+|-|-|
+| En-têtes | Texte facultatif qui apparaît au-dessus du corps de votre message. |
+| Texte | Prend en charge le contenu dynamique par le biais de paramètres. |
+| Images (JPEG, PNG) | Doit être au format RGB ou RGBA 8 bits et d’une taille inférieure à 5 Mo. |
+| Vidéos | Doit être 3GPP ou MP4, de moins de 16 Mo, et hébergé via une URL. |
+| Audio | Disponible uniquement pour les messages de réponse. Doit être au format AAC, AMR, MP3, MP4 audio ou OGG, hébergé sur une URL et de moins de 16 Mo. |
+| Documents | Doit être inférieur à 100 Mo, hébergé sur une URL et dans l’un des formats suivants : .txt, .xls/.xlsx, .doc/.docx, .ppt/.pptx ou .pdf. |
+| Corps de texte | Prend en charge le contenu dynamique par le biais de paramètres. |
+| Texte du pied de page | Prend en charge le contenu dynamique par le biais de paramètres. |
+
+Les options d&#39;appel à l&#39;action suivantes sont disponibles pour vos messages WhatsApp :
+
+| Appel à l’action | Description |
+|-|-|
+| Numéro de téléphone | Disponible uniquement dans les modèles de message. Limité à un bouton. |
+| Boutons de réponse rapide personnalisés | Prend en charge jusqu’à trois boutons. |
+| Bouton d’opt-out marketing | Ne met pas automatiquement à jour le statut de l’abonnement. |
+| Modèles de message de code promotionnel | Disponible uniquement dans les modèles de message. |
+| Messages de réponse CTA | Permet l’inclusion d’un bouton d’appel à l’action dans un message de réponse. |
+
++++
 
 ## Ajouter un message WhatsApp {#create-whatsapp-journey-campaign}
 
@@ -90,7 +119,7 @@ Vous pouvez maintenant commencer à concevoir le contenu de votre message WhatsA
 
 >[!BEGINSHADEBOX]
 
-Avant de concevoir votre message WhatsApp dans Journey Optimizer, vous devez d&#39;abord créer et concevoir votre modèle dans Meta. Seuls les éléments des messages sortants sont pris en charge dans Journey Optimizer. [En savoir plus](https://www.facebook.com/business/help/2055875911147364?id=2129163877102343)
+Avant de concevoir votre message WhatsApp dans Journey Optimizer, vous devez d&#39;abord créer et concevoir votre modèle dans Meta. [En savoir plus](https://www.facebook.com/business/help/2055875911147364?id=2129163877102343)
 
 Notez que votre modèle WhatsApp doit d&#39;abord être approuvé par Meta avant de l&#39;utiliser dans Journey Optimizer. Ce processus prend généralement quelques heures, mais peut prendre jusqu’à 24 heures. [En savoir plus](https://developers.facebook.com/docs/whatsapp/message-templates/guidelines/#approval-process)
 
