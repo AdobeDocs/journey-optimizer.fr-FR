@@ -9,10 +9,10 @@ role: User
 level: Beginner
 keywords: campagne, guide, commencer, optimizer
 exl-id: e2506a43-e4f5-48af-bd14-ab76c54b7c90
-source-git-commit: 0a7c1ebf01a0aec9f84e86b14df14bbfcd24a7b4
-workflow-type: ht
+source-git-commit: c2f32533027e374a1df26943e7c5acd4e1d13869
+workflow-type: tm+mt
 source-wordcount: '437'
-ht-degree: 100%
+ht-degree: 96%
 
 ---
 
@@ -61,8 +61,8 @@ Vérifiez les conditions préalables suivantes avant de commencer la création d
 
 +++
 
-1. **Vous avez besoin d’une audience**. Les audiences doivent être disponibles avant de créer la campagne. Pour en savoir plus sur les audiences, consultez [cette page](../audience/about-audiences.md).
-1. **Il vous faut une configuration de canal**. Pour pouvoir sélectionner un canal, la configuration de canal correspondante (c’est-à-dire le paramètre prédéfini) doit être créée et disponible. Pour en savoir plus sur les configurations de canal, consultez cette [page](../configuration/channel-surfaces.md).
+1. **Vous avez besoin d’une audience**. Les audiences doivent être disponibles avant de créer la campagne. En savoir plus sur les audiences [sur cette page](../audience/about-audiences.md).
+1. **Il vous faut une configuration de canal**. Pour pouvoir sélectionner un canal, la configuration de canal correspondante (c’est-à-dire le paramètre prédéfini) doit être créée et disponible. En savoir plus sur les configurations de canal [sur cette page](../configuration/channel-surfaces.md).
 
 ## Vidéo pratique {#video}
 

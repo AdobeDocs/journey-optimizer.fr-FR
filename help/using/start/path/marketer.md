@@ -7,10 +7,10 @@ level: Beginner
 feature: Get Started
 Role: User
 exl-id: 34304142-3ee8-4081-94b9-e914968c75ba
-source-git-commit: ccfc0870a8d59d16c7f5b6b02856785aa28dd307
-workflow-type: ht
+source-git-commit: c2f32533027e374a1df26943e7c5acd4e1d13869
+workflow-type: tm+mt
 source-wordcount: '465'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -20,7 +20,7 @@ En tant que **spécialiste du marketing** ou **praticien/praticienne Parcours**,
 
 Reportez-vous aux sections suivantes pour configurer votre premier parcours, ajouter des offres et des ressources et envoyer des messages :
 
-1. **Créer des audiences** Journey Optimizer vous permet de créer des audiences via les définitions de segments directement à partir du menu **Audiences**, et de les exploiter dans vos parcours.  Pour en savoir plus sur les audiences, consultez [cette page](../../audience/about-audiences.md). Découvrez comment créer des définitions de segments [dans cet exemple](../../audience/creating-a-segment-definition.md).
+1. **Créer des audiences** Journey Optimizer vous permet de créer des audiences via les définitions de segments directement à partir du menu **Audiences**, et de les exploiter dans vos parcours.  En savoir plus sur les audiences [sur cette page](../../audience/about-audiences.md). Découvrez comment créer des définitions de segments [dans cet exemple](../../audience/creating-a-segment-definition.md).
 
 1. **Ajouter des éléments de personnalisation et un contenu dynamique**. Profitez des fonctionnalités de personnalisation et du contenu dynamique de Journey Optimizer pour adapter votre message à votre audience. En savoir plus sur la [personnalisation](../../personalization/personalize.md) et le [contenu dynamique](../../personalization/get-started-dynamic-content.md).
 
