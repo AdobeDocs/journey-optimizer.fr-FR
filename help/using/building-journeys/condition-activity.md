@@ -9,21 +9,27 @@ role: User
 level: Intermediate
 keywords: activité, condition, zone de travail, parcours
 exl-id: 496c7666-a133-4aeb-be8e-c37b3b9bf5f9
-source-git-commit: 85a8d0713f87a8b3505a2294402156ba6598c8bb
-workflow-type: ht
-source-wordcount: '1491'
-ht-degree: 100%
+source-git-commit: 8a4315940595113441a5f5fb51a3c6573c79cff3
+workflow-type: tm+mt
+source-wordcount: '1541'
+ht-degree: 89%
 
 ---
 
-# Activité de condition{#condition-activity}
+# Activité de condition {#condition-activity}
+
+## Ajouter une activité de condition {#add-condition-activity}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_condition"
 >title="Activité de condition"
->abstract="Cette activité vous permet de définir le déplacement de l&#39;individu dans le parcours. Plusieurs chemins seront créés selon différents critères. Vous pouvez également créer un chemin alternatif en cas de délai dépassé ou d&#39;erreur."
+>abstract="L’activité **Condition** vous permet de définir la progression des individus dans votre parcours en créant plusieurs chemins d’accès en fonction de critères spécifiques. Vous pouvez également configurer un autre chemin pour gérer les délais d’expiration ou les erreurs, assurant ainsi une expérience fluide."
 
-Les types de conditions disponibles sont les suivantes :
+L’activité **Condition** vous permet de définir la progression des individus dans votre parcours en créant plusieurs chemins d’accès en fonction de critères spécifiques. Vous pouvez également configurer un autre chemin pour gérer les délais d’expiration ou les erreurs, assurant ainsi une expérience fluide.
+
+![](assets/journey49.png)
+
+Les types de conditions disponibles sont les suivantes :
 
 * [Condition de source de données](#data_source_condition)
 * [Condition de temps](#time_condition)
@@ -31,9 +37,9 @@ Les types de conditions disponibles sont les suivantes :
 * [Condition de date](#date_condition)
 * [Limite de profils](#profile_cap)
 
-![](assets/journey49.png)
+Vous pouvez également utiliser une audience dans une condition de parcours. [En savoir plus](#using-a-segment)
 
-## À propos de l&#39;activité de condition {#about_condition}
+## Ajouter et gérer des chemins de condition {#about_condition}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_expression_simple"
@@ -48,7 +54,7 @@ Cliquez sur **[!UICONTROL Ajouter un chemin]** si vous souhaitez définir plusie
 
 Notez que la conception de parcours n’est pas sans conséquences sur le plan fonctionnel. Lorsque plusieurs chemins sont définis après une condition, seul le premier chemin éligible est exécuté. Cela signifie que vous pouvez modifier la priorité des chemins en les plaçant les uns au-dessus ou en dessous des autres.
 
-Prenons l’exemple de la condition « La personne est un VIP » d’un premier chemin et la condition « La personne est un homme » d’un second chemin. Si une personne répondant aux deux conditions (à savoir, un VIP de sexe masculin) franchit cette étape, le premier chemin d’accès est choisi, même s’il est également éligible au second, compte tenu de sa position hiérarchique supérieure. Pour modifier cette priorité, déplacez vos activités verticalement.
+Prenons l’exemple de la condition « La personne est un VIP » d’un premier chemin et la condition « La personne est un homme » d’un second chemin. Si une personne répondant aux deux conditions (à savoir, un VIP de sexe masculin) franchit cette étape, le premier chemin d’accès est choisi, même s’il est également éligible au second, compte tenu de sa position hiérarchique supérieure. Pour modifier cette priorité, déplacez vos activités verticalement.
 
 ![](assets/journey48.png)
 
@@ -74,7 +80,7 @@ Dans l’éditeur simple, vous trouverez la catégorie Propriétés du parcours,
 
 ## Condition de source de données {#data_source_condition}
 
-Vous pouvez utiliser une **[!UICONTROL condition de source de données]** pour définir une condition en fonction de champs issus des sources de données ou des événements positionnés précédemment dans le parcours. Ce type de condition est défini à l’aide de l’éditeur d’expression. Découvrez comment utiliser l’éditeur d’expression dans [cette section](expression/expressionadvanced.md).
+Utilisez une **[!UICONTROL condition de Source de données]** pour définir une condition en fonction des champs des sources de données ou des événements positionnés précédemment dans le parcours. Ce type de condition est défini à l’aide de l’éditeur d’expression. Découvrez comment utiliser l’éditeur d’expression dans [cette section](expression/expressionadvanced.md).
 
 Par exemple, si vous ciblez une audience avec des attributs d’enrichissement générés à l’aide d’un workflow de composition ou d’un chargement personnalisé (fichier CSV), vous pouvez utiliser ces attributs d’enrichissement pour créer votre condition.
 
@@ -102,7 +108,7 @@ Trois options de filtrage temporel sont disponibles :
 
 ## Partage en pourcentage {#percentage_split}
 
-Cette option vous permet de fractionner l’audience de manière aléatoire afin de définir une action différente pour chaque groupe. Définissez le nombre de divisions, ainsi que la répartition pour chaque chemin. La division est un calcul statistique, dans la mesure où le système ne peut pas prévoir le nombre de personnes qui suivront cette activité du parcours. Par conséquent, la marge d’erreur de la division est très faible. Cette fonction est basée sur un mécanisme Java aléatoire (pour en savoir plus, consultez cette [page](https://docs.oracle.com/javase/7/docs/api/java/util/Random.html)).
+Cette option vous permet de fractionner l’audience de manière aléatoire afin de définir une action différente pour chaque groupe. Définissez le nombre de divisions, ainsi que la répartition pour chaque chemin. La division est un calcul statistique, dans la mesure où le système ne peut pas prévoir le nombre de personnes qui suivront cette activité du parcours. Par conséquent, la marge d’erreur de la division est très faible. Cette fonction est basée sur un mécanisme Java aléatoire (voir cette [page](https://docs.oracle.com/javase/7/docs/api/java/util/Random.html){target="_blank"}).
 
 En mode test, lorsqu&#39;un partage est atteint, la branche supérieure est toujours choisie. Vous pouvez réorganiser la position des branches partagées si vous souhaitez que le test choisisse un autre chemin. Voir [cette page](../building-journeys/testing-the-journey.md)
 
