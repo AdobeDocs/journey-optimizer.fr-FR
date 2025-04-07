@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: c1027268-0bbe-4e35-a5a6-2aef78083dd3
-source-git-commit: 0571a11eabffeb5e318bebe341a8df18da7db598
+source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
 workflow-type: tm+mt
 source-wordcount: '237'
-ht-degree: 100%
+ht-degree: 92%
 
 ---
 
@@ -21,9 +21,9 @@ Utilisez [!DNL Journey Optimizer] pour envoyer des messages texte (SMS/MMS) à v
 
 Les messages texte peuvent être créés et envoyés dans un parcours ou dans une campagne. Pour les MMS et SMS, utilisez l’action SMS.
 
-* Dans un **parcours**. Créez un parcours, ajoutez une activité SMS et définissez les paramètres de base, puis accédez au volet de droite **[!UICONTROL Actions : SMS]** pour créer le contenu du message SMS/MMS. Découvrez comment créer un parcours dans [cette page](../building-journeys/journey-gs.md).
+* Dans un **parcours**. Créez un parcours, ajoutez une activité SMS et définissez les paramètres de base, puis accédez au volet de droite **[!UICONTROL Actions : SMS]** pour créer le contenu du message SMS/MMS. Découvrez comment créer un parcours sur [cette page](../building-journeys/journey-gs.md).
 
-* Dans une **Campagne**. Créez une campagne, sélectionnez SMS comme action et définissez les paramètres de base, puis modifiez le contenu du message pour définir le message SMS/MMS à envoyer. Découvrez comment créer une campagne en accédant à [cette page](../campaigns/create-campaign.md#configure).
+* Dans une **Campagne**. Créez une campagne, sélectionnez SMS comme action et définissez les paramètres de base, puis modifiez le contenu du message pour définir le message SMS/MMS à envoyer. Découvrez comment créer une campagne sur [cette page](../campaigns/create-campaign.md#configure).
 
 Adobe Journey Optimizer envoie des messages texte par le biais de fournisseurs de services SMS (ou fournisseurs de passerelle SMS). Avant de créer votre message SMS/MMS, configurez votre fournisseur de services pour les messages texte avec Journey Optimizer. [En savoir plus](sms-configuration.md).
 

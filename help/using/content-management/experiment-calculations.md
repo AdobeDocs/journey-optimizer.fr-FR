@@ -9,10 +9,10 @@ role: User
 level: Experienced
 keywords: contenu, expérience, statistique, calcul
 exl-id: 60a1a488-a119-475b-8f80-3c6f43c80ec9
-source-git-commit: 59ecb9a5376e697061ddac4cc68f09dee68570c0
+source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
 workflow-type: tm+mt
 source-wordcount: '1067'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -24,7 +24,7 @@ L’expérimentation utilise des [méthodes statistiques avancées](../content-m
 
 Cet article décrit le fonctionnement de l’expérience et fournit une introduction intuitive aux **Séquences de confiance valides à tout moment** d’Adobe.
 
-Pour les personnes expertes, les détails techniques et les références sont présentés sur [cette page](../content-management/assets/confidence_sequence_technical_details.pdf).
+Pour les utilisateurs experts, les détails techniques et les références sont détaillés sur [cette page](../content-management/assets/confidence_sequence_technical_details.pdf).
 
 ## Tests statistiques et erreurs de contrôle {#statistical-testing}
 

@@ -9,10 +9,10 @@ role: User
 level: Beginner
 keywords: créer, optimizer, campagne, surface, messages
 exl-id: 617d623c-e038-4b5b-a367-5254116b7815
-source-git-commit: 6acfe14469a74216b196e4d5ee059839aea32226
-workflow-type: ht
+source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
+workflow-type: tm+mt
 source-wordcount: '1277'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 100%
 
 Pour créer une campagne, accédez au menu **[!UICONTROL Campagnes]** dans le rail de gauche, puis cliquez sur **[!UICONTROL Créer une campagne]**. Vous pouvez également dupliquer une campagne active existante pour en créer une nouvelle. [Découvrez comment procéder](modify-stop-campaign.md#duplicate).
 
-Avant de commencer, lisez les conditions préalables des campagnes sur [cette page](get-started-with-campaigns.md#before-starting-campaign-prerequisites).
+Avant de commencer, lisez les conditions préalables de la campagne sur [cette page](get-started-with-campaigns.md#before-starting-campaign-prerequisites).
 
 ## Sélectionner le type de campagne {#campaigntype}
 
@@ -49,7 +49,7 @@ Une fois la campagne créée, vous devez définir ses propriétés. Suivez les �
 
 1. (Facultatif) Le champ **Balises** vous permet d’affecter des balises unifiées Adobe Experience Platform à votre campagne. Vous pouvez ainsi facilement les classer et améliorer la recherche à partir de la liste des campagnes. [Découvrez comment utiliser les balises](../start/search-filter-categorize.md#tags).
 
-1. (Facultatif) Vous pouvez limiter l’accès à cette campagne en fonction de libellés d’accès. Pour ajouter une limitation d’accès, cliquez sur le bouton **[!UICONTROL Gérer les accès]** en haut de cette page. Assurez-vous de sélectionner uniquement les libellés pour lesquels vous disposez des autorisations. [En savoir plus sur le contrôle d’accès au niveau des objets](../administration/object-based-access.md).
+1. (Facultatif) Vous pouvez limiter l’accès à cette campagne en fonction de libellés d’accès. Pour ajouter une limitation d’accès, cliquez sur le bouton **[!UICONTROL Gérer les accès]** en haut de cette page. Assurez-vous de sélectionner uniquement les libellés pour lesquels vous disposez des autorisations. [En savoir plus sur le contrôle d’accès au niveau de l’objet](../administration/object-based-access.md).
 
 ## Définir l’audience de la campagne {#audience}
 
@@ -65,7 +65,7 @@ Pour définir la population ciblée par une campagne marketing planifiée, suive
 
 1. Dans la section **Audience**, cliquez sur le bouton **[!UICONTROL Sélectionner une audience]** pour afficher la liste des audiences Adobe Experience Platform disponibles. Pour en savoir plus sur les audiences, consultez [cette section](../audience/about-audiences.md).
 
-1. Dans le champ **[!UICONTROL Type d’identité]**, choisissez le type de clé à utiliser pour identifier les personnes dans l’audience sélectionnée. Vous pouvez soit utiliser un type d’identité existant, soit en créer un nouveau à l’aide du service d’identités Adobe Experience Platform. Les espaces de noms d’identité standard sont répertoriés dans [cette page](https://experienceleague.adobe.com/fr/docs/experience-platform/identity/features/namespaces#standard){target="_blank"}.
+1. Dans le champ **[!UICONTROL Type d’identité]**, choisissez le type de clé à utiliser pour identifier les personnes dans l’audience sélectionnée. Vous pouvez soit utiliser un type d’identité existant, soit en créer un nouveau à l’aide du service d’identités Adobe Experience Platform. Les espaces de noms d’identité standard sont répertoriés sur [cette page](https://experienceleague.adobe.com/fr/docs/experience-platform/identity/features/namespaces#standard){target="_blank"}.
 
    Un seul type d’identité est autorisé par campagne. Les personnes appartenant à un segment qui n’a pas le type d’identité sélectionné parmi leurs différentes identités ne seront pas ciblées par la campagne.
 

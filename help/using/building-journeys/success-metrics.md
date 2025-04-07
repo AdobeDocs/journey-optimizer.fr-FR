@@ -11,10 +11,10 @@ keywords: publication, parcours, dynamique, validité, vérifier
 hide: true
 hidefromtoc: true
 exl-id: 95d0267e-fab4-4057-8ab5-6f7c9c866b0f
-source-git-commit: 48ef8d42057ffe51c27221c2176192d4e637fb96
+source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
 workflow-type: tm+mt
 source-wordcount: '488'
-ht-degree: 12%
+ht-degree: 10%
 
 ---
 
@@ -70,7 +70,7 @@ Chaque mesure est fournie avec une attribution définie qui détermine les point
 
   Avec les licences Journey Optimizer et Customer Journey Analytics, vous pouvez créer des mesures personnalisées avec des paramètres d’attribution spécifiques ou modifier les attributions des mesures intégrées.
 
-  En savoir plus sur les [Modèles d’attribution](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dataviews/component-settings/attribution#attribution-models)
+  En savoir plus sur les [modèles d’attribution](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dataviews/component-settings/attribution#attribution-models)
 
 ## Attribuer votre mesure de Parcours {#assign}
 
@@ -78,7 +78,7 @@ Pour commencer à effectuer le suivi de votre mesure de parcours, procédez comm
 
 1. Dans le menu **[!UICONTROL Parcours]**, cliquez sur **[!UICONTROL Créer un Parcours]**.
 
-1. Modifiez le volet de configuration du parcours pour attribuer un nom au parcours et définir ses propriétés. Découvrez comment définir les propriétés de votre parcours dans [cette page](../building-journeys/journey-properties.md).
+1. Modifiez le volet de configuration du parcours pour attribuer un nom au parcours et définir ses propriétés. Découvrez comment définir les propriétés de votre parcours sur [cette page](../building-journeys/journey-properties.md).
 
 1. Choisissez vos **[!UICONTROL mesures de Parcours]** qui seront utilisées pour mesurer l’efficacité de votre parcours.
 

@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: parcours, configuration, propriétés
 exl-id: 6c21371c-6cbc-4d39-8fe6-39f1b8b13280
-source-git-commit: 7ca149d420f802a6230e699cffefddc4117cb85e
+source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
 workflow-type: tm+mt
 source-wordcount: '2298'
-ht-degree: 97%
+ht-degree: 95%
 
 ---
 
@@ -45,13 +45,13 @@ Depuis cette section, vous pouvez définir le nom du parcours, ajouter une descr
 
 La fonction **Copier les détails techniques** permet de copier les informations techniques relatives au parcours qui seront utiles à l’équipe d’assistance technique pour résoudre les problèmes. Les informations suivantes sont copiées : `JourneyVersion UID`, `OrgID`, `orgName`, `sandboxName`, `lastDeployedBy`, `lastDeployedAt`.
 
-Pour plus d’informations sur les champs techniques liés à un parcours pour un profil donné et comment les utiliser, consultez [cette page](expression/journey-properties.md).
+Découvrez les champs techniques liés à un parcours pour un profil donné et comment les utiliser [sur cette page](expression/journey-properties.md).
 
 ## Entrée et rentrée {#entrance}
 
 Le mode d’entrée des profils est défini au niveau du parcours, dans le volet de configuration de droite. Les paramètres sont décrits ci-dessous.
 
-La gestion des entrées de profil dépend du type de parcours. Pour plus d’informations sur la gestion des entrées et des rentrées de profils, consultez [cette page](entry-management.md).
+La gestion des entrées de profil dépend du type de parcours. Pour en savoir plus sur la gestion des entrées et des reprises de profil, consultez [cette page](entry-management.md).
 
 ### Autoriser une nouvelle rentrée  {#allow-reentrance}
 
@@ -251,7 +251,7 @@ Adobe Journey Optimizer utilise des politiques de fusion lors de la récupérati
 
 Adobe Journey Optimizer applique la politique de fusion utilisée dans l’ensemble du parcours. Par conséquent, si de multiples audiences sont utilisées dans un parcours (par exemple dans les fonctions « inAudience »), créant des incohérences avec la politique de fusion utilisée par le parcours, une erreur se produit et la publication est bloquée. Cependant, si une audience incohérente est utilisée dans la personnalisation des messages, une alerte n’est pas déclenchée, malgré l’incohérence. C’est pourquoi il est vivement recommandé de vérifier la politique de fusion associée à votre audience lorsque cette audience est utilisée dans la personnalisation des messages.
 
-Pour en savoir plus sur les politiques de fusion, consultez la [documentation d’Adobe Experience Platform](https://experienceleague.adobe.com/fr/docs/experience-platform/profile/merge-policies/overview){target="_blank"}.
+Pour en savoir plus sur les politiques de fusion, consultez la documentation de [Adobe Experience Platform](https://experienceleague.adobe.com/fr/docs/experience-platform/profile/merge-policies/overview){target="_blank"}.
 
 >[!NOTE]
 >

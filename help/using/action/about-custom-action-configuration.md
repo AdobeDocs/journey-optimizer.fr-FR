@@ -9,10 +9,10 @@ role: Data Engineer, Data Architect, Admin
 level: Experienced
 keywords: action, tiers, personnalisé, parcours, API
 exl-id: 4df2fc7c-85cb-410a-a31f-1bc1ece237bb
-source-git-commit: 2af3cef357bf68091d9b8b5d2750e73a290bc682
-workflow-type: ht
+source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
+workflow-type: tm+mt
 source-wordcount: '1692'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -29,9 +29,9 @@ Les actions personnalisées sont des actions supplémentaires définies par les 
 
 ## Limites{#custom-actions-limitations}
 
-Les actions personnalisées sont assorties de quelques limites répertoriées dans [cette page](../start/guardrails.md).
+Les actions personnalisées sont assorties de quelques restrictions répertoriées sur [cette page](../start/guardrails.md).
 
-Dans les paramètres d’action personnalisés, vous pouvez transmettre une collection simple, ainsi qu’une collection d’objets. En savoir plus au sujet de ces limites de collection sur [cette page](../building-journeys/collections.md#limitations).
+Dans les paramètres d’action personnalisée, vous pouvez transmettre une collection simple, ainsi qu’une collection d’objets. En savoir plus sur les limites de collection sur [cette page](../building-journeys/collections.md#limitations).
 
 Notez également qu’un format spécifique est attendu pour les paramètres d’action personnalisés (par exemple : chaîne, décimal, etc.). Vous devez veiller au respect de cette exigence. En savoir plus sur ce [cas d’utilisation](../building-journeys/collections.md).
 

@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: publication, parcours, dynamique, validité, vérifier
 exl-id: e0ca8aef-4f1d-4631-8c34-1692d96e8b51
-source-git-commit: 3a1e00ecc74ccca5cba0e15ac642eeb7ddb40ae0
-workflow-type: ht
+source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
+workflow-type: tm+mt
 source-wordcount: '305'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
@@ -26,7 +26,7 @@ Les étapes de publication d’un parcours sont détaillées ci-dessous :
 
 1. Avant de publier votre parcours, vérifiez qu’il est valide et qu’il ne comporte aucune erreur. Le cas échéant, la publication s’avérera impossible.
 
-   * Découvrez comment tester votre parcours dans [cette page](testing-the-journey.md).
+   * Découvrez comment tester votre parcours sur [cette page](testing-the-journey.md).
    * Découvrez comment résoudre les erreurs présentes dans votre parcours dans [cette section](../building-journeys/troubleshooting.md#checking-for-errors-before-testing).
 
 1. Pour publier le parcours, cliquez sur l’option **[!UICONTROL Publier]** située dans le menu déroulant qui se trouve en haut à droite.

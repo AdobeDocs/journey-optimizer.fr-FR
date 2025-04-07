@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: parcours, premier, commencer, démarrage rapide, audience, événement, action
 exl-id: 770bdbf2-560d-4127-bdb9-1f82495a566f
-source-git-commit: 41448cfa8efc4a7b74b0a490f02e53efdbc0a2e7
+source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
 workflow-type: tm+mt
 source-wordcount: '1150'
-ht-degree: 99%
+ht-degree: 97%
 
 ---
 
@@ -75,7 +75,7 @@ Le type de parcours dépend des activités utilisées dans ce parcours. Il peut 
 * **[!UICONTROL Lecture d’audience]** : dans les parcours Lecture d’audience, toutes les personnes de l’audience rejoignent le parcours et reçoivent les messages inclus dans votre parcours. [En savoir plus](read-audience.md).
 
 
-Pour plus d’informations sur les types de parcours et la gestion des entrées associées, consultez [cette page](entry-management.md).
+Pour en savoir plus sur les types de parcours et la gestion des entrées associée, consultez [cette page](entry-management.md).
 
 ## Statuts des parcours {#journey-statuses}
 
@@ -128,7 +128,7 @@ Lorsque vous publiez une nouvelle version d&#39;un parcours, la version précéd
 
 >[!NOTE]
 >
->Des mécanismes de sécurisation et des limitations spécifiques s’appliquent au contrôle de version des parcours. En savoir plus dans [cette page](../start/guardrails.md#journey-versions-journey-versions-g).
+>Des mécanismes de sécurisation et des limitations spécifiques s’appliquent au contrôle de version des parcours. En savoir plus sur [cette page](../start/guardrails.md#journey-versions-journey-versions-g).
 
 ## Dupliquer un parcours {#duplicate-a-journey}
 

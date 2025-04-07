@@ -9,10 +9,10 @@ role: Data Engineer, Data Architect, Admin
 level: Intermediate, Experienced
 keywords: événement, parcours, entreprise, configuration
 exl-id: 39eb40e1-d7f5-4a8e-9b64-c620940d5ff2
-source-git-commit: 18296fe54dcef6620d4f74374848199368f01475
+source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
 workflow-type: tm+mt
 source-wordcount: '1126'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -56,7 +56,7 @@ Les événements métier suivent les règles de rentrée de la même manière qu
 
 **Quelles sont les mécanismes de sécurisation permettant d’éviter la surcharge des audiences matérialisées ?**
 
-Dans le cas d’événements métier unique, pour un parcours donné, les données transmises par la première tâche d’événement sont réutilisées pendant une période d’une heure. Pour les parcours planifiés, il n’y a pas de mécanisme de sécurisation. Pour en savoir plus sur les audiences, consultez la [documentation du service de segmentation d’Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=fr).
+Dans le cas d’événements métier unique, pour un parcours donné, les données transmises par la première tâche d’événement sont réutilisées pendant une période d’une heure. Pour les parcours planifiés, il n’y a pas de mécanisme de sécurisation. En savoir plus sur les audiences dans la documentation du service de segmentation de Adobe Experience Platform [](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=fr).
 
 ## Prise en main des événements métier {#gs-business-events}
 

@@ -9,10 +9,10 @@ role: Data Engineer, Data Architect, Admin
 level: Experienced
 keywords: actions, parcours, messages, envoi, connexions
 exl-id: 7f0cda1d-daf0-4d4c-9978-ddef81473813
-source-git-commit: d498f32a42b13bfdee20f32a589dd31c77d88fa8
+source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
 workflow-type: tm+mt
 source-wordcount: '273'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -38,7 +38,7 @@ Les actions sont des connexions par le biais desquelles vous proposez des expér
 >
 >La configuration des actions personnalisées doit être effectuée par un **utilisateur ou une utilisatrice technique**.
 
-Les actions personnalisées sont des actions supplémentaires définies par le personnel technique et mises à la disposition des équipes marketing : une fois configurées, elles apparaissent dans la palette gauche de votre parcours, dans la catégorie **[!UICONTROL Action]**. En savoir plus dans [cette page](../building-journeys/about-journey-activities.md#action-activities).
+Les actions personnalisées sont des actions supplémentaires définies par le personnel technique et mises à la disposition des équipes marketing : une fois configurées, elles apparaissent dans la palette gauche de votre parcours, dans la catégorie **[!UICONTROL Action]**. En savoir plus sur [cette page](../building-journeys/about-journey-activities.md#action-activities).
 
 Pour afficher la liste des actions ou configurer une nouvelle action, sélectionnez **[!UICONTROL Configurations]** dans la section du menu ADMINISTRATION. Dans la section **[!UICONTROL Actions]**, cliquez sur **[!UICONTROL Gérer]**. La liste des actions s&#39;affiche. Pour plus d&#39;informations sur l&#39;interface, voir [cette page](../start/user-interface.md)
 

@@ -8,18 +8,18 @@ topic: Administration
 role: User
 level: Intermediate
 exl-id: 0855ca5b-c7af-41c4-ad51-bed820ae5ecf
-source-git-commit: 75b7d7402363709a0790ffaae051cf836bed6c81
+source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
 workflow-type: tm+mt
 source-wordcount: '643'
-ht-degree: 100%
+ht-degree: 94%
 
 ---
 
 # Prise en main des alertes {#alerts}
 
-Lors de la création de vos parcours et campagnes, utilisez le bouton **Alertes** pour vérifier et résoudre les erreurs avant de les exécuter ou de les publier. Découvrez comment résoudre les problèmes de vos parcours sur [cette page](../building-journeys/troubleshooting.md). Découvrez comment réviser vos campagnes sur [cette page](../campaigns/review-activate-campaign.md).
+Lors de la création de vos parcours et campagnes, utilisez le bouton **Alertes** pour vérifier et résoudre les erreurs avant de les exécuter ou de les publier. Découvrez comment résoudre les problèmes liés à vos parcours sur [cette page](../building-journeys/troubleshooting.md). Découvrez comment vérifier vos campagnes sur [cette page](../campaigns/review-activate-campaign.md).
 
-Vous pouvez également vous abonner à des alertes système Adobe Journey Optimizer, comme décrit dans cette page.
+Vous pouvez également vous abonner aux alertes système de Adobe Journey Optimizer, comme indiqué sur cette page.
 
 ## Accéder et s’abonner aux alertes {#alerting-capabilities}
 

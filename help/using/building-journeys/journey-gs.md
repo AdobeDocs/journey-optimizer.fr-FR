@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: parcours, premier, commencer, démarrage rapide, audience, événement, action
 exl-id: d940191e-8f37-4956-8482-d2df0c4274aa
-source-git-commit: 5f48c3df14768e699e174e5a3539438e9b774e1a
-workflow-type: ht
+source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
+workflow-type: tm+mt
 source-wordcount: '711'
-ht-degree: 100%
+ht-degree: 94%
 
 ---
 
@@ -28,12 +28,12 @@ ht-degree: 100%
 >title="Parcours"
 >abstract="Concevoir des parcours clients pour offrir des expériences contextuelles personnalisées. Journey Optimizer vous permet de créer des cas d’utilisation d’orchestration en temps réel avec des données contextuelles stockées dans des événements ou des sources de données. L’onglet **Vue d’ensemble** affiche un tableau de bord avec les mesures clés liées à vos parcours : L’onglet **Parcourir** affiche la liste des parcours existants."
 
-Adobe Journey Optimizer comprend une zone de travail d’orchestration omnicanal qui permet aux spécialistes du marketing d’harmoniser la portée marketing avec l’engagement client individuel. L’interface utilisateur vous permet de faire glisser facilement des activités de la palette vers la zone de travail pour créer votre parcours. L’interface d’utilisation de Journey Optimizer est présentée dans [cette page](journey-ui.md).
+Adobe Journey Optimizer comprend une zone de travail d’orchestration omnicanal qui permet aux spécialistes du marketing d’harmoniser la portée marketing avec l’engagement client individuel. L’interface utilisateur vous permet de faire glisser facilement des activités de la palette vers la zone de travail pour créer votre parcours. Pour en savoir plus sur l’interface utilisateur du parcours, consultez [cette page](journey-ui.md).
 
 ![exemple de zone de travail de parcours ](assets/journey38.png)
 
 
-Les étapes principales de la création d’un parcours sont détaillées dans cette page. Les voici :
+Les étapes principales de création d’un parcours sont présentées dans cette page. Les voici :
 
 ![étapes de création de parcours : création, conception, test et publication](assets/journey-creation-process.png)
 
@@ -64,7 +64,7 @@ Les personnes chargées de l’ingénierie de données peuvent consulter [cette 
 
 >[!NOTE]
 >
->Les mécanismes de sécurisation et limitations des parcours sont détaillés sur [cette page](../start/guardrails.md).
+>Les mécanismes de sécurisation et limitations de parcours sont détaillés sur [cette page](../start/guardrails.md)
 
 ## Créer un parcours {#jo-build}
 
@@ -74,7 +74,7 @@ Pour créer un parcours à plusieurs étapes, procédez comme suit :
 
 1. Cliquez sur le bouton **[!UICONTROL Créer un parcours]** pour créer un parcours.
 
-1. Modifiez le volet de configuration du parcours pour attribuer un nom au parcours et définir ses propriétés. Découvrez comment définir les propriétés de votre parcours dans [cette page](journey-properties.md).
+1. Modifiez le volet de configuration du parcours pour attribuer un nom au parcours et définir ses propriétés. Découvrez comment définir les propriétés de votre parcours sur [cette page](journey-properties.md).
 
    ![](assets/jo-properties.png)
 

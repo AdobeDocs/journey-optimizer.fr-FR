@@ -7,10 +7,10 @@ role: User
 level: Beginner
 keywords: in-app, message, création, commencer
 exl-id: 5a67177e-a7cf-41a8-9e7d-37f7fe3d34dc
-source-git-commit: 47482adb84e05fe41eb1c50479a8b50e00469ec4
-workflow-type: ht
+source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
+workflow-type: tm+mt
 source-wordcount: '634'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -30,7 +30,7 @@ Pour configurer votre canal web in-app, procédez comme suit :
 
 1. Accédez au menu **[!UICONTROL Campagnes]**, puis cliquez sur **[!UICONTROL Créer une campagne]**.
 
-1. Choisissez le type d’exécution de la campagne : planifiée ou déclenchée par l’API. Pour en savoir plus sur les types de campagne, consultez [cette page](../campaigns/create-campaign.md#campaigntype).
+1. Choisissez le type d’exécution de la campagne : planifiée ou déclenchée par l’API. En savoir plus sur les types de campagne sur [cette page](../campaigns/create-campaign.md#campaigntype).
 
 1. Dans le menu déroulant **[!UICONTROL Actions]**, choisissez le **[!UICONTROL Message in-app]**.
 

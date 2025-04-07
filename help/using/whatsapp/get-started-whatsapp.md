@@ -11,10 +11,10 @@ hide: true
 hidefromtoc: true
 badge: label="Beta" type="Informative"
 exl-id: 22df2bfa-4d86-464e-ad83-3aa457e3a747
-source-git-commit: 87931614150d6f764f565f683f83db4f63d88ee0
+source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
 workflow-type: tm+mt
 source-wordcount: '293'
-ht-degree: 17%
+ht-degree: 11%
 
 ---
 
@@ -37,9 +37,9 @@ ht-degree: 17%
 
 Vous pouvez désormais envoyer des messages WhatsApp directement via Journey Optimizer. Cette fonctionnalité permet une intégration transparente de WhatsApp dans les parcours et les campagnes, améliorant la communication et l&#39;engagement avec les destinataires.
 
-* Dans un **parcours**. Créez un parcours, ajoutez une activité **WhatsApp** et définissez les paramètres de base, puis accédez au volet de droite **[!UICONTROL Actions : WhatsApp]** pour créer le contenu du message WhatsApp. Découvrez comment créer un parcours dans [cette page](../building-journeys/journey-gs.md).
+* Dans un **parcours**. Créez un parcours, ajoutez une activité **WhatsApp** et définissez les paramètres de base, puis accédez au volet de droite **[!UICONTROL Actions : WhatsApp]** pour créer le contenu du message WhatsApp. Découvrez comment créer un parcours sur [cette page](../building-journeys/journey-gs.md).
 
-* Dans une **Campagne**. Créez une campagne, sélectionnez **WhatsApp** comme action et définissez les paramètres de base, puis modifiez le contenu du message pour définir le message WhatsApp à envoyer. Découvrez comment créer une campagne en accédant à [cette page](../campaigns/create-campaign.md#configure).
+* Dans une **Campagne**. Créez une campagne, sélectionnez **WhatsApp** comme action et définissez les paramètres de base, puis modifiez le contenu du message pour définir le message WhatsApp à envoyer. Découvrez comment créer une campagne sur [cette page](../campaigns/create-campaign.md#configure).
 
 ![](assets/do-not-localize/whatsapp-beta.png){zoomable="yes"}
 

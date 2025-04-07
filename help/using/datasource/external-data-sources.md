@@ -9,10 +9,10 @@ role: Data Engineer, Data Architect, Admin
 level: Intermediate, Experienced
 keywords: externe, sources, données, configuration, connexion, tiers
 exl-id: f3cdc01a-9f1c-498b-b330-1feb1ba358af
-source-git-commit: 844c0f8dc9b14d69cbd87893042f048443d7a5e6
-workflow-type: ht
+source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
+workflow-type: tm+mt
 source-wordcount: '1595'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -29,7 +29,7 @@ Les sources de données externes vous permettent de définir une connexion à de
 
 >[!NOTE]
 >
->* Les mécanismes de sécurisation lorsque vous utilisez des systèmes externes sont répertoriés dans [cette page](../configuration/external-systems.md).
+>* Les mécanismes de sécurisation lorsque vous utilisez des systèmes externes sont répertoriés sur [cette page](../configuration/external-systems.md).
 >
 >* Les réponses étant désormais prises en charge, vous devez utiliser des actions personnalisées au lieu de sources de données pour les cas d’utilisation de sources de données externes. Pour plus d’informations sur les réponses, voir [cette section](../action/action-response.md)
 

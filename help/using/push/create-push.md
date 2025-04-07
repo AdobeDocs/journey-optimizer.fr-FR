@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 2ebbcd7d-dcfc-4528-974d-6230fc0dca3d
-source-git-commit: 994eac32591f4ca352d310bc06057bd20ea03886
-workflow-type: ht
+source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
+workflow-type: tm+mt
 source-wordcount: '801'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -70,7 +70,7 @@ Pour créer une notification push, procédez comme suit :
 
 1. Dans la section **[!UICONTROL Actions]**, sélectionnez la **[!UICONTROL notification push]** et sélectionnez ou créez une configuration.
 
-   Pour en savoir plus sur la configuration de notifications push, consultez [cette page](push-configuration.md).
+   En savoir plus sur la configuration des notifications push sur [cette page](push-configuration.md).
 
    ![](assets/push_create_3.png)
 

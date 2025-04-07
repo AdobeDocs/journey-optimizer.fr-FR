@@ -6,7 +6,7 @@ description: Découvrez comment ajouter une activité de canal dans une campagne
 hide: true
 hidefromtoc: true
 exl-id: ffe1e77c-6c4f-4f23-9183-d715a4c7c402
-source-git-commit: 040c8387c73f9d867840225ddff6cf940cc96ac5
+source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
 workflow-type: tm+mt
 source-wordcount: '899'
 ht-degree: 70%
@@ -15,7 +15,7 @@ ht-degree: 70%
 
 # Activités de canal {#channel}
 
-Adobe Journey Optimizer vous permet d’automatiser et d’exécuter des campagnes marketing sur les canaux entrants et sortants. Vous pouvez combiner des activités de canal dans la zone de travail de campagne à plusieurs étapes afin de créer des campagnes cross-canal à plusieurs étapes qui peuvent déclencher des actions en fonction du comportement du client et des données. Les canaux pris en charge sont répertoriés dans [cette page](../../channels/gs-channels.md).
+Adobe Journey Optimizer vous permet d’automatiser et d’exécuter des campagnes marketing sur les canaux entrants et sortants. Vous pouvez combiner des activités de canal dans la zone de travail de campagne à plusieurs étapes afin de créer des campagnes cross-canal à plusieurs étapes qui peuvent déclencher des actions en fonction du comportement du client et des données. Les canaux pris en charge sont répertoriés sur [cette page](../../channels/gs-channels.md).
 
 Vous pouvez par exemple créer une campagne de bienvenue par e-mail qui inclut une série de messages sur différents canaux, tels que les canaux e-mails, SMS, notifications push et courrier. Vous pouvez également envoyer un e-mail de relance une fois qu’un client ou une cliente a effectué un achat, ou envoyer un message d’anniversaire personnalisé par SMS.
 

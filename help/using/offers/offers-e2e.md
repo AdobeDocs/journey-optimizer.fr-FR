@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 851d988a-2582-4c30-80f3-b881d90771be
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
 workflow-type: tm+mt
 source-wordcount: '1100'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
@@ -108,7 +108,7 @@ Vous les trouverez sous le menu **[!UICONTROL Gestion des décisions]** > **[!UI
 
    >[!NOTE]
    >
-   >Dans cet exemple, nous n&#39;utiliserons que les scores de priorité. En savoir plus sur les [règles d&#39;éligibilité et les contraintes](../../using/offers/offer-library/creating-personalized-offers.md#eligibility).
+   >Dans cet exemple, nous n&#39;utiliserons que les scores de priorité. En savoir plus sur les [règles d’éligibilité et contraintes](../../using/offers/offer-library/creating-personalized-offers.md#eligibility).
 
 ## Configuration des offres {#configure-offers}
 
@@ -126,7 +126,7 @@ Vous pouvez maintenant créer et configurer vos offres. Dans cet exemple, vous a
    >
    >Une offre peut être affichée à différents endroits dans un message afin de créer davantage de possibilités d&#39;utiliser l&#39;offre dans différents contextes d&#39;emplacement.
 
-   Pour en savoir plus sur les représentations, consultez [cette section](../../using/offers/offer-library/creating-personalized-offers.md#representations).
+   En savoir plus sur les représentations dans [cette section](../../using/offers/offer-library/creating-personalized-offers.md#representations).
 
 1. Sélectionnez une image appropriée pour les deux premiers emplacements. Saisissez du texte personnalisé pour l&#39;emplacement *Non numérique - Texte*.
 
