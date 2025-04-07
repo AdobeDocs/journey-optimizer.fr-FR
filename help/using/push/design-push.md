@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 6f6d693d-11f2-48b7-82a8-171829bf8045
-source-git-commit: ccfc0870a8d59d16c7f5b6b02856785aa28dd307
-workflow-type: ht
-source-wordcount: '1365'
-ht-degree: 100%
+source-git-commit: 1a4c452adeb6bca876d5c108065e0219353a2540
+workflow-type: tm+mt
+source-wordcount: '1362'
+ht-degree: 98%
 
 ---
 
@@ -107,7 +107,7 @@ Utilisez la section **[!UICONTROL Données personnalisées]** pour ajouter des p
 >title="Configurez les données personnalisées de votre notification push."
 >abstract="Ajoutez des variables personnalisées à la payload, en fonction de la configuration de votre application mobile."
 
-Dans la section **[!UICONTROL Données personnalisées]**, vous pouvez ajouter des variables personnalisées à la payload, en fonction de la configuration de votre application mobile. Pour plus d&#39;informations sur la configuration des notifications push dans Adobe Experience Platform et Adobe Launch, voir [cette section](push-gs.md).
+Dans la section **[!UICONTROL Données personnalisées]**, vous pouvez ajouter des variables personnalisées à la payload, en fonction de la configuration de votre application mobile. Pour plus d&#39;informations sur la configuration des notifications push dans Adobe Experience Platform, consultez [cette section](push-gs.md)
 
 ## Options avancées {#advanced-options-push}
 
