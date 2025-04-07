@@ -9,10 +9,10 @@ role: User, Developer, Data Engineer
 level: Experienced
 keywords: sandbox, parcours, copier, environnement
 exl-id: 356d56a5-9a90-4eba-9875-c7ba96967da9
-source-git-commit: 0533051314530b90a19e3b170d94f7761927053e
+source-git-commit: ead10229b82aa8cb2e638ac9c26539de766f3497
 workflow-type: tm+mt
-source-wordcount: '1101'
-ht-degree: 94%
+source-wordcount: '1100'
+ht-degree: 95%
 
 ---
 
@@ -51,7 +51,7 @@ Journey Optimizer permet d’exporter des parcours, des modèles de contenu et 
 
 * Le processus de copie ne copie que les métadonnées et les objets de ce parcours. Aucune donnée de profil ou de jeu de données n’est copiée dans le cadre de ce processus.
 
-### Campagnes (#campaigns)
+### Campagnes {#campaigns}
 
 Les campagnes sont copiées avec tous les éléments liés au profil, à l’audience, au schéma, aux messages intégrés et aux objets dépendants.
 
