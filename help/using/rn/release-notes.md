@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Notes de mise à jour d’Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 88c938199412e38a08b4c94f283cb4d4e09ded2f
+source-git-commit: b7148ebeedf8bfce8d244f676fe96172ea8904e0
 workflow-type: tm+mt
-source-wordcount: '702'
-ht-degree: 70%
+source-wordcount: '708'
+ht-degree: 69%
 
 ---
 
@@ -26,11 +26,11 @@ ht-degree: 70%
 
 ### Améliorations {#25-04-improv}
 
-**Outil Sandbox**
+**Sandbox tooling** - Date de disponibilité : 3 avril 2025
 
-Vous pouvez désormais copier des campagnes dans plusieurs sandbox à l’aide des fonctionnalités d’exportation et d’importation de packages. Les campagnes sont copiées avec tous les éléments liés au profil, à l’audience, au schéma, aux messages intégrés et aux objets dépendants. Certains éléments ne sont pas copiés, tels que les éléments de décision, les libellés d’utilisation des données et les paramètres de langue. [En savoir plus](../configuration/copy-objects-to-sandbox.md).
+Vous pouvez désormais copier des campagnes dans plusieurs sandbox à l’aide des fonctionnalités d’exportation et d’importation de packages. Les campagnes sont copiées avec tous les éléments liés au profil, à l’audience, au schéma, aux messages intégrés et aux objets dépendants. Certains éléments ne sont pas copiés, tels que les éléments de décision, les libellés d’utilisation des données et les paramètres de langue. [En savoir plus](../configuration/copy-objects-to-sandbox.md)
 
-**Personnalisation**
+**Personalization** - Date de disponibilité : 2 avril 2025
 
 Le volet Attributs de l’éditeur de personnalisation affiche désormais uniquement les attributs renseignés par défaut. Pour afficher tous les attributs, utilisez le bouton des paramètres pour activer/désactiver l’option **[!UICONTROL Afficher uniquement les attributs renseignés]**. [En savoir plus](../personalization/personalization-build-expressions.md)
 
