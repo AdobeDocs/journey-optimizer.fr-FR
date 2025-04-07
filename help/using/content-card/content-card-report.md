@@ -7,10 +7,10 @@ role: User
 level: Beginner
 hide: true
 hidefromtoc: true
-source-git-commit: c24dc217567cc65f8ce0dc79d648f016cd8ad740
+source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
 workflow-type: tm+mt
 source-wordcount: '480'
-ht-degree: 100%
+ht-degree: 94%
 
 ---
 
@@ -39,7 +39,7 @@ Vous pouvez accéder directement au rapport sur les cartes de contenu à partir 
 
 Les graphiques **[!UICONTROL Tendance des affichages et des clics]** vous permet de comprendre à la fois la portée globale du message et le nombre de profils uniques qui interagissent avec lui.
 
-+++ En savoir plus sur les mesures sur les affichages et les clics
++++ En savoir plus sur les mesures Afficher et cliquer .
 
 * **[!UICONTROL Clics]** : nombre de fois où un contenu a fait l’objet d’un clic dans une carte de contenu.
 
@@ -55,7 +55,7 @@ Les graphiques **[!UICONTROL Tendance des affichages et des clics]** vous permet
 
 Le tableau **[!UICONTROL Données de suivi]** offre un instantané détaillé de l’activité de profil liée à vos cartes de contenu, fournissant des informations essentielles sur l’engagement et l’efficacité des cartes de contenu.
 
-+++ En savoir plus sur les mesures de données de suivi
++++ En savoir plus sur les mesures de données de tracking
 
 * **[!UICONTROL Personnes]** : nombre de profils d’utilisateurs et d’utilisatrices qui sont qualifiés en tant que profils cibles pour vos cartes de contenu.
 
@@ -91,7 +91,7 @@ Le tableau **[!UICONTROL Libellés suivis]** offre une vue d’ensemble complèt
 
 Le tableau **[!UICONTROL URL des liens de suivi]** fournit une vue d’ensemble complète des URL de vos cartes de contenu qui génèrent le plus de trafic de visiteurs et visiteuses. Cela vous permet d’identifier et de hiérarchiser les liens les plus populaires, ce qui améliore votre compréhension de l’engagement des profils avec du contenu spécifique dans vos cartes de contenu.
 
-+++ En savoir plus sur les mesures des URL des liens de suivi
++++ En savoir plus sur les mesures des URL de liens trackés
 
 * **[!UICONTROL Clics uniques]** : nombre de profils qui ont cliqué sur un contenu dans vos cartes de contenu.
 

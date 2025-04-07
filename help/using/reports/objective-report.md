@@ -11,10 +11,10 @@ hide: true
 hidefromtoc: true
 exl-id: ec1af88c-7b0a-4eaf-97e1-0d9676268fed
 badge: label="Version Beta" type="Informative"
-source-git-commit: d4dce7b31d898d86c330048e6d0a1587e87a617c
-workflow-type: ht
+source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+workflow-type: tm+mt
 source-wordcount: '480'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 

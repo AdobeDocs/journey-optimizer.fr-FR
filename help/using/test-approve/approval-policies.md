@@ -5,10 +5,10 @@ role: User
 level: Beginner
 feature: Approval
 exl-id: e518cb3c-f361-43a4-b9a5-ec070c612e75
-source-git-commit: 7ca149d420f802a6230e699cffefddc4117cb85e
+source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
 workflow-type: tm+mt
 source-wordcount: '525'
-ht-degree: 97%
+ht-degree: 95%
 
 ---
 

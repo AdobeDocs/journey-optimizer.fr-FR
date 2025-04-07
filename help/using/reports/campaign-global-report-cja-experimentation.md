@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 69742163-7378-49ab-929e-86213d6e65e3
-source-git-commit: f5df65a0225754ab66fb2ffa33c5130f7137b644
+source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
 workflow-type: tm+mt
 source-wordcount: '279'
-ht-degree: 100%
+ht-degree: 94%
 
 ---
 
@@ -36,7 +36,7 @@ Notez que la définition de la meilleure performance peut prendre un certain tem
 
 Les indicateurs clés de performance (KPI) d’**[!UICONTROL expérimentation]** fonctionnent comme un tableau de bord global, fournissant une analyse des mesures essentielles associées à votre expérimentation.
 
-+++ En savoir plus sur les mesures des KPI d’expérimentation
++++ En savoir plus sur les mesures des KPI de l’expérience
 
 * **[!UICONTROL Effet élévateur]** : mesure de l’amélioration en pourcentage du taux de conversion d’un traitement donné par rapport à la ligne de base.
 
@@ -51,7 +51,7 @@ Les indicateurs clés de performance (KPI) d’**[!UICONTROL expérimentation]*
 Le widget **[!UICONTROL Variante par clics entrants]** décrit les performances de chaque variante.
 Pour un examen approfondi de ces résultats et de leur interprétation, reportez-vous à [cette page](../content-management/get-started-experiment.md#interpret-results).
 
-+++ En savoir plus sur les mesures de variante par clics entrants
++++ En savoir plus sur les mesures Variante par clics entrants .
 
 * **[!UICONTROL Personnes]** : nombre de profils qui sont qualifiés en tant que profils cibles pour vos messages.
 

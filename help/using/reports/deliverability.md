@@ -8,10 +8,10 @@ topic: Content Management
 role: Admin
 level: Intermediate, Experienced
 exl-id: 8f33dda7-9bd5-4293-8d0d-222205cbc7d5
-source-git-commit: 7ca149d420f802a6230e699cffefddc4117cb85e
+source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
 workflow-type: tm+mt
 source-wordcount: '1138'
-ht-degree: 91%
+ht-degree: 89%
 
 ---
 
@@ -62,7 +62,7 @@ Les rapports sur les campagnes et les parcours permettent de vérifier les perfo
 * Le nombre de messages exécutés, envoyés et délivrés avec succès.
 * Le nombre de messages ayant été ouverts et le nombre de messages/liens ayant fait l&#39;objet d&#39;un clic.
 
-En savoir plus sur le [Rapport dynamique](../reports/live-report.md) et le [Rapport complet](../reports/report-gs-cja.md).
+En savoir plus sur le [rapport dynamique](../reports/live-report.md) et le [rapport à tout moment](../reports/report-gs-cja.md)
 
 ## Adapter le contenu des messages {#adapt-message-content}
 
@@ -106,7 +106,7 @@ DMARC (Domain-based Message Authentication, Reporting, and Conformance, soit Aut
 
 Une boucle de rétroaction (FBL) est un service proposé par certains FAI qui permet à l’expéditeur ou l’expéditrice de l’e-mail de recevoir automatiquement un avertissement lorsque l’utilisateur ou l’utilisatrice qui reçoit un e-mail choisit de le marquer comme spam (également appelé une « plainte »).
 
-Lorsqu’un utilisateur final ou une utilisatrice finale génère une plainte qui est renvoyée à Adobe par le FAI, l’adresse e-mail est automatiquement ajoutée à la [liste de suppression](../reports/suppression-list.md) et exclue des diffusions suivantes. En effet, l’envoi d’e-mails aux utilisateurs ou utilisatrices qui les ont marqués comme spam affecte négativement la réputation de l’expéditeur ou l’expéditrice et peut entraîner des problèmes de délivrabilité. [En savoir plus sur les plaintes relatives aux spams](../reports/suppression-list.md#spam-complaints)
+Lorsqu’un utilisateur final ou une utilisatrice finale génère une plainte qui est renvoyée à Adobe par le FAI, l’adresse e-mail est automatiquement ajoutée à la [liste de suppression](../reports/suppression-list.md) et exclue des diffusions suivantes. En effet, l’envoi d’e-mails aux utilisateurs ou utilisatrices qui les ont marqués comme spam affecte négativement la réputation de l’expéditeur ou l’expéditrice et peut entraîner des problèmes de délivrabilité. [En savoir plus sur les plaintes contre le spam](../reports/suppression-list.md#spam-complaints)
 
 >[!IMPORTANT]
 >

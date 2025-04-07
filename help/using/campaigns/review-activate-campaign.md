@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: campagne, révision, validation, activation, activer, optimizer
 exl-id: 7c4afc98-0d79-4e26-90f8-558bac037169
-source-git-commit: 8fecd0d4812ba875dba1d47bc32ab08178a13f2c
+source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
 workflow-type: tm+mt
 source-wordcount: '279'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 

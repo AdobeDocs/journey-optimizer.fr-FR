@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: IP, groupe, sous-domaines, délivrabilité
 exl-id: 752ffd7f-09c2-4aa3-a067-2dbe0634709c
-source-git-commit: 0c128feac32baff14f1b71aed688e3bde4c67d35
-workflow-type: ht
+source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+workflow-type: tm+mt
 source-wordcount: '2634'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -300,7 +300,7 @@ Une exécution peut avoir les statuts suivants :
 
 ### Utiliser les rapports {#reports}
 
-Plus généralement, pour mesurer l’impact de votre plan, vous pouvez vérifier les performances de vos campagnes de préchauffage des adresses IP à l’aide des rapports de campagne [!DNL Journey Optimizer]. Pour ce faire, vous pouvez cliquer sur le bouton **[!UICONTROL Afficher les rapports]** pour chaque exécution effectuée. Découvrez le [rapport dynamique](../reports/campaign-live-report.md#email-live) et le [rapport Customer Journey Analytics](../reports/campaign-global-report-cja-email.md) de la campagne par e-mail.
+Plus généralement, pour mesurer l’impact de votre plan, vous pouvez vérifier les performances de vos campagnes de préchauffage des adresses IP à l’aide des rapports de campagne [!DNL Journey Optimizer]. Pour ce faire, vous pouvez cliquer sur le bouton **[!UICONTROL Afficher les rapports]** pour chaque exécution effectuée. En savoir plus sur le rapport dynamique [rapport dynamique](../reports/campaign-live-report.md#email-live) et le rapport Customer Journey Analytics [](../reports/campaign-global-report-cja-email.md) des e-mails de campagne.
 
 ![](assets/ip-warmup-plan-reports.png)
 

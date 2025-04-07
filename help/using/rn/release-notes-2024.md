@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: bae533c5-1bfc-48bf-9f8d-1145383c040c
-source-git-commit: 40bef9a05fef1433773a73d546752e84f81b7366
-workflow-type: ht
+source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+workflow-type: tm+mt
 source-wordcount: '6785'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -870,7 +870,7 @@ En savoir plus dans la documentation sur les [fragments de contenu](../content-m
 
 <!--* **Expression fragment** - Expression fragments are now available for the **In-app channel**. [Read more](../personalization/use-expression-fragments.md)-->
 
-* Vous pouvez désormais utiliser le plug-in Edge Delivery pour obtenir les informations nécessaires pour comprendre et résoudre les problèmes liés à vos implémentations entrantes. [En savoir plus sur la vue Edge Delivery](https://experienceleague.adobe.com/fr/docs/experience-platform/assurance/view/edge-delivery){target="_blank"}.
+* Vous pouvez désormais utiliser le plug-in Edge Delivery pour obtenir les informations nécessaires pour comprendre et résoudre les problèmes liés à vos implémentations entrantes. [En savoir plus sur la vue Edge Delivery](https://experienceleague.adobe.com/fr/docs/experience-platform/assurance/view/edge-delivery){target="_blank"}.
 
 
 #### Canal de publipostage direct

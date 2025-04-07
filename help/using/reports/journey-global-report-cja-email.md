@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 82558447-9d42-4fac-8fc1-fded9bf4bfcc
-source-git-commit: 7d1b89ca851442d2a67dda1e5c08d50d74d44028
+source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
 workflow-type: tm+mt
 source-wordcount: '1077'
-ht-degree: 91%
+ht-degree: 86%
 
 ---
 
@@ -38,7 +38,7 @@ Vous pouvez accéder au rapport de parcours d’e-mail en cliquant sur le bouton
 
 Le graphe **[!UICONTROL Tendances diffusés et clics]** présente une analyse détaillée de l’engagement de vos profils vis-à-vis de vos e-mails, offrant des informations précieuses sur l’intéraction de différents domaines avec votre contenu.
 
-+++ En savoir plus sur les mesures de tendance diffusés et clics
++++ En savoir plus sur les mesures de tendance Diffusions / Clics
 
 * **[!UICONTROL Diffusés]** : nombre d’e-mails envoyés avec succès, par rapport au nombre total d’e-mails envoyés.
 
@@ -52,7 +52,7 @@ Le graphe **[!UICONTROL Tendances diffusés et clics]** présente une analyse d�
 
 Le graphe **[!UICONTROL Statut de diffusion]** vous permet de visualiser les performances de vos e-mails en un coup d’œil. Effectuez le suivi des mesures clés telles que les diffusions et les rebonds, afin de comprendre rapidement l’efficacité du parcours de vos e-mails.
 
-+++ En savoir plus sur les mesures de statut de la diffusion.
++++ En savoir plus sur les mesures de statut de la diffusion
 
 * **[!UICONTROL Diffusés]** : nombre d’e-mails envoyés avec succès, par rapport au nombre total d’e-mails envoyés.
 
@@ -70,7 +70,7 @@ Le graphe **[!UICONTROL Statut de diffusion]** vous permet de visualiser les per
 
 Le tableau **[!UICONTROL Statistiques d’envoi]** vous aide à comprendre les performances de vos e-mails dans vos parcours. Il suit des mesures clés telles que les taux de diffusion et les interactions, ce qui vous donne des informations précieuses pour optimiser votre stratégie d’envoi d’e-mails afin d’améliorer la portée et l’engagement.
 
-+++ En savoir plus sur les mesures de statistiques d’envoi
++++ En savoir plus sur les mesures Statistiques d’envoi
 
 * **[!UICONTROL Ciblés]** : nombre total d’e-mails traités lors de la procédure d’envoi.
 
@@ -121,7 +121,7 @@ Le tableau **[!UICONTROL E-mail – Statistiques de tracking]** offre un compte 
 
 Le tableau **[!UICONTROL Domaines des e-mails]** offre une ventilation très détaillée des e-mails classés par domaine, ce qui permet d’obtenir des informations précises sur les mesures de performance des parcours de vos e-mails. Cette analyse exhaustive vous permet de comprendre le comportement de différents domaines en réponse au contenu de vos e-mails.
 
-+++ En savoir plus sur les mesures des domaines d’e-mails
++++ En savoir plus sur les mesures Domaines d’e-mail
 
 * **[!UICONTROL Envois]** : nombre total d’e-mails envoyés.
 
@@ -145,7 +145,7 @@ Le tableau **[!UICONTROL Domaines des e-mails]** offre une ventilation très dé
 
 Le tableau **[!UICONTROL Libellés des liens de suivi]** fournit une vue d’ensemble complète des libellés des liens dans vos e-mails qui attirent le plus de visiteurs et de visiteuses. Cette fonctionnalité vous permet d’identifier et de hiérarchiser les liens les plus populaires.
 
-+++ En savoir plus sur les mesures des libellés des liens de suivi
++++ En savoir plus sur les mesures des libellés des liens suivis
 
 * **[!UICONTROL Clics uniques]** : nombre de profils qui ont cliqué sur un contenu dans un e-mail.
 
@@ -159,7 +159,7 @@ Le tableau **[!UICONTROL Libellés des liens de suivi]** fournit une vue d’ens
 
 Le tableau **[!UICONTROL URL des liens de suivi]** fournit une vue d’ensemble complète des URL de votre e-mail qui attirent le plus de visiteurs et de visiteuses. Cela vous permet d’identifier et de hiérarchiser les liens les plus populaires, ce qui améliore votre compréhension de l’engagement des profils avec du contenu spécifique dans vos e-mails.
 
-+++ En savoir plus sur les mesures des URL des liens de suivi
++++ En savoir plus sur les mesures des URL de liens trackés
 
 * **[!UICONTROL Clics uniques]** : nombre de profils qui ont cliqué sur un contenu dans un e-mail.
 

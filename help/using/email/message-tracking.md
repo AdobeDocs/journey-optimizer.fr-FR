@@ -9,10 +9,10 @@ role: User
 level: Beginner, Intermediate
 keywords: liens, tracking, surveillance, e-mail
 exl-id: 689e630a-00ca-4893-8bf5-6d1ec60c52e7
-source-git-commit: b77cac6ba9984139f7fd5cb761759cafb26ccc48
-workflow-type: ht
+source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+workflow-type: tm+mt
 source-wordcount: '1198'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -65,7 +65,7 @@ Pour insérer des liens dans le contenu de votre e-mail, procédez comme suit :
 
    * Sélectionnez **[!UICONTROL Abonnement/opt-in externe]** pour insérer un lien permettant d’accepter de recevoir des communications de votre marque.
 
-   * Sélectionnez **[!UICONTROL Désabonnement/opt-out externe]** pour insérer un lien permettant de se désabonner des communications de votre marque. En savoir plus sur la gestion des processus d’opt-out dans [cette section](email-opt-out.md#opt-out-management).
+   * Sélectionnez **[!UICONTROL Désabonnement/opt-out externe]** pour insérer un lien permettant de se désabonner des communications de votre marque. En savoir plus sur la gestion des désinscriptions dans [cette section](email-opt-out.md#opt-out-management).
 
    * Sélectionnez **[!UICONTROL Page miroir]** pour ajouter un lien vers la page miroir de l’e-mail. [En savoir plus](#mirror-page).
 

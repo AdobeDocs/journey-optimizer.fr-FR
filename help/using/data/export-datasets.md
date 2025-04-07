@@ -8,10 +8,10 @@ role: User
 level: Beginner
 keywords: platform, lac de données, créer, lac, jeux de données, profil
 exl-id: 66b5c691-ddc4-4e9b-9386-2ce6c307451c
-source-git-commit: 46c4d3081603115db71b01a05f12187cd7e0d34c
-workflow-type: ht
+source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+workflow-type: tm+mt
 source-wordcount: '870'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -67,7 +67,7 @@ Des informations détaillées sur chaque étape sont disponibles dans la [docume
    >
    >Si vous utilisez Adobe Journey Optimizer avec des profils client ou cliente en temps réel, les cartes de destination affichent un bouton **Activer**. Ce bouton vous permet d’exporter des jeux de données et d’activer des audiences pour cette destination, en fonction des autorisations que vous avez activées.
 
-1. **Sélectionnez le ou les jeux de données** que vous souhaitez exporter vers la destination sélectionnée. [En savoir plus sur les jeux de données Journey Optimizer disponibles pour l’export](#datasets)
+1. **Sélectionnez le ou les jeux de données** que vous souhaitez exporter vers la destination sélectionnée. [En savoir plus sur les jeux de données Journey Optimizer disponibles à l’exportation](#datasets)
 
    <!--![](assets/dataset-export-dataset-selection.png)-->
 

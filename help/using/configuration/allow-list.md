@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: liste autorisée, liste, sécurisé, configuration
 exl-id: 70ab8f57-c132-4de1-847b-11f0ab14f422
-source-git-commit: a7347c57bb82de5181df87e8ab816de392ef97a3
+source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
 workflow-type: tm+mt
 source-wordcount: '1145'
-ht-degree: 100%
+ht-degree: 96%
 
 ---
 
@@ -28,7 +28,7 @@ La liste autorisée vous permet de spécifier des adresses e-mail ou des domaine
 
 Par exemple, sur une instance hors production, où des erreurs peuvent se produire, la liste autorisée garantit que vous ne risquez pas d’envoyer des messages indésirables à de vraies adresses client et fournit donc un environnement sécurisé à des fins de test.
 
-De plus, lorsque la liste autorisée est active mais vide, aucun e-mail ne sera envoyé. Par conséquent, si vous rencontrez un problème majeur, vous pouvez utiliser cette fonctionnalité pour arrêter toutes les communications sortantes depuis [!DNL Journey Optimizer] jusqu’à ce que vous résolviez le problème. En savoir plus sur la [logique de liste autorisée](#logic).
+De plus, lorsque la liste autorisée est active mais vide, aucun e-mail ne sera envoyé. Par conséquent, si vous rencontrez un problème majeur, vous pouvez utiliser cette fonctionnalité pour arrêter toutes les communications sortantes depuis [!DNL Journey Optimizer] jusqu’à ce que vous résolviez le problème. En savoir plus sur la logique de liste autorisée [](#logic).
 
 En outre, vous pouvez tirer parti de l’**API REST de suppression** Journey Optimizer pour contrôler vos messages sortants à l’aide des listes de suppression et des listes autorisées. [Découvrez comment utiliser l’API REST de suppression.](https://developer.adobe.com/journey-optimizer-apis/references/suppression/){target="_blank"}
 
@@ -40,7 +40,7 @@ Pour accéder à la liste détaillée des adresses e-mail et domaines autorisés
 
 >[!CAUTION]
 >
->Les autorisations d’affichage, d’export et de gestion de la liste autorisée sont limitées aux [Administrateurs de Journey](../administration/ootb-product-profiles.md#journey-administrator). Pour en savoir plus sur la gestion des droits d’accès des utilisateurs [!DNL Journey Optimizer], consultez [cette section](../administration/permissions-overview.md).
+>Les autorisations d’affichage, d’export et de gestion de la liste autorisée sont limitées aux [Administrateurs de Journey](../administration/ootb-product-profiles.md#journey-administrator). En savoir plus sur la gestion des droits d’accès des utilisateurs [!DNL Journey Optimizer] dans [cette section](../administration/permissions-overview.md).
 
 Pour exporter la liste autorisée au format CSV, cliquez sur le bouton **[!UICONTROL Télécharger CSV]**.
 
@@ -152,7 +152,7 @@ Pour renseigner la liste autorisée, vous pouvez également appeler l’API de s
 
 Vous pouvez effectuer les opérations **Ajouter**, **Supprimer** et **Obtenir**.
 
-Pour en savoir plus sur l’émission d’appels d’API, consultez la documentation de référence des [API Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-apis/api-guide.html?lang=fr){target="_blank"}.
+Pour en savoir plus sur l’émission d’appels d’API, consultez la documentation de référence API Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-apis/api-guide.html?lang=fr){target="_blank"} [.
 
 ## Télécharger la liste autorisée {#download-allowed-list}
 
@@ -201,7 +201,7 @@ Lorsque la liste autorisée est [activée](#enable-allow-list), la logique suiva
 >
 >Les profils avec le statut **[!UICONTROL Non autorisé]** sont exclus pendant le processus d’envoi du message. Par conséquent, bien que les **rapports de parcours** indiquent que ces profils ont traversé le parcours ([Lecture d’audience](../building-journeys/read-audience.md) et [activités de message](../building-journeys/journeys-message.md)), les **rapports d’e-mails** ne les incluront pas dans les mesures **[!UICONTROL Envoyé]** étant donné qu’ils sont filtrés avant l’envoi des e-mails.
 >
->En savoir plus sur le [rapport dynamique](../reports/live-report.md) et le [rapport Customer Journey Analytics](../reports/report-gs-cja.md).
+>En savoir plus sur le [Rapport dynamique](../reports/live-report.md) et le [rapport Customer Journey Analytics](../reports/report-gs-cja.md).
 
 Lorsque la liste autorisée est [désactivée](#deactivate-allow-list), tous les e-mails que vous envoyez à partir du sandbox actuel sont envoyés à tous les destinataires (à condition qu’ils ne figurent pas dans la liste de suppression), y compris les adresses réelles des clients.
 

@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 33b6cc18-dd63-48d9-8d85-526500d83d37
-source-git-commit: 7d1b89ca851442d2a67dda1e5c08d50d74d44028
+source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
 workflow-type: tm+mt
 source-wordcount: '385'
-ht-degree: 95%
+ht-degree: 90%
 
 ---
 
@@ -35,7 +35,7 @@ Vous pouvez accéder à votre rapport de parcours basé sur le code en cliquant 
 
 Les graphiques **[!UICONTROL Affichages et clics]** présentent une analyse détaillée de l’engagement de vos profils avec vos expériences basées sur du code, offrant des informations précieuses sur la manière dont les profils interagissent avec votre contenu.
 
-+++ En savoir plus sur les mesures des impressions et des clics
++++ En savoir plus sur les mesures Impression et Clic .
 
 * **[!UICONTROL Clics uniques]** : nombre de profils qui ont cliqué sur un contenu dans vos expériences.
 
@@ -53,7 +53,7 @@ Les graphiques **[!UICONTROL Affichages et clics]** présentent une analyse dét
 
 Le tableau **[!UICONTROL Données de suivi]** offre un instantané détaillé de l’activité de profil liée à vos expériences basées sur du code, fournissant des informations essentielles sur l’engagement et l’efficacité des expériences.
 
-+++ En savoir plus sur les mesures de données de suivi
++++ En savoir plus sur les mesures de données de tracking
 
 * **[!UICONTROL Personnes]** : nombre de profils d’utilisateurs et d’utilisatrices qui sont qualifiés en tant que profils cibles pour vos expériences.
 
@@ -73,7 +73,7 @@ Le tableau **[!UICONTROL Données de suivi]** offre un instantané détaillé de
 
 Le tableau **[!UICONTROL Libellés des liens de suivi]** fournit une vue d’ensemble complète des libellés des liens dans vos expériences basées sur du code qui génèrent le plus de trafic de visiteurs et de visiteuses. Cette fonctionnalité vous permet d’identifier et de hiérarchiser les liens les plus populaires.
 
-+++ En savoir plus sur les mesures des libellés des liens de suivi
++++ En savoir plus sur les mesures des libellés des liens suivis
 
 * **[!UICONTROL Clics uniques]** : nombre de profils qui ont cliqué sur un contenu dans vos expériences basées sur du code.
 

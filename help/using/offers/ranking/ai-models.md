@@ -7,10 +7,10 @@ feature: Ranking, Decision Management
 role: User
 level: Intermediate
 exl-id: 4f7f7d1d-a12a-4ff6-b0ff-1a1c3d305a9d
-source-git-commit: 260b9ec0a70526ac37da444e183fc1d01b97b22b
+source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
 workflow-type: tm+mt
 source-wordcount: '371'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 

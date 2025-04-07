@@ -1,14 +1,14 @@
 ---
 title: Mécanismes de sécurisation et limitations des prises de décision
-description: En savoir plus sur les mécanismes de sécurisation et sur les limitations de la prise de décision
+description: En savoir plus sur les mécanismes de sécurisation et les limitations de Decisioning.
 feature: Decisioning
 role: User
 level: Intermediate
 exl-id: 73548973-ff8d-4d6c-b383-dd3679fa159a
-source-git-commit: c3d256fcd06eb096a589d1154a0a4c97462005a9
-workflow-type: ht
+source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+workflow-type: tm+mt
 source-wordcount: '209'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 

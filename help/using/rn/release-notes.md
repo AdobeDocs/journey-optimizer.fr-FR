@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Notes de mise à jour d’Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 50491d039f2baf8c30a6af0c1b59fe9041244ac7
+source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
 workflow-type: tm+mt
 source-wordcount: '758'
-ht-degree: 65%
+ht-degree: 63%
 
 ---
 
@@ -200,7 +200,7 @@ Pour plus d’informations, consultez la [documentation détaillée](../test-app
 
 **Règles métier**
 
-Vous pouvez désormais utiliser le capping de la fréquence quotidienne dans les parcours et les campagnes avec la segmentation par lots. Pour garantir la précision des règles de capping de la fréquence quotidienne, veillez à choisir l’espace de noms de priorité la plus élevée lors de la création d’une campagne ou d’un parcours. Pour en savoir plus sur la priorité des espaces de noms, consultez le [guide sur le service d’identités Platform.](https://experienceleague.adobe.com/fr/docs/experience-platform/identity/features/identity-graph-linking-rules/namespace-priority){target="_blank"}
+Vous pouvez désormais utiliser le capping de la fréquence quotidienne dans les parcours et les campagnes avec la segmentation par lots. Pour garantir la précision des règles de capping de la fréquence quotidienne, veillez à choisir l’espace de noms de priorité la plus élevée lors de la création d’une campagne ou d’un parcours. Pour en savoir plus sur la priorité des espaces de noms, consultez le guide [ Platform Identity Service ](https://experienceleague.adobe.com/fr/docs/experience-platform/identity/features/identity-graph-linking-rules/namespace-priority){target="_blank"}
 
 Pour rappel, le capping de la fréquence quotidienne dans les ensembles de règles n’est disponible que pour un ensemble d’organisations (disponibilité limitée). Pour en bénéficier, contactez votre représentant ou représentante Adobe.
 

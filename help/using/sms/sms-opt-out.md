@@ -8,16 +8,16 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 59ea67d9-e90c-4ad0-afb9-d0e0fd868855
-source-git-commit: 478706e893354d59be5d2010da84546aa4385d99
+source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
 workflow-type: tm+mt
 source-wordcount: '516'
-ht-degree: 90%
+ht-degree: 89%
 
 ---
 
 # Gestion des droits d’opposition pour les messages texte {#sms-opt-out}
 
-Conformément aux normes et réglementations du secteur, tous les messages SMS de marketing doivent contenir un moyen permettant aux destinataires de se désabonner facilement. [En savoir plus sur la gestion de la confidentialité et de la désinscription](../privacy/opt-out.md)
+Conformément aux normes et réglementations du secteur, tous les messages SMS de marketing doivent contenir un moyen permettant aux destinataires de se désabonner facilement. [En savoir plus sur la gestion de la confidentialité et du processus de désinscription](../privacy/opt-out.md)
 
 >[!IMPORTANT]
 >

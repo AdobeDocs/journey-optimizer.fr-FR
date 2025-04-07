@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: liste de contrôle, contrôle, configuration
 exl-id: 0172f6bc-da8b-4a83-a0fc-4ed41324568f
-source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
+source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
 workflow-type: tm+mt
 source-wordcount: '959'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -57,7 +57,7 @@ Pour accéder aux listes de contrôle déjà créées, accédez à **[!UICONTROL
 <!--
 >[!CAUTION]
 >
->Permissions to view, export and manage the seed lists are restricted to [Journey Administrators](../administration/ootb-product-profiles.md#journey-administrator). Learn more on managing [!DNL Journey Optimizer] users' access rights in [this section](../administration/permissions-overview.md).-->
+>Permissions to view, export and manage the seed lists are restricted to [Journey Administrators](../administration/ootb-product-profiles.md#journey-administrator). Learn more about managing [!DNL Journey Optimizer] users' access rights in [this section](../administration/permissions-overview.md).-->
 
 >[!CAUTION]
 >
@@ -73,7 +73,7 @@ Utilisez le bouton **[!UICONTROL Supprimer]** pour supprimer définitivement une
 
 >[!CAUTION]
 >
->Il n’est pas possible de supprimer une liste de contrôle utilisée dans une [campagne](../campaigns/review-activate-campaign.md) active ou un [parcours](../building-journeys/publishing-the-journey.md) actif. Vous devez désactiver la campagne/le parcours ou le modifier pour utiliser une autre configuration dans laquelle la liste de contrôle n’est pas sélectionnée. [En savoir plus sur l’utilisation d’une liste de contrôle](#use-seed-list).
+>Il n’est pas possible de supprimer une liste de contrôle utilisée dans une [campagne](../campaigns/review-activate-campaign.md) active ou un [parcours](../building-journeys/publishing-the-journey.md) actif. Vous devez désactiver la campagne/le parcours ou le modifier pour utiliser une autre configuration dans laquelle la liste de contrôle n’est pas sélectionnée. [En savoir plus sur l’utilisation d’une liste de contrôle](#use-seed-list)
 
 Vous pouvez cliquer sur le nom d’une liste de contrôle pour l’éditer. <!--Use the **[!UICONTROL Edit]** button to edit a seed list.-->
 

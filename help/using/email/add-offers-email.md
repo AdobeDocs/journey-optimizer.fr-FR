@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: offres, décision, e-mails, personnalisation, décision
 exl-id: 1e648eca-b5ca-4767-b45d-c179243e347f
-source-git-commit: 27447578dad6bd2612989d79cd0dc8ddbe78d629
+source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
 workflow-type: tm+mt
 source-wordcount: '622'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
@@ -97,7 +97,7 @@ Pour afficher les différentes offres qui font partie de la décision avec un pr
 
    Vous pouvez sélectionner d’autres profils de test pour prévisualiser le contenu des e-mails pour chaque variante de votre message. Dans le contenu du message, l’offre correspondant au profil de test sélectionné (désormais un homme) s’affiche maintenant.
 
-Pour en savoir plus sur les étapes détaillées permettant de vérifier l’aperçu du message, consultez [cette section](#preview-your-messages).
+En savoir plus sur les étapes détaillées pour vérifier la prévisualisation du message dans [cette section](#preview-your-messages).
 
 ## Vidéo pratique{#video-offers}
 

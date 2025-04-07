@@ -9,10 +9,10 @@ role: User
 level: Beginner
 keywords: prise en main, commencer, contenu, expérience
 exl-id: 7fe4b24e-f60a-4107-a064-00010b0cbbfc
-source-git-commit: 102ea61835144b274c018b28881cacdb5ebba1fa
-workflow-type: ht
+source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+workflow-type: tm+mt
 source-wordcount: '2004'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -58,7 +58,7 @@ Les mesures d’objectif peuvent être regroupées en deux classes principales 
 * Mesures directes : l’utilisateur réagit directement au traitement, par exemple en ouvrant un e-mail ou en cliquant sur un lien.
 * Mesures indirectes ou « au bas de l’entonnoir », qui se produisent une fois que l’utilisateur a été exposé au traitement.
 
-Pour les mesures objectives directes dans lesquelles Adobe Journey Optimizer effectue le suivi de vos messages, les événements de réponse des utilisateurs finaux sont automatiquement balisés avec les identifiants de la campagne et du traitement, ce qui permet une association directe de la mesure de réponse à un traitement. [En savoir plus sur le suivi](../email/message-tracking.md).
+Pour les mesures objectives directes dans lesquelles Adobe Journey Optimizer effectue le suivi de vos messages, les événements de réponse des utilisateurs finaux sont automatiquement balisés avec les identifiants de la campagne et du traitement, ce qui permet une association directe de la mesure de réponse à un traitement. [En savoir plus sur le tracking](../email/message-tracking.md).
 
 ![](assets/technote_2.png)
 

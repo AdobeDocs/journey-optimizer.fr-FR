@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: suppression, liste, rebond, e-mail, optimizer, quarantaine
 exl-id: 430a2cd4-781d-4d37-a75d-405f5ed82377
-source-git-commit: d108d449786d9c3aa3e95aefc1bca07292cd690d
-workflow-type: ht
+source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+workflow-type: tm+mt
 source-wordcount: '1599'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -22,7 +22,7 @@ Avec [!DNL Journey Optimizer], vous pouvez surveiller toutes les adresses e-mail
 
 Ces adresses e-mail sont automatiquement collectées dans la **liste de suppression** de Journey Optimizer. Une liste de suppression se compose d’adresses et de domaines à exclure de vos audiences. Elle rassemble les adresses e-mail et les domaines supprimés de tous les mailings dans un seul environnement client, c’est-à-dire spécifiques à un ID d’organisation associé à un ID de sandbox.
 
-Pour en savoir plus sur le concept et l’utilisation de la liste de suppression, consultez [cette section](../reports/suppression-list.md).
+En savoir plus sur le concept et l’utilisation de la liste de suppression dans [cette section](../reports/suppression-list.md).
 
 >[!NOTE]
 >
@@ -39,7 +39,7 @@ Pour accéder à la liste détaillée des adresses e-mail et domaines exclus, ac
 
 >[!CAUTION]
 >
->Les autorisations d’affichage, d’export et de gestion de la liste de suppression sont limitées aux [Administrateurs de Journey](../administration/ootb-product-profiles.md#journey-administrator). Pour en savoir plus sur la gestion des droits d’accès des utilisateurs [!DNL Journey Optimizer], consultez [cette section](../administration/permissions-overview.md).
+>Les autorisations d’affichage, d’export et de gestion de la liste de suppression sont limitées aux [Administrateurs de Journey](../administration/ootb-product-profiles.md#journey-administrator). En savoir plus sur la gestion des droits d’accès des utilisateurs [!DNL Journey Optimizer] dans [cette section](../administration/permissions-overview.md).
 
 
 Des filtres sont disponibles pour vous aider à parcourir la liste.

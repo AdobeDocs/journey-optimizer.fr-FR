@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 6fae8beb-ca40-40a1-8939-c309fbf46c4f
-source-git-commit: 7d1b89ca851442d2a67dda1e5c08d50d74d44028
+source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
 workflow-type: tm+mt
 source-wordcount: '353'
-ht-degree: 95%
+ht-degree: 91%
 
 ---
 
@@ -31,7 +31,7 @@ Vous pouvez accéder à votre rapport de parcours Courrier en cliquant sur le bo
 
 Le tableau **[!UICONTROL Statistiques d’envoi]** vous aide à comprendre les performances de vos parcours de publipostage direct. Consultez les mesures clés telles que le nombre de personnes ciblées et de pièces diffusées avec succès afin d’évaluer la portée et l’efficacité de vos envois.
 
-+++ En savoir plus sur les mesures de statistiques d’envoi
++++ En savoir plus sur les mesures Statistiques d’envoi
 
 * **[!UICONTROL Personnes]** : nombre de profils d’utilisateurs et d’utilisatrices qui sont qualifiés en tant que profils cibles pour vos messages.
 
@@ -53,7 +53,7 @@ Le tableau **[!UICONTROL Statistiques d’envoi]** vous aide à comprendre les p
 
 Le graphique **[!UICONTROL Statut de diffusion]** fournit une vue complète des données relatives aux messages de publipostage direct envoyés dans le cadre de votre parcours, offrant des informations sur les mesures clés telles que les diffusions et les erreurs. Cela permet une analyse détaillée du processus d’envoi des messages de publipostage direct, fournissant des informations précieuses sur l’efficacité et les performances de vos parcours.
 
-+++ En savoir plus sur les mesures de statut de la diffusion.
++++ En savoir plus sur les mesures de statut de la diffusion
 
 * **[!UICONTROL Diffusés]** : nombre de messages de publipostage direct envoyés avec succès, par rapport au nombre total de messages de publipostage direct envoyés.
 

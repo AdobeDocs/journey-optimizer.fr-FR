@@ -8,10 +8,10 @@ feature: Web Channel, Subdomains
 level: Experienced
 keywords: web, sous-domaines, configuration
 exl-id: 6e00466d-4ce5-4d80-89ff-c7331a5ab158
-source-git-commit: ccfc0870a8d59d16c7f5b6b02856785aa28dd307
-workflow-type: ht
+source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+workflow-type: tm+mt
 source-wordcount: '894'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 

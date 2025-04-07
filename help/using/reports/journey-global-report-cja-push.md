@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 6d4b7669-7852-42f0-9347-399a3994011f
-source-git-commit: 7d1b89ca851442d2a67dda1e5c08d50d74d44028
+source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
 workflow-type: tm+mt
 source-wordcount: '542'
-ht-degree: 93%
+ht-degree: 89%
 
 ---
 
@@ -31,7 +31,7 @@ Vous pouvez accéder à votre rapport de parcours de notification push en cliqua
 
 Le tableau **[!UICONTROL Statistiques d’envoi]** vous aide à comprendre les performances de vos notifications push. Il comprend des mesures clés telles que le taux de diffusion et la taille de l’audience, ce qui vous donne des informations précieuses sur l’efficacité et la portée de vos parcours.
 
-+++ En savoir plus sur les mesures de statistiques d’envoi
++++ En savoir plus sur les mesures Statistiques d’envoi
 
 * **[!UICONTROL Personnes]** : nombre de profils d’utilisateurs et d’utilisatrices qui sont qualifiés en tant que profils cibles pour vos SMS.
 
@@ -74,7 +74,7 @@ Le tableau **[!UICONTROL Statistiques de suivi]** offre un instantané détaill�
 
 Le tableau **[!UICONTROL Libellés des liens de suivi]** fournit une vue d’ensemble complète des libellés des liens dans vos notifications push, mettant en évidence celles qui attirent le plus de visiteurs et de visiteuses. Cette fonctionnalité vous permet d’identifier et de hiérarchiser les liens les plus populaires.
 
-+++ En savoir plus sur les mesures des libellés des liens de suivi
++++ En savoir plus sur les mesures des libellés des liens suivis
 
 * **[!UICONTROL Clics uniques]** : nombre de profils qui ont cliqué sur un contenu dans vos notifications push.
 
@@ -88,7 +88,7 @@ Le tableau **[!UICONTROL Libellés des liens de suivi]** fournit une vue d’ens
 
 Le tableau **[!UICONTROL URL des liens de suivi]** fournit une vue d’ensemble complète des URL de vos notifications push qui attirent le plus de visiteurs et de visiteuses. Cela vous permet d’identifier et de hiérarchiser les liens les plus populaires, ce qui améliore votre compréhension de l’engagement des profils avec du contenu spécifique dans vos notifications push.
 
-+++ En savoir plus sur les mesures des URL des liens de suivi
++++ En savoir plus sur les mesures des URL de liens trackés
 
 * **[!UICONTROL Clics uniques]** : nombre de profils qui ont cliqué sur un contenu dans vos notifications push.
 

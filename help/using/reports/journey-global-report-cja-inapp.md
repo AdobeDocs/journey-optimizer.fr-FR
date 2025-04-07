@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: f10b3ab9-db0a-4759-98e4-2ac1988eb8c4
-source-git-commit: 7d1b89ca851442d2a67dda1e5c08d50d74d44028
+source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
 workflow-type: tm+mt
 source-wordcount: '611'
-ht-degree: 86%
+ht-degree: 81%
 
 ---
 
@@ -47,7 +47,7 @@ Le graphique **[!UICONTROL Tendance d’affichage et de clic]** présente une an
 
 Le graphe **[!UICONTROL Clics]** affiche les mesures des clics in-app, qui illustrent à la fois le nombre total de clics sur le contenu et le nombre de profils uniques ayant cliqué sur le contenu.
 
-+++ En savoir plus sur les mesures de clics
++++ En savoir plus sur les mesures Clics
 
 * **[!UICONTROL Clics uniques]** : nombre de profils qui ont cliqué sur un contenu dans vos messages in-app.
 
@@ -59,7 +59,7 @@ Le graphe **[!UICONTROL Clics]** affiche les mesures des clics in-app, qui illus
 
 Le graphique **[!UICONTROL Affichages]** vous permet de comprendre à la fois la portée globale du message et le nombre de profils uniques qui interagissent avec lui.
 
-+++ En savoir plus sur les mesures d’affichage
++++ En savoir plus sur les mesures Affichage
 
 * **[!UICONTROL Affichages]** : nombre d’ouvertures du message.
 
@@ -71,7 +71,7 @@ Le graphique **[!UICONTROL Affichages]** vous permet de comprendre à la fois la
 
 Le tableau **[!UICONTROL Données de suivi]** offre un instantané détaillé de l’activité de profil liée à vos messages in-app, fournissant des informations essentielles sur l’engagement et l’efficacité des messages in-app.
 
-+++ En savoir plus sur les mesures de données de suivi
++++ En savoir plus sur les mesures de données de tracking
 
 * **[!UICONTROL Personnes]** : nombre de profils d’utilisateurs et d’utilisatrices qui sont qualifiés en tant que profils cibles pour vos messages in-app.
 
@@ -101,7 +101,7 @@ Le tableau **[!UICONTROL Données de suivi]** offre un instantané détaillé de
 
 Le tableau **[!UICONTROL Libellés des liens de suivi]** fournit une vue d’ensemble complète des libellés des liens dans vos messages in-app qui attirent le plus de visiteurs et de visiteuses. Cette fonctionnalité vous permet d’identifier et de hiérarchiser les liens les plus populaires.
 
-+++ En savoir plus sur les mesures des libellés des liens de suivi
++++ En savoir plus sur les mesures des libellés des liens suivis
 
 * **[!UICONTROL Clics uniques]** : nombre de profils qui ont cliqué sur un contenu dans vos messages in-app.
 
@@ -119,7 +119,7 @@ Le tableau **[!UICONTROL Libellés des liens de suivi]** fournit une vue d’ens
 
 Le tableau **[!UICONTROL URL des liens de suivi]** fournit une vue d’ensemble complète des URL de vos messages in-app qui attirent le plus de visiteurs et de visiteuses. Cela vous aide à détecter les liens les plus populaires et à les hiérarchiser, améliorant ainsi votre compréhension de l’engagement des profils avec un contenu spécifique dans vos messages in-app.
 
-+++ En savoir plus sur les mesures des URL des liens de suivi
++++ En savoir plus sur les mesures des URL de liens trackés
 
 * **[!UICONTROL Clics uniques]** : nombre de profils qui ont cliqué sur un contenu dans vos messages in-app.
 

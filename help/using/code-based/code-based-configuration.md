@@ -6,10 +6,10 @@ topic: Content Management
 role: Admin
 level: Experienced
 exl-id: 1aff2f6f-914c-4088-afd8-58bd9edfe07d
-source-git-commit: 9ea7f2c76cc09949bb4467d5b9b2c19550f9975e
-workflow-type: ht
+source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+workflow-type: tm+mt
 source-wordcount: '1073'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -76,7 +76,7 @@ Vous pouvez maintenant sélectionner cette configuration lors de la [création d
 
 >[!NOTE]
 >
->Votre équipe d’implémentation d’application est chargée d’effectuer des appels d’API ou de SDK explicites pour récupérer du contenu pour les surfaces définies dans la configuration d’expérience basée sur du code sélectionnée. Pour en savoir plus sur les différentes implémentations clientes, consultez [cette section](code-based-implementation-samples.md).
+>Votre équipe d’implémentation d’application est chargée d’effectuer des appels d’API ou de SDK explicites pour récupérer du contenu pour les surfaces définies dans la configuration d’expérience basée sur du code sélectionnée. En savoir plus sur les différentes implémentations client dans [cette section](code-based-implementation-samples.md).
 
 ### Plateformes web {#web}
 

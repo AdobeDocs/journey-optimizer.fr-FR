@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: archive, messages, HIPAA, CCI, e-mails
 exl-id: 186a5044-80d5-4633-a7a7-133e155c5e9f
-source-git-commit: 47482adb84e05fe41eb1c50479a8b50e00469ec4
+source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
 workflow-type: tm+mt
 source-wordcount: '1337'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
@@ -113,7 +113,7 @@ Pour ce faire, suivez les étapes ci-après.
 
 >[!NOTE]
 >
->Pour en savoir plus sur la gestion de la confidentialité et les réglementations applicables, consultez la [documentation Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=fr){target="_blank"}.
+>Pour en savoir plus sur la gestion de la confidentialité et les réglementations applicables, consultez la [documentation d’Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=fr){target="_blank"}.
 
 ### Données de reporting en Cci {#bcc-reporting}
 

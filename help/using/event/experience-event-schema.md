@@ -9,10 +9,10 @@ role: Data Engineer, Data Architect, Admin
 level: Intermediate, Experienced
 keywords: schémas, XDM, platform, en flux continu, ingestion, parcours
 exl-id: f19749c4-d683-4db6-bede-9360b9610eef
-source-git-commit: 7c55cc25fe1286d466f2de719aa42dcb76154881
+source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
 workflow-type: tm+mt
 source-wordcount: '831'
-ht-degree: 98%
+ht-degree: 96%
 
 ---
 
@@ -72,7 +72,7 @@ Voici le schéma d&#39;achat avec la relation définie dans le champ Identifiant
 
 >[!NOTE]
 >
->Pour en savoir plus sur les relations de schéma, consultez la [documentation Experience Platform](https://experienceleague.adobe.com/docs/platform-learn/tutorials/schemas/configure-relationships-between-schemas.html?lang=fr).
+>En savoir plus sur les relations de schéma dans la documentation d’[Experience Platform](https://experienceleague.adobe.com/docs/platform-learn/tutorials/schemas/configure-relationships-between-schemas.html?lang=fr).
 
 Dans Journey Optimizer, vous pouvez ensuite exploiter tous les champs des tables liées :
 

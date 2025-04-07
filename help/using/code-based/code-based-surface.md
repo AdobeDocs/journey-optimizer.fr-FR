@@ -6,10 +6,10 @@ topic: Content Management
 role: Admin
 level: Experienced
 exl-id: 07ec74fb-7fbc-48c6-a8fc-f58f24a60723
-source-git-commit: f247ef3c3cd7d1d270893ae6bf88fadf3932d05e
+source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
 workflow-type: tm+mt
 source-wordcount: '728'
-ht-degree: 100%
+ht-degree: 96%
 
 ---
 
@@ -77,7 +77,7 @@ Dans [!DNL Journey Optimizer], le canal d’expérience basé sur du code prend 
 
 >[!NOTE]
 >
->Pour en savoir plus sur les conditions préalables à l’implémentation, consultez [cette section](code-based-prerequisites.md#implementation-prerequisites).
+>En savoir plus sur les conditions préalables à l’implémentation dans [cette section](code-based-prerequisites.md#implementation-prerequisites).
 
 À l’aide d’expériences basées sur du code, vous pouvez modifier du contenu dans des emplacements granulaires <!--(such as a specific location on a page, or inside a mobile native app)-->, identifiés de manière unique par [!DNL Journey Optimizer] à l’aide d’[URI de surface](#surface-uri).
 
@@ -91,4 +91,4 @@ C’est ainsi que, lors de la création d’une [configuration de canal d’exp�
 
 * Pour les plateformes **[!UICONTROL Web]**, **[!UICONTROL iOS]** et **[!UICONTROL Android]**, vous devez saisir **l’URL/l’identifiant de l’application** et un **emplacement ou un chemin** pour composer la surface. En savoir plus sur la configuration des expériences basées sur du code pour les plateformes [web](code-based-configuration.md#web) et [mobiles](code-based-configuration.md#mobile)
 
-* Si la plateforme est **[!UICONTROL Autre]**, vous devez saisir l’**URI de surface** complet, comme dans les exemples [ci-dessus](#surface-uri). En savoir plus sur la configuration d’expériences basées sur du code pour les [autres](code-based-configuration.md#other) plateformes
+* Si la plateforme est **[!UICONTROL Autre]**, vous devez saisir l’**URI de surface** complet, comme dans les exemples [ci-dessus](#surface-uri). En savoir plus sur la configuration des expériences basées sur du code pour les [autres](code-based-configuration.md#other) plateformes

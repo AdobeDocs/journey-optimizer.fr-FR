@@ -9,10 +9,10 @@ role: User
 level: Beginner
 keywords: destination, page de destination, création, page, formulaire, composant
 exl-id: 5bf023b4-4218-4110-b171-3e70e0507fca
-source-git-commit: bcccc7b385f031fba2c2b57ec62cae127eda8466
+source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
 workflow-type: tm+mt
 source-wordcount: '1308'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -81,7 +81,7 @@ Pour définir un contenu spécifique qui permettra aux utilisateurs et utilisatr
 
    ![](assets/lp_designer-form-update-options.png)
 
-   * **[!UICONTROL Liste dʼabonnements]** : vous devez sélectionner la liste dʼabonnements à mettre à jour si le profil coche cette case. En savoir plus sur les [listes dʼabonnements](subscription-list.md).
+   * **[!UICONTROL Liste dʼabonnements]** : vous devez sélectionner la liste dʼabonnements à mettre à jour si le profil coche cette case. En savoir plus sur les [ listes d’abonnements ](subscription-list.md).
 
      <!--![](assets/lp_designer-form-subs-list.png)-->
 

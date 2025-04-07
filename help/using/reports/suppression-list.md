@@ -8,10 +8,10 @@ topic: Content Management
 role: Admin
 level: Intermediate, Experienced
 exl-id: a4653378-b70f-454c-a446-ab4a14d2580a
-source-git-commit: 47482adb84e05fe41eb1c50479a8b50e00469ec4
+source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
 workflow-type: tm+mt
 source-wordcount: '830'
-ht-degree: 94%
+ht-degree: 89%
 
 ---
 
@@ -41,25 +41,25 @@ Les destinataires dont les adresses e-mail sont supprimées sont automatiquement
 
 Les adresses sont ajoutées à la liste de suppression comme suit :
 
-* Tous les **rebonds définitifs** et **plaintes relatives aux spams** envoient automatiquement les adresses correspondantes à la liste de suppression après une seule occurrence. Pour en savoir plus sur les plaintes relatives aux spams, consultez [cette section](#spam-complaints).
+* Tous les **rebonds définitifs** et **plaintes relatives aux spams** envoient automatiquement les adresses correspondantes à la liste de suppression après une seule occurrence. En savoir plus sur les plaintes contre le spam dans [cette section](#spam-complaints).
 
 * Les **rebonds temporaires** n’envoient pas immédiatement l’adresse à la liste de suppression, mais incrémentent un compteur d’erreurs. Plusieurs [reprises](../configuration/retries.md) sont alors effectuées, et lorsque le compteur d’erreurs atteint le seuil, l’adresse est ajoutée à la liste de suppression.
 
 * Vous pouvez également ajouter [**manuellement** une adresse ou un domaine](../configuration/manage-suppression-list.md#add-addresses-and-domains) à la liste de suppression.
 
-Pour en savoir plus sur les rebonds définitifs et les rebonds temporaires, consultez [cette section](#delivery-failures).
+En savoir plus sur les hard bounces et les soft bounces dans [cette section](#delivery-failures).
 
 >[!NOTE]
 >
->Les adresses des utilisateurs désabonnés ne peuvent pas être envoyées à la liste de suppression, car ils ne reçoivent pas d&#39;e-mails de [!DNL Journey Optimizer]. Leur choix est géré au niveau d&#39;Experience Platform. En savoir plus sur la [désinscription](../privacy/opt-out.md).
+>Les adresses des utilisateurs désabonnés ne peuvent pas être envoyées à la liste de suppression, car ils ne reçoivent pas d&#39;e-mails de [!DNL Journey Optimizer]. Leur choix est géré au niveau d&#39;Experience Platform. En savoir plus sur la [opt-out](../privacy/opt-out.md).
 
-Pour chaque adresse, la raison de base de la suppression et la catégorie de suppression (soft, hard, etc.) s&#39;affichent dans la liste de suppression. Pour en savoir plus sur l&#39;accès et la gestion de la liste de suppression, voir [cette section](../configuration/manage-suppression-list.md).
+Pour chaque adresse, la raison de base de la suppression et la catégorie de suppression (soft, hard, etc.) s&#39;affichent dans la liste de suppression. En savoir plus sur l’accès et la gestion de la liste de suppression dans [cette section](../configuration/manage-suppression-list.md).
 
 >[!NOTE]
 >
 >Les profils ayant le statut **[!UICONTROL Supprimé]** sont exclus pendant le processus d’envoi du message. Par conséquent, bien que les **rapports de parcours** indiquent que ces profils ont traversé le parcours ([Lecture d’audience](../building-journeys/read-audience.md) et [activités de message](../building-journeys/journeys-message.md)), les **Rapports d’e-mails** ne les incluront pas dans les mesures **[!UICONTROL Envoyé]** étant donné qu’ils sont filtrés avant l’envoi des e-mails.
 >
->En savoir plus sur le [Rapport dynamique](../reports/live-report.md) et le [Rapport Customer Journey Analytics](../reports/report-gs-cja.md). Pour connaître la raison de tous les cas d’exclusion, vous pouvez utiliser le [service de requête d’Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html?lang=fr){target="_blank"}.
+>En savoir plus sur le [Rapport dynamique](../reports/live-report.md) et le [rapport Customer Journey Analytics](../reports/report-gs-cja.md). Pour connaître la raison de tous les cas d’exclusion, vous pouvez utiliser le [service de requête d’Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html?lang=fr){target="_blank"}.
 
 ### Échecs de diffusion {#delivery-failures}
 

@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: b74d3137-2dd9-4302-a56e-73503d318d18
-source-git-commit: 7d1b89ca851442d2a67dda1e5c08d50d74d44028
+source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
 workflow-type: tm+mt
 source-wordcount: '490'
-ht-degree: 95%
+ht-degree: 90%
 
 ---
 
@@ -33,7 +33,7 @@ Les indicateurs clés de performances (KPI) **[!UICONTROL Campagne]** fonctionn
 
 Les KPI varient en fonction des canaux utilisés dans votre campagne.
 
-+++ En savoir plus sur les mesures des KPI de campagne
++++ En savoir plus sur les mesures des KPI de Campaign
 
 * **[!UICONTROL Taux de clics]** : pourcentage d’utilisateurs et d’utilisatrices ayant interagi avec le message.
 
@@ -53,7 +53,7 @@ Le tableau **[!UICONTROL Vue d’ensemble de la campagne]** constitue un tableau
 
 Notez que les mesures varient en fonction des canaux utilisés dans votre campagne.
 
-+++ En savoir plus sur les mesures de vue d’ensemble de campagne
++++ En savoir plus sur les mesures de présentation de Campaign
 
 * **[!UICONTROL Personnes]** : nombre de profils qui sont qualifiés en tant que profils cibles pour vos messages.
 
@@ -83,7 +83,7 @@ Notez que les mesures varient en fonction des canaux utilisés dans votre campag
 
 Le graphe **[!UICONTROL Entonnoir de résultats de la campagne]** présente une analyse détaillée de l’engagement de vos profils avec vos messages, fournissant des informations précieuses sur la manière dont différents profils ont interagi avec votre contenu.
 
-+++ En savoir plus sur les mesures de l’entonnoir de résultats de la campagne
++++ En savoir plus sur les mesures des résultats de l’entonnoir de Campaign
 
 * **[!UICONTROL Diffusés]** : nombre d’e-mails envoyés avec succès, par rapport au nombre total de messages envoyés.
 
@@ -96,7 +96,7 @@ Le graphe **[!UICONTROL Entonnoir de résultats de la campagne]** présente une 
 
 Le tableau **[!UICONTROL Libellé des liens de suivi]** offre des informations essentielles sur l’engagement de vos visiteurs et visiteuses avec les URL incluses dans vos messages, fournissant des informations précieuses sur les liens qui attirent le plus d’interactions.
 
-+++ En savoir plus sur les mesures de libellés des liens de suivi
++++ En savoir plus sur les mesures de libellé des liens suivis
 
 * **[!UICONTROL Clics uniques]** : nombre de profils qui ont cliqué sur un contenu dans votre message.
 

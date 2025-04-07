@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: paramètres, e-mail, configuration, sous-domaine
 exl-id: 1e004a76-5d6d-43a1-b198-5c9b41f5332c
-source-git-commit: f916d91ffd2c41261612f2127f35c41275c9d013
-workflow-type: ht
+source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+workflow-type: tm+mt
 source-wordcount: '1069'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -193,4 +193,4 @@ Pour éviter ce type d’erreur, assurez-vous que les paramètres d’en-tête q
 
 >[!NOTE]
 >
->En savoir plus sur la délivrabilité dans [cette section](../reports/deliverability.md).
+>En savoir plus sur la délivrabilité dans [cette section](../reports/deliverability.md)

@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 98e99978-8538-40b4-92ac-7184864017eb
-source-git-commit: f5df65a0225754ab66fb2ffa33c5130f7137b644
+source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
 workflow-type: tm+mt
 source-wordcount: '933'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -73,7 +73,7 @@ Pour commencer à créer votre expérience web à l’aide du concepteur web vis
 
 >[!NOTE]
 >
->Le concepteur de contenu web est très similaire au concepteur d’e-mail. En savoir plus sur la [conception de contenu avec  [!DNL Journey Optimizer]](../email/get-started-email-design.md).
+>Le concepteur de contenu web est très similaire au concepteur d’e-mail. En savoir plus sur la [conception de contenu avec [!DNL Journey Optimizer]](../email/get-started-email-design.md).
 
 Une fois que vous avez modifié le contenu web, vous pouvez gérer vos modifications. [En savoir plus](manage-web-modifications.md)
 

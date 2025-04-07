@@ -7,10 +7,10 @@ role: User
 level: Beginner
 keyword: direct, mail, configuration, direct-mail, provider
 exl-id: 69a19190-d2e2-4858-a1df-ffd008226e2b
-source-git-commit: 8fecd0d4812ba875dba1d47bc32ab08178a13f2c
+source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
 workflow-type: tm+mt
 source-wordcount: '443'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
@@ -56,4 +56,4 @@ Pour l’activer à nouveau, l’attribut de profil doit être redéfini sur `co
 
 Pour gérer les attributs d’un profil, accédez à Experience Platform et au profil en sélectionnant un espace de noms d’identité et une valeur d’identité correspondante. Pour en savoir plus, consultez la [documentation Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/ui/user-guide.html?lang=fr#getting-started){target="_blank"}.
 
-En savoir plus sur la gestion des désinscriptions de Journey Optimizer dans [cette section](../privacy/opt-out.md).
+En savoir plus sur la gestion des désinscriptions dans Journey Optimizer dans [cette section](../privacy/opt-out.md).

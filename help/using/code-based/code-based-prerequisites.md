@@ -6,10 +6,10 @@ topic: Content Management
 role: Admin
 level: Experienced
 exl-id: ac901f88-5fde-4220-88c6-fe05433866cc
-source-git-commit: 045fc6f140c9128adebc2513317c4007ed71cafa
-workflow-type: ht
+source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+workflow-type: tm+mt
 source-wordcount: '638'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -57,7 +57,7 @@ Pour que les expériences basées sur le code soient correctement diffusées, le
 
   L’utilisation du plug-in **Edge Delivery** vous aide à obtenir les informations nécessaires pour comprendre vos implémentations entrantes et résoudre leurs problèmes efficacement.
 
-  [En savoir plus sur la vue Edge Delivery](https://experienceleague.adobe.com/fr/docs/experience-platform/assurance/view/edge-delivery)
+  [En savoir plus sur la vue Edge Delivery](https://experienceleague.adobe.com/fr/docs/experience-platform/assurance/view/edge-delivery)
 
 ## Conditions préalables des rapports {#reporting-prerequisites}
 

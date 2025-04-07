@@ -6,10 +6,10 @@ feature: Content Cards
 role: User
 level: Beginner
 exl-id: a26bb3bd-d593-466b-9852-94e194d6d2b7
-source-git-commit: c24dc217567cc65f8ce0dc79d648f016cd8ad740
+source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
 workflow-type: tm+mt
 source-wordcount: '919'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -104,7 +104,7 @@ Pour commencer à créer vos cartes de contenu par le biais d’une campagne, su
 
 1. Dans la section **[!UICONTROL Propriétés]**, indiquez un nom et une description pour la campagne.
 
-1. Dans la section **Audience**, cliquez sur le bouton **[!UICONTROL Sélectionner une audience]** pour afficher la liste des audiences Adobe Experience Platform disponibles. [En savoir plus sur les audiences](../audience/about-audiences.md)
+1. Dans la section **Audience**, cliquez sur le bouton **[!UICONTROL Sélectionner une audience]** pour afficher la liste des audiences Adobe Experience Platform disponibles. [En savoir plus sur les audiences](../audience/about-audiences.md).
 
 1. Dans le champ **[!UICONTROL Espace de noms d’identité]**, choisissez l’espace de noms à utiliser pour identifier les personnes à partir du segment sélectionné. [En savoir plus sur les espaces de noms](../event/about-creating.md#select-the-namespace)
 

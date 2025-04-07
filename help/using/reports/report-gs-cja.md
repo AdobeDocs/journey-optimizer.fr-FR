@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: bfd88d2a-e7b8-4e3b-85a1-4a14b0ba56dc
-source-git-commit: abdfa7fa107e8be5d395c634057c38a512a4a03d
-workflow-type: ht
+source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+workflow-type: tm+mt
 source-wordcount: '358'
-ht-degree: 100%
+ht-degree: 93%
 
 ---
 
@@ -25,7 +25,7 @@ La création de rapports Journey Optimizer est fournie avec une interopérabili
 
 * Si vous souhaitez cibler un parcours ou des diffusions dans le contexte d’un parcours, dans le menu **[!UICONTROL Parcours]**, accédez à votre parcours et cliquez sur le bouton **[!UICONTROL Afficher le rapport]**.
 
-  Dans la liste des parcours existants, vous pouvez également sélectionner **[!UICONTROL Rapport]** dans le menu avancé du parcours que vous avez sélectionné. [En savoir plus sur le rapport de parcours](journey-global-report-cja.md)
+  Dans la liste des parcours existants, vous pouvez également sélectionner **[!UICONTROL Rapport]** dans le menu avancé du parcours que vous avez sélectionné. [En savoir plus sur le rapport de Parcours ](journey-global-report-cja.md)
 
   ![](assets/gs-cja-report-3.png)
 
@@ -35,7 +35,7 @@ La création de rapports Journey Optimizer est fournie avec une interopérabili
 
   ![](assets/gs-cja-report-2.png)
 
-* Si vous souhaitez cibler des mesures pour toutes les campagnes et tous les parcours de votre environnement, accédez à la **Vue d’ensemble** du rapport en accédant au menu **[!UICONTROL Rapports]** dans la section **[!UICONTROL Gestion des parcours]**. [En savoir plus sur le rapport de vue d’ensemble](channel-report-cja.md)
+* Si vous souhaitez cibler des mesures pour toutes les campagnes et tous les parcours de votre environnement, accédez à la **Vue d’ensemble** du rapport en accédant au menu **[!UICONTROL Rapports]** dans la section **[!UICONTROL Gestion des parcours]**. [En savoir plus sur le rapport de présentation](channel-report-cja.md)
 
   ![](assets/gs-cja-report-1.png)
 

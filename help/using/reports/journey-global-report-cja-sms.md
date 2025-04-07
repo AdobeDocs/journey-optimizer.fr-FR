@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: cf50ce33-7934-4e37-a757-08cda14e97ac
-source-git-commit: 7d1b89ca851442d2a67dda1e5c08d50d74d44028
+source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
 workflow-type: tm+mt
 source-wordcount: '660'
-ht-degree: 97%
+ht-degree: 90%
 
 ---
 
@@ -29,7 +29,7 @@ Vous pouvez accéder au rapport de parcours SMS en cliquant sur le bouton **[!UI
 
 Le graphique **[!UICONTROL Tendance diffusés et clics]** présente une analyse détaillée de l’engagement de vos profils avec vos SMS, fournissant des informations précieuses sur la manière dont différents domaines interagissent avec votre contenu.
 
-+++ En savoir plus sur les mesures de tendance diffusés et clics
++++ En savoir plus sur les mesures de tendance Diffusions / Clics
 
 * **[!UICONTROL Diffusés]** : nombre de messages SMS envoyés avec succès, par rapport au nombre total de SMS envoyés.
 
@@ -41,7 +41,7 @@ Le graphique **[!UICONTROL Tendance diffusés et clics]** présente une analyse 
 
 Le tableau **[!UICONTROL Statut de diffusion]** offre un compte-rendu détaillé de l’activité du profil associée à vos SMS. Cela inclut des mesures sur les diffusions, les clics et d’autres indicateurs d’engagement pertinents, offrant une vue d’ensemble complète de la manière dont les profils interagissent avec le contenu de vos SMS.
 
-+++ En savoir plus sur les mesures de statut de la diffusion.
++++ En savoir plus sur les mesures de statut de la diffusion
 
 * **[!UICONTROL Diffusés]** : nombre de messages SMS envoyés avec succès, par rapport au nombre total de SMS envoyés.
 
@@ -57,7 +57,7 @@ Le tableau **[!UICONTROL Statut de diffusion]** offre un compte-rendu détaillé
 
 Le tableau **[!UICONTROL Libellés des liens de suivi]** fournit une vue d’ensemble complète des libellés des liens dans vos SMS qui attirent le plus de visiteurs et de visiteuses. Cette fonctionnalité vous permet d’identifier et de hiérarchiser les liens les plus populaires.
 
-+++ En savoir plus sur les mesures des libellés des liens de suivi
++++ En savoir plus sur les mesures des libellés des liens suivis
 
 * **[!UICONTROL Clics uniques]** : nombre de profils qui ont cliqué sur un contenu dans vos SMS.
 
@@ -69,7 +69,7 @@ Le tableau **[!UICONTROL Libellés des liens de suivi]** fournit une vue d’ens
 
 Le tableau **[!UICONTROL URL des liens de suivi]** fournit une vue d’ensemble complète des URL de vos SMS qui attirent le plus de visiteurs et de visiteuses. Cela vous permet d’identifier et de hiérarchiser les liens les plus populaires, ce qui améliore votre compréhension de l’engagement des profils avec du contenu spécifique dans vos SMS.
 
-+++ En savoir plus sur les mesures des URL des liens de suivi
++++ En savoir plus sur les mesures des URL de liens trackés
 
 * **[!UICONTROL Clics uniques]** : nombre de profils qui ont cliqué sur un contenu dans vos SMS.
 
@@ -85,7 +85,7 @@ Le tableau **[!UICONTROL URL des liens de suivi]** fournit une vue d’ensemble 
 
 Le tableau **[!UICONTROL SMS entrants]** fournit une vue d’ensemble complète des SMS qui ont attiré le plus de visiteurs et de visiteuses. Cette ressource offre des informations précieuses sur la dynamique d’engagement des audiences.
 
-+++ En savoir plus sur les mesures de SMS entrant
++++ En savoir plus sur les mesures des messages entrants SMS
 
 * **[!UICONTROL Personnes]** : nombre de profils d’utilisateurs et d’utilisatrices qui sont qualifiés en tant que profils cibles pour vos SMS.
 
@@ -95,7 +95,7 @@ Le tableau **[!UICONTROL SMS entrants]** fournit une vue d’ensemble complète 
 
 Le tableau **[!UICONTROL Type de SMS]** fournit une vue d’ensemble complète des types de SMS qui ont attiré le plus de visiteurs et de visiteuses. Cette ressource offre des informations précieuses sur la dynamique d’engagement des audiences.
 
-+++ En savoir plus sur les mesures de type de SMS
++++ En savoir plus sur les mesures de type Message SMS
 
 * **[!UICONTROL Personnes]** : nombre de profils d’utilisateurs et d’utilisatrices qui sont qualifiés en tant que profils cibles pour vos SMS.
 
@@ -105,7 +105,7 @@ Le tableau **[!UICONTROL Type de SMS]** fournit une vue d’ensemble complète d
 
 Le tableau **[!UICONTROL Fournisseurs de SMS]** fournit une vue d’ensemble complète des fournisseurs de SMS qui ont attiré le plus de visiteurs et de visiteuses. Cette ressource offre des informations précieuses sur la dynamique d’engagement des audiences.
 
-+++ En savoir plus sur les mesures des fournisseurs de SMS
++++ En savoir plus sur les mesures des fournisseurs SMS
 
 * **[!UICONTROL Personnes]** : nombre de profils d’utilisateurs et d’utilisatrices qui sont qualifiés en tant que profils cibles pour vos SMS.
 

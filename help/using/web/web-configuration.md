@@ -6,10 +6,10 @@ topic: Content Management
 role: Admin
 level: Experienced
 exl-id: 2161baf0-38b7-4397-bffe-083929e8033a
-source-git-commit: bf0a6fa496a08348be16896a7f2313882eb97c06
+source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
 workflow-type: tm+mt
 source-wordcount: '935'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 

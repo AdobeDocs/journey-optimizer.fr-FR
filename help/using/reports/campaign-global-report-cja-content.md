@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 1603a696-33cc-42d8-a52a-623d85f61584
-source-git-commit: 7d1b89ca851442d2a67dda1e5c08d50d74d44028
+source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
 workflow-type: tm+mt
 source-wordcount: '325'
-ht-degree: 93%
+ht-degree: 87%
 
 ---
 
@@ -31,7 +31,7 @@ Pour accéder au rapport de campagne Carte de contenu, cliquez sur le bouton **[
 
 Les graphiques **[!UICONTROL Tendance des affichages et des clics]** vous permet de comprendre à la fois la portée globale du message et le nombre de profils uniques qui interagissent avec lui.
 
-+++ En savoir plus sur les mesures sur les affichages et les clics
++++ En savoir plus sur les mesures Afficher et cliquer .
 
 * **[!UICONTROL Clics]** : nombre de fois où un contenu a fait l’objet d’un clic dans une carte de contenu.
 
@@ -47,7 +47,7 @@ Les graphiques **[!UICONTROL Tendance des affichages et des clics]** vous permet
 
 Le tableau **[!UICONTROL Données de suivi]** offre un instantané détaillé de l’activité de profil liée à vos cartes de contenu, fournissant des informations essentielles sur l’engagement et l’efficacité des cartes de contenu.
 
-+++ En savoir plus sur les mesures de données de suivi
++++ En savoir plus sur les mesures de données de tracking
 
 * **[!UICONTROL Personnes]** : nombre de profils d’utilisateurs et d’utilisatrices qui sont qualifiés en tant que profils cibles pour vos cartes de contenu.
 

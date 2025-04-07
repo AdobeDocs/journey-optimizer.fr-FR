@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 659984cb-b232-47ba-9f5a-604bf97a5e92
-source-git-commit: 2acb883b66e5da9c06ba1551f708bb8ab47ce343
+source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
 workflow-type: tm+mt
 source-wordcount: '896'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
@@ -73,7 +73,7 @@ Les API de gestion des décisions permettent d’afficher, sur le portail des ag
 
 Les autorisations d’accès et d’utilisation des fonctionnalités de prise de décision sont gérées à l’aide d’[Adobe Admin Console](https://helpx.adobe.com/fr/enterprise/managing/user-guide.html){target="_blank"}.
 
-Pour accorder l’accès à la fonctionnalité de gestion des décisions, vous devez créer un **[!UICONTROL profil de produit]** et attribuer les autorisations correspondantes à vos utilisateurs. Pour en savoir plus sur la gestion des utilisateurs et des autorisations [!DNL Journey Optimizer], consultez [cette section](../../administration/permissions.md).
+Pour accorder l’accès à la fonctionnalité de gestion des décisions, vous devez créer un **[!UICONTROL profil de produit]** et attribuer les autorisations correspondantes à vos utilisateurs. En savoir plus sur la gestion des utilisateurs et des autorisations [!DNL Journey Optimizer] dans [cette section](../../administration/permissions.md).
 
 Les autorisations spécifiques à la gestion des décisions sont répertoriées dans [cette section](../../administration/high-low-permissions.md#decisions-permissions).
 

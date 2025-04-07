@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: df13e473-8003-4dde-aaf8-df8385c9ee21
-source-git-commit: 47b549f3e1e220b7e8f0c82d9a1f9ecfd5dd2340
-workflow-type: ht
+source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+workflow-type: tm+mt
 source-wordcount: '458'
-ht-degree: 100%
+ht-degree: 96%
 
 ---
 
@@ -30,7 +30,7 @@ Pour accéder à vos rapports, sélectionnez **[!UICONTROL Afficher le rapport d
 
 Le **[!UICONTROL Rapport dynamique]** sur les pages de destination est divisé en différents widgets indiquant le succès et les erreurs de votre diffusion. Chaque widget peut être redimensionné et supprimé si nécessaire. Pour plus d&#39;informations à ce propos consultez cette [section](live-report.md).
 
-+++En savoir plus sur les différents widgets et mesures disponibles pour le rapport dynamique de la page de destination.
++++En savoir plus sur les différents widgets et mesures disponibles pour le rapport dynamique sur les pages de destination.
 
 Le widget **[!UICONTROL Performances de la page de destination]** présente les informations principales relatives à votre message au cours des dernières 24 heures à l’aide de KPI :
 

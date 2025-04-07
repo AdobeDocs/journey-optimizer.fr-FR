@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: b1b7abbe-8600-4a8d-b0b5-0dbd49abc275
-source-git-commit: d80f9309cfff4307b1b37ce44b037730a374d4a2
-workflow-type: ht
+source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+workflow-type: tm+mt
 source-wordcount: '640'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -152,6 +152,6 @@ Pour créer et gérer vos directives de marque, vous pouvez saisir vous-même le
 
    ![](assets/brands-6.png)
 
-Les consignes relatives à votre marque sont désormais accessibles à partir de la liste déroulante **[!UICONTROL Marque]** du menu de l’Assistant IA, ce qui lui permet de générer du contenu et des ressources dans le ton de votre marque. [En savoir plus sur l’Assistant IA](gs-generative.md)
+Les consignes relatives à votre marque sont désormais accessibles à partir de la liste déroulante **[!UICONTROL Marque]** du menu de l’Assistant IA, ce qui lui permet de générer du contenu et des ressources dans le ton de votre marque. [En savoir plus sur l’assistant IA](gs-generative.md)
 
 ![](assets/brands-7.png)

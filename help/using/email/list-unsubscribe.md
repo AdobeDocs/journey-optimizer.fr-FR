@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: paramètres, e-mail, configuration
 exl-id: c6c77975-ec9c-44c8-a8d8-50ca6231fea6
-source-git-commit: 0fd6c054b9b4df9e3ed900c610e0d1186e479750
+source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
 workflow-type: tm+mt
 source-wordcount: '1371'
-ht-degree: 61%
+ht-degree: 60%
 
 ---
 
@@ -91,7 +91,7 @@ Les fonctionnalités **[!UICONTROL Mailto (se désabonner)]** et **[!UICONTROL U
 
   >[!NOTE]
   >
-  >Pour plus d’informations sur la gestion des fonctionnalités de désabonnement dans vos messages, consultez [cette section](../email/email-opt-out.md#unsubscribe-header).
+  >Pour en savoir plus sur la gestion des fonctionnalités de désabonnement dans vos messages, consultez [cette section](../email/email-opt-out.md#unsubscribe-header).
 
 Dans [!DNL Journey Optimizer], le consentement est géré par le [Schéma de consentement](https://experienceleague.adobe.com/docs/experience-platform/xdm/field-groups/profile/consents.html?lang=fr){target="_blank"} d’Experience Platform. Par défaut, la valeur du champ de consentement est vide et traitée comme un consentement pour recevoir vos communications. Vous pouvez modifier cette valeur par défaut lors de l’intégration à l’une des valeurs possibles répertoriées [ici](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/consents.html?lang=fr#choice-values){target="_blank"} ou utiliser [politiques de consentement](../action/consent.md) pour remplacer la logique par défaut.
 

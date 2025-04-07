@@ -6,10 +6,10 @@ topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: 773bee50-849f-4b07-9423-67de5279ad28
-source-git-commit: ac8ccb52bd16a26c14dea148f989256e28170765
+source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
 workflow-type: tm+mt
 source-wordcount: '353'
-ht-degree: 100%
+ht-degree: 96%
 
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 100%
 
 Ce guide de développement décrit les étapes à suivre pour commencer à utiliser l’API [!DNL Offer Library]. Le guide fournit ensuite des exemples d’appels d’API pour effectuer des opérations clés à l’aide du moteur de décisions.
 
-➡️ [En savoir plus sur les composants de la gestion des décisions dans cette vidéo](#video)
+➡️ [Pour en savoir plus sur les composants de la gestion des décisions, consultez cette vidéo](#video)
 
 ## Conditions préalables {#prerequisites}
 

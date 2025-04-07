@@ -9,10 +9,10 @@ role: Admin
 level: Intermediate
 keywords: configuration, expérimentation, création de rapports, optimizer
 exl-id: 327a0c45-0805-4f64-9bab-02d67276eff8
-source-git-commit: 4847415fa33ebf1c21622ebf4faecafd4decc8d3
+source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
 workflow-type: tm+mt
 source-wordcount: '584'
-ht-degree: 100%
+ht-degree: 94%
 
 ---
 
@@ -104,7 +104,7 @@ The table below shows which metrics will be added to the **[!UICONTROL Objective
 
    ![](assets/reporting-config-datasets.png)
 
-   Pour en savoir plus sur les jeux de données, consultez la [documentation d’Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/overview.html?lang=fr){target="_blank"}.
+   En savoir plus sur les jeux de données dans la documentation de [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/overview.html?lang=fr){target="_blank"}.
 
 1. Dans la liste déroulante des **[!UICONTROL identifiants de profil]**, sélectionnez l’attribut de champ de jeu de données qui sera utilisé pour identifier chaque profil dans vos rapports.
 
@@ -118,7 +118,7 @@ The table below shows which metrics will be added to the **[!UICONTROL Objective
 
    ![](assets/reporting-config-namespace.png)
 
-   Pour en savoir plus sur les espaces de noms, consultez la [documentation d’Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/identity/namespaces.html?lang=fr){target="_blank"}.
+   En savoir plus sur les espaces de noms dans la documentation de Adobe Experience Platform [](https://experienceleague.adobe.com/docs/experience-platform/identity/namespaces.html?lang=fr){target="_blank"}.
 
 1. Enregistrez vos modifications pour ajouter le jeu de données sélectionné à la liste de configuration des rapports.
 

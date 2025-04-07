@@ -10,10 +10,10 @@ level: Intermediate
 mini-toc-levels: 1
 keywords: expression, éditeur, à propos, commencer
 exl-id: 1ac2a376-a3a8-41ae-9b04-37886697f0fc
-source-git-commit: 0533051314530b90a19e3b170d94f7761927053e
+source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
 workflow-type: tm+mt
 source-wordcount: '1436'
-ht-degree: 96%
+ht-degree: 95%
 
 ---
 
@@ -145,7 +145,7 @@ Dans le volet de navigation, des fonctionnalités supplémentaires sont disponib
 
 ![](assets/perso-features.png)
 
-* **[!UICONTROL Fonctions d’assistance]** : les fonctions d’assistance vous permettent d’effectuer des opérations sur les données, comme des calculs, une mise en forme ou des conversions de données, des conditions, et de les manipuler dans le contexte de la personnalisation. [Découvrir les fonctions d’assistance disponibles](functions/functions.md)
+* **[!UICONTROL Fonctions d’assistance]** : les fonctions d’assistance vous permettent d’effectuer des opérations sur les données, comme des calculs, une mise en forme ou des conversions de données, des conditions, et de les manipuler dans le contexte de la personnalisation. [En savoir plus sur les fonctions d’assistance disponibles](functions/functions.md)
 
 * **[!UICONTROL Favoris]** : les attributs que vous avez ajoutés aux favoris s’affichent dans cette liste. Cela vous permet d’accéder rapidement aux éléments que vous utilisez le plus souvent. Pour ajouter un attribut à vos favoris, cliquez sur le menu à trois points et sélectionnez **[!UICONTROL Ajouter aux favoris]**.
 

@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: aad4e08a-3369-454d-9e32-974347a3b393
-source-git-commit: 4847415fa33ebf1c21622ebf4faecafd4decc8d3
-workflow-type: ht
+source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+workflow-type: tm+mt
 source-wordcount: '392'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
@@ -37,7 +37,7 @@ Vous devez vérifier les alertes dans la section supérieure de l’éditeur. Ce
 
    * **[!UICONTROL La version push du message est vide]** : cette erreur s’affiche lorsque le titre ou le corps de la notification push est manquant. Découvrez comment définir le contenu des notifications push dans [cette section](create-push.md).
 
-   * **[!UICONTROL La configuration n’existe pas]** : vous ne pouvez pas utiliser votre message si la configuration que vous avez sélectionnée est supprimée après la création du message. Si cette erreur se produit, sélectionnez une autre configuration dans les **[!UICONTROL Propriétés]** du message. Pour en savoir plus sur les configurations de canaux, consultez [cette section](../configuration/channel-surfaces.md).
+   * **[!UICONTROL La configuration n’existe pas]** : vous ne pouvez pas utiliser votre message si la configuration que vous avez sélectionnée est supprimée après la création du message. Si cette erreur se produit, sélectionnez une autre configuration dans les **[!UICONTROL Propriétés]** du message. En savoir plus sur les configurations de canal dans [cette section](../configuration/channel-surfaces.md).
 
    * **[!UICONTROL La payload iOS/Android push dépasse la limite de 4 Ko]** : la taille de la notification push ne peut pas dépasser 4 Ko. Pour respecter cette limite, essayez de réduire l’utilisation des images ou des émoticônes. Découvrez comment gérer le contenu de vos notifications push dans [cette section](../push/create-push.md).
 

@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: d2ff175a-8bca-4b62-931c-a909cfd9308d
-source-git-commit: 4eef896bd139cfb4acb4b817527dee67e246082d
-workflow-type: ht
+source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+workflow-type: tm+mt
 source-wordcount: '1353'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -29,7 +29,7 @@ Améliorez votre expérience d’analyse des données avec votre licence **[!DNL
 
 Cette puissante option vous redirige aisément vers votre environnement **[!DNL Customer Journey Analytics]**, ce qui vous permet de personnaliser abondamment vos rapports. Intégrez des mesures avancées de Customer Journey Analytics dans vos widgets pour enrichir vos informations et les rendre encore plus pertinentes.
 
-[En savoir plus sur l’interface de Customer Journey Analytics.](https://experienceleague.adobe.com/fr/docs/analytics-platform/using/cja-overview/cja-getting-started)
+[En savoir plus sur l’interface de Customer Journey Analytics.](https://experienceleague.adobe.com/fr/docs/analytics-platform/using/cja-overview/cja-getting-started)
 
 ## Définir la période d’un rapport {#report-period}
 
@@ -179,7 +179,7 @@ Vous pouvez désormais analyser vos données à l’aide de vos outils de visual
 
 <!--## Create a down-funnel metric {#down-funnel}
 
-1. Create a new journey or open an existing one. [Learn more on journey creation](../building-journeys/journey-gs.md)
+1. Create a new journey or open an existing one. [Learn more about journey creation](../building-journeys/journey-gs.md)
 
 1. On the canvas editor, select the option to "add a metric".
 
@@ -221,7 +221,7 @@ Vous pouvez maintenant utiliser l’audience nouvellement créée avec un parcou
 >
 > La fonctionnalité **Modèle** est progressivement déployée par phases, avec une disponibilité générale complète prévue d’ici la fin janvier. Elle est disponible exclusivement pour les personnes disposant d’une licence [!DNL Customer Journey Analytics].
 
-Vous avez désormais la possibilité d’améliorer vos rapports Journey Optimizer à l’aide de modèles Customer Journey Analytics. [En savoir plus sur le modèle Customer Journey Analytics](https://experienceleague.adobe.com/fr/docs/analytics-platform/using/cja-workspace/templates/use-templates#use-reports)
+Vous avez désormais la possibilité d’améliorer vos rapports Journey Optimizer à l’aide de modèles Customer Journey Analytics. [En savoir plus sur le modèle Customer Journey Analytics](https://experienceleague.adobe.com/fr/docs/analytics-platform/using/cja-workspace/templates/use-templates#use-reports)
 
 Lors de l’accès aux rapports, vous pouvez choisir entre deux types de modèles dans le menu déroulant **[!UICONTROL Sélectionner un modèle]** :
 

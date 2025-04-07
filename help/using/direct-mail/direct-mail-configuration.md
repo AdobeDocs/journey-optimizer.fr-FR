@@ -7,10 +7,10 @@ role: User
 level: Experienced
 keyword: direct, mail, configuration, direct-mail, provider
 exl-id: ae5cc885-ade1-4683-b97e-eda1f2142041
-source-git-commit: f930fd23431d826ba7efc72035811f0023fcf4d1
-workflow-type: ht
+source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+workflow-type: tm+mt
 source-wordcount: '1311'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -140,7 +140,7 @@ Si vous avez sélectionné **[!UICONTROL Zone d’atterrissage des données]** e
 
 ![](assets/file-routing-config-dlz-detail.png)
 
-L&#39;ensemble de la clientèle d’[!DNL Adobe Experience Platform] est approvisionné avec un conteneur Zone d’atterrissage des données par sandbox. Pour en savoir plus sur les zones d’atterrissage des données, consultez la [documentation d’Adobe Experience Platform](https://experienceleague.adobe.com/fr/docs/experience-platform/sources/connectors/cloud-storage/data-landing-zone){target="_blank"}.
+L&#39;ensemble de la clientèle d’[!DNL Adobe Experience Platform] est approvisionné avec un conteneur Zone d’atterrissage des données par sandbox. En savoir plus sur la zone d’atterrissage de données dans la documentation de Adobe Experience Platform [](https://experienceleague.adobe.com/fr/docs/experience-platform/sources/connectors/cloud-storage/data-landing-zone){target="_blank"}.
 
 >[!ENDTABS]
 

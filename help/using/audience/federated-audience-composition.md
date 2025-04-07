@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 90328ba9-e6b0-4105-abcf-3e3a9ed41aa6
-source-git-commit: 5ce76bd61a61e1ed5e896f8da224fc20fba74b53
-workflow-type: ht
+source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+workflow-type: tm+mt
 source-wordcount: '223'
-ht-degree: 100%
+ht-degree: 96%
 
 ---
 
@@ -29,6 +29,6 @@ sensibles et optimisez les investissements informatiques pour compléter les cas
 
 Pour plus d’informations, veuillez lire le guide sur la [composition d’audiences fédérées](https://experienceleague.adobe.com/fr/docs/federated-audience-composition/using/home){target="_blank"}.
 
-Découvrez la composition d’audiences fédérées dans cette vidéo :
+En savoir plus sur la composition d’audiences fédérées en vidéo :
 
 >[!VIDEO](https://video.tv.adobe.com/v/3432261?quality=12)

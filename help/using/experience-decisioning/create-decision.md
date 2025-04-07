@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Experienced
 exl-id: 63aa1763-2220-4726-a45d-3a3a8b8a55ec
-source-git-commit: a82c9e2d999b28ed97374f3a3804e11d4acd7983
+source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
 workflow-type: tm+mt
 source-wordcount: '1756'
-ht-degree: 90%
+ht-degree: 89%
 
 ---
 
@@ -96,7 +96,7 @@ La section **[!UICONTROL Séquence de stratégies]** vous permet de sélectionne
 
    >[!NOTE]
    >
-   >Une politique de décision prend en charge jusqu’à 10 stratégies de sélection et éléments de décision combinés. [En savoir plus sur les mécanismes de sécurisation et sur les limitations de la prise de décision](gs-experience-decisioning.md#guardrails)
+   >Une politique de décision prend en charge jusqu’à 10 stratégies de sélection et éléments de décision combinés. [En savoir plus sur les mécanismes de sécurisation et les limitations de Decisioning](gs-experience-decisioning.md#guardrails)
 
 1. Lorsque vous ajoutez plusieurs éléments et/ou stratégies de décision, ils sont évalués dans un ordre spécifique. Le premier objet ajouté à la séquence sera évalué en premier, etc.
 
@@ -204,7 +204,7 @@ Une fois créée, la politique de décision peut être utilisée dans l’[édit
    >
    >Cette séquence sera répétée selon le nombre de renvoi de la politique de décision que vous choisissez. Par exemple, si vous avez choisi de renvoyer 2 éléments lors de la [création de la décision](#add-decision), la même séquence sera répétée deux fois.
 
-1. Vous pouvez désormais ajouter tous les attributs de décision que vous souhaitez dans ce code. Les attributs disponibles sont stockés dans le schéma du catalogue **[!UICONTROL Offres]**. Les attributs personnalisés sont stockés dans le dossier **`_<imsOrg`>**, et les attributs standard dans le dossier **`_experience`**. [En savoir plus sur le schéma du catalogue Offres](catalogs.md)
+1. Vous pouvez désormais ajouter tous les attributs de décision que vous souhaitez dans ce code. Les attributs disponibles sont stockés dans le schéma du catalogue **[!UICONTROL Offres]**. Les attributs personnalisés sont stockés dans le dossier **`_<imsOrg`>**, et les attributs standard dans le dossier **`_experience`**. [En savoir plus sur le schéma du catalogue d&#39;offres](catalogs.md)
 
    ![](assets/decision-code-based-decision-attributes.png)
 

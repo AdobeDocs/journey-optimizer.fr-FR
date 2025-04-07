@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: canal, surface, technique, paramètres, optimizer
 exl-id: 9038528f-3da0-4e0e-9b82-b72c67b42391
-source-git-commit: 7ca149d420f802a6230e699cffefddc4117cb85e
+source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
 workflow-type: tm+mt
 source-wordcount: '1800'
-ht-degree: 97%
+ht-degree: 95%
 
 ---
 
@@ -243,7 +243,7 @@ Une fois le processus de validation réussi, la nouvelle version de la configura
 
 Si le processus de validation échoue, l’ancienne version de la configuration continuera d’être utilisée.
 
-Pour en savoir plus sur les causes possibles d’échec, consultez [cette section](#monitor-channel-surfaces).
+En savoir plus sur les raisons possibles d’échec dans [cette section](#monitor-channel-surfaces).
 
 En cas d’échec de la mise à jour, la configuration est à nouveau modifiable. Vous pouvez cliquer sur son nom et mettre à jour les paramètres à corriger.
 
@@ -253,7 +253,7 @@ Pour empêcher la création de nouveaux messages à partir d’une configuration
 
 >[!NOTE]
 >
->Vous ne pouvez pas désactiver une configuration de canal lorsqu’une mise à jour est en cours. Vous devez attendre que la mise à jour soit réussie ou qu’elle ait échoué. En savoir plus sur la [modification des configurations de canaux](#edit-channel-surface) et sur les [statuts de mise à jour](#update-statuses).
+>Vous ne pouvez pas désactiver une configuration de canal lorsqu’une mise à jour est en cours. Vous devez attendre que la mise à jour soit réussie ou qu’elle ait échoué. En savoir plus sur la [modification des configurations de canal](#edit-channel-surface) et sur la [mise à jour des statuts](#update-statuses).
 
 1. Accédez à la liste des configurations de canaux.
 

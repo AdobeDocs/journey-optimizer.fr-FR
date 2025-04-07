@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: sous-domaine, optimizer, délégation
 exl-id: 1b5ca4db-44d9-49e2-ab39-a1abba223ec7
-source-git-commit: f8d62a702824bcfca4221c857acf1d1294427543
+source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
 workflow-type: tm+mt
 source-wordcount: '916'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -58,7 +58,7 @@ La configuration de sous-domaines vous permet de configurer une sous-section de 
 
 * **Délégation complète de sous-domaine à Adobe** (recommandée) : le sous-domaine est entièrement délégué à Adobe. Adobe assure le contrôle et la gestion de tous les aspects du DNS nécessaires à la diffusion, au rendu et au suivi des messages. [En savoir plus sur la délégation complète de sous-domaine](delegate-subdomain.md#full-subdomain-delegation)
 
-* **Utilisation de CNAME** : créez un sous-domaine et utilisez des CNAME pour pointer vers des enregistrements spécifiques à Adobe. Avec cette configuration, vous partagez avec Adobe la responsabilité de la maintenance du DNS. [En savoir plus sur la délégation de sous-domaine CNAME](delegate-subdomain.md#cname-subdomain-delegation)
+* **Utilisation de CNAME** : créez un sous-domaine et utilisez des CNAME pour pointer vers des enregistrements spécifiques à Adobe. Avec cette configuration, vous partagez avec Adobe la responsabilité de la maintenance du DNS. [En savoir plus sur la délégation de sous-domaines CNAME](delegate-subdomain.md#cname-subdomain-delegation)
 
 >[!CAUTION]
 >

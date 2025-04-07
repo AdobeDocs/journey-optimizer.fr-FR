@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 7234a8e8-4ab0-4f17-a833-5e452fadac35
-source-git-commit: 12a36b38958e2a3cdb702b4789a1a6dadf45e911
+source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
 workflow-type: tm+mt
 source-wordcount: '2719'
-ht-degree: 96%
+ht-degree: 95%
 
 ---
 
@@ -85,7 +85,7 @@ La section **[!UICONTROL Éligibilité à l’offre]** vous permet de restreindr
 
 >[!NOTE]
 >
->Pour en savoir plus sur l’utilisation des **audiences** par rapport aux **règles de décision**, consultez [cette section](#segments-vs-decision-rules).
+>Pour en savoir plus sur l’utilisation de **audiences** par rapport aux **règles de décision**, consultez [cette section](#segments-vs-decision-rules).
 
 * Par défaut, l’option **[!UICONTROL Tous les visiteurs]** est sélectionnée, ce qui signifie que tout profil peut se voir présenter l’offre.
 
@@ -129,7 +129,7 @@ Pour faire simple, la sortie d’une audience est une liste de profils, tandis q
 
   D’un autre côté, une règle de décision est basée sur les données disponibles dans Adobe Experience Platform et détermine à qui une offre peut être montrée. Une fois sélectionnée dans une offre ou une décision pour un emplacement donné, la règle est exécutée chaque fois qu’une décision est prise, ce qui garantit que chaque profil obtient la dernière et la meilleure offre.
 
-  Pour en savoir plus sur les règles de décision, consultez [cette section](creating-decision-rules.md).
+  En savoir plus sur les règles de décision dans [cette section](creating-decision-rules.md).
 
 ## Limitation {#capping}
 
