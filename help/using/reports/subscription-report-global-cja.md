@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: d1c4ae5f-2f5c-4e25-a8b4-4c5fe254bfb9
-source-git-commit: ea016af2dc08321bcf2e5110538031f66c888b90
+source-git-commit: 1af75a0e6bfc2c3b9c565c3190f46d137a68d32e
 workflow-type: tm+mt
 source-wordcount: '432'
-ht-degree: 100%
+ht-degree: 95%
 
 ---
 
@@ -23,7 +23,7 @@ Pour accéder à vos rapports, cliquez sur l’icône **[!UICONTROL Rapport]** d
 
 ![](assets/cja-sub-access.png)
 
-Pour en savoir plus sur l’espace de travail Customer Journey Analytics et sur la manière de filtrer et d’analyser les données, consultez [cette page](https://experienceleague.adobe.com/fr/docs/analytics-platform/using/cja-workspace/home).
+Pour en savoir plus sur l’espace de travail Customer Journey Analytics et sur le filtrage et l’analyse des données, consultez [cette page](https://experienceleague.adobe.com/fr/docs/analytics-platform/using/cja-workspace/home).
 
 ## Ajouts à la liste dʼabonnements
 

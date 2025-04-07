@@ -9,10 +9,10 @@ role: Admin, Data Engineer, User
 level: Intermediate, Experienced
 keywords: parcours, message, campagne, intégration
 exl-id: b07feb98-b2ae-476c-8fcb-873b308176f0
-source-git-commit: f8d62a702824bcfca4221c857acf1d1294427543
+source-git-commit: 1af75a0e6bfc2c3b9c565c3190f46d137a68d32e
 workflow-type: tm+mt
 source-wordcount: '413'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
@@ -26,7 +26,7 @@ Ce cas d’utilisation présente toutes les étapes nécessaires pour envoyer un
 
 Nous allons tout d&#39;abord créer un modèle d&#39;e-mail transactionnel dans Campaign. Ensuite, dans Journey Optimizer, nous allons créer l&#39;événement, l&#39;action et la conception du parcours.
 
-Pour en savoir plus sur l&#39;intégration de Campaign, consultez les pages suivantes :
+Pour en savoir plus sur l’intégration de Campaign, consultez les pages suivantes :
 
 * [Création d&#39;une action Campaign](../action/acc-action.md)
 * [Utilisation de l&#39;action dans un parcours](../building-journeys/using-adobe-campaign-v7-v8.md).

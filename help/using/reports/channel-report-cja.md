@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 393f02c0-f54c-4222-b668-0931b67590ce
-source-git-commit: 7d1b89ca851442d2a67dda1e5c08d50d74d44028
+source-git-commit: 1af75a0e6bfc2c3b9c565c3190f46d137a68d32e
 workflow-type: tm+mt
 source-wordcount: '659'
-ht-degree: 96%
+ht-degree: 91%
 
 ---
 
@@ -27,7 +27,7 @@ La page Rapport s’affiche avec les onglets suivants :
 * [Campagnes](#campaign)
 * [Canaux](#channel)
 
-Pour en savoir plus sur l’espace de travail Customer Journey Analytics et sur la manière de filtrer et d’analyser les données, consultez [cette page](https://experienceleague.adobe.com/fr/docs/analytics-platform/using/cja-workspace/home).
+Pour en savoir plus sur Customer Journey Analytics Workspace et sur le filtrage et l’analyse des données, consultez [cette page](https://experienceleague.adobe.com/fr/docs/analytics-platform/using/cja-workspace/home).
 
 ## Faits saillants {#highlights}
 
@@ -35,7 +35,7 @@ Pour en savoir plus sur l’espace de travail Customer Journey Analytics et su
 
 Les indicateurs clés de performance **[!UICONTROL Faits saillants]** constituent un tableau de bord complet, qui propose une ventilation détaillée des mesures clés de toutes les campagnes et de tous les parcours de votre environnement, ce qui vous permet d’évaluer rapidement les performances et d’identifier les domaines à améliorer.
 
-+++ En savoir plus sur les mesures de faits saillants
++++ En savoir plus sur les mesures Surlignages .
 
 * **[!UICONTROL Engagement du parcours]** : nombre total de personnes uniques ayant reçu des messages envoyés depuis le parcours et représentant des profils distincts ayant atteint un point d’action désigné dans le parcours.
 
@@ -65,7 +65,7 @@ Le tableau **[!UICONTROL Parcours]** constitue un tableau de bord complet qui fo
 
 En cliquant sur le nom d’un parcours répertorié dans ce tableau, vous pouvez facilement explorer chaque parcours individuellement et accéder immédiatement à son rapport complet dans un nouvel onglet.
 
-+++ En savoir plus sur les mesures de parcours
++++ En savoir plus sur les mesures de Parcours
 
 * **[!UICONTROL Entrées du parcours]** : nombre total de personnes ayant atteint l’événement d’entrée du parcours.
 
@@ -83,7 +83,7 @@ Le tableau **[!UICONTROL Campagne]** fonctionne comme un tableau de bord complet
 
 En cliquant sur le nom d’une campagne dans ce tableau, vous pouvez examiner chaque opération de manière individuelle et ouvrir instantanément son rapport complet dans un nouvel onglet.
 
-+++ En savoir plus sur les mesures de campagne
++++ En savoir plus sur les mesures de Campaign
 
 * **[!UICONTROL Personnes]** : nombre de profils d’utilisateurs et d’utilisatrices qui sont qualifiés en tant que profils cibles pour vos messages.
 
@@ -107,7 +107,7 @@ En cliquant sur le nom d’une campagne dans ce tableau, vous pouvez examiner ch
 
 Le tableau **[!UICONTROL Canaux]** fournit une ventilation détaillée de l’engagement de vos profils avec vos messages au niveau du canal. Cela vous permet d’obtenir des informations plus approfondies sur les performances de différents canaux.
 
-+++ En savoir plus sur les mesures de canaux
++++ En savoir plus sur les mesures Canaux
 
 * **[!UICONTROL Personnes]** : nombre de profils d’utilisateurs et d’utilisatrices qui sont qualifiés en tant que profils cibles pour vos messages.
 
