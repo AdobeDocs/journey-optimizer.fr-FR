@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 59ea67d9-e90c-4ad0-afb9-d0e0fd868855
-source-git-commit: 0571a11eabffeb5e318bebe341a8df18da7db598
+source-git-commit: 478706e893354d59be5d2010da84546aa4385d99
 workflow-type: tm+mt
-source-wordcount: '467'
-ht-degree: 100%
+source-wordcount: '516'
+ht-degree: 90%
 
 ---
 
@@ -42,6 +42,7 @@ Lors de l’utilisation d’Infobip, assurez-vous que l’action Transfert est d
 
 Aucune opération n’est nécessaire pour s’assurer que les fonctionnalités de désinscription par SMS fonctionnent dans Adobe Journey Optimizer, car les réponses par mot-clé STOP, UNSTOP, START, QUIT, CANCEL, END, et UNSUBSCRIBE sont automatiquement reconnues. Les statuts de désinscription des profils sont mis à jour en temps réel dans Adobe Journey Optimizer.
 
+Notez que si un client répond STOP à un SMS, le fournisseur bloque tous les SMS suivants à partir de cet identifiant d’expéditeur spécifique (numéro court ou numéro long), y compris les messages transactionnels. Pour assurer la diffusion ininterrompue des SMS transactionnels, utilisez un identifiant d’expéditeur distinct qui n’a pas été précédemment désinscrit.
 
 ## Listes bloquées {#sms-blocklists}
 
