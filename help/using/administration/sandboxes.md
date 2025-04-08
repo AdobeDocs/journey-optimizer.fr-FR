@@ -9,10 +9,10 @@ role: Admin, Architect, Developer
 level: Experienced
 keywords: sandbox, virtuels, environnements, organisation, platform
 exl-id: 14f80d5d-0840-4b79-9922-6d557a7e1247
-source-git-commit: 9f43387ff63c3d2c2849fad1ca6a98310b3915b3
+source-git-commit: 060d65e8d3fb1442b04626170a35d463d1faa514
 workflow-type: tm+mt
 source-wordcount: '325'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
@@ -30,7 +30,7 @@ Le sélecteur de sandbox se trouve dans le coin supérieur droit de votre écran
 
 ![](assets/sandbox_5.png)
 
-➡️ [En savoir plus sur les sandbox dans cette vidéo](#video)
+➡️ [Pour en savoir plus sur les sandbox, regardez cette vidéo](#video)
 
 ## Affectation de sandbox {#assign-sandboxes}
 
@@ -66,7 +66,7 @@ Pour configurer l’accessibilité de votre contenu, vous devez affecter un doss
 
 Notez que pour que votre contenu soit synchronisé avec le sandbox correct, vous devez suivre la même syntaxe que cet environnement. Par exemple, si votre sandbox est appelé développement, votre dossier partagé doit porter le même nom.
 
-[Découvrez comment gérer les dossiers partagés](https://helpx.adobe.com/fr/enterprise/admin-guide.html/enterprise/using/manage-adobe-storage.ug.html){target="_blank"}.
+[Découvrez comment gérer les dossiers partagés](https://helpx.adobe.com/fr/enterprise/admin-guide.html/enterprise/using/manage-adobe-storage.ug.html){target="_blank"} .
 
 ## Vidéo pratique{#video}
 

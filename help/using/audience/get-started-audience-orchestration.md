@@ -1,17 +1,17 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Prise en main de la composition des audiences
+title: Prise en main de la composition de l’audience
 description: En savoir plus sur la composition de l’audience
 feature: Audiences, Profiles
 topic: Content Management
 role: User
 level: Beginner
 exl-id: af71d24d-77eb-44df-8216-b0aeaf4c4fa4
-source-git-commit: 7ca149d420f802a6230e699cffefddc4117cb85e
+source-git-commit: 060d65e8d3fb1442b04626170a35d463d1faa514
 workflow-type: tm+mt
 source-wordcount: '1030'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
