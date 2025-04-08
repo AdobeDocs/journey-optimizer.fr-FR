@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: activité, parcours, lecture, audience, platform
 exl-id: 7b27d42e-3bfe-45ab-8a37-c55b231052ee
-source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
+source-git-commit: 48a1ef9a48cecddf340031fcbbec4fe574cb2839
 workflow-type: tm+mt
-source-wordcount: '1687'
-ht-degree: 99%
+source-wordcount: '1786'
+ht-degree: 93%
 
 ---
 
@@ -24,6 +24,41 @@ ht-degree: 99%
 >id="ajo_journey_read_segment"
 >title="Activité Lecture d’audience"
 >abstract="L’activité Lecture d’audience vous permet de faire entrer dans un parcours toutes les personnes appartenant à une audience Adobe Experience Platform. L’entrée dans un parcours peut être effectuée une fois, ou régulièrement."
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_read_segment_scheduler_start_date"
+>title="Date/heure de début"
+>abstract="Définissez la date et l’heure de déclenchement de ce parcours."
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_read_segment_scheduler_repeat_until"
+>title="Répéter jusqu’à"
+>abstract="Définissez la date de fin de la période."
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_read_segment_scheduler_repeat_every"
+>title="Répéter tous les"
+>abstract="Définissez une fréquence de planificateur récurrent."
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_read_segment_scheduler_incremental_read"
+>title="Lecture incrémentielle"
+>abstract="Autoriser uniquement les nouveaux profils depuis la dernière lecture à entrer dans le parcours."
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_read_segment_scheduler_force_reentrance"
+>title="Forcer une rentrée"
+>abstract="Déposez tous les participants au parcours avant chaque lecture d’audience."
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_read_segment_scheduler_synchronize_audience"
+>title="Synchroniser l’exécution du parcours avec l’exportation de l’audience"
+>abstract="Activez cette option pour déclencher le parcours une fois qu’une nouvelle exportation de l’audience est disponible."
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_read_segment_scheduler_synchronize_audience_wait_time"
+>title="Synchroniser l’exécution du parcours avec l’exportation de l’audience"
+>abstract="Spécifiez la durée pendant laquelle le parcours attendra pour s’assurer qu’une nouvelle exportation de l’audience est disponible."
 
 Utilisez l’activité **Lecture d’audience** pour que toutes les personnes d’une audience rejoignent le parcours. L’entrée dans un parcours peut être effectuée une fois, ou régulièrement.
 
@@ -46,7 +81,7 @@ Prenons l’exemple de l’audience « Ouverture et passage en caisse de l’ap
 * Les audiences [importées d’un fichier CSV](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=fr#import-audience) ou résultant de [workflows de composition](../audience/get-started-audience-orchestration.md) peuvent être sélectionnées dans l’activité **Lecture d’audience**. Ces audiences ne sont pas disponibles dans l’activité **Qualification de l’audience**.
 
 
-Les mécanismes de sécurisation liés à l’activité **Lecture d’audience** sont répertoriés sur [cette page](../start/guardrails.md#read-segment-g).
+Les mécanismes de sécurisation liés à l’activité **Lecture d’audience** sont répertoriées sur [cette page](../start/guardrails.md#read-segment-g).
 
 
 ## Configurer l’activité {#configuring-segment-trigger-activity}
@@ -63,7 +98,7 @@ Les étapes de configuration de l’activité Lecture d’audience sont les suiv
 
    >[!NOTE]
    >
-   >Vous pouvez également cibler les audiences Adobe Experience Platform créées à l’aide des [compositions d’audience](../audience/get-started-audience-orchestration.md) ou [chargées à partir d’un fichier CSV](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=fr#import-audience){target="_blank"}.
+   >En outre, vous pouvez également cibler les audiences Adobe Experience Platform créées à l’aide de [compositions d’audience](../audience/get-started-audience-orchestration.md) ou [téléchargées à partir d’un fichier CSV](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=fr#import-audience){target="_blank"}.
 
    Notez que vous pouvez personnaliser les colonnes affichées dans la liste et les trier.
 
