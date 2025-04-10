@@ -7,10 +7,10 @@ role: User
 level: Experienced
 keyword: direct, mail, configuration, direct-mail, provider
 exl-id: ae5cc885-ade1-4683-b97e-eda1f2142041
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+source-git-commit: 02571632e5f49ebf4fcc97d27c4025e9938795c0
 workflow-type: tm+mt
-source-wordcount: '1311'
-ht-degree: 98%
+source-wordcount: '1344'
+ht-degree: 96%
 
 ---
 
@@ -24,11 +24,14 @@ Avant de pouvoir générer ce fichier, vous devez créer les éléments suivants
 
 1. [Une configuration du routage des fichiers](#file-routing-configuration) pour spécifier le serveur sur lequel le fichier sera exporté et chiffré, le cas échéant.
 
-   >[!CAUTION]
-   >
-   >Pour créer une configuration de routage de fichier, vous devez disposer de l’autorisation intégrée **[!DNL Manage file routing]**. [En savoir plus](../administration/ootb-product-profiles.md#content-library-manager)
-
 1. [Une configuration du publipostage direct](#direct-mail-configuration) qui fera référence à la configuration du routage des fichiers. Si vous n’avez configuré aucune option de routage de fichier, vous ne pourrez pas créer de configuration de publipostage direct.
+
+
+>[!CAUTION]
+>
+>* Pour créer une configuration de routage de fichier, vous devez disposer de l’autorisation intégrée **[!DNL Manage file routing]**. [En savoir plus](../administration/ootb-product-profiles.md#content-library-manager)
+>
+>* Les fichiers de publipostage direct ne sont générés qu’au moment de l’exportation ; le système ne stocke pas indéfiniment les exportations plus anciennes. Pour une sauvegarde plus longue ou permanente, configurez une option de routage des fichiers (SFTP ou stockage dans le cloud).
 
 ## Configurer le routage des fichiers {#file-routing-configuration}
 
