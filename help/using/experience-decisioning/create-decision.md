@@ -9,7 +9,7 @@ exl-id: 63aa1763-2220-4726-a45d-3a3a8b8a55ec
 source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
 workflow-type: tm+mt
 source-wordcount: '1756'
-ht-degree: 89%
+ht-degree: 90%
 
 ---
 
@@ -31,11 +31,11 @@ Les politiques de décision sont des conteneurs pour vos offres qui tirent profi
 
 Les principales étapes pour utiliser les politiques de décision dans vos campagnes basées sur du code sont les suivantes :
 
-1. [Ajout d’une politique de décision à une expérience basée sur du code](#add-decision)
+1. [Ajouter une politique de décision à une expérience basée sur du code](#add-decision)
 1. [Utiliser la politique de décision](#use-decision-policy)
 1. [Créer des tableaux de bord de rapports Customer Journey Analytics personnalisés](cja-reporting.md)
 
-## Ajout d’une politique de décision à une expérience basée sur du code {#add-decision}
+## Ajouter une politique de décision à une expérience basée sur du code {#add-decision}
 
 >[!CONTEXTUALHELP]
 >id="ajo_code_based_item_number"

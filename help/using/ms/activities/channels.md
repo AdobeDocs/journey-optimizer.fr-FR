@@ -38,12 +38,12 @@ Commencez à créer votre campagne à plusieurs étapes avec les activités pert
 
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_sms"
->title="Activité SMS"
+>title="Activité SMS"
 >abstract="L’activité SMS permet d’envoyer des SMS dans votre campagne à plusieurs étapes pour les messages ponctuels et récurrents. Elle permet d’automatiser le processus d’envoi de SMS à une cible calculée dans la même campagne à plusieurs étapes. Vous pouvez combiner des activités de canal dans la zone de travail de campagne à plusieurs étapes, afin de créer des campagnes cross-canal pouvant déclencher des actions en fonction du comportement de la clientèle et des données."
 
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_push_ios"
->title="Activité Notification push iOS"
+>title="Activité Notification push iOS"
 >abstract="L’activité Notification push iOS permet d’envoyer des notifications push iOS dans le cadre de votre campagne à plusieurs étapes. Elle permet la diffusion de campagnes à plusieurs étapes ponctuelles et récurrentes, en automatisant l’envoi de notifications push iOS à une cible prédéfinie dans le même workflow. Vous pouvez combiner des activités de canal dans la zone de travail du workflow afin de créer des workflows cross-canal pouvant déclencher des actions en fonction du comportement et des données de la clientèle."
 
 >[!CONTEXTUALHELP]

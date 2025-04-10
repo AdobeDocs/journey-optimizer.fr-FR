@@ -10,8 +10,8 @@ level: Beginner, Intermediate
 exl-id: 1fc708e1-a993-4a2a-809c-c5dc08a4bae1
 source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
 workflow-type: tm+mt
-source-wordcount: '1469'
-ht-degree: 77%
+source-wordcount: '1505'
+ht-degree: 96%
 
 ---
 
@@ -23,17 +23,17 @@ Pour gérer vos fragments, accédez à la liste des fragments à partir du menu 
 
 Tous les fragments qui ont été créés sur le sandbox actuel, soit [à partir du menu **[!UICONTROL Fragments]**](#create-fragments), soit à l’aide de l’option [Enregistrer en tant que fragment](#save-as-fragment), s’affichent.
 
-Le volet de gauche vous permet d’organiser les fragments en dossiers. Par défaut, tous les fragments sont affichés. Lors de la sélection d’un dossier, seuls les fragments et les dossiers inclus dans le dossier sélectionné s’affichent. [En savoir plus](#folders)
+Dans le volet de gauche, vous pouvez organiser les fragments en dossiers. Par défaut, tous les fragments s’affichent. Lorsque vous sélectionnez un dossier, seuls les fragments et les dossiers qu’il contient s’affichent. [En savoir plus](#folders)
 
 >[!NOTE]
 >
->Les dossiers de fragments ne sont disponibles que pour un ensemble d’organisations (disponibilité limitée) et seront progressivement déployés auprès d’un plus grand nombre d’utilisateurs.
+>Les dossiers de fragments ne sont disponibles que pour un ensemble d’organisations (disponibilité limitée) et seront progressivement déployés pour davantage d’utilisateurs et d’utilisatrices.
 
 ![](assets/fragment-list-folders.png)
 
 Pour trouver un élément spécifique, commencez à saisir un nom dans le champ de recherche. Lorsqu’un [dossier](#folders) est sélectionné, la recherche s’applique à tous les fragments ou dossiers du premier niveau de hiérarchie de ce dossier<!--(not nested items)-->.
 
-Vous pouvez filtrer les fragments selon leur :
+Vous pouvez filtrer les fragments en fonction des éléments suivants :
 
 * Statut (Brouillon ou Actif)
 * Type (visuel ou d’expression)
@@ -41,7 +41,7 @@ Vous pouvez filtrer les fragments selon leur :
 * État (archivé ou non)
 * Balises
 
-![](assets/fragment-list-filters.png){width="90%" align="left"}
+![](assets/fragment-list-filters.png){width="90%" align="left"}{width=« 90% » align=« left »}
 
 Vous pouvez choisir d’afficher tous les fragments ou uniquement les éléments créés ou modifiés par la personne y ayant accès.
 
@@ -61,20 +61,20 @@ Cliquez sur le bouton **[!UICONTROL Plus d’actions]** en regard de chaque frag
 
 >[!CONTEXTUALHELP]
 >id="ajo_fragments_folders"
->title="Organisation des fragments dans des dossiers"
+>title="Organiser les fragments dans des dossiers"
 >abstract="Utilisez des dossiers pour classer et gérer vos fragments en fonction des besoins de votre organisation."
 
 >[!AVAILABILITY]
 >
->Les dossiers de fragments ne sont disponibles que pour un ensemble d’organisations (disponibilité limitée) et seront progressivement déployés auprès d’un plus grand nombre d’utilisateurs.
+>Les dossiers de fragments ne sont disponibles que pour un ensemble d’organisations (disponibilité limitée) et seront progressivement déployés pour davantage d’utilisateurs et d’utilisatrices.
 
-Pour parcourir facilement vos fragments, vous pouvez utiliser des dossiers pour les organiser plus efficacement dans une hiérarchie structurée. Vous pouvez ainsi catégoriser et gérer les éléments en fonction des besoins de votre organisation.
+Pour naviguer facilement dans vos fragments, vous pouvez utiliser des dossiers pour mieux les organiser dans une hiérarchie structurée. Vous pouvez ainsi classer et gérer les éléments en fonction des besoins de votre organisation.
 
 ![](assets/fragment-folders.png)
 
 1. Cliquez sur le bouton **[!UICONTROL Tous les fragments]** pour afficher tous les éléments créés précédemment sans le regroupement de dossiers.
 
-1. Cliquez sur le dossier **[!UICONTROL Racine]** pour afficher tous les dossiers créés.
+1. Cliquez sur le dossier **[!UICONTROL racine]** pour afficher tous les dossiers créés.
 
    >[!NOTE]
    >
@@ -82,21 +82,21 @@ Pour parcourir facilement vos fragments, vous pouvez utiliser des dossiers pour 
 
 1. Cliquez sur n’importe quel dossier à l’intérieur du dossier **[!UICONTROL racine]** pour afficher son contenu.
 
-1. Cliquez sur le dossier **[!UICONTROL Racine]** ou sur tout autre dossier pour afficher le bouton **[!DNL Create folder]** . Sélectionnez-la.
+1. Cliquez sur le dossier **[!UICONTROL racine]** ou sur n’importe quel autre dossier pour afficher le bouton **[!DNL Create folder]**. Sélectionnez-le.
 
    ![](assets/fragment-create-folder.png)
 
-1. Saisissez le nom du nouveau dossier, puis cliquez sur **[!UICONTROL Enregistrer]**. Le nouveau dossier s’affiche en haut de la liste des fragments dans le dossier **[!UICONTROL Racine]** ou dans le dossier actuellement sélectionné.
+1. Saisissez le nom du nouveau dossier, puis cliquez sur **[!UICONTROL Enregistrer]**. Le nouveau dossier s’affiche en haut de la liste des fragments dans le dossier **[!UICONTROL racine]** ou dans le dossier actuellement sélectionné.
 
-1. Vous pouvez cliquer sur le bouton **[!UICONTROL Autres actions]** pour renommer ou supprimer le dossier.
+1. Vous pouvez cliquer sur le bouton **[!UICONTROL Plus d’actions]** pour renommer ou supprimer le dossier.
 
    ![](assets/fragment-folder-more-actions.png)
 
-1. À l’aide du bouton **[!UICONTROL Autres actions]**, vous pouvez également déplacer le fragment vers un autre dossier existant.
+1. Le bouton **[!UICONTROL Plus d’actions]** vous permet de également déplacer le fragment vers un autre dossier existant.
 
    ![](assets/fragment-folder-moved.png)
 
-1. Vous pouvez maintenant accéder au dossier que vous venez de créer. Chaque nouveau fragment que vous [créez](create-fragments.md) à partir d’ici est enregistré dans le dossier actif.
+1. Vous pouvez maintenant accéder au dossier que vous venez de créer. Chaque nouveau fragment que vous [créez](create-fragments.md) ici est enregistré dans le dossier actif.
 
    ![](assets/fragment-folder-create.png)
 
@@ -143,7 +143,7 @@ Pour modifier un fragment, procédez comme suit.
 
 1. Si le fragment en cours de modification a le statut **[!UICONTROL Actif]**, cliquez sur le bouton **[!UICONTROL Modifier]** pour créer une version brouillon du fragment. Cliquez sur **[!UICONTROL Confirmer]**.
 
-   ![](assets/fragment-live-modify.png){width="70%" align="left"}
+   ![](assets/fragment-live-modify.png){width="70%" align="left"}{width=« 70% » align=« left »}
 
    >[!NOTE]
    >
@@ -153,7 +153,7 @@ Pour modifier un fragment, procédez comme suit.
 
 1. Pour modifier le contenu du fragment, cliquez sur le bouton **[!UICONTROL Modifier]**, puis modifiez votre contenu comme vous le feriez lors de la création d’un fragment à partir de zéro. [Découvrir comment créer un fragment](create-fragments.md#content)
 
-   ![](assets/fragment-edit.png){width="70%" align="left"}
+   ![](assets/fragment-edit.png){width="70%" align="left"}{width=« 70% » align=« left »}
 
    >[!NOTE]
    >
@@ -179,13 +179,13 @@ Pour incorporer des attributs supplémentaires à un fragment actif, procédez c
 
 1. Dupliquez le fragment existant à l’aide du bouton **[!UICONTROL Autres actions]**.
 
-   ![](assets/fragment-list-more-actions.png){width="70%" align="left"}
+   ![](assets/fragment-list-more-actions.png){width="70%" align="left"}{width=« 70% » align=« left »}
 
 1. Sélectionnez le fragment dupliqué pour l’ouvrir et cliquez sur le bouton **[!UICONTROL Modifier]**.
 
 1. [Ajoutez les nouveaux attributs souhaités](../personalization/personalization-build-expressions.md#add) au fragment dupliqué, tels que les champs de personnalisation.
 
-   ![](assets/fragment-add-new-attribute.png){width="70%" align="left"}
+   ![](assets/fragment-add-new-attribute.png){width="70%" align="left"}{width=« 70% » align=« left »}
 
 1. Enregistrez vos modifications et publiez le nouveau fragment. [Voici comment procéder](create-fragments.md#publish)
 
@@ -198,11 +198,11 @@ Pour incorporer des attributs supplémentaires à un fragment actif, procédez c
 
 Vous pouvez afficher la liste des parcours, des campagnes et des modèles de contenu qui utilisent actuellement un fragment. Pour ce faire, sélectionnez **[!UICONTROL Explorer les références]**, soit à partir du menu **[!UICONTROL Autres actions]** dans la liste des fragments, soit dans l’écran des propriétés du fragment.
 
-![](assets/fragment-explore-references.png){width="70%" align="left"}
+![](assets/fragment-explore-references.png){width="70%" align="left"}{width=« 70% » align=« left »}
 
 Sélectionnez un onglet pour basculer entre les parcours, les campagnes, les modèles et les fragments. Vous pouvez voir leur statut et cliquer sur un nom pour le rediriger vers l’élément correspondant où le fragment est référencé.
 
-![](assets/fragment-usage-screen.png){width="70%" align="left"}
+![](assets/fragment-usage-screen.png){width="70%" align="left"}{width=« 70% » align=« left »}
 
 >[!NOTE]
 >
@@ -214,7 +214,7 @@ Vous pouvez supprimer de la liste des fragments des éléments qui ne sont plus 
 
 Pour ce faire, cliquez sur l’icône **[!UICONTROL Plus d’actions]** en regard du fragment souhaité, puis sélectionnez **[!UICONTROL Archiver]**. Il disparaîtra de la liste des fragments, ce qui empêche leur utilisation dans les futurs e-mails ou modèles.
 
-![](assets/fragment-list-archive.png){width="70%" align="left"}
+![](assets/fragment-list-archive.png){width="70%" align="left"}{width=« 70% » align=« left »}
 
 >[!NOTE]
 >
@@ -222,7 +222,7 @@ Pour ce faire, cliquez sur l’icône **[!UICONTROL Plus d’actions]** en regar
 
 Pour désarchiver un fragment, filtrez sur les éléments **[!UICONTROL archivés]** et sélectionnez **[!UICONTROL Désarchiver]** dans le menu **[!UICONTROL Autres actions]**. Le fragment est à nouveau accessible à partir de la liste des fragments et peut être utilisé dans n’importe quel e-mail ou modèle.
 
-![](assets/fragment-list-unarchive.png){width="70%" align="left"}
+![](assets/fragment-list-unarchive.png){width="70%" align="left"}{width=« 70% » align=« left »}
 
 ## Exporter des fragments vers un autre sandbox {#export}
 
