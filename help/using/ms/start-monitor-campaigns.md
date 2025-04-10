@@ -8,8 +8,8 @@ hidefromtoc: true
 exl-id: 5fc2d1d6-75c3-4b45-bb2b-09982b9bd5ed
 source-git-commit: 990d49202a790b5a117a7da665ed32f52f27b554
 workflow-type: tm+mt
-source-wordcount: '593'
-ht-degree: 46%
+source-wordcount: '571'
+ht-degree: 47%
 
 ---
 
@@ -34,7 +34,7 @@ Une fois la campagne à plusieurs étapes en cours d’exécution, chaque activi
 
 Vous pouvez suivre la progression des profils ciblés en temps réel à l’aide du flux visuel. Vous pouvez ainsi identifier rapidement le statut de chaque activité et le nombre de profils qu’elle contient.
 
-![](assets/workflow-execution.png){zoomable="yes"}{zoomable=&quot;yes&quot;}
+![](assets/workflow-execution.png){zoomable="yes"}
 
 ## Transitions de campagne à plusieurs étapes {#transitions}
 
@@ -43,7 +43,7 @@ Dans les campagnes à plusieurs étapes, les données transportées d’une acti
 * Cliquez sur **[!UICONTROL Aperçu du schéma]** pour afficher le schéma de la table de travail.
 * Cliquez sur **[!UICONTROL Aperçu des résultats]** pour visualiser les données véhiculées dans la transition sélectionnée.
 
-![](assets/transition.png){zoomable="yes"}{zoomable=&quot;yes&quot;}
+![](assets/transition.png){zoomable="yes"}
 
 ## Surveiller l’exécution des activités {#activities}
 
@@ -51,17 +51,17 @@ Les indicateurs visuels situés dans le coin supérieur droit de chaque activit�
 
 | Indicateur visuel | Description |
 |-----|------------|
-| ![](assets/activity-status-pending.png){zoomable="yes"}{width="70%"}{zoomable=« yes »}{width=« 70%« } | L’activité est en cours d’exécution. |
-| ![](assets/activity-status-orange.png){zoomable="yes"}{width="70%"}{zoomable=« yes »}{width=« 70%« } | L’activité nécessite votre attention. Vous devez, par exemple, confirmer l’envoi d’une diffusion ou prendre une mesure nécessaire. |
-| ![](assets/activity-status-red.png){zoomable="yes"}{width="70%"}{zoomable=« yes »}{width=« 70%« } | L’activité a rencontré une erreur. Pour résoudre ce problème, ouvrez les journaux de campagne à plusieurs étapes pour plus d’informations. |
-| ![](assets/activity-status-green.png){zoomable="yes"}{width="70%"}{zoomable=« yes »}{width=« 70%« } | L’activité a été exécutée correctement. |
+| ![](assets/activity-status-pending.png){zoomable="yes"}{width="70%"} | L’activité est en cours d’exécution. |
+| ![](assets/activity-status-orange.png){zoomable="yes"}{width="70%"} | L’activité nécessite votre attention. Vous devez, par exemple, confirmer l’envoi d’une diffusion ou prendre une mesure nécessaire. |
+| ![](assets/activity-status-red.png){zoomable="yes"}{width="70%"} | L’activité a rencontré une erreur. Pour résoudre ce problème, ouvrez les journaux de campagne à plusieurs étapes pour plus d’informations. |
+| ![](assets/activity-status-green.png){zoomable="yes"}{width="70%"} | L’activité a été exécutée correctement. |
 
 ## Surveiller les logs et les tâches {#logs-tasks}
 
 La surveillance des logs et des tâches de workflows est une étape essentielle pour analyser vos campagnes à plusieurs étapes et vérifier qu&#39;elles s&#39;exécutent correctement. Les logs sont accessibles à partir de l’icône **[!UICONTROL Logs]**, située dans la barre d’outils d’actions et dans le volet des propriétés de chaque activité.
 
 Le menu **[!UICONTROL Logs et tâches]** fournit un historique de l’exécution de la campagne à plusieurs étapes, enregistrant toutes les actions des utilisateurs et utilisatrices ainsi que les erreurs rencontrées.
-![](assets/workflow-logs.png){zoomable="yes"}{zoomable=&quot;yes&quot;}
+![](assets/workflow-logs.png){zoomable="yes"}
 
 Deux types d’informations sont disponibles :
 

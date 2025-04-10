@@ -11,8 +11,8 @@ keywords: parcours, configuration, propriétés
 exl-id: 6c21371c-6cbc-4d39-8fe6-39f1b8b13280
 source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
 workflow-type: tm+mt
-source-wordcount: '2298'
-ht-degree: 95%
+source-wordcount: '2304'
+ht-degree: 97%
 
 ---
 
@@ -53,7 +53,7 @@ Le mode d’entrée des profils est défini au niveau du parcours, dans le volet
 
 La gestion des entrées de profil dépend du type de parcours. Pour en savoir plus sur la gestion des entrées et des reprises de profil, consultez [cette page](entry-management.md).
 
-### Autoriser une nouvelle rentrée  {#allow-reentrance}
+### Autoriser une nouvelle rentrée   {#allow-reentrance}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_properties_entrance"
@@ -63,7 +63,7 @@ La gestion des entrées de profil dépend du type de parcours. Pour en savoir pl
 
 Par défaut, les nouveaux parcours autorisent la rentrée. Vous pouvez désélectionner l’option **Autoriser la rentrée** pour les parcours « uniques », par exemple, si vous souhaitez offrir un cadeau unique à un utilisateur ou une utilisatrice qui effectue sa première visite dans la boutique.
 
-### Période d’attente de nouvelle entrée  {#reentrance-wait}
+### Période d’attente de nouvelle entrée   {#reentrance-wait}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_properties_re-entrance_wait"
@@ -243,19 +243,19 @@ Une personne ne peut entrer dans une activité d’attente que si elle dispose d
 
 ## Politiques de fusion {#merge-policies}
 
-Adobe Journey Optimizer utilise des politiques de fusion lors de la récupération des données de profil de Adobe Experience Platform. Selon le type de parcours, différentes politiques de fusion sont utilisées :
+Adobe Journey Optimizer utilise des politiques de fusion lors de la récupération des données de profil d’Adobe Experience Platform. Selon le type de parcours, différentes politiques de fusion sont utilisées :
 
 * Dans les parcours Lecture d’audience ou Qualification d’audience : la politique de fusion de l’audience est utilisée
 * Dans les parcours d’événements unitaires : la politique de fusion par défaut est utilisée.
 * Dans les parcours d’événements métier : la politique de fusion de l’audience ciblée dans l’activité Lecture d’audience suivante est utilisée.
 
-Adobe Journey Optimizer applique la politique de fusion utilisée dans l’ensemble du parcours. Par conséquent, si de multiples audiences sont utilisées dans un parcours (par exemple dans les fonctions « inAudience »), créant des incohérences avec la politique de fusion utilisée par le parcours, une erreur se produit et la publication est bloquée. Cependant, si une audience incohérente est utilisée dans la personnalisation des messages, une alerte n’est pas déclenchée, malgré l’incohérence. C’est pourquoi il est vivement recommandé de vérifier la politique de fusion associée à votre audience lorsque cette audience est utilisée dans la personnalisation des messages.
+Adobe Journey Optimizer applique la politique de fusion utilisée tout au long du parcours. Par conséquent, si de multiples audiences sont utilisées dans un parcours (par exemple dans les fonctions « inAudience »), créant des incohérences avec la politique de fusion utilisée par le parcours, une erreur se produit et la publication est bloquée. Cependant, si une audience incohérente est utilisée dans la personnalisation des messages, une alerte n’est pas déclenchée, malgré l’incohérence. C’est pourquoi il est vivement recommandé de vérifier la politique de fusion associée à votre audience lorsque cette audience est utilisée dans la personnalisation des messages.
 
-Pour en savoir plus sur les politiques de fusion, consultez la documentation de [Adobe Experience Platform](https://experienceleague.adobe.com/fr/docs/experience-platform/profile/merge-policies/overview){target="_blank"}.
+Pour en savoir plus sur les politiques de fusion, consultez la [documentation de Adobe Experience Platform](https://experienceleague.adobe.com/fr/docs/experience-platform/profile/merge-policies/overview){target="_blank"}{target=« _blank »}.
 
 >[!NOTE]
 >
->Lorsqu’une politique de fusion d’audience est mise à jour, tout parcours actif référençant cette audience doit être republié (ou dupliqué). La modification de la politique de fusion crée de fait une « nouvelle » audience à laquelle le parcours en cours ne peut pas accéder, ce qui garantit la cohérence des données.
+>Lorsque vous mettez à jour une politique de fusion d’audience, vous devez republier (ou dupliquer) tout parcours actif référençant cette audience. La modification de la politique de fusion crée de fait une « nouvelle » audience à laquelle le parcours en cours ne peut pas accéder, ce qui garantit la cohérence des données.
 
 ## Critères de sortie {#exit-criteria}
 
@@ -293,7 +293,7 @@ Pour **créer** un critère de sortie, procédez comme suit :
 
 Vous pouvez ajouter plusieurs critères de sortie.
 
-![](assets/exitcriteria-sample.png){width="40%" align="left"}
+![](assets/exitcriteria-sample.png){width="40%" align="left"}{width=« 40% » align=« left »}
 
 ### Mécanismes de sécurisation et limitations {#exit-criteria-guardrails}
 

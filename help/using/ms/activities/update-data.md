@@ -5,14 +5,15 @@ title: Utiliser l’activité Mise à jour de données dans vos campagnes à plu
 description: Découvrez comment utiliser l’activité Mettre à jour les données .
 hide: true
 hidefromtoc: true
-source-git-commit: dfa6c6e11db10f3e843035d32e322b212361548c
+exl-id: 68e7c929-5f07-4d5a-9831-690e071947f8
+source-git-commit: 323472ef9d6203cbbadc44ceb17ddcc7f6207323
 workflow-type: tm+mt
 source-wordcount: '503'
 ht-degree: 74%
 
 ---
 
-# Mise à jour de données {#update-data}
+# Mettre à jour les données {#update-data}
 
 L’activité **Mise à jour de données** est une activité de **Gestion des données**. L’activité Mise à jour de données permet de mettre à jour en masse les champs de la base de données. Plusieurs options vous permettent de personnaliser la mise à jour des données.
 

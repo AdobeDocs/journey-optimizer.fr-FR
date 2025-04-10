@@ -12,7 +12,7 @@ exl-id: 1e1d90ff-df5d-4432-a63a-a32d0d281d48
 source-git-commit: 7ca149d420f802a6230e699cffefddc4117cb85e
 workflow-type: tm+mt
 source-wordcount: '199'
-ht-degree: 73%
+ht-degree: 100%
 
 ---
 
@@ -44,4 +44,4 @@ Dans cet exemple, nous allons ajuster la marge intérieure et l&#39;alignement v
 
 >[!TIP]
 >
->Lors de la conception de contenu d’e-mail pour Gmail sur les appareils Android, assurez-vous que les images et les séparateurs utilisent la marge intérieure des colonnes plutôt que de larges marges fixes. Gmail sur Android effectue souvent un rendu incorrect des images et des marges surdimensionnées, ce qui entraîne un débordement de la disposition ou une réduction des lignes de séparation. Utilisez une largeur d’image plus petite ou utilisez la marge intérieure basée sur les colonnes pour un affichage cohérent.
+>Lors de la conception de contenu d’e-mail pour Gmail sur les appareils Android, assurez-vous que les images et les séparateurs utilisent la marge intérieure des colonnes plutôt que de grandes marges fixes. Gmail sur Android effectue souvent un rendu surdimensionné des images et incorrect des marges, ce qui entraîne un débordement de la disposition ou une réduction des lignes de séparation. Utilisez une largeur d’image plus petite ou utilisez la marge intérieure basée sur les colonnes pour un affichage cohérent.

@@ -11,7 +11,7 @@ exl-id: e73cdca9-3e83-4642-a2bb-d5453afa77fe
 source-git-commit: 1af75a0e6bfc2c3b9c565c3190f46d137a68d32e
 workflow-type: tm+mt
 source-wordcount: '787'
-ht-degree: 91%
+ht-degree: 97%
 
 ---
 
@@ -65,7 +65,7 @@ Le graphe **[!UICONTROL Performances des pages de destination dans le temps]** m
 
 * **[!UICONTROL Vues de la page de destination]** : nombre total de visites sur votre page de destination provenant de parcours et de sources externes, y compris les visites multiples dʼun seul profil.
 
-* **[!UICONTROL Conversion de page de destination]** : nombre de personnes ayant interagi avec la page de destination, par exemple celles qui se sont inscrites à un formulaire, par rapport au nombre total de visites.
+* **[!UICONTROL Conversion de la page de destination]** : nombre de personnes ayant interagi avec la page de destination, par exemple le nombre de personnes inscrites à un formulaire par rapport au nombre total de visites.
 
 ## Performances des pages de destination {#lp-performance}
 
@@ -79,7 +79,7 @@ Le tableau **[!UICONTROL Performances des pages de destination]** constitue un t
 
 * **[!UICONTROL Vues uniques de la page de destination]** : nombre de personnes ayant visité votre page de destination, les visites multiples dʼun même profil ne sont pas prises en compte.
 
-* **[!UICONTROL Conversion unique de page de destination]** : nombre de personnes ayant interagi avec la page de destination, les interactions multiples d’un profil ne sont pas prises en compte.
+* **[!UICONTROL Conversion unique de la page de destination]** : nombre de personnes ayant interagi avec la page de destination, sans prendre en compte les interactions multiples dʼun même profil.
 
 * **[!UICONTROL Vues de la page de destination]** : nombre total de visites sur votre page de destination provenant de parcours et de sources externes, y compris les visites multiples dʼun seul profil.
 

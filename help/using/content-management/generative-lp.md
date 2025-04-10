@@ -9,7 +9,7 @@ role: User
 level: Beginner
 exl-id: d38c3b44-9183-4537-a9dd-fd7761328cc1
 source-git-commit: c3d256fcd06eb096a589d1154a0a4c97462005a9
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1545'
 ht-degree: 100%
 
@@ -44,7 +44,7 @@ Dans l’exemple suivant, nous allons utiliser l’Assistant IA pour affiner un 
 
    ![](assets/lp-full-gen-1.png){zoomable="yes"}
 
-1. Activez l’option **[!UICONTROL Utiliser le contenu original]** de l’assistant IA afin de personnaliser le nouveau contenu en fonction du contenu sélectionné.
+1. Activez l’option **[!UICONTROL Utiliser le contenu original]** de l’Assistant IA afin de personnaliser le nouveau contenu en fonction du contenu sélectionné.
 
 1. Affinez le contenu en décrivant ce que vous souhaitez générer dans le champ **[!UICONTROL Prompt]**.
 
@@ -108,7 +108,7 @@ Dans l’exemple suivant, nous allons utiliser l’Assistant IA pour améliorer 
 
    ![](assets/lp-text-gen-1.png){zoomable="yes"}
 
-1. Activez l’option **[!UICONTROL Utiliser le contenu original]** de l’assistant IA afin de personnaliser le nouveau contenu en fonction du contenu sélectionné.
+1. Activez l’option **[!UICONTROL Utiliser le contenu original]** de l’Assistant IA afin de personnaliser le nouveau contenu en fonction du contenu sélectionné.
 
 1. Affinez le contenu en décrivant ce que vous souhaitez générer dans le champ **[!UICONTROL Prompt]**.
 

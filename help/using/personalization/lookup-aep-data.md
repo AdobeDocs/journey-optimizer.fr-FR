@@ -11,7 +11,7 @@ level: Intermediate
 keywords: expression, éditeur
 exl-id: 2fc10fdd-ca9e-46f0-94ed-2d7ea4de5baf
 source-git-commit: 47ff62f7dee5974afbffdd38dfe4a3f967781e93
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1044'
 ht-degree: 100%
 
@@ -121,7 +121,7 @@ Une fois qu’un jeu de données a été activé pour la personnalisation de la 
 
    ![](assets/aep-data-dataset.png)
 
-   +++
++++
 
 1. Adaptez la syntaxe à vos besoins. Dans cet exemple, nous allons récupérer les données relatives aux vols des passagères et passagers. La syntaxe se présente comme suit :
 
@@ -152,7 +152,7 @@ Une fois qu’un jeu de données a été activé pour la personnalisation de la 
 
      ![](assets/aep-data-field.png)
 
-     +++
++++
 
    Dans cet exemple, nous allons utiliser des informations relatives à l’heure et à la porte d’embarquement des passagères et passagers. Nous ajoutons donc ces deux lignes :
 

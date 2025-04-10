@@ -7,10 +7,11 @@ feature: Release Notes
 topic: Content Management
 role: User
 level: Beginner, Intermediate
-source-git-commit: e80554570d62d1ddb52516366be55711387c5d19
+exl-id: aa8c74de-748b-4947-a972-14703f6ab4a7
+source-git-commit: 484418c66837c11a516cf4573b54d6249f51930f
 workflow-type: tm+mt
 source-wordcount: '677'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
@@ -39,7 +40,7 @@ Les nouvelles fonctionnalités de cette version sont présentées ci-dessous.
 <p>Vous pouvez désormais créer des règles métier à l’aide de jeux de règles. Les jeux de règles sont des groupes de règles qui vous permettent de limiter les messages envoyés dans les campagnes et les actions de parcours sur plusieurs canaux, ainsi que de contrôler les entrées de profils dans les parcours.<p>
 <p><ul><li>Créez des jeux de règles de canal pour limiter le nombre de messages envoyés sur un ou plusieurs canaux. Appliquez-les à des campagnes ou à des actions de parcours pour appliquer les règles définies dans le jeu de règles. Le jeu de règles de canal vous permet d’appliquer des règles de limitation en fonction des types de communications. Par exemple, définissez un jeu de règles pour limiter les « messages promotionnels » et un autre pour les « newsletters ». Appliquez le jeu de règles approprié dans votre campagne ou action de parcours en fonction du type de communication que vous envoyez.</li>
 <li> Créez des jeux de règles de parcours pour contrôler les entrées de profil dans les parcours. Limitez la fréquence à laquelle un profil peut rejoindre un parcours au cours d’une période donnée ou le nombre de parcours auxquels un profil peut être inscrit simultanément. Appliquez-les au niveau du parcours pour assurer une bonne gestion des entrées.</li></ul></p>
-<p>Auparavant disponibles pour un ensemble d’organisations (LA), les règles métier sont désormais disponibles pour tous les utilisateurs (GA). Les règles métier de domaine parcours restent disponibles uniquement pour un nombre restreint d’organisations (LA).</p>
+<p>Disponibles auparavant pour un ensemble d’organisations (disponibilité limitée), les règles métier sont désormais disponibles pour tous les utilisateurs et utilisatrices (disponibilité générale). Les règles métier de domaine parcours restent disponibles uniquement pour un nombre restreint d’organisations (disponibilité limitée).</p>
 <p>Pour plus d’informations, consultez la <a href="../configuration/rule-sets.md">documentation détaillée</a>.</p>
 </td>
 </tr>
@@ -90,8 +91,8 @@ Les nouvelles fonctionnalités de cette version sont présentées ci-dessous.
 <tbody>
 <tr>
 <td>
-<p>Vous pouvez désormais valider une configuration d’action personnalisée en effectuant des appels API réels directement depuis Adobe Journey Optimizer. Cette nouvelle fonctionnalité vous permet de résoudre les problèmes liés à vos actions personnalisées avant ou après leur utilisation dans un parcours. </p>
-<p>Pour plus d’informations, consultez la <a href="../action/troubleshoot-custom-action.md">documentation détaillée</a>.</p>
+<p>Vous pouvez désormais valider une configuration d’action personnalisée en effectuant des appels API réels directement depuis Adobe Journey Optimizer. Cette nouvelle fonctionnalité vous permet de résoudre les problèmes liés à vos actions personnalisées avant ou après leur utilisation dans un parcours. </p>
+<p>Pour plus d’informations, consultez la <a href="../action/troubleshoot-custom-action.md">documentation détaillée</a>.</p>
 <!--p> This capability is only available for a set of organizations (Limited Availability). To gain access, contact your Adobe representative.</p-->
 </td>
 </tr>
@@ -149,4 +150,3 @@ Les améliorations ci-dessous proviennent de la mise à jour de février.
   ![](../email/assets/surface-list-unsubscribe-custom.png){width="80%"}
 
 * **Prise de décision** (date de disponibilité : 28 janvier 2025) : la prise de décision prend désormais en charge les types de données d’objet lors de la modification du schéma du catalogue d’éléments. [En savoir plus](../experience-decisioning/catalogs.md)
-

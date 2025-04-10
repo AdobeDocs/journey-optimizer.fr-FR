@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Prise en main des messages WhatsApp
+title: Commencer avec les messages WhatsApp
 description: Découvrez comment créer et envoyer des messages WhatsApp dans Journey Optimizer
 feature: Whatsapp
 topic: Content Management
@@ -13,12 +13,12 @@ badge: label="Beta" type="Informative"
 exl-id: 22df2bfa-4d86-464e-ad83-3aa457e3a747
 source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
 workflow-type: tm+mt
-source-wordcount: '293'
-ht-degree: 11%
+source-wordcount: '295'
+ht-degree: 18%
 
 ---
 
-# Prise en main des messages WhatsApp {#get-started-whatsapp}
+# Commencer avec les messages WhatsApp {#get-started-whatsapp}
 
 >[!BEGINSHADEBOX]
 
@@ -27,7 +27,7 @@ ht-degree: 11%
 * **[Prise en main des messages WhatsApp](get-started-whatsapp.md)**
 * [Prise en main de la configuration de WhatsApp](whatsapp-configuration.md)
 * [Créer un message WhatsApp](create-whatsapp.md)
-* [Vérifier et envoyer vos messages WhatsApp](send-whatsapp.md)
+* [Vérifier et envoyer des messages WhatsApp](send-whatsapp.md)
 
 >[!ENDSHADEBOX]
 
@@ -41,7 +41,7 @@ Vous pouvez désormais envoyer des messages WhatsApp directement via Journey Opt
 
 * Dans une **Campagne**. Créez une campagne, sélectionnez **WhatsApp** comme action et définissez les paramètres de base, puis modifiez le contenu du message pour définir le message WhatsApp à envoyer. Découvrez comment créer une campagne sur [cette page](../campaigns/create-campaign.md#configure).
 
-![](assets/do-not-localize/whatsapp-beta.png){zoomable="yes"}
+![](assets/do-not-localize/whatsapp-beta.png){zoomable="yes"}{zoomable=&quot;yes&quot;}
 
 ## Prérequis {#prereq}
 

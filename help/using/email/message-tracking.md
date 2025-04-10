@@ -11,8 +11,8 @@ keywords: liens, tracking, surveillance, e-mail
 exl-id: 689e630a-00ca-4893-8bf5-6d1ec60c52e7
 source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
 workflow-type: tm+mt
-source-wordcount: '1198'
-ht-degree: 99%
+source-wordcount: '1200'
+ht-degree: 97%
 
 ---
 
@@ -73,7 +73,7 @@ Pour insérer des liens dans le contenu de votre e-mail, procédez comme suit :
 
    >[!NOTE]
    >
-   >Pour interpréter les URL, [!DNL Journey Optimizer] se conforme à la syntaxe URI ([Norme RFC 3986](https://datatracker.ietf.org/doc/html/rfc3986){target="_blank"}), qui désactive certains caractères internationaux spéciaux dans les URL. Lors de l’envoi du BAT ou de l’e-mail, si une erreur impliquant une URL ajoutée à votre contenu vous est renvoyée, vous pouvez encoder la chaîne comme solution de contournement.
+   >Pour interpréter les URL, [!DNL Journey Optimizer] se conforme à la syntaxe URI ([RFC 3986 standard](https://datatracker.ietf.org/doc/html/rfc3986){target=« _blank »}), qui désactive certains caractères internationaux spéciaux dans les URL. Lors de l’envoi du BAT ou de l’e-mail, si une erreur impliquant une URL ajoutée à votre contenu vous est renvoyée, vous pouvez encoder la chaîne comme solution de contournement.
 
 1. Vous pouvez personnaliser vos liens. [En savoir plus](../personalization/personalization-syntax.md#perso-urls).
 

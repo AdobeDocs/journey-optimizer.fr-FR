@@ -10,7 +10,7 @@ exl-id: 7099d44e-5d5d-4eef-9477-f68f4eaa1983
 source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
 workflow-type: tm+mt
 source-wordcount: '1839'
-ht-degree: 91%
+ht-degree: 99%
 
 ---
 
@@ -99,19 +99,19 @@ Pour attribuer ce **[!UICONTROL profil de produit]** aux utilisateurs, procédez
    ![](assets/push_product_7.png)
 
 
-### Vérifier vos jeux de données {#push-datasets}
+### Vérifier les jeux de données {#push-datasets}
 
-Les schémas et jeux de données suivants sont disponibles avec le canal Notification push :
+Les schémas et jeux de données suivants sont disponibles avec le canal de notification push :
 
-| Schéma <br>jeu de données | Groupe de champs | Opération |
+| Schéma <br>Jeu de données | Groupe de champs | Opération |
 | -------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------- |
-| Schéma de profil push CJM <br>jeu de données de profil push CJM) | Détails de la notification push<br>Adobe CJM ExperienceEvent - Détails du profil du message<br>Adobe CJM ExperienceEvent - Détails d’exécution du message<br>Détails de l’application<br>Détails de l’environnement | Jeton push d’enregistrement |
-| Schéma d’événement d’expérience de suivi des notifications push CJM<br>jeu de données d’événement d’expérience de suivi des notifications push CJM | Suivi des notifications push | Suivre les interactions et fournir des données pour l’interface utilisateur de création de rapports |
+| Schéma de profil de notification push CJM <br>Jeu de données de profil de notification push CJM | Détails de la notification push<br>Adobe CJM ExperienceEvent - Détails du profil du message<br>Adobe CJM ExperienceEvent - Détails d’exécution du message<br>Détails de l’application<br>Détails de l’environnement | Enregistrer un jeton push |
+| Schéma d’événement d’expérience de suivi des notifications push CJM<br>Jeu de données d’événement d’expérience de suivi des notifications push CJM | Suivi de notification push | Suivre les interactions et fournir des données pour l’interface d’utilisation de création de rapports |
 
 
 >[!NOTE]
 >
->Lorsque des événements de suivi push sont ingérés dans le jeu de données d’événement d’expérience de suivi push CJM, certains échecs peuvent se produire, même si les données sont partiellement ingérées avec succès. Cela peut se produire si certains champs de votre mappage n’existent pas dans les événements entrants : le système consigne les avertissements mais n’empêche pas l’ingestion de parties valides des données. Ces avertissements apparaissent dans le statut du lot comme « échec », mais reflètent un succès partiel de l’ingestion.
+>Lorsque des événements de suivi des notifications push sont ingérés dans le jeu de données d’événement d’expérience de suivi des notifications push CJM, certains échecs peuvent se produire, même si les données ont été partiellement ingérées. Cela peut se produire si certains champs de votre mappage n’existent pas dans les événements entrants : le système consigne les avertissements mais n’empêche pas l’ingestion de parties valides des données. Ces avertissements apparaissent dans le statut du lot comme « échec », mais reflètent un succès partiel de l’ingestion.
 >
 >Pour consulter la liste complète des champs et attributs de chaque schéma, consultez le [dictionnaire de schémas de Journey Optimizer](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=fr){target="_blank"}.
 

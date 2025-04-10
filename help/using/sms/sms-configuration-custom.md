@@ -30,12 +30,12 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="ajo_admin_sms_api_byop_header_parameters"
 >title="Paramètres d’en-tête"
->abstract="Spécifiez le libellé, le type et la valeur des en-têtes supplémentaires pour permettre une authentification, une mise en forme du contenu et une communication API efficaces. "
+>abstract="Spécifiez le libellé, le type et la valeur des en-têtes supplémentaires pour que l’authentification, la mise en forme du contenu et la communication avec l’API soient efficaces. "
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_sms_api_byop_provider_payload"
 >title="Payload du fournisseur"
->abstract="Fournissez le payload de la demande pour vous assurer que les données correctes sont envoyées pour le traitement et la génération de la réponse."
+>abstract="Fournissez le payload de la requête pour vous assurer que les bonnes données sont envoyées pour le traitement et la génération de la réponse."
 
 >[!AVAILABILITY]
 >

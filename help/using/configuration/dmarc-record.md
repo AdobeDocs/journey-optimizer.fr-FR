@@ -12,7 +12,7 @@ exl-id: f9e217f8-5aa8-4d3a-96fc-65defcb5d340
 source-git-commit: 7ca149d420f802a6230e699cffefddc4117cb85e
 workflow-type: tm+mt
 source-wordcount: '1482'
-ht-degree: 85%
+ht-degree: 100%
 
 ---
 
@@ -98,13 +98,13 @@ Pour vous assurer que l’enregistrement DMARC est configuré pour tous les sou
 
    >[!NOTE]
    >
-   >Selon qu’un enregistrement DMARC est trouvé avec le domaine parent ou non, vous pouvez choisir d’utiliser les valeurs du domaine parent ou de laisser Adobe gérer l’enregistrement DMARC. [En savoir plus](#implement-dmarc)
+   >Si un domaine parent comporte un enregistrement DMARC, vous pouvez choisir d’utiliser les valeurs de ce domaine ou de laisser Adobe gérer l’enregistrement DMARC. [En savoir plus](#implement-dmarc)
 
-1. Si vous modifiez un sous-domaine :
+1. Si vous modifiez un sous-domaine :
 
-   * [Délégation complète](delegate-subdomain.md#full-subdomain-delegation) à Adobe, aucune autre action n’est requise.
+   * Il est [Entièrement délégué](delegate-subdomain.md#full-subdomain-delegation) à Adobe, aucune autre action n’est requise.
 
-   * Configurez avec [CNAME](delegate-subdomain.md#cname-subdomain-delegation). Vous devez copier l’enregistrement DNS pour DMARC dans votre solution d’hébergement pour générer les enregistrements DNS correspondants.
+   * Si vous modifiez un [CNAME](delegate-subdomain.md#cname-subdomain-delegation), vous devez copier l’enregistrement DNS pour DMARC dans votre solution d’hébergement afin de générer les enregistrements DNS correspondants.
 
      ![](assets/dmarc-record-edit-cname.png)
 
@@ -126,17 +126,17 @@ Lors de la délégation de nouveaux sous-domaines à Adobe dans [!DNL Journey Op
 
 1. Accédez à la section **[!UICONTROL Enregistrement DMARC]**.
 
-1. Si un enregistrement DMARC est disponible sur le domaine parent associé à votre sous-domaine, deux options s’affichent :
+1. Si un enregistrement DMARC est disponible sur le domaine parent associé à votre sous-domaine, deux options s’affichent :
 
    ![](assets/dmarc-record-found.png)
 
-   * **[!UICONTROL Gérer avec Adobe]** : Adobe peut gérer l’enregistrement DMARC pour votre sous-domaine. Suivez les étapes présentées dans [cette section](#manage-dmarc-with-adobe).
+   * **[!UICONTROL Gérer avec Adobe]** : Adobe peut gérer l’enregistrement DMARC pour votre sous-domaine. Suivez les étapes présentées dans [cette section](#manage-dmarc-with-adobe).
 
-   * **[!UICONTROL Gérer seul]** : <!--This option is selected by default.-->cette option permet de gérer l’enregistrement DMARC en dehors de [!DNL Journey Optimizer], à l’aide des valeurs de votre domaine parent. Ces valeurs s’affichent dans l’interface, mais vous ne pouvez pas les modifier.
+   * **[!UICONTROL Gérer soi-même]** : <!--This option is selected by default.-->cette option vous permet de gérer l’enregistrement DMARC en dehors de [!DNL Journey Optimizer], à l’aide des valeurs de votre domaine parent. Ces valeurs s’affichent dans l’interface, mais vous ne pouvez pas les modifier.
 
      ![](assets/dmarc-record-found-own.png){width="80%"}
 
-1. Si aucun enregistrement DMARC n’est trouvé sur le domaine parent, seule l’option **[!UICONTROL Gérer avec Adobe]** est disponible. Suivez les étapes [ci-dessous](#manage-dmarc-with-adobe) pour configurer l’enregistrement DMARC pour votre sous-domaine.
+1. Si le domaine parent ne comporte aucun enregistrement DMARC, seule l’option **[!UICONTROL Gérer avec Adobe]** est disponible. Suivez les étapes [ci-dessous](#manage-dmarc-with-adobe) pour configurer l’enregistrement DMARC de votre sous-domaine.
 
    ![](assets/dmarc-record-not-found.png){width="80%"}
 
@@ -146,7 +146,7 @@ Pour permettre à Adobe de gérer l’enregistrement DMARC à votre place, séle
 
 >[!NOTE]
 >
->Si elle est récupérée par [!DNL Journey Optimizer], vous pouvez utiliser les mêmes valeurs que celles mises en surbrillance dans l’interface ou les modifier si nécessaire.
+>Si [!DNL Journey Optimizer] effectue la récupération, vous pouvez utiliser les mêmes valeurs que celles mises en surbrillance dans l’interface ou les modifier si nécessaire.
 
 ![](assets/dmarc-record-with-adobe-ex.png){width="80%"}
 

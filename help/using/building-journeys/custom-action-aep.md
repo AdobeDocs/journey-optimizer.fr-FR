@@ -10,8 +10,8 @@ level: Experienced
 exl-id: 890a194f-f54d-4230-863a-fb2b924d716a
 source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
 workflow-type: tm+mt
-source-wordcount: '369'
-ht-degree: 97%
+source-wordcount: '371'
+ht-degree: 95%
 
 ---
 
@@ -39,7 +39,7 @@ curl -X POST 'https://ims-na1.adobelogin.com/ims/token/v3' -H 'Content-Type: app
 
 >[!CAUTION]
 >
->Après avoir créé votre projet sur Adobe Developer Console, assurez vous d’accorder aux développeurs et développeuses et aux API le contrôle d’accès avec les autorisations appropriées. Pour en savoir plus, consultez la [documentation Adobe Experience Platform](https://experienceleague.adobe.com/fr/docs/experience-platform/landing/platform-apis/api-authentication#grant-developer-and-api-access-control){target="_blank"}
+>Après avoir créé votre projet sur Adobe Developer Console, assurez vous d’accorder aux développeurs et développeuses et aux API le contrôle d’accès avec les autorisations appropriées. En savoir plus dans la [documentation de Adobe Experience Platform](https://experienceleague.adobe.com/fr/docs/experience-platform/landing/platform-apis/api-authentication#grant-developer-and-api-access-control){target="_blank"}{target=« _blank »}
 
 ## Configurer la source à l’aide de l’API HTTP Inlet
 

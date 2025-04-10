@@ -41,7 +41,7 @@ Voici les limitations liées à l&#39;utilisation des parcours.
 * Seules les méthodes d’appel POST et PUT sont prises en charge. 
 * Le nom du paramètre de la requête ou de l’en-tête ne doit pas commencer par « . » ou « $ ». 
 * Les adresses IP ne sont pas autorisées. 
-* Les adresses d’Adobe interne (.adobe.) ne sont pas autorisées.
+* Les adresses Adobe internes (.adobe.) ne sont pas autorisées.
 
 ## Limitations des événements {#events-limitations}
 

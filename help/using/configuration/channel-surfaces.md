@@ -12,7 +12,7 @@ exl-id: 9038528f-3da0-4e0e-9b82-b72c67b42391
 source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
 workflow-type: tm+mt
 source-wordcount: '1800'
-ht-degree: 95%
+ht-degree: 97%
 
 ---
 
@@ -271,7 +271,7 @@ Vous ne pouvez pas modifier directement une configuration de canal désactivée.
 
 ![](assets/preset-activate.png)
 
-## Ajout de balises à une configuration de canal {#channel-config-tags}
+## Ajouter des balises à une configuration des canaux {#channel-config-tags}
 
 1. Accédez à la liste des configurations de canaux.
 
@@ -279,11 +279,11 @@ Vous ne pouvez pas modifier directement une configuration de canal désactivée.
 
 1. Cliquez sur **[!UICONTROL Modifier les balises]**.
 
-1. Sélectionnez Balises Adobe Experience Platform dans la liste pour catégoriser la configuration de votre canal afin d’améliorer la recherche. [Découvrir comment utiliser les balises unifiées](../start/search-filter-categorize.md#tags)
+1. Sélectionnez des balises Adobe Experience Platform dans la liste pour classer la configuration des canaux et améliorer ainsi la recherche. [Découvrir comment utiliser les balises unifiées](../start/search-filter-categorize.md#tags)
 
    ![](assets/config-edit-tags.png)
 
-1. Une fois que vous avez affecté des balises à vos configurations de canal, vous pouvez les [filtrer](../start/search-filter-categorize.md#filter-on-tags) sur les balises.
+1. Une fois que vous avez attribué des balises à vos configurations de canal, vous pouvez les [filtrer](../start/search-filter-categorize.md#filter-on-tags) sur les balises.
 
 ## Vidéo pratique{#video-presets}
 

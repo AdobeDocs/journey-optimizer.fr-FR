@@ -10,8 +10,8 @@ level: Intermediate, Experienced
 exl-id: a4653378-b70f-454c-a446-ab4a14d2580a
 source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
 workflow-type: tm+mt
-source-wordcount: '830'
-ht-degree: 89%
+source-wordcount: '834'
+ht-degree: 88%
 
 ---
 
@@ -27,7 +27,7 @@ Elle rassemble les adresses e-mail et les domaines supprimés de tous les mailin
 >
 >Adobe tient à jour une liste des adresses erronées connues qui se sont avérées préjudiciables à l’engagement et à la réputation du publipostage, et s’assure que les e-mails ne leur sont pas remis. Cette liste est gérée dans une liste de suppression globale qui est commune à tous les clients Adobe. Les adresses et les noms de domaine contenus dans la liste de suppression globale sont masqués. Seul le nombre de destinataires exclus est indiqué dans les rapports de diffusion.
 
-En outre, vous pouvez tirer parti de l’**API REST de suppression** Journey Optimizer pour contrôler vos messages sortants à l’aide des listes de suppression et des listes autorisées. [Découvrez comment utiliser l’API REST de suppression.](https://developer.adobe.com/journey-optimizer-apis/references/suppression/){target="_blank"}
+En outre, vous pouvez tirer parti de l’**API REST de suppression** Journey Optimizer pour contrôler vos messages sortants à l’aide des listes de suppression et des listes autorisées. [Découvrez comment utiliser l’API REST de suppression](https://developer.adobe.com/journey-optimizer-apis/references/suppression/){target="_blank"}{target=« _blank »}
 
 ## Pourquoi une liste de suppression ? {#why-suppression-list}
 
@@ -59,7 +59,7 @@ Pour chaque adresse, la raison de base de la suppression et la catégorie de sup
 >
 >Les profils ayant le statut **[!UICONTROL Supprimé]** sont exclus pendant le processus d’envoi du message. Par conséquent, bien que les **rapports de parcours** indiquent que ces profils ont traversé le parcours ([Lecture d’audience](../building-journeys/read-audience.md) et [activités de message](../building-journeys/journeys-message.md)), les **Rapports d’e-mails** ne les incluront pas dans les mesures **[!UICONTROL Envoyé]** étant donné qu’ils sont filtrés avant l’envoi des e-mails.
 >
->En savoir plus sur le [Rapport dynamique](../reports/live-report.md) et le [rapport Customer Journey Analytics](../reports/report-gs-cja.md). Pour connaître la raison de tous les cas d’exclusion, vous pouvez utiliser le [service de requête d’Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html?lang=fr){target="_blank"}.
+>En savoir plus sur le [Rapport dynamique](../reports/live-report.md) et le [rapport Customer Journey Analytics](../reports/report-gs-cja.md). Pour connaître la raison de tous les cas d’exclusion, vous pouvez utiliser le [service de requête d’Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html?lang=fr){target="_blank"}{target=&quot;_blank&quot;}.
 
 ### Échecs de diffusion {#delivery-failures}
 

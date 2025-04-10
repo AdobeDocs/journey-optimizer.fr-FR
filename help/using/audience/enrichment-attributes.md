@@ -9,7 +9,7 @@ role: User
 level: Beginner
 exl-id: 3ec496ba-7555-49e2-992c-403c33302a90
 source-git-commit: f99ba639b5d47fa334741b7e55e7bce83697626d
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '519'
 ht-degree: 100%
 
@@ -39,21 +39,21 @@ Voici les actions que vous pouvez effectuer à l’aide des attributs d’enrich
 >
 >Pour utiliser les attributs d’enrichissement des audiences créées à l’aide de workflows de composition, assurez-vous qu’ils sont ajoutés à un groupe de champs dans la source de données « ExperiencePlatform ».
 >
->+++ Découvrez comment ajouter des attributs d’enrichissement à un groupe de champs.>
++++ Découvrez comment ajouter des attributs d’enrichissement à un groupe de champs.>
 >
->1. Accédez à « Administration » > « Configuration » > « Sources de données ».
->1. Sélectionnez « Experience Platform » et créez ou modifiez un groupe de champs.
->1. Dans le sélecteur de schéma, sélectionnez le schéma approprié. Le nom du schéma sera au format suivant : « Schéma pour audienceId: » + identifiant de l’audience. L’identifiant de l’audience se trouve dans l’écran des détails de l’audience de l’inventaire de l’audience.
->1. Ouvrez le sélecteur de champ, recherchez les attributs d’enrichissement que vous souhaitez ajouter, puis cochez la case en regard de ces attributs.
->1. Enregistrez vos modifications.
->1. Une fois les attributs d’enrichissement ajoutés à un groupe de champs, vous pouvez les utiliser dans Journey Optimizer aux emplacements répertoriés ci-dessus.
+1. Accédez à « Administration » > « Configuration » > « Sources de données ».
+1. Sélectionnez « Experience Platform » et créez ou modifiez un groupe de champs.
+1. Dans le sélecteur de schéma, sélectionnez le schéma approprié. Le nom du schéma sera au format suivant : « Schéma pour audienceId: » + identifiant de l’audience. L’identifiant de l’audience se trouve dans l’écran des détails de l’audience de l’inventaire de l’audience.
+1. Ouvrez le sélecteur de champ, recherchez les attributs d’enrichissement que vous souhaitez ajouter, puis cochez la case en regard de ces attributs.
+1. Enregistrez vos modifications.
+1. Une fois les attributs d’enrichissement ajoutés à un groupe de champs, vous pouvez les utiliser dans Journey Optimizer aux emplacements répertoriés ci-dessus.
 >
->Des informations détaillées sur les sources de données sont disponibles dans les sections suivantes :
+Des informations détaillées sur les sources de données sont disponibles dans les sections suivantes :
 >
->* [Utiliser la source de données Adobe Experience Platform](../datasource/adobe-experience-platform-data-source.md)
->* [Configurer une source de données](../datasource/configure-data-sources.md)
+* [Utiliser la source de données Adobe Experience Platform](../datasource/adobe-experience-platform-data-source.md)
+* [Configurer une source de données](../datasource/configure-data-sources.md)
 >
->+++
++++
 
 
 

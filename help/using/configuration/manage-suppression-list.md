@@ -11,8 +11,8 @@ keywords: suppression, liste, rebond, e-mail, optimizer, quarantaine
 exl-id: 430a2cd4-781d-4d37-a75d-405f5ed82377
 source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
 workflow-type: tm+mt
-source-wordcount: '1599'
-ht-degree: 98%
+source-wordcount: '1601'
+ht-degree: 97%
 
 ---
 
@@ -28,7 +28,7 @@ En savoir plus sur le concept et l’utilisation de la liste de suppression dans
 >
 >Adobe tient à jour une liste des adresses erronées connues qui se sont avérées préjudiciables à l’engagement et à la réputation du publipostage, et s’assure que les e-mails ne leur sont pas remis. Cette liste est gérée dans une liste de suppression globale qui est commune à tous les clients Adobe. Les adresses et les noms de domaine contenus dans la liste de suppression globale sont masqués. Seul le nombre de destinataires exclus est indiqué dans les rapports de diffusion.
 
-En outre, vous pouvez tirer parti de l’**API REST de suppression** de Journey Optimizer pour contrôler vos messages sortants à l’aide des listes de suppression et des listes autorisées. [Découvrez comment utiliser l’API REST de suppression.](https://developer.adobe.com/journey-optimizer-apis/references/suppression/){target="_blank"}
+En outre, vous pouvez tirer parti de l’**API REST de suppression** de Journey Optimizer pour contrôler vos messages sortants à l’aide des listes de suppression et des listes autorisées. [Découvrez comment utiliser l’API REST de suppression](https://developer.adobe.com/journey-optimizer-apis/references/suppression/){target="_blank"}{target=« _blank »}
 
 ## Accéder à la liste de suppression {#access-suppression-list}
 
@@ -84,7 +84,7 @@ Les motifs possibles d’un échec de diffusion sont les suivants :
 >Les utilisateurs désabonnés ne reçoivent pas d&#39;e-mails de [!DNL Journey Optimizer]. Par conséquent, leurs adresses e-mail ne peuvent pas être envoyées à la liste de suppression. Leur choix est géré au niveau d&#39;Experience Platform. [En savoir plus sur la désinscription](../privacy/opt-out.md)
 
 
-### Règles de suppression  {#suppression-rules}
+### Règles de suppression   {#suppression-rules}
 
 Dans la **[!UICONTROL Liste de suppression]**, vous pouvez également modifier le paramètre de reprise associé aux règles de suppression à l’aide du bouton **[!UICONTROL Modifier les règles de suppression]**. Utilisez cette option pour mettre à jour le seuil de reprise du sandbox actuel. [En savoir plus sur les reprises](retries.md).
 

@@ -30,7 +30,7 @@ GET /{ENDPOINT_PATH}/{CONTAINER_ID}/queries/core/search?schema={SCHEMA_ELIGIBILI
 | `{SCHEMA_ELIGIBILITY_RULE}` | Définit le schéma associé aux règles de décision. | `https://ns.adobe.com/experience/offer-management/eligibility-rule;version=0.3` |
 | `{QUERY_PARAMS}` | Paramètres de requête facultatifs en fonction desquels filtrer les résultats. | `limit=1` |
 
-## Utilisation des paramètres de requête {#using-query-parameters}
+## Utiliser des paramètres de requête {#using-query-parameters}
 
 Vous pouvez utiliser des paramètres de requête pour paginer et filtrer les résultats lors de l&#39;organisation en liste des ressources.
 

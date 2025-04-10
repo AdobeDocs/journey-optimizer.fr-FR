@@ -11,7 +11,7 @@ exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
 source-git-commit: 384ec210fa5414966257b26d1d8b2b87ce962d76
 workflow-type: tm+mt
 source-wordcount: '1399'
-ht-degree: 95%
+ht-degree: 97%
 
 ---
 
@@ -19,12 +19,12 @@ ht-degree: 95%
 
 Pour accéder à [!DNL Adobe Journey Optimizer], connectez-vous à [Adobe Experience Cloud](https://experience.adobe.com) avec votre Adobe ID, puis sélectionnez [!DNL Journey Optimizer].
 
-Les concepts clés lors de la navigation dans l’interface utilisateur sont les mêmes que ceux d’Adobe Experience Platform. Pour plus d&#39;informations, consultez la [documentation Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-ui/ui-guide.html?lang=fr#adobe-experience-platform-ui-guide){target="_blank"}.
+Les concepts clés lors de la navigation dans l’interface utilisateur sont les mêmes que ceux d’Adobe Experience Platform. Pour plus d’informations, consultez la [documentation Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-ui/ui-guide.html?lang=fr#adobe-experience-platform-ui-guide){target="_blank"}.
 
 
 >[!NOTE]
 >
->* Les composants et fonctionnalités disponibles dans votre environnement dépendent de vos [autorisations](../administration/permissions.md) et de votre [package de licence](https://helpx.adobe.com/fr/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}. Pour toute question, contactez votre responsable Succès client Adobe ou votre représentant ou représentante Adobe.
+>* Les composants et fonctionnalités disponibles dans l&#39;interface d’utilisation dépendent de vos [autorisations](../administration/permissions.md) et de votre [package de licence](https://helpx.adobe.com/fr/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}. Pour toute question, contactez votre responsable Succès client Adobe ou votre représentant ou représentante Adobe.
 >
 >* Cette documentation est fréquemment mise à jour pour prendre en compte les dernières modifications de l&#39;interface utilisateur du produit. Cependant, certaines captures d&#39;écran peuvent être légèrement différentes de votre interface utilisateur.
 >
@@ -90,7 +90,7 @@ Gérez vos données à partir de cette section.
 
 * **[!UICONTROL Requêtes]** - Utilisez le service de requête d&#39;Adobe Experience Platform pour écrire et exécuter des requêtes, afficher des requêtes précédemment exécutées et accéder à des requêtes enregistrées par des utilisateurs de votre organisation. [En savoir plus](../data/get-started-queries.md)
 
-* **[!UICONTROL Surveillance]** - Utilisez ce menu pour surveiller l&#39;ingestion de vos données dans l&#39;interface utilisateur d&#39;Adobe Experience Platform. En savoir plus dans la documentation de [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/ingestion/quality/monitor-data-ingestion.html?lang=fr){target="_blank"}
+* **[!UICONTROL Surveillance]** - Utilisez ce menu pour surveiller l&#39;ingestion de vos données dans l&#39;interface utilisateur d&#39;Adobe Experience Platform. Pour en savoir plus, consultez la [documentation d’Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/ingestion/quality/monitor-data-ingestion.html?lang=fr){target="_blank"}
 
 ### [!UICONTROL CONNEXIONS] {#left-nav-connections}
 

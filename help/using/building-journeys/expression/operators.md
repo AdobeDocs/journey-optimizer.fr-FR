@@ -176,7 +176,7 @@ Exemple :
 
 >[!NOTE]
 >
->Pour &lt;expression1> et &lt;expression2> il n’existe aucun contrôle de type de données.
+Pour &lt;expression1> et &lt;expression2> il n’existe aucun contrôle de type de données.
 
 Le résultat est booléen.
 

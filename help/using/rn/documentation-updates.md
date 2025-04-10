@@ -11,7 +11,7 @@ exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
 source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
 workflow-type: tm+mt
 source-wordcount: '949'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -29,8 +29,8 @@ Cette page répertorie toutes les mises à jour récentes de la documentation de
 * La section concernant l’insertion de liens et l’activation du suivi dans un e-mail a été mise à jour et réorganisée. [En savoir plus](../email/message-tracking.md)
 * La section sur les capacités de personnalisation dans Adobe Journey Optimizer a été réorganisée et améliorée. [En savoir plus](../personalization/personalize.md)
 * L’API de gestion des décisions pour répertorier les offres personnalisées a été mise à jour avec un exemple pour effectuer la pagination si plusieurs offres personnalisées sont manquantes dans la réponse. [En savoir plus](../offers/api-reference/offers-api/personalized-offers/offers-list.md)
-* Une nouvelle page rassemblant toutes les informations relatives à la fonctionnalité de désabonnement de la liste a été créée pour plus de clarté. [En savoir plus](../email/list-unsubscribe.md)
-* Mise à jour de la section Limitation de la fréquence avec des informations sur la mise à jour du compteur de limitation de la fréquence pour les API Decisioning et Batch Decisioning, en plus de l&#39;API Edge Decisioning. [En savoir plus](../offers/offer-library/add-constraints.md#frequency-capping)
+* Nous avons créé une page qui regroupe toutes les informations relatives à la fonctionnalité de désabonnement de la liste pour plus de clarté. [En savoir plus](../email/list-unsubscribe.md)
+* Nous avons ajouté à la section Limitation de la fréquence des informations sur la mise à jour du compteur de limitation de la fréquence pour les API Decisioning et Batch Decisioning, en plus de l’API Edge Decisioning. [En savoir plus](../offers/offer-library/add-constraints.md#frequency-capping)
 
 ## Février 2025 {#feb-2025}
 

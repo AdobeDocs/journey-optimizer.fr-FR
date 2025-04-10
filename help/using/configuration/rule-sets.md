@@ -11,8 +11,8 @@ keywords: message, fréquence, règles, pression
 exl-id: 07f5f0b4-417e-408e-8d9e-86615c8a3fbf
 source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
 workflow-type: tm+mt
-source-wordcount: '2045'
-ht-degree: 99%
+source-wordcount: '2047'
+ht-degree: 98%
 
 ---
 
@@ -154,7 +154,7 @@ Les paramètres disponibles pour la règle dépendent du domaine du jeu de règl
 
      >[!CAUTION]
      > 
-     >Pour garantir la précision des règles de capping de la fréquence quotidienne, veillez à choisir l’espace de noms de priorité la plus élevée lors de la création d’une campagne ou d’un parcours. Pour en savoir plus sur la priorité des espaces de noms, consultez le guide [ Platform Identity Service ](https://experienceleague.adobe.com/fr/docs/experience-platform/identity/features/identity-graph-linking-rules/namespace-priority){target="_blank"}
+     >Pour garantir la précision des règles de capping de la fréquence quotidienne, veillez à choisir l’espace de noms de priorité la plus élevée lors de la création d’une campagne ou d’un parcours. Pour en savoir plus sur la priorité des espaces de noms, consultez le [guide du service d’identités Platform](https://experienceleague.adobe.com/fr/docs/experience-platform/identity/features/identity-graph-linking-rules/namespace-priority){target="_blank"}{target=« _blank »}
 
    Notez que la valeur du compteur de profils est mise à jour une fois la communication diffusée. Tenez-en compte lorsque vous envoyez un grand volume de communications, car le débit peut faire en sorte que les personnes destinataires reçoivent l’e-mail quelques minutes, voire quelques heures après le lancement de la communication (dans le cas où vous envoyez des millions de communications simultanément).
 

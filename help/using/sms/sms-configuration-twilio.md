@@ -8,7 +8,7 @@ role: Admin
 level: Intermediate
 exl-id: d6f74566-c913-4727-83b9-473a798a0158
 source-git-commit: c9a35c2950c061318f673cdd53d0a5fd08063c27
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '211'
 ht-degree: 100%
 
@@ -32,7 +32,7 @@ Pour configurer Twilio avec Journey Optimizer, vous devez créer des informatio
 
    * **[!UICONTROL Numéro entrant]** : ajoutez votre numéro entrant unique. Cela vous permet d’utiliser les mêmes informations d’identification d’API dans différents sandbox, chacun ayant son propre numéro entrant.
 
-1. Cliquez sur **[!UICONTROL Envoyer]** lorsque vous avez terminé la configuration de vos informations d’identification API.
+1. Cliquez sur **[!UICONTROL Envoyer]** lorsque vous avez terminé la configuration de vos informations d’identification d’API.
 
 1. Dans le menu **[!UICONTROL Informations d’identification d’API]**, cliquez sur l’icône de corbeille pour supprimer vos informations d’identification d’API.
 

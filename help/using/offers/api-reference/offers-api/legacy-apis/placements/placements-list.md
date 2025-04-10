@@ -32,7 +32,7 @@ GET /{ENDPOINT_PATH}/{CONTAINER_ID}/queries/core/search?schema={SCHEMA_PLACEMENT
 | `SCHEMA_PLACEMENT}` | Définit le schéma associé aux emplacements. | `https://ns.adobe.com/experience/offer-management/offer-placement;version=0.4` |
 | `{QUERY_PARAMS}` | Paramètres de requête facultatifs en fonction desquels filtrer les résultats. | `limit=2` |
 
-## Utilisation des paramètres de requête {#using-query-parameters}
+## Utiliser des paramètres de requête {#using-query-parameters}
 
 Vous pouvez utiliser des paramètres de requête pour paginer et filtrer les résultats lors de l&#39;organisation en liste des ressources.
 

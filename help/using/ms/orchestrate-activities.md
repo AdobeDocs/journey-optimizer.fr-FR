@@ -5,7 +5,8 @@ title: Création de campagnes à plusieurs étapes avec Adobe Journey Optimizer
 description: Découvrez comment créer des campagnes à plusieurs étapes avec Adobe Journey Optimizer
 hide: true
 hidefromtoc: true
-source-git-commit: f73d847c1d335260a0198e844d237a652e346729
+exl-id: d1d64125-cf00-49c2-a71d-1494ede16f61
+source-git-commit: 323472ef9d6203cbbadc44ceb17ddcc7f6207323
 workflow-type: tm+mt
 source-wordcount: '1212'
 ht-degree: 63%

@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: destination, page de destination, cas d’utilisation
 exl-id: 8c00d783-54a3-45d9-bd8f-4dc58804d922
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+source-git-commit: 384ec210fa5414966257b26d1d8b2b87ce962d76
 workflow-type: tm+mt
 source-wordcount: '979'
 ht-degree: 98%

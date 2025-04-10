@@ -12,7 +12,7 @@ exl-id: fb3e51b5-4cbb-4949-8992-1075959da67d
 source-git-commit: c2f32533027e374a1df26943e7c5acd4e1d13869
 workflow-type: tm+mt
 source-wordcount: '1017'
-ht-degree: 85%
+ht-degree: 97%
 
 ---
 
@@ -23,20 +23,20 @@ ht-degree: 85%
 >title="Événements de parcours"
 >abstract="Un événement est lié à une personne. Il s’agit du comportement d’une personne (par exemple, une personne a acheté un produit, a visité un magasin, est sortie d’un site web, etc.) ou d’un élément lié à une personne (par exemple, une personne a atteint 10 000 points de fidélité). Journey Optimizer écoute les événements unitaires dans les parcours pour orchestrer les meilleures actions suivantes."
 
-Les événements vous permettent de déclencher des parcours individuellement, en fournissant des messages en temps réel à chaque utilisateur lorsqu’il accède au parcours.
+Les événements vous permettent de déclencher des parcours individuellement, en envoyant des messages en temps réel à chaque personne qui accède au parcours.
 
-Dans la configuration des événements, vous configurez les événements attendus dans les parcours. Les données des événements entrants sont normalisées conformément au modèle de données d’expérience Adobe (XDM). Les événements authentifiés et non authentifiés proviennent des API d&#39;ingestion en flux continu (notamment ceux issus du kit de développement Adobe Mobile SDK). Vous pouvez utiliser plusieurs événements (à différentes étapes d’un parcours) et plusieurs parcours peuvent utiliser un même événement.
+Dans la configuration des événements, vous configurez les événements attendus dans les parcours. Les données des événements entrants sont normalisées conformément au modèle de données d’expérience Adobe (XDM). Les événements authentifiés et non authentifiés proviennent des API d’ingestion en flux continu (notamment ceux issus du kit de développement Adobe Mobile SDK). Vous pouvez utiliser plusieurs événements (à différentes étapes d’un parcours) et plusieurs parcours peuvent utiliser un même événement.
 
-Vous pouvez configurer deux types d’événements : **Événements unitaires** et **Événements métier**.
+Vous pouvez configurer deux types d’événements : des **événements unitaires** et des **événements métier**.
 
 
-➡️ [Découvrez cette fonctionnalité en vidéo.](#video)
+➡️ [Découvrir cette fonctionnalité en vidéo](#video)
 
 ## Événements unitaires {#unitary-events}
 
 Les événements **unitaires** sont liés à une personne. Il s’agit du comportement d’une personne (par exemple, une personne a acheté un produit, a visité un magasin, est sortie d’un site web, etc.) ou d’un élément lié à une personne (par exemple, une personne a atteint 10 000 points de fidélité). C’est ce type d’élément que [!DNL Journey Optimizer] écoute dans les parcours pour orchestrer les meilleures actions qu’il convient de prendre ensuite. Les événements unitaires peuvent être générés selon des règles ou par un système. Pour savoir comment créer un événement unitaire, consultez cette [page](../event/about-creating.md).
 
-Les parcours unitaires (commençant par un événement ou une qualification d’audience) incluent une mécanisme de sécurisation qui empêche les parcours d’être déclenchés par erreur plusieurs fois pour le même événement. La rentrée du profil est temporairement bloquée par défaut pendant 5 minutes. Par exemple, si un événement déclenche un parcours à 12 h 01 pour un profil spécifique et qu’un autre arrive à 12 h 03 (qu’il s’agisse du même événement ou d’un autre déclenchant le même parcours), ce parcours ne reprendra pas pour ce profil.
+Les parcours unitaires (qui commencent par un événement ou une qualification d’audience) incluent un mécanisme de sécurisation qui empêche les parcours d’être déclenchés par erreur plusieurs fois pour le même événement. La rentrée du profil est temporairement bloquée par défaut pendant 5 minutes. Par exemple, si un événement déclenche un parcours à 12 h 01 pour un profil spécifique et qu’un autre arrive à 12 h 03 (qu’il s’agisse du même événement ou d’un autre déclenchant le même parcours), ce parcours ne reprendra pas pour ce profil.
 
 ## Événements métier {#business-events}
 
@@ -44,15 +44,15 @@ Les événements **métier** ne sont pas liés à un profil spécifique. Par exe
 
 ## Recommandations
 
-La configuration de l’événement est **obligatoire** et doit être effectuée par un ingénieur de données.
+La configuration de l’événement est **obligatoire** et doit être effectuée par un ingénieur ou une ingénieure de données.
 
-Pour éviter de rompre des parcours existants, lorsque vous modifiez un événement utilisé dans un parcours actif ou dans un état de brouillon, vous pouvez uniquement en modifier le nom ou la description, ou ajouter des champs de payload.
+Afin d’éviter d’interrompre les parcours existants, lorsque vous modifiez un événement utilisé dans un parcours actif ou préliminaire, vous pouvez uniquement en modifier le nom ou la description, ou ajouter des champs de payload.
 
-## Type d’identifiant d&#39;événement {#event-id-type}
+## Type d’identifiant d’événement {#event-id-type}
 
 Pour les événements **métier**, le type d’identifiant d’événement est toujours basé sur des règles.
 
-Pour les événements **unitaires** il existe deux types d&#39;identifiant d&#39;événement :
+Pour les événements **unitaires**, il existe deux types d’identifiant d’événement :
 
 * Événements **basés sur des règles** : ce type d’événement ne génère pas d’eventID. En utilisant l’éditeur d’expression simple, vous définissez simplement une règle qui sera utilisée par le système pour identifier les événements pertinents qui déclencheront vos parcours. Cette règle peut être basée sur n’importe quel champ disponible dans le payload de l’événement, par exemple l’emplacement du profil ou le nombre d’éléments ajoutés au panier du profil.
 

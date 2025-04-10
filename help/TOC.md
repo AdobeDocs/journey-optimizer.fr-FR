@@ -8,7 +8,7 @@ solution: Journey Optimizer
 source-git-commit: 50491d039f2baf8c30a6af0c1b59fe9041244ac7
 workflow-type: tm+mt
 source-wordcount: '2317'
-ht-degree: 98%
+ht-degree: 99%
 
 ---
 
@@ -327,10 +327,10 @@ ht-degree: 98%
       + [Créer des cartes de contenu](using/content-card/create-content-card.md)
       + [Concevoir des cartes de contenu](using/content-card/design-content-card.md)
    + WhatsApp{#whatsapp}
-      + [Prise en main des messages WhatsApp](using/whatsapp/get-started-whatsapp.md)
-      + [Configuration du canal WhatsApp dans Journey Optimizer](using/whatsapp/whatsapp-configuration.md)
+      + [Commencer avec les messages WhatsApp](using/whatsapp/get-started-whatsapp.md)
+      + [Configurer un canal WhatsApp dans Journey Optimizer](using/whatsapp/whatsapp-configuration.md)
       + [Créer un message WhatsApp](using/whatsapp/create-whatsapp.md)
-      + [Vérifier et envoyer vos messages WhatsApp](using/whatsapp/send-whatsapp.md)
+      + [Vérifier et envoyer des messages WhatsApp](using/whatsapp/send-whatsapp.md)
 +  Pages de destination {#landing-pages}
    + [Prise en main des pages de destination](using/landing-pages/get-started-lp.md)
    + [Créer une page de destination](using/landing-pages/create-lp.md)
@@ -426,22 +426,22 @@ ht-degree: 98%
    + [Intégrations avec d’autres solutions](using/integrations/ajo-integrations.md)
    + [Utiliser Experience Manager Assets](using/integrations/assets.md)
    + [Utiliser Adobe Stock](using/integrations/stock.md)
-   + [Utilisation d’Adobe Express](using/integrations/express.md)
+   + [Utiliser Adobe Express](using/integrations/express.md)
    + [Utiliser les modèles Experience Manager](using/integrations/aem-templates.md)
    + [Utiliser les fragments de contenu Experience Manager](using/integrations/aem-fragments.md)
    + [Utiliser Dynamic Media](using/integrations/aem-dynamic.md)
-   + [Utilisation de GenStudio](using/integrations/genstudio.md)
+   + [Utiliser GenStudio](using/integrations/genstudio.md)
 + Suivre et surveiller {#reporting}
    + Rapport dynamique {#live-report}
       + [Prise en main du rapport dynamique](using/reports/live-report.md)
-      + [Liste des mesures](using/reports/live-report-components.md)
+      + [Liste de mesures](using/reports/live-report-components.md)
       + [Rapport dynamique sur les parcours](using/reports/journey-live-report.md)
       + [Rapport dynamique de campagne](using/reports/campaign-live-report.md)
       + [Rapport dynamique sur les pages de destination](using/reports/lp-report-live.md)
       + [Rapport dynamique sur les listes d’abonnements](using/reports/subscription-report-live.md)
    + Rapport complet{#channel-report}
       + [Prise en main du rapport complet](using/reports/report-gs-cja.md)
-      + [Liste des mesures](using/reports/global-report-components-cja.md)
+      + [Liste de mesures](using/reports/global-report-components-cja.md)
       + [Configurer manuellement Customer Journey Analytics](using/reports/cja-ajo.md)
       + [Gérer vos rapports](using/reports/report-cja-manage.md)
       + [Conditions préalables à la création de rapports et à l’expérimentation](using/reports/reporting-configuration.md)

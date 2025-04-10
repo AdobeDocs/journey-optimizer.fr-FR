@@ -9,7 +9,7 @@ role: User
 level: Beginner
 exl-id: 1b3930ff-f7b0-43f0-bcf2-5c3de0a88b25
 source-git-commit: d2c008ab9b63df5b7a0ded317a97a4d26d2319e3
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1724'
 ht-degree: 100%
 
@@ -44,7 +44,7 @@ Dans l’exemple suivant, nous utiliserons l’Assistant IA pour peaufiner un m
 
    ![](assets/full-email-1.png){zoomable="yes"}
 
-1. Activez l’option **[!UICONTROL Utiliser le contenu original]** de l’assistant IA afin de personnaliser le nouveau contenu en fonction du contenu sélectionné.
+1. Activez l’option **[!UICONTROL Utiliser le contenu original]** de l’Assistant IA afin de personnaliser le nouveau contenu en fonction du contenu sélectionné.
 
 1. Sélectionnez votre **[!UICONTROL Marque]** pour vous assurer que le contenu généré par l’IA correspond aux spécifications de celle-ci. [En savoir plus](brands.md) sur les marques.
 
@@ -116,9 +116,9 @@ Dans l’exemple suivant, nous utiliserons l’Assistant IA afin d’améliorer
 
    ![](assets/text-genai-1.png){zoomable="yes"}
 
-1. Activez l’option **[!UICONTROL Utiliser le contenu original]** de l’assistant IA afin de personnaliser le nouveau contenu en fonction du contenu sélectionné.
+1. Activez l’option **[!UICONTROL Utiliser le contenu original]** de l’Assistant IA afin de personnaliser le nouveau contenu en fonction du contenu sélectionné.
 
-1. Sélectionnez votre **[!UICONTROL Marque]** pour vous assurer que le contenu généré par l’IA correspond aux spécifications de votre marque. [En savoir plus](brands.md) sur les marques.
+1. Sélectionnez votre **[!UICONTROL Marque]** pour vous assurer que le contenu généré par l’IA correspond aux spécifications de celle-ci. [En savoir plus](brands.md) sur les marques.
 
    Notez que cette fonctionnalité est disponible en version Private Beta et sera progressivement disponible pour l’ensemble de la clientèle dans les versions ultérieures.
 

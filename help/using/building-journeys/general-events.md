@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: personnalisé, général, événement, parcours
 exl-id: b1813122-7031-452e-9ac5-a4ea7c6dc57c
-source-git-commit: 343e7bbebf35711259d2f3392f1ce5658865599a
+source-git-commit: 384ec210fa5414966257b26d1d8b2b87ce962d76
 workflow-type: tm+mt
 source-wordcount: '603'
 ht-degree: 100%

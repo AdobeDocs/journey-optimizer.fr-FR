@@ -2,7 +2,7 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Liste des composants
-description: Découvrez comment utiliser les données de votre rapport
+description: Découvrir comment utiliser les données du rapport
 feature: Reporting
 topic: Content Management
 role: User
@@ -11,11 +11,11 @@ exl-id: aa060d8e-23e2-4bab-b709-636077eb5d20
 source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
 workflow-type: tm+mt
 source-wordcount: '1829'
-ht-degree: 38%
+ht-degree: 99%
 
 ---
 
-# Liste des mesures {#list-of-components-global}
+# Liste de mesures {#list-of-components-global}
 
 Les tableaux ci-dessous contiennent la liste des mesures utilisées dans les différents rapports et leur définition en fonction du type de diffusion.
 
@@ -30,8 +30,8 @@ Les tableaux ci-dessous contiennent la liste des mesures utilisées dans les dif
  </thead> 
  <tbody> 
 <tr> 
-<td>engagement du parcours</td> 
-<td>Nombre total de personnes uniques qui ont reçu des messages envoyés par le parcours, représentant des profils distincts qui ont atteint un point d’action désigné dans le parcours.</td> 
+<td>Engagement du parcours</td> 
+<td>Nombre total de personnes uniques ayant reçu des messages envoyés depuis le parcours et représentant des profils distincts ayant atteint un point d’action désigné dans le parcours.</td> 
 </tr> 
 <tr> 
 <td>Entrées de parcours</td> 
@@ -43,24 +43,24 @@ Les tableaux ci-dessous contiennent la liste des mesures utilisées dans les dif
 </tr>
 <tr> 
 <td>Échecs de parcours</td> 
-<td>Nombre total de parcours individuels qui n’ont pas été exécutés avec succès.</td> 
+<td>Nombre total de parcours individuels dont l’exécution a échoué.</td> 
 </tr>
 <tr> 
-<td>Entrées de Parcours uniques</td> 
-<td>Nombre total de personnes ayant atteint l’événement d’entrée du parcours, avec plusieurs interactions du même profil non prises en compte.</td> 
+<td>Entrées de parcours uniques</td> 
+<td>Nombre total de personnes ayant atteint l’événement d’entrée du parcours, sans prendre en compte les interactions multiples d’un même profil.</td> 
 </tr>
 <tr> 
-<td>Sorties de Parcours uniques</td> 
-<td>Nombre total de personnes ayant quitté le parcours, avec plusieurs interactions du même profil non prises en compte.</td> 
+<td>Sorties de parcours uniques</td> 
+<td>Nombre total de personnes ayant quitté le parcours, sans prendre en compte les interactions multiples d’un même profil.</td> 
 </tr>
 <tr> 
-<td>Échecs de Parcours uniques</td> 
-<td>Nombre total de parcours individuels qui n’ont pas été exécutés avec succès, avec plusieurs interactions du même profil non prises en compte.</td> 
+<td>Échecs de parcours uniques</td> 
+<td>Nombre total de parcours individuels dont l’exécution a échoué, sans prendre en compte les interactions multiples d’un même profil.</td> 
 </tr>
  </tbody> 
 </table>
 
-## Mesures des e-mails {#email-metrics}
+## Mesures relatives aux e-mails {#email-metrics}
 
 <table> 
  <thead> 
@@ -80,7 +80,7 @@ Les tableaux ci-dessous contiennent la liste des mesures utilisées dans les dif
   </tr>
   <tr> 
    <td> Taux de clics (CTR)<br/> </td> 
-   <td> Pourcentage d’utilisateurs ayant interagi avec l’e-mail.<br/> </td> 
+   <td> Pourcentage d’utilisateurs et d’utilisatrices ayant interagi avec l’e-mail.<br/> </td> 
   </tr>
   <tr> 
    <td> Clics<br/> </td> 
@@ -119,12 +119,12 @@ Les tableaux ci-dessous contiennent la liste des mesures utilisées dans les dif
    <td> Nombre d’ouvertures du message.<br/> </td> 
   </tr> 
   <tr> 
-   <td> Erreurs sortantes <br/> </td> 
+   <td> Erreurs sortantes<br/> </td> 
    <td> Nombre total d’erreurs survenues au cours du processus d’envoi, empêchant l’envoi à des profils.<br/> </td> 
   </tr> 
   <tr> 
-   <td> Exclusions sortantes <br/> </td> 
-   <td> Nombre de profils qui ont été exclus par Adobe Journey Optimizer.<br/> </td> 
+   <td> Exclusions sortantes<br/> </td> 
+   <td> Nombre de profils qui ont été exclus par Adobe Journey Optimizer.<br/> </td> 
   </tr>
   <tr> 
    <td> Nom de l’emplacement<br/> </td> 
@@ -140,7 +140,7 @@ Les tableaux ci-dessous contiennent la liste des mesures utilisées dans les dif
   </tr> 
   <tr> 
    <td> Clics uniques<br/> </td> 
-   <td> Nombre de profils ayant cliqué sur un contenu dans un e-mail.<br> Notez que lors du calcul des clics uniques, les 10 derniers jours sont pris en compte. Si un profil enregistre plusieurs clics au cours de la période de 10 jours, ils sont comptés comme des clics uniques. Cependant, si un profil a deux clics à plus de 10 jours d’intervalle, ceux-ci ne seront pas considérés comme des clics uniques.<br/> </td> 
+   <td> Nombre de profils qui ont cliqué sur le contenu d’un e-mail.<br> Notez que lors du calcul des clics uniques, les 10 derniers jours sont pris en compte. Si un profil enregistre plusieurs clics au cours de la période de 10 jours, ils sont comptés comme des clics uniques. Cependant, si un profil a deux clics à plus de 10 jours d’intervalle, ceux-ci ne seront pas considérés comme des clics uniques.<br/> </td> 
   </tr>
   <tr> 
    <td> Désabonnements uniques des e-mails<br/> </td> 
@@ -151,25 +151,25 @@ Les tableaux ci-dessous contiennent la liste des mesures utilisées dans les dif
    <td> Nombre de profils ayant ouvert la diffusion. <br> Notez que lors du calcul des ouvertures uniques, les 10 derniers jours sont pris en compte. Si un profil enregistre plusieurs ouvertures au cours de la période de 10 jours, celles-ci sont comptées comme des ouvertures uniques. Cependant, si un profil a 2 ouvertures à plus de 10 jours d’intervalle, celles-ci ne seront pas considérées comme des ouvertures uniques.<br/> </td> 
   </tr> 
   <tr> 
-   <td> Désabonnements <br/> </td> 
+   <td> Désabonnements<br/> </td> 
    <td> Nombre de clics sur le lien de désabonnement.<br/> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## Mesures SMS
+## Mesures relatives aux SMS
 
 <table> 
   <thead> 
     <tr> 
-      <th> Mesure SMS </th> 
+      <th> Mesure relative aux SMS </th> 
       <th> Définition </th> 
     </tr>
   </thead> 
   <tbody> 
     <tr> 
       <td>Diffusés</td> 
-      <td>Nombre de SMS envoyés avec succès, par rapport au nombre total de SMS.</td> 
+      <td>Nombre de SMS dont l’envoi a réussi par rapport au nombre total de SMS envoyés.</td> 
     </tr>
     <tr> 
       <td>Clics</td> 
@@ -177,19 +177,19 @@ Les tableaux ci-dessous contiennent la liste des mesures utilisées dans les dif
     </tr>
     <tr> 
       <td>Rebonds des SMS sortants</td> 
-      <td>Nombre total d’erreurs accumulées pendant le processus d’envoi et le traitement automatique des retours par rapport au nombre total de SMS envoyés.</td> 
+      <td>Nombre total d’erreurs cumulées lors de la procédure d’envoi et du traitement automatique des retours par rapport au nombre total de SMS envoyés.</td> 
     </tr>
     <tr> 
-      <td>Erreurs de SMS sortantes</td> 
+      <td>Erreurs de SMS sortants</td> 
       <td>Nombre total d’erreurs qui se sont produites, empêchant l’envoi du SMS aux destinataires.</td> 
     </tr>
     <tr> 
-      <td>Exclusions des SMS sortants</td> 
-      <td>Nombre de profils qui ont été exclus de la réception de SMS par Adobe Journey Optimizer.</td> 
+      <td>Exclusions de SMS sortants</td> 
+      <td>Nombre de profils qui ont été exclus de la réception de SMS par Adobe Journey Optimizer.</td> 
     </tr>
     <tr> 
       <td>Clics uniques</td> 
-      <td>Nombre de destinataires uniques ayant cliqué sur un lien dans un SMS.</td> 
+      <td>Nombre de destinataires qui ont cliqué sur un lien dans un SMS.</td> 
     </tr>
     <tr> 
       <td>Affichages</td> 
@@ -197,11 +197,11 @@ Les tableaux ci-dessous contiennent la liste des mesures utilisées dans les dif
     </tr>
     <tr> 
       <td>Affichages uniques</td> 
-      <td>Nombre de destinataires uniques ayant ouvert le SMS, en excluant les multiples interactions du même utilisateur.</td> 
+      <td>Nombre de destinataires ayant ouvert le SMS, sans prendre en compte les interactions multiples d’un même utilisateur ou d’une même utilisatrice.</td> 
     </tr>
     <tr> 
-      <td>People</td> 
-      <td>Nombre de profils d’utilisateurs uniques ayant reçu un SMS ou interagi avec celui-ci.</td> 
+      <td>Personnes</td> 
+      <td>Nombre de profils d’utilisateurs et d’utilisatrices uniques ayant reçu un SMS ou interagi avec celui-ci.</td> 
     </tr>
   </tbody> 
 </table>
@@ -322,20 +322,20 @@ Les tableaux ci-dessous contiennent la liste des mesures utilisées dans les dif
    <td>Nombre d’utilisateurs et d’utilisatrices uniques auxquels le message in-app a été diffusé.<br/> </td>
   </tr>
   <tr> 
-   <td>Affichages <br/> </td>
+   <td>Affichages<br/> </td>
    <td>Nombre d’ouvertures du message in-app.<br/> </td>
   </tr>
   <tr> 
    <td>Affichages uniques<br/> </td>
-   <td>Nombre d’ouvertures du message in-app, en excluant les multiples interactions d’un même profil.<br/> </td>
+   <td>Nombre d’ouvertures du message in-app, sans prendre en compte les interactions multiples d’un même profil.<br/> </td>
   </tr>
   <tr> 
    <td>Clics uniques<br/> </td>
-   <td>Nombre de profils qui ont cliqué sur le contenu de vos messages in-app.<br/> </td>
+   <td>Nombre de profils ayant cliqué sur le contenu de vos messages in-app.<br/> </td>
   </tr>
   <tr> 
    <td>Clics<br/> </td>
-   <td>Nombre de clics sur le contenu dans vos messages in-app.<br/> </td>
+   <td>Nombre de clics sur le contenu de vos messages in-app.<br/> </td>
   </tr>
   <tr> 
    <td>Taux de clics (CTR)<br/> </td>
@@ -350,11 +350,11 @@ Les tableaux ci-dessous contiennent la liste des mesures utilisées dans les dif
    <td>Nombre total de messages in-app envoyés.<br/> </td>
   </tr>
   <tr> 
-   <td>Déclenché en entrée<br/> </td>
-   <td>Nombre de fois qu’un message in-app a été déclenché par une interaction utilisateur ou un événement prédéfini.<br/> </td>
+   <td>Entrants déclenchés<br/> </td>
+   <td>Nombre de fois qu’un message in-app a été déclenché par une interaction d’utilisateur ou d’utilisatrice ou un événement prédéfini.<br/> </td>
   </tr>
   <tr> 
-   <td>Rejets entrants <br/> </td>
+   <td>Entrants ignorés<br/> </td>
    <td>Nombre de fois où les utilisateurs et utilisatrices ont ignoré le message in-app sans interagir avec celui-ci.<br/> </td>
   </tr>
  </tbody> 
@@ -423,7 +423,7 @@ Les tableaux ci-dessous contiennent la liste des mesures utilisées dans les dif
    <td> Pourcentage de notifications push ouvertes.<br/> </td> 
 </tr>
   <tr> 
-   <td> Intégrez les actions personnalisées<br/> </td> 
+   <td> Actions push personnalisées<br/> </td> 
    <td>Nombre d’actions personnalisées effectuées par les profils en réponse aux notifications push.<br/> </td> 
 </tr>
   <tr> 
@@ -457,29 +457,29 @@ Les tableaux ci-dessous contiennent la liste des mesures utilisées dans les dif
 </tr>
 
 <tr> 
-   <td>Conversion de la page de destination <br/> </td> 
+   <td>Conversion de la page de destination<br/> </td> 
    <td>Nombre de personnes ayant interagi avec la page de destination, par exemple celles qui se sont inscrites à un formulaire.<br/> </td> 
 </tr>
 <tr> 
-   <td>Taux de conversion des landing pages<br/> </td> 
-   <td>Pourcentage de personnes ayant interagi avec la page de destination, par exemple celles qui se sont inscrites à un formulaire, par rapport au nombre total de visites.<br/> </td> 
+   <td>Taux de conversion de la page de destination<br/> </td> 
+   <td>Nombre de personnes ayant interagi avec la page de destination, par exemple le nombre dʼinscriptions à un formulaire par rapport au nombre total de visites.<br/> </td> 
 </tr>
  <tr> 
-   <td>Pages de destination vues <br/> </td> 
-   <td>Nombre total de visites sur votre page de destination à partir de parcours et de sources externes, y compris les visites multiples du même profil.<br/> </td> 
+   <td>Vues de la page de destination<br/> </td> 
+   <td>Nombre total de visites sur votre page de destination provenant de parcours et de sources externes, y compris les visites multiples dʼun même profil.<br/> </td> 
 </tr>
 <tr> 
-   <td>Conversions de pages de destination uniques<br/> </td> 
-   <td>Nombre de personnes uniques ayant interagi avec la page de destination, en excluant les multiples interactions du même profil.<br/> </td> 
+   <td>Conversions uniques de la page de destination<br/> </td> 
+   <td>Nombre de personnes uniques ayant interagi avec la page de destination, sans prendre en compte les interactions multiples d’un même profil.<br/> </td> 
 </tr>
  <tr> 
-   <td>Pages de destination uniques vues<br/> </td> 
-   <td>Nombre de personnes uniques qui ont visité votre page de destination, en excluant les visites multiples du même profil.<br/> </td> 
+   <td>Vues uniques de la page de destination<br/> </td> 
+   <td>Nombre de personnes uniques qui ont visité votre page de destination, sans prendre en compte les visites multiples d’un même profil.<br/> </td> 
 </tr>
  </tbody> 
 </table>
 
-## Courrier {#direct-mail}
+## Publipostage direct {#direct-mail}
 
 <table> 
  <thead> 
@@ -494,20 +494,20 @@ Les tableaux ci-dessous contiennent la liste des mesures utilisées dans les dif
    <td>Nombre de messages de publipostage direct qui ont été correctement diffusés aux destinataires.<br/> </td> 
 </tr>
 <tr> 
-   <td>Erreurs sortantes <br/> </td> 
-   <td>Nombre de messages de publipostage direct qui ont rencontré des erreurs lors du traitement ou de l’envoi, empêchant une diffusion réussie.<br/> </td> 
+   <td>Erreurs sortantes<br/> </td> 
+   <td>Nombre de messages de publipostage direct qui ont rencontré des erreurs lors du traitement ou de l’envoi, entraînant l’échec de la diffusion.<br/> </td> 
 </tr>
 <tr> 
-   <td>Exclusions sortantes <br/> </td> 
-   <td>Nombre de profils exclus de la réception du publipostage direct en raison de critères prédéfinis ou d’un filtrage par Adobe Journey Optimizer.<br/> </td> 
+   <td>Exclusions sortantes<br/> </td> 
+   <td>Nombre de profils exclus de la réception du publipostage direct en raison de critères prédéfinis ou d’un filtrage par Adobe Journey Optimizer.<br/> </td> 
 </tr>
 <tr> 
    <td>Profils<br/> </td> 
-   <td>Nombre de profils utilisateur identifiés comme audience cible pour la campagne de publipostage direct.<br/> </td> 
+   <td>Nombre de profils d’utilisateurs et d’utilisatrices identifiés comme audience cible pour la campagne de publipostage direct.<br/> </td> 
 </tr>
 <tr> 
    <td>Envoyés<br/> </td> 
-   <td>Nombre total de messages de publipostage direct envoyés avec succès dans le cadre de la campagne.<br/> </td> 
+   <td>Nombre total de messages de publipostage direct dont l’envoi a réussi dans le cadre de la campagne.<br/> </td> 
 </tr>
 <tr> 
    <td>Ciblés<br/> </td> 
@@ -517,7 +517,7 @@ Les tableaux ci-dessous contiennent la liste des mesures utilisées dans les dif
 </table>
 
 
-## Mesures de carte de contenu {#content-based}
+## Mesures de la vignette de contenu {#content-based}
 
 <table> 
  <thead> 
@@ -529,27 +529,27 @@ Les tableaux ci-dessous contiennent la liste des mesures utilisées dans les dif
  <tbody>
 <tr> 
    <td>Taux de clics (CTR)<br/> </td> 
-   <td>Pourcentage d’utilisateurs ayant interagi avec la carte Contenu.<br/> </td> 
+   <td>Pourcentage d’utilisateurs et d’utilisatrices ayant interagi avec la vignette de contenu.<br/> </td> 
 </tr>
 <tr> 
    <td>Clics<br/> </td> 
-   <td>Nombre de clics sur un contenu de votre carte Contenu.<br/> </td> 
+   <td>Nombre de clics sur le contenu de votre vignette de contenu.<br/> </td> 
 </tr>
 <tr> 
-   <td>Affichages <br/> </td> 
+   <td>Affichages<br/> </td> 
    <td>Nombre d’ouvertures du message.<br/> </td> 
 </tr>
 <tr> 
-   <td>Personnes <br/> </td> 
-   <td>Nombre de profils utilisateur qui sont qualifiés en tant que profils cibles pour vos cartes de contenu.<br/> </td> 
+   <td>Personnes<br/> </td> 
+   <td>Nombre de profils d’utilisateurs et d’utilisatrices considérés comme profils cibles pour vos cartes de contenu.<br/> </td> 
 </tr>
 <tr> 
    <td>Clics uniques<br/> </td> 
-   <td>Nombre de profils ayant cliqué sur un contenu de votre carte Contenu.<br/> </td> 
+   <td>Nombre de profils ayant cliqué sur le contenu de votre vignette de contenu.<br/> </td> 
 </tr>
 <tr> 
    <td>Affichages uniques<br/> </td> 
-   <td>Nombre d’ouvertures du message : les interactions multiples d’un profil ne sont pas prises en compte.<br/> </td> 
+   <td>Nombre dʼouvertures du message, sans prendre en compte les interactions multiples dʼun même profil.<br/> </td> 
 </tr>
  </tbody> 
 </table>
@@ -566,27 +566,27 @@ Les tableaux ci-dessous contiennent la liste des mesures utilisées dans les dif
  <tbody>
 <tr> 
    <td>Clics<br/> </td> 
-   <td>Nombre de clics sur un contenu de vos pages web.<br/> </td> 
+   <td>Nombre de clics sur le contenu de vos pages web.<br/> </td> 
 </tr>
 <tr> 
    <td>Taux de clics (CTR)<br/> </td> 
    <td>Pourcentage d’utilisateurs et d’utilisatrices ayant interagi avec les pages web.<br/> </td> 
 </tr>
 <tr> 
-   <td>Affichages <br/> </td> 
+   <td>Affichages<br/> </td> 
    <td>Nombre d’ouvertures de la page web.<br/> </td> 
 </tr>
 <tr> 
-   <td>Personnes <br/> </td> 
-   <td>Nombre de profils qui remplissent les critères de profils cibles pour vos pages web.<br/> </td> 
+   <td>Personnes<br/> </td> 
+   <td>Nombre de profils d’utilisateurs et d’utilisatrices considérés comme profils cibles pour vos pages web.<br/> </td> 
 </tr>
 <tr> 
    <td>Clics uniques<br/> </td> 
-   <td>Nombre de profils ayant cliqué sur un contenu de vos pages web.<br/> </td> 
+   <td>Nombre de profils qui ont cliqué sur le contenu de vos pages web.<br/> </td> 
 </tr>
 <tr> 
    <td>Affichages uniques<br/> </td> 
-   <td>Nombre d’ouvertures de la page web. Les interactions multiples d’un profil ne sont pas prises en compte.<br/> </td> 
+   <td>Nombre d’ouvertures de la page web, sans prendre en compte les interactions multiples d’un même profil.<br/> </td> 
 </tr>
  </tbody> 
 </table>
@@ -603,55 +603,55 @@ Les tableaux ci-dessous contiennent la liste des mesures utilisées dans les dif
  <tbody>
 <tr> 
    <td>Clics<br/> </td> 
-   <td>Nombre total de fois où les utilisateurs et utilisatrices ont cliqué sur des expériences personnalisées qui leur ont été présentées.<br/> </td> 
+   <td>Nombre total de fois où des utilisateurs et des utilisatrices ont cliqué sur des expériences personnalisées qui leur ont été présentées.<br/> </td> 
 </tr>
 <tr> 
-   <td>Taux de clic publicitaire (CTR)<br/> </td> 
-   <td>Pourcentage d’utilisateurs et d’utilisatrices qui cliquent sur un lien, une annonce publicitaire ou une recommandation par rapport au nombre de fois où elle a été affichée.<br/> </td> 
+   <td>Taux de clic (CTR)<br/> </td> 
+   <td>Pourcentage des utilisateurs et des utilisatrices qui cliquent sur un lien, une annonce publicitaire ou une recommandation par rapport au nombre d’affichages de ces derniers.<br/> </td> 
 </tr>
 <tr> 
    <td>Taux de conversion<br/> </td> 
-   <td>Pourcentage d’affichages ayant entraîné des actions de l’utilisateur (par exemple, des clics), indiquant le succès du modèle pour ce qui est d’impliquer les utilisateurs.<br/> </td> 
+   <td>Pourcentage d’affichages qui ont généré des actions de l’utilisateur ou de l’utilisatrice (par exemple, des clics), indiquant la capacité du modèle à générer de l’engagement des utilisateurs et des utilisatrices.<br/> </td> 
 </tr>
 <tr> 
    <td>Performances des éléments de décision<br/> </td> 
-   <td>Évalue les performances de chaque élément pour impliquer les utilisateurs et les utilisatrices et pour générer les actions souhaitées, telles que les achats, les clics ou d’autres réponses.<br/> </td> 
+   <td>Évalue les performances de chaque élément concernant leur capacité à générer de l’engagement de la part des utilisateurs et des utilisatrices et à produire des actions souhaitées, telles que des achats, des clics ou d’autres types de réactions.<br/> </td> 
 </tr>
 <tr> 
-   <td>KPI de prise de décision <br/> </td> 
-   <td>Informations clés sur l’engagement des visiteurs et visiteuses avec les expériences , y compris le nombre total d’éléments, de clics, d’affichages au total et le taux de secours.<br/> </td> 
+   <td>KPI de prise de décision<br/> </td> 
+   <td>Informations clés sur l’engagement des visiteurs et visiteuses avec les expériences, y compris le nombre total d’éléments, de clics, d’affichages au total et le taux d’offres de secours.<br/> </td> 
 </tr>
 <tr> 
-   <td>Affichages <br/> </td> 
-   <td>Nombre total de fois où des expériences personnalisées ont été présentées aux utilisateurs à travers différents points de contact.<br/> </td> 
+   <td>Affichages<br/> </td> 
+   <td>Nombre total de fois où des expériences personnalisées ont été affichées ou présentées aux utilisateurs et aux utilisatrices via les différents points de contact.<br/> </td> 
 </tr>
 <tr> 
    <td>Entonnoir d’engagement<br/> </td> 
-   <td>Surveille les performances des expériences personnalisées en évaluant l’efficacité avec laquelle chaque étape de l’entonnoir génère des interactions utilisateur.<br/> </td> 
+   <td>Surveille les performances des expériences personnalisées en évaluant l’efficacité de chaque étape de l’entonnoir pour susciter des interactions des utilisateurs et des utilisatrices.<br/> </td> 
 </tr>
 <tr> 
    <td>Entonnoir d’engagement par stratégie de sélection<br/> </td> 
    <td>Surveille et analyse l’efficacité avec laquelle différentes stratégies de sélection impliquent les utilisateurs et utilisatrices avec des expériences personnalisées.<br/> </td> 
 </tr>
 <tr> 
-   <td>Personnes <br/> </td> 
-   <td>Nombre de profils utilisateur qui sont qualifiés en tant que profils cibles pour vos expériences basées sur du code.<br/> </td> 
+   <td>Personnes<br/> </td> 
+   <td>Nombre de profils d’utilisateurs et d’utilisatrices considérés comme profils cibles pour vos expériences basées sur du code.<br/> </td> 
 </tr>
 <tr> 
-   <td>Stratégie de classement <br/> </td> 
-   <td>Des informations sur les performances des modèles de classement pilotés par l’IA comparant deux types de trafic : piloté par le modèle et exclu<br/> </td> 
+   <td>Stratégie de classement<br/> </td> 
+   <td>Des informations sur les performances des modèles de classement basés sur l’IA comparant deux types de trafic : avec modèle et validation non-croisée.<br/> </td> 
 </tr>
 <tr> 
-   <td>Principaux éléments de décision par rapport au taux de clics <br/> </td> 
-   <td>Met en évidence les performances de chaque élément en fonction de son taux de clic publicitaire (CTR), ce qui permet d’évaluer les éléments les plus efficaces pour séduire les utilisateurs.<br/> </td> 
+   <td>Principaux éléments de décision par rapport au CTR<br/> </td> 
+   <td>Souligne les performances de chaque élément en fonction de son taux de clic (CTR), ce qui permet d’évaluer les éléments les plus efficaces pour engager les utilisateurs et les utilisatrices.<br/> </td> 
 </tr>
 <tr> 
    <td>Clics uniques<br/> </td> 
-   <td>Nombre de profils ayant cliqué sur un contenu dans vos expériences basées sur du code.<br/> </td> 
+   <td>Nombre de profils qui ont cliqué sur le contenu de vos expériences basées sur du code.<br/> </td> 
 </tr>
 <tr> 
    <td>Affichages uniques<br/> </td> 
-   <td>Nombre d’ouvertures de l’expérience. Les interactions multiples d’un profil ne sont pas prises en compte.<br/> </td> 
+   <td>Nombre dʼouvertures de l’expérience, sans prendre en compte les interactions multiples dʼun même profil.<br/> </td> 
 </tr>
  </tbody> 
 </table>

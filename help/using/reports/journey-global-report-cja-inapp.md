@@ -11,7 +11,7 @@ exl-id: f10b3ab9-db0a-4759-98e4-2ac1988eb8c4
 source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
 workflow-type: tm+mt
 source-wordcount: '611'
-ht-degree: 81%
+ht-degree: 87%
 
 ---
 
@@ -89,9 +89,9 @@ Le tableau **[!UICONTROL Données de suivi]** offre un instantané détaillé de
 
 * **[!UICONTROL Envois]** : nombre total de messages in-app envoyés.
 
-* **[!UICONTROL Entrant déclenché]** : nombre de fois qu’un message in-app a été déclenché par une interaction utilisateur ou un événement prédéfini.
+* **[!UICONTROL Entrants déclenchés]** : nombre de fois qu’un message in-app a été déclenché par une interaction d’un utilisateur ou d’une utilisatrice ou un événement prédéfini.
 
-* **[!UICONTROL Rejets entrants]** : nombre de fois où les utilisateurs et utilisatrices ont ignoré le message in-app sans interagir avec celui-ci.
+* **[!UICONTROL Entrants ignorés]** : nombre de fois où les utilisateurs et utilisatrices ont ignoré le message in-app sans interagir avec celui-ci.
 
 +++
 

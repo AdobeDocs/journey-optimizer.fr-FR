@@ -30,7 +30,7 @@ GET /{ENDPOINT_PATH}/item-collections?{QUERY_PARAMS}
 | `{ENDPOINT_PATH}` | Chemin d’accès de point d’entrée pour les API Persistence | `https://platform.adobe.io/data/core/dps` |
 | `{QUERY_PARAMS}` | Paramètres de requête facultatifs en fonction desquels filtrer les résultats. | `limit=2` |
 
-## Utilisation des paramètres de requête {#using-query-parameters}
+## Utiliser des paramètres de requête {#using-query-parameters}
 
 Vous pouvez utiliser des paramètres de requête pour paginer et filtrer les résultats lors de l&#39;organisation en liste des ressources.
 

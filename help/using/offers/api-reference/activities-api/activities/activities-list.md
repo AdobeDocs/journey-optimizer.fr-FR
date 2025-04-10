@@ -41,7 +41,7 @@ curl -X GET 'https://platform.adobe.io/data/core/dps/offer-decisions?limit=2' \
 -H 'x-sandbox-name: {SANDBOX_NAME}'
 ```
 
-## Utilisation des paramètres de requête {#using-query-parameters}
+## Utiliser des paramètres de requête {#using-query-parameters}
 
 Vous pouvez utiliser des paramètres de requête pour paginer et filtrer les résultats lors de l&#39;organisation en liste des ressources.
 

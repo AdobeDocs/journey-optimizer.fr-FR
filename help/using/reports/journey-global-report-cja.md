@@ -11,7 +11,7 @@ exl-id: 30d4f967-e085-44f1-973d-11e79f693e6e
 source-git-commit: 1af75a0e6bfc2c3b9c565c3190f46d137a68d32e
 workflow-type: tm+mt
 source-wordcount: '887'
-ht-degree: 84%
+ht-degree: 95%
 
 ---
 
@@ -53,7 +53,7 @@ Le tableau **[!UICONTROL Statistiques du parcours]** offre un résumé détaill�
 
 +++ En savoir plus sur les mesures Statistiques de Parcours .
 
-* **[!UICONTROL Exclusion de Parcours]** : nombre total de personnes qui ont été exclues du parcours en raison de critères prédéfinis ou de règles de suppression.
+* **[!UICONTROL Exclusion de parcours]** : nombre total de personnes qui ont été exclues du parcours en raison de critères prédéfinis ou de règles de suppression.
 
 * **[!UICONTROL Engagement du parcours]** : nombre total de personnes uniques ayant reçu des messages envoyés depuis le parcours et représentant des profils distincts ayant atteint un point d’action désigné dans le parcours.
 
@@ -73,7 +73,7 @@ Le tableau **[!UICONTROL Statistiques du parcours]** offre un résumé détaill�
 
 ## Exclusion de parcours {#journey-exclusion}
 
-Le tableau **[!UICONTROL Exclusion de Parcours]** présente une vue d’ensemble complète des différents facteurs qui ont entraîné l’exclusion des profils utilisateur.
+Le tableau **[!UICONTROL Exclusion de parcours]** présente une vue complète des différents facteurs qui ont entraîné l’exclusion des profils d’utilisateurs et d’utilisatrices.
 
 ## Erreur d’action {#action-error}
 
@@ -116,11 +116,11 @@ Le tableau **[!UICONTROL Vue d’ensemble des actions]** sert de tableau de bord
 
 +++ En savoir plus sur les mesures de présentation des actions
 
-* **[!UICONTROL Entrées de nœud]** : nombre total de personnes ayant accédé à un nœud spécifique dans le parcours.
+* **[!UICONTROL Entrées de nœud]** : nombre total de personnes ayant accédé à un nœud spécifique dans le parcours.
 
-* **[!UICONTROL Échec du Parcours]** : nombre total de parcours individuels qui n&#39;ont pas été exécutés avec succès.
+* **[!UICONTROL Échecs de parcours]** : nombre total de parcours individuels dont l’exécution a échoué.
 
-* **[!UICONTROL Taux de clics]** : pourcentage d’utilisateurs ayant interagi avec l’action.
+* **[!UICONTROL Taux de clics]** : pourcentage d’utilisateurs et d’utilisatrices ayant interagi avec l’action.
 
 * **[!UICONTROL Clics]** : nombre de clics sur un contenu dans vos actions.
 

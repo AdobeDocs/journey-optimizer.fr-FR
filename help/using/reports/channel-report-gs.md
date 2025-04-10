@@ -10,8 +10,8 @@ level: Intermediate
 exl-id: 247b966d-4f84-453b-8178-9c9ebcd494ef
 source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
 workflow-type: tm+mt
-source-wordcount: '640'
-ht-degree: 97%
+source-wordcount: '642'
+ht-degree: 94%
 
 ---
 
@@ -31,7 +31,7 @@ Pour en savoir plus sur les différents widgets et mesures disponibles pour les 
 
 Avant de commencer, vérifiez que vous avez accès au menu **[!UICONTROL Rapports]**.
 
-Si vous ne voyez pas le menu **[!UICONTROL Rapports]**, vos droits d’accès doivent être étendus pour inclure l’autorisation **[!UICONTROL Afficher les rapports sur les canaux]**. Vous pouvez étendre vos propres autorisations si vous avez accès aux [autorisations](https://experienceleague.adobe.com/docs/experience-platform/access-control/home.html?lang=fr){target="_blank"} Adobe Experience Platform pour votre organisation. Si ce n’est pas le cas, contactez votre administrateur ou administratrice Adobe Journey Optimizer.
+Si vous ne voyez pas le menu **[!UICONTROL Rapports]**, vos droits d’accès doivent être étendus pour inclure l’autorisation **[!UICONTROL Afficher les rapports sur les canaux]**. Vous pouvez étendre vos propres autorisations, si vous avez accès au Adobe Experience Platform [Autorisations](https://experienceleague.adobe.com/docs/experience-platform/access-control/home.html?lang=fr){target="_blank"}{target=« _blank »} pour votre organisation. Si ce n’est pas le cas, contactez votre administrateur ou administratrice Adobe Journey Optimizer.
 
 +++Découvrez comment attribuer une autorisation de rapport.
 

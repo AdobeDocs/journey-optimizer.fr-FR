@@ -11,7 +11,7 @@ keywords: ressources, experience manager, intégration
 exl-id: d4fde14b-e2da-40bf-a387-ee9f2f7ff204
 source-git-commit: 1af75a0e6bfc2c3b9c565c3190f46d137a68d32e
 workflow-type: tm+mt
-source-wordcount: '787'
+source-wordcount: '795'
 ht-degree: 98%
 
 ---
@@ -30,7 +30,7 @@ Rassemblez les workflows marketing et créatifs à l’aide de **[!DNL Adobe Exp
 
 * **[!DNL Assets Essentials]** : Experience Manager Assets Essentials est une solution légère d’Assets as a Cloud Service pour une gestion et une collaboration unifiées des ressources. Grâce à une interface moderne et simplifiée, elle permet aux équipes créatives et marketing de stocker, découvrir et distribuer des ressources numériques sans effort.
 
-  En savoir plus dans la [documentation Adobe Experience Manager Assets Essentials](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/introduction.html?lang=fr){target="_blank"}.
+  En savoir plus dans la [Documentation Adobe Experience Manager Assets Essentials](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/introduction.html?lang=fr){target="_blank"}{target=&quot;_blank&quot;}.
 
 Selon votre contrat, **[!DNL Adobe Experience Manager Assets Essentials]** ou **[!DNL Adobe Experience Manager Assets as a Cloud Service]** est accessible directement depuis **[!DNL Adobe Journey Optimizer]** dans la section **[!UICONTROL Ressources]** du menu de gauche. Vous pouvez également accéder aux ressources et aux dossiers lors de la [conception d’un contenu d’e-mail](../email/get-started-email-design.md).
 
@@ -40,10 +40,10 @@ Selon votre contrat, **[!DNL Adobe Experience Manager Assets Essentials]** ou **
 
 >[!TAB Adobe Experience Manager Assets Essentials]
 
-Avant d’utiliser [!DNL Adobe Experience Manager Assets Essentials], vous devez ajouter des utilisateurs et des utilisatrices aux profils de produit **Utilisateurs clients dʼAssets Essentials** ou/et **Utilisateurs dʼAssets Essentials**. Pour en savoir plus, consultez la [documentation d’Assets Essentials](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/get-started-admins/deploy-administer.html?lang=fr#add-user-groups){target="_blank"}.
+Avant d’utiliser [!DNL Adobe Experience Manager Assets Essentials], vous devez ajouter des utilisateurs/utilisatrices aux profils de produits **Utilisateurs consommateurs/utilisatrices consommatrices Assets Essentials** ou/et **Utilisateurs/utilisatrices Assets Essentials**. Pour en savoir plus, consultez la [documentation Assets Essentials](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/get-started-admins/deploy-administer.html?lang=fr#add-user-groups){target="_blank"}{target=&quot;_blank&quot;}.
 
 >[!NOTE]
->Pour les produits Journey Optimizer obtenus avant le 6 janvier 2022, vous devez déployer **[!DNL Adobe Experience Manager Assets Essentials]** pour votre organisation. Pour en savoir plus, reportez-vous à la section [Déploiement d’Assets Essentials](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/deploy-administer.html?lang=fr){target="_blank"}
+>Pour les produits Journey Optimizer obtenus avant le 6 janvier 2022, vous devez déployer **[!DNL Adobe Experience Manager Assets Essentials]** pour votre organisation. Pour en savoir plus, consultez la section [Déploiement d’Assets Essentials](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/deploy-administer.html?lang=fr){target="_blank"}{target=&quot;_blank&quot;}.
 
 >[!TAB Adobe Experience Manager Assets as a Cloud Service]
 
@@ -85,7 +85,7 @@ Pour importer des fichiers dans **[!DNL Assets Essentials]** ou **[!DNL Assets a
 
 1. Sélectionnez le fichier que vous souhaitez télécharger. Lorsque vous avez terminé, cliquez sur **[!UICONTROL Télécharger]**. Pour en savoir plus sur la gestion de vos ressources, consultez cette [page](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/manage-organize.html?lang=fr).
 
-1. Pour modifier davantage vos ressources avec Adobe Photoshop Express, double-cliquez dessus. Ensuite, dans le menu de droite, sélectionnez l’icône **[!UICONTROL Mode d’édition]**. [En savoir plus](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/edit-images.html?lang=fr){target="_blank"}.
+1. Pour modifier davantage vos ressources avec Adobe Photoshop Express, double-cliquez dessus. Ensuite, dans le menu de droite, sélectionnez l’icône **[!UICONTROL Mode d’édition]**. [En savoir plus](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/edit-images.html?lang=fr){target="_blank"}{target=&quot;_blank&quot;}.
 
    ![](assets/media_library_12.png)
 

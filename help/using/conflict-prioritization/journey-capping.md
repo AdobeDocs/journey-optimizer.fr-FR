@@ -8,7 +8,7 @@ exl-id: 4c0ee178-81fb-41ae-b7f5-22da995e6fc6
 source-git-commit: 0a6fa748aca04f544954089d2dfdd8e9a3afdd97
 workflow-type: tm+mt
 source-wordcount: '944'
-ht-degree: 89%
+ht-degree: 90%
 
 ---
 
@@ -77,7 +77,7 @@ Pour créer une règle de limitation de parcours, procédez comme suit :
 
      >[!AVAILABILITY]
      >
-     >La durée « quotidienne » n’est disponible que pour un ensemble d’organisations (disponibilité limitée). Pour en bénéficier, contactez votre représentant ou représentante Adobe.
+     >La durée « Quotidienne » est disponible uniquement pour un ensemble d’organisations (disponibilité limitée). Pour en bénéficier, contactez votre représentant ou représentante Adobe.
 
      Dans cet exemple, nous voulons limiter à « 5 » le nombre de parcours par mois que les profils peuvent rejoindre.
 

@@ -88,7 +88,7 @@ La bonne pratique consiste à utiliser des dates personnalisées spécifiques à
 
 Pour vérifier que l’activité d’attente fonctionne comme prévu, vous pouvez utiliser des événements d’étape. [En savoir plus](../reports/query-examples.md#common-queries).
 
-## Nœud d’attente automatique  {#auto-wait-node}
+## Nœud d’attente automatique   {#auto-wait-node}
 
 
 >[!CONTEXTUALHELP]

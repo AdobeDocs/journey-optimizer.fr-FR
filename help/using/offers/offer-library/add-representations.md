@@ -72,7 +72,7 @@ Si l&#39;emplacement sélectionné est de type image, vous pouvez ajouter du con
 
 >[!NOTE]
 >
-> Pour utiliser [Adobe Experience Manager Assets Essentials](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/introduction.html?lang=fr){target="_blank"}, vous devez déployer [!DNL Assets Essentials] pour votre organisation et vous assurer que les utilisateurs et les utilisatrices font partie des profils de produits **Utilisateurs consommateurs et utilisatrices consommatrices d’Assets Essentials** et/ou **Utilisateurs et utilisatrices d’Assets Essentials**. En savoir plus sur [ cette page ](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/get-started-admins/deploy-administer.html?lang=fr){target="_blank"}.
+> Pour utiliser [Adobe Experience Manager Assets Essentials](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/introduction.html?lang=fr){target="_blank"}, vous devez déployer [!DNL Assets Essentials] pour votre organisation et vous assurer que les utilisateurs et les utilisatrices font partie des profils de produits **Utilisateurs consommateurs et utilisatrices consommatrices Assets Essentials** et/ou **Utilisateurs et utilisatrices Assets Essentials**. En savoir plus sur [ cette page ](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/get-started-admins/deploy-administer.html?lang=fr){target="_blank"}.
 
 1. Choisissez l’option **[!UICONTROL Bibliothèque de ressources]**.
 

@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Prise en main des campagnes à plusieurs étapes
+title: Commencer avec les campagnes à plusieurs étapes
 description: Découvrez comment commencer avec des campagnes à plusieurs étapes.
 hide: true
 hidefromtoc: true
@@ -9,11 +9,11 @@ exl-id: 611dd06d-aa18-4fa3-a477-8a910cec21d8
 source-git-commit: 3ecb1691cc8a1c429d9bd9919b06ddc5a316eff7
 workflow-type: tm+mt
 source-wordcount: '402'
-ht-degree: 18%
+ht-degree: 21%
 
 ---
 
-# Prise en main des campagnes à plusieurs étapes {#ms-camp}
+# Commencer avec les campagnes à plusieurs étapes {#ms-camp}
 
 >[!BEGINSHADEBOX]
 

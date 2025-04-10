@@ -9,7 +9,7 @@ level: Experienced
 keywords: requête, collections, fonctions, payload, parcours
 exl-id: 09b38179-9ace-4921-985b-ddd17eb64681
 source-git-commit: 0d6b0cad90dbeded671a79732a6f101289568f81
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '696'
 ht-degree: 100%
 

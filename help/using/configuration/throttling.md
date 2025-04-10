@@ -11,7 +11,7 @@ exl-id: b837145b-1727-43c0-a0e2-bf0e8a35347c
 source-git-commit: ecb479f0875cfe1865a60667da6e2f84fad5044a
 workflow-type: tm+mt
 source-wordcount: '880'
-ht-degree: 69%
+ht-degree: 100%
 
 ---
 
@@ -29,9 +29,9 @@ Cette section fournit des informations générales sur l’utilisation de l’AP
 >
 >Lorsque la limite définie dans l’API est atteinte, les événements suivants sont mis en file d’attente pendant 6 heures au maximum. Cette valeur ne peut pas être modifiée.
 
-## Description de l’API de limitation et collection Postman {#description}
+## Description de l’API de throttling et collection Postman {#description}
 
-Le tableau ci-dessous répertorie les commandes disponibles pour l’API de limitation. Des informations détaillées, notamment des exemples de requête, des paramètres et des formats de réponse, sont disponibles dans la documentation des API Adobe Journey Optimizer [](https://developer.adobe.com/journey-optimizer-apis/references/journeys/).
+Le tableau ci-dessous répertorie les commandes disponibles pour l’API de throttling. Des informations détaillées, notamment des exemples de requête, des paramètres et des formats de réponse, sont disponibles dans la [documentation des API Adobe Journey Optimizer](https://developer.adobe.com/journey-optimizer-apis/references/journeys/).
 
 | Méthode | Chemin | Description |
 |---|---|---|
@@ -44,12 +44,12 @@ Le tableau ci-dessous répertorie les commandes disponibles pour l’API de limi
 | [!DNL GET] | /throttlingConfigs/`{uid}` | Récupération d’une configuration de limitation |
 | [!DNL DELETE] | /throttlingConfigs/`{uid}` | Suppression d’une configuration de limitation |
 
-En outre, une collection Postman est disponible [ici](https://github.com/AdobeDocs/JourneyAPI/blob/master/postman-collections/Journeys_Throttling-API_postman-collection.json) pour vous aider dans votre configuration de test.
+En outre, une collection Postman est disponible [ici](https://github.com/AdobeDocs/JourneyAPI/blob/master/postman-collections/Journeys_Throttling-API_postman-collection.json) pour vous aider lors de la configuration de test.
 
-Cette collection a été configurée pour partager la collection de variables Postman générée via __[Intégrations de la console Adobe I/O](https://console.adobe.io/integrations) > Essayer > Télécharger pour Postman__, qui génère un fichier d’environnement Postman avec les valeurs d’intégration sélectionnées.
+Elle a été créée pour partager la collection de variables Postman générée dans __[Intégrations de la console Adobe I/O](https://console.adobe.io/integrations) > Essayer > Télécharger pour Postman__, qui génère un fichier d’environnement Postman contenant les valeurs d’intégration sélectionnées.
 
-Une fois le téléchargement puis le chargement effectués dans Postman, vous devez ajouter trois variables : `{JO_HOST}`, `{BASE_PATH}` et `{SANDBOX_NAME}`.
-* `{JO_HOST}` : URL de passerelle [!DNL Journey Optimizer].
+Une fois le téléchargement puis le chargement effectués dans Postman, vous devez ajouter trois variables : `{JO_HOST}`, `{BASE_PATH}` et `{SANDBOX_NAME}`.
+* `{JO_HOST}` : URL de passerelle [!DNL Journey Optimizer]
 * `{BASE_PATH}` : point d’entrée pour l’API.
 * `{SANDBOX_NAME}` : l’en-tête **x-sandbox-name** (par exemple, « prod ») correspondant au nom sandbox dans lequel les opérations d’API auront lieu. Pour plus d’informations, consultez la [Présentation des sandbox](https://experienceleague.adobe.com/docs/experience-platform/sandbox/home.html?lang=fr).
 
@@ -301,64 +301,64 @@ Lors de la mise à jour d’une configuration déjà déployée, les nouvelles v
 
 ## Cas d’utilisation {#uc}
 
-Cette section répertorie les cas d’utilisation clés pour la gestion des configurations de limitation dans [!DNL Journey Optimizer] et les commandes d’API associées requises pour mettre en œuvre le cas d’utilisation.
+Cette section aborde les principaux cas d’utilisation de la gestion des configurations de limitation dans [!DNL Journey Optimizer] ainsi que les commandes API associées requises pour mettre en œuvre le cas d’utilisation.
 
-Des détails sur chaque commande d’API sont disponibles dans la [description de l’API et collection Postman](#description).
+Des détails sur chaque commande API sont disponibles dans la [description de l’API et collection Postman](#description).
 
 +++Création et déploiement d’une nouvelle configuration de limitation
 
-Appels d’API à utiliser :
+Appels API à utiliser :
 
-1. **`list`** - Récupère les configurations existantes.
-1. **`create`** - Crée une configuration.
-1. **`candeploy`** - Vérifie si la configuration peut être déployée.
-1. **`deploy`** - Déploie la configuration.
+1. **`list`** : récupère les configurations existantes.
+1. **`create`** : crée une configuration.
+1. **`candeploy`** : vérifie que la configuration peut être déployée.
+1. **`deploy`** : déploie la configuration.
 
 +++
 
-+++Mise à jour et déploiement d’une configuration de limitation (pas encore déployée)
++++Mettre à jour et déployer une configuration de throttling (pas encore déployée)
 
-Appels d’API à utiliser :
+Appels API à utiliser :
 
-1. **`list`** - Récupère les configurations existantes.
-1. **`get`** - Récupère les détails d’une configuration spécifique.
-1. **`update`** - Modifie la configuration.
-1. **`candeploy`** - Vérifie l’éligibilité du déploiement.
-1. **`deploy`** - Déploie la configuration.
+1. **`list`** : récupère les configurations existantes.
+1. **`get`** : récupère les détails d’une configuration spécifique.
+1. **`update`** : modifie la configuration.
+1. **`candeploy`** : vérifie l’éligibilité du déploiement.
+1. **`deploy`** : déploie la configuration.
 
 +++
 
 +++Annuler le déploiement et supprimer une configuration de limitation déployée
 
-Appels d’API à utiliser :
+Appels API à utiliser :
 
-1. **`list`** - Récupère les configurations existantes.
-1. **`undeploy`** - Annule le déploiement de la configuration.
-1. **`delete`** - Supprime la configuration.
+1. **`list`** : récupère les configurations existantes.
+1. **`undeploy`** : annule le déploiement de la configuration.
+1. **`delete`** : supprime la configuration.
 
 +++
 
 +++Supprimer une configuration de limitation déployée
 
-En un seul appel API, vous pouvez annuler le déploiement et supprimer la configuration à l’aide du paramètre `forceDelete` .
+En un seul appel API, vous pouvez annuler le déploiement et supprimer la configuration à l’aide du paramètre `forceDelete`.
 
-Appels d’API à utiliser :
+Appels API à utiliser :
 
-1. **`list`** - Récupère les configurations existantes.
-1. **`delete`(avec `forceDelete` paramètre)** Force la suppression d’une configuration déployée en une seule étape.
+1. **`list`** : récupère les configurations existantes.
+1. **`delete`(avec le paramètre `forceDelete`)** : force la suppression d’une configuration déployée en une seule étape.
 
 +++
 
-+++Mettre à jour une configuration de limitation déjà déployée
++++Mettre à jour une configuration de throttling déployée
 
 >[!NOTE]
 >
 >Il n’est pas nécessaire d’annuler le déploiement de la configuration avant la mise à jour.
 
-Appels d’API à utiliser :
+Appels API à utiliser :
 
-1. **`list`** - Récupère les configurations existantes.
-1. **`get`** - Récupère les détails d’une configuration spécifique.
-1. **`update`** - Modifie la configuration.
+1. **`list`** : récupère les configurations existantes.
+1. **`get`** : récupère les détails d’une configuration spécifique.
+1. **`update`** : modifie la configuration.
 
 +++

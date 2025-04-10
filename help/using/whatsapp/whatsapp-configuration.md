@@ -13,7 +13,7 @@ exl-id: d1f40cd8-f311-4df6-b401-8858095cef3e
 source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
 workflow-type: tm+mt
 source-wordcount: '461'
-ht-degree: 45%
+ht-degree: 48%
 
 ---
 
@@ -23,10 +23,10 @@ ht-degree: 45%
 
 **Table des matières**
 
-* [Prise en main des messages WhatsApp](get-started-whatsapp.md)
+* [Commencer avec les messages WhatsApp](get-started-whatsapp.md)
 * **[Prise en main de la configuration de WhatsApp](whatsapp-configuration.md)**
 * [Créer un message WhatsApp](create-whatsapp.md)
-* [Vérifier et envoyer vos messages WhatsApp](send-whatsapp.md)
+* [Vérifier et envoyer des messages WhatsApp](send-whatsapp.md)
 
 >[!ENDSHADEBOX]
 

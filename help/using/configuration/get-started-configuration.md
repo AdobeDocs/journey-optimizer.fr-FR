@@ -10,7 +10,7 @@ feature: Application Settings
 topic: Administration
 keywords: configuration, configurer, messages, canal, sandbox, optimizer
 source-git-commit: 40bef9a05fef1433773a73d546752e84f81b7366
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '387'
 ht-degree: 100%
 

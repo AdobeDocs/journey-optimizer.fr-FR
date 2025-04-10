@@ -10,7 +10,7 @@ exl-id: f64fe1c4-3e30-4b74-80f8-b801a5f1d4c4
 source-git-commit: 67ebea8b1b46ee20735eee0680656e82f2839c41
 workflow-type: tm+mt
 source-wordcount: '1285'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -45,7 +45,7 @@ Journey Optimizer vous permet de verrouiller le contenu dans les modèles d’e
 
 >[!IMPORTANT]
 >
->Le verrouillage de contenu est une fonctionnalité de niveau éditeur pour les auteurs et les autrices qui ne garantit pas que le contenu ne sera pas modifié lorsqu’il est importé ou créé via l’API.
+>Le verrouillage du contenu est une fonctionnalité au niveau de l’éditeur pour les créateurs et créatrices et ne garantit pas que le contenu ne sera pas modifié s’il est importé ou créé via une API.
 
 Le verrouillage du contenu peut être appliqué au niveau de la **structure** ou au niveau du **composant**. Voici les principaux principes qui s’appliquent au niveau de la structure et du composant lors du verrouillage du contenu dans votre modèle.
 
@@ -65,7 +65,7 @@ Le verrouillage du contenu peut être appliqué au niveau de la **structure** ou
 >
 >Les utilisateurs et les utilisatrices autorisés à créer des modèles de contenu peuvent activer le verrouillage de contenu.
 
-➡️ [Découvrez cette fonctionnalité en vidéo.](#video)
+➡️ [Découvrir cette fonctionnalité en vidéo](#video)
 
 ## Verrouillage d’un modèle d’e-mail {#define}
 
@@ -195,6 +195,6 @@ Voici quelques exemples de modification d’e-mails et de configuration de verro
 
 ## Vidéo pratique {#video}
 
-Découvrez comment verrouiller du contenu dans des modèles d’e-mail.
+Découvrez comment verrouiller le contenu dans vos modèles d’e-mail.
 
 >[!VIDEO](https://video.tv.adobe.com/v/3451591?quality=12)

@@ -8,7 +8,7 @@ level: Experienced
 exl-id: df92e319-1e42-486f-b688-595964a762c9
 source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
 workflow-type: tm+mt
-source-wordcount: '265'
+source-wordcount: '267'
 ht-degree: 98%
 
 ---
@@ -24,7 +24,7 @@ Ajoutez le groupe de champs **Événement d’expérience - Interaction de propo
 
 * **Adobe Experience Platform**
 
-  Assurez-vous d’avoir une politique de fusion par défaut avec l’option **Politique de fusion Active-On-Edge** activée dans le menu Experience Platform **[!UICONTROL Client ou cliente]** > **[!UICONTROL Profils]** > **[!UICONTROL Politiques de fusion]**. [En savoir plus](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/ui-guide.html?lang=fr#configure){target="_blank"}
+  Assurez-vous d’avoir une politique de fusion par défaut avec l’option **Politique de fusion Active-On-Edge** activée dans le menu Experience Platform **[!UICONTROL Client ou cliente]** > **[!UICONTROL Profils]** > **[!UICONTROL Politiques de fusion]**. [En savoir plus](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/ui-guide.html?lang=fr#configure){target=&quot;_blank&quot;}
 
   >[!NOTE]
   >

@@ -66,7 +66,7 @@ Pour configurer l’accessibilité de votre contenu, vous devez affecter un doss
 
 Notez que pour que votre contenu soit synchronisé avec le sandbox correct, vous devez suivre la même syntaxe que cet environnement. Par exemple, si votre sandbox est appelé développement, votre dossier partagé doit porter le même nom.
 
-[Découvrez comment gérer les dossiers partagés](https://helpx.adobe.com/fr/enterprise/admin-guide.html/enterprise/using/manage-adobe-storage.ug.html){target="_blank"} .
+[Découvrez comment gérer les dossiers partagés](https://helpx.adobe.com/fr/enterprise/admin-guide.html/enterprise/using/manage-adobe-storage.ug.html){target="_blank"}.
 
 ## Vidéo pratique{#video}
 

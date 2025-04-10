@@ -10,8 +10,8 @@ level: Beginner, Intermediate
 exl-id: 1fc708e1-a993-4a2a-809c-c5dc08a4bae1
 source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
 workflow-type: tm+mt
-source-wordcount: '1505'
-ht-degree: 96%
+source-wordcount: '1469'
+ht-degree: 99%
 
 ---
 
@@ -41,7 +41,7 @@ Vous pouvez filtrer les fragments en fonction des éléments suivants :
 * État (archivé ou non)
 * Balises
 
-![](assets/fragment-list-filters.png){width="90%" align="left"}{width=« 90% » align=« left »}
+![](assets/fragment-list-filters.png){width="90%" align="left"}
 
 Vous pouvez choisir d’afficher tous les fragments ou uniquement les éléments créés ou modifiés par la personne y ayant accès.
 
@@ -143,7 +143,7 @@ Pour modifier un fragment, procédez comme suit.
 
 1. Si le fragment en cours de modification a le statut **[!UICONTROL Actif]**, cliquez sur le bouton **[!UICONTROL Modifier]** pour créer une version brouillon du fragment. Cliquez sur **[!UICONTROL Confirmer]**.
 
-   ![](assets/fragment-live-modify.png){width="70%" align="left"}{width=« 70% » align=« left »}
+   ![](assets/fragment-live-modify.png){width="70%" align="left"}
 
    >[!NOTE]
    >
@@ -153,7 +153,7 @@ Pour modifier un fragment, procédez comme suit.
 
 1. Pour modifier le contenu du fragment, cliquez sur le bouton **[!UICONTROL Modifier]**, puis modifiez votre contenu comme vous le feriez lors de la création d’un fragment à partir de zéro. [Découvrir comment créer un fragment](create-fragments.md#content)
 
-   ![](assets/fragment-edit.png){width="70%" align="left"}{width=« 70% » align=« left »}
+   ![](assets/fragment-edit.png){width="70%" align="left"}
 
    >[!NOTE]
    >
@@ -179,13 +179,13 @@ Pour incorporer des attributs supplémentaires à un fragment actif, procédez c
 
 1. Dupliquez le fragment existant à l’aide du bouton **[!UICONTROL Autres actions]**.
 
-   ![](assets/fragment-list-more-actions.png){width="70%" align="left"}{width=« 70% » align=« left »}
+   ![](assets/fragment-list-more-actions.png){width="70%" align="left"}
 
 1. Sélectionnez le fragment dupliqué pour l’ouvrir et cliquez sur le bouton **[!UICONTROL Modifier]**.
 
 1. [Ajoutez les nouveaux attributs souhaités](../personalization/personalization-build-expressions.md#add) au fragment dupliqué, tels que les champs de personnalisation.
 
-   ![](assets/fragment-add-new-attribute.png){width="70%" align="left"}{width=« 70% » align=« left »}
+   ![](assets/fragment-add-new-attribute.png){width="70%" align="left"}
 
 1. Enregistrez vos modifications et publiez le nouveau fragment. [Voici comment procéder](create-fragments.md#publish)
 
@@ -198,11 +198,11 @@ Pour incorporer des attributs supplémentaires à un fragment actif, procédez c
 
 Vous pouvez afficher la liste des parcours, des campagnes et des modèles de contenu qui utilisent actuellement un fragment. Pour ce faire, sélectionnez **[!UICONTROL Explorer les références]**, soit à partir du menu **[!UICONTROL Autres actions]** dans la liste des fragments, soit dans l’écran des propriétés du fragment.
 
-![](assets/fragment-explore-references.png){width="70%" align="left"}{width=« 70% » align=« left »}
+![](assets/fragment-explore-references.png){width="70%" align="left"}
 
 Sélectionnez un onglet pour basculer entre les parcours, les campagnes, les modèles et les fragments. Vous pouvez voir leur statut et cliquer sur un nom pour le rediriger vers l’élément correspondant où le fragment est référencé.
 
-![](assets/fragment-usage-screen.png){width="70%" align="left"}{width=« 70% » align=« left »}
+![](assets/fragment-usage-screen.png){width="70%" align="left"}
 
 >[!NOTE]
 >
@@ -214,7 +214,7 @@ Vous pouvez supprimer de la liste des fragments des éléments qui ne sont plus 
 
 Pour ce faire, cliquez sur l’icône **[!UICONTROL Plus d’actions]** en regard du fragment souhaité, puis sélectionnez **[!UICONTROL Archiver]**. Il disparaîtra de la liste des fragments, ce qui empêche leur utilisation dans les futurs e-mails ou modèles.
 
-![](assets/fragment-list-archive.png){width="70%" align="left"}{width=« 70% » align=« left »}
+![](assets/fragment-list-archive.png){width="70%" align="left"}
 
 >[!NOTE]
 >
@@ -222,7 +222,7 @@ Pour ce faire, cliquez sur l’icône **[!UICONTROL Plus d’actions]** en regar
 
 Pour désarchiver un fragment, filtrez sur les éléments **[!UICONTROL archivés]** et sélectionnez **[!UICONTROL Désarchiver]** dans le menu **[!UICONTROL Autres actions]**. Le fragment est à nouveau accessible à partir de la liste des fragments et peut être utilisé dans n’importe quel e-mail ou modèle.
 
-![](assets/fragment-list-unarchive.png){width="70%" align="left"}{width=« 70% » align=« left »}
+![](assets/fragment-list-unarchive.png){width="70%" align="left"}
 
 ## Exporter des fragments vers un autre sandbox {#export}
 

@@ -10,8 +10,8 @@ level: Intermediate
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
 source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
 workflow-type: tm+mt
-source-wordcount: '2471'
-ht-degree: 91%
+source-wordcount: '2477'
+ht-degree: 95%
 
 ---
 
@@ -19,9 +19,9 @@ ht-degree: 91%
 
 Vous trouverez ci-dessous des mécanismes de sécurisation et des limitations supplémentaires lors de l’utilisation d’[!DNL Adobe Journey Optimizer].
 
-Les droits, les limitations de produit et la sécurisation des performances sont répertoriés dans la [page de description du produit Adobe Journey Optimizer](https://helpx.adobe.com/fr/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}.
+Les droits, les limitations de produit et la sécurisation des performances sont répertoriés dans la [page de description du produit Adobe Journey Optimizer](https://helpx.adobe.com/fr/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}{target=&quot;_blank&quot;}.
 
-Vous devez également connaître les [mécanismes de sécurisation pour les données de profil client en temps réel](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=fr){target="_blank"} avant de commencer.
+Vous devez également connaître les [mécanismes de sécurisation pour les données du profil client en temps réel](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=fr){target="_blank"}{target=« _blank »} avant de commencer.
 
 ## Navigateurs pris en charge {#browsers}
 
@@ -45,14 +45,14 @@ Cette modification sera déployée sur les **sandbox client existants** dans une
 
 ### Mécanismes de sécurisation des e-mails {#message-guardrails}
 
-Les mécanismes de sécurisation suivants s’appliquent au [canal e-mail](../email/get-started-email.md) :
+Les mécanismes de sécurisation suivants s’appliquent au [canal e-mail](../email/get-started-email.md) :
 
 * Vous ne pouvez pas ajouter de pièces jointes à un e-mail avec [!DNL Journey Optimizer].
 * Vous ne pouvez pas utiliser le même domaine d’envoi pour envoyer des messages depuis [!DNL Adobe Journey Optimizer] et depuis un autre produit, tel que [!DNL Adobe Campaign] ou [!DNL Adobe Marketo Engage] par exemple.
 
 ### Mécanismes de sécurisation des SMS {#sms-guardrails}
 
-Les mécanismes de sécurisation suivants s’appliquent au [canal SMS](../sms/get-started-sms.md) :
+Les mécanismes de sécurisation suivants s’appliquent au [canal SMS](../sms/get-started-sms.md) :
 
 * Les fichiers multimédias pour MMS peuvent être inclus via une URL prise en charge. Assurez-vous que le fichier multimédia est chargé séparément.
 * La synchronisation des commentaires des messages n’est actuellement pas disponible pour les MMS.
@@ -60,9 +60,9 @@ Les mécanismes de sécurisation suivants s’appliquent au [canal SMS](../sms/g
 
 ### Mécanismes de sécurisation pour les canaux web {#web-guardrails}
 
-[!DNL Journey Optimizer] [campagnes web](../web/get-started-web.md) ciblez les nouveaux profils qui n’ont jamais été engagés sur d’autres canaux. Cela augmente le nombre total de profils engageables, ce qui peut avoir des implications de coût si le nombre contractuel de profils engageables que vous avez achetés est dépassé.
+Les [!DNL Journey Optimizer] [campagnes web](../web/get-started-web.md) ciblent les nouveaux profils qui n’ont jamais été engagés sur d’autres canaux. Cela augmente le nombre total de profils engageables, ce qui peut avoir des implications de coût si le nombre contractuel de profils engageables que vous avez achetés est dépassé.
 
-Les mesures de licence de chaque package sont répertoriées dans la page [Description du produit Journey Optimizer](https://helpx.adobe.com/fr/legal/product-descriptions/adobe-journey-optimizer.html).{target="_blank"}
+Les mesures de licence de chaque package sont répertoriées à la page [Description du produit Journey Optimizer](https://helpx.adobe.com/fr/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}{target=« _blank »}.
 
 ### Mécanismes de sécurisation des canaux basés sur du code {#code-based-guardrails}
 
@@ -70,7 +70,7 @@ Pour utiliser des actions d’expérience basées sur du code dans [!DNL Journey
 
 ## Mécanismes de sécurisation des pages de destination {#lp-guardrails}
 
-Les mécanismes de sécurisation suivants s’appliquent aux [pages de destination](../landing-pages/get-started-lp.md) :
+Les mécanismes de sécurisation suivants s’appliquent aux [pages de destination](../landing-pages/get-started-lp.md) :
 
 * Un seul composant de **Formulaire** peut être utilisé dans une page principale unique.
 * Le composant de **Formulaire** ne peut pas être utilisé dans les sous-pages.
@@ -87,7 +87,7 @@ En savoir plus sur la délégation de domaine sur [cette page](../configuration/
 
 ## Mécanismes de sécurisation des fragments {#fragments-guardrails}
 
-Les mécanismes de sécurisation suivants s’appliquent aux [fragments](../content-management/fragments.md) :
+Les mécanismes de sécurisation suivants s’appliquent aux [fragments](../content-management/fragments.md) :
 
 * Les fragments visuels ne sont disponibles que pour le canal E-mail.
 * Les fragments d’expression ne sont pas disponibles pour les canaux In-app.
@@ -119,7 +119,7 @@ Les mécanismes de sécurisation et les limitations à garder à l’esprit lors
 
 ### Actions générales {#general-actions-g}
 
-Les mécanismes de sécurisation suivants s’appliquent aux [actions](../building-journeys/about-journey-activities.md) dans vos parcours :
+Les mécanismes de sécurisation suivants s’appliquent aux [actions](../building-journeys/about-journey-activities.md) dans vos parcours :
 
 * En cas d’erreur, trois reprises sont systématiquement effectuées. Vous ne pouvez pas adapter le nombre de reprises en fonction du message d&#39;erreur renvoyé. Les reprises sont effectuées pour toutes les erreurs HTTP, à l’exception des erreurs HTTP 401, 403 et 404.
 * L’événement **Réaction** intégré vous permet de réagir aux actions d’usine. En savoir plus sur [cette page](../building-journeys/reaction-events.md). Si vous souhaitez réagir à un message envoyé par le biais d’une action personnalisée, vous devez configurer un événement dédié.
@@ -128,9 +128,9 @@ Les mécanismes de sécurisation suivants s’appliquent aux [actions](../buildi
 
 ### Versions de parcours {#journey-versions-g}
 
-Les mécanismes de sécurisation suivants s’appliquent aux versions de Parcours [](../start/user-interface.md) :
+Les mécanismes de sécurisation suivants s’appliquent aux [versions de parcours](../start/user-interface.md) :
 
-* Un parcours commençant par une activité d&#39;événement dans la version_v1 ne peut pas débuter avec un autre élément qu&#39;un événement dans d&#39;autres versions. Vous ne pouvez pas débuter un parcours avec un événement **Qualification d’audience**.
+* Un parcours commençant par une activité d’événement dans la version_v1 ne peut pas débuter avec un autre élément qu’un événement dans d’autres versions. Vous ne pouvez pas débuter un parcours avec un événement **Qualification d’audience**.
 * Un parcours commençant par une activité **Qualification d’audience** dans la version v1 doit toujours débuter avec une **qualification d’audience** dans d’autres versions.
 * L’audience et l’espace de noms sélectionnés dans **Qualification d’audience** (premier nœud) ne peuvent pas être modifiés dans les nouvelles versions.
 * La règle de nouvelle entrée doit être la même dans toutes les versions du parcours.
@@ -139,7 +139,7 @@ Les mécanismes de sécurisation suivants s’appliquent aux versions de Parcour
 
 ### Actions personnalisées {#custom-actions-g}
 
-Les mécanismes de sécurisation suivants s’appliquent aux [actions personnalisées](../action/action.md) dans vos parcours :
+Les mécanismes de sécurisation suivants s’appliquent aux [actions personnalisées](../action/action.md) dans vos parcours :
 
 * Une limitation de 300 000 appels de plus d’une minute est définie pour toutes les actions personnalisées, par hôte et par sandbox. Consultez [cette page](../action/about-custom-action-configuration.md). Cette limite a été définie en fonction de l’utilisation de la clientèle, afin de protéger les points d’entrée externes ciblés par des actions personnalisées. Vous devez prendre cela en compte dans vos parcours basés sur l’audience en définissant un taux de lecture approprié (5 000 profils/s lors de l’utilisation d’actions personnalisées). Si nécessaire, vous pouvez remplacer ce paramètre en définissant une limitation ou un ralentissement plus élevé via nos API de limitation/ralentissement. Consultez [cette page](../configuration/external-systems.md).
 * L’URL de l’action personnalisée ne prend pas en charge les paramètres dynamiques.
@@ -156,18 +156,18 @@ Les mécanismes de sécurisation suivants s’appliquent aux [actions personnali
 
 ### Événements {#events-g}
 
-Les mécanismes de sécurisation suivants s’appliquent aux [Événements](../event/about-events.md) dans vos parcours :
+Les mécanismes de sécurisation suivants s’appliquent aux [événements](../event/about-events.md) dans vos parcours :
 
 * Journey Optimizer prend en charge un volume maximal de 5 000 événements de parcours entrants par seconde.
 * Les parcours déclenchés par un événement peuvent prendre jusqu’à 5 minutes pour traiter la première action du parcours.
 * En ce qui concerne les événements générés par le système, les données de diffusion en continu utilisées pour initier un parcours client doivent d’abord être configurées dans Journey Optimizer pour obtenir un identifiant d’orchestration unique. Cet identifiant d’orchestration doit être ajouté à la payload de diffusion en continu entrant dans Adobe Experience Platform. Cette limitation ne s’applique pas aux événements basés sur une règle.
 * Les événements métier ne peuvent pas être utilisés conjointement avec des événements unitaires ou des activités de qualification d’audience.
-* Les parcours unitaires (commençant par un événement ou une qualification d’audience) incluent une mécanisme de sécurisation qui empêche les parcours d’être déclenchés par erreur plusieurs fois pour le même événement. La rentrée du profil est temporairement bloquée par défaut pendant 5 minutes. Par exemple, si un événement déclenche un parcours à 12 h 01 pour un profil spécifique et qu’un autre arrive à 12 h 03 (qu’il s’agisse du même événement ou d’un autre déclenchant le même parcours), ce parcours ne reprendra pas pour ce profil.
+* Les parcours unitaires (qui commencent par un événement ou une qualification d’audience) incluent un mécanisme de sécurisation qui empêche les parcours d’être déclenchés par erreur plusieurs fois pour le même événement. La rentrée du profil est temporairement bloquée par défaut pendant 5 minutes. Par exemple, si un événement déclenche un parcours à 12 h 01 pour un profil spécifique et qu’un autre arrive à 12 h 03 (qu’il s’agisse du même événement ou d’un autre déclenchant le même parcours), ce parcours ne reprendra pas pour ce profil.
 * Journey Optimizer exige que les événements soient diffusés en continu vers Data Collection Core Service (DCCS) pour pouvoir déclencher un parcours. Les événements ingérés par lot ou les événements provenant de jeux de données Journey Optimizer internes (commentaires des messages, tracking e-mail, etc.) ne peuvent pas être utilisés pour déclencher un parcours. Pour les cas d’utilisation où vous ne pouvez pas obtenir d’événements en flux continu, vous devez créer une audience basée sur ces événements et utiliser l’activité **Lecture d’audience** à la place. La qualification d’audience peut techniquement être utilisée. Cette méthode n’est toutefois pas recommandée, car elle peut entraîner des difficultés en aval en fonction des actions utilisées.
 
 ### Sources de données {#data-sources-g}
 
-Les mécanismes de sécurisation suivants s’appliquent aux [sources de données](../datasource/about-data-sources.md) dans vos parcours :
+Les mécanismes de sécurisation suivants s’appliquent aux [sources de données](../datasource/about-data-sources.md) dans vos parcours :
 
 * Les sources de données externes peuvent être exploitées au cours d’un parcours client pour consulter des données externes en temps réel. Ces sources doivent être utilisables via l’API REST, prendre en charge JSON et être en mesure de gérer le volume de requêtes.
 * Les adresses d’Adobe internes (`.adobe.*`) ne sont pas autorisées dans les URL et les API.
@@ -194,7 +194,7 @@ Des mécanismes de sécurisation spécifiques s’appliquent à l’activité **
 
 ### Lecture d’audience {#read-segment-g}
 
-Les mécanismes de sécurisation suivants s’appliquent à l’activité de parcours [Lecture d’audience](../building-journeys/read-audience.md) :
+Les mécanismes de sécurisation suivants s’appliquent à l’activité de parcours [Lecture d’audience](../building-journeys/read-audience.md) :
 
 * Les audiences en flux continu sont toujours à jour, mais les audiences par lots ne sont pas calculées au moment de la récupération. Elles ne sont évaluées que tous les jours au moment de l’évaluation quotidienne des lots.
 * Pour les parcours qui utilisent une activité **Lecture d’audience**, il y a un nombre maximal de parcours pouvant commencer exactement au même moment. Les reprises seront effectuées par le système, mais évitez d’avoir plus de cinq parcours (avec **Lecture d’audience**, planifiés ou commençant « le plus tôt possible ») commençant exactement au même moment en les répartissant dans le temps, par exemple à 5 ou 10 minutes d’intervalle.
@@ -206,13 +206,13 @@ Les mécanismes de sécurisation suivants s’appliquent à l’activité de par
 
 ### Qualification de l’audience {#audience-qualif-g}
 
-Le mécanisme de sécurisation suivant s’applique à l’activité de parcours [Qualification d’audience](../building-journeys/audience-qualification-events.md) :
+Le mécanisme de sécurisation suivant s’applique à l’activité de parcours [Qualification d’audience](../building-journeys/audience-qualification-events.md) :
 
 * L’activité Qualification d’audience ne peut pas être utilisée avec les activités Adobe Campaign.
 
 ### Éditeur d’expression {#expression-editor}
 
-Le mécanisme de sécurisation suivant s’applique à l’éditeur d’expression de parcours [](../building-journeys/expression/expressionadvanced.md) :
+Le mécanisme de sécurisation suivant s’applique à l’[éditeur d’expression de parcours](../building-journeys/expression/expressionadvanced.md) :
 
 * Les groupes de champs d’événement d’expérience ne peuvent pas être utilisés dans les parcours commençant par une activité Lecture d’audience, Qualification d’audience ou événement métier. Vous devez créer une audience et utiliser une condition inAudience dans le parcours.
 

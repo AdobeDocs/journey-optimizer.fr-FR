@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: d11dd1cb-041b-48cd-b1fc-bcbe12338a07
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+source-git-commit: 384ec210fa5414966257b26d1d8b2b87ce962d76
 workflow-type: tm+mt
 source-wordcount: '1079'
-ht-degree: 86%
+ht-degree: 90%
 
 ---
 
@@ -79,7 +79,7 @@ Le tableau **[!UICONTROL Statistiques d’envoi]** fournit un résumé complet d
 
 * **[!UICONTROL Diffusés]** : nombre d’e-mails envoyés avec succès, par rapport au nombre total de messages envoyés.
 
-* **[!UICONTROL Diffusés uniques]** : nombre de profils ayant reçu au moins un e-mail avec succès.
+* **[!UICONTROL Diffusés uniques]** : nombre de profils ayant reçu au moins un e-mail.
 
 * **[!UICONTROL Rebonds pour les canaux sortants]** : nombre total d’erreurs cumulées lors de la procédure d’envoi et du traitement automatique des retours par rapport au nombre total de messages envoyés.
 
@@ -107,13 +107,13 @@ Le tableau **[!UICONTROL E-mail - Statistiques de tracking]** offre un compte re
 
 * **[!UICONTROL Ouvertures d’e-mail]** : nombre d’ouvertures de vos e-mails dans une campagne.
 
-* **[!UICONTROL Ouvertures uniques d’e-mails]** : nombre de profils ayant ouvert des e-mails.
+* **[!UICONTROL Ouvertures uniques d’e-mails]** : nombre de profils ayant ouvert des e-mails.
 
 * **[!UICONTROL Plaintes relatives aux spams]** : nombre de fois où un message a été déclaré comme spam ou courrier indésirable.
 
 * **[!UICONTROL Désabonnements]** : nombre de clics sur le lien de désabonnement.
 
-* **[!UICONTROL Désabonnements uniques des e-mails]** : nombre de profils qui se sont désabonnés de vos e-mails.
+* **[!UICONTROL Désabonnements uniques des e-mails]** : nombre de profils qui se sont désabonnés de vos e-mails.
 +++
 
 ## Domaines d’e-mails {#email-domains}
@@ -174,7 +174,7 @@ Le tableau **[!UICONTROL Objets des e-mails]** présente une vue d’ensemble co
 
 * **[!UICONTROL Diffusés]** : nombre d’e-mails envoyés avec succès, par rapport au nombre total d’e-mails envoyés.
 
-* **[!UICONTROL Diffusés uniques]** : nombre de profils distincts ayant reçu au moins un e-mail, s’assurant que les doublons ne sont pas comptabilisés.
+* **[!UICONTROL Diffusés uniques]** : nombre de profils différents ayant reçu au moins un e-mail, en veillant à ce que les doublons ne soient pas comptés.
 +++
 
 ## Causes d’exclusion {#excluded-reasons}

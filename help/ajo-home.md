@@ -8,7 +8,7 @@ exl-id: 3a1b6c61-82df-421c-98d8-2af4f2a5e0de
 source-git-commit: 7ca149d420f802a6230e699cffefddc4117cb85e
 workflow-type: tm+mt
 source-wordcount: '349'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -20,9 +20,9 @@ Découvrez les améliorations les plus récentes apportées au produit et à la 
 
 >[!BEGINTABS]
 
->[!TAB Version du 25 mars]
+>[!TAB Version de mars 2025]
 
-La version de mars est maintenant en ligne ! Consultez les notes de mise à jour pour découvrir les nouvelles fonctionnalités, les modifications et les améliorations.
+La version de mars est désormais disponible. Consultez les notes de mise à jour pour découvrir les nouvelles fonctionnalités, modifications et améliorations.
 
 [![En savoir plus](using/assets/do-not-localize/learn-more-button.svg)](using/rn/release-notes.md)
 

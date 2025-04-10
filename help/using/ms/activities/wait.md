@@ -5,7 +5,8 @@ title: Utiliser l’activité d’attente dans des campagnes à plusieurs étape
 description: Découvrez comment utiliser l’activité d’attente dans des campagnes à plusieurs étapes
 hide: true
 hidefromtoc: true
-source-git-commit: dfa6c6e11db10f3e843035d32e322b212361548c
+exl-id: 11ef095b-77ec-4e2e-ab4d-49a248354f08
+source-git-commit: 323472ef9d6203cbbadc44ceb17ddcc7f6207323
 workflow-type: tm+mt
 source-wordcount: '168'
 ht-degree: 85%

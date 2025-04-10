@@ -8,7 +8,7 @@ hidefromtoc: true
 exl-id: a9bb3782-a4d1-43fe-ae2a-aef3f17ba588
 source-git-commit: 323472ef9d6203cbbadc44ceb17ddcc7f6207323
 workflow-type: tm+mt
-source-wordcount: '1082'
+source-wordcount: '1094'
 ht-degree: 41%
 
 ---
@@ -24,7 +24,7 @@ Lors de la création d’une campagne à plusieurs étapes ou de l’orchestrati
 
 Ces paramètres sont préconfigurés dans le modèle sélectionné lors de la création de la campagne à plusieurs étapes, mais peuvent être modifiés selon les besoins pour cette campagne spécifique à plusieurs étapes.
 
-![](assets/workflow-settings-button.png){zoomable="yes"}{width="70%" align="left"}
+![](assets/workflow-settings-button.png){zoomable="yes"}{width="70%" align="left"}{zoomable=« yes »}{width=« 70% » align=« left »}
 
 ## Propriétés des campagnes à étapes multiples {#properties}
 
@@ -36,7 +36,7 @@ Ces paramètres sont préconfigurés dans le modèle sélectionné lors de la cr
 La section **[!UICONTROL Propriétés]** fournit des paramètres génériques qui peuvent être configurés lors de la création d’une campagne à plusieurs étapes. Pour accéder aux propriétés d’une campagne existante à plusieurs étapes, cliquez sur le bouton **[!UICONTROL Paramètres]** disponible dans la barre d’actions située au-dessus de la zone de travail de la campagne à plusieurs étapes.
 
 
-![](assets/workflow-settings.png){zoomable="yes"}{width="70%" align="left"}
+![](assets/workflow-settings.png){zoomable="yes"}{width="70%" align="left"}{zoomable=« yes »}{width=« 70% » align=« left »}
 
 
 Ces propriétés sont les suivantes :
@@ -53,7 +53,7 @@ Les valeurs possibles sont les suivantes :
 * Lorsqu’une campagne à plusieurs étapes échoue, les opérateurs et opératrices appartenant au groupe d’opérateurs sélectionné dans le champ **[!UICONTROL Superviseur(s)]** sont avertis par e-mail.
 * Vous pouvez également saisir une **[!UICONTROL Description]** de votre campagne à plusieurs étapes.
 
-## Paramètres de segmentation  {#segmentation-settings}
+## Paramètres de segmentation   {#segmentation-settings}
 
 >[!CONTEXTUALHELP]
 >id="ajo_workflow_settings_segmentation"
@@ -66,7 +66,7 @@ Les valeurs possibles sont les suivantes :
 
   Si cette option est activée, les tables de travail sont conservées même après l’exécution de la campagne à plusieurs étapes. Vous pouvez l’utiliser à des fins de test. N’utilisez donc cette option **que** dans les environnements de développement ou d’évaluation. Elle ne doit jamais être cochée dans une campagne en production à plusieurs étapes.
 
-## Paramètres d’exécution  {#exec-settings}
+## Paramètres d’exécution   {#exec-settings}
 
 >[!CONTEXTUALHELP]
 >id="ajo_workflow_settings_execution"
@@ -88,7 +88,7 @@ Les valeurs possibles sont les suivantes :
 
 * **[!UICONTROL Enregistrer les requêtes SQL dans le journal]** : cochez cette option pour enregistrer les requêtes SQL de la campagne à plusieurs étapes du workflow maintenant dans les journaux. Cette fonctionnalité est réservée aux utilisateurs et utilisatrices avancés. Elle s’applique aux campagnes à plusieurs étapes qui contiennent des activités de ciblage comme **[!UICONTROL Créer une audience]**. Lorsque cette option est activée, les requêtes SQL envoyées à la base de données lors de l’exécution de la campagne à plusieurs étapes sont affichées dans les journaux de la campagne à plusieurs étapes, ce qui vous permet de les analyser afin d’optimiser les requêtes ou de diagnostiquer les problèmes.
 
-## Paramètres de gestion des erreurs  {#error-settings}
+## Paramètres de gestion des erreurs   {#error-settings}
 
 >[!CONTEXTUALHELP]
 >id="ajo_workflow_settings_error"

@@ -9,14 +9,18 @@ role: User
 level: Intermediate
 badge: label="Disponibilité limitée" type="Informative"
 exl-id: 51cbe27f-3f3f-471e-a5d9-e3a88fcfdd68
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+source-git-commit: 8a820441ccd8e36280eb001f7912860f7727b7b4
 workflow-type: tm+mt
-source-wordcount: '563'
-ht-degree: 84%
+source-wordcount: '584'
+ht-degree: 86%
 
 ---
 
 # Rapport de campagne in-app {#campaign-global-report-cja-inapp}
+
+>[!IMPORTANT]
+>
+>Avant de pouvoir créer des rapports sur vos campagnes et parcours In-App, veillez à respecter les conditions préalables de création de rapports fournies sur [cette page](../in-app/inapp-configuration.md#experiment-prerequisites).
 
 >[!BEGINSHADEBOX]
 
@@ -92,9 +96,9 @@ Le tableau **[!UICONTROL Données de suivi]** offre un instantané détaillé de
 
 * **[!UICONTROL Envois]** : nombre total de messages in-app envoyés.
 
-* **[!UICONTROL Entrant déclenché]** : nombre de fois qu’un message in-app a été déclenché par une interaction utilisateur ou un événement prédéfini.
+* **[!UICONTROL Entrants déclenchés]** : nombre de fois qu’un message in-app a été déclenché par une interaction d’un utilisateur ou d’une utilisatrice ou un événement prédéfini.
 
-* **[!UICONTROL Rejets entrants]** : nombre de fois où les utilisateurs et utilisatrices ont ignoré le message in-app sans interagir avec celui-ci.
+* **[!UICONTROL Entrants ignorés]** : nombre de fois où les utilisateurs et utilisatrices ont ignoré le message in-app sans interagir avec celui-ci.
 
 
 +++

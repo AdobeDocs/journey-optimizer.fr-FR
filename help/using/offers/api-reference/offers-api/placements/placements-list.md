@@ -29,7 +29,7 @@ GET /{ENDPOINT_PATH}/placements?{QUERY_PARAMS}
 | --------- | ----------- | ------- |
 | `{ENDPOINT_PATH}` | Chemin d’accès de point d’entrée pour les API de référentiel. | `https://platform.adobe.io/data/core/dps` |
 
-## Utilisation des paramètres de requête {#using-query-parameters}
+## Utiliser des paramètres de requête {#using-query-parameters}
 
 Vous pouvez utiliser des paramètres de requête pour paginer et filtrer les résultats lors de l&#39;organisation en liste des ressources.
 

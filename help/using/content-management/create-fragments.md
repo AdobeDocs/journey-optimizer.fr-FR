@@ -10,7 +10,7 @@ level: Beginner, Intermediate
 exl-id: da3ffe9c-a244-4246-b4b5-a3a1d0508676
 source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
 workflow-type: tm+mt
-source-wordcount: '641'
+source-wordcount: '645'
 ht-degree: 98%
 
 ---
@@ -91,7 +91,7 @@ Si votre fragment est prêt à être publié, vous pouvez le prévisualiser et l
 
 1. Si le fragment est utilisé dans un parcours actif ou une campagne active, un message s’ouvre pour vous en informer. Cliquez sur le lien **[!UICONTROL En savoir plus]** pour accéder à la liste des parcours et/ou campagnes dans lesquels il est référencé. [Découvrir comment explorer les références d’un fragment](../content-management/manage-fragments.md#explore-references)
 
-   ![](assets/fragment-publish.png){width="70%" align="center"}
+   ![](assets/fragment-publish.png){width="70%" align="center"}{width=« 70% » align=« center »}
 
    Cliquez sur **[!UICONTROL Confirmer]** pour publier le fragment et le mettre à jour dans les parcours actifs/campagnes actives qui l’utilisent.
 
