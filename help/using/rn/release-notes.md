@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Notes de mise à jour d’Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 315cd1df52018497c24da29d1b899c9662bfa576
+source-git-commit: aa5170ec5d195ec22684d748cd3520dfa8400fed
 workflow-type: tm+mt
-source-wordcount: '761'
-ht-degree: 61%
+source-wordcount: '823'
+ht-degree: 71%
 
 ---
 
@@ -20,9 +20,9 @@ ht-degree: 61%
 >title="Nouveautés"
 >abstract="**Adobe Journey Optimizer** offre en permanence de nouvelles fonctionnalités, des améliorations aux fonctionnalités existantes et des correctifs. Toutes les modifications sont consolidées la dernière semaine de chaque mois dans ces notes de mise à jour."
 
-[!DNL Adobe Journey Optimizer] offre en permanence de nouvelles fonctionnalités, des améliorations des fonctionnalités existantes et des correctifs. Toutes les modifications sont consolidées la dernière semaine de chaque mois dans ces notes de mise à jour. [!DNL Adobe Journey Optimizer] est créé de manière native sur [!DNL Adobe Experience Platform] et hérite de ses dernières innovations et améliorations. En savoir plus sur ces modifications dans les notes de mise à jour de [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=fr){target="_blank"}.
+[!DNL Adobe Journey Optimizer] offre en permanence de nouvelles fonctionnalités, des améliorations des fonctionnalités existantes et des correctifs. Toutes les modifications sont consolidées la dernière semaine de chaque mois dans ces notes de mise à jour. [!DNL Adobe Journey Optimizer] est créé de manière native sur [!DNL Adobe Experience Platform] et hérite de ses dernières innovations et améliorations. En savoir plus sur ces modifications dans les [Notes de mise à jour d’Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=fr){target="_blank"}.
 
-## Mises à jour d’avril 2025
+## Mises à jour d’avril 2025
 
 ### Améliorations {#25-04-improv}
 
@@ -41,14 +41,14 @@ ht-degree: 61%
 
   >[!AVAILABILITY]
   >
-  >Cette amélioration n’est disponible que pour un ensemble d’organisations (disponibilité limitée).
+  >Cette amélioration est disponible uniquement pour un ensemble d’organisations (disponibilité limitée).
 
 * **Email Designer** - Date de disponibilité : 1er avril 2025
 
   Pour améliorer l’accessibilité dans Journey Optimizer, deux nouveaux champs sont désormais disponibles dans le Designer d’e-mail : ils correspondent à l’élément `<title>` et `lang` l’attribut dans l’élément `<html>` du contenu de votre e-mail. Vous pouvez définir ces paramètres en plus du champ **[!UICONTROL Pré-titre]**, dans la section e-mail **[!UICONTROL Corps]**. [En savoir plus](../email/email-metadata.md)
 
 
-## Notes de mise à jour de mars 2025 {#25-3-rn}
+## Notes de mise à jour de mars 2025 {#25-3-rn}
 
 
 ### Nouvelles fonctionnalités {#25-03-features}
@@ -152,6 +152,22 @@ Les nouvelles fonctionnalités de cette version sont présentées ci-dessous.
 </tbody>
 </table>
 
+<table>
+<thead>
+<tr>
+<th><strong>Évaluation d’audience flexible</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Auparavant disponible pour un ensemble d’organisations (LA), l’évaluation flexible des audiences est désormais disponible pour tous les utilisateurs (GA). Cette fonctionnalité vous permet d’exécuter une tâche de segmentation à la demande pour les audiences sélectionnées, en vous assurant de toujours disposer des données d’audience les plus récentes avant de les cibler dans les parcours et campagnes Journey Optimizer.</p>
+<img src="assets/do-not-localize/flexible-audience.gif">
+<p>Pour plus d’informations, consultez la <a href="../audience/creating-a-segment-definition.md#flexible">documentation détaillée</a>.</p>
+</tr>
+</tbody>
+</table>
+</table>
 
 <!--table>
 <thead>
@@ -196,15 +212,15 @@ Pour plus d’informations, consultez la [documentation détaillée](../test-app
 
 **Configuration**
 
-* Vous pouvez désormais attribuer des balises unifiées Adobe Experience Platform à vos configurations de canaux. Vous pouvez ainsi facilement les classer et améliorer la recherche et la navigation dans toutes les listes. [En savoir plus](../configuration/channel-surfaces.md#channel-config-tags)
+* Vous pouvez désormais attribuer des balises unifiées Adobe Experience Platform à vos configurations de canaux. Vous pouvez ainsi les classer facilement et améliorer la recherche et la navigation dans toutes les listes. [En savoir plus](../configuration/channel-surfaces.md#channel-config-tags)
 
-* Lors de la configuration ou de la modification d’un sous-domaine d’e-mail dans Journey Optimizer, vous pouvez désormais choisir de gérer l’enregistrement DMARC associé vous-même, s’il est disponible sur le domaine parent. [En savoir plus](../configuration/dmarc-record.md#set-up-dmarc)
+* Lors de la configuration ou de la modification d’un sous-domaine d’e-mail dans Journey Optimizer, vous pouvez désormais choisir de gérer vous-même l’enregistrement DMARC associé, s’il est disponible sur le domaine parent. [En savoir plus](../configuration/dmarc-record.md#set-up-dmarc)
 
 **Règles métier**
 
 Vous pouvez désormais utiliser le capping de la fréquence quotidienne dans les parcours et les campagnes avec la segmentation par lots. Pour garantir la précision des règles de capping de la fréquence quotidienne, veillez à choisir l’espace de noms de priorité la plus élevée lors de la création d’une campagne ou d’un parcours. Pour en savoir plus sur la priorité des espaces de noms, consultez le guide [ Platform Identity Service ](https://experienceleague.adobe.com/fr/docs/experience-platform/identity/features/identity-graph-linking-rules/namespace-priority){target="_blank"}
 
-Pour rappel, le capping de la fréquence quotidienne dans les ensembles de règles n’est disponible que pour un ensemble d’organisations (disponibilité limitée). Pour en bénéficier, contactez votre représentant ou représentante Adobe.
+Pour rappel, la limitation de la fréquence quotidienne dans les jeux de règles n’est disponible que pour un ensemble d’organisations (disponibilité limitée). Pour en bénéficier, contactez votre représentant ou représentante Adobe.
 
 Pour plus d’informations sur les règles métier, consultez la [documentation détaillée](../configuration/rule-sets.md).
 
