@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 289aac5d-6cdb-411f-985e-3acef58050a8
-source-git-commit: ec3f4b69e510d477d65fedb126cec50e15a3f072
+source-git-commit: 9fcf0e07edad27ab1eac3c29b26888fd99e26751
 workflow-type: tm+mt
-source-wordcount: '1041'
-ht-degree: 100%
+source-wordcount: '1017'
+ht-degree: 99%
 
 ---
 
@@ -120,11 +120,7 @@ Si vous savez quelle méthode d’évaluation utiliser, sélectionnez-la à l’
 
 Une fois que vous avez défini une audience, les profils sont ajoutés à l’audience lorsqu’ils remplissent les critères. Le renvoi de l’audience à partir de données antérieures peut prendre jusqu’à 24 heures. Une fois l’audience renvoyée, elle est constamment tenue à jour et toujours prête pour le ciblage.
 
-## [!BADGE Disponibilité limitée]{type=Informative} Évaluation flexible des audiences {#flexible}
-
->[!AVAILABILITY]
->
->L’évaluation flexible des audiences n’est actuellement disponible que pour un ensemble d’organisations (disponibilité limitée). Pour en bénéficier, contactez votre représentant ou représentante Adobe.
+## Évaluation d’audience flexible {#flexible}
 
 Le portail Audience Adobe Experience Platform vous permet d’exécuter une tâche de segmentation à la demande pour des audiences sélectionnées, en vous assurant de toujours disposer des données d’audience les plus récentes avant de les cibler dans les parcours et campagnes Journey Optimizer.
 
