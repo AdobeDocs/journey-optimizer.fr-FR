@@ -8,10 +8,10 @@ role: Data Engineer, Architect
 level: Experienced
 keywords: éditeur d’expression, données, parcours
 exl-id: 9ea6cc3a-6a1b-4e8f-82ff-f8b1812617d7
-source-git-commit: 2de94e8ce3fe77399c8dc1d515ae73d58cb8f43d
+source-git-commit: 4a60b9f8c754e161ca156c7644d7241adb9bfc1f
 workflow-type: tm+mt
-source-wordcount: '665'
-ht-degree: 100%
+source-wordcount: '692'
+ht-degree: 96%
 
 ---
 
@@ -48,9 +48,9 @@ Lorsque cela est possible, vous pouvez basculer entre les deux modes à l’aide
 
 >[!NOTE]
 >
->Les conditions peuvent être définies dans l’éditeur d’expression simple ou l’éditeur d’expression avancé. Elles renvoient toujours un type booléen.
+>* Les conditions peuvent être définies dans l’éditeur d’expression simple ou l’éditeur d’expression avancé. Elles renvoient toujours un type booléen.
 >
->Les paramètres d’actions peuvent être définis en sélectionnant des champs ou à l’aide de l’éditeur d’expression avancé. Ils renvoient un type de données spécifique en fonction de leur expression.
+>* Les paramètres d’actions peuvent être définis en sélectionnant des champs ou à l’aide de l’éditeur d’expression avancé. Ils renvoient un type de données spécifique en fonction de leur expression.
 
 Vous pouvez accéder à l’éditeur d’expression avancé de différentes manières :
 
@@ -84,6 +84,12 @@ Un mécanisme d’autocomplétion affiche des suggestions contextuelles.
 Un mécanisme de validation de la syntaxe vérifie l’intégrité de votre code. Les erreurs s’affichent en haut de l’éditeur.
 
 ![](../assets/journey69.png)
+
+
+>[!TIP]
+>
+>Lors de la création de conditions dans l’éditeur d’expression avancé, assurez-vous que vos expressions ne contiennent pas de caractères masqués ou non imprimables. De plus, utilisez des expressions sur une seule ligne pour éviter les erreurs d’analyse.
+
 
 **Des paramètres sont requis lors de la création de conditions avec l’éditeur d’expression avancé.**
 
