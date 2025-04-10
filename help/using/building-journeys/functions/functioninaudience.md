@@ -7,10 +7,10 @@ role: Data Engineer, Architect
 level: Experienced
 keywords: inAudience, fonction, expression, parcours
 exl-id: 8417af75-6e97-4ad4-86b4-3ecd264a5560
-source-git-commit: 85a8d0713f87a8b3505a2294402156ba6598c8bb
+source-git-commit: 6e733e94e492fb46014e140b90e2aa47d64d584f
 workflow-type: tm+mt
-source-wordcount: '182'
-ht-degree: 100%
+source-wordcount: '231'
+ht-degree: 67%
 
 ---
 
@@ -63,4 +63,9 @@ Renvoie une valeur booléenne.
 
 Explication :
 
-La fonction renvoie **[!UICONTROL true]** si la personne concernée par l’instance de parcours figure dans l’audience Adobe Experience Platform « hommes de plus de 50 ans », **[!UICONTROL false]** dans le cas contraire.
+La fonction renvoie **[!UICONTROL true]** si la personne concernée par l’instance de parcours fait partie de l’audience Adobe Experience Platform nommée « men over 50 » (hommes de plus de 50 ans), **[!UICONTROL false]** dans le cas contraire.
+
+
+>[!CAUTION]
+>
+>La modification du nom d’une audience existante ne met pas automatiquement à jour les références à cette audience dans vos expressions de parcours. Si votre nœud de condition utilise inAudience(&#39;oldAudienceName&#39;), vous devez modifier manuellement l’expression pour utiliser le nouveau nom. Si vous ne le faites pas, la condition du parcours sera rompue.
