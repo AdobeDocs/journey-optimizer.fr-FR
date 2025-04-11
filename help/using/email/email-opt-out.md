@@ -12,7 +12,7 @@ exl-id: 4bb51bef-5dab-4a72-8511-1a5e528f4b95
 source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
 workflow-type: tm+mt
 source-wordcount: '991'
-ht-degree: 84%
+ht-degree: 96%
 
 ---
 
@@ -32,23 +32,23 @@ Pour insérer un lien de désinscription dans le contenu de votre e-mail, vous p
 
 * Insérez un **lien vers une page de destination**. [Découvrir comment ajouter une page de destination de désinscription](#opt-out-external-lp)
 
-Lorsqu&#39;un destinataire clique sur le lien d&#39;opt-out, sa demande de désabonnement est traitée en conséquence.
+Lorsqu’une personne destinataire clique sur le lien de désinscription (opt-out), sa demande de désabonnement est traitée.
 
-Pour vérifier que le choix du profil correspondant a été mis à jour, accédez à Experience Platform et [accédez à ce profil](https://experienceleague.adobe.com/en/docs/experience-platform/profile/ui/user-guide#attributes-tab). Dans l’onglet **[!UICONTROL Attributs]**, vous pouvez voir la valeur de **[!UICONTROL choice]** remplacée par **[!UICONTROL no]**. Pour en savoir plus, consultez la [documentation Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/profile/ui/user-guide#browse-identity){target="_blank"}.
+Pour vérifier que le choix du profil correspondant a été mis à jour, rendez-vous sur Experience Platform et [accédez à ce profil](https://experienceleague.adobe.com/fr/docs/experience-platform/profile/ui/user-guide#attributes-tab). Dans l’onglet **[!UICONTROL Attributs]**, la valeur du **[!UICONTROL choix]** a été remplacée par **[!UICONTROL non]**. Pour en savoir plus, consultez la [documentation Experience Platform](https://experienceleague.adobe.com/fr/docs/experience-platform/profile/ui/user-guide#browse-identity){target="_blank"}.
 
 ![](assets/opt-out-profile-choice.png)
 
 >[!NOTE]
 >
->Parfois, la prise en compte des événements de désabonnement au niveau du profil peut prendre plus de temps en raison du traitement des données en aval. Patientez quelques instants le temps que le système se mette à jour.
+>Parfois, la prise en compte des événements de désabonnement au niveau du profil peut prendre plus de temps en raison du traitement des données en aval. Attendez que le système procède à la mise à jour.
 
-## Désinscription en une étape {#opt-out-one-step}
+## Désinscription (opt-out) en une étape {#opt-out-one-step}
 
 À l’aide d’[!DNL Adobe Journey Optimizer], vous pouvez configurer vos [paramètres de configuration du canal e-mail](email-settings.md#list-unsubscribe) avec une URL de désabonnement en un clic générée automatiquement et une adresse mailto dans l’en-tête de l’e-mail, ou inclure une URL d’exclusion en un clic dans le corps de votre e-mail.
 
 ### URL de désabonnement en un clic dans l’en-tête d’e-mail {#unsubscribe-header}
 
-L’URL de désabonnement de la liste en un clic est un lien ou un bouton de désabonnement affiché en regard des informations de l’expéditeur de l’e-mail et permettant aux destinataires de se désinscrire instantanément de vos listes de diffusion en un seul clic. Découvrez comment gérer l&#39;option **[!UICONTROL Désabonnement de la liste]** dans [cette section](list-unsubscribe.md).
+Une URL de désabonnement de liste en un clic est un lien ou un bouton de désabonnement affiché à côté des informations sur l’expéditeur ou l’expéditrice de l’e-mail. Elle permet aux destinataires de se désinscrire (opt-out) instantanément de vos listes de publipostage en un seul clic. Découvrez comment gérer l’option **[!UICONTROL Désabonnement de la liste]** dans [cette section](list-unsubscribe.md).
 
 ### Désabonnement en un clic dans le contenu de l’e-mail {#one-click-opt-out}
 

@@ -10,7 +10,7 @@ exl-id: ef6110c4-1aa6-4835-b0b0-b3c4fe0e7024
 source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
 workflow-type: tm+mt
 source-wordcount: '626'
-ht-degree: 50%
+ht-degree: 99%
 
 ---
 
@@ -24,15 +24,15 @@ Pour accéder à la liste des modèles de contenu, sélectionnez **[!UICONTROL G
 
 Tous les modèles qui ont été créés sur le sandbox actuel à partir d’un parcours ou d’une campagne à l’aide de l’option **[!UICONTROL Enregistrer en tant que modèle]** du menu **[!UICONTROL Modèles de contenu]** s’affichent. [Découvrir comment créer des modèles](#create-content-templates)
 
-Le volet de gauche vous permet d’organiser les modèles de contenu en dossiers. Par défaut, tous les modèles sont affichés. Lors de la sélection d’un dossier, seuls les modèles et les dossiers inclus dans le dossier sélectionné s’affichent. [En savoir plus](#folders)
+Dans le volet de gauche, vous pouvez organiser les modèles de contenu en dossiers. Par défaut, tous les modèles s’affichent. Lorsque vous sélectionnez un dossier, seuls les modèles et les dossiers qu’il contient s’affichent. [En savoir plus](#folders)
 
 >[!NOTE]
 >
->Les dossiers de modèles de contenu ne sont disponibles que pour un ensemble d’organisations (disponibilité limitée) et seront progressivement déployés auprès d’un plus grand nombre d’utilisateurs.
+>Les dossiers de modèles de contenu ne sont disponibles que pour un ensemble d’organisations (disponibilité limitée) et seront progressivement déployés pour davantage d’utilisateurs et d’utilisatrices.
 
 ![](assets/content-template-list-folders.png)
 
-Pour trouver un élément spécifique, commencez à saisir un nom dans le champ de recherche. Lorsqu’un [dossier](#folders) est sélectionné, la recherche s’applique à tous les modèles de contenu ou dossiers du premier niveau de la hiérarchie de ce dossier<!--(not nested items)-->.
+Pour trouver un élément spécifique, commencez à saisir un nom dans le champ de recherche. Lorsque vous sélectionnez un [dossier](#folders), la recherche s’applique à tous les modèles de contenu ou dossiers du premier niveau de la hiérarchie de ce dossier<!--(not nested items)-->.
 
 Vous pouvez trier les modèles de contenu par :
 * Type
@@ -44,19 +44,19 @@ Vous pouvez également choisir d’afficher uniquement les éléments que vous a
 
 ![](assets/content-template-list-filters.png)
 
-## Utilisation de dossiers pour gérer les modèles de contenu {#folders}
+## Utiliser des dossiers pour gérer les modèles de contenu {#folders}
 
 >[!AVAILABILITY]
 >
->Les dossiers de modèles de contenu ne sont disponibles que pour un ensemble d’organisations (disponibilité limitée) et seront progressivement déployés auprès d’un plus grand nombre d’utilisateurs.
+>Les dossiers de modèles de contenu ne sont disponibles que pour un ensemble d’organisations (disponibilité limitée) et seront progressivement déployés pour davantage d’utilisateurs et d’utilisatrices.
 
-Pour parcourir facilement vos modèles de contenu, vous pouvez utiliser des dossiers pour les organiser plus efficacement dans une hiérarchie structurée. Vous pouvez ainsi catégoriser et gérer les éléments en fonction des besoins de votre organisation.
+Pour gérer facilement vos modèles de contenu, vous pouvez désormais utiliser des dossiers pour mieux les organiser dans une hiérarchie structurée. Vous pouvez ainsi classer et gérer les éléments en fonction des besoins de votre organisation.
 
 ![](assets/content-template-folders.png)
 
 1. Cliquez sur le bouton **[!UICONTROL Tous les modèles de contenu]** pour afficher tous les éléments créés précédemment sans le regroupement de dossiers.
 
-1. Cliquez sur le dossier **[!UICONTROL Racine]** pour afficher tous les dossiers créés.
+1. Cliquez sur le dossier **[!UICONTROL racine]** pour afficher tous les dossiers créés.
 
    >[!NOTE]
    >
@@ -64,21 +64,21 @@ Pour parcourir facilement vos modèles de contenu, vous pouvez utiliser des doss
 
 1. Cliquez sur n’importe quel dossier à l’intérieur du dossier **[!UICONTROL racine]** pour afficher son contenu.
 
-1. Cliquez sur le dossier **[!UICONTROL Racine]** ou sur tout autre dossier pour afficher le bouton **[!DNL Create folder]** . Sélectionnez-la.
+1. Cliquez sur le dossier **[!UICONTROL racine]** ou sur n’importe quel autre dossier pour afficher le bouton **[!DNL Create folder]**. Sélectionnez-le.
 
    ![](assets/content-template-create-folder.png)
 
-1. Saisissez le nom du nouveau dossier, puis cliquez sur **[!UICONTROL Enregistrer]**. Le nouveau dossier s’affiche en haut de la liste des modèles de contenu dans le dossier **[!UICONTROL Racine]** ou dans le dossier actuellement sélectionné.
+1. Saisissez le nom du nouveau dossier, puis cliquez sur **[!UICONTROL Enregistrer]**. Le nouveau dossier s’affiche en haut de la liste des modèles de contenu dans le dossier **[!UICONTROL racine]** ou dans le dossier sélectionné.
 
-1. Vous pouvez cliquer sur le bouton **[!UICONTROL Autres actions]** pour renommer ou supprimer le dossier.
+1. Vous pouvez cliquer sur le bouton **[!UICONTROL Plus d’actions]** pour renommer ou supprimer le dossier.
 
    ![](assets/content-template-folder-more-actions.png)
 
-1. À l’aide du bouton **[!UICONTROL Autres actions]**, vous pouvez également déplacer le modèle de contenu vers un autre dossier existant.
+1. À l’aide du bouton **[!UICONTROL Plus d’actions]**, vous pouvez également déplacer le modèle de contenu vers un autre dossier existant.
 
    ![](assets/content-template-folder-moved.png)
 
-1. Vous pouvez maintenant accéder au dossier que vous venez de créer. Chaque nouveau modèle de contenu que vous [créez](create-content-templates.md) à partir d’ici est enregistré dans le dossier actif.
+1. Vous pouvez maintenant accéder au dossier que vous venez de créer. Chaque nouveau modèle de contenu que vous [créez](create-content-templates.md) ici est enregistré dans le dossier actif.
 
    ![](assets/content-template-folder-create.png)
 

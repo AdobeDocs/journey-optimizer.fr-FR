@@ -11,7 +11,7 @@ exl-id: 43b10f54-0c19-46a1-8d51-eb6bf22e6da9
 source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
 workflow-type: tm+mt
 source-wordcount: '519'
-ht-degree: 85%
+ht-degree: 90%
 
 ---
 
@@ -39,7 +39,7 @@ Le tableau **[!UICONTROL Statistiques d’envoi]** fournit un résumé complet d
 
 * **[!UICONTROL Diffusées]** : nombre de notifications push envoyées avec succès, par rapport au nombre total de notifications push envoyées.
 
-* **[!UICONTROL Diffusés uniques]** : nombre de profils ayant reçu au moins une notification push.
+* **[!UICONTROL Diffusés uniques]** : nombre de profils ayant reçu au moins une notification push.
 
 * **[!UICONTROL Erreurs sortantes]** : nombre total d’erreurs survenues empêchant l’envoi à des profils.
 
@@ -61,7 +61,7 @@ Le tableau **[!UICONTROL Statistiques de suivi]** offre un instantané détaill�
 
 * **[!UICONTROL Clics uniques]** : nombre de profils qui ont cliqué sur un contenu dans vos notifications push.
 
-* **[!UICONTROL Actions personnalisées push]** : nombre d’actions personnalisées entreprises par les profils en réponse aux notifications push.
+* **[!UICONTROL Actions personnalisées de notification push]** : nombre d’actions personnalisées entreprises par les profils en réponse aux notifications push.
 
 +++
 

@@ -260,7 +260,7 @@ Le champ **[!UICONTROL Réinitialiser la fréquence de limitation]** vous permet
 
 +++ **À lire : capping de la fréquence et API de gestion des décisions**
 
-Le compteur de limitation de fréquence est mis à jour et disponible dans une décision de l’[API Edge Decisioning](../api-reference/offer-delivery-api/start-offer-delivery-apis.md#edge) en moins de 3 secondes.
+Le compteur de capping de la fréquence est mis à jour et disponible dans une décision de l’[API Edge Decisioning](../api-reference/offer-delivery-api/start-offer-delivery-apis.md#edge) en moins de 3 secondes.
 
 Chaque région de hub est associée à une ou plusieurs régions périphériques. Les règles de capping de fréquence sont générées et exportées de chaque région de hub vers ses régions périphériques associées. Chaque fois qu’une décision est prise à l’aide de l’API Edge Decisioning, le système applique les règles disponibles dans la même région périphérique :
 
@@ -275,11 +275,11 @@ Par exemple, la région de hub de votre organisation est *NLD2* et vous envoyez 
 
 Pour plus d’informations sur les régions hub et edge associées à votre organisation, contactez votre représentant ou représentante Adobe.
 
-Avec les autres API, le compteur de limitation de la fréquence est mis à jour comme suit :
+Avec les autres API, le compteur de capping de la fréquence est mis à jour comme suit :
 
-* Dans une décision [API Decisioning](../api-reference/offer-delivery-api/start-offer-delivery-apis.md#decisioning), le compteur de limitation de fréquence peut être mis à jour avec un délai de quelques minutes, en fonction du trafic.
+* Dans une décision [API Decisioning](../api-reference/offer-delivery-api/start-offer-delivery-apis.md#decisioning), le compteur de capping de le fréquence peut être mis à jour avec un délai de quelques minutes, en fonction du trafic.
 
-* Dans une décision [API Batch Decisioning](../api-reference/offer-delivery-api/batch-decisioning-api.md), les instantanés sont utilisés lorsque le compteur de limitation de la fréquence reste fixe. Tant que le même instantané est utilisé, le compteur ne change pas.
+* Dans une décision [API Batch Decisioning](../api-reference/offer-delivery-api/batch-decisioning-api.md), les instantanés sont utilisés lorsque le compteur de capping de la fréquence reste fixe. Tant que le même instantané est utilisé, le compteur ne change pas.
 
 +++
 

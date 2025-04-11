@@ -10,7 +10,7 @@ level: Intermediate, Experienced
 exl-id: 8f33dda7-9bd5-4293-8d0d-222205cbc7d5
 source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
 workflow-type: tm+mt
-source-wordcount: '1142'
+source-wordcount: '1138'
 ht-degree: 97%
 
 ---
@@ -35,7 +35,7 @@ Le **taux de délivrabilité** correspond au nombre de messages qui ont atteint 
 
 Pour optimiser la délivrabilité de vos expériences [!DNL Journey Optimizer], nous vous recommandons d&#39;observer les bonnes pratiques répertoriées dans cette section. En règle générale, les problèmes de délivrabilité sont liés à la protection contre le spam mise en œuvre par les fournisseurs d&#39;accès Internet (FAI) et les administrateurs de serveurs de messagerie.
 
-Pour en apprendre davantage sur la délivrabilité et en savoir plus sur les termes, concepts et approches clés qui s’y rapportent, consultez le [Guide des bonnes pratiques relatives à la délivrabilité d’Adobe](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html?lang=fr){target="_blank"}{target=&quot;_blank&quot;}.
+Pour en apprendre davantage sur la délivrabilité et en savoir plus sur les termes, concepts et approches clés qui s’y rapportent, consultez le [Guide des bonnes pratiques relatives à la délivrabilité d’Adobe](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html?lang=fr){target="_blank"}.
 
 ## Réduire les taux de plainte {#reduce-complaint-rate}
 
@@ -110,7 +110,7 @@ Lorsqu’un utilisateur final ou une utilisatrice finale génère une plainte qu
 
 >[!IMPORTANT]
 >
->Tous les FAI ne fournissent pas une FBL traditionnelle, Gmail par exemple. Gmail ne fournit pas de retour au niveau individuel et ne peut pas être utilisé pour suivre les plaintes relatives aux spams envoyées à des destinataires individuels, en se concentrant plutôt sur les rapports au niveau agrégé dans ses outils Google Postmaster Tools. [En savoir plus](https://support.google.com/a/answer/6254652?hl=fr){target="_blank"}{target=&quot;_blank&quot;}
+>Tous les FAI ne fournissent pas une FBL traditionnelle, Gmail par exemple. Gmail ne fournit pas de retour au niveau individuel et ne peut pas être utilisé pour suivre les plaintes relatives aux spams envoyées à des destinataires individuels, en se concentrant plutôt sur les rapports au niveau agrégé dans ses outils Google Postmaster Tools. [En savoir plus](https://support.google.com/a/answer/6254652?hl=fr){target="_blank"}
 
 L’ensemble des clientes et des clients Adobe est automatiquement inscrit sur les FBL traditionnelles des FAI suivants :
 
