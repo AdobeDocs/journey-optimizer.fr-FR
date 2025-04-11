@@ -7,10 +7,10 @@ role: Data Engineer, Architect
 level: Experienced
 keywords: inAudience, fonction, expression, parcours
 exl-id: 8417af75-6e97-4ad4-86b4-3ecd264a5560
-source-git-commit: 6e733e94e492fb46014e140b90e2aa47d64d584f
+source-git-commit: 385e27fd4ea34f6a10b8da6b99a2c888edf9d57e
 workflow-type: tm+mt
-source-wordcount: '231'
-ht-degree: 67%
+source-wordcount: '229'
+ht-degree: 68%
 
 ---
 
@@ -36,6 +36,11 @@ Seules les personnes présentant le statut de participation d’audience **réal
 `inAudience('audienceName') == true` signifie que vous avez un segmentMembership avec le statut « entré ».
 
 `inAudience('audienceName') == false` signifie que vous avez un mappage segmentMembership avec le statut « exited ».
+
+
+>[!IMPORTANT]
+>
+>La modification du nom d’une audience existante ne met pas automatiquement à jour les références à cette audience dans vos expressions de parcours. Si le nœud de condition utilise `inAudience('oldAudienceName')`, vous devez modifier manuellement l’expression pour utiliser le nouveau nom. Si vous ne le faites pas, la condition du parcours sera rompue.
 
 ## Catégorie
 
@@ -65,7 +70,3 @@ Explication :
 
 La fonction renvoie **[!UICONTROL true]** si la personne concernée par l’instance de parcours fait partie de l’audience Adobe Experience Platform nommée « men over 50 » (hommes de plus de 50 ans), **[!UICONTROL false]** dans le cas contraire.
 
-
->[!CAUTION]
->
->La modification du nom d’une audience existante ne met pas automatiquement à jour les références à cette audience dans vos expressions de parcours. Si votre nœud de condition utilise inAudience(&#39;oldAudienceName&#39;), vous devez modifier manuellement l’expression pour utiliser le nouveau nom. Si vous ne le faites pas, la condition du parcours sera rompue.
