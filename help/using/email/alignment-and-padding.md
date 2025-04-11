@@ -10,7 +10,7 @@ level: Beginner, Intermediate
 keywords: alignement vertical, éditeur d’e-mail, marge intérieure
 exl-id: 1e1d90ff-df5d-4432-a63a-a32d0d281d48
 source-git-commit: 7ca149d420f802a6230e699cffefddc4117cb85e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '199'
 ht-degree: 100%
 

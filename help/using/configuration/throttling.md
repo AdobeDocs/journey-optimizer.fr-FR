@@ -9,7 +9,7 @@ level: Beginner
 keywords: externe, API, optimizer, plafonnement
 exl-id: b837145b-1727-43c0-a0e2-bf0e8a35347c
 source-git-commit: ecb479f0875cfe1865a60667da6e2f84fad5044a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '880'
 ht-degree: 100%
 
