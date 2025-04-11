@@ -8,16 +8,26 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
+source-git-commit: 5172fbce0ff2c3330e68394234f6f28db245c7d4
 workflow-type: tm+mt
-source-wordcount: '949'
-ht-degree: 100%
+source-wordcount: '1087'
+ht-degree: 88%
 
 ---
 
 # Mises à jour de la documentation {#latest-updates}
 
 Cette page répertorie toutes les mises à jour récentes de la documentation de [!DNL Journey Optimizer].
+
+
+## Avril 2025 {#apr-2025}
+
+* Ajout d’une note sur la page Configuration du publipostage direct concernant le stockage temporaire du fichier de sortie. [En savoir plus](../direct-mail/direct-mail-configuration.md)
+* Ajout d’une astuce dans la section Éditeur d’expression avancé de parcours à propos des instructions de format de condition. [En savoir plus](../building-journeys/expression/expressionadvanced.md)
+* Ajout d’une note d’avertissement dans la section sur les fonctions `inAudience` concernant les impacts et les bonnes pratiques lors du changement de nom d’une audience. [En savoir plus](../building-journeys/functions/functioninaudience.md)
+* Ajout d’une recommandation sur l’utilisation des mots-clés natifs lors de l’utilisation de SMS bidirectionnels. [En savoir plus](../sms/sms-opt-out.md)
+* Mise à jour de la page de test du parcours avec une note sur la nécessité d’inclure un espace de noms d’identité dans l’événement utilisé. [En savoir plus](../building-journeys/testing-the-journey.md)
+* Actuellement, vous ne pouvez pas annuler la délégation des sous-domaines par le biais de l’interface utilisateur [!UICONTROL Journey Optimizer]. Vous devez contacter votre représentant Adobe. Les sections E-mail, Page de destination, SMS et Sous-domaine web ont été mises à jour avec ces informations et les étapes à effectuer avant de contacter Adobe. [En savoir plus](../configuration/delegate-subdomain.md#undelegate-subdomain)
 
 ## Mars 2025 {#mar-2025}
 

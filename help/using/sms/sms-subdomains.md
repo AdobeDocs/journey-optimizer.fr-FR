@@ -8,10 +8,10 @@ feature: SMS, Channel Configuration
 level: Intermediate
 keywords: SMS, sous-domaines, configuration
 exl-id: 08a546d1-060c-43e8-9eac-4c38945cc3e1
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+source-git-commit: 5172fbce0ff2c3330e68394234f6f28db245c7d4
 workflow-type: tm+mt
-source-wordcount: '743'
-ht-degree: 98%
+source-wordcount: '925'
+ht-degree: 79%
 
 ---
 
@@ -139,3 +139,37 @@ Pour configurer un nouveau sous-domaine, procédez comme suit.
 Avant de pouvoir utiliser un sous-domaine pour envoyer des messages SMS, vous devez attendre qu’Adobe effectue les vérifications nécessaires, ce qui peut prendre jusqu’à 4 heures.<!--Learn more in [this section](#subdomain-validation).-->Une fois les vérifications effectuées, le sous-domaine obtient le statut **[!UICONTROL Succès]**. Vous pouvez à présent l’utiliser pour créer des configurations de canal SMS.
 
 Le statut du sous-domaine sera marqué comme en **[!UICONTROL Échec]** si la création de lʼenregistrement de validation sur votre solution dʼhébergement nʼa pas réussi.
+
+## Annulation de la délégation d’un sous-domaine {#undelegate-subdomain}
+
+Si vous souhaitez annuler la délégation d’un sous-domaine SMS, contactez votre représentant Adobe.
+
+Cependant, vous devez effectuer plusieurs étapes dans l’interface utilisateur avant de contacter Adobe.
+
+>[!NOTE]
+>
+>Vous pouvez uniquement annuler la délégation de sous-domaines avec le statut **[!UICONTROL Succès]**. Les sous-domaines avec les statuts **[!UICONTROL Brouillon]** et **[!UICONTROL Échec]** peuvent simplement être supprimés de l’interface utilisateur.
+
+Tout d’abord, effectuez les étapes suivantes dans [!DNL Journey Optimizer] :
+
+1. Désactivez toutes les configurations de canal associées au sous-domaine. [Voici comment procéder](../configuration/channel-surfaces.md#deactivate-a-surface)
+
+<!--
+1. If the SMS subdomain is using an email subdomain that was [already delegated](#lp-use-existing-subdomain) to Adobe, undelegate the email subdomain. [Learn how](../configuration/delegate-subdomain.md#undelegate-subdomain)-->
+
+1. Arrêtez les campagnes actives associées aux sous-domaines. [Voici comment procéder](../campaigns/modify-stop-campaign.md#stop)
+
+1. Arrêtez les parcours actifs associés aux sous-domaines. [Voici comment procéder](../building-journeys/end-journey.md#stop-journey)
+
+1. Si le sous-domaine SMS était un [nouveau sous-domaine délégué](#sms-configure-new-subdomain), supprimez les entrées DNS associées à ce sous-domaine.
+
+Une fois cette opération terminée, contactez votre représentant Adobe avec le sous-domaine dont vous souhaitez annuler la délégation.
+
+Une fois que votre demande est gérée par Adobe, le domaine non délégué ne s’affiche plus sur la page d’inventaire des sous-domaines.
+
+>[!CAUTION]
+>
+>Après la suppression de la délégation d’un sous-domaine :
+>
+>   * Vous ne pouvez pas réactiver les configurations de canal qui utilisaient ce sous-domaine.
+>   * Vous ne pouvez pas déléguer à nouveau le sous-domaine exact via l’interface utilisateur. Si vous souhaitez le faire, contactez votre représentant ou représentante Adobe.

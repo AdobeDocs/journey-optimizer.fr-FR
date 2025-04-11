@@ -9,7 +9,7 @@ role: Admin
 level: Experienced
 keywords: sous-domaine, optimizer, délégation
 exl-id: 1b5ca4db-44d9-49e2-ab39-a1abba223ec7
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+source-git-commit: 5172fbce0ff2c3330e68394234f6f28db245c7d4
 workflow-type: tm+mt
 source-wordcount: '916'
 ht-degree: 98%
@@ -104,3 +104,4 @@ Vous pouvez :
 >[!CAUTION]
 >
 >La configuration de sous-domaines est commune à tous les environnements. Par conséquent, toute modification apportée à un sous-domaine aura également un impact sur les sandbox de production.
+

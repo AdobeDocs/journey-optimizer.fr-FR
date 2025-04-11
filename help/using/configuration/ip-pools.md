@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: adresses IP, groupes, groupe, sous-domaines, délivrabilité
 exl-id: 606334c3-e3e6-41c1-a10e-63508a3ed747
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+source-git-commit: 5172fbce0ff2c3330e68394234f6f28db245c7d4
 workflow-type: tm+mt
 source-wordcount: '721'
-ht-degree: 99%
+ht-degree: 97%
 
 ---
 
@@ -68,7 +68,7 @@ Lors de la sélection des adresses IP, vous pouvez voir dans la liste les enregi
 
 >[!NOTE]
 >
->Si aucun enregistrement PTR n’est configuré pour une adresse IP, vous ne pouvez pas la sélectionner. Contactez votre représentant(e) Adobe pour configurer l’enregistrement PTR de cette adresse IP.
+>Si aucun enregistrement PTR n’est configuré pour une adresse IP, vous ne pouvez pas la sélectionner. Contactez votre représentant Adobe pour configurer l’enregistrement PTR de cette adresse IP.<!--Now this only happens when first subdomain delegated to Adobe is with CNAME method.-->
 
 Une fois un groupe d’adresses IP créé, les informations PTR sont visibles lorsque vous pointez sur les adresses IP affichées sous la liste déroulante du groupe d’adresses IP.
 

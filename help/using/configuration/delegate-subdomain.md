@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: sous-domaine, délégation, domaine, DNS
 exl-id: 8021f66e-7725-475b-8722-e6f8d74c9023
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+source-git-commit: 5172fbce0ff2c3330e68394234f6f28db245c7d4
 workflow-type: tm+mt
-source-wordcount: '1818'
-ht-degree: 97%
+source-wordcount: '2039'
+ht-degree: 87%
 
 ---
 
@@ -43,7 +43,7 @@ Vous pouvez entièrement déléguer un sous-domaine ou créer un sous-domaine à
 >
 >La configuration de sous-domaines est commune à tous les environnements. Par conséquent, toute modification apportée à un sous-domaine aura également un impact sur les sandbox de production.
 
-## Délégation complète de sous-domaine {#full-subdomain-delegation}
+## Déléguer entièrement un sous-domaine à Adobe {#full-subdomain-delegation}
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_subdomain_dns"
@@ -113,7 +113,7 @@ Une fois qu’un sous-domaine est délégué à Adobe dans [!DNL Journey Optimiz
 >
 >L’exécution parallèle de sous-domaines n’est actuellement pas prise en charge dans [!DNL Journey Optimizer]. Si vous tentez d’envoyer un sous-domaine pour délégation alors quʼun autre se trouve à lʼétat **[!UICONTROL En cours de traitement]**, un message d’erreur sʼaffiche.
 
-## Configuration du sous-domaine CNAME {#cname-subdomain-delegation}
+## Configurer un sous-domaine avec des CNAME {#cname-subdomain-delegation}
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_subdomain_dns_cname"
@@ -224,6 +224,47 @@ Les vérifications et actions ci-dessous seront effectuées jusqu&#39;à ce que 
 1. **Création d’un DNS forward** : s’il s’agit du premier sous-domaine que vous déléguez, Adobe crée le DNS forward qui est requis pour créer des enregistrements PTR, un pour chacune de vos adresses IP.
 
 1. **Création d’un enregistrement PTR** : l’enregistrement PTR, également appelé enregistrement DNS inversé, est requis par les FAI pour qu’ils ne marquent pas les e-mails comme spam. Gmail recommande également d’avoir des enregistrements PTR pour chaque adresse IP. Adobe crée des enregistrements PTR uniquement lorsque vous déléguez un sous-domaine pour la première fois, un pour chaque adresse IP, toutes les adresses IP pointant vers ce sous-domaine. Par exemple, si l’adresse IP est *192.1.2.1* et que le sous-domaine est *email.example.com*, l’enregistrement PTR sera : *192.1.2.1PTR r1.email.example.com*. Vous pouvez mettre à jour l’enregistrement PTR par la suite pour pointer vers le nouveau domaine délégué. [En savoir plus sur les enregistrements PTR](ptr-records.md)
+
+## Annulation de la délégation d’un sous-domaine {#undelegate-subdomain}
+
+Si vous souhaitez annuler la délégation d’un sous-domaine, contactez votre représentant Adobe.
+
+Cependant, vous devez effectuer plusieurs étapes dans l’interface utilisateur avant de contacter Adobe.
+
+>[!NOTE]
+>
+>Vous pouvez uniquement annuler la délégation de sous-domaines avec le statut **[!UICONTROL Succès]**. Les sous-domaines avec les statuts **[!UICONTROL Brouillon]** et **[!UICONTROL Échec]** peuvent simplement être supprimés de l’interface utilisateur.
+
+Tout d’abord, effectuez les étapes suivantes dans [!DNL Journey Optimizer] :
+
+1. Désactivez toutes les configurations de canal associées au sous-domaine. [Voici comment procéder](../configuration/channel-surfaces.md#deactivate-a-surface)
+
+1. Annulez la délégation de tous les sous-domaines de page de destination, sous-domaines SMS et sous-domaines web associés à ce sous-domaine.
+
+   >[!NOTE]
+   >
+   >Vous devez envoyer une requête dédiée pour chaque [page de destination](../landing-pages/lp-subdomains.md#undelegate-subdomain), [SMS](../sms/sms-subdomains.md#undelegate-subdomain) ou [sous-domaine web](../web/web-delegated-subdomains.md#undelegate-subdomain).
+
+1. Arrêtez les campagnes actives associées aux sous-domaines. [Voici comment procéder](../campaigns/modify-stop-campaign.md#stop)
+
+1. Arrêtez les parcours actifs associés aux sous-domaines. [Voici comment procéder](../building-journeys/end-journey.md#stop-journey)
+
+1. Pointez les [enregistrements PTR](ptr-records.md#edit-ptr-record) liés au sous-domaine vers un autre sous-domaine.
+
+   >[!NOTE]
+   >
+   >S’il s’agit du seul sous-domaine délégué, vous pouvez ignorer cette étape.
+
+Une fois cette opération terminée, contactez votre représentant Adobe avec le sous-domaine dont vous souhaitez annuler la délégation.
+
+Une fois que votre demande est gérée par Adobe, le domaine non délégué ne s’affiche plus sur la page d’inventaire des sous-domaines.
+
+>[!CAUTION]
+>
+>Après la suppression de la délégation d’un sous-domaine :
+>
+>   * Vous ne pouvez pas réactiver les configurations de canal qui utilisaient ce sous-domaine.
+>   * Vous ne pouvez pas déléguer à nouveau le sous-domaine exact via l’interface utilisateur. Si vous souhaitez le faire, contactez votre représentant ou représentante Adobe.
 
 ## Vidéo pratique{#video}
 
