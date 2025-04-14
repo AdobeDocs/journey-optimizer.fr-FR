@@ -8,10 +8,10 @@ role: User
 level: Beginner
 keywords: externe, API, optimizer, plafonnement
 exl-id: b837145b-1727-43c0-a0e2-bf0e8a35347c
-source-git-commit: ecb479f0875cfe1865a60667da6e2f84fad5044a
-workflow-type: ht
-source-wordcount: '880'
-ht-degree: 100%
+source-git-commit: 847fb5dda4e8747ea61a2ffafb9adcddda1ddada
+workflow-type: tm+mt
+source-wordcount: '1014'
+ht-degree: 82%
 
 ---
 
@@ -21,13 +21,14 @@ L’API de limitation vous permet de créer, de configurer et de surveiller vos 
 
 Cette section fournit des informations générales sur l’utilisation de l’API. Consultez la description détaillée de l’API dans la [Documentation des API Adobe Journey Optimizer](https://developer.adobe.com/journey-optimizer-apis/).
 
->[!IMPORTANT]
->
->Actuellement, une seule configuration est autorisée par organisation. La configuration doit être définie dans la sandbox de production (indiquée par x-sandbox-name dans les en-têtes).
->
->La configuration s’applique au niveau de l’organisation.
->
->Lorsque la limite définie dans l’API est atteinte, les événements suivants sont mis en file d’attente pendant 6 heures au maximum. Cette valeur ne peut pas être modifiée.
+## À lire absolument
+
+* **Une configuration par organisation :** une seule configuration est actuellement autorisée par organisation. Une configuration doit être définie sur une sandbox de production (indiquée par `x-sandbox-name` dans les en-têtes).
+* **Application au niveau de l’organisation :** une configuration est appliquée au niveau de l’organisation.
+* **Gestion des limites d’API :** lorsque la limite définie dans l’API est atteinte, les autres événements sont mis en file d’attente pendant 6 heures au maximum. Cette valeur ne peut pas être modifiée.
+* Paramètre **`maxHttpConnections`:** paramètre « maxHttpConnections » est un paramètre facultatif disponible dans l’API de limitation uniquement pour vous permettre de limiter le nombre de connexions que Journey Optimizer ouvrira au système externe. [Découvrez comment utiliser l’API de limitation](../configuration/capping.md)
+
+  Si vous souhaitez limiter le nombre de connexions, mais également limiter ces appels externes, vous pouvez configurer deux configurations, l’une de limitation et l’autre de plafonnement, sur le même point d’entrée. Les deux configurations peuvent coexister pour un point d’entrée. Pour définir « maxHttpConnections » pour un point d’entrée limité, utilisez l’API de limitation pour définir le seuil de limitation et l’API de plafonnement pour définir « maxHttpConnections ». Lors de l’appel de l’API de plafonnement, vous pouvez définir le seuil de plafonnement sur un paramètre supérieur au seuil de limitation afin que la règle de plafonnement ne soit jamais appliquée.
 
 ## Description de l’API de throttling et collection Postman {#description}
 

@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 5172fbce0ff2c3330e68394234f6f28db245c7d4
+source-git-commit: 847fb5dda4e8747ea61a2ffafb9adcddda1ddada
 workflow-type: tm+mt
-source-wordcount: '1087'
-ht-degree: 88%
+source-wordcount: '1114'
+ht-degree: 86%
 
 ---
 
@@ -28,6 +28,7 @@ Cette page répertorie toutes les mises à jour récentes de la documentation de
 * Ajout d’une recommandation sur l’utilisation des mots-clés natifs lors de l’utilisation de SMS bidirectionnels. [En savoir plus](../sms/sms-opt-out.md)
 * Mise à jour de la page de test du parcours avec une note sur la nécessité d’inclure un espace de noms d’identité dans l’événement utilisé. [En savoir plus](../building-journeys/testing-the-journey.md)
 * Actuellement, vous ne pouvez pas annuler la délégation des sous-domaines par le biais de l’interface utilisateur [!UICONTROL Journey Optimizer]. Vous devez contacter votre représentant Adobe. Les sections E-mail, Page de destination, SMS et Sous-domaine web ont été mises à jour avec ces informations et les étapes à effectuer avant de contacter Adobe. [En savoir plus](../configuration/delegate-subdomain.md#undelegate-subdomain)
+* Ajout d’une clarification sur le paramètre `maxHttpConnections` facultatif dans l’API de plafonnement des parcours, y compris des conseils sur la manière de l’utiliser avec des configurations de limitation pour le même point d’entrée. [En savoir plus](../configuration/throttling.md)
 
 ## Mars 2025 {#mar-2025}
 
