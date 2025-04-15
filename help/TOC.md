@@ -5,9 +5,9 @@ user-guide-title: Guide de Journey Optimizer
 user-guide-description: Utilisez Journey Optimizer pour créer et proposer aux clients des expériences connectées, contextuelles et personnalisées
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: a5057c3ce699a972c22cc125dd963d545a113b0b
+source-git-commit: 5ee11912b2c6dbd58acae04a5bf1d24403a1c4ea
 workflow-type: tm+mt
-source-wordcount: '2328'
+source-wordcount: '2329'
 ht-degree: 91%
 
 ---
@@ -739,6 +739,7 @@ ht-degree: 91%
       + [Résoudre les problèmes liés aux actions personnalisées](using/action/troubleshoot-custom-action.md)
       + [Utiliser des réponses d’appel API dans des actions personnalisées](using/action/action-response.md)
 + Connexion de vos systèmes {#connect-systems}
+   + [Utilisation des API Journey Optimizer](using/configuration/ajo-apis.md)
    + Intégration avec des systèmes externes {#external-systems}
       + [Intégration des parcours à des systèmes externes](using/configuration/external-systems.md)
       + [API de plafonnement](using/configuration/capping.md)
@@ -749,7 +750,6 @@ ht-degree: 91%
       + [Intégration de Parcours à Marketo Engage](using/action/marketo-engage.md)
    + [Configuration du connecteur Sources](using/start/get-started-sources.md)
    + [Exporter des objets vers un autre sandbox](using/configuration/copy-objects-to-sandbox.md)
-   + [Utilisation des API Journey Optimizer](using/configuration/ajo-apis.md)
 + Contrôle d&#39;accès {#access-control}
    + Présentation du contrôle d’accès {#privacy}
       + [Prise en main de User Management](using/administration/permissions-overview.md)

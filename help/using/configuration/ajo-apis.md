@@ -6,9 +6,10 @@ description: Journey Optimizer fournit des API RESTful qui vous permettent d’e
 feature: Integrations, Data Ingestion
 role: Developer
 level: Intermediate
-source-git-commit: a5057c3ce699a972c22cc125dd963d545a113b0b
+exl-id: 4c897c52-6eb2-4d6e-aaa9-9bd83608b2b6
+source-git-commit: 5ee11912b2c6dbd58acae04a5bf1d24403a1c4ea
 workflow-type: tm+mt
-source-wordcount: '239'
+source-wordcount: '240'
 ht-degree: 7%
 
 ---
