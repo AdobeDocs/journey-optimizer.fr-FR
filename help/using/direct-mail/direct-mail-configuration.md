@@ -7,10 +7,10 @@ role: User
 level: Experienced
 keyword: direct, mail, configuration, direct-mail, provider
 exl-id: ae5cc885-ade1-4683-b97e-eda1f2142041
-source-git-commit: 02571632e5f49ebf4fcc97d27c4025e9938795c0
+source-git-commit: 65b7b8323e37a0143a3941af1b9c2fb8b595a376
 workflow-type: tm+mt
-source-wordcount: '1344'
-ht-degree: 96%
+source-wordcount: '1343'
+ht-degree: 95%
 
 ---
 
@@ -24,7 +24,7 @@ Avant de pouvoir générer ce fichier, vous devez créer les éléments suivants
 
 1. [Une configuration du routage des fichiers](#file-routing-configuration) pour spécifier le serveur sur lequel le fichier sera exporté et chiffré, le cas échéant.
 
-1. [Une configuration du publipostage direct](#direct-mail-configuration) qui fera référence à la configuration du routage des fichiers. Si vous n’avez configuré aucune option de routage de fichier, vous ne pourrez pas créer de configuration de publipostage direct.
+1. [configuration du publipostage direct](#direct-mail-configuration) qui fait référence à la configuration du routage des fichiers. Si vous n’avez configuré aucune option de routage de fichier, vous ne pourrez pas créer de configuration de publipostage direct.
 
 
 >[!CAUTION]

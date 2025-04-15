@@ -9,10 +9,10 @@ role: Admin
 level: Intermediate
 keywords: configuration, parcours, tableau de bord, sources de données, événements, actions
 exl-id: c144d44f-031f-4ca2-800e-d3878af400a5
-source-git-commit: 4847415fa33ebf1c21622ebf4faecafd4decc8d3
+source-git-commit: 65b7b8323e37a0143a3941af1b9c2fb8b595a376
 workflow-type: tm+mt
-source-wordcount: '408'
-ht-degree: 100%
+source-wordcount: '457'
+ht-degree: 85%
 
 ---
 
@@ -23,9 +23,11 @@ ht-degree: 100%
 >title="À propos de la configuration de parcours"
 >abstract="Pour envoyer des messages avec des parcours, vous devez configurer les Sources de données, les Événements et les Actions. Les sources de données vous permettent de définir une connexion à un système pour récupérer des informations supplémentaires qui seront utilisées pour vos parcours, par exemple dans vos conditions. Les événements vous permettent de déclencher vos parcours lorsqu&#39;un événement est reçu. Les actions personnalisées vous permettent de vous connecter à un système tiers pour envoyer vos messages. Si vous utilisez les fonctionnalités de message intégré de Journey Optimizer, il n&#39;est pas nécessaire de configurer une action."
 
-Pour envoyer des messages avec des parcours, vous devez configurer les **[!UICONTROL Sources de données]**, les **[!UICONTROL Événements]** et les **[!UICONTROL Actions]**.
+L’envoi de messages avec des parcours nécessite de configurer **[!UICONTROL Sources de données]**, **[!UICONTROL Événements]** et **[!UICONTROL Actions]**.
 
 ![](assets/admin-menu.png)
+
+Vous pouvez également configurer des connexions à des systèmes externes par le biais de sources de données et d’actions personnalisées. Vous pouvez ainsi, par exemple, enrichir vos parcours de données provenant d’un système de réservation externe ou envoyer des messages à l’aide d’un système tiers tel qu’Epsilon ou Facebook. Découvrez comment [ intégrer Journey Optimizer à des systèmes externes ](external-systems.md).
 
 ## Sources de données {#data-sources}
 
@@ -45,7 +47,7 @@ Les fonctionnalités de message Journey Optimizer sont intégrées : il vous su
 
 Lors de la définition de la [payload d&#39;événement](../event/about-creating.md#define-the-payload-fields), de la [payload du groupe de champs](../datasource/configure-data-sources.md#define-field-groups) et de la sélection de champs dans l&#39;[éditeur d&#39;expression](../building-journeys/expression/expressionadvanced.md), le nom d&#39;affichage s&#39;affiche en plus du nom du champ. Ces informations sont récupérées à partir de la définition du schéma dans le modèle de données d&#39;expérience.
 
-Si des descripteurs tels que « xdm:alternateDisplayInfo » sont fournis lors de la configuration des schémas, les noms conviviaux remplacent les noms d&#39;affichage. Cela est particulièrement utile lorsque vous utilisez des « eVars » et des champs génériques. Vous pouvez configurer des descripteurs de noms conviviaux via un appel API. Pour plus d’informations, consultez le [guide de développement sur le registre de schéma](https://experienceleague.adobe.com/docs/experience-platform/xdm/api/getting-started.html?lang=fr){target="_blank"}.
+Si des descripteurs tels que « xdm:alternateDisplayInfo » sont fournis lors de la configuration des schémas, les noms conviviaux remplacent les noms d&#39;affichage. Cela est particulièrement utile lorsque vous utilisez des « eVars » et des champs génériques. Vous pouvez configurer des descripteurs de noms conviviaux via un appel API. Pour plus d&#39;informations, consultez le [guide sur le registre de schéma destiné aux développeurs](https://experienceleague.adobe.com/docs/experience-platform/xdm/api/getting-started.html?lang=fr){target="_blank"}.
 
 ![](assets/xdm-from-descriptors.png)
 

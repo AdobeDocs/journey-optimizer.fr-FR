@@ -9,16 +9,16 @@ role: Data Engineer, Data Architect, Admin
 level: Intermediate, Experienced
 keywords: analytics, intégration, sdk web, platform
 exl-id: 9d842722-e5eb-4743-849d-b7ba9448062f
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: 0be35e14dba32523a7f28aaaa28d41ee693d44ba
 workflow-type: tm+mt
 source-wordcount: '755'
-ht-degree: 96%
+ht-degree: 93%
 
 ---
 
 # Utiliser des données Adobe Analytics {#analytics-data}
 
-Vous pouvez exploiter toutes les données comportementales d’événement que vous capturez déjà via Adobe Analytics ou le SDK web et diffusez déjà en continu dans Adobe Experience Platform, afin de déclencher des parcours et d’automatiser les expériences de vos clientes et clients.
+Vous pouvez exploiter toutes les données web comportementales d’événement que vous capturez déjà via Adobe Analytics ou Web SDK et diffusez déjà en continu dans Adobe Experience Platform, afin de déclencher des parcours et d’automatiser les expériences de vos clients.
 
 Pour que cela fonctionne avec Adobe Analytics, vous devez :
 
@@ -61,7 +61,7 @@ Cela active le connecteur source Analytics pour cette suite de rapports. Chaque 
 
 ![](assets/ajo-aa_4.png)
 
-En savoir plus sur le connecteur source Adobe Analytics dans la documentation](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html?lang=fr){target="_blank"} la [ et le tutoriel Adobe Experience Platform [](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html?lang=fr){target="_blank"}.
+Pour en savoir plus sur le connecteur source Adobe Analytics, consultez la [documentation](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html?lang=fr){target="_blank"} et le [tutoriel Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html?lang=fr){target="_blank"}.
 
 ## Activer cette configuration {#activate-analytics-data}
 
