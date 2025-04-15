@@ -8,10 +8,10 @@ role: Data Engineer, Architect
 level: Experienced
 keywords: expression, condition, cas d’utilisation, événements
 exl-id: 753ef9f4-b39d-4de3-98ca-e69a1766a78b
-source-git-commit: cb1fed2460ddbf3b226fe191b9695008970937c1
+source-git-commit: 773f5430242901a08c1609f3229f21d5d4e100ea
 workflow-type: tm+mt
-source-wordcount: '493'
-ht-degree: 100%
+source-wordcount: '535'
+ht-degree: 92%
 
 ---
 
@@ -19,13 +19,18 @@ ht-degree: 100%
 
 L’éditeur d’expression avancé sert à créer des conditions pour filtrer les utilisateurs dans vos parcours. Ces conditions permettent de cibler les utilisateurs en fonction de l’heure, de la date, de l’emplacement, de la durée ou des actions, notamment l’achat ou l’abandon de panier pour pouvoir les recibler dans le parcours.
 
->[!NOTE]
+>[!CAUTION]
 >
->Les événements commencent par le caractère @, les sources de données par #.
+>L’utilisation d’événements d’expérience dans des expressions/conditions de parcours est prise en charge, mais non recommandée. Si votre cas d’utilisation nécessite l’utilisation d’événements d’expérience, envisagez d’autres méthodes telles que [attributs calculés](../../audience/computed-attributes.md) ou la création d’un segment à l’aide des événements et l’incorporation de ce segment dans [`inAudience` expressions](../../building-journeys/functions/functioninaudience.md).
+
 
 ## Création de conditions pour les événements d’expérience
 
 L’éditeur d’expression avancé est obligatoire pour effectuer des requêtes sur des séries temporelles, comme une liste d’achats ou des clics antérieurs sur des messages. L’éditeur simple ne permet pas d’effectuer ces requêtes.
+
+>[!NOTE]
+>
+>Les événements commencent par le caractère @, les sources de données par #.
 
 Les événements d’expérience sont récupérés depuis Adobe Experience Platform sous la forme d’une collection dans l’ordre chronologique inverse. Par conséquent :
 
@@ -40,7 +45,7 @@ Tout d’abord, il s’agit de cibler les clients qui ont accédé à la boutiqu
 
 <!--**This expression looks for a specified value in a string value:**
 
-`In (“addToCart”, #{field reference from experience event})`-->
+`In ("addToCart", #{field reference from experience event})`-->
 
 **Cette expression recherche tous les événements relatifs à cet utilisateur spécifiés au cours des 7 derniers jours :**
 

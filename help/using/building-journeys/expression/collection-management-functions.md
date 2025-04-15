@@ -8,10 +8,10 @@ role: Data Engineer, Architect
 level: Experienced
 keywords: requête, collections, fonctions, payload, parcours
 exl-id: 09b38179-9ace-4921-985b-ddd17eb64681
-source-git-commit: 0d6b0cad90dbeded671a79732a6f101289568f81
+source-git-commit: 773f5430242901a08c1609f3229f21d5d4e100ea
 workflow-type: tm+mt
-source-wordcount: '696'
-ht-degree: 100%
+source-wordcount: '739'
+ht-degree: 94%
 
 ---
 
@@ -72,6 +72,13 @@ La fonction **[!UICONTROL all]** permet de définir un filtre sur une collection
 Par exemple, parmi tous les personnes utilisant l’application, vous pouvez extraire celles qui utilisent IOS 13 (expression booléenne « app used == IOS 13 »). Le résultat de cette fonction est une liste filtrée contenant les éléments qui correspondent à l’expression booléenne (exemple : utilisateur 1 de l’application, utilisateur 34 de l’application, utilisateur 432 de l’application).
 
 Dans une activité Condition de source de données, vous pouvez vérifier si le résultat de la fonction **[!UICONTROL all]** est nul ou non. Vous pouvez également combiner cette fonction **[!UICONTROL all]** à d’autres fonctions, telles que **[!UICONTROL count]**. Pour plus d’informations, voir [Activité Condition de source de données](../condition-activity.md#data_source_condition).
+
+
+## Exemples
+
+>[!CAUTION]
+>
+>L’utilisation d’événements d’expérience dans les expressions/conditions de parcours est prise en charge mais pas recommandée. Si votre cas d’utilisation nécessite l’utilisation d’événements d’expérience, envisagez d’autres méthodes telles que [les attributs](../../audience/computed-attributes.md) calculés ou la création d’un segment à l’aide des événements et l’incorporation de ce segment dans [`inAudience` des expressions](../../building-journeys/functions/functioninaudience.md).
 
 **Exemple 1 :**
 

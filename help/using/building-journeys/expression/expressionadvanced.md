@@ -8,10 +8,10 @@ role: Data Engineer, Architect
 level: Experienced
 keywords: éditeur d’expression, données, parcours
 exl-id: 9ea6cc3a-6a1b-4e8f-82ff-f8b1812617d7
-source-git-commit: 4a60b9f8c754e161ca156c7644d7241adb9bfc1f
+source-git-commit: 773f5430242901a08c1609f3229f21d5d4e100ea
 workflow-type: tm+mt
-source-wordcount: '692'
-ht-degree: 96%
+source-wordcount: '734'
+ht-degree: 90%
 
 ---
 
@@ -70,6 +70,11 @@ Cet écran vous permet d’écrire manuellement votre expression.
 Dans la partie gauche de l’écran, les champs et les fonctions disponibles sont affichés :
 
 * **[!UICONTROL Événements]** : choisissez l’un des champs reçus à partir de l’événement entrant. La liste des champs d’événements affichée est contextuelle et varie selon le ou les événements ajoutés dans le parcours. [En savoir plus](../../event/about-events.md)
+
+  >[!CAUTION]
+  >
+  >L’utilisation d’événements d’expérience dans des expressions/conditions de parcours est prise en charge, mais non recommandée. Si votre cas d’utilisation nécessite l’utilisation d’événements d’expérience, envisagez d’autres méthodes telles que [attributs calculés](../../audience/computed-attributes.md) ou la création d’un segment à l’aide des événements et l’incorporation de ce segment dans [`inAudience` expressions](../../building-journeys/functions/functioninaudience.md).
+
 * **[!UICONTROL Audiences]** : si vous avez déposé un événement de **[!UICONTROL qualification d’audience]**, choisissez l’audience à utiliser dans votre expression. [En savoir plus](../condition-activity.md#using-a-segment)
 * **[!UICONTROL Sources de données]** : choisissez dans la liste des champs disponibles issue des groupes de champs de vos sources de données. [En savoir plus](../../datasource/about-data-sources.md)
 * **[!UICONTROL Propriétés du parcours]** : cette section regroupe les champs techniques liés au parcours pour un profil donné. [En savoir plus](journey-properties.md)
