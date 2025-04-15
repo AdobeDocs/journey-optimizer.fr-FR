@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: d35a0e1c-2376-4cc5-88fc-5f8dfcfae666
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+source-git-commit: 24cb77484172117f2308d2949588ee98fa8421dd
 workflow-type: tm+mt
-source-wordcount: '870'
-ht-degree: 95%
+source-wordcount: '852'
+ht-degree: 92%
 
 ---
 
@@ -145,7 +145,7 @@ Le tableau **[!UICONTROL Stratégie de classement]** fournit des informations su
 
 * **Piloté par modèle** : les utilisateurs et les utilisatrices reçoivent du contenu classé par le modèle d’IA, optimisé pour la pertinence et l’engagement.
 
-* **Exclusion** : les utilisateurs et les utilisatrices voient une version générique du contenu, servant de population témoin pour mesurer l’efficacité du modèle d’IA.
+* **Exclusion** : les utilisateurs et utilisatrices reçoivent un contenu diffusé de manière aléatoire pendant la phase d’exploration du modèle.
 
 Les mesures clés affichées sont les suivantes :
 
@@ -167,4 +167,4 @@ Le graphique **[!UICONTROL Taux de conversion pour le trafic Exclusion et le tra
 
 * **Piloté par modèle** : les utilisateurs et les utilisatrices reçoivent du contenu classé par le modèle d’IA, optimisé pour la pertinence et l’engagement.
 
-* **Exclusion** : les utilisateurs et les utilisatrices voient une version générique du contenu, servant de population témoin pour mesurer l’efficacité du modèle d’IA.
+* **Exclusion** : les utilisateurs et utilisatrices reçoivent un contenu diffusé de manière aléatoire pendant la phase d’exploration du modèle.
