@@ -2,14 +2,14 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Utiliser l’activité Créer une audience
-description: Découvrez comment utiliser l’activité Créer une audience dans une campagne à plusieurs étapes
+description: Découvrez comment utiliser l’activité Créer une audience dans une campagne orchestrée
 hide: true
 hidefromtoc: true
 exl-id: 3959b5fa-0c47-42a5-828f-4d7ca9b7e72d
-source-git-commit: 323472ef9d6203cbbadc44ceb17ddcc7f6207323
+source-git-commit: 3d380d2d02eb7043aebcffd00bb2092e7341b0d5
 workflow-type: tm+mt
 source-wordcount: '368'
-ht-degree: 79%
+ht-degree: 61%
 
 ---
 
@@ -18,9 +18,9 @@ ht-degree: 79%
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_build_audience"
 >title="Activité Créer une audience"
->abstract="L’activité **Créer une audience** permet de définir l’audience qui va entrer dans la campagne à étapes multiples. Lors de l’envoi de messages dans le cadre d’une campagne à étapes multiples, l’audience du message n’est pas définie dans l’activité de canal, mais dans l’activité **Créer une audience**."
+>abstract="L’activité **Créer une audience** vous permet de définir l’audience qui va rejoindre la campagne orchestrée. Lors de l’envoi de messages dans le cadre d’une campagne orchestrée, l’audience du message n’est pas définie dans l’activité de canal, mais dans l’activité **Créer une audience**."
 
-L’activité **Créer une audience** est une activité de **ciblage**. Cette activité permet de définir l’audience qui va entrer dans la campagne à plusieurs étapes. Lors de l’envoi de messages dans le cadre d’une campagne à étapes multiples, l’audience du message n’est pas définie dans l’activité de canal, mais dans l’activité **Créer une audience**.
+L’activité **Créer une audience** est une activité de **ciblage**. Cette activité permet de définir l’audience qui va rejoindre la campagne orchestrée. Lors de l’envoi de messages dans le cadre d’une campagne orchestrée, l’audience du message n’est pas définie dans l’activité de canal, mais dans l’activité **Créer une audience**.
 
 Pour définir la population de l’audience, vous pouvez :
 
@@ -74,6 +74,6 @@ Pour sélectionner une audience existante, procédez comme suit :
 
 ## Exemples{#build-audience-examples}
 
-Voici un exemple de campagne à plusieurs étapes avec deux activités **Créer une audience**. La première cible l’audience des joueurs et joueuses de poker, suivie d’une diffusion e-mail. La seconde cible l’audience des clientes et clients VIP, suivie d’une diffusion SMS.
+Voici un exemple de campagne orchestrée avec deux activités **Créer une audience**. La première cible l’audience des joueurs et joueuses de poker, suivie d’une diffusion e-mail. La seconde cible l’audience des clientes et clients VIP, suivie d’une diffusion SMS.
 
 ![](../assets/workflow-audience-example.png)

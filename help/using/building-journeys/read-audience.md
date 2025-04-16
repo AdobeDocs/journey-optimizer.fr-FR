@@ -11,8 +11,8 @@ keywords: activité, parcours, lecture, audience, platform
 exl-id: 7b27d42e-3bfe-45ab-8a37-c55b231052ee
 source-git-commit: 48a1ef9a48cecddf340031fcbbec4fe574cb2839
 workflow-type: tm+mt
-source-wordcount: '1790'
-ht-degree: 92%
+source-wordcount: '1786'
+ht-degree: 93%
 
 ---
 
@@ -98,7 +98,7 @@ Les étapes de configuration de l’activité Lecture d’audience sont les suiv
 
    >[!NOTE]
    >
-   >En outre, vous pouvez également cibler les audiences Adobe Experience Platform créées à l’aide de [compositions d’audience](../audience/get-started-audience-orchestration.md) ou [téléchargées à partir d’un fichier CSV](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=fr#import-audience){target=« _blank »}.
+   >En outre, vous pouvez également cibler les audiences Adobe Experience Platform créées à l’aide de [compositions d’audience](../audience/get-started-audience-orchestration.md) ou [téléchargées à partir d’un fichier CSV](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=fr#import-audience){target="_blank"}.
 
    Notez que vous pouvez personnaliser les colonnes affichées dans la liste et les trier.
 
@@ -112,7 +112,7 @@ Les étapes de configuration de l’activité Lecture d’audience sont les suiv
 
    >[!NOTE]
    >
-   >Seules les personnes ayant le statut de participation d’audience **Réalisé** rejoignent le parcours. Pour plus d&#39;informations sur l&#39;évaluation d&#39;une audience, consultez la [ documentation du service de segmentation ](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html?lang=fr#interpret-segment-results){target=« _blank »}.
+   >Seules les personnes ayant le statut de participation d’audience **Réalisé** rejoignent le parcours. Pour plus d’informations sur l’évaluation d’une audience, consultez la [documentation du service de segmentation](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html?lang=fr#interpret-segment-results){target="_blank"}.
 
 1. Dans le champ **[!UICONTROL Espace de noms]**, choisissez l’espace de noms à utiliser pour identifier les personnes. Par défaut, le champ est prérempli avec le dernier espace de noms utilisé. [En savoir plus sur les espace de noms](../event/about-creating.md#select-the-namespace).
 

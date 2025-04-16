@@ -2,14 +2,14 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Utiliser l’activité Rendez-vous
-description: Découvrez comment utiliser l’activité Rendez-vous dans une campagne à plusieurs étapes
+description: Découvrez comment utiliser l’activité Rendez-vous dans une campagne orchestrée
 hide: true
 hidefromtoc: true
 exl-id: 1b99313e-f131-44f7-a129-f85e1977fb05
-source-git-commit: 323472ef9d6203cbbadc44ceb17ddcc7f6207323
+source-git-commit: 3d380d2d02eb7043aebcffd00bb2092e7341b0d5
 workflow-type: tm+mt
 source-wordcount: '261'
-ht-degree: 78%
+ht-degree: 66%
 
 ---
 
@@ -18,11 +18,11 @@ ht-degree: 78%
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_and-join"
 >title="Activité Rendez-vous"
->abstract="L’activité **Rendez-vous** vous permet de synchroniser plusieurs branches d’exécution d’une campagne à étapes multiples. Elle est déclenchée une fois toutes les activités précédentes terminées. Vous pouvez ainsi vous assurer que certaines activités sont terminées avant de continuer à exécuter la campagne à étapes multiples."
+>abstract="L’activité **Rendez-vous** vous permet de synchroniser plusieurs branches d’exécution d’une campagne orchestrée. Elle est déclenchée une fois toutes les activités précédentes terminées. Vous pouvez ainsi vous assurer que certaines activités sont terminées avant de continuer à exécuter la campagne orchestrée."
 
-L’activité **Rendez-vous** est une activité de **contrôle de flux**. Elle permet de synchroniser plusieurs branches d’exécution d’une campagne à plusieurs étapes.
+L’activité **Rendez-vous** est une activité de **contrôle de flux**. Elle permet de synchroniser plusieurs branches d’exécution d’une campagne orchestrée.
 
-L’activité Rendez-vous ne déclenche sa transition sortante qu’une fois toutes les transitions entrantes activées, c’est-à-dire quand toutes les activités précédentes sont terminées. Vous pouvez ainsi vous assurer que certaines activités sont terminées avant de continuer à exécuter la campagne à plusieurs étapes.
+L’activité Rendez-vous ne déclenche sa transition sortante qu’une fois toutes les transitions entrantes activées, c’est-à-dire quand toutes les activités précédentes sont terminées. Vous pouvez ainsi vous assurer que certaines activités sont terminées avant de continuer à exécuter la campagne orchestrée.
 
 ## Configurer l’activité Rendez-vous{#and-join-configuration}
 
@@ -42,6 +42,6 @@ Pour configurer l’activité **Rendez-vous**, procédez comme suit :
 
 ## Exemple{#and-join-example}
 
-L’exemple suivant illustre deux branches de campagne à plusieurs étapes avec une diffusion e-mail et SMS. L’activité Rendez-vous se déclenche lorsque les deux transitions entrantes sont activées. Les notifications push seront alors envoyées uniquement lorsque les deux diffusions seront terminées.
+L’exemple suivant illustre deux branches de campagne orchestrées avec une diffusion e-mail et SMS. L’activité Rendez-vous se déclenche lorsque les deux transitions entrantes sont activées. Les notifications push seront alors envoyées uniquement lorsque les deux diffusions seront terminées.
 
 ![](../assets/workflow-andjoin-example.png){zoomable="yes"}

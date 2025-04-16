@@ -6,10 +6,10 @@ description: Découvrir comment utiliser l’activité Enrichissement
 hide: true
 hidefromtoc: true
 exl-id: 8a0aeae8-f4f2-4f1d-9b89-28ce573fadfd
-source-git-commit: 323472ef9d6203cbbadc44ceb17ddcc7f6207323
+source-git-commit: 3d380d2d02eb7043aebcffd00bb2092e7341b0d5
 workflow-type: tm+mt
 source-wordcount: '2049'
-ht-degree: 86%
+ht-degree: 83%
 
 ---
 
@@ -25,7 +25,7 @@ L’activité **Enrichissement** est une activité de **ciblage**. Elle permet d
 
 Les données d’enrichissement tirent leur origine des sources suivantes :
 
-* **À partir du même tableau de travail** que celui ciblé dans votre campagne à plusieurs étapes :
+* **Du même tableau de travail** que celui ciblé dans votre campagne orchestrée :
 
   *Ciblez un groupe de clientes et de clients et ajoutez le champ « Date de naissance » au tableau de travail actuel.*
 
@@ -33,9 +33,9 @@ Les données d’enrichissement tirent leur origine des sources suivantes :
 
   *Ciblez un groupe de clients et de clientes et ajoutez les champs « Montant » et « Type de produit » provenant du tableau « Achat »*.
 
-Une fois que les données d’enrichissement ont été ajoutées à la campagne à plusieurs étapes, vous pouvez les utiliser dans les activités ajoutées après l’activité **Enrichissement** pour segmenter les clients en groupes distincts en fonction de leurs comportements, préférences et besoins. Vous pouvez également vous en servir pour créer des messages et des campagnes marketing personnalisés qui résonneront davantage auprès de votre audience cible.
+Une fois que les données d’enrichissement ont été ajoutées à la campagne orchestrée, vous pouvez les utiliser dans les activités ajoutées après l’activité **Enrichissement** pour segmenter les clients en groupes distincts en fonction de leurs comportements, préférences et besoins. Vous pouvez également vous en servir pour créer des messages et des campagnes marketing personnalisés qui résonneront davantage auprès de votre audience cible.
 
-Par exemple, vous pouvez ajouter à la table de travail de la campagne à plusieurs étapes des informations relatives aux achats des clients et clientes et utiliser ces données pour personnaliser les e-mails en fonction de leur dernier achat ou du montant dépensé pour ces achats.
+Par exemple, vous pouvez ajouter à la table de travail de la campagne orchestrée des informations relatives aux achats des clients et clientes et utiliser ces données pour personnaliser les e-mails en fonction de leur dernier achat ou du montant dépensé pour ces achats.
 
 ## Ajouter une activité Enrichissement {#enrichment-configuration}
 
@@ -43,19 +43,19 @@ Pour configurer l’activité **Enrichissement**, procédez comme suit :
 
 1. Ajoutez des activités telles que **Créer une audience** et **Combiner**.
 1. Ajoutez une activité **Enrichissement**.
-1. Si plusieurs transitions ont été configurées dans votre campagne à plusieurs étapes, vous pouvez utiliser le champ **[!UICONTROL Ensemble de Principal]** pour définir la transition à utiliser comme ensemble principal pour enrichir avec des données.
+1. Si plusieurs transitions ont été configurées dans votre campagne orchestrée, vous pouvez utiliser le champ **[!UICONTROL Ensemble de Principal]** pour définir la transition à utiliser comme ensemble principal pour enrichir avec des données.
 
 ## Ajouter des données d’enrichissement {#enrichment-add}
 
 >[!CONTEXTUALHELP]
 >id="ajo_targetdata_personalization_enrichmentdata"
 >title="Données d’enrichissement"
->abstract="Sélectionnez les données à utiliser pour enrichir votre campagne à étapes multiples. Vous pouvez sélectionner deux types de données d’enrichissement : un seul attribut d’enrichissement de la dimension cible ou un lien de collection, qui est un lien avec une cardinalité 1-N entre les tableaux."
+>abstract="Sélectionnez les données à utiliser pour enrichir votre campagne orchestrée. Vous pouvez sélectionner deux types de données d’enrichissement : un seul attribut d’enrichissement de la dimension cible ou un lien de collection, qui est un lien avec une cardinalité 1-N entre les tableaux."
 
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_enrichment_data"
 >title="Activité Enrichissement"
->abstract="Une fois que les données d’enrichissement ont été ajoutées à la campagne à étapes multiples, vous pouvez les utiliser dans les activités ajoutées après l’activité Enrichissement pour segmenter les clientes et clients en groupes distincts en fonction de leurs comportements, préférences et besoins. Vous pouvez également vous en servir pour créer des messages et des campagnes marketing personnalisés qui résonneront davantage auprès de votre audience cible."
+>abstract="Une fois que les données d’enrichissement ont été ajoutées à la campagne orchestrée, vous pouvez les utiliser dans les activités ajoutées après l’activité Enrichissement pour segmenter les clients en groupes distincts en fonction de leurs comportements, préférences et besoins. Vous pouvez également vous en servir pour créer des messages et des campagnes marketing personnalisés qui résonneront davantage auprès de votre audience cible."
 
 1. Cliquez sur **Ajouter des données d’enrichissement** et sélectionnez l’attribut à utiliser pour enrichir les données.
 
@@ -121,7 +121,7 @@ Procédez comme suit pour configurer une activité **Enrichissement** avec un li
 1. Identifiez les données avec lesquelles vous souhaitez créer un lien de réconciliation.
 
    * Pour créer un lien de réconciliation avec les données de la base de données Campaign, sélectionnez **Schéma de base de données** et choisissez le schéma dans lequel la cible est stockée.
-   * Pour créer un lien de réconciliation avec les données provenant de la transition en entrée, sélectionnez **Schéma temporaire** et choisissez la transition de campagne à plusieurs étapes où seront stockées les données de la cible.
+   * Pour créer un lien de réconciliation avec les données provenant de la transition en entrée, sélectionnez **Schéma temporaire** et choisissez la transition de la campagne orchestrée où seront stockées les données de la cible.
 
 1. Les champs **Libellé** et **Nom** sont renseignés automatiquement en fonction du schéma cible sélectionné. Vous pouvez modifier leurs valeurs si nécessaire.
 
@@ -135,7 +135,7 @@ Procédez comme suit pour configurer une activité **Enrichissement** avec un li
 
    * **Jointure avancée** : utilisez le concepteur de requête pour configurer les critères de réconciliation. Pour ce faire, cliquez sur le bouton **Créer une condition**, puis définissez vos critères de réconciliation en créant votre propre règle à l’aide des opérations ET et OU.
 
-L’exemple ci-dessous illustre une campagne en plusieurs étapes configurée pour créer un lien entre la table des profils Journey Optimizer et une table temporaire générée par une activité **Chargement de fichier**. Dans cet exemple, l&#39;activité **Enrichissement** réconcilie les deux tables en utilisant l&#39;adresse e-mail comme critère de réconciliation.
+L&#39;exemple ci-dessous montre une campagne orchestrée configurée pour créer un lien entre la table des profils Journey Optimizer et une table temporaire générée par une activité **Chargement de fichier**. Dans cet exemple, l&#39;activité **Enrichissement** réconcilie les deux tables en utilisant l&#39;adresse e-mail comme critère de réconciliation.
 
 ![](../assets/enrichment-reconciliation.png)
 
@@ -170,7 +170,7 @@ Vous pouvez maintenant utiliser l’offre dans l’activité de diffusion.
 
 ### Utilisation des offres de l’activité Enrichissement
 
-Dans une campagne à plusieurs étapes, si vous souhaitez utiliser les offres que vous obtenez d’une activité d’enrichissement dans votre diffusion, procédez comme suit :
+Dans une campagne orchestrée, si vous souhaitez utiliser les offres que vous obtenez d’une activité d’enrichissement dans votre diffusion, procédez comme suit :
 
 1. Ouvrez l’activité de diffusion et lancez la modification de contenu. Cliquez sur le bouton **[!UICONTROL Paramètres des offres]** et sélectionnez dans la liste déroulante l’**[!UICONTROL Emplacement]** correspondant à votre offre.
 Si vous souhaitez afficher uniquement les offres de l’activité Enrichissement, définissez le nombre de **[!UICONTROL Propositions]** sur 0, puis enregistrez les modifications.
@@ -258,7 +258,7 @@ Nous devons maintenant appliquer un tri pour récupérer les trois **derniers** 
 
 ### Enrichissement avec des données liées {#link-example}
 
-L’exemple ci-dessous montre une campagne en plusieurs étapes configurée pour créer un lien entre deux transitions. La première transition cible les données de profil à l’aide d’une activité **Requête**, tandis que la seconde transition inclut les données d’achat stockées dans un fichier chargé via une activité Chargement de fichier.
+L’exemple ci-dessous montre une campagne orchestrée configurée pour créer un lien entre deux transitions. La première transition cible les données de profil à l’aide d’une activité **Requête**, tandis que la seconde transition inclut les données d’achat stockées dans un fichier chargé via une activité Chargement de fichier.
 
 ![](../assets/enrichment-uc-link.png)
 
@@ -266,6 +266,6 @@ L’exemple ci-dessous montre une campagne en plusieurs étapes configurée pour
 
   ![](../assets/enrichment-uc-link-purchases.png)
 
-* Une deuxième activité **Enrichissement** est ajoutée afin d&#39;enrichir les données de la table de campagne à plusieurs étapes avec les données d&#39;achat provenant de l&#39;activité **Chargement de fichier**. Cela nous permet d’utiliser ces données dans d’autres activités, par exemple pour personnaliser les messages envoyés aux clientes et clients avec des informations sur leur achat.
+* Une seconde activité **Enrichissement** est ajoutée afin d&#39;enrichir les données de la table de campagne orchestrée avec les données d&#39;achat provenant de l&#39;activité **Chargement de fichier**. Cela nous permet d’utiliser ces données dans d’autres activités, par exemple pour personnaliser les messages envoyés aux clientes et clients avec des informations sur leur achat.
 
   ![](../assets/enrichment-uc-link-data.png)
