@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: sous-domaine, délégation, domaine, DNS
 exl-id: 8021f66e-7725-475b-8722-e6f8d74c9023
-source-git-commit: 5172fbce0ff2c3330e68394234f6f28db245c7d4
+source-git-commit: ce8818e0216d4f633770fecadd4e74c2651a62f3
 workflow-type: tm+mt
-source-wordcount: '2039'
-ht-degree: 87%
+source-wordcount: '2003'
+ht-degree: 81%
 
 ---
 
@@ -31,17 +31,17 @@ ht-degree: 87%
 
 La délégation de noms de domaine est une méthode qui permet au propriétaire d’un nom de domaine (techniquement : une zone DNS) de déléguer une sous-division de celui-ci (techniquement : une zone DNS sous celui-ci, qui peut être appelée sous-zone) à une autre entité. En tant que client, si vous gérez la zone « exemple.com », vous pouvez déléguer la sous-zone « marketing.exemple.com » à Adobe. En savoir plus sur la [délégation de sous-domaine](about-subdomain-delegation.md)
 
->[!NOTE]
->
->Par défaut, [!DNL Journey Optimizer] vous permet de déléguer jusqu’à 10 sous-domaines. Cependant, en fonction de votre contrat de licence, vous pouvez déléguer jusqu’à 100 sous-domaines. Contactez votre personne référente chez Adobe pour connaître le nombre de sous-domaines auxquels vous avez droit.
+Par défaut, [!DNL Journey Optimizer] vous permet de déléguer **jusqu&#39;à 10 sous-domaines**. Cependant, en fonction de votre contrat de licence, vous pouvez déléguer jusqu’à 100 sous-domaines. Contactez votre personne référente chez Adobe pour connaître le nombre de sous-domaines auxquels vous avez droit.
 
 Vous pouvez entièrement déléguer un sous-domaine ou créer un sous-domaine à l’aide de CNAME pour pointer vers des enregistrements spécifiques à Adobe.
 
+La délégation complète de sous-domaine est la méthode recommandée. Découvrez les différences entre les deux [méthodes de configuration de sous-domaine](about-subdomain-delegation.md#subdomain-delegation-methods).
+
+La configuration de sous-domaine est **commune à tous les environnements**. Par conséquent, toute modification apportée à un sous-domaine a également un impact sur les sandbox de production.
+
 >[!CAUTION]
 >
->La délégation complète de sous-domaine est la méthode recommandée. Découvrez les différences entre les deux [méthodes de configuration de sous-domaine](about-subdomain-delegation.md#subdomain-delegation-methods).
->
->La configuration de sous-domaines est commune à tous les environnements. Par conséquent, toute modification apportée à un sous-domaine aura également un impact sur les sandbox de production.
+>L’envoi parallèle de sous-domaines n’est pas pris en charge dans [!DNL Journey Optimizer]. Si vous essayez d’envoyer un sous-domaine pour délégation alors qu’un autre a le statut **[!UICONTROL Traitement]**, un message d’erreur s’affiche.
 
 ## Déléguer entièrement un sous-domaine à Adobe {#full-subdomain-delegation}
 
@@ -87,9 +87,7 @@ Pour déléguer complètement un nouveau sous-domaine à Adobe, procédez comme 
 
 1. Cliquez sur **[!UICONTROL Envoyer]**.
 
-   >[!NOTE]
-   >
-   >Vous pouvez créer les enregistrements et soumettre ultérieurement la configuration du sous-domaine à l&#39;aide du bouton **[!UICONTROL Enregistrer en tant que brouillon]**. Vous pourrez ensuite reprendre la délégation de sous-domaine en l&#39;ouvrant à partir de la liste de sous-domaines.
+   Vous pouvez créer les enregistrements et soumettre ultérieurement la configuration du sous-domaine à l&#39;aide du bouton **[!UICONTROL Enregistrer en tant que brouillon]**. Vous pourrez ensuite reprendre la délégation de sous-domaine en l&#39;ouvrant à partir de la liste de sous-domaines.
 
 1. Le sous-domaine s’affiche dans la liste avec le statut **[!UICONTROL Traitement]**. Pour en savoir plus sur les statuts des sous-domaines, consultez [cette section](about-subdomain-delegation.md#access-delegated-subdomains).
 
@@ -103,15 +101,10 @@ Pour déléguer complètement un nouveau sous-domaine à Adobe, procédez comme 
 
 1. Une fois les vérifications effectuées, le sous-domaine obtient le statut **[!UICONTROL Succès]**. Elle est prête à être utilisée pour diffuser des messages.
 
-   >[!NOTE]
-   >
-   >Le statut du sous-domaine sera marqué comme **[!UICONTROL Échec]** si la création de lʼenregistrement de validation sur votre solution dʼhébergement nʼa pas réussi.
+   Le statut du sous-domaine sera marqué comme **[!UICONTROL Échec]** si la création de lʼenregistrement de validation sur votre solution dʼhébergement nʼa pas réussi.
 
 Une fois qu’un sous-domaine est délégué à Adobe dans [!DNL Journey Optimizer], un enregistrement PTR est automatiquement créé et associé à ce sous-domaine. [En savoir plus](ptr-records.md)
 
->[!CAUTION]
->
->L’exécution parallèle de sous-domaines n’est actuellement pas prise en charge dans [!DNL Journey Optimizer]. Si vous tentez d’envoyer un sous-domaine pour délégation alors quʼun autre se trouve à lʼétat **[!UICONTROL En cours de traitement]**, un message d’erreur sʼaffiche.
 
 ## Configurer un sous-domaine avec des CNAME {#cname-subdomain-delegation}
 
@@ -147,7 +140,7 @@ Pour configurer un sous-domaine à l’aide de CNAME, procédez comme suit :
 
    >[!CAUTION]
    >
-   >La délégation d’un sous-domaine non valide à Adobe n’est pas autorisée. Veillez à saisir un sous-domaine valide détenu par votre entreprise, tel que marketing.votre_entreprise.com.
+   >Vous ne devez pas déléguer de sous-domaine non valide à Adobe. Veillez à saisir un sous-domaine valide qui est **détenu par votre organisation**, tel que marketing.yourcompany.com.
 
    <!--Capital letters are not allowed in subdomains. TBC by PM-->
 
@@ -163,9 +156,7 @@ Pour configurer un sous-domaine à l’aide de CNAME, procédez comme suit :
 
 1. Cliquez sur **[!UICONTROL Continuer]**.
 
-   >[!NOTE]
-   >
-   >Vous pouvez créer des enregistrements ultérieurement à lʼaide du bouton **[!UICONTROL Enregistrer en tant que brouillon]**. Vous pourrez ensuite reprendre la délégation de sous-domaine à ce stade en lʼouvrant à partir de la liste de sous-domaines.
+   Vous pouvez créer des enregistrements ultérieurement à lʼaide du bouton **[!UICONTROL Enregistrer en tant que brouillon]**. Vous pourrez ensuite reprendre la délégation de sous-domaine à ce stade en lʼouvrant à partir de la liste de sous-domaines.
 
 1. Patientez jusquʼà ce quʼAdobe sʼassure que ces enregistrements ont été générés sans erreurs sur votre solution dʼhébergement. Cette opération peut prendre jusquʼà 2 minutes.
 
@@ -185,23 +176,16 @@ Pour configurer un sous-domaine à l’aide de CNAME, procédez comme suit :
 
 1. Une fois les vérifications effectuées<!--i.e Adobe validates the record you created and installs it-->, le sous-domaine obtient le statut **[!UICONTROL Succès]**. Elle est prête à être utilisée pour diffuser des messages.
 
-   >[!NOTE]
-   >
-   >Le statut du sous-domaine sera marqué comme **[!UICONTROL Échec]** si la création de lʼenregistrement de validation sur votre solution dʼhébergement nʼa pas réussi.
+   Le statut du sous-domaine sera marqué comme **[!UICONTROL Échec]** si la création de lʼenregistrement de validation sur votre solution dʼhébergement nʼa pas réussi.
 
 Dès la validation de lʼenregistrement et lʼinstallation du certificat terminées, Adobe crée automatiquement lʼenregistrement PTR pour le sous-domaine CNAME. [En savoir plus](ptr-records.md)
 
->[!CAUTION]
->
->L’exécution parallèle de sous-domaines n’est actuellement pas prise en charge dans [!DNL Journey Optimizer]. Si vous tentez d’envoyer un sous-domaine pour délégation alors qu’un autre se trouve à lʼétat **[!UICONTROL En cours de traitement]**, un message d’erreur sʼaffiche.
 
 ## Validation de sous-domaine {#subdomain-validation}
 
-Les vérifications et actions ci-dessous seront effectuées jusqu&#39;à ce que le sous-domaine soit vérifié et puisse être utilisé pour envoyer des messages.
+Les vérifications et actions ci-dessous sont exécutées jusqu’à ce que le sous-domaine soit vérifié et puisse être utilisé pour envoyer des messages.
 
->[!NOTE]
->
->Ces étapes sont effectuées par Adobe et peuvent prendre jusqu&#39;à 3 heures.
+Ces étapes sont effectuées par Adobe et peuvent prendre jusqu’**3 heures**.
 
 1. **Pré-validation** : Adobe vérifie si le sous-domaine a été délégué au DNS Adobe (enregistrement NS, enregistrement SOA, configuration de zone, enregistrement propriétaire). Si l’étape de pré-validation échoue, une erreur est renvoyée avec la raison correspondante, sinon Adobe passe à l’étape suivante.
 
@@ -241,9 +225,7 @@ Tout d’abord, effectuez les étapes suivantes dans [!DNL Journey Optimizer] :
 
 1. Annulez la délégation de tous les sous-domaines de page de destination, sous-domaines SMS et sous-domaines web associés à ce sous-domaine.
 
-   >[!NOTE]
-   >
-   >Vous devez envoyer une requête dédiée pour chaque [page de destination](../landing-pages/lp-subdomains.md#undelegate-subdomain), [SMS](../sms/sms-subdomains.md#undelegate-subdomain) ou [sous-domaine web](../web/web-delegated-subdomains.md#undelegate-subdomain).
+   Vous devez envoyer une requête dédiée pour chaque [page de destination](../landing-pages/lp-subdomains.md#undelegate-subdomain), [SMS](../sms/sms-subdomains.md#undelegate-subdomain) ou [sous-domaine web](../web/web-delegated-subdomains.md#undelegate-subdomain).
 
 1. Arrêtez les campagnes actives associées aux sous-domaines. [Voici comment procéder](../campaigns/modify-stop-campaign.md#stop)
 
@@ -251,9 +233,7 @@ Tout d’abord, effectuez les étapes suivantes dans [!DNL Journey Optimizer] :
 
 1. Pointez les [enregistrements PTR](ptr-records.md#edit-ptr-record) liés au sous-domaine vers un autre sous-domaine.
 
-   >[!NOTE]
-   >
-   >S’il s’agit du seul sous-domaine délégué, vous pouvez ignorer cette étape.
+   S’il s’agit du seul sous-domaine délégué, vous pouvez ignorer cette étape.
 
 Une fois cette opération terminée, contactez votre représentant Adobe avec le sous-domaine dont vous souhaitez annuler la délégation.
 

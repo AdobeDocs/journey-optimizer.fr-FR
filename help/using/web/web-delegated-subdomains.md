@@ -8,10 +8,10 @@ feature: Web Channel, Subdomains
 level: Experienced
 keywords: web, sous-domaines, configuration
 exl-id: 6e00466d-4ce5-4d80-89ff-c7331a5ab158
-source-git-commit: 5172fbce0ff2c3330e68394234f6f28db245c7d4
+source-git-commit: ce8818e0216d4f633770fecadd4e74c2651a62f3
 workflow-type: tm+mt
-source-wordcount: '1076'
-ht-degree: 82%
+source-wordcount: '1075'
+ht-degree: 75%
 
 ---
 
@@ -36,13 +36,11 @@ Lors de la création d’expériences web, si vous ajoutez du contenu provenant 
 
 Vous pouvez utiliser un sous-domaine déjà délégué à Adobe ou en configurer un autre. En savoir plus sur la délégation de sous-domaines à Adobe dans [cette section](../configuration/delegate-subdomain.md).
 
->[!CAUTION]
->
->La configuration de sous-domaines web est identique dans tous les environnements. Par conséquent :
->
->* Pour accéder aux sous-domaines web et les modifier, vous devez disposer de l’autorisation **[!UICONTROL Gérer les sous-domaines]** dans la sandbox de production.
->
-> * Toute modification apportée à un sous-domaine web aura également un impact sur les sandbox de production.
+La configuration de sous-domaines web est **commune à tous les environnements**. Par conséquent :
+
+* Pour accéder aux sous-domaines web et les modifier, vous devez disposer de l’autorisation **[!UICONTROL Gérer les sous-domaines]** dans la sandbox de production.
+
+* Toute modification apportée à un sous-domaine web aura également un impact sur les sandbox de production.
 
 Vous pouvez créer plusieurs sous-domaines web, mais seul le sous-domaine **par défaut** sera utilisé. Vous pouvez modifier le sous-domaine web par défaut, mais un seul sous-domaine peut être utilisé à la fois.
 
@@ -60,9 +58,7 @@ Vous pouvez créer plusieurs sous-domaines web, mais seul le sous-domaine **par 
 
    ![](assets/web-subdomain-default.png)
 
-   >[!NOTE]
-   >
-   >Vous pouvez modifier le sous-domaine web par défaut, mais un seul sous-domaine peut être utilisé à la fois.
+   Vous pouvez modifier le sous-domaine web par défaut, mais un seul sous-domaine peut être utilisé à la fois.
 
 ## Utiliser un sous-domaine existant {#web-use-existing-subdomain}
 
@@ -86,15 +82,11 @@ Pour utiliser un sous-domaine déjà délégué à Adobe, procédez comme suit.
 
    ![](assets/web-subdomain-details-default.png)
 
-   >[!NOTE]
-   >
-   >Seul le sous-domaine **par défaut** sera utilisé.
+   Seul le sous-domaine **par défaut** sera utilisé.
 
 1. Cliquez sur **[!UICONTROL Envoyer]**. Le sous-domaine obtient le statut **[!UICONTROL Succès]**. Il est prêt à être utilisé avec vos expériences web.
 
-   >[!NOTE]
-   >
-   >Dans de très rares occasions, une configuration de sous-domaine peut échouer. Dans ce cas, vous pouvez supprimer le sous-domaine en **[!UICONTROL échec]** pour nettoyer la liste à l’aide du bouton **[!UICONTROL Supprimer]** à partir de l’icône **[!UICONTROL Plus d’actions]**.
+   Dans de très rares occasions, une configuration de sous-domaine peut échouer. Dans ce cas, vous pouvez supprimer le sous-domaine en **[!UICONTROL échec]** pour nettoyer la liste à l’aide du bouton **[!UICONTROL Supprimer]** à partir de l’icône **[!UICONTROL Plus d’actions]**.
 
 ## Configurer un nouveau sous-domaine {#web-configure-new-subdomain}
 
@@ -103,11 +95,10 @@ Pour utiliser un sous-domaine déjà délégué à Adobe, procédez comme suit.
 >title="Générer l’enregistrement DNS correspondant"
 >abstract="Pour configurer un nouveau sous-domaine web, vous devez copier les informations du serveur de noms Adobe affichées dans l’interface de Journey Optimizer et les coller dans votre solution d’hébergement de domaine pour générer l’enregistrement DNS correspondant. Une fois les vérifications effectuées, le sous-domaine est prêt à être utilisé pour publier du contenu provenant de la bibliothèque Adobe Experience Manager Assets."
 
-Pour configurer un nouveau sous-domaine, procédez comme suit.
 
->[!NOTE]
->
->Par défaut, [!DNL Journey Optimizer] vous permet de déléguer jusqu’à 10 sous-domaines au total (incluant les canaux e-mail et web). Cependant, en fonction de votre contrat de licence, vous pouvez déléguer jusqu’à 100 sous-domaines. Contactez votre personne référente chez Adobe pour connaître le nombre de sous-domaines auxquels vous avez droit.
+Par défaut, [!DNL Journey Optimizer] vous permet de déléguer **jusqu&#39;à 10 sous-domaines** au total (couvrant à la fois les canaux e-mail et web). Cependant, en fonction de votre contrat de licence, vous pouvez déléguer jusqu’à 100 sous-domaines. Contactez votre personne référente chez Adobe pour connaître le nombre de sous-domaines auxquels vous avez droit.
+
+Pour configurer un nouveau sous-domaine, procédez comme suit :
 
 1. Accédez au menu **[!UICONTROL Administration]** > **[!UICONTROL Canaux]**, puis sélectionnez **[!UICONTROL Paramètres web]** > **[!UICONTROL Sous-domaines web]**.
 
@@ -119,17 +110,15 @@ Pour configurer un nouveau sous-domaine, procédez comme suit.
 
    >[!CAUTION]
    >
-   >Vous ne pouvez pas utiliser un sous-domaine web existant.
+   >* Vous ne pouvez pas utiliser un sous-domaine web existant.
    >
-   >Les majuscules ne sont pas autorisées dans les sous-domaines.
+   >* Les majuscules ne sont pas autorisées dans les sous-domaines.
 
    ![](assets/web-add-your-own-domain.png)
 
    La délégation d’un sous-domaine non valide à Adobe n’est pas autorisée. Veillez à saisir un sous-domaine valide détenu par votre entreprise, tel que marketing.votre_entreprise.com.
 
-   >[!NOTE]
-   >
-   >Les sous-domaines à plusieurs niveaux (du même domaine parent) sont pris en charge. Par exemple, vous pouvez utiliser « web.marketing.yourcompany.com ».
+   Les sous-domaines à plusieurs niveaux (du même domaine parent) sont pris en charge. Par exemple, vous pouvez utiliser « web.marketing.yourcompany.com ».
 
 1. Pour définir ce sous-domaine par défaut, sélectionnez l’option correspondante.
 
@@ -143,15 +132,11 @@ Pour configurer un nouveau sous-domaine, procédez comme suit.
 
    ![](assets/web-add-your-own-domain-confirm.png)
 
-   >[!NOTE]
-   >
-   >Lorsque vous configurez un nouveau sous-domaine web, il pointe toujours vers un enregistrement CNAME.
+   Lorsque vous configurez un nouveau sous-domaine web, il pointe toujours vers un enregistrement CNAME.
 
 1. Une fois la délégation de sous-domaine envoyée, le sous-domaine s&#39;affiche dans la liste avec le statut **[!UICONTROL Traitement]**. Pour en savoir plus sur les statuts des sous-domaines, consultez [cette section](../configuration/about-subdomain-delegation.md#access-delegated-subdomains).<!--Same statuses?-->
 
-   >[!NOTE]
-   >
-   >Avant de pouvoir utiliser ce sous-domaine pour envoyer des messages web, vous devez attendre qu’Adobe effectue les vérifications nécessaires, ce qui peut prendre jusqu’à 4 heures.
+   Avant de pouvoir utiliser ce sous-domaine pour envoyer des messages web, vous devez attendre qu’Adobe effectue les vérifications nécessaires, ce qui peut prendre jusqu’**4 heures**.
 
 1. Une fois les vérifications effectuées, le sous-domaine obtient le statut **[!UICONTROL Succès]**. Vous pouvez à présent l’utiliser pour créer des configurations de canal web.
 
@@ -194,4 +179,5 @@ Une fois que votre demande est gérée par Adobe, le domaine non délégué ne s
 >Après la suppression de la délégation d’un sous-domaine :
 >
 >   * Vous ne pouvez pas réactiver les configurations de canal qui utilisaient ce sous-domaine.
+>
 >   * Vous ne pouvez pas déléguer à nouveau le sous-domaine exact via l’interface utilisateur. Si vous souhaitez le faire, contactez votre représentant ou représentante Adobe.

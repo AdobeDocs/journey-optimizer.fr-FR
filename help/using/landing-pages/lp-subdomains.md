@@ -8,10 +8,10 @@ role: Admin
 level: Experienced
 keywords: destination, page de destination, sous-domaines, configuration
 exl-id: dd1af8dc-3920-46cb-ae4d-a8f4d4c26e89
-source-git-commit: 5172fbce0ff2c3330e68394234f6f28db245c7d4
+source-git-commit: ce8818e0216d4f633770fecadd4e74c2651a62f3
 workflow-type: tm+mt
-source-wordcount: '968'
-ht-degree: 83%
+source-wordcount: '966'
+ht-degree: 72%
 
 ---
 
@@ -38,17 +38,15 @@ Avant de pouvoir [créer des préréglages de page de destination](lp-presets.md
 
 Vous pouvez utiliser un sous-domaine déjà délégué à Adobe ou en configurer un autre. En savoir plus sur la délégation de sous-domaines à Adobe dans [cette section](../configuration/delegate-subdomain.md).
 
->[!CAUTION]
->
->La configuration des sous-domaines de la page de destination est commune à tous les environnements. Par conséquent :
->
->* Pour accéder aux sous-domaines de la page de destination et les modifier, vous devez disposer de l’autorisation **[!UICONTROL Gérer les sous-domaines de la page de destination]** dans le sandbox de production.
->
-> * Toute modification apportée à un sous-domaine de page de destination aura également un impact sur les sandbox de production.
+La configuration de sous-domaine de page de destination est **commune à tous les environnements**. Par conséquent :
+
+* Pour accéder aux sous-domaines de la page de destination et les modifier, vous devez disposer de l’autorisation **[!UICONTROL Gérer les sous-domaines de la page de destination]** dans le sandbox de production.
+
+* Toute modification apportée à un sous-domaine de page de destination a également un impact sur les sandbox de production.
 
 ## Utiliser un sous-domaine existant {#lp-use-existing-subdomain}
 
-Pour utiliser un sous-domaine déjà délégué à Adobe, procédez comme suit.
+Pour utiliser un sous-domaine déjà délégué à Adobe, procédez comme suit :
 
 1. Accédez au menu **[!UICONTROL Administration]** > **[!UICONTROL Canaux]**, puis sélectionnez **[!UICONTROL Paramètres de la page de destination]** > **[!UICONTROL Sous-domaines de page de destination]**.
 
@@ -62,15 +60,11 @@ Pour utiliser un sous-domaine déjà délégué à Adobe, procédez comme suit.
 
 1. Saisissez le préfixe qui sʼaffichera dans lʼURL de votre page de destination.
 
-   >[!NOTE]
-   >
-   >Seuls les caractères alphanumériques et les tirets sont autorisés.
+   Seuls les caractères alphanumériques et les tirets sont autorisés.
 
 1. Sélectionnez un sous-domaine délégué dans la liste.
 
-   >[!NOTE]
-   >
-   >Vous ne pouvez pas sélectionner un sous-domaine déjà utilisé comme sous-domaine de page de destination.
+   Vous ne pouvez pas sélectionner un sous-domaine déjà utilisé comme sous-domaine de page de destination.
 
    <!--Capital letters are not allowed in subdomains. TBC by PM-->
 
@@ -88,9 +82,7 @@ Pour utiliser un sous-domaine déjà délégué à Adobe, procédez comme suit.
 
    ![](assets/lp_subdomain-processing.png)
 
-   >[!NOTE]
-   >
-   >Avant de pouvoir utiliser ce sous-domaine pour envoyer des messages, vous devez attendre qu’Adobe effectue les vérifications nécessaires, ce qui peut prendre jusqu’à 4 heures.<!--Learn more in [this section](delegate-subdomain.md#subdomain-validation).-->
+   Avant de pouvoir utiliser ce sous-domaine pour envoyer des messages, vous devez attendre qu’Adobe effectue les vérifications nécessaires, ce qui peut prendre **jusqu’à 4 heures**.<!--Learn more in [this section](delegate-subdomain.md#subdomain-validation).-->
 
 1. Une fois les vérifications effectuées, le sous-domaine obtient le statut **[!UICONTROL Succès]**. Il est prêt à être utilisé pour créer des préréglages de page de destination.
 
@@ -115,15 +107,13 @@ Pour configurer un nouveau sous-domaine, procédez comme suit.
 
    >[!CAUTION]
    >
-   >Vous ne pouvez pas utiliser un sous-domaine de page de destination existant.
+   >* Vous ne pouvez pas utiliser un sous-domaine de page de destination existant.
    >
-   >Les majuscules ne sont pas autorisées dans les sous-domaines.
+   >* Les majuscules ne sont pas autorisées dans les sous-domaines.
 
    La délégation d’un sous-domaine non valide à Adobe n’est pas autorisée. Veillez à saisir un sous-domaine valide détenu par votre entreprise, tel que marketing.votre_entreprise.com.
 
-   >[!NOTE]
-   >
-   >Pour les pages de destination, les sous-domaines à plusieurs niveaux sont pris en charge. Par exemple, vous pouvez utiliser « email.marketing.yourcompany.com ».
+   Pour les pages de destination, les sous-domaines à plusieurs niveaux sont pris en charge. Par exemple, vous pouvez utiliser « email.marketing.yourcompany.com ».
 
 1. L’enregistrement à placer dans les serveurs DNS s’affiche. Copiez cet enregistrement ou téléchargez un fichier CSV, puis accédez à votre solution d’hébergement de domaine pour générer l’enregistrement DNS correspondant.
 
@@ -131,15 +121,11 @@ Pour configurer un nouveau sous-domaine, procédez comme suit.
 
    ![](assets/lp_add-your-own-subdomain-confirm.png)
 
-   >[!NOTE]
-   >
-   >Lorsque vous configurez un nouveau sous-domaine de page de destination, il pointe toujours vers un enregistrement CNAME.
+   Lorsque vous configurez un nouveau sous-domaine de page de destination, il pointe toujours vers un enregistrement CNAME.
 
 1. Une fois la délégation de sous-domaine envoyée, le sous-domaine s&#39;affiche dans la liste avec le statut **[!UICONTROL Traitement]**. Pour en savoir plus sur les statuts des sous-domaines, consultez [cette section](../configuration/about-subdomain-delegation.md#access-delegated-subdomains).<!--Same statuses?-->
 
-   >[!NOTE]
-   >
-   >Avant de pouvoir utiliser ce sous-domaine pour vos pages de destination, vous devez attendre qu’Adobe effectue les vérifications nécessaires, ce qui peut prendre jusqu’à 4 heures.<!--Learn more in [this section](#subdomain-validation).-->
+   Avant de pouvoir utiliser ce sous-domaine pour vos pages de destination, vous devez attendre qu’Adobe effectue les vérifications nécessaires, ce qui peut prendre **jusqu’à 4 heures**.<!--Learn more in [this section](#subdomain-validation).-->
 
 1. Une fois les vérifications effectuées, le sous-domaine obtient le statut **[!UICONTROL Succès]**. Il est prêt à être utilisé pour créer des préréglages de page de destination.
 
@@ -178,4 +164,5 @@ Une fois que votre demande est gérée par Adobe, le domaine non délégué ne s
 >Après la suppression de la délégation d’un sous-domaine :
 >
 >   * Vous ne pouvez pas réactiver les configurations de canal qui utilisaient ce sous-domaine.
+>
 >   * Vous ne pouvez pas déléguer à nouveau le sous-domaine exact via l’interface utilisateur. Si vous souhaitez le faire, contactez votre représentant ou représentante Adobe.
