@@ -2,14 +2,14 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Utiliser l’activité Partage
-description: Découvrez comment utiliser l’activité Partage dans une campagne à plusieurs étapes
+description: Découvrez comment utiliser l’activité Partage dans une campagne orchestrée
 hide: true
 hidefromtoc: true
 exl-id: 986bc566-123a-451d-a4a6-bbf5a2798849
-source-git-commit: 323472ef9d6203cbbadc44ceb17ddcc7f6207323
+source-git-commit: 3d380d2d02eb7043aebcffd00bb2092e7341b0d5
 workflow-type: tm+mt
 source-wordcount: '998'
-ht-degree: 89%
+ht-degree: 87%
 
 ---
 
@@ -27,7 +27,7 @@ L’activité **Partage** est une activité de **ciblage** vous permettant de se
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_split_segments"
 >title="Segments de l’activité de partage"
->abstract="Ajoutez autant de sous-ensembles que vous le souhaitez pour segmenter la population entrante.<br/></br>Lorsque l’activité **Partage** est exécutée, la population est segmentée entre les différents sous-ensembles dans l’ordre dans lequel ils sont ajoutés à l’activité. Avant de démarrer votre campagne à étapes multiples, assurez-vous d’avoir trié les sous-ensembles dans l’ordre qui vous convient à l’aide des boutons fléchés."
+>abstract="Ajoutez autant de sous-ensembles que vous le souhaitez pour segmenter la population entrante.<br/></br>Lorsque l’activité **Partage** est exécutée, la population est segmentée entre les différents sous-ensembles dans l’ordre dans lequel ils sont ajoutés à l’activité. Avant de commencer votre campagne orchestrée, assurez-vous d’avoir ordonné les sous-ensembles dans l’ordre adapté à vos besoins à l’aide des boutons fléchés."
 
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_split_filter"
@@ -66,7 +66,7 @@ L’activité **Partage** est une activité de **ciblage** vous permettant de se
 
 Pour configurer l’activité **Partage**, procédez comme suit :
 
-1. Ajoutez une activité **Partage** à votre campagne à plusieurs étapes.
+1. Ajoutez une activité **Partage** à votre campagne orchestrée.
 
 1. Le volet de configuration des activités s’ouvre avec un sous-ensemble par défaut. Cliquez sur le bouton **Ajouter un segment** pour ajouter autant de sous-ensembles que vous le souhaitez pour segmenter la population entrante.
 
@@ -76,9 +76,9 @@ Pour configurer l’activité **Partage**, procédez comme suit :
    >
    >Lorsque l’activité **Partage** est exécutée, la population est segmentée entre les différents sous-ensembles dans l’ordre dans lequel ils sont ajoutés à l’activité. Par exemple, si le premier sous-ensemble récupère 70 % de la population initiale, le sous-ensemble ajouté suivant n’appliquera ses critères de sélection qu’aux 30 % restants, etc.
    >
-   >Avant de commencer votre campagne à plusieurs étapes, assurez-vous d’avoir ordonné les sous-ensembles dans l’ordre adapté à vos besoins. Pour ce faire, utilisez les boutons fléchés pour changer la position d’un sous-ensemble.
+   >Avant de commencer votre campagne orchestrée, assurez-vous d’avoir ordonné les sous-ensembles dans l’ordre adapté à vos besoins. Pour ce faire, utilisez les boutons fléchés pour changer la position d’un sous-ensemble.
 
-1. Une fois les sous-ensembles ajoutés, l’activité propose autant de transitions en sortie que de sous-ensembles : Nous vous recommandons vivement de modifier le libellé de chaque sous-ensemble pour les identifier facilement dans la zone de travail de campagne à plusieurs étapes.
+1. Une fois les sous-ensembles ajoutés, l’activité propose autant de transitions en sortie que de sous-ensembles : Nous vous recommandons vivement de modifier le libellé de chaque sous-ensemble pour les identifier facilement dans la zone de travail de campagne orchestrée.
 
 1. Configurez la manière dont chaque sous-ensemble doit filtrer la population entrante. Pour ce faire, procédez comme suit :
 
@@ -88,7 +88,7 @@ Pour configurer l’activité **Partage**, procédez comme suit :
 
    1. Pour limiter le nombre de profils sélectionnés par le sous-ensemble, activez la fonction **[!UICONTROL Activer la limite]** et indiquez le nombre ou les pourcentages de la population à inclure.
 
-   1. Pour désactiver une transition si la population entrante est vide, activez l’option **[!UICONTROL Ignorer la transition vide]**. Si aucun profil ne correspond au sous-ensemble, la campagne à plusieurs étapes ne passera pas à l’activité suivante.
+   1. Pour désactiver une transition si la population entrante est vide, activez l’option **[!UICONTROL Ignorer la transition vide]**. Si aucun profil ne correspond au sous-ensemble, la campagne orchestrée ne passera pas à l’activité suivante.
 
       ![](../assets/workflow-split-subset.png)
 
@@ -105,7 +105,7 @@ Pour configurer l’activité **Partage**, procédez comme suit :
    * Lorsque la case est décochée, l&#39;activité de partage assure qu&#39;un destinataire ne sera pas présent dans plusieurs transitions en sortie, même s&#39;il vérifie les critères de plusieurs sous-ensembles. Il sera dans la cible du premier onglet dont les critères sont vérifiés.
    * Lorsque la case est activée, les destinataires se trouvent dans plusieurs sous-ensembles s’ils ou elles répondent à leurs critères de filtre. Une bonne pratique consiste à utiliser des critères exclusifs.
 
-L’activité est désormais configurée. Lors de l&#39;exécution de la campagne en plusieurs étapes, la population est segmentée en différents sous-ensembles, dans l&#39;ordre dans lequel ils ont été ajoutés à l&#39;activité.
+L’activité est désormais configurée. Lors de l&#39;exécution de la campagne orchestrée, la population sera segmentée en différents sous-ensembles, dans l&#39;ordre dans lequel ils ont été ajoutés à l&#39;activité.
 
 ## Exemple{#split-example}
 
