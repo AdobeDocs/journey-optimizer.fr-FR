@@ -8,10 +8,10 @@ feature: SMS, Channel Configuration
 level: Intermediate
 keywords: SMS, sous-domaines, configuration
 exl-id: 08a546d1-060c-43e8-9eac-4c38945cc3e1
-source-git-commit: ce8818e0216d4f633770fecadd4e74c2651a62f3
+source-git-commit: 19f127c2abc81239abda8ebd38bdcacee796a1b0
 workflow-type: tm+mt
-source-wordcount: '924'
-ht-degree: 74%
+source-wordcount: '928'
+ht-degree: 69%
 
 ---
 
@@ -34,6 +34,8 @@ ht-degree: 74%
 >abstract="Avant de créer une configuration des SMS, vous devez déjà avoir configuré au moins un sous-domaine SMS, que vous pouvez sélectionner dans la liste des noms de sous-domaines."
 >additional-url="https://experienceleague.adobe.com/fr/docs/journey-optimizer/using/channels/sms/configure-sms/sms-configuration-surface" text="Créer une configuration des SMS"
 
+## Prise en main des sous-domaines SMS {#gs-sms-mms-subdomains}
+
 Pour pouvoir raccourcir les URL ajoutées à vos SMS/MMS, vous devez configurer le sous-domaine qui sera utilisé lors de la [création d&#39;une configuration SMS](sms-configuration.md#message-preset-sms).
 
 Vous pouvez utiliser un sous-domaine déjà délégué à Adobe ou en configurer un autre. En savoir plus sur la délégation de sous-domaines à Adobe dans [cette section](../configuration/delegate-subdomain.md).
@@ -41,7 +43,6 @@ Vous pouvez utiliser un sous-domaine déjà délégué à Adobe ou en configurer
 La configuration du sous-domaine SMS est **partagée entre tous les environnements**. Par conséquent, toute modification apportée à un sous-domaine aura également un impact sur les sandbox de production.
 
 Pour accéder aux sous-domaines SMS et les modifier, vous devez disposer de l’autorisation **[!UICONTROL Gestion des sous-domaines SMS]** dans le sandbox de production. Pour en savoir plus sur les autorisations, consultez [cette section](../administration/high-low-permissions.md).
-
 
 ## Utiliser un sous-domaine existant {#sms-use-existing-subdomain}
 
@@ -79,9 +80,7 @@ Pour utiliser un sous-domaine déjà délégué à Adobe, procédez comme suit.
 
 1. Une fois envoyé, le sous-domaine s’affiche dans la liste avec le statut du **[!UICONTROL Traitement]**. Pour en savoir plus sur les statuts des sous-domaines, consultez [cette section](../configuration/about-subdomain-delegation.md#access-delegated-subdomains).<!--Same statuses?-->
 
-   >[!NOTE]
-   >
-   >Avant de pouvoir utiliser ce sous-domaine pour envoyer des messages, vous devez attendre qu’Adobe effectue les vérifications nécessaires, ce qui peut prendre jusqu’à 4 heures.<!--Learn more in [this section](delegate-subdomain.md#subdomain-validation).-->
+   Avant de pouvoir utiliser ce sous-domaine pour envoyer des messages, vous devez attendre qu’Adobe effectue les vérifications nécessaires, ce qui peut prendre **jusqu’à 4 heures**.<!--Learn more in [this section](delegate-subdomain.md#subdomain-validation).-->
 
 1. Une fois les vérifications effectuées, le sous-domaine obtient le statut **[!UICONTROL Succès]**. Vous pouvez à présent l’utiliser pour créer des configurations de canal SMS.
 
