@@ -2,11 +2,11 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Utiliser l’activité Branchement
-description: Découvrez comment utiliser l’activité Branchement dans une campagne à plusieurs étapes
+description: Découvrez comment utiliser l’activité Branchement dans une campagne orchestrée
 hide: true
 hidefromtoc: true
 exl-id: 52e8057b-dac1-45f5-9dd0-1b28a59adde9
-source-git-commit: 323472ef9d6203cbbadc44ceb17ddcc7f6207323
+source-git-commit: 3d380d2d02eb7043aebcffd00bb2092e7341b0d5
 workflow-type: tm+mt
 source-wordcount: '167'
 ht-degree: 88%
@@ -34,7 +34,7 @@ Pour configurer l’activité **Branchement**, procédez comme suit :
 
 ![](../assets/workflow-fork.png)
 
-1. Ajoutez une activité **Branchement** à votre campagne à plusieurs étapes.
+1. Ajoutez une activité **Branchement** à votre campagne orchestrée.
 1. Cliquez sur **Ajouter une transition** pour ajouter une nouvelle transition sortante. Par défaut, deux transitions sont définies.
 1. Ajoutez un libellé à chacune de vos transitions.
 

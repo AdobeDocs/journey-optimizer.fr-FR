@@ -6,7 +6,7 @@ description: Découvrez comment ajouter une activité de canal dans une campagne
 hide: true
 hidefromtoc: true
 exl-id: ffe1e77c-6c4f-4f23-9183-d715a4c7c402
-source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
+source-git-commit: 3d380d2d02eb7043aebcffd00bb2092e7341b0d5
 workflow-type: tm+mt
 source-wordcount: '899'
 ht-degree: 70%
@@ -15,7 +15,7 @@ ht-degree: 70%
 
 # Activités de canal {#channel}
 
-Adobe Journey Optimizer vous permet d’automatiser et d’exécuter des campagnes marketing sur les canaux entrants et sortants. Vous pouvez combiner des activités de canal dans la zone de travail de campagne à plusieurs étapes afin de créer des campagnes cross-canal à plusieurs étapes qui peuvent déclencher des actions en fonction du comportement du client et des données. Les canaux pris en charge sont répertoriés sur [cette page](../../channels/gs-channels.md).
+Adobe Journey Optimizer vous permet d’automatiser et d’exécuter des campagnes marketing sur les canaux entrants et sortants. Vous pouvez combiner des activités de canal dans la zone de travail de campagne orchestrée afin de créer des campagnes orchestrées cross-canal pouvant déclencher des actions en fonction du comportement du client et des données. Les canaux pris en charge sont répertoriés sur [cette page](../../channels/gs-channels.md).
 
 Vous pouvez par exemple créer une campagne de bienvenue par e-mail qui inclut une série de messages sur différents canaux, tels que les canaux e-mails, SMS, notifications push et courrier. Vous pouvez également envoyer un e-mail de relance une fois qu’un client ou une cliente a effectué un achat, ou envoyer un message d’anniversaire personnalisé par SMS.
 
@@ -23,11 +23,11 @@ Grâce aux activités de canal, vous pouvez créer des campagnes personnalisées
 
 ## Conditions préalables {#channel-activity-prereq}
 
-Commencez à créer votre campagne à plusieurs étapes avec les activités pertinentes :
+Commencez à créer votre campagne orchestrée avec les activités pertinentes :
 
 * Avant d’insérer une activité de canal, vous devez définir l’audience. L’audience est la cible principale de votre diffusion : les profils qui reçoivent les messages.
 
-* Pour envoyer une diffusion récurrente, lancez votre campagne à plusieurs étapes avec une activité **Planificateur**. Vous pouvez également utiliser une activité **Planificateur** pour les diffusions ponctuelles afin de définir la date de contact de celles-ci. Cette date de contact peut également être définie dans les paramètres de la diffusion. Consultez [cette section](scheduler.md).
+* Pour envoyer une diffusion récurrente, lancez votre campagne orchestrée avec une activité **Planificateur**. Vous pouvez également utiliser une activité **Planificateur** pour les diffusions ponctuelles afin de définir la date de contact de celles-ci. Cette date de contact peut également être définie dans les paramètres de la diffusion. Consultez [cette section](scheduler.md).
 
 ## Configurer une activité de canal {#create-a-delivery-in-a-workflow}
 
@@ -56,14 +56,14 @@ Commencez à créer votre campagne à plusieurs étapes avec les activités pert
 >title="Activité Courrier"
 >abstract="L’activité Courrier facilite l’envoi de courrier depuis votre campagne à plusieurs étapes pour les messages ponctuels et récurrents. Elle permet d’automatiser le processus de génération du fichier d’extraction requis par les fournisseurs de services postaux. Vous pouvez combiner des activités de canal dans la zone de travail de campagne à plusieurs étapes, afin de créer des campagnes cross-canal pouvant déclencher des actions en fonction du comportement de la clientèle et des données."
 
-Pour configurer une diffusion dans le cadre d&#39;une campagne à plusieurs étapes, procédez comme suit :
+Pour configurer une diffusion dans le cadre d&#39;une campagne orchestrée, procédez comme suit :
 
 1. Ajoutez une activité de canal : **[!UICONTROL E-mail]**, **[!UICONTROL SMS]**, **[!UICONTROL Notification push (Android)]**, **[!UICONTROL Notification push (iOS)]** ou **[!UICONTROL Courrier]**.
 
 1. Sélectionnez le **Type de diffusion** : unique ou récurrent.
 
    * **Diffusion unique** : il s’agit d’une diffusion ponctuelle, envoyée une seule fois, par exemple un e-mail pour le Black Friday.
-   * **Diffusion récurrente** : cette diffusion est envoyée plusieurs fois en fonction de sa fréquence d’exécution définie dans une [activité Planificateur](scheduler.md). Chaque fois que la campagne à plusieurs étapes s’exécute, l’audience est recalculée et la diffusion est envoyée à l’audience mise à jour, avec le contenu mis à jour. Il peut s’agir d’une newsletter hebdomadaire ou d’un e-mail d’anniversaire récurrent.
+   * **Diffusion récurrente** : cette diffusion est envoyée plusieurs fois en fonction de sa fréquence d’exécution définie dans une [activité Planificateur](scheduler.md). Chaque fois que la campagne orchestrée s’exécute, l’audience est recalculée et la diffusion est envoyée à l’audience mise à jour, avec le contenu mis à jour. Il peut s’agir d’une newsletter hebdomadaire ou d’un e-mail d’anniversaire récurrent.
 
 1. Choisissez un **modèle** de diffusion. Les modèles sont des paramètres de diffusion préconfigurés, spécifiques à un canal. Un modèle intégré est disponible pour chaque canal et prérempli par défaut.
 
@@ -75,9 +75,9 @@ Pour configurer une diffusion dans le cadre d&#39;une campagne à plusieurs éta
 
 1. Revenez à votre workflow. Pour continuer votre workflow, activez l’option **Générer une transition sortante** pour ajouter une transition après l’activité de canal.
 
-1. Cliquez sur **Démarrer** pour lancer votre campagne à plusieurs étapes.
+1. Cliquez sur **Démarrer** pour lancer votre campagne orchestrée.
 
-   Par défaut, le démarrage d’une campagne à plusieurs étapes déclenche l’étape de préparation du message, sans envoyer immédiatement le message.
+   Par défaut, le démarrage d’une campagne orchestrée déclenche l’étape de préparation du message, sans envoyer immédiatement le message.
 
 1. Ouvrez votre activité de canal pour confirmer l’envoi avec le bouton **Vérifier et envoyer**.
 
@@ -85,7 +85,7 @@ Pour configurer une diffusion dans le cadre d&#39;une campagne à plusieurs éta
 
 ## Exemples {#cross-channel-workflow-sample}
 
-Voici un exemple de campagne cross-canal à plusieurs étapes avec une segmentation et deux diffusions. La campagne en plusieurs étapes cible tous les clients qui vivent à Paris et qui sont intéressés par les machines à café. Parmi cette population, un e-mail est envoyé à la clientèle régulière, et un SMS est envoyé à la clientèle VIP.
+Voici un exemple de campagne orchestrée cross-canal avec une segmentation et deux diffusions. La campagne orchestrée cible tous les clients qui vivent à Paris et qui sont intéressés par les machines à café. Parmi cette population, un e-mail est envoyé à la clientèle régulière, et un SMS est envoyé à la clientèle VIP.
 
 ![](../assets/workflow-channel-example.png)
 
@@ -99,7 +99,7 @@ The Email delivery activity allows you to configure the sending an email in a wo
 
 -->
 
-Vous pouvez également créer une campagne récurrente en plusieurs étapes afin d&#39;envoyer un SMS personnalisé tous les premiers jours du mois à 20h00 à tous les clients résidant à Paris.
+Vous pouvez également créer une campagne orchestrée récurrente afin d&#39;envoyer un SMS personnalisé tous les premiers jours du mois à 20h00 à l&#39;ensemble de la clientèle parisienne.
 
 ![](../assets/workflow-channel-example2.png)
 

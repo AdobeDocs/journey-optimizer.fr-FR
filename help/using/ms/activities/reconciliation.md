@@ -2,11 +2,11 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Utiliser l’activité Réconciliation
-description: Découvrez comment utiliser l’activité Réconciliation dans une campagne à plusieurs étapes
+description: Découvrez comment utiliser l’activité Réconciliation dans une campagne orchestrée
 hide: true
 hidefromtoc: true
 exl-id: 0d5cfffe-bc6c-40bc-b3e1-5b44368ac76f
-source-git-commit: 323472ef9d6203cbbadc44ceb17ddcc7f6207323
+source-git-commit: 3d380d2d02eb7043aebcffd00bb2092e7341b0d5
 workflow-type: tm+mt
 source-wordcount: '692'
 ht-degree: 71%
@@ -39,7 +39,7 @@ L&#39;activité **Réconciliation** est une activité de **Ciblage** qui permet 
 
 ## Bonnes pratiques {#reconciliation-best-practices}
 
-Si vous utilisez l’activité **Enrichissement** pour définir des données supplémentaires à traiter dans votre campagne à plusieurs étapes (vous pouvez utiliser une activité **Enrichissement** pour combiner des données provenant de plusieurs jeux ou pour créer des liens vers une ressource temporaire), l’activité **Réconciliation** vous permet de lier des données non identifiées à des ressources existantes.
+Si vous utilisez l’activité **Enrichissement** pour définir des données supplémentaires à traiter dans votre campagne orchestrée (vous pouvez utiliser une activité **Enrichissement** pour combiner des données provenant de plusieurs jeux ou pour créer des liens vers une ressource temporaire), l’activité **Réconciliation** vous permet de lier des données non identifiées à des ressources existantes.
 
 >[!NOTE]
 >L’opération de réconciliation suppose que les données des dimensions liées sont déjà présentes dans la base de données.  Par exemple, si vous importez un fichier d’achats indiquant quel produit a été acheté, à quelle heure, par quel client, etc., le produit ainsi que le client doivent déjà exister dans la base de données.
@@ -75,7 +75,7 @@ Si vous utilisez l’activité **Enrichissement** pour définir des données sup
 
 Pour configurer l’activité **Réconciliation**, procédez comme suit :
 
-1. Ajoutez une activité **Réconciliation** dans votre campagne à plusieurs étapes.
+1. Ajoutez une activité **Réconciliation** dans votre campagne orchestrée.
 
 1. Sélectionnez la nouvelle dimension de ciblage. Une dimension vous permet de définir la population ciblée : destinataires, abonnés de l’application, opérateurs, abonnés, etc.
 
@@ -95,9 +95,9 @@ Par défaut, les données non réconciliées sont conservées dans la transition
 
 ## Exemple {#reconciliation-example}
 
-L’exemple suivant illustre une campagne en plusieurs étapes qui crée une audience de profils directement à partir d’un fichier importé contenant de nouveaux clients. Il se compose des activités suivantes :
+L’exemple suivant illustre une campagne orchestrée qui crée une audience de profils directement à partir d’un fichier importé contenant de nouveaux clients. Il se compose des activités suivantes :
 
-La campagne à plusieurs étapes est conçue comme suit :
+La campagne orchestrée est conçue comme suit :
 
 ![](../assets/workflow-reconciliation-sample-1.0.png)
 
@@ -121,4 +121,4 @@ Il est créé avec les activités suivantes :
 
   ![](../assets/workflow-reconciliation-sample-1.1.png)
 
-* Une activité [Sauvegarde d’audience](save-audience.md) pour créer une audience à partir de ces mises à jour. Vous pouvez également remplacer l’activité **Sauvegarde d’audience** par une activité **Fin** si aucune audience spécifique ne doit être créée ou mise à jour. Les profils des destinataires sont mis à jour dans tous les cas lorsque vous exécutez la campagne à plusieurs étapes.
+* Une activité [Sauvegarde d’audience](save-audience.md) pour créer une audience à partir de ces mises à jour. Vous pouvez également remplacer l’activité **Sauvegarde d’audience** par une activité **Fin** si aucune audience spécifique ne doit être créée ou mise à jour. Les profils des destinataires sont mis à jour dans tous les cas lorsque vous exécutez la campagne orchestrée.

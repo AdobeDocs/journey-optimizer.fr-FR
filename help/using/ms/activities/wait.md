@@ -1,12 +1,12 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Utiliser l’activité d’attente dans des campagnes à plusieurs étapes
-description: Découvrez comment utiliser l’activité d’attente dans des campagnes à plusieurs étapes
+title: Utiliser l’activité d’attente dans des campagnes orchestrées
+description: Découvrez comment utiliser l’activité Attente dans les campagnes orchestrées
 hide: true
 hidefromtoc: true
 exl-id: 11ef095b-77ec-4e2e-ab4d-49a248354f08
-source-git-commit: 323472ef9d6203cbbadc44ceb17ddcc7f6207323
+source-git-commit: 3d380d2d02eb7043aebcffd00bb2092e7341b0d5
 workflow-type: tm+mt
 source-wordcount: '168'
 ht-degree: 85%
@@ -26,7 +26,7 @@ L’activité d’**attente** est une activité de **contrôle de flux**. Elle e
 
 Pour configurer l’activité d’**attente**, procédez comme suit :
 
-1. Ajoutez une activité **Attente** dans votre campagne à plusieurs étapes.
+1. Ajoutez une activité **Attente** dans votre campagne orchestrée.
 
 1. Spécifiez la **durée** de l’attente entre les transitions entrante et sortante.
 

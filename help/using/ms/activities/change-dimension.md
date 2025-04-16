@@ -6,7 +6,7 @@ description: Découvrir comment utiliser l’activité « Changement de dimensi
 hide: true
 hidefromtoc: true
 exl-id: 83e66f10-93dd-4759-840c-2c83abc42a28
-source-git-commit: 323472ef9d6203cbbadc44ceb17ddcc7f6207323
+source-git-commit: 3d380d2d02eb7043aebcffd00bb2092e7341b0d5
 workflow-type: tm+mt
 source-wordcount: '340'
 ht-degree: 67%
@@ -25,9 +25,9 @@ ht-degree: 67%
 >title="Activité Changement de dimension"
 >abstract="Cette activité vous permet de modifier la dimension de ciblage à mesure que vous créez une audience. Elle déplace l’axe en fonction du modèle de données et de la dimension d’entrée. Par exemple, vous pouvez passer de la dimension « contrats » à la dimension « clientèle »."
 
-L’activité **Changement de dimension** est une activité de **ciblage**. Cette activité permet de modifier la dimension de ciblage au fur et à mesure que vous créez votre campagne à plusieurs étapes. Il déplace l’axe en fonction du modèle de données et de la dimension d’entrée.
+L’activité **Changement de dimension** est une activité de **ciblage**. Cette activité permet de modifier la dimension de ciblage au fur et à mesure que vous créez votre campagne orchestrée. Il déplace l’axe en fonction du modèle de données et de la dimension d’entrée.
 
-Par exemple, vous pouvez basculer la dimension de ciblage d’une campagne à plusieurs étapes de « Destinataires » vers « Application des abonnés » afin d’envoyer des notifications push aux destinataires ciblés.
+Par exemple, vous pouvez basculer la dimension de ciblage d’une campagne orchestrée de « Destinataires » vers « Application Abonnés » afin d’envoyer des notifications push aux destinataires ciblés.
 
 >[!IMPORTANT]
 >
@@ -37,18 +37,18 @@ Par exemple, vous pouvez basculer la dimension de ciblage d’une campagne à pl
 
 Pour configurer l’activité **Changement de dimension**, procédez comme suit :
 
-1. Ajoutez une activité **Modifier la dimension** à votre campagne à plusieurs étapes.
+1. Ajoutez une activité **Modifier la dimension** à votre campagne orchestrée.
 
    ![](../assets/workflow-change-dimension.png)
 
 1. Définissez la **Nouvelle dimension cible**. Lors du changement de dimension, tous les enregistrements sont conservés. D’autres options ne sont pas encore disponibles.
 
-1. Exécutez la campagne à plusieurs étapes pour afficher le résultat. Comparez les données dans les tables avant et après l’activité de changement de dimension, et comparez la structure des tables de campagne à plusieurs étapes.
+1. Exécutez la campagne orchestrée pour afficher le résultat. Comparez les données dans les tables avant et après l’activité de changement de dimension, et comparez la structure des tables de la campagne orchestrée.
 
 ## Exemple {#example}
 
 Dans cet exemple, nous souhaitons envoyer une diffusion SMS à tous les profils ayant effectué un achat. Pour ce faire, nous utilisons d’abord une activité **[!UICONTROL Créer une audience]** liée à une dimension de ciblage « Achat » personnalisée pour cibler tous les achats qui se sont produits.
 
-Nous utilisons ensuite une activité **[!UICONTROL Modifier la dimension]** pour basculer la dimension de ciblage de campagne à plusieurs étapes vers « Destinataires ». Cela nous permet de cibler les personnes destinataires qui correspondent à la requête.
+Nous utilisons ensuite une activité **[!UICONTROL Modifier la dimension]** pour basculer la dimension de ciblage de la campagne orchestrée sur « Destinataires ». Cela nous permet de cibler les personnes destinataires qui correspondent à la requête.
 
 ![](../assets/workflow-change-dimension-example.png)

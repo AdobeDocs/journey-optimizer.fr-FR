@@ -1,12 +1,12 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Utiliser l’activité Mise à jour de données dans vos campagnes à plusieurs étapes
+title: Utiliser l’activité Mettre à jour les données dans vos campagnes orchestrées
 description: Découvrez comment utiliser l’activité Mettre à jour les données .
 hide: true
 hidefromtoc: true
 exl-id: 68e7c929-5f07-4d5a-9831-690e071947f8
-source-git-commit: 323472ef9d6203cbbadc44ceb17ddcc7f6207323
+source-git-commit: 3d380d2d02eb7043aebcffd00bb2092e7341b0d5
 workflow-type: tm+mt
 source-wordcount: '503'
 ht-degree: 74%
@@ -33,7 +33,7 @@ Toggle the **Generate an outbound transition for rejects** option to add an outb
 
 ## Configurer l’activité Mise à jour de données{#update-data-configuration}
 
-Pour configurer l’activité **Mise à jour de données**, commencez par ajouter l’activité à votre campagne à plusieurs étapes et définissez un libellé.
+Pour configurer l’activité **Mise à jour de données**, commencez par ajouter l’activité à votre campagne orchestrée et définissez un libellé.
 
 ![](../assets/workflow-update-data.png)
 
@@ -78,6 +78,6 @@ Les **options avancées** permettent de spécifier des options supplémentaires 
 
 Les deux dernières options permettent d’effectuer des actions spécifiques :
 
-* **Générer une transition sortante** : crée une transition sortante qui sera activée à la fin de l’exécution. La mise à jour marque généralement la fin d’une campagne à plusieurs étapes de ciblage et l’option n’est donc pas activée par défaut.
+* **Générer une transition sortante** : crée une transition sortante qui sera activée à la fin de l’exécution. La mise à jour marque généralement la fin d’une campagne orchestrée de ciblage. Par conséquent, l’option n’est pas activée par défaut.
 
-* **Générer une transition sortante pour les rejets** : créé une transition sortante qui contient les enregistrements qui n’ont pas été correctement traités après la mise à jour (par exemple en cas de doublon). La mise à jour marque généralement la fin d’une campagne à plusieurs étapes de ciblage et l’option n’est donc pas activée par défaut.
+* **Générer une transition sortante pour les rejets** : créé une transition sortante qui contient les enregistrements qui n’ont pas été correctement traités après la mise à jour (par exemple en cas de doublon). La mise à jour marque généralement la fin d’une campagne de ciblage orchestrée. Par conséquent, l’option n’est pas activée par défaut.

@@ -2,11 +2,11 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Utiliser l'activité Chargement de fichier
-description: Découvrez comment utiliser l’activité Chargement de fichier dans une campagne à plusieurs étapes
+description: Découvrez comment utiliser l’activité Chargement de fichier dans une campagne orchestrée
 hide: true
 hidefromtoc: true
 exl-id: ae0dc980-2361-4c3b-a68e-ae0bb5dc0a26
-source-git-commit: 323472ef9d6203cbbadc44ceb17ddcc7f6207323
+source-git-commit: 3d380d2d02eb7043aebcffd00bb2092e7341b0d5
 workflow-type: tm+mt
 source-wordcount: '1178'
 ht-degree: 88%
@@ -63,7 +63,7 @@ La configuration de l’activité **Charger un fichier** s’effectue en deux é
 
 Pour configurer le fichier d’exemple utilisé pour définir la structure de fichier attendue, procédez comme suit :
 
-1. Ajoutez une activité **Chargement de fichier** dans votre campagne à plusieurs étapes.
+1. Ajoutez une activité **Chargement de fichier** dans votre campagne orchestrée.
 
 1. Sélectionnez le fichier d’exemple à utiliser pour définir la structure de fichier attendue. Pour ce faire, cliquez sur le bouton **Sélectionner un fichier** dans la section **[!UICONTROL Exemple de fichier]** et sélectionnez le fichier local à utiliser.
 
@@ -115,7 +115,7 @@ Pour configurer le fichier d’exemple utilisé pour définir la structure de fi
 
 >[!CAUTION]
 >
->Avant de charger le fichier cible, assurez-vous qu’il soit conforme à la mise en forme du fichier d’exemple. Toute incohérence au niveau du format de fichier, de la structure des colonnes ou du nombre de colonnes peut entraîner des erreurs lors de l’exécution de campagnes à plusieurs étapes.
+>Avant de charger le fichier cible, assurez-vous qu’il soit conforme à la mise en forme du fichier d’exemple. Toute incohérence au niveau du format de fichier, de la structure des colonnes ou du nombre de colonnes peut entraîner des erreurs lors de l’exécution de la campagne orchestrée.
 
 Pour définir le fichier cible à charger, procédez comme suit :
 
@@ -150,13 +150,13 @@ Pour définir le fichier cible à charger, procédez comme suit :
 
 1. Dans la section **Gestion des rejets**, spécifiez le comportement de l’activité en cas d’erreur :
 
-   * Dans le champ **[!UICONTROL Nombre d’erreurs autorisées]**, spécifiez le nombre maximum d’erreurs autorisées lors du traitement du fichier à charger. Par exemple, si la valeur est définie sur « 20 », l’exécution de la campagne à plusieurs étapes échoue s’il y a plus de 20 erreurs lors du chargement du fichier.
+   * Dans le champ **[!UICONTROL Nombre d’erreurs autorisées]**, spécifiez le nombre maximum d’erreurs autorisées lors du traitement du fichier à charger. Par exemple, si la valeur est définie sur « 20 », l’exécution de la campagne orchestrée échoue s’il y a plus de 20 erreurs lors du chargement du fichier.
 
    * Pour conserver les erreurs qui se sont produites lors du chargement du fichier, activez l’option **[!UICONTROL Conserver les rejets dans un fichier]** et saisissez le nom de votre choix pour le fichier dans le champ **[!UICONTROL Fichier de rejets]**.
 
      Après avoir activé cette option, une transition de sortie supplémentaire nommée « Complémentaire » est ajoutée après l’activité. Toute erreur qui se produit pendant l’import est stockée dans le fichier spécifié sur le serveur.
 
-1. Pour supprimer le fichier chargé du serveur après l’exécution de la campagne à plusieurs étapes, activez l’option **[!UICONTROL Supprimer le fichier après l’importation]**.
+1. Pour supprimer le fichier chargé du serveur après l’exécution de la campagne orchestrée, activez l’option **[!UICONTROL Supprimer le fichier après l’importation]**.
 
    ![](../assets/workflow-load-file-options.png)
 

@@ -6,7 +6,7 @@ description: Découvrir comment utiliser l’activité Déduplication
 hide: true
 hidefromtoc: true
 exl-id: 4aa79448-f75a-48d5-8819-f4cb4baad5c7
-source-git-commit: 323472ef9d6203cbbadc44ceb17ddcc7f6207323
+source-git-commit: 3d380d2d02eb7043aebcffd00bb2092e7341b0d5
 workflow-type: tm+mt
 source-wordcount: '601'
 ht-degree: 98%
@@ -43,7 +43,7 @@ Pour configurer l’activité **Déduplication**, procédez comme suit :
 
 ![](../assets/workflow-deduplication.png)
 
-1. Ajoutez une activité **Déduplication** à votre campagne à plusieurs étapes.
+1. Ajoutez une activité **Déduplication** à votre campagne orchestrée.
 
 1. Dans la section **Champs pour identifier des doublons**, cliquez sur le bouton **Ajouter un attribut** pour indiquer les champs pour lesquels des valeurs identiques permettent d’identifier les doublons, par exemple : adresse e-mail, prénom, nom, etc. L’ordre des champs vous permet de spécifier ceux à traiter en premier.
 
