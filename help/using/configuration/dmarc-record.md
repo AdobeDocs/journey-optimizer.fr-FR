@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: sous-domaine, domaine, courrier, dmarc, enregistrement
 exl-id: f9e217f8-5aa8-4d3a-96fc-65defcb5d340
-source-git-commit: 7ca149d420f802a6230e699cffefddc4117cb85e
-workflow-type: ht
+source-git-commit: e539d694e8fb91b6a8c7ba7ff5a2bb0905651f81
+workflow-type: tm+mt
 source-wordcount: '1482'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -173,7 +173,7 @@ Pour permettre à Adobe de gérer l’enregistrement DMARC à votre place, séle
    Il existe deux rapports différents générés par les FAI que les expéditeurs et expéditrices peuvent recevoir par le biais des balises RUA/RUF dans leur politique DMARC :
 
    * **Rapports agrégés** (RUA) : ils ne contiennent aucune information d’identification personnelle qui pourrait être sensible au RGPD.
-   * **Rapports d’échec** (RUF) : ils contiennent des adresses e-mail sensibles au RGPD. Avant de les utiliser, vérifiez en interne comment traiter les informations qui doivent être conformes au RGPD.
+   * **Rapports d’échec** (RUF) : ils contiennent des adresses e-mail sensibles au RGPD. Avant d’utiliser , vérifiez en interne comment traiter les informations qui doivent être conformes au RGPD.
 
    >[!NOTE]
    >

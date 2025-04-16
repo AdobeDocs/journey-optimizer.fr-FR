@@ -5,10 +5,10 @@ description: Découvrez comment utiliser Adobe Journey Optimizer.
 solution: Journey Optimizer
 product: journey optimizer
 exl-id: 3a1b6c61-82df-421c-98d8-2af4f2a5e0de
-source-git-commit: 7ca149d420f802a6230e699cffefddc4117cb85e
-workflow-type: ht
-source-wordcount: '349'
-ht-degree: 100%
+source-git-commit: e539d694e8fb91b6a8c7ba7ff5a2bb0905651f81
+workflow-type: tm+mt
+source-wordcount: '350'
+ht-degree: 94%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 100%
 
 ## Nouveautés
 
-Découvrez les améliorations les plus récentes apportées au produit et à la documentation de Journey Optimizer. Pour obtenir une liste complète des fonctionnalités, des améliorations et des correctifs, consultez les [Notes de mise à jour](using/rn/release-notes.md). Tenez-vous au courant des dernières modifications apportées à notre documentation en consultant la [page des mises à jour de la documentation](using/rn/documentation-updates.md).
+Découvrez les améliorations les plus récentes apportées au produit et à la documentation de Journey Optimizer. Pour obtenir une liste complète des fonctionnalités, des améliorations et des correctifs, consultez les [Notes de mise à jour](using/rn/release-notes.md). Consultez la [page des mises à jour de la documentation](using/rn/documentation-updates.md) pour vous tenir au courant des dernières modifications apportées à la documentation du produit.
 
 >[!BEGINTABS]
 
@@ -30,7 +30,7 @@ La version de mars est désormais disponible. Consultez les notes de mise à jou
 
 ✨ Assistez à la prévisualisation en direct de notre fonctionnalité [Assistant IA](../help/using/content-management/gs-generative.md), conçue pour vous permettre d’explorer ses capacités et de saisir tous ses avantages.
 
-[![En savoir plus](using/assets/do-not-localize/try-it-button.svg)](https://experienceleague.adobe.com/fr/apps/journey-optimizer/ai-assistant-content-accelerator){target="_blank"}
+[![ en savoir plus ](using/assets/do-not-localize/try-it-button.svg)](https://experienceleague.adobe.com/fr/apps/journey-optimizer/ai-assistant-content-accelerator){target="_blank"}
 
 >[!TAB Création de rapports avec CJA]
 

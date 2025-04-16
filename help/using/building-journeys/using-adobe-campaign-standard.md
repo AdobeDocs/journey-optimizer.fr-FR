@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: parcours, intégration, standard, campagne, ACS
 exl-id: 50565cd9-7415-4c6a-9651-24fefeded3f5
-source-git-commit: cb1fed2460ddbf3b226fe191b9695008970937c1
+source-git-commit: e539d694e8fb91b6a8c7ba7ff5a2bb0905651f81
 workflow-type: tm+mt
 source-wordcount: '943'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -53,7 +53,7 @@ Les paramètres sont identiques pour **[!UICONTROL E-mail]** et **[!UICONTROL SM
 
 >[!NOTE]
 >
->Lors de l’utilisation du modèle transactionnel d’un profil pour l’e-mail, le mécanisme de désabonnement est automatiquement géré par Adobe Campaign Standard. Pour implémenter cette méthode, vous pouvez facilement inclure un bloc de contenu **[!UICONTROL Lien de désabonnement]** dans [le modèle d’e-mail transactionnel](https://experienceleague.adobe.com/docs/campaign-standard/using/communication-channels/transactional-messaging/getting-started-with-transactional-msg.html?lang=fr). Cependant, si vous utilisez un modèle basé sur un événement (rtEvent), vous devez incorporer dans le message un lien qui transmet l’e-mail de la personne destinataire comme paramètre d’URL et la dirige vers une page de destination de désinscription. Il est nécessaire de créer cette page de destination et de s’assurer que la décision de la personne destinataire de se désinscrire est effectivement transmise à Adobe.
+>Lors de l’utilisation du modèle transactionnel d’un profil pour l’e-mail, le mécanisme de désabonnement est automatiquement géré par Adobe Campaign Standard. Pour implémenter cette méthode, vous pouvez facilement inclure un bloc de contenu **[!UICONTROL Lien de désabonnement]** dans [le modèle d’e-mail transactionnel](https://experienceleague.adobe.com/docs/campaign-standard/using/communication-channels/transactional-messaging/getting-started-with-transactional-msg.html?lang=fr). Cependant, si vous utilisez un modèle basé sur un événement (rtEvent), vous devez incorporer dans le message un lien qui transmet l’e-mail de la personne destinataire comme paramètre d’URL et la dirige vers une page de destination de désinscription. Il est nécessaire de créer cette page de destination et de s’assurer que la décision de la personne destinataire de se désinscrire est effectivement transmise à Adobe.
 
 Vous devez, tout d’abord, choisir un modèle de message transactionnel.
 

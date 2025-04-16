@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 847fb5dda4e8747ea61a2ffafb9adcddda1ddada
+source-git-commit: e539d694e8fb91b6a8c7ba7ff5a2bb0905651f81
 workflow-type: tm+mt
-source-wordcount: '1114'
-ht-degree: 86%
+source-wordcount: '1162'
+ht-degree: 83%
 
 ---
 
@@ -22,6 +22,9 @@ Cette page répertorie toutes les mises à jour récentes de la documentation de
 
 ## Avril 2025 {#apr-2025}
 
+* Le chapitre Configuration est désormais divisé en trois chapitres : [Configuration des canaux](../configuration/get-started-configuration.md), [Configuration des Parcours ](../configuration/about-data-sources-events-actions.md) et [Connexion des systèmes](../configuration/ajo-apis.md).
+* Ajout d’une note d’avertissement concernant l’utilisation d’événements d’expérience dans des expressions et conditions de parcours. [En savoir plus](../building-journeys/expression/expressionadvanced.md#discovering-the-interface)
+* Les étapes de annulation de la délégation d’un sous-domaine sont désormais détaillées pour [e-mails](../configuration/delegate-subdomain.md#undelegate-subdomain), [SMS](../sms/sms-subdomains.md#undelegate-a-subdomain-undelegate-subdomain), [expériences web](../web/web-delegated-subdomains.md#undelegate-a-subdomain-undelegate-subdomain) et [pages de destination](../landing-pages/lp-subdomains.md#undelegate-subdomain).
 * Ajout d’une note sur la page Configuration du publipostage direct concernant le stockage temporaire du fichier de sortie. [En savoir plus](../direct-mail/direct-mail-configuration.md)
 * Ajout d’une astuce dans la section Éditeur d’expression avancé de parcours à propos des instructions de format de condition. [En savoir plus](../building-journeys/expression/expressionadvanced.md)
 * Ajout d’une note d’avertissement dans la section sur les fonctions `inAudience` concernant les impacts et les bonnes pratiques lors du changement de nom d’une audience. [En savoir plus](../building-journeys/functions/functioninaudience.md)
