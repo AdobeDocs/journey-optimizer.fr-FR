@@ -9,9 +9,9 @@ role: Admin
 level: Experienced
 keywords: sous-domaine, délégation, domaine, DNS
 exl-id: 8021f66e-7725-475b-8722-e6f8d74c9023
-source-git-commit: ce8818e0216d4f633770fecadd4e74c2651a62f3
+source-git-commit: 8e5a904f9310385f5a8186159dedde9942624268
 workflow-type: tm+mt
-source-wordcount: '2003'
+source-wordcount: '2009'
 ht-degree: 81%
 
 ---
@@ -29,6 +29,8 @@ ht-degree: 81%
 >title="Délégation de sous-domaines"
 >abstract="Pour commencer à envoyer des e-mails, vous devez d’abord déléguer votre sous-domaine à Adobe. Une fois cette opération terminée, les enregistrements DNS, les boîtes de réception, les adresses d’expéditeurs, de réponse et de rebond seront configurés pour vous."
 
+## Prise en main des sous-domaines de messagerie {#gs-delegate-subdomain}
+
 La délégation de noms de domaine est une méthode qui permet au propriétaire d’un nom de domaine (techniquement : une zone DNS) de déléguer une sous-division de celui-ci (techniquement : une zone DNS sous celui-ci, qui peut être appelée sous-zone) à une autre entité. En tant que client, si vous gérez la zone « exemple.com », vous pouvez déléguer la sous-zone « marketing.exemple.com » à Adobe. En savoir plus sur la [délégation de sous-domaine](about-subdomain-delegation.md)
 
 Par défaut, [!DNL Journey Optimizer] vous permet de déléguer **jusqu&#39;à 10 sous-domaines**. Cependant, en fonction de votre contrat de licence, vous pouvez déléguer jusqu’à 100 sous-domaines. Contactez votre personne référente chez Adobe pour connaître le nombre de sous-domaines auxquels vous avez droit.
@@ -41,7 +43,7 @@ La configuration de sous-domaine est **commune à tous les environnements**. Par
 
 >[!CAUTION]
 >
->L’envoi parallèle de sous-domaines n’est pas pris en charge dans [!DNL Journey Optimizer]. Si vous essayez d’envoyer un sous-domaine pour délégation alors qu’un autre a le statut **[!UICONTROL Traitement]**, un message d’erreur s’affiche.
+>L’envoi parallèle de sous-domaines n’est pas pris en charge dans [!DNL Journey Optimizer]. Si vous essayez d’envoyer un sous-domaine pour délégation alors qu’un autre est dans l’état **[!UICONTROL Traitement]**, un message d’erreur s’affiche.
 
 ## Déléguer entièrement un sous-domaine à Adobe {#full-subdomain-delegation}
 

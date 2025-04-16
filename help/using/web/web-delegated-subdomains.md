@@ -8,10 +8,10 @@ feature: Web Channel, Subdomains
 level: Experienced
 keywords: web, sous-domaines, configuration
 exl-id: 6e00466d-4ce5-4d80-89ff-c7331a5ab158
-source-git-commit: ce8818e0216d4f633770fecadd4e74c2651a62f3
+source-git-commit: 8e5a904f9310385f5a8186159dedde9942624268
 workflow-type: tm+mt
-source-wordcount: '1075'
-ht-degree: 75%
+source-wordcount: '1089'
+ht-degree: 72%
 
 ---
 
@@ -32,6 +32,8 @@ ht-degree: 75%
 >title="Définir un sous-domaine web"
 >abstract="Sélectionnez un sous-domaine dans la liste des sous-domaines délégués à Adobe. Vous pouvez définir ce sous-domaine web comme sous-domaine par défaut, mais un seul sous-domaine par défaut peut être utilisé à la fois."
 
+## Prise en main des sous-domaines web {#gs-web-subdomains}
+
 Lors de la création d’expériences web, si vous ajoutez du contenu provenant de la bibliothèque [Adobe Experience Manager Assets](../integrations/assets.md), vous devez configurer le sous-domaine qui sera utilisé pour publier ce contenu.
 
 Vous pouvez utiliser un sous-domaine déjà délégué à Adobe ou en configurer un autre. En savoir plus sur la délégation de sous-domaines à Adobe dans [cette section](../configuration/delegate-subdomain.md).
@@ -46,7 +48,9 @@ Vous pouvez créer plusieurs sous-domaines web, mais seul le sous-domaine **par 
 
 ## Accéder à des sous-domaines web et les gérer {#access-web-subdomains}
 
-1. Accédez au menu **[!UICONTROL Administration]** > **[!UICONTROL Canaux]**, puis sélectionnez **[!UICONTROL Paramètres web]** > **[!UICONTROL Sous-domaines web]**. Tous les sous-domaines configurés avec la sandbox actuelle s’affichent.
+Pour accéder aux sous-domaines pour les expériences web, procédez comme suit :
+
+1. Accédez au menu **[!UICONTROL Administration]** > **[!UICONTROL Canaux]**, puis sélectionnez **[!UICONTROL Paramètres web]** > **[!UICONTROL Sous-domaines web]**. Tous les sous-domaines configurés avec la sandbox actuelle s’affichent.
 
    ![](assets/web-access-subdomains.png)
 
@@ -62,7 +66,7 @@ Vous pouvez créer plusieurs sous-domaines web, mais seul le sous-domaine **par 
 
 ## Utiliser un sous-domaine existant {#web-use-existing-subdomain}
 
-Pour utiliser un sous-domaine déjà délégué à Adobe, procédez comme suit.
+Pour utiliser un sous-domaine déjà délégué à Adobe, procédez comme suit :
 
 1. Accédez au menu **[!UICONTROL Administration]** > **[!UICONTROL Canaux]**, puis sélectionnez **[!UICONTROL Paramètres web]** > **[!UICONTROL Sous-domaines web]**.
 
@@ -94,7 +98,6 @@ Pour utiliser un sous-domaine déjà délégué à Adobe, procédez comme suit.
 >id="ajo_admin_web_subdomain_dns"
 >title="Générer l’enregistrement DNS correspondant"
 >abstract="Pour configurer un nouveau sous-domaine web, vous devez copier les informations du serveur de noms Adobe affichées dans l’interface de Journey Optimizer et les coller dans votre solution d’hébergement de domaine pour générer l’enregistrement DNS correspondant. Une fois les vérifications effectuées, le sous-domaine est prêt à être utilisé pour publier du contenu provenant de la bibliothèque Adobe Experience Manager Assets."
-
 
 Par défaut, [!DNL Journey Optimizer] vous permet de déléguer **jusqu&#39;à 10 sous-domaines** au total (couvrant à la fois les canaux e-mail et web). Cependant, en fonction de votre contrat de licence, vous pouvez déléguer jusqu’à 100 sous-domaines. Contactez votre personne référente chez Adobe pour connaître le nombre de sous-domaines auxquels vous avez droit.
 
