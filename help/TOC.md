@@ -5,9 +5,9 @@ user-guide-title: Guide de Journey Optimizer
 user-guide-description: Utilisez Journey Optimizer pour créer et proposer aux clients des expériences connectées, contextuelles et personnalisées
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 31e88f02ed2569357a31552db717225d7f37a1eb
+source-git-commit: 270dac97dce9e12795f5c99e2da3cbf6a5afd876
 workflow-type: tm+mt
-source-wordcount: '2329'
+source-wordcount: '2330'
 ht-degree: 91%
 
 ---
@@ -739,15 +739,15 @@ ht-degree: 91%
       + [Résoudre les problèmes liés aux actions personnalisées](using/action/troubleshoot-custom-action.md)
       + [Utiliser des réponses d’appel API dans des actions personnalisées](using/action/action-response.md)
 + Connectez vos systèmes {#connect-systems} »
-   + [API ADOBE JOURNEY OPTIMIZER](using/configuration/ajo-apis.md)
-   + Utilisation des API de parcours {#external-systems}
-      + [Intégration des parcours à des systèmes externes](using/configuration/external-systems.md)
-      + [API de plafonnement](using/configuration/capping.md)
+   + [Utilisation des API Journey Optimizer](using/configuration/ajo-apis.md)
+   + Intégration de vos parcours à des systèmes externes {#external-systems}
+      + [Intégration du parcours avec des systèmes externes](using/configuration/external-systems.md)
+      + [API de limitation](using/configuration/capping.md)
       + [API de limitation](using/configuration/throttling.md)
    + Envoyer avec les solutions Adobe {#adobe-solutions}
-      + [Intégration de Parcours à Adobe Campaign Standard](using/action/acs-action.md)
-      + [Intégration de Parcours à Adobe Campaign v7/v8](using/action/acc-action.md)
-      + [Intégration de Parcours à Marketo Engage](using/action/marketo-engage.md)
+      + [Intégration du parcours à Campaign Standard](using/action/acs-action.md)
+      + [Intégration de Parcours à Campaign v7/v8](using/action/acc-action.md)
+      + [Intégration du parcours à Marketo Engage](using/action/marketo-engage.md)
    + [Configuration du connecteur Sources](using/start/get-started-sources.md)
    + [Exporter des objets vers un autre sandbox](using/configuration/copy-objects-to-sandbox.md)
 + Contrôle d&#39;accès {#access-control}
