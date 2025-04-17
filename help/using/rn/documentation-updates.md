@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: e539d694e8fb91b6a8c7ba7ff5a2bb0905651f81
+source-git-commit: a2d23466d62b3b1df6f8024e3f68414b18bf0b88
 workflow-type: tm+mt
-source-wordcount: '1162'
-ht-degree: 83%
+source-wordcount: '1202'
+ht-degree: 80%
 
 ---
 
@@ -32,6 +32,7 @@ Cette page répertorie toutes les mises à jour récentes de la documentation de
 * Mise à jour de la page de test du parcours avec une note sur la nécessité d’inclure un espace de noms d’identité dans l’événement utilisé. [En savoir plus](../building-journeys/testing-the-journey.md)
 * Actuellement, vous ne pouvez pas annuler la délégation des sous-domaines par le biais de l’interface utilisateur [!UICONTROL Journey Optimizer]. Vous devez contacter votre représentant Adobe. Les sections E-mail, Page de destination, SMS et Sous-domaine web ont été mises à jour avec ces informations et les étapes à effectuer avant de contacter Adobe. [En savoir plus](../configuration/delegate-subdomain.md#undelegate-subdomain)
 * Ajout d’une clarification sur le paramètre `maxHttpConnections` facultatif dans l’API de plafonnement des parcours, y compris des conseils sur la manière de l’utiliser avec des configurations de limitation pour le même point d’entrée. [En savoir plus](../configuration/throttling.md)
+* Dans la section Experience Decisioning , des conseils supplémentaires expliquant que les éléments d&#39;offre approuvés ne peuvent pas être supprimés s&#39;ils sont utilisés dans une collection ou une décision. Étapes incluses pour modifier leur statut en « Version préliminaire » à l’aide de l’option **[!UICONTROL Annuler l’approbation]**. [En savoir plus](../experience-decisioning/items.md#manage)
 
 ## Mars 2025 {#mar-2025}
 
