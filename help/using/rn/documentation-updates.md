@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: a2d23466d62b3b1df6f8024e3f68414b18bf0b88
+source-git-commit: d3bae15a3b9ae53c4f520a3867026c47938bcd62
 workflow-type: tm+mt
-source-wordcount: '1202'
-ht-degree: 80%
+source-wordcount: '1251'
+ht-degree: 77%
 
 ---
 
@@ -33,6 +33,7 @@ Cette page répertorie toutes les mises à jour récentes de la documentation de
 * Actuellement, vous ne pouvez pas annuler la délégation des sous-domaines par le biais de l’interface utilisateur [!UICONTROL Journey Optimizer]. Vous devez contacter votre représentant Adobe. Les sections E-mail, Page de destination, SMS et Sous-domaine web ont été mises à jour avec ces informations et les étapes à effectuer avant de contacter Adobe. [En savoir plus](../configuration/delegate-subdomain.md#undelegate-subdomain)
 * Ajout d’une clarification sur le paramètre `maxHttpConnections` facultatif dans l’API de plafonnement des parcours, y compris des conseils sur la manière de l’utiliser avec des configurations de limitation pour le même point d’entrée. [En savoir plus](../configuration/throttling.md)
 * Dans la section Experience Decisioning , des conseils supplémentaires expliquant que les éléments d&#39;offre approuvés ne peuvent pas être supprimés s&#39;ils sont utilisés dans une collection ou une décision. Étapes incluses pour modifier leur statut en « Version préliminaire » à l’aide de l’option **[!UICONTROL Annuler l’approbation]**. [En savoir plus](../experience-decisioning/items.md#manage)
+* Les informations sur les sandbox ont été regroupées dans une nouvelle section « Gestion des sandbox ». Cette nouvelle section fournit des informations sur l’utilisation et l’attribution de sandbox, ainsi que sur l’utilisation des fonctionnalités d’exportation et d’importation de packages pour copier des objets tels que des parcours, des modèles de contenu ou des fragments, sur plusieurs sandbox. [En savoir plus](../administration/sandboxes.md)
 
 ## Mars 2025 {#mar-2025}
 

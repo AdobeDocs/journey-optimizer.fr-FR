@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Gestion des sandbox
+title: Utilisation et affectation de sandbox
 description: Découvrir comment gérer les sandbox
 feature: Sandboxes
 topic: Administration
@@ -9,16 +9,16 @@ role: Admin, Architect, Developer
 level: Experienced
 keywords: sandbox, virtuels, environnements, organisation, platform
 exl-id: 14f80d5d-0840-4b79-9922-6d557a7e1247
-source-git-commit: 621f9bcb32d108490e7674778ce40385938af18e
+source-git-commit: d3bae15a3b9ae53c4f520a3867026c47938bcd62
 workflow-type: tm+mt
-source-wordcount: '325'
-ht-degree: 90%
+source-wordcount: '329'
+ht-degree: 87%
 
 ---
 
-# Gestion des sandbox {#sandboxes}
+# Utilisation et affectation de sandbox {#sandboxes}
 
-## Utilisation des sandbox {#using-sandbox}
+## Utiliser des sandbox {#using-sandbox}
 
 [!DNL Journey Optimizer] vous permet de partitionner votre instance en environnements virtuels séparés appelés sandbox. Les sandbox sont affectées par le biais de rôles dans les autorisations. [Découvrez comment affecter des sandbox](permissions.md#create-product-profile).
 
