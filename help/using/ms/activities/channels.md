@@ -7,10 +7,10 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: ffe1e77c-6c4f-4f23-9183-d715a4c7c402
-source-git-commit: bdc584c1aae0c735d81dfc95e11f96f755bea26a
+source-git-commit: 960c7ab18cdca6e34c06f2dc6672aefdb5340ef0
 workflow-type: tm+mt
-source-wordcount: '900'
-ht-degree: 71%
+source-wordcount: '892'
+ht-degree: 68%
 
 ---
 
@@ -28,7 +28,7 @@ Commencez à créer votre campagne orchestrée avec les activités pertinentes :
 
 * Avant d’insérer une activité de canal, vous devez définir l’audience. L’audience est la cible principale de votre diffusion : les profils qui reçoivent les messages.
 
-* Pour envoyer une diffusion récurrente, lancez votre campagne orchestrée avec une activité **Planificateur**. Vous pouvez également utiliser une activité **Planificateur** pour les diffusions ponctuelles afin de définir la date de contact de celles-ci. Cette date de contact peut également être définie dans les paramètres de la diffusion. Consultez [cette section](scheduler.md).
+* Pour envoyer une diffusion récurrente, lancez votre campagne orchestrée avec une activité **Planificateur**. Vous pouvez également utiliser une activité **Planificateur** pour les diffusions ponctuelles afin de définir la date de contact de celles-ci. Cette date de contact peut également être définie dans les paramètres de diffusion.
 
 ## Configurer une activité de canal {#create-a-delivery-in-a-workflow}
 
@@ -64,7 +64,7 @@ Pour configurer une diffusion dans le cadre d&#39;une campagne orchestrée, proc
 1. Sélectionnez le **Type de diffusion** : unique ou récurrent.
 
    * **Diffusion unique** : il s’agit d’une diffusion ponctuelle, envoyée une seule fois, par exemple un e-mail pour le Black Friday.
-   * **Diffusion récurrente** : cette diffusion est envoyée plusieurs fois en fonction de sa fréquence d’exécution définie dans une [activité Planificateur](scheduler.md). Chaque fois que la campagne orchestrée s’exécute, l’audience est recalculée et la diffusion est envoyée à l’audience mise à jour, avec le contenu mis à jour. Il peut s’agir d’une newsletter hebdomadaire ou d’un e-mail d’anniversaire récurrent.
+   * Une **diffusion récurrente** est envoyée plusieurs fois en fonction de sa fréquence d’exécution. Chaque fois que la campagne orchestrée s’exécute, l’audience est recalculée et la diffusion est envoyée à l’audience mise à jour, avec le contenu mis à jour. Il peut s’agir d’une newsletter hebdomadaire ou d’un e-mail d’anniversaire récurrent.
 
 1. Choisissez un **modèle** de diffusion. Les modèles sont des paramètres de diffusion préconfigurés, spécifiques à un canal. Un modèle intégré est disponible pour chaque canal et prérempli par défaut.
 
