@@ -6,10 +6,10 @@ description: Découvrez comment commencer avec des campagnes orchestrées
 hide: true
 hidefromtoc: true
 exl-id: 611dd06d-aa18-4fa3-a477-8a910cec21d8
-source-git-commit: 3d380d2d02eb7043aebcffd00bb2092e7341b0d5
+source-git-commit: c41d7e7543f3254479f63d4e104f471192e63632
 workflow-type: tm+mt
-source-wordcount: '402'
-ht-degree: 18%
+source-wordcount: '527'
+ht-degree: 14%
 
 ---
 
@@ -20,8 +20,8 @@ ht-degree: 18%
 **Table des matières**
 
 * Prise en main des campagnes orchestrées - [Principes clés](gs-campaign-creation.md)
-* Configuration : [Utilisation de schémas](ms-schemas.md) - [Utilisation de variables d’événement](event-variables.md)
-* Prise en main : [Créer une campagne orchestrée](create-ms-campaign.md) - [Configurer les paramètres de la campagne](ms-campaign-settings.md) - [Démarrer et surveiller vos campagnes](start-monitor-campaigns.md) - [Commencer avec les activités](activities/about-activities.md) - [Orchestrer les activités](orchestrate-activities.md) - [Personalization](ms-personalization.md)
+* Configuration : [Configurer vos campagnes orchestrées](gs-campaign-config.md) - [Utiliser des schémas](ms-schemas.md) - [Utiliser des variables d’événement](event-variables.md)
+* Prise en main : [Créer une campagne orchestrée](create-ms-campaign.md) - [Configurer les paramètres de la campagne](ms-campaign-settings.md) - [Planifier et démarrer vos campagnes](start-monitor-campaigns.md) - [Commencer avec les activités](activities/about-activities.md) - [Orchestrer les activités](orchestrate-activities.md) - [Personalization](ms-personalization.md)
 * Liste des activités : [Rendez-vous](activities/and-join.md) - [Créer une audience](activities/build-audience.md) - [Modifier la dimension](activities/change-dimension.md) - [Combiner](activities/combine.md) - [Déduplication](activities/deduplication.md) - [Channel actions](activities/channels.md) - [Enrichissement](activities/enrichment.md) - [Fork](activities/fork.md) - [Charger le fichier](activities/load-file.md) - [Enregistrer l’audience](activities/reconciliation.md) - [Scheduler](activities/save-audience.md) - [Split](activities/scheduler.md) - [Test](activities/split.md) - [Mettre à jour les données](activities/test.md) - [Attente](activities/update-data.md) [ ](activities/wait.md)
 
 >[!ENDSHADEBOX]
@@ -41,8 +41,11 @@ Grâce à un environnement graphique complet, vous pouvez concevoir des processu
 
 ## orchestration des parcours et orchestration des campagnes
 
-Parcours ou campagnes - Expliquez les différences, les cas d’utilisation et les bonnes pratiques
+L’orchestration des campagnes est le module principal pour la conception, l’envoi et le suivi des communications de marque à grande échelle. Il permet la distribution automatisée des messages marketing aux audiences ciblées, en exploitant les segments de données existants pour une personnalisation efficace, en combinant des entités de profil et non de profil. Idéale pour les campagnes de sensibilisation, l’orchestration des campagnes assure une diffusion des messages cohérente et efficace, souvent planifiée à l’avance, afin de stimuler l’engagement des clients et de soutenir les objectifs marketing clés.
 
+L’orchestration des campagnes redéfinit la segmentation des audiences en activant plusieurs entités dans Adobe Journey Optimizer et facilite la messagerie ciblée en fonction, par exemple, de statuts, d’événements, de contrats ou de réservations spécifiques. Comme vous pouvez envoyer des communications à des entités autres que des profils, ou créer des requêtes sur n’importe quelle entité, vous pouvez bénéficier d’une vue d’ensemble et capturer une grande étendue d’informations pour créer vos audiences.
+
+Permettant de prendre des décisions basées sur les données, l’orchestration de Campaign exploite plusieurs sources pour un jeu de données enrichi et dynamique.
 
 
 ## Explorons plus en détail
@@ -55,7 +58,7 @@ Maintenant que vous connaissez le b.a.-ba des workflows et leur utilisation dans
 <img alt="Accéder et gérer des workflows" src="assets/do-not-localize/workflow-access.jpeg">
 </a>
 <div>
-<a href="gs-campaign-creation.md"><strong>Principes clés</strong></a>
+<a href="gs-campaign-creation.md"><strong>Étapes de configuration</strong></a>
 </div>
 <p>
 </td>
@@ -63,7 +66,7 @@ Maintenant que vous connaissez le b.a.-ba des workflows et leur utilisation dans
 <a href="create-ms-campaign.md">
 <img alt="Lead" src="assets/do-not-localize/workflow-create.jpeg">
 </a>
-<div><a href="create-ms-campaign.md"><strong>Créer une campagne à plusieurs étapes</strong>
+<div><a href="create-ms-campaign.md"><strong>Créer une campagne orchestrée</strong>
 </div>
 <p>
 </td>
