@@ -3,13 +3,14 @@ solution: Journey Optimizer
 product: journey optimizer
 title: Utiliser l’activité Changement de dimension
 description: Découvrir comment utiliser l’activité « Changement de dimension »
+badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: 83e66f10-93dd-4759-840c-2c83abc42a28
-source-git-commit: 3d380d2d02eb7043aebcffd00bb2092e7341b0d5
+source-git-commit: f0213f1270e9821b61a5dc396e39f5707f8f4b42
 workflow-type: tm+mt
-source-wordcount: '340'
-ht-degree: 67%
+source-wordcount: '288'
+ht-degree: 60%
 
 ---
 
@@ -27,11 +28,12 @@ ht-degree: 67%
 
 L’activité **Changement de dimension** est une activité de **ciblage**. Cette activité permet de modifier la dimension de ciblage au fur et à mesure que vous créez votre campagne orchestrée. Il déplace l’axe en fonction du modèle de données et de la dimension d’entrée.
 
-Par exemple, vous pouvez basculer la dimension de ciblage d’une campagne orchestrée de « Destinataires » vers « Application Abonnés » afin d’envoyer des notifications push aux destinataires ciblés.
+Par exemple, vous pouvez basculer la dimension de ciblage d’une campagne orchestrée de « Profil » vers « Contrats » afin d’envoyer des messages au propriétaire du contrat ciblé.
 
+<!--
 >[!IMPORTANT]
 >
->Notez que les activités **[!UICONTROL Changer la dimension]** et **[!UICONTROL Modifier la source de données]** ne doivent pas être ajoutées sur une même ligne. Si vous devez utiliser les deux activités consécutivement, veillez à inclure une activité **[!UICONTROL Enrichissement]** entre les deux. Cela garantit une bonne exécution et évite les erreurs et conflits potentiels.
+>Please note that the **[!UICONTROL Change Dimension]** and **[!UICONTROL Change Data source]** activities should not be added in one row. If you need to use both activities consecutively, make sure you include an **[!UICONTROL Enrichement]** activity in between them. This ensures proper execution and prevents potential conflicts or errors.-->
 
 ## Configurer l’activité Changement de dimension {#configure}
 
@@ -39,9 +41,9 @@ Pour configurer l’activité **Changement de dimension**, procédez comme suit�
 
 1. Ajoutez une activité **Modifier la dimension** à votre campagne orchestrée.
 
-   ![](../assets/workflow-change-dimension.png)
+   ![](assets/change-dimension.png)
 
-1. Définissez la **Nouvelle dimension cible**. Lors du changement de dimension, tous les enregistrements sont conservés. D’autres options ne sont pas encore disponibles.
+1. Définissez la **Nouvelle dimension cible**. Lors du changement de dimension, tous les enregistrements sont conservés.
 
 1. Exécutez la campagne orchestrée pour afficher le résultat. Comparez les données dans les tables avant et après l’activité de changement de dimension, et comparez la structure des tables de la campagne orchestrée.
 
@@ -51,4 +53,4 @@ Dans cet exemple, nous souhaitons envoyer une diffusion SMS à tous les profils 
 
 Nous utilisons ensuite une activité **[!UICONTROL Modifier la dimension]** pour basculer la dimension de ciblage de la campagne orchestrée sur « Destinataires ». Cela nous permet de cibler les personnes destinataires qui correspondent à la requête.
 
-![](../assets/workflow-change-dimension-example.png)
+![](assets/change-dimension-example.png)
