@@ -3,12 +3,13 @@ solution: Journey Optimizer
 product: journey optimizer
 title: Utiliser l’activité Test dans vos campagnes orchestrées
 description: Découvrez comment utiliser l’activité Test
+badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: edd70849-0a21-45f2-91f3-4774a0cad9dd
-source-git-commit: 3d380d2d02eb7043aebcffd00bb2092e7341b0d5
+source-git-commit: bdc584c1aae0c735d81dfc95e11f96f755bea26a
 workflow-type: tm+mt
-source-wordcount: '386'
+source-wordcount: '387'
 ht-degree: 64%
 
 ---

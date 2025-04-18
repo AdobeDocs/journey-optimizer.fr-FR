@@ -3,12 +3,13 @@ solution: Journey Optimizer
 product: journey optimizer
 title: Utiliser l’activité d’attente dans des campagnes orchestrées
 description: Découvrez comment utiliser l’activité Attente dans les campagnes orchestrées
+badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: 11ef095b-77ec-4e2e-ab4d-49a248354f08
-source-git-commit: 3d380d2d02eb7043aebcffd00bb2092e7341b0d5
+source-git-commit: bdc584c1aae0c735d81dfc95e11f96f755bea26a
 workflow-type: tm+mt
-source-wordcount: '168'
+source-wordcount: '169'
 ht-degree: 85%
 
 ---

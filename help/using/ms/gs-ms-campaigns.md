@@ -3,13 +3,14 @@ solution: Journey Optimizer
 product: journey optimizer
 title: Prise en main des campagnes orchestrées
 description: Découvrez comment commencer avec des campagnes orchestrées
+badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: 611dd06d-aa18-4fa3-a477-8a910cec21d8
-source-git-commit: 94ec0430995c26d6c0eaa68f523675997ed0a327
+source-git-commit: bdc584c1aae0c735d81dfc95e11f96f755bea26a
 workflow-type: tm+mt
-source-wordcount: '529'
-ht-degree: 14%
+source-wordcount: '531'
+ht-degree: 18%
 
 ---
 
@@ -19,12 +20,21 @@ ht-degree: 14%
 
 **Table des matières**
 
-* Prise en main des campagnes orchestrées - [Principes clés](gs-campaign-creation.md)
-* Configuration : [Configurer vos campagnes orchestrées](gs-campaign-config.md) - [Utiliser des schémas](ms-schemas.md) - [Utiliser des variables d’événement](event-variables.md)
-* Prise en main : [Création d’une campagne orchestrée](create-ms-campaign.md) - [Configuration des paramètres de la campagne](ms-campaign-settings.md) - [Prise en main des activités](activities/about-activities.md) - [Orchestration des activités](orchestrate-activities.md) - [Personalization](ms-personalization.md)
-* Liste des activités : [Rendez-vous](activities/and-join.md) - [Créer une audience](activities/build-audience.md) - [Modifier la dimension](activities/change-dimension.md) - [Combiner](activities/combine.md) - [Déduplication](activities/deduplication.md) - [Channel actions](activities/channels.md) - [Enrichissement](activities/enrichment.md) - [Fork](activities/fork.md) - [Charger le fichier](activities/load-file.md) - [Enregistrer l’audience](activities/reconciliation.md) - [Scheduler](activities/save-audience.md) - [Split](activities/scheduler.md) - [Test](activities/split.md) - [Mettre à jour les données](activities/test.md) - [Attente](activities/update-data.md) [ ](activities/wait.md)
+* Prise en main des campagnes orchestrées
+* Configuration
+   * [Configurer vos campagnes orchestrées](gs-campaign-config.md)
+   * [Création de schémas relationnels](ms-schemas.md)
+* Création de votre première campagne orchestrée
+   * [Principes clés](gs-campaign-creation.md)
+   * [Créer une campagne orchestrée](create-ms-campaign.md)
+   * [Configurer les paramètres de la campagne](ms-campaign-settings.md)
+   * [Commencer avec les activités](activities/about-activities.md)
+   * [Orchestrer les activités](orchestrate-activities.md)
+* [Personnalisation](ms-personalization.md)
+* [Tester et valider vos messages](ms-proofs.md)
 * [Planifier et démarrer vos campagnes](start-monitor-campaigns.md)
-* [Surveillance et reporting](reporting-campaigns.md)
+* Liste des activités : [Rendez-vous](activities/and-join.md) - [Créer une audience](activities/build-audience.md) - [Modifier la dimension](activities/change-dimension.md) - [Combiner](activities/combine.md) - [Déduplication](activities/deduplication.md) - [Channel actions](activities/channels.md) - [Enrichissement](activities/enrichment.md) - [Fork](activities/fork.md) - [Charger le fichier](activities/load-file.md) - [Enregistrer l’audience](activities/reconciliation.md) - [Split](activities/save-audience.md) - [Test](activities/split.md) - [Mettre à jour les données](activities/test.md) - [Attente](activities/update-data.md) [ ](activities/wait.md)
+* [Création de rapports](reporting-campaigns.md)
 
 >[!ENDSHADEBOX]
 

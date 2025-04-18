@@ -3,12 +3,13 @@ solution: Journey Optimizer
 product: journey optimizer
 title: Utiliser l’activité Mettre à jour les données dans vos campagnes orchestrées
 description: Découvrez comment utiliser l’activité Mettre à jour les données .
+badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: 68e7c929-5f07-4d5a-9831-690e071947f8
-source-git-commit: 3d380d2d02eb7043aebcffd00bb2092e7341b0d5
+source-git-commit: bdc584c1aae0c735d81dfc95e11f96f755bea26a
 workflow-type: tm+mt
-source-wordcount: '503'
+source-wordcount: '504'
 ht-degree: 74%
 
 ---
