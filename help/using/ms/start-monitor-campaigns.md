@@ -1,19 +1,19 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Démarrer et surveiller les campagnes orchestrées avec Adobe Journey Optimizer
-description: Découvrez comment démarrer et surveiller des campagnes orchestrées avec Adobe Journey Optimizer
+title: Planification et démarrage de campagnes orchestrées avec Adobe Journey Optimizer
+description: Découvrez comment planifier et démarrer des campagnes orchestrées avec Adobe Journey Optimizer
 hide: true
 hidefromtoc: true
 exl-id: 5fc2d1d6-75c3-4b45-bb2b-09982b9bd5ed
-source-git-commit: 3d380d2d02eb7043aebcffd00bb2092e7341b0d5
+source-git-commit: 94ec0430995c26d6c0eaa68f523675997ed0a327
 workflow-type: tm+mt
 source-wordcount: '571'
-ht-degree: 47%
+ht-degree: 46%
 
 ---
 
-# Démarrer et surveiller vos campagnes orchestrées {#start-monitor}
+# Planifier et démarrer vos campagnes orchestrées {#start-monitor}
 
 <!--
 <audio controls><source src="../ms/assets/do-not-localize/sound.mp3" type="audio/mpeg">Your browser does not support the audio element.</audio> -->
@@ -22,7 +22,6 @@ ht-degree: 47%
 >id="ajo_campaign_publication"
 >title="Publier une campagne orchestrée"
 >abstract="Pour lancer votre campagne, vous devez la publier. Assurez-vous que tous les avertissements sont effacés avant la publication."
-
 
 Une fois que vous avez créé et conçu les tâches à effectuer dans la zone de travail, vous pouvez les publier et contrôler leur exécution.
 
