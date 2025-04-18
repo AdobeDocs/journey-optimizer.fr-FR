@@ -8,10 +8,10 @@ role: Data Engineer, Data Architect, Admin
 level: Experienced
 keywords: platform, lac de données, créer, lac, jeux de données, profil
 exl-id: dcdd3c81-0f00-4259-a8a5-9062a4c40b6f
-source-git-commit: 46c4d3081603115db71b01a05f12187cd7e0d34c
+source-git-commit: b27ddcc88ca4b4209c9d29974a0b0d0dbe98cc94
 workflow-type: tm+mt
-source-wordcount: '848'
-ht-degree: 100%
+source-wordcount: '847'
+ht-degree: 87%
 
 ---
 
@@ -37,7 +37,7 @@ Par défaut, seuls les jeux de données que vous avez ingérés s’affichent. S
 
 >[!NOTE]
 >
->À compter du 1er novembre 2024, la segmentation du streaming ne prendra plus en charge l’utilisation des événements d’envoi et d’ouverture provenant des jeux de données de tracking et de commentaires de Journey Optimizer. En outre, à compter de février 2025, un mécanisme de sécurisation sur la durée de vie (TTL) sera déployé dans les jeux de données générés par le système Journey Optimizer. [En savoir plus](datasets-ttl.md)
+>À compter du 1er novembre 2024, la segmentation en flux continu ne prendra plus en charge l’utilisation des événements d’envoi et d’ouverture à partir des jeux de données de suivi et de commentaires de Journey Optimizer. En outre, depuis février 2025, un mécanisme de sécurisation de durée de vie (TTL) est en cours de déploiement sur les jeux de données générés par le système Journey Optimizer. [En savoir plus](datasets-ttl.md)
 
 Sélectionnez le nom d’un jeu de données pour accéder à l’écran Activité du jeu de données et consulter les détails du jeu de données que vous avez sélectionné. L’onglet activité contient un graphique qui permet de visualiser le taux de messages consommé ainsi qu’une liste des lots réussis et en échec.
 
@@ -64,7 +64,7 @@ Les jeux de données système pour Adobe Journey Optimizer sont répertoriés 
 
 * _Scores d’optimisation de l’heure d’envoi / Scores d’engagement_ : scores de sortie de l’IA dédiée au parcours.
 
-Pour consulter la liste complète des champs et attributs de chaque schéma, consultez le [dictionnaire de schémas de Journey Optimizer](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=fr){target="_blank"}.
+Pour consulter la liste complète des champs et attributs de chaque schéma, consultez le dictionnaire de schémas [Journey Optimizer](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=fr){target="_blank"}.
 
 ## Aperçu des jeux de données{#preview-datasets}
 
@@ -78,8 +78,8 @@ Pour créer un jeu de données, commencez par sélectionner **Créer un jeu de d
 
 Vous pouvez effectuer les actions suivantes :
 
-* Créer un jeu de données à partir d’un schéma. [En savoir plus dans cette documentation.](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/user-guide.html?lang=fr#schema){target="_blank"}
-* Créez un jeu de données à partir d’un fichier CSV. [En savoir plus dans cette documentation.](https://experienceleague.adobe.com/docs/experience-platform/ingestion/tutorials/map-a-csv-file.html?lang=fr){target="_blank"}
+* Créer un jeu de données à partir d’un schéma. [En savoir plus dans cette documentation ](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/user-guide.html?lang=fr#schema){target="_blank"}
+* Créez un jeu de données à partir d’un fichier CSV. [En savoir plus dans cette documentation ](https://experienceleague.adobe.com/docs/experience-platform/ingestion/tutorials/map-a-csv-file.html?lang=fr){target="_blank"}
 
 Regardez cette vidéo pour découvrir comment créer un jeu de données, le mapper à un schéma, y ajouter des données et confirmer que les données ont été ingérées.
 
@@ -93,13 +93,13 @@ L’une des principales fonctionnalités de [!DNL Adobe Experience Platform] est
 
 [!DNL Adobe Experience Platform Data Governance] vous permet de gérer les données clients et de garantir la conformité aux réglementations, aux restrictions et aux politiques applicables à l’utilisation des données. Elle joue un rôle clé dans Experience Platform à différents niveaux, notamment dans le catalogage, la traçabilité des données, l’étiquetage de l’utilisation des données, les politiques d’utilisation des données et le contrôle de l’utilisation des données lors d’actions marketing.
 
-En savoir plus sur la gouvernance des données et les libellés d’utilisation des données dans la [documentation sur la gouvernance des données.](https://experienceleague.adobe.com/docs/experience-platform/data-governance/labels/user-guide.html?lang=fr){target="_blank"}
+En savoir plus sur la gouvernance des données et les libellés d’utilisation des données dans la [documentation sur la gouvernance des données](https://experienceleague.adobe.com/docs/experience-platform/data-governance/labels/user-guide.html?lang=fr){target="_blank"}
 
 ## Exemples et cas pratiques{#uc-datasets}
 
 Découvrez comment créer un schéma et un jeu de données et ingérer des données pour ajouter des profils de test dans Adobe Journey Optimizer dans [cet exemple de bout en bout](../audience/creating-test-profiles.md)
 
-Apprenez-en davantage sur la création d’un jeu de données dans la [documentation Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/overview.html?lang=fr){target="_blank"}.
+En savoir plus sur la création de jeux de données dans la documentation de [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/overview.html?lang=fr){target="_blank"}.
 
 Découvrez comment utiliser l’interface utilisateur des jeux de données dans la [documentation de présentation de l’ingestion des données](https://experienceleague.adobe.com/docs/experience-platform/ingestion/home.html?lang=fr){target="_blank"}.
 
@@ -107,5 +107,5 @@ Une liste de cas d’utilisation avec des exemples de requête est disponible [i
 
 >[!MORELIKETHIS]
 >
->* [Présentation de l’ingestion en flux continu](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/overview.html?lang=fr){target="_blank"}
->* [Ingestion de données dans Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/ingestion/tutorials/ingest-batch-data.html?lang=fr){target="_blank"}
+>* [Présentation de l’ingestion par flux](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/overview.html?lang=fr){target="_blank"}
+>* [Ingestion de données dans Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/ingestion/tutorials/ingest-batch-data.html?lang=fr){target="_blank"}

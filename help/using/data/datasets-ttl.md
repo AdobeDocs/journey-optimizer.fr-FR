@@ -8,10 +8,10 @@ role: Data Engineer, Data Architect, Admin
 level: Experienced
 keywords: platform, lac de données, créer, lac, jeux de données, profil
 exl-id: 08633a79-5601-4e36-b8cf-080234956d99
-source-git-commit: 7243da6ecab9bce2afeb86a35d35b7bc94d4d196
+source-git-commit: b27ddcc88ca4b4209c9d29974a0b0d0dbe98cc94
 workflow-type: tm+mt
 source-wordcount: '678'
-ht-degree: 93%
+ht-degree: 91%
 
 ---
 
@@ -22,7 +22,7 @@ Depuis février 2025, un mécanisme de sécurisation de la durée de vie (TTL) 
 * 90 jours pour les données dans la banque de profils
 * 13 mois pour les données du lac de données
 
-Cette modification sera déployée sur les **sandbox client existants** dans une phase ultérieure.
+Cette modification sera déployée dans les **sandbox clients existants** au cours d’une phase ultérieure.
 
 ## Jeux de données affectés {#datasets}
 
