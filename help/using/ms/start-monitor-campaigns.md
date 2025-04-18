@@ -6,10 +6,10 @@ description: Découvrez comment planifier et démarrer des campagnes orchestrée
 hide: true
 hidefromtoc: true
 exl-id: 5fc2d1d6-75c3-4b45-bb2b-09982b9bd5ed
-source-git-commit: bdc584c1aae0c735d81dfc95e11f96f755bea26a
+source-git-commit: cc89e09df989ad4bdfe1ecb855bc2a6eedea9676
 workflow-type: tm+mt
-source-wordcount: '1102'
-ht-degree: 36%
+source-wordcount: '1124'
+ht-degree: 35%
 
 ---
 
@@ -127,9 +127,15 @@ Les indicateurs visuels situés dans le coin supérieur droit de chaque activit�
 
 ## Surveiller les logs et les tâches {#logs-tasks}
 
-La surveillance des logs et des tâches de workflows est une étape essentielle pour analyser vos campagnes orchestrées et vérifier qu&#39;elles s&#39;exécutent correctement. Les logs sont accessibles à partir de l’icône **[!UICONTROL Logs]**, située dans la barre d’outils d’actions et dans le volet des propriétés de chaque activité.
+>[!CONTEXTUALHELP]
+>id="ajo_campaign_logs"
+>title="Journaux et tâches"
+>abstract="L’écran **Logs et tâches** fournit un historique de l’exécution de la campagne orchestrée, enregistrant toutes les actions des utilisateurs et utilisatrices ainsi que les erreurs rencontrées."
+
+La surveillance des logs et des tâches est une étape essentielle pour analyser vos campagnes orchestrées et vérifier qu’elles s’exécutent correctement. Les logs sont accessibles à partir de l’icône **[!UICONTROL Logs]**, située dans la barre d’outils d’actions et dans le volet des propriétés de chaque activité.
 
 Le menu **[!UICONTROL Logs et tâches]** fournit un historique de l’exécution de la campagne orchestrée, enregistrant toutes les actions des utilisateurs et utilisatrices ainsi que les erreurs rencontrées.
+
 ![](assets/workflow-logs.png){zoomable="yes"}
 
 Deux types d’informations sont disponibles :
