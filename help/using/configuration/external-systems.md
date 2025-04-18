@@ -8,10 +8,10 @@ role: User
 level: Beginner
 keywords: externe, API, optimizer, limitation
 exl-id: 27859689-dc61-4f7a-b942-431cdf244455
-source-git-commit: aec3d79ad07ec6904e55afd6fc61ba9b4f403fc8
+source-git-commit: e3ed3d2d662d76c022a7820f3771289b14c8b8b8
 workflow-type: tm+mt
-source-wordcount: '1343'
-ht-degree: 100%
+source-wordcount: '1374'
+ht-degree: 97%
 
 ---
 
@@ -29,7 +29,11 @@ Lorsque Journey Optimizer exécute un appel à une API externe, les mécanismes
 
 1. Les règles de plafonnnement et de limitation sont appliquées : si le taux maximum est atteint, les appels restants sont ignorés ou mis en file d’attente.
 
-2. Temporisation et reprise : si la règle de limitation ou de plafonnement est remplie, Journey Optimizer tente d’effectuer l’appel jusqu’à la fin de la temporisation.
+1. Temporisation et reprise : si la règle de limitation ou de plafonnement est remplie, Journey Optimizer tente d’effectuer l’appel jusqu’à la fin de la temporisation.
+
+>[!TIP]
+>
+>Nous vous recommandons de laisser au moins une minute de mémoire tampon entre la période d’expiration du jeton de l’API externe et votre paramètre de [`cacheDuration` Journey Optimizer](../datasource/external-data-sources.md#custom-authentication-access-token) en particulier sous de lourdes charges de travail, afin d’éviter les incohérences d’expiration et les erreurs 401.
 
 ## API de plafonnement et de limitation {#capping}
 
