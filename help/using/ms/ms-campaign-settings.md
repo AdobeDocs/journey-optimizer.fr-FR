@@ -7,10 +7,10 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: a9bb3782-a4d1-43fe-ae2a-aef3f17ba588
-source-git-commit: bdc584c1aae0c735d81dfc95e11f96f755bea26a
+source-git-commit: 3d33d0bdbaf5b56a68d4ea708ce023c6aaae4811
 workflow-type: tm+mt
-source-wordcount: '1083'
-ht-degree: 22%
+source-wordcount: '1040'
+ht-degree: 20%
 
 ---
 
@@ -104,6 +104,4 @@ Les valeurs possibles sont les suivantes :
 
 * **[!UICONTROL Erreurs consécutives]** : ce champ est disponible lorsque la valeur **[!UICONTROL Ignorer]** est sélectionnée dans le champ **[!UICONTROL En cas d’erreur]**. Vous pouvez indiquer le nombre d’erreurs qui peuvent être ignorées avant l’arrêt du processus. Une fois ce nombre atteint, le statut de la campagne orchestrée passe à **[!UICONTROL Échec]**. Si la valeur de ce champ est 0, la campagne orchestrée ne sera jamais arrêtée, quel que soit le nombre d’erreurs.
 
-## Script d’initialisation {#initialization-script}
 
-Ce **script d’initialisation** vous permet d’initialiser des variables ou de modifier des propriétés d’activité. Cliquez sur le bouton **Modifier le code** et saisissez l’extrait de code à exécuter. Le script est appelé lors de l’exécution de la campagne orchestrée. Consultez la section relative aux [variables d’événement](event-variables.md).
