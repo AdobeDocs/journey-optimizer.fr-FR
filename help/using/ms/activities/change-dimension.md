@@ -7,10 +7,10 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: 83e66f10-93dd-4759-840c-2c83abc42a28
-source-git-commit: f0213f1270e9821b61a5dc396e39f5707f8f4b42
+source-git-commit: 94de60c33c7cf1d8956294aebb91d7533534088f
 workflow-type: tm+mt
-source-wordcount: '288'
-ht-degree: 60%
+source-wordcount: '332'
+ht-degree: 49%
 
 ---
 
@@ -26,7 +26,9 @@ ht-degree: 60%
 >title="Activité Changement de dimension"
 >abstract="Cette activité vous permet de modifier la dimension de ciblage à mesure que vous créez une audience. Elle déplace l’axe en fonction du modèle de données et de la dimension d’entrée. Par exemple, vous pouvez passer de la dimension « contrats » à la dimension « clientèle »."
 
-L’activité **Changement de dimension** est une activité de **ciblage**. Cette activité permet de modifier la dimension de ciblage au fur et à mesure que vous créez votre campagne orchestrée. Il déplace l’axe en fonction du modèle de données et de la dimension d’entrée.
+En tant que spécialiste marketing, vous pouvez basculer la dimension de ciblage d’une entité à une autre entité liée dans une campagne orchestrée et affiner le ciblage de votre audience en fonction de différents jeux de données, par exemple en passant du profilage des utilisateurs au ciblage de leurs actions ou réservations spécifiques.
+
+Pour ce faire, utilisez l’activité de ciblage **Modifier la dimension**. Cette activité permet de modifier la dimension de ciblage au fur et à mesure que vous créez votre campagne orchestrée. Il déplace l’axe en fonction du modèle de données et de la dimension d’entrée.
 
 Par exemple, vous pouvez basculer la dimension de ciblage d’une campagne orchestrée de « Profil » vers « Contrats » afin d’envoyer des messages au propriétaire du contrat ciblé.
 
@@ -41,7 +43,7 @@ Pour configurer l’activité **Changement de dimension**, procédez comme suit�
 
 1. Ajoutez une activité **Modifier la dimension** à votre campagne orchestrée.
 
-   ![](assets/change-dimension.png)
+   ![](../assets/change-dimension.png)
 
 1. Définissez la **Nouvelle dimension cible**. Lors du changement de dimension, tous les enregistrements sont conservés.
 
@@ -53,4 +55,4 @@ Dans cet exemple, nous souhaitons envoyer une diffusion SMS à tous les profils 
 
 Nous utilisons ensuite une activité **[!UICONTROL Modifier la dimension]** pour basculer la dimension de ciblage de la campagne orchestrée sur « Destinataires ». Cela nous permet de cibler les personnes destinataires qui correspondent à la requête.
 
-![](assets/change-dimension-example.png)
+![](../assets/change-dimension-example.png)

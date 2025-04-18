@@ -7,10 +7,10 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: 611dd06d-aa18-4fa3-a477-8a910cec21d8
-source-git-commit: bdc584c1aae0c735d81dfc95e11f96f755bea26a
+source-git-commit: 94de60c33c7cf1d8956294aebb91d7533534088f
 workflow-type: tm+mt
-source-wordcount: '531'
-ht-degree: 18%
+source-wordcount: '535'
+ht-degree: 17%
 
 ---
 
@@ -30,7 +30,8 @@ ht-degree: 18%
    * [Configurer les paramètres de la campagne](ms-campaign-settings.md)
    * [Commencer avec les activités](activities/about-activities.md)
    * [Orchestrer les activités](orchestrate-activities.md)
-* [Personnalisation](ms-personalization.md)
+* [Personnaliser vos messages](ms-personalization.md)*
+* [Créer des requêtes](ms-query-modeler.md)
 * [Tester et valider vos messages](ms-proofs.md)
 * [Planifier et démarrer vos campagnes](start-monitor-campaigns.md)
 * Liste des activités : [Rendez-vous](activities/and-join.md) - [Créer une audience](activities/build-audience.md) - [Modifier la dimension](activities/change-dimension.md) - [Combiner](activities/combine.md) - [Déduplication](activities/deduplication.md) - [Channel actions](activities/channels.md) - [Enrichissement](activities/enrichment.md) - [Fork](activities/fork.md) - [Charger le fichier](activities/load-file.md) - [Enregistrer l’audience](activities/reconciliation.md) - [Split](activities/save-audience.md) - [Test](activities/split.md) - [Mettre à jour les données](activities/test.md) - [Attente](activities/update-data.md) [ ](activities/wait.md)

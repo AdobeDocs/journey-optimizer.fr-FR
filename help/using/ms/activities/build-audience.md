@@ -7,10 +7,10 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: 3959b5fa-0c47-42a5-828f-4d7ca9b7e72d
-source-git-commit: bdc584c1aae0c735d81dfc95e11f96f755bea26a
+source-git-commit: 94de60c33c7cf1d8956294aebb91d7533534088f
 workflow-type: tm+mt
 source-wordcount: '369'
-ht-degree: 61%
+ht-degree: 48%
 
 ---
 
@@ -21,20 +21,20 @@ ht-degree: 61%
 >title="Activité Créer une audience"
 >abstract="L’activité **Créer une audience** vous permet de définir l’audience qui va rejoindre la campagne orchestrée. Lors de l’envoi de messages dans le cadre d’une campagne orchestrée, l’audience du message n’est pas définie dans l’activité de canal, mais dans l’activité **Créer une audience**."
 
-L’activité **Créer une audience** est une activité de **ciblage**. Cette activité permet de définir l’audience qui va rejoindre la campagne orchestrée. Lors de l’envoi de messages dans le cadre d’une campagne orchestrée, l’audience du message n’est pas définie dans l’activité de canal, mais dans l’activité **Créer une audience**.
+En tant que spécialiste marketing, vous pouvez facilement créer des requêtes complexes à l’aide d’une interface conviviale. Cela me permet de segmenter votre audience en fonction d’un large éventail de critères et de comportements, afin d’adapter plus efficacement vos campagnes.
+
+Pour ce faire, utilisez l’activité de ciblage **Créer une audience**. Cette activité permet de définir l’audience qui va rejoindre la campagne orchestrée. Lors de l’envoi de messages dans le cadre d’une campagne orchestrée, l’audience du message n’est pas définie dans l’activité de canal, mais dans l’activité **Créer une audience**.
 
 Pour définir la population de l’audience, vous pouvez :
 
-* sélectionner une audience Adobe Experience Platform ;
+* Sélectionnez une audience existante.
+* Sélectionnez un filtre prédéfini.
 * Créez une audience à l’aide du concepteur de requête en définissant et en combinant des critères de filtrage.
 
 >[!NOTE]
 >
 >Les audiences chargées à partir d’un fichier ne peuvent pas être ciblées à l’aide d’une activité Créer une audience. Pour cela, vous devez utiliser une activité **Chargement de fichier** suivie d&#39;une activité **Réconciliation**.
 
-<!--
-The **Build audience** activity can be placed at the beginning of the workflow or after any other activity. Any activity can be placed after the **Build audience**.
--->
 
 ## Configurer l’activité Créer une audience {#build-audience-configuration}
 
@@ -45,33 +45,20 @@ The **Build audience** activity can be placed at the beginning of the workflow o
 
 Pour configurer l’activité **Créer une audience**, procédez comme suit :
 
-![](../assets/workflow-audience.png)
+![](../assets/build-audience.png)
 
 1. Ajoutez une activité **Créer une audience**.
 1. Définissez un libellé.
 1. Définissez le type d’audience : **Créer votre audience** ou **Lecture d’audience**.
 1. Configurez votre audience en suivant les étapes présentées dans les onglets ci-dessous.
 
->[!BEGINTABS]
-
->[!TAB Créer votre propre (requête)]
 
 Pour créer votre propre requête, procédez comme suit :
 
 1. Sélectionnez **Créer la vôtre (requête)**.
 1. Choisissez la **dimension de ciblage**. La dimension de ciblage permet de définir la population ciblée par l’opération : personnes destinataires, personnes bénéficiaires d’un contrat, opérateurs et opératrices, personnes abonnées, etc. Par défaut, la cible est sélectionnée parmi les destinataires.
 1. Cliquez sur **Continuer**.
-1. Utilisez le modéliseur de requête pour définir votre requête, de la même manière que vous créez une audience lors de la conception d’un e-mail.
-
->[!TAB Lecture d’audience]
-
-Pour sélectionner une audience existante, procédez comme suit :
-
-1. Sélectionnez **Lecture d’audience**.
-1. Cliquez sur **Continuer**.
-1. Sélectionnez votre audience de la même manière que vous utilisez une audience lors de la conception d’une nouvelle diffusion.
-
->[!ENDTABS]
+1. Utilisez le modéliseur de requête pour définir votre requête. [En savoir plus sur Query Modeler dans cette section](../ms-query-modeler.md)
 
 ## Exemples{#build-audience-examples}
 
