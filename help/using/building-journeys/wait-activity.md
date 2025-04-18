@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: attente, activité, parcours, suivant, zone de travail
 exl-id: 7268489a-38c1-44da-b043-f57aaa12d7d5
-source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
+source-git-commit: da7d895fcc724e6b1c0d6480f6a8693037a03752
 workflow-type: tm+mt
-source-wordcount: '598'
-ht-degree: 97%
+source-wordcount: '649'
+ht-degree: 89%
 
 ---
 
@@ -47,9 +47,13 @@ Une personne ne peut entrer dans une activité **Attente** que si elle dispose d
 
 La bonne pratique est de ne pas utiliser d’activités **Attente** pour bloquer une rentrée. Utilisez plutôt l’option **Autoriser la rentrée** au niveau des propriétés du parcours. En savoir plus sur [cette page](../building-journeys/journey-properties.md#entrance).
 
-### Attente et mode test {#wait-test-modd}
+### Attente et mode test {#wait-test-mode}
 
 En mode test, le paramètre **[!UICONTROL Durée d’attente en test]** vous permet de définir la durée de chaque activité **Attente**. La valeur par défaut est de 10 secondes. Vous obtiendrez ainsi rapidement les résultats du test. En savoir plus sur [cette page](../building-journeys/testing-the-journey.md).
+
+### Canaux d’attente et mobiles {#wait-mobile-channels}
+
+Si vous souhaitez afficher un [message in-app](../in-app/create-in-app.md) peu de temps après l’envoi d’une [notification push](../push/get-started-push.md), utilisez une activité **Attente** pour permettre à la payload du message in-app de se propager. En règle générale, une attente de 5 à 15 minutes est recommandée, mais les heures exactes peuvent varier en fonction de la complexité de la payload et des besoins de personnalisation.
 
 ## Configuration {#wait-configuration}
 
@@ -88,7 +92,7 @@ La bonne pratique consiste à utiliser des dates personnalisées spécifiques à
 
 Pour vérifier que l’activité d’attente fonctionne comme prévu, vous pouvez utiliser des événements d’étape. [En savoir plus](../reports/query-examples.md#common-queries).
 
-## Nœud d’attente automatique   {#auto-wait-node}
+## Nœud d’attente automatique  {#auto-wait-node}
 
 
 >[!CONTEXTUALHELP]
