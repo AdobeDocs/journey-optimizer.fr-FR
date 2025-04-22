@@ -7,10 +7,10 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: 02f986b2-8200-4e0e-8918-44e528a6a3ec
-source-git-commit: 960c7ab18cdca6e34c06f2dc6672aefdb5340ef0
+source-git-commit: d75e1fdda85c2e29c53fbabf4d33efeb48a786ab
 workflow-type: tm+mt
-source-wordcount: '445'
-ht-degree: 56%
+source-wordcount: '426'
+ht-degree: 54%
 
 ---
 
@@ -44,7 +44,6 @@ Ces activités sont spécifiques au ciblage. Elles permettent de construire une 
 Ces activités sont spécifiques à la manipulation et à l’enrichissement des données de population.
 
 * [Chargement de fichier](load-file.md) : utilisez des profils et des données stockés dans un fichier externe.
-* [Mise à jour des données](update-data.md) : effectuez des mises à jour en masse des champs de la base de données. Plusieurs options vous permettent de personnaliser la mise à jour des données.
 
 ## Activités de canal {#channel}
 
