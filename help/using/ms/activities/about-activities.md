@@ -7,10 +7,10 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: 02f986b2-8200-4e0e-8918-44e528a6a3ec
-source-git-commit: d75e1fdda85c2e29c53fbabf4d33efeb48a786ab
+source-git-commit: a6b293a5eb1358f692d53c9611b794cf8f7fc753
 workflow-type: tm+mt
-source-wordcount: '426'
-ht-degree: 54%
+source-wordcount: '401'
+ht-degree: 51%
 
 ---
 
@@ -38,12 +38,6 @@ Ces activités sont spécifiques au ciblage. Elles permettent de construire une 
 * [Réconciliation](reconciliation.md) : permet de définir le lien entre les données des données Journey Optimizer et les données d&#39;une table de travail, par exemple les données chargées depuis un fichier externe.
 * [Sauvegarde d&#39;audience](save-audience.md) : mettez à jour une audience existante ou créez une audience à partir de la population calculée en amont dans une campagne orchestrée.
 * [Partage](split.md) : segmentez la population entrante en plusieurs sous-ensembles.
-
-## Activités de gestion des données {#data}
-
-Ces activités sont spécifiques à la manipulation et à l’enrichissement des données de population.
-
-* [Chargement de fichier](load-file.md) : utilisez des profils et des données stockés dans un fichier externe.
 
 ## Activités de canal {#channel}
 

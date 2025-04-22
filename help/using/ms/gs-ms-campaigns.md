@@ -7,9 +7,9 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: 611dd06d-aa18-4fa3-a477-8a910cec21d8
-source-git-commit: d75e1fdda85c2e29c53fbabf4d33efeb48a786ab
+source-git-commit: a6b293a5eb1358f692d53c9611b794cf8f7fc753
 workflow-type: tm+mt
-source-wordcount: '533'
+source-wordcount: '531'
 ht-degree: 18%
 
 ---
@@ -34,7 +34,7 @@ ht-degree: 18%
 * [Créer des requêtes](ms-query-modeler.md)
 * [Tester et valider vos messages](ms-proofs.md)
 * [Planifier et démarrer vos campagnes](start-monitor-campaigns.md)
-* Liste des activités : [Rendez-vous](activities/and-join.md) - [Créer une audience](activities/build-audience.md) - [Modifier la dimension](activities/change-dimension.md) - [Combiner](activities/combine.md) - [Déduplication](activities/deduplication.md) - [Actions de canal](activities/channels.md) - [Enrichissement](activities/enrichment.md) - [Fork](activities/fork.md) - [Charger le fichier](activities/load-file.md) - [Enregistrer l’audience](activities/reconciliation.md) - [Split](activities/save-audience.md) - [Test](activities/split.md) - [Wait](activities/test.md) [ ](activities/wait.md)
+* Liste des activités : [Rendez-vous](activities/and-join.md) - [Créer une audience](activities/build-audience.md) - [Modifier la dimension](activities/change-dimension.md) - [Combiner](activities/combine.md) - [Déduplication](activities/deduplication.md) - [Channel actions](activities/channels.md) - [Enrichissement](activities/enrichment.md) - [Fork](activities/fork.md) - [Reconciliation](activities/reconciliation.md) - [Enregistrer l’audience](activities/save-audience.md) - [Split](activities/split.md) - [Test](activities/test.md) - [Wait](activities/wait.md)
 * [Création de rapports](reporting-campaigns.md)
 
 >[!ENDSHADEBOX]

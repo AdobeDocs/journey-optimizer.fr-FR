@@ -7,10 +7,10 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: 0d5cfffe-bc6c-40bc-b3e1-5b44368ac76f
-source-git-commit: bdc584c1aae0c735d81dfc95e11f96f755bea26a
+source-git-commit: a6b293a5eb1358f692d53c9611b794cf8f7fc753
 workflow-type: tm+mt
-source-wordcount: '693'
-ht-degree: 71%
+source-wordcount: '560'
+ht-degree: 76%
 
 ---
 
@@ -93,33 +93,3 @@ Pour configurer l’activité **Réconciliation**, procédez comme suit :
 1. Vous pouvez filtrer les données à réconcilier à l’aide du bouton **Créer un filtre**. Vous pouvez ainsi créer une condition personnalisée à l’aide du concepteur de requête.
 
 Par défaut, les données non réconciliées sont conservées dans la transition sortante et disponibles dans la table de travail pour une utilisation ultérieure. Pour supprimer les données non réconciliées, désactivez l’option **Conserver les données non réconciliées**.
-
-## Exemple {#reconciliation-example}
-
-L’exemple suivant illustre une campagne orchestrée qui crée une audience de profils directement à partir d’un fichier importé contenant de nouveaux clients. Il se compose des activités suivantes :
-
-La campagne orchestrée est conçue comme suit :
-
-![](../assets/workflow-reconciliation-sample-1.0.png)
-
-
-Il est créé avec les activités suivantes :
-
-* Une activité [Chargement de fichier](load-file.md) charge un fichier contenant les données de profil extraites d’un outil externe.
-
-  Par exemple :
-
-  ```
-  lastname;firstname;email;birthdate;
-  JACKMAN;Megan;megan.jackman@testmail.com;07/08/1975;
-  PHILLIPS;Edward;phillips@testmail.com;09/03/1986;
-  WEAVER;Justin;justin_w@testmail.com;11/15/1990;
-  MARTIN;Babe;babeth_martin@testmail.net;11/25/1964;
-  REESE;Richard;rreese@testmail.com;02/08/1987;
-  ```
-
-* Une activité **Réconciliation** qui identifie les données entrantes sous forme de profils, en utilisant les champs **E-mail** et **Date de naissance** comme critères de réconciliation.
-
-  ![](../assets/workflow-reconciliation-sample-1.1.png)
-
-* Une activité [Sauvegarde d’audience](save-audience.md) pour créer une audience à partir de ces mises à jour. Vous pouvez également remplacer l’activité **Sauvegarde d’audience** par une activité **Fin** si aucune audience spécifique ne doit être créée ou mise à jour. Les profils des destinataires sont mis à jour dans tous les cas lorsque vous exécutez la campagne orchestrée.
