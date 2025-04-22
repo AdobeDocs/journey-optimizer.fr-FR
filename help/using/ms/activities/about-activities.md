@@ -7,7 +7,7 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: 02f986b2-8200-4e0e-8918-44e528a6a3ec
-source-git-commit: 97beaa01e33a5297815b43651019629fc9637f9a
+source-git-commit: 733b08dff82f0d6f0f62d2e7644aeee493a69503
 workflow-type: tm+mt
 source-wordcount: '394'
 ht-degree: 51%
@@ -24,13 +24,13 @@ Toutes les activités sont présentées dans les sections ci-dessous :
 * [Activités de canal](#channel)
 * [Activités de contrôle de flux](#flow-control)
 
-![Liste des activités disponibles dans la zone de travail](../assets/workflow-activities.png){width="70%" align="left"}
+![Liste des activités disponibles dans la zone de travail](../assets/workflow-activities.png){width="80%" align="left"}
 
 ## Activités de ciblage {#targeting}
 
 Ces activités sont spécifiques au ciblage. Elles permettent de construire une ou plusieurs cibles en définissant une audience, puis en partageant ou en combinant ces audiences à l’aide des opérations d’intersection, d’union ou d’exclusion.
 
-![Liste des activités de ciblage](../assets/targeting-activities.png){width="50%" align="left"}
+![Liste des activités de ciblage](../assets/targeting-activities.png){width="40%" align="left"}
 
 * [Créer une audience](build-audience.md) : définissez votre population cible. Vous pouvez sélectionner une audience existante ou utiliser le concepteur de requête pour définir votre propre requête.
 * [Modifier la dimension](change-dimension.md) : modifiez la dimension de ciblage au fur et à mesure que vous créez votre campagne orchestrée.
@@ -51,7 +51,7 @@ Adobe Journey Optimizer vous permet d’automatiser et d’exécuter des campagn
 >title="Activité de fin"
 >abstract="L’activité **Fin** vous permet de marquer graphiquement la fin d’une campagne orchestrée. Cette activité n’a aucun impact fonctionnel et est donc facultative."
 
-![Liste des activités de contrôle de flux](../assets/flow-control-activities.png){width="50%" align="left"}
+![Liste des activités de contrôle de flux](../assets/flow-control-activities.png){width="30%" align="left"}
 
 
 Les activités suivantes sont spécifiques à l&#39;organisation et à l&#39;exécution de campagnes orchestrées. Leur principale tâche est de coordonner les autres activités :
