@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: activité, parcours, lecture, audience, platform
 exl-id: 7b27d42e-3bfe-45ab-8a37-c55b231052ee
-source-git-commit: 48a1ef9a48cecddf340031fcbbec4fe574cb2839
+source-git-commit: ca51c88c122cce23364b86a1da8900d0d5b37aaf
 workflow-type: tm+mt
-source-wordcount: '1786'
+source-wordcount: '1783'
 ht-degree: 93%
 
 ---
@@ -52,13 +52,13 @@ ht-degree: 93%
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_read_segment_scheduler_synchronize_audience"
->title="Synchroniser l’exécution du parcours avec l’exportation de l’audience"
->abstract="Activez cette option pour déclencher le parcours une fois qu’une nouvelle exportation de l’audience est disponible."
+>title="Déclencheur après l’évaluation de l’audience par lots"
+>abstract="Activez cette option pour déclencher l’exécution du parcours après une nouvelle évaluation de l’audience par lots."
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_read_segment_scheduler_synchronize_audience_wait_time"
->title="Synchroniser l’exécution du parcours avec l’exportation de l’audience"
->abstract="Spécifiez la durée pendant laquelle le parcours attendra pour s’assurer qu’une nouvelle exportation de l’audience est disponible."
+>title="Temps d’attente pour une nouvelle évaluation de l’audience"
+>abstract="Indiquez la durée pendant laquelle le parcours attendra que l’audience par lots soit à nouveau évaluée."
 
 Utilisez l’activité **Lecture d’audience** pour que toutes les personnes d’une audience rejoignent le parcours. L’entrée dans un parcours peut être effectuée une fois, ou régulièrement.
 
