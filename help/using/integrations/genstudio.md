@@ -8,10 +8,10 @@ topic: Content Management, Artificial Intelligence
 role: User
 level: Beginner, Intermediate
 exl-id: c22a44a8-e4e2-453a-9ca2-b80f7c0edc19
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+source-git-commit: 9d87d133bb580ebed94a265beded5895f7fd0301
 workflow-type: tm+mt
-source-wordcount: '646'
-ht-degree: 11%
+source-wordcount: '622'
+ht-degree: 12%
 
 ---
 
@@ -24,17 +24,17 @@ ht-degree: 11%
 
 >[!AVAILABILITY]
 >
->L’intégration de GenStudio dans [!DNL Adobe Journey Optimizer] n’est actuellement pas disponible pour être utilisée avec les offres complémentaires **Healthcare Shield** ou **Privacy and Security Shield**.
+>L’intégration de GenStudio dans [!DNL Adobe Journey Optimizer] n’est actuellement pas disponible pour une utilisation avec les offres complémentaires **Healthcare Shield** ou **Privacy and Security Shield**.
 >
->Cette fonctionnalité est disponible uniquement pour le canal Email.
+>Cette fonctionnalité est disponible uniquement pour le canal e-mail.
 
-[Adobe GenStudio for Performance Marketing](https://business.adobe.com/fr/products/genstudio-for-performance-marketing.html){target="_blank"}{target=« _blank »} est une application IA générative qui permet aux équipes marketing de créer leurs propres annonces et e-mails afin de générer des campagnes marketing personnalisées et percutantes, qui respectent les normes de votre marque et sont conformes à vos politiques d’entreprise. En utilisant la technologie d’IA d’Adobe, il fournit une suite complète d’outils qui simplifient les complexités de la création et de la gestion de contenu afin que les créatifs puissent se concentrer sur l’innovation.
+[Adobe GenStudio for Performance Marketing](https://business.adobe.com/fr/products/genstudio-for-performance-marketing.html){target="_blank"} est une application générée, basée sur l’IA, qui permet aux équipes marketing de créer leurs propres annonces et e-mails afin de générer des campagnes marketing personnalisées et percutantes, conformes à vos normes de marque et à vos politiques d’entreprise. En utilisant la technologie d’IA d’Adobe, il fournit une suite complète d’outils qui simplifient les complexités de la création et de la gestion de contenu afin que les créatifs puissent se concentrer sur l’innovation.
 
-En savoir plus sur [!DNL GenStudio for Performance Marketing] dans la [documentation](https://experienceleague.adobe.com/fr/docs/genstudio-for-performance-marketing/user-guide/home){target="_blank"}{target=« _blank »} dédiée.
+En savoir plus sur les [!DNL GenStudio for Performance Marketing] dans la [documentation](https://experienceleague.adobe.com/fr/docs/genstudio-for-performance-marketing/user-guide/home){target="_blank"} dédiée.
 
 >[!INFO]
 >
->Pour en savoir plus, consultez cet [aperçu](https://business.adobe.com/products/genstudio-for-performance-marketing.html#watch-overview){target="_blank"}{target=« _blank »} et une [démonstration](https://business.adobe.com/products/genstudio-for-performance-marketing.html#demo){target="_blank"}{target=« _blank »} de [!DNL Adobe GenStudio for Performance Marketing].
+>Pour en savoir plus, consultez cette [présentation](https://business.adobe.com/products/genstudio-for-performance-marketing.html#watch-overview){target="_blank"} et une [démonstration](https://business.adobe.com/products/genstudio-for-performance-marketing.html#demo){target="_blank"} de [!DNL Adobe GenStudio for Performance Marketing].
 
 <!--To access the GenStudio integration in [!DNL Adobe Journey Optimizer] feature, users need to be granted the **xxx** permission. [Learn more](../administration/permissions.md)
 
@@ -50,7 +50,7 @@ Pour améliorer l’efficacité marketing et maintenir la cohérence de la marqu
 
 General guidelines for using the GenStudio integration in [!DNL Adobe Journey Optimizer] for email generation are listed below:
 
-See if guidelines/limitations such as the ones listed [here](gs-generative.md#generative-guardrails) for the AI Assistant can apply.
+See if guidelines/limitations such as the ones listed [here](gs-generative.md#generative-guardrails) for AI Assistant can apply.
 
 The following limitations apply to GenStudio integration in [!DNL Adobe Journey Optimizer]:-->
 
@@ -70,19 +70,19 @@ Tout d’abord, vous pouvez exporter un modèle HTML [!DNL Journey Optimizer], y
 
 1. Dans le Designer d’e-mail, sélectionnez **[!UICONTROL Exporter HTML]** à partir du bouton **[!UICONTROL Plus]**.
 
-   ![](assets/genstudio-export-template.png){zoomable="yes"}{zoomable=&quot;yes&quot;}
+   ![](assets/genstudio-export-template.png){zoomable="yes"}
 
 1. Chargez ce modèle exporté HTML dans [!DNL GenStudio for Performance Marketing]. <!--Make sure you detect the fields that the generative AI uses to insert content in order to create an actionable template.-->
 
    >[!NOTE]
    >
-   >Découvrez comment télécharger un modèle HTML dans [!DNL GenStudio] dans la section dédiée [Guide de l’utilisateur d’Adobe GenStudio for Performance Marketing](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/content/templates/use-templates#templates-from-ajo-and-marketo){target="_blank"}{target=« _blank »}.
+   >Découvrez comment télécharger un modèle HTML dans [!DNL GenStudio] dans la section dédiée au [Guide de l’utilisateur d’Adobe GenStudio for Performance Marketing](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/content/templates/use-templates#templates-from-ajo-and-marketo){target="_blank"}.
 
 1. Dans GenStudio, utilisez ce modèle pour créer plusieurs variations d’e-mail avec des invites d’IA et les enregistrer.
 
    >[!NOTE]
    >
-   >Découvrez comment créer des expériences e-mail dans la [section](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/create/create-email-experience){target="_blank"}{target=« _blank »} dédiée à GenStudio.
+   >Découvrez comment créer des expériences e-mail dans la [section](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/create/create-email-experience){target="_blank"} dédiée à GenStudio.
 
 ### Utilisation des expériences GenStudio dans Journey Optimizer {#leverage-genstudio-experiences}
 
@@ -94,7 +94,7 @@ Pour tirer parti des variations d’e-mail [!DNL GenStudio] que vous venez de cr
 
 1. Sur la page d&#39;accueil d&#39;Email Designer, sélectionnez **[!UICONTROL Importer HTML]** et cliquez sur le bouton **[!UICONTROL Adobe GenStudio for Performance Marketing]**.
 
-   ![](assets/genstudio-pem-import-email.png){zoomable="yes"}{zoomable=&quot;yes&quot;}
+   ![](assets/genstudio-pem-import-email.png){zoomable="yes"}
 
 1. Parcourez les expériences GenStudio pour commencer à créer votre contenu. Vous pouvez filtrer les expériences selon plusieurs critères tels que les produits, les rôles, les marques ou même les couleurs.
 
@@ -102,15 +102,15 @@ Pour tirer parti des variations d’e-mail [!DNL GenStudio] que vous venez de cr
 
 1. Sélectionnez une expérience et cliquez sur **[!UICONTROL Utiliser]**.
 
-   ![](assets/genstudio-use-experience.png){zoomable="yes"}{zoomable=&quot;yes&quot;}
+   ![](assets/genstudio-use-experience.png){zoomable="yes"}
 
 1. Sélectionnez le dossier dans lequel vous souhaitez importer l’expérience GenStudio.
 
-   ![](assets/genstudio-choose-destination.png){zoomable="yes"}{zoomable=&quot;yes&quot;}
+   ![](assets/genstudio-choose-destination.png){zoomable="yes"}
 
 1. Le contenu sélectionné s’affiche dans le Designer d’e-mail.
 
-   ![](assets/genstudio-email-content.png){zoomable="yes"}{zoomable=&quot;yes&quot;}
+   ![](assets/genstudio-email-content.png){zoomable="yes"}
 
    >[!NOTE]
    >
@@ -124,7 +124,7 @@ Pour tirer parti des variations d’e-mail [!DNL GenStudio] que vous venez de cr
 
 1. Créez plusieurs traitements et répétez les étapes ci-dessus pour importer et exploiter rapidement les autres variations d’expérience d’e-mail que vous avez créées dans [!DNL GenStudio].
 
-   ![](assets/genstudio-define-treatments.png){zoomable="yes"}{zoomable=&quot;yes&quot;}
+   ![](assets/genstudio-define-treatments.png){zoomable="yes"}
 
 1. Enregistrez vos modifications et [activez](../campaigns/review-activate-campaign.md) la campagne.
 

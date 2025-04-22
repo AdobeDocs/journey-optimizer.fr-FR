@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 958ad2bb-b62e-431d-8ad6-7b294cbba544
-source-git-commit: 5cfae89416219fac54d310d9fa3f40fdfdd8878e
+source-git-commit: 9d87d133bb580ebed94a265beded5895f7fd0301
 workflow-type: tm+mt
-source-wordcount: '529'
-ht-degree: 100%
+source-wordcount: '523'
+ht-degree: 79%
 
 ---
 
@@ -29,7 +29,7 @@ ht-degree: 100%
 
 1. Ouvrez la section **[!UICONTROL Assistant IA]**.
 
-1. Activez la fonctionnalité **[!UICONTROL Utiliser le contenu original]** de l’Assistant IA afin de personnaliser le nouveau contenu en fonction des détails de votre campagne, y compris le nom de la campagne et l’audience ciblée.
+1. Activez la fonction **[!UICONTROL Utiliser le contenu d’origine]** dans l’assistant AI pour personnaliser le nouveau contenu en fonction des détails de votre campagne, y compris le nom de la campagne et l’audience ciblée.
 
 1. Ajustez le contenu en spécifiant votre requête dans la zone **[!UICONTROL Prompt]** et personnalisez les paramètres selon vos besoins.
 
@@ -57,13 +57,13 @@ Lorsque vous avez défini le contenu, l’audience et le planning, vous pouvez p
 
    * **[!UICONTROL Utiliser comme contenu de référence]** : la variation sélectionnée servira de référence pour générer plus de contenu.
 
-   * **[!UICONTROL Développer]** : laissez l’assistant IA développer certains points, offrant plus de détails et de profondeur pour un meilleur engagement.
+   * **[!UICONTROL Développer]** : laissez AI Assistant développer certains points, en offrant plus de profondeur et de détails pour un meilleur engagement.
 
-   * **[!UICONTROL Résumer]** : pour obtenir de longues informations, utilisez l’assistant IA afin de créer des résumés concis plus faciles à condenser pour les destinataires d’e-mails.
+   * **[!UICONTROL Résumer]** : pour obtenir des informations détaillées, utilisez l’assistant AI afin de créer des résumés concis qui seront plus faciles à résumer pour les destinataires d’e-mails.
 
    * **[!UICONTROL Reformuler]** : l’assistant IA peut présenter votre message de différentes manières, ce qui permet de maintenir le contenu à jour pour diverses audiences.
 
-   * **[!UICONTROL Utiliser un langage plus simple]** : simplifiez la langue avec l’assistant IA afin de garantir que le message est clair et accessible à tout le lectorat.
+   * **[!UICONTROL Utiliser un langage plus simple]** : simplifiez la langue à l’aide de l’assistant AI pour vous assurer que le message est clair et accessible à tous les lecteurs.
 
    Vous pouvez également modifier le **[!UICONTROL ton]** et la **[!UICONTROL stratégie de communication]** de votre texte.
 
@@ -95,11 +95,11 @@ Lorsque vous avez défini le contenu, l’audience et le planning, vous pouvez p
 
 1. Après avoir défini et configuré votre campagne par e-mail, cliquez sur **[!UICONTROL Modifier le contenu]**.
 
-1. Sélectionnez la ressource à modifier à l’aide de l’Assistant IA.
+1. Sélectionnez la ressource à modifier à l’aide de l’assistant AI.
 
 1. Dans le menu de droite, sélectionnez **[!UICONTROL Assistant IA]**.
 
-1. Activez l’option **[!UICONTROL Référence stylistique]** afin que l’Assistant IA puisse générer un nouveau contenu à l’aide du matériel de référence.
+1. Activez l’option **[!UICONTROL Style de référence]** afin que l’assistant AI puisse générer du nouveau contenu à l’aide du matériau de référence.
 
 1. Cliquez sur **[!UICONTROL Charger l’image]** pour inclure une image qui ajoute du contexte à votre variation.
 

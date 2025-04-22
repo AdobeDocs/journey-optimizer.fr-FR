@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: d3bae15a3b9ae53c4f520a3867026c47938bcd62
+source-git-commit: 9d87d133bb580ebed94a265beded5895f7fd0301
 workflow-type: tm+mt
-source-wordcount: '1251'
-ht-degree: 77%
+source-wordcount: '1249'
+ht-degree: 75%
 
 ---
 
@@ -103,8 +103,8 @@ Cette page répertorie toutes les mises à jour récentes de la documentation de
 * Toutes les nouvelles fonctionnalités et améliorations de la version de février 2024 de [!DNL Journey Optimizer] ont été présentées dans la documentation. [En savoir plus](release-notes.md)
 * Ajout d’une section sur la gestion des reprises de parcours. [En savoir plus](../building-journeys/read-audience.md#read-audience-retry)
 * Mise à jour des questions fréquentes sur la règle de capping et de limitation pour les actions personnalisées afin de mentionner la règle de capping par défaut. [En savoir plus](../configuration/external-systems.md#faq)
-* La section Accès au contrôle a été mise à jour avec des autorisations liées au générateur de contenu de l’assistant IA. [En savoir plus](../administration/high-low-permissions.md#ai-permission)
-* Une vidéo sur le générateur de contenu de l’assistant IA pour la génération d’e-mails a été ajoutée. [En savoir plus](../content-management/generative-email.md#video)
+* La section Contrôle de l’accès a été mise à jour avec des autorisations liées à l’IA Assistant Content Generator. [En savoir plus](../administration/high-low-permissions.md#ai-permission)
+* Ajout d’une vidéo sur l’IA Assistant Content Generator pour la génération d’e-mails. [En savoir plus](../content-management/generative-email.md#video)
 
 <!--
 
