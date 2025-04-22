@@ -7,9 +7,9 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: 02f986b2-8200-4e0e-8918-44e528a6a3ec
-source-git-commit: a6b293a5eb1358f692d53c9611b794cf8f7fc753
+source-git-commit: 97beaa01e33a5297815b43651019629fc9637f9a
 workflow-type: tm+mt
-source-wordcount: '401'
+source-wordcount: '394'
 ht-degree: 51%
 
 ---
@@ -20,15 +20,17 @@ Les activités de campagne orchestrées sont regroupées en trois catégories. S
 
 Toutes les activités sont présentées dans les sections ci-dessous :
 
-* [Activités de ciblage et de gestion des données](#targeting)
+* [Activités de ciblage](#targeting)
 * [Activités de canal](#channel)
 * [Activités de contrôle de flux](#flow-control)
 
-![](../assets/workflow-activities.png)
+![Liste des activités disponibles dans la zone de travail](../assets/workflow-activities.png){width="70%" align="left"}
 
 ## Activités de ciblage {#targeting}
 
 Ces activités sont spécifiques au ciblage. Elles permettent de construire une ou plusieurs cibles en définissant une audience, puis en partageant ou en combinant ces audiences à l’aide des opérations d’intersection, d’union ou d’exclusion.
+
+![Liste des activités de ciblage](../assets/targeting-activities.png){width="50%" align="left"}
 
 * [Créer une audience](build-audience.md) : définissez votre population cible. Vous pouvez sélectionner une audience existante ou utiliser le concepteur de requête pour définir votre propre requête.
 * [Modifier la dimension](change-dimension.md) : modifiez la dimension de ciblage au fur et à mesure que vous créez votre campagne orchestrée.
@@ -36,12 +38,11 @@ Ces activités sont spécifiques au ciblage. Elles permettent de construire une 
 * [Déduplication](deduplication.md) : supprimez les doublons dans le ou les résultats des activités entrantes.
 * [Enrichissement](enrichment.md) : définissez des données supplémentaires à traiter dans votre campagne orchestrée. Avec cette activité, vous pouvez utiliser la transition entrante et configurer l’activité pour ajouter des données supplémentaires à la transition sortante.
 * [Réconciliation](reconciliation.md) : permet de définir le lien entre les données des données Journey Optimizer et les données d&#39;une table de travail, par exemple les données chargées depuis un fichier externe.
-* [Sauvegarde d&#39;audience](save-audience.md) : mettez à jour une audience existante ou créez une audience à partir de la population calculée en amont dans une campagne orchestrée.
 * [Partage](split.md) : segmentez la population entrante en plusieurs sous-ensembles.
 
 ## Activités de canal {#channel}
 
-Adobe Journey Optimizer vous permet d’automatiser et d’exécuter des campagnes marketing sur plusieurs canaux. Vous pouvez combiner des activités de canal dans la zone de travail afin de créer une campagne orchestrée cross-canal pouvant déclencher des actions en fonction du comportement du client ou de la cliente. Les activités **Canal** suivantes sont disponibles : e-mail, SMS, notifications push Android et iOS. [Découvrez comment configurer une diffusion dans le contexte d&#39;une campagne orchestrée](channels.md).
+Adobe Journey Optimizer vous permet d’automatiser et d’exécuter des campagnes marketing sur plusieurs canaux. Vous pouvez combiner des activités de canal dans la zone de travail afin de créer une campagne orchestrée cross-canal pouvant déclencher des actions en fonction du comportement du client ou de la cliente. Les activités **Canal** suivantes sont disponibles : e-mail, SMS, notifications push Android et iOS. [Découvrez comment créer une action de canal dans le contexte d’une campagne orchestrée](channels.md).
 
 ## Activités de contrôle de flux {#flow-control}
 
@@ -49,6 +50,9 @@ Adobe Journey Optimizer vous permet d’automatiser et d’exécuter des campagn
 >id="ajo_orchestration_end"
 >title="Activité de fin"
 >abstract="L’activité **Fin** vous permet de marquer graphiquement la fin d’une campagne orchestrée. Cette activité n’a aucun impact fonctionnel et est donc facultative."
+
+![Liste des activités de contrôle de flux](../assets/flow-control-activities.png){width="50%" align="left"}
+
 
 Les activités suivantes sont spécifiques à l&#39;organisation et à l&#39;exécution de campagnes orchestrées. Leur principale tâche est de coordonner les autres activités :
 
