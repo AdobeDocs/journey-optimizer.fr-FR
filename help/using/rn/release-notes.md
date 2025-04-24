@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Notes de mise à jour d’Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: a487355df0229a1e94375025eae0babc9405f087
+source-git-commit: e19a85d05fcb7727c3086f16e2e4f066a5ecd55c
 workflow-type: tm+mt
-source-wordcount: '894'
-ht-degree: 66%
+source-wordcount: '944'
+ht-degree: 90%
 
 ---
 
@@ -35,9 +35,9 @@ ht-degree: 66%
 <tbody>
 <tr>
 <td>
-<p>Des mesures parcours sont désormais disponibles, ce qui vous permet de mesurer l’impact de vos activités sur les mesures clés de votre entreprise et de fournir des informations plus claires sur votre performance.</p>
+<p>Les mesures de parcours vous permettent de mesurer l’impact de vos activités sur les mesures les plus importantes de votre entreprise et de fournir des informations plus claires sur vos performances.</p>
 <p>Pour plus d’informations, consultez la <a href="../building-journeys/success-metrics.md">documentation détaillée</a>.</p>
-<p>Date de disponibilité : 9 avril 2025</p>
+<p>Date de disponibilité : 9 avril 2025</p>
 </br>
 <img src="assets/do-not-localize/success-metric.gif"/>
 </td>
@@ -45,27 +45,46 @@ ht-degree: 66%
 </tbody>
 </table>
 
+<table>
+<thead>
+<tr>
+<th><strong>Éditeur Personalization - Apprendre par la pratique</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Un laboratoire de personnalisation est désormais disponible, où vous pouvez tester les expressions de personnalisation. Il vous permet d’explorer des exemples de modèles et de payloads pour vous aider à commencer et à tester vos propres expressions de personnalisation.</p>
+<p>Pour plus d’informations, consultez la <a href="../personalization/personalize.md#playground">documentation détaillée</a>.</p>
+<p>Date de disponibilité : vendredi 24 avril 2025</p>
+</br>
+<img src="assets/do-not-localize/templating-playground.gif"/>
+</td>
+</tr>
+</tbody>
+</table>
+
 ### Améliorations {#25-04-improv}
 
-* **Sandbox tooling** - Date de disponibilité : 3 avril 2025
+* **Outil de sandbox** - Date de disponibilité : 3 avril 2025
 
-  Vous pouvez désormais copier des campagnes dans plusieurs sandbox à l’aide des fonctionnalités d’exportation et d’importation de packages. Les campagnes sont copiées avec tous les éléments liés au profil, à l’audience, au schéma, aux messages intégrés et aux objets dépendants. Certains éléments ne sont pas copiés, tels que les éléments de décision, les libellés d’utilisation des données et les paramètres de langue. [En savoir plus](../configuration/copy-objects-to-sandbox.md)
+  Vous pouvez désormais copier des campagnes dans plusieurs sandbox à l’aide des fonctionnalités d’export et d’import de packages. Les campagnes sont copiées avec tous les éléments liés au profil, à l’audience, au schéma, aux messages en ligne et aux objets dépendants. Certains éléments ne sont pas copiés, tels que les éléments de décision, les libellés d’utilisation des données et les paramètres de langue. [En savoir plus](../configuration/copy-objects-to-sandbox.md)
 
-* **Personalization** - Date de disponibilité : 2 avril 2025
+* **Personalization** - Date de disponibilité : 2 avril 2025
 
-  Le volet Attributs de l’éditeur de personnalisation affiche désormais uniquement les attributs renseignés par défaut. Pour afficher tous les attributs, utilisez le bouton des paramètres pour activer/désactiver l’option **[!UICONTROL Afficher uniquement les attributs renseignés]**. [En savoir plus](../personalization/personalization-build-expressions.md)
+  Le volet Attributs de l’éditeur de personnalisation affiche désormais uniquement les attributs renseignés par défaut. Pour afficher tous les attributs, utilisez le bouton des paramètres pour activer ou désactiver l’option **[!UICONTROL Afficher uniquement les attributs renseignés]**. [En savoir plus](../personalization/personalization-build-expressions.md)
 
-* **Gestion de contenu** - Date de disponibilité : 2 avril 2025
+* **Gestion de contenu** - Date de disponibilité : 2 avril 2025
 
-  Pour gérer facilement vos modèles et fragments de contenu, vous pouvez désormais utiliser des dossiers pour les organiser plus efficacement dans une hiérarchie structurée. Pour en savoir plus, consultez les sections [Modèles de contenu](../content-management/access-content-templates.md#folders) et [Fragments](../content-management/manage-fragments.md#folders).
+  Pour gérer facilement vos fragments et vos modèles de contenu, vous pouvez désormais utiliser des dossiers pour mieux les organiser dans une hiérarchie structurée. Pour en savoir plus, consultez les sections [Modèles de contenu](../content-management/access-content-templates.md#folders) et [Fragments](../content-management/manage-fragments.md#folders).
 
   >[!AVAILABILITY]
   >
   >Cette amélioration est disponible uniquement pour un ensemble d’organisations (disponibilité limitée).
 
-* **Email Designer** - Date de disponibilité : 1er avril 2025
+* **Concepteur d’e-mail** - Date de disponibilité : 1er avril 2025
 
-  Pour améliorer l’accessibilité dans Journey Optimizer, deux nouveaux champs sont désormais disponibles dans le Designer d’e-mail : ils correspondent à l’élément `<title>` et `lang` l’attribut dans l’élément `<html>` du contenu de votre e-mail. Vous pouvez définir ces paramètres en plus du champ **[!UICONTROL Pré-titre]**, dans la section e-mail **[!UICONTROL Corps]**. [En savoir plus](../email/email-metadata.md)
+  Pour améliorer l’accessibilité dans Journey Optimizer, deux nouveaux champs sont désormais disponibles dans le concepteur d’e-mail : ils correspondent à l’élément `<title>` et à l’attribut `lang` dans l’élément `<html>` du contenu de votre e-mail. Vous pouvez définir ces paramètres en plus du champ **[!UICONTROL Pré-en-tête]**, dans la section **[!UICONTROL Corps]** de l’e-mail. [En savoir plus](../email/email-metadata.md)
 
 
 ## Notes de mise à jour de mars 2025 {#25-3-rn}
@@ -175,13 +194,13 @@ Les nouvelles fonctionnalités de cette version sont présentées ci-dessous.
 <table>
 <thead>
 <tr>
-<th><strong>Évaluation d’audience flexible</strong><br/></th>
+<th><strong>Évaluation d’audience flexible (GA)</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Auparavant disponible pour un ensemble d’organisations (LA), l’évaluation flexible des audiences est désormais disponible pour tous les utilisateurs (GA). Cette fonctionnalité vous permet d’exécuter une tâche de segmentation à la demande pour les audiences sélectionnées, en vous assurant de toujours disposer des données d’audience les plus récentes avant de les cibler dans les parcours et campagnes Journey Optimizer.</p>
+<p>Auparavant disponible pour un ensemble d’organisations (LA), l’évaluation d’audience flexible est désormais disponible pour tous les utilisateurs et toutes les utilisatrices (GA). Cette fonctionnalité vous permet d’exécuter le traitement de la segmentation à la demande pour des audiences sélectionnées, en vous assurant de toujours disposer des données d’audience les plus récentes avant de les cibler dans des parcours et des campagnes Journey Optimizer.</p>
 <img src="assets/do-not-localize/flexible-audience.gif">
 <p>Pour plus d’informations, consultez la <a href="../audience/creating-a-segment-definition.md#flexible">documentation détaillée</a>.</p>
 </tr>
