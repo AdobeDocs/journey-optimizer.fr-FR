@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: a205539b-b7ea-4832-92b0-49637c4dac47
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+source-git-commit: a487355df0229a1e94375025eae0babc9405f087
 workflow-type: tm+mt
-source-wordcount: '699'
-ht-degree: 98%
+source-wordcount: '633'
+ht-degree: 92%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 98%
 
 Vous pouvez créer des modèles de contenu de deux manières :
 
-* Créez un nouveau modèle de contenu à l’aide du menu **[!UICONTROL Modèles de contenu]** du rail de gauche. [Voici comment procéder.](#create-template-from-scratch)
+* Créez un modèle de contenu à partir de zéro à l’aide du menu **[!UICONTROL Modèles de contenu]** du rail de gauche. [Voici comment procéder](#create-template-from-scratch)
 
 * Lors de la conception de votre contenu dans une campagne ou un parcours, enregistrez-le en tant que modèle. [Voici comment procéder.](#save-as-template)
 
@@ -37,6 +37,10 @@ Une fois enregistré, votre modèle de contenu peut être utilisé dans une camp
 >* De même, lorsque des modèles sont utilisés dans une campagne ou un parcours, les modifications que vous apportez au contenu de votre campagne et de votre parcours n’ont aucune incidence sur le modèle de contenu précédemment utilisé.
 
 ## Créer un nouveau modèle {#create-template-from-scratch}
+
+>[!NOTE]
+>
+>À compter de mars 2025, les modèles de contenu de type HTML seront désormais obsolètes. Vous pouvez toujours utiliser les modèles de contenu HTML existants précédemment créés dans [!DNL Journey Optimizer].
 
 Pour créer entièrement un nouveau modèle de contenu, procédez comme suit.
 
@@ -51,14 +55,6 @@ Pour créer entièrement un nouveau modèle de contenu, procédez comme suit.
    >[!NOTE]
    >
    >Actuellement, tous les canaux sont disponibles, à l’exception du canal web.
-
-1. Choisissez un **[!UICONTROL Type]** pour le canal sélectionné.
-
-   ![](assets/content-template-type.png)
-
-   * Pour **[!UICONTROL E-mail]**, si vous sélectionnez **[!UICONTROL Contenu]**, vous pouvez définir l’[Objet](../email/create-email.md#define-email-content) dans le cadre de votre modèle. Si vous sélectionnez **[!UICONTROL HTML]**, vous pouvez définir le contenu du corps de l’e-mail uniquement.
-
-   * Pour **[!UICONTROL SMS]**, **[!UICONTROL Push]**, **[!UICONTROL In-app]** et **[!UICONTROL Courrier]**, seul le type par défaut est disponible pour le canal actuel. Vous devez toujours le sélectionner.
 
 1. Sélectionnez ou créez des balises Adobe Experience Platform à partir du champ **[!UICONTROL Balises]** pour classer votre modèle en vue d’une recherche améliorée. [En savoir plus](../start/search-filter-categorize.md#tags)
 
@@ -75,7 +71,7 @@ Pour créer entièrement un nouveau modèle de contenu, procédez comme suit.
    * [Définir le contenu d’un courrier](../direct-mail/create-direct-mail.md)
    * [Définir le contenu in-app](../in-app/design-in-app.md)
 
-1. Si vous créez un modèle **[!UICONTROL E-mail]** avec le type **[!UICONTROL HTML]**, vous pouvez tester votre contenu. [Voici comment procéder.](#test-template)
+1. Vous pouvez tester votre contenu. [Voici comment procéder.](#test-template)
 
 1. Une fois votre modèle prêt, cliquez sur **[!UICONTROL Enregistrer]**.
 
@@ -110,7 +106,7 @@ Lors de la conception d’un contenu dans une campagne ou un parcours, vous pouv
 
    >[!NOTE]
    >
-   >Le canal et le type actuels sont automatiquement renseignés et ne peuvent pas être modifiés. Pour les modèles d’e-mail créés à partir du [Concepteur d’e-mail](../email/get-started-email-design.md), le type **[!UICONTROL HTML]** est automatiquement sélectionné.
+   >Le canal actuel est automatiquement renseigné et ne peut pas être modifié.
 
 1. Sélectionnez ou créez une balise Adobe Experience Platform à partir du champ **Balises** pour classer votre modèle. [En savoir plus](../start/search-filter-categorize.md#tags).
 

@@ -7,10 +7,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: ef6110c4-1aa6-4835-b0b0-b3c4fe0e7024
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+source-git-commit: a487355df0229a1e94375025eae0babc9405f087
 workflow-type: tm+mt
-source-wordcount: '626'
-ht-degree: 99%
+source-wordcount: '647'
+ht-degree: 94%
 
 ---
 
@@ -43,6 +43,10 @@ Vous pouvez trier les modèles de contenu par :
 Vous pouvez également choisir d’afficher uniquement les éléments que vous avez créés ou modifiés.
 
 ![](assets/content-template-list-filters.png)
+
+>[!NOTE]
+>
+>À compter de mars 2025, les modèles de contenu de type HTML seront désormais obsolètes. Vous pouvez toujours accéder aux modèles de contenu HTML précédemment créés dans [!DNL Journey Optimizer].
 
 ## Utiliser des dossiers pour gérer les modèles de contenu {#folders}
 
@@ -102,13 +106,13 @@ Sélectionnez le mode de **[!UICONTROL vue Grille]** pour afficher chaque modèl
 
 >[!AVAILABILITY]
 >
-Cette fonctionnalité est publiée en disponibilité limitée pour un petit groupe de personnes.
+>Cette fonctionnalité est publiée en disponibilité limitée pour un petit groupe de personnes.
 
 ![](assets/content-template-grid-view.png)
 
 >[!NOTE]
 >
-Actuellement, les miniatures appropriées ne peuvent être générées que pour les modèles de contenu email de type HTML.
+>Actuellement, les miniatures appropriées ne peuvent être générées que pour les modèles de contenu d’e-mail de type HTML.
 
 Lorsque vous mettez à jour du contenu, vous devrez peut-être attendre quelques secondes avant que les modifications ne soient reflétées dans la miniature.
 
