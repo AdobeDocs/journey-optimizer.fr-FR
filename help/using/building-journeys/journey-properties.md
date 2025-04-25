@@ -12,7 +12,7 @@ exl-id: 6c21371c-6cbc-4d39-8fe6-39f1b8b13280
 source-git-commit: 6023f1004c74cedc7567fd142be767b12d85ba6d
 workflow-type: tm+mt
 source-wordcount: '2301'
-ht-degree: 96%
+ht-degree: 98%
 
 ---
 
@@ -45,13 +45,13 @@ Depuis cette section, vous pouvez définir le nom du parcours, ajouter une descr
 
 La fonction **Copier les détails techniques** permet de copier les informations techniques relatives au parcours qui seront utiles à l’équipe d’assistance technique pour résoudre les problèmes. Les informations suivantes sont copiées : `JourneyVersion UID`, `OrgID`, `orgName`, `sandboxName`, `lastDeployedBy`, `lastDeployedAt`.
 
-Découvrez les champs techniques liés à un parcours pour un profil donné et comment les utiliser [sur cette page](expression/journey-properties.md).
+Pour plus d’informations sur les champs techniques liés à un parcours pour un profil donné et comment les utiliser, consultez [cette page](expression/journey-properties.md).
 
 ## Entrée et rentrée {#entrance}
 
 Le mode d’entrée des profils est défini au niveau du parcours, dans le volet de configuration de droite. Les paramètres sont décrits ci-dessous.
 
-La gestion des entrées de profil dépend du type de parcours. Pour en savoir plus sur la gestion des entrées et des reprises de profil, consultez [cette page](entry-management.md).
+La gestion des entrées de profil dépend du type de parcours. Pour plus d’informations sur la gestion des entrées et des rentrées de profils, consultez [cette page](entry-management.md).
 
 ### Autoriser une nouvelle rentrée  {#allow-reentrance}
 

@@ -12,7 +12,7 @@ exl-id: 9937d9b5-df5e-4686-83ac-573c4eba983a
 source-git-commit: 0f783c57ba946866cb74c2b16e1807ff963cfbaf
 workflow-type: tm+mt
 source-wordcount: '1768'
-ht-degree: 95%
+ht-degree: 98%
 
 ---
 
@@ -88,7 +88,7 @@ Pour utiliser le mode test, procédez comme suit :
 Utilisez le bouton **[!UICONTROL Déclencher un événement]** pour configurer un événement qui fera qu’un individu rejoint le parcours.
 
 
-### Conditions préalables {#trigger-events-prerequisites}
+### Prérequis {#trigger-events-prerequisites}
 
 Vous devez, au préalable, savoir quels profils sont identifiés comme profils de test dans Adobe Experience Platform. En effet, le mode test n’autorise ces profils que dans le parcours.
 

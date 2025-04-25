@@ -12,7 +12,7 @@ exl-id: f3cdc01a-9f1c-498b-b330-1feb1ba358af
 source-git-commit: 2a2abe3e663f8c9ff24c804eae53d44988960838
 workflow-type: tm+mt
 source-wordcount: '1626'
-ht-degree: 97%
+ht-degree: 98%
 
 ---
 
@@ -29,7 +29,7 @@ Les sources de données externes vous permettent de définir une connexion à de
 
 >[!NOTE]
 >
->* Les mécanismes de sécurisation lorsque vous utilisez des systèmes externes sont répertoriés sur [cette page](../configuration/external-systems.md).
+>* Les mécanismes de sécurisation lors de l’utilisation de systèmes externes sont répertoriés dans [cette page](../configuration/external-systems.md).
 >
 >* Les réponses étant désormais prises en charge, vous devez utiliser des actions personnalisées au lieu de sources de données pour les cas d’utilisation de sources de données externes. Pour plus d’informations sur les réponses, voir [cette section](../action/action-response.md)
 

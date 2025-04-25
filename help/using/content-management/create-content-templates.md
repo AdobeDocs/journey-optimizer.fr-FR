@@ -11,7 +11,7 @@ exl-id: a205539b-b7ea-4832-92b0-49637c4dac47
 source-git-commit: a487355df0229a1e94375025eae0babc9405f087
 workflow-type: tm+mt
 source-wordcount: '633'
-ht-degree: 92%
+ht-degree: 93%
 
 ---
 
@@ -58,7 +58,7 @@ Pour créer entièrement un nouveau modèle de contenu, procédez comme suit.
 
 1. Sélectionnez ou créez des balises Adobe Experience Platform à partir du champ **[!UICONTROL Balises]** pour classer votre modèle en vue d’une recherche améliorée. [En savoir plus](../start/search-filter-categorize.md#tags)
 
-1. Pour attribuer des libellés d’utilisation des données personnalisés ou de base au modèle, vous pouvez sélectionner **[!UICONTROL Gérer l’accès]**. [En savoir plus sur le contrôle d’accès au niveau de l’objet (OLAC)](../administration/object-based-access.md).
+1. Pour attribuer des libellés d’utilisation des données personnalisés ou de base au modèle, vous pouvez sélectionner **[!UICONTROL Gérer l’accès]**. [En savoir plus sur le contrôle d’accès au niveau de l’objet (OLAC)](../administration/object-based-access.md)
 
 1. Cliquez sur **[!UICONTROL Créer]** et concevez votre contenu selon vos besoins, de la même manière que pour tout contenu dans un parcours ou une campagne, selon le canal que vous avez sélectionné.
 

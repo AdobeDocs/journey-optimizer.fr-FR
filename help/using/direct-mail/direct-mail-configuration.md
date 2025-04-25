@@ -10,7 +10,7 @@ exl-id: ae5cc885-ade1-4683-b97e-eda1f2142041
 source-git-commit: 65b7b8323e37a0143a3941af1b9c2fb8b595a376
 workflow-type: tm+mt
 source-wordcount: '1343'
-ht-degree: 95%
+ht-degree: 98%
 
 ---
 
@@ -24,14 +24,14 @@ Avant de pouvoir générer ce fichier, vous devez créer les éléments suivants
 
 1. [Une configuration du routage des fichiers](#file-routing-configuration) pour spécifier le serveur sur lequel le fichier sera exporté et chiffré, le cas échéant.
 
-1. [configuration du publipostage direct](#direct-mail-configuration) qui fait référence à la configuration du routage des fichiers. Si vous n’avez configuré aucune option de routage de fichier, vous ne pourrez pas créer de configuration de publipostage direct.
+1. [configuration du publipostage direct](#direct-mail-configuration) qui fait référence à la configuration du routage des fichiers. Si vous n’avez configuré aucune option de routage de fichier, vous ne pourrez pas créer de configuration de courrier.
 
 
 >[!CAUTION]
 >
 >* Pour créer une configuration de routage de fichier, vous devez disposer de l’autorisation intégrée **[!DNL Manage file routing]**. [En savoir plus](../administration/ootb-product-profiles.md#content-library-manager)
 >
->* Les fichiers de publipostage direct ne sont générés qu’au moment de l’exportation ; le système ne stocke pas indéfiniment les exportations plus anciennes. Pour une sauvegarde plus longue ou permanente, configurez une option de routage des fichiers (SFTP ou stockage dans le cloud).
+>* Les fichiers de courrier ne sont générés qu’au moment de l’export. Le système ne stocke pas indéfiniment les exports plus anciens. Pour une sauvegarde plus longue ou permanente, configurez une option de routage des fichiers (SFTP ou espace de stockage dans le cloud).
 
 ## Configurer le routage des fichiers {#file-routing-configuration}
 
@@ -186,7 +186,7 @@ Une configuration de publipostage direct doit également inclure la configuratio
    >
    > Les noms doivent commencer par une lettre (A-Z). Ils ne peuvent contenir que des caractères alphanumériques. Vous pouvez également utiliser le trait de soulignement `_`, le point`.` et le trait d&#39;union `-`.
 
-1. Pour attribuer des libellés d’utilisation des données personnalisés ou de base à la configuration, vous pouvez sélectionner **[!UICONTROL Gérer l’accès]**. [En savoir plus sur le contrôle d’accès au niveau de l’objet (OLAC)](../administration/object-based-access.md).
+1. Pour attribuer des libellés d’utilisation des données personnalisés ou de base à la configuration, vous pouvez sélectionner **[!UICONTROL Gérer l’accès]**. [En savoir plus sur le contrôle d’accès au niveau de l’objet (OLAC)](../administration/object-based-access.md)
 
 1. Sélectionnez le canal **[!UICONTROL Publipostage direct]**.
 

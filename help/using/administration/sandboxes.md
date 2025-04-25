@@ -12,7 +12,7 @@ exl-id: 14f80d5d-0840-4b79-9922-6d557a7e1247
 source-git-commit: d3bae15a3b9ae53c4f520a3867026c47938bcd62
 workflow-type: tm+mt
 source-wordcount: '329'
-ht-degree: 87%
+ht-degree: 90%
 
 ---
 
@@ -28,7 +28,7 @@ Le sélecteur de sandbox se trouve dans le coin supérieur droit de votre écran
 
 ![](assets/sandbox_5.png)
 
-➡️ [Pour en savoir plus sur les sandbox, regardez cette vidéo](#video)
+➡️ [Découvrez les sandbox dans cette vidéo.](#video)
 
 ## Affectation de sandbox {#assign-sandboxes}
 

@@ -9,7 +9,7 @@ exl-id: 7c45cd8a-8e86-4646-ba0a-db393e92d9da
 source-git-commit: 4c0605d6ccff5cd62ef7aeb04e0610342d7cc3d5
 workflow-type: tm+mt
 source-wordcount: '219'
-ht-degree: 68%
+ht-degree: 82%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 68%
 
 ## Rapports de campagnes basées sur du code {#campaigns}
 
-Une fois les expériences basées sur du code en ligne, vous pouvez accéder à des rapports dédiés pour surveiller les indicateurs clés de performance (KPI) sous la forme d’un tableau de bord global, fournissant une analyse des mesures essentielles associées à votre campagne.
+Une fois les expériences basées sur du code activées, vous pouvez accéder à des rapports dédiés pour surveiller les KPI sous la forme d’un tableau de bord global qui vous fournit une analyse des mesures essentielles associées à votre campagne.
 
 Celui-ci inclut des détails liés aux performances des éléments de décision et la manière dont les utilisateurs et les utilisatrices ont interagi avec eux. [Découvrir comment utiliser les rapports sur l’expérience basée sur du code](../reports/campaign-global-report-cja-code.md)
 

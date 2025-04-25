@@ -10,7 +10,7 @@ exl-id: 8417af75-6e97-4ad4-86b4-3ecd264a5560
 source-git-commit: 385e27fd4ea34f6a10b8da6b99a2c888edf9d57e
 workflow-type: tm+mt
 source-wordcount: '229'
-ht-degree: 68%
+ht-degree: 93%
 
 ---
 
@@ -68,5 +68,5 @@ Renvoie une valeur booléenne.
 
 Explication :
 
-La fonction renvoie **[!UICONTROL true]** si la personne concernée par l’instance de parcours fait partie de l’audience Adobe Experience Platform nommée « men over 50 » (hommes de plus de 50 ans), **[!UICONTROL false]** dans le cas contraire.
+La fonction renvoie **[!UICONTROL true]** si l’individu concerné par l’instance de parcours figure dans l’audience Adobe Experience Platform « hommes de plus de 50 ans ». Sinon, elle renvoie **[!UICONTROL false]**.
 

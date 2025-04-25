@@ -11,7 +11,7 @@ exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
 source-git-commit: d3bae15a3b9ae53c4f520a3867026c47938bcd62
 workflow-type: tm+mt
 source-wordcount: '1440'
-ht-degree: 92%
+ht-degree: 95%
 
 ---
 
@@ -253,8 +253,8 @@ Pour modifier la langue :
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_dry_run"
->title="Exécution d’essai du parcours"
->abstract="Une fois que vous avez conçu votre parcours, exécutez un essai pour confirmer qu’il est fonctionnel et vous assurer que les étapes sont correctes. Ce mode de publication vous permet de tester un parcours sans envoyer de communication à un profil."
+>title="Tester à blanc votre parcours"
+>abstract="Une fois que vous avez conçu votre parcours, effectuez un test à blanc pour confirmer qu’il est fonctionnel et vous assurer que les étapes sont correctes. Ce mode de publication vous permet de tester un parcours sans envoyer de communication à un profil."
 
 
 

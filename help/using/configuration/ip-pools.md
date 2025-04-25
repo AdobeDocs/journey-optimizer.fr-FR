@@ -12,7 +12,7 @@ exl-id: 606334c3-e3e6-41c1-a10e-63508a3ed747
 source-git-commit: 5172fbce0ff2c3330e68394234f6f28db245c7d4
 workflow-type: tm+mt
 source-wordcount: '721'
-ht-degree: 97%
+ht-degree: 98%
 
 ---
 
@@ -62,7 +62,7 @@ Pour créer un pool d&#39;adresses IP, procédez comme suit :
    >
    >Toutes les adresses IP configurées avec votre instance sont disponibles dans la liste.
 
-Lors de la sélection des adresses IP, vous pouvez voir dans la liste les enregistrements PTR associés aux adresses IP. Vous pouvez ainsi vérifier les informations de branding de chaque adresse IP lors de la création d’un groupe d’adresses IP et sélectionner les adresses IP avec les mêmes informations de branding, par exemple. [En savoir plus sur les enregistrements PTR](ptr-records.md)
+Lors de la sélection des adresses IP, vous pouvez voir dans la liste les enregistrements PTR associés aux adresses IP. Vous pouvez ainsi vérifier les informations de branding de chaque adresse IP lors de la création d’un groupe d’adresses IP et sélectionner les adresses IP avec les mêmes informations de branding, par exemple. [En savoir plus sur les enregistrements PTR.](ptr-records.md)
 
 ![](assets/ip-pool-ptr-record.png)
 

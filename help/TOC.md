@@ -244,7 +244,7 @@ ht-degree: 89%
             + [Ajouter des liens et suivre les messages](using/email/message-tracking.md)
             + [Insérer des offres personnalisées](using/email/add-offers-email.md)
             + [Génération de la version texte](using/email/text-version-email.md)
-            + [Ajout de métadonnées](using/email/email-metadata.md)
+            + [Ajouter des métadonnées](using/email/email-metadata.md)
          + Modifier le style {#edit-style}
             + [Prise en main du style des e-mails](using/email/get-started-email-style.md)
             + [Modifier les paramètres d’arrière-plan](using/email/backgrounds.md)
@@ -402,7 +402,7 @@ ht-degree: 89%
       + [Fragments personnalisables](using/content-management/customizable-fragments.md)
       + [Gérer les fragments](using/content-management/manage-fragments.md)
    + Contenu dynamique {#dynamic}
-      + [Prise en main du contenu dynamique](using/personalization/get-started-dynamic-content.md)
+      + [Commencer avec le contenu dynamique](using/personalization/get-started-dynamic-content.md)
       + [Créer des règles conditionnelles](using/personalization/create-conditions.md)
       + [Créer du contenu dynamique](using/personalization/dynamic-content.md)
 + Audiences, profils et identité{#audiences-profiles-identities}
@@ -488,8 +488,8 @@ ht-degree: 89%
 + Fonctionnalités de décision {#decisioning}
    + [Commencer avec les fonctionnalités de décision](using/experience-decisioning/gs-decision.md)
    + Prise de décisions {#experience-decisioning}
-      + [Commencer avec la prise de décision](using/experience-decisioning/gs-experience-decisioning.md)
-      + [Mécanismes de sécurisation et limitations des prises de décision](using/experience-decisioning/decisioning-guardrails.md)
+      + [Commencer avec la prise de décisions](using/experience-decisioning/gs-experience-decisioning.md)
+      + [Mécanismes de sécurisation et limitations de la prise de décisions](using/experience-decisioning/decisioning-guardrails.md)
       + Référence de l’API{#api-reference}
          + Créer et gérer des éléments d’offre {#create-manage}
             + Éléments de décision{#decision-items}
@@ -676,7 +676,7 @@ ht-degree: 89%
                   + [Mise à jour d’une décision](using/offers/api-reference/offers-api/legacy-apis/activities-api/update.md)
                   + [Suppression d’une décision](using/offers/api-reference/offers-api/legacy-apis/activities-api/delete.md)
          + Diffuser des offres à l’aide d’API {#offer-delivery-api}
-            + [Prise en main des API de diffusion d’offres](using/offers/api-reference/offer-delivery-api/start-offer-delivery-apis.md)
+            + [Commencer avec les API de diffusion d’offres](using/offers/api-reference/offer-delivery-api/start-offer-delivery-apis.md)
             + [API Decisioning](using/offers/api-reference/offer-delivery-api/decisioning-api.md)
             + [API Edge Decisioning](using/offers/api-reference/offer-delivery-api/edge-decisioning-api.md)
             + [API Batch Decisioning](using/offers/api-reference/offer-delivery-api/batch-decisioning-api.md)
@@ -761,7 +761,7 @@ ht-degree: 89%
    + [Contrôle d’accès basé sur les attributs](using/administration/attribute-based-access.md)
    + [Contrôle d’accès au niveau des objets](using/administration/object-based-access.md)
 + Confidentialité    {#privacy}
-   + [Prise en main de la confidentialité](using/privacy/get-started-privacy.md)
+   + [Commencer avec la confidentialité](using/privacy/get-started-privacy.md)
    + [Demandes d’accès à des informations personnelles](using/privacy/requests.md)
    + [Actions d’audit sur les ressources ](using/privacy/audit-logs.md)
    + [Effectuer des opérations de cycle de vie des données](using/privacy/data-hygiene.md)

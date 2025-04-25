@@ -11,7 +11,7 @@ exl-id: d35a0e1c-2376-4cc5-88fc-5f8dfcfae666
 source-git-commit: 24cb77484172117f2308d2949588ee98fa8421dd
 workflow-type: tm+mt
 source-wordcount: '852'
-ht-degree: 92%
+ht-degree: 97%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 92%
 
 >[!BEGINSHADEBOX]
 
-Pour accéder au rapport de campagne basé sur le code, cliquez sur le bouton **[!UICONTROL Rapports]** de votre campagne, puis sélectionnez **[!UICONTROL Afficher le rapport à toute heure]**. [En savoir plus](report-gs-cja.md)
+Vous pouvez accéder au rapport de campagne basée sur du code en cliquant sur le bouton **[!UICONTROL Rapports]** de votre campagne, puis en sélectionnant **[!UICONTROL Afficher le rapport de toutes les périodes]**. [En savoir plus](report-gs-cja.md)
 
 ![](assets/report-access.png)
 
@@ -31,7 +31,7 @@ Pour accéder au rapport de campagne basé sur le code, cliquez sur le bouton **
 
 Les graphiques **[!UICONTROL Affichages et clics]** présentent une analyse détaillée de l’engagement de vos profils avec vos expériences basées sur du code, offrant des informations précieuses sur la manière dont les profils interagissent avec votre contenu.
 
-+++ En savoir plus sur les mesures Impression et Clic .
++++ En savoir plus sur les mesures des impressions et des clics
 
 * **[!UICONTROL Clics uniques]** : nombre de profils qui ont cliqué sur un contenu dans vos expériences.
 
@@ -69,7 +69,7 @@ Le tableau **[!UICONTROL Données de suivi]** offre un instantané détaillé de
 
 Le tableau **[!UICONTROL Libellés des liens de suivi]** fournit une vue d’ensemble complète des libellés des liens dans vos expériences basées sur du code qui génèrent le plus de trafic de visiteurs et de visiteuses. Cette fonctionnalité vous permet d’identifier et de hiérarchiser les liens les plus populaires.
 
-+++ En savoir plus sur les mesures des libellés des liens suivis
++++ En savoir plus sur les mesures des libellés des liens de suivi
 
 * **[!UICONTROL Clics uniques]** : nombre de profils qui ont cliqué sur un contenu dans vos expériences basées sur du code.
 

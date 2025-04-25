@@ -12,7 +12,7 @@ exl-id: 7b27d42e-3bfe-45ab-8a37-c55b231052ee
 source-git-commit: ca51c88c122cce23364b86a1da8900d0d5b37aaf
 workflow-type: tm+mt
 source-wordcount: '1783'
-ht-degree: 93%
+ht-degree: 96%
 
 ---
 
@@ -27,28 +27,28 @@ ht-degree: 93%
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_read_segment_scheduler_start_date"
->title="Date/heure de début"
+>title="Date et heure de début"
 >abstract="Définissez la date et l’heure de déclenchement de ce parcours."
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_read_segment_scheduler_repeat_until"
 >title="Répéter jusqu’à"
->abstract="Définissez la date de fin de la période."
+>abstract="Définissez la date de fin de la récurrence."
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_read_segment_scheduler_repeat_every"
->title="Répéter tous les"
+>title="Répéter chaque"
 >abstract="Définissez une fréquence de planificateur récurrent."
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_read_segment_scheduler_incremental_read"
 >title="Lecture incrémentielle"
->abstract="Autoriser uniquement les nouveaux profils depuis la dernière lecture à entrer dans le parcours."
+>abstract="Seuls les nouveaux profils depuis la dernière lecture peuvent rejoindre un parcours."
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_read_segment_scheduler_force_reentrance"
 >title="Forcer une rentrée"
->abstract="Déposez tous les participants au parcours avant chaque lecture d’audience."
+>abstract="Retirez tous les participants du parcours avant chaque lecture d’audience."
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_read_segment_scheduler_synchronize_audience"

@@ -12,7 +12,7 @@ exl-id: 8021f66e-7725-475b-8722-e6f8d74c9023
 source-git-commit: 8e5a904f9310385f5a8186159dedde9942624268
 workflow-type: tm+mt
 source-wordcount: '2009'
-ht-degree: 81%
+ht-degree: 83%
 
 ---
 
@@ -37,7 +37,7 @@ Par défaut, [!DNL Journey Optimizer] vous permet de déléguer **jusqu&#39;à 1
 
 Vous pouvez entièrement déléguer un sous-domaine ou créer un sous-domaine à l’aide de CNAME pour pointer vers des enregistrements spécifiques à Adobe.
 
-La délégation complète de sous-domaine est la méthode recommandée. Découvrez les différences entre les deux [méthodes de configuration de sous-domaine](about-subdomain-delegation.md#subdomain-delegation-methods).
+La délégation complète de sous-domaine est la méthode recommandée. En savoir plus sur les différences entre les deux [méthodes de configuration de sous-domaine](about-subdomain-delegation.md#subdomain-delegation-methods).
 
 La configuration de sous-domaine est **commune à tous les environnements**. Par conséquent, toute modification apportée à un sous-domaine a également un impact sur les sandbox de production.
 
@@ -209,7 +209,7 @@ Ces étapes sont effectuées par Adobe et peuvent prendre jusqu’**3 heures**.
 
 1. **Création d’un DNS forward** : s’il s’agit du premier sous-domaine que vous déléguez, Adobe crée le DNS forward qui est requis pour créer des enregistrements PTR, un pour chacune de vos adresses IP.
 
-1. **Création d’un enregistrement PTR** : l’enregistrement PTR, également appelé enregistrement DNS inversé, est requis par les FAI pour qu’ils ne marquent pas les e-mails comme spam. Gmail recommande également d’avoir des enregistrements PTR pour chaque adresse IP. Adobe crée des enregistrements PTR uniquement lorsque vous déléguez un sous-domaine pour la première fois, un pour chaque adresse IP, toutes les adresses IP pointant vers ce sous-domaine. Par exemple, si l’adresse IP est *192.1.2.1* et que le sous-domaine est *email.example.com*, l’enregistrement PTR sera : *192.1.2.1PTR r1.email.example.com*. Vous pouvez mettre à jour l’enregistrement PTR par la suite pour pointer vers le nouveau domaine délégué. [En savoir plus sur les enregistrements PTR](ptr-records.md)
+1. **Création d’un enregistrement PTR** : l’enregistrement PTR, également appelé enregistrement DNS inversé, est requis par les FAI pour qu’ils ne marquent pas les e-mails comme spam. Gmail recommande également d’avoir des enregistrements PTR pour chaque adresse IP. Adobe crée des enregistrements PTR uniquement lorsque vous déléguez un sous-domaine pour la première fois, un pour chaque adresse IP, toutes les adresses IP pointant vers ce sous-domaine. Par exemple, si l’adresse IP est *192.1.2.1* et que le sous-domaine est *email.example.com*, l’enregistrement PTR est : *192.1.2.1PTR r1.email.example.com*. Vous pouvez mettre à jour l’enregistrement PTR par la suite pour pointer vers le nouveau domaine délégué. [En savoir plus sur les enregistrements PTR](ptr-records.md)
 
 ## Annulation de la délégation d’un sous-domaine {#undelegate-subdomain}
 

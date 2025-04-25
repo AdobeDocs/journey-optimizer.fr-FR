@@ -12,13 +12,13 @@ exl-id: 5d014017-ca7c-4206-b783-989677ec0e1c
 source-git-commit: 9d87d133bb580ebed94a265beded5895f7fd0301
 workflow-type: tm+mt
 source-wordcount: '933'
-ht-degree: 98%
+ht-degree: 99%
 
 ---
 
 # Autorisations intégrées {#ootb-permissions}
 
-Les autorisations intégrées représentent les différentes autorisations qui peuvent être affectées à un **[!UICONTROL rôle]** pour affiner l’accès utilisateur à Journey Optimizer. Les autorisations de haut niveau englobent les autorisations de bas niveau. Pour plus d’informations, consultez [cette page](high-low-permissions.md).
+Les autorisations intégrées représentent les différentes autorisations qui peuvent être affectées à un **[!UICONTROL rôle]** pour affiner l’accès utilisateur à Journey Optimizer. Les autorisations de haut niveau englobent les autorisations de bas niveau détaillées sur [cette page](high-low-permissions.md).
 
 | Fonctionnalité | Autorisations |
 |-|-|
