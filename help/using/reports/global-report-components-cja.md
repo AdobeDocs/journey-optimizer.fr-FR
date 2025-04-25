@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 exl-id: aa060d8e-23e2-4bab-b709-636077eb5d20
 source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1829'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -96,7 +96,7 @@ Les tableaux ci-dessous contiennent la liste des mesures utilisées dans les dif
   </tr>
   <tr> 
    <td> Motif de l’erreur<br/> </td> 
-   <td> Nom de la cause initiale spécifique de l’erreur. <a href="exclusion-list.md">En savoir plus sur les raisons des erreurs</a>.<br/> </td> 
+   <td> Nom de la cause initiale spécifique de l’erreur. <a href="exclusion-list.md">En savoir plus sur les motifs des erreurs</a>.<br/> </td> 
   </tr>
   <tr> 
    <td> Taux de clics sur les offres<br/> </td> 
@@ -408,7 +408,7 @@ Les tableaux ci-dessous contiennent la liste des mesures utilisées dans les dif
 </tr>
   <tr> 
    <td> Motif de l’erreur<br/> </td> 
-   <td> Nom de la cause initiale spécifique de l’erreur. <a href="exclusion-list.md">En savoir plus sur les raisons des erreurs</a>.<br/> </td> 
+   <td> Nom de la cause initiale spécifique de l’erreur. <a href="exclusion-list.md">En savoir plus sur les motifs des erreurs</a>.<br/> </td> 
 </tr>
   <tr> 
    <td> Exclus<br/> </td> 

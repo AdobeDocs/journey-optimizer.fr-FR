@@ -10,9 +10,9 @@ level: Experienced
 keywords: suppression, liste, rebond, e-mail, optimizer, quarantaine
 exl-id: 430a2cd4-781d-4d37-a75d-405f5ed82377
 source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
-workflow-type: tm+mt
-source-wordcount: '1601'
-ht-degree: 97%
+workflow-type: ht
+source-wordcount: '1599'
+ht-degree: 100%
 
 ---
 
@@ -28,7 +28,7 @@ En savoir plus sur le concept et l’utilisation de la liste de suppression dans
 >
 >Adobe tient à jour une liste des adresses erronées connues qui se sont avérées préjudiciables à l’engagement et à la réputation du publipostage, et s’assure que les e-mails ne leur sont pas remis. Cette liste est gérée dans une liste de suppression globale qui est commune à tous les clients Adobe. Les adresses et les noms de domaine contenus dans la liste de suppression globale sont masqués. Seul le nombre de destinataires exclus est indiqué dans les rapports de diffusion.
 
-En outre, vous pouvez tirer parti de l’**API REST de suppression** de Journey Optimizer pour contrôler vos messages sortants à l’aide des listes de suppression et des listes autorisées. [Découvrez comment utiliser l’API REST de suppression](https://developer.adobe.com/journey-optimizer-apis/references/suppression/){target="_blank"}{target=« _blank »}
+En outre, vous pouvez tirer parti de l’**API REST de suppression** de Journey Optimizer pour contrôler vos messages sortants à l’aide des listes de suppression et des listes autorisées. [Découvrez comment utiliser l’API REST de suppression.](https://developer.adobe.com/journey-optimizer-apis/references/suppression/){target="_blank"}
 
 ## Accéder à la liste de suppression {#access-suppression-list}
 
@@ -39,7 +39,7 @@ Pour accéder à la liste détaillée des adresses e-mail et domaines exclus, ac
 
 >[!CAUTION]
 >
->Les autorisations d’affichage, d’export et de gestion de la liste de suppression sont limitées aux [Administrateurs de Journey](../administration/ootb-product-profiles.md#journey-administrator). En savoir plus sur la gestion des droits d’accès des utilisateurs [!DNL Journey Optimizer] dans [cette section](../administration/permissions-overview.md).
+>Les autorisations d’affichage, d’export et de gestion de la liste de suppression sont limitées aux [Administrateurs et administratrices de Journey](../administration/ootb-product-profiles.md#journey-administrator). Pour en savoir plus sur la gestion des droits d’accès des utilisateurs et des utilisatrices [!DNL Journey Optimizer], consultez [cette section](../administration/permissions-overview.md).
 
 
 Des filtres sont disponibles pour vous aider à parcourir la liste.
@@ -81,10 +81,10 @@ Les motifs possibles d’un échec de diffusion sont les suivants :
 
 >[!NOTE]
 >
->Les utilisateurs désabonnés ne reçoivent pas d&#39;e-mails de [!DNL Journey Optimizer]. Par conséquent, leurs adresses e-mail ne peuvent pas être envoyées à la liste de suppression. Leur choix est géré au niveau d&#39;Experience Platform. [En savoir plus sur la désinscription](../privacy/opt-out.md)
+>Les utilisateurs désabonnés ne reçoivent pas d&#39;e-mails de [!DNL Journey Optimizer]. Par conséquent, leurs adresses e-mail ne peuvent pas être envoyées à la liste de suppression. Leur choix est géré au niveau d&#39;Experience Platform. [En savoir plus sur le processus d’opt-out](../privacy/opt-out.md)
 
 
-### Règles de suppression   {#suppression-rules}
+### Règles de suppression  {#suppression-rules}
 
 Dans la **[!UICONTROL Liste de suppression]**, vous pouvez également modifier le paramètre de reprise associé aux règles de suppression à l’aide du bouton **[!UICONTROL Modifier les règles de suppression]**. Utilisez cette option pour mettre à jour le seuil de reprise du sandbox actuel. [En savoir plus sur les reprises](retries.md).
 

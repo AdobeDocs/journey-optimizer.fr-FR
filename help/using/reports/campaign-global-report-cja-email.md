@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 exl-id: d11dd1cb-041b-48cd-b1fc-bcbe12338a07
 source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1079'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 90%
 
 >[!INFO]
 >
->Depuis qu’Apple a introduit de nouvelles fonctionnalités de protection de la confidentialité pour son application Mail native, notamment la protection de la confidentialité dans Mail, les expéditeurs et expéditrices ne sont plus en mesure d’utiliser les pixels de suivi pour collecter des données sur les profils qui ont activé la protection de la confidentialité dans l’application Mail d’Apple. Par conséquent, la capacité de Adobe Journey Optimizer à suivre les ouvertures d’e-mail à l’aide de pixels de suivi peut être affectée.
+>Depuis qu’Apple a introduit de nouvelles fonctionnalités de protection de la confidentialité pour son application Mail native, notamment la protection de la confidentialité dans Mail, les expéditeurs et expéditrices ne sont plus en mesure d’utiliser les pixels de suivi pour collecter des données sur les profils qui ont activé la protection de la confidentialité dans l’application Mail d’Apple. Par conséquent, la capacité d’Adobe Journey Optimizer à suivre les ouvertures d’e-mail à l’aide de pixels de suivi peut être affectée.
 > [En savoir plus](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-classic-blogs/the-impact-of-apple-ios-privacy-changes-on-email-marketing-and/ba-p/699780?profile.language=fr) sur l’impact des modifications apportées à la confidentialité d’Apple iOS sur le marketing par e-mail.
 > 
 > Nous vous recommandons de vous concentrer sur les clics et les mesures de conversion plutôt que sur les taux d’ouverture pour obtenir des informations plus précises.
@@ -27,7 +27,7 @@ ht-degree: 90%
 
 >[!BEGINSHADEBOX]
 
-Pour accéder au rapport de campagne par e-mail, cliquez sur le bouton **[!UICONTROL Rapports]** de votre campagne, puis sélectionnez **[!UICONTROL Afficher le rapport à toute heure]**. [En savoir plus](report-gs-cja.md)
+Vous pouvez accéder au rapport de campagne par e-mail en cliquant sur le bouton **[!UICONTROL Rapports]** de votre campagne, puis en sélectionnant **[!UICONTROL Afficher le rapport de toutes les périodes]**. [En savoir plus](report-gs-cja.md)
 
 ![](assets/report-access.png)
 
@@ -39,7 +39,7 @@ Pour accéder au rapport de campagne par e-mail, cliquez sur le bouton **[!UICON
 
 Le graphe **[!UICONTROL Tendance diffusés et clics]** présente une analyse détaillée de l’engagement de vos profils avec vos e-mails, fournissant des informations précieuses sur la manière dont les profils interagissent avec votre contenu.
 
-+++ En savoir plus sur les mesures de tendance Diffusions / Clics
++++ En savoir plus sur les mesures de tendance Diffusés et clics
 
 * **[!UICONTROL Diffusés]** : nombre d’e-mails envoyés avec succès, par rapport au nombre total d’e-mails envoyés.
 
@@ -71,7 +71,7 @@ Le graphe **[!UICONTROL Statut de la diffusion]** fournit une vue complète des 
 
 Le tableau **[!UICONTROL Statistiques d’envoi]** fournit un résumé complet des données essentielles concernant les e-mails dans vos campagnes. Il détaille les mesures clés, telles que les interactions avec vos e-mails et le nombre d’e-mails diffusés, ce qui vous permet d’obtenir des informations précieuses sur l’efficacité et la portée de vos e-mails et campagnes.
 
-+++ En savoir plus sur les mesures Statistiques d’envoi
++++ En savoir plus sur les mesures de statistiques d’envoi
 
 * **[!UICONTROL Ciblés]** : nombre total d’e-mails traités lors de la procédure d’envoi.
 
@@ -95,7 +95,7 @@ Le tableau **[!UICONTROL Statistiques d’envoi]** fournit un résumé complet d
 
 Le tableau **[!UICONTROL E-mail - Statistiques de tracking]** offre un compte rendu détaillé de l’activité de profil associée aux e-mails inclus dans votre campagne. Cela inclut des mesures sur les ouvertures, les clics et d’autres indicateurs d’engagement pertinents, offrant une vue d’ensemble complète de la manière dont les profils interagissent avec le contenu de vos e-mails.
 
-+++ En savoir plus sur les mesures des statistiques de tracking
++++ En savoir plus sur les mesures de statistiques de tracking
 
 * **[!UICONTROL Taux de clics (CTR)]** : pourcentage d’utilisateurs et d’utilisatrices ayant interagi avec l’e-mail.
 
@@ -122,7 +122,7 @@ Le tableau **[!UICONTROL E-mail - Statistiques de tracking]** offre un compte re
 
 Le tableau **[!UICONTROL Domaines d’e-mails]** propose une ventilation détaillée des e-mails classés par domaine, fournissant des informations détaillées sur les mesures de performances de vos campagnes par e-mail. Cette analyse exhaustive vous permet de comprendre le comportement de différents domaines en réponse au contenu de vos e-mails.
 
-+++ En savoir plus sur les mesures Domaines d’e-mail
++++ En savoir plus sur les mesures des domaines d’e-mails
 
 * **[!UICONTROL Envois]** : nombre total d’e-mails envoyés.
 
@@ -142,7 +142,7 @@ Le tableau **[!UICONTROL Domaines d’e-mails]** propose une ventilation détail
 
 Le tableau **[!UICONTROL Libellés des liens de suivi]** fournit une vue d’ensemble complète des libellés des liens dans vos e-mails qui attirent le plus de visiteurs et de visiteuses. Cette fonctionnalité vous permet d’identifier et de hiérarchiser les liens les plus populaires.
 
-+++ En savoir plus sur les mesures des libellés des liens suivis
++++ En savoir plus sur les mesures des libellés des liens de suivi
 
 * **[!UICONTROL Clics uniques]** : nombre de profils qui ont cliqué sur un contenu dans un e-mail.
 
@@ -156,7 +156,7 @@ Le tableau **[!UICONTROL Libellés des liens de suivi]** fournit une vue d’ens
 
 Le tableau **[!UICONTROL URL des liens de suivi]** fournit une vue d’ensemble complète des URL de votre e-mail qui attirent le plus de visiteurs et de visiteuses. Cela vous permet d’identifier et de hiérarchiser les liens les plus populaires, ce qui améliore votre compréhension de l’engagement des profils avec du contenu spécifique dans vos e-mails.
 
-+++ En savoir plus sur les mesures des URL de liens trackés
++++ En savoir plus sur les mesures des URL des liens de suivi
 
 * **[!UICONTROL Clics uniques]** : nombre de profils qui ont cliqué sur un contenu dans un e-mail.
 

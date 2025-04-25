@@ -7,9 +7,9 @@ role: Data Engineer
 level: Experienced
 exl-id: 6e603bc1-0813-435a-9349-d8585a7a0997
 source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '136'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -25,5 +25,5 @@ L’expérience basée sur du code prend en charge n’importe quelle implément
 
 Vous trouverez des informations détaillées sur les différentes méthodes d’implémentation dans le guide des canaux basés sur du code. Ce guide contient des détails sur chaque méthode d’implémentation, ainsi que des exemples d’implémentation pour différents cas d’utilisation de personnalisation et d’expérimentation.
 
-➡️ [En savoir plus sur les méthodes d’implémentation basées sur du code](../../code-based/code-based-implementation-samples.md)
+➡️ [En savoir plus sur les méthodes de mise en œuvre basées sur du code](../../code-based/code-based-implementation-samples.md)
 

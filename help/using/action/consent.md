@@ -10,9 +10,9 @@ level: Experienced
 keywords: politiques, gouvernance, platform, healthcare shield, consentement
 exl-id: 01ca4b3e-3778-4537-81e9-97ef92c9aa9e
 source-git-commit: 060d65e8d3fb1442b04626170a35d463d1faa514
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1242'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 

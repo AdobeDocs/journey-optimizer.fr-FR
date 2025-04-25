@@ -9,9 +9,9 @@ level: Beginner, Intermediate
 keywords: parcours, découverte, commencer
 exl-id: 73cfd48b-72e6-4b72-bbdf-700a32a34bda
 source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '417'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -30,7 +30,7 @@ Utilisez [!DNL Journey Optimizer] pour créer des cas d’utilisation d’orches
 
 Le concepteur de parcours Journey Optimizer fournit tout ce dont les équipes de marketing et les spécialistes du parcours ont besoin pour orchestrer des parcours 1:1 à plusieurs étapes sur plusieurs canaux. Vous y trouverez une zone de travail intuitive par glisser-déposer pour orchestrer chaque étape du parcours, définir l’audience cible et inclure les messages, les offres et le contenu sur les canaux que les membres de l’audience cible verront en fonction du comportement, des données contextuelles et des événements métier.
 
-Découvrez comment créer et concevoir votre premier parcours sur [cette page](journey-gs.md).
+Découvrez comment concevoir et créer votre premier parcours dans [cette page](journey-gs.md).
 
 ➡️ [Découvrez Journey Optimizer en vidéo.](#video)
 
@@ -50,7 +50,7 @@ Découvrez comment créer des parcours dans les cas d’utilisation complets sui
 
 >[!NOTE]
 >
->Les mécanismes de sécurisation et limitations de parcours sont détaillés sur [cette page](../start/guardrails.md)
+>Les mécanismes de sécurisation et limitations des parcours sont détaillés dans [cette page](../start/guardrails.md).
 
 ## Vidéo pratique {#video}
 

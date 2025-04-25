@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 exl-id: 33b6cc18-dd63-48d9-8d85-526500d83d37
 source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '385'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 90%
 
 >[!BEGINSHADEBOX]
 
-Vous pouvez accéder à votre rapport de parcours basé sur le code en cliquant sur le bouton **[!UICONTROL Afficher le rapport]** de votre parcours. [En savoir plus](report-gs-cja.md)
+Vous pouvez accéder à votre rapport de parcours basé sur du code en cliquant sur le bouton **[!UICONTROL Afficher le rapport]** dans votre parcours. [En savoir plus](report-gs-cja.md)
 
 ![](assets/report-access-jo.png)
 
@@ -35,7 +35,7 @@ Vous pouvez accéder à votre rapport de parcours basé sur le code en cliquant 
 
 Les graphiques **[!UICONTROL Affichages et clics]** présentent une analyse détaillée de l’engagement de vos profils avec vos expériences basées sur du code, offrant des informations précieuses sur la manière dont les profils interagissent avec votre contenu.
 
-+++ En savoir plus sur les mesures Impression et Clic .
++++ En savoir plus sur les mesures des impressions et des clics
 
 * **[!UICONTROL Clics uniques]** : nombre de profils qui ont cliqué sur un contenu dans vos expériences.
 
@@ -73,7 +73,7 @@ Le tableau **[!UICONTROL Données de suivi]** offre un instantané détaillé de
 
 Le tableau **[!UICONTROL Libellés des liens de suivi]** fournit une vue d’ensemble complète des libellés des liens dans vos expériences basées sur du code qui génèrent le plus de trafic de visiteurs et de visiteuses. Cette fonctionnalité vous permet d’identifier et de hiérarchiser les liens les plus populaires.
 
-+++ En savoir plus sur les mesures des libellés des liens suivis
++++ En savoir plus sur les mesures des libellés des liens de suivi
 
 * **[!UICONTROL Clics uniques]** : nombre de profils qui ont cliqué sur un contenu dans vos expériences basées sur du code.
 

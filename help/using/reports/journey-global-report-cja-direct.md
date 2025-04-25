@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 exl-id: 6fae8beb-ca40-40a1-8939-c309fbf46c4f
 source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '353'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 91%
 
 >[!BEGINSHADEBOX]
 
-Vous pouvez accéder à votre rapport de parcours Courrier en cliquant sur le bouton **[!UICONTROL Afficher le rapport]** de votre parcours. [En savoir plus](report-gs-cja.md)
+Vous pouvez accéder à votre rapport de parcours par courrier en cliquant sur le bouton **[!UICONTROL Afficher le rapport]** dans votre parcours. [En savoir plus](report-gs-cja.md)
 
 ![](assets/report-access-jo.png)
 
@@ -31,7 +31,7 @@ Vous pouvez accéder à votre rapport de parcours Courrier en cliquant sur le bo
 
 Le tableau **[!UICONTROL Statistiques d’envoi]** vous aide à comprendre les performances de vos parcours de publipostage direct. Consultez les mesures clés telles que le nombre de personnes ciblées et de pièces diffusées avec succès afin d’évaluer la portée et l’efficacité de vos envois.
 
-+++ En savoir plus sur les mesures Statistiques d’envoi
++++ En savoir plus sur les mesures de statistiques d’envoi
 
 * **[!UICONTROL Personnes]** : nombre de profils d’utilisateurs et d’utilisatrices qui sont qualifiés en tant que profils cibles pour vos messages.
 

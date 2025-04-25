@@ -10,9 +10,9 @@ level: Experienced
 keywords: IP, groupe, sous-domaines, délivrabilité
 exl-id: 752ffd7f-09c2-4aa3-a067-2dbe0634709c
 source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
-workflow-type: tm+mt
-source-wordcount: '2642'
-ht-degree: 96%
+workflow-type: ht
+source-wordcount: '2634'
+ht-degree: 100%
 
 ---
 
@@ -162,7 +162,7 @@ At phase level, system ensures that previously targeted + new profiles are picke
 
    ![](assets/ip-warmup-plan-send-time.png)
 
-1. Vous pouvez éventuellement définir une période pendant laquelle la campagne de préchauffage d’adresses IP peut être exécutée en cas de retard dans l’[évaluation de l’audience](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=fr#how-segmentation-works){target="_blank"}{target=« _blank »}. Pour ce faire, cliquez sur l’icône Propriétés en haut à gauche, en regard du nom du plan, et utilisez la liste déroulante **[!UICONTROL Temps d’exécution de reprise]** pour sélectionner une durée, jusqu’à 240 minutes (4 heures).
+1. Vous pouvez éventuellement définir une fenêtre temporelle pendant laquelle la campagne de préchauffage des adresses IP peut être exécutée en cas de retard dans l’[évaluation de l’audience](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=fr#how-segmentation-works){target="_blank"}. Pour ce faire, cliquez sur l’icône Propriétés en haut à gauche, en regard du nom du plan, et utilisez la liste déroulante **[!UICONTROL Temps d’exécution de reprise]** pour sélectionner une durée, jusqu’à 240 minutes (4 heures).
 
    >[!NOTE]
    >
@@ -220,7 +220,7 @@ Pour activer une exécution, sélectionnez le bouton **[!UICONTROL Activer]**. V
 
 Lors de l’exécution simultanée de plusieurs plans de préchauffage des adresses IP, ciblant tous les mêmes domaines et groupes d’adresses IP, il est essentiel d’anticiper les conséquences potentielles. Par exemple, si un FAI applique une limite quotidienne de 100 e-mails, l’exécution de plusieurs plans ciblant les mêmes domaines peut dépasser ce seuil.
 
-Assurez-vous d’avoir planifié suffisamment de temps pour permettre l’exécution de l’[évaluation de l’audience](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=fr#how-segmentation-works){target="_blank"}{target=« _blank »}.
+Assurez-vous d’avoir planifié suffisamment de temps pour permettre l’exécution de l’[évaluation de l’audience](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=fr#how-segmentation-works){target="_blank"}.
 
 ![](assets/ip-warmup-plan-activate.png)
 
@@ -232,7 +232,7 @@ Lorsque vous activez une exécution, plusieurs audiences sont automatiquement cr
 
 * Si vous activez la première exécution d’une phase :
 
-   * Une [audience](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html?lang=fr){target="_blank"}{target=« _blank »} est créée pour les audiences de campagne exclues (le cas échéant), avec la convention de nommage suivante : `<warmupName>-Phase<phaseNo>-Audience Exclusion `.
+   * Une [audience](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html?lang=fr){target="_blank"} est créée pour les audiences de campagne exclues (le cas échéant), avec la convention de nommage suivante : `<warmupName>-Phase<phaseNo>-Audience Exclusion `.
 
    * Une audience est créée pour les groupes de domaines exclus (le cas échéant), avec la convention de nommage suivante : `<warmupName>-Phase<phaseNo>-Domain Exclusion`.
 
@@ -254,7 +254,7 @@ Lorsque vous activez une exécution, plusieurs audiences sont automatiquement cr
      >
      >Le système ne crée pas de nouvelle audience en cas d’absence de modification du dernier filtre d’engagement pour les phases ultérieures.
 
-   * Une [composition d’audience](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/audience-composition.html?lang=fr){target="_blank"}{target=« _blank »} est créée pour correspondre à l’audience à laquelle la campagne sera envoyée, avec la convention de nommage suivante : `<warmupName>-Phase<phaseNo>-Run<runNo>`.
+   * Une [composition d’audience](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/audience-composition.html?lang=fr){target="_blank"} est créée, qui correspond à l’audience à laquelle la campagne sera envoyée, avec la convention de nommage suivante : `<warmupName>-Phase<phaseNo>-Run<runNo>`.
 
      >[!NOTE]
      >
@@ -300,7 +300,7 @@ Une exécution peut avoir les statuts suivants :
 
 ### Utiliser les rapports {#reports}
 
-Plus généralement, pour mesurer l’impact de votre plan, vous pouvez vérifier les performances de vos campagnes de préchauffage des adresses IP à l’aide des rapports de campagne [!DNL Journey Optimizer]. Pour ce faire, vous pouvez cliquer sur le bouton **[!UICONTROL Afficher les rapports]** pour chaque exécution effectuée. En savoir plus sur le rapport dynamique [rapport dynamique](../reports/campaign-live-report.md#email-live) et le rapport Customer Journey Analytics [](../reports/campaign-global-report-cja-email.md) des e-mails de campagne.
+Plus généralement, pour mesurer l’impact de votre plan, vous pouvez vérifier les performances de vos campagnes de préchauffage des adresses IP à l’aide des rapports de campagne [!DNL Journey Optimizer]. Pour ce faire, vous pouvez cliquer sur le bouton **[!UICONTROL Afficher les rapports]** pour chaque exécution effectuée. Découvrez le [rapport dynamique](../reports/campaign-live-report.md#email-live) et le [rapport Customer Journey Analytics](../reports/campaign-global-report-cja-email.md) de la campagne par e-mail.
 
 ![](assets/ip-warmup-plan-reports.png)
 

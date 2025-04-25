@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 exl-id: e3781f79-7c8d-4512-b44f-835639b1471f
 source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '3712'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 96%
 
 Les rapports dynamiques, accessibles à partir de l’onglet Dernières 24 heures, affichent les événements qui se sont produits au cours des dernières 24 heures, avec un intervalle de temps minimal de deux minutes à compter de l’occurrence de l’événement. En comparaison, les rapports Customer Journey Analytics portent sur les événements qui se sont produits il y a au moins deux heures et couvrent les événements sur une période sélectionnée.
 
-Accédez au rapport de Parcours dynamique à partir du menu [!UICONTROL Parcours ] en ouvrant le menu [!UICONTROL Autres actions] de votre parcours et en sélectionnant [!UICONTROL Afficher le rapport des dernières 24 heures].
+Accédez au rapport de parcours actif à partir du menu [!UICONTROL Parcours] en ouvrant le menu [!UICONTROL Autres actions] de votre parcours et en sélectionnant [!UICONTROL Afficher le rapport des dernières 24 heures].
 
 ![](assets/report_journey.png)
 
@@ -68,7 +68,7 @@ Notez que le nombre de profils d’un nœud n’est mis à jour qu’une fois qu
 
 Les indicateurs clés de performance (KPI) **[!UICONTROL Statistiques du parcours]** fonctionnent à la manière d’un tableau de bord global qui fournit une analyse des mesures essentielles associées à votre parcours au cours des dernières 24 heures. Cela inclut des détails tels que le nombre de profils entrés et les instances de parcours individuels ayant échoué, ce qui vous permet d’avoir un aperçu complet de l’efficacité et du niveau d’engagement de votre parcours.
 
-+++ En savoir plus sur les mesures de statistiques de Parcours
++++ En savoir plus sur les mesures des statistiques du parcours
 
 * **[!UICONTROL Profils entrés]** : nombre total de personnes ayant atteint l&#39;événement d&#39;entrée du parcours.
 
@@ -88,7 +88,7 @@ Les indicateurs clés de performance (KPI) **[!UICONTROL Statistiques du parcou
 
 Le widget **[!UICONTROL Action exécutée au cours des dernières 24 heures]** représente l’action ayant rencontré le plus de succès au moment où vos actions ont été déclenchées.
 
-+++ En savoir plus sur les mesures Action exécutée au cours des dernières 24 heures
++++ En savoir plus sur la mesure Action exécutée au cours des dernières 24 heures
 
 * **[!UICONTROL Actions exécutées]** : nombre total d’actions exécutées avec succès pour un parcours.
 
@@ -107,7 +107,7 @@ Le widget **[!UICONTROL Action exécutée au cours des dernières 24 heures]** 
 
 Le widget **[!UICONTROL Actions exécutées et erreurs]** affiche l’action au taux de réussite le plus élevé et les erreurs qui se sont produites lorsque vos actions ont été déclenchées au cours des dernières 24 heures.
 
-+++ En savoir plus sur les mesures Actions exécutées et erreurs
++++ En savoir plus sur la mesure Actions exécutées et erreurs
 
 * **[!UICONTROL Actions exécutées]** : nombre total d’actions exécutées avec succès pour un parcours.
 
@@ -185,7 +185,7 @@ Dans le **[!UICONTROL Rapport dynamique]** de votre parcours, l’onglet **[!UIC
 
 Le graphe **[!UICONTROL E-mail – Performances d’envoi]** fournit une vue complète des données liées aux e-mails envoyés dans votre parcours, offrant des informations sur les mesures clés, telles que les envois et les rebonds qui se sont produits au cours des dernières 24 heures. Cela permet une analyse détaillée du processus d’envoi des e-mails, fournissant des informations précieuses sur l’efficacité et les performances de vos parcours.
 
-+++ En savoir plus sur E-mail - Mesures de performances d’envoi
++++ En savoir plus sur les mesures E-mail – Performances d’envoi
 
 * **[!UICONTROL Diffusés]** : nombre d’e-mails envoyés avec succès.
 
@@ -208,7 +208,7 @@ Le graphe **[!UICONTROL E-mail – Performances d’envoi]** fournit une vue com
 
 Le tableau **[!UICONTROL E-mail – Statistiques]** fournit un résumé complet des données essentielles relatives aux e-mails de vos parcours au cours des dernières 24 heures. Il détaille les mesures clés, telles que la taille de l’audience ciblée et le nombre d’e-mails envoyés avec succès, ce qui vous permet d’obtenir des informations précieuses sur l’efficacité et la portée de vos e-mails et parcours.
 
-+++ En savoir plus sur les mesures Statistiques d’envoi des e-mails .
++++ En savoir plus sur les mesures Statistiques d’envoi d’e-mails
 
 * **[!UICONTROL Ciblés]** : nombre total de messages traités lors de la procédure d’envoi.
 
@@ -243,9 +243,9 @@ Le tableau **[!UICONTROL E-mail – Statistiques]** fournit un résumé complet 
 
 ![](assets/journey_live_email_performance_date.png)
 
-Le widget **[!UICONTROL E-mail – Performances par date]** offre une vue d’ensemble détaillée des informations clés relatives à vos e-mails, présentée sous la forme d’un graphe, fournissant des informations sur les tendances de performances au cours des dernières 24 heures.
+Le widget **[!UICONTROL E-mail – Performances par date]** offre une vue d’ensemble détaillée des informations clés relatives à vos e-mails, présentée sous la forme d’un graphique, fournissant des informations sur les tendances de performances au cours des dernières 24 heures.
 
-+++ En savoir plus sur les mesures E-mail - Performances par date
++++ En savoir plus sur les mesures E-mail – Performances par date
 
 * **[!UICONTROL Envoyés]** : nombre total d’e-mails envoyés.
 
@@ -278,7 +278,7 @@ Les widgets **[!UICONTROL Raisons de rebond]** et **[!UICONTROL Catégories de r
 
 Pour plus d’informations sur les rebonds, consultez la page [Liste de suppression](../reports/suppression-list.md).
 
-+++ En savoir plus sur les catégories d’e-mails et les mesures des motifs de rebond
++++ En savoir plus sur les mesures E-mail – Catégories et raisons de rebonds
 
 * **[!UICONTROL Rebond définitif]** : nombre total d’erreurs permanentes, telles qu’une adresse e-mail incorrecte. Un message d&#39;erreur indique explicitement que l&#39;adresse n&#39;est pas valide, comme Utilisateur inconnu.
 
@@ -336,7 +336,7 @@ Le graphe et le tableau **[!UICONTROL E-mail – Meilleur domaine de la personne
 
 Les widgets **[!UICONTROL Statistiques des offres]** et **[!UICONTROL Statistiques des offres dans le temps]** mesurent le succès et l’impact de votre offre sur votre audience ciblée. Ils détaillent les informations principales relatives à votre message avec les KPI.
 
-+++ En savoir plus sur les mesures E-mail - Offres
++++ En savoir plus sur les mesures E-mail – Offres
 
 * **[!UICONTROL Offre envoyée]** : nombre total d’envois pour l’offre.
 
@@ -361,7 +361,7 @@ Les widgets **[!UICONTROL Statistiques des offres]** et **[!UICONTROL Statistiqu
 
 Les widgets **[!UICONTROL Optimisation de l’heure d’envoi]** et **[!UICONTROL Optimisé ou non optimisé]** détaillent le succès de vos e-mails selon la méthode d’envoi : optimisée ou normale.
 
-+++ En savoir plus sur l’optimisation de l’heure d’envoi et les mesures optimisées ou non optimisées
++++ En savoir plus sur les mesures Optimisation de l’heure d’envoi et Optimisé ou non optimisé
 
 * **[!UICONTROL Délivrés]** : nombre de messages envoyés avec succès, par rapport au nombre total de messages envoyés.
 * **[!UICONTROL Rebonds]** : nombre total d’erreurs cumulées lors de la procédure d’envoi et du traitement automatique des retours par rapport au nombre total de messages envoyés.
@@ -389,7 +389,7 @@ Dans le **[!UICONTROL Rapport dynamique]** du parcours, l’onglet **[!UICONTROL
 
 Le graphe **[!UICONTROL Performances d’envoi des notifications push]** offre une vue d’ensemble complète des données relatives aux notifications push envoyées au cours des dernières 24 heures. Il fournit des informations sur les mesures essentielles, telles que les diffusions et les rebonds, ce qui permet un examen détaillé du processus d’envoi des notifications push.
 
-+++ En savoir plus sur les notifications push - Mesures de performances d’envoi
++++ En savoir plus sur les mesures Notification push – Performances d’envoi
 
 * **[!UICONTROL Diffusés]** : nombre de messages envoyés avec succès.
 
@@ -410,7 +410,7 @@ Le graphe **[!UICONTROL Performances d’envoi des notifications push]** offre u
 
 Le tableau **[!UICONTROL Notification push – Statistiques]** fournit un résumé concis des données essentielles relatives à vos notifications push, y compris des mesures clés telles que le nombre de messages ciblés et le nombre de messages diffusés au cours des dernières 24 heures.
 
-+++ En savoir plus sur les notifications push - Mesures de statistiques
++++ En savoir plus sur les mesures Notification push – Statistiques
 
 * **[!UICONTROL Ciblés]** : nombre de profils ciblés pour toute action telle que l’envoi d’e-mails ou de SMS.
 
@@ -449,7 +449,7 @@ Le graphe et le tableau **[!UICONTROL Notification push – Répartition par pla
 
 Le graphe **[!UICONTROL Synthèse des notifications push]** offre une représentation dynamique, affichant une analyse de votre activité de notifications push au cours des dernières 24 heures. Cette représentation graphique montre une répartition complète des notifications push envoyées.
 
-+++ En savoir plus sur les notifications push - Envoi de mesures de résumé
++++ En savoir plus sur les mesures Notification push – Synthèse des envois
 
 * **[!UICONTROL Envoyées]** : nombre total de notifications push envoyées.
 
@@ -500,9 +500,9 @@ Consultez [cette page](exclusion-list.md) pour la liste complète des causes d�
 
 ![](assets/journey_live_sms_statistics.png)
 
-Le tableau **[!UICONTROL SMS – Statistiques]** fournit un résumé concis des données essentielles liées à vos SMS, y compris les mesures clés telles que le nombre de messages ciblés et le nombre de messages livrés avec succès depuis les dernières 24 heures.
+Le tableau **[!UICONTROL SMS – Statistiques]** fournit un résumé concis des données essentielles liées à vos SMS, y compris les mesures clés telles que le nombre de messages ciblés et le nombre de messages diffusés avec succès depuis les dernières 24 heures.
 
-+++ En savoir plus sur SMS - Mesures des statistiques
++++ En savoir plus sur les mesures SMS – Statistiques
 
 * **[!UICONTROL Ciblés]** : nombre de profils de personnes qui sont qualifiés en tant que profils cibles.
 
@@ -527,9 +527,9 @@ Le tableau **[!UICONTROL SMS – Statistiques]** fournit un résumé concis des 
 
 ![](assets/journey_live_sms_performance.png)
 
-Le widget **[!UICONTROL SMS – Performances par date]** offre une vue d’ensemble détaillée des informations clés relatives à vos messages, présenté sous la forme d’un graphe, fournissant des informations sur les tendances de performances au cours des dernières 24 heures.
+Le widget **[!UICONTROL SMS – Performances par date]** offre une vue d’ensemble détaillée des informations clés relatives à vos messages, présentée sous la forme d’un graphique, fournissant des informations sur les tendances de performances au cours des dernières 24 heures.
 
-+++ En savoir plus sur les SMS - Performances par mesures de date
++++ En savoir plus sur les mesures SMS – Performances par date
 
 * **[!UICONTROL Envoyés]** : nombre total de SMS envoyés.
 
@@ -593,9 +593,9 @@ The **[!UICONTROL SMS - Clicks by links]** widget offers essential insights into
 
 ![](assets/journey_live_inapp_performance.png)
 
-Les KPI **[!UICONTROL Performances in-app]** fournissent des informations essentielles sur l’engagement de vos profils avec les messages in-app au cours des dernières 24 heures, fournissant des mesures essentielles pour évaluer l’efficacité et l’impact des messages in-app inclus dans votre parcours.
+Les KPI **[!UICONTROL Performances in-app]** donnent des informations essentielles sur l’engagement de vos profils avec les messages in-app au cours des dernières 24 heures, fournissant des mesures essentielles pour évaluer l’efficacité et l’impact des messages in-app inclus dans votre parcours.
 
-+++ En savoir plus sur In-app - Mesures de performances
++++ En savoir plus sur les mesures Performances in-app
 
 * **[!UICONTROL Impressions]** : nombre total de messages in-app diffusés à tous les utilisateurs et utilisatrices.
 
@@ -620,9 +620,9 @@ Les KPI **[!UICONTROL Performances in-app]** fournissent des informations essent
 
 ![](assets/journey_live_inapp_summary.png)
 
-Le graphe **[!UICONTROL Synthèse in-app]** illustre la progression de vos impressions et interactions in-app au cours des dernières 24 heures, fournissant une vue d’ensemble complète des performances de vos messages in-app.
+Le graphique **[!UICONTROL Synthèse in-app]** illustre la progression de vos impressions et interactions in-app au cours des dernières 24 heures, fournissant une vue d’ensemble complète des performances de vos messages in-app.
 
-+++ En savoir plus sur les mesures de résumé in-app
++++ En savoir plus sur les mesures Synthèse in-app
 
 * **[!UICONTROL Impressions]** : nombre total de messages in-app diffusés à tous les utilisateurs et utilisatrices.
 

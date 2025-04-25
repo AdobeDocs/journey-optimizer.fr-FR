@@ -10,15 +10,15 @@ level: Intermediate
 keywords: désinscription, e-mail, lien, désabonnement
 exl-id: 4bb51bef-5dab-4a72-8511-1a5e528f4b95
 source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '991'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
 # Gestion du processus de désinscription aux e-mails {#email-opt-out}
 
-Lors de l’envoi de messages à partir des parcours ou des campagnes, vous devez toujours vous assurer que les clientes et clients peuvent se désabonner des futures communications. Une fois désabonnés, les profils sont automatiquement supprimés de l’audience des futurs messages marketing.  [En savoir plus sur la gestion de la confidentialité et du processus de désinscription](../privacy/opt-out.md)
+Lors de l’envoi de messages à partir des parcours ou des campagnes, vous devez toujours vous assurer que les clientes et clients peuvent se désabonner des futures communications. Une fois désabonnés, les profils sont automatiquement supprimés de l’audience des futurs messages marketing.  [En savoir plus sur la gestion de la confidentialité et du processus d’opt-out](../privacy/opt-out.md)
 
 >[!NOTE]
 >
@@ -26,7 +26,7 @@ Lors de l’envoi de messages à partir des parcours ou des campagnes, vous deve
 
 Pour insérer un lien de désinscription dans le contenu de votre e-mail, vous pouvez procéder comme suit :
 
-* Ajoutez une URL de désabonnement en un clic dans l’en-tête de l’e-mail. L’activation de l’option **[!UICONTROL Activer le désabonnement de la liste]** au niveau de la configuration des canaux ajoute un lien d’exclusion dans l’en-tête de l’e-mail. [En savoir plus sur le processus de désinscription dans l’en-tête de l’e-mail](#unsubscribe-header)
+* Ajoutez une URL de désabonnement en un clic dans l’en-tête de l’e-mail. L’activation de l’option **[!UICONTROL Activer le désabonnement de la liste]** au niveau de la configuration des canaux ajoute un lien d’exclusion dans l’en-tête de l’e-mail. [En savoir plus sur le processus d’opt-out dans l’en-tête d’e-mail](#unsubscribe-header)
 
 * Activez le **lien d’exclusion en un clic** pour votre e-mail. [Découvrir comment ajouter un lien de désinscription en un clic](#one-click-opt-out)
 
@@ -87,11 +87,11 @@ Le mécanisme de désinscription standard repose sur deux étapes : la personne
 Pour mettre en œuvre ce mode de désinscription, vous devez créer et publier une page de destination d’opt-out et ajouter un lien de désinscription dans vos e-mails avec un lien vers la page de destination. Ces étapes sont décrites ci-dessous.
 
 
-### Conditions préalables {#prereq-lp}
+### Prérequis {#prereq-lp}
 
 Pour configurer un mécanisme de désinscription en deux étapes, vous devez créer vos propres pages de destination de désinscription. La première page de destination est liée à votre message et doit contenir un bouton d’appel à l’action. Un message de confirmation doit s’afficher lorsque l’utilisateur ou l’utilisatrice clique sur le bouton.
 
-Découvrez comment créer une page de destination dans Adobe Journey Optimizer pour gérer les désabonnements sur [cette page](../landing-pages/lp-use-cases.md#opt-out).
+Découvrez comment créer une page de destination dans Adobe Journey Optimizer pour gérer les désabonnements sur [cette page](../landing-pages/lp-use-cases.md#opt-out).
 
 Vous pouvez également utiliser une page de destination externe. Dans ce cas, configurez l’API pour envoyer les informations à Adobe Journey Optimizer lorsqu’une personne destinataire s’est désabonnée.
 

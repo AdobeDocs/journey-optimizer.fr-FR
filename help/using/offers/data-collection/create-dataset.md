@@ -8,9 +8,9 @@ role: Data Engineer, Developer
 level: Experienced
 exl-id: 99963ef4-0b19-475e-96f4-2eac3f680c6f
 source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
-workflow-type: tm+mt
-source-wordcount: '258'
-ht-degree: 88%
+workflow-type: ht
+source-wordcount: '254'
+ht-degree: 100%
 
 ---
 
@@ -28,7 +28,7 @@ Commencez par créer le schéma qui sera utilisé dans votre jeu de données :
 
    >[!NOTE]
    >
-   >Pour en savoir plus sur les schémas et les groupes de champs XDM, consultez la [documentation de présentation du système XDM](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=fr){target="_blank"}{target=« _blank »}.
+   >Pour en savoir plus sur les schémas et les groupes de champs XDM, consultez la [documentation de vue d’ensemble du système XDM](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=fr){target="_blank"}.
 
 1. Saisissez le nom et la description de votre schéma, puis cliquez sur **Terminer**.
    ![](../assets/ai-ranking-xdm-event-2.png)
@@ -51,7 +51,7 @@ Commencez par créer le schéma qui sera utilisé dans votre jeu de données :
 
 >[!NOTE]
 >
->Pour en savoir plus sur la création de schémas, consultez [Principes de base de la composition des schémas](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html#understanding-schemas){target="_blank"}{target=« _blank »}.
+>Pour en savoir plus sur la création de schémas, consultez la section [Principes de base de la composition des schémas](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html?lang=fr#understanding-schemas){target="_blank"}.
 
 Vous êtes maintenant prêt à créer un jeu de données à l&#39;aide de ce schéma. Pour ce faire, procédez comme suit :
 

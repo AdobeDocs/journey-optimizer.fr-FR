@@ -10,9 +10,9 @@ level: Intermediate
 keywords: parcours, premier, commencer, démarrage rapide, audience, événement, action
 exl-id: 770bdbf2-560d-4127-bdb9-1f82495a566f
 source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1150'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -75,7 +75,7 @@ Le type de parcours dépend des activités utilisées dans ce parcours. Il peut 
 * **[!UICONTROL Lecture d’audience]** : dans les parcours Lecture d’audience, toutes les personnes de l’audience rejoignent le parcours et reçoivent les messages inclus dans votre parcours. [En savoir plus](read-audience.md).
 
 
-Pour en savoir plus sur les types de parcours et la gestion des entrées associée, consultez [cette page](entry-management.md).
+En savoir plus sur les types de parcours et la gestion des entrées associées sur [cette page](entry-management.md).
 
 ## Statuts des parcours {#journey-statuses}
 

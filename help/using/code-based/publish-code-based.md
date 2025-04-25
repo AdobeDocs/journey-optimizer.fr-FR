@@ -7,9 +7,9 @@ role: User
 level: Experienced
 exl-id: a1daf6f7-c26c-4d70-984b-0b4eeb04a1a8
 source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '494'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -31,7 +31,7 @@ Vous pouvez également prévisualiser le contenu de votre expérience basée sur
 >
 >Si plusieurs parcours ou campagnes basés sur du code mettent à jour le ou les mêmes éléments de votre contenu, le parcours ou la campagne avec la priorité la plus élevée prévaut.
 
-Une fois votre parcours ou campagne basé sur du code actif, votre équipe de mise en oeuvre d’application est chargée d’effectuer des appels d’API ou de SDK explicites pour récupérer du contenu pour les surfaces définies dans la [configuration d’expérience basée sur le code](code-based-configuration.md) sélectionnée. En savoir plus sur les différentes implémentations client dans [cette section](code-based-implementation-samples.md).
+Une fois votre parcours ou campagne basé sur du code actif, votre équipe de mise en oeuvre d’application est chargée d’effectuer des appels d’API ou de SDK explicites pour récupérer du contenu pour les surfaces définies dans la [configuration d’expérience basée sur le code](code-based-configuration.md) sélectionnée. En savoir plus sur les différentes mises en œuvre des clientes et clients dans [cette section](code-based-implementation-samples.md).
 
 ### Publier un parcours basé sur du code {#publish-code-based-journey}
 
@@ -45,7 +45,7 @@ Pour mettre en ligne votre expérience basée sur du code à partir d’un parco
 
    >[!NOTE]
    >
-   >En savoir plus sur la publication de parcours dans [cette section](../building-journeys/publishing-the-journey.md).
+   >En savoir plus sur la publication des parcours dans [cette section](../building-journeys/publishing-the-journey.md).
 
 Le statut de votre parcours basé sur du code passe à **[!UICONTROL Actif]** et l’audience sélectionnée peut voir votre parcours. Chaque destinataire de votre campagne peut voir vos modifications.
 

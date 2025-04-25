@@ -10,9 +10,9 @@ level: Intermediate, Experienced
 keywords: schémas, XDM, platform, en flux continu, ingestion, parcours
 exl-id: f19749c4-d683-4db6-bede-9360b9610eef
 source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '831'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -22,7 +22,7 @@ Les événements [!DNL Journey Optimizer] sont des événements d’expérience 
 
 À ce titre, il est important pour la configuration des événements dans [!DNL Journey Optimizer] de maîtriser le modèle de données d’expérience (ou XDM) d’Adobe Experience Platform et de savoir composer des schémas d’événements d’expérience XDM et diffuser des données au format XDM vers Adobe Experience Platform.
 
-## Schéma requis pour les événements [!DNL Journey Optimizer]   {#schema-requirements}
+## Schéma requis pour les événements [!DNL Journey Optimizer]  {#schema-requirements}
 
 La première étape de la configuration d’un événement pour [!DNL Journey Optimizer] consiste à définir un schéma XDM pour représenter l’événement et à créer un jeu de données pour enregistrer les instances de l’événement dans Adobe Experience Platform. Il n’est pas absolument nécessaire de disposer d’un jeu de données pour vos événements. Cela dit, le fait d’envoyer les événements à un jeu de données spécifique permet de conserver l’historique des événements des personnes pour une consultation et une analyse ultérieures, ce qui est judicieux. Si vous ne disposez pas déjà d’un schéma et d’un jeu de données appropriés pour votre événement, il est possible de réaliser ces deux tâches dans l’interface web d’Adobe Experience Platform.
 
@@ -72,7 +72,7 @@ Voici le schéma d&#39;achat avec la relation définie dans le champ Identifiant
 
 >[!NOTE]
 >
->En savoir plus sur les relations de schéma dans la documentation d’[Experience Platform](https://experienceleague.adobe.com/docs/platform-learn/tutorials/schemas/configure-relationships-between-schemas.html?lang=fr).
+>Pour en savoir plus sur les relations de schéma, consultez la [documentation Experience Platform](https://experienceleague.adobe.com/docs/platform-learn/tutorials/schemas/configure-relationships-between-schemas.html?lang=fr).
 
 Dans Journey Optimizer, vous pouvez ensuite exploiter tous les champs des tables liées :
 
@@ -87,7 +87,7 @@ Vous pouvez définir une relation de schéma sur un ensemble de chaînes de cara
 
 ![](assets/schema15.png)
 
-Vous pouvez également définir une relation de schéma avec un attribut dans un ensemble d’objets, par exemple une liste d’informations d’achat (identifiant de produit, nom de produit, prix, remise). Les valeurs de recherche seront disponibles dans les parcours (conditions, actions personnalisées, etc.) et la personnalisation des messages.
+Vous pouvez également définir une relation de schéma avec un attribut dans un ensemble d’objets, par exemple une liste d’informations d’achat (identifiant de produit, nom de produit, prix, remise). Les valeurs de recherche seront disponibles dans les parcours (conditions, actions personnalisées, etc.) et dans la personnalisation des messages.
 
 ![](assets/schema16.png)
 

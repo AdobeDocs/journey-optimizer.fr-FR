@@ -9,9 +9,9 @@ role: User
 level: Beginner
 exl-id: 1f88626a-b491-4b36-8e3f-57f2b7567dd0
 source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1042'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -135,7 +135,7 @@ Vous pouvez améliorer votre communication en envoyant des messages MMS (Multime
 
 >[!NOTE]
 >
-> Le canal MMS s’accompagne de quelques restrictions répertoriées sur [cette page](../start/guardrails.md#sms-guardrails).
+> Le canal MMS est fourni avec quelques limites répertoriées sur [cette page](../start/guardrails.md#sms-guardrails).
 
 Pour créer du contenu MMS, procédez comme suit :
 
@@ -161,7 +161,7 @@ Cliquez sur le bouton **[!UICONTROL Simuler le contenu]** pour prévisualiser le
 
 ![](assets/sms-content-preview.png)
 
-Une fois que vous avez effectué vos tests et validé le contenu, vous pouvez envoyer votre message texte à votre audience. Ces étapes sont détaillées sur [cette page](send-sms.md)
+Une fois que vous avez effectué vos tests et validé le contenu, vous pouvez envoyer votre message texte à votre audience. Ces étapes sont présentées sur [cette page](send-sms.md).
 
 Après leur envoi, vous pouvez mesurer l’impact de vos SMS dans les rapports des campagnes et des parcours. Pour plus d’informations sur les rapports, consultez [cette section](../reports/campaign-global-report-cja-sms.md).
 

@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 exl-id: 39441fe9-5cdc-4787-9267-798de80e3af2
 source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '538'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 89%
 
 >[!BEGINSHADEBOX]
 
-Pour accéder au rapport de campagne web, cliquez sur le bouton **[!UICONTROL Rapports]** de votre campagne, puis sélectionnez **[!UICONTROL Afficher le rapport à toute heure]**. [En savoir plus](report-gs-cja.md)
+Vous pouvez accéder au rapport de campagne web en cliquant sur le bouton **[!UICONTROL Rapports]** de votre campagne, puis en sélectionnant **[!UICONTROL Afficher le rapport de toutes les périodes]**. [En savoir plus](report-gs-cja.md)
 
 ![](assets/report-access.png)
 
@@ -31,7 +31,7 @@ Pour accéder au rapport de campagne web, cliquez sur le bouton **[!UICONTROL Ra
 
 Le graphique **[!UICONTROL Tendance impressions et clics]** présente une analyse détaillée de l’engagement de vos profils avec vos pages web, offrant des informations précieuses sur la manière dont les profils interagissent avec votre contenu.
 
-+++ En savoir plus sur les mesures Tendance des impressions et des clics
++++ En savoir plus sur les mesures de tendance des impressions et des clics
 
 * **[!UICONTROL Clics]** : nombre de fois où un contenu a fait l’objet d’un clic dans vos pages web.
 
@@ -45,7 +45,7 @@ Le graphique **[!UICONTROL Tendance impressions et clics]** présente une analys
 
 Le graphe **[!UICONTROL Clics]** affiche les mesures de clics sur les pages web, illustrant à la fois le nombre total de clics sur le contenu et le nombre de profils uniques ayant cliqué sur le contenu.
 
-+++ En savoir plus sur les mesures Clics
++++ En savoir plus sur les mesures de clics
 
 * **[!UICONTROL Clics uniques]** : nombre de profils qui ont cliqué sur un contenu dans vos pages web.
 
@@ -59,7 +59,7 @@ Le graphe **[!UICONTROL Clics]** affiche les mesures de clics sur les pages web,
 
 Le graphe **[!UICONTROL Affichages]** vous permet de comprendre à la fois la portée globale du message et le nombre de profils uniques qui interagissent avec lui.
 
-+++ En savoir plus sur les mesures Affichage
++++ En savoir plus sur les mesures d’affichage
 
 * **[!UICONTROL Affichages]** : nombre d’ouvertures du message.
 
@@ -96,7 +96,7 @@ Le tableau **[!UICONTROL Données de suivi]** offre un instantané détaillé de
 
 Le tableau **[!UICONTROL Libellés des liens de suivi]** fournit une vue d’ensemble complète des libellés des liens dans vos pages web qui attirent le plus de visiteurs et de visiteuses. Cette fonctionnalité vous permet d’identifier et de hiérarchiser les liens les plus populaires.
 
-+++ En savoir plus sur les mesures des libellés des liens suivis
++++ En savoir plus sur les mesures des libellés des liens de suivi
 
 * **[!UICONTROL Clics uniques]** : nombre de profils qui ont cliqué sur un contenu dans vos pages web.
 
@@ -114,7 +114,7 @@ Le tableau **[!UICONTROL Libellés des liens de suivi]** fournit une vue d’ens
 
 Le tableau **[!UICONTROL URL des liens suivis]** fournit une vue d’ensemble complète des URL de vos pages web qui attirent le plus de visiteurs et de visiteuses. Cela vous permet d’identifier et de hiérarchiser les liens les plus populaires, ce qui améliore votre compréhension de l’engagement des profils avec du contenu spécifique dans vos pages web.
 
-+++ En savoir plus sur les mesures des URL de liens trackés
++++ En savoir plus sur les mesures des URL des liens de suivi
 
 * **[!UICONTROL Clics uniques]** : nombre de profils qui ont cliqué sur un contenu dans vos pages web.
 

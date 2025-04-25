@@ -7,9 +7,9 @@ role: User
 level: Experienced
 exl-id: 63aa1763-2220-4726-a45d-3a3a8b8a55ec
 source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1756'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 90%
 
 Les politiques de décision sont des conteneurs pour vos offres qui tirent profit du moteur de prise de décision afin de choisir le meilleur contenu à diffuser, en fonction de l’audience.
 
-<!--Decision policies contain all of the selection logic for the decisioning engine to pick the best content. Decision policies are campaign specific. -->Leur objectif est de sélectionner les meilleures offres pour chaque profil, tandis que la création de campagnes/parcours vous permet d’indiquer comment les éléments de décision sélectionnés doivent être présentés, y compris les attributs d’élément à inclure dans le message.
+<!--Decision policies contain all of the selection logic for the decisioning engine to pick the best content. Decision policies are campaign specific. -->Leur objectif est de sélectionner les meilleures offres pour chaque profil, tandis que la création de campagne et de parcours vous permet d’indiquer comment les éléments de décision sélectionnés doivent être présentés, y compris les attributs d’élément à inclure dans le message.
 
 >[!NOTE]
 >
@@ -54,7 +54,7 @@ Les principales étapes pour utiliser les politiques de décision dans vos campa
 >additional-url="https://experienceleague.adobe.com/fr/docs/journey-optimizer/using/decisioning/offer-decisioning/get-started-decision/starting-offer-decisioning" text="Créer des stratégies"
 >additional-url="https://experienceleague.adobe.com/fr/docs/journey-optimizer/using/decisioning/offer-decisioning/get-started-decision/starting-offer-decisioning" text="Ordre d’évaluation"
 
-Pour présenter la meilleure offre et expérience dynamique aux visiteurs de votre site web ou de votre application mobile, ajoutez une politique de décision à une campagne ou à un parcours basé sur du code. Pour ce faire, procédez comme suit.
+Pour présenter la meilleure offre dynamique et expérience aux visiteurs et visiteuses de votre site web ou de votre application mobile, ajoutez une politique de décision à une campagne ou à un parcours basés sur du code. Pour ce faire, procédez comme suit.
 
 ### Création de la politique de décision {#add}
 
@@ -96,7 +96,7 @@ La section **[!UICONTROL Séquence de stratégies]** vous permet de sélectionne
 
    >[!NOTE]
    >
-   >Une politique de décision prend en charge jusqu’à 10 stratégies de sélection et éléments de décision combinés. [En savoir plus sur les mécanismes de sécurisation et les limitations de Decisioning](gs-experience-decisioning.md#guardrails)
+   >Une politique de décision prend en charge jusqu’à 10 stratégies de sélection et éléments de décision combinés. [En savoir plus sur les mécanismes de sécurisation et sur les limitations de la prise de décisions](gs-experience-decisioning.md#guardrails)
 
 1. Lorsque vous ajoutez plusieurs éléments et/ou stratégies de décision, ils sont évalués dans un ordre spécifique. Le premier objet ajouté à la séquence sera évalué en premier, etc.
 
@@ -204,7 +204,7 @@ Une fois créée, la politique de décision peut être utilisée dans l’[édit
    >
    >Cette séquence sera répétée selon le nombre de renvoi de la politique de décision que vous choisissez. Par exemple, si vous avez choisi de renvoyer 2 éléments lors de la [création de la décision](#add-decision), la même séquence sera répétée deux fois.
 
-1. Vous pouvez désormais ajouter tous les attributs de décision que vous souhaitez dans ce code. Les attributs disponibles sont stockés dans le schéma du catalogue **[!UICONTROL Offres]**. Les attributs personnalisés sont stockés dans le dossier **`_<imsOrg`>**, et les attributs standard dans le dossier **`_experience`**. [En savoir plus sur le schéma du catalogue d&#39;offres](catalogs.md)
+1. Vous pouvez désormais ajouter tous les attributs de décision que vous souhaitez dans ce code. Les attributs disponibles sont stockés dans le schéma du catalogue **[!UICONTROL Offres]**. Les attributs personnalisés sont stockés dans le dossier **`_<imsOrg`>**, et les attributs standard dans le dossier **`_experience`**. [En savoir plus sur le schéma du catalogue Offres](catalogs.md)
 
    ![](assets/decision-code-based-decision-attributes.png)
 
@@ -223,17 +223,17 @@ Une fois créée, la politique de décision peut être utilisée dans l’[édit
 
 1. Cliquez sur **[!UICONTROL Enregistrer et fermer]** pour confirmer vos modifications.
 
-## Tester et publier votre expérience basée sur le code {#test-and-publish}
+## Tester et publier votre expérience basée sur du code {#test-and-publish}
 
-Suivez les étapes ci-dessous pour finaliser votre expérience basée sur le code et appliquer vos modifications.
+Pour finaliser votre expérience basée sur du code et appliquer vos modifications, suivez les étapes ci-dessous.
 
-1. Examinez et publiez votre campagne ou parcours d’expérience basé sur le code. [Voici comment procéder](../code-based/publish-code-based.md)
+1. Examinez et publiez votre campagne ou parcours d’expérience basée sur du code. [Voici comment procéder](../code-based/publish-code-based.md)
 
-   Désormais, dès que votre développeur ou développeuse lance un appel d’API ou de SDK pour récupérer du contenu pour la surface définie dans votre configuration de canal, les modifications sont appliquées à votre page web ou votre application.
+   Désormais, dès que le développeur ou la développeuse lance un appel API ou de SDK pour récupérer du contenu pour la surface définie dans votre configuration des canaux, les modifications sont appliquées à votre page web ou votre application.
 
-1. Actuellement, vous ne pouvez pas simuler le contenu de l’interface utilisateur dans une campagne ou un parcours [basée sur le code](../code-based/create-code-based.md) à l’aide de décisions.
+1. Actuellement, vous ne pouvez pas simuler le contenu de l’interface d’utilisation dans une campagne ou un parcours d’[expérience basée sur du code](../code-based/create-code-based.md) à l’aide de décisions.
 
-   Pour pallier ce problème, vous pouvez tester la prise de décision après la publication de votre campagne en ajoutant l’indicateur `dryRun` dans le bloc de `data` d’événement XDM de votre implémentation client :
+   Pour pallier ce problème, vous pouvez tester la prise de décisions après la publication de votre campagne en ajoutant l’indicateur `dryRun` dans le bloc `data` d’événement XDM de votre mise en œuvre cliente :
 
    ```
    {
@@ -247,6 +247,6 @@ Suivez les étapes ci-dessous pour finaliser votre expérience basée sur le cod
    }
    ```
 
-1. Pour évaluer les performances de vos décisions, vous pouvez désormais créer des tableaux de bord de rapports [Customer Journey Analytics personnalisés](cja-reporting.md).
+1. Pour évaluer les performances de vos décisions, vous pouvez désormais créer des [tableaux de bord de rapports Customer Journey Analytics personnalisés](cja-reporting.md).
 
 

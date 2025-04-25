@@ -7,9 +7,9 @@ role: User
 level: Intermediate
 exl-id: 851d988a-2582-4c30-80f3-b881d90771be
 source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1100'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -108,7 +108,7 @@ Vous les trouverez sous le menu **[!UICONTROL Gestion des décisions]** > **[!UI
 
    >[!NOTE]
    >
-   >Dans cet exemple, nous n&#39;utiliserons que les scores de priorité. En savoir plus sur les [règles d’éligibilité et contraintes](../../using/offers/offer-library/creating-personalized-offers.md#eligibility).
+   >Dans cet exemple, nous n&#39;utiliserons que les scores de priorité. En savoir plus sur les [règles d’éligibilité et les contraintes](../../using/offers/offer-library/creating-personalized-offers.md#eligibility).
 
 ## Configuration des offres {#configure-offers}
 
@@ -223,6 +223,6 @@ Les étapes détaillées pour créer et configurer une décision sont présenté
 
 ## Insertion d&#39;une décision dans un e-mail {#insert-decision-in-email}
 
-Maintenant que votre décision est active, vous pouvez l&#39;insérer dans un e-mail. Pour ce faire, suivez les étapes présentées dans [cette page](../../using/email/add-offers-email.md).
+Maintenant que votre décision est active, vous pouvez l&#39;insérer dans un e-mail. Pour ce faire, suivez les étapes présentées sur [cette page](../../using/email/add-offers-email.md).
 
 ![](assets/offers-e2e-offers-displayed.png)

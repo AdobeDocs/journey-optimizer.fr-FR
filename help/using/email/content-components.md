@@ -10,9 +10,9 @@ level: Beginner, Intermediate
 keywords: composants, concepteur d’e-mail, éditeur, e-mail
 exl-id: a4aaa814-3fd4-439e-8f34-faf97208378a
 source-git-commit: 1af75a0e6bfc2c3b9c565c3190f46d137a68d32e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1401'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -169,7 +169,7 @@ Utilisez le composant **[!UICONTROL Image]** pour insérer un fichier image de v
 
 1. Dans l’onglet **[!UICONTROL Paramètres]**, cliquez sur **[!UICONTROL Parcourir]** pour choisir un fichier image parmi vos ressources ou sur **[!UICONTROL Importer un média]** pour charger une ressource vers Adobe Experience Manager Assets.
 
-   Pour en savoir plus sur [!DNL Adobe Experience Manager Assets], consultez la [documentation Adobe Experience Manager Assets](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/introduction.html?lang=fr){target="_blank"}.
+   Pour en savoir plus sur [!DNL Adobe Experience Manager Assets], consultez la [documentation d’Adobe Experience Manager Assets](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/introduction.html?lang=fr){target="_blank"}.
 
    >[!NOTE]
    >

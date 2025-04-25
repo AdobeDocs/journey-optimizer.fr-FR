@@ -10,9 +10,9 @@ level: Intermediate
 keywords: destination, page de destination, cas d’utilisation
 exl-id: 8c00d783-54a3-45d9-bd8f-4dc58804d922
 source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '979'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -90,11 +90,11 @@ Tous les utilisateurs inscrits à votre événement recevront l’e-mail de conf
 
 ## Page de destination d’opt-out {#opt-out}
 
-Pour permettre aux destinataires dʼannuler lʼabonnement à vos communications, vous pouvez inclure un lien vers une page de destination d&#39;opt-out dans vos e-mails.
+Pour permettre aux personnes destinataires de se désabonner de vos communications, vous pouvez inclure dans vos e-mails un lien vers une page de destination d’opt-out.
 
 >[!NOTE]
 >
->En savoir plus sur la gestion du consentement de vos destinataires et pourquoi cela est important dans [cette section](../privacy/opt-out.md).
+>En savoir plus sur la gestion du consentement de vos destinataires et son importance dans [cette section](../privacy/opt-out.md).
 
 ### Gestion du droit d&#39;opposition {#opt-out-management}
 

@@ -10,9 +10,9 @@ level: Experienced
 keywords: canal, surface, technique, paramètres, optimizer
 exl-id: 9038528f-3da0-4e0e-9b82-b72c67b42391
 source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1800'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -75,7 +75,7 @@ Pour créer une configuration des canaux, procédez comme suit :
    >
    > Les noms doivent commencer par une lettre (A-Z). Ils ne peuvent contenir que des caractères alphanumériques. Vous pouvez également utiliser le trait de soulignement `_`, le point`.` et le trait d&#39;union `-`.
 
-1. Pour attribuer des libellés d’utilisation des données personnalisés ou de base à la configuration, vous pouvez sélectionner **[!UICONTROL Gérer l’accès]**. [En savoir plus sur le contrôle d’accès au niveau de l’objet (OLAC)](../administration/object-based-access.md).
+1. Pour attribuer des libellés d’utilisation des données personnalisés ou de base à la configuration, vous pouvez sélectionner **[!UICONTROL Gérer l’accès]**. [En savoir plus sur le contrôle d’accès au niveau de l’objet (OLAC)](../administration/object-based-access.md)
 
 1. Sélectionnez votre canal.
 
@@ -243,7 +243,7 @@ Une fois le processus de validation réussi, la nouvelle version de la configura
 
 Si le processus de validation échoue, l’ancienne version de la configuration continuera d’être utilisée.
 
-En savoir plus sur les raisons possibles d’échec dans [cette section](#monitor-channel-surfaces).
+En savoir plus sur les causes possibles d’échec dans [cette section](#monitor-channel-surfaces).
 
 En cas d’échec de la mise à jour, la configuration est à nouveau modifiable. Vous pouvez cliquer sur son nom et mettre à jour les paramètres à corriger.
 
@@ -253,7 +253,7 @@ Pour empêcher la création de nouveaux messages à partir d’une configuration
 
 >[!NOTE]
 >
->Vous ne pouvez pas désactiver une configuration de canal lorsqu’une mise à jour est en cours. Vous devez attendre que la mise à jour soit réussie ou qu’elle ait échoué. En savoir plus sur la [modification des configurations de canal](#edit-channel-surface) et sur la [mise à jour des statuts](#update-statuses).
+>Vous ne pouvez pas désactiver une configuration de canal lorsqu’une mise à jour est en cours. Vous devez attendre que la mise à jour soit réussie ou qu’elle ait échoué. En savoir plus sur la [modification des configurations de canaux](#edit-channel-surface) et sur les [statuts de mise à jour](#update-statuses).
 
 1. Accédez à la liste des configurations de canaux.
 

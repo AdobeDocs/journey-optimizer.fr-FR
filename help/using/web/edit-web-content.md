@@ -7,9 +7,9 @@ role: User
 level: Beginner
 exl-id: 3847ac1d-2c0a-4f80-8df9-e8e304faf261
 source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1068'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -89,7 +89,7 @@ Pour commencer à créer votre expérience web, procédez comme suit :
 
 >[!NOTE]
 >
->Le concepteur de contenu web est très similaire au concepteur d’e-mail. En savoir plus sur la [conception de contenu avec [!DNL Journey Optimizer]](../email/get-started-email-design.md).
+>Le concepteur de contenu web est très similaire au concepteur d’e-mail. En savoir plus sur la [conception de contenu avec  [!DNL Journey Optimizer]](../email/get-started-email-design.md).
 
 ## Utiliser les composants {#content-components}
 

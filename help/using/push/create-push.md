@@ -9,9 +9,9 @@ role: User
 level: Beginner
 exl-id: 2ebbcd7d-dcfc-4528-974d-6230fc0dca3d
 source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '801'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -70,7 +70,7 @@ Pour créer une notification push, procédez comme suit :
 
 1. Dans la section **[!UICONTROL Actions]**, sélectionnez la **[!UICONTROL notification push]** et sélectionnez ou créez une configuration.
 
-   En savoir plus sur la configuration des notifications push sur [cette page](push-configuration.md).
+   En savoir plus sur la configuration de notifications push sur [cette page](push-configuration.md).
 
    ![](assets/push_create_3.png)
 
@@ -113,7 +113,7 @@ Il est utilisé lorsque le retard dans la diffusion des messages est critique po
 
 Pour plus d’informations sur les performances lors de l’utilisation du mode de diffusion rapide, reportez-vous à la section [Description du produit Adobe Journey Optimizer](https://helpx.adobe.com/fr/legal/product-descriptions/adobe-journey-optimizer.html).
 
-### Conditions préalables {#prerequisites}
+### Prérequis {#prerequisites}
 
 La messagerie en diffusion rapide est fournie avec les conditions suivantes :
 

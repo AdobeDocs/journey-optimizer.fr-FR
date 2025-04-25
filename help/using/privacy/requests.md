@@ -2,15 +2,15 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Demandes d’accès à des informations personnelles
-description: En savoir plus sur les demandes d’accès à des informations personnelles et le Privacy Service.
+description: En savoir plus sur les demandes d’accès à des informations personnelles et Privacy Service.
 feature: Privacy
 role: User
 level: Intermediate
 exl-id: 19ec3410-761e-4a9c-a277-f105fc446d7a
 source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '491'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -60,7 +60,7 @@ Voici les trois services en amont :
 
 ## Créer des demandes d’accès et de suppression
 
-### Conditions préalables
+### Prérequis
 
 Pour envoyer des demandes d’accès et de suppression de données pour Adobe Journey Optimizer, vous devez disposer des éléments suivants :
 

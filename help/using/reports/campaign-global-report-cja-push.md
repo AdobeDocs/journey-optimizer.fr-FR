@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 exl-id: 43b10f54-0c19-46a1-8d51-eb6bf22e6da9
 source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '519'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 90%
 
 >[!BEGINSHADEBOX]
 
-Pour accéder au rapport de campagne Notification push, cliquez sur le bouton **[!UICONTROL Rapports]** de votre campagne, puis sélectionnez **[!UICONTROL Afficher le rapport à toute heure]**. [En savoir plus](report-gs-cja.md)
+Vous pouvez accéder au rapport de campagne par notification push en cliquant sur le bouton **[!UICONTROL Rapports]** de votre campagne, puis en sélectionnant **[!UICONTROL Afficher le rapport de toutes les périodes]**. [En savoir plus](report-gs-cja.md)
 
 ![](assets/report-access.png)
 
@@ -31,7 +31,7 @@ Pour accéder au rapport de campagne Notification push, cliquez sur le bouton **
 
 Le tableau **[!UICONTROL Statistiques d’envoi]** fournit un résumé complet des données essentielles concernant vos campagnes par notification. Il détaille les mesures clés, telles que la taille de l’audience ciblée et le nombre de notifications push diffusées avec succès, ce qui vous permet d’obtenir des informations précieuses sur l’efficacité et la portée de votre notification push.
 
-+++ En savoir plus sur les mesures Statistiques d’envoi
++++ En savoir plus sur les mesures de statistiques d’envoi
 
 * **[!UICONTROL Ciblées]** : nombre total de notifications push traitées lors de l’analyse.
 
@@ -53,7 +53,7 @@ Le tableau **[!UICONTROL Statistiques d’envoi]** fournit un résumé complet d
 
 Le tableau **[!UICONTROL Statistiques de suivi]** offre un instantané détaillé de l’activité de profil liée à vos notifications push, fournissant des informations essentielles sur l’engagement et l’efficacité des notifications push.
 
-+++ En savoir plus sur les mesures des statistiques de tracking
++++ En savoir plus sur les mesures de statistiques de tracking
 
 * **[!UICONTROL Taux de clics (CTR)]** : pourcentage d’utilisateurs et d’utilisatrices ayant interagi avec les notifications push.
 
@@ -71,7 +71,7 @@ Le tableau **[!UICONTROL Statistiques de suivi]** offre un instantané détaill�
 
 Le tableau **[!UICONTROL Libellés des liens de suivi]** fournit une vue d’ensemble complète des libellés des liens dans vos notifications push, mettant en évidence celles qui attirent le plus de visiteurs et de visiteuses. Cette fonctionnalité vous permet d’identifier et de hiérarchiser les liens les plus populaires.
 
-+++ En savoir plus sur les mesures des libellés des liens suivis
++++ En savoir plus sur les mesures des libellés des liens de suivi
 
 * **[!UICONTROL Clics uniques]** : nombre de profils qui ont cliqué sur un contenu dans vos notifications push.
 
@@ -85,7 +85,7 @@ Le tableau **[!UICONTROL Libellés des liens de suivi]** fournit une vue d’ens
 
 Le tableau **[!UICONTROL URL des liens de suivi]** fournit une vue d’ensemble complète des URL de vos notifications push qui attirent le plus de visiteurs et de visiteuses. Cela vous permet d’identifier et de hiérarchiser les liens les plus populaires, ce qui améliore votre compréhension de l’engagement des profils avec du contenu spécifique dans vos notifications push.
 
-+++ En savoir plus sur les mesures des URL de liens trackés
++++ En savoir plus sur les mesures des URL des liens de suivi
 
 * **[!UICONTROL Clics uniques]** : nombre de profils qui ont cliqué sur un contenu dans vos notifications push.
 

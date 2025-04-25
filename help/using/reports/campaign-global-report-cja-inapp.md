@@ -10,9 +10,9 @@ level: Intermediate
 badge: label="Disponibilité limitée" type="Informative"
 exl-id: 51cbe27f-3f3f-471e-a5d9-e3a88fcfdd68
 source-git-commit: 8a820441ccd8e36280eb001f7912860f7727b7b4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '584'
-ht-degree: 86%
+ht-degree: 100%
 
 ---
 
@@ -20,11 +20,11 @@ ht-degree: 86%
 
 >[!IMPORTANT]
 >
->Avant de pouvoir créer des rapports sur vos campagnes et parcours In-App, veillez à respecter les conditions préalables de création de rapports fournies sur [cette page](../in-app/inapp-configuration.md#experiment-prerequisites).
+>Avant de pouvoir créer des rapports sur vos campagnes et parcours in-app, veillez à respecter les conditions préalables de création de rapports fournies sur [cette page](../in-app/inapp-configuration.md#experiment-prerequisites).
 
 >[!BEGINSHADEBOX]
 
-Vous pouvez accéder à votre rapport de campagne in-app en cliquant sur le bouton **[!UICONTROL Rapports]** de votre campagne, puis en sélectionnant **[!UICONTROL Afficher le rapport à toute heure]**. [En savoir plus](report-gs-cja.md)
+Vous pouvez accéder à votre rapport de campagne in-app en cliquant sur le bouton **[!UICONTROL Rapports]** de votre campagne, puis en sélectionnant **[!UICONTROL Afficher le rapport de toutes les périodes]**. [En savoir plus](report-gs-cja.md)
 
 ![](assets/report-access.png)
 
@@ -34,9 +34,9 @@ Vous pouvez accéder à votre rapport de campagne in-app en cliquant sur le bout
 
 ![](assets/cja-inapp-impressions-click.png)
 
-Le graphique **[!UICONTROL Tendance impressions et clics]** présente une analyse détaillée de l’engagement de vos profils avec vos messages in-app, offrant des informations précieuses sur la manière dont les profils interagissent avec votre contenu.
+Le graphique **[!UICONTROL Tendance des impressions et des clics]** présente une analyse détaillée de l’engagement de vos profils avec vos messages in-app, offrant des informations précieuses sur la manière dont les profils interagissent avec votre contenu.
 
-+++ En savoir plus sur les mesures Tendance des impressions et des clics
++++ En savoir plus sur les mesures de tendance des impressions et des clics
 
 * **[!UICONTROL Clics]** : nombre de fois où un contenu a fait l’objet d’un clic dans vos messages in-app.
 
@@ -50,7 +50,7 @@ Le graphique **[!UICONTROL Tendance impressions et clics]** présente une analys
 
 Le graphe **[!UICONTROL Clics]** affiche les mesures des clics in-app, qui illustrent à la fois le nombre total de clics sur le contenu et le nombre de profils uniques ayant cliqué sur le contenu.
 
-+++ En savoir plus sur les mesures Clics
++++ En savoir plus sur les mesures de clics
 
 * **[!UICONTROL Clics uniques]** : nombre de profils qui ont cliqué sur un contenu dans vos messages in-app.
 
@@ -64,7 +64,7 @@ Le graphe **[!UICONTROL Clics]** affiche les mesures des clics in-app, qui illus
 
 Le graphique **[!UICONTROL Affichages]** vous permet de comprendre à la fois la portée globale du message et le nombre de profils uniques qui interagissent avec lui.
 
-+++ En savoir plus sur les mesures Affichage
++++ En savoir plus sur les mesures d’affichage
 
 * **[!UICONTROL Affichages]** : nombre d’ouvertures du message.
 
@@ -109,7 +109,7 @@ Le tableau **[!UICONTROL Données de suivi]** offre un instantané détaillé de
 
 Le tableau **[!UICONTROL Libellés des liens de suivi]** fournit une vue d’ensemble complète des libellés des liens dans vos messages in-app qui attirent le plus de visiteurs et de visiteuses. Cette fonctionnalité vous permet d’identifier et de hiérarchiser les liens les plus populaires.
 
-+++ En savoir plus sur les mesures des libellés des liens suivis
++++ En savoir plus sur les mesures des libellés des liens de suivi
 
 * **[!UICONTROL Clics uniques]** : nombre de profils qui ont cliqué sur un contenu dans vos messages in-app.
 
@@ -127,7 +127,7 @@ Le tableau **[!UICONTROL Libellés des liens de suivi]** fournit une vue d’ens
 
 Le tableau **[!UICONTROL URL des liens de suivi]** fournit une vue d’ensemble complète des URL de vos messages in-app qui attirent le plus de visiteurs et de visiteuses. Cela vous aide à détecter les liens les plus populaires et à les hiérarchiser, améliorant ainsi votre compréhension de l’engagement des profils avec un contenu spécifique dans vos messages in-app.
 
-+++ En savoir plus sur les mesures des URL de liens trackés
++++ En savoir plus sur les mesures des URL des liens de suivi
 
 * **[!UICONTROL Clics uniques]** : nombre de profils qui ont cliqué sur un contenu dans vos messages in-app.
 

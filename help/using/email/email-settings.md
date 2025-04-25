@@ -10,9 +10,9 @@ level: Experienced
 keywords: paramètres, e-mail, configuration
 exl-id: 13536962-7541-4eb6-9ccb-4f97e167734a
 source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
-workflow-type: tm+mt
-source-wordcount: '1481'
-ht-degree: 98%
+workflow-type: ht
+source-wordcount: '1471'
+ht-degree: 100%
 
 ---
 
@@ -26,7 +26,7 @@ Pour commencer à créer un e-mail, vous devez paramétrer les configuration du 
 
 Définissez les paramètres d’e-mail dans la section dédiée de la configuration du canal, comme décrit ci-dessous.
 
-![](assets/surface-email-settings.png){width="50%" align="left"}{width=« 50% » align=« left »}
+![](assets/surface-email-settings.png){width="50%" align="left"}
 
 La configuration du canal e-mail est récupérée pour envoyer des communications en suivant la logique ci-dessous :
 
@@ -67,7 +67,7 @@ Pour préserver la réputation de votre domaine, accélérer le processus de pr�
 
 Sélectionnez le groupe d’adresses IP à associer à la configuration. [En savoir plus](../configuration/ip-pools.md)
 
-![](assets/surface-subdomain-ip-pool.png){width="50%" align="left"}{width=« 50% » align=« left »}
+![](assets/surface-subdomain-ip-pool.png){width="50%" align="left"}
 
 Vous ne pouvez pas poursuivre la création de la configuration lorsque le groupe d’adresses IP sélectionné est en cours d’[édition](../configuration/ip-pools.md#edit-ip-pool) (statut **[!UICONTROL En cours de traitement]**), et n’a jamais été associé au sous-domaine sélectionné. Sinon, la version la plus ancienne de l’association groupe d’adresses IP/sous-domaine sera toujours utilisée. Si c’est le cas, enregistrez la configuration en tant que brouillon, puis réessayez une fois que le groupe d’adresses IP a le statut **[!UICONTROL Succès]**.
 
@@ -149,7 +149,7 @@ Une liste de contrôle dans [!DNL Journey Optimizer] vous permet d’inclure aut
 
 Sélectionnez la liste qui vous intéresse dans la section **[!UICONTROL Liste de contrôle]**. Découvrez comment créer une liste de contrôle dans [cette section](../configuration/seed-lists.md#create-seed-list).
 
-![](../configuration/assets/seed-list-surface.png){width="80%"}{width=« 80%« }
+![](../configuration/assets/seed-list-surface.png){width="80%"}
 
 >[!NOTE]
 >

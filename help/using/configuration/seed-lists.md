@@ -10,9 +10,9 @@ level: Intermediate
 keywords: liste de contrôle, contrôle, configuration
 exl-id: 0172f6bc-da8b-4a83-a0fc-4ed41324568f
 source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '959'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -126,7 +126,7 @@ Pour créer une liste de contrôle, procédez comme suit :
 
 ## Utiliser une liste de contrôle dans une campagne ou un parcours {#use-seed-list}
 
-Maintenant que votre liste de contrôle est créée, vous pouvez l’utiliser dans n’importe quelle campagne ou n’importe quel parcours pour inclure les adresses de contrôle correspondantes dans vos diffusions. Pour ce faire, procédez comme suit :
+Maintenant que votre liste de contrôle est créée, vous pouvez l’utiliser dans n’importe quelle campagne ou n’importe quel parcours pour inclure les adresses de contrôle correspondantes dans vos diffusions. Pour ce faire, procédez comme suit.
 
 >[!CAUTION]
 >

@@ -7,9 +7,9 @@ role: User
 level: Beginner
 exl-id: e28c038b-49ed-4685-bfe6-514116eb0711
 source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1363'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -181,7 +181,7 @@ Pour mettre en ligne votre expérience web à partir d’un parcours, procédez 
 
    >[!NOTE]
    >
-   >En savoir plus sur la publication de parcours dans [cette section](../building-journeys/publishing-the-journey.md).
+   >Découvrez la publication des parcours dans [cette section](../building-journeys/publishing-the-journey.md).
 
 Le statut de votre parcours web est alors **[!UICONTROL Actif]** et il est désormais en lecture seule. Chaque destinataire de votre parcours peut voir les modifications que vous avez ajoutées à votre site web.
 

@@ -10,9 +10,9 @@ level: Experienced
 keywords: action, tiers, personnalisé, parcours, API
 exl-id: 4df2fc7c-85cb-410a-a31f-1bc1ece237bb
 source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
-workflow-type: tm+mt
-source-wordcount: '1702'
-ht-degree: 98%
+workflow-type: ht
+source-wordcount: '1692'
+ht-degree: 100%
 
 ---
 
@@ -23,13 +23,13 @@ ht-degree: 98%
 >title="Actions personnalisées"
 >abstract="Si vous utilisez un système tiers pour envoyer des messages ou souhaitez que les parcours envoient des appels API à un système tiers, utilisez des actions personnalisées pour configurer la connexion de ce système aux parcours."
 
-Si vous utilisez un système tiers pour envoyer des messages ou souhaitez que les parcours envoient des appels API à un système tiers, utilisez des actions personnalisées pour configurer la connexion de ce système aux parcours. Par exemple, vous pouvez vous connecter aux systèmes suivants avec des actions personnalisées : Epsilon, Slack, [Adobe Developer](https://developer.adobe.com){target=&quot;_blank&quot;}, Firebase, etc.
+Si vous utilisez un système tiers pour envoyer des messages ou souhaitez que les parcours envoient des appels API à un système tiers, utilisez des actions personnalisées pour configurer la connexion de ce système aux parcours. Par exemple, vous pouvez vous connecter aux systèmes suivants avec des actions personnalisées : Epsilon, Slack, [Adobe Developer](https://developer.adobe.com){target="_blank"}, Firebase, etc.
 
 Les actions personnalisées sont des actions supplémentaires définies par les utilisateurs techniques et mises à la disposition des spécialistes marketing. Une fois configurés, elles apparaissent dans la palette gauche de votre parcours, dans la catégorie **[!UICONTROL Action]**. En savoir plus sur [cette page](../building-journeys/about-journey-activities.md#action-activities).
 
 ## Limites{#custom-actions-limitations}
 
-Les actions personnalisées sont assorties de quelques restrictions répertoriées sur [cette page](../start/guardrails.md).
+Les actions personnalisées sont assorties de quelques limites répertoriées sur [cette page](../start/guardrails.md).
 
 Dans les paramètres d’action personnalisée, vous pouvez transmettre une collection simple, ainsi qu’une collection d’objets. En savoir plus sur les limites de collection sur [cette page](../building-journeys/collections.md#limitations).
 
@@ -93,7 +93,7 @@ Les principales étapes nécessaires pour configurer une action personnalisée s
 
 Lors de la configuration d’une action personnalisée, vous devez définir les paramètres de **[!UICONTROL configuration de point d’entrée]** suivants :
 
-![](assets/action-response1bis.png){width=« 70% » align=« left »}
+![](assets/action-response1bis.png){width="70%" align="left"}
 
 1. Dans le champ **[!UICONTROL URL]**, spécifiez l&#39;URL du service externe :
 
@@ -159,7 +159,7 @@ Vous pouvez définir le paramètre de payload comme décrit ci-dessous :
 
    Activez l’option **[!UICONTROL Autoriser les valeurs nulles]** pour conserver les valeurs nulles dans l’appel externe. Notez que l’envoi de tableaux d’entiers, de chaînes, etc. avec des valeurs nulles n’est pas entièrement pris en charge. Par exemple, le tableau suivant d’entiers `[1, null, 2, 3]` est envoyé en tant que `[1, 2, 3]` même si cette option est cochée. En outre, si ce tableau est nul, il est envoyé en tant que tableau vide.
 
-   ![](assets/null-values.png){width=« 70% » align=« left »}
+   ![](assets/null-values.png){width="70%" align="left"}
 
 1. Dans la section **[!UICONTROL Réponse]**, collez un exemple de payload renvoyée par l’appel. Ce champ est facultatif et disponible pour toutes les méthodes d’appel. Pour plus d’informations sur l’utilisation des réponses d’appel API dans les actions personnalisées, reportez-vous à [cette page](../action/action-response.md).
 

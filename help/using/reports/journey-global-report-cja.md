@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 exl-id: 30d4f967-e085-44f1-973d-11e79f693e6e
 source-git-commit: 1af75a0e6bfc2c3b9c565c3190f46d137a68d32e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '887'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -23,7 +23,7 @@ Vous pouvez accéder directement au **rapport de parcours** à partir de votre p
 
 ![](assets/gs-cja-report-3.png)
 
-Pour en savoir plus sur Customer Journey Analytics Workspace et sur le filtrage et l’analyse des données, consultez [cette page](https://experienceleague.adobe.com/fr/docs/analytics-platform/using/cja-workspace/home).
+Pour en savoir plus sur Customer Journey Analytics Workspace, sur le filtrage et l’analyse des données, consultez [cette page](https://experienceleague.adobe.com/fr/docs/analytics-platform/using/cja-workspace/home).
 
 ## Vue d’ensemble du parcours {#journey-global}
 
@@ -35,7 +35,7 @@ Le rapport **[!UICONTROL Parcours]** vous donne une vue claire des données de s
 
 Les indicateurs clés de performances (KPI) du **[!UICONTROL parcours]** fonctionnent comme un tableau de bord global, fournissant une analyse des mesures essentielles associées à votre parcours. Cela inclut des détails tels que le nombre de profils entrés et les instances de parcours individuels ayant échoué, ce qui vous offre des informations complètes sur l’efficacité et le niveau d’engagement de votre parcours.
 
-+++ En savoir plus sur les mesures des KPI du Parcours
++++ En savoir plus sur les mesures des KPI de parcours
 
 * **[!UICONTROL Engagement du parcours]** : nombre total de personnes uniques ayant reçu des messages envoyés depuis le parcours et représentant des profils distincts ayant atteint un point d’action désigné dans le parcours.
 
@@ -51,7 +51,7 @@ Les indicateurs clés de performances (KPI) du **[!UICONTROL parcours]** foncti
 
 Le tableau **[!UICONTROL Statistiques du parcours]** offre un résumé détaillé des données essentielles relatives à vos parcours. Il comprend des mesures clés telles que le nombre d’échecs et d’entrées réussies, fournissant des informations précieuses sur les performances et la portée de vos e-mails et parcours.
 
-+++ En savoir plus sur les mesures Statistiques de Parcours .
++++ En savoir plus sur les mesures de statistiques du parcours
 
 * **[!UICONTROL Exclusion de parcours]** : nombre total de personnes qui ont été exclues du parcours en raison de critères prédéfinis ou de règles de suppression.
 
@@ -114,7 +114,7 @@ Le graphe **[!UICONTROL Performances dans le temps]** vous permet d’identifier
 
 Le tableau **[!UICONTROL Vue d’ensemble des actions]** sert de tableau de bord complet, offrant une analyse des mesures clés liées aux actions de votre parcours. Cela inclut des détails essentiels tels que le nombre d’interactions et le taux de clics.
 
-+++ En savoir plus sur les mesures de présentation des actions
++++ En savoir plus sur les mesures de la vue d’ensemble des actions
 
 * **[!UICONTROL Entrées de nœud]** : nombre total de personnes ayant accédé à un nœud spécifique dans le parcours.
 
@@ -142,7 +142,7 @@ Le graphe **[!UICONTROL Performances dans le temps]** vous permet d’identifier
 
 Le tableau **[!UICONTROL Vue d’ensemble des événements]** indique le nombre de profils qui répondent à vos critères d’événement dans le temps. Cet outil vous permet d’identifier les schémas des taux de qualification pour affiner votre stratégie d’événement.
 
-+++ En savoir plus sur les mesures Statistiques de Parcours .
++++ En savoir plus sur les mesures de statistiques du parcours
 
 * **[!UICONTROL Personnes]** : nombre de profils d’utilisateurs et d’utilisatrices qui sont qualifiés en tant que profils cibles pour vos événements.
 

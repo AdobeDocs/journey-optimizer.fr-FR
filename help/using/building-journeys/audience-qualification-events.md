@@ -10,9 +10,9 @@ level: Intermediate
 keywords: qualification, événements, audience, parcours, platform
 exl-id: 7e70b8a9-7fac-4450-ad9c-597fe0496df9
 source-git-commit: ce05723342af3e0016965df7fb7a2e0b79856f6f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1212'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 

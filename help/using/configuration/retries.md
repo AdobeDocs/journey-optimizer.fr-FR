@@ -10,9 +10,9 @@ level: Experienced
 keywords: reprises, rebond, temporaire, optimizer, erreur
 exl-id: 05564a99-da50-4837-8dfb-bb1d3e0f1097
 source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '578'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -22,7 +22,7 @@ Lorsqu’un e-mail échoue en raison d’une erreur de type **Rebond temporaire*
 
 >[!NOTE]
 >
->Pour en savoir plus sur les types d’erreurs, consultez la section [Types de diffusion en échec](../reports/suppression-list.md#delivery-failures).
+>En savoir plus sur les types d’erreurs dans la section [Types d’échec de diffusion](../reports/suppression-list.md#delivery-failures).
 
 Dans la configuration par défaut, le seuil est défini à cinq erreurs.
 

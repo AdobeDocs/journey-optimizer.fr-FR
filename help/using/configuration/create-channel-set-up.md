@@ -10,9 +10,9 @@ level: Experienced
 keywords: canal, surface, technique, paramètres, optimizer
 exl-id: 5a20911d-cc87-4fdc-9b4b-936c19258876
 source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '646'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 

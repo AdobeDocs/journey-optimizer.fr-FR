@@ -9,9 +9,9 @@ role: User
 level: Beginner
 exl-id: 90328ba9-e6b0-4105-abcf-3e3a9ed41aa6
 source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
-workflow-type: tm+mt
-source-wordcount: '225'
-ht-degree: 90%
+workflow-type: ht
+source-wordcount: '223'
+ht-degree: 100%
 
 ---
 
@@ -27,8 +27,8 @@ ou de profil dans un entrepôt de données pour les utiliser dans la composition
 * **Gestion efficace des données** : minimisez la copie des données, gérez l’utilisation de données
 sensibles et optimisez les investissements informatiques pour compléter les cas d’utilisation cross-canal en temps réel sur Adobe.
 
-Pour plus d’informations, veuillez lire le guide sur la [composition de l’audience fédérée](https://experienceleague.adobe.com/fr/docs/federated-audience-composition/using/home){target=« _blank »}.
+Pour plus d’informations, veuillez lire le guide sur la [composition d’audiences fédérées](https://experienceleague.adobe.com/fr/docs/federated-audience-composition/using/home){target="_blank"}.
 
-En savoir plus sur la composition d’audiences fédérées en vidéo :
+Découvrez la composition d’audiences fédérées dans cette vidéo :
 
 >[!VIDEO](https://video.tv.adobe.com/v/3432261?quality=12)

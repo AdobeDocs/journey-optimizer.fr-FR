@@ -9,17 +9,17 @@ role: User
 level: Intermediate
 exl-id: 0855ca5b-c7af-41c4-ad51-bed820ae5ecf
 source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
-workflow-type: tm+mt
-source-wordcount: '649'
-ht-degree: 88%
+workflow-type: ht
+source-wordcount: '643'
+ht-degree: 100%
 
 ---
 
 # Prise en main des alertes {#alerts}
 
-Lors de la création de vos parcours et campagnes, utilisez le bouton **Alertes** pour vérifier et résoudre les erreurs avant de les exécuter ou de les publier. Découvrez comment résoudre les problèmes liés à vos parcours sur [cette page](../building-journeys/troubleshooting.md). Découvrez comment vérifier vos campagnes sur [cette page](../campaigns/review-activate-campaign.md).
+Lors de la création de vos parcours et campagnes, utilisez le bouton **Alertes** pour vérifier et résoudre les erreurs avant de les exécuter ou de les publier. Découvrez comment résoudre les problèmes de vos parcours sur [cette page](../building-journeys/troubleshooting.md). Découvrez comment examiner vos campagnes sur [cette page](../campaigns/review-activate-campaign.md).
 
-Vous pouvez également vous abonner aux alertes système de Adobe Journey Optimizer, comme indiqué sur cette page.
+Vous pouvez également vous abonner à des alertes système Adobe Journey Optimizer, comme décrit sur cette page.
 
 ## Accéder et s’abonner aux alertes {#alerting-capabilities}
 
@@ -29,7 +29,7 @@ Dans le menu **Alertes**, vous pouvez afficher les alertes disponibles et vous y
 
 <!--These messages can repeat over a pre-defined time interval until the alert has been resolved.-->
 
-En savoir plus sur les alertes dans Adobe Experience Platform dans la [documentation de Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/overview.html?lang=fr){target=« _blank »}.
+Découvrez les alertes dans Adobe Experience Platform grâce à la [documentation Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/overview.html?lang=fr){target="_blank"}.
 
 Dans le menu de gauche, sous **Administration**, cliquez sur **Alertes**. Deux alertes préconfigurées pour Journey Optimizer sont disponibles : l’alerte [Échec de l’action personnalisée du parcours](#alert-custom-actions) et l’alerte [Échec du déclenchement de la lecture d’audience](#alert-read-audiences). Ces alertes sont décrites ci-dessous.
 
@@ -37,9 +37,9 @@ Vous pouvez vous abonner individuellement à chaque alerte depuis l’interface 
 
 ![](assets/alert-subscribe.png)
 
-Vous pouvez également vous abonner à des alertes par le biais des [Notifications d’événements I/O](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/subscribe.html?lang=fr){target=« _blank »}. Les règles d’alerte sont organisées en différents packages d’abonnement. Les abonnements aux événements correspondant aux alertes Journey Optimizer spécifiques sont présentés ci-dessous.
+Vous pouvez également vous abonner aux alertes par le biais de [notifications d’événements d’E/S](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/subscribe.html?lang=fr){target="_blank"}. Les règles d’alerte sont organisées en différents packages d’abonnement. Les abonnements aux événements correspondant aux alertes Journey Optimizer spécifiques sont présentés ci-dessous.
 
-Si un comportement inattendu se produit, une notification d’alerte est envoyée aux personnes abonnées. En fonction des préférences des personnes, les alertes sont envoyées par e-mail ou directement dans le centre de notification de Journey Optimizer, dans le coin supérieur droit de l’interface utilisateur. Par défaut, seules les alertes in-app sont activées. Pour activer les alertes par e-mail, consultez la [documentation Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/ui.html?lang=fr#enable-email-alerts){target=« _blank »}.
+Si un comportement inattendu se produit, une notification d’alerte est envoyée aux personnes abonnées. En fonction des préférences des personnes, les alertes sont envoyées par e-mail ou directement dans le centre de notification de Journey Optimizer, dans le coin supérieur droit de l’interface utilisateur. Par défaut, seules les alertes in-app sont activées. Pour activer les alertes par e-mail, reportez-vous à la [documentation Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/ui.html?lang=fr#enable-email-alerts){target="_blank"}.
 
 Lorsqu’une alerte est résolue, les personnes abonnées reçoivent une notification « Résolue ».
 

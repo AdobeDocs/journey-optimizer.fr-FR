@@ -1,19 +1,19 @@
 ---
-title: Prise en main des API de diffusion d’offres
-description: En savoir plus sur les API disponibles pour diffuser des offres personnalisées.
+title: Commencer avec les API de diffusion d’offres
+description: Découvrez les API disponibles pour diffuser des offres personnalisées.
 feature: Decision Management, API
 topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: 7bc1a4ec-113c-4af7-b549-ee17b843b818
 source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '469'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
-# Prise en main des API de diffusion d’offres {#about-decisioning-apis}
+# Commencer avec les API de diffusion d’offres {#about-decisioning-apis}
 
 Vous pouvez diffuser des offres à l’aide de l’une des API suivantes : API **Decisioning** ou **Edge Decisioning.** En outre, l’API **Batch Decisioning** vous permet de diffuser des offres à tous les profils d’une audience donnée en un seul appel. Le contenu de l’offre pour chaque profil de l’audience est placé dans un jeu de données Adobe Experience Platform où il est disponible pour les workflows par lots personnalisés.
 

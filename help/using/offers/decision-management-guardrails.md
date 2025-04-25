@@ -1,14 +1,14 @@
 ---
 title: Mécanismes de sécurisation et limitations de la gestion des décisions
-description: En savoir plus sur les mécanismes de sécurisation et les limitations de la gestion des décisions.
+description: En savoir plus sur les mécanismes de sécurisation et sur les limitations de la gestion des décisions.
 feature: Decisioning
 role: User
 level: Intermediate
 exl-id: d2872bd3-42f8-4744-bb5b-41c49340098a
 source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '289'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 

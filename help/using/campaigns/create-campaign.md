@@ -10,9 +10,9 @@ level: Beginner
 keywords: créer, optimizer, campagne, surface, messages
 exl-id: 617d623c-e038-4b5b-a367-5254116b7815
 source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1277'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 97%
 
 Pour créer une campagne, accédez au menu **[!UICONTROL Campagnes]** dans le rail de gauche, puis cliquez sur **[!UICONTROL Créer une campagne]**. Vous pouvez également dupliquer une campagne active existante pour en créer une nouvelle. [Découvrez comment procéder](modify-stop-campaign.md#duplicate).
 
-Avant de commencer, lisez les conditions préalables de la campagne sur [cette page](get-started-with-campaigns.md#before-starting-campaign-prerequisites).
+Avant de commencer, lisez les prérequis des campagnes sur [cette page](get-started-with-campaigns.md#before-starting-campaign-prerequisites).
 
 ## Sélectionner le type de campagne {#campaigntype}
 
@@ -49,7 +49,7 @@ Une fois la campagne créée, vous devez définir ses propriétés. Suivez les �
 
 1. (Facultatif) Le champ **Balises** vous permet d’affecter des balises unifiées Adobe Experience Platform à votre campagne. Vous pouvez ainsi facilement les classer et améliorer la recherche à partir de la liste des campagnes. [Découvrez comment utiliser les balises](../start/search-filter-categorize.md#tags).
 
-1. (Facultatif) Vous pouvez limiter l’accès à cette campagne en fonction de libellés d’accès. Pour ajouter une limitation d’accès, cliquez sur le bouton **[!UICONTROL Gérer les accès]** en haut de cette page. Assurez-vous de sélectionner uniquement les libellés pour lesquels vous disposez des autorisations. [En savoir plus sur le contrôle d’accès au niveau de l’objet](../administration/object-based-access.md).
+1. (Facultatif) Vous pouvez limiter l’accès à cette campagne en fonction de libellés d’accès. Pour ajouter une limitation d’accès, cliquez sur le bouton **[!UICONTROL Gérer les accès]** en haut de cette page. Assurez-vous de sélectionner uniquement les libellés pour lesquels vous disposez des autorisations. [En savoir plus sur le contrôle d’accès au niveau de l’objet](../administration/object-based-access.md)
 
 ## Définir l’audience de la campagne {#audience}
 

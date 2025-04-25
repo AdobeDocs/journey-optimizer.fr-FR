@@ -7,9 +7,9 @@ role: User
 level: Intermediate
 exl-id: 7234a8e8-4ab0-4f17-a833-5e452fadac35
 source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2719'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -85,7 +85,7 @@ La section **[!UICONTROL Éligibilité à l’offre]** vous permet de restreindr
 
 >[!NOTE]
 >
->Pour en savoir plus sur l’utilisation de **audiences** par rapport aux **règles de décision**, consultez [cette section](#segments-vs-decision-rules).
+>Pour en savoir plus sur l’utilisation des **audiences** par rapport aux **règles de décision**, consultez [cette section](#segments-vs-decision-rules).
 
 * Par défaut, l’option **[!UICONTROL Tous les visiteurs]** est sélectionnée, ce qui signifie que tout profil peut se voir présenter l’offre.
 
@@ -123,7 +123,7 @@ Pour faire simple, la sortie d’une audience est une liste de profils, tandis q
 
   D’un côté, les audiences sont un groupe de profils Adobe Experience Platform qui correspondent à une certaine logique basée sur les attributs de profil et les événements d’expérience. Cependant, la gestion des offres ne recalcule pas l’audience, qui peut ne pas être à jour lors de la présentation de l’offre.
 
-  Pour en savoir plus sur les audiences, consultez [cette section](../../audience/about-audiences.md).
+  En savoir plus sur les audiences dans [cette section](../../audience/about-audiences.md).
 
 * **Règles de décision**
 

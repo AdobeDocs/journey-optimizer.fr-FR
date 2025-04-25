@@ -9,9 +9,9 @@ hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
 source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '768'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -186,7 +186,7 @@ Vous pouvez désormais déléguer des sous-domaines avec DMARC géré à partir 
 
 **Règles métier**
 
-Vous pouvez désormais utiliser le capping de la fréquence quotidienne dans les parcours et les campagnes avec une segmentation **par lots**. Pour garantir la précision des règles de capping de la fréquence quotidienne, veillez à choisir l’espace de noms de priorité la plus élevée lors de la création d’une campagne ou d’un parcours. Pour en savoir plus sur la priorité des espaces de noms, consultez le guide [ Platform Identity Service ](https://experienceleague.adobe.com/fr/docs/experience-platform/identity/features/identity-graph-linking-rules/namespace-priority){target="_blank"}
+Vous pouvez désormais utiliser le capping de la fréquence quotidienne dans les parcours et les campagnes avec une segmentation **par lots**. Pour garantir la précision des règles de capping de la fréquence quotidienne, veillez à choisir l’espace de noms de priorité la plus élevée lors de la création d’une campagne ou d’un parcours. Pour en savoir plus sur la priorité des espaces de noms, consultez le [guide sur le service d’identités Platform.](https://experienceleague.adobe.com/fr/docs/experience-platform/identity/features/identity-graph-linking-rules/namespace-priority){target="_blank"}
 
 **Gestion de contenu**
 

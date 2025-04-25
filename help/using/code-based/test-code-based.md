@@ -7,9 +7,9 @@ role: User
 level: Experienced
 exl-id: 9a1c148c-a6c3-406b-8f2e-1cf8b8239e75
 source-git-commit: effc706cfa56eca21cde0f26fe7b6332d3728b74
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '732'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -40,7 +40,7 @@ Vous trouverez des informations détaillées sur la sélection des profils de te
 
 >[!NOTE]
 >
->Actuellement, vous ne pouvez pas simuler le contenu de l’interface utilisateur dans une campagne d’expérience ou un parcours basé sur du code à l’aide de [Decisioning](../experience-decisioning/gs-experience-decisioning.md). Une solution est disponible dans [cette section](../experience-decisioning/create-decision.md#test-and-publish).
+>Actuellement, vous ne pouvez pas simuler le contenu de l’interface d’utilisation dans une campagne ou un parcours d’expérience basée sur du code à l’aide de la [prise de décisions](../experience-decisioning/gs-experience-decisioning.md). Une solution de contournement est proposée dans [cette section](../experience-decisioning/create-decision.md#test-and-publish).
 
 
 ## Prévisualiser sur l’appareil {#preview-on-device}

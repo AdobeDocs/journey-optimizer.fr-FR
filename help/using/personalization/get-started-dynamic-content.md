@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Prise en main du contenu dynamique
+title: Commencer avec le contenu dynamique
 description: En savoir plus sur le contenu dynamique
 feature: Personalization
 topic: Personalization
@@ -10,13 +10,13 @@ level: Intermediate
 keywords: expression, éditeur, prise en main, conditions, commencer
 exl-id: be9a3f83-8e22-4efa-9d48-37bf554018fa
 source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '148'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
-# Prise en main du contenu dynamique {#start-dynamic-content}
+# Commencer avec le contenu dynamique {#start-dynamic-content}
 
 >[!CONTEXTUALHELP]
 >id="ajo_conditions_list"

@@ -6,9 +6,9 @@ role: User
 level: Experienced
 exl-id: 67ba8861-be6f-42ae-b9b8-96168d0dd15c
 source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '951'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -42,7 +42,7 @@ L’effet élévateur entre une variante *ν* et la variante de contrôle *ν<su
 
 Le panneau Expérience de Parcours affiche des intervalles de confiance « valides à tout moment » (séquences de confiance) pour chaque traitement d’une expérience.
 
-La séquence de confiance pour une variante individuelle `ν` est au cœur de la méthodologie statistique utilisée par Adobe. Vous trouverez sa définition sur [cette page](https://doi.org/10.48550/arXiv.2103.06476) (reproduite à partir de [Waudby-Smith et al.]).
+La séquence de confiance pour une variante individuelle `ν` est au cœur de la méthodologie statistique utilisée par Adobe. Vous trouverez sa définition sur [cette page](https://doi.org/10.48550/arXiv.2103.06476) (tirée de [Waudby-Smith et al.]).
 
 Si vous souhaitez estimer un paramètre cible `ψ` comme le taux de conversion d’une variante dans une expérience, la dichotomie entre une séquence d’intervalles de confiance (CI) « à temps fixe » et une séquence de confiance uniforme (CS) peut être résumée comme suit :
 

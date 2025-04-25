@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 exl-id: b0771fd9-72bd-4891-a394-f08e3dde6126
 source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '370'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 90%
 
 >[!BEGINSHADEBOX]
 
-Pour accéder au rapport de campagne Courrier, cliquez sur le bouton **[!UICONTROL Rapports]** de votre campagne, puis sélectionnez **[!UICONTROL Afficher le rapport à toute heure]**. [En savoir plus](report-gs-cja.md)
+Vous pouvez accéder au rapport de campagne par courrier en cliquant sur le bouton **[!UICONTROL Rapports]** de votre campagne, puis en sélectionnant **[!UICONTROL Afficher le rapport de toutes les périodes]**. [En savoir plus](report-gs-cja.md)
 
 ![](assets/report-access.png)
 
@@ -31,7 +31,7 @@ Pour accéder au rapport de campagne Courrier, cliquez sur le bouton **[!UICONTR
 
 Le tableau **[!UICONTROL Statistiques d’envoi]** fournit un résumé complet des données essentielles concernant vos campagnes de publipostage direct. Il fournit des informations détaillées sur des mesures clés, tels que la taille de l’audience ciblée et le nombre d’e-mails envoyés avec succès, vous permettant d’obtenir des informations précieuses sur l’efficacité et la portée de vos campagnes de publipostage direct.
 
-+++ En savoir plus sur les mesures Statistiques d’envoi
++++ En savoir plus sur les mesures de statistiques d’envoi
 
 * **[!UICONTROL Personnes]** : nombre de profils d’utilisateurs et d’utilisatrices qui sont qualifiés en tant que profils cibles pour vos messages.
 

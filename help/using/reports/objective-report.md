@@ -12,9 +12,9 @@ hidefromtoc: true
 exl-id: ec1af88c-7b0a-4eaf-97e1-0d9676268fed
 badge: label="Version Beta" type="Informative"
 source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '480'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -64,7 +64,7 @@ L’onglet **[!UICONTROL Expérimentation]** fournit des informations clés sur 
 
 Notez que la définition de meilleure performance peut prendre un certain temps, elle sera représentée par cette icône ![](assets/experimentation_report_1.png).
 
-+++En savoir plus sur les différents widgets et mesures disponibles pour le rapport d’expérience.
++++En savoir plus sur les différents widgets et mesures disponibles pour le rapport d’expérimentation.
 
 Le widget **[!UICONTROL Résultat de l’expérience]** décrit les performances de chaque variante. Vous pouvez modifier votre ligne de base en sélectionnant l’un des traitements du menu déroulant **[!UICONTROL Ligne de base]**. Le meilleur traitement sera signalé par une icône en forme d’étoile.
 

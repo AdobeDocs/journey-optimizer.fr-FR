@@ -7,9 +7,9 @@ role: User
 level: Intermediate
 exl-id: c1d69bc9-4486-4037-b218-f4f704b2ba9c
 source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
-workflow-type: tm+mt
-source-wordcount: '643'
-ht-degree: 93%
+workflow-type: ht
+source-wordcount: '639'
+ht-degree: 100%
 
 ---
 
@@ -47,9 +47,9 @@ Pour créer une méthode de classement, procédez comme suit :
 
    >[!NOTE]
    >
-   >La profondeur d’imbrication dans une formule de classement est limitée à 30 niveaux. Celle-ci est mesurée en comptant les parenthèses fermantes `)` dans la chaîne PQL. La taille d’une chaîne de règle est de 8 Ko maximum pour les caractères codés en UTF-8. Cela équivaut à 8 000 caractères ASCII (1 octet chacun) ou 2 000 à 4 000 caractères non ASCII (2 à 4 octets chacun). [En savoir plus sur les mécanismes de sécurisation et les limitations de Decisioning](gs-experience-decisioning.md#guardrails)
+   >La profondeur d’imbrication dans une formule de classement est limitée à 30 niveaux. Celle-ci est mesurée en comptant les parenthèses fermantes `)` dans la chaîne PQL. La taille d’une chaîne de règle est de 8 Ko maximum pour les caractères codés en UTF-8. Cela équivaut à 8 000 caractères ASCII (1 octet chacun) ou 2 000 à 4 000 caractères non ASCII (2 à 4 octets chacun). [En savoir plus sur les mécanismes de sécurisation et sur les limitations de la prise de décisions](gs-experience-decisioning.md#guardrails)
 
-Une politique de décision prend en charge jusqu’à 10 stratégies de sélection et éléments de décision combinés. [En savoir plus sur les mécanismes de sécurisation et les limitations de Decisioning](gs-experience-decisioning.md#guardrails)
+Une politique de décision prend en charge jusqu’à 10 stratégies de sélection et éléments de décision combinés. [En savoir plus sur les mécanismes de sécurisation et sur les limitations de la prise de décisions](gs-experience-decisioning.md#guardrails)
 
 +++ Optimisation de modèles sur des mesures [!DNL Customer Journey Analytics] personnalisées
 
@@ -63,7 +63,7 @@ Les modèles d’optimisation personnalisés sont un type de modèle d’IA vous
 
 Par défaut, les modèles d’optimisation personnalisés utilisent les **clics sur l’offre** comme mesure d’optimisation. Si vous utilisez [!DNL Customer Journey Analytics], [!DNL Decisioning] vous permet de tirer profit de vos propres mesures personnalisées pour optimiser votre modèle.
 
-Pour ce faire, accédez à l’écran de création de modèle d’IA personnalisé et développez la liste déroulante **[!UICONTROL Événement de conversion]**. Toutes les mesures de votre [!DNL Customer Journey Analytics] par défaut [vue de données](https://experienceleague.adobe.com/fr/docs/analytics-platform/using/cja-dataviews/data-views){target="_blank"}{target=« _blank »} s’affichent dans la liste. Sélectionnez la mesure sur laquelle optimiser votre modèle, puis procédez à la création du modèle d’IA comme vous le faites habituellement.
+Pour ce faire, accédez à l’écran de création de modèle d’IA personnalisé et développez la liste déroulante **[!UICONTROL Événement de conversion]**. Toutes les mesures de votre [vue de données](https://experienceleague.adobe.com/fr/docs/analytics-platform/using/cja-dataviews/data-views){target="_blank"} [!DNL Customer Journey Analytics] par défaut s’affichent dans la liste. Sélectionnez la mesure sur laquelle optimiser votre modèle, puis procédez à la création du modèle d’IA comme vous le faites habituellement.
 
 ![](assets/ai-ranking-custom-metrics.png)
 
@@ -73,7 +73,7 @@ Pour ce faire, accédez à l’écran de création de modèle d’IA personnalis
 >
 >Bien qu’il soit possible de modifier le modèle d’attribution, tous les modèles d’attribution ne sont pas idéaux pour l’optimisation du modèle d’IA. Nous vous recommandons de sélectionner soigneusement un modèle d’attribution qui s’aligne sur vos objectifs d’optimisation afin d’assurer la précision et les performances du modèle.
 >
->Pour plus d’informations sur les modèles d’attribution disponibles et des conseils sur leur utilisation, consultez la [[!DNL Customer Journey Analytics] documentation](https://experienceleague.adobe.com/fr/docs/analytics-platform/using/cja-dataviews/component-settings/attribution){target="_blank"}{target=« _blank »}
+>Pour plus d’informations sur les modèles d’attribution disponibles et des conseils sur leur utilisation, consultez la [[!DNL Customer Journey Analytics] documentation](https://experienceleague.adobe.com/fr/docs/analytics-platform/using/cja-dataviews/component-settings/attribution){target="_blank"}.
 
 +++
 

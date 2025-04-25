@@ -10,9 +10,9 @@ level: Intermediate
 keywords: dépannage, résolution des problèmes, parcours, vérification, erreurs
 exl-id: 03fbc4f4-b0a8-46d5-91f9-620685b11493
 source-git-commit: 1ee75284f3c5f0c7870e8bd8779d4daf9879aa40
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1057'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 95%
 
 Cette section décrit comment résoudre les problèmes liés aux parcours avant de les tester ou de les publier. Il est possible d&#39;effectuer les vérifications répertoriées ci-dessous lorsque le parcours est en mode test ou actif. Il est recommandé de les réaliser en mode test, puis d&#39;effectuer la publication. En savoir plus sur le mode test sur [cette page](../building-journeys/testing-the-journey.md).
 
-En tant que membre de l’équipe d’administration, vous pouvez également tester vos configurations d’actions personnalisées en effectuant de vrais appels API directement depuis l’interface d’utilisation. En savoir plus sur [cette page](../action/troubleshoot-custom-action.md).
+En tant que membre de l’équipe d’administration, vous pouvez également tester vos configurations d’actions personnalisées en effectuant des appels API réels directement depuis l’interface d’utilisation. En savoir plus sur [cette page](../action/troubleshoot-custom-action.md).
 
 ## Rechercher des erreurs avant le test {#checking-for-errors-before-testing}
 

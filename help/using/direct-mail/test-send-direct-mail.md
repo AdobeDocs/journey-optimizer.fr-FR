@@ -8,9 +8,9 @@ level: Beginner
 keyword: direct, mail, configuration, direct-mail, provider
 exl-id: 69a19190-d2e2-4858-a1df-ffd008226e2b
 source-git-commit: 02571632e5f49ebf4fcc97d27c4025e9938795c0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '445'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -44,7 +44,7 @@ Avant d’activer la campagne par courrier, vérifiez que la campagne et que le 
 
 Lorsque votre campagne par courrier est prête, cliquez sur le bouton **[!UICONTROL Activer]**. Lorsque la campagne démarrera, le fichier d’extraction sera automatiquement généré et exporté vers le serveur spécifié dans votre [configuration du routage des fichiers](../direct-mail/direct-mail-configuration.md).
 
-Une fois le message envoyé, vous pouvez mesurer l’impact de votre campagne par courrier dans les rapports de la campagne. Pour plus d’informations sur le reporting courrier, consultez [cette section](../reports/campaign-global-report-cja-direct.md).
+Une fois le message envoyé, vous pouvez mesurer l’impact de votre campagne par courrier dans les rapports de la campagne. Pour plus d’informations sur le reporting du courrier, consultez [cette section](../reports/campaign-global-report-cja-direct.md).
 
 ## Gérer le consentement relatif au courrier {#dm-consent-management}
 
@@ -56,4 +56,4 @@ Pour l’activer à nouveau, l’attribut de profil doit être redéfini sur `co
 
 Pour gérer les attributs d’un profil, accédez à Experience Platform et au profil en sélectionnant un espace de noms d’identité et une valeur d’identité correspondante. Pour en savoir plus, consultez la [documentation Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/ui/user-guide.html?lang=fr#getting-started){target="_blank"}.
 
-En savoir plus sur la gestion des désinscriptions dans Journey Optimizer dans [cette section](../privacy/opt-out.md).
+En savoir plus sur la gestion des opt-outs de Journey Optimizer dans [cette section](../privacy/opt-out.md).

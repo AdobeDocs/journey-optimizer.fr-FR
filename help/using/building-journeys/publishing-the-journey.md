@@ -10,9 +10,9 @@ level: Intermediate
 keywords: publication, parcours, dynamique, validité, vérifier
 exl-id: e0ca8aef-4f1d-4631-8c34-1692d96e8b51
 source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '305'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 

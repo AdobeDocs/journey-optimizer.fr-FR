@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 exl-id: bd5e053a-69eb-463b-add3-8b9168c8e280
 source-git-commit: c2f32533027e374a1df26943e7c5acd4e1d13869
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1362'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -24,7 +24,7 @@ Les profils de test sont requis lors de l’utilisation du [mode test](../buildi
 >
 >[!DNL Journey optimizer] vous permet également de tester différentes variantes de votre contenu en le prévisualisant et en envoyant des BAT à l’aide d’exemples de données d’entrée chargées à partir d’un fichier CSV/JSON ou ajoutées manuellement. [Découvrir comment tester votre contenu à l’aide d’exemples de données d’entrée](../test-approve/simulate-sample-input.md)
 
-Il existe plusieurs façons de créer des profils de test. Vous trouverez sur cette page des informations détaillées pour :
+Il existe plusieurs façons de créer des profils de test. Vous trouverez sur cette page des informations détaillées pour :
 
 * Transformer un [profil existant](#turning-profile-into-test) en profil de test.
 
@@ -38,7 +38,7 @@ Veuillez noter que la création d’un profil de test est similaire à la créat
 
 ➡️ [Découvrez comment créer des profils de test dans cette vidéo](#video)
 
-## Conditions préalables {#test-profile-prerequisites}
+## Prérequis {#test-profile-prerequisites}
 
 Pour pouvoir créer des profils, il vous faut d’abord créer un schéma ainsi qu’un jeu de données dans Adobe [!DNL Journey Optimizer].
 
@@ -137,7 +137,7 @@ Votre parcours sera composé d’une activité **[!UICONTROL Lecture d’audienc
 
    >[!NOTE]
    >
-   > Le calcul de l’audience peut prendre un certain temps. Pour en savoir plus sur les audiences, consultez [cette section](../audience/about-audiences.md).
+   > Le calcul de l’audience peut prendre un certain temps. En savoir plus sur les audiences dans [cette section](../audience/about-audiences.md).
 
 1. Créez maintenant un parcours et commencez par une activité d’orchestration **[!UICONTROL Lecture d’audience]**.
 1. Sélectionnez l’audience que vous venez de créer et l’espace de noms utilisé par vos profils.

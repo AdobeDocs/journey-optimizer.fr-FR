@@ -9,9 +9,9 @@ role: User
 level: Beginner, Intermediate
 exl-id: da3ffe9c-a244-4246-b4b5-a3a1d0508676
 source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
-workflow-type: tm+mt
-source-wordcount: '645'
-ht-degree: 98%
+workflow-type: ht
+source-wordcount: '641'
+ht-degree: 100%
 
 ---
 
@@ -55,7 +55,7 @@ Pour créer un fragment, suivez les étapes présentées ci-dessous.
 
    ![](assets/fragment-expression-type.png)
 
-1. Pour attribuer des libellés d’utilisation des données personnalisés ou de base au fragment, cliquez sur le bouton **[!UICONTROL Gérer l’accès]** en haut de l’écran. [En savoir plus sur le contrôle d’accès au niveau de l’objet (OLAC)](../administration/object-based-access.md).
+1. Pour attribuer des libellés d’utilisation des données personnalisés ou de base au fragment, cliquez sur le bouton **[!UICONTROL Gérer l’accès]** en haut de l’écran. [En savoir plus sur le contrôle d’accès au niveau de l’objet (OLAC)](../administration/object-based-access.md)
 
 1. Cliquez sur le bouton **[!UICONTROL Créer]** pour concevoir le contenu de votre fragment.
 
@@ -91,7 +91,7 @@ Si votre fragment est prêt à être publié, vous pouvez le prévisualiser et l
 
 1. Si le fragment est utilisé dans un parcours actif ou une campagne active, un message s’ouvre pour vous en informer. Cliquez sur le lien **[!UICONTROL En savoir plus]** pour accéder à la liste des parcours et/ou campagnes dans lesquels il est référencé. [Découvrir comment explorer les références d’un fragment](../content-management/manage-fragments.md#explore-references)
 
-   ![](assets/fragment-publish.png){width="70%" align="center"}{width=« 70% » align=« center »}
+   ![](assets/fragment-publish.png){width="70%" align="center"}
 
    Cliquez sur **[!UICONTROL Confirmer]** pour publier le fragment et le mettre à jour dans les parcours actifs/campagnes actives qui l’utilisent.
 

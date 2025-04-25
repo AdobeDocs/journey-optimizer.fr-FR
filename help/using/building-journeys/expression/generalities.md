@@ -9,9 +9,9 @@ level: Experienced
 keywords: syntaxe, éditeur, parcours
 exl-id: c9434b28-2750-4a53-985e-c4a3f940472c
 source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '262'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 

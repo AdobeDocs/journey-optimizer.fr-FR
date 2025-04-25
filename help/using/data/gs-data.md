@@ -10,9 +10,9 @@ level: Intermediate
 keywords: données, gestion, platform
 exl-id: 25519acb-a017-446a-992b-653d3a8a3d96
 source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '655'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -77,7 +77,7 @@ Vous pouvez utiliser la flexibilité des données de [!DNL Journey Optimizer] po
 
 * **Purge et mécanismes d’archivage** : la purge et l’archivage des données peuvent être librement définis et automatisés dans [!DNL Adobe Journey Optimizer] afin d’automatiser les politiques de conservation des données. Il est possible de définir différentes politiques de vieillissement pour les différentes entités de données. Des mécanismes d’exportation peuvent également être définis pour exporter automatiquement les données âgées avant qu’elles ne soient purgées ou archivées.
 
-  L’espace de travail Cycle de vie des données vous permet de créer et de surveiller diverses tâches de cycle de vie des données, notamment la suppression des identités des consommateurs et consommatrices, ou encore la planification des expirations de jeux de données. Cet espace de travail est disponible avec Security &amp; Privacy Shield et Healthcare Shield. En savoir plus sur [cette page](../privacy/data-hygiene.md).
+  L’espace de travail Cycle de vie des données vous permet de créer et de surveiller diverses tâches de cycle de vie des données, notamment la suppression des identités des consommateurs et consommatrices, ou encore la planification des expirations de jeux de données. Cet espace de travail est disponible avec Security &amp; Privacy Shield (Bouclier de sécurité et de confidentialité) et Healthcare Shield (Bouclier santé). En savoir plus sur [cette page](../privacy/data-hygiene.md).
 
 <!--
 * **Data Lake and Deletions**: Customer Data stored in the Data Lake can be retained by Journey Optimizer:

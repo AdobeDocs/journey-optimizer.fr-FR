@@ -7,9 +7,9 @@ role: User
 level: Intermediate
 exl-id: 659984cb-b232-47ba-9f5a-604bf97a5e92
 source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '896'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -32,7 +32,7 @@ Voici quelques-uns des avantages :
 * Workflows améliorés : plutôt que de créer plusieurs diffusions ou plusieurs campagnes, les équipes marketing peuvent améliorer les workflows en créant une seule diffusion et en variant les offres dans les différentes parties du modèle.
 * Contrôle du nombre d&#39;affichages d&#39;une offre sur plusieurs campagnes et clients.
 
-➡️ [En savoir plus sur la gestion des décisions dans ces vidéos](#video)
+➡️ [Découvrez la gestion des décisions dans ces vidéos.](#video)
 
 >[!NOTE]
 >
@@ -73,7 +73,7 @@ Les API de gestion des décisions permettent d’afficher, sur le portail des ag
 
 Les autorisations d’accès et d’utilisation des fonctionnalités de prise de décision sont gérées à l’aide d’[Adobe Admin Console](https://helpx.adobe.com/fr/enterprise/managing/user-guide.html){target="_blank"}.
 
-Pour accorder l’accès à la fonctionnalité de gestion des décisions, vous devez créer un **[!UICONTROL profil de produit]** et attribuer les autorisations correspondantes à vos utilisateurs. En savoir plus sur la gestion des utilisateurs et des autorisations [!DNL Journey Optimizer] dans [cette section](../../administration/permissions.md).
+Pour accorder l’accès à la fonctionnalité de gestion des décisions, vous devez créer un **[!UICONTROL profil de produit]** et attribuer les autorisations correspondantes à vos utilisateurs et utilisatrices. Pour en savoir plus sur la gestion des utilisateurs, des utilisatrices et des autorisations [!DNL Journey Optimizer], consultez [cette section](../../administration/permissions.md).
 
 Les autorisations spécifiques à la gestion des décisions sont répertoriées dans [cette section](../../administration/high-low-permissions.md#decisions-permissions).
 

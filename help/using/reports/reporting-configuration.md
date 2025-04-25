@@ -10,9 +10,9 @@ level: Intermediate
 keywords: configuration, expérimentation, création de rapports, optimizer
 exl-id: 327a0c45-0805-4f64-9bab-02d67276eff8
 source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '584'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -38,7 +38,7 @@ Pour cette configuration, vous devez ajouter un ou plusieurs jeu(x) de données 
 
 Pour les canaux web, basés sur du code et in-app, assurez-vous que le [jeu de données](../data/get-started-datasets.md) configuré pour la collecte de données est également ajouté à la configuration des rapports. Dans le cas contraire, les données web et in-app ne s’afficheront pas dans les rapports d’expérience de contenu.
 
-## Conditions préalables
+## Prérequis
 
 Avant de pouvoir ajouter un jeu de données à la configuration de création de rapports, vous devez le créer. Découvrez comment faire cela dans la [documentation d’Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/user-guide.html?lang=fr#create){target="_blank"}.
 
@@ -62,7 +62,7 @@ Avant de pouvoir ajouter un jeu de données à la configuration de création de 
 
 >[!NOTE]
 >
->Pour en savoir plus sur les schémas et les groupes de champs XDM, consultez la [documentation de présentation du système XDM](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=fr){target="_blank"}.
+>Pour en savoir plus sur les schémas et les groupes de champs XDM, consultez la [documentation de vue d’ensemble du système XDM](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=fr){target="_blank"}.
 
 <!--
 ## Objectives corresponding to each field group {#objective-list}
@@ -104,7 +104,7 @@ The table below shows which metrics will be added to the **[!UICONTROL Objective
 
    ![](assets/reporting-config-datasets.png)
 
-   En savoir plus sur les jeux de données dans la documentation de [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/overview.html?lang=fr){target="_blank"}.
+   Pour en savoir plus sur les jeux de données, consultez la [documentation d’Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/overview.html?lang=fr){target="_blank"}.
 
 1. Dans la liste déroulante des **[!UICONTROL identifiants de profil]**, sélectionnez l’attribut de champ de jeu de données qui sera utilisé pour identifier chaque profil dans vos rapports.
 
@@ -118,7 +118,7 @@ The table below shows which metrics will be added to the **[!UICONTROL Objective
 
    ![](assets/reporting-config-namespace.png)
 
-   En savoir plus sur les espaces de noms dans la documentation de Adobe Experience Platform [](https://experienceleague.adobe.com/docs/experience-platform/identity/namespaces.html?lang=fr){target="_blank"}.
+   Pour en savoir plus sur les espaces de noms, consultez la [documentation d’Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/identity/namespaces.html?lang=fr){target="_blank"}.
 
 1. Enregistrez vos modifications pour ajouter le jeu de données sélectionné à la liste de configuration des rapports.
 

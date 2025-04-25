@@ -10,9 +10,9 @@ level: Beginner
 keywords: commencer, démarrer, contenu, expérience
 exl-id: b57683b4-6dcc-4f6c-a8b2-4ba371d78d21
 source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '604'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -35,7 +35,7 @@ Avec Journey Optimizer, vous avez la possibilité de créer du contenu multilin
 
 ![](assets/translation_schema.png)
 
-## Conditions préalables {#prerequisites}
+## Prérequis {#prerequisites}
 
 >[!CONTEXTUALHELP]
 >id="ajo_multi_translation_error"

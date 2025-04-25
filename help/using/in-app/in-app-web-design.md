@@ -9,9 +9,9 @@ keywords: in-app, message, création, commencer
 hide: true
 hidefromtoc: true
 source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '780'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 

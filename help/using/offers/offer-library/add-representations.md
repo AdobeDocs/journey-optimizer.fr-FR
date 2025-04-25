@@ -7,9 +7,9 @@ role: User
 level: Intermediate
 exl-id: 718af505-7b7c-495e-8974-bd9c35d796bb
 source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '767'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -72,7 +72,7 @@ Si l&#39;emplacement sélectionné est de type image, vous pouvez ajouter du con
 
 >[!NOTE]
 >
-> Pour utiliser [Adobe Experience Manager Assets Essentials](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/introduction.html?lang=fr){target="_blank"}, vous devez déployer [!DNL Assets Essentials] pour votre organisation et vous assurer que les utilisateurs et les utilisatrices font partie des profils de produits **Utilisateurs consommateurs et utilisatrices consommatrices Assets Essentials** et/ou **Utilisateurs et utilisatrices Assets Essentials**. En savoir plus sur [ cette page ](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/get-started-admins/deploy-administer.html?lang=fr){target="_blank"}.
+> Pour utiliser [Adobe Experience Manager Assets Essentials](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/introduction.html?lang=fr){target="_blank"}, vous devez déployer [!DNL Assets Essentials] pour votre organisation et vous assurer que les utilisateurs et les utilisatrices font partie des profils de produits **Utilisateurs consommateurs et utilisatrices consommatrices Assets Essentials** et/ou **Utilisateurs et utilisatrices Assets Essentials**. En savoir plus sur [cette page](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/get-started-admins/deploy-administer.html?lang=fr){target="_blank"}.
 
 1. Choisissez l’option **[!UICONTROL Bibliothèque de ressources]**.
 

@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
 source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2471'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -34,7 +34,7 @@ L&#39;interface d&#39;Adobe [!DNL Journey Optimizer] est conçue pour fonctionne
 * 90 jours pour les données dans la banque de profils
 * 13 mois pour les données du lac de données
 
-Cette modification sera déployée sur les **sandbox client existants** dans une phase ultérieure. [En savoir plus sur les mécanismes de sécurisation de la durée de vie (TTL) des jeux de données](../data/datasets-ttl.md)
+Cette modification sera déployée sur les **sandbox client existants** dans une phase ultérieure. [En savoir plus sur les mécanismes de sécurisation de durée de vie (TTL) des jeux de données](../data/datasets-ttl.md)
 
 ## Mécanismes de sécurisation des canaux {#channel-guardrails}
 
@@ -66,7 +66,7 @@ Les mesures de licence de chaque package sont répertoriées dans la page [Descr
 
 ### Mécanismes de sécurisation des canaux basés sur du code {#code-based-guardrails}
 
-Pour utiliser des actions d’expérience basées sur du code dans [!DNL Journey Optimizer] et diffuser une payload de contenu de code pouvant être utilisée par vos applications, suivez les conditions préalables décrites sur [cette page](../code-based/code-based-prerequisites.md).
+Pour utiliser des actions d’expérience basée sur du code dans [!DNL Journey Optimizer] et diffuser la payload du contenu du code qui peut être utilisée par vos applications, respectez les prérequis décrits sur [cette page](../code-based/code-based-prerequisites.md).
 
 ## Mécanismes de sécurisation des pages de destination {#lp-guardrails}
 
@@ -83,7 +83,7 @@ Par défaut, [!DNL Journey Optimizer] vous permet de déléguer jusqu’à 10 so
 
 Cependant, en fonction de votre contrat de licence, vous pouvez déléguer jusqu’à 100 sous-domaines. Contactez votre personne référente chez Adobe pour connaître le nombre de sous-domaines auxquels vous avez droit.
 
-En savoir plus sur la délégation de domaine sur [cette page](../configuration/delegate-subdomain.md).
+En savoir plus sur la délégation de domaines sur [cette page](../configuration/delegate-subdomain.md).
 
 ## Mécanismes de sécurisation des fragments {#fragments-guardrails}
 
@@ -102,7 +102,7 @@ En savoir plus sur les compositions d’audience sur [cette page](../audience/ge
 
 Les mécanismes de sécurisation et les limitations à garder à l’esprit lorsque vous utilisez la prise de décision ou la gestion des décisions sont détaillés dans les sections Prise de décision et gestion des décisions présentées ci-après :
 
-* [Mécanismes de sécurisation et limitations des prises de décision](../experience-decisioning/decisioning-guardrails.md)
+* [Mécanismes de sécurisation et limitations de la prise de décisions](../experience-decisioning/decisioning-guardrails.md)
 * [Mécanismes de sécurisation et limitations de la gestion des décisions](../offers/decision-management-guardrails.md)
 
 
@@ -201,7 +201,7 @@ Les mécanismes de sécurisation suivants s’appliquent à l’activité de par
 * L’activité **Lecture d’audience** ne peut pas être utilisée avec les activités Adobe Campaign.
 * L’activité **Lecture d’audience** ne peut être utilisée que comme première activité dans un parcours ou après une activité d’événement métier.
 * Un parcours ne peut avoir qu’une seule activité **Lecture d’audience**.
-* Consultez également des recommandations sur l’utilisation de l’activité **Lecture d’audience** sur [cette page](../building-journeys/read-audience.md).
+* Consultez également les recommandations sur l’utilisation de l’activité **Lecture d’audience** sur [cette page](../building-journeys/read-audience.md).
 * Les reprises sont appliquées par défaut sur les parcours déclenchés par l’audience (commençant par une **lecture d’audience** ou un **événement métier**) lors de la récupération du traitement d’export. Si une erreur se produit lors de la création du traitement d’export, des reprises sont effectuées toutes les 10 minutes, pendant 1 heure au maximum. Après cela, nous considérerons cela comme un échec. Ces types de parcours peuvent donc être exécutés jusqu’à 1 heure après l’heure planifiée.
 
 ### Qualification de l’audience {#audience-qualif-g}

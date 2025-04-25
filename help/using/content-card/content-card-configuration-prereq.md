@@ -7,9 +7,9 @@ role: Admin
 level: Experienced
 exl-id: df92e319-1e42-486f-b688-595964a762c9
 source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
-workflow-type: tm+mt
-source-wordcount: '267'
-ht-degree: 98%
+workflow-type: ht
+source-wordcount: '265'
+ht-degree: 100%
 
 ---
 
@@ -20,11 +20,11 @@ Pour qu’Adobe Journey Optimizer affiche correctement les cartes de contenu, 
 * **Collecte de données dʼAdobe Experience Platform**
 
   [Créez un train de données](https://experienceleague.adobe.com/fr/docs/experience-platform/datastreams/configure) et [ajoutez le service Experience Platform](https://experienceleague.adobe.com/fr/docs/experience-platform/datastreams/configure#aep). Activez les options **[!UICONTROL Segmentation Edge]** et **[!UICONTROL Adobe Journey Optimizer]**. Cela permet de s’assurer que les événements entrants Journey Optimizer sont gérés par Adobe Experience Platform Edge Network.
-Ajoutez le groupe de champs **Événement d’expérience - Interaction de proposition** à votre jeu de données pour inclure ces données dans vos rapports. [En savoir plus sur les flux de données](https://experienceleague.adobe.com/fr/docs/experience-platform/datastreams/configure)
+Ajoutez le groupe de champs **Événement d’expérience - Interaction de proposition** à votre jeu de données pour inclure ces données dans vos rapports. [En savoir plus sur les trains de données](https://experienceleague.adobe.com/fr/docs/experience-platform/datastreams/configure)
 
 * **Adobe Experience Platform**
 
-  Assurez-vous d’avoir une politique de fusion par défaut avec l’option **Politique de fusion Active-On-Edge** activée dans le menu Experience Platform **[!UICONTROL Client ou cliente]** > **[!UICONTROL Profils]** > **[!UICONTROL Politiques de fusion]**. [En savoir plus](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/ui-guide.html?lang=fr#configure){target=&quot;_blank&quot;}
+  Assurez-vous d’avoir une politique de fusion par défaut avec l’option **Politique de fusion Active-On-Edge** activée dans le menu Experience Platform **[!UICONTROL Client ou cliente]** > **[!UICONTROL Profils]** > **[!UICONTROL Politiques de fusion]**. [En savoir plus](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/ui-guide.html?lang=fr#configure){target="_blank"}
 
   >[!NOTE]
   >

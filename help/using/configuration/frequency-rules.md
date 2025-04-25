@@ -14,9 +14,9 @@ googlebot: noindex
 keywords: message, fréquence, règles, pression
 exl-id: 49248fb6-5a91-45b2-9de8-2f078d59c0fc
 source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1267'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -134,7 +134,7 @@ La limite de fréquence quotidienne est valable pour la journée jusqu’à 23:5
 
 >[!NOTE]
 >
->Pour garantir la précision des règles de capping de la fréquence quotidienne, nous vous recommandons d’utiliser la méthode [Segmentation en streaming](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/streaming-segmentation.html?lang=fr){target="_blank"}. En savoir plus sur les méthodes d’évaluation d’audience dans [cette section](../audience/about-audiences.md#evaluation-method-in-journey-optimizer).
+>Pour garantir la précision des règles de capping de la fréquence quotidienne, nous vous recommandons d’utiliser la méthode [Segmentation en streaming](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/streaming-segmentation.html?lang=fr){target="_blank"}. En savoir plus sur les méthodes d’évaluation de l’audience dans [cette section](../audience/about-audiences.md#evaluation-method-in-journey-optimizer).
 
 ## Activer une règle métier {#activate-rule}
 

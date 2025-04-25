@@ -10,9 +10,9 @@ level: Experienced
 keywords: sous-domaine, PTR, enregistrements, DNS, domaine, courrier
 exl-id: 4c930792-0677-4ad5-a46c-8d40fc3c4d3a
 source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '842'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -54,7 +54,7 @@ Dans [!DNL Journey Optimizer], vous ne pouvez pas créer manuellement d’enregi
 
 Chacune de vos adresses IP reçoit un seul enregistrement PTR. Tous les enregistrements PTR ont le format suivant : « rxx.subdomain », où « subdomain » est le premier sous-domaine que vous avez délégué dans [!DNL Journey Optimizer].
 
-Lorsque vous créez des sous-domaines supplémentaires, vous devez modifier un ou plusieurs enregistrements PTR et leur attribuer ces nouveaux sous-domaines. Pour ce faire, procédez comme suit :
+Lorsque vous créez des sous-domaines supplémentaires, vous devez modifier un ou plusieurs enregistrements PTR et leur attribuer ces nouveaux sous-domaines. Pour ce faire, procédez comme suit.
 
 >[!CAUTION]
 >

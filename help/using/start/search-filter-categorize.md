@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 exl-id: 6151aea2-6a34-4000-ba48-161efe4d94d7
 source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '577'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -105,7 +105,7 @@ Vous pouvez ajouter ou supprimer des balises de n’importe quel type de parcour
 
 ### Gérer les balises {#manage-tags}
 
-L’administration peut supprimer des balises et les classer par catégorie dans le menu **[!UICONTROL Balises]**, sous **[!UICONTROL Administration]**. Pour en savoir plus sur la gestion des balises, consultez la [documentation sur les balises unifiées](https://experienceleague.adobe.com/docs/experience-platform/administrative-tags/ui/managing-tags.html?lang=fr).
+L’administration peut supprimer des balises et les classer par catégorie dans le menu **[!UICONTROL Balises]**, sous **[!UICONTROL Administration]**. En savoir plus sur la gestion des balises dans la [documentation sur les balises unifiées](https://experienceleague.adobe.com/docs/experience-platform/administrative-tags/ui/managing-tags.html?lang=fr).
 
 >[!NOTE]
 >

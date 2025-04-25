@@ -10,9 +10,9 @@ level: Experienced
 keywords: sandbox, parcours, copier, environnement
 exl-id: 356d56a5-9a90-4eba-9875-c7ba96967da9
 source-git-commit: ead10229b82aa8cb2e638ac9c26539de766f3497
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1100'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -53,16 +53,16 @@ Journey Optimizer permet d’exporter des parcours, des modèles de contenu et 
 
 ### Campagnes {#campaigns}
 
-Les campagnes sont copiées avec tous les éléments liés au profil, à l’audience, au schéma, aux messages intégrés et aux objets dépendants.
+Les campagnes sont copiées avec tous les éléments liés au profil, à l’audience, au schéma, aux messages en ligne et aux objets dépendants.
 
-Toutefois, les éléments suivants ne sont **pas** copiés :
+Toutefois, les éléments suivants **ne sont pas** copiés :
 
 * Variantes multilingues et paramètres de langue
 * Variantes d’expérience
 * Politiques de décision et éléments de décision
 * Règles métier
 * Balises
-* Étiquettes DULE (Data Usage Labeling and Enforcement)
+* Libellés DULE (application et libellé d’utilisation des données)
 
 Une fois les campagnes copiées, les configurations de canal doivent être sélectionnées manuellement.
 

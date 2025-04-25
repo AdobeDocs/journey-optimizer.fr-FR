@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 exl-id: 1603a696-33cc-42d8-a52a-623d85f61584
 source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '325'
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 87%
 
 >[!BEGINSHADEBOX]
 
-Pour accéder au rapport de campagne Carte de contenu, cliquez sur le bouton **[!UICONTROL Rapports]** de votre campagne, puis sélectionnez **[!UICONTROL Afficher le rapport à toute heure]**. [En savoir plus](report-gs-cja.md)
+Vous pouvez accéder au rapport de campagne de carte de contenu en cliquant sur le bouton **[!UICONTROL Rapports]** de votre campagne, puis en sélectionnant **[!UICONTROL Afficher le rapport de toutes les périodes]**. [En savoir plus](report-gs-cja.md)
 
 ![](assets/report-access.png)
 
@@ -31,7 +31,7 @@ Pour accéder au rapport de campagne Carte de contenu, cliquez sur le bouton **[
 
 Les graphiques **[!UICONTROL Tendance des affichages et des clics]** vous permet de comprendre à la fois la portée globale du message et le nombre de profils uniques qui interagissent avec lui.
 
-+++ En savoir plus sur les mesures Afficher et cliquer .
++++ En savoir plus sur les mesures sur les affichages et les clics
 
 * **[!UICONTROL Clics]** : nombre de fois où un contenu a fait l’objet d’un clic dans une carte de contenu.
 

@@ -10,9 +10,9 @@ level: Intermediate, Experienced
 keywords: événements, événement, parcours, définition, commencer
 exl-id: fb3e51b5-4cbb-4949-8992-1075959da67d
 source-git-commit: c2f32533027e374a1df26943e7c5acd4e1d13869
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1017'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -40,7 +40,7 @@ Les parcours unitaires (qui commencent par un événement ou une qualification d
 
 ## Événements métier {#business-events}
 
-Les événements **métier** ne sont pas liés à un profil spécifique. Par exemple, il peut s’agir d’une alerte d’actualité, d’une mise à jour sportive, d’un changement ou d’une annulation de vol, d’une mise à jour d’inventaire, d&#39;événements météorologiques, etc. Bien que ces événements ne soient pas spécifiques à un profil, ils peuvent intéresser un certain nombre de profils : les particuliers abonnés à des sujets d&#39;actualité spécifiques, les passagers d&#39;un vol, les acheteurs intéressés par un produit en rupture de stock, etc. Les événements métier sont toujours basés sur des règles. Lorsque vous déposez un événement professionnel dans un parcours, il ajoute automatiquement une **activité d’audience** Lecture juste après. Découvrez comment créer un événement [professionnel sur cette page](../event/about-creating-business.md).
+Les événements **métier** ne sont pas liés à un profil spécifique. Par exemple, il peut s’agir d’une alerte d’actualité, d’une mise à jour sportive, d’un changement ou d’une annulation de vol, d’une mise à jour d’inventaire, d&#39;événements météorologiques, etc. Bien que ces événements ne soient pas spécifiques à un profil, ils peuvent intéresser un certain nombre de profils : les particuliers abonnés à des sujets d&#39;actualité spécifiques, les passagers d&#39;un vol, les acheteurs intéressés par un produit en rupture de stock, etc. Les événements métier sont toujours basés sur des règles. Lorsque vous ajoutez un événement métier dans un parcours, cela ajoute automatiquement une activité **Lecture d’audience** juste après. Découvrez comment créer un événement métier [sur cette page](../event/about-creating-business.md). 
 
 ## Recommandations
 

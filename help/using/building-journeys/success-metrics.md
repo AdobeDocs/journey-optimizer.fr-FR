@@ -10,9 +10,9 @@ level: Intermediate
 keywords: publication, parcours, dynamique, validité, vérifier
 exl-id: 95d0267e-fab4-4057-8ab5-6f7c9c866b0f
 source-git-commit: d28341dd39ec3ab838a5fbb3ae49539b8776c60b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '488'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 96%
 Grâce aux mesures de parcours, vous pouvez évaluer efficacement l’impact de vos activités en suivant leurs performances par rapport à des mesures prédéfinies.
 En suivant ces mesures, vous pouvez évaluer les performances de votre parcours, identifier les points à améliorer et prendre des décisions éclairées pour améliorer l’engagement des clientes et clients.
 
-## Conditions préalables {#prerequisites}
+## Prérequis {#prerequisites}
 
 Avant d’utiliser votre mesure de parcours, vous devez ajouter un jeu de données qui inclut les [groupes de champs](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=fr#field-group){target="_blank"} `Commerce Details`, `Web` et `Mobile`.
 
@@ -76,7 +76,7 @@ Pour commencer à effectuer le suivi de votre mesure de parcours, procédez comm
 
 1. Dans le menu **[!UICONTROL Parcours]**, cliquez sur **[!UICONTROL Créer un parcours]**.
 
-1. Modifiez le volet de configuration du parcours pour attribuer un nom au parcours et définir ses propriétés. Découvrez comment définir les propriétés de votre parcours sur [cette page](../building-journeys/journey-properties.md).
+1. Modifiez le volet de configuration du parcours pour définir le nom du parcours et ses propriétés. Découvrez comment définir les propriétés de votre parcours sur [cette page](../building-journeys/journey-properties.md).
 
 1. Choisissez les **[!UICONTROL mesures de parcours]** qui seront utilisées pour mesurer l’efficacité de votre parcours.
 
