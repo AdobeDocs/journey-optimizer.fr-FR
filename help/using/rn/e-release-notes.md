@@ -8,9 +8,9 @@ topic: Content Management
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 3f64d497b304e513fa439a9bc4f1c9c0a58b2224
+source-git-commit: 6fbae788495ac97fae1a511a99e773eba718e11a
 workflow-type: tm+mt
-source-wordcount: '954'
+source-wordcount: '956'
 ht-degree: 16%
 
 ---
@@ -52,7 +52,7 @@ Les nouvelles fonctionnalités de cette version sont présentées ci-dessous.
 <table>
 <thead>
 <tr>
-<th><strong>Vue Calendrier pour la campagne et l'inventaire des Parcours (disponibilité limitée)</strong><br/></th>
+<th><strong>Affichage du calendrier pour l’inventaire des campagnes et des parcours (disponibilité limitée)</strong><br/></th>
 </tr>
 </thead>
 <tbody>
@@ -82,7 +82,7 @@ Les nouvelles fonctionnalités de cette version sont présentées ci-dessous.
 <table>
 <thead>
 <tr>
-<th><strong>Laboratoire Personalization dans Experience League</strong><br/></th>
+<th><strong>Playground Personalization dans Experience League</strong><br/></th>
 </tr>
 </thead>
 <tbody>
@@ -127,7 +127,7 @@ Les nouvelles fonctionnalités de cette version sont présentées ci-dessous.
 <table>
 <thead>
 <tr>
-<th><strong>Apportez votre propre fournisseur SMS (disponibilité générale)</strong><br/></th>
+<th><strong>Apporter votre propre fournisseur de SMS (disponibilité générale)</strong><br/></th>
 </tr>
 </thead>
 <tbody>
@@ -217,7 +217,7 @@ Les nouvelles fonctionnalités de cette version sont présentées ci-dessous.
 
 **Audiences**
 
-- **Supprimer la limitation pour les attributs d’enrichissement**
+- **Suppression de la limitation pour les attributs d’enrichissement de la composition d’audience**
 
   L’utilisation des audiences et des attributs de la composition de l’audience peut désormais être utilisée avec Healthcare Shield ou Privacy and Security Shield.
 
@@ -233,7 +233,7 @@ Les nouvelles fonctionnalités de cette version sont présentées ci-dessous.
 
 **Outil Sandbox**
 
-- **Copie de sandbox de prise de décision**
+- **Copie du sandbox de prise de décision**
 
   Les objets de prise de décision peuvent désormais être copiés entre les sandbox, ce qui simplifie les workflows de test et de déploiement.
 
@@ -247,11 +247,11 @@ Les nouvelles fonctionnalités de cette version sont présentées ci-dessous.
 
 **Personnalisation**
 
-- **Éditeur Personalization - Activation des pilules**
+- **Activation des pilules**
 
   Un nouveau bouton « Pilules » a été ajouté à l’éditeur de personnalisation. Une fois activés, les attributs de profil et contextuels s’affichent sous forme de pilules, ce qui améliore la lisibilité de votre code.
 
-- **Personalization - Schéma Observable**
+- **Attributs renseignés dans le volet Attributs**
 
   Le volet Attributs de l’éditeur de personnalisation affiche désormais uniquement les attributs renseignés par défaut. Pour afficher tous les attributs, utilisez le bouton Paramètres pour activer/désactiver l’option Afficher uniquement les attributs renseignés .
 
