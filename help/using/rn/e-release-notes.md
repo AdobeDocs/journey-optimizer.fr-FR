@@ -8,10 +8,10 @@ topic: Content Management
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: b7549bb2ec9e3af4c08def9d46cde0b574df3d3a
+source-git-commit: 3f64d497b304e513fa439a9bc4f1c9c0a58b2224
 workflow-type: tm+mt
-source-wordcount: '918'
-ht-degree: 17%
+source-wordcount: '954'
+ht-degree: 16%
 
 ---
 
@@ -223,18 +223,13 @@ Les nouvelles fonctionnalités de cette version sont présentées ci-dessous.
 
 **Canal e-mail**
 
-- **Champs supplémentaires pour prendre en charge l’accessibilité**
+- **Tracking personnalisé des URL**
 
-  Deux nouveaux champs ont été ajoutés à l’éditeur d’e-mail pour prendre en charge l’accessibilité : l’élément `<title>` pour les titres du document et l’attribut `lang` pour la spécification de la langue dans la balise `<html>` .
+  Pour plus de flexibilité et de contrôle sur vos paramètres d’e-mail, vous pouvez désormais personnaliser tous vos paramètres de tracking d’URL en une seule fois au niveau de la configuration du canal e-mail, au lieu de le faire dans le Concepteur d’e-mail pour chaque lien de votre contenu.
 
-- **Améliorations apportées au Personalization de surface d’e-mail - Suivi des URL**
+- **Thèmes du Concepteur d&#39;email** (Beta) - Date de disponibilité : 5 mai 2025
 
-  Le tracking des URL dans la personnalisation des e-mails a été amélioré, ce qui permet un tracking et des rapports plus granulaires. Les mises à jour incluent des options de configuration améliorées pour les paramètres d’e-mail personnalisés.
-
-
-- **[Beta ] Améliorations de l’éditeur d’e-mail avec les thèmes**
-
-  Une nouvelle fonctionnalité bêta introduit des thèmes dans l’éditeur d’e-mail, ce qui vous permet de définir des styles réutilisables et de créer des e-mails plus rapidement à l’aide de modules préconfigurés.
+  Vous pouvez désormais rapidement appliquer des thèmes de style préapprouvés à votre contenu d’e-mail afin d’assurer la cohérence de la marque dans tous les e-mails, d’accélérer votre processus de création de campagne et de produire indépendamment des e-mails de haute qualité tout en réduisant la dépendance aux équipes de conception.
 
 **Outil Sandbox**
 
@@ -260,39 +255,29 @@ Les nouvelles fonctionnalités de cette version sont présentées ci-dessous.
 
   Le volet Attributs de l’éditeur de personnalisation affiche désormais uniquement les attributs renseignés par défaut. Pour afficher tous les attributs, utilisez le bouton Paramètres pour activer/désactiver l’option Afficher uniquement les attributs renseignés .
 
-- **Nouvelle variable de contexte système**
+- **Nouvel attribut contextuel**
 
-  Une nouvelle variable de contexte système a été introduite pour identifier de manière unique chaque message envoyé à un profil ciblé. Cette variable peut être utilisée à des fins de suivi et de personnalisation.
-
-
+  Un nouvel attribut contextuel, **ID de profil du message**, peut désormais être sélectionné dans l’éditeur de personnalisation. Il s’agit d’un attribut orienté message identifiant de manière unique chaque message envoyé à chaque profil ciblé dans une diffusion. Cet identifiant unique peut être utilisé, par exemple, comme paramètre de tracking d’URL pour distinguer chaque lien ouvert ou cliqué par les destinataires.
 
 **Prise de décision**
 
-- **Modèle AI - Unifier le classement - Nouveau créateur de formules**
+- **Formules de classement**
 
-  Vous pouvez désormais ajuster les scores en temps réel des modèles d’IA Adobe Decisioning à l’aide d’un nouveau créateur de formules. Cette fonctionnalité centralise les ajustements de classement pour les priorités et les scores de modèle.
+  Vous pouvez désormais créer des formules de classement Decisioning spécifiques en définissant et en combinant des critères à partir d&#39;une nouvelle interface améliorée. Les formules de classement vous permettent de définir des règles déterminant quels éléments de décision doivent être présentés en premier, au lieu de prendre en compte les scores de priorité.
 
 **Navigation**
 
-- **Dossiers - Pages de destination**
+- **Dossiers pour les modèles et fragments de contenu** - Date de disponibilité : 5 mai 2025
 
-  Amélioration de la gestion des dossiers pour les pages de destination dans Adobe Journey Optimizer, y compris les modifications de l’interface utilisateur, les flux et les mises à jour des API.
+  Auparavant disponibles pour un ensemble d’organisations (LA), les dossiers sont désormais accessibles à tous les utilisateurs (GA) pour gérer leurs modèles et fragments de contenu. Les dossiers vous permettent d’organiser vos modèles et fragments de contenu plus facilement et plus efficacement dans une hiérarchie structurée.
 
-- **Dossiers - Modèles et fragments**
+- **Dossiers pour les landing pages** - Date de disponibilité : 5 mai 2025
 
-  La mention Disponibilité limitée a été supprimée pour les dossiers dans les modèles et les fragments, ce qui indique que cette fonctionnalité est désormais disponible pour tous.
+  Pour gérer facilement vos pages de destination, vous pouvez désormais également utiliser des dossiers pour les organiser plus efficacement dans une hiérarchie rationalisée.
 
 - **Rail de droite dans la liste des campagnes**
 
   Un rail de droite a été ajouté à la liste des campagnes , fournissant des informations détaillées lorsqu’une campagne est sélectionnée.
-
-
-
-**Délivrabilité**
-
-- **Workflow amélioré pour les adresses IP de complément et la suppression des sous-domaines délégués**
-
-  Le workflow de gestion des adresses IP de complément et des sous-domaines délégués a été amélioré, ce qui simplifie le processus pour les utilisateurs.
 
 **Playbooks**
 
