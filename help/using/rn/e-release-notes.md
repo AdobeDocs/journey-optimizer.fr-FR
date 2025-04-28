@@ -8,10 +8,10 @@ topic: Content Management
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: b79ab63dfefde9df1b4991ed3a81f1d61bc4bb96
+source-git-commit: b7549bb2ec9e3af4c08def9d46cde0b574df3d3a
 workflow-type: tm+mt
-source-wordcount: '865'
-ht-degree: 12%
+source-wordcount: '918'
+ht-degree: 17%
 
 ---
 
@@ -37,13 +37,13 @@ Les nouvelles fonctionnalités de cette version sont présentées ci-dessous.
 <table>
 <thead>
 <tr>
-<th><strong>Intégration d’Adobe Express (LA)</strong><br/></th>
+<th><strong>Intégration d’Adobe Express (disponibilité limitée)</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Adobe Journey Optimizer s’intègre désormais à Adobe Express, ce qui permet aux utilisateurs de connecter facilement leurs ressources créatives à l’orchestration de parcours. Cette intégration simplifie le processus de conception et de déploiement de contenu personnalisé dans les campagnes. Cette fonctionnalité est actuellement en disponibilité limitée.</p>
+<p>Adobe Journey Optimizer s’intègre désormais à Adobe Express, ce qui vous permet de connecter facilement vos ressources créatives à l’orchestration des parcours. Cette intégration simplifie le processus de conception et de déploiement de contenu personnalisé dans les campagnes. Cette fonctionnalité est actuellement en disponibilité limitée.</p>
 </td>
 </tr>
 </tbody>
@@ -52,13 +52,13 @@ Les nouvelles fonctionnalités de cette version sont présentées ci-dessous.
 <table>
 <thead>
 <tr>
-<th><strong>Vue Calendrier pour Campaign et Parcours Inventory (LA)</strong><br/></th>
+<th><strong>Vue Calendrier pour la campagne et l'inventaire des Parcours (disponibilité limitée)</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Une nouvelle vue Calendrier est désormais disponible pour les campagnes et les activations de parcours. Cette fonctionnalité fournit une représentation visuelle des activités planifiées, ce qui permet aux utilisateurs et utilisatrices d’afficher et de gérer leurs campagnes et parcours plus efficacement. La sélection d’un élément de calendrier ouvre un rail de droite avec des informations détaillées. Cette fonctionnalité est actuellement en disponibilité limitée.</p>
+<p>Une nouvelle vue Calendrier est désormais disponible pour les campagnes et les activations de parcours. Cette fonctionnalité fournit une représentation visuelle des activités planifiées, ce qui vous permet d’afficher et de gérer vos campagnes et parcours plus efficacement. La sélection d’un élément de calendrier ouvre un rail de droite avec des informations détaillées. Cette fonctionnalité est actuellement en disponibilité limitée.</p>
 </td>
 </tr>
 </tbody>
@@ -88,7 +88,7 @@ Les nouvelles fonctionnalités de cette version sont présentées ci-dessous.
 <tbody>
 <tr>
 <td>
-<p>Experience League propose désormais un laboratoire Personalization interactif. Cette fonctionnalité permet aux utilisateurs d’explorer et de pratiquer les fonctionnalités de personnalisation dans Adobe Journey Optimizer. Les utilisateurs et utilisatrices peuvent écrire du code de personnalisation, tester avec des exemples de payloads et simuler des scénarios réels afin d’améliorer leur expérience d’apprentissage.</p>
+<p>Experience League propose désormais un laboratoire Personalization interactif. Cette fonctionnalité vous permet d’explorer et de pratiquer les fonctionnalités de personnalisation dans Adobe Journey Optimizer. Vous pouvez écrire du code de personnalisation, effectuer des tests avec des exemples de payloads et simuler des scénarios réels afin d’améliorer votre expérience d’apprentissage.</p>
 </td>
 </tr>
 </tbody>
@@ -97,13 +97,13 @@ Les nouvelles fonctionnalités de cette version sont présentées ci-dessous.
 <table>
 <thead>
 <tr>
-<th><strong>Déclencher l’exécution du Parcours après l’évaluation de l’audience par lots</strong><br/></th>
+<th><strong>Le parcours quotidien Trigger s’exécute après la fin de la segmentation par lots (disponibilité limitée)</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Les utilisateurs peuvent désormais spécifier une fenêtre temporelle pour attendre une nouvelle évaluation des audiences par lots dans le nœud Lecture d’audience . Si l’évaluation se termine dans la fenêtre , le parcours est déclenché ; dans le cas contraire, il est ignoré. Cette fonctionnalité résout les retards dans les tâches de segmentation par lots et est actuellement en disponibilité limitée.</p>
+<p>Pour les parcours planifiés par jour, une nouvelle option vous permet de définir une fenêtre temporelle allant jusqu’à 6 heures pour attendre les données d’audience des tâches de segmentation par lots, en vous assurant que les parcours s’exécutent avec les données les plus récentes ou sont ignorés s’ils ne sont pas prêts. L’option Déclencheur après l’évaluation de l’audience par lots n’est disponible que pour un ensemble d’organisations (disponibilité limitée). Pour en bénéficier, contactez votre représentant ou représentante Adobe.</p>
 </td>
 </tr>
 </tbody>
@@ -112,13 +112,13 @@ Les nouvelles fonctionnalités de cette version sont présentées ci-dessous.
 <table>
 <thead>
 <tr>
-<th><strong>Relecture nouvelle génération (GA)</strong><br/></th>
+<th><strong>Simuler des variations de contenu (disponibilité générale)</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>La fonctionnalité de relecture nouvelle génération est désormais disponible. Cette amélioration prend en charge les attributs contextuels, le contenu multilingue, l’expérimentation et les modèles de contenu, offrant ainsi une expérience de relecture plus robuste et plus flexible.</p>
+<p>Auparavant disponible en version bêta, la simulation de variations de contenu est désormais disponible en version GA (disponibilité générale). Il vous permet de prévisualiser différentes variations de votre contenu à l’aide d’exemples de données d’entrée chargées à partir d’un fichier CSV ou JSON ou ajoutées manuellement. Tous les attributs utilisés dans votre contenu pour la personnalisation sont automatiquement détectés par le système et peuvent être utilisés pour que vos tests créent plusieurs variantes.</p>
 </td>
 </tr>
 </tbody>
@@ -127,13 +127,13 @@ Les nouvelles fonctionnalités de cette version sont présentées ci-dessous.
 <table>
 <thead>
 <tr>
-<th><strong>Apportez votre propre fournisseur de SMS (GA)</strong><br/></th>
+<th><strong>Apportez votre propre fournisseur SMS (disponibilité générale)</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Adobe Journey Optimizer prend désormais en charge les fournisseurs de SMS personnalisés, ce qui permet aux utilisateurs et utilisatrices d’intégrer leurs services SMS préférés pour une meilleure flexibilité des communications.</p>
+<p>Adobe Journey Optimizer prend désormais en charge les fournisseurs de SMS personnalisés, ce qui vous permet d’intégrer vos services SMS préférés pour une meilleure flexibilité des communications.</p>
 </td>
 </tr>
 </tbody>
@@ -219,7 +219,7 @@ Les nouvelles fonctionnalités de cette version sont présentées ci-dessous.
 
 - **Supprimer la limitation pour les attributs d’enrichissement**
 
-  Les clients disposant de boucliers de protection des données et de santé peuvent désormais utiliser les attributs d’enrichissement de composition d’audience dans les canaux Adobe Journey Optimizer, améliorant ainsi les fonctionnalités d’utilisation des données.
+  L’utilisation des audiences et des attributs de la composition de l’audience peut désormais être utilisée avec Healthcare Shield ou Privacy and Security Shield.
 
 **Canal e-mail**
 
@@ -234,13 +234,13 @@ Les nouvelles fonctionnalités de cette version sont présentées ci-dessous.
 
 - **[Beta ] Améliorations de l’éditeur d’e-mail avec les thèmes**
 
-  Une nouvelle fonctionnalité bêta introduit des thèmes dans l’éditeur d’e-mail, ce qui permet aux spécialistes marketing de définir des styles réutilisables et de créer des e-mails plus rapidement à l’aide de modules préconfigurés.
+  Une nouvelle fonctionnalité bêta introduit des thèmes dans l’éditeur d’e-mail, ce qui vous permet de définir des styles réutilisables et de créer des e-mails plus rapidement à l’aide de modules préconfigurés.
 
 **Outil Sandbox**
 
 - **Copie de sandbox de prise de décision**
 
-  Les objets de prise de décision peuvent désormais être copiés entre les sandbox, ce qui simplifie les workflows de test et de déploiement. Une sous-section dédiée pour les objets Decisioning sera ajoutée à la documentation.
+  Les objets de prise de décision peuvent désormais être copiés entre les sandbox, ce qui simplifie les workflows de test et de déploiement.
 
 - **Outil Sandbox pour les actions personnalisées**
 
@@ -254,11 +254,11 @@ Les nouvelles fonctionnalités de cette version sont présentées ci-dessous.
 
 - **Éditeur Personalization - Activation des pilules**
 
-  Un nouveau bouton dans l’éditeur de personnalisation permet aux utilisateurs d’activer ou de désactiver les pilules. Cette fonctionnalité décompacte l’éditeur et permet de modifier plus facilement les paramètres d’image et les attributs de profil Dynamic Media.
+  Un nouveau bouton « Pilules » a été ajouté à l’éditeur de personnalisation. Une fois activés, les attributs de profil et contextuels s’affichent sous forme de pilules, ce qui améliore la lisibilité de votre code.
 
 - **Personalization - Schéma Observable**
 
-  La prise en charge des schémas observables a été ajoutée à l’éditeur de personnalisation, ce qui permet des mises à jour dynamiques des attributs basés sur des schémas.
+  Le volet Attributs de l’éditeur de personnalisation affiche désormais uniquement les attributs renseignés par défaut. Pour afficher tous les attributs, utilisez le bouton Paramètres pour activer/désactiver l’option Afficher uniquement les attributs renseignés .
 
 - **Nouvelle variable de contexte système**
 
@@ -270,7 +270,7 @@ Les nouvelles fonctionnalités de cette version sont présentées ci-dessous.
 
 - **Modèle AI - Unifier le classement - Nouveau créateur de formules**
 
-  Les marketeurs peuvent désormais ajuster les scores en temps réel des modèles d’IA Adobe Decisioning à l’aide d’un nouveau créateur de formules. Cette fonctionnalité centralise les ajustements de classement pour les priorités et les scores de modèle.
+  Vous pouvez désormais ajuster les scores en temps réel des modèles d’IA Adobe Decisioning à l’aide d’un nouveau créateur de formules. Cette fonctionnalité centralise les ajustements de classement pour les priorités et les scores de modèle.
 
 **Navigation**
 
@@ -296,6 +296,6 @@ Les nouvelles fonctionnalités de cette version sont présentées ci-dessous.
 
 **Playbooks**
 
-- **[Beta ] Créer Vos Propres Playbooks**
+- **Créer vos propres playbooks (Beta)**
 
-  Les utilisateurs peuvent désormais créer leurs propres playbooks dans Adobe Journey Optimizer, ce qui offre davantage de personnalisation et de flexibilité dans la planification des parcours.
+  Vous pouvez désormais créer vos propres playbooks dans Adobe Journey Optimizer, ce qui vous offre davantage de personnalisation et de flexibilité dans la planification des parcours.
