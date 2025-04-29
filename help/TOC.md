@@ -5,9 +5,9 @@ user-guide-title: Guide de Journey Optimizer
 user-guide-description: Utilisez Journey Optimizer pour créer et proposer aux clients des expériences connectées, contextuelles et personnalisées
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 97beaa01e33a5297815b43651019629fc9637f9a
+source-git-commit: 6820f57ca4f8734eb746d1bdb2eae8829f37d520
 workflow-type: tm+mt
-source-wordcount: '2336'
+source-wordcount: '2358'
 ht-degree: 89%
 
 ---
@@ -38,7 +38,7 @@ ht-degree: 89%
    + [Recherche, filtrage, catégorisation](using/start/search-filter-categorize.md)
    + [Accessibilité](using/start/accessibility.md)
    + [Playbooks de cas d’utilisation](using/start/playbooks.md)
-   + [Utiliser l’assistant d’IA](using/start/ai-assistant.md)
+   + [Utiliser l’assistant IA](using/start/ai-assistant.md)
    + [Mécanismes de sécurisation](using/start/guardrails.md)
    + [Bonnes pratiques](using/start/best-practices.md)
 + Parcours {#orchestrate-journeys}
@@ -330,6 +330,11 @@ ht-degree: 89%
       + [Configurer un canal WhatsApp dans Journey Optimizer](using/whatsapp/whatsapp-configuration.md)
       + [Créer un message WhatsApp](using/whatsapp/create-whatsapp.md)
       + [Vérifier et envoyer des messages WhatsApp](using/whatsapp/send-whatsapp.md)
+   + LINE {#line}
+      + [Prise en main du canal LINE](using/line/get-started-line.md)
+      + [Configuration du canal LINE dans Journey Optimizer](using/line/line-configuration.md)
+      + [Créer un message LINE](using/line/create-line.md)
+      + [Vérifier et envoyer vos messages LINE](using/line/send-line.md)
 + Pages de destination {#landing-pages}
    + [Prise en main des pages de destination](using/landing-pages/get-started-lp.md)
    + [Créer une page de destination](using/landing-pages/create-lp.md)
