@@ -8,9 +8,9 @@ topic: Content Management
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 6fbae788495ac97fae1a511a99e773eba718e11a
+source-git-commit: 00aa5d5283bae43949df133a48700aa91b3a8c7f
 workflow-type: tm+mt
-source-wordcount: '956'
+source-wordcount: '972'
 ht-degree: 16%
 
 ---
@@ -119,6 +119,7 @@ Les nouvelles fonctionnalités de cette version sont présentées ci-dessous.
 <tr>
 <td>
 <p>Auparavant disponible en version bêta, la simulation de variations de contenu est désormais disponible en version GA (disponibilité générale). Il vous permet de prévisualiser différentes variations de votre contenu à l’aide d’exemples de données d’entrée chargées à partir d’un fichier CSV ou JSON ou ajoutées manuellement. Tous les attributs utilisés dans votre contenu pour la personnalisation sont automatiquement détectés par le système et peuvent être utilisés pour que vos tests créent plusieurs variantes.</p>
+<p>Avec la mise à jour de disponibilité générale, la fonctionnalité prend désormais en charge le contenu multilingue et les expériences de contenu, ce qui vous permet de tester des variations dans différentes langues et traitements. En outre, il prend désormais en charge les attributs contextuels (en plus des attributs de profil), ce qui permet d’effectuer des tests de contenu encore plus dynamiques et situationnels.</p>
 </td>
 </tr>
 </tbody>
@@ -215,11 +216,11 @@ Les nouvelles fonctionnalités de cette version sont présentées ci-dessous.
 
 ### Améliorations {#25-04-improv}
 
-**Audiences**
+<!--**Audiences**
 
-- **Suppression de la limitation pour les attributs d’enrichissement de la composition d’audience**
+- **Remove limitation for Audience Composition enrichment attributes** 
 
-  L’utilisation des audiences et des attributs de la composition de l’audience peut désormais être utilisée avec Healthcare Shield ou Privacy and Security Shield.
+  The use of audiences and attributes from audience composition is now available for use with Healthcare Shield or Privacy and Security Shield.-->
 
 **Canal e-mail**
 
