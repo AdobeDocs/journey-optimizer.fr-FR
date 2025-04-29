@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: pré-en-tête, éditeur, résumé, e-mail
 exl-id: 7ed52b2e-eabf-414f-b169-4b004733dea9
-source-git-commit: 50491d039f2baf8c30a6af0c1b59fe9041244ac7
-workflow-type: ht
+source-git-commit: 0f3191a3d7c5c78e1d8fac2e587e26522f02f8f5
+workflow-type: tm+mt
 source-wordcount: '333'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 100%
 
 >[!CONTEXTUALHELP]
 >id="ac_edition_preheader"
->title="Ajouter un pré-en-tête"
+>title="Définir un pré-titre"
 >abstract="Un pré-en-tête est un bref résumé qui suit l’objet d’un e-mail lorsque vous le visualisez depuis votre client de messagerie. Dans de nombreux cas, il fournit un bref résumé de l’e-mail, généralement en une seule phrase."
 
 Lors de la conception de vos e-mails, vous pouvez définir des méta-attributs supplémentaires pour votre contenu afin d’en améliorer la lisibilité et l’accessibilité. Le [concepteur d’e-mail](get-started-email-design.md) [!DNL Journey Optimizer] vous permet de définir les éléments suivants :

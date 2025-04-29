@@ -5,10 +5,10 @@ description: Découvrez comment utiliser Adobe Journey Optimizer.
 solution: Journey Optimizer
 product: journey optimizer
 exl-id: 3a1b6c61-82df-421c-98d8-2af4f2a5e0de
-source-git-commit: e539d694e8fb91b6a8c7ba7ff5a2bb0905651f81
+source-git-commit: 0f3191a3d7c5c78e1d8fac2e587e26522f02f8f5
 workflow-type: tm+mt
-source-wordcount: '350'
-ht-degree: 94%
+source-wordcount: '335'
+ht-degree: 85%
 
 ---
 
@@ -20,11 +20,17 @@ Découvrez les améliorations les plus récentes apportées au produit et à la 
 
 >[!BEGINTABS]
 
->[!TAB Version de mars 2025]
+>[!TAB Version du 25 avril]
 
-La version de mars est désormais disponible. Consultez les notes de mise à jour pour découvrir les nouvelles fonctionnalités, modifications et améliorations.
+La version d’avril est maintenant en ligne ! Consultez les notes de mise à jour pour découvrir les nouvelles fonctionnalités, modifications et améliorations.
 
 [![En savoir plus](using/assets/do-not-localize/learn-more-button.svg)](using/rn/release-notes.md)
+
+>[!TAB Intégration Adobe Express]
+
+Adobe Journey Optimizer s’intègre désormais à Adobe Express, ce qui vous permet de connecter facilement vos ressources créatives à l’orchestration des parcours.
+
+[![En savoir plus](using/assets/do-not-localize/learn-more-button.svg)](using/integrations/express.md)
 
 >[!TAB Assistant IA]
 
@@ -38,11 +44,6 @@ La création de rapports Journey Optimizer est fournie avec une interopérabili
 
 [![En savoir plus](using/assets/do-not-localize/learn-more-button.svg)](using/reports/report-gs-cja.md)
 
->[!TAB Expériences web dans les parcours]
-
-Avec le canal web, Adobe Journey Optimizer vous permet de personnaliser l’expérience web que vous diffusez à votre clientèle par le biais de parcours web entrants. Le canal web est désormais disponible dans la zone de travail du parcours.
-
-[![En savoir plus](using/assets/do-not-localize/learn-more-button.svg)](using/web/create-web.md)
 
 >[!ENDTABS]
 

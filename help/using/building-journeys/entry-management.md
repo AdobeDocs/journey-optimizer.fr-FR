@@ -8,10 +8,10 @@ role: User
 level: Intermediate
 keywords: rentrée, parcours, profil, récurrent
 exl-id: 8874377c-6594-4a5a-9197-ba5b28258c02
-source-git-commit: 6023f1004c74cedc7567fd142be767b12d85ba6d
+source-git-commit: 0f3191a3d7c5c78e1d8fac2e587e26522f02f8f5
 workflow-type: tm+mt
-source-wordcount: '703'
-ht-degree: 92%
+source-wordcount: '566'
+ht-degree: 87%
 
 ---
 
@@ -79,19 +79,7 @@ Les parcours **Lecture d’audience** peuvent être récurrents ou ponctuels :
 
 * Pour les parcours récurrents : par défaut, tous les profils appartenant à l’audience rejoignent le parcours à chaque périodicité. Elles doivent terminer le parcours avant de pouvoir rejoindre à nouveau une autre occurrence.
 
-Deux options sont disponibles pour les parcours Lecture d’audience récurrents :
-
-* Option **Lecture incrémentielle** : lorsqu’un parcours avec un événement récurrent **Lecture d’audience** s’exécute pour la première fois, tous les profils de l’audience rejoignent le parcours. Cette option vous permet de cibler, après la première occurrence, seulement les personnes qui sont entrées dans l’audience depuis la dernière exécution du parcours.
-
-  >[!NOTE]
-  >
-  >Si vous ciblez une [audience de chargement personnalisé](../audience/about-audiences.md#segments-in-journey-optimizer) dans votre parcours, les profils ne sont récupérés que lors de la première périodicité si cette option est activée dans un parcours récurrent, car ces audiences sont fixes.
-
-* **Forcer une reprise sur une périodicité** : cette option vous permet de faire en sorte que tous les profils toujours présents dans le parcours le quittent automatiquement lors de l’exécution suivante. Si la durée de vie de vos profils dans ce parcours peut être supérieure à la fréquence de périodicité (par exemple, si vous utilisez des activités d’attente), n’activez pas cette option pour vous assurer que les profils puissent terminer leur parcours.
-
-![](assets/read-audience-options.png)
-
-Pour plus d’informations, consultez cette [section](../building-journeys/read-audience.md#configuring-segment-trigger-activity).
+Plusieurs options sont disponibles pour les parcours récurrents Lecture d’audience . Pour plus d’informations, consultez la section [Utiliser une audience dans un parcours ](../building-journeys/read-audience.md).
 
 <!--
 After 91 days, a Read audience journey switches to the **Finished** status. This behavior is set for 91 days only (i.e. journey timeout default value) as all information about profiles who entered the journey is removed 91 days after they entered. Persons still in the journey automatically are impacted. They exit the journey after the 30 day timeout. 

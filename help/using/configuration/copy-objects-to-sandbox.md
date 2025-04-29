@@ -9,16 +9,16 @@ role: User, Developer, Data Engineer
 level: Experienced
 keywords: sandbox, parcours, copier, environnement
 exl-id: 356d56a5-9a90-4eba-9875-c7ba96967da9
-source-git-commit: ead10229b82aa8cb2e638ac9c26539de766f3497
-workflow-type: ht
-source-wordcount: '1100'
-ht-degree: 100%
+source-git-commit: 0f3191a3d7c5c78e1d8fac2e587e26522f02f8f5
+workflow-type: tm+mt
+source-wordcount: '1212'
+ht-degree: 85%
 
 ---
 
 # Exporter des objets vers un autre sandbox {#copy-to-sandbox}
 
-Vous pouvez copier des objets tels que des parcours, des modèles de contenu ou des fragments, sur plusieurs sandbox grâce aux fonctionnalités d’export et d’import de packages. Un package peut se composer d’un ou de plusieurs objets. Tous les objets inclus dans un package doivent provenir du même sandbox.
+Vous pouvez copier des objets tels que des parcours, des actions personnalisées, des modèles de contenu ou des fragments sur plusieurs sandbox à l’aide des fonctionnalités d’exportation et d’importation de packages. Un package peut se composer d’un ou de plusieurs objets. Tous les objets inclus dans un package doivent provenir du même sandbox.
 
 Cette page décrit le cas d’utilisation de l’outil Sandbox dans le contexte de Journey Optimizer. Pour plus d’informations sur la fonctionnalité elle-même, consultez la [documentation Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/sandbox-tooling.html?lang=fr).
 
@@ -33,7 +33,7 @@ Le processus de copie est réalisé via un export de package et un import entre 
 
 ## Objets exportés et bonnes pratiques {#objects}
 
-Journey Optimizer permet d’exporter des parcours, des modèles de contenu et des fragments vers un autre sandbox. Les sections suivantes fournissent des informations et des bonnes pratiques pour chaque type d’objet.
+Journey Optimizer permet d’exporter des parcours, des actions personnalisées, des modèles de contenu et des fragments vers un autre sandbox. Les sections suivantes fournissent des informations et des bonnes pratiques pour chaque type d’objet.
 
 ### Bonnes pratiques générales {#global}
 
@@ -43,13 +43,21 @@ Journey Optimizer permet d’exporter des parcours, des modèles de contenu et 
 
 ### Parcours {#journeys}
 
-* Lors de l’export d’un parcours, en plus du parcours lui-même, Journey Optimizer copie également la plupart des objets dont dépend le parcours : audiences, schémas, événements et actions. Pour plus d’informations sur les objets copiés, reportez-vous à cette [section](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/sandbox-tooling.html?lang=fr#abobe-journey-optimizer-objects).
+* Lors de l’exportation d’un parcours, Journey Optimizer copie, en plus du parcours lui-même, la plupart des objets dont dépend le parcours : audiences, actions personnalisées, schémas, événements et actions. Pour plus d’informations sur les objets copiés, reportez-vous à cette [section](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/sandbox-tooling.html?lang=fr#abobe-journey-optimizer-objects).
 
 * Certains éléments associés peuvent échapper à la copie dans le sandbox de destination. Nous vous recommandons vivement de vérifier la viabilité du parcours, avant sa publication par exemple. Vous pourrez ainsi identifier tout objet potentiellement manquant.
 
 * Les objets copiés dans le sandbox cible sont uniques et il n’y a aucun risque de remplacer des éléments existants. Le parcours et tous les messages qu’il contient sont transférés en mode brouillon. Vous pouvez ainsi effectuer une validation approfondie du parcours avant sa publication sur le sandbox cible.
 
 * Le processus de copie ne copie que les métadonnées et les objets de ce parcours. Aucune donnée de profil ou de jeu de données n’est copiée dans le cadre de ce processus.
+
+### Actions personnalisées {#custom-actions}
+
+* Lors de l’exportation d’actions personnalisées, les paramètres de payload et de configuration d’URL sont copiés. Toutefois, pour des raisons de sécurité, les paramètres d’authentification ne sont pas copiés et sont remplacés par « INSÉRER LE SECRET ICI ». Les valeurs constantes d’en-tête de requête et de paramètre de requête sont également remplacées par « INSERT SECRET HERE ».
+
+  Cela inclut les actions personnalisées à des fins spéciales ([!DNL Adobe Campaign Standard], [!DNL Campaign Classic], [!DNL Marketo Engage]).
+
+* Lors de la copie d’un parcours dans un autre sandbox, si vous sélectionnez « Utiliser existant » pour une action personnalisée au cours du processus d’importation, l’action personnalisée existante que vous sélectionnez doit être identique à l’action personnalisée source (c’est-à-dire la même configuration, les mêmes paramètres, etc.). Dans le cas contraire, la nouvelle copie de parcours contiendra des erreurs qui ne peuvent pas être résolues dans la zone de travail.
 
 ### Campagnes {#campaigns}
 

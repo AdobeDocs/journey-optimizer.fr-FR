@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: parcours, configuration, propriétés
 exl-id: 6c21371c-6cbc-4d39-8fe6-39f1b8b13280
-source-git-commit: 6023f1004c74cedc7567fd142be767b12d85ba6d
+source-git-commit: 0f3191a3d7c5c78e1d8fac2e587e26522f02f8f5
 workflow-type: tm+mt
-source-wordcount: '2301'
-ht-degree: 98%
+source-wordcount: '2344'
+ht-degree: 96%
 
 ---
 
@@ -73,7 +73,6 @@ Par défaut, les nouveaux parcours autorisent la rentrée. Vous pouvez désélec
 
 Lorsque l’option **Autoriser une rentrée** est activée, le champ **Période d’attente de rentrée** s’affiche. Ce champ vous permet de définir le temps d’attente avant d’autoriser un profil à entrer à nouveau dans un parcours pour les parcours unitaires (en commençant par un événement ou une qualification d’audience). Cela empêche les parcours d’être déclenchés plusieurs fois par erreur pour le même événement. Par défaut, le champ est défini sur 5 minutes. La durée maximale est de 90 jours.
 
-
 ## Gérer l’accès {#manage-access}
 
 Pour attribuer des libellés d’utilisation des données personnalisés ou de base au parcours, cliquez sur le bouton **[!UICONTROL Gérer l’accès]**. [En savoir plus sur le contrôle d’accès au niveau de l’objet (OLAC)](../administration/object-based-access.md)
@@ -130,7 +129,6 @@ Cette temporisation globale met fin à la progression des personnes dans le parc
 Compte tenu de la temporisation de 91 jours du parcours, lorsque la rentrée de celui-ci n’est pas autorisée, nous sommes dans l’impossibilité de garantir que le blocage de la rentrée fonctionnera plus de 91 jours. En effet, étant donné que nous supprimons toutes les informations sur les personnes qui ont rejoint le parcours 91 jours après leur entrée, rien ne nous permet de savoir qu’une personne l’a déjà rejoint il y a plus de 91 jours.
 
 Une personne ne peut entrer dans une activité d’attente que si elle dispose de suffisamment de temps dans le parcours pour terminer la durée d’attente avant la temporisation de 91 jours du parcours. Consultez [cette page](../building-journeys/wait-activity.md).
-
 
 #### Questions fréquentes sur la durée de vie (TTL) et la rétention des données {#timeout-faq}
 
@@ -301,6 +299,10 @@ Les mécanismes de sécurisation et limitations suivants s’appliquent à la fo
 
 * Les critères de sortie sont définis en état de brouillon uniquement.
 * Cohérence de l’espace de noms de parcours entre les événements et les critères de sortie basés sur un événement
+
+## Parcours de l&#39;horaire {#schedule}
+
+La section **[!UICONTROL Planifier]** n’est disponible que lorsqu’une activité **[!UICONTROL Lecture d’audience]** a été déposée dans la zone de travail. Il vous permet de définir une date/heure et une fréquence spécifiques auxquelles le parcours doit s’exécuter. [Découvrez comment planifier un parcours Lecture d’audience](../building-journeys/read-audience.md)
 
 ## Gestion des conflits {#conflict}
 
