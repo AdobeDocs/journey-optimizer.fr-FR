@@ -6,10 +6,9 @@ description: Découvrez comment créer un message LINE dans Journey Optimizer
 feature: Line
 topic: Content Management
 role: User
-hide: true
-hidefromtoc: true
 level: Beginner
-source-git-commit: 6820f57ca4f8734eb746d1bdb2eae8829f37d520
+exl-id: a93d4dc9-f0e9-400c-b9a4-6cdac84390fd
+source-git-commit: 81cd7c2c8be26d760f369ecacc5859cf090234fc
 workflow-type: tm+mt
 source-wordcount: '563'
 ht-degree: 71%
@@ -94,4 +93,3 @@ Pour configurer votre contenu LINE, procédez comme suit.
 Une fois que vous avez effectué vos tests et validé le contenu, vous pouvez envoyer votre message LINE à votre audience. Ces étapes sont présentées sur [cette page](send-line.md).
 
 Une fois envoyé, vous pouvez mesurer l’impact de votre LINE dans les rapports Campagne ou Parcours. Pour plus d’informations sur les rapports, consultez [cette section](../reports/campaign-global-report-cja.md).
-
