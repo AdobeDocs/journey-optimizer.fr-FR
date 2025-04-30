@@ -7,7 +7,7 @@ feature: Line
 topic: Content Management
 role: User
 level: Beginner
-source-git-commit: 8714ac6b2fd76ec859c358535fa322f0ac333a82
+source-git-commit: fe10df5e855c627fb4beaf2a56403b5845cb84c4
 workflow-type: tm+mt
 source-wordcount: '186'
 ht-degree: 23%
@@ -18,10 +18,10 @@ ht-degree: 23%
 
 Utilisez [!DNL Journey Optimizer] pour envoyer des messages LINE à vos clients sur leur application LINE. Vous pouvez créer, personnaliser et prévisualiser des messages dans l’éditeur LINE.
 
-[!AVAILABILITY]
->>
-Le canal LINE est activé sur demande pour les clients Adobe Journey Optimizer. Pour activer la fonctionnalité pour votre organisation, contactez l’assistance clientèle d’Adobe ou votre représentant ou représentante Adobe.
+>[!AVAILABILITY]
 >
+>Le canal LINE est activé sur demande pour les clients Adobe Journey Optimizer. Pour activer la fonctionnalité pour votre organisation, contactez l’assistance clientèle d’Adobe ou votre représentant ou représentante Adobe.
+
 Les messages LINE peuvent être créés et envoyés dans un parcours ou dans une campagne :
 
 * Dans un **parcours**. Créez un parcours, ajoutez une activité LINE et définissez les paramètres de base, puis accédez au volet de droite **[!UICONTROL Actions : LINE]** pour créer le contenu du message LINE. Découvrez comment créer un parcours dans [cette page](../building-journeys/journey-gs.md).
