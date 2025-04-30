@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Notes de mise à jour d’Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: d87dde2cbc172affa17610b28e092a0da0d7d38f
+source-git-commit: 50fb18210bd589f551efdaf161844251b5bef758
 workflow-type: tm+mt
-source-wordcount: '797'
-ht-degree: 56%
+source-wordcount: '824'
+ht-degree: 54%
 
 ---
 
@@ -25,62 +25,11 @@ ht-degree: 56%
 
 ## Notes de mise à jour d’avril 2025 {#25-4-rn}
 
-
 **Date de publication** : 29 et 30 avril 2025
-
 
 ### Nouvelles fonctionnalités {#25-04-features}
 
-Les nouvelles fonctionnalités de cette version sont présentées ci-dessous.
-
-<table>
-<thead>
-<tr>
-<th><strong>Intégration d’Adobe Express (disponibilité limitée)</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>Adobe Journey Optimizer s’intègre désormais à Adobe Express, ce qui vous permet de connecter facilement vos ressources créatives à l’orchestration des parcours. Cette intégration simplifie le processus de conception et de déploiement de contenu personnalisé dans les campagnes. </p>
-<p>Cette fonctionnalité est actuellement en disponibilité limitée.</p>
-<img src="assets/do-not-localize/express_resize.gif">
-<p>Pour plus d’informations, consultez la <a href="../integrations/express.md">documentation détaillée</a>.</p>
-</td>
-</tr>
-</tbody>
-</table>
-
-<!--<table>
-<thead>
-<tr>
-<th><strong>Calendar view for campaign and journey inventory (Limited Availability)</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>A new calendar view is now available for campaigns and journey activations. This feature provides a visual representation of scheduled activities, allowing you to view and manage your campaigns and journeys more effectively. Selecting a calendar item opens a right rail with detailed information. This feature is currently in Limited Availability.</p>
-<img src="assets/do-not-localize/calendar.gif">
-</td>
-</tr>
-</tbody>
-</table>-->
-
-<table>
-<thead>
-<tr>
-<th><strong>Intégration d’Adobe Experience Manager as a Cloud Service (disponibilité générale)</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>Disponibilité générale de l’intégration entre Adobe Journey Optimizer et Adobe Experience Manager as a Cloud Service. Cette intégration permet un approvisionnement et une gestion transparents du contenu pour des parcours clients personnalisés.</p>
-</td>
-</tr>
-</tbody>
-</table>
+Les nouvelles fonctionnalités de cette version sont répertoriées ci-dessous.
 
 <table>
 <thead>
@@ -100,19 +49,17 @@ Les nouvelles fonctionnalités de cette version sont présentées ci-dessous.
 </tbody>
 </table>
 
-
 <table>
 <thead>
 <tr>
-<th><strong>Le parcours quotidien Trigger s’exécute après la fin de la segmentation par lots (disponibilité limitée)</strong><br/></th>
+<th><strong>Intégration d’Adobe Experience Manager as a Cloud Service</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Pour les parcours planifiés par jour, une nouvelle option vous permet de définir une fenêtre temporelle allant jusqu’à 6 heures pour attendre les données d’audience des tâches de segmentation par lots, en vous assurant que les parcours s’exécutent avec les données les plus récentes ou sont ignorés s’ils ne sont pas prêts. L’option Déclencheur après l’évaluation de l’audience par lots n’est disponible que pour un ensemble d’organisations (disponibilité limitée). Pour en bénéficier, contactez votre représentant ou représentante Adobe.</p>
-<p>Pour plus d’informations, consultez la <a href="../building-journeys/read-audience.md#schedule">documentation détaillée</a>.</p>
-<img src="assets/do-not-localize/trigger-journeys.gif">
+<p>L’intégration entre Adobe Journey Optimizer et Adobe Experience Manager as a Cloud Service est désormais disponible en disponibilité générale (GA). Cette intégration permet un approvisionnement et une gestion transparents du contenu pour des parcours clients personnalisés.</p>
+<p>Pour plus d’informations, consultez la <a href="../integrations/aem-templates.md">documentation détaillée</a>.</p>
 </td>
 </tr>
 </tbody>
@@ -134,22 +81,6 @@ Les nouvelles fonctionnalités de cette version sont présentées ci-dessous.
 </tr>
 </tbody>
 </table>-->
-
-<table>
-<thead>
-<tr>
-<th><strong>Score d’alignement des marques (Beta)</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>La fonction Score d’alignement de la marque offre des commentaires clairs directement dans le concepteur d’e-mail, ce qui vous permet de voir si votre contenu correspond au ton, au style et aux directives de votre marque.</p>
-<p>Pour plus d’informations, consultez la <a href="../content-management/brands-score.md">documentation détaillée</a>.</p>
-</td>
-</tr>
-</tbody>
-</table>
 
 <table>
 <thead>
@@ -194,10 +125,95 @@ Les nouvelles fonctionnalités de cette version sont présentées ci-dessous.
 <tr>
 <td>
 <p>Les mesures de parcours vous permettent de mesurer l’impact de vos activités sur les mesures les plus importantes de votre entreprise et de fournir des informations plus claires sur vos performances.</p>
-<p>Pour plus d’informations, consultez la <a href="../building-journeys/success-metrics.md">documentation détaillée</a>.</p>
-<p>Date de disponibilité : 9 avril 2025</p>
 </br>
 <img src="assets/do-not-localize/success-metric.gif"/>
+<p>Pour plus d’informations, consultez la <a href="../building-journeys/success-metrics.md">documentation détaillée</a>.</p>
+<p>Date de disponibilité : 9 avril 2025</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+
+
+<!--<table>
+<thead>
+<tr>
+<th><strong>Calendar view for campaign and journey inventory (Limited Availability)</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>A new calendar view is now available for campaigns and journey activations. This feature provides a visual representation of scheduled activities, allowing you to view and manage your campaigns and journeys more effectively. Selecting a calendar item opens a right rail with detailed information. This feature is currently in Limited Availability.</p>
+<img src="assets/do-not-localize/calendar.gif">
+</td>
+</tr>
+</tbody>
+</table>-->
+
+<table>
+<thead>
+<tr>
+<th><strong>Intégration d’Adobe Express (disponibilité limitée)</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Adobe Journey Optimizer s’intègre désormais à Adobe Express, ce qui vous permet de connecter facilement vos ressources créatives à l’orchestration des parcours. Cette intégration simplifie le processus de conception et de déploiement de contenu personnalisé dans les campagnes. </p>
+<p>Cette intégration est disponible uniquement pour un ensemble d’organisations (disponibilité limitée). Pour obtenir l’accès, contactez votre représentant Adobe</p>
+<img src="assets/do-not-localize/express_resize.gif">
+<p>Pour plus d’informations, consultez la <a href="../integrations/express.md">documentation détaillée</a>.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Le parcours quotidien Trigger s’exécute après la fin de la segmentation par lots (disponibilité limitée)</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Pour les parcours planifiés par jour, une nouvelle option vous permet de définir une fenêtre temporelle allant jusqu’à 6 heures pour attendre les données d’audience des tâches de segmentation par lots, en vous assurant que les parcours s’exécutent avec les données les plus récentes ou sont ignorés s’ils ne sont pas prêts. L’option Déclencheur après l’évaluation de l’audience par lots n’est disponible que pour un ensemble d’organisations (disponibilité limitée). Pour en bénéficier, contactez votre représentant ou représentante Adobe.</p>
+<p>Pour plus d’informations, consultez la <a href="../building-journeys/read-audience.md#schedule">documentation détaillée</a>.</p>
+<img src="assets/do-not-localize/trigger-journeys.gif">
+</td>
+</tr>
+</tbody>
+</table>
+
+<!--table>
+<thead>
+<tr>
+<th><strong>Themes in the Email Designer (Beta)</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p> You can now quickly apply pre-approved styling themes to your email content to ensure brand consistency across all emails, speed up your campaign creation process and independently produce hight-quality emails while reducing dependency on design teams.</p>
+<p>For more information, refer to the <a href="../content-management/brands-score.md">detailed documentation</a>.</p>
+</td>
+</tr>
+</tbody>
+</table-->
+
+<table>
+<thead>
+<tr>
+<th><strong>Score d’alignement des marques (Beta)</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>La fonction Score d’alignement de la marque offre des commentaires clairs directement dans le concepteur d’e-mail, ce qui vous permet de voir si votre contenu correspond au ton, au style et aux directives de votre marque. Cette fonctionnalité est disponible dans Beta.</p>
+<p>Pour plus d’informations, consultez la <a href="../content-management/brands-score.md">documentation détaillée</a>.</p>
 </td>
 </tr>
 </tbody>
@@ -222,19 +238,6 @@ Les nouvelles fonctionnalités de cette version sont présentées ci-dessous.
 
 ### Améliorations {#25-04-improv}
 
-**Canal e-mail**
-
-<!--* **Personalized URL tracking**
-
-  For increased flexibility and control over your email settings, you can now personalize all your URL tracking parameters at once at the email channel configuration level, instead of doing it in the Email designer for each link in your content. -->
-
-* **Concepteur d’e-mail** - Date de disponibilité : 1er avril 2025
-
-  Pour améliorer l’accessibilité dans Journey Optimizer, deux nouveaux champs sont désormais disponibles dans le concepteur d’e-mail : ils correspondent à l’élément `<title>` et à l’attribut `lang` dans l’élément `<html>` du contenu de votre e-mail. Vous pouvez définir ces paramètres en plus du champ **[!UICONTROL Pré-en-tête]**, dans la section **[!UICONTROL Corps]** de l’e-mail. [En savoir plus](../email/email-metadata.md)
-
-<!--- **Email designer themes** (Beta) - Availability date: May 5, 2025
-
-  You can now quickly apply pre-approved styling themes to your email content to ensure brand consistency across all emails, speed up your campaign creation process and independently produce hight-quality emails while reducing dependency on design teams. -->
 
 **Outil Sandbox**
 
@@ -256,14 +259,25 @@ Les nouvelles fonctionnalités de cette version sont présentées ci-dessous.
 
   A new "Pills" button has been to the personalization editor. When enabled, profile and contextual attributes display as pills, enhancing the readability of your code.-->
 
+* **Nouvel attribut contextuel**
+
+  Un nouvel attribut contextuel, **ID de profil du message**, peut désormais être sélectionné dans l’éditeur de personnalisation. Il s’agit d’un attribut orienté message identifiant de manière unique chaque message envoyé à chaque profil ciblé dans une diffusion. Cet identifiant unique peut être utilisé, par exemple, comme paramètre de tracking d’URL pour distinguer chaque lien ouvert ou cliqué par les destinataires.
+
 * **Attributs renseignés dans le volet Attributs** - Date de disponibilité : 2 avril 2025
 
   Le volet Attributs de l’éditeur de personnalisation affiche désormais uniquement les attributs renseignés par défaut. Pour afficher tous les attributs, utilisez le bouton des paramètres pour activer ou désactiver l’option **[!UICONTROL Afficher uniquement les attributs renseignés]**. [En savoir plus](../personalization/personalization-build-expressions.md)
 
+**Canal e-mail**
 
-* **Nouvel attribut contextuel**
+<!--* **Personalized URL tracking**
 
-  Un nouvel attribut contextuel, **ID de profil du message**, peut désormais être sélectionné dans l’éditeur de personnalisation. Il s’agit d’un attribut orienté message identifiant de manière unique chaque message envoyé à chaque profil ciblé dans une diffusion. Cet identifiant unique peut être utilisé, par exemple, comme paramètre de tracking d’URL pour distinguer chaque lien ouvert ou cliqué par les destinataires.
+  For increased flexibility and control over your email settings, you can now personalize all your URL tracking parameters at once at the email channel configuration level, instead of doing it in the Email designer for each link in your content. -->
+
+* **Concepteur d’e-mail** - Date de disponibilité : 1er avril 2025
+
+  Pour améliorer l’accessibilité dans Journey Optimizer, deux nouveaux champs sont désormais disponibles dans le concepteur d’e-mail : ils correspondent à l’élément `<title>` et à l’attribut `lang` dans l’élément `<html>` du contenu de votre e-mail. Vous pouvez définir ces paramètres en plus du champ **[!UICONTROL Pré-en-tête]**, dans la section **[!UICONTROL Corps]** de l’e-mail. [En savoir plus](../email/email-metadata.md)
+
+
 
 **Navigation**
 
