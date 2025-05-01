@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: paramètres, e-mail, configuration
 exl-id: 5a12280c-b937-4cd9-a1ef-563bab48e42e
-source-git-commit: 5f7e9556a27fb12618f8da35da5427de3a0867dc
+source-git-commit: 87d60ddafb8b3793ef774528a96f60501bb5a1b5
 workflow-type: tm+mt
-source-wordcount: '402'
-ht-degree: 100%
+source-wordcount: '380'
+ht-degree: 95%
 
 ---
 
@@ -74,4 +74,4 @@ Vous pouvez prévisualiser de manière dynamique l’URL de tracking obtenue. Ch
 
 >[!NOTE]
 >
->Vous pouvez également ajouter des paramètres de suivi personnalisés et dynamiques aux liens présents dans le contenu de votre e-mail, mais cela n’est pas possible au niveau de la configuration. Vous devez le faire lors de la création de votre message à l’aide du concepteur d’e-mail. [En savoir plus](message-tracking.md#url-tracking).
+>Vous pouvez également ajouter des paramètres de tracking personnalisés et dynamiques aux liens présents dans le contenu de votre e-mail. [En savoir plus](surface-personalization.md#personalize-url-tracking)

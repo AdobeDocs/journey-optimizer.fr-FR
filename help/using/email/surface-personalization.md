@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: paramètres, e-mail, configuration, sous-domaine
 exl-id: 1e004a76-5d6d-43a1-b198-5c9b41f5332c
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
-workflow-type: ht
-source-wordcount: '1069'
-ht-degree: 100%
+source-git-commit: 87d60ddafb8b3793ef774528a96f60501bb5a1b5
+workflow-type: tm+mt
+source-wordcount: '1170'
+ht-degree: 92%
 
 ---
 
@@ -98,7 +98,6 @@ Pour utiliser des variables personnalisées pour vos paramètres d’en-tête de
 >
 >Vous pouvez personnaliser tous les champs de **[!UICONTROL Paramètres d’en-tête]**, à l’exception du champ **[!UICONTROL Préfixe d’e-mail d’erreur]**.
 
-
 1. Définissez les paramètres d’en-tête comme vous en avez l’habitude. [Voici comment procéder](email-settings.md#email-header)
 
 1. Pour chaque champ, sélectionnez l’icône Modifier.
@@ -125,17 +124,19 @@ Pour utiliser des variables personnalisées pour vos paramètres d’en-tête de
 >
 >Si vous avez ajouté un ou plusieurs sous-domaines dynamiques à votre configuration, les suffixes de l’**E-mail de l’expéditeur ou de l’expéditrice** et de l’**E-mail d’erreur** seront renseignés en fonction du [sous-domaine dynamique](#dynamic-subdomains) résolu.
 
-<!--
-## Use personalized URL tracking {#personalize-url-tracking}
+## Utiliser le tracking d’URL personnalisé {#personalize-url-tracking}
 
-To use personalized URL tracking prameters, follow the steps below.
+Pour utiliser des paramètres de tracking d’URL personnalisés, procédez comme suit.
 
-1. Select the profile attribute of your choice from the personalization editor.
+1. Accédez à la section **[!UICONTROL Paramètres de tracking d’URL]** de la configuration de votre canal e-mail.
 
-1. Repeat the steps above for each tracking parameter you want to personalize.
+1. Cliquez sur l’icône Modifier en regard de chaque champ. Outre les attributs contextuels, vous pouvez sélectionner des attributs de profil.
 
-Now when the email is sent out, this parameter will be automatically appended to the end of the URL. You can then capture this parameter in web analytics tools or in performance reports.
--->
+1. Sélectionnez l’attribut de profil de votre choix dans l’[éditeur de personnalisation](../personalization/personalization-build-expressions.md).
+
+1. Répétez les étapes ci-dessus pour chaque paramètre de tracking à personnaliser.
+
+Désormais, lorsque l’e-mail est envoyé, le paramètre personnalisé est automatiquement ajouté à la fin de l’URL. Vous pouvez ensuite capturer ce paramètre dans les outils d’analyse web ou dans les rapports de performances.
 
 ## Afficher les détails de configuration {#view-surface-details}
 

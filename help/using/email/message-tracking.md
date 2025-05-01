@@ -9,10 +9,10 @@ role: User
 level: Beginner, Intermediate
 keywords: liens, tracking, surveillance, e-mail
 exl-id: 689e630a-00ca-4893-8bf5-6d1ec60c52e7
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
-workflow-type: ht
-source-wordcount: '1198'
-ht-degree: 100%
+source-git-commit: 87d60ddafb8b3793ef774528a96f60501bb5a1b5
+workflow-type: tm+mt
+source-wordcount: '1200'
+ht-degree: 94%
 
 ---
 
@@ -73,7 +73,7 @@ Pour insérer des liens dans le contenu de votre e-mail, procédez comme suit :
 
    >[!NOTE]
    >
-   >Pour interpréter les URL, [!DNL Journey Optimizer] se conforme à la syntaxe URI ([Norme RFC 3986](https://datatracker.ietf.org/doc/html/rfc3986){target="_blank"}), qui désactive certains caractères internationaux spéciaux dans les URL. Lors de l’envoi du BAT ou de l’e-mail, si une erreur impliquant une URL ajoutée à votre contenu vous est renvoyée, vous pouvez encoder la chaîne comme solution de contournement.
+   >Pour interpréter les URL, [!DNL Journey Optimizer] se conforme à la syntaxe URI ([norme RFC 3986](https://datatracker.ietf.org/doc/html/rfc3986){target="_blank"}), qui désactive certains caractères internationaux spéciaux dans les URL. Lors de l’envoi du BAT ou de l’e-mail, si une erreur impliquant une URL ajoutée à votre contenu vous est renvoyée, vous pouvez encoder la chaîne comme solution de contournement.
 
 1. Vous pouvez personnaliser vos liens. [En savoir plus](../personalization/personalization-syntax.md#perso-urls).
 
@@ -171,9 +171,9 @@ La création de rapports sur les ouvertures et les clics est disponible dans le 
 
 ## Personnalisation du suivi des URL {#url-tracking}
 
-Généralement, le [tracking des URL](email-settings.md#url-tracking) est géré au niveau de la configuration, mais les attributs de profil ne sont pas pris en charge. Actuellement, la seule façon de le faire est de [personnaliser les URL](../personalization/personalization-syntax.md#perso-urls) dans le concepteur d’e-mail.
+Le [tracking des URL](email-settings.md#url-tracking) est géré au niveau de la configuration et s&#39;applique à toutes les URL incluses dans le contenu de votre message.
 
-Pour ajouter des paramètres de tracking d’URL personnalisés à vos liens, procédez comme suit.
+Vous pouvez également [personnaliser des URL individuelles](../personalization/personalization-syntax.md#perso-urls) dans le Concepteur d’e-mail. Pour ajouter des paramètres de tracking d’URL personnalisés à un seul lien dans votre contenu, procédez comme suit.
 
 1. Sélectionnez un lien et cliquez sur **[!UICONTROL Insérer un lien]** dans la barre d’outils contextuelle.
 
