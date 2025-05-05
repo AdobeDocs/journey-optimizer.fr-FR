@@ -152,7 +152,7 @@ Pour renseigner la liste autorisée, vous pouvez également appeler l’API de s
 
 Vous pouvez effectuer les opérations **Ajouter**, **Supprimer** et **Obtenir**.
 
-Pour en savoir plus sur l’émission d’appels d’API, consultez la documentation de référence API Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-apis/api-guide.html?lang=fr){target="_blank"} [.
+Pour en savoir plus sur l’émission d’appels d’API, consultez la documentation de référence API Adobe Experience Platform[&#128279;](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-apis/api-guide.html?lang=fr){target="_blank"} .
 
 ## Télécharger la liste autorisée {#download-allowed-list}
 

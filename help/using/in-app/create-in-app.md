@@ -67,7 +67,7 @@ Pour ajouter un message in-app dans un parcours, procédez comme suit :
       | Places | Entrer dans le POI | Déclenché par le SDK Places lorsque votre client ou cliente accède au point ciblé (POI) configuré. |
       | Places | Quitter le POI | Déclenché par le SDK Places lorsque votre client ou cliente quitte le point ciblé (POI) configuré. |
 
-+++
+      +++
 
    1. Cliquez sur **[!UICONTROL Ajouter une condition]** si vous souhaitez que le déclencheur prenne en compte plusieurs événements ou critères.
 
@@ -99,7 +99,7 @@ Pour ajouter un message in-app dans un parcours, procédez comme suit :
       | Places | Dernier point ciblé accédé | Déclenché par le SDK Places en fonction du dernier point ciblé accédé par votre cliente ou client. |
       | Places | Dernier point ciblé quitté | Déclenché par le SDK Places en fonction du dernier point ciblé quitté par votre cliente ou client. |
 
-+++
+      +++
 
       ![](assets/in_app_create_8.png)
 
@@ -173,7 +173,7 @@ Pour ajouter un message in-app dans une campagne, procédez comme suit :
       | Places | Entrer dans le POI | Déclenché par le SDK Places lorsque votre client ou cliente accède au point ciblé (POI) configuré. |
       | Places | Quitter le POI | Déclenché par le SDK Places lorsque votre client ou cliente quitte le point ciblé (POI) configuré. |
 
-+++
+      +++
 
    1. Cliquez sur **[!UICONTROL Ajouter une condition]** si vous souhaitez que le déclencheur prenne en compte plusieurs événements ou critères.
 
@@ -205,7 +205,7 @@ Pour ajouter un message in-app dans une campagne, procédez comme suit :
       | Places | Dernier point ciblé accédé | Déclenché par le SDK Places en fonction du dernier point ciblé accédé par votre cliente ou client. |
       | Places | Dernier point ciblé quitté | Déclenché par le SDK Places en fonction du dernier point ciblé quitté par votre cliente ou client. |
 
-+++
+      +++
 
       ![](assets/in_app_create_8.png)
 
@@ -238,7 +238,7 @@ Pour ajouter un message in-app dans une campagne, procédez comme suit :
 
   >[!VIDEO](https://video.tv.adobe.com/v/3410430?quality=12&learn=on)
 
-+++
+  +++
 
 * La vidéo ci-dessous montre comment configurer et analyser des expériences de contenu pour les messages in-app de test A/B.
 
@@ -246,7 +246,7 @@ Pour ajouter un message in-app dans une campagne, procédez comme suit :
 
   >[!VIDEO](https://video.tv.adobe.com/v/3419898/?learn=on&autoplay=true)
 
-+++
+  +++
 
 * La vidéo ci-dessous montre comment créer un message in-app dans un parcours et comment tester et publier votre parcours.
 
@@ -254,7 +254,7 @@ Pour ajouter un message in-app dans une campagne, procédez comme suit :
 
   >[!VIDEO](https://video.tv.adobe.com/v/3423077/?learn=on&autoplay=true)
 
-+++
+  +++
 
 **Rubriques connexes :**
 
