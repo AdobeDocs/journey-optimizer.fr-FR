@@ -9,9 +9,9 @@ role: User
 level: Beginner
 exl-id: 10d2de34-23c1-4a5e-b868-700b462312eb
 source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '546'
-ht-degree: 100%
+ht-degree: 94%
 
 ---
 
@@ -38,9 +38,9 @@ Lorsque les données en temps réel sont diffusées ou chargées par lots, les j
 
 Cette documentation fournit des informations sur l’utilisation des audiences dans [!DNL Adobe Journey Optimizer]. Des informations détaillées sur le portail Audience et les audiences sont disponibles dans la documentation du service de segmentation Adobe Experience Platform. Pour plus d’informations, reportez-vous à ces sections :
 
-* [Guide de l’IU du service de segmentation](https://experienceleague.adobe.com/fr/docs/experience-platform/segmentation/ui/overview){target="_blank"}
+* [ Guide de l’interface utilisateur du service de segmentation ](https://experienceleague.adobe.com/fr/docs/experience-platform/segmentation/ui/overview){target="_blank"}
 
-* [Service de segmentation : questions fréquentes](https://experienceleague.adobe.com/fr/docs/experience-platform/segmentation/faq){target="_blank"}
+* [Service de segmentation - Questions fréquentes](https://experienceleague.adobe.com/fr/docs/experience-platform/segmentation/faq){target="_blank"}
 
 >[!ENDSHADEBOX]
 
@@ -54,7 +54,7 @@ Un tableau de bord montre visuellement les chevauchements entre des audiences vo
 
 À partir du portail Audience, vous pouvez facilement gérer, rechercher et explorer des audiences avec un étiquetage normalisé, des contrôles de gouvernance, des dossiers pouvant faire l’objet de recherches et des balises.
 
-Pour plus d’informations sur l’utilisation des audiences dans le portail Audience, reportez-vous à la [documentation du service de segmentation d’Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=fr){target="_blank"}.
+Pour plus d’informations sur l’utilisation des audiences dans Audience Portal, reportez-vous à la documentation du service de segmentation de Adobe Experience Platform [](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=fr){target="_blank"}.
 
 ## Types d’audiences {#types}
 
