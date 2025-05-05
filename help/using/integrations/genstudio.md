@@ -76,13 +76,13 @@ Tout d’abord, vous pouvez exporter un modèle HTML [!DNL Journey Optimizer], y
 
    >[!NOTE]
    >
-   >Découvrez comment télécharger un modèle HTML dans [!DNL GenStudio] dans la section dédiée au [Guide de l’utilisateur d’Adobe GenStudio for Performance Marketing](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/content/templates/use-templates#templates-from-ajo-and-marketo){target="_blank"}.
+   >Découvrez comment télécharger un modèle HTML dans [!DNL GenStudio] dans la section dédiée au [Guide de l’utilisateur d’Adobe GenStudio for Performance Marketing](https://experienceleague.adobe.com/fr/docs/genstudio-for-performance-marketing/user-guide/content/templates/use-templates#templates-from-ajo-and-marketo){target="_blank"}.
 
 1. Dans GenStudio, utilisez ce modèle pour créer plusieurs variations d’e-mail avec des invites d’IA et les enregistrer.
 
    >[!NOTE]
    >
-   >Découvrez comment créer des expériences e-mail dans la [section](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/create/create-email-experience){target="_blank"} dédiée à GenStudio.
+   >Découvrez comment créer des expériences e-mail dans la [section](https://experienceleague.adobe.com/fr/docs/genstudio-for-performance-marketing/user-guide/create/create-email-experience){target="_blank"} dédiée à GenStudio.
 
 ### Utilisation des expériences GenStudio dans Journey Optimizer {#leverage-genstudio-experiences}
 
