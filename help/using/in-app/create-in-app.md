@@ -236,7 +236,7 @@ Pour ajouter un message in-app dans une campagne, procédez comme suit :
 
   +++Voir la vidéo
 
-  >[!VIDEO](https://video.tv.adobe.com/v/3410430?quality=12&learn=on)
+  >[!VIDEO](https://video.tv.adobe.com/v/3451884?quality=12&learn=on&captions=fre_fr)
 
   +++
 
@@ -244,7 +244,7 @@ Pour ajouter un message in-app dans une campagne, procédez comme suit :
 
   +++Voir la vidéo
 
-  >[!VIDEO](https://video.tv.adobe.com/v/3419898/?learn=on&autoplay=true)
+  >[!VIDEO](https://video.tv.adobe.com/v/3445290/?learn=on&autoplay=true&captions=fre_fr)
 
   +++
 
@@ -252,7 +252,7 @@ Pour ajouter un message in-app dans une campagne, procédez comme suit :
 
   +++Voir la vidéo
 
-  >[!VIDEO](https://video.tv.adobe.com/v/3423077/?learn=on&autoplay=true)
+  >[!VIDEO](https://video.tv.adobe.com/v/3451832/?learn=on&autoplay=true&captions=fre_fr)
 
   +++
 

@@ -41,4 +41,4 @@ Pour découvrir la puissance d’Adobe Journey Optimizer en obtenant des conse
 
 Découvrez les fonctionnalités clés et les rôles de Journey Optimizer. Découvrez comment naviguer dans l’interface utilisateur en fonction de votre rôle.
 
->[!VIDEO](https://video.tv.adobe.com/v/3424995?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3430314?quality=12&captions=fre_fr)

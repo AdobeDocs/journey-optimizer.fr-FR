@@ -51,4 +51,4 @@ Lorsque vous arrêtez un parcours, il est définitivement arrêté : toutes les
 
 Découvrez comment publier un parcours dans cette vidéo :
 
->[!VIDEO](https://video.tv.adobe.com/v/3424998?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3427934?quality=12&captions=fre_fr)

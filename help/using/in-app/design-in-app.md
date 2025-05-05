@@ -250,4 +250,4 @@ Si le **[!UICONTROL Mode de formatage avancé]** est activé, vous pouvez person
 
 La vidéo ci-dessous montre comment créer et tester vos messages in-app.
 
->[!VIDEO](https://video.tv.adobe.com/v/3410471?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3422077?quality=12&learn=on&captions=fre_fr)

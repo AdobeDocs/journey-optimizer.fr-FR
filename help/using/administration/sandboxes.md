@@ -70,4 +70,4 @@ Notez que pour que votre contenu soit synchronisé avec le sandbox correct, vous
 
 Découvrez ce que sont les sandbox et comment faire la distinction entre les sandbox de développement et de production. Découvrez comment créer, réinitialiser et supprimer des sandbox.
 
->[!VIDEO](https://video.tv.adobe.com/v/334355?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3416655?quality=12&captions=fre_fr)

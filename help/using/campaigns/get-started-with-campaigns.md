@@ -68,4 +68,4 @@ Vérifiez les conditions préalables suivantes avant de commencer la création d
 
 Découvrez comment créer votre première campagne.
 
->[!VIDEO](https://video.tv.adobe.com/v/346680?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3412403?quality=12&captions=fre_fr)

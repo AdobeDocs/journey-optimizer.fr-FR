@@ -197,4 +197,4 @@ Voici quelques exemples de modification d’e-mails et de configuration de verro
 
 Découvrez comment verrouiller le contenu dans vos modèles d’e-mail.
 
->[!VIDEO](https://video.tv.adobe.com/v/3451591?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3451609?quality=12&captions=fre_fr)

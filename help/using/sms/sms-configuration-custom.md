@@ -83,4 +83,4 @@ Une fois qu’il est configuré, vous pouvez tirer parti de toutes les fonctionn
 
 ## Vidéo pratique {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/3431625)
+>[!VIDEO](https://video.tv.adobe.com/v/3443608?captions=fre_fr)

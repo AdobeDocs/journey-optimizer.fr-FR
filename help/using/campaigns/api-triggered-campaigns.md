@@ -138,4 +138,4 @@ Pour activer la création de profil lors de l’exécution de la campagne, activ
 
 Découvrez comment créer une campagne et la déclencher à partir d’un système externe en fonction des interactions des utilisateurs et utilisatrices, à l’aide de l’API REST d’exécution de message interactif.
 
->[!VIDEO](https://video.tv.adobe.com/v/3425358?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3452727?quality=12&captions=fre_fr)

@@ -239,4 +239,4 @@ Dans ce scénario, un profil individuel :
 
 Découvrez comment créer, activer, tester et générer des rapports sur les règles métier.
 
->[!VIDEO](https://video.tv.adobe.com/v/344451?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3411122?quality=12&captions=fre_fr)
