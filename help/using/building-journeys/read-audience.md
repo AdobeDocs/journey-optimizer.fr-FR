@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: activité, parcours, lecture, audience, platform
 exl-id: 7b27d42e-3bfe-45ab-8a37-c55b231052ee
-source-git-commit: 0f3191a3d7c5c78e1d8fac2e587e26522f02f8f5
+source-git-commit: 3da510cffe6fddc644c867fe8d89da9d9c5861d1
 workflow-type: tm+mt
 source-wordcount: '2195'
 ht-degree: 67%
@@ -24,41 +24,6 @@ ht-degree: 67%
 >id="ajo_journey_read_segment"
 >title="Activité Lecture d’audience"
 >abstract="L’activité Lecture d’audience vous permet de faire entrer dans un parcours toutes les personnes appartenant à une audience Adobe Experience Platform. L’entrée dans un parcours peut être effectuée une fois, ou régulièrement."
-
->[!CONTEXTUALHELP]
->id="ajo_journey_read_segment_scheduler_start_date"
->title="Date et heure de début"
->abstract="Définissez la date et l’heure de déclenchement de ce parcours."
-
->[!CONTEXTUALHELP]
->id="ajo_journey_read_segment_scheduler_repeat_until"
->title="Répéter jusqu’à"
->abstract="Définissez la date de fin de la récurrence."
-
->[!CONTEXTUALHELP]
->id="ajo_journey_read_segment_scheduler_repeat_every"
->title="Répéter chaque"
->abstract="Définissez une fréquence de planificateur récurrent."
-
->[!CONTEXTUALHELP]
->id="ajo_journey_read_segment_scheduler_incremental_read"
->title="Lecture incrémentielle"
->abstract="Seuls les nouveaux profils depuis la dernière lecture peuvent rejoindre un parcours."
-
->[!CONTEXTUALHELP]
->id="ajo_journey_read_segment_scheduler_force_reentrance"
->title="Forcer une rentrée"
->abstract="Retirez tous les participants du parcours avant chaque lecture d’audience."
-
->[!CONTEXTUALHELP]
->id="ajo_journey_read_segment_scheduler_synchronize_audience"
->title="Déclencheur après l’évaluation de l’audience par lots"
->abstract="Activez cette option pour déclencher l’exécution du parcours après une nouvelle évaluation de l’audience par lots."
-
->[!CONTEXTUALHELP]
->id="ajo_journey_read_segment_scheduler_synchronize_audience_wait_time"
->title="Temps d’attente pour une nouvelle évaluation de l’audience"
->abstract="Indiquez la durée pendant laquelle le parcours attendra que l’audience par lots soit à nouveau évaluée. La période d’attente est limitée à des valeurs entières, peut être spécifiée en minutes ou en heures et doit être comprise entre 1 et 6 heures."
 
 Utilisez l’activité **Lecture d’audience** pour que toutes les personnes d’une audience rejoignent le parcours. L’entrée dans un parcours peut être effectuée une fois, ou régulièrement.
 
@@ -131,6 +96,41 @@ Cette valeur est stockée dans la payload de version du parcours. La valeur par 
 >Le taux de lecture global par sandbox est défini sur 20 000 profils par seconde. Par conséquent, le taux de lecture de toutes les lectures d’audiences qui s’exécutent simultanément dans la même sandbox s’élève à 20 000 profils par seconde au maximum. Vous ne pouvez pas modifier cette limite.
 
 ### Planifier le parcours {#schedule}
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_read_segment_scheduler_start_date"
+>title="Date et heure de début"
+>abstract="Définissez la date et l’heure de déclenchement de ce parcours."
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_read_segment_scheduler_repeat_until"
+>title="Répéter jusqu’à"
+>abstract="Définissez la date de fin de la récurrence."
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_read_segment_scheduler_repeat_every"
+>title="Répéter chaque"
+>abstract="Définissez une fréquence de planificateur récurrent."
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_read_segment_scheduler_incremental_read"
+>title="Lecture incrémentielle"
+>abstract="Seuls les nouveaux profils depuis la dernière lecture peuvent rejoindre un parcours."
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_read_segment_scheduler_force_reentrance"
+>title="Forcer une rentrée"
+>abstract="Retirez tous les participants du parcours avant chaque lecture d’audience."
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_read_segment_scheduler_synchronize_audience"
+>title="Déclencheur après l’évaluation de l’audience par lots"
+>abstract="Activez cette option pour déclencher l’exécution du parcours après une nouvelle évaluation de l’audience par lots."
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_read_segment_scheduler_synchronize_audience_wait_time"
+>title="Temps d’attente pour une nouvelle évaluation de l’audience"
+>abstract="Indiquez la durée pendant laquelle le parcours attendra que l’audience par lots soit à nouveau évaluée. La période d’attente est limitée à des valeurs entières, peut être spécifiée en minutes ou en heures et doit être comprise entre 1 et 6 heures."
 
 Par défaut, les parcours sont configurés pour s’exécuter une seule fois. Pour définir une date/heure et une fréquence spécifiques d’exécution du parcours, procédez comme suit.
 
