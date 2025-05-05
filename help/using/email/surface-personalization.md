@@ -9,16 +9,16 @@ role: Admin
 level: Experienced
 keywords: paramètres, e-mail, configuration, sous-domaine
 exl-id: 1e004a76-5d6d-43a1-b198-5c9b41f5332c
-source-git-commit: 87d60ddafb8b3793ef774528a96f60501bb5a1b5
+source-git-commit: 6ffa9d9125f941febbc894e75dcb1a202e1e9cc0
 workflow-type: tm+mt
-source-wordcount: '1170'
-ht-degree: 92%
+source-wordcount: '1174'
+ht-degree: 90%
 
 ---
 
 # Personnaliser les paramètres de configuration du canal e-mail {#surface-personalization}
 
-Pour plus de flexibilité et de contrôle sur vos paramètres de canal e-mail, [!DNL Journey Optimizer] permet de définir des valeurs personnalisées pour les sous-domaines et les en-têtes<!--and URL tracking parameters--> lors de la création de configurations de canal e-mail.
+Pour une flexibilité et un contrôle accrus de vos paramètres d’e-mail, [!DNL Journey Optimizer] vous permet de définir des valeurs personnalisées pour les sous-domaines et les en-têtes, ainsi que des paramètres de tracking d’URL lors de la création de configurations d’e-mail.
 
 ## Ajouter des sous-domaines dynamiques {#dynamic-subdomains}
 

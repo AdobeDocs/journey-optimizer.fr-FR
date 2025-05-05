@@ -10,10 +10,10 @@ level: Intermediate
 mini-toc-levels: 1
 keywords: expression, éditeur, à propos, commencer
 exl-id: 1ac2a376-a3a8-41ae-9b04-37886697f0fc
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
-workflow-type: ht
-source-wordcount: '1436'
-ht-degree: 100%
+source-git-commit: 6ffa9d9125f941febbc894e75dcb1a202e1e9cc0
+workflow-type: tm+mt
+source-wordcount: '1458'
+ht-degree: 97%
 
 ---
 
@@ -79,11 +79,17 @@ Exemples d’adresses URL personnalisées :
 
 +++
 
++++Configuration des e-mails
+
+Lors de la création d’une configuration de canal e-mail, vous pouvez définir des valeurs personnalisées pour les sous-domaines, les en-têtes et les paramètres de tracking des URL. [En savoir plus](../email/surface-personalization.md)
+
++++
+
 ## Sources de personnalisation {#sources}
 
 Le volet de navigation vous permet de sélectionner la source pour la personnalisation. Les sources disponibles sont les suivantes :
 
-* **[!UICONTROL Attributs de profil]** : répertorie toutes les références associées au schéma de profil décrit dans la [documentation du modèle de données Adobe Experience Platform (XDM)](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=fr){target="_blank"}.
+* **[!UICONTROL Attributs de profil]** : répertorie toutes les références associées au schéma de profil décrit dans la documentation du modèle de données Adobe Experience Platform (XDM) [](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=fr){target="_blank"}.
 * **[!UICONTROL Audiences]** : répertorie toutes les audiences créées dans le service de segmentation d’Adobe Experience Platform. Vous trouverez [ici](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=fr){target="_blank"} plus d’informations sur la segmentation.
 * **[!UICONTROL Décisions d’offre]** : répertorie toutes les offres associées à un emplacement spécifique. Sélectionnez l’emplacement, puis insérez les offres dans votre contenu. Pour obtenir une documentation complète sur la gestion des offres, consultez [cette section](../offers/get-started/starting-offer-decisioning.md).
 * **[!UICONTROL Attributs contextuels]** : lorsqu’une activité d’action de canal (e-mail, notification push, SMS) est utilisée dans un parcours ou une campagne, des attributs contextuels liés aux événements et aux propriétés sont disponibles pour la personnalisation. Un exemple de personnalisation utilisant les attributs contextuels est présenté dans [cette section](personalization-use-case.md).
@@ -187,7 +193,7 @@ Dans ce cas, **product** n’est pas un tableau :
 {{/each}}
 ```
 
-* **Syntaxe des barres de contrôle non valide.`‘[XYZ}}’`** trouvé
+* **Syntaxe des barres de contrôle non valide.`'[XYZ}}'`** trouvé
 
 En cas d’utilisation d’une syntaxe de barres de contrôle non valide.
 
