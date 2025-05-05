@@ -9,10 +9,10 @@ role: Admin, Developer, Architect
 level: Experienced
 keywords: objet, niveau, accès, contrôle, libellés, olac, autorisation
 exl-id: 02ccdd95-426c-4b61-9834-7f2dcd5abdbb
-source-git-commit: fbcd5ae83c024d672d608d5f5aefc6a4252ec8c0
+source-git-commit: 3cbda018a1380e13ba3670563240238367517353
 workflow-type: tm+mt
-source-wordcount: '460'
-ht-degree: 100%
+source-wordcount: '472'
+ht-degree: 89%
 
 ---
 
@@ -21,7 +21,9 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="ajo_olac_manage_access"
 >title="Libellés de gestion des accès"
->abstract="Vous pouvez limiter l’accès à cette campagne en fonction de libellés d’accès. Pour ajouter une limitation d’accès, cliquez sur le bouton **Gérer l’accès** en haut de cette page. Assurez-vous de sélectionner uniquement les libellés pour lesquels vous disposez des autorisations."
+>abstract="Vous pouvez limiter l’accès à un objet en fonction des libellés d’accès. Son objectif est de protéger les ressources numériques sensibles contre les utilisateurs non autorisés, ce qui permet une protection supplémentaire des données personnelles. **Veillez à sélectionner uniquement les libellés pour lesquels vous disposez d’une autorisation.**"
+
+Vous pouvez limiter l’accès à un objet en fonction des libellés d’accès. Son objectif est de protéger les ressources numériques sensibles contre les utilisateurs et utilisatrices non autorisés, ce qui offre une protection supplémentaire des données personnelles.
 
 La fonctionnalité de contrôle d’accès au niveau des objets (OLAC) vous permet de définir des autorisations pour gérer l’accès aux données d’une sélection d’objets :
 
@@ -36,7 +38,6 @@ La fonctionnalité de contrôle d’accès au niveau des objets (OLAC) vous perm
 * Configuration des canaux
 * Plan de préchauffage des adresses IP
 
-Son objectif est de protéger les ressources numériques sensibles contre les utilisateurs et utilisatrices non autorisés, ce qui permet une protection supplémentaire des données personnelles.
 
 ## Conditions préalables {#prereq-labels}
 
@@ -85,7 +86,7 @@ Pour attribuer des étiquettes d’utilisation des données personnalisées ou d
 
 1. Dans la fenêtre **[!UICONTROL Gérer l’accès]**, sélectionnez votre ou vos étiquettes d’utilisation des données de base ou personnalisées pour gérer l’accès à cet objet.
 
-   Pour plus d’informations sur les libellés d’utilisation de données principales, consultez [cette page](https://experienceleague.adobe.com/docs/experience-platform/data-governance/labels/reference.html?lang=fr){target="_blank"}.
+   Pour plus d’informations sur les étiquettes d’utilisation des données de base, reportez-vous à [cette page](https://experienceleague.adobe.com/docs/experience-platform/data-governance/labels/reference.html?lang=fr){target="_blank"}.
 
    ![](assets/olac_4.png)
 
@@ -94,4 +95,4 @@ Pour attribuer des étiquettes d’utilisation des données personnalisées ou d
 Pour pouvoir accéder à cet objet, les utilisateurs doivent disposer de l’**[!UICONTROL étiquette]** spécifique incluse dans leurs **[!UICONTROL rôles]**.
 Par exemple, un utilisateur avec l’étiquette C1 n’aura accès qu’aux objets étiquetés C1 ou non étiquetés.
 
-Pour plus d’informations sur la manière d’attribuer un **[!UICONTROL libellé]** à un **[!UICONTROL rôle]**, consultez [cette page](https://experienceleague.adobe.com/docs/experience-platform/access-control/abac/permissions-ui/permissions.html?lang=fr#manage-labels-for-a-role){target="_blank"}.
+Pour plus d’informations sur la manière d’attribuer une **[!UICONTROL étiquette]** à un **[!UICONTROL rôle]**, consultez [cette page](https://experienceleague.adobe.com/docs/experience-platform/access-control/abac/permissions-ui/permissions.html?lang=fr#manage-labels-for-a-role){target="_blank"}.

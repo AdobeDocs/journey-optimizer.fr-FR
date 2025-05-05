@@ -2,28 +2,27 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Publier le parcours
-description: Découvrir comment créer des rapports sur la mesure de parcours de votre choix
+description: Découvrez comment créer des rapports sur vos mesures de parcours
 feature: Journeys
 topic: Content Management
 role: User
 level: Intermediate
 keywords: publication, parcours, dynamique, validité, vérifier
 exl-id: 95d0267e-fab4-4057-8ab5-6f7c9c866b0f
-source-git-commit: d28341dd39ec3ab838a5fbb3ae49539b8776c60b
-workflow-type: ht
-source-wordcount: '488'
-ht-degree: 100%
+source-git-commit: 3cbda018a1380e13ba3670563240238367517353
+workflow-type: tm+mt
+source-wordcount: '495'
+ht-degree: 72%
 
 ---
 
-# Configurer et suivre votre mesure de parcours {#success-metrics}
+# Configuration et suivi des mesures de parcours {#success-metrics}
 
-Grâce aux mesures de parcours, vous pouvez évaluer efficacement l’impact de vos activités en suivant leurs performances par rapport à des mesures prédéfinies.
-En suivant ces mesures, vous pouvez évaluer les performances de votre parcours, identifier les points à améliorer et prendre des décisions éclairées pour améliorer l’engagement des clientes et clients.
+Bénéficiez d’une visibilité claire sur l’efficacité de vos parcours client avec les mesures de parcours. Cette fonctionnalité vous permet de suivre les performances par rapport aux indicateurs de performance clés définis, de découvrir des informations sur ce qui fonctionne et d’identifier les zones à optimiser. En mesurant l’impact en temps réel, vous pouvez stimuler l’amélioration continue et prendre des décisions informées qui augmentent l’engagement des clients.
 
 ## Prérequis {#prerequisites}
 
-Avant d’utiliser votre mesure de parcours, vous devez ajouter un jeu de données qui inclut les [groupes de champs](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=fr#field-group){target="_blank"} `Commerce Details`, `Web` et `Mobile`.
+Avant d’utiliser vos mesures de parcours, vous devez ajouter un jeu de données qui inclut les groupes de champs `Commerce Details`, `Web` et `Mobile` [champs](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=fr#field-group){target="_blank"}.
 
 ## Mesures disponibles {#metrics}
 
@@ -70,9 +69,9 @@ Chaque mesure est fournie avec une attribution définie qui détermine les point
 
   En savoir plus sur les [modèles d’attribution](https://experienceleague.adobe.com/fr/docs/analytics-platform/using/cja-dataviews/component-settings/attribution#attribution-models)
 
-## Attribuer une mesure de parcours {#assign}
+## Attribution de mesures de parcours {#assign}
 
-Pour commencer à effectuer le suivi de votre mesure de parcours, procédez comme suit :
+Pour commencer à effectuer le suivi de vos mesures de parcours, procédez comme suit :
 
 1. Dans le menu **[!UICONTROL Parcours]**, cliquez sur **[!UICONTROL Créer un parcours]**.
 
@@ -90,8 +89,8 @@ Pour commencer à effectuer le suivi de votre mesure de parcours, procédez comm
 
 1. Testez et publiez le parcours.
 
-1. Ouvrez votre rapport de parcours pour suivre les performances de la mesure de succès attribuée.
+1. Ouvrez votre rapport de parcours pour suivre les performances des mesures de succès qui vous ont été affectées.
 
-   La mesure que vous avez choisie s’affiche dans les KPI du rapport et le tableau des statistiques du parcours.
+   Les mesures sélectionnées s’affichent dans les KPI du rapport et dans le tableau Statistiques du Parcours .
 
    ![](assets/success_metric_2.png)

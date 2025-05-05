@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: parcours, configuration, propriétés
 exl-id: 6c21371c-6cbc-4d39-8fe6-39f1b8b13280
-source-git-commit: 0f3191a3d7c5c78e1d8fac2e587e26522f02f8f5
+source-git-commit: 3cbda018a1380e13ba3670563240238367517353
 workflow-type: tm+mt
-source-wordcount: '2344'
-ht-degree: 96%
+source-wordcount: '2395'
+ht-degree: 84%
 
 ---
 
@@ -27,17 +27,20 @@ ht-degree: 96%
 
 Les propriétés d’un parcours sont centralisées dans le rail de droite. Cette section est affichée par défaut lors de la création d’un parcours. Pour les parcours existants, cliquez sur l’icône en forme de crayon à côté du nom du parcours pour l’ouvrir.
 
-Depuis cette section, vous pouvez définir le nom du parcours, ajouter une description et :
+Dans cette section, définissez le nom du parcours, ajoutez une description et définissez les propriétés globales du parcours.
 
-* gérer [l’entrée et la rentrée](#entrance),
-* choisir les [dates](#dates) de début et de fin,
-* gérer [l’accès aux données](#manage-access),
-* définir une [durée de temporisation](#timeout) dans les activités de parcours (pour les personnes chargées de l’administration uniquement),
-* sélectionner les [fuseaux horaires](#timezone) des parcours et des profils,
-* attribuer des balises unifiées Adobe Experience Platform à votre parcours afin de les classer facilement et d’améliorer la recherche dans la liste des campagnes. [Découvrir comment utiliser les balises](../start/search-filter-categorize.md#tags)
-* Surveillez les conflits et gérez la priorité de vos parcours à l’aide des [outils de gestion des conflits](#conflict).
+Vous pouvez effectuer les actions suivantes :
 
-![](assets/journey32.png)
+* Attribuez des balises unifiées Adobe Experience Platform à votre parcours pour les classer facilement et améliorer la recherche dans la liste des campagnes. [Découvrir comment utiliser les balises](../start/search-filter-categorize.md#tags)
+* Sélectionnez vos mesures de parcours. [Découvrez comment configurer et suivre vos mesures de parcours ](success-metrics.md)
+* Gérer [entrée et reprise](#entrance). La gestion des entrées de profil dépend du type de parcours. Pour plus d’informations, consultez [cette page](entry-management.md)
+* Gérer [accès aux données](#manage-access)
+* Sélectionnez le parcours et le profil [fuseaux horaires](#timezone)
+* Choisissez des [dates de début et de fin](#dates) personnalisées
+* Définir un [délai de temporisation](#timeout) dans les activités de parcours (pour les utilisateurs administrateurs uniquement)
+* Surveillez les conflits et hiérarchisez vos parcours à l’aide d’[ outils de gestion des conflits ](#conflict)
+
+![](assets/new-journey-properties.png){width="80%"}{zoomable="yes"}
 
 >[!NOTE]
 >
@@ -75,46 +78,46 @@ Lorsque l’option **Autoriser une rentrée** est activée, le champ **Période 
 
 ## Gérer l’accès {#manage-access}
 
-Pour attribuer des libellés d’utilisation des données personnalisés ou de base au parcours, cliquez sur le bouton **[!UICONTROL Gérer l’accès]**. [En savoir plus sur le contrôle d’accès au niveau de l’objet (OLAC)](../administration/object-based-access.md)
+Vous pouvez restreindre l’accès à un parcours en fonction des libellés d’accès.
 
-![](assets/journeys-manage-access.png)
+Pour attribuer des libellés d’utilisation des données personnalisés au parcours, cliquez sur l’icône **[!UICONTROL Gérer les libellés d’accès]** et sélectionnez un ou plusieurs libellés.
+
+[En savoir plus sur le contrôle d’accès au niveau de l’objet (OLAC)](../administration/object-based-access.md)
 
 ## Fuseaux horaires des parcours et des profils {#timezone}
 
 Le fuseau horaire est défini au niveau du parcours. Vous pouvez entrer un fuseau horaire fixe ou utiliser les profils Adobe Experience Platform pour définir le fuseau horaire du parcours. Si un fuseau horaire est défini dans le profil Adobe Experience Platform, il peut être récupéré dans le parcours.
 
-Pour plus d&#39;informations sur la gestion des fuseaux horaires, voir [cette page](../building-journeys/timezone-management.md).
+[En savoir plus sur la gestion des fuseaux horaires](../building-journeys/timezone-management.md)
 
 ## Dates de début et de fin {#dates}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_properties_start_date"
 >title="Date de début"
->abstract="Sélectionnez la date à laquelle l’entrée dans le parcours peut commencer. Si aucune date de début n’est spécifiée, elle est automatiquement définie au moment de la publication."
-
+>abstract="Sélectionnez la date à laquelle les profils peuvent commencer à entrer dans le parcours. Si aucune date de début n’est définie, elle correspond par défaut à la date de publication du parcours."
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_properties_end_date"
 >title="Date de fin"
->abstract="Sélectionnez la date de fin de votre parcours. Une fois cette date atteinte, les profils de ce parcours le quittent automatiquement et les nouveaux ne peuvent plus y entrer."
+>abstract="Définissez la date de fin du parcours. À cette date, les profils actifs quitteront automatiquement le parcours et aucune nouvelle entrée ne sera autorisée."
 
-Vous pouvez définir une **date de début**. Si vous n’en avez pas spécifié une, elle sera automatiquement définie au moment de la publication.
+Par défaut, les profils peuvent entrer dans votre parcours dès qu’il est publié et peuvent y rester jusqu’à ce que la [temporisation globale du parcours ](#global_timeout) soit atteinte. La seule exception concerne les parcours de lecture d’audience récurrents avec l’option **Forcer une rentrée sur la périodicité** activée, qui se termine à la date de début de l’occurrence suivante.
 
-Vous pouvez également ajouter une **date de fin**. Cela permet aux profils de se fermer automatiquement lorsque la date est atteinte. Si aucune date de fin n’est spécifiée, les profils peuvent rester jusqu’à la [temporisation globale du parcours](#global_timeout) (ce qui correspond généralement à 91 jours). La seule exception concerne les parcours de lecture d’audience récurrents avec l’option **Forcer une rentrée sur la périodicité** activée, qui se termine à la date de début de l’occurrence suivante.
+Si nécessaire, vous pouvez définir des **Date de début** et **Date de fin** personnalisées. Cela permet aux profils d’entrer dans votre parcours à une date spécifique et de le quitter automatiquement lorsque la date de fin est atteinte.
 
 ## Temporisation {#timeout}
 
-### Temporisation ou erreur dans les activités du parcours {#timeout_and_error}
+### Timeout dans les activités de parcours {#timeout_and_error}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_properties_timeout"
->title="Temporisation"
->abstract="Définissez la durée pendant laquelle le parcours tentera d’exécuter une action ou de vérifier une condition avant de considérer que le délai a expiré."
-
+>title="Temporisation ou erreur"
+>abstract="Indiquez la durée pendant laquelle le parcours doit tenter d’effectuer une action ou d’évaluer une condition avant de la traiter comme ayant expiré. Les valeurs recommandées sont comprises entre 1 et 30 secondes."
 
 Lorsque vous modifiez une action ou une activité de condition, vous pouvez définir un autre chemin en cas d’erreur ou de temporisation. Si la durée de traitement de l’activité qui interroge un système tiers dépasse la durée de temporisation définie dans le champ **[!UICONTROL Temporisation ou erreur]** des propriétés du parcours, le deuxième chemin d’accès est choisi pour effectuer une éventuelle action de remplacement.
 
-Les valeurs autorisées sont comprises entre 1 et 30 secondes.
+Les valeurs recommandées sont comprises entre 1 et 30 secondes.
 
 Nous vous recommandons de définir une valeur très basse pour **[!UICONTROL Temporisation ou erreur]** si votre parcours est sensible au temps (c’est le cas, par exemple, lorsqu’il convient de réagir à l’emplacement d’une personne en temps réel), car l’action ne peut pas être différée de plus de quelques secondes. Si le facteur temps revêt une importance moindre, vous pouvez définir un délai plus long afin d’accorder davantage de temps au système appelé pour envoyer une réponse valide.
 
