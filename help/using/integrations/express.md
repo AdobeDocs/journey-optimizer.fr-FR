@@ -45,12 +45,12 @@ Avec une licence Enterprise, les utilisateurs bénéficient d’un accès comple
 
 +++Cas d’utilisation disponibles pour les utilisateurs disposant d’une licence Enterprise pour Adobe Express
 
-* [Supprimer l’arrière-plan](https://helpx.adobe.com/express/create-and-edit-images/edit-images/remove-background.html)
-* [Supprimer des objets](https://helpx.adobe.com/express/create-and-edit-images/create-and-modify-with-generative-ai/remove-objects-generative-fill.html)
-* [Supprimer](https://helpx.adobe.com/express/create-and-edit-images/edit-images/eraser.html)
-* [Insérer un objet](https://helpx.adobe.com/express/adobe-express-on-mobile/create-and-edit-designs/generative-fill-mobile.html)
-* [Recadrer](https://helpx.adobe.com/express/create-and-edit-images/edit-images/crop-and-shape-images.html)
-* [ Effets ](https://helpx.adobe.com/express/add-effects-to-your-designs/add-images-and-visuals/apply-image-filters.html)
+* [Supprimer l’arrière-plan](https://helpx.adobe.com/fr/express/create-and-edit-images/edit-images/remove-background.html)
+* [Supprimer des objets](https://helpx.adobe.com/fr/express/create-and-edit-images/create-and-modify-with-generative-ai/remove-objects-generative-fill.html)
+* [Supprimer](https://helpx.adobe.com/fr/express/create-and-edit-images/edit-images/eraser.html)
+* [Insérer un objet](https://helpx.adobe.com/fr/express/adobe-express-on-mobile/create-and-edit-designs/generative-fill-mobile.html)
+* [Recadrer](https://helpx.adobe.com/fr/express/create-and-edit-images/edit-images/crop-and-shape-images.html)
+* [ Effets ](https://helpx.adobe.com/fr/express/add-effects-to-your-designs/add-images-and-visuals/apply-image-filters.html)
 
 +++
 
