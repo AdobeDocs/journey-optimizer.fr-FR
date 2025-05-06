@@ -6,7 +6,7 @@ feature: Release Notes
 topic: Content Management
 description: Notes de mise à jour d’Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 55717a2063a61c3eda62d0e09a0c67656c3e3bb1
+source-git-commit: 5873d3dfde3ff7e7e2ac94c7d9b62aa1245c707b
 workflow-type: tm+mt
 source-wordcount: '929'
 ht-degree: 48%
@@ -226,6 +226,7 @@ Les nouvelles fonctionnalités de cette version sont répertoriées ci-dessous.
 <td>
 <p>La fonction Score d’alignement de la marque offre des commentaires clairs directement dans le concepteur d’e-mail, ce qui vous permet de voir si votre contenu correspond au ton, au style et aux directives de votre marque. Cette fonctionnalité est disponible dans Beta.</p>
 <p>Pour plus d’informations, consultez la <a href="../content-management/brands-score.md">documentation détaillée</a>.</p>
+<img src="assets/do-not-localize/brand-score.gif">
 </td>
 </tr>
 </tbody>
