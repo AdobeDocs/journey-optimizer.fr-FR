@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Notes de mise à jour d’Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 5287b117a4fdba9912eb2bc7a1a2bfedcbda0b51
+source-git-commit: 07b1ccfc0dec2a44db7607b294ab10b41e963658
 workflow-type: tm+mt
-source-wordcount: '977'
-ht-degree: 47%
+source-wordcount: '928'
+ht-degree: 49%
 
 ---
 
@@ -58,21 +58,21 @@ Les nouvelles fonctionnalités de cette version sont répertoriées ci-dessous.
 </tbody>
 </table>
 
-<table>
+<!--table>
 <thead>
 <tr>
-<th><strong>Intégration d’Adobe Experience Manager as a Cloud Service</strong><br/></th>
+<th><strong>Adobe Experience Manager as a Cloud Service integration</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>L’intégration entre Adobe Journey Optimizer et Adobe Experience Manager as a Cloud Service est désormais disponible en disponibilité générale (GA). Cette intégration permet un approvisionnement et une gestion transparents du contenu pour des parcours clients personnalisés.</p>
-<p>Pour plus d’informations, consultez la <a href="../integrations/aem-templates.md">documentation détaillée</a>.</p>
+<p>The integration between Adobe Journey Optimizer and Adobe Experience Manager as a Cloud Service is now released in General Availability (GA). This integration enables seamless content sourcing and management for personalized customer journeys.</p>
+<p>For more information, refer to the <a href="../integrations/aem-templates.md">detailed documentation</a>.</p>
 </td>
 </tr>
 </tbody>
-</table>
+</table-->
 
 <!--<table>
 <thead>
