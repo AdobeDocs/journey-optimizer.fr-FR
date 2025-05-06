@@ -10,10 +10,10 @@ level: Intermediate
 mini-toc-levels: 1
 keywords: expression, éditeur, à propos, commencer
 exl-id: 1ac2a376-a3a8-41ae-9b04-37886697f0fc
-source-git-commit: 6ffa9d9125f941febbc894e75dcb1a202e1e9cc0
+source-git-commit: 192542cf938c583093638c71a3d8728bbaf238b2
 workflow-type: tm+mt
-source-wordcount: '1458'
-ht-degree: 97%
+source-wordcount: '1510'
+ht-degree: 93%
 
 ---
 
@@ -89,7 +89,7 @@ Lors de la création d’une configuration de canal e-mail, vous pouvez définir
 
 Le volet de navigation vous permet de sélectionner la source pour la personnalisation. Les sources disponibles sont les suivantes :
 
-* **[!UICONTROL Attributs de profil]** : répertorie toutes les références associées au schéma de profil décrit dans la documentation du modèle de données Adobe Experience Platform (XDM) [&#128279;](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=fr){target="_blank"}.
+* **[!UICONTROL Attributs de profil]** : répertorie toutes les références associées au schéma de profil décrit dans la documentation du modèle de données Adobe Experience Platform (XDM) [](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=fr){target="_blank"}.
 * **[!UICONTROL Audiences]** : répertorie toutes les audiences créées dans le service de segmentation d’Adobe Experience Platform. Vous trouverez [ici](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=fr){target="_blank"} plus d’informations sur la segmentation.
 * **[!UICONTROL Décisions d’offre]** : répertorie toutes les offres associées à un emplacement spécifique. Sélectionnez l’emplacement, puis insérez les offres dans votre contenu. Pour obtenir une documentation complète sur la gestion des offres, consultez [cette section](../offers/get-started/starting-offer-decisioning.md).
 * **[!UICONTROL Attributs contextuels]** : lorsqu’une activité d’action de canal (e-mail, notification push, SMS) est utilisée dans un parcours ou une campagne, des attributs contextuels liés aux événements et aux propriétés sont disponibles pour la personnalisation. Un exemple de personnalisation utilisant les attributs contextuels est présenté dans [cette section](personalization-use-case.md).
@@ -105,7 +105,7 @@ Le volet de navigation vous permet de sélectionner la source pour la personnali
 >title="Saisie semi-automatique"
 >abstract="Activer cette option permet au système de suggérer et de remplir automatiquement le code au fur et à mesure que vous le tapez. Cette fonctionnalité est disponible uniquement pour les formats HTML et Texte et prend en charge les attributs de profil et de contexte. Si vous désactivez cette option, l’éditeur fournit une saisie automatique du code HTML natif à la place."
 
-C’est dans l’espace de travail central que vous créez votre syntaxe de personnalisation. Pour utiliser un attribut afin de personnaliser votre message, localisez-le dans le volet des attributs, puis cliquez sur le bouton `+` pour l’ajouter à l’expression.
+C’est dans l’espace de travail central que vous créez votre syntaxe de personnalisation. Pour utiliser un attribut afin de personnaliser votre message, localisez-le dans le volet de navigation de gauche, puis cliquez sur le bouton `+` pour l’ajouter à l’expression.
 
 ![](assets/personalization-add-attribute.png)
 
@@ -123,7 +123,7 @@ Dans l’exemple suivant, l’éditeur de personnalisation vous permet de sélec
 
 ![](assets/perso_ee2.png)
 
-## Outils de modification d’expressions
+## Options d’édition d’expressions {#options}
 
 L’espace de travail central fournit divers outils pour vous aider à écrire votre expression de personnalisation.
 
@@ -146,6 +146,13 @@ Les options disponibles sont les suivantes :
    * **Activé** : adapte le retour à la ligne à la largeur de l’éditeur.
    * **Retour à la ligne en colonne** : renvoie à la ligne lorsqu’une ligne atteint 80 caractères.
    * **Limité** : le retour à ligne s’adapte à la largeur de l’éditeur ou a lieu quand la ligne atteint 80 caractères, selon la valeur la plus petite.
+1. **[!UICONTROL Pilules]** : affichez les attributs sous la forme de « pilules » compactes afin d’améliorer la lisibilité en masquant les chemins d’accès aux attributs longs. Cliquez sur un attribut pour afficher son chemin d’accès complet.
+
+   >[!NOTE]
+   >
+   >L’affichage des pilules sera progressivement déployé dans tous les environnements au cours des 30 prochains jours.
+   >
+   >Cette option est disponible uniquement pour les attributs de profil, les attributs contextuels et les médias dynamiques.
 
 Dans le volet de navigation, des fonctionnalités supplémentaires sont disponibles pour vous permettre de créer votre expression de personnalisation.
 
