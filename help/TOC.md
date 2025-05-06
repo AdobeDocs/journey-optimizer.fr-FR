@@ -5,9 +5,9 @@ user-guide-title: Guide de Journey Optimizer
 user-guide-description: Utilisez Journey Optimizer pour créer et proposer aux clients des expériences connectées, contextuelles et personnalisées
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 3cbda018a1380e13ba3670563240238367517353
+source-git-commit: c6553c3012b1be39d8ade96444e3c1b9ded63fa5
 workflow-type: tm+mt
-source-wordcount: '2364'
+source-wordcount: '2360'
 ht-degree: 88%
 
 ---
@@ -335,44 +335,20 @@ ht-degree: 88%
       + [Configuration du canal LINE dans Journey Optimizer](using/line/line-configuration.md)
       + [Créer un message LINE](using/line/create-line.md)
       + [Vérifier et envoyer vos messages LINE](using/line/send-line.md)
-+ Pages de destination {#landing-pages}
-   + [Prise en main des pages de destination](using/landing-pages/get-started-lp.md)
-   + [Créer une page de destination](using/landing-pages/create-lp.md)
-   + Concevoir du contenu {#landing-pages-design}
-      + [À propos de la conception d&#39;une page de destination](using/landing-pages/design-lp.md)
-      + [Création du contenu de la page de destination](using/landing-pages/lp-content.md)
-      + [Création de modèles](using/landing-pages/lp-templates.md)
-      + [Ajout d’un code JavaScript personnalisé](using/landing-pages/lp-custom-js.md)
-   + [Créer une liste dʼabonnements](using/landing-pages/subscription-list.md)
-   + [Apprendre avec des cas d’utilisation](using/landing-pages/lp-use-cases.md)
-   + Configuration des pages de destination {#lp-configuration}
++ Gestion de contenu {#content-management}
+   + Pages de destination {#landing-pages}
+      + [Prise en main des pages de destination](using/landing-pages/get-started-lp.md)
+      + [Créer une page de destination](using/landing-pages/create-lp.md)
+      + Concevoir du contenu {#landing-pages-design}
+         + [À propos de la conception d&#39;une page de destination](using/landing-pages/design-lp.md)
+         + [Création du contenu de la page de destination](using/landing-pages/lp-content.md)
+         + [Création de modèles](using/landing-pages/lp-templates.md)
+         + [Ajout d’un code JavaScript personnalisé](using/landing-pages/lp-custom-js.md)
+      + [Créer une liste dʼabonnements](using/landing-pages/subscription-list.md)
+      + [Apprendre avec des cas d’utilisation](using/landing-pages/lp-use-cases.md)
+      + Configuration des pages de destination {#lp-configuration}
       + [Configurer les sous-domaines des pages de destination](using/landing-pages/lp-subdomains.md)
       + [Définir les préréglages de page de destination](using/landing-pages/lp-presets.md)
-+ Gestion de contenu {#content-management}
-   + Assistant IA pour la génération de contenu{#ai-assistant}
-      + [Prise en main de l’assistant d’IA](using/content-management/gs-generative.md)
-      + [Génération d’e-mails avec l’IA](using/content-management/generative-email.md)
-      + [Génération de notifications push avec l’IA](using/content-management/generative-push.md)
-      + [Génération de SMS avec l’IA](using/content-management/generative-sms.md)
-      + [Génération web avec l’IA](using/content-management/generative-web.md)
-      + [Expérience de contenu avec l’IA](using/content-management/generative-experimentation.md)
-      + [Page de destination avec I’lA](using/content-management/generative-lp.md)
-      + [Cas d’utilisation de l’Assistant IA](using/content-management/generative-uc.md)
-      + Marques (version bêta){#brands}
-         + [Créer et gérer vos marques](using/content-management/brands.md)
-         + [Évaluation du score d’alignement de votre marque](using/content-management/brands-score.md)
-   + Utiliser du contenu multilingue{#content-multilingual}
-      + [Commencer avec le contenu multilingue](using/content-management/multilingual-gs.md)
-      + [Créer un paramètre régional](using/content-management/multilingual-locale.md)
-      + [Créer un fournisseur de langue](using/content-management/multilingual-provider.md)
-      + [Créer du contenu multilingue avec traduction manuelle](using/content-management/multilingual-manual.md)
-      + [Créer du contenu multilingue avec traduction automatisée](using/content-management/multilingual-automated.md)
-   + Utiliser l’expérience de contenu {#content-experiment}
-      + [Prise en main de l’expérience de contenu](using/content-management/get-started-experiment.md)
-      + [Créer une expérience de contenu](using/content-management/content-experiment.md)
-      + Notes techniques {#technotes}
-         + [Présentation des calculs statistiques](using/content-management/experiment-calculations.md)
-         + [Comprendre les calculs statistiques dans le rapport d’expérience](using/content-management/experiment-report-calculations.md)
    + Personnalisation {#personalization}
       + [Prise en main de la personnalisation](using/personalization/personalize.md)
       + [Ajouter une personnalisation](using/personalization/personalization-build-expressions.md)
@@ -412,6 +388,30 @@ ht-degree: 88%
       + [Commencer avec le contenu dynamique](using/personalization/get-started-dynamic-content.md)
       + [Créer des règles conditionnelles](using/personalization/create-conditions.md)
       + [Créer du contenu dynamique](using/personalization/dynamic-content.md)
+   + Assistant IA pour la génération de contenu{#ai-assistant}
+      + [Prise en main de l’assistant d’IA](using/content-management/gs-generative.md)
+      + [Génération d’e-mails avec l’IA](using/content-management/generative-email.md)
+      + [Génération de notifications push avec l’IA](using/content-management/generative-push.md)
+      + [Génération de SMS avec l’IA](using/content-management/generative-sms.md)
+      + [Génération web avec l’IA](using/content-management/generative-web.md)
+      + [Expérience de contenu avec l’IA](using/content-management/generative-experimentation.md)
+      + [Page de destination avec I’lA](using/content-management/generative-lp.md)
+      + [Cas d’utilisation de l’Assistant IA](using/content-management/generative-uc.md)
+      + Marques (version bêta){#brands}
+         + [Créer et gérer vos marques](using/content-management/brands.md)
+         + [Évaluation du score d’alignement de votre marque](using/content-management/brands-score.md)
+   + Contenu multilingue{#content-multilingual}
+      + [Commencer avec le contenu multilingue](using/content-management/multilingual-gs.md)
+      + [Créer un paramètre régional](using/content-management/multilingual-locale.md)
+      + [Créer un fournisseur de langue](using/content-management/multilingual-provider.md)
+      + [Créer du contenu multilingue avec traduction manuelle](using/content-management/multilingual-manual.md)
+      + [Créer du contenu multilingue avec traduction automatisée](using/content-management/multilingual-automated.md)
+   + Expérience de contenu {#content-experiment}
+      + [Prise en main de l’expérience de contenu](using/content-management/get-started-experiment.md)
+      + [Créer une expérience de contenu](using/content-management/content-experiment.md)
+      + Notes techniques {#technotes}
+         + [Présentation des calculs statistiques](using/content-management/experiment-calculations.md)
+         + [Comprendre les calculs statistiques dans le rapport d’expérience](using/content-management/experiment-report-calculations.md)
 + Audiences, profils et identité{#audiences-profiles-identities}
    + Audiences {#audiences}
       + [Commencer avec les audiences](using/audience/about-audiences.md)
