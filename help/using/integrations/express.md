@@ -9,10 +9,10 @@ role: User
 level: Beginner
 keywords: ressources, intégration
 exl-id: c74156bb-4f00-4325-b416-6fe36cb755d1
-source-git-commit: 0f3191a3d7c5c78e1d8fac2e587e26522f02f8f5
+source-git-commit: f2c072cd410afac79604cfad532fbd75591b34fa
 workflow-type: tm+mt
-source-wordcount: '442'
-ht-degree: 8%
+source-wordcount: '517'
+ht-degree: 7%
 
 ---
 
@@ -34,6 +34,25 @@ Pour en savoir plus sur Adobe Express, consultez [cette documentation](https://h
 Pour accéder au menu **[!DNL Adobe Express]**, accédez à votre **Paramètres d’image** à partir du Concepteur d’e-mail et cliquez sur **[!UICONTROL Modifier dans Adobe Express]**.
 
 ![](assets/express_1.png)
+
+## Licence Adobe Express Enterprise {#licence}
+
+Les fonctionnalités présentées dans les sections ci-dessous sont accessibles aux utilisateurs ne disposant pas d’une licence Adobe Express Enterprise.
+
+Avec une licence Enterprise, les utilisateurs bénéficient d’un accès complet à l’éditeur Adobe Express, ce qui leur permet de modifier les images en ajustant la couleur, la luminosité, la netteté, le contraste, les dimensions et des paramètres supplémentaires.
+
+![](assets/express-licence.png)
+
++++Cas d’utilisation disponibles pour les utilisateurs disposant d’une licence Enterprise pour Adobe Express
+
+* [Supprimer l’arrière-plan](https://helpx.adobe.com/express/create-and-edit-images/edit-images/remove-background.html)
+* [Supprimer des objets](https://helpx.adobe.com/express/create-and-edit-images/create-and-modify-with-generative-ai/remove-objects-generative-fill.html)
+* [Supprimer](https://helpx.adobe.com/express/create-and-edit-images/edit-images/eraser.html)
+* [Insérer un objet](https://helpx.adobe.com/express/adobe-express-on-mobile/create-and-edit-designs/generative-fill-mobile.html)
+* [Recadrer](https://helpx.adobe.com/express/create-and-edit-images/edit-images/crop-and-shape-images.html)
+* [ Effets ](https://helpx.adobe.com/express/add-effects-to-your-designs/add-images-and-visuals/apply-image-filters.html)
+
++++
 
 ## Redimensionner l’image {#resize}
 
