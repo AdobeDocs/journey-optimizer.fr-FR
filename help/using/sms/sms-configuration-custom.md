@@ -10,8 +10,8 @@ level: Intermediate
 exl-id: fd713864-96b9-4687-91bd-84e3533273ff
 source-git-commit: fc78fcfb0f2ce3616cb8b1df44dda2cfd66262fe
 workflow-type: tm+mt
-source-wordcount: '738'
-ht-degree: 34%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -162,4 +162,4 @@ Une fois vos informations d’identification d’API créées, renseignez les ch
 
 ## Vidéo pratique {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/3443608?captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/3431625)
