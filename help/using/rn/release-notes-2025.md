@@ -11,7 +11,7 @@ exl-id: aa8c74de-748b-4947-a972-14703f6ab4a7
 source-git-commit: 0f3191a3d7c5c78e1d8fac2e587e26522f02f8f5
 workflow-type: tm+mt
 source-wordcount: '1237'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -188,7 +188,7 @@ Pour plus d’informations, consultez la [documentation détaillée](../test-app
 
 **Règles métier**
 
-Vous pouvez désormais utiliser le capping de la fréquence quotidienne dans les parcours et les campagnes avec la segmentation par lots. Pour garantir la précision des règles de capping de la fréquence quotidienne, veillez à choisir l’espace de noms de priorité la plus élevée lors de la création d’une campagne ou d’un parcours. Pour en savoir plus sur la priorité des espaces de noms, consultez le guide [ Platform Identity Service ](https://experienceleague.adobe.com/fr/docs/experience-platform/identity/features/identity-graph-linking-rules/namespace-priority){target="_blank"}
+Vous pouvez désormais utiliser le capping de la fréquence quotidienne dans les parcours et les campagnes avec la segmentation par lots. Pour garantir la précision des règles de capping de la fréquence quotidienne, veillez à choisir l’espace de noms de priorité la plus élevée lors de la création d’une campagne ou d’un parcours. Pour en savoir plus sur la priorité des espaces de noms, consulter le [guide sur le service d’identités de Platform](https://experienceleague.adobe.com/fr/docs/experience-platform/identity/features/identity-graph-linking-rules/namespace-priority){target="_blank"}
 
 Pour rappel, le capping de la fréquence quotidienne dans les jeux de règles n’est disponible que pour un ensemble d’organisations (disponibilité limitée). Pour en bénéficier, contactez votre représentant ou représentante Adobe.
 
@@ -196,7 +196,7 @@ Pour plus d’informations sur les règles métier, consultez la [documentation 
 
 **Modèles de contenu**
 
-Les modèles de contenu de type HTML sont désormais obsolètes. Notez que vous pouvez toujours utiliser les modèles de contenu HTML existants, précédemment créés dans [!DNL Journey Optimizer]. [En savoir plus sur les modèles de contenu](../content-management/content-templates.md)
+Les modèles de contenu de type HTML sont désormais obsolètes. Notez que vous pouvez toujours utiliser les modèles de contenu HTML que vous avez créés antérieurement dans [!DNL Journey Optimizer]. [En savoir plus sur les modèles de contenu](../content-management/content-templates.md)
 
 
 <!--**Deliverability**
@@ -237,13 +237,13 @@ Les nouvelles fonctionnalités de cette version sont présentées ci-dessous.
 <table>
 <thead>
 <tr>
-<th><strong>Générer des pages de destination avec l’assistant AI</strong><br/></th>
+<th><strong>Générer des pages de destination avec l’assistant IA</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Grâce à l’assistant d’IA, vous pouvez désormais concevoir du contenu attrayant pour vos pages de destination, notamment des conceptions de pages complètes, du texte personnalisé et des visuels personnalisés.</p>
+<p>Grâce à l’assistant IA, vous pouvez désormais concevoir du contenu attrayant pour vos pages de destination, notamment des conceptions de pages complètes, du texte personnalisé et des visuels personnalisés.</p>
 <img src="assets/do-not-localize/ai-lp.gif">
 <p>Pour plus d’informations, consultez la <a href="../content-management/generative-lp.md">documentation détaillée</a>.</p>
 </td>
@@ -255,7 +255,7 @@ Les nouvelles fonctionnalités de cette version sont présentées ci-dessous.
 <table>
 <thead>
 <tr>
-<th><strong>Marques avec assistant AI (Beta)</strong><br/></th>
+<th><strong>Marques avec l’assistant IA (version bêta)</strong><br/></th>
 </tr>
 </thead>
 <tbody>
