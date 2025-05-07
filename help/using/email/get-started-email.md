@@ -10,9 +10,9 @@ level: Beginner
 keywords: e-mail, commencer, création, prévisualisation
 exl-id: 621c4256-449d-4376-96cd-02cbdcd4de05
 source-git-commit: f670eddab41c2317d2dbe76ad7aea5a77bb87f2a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '190'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
@@ -78,7 +78,7 @@ Les diffusions d’e-mails peuvent être créées :
 <a href="../content-management/generative-email.md">
 <img alt="Assistant IA" src="../assets/do-not-localize/email-generate.jpg">
 </a>
-<div><a href="../content-management/generative-email.md"><strong>Assistant AI pour la génération de contenu</strong>
+<div><a href="../content-management/generative-email.md"><strong>Assistant IA pour la génération de contenu</strong>
 </div>
 <p>
 </td>
@@ -95,7 +95,7 @@ Les diffusions d’e-mails peuvent être créées :
 <img alt="Personnaliser votre contenu" src="../assets/do-not-localize/personalize.jpg">
 </a>
 <div>
-<a href="../personalization/personalize.md"><strong>Personnaliser le contenu de votre e-mail</strong></a>
+<a href="../personalization/personalize.md"><strong>Personnaliser le contenu de vos e-mails</strong></a>
 </div>
 <p>
 </td>

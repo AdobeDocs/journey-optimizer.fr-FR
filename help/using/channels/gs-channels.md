@@ -1,33 +1,33 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Prise en main des canaux de communication dans  [!DNL Adobe Journey Optimizer]
-description: Découvrez comment utiliser les canaux  [!DNL Adobe Journey Optimizer]  communication.
+title: Commencer avec les canaux de communication dans  [!DNL Adobe Journey Optimizer]
+description: Découvrez comment utiliser les canaux de communication  [!DNL Adobe Journey Optimizer] .
 role: User
 level: Beginner
 exl-id: 5779bcee-49c0-4ffa-9b17-329ef458c96a
 source-git-commit: bebc2ac362603f56b3c386ec972f274f87fa662f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '406'
-ht-degree: 5%
+ht-degree: 100%
 
 ---
 
-# Prise en main des canaux de communication [!DNL Adobe Journey Optimizer] {#get-started-email}
+# Commencer avec les canaux de communication [!DNL Adobe Journey Optimizer] {#get-started-email}
 
-Dans le paysage marketing dynamique d’aujourd’hui, il est essentiel d’atteindre efficacement votre audience sur différentes plateformes pour établir des relations durables et stimuler l’engagement. Cette section présente une vue d’ensemble complète des canaux de communication disponibles dans [!DNL Adobe Journey Optimizer], ce qui vous aide à comprendre comment utiliser efficacement chaque canal dans vos stratégies marketing.
+Dans le paysage marketing dynamique actuel, il est essentiel d’atteindre efficacement votre audience sur différentes plateformes pour établir des relations durables et stimuler l’engagement. Cette section présente les différents canaux de communication disponibles dans [!DNL Adobe Journey Optimizer] pour vous aider à comprendre comment utiliser efficacement chaque canal dans vos stratégies marketing.
 
 
-Adobe Journey Optimizer offre divers canaux de communication pour interagir efficacement avec votre audience. Vous pouvez combiner les canaux sortants et entrants.
+Adobe Journey Optimizer offre divers canaux de communication pour interagir efficacement avec votre audience. Vous pouvez combiner les canaux sortants et entrants.
 
-## Canaux sortant {#outbound-channels}
+## Canaux sortants {#outbound-channels}
 
-Il s’agit d’envoyer des messages aux clients sans interaction préalable. Il s’agit par exemple de campagnes par e-mail et de notifications push, où vous atteignez votre audience de manière proactive. Dans [!DNL Adobe Journey Optimizer], les canaux sortants pris en charge sont les suivants :
+Vous envoyez des messages aux clientes et clients sans interaction préalable. Il s’agit par exemple de campagnes par e-mail et de notifications push, via lesquelles vous atteignez votre audience de manière proactive. Dans [!DNL Adobe Journey Optimizer], les canaux sortants pris en charge sont les suivants :
 
-* **E-mail** : envoyez des messages personnalisés directement dans les boîtes de réception de vos clients.
-* **SMS/MMS** : envoyez des messages texte pour atteindre les utilisateurs sur leurs appareils mobiles.
-* **Notification push** : permet d’interagir avec les utilisateurs et utilisatrices grâce à des notifications instantanées sur leurs appareils, entraînant une action immédiate.
-* **Publipostage direct** : utilisez le publipostage physique pour créer un lien tangible avec votre audience.
+* **E-mail** : envoyez des messages personnalisés directement dans les boîtes de réception de vos clientes et clients.
+* **SMS/MMS** : envoyez des messages texte pour atteindre les utilisateurs et les utilisatrices sur leurs appareils mobiles.
+* **Notification push** : interagissez avec les utilisateurs et utilisatrices grâce à des notifications instantanées sur leurs appareils, entraînant une action immédiate.
+* **Courrier** : utilisez le courrier pour créer un lien tangible avec votre audience.
 
 Sélectionnez un canal pour approfondir vos connaissances et découvrir comment les exploiter efficacement dans votre stratégie marketing.
 
@@ -42,14 +42,14 @@ Sélectionnez un canal pour approfondir vos connaissances et découvrir comment 
 <div align="center"><a href="../direct-mail/get-started-direct-mail.md"><strong>Courrier</strong></a></div></td>
 </tr></table>
 
-## Canaux entrant {#inbound-channels}
+## Canaux entrants {#inbound-channels}
 
-Ces canaux permettent aux clients d’initier des interactions. Il s’agit par exemple de la messagerie in-app et des interactions web, où les utilisateurs et utilisatrices peuvent interagir avec le contenu selon leurs propres conditions. Dans [!DNL Adobe Journey Optimizer], les canaux entrants pris en charge sont les suivants :
+Ces canaux permettent aux clientes et clients d’initier des interactions. Il s’agit par exemple de la messagerie in-app et des interactions web, où les utilisateurs et utilisatrices peuvent interagir avec le contenu selon leurs propres conditions. Dans [!DNL Adobe Journey Optimizer], les canaux entrants pris en charge sont les suivants :
 
-* **In-app** : communiquez avec les utilisateurs et utilisatrices de vos applications mobiles ou web pour améliorer leur expérience.
-* **Web** : utilisez la messagerie web pour interagir avec les utilisateurs qui parcourent votre site.
-* **Expérience basée sur le code** : mettez en œuvre des expériences personnalisées par le biais du codage pour des opportunités d’engagement uniques.
-* **Cartes de contenu** : partagez du contenu dynamique directement dans vos applications ou sites web pour tenir les utilisateurs informés et engagés.
+* **In-app** : communiquez avec les utilisateurs et utilisatrices de vos applications mobiles ou web pour améliorer leur expérience.
+* **Web** : utilisez la messagerie web pour interagir avec les utilisateurs et utilisatrices qui naviguent sur votre site.
+* **Expérience basée sur du code** : mettez en œuvre des expériences personnalisées par le biais du codage pour des opportunités d’engagement uniques.
+* **Cartes de contenu** : partagez du contenu dynamique directement dans vos applications ou sites web pour informer les utilisateurs et les utilisatrices et stimuler l’engagement.
 
 Sélectionnez un canal pour approfondir vos connaissances et découvrir comment les exploiter efficacement dans votre stratégie marketing.
 
@@ -67,9 +67,9 @@ Sélectionnez un canal pour approfondir vos connaissances et découvrir comment 
 
 ## Utilisation des canaux dans les parcours et les campagnes {#leverage}
 
-Dans Adobe Journey Optimizer, vous pouvez utiliser les canaux de communication dans deux contextes principaux :
+Dans Adobe Journey Optimizer, vous pouvez utiliser les canaux de communication dans deux contextes principaux :
 
-* **Parcours** : créez des expériences client transparentes sur plusieurs points de contact. Automatisez les interactions en fonction du comportement et des préférences des utilisateurs et utilisatrices, en assurant des communications opportunes et pertinentes qui guident les utilisateurs et utilisatrices tout au long de leur parcours avec votre marque. [Découvrez comment créer et exécuter un parcours ](../building-journeys/journey-gs.md).
+* **Parcours** : créez des expériences clientèle transparentes sur plusieurs points de contact. Automatisez les interactions en fonction du comportement et des préférences des utilisateurs et des utilisatrices pour garantir des communications pertinentes envoyées au bon moment qui les guident tout au long de leur parcours avec votre marque. [Découvrez comment créer et exécuter un parcours](../building-journeys/journey-gs.md).
 
-* **Campagnes** : déployez des campagnes marketing spécifiques qui utilisent un canal donné pour atteindre les objectifs ciblés. Qu’il s’agisse de promouvoir un nouveau produit ou de stimuler les ventes saisonnières, les campagnes vous permettent de concevoir des stratégies de messagerie ciblées adaptées à votre audience. [Découvrez comment créer et exécuter une campagne](../campaigns/get-started-with-campaigns.md).
+* **Campagnes** : déployez des campagnes marketing spécifiques qui utilisent un canal donné pour atteindre des objectifs cibles. Qu’il s’agisse de promouvoir un nouveau produit ou de stimuler les ventes en période de soldes, les campagnes vous permettent de concevoir des stratégies d’envoi de messages ciblées et adaptées à votre audience. [Découvrez comment créer et exécuter une campagne](../campaigns/get-started-with-campaigns.md).
 
