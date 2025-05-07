@@ -162,4 +162,4 @@ Une fois vos informations d’identification d’API créées, renseignez les ch
 
 ## Vidéo pratique {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/3431625)
+>[!VIDEO](https://video.tv.adobe.com/v/3443608?captions=fre_fr)
