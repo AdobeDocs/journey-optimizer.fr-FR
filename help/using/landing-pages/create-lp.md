@@ -9,9 +9,9 @@ role: User
 level: Beginner
 keywords: destination, page de destination, création, publication
 exl-id: 18f9bdff-f5c6-4601-919d-4f3124e484b5
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
-workflow-type: ht
-source-wordcount: '1682'
+source-git-commit: 877a4d148966bf7d872f762ac78e5c725676a54f
+workflow-type: tm+mt
+source-wordcount: '1524'
 ht-degree: 100%
 
 ---
@@ -23,35 +23,6 @@ Pour rediriger vos clientes et clients vers une page web définie que vous souha
 Suivez les étapes principales de création de pages de destination décrites ci-après :
 
 ![](assets/lp-creation-process.png)
-
-## Accéder aux pages de destination {#access-landing-pages}
-
-Pour accéder à la liste des pages de destination, sélectionnez **[!UICONTROL Gestion du contenu]** > **[!UICONTROL Pages de destination]** dans le menu de gauche.
-
-![](assets/lp_access-list.png)
-
-La liste des **[!UICONTROL Pages de destination]** affiche toutes les pages de destination existantes. Vous pouvez les filtrer selon leur statut, leur date de modification ou leurs balises.
-
-![](assets/lp_access-list-filter.png)
-
-Depuis cette liste, vous pouvez également dupliquer, supprimer, dépublier une page de destination ou accéder aux rapports sur les pages de destination. Pour ce faire, cliquez sur les trois points à côté d’une page de destination et sélectionnez l’action souhaitée :
-
-![](assets/lp_access-list-actions.png)
-
-
-Vous pouvez effectuer les actions suivantes :
-
-* Accéder aux **rapports** suivants pour les pages de destination publiées : [rapport sur les pages de destination](../reports/lp-report-global-cja.md) et [rapport dynamique sur les dernières 24 heures](../reports/lp-report-live.md).
-
-* **Supprimer** ou **dupliquer** une page de destination. Vous ne pouvez pas supprimer une page de destination [publiée](#publish-landing-page). Avant de la supprimer, vous devez d’abord la **dépublier**.
-
-* **Dépublier** la page de destination.
-
-  >[!CAUTION]
-  >
-  >Si vous dépubliez une page de destination référencée dans un message, le lien vers celle-ci est rompu et les personnes qui tentent d’y accéder verront une page d’erreur.
-
-* Modifiez les [balises](../start/search-filter-categorize.md#tags) associées à une page de destination.
 
 ## Créer une page de destination {#create-landing-page}
 
