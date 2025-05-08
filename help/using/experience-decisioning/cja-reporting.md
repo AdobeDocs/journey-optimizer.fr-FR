@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Experienced
 exl-id: 7c45cd8a-8e86-4646-ba0a-db393e92d9da
-source-git-commit: 4c0605d6ccff5cd62ef7aeb04e0610342d7cc3d5
+source-git-commit: 4839c3c70dcc524da5f3cc394d5573ce5755ea64
 workflow-type: tm+mt
-source-wordcount: '219'
-ht-degree: 82%
+source-wordcount: '223'
+ht-degree: 57%
 
 ---
 
@@ -18,11 +18,19 @@ ht-degree: 82%
 
 ## Rapports de campagnes basées sur du code {#campaigns}
 
-Une fois les expériences basées sur du code activées, vous pouvez accéder à des rapports dédiés pour surveiller les KPI sous la forme d’un tableau de bord global qui vous fournit une analyse des mesures essentielles associées à votre campagne.
+Une fois les expériences basées sur du code actives, vous pouvez accéder à des rapports dédiés pour surveiller les indicateurs clés de performance (KPI) de prise de décision.
 
-Celui-ci inclut des détails liés aux performances des éléments de décision et la manière dont les utilisateurs et les utilisatrices ont interagi avec eux. [Découvrir comment utiliser les rapports sur l’expérience basée sur du code](../reports/campaign-global-report-cja-code.md)
+<!--Once code-based experiences are live, you can access dedicated reports to monitor Key Performance Indicators (KPIs) as an all-encompassing dashboard, delivering an analysis of essential metrics associated with your campaign.
+
+This encompasses details related to the decision items performances and how users interacted with them. [Learn how to work with Code-based experience reports](../reports/campaign-global-report-cja-code.md)-->
+
+![](../reports/assets/cja-decisioning-kpis.png)
+
+Vous pouvez également accéder à des détails relatifs aux performances des éléments de décision et à la manière dont les utilisateurs et utilisatrices ont interagi avec eux, fournissant une analyse des mesures essentielles associées à votre campagne.
 
 ![](../reports/assets/cja-decisioning-item-performance.png)
+
+Découvrez comment utiliser les rapports d’expérience basés sur du code pour la prise de décision dans [cette section](../reports/campaign-global-report-cja-code.md#decisioning-reporting).
 
 ## Rapports dans Customer Journey Analytics {#cja}
 

@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: d35a0e1c-2376-4cc5-88fc-5f8dfcfae666
-source-git-commit: 24cb77484172117f2308d2949588ee98fa8421dd
+source-git-commit: 4839c3c70dcc524da5f3cc394d5573ce5755ea64
 workflow-type: tm+mt
-source-wordcount: '852'
-ht-degree: 97%
+source-wordcount: '873'
+ht-degree: 95%
 
 ---
 
@@ -81,7 +81,9 @@ Le tableau **[!UICONTROL Libellés des liens de suivi]** fournit une vue d’ens
 
 +++
 
-## KPI de prise de décision {#decisioning-kpis}
+## Rapports de prise de décision {#decisioning-reporting}
+
+### KPI de prise de décision {#decisioning-kpis}
 
 ![](assets/cja-decisioning-kpis.png)
 
@@ -95,7 +97,7 @@ Les **KPI de prise de décision** fournissent des informations clés sur l’eng
 
 * **[!UICONTROL Taux d’instances de secours]** : pourcentage d’instances où aucune stratégie de sélection n’était applicable, ce qui a entraîné l’affichage d’une option générique ou moins spécifique.
 
-## Entonnoir d’engagement {#engagement-funnel}
+### Entonnoir d’engagement {#engagement-funnel}
 
 ![](assets/cja-engagement-funnel.png)
 
@@ -105,7 +107,7 @@ Le tableau **[!UICONTROL Entonnoir d’engagement]** surveille les performances 
 
 * **[!UICONTROL Clics]** : nombre total de fois où des utilisateurs et utilisatrices ont cliqué sur des expériences personnalisées qui leur ont été présentées.
 
-## Principaux éléments de décision par taux de clics {#top-decision}
+### Principaux éléments de décision par taux de clics {#top-decision}
 
 ![](assets/cja-top-decisions-ctr.png)
 
@@ -113,7 +115,7 @@ Le tableau **[!UICONTROL Principaux éléments de décision par taux de clics]**
 
 * **[!UICONTROL Taux de clics]** : pourcentage des utilisateurs et des utilisatrices qui cliquent sur un lien, une publicité ou une recommandation par rapport au nombre d’affichages de ces derniers.
 
-## Entonnoir d’engagement par stratégie de sélection {#engagement-funnel-selection}
+### Entonnoir d’engagement par stratégie de sélection {#engagement-funnel-selection}
 
 ![](assets/cja-engagement-funnel-selection.png)
 
@@ -123,7 +125,7 @@ Le tableau **[!UICONTROL Entonnoir d’engagement par stratégie de sélection]*
 
 * **[!UICONTROL Clics]** : nombre total de fois où des utilisateurs et utilisatrices ont cliqué sur des expériences personnalisées qui leur ont été présentées.
 
-## Performances des éléments de décision {#decision-items-performance}
+### Performances des éléments de décision {#decision-items-performance}
 
 ![](assets/cja-decisioning-item-performance.png)
 
@@ -133,7 +135,7 @@ Le tableau **[!UICONTROL Performances des éléments de décision]** évalue les
 
 * **[!UICONTROL Clics]** : nombre total de fois où des utilisateurs et utilisatrices ont cliqué sur des expériences personnalisées qui leur ont été présentées.
 
-## Stratégie de classement {#ranking-strategy}
+### Stratégie de classement {#ranking-strategy}
 
 >[!NOTE]
 >
@@ -155,7 +157,7 @@ Les mesures clés affichées sont les suivantes :
 
 * **[!UICONTROL Taux de conversion]** : pourcentage d’affichages qui ont généré des actions de l’utilisateur ou de l’utilisatrice (par exemple, des clics), indiquant la capacité du modèle à générer de l’engagement des utilisateurs et des utilisatrices.
 
-## Taux de conversion pour le trafic Exclusion et le trafic Piloté par modèle {#conversion-rate}
+### Taux de conversion pour le trafic Exclusion et le trafic Piloté par modèle {#conversion-rate}
 
 >[!NOTE]
 >
@@ -168,3 +170,7 @@ Le graphique **[!UICONTROL Taux de conversion pour le trafic Exclusion et le tra
 * **Piloté par modèle** : les utilisateurs et les utilisatrices reçoivent du contenu classé par le modèle d’IA, optimisé pour la pertinence et l’engagement.
 
 * **Exclusion** : les utilisateurs et utilisatrices reçoivent un contenu diffusé de manière aléatoire pendant la phase d’exploration du modèle.
+
+>[!CAUTION]
+>
+>Lors de l’utilisation d’un modèle d’IA intégré à une [ formule de classement ](../experience-decisioning/exd-ranking-formulas.md#create-ranking-formula), les données ne sont pas reflétées dans le rapport Taux de conversion.
