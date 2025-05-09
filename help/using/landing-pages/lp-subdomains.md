@@ -8,7 +8,7 @@ role: Admin
 level: Experienced
 keywords: destination, page de destination, sous-domaines, configuration
 exl-id: dd1af8dc-3920-46cb-ae4d-a8f4d4c26e89
-source-git-commit: 8e5a904f9310385f5a8186159dedde9942624268
+source-git-commit: 1aa2ac109cdbf0ba6af58204926f1cd5add334b0
 workflow-type: tm+mt
 source-wordcount: '972'
 ht-degree: 70%
@@ -26,13 +26,13 @@ ht-degree: 70%
 >id="ajo_admin_subdomain_lp"
 >title="Déléguer un sous-domaine de page de destination"
 >abstract="Vous devez configurer un sous-domaine à utiliser pour vos pages de destination, car vous aurez besoin de ce sous-domaine pour créer un préréglage de page de destination. Vous pouvez utiliser un sous-domaine déjà délégué à Adobe ou configurer un nouveau sous-domaine."
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/landing-pages/lp-configuration/lp-presets.html?lang=fr#lp-create-preset" text="Créer des préréglages de page de destination"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/content-management/landing-pages/lp-configuration/lp-presets.html#lp-create-preset" text="Créer des préréglages de page de destination"
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_config_lp_subdomain"
 >title="Créer un préréglage de la page de destination"
 >abstract="Pour pouvoir créer un préréglage de la page de destination, vérifiez que vous avez déjà configuré au moins un sous-domaine de la page de destination à sélectionner dans la liste Nom du sous-domaine."
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/landing-pages/lp-configuration/lp-presets.html?lang=fr#lp-create-preset" text="Créer des préréglages de page de destination"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/content-management/landing-pages/lp-configuration/lp-presets.html#lp-create-preset" text="Créer des préréglages de page de destination"
 
 ## Prise en main des sous-domaines de page de destination {#gs-lp-subdomains}
 
