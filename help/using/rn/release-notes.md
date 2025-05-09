@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Notes de mise à jour d’Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: f8c08461b82aea5680c3fa9631f5361b78daafe6
+source-git-commit: 942fa8e40768f7252702fbf9bc5fc23bdaff40ac
 workflow-type: tm+mt
-source-wordcount: '1015'
-ht-degree: 75%
+source-wordcount: '1022'
+ht-degree: 72%
 
 ---
 
@@ -24,18 +24,17 @@ ht-degree: 75%
 
 ## Mises à jour de mai 2025 {#25-5-rn}
 
+* **Dossiers pour les pages de destination** - Date de disponibilité : samedi 9 mai 2025
+
+  Pour gérer facilement vos pages de destination, vous pouvez désormais utiliser des dossiers pour les organiser plus efficacement dans une hiérarchie rationalisée.  [En savoir plus](../landing-pages/manage-lp.md)
+
 * **Decisioning - New AI Formula builder** - Date de disponibilité : 7 mai 2025
 
-  Vous pouvez désormais créer des formules de classement de prise de décision spécifiques en définissant et en combinant des critères à partir d’une nouvelle interface améliorée. Les formules de classement permettent de définir des règles qui déterminent les éléments de décision à présenter en premier, plutôt que de prendre en compte les scores de priorité.
+  Vous pouvez désormais créer des formules de classement de prise de décision spécifiques en définissant et en combinant des critères à partir d’une nouvelle interface améliorée. Au lieu de vous fier uniquement à une priorité d’offre statique, vous pouvez définir des formules de classement personnalisées qui combinent les scores du modèle d’IA, les priorités d’offre, les attributs de profil, les attributs d’offre et les signaux contextuels par le biais d’une interface guidée.
 
   Pour plus d’informations, consultez la [documentation détaillée](../experience-decisioning/exd-ranking-formulas.md)
 
   ![](assets/do-not-localize/formula-builder.gif)
-
-
-* **Dossiers pour les pages de destination** - Date de disponibilité : jeudi 7 mai 2025
-
-  Pour gérer facilement vos pages de destination, vous pouvez désormais également utiliser des dossiers pour les organiser plus efficacement dans une hiérarchie rationalisée.  [En savoir plus](../landing-pages/manage-lp.md)
 
 * **Activation des pilules pour la personnalisation** - Date de disponibilité : 5 mai 2025
 
