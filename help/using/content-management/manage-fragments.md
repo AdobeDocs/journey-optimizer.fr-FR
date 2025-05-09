@@ -8,8 +8,8 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 1fc708e1-a993-4a2a-809c-c5dc08a4bae1
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
-workflow-type: ht
+source-git-commit: 5e82bd6cfcb186fef324627e353b9e54d2332c3e
+workflow-type: tm+mt
 source-wordcount: '1469'
 ht-degree: 100%
 
@@ -94,7 +94,7 @@ Pour naviguer facilement dans vos fragments, vous pouvez utiliser des dossiers p
 
 1. Le bouton **[!UICONTROL Plus d’actions]** vous permet de également déplacer le fragment vers un autre dossier existant.
 
-   ![](assets/fragment-folder-moved.png)
+   <!--![](assets/fragment-folder-moved.png)-->
 
 1. Vous pouvez maintenant accéder au dossier que vous venez de créer. Chaque nouveau fragment que vous [créez](create-fragments.md) ici est enregistré dans le dossier actif.
 
