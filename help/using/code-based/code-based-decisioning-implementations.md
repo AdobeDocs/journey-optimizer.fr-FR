@@ -26,15 +26,15 @@ Actuellement, vous ne pouvez pas simuler le contenu de l’interface d’utilisa
 Pour pallier ce problème, vous pouvez tester la prise de décisions après la publication de votre campagne en ajoutant l’indicateur `dryRun` dans le bloc `data` d’événement XDM de votre mise en œuvre cliente :
 
      »
-    {
-    « data »: {
-     »__adobe »: {
-    « ajo »: {
+    &lbrace;
+    « data »: &lbrace;
+     »__adobe »: &lbrace;
+    « ajo »: &lbrace;
     « dryRun »: true
-    }
-    }
-    }
-    }
+    &rbrace;
+    &rbrace;
+    &rbrace;
+    &rbrace;
      »
 
 >[!CAUTION]
