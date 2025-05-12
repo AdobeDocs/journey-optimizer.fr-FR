@@ -252,4 +252,4 @@ Une fois que votre demande est gérée par Adobe, le domaine non délégué ne s
 
 Découvrez comment créer un sous-domaine à l&#39;aide de la méthode CNAME pour pointer vers des enregistrements spécifiques à Adobe.
 
->[!VIDEO](https://video.tv.adobe.com/v/339484?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/342230?quality=12&captions=fre_fr)
