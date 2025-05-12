@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Notes de mise à jour d’Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 942fa8e40768f7252702fbf9bc5fc23bdaff40ac
+source-git-commit: d7b1809fa2d04e5477fe375699153315365a6f3b
 workflow-type: tm+mt
-source-wordcount: '1022'
-ht-degree: 72%
+source-wordcount: '955'
+ht-degree: 75%
 
 ---
 
@@ -27,14 +27,14 @@ ht-degree: 72%
 * **Dossiers pour les pages de destination** - Date de disponibilité : samedi 9 mai 2025
 
   Pour gérer facilement vos pages de destination, vous pouvez désormais utiliser des dossiers pour les organiser plus efficacement dans une hiérarchie rationalisée.  [En savoir plus](../landing-pages/manage-lp.md)
+<!--
+* **Decisioning - New AI formula builder**  - Availability date: May 7, 2025
 
-* **Decisioning - New AI Formula builder** - Date de disponibilité : 7 mai 2025
+  You can now create specific Decisioning ranking formulas by defining and combining criteria from a new improved interface. Instead of relying only on a static offer priority, you can define custom ranking formulas that combine AI model scores, offer priorities, profile attributes, offer attributes, and contextual signals through a guided interface.
+  
+  For more information, refer to the [detailed documentation](../experience-decisioning/exd-ranking-formulas.md)
 
-  Vous pouvez désormais créer des formules de classement de prise de décision spécifiques en définissant et en combinant des critères à partir d’une nouvelle interface améliorée. Au lieu de vous fier uniquement à une priorité d’offre statique, vous pouvez définir des formules de classement personnalisées qui combinent les scores du modèle d’IA, les priorités d’offre, les attributs de profil, les attributs d’offre et les signaux contextuels par le biais d’une interface guidée.
-
-  Pour plus d’informations, consultez la [documentation détaillée](../experience-decisioning/exd-ranking-formulas.md)
-
-  ![](assets/do-not-localize/formula-builder.gif)
+  ![](assets/do-not-localize/formula-builder.gif)-->
 
 * **Activation des pilules pour la personnalisation** - Date de disponibilité : 5 mai 2025
 
