@@ -6,9 +6,9 @@ topic: Integrations
 role: User
 level: Experienced
 exl-id: 63aa1763-2220-4726-a45d-3a3a8b8a55ec
-source-git-commit: 00ddfe985258eed766c6626a95c3ca1ae0e3cc96
+source-git-commit: 3e4d030fb655c32f340d1fa54726b1dc2ce7a1e8
 workflow-type: tm+mt
-source-wordcount: '1777'
+source-wordcount: '1718'
 ht-degree: 98%
 
 ---
@@ -223,34 +223,14 @@ Une fois créée, la politique de décision peut être utilisée dans l’[édit
 
 1. Cliquez sur **[!UICONTROL Enregistrer et fermer]** pour confirmer vos modifications.
 
-## Tester et publier votre expérience basée sur du code {#test-and-publish}
-
-Pour finaliser votre expérience basée sur du code et appliquer vos modifications, suivez les étapes ci-dessous.
-
 1. Examinez et publiez votre campagne ou parcours d’expérience basée sur du code. [Voici comment procéder](../code-based/publish-code-based.md)
 
    Désormais, dès que le développeur ou la développeuse lance un appel API ou de SDK pour récupérer du contenu pour la surface définie dans votre configuration des canaux, les modifications sont appliquées à votre page web ou votre application.
 
-1. Actuellement, vous ne pouvez pas simuler le contenu de l’interface d’utilisation dans une campagne ou un parcours d’[expérience basée sur du code](../code-based/create-code-based.md) à l’aide de décisions.
-
-   Pour pallier ce problème, vous pouvez tester la prise de décisions après la publication de votre campagne en ajoutant l’indicateur `dryRun` dans le bloc `data` d’événement XDM de votre mise en œuvre cliente :
-
-   ```
-   {
-       "data": {
-           "__adobe": {
-               "ajo": {
-                   "dryRun": true
-               }
-           }
-       }
-   }
-   ```
-
-   >[!CAUTION]
+   >[!NOTE]
    >
-   >L’ajout de l’indicateur `dryRun` à votre demande empêchera la capture de commentaires pour la création de rapports et l’ajout de compteurs de fréquence.
+   >Actuellement, vous ne pouvez pas simuler le contenu de l’interface utilisateur dans une campagne ou un parcours [basée sur le code](../code-based/create-code-based.md) à l’aide de décisions. Une solution de contournement est proposée dans [cette section](../code-based/code-based-decisioning-implementations.md).
 
-1. Pour évaluer les performances de vos décisions, vous pouvez désormais créer des [tableaux de bord de rapports Customer Journey Analytics personnalisés](cja-reporting.md).
+1. Pour évaluer les performances de vos décisions, vous pouvez créer des tableaux de bord de rapports [Customer Journey Analytics personnalisés](cja-reporting.md).
 
 
