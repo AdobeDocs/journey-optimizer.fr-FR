@@ -51,7 +51,7 @@ Ce terrain de jeu fournit un environnement simulé pour écrire et tester du cod
 
 ![terrain de jeu de personnalisation](assets/playground.png)
 
-➡️ [Accédez au terrain de jeu de la personnalisation](https://experienceleague.adobe.com/en/apps/journey-optimizer/ajo-personalization){target="_blank"}
+➡️ [Accédez au terrain de jeu de la personnalisation](https://experienceleague.adobe.com/fr/apps/journey-optimizer/ajo-personalization){target="_blank"}
 
 ## Explorons plus en détail
 
