@@ -8,7 +8,7 @@ level: Experienced
 hide: true
 hidefromtoc: true
 exl-id: f9477611-b792-4b28-8ec2-6bbea2fa3328
-source-git-commit: 3e4d030fb655c32f340d1fa54726b1dc2ce7a1e8
+source-git-commit: 4995bf642231248ece0211a7ecf2f38ccd846d36
 workflow-type: tm+mt
 source-wordcount: '409'
 ht-degree: 10%
@@ -19,22 +19,22 @@ ht-degree: 10%
 
 Lors de l’utilisation de Decisioning dans des expériences basées sur du code, pensez à ajouter les indicateurs suivants à votre implémentation client dans les cas décrits ci-dessous.
 
-## Test d’expériences basées sur du code à l’aide de décisions
+## Test d’expériences basées sur du code à l’aide de décisions {#code-based-test-decisions}
 
 Actuellement, vous ne pouvez pas simuler le contenu de l’interface d’utilisation dans une campagne ou un parcours d’[expérience basée sur du code](create-code-based.md) à l’aide de décisions.
 
 Pour pallier ce problème, vous pouvez tester la prise de décisions après la publication de votre campagne en ajoutant l’indicateur `dryRun` dans le bloc `data` d’événement XDM de votre mise en œuvre cliente :
 
      »
-    &lbrace;
-    « data »: &lbrace;
-     »__adobe »: &lbrace;
-    « ajo »: &lbrace;
+    {
+    « data »: {
+     »__adobe »: {
+    « ajo »: {
     « dryRun »: true
-    &rbrace;
-    &rbrace;
-    &rbrace;
-    &rbrace;
+    }
+    }
+    }
+    }
      »
 
 >[!CAUTION]
