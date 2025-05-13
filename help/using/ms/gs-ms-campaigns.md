@@ -1,44 +1,65 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Prise en main des campagnes orchestrées
+title: Commencer avec les campagnes orchestrées
 description: Découvrez comment commencer avec des campagnes orchestrées
 badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: 611dd06d-aa18-4fa3-a477-8a910cec21d8
-source-git-commit: 7cd52f1954e50be521a6fc9ae26fb63586c53faa
+source-git-commit: 03af80bbaa347237059abe74f26274df5ab39caa
 workflow-type: tm+mt
-source-wordcount: '524'
-ht-degree: 16%
+source-wordcount: '529'
+ht-degree: 22%
 
 ---
 
-# Prise en main des campagnes orchestrées {#ms-camp}
+# Commencer avec les campagnes orchestrées {#ms-camp}
 
->[!BEGINSHADEBOX]
 
-**Table des matières**
++++Table des matières
 
-* Configuration : [Configurez vos campagnes orchestrées](gs-campaign-config.md)
-* Configuration : [ Création de schémas relationnels ](ms-schemas.md)
-* Créer votre première campagne orchestrée : [Principes clés](gs-campaign-creation.md)
+Bienvenue
+
+* Commencer avec les campagnes orchestrées
+* [Principes clés](gs-campaign-creation.md)
+* [Procédure de création de campagnes orchestrées](gs-campaign-steps.md)
+
+
+Étapes de configuration
+
+* [Créer des schémas relationnels](ms-schemas.md)
+
+Étapes de création
+
 * [Créer une campagne orchestrée](create-ms-campaign.md)
 * [Configurer les paramètres de la campagne](ms-campaign-settings.md)
-* [Personnaliser vos messages](ms-personalization.md)
-* [Créer des requêtes](ms-query-modeler.md)
-* [Tester et valider vos messages](ms-proofs.md)
 * [Planifier et démarrer vos campagnes](start-monitor-campaigns.md)
-* Activités : [Prise en main des activités](activities/about-activities.md)
+* [Créer des requêtes](ms-query-modeler.md)
+
+Activités
+
+* [Commencer avec les activités](activities/about-activities.md)
 * [Orchestrer les activités](orchestrate-activities.md)
-* [Rendez-vous](activities/and-join.md) - [Créer une audience](activities/build-audience.md) - [Modifier la dimension](activities/change-dimension.md) - [Combiner](activities/combine.md) - [Déduplication](activities/deduplication.md) - [Actions de canal](activities/channels.md) - [Enrichissement](activities/enrichment.md) - [Fork](activities/fork.md) - [Reconciliation](activities/reconciliation.md) - [Split](activities/split.md) - &lt;!—[Test](activities/test.md) —> [Attente](activities/wait.md)
-* Suivi : [Reporting](reporting-campaigns.md)
+* [Rendez-vous](activities/and-join.md) - [Créer une audience](activities/build-audience.md) - [Modifier la dimension](activities/change-dimension.md) - [Combiner](activities/combine.md) - [Déduplication](activities/deduplication.md) - [Enrichissement](activities/enrichment.md) - [Fork](activities/fork.md) - [Reconciliation](activities/reconciliation.md) - [Split](activities/split.md) - <!--[Test](activities/test.md) --> [Attente](activities/wait.md)
 
->[!ENDSHADEBOX]
 
-Les campagnes orchestrées améliorent Adobe Journey Optimizer en introduisant de puissantes fonctionnalités de campagne par lots initiées par la marque. Vous pouvez ainsi planifier et orchestrer des campagnes cross-canal à l’aide de stratégies de segmentation avancées.
+Messages
+
+* [Actions de canal](activities/channels.md)
+* [Personnaliser vos messages](ms-personalization.md)
+* [Tester et valider vos messages](ms-proofs.md)
+
+Reporting et surveillance
+
+* [Création de rapports](reporting-campaigns.md)
+
++++
+
 
 ## Qu’est-ce qu’une campagne orchestrée ?
+
+Les campagnes orchestrées améliorent Adobe Journey Optimizer en introduisant de puissantes fonctionnalités de campagne par lots initiées par la marque. Vous pouvez ainsi planifier et orchestrer des campagnes cross-canal à l’aide de stratégies de segmentation avancées.
 
 Toute entreprise qui souhaite atteindre efficacement ses clients et ses clientes doit élaborer une stratégie de marketing cross-canal efficace. Adobe Journey Optimizer propose un environnement graphique complet qui vous permet de concevoir des processus complexes et de gérer vos campagnes marketing en toute facilité. Grâce aux campagnes orchestrées, vous pouvez orchestrer l’ensemble des processus et tâches, améliorer la vitesse et l’échelle de chaque aspect de vos campagnes marketing, de la création de segments à la préparation des messages, en passant par leur diffusion. Dans une interface unique et conviviale, vous pouvez coordonner vos canaux et orchestrer vos campagnes.
 

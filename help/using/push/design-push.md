@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 6f6d693d-11f2-48b7-82a8-171829bf8045
-source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
-workflow-type: ht
-source-wordcount: '1362'
-ht-degree: 100%
+source-git-commit: 03af80bbaa347237059abe74f26274df5ab39caa
+workflow-type: tm+mt
+source-wordcount: '1361'
+ht-degree: 96%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="ajo-message-push-compose"
 >title="Personnalisez votre notification push."
->abstract="Pour composer votre message, saisissez le contenu dans les champs Titre et Corps. Pour inclure des jetons de personnalisation, ouvrez la boîte de dialogue de personnalisation."
+>abstract="Pour composer votre message, saisissez le contenu dans les champs **Titre** et **Corps**. Pour inclure des jetons de personnalisation, ouvrez la boîte de dialogue de personnalisation."
 
 Pour composer votre message, cliquez sur les champs **[!UICONTROL Titre]** et **[!UICONTROL Corps]**. Utilisez l’éditeur de personnalisation pour définir du contenu, personnaliser des données et ajouter du contenu dynamique. En savoir plus sur la [personnalisation](../personalization/personalize.md) et le [contenu dynamique](../personalization/get-started-dynamic-content.md) dans l’éditeur de personnalisation.
 
@@ -71,7 +71,7 @@ Une fois ajouté, le média s&#39;affiche à droite du corps de la notification.
 >[!CONTEXTUALHELP]
 >id="ajo-message-push-buttons"
 >title="Ajoutez des boutons pour que les personnes puissent interagir avec votre notification push."
->abstract="Cette section vous permettra d’ajouter des boutons d’appel à l’action à votre message. Pour iOS, indiquez un identifiant de catégorie de notification. Pour Android, vous pouvez inclure du texte et des cibles personnalisés pour chaque bouton."
+>abstract="Dans cette section, ajoutez les boutons call-to-action à votre message. Pour Apple iOS, spécifiez un identifiant de catégorie de notification. Pour Google Android, vous pouvez inclure du texte personnalisé et des cibles pour chaque bouton."
 
 Créez une notification exploitable en ajoutant des boutons à votre contenu push.
 

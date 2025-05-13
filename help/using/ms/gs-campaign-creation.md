@@ -7,10 +7,10 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: b04aa15a-71bf-4683-bcbf-f611c189ffe1
-source-git-commit: bdc584c1aae0c735d81dfc95e11f96f755bea26a
+source-git-commit: 03af80bbaa347237059abe74f26274df5ab39caa
 workflow-type: tm+mt
-source-wordcount: '462'
-ht-degree: 26%
+source-wordcount: '437'
+ht-degree: 27%
 
 ---
 
@@ -21,29 +21,7 @@ ht-degree: 26%
 >title="Campagne orchestrée"
 >abstract="Dans cet écran, vous pouvez accéder à la liste complète des campagnes orchestrées, vérifier leur statut actuel, les dates de dernière exécution et de prochaine exécution, et créer une nouvelle campagne orchestrée."
 
-Avec Adobe Journey Optimizer, vous pouvez créer des campagnes orchestrées dans une zone de travail visuelle afin de concevoir des processus cross-canal tels que la segmentation, l’exécution de campagnes ou le traitement de fichiers.
-
-## Que contient une campagne orchestrée ? {#gs-ms-campaign-inside}
-
-La zone de travail de campagne orchestrée est une représentation de ce qui est censé se produire. Il décrit les différentes tâches à effectuer et la manière dont elles sont liées.
-
-![](assets/workflow-example.png){zoomable="yes"} {zoomable="yes"}
-
-Chaque campagne orchestrée contient :
-
-* des **Activités** : une activité est une tâche à effectuer. Les différentes activités disponibles sont représentées sur le diagramme par des icônes. Chaque activité possède des propriétés spécifiques et d’autres propriétés communes à toutes les activités.
-
-  Dans un diagramme de campagne orchestré, une même activité peut générer plusieurs tâches, notamment en cas de boucle ou d&#39;actions récurrentes.
-
-* **Transitions** : les transitions relient une activité source à une activité de destination et définissent leur ordre.
-
-* **Tables de travail** : la table de travail contient toutes les informations véhiculées par la transition. Chaque campagne orchestrée utilise plusieurs tables de travail. Les données transmises dans ces tableaux peuvent être utilisées tout au long du cycle de vie de la campagne orchestrée.
-
-## Étapes clés de création d’une campagne orchestrée {#gs-ms-campaign-steps}
-
-Les étapes clés de création d’une campagne orchestrée sont les suivantes :
-
-![](assets/workflow-creation-process.png){zoomable="yes"}
+Vous pouvez créer des campagnes orchestrées dans une zone de travail visuelle afin de concevoir des processus cross-canal tels que la segmentation, l’exécution de campagnes ou le traitement de fichiers.
 
 ## Accès aux campagnes orchestrées
 
@@ -61,6 +39,24 @@ Pour dupliquer ou supprimer une campagne orchestrée, cliquez sur le bouton repr
 >
 >Lorsqu’une campagne orchestrée est en cours, vous pouvez la dupliquer, mais vous ne pouvez pas la supprimer.
 
+
+## Que contient une campagne orchestrée ? {#gs-ms-campaign-inside}
+
+La zone de travail de campagne orchestrée est une représentation de ce qui est censé se produire. Il décrit les différentes tâches à effectuer et la manière dont elles sont liées.
+
+![](assets/workflow-example.png){zoomable="yes"} {zoomable="yes"}
+
+Chaque campagne orchestrée contient :
+
+* des **Activités** : une activité est une tâche à effectuer. Les différentes activités disponibles sont représentées sur le diagramme par des icônes. Chaque activité possède des propriétés spécifiques et d’autres propriétés communes à toutes les activités.
+
+  Dans un diagramme de campagne orchestré, une même activité peut générer plusieurs tâches, notamment en cas de boucle ou d&#39;actions récurrentes.
+
+* **Transitions** : les transitions relient une activité source à une activité de destination et définissent leur ordre.
+
+* **Tables de travail** : la table de travail contient toutes les informations véhiculées par la transition. Chaque campagne orchestrée utilise plusieurs tables de travail. Les données transmises dans ces tableaux peuvent être utilisées tout au long du cycle de vie de la campagne orchestrée.
+
+
 ## Statuts et cycle de vie {#status}
 
 Les campagnes peuvent avoir plusieurs statuts :
@@ -70,8 +66,3 @@ Les campagnes peuvent avoir plusieurs statuts :
 * **[!UICONTROL Terminé]** : l’exécution de la campagne orchestrée est terminée.
 * **[!UICONTROL En pause]** : la campagne orchestrée a été suspendue.
 * **[!UICONTROL Avec erreur]** : la campagne orchestrée a rencontré une erreur. Ouvrez la campagne orchestrée et accédez aux logs et aux tâches pour identifier l’erreur et la résoudre.
-
-
-## Création d’une requête
-
-## Instructions relatives à Personalization

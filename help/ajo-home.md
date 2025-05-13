@@ -5,10 +5,10 @@ description: Découvrez comment utiliser Adobe Journey Optimizer.
 solution: Journey Optimizer
 product: journey optimizer
 exl-id: 3a1b6c61-82df-421c-98d8-2af4f2a5e0de
-source-git-commit: 0f3191a3d7c5c78e1d8fac2e587e26522f02f8f5
+source-git-commit: 03af80bbaa347237059abe74f26274df5ab39caa
 workflow-type: tm+mt
-source-wordcount: '335'
-ht-degree: 100%
+source-wordcount: '334'
+ht-degree: 86%
 
 ---
 
@@ -28,13 +28,13 @@ La version d’avril est maintenant disponible. Consultez les notes de mise à j
 
 >[!TAB Intégration à Adobe Express]
 
-Adobe Journey Optimizer s’intègre désormais à Adobe Express, ce qui vous permet de connecter facilement vos ressources de création à l’orchestration de parcours.
+Adobe Journey Optimizer s’intègre désormais à Adobe Express, ce qui vous permet de connecter facilement vos ressources créatives à l’orchestration des parcours.
 
 [![En savoir plus](using/assets/do-not-localize/learn-more-button.svg)](using/integrations/express.md)
 
 >[!TAB Assistant IA]
 
-✨ Assistez à la prévisualisation en direct de notre fonctionnalité [Assistant IA](../help/using/content-management/gs-generative.md), conçue pour vous permettre d’explorer ses capacités et de saisir tous ses avantages.
+✨ Plongez dans une expérience pratique avec notre aperçu en direct des fonctionnalités de [AI Assistant](../help/using/content-management/gs-generative.md), conçu pour vous permettre d’explorer ses fonctionnalités en direct et de comprendre pleinement ses fonctionnalités.
 
 [![En savoir plus](using/assets/do-not-localize/try-it-button.svg)](https://experienceleague.adobe.com/fr/apps/journey-optimizer/ai-assistant-content-accelerator){target="_blank"}
 

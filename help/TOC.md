@@ -5,10 +5,10 @@ user-guide-title: Guide de Journey Optimizer
 user-guide-description: Utilisez Journey Optimizer pour créer et proposer aux clients des expériences connectées, contextuelles et personnalisées
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 7d70ffcb1fb3469084dda302a4b29d22df7fe9ea
+source-git-commit: 03af80bbaa347237059abe74f26274df5ab39caa
 workflow-type: tm+mt
 source-wordcount: '2374'
-ht-degree: 99%
+ht-degree: 98%
 
 ---
 
@@ -174,33 +174,35 @@ ht-degree: 99%
          + [Utiliser des actions personnalisées pour écrire des événements de parcours dans Experience Platform](using/building-journeys/custom-action-aep.md)
 + Campagnes orchestrées {#orchestrated-campaigns}
    + [Commencer avec les campagnes orchestrées](using/ms/gs-ms-campaigns.md)
-   + Configuration {#ms-config}
-      + [Étapes de configuration](using/ms/gs-campaign-config.md)
+   + [Principes de base](using/ms/gs-campaign-creation.md)
+   + [Procédure de création de campagnes orchestrées](using/ms/gs-campaign-steps.md)
+   + Étapes de configuration {#ms-config}
       + [Créer des schémas relationnels](using/ms/ms-schemas.md)
-   + Créer votre première campagne orchestrées {#create-ms-campaign}
-      + [Principes de base](using/ms/gs-campaign-creation.md)
+   + Étapes de création{#create-ms-campaign}
       + [Créer une campagne orchestrée](using/ms/create-ms-campaign.md)
-      + [Orchestrer les activités](using/ms/orchestrate-activities.md)
       + [Configurer les paramètres de la campagne](using/ms/ms-campaign-settings.md)
+      + [Planifier et démarrer vos campagnes](using/ms/start-monitor-campaigns.md)
       + [Créer des requêtes](using/ms/ms-query-modeler.md)
-      + [Tester et valider les messages](using/ms/ms-proofs.md)
-      + [Planifier et démarrer les campagnes](using/ms/start-monitor-campaigns.md)
-      + [Rapports de campagnes orchestrées](using/ms/reporting-campaigns.md)
-      + [Gérer la personnalisation](using/ms/ms-personalization.md)
-   + Activités de campagne orchestrée {#design-campaigns}
-      + [À propos des activités de campagne orchestrée](using/ms/activities/about-activities.md)
+   + Activités {#design-campaigns}
+      + [Commencer avec les activités](using/ms/activities/about-activities.md)
+      + [Orchestrer les activités](using/ms/orchestrate-activities.md)
       + [Rendez-vous](using/ms/activities/and-join.md)
       + [Créer une audience](using/ms/activities/build-audience.md)
       + [Changement de dimension](using/ms/activities/change-dimension.md)
       + [Combiner](using/ms/activities/combine.md)
       + [Déduplication](using/ms/activities/deduplication.md)
-      + [Actions de canal](using/ms/activities/channels.md)
       + [Enrichissement](using/ms/activities/enrichment.md)
       + [Branchement](using/ms/activities/fork.md)
       + [Réconciliation](using/ms/activities/reconciliation.md)
       + [Partage](using/ms/activities/split.md)
       + [Test](using/ms/activities/test.md)
       + [Attente](using/ms/activities/wait.md)
+   + Messages {#messages}
+      + [Actions de canal](using/ms/activities/channels.md)
+      + [Personnaliser votre contenu](using/ms/ms-personalization.md)
+      + [Tester et valider les messages](using/ms/ms-proofs.md)
+   + Reporting et surveillance {#report}
+      + [Création de rapports](using/ms/reporting-campaigns.md)
 + Campagnes {#campaigns}
    + [Commencer avec les campagnes](using/campaigns/get-started-with-campaigns.md)
    + [Création d’une campagne](using/campaigns/create-campaign.md)
