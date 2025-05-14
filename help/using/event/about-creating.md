@@ -9,10 +9,10 @@ role: Data Engineer, Data Architect, Admin
 level: Intermediate, Experienced
 keywords: événement, unitaire, créer, parcours
 exl-id: e22e2bc7-0c15-457a-8980-97bea5da7784
-source-git-commit: c403769a872ac6b4720ec6aaae9eda5d68da96c5
+source-git-commit: 6d219d9caea28947877e38893dea20a4f77456f6
 workflow-type: tm+mt
-source-wordcount: '1679'
-ht-degree: 94%
+source-wordcount: '1733'
+ht-degree: 91%
 
 ---
 
@@ -22,6 +22,11 @@ ht-degree: 94%
 >id="ajo_journey_event_unitary"
 >title="Événements unitaires"
 >abstract="La configuration de l&#39;événement vous permet de définir les informations que Journey Optimizer recevra en tant qu&#39;événements. Vous pouvez utiliser plusieurs événements (à différentes étapes d&#39;un parcours) et plusieurs parcours peuvent utiliser un même événement. Les événements unitaires sont liés à un profil spécifique. Ils peuvent être basés sur des règles ou générés par le système."
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_event_parameters"
+>title="Paramètres"
+>abstract="Définissez les paramètres de l&#39;événement tels que les champs de payload et de schéma. Pour les événements basés sur des règles, utilisez le champ **[!UICONTROL condition d’identifiant d’événement]** pour définir la condition qui sera utilisée par le système pour identifier les événements qui déclencheront votre parcours. Ajoutez un type d’identité et un identifiant de profil à utiliser pour l’événement."
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_parameters_supplemental_identifier"
