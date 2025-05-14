@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 956178c0-9985-4ff8-a29e-17dd367ce4d4
-source-git-commit: db3c87d10469550eb30224c932344ff1e3ae1767
+source-git-commit: e758e4f3532d9f1abb7a564431993c11032804ba
 workflow-type: tm+mt
 source-wordcount: '776'
 ht-degree: 86%
@@ -68,15 +68,13 @@ Les fonctionnalités principales sont les suivantes :
 
 Découvrez l’architecture de base d’[!DNL Adobe Journey Optimizer], les points d’intégration et la relation entre [!DNL Journey Optimizer] et [!DNL Experience Platform], dans le diagramme ci-dessous.
 
-Adobe Experience Platform est une base de données puissante, flexible, ouverte et centralisée qui collecte, normalise, régit, applique les informations d’IA à et unifie les données afin d’offrir à sa clientèle numérique des informations pertinentes et réfléchies
-expériences.
+Adobe Experience Platform est une base de données puissante, flexible, ouverte et centralisée qui collecte, normalise, régit, applique les informations d’IA à et unifie les données afin d’offrir des expériences client numériques réfléchies et pertinentes.
 
 ![](assets/ajo-aep-architecture-diagram.png){width="70%" zoomable="yes"}
 
 Quatre applications sont créées en mode natif sur Experience Platform : Adobe Real-Time Customer Data Platform, Journey Optimizer, Customer Journey Analytics et Adobe Mix Modeler.
 
-Les fonctionnalités et services principaux de Journey Optimizer fonctionnent à partir des composants fondamentaux de Adobe Experience Platform, qui inclut le profil client en temps réel. Bien que Journey Optimizer fonctionne de manière transparente et soit interopérable avec Real-Time CDP et Customer Journey Analytics, il peut
-fonctionne également de manière indépendante en tant qu’application autonome.
+Les fonctionnalités et services principaux de Journey Optimizer fonctionnent à partir des composants fondamentaux de Adobe Experience Platform, qui inclut le profil client en temps réel. Bien que Journey Optimizer fonctionne de manière transparente et soit interopérable avec Real-Time CDP et Customer Journey Analytics, il peut également fonctionner indépendamment en tant qu’application autonome.
 
 ![](assets/ajo-architecture-diagram.png){width="70%" zoomable="yes"}
 
