@@ -55,4 +55,4 @@ Pour importer un fichier avec du contenu HTML, procédez comme suit :
 
 Découvrez comment importer du contenu HTML existant, améliorer la conception et ajouter une page miroir et des liens de désabonnement. Apprenez également comment coder le contenu.
 
->[!VIDEO](https://video.tv.adobe.com/v/334102?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3421910?quality=12&captions=fre_fr)
