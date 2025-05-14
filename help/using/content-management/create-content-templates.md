@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: a205539b-b7ea-4832-92b0-49637c4dac47
-source-git-commit: a487355df0229a1e94375025eae0babc9405f087
+source-git-commit: e35d18002fa32df8c1cfd9e0a609ce167df4641a
 workflow-type: tm+mt
-source-wordcount: '633'
-ht-degree: 93%
+source-wordcount: '661'
+ht-degree: 90%
 
 ---
 
@@ -80,6 +80,10 @@ Pour créer entièrement un nouveau modèle de contenu, procédez comme suit.
    ![](assets/content-template-back.png)
 
 Ce modèle est maintenant prêt à être utilisé lors de la création d’un contenu dans [!DNL Journey Optimizer]. [Voici comment procéder](#use-content-templates)
+
+>[!NOTE]
+>
+>Lors de la création d’un modèle de contenu d’e-mail, vous pouvez appliquer rapidement un style spécifique adapté à votre marque et à votre conception à votre contenu. [En savoir plus](../email/apply-email-themes.md)
 
 ## Enregistrer le contenu comme modèle de contenu {#save-as-template}
 

@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: da3ffe9c-a244-4246-b4b5-a3a1d0508676
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
-workflow-type: ht
-source-wordcount: '641'
-ht-degree: 100%
+source-git-commit: e35d18002fa32df8c1cfd9e0a609ce167df4641a
+workflow-type: tm+mt
+source-wordcount: '700'
+ht-degree: 91%
 
 ---
 
@@ -66,6 +66,14 @@ Après avoir configuré les propriétés du fragment, le concepteur d’e-mail o
 * Pour les fragments visuels, modifiez votre contenu selon vos besoins, de la même manière que pour tout e-mail se trouvant dans un parcours ou une campagne. [En savoir plus](../email/get-started-email-design.md)
 
   ![](assets/fragment-designer.png)
+
+  Pour appliquer rapidement un style spécifique adapté à votre marque et à votre conception, vous pouvez appliquer un [thème](../email/apply-email-themes.md) à votre fragment.
+
+  ![](assets/fragment-themes.png)
+
+  >[!CAUTION]
+  >
+  >Les fragments ne sont pas compatibles entre le mode Thème et le mode Classique. Pour pouvoir utiliser un fragment dans un contenu auquel vous souhaitez appliquer un thème, ce fragment doit être créé en mode Thème. [En savoir plus sur les thèmes](../email/apply-email-themes.md)
 
 * Pour les fragments d’expression, utilisez l’éditeur de personnalisation de [!DNL Journey Optimizer] et toutes ses fonctionnalités de personnalisation et de création pour créer le contenu de votre fragment. [En savoir plus](../personalization/personalization-build-expressions.md)
 
