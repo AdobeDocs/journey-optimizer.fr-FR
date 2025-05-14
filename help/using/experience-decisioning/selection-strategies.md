@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 1b73b398-050a-40bb-a8ae-1c66e3e26ce8
-source-git-commit: d7b1809fa2d04e5477fe375699153315365a6f3b
+source-git-commit: 07704f99aff7d92e8db76755f6617345bac56590
 workflow-type: tm+mt
-source-wordcount: '723'
-ht-degree: 95%
+source-wordcount: '733'
+ht-degree: 100%
 
 ---
 
@@ -108,7 +108,7 @@ Les scores de priorité des offres sont attribués lors de la création d’un [
 
 En plus de la priorité d’offre, Journey Optimizer vous permet de créer des **formules de classement**. Ces formules déterminent quelle offre doit être présentée en premier pour un emplacement donné au lieu de prendre en compte les scores de priorité des offres.
 
-Par exemple, vous pouvez augmenter la priorité de toutes les offres dont la date de fin est inférieure à 24 heures, ou augmenter les offres de la catégorie « en cours » si le point ciblé du profil est « en cours ». <!--Learn how to create a ranking formula in [this section](exd-ranking-formulas.md).-->
+Par exemple, vous pouvez augmenter la priorité de toutes les offres dont la date de fin est inférieure à 24 heures, ou remonter les offres de la catégorie « en cours » si le point ciblé du profil est « en cours ». Découvrez comment créer une formule de classement dans [cette section](exd-ranking-formulas.md).
 
 Une fois créée, vous pouvez utiliser cette formule dans une stratégie de sélection. Si plusieurs offres sont éligibles à la présentation lors de l’utilisation de cette stratégie de sélection, la décision emploiera la formule sélectionnée pour calculer l’offre à présenter en premier.
 

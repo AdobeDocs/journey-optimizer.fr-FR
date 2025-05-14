@@ -5,10 +5,8 @@ feature: Ranking, Decisioning
 topic: Integrations
 role: User
 level: Intermediate
-hide: true
-hidefromtoc: true
 exl-id: 35d7488b-e7d8-402f-b337-28a0c869bff0
-source-git-commit: ec5baea16b5dcd0f3ab9713020c918aa414ea46b
+source-git-commit: 07704f99aff7d92e8db76755f6617345bac56590
 workflow-type: tm+mt
 source-wordcount: '1165'
 ht-degree: 18%
@@ -18,8 +16,6 @@ ht-degree: 18%
 # Utiliser le créateur de formules d’IA {#create-ranking-formulas}
 
 Les **formules de classement** vous permettent de définir des règles déterminant quelle offre doit être présentée en premier, plutôt que de prendre en compte les scores de priorité.
-
-<!--In today's world, relevance demands more than static priorities.The new formula builder in **[!UICONTROL Adobe Journey Optimizer]** empowers marketers to dynamically rank offers by blending AI-driven model scores with business priorities, offer attributes, and contextual signals — no coding required.-->
 
 Pour créer ces règles, le créateur de formules d’IA de **[!UICONTROL Adobe Journey Optimizer]** offre une plus grande flexibilité et un meilleur contrôle du classement des offres. Au lieu de vous fier uniquement à une priorité d’offre statique, vous pouvez désormais définir des formules de classement personnalisées qui combinent les scores du modèle d’IA, les priorités d’offre, les attributs de profil, les attributs d’offre et les signaux contextuels par le biais d’une interface guidée.
 
@@ -84,8 +80,6 @@ Pour définir des critères directement à partir de l’interface , procédez c
 
    ![](assets/ranking-formula-criterion-1.png){width="70%"}
 
-   <!--You can refer to [offer attributes](items.md#attributes), profile attributes, or [context data](context-data.md).-->
-
 1. Vous pouvez éventuellement spécifier des éléments supplémentaires pour affiner les conditions correspondantes afin que vos critères soient vrais.
 
    ![](assets/ranking-formula-addtional-conditions.png){width="80%"}
@@ -118,7 +112,7 @@ Pour définir des critères directement à partir de l’interface , procédez c
 
 ### Exemple de formule de classement
 
-Prenons l’exemple ci-dessous <!--To be checked by PM-->
+Prenons l’exemple ci-dessous :
 
 ![](assets/ranking-formula-example.png){width="80%"}
 
