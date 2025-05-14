@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: attente, activité, parcours, suivant, zone de travail
 exl-id: 7268489a-38c1-44da-b043-f57aaa12d7d5
-source-git-commit: da7d895fcc724e6b1c0d6480f6a8693037a03752
+source-git-commit: db3c87d10469550eb30224c932344ff1e3ae1767
 workflow-type: tm+mt
 source-wordcount: '649'
-ht-degree: 92%
+ht-degree: 89%
 
 ---
 
@@ -100,4 +100,4 @@ Pour vérifier que l’activité d’attente fonctionne comme prévu, vous pouve
 >title="À propos du nœud d’attente automatique"
 >abstract="Une activité **Attente** est automatiquement ajoutée après cette activité. Elle est définie pour 3 jours. Vous pouvez la modifier et la configurer selon vos besoins."
 
-Chaque activité de message entrant (message in-app, expérience basée sur le code ou carte) est fournie avec une activité **Attente** de 3 jours. Comme les messages entrants se terminent automatiquement lorsqu’un profil atteint la fin du parcours, nous supposons que vous souhaitez que vos utilisateurs et utilisatrices la voient pendant au moins 3 jours. Vous pouvez supprimer cette activité **Attente** ou modifier sa configuration si nécessaire.
+Chaque activité d’expérience entrante (message in-app, expérience basée sur le code ou carte) est fournie avec une activité **Attente** de 3 jours. Comme les messages entrants se terminent automatiquement lorsqu’un profil atteint la fin du parcours, nous supposons que vous souhaitez que vos utilisateurs et utilisatrices la voient pendant au moins 3 jours. Vous pouvez supprimer cette activité **Attente** ou modifier sa configuration si nécessaire.

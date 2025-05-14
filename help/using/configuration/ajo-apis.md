@@ -7,9 +7,9 @@ feature: Integrations, Data Ingestion
 role: Developer
 level: Intermediate
 exl-id: 4c897c52-6eb2-4d6e-aaa9-9bd83608b2b6
-source-git-commit: 5ee11912b2c6dbd58acae04a5bf1d24403a1c4ea
+source-git-commit: 64e225cdc8615e51655ef550866b67ca249a7572
 workflow-type: tm+mt
-source-wordcount: '240'
+source-wordcount: '239'
 ht-degree: 7%
 
 ---
@@ -22,6 +22,6 @@ Adobe Journey Optimizer est conçu de manière native sur Adobe Experience Platf
 
 Suivez [ce tutoriel](https://developer.adobe.com/journey-optimizer-apis/references/authentication/){target="_blank"} pour rassembler les informations d’authentification requises pour toutes les API Journey Optimizer.
 
-En savoir plus dans la documentation de l’API Adobe Journey Optimizer [&#128279;](https://developer.adobe.com/journey-optimizer-apis/){target="_blank"}. Parcourez le menu **Références d’API** pour accéder à toutes les API Journey Optimizer et essayez-les.
+En savoir plus dans la documentation de l’API Adobe Journey Optimizer [](https://developer.adobe.com/journey-optimizer-apis/){target="_blank"}. Parcourez le menu **Références d’API** pour accéder à toutes les API Journey Optimizer et essayez-les.
 
 Les API sont également disponibles pour la gestion des décisions dans Adobe Journey Optimizer. En savoir plus dans le [guide du développeur de l’API Decision Management](../offers/api-reference/getting-started.md)

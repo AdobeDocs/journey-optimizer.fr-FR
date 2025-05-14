@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: e28c038b-49ed-4685-bfe6-514116eb0711
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
-workflow-type: ht
-source-wordcount: '1363'
-ht-degree: 100%
+source-git-commit: db3c87d10469550eb30224c932344ff1e3ae1767
+workflow-type: tm+mt
+source-wordcount: '1362'
+ht-degree: 98%
 
 ---
 
@@ -51,7 +51,7 @@ Pour ajouter une activité **Web** pour un parcours, procédez comme suit :
 
    >[!NOTE]
    >
-   >Comme **Web** est une activité de message entrant, elle est fournie avec une activité **Attente** de 3 jours. [En savoir plus](../building-journeys/wait-activity.md#auto-wait-node)
+   >Comme **Web** est une activité d’expérience entrante, elle est fournie avec une activité **Attente** de 3 jours. [En savoir plus](../building-journeys/wait-activity.md#auto-wait-node)
 
 1. Saisissez un **[!UICONTROL libellé]** et une **[!UICONTROL description]** pour votre message.
 
@@ -93,7 +93,7 @@ Pour commencer à créer votre expérience web par le biais d’une campagne, su
 
 Pour plus d’informations sur la configuration d’une campagne, consultez cette [page](../campaigns/get-started-with-campaigns.md).
 
-➡️ [Découvrir comment créer une campagne web dans cette vidéo](#video)
+➡️ [Découvrez comment créer une campagne web dans cette vidéo](#video)
 
 >[!ENDTABS]
 
@@ -241,4 +241,4 @@ Lorsqu’une campagne ou est parcours web est en ligne, vous pouvez l’arrêter
 
 La vidéo ci-dessous montre comment créer une campagne web, configurer ses propriétés, la réviser et la publier.
 
->[!VIDEO](https://video.tv.adobe.com/v/3449983/?quality=12&learn=on&captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/3418800/?quality=12&learn=on)

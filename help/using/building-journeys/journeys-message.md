@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: parcours, message, notification push, sms, e-mail, in-app, web, carte de contenu, expérience basée sur du code
 exl-id: 4db07a9e-c3dd-4873-8bd9-ac34c860694c
-source-git-commit: 40c067d85b278380abd874fc6edc69f32c0c56ef
-workflow-type: ht
-source-wordcount: '494'
-ht-degree: 100%
+source-git-commit: db3c87d10469550eb30224c932344ff1e3ae1767
+workflow-type: tm+mt
+source-wordcount: '496'
+ht-degree: 91%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="ajo_message_activity"
 >title="Action de canal intégrée"
->abstract="Journey Optimizer est fourni avec des fonctionnalités d’actions de canal intégrées. Vous pouvez simplement ajouter à votre parcours une activité sortante (e-mail, message texte (SMS/MMS), notification push) ou entrante (in-app, web, expérience basée sur du code, carte de contenu) et définir les paramètres et le contenu. Elle est ensuite exécutée et envoyée dans le contexte du parcours."
+>abstract="Journey Optimizer est fourni avec des fonctionnalités d’actions de canal intégrées. Vous pouvez simplement ajouter à votre parcours une activité de message (e-mail, message texte (SMS/MMS), push) ou d’expérience entrante (expérience in-app, web, basée sur le code, carte de contenu), puis définir les paramètres et le contenu. Elle est ensuite exécutée et envoyée dans le contexte du parcours."
 
 [!DNL Journey Optimizer] est fourni avec des fonctionnalités d’action de canal intégrées qui sont utilisées pour envoyer des messages : lorsqu’un profil entre dans cette activité, un message lui est envoyé.
 
@@ -121,7 +121,7 @@ Pour ajouter une action de canal intégrée à un parcours, procédez comme suit
 
 >[!NOTE]
 >
->* Chaque activité de message entrant est accompagnée d’une activité **Attente** de 3 jours. [En savoir plus](wait-activity.md#auto-wait-node)
+>* Chaque activité d’expérience entrante s’accompagne d’une activité **Attente** de 3 jours. [En savoir plus](wait-activity.md#auto-wait-node)
 >
 >* Pour les notifications push et les e-mails, vous pouvez activer l’optimisation de l’heure d’envoi. [En savoir plus](send-time-optimization.md)
 

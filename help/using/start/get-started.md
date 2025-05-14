@@ -8,22 +8,22 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 956178c0-9985-4ff8-a29e-17dd367ce4d4
-source-git-commit: fa1b26900ca4cf56a3ad95429320d1f5e9c920ed
+source-git-commit: db3c87d10469550eb30224c932344ff1e3ae1767
 workflow-type: tm+mt
-source-wordcount: '676'
-ht-degree: 100%
+source-wordcount: '776'
+ht-degree: 86%
 
 ---
 
 # Prise en main de Journey Optimizer {#cjm-gs}
 
-## Présentation d’[!DNL Adobe Journey Optimizer] {#about-cjm}
+## Qu’est-ce que [!DNL Adobe Journey Optimizer] ?{#about-cjm}
 
 [!DNL Adobe Journey Optimizer] aide les sociétés à proposer des expériences connectées, contextuelles et personnalisées à leurs clients. Le parcours client est l’ensemble du processus d’interaction d’une cliente ou d’un client avec la marque, depuis le premier moment de contact jusqu’au départ de la cliente ou du client. Il débute avec la phase de sensibilisation, où le client découvre la marque et commence à interagir. Le client interagira ensuite davantage avec la marque, se rendra sur les sites Web et physiques, effectuera des achats, enverra des messages ou publiera des commentaires.
 
 [!DNL Adobe Journey Optimizer] est conçu de manière native sur [!DNL Adobe Experience Platform] et associe un profil client en temps réel unifié, un framework ouvert API-First, une fonction Offer Decisioning centralisée, une intelligence artificielle (IA) et du machine learning (ML) pour la personnalisation et l&#39;optimisation. Journey Optimizer permet aux marques de déterminer intelligemment la meilleure interaction possible, avec l&#39;échelle, la vitesse et la flexibilité adaptées, pour l&#39;ensemble du parcours client. Avec [!DNL Adobe Journey Optimizer], les entreprises peuvent créer et diffuser des campagnes marketing planifiées (comme des promotions hebdomadaires pour un magasin de vente au détail) et des communications individuelles personnalisées (comme une notification push pour un article qu&#39;un client d&#39;une application avec points de fidélité peut avoir consulté et qui était précédemment en rupture de stock) dans la même application.
 
-➡️ [Découvrez Journey Optimizer](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/introduction-to-journey-optimizer/introduction.html?lang=fr){target="_blank"} (vidéo)
+➡️ [Découvrir Journey Optimizer](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/introduction-to-journey-optimizer/introduction.html?lang=fr){target="_blank"} (vidéo)
 
 
 <!-- Use [!DNL Adobe Journey Optimizer] to build multi-step customer journeys that initiate a sequence of interactions, offers, and messages across channels in real time. This approach ensures customers are engaged at the optimal moments based on their actions and relevant business signals. Learn how to build journeys in [this section](../building-journeys/journey-gs.md).
@@ -57,20 +57,29 @@ Les fonctionnalités principales sont les suivantes :
 
 >[!NOTE]
 >
-> Les composants et fonctionnalités disponibles dans votre environnement dépendent de vos [autorisations](../administration/permissions.md) et de votre [package de licence](https://helpx.adobe.com/fr/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}. Pour toute question, contactez votre responsable Succès client Adobe ou votre représentant ou représentante Adobe.
+>* Les composants et fonctionnalités disponibles dans votre environnement dépendent de vos [autorisations](../administration/permissions.md) et de votre [package de licence](https://helpx.adobe.com/fr/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}. Pour toute question, contactez votre responsable Succès client Adobe ou votre représentant ou représentante Adobe.
+>
+>* Les lignes directrices et procédures générales d&#39;Adobe Experience Cloud sur la protection des données personnelles s&#39;appliquent à [!DNL Journey Optimizer]. [En savoir plus sur la confidentialité d&#39;Adobe Experience Cloud](https://www.adobe.com/fr/privacy/experience-cloud.html){target="_blank"}.
+
+
 
 
 ## Architecture {#architecture}
 
 Découvrez l’architecture de base d’[!DNL Adobe Journey Optimizer], les points d’intégration et la relation entre [!DNL Journey Optimizer] et [!DNL Experience Platform], dans le diagramme ci-dessous.
 
-![](assets/ajo-architecture.png)
+Adobe Experience Platform est une base de données puissante, flexible, ouverte et centralisée qui collecte, normalise, régit, applique les informations d’IA à et unifie les données afin d’offrir à sa clientèle numérique des informations pertinentes et réfléchies
+expériences.
 
+![](assets/ajo-aep-architecture-diagram.png){width="70%" zoomable="yes"}
 
->[!NOTE]
->
-> Les lignes directrices et procédures générales d&#39;Adobe Experience Cloud sur la protection des données personnelles s&#39;appliquent à [!DNL Journey Optimizer]. [En savoir plus sur la confidentialité d&#39;Adobe Experience Cloud](https://www.adobe.com/fr/privacy/experience-cloud.html).
->
+Quatre applications sont créées en mode natif sur Experience Platform : Adobe Real-Time Customer Data Platform, Journey Optimizer, Customer Journey Analytics et Adobe Mix Modeler.
+
+Les fonctionnalités et services principaux de Journey Optimizer fonctionnent à partir des composants fondamentaux de Adobe Experience Platform, qui inclut le profil client en temps réel. Bien que Journey Optimizer fonctionne de manière transparente et soit interopérable avec Real-Time CDP et Customer Journey Analytics, il peut
+fonctionne également de manière indépendante en tant qu’application autonome.
+
+![](assets/ajo-architecture-diagram.png){width="70%" zoomable="yes"}
+
 
 
 >[!MORELIKETHIS]

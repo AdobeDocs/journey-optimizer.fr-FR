@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Experienced
 exl-id: 25c2c448-9380-47b0-97c5-16d9afb794c5
-source-git-commit: 7658448ad902e2d2d2ef73ee7f71ea2cdda8d497
+source-git-commit: db3c87d10469550eb30224c932344ff1e3ae1767
 workflow-type: tm+mt
-source-wordcount: '623'
-ht-degree: 100%
+source-wordcount: '622'
+ht-degree: 95%
 
 ---
 
@@ -37,7 +37,7 @@ Pour ajouter une activité **expérience basée sur du code** à un parcours, pr
 
    >[!NOTE]
    >
-   >Comme l’activité **Expérience basée sur du code** est une activité de message entrant, elle est accompagnée d’une activité **Attente** de 3 jours. [En savoir plus](../building-journeys/wait-activity.md#auto-wait-node)
+   >Étant donné que l’**expérience basée sur le code** est une activité d’expérience entrante, elle est fournie avec une activité de 3 jours **Attente**. [En savoir plus](../building-journeys/wait-activity.md#auto-wait-node)
 
 1. Saisissez un **[!UICONTROL libellé]** et une **[!UICONTROL description]** pour votre message.
 
@@ -79,7 +79,7 @@ Pour commencer à créer votre **expérience basée sur du code** par le biais d
 
 Pour plus d’informations sur la configuration d’une campagne, consultez cette [page](../campaigns/get-started-with-campaigns.md).
 
-➡️ [Découvrir comment créer une campagne par expérience basée sur du code dans cette vidéo](#video)
+➡️ [Découvrez comment créer une campagne d’expérience basée sur du code dans cette vidéo](#video)
 
 >[!ENDTABS]
 
@@ -123,4 +123,4 @@ Désormais, dès que votre développeur ou développeuse lance un appel d’API 
 
 La vidéo ci-dessous montre comment créer une campagne par expérience basée sur du code, configurer ses propriétés, la tester et la publier.
 
->[!VIDEO](https://video.tv.adobe.com/v/3449455/?quality=12&learn=on&captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/3428868/?quality=12&learn=on)

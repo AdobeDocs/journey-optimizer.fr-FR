@@ -6,10 +6,10 @@ topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: 4e2dc0d6-4610-4a2f-8388-bc58182b227f
-source-git-commit: 03e93e6a6652ffbe1cfdea3361e0a0d517cc39d8
+source-git-commit: 64e225cdc8615e51655ef550866b67ca249a7572
 workflow-type: tm+mt
-source-wordcount: '891'
-ht-degree: 100%
+source-wordcount: '889'
+ht-degree: 95%
 
 ---
 
@@ -40,7 +40,7 @@ Le SDK n’a pas combiné ces bibliothèques. Il s’agit d’une nouvelle impl�
 
    <!-- For more detailed instructions, refer to the documentation on using the [Adobe Experience Platform Web SDK](). -->
 
-1. [Configurez votre flux de données](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/datastreams.html?lang=fr) dans l’onglet Collecte de données de votre compte dans Adobe Experience Cloud.
+1. [Configurez votre flux de données](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/datastreams.html?lang=fr) dans l’onglet Collecte de données de votre compte dans Adobe Experience Cloud.
 
 1. Installez le SDK. Pour ce faire, plusieurs méthodes sont à votre disposition. Elles sont décrites sur la page [Installer le SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/installing-the-sdk.html?lang=fr). La présente page décrit chacune des méthodes d’implémentation.
 
@@ -60,7 +60,7 @@ Cette approche est plus conviviale pour les personnes qui ont moins d’expérie
 
 1. [Créer une propriété de balise](https://experienceleague.adobe.com/docs/experience-platform/tags/admin/companies-and-properties.html?lang=fr)
 
-1. [Ajouter du code incorporé](https://experienceleague.adobe.com/docs/core-services-learn/implementing-in-websites-with-launch/configure-launch/launch-add-embed.html?lang=fr)
+1. [Ajouter du code intégré](https://experienceleague.adobe.com/docs/core-services-learn/implementing-in-websites-with-launch/configure-launch/launch-add-embed.html?lang=fr)
 
 1. Installez et configurez l’extension SDK web Adobe Experience Platform avec le train de données créé lors de la sélection de la configuration dans la liste déroulante « Train de données ». Consultez la documentation relative aux [extensions](https://experienceleague.adobe.com/docs/experience-platform/tags/ui/extensions/overview.html?lang=fr).
 
@@ -161,7 +161,7 @@ Vous pouvez utiliser le débogueur pour vérifier que vous êtes bien connecté 
 >
 >Si vous ne voyez pas de connexion à Edge dans les journaux, vous devez peut-être désactiver votre bloqueur de publicités.
 
-Reportez-vous à la façon dont vous avez créé votre offre et à la mise en forme utilisée. En fonction des critères rencontrés dans la décision, une offre vous sera renvoyée contenant les informations que vous avez spécifiées lors de sa création dans Adobe Experience Platform.
+Reportez-vous à la façon dont vous avez créé votre offre et à la mise en forme utilisée. En fonction des critères rencontrés dans la décision, une offre vous sera renvoyée contenant les informations que vous avez spécifiées lors de sa création dans Adobe Experience Platform.
 
 Dans cet exemple, le code JSON à renvoyer est le suivant :
 

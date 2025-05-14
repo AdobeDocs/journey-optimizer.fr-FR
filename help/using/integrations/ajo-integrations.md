@@ -7,10 +7,10 @@ feature: Integrations
 role: User
 level: Intermediate
 exl-id: 700dc66e-ae2d-418f-b75e-ece15af57ab3
-source-git-commit: 621f9bcb32d108490e7674778ce40385938af18e
+source-git-commit: 64e225cdc8615e51655ef550866b67ca249a7572
 workflow-type: tm+mt
-source-wordcount: '767'
-ht-degree: 91%
+source-wordcount: '766'
+ht-degree: 87%
 
 ---
 
@@ -27,7 +27,7 @@ Avec Adobe Journey Optimizer, vous pouvez facilement gérer, conserver et export
 
 Customer Journey Analytics vous permet d’effectuer une analyse avancée des données générées par Journey Optimizer.
 
-Journey Optimizer stocke les données dans Adobe Experience Platform. Customer Journey Analytics vous offre ensuite un affichage holistique de tous vos parcours, campagnes et offres, avec distribution automatique de rapports et visualisations personnalisées des données.
+Journey Optimizer stocke les données dans Adobe Experience Platform. Avec Customer Journey Analytics, vous bénéficiez d’une vue d’ensemble de tous vos parcours, campagnes et offres, avec une distribution de rapports automatisée et des visualisations personnalisées des données.
 
 Une fois votre parcours créé dans Journey Optimizer, Customer Journey Analytics peut ingérer les données de Platform pour lancer des rapports et saisir l’impact de chaque interaction d’un client avec vos parcours.
 
@@ -82,7 +82,7 @@ En savoir plus sur [Journey Optimizer + Campaign Standard](../building-journ
 
 Utilisez les modules Adobe Journey Optimizer dans Adobe Workfront pour créer, lire, mettre à jour ou supprimer des enregistrements, ou effectuez un appel d’API personnalisé vers l’API Adobe Journey Optimizer.
 
-Un aperçu de l’étape clé de cette intégration est disponible [dans cet article de blog](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/accelerating-go-to-market-how-workfront-workfront-fusion-aep-and/ba-p/653685?profile.language=fr&lang=fr){target="_blank"}.
+Un aperçu de l’étape clé de cette intégration est disponible [dans cet article de blog](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/accelerating-go-to-market-how-workfront-workfront-fusion-aep-and/ba-p/653685?lang=fr){target="_blank"}.
 
 En savoir plus sur Journey Optimizer + Adobe Workfront [dans la documentation Adobe Workfront](https://experienceleague.adobe.com/docs/workfront/using/adobe-workfront-fusion/fusion-apps-and-modules/adobe-journey-optimizer-modules.html?lang=fr){target="_blank"}.
 
