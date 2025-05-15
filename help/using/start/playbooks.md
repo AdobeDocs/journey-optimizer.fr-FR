@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 2214ec90-580e-469e-9b14-d8cb2d4bb050
-source-git-commit: 7bb46f33d877d0a1976e8d74b88a5cccb81c1d4e
+source-git-commit: b4c1cb69fd67e8c74982103c68050ab56a71113a
 workflow-type: tm+mt
-source-wordcount: '488'
+source-wordcount: '499'
 ht-degree: 69%
 
 ---
@@ -51,14 +51,14 @@ Pour mettre en œuvre votre cas d’utilisation, vous pouvez accéder à chaque 
 
 En outre, vous pouvez importer les ressources des playbooks dans d’autres sandbox. Cela vous permet d’aligner les ressources générées avec vos ressources existantes et de garantir leur compatibilité avec vos données si vous avez déjà configuré vos propres schémas, champs et groupes de champs. Ces étapes sont détaillées dans la documentation sur les playbooks de cas d’utilisation : [Publication de ressources générées par un playbook sur d’autres sandbox](https://experienceleague.adobe.com/docs/experience-platform/use-case-playbooks/playbooks/data-awareness.html?lang=fr){target="_blank"}.
 
-## Création de vos propres playbooks (Beta) {#create}
+## Créer vos propres playbooks (Private Beta) {#create}
 
 >[!AVAILABILITY]
 >
->La création de playbooks de cas d’utilisation est actuellement disponible pour tous les clients sous la forme d’une version bêta publique.
+>La création de playbooks de cas d’utilisation n’est actuellement disponible que pour un ensemble d’organisations sous la forme d’une version bêta privée. Pour en bénéficier, contactez votre représentant ou représentante Adobe.
 
 Outre l’utilisation de playbooks prédéfinis, vous pouvez créer et partager vos propres playbooks dans Adobe Experience Platform.
 
 Vous pouvez définir des métadonnées à l’aide de l’assistance de l’IA ou d’une saisie manuelle, associer des ressources techniques telles que des schémas et des segments et partager vos playbooks dans différentes organisations IMS.
 
-Pour plus d’informations sur la création et le partage de playbooks, consultez la documentation sur les playbooks de cas d’utilisation : [Créer et partager vos propres playbooks à l’aide de l’assistant IA](https://experienceleague.adobe.com/docs/experience-platform/use-case-playbooks/playbooks/author.html?lang=fr#sharing-playbooks-sandboxes){target="_blank"}.
+Pour plus d’informations sur la création et le partage de playbooks, consultez la documentation sur les playbooks de cas d’utilisation : [Créer et partager vos propres playbooks à l’aide de l’assistant IA](https://experienceleague.adobe.com/docs/experience-platform/use-case-playbooks/playbooks/author.html?lang=en#sharing-playbooks-sandboxes){target="_blank"}.

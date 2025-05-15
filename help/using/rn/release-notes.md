@@ -6,9 +6,9 @@ feature: Release Notes
 topic: Content Management
 description: Notes de mise à jour d’Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: bfe0ce29a30cff7ba876b43d9ed7858ffaab6bb5
+source-git-commit: b4c1cb69fd67e8c74982103c68050ab56a71113a
 workflow-type: tm+mt
-source-wordcount: '1141'
+source-wordcount: '1135'
 ht-degree: 67%
 
 ---
@@ -318,9 +318,7 @@ De nouvelles API sont disponibles pour prévisualiser les campagnes, en plus des
 
 **Playbooks de cas d’utilisation**
 
-* **Création et partage de playbooks (version bêta privée)** vous pouvez désormais créer, gérer et partager vos propres playbooks de cas d’utilisation. Actuellement, cette fonctionnalité n’est disponible que pour un ensemble d’organisations sous la forme d’une version bêta privée. Pour en bénéficier, contactez votre représentant ou représentante Adobe.
-
-tous les clients sous la forme d’une version bêta publique. [En savoir plus](../start/playbooks.md)
+* **Création et partage de playbooks (version bêta privée)** vous pouvez désormais créer, gérer et partager vos propres playbooks de cas d’utilisation. Actuellement, cette fonctionnalité n’est disponible que pour un ensemble d’organisations sous la forme d’une version bêta privée. Pour obtenir l’accès, contactez votre représentant Adobe. [En savoir plus](../start/playbooks.md)
 
 **Navigation**
 
