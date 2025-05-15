@@ -61,4 +61,4 @@ Outre l’utilisation de playbooks prédéfinis, vous pouvez créer et partager 
 
 Vous pouvez définir des métadonnées à l’aide de l’assistance de l’IA ou d’une saisie manuelle, associer des ressources techniques telles que des schémas et des segments et partager vos playbooks dans différentes organisations IMS.
 
-Pour plus d’informations sur la création et le partage de playbooks, consultez la documentation sur les playbooks de cas d’utilisation : [Créer et partager vos propres playbooks à l’aide de l’assistant IA](https://experienceleague.adobe.com/docs/experience-platform/use-case-playbooks/playbooks/author.html?lang=en#sharing-playbooks-sandboxes){target="_blank"}.
+Pour plus d’informations sur la création et le partage de playbooks, consultez la documentation sur les playbooks de cas d’utilisation : [Créer et partager vos propres playbooks à l’aide de l’assistant IA](https://experienceleague.adobe.com/docs/experience-platform/use-case-playbooks/playbooks/author.html?lang=fr#sharing-playbooks-sandboxes){target="_blank"}.
