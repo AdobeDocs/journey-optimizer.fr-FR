@@ -10,7 +10,7 @@ exl-id: 3959b5fa-0c47-42a5-828f-4d7ca9b7e72d
 source-git-commit: 94de60c33c7cf1d8956294aebb91d7533534088f
 workflow-type: tm+mt
 source-wordcount: '369'
-ht-degree: 48%
+ht-degree: 66%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 48%
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_build_audience"
 >title="Activité Créer une audience"
->abstract="L’activité **Créer une audience** vous permet de définir l’audience qui va rejoindre la campagne orchestrée. Lors de l’envoi de messages dans le cadre d’une campagne orchestrée, l’audience du message n’est pas définie dans l’activité de canal, mais dans l’activité **Créer une audience**."
+>abstract="L’activité **Créer une audience** vous permet de définir l’audience qui va entrer dans la campagne orchestrée. Lors de l’envoi de messages dans le cadre d’une campagne orchestrée, l’audience du message n’est pas définie dans l’activité de canal, mais dans l’activité **Créer une audience**."
 
 En tant que spécialiste marketing, vous pouvez facilement créer des requêtes complexes à l’aide d’une interface conviviale. Cela me permet de segmenter votre audience en fonction d’un large éventail de critères et de comportements, afin d’adapter plus efficacement vos campagnes.
 

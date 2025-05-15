@@ -11,7 +11,7 @@ exl-id: b1b7abbe-8600-4a8d-b0b5-0dbd49abc275
 source-git-commit: 0f3191a3d7c5c78e1d8fac2e587e26522f02f8f5
 workflow-type: tm+mt
 source-wordcount: '1463'
-ht-degree: 33%
+ht-degree: 39%
 
 ---
 
@@ -183,8 +183,8 @@ Vous pouvez désormais personnaliser davantage votre marque ou [publier votre ma
 
 >[!CONTEXTUALHELP]
 >id="ajo_brand_writing_style"
->title="Score d&#39;alignement du style d&#39;écriture"
->abstract="La section Style d’écriture définit des normes de langue, de mise en forme et de structure pour garantir un contenu clair et cohérent. Le score d’alignement, noté de haut en bas, montre dans quelle mesure votre contenu suit ces directives et met en évidence les domaines à améliorer."
+>title="Score d’alignement du style d’écriture"
+>abstract="La section Style d’écriture définit des normes de langue, de mise en forme et de structure pour garantir un contenu clair et cohérent. Le score d’alignement, noté d’élevé à faible, montre dans quelle mesure votre contenu suit ces directives et met en évidence les domaines à améliorer."
 
 La section **[!UICONTROL Style d’écriture]** décrit les normes d’écriture de contenu et explique en détail comment la langue, le formatage et la structure doivent être utilisés pour garantir la clarté, la cohérence et l’homogénéité de l’ensemble des ressources.
 
@@ -290,7 +290,7 @@ Vous pouvez désormais personnaliser davantage votre marque ou [publier votre ma
 >[!CONTEXTUALHELP]
 >id="ajo_brand_imagery"
 >title="Score d’alignement du contenu visuel"
->abstract="Le score d’alignement du contenu visuel indique dans quelle mesure votre contenu correspond aux directives de votre marque configurée. Noté de haut en bas, il vous permet d’évaluer l’alignement en un coup d’œil. Explorez les différentes catégories pour identifier les domaines à améliorer et identifier les éléments qui peuvent être hors marque."
+>abstract="Le score d’alignement du contenu visuel indique dans quelle mesure votre contenu correspond aux directives configurées de votre marque. Noté d’élevé à faible, il vous permet d’évaluer l’alignement en un seul coup d’œil. Explorez les différentes catégories pour identifier les domaines à améliorer et déterminer les éléments qui peuvent ne pas être conformes à la marque."
 
 La section **[!UICONTROL Contenu visuel]** définit les normes en matière d’imagerie et de conception, en détaillant les spécifications nécessaires pour conserver une apparence de marque unifiée et cohérente.
 

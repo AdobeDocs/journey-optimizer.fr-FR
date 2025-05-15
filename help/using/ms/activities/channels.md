@@ -22,7 +22,7 @@ Vous pouvez par exemple créer une campagne de bienvenue par e-mail qui inclut u
 
 Grâce aux activités de canal, vous pouvez créer des campagnes personnalisées et complètes qui impliquent la clientèle sur plusieurs touchpoints et génèrent des conversions.
 
-## Conditions préalables {#channel-activity-prereq}
+## Prérequis {#channel-activity-prereq}
 
 Commencez à créer votre campagne orchestrée avec les activités pertinentes :
 
@@ -49,7 +49,7 @@ Commencez à créer votre campagne orchestrée avec les activités pertinentes :
 
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_push_android"
->title="Activité notification push Android"
+>title="Activité Notification push Android"
 >abstract="L’activité Notification push Android permet d’envoyer des notifications push Android dans le cadre de votre campagne à plusieurs étapes. Elle permet la diffusion de messages ponctuels et récurrents, en automatisant l’envoi de notifications push Android à une cible prédéfinie dans la même campagne à plusieurs étapes. Vous pouvez combiner des activités de canal dans la zone de travail de campagne à plusieurs étapes, afin de créer des campagnes cross-canal pouvant déclencher des actions en fonction du comportement de la clientèle et des données."
 
 >[!CONTEXTUALHELP]

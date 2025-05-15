@@ -9,7 +9,7 @@ exl-id: 5fc2d1d6-75c3-4b45-bb2b-09982b9bd5ed
 source-git-commit: cc89e09df989ad4bdfe1ecb855bc2a6eedea9676
 workflow-type: tm+mt
 source-wordcount: '1124'
-ht-degree: 35%
+ht-degree: 40%
 
 ---
 
@@ -29,7 +29,7 @@ Une fois que vous avez créé et conçu les tâches à effectuer dans la zone de
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_scheduler"
 >title="Activité Planificateur"
->abstract="La campagne **Planificateur** vous permet de planifier le démarrage de la campagne orchestrée. Cette activité est à considérer comme un démarrage planifié. Elle ne peut être utilisée que comme première activité de la campagne orchestrée."
+>abstract="L’activité **Planificateur** vous permet de planifier le moment du démarrage de la campagne orchestrée. Cette activité est à considérer comme un démarrage planifié. Elle ne peut être utilisée que comme première activité de la campagne orchestrée."
 
 En tant que responsable de campagne, vous pouvez planifier des campagnes pour les lancer automatiquement à des heures spécifiques, ce qui permet d’obtenir un timing précis et des données de ciblage précises pour les communications marketing.
 
@@ -129,8 +129,8 @@ Les indicateurs visuels situés dans le coin supérieur droit de chaque activit�
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_logs"
->title="Journaux et tâches"
->abstract="L’écran **Logs et tâches** fournit un historique de l’exécution de la campagne orchestrée, enregistrant toutes les actions des utilisateurs et utilisatrices ainsi que les erreurs rencontrées."
+>title="Logs et tâches"
+>abstract="L’écran **Logs et tâches** fournit un historique de l’exécution de la campagne orchestrée : il consigne toutes les actions de l’utilisateur ou de l’utilisatrice, ainsi que les erreurs rencontrées."
 
 La surveillance des logs et des tâches est une étape essentielle pour analyser vos campagnes orchestrées et vérifier qu’elles s’exécutent correctement. Les logs sont accessibles à partir de l’icône **[!UICONTROL Logs]**, située dans la barre d’outils d’actions et dans le volet des propriétés de chaque activité.
 

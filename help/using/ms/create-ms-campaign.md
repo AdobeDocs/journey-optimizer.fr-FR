@@ -10,7 +10,7 @@ exl-id: 13da680d-fef8-4749-9190-8ca3d77b060a
 source-git-commit: bdc584c1aae0c735d81dfc95e11f96f755bea26a
 workflow-type: tm+mt
 source-wordcount: '707'
-ht-degree: 14%
+ht-degree: 31%
 
 ---
 
@@ -18,10 +18,10 @@ ht-degree: 14%
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_creation_workflow"
->title="Liste des campagnes orchestrées"
->abstract="L’onglet **à plusieurs étapes** répertorie toutes les campagnes orchestrées. Cliquez sur le nom d’une campagne orchestrée pour la modifier. Utilisez le bouton **Créer une campagne orchestrée** pour ajouter une nouvelle campagne orchestrée."
+>title="Liste de campagnes orchestrées"
+>abstract="L’onglet **Étapes multiples** répertorie toutes les campagnes orchestrées. Cliquez sur le nom d’une campagne orchestrée pour la modifier. Cliquez sur le bouton **Créer une campagne orchestrée** pour ajouter une nouvelle campagne orchestrée."
 
-## Conditions préalables
+## Prérequis
 
 ### Autorisations
 
@@ -48,19 +48,19 @@ Pour créer une campagne orchestrée, procédez comme suit :
 
 Votre campagne orchestrée est maintenant créée et disponible dans la liste des workflows. Vous pouvez maintenant accéder à sa zone de travail visuelle et commencer à ajouter, configurer et orchestrer les tâches qu’il exécutera. [Découvrez comment orchestrer des activités de campagne orchestrées](orchestrate-activities.md).
 
-## Utiliser des modèles de campagne orchestrés {#campaign-templates}
+## Utiliser des modèles de campagnes orchestrées {#campaign-templates}
 
 >[!CONTEXTUALHELP]
 >id="ajo_workflow_template_for_campaign"
->title="Modèles de campagne orchestrés"
->abstract="Les modèles de campagne orchestrée contiennent des paramètres préconfigurés et des activités qui peuvent être réutilisés pour créer une campagne orchestrée."
+>title="Modèles de campagnes orchestrées"
+>abstract="Les modèles de campagnes orchestrées contiennent des activités et des paramètres préconfigurés qui peuvent être réutilisés pour créer d’autres campagnes orchestrées."
 
 >[!CONTEXTUALHELP]
 >id="ajo_workflow_template_creation_properties"
->title="Propriétés de campagne orchestrées"
->abstract="Les modèles de campagne orchestrée contiennent des paramètres préconfigurés et des activités qui peuvent être réutilisés pour créer de nouvelles campagnes orchestrées. Dans cet écran, saisissez le libellé du modèle de campagne orchestré et configurez ses paramètres tels que son nom interne, ses dossiers et d&#39;exécution, son fuseau horaire et son groupe de superviseurs."
+>title="Propriétés des campagnes orchestrées"
+>abstract="Les modèles de campagnes orchestrées contiennent des activités et des paramètres préconfigurés qui peuvent être réutilisés pour créer d’autres campagnes orchestrées. Dans cet écran, saisissez le libellé du modèle de campagne orchestrée et configurez ses paramètres, notamment avec son nom interne, son dossier et ses dossiers d’exécution, son fuseau horaire et son groupe de supervision."
 
-Les modèles de campagne orchestrée contiennent des paramètres préconfigurés et des activités qui peuvent être réutilisés pour créer de nouvelles campagnes orchestrées. Vous pouvez sélectionner le modèle de votre campagne orchestrée dans les propriétés de la campagne orchestrée lors de la création d’une campagne orchestrée. Un modèle vide est fourni par défaut.
+Les modèles de campagnes orchestrées contiennent des activités et des paramètres préconfigurés qui peuvent être réutilisés pour créer d’autres campagnes orchestrées. Vous pouvez sélectionner le modèle de votre campagne orchestrée dans les propriétés de la campagne orchestrée lors de la création d’une campagne orchestrée. Un modèle vide est fourni par défaut.
 
 Vous pouvez créer un modèle à partir d’une campagne orchestrée existante, ou créer un nouveau modèle à partir de zéro. Les deux méthodes sont présentées ci-dessous.
 

@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Configurer les paramètres de la campagne orchestrée
+title: Configurer des paramètres de campagne orchestrée
 description: Découvrez comment configurer les paramètres de campagnes orchestrées avec Adobe Journey Optimizer
 badge: label="Alpha"
 hide: true
@@ -10,16 +10,16 @@ exl-id: a9bb3782-a4d1-43fe-ae2a-aef3f17ba588
 source-git-commit: 3d33d0bdbaf5b56a68d4ea708ce023c6aaae4811
 workflow-type: tm+mt
 source-wordcount: '1040'
-ht-degree: 20%
+ht-degree: 40%
 
 ---
 
-# Configurer les paramètres de la campagne orchestrée {#workflow-settings}
+# Configurer des paramètres de campagne orchestrée {#workflow-settings}
 
 >[!CONTEXTUALHELP]
 >id="ajo_workflow_creation_properties"
->title="Propriétés de campagne orchestrées"
->abstract="Dans cet écran, choisissez le modèle à utiliser pour créer la campagne orchestrée et indiquez un libellé. Développez la section **Options supplémentaires** pour configurer d’autres paramètres tels que le nom interne de la campagne orchestrée, son dossier, son fuseau horaire et son groupe de superviseurs. Il est vivement recommandé de sélectionner un groupe de supervision afin d’alerter les opérateurs et opératrices en cas d’erreur."
+>title="Propriétés des campagnes orchestrées"
+>abstract="Dans cet écran, choisissez le modèle à utiliser pour créer la campagne orchestrée et indiquez un libellé. Développez la section **Options supplémentaires** pour configurer d’autres paramètres, tels que le nom interne de la campagne orchestrée, son dossier, son fuseau horaire et son groupe de supervision. Il est vivement recommandé de sélectionner un groupe de supervision afin d’alerter les opérateurs et opératrices en cas d’erreur."
 
 Lors de la création d’une campagne orchestrée ou de l’orchestration des activités de campagne dans la zone de travail, vous pouvez accéder aux paramètres avancés de la campagne orchestrée. Par exemple, vous pouvez définir un fuseau horaire spécifique pour la campagne orchestrée, gérer le comportement de la campagne orchestrée en cas d’erreur ou gérer le délai après lequel l’historique de la campagne orchestrée doit être purgé.
 
@@ -27,12 +27,12 @@ Ces paramètres sont préconfigurés dans le modèle sélectionné lors de la cr
 
 ![](assets/workflow-settings-button.png){zoomable="yes"}{width="70%" align="left"}
 
-## Propriétés de campagne orchestrées {#properties}
+## Propriétés des campagnes orchestrées {#properties}
 
 >[!CONTEXTUALHELP]
 >id="ajo_workflow_settings_properties"
->title="Propriétés de campagne orchestrées"
->abstract="Cette section fournit des propriétés de campagne orchestrées génériques, qui sont également accessibles lors de la création de la campagne orchestrée. Vous pouvez choisir le modèle à utiliser pour créer la campagne orchestrée et spécifier un libellé. Développez la section Options supplémentaires pour configurer des paramètres spécifiques tels que le dossier de stockage de la campagne orchestrée ou le fuseau horaire."
+>title="Propriétés des campagnes orchestrées"
+>abstract="Cette section fournit des propriétés de campagnes orchestrées génériques, lesquelles sont également accessibles lors de la création de la campagne orchestrée. Vous pouvez choisir le modèle à utiliser pour créer la campagne orchestrée et indiquer un libellé. Développez la section Options supplémentaires pour configurer des paramètres spécifiques, tels que le dossier de stockage ou le fuseau horaire de la campagne orchestrée."
 
 La section **[!UICONTROL Propriétés]** fournit des paramètres génériques qui peuvent être configurés lors de la création d’une campagne orchestrée. Pour accéder aux propriétés d’une campagne orchestrée existante, cliquez sur le bouton **[!UICONTROL Paramètres]** disponible dans la barre d’actions située au-dessus de la zone de travail de la campagne orchestrée.
 
@@ -59,7 +59,7 @@ Les valeurs possibles sont les suivantes :
 >[!CONTEXTUALHELP]
 >id="ajo_workflow_settings_segmentation"
 >title="Paramètres de segmentation"
->abstract="Dans cette section, vous pouvez sélectionner la dimension de ciblage pour cibler les profils dans la campagne orchestrée et choisir de conserver les résultats du workflow entre deux exécutions. Cette option ne doit être utilisée qu’à des fins de test. Elle ne doit en aucun cas être activée dans une campagne orchestrée en production."
+>abstract="Cette section vous permet de sélectionner la dimension de ciblage pour cibler les profils dans la campagne orchestrée et de conserver ou non les résultats du workflow entre deux exécutions. Cette option ne doit être utilisée qu’à des fins de test. Elle ne doit en aucun cas être activée dans une campagne orchestrée de production."
 
 * **[!UICONTROL Dimension de ciblage]** : sélectionnez la dimension de ciblage à utiliser pour cibler les profils (destinataires, bénéficiaires d’un contrat, opérateur ou opératrice, abonnées et abonnés, etc.).
 
@@ -72,7 +72,7 @@ Les valeurs possibles sont les suivantes :
 >[!CONTEXTUALHELP]
 >id="ajo_workflow_settings_execution"
 >title="Paramètres d’exécution"
->abstract="Dans cette section, vous pouvez configurer les paramètres liés à l’exécution du workflow, tels que le nombre de jours pendant lesquels l’historique de la campagne orchestrée est conservé."
+>abstract="Dans cette section, vous pouvez définir les paramètres relatifs à l’exécution du workflow, comme le nombre de jours pendant lesquels l’historique de la campagne orchestrée est conservé."
 
 * **[!UICONTROL Jours d’historique]** : indique le nombre de jours après lesquels l’historique doit être purgé. L’historique contient des éléments liés à la campagne orchestrée : logs, tâches, événements (objets techniques liés à l’opération de la campagne orchestrée). La valeur par défaut est de 30 jours pour les modèles de campagne orchestrés prêts à l’emploi. La purge de l’historique est effectuée par la campagne technique orchestrée de nettoyage de la base de données, qui est exécutée par défaut tous les jours
 
@@ -94,7 +94,7 @@ Les valeurs possibles sont les suivantes :
 >[!CONTEXTUALHELP]
 >id="ajo_workflow_settings_error"
 >title="Paramètres de gestion des erreurs"
->abstract="Dans cette section, vous pouvez définir comment la campagne orchestrée doit gérer les erreurs lors de son exécution. Vous pouvez choisir de suspendre le processus, d’ignorer un certain nombre d’erreurs ou d’arrêter l’exécution de la campagne orchestrée."
+>abstract="Dans cette section, vous pouvez définir la façon dont la campagne orchestrée doit gérer les erreurs lors de son exécution. Vous pouvez choisir de suspendre le processus, d’ignorer un certain nombre d’erreurs ou d’arrêter l’exécution de la campagne orchestrée."
 
 * **[!UICONTROL Gestion des erreurs]** : ce champ vous permet de définir les actions à effectuer si une tâche de campagne orchestrée est en erreur. Trois choix s’offrent à vous :
 
