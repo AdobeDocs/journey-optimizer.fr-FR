@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Notes de mise à jour d’Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 07704f99aff7d92e8db76755f6617345bac56590
+source-git-commit: 23cd384354a7b3f6a4c6c35030fbd9275952c0b1
 workflow-type: tm+mt
-source-wordcount: '1085'
-ht-degree: 70%
+source-wordcount: '1011'
+ht-degree: 72%
 
 ---
 
@@ -24,25 +24,17 @@ ht-degree: 70%
 
 ## Mises à jour de mai 2025 {#25-5-rn}
 
-* **Thèmes dans le Designer des emails (Beta)** - Date de disponibilité : 14 mai 2025
-
-  Vous pouvez désormais rapidement appliquer des thèmes de style préapprouvés à votre contenu d’e-mail afin d’assurer la cohérence de la marque dans tous les e-mails, d’accélérer votre processus de création de campagne et de produire indépendamment des e-mails de haute qualité tout en réduisant la dépendance aux équipes de conception. [En savoir plus](../email/apply-email-themes.md)
-
-  >[!AVAILABILITY]
-  >
-  >Cette fonctionnalité est actuellement en version bêta et disponible uniquement pour les clientes et clients bêta. Pour rejoindre le programme bêta, contactez votre représentant ou représentante Adobe.
-
-  ![](assets/do-not-localize/themes.gif)
-
-* **Decisioning - New AI Formula builder** - Date de disponibilité : 14 mai 2025
-
-  Vous pouvez désormais créer des formules de classement de prise de décision spécifiques en définissant et en combinant des critères à partir d’une nouvelle interface améliorée. Au lieu de vous fier uniquement à une priorité d’offre statique, vous pouvez définir des formules de classement personnalisées qui combinent les scores du modèle d’IA, les priorités d’offre, les attributs de profil, les attributs d’offre et les signaux contextuels par le biais d’une interface guidée. [En savoir plus](../experience-decisioning/exd-ranking-formulas.md)
-
-  ![](assets/do-not-localize/formula-builder.gif)
-
 * **Dossiers pour les pages de destination** - Date de disponibilité : samedi 9 mai 2025
 
   Pour gérer facilement vos pages de destination, vous pouvez désormais utiliser des dossiers pour les organiser plus efficacement dans une hiérarchie rationalisée.  [En savoir plus](../landing-pages/manage-lp.md)
+<!--
+* **Decisioning - New AI formula builder**  - Availability date: May 7, 2025
+
+  You can now create specific Decisioning ranking formulas by defining and combining criteria from a new improved interface. Instead of relying only on a static offer priority, you can define custom ranking formulas that combine AI model scores, offer priorities, profile attributes, offer attributes, and contextual signals through a guided interface.
+  
+  For more information, refer to the [detailed documentation](../experience-decisioning/exd-ranking-formulas.md)
+
+  ![](assets/do-not-localize/formula-builder.gif)-->
 
 * **Activation des pilules pour la personnalisation** - Date de disponibilité : 5 mai 2025
 
@@ -51,6 +43,10 @@ ht-degree: 70%
   >[!AVAILABILITY]
   >
   >Cette fonctionnalité sera progressivement déployée dans tous les environnements au cours des 30 prochains jours.
+
+* **Prise en charge des nouveaux objets de campagne pour la copie de sandbox** <!-- - Availability date: -->
+
+  Lors de la copie de campagnes sur plusieurs sandbox à l’aide des fonctionnalités d’exportation et d’importation de package, les dépendances suivantes sont désormais également copiées : configurations de canal, variantes et paramètres d’expérience, politiques de décision et éléments. [En savoir plus](../configuration/copy-objects-to-sandbox.md)
 
 ## Notes de mise à jour d’avril 2025 {#25-4-rn}
 
@@ -314,7 +310,9 @@ De nouvelles API sont disponibles pour prévisualiser les campagnes, en plus des
 
 **Playbooks de cas d’utilisation**
 
-* **Création et partage de playbooks (Beta)** - Vous pouvez désormais créer, gérer et partager vos propres playbooks de cas d’utilisation. Cette fonctionnalité est actuellement disponible à tous les clients sous la forme d’une version Beta publique. [En savoir plus](../start/playbooks.md)
+* **Création et partage de playbooks (version bêta privée)** vous pouvez désormais créer, gérer et partager vos propres playbooks de cas d’utilisation. Actuellement, cette fonctionnalité n’est disponible que pour un ensemble d’organisations sous la forme d’une version bêta privée. Pour en bénéficier, contactez votre représentant ou représentante Adobe.
+
+tous les clients sous la forme d’une version bêta publique. [En savoir plus](../start/playbooks.md)
 
 **Navigation**
 

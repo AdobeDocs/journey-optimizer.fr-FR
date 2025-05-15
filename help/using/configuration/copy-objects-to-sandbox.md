@@ -9,10 +9,10 @@ role: User, Developer, Data Engineer
 level: Experienced
 keywords: sandbox, parcours, copier, environnement
 exl-id: 356d56a5-9a90-4eba-9875-c7ba96967da9
-source-git-commit: 0f3191a3d7c5c78e1d8fac2e587e26522f02f8f5
+source-git-commit: 23cd384354a7b3f6a4c6c35030fbd9275952c0b1
 workflow-type: tm+mt
-source-wordcount: '1212'
-ht-degree: 85%
+source-wordcount: '1284'
+ht-degree: 78%
 
 ---
 
@@ -61,18 +61,18 @@ Journey Optimizer permet d’exporter des parcours, des actions personnalisées,
 
 ### Campagnes {#campaigns}
 
-Les campagnes sont copiées avec tous les éléments liés au profil, à l’audience, au schéma, aux messages en ligne et aux objets dépendants.
+Les campagnes sont copiées avec tous les éléments liés au profil, à l’audience, au schéma, aux messages en ligne et aux objets dépendants. Toutefois, les éléments suivants **ne sont pas** copiés :
 
-Toutefois, les éléments suivants **ne sont pas** copiés :
+* les variantes multilingues et les paramètres de langue ;
+* Règles de gestion,
+* Balises,
+* Étiquettes DULE (Data Usage Labeling and Enforcement).
 
-* Variantes multilingues et paramètres de langue
-* Variantes d’expérience
-* Politiques de décision et éléments de décision
-* Règles métier
-* Balises
-* Libellés DULE (application et libellé d’utilisation des données)
+Lors de la copie de campagnes, assurez-vous que les objets répertoriés ci-dessous sont validés dans le sandbox cible afin d’éviter toute erreur de configuration :
 
-Une fois les campagnes copiées, les configurations de canal doivent être sélectionnées manuellement.
+* **Configurations de canal** : les configurations de canal sont copiées avec les campagnes. Une fois les campagnes copiées, les configurations de canal doivent être sélectionnées manuellement dans le sandbox cible.
+* **Variantes et paramètres d’expérience** : les variantes et paramètres d’expérience sont inclus dans le processus de copie de la campagne. Validez ces paramètres dans le sandbox cible après l’importation.
+* **Prise de décision unifiée** : les politiques de décision et les éléments de décision sont pris en charge pour l’exportation et l’importation. Assurez-vous que les dépendances liées aux décisions sont correctement mappées dans le sandbox cible.
 
 ### Modèles de contenu {#content-templates}
 
