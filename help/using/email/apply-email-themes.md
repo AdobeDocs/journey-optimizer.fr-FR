@@ -8,13 +8,13 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 keywords: Thèmes d’e-mail, modules, réutilisation, cohérence de la marque, conception d’e-mail, CSS personnalisé, optimisation mobile
-source-git-commit: d550765b378bfa2fdf0638da01c297792e0876ef
+exl-id: e81d9634-bbff-44d0-8cd7-e86f85075c06
+source-git-commit: bfe0ce29a30cff7ba876b43d9ed7858ffaab6bb5
 workflow-type: tm+mt
 source-wordcount: '821'
 ht-degree: 3%
 
 ---
-
 
 # Appliquer des thèmes au contenu de votre e-mail {#apply-email-themes}
 
@@ -172,5 +172,3 @@ Vous pouvez changer de thème à tout moment. Le contenu de l’e-mail reste inc
 
 ### 2. Switching Themes
 - A marketer applies a holiday-themed design to an existing email by switching to a pre-designed holiday theme.-->
-
-
