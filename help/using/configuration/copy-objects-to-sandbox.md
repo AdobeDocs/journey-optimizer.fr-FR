@@ -9,10 +9,10 @@ role: User, Developer, Data Engineer
 level: Experienced
 keywords: sandbox, parcours, copier, environnement
 exl-id: 356d56a5-9a90-4eba-9875-c7ba96967da9
-source-git-commit: 23cd384354a7b3f6a4c6c35030fbd9275952c0b1
+source-git-commit: 0ad4c6a9024ea91d502ca2a733117f58c63ca50b
 workflow-type: tm+mt
-source-wordcount: '1284'
-ht-degree: 78%
+source-wordcount: '1375'
+ht-degree: 73%
 
 ---
 
@@ -81,6 +81,18 @@ Lors de la copie de campagnes, assurez-vous que les objets répertoriés ci-dess
 * L’export de modèles de contenu peut parfois entraîner une duplication de fragments. Par exemple, si deux modèles partagent le même fragment et sont copiés dans des packages distincts, les deux modèles devront réutiliser le même fragment dans le sandbox cible. Pour éviter la duplication, sélectionnez l’option « Utiliser le fragment existant » lors du processus d’import. [Découvrir comment importer un package](#import)
 
 * Pour éviter toute duplication, il est recommandé d’exporter les modèles de contenu dans un seul package. Cela permet au système de gérer efficacement la déduplication.
+
+### Prise de décisions {#decisioning}
+
+* Les objets ci-dessous doivent être présents dans le sandbox de destination avant de copier les objets Decisioning :
+
+   * les attributs de profil utilisés dans les objets Decisioning,
+   * Le groupe de champs des attributs d’offre personnalisés,
+   * Les schémas des flux de données utilisés pour les attributs de contexte dans les règles, le classement ou la limitation.
+
+* La copie de sandbox pour les formules de classement avec des modèles d’IA n’est actuellement pas prise en charge.
+
+* Lors de la copie d&#39;entités de prise de décision, veillez à copier les éléments de décision **avant** tout autre objet. Par exemple, si vous copiez une collection en premier et qu’il n’existe aucune offre dans le nouveau sandbox, cette nouvelle collection reste vide.
 
 ### Fragments {#fragments}
 

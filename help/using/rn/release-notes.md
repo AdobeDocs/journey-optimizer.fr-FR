@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Notes de mise à jour d’Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: d7ac73800a793fa5fec5d402e15e4f84db084f89
+source-git-commit: 0ad4c6a9024ea91d502ca2a733117f58c63ca50b
 workflow-type: tm+mt
-source-wordcount: '1140'
-ht-degree: 67%
+source-wordcount: '1157'
+ht-degree: 69%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 67%
 
 [!DNL Adobe Journey Optimizer] offre en permanence de nouvelles fonctionnalités, des améliorations des fonctionnalités existantes et des correctifs. Toutes les modifications sont consolidées la dernière semaine de chaque mois dans ces notes de mise à jour. [!DNL Adobe Journey Optimizer] est créée de manière native sur [!DNL Adobe Experience Platform] et hérite de ses dernières innovations et améliorations. En savoir plus sur ces modifications dans les [Notes de mise à jour d’Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=fr){target="_blank"}.
 
-## Mises à jour de mai 2025 {#25-5-rn}
+## Mises à jour de mai 2025 {#25-5-rn}
 
 * **Thèmes dans le Designer des emails (Beta)** - Date de disponibilité : 14 mai 2025
 
@@ -52,9 +52,15 @@ ht-degree: 67%
   >
   >Cette fonctionnalité sera progressivement déployée dans tous les environnements au cours des 30 prochains jours.
 
-* **Nouvelle prise en charge des objets de campagne pour la copie de sandbox** - Date de disponibilité : 15 mai 2025
+* **Prise en charge de nouveaux objets pour la copie de sandbox**
 
-  Lors de la copie de campagnes sur plusieurs sandbox à l’aide des fonctionnalités d’exportation et d’importation de package, les dépendances suivantes sont désormais également copiées : configurations de canal, variantes et paramètres d’expérience, politiques de décision et éléments. [En savoir plus](../configuration/copy-objects-to-sandbox.md)
+   * **Campagnes** - Date de disponibilité : 15 mai 2025
+
+     Lors de la copie de campagnes sur plusieurs sandbox à l’aide des fonctionnalités d’exportation et d’importation de package, les dépendances suivantes sont désormais également copiées : configurations de canal, variantes et paramètres d’expérience, politiques de décision et éléments. [En savoir plus](../configuration/copy-objects-to-sandbox.md)
+
+   * **Decisioning** - Date de disponibilité : 16 mai 2025
+
+     Les objets de prise de décision peuvent désormais être copiés entre les sandbox, ce qui simplifie les workflows de test et de déploiement. [En savoir plus](../configuration/copy-objects-to-sandbox.md#decisioning)
 
 ## Notes de mise à jour d’avril 2025 {#25-4-rn}
 
@@ -248,7 +254,7 @@ Les nouvelles fonctionnalités de cette version sont répertoriées ci-dessous.
 <tbody>
 <tr>
 <td>
-<p>La fonction Score d’alignement de la marque offre des commentaires clairs directement dans le concepteur d’e-mail, ce qui vous permet de voir si votre contenu correspond au ton, au style et aux directives de votre marque. Cette fonctionnalité est disponible dans Beta.</p>
+<p>La fonction Score d’alignement sur la marque fournit des commentaires clairs directement dans le concepteur d’e-mail, ce qui vous permet de voir si votre contenu correspond au ton, au style et aux règles de votre marque. Cette fonctionnalité est disponible en version bêta.</p>
 <p>Pour plus d’informations, consultez la <a href="../content-management/brands-score.md">documentation détaillée</a>.</p>
 <img src="assets/do-not-localize/brand-score.gif">
 </td>
@@ -283,10 +289,6 @@ Les nouvelles fonctionnalités de cette version sont répertoriées ci-dessous.
 De nouvelles API sont disponibles pour prévisualiser les campagnes, en plus des fonctionnalités existantes d’envoi de BAT. [En savoir plus](https://developer.adobe.com/journey-optimizer-apis/references/simulations/#operation/createCampaignPreview){target="_blank"}.
 
 **Outils relatifs aux sandbox**
-
-<!--- **Decisioning sandbox copy**
-
-  Decisioning objects can now be copied between sandboxes, streamlining testing and deployment workflows.-->
 
 * **Outils relatifs aux sandbox pour les actions personnalisées**
 
