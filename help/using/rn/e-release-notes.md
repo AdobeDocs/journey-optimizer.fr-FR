@@ -8,9 +8,9 @@ topic: Content Management
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 264927ba06ccb8cb1c7e7709e8fef053c1b37608
+source-git-commit: 4deb0b34266816e45c77c9b4d7328431995197fa
 workflow-type: tm+mt
-source-wordcount: '1554'
+source-wordcount: '1513'
 ht-degree: 23%
 
 ---
@@ -292,9 +292,6 @@ Lors de la copie de campagnes sur plusieurs sandbox à l’aide des fonctionnali
 
 * **Sous-domaines - Méthode &#39;Aucune délégation&#39;**\
   Outre la délégation complète et la méthode CNAME, une nouvelle méthode de configuration de sous-domaine est désormais disponible : la méthode Aucune délégation, qui vous permet de posséder entièrement le contrôle et la maintenance de tous les aspects du DNS nécessaires à la diffusion, au rendu et au suivi des messages.
-
-* **Prise en charge des sources de données personnalisées dans Personalization**\
-  Vous pouvez désormais créer une requête et extraire des données d’une source externe (c’est-à-dire, non stockée dans Adobe Experience Platform) pour les utiliser dans les surfaces entrantes et sortantes de Journey Optimizer à des fins de personnalisation et d’orchestration de parcours.
 
 * **Courrier - Prise en charge SSH**\
   Outre le type d’authentification SFTP avec mot de passe existant, vous pouvez désormais exporter votre fichier de publipostage direct vers un serveur SFTP avec authentification par clé SSH.
