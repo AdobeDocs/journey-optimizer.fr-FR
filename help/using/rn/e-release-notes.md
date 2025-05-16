@@ -8,10 +8,10 @@ topic: Content Management
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 3f22c2cd744cb9016f48a5df46c0c903ccce617d
+source-git-commit: 264927ba06ccb8cb1c7e7709e8fef053c1b37608
 workflow-type: tm+mt
-source-wordcount: '1504'
-ht-degree: 25%
+source-wordcount: '1554'
+ht-degree: 23%
 
 ---
 
@@ -229,6 +229,24 @@ Les nouvelles fonctionnalités de cette version sont présentées ci-dessous.
 </table>
 
 
+<table>
+<thead>
+<tr>
+<th><strong>ID supplémentaire pour les parcours déclenchés par un événement</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Vous pouvez désormais déclencher des parcours à l’aide d’un identifiant de profil ainsi que d’un autre identifiant, tel qu’un identifiant de commande, d’abonnement ou de prescription, ce qui permet au même profil de se trouver plusieurs fois dans le même parcours à la fois. Cela permet des scénarios tels que la gestion de plusieurs commandes ou abonnements en parallèle, chaque instance suivant son propre chemin d’accès dans le parcours.</p>
+<p>Cette fonctionnalité est disponible uniquement pour un nombre limité d’organisations (disponibilité limitée). Pour en bénéficier, contactez votre représentant ou représentante Adobe.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+
+
 ### Améliorations {#25-05-improv}
 
 Les améliorations apportées à cette version sont répertoriées ci-dessous.
@@ -250,12 +268,11 @@ Pour gérer facilement vos pages de destination, vous pouvez désormais utiliser
 * **Prise de décision - Utilisation des jeux de données Adobe Experience Platform**\
   Journey Optimizer vous permet désormais d’exploiter les jeux de données Adobe Experience Platform dans les objets Decisioning suivants : règles d’éligibilité, formules de classement et règles de limitation.
 
-* **Dossiers dans les modèles et les fragments (Disponibilité générale)**\
-  Auparavant disponibles pour un certain nombre d’organisations (disponibilité limitée), les dossiers sont désormais accessibles à tous les utilisateurs et utilisatrices (disponibilité générale) pour gérer les modèles et fragments de contenu. Les dossiers vous permettent d’organiser les modèles et fragments de contenu plus facilement et plus efficacement dans une hiérarchie structurée.
+* **Dossiers dans les modèles et les fragments**\
+  Les dossiers vous permettent d’organiser vos modèles et fragments de contenu plus facilement et plus efficacement dans une hiérarchie structurée. Auparavant disponibles pour un ensemble d’organisations (LA), les dossiers sont désormais accessibles à tous les utilisateurs (GA) pour gérer leurs modèles et fragments de contenu.
 
 * **Prise en charge des nouveaux objets de campagne pour la copie de sandbox** <!-- - Availability date: -->
-
-  Lors de la copie de campagnes sur plusieurs sandbox à l’aide des fonctionnalités d’exportation et d’importation de package, les dépendances suivantes sont désormais également copiées : configurations de canal, variantes et paramètres d’expérience, politiques de décision et éléments. [En savoir plus](../configuration/copy-objects-to-sandbox.md)
+Lors de la copie de campagnes sur plusieurs sandbox à l’aide des fonctionnalités d’exportation et d’importation de package, les dépendances suivantes sont désormais également copiées : configurations de canal, variantes et paramètres d’expérience, politiques de décision et éléments. [En savoir plus](../configuration/copy-objects-to-sandbox.md)
 
 * **&#39;Prise en charge de la redirection vers une URL&#39; dans le canal web**\
   Le canal web Journey Optimizer vous permet désormais de rediriger les visiteurs et visiteuses vers une autre URL existante plutôt que de créer une nouvelle variation dans l’éditeur visuel. Cette fonctionnalité peut être utilisée pour exécuter des expériences en comparant deux pages complètement différentes au lieu de simplement modifier quelques éléments dans une page.
@@ -272,11 +289,12 @@ Pour gérer facilement vos pages de destination, vous pouvez désormais utiliser
 * **Prise en charge des attributs d’élément de décision pour les règles de prise de décision**\
   Vous pouvez désormais tirer parti des attributs d’élément de décision pour créer des règles de prise de décision.
 
-* **Rentrée De Parcours Multiples**\
-  Vous pouvez désormais déclencher des parcours à l’aide d’un identifiant de profil ainsi que d’un autre identifiant, tel qu’un identifiant de commande, d’abonnement ou de prescription, ce qui permet au même profil de se trouver plusieurs fois dans le même parcours à la fois. Cela permet des scénarios tels que la gestion de plusieurs commandes ou abonnements en parallèle, chaque instance suivant son propre chemin d’accès dans le parcours.
 
 * **Sous-domaines - Méthode &#39;Aucune délégation&#39;**\
   Outre la délégation complète et la méthode CNAME, une nouvelle méthode de configuration de sous-domaine est désormais disponible : la méthode Aucune délégation, qui vous permet de posséder entièrement le contrôle et la maintenance de tous les aspects du DNS nécessaires à la diffusion, au rendu et au suivi des messages.
 
 * **Prise en charge des sources de données personnalisées dans Personalization**\
   Vous pouvez désormais créer une requête et extraire des données d’une source externe (c’est-à-dire, non stockée dans Adobe Experience Platform) pour les utiliser dans les surfaces entrantes et sortantes de Journey Optimizer à des fins de personnalisation et d’orchestration de parcours.
+
+* **Courrier - Prise en charge SSH**\
+  Outre le type d’authentification SFTP avec mot de passe existant, vous pouvez désormais exporter votre fichier de publipostage direct vers un serveur SFTP avec authentification par clé SSH.
