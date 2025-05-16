@@ -8,10 +8,10 @@ topic: Content Management
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 4deb0b34266816e45c77c9b4d7328431995197fa
+source-git-commit: 7347adf8b40942408042c8b09572beed67425899
 workflow-type: tm+mt
-source-wordcount: '1513'
-ht-degree: 23%
+source-wordcount: '1485'
+ht-degree: 24%
 
 ---
 
@@ -216,22 +216,6 @@ Les nouvelles fonctionnalités de cette version sont présentées ci-dessous.
 <table>
 <thead>
 <tr>
-<th><strong>Décisions de contenu dans les parcours</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>Vous pouvez désormais ajouter des offres à vos parcours par le biais d’une action de prise de décision dédiée dans la zone de travail de parcours et les utiliser dans vos actions personnalisées.</p>
-</td>
-</tr>
-</tbody>
-</table>
-
-
-<table>
-<thead>
-<tr>
 <th><strong>ID supplémentaire pour les parcours déclenchés par un événement</strong><br/></th>
 </tr>
 </thead>
@@ -290,8 +274,8 @@ Lors de la copie de campagnes sur plusieurs sandbox à l’aide des fonctionnali
   Vous pouvez désormais tirer parti des attributs d’élément de décision pour créer des règles de prise de décision.
 
 
-* **Sous-domaines - Méthode &#39;Aucune délégation&#39;**\
-  Outre la délégation complète et la méthode CNAME, une nouvelle méthode de configuration de sous-domaine est désormais disponible : la méthode Aucune délégation, qui vous permet de posséder entièrement le contrôle et la maintenance de tous les aspects du DNS nécessaires à la diffusion, au rendu et au suivi des messages.
+* **Sous-domaines - méthode &#39;Délégation personnalisée&#39;**\
+  Outre la délégation complète et la méthode CNAME, une nouvelle méthode de configuration de sous-domaine est désormais disponible : la méthode de délégation personnalisée, qui vous permet de posséder entièrement le contrôle et la maintenance de tous les aspects du DNS nécessaires à la diffusion, au rendu et au suivi des messages.
 
 * **Courrier - Prise en charge SSH**\
   Outre le type d’authentification SFTP avec mot de passe existant, vous pouvez désormais exporter votre fichier de publipostage direct vers un serveur SFTP avec authentification par clé SSH.
