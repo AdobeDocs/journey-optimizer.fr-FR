@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Notes de mise à jour d’Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 0ad4c6a9024ea91d502ca2a733117f58c63ca50b
+source-git-commit: 2f7c620a712cfc104418bc985bd74e81da12147c
 workflow-type: tm+mt
-source-wordcount: '1157'
-ht-degree: 69%
+source-wordcount: '1184'
+ht-degree: 67%
 
 ---
 
@@ -61,6 +61,11 @@ ht-degree: 69%
    * **Decisioning** - Date de disponibilité : 16 mai 2025
 
      Les objets de prise de décision peuvent désormais être copiés entre les sandbox, ce qui simplifie les workflows de test et de déploiement. [En savoir plus](../configuration/copy-objects-to-sandbox.md#decisioning)
+
+* **Courrier : prise en charge de la clé SSH pour les connexions SFTP** - Date de disponibilité : 5 mai 2025
+
+  L’authentification par clé SSH est désormais prise en charge pour les connexions au serveur SFTP dans la configuration du routage des fichiers de publipostage direct.
+
 
 ## Notes de mise à jour d’avril 2025 {#25-4-rn}
 

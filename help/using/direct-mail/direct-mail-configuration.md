@@ -7,10 +7,10 @@ role: User
 level: Experienced
 keyword: direct, mail, configuration, direct-mail, provider
 exl-id: ae5cc885-ade1-4683-b97e-eda1f2142041
-source-git-commit: 65b7b8323e37a0143a3941af1b9c2fb8b595a376
+source-git-commit: 2f7c620a712cfc104418bc985bd74e81da12147c
 workflow-type: tm+mt
-source-wordcount: '1343'
-ht-degree: 98%
+source-wordcount: '1365'
+ht-degree: 95%
 
 ---
 
@@ -103,13 +103,15 @@ Si vous avez sélectionné **[!UICONTROL Amazon S3]** en tant que **[!UICONTROL 
 
 Si vous avez sélectionné **[!UICONTROL SFTP]** en tant que **[!UICONTROL type de serveur]**, renseignez les détails et les informations d’identification de votre serveur :
 
-* **Compte** : nom du compte utilisé pour se connecter au serveur SFTP.
+* **[!UICONTROL Type d&#39;authentification]** : sélectionnez le type d&#39;authentification utilisé pour la connexion au serveur (mot de passe ou clé SSH).
 
-* **Adresse du serveur** : URL du serveur SFTP.
+* **[!UICONTROL Compte]** : nom du compte utilisé pour se connecter au serveur SFTP.
 
-* **Port** : numéro de port de la connexion FTP.
+* **[!UICONTROL Adresse du serveur]** : URL du serveur SFTP.
 
-* **Mot de passe** : mot de passe utilisé pour se connecter au serveur SFTP.
+* **[!UICONTROL Port]** : numéro de port de la connexion SFTP.
+
+* **[!UICONTROL Mot de passe]** / **[!UICONTROL Clé SSH]** : &#x200B; mot de passe ou clé SSH utilisé pour la connexion au serveur SFTP.
 
 ![](assets/file-routing-config-sftp-detail.png)
 
@@ -143,7 +145,7 @@ Si vous avez sélectionné **[!UICONTROL Zone d’atterrissage des données]** e
 
 ![](assets/file-routing-config-dlz-detail.png)
 
-L&#39;ensemble de la clientèle d’[!DNL Adobe Experience Platform] est approvisionné avec un conteneur Zone d’atterrissage des données par sandbox. En savoir plus sur la zone d’atterrissage de données dans la documentation de Adobe Experience Platform [&#128279;](https://experienceleague.adobe.com/fr/docs/experience-platform/sources/connectors/cloud-storage/data-landing-zone){target="_blank"}.
+L&#39;ensemble de la clientèle d’[!DNL Adobe Experience Platform] est approvisionné avec un conteneur Zone d’atterrissage des données par sandbox. En savoir plus sur la zone d’atterrissage de données dans la documentation de Adobe Experience Platform [](https://experienceleague.adobe.com/fr/docs/experience-platform/sources/connectors/cloud-storage/data-landing-zone){target="_blank"}.
 
 >[!ENDTABS]
 
