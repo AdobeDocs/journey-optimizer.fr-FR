@@ -9,22 +9,24 @@ role: User
 level: Intermediate
 keywords: publication, parcours, dynamique, validité, vérifier
 exl-id: e0ca8aef-4f1d-4631-8c34-1692d96e8b51
-source-git-commit: a2e4a6c15ea9e6a96544eaa8f58dc0cd55854bbe
+source-git-commit: 5bdacef2196592776c6b37708b0df0986460ca1f
 workflow-type: tm+mt
-source-wordcount: '614'
-ht-degree: 96%
+source-wordcount: '613'
+ht-degree: 82%
 
 ---
 
 # Publier votre parcours {#publishing-the-journey}
 
-Vous devez publier un parcours pour l’activer et le rendre disponible pour que de nouveaux profils puissent le rejoindre. Avant de publier votre parcours, vérifiez qu’il est valide et qu’il ne comporte aucune erreur. Vous ne pouvez pas publier un parcours comportant des erreurs.
+Pour activer un parcours et permettre à de nouveaux profils d’y accéder, vous devez le publier. La publication rend le parcours actif et fonctionnel. Avant de publier, vous devez vous assurer que le parcours est complet et valide, et corriger les erreurs, car un parcours ne peut pas être publié s’il contient des erreurs.
 
 ➡️ [Découvrez cette fonctionnalité en vidéo](#video)
 
+## Processus de publication {#journey-publication}
+
 Les étapes de publication d’un parcours sont détaillées ci-dessous :
 
-1. Avant de publier votre parcours, vérifiez qu’il est valide et qu’il ne comporte aucune erreur. Le cas échéant, la publication s’avérera impossible.
+1. Avant de publier votre parcours, assurez-vous qu’il est valide et sans erreur. Les parcours ne peuvent pas être publiés s’ils contiennent des erreurs.
 
    * Découvrez comment tester votre parcours sur [cette page](testing-the-journey.md).
    * Découvrez comment résoudre les erreurs présentes dans votre parcours dans [cette section](../building-journeys/troubleshooting.md#checking-for-errors-before-testing).
@@ -33,7 +35,7 @@ Les étapes de publication d’un parcours sont détaillées ci-dessous :
 
    >[!NOTE]
    >
-   > Si votre parcours est soumis à une politique d’approbation, vous devrez effectuer une demande d’approbation afin de pouvoir le publier. [En savoir plus](../test-approve/gs-approval.md)
+   > Si votre parcours est soumis à une politique d’approbation, vous devez demander une approbation avant de pouvoir le publier. [En savoir plus](../test-approve/gs-approval.md)
 
 
    ![](assets/journeyuc1_18.png)
@@ -88,4 +90,4 @@ Lorsque vous publiez une nouvelle version d&#39;un parcours, la version précéd
 
 Découvrez comment publier un parcours dans cette vidéo :
 
->[!VIDEO](https://video.tv.adobe.com/v/3427934?quality=12&captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/3424998?quality=12)
