@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: parcours, premier, commencer, démarrage rapide, audience, événement, action
 exl-id: 770bdbf2-560d-4127-bdb9-1f82495a566f
-source-git-commit: a2e4a6c15ea9e6a96544eaa8f58dc0cd55854bbe
+source-git-commit: a7468879b36dfe9184471824b387f1638fae3d50
 workflow-type: tm+mt
-source-wordcount: '922'
-ht-degree: 97%
+source-wordcount: '935'
+ht-degree: 96%
 
 ---
 
@@ -44,7 +44,7 @@ Dans la section du menu GESTION DES PARCOURS, cliquez sur **[!UICONTROL Parcours
 
   ![Tableau de bord de parcours mettant en surbrillance l’onglet Parcourir](assets/journeys-browse.png)
 
-Dans la liste des parcours, toutes les versions de parcours sont accompagnées d&#39;un numéro. Lorsque vous recherchez un parcours, les versions les plus récentes apparaissent en haut de la liste la première fois que vous ouvrez l&#39;application. Vous pouvez ensuite définir l&#39;ordre de tri souhaité ; l&#39;application le conservera en tant que préférence utilisateur. La version du parcours est également affichée en haut de l’interface d’édition du parcours, au-dessus de la zone de travail. En savoir plus sur la gestion des versions du parcours [&#128279;](publishing-the-journey.md#journey-versions-journey-versions).
+Dans la liste des parcours, toutes les versions de parcours sont accompagnées d&#39;un numéro. Lorsque vous recherchez un parcours, les versions les plus récentes apparaissent en haut de la liste la première fois que vous ouvrez l&#39;application. Vous pouvez ensuite définir l&#39;ordre de tri souhaité ; l&#39;application le conservera en tant que préférence utilisateur. La version du parcours est également affichée en haut de l’interface d’édition du parcours, au-dessus de la zone de travail. En savoir plus sur la gestion des versions du parcours [](publishing-the-journey.md#journey-versions-journey-versions).
 
 
 
@@ -52,9 +52,9 @@ Dans la liste des parcours, toutes les versions de parcours sont accompagnées d
 
 Dans la liste des parcours, l’utilisation de différents filtres permet d’affiner la liste.
 
-![](assets/filter-journeys.png)
+![Écran affichant un exemple de filtrage de parcours avec deux types de parcours sélectionnés](assets/filter-journeys.png)
 
-Filtrez les parcours en fonction de leur [statut](#journey-statuses), [type](#journey-types), [version](#journey-versions) et [balises](../start/search-filter-categorize.md#tags) attribuées depuis les **[!UICONTROL Filtres de statut et de version]**.
+Filtrez les parcours en fonction de leur [statut](#journey-statuses), [type](#journey-types), [version](publishing-the-journey.md#journey-versions-journey-versions) et [balises](../start/search-filter-categorize.md#tags) attribuées depuis les **[!UICONTROL Filtres de statut et de version]**.
 
 Utilisez les **[!UICONTROL filtres de création]** pour filtrer les parcours en fonction de leur date de création ou de la personne qui les a créés.
 

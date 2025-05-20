@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: a2e4a6c15ea9e6a96544eaa8f58dc0cd55854bbe
+source-git-commit: a7468879b36dfe9184471824b387f1638fae3d50
 workflow-type: tm+mt
-source-wordcount: '2478'
-ht-degree: 97%
+source-wordcount: '2504'
+ht-degree: 96%
 
 ---
 
@@ -212,9 +212,11 @@ Le mécanisme de sécurisation suivant s’applique à l’activité de parcours
 
 ### Éditeur d’expression {#expression-editor}
 
-Le mécanisme de sécurisation suivant s’applique à l’[éditeur d’expression de parcours](../building-journeys/expression/expressionadvanced.md) :
+Les mécanismes de sécurisation suivants s’appliquent à l’éditeur d’expression de parcours [](../building-journeys/expression/expressionadvanced.md) :
 
 * Les groupes de champs d’événement d’expérience ne peuvent pas être utilisés dans les parcours commençant par une activité Lecture d’audience, Qualification d’audience ou événement métier. Vous devez créer une audience et utiliser une condition inAudience dans le parcours.
+* Les attributs `timeSeriesEvents` ne peuvent pas être utilisés dans l’éditeur d’expression. Pour accéder aux événements d’expérience au niveau du profil, créez un groupe de champs basé sur un schéma `XDM ExperienceEvent`.
+
 
 ### Activité in-app {#in-app-activity-limitations}
 
