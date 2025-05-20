@@ -8,10 +8,11 @@ topic: Content Management
 role: User
 level: Beginner
 keywords: destination, page de destination
-source-git-commit: 38ed45222aad458bb581e714a9a2a0e5ed088c3f
+exl-id: cc4cfd17-4d85-4dcd-8dd9-23cc2cd898be
+source-git-commit: 27e5d1565522f5daa006a16438671ce9d559465b
 workflow-type: tm+mt
 source-wordcount: '442'
-ht-degree: 40%
+ht-degree: 46%
 
 ---
 
@@ -57,7 +58,7 @@ Dans cette liste, vous pouvez cliquer sur les trois points en regard d’une pag
 
 >[!CONTEXTUALHELP]
 >id="ajo_lp_folders"
->title="Organisation de vos pages de destination en dossiers"
+>title="Organiser vos pages de destination en dossiers"
 >abstract="Utilisez des dossiers pour classer et gérer vos pages de destination en fonction des besoins de votre organisation."
 
 Pour parcourir facilement vos pages de destination, vous pouvez utiliser des dossiers pour les organiser plus efficacement dans une hiérarchie structurée. Vous pouvez ainsi classer et gérer les éléments en fonction des besoins de votre organisation.

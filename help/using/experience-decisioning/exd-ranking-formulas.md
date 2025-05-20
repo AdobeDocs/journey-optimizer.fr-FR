@@ -9,7 +9,7 @@ exl-id: 35d7488b-e7d8-402f-b337-28a0c869bff0
 source-git-commit: 07704f99aff7d92e8db76755f6617345bac56590
 workflow-type: tm+mt
 source-wordcount: '1165'
-ht-degree: 18%
+ht-degree: 21%
 
 ---
 
@@ -28,7 +28,7 @@ Après avoir créé une formule de classement, vous pouvez l&#39;affecter à une
 >[!CONTEXTUALHELP]
 >id="ajo_exd_config_formulas"
 >title="Créer des formules de classement"
->abstract="Les formules vous permettent de définir des règles qui déterminent quel élément de décision doit être présenté en premier, au lieu de prendre en compte les scores de priorité des éléments. Après avoir créé une formule de classement, vous pouvez l&#39;affecter à une stratégie de sélection."
+>abstract="Les formules vous permettent de définir des règles déterminant la décision qui doit être présentée en premier au lieu de prendre en compte les scores de priorité de l’élément. Après avoir créé une formule de classement, vous pouvez l’affecter à une stratégie de sélection."
 
 Pour créer une formule de classement, procédez comme suit.
 

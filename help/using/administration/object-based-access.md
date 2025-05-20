@@ -12,7 +12,7 @@ exl-id: 02ccdd95-426c-4b61-9834-7f2dcd5abdbb
 source-git-commit: 3cbda018a1380e13ba3670563240238367517353
 workflow-type: tm+mt
 source-wordcount: '472'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 89%
 >[!CONTEXTUALHELP]
 >id="ajo_olac_manage_access"
 >title="Libellés de gestion des accès"
->abstract="Vous pouvez limiter l’accès à un objet en fonction des libellés d’accès. Son objectif est de protéger les ressources numériques sensibles contre les utilisateurs non autorisés, ce qui permet une protection supplémentaire des données personnelles. **Veillez à sélectionner uniquement les libellés pour lesquels vous disposez d’une autorisation.**"
+>abstract="Vous pouvez limiter l’accès à un objet en fonction des libellés d’accès. Son objectif est de protéger les ressources numériques sensibles contre les personnes non autorisées, ce qui offre une protection supplémentaire des données personnelles. **Assurez-vous de sélectionner uniquement les libellés pour lesquels vous disposez des autorisations.**"
 
 Vous pouvez limiter l’accès à un objet en fonction des libellés d’accès. Son objectif est de protéger les ressources numériques sensibles contre les utilisateurs et utilisatrices non autorisés, ce qui offre une protection supplémentaire des données personnelles.
 

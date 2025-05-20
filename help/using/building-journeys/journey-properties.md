@@ -12,7 +12,7 @@ exl-id: 6c21371c-6cbc-4d39-8fe6-39f1b8b13280
 source-git-commit: 3cbda018a1380e13ba3670563240238367517353
 workflow-type: tm+mt
 source-wordcount: '2395'
-ht-degree: 84%
+ht-degree: 88%
 
 ---
 
@@ -108,16 +108,16 @@ Si nécessaire, vous pouvez définir des **Date de début** et **Date de fin** p
 
 ## Temporisation {#timeout}
 
-### Timeout dans les activités de parcours {#timeout_and_error}
+### Délai d’expiration dans les activités du parcours {#timeout_and_error}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_properties_timeout"
->title="Temporisation ou erreur"
->abstract="Indiquez la durée pendant laquelle le parcours doit tenter d’effectuer une action ou d’évaluer une condition avant de la traiter comme ayant expiré. Les valeurs recommandées sont comprises entre 1 et 30 secondes."
+>title="Délai d’expiration ou erreur"
+>abstract="Indiquez la durée pendant laquelle le parcours doit tenter d’effectuer une action ou d’évaluer une condition avant de la traiter comme ayant expiré. Les valeurs recommandées sont comprises entre 1 et 30 secondes."
 
 Lorsque vous modifiez une action ou une activité de condition, vous pouvez définir un autre chemin en cas d’erreur ou de temporisation. Si la durée de traitement de l’activité qui interroge un système tiers dépasse la durée de temporisation définie dans le champ **[!UICONTROL Temporisation ou erreur]** des propriétés du parcours, le deuxième chemin d’accès est choisi pour effectuer une éventuelle action de remplacement.
 
-Les valeurs recommandées sont comprises entre 1 et 30 secondes.
+Les valeurs recommandées sont comprises entre 1 et 30 secondes.
 
 Nous vous recommandons de définir une valeur très basse pour **[!UICONTROL Temporisation ou erreur]** si votre parcours est sensible au temps (c’est le cas, par exemple, lorsqu’il convient de réagir à l’emplacement d’une personne en temps réel), car l’action ne peut pas être différée de plus de quelques secondes. Si le facteur temps revêt une importance moindre, vous pouvez définir un délai plus long afin d’accorder davantage de temps au système appelé pour envoyer une réponse valide.
 

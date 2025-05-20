@@ -10,12 +10,12 @@ level: Intermediate
 exl-id: fd713864-96b9-4687-91bd-84e3533273ff
 source-git-commit: fc78fcfb0f2ce3616cb8b1df44dda2cfd66262fe
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '738'
+ht-degree: 38%
 
 ---
 
-# Configuration d’un fournisseur de SMS personnalisé {#sms-configuration-custom}
+# Configurer un fournisseur de SMS personnalisé {#sms-configuration-custom}
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_sms_api_byop_provider_url"
@@ -103,7 +103,7 @@ Après avoir créé et configuré vos informations d’identification API, vous 
 
 Une fois qu’il est configuré, vous pouvez tirer parti de toutes les fonctionnalités d’origine des canaux, telles que la création de messages, la personnalisation, le suivi des liens et la création de rapports.
 
-### Options d&#39;authentification pour les fournisseurs SMS personnalisés {#auth-options}
+### Options d’authentification pour les fournisseurs de SMS personnalisés {#auth-options}
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_sms_api_byop_auth_type"
@@ -162,4 +162,4 @@ Une fois vos informations d’identification d’API créées, renseignez les ch
 
 ## Vidéo pratique {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/3443608?captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/3431625)

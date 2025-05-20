@@ -11,7 +11,7 @@ exl-id: 6f6d693d-11f2-48b7-82a8-171829bf8045
 source-git-commit: 03af80bbaa347237059abe74f26274df5ab39caa
 workflow-type: tm+mt
 source-wordcount: '1361'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -71,7 +71,7 @@ Une fois ajouté, le média s&#39;affiche à droite du corps de la notification.
 >[!CONTEXTUALHELP]
 >id="ajo-message-push-buttons"
 >title="Ajoutez des boutons pour que les personnes puissent interagir avec votre notification push."
->abstract="Dans cette section, ajoutez les boutons call-to-action à votre message. Pour Apple iOS, spécifiez un identifiant de catégorie de notification. Pour Google Android, vous pouvez inclure du texte personnalisé et des cibles pour chaque bouton."
+>abstract="Dans cette section, ajoutez les boutons call-to-action à votre message. Pour Apple iOS, indiquez un identifiant de catégorie de notification. Pour Google Android, vous pouvez inclure du texte et des cibles personnalisés pour chaque bouton."
 
 Créez une notification exploitable en ajoutant des boutons à votre contenu push.
 

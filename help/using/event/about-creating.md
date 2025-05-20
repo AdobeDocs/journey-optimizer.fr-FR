@@ -12,7 +12,7 @@ exl-id: e22e2bc7-0c15-457a-8980-97bea5da7784
 source-git-commit: 6d219d9caea28947877e38893dea20a4f77456f6
 workflow-type: tm+mt
 source-wordcount: '1733'
-ht-degree: 91%
+ht-degree: 97%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 91%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_event_parameters"
 >title="Paramètres"
->abstract="Définissez les paramètres de l&#39;événement tels que les champs de payload et de schéma. Pour les événements basés sur des règles, utilisez le champ **[!UICONTROL condition d’identifiant d’événement]** pour définir la condition qui sera utilisée par le système pour identifier les événements qui déclencheront votre parcours. Ajoutez un type d’identité et un identifiant de profil à utiliser pour l’événement."
+>abstract="Définissez les paramètres de l’événement tels que les champs de payload et de schéma. Pour un événement basé sur les règles, utilisez le champ **[!UICONTROL Condition de l’identifiant d’événement]** pour définir la condition qui sera utilisée par le système pour identifier les événements qui déclencheront votre parcours. Ajoutez un type d’identité et un identifiant de profil à utiliser pour l’événement."
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_parameters_supplemental_identifier"

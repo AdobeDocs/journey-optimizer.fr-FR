@@ -95,7 +95,7 @@ Cette valeur est stockée dans la payload de version du parcours. La valeur par 
 >
 >Le taux de lecture global par sandbox est défini sur 20 000 profils par seconde. Par conséquent, le taux de lecture de toutes les lectures d’audiences qui s’exécutent simultanément dans la même sandbox s’élève à 20 000 profils par seconde au maximum. Vous ne pouvez pas modifier cette limite.
 
-### Planifier le parcours {#schedule}
+### Planifier le journey {#schedule}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_read_segment_scheduler_start_date"
@@ -286,4 +286,4 @@ Les déclencheurs **Lecture d’audience** échoués sont capturés et affichés
 
 Comprenez les cas d’utilisation applicables pour un parcours déclenché par l’activité de lecture d’audience. Découvrez comment créer des parcours basés sur des lots et les bonnes pratiques à appliquer.
 
->[!VIDEO](https://video.tv.adobe.com/v/3430370?quality=12&captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/3424997?quality=12)
