@@ -212,7 +212,7 @@ Le mécanisme de sécurisation suivant s’applique à l’activité de parcours
 
 ### Éditeur d’expression {#expression-editor}
 
-Les mécanismes de sécurisation suivants s’appliquent à l’éditeur d’expression de parcours [](../building-journeys/expression/expressionadvanced.md) :
+Les mécanismes de sécurisation suivants s’appliquent à l’éditeur d’expression de parcours [&#128279;](../building-journeys/expression/expressionadvanced.md) :
 
 * Les groupes de champs d’événement d’expérience ne peuvent pas être utilisés dans les parcours commençant par une activité Lecture d’audience, Qualification d’audience ou événement métier. Vous devez créer une audience et utiliser une condition inAudience dans le parcours.
 * Les attributs `timeSeriesEvents` ne peuvent pas être utilisés dans l’éditeur d’expression. Pour accéder aux événements d’expérience au niveau du profil, créez un groupe de champs basé sur un schéma `XDM ExperienceEvent`.
