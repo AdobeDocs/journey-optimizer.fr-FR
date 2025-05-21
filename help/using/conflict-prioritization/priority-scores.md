@@ -43,4 +43,4 @@ Pour attribuer un score de priorité à un parcours ou à une campagne, saisisse
 
 ## Vidéo pratique {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/3445003?quality=12&captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/3435529?quality=12)
