@@ -74,7 +74,7 @@ Pour créer une règle de limitation de parcours, procédez comme suit :
    >
    >Dans cet exemple, si la personne spécialiste marketing a déjà rejoint 4 parcours et qu’il y a un autre parcours planifié à venir ce mois-ci avec une priorité plus élevée, les personnes clientes seront alors supprimées de l’entrée au parcours de priorité plus faible.
 
-+++
+   +++
 
    +++ Configuration d’une règle de limitation de la simultanéité des parcours
 
@@ -86,7 +86,7 @@ Pour créer une règle de limitation de parcours, procédez comme suit :
 
    ![](assets/journey-capping-concurrency-example.png){width="50%" zommable="yes"}
 
-+++
+   +++
 
 1. Répétez les étapes ci-dessus pour ajouter autant de règles que nécessaire au jeu de règles.
 
