@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: message, fréquence, règles, pression
 exl-id: 07f5f0b4-417e-408e-8d9e-86615c8a3fbf
-source-git-commit: 528e1a54dd64503e5de716e63013c4fc41fd98db
+source-git-commit: b2446c6a243d6d95b6f695b9c7007e62c51d8fa3
 workflow-type: tm+mt
-source-wordcount: '1960'
+source-wordcount: '2044'
 ht-degree: 100%
 
 ---
@@ -46,7 +46,7 @@ Pour en savoir plus sur les autorisations, consultez [cette section](../administ
 
 Lors de l’accès aux jeux de règles pour la première fois à partir du menu **[!UICONTROL Administration]** > **[!UICONTROL Règles métier]**, un jeu de règles par défaut est précréé et actif : **Jeu de règles par défaut global**.
 
-Ce jeu de règles contient des règles globales que vous pouvez appliquer pour contrôler la fréquence à laquelle les utilisateurs et utilisatrices reçoivent des messages sur un ou plusieurs canaux, comme le font les règles métier actuelles. Toutes les règles définies dans ce jeu de règles s’appliquent à tous les canaux sélectionnés, que les communications soient envoyées d’un parcours ou d’une campagne. [Découvrir comment utiliser les règles métier](../conflict-prioritization/rule-sets.md)
+Ce jeu de règles contient des règles globales que vous pouvez appliquer pour contrôler la fréquence à laquelle les utilisateurs et utilisatrices reçoivent des messages sur un ou plusieurs canaux, comme le font les règles métier actuelles. Toutes les règles définies dans ce jeu de règles s’appliquent à tous les canaux sélectionnés, que les communications soient envoyées d’un parcours ou d’une campagne. [Découvrir comment utiliser les règles métier](../configuration/rule-sets.md)
 
 En plus du jeu de règles « Jeu de règles par défaut global », vous pouvez créer des **jeux de règles personnalisés** que vous pouvez appliquer à n’importe quelle campagne pour limiter le nombre de messages envoyés au sein de cette campagne. [Découvrir comment créer des jeux de règles personnalisés](#create)
 
@@ -63,6 +63,10 @@ Lors de la création d’un jeu de règles, vous devez indiquer si les règles d
 
 * Domaine de **Canal** : appliquez des règles de limitation pour les canaux de communication. Par exemple, ne pas envoyer plus d’un e-mail ou d’un SMS par jour.
 * Domaine de **Parcours** : appliquez des règles de limitation d’entrée et de simultanéité à un parcours. Par exemple, ne pas entrer simultanément des profils dans plusieurs parcours.
+
+>[!AVAILABILITY]
+>
+>Alors que les ensembles de règles de domaine **Canal** sont disponibles pour tous les utilisateurs et utilisatrices, les ensembles de règles de domaine **Parcours** ne sont disponibles que pour un nombre limité de personnes (disponibilité limitée). Pour en bénéficier, contactez votre représentant ou représentante Adobe.
 
 ## Créer votre premier jeu de règles personnalisées {#create-rule-set}
 
@@ -83,6 +87,10 @@ Pour créer un jeu de règles, procédez comme suit.
 1. Sélectionnez le domaine du jeu de règles. Le domaine vous permet de spécifier si le jeu de règles contient des règles de limitation spécifiques aux canaux de communication ou aux parcours. [En savoir plus sur les règles de limitation des canaux et des parcours](#domain)
 
    ![](assets/rule-sets-create.png)
+
+   >[!AVAILABILITY]
+   >
+   >Alors que les ensembles de règles de domaine **Canal** sont disponibles pour tous les utilisateurs et utilisatrices, les ensembles de règles de domaine **Parcours** ne sont disponibles que pour un nombre limité de personnes (disponibilité limitée). Pour en bénéficier, contactez votre représentant ou représentante Adobe.
 
 1. Cliquez sur **[!UICONTROL Enregistrer]**.
 
@@ -131,6 +139,10 @@ Les paramètres disponibles pour la règle dépendent du domaine du jeu de règl
 1. Dans la liste déroulante **[!UICONTROL Durée]**, sélectionnez si vous souhaitez que la limitation soit appliquée tous les mois, toutes les semaines ou tous les jours. La limite de fréquence est basée sur la période calendaire sélectionnée. Elle est réinitialisée au début de la période correspondante.
 
    ![](assets/rule-set-capping-duration.png)
+
+   >[!AVAILABILITY]
+   >
+   >La durée « Quotidienne » est disponible uniquement pour un ensemble d’organisations (disponibilité limitée). Pour en bénéficier, contactez votre représentant ou représentante Adobe.
 
    L’expiration du compteur pour chaque période est la suivante :
 
@@ -312,4 +324,4 @@ Pour appliquer une règle de limitation à un parcours, accédez au parcours et 
 
 ## Vidéo pratique {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/3444728?quality=12&captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/3435531?quality=12)
