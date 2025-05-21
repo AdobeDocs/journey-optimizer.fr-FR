@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 1fc708e1-a993-4a2a-809c-c5dc08a4bae1
-source-git-commit: 5e82bd6cfcb186fef324627e353b9e54d2332c3e
+source-git-commit: 528e1a54dd64503e5de716e63013c4fc41fd98db
 workflow-type: tm+mt
-source-wordcount: '1469'
+source-wordcount: '1427'
 ht-degree: 100%
 
 ---
@@ -24,10 +24,6 @@ Pour gérer vos fragments, accédez à la liste des fragments à partir du menu 
 Tous les fragments qui ont été créés sur le sandbox actuel, soit [à partir du menu **[!UICONTROL Fragments]**](#create-fragments), soit à l’aide de l’option [Enregistrer en tant que fragment](#save-as-fragment), s’affichent.
 
 Dans le volet de gauche, vous pouvez organiser les fragments en dossiers. Par défaut, tous les fragments s’affichent. Lorsque vous sélectionnez un dossier, seuls les fragments et les dossiers qu’il contient s’affichent. [En savoir plus](#folders)
-
->[!NOTE]
->
->Les dossiers de fragments ne sont disponibles que pour un ensemble d’organisations (disponibilité limitée) et seront progressivement déployés pour davantage d’utilisateurs et d’utilisatrices.
 
 ![](assets/fragment-list-folders.png)
 
@@ -63,10 +59,6 @@ Cliquez sur le bouton **[!UICONTROL Plus d’actions]** en regard de chaque frag
 >id="ajo_fragments_folders"
 >title="Organiser les fragments dans des dossiers"
 >abstract="Utilisez des dossiers pour classer et gérer vos fragments en fonction des besoins de votre organisation."
-
->[!AVAILABILITY]
->
->Les dossiers de fragments ne sont disponibles que pour un ensemble d’organisations (disponibilité limitée) et seront progressivement déployés pour davantage d’utilisateurs et d’utilisatrices.
 
 Pour naviguer facilement dans vos fragments, vous pouvez utiliser des dossiers pour mieux les organiser dans une hiérarchie structurée. Vous pouvez ainsi classer et gérer les éléments en fonction des besoins de votre organisation.
 

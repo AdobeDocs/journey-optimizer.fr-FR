@@ -8,10 +8,10 @@ level: Experienced
 hide: true
 hidefromtoc: true
 exl-id: f9477611-b792-4b28-8ec2-6bbea2fa3328
-source-git-commit: 4995bf642231248ece0211a7ecf2f38ccd846d36
+source-git-commit: 528e1a54dd64503e5de716e63013c4fc41fd98db
 workflow-type: tm+mt
-source-wordcount: '409'
-ht-degree: 10%
+source-wordcount: '379'
+ht-degree: 0%
 
 ---
 
@@ -21,25 +21,28 @@ Lors de l’utilisation de Decisioning dans des expériences basées sur du code
 
 ## Test d’expériences basées sur du code à l’aide de décisions {#code-based-test-decisions}
 
-Actuellement, vous ne pouvez pas simuler le contenu de l’interface d’utilisation dans une campagne ou un parcours d’[expérience basée sur du code](create-code-based.md) à l’aide de décisions.
+<!--Currently you cannot simulate content from the user interface in a [code-based experience](create-code-based.md) campaign or journey using decisions.-->
 
-Pour pallier ce problème, vous pouvez tester la prise de décisions après la publication de votre campagne en ajoutant l’indicateur `dryRun` dans le bloc `data` d’événement XDM de votre mise en œuvre cliente :
+Lors du test de l’[expérience basée sur le code](create-code-based.md) avec la prise de décision, l’indicateur `dryRun` peut être utilisé pour supprimer les événements de commentaires pour les compteurs de création de rapports et de limitation.
+
+Après avoir publié votre campagne, ajoutez l’indicateur `dryRun` dans le bloc de `data` d’événement XDM de votre implémentation client :
 
      »
-    &lbrace;
-    « data »: &lbrace;
-     »__adobe »: &lbrace;
-    « ajo »: &lbrace;
+    {
+    « data »: {
+     »__adobe »: {
+    « ajo »: {
     « dryRun »: true
-    &rbrace;
-    &rbrace;
-    &rbrace;
-    &rbrace;
+    }
+    }
+    }
+    }
      »
 
+<!--
 >[!CAUTION]
 >
->L’ajout de l’indicateur `dryRun` à votre demande empêchera la capture de commentaires pour la création de rapports et l’ajout de compteurs de fréquence.
+>Adding the `dryRun` flag to your request will prevent feedback to be captured for reporting and frequency counters from being added to.-->
 
 ## Déduplication des éléments de décision dans les implémentations basées sur du code {#code-based-decisioning-deduplication}
 
@@ -61,7 +64,7 @@ Pour toute requête de prise de décision, vous pouvez avoir une ou plusieurs po
 
 ### Appliquer la déduplication dans une requête {#deduplication-in-request}
 
-Par défaut, l’indicateur de déduplication est défini sur `true` (il n’est pas transmis).
+Par défaut, l’indicateur de déduplication est défini sur `true`.
 
 Dans une requête Konductor, vous pouvez transmettre l’indicateur de déduplication si vous souhaitez des éléments uniques dans la réponse. Dans ce cas, définissez-le sur `false`.
 

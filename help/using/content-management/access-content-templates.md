@@ -7,9 +7,9 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: ef6110c4-1aa6-4835-b0b0-b3c4fe0e7024
-source-git-commit: a487355df0229a1e94375025eae0babc9405f087
+source-git-commit: 528e1a54dd64503e5de716e63013c4fc41fd98db
 workflow-type: tm+mt
-source-wordcount: '647'
+source-wordcount: '603'
 ht-degree: 95%
 
 ---
@@ -25,10 +25,6 @@ Pour accéder à la liste des modèles de contenu, sélectionnez **[!UICONTROL G
 Tous les modèles qui ont été créés sur le sandbox actuel à partir d’un parcours ou d’une campagne à l’aide de l’option **[!UICONTROL Enregistrer en tant que modèle]** du menu **[!UICONTROL Modèles de contenu]** s’affichent. [Découvrir comment créer des modèles](#create-content-templates)
 
 Dans le volet de gauche, vous pouvez organiser les modèles de contenu en dossiers. Par défaut, tous les modèles s’affichent. Lorsque vous sélectionnez un dossier, seuls les modèles et les dossiers qu’il contient s’affichent. [En savoir plus](#folders)
-
->[!NOTE]
->
->Les dossiers de modèles de contenu ne sont disponibles que pour un ensemble d’organisations (disponibilité limitée) et seront progressivement déployés pour davantage d’utilisateurs et d’utilisatrices.
 
 ![](assets/content-template-list-folders.png)
 
@@ -49,10 +45,6 @@ Vous pouvez également choisir d’afficher uniquement les éléments que vous a
 >À compter de mars 2025, les modèles de contenu de type HTML seront désormais obsolètes. Vous pouvez toujours accéder aux modèles de contenu HTML précédemment créés dans [!DNL Journey Optimizer].
 
 ## Utiliser des dossiers pour gérer les modèles de contenu {#folders}
-
->[!AVAILABILITY]
->
->Les dossiers de modèles de contenu ne sont disponibles que pour un ensemble d’organisations (disponibilité limitée) et seront progressivement déployés pour davantage d’utilisateurs et d’utilisatrices.
 
 Pour gérer facilement vos modèles de contenu, vous pouvez désormais utiliser des dossiers pour mieux les organiser dans une hiérarchie structurée. Vous pouvez ainsi classer et gérer les éléments en fonction des besoins de votre organisation.
 

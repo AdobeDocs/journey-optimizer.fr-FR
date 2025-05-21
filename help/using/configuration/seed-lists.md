@@ -9,8 +9,8 @@ role: User
 level: Intermediate
 keywords: liste de contrôle, contrôle, configuration
 exl-id: 0172f6bc-da8b-4a83-a0fc-4ed41324568f
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
-workflow-type: ht
+source-git-commit: 528e1a54dd64503e5de716e63013c4fc41fd98db
+workflow-type: tm+mt
 source-wordcount: '959'
 ht-degree: 100%
 
@@ -96,7 +96,7 @@ Pour créer une liste de contrôle, procédez comme suit :
 
 1. Cliquez sur le bouton **[!UICONTROL Créer une liste de contrôle]**.
 
-   ![](assets/seed-list-create-button.png)
+   <!--![](assets/seed-list-create-button.png)-->
 
 1. Renseignez les détails. Commencez par ajouter un nom.
 
@@ -120,7 +120,7 @@ Pour créer une liste de contrôle, procédez comme suit :
 
    >[!NOTE]
    >
-   >Vous pouvez combiner les deux options, mais le nombre total d’adresses dans une liste de contrôle ne peut pas dépasser 50.
+   >Vous pouvez combiner les deux options, mais le nombre total d’adresses dans une liste de contrôle ne peut pas dépasser 300.
 
 1. Cliquez sur **[!UICONTROL Créer]** pour confirmer. La liste de contrôle nouvellement créée s’affiche dans l’[écran de liste de contrôle](#access-seed-lists).
 

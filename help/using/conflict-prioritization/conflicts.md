@@ -3,20 +3,15 @@ title: Identification des conflits potentiels dans les parcours et les campagnes
 description: Découvrez comment identifier les conflits potentiels dans les parcours et les campagnes.
 role: User
 level: Beginner
-badge: label="Disponibilité limitée"
 exl-id: efbb5ac4-4c07-4c62-9460-39eb4fed129a
-source-git-commit: f5df65a0225754ab66fb2ffa33c5130f7137b644
+source-git-commit: 528e1a54dd64503e5de716e63013c4fc41fd98db
 workflow-type: tm+mt
-source-wordcount: '817'
+source-wordcount: '755'
 ht-degree: 96%
 
 ---
 
 # Détecter les conflits potentiels dans les parcours et les campagnes {#conflict}
-
->[!AVAILABILITY]
->
->Les fonctionnalités de gestion des conflits et de hiérarchisation sont actuellement disponibles en disponibilité limitée pour un groupe restreint de clients. Notez que ces fonctionnalités seront progressivement déployées vers d’autres utilisateurs et utilisatrices à l’avenir. Contactez votre équipe de compte si vous souhaitez qu’elle vous ajoute à la liste d’attente pour ces fonctionnalités.
 
 À mesure que les personnes spécialisées dans le marketing augmentent le volume des campagnes et des parcours dans Journey Optimizer, il devient de plus en plus difficile pour elles de savoir si leurs clientes et clients sont submergés par un trop grand nombre d’interactions marketing. Il est donc essentiel d’identifier facilement les chevauchements des campagnes et des parcours pour s’assurer d’un bon équilibre dans les communications marketing tout en atténuant le risque de lassitude des clientes et clients.
 
@@ -28,11 +23,7 @@ Les principaux domaines à surveiller pour détecter un chevauchement potentiel 
 * **Jeu de règles de capping** : quels types de parcours suis-je en train de limiter et se chevauchent-ils ?
 * **Configuration des canaux** : existe-t-il d’autres parcours ou campagnes utilisant une configuration des canaux utilisée dans le même parcours ou la même campagne qui peut empêcher l’affichage du parcours ou de la campagne aux utilisateurs et utilisatrices finaux ?
 
->[!NOTE]
->
->Dans les campagnes, le score de priorité est disponible uniquement pour les canaux entrants web, in-app et basés sur du code.
-
-➡️ [Découvrir cette fonctionnalité en vidéo](#video)
+➡️ [Découvrez cette fonctionnalité en vidéo](#video)
 
 ## Détection des conflits par Journey Optimizer {#detection}
 
@@ -74,7 +65,7 @@ Lors de la création d’un parcours ou d’une campagne, Journey Optimizer vou
 
    >[!NOTE]
    >
-   >L’affichage des nouvelles campagnes publiées peut prendre jusqu’à 5 minutes dans la visionneuse de conflits en raison de la mise en cache implémentée.
+   >Les parcours et campagnes nouvellement publiés peuvent prendre entre 3 et 7 minutes pour s’afficher dans la visionneuse en cas de conflit, en raison de la mise en cache implémentée.
 
 Pour affiner davantage votre recherche de chevauchements potentiels, vous pouvez filtrer votre liste de campagnes et de parcours en fonction des champs pertinents. Pour ce faire, sélectionnez l’icône de filtre dans la vue d’inventaire. [Découvrir comment utiliser les filtres](../start/search-filter-categorize.md#filter-lists)
 

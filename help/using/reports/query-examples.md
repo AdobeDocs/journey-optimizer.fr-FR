@@ -8,10 +8,10 @@ topic: Content Management
 role: Data Engineer, Data Architect, Admin
 level: Experienced
 exl-id: 26ad12c3-0a2b-4f47-8f04-d25a6f037350
-source-git-commit: 2e1168f321d6f2c83733c6112e11d834d5e7eb95
+source-git-commit: 528e1a54dd64503e5de716e63013c4fc41fd98db
 workflow-type: tm+mt
-source-wordcount: '1486'
-ht-degree: 100%
+source-wordcount: '1499'
+ht-degree: 72%
 
 ---
 
@@ -21,7 +21,7 @@ Cette section répertorie plusieurs exemples couramment utilisés pour interroge
 
 Assurez-vous que les champs utilisés dans vos requêtes ont des valeurs associées dans le schéma correspondant.
 
-**Quelle est la différence entre ID, instanceID et profileID ?**
++++Quelle est la différence entre id, instanceid et profileid ?
 
 * ID : unique pour toutes les entrées d’événement d’étape. Deux événements d’étape différents ne peuvent pas avoir le même identifiant.
 * instanceID : instanceID est le même pour tous les événements d’étape associés à un profil lors de l’exécution d’un parcours. Si un profil entre de nouveau dans le parcours, un instanceID différent sera utilisé. Ce nouvel instanceID sera le même pour tous les événements d’étape de l’instance reprise (du début à la fin).
@@ -33,7 +33,7 @@ Assurez-vous que les champs utilisés dans vos requêtes ont des valeurs associ�
 
 ## Cas d’utilisation de base/requêtes courantes {#common-queries}
 
-**Nombre de profils entrés dans un parcours au cours d’une période donnée**
++++Nombre de profils entrés dans un parcours au cours d’une période donnée
 
 Cette requête donne le nombre de profils distincts étant entrés dans le parcours donné dans la période donnée.
 
@@ -47,7 +47,32 @@ AND _experience.journeyOrchestration.stepEvents.instanceType = 'unitary'
 AND DATE(timestamp) > (now() - interval '<last x hours>' hour);
 ```
 
-**Le nombre d’erreurs qui se sont produites sur chaque nœud d’un parcours spécifique pendant une certaine période**
++++
+
++++Quelle règle a empêché un profil de rejoindre un parcours donné ?
+
+_Exemple_
+
+```sql
+SELECT 
+    _experience.journeyOrchestration.serviceEvents.dispatcher.eventType,
+    _experience.journeyOrchestration.serviceEvents.dispatcher.rejectedRuleset.ID AS RULESET_ID,
+    _experience.journeyOrchestration.serviceEvents.dispatcher.rejectedRuleset.name AS RULESET_NAME,
+    _experience.journeyOrchestration.serviceEvents.dispatcher.rejectedRuleset.rejectedRules.ID AS RULE_ID,
+    _experience.journeyOrchestration.serviceEvents.dispatcher.rejectedRuleset.rejectedRules.name AS RULE_NAME
+FROM
+    journey_step_events
+WHERE
+    _experience.journeyOrchestration.serviceEvents.dispatcher.eventCode = 'discard'
+AND
+    _experience.journeyOrchestration.stepEvents.journeyVersionID='3855072d-79c3-438a-a5c3-c77fd6843812'
+AND
+    timestamp >= to_date('2025-05-16')
+```
+
++++
+
++++Nombre d’erreurs qui se sont produites sur chaque nœud d’un parcours spécifique pendant une certaine période
 
 _Requête du lac de données_
 
@@ -69,7 +94,9 @@ AND
 GROUP BY _experience.journeyOrchestration.stepEvents.nodeName;
 ```
 
-**Nombre d’événements ignorés d’un parcours spécifique pendant une certaine période**
++++
+
++++Nombre d’événements ignorés d’un parcours spécifique pendant une certaine période
 
 _Requête du lac de données_
 
@@ -81,7 +108,9 @@ WHERE _experience.journeyOrchestration.stepEvents.journeyVersionID='<journeyVers
 AND DATE(timestamp) > (now() - interval '<last x hours>' hour);
 ```
 
-**Qu’advient-il d’un profil spécifique dans un parcours spécifique pendant une période spécifique ?**
++++
+
++++Qu’advient-il d’un profil spécifique dans un parcours spécifique pendant une période spécifique ?
 
 _Requête du lac de données_
 
@@ -108,7 +137,9 @@ AND
 ORDER BY timestamp;
 ```
 
-**Durée écoulée entre deux nœuds**
++++
+
++++Temps écoulé entre deux nœuds
 
 Ces requêtes peuvent être utilisées notamment pour estimer le temps passé dans une activité d’attente. Vous pouvez ainsi vous assurer que l’activité d’attente est correctement configurée.
 
@@ -235,7 +266,9 @@ WHERE
     T1.INSTANCE_ID = T2.INSTANCE_ID
 ```
 
-**Comment vérifier les détails d’un événement serviceEvent**
++++
+
++++Comment vérifier les détails d’un événement serviceEvent
 
 Le jeu de données Événements de l’étape du parcours contient tous les événements stepEvents et serviceEvents. Les événements stepEvents sont utilisés dans les rapports, dans la mesure où ils se rapportent aux activités (événement, actions, etc.) des profils d’un parcours. Les événements serviceEvents sont stockés dans le même jeu de données et indiquent des informations supplémentaires à des fins de débogage, comme la raison de l’abandon d’un événement d’expérience.
 
@@ -257,7 +290,7 @@ WHERE _experience.journeyOrchestration.serviceType is not null;
 
 ## Erreurs de message/d’action {#message-action-errors}
 
-**Liste de chaque erreur rencontrée dans les parcours**
++++Liste de chaque erreur rencontrée dans les parcours
 
 Cette requête permet de répertorier chaque erreur rencontrée dans les parcours lors de l’exécution d’un message/d’une action.
 
@@ -283,9 +316,11 @@ GROUP BY _experience.journeyOrchestration.stepEvents.actionExecutionError
 
 Cette requête renvoie toutes les erreurs différentes qui se sont produites lors de l’exécution d’une action dans un parcours, ainsi que le nombre de fois où elles se sont produites.
 
++++
+
 ## Requêtes basées sur un profil {#profile-based-queries}
 
-**Rechercher si un profil a rejoint un parcours spécifique**
++++Rechercher si un profil a rejoint un Parcours spécifique
 
 _Requête du lac de données_
 
@@ -307,7 +342,9 @@ _experience.journeyOrchestration.stepEvents.profileID = 'saurgarg@adobe.com'
 
 Le résultat doit être supérieur à 0. Cette requête renvoie le nombre exact de fois où un profil a rejoint un parcours.
 
-**Rechercher si un message spécifique a été envoyé à un profil**
++++
+
++++Rechercher si un message spécifique a été envoyé à un profil
 
 Méthode 1 : si le nom de votre message n’est pas unique dans le parcours (il est utilisé à plusieurs endroits).
 
@@ -357,7 +394,9 @@ _experience.journeyOrchestration.stepEvents.profileID = 'saurgarg@adobe.com'
 
 La requête renvoie la liste de tous les messages ainsi que leur nombre appelés pour le profil sélectionné.
 
-**Rechercher tous les messages reçus par un profil au cours des 30 derniers jours**
++++
+
++++Rechercher tous les messages reçus par un profil au cours des 30 derniers jours
 
 _Requête du lac de données_
 
@@ -383,7 +422,9 @@ GROUP BY _experience.journeyOrchestration.stepEvents.nodeName
 
 La requête renvoie la liste de tous les messages ainsi que leur nombre appelés pour le profil sélectionné.
 
-**Rechercher tous les parcours qu’un profil a rejoint au cours des 30 derniers jours**
++++
+
++++Rechercher tous les parcours qu’un profil a saisis au cours des 30 derniers jours
 
 _Requête du lac de données_
 
@@ -407,7 +448,9 @@ GROUP BY _experience.journeyOrchestration.stepEvents.journeyVersionName
 
 La requête renvoie la liste de tous les noms de parcours ainsi que le nombre de fois où le profil interrogé a rejoint le parcours.
 
-**Nombre de profils qualifiés pour un parcours par jour**
++++
+
++++Nombre de profils qualifiés pour un parcours par jour
 
 _Requête du lac de données_
 
@@ -431,9 +474,11 @@ ORDER BY DATE(timestamp) desc
 
 La requête renvoie, pour la période définie, le nombre de profils ayant rejoint le parcours chaque jour. Si un profil a rejoint le parcours via plusieurs identités, il sera comptabilisé deux fois. Si la rentrée est activée, le nombre de profils peut être dupliqué sur plusieurs jours si le profil a rejoint le parcours un autre jour.
 
++++
+
 ## Requêtes relatives à la lecture d’audience {#read-segment-queries}
 
-**Temps nécessaire pour terminer un traitement d’export d’audiences**
++++Temps nécessaire pour terminer un traitement d&#39;export d&#39;audience
 
 _Requête du lac de données_
 
@@ -465,7 +510,9 @@ _experience.journeyOrchestration.serviceEvents.segmentExportJob.status = 'finish
 
 La requête renvoie la différence de temps, en minutes, entre le moment où le traitement d’export d’audiences a été mis en file d’attente et celui où il s’est terminé.
 
-**Nombre de profils qui ont été ignorés par le parcours, car il s’agissait de doublons**
++++
+
++++Nombre de profils qui ont été ignorés par le parcours, car il s’agissait de doublons
 
 _Requête du lac de données_
 
@@ -487,7 +534,9 @@ _experience.journeyOrchestration.serviceEvents.segmentExportJob.eventCode = 'ERR
 
 La requête renvoie tous les identifiants de profil qui ont été ignorés par le parcours, car il s&#39;agissait de doublons.
 
-**Nombre de profils qui ont été ignorés par le parcours en raison d&#39;un espace de noms non valide**
++++
+
++++Nombre de profils qui ont été ignorés par le parcours en raison d’un espace de noms non valide
 
 _Requête du lac de données_
 
@@ -509,7 +558,9 @@ _experience.journeyOrchestration.serviceEvents.segmentExportJob.eventCode = 'ERR
 
 La requête renvoie tous les identifiants de profil qui ont été ignorés par le parcours, car ils contenaient un espace de noms non valide ou aucune identité pour cet espace de noms.
 
-**Nombre de profils qui ont été ignorés par le parcours en raison de l&#39;absence de mappage d&#39;identité**
++++
+
++++Nombre de profils qui ont été ignorés par le parcours en raison de l&#39;absence de mappage d&#39;identité
 
 _Requête du lac de données_
 
@@ -531,7 +582,9 @@ _experience.journeyOrchestration.serviceEvents.segmentExportJob.eventCode = 'ERR
 
 La requête renvoie tous les identifiants de profil qui ont été ignorés par le parcours, car la carte d&#39;identité était manquante.
 
-**Nombre de profils qui ont été ignorés par le parcours, car celui-ci se trouvait dans le nœud de test et que le profil n&#39;était pas un profil de test**
++++
+
++++Nombre de profils qui ont été ignorés par le parcours, car le parcours se trouvait dans le nœud de test et que le profil n’était pas un profil de test
 
 _Requête du lac de données_
 
@@ -553,7 +606,9 @@ _experience.journeyOrchestration.serviceEvents.segmentExportJob.eventCode = 'ERR
 
 La requête renvoie tous les identifiants de profil qui ont été ignorés par le parcours, car la tâche d&#39;exportation a été exécutée en mode test, mais le profil n&#39;a pas défini l&#39;attribut testProfile sur vrai.
 
-**Nombre de profils qui ont été ignorés par le parcours en raison d&#39;une erreur interne**
++++
+
++++Nombre de profils qui ont été ignorés par le parcours en raison d&#39;une erreur interne
 
 _Requête du lac de données_
 
@@ -575,7 +630,9 @@ _experience.journeyOrchestration.serviceEvents.segmentExportJob.eventCode = 'ERR
 
 La requête renvoie tous les identifiants de profil qui ont été ignorés par le parcours en raison d&#39;une erreur interne.
 
-**Vue d’ensemble de la lecture d’audience pour une version de parcours donnée**
++++
+
++++Présentation de la lecture d’audience pour une version de parcours donnée
 
 _Requête du lac de données_
 
@@ -613,7 +670,10 @@ IMPORTANT : si aucun événement n&#39;est renvoyé par cette requête, cela pe
 * la version du parcours n&#39;a pas atteint le planning
 * si la version de parcours est censée déclencher la tâche d&#39;exportation en appelant l&#39;orchestrateur, un problème est survenu dans le flux en amont : problème sur déploiement de parcours, événement métier ou problème avec le planificateur.
 
-**Obtenir des erreurs de lecture d’audience pour une version de parcours donnée**
++++
+
+
++++Obtention des erreurs de lecture d’audience pour une version de parcours donnée.
 
 _Requête du lac de données_
 
@@ -639,7 +699,9 @@ WHERE
     )
 ```
 
-**Obtention de l&#39;état du traitement des tâches d&#39;exportation**
++++
+
++++Obtention de l&#39;état du traitement des tâches d&#39;exportation
 
 _Requête du lac de données_
 
@@ -668,7 +730,9 @@ Si aucun enregistrement n&#39;est renvoyé, cela signifie que :
 * une erreur s&#39;est produite lors de la création d&#39;une tâche d&#39;exportation ou rubrique
 * la tâche d&#39;exportation est toujours en cours d&#39;exécution
 
-**Obtention de mesures sur les profils exportés, y compris les abandons et les mesures de traitements d&#39;exportation pour chaque traitement d&#39;exportation**
++++
+
++++Obtention de mesures sur les profils exportés, y compris les abandons et les mesures de traitements d&#39;exportation pour chaque traitement d&#39;exportation
 
 _Requête du lac de données_
 
@@ -728,7 +792,9 @@ FROM
 WHERE T1.EXPORTJOB_ID = T2.EXPORTJOB_ID
 ```
 
-**Obtenir des mesures agrégées (traitements d’export d’audience et abandons) sur toutes les tâches d’exportation**
++++
+
++++Obtention de mesures agrégées (tâches d&#39;exportation d&#39;audience et abandons) sur toutes les tâches d&#39;exportation
 
 _Requête du lac de données_
 
@@ -791,9 +857,11 @@ Cette requête est différente de la précédente.
 
 Elle renvoie les mesures globales d&#39;une version de parcours donnée, quelles que soient les tâches pouvant avoir été exécutées pour celle-ci (dans le cas de parcours récurrents, les événements métier ont déclenché les tâches exploitant la réutilisation de rubrique).
 
++++
+
 ## Requêtes relatives à la qualification de l’audience {#segment-qualification-queries}
 
-**Profil ignoré en raison d’une réalisation d’audience différente de celle configurée**
++++Profil ignoré en raison d&#39;une réalisation d&#39;audience différente de celle configurée
 
 _Requête du lac de données_
 
@@ -817,7 +885,9 @@ _experience.journeyOrchestration.serviceEvents.dispatcher.eventType = 'ERROR_SEG
 
 Cette requête renvoie tous les identifiants de profil qui ont été ignorés par la version de parcours en raison d’une réalisation d’audience incorrecte.
 
-**Événements de qualification d’audience ignorés pour toute autre raison pour un profil spécifique**
++++
+
++++Événements de qualification d’audience ignorés par toute autre raison pour un profil spécifique
 
 _Requête du lac de données_
 
@@ -843,9 +913,11 @@ _experience.journeyOrchestration.serviceEvents.dispatcher.eventType = 'ERROR_SER
 
 Cette requête renvoie tous les événements (événements externes/événements de qualification d’audience) qui ont été ignorés pour une autre raison pour un profil.
 
++++
+
 ## Requêtes basées sur un événement {#event-based-queries}
 
-**Vérifier si un événement métier a été reçu pour un parcours**
++++Vérifier si un événement métier a été reçu pour un parcours
 
 _Requête du lac de données_
 
@@ -871,7 +943,9 @@ _experience.journeyOrchestration.stepEvents.nodeType = 'start' AND
 WHERE DATE(timestamp) > (now() - interval '6' hour)
 ```
 
-**Vérifier si un événement externe d’un profil a été ignoré car aucun parcours associé n’a été trouvé**
++++
+
++++Vérifier si un événement externe d’un profil a été ignoré car aucun parcours associé n’a été trouvé
 
 _Requête du lac de données_
 
@@ -895,7 +969,9 @@ _experience.journeyOrchestration.serviceEvents.dispatcher.eventCode = 'discard' 
 _experience.journeyOrchestration.serviceEvents.dispatcher.eventType = 'EVENT_WITH_NO_JOURNEY'
 ```
 
-**Vérifier si un événement externe d’un profil a été ignoré pour toute autre raison**
++++
+
++++Vérifier si un événement externe d’un profil a été ignoré pour toute autre raison
 
 _Requête du lac de données_
 
@@ -921,7 +997,9 @@ _experience.journeyOrchestration.serviceEvents.dispatcher.eventCode = 'discard' 
 _experience.journeyOrchestration.serviceEvents.dispatcher.eventType = 'ERROR_SERVICE_INTERNAL';
 ```
 
-**Vérifier le nombre de tous les événements ignorés par stateMachine par errorCode**
++++
+
++++Vérifier le nombre de tous les événements ignorés par stateMachine par errorCode
 
 _Requête du lac de données_
 
@@ -939,7 +1017,9 @@ where
 _experience.journeyOrchestration.serviceEvents.stateMachine.eventType = 'discard' GROUP BY _experience.journeyOrchestration.serviceEvents.stateMachine.eventCode
 ```
 
-**Vérifier tous les événements ignorés car une nouvelle entrée n’était pas autorisée**
++++
+
++++Vérifier tous les événements ignorés car une nouvelle entrée n’était pas autorisée
 
 _Requête du lac de données_
 
@@ -962,10 +1042,12 @@ FROM journey_step_events
 where
 _experience.journeyOrchestration.serviceEvents.stateMachine.eventType = 'discard' AND _experience.journeyOrchestration.serviceEvents.stateMachine.eventCode='reentranceNotAllowed'
 ```
+
++++
 
 ## Requêtes courantes basées sur des parcours {#journey-based-queries}
 
-**Nombre de parcours actifs quotidiens**
++++Nombre de parcours actifs quotidiens
 
 _Requête du lac de données_
 
@@ -987,9 +1069,11 @@ ORDER BY DATE(timestamp) desc
 
 La requête renvoie, pour la période définie, le nombre de parcours uniques qui se déclenchent chaque jour. Un seul parcours qui se déclenche plusieurs jours sera comptabilisé une fois par jour.
 
++++
+
 ## Requêtes sur les instances du parcours {#journey-instances-queries}
 
-**Nombre de profils dans un état spécifique à une heure spécifique**
++++Nombre de profils dans un état spécifique à une heure spécifique
 
 _Requête du lac de données_
 
@@ -1137,7 +1221,9 @@ ORDER BY
     DATETIME DESC
 ```
 
-**Nombre de profils qui ont quitté le parcours au cours de la période spécifique**
++++
+
++++Nombre de profils qui ont quitté le parcours au cours de la période spécifique
 
 _Requête du lac de données_
 
@@ -1175,7 +1261,9 @@ ORDER BY
     DATETIME DESC
 ```
 
-**Nombre de profils ayant quitté le parcours pendant la période spécifique avec le nœud/l&#39;état**
++++
+
++++Nombre de profils ayant quitté le parcours au cours de la période spécifique avec le nœud/l’état
 
 _Requête du lac de données_
 
@@ -1216,3 +1304,5 @@ GROUP BY
 ORDER BY
     DATETIME DESC
 ```
+
++++
