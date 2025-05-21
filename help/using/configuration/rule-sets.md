@@ -312,4 +312,4 @@ Pour appliquer une règle de limitation à un parcours, accédez au parcours et 
 
 ## Vidéo pratique {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/3435531?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3444728?quality=12&captions=fre_fr)
