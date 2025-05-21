@@ -6,9 +6,9 @@ feature: Release Notes
 topic: Content Management
 description: Notes de mise à jour d’Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 528e1a54dd64503e5de716e63013c4fc41fd98db
+source-git-commit: e6cbe48b102d1ac0259bb7fac96c3c8331e5a643
 workflow-type: tm+mt
-source-wordcount: '815'
+source-wordcount: '817'
 ht-degree: 29%
 
 ---
@@ -257,7 +257,7 @@ Les améliorations apportées à cette version sont répertoriées ci-dessous.
 
 * **Courrier : prise en charge de la clé SSH pour les connexions SFTP** - Date de disponibilité : 5 mai 2025
 
-  Dans la configuration du routage des fichiers de publipostage direct, en plus du type d’authentification SFTP avec mot de passe existant, vous pouvez désormais exporter votre fichier de publipostage direct vers un serveur SFTP avec authentification par clé SSH.
+  Dans la configuration du routage des fichiers de publipostage direct, en plus du type d’authentification SFTP avec mot de passe existant, vous pouvez désormais exporter votre fichier de publipostage direct vers un serveur SFTP avec authentification par clé SSH. [En savoir plus](../direct-mail/direct-mail-configuration.md)
 
 * **Activation des pilules pour la personnalisation** - Date de disponibilité : 5 mai 2025
 
