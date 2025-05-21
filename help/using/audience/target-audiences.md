@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 78b95ccd-bc28-46cd-937a-f68e3f34cc1e
-source-git-commit: 0f3191a3d7c5c78e1d8fac2e587e26522f02f8f5
+source-git-commit: c52049383bf6a8b60fcb0ab1c2331724c8cdb771
 workflow-type: tm+mt
-source-wordcount: '660'
-ht-degree: 86%
+source-wordcount: '636'
+ht-degree: 89%
 
 ---
 
@@ -28,10 +28,6 @@ Vous pouvez sélectionner dans des campagnes et des parcours n’importe quelle 
 Les audiences sont prêtes à être utilisées dans Journey Optimizer une fois l’ingestion terminée. Ce délai est généralement de moins d’une heure, mais il peut varier. Les audiences obtenues à partir de compositions devraient être disponibles 24 heures après leur publication.
 
 Pour les audiences résultant de tâches de segmentation par lots, l’activation peut être retardée en raison de la variabilité de l’ingestion par lots. Pour les parcours en lecture d’audience planifiés tous les jours, vous pouvez définir une fenêtre temporelle dans les propriétés du parcours pour vous assurer que les nouvelles données d’audience sont disponibles avant l’exécution du parcours. Si la tâche de segmentation ne se termine pas dans la fenêtre temporelle définie, le parcours sera ignoré jusqu’à son occurrence suivante. [Découvrez comment planifier un parcours Lecture d’audience](../building-journeys/read-audience.md)
-
->[!AVAILABILITY]
->
->L’option **[!UICONTROL Déclencheur après l’évaluation de l’audience par lots]** n’est disponible que pour un ensemble d’organisations (disponibilité limitée). Pour en bénéficier, contactez votre représentant ou représentante Adobe.
 
 ## Chargement personnalisé et composition d’audiences fédérées
 

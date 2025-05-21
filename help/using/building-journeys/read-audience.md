@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: activité, parcours, lecture, audience, platform
 exl-id: 7b27d42e-3bfe-45ab-8a37-c55b231052ee
-source-git-commit: 3da510cffe6fddc644c867fe8d89da9d9c5861d1
+source-git-commit: c52049383bf6a8b60fcb0ab1c2331724c8cdb771
 workflow-type: tm+mt
-source-wordcount: '2194'
+source-wordcount: '2168'
 ht-degree: 71%
 
 ---
@@ -172,11 +172,7 @@ Si la durée de vie de vos profils dans ce parcours peut être supérieure à la
 
 +++
 
-+++**[!UICONTROL Déclencheur après l’évaluation de l’audience par lots]** (disponibilité limitée)
-
->[!AVAILABILITY]
->
->L’option **[!UICONTROL Déclencheur après l’évaluation de l’audience par lots]** n’est disponible que pour un ensemble d’organisations (disponibilité limitée). Pour en bénéficier, contactez votre représentant ou représentante Adobe.
++++**[!UICONTROL Déclencheur après l’évaluation de l’audience par lots]**
 
 Pour les parcours planifiés quotidiennement et le ciblage des audiences par lots, vous pouvez définir une fenêtre temporelle allant jusqu’à 6 heures pour que le parcours attende les nouvelles données d’audience des tâches de segmentation par lots. Si la tâche de segmentation se termine dans la fenêtre temporelle , le parcours se déclenche. Sinon, le parcours est ignoré jusqu’à son occurrence suivante. Cette option garantit que les parcours s’exécutent avec des données d’audience précises et à jour.
 
@@ -286,4 +282,4 @@ Les déclencheurs **Lecture d’audience** échoués sont capturés et affichés
 
 Comprenez les cas d’utilisation applicables pour un parcours déclenché par l’activité de lecture d’audience. Découvrez comment créer des parcours basés sur des lots et les bonnes pratiques à appliquer.
 
->[!VIDEO](https://video.tv.adobe.com/v/3430370?quality=12&captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/3424997?quality=12)
