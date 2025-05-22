@@ -96,17 +96,17 @@ L’évaluation de la liste des profils de l’audience se fait toutes les 24 h
 
 La segmentation par lots est une alternative à la segmentation par flux qui traite toutes les données de profil à la fois par le biais de définitions de segment. Cela crée un instantané de l’audience qui peut être enregistré et exporté pour utilisation. Cependant, contrairement à la segmentation par streaming, la segmentation par lots ne met pas à jour la liste des audiences en temps réel, et les nouvelles données qui entrent après le traitement par lots ne seront pas répercutées dans l’audience avant le traitement par lots suivant. Essayer de forcer une mise à jour immédiate ne remplacera pas le cycle quotidien. Pour des mises à jour incrémentielles immédiates, pensez à utiliser les options de streaming ou de segmentation à la demande.
 
-Pour plus d’informations, consultez la documentation du service de segmentation de Adobe Experience Platform [](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=fr#batch){target="_blank"}
+Pour plus d’informations, consultez la documentation du service de segmentation de Adobe Experience Platform [&#128279;](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=fr#batch){target="_blank"}
 
 +++
 
 +++ Segmentation Edge
 
-La segmentation Edge permet d’évaluer les segments dans Adobe Experience Platform instantanément [sur le serveur Edge](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=fr){target="_blank"}, en activant les cas d’utilisation de la personnalisation sur une même page et sur la page suivante. Actuellement, seuls certains types de requête peuvent être évalués avec la segmentation Edge. Pour plus d’informations, consultez la documentation du service de segmentation de Adobe Experience Platform [](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/edge-segmentation.html?lang=fr#query-types){target="_blank"}
+La segmentation Edge permet d’évaluer les segments dans Adobe Experience Platform instantanément [sur le serveur Edge](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=fr){target="_blank"}, en activant les cas d’utilisation de la personnalisation sur une même page et sur la page suivante. Actuellement, seuls certains types de requête peuvent être évalués avec la segmentation Edge. Pour plus d’informations, consultez la documentation du service de segmentation de Adobe Experience Platform [&#128279;](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/edge-segmentation.html?lang=fr#query-types){target="_blank"}
 
 +++
 
-Si vous savez quelle méthode d’évaluation utiliser, sélectionnez-la à l’aide de la liste déroulante. Vous pouvez également cliquer sur l’icône Parcourir du dossier (loupe) pour afficher la liste des méthodes d’évaluation de la définition de segment disponibles. Pour plus d’informations, consultez la documentation du service de segmentation de Adobe Experience Platform [](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html?lang=fr#segment-properties){target="_blank"}
+Si vous savez quelle méthode d’évaluation utiliser, sélectionnez-la à l’aide de la liste déroulante. Vous pouvez également cliquer sur l’icône Parcourir du dossier (loupe) pour afficher la liste des méthodes d’évaluation de la définition de segment disponibles. Pour plus d’informations, consultez la documentation du service de segmentation de Adobe Experience Platform [&#128279;](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html?lang=fr#segment-properties){target="_blank"}
 
 ![](assets/evaluation-methods.png)
 
