@@ -48,7 +48,7 @@ Avant d’utiliser votre fragment de contenu dans Journey Optimizer, vous devez 
 
 1. Cliquez sur **Créer**.
 
-1. Définissez votre modèle de fragment de contenu comme indiqué dans la documentation Experience Manager [](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/sites/administering/content-fragments/content-fragment-models) et attribuez la balise Journey Optimizer que vous venez de créer.
+1. Définissez votre modèle de fragment de contenu comme indiqué dans la documentation Experience Manager [&#128279;](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/sites/administering/content-fragments/content-fragment-models) et attribuez la balise Journey Optimizer que vous venez de créer.
 
 Vous pouvez maintenant commencer à créer et configurer votre fragment de contenu pour une utilisation ultérieure dans Journey Optimizer. En savoir plus dans la [documentation Experience Manager](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/sites/administering/content-fragments/managing).
 
