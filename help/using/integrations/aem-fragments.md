@@ -22,7 +22,7 @@ ht-degree: 23%
 
 En intégrant Adobe Experience Manager as a Cloud Service à Adobe Journey Optimizer, vous pouvez désormais incorporer facilement vos fragments de contenu AEM dans votre contenu Journey Optimizer. Cette connexion rationalisée simplifie le processus d’accès au contenu AEM et d’utilisation de celui-ci, ce qui permet de créer des campagnes et des parcours personnalisés et dynamiques.
 
-Pour en savoir plus sur les fragments de contenu d’AEM, voir [ Utilisation de fragments de contenu ](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/sites/administering/content-fragments/overview) dans la documentation d’Experience Manager.
+Pour en savoir plus sur les fragments de contenu d’AEM, voir [ Utilisation de fragments de contenu ](https://experienceleague.adobe.com/fr/docs/experience-manager-cloud-service/content/sites/administering/content-fragments/overview) dans la documentation d’Experience Manager.
 
 ## Limites {#limitations}
 
@@ -48,9 +48,9 @@ Avant d’utiliser votre fragment de contenu dans Journey Optimizer, vous devez 
 
 1. Cliquez sur **Créer**.
 
-1. Définissez votre modèle de fragment de contenu comme indiqué dans la documentation Experience Manager [&#128279;](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/sites/administering/content-fragments/content-fragment-models) et attribuez la balise Journey Optimizer que vous venez de créer.
+1. Définissez votre modèle de fragment de contenu comme indiqué dans la documentation Experience Manager [&#128279;](https://experienceleague.adobe.com/fr/docs/experience-manager-cloud-service/content/sites/administering/content-fragments/content-fragment-models) et attribuez la balise Journey Optimizer que vous venez de créer.
 
-Vous pouvez maintenant commencer à créer et configurer votre fragment de contenu pour une utilisation ultérieure dans Journey Optimizer. En savoir plus dans la [documentation Experience Manager](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/sites/administering/content-fragments/managing).
+Vous pouvez maintenant commencer à créer et configurer votre fragment de contenu pour une utilisation ultérieure dans Journey Optimizer. En savoir plus dans la [documentation Experience Manager](https://experienceleague.adobe.com/fr/docs/experience-manager-cloud-service/content/sites/administering/content-fragments/managing).
 
 ## Ajouter des fragments de contenu Experience Manager {#aem-add}
 
