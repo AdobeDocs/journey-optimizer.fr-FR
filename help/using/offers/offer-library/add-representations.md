@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 718af505-7b7c-495e-8974-bd9c35d796bb
-source-git-commit: eb3879db92d765a71626b6b68299286818d9569b
+source-git-commit: 3d332c6584b0625c83631bd6e5125dfcd244e68d
 workflow-type: tm+mt
-source-wordcount: '793'
-ht-degree: 83%
+source-wordcount: '766'
+ht-degree: 86%
 
 ---
 
@@ -102,9 +102,10 @@ Pour ajouter du contenu provenant d&#39;un emplacement public externe, sélectio
 
 Vous pouvez personnaliser vos URL à l’aide de l’éditeur de personnalisation. En savoir plus sur la [personnalisation](../../personalization/personalize.md#use-expression-editor).
 
-Vous pouvez également insérer un fragment de contenu Adobe Experience Manager directement dans votre offre en cliquant sur **[!UICONTROL Fragment de contenu]** En savoir plus sur [Intégration de fragments de contenu à Journey Optimizer](../../integrations/aem-fragments.md).
+<!--
+You can also insert an Adobe Experience Manager Content Fragment directly into your offer by clicking **[!UICONTROL Content Fragment]** Learn more about [Content fragment integration with Journey Optimizer](../../integrations/aem-fragments.md).
 
-![](../assets/offer-content-url.png)
+![](../assets/offer-content-url.png)-->
 
 Par exemple, vous souhaitez personnaliser l’image qui s’affiche sous forme d’offre. Vous voulez que les utilisateurs et utilisatrices qui préfèrent les vacances en ville voient la skyline de New York et les utilisateurs et utilisatrices qui préfèrent les vacances à la plage voient la rive nord d’Hawaii.
 
