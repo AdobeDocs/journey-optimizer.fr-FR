@@ -244,4 +244,4 @@ curl -X POST \
 
 Découvrez comment créer des profils de test.
 
->[!VIDEO](https://video.tv.adobe.com/v/334236?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3416331?quality=12&captions=fre_fr)
