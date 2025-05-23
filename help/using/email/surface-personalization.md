@@ -9,16 +9,16 @@ role: Admin
 level: Experienced
 keywords: paramètres, e-mail, configuration, sous-domaine
 exl-id: 1e004a76-5d6d-43a1-b198-5c9b41f5332c
-source-git-commit: c0e8d80cac202fb463aa95b4a536146679e6567f
+source-git-commit: a5bd1e92b3696a7de2c44522099d54bc6e1e00ab
 workflow-type: tm+mt
-source-wordcount: '1173'
-ht-degree: 90%
+source-wordcount: '1169'
+ht-degree: 99%
 
 ---
 
 # Personnaliser les paramètres de configuration du canal e-mail {#surface-personalization}
 
-Pour une flexibilité et un contrôle accrus de vos paramètres d’e-mail, [!DNL Journey Optimizer] vous permet de définir des valeurs personnalisées pour les sous-domaines, les en-têtes et les paramètres de tracking d’URL lors de la création de configurations d’e-mail.
+Pour plus de flexibilité et de contrôle sur vos paramètres d’e-mail, [!DNL Journey Optimizer] permet de définir des valeurs personnalisées pour les sous-domaines, les en-têtes et les paramètres de tracking des URL lors de la création de configurations d’e-mail.
 
 ## Ajouter des sous-domaines dynamiques {#dynamic-subdomains}
 
@@ -124,19 +124,19 @@ Pour utiliser des variables personnalisées pour vos paramètres d’en-tête de
 >
 >Si vous avez ajouté un ou plusieurs sous-domaines dynamiques à votre configuration, les suffixes de l’**E-mail de l’expéditeur ou de l’expéditrice** et de l’**E-mail d’erreur** seront renseignés en fonction du [sous-domaine dynamique](#dynamic-subdomains) résolu.
 
-## Utiliser le tracking d’URL personnalisé {#personalize-url-tracking}
+## Utiliser le tracking personnalisé des URL {#personalize-url-tracking}
 
-Pour utiliser des paramètres de tracking d’URL personnalisés, procédez comme suit.
+Pour utiliser des paramètres personnalisés de tracking des URL, procédez comme suit.
 
-1. Accédez à la section **[!UICONTROL Paramètres de tracking d’URL]** de la configuration de votre canal e-mail.
+1. Accédez à la section **[!UICONTROL Paramètres de tracking des URL]** de la configuration du canal e-mail.
 
-1. Cliquez sur l’icône Modifier en regard de chaque champ. Outre les attributs contextuels, vous pouvez sélectionner des attributs de profil.
+1. Cliquez sur l’icône Modifier en regard de chaque champ. En plus des attributs contextuels, vous pouvez sélectionner des attributs de profil.
 
 1. Sélectionnez l’attribut de profil de votre choix dans l’[éditeur de personnalisation](../personalization/personalization-build-expressions.md).
 
-1. Répétez les étapes ci-dessus pour chaque paramètre de tracking à personnaliser.
+1. Répétez les étapes ci-dessus pour chaque paramètre de tracking que vous souhaitez personnaliser.
 
-Désormais, lorsque l’e-mail est envoyé, le paramètre personnalisé est automatiquement ajouté à la fin de l’URL. Vous pouvez ensuite capturer ce paramètre dans les outils d’analyse web ou dans les rapports de performances.
+Désormais, lorsque l’e-mail est envoyé, ce paramètre personnalisé est automatiquement ajouté à la fin de l’URL. Vous pouvez ensuite capturer ce paramètre dans les outils d’analyse web ou dans les rapports de performances.
 
 ## Afficher les détails de configuration {#view-surface-details}
 
@@ -166,7 +166,7 @@ Lors de l’utilisation d’une configuration personnalisée dans une campagne o
 
 >[!NOTE]
 >
->En plus des profils de test, [!DNL Journey optimizer] vous permet également de tester différentes variantes de votre contenu en le prévisualisant et en envoyant des BAT à l’aide d’exemples de données d’entrée chargés à partir d’un fichier CSV/JSON ou ajoutés manuellement. [Découvrir comment tester votre contenu à l’aide d’exemples de données d’entrée](../test-approve/simulate-sample-input.md)
+>En plus des profils de test, [!DNL Journey optimizer] vous permet également de tester différentes variantes de votre contenu en le prévisualisant et en envoyant des BAT à l’aide d’exemples de données d’entrée chargés à partir d’un fichier CSV/JSON ou ajoutés manuellement. [Découvrez comment simuler des variations de contenu](../test-approve/simulate-sample-input.md)
 
 Pour prévisualiser votre contenu à l’aide de profils de test, procédez comme suit :
 

@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: bd5e053a-69eb-463b-add3-8b9168c8e280
-source-git-commit: c2f32533027e374a1df26943e7c5acd4e1d13869
-workflow-type: ht
-source-wordcount: '1362'
-ht-degree: 100%
+source-git-commit: 22a8742bf9000ed1cc8437d7ac89747276284dbf
+workflow-type: tm+mt
+source-wordcount: '1357'
+ht-degree: 98%
 
 ---
 
@@ -22,7 +22,7 @@ Les profils de test sont requis lors de l’utilisation du [mode test](../buildi
 
 >[!NOTE]
 >
->[!DNL Journey optimizer] vous permet également de tester différentes variantes de votre contenu en le prévisualisant et en envoyant des BAT à l’aide d’exemples de données d’entrée chargées à partir d’un fichier CSV/JSON ou ajoutées manuellement. [Découvrir comment tester votre contenu à l’aide d’exemples de données d’entrée](../test-approve/simulate-sample-input.md)
+>[!DNL Journey optimizer] vous permet également de tester différentes variantes de votre contenu en le prévisualisant et en envoyant des BAT à l’aide d’exemples de données d’entrée chargées à partir d’un fichier CSV/JSON ou ajoutées manuellement. [Découvrez comment simuler des variations de contenu](../test-approve/simulate-sample-input.md)
 
 Il existe plusieurs façons de créer des profils de test. Vous trouverez sur cette page des informations détaillées pour :
 
@@ -32,9 +32,9 @@ Il existe plusieurs façons de créer des profils de test. Vous trouverez sur ce
 
   Outre ces deux méthodes, Adobe Journey Optimizer est fourni avec un [cas d’utilisation intégré](#use-case-1) spécifique pour faciliter la création de profils de test.
 
-Vous pouvez également charger un fichier JSON dans un jeu de données existant. Pour en savoir plus à ce sujet, consultez la [documentation sur l’ingestion des données](https://experienceleague.adobe.com/docs/experience-platform/ingestion/tutorials/ingest-batch-data.html?lang=fr#add-data-to-dataset){target="_blank"}.
+Vous pouvez également charger un fichier JSON dans un jeu de données existant. Consultez à ce sujet la [documentation sur l&#39;ingestion des données ](https://experienceleague.adobe.com/docs/experience-platform/ingestion/tutorials/ingest-batch-data.html?lang=fr#add-data-to-dataset){target="_blank"}.
 
-Veuillez noter que la création d’un profil de test est similaire à la création de profils classiques dans Adobe Experience Platform. Pour plus d’informations, consultez la [documentation du profil client en temps réel](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=fr){target="_blank"}.
+Veuillez noter que la création d&#39;un profil de test est similaire à la création de profils classiques dans Adobe Experience Platform. Pour plus d&#39;informations, consultez la [documentation du profil client en temps réel](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=fr){target="_blank"}.
 
 ➡️ [Découvrez comment créer des profils de test dans cette vidéo](#video)
 
@@ -69,7 +69,7 @@ Une fois que vous avez terminé, cliquez sur **[!UICONTROL Ajouter des groupes d
 
 >[!NOTE]
 >
->Pour plus d’informations sur la création de schémas, consultez la [documentation XDM](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/resources/schemas.html?lang=fr#prerequisites){target="_blank"}.
+>Pour plus d&#39;informations sur la création de schémas, consultez la [documentation XDM](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/resources/schemas.html?lang=fr#prerequisites){target="_blank"}.
 
 Vous devez ensuite **créer le jeu de données** dans lequel les profils seront importés. Procédez de la façon suivante :
 
@@ -86,7 +86,7 @@ Vous devez ensuite **créer le jeu de données** dans lequel les profils seront 
 
 >[!NOTE]
 >
-> Pour plus d’informations sur la création de jeux de données, consultez la [documentation de Catalog Service](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/user-guide.html?lang=fr#getting-started){target="_blank"}.
+> Pour plus d&#39;informations sur la création de jeux de données, consultez la [documentation du service de catalogue](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/user-guide.html?lang=fr#getting-started){target="_blank"}.
 
 ## Cas d’utilisation interne au produit{#use-case-1}
 
@@ -183,7 +183,7 @@ Vos profils de test sont ajoutés et peuvent désormais être utilisés lors du 
 
 >[!NOTE]
 >
->Pour plus d’informations sur les importations de fichiers CSV, consultez la [documentation sur l’ingestion de données](https://experienceleague.adobe.com/docs/experience-platform/ingestion/tutorials/map-a-csv-file.html?lang=fr#tutorials){target="_blank"}.
+>Pour plus d&#39;informations sur les imports de fichiers CSV, consultez la [documentation sur l&#39;ingestion de données](https://experienceleague.adobe.com/docs/experience-platform/ingestion/tutorials/map-a-csv-file.html?lang=fr#tutorials){target="_blank"}.
 >
 
 
@@ -244,4 +244,4 @@ curl -X POST \
 
 Découvrez comment créer des profils de test.
 
->[!VIDEO](https://video.tv.adobe.com/v/3416331?quality=12&captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/334236?quality=12)

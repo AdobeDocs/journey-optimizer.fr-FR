@@ -2,7 +2,7 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Vérifier et tester vos messages WhatsApp
-description: Découvrez comment vérifier et envoyer vos messages WhatsApp dans Journey Optimizer
+description: Découvrez comment vérifier et envoyer vos messages WhatsApp dans Journey Optimizer.
 feature: Whatsapp
 topic: Content Management
 role: User
@@ -10,10 +10,11 @@ level: Beginner
 hide: true
 hidefromtoc: true
 badge: label="Beta" type="Informative"
-source-git-commit: 22664437fb1f548f4c1524ea5fa7ac9e7fdc7f59
+exl-id: 31acb095-de90-495f-8e8c-43a78dedfa06
+source-git-commit: 22a8742bf9000ed1cc8437d7ac89747276284dbf
 workflow-type: tm+mt
-source-wordcount: '276'
-ht-degree: 75%
+source-wordcount: '266'
+ht-degree: 93%
 
 ---
 
@@ -23,16 +24,16 @@ ht-degree: 75%
 
 **Table des matières**
 
-* [Prise en main des messages WhatsApp](get-started-whatsapp.md)
-* [Prise en main de la configuration de WhatsApp](whatsapp-configuration.md)
+* [Commencer avec les messages WhatsApp](get-started-whatsapp.md)
+* [Commencer la configuration WhatsApp ](whatsapp-configuration.md)
 * [Créer un message WhatsApp](create-whatsapp.md)
-* **[Vérifiez et envoyez vos messages WhatsApp](send-whatsapp.md)**
+* **[Vérifier et envoyer vos messages WhatsApp](send-whatsapp.md)**
 
 >[!ENDSHADEBOX]
 
-## Prévisualiser votre message WhatsApp {#preview-whatsapp}
+## Prévisualiser votre messages WhatsApp {#preview-whatsapp}
 
-Une fois le contenu de votre message défini, vous pouvez utiliser des profils de test ou des exemples de données d’entrée chargés à partir d’un fichier CSV/JSON ou ajoutés manuellement pour prévisualiser son contenu. Si vous avez inséré du contenu personnalisé, vous pouvez vérifier la façon dont celui-ci s’affiche dans le message. [Découvrir comment tester votre contenu à l’aide d’exemples de données d’entrée](../test-approve/simulate-sample-input.md)
+Une fois le contenu de votre message défini, vous pouvez utiliser des profils de test ou des exemples de données d’entrée chargés à partir d’un fichier CSV/JSON ou ajoutés manuellement pour prévisualiser son contenu. Si vous avez inséré du contenu personnalisé, vous pouvez vérifier comment ce contenu s’affiche dans le message.
 
 Pour ce faire, cliquez sur **[!UICONTROL Simuler du contenu]**, puis vérifiez votre message à l’aide des données de profil de test.
 
@@ -52,4 +53,4 @@ Vous devez vérifier les alertes dans la section supérieure de l’éditeur. Ce
 >
 > Si votre campagne est soumise à une politique de validation, vous devrez effectuer une demande d’approbation afin de pouvoir envoyer vos SMS. [En savoir plus](../test-approve/gs-approval.md)
 
-Lorsque votre message WhatsApp est prêt, effectuez la configuration de votre [parcours ](../building-journeys/publishing-the-journey.md) ou [campagne](../campaigns/review-activate-campaign.md) pour l&#39;envoyer.
+Une fois votre message WhatsApp prêt, effectuez la configuration de votre [parcours](../building-journeys/publishing-the-journey.md) ou [campagne](../campaigns/review-activate-campaign.md) pour l’envoyer.

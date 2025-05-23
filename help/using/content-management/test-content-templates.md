@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 01726ab6-f581-4d19-aedd-2541bc0f27c6
-source-git-commit: 03cb3298c905766bc059e82c58969a2111379345
+source-git-commit: 22a8742bf9000ed1cc8437d7ac89747276284dbf
 workflow-type: tm+mt
-source-wordcount: '216'
-ht-degree: 100%
+source-wordcount: '252'
+ht-degree: 85%
 
 ---
 
@@ -23,9 +23,13 @@ Vous pouvez tester le rendu de certains de vos modèles d’e-mail, qu’ils aie
 
 1. Cliquez sur **[!UICONTROL Modifier le contenu]** dans les **[!UICONTROL Propriétés du modèle]**.
 
-1. Cliquez sur **[!UICONTROL Simuler le contenu]** et sélectionnez un profil de test pour vérifier le rendu. [En savoir plus](../content-management/preview-test.md).
+1. Cliquez sur **[!UICONTROL Simuler le contenu]** et sélectionnez un profil de test pour vérifier le rendu. [En savoir plus](../content-management/preview-test.md)
 
    ![](assets/content-template-stimulate.png)
+
+   >[!NOTE]
+   >
+   >[!DNL Journey optimizer] vous permet également de tester différentes variantes de vos modèles de contenu en les prévisualisant et en envoyant des BAT à l’aide des exemples de données d’entrée téléchargées à partir d’un fichier CSV/JSON ou ajoutées manuellement. [Découvrez comment simuler des variations de contenu](../test-approve/simulate-sample-input.md)
 
 1. Vous pouvez envoyer un BAT pour tester votre contenu et le faire approuver par certains utilisateurs et utilisatrices internes avant de l’utiliser pour un parcours ou une campagne.
 
