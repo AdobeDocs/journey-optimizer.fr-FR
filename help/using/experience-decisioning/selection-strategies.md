@@ -19,14 +19,14 @@ ht-degree: 99%
 >id="ajo_exd_config_strategies"
 >title="Définir vos stratégies de sélection"
 >abstract="Une stratégie de sélection est réutilisable et est constituée d’une collection associée à une contrainte d’éligibilité et d’une méthode de classement permettant de déterminer les offres à afficher lorsqu’elles sont sélectionnées dans une politique de décision."
-<!-->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/decisioning/experience-decisioning/create-decision.html" text="Create decision policies"-->
+<!-->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/decisioning/experience-decisioning/create-decision.html?lang=fr" text="Create decision policies"-->
 
 >[!CONTEXTUALHELP]
 >id="ajo_exd_strategy_eligibility"
 >title="Limiter les profils éligibles"
 >abstract="Vous pouvez restreindre la sélection des offres pour cette stratégie de sélection. Par défaut, tous les profils sont éligibles, mais vous pouvez utiliser des audiences ou des règles pour limiter la sélection des offres à des profils spécifiques uniquement."
-<!-->>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/audiences-profiles-identities/audiences/about-audiences.html" text="Use audiences"
->additional-url= »https://experienceleague.adobe.com/docs/journey-optimizer/using/decisioning/experience-decisioning/selection/rules.html » text=« Utiliser des règles de décision »—>
+<!-->>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/audiences-profiles-identities/audiences/about-audiences.html?lang=fr" text="Use audiences"
+>additional-url= »https://experienceleague.adobe.com/docs/journey-optimizer/using/decisioning/experience-decisioning/selection/rules.html?lang=fr » text=« Utiliser des règles de décision »—>
 
 Une stratégie de sélection est réutilisable et est constituée d’une collection associée à une contrainte d’éligibilité et d’une méthode de classement permettant de déterminer les offres à afficher lorsqu’elles sont sélectionnées dans une [politique de décision](create-decision.md).
 
