@@ -6,58 +6,59 @@ description: Découvrir comment accéder aux fragments de contenu AEM et commen
 topic: Content Management
 role: User
 level: Beginner
-hide: true
-hidefromtoc: true
 exl-id: 57d7c25f-7e39-46ad-85c1-65e2c18e2686
-source-git-commit: 1af75a0e6bfc2c3b9c565c3190f46d137a68d32e
+source-git-commit: eb3879db92d765a71626b6b68299286818d9569b
 workflow-type: tm+mt
-source-wordcount: '423'
-ht-degree: 82%
+source-wordcount: '598'
+ht-degree: 23%
 
 ---
 
 # Fragments de contenu Adobe Experience Manager {#aem-fragments}
 
-En intégrant Adobe Experience Manager à Adobe Journey Optimizer, vous pouvez désormais incorporer facilement vos fragments de contenu AEM dans le contenu de vos e-mails Journey Optimizer. Cette connexion rationalisée simplifie le processus d’accès au contenu AEM et d’utilisation de celui-ci, ce qui permet de créer des campagnes et des parcours personnalisés et dynamiques.
+>[!AVAILABILITY]
+>
+> Pour les clients du secteur de la santé, l’intégration n’est activée que sous licence des offres complémentaires Journey Optimizer Healthcare Shield et Adobe Experience Manager Enhanced Security .
 
-Pour en savoir plus sur le fragment de contenu AEM, consultez la [documentation Experience Manager](https://experienceleague.adobe.com/fr/docs/experience-manager-cloud-service/content/sites/authoring/fragments/content-fragments).
+En intégrant Adobe Experience Manager as a Cloud Service à Adobe Journey Optimizer, vous pouvez désormais incorporer facilement vos fragments de contenu AEM dans votre contenu Journey Optimizer. Cette connexion rationalisée simplifie le processus d’accès au contenu AEM et d’utilisation de celui-ci, ce qui permet de créer des campagnes et des parcours personnalisés et dynamiques.
+
+Pour en savoir plus sur les fragments de contenu d’AEM, voir [ Utilisation de fragments de contenu ](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/sites/administering/content-fragments/overview) dans la documentation d’Experience Manager.
 
 ## Limites {#limitations}
 
-* Disponible uniquement pour le canal E-mail.
-
-* Les utilisateurs et utilisatrices ne peuvent actuellement pas changer l’instance AEM à laquelle ils sont connectés, car chaque sandbox est limité à une seule instance.
-
-* Il est recommandé de limiter le nombre de personnes autorisées à publier des fragments de contenu afin de réduire le risque d’erreurs accidentelles dans les e-mails.
+* Il est recommandé de limiter le nombre d’utilisateurs autorisés à publier des fragments de contenu afin de réduire le risque d’erreurs accidentelles.
 
 * Pour le contenu multilingue, seul le flux manuel est pris en charge.
 
-* Les variantes ne sont actuellement pas prises en charge.
+* Les variations ne sont actuellement pas prises en charge.
 
-* Vous devez créer une balise spécifique à Journey Optimizer.
+## Création et affectation d’une balise dans Experience Manager
 
-+++ Découvrir comment créer votre balise Journey Optimizer
+Avant d’utiliser votre fragment de contenu dans Journey Optimizer, vous devez créer une balise spécifique à Journey Optimizer :
 
-   1. Accédez à votre environnement **Experience Manager**.
+1. Accédez à votre environnement **Experience Manager**.
 
-   1. Dans le menu **Outils**, accédez à l’onglet **Général** et sélectionnez **Balisage**.
+1. Dans le menu **Outils**, sélectionnez **Balisage**.
 
-   1. Cliquez sur **Créer une balise**.
+   ![](assets/do-not-localize/aem_tag_1.png)
 
-   1. Assurez-vous que l’identifiant respecte la syntaxe suivante : `ajo-enabled:{AJO-OrgId}/{AJO-SandboxName}`.
+1. Cliquez sur **Créer une balise**.
 
-   1. Cliquez sur **Créer**.
+1. Assurez-vous que l’identifiant respecte la syntaxe suivante : `ajo-enabled:{AJO-OrgId}/{AJO-SandboxName}`.
 
-  Vous pouvez maintenant affecter cette balise Journey Optimizer à vos fragments de contenu.
-+++
+1. Cliquez sur **Créer**.
 
-## Ajouter des fragments de contenu AEM {#aem-add}
+1. Définissez votre modèle de fragment de contenu comme indiqué dans la documentation Experience Manager [](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/sites/administering/content-fragments/content-fragment-models) et attribuez la balise Journey Optimizer que vous venez de créer.
 
-Après avoir créé et personnalisé vos [fragments de contenu AEM](https://experienceleague.adobe.com/fr/docs/experience-manager-cloud-service/content/sites/authoring/fragments/content-fragments), vous pouvez maintenant les importer dans votre campagne ou votre parcours Journey Optimizer.
+Vous pouvez maintenant commencer à créer et configurer votre fragment de contenu pour une utilisation ultérieure dans Journey Optimizer. En savoir plus dans la [documentation Experience Manager](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/sites/administering/content-fragments/managing).
 
-1. Après avoir créé votre [campagne](../email/create-email.md) ou votre [parcours ](../email/create-email.md) avec une action d’e-mail, accédez au concepteur d’e-mail pour configurer le contenu des e-mails. [En savoir plus](../email/get-started-email-design.md)
+## Ajouter des fragments de contenu Experience Manager {#aem-add}
 
-1. Cliquez à l’intérieur d’un bloc de texte ou dans la ligne d’objet et sélectionnez **[!UICONTROL Ajouter une personnalisation]** dans la barre d’outils contextuelle.
+Après avoir créé et personnalisé vos fragments de contenu AEM, vous pouvez maintenant les importer dans votre campagne ou parcours Parcours Optimizer.
+
+1. Créez votre [Campaign](../campaigns/create-campaign.md) ou [Parcours ](../building-journeys/journey-gs.md).
+
+1. Pour accéder à votre fragment de contenu AEM, cliquez sur l’icône ![Personalization](assets/do-not-localize/Smock_PersonalizationField_18_N.svg) dans n’importe quel champ de texte ou ouvrez le code source via un composant de contenu HTML.
 
    ![](assets/aem_campaign_2.png)
 
@@ -69,7 +70,7 @@ Après avoir créé et personnalisé vos [fragments de contenu AEM](https://exp
 
 1. Cliquez sur **[!UICONTROL Afficher les filtres]** pour affiner votre liste de fragments de contenu.
 
-   Par défaut, le filtre Fragment de contenu est prédéfini pour afficher uniquement le contenu approuvé.
+   Par défaut, le filtre Fragment de contenu est préréglé pour afficher uniquement le contenu approuvé.
 
    ![](assets/aem_campaign_4.png)
 
@@ -77,12 +78,46 @@ Après avoir créé et personnalisé vos [fragments de contenu AEM](https://exp
 
    ![](assets/aem_campaign_5.png)
 
-1. Sélectionnez les champs de votre **[!UICONTROL fragment de contenu]** à ajouter à votre contenu. Vous pouvez ajouter votre contenu ou copier sa valeur.
+1. Cliquez sur **[!UICONTROL Afficher le fragment]** pour afficher les informations relatives au fragment. Notez que l’ouverture du menu **[!UICONTROL Informations sur le fragment]** place l’éditeur en mode lecture seule.
 
-   Notez que si vous choisissez de copier la valeur, les futures mises à jour du **[!UICONTROL fragment de contenu]** ne seront pas répercutées dans votre campagne ou votre parcours.
+   Sélectionnez **[!UICONTROL Aperçu]** dans le menu de droite pour afficher votre fragment dans Adobe Experience Manager.
+
+   ![](assets/aem_campaign_7.png)
+
+1. Cliquez sur ![icône Autres actions](assets/do-not-localize/Smock_MoreSmallList_18_N.svg) pour accéder au menu avancé de votre fragment :
+
+   * **[!UICONTROL Permuter le fragment]**
+   * **[!UICONTROL Explorer les références]**
+   * **[!UICONTROL Ouvrir dans AEM]**
+
+   ![](assets/aem_campaign_8.png)
+
+1. Sélectionnez les champs de votre **[!UICONTROL fragment]** à ajouter à votre contenu.
+   <!--
+    Note that if you choose to copy the value, any future updates to the Content Fragment will not be reflected in your campaign or journey. However, using dynamic placeholders ensures real-time updates.-->
 
    ![](assets/aem_campaign_6.png)
 
-1. Cliquez sur **[!UICONTROL Enregistrer]** et vérifiez votre message dans l’aperçu. Vous pouvez maintenant tester et vérifier le contenu de votre message, comme indiqué dans [cette section](../content-management/preview.md).
+1. Pour activer la personnalisation en temps réel, tous les espaces réservés utilisés dans un **[!UICONTROL fragment de contenu]** doivent être explicitement déclarés par l’utilisateur en tant que paramètres dans la balise d’assistance de fragment. Vous pouvez mapper ces espaces réservés aux attributs de profil, aux attributs contextuels, aux chaînes statiques ou aux variables prédéfinies à l’aide des méthodes suivantes :
 
-Une fois les tests effectués et le contenu validé, vous pouvez envoyer l’e-mail à votre audience avec votre [campagne](../campaigns/review-activate-campaign.md) ou votre [parcours](../building-journeys/publishing-the-journey.md).
+   1. **Mappage de profil ou d’attribut contextuel** : attribuez l’espace réservé à un profil ou à un attribut contextuel, par exemple nom = profile.person.name.firstName.
+
+   1. **Mappage de chaîne statique** : attribuez une valeur de chaîne fixe en la plaçant entre guillemets doubles, par exemple nom = « John ».
+
+   1. **Mappage de variables** : référencez une variable déclarée précédemment dans le même HTML, par exemple name = &#39;variableName&#39;.
+Dans ce cas, assurez-vous que **_variableName_** est déclaré avant d&#39;ajouter l&#39;identifiant du fragment, en utilisant la syntaxe suivante :
+
+      ```html
+      {% let variableName = attribute name %} 
+      ```
+
+   Dans l’exemple ci-dessous, l’espace réservé **_name_** est mappé sur l’attribut **_profile.person.name.firstName_** dans le fragment.
+
+   ![](assets/aem_campaign_9.png){zoomable="yes"}
+
+
+1. Cliquez sur **[!UICONTROL Enregistrer]**. Vous pouvez maintenant tester et vérifier le contenu de votre message, comme indiqué dans [cette section](../content-management/preview.md).
+
+Une fois que vous avez effectué vos tests et validé le contenu, vous pouvez envoyer votre [Campagne](../campaigns/review-activate-campaign.md) ou [Parcours ](../building-journeys/publishing-the-journey.md) à votre audience.
+
+Adobe Experience Manager vous permet d’identifier les campagnes ou parcours Journey Optimizer dans lesquels un fragment de contenu est utilisé.

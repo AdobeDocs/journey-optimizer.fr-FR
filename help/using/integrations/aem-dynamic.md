@@ -1,114 +1,119 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Dynamic Media
-description: Utilisation de Dynamic Media avec Journey Optimizer
+title: Dynamic Media
+description: Utiliser Dynamic Media avec Journey Optimizer
 topic: Content Management
 role: User
 level: Beginner
-badge: label="Disponibilité limitée" type="Informative"
 exl-id: 3e777cc5-a935-4e68-9de7-60b241e78f63
-source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
+source-git-commit: eb3879db92d765a71626b6b68299286818d9569b
 workflow-type: tm+mt
-source-wordcount: '777'
-ht-degree: 4%
+source-wordcount: '877'
+ht-degree: 86%
 
 ---
 
-# Utiliser Dynamic Media {#aem-dynamic}
+# Utiliser Dynamic Media {#aem-dynamic}
 
 >[!AVAILABILITY]
 >
->Cette intégration est disponible uniquement pour un ensemble d’organisations (disponibilité limitée). Pour en bénéficier, contactez votre représentant ou représentante Adobe.
+> Pour les clients du secteur de la santé, l’intégration n’est activée que sous licence des offres complémentaires Journey Optimizer Healthcare Shield et Adobe Experience Manager Enhanced Security .
 
-Le sélecteur de ressources prend désormais en charge Dynamic Media, ce qui vous permet de sélectionner et d’utiliser facilement des rendus Dynamic Media approuvés dans Journey Optimizer. Les modifications apportées aux ressources dans Adobe Experience Manager sont immédiatement répercutées dans votre contenu Journey Optimizer, ce qui garantit que les versions les plus récentes sont toujours utilisées sans nécessiter de mises à jour manuelles.
+Le sélecteur de ressources prend désormais en charge Dynamic Media, ce qui vous permet de sélectionner et d’utiliser facilement des rendus de médias dynamiques approuvés dans Journey Optimizer. Les modifications apportées aux ressources dans Adobe Experience Manager sont immédiatement répercutées dans votre contenu Journey Optimizer. Ainsi, les versions les plus récentes sont toujours utilisées sans nécessiter de mises à jour manuelles.
 
-Notez que cette intégration n’est disponible que pour les clients qui utilisent Dynamic Media Manager as a Cloud Service.
+Notez que cette intégration n’est disponible que pour les clients et clientes qui utilisent Dynamic Media Manager as a Cloud Service.
 
-Pour en savoir plus sur Dynamic Media dans Adobe Experience Manager as a Cloud Service, consultez la [documentation Experience Manager](https://experienceleague.adobe.com/fr/docs/experience-manager-cloud-service/content/assets/dynamicmedia/dynamic-media){target="_blank"}.
+Pour en savoir plus sur Dynamic Media dans Adobe Experience Manager as a Cloud Service, consultez la [documentation d’Experience Manager](https://experienceleague.adobe.com/fr/docs/experience-manager-cloud-service/content/assets/dynamicmedia/dynamic-media){target="_blank"}.
 
-## Ajout et gestion de Dynamic Media {#dynamic-media}
+## Ajouter et gérer des médias dynamiques {#dynamic-media}
 
-Améliorez et optimisez votre contenu pour n’importe quel écran ou navigateur en insérant Dynamic Media depuis Adobe Experience Manager as a Cloud Service directement dans votre contenu Journey Optimizer.  Vous pouvez ensuite redimensionner, recadrer, améliorer et effectuer d’autres réglages si nécessaire.
+Améliorez et optimisez votre contenu pour n’importe quel écran ou navigateur en insérant des médias dynamiques depuis Adobe Experience Manager as a Cloud Service directement dans votre contenu Journey Optimizer.  Vous pouvez ensuite redimensionner, recadrer, améliorer et effectuer d’autres réglages si nécessaire.
 
-1. Effectuez un glisser-déposer d’un composant **[!UICONTROL HTML]** dans votre contenu.
+Notez que Dynamic Media est disponible pour Dynamic Media [mode Scene7](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/dynamic/config-dms7) et [avec OpenAPI](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/dynamicmedia/dynamic-media-open-apis/dynamic-media-open-apis-overview).
+
+1. Faites glisser et déposez un **[!UICONTROL composant HTML]** dans votre contenu.
 
 1. Sélectionnez **[!UICONTROL Afficher le code source]**.
 
    ![](assets/dynamic-media-1.png)
 
-1. Dans le menu **[!UICONTROL Modifier HTML]**, accédez à **[!UICONTROL Assets]** puis cliquez sur **[!UICONTROL Ouvrir le sélecteur de ressources]**.
+1. Dans le menu **[!UICONTROL Modifier le code HTML]**, accédez à **[!UICONTROL Ressources]**, puis cliquez sur **[!UICONTROL Ouvrir le sélecteur de ressources]**.
 
-   Vous pouvez également copier et coller l’URL de votre ressource.
+   Vous pouvez également copier et coller l’URL de la ressource.
 
    ![](assets/dynamic-media-2.png)
 
 1. Parcourez vos ressources AEM et sélectionnez celle que vous souhaitez ajouter à votre contenu.
 
-1. Ajustez les paramètres de l’image (par exemple, la hauteur, la largeur, la rotation, le basculement, la luminosité, la teinte, etc.) en fonction des besoins de votre ressource.
+1. Ajustez les paramètres de l’image (par exemple, la hauteur, la largeur, la rotation, le basculement, la luminosité, la teinte, etc.) selon les exigences de vos ressources.
 
-   Pour obtenir la liste complète des paramètres d’image pouvant être ajoutés à l’URL, consultez la [documentation Experience Manager](https://experienceleague.adobe.com/fr/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/http-protocol-reference/command-reference/c-command-reference).
+   Pour obtenir la liste complète des paramètres d’image qui peuvent être ajoutés à l’URL, consultez la [documentation d’Experience Manager](https://experienceleague.adobe.com/fr/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/http-protocol-reference/command-reference/c-command-reference).
 
    ![](assets/dynamic-media-3.png)
 
 1. Cliquez sur **[!UICONTROL Enregistrer]**.
 
-Votre contenu comprend désormais Dynamic Media. Toutes les mises à jour effectuées dans Experience Manager apparaîtront automatiquement dans Journey Optimizer.
+Votre contenu comprend désormais un média dynamique. Toutes les mises à jour effectuées dans Experience Manager apparaîtront automatiquement dans Journey Optimizer.
 
 ## Personnaliser la superposition de texte {#text-overlay}
 
-Personnalisez facilement n’importe quel média dynamique en remplaçant la superposition de texte existante par un nouveau texte de votre choix, ce qui permet des mises à jour et une personnalisation transparentes.
+Personnalisez facilement n’importe quel média dynamique en remplaçant la superposition de texte existante par un texte de votre choix, pour simplifier les mises à jour et la personnalisation.
 
-Par exemple, à l’aide de la fonctionnalité d’expérimentation, vous pouvez mettre à jour la superposition de texte existante en la remplaçant par un texte différent pour chaque traitement, en vous assurant qu’elle est personnalisée pour chaque profil lorsqu’il ouvre ses messages.
+Par exemple, à l’aide de la fonctionnalité d’expérimentation, vous pouvez modifier la superposition de texte existante en la remplaçant par un texte différent pour chaque traitement. Ainsi, chaque ouverture de message est personnalisée pour chaque profil.
 
 ![](assets/dynamic-media-layout-1.png)
 
-1. Effectuez un glisser-déposer d’un composant **[!UICONTROL HTML]** dans votre contenu.
+Notez que la **personnalisation de superposition de texte** est disponible exclusivement dans Dynamic Media [mode Scene7](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/dynamic/config-dms7). Comme le mode Scene7 n’est pas accessible pour les clients du secteur de la santé, le contenu est rendu à l’aide d’une copie binaire Journey Optimizer de l’image. Pour toute exception, contactez l’assistance Experience Manager.
+
+1. Faites glisser et déposez un **[!UICONTROL composant HTML]** dans votre contenu.
 
 1. Sélectionnez **[!UICONTROL Afficher le code source]**.
 
-1. Dans le menu **[!UICONTROL Modifier HTML]**, accédez à **[!UICONTROL Assets]** puis **[!UICONTROL Ouvrir le sélecteur de ressources]**.
+1. Dans le menu **[!UICONTROL Modifier le code HTML]**, accédez à **[!UICONTROL Ressources]**, puis **[!UICONTROL Ouvrir le sélecteur de ressources]**.
 
    Vous pouvez également simplement copier et coller l’URL de vos ressources.
 
 1. Parcourez vos ressources AEM et sélectionnez celle que vous souhaitez ajouter à votre contenu.
 
-1. Remplacez le recouvrement par le texte souhaité.
+1. Remplacez la superposition par le texte souhaité.
 
    ![](assets/do-not-localize/dynamic_media_layout.gif)
 
-1. Mettez à jour les paramètres des images :
+1. Mettez à jour les paramètres d’image suivants :
 
-   * **Calque** : saisissez l’élément de base où se trouve votre texte.
-   * **Taille** : mettez à jour la taille de votre bloc de texte.
-   * **TextAttr** : permet d’ajuster la taille de la police du texte.
-   * **Pos** : permet de définir la position du texte dans l’image.
+   * **Layer** : saisissez l’élément de base où est placé le texte.
+   * **Size** : modifiez la taille de votre bloc de texte.
+   * **TextAttr** : ajustez la taille de la police du texte.
+   * **Pos** : définissez la position du texte sur l’image.
 
    >[!WARNING]
    >
-   >Le paramètre Calque est requis pour mettre à jour Dynamic Media.
+   >Le paramètre Layer est requis pour mettre à jour le média dynamique.
 
    ![](assets/dynamic-media-layout-2.png)
 
 1. Cliquez sur **[!UICONTROL Enregistrer]**.
 
-Votre contenu inclut désormais votre superposition de texte mise à jour.
+Votre contenu inclut désormais la superposition de texte mise à jour.
 
 ![](assets/dynamic-media-layout-3.png)
 
-## Ajout et gestion de votre modèle Dynamic Media {#dynamic-media-template}
+## Ajouter et gérer votre modèle Dynamic Media {#dynamic-media-template}
 
-Ajoutez facilement votre modèle Dynamic Media dans Journey Optimizer et mettez à jour votre contenu multimédia chaque fois que nécessaire. Vous pouvez désormais incorporer des champs de personnalisation dans vos médias, ce qui vous permet de créer du contenu plus personnalisé et plus attrayant dans Journey Optimizer.
+Ajoutez facilement votre modèle Dynamic Media dans Journey Optimizer et modifiez votre contenu multimédia chaque fois que nécessaire. Vous pouvez désormais incorporer des champs de personnalisation dans vos médias, ce qui vous permet de créer du contenu plus personnalisé et plus attrayant dans Journey Optimizer.
 
-En savoir plus sur le [modèle Dynamic Media](https://experienceleague.adobe.com/fr/docs/dynamic-media-classic/using/template-basics/quick-start-template-basics).
+Notez que le **modèle Dynamic Media** est disponible exclusivement dans Dynamic Media [mode Scene7](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/dynamic/config-dms7). Comme le mode Scene7 n’est pas accessible pour les clients du secteur de la santé, le contenu ne sera pas rendu. Pour toute exception, contactez l’assistance Experience Manager.
 
-### Avec le composant image {#image-component}
+En savoir plus sur le [modèle Dynamic Media](https://experienceleague.adobe.com/fr/docs/dynamic-media-classic/using/template-basics/quick-start-template-basics)
 
-Vous pouvez insérer votre modèle dynamique directement dans votre contenu à l’aide du composant Image :
+### Avec le composant Image {#image-component}
+
+Vous pouvez insérer votre modèle dynamique directement dans votre contenu à l’aide du composant Image :
 
 1. Ouvrez votre campagne ou votre parcours et accédez à votre contenu.
 
-1. Effectuez un glisser-déposer d’un **composant Image** dans votre disposition.
+1. Faites glisser et déposez un **composant Image** dans votre disposition.
 
    Pour plus d’informations sur le composant Image, consultez [cette page](../email/content-components.md).
 
@@ -118,19 +123,19 @@ Vous pouvez insérer votre modèle dynamique directement dans votre contenu à l
 
    ![](assets/dynamic-media-template-2.png)
 
-1. Dans le **Paramètres d’image**, accédez aux paramètres de votre modèle Dynamic Media.
+1. Dans les **paramètres d’image**, accédez aux paramètres de votre modèle Dynamic Media.
 
-   Les champs disponibles dépendent des paramètres ajoutés lors de la [ création du modèle ](https://experienceleague.adobe.com/fr/docs/dynamic-media-classic/using/template-basics/creating-template-parameters#creating_template_parameters) dans Adobe Experience Manager.
+   Les champs disponibles dépendent des paramètres ajoutés lors de la [création du modèle](https://experienceleague.adobe.com/fr/docs/dynamic-media-classic/using/template-basics/creating-template-parameters#creating_template_parameters) dans Adobe Experience Manager.
 
    ![](assets/dynamic-media-template-3.png)
 
 1. Renseignez les différents champs et utilisez l’éditeur de personnalisation pour ajouter du contenu personnalisé. Vous pouvez utiliser n’importe quel attribut, tel que le nom du profil, la ville ou d’autres détails pertinents, pour créer une expérience plus personnalisée.
 
-   En savoir plus sur la personnalisation sur [cette page](../personalization/personalize.md).
+   Pour en savoir plus sur la personnalisation, consultez [cette page](../personalization/personalize.md).
 
    ![](assets/do-not-localize/dynamic_media_template.gif)
 
-1. Le contenu conditionnel peut être appliqué au composant Dynamic Media pour générer différentes variantes du contenu. [En savoir plus](../personalization/dynamic-content.md).
+1. Le contenu conditionnel peut être appliqué au composant Dynamic Media pour générer différentes variantes de contenu. [En savoir plus](../personalization/dynamic-content.md).
 
 1. Cliquez sur **[!UICONTROL Enregistrer]**.
 
@@ -138,11 +143,11 @@ Une fois que vous avez effectué vos tests et validé le contenu, vous pouvez en
 
 ### Avec le composant HTML {#html-component}
 
-Vous pouvez insérer votre modèle dynamique directement dans votre contenu à l’aide du composant HTML :
+Vous pouvez insérer votre modèle dynamique directement dans votre contenu à l’aide du composant HTML :
 
 1. Ouvrez votre campagne ou votre parcours et accédez à votre contenu.
 
-1. Effectuez un glisser-déposer d’un composant **HTML** dans votre disposition.
+1. Faites glisser et déposez un **composant HTML** dans votre disposition.
 
    ![](assets/dynamic-media-template-4.png)
 
@@ -150,11 +155,11 @@ Vous pouvez insérer votre modèle dynamique directement dans votre contenu à l
 
    ![](assets/dynamic-media-template-5.png)
 
-1. Dans le menu **[!UICONTROL Modifier HTML]**, accédez à **[!UICONTROL Assets]** puis **[!UICONTROL Ouvrir le sélecteur de ressources]**.
+1. Dans le menu **[!UICONTROL Modifier le code HTML]**, accédez à **[!UICONTROL Ressources]**, puis **[!UICONTROL Ouvrir le sélecteur de ressources]**.
 
    Vous pouvez également simplement copier et coller l’URL de vos ressources.
 
-1. Ajustez les paramètres de texte de l’image selon vos besoins pour répondre aux besoins de la ressource.
+1. Ajustez les paramètres de texte de l’image selon vos besoins pour répondre aux exigences des ressources.
 
    ![](assets/do-not-localize/dynamic_media_template_html.gif)
 
@@ -216,3 +221,9 @@ Enable conditional content in your dynamic media to better target your audience 
 1. In the **[!UICONTROL Custom Attributes]** menu, populate the Dynamic Media text and personalization fields to customize the content for your audience.
 
 -->
+
+## Vidéo pratique {#video}
+
+
+>[!VIDEO](https://video.tv.adobe.com/v/3457695/?learn=on&enablevpops=&autoplay=true)
+
