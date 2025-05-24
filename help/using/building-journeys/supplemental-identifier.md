@@ -70,7 +70,7 @@ Pour utiliser un identifiant supplémentaire dans un parcours, procédez comme s
 
       >[!IMPORTANT]
       >
-      >Veillez à ne pas marquer l’attribut comme identité de Principal ****.
+      >Veillez à ne pas marquer l’attribut comme identité de Principal **&#x200B;**.
 
    1. Sélectionnez l’espace de noms à associer à l’ID supplémentaire. Il doit s’agir d’un espace de noms d’identifiant non-personne.
 
