@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Notes de mise à jour d’Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 6628f1a9700f126e23c8e6c21b24973f239805c0
+source-git-commit: b086b442be958108d66f7fff37a676f3a1c15ab3
 workflow-type: tm+mt
-source-wordcount: '1061'
-ht-degree: 37%
+source-wordcount: '1151'
+ht-degree: 36%
 
 ---
 
@@ -225,23 +225,23 @@ Les nouvelles fonctionnalités de cette version sont présentées ci-dessous.
 </tbody>
 </table>
 
-<!--
 <table>
 <thead>
 <tr>
-<th><strong>Supplemental ID for event-triggered journeys</strong><br/></th>
+<th><strong>ID supplémentaire pour les parcours déclenchés par un événement</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>You can now trigger journeys using a profile ID along with another identifier, such as an order ID, subscription ID, or prescription ID, allowing the same profile to be in the same journey multiple times at once. This enables scenarios like managing multiple orders or subscriptions in parallel, with each instance following its own path through the journey.</p>
-<p>This capability is only available for a set of organizations (Limited Availability). To gain access, contact your Adobe representative.</p>
+<p>Vous pouvez désormais déclencher des parcours à l’aide d’un identifiant de profil ainsi que d’un autre identifiant, tel qu’un identifiant de commande, d’abonnement ou de prescription, ce qui permet au même profil de se trouver plusieurs fois dans le même parcours à la fois. Cela permet des scénarios tels que la gestion de plusieurs commandes ou abonnements en parallèle, chaque instance suivant son propre chemin d’accès dans le parcours.</p>
+<p>Pour plus d’informations, consultez la <a href="../building-journeys/supplemental-identifier.md">documentation détaillée</a>.</p>
+<p>Cette fonctionnalité est disponible uniquement pour un nombre limité d’organisations (disponibilité limitée). Pour en bénéficier, contactez votre représentant ou représentante Adobe.</p>
 </td>
 </tr>
 </tbody>
 </table>
--->
+
 
 ### Améliorations {#25-05-improv}
 
