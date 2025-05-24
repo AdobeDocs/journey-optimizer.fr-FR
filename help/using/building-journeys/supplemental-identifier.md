@@ -2,9 +2,9 @@
 title: Identifiant supplémentaire dans les parcours déclenchés par un événement
 description: Découvrez comment utiliser un identifiant supplémentaire dans les parcours déclenchés par un événement.
 badge: label="Disponibilité limitée" type="Informative"
-source-git-commit: bfff5bfe0a87d65c453018c4f1af01e9b1456052
+source-git-commit: c4b9ee59fe22bad97975cce01a84002541d8c9df
 workflow-type: tm+mt
-source-wordcount: '806'
+source-wordcount: '803'
 ht-degree: 3%
 
 ---
@@ -70,7 +70,7 @@ Pour utiliser un identifiant supplémentaire dans un parcours, procédez comme s
 
       >[!IMPORTANT]
       >
-      >Veillez à ne pas marquer l’attribut comme identité de Principal **&#x200B;**.
+      >Veillez à ne pas marquer l’attribut comme identité de Principal ****.
 
    1. Sélectionnez l’espace de noms à associer à l’ID supplémentaire. Il doit s’agir d’un espace de noms d’identifiant non-personne.
 
@@ -104,7 +104,7 @@ Pour utiliser un identifiant supplémentaire dans un parcours, procédez comme s
 
 +++ Voir les exemples
 
-   Dans un tableau d’objets avec l’ID supplémentaire « booknum » et un attribut au même niveau appelé « bookingCountry », le parcours effectue une itération sur l’objet de tableau en fonction de booknum et crée une instance de parcours pour chaque objet.
+   Dans un tableau d’objets avec l’ID supplémentaire comme `bookingNum` et un attribut au même niveau appelé `bookingCountry`, le parcours effectue une itération sur l’objet de tableau en fonction de booknum et crée une instance de parcours pour chaque objet.
 
    * L’expression suivante dans l’activité de condition effectue une itération sur le tableau d’objets et vérifie si la valeur de `bookingCountry` est égale à « FR » :
 
@@ -112,7 +112,7 @@ Pour utiliser un identifiant supplémentaire dans un parcours, procédez comme s
      @event{<event_name>.<object_path>.<object_array_name>.all(currentEventField.<attribute_path>.bookingNum==${supplementalId}).at(0).<attribute_path>.bookingCountry}=="FR"
      ```
 
-   * L’expression suivante dans l’éditeur de personnalisation d’e-mail effectue une itération sur le tableau d’objets, extrait le paramètre « bookingCountry » applicable à l’instance de parcours active et l’affiche dans le contenu :
+   * L’expression suivante dans l’éditeur de personnalisation d’e-mail effectue une itération dans le tableau d’objets, extrait le `bookingCountry` applicable à l’instance de parcours active et l’affiche dans le contenu :
 
      ```
      {{#each context.journey.events.<event_ID>.<object_path>.<object_array_name> as |l|}} 
