@@ -5,10 +5,10 @@ user-guide-title: Guide de Journey Optimizer
 user-guide-description: Utilisez Journey Optimizer pour créer et proposer aux clients des expériences connectées, contextuelles et personnalisées
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 33ebde5ef42519137c3ef057e6c95a71f1c45a6c
+source-git-commit: 11c6dd43d6b20864f9823130c5aed790a3091938
 workflow-type: tm+mt
-source-wordcount: '2382'
-ht-degree: 97%
+source-wordcount: '2393'
+ht-degree: 96%
 
 ---
 
@@ -394,6 +394,15 @@ ht-degree: 97%
       + [Commencer avec le contenu dynamique](using/personalization/get-started-dynamic-content.md)
       + [Créer des règles conditionnelles](using/personalization/create-conditions.md)
       + [Créer du contenu dynamique](using/personalization/dynamic-content.md)
+   + Cas d’utilisation inter-solutions {#combine}
+      + [Combiner des solutions pour gérer votre contenu](using/integrations/content-integrations.md)
+      + [Utiliser Experience Manager Assets](using/integrations/assets.md)
+      + [Utiliser Adobe Stock](using/integrations/stock.md)
+      + [Utiliser Adobe Express](using/integrations/express.md)
+      + [Utiliser les modèles Experience Manager](using/integrations/aem-templates.md)
+      + [Utiliser des fragments de contenu Experience Manager](using/integrations/aem-fragments.md)
+      + [Utiliser Dynamic Media](using/integrations/aem-dynamic.md)
+      + [Utilisation de GenStudio for Performance Marketing](using/integrations/genstudio.md)
    + Assistant IA pour la génération de contenu{#ai-assistant}
       + [Commencer avec l’Assistant IA](using/content-management/gs-generative.md)
       + [Génération d’e-mails avec l’IA](using/content-management/generative-email.md)
@@ -434,15 +443,6 @@ ht-degree: 97%
       + [Utiliser des attributs calculés](using/audience/computed-attributes.md)
    + [Identités](using/audience/get-started-identity.md)
    + [Utilisation des licences](using/audience/license-usage.md)
-+ Intégrations{#integrations}
-   + [Intégrations à d’autres solutions](using/integrations/ajo-integrations.md)
-   + [Utiliser Experience Manager Assets](using/integrations/assets.md)
-   + [Utiliser Adobe Stock](using/integrations/stock.md)
-   + [Utiliser Adobe Express](using/integrations/express.md)
-   + [Utiliser les modèles Experience Manager](using/integrations/aem-templates.md)
-   + [Utiliser les fragments de contenu Experience Manager](using/integrations/aem-fragments.md)
-   + [Utiliser Dynamic Media](using/integrations/aem-dynamic.md)
-   + [Utiliser GenStudio](using/integrations/genstudio.md)
 + Suivre et surveiller {#reporting}
    + Rapport dynamique {#live-report}
       + [Commencer avec le rapport dynamique](using/reports/live-report.md)
@@ -752,6 +752,7 @@ ht-degree: 97%
       + [Résoudre les problèmes liés aux actions personnalisées](using/action/troubleshoot-custom-action.md)
       + [Utiliser des réponses d’appel API dans des actions personnalisées](using/action/action-response.md)
 + Connecter vos systèmes et environnements {#connect-systems}
+   + [Intégration à d’autres solutions](using/integrations/ajo-integrations.md)
    + [Utiliser des API Journey Optimizer](using/configuration/ajo-apis.md)
    + Intégrer vos parcours à des systèmes externes {#external-systems}
       + [Intégration d’un parcours à des systèmes externes](using/configuration/external-systems.md)

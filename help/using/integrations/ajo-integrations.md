@@ -7,20 +7,20 @@ feature: Integrations
 role: User
 level: Intermediate
 exl-id: 700dc66e-ae2d-418f-b75e-ece15af57ab3
-source-git-commit: 64e225cdc8615e51655ef550866b67ca249a7572
+source-git-commit: 11c6dd43d6b20864f9823130c5aed790a3091938
 workflow-type: tm+mt
-source-wordcount: '766'
-ht-degree: 87%
+source-wordcount: '1021'
+ht-degree: 86%
 
 ---
 
-# Intégrations avec d’autres solutions {#integration}
+# Intégrations à d’autres solutions {#integration}
 
 Avec Adobe Journey Optimizer, vous pouvez facilement gérer, conserver et exporter vos données vers les autres plateformes ou systèmes que vous utilisez. Ces intégrations vous aident à résoudre vos cas d’utilisation spécifiques et à accroitre la portée des fonctionnalités d’Adobe Journey Optimizer.
 
 >[!NOTE]
 >
-> Adobe Journey Optimizer repose sur Adobe Experience Platform et est connecté nativement au [profil client en temps réel Adobe](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=fr){target="_blank"}. Cette source de données intégrée est préconfigurée et conçue pour récupérer et utiliser des données du profil client en temps réel (par exemple, vérifier si la personne qui est entrée dans un parcours est un client ou non). Elle vous permet d’utiliser les données de profil et les données des événements d’expérience. [En savoir plus](../datasource/adobe-experience-platform-data-source.md).
+> Adobe Journey Optimizer repose sur la technologie d’Adobe Experience Platform et est connecté nativement au [Profil client en temps réel Adobe](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=fr){target="_blank"}. Cette source de données intégrée est préconfigurée et conçue pour récupérer et utiliser des données du profil client en temps réel (par exemple, vérifier si la personne qui est entrée dans un parcours est un client ou non). Elle vous permet d’utiliser les données de profil et les données des événements d’expérience. [En savoir plus](../datasource/adobe-experience-platform-data-source.md).
 >
 
 ## Adobe Customer Journey Analytics {#integration-cja}
@@ -39,23 +39,59 @@ Vous pouvez exploiter toutes les données d’événement comportemental Adobe 
 
 En savoir plus sur [Journey Optimizer + Analytics](../event/about-analytics.md).
 
+## Adobe Experience Manager {#integration-aem}
 
-## Adobe Experience Manager Assets {#integration-assets}
+En tant qu’utilisateur Adobe Experience Manager, vous pouvez combiner vos workflows avec Adobe Journey Optimizer. Les cas d’utilisation disponibles sont répertoriés ci-dessous :
 
-Rassemblez les workflows marketing et créatifs à l’aide de [!DNL Adobe Experience Manager Assets]. Intégrés nativement à [!DNL Adobe Journey Optimizer], accédez à [!DNL Adobe Experience Manager Assets] pour stocker, gérer, découvrir et distribuer des ressources numériques. Ceci fournit un référentiel de ressources unique et centralisé que vous pouvez utiliser pour renseigner vos messages.
 
-[!DNL Adobe Experience Manager Assets] est accessible directement depuis [!DNL Adobe Journey Optimizer] via la section **[!UICONTROL Ressources]** du menu de gauche.
+>[!BEGINTABS]
 
-En savoir plus sur [Journey Optimizer + Adobe Experience Manager Assets](../integrations/assets.md).
+>[!TAB AEM Assets]
+
+Rassemblez les workflows marketing et créatifs à l’aide de **[!DNL Adobe Experience Manager Assets]**. Accédez à **[!DNL Assets Essentials]** ou **[!DNL Assets as a Cloud Service]**, intégrés nativement à **[!DNL Adobe Journey Optimizer]**, pour stocker, gérer, découvrir et distribuer des ressources numériques. Ceci fournit un référentiel de ressources unique et centralisé que vous pouvez utiliser pour renseigner vos messages.
+
+[![En savoir plus](../assets/do-not-localize/learn-more-button.svg)](../integrations/assets.md)
+
+>[!TAB Modèles AEM]
+
+Adobe Journey Optimizer vous permet de créer des messages personnalisés via Adobe Experience Manager Sites. Commencez par concevoir vos modèles à l’aide de sources de contenu d’Adobe Experience Manager, puis envoyez-les à Adobe Journey Optimizer. Une fois partagés, ces modèles sont accessibles dans le concepteur d’e-mail d’Adobe Journey Optimizer, pour une rédaction et un envoi des messages plus faciles à votre audience souhaitée.
+
+[![En savoir plus](../assets/do-not-localize/learn-more-button.svg)](../integrations/aem-templates.md)
+
+>[!TAB Fragments AEM]
+
+En intégrant Adobe Experience Manager à Adobe Journey Optimizer, vous pouvez désormais incorporer facilement vos fragments de contenu AEM dans le contenu de vos e-mails Journey Optimizer. Cette connexion rationalisée simplifie le processus d’accès au contenu AEM et d’utilisation de celui-ci, ce qui permet de créer des campagnes et des parcours personnalisés et dynamiques.
+
+[![En savoir plus](../assets/do-not-localize/try-it-button.svg)](../integrations/aem-fragments.md)
+
+>[!TAB Contenu multimédia dynamique]
+
+Utilisez le sélecteur de ressources Journey Optimizer pour sélectionner et utiliser des rendus Dynamic Media approuvés dans Journey Optimizer. Les modifications apportées aux ressources dans Adobe Experience Manager sont immédiatement répercutées dans votre contenu Journey Optimizer. Ainsi, les versions les plus récentes sont toujours utilisées sans nécessiter de mises à jour manuelles.
+
+[![En savoir plus](../assets/do-not-localize/learn-more-button.svg)](../integrations/aem-dynamic.md)
+
+
+>[!ENDTABS]
+
 
 
 ## Adobe Stock {#integration-stock}
 
 Le plug-in d’intégration d’[!DNL Adobe Stock] et du concepteur d’e-mail [!DNL Adobe Journey Optimizer] fournit aux clients et clientes une façon simple de naviguer, d’acquérir des produits sous licence et d’enregistrer des images en vue de les utiliser dans la création de messages.
 
-Avec [!DNL Adobe Journey Optimizer], vous pouvez charger des images dans vos e-mails directement depuis [!DNL Adobe Stock] et les ajouter à votre dossier **[!UICONTROL Ressources]** à l’aide de l’option **[!UICONTROL Trouver des photos Adobe Stock]**. En outre, l’option **[!UICONTROL Trouver des photos Stock similaires]** vous permet de trouver les images correspondant au contenu, à la couleur et à la composition de la ressource utilisée dans votre diffusion.
-
 En savoir plus sur [Journey Optimizer + Stock](../integrations/stock.md).
+
+## Adobe Express {#express}
+
+L’intégration d’Adobe Express à Adobe Journey Optimizer vous permet d’accéder facilement aux puissants outils d’édition d’Adobe Express lors de la création de contenu. Cette intégration vous permet de redimensionner des images, de supprimer des arrière-plans, de recadrer des visuels et de convertir des ressources en JPEG ou en PNG sans avoir à basculer entre les solutions.
+
+En savoir plus sur [Journey Optimizer + Adobe Express](../integrations/express.md).
+
+## GenStudio for Performance Marketing
+
+Adobe GenStudio for Performance Marketing est une application IA générative qui permet aux équipes marketing de créer leurs propres annonces publicitaires et emails afin de générer des campagnes marketing personnalisées et percutantes, qui respectent les normes de votre marque et se conforment à vos politiques d’entreprise. En tirant parti de la technologie d’IA d’Adobe, elle offre une suite complète d’outils qui simplifient la création et la gestion de contenu, ce qui permet aux créatifs de se concentrer sur l’innovation.
+
+En savoir plus sur [Journey Optimizer + GenStudio for Performance Marketing](../integrations/genstudio.md).
 
 
 ## Services intelligents Adobe {#integration-intelligent-service}
@@ -64,7 +100,7 @@ Les services intelligents Adobe, intégrés nativement à Real-Time Customer Dat
 
 L’IA dédiée aux clients permet aux marques de créer des scores d’attrition ou de conversion basés sur le machine learning, qui seront disponibles sous forme d’attributs de profil dans Adobe Experience Platform et prêts à être utilisés pour personnaliser un parcours.
 
-[En savoir plus](../building-journeys/ai-services-overview.md).
+En savoir plus sur [Journey Optimizer + Adobe Intelligent Services](../building-journeys/ai-services-overview.md).
 
 
 ## Adobe Campaign {#integration-ac}
@@ -82,9 +118,9 @@ En savoir plus sur [Journey Optimizer + Campaign Standard](../building-journ
 
 Utilisez les modules Adobe Journey Optimizer dans Adobe Workfront pour créer, lire, mettre à jour ou supprimer des enregistrements, ou effectuez un appel d’API personnalisé vers l’API Adobe Journey Optimizer.
 
-Un aperçu de l’étape clé de cette intégration est disponible [dans cet article de blog](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/accelerating-go-to-market-how-workfront-workfront-fusion-aep-and/ba-p/653685?profile.language=fr&lang=fr){target="_blank"}.
+Une vue d’ensemble de l’étape clé de cette intégration est présente [dans cet article de blog](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/accelerating-go-to-market-how-workfront-workfront-fusion-aep-and/ba-p/653685?lang=fr){target="_blank"}.
 
-En savoir plus sur Journey Optimizer + Adobe Workfront [dans la documentation Adobe Workfront](https://experienceleague.adobe.com/docs/workfront/using/adobe-workfront-fusion/fusion-apps-and-modules/adobe-journey-optimizer-modules.html?lang=fr){target="_blank"}.
+En savoir plus sur Journey Optimizer + Adobe Workfront [dans la documentation Adobe Workfront](https://experienceleague.adobe.com/docs/workfront/using/adobe-workfront-fusion/fusion-apps-and-modules/adobe-journey-optimizer-modules.html?lang=fr){target="_blank"}.
 
 ## Canaux personnalisés {#integration-custom}
 

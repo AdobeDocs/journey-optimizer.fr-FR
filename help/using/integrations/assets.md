@@ -9,10 +9,10 @@ role: User
 level: Beginner
 keywords: ressources, experience manager, intégration
 exl-id: d4fde14b-e2da-40bf-a387-ee9f2f7ff204
-source-git-commit: 1af75a0e6bfc2c3b9c565c3190f46d137a68d32e
+source-git-commit: 8538018f5c30b0c3c9c1df5726276c2e87e64149
 workflow-type: tm+mt
-source-wordcount: '795'
-ht-degree: 98%
+source-wordcount: '787'
+ht-degree: 100%
 
 ---
 
@@ -26,11 +26,11 @@ Rassemblez les workflows marketing et créatifs à l’aide de **[!DNL Adobe Exp
 
 * **[!DNL Assets as a Cloud Service]** : Adobe Experience Manager Assets as a Cloud Service offre une solution cloud conviviale pour une gestion efficace des ressources numériques et des opérations Dynamic Media. Il intègre de manière transparente des fonctionnalités avancées, notamment l’intelligence artificielle et le machine learning.
 
-  Apprenez-en plus dans la [documentation d’Adobe Experience Manager Assets as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/overview.html?lang=fr).
+  Apprenez-en plus dans la [documentation d’Adobe Experience Manager Assets as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/overview.html?lang=fr){target="_blank"}.
 
 * **[!DNL Assets Essentials]** : Experience Manager Assets Essentials est une solution légère d’Assets as a Cloud Service pour une gestion et une collaboration unifiées des ressources. Grâce à une interface moderne et simplifiée, elle permet aux équipes créatives et marketing de stocker, découvrir et distribuer des ressources numériques sans effort.
 
-  En savoir plus dans la [Documentation Adobe Experience Manager Assets Essentials](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/introduction.html?lang=fr){target="_blank"}{target=&quot;_blank&quot;}.
+  En savoir plus dans la [documentation d’Adobe Experience Manager Assets Essentials](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/introduction.html?lang=fr){target="_blank"}.
 
 Selon votre contrat, **[!DNL Adobe Experience Manager Assets Essentials]** ou **[!DNL Adobe Experience Manager Assets as a Cloud Service]** est accessible directement depuis **[!DNL Adobe Journey Optimizer]** dans la section **[!UICONTROL Ressources]** du menu de gauche. Vous pouvez également accéder aux ressources et aux dossiers lors de la [conception d’un contenu d’e-mail](../email/get-started-email-design.md).
 
@@ -40,10 +40,10 @@ Selon votre contrat, **[!DNL Adobe Experience Manager Assets Essentials]** ou **
 
 >[!TAB Adobe Experience Manager Assets Essentials]
 
-Avant d’utiliser [!DNL Adobe Experience Manager Assets Essentials], vous devez ajouter des utilisateurs/utilisatrices aux profils de produits **Utilisateurs consommateurs/utilisatrices consommatrices Assets Essentials** ou/et **Utilisateurs/utilisatrices Assets Essentials**. Pour en savoir plus, consultez la [documentation Assets Essentials](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/get-started-admins/deploy-administer.html?lang=fr#add-user-groups){target="_blank"}{target=&quot;_blank&quot;}.
+Avant d’utiliser [!DNL Adobe Experience Manager Assets Essentials], vous devez ajouter des utilisateurs/utilisatrices aux profils de produits **Utilisateurs consommateurs/utilisatrices consommatrices Assets Essentials** ou/et **Utilisateurs/utilisatrices Assets Essentials**. Pour en savoir plus, consultez la [documentation d’Assets Essentials](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/get-started-admins/deploy-administer.html?lang=fr#add-user-groups){target="_blank"}.
 
 >[!NOTE]
->Pour les produits Journey Optimizer obtenus avant le 6 janvier 2022, vous devez déployer **[!DNL Adobe Experience Manager Assets Essentials]** pour votre organisation. Pour en savoir plus, consultez la section [Déploiement d’Assets Essentials](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/deploy-administer.html?lang=fr){target="_blank"}{target=&quot;_blank&quot;}.
+>Pour les produits Journey Optimizer obtenus avant le 6 janvier 2022, vous devez déployer **[!DNL Adobe Experience Manager Assets Essentials]** pour votre organisation. Pour en savoir plus, reportez-vous à la section [Déploiement d’Assets Essentials](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/deploy-administer.html?lang=fr){target="_blank"}.
 
 >[!TAB Adobe Experience Manager Assets as a Cloud Service]
 
@@ -83,9 +83,9 @@ Pour importer des fichiers dans **[!DNL Assets Essentials]** ou **[!DNL Assets a
 
 1. Dans la section **[!UICONTROL Téléchargement de fichiers]**, cliquez sur **[!UICONTROL Parcourir]** et choisissez si vous souhaitez **[!UICONTROL Parcourir les fichiers]** ou **[!UICONTROL Parcourir les dossiers]**.
 
-1. Sélectionnez le fichier que vous souhaitez télécharger. Lorsque vous avez terminé, cliquez sur **[!UICONTROL Télécharger]**. Pour en savoir plus sur la gestion de vos ressources, consultez cette [page](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/manage-organize.html?lang=fr).
+1. Sélectionnez le fichier que vous souhaitez télécharger. Lorsque vous avez terminé, cliquez sur **[!UICONTROL Télécharger]**. Pour en savoir plus sur la gestion des ressources, reportez-vous à cette [page](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/manage-organize.html?lang=fr).
 
-1. Pour modifier davantage vos ressources avec Adobe Photoshop Express, double-cliquez dessus. Ensuite, dans le menu de droite, sélectionnez l’icône **[!UICONTROL Mode d’édition]**. [En savoir plus](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/edit-images.html?lang=fr){target="_blank"}{target=&quot;_blank&quot;}.
+1. Pour modifier davantage vos ressources avec Adobe Photoshop Express, double-cliquez dessus. Ensuite, dans le menu de droite, sélectionnez l’icône **[!UICONTROL Mode d’édition]**. [En savoir plus](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/edit-images.html?lang=fr){target="_blank"}.
 
    ![](assets/media_library_12.png)
 
