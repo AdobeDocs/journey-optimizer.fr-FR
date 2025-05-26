@@ -6,9 +6,9 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 7234a8e8-4ab0-4f17-a833-5e452fadac35
-source-git-commit: 7ce241ca8ae6d2be6152a1c393a8301ce2f397a3
+source-git-commit: e63a21b5dcc8f227d56c696c8fd0825c75684189
 workflow-type: tm+mt
-source-wordcount: '2709'
+source-wordcount: '2715'
 ht-degree: 99%
 
 ---
@@ -75,7 +75,7 @@ Par exemple, si vous définissez les contraintes suivantes :
 >title="À propos de l&#39;éligibilité de l&#39;offre"
 >abstract="Dans cette section, vous pouvez utiliser des règles de décision pour déterminer quels utilisateurs sont éligibles à l&#39;offre."
 
-<!--additional-url="https://video.tv.adobe.com/v/341367?captions=fre_fr" text="Watch demo video"-->
+<!--additional-url="https://video.tv.adobe.com/v/329373" text="Watch demo video"-->
 
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_total_profile_estimate"
@@ -143,8 +143,7 @@ Pour faire simple, la sortie d’une audience est une liste de profils, tandis q
 >id="ajo_decisioning_capping"
 >title="Utilisation de la limitation"
 >abstract="Pour éviter de sursolliciter vos clientes et clients, utilisez la limitation pour définir le nombre maximal de fois où une offre peut être présentée. Vous pouvez créer jusqu’à 10 règles de limitation pour une offre donnée."
-
-<!--additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/decisioning/offer-decisioning/managing-offers-in-the-offer-library/configure-offers/add-constraints.html?lang=fr#capping-change-date" text="Changing dates can impact capping"-->
+>additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/decisioning/offer-decisioning/managing-offers-in-the-offer-library/configure-offers/add-constraints#capping-change-date" text="La modification des dates peut avoir un impact sur la limitation."
 
 La limitation est utilisée comme contrainte pour définir le nombre maximal de fois où une offre peut être présentée. Limiter le nombre de fois où les utilisateurs et utilisatrices reçoivent des offres spécifiques vous permet d’éviter de sur-solliciter vos clientes et clients et donc d’optimiser chaque point de contact avec la meilleure offre.
 
