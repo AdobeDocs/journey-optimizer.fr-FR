@@ -5,13 +5,14 @@ title: Modifier vos ressources à l’aide d’Adobe Express dans Journey Opti
 description: Commencer avec Adobe Express
 feature: Assets, Integrations
 topic: Content Management, Integrations
+badge: label="Disponibilité limitée" type="Informative"
 role: User
 level: Beginner
 keywords: ressources, intégration
 exl-id: c74156bb-4f00-4325-b416-6fe36cb755d1
-source-git-commit: 11c6dd43d6b20864f9823130c5aed790a3091938
+source-git-commit: b9ec22318baf888ba5d1ed3b1b7c64b658785cc1
 workflow-type: tm+mt
-source-wordcount: '538'
+source-wordcount: '540'
 ht-degree: 100%
 
 ---
@@ -23,11 +24,14 @@ ht-degree: 100%
 >title="Intégration d’Adobe Express"
 >abstract="Commencez à personnaliser vos ressources avec l’intégration d’Adobe Express. Cette fonctionnalité vous permet de redimensionner des images, de supprimer des arrière-plans, de recadrer des visuels et de convertir des ressources au format JPEG ou PNG."
 
+L’intégration d’Adobe Express à Adobe Journey Optimizer vous permet d’accéder facilement aux puissants outils d’édition d’Adobe Express lors de la création de contenu. Cette intégration vous permet de redimensionner des images, de supprimer des arrière-plans, de recadrer des visuels et de convertir des ressources en JPEG ou en PNG sans avoir à basculer entre les solutions.
+
+<img src="../rn/assets/do-not-localize/express_resize.gif">
+
+
 >[!AVAILABILITY]
 >
 >L’intégration d’Adobe Express à Adobe Journey Optimizer n’est actuellement pas disponible pour une utilisation avec Healthcare Shield ou Privacy and Security Shield.
-
-L’intégration d’Adobe Express à Adobe Journey Optimizer vous permet d’accéder facilement aux puissants outils d’édition d’Adobe Express lors de la création de contenu. Cette intégration vous permet de redimensionner des images, de supprimer des arrière-plans, de recadrer des visuels et de convertir des ressources en JPEG ou en PNG sans avoir à basculer entre les solutions.
 
 Pour en savoir plus sur Adobe Express, reportez-vous à [cette documentation](https://helpx.adobe.com/fr/express/user-guide.html).
 
@@ -145,7 +149,7 @@ Votre image est maintenant prête à être utilisée dans votre contenu.
 
 Découvrez comment modifier vos ressources dans Adobe Journey Optimizer à l’aide des outils d’Adobe Express.
 
->[!VIDEO](https://video.tv.adobe.com/v/3455525/?quality=12&captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/3455523/?quality=12)
 
 
 
