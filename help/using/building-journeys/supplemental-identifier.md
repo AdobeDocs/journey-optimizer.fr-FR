@@ -2,15 +2,20 @@
 title: Identifiant supplémentaire dans les parcours déclenchés par un événement
 description: Découvrez comment utiliser un identifiant supplémentaire dans les parcours déclenchés par un événement.
 badge: label="Disponibilité limitée" type="Informative"
-source-git-commit: c4b9ee59fe22bad97975cce01a84002541d8c9df
+exl-id: f6ebd706-4402-448a-a538-e9a4c2cf0f8b
+source-git-commit: dad3dc0022d04c9f9c82477d75a6fb8de7e85a6a
 workflow-type: tm+mt
-source-wordcount: '803'
-ht-degree: 3%
+source-wordcount: '844'
+ht-degree: 7%
 
 ---
 
-
 # Identifiant supplémentaire dans les parcours déclenchés par un événement
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_parameters_supplemental_identifier"
+>title="Utiliser un identifiant supplémentaire"
+>abstract="L’identifiant supplémentaire est un identifiant secondaire qui fournit un contexte supplémentaire pour l’exécution d’un parcours. Pour le définir, sélectionnez le champ à utiliser comme identifiant supplémentaire et choisissez un espace de noms à lui associer."
 
 >[!AVAILABILITY]
 >
@@ -70,7 +75,7 @@ Pour utiliser un identifiant supplémentaire dans un parcours, procédez comme s
 
       >[!IMPORTANT]
       >
-      >Veillez à ne pas marquer l’attribut comme identité de Principal **&#x200B;**.
+      >Veillez à ne pas marquer l’attribut comme identité de Principal ****.
 
    1. Sélectionnez l’espace de noms à associer à l’ID supplémentaire. Il doit s’agir d’un espace de noms d’identifiant non-personne.
 

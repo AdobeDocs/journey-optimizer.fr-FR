@@ -9,9 +9,9 @@ role: Data Engineer, Data Architect, Admin
 level: Intermediate, Experienced
 keywords: événement, unitaire, créer, parcours
 exl-id: e22e2bc7-0c15-457a-8980-97bea5da7784
-source-git-commit: 6d219d9caea28947877e38893dea20a4f77456f6
+source-git-commit: dad3dc0022d04c9f9c82477d75a6fb8de7e85a6a
 workflow-type: tm+mt
-source-wordcount: '1733'
+source-wordcount: '1692'
 ht-degree: 97%
 
 ---
@@ -27,11 +27,6 @@ ht-degree: 97%
 >id="ajo_journey_event_parameters"
 >title="Paramètres"
 >abstract="Définissez les paramètres de l’événement tels que les champs de payload et de schéma. Pour un événement basé sur les règles, utilisez le champ **[!UICONTROL Condition de l’identifiant d’événement]** pour définir la condition qui sera utilisée par le système pour identifier les événements qui déclencheront votre parcours. Ajoutez un type d’identité et un identifiant de profil à utiliser pour l’événement."
-
->[!CONTEXTUALHELP]
->id="ajo_journey_parameters_supplemental_identifier"
->title="Utiliser un identifiant supplémentaire"
->abstract="L’identifiant supplémentaire est un identifiant secondaire qui fournit un contexte supplémentaire pour l’exécution d’un parcours. Pour le définir, sélectionnez le champ à utiliser comme identifiant supplémentaire et choisissez un espace de noms à lui associer."
 
 Les événements unitaires sont liés à un profil spécifique. Ils peuvent être basés sur des règles ou générés par le système.  En savoir plus sur les événements unitaires dans [cette section](../event/about-events.md).
 
