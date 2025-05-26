@@ -1,8 +1,8 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Prise en main de la configuration  [!DNL Journey Optimizer]  canaux
-description: En savoir plus sur la configuration  [!DNL Journey Optimizer]  canaux .
+title: 'Commencer la configuration des canaux [!DNL Journey Optimizer] '
+description: 'En savoir plus sur la configuration des canaux [!DNL Journey Optimizer] '
 role: Admin, Developer
 level: Intermediate, Experienced
 exl-id: 0964a484-f957-4aae-a571-61b2a1615026
@@ -10,21 +10,21 @@ feature: Application Settings
 topic: Administration
 keywords: configuration, configurer, messages, canal, sandbox, optimizer
 source-git-commit: b2446c6a243d6d95b6f695b9c7007e62c51d8fa3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '244'
-ht-degree: 64%
+ht-degree: 100%
 
 ---
 
 
-# Prise en main de la configuration des canaux {#start-optimizer-configuration}
+# Commencer la configuration des canaux {#start-optimizer-configuration}
 
-Lorsque vous accédez à [!DNL Journey Optimizer] pour la première fois, un sandbox de production vous est alloué ainsi qu’un certain nombre d’adresses IP en fonction de votre contrat.
+Lors de l&#39;accès à [!DNL Journey Optimizer] pour la première fois, vous recevez un sandbox de production et un certain nombre d’adresses IP vous sont attribuées en fonction de votre contrat.
 
 
-Pour pouvoir envoyer des messages, vous devez suivre les étapes de configuration répertoriées ci-dessous :
+Pour envoyer des messages, vous devez suivre les étapes de configuration suivantes :
 
-1. En tant qu’administrateur système de [Adobe Journey Optimizer](../start/path/administrator.md), définissez vos configurations de canal. Découvrez comment configurer ces configurations dans les pages suivantes :
+1. En tant qu’[administrateur ou administratrice système d’Adobe Journey Optimizer](../start/path/administrator.md), définissez des configurations de canaux. Découvrez comment effectuer ces configurations dans les pages suivantes :
 
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td><a href="../email/get-started-email-config.md"><img alt="E-mail" src="../channels/assets/do-not-localize/email.png"></a>
@@ -50,9 +50,9 @@ Pour pouvoir envoyer des messages, vous devez suivre les étapes de configuratio
 
 >[!NOTE]
 >
->Pour les canaux mobiles, la [configuration guidée de canal](set-mobile-config.md) facilite la configuration rapide des canaux marketing, en veillant à ce que toutes les ressources requises soient facilement disponibles dans Experience Platform, Journey Optimizer et la collecte de données. Cela permet à votre équipe marketing de lancer la création de campagnes et de parcours.
+>Pour les canaux mobiles, la [configuration guidée des canaux](set-mobile-config.md) facilite la configuration des canaux marketing, tout en garantissant la disponibilité des ressources requises dans Experience Platform, Journey Optimizer et la collecte de données. Cela permet à votre équipe marketing de lancer la création de campagnes et de parcours.
 
-1. Une fois cette opération terminée, vous devez créer des **configurations de canal** pour configurer tous les paramètres techniques requis pour diffuser les messages. [En savoir plus sur les configurations de canal](channel-surfaces.md)
+1. Une fois cette opération terminée, vous devez créer des **configurations de canal** pour configurer tous les paramètres techniques requis pour diffuser les messages. [En savoir plus sur les configurations de canaux](channel-surfaces.md)
 
 1. Vous pouvez également réaliser les opérations suivantes :
 

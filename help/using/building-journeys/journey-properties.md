@@ -10,9 +10,9 @@ level: Intermediate
 keywords: parcours, configuration, propriétés
 exl-id: 6c21371c-6cbc-4d39-8fe6-39f1b8b13280
 source-git-commit: b2446c6a243d6d95b6f695b9c7007e62c51d8fa3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2395'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
@@ -27,18 +27,18 @@ ht-degree: 88%
 
 Les propriétés d’un parcours sont centralisées dans le rail de droite. Cette section est affichée par défaut lors de la création d’un parcours. Pour les parcours existants, cliquez sur l’icône en forme de crayon à côté du nom du parcours pour l’ouvrir.
 
-Dans cette section, définissez le nom du parcours, ajoutez une description et définissez les propriétés globales du parcours.
+Dans cette section, choisissez le nom du parcours, ajoutez une description et définissez les propriétés globales du parcours.
 
 Vous pouvez effectuer les actions suivantes :
 
-* Attribuez des balises unifiées Adobe Experience Platform à votre parcours pour les classer facilement et améliorer la recherche dans la liste des campagnes. [Découvrir comment utiliser les balises](../start/search-filter-categorize.md#tags)
-* Sélectionnez vos mesures de parcours. [Découvrez comment configurer et suivre vos mesures de parcours ](success-metrics.md)
-* Gérer [entrée et reprise](#entrance). La gestion des entrées de profil dépend du type de parcours. Pour plus d’informations, consultez [cette page](entry-management.md)
-* Gérer [accès aux données](#manage-access)
-* Sélectionnez le parcours et le profil [fuseaux horaires](#timezone)
-* Choisissez des [dates de début et de fin](#dates) personnalisées
-* Définir un [délai de temporisation](#timeout) dans les activités de parcours (pour les utilisateurs administrateurs uniquement)
-* Surveillez les conflits et hiérarchisez vos parcours à l’aide d’[ outils de gestion des conflits ](#conflict)
+* Attribuer des balises unifiées Adobe Experience Platform à votre parcours afin de les classer facilement et d’améliorer la recherche dans la liste des campagnes. [Découvrir comment utiliser les balises](../start/search-filter-categorize.md#tags)
+* Sélectionner les mesures du parcours. [Découvrir comment configurer et suivre vos mesures de parcours.](success-metrics.md)
+* Gérer [l’entrée et la rentrée](#entrance). La gestion des entrées de profil dépend du type de parcours. Pour plus d’informations, consultez [cette page](entry-management.md).
+* Gérer l’[accès aux données](#manage-access)
+* Sélectionner les [fuseaux horaires](#timezone) des parcours et des profils.
+* Choisir des [dates de début et de fin](#dates) personnalisées.
+* Définir une [durée de temporisation](#timeout) dans les activités de parcours (pour les personnes chargées de l’administration uniquement).
+* Surveiller les conflits et gérer la priorité des parcours à l’aide des [outils de gestion des conflits](#conflict).
 
 ![](assets/new-journey-properties.png){width="80%"}{zoomable="yes"}
 
@@ -78,7 +78,7 @@ Lorsque l’option **Autoriser une rentrée** est activée, le champ **Période 
 
 ## Gérer l’accès {#manage-access}
 
-Vous pouvez restreindre l’accès à un parcours en fonction des libellés d’accès.
+Vous pouvez limiter l’accès à ce parcours en fonction des libellés d’accès.
 
 Pour attribuer des libellés d’utilisation des données personnalisés au parcours, cliquez sur l’icône **[!UICONTROL Gérer les libellés d’accès]** et sélectionnez un ou plusieurs libellés.
 
@@ -95,25 +95,25 @@ Le fuseau horaire est défini au niveau du parcours. Vous pouvez entrer un fusea
 >[!CONTEXTUALHELP]
 >id="ajo_journey_properties_start_date"
 >title="Date de début"
->abstract="Sélectionnez la date à laquelle les profils peuvent commencer à entrer dans le parcours. Si aucune date de début n’est définie, elle correspond par défaut à la date de publication du parcours."
+>abstract="Sélectionnez la date à laquelle les profils peuvent commencer à rejoindre le parcours. Si aucune date de début n’est définie, elle correspond par défaut à la date de publication du parcours."
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_properties_end_date"
 >title="Date de fin"
->abstract="Définissez la date de fin du parcours. À cette date, les profils actifs quitteront automatiquement le parcours et aucune nouvelle entrée ne sera autorisée."
+>abstract="Définissez la date de fin du parcours. À cette date, les profils actifs sortiront automatiquement du parcours et aucune nouvelle entrée ne sera autorisée."
 
-Par défaut, les profils peuvent entrer dans votre parcours dès qu’il est publié et peuvent y rester jusqu’à ce que la [temporisation globale du parcours ](#global_timeout) soit atteinte. La seule exception concerne les parcours de lecture d’audience récurrents avec l’option **Forcer une rentrée sur la périodicité** activée, qui se termine à la date de début de l’occurrence suivante.
+Par défaut, les profils peuvent rejoindre votre parcours dès qu’il est publié et y rester jusqu’à la [temporisation globale du parcours](#global_timeout). La seule exception concerne les parcours de lecture d’audience récurrents avec l’option **Forcer une rentrée sur la périodicité** activée, qui se termine à la date de début de l’occurrence suivante.
 
-Si nécessaire, vous pouvez définir des **Date de début** et **Date de fin** personnalisées. Cela permet aux profils d’entrer dans votre parcours à une date spécifique et de le quitter automatiquement lorsque la date de fin est atteinte.
+Si nécessaire, vous pouvez définir une **date de début** et une **date de fin** personnalisées. Les profils peuvent ainsi rejoindre votre parcours à une date spécifique et en sortir automatiquement à la date de fin.
 
 ## Temporisation {#timeout}
 
-### Délai d’expiration dans les activités du parcours {#timeout_and_error}
+### Temporisation des activités du parcours {#timeout_and_error}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_properties_timeout"
->title="Délai d’expiration ou erreur"
->abstract="Indiquez la durée pendant laquelle le parcours doit tenter d’effectuer une action ou d’évaluer une condition avant de la traiter comme ayant expiré. Les valeurs recommandées sont comprises entre 1 et 30 secondes."
+>title="Temporisation ou erreur"
+>abstract="Indiquez la durée pendant laquelle le parcours doit tenter d’effectuer une action ou d’évaluer une condition avant de considérer qu’elle a expiré. Les valeurs recommandées sont comprises entre 1 et 30 secondes."
 
 Lorsque vous modifiez une action ou une activité de condition, vous pouvez définir un autre chemin en cas d’erreur ou de temporisation. Si la durée de traitement de l’activité qui interroge un système tiers dépasse la durée de temporisation définie dans le champ **[!UICONTROL Temporisation ou erreur]** des propriétés du parcours, le deuxième chemin d’accès est choisi pour effectuer une éventuelle action de remplacement.
 
@@ -250,9 +250,9 @@ Adobe Journey Optimizer utilise des politiques de fusion lors de la récupéra
 * Dans les parcours d’événements unitaires : la politique de fusion par défaut est utilisée.
 * Dans les parcours d’événements métier : la politique de fusion de l’audience ciblée dans l’activité Lecture d’audience suivante est utilisée.
 
-Adobe Journey Optimizer applique la politique de fusion utilisée tout au long du parcours. Par conséquent, si plusieurs audiences sont utilisées dans un parcours (par exemple en utilisant les dans [`inAudience` fonctions](functions/functioninaudience.md)), cela crée des incohérences avec la politique de fusion utilisée par le parcours. Une erreur est générée et la publication est bloquée. Cependant, si une audience incohérente est utilisée dans la personnalisation des messages, une alerte n’est pas déclenchée, malgré l’incohérence. C’est pourquoi il est vivement recommandé de vérifier la politique de fusion associée à votre audience lorsque cette audience est utilisée dans la personnalisation des messages.
+Adobe Journey Optimizer applique la politique de fusion utilisée tout au long du parcours. Par conséquent, si de multiples audiences sont utilisées dans un parcours (par exemple dans les fonctions [`inAudience`](functions/functioninaudience.md)), ce qui crée des incohérences avec la politique de fusion utilisée par le parcours, une erreur se produit et la publication est bloquée. Cependant, si une audience incohérente est utilisée dans la personnalisation des messages, une alerte n’est pas déclenchée, malgré l’incohérence. C’est pourquoi il est vivement recommandé de vérifier la politique de fusion associée à votre audience lorsque cette audience est utilisée dans la personnalisation des messages.
 
-Pour en savoir plus sur les politiques de fusion, consultez la documentation de [Adobe Experience Platform](https://experienceleague.adobe.com/fr/docs/experience-platform/profile/merge-policies/overview){target="_blank"}.
+Pour en savoir plus sur les politiques de fusion, consultez la [documentation d’Adobe Experience Platform](https://experienceleague.adobe.com/fr/docs/experience-platform/profile/merge-policies/overview){target="_blank"}.
 
 >[!NOTE]
 >
@@ -303,9 +303,9 @@ Les mécanismes de sécurisation et limitations suivants s’appliquent à la fo
 * Les critères de sortie sont définis en état de brouillon uniquement.
 * Cohérence de l’espace de noms de parcours entre les événements et les critères de sortie basés sur un événement
 
-## Parcours de l&#39;horaire {#schedule}
+## Planning du parcours {#schedule}
 
-La section **[!UICONTROL Planifier]** n’est disponible que lorsqu’une activité **[!UICONTROL Lecture d’audience]** a été déposée dans la zone de travail. Il vous permet de définir une date/heure et une fréquence spécifiques auxquelles le parcours doit s’exécuter. [Découvrez comment planifier un parcours Lecture d’audience](../building-journeys/read-audience.md)
+La section **[!UICONTROL Planifier]** n’est disponible que lorsqu’une activité **[!UICONTROL Lecture d’audience]** a été déposée dans la zone de travail. Elle vous permet de définir une date/heure et une fréquence spécifiques auxquelles le parcours doit s’exécuter. [Découvrir comment planifier un parcours Lecture d’audience](../building-journeys/read-audience.md)
 
 ## Gestion des conflits {#conflict}
 
