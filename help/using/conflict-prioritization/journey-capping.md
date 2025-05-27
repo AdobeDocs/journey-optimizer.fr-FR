@@ -132,4 +132,4 @@ Une fois le parcours actif, vous pouvez vérifier dans le rapport de parcours si
 
 ## Vidéo pratique {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/3435530?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3447615?quality=12&captions=fre_fr)
