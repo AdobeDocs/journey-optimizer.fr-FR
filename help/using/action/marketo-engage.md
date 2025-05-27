@@ -9,50 +9,52 @@ role: Data Engineer, Data Architect, Admin
 level: Intermediate
 keywords: marketo, intégration marketo engage
 exl-id: 70d1ef5a-743b-4362-bb65-93a8c996209f
-source-git-commit: ffce95a074c5827b637d081ad23f4cd3754515fe
+source-git-commit: a5ee7c668b51a761266b50216047caf48496f678
 workflow-type: tm+mt
-source-wordcount: '266'
-ht-degree: 93%
+source-wordcount: '325'
+ht-degree: 36%
 
 ---
 
 # Intégration à Marketo Engage {#integrating-with-marketo-engage}
 
-Une action personnalisée spécifique est disponible dans vos parcours pour intégrer Adobe Journey Optimizer et Marketo Engage.
+Optez pour une intégration transparente des données avec Marketo Engage. Une action personnalisée spécifique est disponible dans vos parcours pour intégrer Adobe Journey Optimizer et Marketo Engage. Cette action personnalisée prend en charge l’ingestion de deux types de données clés :
 
-Optez pour une intégration transparente des données avec Marketo Engage. Cette action personnalisée spécifique dans Journey Optimizer prend en charge l’ingestion de deux types de données clés :
-
-* Personnes (profils) : Marketo transforme les profils en informations exploitables.
-* Objets personnalisés : personnalisez vos données avec des objets tels que des produits, pour une approche marketing qui vous est propre.
+* **Personnes** (profils) : Marketo transforme les profils en informations exploitables.
+* **Objets personnalisés** : personnalisez vos données à l’aide d’objets personnalisés, tels que des produits, pour une approche marketing personnalisée.
 
 ## Conditions préalables {#prerequisites}
+
+Les conditions préalables suivantes s’appliquent à cette intégration :
 
 * L’instance cliente de Marketo Engage doit être compatible avec IMS.
 * L’instance Marketo Engage et l’instance Adobe Experience Platform/Journey Optimizer doivent se trouver dans la même organisation.
 * Le client ou la cliente doit recevoir un accès **MktoSync : service d’ingestion**.
 
-## Configurer l’action {#configure-marketo-action}
+## Configuration de l’action {#configure-marketo-action}
 
-* Accédez à Administration > Configurations > Actions et cliquez sur Gérer.
-* Dans la liste Actions, cliquez sur Créer une action. En savoir plus sur les [actions personnalisées](../building-journeys/using-custom-actions.md){target="_blank"}.
-* Saisissez le nom et la description, puis sélectionnez Adobe Marketo Engage comme type d’action.
+
+Dans Journey Optimizer, vous devez configurer une action personnalisée pour Marketo Engage. Procédez comme suit :
+
+1. Sélectionnez **[!UICONTROL Configurations]** dans la section du menu ADMINISTRATION.
+1. Dans la section **[!UICONTROL Actions]**, cliquez sur **[!UICONTROL Créer une action]**. Le volet de configuration des actions s&#39;ouvre dans la droite de l&#39;écran.
+1. Saisissez Nom, Description et sélectionnez **Adobe Marketo Engage** comme **Type d&#39;action**
 
 ![](assets/engage-customaction-creation.png){width="40%" align="left"}
 
-* Cliquez sur Modifier le payload pour les payloads **Requête** et **Réponse**.
-* Dans les deux cas, composez votre payload et collez-le dans la fenêtre contextuelle dédiée.
+1. Cliquez sur l’icône **Modifier la payload** pour vos payloads **Requête** et **Réponse**.
+1. Pour les deux, composez votre payload et collez-la dans la fenêtre contextuelle dédiée.
 
 ![](assets/engage-customaction-payload.png){width="70%" align="left"}
 
-* Inspecter et configurer des valeurs de payload
+1. Inspecter et configurer des valeurs de payload
 Note : pour transmettre des valeurs dynamiquement, pour chaque champ, remplacez **Constante** par **Variable**.
 
 ![](assets/engage-customaction-payload-fields.png){width="70%" align="left"}
 
-* Cliquez sur **Enregistrer** dans la fenêtre de configuration du champ, puis sur **Enregistrer** pour votre action personnalisée.
+1. Cliquez sur **Enregistrer** dans l’écran Configuration du champ, puis sur **Enregistrer** votre action personnalisée.
 
-Vous pouvez désormais utiliser votre action personnalisée sur votre zone de travail dédiée.
-
+Vous pouvez maintenant utiliser votre action personnalisée sur la zone de travail du parcours.
 
 ## Syntaxe du payload {#payload-syntax}
 
@@ -111,7 +113,14 @@ Vous pouvez désormais utiliser votre action personnalisée sur votre zone de tr
 
 ## Utiliser l’action {#engage-using}
 
-* Faites glisser l’action personnalisée sur la zone de travail de parcours.
-* Dans la section **Paramètres de requête**, cliquez sur Modifier pour chacun des paramètres avec des valeurs dynamiques que vous avez configurées dans le payload.
+Pour chaque action configurée, une activité d’action Marketo Engage est disponible dans la palette du Concepteur de parcours.
+
+Pour l’utiliser, procédez comme suit :
+
+1. Faites glisser l’action personnalisée sur la zone de travail de parcours.
+
+1. Saisissez le libellé et la description de cette action.
+
+1. Dans la section **Paramètres de requête**, cliquez sur l’icône **Modifier** pour chacun des paramètres et sélectionnez les valeurs dynamiques que vous avez configurées dans la payload.
 
 ![](assets/engage-use-canvas.png){width="70%" align="left"}
