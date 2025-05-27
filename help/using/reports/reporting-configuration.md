@@ -118,7 +118,7 @@ The table below shows which metrics will be added to the **[!UICONTROL Objective
 
    ![](assets/reporting-config-namespace.png)
 
-   En savoir plus sur les espaces de noms dans la documentation de Adobe Experience Platform [](https://experienceleague.adobe.com/docs/experience-platform/identity/namespaces.html?lang=fr){target="_blank"}.
+   En savoir plus sur les espaces de noms dans la documentation de Adobe Experience Platform [&#128279;](https://experienceleague.adobe.com/docs/experience-platform/identity/namespaces.html?lang=fr){target="_blank"}.
 
 1. Enregistrez vos modifications pour ajouter le jeu de données sélectionné à la liste de configuration des rapports.
 
