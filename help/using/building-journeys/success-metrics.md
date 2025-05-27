@@ -2,27 +2,29 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Publier le parcours
-description: Découvrez comment créer des rapports sur vos mesures de parcours
+description: Découvrir comment obtenir des rapports sur les mesures de votre parcours
 feature: Journeys
 topic: Content Management
 role: User
 level: Intermediate
-keywords: publication, parcours, dynamique, validité, vérifier
+keywords: publication, parcours, actif, validité, vérifier
 exl-id: 95d0267e-fab4-4057-8ab5-6f7c9c866b0f
-source-git-commit: 3cbda018a1380e13ba3670563240238367517353
+source-git-commit: d772ef2d98775446618bd6614a26b9f352e073bd
 workflow-type: tm+mt
-source-wordcount: '495'
-ht-degree: 72%
+source-wordcount: '522'
+ht-degree: 91%
 
 ---
 
-# Configuration et suivi des mesures de parcours {#success-metrics}
+# Configurer et suivre les mesures de votre parcours {#success-metrics}
 
-Bénéficiez d’une visibilité claire sur l’efficacité de vos parcours client avec les mesures de parcours. Cette fonctionnalité vous permet de suivre les performances par rapport aux indicateurs de performance clés définis, de découvrir des informations sur ce qui fonctionne et d’identifier les zones à optimiser. En mesurant l’impact en temps réel, vous pouvez stimuler l’amélioration continue et prendre des décisions informées qui augmentent l’engagement des clients.
+Bénéficiez d’une visibilité claire sur l’efficacité de vos parcours client avec les mesures de parcours. Cette fonctionnalité vous permet de suivre les performances par rapport aux KPI définis, de découvrir des informations sur ce qui fonctionne et d’identifier les domaines à optimiser. En mesurant l’impact en temps réel, vous pouvez favoriser l’amélioration continue et prendre des décisions informées qui augmentent l’engagement des clientes et clients.
 
-## Prérequis {#prerequisites}
+## Conditions préalables {#prerequisites}
 
-Avant d’utiliser vos mesures de parcours, vous devez ajouter un jeu de données qui inclut les groupes de champs `Commerce Details`, `Web` et `Mobile` [champs](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=fr#field-group){target="_blank"}.
+Avant d’utiliser vos mesures de parcours, vous devez ajouter un jeu de données qui inclut les `Commerce Details`, les `Web` et les `Mobile` [groupes de champs](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=fr#field-group){target="_blank"} sous Configuration > Création de rapports dans Adobe Experience Platform.
+
+Ces groupes de champs doivent être sélectionnés à partir des options intégrées, et non à partir de groupes personnalisés. Pour plus d&#39;informations, consultez la section [Ajouter des jeux de données](../reports/reporting-configuration.md#add-datasets).
 
 ## Mesures disponibles {#metrics}
 
@@ -69,9 +71,9 @@ Chaque mesure est fournie avec une attribution définie qui détermine les point
 
   En savoir plus sur les [modèles d’attribution](https://experienceleague.adobe.com/fr/docs/analytics-platform/using/cja-dataviews/component-settings/attribution#attribution-models)
 
-## Attribution de mesures de parcours {#assign}
+## Attribuer les mesures de votre parcours {#assign}
 
-Pour commencer à effectuer le suivi de vos mesures de parcours, procédez comme suit :
+Pour commencer à effectuer le suivi des mesures de votre parcours, procédez comme suit :
 
 1. Dans le menu **[!UICONTROL Parcours]**, cliquez sur **[!UICONTROL Créer un parcours]**.
 
@@ -89,8 +91,8 @@ Pour commencer à effectuer le suivi de vos mesures de parcours, procédez comme
 
 1. Testez et publiez le parcours.
 
-1. Ouvrez votre rapport de parcours pour suivre les performances des mesures de succès qui vous ont été affectées.
+1. Ouvrez votre rapport de parcours pour suivre les performances des mesures de succès attribuées.
 
-   Les mesures sélectionnées s’affichent dans les KPI du rapport et dans le tableau Statistiques du Parcours .
+   Les mesures que vous avez choisies s’affichent dans les KPI du rapport et le tableau des statistiques du parcours.
 
    ![](assets/success_metric_2.png)
