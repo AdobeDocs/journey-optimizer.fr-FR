@@ -32,12 +32,12 @@ Pour en savoir plus sur Dynamic Media dans Adobe Experience Manager as a Cloud S
 
 >[!IMPORTANT]
 >
->Assurez-vous que Dynamic Media avec OpenAPI est activé dans Adobe Experience Manager as a Cloud Service. [En savoir plus](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/dynamicmedia/dynamic-media-open-apis/dynamic-media-open-apis-overview#enable-dynamic-media-open-apis)
+>Assurez-vous que Dynamic Media avec OpenAPI est activé dans Adobe Experience Manager as a Cloud Service. [En savoir plus](https://experienceleague.adobe.com/fr/docs/experience-manager-cloud-service/content/assets/dynamicmedia/dynamic-media-open-apis/dynamic-media-open-apis-overview#enable-dynamic-media-open-apis)
 
 
 Améliorez et optimisez votre contenu pour n’importe quel écran ou navigateur en insérant des médias dynamiques depuis Adobe Experience Manager as a Cloud Service directement dans votre contenu Journey Optimizer.  Vous pouvez ensuite redimensionner, recadrer, améliorer et effectuer d’autres réglages si nécessaire.
 
-Notez que Dynamic Media est disponible pour Dynamic Media [mode Scene7](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/dynamic/config-dms7){target="_blank"} et [avec OpenAPI](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/dynamicmedia/dynamic-media-open-apis/dynamic-media-open-apis-overview){target="_blank"}.
+Notez que Dynamic Media est disponible pour Dynamic Media [mode Scene7](https://experienceleague.adobe.com/fr/docs/experience-manager-65/content/assets/dynamic/config-dms7){target="_blank"} et [avec OpenAPI](https://experienceleague.adobe.com/fr/docs/experience-manager-cloud-service/content/assets/dynamicmedia/dynamic-media-open-apis/dynamic-media-open-apis-overview){target="_blank"}.
 
 1. Faites glisser et déposez un **[!UICONTROL composant HTML]** dans votre contenu.
 
@@ -71,7 +71,7 @@ Par exemple, à l’aide de la fonctionnalité d’expérimentation, vous pouvez
 
 ![](assets/dynamic-media-layout-1.png)
 
-Notez que la **personnalisation de superposition de texte** est disponible exclusivement dans Dynamic Media [mode Scene7](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/dynamic/config-dms7){target="_blank"}. Comme le mode Scene7 n’est pas accessible pour les clients du secteur de la santé, le contenu est rendu à l’aide d’une copie binaire Journey Optimizer de l’image. Pour toute exception, contactez l’assistance Experience Manager.
+Notez que la **personnalisation de superposition de texte** est disponible exclusivement dans Dynamic Media [mode Scene7](https://experienceleague.adobe.com/fr/docs/experience-manager-65/content/assets/dynamic/config-dms7){target="_blank"}. Comme le mode Scene7 n’est pas accessible pour les clients du secteur de la santé, le contenu est rendu à l’aide d’une copie binaire Journey Optimizer de l’image. Pour toute exception, contactez l’assistance Experience Manager.
 
 1. Faites glisser et déposez un **[!UICONTROL composant HTML]** dans votre contenu.
 
@@ -110,7 +110,7 @@ Votre contenu inclut désormais la superposition de texte mise à jour.
 
 Ajoutez facilement votre modèle Dynamic Media dans Journey Optimizer et modifiez votre contenu multimédia chaque fois que nécessaire. Vous pouvez désormais incorporer des champs de personnalisation dans vos médias, ce qui vous permet de créer du contenu plus personnalisé et plus attrayant dans Journey Optimizer.
 
-Notez que le **modèle Dynamic Media** est disponible exclusivement dans Dynamic Media [mode Scene7](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/dynamic/config-dms7). Comme le mode Scene7 n’est pas accessible pour les clients du secteur de la santé, le contenu ne sera pas rendu. Pour toute exception, contactez l’assistance Experience Manager.
+Notez que le **modèle Dynamic Media** est disponible exclusivement dans Dynamic Media [mode Scene7](https://experienceleague.adobe.com/fr/docs/experience-manager-65/content/assets/dynamic/config-dms7). Comme le mode Scene7 n’est pas accessible pour les clients du secteur de la santé, le contenu ne sera pas rendu. Pour toute exception, contactez l’assistance Experience Manager.
 
 En savoir plus sur le [modèle Dynamic Media](https://experienceleague.adobe.com/fr/docs/dynamic-media-classic/using/template-basics/quick-start-template-basics){target="_blank"}
 
