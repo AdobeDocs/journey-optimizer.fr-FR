@@ -9,10 +9,10 @@ role: Data Engineer, Data Architect, Admin
 level: Intermediate
 keywords: campaign, acc, intégration
 exl-id: 109ba212-f04b-425f-9447-708c8e0b3f51
-source-git-commit: bf4044bc23b0e7c0ef74e5b612d93cb45ec20242
+source-git-commit: d92c280e40419d2e3ec62a7ba85cd492a0867fde
 workflow-type: tm+mt
-source-wordcount: '553'
-ht-degree: 67%
+source-wordcount: '543'
+ht-degree: 58%
 
 ---
 
@@ -50,13 +50,13 @@ Si nécessaire, la connexion entre les environnements Journey Optimizer et Adobe
 >[!ENDTABS]
 
 
-## Remarques importantes {#important-notes}
+## Mécanismes de sécurisation et limitations {#important-notes}
 
-* Il n’y a pas de limitation des messages. Le système limite à 4 000 le nombre de messages pouvant être envoyés touttes les 5 minutes, en fonction du contrat SLA Campaign actuel. C’est la raison pour laquelle Journey Optimizer ne devrait être utilisé que dans des cas d’utilisation unitaires (événements individuels, pas d’audiences).
+* Il n’y a pas de limitation des messages. Le système limite à 4 000 le nombre de messages pouvant être envoyés touttes les 5 minutes, en fonction du contrat SLA Campaign actuel. C’est la raison pour laquelle Journey Optimizer ne devrait être utilisé que dans des cas d’utilisation unitaires (événements individuels, pas d’audiences).
 
-* Vous devez configurer une action sur la zone de travail pour chaque modèle à utiliser. Vous devez configurer une action dans Journey Optimizer pour chaque modèle que vous souhaitez utiliser dans Adobe Campaign.
+* Vous devez configurer une action sur la zone de travail par modèle à utiliser. Vous devez configurer une action dans Journey Optimizer pour chaque modèle que vous souhaitez utiliser dans Adobe Campaign.
 
-* Nous vous recommandons d’utiliser une instance Message Center dédiée et hébergée pour cette intégration afin d’éviter d’impacter les autres opérations de Campaign en cours. Le serveur marketing peut être hébergé ou On-Premise. Le build requis est la version 21.1 Release Candidate ou ultérieure.
+* Nous vous recommandons d’utiliser une instance Message Center hébergée ou Managed Services dédiée pour cette intégration afin d’éviter d’impacter les autres opérations de Campaign en cours. Le serveur marketing peut être hébergé ou On-Premise.<!--The build required is 21.1 Release Candidate or greater. -->
 
 * Il n’existe aucune validation indiquant le caractère correct du message Campaign ou de la payload.
 
@@ -70,7 +70,7 @@ Vous pouvez créer la payload JSON correspondant à chaque message selon le mod�
 
 Voici un exemple :
 
-```JSON
+```json
 {
     "channel": "email",
     "eventType": "welcome",
