@@ -11,13 +11,13 @@ exl-id: 2214ec90-580e-469e-9b14-d8cb2d4bb050
 source-git-commit: b4c1cb69fd67e8c74982103c68050ab56a71113a
 workflow-type: tm+mt
 source-wordcount: '499'
-ht-degree: 69%
+ht-degree: 95%
 
 ---
 
 # Playbooks de cas d’utilisation {#playbooks}
 
-## Que sont les playbooks de cas d’utilisation ? {#gs}
+## Présentation des playbooks de cas d’utilisation {#gs}
 
 Les playbooks de cas d’utilisation sont des workflows prédéfinis qui répondent aux cas d’utilisation courants que vous pouvez exécuter dans Adobe Experience Platform et Journey Optimizer.
 
@@ -27,17 +27,17 @@ Chaque playbook fournit une vue d’ensemble complète, incluant l’intention, 
 
 ![Playbook de panier abandonné affiché dans la vue Découverte des playbooks.](assets/playbooks-detail.png){width="85%"}
 
-## Prérequis {#prerequisites}
+## Conditions préalables {#prerequisites}
 
-Les étapes de configuration suivantes sont requises avant d’utiliser des playbooks de cas d’utilisation. Des informations détaillées sur chaque étape sont disponibles dans la page Documentation des playbooks de cas d’utilisation [Prise en main](https://experienceleague.adobe.com/docs/experience-platform/use-case-playbooks/playbooks/get-started.html?lang=fr){target="_blank"}.
+Les étapes de configuration suivantes sont requises avant d’utiliser des playbooks de cas d’utilisation. Des informations détaillées sur chaque étape sont disponibles sur la page [Commencer](https://experienceleague.adobe.com/docs/experience-platform/use-case-playbooks/playbooks/get-started.html?lang=fr){target="_blank"} de la documentation des playbooks de cas d’utilisation.
 
 * Créer un sandbox
 * Configurer les autorisations des utilisateurs et des utilisatrices
 * Paramétrer les configuration de canal Journey Optimizer pour les notifications par e-mail, push et SMS
 
-## Accès et activation d’un playbook {#access}
+## Accéder à un playbook et l’activer {#access}
 
-Pour accéder aux playbooks, accédez au menu **[!UICONTROL Playbooks]** situé dans le rail de navigation de gauche. La bibliothèque inclut plusieurs playbooks qui sont implémentés à l’aide d’Adobe Journey Optimizer. Pour y accéder facilement, utilisez les filtres disponibles situés à côté de la barre de recherche. Une liste complète des playbooks Journey Optimizer est disponible dans la [documentation sur les playbooks de cas d’utilisation](https://experienceleague.adobe.com/docs/experience-platform/use-case-playbooks/playbooks/playbooks-list.html?lang=fr){target="_blank"}.
+Pour accéder aux playbooks, accédez au menu **[!UICONTROL Playbooks]** situé dans le rail de navigation de gauche. La bibliothèque inclut plusieurs playbooks qui sont implémentés à l’aide d’Adobe Journey Optimizer. Pour y accéder facilement, utilisez les filtres disponibles situés à côté de la barre de recherche. Une liste exhaustive des playbooks Journey Optimizer est disponible dans la [documentation sur les playbooks de cas d’utilisation](https://experienceleague.adobe.com/docs/experience-platform/use-case-playbooks/playbooks/playbooks-list.html?lang=fr){target="_blank"}.
 
 ![Liste des playbooks avec le volet des filtres ouvert](assets/playbooks-filter.png){width="85%"}
 
@@ -49,7 +49,7 @@ Une fois que vous avez choisi le playbook qui correspond le mieux à vos besoins
 
 Pour mettre en œuvre votre cas d’utilisation, vous pouvez accéder à chaque objet afin de l’ajuster selon vos besoins. Vous pouvez également partager l’URL de la page de l’instance du playbook avec votre équipe afin de collaborer à la mise en œuvre du cas d’utilisation.
 
-En outre, vous pouvez importer les ressources des playbooks dans d’autres sandbox. Cela vous permet d’aligner les ressources générées avec vos ressources existantes et de garantir leur compatibilité avec vos données si vous avez déjà configuré vos propres schémas, champs et groupes de champs. Ces étapes sont détaillées dans la documentation sur les playbooks de cas d’utilisation : [Publication de ressources générées par un playbook sur d’autres sandbox](https://experienceleague.adobe.com/docs/experience-platform/use-case-playbooks/playbooks/data-awareness.html?lang=fr){target="_blank"}.
+En outre, vous pouvez importer les ressources des playbooks dans d’autres sandbox. Cela vous permet d’aligner les ressources générées avec vos ressources existantes et de garantir leur compatibilité avec vos données si vous avez déjà configuré vos propres schémas, champs et groupes de champs. Ces étapes sont détaillées dans la documentation sur les playbooks de cas d’utilisation : [Publier des ressources générées par un playbook sur d’autres sandbox](https://experienceleague.adobe.com/docs/experience-platform/use-case-playbooks/playbooks/data-awareness.html?lang=fr){target="_blank"}.
 
 ## Créer vos propres playbooks (Private Beta) {#create}
 
@@ -57,8 +57,8 @@ En outre, vous pouvez importer les ressources des playbooks dans d’autres sand
 >
 >La création de playbooks de cas d’utilisation n’est actuellement disponible que pour un ensemble d’organisations sous la forme d’une version bêta privée. Pour en bénéficier, contactez votre représentant ou représentante Adobe.
 
-Outre l’utilisation de playbooks prédéfinis, vous pouvez créer et partager vos propres playbooks dans Adobe Experience Platform.
+Outre l’utilisation de playbooks prédéfinis, vous pouvez créer et partager vos propres playbooks dans Adobe Experience Platform.
 
-Vous pouvez définir des métadonnées à l’aide de l’assistance de l’IA ou d’une saisie manuelle, associer des ressources techniques telles que des schémas et des segments et partager vos playbooks dans différentes organisations IMS.
+Vous pouvez définir des métadonnées à l’aide de l’assistance IA ou d’une saisie manuelle, associer des ressources techniques telles que des schémas et des segments et partager vos playbooks dans différentes organisations IMS.
 
-Pour plus d’informations sur la création et le partage de playbooks, consultez la documentation sur les playbooks de cas d’utilisation : [Créer et partager vos propres playbooks à l’aide de l’assistant IA](https://experienceleague.adobe.com/docs/experience-platform/use-case-playbooks/playbooks/author.html?lang=fr#sharing-playbooks-sandboxes){target="_blank"}.
+Pour plus d’informations sur la création et le partage de playbooks, consultez la documentation sur les playbooks de cas d’utilisation : [Créer et partager vos propres playbooks à l’aide de l’Assistant IA](https://experienceleague.adobe.com/fr/docs/experience-platform/use-case-playbooks/playbooks/author#sharing-playbooks-sandboxes){target="_blank"}.

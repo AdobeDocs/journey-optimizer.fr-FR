@@ -16,7 +16,7 @@ ht-degree: 82%
 
 ## Nouveautés
 
-Découvrez les améliorations les plus récentes apportées au produit et à la documentation de Journey Optimizer. Pour obtenir une liste complète des fonctionnalités, des améliorations et des correctifs, consultez les [Notes de mise à jour](using/rn/release-notes.md). Consultez la [page des mises à jour de la documentation](using/rn/documentation-updates.md) pour vous tenir au courant des dernières modifications apportées à la documentation du produit.
+Découvrez les améliorations les plus récentes apportées au produit et à la documentation de Journey Optimizer. Pour obtenir une liste complète des fonctionnalités, des améliorations et des correctifs, consultez les [Notes de mise à jour](using/rn/release-notes.md). Consultez la [page des mises à jour de la documentation](using/rn/documentation-updates.md) pour connaître les dernières modifications apportées à la documentation du produit.
 
 >[!BEGINTABS]
 
@@ -26,7 +26,7 @@ La version de mai est maintenant en ligne ! Consultez les notes de mise à jour 
 
 [![En savoir plus](using/assets/do-not-localize/learn-more-button.svg)](using/rn/release-notes.md)
 
->[!TAB Intégration à Adobe Express]
+>[!TAB Intégration d’Adobe Express]
 
 Adobe Journey Optimizer s’intègre désormais à Adobe Express, ce qui vous permet de connecter facilement vos ressources créatives à l’orchestration des parcours.
 

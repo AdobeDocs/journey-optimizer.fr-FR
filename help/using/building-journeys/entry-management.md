@@ -11,7 +11,7 @@ exl-id: 8874377c-6594-4a5a-9197-ba5b28258c02
 source-git-commit: a2e4a6c15ea9e6a96544eaa8f58dc0cd55854bbe
 workflow-type: tm+mt
 source-wordcount: '573'
-ht-degree: 82%
+ht-degree: 95%
 
 ---
 
@@ -22,13 +22,13 @@ La gestion des entrées de profil dépend du type de parcours.
 
 ## Types de parcours {#types-of-journeys}
 
-Avec Adobe Journey Optimizer, vous pouvez créer les types de parcours suivants :
+Avec Adobe Journey Optimizer, vous pouvez créer les types de parcours suivants :
 
-* **Événement unitaire** parcours : ces parcours commencent par un Événement unitaire. Lorsque l’événement est reçu, le profil associé rejoint le parcours. [En savoir plus](#entry-unitary)
+* Parcours **Événement unitaire** : ces parcours commencent par un événement unitaire. Lorsque l’événement est reçu, le profil associé rejoint le parcours. [En savoir plus](#entry-unitary)
 
-* **Événement métier** parcours : ces parcours commencent par un événement métier immédiatement suivi d’une activité **Lecture d’audience**. Lorsque l’événement est reçu, les profils appartenant à l’audience ciblée rejoignent le parcours. Une instance de ce parcours est créée pour chaque profil. [En savoir plus](#entry-business)
+* Parcours **Événement métier** : ces parcours commencent par un événement métier suivi immédiatement d’une activité **Lecture d’audience**. Lorsque l’événement est reçu, les profils appartenant à l’audience ciblée rejoignent le parcours. Une instance de ce parcours est créée pour chaque profil. [En savoir plus](#entry-business)
 
-* **Lecture d’audience** parcours : ces parcours commencent par une activité **Lecture d’audience**. Lorsque le parcours est exécuté, les profils appartenant à l’audience ciblée rejoignent le parcours. Une instance de ce parcours est créée pour chaque profil. Ces parcours peuvent être récurrents ou ponctuels. [En savoir plus](#entry-read-audience)
+* Parcours **Lecture d’audience** : ces parcours commencent par une activité **Lecture d’audience**. Lorsque le parcours est exécuté, les profils appartenant à l’audience ciblée rejoignent le parcours. Une instance de ce parcours est créée pour chaque profil. Ces parcours peuvent être récurrents ou ponctuels. [En savoir plus](#entry-read-audience)
 
 * Parcours **Qualification de l’audience** : ces parcours commencent par un événement Qualification de l’audience. Ces parcours écoutent les entrées et les sorties des profils dans les audiences. Lorsque cela se produit, le profil associé rejoint le parcours. [En savoir plus](#entry-unitary)
 
@@ -79,7 +79,7 @@ Les parcours **Lecture d’audience** peuvent être récurrents ou ponctuels :
 
 * Pour les parcours récurrents : par défaut, tous les profils appartenant à l’audience rejoignent le parcours à chaque périodicité. Elles doivent terminer le parcours avant de pouvoir rejoindre à nouveau une autre occurrence.
 
-Plusieurs options sont disponibles pour les parcours récurrents Lecture d’audience . Pour plus d’informations, consultez la section [Utiliser une audience dans un parcours ](../building-journeys/read-audience.md).
+Plusieurs options sont disponibles pour les parcours Lecture d’audience récurrents : Pour plus d’informations, consultez la section [Utiliser une audience dans un parcours](../building-journeys/read-audience.md).
 
 <!--
 After 91 days, a Read audience journey switches to the **Finished** status. This behavior is set for 91 days only (i.e. journey timeout default value) as all information about profiles who entered the journey is removed 91 days after they entered. Persons still in the journey automatically are impacted. They exit the journey after the 30 day timeout. 

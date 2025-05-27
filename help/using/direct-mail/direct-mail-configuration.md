@@ -10,7 +10,7 @@ exl-id: ae5cc885-ade1-4683-b97e-eda1f2142041
 source-git-commit: 2f7c620a712cfc104418bc985bd74e81da12147c
 workflow-type: tm+mt
 source-wordcount: '1365'
-ht-degree: 95%
+ht-degree: 97%
 
 ---
 
@@ -24,7 +24,7 @@ Avant de pouvoir générer ce fichier, vous devez créer les éléments suivants
 
 1. [Une configuration du routage des fichiers](#file-routing-configuration) pour spécifier le serveur sur lequel le fichier sera exporté et chiffré, le cas échéant.
 
-1. [configuration du publipostage direct](#direct-mail-configuration) qui fait référence à la configuration du routage des fichiers. Si vous n’avez configuré aucune option de routage de fichier, vous ne pourrez pas créer de configuration de courrier.
+1. [Une configuration du courrier](#direct-mail-configuration) qui fait référence à la configuration du routage des fichiers. Si vous n’avez configuré aucune option de routage de fichier, vous ne pourrez pas créer de configuration de courrier.
 
 
 >[!CAUTION]
@@ -145,7 +145,7 @@ Si vous avez sélectionné **[!UICONTROL Zone d’atterrissage des données]** e
 
 ![](assets/file-routing-config-dlz-detail.png)
 
-L&#39;ensemble de la clientèle d’[!DNL Adobe Experience Platform] est approvisionné avec un conteneur Zone d’atterrissage des données par sandbox. En savoir plus sur la zone d’atterrissage de données dans la documentation de Adobe Experience Platform [&#128279;](https://experienceleague.adobe.com/fr/docs/experience-platform/sources/connectors/cloud-storage/data-landing-zone){target="_blank"}.
+L&#39;ensemble de la clientèle d’[!DNL Adobe Experience Platform] est approvisionné avec un conteneur Zone d’atterrissage des données par sandbox. Pour en savoir plus sur la zone d’atterrissage des données, consultez la [documentation d’Adobe Experience Platform](https://experienceleague.adobe.com/fr/docs/experience-platform/sources/connectors/cloud-storage/data-landing-zone){target="_blank"}.
 
 >[!ENDTABS]
 

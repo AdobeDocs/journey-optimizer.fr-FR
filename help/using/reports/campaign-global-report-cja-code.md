@@ -11,7 +11,7 @@ exl-id: d35a0e1c-2376-4cc5-88fc-5f8dfcfae666
 source-git-commit: 07704f99aff7d92e8db76755f6617345bac56590
 workflow-type: tm+mt
 source-wordcount: '873'
-ht-degree: 95%
+ht-degree: 97%
 
 ---
 
@@ -147,7 +147,7 @@ Le tableau **[!UICONTROL Stratégie de classement]** fournit des informations su
 
 * **Piloté par modèle** : les utilisateurs et les utilisatrices reçoivent du contenu classé par le modèle d’IA, optimisé pour la pertinence et l’engagement.
 
-* **Exclusion** : les utilisateurs et utilisatrices reçoivent un contenu diffusé de manière aléatoire pendant la phase d’exploration du modèle.
+* **Exclusion** : les utilisateurs et utilisatrices reçoivent du contenu diffusé de manière aléatoire pendant la phase d’exploration du modèle.
 
 Les mesures clés affichées sont les suivantes :
 
@@ -169,7 +169,7 @@ Le graphique **[!UICONTROL Taux de conversion pour le trafic Exclusion et le tra
 
 * **Piloté par modèle** : les utilisateurs et les utilisatrices reçoivent du contenu classé par le modèle d’IA, optimisé pour la pertinence et l’engagement.
 
-* **Exclusion** : les utilisateurs et utilisatrices reçoivent un contenu diffusé de manière aléatoire pendant la phase d’exploration du modèle.
+* **Exclusion** : les utilisateurs et utilisatrices reçoivent du contenu diffusé de manière aléatoire pendant la phase d’exploration du modèle.
 
 >[!CAUTION]
 >

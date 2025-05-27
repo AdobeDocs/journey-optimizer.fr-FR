@@ -11,19 +11,19 @@ exl-id: ea1ecbb0-12b5-44e8-8e11-6d3b8bff06aa
 source-git-commit: a7468879b36dfe9184471824b387f1638fae3d50
 workflow-type: tm+mt
 source-wordcount: '756'
-ht-degree: 48%
+ht-degree: 95%
 
 ---
 
 # Terminer un parcours {#journey-ending}
 
-## Comment se termine un parcours en direct
+## Terminaison d’un parcours dynamique
 
-Les parcours sont fermés lorsque le délai d’expiration du parcours global est atteint ou après la dernière occurrence d’un parcours récurrent basé sur l’audience. [Découvrez comment les parcours sont clôturés](#close-journey).
+Les parcours sont fermés lorsque le délai d’expiration du parcours global est atteint ou après la dernière occurrence d’un parcours récurrent basé sur l’audience. [Découvrir comment les parcours sont fermés](#close-journey).
 
-Si vous devez mettre fin à un parcours en direct, nous vous recommandons de [le fermer](#close-to-new-entrances) manuellement. L&#39;arrivée de nouveaux clients sur le parcours est alors bloquée. Les profils qui ont déjà rejoint le parcours peuvent l’expérimenter jusqu’à la fin.
+Pour terminer un parcours dynamique, nous vous recommandons de [le clôturer](#close-to-new-entrances) manuellement. L’arrivée de nouvelles personnes dans le parcours sera alors bloquée. Les profils qui ont déjà rejoint le parcours peuvent l’expérimenter jusqu’à la fin.
 
-Vous pouvez également [arrêter un parcours ](#stop-journey), uniquement en cas d’urgence et si tout le traitement du parcours doit être arrêté immédiatement. Les personnes qui sont déjà entrées dans un parcours sont toutes stoppées dans leur progression.
+Vous pouvez également [arrêter un parcours](#stop-journey), uniquement en cas d’urgence et si tout le traitement du parcours doit être arrêté immédiatement. Les personnes qui l’ont déjà rejoint sont toutes stoppées dans leur progression.
 
 >[!IMPORTANT]
 >
@@ -31,20 +31,20 @@ Vous pouvez également [arrêter un parcours ](#stop-journey), uniquement en cas
 >
 >* Seuls les parcours terminés peuvent être supprimés.
 
-## Comment les profils terminent un parcours
+## Terminaison d’un parcours par les profils
 
-Un parcours se termine pour un individu dans deux contextes spécifiques :
+Un parcours peut se terminer pour une personne dans deux contextes spécifiques :
 
-* L’individu atteint à la dernière activité d’un chemin, puis passe à la [ balise de fin ](#end-tag).
-* L’individu atteint une activité **Condition** (ou une activité **Attente** avec une condition) et ne répond à aucune des conditions.
+* L’individu atteint la dernière activité d’un chemin, puis passe à la [balise de fin](#end-tag).
+* L’individu arrive à une activité **Condition** (ou à une activité **Attente** avec une condition) et ne répond à aucune des conditions.
 
-L’individu peut alors entrer à nouveau dans le parcours si la rentrée est autorisée. [En savoir plus sur la gestion des entrées/rentrées](../building-journeys/journey-properties.md#entrance)
+L’individu peut alors rejoindre à nouveau le parcours si une nouvelle entrée est autorisée. [En savoir plus sur la gestion des entrées/rentrées](../building-journeys/journey-properties.md#entrance)
 
-## Balise parcours-end {#end-tag}
+## Balise de fin de parcours {#end-tag}
 
-Lors de la création d’un parcours, une balise de fin s’affiche à la fin de chaque chemin. Ce nœud ne peut pas être ajouté par un utilisateur, ne peut pas être supprimé et seul son libellé peut être modifié. Il marque la fin de chaque chemin du parcours.
+Lors de la création d’un parcours, une « balise de fin » s’affiche à la fin de chaque chemin. Ce nœud ne peut pas être ajouté par un utilisateur ou une utilisatrice, ne peut pas être supprimé et seul son libellé peut être modifié. Il marque la fin de chaque chemin du parcours.
 
-Si le parcours comporte plusieurs chemins, il est conseillé d’ajouter un libellé à chaque fin pour faciliter la lecture des rapports. En savoir plus sur les [rapports de parcours ](../reports/live-report.md).
+Si le parcours comporte plusieurs chemins, il est conseillé d’ajouter un libellé à chaque fin pour faciliter la lecture des rapports. En savoir plus sur les [rapports de parcours](../reports/live-report.md).
 
 ![](assets/journey-end.png)
 
@@ -56,15 +56,15 @@ Les raisons suivantes peuvent entraîner la fermeture d&#39;un parcours :
 * Après la dernière occurrence d’un parcours récurrent basé sur une audience.
 * Le parcours est fermé manuellement par le biais du bouton [**[!UICONTROL Fermer aux nouvelles entrées]**](#close-to-new-entrances).
 
-Après la temporisation globale du parcours de **91 jours**, un parcours Lecture d’audience passe au statut **Terminé**. Ce comportement est défini sur 91 jours uniquement, car toutes les informations sur les profils entrés dans le parcours sont supprimées 91 jours après leur entrée. Les personnes toujours présentes dans le parcours sont automatiquement affectées. Ils quittent le parcours après la temporisation de 91 jours.  En savoir plus sur [la temporisation globale du parcours ](../building-journeys/journey-properties.md#global_timeout).
+Après la **temporisation globale de 91 jours**, le statut d’un parcours de lecture d’audience passe à **Terminé**. Ce comportement est défini uniquement sur 91 jours, car toutes les informations relatives aux profils qui ont rejoint le parcours sont supprimées 91 jours après leur entrée. Les personnes toujours présentes dans le parcours sont automatiquement affectées. Elles quittent le parcours après la temporisation de 91 jours. En savoir plus sur [la temporisation globale d’un parcours](../building-journeys/journey-properties.md#global_timeout).
 
 >[!TIP]
 >
->Un parcours unique basé sur les segments conserve le statut **Actif** même après une seule exécution. Les profils ne peuvent pas réintégrer une fois l’opération terminée, mais le statut du parcours reste **Actif** jusqu’à l’expiration du délai d’expiration global par défaut. Vous pouvez le fermer manuellement plus tôt à l’aide de l’option **Fermer aux nouvelles entrées**.
+>Un parcours unique basé sur les segments conserve le statut **Actif** même après une seule exécution. Les profils ne peuvent pas rejoindre à nouveau le parcours une fois l’opération terminée, mais le statut du parcours reste **Actif** jusqu’à l’expiration de la temporisation globale par défaut. Vous pouvez le fermer manuellement plus tôt à l’aide de l’option **Fermer aux nouvelles entrées**.
 
 ### Fermer aux nouvelles entrées {#close-to-new-entrances}
 
-Le fait de fermer un parcours manuellement assure que les clients qui l’ont déjà rejoint puissent terminer leur chemin, mais que les nouveaux utilisateurs ne puissent pas le rejoindre. Lorsqu&#39;un parcours est fermé (pour l&#39;une des raisons ci-dessus), le statut **[!UICONTROL Fermé]** lui est attribué. Il n’est alors plus accessible aux nouveaux individus. Les profils déjà présents dans le parcours peuvent terminer le parcours normalement. Au-delà de la temporisation globale par défaut de 91 jours, le statut du parcours passe à **Terminé**.
+Le fait de fermer un parcours manuellement assure que les clients qui l’ont déjà rejoint puissent terminer leur chemin, mais que les nouveaux utilisateurs ne puissent pas le rejoindre. Lorsqu&#39;un parcours est fermé (pour l&#39;une des raisons ci-dessus), le statut **[!UICONTROL Fermé]** lui est attribué. Il n’est alors plus accessible aux nouveaux individus. Les profils déjà présents dans le parcours peuvent terminer le parcours normalement. Au-delà de la temporisation globale par défaut de 91 jours, le statut du parcours passe à **Terminé**.
 
 Pour fermer un parcours dans la liste des parcours, cliquez sur le bouton **[!UICONTROL Points de suspension]** situé à droite du nom du parcours et sélectionnez **[!UICONTROL Fermer aux nouvelles entrées]**.
 
@@ -84,7 +84,7 @@ Vous pouvez également réaliser les opérations suivantes :
 
 ## Arrêt d’un parcours {#stop-journey}
 
-Si nécessaire, il est possible d’arrêter la progression de tous les individus dans le parcours. L’arrêt du parcours entraîne la temporisation de tous les individus du parcours. Cependant, le fait d’arrêter un parcours suppose qu&#39;il soit mis un terme à la progression de toutes les personnes qui y participent. Le parcours est simplement mis à l&#39;arrêt. Si vous souhaitez terminer par un parcours, il est recommandé de [le fermer](#close-journey).
+Si nécessaire, il est possible d’arrêter la progression de tous les individus dans le parcours. L’arrêt du parcours entraîne une temporisation pour toutes les personnes présentes dans le parcours. Cependant, le fait d’arrêter un parcours suppose qu&#39;il soit mis un terme à la progression de toutes les personnes qui y participent. Le parcours est simplement mis à l&#39;arrêt. Si vous souhaitez mettre fin à un parcours, la bonne pratique consiste [à le fermer](#close-journey).
 
 
 Vous pouvez arrêter un parcours, par exemple, si un spécialiste marketing se rend compte que le parcours cible une audience incorrecte ou si une action personnalisée censée diffuser des messages ne fonctionne pas correctement. Pour arrêter un parcours dans la liste des parcours, cliquez sur le bouton **[!UICONTROL Points de suspension]** situé à droite du nom du parcours et sélectionnez **[!UICONTROL Arrêter]**.

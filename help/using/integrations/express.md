@@ -149,7 +149,7 @@ Votre image est maintenant prête à être utilisée dans votre contenu.
 
 Découvrez comment modifier vos ressources dans Adobe Journey Optimizer à l’aide des outils d’Adobe Express.
 
->[!VIDEO](https://video.tv.adobe.com/v/3455525/?quality=12&captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/3455523/?quality=12)
 
 
 

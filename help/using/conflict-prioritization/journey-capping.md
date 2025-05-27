@@ -8,7 +8,7 @@ exl-id: 4c0ee178-81fb-41ae-b7f5-22da995e6fc6
 source-git-commit: b2446c6a243d6d95b6f695b9c7007e62c51d8fa3
 workflow-type: tm+mt
 source-wordcount: '943'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 92%
 
 >[!AVAILABILITY]
 >
->Les capacités de gestion des conflits et de hiérarchisation sont actuellement accessibles en disponibilité limitée pour un groupe sélectionné de clientes et de clients. Notez que ces fonctionnalités seront progressivement déployées vers d’autres utilisateurs et utilisatrices à l’avenir. Contactez votre équipe de compte si vous souhaitez qu’elle vous ajoute à la liste d’attente pour ces fonctionnalités.
+>Les fonctionnalités de gestion des conflits et des priorités sont accessibles en disponibilité limitée pour un groupe sélectionné de clientes et clients. Notez que ces fonctionnalités seront progressivement déployées vers d’autres utilisateurs et utilisatrices à l’avenir. Contactez votre équipe de compte si vous souhaitez qu’elle vous ajoute à la liste d’attente pour ces fonctionnalités.
 
 La limitation des parcours permet de limiter le nombre de parcours dans lesquels un profil peut être inscrit, ce qui évite la surcharge de communication. Dans Journey Optimizer, vous pouvez définir deux types de règles de limitation :
 
@@ -27,7 +27,7 @@ Les deux types de limitation de parcours utilisent des scores de priorité pour 
 
 >[!AVAILABILITY]
 >
->Les ensembles de règles de domaine **Parcours** ne sont disponibles que pour un nombre limité d&#39;utilisateurs (disponibilité limitée). Pour en bénéficier, contactez votre représentant ou représentante Adobe.
+>Les jeux de règles de domaine des **parcours** ne sont disponibles que pour un nombre limité d’utilisateurs et utilisatrices (disponibilité limitée). Pour en bénéficier, contactez votre représentant ou représentante Adobe.
 
 ➡️ [Découvrez cette fonctionnalité en vidéo](#video)
 
@@ -45,7 +45,7 @@ Les deux types de limitation de parcours utilisent des scores de priorité pour 
 
 Pour créer une règle de limitation de parcours, procédez comme suit :
 
-1. Accédez au menu **[!UICONTROL Règles métier]** pour accéder à l’inventaire des jeux de règles.
+1. Accédez au menu **[!UICONTROL Règles métier]** pour consulter l’inventaire des jeux de règles.
 
 1. Sélectionnez le jeu de règles dans lequel vous souhaitez ajouter la règle de limitation ou créez un nouveau jeu de règles :
 
@@ -89,7 +89,7 @@ Pour créer une règle de limitation de parcours, procédez comme suit :
      >
      >Dans cet exemple, si la personne spécialiste marketing a déjà rejoint 4 parcours et qu’il y a un autre parcours planifié à venir ce mois-ci avec une priorité plus élevée, les personnes clientes seront alors supprimées de l’entrée au parcours de priorité plus faible.
 
-     +++
++++
 
      +++ Configuration d’une règle de limitation de la simultanéité des parcours
 
@@ -101,7 +101,7 @@ Pour créer une règle de limitation de parcours, procédez comme suit :
 
      ![](assets/journey-capping-concurrency-example.png){width="50%" zommable="yes"}
 
-     +++
++++
 
 1. Lorsque la règle de limitation est prête à être appliquée à des parcours, activez-la en cliquant sur le bouton représentant des points de suspension en regard de son nom.
 
@@ -118,7 +118,7 @@ Pour créer une règle de limitation de parcours, procédez comme suit :
 >title="Appliquer un jeu de règles aux parcours"
 >abstract="Appliquez un jeu de règles pour exclure ce parcours d’une partie de votre audience en fonction des règles de capping de la fréquence."
 
-Pour appliquer une règle de limitation à un parcours, accédez au parcours et ouvrez ses propriétés. Dans la liste déroulante **[!UICONTROL Règles de limitation]**, sélectionnez l’ensemble de règles approprié. Une fois le parcours activé, les règles de limitation définies dans le jeu de règles prennent effet.
+Pour appliquer une règle de limitation à un parcours, accédez au parcours et ouvrez ses propriétés. Dans la liste déroulante **[!UICONTROL Règles de limitation]**, sélectionnez le jeu de règles approprié. Une fois le parcours activé, les règles de limitation définies dans le jeu de règles prennent effet.
 
 ![](assets/journey-capping-apply.png)
 
@@ -126,10 +126,10 @@ Pour appliquer une règle de limitation à un parcours, accédez au parcours et 
 >
 >Si un parcours est activé immédiatement, cela peut prendre jusqu’à 20 minutes pour que le système puisse commencer à supprimer la clientèle. Vous pouvez planifier votre parcours pour qu’il commence au moins 20 minutes dans le futur afin d’éviter cette éventualité.
 
-Une fois le parcours actif, vous pouvez vérifier dans le rapport de parcours si l’ensemble de règles a entraîné une exclusion du parcours, dans le tableau **[!UICONTROL Exclusions de Parcours]**. [Découvrez comment utiliser les rapports de parcours ](../reports/journey-global-report-cja.md)
+Une fois le parcours actif, vous pouvez vérifier dans le rapport de parcours si le jeu de règles a entraîné une exclusion du parcours, dans le tableau **[!UICONTROL Exclusions du parcours]**. [Découvrir comment utiliser les rapports de parcours](../reports/journey-global-report-cja.md)
 
 ![](assets/journey-report.png)
 
 ## Vidéo pratique {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/3447615?quality=12&captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/3435530?quality=12)

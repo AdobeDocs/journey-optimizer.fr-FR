@@ -11,7 +11,7 @@ exl-id: a205539b-b7ea-4832-92b0-49637c4dac47
 source-git-commit: e35d18002fa32df8c1cfd9e0a609ce167df4641a
 workflow-type: tm+mt
 source-wordcount: '661'
-ht-degree: 90%
+ht-degree: 96%
 
 ---
 
@@ -40,7 +40,7 @@ Une fois enregistré, votre modèle de contenu peut être utilisé dans une camp
 
 >[!NOTE]
 >
->À compter de mars 2025, les modèles de contenu de type HTML seront désormais obsolètes. Vous pouvez toujours utiliser les modèles de contenu HTML existants précédemment créés dans [!DNL Journey Optimizer].
+>Depuis mars 2025, les modèles de contenu de type HTML sont devenus obsolètes. Vous pouvez toujours utiliser les modèles de contenu HTML existants précédemment créés dans [!DNL Journey Optimizer].
 
 Pour créer entièrement un nouveau modèle de contenu, procédez comme suit.
 

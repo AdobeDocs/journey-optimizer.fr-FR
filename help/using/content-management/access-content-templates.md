@@ -10,7 +10,7 @@ exl-id: ef6110c4-1aa6-4835-b0b0-b3c4fe0e7024
 source-git-commit: 528e1a54dd64503e5de716e63013c4fc41fd98db
 workflow-type: tm+mt
 source-wordcount: '603'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -42,7 +42,7 @@ Vous pouvez également choisir d’afficher uniquement les éléments que vous a
 
 >[!NOTE]
 >
->À compter de mars 2025, les modèles de contenu de type HTML seront désormais obsolètes. Vous pouvez toujours accéder aux modèles de contenu HTML précédemment créés dans [!DNL Journey Optimizer].
+>Depuis mars 2025, les modèles de contenu de type HTML sont devenus obsolètes. Vous pouvez toujours accéder aux modèles de contenu HTML précédemment créés dans [!DNL Journey Optimizer].
 
 ## Utiliser des dossiers pour gérer les modèles de contenu {#folders}
 

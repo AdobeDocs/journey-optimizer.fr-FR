@@ -12,7 +12,7 @@ exl-id: 7268489a-38c1-44da-b043-f57aaa12d7d5
 source-git-commit: db3c87d10469550eb30224c932344ff1e3ae1767
 workflow-type: tm+mt
 source-wordcount: '649'
-ht-degree: 89%
+ht-degree: 97%
 
 ---
 
@@ -51,9 +51,9 @@ La bonne pratique est de ne pas utiliser d’activités **Attente** pour bloquer
 
 En mode test, le paramètre **[!UICONTROL Durée d’attente en test]** vous permet de définir la durée de chaque activité **Attente**. La valeur par défaut est de 10 secondes. Vous obtiendrez ainsi rapidement les résultats du test. En savoir plus sur [cette page](../building-journeys/testing-the-journey.md).
 
-### Canaux d’attente et mobiles {#wait-mobile-channels}
+### Attente et canaux mobiles {#wait-mobile-channels}
 
-Si vous souhaitez afficher un [message in-app](../in-app/create-in-app.md) peu de temps après l’envoi d’une [notification push](../push/get-started-push.md), utilisez une activité **Attente** pour permettre à la payload du message in-app de se propager. En règle générale, une attente de 5 à 15 minutes est recommandée, mais les heures exactes peuvent varier en fonction de la complexité de la payload et des besoins de personnalisation.
+Si vous souhaitez afficher un [message in-app](../in-app/create-in-app.md) peu après l’envoi d’une [notification push](../push/get-started-push.md), utilisez une activité **Attente** pour permettre à la payload du message in-app de se propager. En règle générale, une attente de 5 à 15 minutes est recommandée, mais les heures exactes peuvent varier en fonction de la complexité de la payload et des besoins de personnalisation.
 
 ## Configuration {#wait-configuration}
 

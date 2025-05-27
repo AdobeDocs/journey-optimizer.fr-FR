@@ -11,7 +11,7 @@ exl-id: b837145b-1727-43c0-a0e2-bf0e8a35347c
 source-git-commit: 9f801b1fdcab38bffff851675eca5e2fb61dfbf9
 workflow-type: tm+mt
 source-wordcount: '1025'
-ht-degree: 81%
+ht-degree: 98%
 
 ---
 
@@ -23,12 +23,12 @@ Cette section fournit des informations générales sur l’utilisation de l’AP
 
 ## À lire absolument
 
-* **Une configuration par organisation :** une seule configuration est actuellement autorisée par organisation. Une configuration doit être définie sur une sandbox de production (indiquée par `x-sandbox-name` dans les en-têtes).
-* **Application au niveau de l’organisation :** une configuration est appliquée au niveau de l’organisation.
-* **Gestion des limites d’API :** lorsque la limite définie dans l’API est atteinte, les autres événements sont mis en file d’attente pendant 6 heures au maximum. Cette valeur ne peut pas être modifiée.
-* Paramètre **`maxHttpConnections`:** paramètre « maxHttpConnections » est un paramètre facultatif disponible dans l’API de limitation uniquement pour vous permettre de limiter le nombre de connexions que Journey Optimizer ouvrira au système externe. [Découvrez comment utiliser l’API de limitation](../configuration/capping.md)
+* **Une configuration par organisation :** une seule configuration est actuellement autorisée par organisation. Une configuration doit être définie sur un sandbox de production (indiqué par `x-sandbox-name` dans les en-têtes).
+* **Application au niveau de l’organisation :** une configuration s’applique au niveau de l’organisation.
+* **Gestion de la limite de l’API :** lorsque la limite définie dans l’API est atteinte, les événements suivants sont mis en file d’attente pendant 6 heures au maximum. Cette valeur ne peut pas être modifiée.
+* Paramètre **`maxHttpConnections` :** le paramètre « maxHttpConnections » est un paramètre facultatif disponible dans l’API Capping uniquement pour vous permettre de limiter le nombre de connexions que Journey Optimizer ouvrira au système externe. [En savoir plus l’utilisation de l’API Capping](../configuration/capping.md)
 
-  Si vous souhaitez limiter le nombre de connexions, mais également limiter ces appels externes, vous pouvez configurer deux configurations, l’une de limitation et l’autre de plafonnement, sur le même point d’entrée. Les deux configurations peuvent coexister pour un point d’entrée. Pour définir « maxHttpConnections » pour un point d’entrée limité, utilisez l’API de limitation pour définir le seuil de limitation et l’API de plafonnement pour définir « maxHttpConnections ». Lors de l’appel de l’API de plafonnement, vous pouvez définir le seuil de plafonnement sur un paramètre supérieur au seuil de limitation afin que la règle de plafonnement ne soit jamais appliquée.
+  Si vous souhaitez limiter le nombre de connexions, mais également restreindre ces appels externes, vous pouvez configurer deux configurations, l’une de restriction et l’autre de limitation, sur le même point d’entrée. Les deux configurations peuvent coexister pour un point d’entrée. Pour définir « maxHttpConnections » pour un point d’entrée restreint, utilisez l’API Throttling pour définir le seuil de restriction et l’API Capping pour définir « maxHttpConnections ». Lors de l’appel de l’API Capping, vous pouvez définir le seuil de limitation sur un paramètre supérieur au seuil de limitation afin que la règle de limitation ne soit jamais appliquée.
 
 ## Description de l’API de throttling et collection Postman {#description}
 
