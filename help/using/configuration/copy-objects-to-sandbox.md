@@ -9,16 +9,16 @@ role: User, Developer, Data Engineer
 level: Experienced
 keywords: sandbox, parcours, copier, environnement
 exl-id: 356d56a5-9a90-4eba-9875-c7ba96967da9
-source-git-commit: 0ad4c6a9024ea91d502ca2a733117f58c63ca50b
+source-git-commit: 25d48a675f49bca6818841bb45ccf31671225e0e
 workflow-type: tm+mt
-source-wordcount: '1375'
-ht-degree: 73%
+source-wordcount: '1260'
+ht-degree: 93%
 
 ---
 
 # Exporter des objets vers un autre sandbox {#copy-to-sandbox}
 
-Vous pouvez copier des objets tels que des parcours, des actions personnalisées, des modèles de contenu ou des fragments sur plusieurs sandbox à l’aide des fonctionnalités d’exportation et d’importation de packages. Un package peut se composer d’un ou de plusieurs objets. Tous les objets inclus dans un package doivent provenir du même sandbox.
+Vous pouvez copier des objets tels que des parcours, des actions personnalisées, des modèles de contenu ou des fragments dans plusieurs sandbox en utilisant les fonctionnalités d’export et d’import de packages. Un package peut se composer d’un ou de plusieurs objets. Tous les objets inclus dans un package doivent provenir du même sandbox.
 
 Cette page décrit le cas d’utilisation de l’outil Sandbox dans le contexte de Journey Optimizer. Pour plus d’informations sur la fonctionnalité elle-même, consultez la [documentation Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/sandbox-tooling.html?lang=fr).
 
@@ -33,7 +33,7 @@ Le processus de copie est réalisé via un export de package et un import entre 
 
 ## Objets exportés et bonnes pratiques {#objects}
 
-Journey Optimizer permet d’exporter des parcours, des actions personnalisées, des modèles de contenu et des fragments vers un autre sandbox. Les sections suivantes fournissent des informations et des bonnes pratiques pour chaque type d’objet.
+Journey Optimizer permet d’exporter des parcours, des actions personnalisées, des modèles de contenu et des fragments vers un autre sandbox. Les sections suivantes fournissent des informations et des bonnes pratiques pour chaque type d’objet.
 
 ### Bonnes pratiques générales {#global}
 
@@ -43,7 +43,7 @@ Journey Optimizer permet d’exporter des parcours, des actions personnalisées,
 
 ### Parcours {#journeys}
 
-* Lors de l’exportation d’un parcours, Journey Optimizer copie, en plus du parcours lui-même, la plupart des objets dont dépend le parcours : audiences, actions personnalisées, schémas, événements et actions. Pour plus d’informations sur les objets copiés, reportez-vous à cette [section](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/sandbox-tooling.html?lang=fr#abobe-journey-optimizer-objects).
+* Lors de l’export d’un parcours, en plus du parcours lui-même, Journey Optimizer copie également la plupart des objets dont dépend le parcours : audiences, actions personnalisées, schémas, événements et actions. Pour plus d’informations sur les objets copiés, reportez-vous à cette [section](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/sandbox-tooling.html?lang=fr#abobe-journey-optimizer-objects).
 
 * Certains éléments associés peuvent échapper à la copie dans le sandbox de destination. Nous vous recommandons vivement de vérifier la viabilité du parcours, avant sa publication par exemple. Vous pourrez ainsi identifier tout objet potentiellement manquant.
 
@@ -53,11 +53,11 @@ Journey Optimizer permet d’exporter des parcours, des actions personnalisées,
 
 ### Actions personnalisées {#custom-actions}
 
-* Lors de l’exportation d’actions personnalisées, les paramètres de payload et de configuration d’URL sont copiés. Toutefois, pour des raisons de sécurité, les paramètres d’authentification ne sont pas copiés et sont remplacés par « INSÉRER LE SECRET ICI ». Les valeurs constantes d’en-tête de requête et de paramètre de requête sont également remplacées par « INSERT SECRET HERE ».
+* Lors de l’export d’actions personnalisées, les paramètres de payload et de configuration d’URL sont copiés. Toutefois, pour des raisons de sécurité, les paramètres d’authentification ne sont pas copiés et sont remplacés par « INSÉRER LE SECRET ICI ». Les valeurs constantes d’en-tête de requête et de paramètre de requête sont également remplacées par « INSÉRER LE SECRET ICI ».
 
   Cela inclut les actions personnalisées à des fins spéciales ([!DNL Adobe Campaign Standard], [!DNL Campaign Classic], [!DNL Marketo Engage]).
 
-* Lors de la copie d’un parcours dans un autre sandbox, si vous sélectionnez « Utiliser existant » pour une action personnalisée au cours du processus d’importation, l’action personnalisée existante que vous sélectionnez doit être identique à l’action personnalisée source (c’est-à-dire la même configuration, les mêmes paramètres, etc.). Dans le cas contraire, la nouvelle copie de parcours contiendra des erreurs qui ne peuvent pas être résolues dans la zone de travail.
+* Lors de la copie d’un parcours dans un autre sandbox, si vous sélectionnez « Utiliser existant » pour une action personnalisée au cours du processus d’import, l’action personnalisée existante que vous sélectionnez doit être identique à l’action personnalisée source (c’est-à-dire la même configuration, les mêmes paramètres, etc.). Dans le cas contraire, la nouvelle copie de parcours contiendra des erreurs qui ne pourront pas être résolues dans la zone de travail.
 
 ### Campagnes {#campaigns}
 
@@ -72,7 +72,7 @@ Lors de la copie de campagnes, assurez-vous que les objets répertoriés ci-dess
 
 * **Configurations de canal** : les configurations de canal sont copiées avec les campagnes. Une fois les campagnes copiées, les configurations de canal doivent être sélectionnées manuellement dans le sandbox cible.
 * **Variantes et paramètres d’expérience** : les variantes et paramètres d’expérience sont inclus dans le processus de copie de la campagne. Validez ces paramètres dans le sandbox cible après l’importation.
-* **Prise de décision unifiée** : les politiques de décision et les éléments de décision sont pris en charge pour l’exportation et l’importation. Assurez-vous que les dépendances liées aux décisions sont correctement mappées dans le sandbox cible.
+  <!--* **Unified decisioning**: Decision policies and decision items are supported for export and import. Ensure that decision-related dependencies are correctly mapped in the target sandbox.-->
 
 ### Modèles de contenu {#content-templates}
 
@@ -82,17 +82,17 @@ Lors de la copie de campagnes, assurez-vous que les objets répertoriés ci-dess
 
 * Pour éviter toute duplication, il est recommandé d’exporter les modèles de contenu dans un seul package. Cela permet au système de gérer efficacement la déduplication.
 
-### Prise de décisions {#decisioning}
+<!--### Decisioning {#decisioning}
 
-* Les objets ci-dessous doivent être présents dans le sandbox de destination avant de copier les objets Decisioning :
+* The objects below must be present in the destination sandbox before copying Decisioning objects:
 
-   * les attributs de profil utilisés dans les objets Decisioning,
-   * Le groupe de champs des attributs d’offre personnalisés,
-   * Les schémas des flux de données utilisés pour les attributs de contexte dans les règles, le classement ou la limitation.
+   * Profile Attributes used across Decisioning objects,
+   * The field group of custom Offer Attributes,
+   * The schemas of Datastreams used for Context Attributes across Rules, Ranking or Capping.
 
-* La copie de sandbox pour les formules de classement avec des modèles d’IA n’est actuellement pas prise en charge.
+* Sandbox copy for ranking formulas with AI Models is currently not supported.
 
-* Lors de la copie d&#39;entités de prise de décision, veillez à copier les éléments de décision **avant** tout autre objet. Par exemple, si vous copiez une collection en premier et qu’il n’existe aucune offre dans le nouveau sandbox, cette nouvelle collection reste vide.
+* When copying Decisioning entities, make sure you copy decision items **before** any other object. For example, if you copy a collection first, and there are no offers in the new sandbox, then that new collection will remain empty. -->
 
 ### Fragments {#fragments}
 

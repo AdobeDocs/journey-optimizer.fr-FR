@@ -6,9 +6,9 @@ feature: Release Notes
 topic: Content Management
 description: Notes de mise à jour d’Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 8418b0c9251e090575671acb65f83bee911cd039
+source-git-commit: 25d48a675f49bca6818841bb45ccf31671225e0e
 workflow-type: tm+mt
-source-wordcount: '1154'
+source-wordcount: '1135'
 ht-degree: 37%
 
 ---
@@ -249,15 +249,13 @@ Les nouvelles fonctionnalités de cette version sont présentées ci-dessous.
 Les améliorations apportées à cette version sont répertoriées ci-dessous.
 
 
-* **Prise en charge de nouveaux objets pour la copie de sandbox**
+* **Nouvelle prise en charge des objets de campagne pour la copie de sandbox** - Date de disponibilité : 15 mai 2025
 
-   * **Campagnes** - Date de disponibilité : 15 mai 2025
+  Lors de la copie de campagnes sur plusieurs sandbox à l’aide des fonctionnalités d’exportation et d’importation de package, les dépendances suivantes sont désormais également copiées : configurations de canal, variantes et paramètres d’expérience, politiques de décision et éléments. [En savoir plus](../configuration/copy-objects-to-sandbox.md)
 
-     Lors de la copie de campagnes sur plusieurs sandbox à l’aide des fonctionnalités d’exportation et d’importation de package, les dépendances suivantes sont désormais également copiées : configurations de canal, variantes et paramètres d’expérience, politiques de décision et éléments. [En savoir plus](../configuration/copy-objects-to-sandbox.md)
+  <!--* **Decisioning** - Availability date: May 16, 2025
 
-   * **Decisioning** - Date de disponibilité : 16 mai 2025
-
-     Les objets de prise de décision peuvent désormais être copiés entre les sandbox, ce qui simplifie les workflows de test et de déploiement. [En savoir plus](../configuration/copy-objects-to-sandbox.md#decisioning)
+    Decisioning objects can now be copied between sandboxes, streamlining testing and deployment workflows. [Read more](../configuration/copy-objects-to-sandbox.md#decisioning)-->
 
 * **Dossiers pour les landing pages** - Date de disponibilité : 9 mai 2025
 
