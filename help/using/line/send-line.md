@@ -2,15 +2,16 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Vérifier et tester vos messages texte
-description: Découvrez comment vérifier et envoyer vos messages LINE dans Journey Optimizer
+description: Découvrez comment vérifier et envoyer vos messages LINE dans Journey Optimizer
 feature: Line
 topic: Content Management
 role: User
 level: Beginner
-source-git-commit: 8714ac6b2fd76ec859c358535fa322f0ac333a82
-workflow-type: tm+mt
+exl-id: fd8437c6-0052-4116-af60-5624569bda65
+source-git-commit: d11d389259057b20c3803643ca40266b9cb4302c
+workflow-type: ht
 source-wordcount: '252'
-ht-degree: 79%
+ht-degree: 100%
 
 ---
 
@@ -38,5 +39,4 @@ Vous devez vérifier les alertes dans la section supérieure de l’éditeur. Ce
 >
 > Si votre campagne est soumise à une politique de validation, vous devrez effectuer une demande d’approbation afin de pouvoir envoyer vos SMS. [En savoir plus](../test-approve/gs-approval.md)
 
-Lorsque votre message LINE est prêt, effectuez la configuration de votre [parcours ](../building-journeys/journey-gs.md) ou [campagne](../campaigns/create-campaign.md) pour l&#39;envoyer.
-
+Lorsque votre message LINE est prêt, finalisez la configuration de votre [parcours](../building-journeys/journey-gs.md) ou de votre [campagne](../campaigns/create-campaign.md) pour l’envoyer.

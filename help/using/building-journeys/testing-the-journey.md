@@ -10,9 +10,9 @@ level: Intermediate
 keywords: test, parcours, vérification, erreur, dépannage
 exl-id: 9937d9b5-df5e-4686-83ac-573c4eba983a
 source-git-commit: 0f783c57ba946866cb74c2b16e1807ff963cfbaf
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1768'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -72,7 +72,7 @@ Pour utiliser le mode test, procédez comme suit :
 * Pour optimiser les performances et empêcher l’utilisation des ressources obsolètes, tous les parcours en mode test qui n’ont pas été déclenchés pendant une semaine repassent au statut **Brouillon**.
 * Les événements déclenchés par le mode test sont stockés dans des jeux de données dédiés. Ces jeux de données sont libellés comme suit : `JOtestmode - <schema of your event>`
 * Lors du test de parcours comprenant plusieurs événements, vous devez déclencher chaque événement dans l’ordre. L’envoi d’un événement trop tôt (avant la fin du premier nœud d’attente) ou trop tard (après la temporisation configurée) ignore l’événement et envoie le profil vers un chemin de temporisation. Vérifiez toujours que les références aux champs de payload d’événement restent valides en envoyant la payload dans la fenêtre définie.
-* Assurez-vous que la fenêtre de choix [dates/heure de début et de fin](journey-properties.md#dates) configurée pour le parcours inclut l’heure actuelle lors du lancement du mode test. Dans le cas contraire, les événements de test déclenchés sont ignorés silencieusement.
+* Assurez-vous que la fenêtre de choix [Dates/heures de début et de fin](journey-properties.md#dates) configurée pour le parcours inclut l’heure actuelle lorsque vous lancez le mode de test. Dans le cas contraire, les événements de test déclenchés sont ignorés silencieusement.
 
 <!--
 * Fields from related entities are hidden from the test mode.
@@ -88,7 +88,7 @@ Pour utiliser le mode test, procédez comme suit :
 Utilisez le bouton **[!UICONTROL Déclencher un événement]** pour configurer un événement qui fera qu’un individu rejoint le parcours.
 
 
-### Prérequis {#trigger-events-prerequisites}
+### Conditions préalables {#trigger-events-prerequisites}
 
 Vous devez, au préalable, savoir quels profils sont identifiés comme profils de test dans Adobe Experience Platform. En effet, le mode test n’autorise ces profils que dans le parcours.
 

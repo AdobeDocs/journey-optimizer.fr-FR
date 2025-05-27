@@ -9,9 +9,9 @@ level: Experienced
 keywords: platform, lac de données, créer, lac, jeux de données, profil
 exl-id: 08633a79-5601-4e36-b8cf-080234956d99
 source-git-commit: b27ddcc88ca4b4209c9d29974a0b0d0dbe98cc94
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '678'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -22,7 +22,7 @@ Depuis février 2025, un mécanisme de sécurisation de la durée de vie (TTL) 
 * 90 jours pour les données dans la banque de profils
 * 13 mois pour les données du lac de données
 
-Cette modification sera déployée dans les **sandbox clients existants** au cours d’une phase ultérieure.
+Cette modification sera déployée sur les **sandbox client existants** dans une phase ultérieure.
 
 ## Jeux de données affectés {#datasets}
 
@@ -75,13 +75,13 @@ Les extensions de la durée de vie ne sont actuellement pas prises en charge. Ce
 
 >[!NOTE]
 >
->Les données stockées dans le profil sont soumises aux droits relatifs au volume total de données. Par conséquent, toute augmentation du stockage de données sur le profil suite à une extension de la durée de vie est comptabilisée dans les droits relatifs au volume total de données. [En savoir plus](https://experienceleague.adobe.com/docs/experience-platform/landing/license/total-data-volume.html?lang=fr){target=« _blank}
+>Les données stockées dans le profil sont soumises aux droits relatifs au volume total de données. Par conséquent, toute augmentation du stockage de données sur le profil suite à une extension de la durée de vie est comptabilisée dans les droits relatifs au volume total de données. [En savoir plus](https://experienceleague.adobe.com/docs/experience-platform/landing/license/total-data-volume.html?lang=fr){target=&quot;_blank}
 
 +++
 
 +++La clientèle peut-elle augmenter la durée de vie des données du jeu de données système de [!DNL Journey Optimizer] dans le lac de données ?
 
-Les extensions de la durée de vie ne sont actuellement pas prises en charge. Les clientes et clients peuvent exporter des données via les destinations pour conserver les données plus longtemps. [En savoir plus](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/export-datasets.html?lang=fr){target=« _blank}. En outre, les clientes et clients disposant de droits **[!DNL Data Distiller]** peuvent créer des jeux de données dérivés pour stocker les données dans le lac de données sans TTL. [En savoir plus](https://experienceleague.adobe.com/fr/docs/experience-platform/query/data-distiller/derived-datasets/overview){target=« _blank}
+Les extensions de la durée de vie ne sont actuellement pas prises en charge. Les clientes et clients peuvent exporter des données via les destinations pour conserver les données plus longtemps. [En savoir plus](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/export-datasets.html?lang=fr){target=&quot;_blank} En outre, les clientes et clients disposant de droits **[!DNL Data Distiller]** peuvent créer des jeux de données dérivés pour stocker les données dans le lac de données sans TTL. [En savoir plus](https://experienceleague.adobe.com/fr/docs/experience-platform/query/data-distiller/derived-datasets/overview){target=&quot;_blank}
 
 +++
 

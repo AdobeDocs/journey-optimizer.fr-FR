@@ -2,16 +2,16 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Créer un message LINE
-description: Découvrez comment créer un message LINE dans Journey Optimizer
+description: Découvrez comment créer un message LINE dans Journey Optimizer.
 feature: Line
 topic: Content Management
 role: User
 level: Beginner
 exl-id: a93d4dc9-f0e9-400c-b9a4-6cdac84390fd
 source-git-commit: 81cd7c2c8be26d760f369ecacc5859cf090234fc
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '563'
-ht-degree: 71%
+ht-degree: 100%
 
 ---
 
@@ -19,11 +19,11 @@ ht-degree: 71%
 
 ## Ajouter un message LINE {#create-line-journey-campaign}
 
-Parcourez les onglets ci-dessous pour savoir comment ajouter un message LINE dans une campagne ou un parcours.
+Accédez aux onglets ci-dessous pour savoir comment ajouter un message LINE dans une campagne ou un parcours.
 
 >[!BEGINTABS]
 
->[!TAB Ajouter un message LINE à un Parcours ]
+>[!TAB Ajouter un message LINE à un parcours]
 
 1. Ouvrez votre parcours, puis effectuez un glisser-déposer d’une activité **LINE** depuis la section **Actions** de la palette.
 
@@ -53,9 +53,9 @@ Vous pouvez maintenant commencer à concevoir le contenu de votre message SMS en
 
 1. Dans le champ **[!UICONTROL Espace de noms d’identité]**, choisissez l’espace de noms à utiliser pour identifier les personnes à partir de l’audience sélectionnée. [En savoir plus](../event/about-creating.md#select-the-namespace).
 
-1. Dans la section **[!UICONTROL Actions]**, choisissez le **[!UICONTROL LINE]** et sélectionnez ou créez une configuration.
+1. Dans la section **[!UICONTROL Actions]**, sélectionnez **[!UICONTROL LINE]** et sélectionnez ou créez une nouvelle configuration.
 
-   En savoir plus sur la configuration LINE dans [cette page](line-configuration.md).
+   Pour en savoir plus sur la configuration de LINE, consultez [cette page](line-configuration.md).
 
    ![](assets/campaign-line-1.png)
 
@@ -76,11 +76,11 @@ Vous pouvez maintenant commencer à concevoir le contenu de votre message texte 
 
 >[!ENDTABS]
 
-## Définition de votre contenu LINE{#line-content}
+## Définir votre contenu LINE{#line-content}
 
 Pour configurer votre contenu LINE, procédez comme suit.
 
-1. Dans l’écran de configuration des parcours ou des campagnes, cliquez sur le bouton **[!UICONTROL Modifier le contenu]** pour configurer le contenu du message texte.
+1. Dans l’écran de configuration des parcours ou des campagnes, cliquez sur le bouton **[!UICONTROL Modifier le contenu]** pour configurer le contenu du SMS.
 
 1. Cliquez sur **[!UICONTROL Modifier le code]** pour modifier le contenu JSON.
 
@@ -88,8 +88,8 @@ Pour configurer votre contenu LINE, procédez comme suit.
 
 1. Cliquez sur **[!UICONTROL Enregistrer]** et vérifiez votre message dans l’aperçu.
 
-1. Utilisez le bouton **[!UICONTROL Simuler du contenu]** pour prévisualiser le contenu de votre message LINE et le contenu personnalisé.
+1. Cliquez sur le bouton **[!UICONTROL Simuler le contenu]** pour prévisualiser le contenu de votre message LINE et le contenu personnalisé.
 
 Une fois que vous avez effectué vos tests et validé le contenu, vous pouvez envoyer votre message LINE à votre audience. Ces étapes sont présentées sur [cette page](send-line.md).
 
-Une fois envoyé, vous pouvez mesurer l’impact de votre LINE dans les rapports Campagne ou Parcours. Pour plus d’informations sur les rapports, consultez [cette section](../reports/campaign-global-report-cja.md).
+Après leur envoi, vous pouvez mesurer l’impact de vos messages LINE dans les rapports de campagne ou de parcours. Pour plus d’informations sur les rapports, consultez [cette section](../reports/campaign-global-report-cja.md).

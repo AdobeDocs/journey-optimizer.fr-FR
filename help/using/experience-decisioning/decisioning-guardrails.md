@@ -6,9 +6,9 @@ role: User
 level: Intermediate
 exl-id: 73548973-ff8d-4d6c-b383-dd3679fa159a
 source-git-commit: e539d694e8fb91b6a8c7ba7ff5a2bb0905651f81
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '209'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
@@ -22,8 +22,8 @@ La liste complète des mécanismes de sécurisation et limitations de [!DNL Jour
 
 | Mécanisme de sécurisation | Limite |
 | ------- | ------- |
-| Requête d’API d’expérience basée sur le code avec politique de décision utilisant la segmentation Edge | 1 500 |
-| Requête d’API d’expérience basée sur du code avec politique de décision n’utilisant pas la segmentation Edge | 5 000 |
+| Requête API d’expérience basée sur du code avec politique de décision utilisant la segmentation Edge | 1 500 |
+| Requête API d’expérience basée sur du code avec politique de décision n’utilisant pas la segmentation Edge | 5 000 |
 
 ## Collections d’éléments
 

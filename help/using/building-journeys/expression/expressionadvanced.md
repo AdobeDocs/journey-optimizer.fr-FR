@@ -9,9 +9,9 @@ level: Experienced
 keywords: éditeur d’expression, données, parcours
 exl-id: 9ea6cc3a-6a1b-4e8f-82ff-f8b1812617d7
 source-git-commit: e539d694e8fb91b6a8c7ba7ff5a2bb0905651f81
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '734'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -73,7 +73,7 @@ Dans la partie gauche de l’écran, les champs et les fonctions disponibles son
 
   >[!CAUTION]
   >
-  >L’utilisation d’événements d’expérience dans des expressions/conditions de parcours est prise en charge, mais non recommandée. Si votre cas d’utilisation nécessite l’utilisation d’événements d’expérience, envisagez d’autres méthodes telles que [attributs calculés](../../audience/computed-attributes.md) ou la création d’un segment à l’aide des événements et l’incorporation de ce segment dans [`inAudience` expressions](../../building-journeys/functions/functioninaudience.md).
+  >L’utilisation d’événements d’expérience dans des expressions/conditions de parcours est prise en charge, mais non recommandée. Si votre cas d’usage nécessite l’utilisation d’événements d’expérience, envisagez des méthodes alternatives telles que les [attributs calculés](../../audience/computed-attributes.md) ou la création d’un segment basé sur ces événements, que vous pourrez ensuite intégrer dans des [`inAudience`expressions](../../building-journeys/functions/functioninaudience.md).
 
 * **[!UICONTROL Audiences]** : si vous avez déposé un événement de **[!UICONTROL qualification d’audience]**, choisissez l’audience à utiliser dans votre expression. [En savoir plus](../condition-activity.md#using-a-segment)
 * **[!UICONTROL Sources de données]** : choisissez dans la liste des champs disponibles issue des groupes de champs de vos sources de données. [En savoir plus](../../datasource/about-data-sources.md)

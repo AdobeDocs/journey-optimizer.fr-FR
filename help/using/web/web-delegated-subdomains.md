@@ -9,9 +9,9 @@ level: Experienced
 keywords: web, sous-domaines, configuration
 exl-id: 6e00466d-4ce5-4d80-89ff-c7331a5ab158
 source-git-commit: 8e5a904f9310385f5a8186159dedde9942624268
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1089'
-ht-degree: 73%
+ht-degree: 100%
 
 ---
 
@@ -32,11 +32,11 @@ ht-degree: 73%
 >title="Définir un sous-domaine web"
 >abstract="Sélectionnez un sous-domaine dans la liste des sous-domaines délégués à Adobe. Vous pouvez définir ce sous-domaine web comme sous-domaine par défaut, mais un seul sous-domaine par défaut peut être utilisé à la fois."
 
-## Prise en main des sous-domaines web {#gs-web-subdomains}
+## Commencer avec les sous-domaines web {#gs-web-subdomains}
 
 Lors de la création d’expériences web, si vous ajoutez du contenu provenant de la bibliothèque [Adobe Experience Manager Assets](../integrations/assets.md), vous devez configurer le sous-domaine qui sera utilisé pour publier ce contenu.
 
-Vous pouvez utiliser un sous-domaine déjà délégué à Adobe ou en configurer un autre. En savoir plus sur la délégation de sous-domaines à Adobe dans [cette section](../configuration/delegate-subdomain.md).
+Vous pouvez utiliser un sous-domaine déjà délégué à Adobe ou en configurer un autre. Pour en savoir plus sur la délégation de sous-domaines à Adobe, consultez [cette section](../configuration/delegate-subdomain.md).
 
 La configuration de sous-domaines web est **commune à tous les environnements**. Par conséquent :
 
@@ -48,9 +48,9 @@ Vous pouvez créer plusieurs sous-domaines web, mais seul le sous-domaine **par 
 
 ## Accéder à des sous-domaines web et les gérer {#access-web-subdomains}
 
-Pour accéder aux sous-domaines pour les expériences web, procédez comme suit :
+Pour accéder aux sous-domaines pour les expériences web, procédez comme suit :
 
-1. Accédez au menu **[!UICONTROL Administration]** > **[!UICONTROL Canaux]**, puis sélectionnez **[!UICONTROL Paramètres web]** > **[!UICONTROL Sous-domaines web]**. Tous les sous-domaines configurés avec la sandbox actuelle s’affichent.
+1. Accédez au menu **[!UICONTROL Administration]** > **[!UICONTROL Canaux]**, puis sélectionnez **[!UICONTROL Paramètres web]** > **[!UICONTROL Sous-domaines web]**. Tous les sous-domaines configurés avec la sandbox actuelle s’affichent.
 
    ![](assets/web-access-subdomains.png)
 
@@ -66,7 +66,7 @@ Pour accéder aux sous-domaines pour les expériences web, procédez comme suit 
 
 ## Utiliser un sous-domaine existant {#web-use-existing-subdomain}
 
-Pour utiliser un sous-domaine déjà délégué à Adobe, procédez comme suit :
+Pour utiliser un sous-domaine déjà délégué à Adobe, procédez comme suit :
 
 1. Accédez au menu **[!UICONTROL Administration]** > **[!UICONTROL Canaux]**, puis sélectionnez **[!UICONTROL Paramètres web]** > **[!UICONTROL Sous-domaines web]**.
 
@@ -99,9 +99,9 @@ Pour utiliser un sous-domaine déjà délégué à Adobe, procédez comme suit :
 >title="Générer l’enregistrement DNS correspondant"
 >abstract="Pour configurer un nouveau sous-domaine web, vous devez copier les informations du serveur de noms Adobe affichées dans l’interface de Journey Optimizer et les coller dans votre solution d’hébergement de domaine pour générer l’enregistrement DNS correspondant. Une fois les vérifications effectuées, le sous-domaine est prêt à être utilisé pour publier du contenu provenant de la bibliothèque Adobe Experience Manager Assets."
 
-Par défaut, [!DNL Journey Optimizer] vous permet de déléguer **jusqu&#39;à 10 sous-domaines** au total (couvrant à la fois les canaux e-mail et web). Cependant, en fonction de votre contrat de licence, vous pouvez déléguer jusqu’à 100 sous-domaines. Contactez votre personne référente chez Adobe pour connaître le nombre de sous-domaines auxquels vous avez droit.
+Par défaut, [!DNL Journey Optimizer] vous permet de déléguer **jusqu’à 10 sous-domaines** (canaux e-mail et web inclus). Cependant, en fonction de votre contrat de licence, vous pouvez déléguer jusqu’à 100 sous-domaines. Contactez votre personne référente chez Adobe pour connaître le nombre de sous-domaines auxquels vous avez droit.
 
-Pour configurer un nouveau sous-domaine, procédez comme suit :
+Pour configurer un nouveau sous-domaine, procédez comme suit :
 
 1. Accédez au menu **[!UICONTROL Administration]** > **[!UICONTROL Canaux]**, puis sélectionnez **[!UICONTROL Paramètres web]** > **[!UICONTROL Sous-domaines web]**.
 
@@ -139,7 +139,7 @@ Pour configurer un nouveau sous-domaine, procédez comme suit :
 
 1. Une fois la délégation de sous-domaine envoyée, le sous-domaine s&#39;affiche dans la liste avec le statut **[!UICONTROL Traitement]**. Pour en savoir plus sur les statuts des sous-domaines, consultez [cette section](../configuration/about-subdomain-delegation.md#access-delegated-subdomains).<!--Same statuses?-->
 
-   Avant de pouvoir utiliser ce sous-domaine pour envoyer des messages web, vous devez attendre qu’Adobe effectue les vérifications nécessaires, ce qui peut prendre jusqu’**4 heures**.
+   Avant d’utiliser ce sous-domaine pour envoyer des messages web, vous devez attendre qu’Adobe effectue les vérifications nécessaires, ce qui peut prendre **jusqu’à 4 heures**.
 
 1. Une fois les vérifications effectuées, le sous-domaine obtient le statut **[!UICONTROL Succès]**. Vous pouvez à présent l’utiliser pour créer des configurations de canal web.
 
@@ -150,19 +150,19 @@ Only a subdomain with the **[!UICONTROL Success]** status can be set as default.
 You cannot delete a subdomain with the **[!UICONTROL Processing]** status.
 -->
 
-## Annulation de la délégation d’un sous-domaine {#undelegate-subdomain}
+## Annuler la délégation d’un sous-domaine {#undelegate-subdomain}
 
-Si vous souhaitez annuler la délégation d’un sous-domaine web, contactez votre représentant Adobe.
+Si vous souhaitez annuler la délégation d’un sous-domaine web, contactez votre représentant ou représentante Adobe.
 
-Cependant, vous devez effectuer plusieurs étapes dans l’interface utilisateur avant de contacter Adobe.
+Cependant, vous devez suivre plusieurs étapes dans l’interface d’utilisation avant de contacter Adobe.
 
 >[!NOTE]
 >
->Vous pouvez uniquement annuler la délégation de sous-domaines avec le statut **[!UICONTROL Succès]**. Les sous-domaines avec les statuts **[!UICONTROL Brouillon]** et **[!UICONTROL Échec]** peuvent simplement être supprimés de l’interface utilisateur.
+>Vous pouvez uniquement annuler la délégation de sous-domaines ayant le statut **[!UICONTROL Succès]**. Les sous-domaines ayant le statut **[!UICONTROL Brouillon]** ou **[!UICONTROL Échec]** peuvent simplement être supprimés de l’interface d’utilisation.
 
-Tout d’abord, effectuez les étapes suivantes dans [!DNL Journey Optimizer] :
+Tout d’abord, effectuez les étapes suivantes dans [!DNL Journey Optimizer] :
 
-1. Désactivez toutes les configurations de canal associées au sous-domaine. [Voici comment procéder](../configuration/channel-surfaces.md#deactivate-a-surface)
+1. Désactivez toutes les configurations de canaux associées au sous-domaine. [Voici comment procéder](../configuration/channel-surfaces.md#deactivate-a-surface)
 
 <!--
 1. If the web subdomain is using an email subdomain that was [already delegated](#lp-use-existing-subdomain) to Adobe, undelegate the email subdomain. [Learn how](../configuration/delegate-subdomain.md#undelegate-subdomain)-->
@@ -171,16 +171,16 @@ Tout d’abord, effectuez les étapes suivantes dans [!DNL Journey Optimizer] :
 
 1. Arrêtez les parcours actifs associés aux sous-domaines. [Voici comment procéder](../building-journeys/end-journey.md#stop-journey)
 
-1. Si le sous-domaine web était un [nouveau sous-domaine délégué](#web-configure-new-subdomain), supprimez les entrées DNS associées à ce sous-domaine.
+1. Si le sous-domaine web était un [nouveau sous-domaine délégué](#web-configure-new-subdomain), supprimez les entrées DNS qui lui sont associées.
 
-Une fois cette opération terminée, contactez votre représentant Adobe avec le sous-domaine dont vous souhaitez annuler la délégation.
+Une fois ces étapes terminées, contactez votre représentant ou représentante Adobe en indiquant le sous-domaine pour lequel vous souhaitez annuler la délégation.
 
-Une fois que votre demande est gérée par Adobe, le domaine non délégué ne s’affiche plus sur la page d’inventaire des sous-domaines.
+Une fois que votre demande est gérée par Adobe, le domaine dont la délégation a été annulée ne s’affiche plus sur la page d’inventaire des sous-domaines.
 
 >[!CAUTION]
 >
->Après la suppression de la délégation d’un sous-domaine :
+>Après l’annulation de la délégation d’un sous-domaine :
 >
 >   * Vous ne pouvez pas réactiver les configurations de canal qui utilisaient ce sous-domaine.
 >
->   * Vous ne pouvez pas déléguer à nouveau le sous-domaine exact via l’interface utilisateur. Si vous souhaitez le faire, contactez votre représentant ou représentante Adobe.
+>   * Vous ne pouvez pas déléguer à nouveau le sous-domaine exact via l’interface d’utilisation. Si vous souhaitez le faire, contactez votre représentant ou représentante Adobe.

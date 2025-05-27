@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Utilisation et affectation de sandbox
+title: Utiliser et attribuer des sandbox
 description: Découvrir comment gérer les sandbox
 feature: Sandboxes
 topic: Administration
@@ -10,19 +10,19 @@ level: Experienced
 keywords: sandbox, virtuels, environnements, organisation, platform
 exl-id: 14f80d5d-0840-4b79-9922-6d557a7e1247
 source-git-commit: d3bae15a3b9ae53c4f520a3867026c47938bcd62
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '329'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
-# Utilisation et affectation de sandbox {#sandboxes}
+# Utiliser et attribuer des sandbox {#sandboxes}
 
 ## Utiliser des sandbox {#using-sandbox}
 
-[!DNL Journey Optimizer] vous permet de partitionner votre instance en environnements virtuels séparés appelés sandbox. Les sandbox sont affectées par le biais de rôles dans les autorisations. [Découvrez comment affecter des sandbox](permissions.md#create-product-profile).
+[!DNL Journey Optimizer] vous permet de diviser votre instance en environnements virtuels séparés appelés sandbox. Les sandbox sont affectées par le biais de rôles dans les autorisations. [Découvrez comment affecter des sandbox](permissions.md#create-product-profile).
 
-[!DNL Journey Optimizer] reflète les sandbox Adobe Experience Platform qui ont été créés pour une organisation donnée. Vous pouvez créer ou réinitialiser des sandbox Adobe Experience Platform à partir de votre instance Adobe Experience Platform. [Pour en savoir plus, consultez le guide d’utilisation des sandbox](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/user-guide.html?lang=fr){target="_blank"}.
+[!DNL Journey Optimizer] reflète les sandbox Adobe Experience Platform qui ont été créés pour une organisation donnée. Vous pouvez créer ou réinitialiser des sandbox Adobe Experience Platform à partir de votre instance Adobe Experience Platform. [Pour en savoir plus, consultez le guide d’utilisation des sandbox](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/user-guide.html?lang=fr){target="_blank"}.
 
 Le sélecteur de sandbox se trouve dans le coin supérieur droit de votre écran, à côté du nom de votre organisation. Pour passer d’un sandbox à un autre, cliquez sur le sandbox actif dans le sélecteur et sélectionnez-en un autre dans la liste déroulante.
 
@@ -70,4 +70,4 @@ Notez que pour que votre contenu soit synchronisé avec le sandbox correct, vous
 
 Découvrez ce que sont les sandbox et comment faire la distinction entre les sandbox de développement et de production. Découvrez comment créer, réinitialiser et supprimer des sandbox.
 
->[!VIDEO](https://video.tv.adobe.com/v/3416655?quality=12&captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/334355?quality=12)

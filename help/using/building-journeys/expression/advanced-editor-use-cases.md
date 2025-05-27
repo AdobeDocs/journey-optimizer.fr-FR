@@ -9,9 +9,9 @@ level: Experienced
 keywords: expression, condition, cas d’utilisation, événements
 exl-id: 753ef9f4-b39d-4de3-98ca-e69a1766a78b
 source-git-commit: e539d694e8fb91b6a8c7ba7ff5a2bb0905651f81
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '535'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -21,7 +21,7 @@ L’éditeur d’expression avancé sert à créer des conditions pour filtrer l
 
 >[!CAUTION]
 >
->L’utilisation d’événements d’expérience dans des expressions/conditions de parcours est prise en charge, mais non recommandée. Si votre cas d’utilisation nécessite l’utilisation d’événements d’expérience, envisagez d’autres méthodes telles que [attributs calculés](../../audience/computed-attributes.md) ou la création d’un segment à l’aide des événements et l’incorporation de ce segment dans [`inAudience` expressions](../../building-journeys/functions/functioninaudience.md).
+>L’utilisation d’événements d’expérience dans des expressions/conditions de parcours est prise en charge, mais non recommandée. Si votre cas d’usage nécessite l’utilisation d’événements d’expérience, envisagez des méthodes alternatives telles que les [attributs calculés](../../audience/computed-attributes.md) ou la création d’un segment basé sur ces événements, que vous pourrez ensuite intégrer dans des [`inAudience`expressions](../../building-journeys/functions/functioninaudience.md).
 
 
 ## Création de conditions pour les événements d’expérience

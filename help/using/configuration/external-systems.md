@@ -9,9 +9,9 @@ level: Beginner
 keywords: externe, API, optimizer, limitation
 exl-id: 27859689-dc61-4f7a-b942-431cdf244455
 source-git-commit: e3ed3d2d662d76c022a7820f3771289b14c8b8b8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1374'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -33,7 +33,7 @@ Lorsque Journey Optimizer exécute un appel à une API externe, les mécanismes
 
 >[!TIP]
 >
->Nous vous recommandons de laisser au moins une minute de mémoire tampon entre la période d’expiration du jeton de l’API externe et votre paramètre de [`cacheDuration` Journey Optimizer](../datasource/external-data-sources.md#custom-authentication-access-token) en particulier sous de lourdes charges de travail, afin d’éviter les incohérences d’expiration et les erreurs 401.
+>Nous vous recommandons de laisser au moins une minute de buffer entre la période d’expiration du jeton de l’API externe et votre paramètre [`cacheDuration` de Journey Optimizer](../datasource/external-data-sources.md#custom-authentication-access-token), en particulier en cas de lourdes charges de travail, afin d’éviter les décalages d’expiration et les erreurs 401.
 
 ## API de plafonnement et de limitation {#capping}
 

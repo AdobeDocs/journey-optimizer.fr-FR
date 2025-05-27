@@ -9,9 +9,9 @@ role: User
 level: Beginner
 exl-id: 327de13a-1c99-4d5e-86cf-8180fb7aaf23
 source-git-commit: a487355df0229a1e94375025eae0babc9405f087
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '236'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 90%
 
 >[!NOTE]
 >
->À compter de mars 2025, les modèles de contenu de type HTML seront désormais obsolètes. Vous pouvez toujours utiliser les modèles de contenu HTML existants précédemment créés dans [!DNL Journey Optimizer].
+>Depuis mars 2025, les modèles de contenu de type HTML sont devenus obsolètes. Vous pouvez toujours utiliser les modèles de contenu HTML existants précédemment créés dans [!DNL Journey Optimizer].
 
 Pour accélérer et améliorer le processus de conception, vous pouvez créer des modèles autonomes pour réutiliser facilement du contenu personnalisé dans les campagnes et parcours [!DNL Journey Optimizer].
 
@@ -48,4 +48,4 @@ Pour créer, modifier et supprimer des modèles de contenu, vous devez disposer 
 
 Découvrez comment créer, modifier et utiliser des modèles de contenu dans [!DNL Journey Optimizer].
 
->[!VIDEO](https://video.tv.adobe.com/v/3418586/?quality=12&captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/3413743/?quality=12)

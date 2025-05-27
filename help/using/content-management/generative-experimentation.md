@@ -1,32 +1,32 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Expérience de contenu avec l’assistant d’IA dans Journey Optimizer
-description: Expérience de contenu avec l’assistant d’IA dans Journey Optimizer
+title: Expérience de contenu avec l’Assistant IA dans Journey Optimizer
+description: Expérience de contenu avec l’Assistant IA dans Journey Optimizer
 feature: Content Assistant
 topic: Content Management
 role: User
 level: Beginner
 exl-id: c47af613-0529-4922-bd0d-5ef4cc619305
 source-git-commit: 9d87d133bb580ebed94a265beded5895f7fd0301
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '249'
-ht-degree: 71%
+ht-degree: 100%
 
 ---
 
-# Expérience de contenu avec l’assistant d’IA{#generative-experimentation}
+# Expérience de contenu avec l’Assistant IA{#generative-experimentation}
 
 >[!IMPORTANT]
 >
 >Avant de commencer à utiliser cette fonctionnalité, lisez la section connexe [Mécanismes de sécurisation et limitations](gs-generative.md#generative-guardrails).
 ></br>
 >
->Vous devez accepter un [contrat d’utilisateur](https://www.adobe.com/fr/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html) avant de pouvoir utiliser l’assistant AI dans Journey Optimizer. Pour plus d’informations, contactez votre représentant ou représentante Adobe.
+>Vous devez accepter un [contrat d’utilisation](https://www.adobe.com/fr/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html) avant de pouvoir utiliser l’Assistant IA dans Journey Optimizer. Pour plus d’informations, contactez votre représentant ou représentante Adobe.
 
-Une fois vos messages conçus et personnalisés, améliorez votre contenu à l’aide de l’assistant AI dans Adobe Journey Optimizer, qui inclut la fonctionnalité Expérience de contenu . Cet outil vous permet de définir plusieurs traitements de diffusion, différents contenus, afin de mesurer les performances de votre audience cible.
+Une fois que vous avez conçu et personnalisé vos messages, améliorez votre contenu avec l’Assistant IA dans Adobe Journey Optimizer, qui inclut la fonctionnalité d’expérience de contenu. Cet outil vous permet de définir plusieurs traitements de diffusion, différents contenus, afin de mesurer les performances de votre audience cible.
 
-1. Créez votre campagne et utilisez l’assistant AI pour générer vos variantes.
+1. Créez votre campagne et utilisez l’Assistant IA pour générer des variantes.
 
    Dans cet exemple, nous avons généré un e-mail de confirmation d’abonnement avec un code promotionnel.
 

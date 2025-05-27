@@ -10,9 +10,9 @@ level: Experienced
 keywords: liste autorisée, liste, sécurisé, configuration
 exl-id: 70ab8f57-c132-4de1-847b-11f0ab14f422
 source-git-commit: 2af0e9237bbcc79456a31042ed8e42233bbccac3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1179'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
@@ -66,7 +66,7 @@ Pour activer la liste autorisée, procédez comme suit.
 
    >[!NOTE]
    >
-   >Une fois la liste autorisée activée, un délai de 10 minutes est nécessaire avant qu’elle ne prenne effet dans vos parcours et campagnes. De même, la mise à jour de la liste de liste autorisée et de suppression peut prendre jusqu’à 10 minutes.
+   >Une fois la liste autorisée activée, elle prend effet dans vos parcours et campagnes après un délai de 10 minutes. De même, la mise à jour de la liste autorisée et de la liste de suppression peut prendre jusqu’à 10 minutes.
 
 La logique de liste autorisée s’applique lorsque la fonctionnalité est activée. En savoir plus dans [cette section](#logic).
 
@@ -90,7 +90,7 @@ Pour désactiver la liste autorisée, procédez comme suit.
 
    >[!NOTE]
    >
-   >Une fois la liste autorisée désactivée, un délai de 10 minutes est nécessaire avant qu’elle ne prenne effet dans vos parcours et campagnes. De même, la mise à jour de la liste de liste autorisée et de suppression peut prendre jusqu’à 10 minutes.
+   >Une fois la liste autorisée désactivée, elle prend effet dans vos parcours et campagnes après un délai de 10 minutes. De même, la mise à jour de la liste autorisée et de la liste de suppression peut prendre jusqu’à 10 minutes.
 
 La logique de liste autorisée ne s’applique pas lorsque la fonction est désactivée. En savoir plus dans [cette section](#logic).
 
@@ -152,7 +152,7 @@ Pour renseigner la liste autorisée, vous pouvez également appeler l’API de s
 
 Vous pouvez effectuer les opérations **Ajouter**, **Supprimer** et **Obtenir**.
 
-Pour en savoir plus sur l’émission d’appels d’API, consultez la documentation de référence API Adobe Experience Platform[&#128279;](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-apis/api-guide.html?lang=fr){target="_blank"} .
+En savoir plus sur les appels API dans la documentation de référence [Adobe Experience Platform API](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-apis/api-guide.html?lang=fr){target="_blank"}.
 
 ## Télécharger la liste autorisée {#download-allowed-list}
 
@@ -207,7 +207,7 @@ Lorsque la liste autorisée est [désactivée](#deactivate-allow-list), tous les
 
 ## Rapport d’exclusion {#reporting}
 
-Lorsque la liste autorisée est active, vous pouvez récupérer les adresses e-mail ou les domaines qui ont été exclus d’un envoi, car ils ne figuraient pas sur la liste autorisée. Pour ce faire, vous pouvez utiliser le [service de requête Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html?lang=fr){target="_blank"} pour effectuer les appels API ci-dessous.
+Lorsque la liste autorisée est active, vous pouvez récupérer les adresses e-mail ou les domaines qui ont été exclus d’un envoi, car ils ne figuraient pas sur la liste autorisée. Pour ce faire, vous pouvez utiliser le [service de requête Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html?lang=fr){target="_blank"} pour effectuer les appels API ci-dessous.
 
 Pour obtenir le **nombre d’e-mails** qui n’ont pas été envoyés car les destinataires n’étaient pas sur la liste autorisée, utilisez la requête suivante :
 

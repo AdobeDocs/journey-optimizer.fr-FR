@@ -1,34 +1,34 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Génération de SMS avec l’assistant AI
-description: Commencer à générer du contenu SMS avec l’assistant AI dans Journey Optimizer
+title: Génération de SMS avec l’Assistant IA
+description: Commencer à générer du contenu SMS avec l’Assistant IA dans Journey Optimizer
 feature: Content Assistant
 topic: Content Management
 role: User
 level: Beginner
 exl-id: 5fd1cc3a-c023-4e8e-bfac-9a86bd33bbb3
 source-git-commit: 9d87d133bb580ebed94a265beded5895f7fd0301
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '989'
-ht-degree: 80%
+ht-degree: 100%
 
 ---
 
-# Génération de SMS avec l’assistant AI dans Journey Optimizer {#generative-sms}
+# Génération de SMS avec l’Assistant IA dans Journey Optimizer {#generative-sms}
 
 >[!IMPORTANT]
 >
 >Avant de commencer à utiliser cette fonctionnalité, lisez la section connexe [Mécanismes de sécurisation et limitations](gs-generative.md#generative-guardrails).
 ></br>
 >
->Vous devez accepter un [contrat d’utilisateur](https://www.adobe.com/fr/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html) avant de pouvoir utiliser l’assistant AI dans Journey Optimizer. Pour plus d’informations, contactez votre représentant ou représentante Adobe.
+>Vous devez accepter un [contrat d’utilisation](https://www.adobe.com/fr/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html) avant de pouvoir utiliser l’Assistant IA dans Journey Optimizer. Pour plus d’informations, contactez votre représentant ou représentante Adobe.
 
-Après avoir conçu et adapté vos SMS pour qu’ils correspondent aux préférences de votre audience, améliorez votre communication à l’aide de l’assistant AI dans Journey Optimizer.
+Après avoir conçu et personnalisé vos SMS en fonction des préférences de votre audience, améliorez vos communications avec l’Assistant IA dans Journey Optimizer.
 
 Cette ressource offre des recommandations pertinentes pour affiner votre contenu, permettant à vos messages d’avoir un impact et de générer un engagement maximal.
 
-Explorez les onglets ci-dessous pour savoir comment utiliser l’assistant AI dans Journey Optimizer.
+Explorez les onglets ci-dessous pour savoir comment utiliser l’Assistant IA dans Journey Optimizer.
 
 >[!BEGINTABS]
 
@@ -65,7 +65,7 @@ Explorez les onglets ci-dessous pour savoir comment utiliser l’assistant AI da
 
    ![](assets/sms-genai-3.png){zoomable="yes"}
 
-1. Dans le menu **[!UICONTROL Ressources de marque]**, cliquez sur **[!UICONTROL Charger une ressource de marque]** pour ajouter une ressource de marque contenant du contenu pouvant fournir un assistant d’IA contextuel supplémentaire ou sélectionnez-en une précédemment chargée.
+1. Depuis le menu **[!UICONTROL Ressources de marque]**, cliquez sur **[!UICONTROL Charger une ressource de marque]** pour ajouter toute ressource de marque incluant du contenu pouvant fournir du contexte supplémentaire à l’Assistant IA ou sélectionnez-en une chargée précédemment.
 
    Les fichiers précédemment chargés sont disponibles dans la liste déroulante **[!UICONTROL Ressources de marque chargées]**. Il vous suffit d’activer/de désactiver les ressources que vous souhaitez inclure dans votre génération.
 
@@ -79,7 +79,7 @@ Explorez les onglets ci-dessous pour savoir comment utiliser l’assistant AI da
 
    * **[!UICONTROL Reformuler]** : l’assistant IA peut reformuler votre message de différentes manières en conservant une écriture soignée et attrayante pour diverses audiences.
 
-   * **[!UICONTROL Utiliser un langage plus simple]** : utilisez l’assistant d’IA pour simplifier votre langue, en assurant la clarté et l’accessibilité pour une audience plus large.
+   * **[!UICONTROL Utiliser un langage simplifié]** : utilisez l’Assistant IA pour simplifier votre langage, garantissant ainsi clarté et accessibilité pour une audience plus large.
 
    Vous pouvez également modifier le **[!UICONTROL ton]** et la **[!UICONTROL stratégie de communication]** de votre texte.
 
@@ -109,7 +109,7 @@ Lorsque vous avez défini le contenu, l’audience et le planning, vous pouvez p
 
    ![](assets/sms-text-genai-1.png){zoomable="yes"}
 
-1. Activez l’option **[!UICONTROL Utiliser du contenu de référence]** pour que l’assistant AI personnalise le nouveau contenu en fonction du contenu sélectionné.
+1. Activez l’option **[!UICONTROL Utiliser le contenu de référence]** pour que l’Assistant IA personnalise le nouveau contenu en fonction du contenu sélectionné.
 
 1. Sélectionnez votre **[!UICONTROL Marque]** pour vous assurer que le contenu généré par l’IA correspond aux spécifications de celle-ci. [En savoir plus](brands.md) sur les marques.
 
@@ -130,7 +130,7 @@ Lorsque vous avez défini le contenu, l’audience et le planning, vous pouvez p
 
    ![](assets/sms-text-genai-3.png){zoomable="yes"}
 
-1. Dans le menu **[!UICONTROL Ressources de marque]**, cliquez sur **[!UICONTROL Charger une ressource de marque]** pour ajouter une ressource de marque contenant du contenu pouvant fournir un assistant d’IA contextuel supplémentaire ou sélectionnez-en une précédemment chargée.
+1. Depuis le menu **[!UICONTROL Ressources de marque]**, cliquez sur **[!UICONTROL Charger une ressource de marque]** pour ajouter toute ressource de marque incluant du contenu pouvant fournir du contexte supplémentaire à l’Assistant IA ou sélectionnez-en une chargée précédemment.
 
    Les fichiers précédemment chargés sont disponibles dans la liste déroulante **[!UICONTROL Ressources de marque chargées]**. Il vous suffit d’activer/de désactiver les ressources que vous souhaitez inclure dans votre génération.
 
@@ -144,7 +144,7 @@ Lorsque vous avez défini le contenu, l’audience et le planning, vous pouvez p
 
    * **[!UICONTROL Reformuler]** : l’assistant IA peut reformuler votre message de différentes manières en conservant une écriture soignée et attrayante pour diverses audiences.
 
-   * **[!UICONTROL Utiliser un langage plus simple]** : utilisez l’assistant d’IA pour simplifier votre langue, en assurant la clarté et l’accessibilité pour une audience plus large.
+   * **[!UICONTROL Utiliser un langage simplifié]** : utilisez l’Assistant IA pour simplifier votre langage, garantissant ainsi clarté et accessibilité pour une audience plus large.
 
    ![](assets/sms-text-genai-4.png){zoomable="yes"}
 

@@ -8,9 +8,9 @@ level: Beginner
 keywords: in-app, message, création, commencer
 exl-id: b3b79fe2-7db3-490d-9c3d-87267aa55eea
 source-git-commit: da7d895fcc724e6b1c0d6480f6a8693037a03752
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2056'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -67,7 +67,7 @@ Pour ajouter un message in-app dans un parcours, procédez comme suit :
       | Places | Entrer dans le POI | Déclenché par le SDK Places lorsque votre client ou cliente accède au point ciblé (POI) configuré. |
       | Places | Quitter le POI | Déclenché par le SDK Places lorsque votre client ou cliente quitte le point ciblé (POI) configuré. |
 
-      +++
++++
 
    1. Cliquez sur **[!UICONTROL Ajouter une condition]** si vous souhaitez que le déclencheur prenne en compte plusieurs événements ou critères.
 
@@ -99,7 +99,7 @@ Pour ajouter un message in-app dans un parcours, procédez comme suit :
       | Places | Dernier point ciblé accédé | Déclenché par le SDK Places en fonction du dernier point ciblé accédé par votre cliente ou client. |
       | Places | Dernier point ciblé quitté | Déclenché par le SDK Places en fonction du dernier point ciblé quitté par votre cliente ou client. |
 
-      +++
++++
 
       ![](assets/in_app_create_8.png)
 
@@ -121,7 +121,7 @@ Pour plus d’informations sur la configuration de votre parcours, consultez cet
 
 >[!NOTE]
 >
->Si vous souhaitez afficher un message in-app peu de temps après l’envoi d’une notification push, utilisez une activité **Attente** pour permettre à la payload du message in-app de se propager. En règle générale, une attente de 5 à 15 minutes est recommandée, mais les heures exactes peuvent varier en fonction de la complexité de la payload et des besoins de personnalisation.
+>Si vous souhaitez afficher un message in-app peu de temps après l’envoi d’une notification push, utilisez une activité **Attente** pour permettre à la payload du message in-app de se propager. En règle générale, une attente de 5 à 15 minutes est recommandée, mais les heures exactes peuvent varier en fonction de la complexité de la payload et des besoins de personnalisation.
 
 >[!TAB Ajouter un message in-app à une campagne]
 
@@ -173,7 +173,7 @@ Pour ajouter un message in-app dans une campagne, procédez comme suit :
       | Places | Entrer dans le POI | Déclenché par le SDK Places lorsque votre client ou cliente accède au point ciblé (POI) configuré. |
       | Places | Quitter le POI | Déclenché par le SDK Places lorsque votre client ou cliente quitte le point ciblé (POI) configuré. |
 
-      +++
++++
 
    1. Cliquez sur **[!UICONTROL Ajouter une condition]** si vous souhaitez que le déclencheur prenne en compte plusieurs événements ou critères.
 
@@ -205,7 +205,7 @@ Pour ajouter un message in-app dans une campagne, procédez comme suit :
       | Places | Dernier point ciblé accédé | Déclenché par le SDK Places en fonction du dernier point ciblé accédé par votre cliente ou client. |
       | Places | Dernier point ciblé quitté | Déclenché par le SDK Places en fonction du dernier point ciblé quitté par votre cliente ou client. |
 
-      +++
++++
 
       ![](assets/in_app_create_8.png)
 
@@ -236,25 +236,25 @@ Pour ajouter un message in-app dans une campagne, procédez comme suit :
 
   +++Voir la vidéo
 
-  >[!VIDEO](https://video.tv.adobe.com/v/3451884?quality=12&learn=on&captions=fre_fr)
+  >[!VIDEO](https://video.tv.adobe.com/v/3410430?quality=12&learn=on)
 
-  +++
++++
 
 * La vidéo ci-dessous montre comment configurer et analyser des expériences de contenu pour les messages in-app de test A/B.
 
   +++Voir la vidéo
 
-  >[!VIDEO](https://video.tv.adobe.com/v/3445290/?learn=on&autoplay=true&captions=fre_fr)
+  >[!VIDEO](https://video.tv.adobe.com/v/3419898/?learn=on&autoplay=true)
 
-  +++
++++
 
 * La vidéo ci-dessous montre comment créer un message in-app dans un parcours et comment tester et publier votre parcours.
 
   +++Voir la vidéo
 
-  >[!VIDEO](https://video.tv.adobe.com/v/3451832/?learn=on&autoplay=true&captions=fre_fr)
+  >[!VIDEO](https://video.tv.adobe.com/v/3423077/?learn=on&autoplay=true)
 
-  +++
++++
 
 **Rubriques connexes :**
 

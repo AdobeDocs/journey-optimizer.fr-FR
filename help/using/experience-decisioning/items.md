@@ -7,9 +7,9 @@ role: User
 level: Intermediate
 exl-id: 5c866814-d79a-4a49-bfcb-7a767d802e90
 source-git-commit: ab70ce5b686a54dc1be7336411c5b0959fc3c584
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1752'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -109,7 +109,7 @@ Pour définir des règles de limitation pour l’élément de décision, cliquez
    * **[!UICONTROL Événement de décision]** (valeur par défaut) : nombre maximal de fois où une offre peut être présentée.
    * **[!UICONTROL Impression]** (canaux entrants uniquement) : nombre maximal de fois où l’offre peut être présentée à un utilisateur ou une utilisatrice.
    * **[!UICONTROL Clics]** : nombre maximal de fois où l’utilisateur ou l’utilisatrice peut cliquer sur un élément de décision.
-   * **[!UICONTROL Événement personnalisé]** : vous pouvez définir un événement personnalisé afin de limiter le nombre de fois où l’élément est envoyé. Par exemple, vous pouvez limiter la validité d’un bon à 10 000 utilisations ou jusqu’à ce qu’un profil donné l’ait utilisé 1 fois. Pour ce faire, utilisez les schémas XDM [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=fr){target="_blank"} pour créer une règle d’événement personnalisée.
+   * **[!UICONTROL Événement personnalisé]** : vous pouvez définir un événement personnalisé afin de limiter le nombre de fois où l’élément est envoyé. Par exemple, vous pouvez limiter la validité d’un bon à 10 000 utilisations ou jusqu’à ce qu’un profil donné l’ait utilisé 1 fois. Pour ce faire, utilisez les schémas [XDM d’Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=fr){target="_blank"} pour créer une règle d’événement personnalisé.
 
    >[!NOTE]
    >
@@ -165,7 +165,7 @@ Sélectionner un élément de décision ou cliquer sur le bouton représentant d
   >
   >Une fois supprimés, l’élément de décision et son contenu ne sont plus accessibles. Cette action ne peut pas être annulée.
 
-  Les éléments d&#39;offre approuvés ne peuvent pas être supprimés s&#39;ils sont utilisés dans une collection ou une décision. Pour les supprimer, modifiez leur statut en « Brouillon ». Pour ce faire, cliquez sur le bouton représentant des points de suspension et sélectionnez **[!UICONTROL Annuler l’approbation]**.
+  Les éléments d’offre approuvés ne peuvent pas être supprimés s’ils sont utilisés dans une collection ou une décision. Pour les supprimer, changez leur statut en « Brouillon ». Pour ce faire, cliquez sur le bouton représentant des points de suspension et sélectionnez **[!UICONTROL Annuler l’approbation]**.
 
   ![](assets/item-undo.png)
 

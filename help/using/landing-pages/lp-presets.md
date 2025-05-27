@@ -9,9 +9,9 @@ level: Experienced
 keywords: destination, page de destination, configurer, environnement, sous-domaine, préréglages
 exl-id: 7cf1f083-bef0-40b5-8ddd-920a9d108eca
 source-git-commit: 8e5a904f9310385f5a8186159dedde9942624268
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '367'
-ht-degree: 57%
+ht-degree: 100%
 
 ---
 
@@ -22,15 +22,15 @@ ht-degree: 57%
 >title="Créer un préréglage de la page de destination"
 >abstract="Pour pouvoir construire une page de destination et l’exploiter via Journey Optimizer, vous devez créer un préréglage de page de destination qui inclura le sous-domaine à utiliser."
 
-## Prise en main des préréglages de page de destination {#gs-lp-presets}
+## Commencez avec les préréglages de page de destination {#gs-lp-presets}
 
-Lors de la [création d’une page de destination](../landing-pages/create-lp.md#create-a-lp), vous devez sélectionner un préréglage de page de destination pour pouvoir créer la page de destination et l’exploiter via **[!DNL Journey Optimizer]**. Le préréglage comprend le sous-domaine à utiliser pour les pages de destination en fonction de ce préréglage.
+Lors de la [conception dʼune page de destination](../landing-pages/create-lp.md#create-a-lp), vous devez sélectionner un préréglage de page de destination pour la créer et lʼutiliser dans **[!DNL Journey Optimizer]**. Le préréglage comprend le sous-domaine à utiliser pour les pages de destination en fonction de ce préréglage.
 
 Avant de créer un préréglage, vérifiez que vous avez configuré au moins un sous-domaine de page de destination. [Découvrez comment créer un sous-domaine de page de destination](lp-subdomains.md).
 
-## Accéder aux préréglages de la page de destination {#access-lp-presets}
+## Accéder aux préréglages de page de destination {#access-lp-presets}
 
-Pour accéder aux préréglages de la page de destination, procédez comme suit :
+Pour accéder aux préréglages de page de destination, procédez comme suit :
 
 1. Accédez au menu **[!UICONTROL Administration]** > **[!UICONTROL Canaux]**.
 
@@ -44,9 +44,9 @@ Pour accéder aux préréglages de la page de destination, procédez comme suit 
 
 ## Créer un préréglage de la page de destination {#lp-create-preset}
 
-Pour créer un préréglage de page de destination, procédez comme suit :
+Pour créer un préréglage de page de destination, procédez comme suit :
 
-1. Parcourez le menu **[!UICONTROL Administration]** > **[!UICONTROL Canaux]**, puis sélectionnez **[!UICONTROL Paramètres de la page de destination]** > **[!UICONTROL Préréglages de la page de destination]**.
+1. Accédez au menu **[!UICONTROL Administration]** > **[!UICONTROL Canaux]**, puis sélectionnez **[!UICONTROL Paramètres de la page de destination]** > **[!UICONTROL Préréglages de la page de destination]**.
 
 1. Sélectionnez **[!UICONTROL Créer un préréglage de page de destination]**.
 
@@ -54,7 +54,7 @@ Pour créer un préréglage de page de destination, procédez comme suit :
 
 1. Saisissez un nom et une description pour le préréglage.
 
-   Les noms doivent commencer par une lettre (A-Z) et contenir uniquement des caractères alphanumériques, des `_` de soulignement`.` des points et des tirets `-`.
+   Les noms doivent commencer par une lettre (A-Z) et ne peuvent contenir que des caractères alphanumériques, un trait de soulignement `_`, un point`.` et un tiret `-`.
 
 1. Sélectionnez un sous-domaine de page de destination dans la liste déroulante.
 
@@ -64,7 +64,7 @@ Pour créer un préréglage de page de destination, procédez comme suit :
 
    Les paramètres correspondant au sous-domaine sélectionné s’affichent.
 
-1. Vous pouvez sélectionner le sous-domaine de la page de destination pour l’URL de suivi en cochant l’option **[!UICONTROL Identique au sous-domaine de la page de destination]**. [En savoir plus sur le tracking](../email/message-tracking.md)
+1. Si vous souhaitez sélectionner le sous-domaine de page de destination comme URL de suivi, cochez lʼoption **[!UICONTROL Identique au sous-domaine de page de destination]**. [En savoir plus sur le tracking](../email/message-tracking.md)
 
    ![](assets/lp_preset-subdomain-settings-same.png)
 

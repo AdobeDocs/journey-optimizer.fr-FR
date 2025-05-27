@@ -10,7 +10,7 @@ level: Intermediate
 keywords: pré-en-tête, éditeur, résumé, e-mail
 exl-id: 7ed52b2e-eabf-414f-b169-4b004733dea9
 source-git-commit: 0f3191a3d7c5c78e1d8fac2e587e26522f02f8f5
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '333'
 ht-degree: 100%
 

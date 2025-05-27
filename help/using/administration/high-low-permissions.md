@@ -10,9 +10,9 @@ level: Experienced
 keywords: autorisation, haut niveau, bas niveau, profil, admin console
 exl-id: 1b286f9d-43ef-4b80-b4ee-136da857bb95
 source-git-commit: 9d87d133bb580ebed94a265beded5895f7fd0301
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1063'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -511,7 +511,7 @@ The **[!DNL Manage web subdomain]** high-level permission allows users to read, 
 
 ## Ressource pour l’assistant IA {#ai-permissions}
 
-* **[!DNL Generate content]** autorisation de haut niveau permet aux utilisateurs d’accéder à l’assistant AI dans Journey Optimizer.
+* L’autorisation de haut niveau **[!DNL Generate content]** permet aux utilisateurs et aux utilisatrices d’accéder à l’Assistant IA dans Journey Optimizer.
 
 +++ Elle comprend les autorisations de bas niveau suivantes :
 

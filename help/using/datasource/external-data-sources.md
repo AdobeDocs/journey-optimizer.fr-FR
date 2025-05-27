@@ -10,9 +10,9 @@ level: Intermediate, Experienced
 keywords: externe, sources, données, configuration, connexion, tiers
 exl-id: f3cdc01a-9f1c-498b-b330-1feb1ba358af
 source-git-commit: 2a2abe3e663f8c9ff24c804eae53d44988960838
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1626'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -46,7 +46,7 @@ L’appel est composé d’une URL principale (_https://api.adobeweather.org/wea
 
 >[!TIP]
 >
->Nous vous recommandons de laisser au moins une minute de mémoire tampon entre la période d’expiration du jeton de l’API externe et votre paramètre de [`cacheDuration` Journey Optimizer](#custom-authentication-access-token) en particulier sous de lourdes charges de travail, afin d’éviter les incohérences d’expiration et les erreurs 401.
+>Nous vous recommandons de laisser au moins une minute de buffer entre la période d’expiration du jeton de l’API externe et votre paramètre [`cacheDuration` de Journey Optimizer](#custom-authentication-access-token) en particulier an cas de lourdes charges de travail, afin d’éviter les décalages d’expiration et les erreurs 401.
 
 ## Création et configuration d’une source de données externe {#create-ext-data-sources}
 

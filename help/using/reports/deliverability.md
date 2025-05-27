@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Prise en main de la délivrabilité
+title: Commencer avec la délivrabilité
 description: Découvrez les directives relatives à la délivrabilité
 feature: Deliverability
 topic: Content Management
@@ -9,13 +9,13 @@ role: Admin
 level: Intermediate, Experienced
 exl-id: 8f33dda7-9bd5-4293-8d0d-222205cbc7d5
 source-git-commit: 6023f1004c74cedc7567fd142be767b12d85ba6d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1138'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
-# Prise en main de la délivrabilité {#manage-deliverability}
+# Commencer avec la délivrabilité {#manage-deliverability}
 
 La délivrabilité est une mesure du succès de vos diffusions atteignant les boîtes de réception de vos destinataires.
 

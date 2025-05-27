@@ -10,24 +10,24 @@ level: Intermediate
 keywords: configuration, parcours, tableau de bord, sources de données, événements, actions
 exl-id: c144d44f-031f-4ca2-800e-d3878af400a5
 source-git-commit: 65b7b8323e37a0143a3941af1b9c2fb8b595a376
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '457'
-ht-degree: 85%
+ht-degree: 100%
 
 ---
 
-# Configurer les sources de données, les événements et les actions {#configure-journeys}
+# Configurer des sources de données, des événements et des actions {#configure-journeys}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_configuration_dashboard"
 >title="À propos de la configuration de parcours"
 >abstract="Pour envoyer des messages avec des parcours, vous devez configurer les Sources de données, les Événements et les Actions. Les sources de données vous permettent de définir une connexion à un système pour récupérer des informations supplémentaires qui seront utilisées pour vos parcours, par exemple dans vos conditions. Les événements vous permettent de déclencher vos parcours lorsqu&#39;un événement est reçu. Les actions personnalisées vous permettent de vous connecter à un système tiers pour envoyer vos messages. Si vous utilisez les fonctionnalités de message intégré de Journey Optimizer, il n&#39;est pas nécessaire de configurer une action."
 
-L’envoi de messages avec des parcours nécessite de configurer **[!UICONTROL Sources de données]**, **[!UICONTROL Événements]** et **[!UICONTROL Actions]**.
+Pour envoyer des messages avec des parcours, vous devez configurer des **[!UICONTROL sources de données]**, des **[!UICONTROL événements]** et des **[!UICONTROL actions]**.
 
 ![](assets/admin-menu.png)
 
-Vous pouvez également configurer des connexions à des systèmes externes par le biais de sources de données et d’actions personnalisées. Vous pouvez ainsi, par exemple, enrichir vos parcours de données provenant d’un système de réservation externe ou envoyer des messages à l’aide d’un système tiers tel qu’Epsilon ou Facebook. Découvrez comment [ intégrer Journey Optimizer à des systèmes externes ](external-systems.md).
+Vous pouvez également configurer des connexions à des systèmes externes par le biais de sources de données et d’actions personnalisées. Vous pouvez ainsi, par exemple, enrichir vos parcours de données provenant d’un système de réservation externe ou envoyer des messages à l’aide d&#39;un système tiers tel qu’Epsilon ou Facebook. Découvrez comment [intégrer Journey Optimizer à des systèmes externes](external-systems.md).
 
 ## Sources de données {#data-sources}
 

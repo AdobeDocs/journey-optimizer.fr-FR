@@ -2,7 +2,7 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Intégration d’Adobe Analytics
-description: Découvrez comment exploiter les données Adobe Analytics dans Journey Optimizer
+description: Découvrez comment utiliser les données Adobe Analytics dans Journey Optimizer.
 feature: Journeys, Events, Reporting, Integrations
 topic: Administration
 role: Data Engineer, Data Architect, Admin
@@ -10,15 +10,15 @@ level: Intermediate, Experienced
 keywords: analytics, intégration, sdk web, platform
 exl-id: 9d842722-e5eb-4743-849d-b7ba9448062f
 source-git-commit: 0be35e14dba32523a7f28aaaa28d41ee693d44ba
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '755'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
 # Utiliser des données Adobe Analytics {#analytics-data}
 
-Vous pouvez exploiter toutes les données web comportementales d’événement que vous capturez déjà via Adobe Analytics ou Web SDK et diffusez déjà en continu dans Adobe Experience Platform, afin de déclencher des parcours et d’automatiser les expériences de vos clients.
+Vous pouvez utiliser toutes les données d’événement comportementaux web que vous capturez déjà via Adobe Analytics ou le SDK web et que vous diffusez en continu dans Adobe Experience Platform, afin de déclencher des parcours et d’automatiser les expériences de votre clientèle.
 
 Pour que cela fonctionne avec Adobe Analytics, vous devez :
 
@@ -65,7 +65,7 @@ Pour en savoir plus sur le connecteur source Adobe Analytics, consultez la [doc
 
 ## Activer cette configuration {#activate-analytics-data}
 
-Une fois cette configuration terminée, contactez Adobe pour permettre à votre environnement Journey Optimizer d’utiliser cette source de données. Cette étape n’est nécessaire que pour les sources de données d’Adobe Analytics. Procédez comme suit :
+Une fois cette configuration terminée, contactez Adobe pour permettre à votre environnement Journey Optimizer d’utiliser cette source de données. Cette étape n’est nécessaire que pour les sources de données d’Adobe Analytics. Pour ce faire, procédez comme suit :
 
 1. Obtenez l’identifiant de la source de données. Cette information est disponible dans l’interface utilisateur : accédez à la source de données que vous avez créée à partir de l’onglet **Flux de données** du menu **Sources**. Le moyen le plus simple de l trouver est de filtrer selon les sources Adobe Analytics.
 1. Contactez l’assistance clientèle d’Adobe avec les détails suivants :
