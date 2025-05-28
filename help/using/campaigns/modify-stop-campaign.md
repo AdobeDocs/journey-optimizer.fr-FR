@@ -9,10 +9,10 @@ role: User
 level: Beginner
 keywords: gérer les campagnes, statut, planification, accès, optimizer
 exl-id: 1b88c84e-9d92-4cc1-b9bf-27a2f1d29569
-source-git-commit: 0a7c1ebf01a0aec9f84e86b14df14bbfcd24a7b4
+source-git-commit: 29d12b6190f49e7f3f6fd2760e522a5a62c0de87
 workflow-type: tm+mt
-source-wordcount: '598'
-ht-degree: 100%
+source-wordcount: '868'
+ht-degree: 64%
 
 ---
 
@@ -26,8 +26,8 @@ De plus, vous pouvez dupliquer des campagnes dynamiques (exécutées une fois ou
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_view"
->title="Vues Tableau et chronologie des campagnes"
->abstract="Vues Tableau et chronologie des campagnes"
+>title="Vues Liste et Calendrier des campagnes"
+>abstract="Outre la liste des campagnes, [!DNL Journey Optimizer] fournit une vue Calendrier de vos campagnes, offrant une représentation visuelle claire de leurs plannings. Vous pouvez basculer entre les vues Liste et Calendrier à tout moment à l’aide de ces boutons."
 
 Les campagnes sont accessibles à partir du menu **[!UICONTROL Campagnes]**.
 
@@ -35,7 +35,35 @@ Par défaut, toutes les campagnes dont le statut est **[!UICONTROL Brouillon]**,
 
 ![](assets/create-campaign-list.png)
 
-De plus, vous pouvez filtrer la liste en fonction du type et du canal de la campagne, ou des balises qui ont été affectées aux campagnes lors de leur création. [Découvrir comment attribuer des balises à une campagne](create-campaign.md#create)
+Vous pouvez également filtrer la liste en fonction du type et du canal de la campagne, ou des balises qui ont été affectées aux campagnes lors de leur création. [Découvrir comment attribuer des balises à une campagne](create-campaign.md#create)
+
+## Calendrier des campagnes {#calendar}
+
+Outre la liste des campagnes, [!DNL Journey Optimizer] fournit une vue Calendrier de vos campagnes, offrant une représentation visuelle claire de leurs plannings.
+
+>[!AVAILABILITY]
+>
+>La vue Calendrier n’est actuellement disponible que pour un ensemble d’organisations (disponibilité limitée). Pour demander l’accès, utilisez [ce formulaire](https://forms.cloud.microsoft/r/FC49afuJVi){target=”_blank”}.
+>
+>Cette fonctionnalité est en développement actif. Vos commentaires et demandes sont les bienvenus à l’aide du bouton **[!UICONTROL Commentaires Beta]** situé dans le menu supérieur.
+
+Le calendrier affiche toutes les campagnes planifiées pour la semaine en cours. Utilisez les boutons fléchés situés au-dessus du calendrier pour naviguer entre les semaines.
+
+![vue calendrier affichant les campagnes actives](assets/campaigns-timeline.png)
+
+Représentation des campagnes :
+
+* Par défaut, la grille de calendrier affiche toutes les campagnes actives et planifiées pour la semaine sélectionnée. D’autres options de filtre peuvent afficher les activations terminées, arrêtées et terminées ou les activations d’un certain type ou d’un certain canal.
+* Les brouillons de campagne ne s’affichent pas.
+* Les campagnes s’étendant sur plusieurs jours s’affichent en haut de la grille du calendrier.
+* Si aucune heure de début n’est spécifiée, l’heure d’activation manuelle la plus proche est utilisée pour la positionner dans le calendrier.
+* Les campagnes s’affichent sous la forme de périodes d’une heure, mais cela ne reflète pas l’heure d’envoi ou d’achèvement réelle.
+
+Pour plus d’informations sur une campagne, cliquez sur son bloc visuel afin d’afficher les détails correspondants.
+
+Pour afficher les détails d’une campagne spécifique, sélectionnez-la dans la liste. Un volet d’informations s’ouvre avec diverses informations sur la campagne, telles que son type, l’accès aux rapports ou les balises qui ont été affectées.
+
+![liste des campagnes avec le volet d’informations ouvert](assets/campaign-rail.png)
 
 ## Statuts et alertes des campagnes {#statuses}
 

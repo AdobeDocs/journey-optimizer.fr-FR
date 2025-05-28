@@ -9,42 +9,72 @@ role: User
 level: Intermediate
 keywords: parcours, premier, commencer, démarrage rapide, audience, événement, action
 exl-id: 770bdbf2-560d-4127-bdb9-1f82495a566f
-source-git-commit: a7468879b36dfe9184471824b387f1638fae3d50
+source-git-commit: 29d12b6190f49e7f3f6fd2760e522a5a62c0de87
 workflow-type: tm+mt
-source-wordcount: '935'
-ht-degree: 96%
+source-wordcount: '1179'
+ht-degree: 75%
 
 ---
 
 # Parcourir et filtrer vos parcours {#browse-journeys}
 
-## Tableau de bord des parcours {#dashboard-jo}
-
 >[!CONTEXTUALHELP]
 >id="ajo_journey_view"
->title="Vues Tableau et chronologie des parcours"
->abstract="Vues Tableau et chronologie des parcours"
+>title="Vues Liste et Calendrier des parcours"
+>abstract="Outre la liste des parcours, [!DNL Journey Optimizer] fournit une vue de calendrier de vos parcours, offrant une représentation visuelle claire de leurs plannings. Vous pouvez basculer entre les vues Liste et Calendrier à tout moment à l’aide de ces boutons."
+
+## Tableau de bord des parcours {#dashboard-jo}
 
 Dans la section du menu GESTION DES PARCOURS, cliquez sur **[!UICONTROL Parcours]**. Deux onglets sont disponibles : **[!UICONTROL Vue d’ensemble]** et **[!UICONTROL Parcourir]**.
 
-* L’onglet **[!UICONTROL Vue d’ensemble]** affiche un tableau de bord avec les mesures clés liées à vos parcours.
+### Présentation de Parcours
 
-  ![Tableau de bord de parcours mettant en surbrillance l’onglet Vue d’ensemble](assets/journeys-dashboard.png)
+L’onglet **[!UICONTROL Vue d’ensemble]** affiche un tableau de bord avec les mesures clés liées à vos parcours.
 
-   * **Profils traités** : nombre total de profils traités au cours des dernières 24 heures
-   * **Parcours dynamiques** : nombre total de parcours dynamiques avec trafic au cours des dernières 24 heures. Les parcours dynamiques incluent les **parcours unitaires** (basés sur un événement) et les **parcours par lots** (lecture d’audience).
-   * **Taux d’erreur** : ratio de tous les profils en erreur par rapport au nombre total de profils entrés au cours des dernières 24 heures.
-   * **Taux de rejet** : ratio de tous les profils rejetés par rapport au nombre total de profils entrés au cours des dernières 24 heures. Un profil rejeté représente une personne qui ne répond pas aux conditions d’entrée du parcours, par exemple en raison d’un espace de noms incorrect ou des règles de rentrée.
+![Tableau de bord de parcours mettant en surbrillance l’onglet Vue d’ensemble](assets/journeys-dashboard.png)
 
-  >[!NOTE]
-  >
-  >Ce tableau de bord prend en compte les parcours avec trafic au cours des dernières 24 heures. Seuls les parcours auxquels vous avez accès s’affichent. Les mesures sont actualisées toutes les 30 minutes et uniquement lorsque de nouvelles données sont disponibles.
+* **Profils traités** : nombre total de profils traités au cours des dernières 24 heures
+* **Parcours dynamiques** : nombre total de parcours dynamiques avec trafic au cours des dernières 24 heures. Les parcours dynamiques incluent les **parcours unitaires** (basés sur un événement) et les **parcours par lots** (lecture d’audience).
+* **Taux d’erreur** : ratio de tous les profils en erreur par rapport au nombre total de profils entrés au cours des dernières 24 heures.
+* **Taux de rejet** : ratio de tous les profils rejetés par rapport au nombre total de profils entrés au cours des dernières 24 heures. Un profil rejeté représente une personne qui ne répond pas aux conditions d’entrée du parcours, par exemple en raison d’un espace de noms incorrect ou des règles de rentrée.
 
-* L’onglet **[!UICONTROL Parcourir]** affiche la liste des parcours existants. Vous pouvez rechercher des parcours, utiliser des filtres et effectuer des actions de base sur chaque élément. Vous pouvez par exemple dupliquer ou supprimer un élément.
+>[!NOTE]
+>
+>Ce tableau de bord prend en compte les parcours avec trafic au cours des dernières 24 heures. Seuls les parcours auxquels vous avez accès s’affichent. Les mesures sont actualisées toutes les 30 minutes et uniquement lorsque de nouvelles données sont disponibles.
 
-  ![Tableau de bord de parcours mettant en surbrillance l’onglet Parcourir](assets/journeys-browse.png)
+### Liste des parcours
 
-Dans la liste des parcours, toutes les versions de parcours sont accompagnées d&#39;un numéro. Lorsque vous recherchez un parcours, les versions les plus récentes apparaissent en haut de la liste la première fois que vous ouvrez l&#39;application. Vous pouvez ensuite définir l&#39;ordre de tri souhaité ; l&#39;application le conservera en tant que préférence utilisateur. La version du parcours est également affichée en haut de l’interface d’édition du parcours, au-dessus de la zone de travail. En savoir plus sur la gestion des versions du parcours [&#128279;](publishing-the-journey.md#journey-versions-journey-versions).
+L’onglet **[!UICONTROL Parcourir]** affiche la liste des parcours existants. Vous pouvez rechercher des parcours, utiliser des filtres et effectuer des actions de base sur chaque élément. Vous pouvez par exemple dupliquer ou supprimer un élément.
+
+![Tableau de bord de parcours mettant en surbrillance l’onglet Parcourir](assets/journeys-browse.png)
+
+### Calendrier Parcours {#calendar}
+
+Outre la liste des parcours, [!DNL Journey Optimizer] fournit une vue de calendrier de vos parcours, offrant une représentation visuelle claire de leurs plannings.
+
+>[!AVAILABILITY]
+>
+>La vue Calendrier n’est actuellement disponible que pour un ensemble d’organisations (disponibilité limitée). Pour demander l’accès, utilisez [ce formulaire](https://forms.cloud.microsoft/r/FC49afuJVi){target=”_blank”}.
+>
+>Cette fonctionnalité est en développement actif. Vos commentaires et demandes sont les bienvenus à l’aide du bouton **[!UICONTROL Commentaires Beta]** situé dans le menu supérieur.
+
+Pour accéder à la vue Calendrier, ouvrez la liste parcours et cliquez sur l’icône ![icône de calendrier](assets/do-not-localize/timeline-icon.svg).
+
+Le calendrier affiche tous les parcours planifiés pour la semaine en cours. Utilisez les boutons fléchés situés au-dessus du calendrier pour naviguer entre les semaines.
+
+![vue calendrier affichant les parcours en direct](assets/timeline-journeys.png)
+
+Représentation des parcours :
+
+* Par défaut, la grille de calendrier affiche tous les parcours actifs et planifiés pour la semaine sélectionnée. D’autres options de filtre peuvent afficher les activations ou activations terminées, arrêtées et terminées.
+* Les brouillons de parcours et les parcours en mode test ne s’affichent pas.
+* Les parcours s’étendant sur plusieurs jours s’affichent en haut de la grille du calendrier.
+* Si aucune heure de début n’est spécifiée, l’heure d’activation manuelle la plus proche est utilisée pour la positionner dans le calendrier.
+* Les parcours s’affichent sous la forme de périodes d’une heure, mais cela ne reflète pas l’heure d’envoi ou d’achèvement réelle.
+
+Pour plus d’informations sur un parcours, cliquez sur son bloc visuel afin de l’ouvrir et d’en explorer les détails.
+
+Dans la liste des parcours, toutes les versions de parcours sont accompagnées d&#39;un numéro. Lorsque vous recherchez un parcours, les versions les plus récentes apparaissent en haut de la liste la première fois que vous ouvrez l&#39;application. Vous pouvez ensuite définir l&#39;ordre de tri souhaité ; l&#39;application le conservera en tant que préférence utilisateur. La version du parcours est également affichée en haut de l’interface d’édition du parcours, au-dessus de la zone de travail. En savoir plus sur la gestion des versions du parcours [](publishing-the-journey.md#journey-versions-journey-versions).
 
 
 
@@ -67,7 +97,6 @@ Pour filtrer les parcours selon une période spécifique, sélectionnez **[!UICO
 Dans les volets de configuration des événements, des sources de données et des actions, le champ **[!UICONTROL Utilisé dans]** affiche également le nombre de parcours qui utilisent cet événement, ce groupe de champs ou cette action spécifique. Vous pouvez cliquer sur le bouton **[!UICONTROL Afficher les parcours]** pour faire apparaître la liste des parcours correspondants.
 
 ![](assets/journey3bis.png)
-
 
 ## Types de parcours {#journey-types}
 

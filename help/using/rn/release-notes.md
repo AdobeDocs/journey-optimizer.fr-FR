@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Notes de mise à jour d’Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 25d48a675f49bca6818841bb45ccf31671225e0e
+source-git-commit: 29d12b6190f49e7f3f6fd2760e522a5a62c0de87
 workflow-type: tm+mt
-source-wordcount: '1135'
-ht-degree: 37%
+source-wordcount: '1220'
+ht-degree: 36%
 
 ---
 
@@ -134,23 +134,25 @@ Les nouvelles fonctionnalités de cette version sont présentées ci-dessous.
 </tbody>
 </table>
 
-<!--<table>
+<table>
 <thead>
 <tr>
-<th><strong>Calendar View for Campaign and Journey inventory</strong><br/></th>
+<th><strong>Vue Calendrier pour l’inventaire des campagnes et des Parcours</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>A calendar view is now available in the journeys and campaigns lists. It allows you to visualize all journeys and campaigns activations in the respective lists.</p>
-<p>This change is only available for a set of organizations (Limited Availability). To gain access, contact your Adobe representative.</p>
+<p>Une vue Calendrier est désormais disponible dans les listes des parcours et des campagnes. Il vous permet de visualiser toutes les activations de parcours et de campagnes dans les listes respectives.</p>
+<p>Cette modification n’est actuellement disponible que pour un ensemble d’organisations (disponibilité limitée). Pour demander l’accès, utilisez <a href="https://forms.cloud.microsoft/r/FC49afuJVi" target="_blank">ce formulaire</a>.</p>
+
+
 <img src="assets/do-not-localize/calendar.gif">
-<p>For more information, refer to these sections: <a href="../building-journeys/journey-ui.md">Browse & filter your journeys</a>, <a href="../campaigns/modify-stop-campaign.md">Access campaigns</a>.</p>
+<p>Pour plus d’informations, reportez-vous aux sections suivantes : <a href="../building-journeys/journey-ui.md">Parcourir et filtrer vos parcours </a> <a href="../campaigns/modify-stop-campaign.md">Accéder aux campagnes</a>.</p>
 </td>
 </tr>
 </tbody>
-</table>-->
+</table>
 
 <!--<table>
 <thead>
@@ -288,13 +290,13 @@ Les améliorations apportées à cette version sont répertoriées ci-dessous.
 <!--
 * **Decisioning - Leverage Adobe Experience Platform datasets** 
   
-  Journey Optimizer now allows you to leverage Adobe Experience Platform datasets in the following Decisioning objects: eligibility rules, ranking formulas, and capping rules.
+  Journey Optimizer now allows you to leverage Adobe Experience Platform datasets in the following Decisioning objects: eligibility rules, ranking formulas, and capping rules.-->
 
-* **Right rail in campaigns list**
+* **Rail de droite dans la liste des campagnes**
 
-  In the campaign list, selecting a campaign now opens a pane displaying its details.
+  Dans la liste des campagnes, la sélection d’une campagne ouvre désormais un volet affichant ses détails.
 
-* **Form fields in code-based experience content**
+<!--* **Form fields in code-based experience content**
 
   In content templates, you can now define specific JSON or HTML fields which enable non-technical users to easily edit content in code-based experiences without the need to manipulate code.
 
