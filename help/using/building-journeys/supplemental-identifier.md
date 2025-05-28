@@ -3,9 +3,9 @@ title: Identifiant supplémentaire dans les parcours déclenchés par un événe
 description: Découvrez comment utiliser un identifiant supplémentaire dans les parcours déclenchés par un événement.
 badge: label="Disponibilité limitée" type="Informative"
 exl-id: f6ebd706-4402-448a-a538-e9a4c2cf0f8b
-source-git-commit: 3ed75f1193b1a580183d8ee148792ec136d281cd
+source-git-commit: e7f4959ceaa238e39858196b08d739053b21835c
 workflow-type: tm+mt
-source-wordcount: '844'
+source-wordcount: '861'
 ht-degree: 7%
 
 ---
@@ -75,7 +75,7 @@ Pour utiliser un identifiant supplémentaire dans un parcours, procédez comme s
 
       >[!IMPORTANT]
       >
-      >Veillez à ne pas marquer l’attribut comme identité de Principal **&#x200B;**.
+      >Veillez à ne pas marquer l’attribut comme identité de Principal ****.
 
    1. Sélectionnez l’espace de noms à associer à l’ID supplémentaire. Il doit s’agir d’un espace de noms d’identifiant non-personne.
 
@@ -164,11 +164,11 @@ Pour utiliser un identifiant supplémentaire dans un parcours, procédez comme s
 
 ### **Gestion des abonnements**
 
-* **Scénario** : un service d’abonnement envoie des messages personnalisés pour chaque abonnement lié à un profil client.
+* **Scénario** : un service d’abonnement envoie des messages personnalisés pour chaque abonnement lorsqu’un événement est déclenché pour cet abonnement.
 * **Exécution** :
    * Profil : « Jane ».
-   * ID supplémentaires : `"Luma Yoga Program ", "Luma Fitness PlPrograman"`.
-   * Le parcours s’exécute séparément pour chaque abonnement, avec des offres de renouvellement personnalisées.
+   * ID supplémentaires : `"Luma Yoga Program ", "Luma Fitness Program"`.
+   * Chaque événement comprend un ID d’abonnement et des détails sur cet abonnement. Le parcours s’exécute séparément pour chaque événement/abonnement, ce qui permet d’obtenir des offres de renouvellement personnalisées par abonnement.
 
 ### **Recommandations de produit**
 
