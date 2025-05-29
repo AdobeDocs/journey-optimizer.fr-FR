@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Simuler les variations de contenu
+title: Simuler les variations du contenu
 description: Découvrez comment prévisualiser du contenu et envoyer un BAT d’e-mail en utilisant des exemples de données d’entrée provenant d’un fichier CSV ou JSON ou ajoutées manuellement.
 feature: Email, Email Rendering, Personalization, Preview, Proofs
 topic: Content Management
@@ -15,7 +15,7 @@ ht-degree: 41%
 
 ---
 
-# Simuler les variations de contenu {#custom-profiles}
+# Simuler les variations du contenu {#custom-profiles}
 
 >[!CONTEXTUALHELP]
 >id="ajo_simulate_sample_profiles"

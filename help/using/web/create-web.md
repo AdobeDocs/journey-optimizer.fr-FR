@@ -9,7 +9,7 @@ exl-id: e28c038b-49ed-4685-bfe6-514116eb0711
 source-git-commit: 528e1a54dd64503e5de716e63013c4fc41fd98db
 workflow-type: tm+mt
 source-wordcount: '1543'
-ht-degree: 86%
+ht-degree: 88%
 
 ---
 
@@ -157,8 +157,8 @@ Vous trouverez des informations détaillées sur la sélection des profils de te
 
 >[!CONTEXTUALHELP]
 >id="ajo_web_designer_redirect"
->title="Rediriger vers une autre URL"
->abstract="Saisissez une URL existante vers laquelle vous souhaitez rediriger les visiteurs de votre page."
+>title="Rediriger vers une autre URL"
+>abstract="Saisissez une URL existante vers laquelle vous souhaitez rediriger les visiteurs et visiteuses de votre page."
 
 Lors de la création d’une expérience web, vous pouvez rediriger les visiteurs vers une autre URL existante plutôt que de créer une nouvelle variation dans le concepteur web.
 
@@ -266,4 +266,4 @@ Lorsqu’une campagne ou est parcours web est en ligne, vous pouvez l’arrêter
 
 La vidéo ci-dessous montre comment créer une campagne web, configurer ses propriétés, la réviser et la publier.
 
->[!VIDEO](https://video.tv.adobe.com/v/3449983/?quality=12&learn=on&captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/3418800/?quality=12&learn=on)
