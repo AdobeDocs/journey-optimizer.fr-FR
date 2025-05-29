@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Notes de mise à jour d’Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 3cc1cf6818cf361c19497a478435c4f1db02cf8f
+source-git-commit: 3343f4f525db4b8bc5b5f6e12f9c6f5f0290b034
 workflow-type: tm+mt
-source-wordcount: '1238'
-ht-degree: 35%
+source-wordcount: '1176'
+ht-degree: 32%
 
 ---
 
@@ -119,13 +119,13 @@ Les nouvelles fonctionnalités de cette version sont présentées ci-dessous.
 <table>
 <thead>
 <tr>
-<th><strong>Simuler les variations de contenu</strong><br/></th>
+<th><strong>Simuler les variations du contenu</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Auparavant disponible en version bêta, la simulation de variations de contenu est désormais en disponibilité générale. Elle vous permet de prévisualiser différentes variantes de votre contenu à l’aide d’exemples de données d’entrée chargées à partir d’un fichier CSV/JSON ou ajoutées manuellement. Tous les attributs de profil utilisés dans votre contenu pour la personnalisation sont automatiquement détectés par le système et peuvent être utilisés pour vos tests afin de créer plusieurs variantes.</p>
+<!--p>Previously available in beta, content variations simulation is now generally available (GA). It allows you to preview different variations of your content using sample input data uploaded from a CSV or JSON file or added manually. All the attributes used in your content for personalization are automatically detected by the system and can be used for your tests to create multiple variants.</p-->
 <p>Publiée précédemment en disponibilité limitée, cette fonctionnalité est désormais disponible dans tous les environnements. Avec cette version de disponibilité générale, la fonctionnalité prend désormais en charge le contenu multilingue et les expériences de contenu, ce qui vous permet de tester des variations dans différentes langues et traitements. En outre, elle prend désormais en charge les attributs contextuels (en plus des attributs de profil), ce qui permet d’effectuer des tests de contenu encore plus dynamiques et situationnels.</p>
 <img src="assets/do-not-localize/variants.gif">
 <p>Pour plus d’informations, consultez la <a href="../test-approve/simulate-sample-input.md">documentation détaillée</a>.</p>
