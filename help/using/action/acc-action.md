@@ -9,10 +9,10 @@ role: Data Engineer, Data Architect, Admin
 level: Intermediate
 keywords: campaign, acc, intégration
 exl-id: 109ba212-f04b-425f-9447-708c8e0b3f51
-source-git-commit: 14a10c742ab40c5e3bdb545f595d28e25b535fdc
+source-git-commit: 60cb5e1ba2b5c8cfd0a306a589c85761be1cf657
 workflow-type: tm+mt
-source-wordcount: '545'
-ht-degree: 57%
+source-wordcount: '546'
+ht-degree: 46%
 
 ---
 
@@ -65,7 +65,7 @@ Dans Adobe Campaign, vous devez créer et publier un message transactionnel et s
 
 Vous pouvez créer la payload JSON correspondant à chaque message selon le modèle ci-dessous. Vous allez ensuite coller cette payload lors de la configuration de l’action dans Journey Optimizer (voir ci-dessous).
 
-Voici un exemple :
++++ Exemple
 
 ```json
 {
@@ -82,15 +82,19 @@ Voici un exemple :
 * **eventType** : le nom interne de votre événement Campaign
 * **ctx** : variable basée sur la personnalisation de votre message
 
++++
+
 ## Configuration de l’action {#configure-action}
 
-Dans Journey Optimizer, vous devez configurer une action par message transactionnel. Procédez de la façon suivante :
+Dans Journey Optimizer, vous devez configurer une action par message transactionnel.
 
-1. Créez une action. [En savoir plus sur les actions personnalisées](../action/action.md).
+Pour créer une action Campaign, procédez comme suit :
+
+1. Créez une action. [Découvrez comment créer des actions personnalisées](../action/action.md).
 1. Saisissez un nom et une description.
 1. Dans le champ **Type d’action**, sélectionnez **Adobe Campaign Classic**.
+   ![](assets/accintegration1.png)
 1. Cliquez dans le champ **Payload** et collez un exemple de payload JSON correspondant au message Campaign Contactez Adobe pour obtenir cette payload.
-1. Ajustez les différents champs de sorte qu’ils soient statiques ou variables selon que vous souhaitez les mapper ou non sur la zone de travail des parcours. Certains champs, tels que les paramètres de canal pour l’adresse e-mail et les champs de personnalisation (ctx), doivent probablement être définis comme des variables pour le mappage dans le contexte du parcours.
+1. Définissez chaque champ comme statique ou variable selon que vous souhaitez le mapper ou non sur la zone de travail du Parcours. Par exemple, les champs tels que les paramètres de canal e-mail et les champs de personnalisation (`ctx`) doivent généralement être définis en tant que variables afin de pouvoir s’adapter dynamiquement au sein du parcours.
 1. Cliquez sur **Enregistrer**.
 
-![](assets/accintegration1.png)
