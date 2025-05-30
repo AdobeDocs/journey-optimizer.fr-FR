@@ -37,9 +37,9 @@ Améliorez et optimisez votre contenu pour n’importe quel écran ou navigateur
 
 >[!IMPORTANT]
 >
->Assurez-vous que Dynamic Media avec OpenAPI est activé dans Adobe Experience Manager as a Cloud Service. [En savoir plus](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/dynamicmedia/dynamic-media-open-apis/dynamic-media-open-apis-overview#enable-dynamic-media-open-apis){target="_blank"}.
+>Assurez-vous que Dynamic Media avec OpenAPI est activé dans Adobe Experience Manager as a Cloud Service. [En savoir plus](https://experienceleague.adobe.com/fr/docs/experience-manager-cloud-service/content/assets/dynamicmedia/dynamic-media-open-apis/dynamic-media-open-apis-overview#enable-dynamic-media-open-apis){target="_blank"}.
 
-L’intégration de Dynamic Media à Adobe Journey Optimizer est disponible pour Dynamic Media [mode Scene7](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/dynamic/config-dms7){target="_blank"} et [avec OpenAPI](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/dynamicmedia/dynamic-media-open-apis/dynamic-media-open-apis-overview){target="_blank"}.
+L’intégration de Dynamic Media à Adobe Journey Optimizer est disponible pour Dynamic Media [mode Scene7](https://experienceleague.adobe.com/fr/docs/experience-manager-65/content/assets/dynamic/config-dms7){target="_blank"} et [avec OpenAPI](https://experienceleague.adobe.com/fr/docs/experience-manager-cloud-service/content/assets/dynamicmedia/dynamic-media-open-apis/dynamic-media-open-apis-overview){target="_blank"}.
 
 >[!AVAILABILITY]
 >
@@ -86,7 +86,7 @@ Par exemple, à l’aide de la fonctionnalité d’expérimentation, vous pouvez
 
 >[!AVAILABILITY]
 >
->**La personnalisation de la superposition de texte** est disponible exclusivement dans Dynamic Media [mode Scene7](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/dynamic/config-dms7){target="_blank"}. Comme le mode Scene7 n’est pas accessible pour les clients du secteur de la santé, le contenu est rendu à l’aide d’une copie binaire Journey Optimizer de l’image. Pour toute exception, veuillez contacter votre représentant Adobe.
+>**La personnalisation de la superposition de texte** est disponible exclusivement dans Dynamic Media [mode Scene7](https://experienceleague.adobe.com/fr/docs/experience-manager-65/content/assets/dynamic/config-dms7){target="_blank"}. Comme le mode Scene7 n’est pas accessible pour les clients du secteur de la santé, le contenu est rendu à l’aide d’une copie binaire Journey Optimizer de l’image. Pour toute exception, veuillez contacter votre représentant Adobe.
 
 Pour personnaliser votre superposition de texte, procédez comme suit :
 
@@ -132,7 +132,7 @@ En savoir plus sur le [modèle Dynamic Media](https://experienceleague.adobe.com
 
 >[!AVAILABILITY]
 >
->**Modèle Dynamic Media** est disponible exclusivement dans Dynamic Media [mode Scene7](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/dynamic/config-dms7). Comme le mode Scene7 n’est pas accessible pour les clients du secteur de la santé, le contenu ne sera pas rendu. Pour toute exception, contactez l’assistance Experience Manager.
+>**Modèle Dynamic Media** est disponible exclusivement dans Dynamic Media [mode Scene7](https://experienceleague.adobe.com/fr/docs/experience-manager-65/content/assets/dynamic/config-dms7). Comme le mode Scene7 n’est pas accessible pour les clients du secteur de la santé, le contenu ne sera pas rendu. Pour toute exception, contactez l’assistance Experience Manager.
 
 
 ### Avec le composant Image {#image-component}
