@@ -18,7 +18,7 @@ ht-degree: 22%
 
 En intégrant Adobe Experience Manager as a Cloud Service à Adobe Journey Optimizer, vous pouvez désormais incorporer facilement vos fragments de contenu AEM dans votre contenu Journey Optimizer. Cette connexion rationalisée simplifie le processus d’accès au contenu AEM et d’utilisation de celui-ci, ce qui permet de créer des campagnes et des parcours personnalisés et dynamiques.
 
-Pour en savoir plus sur les fragments de contenu d’AEM, voir [ Utilisation de fragments de contenu ](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/sites/administering/content-fragments/content-fragments-with-journey-optimizer){target="_blank"} dans la documentation d’Experience Manager.
+Pour en savoir plus sur les fragments de contenu d’AEM, voir [ Utilisation de fragments de contenu ](https://experienceleague.adobe.com/fr/docs/experience-manager-cloud-service/content/sites/administering/content-fragments/content-fragments-with-journey-optimizer){target="_blank"} dans la documentation d’Experience Manager.
 
 >[!AVAILABILITY]
 >
@@ -122,4 +122,4 @@ Dans ce cas, assurez-vous que **_variableName_** est déclaré avant d&#39;ajout
 
 Une fois que vous avez effectué vos tests et validé le contenu, vous pouvez [envoyer votre campagne](../campaigns/review-activate-campaign.md) ou [publier votre parcours ](../building-journeys/publishing-the-journey.md) à votre audience.
 
-Adobe Experience Manager vous permet d’identifier les campagnes ou parcours Journey Optimizer dans lesquels un fragment de contenu est utilisé. En savoir plus dans la documentation de [Adobe Experience Manager](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/sites/administering/content-fragments/extension-content-fragment-ajo-external-references).
+Adobe Experience Manager vous permet d’identifier les campagnes ou parcours Journey Optimizer dans lesquels un fragment de contenu est utilisé. En savoir plus dans la documentation de [Adobe Experience Manager](https://experienceleague.adobe.com/fr/docs/experience-manager-cloud-service/content/sites/administering/content-fragments/extension-content-fragment-ajo-external-references).
