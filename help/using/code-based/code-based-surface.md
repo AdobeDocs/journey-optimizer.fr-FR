@@ -6,10 +6,10 @@ topic: Content Management
 role: Admin
 level: Experienced
 exl-id: 07ec74fb-7fbc-48c6-a8fc-f58f24a60723
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
-workflow-type: ht
-source-wordcount: '728'
-ht-degree: 100%
+source-git-commit: d3f15c09194a50b95107fb84d680606a468f8644
+workflow-type: tm+mt
+source-wordcount: '766'
+ht-degree: 90%
 
 ---
 
@@ -32,6 +32,10 @@ Une surface peut être considérée comme un conteneur à n’importe quel nivea
 * Elle peut également s’étendre à des éléments spécifiques de conteneurs de contenu à des fins de non-affichage ou d’affichage abstrait (par exemple, des objets blob JSON fournis à des services).
 
 * Il peut également s’agir d’une surface de caractères génériques qui correspond à diverses définitions de surface client (par exemple, un emplacement d’image principale sur chaque page de votre site web peut se traduire en un URI de surface comme : web://mondomaine.com/*#image_principale).
+
+>[!NOTE]
+>
+>Lorsque plusieurs actions d’expérience basées sur du code s’exécutent sur la même surface, le **[!UICONTROL score de priorité]** de la campagne ou du parcours détermine ce qui est diffusé à l’utilisateur final s’il remplit les critères de plusieurs actions. [En savoir plus sur les scores de priorité](../conflict-prioritization/priority-scores.md)
 
 ## Identifiant de surface {#surface-uri}
 
@@ -72,8 +76,8 @@ Les tableaux ci-dessous répertorient quelques exemples de définition d’URI d
 
 Dans [!DNL Journey Optimizer], le canal d’expérience basé sur du code prend en charge deux types d’implémentations clientes :
 
-* Basée sur le [SDK web Adobe Experience Platform](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html?lang=fr){target="_blank"} pour vos sites web ou sur le [SDK mobile Adobe Experience Platform](https://developer.adobe.com/client-sdks/documentation/){target="_blank"} pour vos applications mobiles ;
-* Côté serveur ou hybride à l’aide des [API de serveur AEP Edge Network](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/data-collection/interactive-data-collection.html?lang=fr){target="_blank"}.
+* Basé sur le [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html?lang=fr){target="_blank"} pour vos sites web, ou sur le [Adobe Experience Platform Mobile SDK](https://developer.adobe.com/client-sdks/documentation/){target="_blank"} pour vos applications mobiles ;
+* Côté serveur ou hybride à l’aide des [API du serveur AEP Edge Network](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/data-collection/interactive-data-collection.html?lang=fr){target="_blank"}.
 
 >[!NOTE]
 >

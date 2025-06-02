@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Experienced
 exl-id: 63aa1763-2220-4726-a45d-3a3a8b8a55ec
-source-git-commit: 0b7f76ca43ef8dda3861abf2c3b058cef725e967
+source-git-commit: d3f15c09194a50b95107fb84d680606a468f8644
 workflow-type: tm+mt
-source-wordcount: '1715'
-ht-degree: 98%
+source-wordcount: '1735'
+ht-degree: 96%
 
 ---
 
@@ -215,6 +215,10 @@ Une fois créée, la politique de décision peut être utilisée dans l’[édit
 1. Cliquez sur chaque dossier pour le développer. Placez le curseur de votre souris à l’emplacement souhaité, puis cliquez sur l’icône + en regard de l’attribut à ajouter. Vous pouvez ajouter au code autant d’attributs que vous le souhaitez.
 
    ![](assets/decision-code-based-add-decision-attributes.png)
+
+1. Veillez à placer la boucle `#each` à l&#39;intérieur d&#39;une paire de crochets `[ ]`, et ajoutez une virgule juste avant la `/each` de fermeture.
+
+   ![](assets/decision-code-based-wrap-code.png)
 
 1. Vous pouvez également ajouter tout autre attribut disponible dans l’éditeur de personnalisation, tel que des attributs de profil.
 

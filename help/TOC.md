@@ -5,9 +5,9 @@ user-guide-title: Guide de Journey Optimizer
 user-guide-description: Utilisez Journey Optimizer pour créer et proposer aux clients des expériences connectées, contextuelles et personnalisées
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: a5ee7c668b51a761266b50216047caf48496f678
+source-git-commit: d3f15c09194a50b95107fb84d680606a468f8644
 workflow-type: tm+mt
-source-wordcount: '2393'
+source-wordcount: '2398'
 ht-degree: 96%
 
 ---
@@ -61,6 +61,7 @@ ht-degree: 96%
       + [Fin de votre parcours](using/building-journeys/end-journey.md)
       + [Copier un parcours dans un autre sandbox](using/building-journeys/copy-to-sandbox.md)
       + [Résoudre les problèmes de votre parcours](using/building-journeys/troubleshooting.md)
+      + [Résolution des problèmes liés aux actions entrantes dans parcours](using/building-journeys/troubleshooting-inbound.md)
       + [Intégration avec les services intelligents](using/building-journeys/ai-services-overview.md)
    + Activités {#about-journey-building}
       + [Prise en main des activités de parcours](using/building-journeys/about-journey-activities.md)
@@ -222,7 +223,7 @@ ht-degree: 96%
       + [Aperçu à l’aide de profils de test](using/content-management/preview.md)
       + [Envoyer des BAT à l’aide des données de profil de test](using/content-management/proofs.md)
       + [Tester le rendu des e-mails](using/content-management/rendering.md)
-      + [Simuler les variations de contenu](using/test-approve/simulate-sample-input.md)
+      + [Simuler les variations du contenu](using/test-approve/simulate-sample-input.md)
       + [Rapport de spam des e-mails](using/content-management/spam-report.md)
    + Approuver les parcours et les campagnes {#approve}
       + [Commencer les approbations](using/test-approve/gs-approval.md)

@@ -6,10 +6,10 @@ topic: Content Management
 role: Admin
 level: Experienced
 exl-id: 1aff2f6f-914c-4088-afd8-58bd9edfe07d
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
-workflow-type: ht
-source-wordcount: '1073'
-ht-degree: 100%
+source-git-commit: d3f15c09194a50b95107fb84d680606a468f8644
+workflow-type: tm+mt
+source-wordcount: '1118'
+ht-degree: 95%
 
 ---
 
@@ -23,6 +23,10 @@ ht-degree: 100%
 Avant de [créer votre expérience](create-code-based.md), vous devez créer une configuration d’expérience basée sur du code dans laquelle vous allez définir où le contenu sera diffusé et utilisé dans votre application.
 
 Une configuration d’expérience basée sur du code doit référencer la surface, qui est essentiellement l’emplacement où vous souhaitez effectuer le rendu de vos modifications. Selon la plateforme sélectionnée, vous devez saisir un emplacement/chemin ou l’URI complet de la surface. [En savoir plus](code-based-surface.md)
+
+>[!NOTE]
+>
+>Lorsque vous disposez de plusieurs actions d’expérience basées sur le code utilisant la même configuration de canal (et s’exécutant donc sur la même surface), le **[!UICONTROL score de priorité]** de la campagne ou du parcours détermine ce qui est diffusé à l’utilisateur final s’il remplit les critères de plusieurs actions. [En savoir plus sur les scores de priorité](../conflict-prioritization/priority-scores.md)
 
 ## Création d’une configuration d’expérience basée sur du code {#create-code-based-configuration}
 
