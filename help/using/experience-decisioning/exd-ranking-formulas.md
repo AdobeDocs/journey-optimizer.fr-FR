@@ -50,7 +50,7 @@ Pour créer une formule de classement, procédez comme suit.
 
 Chaque fois que vous vous référez à un score du modèle lors de la définition de votre formule ci-dessous, le modèle d’IA que vous avez sélectionné sera utilisé.
 
-    >[!ATTENTION]
+    >[ !ATTENTION]
     >
     >Lors de l’utilisation d’un modèle d’IA incorporé dans une formule de classement, les données ne sont pas reflétées dans le rapport [Taux de conversion pour le trafic d’exclusion et piloté par le modèle](../reports/campaign-global-report-cja-code.md#conversion-rate).
 
