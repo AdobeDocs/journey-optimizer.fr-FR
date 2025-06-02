@@ -9,10 +9,10 @@ role: User
 level: Beginner
 keywords: contenu, expérience, multiple, audience, traitement
 exl-id: bd35ae19-8713-4571-80bc-5f40e642d121
-source-git-commit: c1dc65616219520a72416a62399f7c2dbca7ca77
+source-git-commit: 348a1c0bfaca1abe7fd5705b36879af30da18e54
 workflow-type: tm+mt
-source-wordcount: '746'
-ht-degree: 100%
+source-wordcount: '1218'
+ht-degree: 60%
 
 ---
 
@@ -102,6 +102,8 @@ L’objectif ici est de voir si les destinataires interagissent avec l’e-mail 
 
    ![](assets/content_experiment_13.png)
 
+1. Activez l’expérience de mise à l’échelle automatique pour déployer automatiquement la variation gagnante de votre expérience. [En savoir plus sur la mise à l’échelle du gagnant](#scale-winner)
+
 1. Cliquez sur **[!UICONTROL Créer]** lorsque la configuration est terminée.
 
 ## Concevoir vos traitements {#treatment-experiment}
@@ -127,4 +129,80 @@ L’objectif ici est de voir si les destinataires interagissent avec l’e-mail 
 1. Une fois le contenu de votre message défini, cliquez sur le bouton **[!UICONTROL Simuler du contenu]** afin de contrôler le rendu de votre diffusion et vérifiez les paramètres de personnalisation avec les profils de test. [En savoir plus](../content-management/preview-test.md).
 
 Après avoir paramétré votre expérimentation, vous pouvez suivre le succès de votre diffusion avec votre rapport. [En savoir plus](../reports/campaign-global-report-cja-experimentation.md)
+
+## Mettre à l’échelle le gagnant {#scale-winner}
+
+>[!AVAILABILITY]
+>
+>La fonction Mettre à l’échelle le gagnant est actuellement prise en charge pour les canaux suivants :
+>
+>* Canaux entrants (par exemple, web, message in-app, expérience basée sur le code) dans n’importe quel parcours ou campagne.
+>* Canaux sortants (par exemple, e-mail, notification push, SMS) dans les campagnes transactionnelles déclenchées par API.
+
+Mettre à l’échelle le gagnant vous permet de déployer automatiquement ou manuellement la variation gagnante d’une expérience sur l’ensemble de votre audience. Cette fonctionnalité garantit qu’une fois qu’un gagnant est déterminé, vous pouvez amplifier sa portée et son efficacité sans surveiller constamment l’expérience.
+
+Vous avez le choix entre deux modes :
+
+* **Mise à l’échelle automatique** : configurez les paramètres de mise à l’échelle automatique lors de la création de votre expérience en choisissant le timing et les conditions de mise à l’échelle du traitement gagnant ou une option de secours si aucun gagnant ne se dégage.
+
+* **Mise à l’échelle manuelle** : passez en revue manuellement les résultats de l’expérience et lancez le déploiement du traitement gagnant, en gardant un contrôle total sur le timing et les décisions.
+
+
+### Mise à l’échelle automatique {#autoscaling}
+
+La mise à l’échelle automatique vous permet de définir des règles prédéfinies pour le moment du déploiement du traitement gagnant ou d’un traitement de secours, en fonction des résultats de l’expérience.
+
+Notez qu’une fois la mise à l’échelle automatique effectuée, la mise à l’échelle manuelle n’est plus disponible.
+
+Pour activer la mise à l’échelle automatique dans vos expériences :
+
+1. Configurez votre campagne ou votre parcours et configurez votre expérience selon vos besoins. [En savoir plus](#configure-experiment)
+
+1. Activez l’option de mise à l’échelle automatique lors de la configuration de votre expérience.
+
+   ![](assets/scale-winner-1.png)
+
+1. Sélectionnez le moment où le gagnant doit être mis à l’échelle :
+
+   * Dès que le gagnant est trouvé.
+   * Une fois l’expérience activée pendant l’heure sélectionnée.
+
+     L’heure de mise à l’échelle automatique doit être planifiée avant la date de fin de l’expérience. Si elle est définie pour une heure postérieure à la date de fin, un avertissement de validation s’affiche et la campagne ou le parcours n’est pas publié.
+
+   ![](assets/scale-winner-2.png)
+
+1. Choisissez le comportement de secours si aucun gagnant n’est trouvé par heure d’échelle :
+
+   * Poursuivez l’expérience jusqu’à sa fin comme prévu.
+   * Mettez à l’échelle le traitement alternatif après une heure spécifiée.
+
+Une fois tous les paramètres satisfaits, votre traitement gagnant ou alternatif est envoyé à votre audience.
+
+### Mise à l’échelle manuelle {#manual-scaling}
+
+La mise à l’échelle manuelle vous permet d’examiner les résultats de l’expérience et de décider quand déployer le traitement gagnant selon votre propre planning.
+
+Notez que si vous mettez manuellement à l’échelle l’expérience gagnante avant l’heure de mise à l’échelle automatique planifiée, la mise à l’échelle automatique est annulée.
+
+Pour mettre à l’échelle manuellement le gagnant de vos expériences :
+
+1. Configurez votre campagne ou votre parcours et configurez votre expérience selon vos besoins. [En savoir plus](#configure-experiment)
+
+1. Laissez l’expérience se poursuivre jusqu’à ce qu’un gagnant soit identifié ou que la signification statistique soit atteinte.
+
+1. Ouvrez le tableau de bord de votre campagne ou sélectionnez l’activité de votre canal dans votre parcours.
+
+   Examinez les résultats dans le menu **[!UICONTROL Expérience de contenu]** pour identifier le traitement le plus performant.
+
+   ![](assets/scale-winner-jo.png)
+
+1. Cliquez sur **[!UICONTROL Mettre à l’échelle le traitement]** pour envoyer le traitement gagnant au reste de votre audience.
+
+   ![](assets/scale-winner-campaign.png)
+
+1. Sélectionnez le traitement à mettre à l’échelle dans le menu déroulant, puis cliquez sur **[!UICONTROL Mettre à l’échelle]**.
+
+   ![](assets/scale-winner-3.png)
+
+Notez que la mise à l’échelle du traitement peut prendre jusqu’à une heure. Vous recevrez une notification une fois le processus de mise à l’échelle manuelle terminé.
 
