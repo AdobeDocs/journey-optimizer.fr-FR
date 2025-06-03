@@ -26,15 +26,15 @@ Lors du test de l’[expérience basée sur le code](create-code-based.md) avec 
 Après avoir publié votre campagne, ajoutez l’indicateur `dryRun` dans le bloc de `data` d’événement XDM de votre implémentation client :
 
      »
-    {
-    « data »: {
-     »__adobe »: {
-    « ajo »: {
+    &lbrace;
+    « data »: &lbrace;
+     »__adobe »: &lbrace;
+    « ajo »: &lbrace;
     « dryRun »: true
-    }
-    }
-    }
-    }
+    &rbrace;
+    &rbrace;
+    &rbrace;
+    &rbrace;
      »
 
 <!--
