@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 35d7488b-e7d8-402f-b337-28a0c869bff0
-source-git-commit: 86b83f8b368a77ef96581c422f19f35d939e51f4
+source-git-commit: 2f2caf8615af8e3526124e0d7ed91873ccb6edc3
 workflow-type: tm+mt
-source-wordcount: '1182'
-ht-degree: 21%
+source-wordcount: '1179'
+ht-degree: 22%
 
 ---
 
@@ -48,11 +48,11 @@ Pour créer une formule de classement, procédez comme suit.
    >
    >[Les modèles d’optimisation personnalisés](../offers/ranking/personalized-optimization-model.md) utilisant des mesures continues ne sont pas pris en charge avec le créateur de formules d’IA.
 
-Chaque fois que vous vous référez à un score du modèle lors de la définition de votre formule ci-dessous, le modèle d’IA que vous avez sélectionné sera utilisé.
+   Chaque fois que vous vous référez à un score du modèle lors de la définition de votre formule ci-dessous, le modèle d’IA que vous avez sélectionné sera utilisé.
 
-    >[ !ATTENTION]
-    >
-    >Lors de l’utilisation d’un modèle d’IA incorporé dans une formule de classement, les données ne sont pas reflétées dans le rapport [Taux de conversion pour le trafic d’exclusion et piloté par le modèle](../reports/campaign-global-report-cja-code.md#conversion-rate).
+   >[!CAUTION]
+   >
+   >Lors de l’utilisation d’un modèle d’IA intégré à une formule de classement, les données ne sont pas reflétées dans le rapport [ Taux de conversion du trafic d’exclusion et piloté par le modèle ](../reports/campaign-global-report-cja-code.md#conversion-rate).
 
 1. Définissez les conditions qui détermineront le score de classement pour les éléments de décision correspondants. Vous pouvez effectuer l’une des opérations suivantes :
 
