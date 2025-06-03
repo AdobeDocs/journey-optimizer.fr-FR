@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: a7468879b36dfe9184471824b387f1638fae3d50
-workflow-type: ht
-source-wordcount: '2504'
-ht-degree: 100%
+source-git-commit: 9618c46a8559631036d308bcc8defab77b88c052
+workflow-type: tm+mt
+source-wordcount: '2503'
+ht-degree: 99%
 
 ---
 
@@ -21,7 +21,11 @@ Vous trouverez ci-dessous des mécanismes de sécurisation et des limitations su
 
 Les droits, les limitations de produit et la sécurisation des performances sont répertoriés dans la [page de description du produit Adobe Journey Optimizer](https://helpx.adobe.com/fr/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}.
 
-Vous devez également connaître les [mécanismes de sécurisation pour les données de profil client en temps réel](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=fr){target="_blank"} avant de commencer.
+
+>[!CAUTION]
+>
+>[Les mécanismes de sécurisation pour les données et la segmentation du profil client en temps réel](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=fr){target="_blank"} s’appliquent également à Adobe Journey Optimizer.
+
 
 ## Navigateurs pris en charge {#browsers}
 

@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: activité, parcours, lecture, audience, platform
 exl-id: 7b27d42e-3bfe-45ab-8a37-c55b231052ee
-source-git-commit: c52049383bf6a8b60fcb0ab1c2331724c8cdb771
+source-git-commit: 9618c46a8559631036d308bcc8defab77b88c052
 workflow-type: tm+mt
-source-wordcount: '2168'
+source-wordcount: '2182'
 ht-degree: 99%
 
 ---
@@ -31,7 +31,7 @@ Prenons l’exemple de l’audience « Ouverture et passage en caisse de l’ap
 
 ➡️ [Découvrez cette fonctionnalité en vidéo](#video)
 
-## Mécanismes de sécurisation et bonnes pratiques {#must-read}
+## Mécanismes de sécurisation et recommandations {#must-read}
 
 * Vous ne pouvez utiliser qu’une seule activité **[!UICONTROL Lecture d’audience]** dans un parcours. Il doit s’agir de la première activité de la zone de travail.
 
@@ -46,6 +46,11 @@ Prenons l’exemple de l’audience « Ouverture et passage en caisse de l’ap
 * Les audiences [importées d’un fichier CSV](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=fr#import-audience) ou résultant de [workflows de composition](../audience/get-started-audience-orchestration.md) peuvent être sélectionnées dans l’activité **Lecture d’audience**. Ces audiences ne sont pas disponibles dans l’activité **Qualification de l’audience**.
 
 Les mécanismes de sécurisation liés à l’activité **Lecture d’audience** sont répertoriées sur [cette page](../start/guardrails.md#read-segment-g).
+
+
+>[!CAUTION]
+>
+>[Les mécanismes de sécurisation pour les données et la segmentation du profil client en temps réel](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=fr){target="_blank"} s’appliquent également à Adobe Journey Optimizer.
 
 ## Configurer l’activité {#configuring-segment-trigger-activity}
 
@@ -282,4 +287,4 @@ Les déclencheurs **Lecture d’audience** échoués sont capturés et affichés
 
 Comprenez les cas d’utilisation applicables pour un parcours déclenché par l’activité de lecture d’audience. Découvrez comment créer des parcours basés sur des lots et les bonnes pratiques à appliquer.
 
->[!VIDEO](https://video.tv.adobe.com/v/3430370?quality=12&captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/3424997?quality=12)

@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: qualification, événements, audience, parcours, platform
 exl-id: 7e70b8a9-7fac-4450-ad9c-597fe0496df9
-source-git-commit: 948637433e1a90421ff8bab87f78f92b02354a89
+source-git-commit: 9618c46a8559631036d308bcc8defab77b88c052
 workflow-type: tm+mt
-source-wordcount: '1210'
-ht-degree: 97%
+source-wordcount: '1236'
+ht-degree: 95%
 
 ---
 
@@ -33,7 +33,10 @@ Il est possible de positionner ce type d’événement dès la première étape,
 
 ➡️ [Découvrez cette fonctionnalité en vidéo](#video)
 
-### Remarques importantes {#important-notes-segment-qualification}
+### Mécanismes de sécurisation et recommandations {#important-notes-segment-qualification}
+
+Suivez les mécanismes de sécurisation et les recommandations ci-dessous pour créer des parcours de qualification d’audience. Consultez également la section [ Bonnes pratiques en matière de qualification d’audience](#best-practices-segments).
+
 
 * Les parcours de qualification d’audience sont principalement conçus pour fonctionner avec les audiences en streaming : cette combinaison garantit une meilleure expérience en temps réel. Nous vous recommandons vivement d’utiliser uniquement l’**audience en streaming** dans l’activité de qualification d’audience.
 
@@ -55,7 +58,11 @@ Il est possible de positionner ce type d’événement dès la première étape,
 * Lorsque vous utilisez une activité de **qualification d’audience** dans un parcours, cette activité peut prendre jusqu’à 10 minutes avant d’être active et d’écouter les profils entrant ou sortant de l’audience.
 
 
-Consultez également la section [Bonnes pratiques en matière de qualification d’audience](#best-practices-segments) ci-dessous.
+>[!CAUTION]
+>
+>[Les mécanismes de sécurisation pour les données et la segmentation du profil client en temps réel](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=fr){target="_blank"} s’appliquent également à Adobe Journey Optimizer.
+
+
 
 ### Configurer l’activité {#configure-segment-qualification}
 
@@ -127,7 +134,7 @@ Lorsque vous utilisez la qualification d’audience pour les audiences en stream
 
 Évitez d’utiliser des événements d’ouverture et d’envoi avec la segmentation par streaming. Utilisez plutôt les signaux d’activité des utilisateurs et utilisatrices, tels que les clics, les achats ou les données de balise. Pour la logique de fréquence ou de suppression, utilisez des règles métier plutôt que des événements d&#39;envoi. [En savoir plus](../audience/about-audiences.md#open-and-send-event-guardrails)
 
-Pour plus d’informations sur la segmentation par streaming, consultez la [documentation d’Adobe Experience Platform](https://experienceleague.adobe.com/fr/docs/experience-platform/segmentation/methods/streaming-segmentation){target="_blank"}.
+Pour plus d’informations sur la segmentation par streaming, consultez la [documentation d’Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/methods/streaming-segmentation){target="_blank"}.
 
 ### Éviter les surcharges {#overloads-speed-segment-qualification}
 
@@ -147,4 +154,4 @@ Avant d’utiliser l’audience dans un parcours, évaluez toujours d’abord le
 
 Découvrez des cas d’utilisation des parcours de qualification d’audience dans cette vidéo. Découvrez comment créer un parcours avec qualification d’audience et les bonnes pratiques à appliquer.
 
->[!VIDEO](https://video.tv.adobe.com/v/3446206?quality=12&captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/3425028?quality=12)
