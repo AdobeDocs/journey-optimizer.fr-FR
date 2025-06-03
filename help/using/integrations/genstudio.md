@@ -16,7 +16,7 @@ ht-degree: 92%
 
 ---
 
-# Utilisation de GenStudio for Performance Marketing {#ajo-genstudio}
+# Utiliser GenStudio for Performance Marketing {#ajo-genstudio}
 
 >[!CONTEXTUALHELP]
 >id="ajo_genstudio_button"
@@ -140,4 +140,4 @@ Après avoir exécuté l’expérience, suivez les performances de vos traitemen
 
 Découvrez le processus d’export d’un modèle d’e-mail de Journey Optimizer vers GenStudio for Performance Marketing, de création d’e-mails conformes à la marque à l’aide du modèle dans GenStudio et de réimport transparent dans Journey Optimizer.
 
->[!VIDEO](https://video.tv.adobe.com/v/3456051/?quality=12&captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/3456038/?quality=12)

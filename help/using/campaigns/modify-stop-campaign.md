@@ -12,7 +12,7 @@ exl-id: 1b88c84e-9d92-4cc1-b9bf-27a2f1d29569
 source-git-commit: 29d12b6190f49e7f3f6fd2760e522a5a62c0de87
 workflow-type: tm+mt
 source-wordcount: '868'
-ht-degree: 64%
+ht-degree: 69%
 
 ---
 
@@ -27,7 +27,7 @@ De plus, vous pouvez dupliquer des campagnes dynamiques (exécutées une fois ou
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_view"
 >title="Vues Liste et Calendrier des campagnes"
->abstract="Outre la liste des campagnes, [!DNL Journey Optimizer] fournit une vue Calendrier de vos campagnes, offrant une représentation visuelle claire de leurs plannings. Vous pouvez basculer entre les vues Liste et Calendrier à tout moment à l’aide de ces boutons."
+>abstract="Outre la liste des campagnes, [!DNL Journey Optimizer] fournit une vue Calendrier de vos campagnes, ce qui apporte une représentation visuelle claire de leurs plannings. Vous pouvez basculer entre les vues Liste et Calendrier à tout moment à l’aide de ces boutons."
 
 Les campagnes sont accessibles à partir du menu **[!UICONTROL Campagnes]**.
 
