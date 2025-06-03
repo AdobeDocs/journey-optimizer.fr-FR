@@ -54,7 +54,7 @@ Un tableau de bord montre visuellement les chevauchements entre des audiences im
 
 À partir du portail Audience, vous pouvez facilement gérer, rechercher et explorer des audiences avec un étiquetage normalisé, des contrôles de gouvernance, des dossiers pouvant faire l’objet de recherches et des balises.
 
-Pour plus d’informations sur l’utilisation des audiences dans Audience Portal, reportez-vous à la documentation du service de segmentation de Adobe Experience Platform [](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=fr){target="_blank"}.
+Pour plus d’informations sur l’utilisation des audiences dans Audience Portal, reportez-vous à la documentation du service de segmentation de Adobe Experience Platform [&#128279;](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=fr){target="_blank"}.
 
 ## Types d’audiences {#types}
 
