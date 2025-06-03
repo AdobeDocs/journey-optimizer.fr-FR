@@ -40,7 +40,7 @@ Consultez le dictionnaire des schémas de Journey Optimizer [&#128279;](https://
 
 Découvrez comment créer un schéma, ajouter des groupes de champs, et créer et configurer des groupes de champs personnalisés.
 
->[!VIDEO](https://video.tv.adobe.com/v/334461?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3416870?quality=12&captions=fre_fr)
 
 >[!MORELIKETHIS]
 >
