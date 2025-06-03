@@ -9,9 +9,9 @@ role: Admin, Architect
 level: Intermediate
 keywords: autorisations, droits, restrictions, accès, sandbox
 exl-id: b8e266b1-d8eb-4c77-9341-9761b82609b0
-source-git-commit: fbcddcf10974f16eb6885ebb38b7be41f2e53639
+source-git-commit: 404fffa8d1f2ed40b18246002b67e2b533d8c19e
 workflow-type: tm+mt
-source-wordcount: '437'
+source-wordcount: '438'
 ht-degree: 33%
 
 ---
@@ -36,7 +36,7 @@ Pour configurer le contrôle d’accès de Journey Optimizer, vous devez dispose
 
 La gestion des utilisateurs dans [!DNL Journey Optimizer] repose sur les concepts clés suivants :
 
-* **[!UICONTROL Rôle]** : les rôles font référence à un ensemble d’utilisateurs qui partagent les mêmes autorisations et sandbox. Ces rôles vous permettent de gérer facilement l’accès et les autorisations pour différents groupes d’utilisateurs et d’utilisatrices au sein de votre organisation. Un rôle s’accompagne d’un ensemble de droits unitaires qui permettent aux utilisateurs et utilisatrices d’accéder à certaines fonctionnalités ou à certains objets de l’interface.
+* **[!UICONTROL Rôles]** : les rôles font référence à un ensemble d’utilisateurs qui partagent les mêmes autorisations et sandbox. Ces rôles vous permettent de gérer facilement l’accès et les autorisations pour différents groupes d’utilisateurs et d’utilisatrices au sein de votre organisation. Un rôle s’accompagne d’un ensemble de droits unitaires (autorisations) qui permettent aux utilisateurs et utilisatrices d’accéder à certaines fonctionnalités ou à certains objets de l’interface.
 Avec [!DNL Journey Optimizer], vous pouvez choisir parmi un éventail de **[!UICONTROL rôles]** préexistants, chacun avec différents niveaux d’autorisations, à affecter à vos utilisateurs et utilisatrices. En savoir plus sur les **rôles intégrés** disponibles sur [cette page](ootb-product-profiles.md).
 
 * **[!UICONTROL Autorisations]** : les autorisations sont des droits unitaires qui permettent de définir les autorisations attribuées aux **[!UICONTROL Rôles]**. Chaque autorisation est regroupée sous des ressources, par exemple Parcours ou Offres, ce qui représente les différentes fonctionnalités ou objets dans [!DNL Journey Optimizer]. Pour en savoir plus, consultez la section [Niveaux d’autorisation](high-low-permissions.md).

@@ -9,18 +9,14 @@ topic: Administration
 role: Admin
 level: Intermediate
 keywords: produit, profils, sandbox
-source-git-commit: 8093af8c3e7484f9ebed8dbc50065bcff0459581
+source-git-commit: 404fffa8d1f2ed40b18246002b67e2b533d8c19e
 workflow-type: tm+mt
-source-wordcount: '726'
-ht-degree: 65%
+source-wordcount: '710'
+ht-degree: 51%
 
 ---
 
 # Gérer les utilisateurs et utilisatrices et les rôles {#manage-permissions}
-
->[!IMPORTANT]
->
-> Chacune des procédures présentées ci-dessous ne peut être réalisée que par un administrateur ou une administratrice **[!UICONTROL Produit]** ou **[!UICONTROL Système]**.
 
 Les **[!UICONTROL rôles]** se rapportent à un ensemble d’utilisateurs et d’utilisatrices qui partagent les mêmes autorisations et sandbox. Ces rôles vous permettent de gérer facilement les accès et les autorisations pour différents groupes d’utilisateurs et d’utilisatrices au sein de votre organisation.
 
@@ -29,6 +25,12 @@ Avec le produit [!DNL Journey Optimizer], vous pouvez choisir parmi un éventail
 Lorsqu’un utilisateur appartient à un **[!UICONTROL rôle]**, il a accès aux applications et services Adobe contenus dans le produit.
 
 Si les rôles préexistants ne répondent pas aux besoins spécifiques de votre organisation, vous pouvez également créer des **[!UICONTROL rôles]** personnalisés pour affiner l’accès à certaines fonctionnalités ou à certains objets de l’interface. Ainsi, vous vous assurez que chaque utilisateur n’a accès qu’aux ressources et outils dont il a besoin pour exécuter ses tâches efficacement.
+
+
+>[!IMPORTANT]
+>
+>Les étapes et procédures détaillées ci-dessous ne peuvent être effectuées que par un administrateur **[!UICONTROL Produit]** ou **[!UICONTROL Système]**.
+
 
 ## Attribuer un rôle {#assigning-role}
 
@@ -62,13 +64,15 @@ Lors de l’accès à l’instance, l’utilisateur voit une vue spécifique en 
 
 ## Modifier un rôle existant {#edit-product-profile}
 
-Pour les **[!UICONTROL rôles]** personnalisés ou prêts à l’emploi, vous pouvez décider à tout moment d’ajouter ou de supprimer des autorisations.
+Pour les **[!UICONTROL rôles]** intégrés ou personnalisés, vous pouvez décider à tout moment d’ajouter ou de supprimer des autorisations.
 
-Dans cet exemple, nous souhaitons ajouter des **[!UICONTROL autorisations]** liées à la ressource **[!UICONTROL Parcours]** pour les utilisateurs et utilisatrices affectés au **[!UICONTROL rôle]** Observateur de parcours. Les utilisateurs et utilisatrices pourront alors publier des parcours.
+Dans l’exemple ci-dessous, nous souhaitons ajouter des **[!UICONTROL autorisations]** liées à la ressource **[!UICONTROL Parcours]** pour les utilisateurs affectés à la visionneuse de Parcours **[!UICONTROL Rôle]**. Les utilisateurs et utilisatrices pourront alors publier des parcours.
 
-Notez que si vous modifiez un **[!UICONTROL rôle]** personnalisé ou prêt à l’emploi, cela aura un effet sur chaque personne utilisatrice affectée à ce **[!UICONTROL rôle]**.
+>[!IMPORTANT]
+>
+>Les modifications apportées à un rôle intégré ou personnalisé affecteront tous les utilisateurs affectés à ce rôle.
 
-1. Pour attribuer un rôle à un utilisateur ou une utilisatrice dans le produit [!DNL Permissions], accédez à l’onglet **[!UICONTROL Rôles]** et sélectionnez le rôle de votre choix. Dans ce cas, le **[!UICONTROL rôle]** Observateur de parcours.
+1. Pour modifier un rôle dans le produit [!DNL Permissions], accédez à l’onglet **[!UICONTROL Rôles]** et sélectionnez le rôle souhaité, ici la visionneuse de Parcours **[!UICONTROL Rôle]**.
    ![](assets/do-not-localize/access_control_5.png)
 
 1. À partir du tableau de bord **[!UICONTROL Rôle]**, cliquez sur **[!UICONTROL Modifier]**.
@@ -85,7 +89,7 @@ Notez que si vous modifiez un **[!UICONTROL rôle]** personnalisé ou prêt à l
 
 1. Lorsque vous avez terminé, cliquez sur **[!UICONTROL Enregistrer]**.
 
-Si nécessaire, vous pouvez également créer un nouveau rôle avec des autorisations spécifiques. Pour plus d’informations à ce sujet, consultez la section [Création d’un rôle](#create-product-profile).
+Si nécessaire, vous pouvez également créer un nouveau rôle avec des autorisations spécifiques.
 
 ## Créer un rôle {#create-product-profile}
 
