@@ -2,17 +2,17 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Niveaux d’autorisation
-description: Découvrez les autorisations de niveau supérieur et inférieur qui permettent aux utilisateurs et utilisatrices d’accéder aux différentes fonctionnalités.
+description: Découvrez les autorisations de haut et de bas niveau permettant aux utilisateurs d’accéder aux différentes fonctionnalités.
 topic: Administration
 feature: Access Management
 role: Admin, Architect, Developer
 level: Experienced
 keywords: autorisation, haut niveau, bas niveau, profil, admin console
 exl-id: 1b286f9d-43ef-4b80-b4ee-136da857bb95
-source-git-commit: 9d87d133bb580ebed94a265beded5895f7fd0301
-workflow-type: ht
-source-wordcount: '1063'
-ht-degree: 100%
+source-git-commit: 1a2c6e97fcd30245cff1bf08fd5771ce8bc84ddc
+workflow-type: tm+mt
+source-wordcount: '1056'
+ht-degree: 95%
 
 ---
 
@@ -25,7 +25,7 @@ Elles peuvent être divisées en deux types :
 
 * **Autorisation de haut niveau** : représente les différentes autorisations qui peuvent être attribuées au **[!UICONTROL rôle]**, telles que **[!DNL Publish journeys]** et **[!DNL Manage subdomains delegation]**. Les autorisations de haut niveau englobent les autorisations de bas niveau. Les autorisations de haut niveau sont détaillées sur [cette page](ootb-permissions.md).
 
-* **Autorisation de bas niveau** : représente les différentes autorisations qui proviennent de l&#39;autorisation de haut niveau.
+* **Autorisation de bas niveau** : représente les différentes autorisations qui proviennent de l&#39;autorisation de haut niveau.
 
 Par exemple, le rôle **[!DNL Journey administrator]** se voit attribuer lʼautorisation **[!DNL Manage journeys]**. À partir de cette autorisation, les autorisations de bas niveau permettent à lʼadministrateur ou l’adminnistratrice de parcours dʼécrire, de lire et de supprimer des parcours.
 
