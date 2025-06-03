@@ -33,7 +33,7 @@ Découvrez comment utiliser l’interface utilisateur des schémas dans [cette d
 
 La documentation détaillée pour créer un schéma à l’aide de l’éditeur de schémas est disponible dans la documentation de [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=fr){target="_blank"}.
 
-Consultez le dictionnaire des schémas de Journey Optimizer [](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=fr){target="_blank"} pour afficher la liste complète des champs et attributs de chaque schéma.
+Consultez le dictionnaire des schémas de Journey Optimizer [&#128279;](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=fr){target="_blank"} pour afficher la liste complète des champs et attributs de chaque schéma.
 
 
 ## Vidéo pratique{#video-schema}

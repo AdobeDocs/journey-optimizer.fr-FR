@@ -38,11 +38,11 @@ Notez que les **[!UICONTROL Rôles]**, **[!UICONTROL Politiques]** et **[!UICONT
 
 >[!IMPORTANT]
 >
->>Avant de gérer les autorisations d’un rôle, créez une politique. Pour plus d’informations, consultez la [documentation Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/access-control/abac/permissions-ui/policies.html?lang=fr){target="_blank"}.
+>&#x200B;>Avant de gérer les autorisations d’un rôle, créez une politique. Pour plus d’informations, consultez la [documentation Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/access-control/abac/permissions-ui/policies.html?lang=fr){target="_blank"}.
 
 Les **[!UICONTROL rôles]** sont un ensemble d’utilisateurs qui partagent les mêmes autorisations, libellés et sandbox au sein de votre organisation. Chaque utilisateur appartenant à un **[!UICONTROL rôle]** a droit aux applications et services Adobe contenus dans le produit. Vous pouvez également créer vos propres **[!UICONTROL Rôles]** pour affiner l&#39;accès des utilisateurs à certaines fonctionnalités ou objets de l&#39;interface.
 
-Pour accorder aux utilisateurs sélectionnés l’accès au champ **Nationalité** libellé C2, créez un nouveau **[!UICONTROL Rôle]** avec un ensemble spécifique d’utilisateurs et attribuez-leur le libellé C2, ce qui leur permet d’utiliser les détails **Nationalité** dans un Parcours ****.
+Pour accorder aux utilisateurs sélectionnés l’accès au champ **Nationalité** libellé C2, créez un nouveau **[!UICONTROL Rôle]** avec un ensemble spécifique d’utilisateurs et attribuez-leur le libellé C2, ce qui leur permet d’utiliser les détails **Nationalité** dans un Parcours **&#x200B;**.
 
 1. Dans le produit [!DNL Permissions], sélectionnez le **[!UICONTROL rôle]** dans le menu du volet de gauche, puis cliquez sur **[!UICONTROL Créer un rôle]**. Notez que vous pouvez également ajouter un **[!UICONTROL libellé]** aux rôles intégrés.
 
