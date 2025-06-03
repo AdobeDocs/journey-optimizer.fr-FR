@@ -6,9 +6,9 @@ feature: Release Notes
 topic: Content Management
 description: Notes de mise à jour d’Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 6da1d9a3edb8a30b8f13fd0cb6a138f22459ad00
+source-git-commit: 4945e2fb37b54683f56ca3b832553345486d0a80
 workflow-type: tm+mt
-source-wordcount: '1394'
+source-wordcount: '1416'
 ht-degree: 89%
 
 ---
@@ -23,7 +23,6 @@ ht-degree: 89%
 [!DNL Adobe Journey Optimizer] offre en permanence de nouvelles fonctionnalités, des améliorations des fonctionnalités existantes et des correctifs. Toutes les modifications sont consolidées la dernière semaine de chaque mois dans ces notes de mise à jour. [!DNL Adobe Journey Optimizer] est créée de manière native sur [!DNL Adobe Experience Platform] et hérite de ses dernières innovations et améliorations. En savoir plus sur ces modifications dans les [Notes de mise à jour d’Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=fr){target="_blank"}.
 
 ## Mises à jour du 25 juin {#25-6-rn}
-
 
 <table>
 <thead>
@@ -41,7 +40,7 @@ ht-degree: 89%
 </tbody>
 </table>
 
-&lt;<table>
+<table>
 <thead>
 <tr>
 <th><strong>Conflit et hiérarchisation</strong><br/></th>
@@ -63,6 +62,13 @@ ht-degree: 89%
 </tr>
 </tbody>
 </table>
+
+### Améliorations
+
+* **Decisioning** - Date de disponibilité : 3 juin 2025
+
+  Les objets de prise de décision peuvent désormais être copiés entre les sandbox, ce qui simplifie les workflows de test et de déploiement. [En savoir plus](../configuration/copy-objects-to-sandbox.md#decisioning)
+
 
 ## Notes de mise à jour de mai 2025 {#25-5-rn}
 
@@ -260,10 +266,6 @@ Les améliorations de cette version sont présentées ci-dessous.
 * **Nouvelle prise en charge des objets de campagne pour la copie de sandbox** - Date de disponibilité : 15 mai 2025
 
   Lors de la copie de campagnes sur plusieurs sandbox à l’aide des fonctionnalités d’export et d’import de package, les dépendances suivantes sont désormais également copiées : configurations de canal, variantes et paramètres d’expérience, politiques et éléments de décision. [En savoir plus](../configuration/copy-objects-to-sandbox.md)
-
-  <!--* **Decisioning** - Availability date: May 16, 2025
-
-    Decisioning objects can now be copied between sandboxes, streamlining testing and deployment workflows. [Read more](../configuration/copy-objects-to-sandbox.md#decisioning)-->
 
 * **Dossiers pour les pages de destination** - date de disponibilité : 9 mai 2025
 
