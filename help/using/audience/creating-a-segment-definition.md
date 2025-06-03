@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 289aac5d-6cdb-411f-985e-3acef58050a8
-source-git-commit: 948637433e1a90421ff8bab87f78f92b02354a89
+source-git-commit: d87f33c80cc85b1d1a87150687f6d7c9a268a016
 workflow-type: tm+mt
-source-wordcount: '1016'
-ht-degree: 91%
+source-wordcount: '1001'
+ht-degree: 67%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 91%
 
 ## Création d’une définition de segment {#create}
 
-Dans cet exemple, nous allons créer une audience pour cibler tous les clientes et clients résidant à Atlanta, San Francisco ou Seattle et nés après 1980. Tous ces clients et clientes doivent avoir effectué un achat au cours des 7 derniers jours.
+Dans cet exemple, vous allez créer une audience pour cibler tous les clients qui vivent à Atlanta, San Francisco ou Seattle et qui sont nés après 1980. Tous ces clients doivent avoir effectué un achat au cours des 7 derniers jours.
 
 ➡️ [Découvrez comment créer des audiences dans cette vidéo](#video-segment)
 
@@ -32,7 +32,7 @@ Dans cet exemple, nous allons créer une audience pour cibler tous les clientes 
 
    ![](assets/create-segment.png)
 
-   L’écran de définition de segment vous permet de configurer tous les champs requis pour définir votre audience. Découvrez comment configurer des audiences dans la [documentation du service de segmentation](https://experienceleague.adobe.com/fr/docs/experience-platform/segmentation/methods/overview){target="_blank"}.
+   L’écran de définition de segment vous permet de configurer tous les champs requis pour définir votre audience. Découvrez comment configurer des audiences dans la [documentation du service de segmentation](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/methods/overview){target="_blank"}.
 
    ![](assets/segment-builder.png)
 
@@ -66,7 +66,7 @@ Dans cet exemple, nous allons créer une audience pour cibler tous les clientes 
 
 1. Une fois l’audience prête, cliquez sur **[!UICONTROL Enregistrer]**. Elle s’affiche dans la liste des audiences Adobe Experience Platform. Notez qu’une barre de recherche est disponible pour vous aider à rechercher une audience spécifique dans la liste.
 
-L’audience peut désormais être utilisée dans vos parcours. Voir à ce propos [cette section](../audience/about-audiences.md).
+L’audience est maintenant prête à être utilisée dans vos parcours. Voir à ce sujet [cette section](../audience/about-audiences.md).
 
 ## Méthodes d’évaluation d’audience {#evaluation-method-in-journey-optimizer}
 
@@ -84,7 +84,7 @@ La segmentation par flux est un processus continu de sélection des données qui
 >
 >* Cette modification s’applique à l’ensemble des sandbox et organisations de nos clientes et clients.
 >* Seuls les événements d’envoi et d’ouverture sont affectés : les clics et les autres événements de suivi restent disponibles pour la segmentation du streaming.
->* Cette modification s’applique uniquement à la segmentation du streaming. Les événements d’envoi et d’ouverture peuvent toujours être utilisés dans les segments par lots, mais s’ils sont inclus dans un segment de streaming, ils seront évalués par lots. En outre, les événements d’exclusion et les événements de rebond/retard résultant d’événements d’envoi sont également concernés par cette modification.
+>* Cette modification s’applique uniquement à la segmentation du streaming. Les événements d’envoi et d’ouverture peuvent toujours être utilisés dans les segments par lots, mais s’ils sont inclus dans un segment en flux continu, ils sont évalués par lots. En outre, les événements d’exclusion et les événements de rebond/retard résultant d’événements d’envoi sont également concernés par cette modification.
 >* La collecte des données de tracking n’est pas concernée. Les événements d’envoi et d’ouverture continueront à être collectés comme d’habitude.
 >* Les événements de réaction dans les parcours ne sont pas concernés par cette modification.
 
@@ -94,19 +94,19 @@ La segmentation par flux est un processus continu de sélection des données qui
 
 L’évaluation de la liste des profils de l’audience se fait toutes les 24 heures.
 
-La segmentation par lots est une alternative à la segmentation par flux qui traite toutes les données de profil à la fois par le biais de définitions de segment. Cela crée un instantané de l’audience qui peut être enregistré et exporté pour utilisation. Cependant, contrairement à la segmentation par streaming, la segmentation par lots ne met pas à jour la liste des audiences en temps réel, et les nouvelles données qui entrent après le traitement par lots ne seront pas répercutées dans l’audience avant le traitement par lots suivant. Essayer de forcer une mise à jour immédiate ne remplacera pas le cycle quotidien. Pour des mises à jour incrémentielles immédiates, pensez à utiliser les options de streaming ou de segmentation à la demande.
+La segmentation par lots traite toutes les données de profil à la fois par le biais de définitions de segment, créant un instantané de l’audience qui peut être enregistré et exporté pour utilisation. Contrairement à la segmentation par flux, la segmentation par lots ne met pas à jour la liste des audiences en temps réel. Les nouvelles données qui entrent après le traitement par lots ne sont pas répercutées dans l’audience jusqu’au traitement par lots suivant. Les tentatives de forcer une mise à jour immédiate ne remplacent pas le cycle quotidien. Pour des mises à jour incrémentielles immédiates, pensez à utiliser les options de streaming ou de segmentation à la demande.
 
-Pour plus d’informations, consultez la documentation du service de segmentation de Adobe Experience Platform [&#128279;](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=fr#batch){target="_blank"}
+Pour plus d’informations, consultez la documentation du service de segmentation de Adobe Experience Platform [](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=fr#batch){target="_blank"}
 
 +++
 
 +++ Segmentation Edge
 
-La segmentation Edge permet d’évaluer les segments dans Adobe Experience Platform instantanément [sur le serveur Edge](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=fr){target="_blank"}, en activant les cas d’utilisation de la personnalisation sur une même page et sur la page suivante. Actuellement, seuls certains types de requête peuvent être évalués avec la segmentation Edge. Pour plus d’informations, consultez la documentation du service de segmentation de Adobe Experience Platform [&#128279;](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/edge-segmentation.html?lang=fr#query-types){target="_blank"}
+La segmentation Edge permet d’évaluer les segments dans Adobe Experience Platform instantanément [sur le serveur Edge](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=fr){target="_blank"}, en activant les cas d’utilisation de la personnalisation sur une même page et sur la page suivante. Actuellement, seuls certains types de requête peuvent être évalués avec la segmentation Edge. Pour plus d’informations, consultez la documentation du service de segmentation de Adobe Experience Platform [](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/edge-segmentation.html?lang=fr#query-types){target="_blank"}
 
 +++
 
-Si vous savez quelle méthode d’évaluation utiliser, sélectionnez-la à l’aide de la liste déroulante. Vous pouvez également cliquer sur l’icône Parcourir du dossier (loupe) pour afficher la liste des méthodes d’évaluation de la définition de segment disponibles. Pour plus d’informations, consultez la documentation du service de segmentation de Adobe Experience Platform [&#128279;](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html?lang=fr#segment-properties){target="_blank"}
+Si vous connaissez la méthode d’évaluation à utiliser, sélectionnez-la à l’aide de la liste déroulante. Vous pouvez également cliquer sur l’icône Parcourir du dossier (loupe) pour afficher la liste des méthodes d’évaluation de la définition de segment disponibles. Pour plus d’informations, consultez la documentation du service de segmentation de Adobe Experience Platform [](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html?lang=fr#segment-properties){target="_blank"}.
 
 ![](assets/evaluation-methods.png)
 
@@ -122,7 +122,7 @@ Une fois que vous avez défini une audience, les profils sont ajoutés à l’au
 
 ## Évaluation d’audience flexible {#flexible}
 
-Le portail Audience Adobe Experience Platform vous permet d’exécuter une tâche de segmentation à la demande pour des audiences sélectionnées, en vous assurant de toujours disposer des données d’audience les plus récentes avant de les cibler dans les parcours et campagnes Journey Optimizer.
+Adobe Experience Platform Audience Portal vous permet d’exécuter une tâche de segmentation à la demande pour des audiences sélectionnées, en vous assurant de toujours disposer des données d’audience les plus récentes avant de les cibler dans les parcours et campagnes Journey Optimizer.
 
 Grâce à l’évaluation flexible des audiences, vous pouvez effectuer les opérations suivantes :
 
@@ -130,10 +130,10 @@ Grâce à l’évaluation flexible des audiences, vous pouvez effectuer les opé
 1. Évaluer l’audience en temps réel pour garantir sa précision Pour ce faire, choisissez les audiences que vous souhaitez évaluer et sélectionnez « Évaluer les audiences », à condition qu’elles répondent à des critères spécifiques (par exemple, basé sur les personnes, origine du service de segmentation).
 1. Utiliser l’audience évaluée dans les campagnes ou parcours Adobe Journey Optimizer pour un ciblage précis
 
-Vous pouvez évaluer jusqu’à 20 audiences à la fois. Les audiences inéligibles seront automatiquement exclues. Pour en savoir plus, consultez la [documentation du service de segmentation d’Adobe Experience Platform](https://experienceleague.adobe.com/fr/docs/experience-platform/segmentation/ui/audience-portal#flexible-audience-evaluation).
+Vous pouvez évaluer jusqu’à 20 audiences à la fois. Les audiences non éligibles sont automatiquement exclues. Pour en savoir plus, consultez la [documentation du service de segmentation d’Adobe Experience Platform](https://experienceleague.adobe.com/fr/docs/experience-platform/segmentation/ui/audience-portal#flexible-audience-evaluation).
 
 ## Vidéo pratique{#video-segment}
 
-Découvrez comment Journey Optimizer utilise des règles pour générer une audience. Apprenez à utiliser des attributs, des événements et des audiences existantes pour créer une audience.
+Découvrez comment Journey Optimizer utilise des règles pour générer des audiences et comment utiliser des attributs, des événements et des audiences existantes pour créer une audience.
 
->[!VIDEO](https://video.tv.adobe.com/v/3430324?quality=12&captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/3425020?quality=12)
