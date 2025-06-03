@@ -9,9 +9,9 @@ role: User
 level: Beginner, Intermediate
 exl-id: aa8c74de-748b-4947-a972-14703f6ab4a7
 source-git-commit: b2446c6a243d6d95b6f695b9c7007e62c51d8fa3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2031'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -159,7 +159,7 @@ Les nouvelles fonctionnalités de cette version sont présentées ci-dessous.
 <tr>
 <td>
 <p>Adobe Journey Optimizer s’intègre désormais à Adobe Express, ce qui vous permet de connecter facilement vos ressources de création à l’orchestration de parcours. Cette intégration simplifie le processus de conception et de déploiement de contenu personnalisé dans les campagnes. </p>
-<p>Cette intégration n’est actuellement pas disponible pour être utilisée avec Healthcare Shield ou Privacy and Security Shield.</p>
+<p>Cette intégration n’est actuellement pas disponible pour une utilisation avec Healthcare Shield ou Privacy and Security Shield.</p>
 <img src="assets/do-not-localize/express_resize.gif">
 <p>Pour plus d’informations, consultez la <a href="../integrations/express.md">documentation détaillée</a>.</p>
 </td>
@@ -278,7 +278,7 @@ De nouvelles API sont disponibles pour prévisualiser les campagnes, en plus des
 
 **Playbooks de cas d’utilisation**
 
-* **Création et partage de playbooks (version bêta privée)** vous pouvez désormais créer, gérer et partager vos propres playbooks de cas d’utilisation. Actuellement, cette fonctionnalité n’est disponible que pour un ensemble d’organisations sous la forme d’une version bêta privée. Pour obtenir l’accès, contactez votre représentant Adobe. [En savoir plus](../start/playbooks.md)
+* **Création et partage de playbooks (Private Beta)** : vous pouvez désormais créer, gérer et partager vos propres playbooks de cas d’utilisation. Actuellement, cette fonctionnalité n’est disponible que pour un ensemble d’organisations sous la forme d’une version Private Beta. Pour en bénéficier, contactez votre représentant ou représentante Adobe. [En savoir plus](../start/playbooks.md)
 
 **Navigation**
 

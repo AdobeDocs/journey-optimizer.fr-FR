@@ -6,9 +6,9 @@ solution: Journey Optimizer
 product: journey optimizer
 exl-id: 3a1b6c61-82df-421c-98d8-2af4f2a5e0de
 source-git-commit: 528e1a54dd64503e5de716e63013c4fc41fd98db
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '334'
-ht-degree: 82%
+ht-degree: 100%
 
 ---
 
@@ -20,21 +20,21 @@ Découvrez les améliorations les plus récentes apportées au produit et à la 
 
 >[!BEGINTABS]
 
->[!TAB Version du 25 mai]
+>[!TAB Version de mai 2025]
 
-La version de mai est maintenant en ligne ! Consultez les notes de mise à jour pour découvrir les nouvelles fonctionnalités, modifications et améliorations.
+La version de mai est maintenant disponible. Consultez les notes de mise à jour pour découvrir les nouvelles fonctionnalités, modifications et améliorations.
 
 [![En savoir plus](using/assets/do-not-localize/learn-more-button.svg)](using/rn/release-notes.md)
 
 >[!TAB Intégration d’Adobe Express]
 
-Adobe Journey Optimizer s’intègre désormais à Adobe Express, ce qui vous permet de connecter facilement vos ressources créatives à l’orchestration des parcours.
+Adobe Journey Optimizer s’intègre désormais à Adobe Express, ce qui vous permet de connecter facilement vos ressources de création à l’orchestration de parcours.
 
 [![En savoir plus](using/assets/do-not-localize/learn-more-button.svg)](using/integrations/express.md)
 
 >[!TAB Assistant IA]
 
-✨ Plongez dans une expérience pratique avec notre aperçu en direct des fonctionnalités de [AI Assistant](../help/using/content-management/gs-generative.md), conçu pour vous permettre d’explorer ses fonctionnalités en direct et de comprendre pleinement ses fonctionnalités.
+✨ Assistez à la prévisualisation en direct de notre fonctionnalité [Assistant IA](../help/using/content-management/gs-generative.md), conçue pour vous permettre d’explorer ses capacités et de saisir tous ses avantages.
 
 [![En savoir plus](using/assets/do-not-localize/try-it-button.svg)](https://experienceleague.adobe.com/fr/apps/journey-optimizer/ai-assistant-content-accelerator){target="_blank"}
 
@@ -47,7 +47,7 @@ La création de rapports Journey Optimizer est fournie avec une interopérabili
 
 >[!ENDTABS]
 
-## Commencez par les bases !
+## Premiers pas avec les principes de base
 
 <table style="table-layout:fixed">
   <tr style="border: 0;">

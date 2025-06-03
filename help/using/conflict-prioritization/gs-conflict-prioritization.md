@@ -6,9 +6,9 @@ level: Beginner
 badge: label="Disponibilité limitée"
 exl-id: 9dc0cd89-d29a-42d2-a73f-d95f9c39c86e
 source-git-commit: f55f985375cf360ce55074cb227b6c424db05b5c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '677'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -22,7 +22,7 @@ Dans Journey Optimizer, la gestion du volume et du calendrier des campagnes et 
 
 Ces outils sont disponibles pour les parcours de campagnes et unitaires, de qualification d’audience et de lecture d’audience.
 
-En utilisant ces outils, vous pouvez garantir des efforts marketing plus fluides et plus ciblés, en diffusant le message approprié au bon moment tout en évitant les conflits et la surcharge.
+En utilisant ces outils, vous pouvez garantir des efforts marketing plus réguliers et plus ciblés, en délivrant le bon message au bon moment tout en évitant les conflits et la surcharge.
 
 ## Outils de gestion des conflits et de hiérarchisations {#tools}
 

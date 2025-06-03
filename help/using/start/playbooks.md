@@ -9,9 +9,9 @@ role: User
 level: Beginner
 exl-id: 2214ec90-580e-469e-9b14-d8cb2d4bb050
 source-git-commit: b4c1cb69fd67e8c74982103c68050ab56a71113a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '499'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -55,7 +55,7 @@ En outre, vous pouvez importer les ressources des playbooks dans d’autres sand
 
 >[!AVAILABILITY]
 >
->La création de playbooks de cas d’utilisation n’est actuellement disponible que pour un ensemble d’organisations sous la forme d’une version bêta privée. Pour en bénéficier, contactez votre représentant ou représentante Adobe.
+>La création de playbooks de cas d’utilisation n’est actuellement disponible que pour un ensemble d’organisations sous la forme d’une version Private Beta. Pour en bénéficier, contactez votre représentant ou représentante Adobe.
 
 Outre l’utilisation de playbooks prédéfinis, vous pouvez créer et partager vos propres playbooks dans Adobe Experience Platform.
 
