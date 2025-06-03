@@ -9,7 +9,7 @@ role: Admin, Architect, Developer
 level: Experienced
 keywords: autorisation, haut niveau, bas niveau, profil, admin console
 exl-id: 1b286f9d-43ef-4b80-b4ee-136da857bb95
-source-git-commit: 8b0310e91e5b5c1418e8e26f4505bda45146ceba
+source-git-commit: 49a607e8e4b4cce7bcf41d92abe6b9fa54dfb411
 workflow-type: tm+mt
 source-wordcount: '1077'
 ht-degree: 81%
@@ -36,7 +36,7 @@ Par exemple, le rôle **[!DNL Journey administrator]** se voit attribuer lʼauto
 
 * Lʼautorisation de haut niveau **[!DNL Manage journeys]** permet aux utilisateurs et utilisatrices de créer des parcours et de modifier/supprimer des parcours existants, ainsi que dʼaccéder aux objets utilisés dans la zone de travail de parcours pour concevoir le flux du parcours.
 
-+++ Ce rôle inclut les autorisations de bas niveau suivantes :
++++ Cette autorisation inclut les autorisations de bas niveau suivantes :
 
    * Spécifiques à Journey Optimizer :
 
@@ -56,7 +56,7 @@ Par exemple, le rôle **[!DNL Journey administrator]** se voit attribuer lʼauto
 
 * Lʼautorisation de haut niveau **[!DNL Publish journeys]** permet aux utilisateurs et utilisatrices de publier des parcours.
 
-+++ Ce rôle inclut les autorisations de bas niveau suivantes :
++++ Cette autorisation inclut les autorisations de bas niveau suivantes :
    * Spécifiques à Journey Optimizer :
       * journeys.publish
       * journeys.read
@@ -65,7 +65,7 @@ Par exemple, le rôle **[!DNL Journey administrator]** se voit attribuer lʼauto
 
 * Lʼautorisation de haut niveau **[!DNL View journeys]** permet aux utilisateurs et utilisatrices de parcourir et dʼafficher les parcours.
 
-+++ Ce rôle inclut les autorisations de bas niveau suivantes :
++++ Cette autorisation inclut les autorisations de bas niveau suivantes :
 
    * Spécifiques à Journey Optimizer :
       * journeys.read
@@ -78,7 +78,7 @@ Par exemple, le rôle **[!DNL Journey administrator]** se voit attribuer lʼauto
 
 * Lʼautorisation de haut niveau **[!DNL Manage journeys events, data sources and actions]** permet aux utilisateurs et utilisatrices de configurer des configurations d’événement et de données.
 
-+++ Ce rôle inclut les autorisations de bas niveau suivantes :
++++ Cette autorisation inclut les autorisations de bas niveau suivantes :
 
    * Spécifiques à Journey Optimizer :
       * journeys_events.read
@@ -100,7 +100,7 @@ Par exemple, le rôle **[!DNL Journey administrator]** se voit attribuer lʼauto
 
 * L’autorisation de haut niveau **[!DNL View journeys events, data sources and actions]** permet aux utilisateurs et utilisatrices d’utiliser lʼévénement et les données dans le flux du parcours.
 
-+++ Ce rôle inclut les autorisations de bas niveau suivantes :
++++ Cette autorisation inclut les autorisations de bas niveau suivantes :
 
    * Spécifiques à Journey Optimizer :
       * journeys_events.read
@@ -116,7 +116,7 @@ Par exemple, le rôle **[!DNL Journey administrator]** se voit attribuer lʼauto
 
 * L’autorisation de haut niveau **[!DNL View journeys report]** permet aux utilisateurs et utilisatrices dʼafficher en lecture seule un rapport sur le parcours.
 
-+++ Ce rôle inclut les autorisations de bas niveau suivantes :
++++ Cette autorisation inclut les autorisations de bas niveau suivantes :
 
    * Spécifiques à Journey Optimizer :
       * journeys_report.read
@@ -134,7 +134,7 @@ Par exemple, le rôle **[!DNL Journey administrator]** se voit attribuer lʼauto
 
 * L’autorisation de haut niveau **[!DNL Manage frequency rules]** permet aux utilisateurs et utilisatrices de lire, créer, modifier, supprimer et activer/désactiver les règles de fréquence.
 
-+++ Ce rôle inclut les autorisations de bas niveau suivantes :
++++ Cette autorisation inclut les autorisations de bas niveau suivantes :
 
    * Spécifiques à Journey Optimizer :
       * frequency_rules.read
@@ -145,7 +145,7 @@ Par exemple, le rôle **[!DNL Journey administrator]** se voit attribuer lʼauto
 
 * L’autorisation de haut niveau **[!DNL View frequency rules]** permet aux utilisateurs et utilisatrices d’afficher les règles de fréquence.
 
-+++ Ce rôle inclut les autorisations de bas niveau suivantes :
++++ Cette autorisation inclut les autorisations de bas niveau suivantes :
 
    * Spécifiques à Journey Optimizer :
       * frequency_rules.read
@@ -169,7 +169,7 @@ Par exemple, le rôle **[!DNL Journey administrator]** se voit attribuer lʼauto
 
 * Lʼautorisation de haut niveau **[!DNL Manage campaigns]** permet aux utilisateurs et utilisatrices de créer et modifier/supprimer des campagnes.
 
-+++ Ce rôle inclut les autorisations de bas niveau suivantes :
++++ Cette autorisation inclut les autorisations de bas niveau suivantes :
 
    * Spécifiques à Journey Optimizer :
 
@@ -196,7 +196,7 @@ Par exemple, le rôle **[!DNL Journey administrator]** se voit attribuer lʼauto
 
 * L’autorisation de haut niveau **[!DNL View campaigns report]** permet aux utilisateurs et utilisatrices de lire et de modifier des rapports de campagne.
 
-+++ Ce rôle inclut les autorisations de bas niveau suivantes :
++++ Cette autorisation inclut les autorisations de bas niveau suivantes :
 
    * Spécifiques à Journey Optimizer :
       * campaign.read
@@ -210,7 +210,7 @@ Par exemple, le rôle **[!DNL Journey administrator]** se voit attribuer lʼauto
 
 * Lʼautorisation de haut niveau **[!DNL Manage decisions]** permet aux utilisateurs et utilisatrices de créer et de modifier/supprimer des **[!DNL Activity entities]** existantes, ainsi que de gérer les objets utilisés dans ces activités pour prendre des décisions.
 
-+++ Ce rôle inclut les autorisations de bas niveau suivantes :
++++ Cette autorisation inclut les autorisations de bas niveau suivantes :
 
    * Spécifiques à la gestion des décisions :
       * activities.read
@@ -236,7 +236,7 @@ Par exemple, le rôle **[!DNL Journey administrator]** se voit attribuer lʼauto
 
 * Lʼautorisation de haut niveau **[!DNL View decisions]** permet aux utilisateurs et utilisatrices dʼutiliser une activité existante et les objets métier associés pour prendre des décisions.
 
-+++ Ce rôle inclut les autorisations de bas niveau suivantes :
++++ Cette autorisation inclut les autorisations de bas niveau suivantes :
 
    * Spécifiques à la gestion des décisions :
       * activities.read
@@ -253,7 +253,7 @@ Par exemple, le rôle **[!DNL Journey administrator]** se voit attribuer lʼauto
 
 * L’autorisation de haut niveau **[!DNL Manage offers]** permet aux utilisateurs et utilisatrices de créer, modifier et supprimer toutes les offres et tous les composants, ainsi que de lire les décisions et les collections.
 
-+++ Ce rôle inclut les autorisations de bas niveau suivantes :
++++ Cette autorisation inclut les autorisations de bas niveau suivantes :
 
    * Spécifiques à la gestion des décisions :
       * offer_activity.read
@@ -275,7 +275,7 @@ Par exemple, le rôle **[!DNL Journey administrator]** se voit attribuer lʼauto
 
 * L’autorisation de haut niveau **[!DNL Manage ranking strategies]** permet aux utilisateurs et utilisatrices de lire, créer, modifier et supprimer des stratégies de classement.
 
-+++ Ce rôle inclut les autorisations de bas niveau suivantes :
++++ Cette autorisation inclut les autorisations de bas niveau suivantes :
 
    * Spécifiques à la gestion des décisions :
       * ranking_strategy.read
@@ -292,7 +292,7 @@ Par exemple, le rôle **[!DNL Journey administrator]** se voit attribuer lʼauto
 <!--
 * **[!DNL Manage Experience decisions]** high-level permission allows users to read, create, edit, and delete Decisioning entities.
 
-  +++ This role includes the following low-level permissions:  
+  +++ This permission includes the following low-level permissions:  
 
   * Experience decisions specific:
     * ranking_strategy.read
@@ -313,7 +313,7 @@ Par exemple, le rôle **[!DNL Journey administrator]** se voit attribuer lʼauto
 
 * Lʼautorisation de haut niveau **[!DNL Manage file routing]** permet aux utilisateurs et utilisatrices de créer, modifier et supprimer les configuration des routages.
 
-+++ Ce rôle inclut les autorisations de bas niveau suivantes :
++++ Cette autorisation inclut les autorisations de bas niveau suivantes :
    * Spécifiques à Journey Optimizer :
 
       * file_routing.read
@@ -324,7 +324,7 @@ Par exemple, le rôle **[!DNL Journey administrator]** se voit attribuer lʼauto
 
 * Lʼautorisation de haut niveau **[!DNL Manage IP pools]** permet aux utilisateurs et utilisatrices de créer, modifier et supprimer la définition des affinités.
 
-+++ Ce rôle inclut les autorisations de bas niveau suivantes :
++++ Cette autorisation inclut les autorisations de bas niveau suivantes :
    * Spécifiques à Journey Optimizer :
       * IP_pools.read
       * IP_pools.write
@@ -349,7 +349,7 @@ Par exemple, le rôle **[!DNL Journey administrator]** se voit attribuer lʼauto
 
 * Lʼautorisation de haut niveau **[!DNL Manage messages general settings]** permet aux utilisateurs et utilisatrices de créer, modifier et supprimer des paramètres globaux au niveau du sandbox.
 
-+++ Ce rôle inclut les autorisations de bas niveau suivantes :
++++ Cette autorisation inclut les autorisations de bas niveau suivantes :
 
    * Spécifiques à Journey Optimizer :
       * messages_general_settings.read
@@ -412,7 +412,7 @@ Par exemple, le rôle **[!DNL Journey administrator]** se voit attribuer lʼauto
 
 * Lʼautorisation de haut niveau **[!DNL Manage subdomains delegations]** permet aux utilisateurs et utilisatrices de créer, modifier et supprimer les délégations de sous-domaines (y compris le groupe dʼadresses IP).
 
-+++ Ce rôle inclut les autorisations de bas niveau suivantes :
++++ Cette autorisation inclut les autorisations de bas niveau suivantes :
    * Spécifiques à Journey Optimizer :
 
       * subdomains_delegation.read
@@ -423,7 +423,7 @@ Par exemple, le rôle **[!DNL Journey administrator]** se voit attribuer lʼauto
 
 * L’autorisation de haut niveau **[!DNL Manage suppression]** permet aux utilisateurs et utilisatrices de définir le nombre de rebonds avant l’ajout d’une adresse e-mail à la liste de suppression, ainsi que d’ajouter et de supprimer des entrées dans la liste de suppression.
 
-+++ Ce rôle inclut les autorisations de bas niveau suivantes :
++++ Cette autorisation inclut les autorisations de bas niveau suivantes :
    * Spécifiques à Journey Optimizer :
       * suppression_rules.read
       * suppression_rules.write
@@ -435,7 +435,7 @@ Par exemple, le rôle **[!DNL Journey administrator]** se voit attribuer lʼauto
 
 * L’autorisation de haut niveau **[!DNL View file routing]** permet aux utilisateurs et utilisatrices d’afficher les configurations de routage de fichiers.
 
-+++ Ce rôle inclut les autorisations de bas niveau suivantes :
++++ Cette autorisation inclut les autorisations de bas niveau suivantes :
    * Spécifiques à Journey Optimizer :
 
       * file_routing.read
@@ -482,7 +482,7 @@ Par exemple, le rôle **[!DNL Journey administrator]** se voit attribuer lʼauto
 ### [!DNL View channel configuration] permission {#view-channel-surface}
 
 The **[!DNL View channel configuration]** high-level permission allows users to view channel configurations in order to know which channel configurations to use. 
-  +++ This role includes the following low-level permissions:  
+  +++ This permission includes the following low-level permissions:  
 
 * messages_presets.read
 * subdomains_delegation.read
@@ -493,7 +493,7 @@ The **[!DNL View channel configuration]** high-level permission allows users to 
 
 * L’autorisation de haut niveau **[!DNL View suppression list]** permet aux utilisateurs et utilisatrices d’afficher le contenu et les paramètres de la liste de suppression.
 
-+++ Ce rôle inclut les autorisations de bas niveau suivantes :
++++ Cette autorisation inclut les autorisations de bas niveau suivantes :
 
    * Spécifiques à Journey Optimizer :
       * suppression_list.view
