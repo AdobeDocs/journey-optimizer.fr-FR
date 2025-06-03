@@ -5,13 +5,11 @@ feature: Code-based Experiences
 topic: Content Management
 role: Developer
 level: Experienced
-hide: true
-hidefromtoc: true
 exl-id: f9477611-b792-4b28-8ec2-6bbea2fa3328
-source-git-commit: 528e1a54dd64503e5de716e63013c4fc41fd98db
+source-git-commit: 57686b9684f9233c81bd46b67d12ec5f1e3544c5
 workflow-type: tm+mt
-source-wordcount: '379'
-ht-degree: 0%
+source-wordcount: '378'
+ht-degree: 1%
 
 ---
 
@@ -28,15 +26,15 @@ Lors du test de l’[expérience basée sur le code](create-code-based.md) avec 
 Après avoir publié votre campagne, ajoutez l’indicateur `dryRun` dans le bloc de `data` d’événement XDM de votre implémentation client :
 
      »
-    &lbrace;
-    « data »: &lbrace;
-     »__adobe »: &lbrace;
-    « ajo »: &lbrace;
+    {
+    « data »: {
+     »__adobe »: {
+    « ajo »: {
     « dryRun »: true
-    &rbrace;
-    &rbrace;
-    &rbrace;
-    &rbrace;
+    }
+    }
+    }
+    }
      »
 
 <!--
@@ -46,7 +44,7 @@ Après avoir publié votre campagne, ajoutez l’indicateur `dryRun` dans le blo
 
 ## Déduplication des éléments de décision dans les implémentations basées sur du code {#code-based-decisioning-deduplication}
 
-Lors de l’utilisation de [politiques de décision](../experience-decisioning/create-decision.md) dans vos expériences basées sur du code, découvrez comment appliquer une déduplication à vos requêtes de prise de décision dans votre implémentation client.
+Lors de l’utilisation de [politiques de décision](../experience-decisioning/create-decision.md) dans vos expériences basées sur du code, vous pouvez appliquer une déduplication à vos requêtes de prise de décision dans votre implémentation client.
 
 Les requêtes de prise de décision (par l’intermédiaire de Konductor) acceptent l’indicateur de déduplication, qui gère l’unicité des éléments de décision dans une requête unique composée de plusieurs politiques de décision ou emplacements.
 
