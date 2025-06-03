@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: qualification, événements, audience, parcours, platform
 exl-id: 7e70b8a9-7fac-4450-ad9c-597fe0496df9
-source-git-commit: 9618c46a8559631036d308bcc8defab77b88c052
+source-git-commit: 84beb9ba9646cb1b40bcfd8a180fc98963a8ff0b
 workflow-type: tm+mt
-source-wordcount: '1236'
-ht-degree: 95%
+source-wordcount: '1191'
+ht-degree: 52%
 
 ---
 
@@ -38,20 +38,21 @@ Il est possible de positionner ce type d’événement dès la première étape,
 Suivez les mécanismes de sécurisation et les recommandations ci-dessous pour créer des parcours de qualification d’audience. Consultez également la section [ Bonnes pratiques en matière de qualification d’audience](#best-practices-segments).
 
 
-* Les parcours de qualification d’audience sont principalement conçus pour fonctionner avec les audiences en streaming : cette combinaison garantit une meilleure expérience en temps réel. Nous vous recommandons vivement d’utiliser uniquement l’**audience en streaming** dans l’activité de qualification d’audience.
+* Les parcours de qualification d’audience sont principalement conçus pour fonctionner avec les audiences en flux continu. Cette combinaison garantit une meilleure expérience en temps réel. Il est vivement recommandé d’utiliser des **audiences en flux continu** dans l’activité Qualification d’audience .
 
-  Cependant, si vous souhaitez utiliser des attributs basés sur l’ingestion par lots dans votre audience en streaming, ou une audience par lots pour un parcours de qualification d’audience, tenez compte de la période d’évaluation/activation de l’audience. Une audience par lots ou en streaming qui utilise des attributs ingérés par lots doit être prête à être utilisée dans l’activité de **qualification d’audience** environ **2 heures** après la fin du traitement de la segmentation (ce traitement s’exécute une fois par jour à l’heure définie par l’équipe d’administration de votre organisation Adobe).
+  Cependant, si vous souhaitez utiliser des attributs basés sur l’ingestion par lots dans votre audience de diffusion en streaming ou une audience par lots pour un parcours de qualification d’audience, tenez compte de la période d’évaluation/activation de l’audience. Une audience par lots ou une audience en flux continu utilisant des attributs ingérés par lots est prête à être utilisée dans l’activité **Qualification de l’audience** environ **2 heures** après la fin de votre tâche de segmentation. Cette tâche s’exécute une fois par jour, à l’heure définie par l’administrateur de votre organisation Adobe.
 
-* N’oubliez pas que les audiences Adobe Experience Platform sont calculées une fois par jour (audiences **par lots**) ou en temps réel (audiences **en flux continu** à l’aide de l’option Audiences haute fréquence d’Adobe Experience Platform).
+* Les audiences Adobe Experience Platform sont calculées une fois par jour (audiences **par lot**) ou en temps réel (pour les audiences **en flux continu**, à l’aide de l’option Audiences haute fréquence de Adobe Experience Platform).
 
-   * Si l’audience sélectionnée est en flux continu, les personnes appartenant à cette audience peuvent éventuellement rejoindre le parcours en temps réel.
+   * Si l’audience sélectionnée est diffusée en continu, les individus appartenant à cette audience peuvent éventuellement rejoindre le parcours en temps réel.
    * Si l’audience est par lots, les personnes qui viennent d’être qualifiées pour cette audience peuvent éventuellement rejoindre le parcours lorsque le calcul de l’audience est exécuté sur Adobe Experience Platform.
 
-  En guise de bonne pratique, nous recommandons donc d’utiliser uniquement des audiences en streaming dans les activités de **qualification d’audience**. Pour les cas d’utilisation par lots, utilisez une activité **[Lecture d’audience](read-audience.md)**.
+  Il est recommandé d’utiliser les audiences de diffusion en continu dans une activité **Qualification d’audience**. Pour les cas d’utilisation par lots, utilisez une activité **[Lecture d’audience](read-audience.md)**.
 
   >[!NOTE]
   >
-  >En raison de la nature par lots des audiences créées à l’aide de workflows de composition et du chargement personnalisé, vous ne pouvez pas cibler ces audiences dans une activité « Qualification de l’audience ». Seules les audiences créées à l’aide de définitions de segment peuvent être utilisées dans cette activité.
+  >En raison de la nature par lot des audiences créées à l’aide des workflows de composition et des chargements personnalisés, ces audiences ne peuvent pas être ciblées dans une activité « Qualification d’audience ». Seules les audiences créées à l’aide de définitions de segment peuvent être utilisées dans cette activité.
+
 
 * Vous ne pouvez pas utiliser les groupes de champs d’événement d’expérience dans les parcours qui commencent par une activité **Lecture d’audience**, **Qualification d’audience** ou **Événement métier**.
 
@@ -78,7 +79,7 @@ Pour configurer l’activité **[!UICONTROL Qualification d’audience]**, proc�
 
    >[!NOTE]
    >
-   >Notez que vous pouvez personnaliser les colonnes affichées dans la liste et les trier.
+   >Vous pouvez personnaliser les colonnes affichées dans la liste et les trier.
 
    ![](assets/segment6.png)
 
@@ -92,7 +93,7 @@ Pour configurer l’activité **[!UICONTROL Qualification d’audience]**, proc�
 
    >[!NOTE]
    >
-   >Notez que **[!UICONTROL Rejoindre]** et **[!UICONTROL Quitter]** correspondent aux statuts de participation d’audience **Réalisé** et **Sorti** d’Adobe Experience Platform. Pour plus d’informations sur l’évaluation d’une audience, consultez la [documentation du service de segmentation](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html?lang=fr#interpret-segment-results){target="_blank"}.
+   >**[!UICONTROL Entrée]** et **[!UICONTROL Sortie]** correspondent aux statuts de participation d’audience **Réalisé** et **Sorti** de Adobe Experience Platform. Pour plus d’informations sur l’évaluation d’une audience, consultez la [documentation du service de segmentation](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html?lang=fr#interpret-segment-results){target="_blank"}.
 
 1. Sélectionnez un espace de noms. Cela n’est nécessaire que si l’événement est considéré comme la première étape du parcours. Par défaut, le champ est prérempli avec le dernier espace de noms utilisé.
 
@@ -114,44 +115,44 @@ Voir [Activité de condition](../building-journeys/condition-activity.md#about_c
 
 ![](assets/segment8.png)
 
-Un nouveau parcours contenant un événement de **qualification d’audience** est opérationnel dix minutes après sa publication. Cet intervalle de temps correspond à l&#39;intervalle d&#39;actualisation du cache du service dédié. Par conséquent, vous devez attendre dix minutes avant d&#39;utiliser ce parcours.
+Un nouveau parcours incluant un événement **Qualification de l’audience** devient opérationnel dix minutes après sa publication. Cet intervalle de temps correspond à l&#39;intervalle d&#39;actualisation du cache du service dédié. Par conséquent, vous devez attendre dix minutes avant d&#39;utiliser ce parcours.
 
 ## Bonnes pratiques {#best-practices-segments}
 
-L’activité **[!UICONTROL Qualification d’audience]** permet une entrée immédiate dans les parcours des personnes qualifiées ou disqualifiées d’une audience Adobe Experience Platform.
+L’activité **[!UICONTROL Qualification de l’audience]** permet une entrée immédiate dans les parcours des personnes qualifiées ou disqualifiées d’une audience Adobe Experience Platform.
 
-La vitesse de réception de ces informations est élevée. Les mesures effectuées montrent une vitesse de 10 000 événements reçus par seconde. Par conséquent, vous devez veiller à comprendre comment les pics d’entrée peuvent se produire, comment les éviter et comment y préparer votre parcours.
+La vitesse de réception de ces informations est élevée. Les mesures montrent une vitesse de 10 000 événements reçus par seconde. Par conséquent, assurez-vous de comprendre comment les pics d’entrée peuvent se produire, comment les éviter et comment y préparer votre parcours.
 
 ### Audiences par lots {#batch-speed-segment-qualification}
 
-Lorsque vous utilisez la qualification d’audience pour une audience par lots, notez qu’un pic d’entrée se produit au moment du calcul quotidien. La taille du pic dépend du nombre de personnes qui rejoignent (ou quittent) l’audience quotidiennement.
+Lors de l’utilisation de la qualification de l’audience pour une audience par lots, notez qu’un pic d’entrée se produit au moment du calcul quotidien. La taille du pic dépend du nombre de personnes qui rejoignent (ou quittent) l’audience quotidiennement.
 
-De plus, si l’audience par lots est créée et utilisée immédiatement dans un parcours, le premier lot de calculs peut faire qu’un très grand nombre de personnes rejoignent le parcours.
+De plus, si l’audience par lot est nouvellement créée et utilisée immédiatement dans un parcours, le premier lot de calculs peut entraîner l’entrée d’un très grand nombre d’individus dans le parcours.
 
 ### Audiences en flux continu {#streamed-speed-segment-qualification}
 
-Lorsque vous utilisez la qualification d’audience pour les audiences en streaming, il y a moins de risque d’obtenir d’importants pics d’entrées et de sorties en raison de l’évaluation continue de l’audience. Néanmoins, si la définition de l’audience conduit à qualifier un grand nombre de clientes et clients en même temps, un pic peut également se produire.
+Lors de l’utilisation de la qualification de l’audience pour les audiences en flux continu, il y a moins de risque de pics importants d’entrées/sorties en raison de l’évaluation continue de l’audience. Cependant, si la définition de l’audience mène à un grand volume de clients se qualifiant simultanément, un pic peut toujours se produire.
 
 Évitez d’utiliser des événements d’ouverture et d’envoi avec la segmentation par streaming. Utilisez plutôt les signaux d’activité des utilisateurs et utilisatrices, tels que les clics, les achats ou les données de balise. Pour la logique de fréquence ou de suppression, utilisez des règles métier plutôt que des événements d&#39;envoi. [En savoir plus](../audience/about-audiences.md#open-and-send-event-guardrails)
 
-Pour plus d’informations sur la segmentation par streaming, consultez la [documentation d’Adobe Experience Platform](https://experienceleague.adobe.com/fr/docs/experience-platform/segmentation/methods/streaming-segmentation){target="_blank"}.
+Pour plus d’informations sur la segmentation par streaming, consultez la [documentation d’Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/methods/streaming-segmentation){target="_blank"}.
 
 ### Éviter les surcharges {#overloads-speed-segment-qualification}
 
-Voici quelques bonnes pratiques qui permettront d’éviter de surcharger les systèmes utilisés dans les parcours (sources de données, actions personnalisées, activités d’action de canal).
+Voici quelques bonnes pratiques pour éviter de surcharger les systèmes utilisés dans les parcours (sources de données, actions personnalisées, activités d’action de canal) :
 
-Dans une activité **[!UICONTROL Qualification d’audience]**, n’utilisez pas une audience par lots immédiatement après sa création. Cela permettra d’éviter le premier pic de calcul. Notez qu’un avertissement jaune apparaît dans la zone de travail du parcours si vous êtes sur le point d’utiliser une audience qui n’a jamais été calculée.
+* N’utilisez pas d’audience par lot immédiatement après sa création dans une activité **[!UICONTROL Qualification de l’audience]**. On évite ainsi le premier pic de calcul. Un avertissement jaune s&#39;affiche dans la zone de travail du parcours si vous êtes sur le point d&#39;utiliser une audience qui n&#39;a jamais été calculée.
 
-![](assets/segment-error.png)
+  ![](assets/segment-error.png)
 
-Mettez en place une règle de limitation pour les sources de données et les actions utilisées dans les parcours pour éviter de les surcharger. En savoir plus sur l’[API de limitation de Journey Optimizer](../configuration/capping.md). Notez que la règle de limitation ne permet pas de nouvelle tentative. Si vous avez besoin d’effectuer une nouvelle tentative, vous devez utiliser un autre chemin dans le parcours en cochant la case **[!UICONTROL Ajouter un itinéraire alternatif en cas de temporisation ou d’erreur]** dans les conditions ou les actions.
+* Mettez en place une règle de limitation pour les sources de données et les actions utilisées dans les parcours pour éviter de les surcharger. En savoir plus dans la documentation de [Journey Orchestration](https://experienceleague.adobe.com/docs/journeys/using/working-with-apis/capping.html?lang=fr){target="_blank"}. Notez que la règle de limitation ne permet pas de nouvelle tentative. Si vous devez réessayer, utilisez un autre chemin dans le parcours en cochant la case **[!UICONTROL Ajouter un autre chemin en cas de temporisation ou d’erreur]** dans les conditions ou les actions.
 
-Avant d’utiliser l’audience dans un parcours, évaluez toujours d’abord le volume de particuliers qualifiés pour cette audience tous les jours. Pour ce faire, vous pouvez vérifier le menu **[!UICONTROL Audiences]**, ouvrir l’audience, puis consulter le graphe **[!UICONTROL Profils sur toute la durée]**.
+* Avant d’utiliser l’audience dans un parcours de production, évaluez quotidiennement le volume de particuliers qualifiés pour cette audience. Pour ce faire, vérifiez le menu **[!UICONTROL Audience]**, ouvrez l’audience et consultez le graphique **[!UICONTROL Profils au fil du temps]**.
 
-![](assets/segment-overload.png)
+  ![](assets/segment-overload.png)
 
 ## Vidéo pratique {#video}
 
 Découvrez des cas d’utilisation des parcours de qualification d’audience dans cette vidéo. Découvrez comment créer un parcours avec qualification d’audience et les bonnes pratiques à appliquer.
 
->[!VIDEO](https://video.tv.adobe.com/v/3446206?quality=12&captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/3425028?quality=12)
