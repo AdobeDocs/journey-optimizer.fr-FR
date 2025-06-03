@@ -5,10 +5,10 @@ user-guide-title: Guide de Journey Optimizer
 user-guide-description: Utilisez Journey Optimizer pour créer et proposer aux clients des expériences connectées, contextuelles et personnalisées
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: d3f15c09194a50b95107fb84d680606a468f8644
+source-git-commit: 8b0310e91e5b5c1418e8e26f4505bda45146ceba
 workflow-type: tm+mt
-source-wordcount: '2398'
-ht-degree: 96%
+source-wordcount: '2394'
+ht-degree: 98%
 
 ---
 
@@ -54,7 +54,7 @@ ht-degree: 96%
       + [Rapport dynamique dans votre parcours](using/building-journeys/report-journey.md)
    + Gérer vos parcours{#manage-journey}
       + [Parcourir et filtrer vos parcours](using/building-journeys/journey-ui.md)
-      + [Entrée de profil dans parcours](using/building-journeys/entry-management.md)
+      + [Entrée de profil dans les parcours](using/building-journeys/entry-management.md)
       + [Identifiant supplémentaire dans les parcours déclenchés par un événement](using/building-journeys/supplemental-identifier.md)
       + [Gestion des fuseaux horaires](using/building-journeys/timezone-management.md)
       + [Optimisation de l’heure d’envoi](using/building-journeys/send-time-optimization.md)
@@ -177,7 +177,7 @@ ht-degree: 96%
 + Campagnes orchestrées {#orchestrated-campaigns}
    + [Commencer les campagnes orchestrées](using/ms/gs-ms-campaigns.md)
    + [Principes de base](using/ms/gs-campaign-creation.md)
-   + [Procédure de création de campagnes orchestrées](using/ms/gs-campaign-steps.md)
+   + [Étapes de création de campagnes orchestrées](using/ms/gs-campaign-steps.md)
    + Étapes de configuration {#ms-config}
       + [Créer des schémas relationnels](using/ms/ms-schemas.md)
    + Étapes de création{#create-ms-campaign}
@@ -203,7 +203,7 @@ ht-degree: 96%
       + [Actions de canal](using/ms/activities/channels.md)
       + [Personnaliser votre contenu](using/ms/ms-personalization.md)
       + [Tester et valider vos messages](using/ms/ms-proofs.md)
-   + Reporting et surveillance {#report}
+   + Création de rapports et surveillance {#report}
       + [Création de rapports](using/ms/reporting-campaigns.md)
 + Campagnes {#campaigns}
    + [Commencer avec les campagnes](using/campaigns/get-started-with-campaigns.md)
@@ -220,11 +220,11 @@ ht-degree: 96%
    + Prévisualiser et tester le contenu {#preview-test}
       + [Commencer avec la prévisualisation et les tests](using/content-management/preview-test.md)
       + [Sélectionner des profils de test](using/content-management/test-profiles.md)
-      + [Aperçu à l’aide de profils de test](using/content-management/preview.md)
+      + [Prévisualiser avec les profils de test](using/content-management/preview.md)
       + [Envoyer des BAT à l’aide des données de profil de test](using/content-management/proofs.md)
       + [Tester le rendu des e-mails](using/content-management/rendering.md)
-      + [Simuler les variations du contenu](using/test-approve/simulate-sample-input.md)
-      + [Rapport de spam des e-mails](using/content-management/spam-report.md)
+      + [Simuler les variations de contenu](using/test-approve/simulate-sample-input.md)
+      + [Envoyer le rapport sur les spams](using/content-management/spam-report.md)
    + Approuver les parcours et les campagnes {#approve}
       + [Commencer les approbations](using/test-approve/gs-approval.md)
       + [Créer et gérer des politiques d’approbation](using/test-approve/approval-policies.md)
@@ -345,7 +345,7 @@ ht-degree: 96%
    + Pages de destination {#landing-pages}
       + [Prise en main des pages de destination](using/landing-pages/get-started-lp.md)
       + [Créer une page de destination](using/landing-pages/create-lp.md)
-      + [Gestion des pages de destination](using/landing-pages/manage-lp.md)
+      + [Gérer vos pages de destination](using/landing-pages/manage-lp.md)
       + Concevoir du contenu {#landing-pages-design}
          + [À propos de la conception d&#39;une page de destination](using/landing-pages/design-lp.md)
          + [Création du contenu de la page de destination](using/landing-pages/lp-content.md)
@@ -401,9 +401,9 @@ ht-degree: 96%
       + [Utiliser Adobe Stock](using/integrations/stock.md)
       + [Utiliser Adobe Express](using/integrations/express.md)
       + [Utiliser les modèles Experience Manager](using/integrations/aem-templates.md)
-      + [Utiliser des fragments de contenu Experience Manager](using/integrations/aem-fragments.md)
+      + [Utiliser les fragments de contenu Experience Manager](using/integrations/aem-fragments.md)
       + [Utiliser Dynamic Media](using/integrations/aem-dynamic.md)
-      + [Utilisation de GenStudio for Performance Marketing](using/integrations/genstudio.md)
+      + [Utiliser GenStudio for Performance Marketing](using/integrations/genstudio.md)
    + Assistant IA pour la génération de contenu{#ai-assistant}
       + [Commencer avec l’Assistant IA](using/content-management/gs-generative.md)
       + [Génération d’e-mails avec l’IA](using/content-management/generative-email.md)
@@ -767,15 +767,14 @@ ht-degree: 96%
       + [Utiliser et attribuer des sandbox](using/administration/sandboxes.md)
       + [Exporter des objets vers un autre sandbox](using/configuration/copy-objects-to-sandbox.md)
    + [Configurer le connecteur Sources](using/start/get-started-sources.md)
-+ Contrôle d&#39;accès {#access-control}
-   + Présentation du contrôle d’accès {#privacy}
-      + [Prise en main de User Management](using/administration/permissions-overview.md)
-      + [Rôles intégrés](using/administration/ootb-product-profiles.md)
-      + [Autorisations intégrées](using/administration/ootb-permissions.md)
-      + [Niveaux d’autorisation](using/administration/high-low-permissions.md)
++ Contrôle d’accès {#access-control}
+   + [Prise en main du contrôle d’accès](using/administration/permissions-overview.md)
    + [Gérer les utilisateurs et utilisatrices et les rôles](using/administration/permissions.md)
+   + [Rôles intégrés](using/administration/ootb-product-profiles.md)
+   + [Autorisations intégrées](using/administration/ootb-permissions.md)
+   + [Niveaux d’autorisation](using/administration/high-low-permissions.md)
    + [Contrôle d’accès basé sur les attributs](using/administration/attribute-based-access.md)
-   + [Contrôle d’accès au niveau des objets](using/administration/object-based-access.md)
+   + [Contrôle d’accès au niveau de l’objet](using/administration/object-based-access.md)
 + Confidentialité {#privacy}
    + [Commencer avec la confidentialité](using/privacy/get-started-privacy.md)
    + [Demandes d’accès à des informations personnelles](using/privacy/requests.md)
