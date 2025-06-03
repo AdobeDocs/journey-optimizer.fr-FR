@@ -9,8 +9,8 @@ role: User
 level: Beginner, Intermediate
 hidefromtoc: true
 exl-id: 0997a640-3f89-4460-ba93-ea21a9d4efc5
-source-git-commit: b2446c6a243d6d95b6f695b9c7007e62c51d8fa3
-workflow-type: ht
+source-git-commit: 6da1d9a3edb8a30b8f13fd0cb6a138f22459ad00
+workflow-type: tm+mt
 source-wordcount: '3598'
 ht-degree: 100%
 
@@ -261,7 +261,7 @@ Cette page répertorie toutes les fonctionnalités et améliorations pour [!DNL 
 <td>
 <p>Utilisez les campagnes de Journey Optimizer pour diffuser du contenu ponctuel sur une audience spécifique à l’aide de divers canaux. Lors de l’utilisation de parcours, les actions sont conçues pour être exécutées en séquence. Avec les campagnes, les actions sont exécutées simultanément, immédiatement ou selon un planning spécifié. </p>
 <img src="assets/do-not-localize/campaigns.gif"/>
-<p>Découvrez comment créer une campagne dans la <a href="../campaigns/get-started-with-campaigns.md">documentation détaillée</a> et la <a href="https://video.tv.adobe.com/v/3412403?captions=fre_fr">vidéo sur les fonctionnalités</a>.
+<p>Découvrez comment créer une campagne dans la <a href="../campaigns/get-started-with-campaigns.md">documentation détaillée</a> et la <a href="https://video.tv.adobe.com/v/346680">vidéo sur les fonctionnalités</a>.
 </td>
 </tr>
 </tbody>
@@ -545,7 +545,7 @@ Cette page répertorie toutes les fonctionnalités et améliorations pour [!DNL 
 <tr>
 <td>
 <p>Vous pouvez désormais définir des règles métier cross-canal qui excluront automatiquement les profils sursollicités des messages et actions.</p>
-<p>Pour plus d’informations, consultez la <a href="../configuration/rule-sets.md">documentation détaillée</a>.</p>
+<p>Pour plus d’informations, consultez la <a href="../conflict-prioritization/rule-sets.md">documentation détaillée</a>.</p>
 </td>
 </tr>
 </tbody>

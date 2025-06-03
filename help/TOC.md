@@ -5,9 +5,9 @@ user-guide-title: Guide de Journey Optimizer
 user-guide-description: Utilisez Journey Optimizer pour créer et proposer aux clients des expériences connectées, contextuelles et personnalisées
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 8b0310e91e5b5c1418e8e26f4505bda45146ceba
+source-git-commit: 6da1d9a3edb8a30b8f13fd0cb6a138f22459ad00
 workflow-type: tm+mt
-source-wordcount: '2394'
+source-wordcount: '2406'
 ht-degree: 98%
 
 ---
@@ -215,7 +215,10 @@ ht-degree: 98%
    + [Commencer avec la gestion et la hiérarchisation des conflits](using/conflict-prioritization/gs-conflict-prioritization.md)
    + [Identifier les conflits potentiels](using/conflict-prioritization/conflicts.md)
    + [Attribuer des scores de priorité](using/conflict-prioritization/priority-scores.md)
-   + [Limitation et arbitrage des parcours](using/conflict-prioritization/journey-capping.md)
+Définissez les règles de limitation des messages et des parcours  {#capping-rules}
+      + [Utiliser des jeux de règles](using/conflict-prioritization/rule-sets.md)
+      + [Limitation et arbitrage des parcours](using/conflict-prioritization/journey-capping.md)
+      + [Capping de la fréquence par canal et type de communication](using/conflict-prioritization/channel-capping.md)
 + Tester et approuver {#test}
    + Prévisualiser et tester le contenu {#preview-test}
       + [Commencer avec la prévisualisation et les tests](using/content-management/preview-test.md)
@@ -732,7 +735,6 @@ ht-degree: 98%
    + [Prise en charge de l’archivage](using/configuration/archiving-support.md)
    + [Modifier les adresses d’exécution](using/configuration/primary-email-addresses.md)
    + [Configurer des règles métier](using/configuration/frequency-rules.md)
-   + [Utiliser des jeux de règles](using/configuration/rule-sets.md)
 + Configuration de parcours {#configure-journeys}
    + [Configurer des sources de données, des événements et des actions](using/configuration/about-data-sources-events-actions.md)
    + Configuration des événements {#events-journeys}

@@ -8,8 +8,8 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
-source-git-commit: b2446c6a243d6d95b6f695b9c7007e62c51d8fa3
-workflow-type: ht
+source-git-commit: 6da1d9a3edb8a30b8f13fd0cb6a138f22459ad00
+workflow-type: tm+mt
 source-wordcount: '1440'
 ht-degree: 100%
 
@@ -24,7 +24,7 @@ Les concepts clés lors de la navigation dans l’interface utilisateur sont les
 
 >[!NOTE]
 >
->* Les composants et fonctionnalités disponibles dans votre environnement dépendent de vos [autorisations](../administration/permissions.md) et de votre [package de licence](https://helpx.adobe.com/fr/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}. Pour toute question, contactez votre responsable Succès client Adobe ou votre représentant ou représentante Adobe.
+>* Les composants et fonctionnalités disponibles dans votre environnement dépendent de vos [autorisations](../administration/permissions.md) et de votre [package de licence](https://helpx.adobe.com/fr/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}. Pour toute question, contactez votre responsable du succès client Adobe ou votre représentant ou représentante Adobe.
 >
 >* Cette documentation est fréquemment mise à jour pour prendre en compte les dernières modifications de l&#39;interface utilisateur du produit. Cependant, certaines captures d&#39;écran peuvent être légèrement différentes de votre interface utilisateur.
 >
@@ -130,7 +130,7 @@ Contrôlez les demandes et la gestion concernant la confidentialité à partir d
 
   Vous pouvez également accéder à la section **Création de rapports** pour configurer les rapports pour l’expérimentation de campagnes, ainsi que pour le web et les applications mobiles. [En savoir plus](../reports/reporting-configuration.md)
 
-* **[!UICONTROL Règles métier]** - Utilisez cette section pour créer des règles métier cross-canal afin de contrôler la fréquence à laquelle les utilisateurs et utilisatrices reçoivent un message ou entrent dans un parcours. [En savoir plus](../configuration/rule-sets.md).
+* **[!UICONTROL Règles métier]** - Utilisez cette section pour créer des règles métier cross-canal afin de contrôler la fréquence à laquelle les utilisateurs et utilisatrices reçoivent un message ou entrent dans un parcours. [En savoir plus](../conflict-prioritization/rule-sets.md).
 
 * **[!UICONTROL Alertes]** - Lʼinterface utilisateur vous permet de consulter lʼhistorique des alertes reçues en fonction des mesures affichées par Adobe Experience Platform Observability Insights. Lʼinterface utilisateur vous permet également dʼafficher, dʼactiver et de désactiver les règles dʼalerte disponibles. [En savoir plus](../reports/alerts.md).
 

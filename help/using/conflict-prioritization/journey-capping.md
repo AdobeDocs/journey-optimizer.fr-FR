@@ -3,20 +3,15 @@ title: Limitation et arbitrage des parcours
 description: Découvrez comment créer des règles de limitation pour vos parcours et comment arbitrer une entrée de parcours.
 role: User
 level: Beginner
-badge: label="Disponibilité limitée"
 exl-id: 4c0ee178-81fb-41ae-b7f5-22da995e6fc6
-source-git-commit: b2446c6a243d6d95b6f695b9c7007e62c51d8fa3
+source-git-commit: 6da1d9a3edb8a30b8f13fd0cb6a138f22459ad00
 workflow-type: tm+mt
-source-wordcount: '943'
-ht-degree: 100%
+source-wordcount: '910'
+ht-degree: 82%
 
 ---
 
 # Limitation et arbitrage des parcours {#journey-capping}
-
->[!AVAILABILITY]
->
->Les fonctionnalités de gestion des conflits et des priorités sont accessibles en disponibilité limitée pour un groupe sélectionné de clientes et clients. Notez que ces fonctionnalités seront progressivement déployées vers d’autres utilisateurs et utilisatrices à l’avenir. Contactez votre équipe de compte si vous souhaitez qu’elle vous ajoute à la liste d’attente pour ces fonctionnalités.
 
 La limitation des parcours permet de limiter le nombre de parcours dans lesquels un profil peut être inscrit, ce qui évite la surcharge de communication. Dans Journey Optimizer, vous pouvez définir deux types de règles de limitation :
 
@@ -24,10 +19,6 @@ La limitation des parcours permet de limiter le nombre de parcours dans lesquels
 * La **limitation de simultanéité** limite le nombre de parcours dans lesquels un profil peut être inscrit simultanément.
 
 Les deux types de limitation de parcours utilisent des scores de priorité pour arbitrer les entrées.
-
->[!AVAILABILITY]
->
->Les jeux de règles de domaine des **parcours** ne sont disponibles que pour un nombre limité d’utilisateurs et utilisatrices (disponibilité limitée). Pour en bénéficier, contactez votre représentant ou représentante Adobe.
 
 ➡️ [Découvrez cette fonctionnalité en vidéo](#video)
 
@@ -57,59 +48,49 @@ Pour créer une règle de limitation de parcours, procédez comme suit :
 
      ![](assets/journey-capping-rule-set.png)
 
-1. Dans l’écran du jeu de règles, cliquez sur le bouton **[!UICONTROL Ajouter une règle]**, puis configurez la règle en fonction de vos besoins :
+1. Dans l’écran d’ensemble de règles, cliquez sur le bouton **[!UICONTROL Ajouter une règle]** puis attribuez un nom unique à la règle.
+
+1. Dans la liste déroulante **[!UICONTROL Type de règle]**, spécifiez le type de limitation de la règle.
+
+   * **[!UICONTROL Limite des entrées de parcours]** : limite le nombre d’entrées dans le parcours sur une période donnée pour un profil.
+   * **[!UICONTROL Limite de simultanéité des parcours]** : limite le nombre de parcours dans lesquels un profil peut être inscrit simultanément.
 
    ![](assets/journey-capping-concurrency.png)
 
-   * Indiquez un nom unique pour la règle.
+1. Développez les sections ci-dessous pour découvrir comment configurer chaque type de limitation :
 
-   * Dans la liste déroulante **[!UICONTROL Type de règle]**, spécifiez le type de limitation de la règle.
+   +++ Configuration d’une règle de limitation d’entrée de parcours
 
-      * **[!UICONTROL Limite des entrées de parcours]** : limite le nombre d’entrées dans le parcours sur une période donnée pour un profil.
-      * **[!UICONTROL Limite de simultanéité des parcours]** : limite le nombre de parcours dans lesquels un profil peut être inscrit simultanément.
+   1. Dans le champ **[!UICONTROL Limitation]**, définissez le nombre maximal de parcours qu’un profil peut rejoindre.
+   1. Dans le champ **[!UICONTROL Durée]**, définissez la période à prendre en compte. Veuillez noter que la durée est basée sur le fuseau horaire UTC. Par exemple, la limite quotidienne est réinitialisée à minuit UTC.
 
-   * Développez les sections ci-dessous pour découvrir comment configurer chaque type de limitation :
+   Dans cet exemple, nous voulons limiter à « 5 » le nombre de parcours par mois que les profils peuvent rejoindre.
 
-     +++ Configuration d’une règle de limitation d’entrée de parcours
+   ![](assets/journey-capping-entry-example.png)
 
-      1. Dans le champ **[!UICONTROL Limitation]**, définissez le nombre maximal de parcours qu’un profil peut rejoindre.
-      1. Dans le champ **[!UICONTROL Durée]**, définissez la période à prendre en compte. Veuillez noter que la durée est basée sur le fuseau horaire UTC. Par exemple, la limite quotidienne est réinitialisée à minuit UTC.
-
-     >[!AVAILABILITY]
-     >
-     >La durée « Quotidienne » est disponible uniquement pour un ensemble d’organisations (disponibilité limitée). Pour en bénéficier, contactez votre représentant ou représentante Adobe.
-
-     Dans cet exemple, nous voulons limiter à « 5 » le nombre de parcours par mois que les profils peuvent rejoindre.
-
-     ![](assets/journey-capping-entry-example.png)
-
-     >[!NOTE]
-     >
-     >Le système prendra en compte la priorité des parcours planifiés à venir auxquels cette même règle est appliquée.
-     >
-     >Dans cet exemple, si la personne spécialiste marketing a déjà rejoint 4 parcours et qu’il y a un autre parcours planifié à venir ce mois-ci avec une priorité plus élevée, les personnes clientes seront alors supprimées de l’entrée au parcours de priorité plus faible.
+   >[!NOTE]
+   >
+   >Le système prendra en compte la priorité des parcours planifiés à venir auxquels cette même règle est appliquée.
+   >
+   >Dans cet exemple, si la personne spécialiste marketing a déjà rejoint 4 parcours et qu’il y a un autre parcours planifié à venir ce mois-ci avec une priorité plus élevée, les personnes clientes seront alors supprimées de l’entrée au parcours de priorité plus faible.
 
 +++
 
-     +++ Configuration d’une règle de limitation de la simultanéité des parcours
+   +++ Configuration d’une règle de limitation de la simultanéité des parcours
 
-      1. Dans le champ **[!UICONTROL Limitation]**, définissez le nombre maximal de parcours dans lesquels un profil peut être inscrit simultanément.
+   1. Dans le champ **[!UICONTROL Limitation]**, définissez le nombre maximal de parcours dans lesquels un profil peut être inscrit simultanément.
 
-      1. Utilisez le champ **[!UICONTROL Aperçu de la hiérarchisation]** pour arbitrer les entrées de parcours en fonction des scores de priorité sur une période donnée (par exemple, 1 jour, 7 jours, 30 jours). Cela permet de donner la priorité à l’entrée dans des parcours à plus forte valeur si un profil est éligible à plusieurs parcours.
+   1. Utilisez le champ **[!UICONTROL Aperçu de la hiérarchisation]** pour arbitrer les entrées de parcours en fonction des scores de priorité sur une période donnée (par exemple, 1 jour, 7 jours, 30 jours). Cela permet de donner la priorité à l’entrée dans des parcours à plus forte valeur si un profil est éligible à plusieurs parcours.
 
-     Dans cet exemple, nous voulons empêcher les profils de rejoindre le parcours s’ils sont déjà inscrits dans un autre parcours contenant le même jeu de règles. Si un autre parcours dans les 7 jours à venir a un score de priorité plus élevé, le profil ne rejoint pas ce parcours.
+   Dans cet exemple, nous voulons empêcher les profils de rejoindre le parcours s’ils sont déjà inscrits dans un autre parcours contenant le même jeu de règles. Si un autre parcours dans les 7 jours à venir a un score de priorité plus élevé, le profil ne rejoint pas ce parcours.
 
-     ![](assets/journey-capping-concurrency-example.png){width="50%" zommable="yes"}
+   ![](assets/journey-capping-concurrency-example.png){width="50%" zommable="yes"}
 
 +++
 
-1. Lorsque la règle de limitation est prête à être appliquée à des parcours, activez-la en cliquant sur le bouton représentant des points de suspension en regard de son nom.
+1. Répétez les étapes ci-dessus pour ajouter autant de règles que nécessaire au jeu de règles.
 
-   ![](assets/journey-capping-activate-rule.png)
-
-1. Activez la totalité du jeu de règles en cliquant sur le bouton représentant des points de suspension en regard du bouton Ajouter une règle dans le coin supérieur droit de l’écran.
-
-   ![](assets/journey-capping-activate-rule-set.png)
+1. Lorsque la règle de limitation est prête à être appliquée aux parcours, activez la règle et l’ensemble de règles auquel elle a été ajoutée. [Découvrez comment activer des ensembles de règles](../conflict-prioritization/rule-sets.md#create)
 
 ## Application de règles de limitation aux parcours {#apply-capping}
 
@@ -122,14 +103,18 @@ Pour appliquer une règle de limitation à un parcours, accédez au parcours et 
 
 ![](assets/journey-capping-apply.png)
 
->[!IMPORTANT]
+>[!NOTE]
 >
->Si un parcours est activé immédiatement, cela peut prendre jusqu’à 20 minutes pour que le système puisse commencer à supprimer la clientèle. Vous pouvez planifier votre parcours pour qu’il commence au moins 20 minutes dans le futur afin d’éviter cette éventualité.
+>Si un parcours est activé immédiatement, cela peut prendre jusqu’à 10 minutes pour que le système puisse commencer à supprimer la clientèle. Par conséquent, un message s’affiche si vous tentez de publier un parcours dont l’heure de début est inférieure à 10 minutes.
 
-Une fois le parcours actif, vous pouvez vérifier dans le rapport de parcours si le jeu de règles a entraîné une exclusion du parcours, dans le tableau **[!UICONTROL Exclusions du parcours]**. [Découvrir comment utiliser les rapports de parcours](../reports/journey-global-report-cja.md)
+## Surveiller les exclusions d’ensembles de règles {#monitor}
+
+Une fois qu’un parcours est actif, vous pouvez vérifier dans le rapport de parcours si l’ensemble de règles a entraîné une exclusion du parcours, dans le tableau **[!UICONTROL Exclusions de Parcours]**. Le tableau Exclusions du Parcours comprend des répartitions détaillées des exclusions par jeu de règles et nom de règle, fournissant des informations sur les raisons pour lesquelles les profils ont été ignorés. [Découvrir comment utiliser les rapports de parcours](../reports/journey-global-report-cja.md)
 
 ![](assets/journey-report.png)
 
+En outre, vous pouvez également utiliser Adobe Experience Platform **Query Service** pour créer des requêtes afin d’identifier la règle qui a empêché un profil d’entrer dans un parcours donné. Un exemple de requête est disponible dans [cette section](../reports/query-examples.md#common-queries).
+
 ## Vidéo pratique {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/3447615?quality=12&captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/3435530?quality=12)
