@@ -154,4 +154,4 @@ Avant d’utiliser l’audience dans un parcours, évaluez toujours d’abord le
 
 Découvrez des cas d’utilisation des parcours de qualification d’audience dans cette vidéo. Découvrez comment créer un parcours avec qualification d’audience et les bonnes pratiques à appliquer.
 
->[!VIDEO](https://video.tv.adobe.com/v/3425028?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3446206?quality=12&captions=fre_fr)
