@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: activité, parcours, lecture, audience, platform
 exl-id: 7b27d42e-3bfe-45ab-8a37-c55b231052ee
-source-git-commit: 9618c46a8559631036d308bcc8defab77b88c052
+source-git-commit: 1ad534b7877f0ac6c1f50e29f41af708e83b34c9
 workflow-type: tm+mt
 source-wordcount: '2182'
-ht-degree: 99%
+ht-degree: 98%
 
 ---
 
@@ -287,4 +287,4 @@ Les déclencheurs **Lecture d’audience** échoués sont capturés et affichés
 
 Comprenez les cas d’utilisation applicables pour un parcours déclenché par l’activité de lecture d’audience. Découvrez comment créer des parcours basés sur des lots et les bonnes pratiques à appliquer.
 
->[!VIDEO](https://video.tv.adobe.com/v/3430370?quality=12&captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/3424997?quality=12)
