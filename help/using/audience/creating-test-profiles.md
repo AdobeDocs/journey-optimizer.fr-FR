@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: bd5e053a-69eb-463b-add3-8b9168c8e280
-source-git-commit: 22a8742bf9000ed1cc8437d7ac89747276284dbf
+source-git-commit: 5fcbde9344e919b817ef8d360d2318a6d9a1513f
 workflow-type: tm+mt
-source-wordcount: '1357'
-ht-degree: 98%
+source-wordcount: '1352'
+ht-degree: 92%
 
 ---
 
@@ -22,25 +22,27 @@ Les profils de test sont requis lors de l’utilisation du [mode test](../buildi
 
 >[!NOTE]
 >
->[!DNL Journey optimizer] vous permet également de tester différentes variantes de votre contenu en le prévisualisant et en envoyant des BAT à l’aide d’exemples de données d’entrée chargées à partir d’un fichier CSV/JSON ou ajoutées manuellement. [Découvrez comment simuler des variations de contenu](../test-approve/simulate-sample-input.md)
+>[!DNL Journey optimizer] permet de tester différentes variantes de votre contenu en le prévisualisant et en envoyant des BAT à l’aide des exemples de données d’entrée chargées à partir d’un fichier CSV ou JSON ou ajoutées manuellement. [Découvrir comment tester votre contenu à l’aide d’exemples de données d’entrée](../test-approve/simulate-sample-input.md)
 
 Il existe plusieurs façons de créer des profils de test. Vous trouverez sur cette page des informations détaillées pour :
 
 * Transformer un [profil existant](#turning-profile-into-test) en profil de test.
 
-* Créer des profils de test en chargeant un [fichier CSV](#create-test-profiles-csv) ou en utilisant des [appels d’API](#create-test-profiles-api).
+* Créez des profils de test en chargeant un [fichier CSV](#create-test-profiles-csv) ou en utilisant des [appels API](#create-test-profiles-api).
 
-  Outre ces deux méthodes, Adobe Journey Optimizer est fourni avec un [cas d’utilisation intégré](#use-case-1) spécifique pour faciliter la création de profils de test.
+  Adobe Journey Optimizer fournit également un [cas d’utilisation intégré au produit](#use-case-1) spécifique pour faciliter la création de profils de test.
 
-Vous pouvez également charger un fichier JSON dans un jeu de données existant. Consultez à ce sujet la [documentation sur l&#39;ingestion des données ](https://experienceleague.adobe.com/docs/experience-platform/ingestion/tutorials/ingest-batch-data.html?lang=fr#add-data-to-dataset){target="_blank"}.
+Vous pouvez charger un fichier JSON dans un jeu de données existant. Pour plus d’informations, consultez la [documentation sur l’ingestion de données](https://experienceleague.adobe.com/docs/experience-platform/ingestion/tutorials/ingest-batch-data.html?lang=fr#add-data-to-dataset){target="_blank"}.
 
 Veuillez noter que la création d&#39;un profil de test est similaire à la création de profils classiques dans Adobe Experience Platform. Pour plus d&#39;informations, consultez la [documentation du profil client en temps réel](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=fr){target="_blank"}.
 
 ➡️ [Découvrez comment créer des profils de test dans cette vidéo](#video)
 
-## Prérequis {#test-profile-prerequisites}
+## Conditions préalables {#test-profile-prerequisites}
 
-Pour pouvoir créer des profils, il vous faut d’abord créer un schéma ainsi qu’un jeu de données dans Adobe [!DNL Journey Optimizer].
+Pour créer des profils, vous devez d’abord créer un schéma ainsi qu’un jeu de données dans Adobe [!DNL Journey Optimizer].
+
+### Créer un schéma
 
 Pour **créer un schéma**, procédez comme suit :
 
@@ -70,6 +72,8 @@ Une fois que vous avez terminé, cliquez sur **[!UICONTROL Ajouter des groupes d
 >[!NOTE]
 >
 >Pour plus d&#39;informations sur la création de schémas, consultez la [documentation XDM](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/resources/schemas.html?lang=fr#prerequisites){target="_blank"}.
+
+### Créer un jeu de données
 
 Vous devez ensuite **créer le jeu de données** dans lequel les profils seront importés. Procédez de la façon suivante :
 
@@ -244,4 +248,4 @@ curl -X POST \
 
 Découvrez comment créer des profils de test.
 
->[!VIDEO](https://video.tv.adobe.com/v/3416331?quality=12&captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/334236?quality=12)
