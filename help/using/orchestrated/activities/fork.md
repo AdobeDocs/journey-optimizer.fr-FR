@@ -7,10 +7,10 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: 52e8057b-dac1-45f5-9dd0-1b28a59adde9
-source-git-commit: 9606ca5710e6f91159474d76f68cdcbc2128b000
+source-git-commit: 52226a4374fa6321b31ac2d57f76a48594df1c51
 workflow-type: tm+mt
-source-wordcount: '244'
-ht-degree: 62%
+source-wordcount: '216'
+ht-degree: 31%
 
 ---
 
@@ -20,7 +20,6 @@ ht-degree: 62%
 >id="ajo_orchestration_fork"
 >title="Activité Branchement"
 >abstract="L’activité **Branchement** permet de créer des transitions sortantes afin de lancer plusieurs activités en parallèle."
-
 
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_fork_transitions"
@@ -39,7 +38,7 @@ ht-degree: 62%
 
 <br/>
 
-L’activité **Branchement** est une activité de **contrôle de flux**. Elle permet de créer des transitions sortantes afin de démarrer plusieurs activités en parallèle.
+L’activité **Branchement** est un composant **Contrôle de flux** qui permet de créer plusieurs transitions sortantes et d’exécuter plusieurs activités en parallèle.
 
 ## Configurer l’activité Branchement{#fork-configuration}
 
@@ -48,14 +47,11 @@ Pour configurer l’activité **Branchement**, procédez comme suit :
 ![](../assets/workflow-fork.png)
 
 1. Ajoutez une activité **Branchement** à votre campagne orchestrée.
-1. Cliquez sur **Ajouter une transition** pour ajouter une nouvelle transition sortante. Par défaut, deux transitions sont définies.
-1. Ajoutez un libellé à chacune de vos transitions.
 
-## Exemple{#fork-example}
+1. Définissez un **libellé**.
 
-Dans l’exemple suivant, nous utilisons deux activités **Branchement** :
+1. Attribuez un libellé à chaque transition sortante. Par défaut, deux transitions sont fournies.
 
-* Une avant les deux requêtes, pour les exécuter en même temps.
-* Une après l’intersection, pour envoyer simultanément un e-mail et un SMS à la population ciblée.
+1. Pour supprimer une transition, cliquez sur l’icône ![](../assets/do-not-localize/Smock_Delete_18_N.svg).
 
-![](../assets/workflow-fork-example.png)
+1. Si nécessaire, cliquez sur **Ajouter une transition** pour ajouter une transition sortante supplémentaire.

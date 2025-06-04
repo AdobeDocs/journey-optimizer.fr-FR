@@ -7,10 +7,10 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: 11ef095b-77ec-4e2e-ab4d-49a248354f08
-source-git-commit: 9606ca5710e6f91159474d76f68cdcbc2128b000
+source-git-commit: 52226a4374fa6321b31ac2d57f76a48594df1c51
 workflow-type: tm+mt
-source-wordcount: '245'
-ht-degree: 60%
+source-wordcount: '273'
+ht-degree: 11%
 
 ---
 
@@ -33,7 +33,9 @@ ht-degree: 60%
 
 <br/>
 
-L’activité d’**attente** est une activité de **contrôle de flux**. Elle est utilisée pour permettre qu’un certain temps s’écoule entre l’exécution de deux activités. Par exemple, elle permet d’attendre plusieurs jours après une activité de diffusion e-mail puis d’analyser les ouvertures et les clics générés pendant ce laps de temps avant d’appliquer d’autres traitements (e-mail de rappel, création d’audience, etc.).
+L’activité **Attente** est un composant **Contrôle de flux** utilisé pour introduire un délai entre deux activités dans une campagne orchestrée. Cela permet de vous assurer que vos activités de suivi arrivent à un meilleur moment et sont plus pertinentes par rapport à l’interaction client.
+
+Par exemple, vous pouvez attendre quelques jours après une diffusion e-mail pour suivre les ouvertures et les clics avant d’envoyer un message de relance.
 
 ## Configuration{#wait-configuration}
 
@@ -41,12 +43,16 @@ Pour configurer l’activité d’**attente**, procédez comme suit :
 
 1. Ajoutez une activité **Attente** dans votre campagne orchestrée.
 
-1. Spécifiez la **durée** de l’attente entre les transitions entrante et sortante.
+1. Sélectionnez le Type d’attente qui correspond le mieux à vos besoins :
 
-1. Sélectionnez l’unité de temps dans le champ **Périodes** : secondes, minutes, heures, jours.
+   * **Durée** : indiquez un délai en secondes, minutes, heures ou jours avant de passer à l’activité suivante.
+
+   * **Heure fixe** : définissez une date et une heure spécifiques après lesquelles l’activité suivante commencera.
+
+   ![](../assets/wait_activity.png)
 
 ## Exemple{#wait-example}
 
-L’exemple suivant illustre l’activité **Attente** dans un cas typique. Un e-mail d’invitation à un événement est envoyé. 24 heures après son envoi, une diffusion SMS est envoyée à la même population.
+L’exemple suivant illustre l’activité **Attente** dans un cas d’utilisation standard.  Un e-mail avec un code de promotion est envoyé aux profils qui célèbrent leur anniversaire. Après 29 jours, un SMS est envoyé au même groupe pour leur rappeler que leur code de promotion d’anniversaire va expirer.
 
-![](../assets/workflow-wait-example.png)
+![](../assets/wait-example.png)
