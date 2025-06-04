@@ -97,8 +97,8 @@ Pour naviguer facilement dans vos fragments, vous pouvez utiliser des dossiers p
 >[!CONTEXTUALHELP]
 >id="ajo_fragment_statuses"
 >title="Nouveaux statuts de fragments"
->abstract="Depuis que les statuts **Brouillon** et **Actif** ont été introduits avec la version de juin de Journey Optimizer, tous les fragments créés avant cette version ont le statut **Brouillon**, même s’ils sont utilisés dans un parcours ou une campagne. Si vous apportez des modifications à ces fragments, vous devez les publier pour les rendre **Actifs** et propager les modifications aux campagnes et parcours associés. Vous devez également créer une version de parcours/campagne et la publier. <br/>La publication requiert l’autorisation utilisateur <a href="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/access-control/ootb-product-profiles#content-library-manage">Publier un fragment</a>."
->additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/access-control/ootb-product-profiles#content-library-manager" text="En savoir plus sur les autorisations des fragments de contenu"
+>abstract="Depuis que les statuts **Brouillon** et **Actif** ont été introduits avec la version de juin de Journey Optimizer, tous les fragments créés avant cette version ont le statut **Brouillon**, même s’ils sont utilisés dans un parcours ou une campagne. Si vous apportez des modifications à ces fragments, vous devez les publier pour les rendre **Actifs** et propager les modifications aux campagnes et parcours associés. Vous devez également créer une version de parcours/campagne et la publier. <br/>La publication requiert l’autorisation utilisateur <a href="https://experienceleague.adobe.com/fr/docs/journey-optimizer/using/access-control/ootb-product-profiles#content-library-manage">Publier un fragment</a>."
+>additional-url="https://experienceleague.adobe.com/fr/docs/journey-optimizer/using/access-control/ootb-product-profiles#content-library-manager" text="En savoir plus sur les autorisations des fragments de contenu"
 
 Les fragments peuvent avoir plusieurs statuts :
 
