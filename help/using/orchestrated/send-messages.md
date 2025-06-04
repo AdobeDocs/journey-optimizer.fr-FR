@@ -6,9 +6,9 @@ description: Découvrez comment envoyer des messages à l’aide de campagnes or
 badge: label="Alpha"
 hide: true
 hidefromtoc: true
-source-git-commit: 7f535b87e415ae9191199b34476adb5c977b66e9
+source-git-commit: 2935e611bb9682256a324485b28e7dd2552e1dd2
 workflow-type: tm+mt
-source-wordcount: '101'
+source-wordcount: '102'
 ht-degree: 3%
 
 ---
@@ -26,7 +26,13 @@ ht-degree: 3%
 
 +++
 
-*En cours*
+<br/><br/>
+
+>[!BEGINSHADEBOX]
+
+Documentation en cours
+
+>[!ENDSHADEBOX]
 
 <!--- done via channel activities:  link to the activities section
 - sub-sections for each capability related to messages : experimentation, personalization, simulation, multilingue, ... with links to AJO docs sections for detailed information-->

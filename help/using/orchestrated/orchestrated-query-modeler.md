@@ -7,9 +7,9 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: fb7a0eb2-b2ff-49fa-af1f-f1c10f219b00
-source-git-commit: 7f535b87e415ae9191199b34476adb5c977b66e9
+source-git-commit: 2935e611bb9682256a324485b28e7dd2552e1dd2
 workflow-type: tm+mt
-source-wordcount: '159'
+source-wordcount: '160'
 ht-degree: 19%
 
 ---
@@ -27,7 +27,13 @@ ht-degree: 19%
 
 +++
 
-*En cours*
+<br/><br/>
+
+>[!BEGINSHADEBOX]
+
+Documentation en cours
+
+>[!ENDSHADEBOX]
 
 Les campagnes orchestrées sont fournies avec un modéliseur de requêtes qui simplifie le processus de filtrage de la base de données en fonction de divers critères. Le requêteur gère efficacement des requêtes longues et très complexes, avec une flexibilité et une précision accrues. En outre, il prend en charge les filtres prédéfinis dans les conditions, ce qui permet aux utilisateurs et utilisatrices d’affiner facilement leurs requêtes tout en utilisant des expressions et des opérateurs avancés pour des stratégies de segmentation et un ciblage d’audience complets.
 

@@ -7,7 +7,7 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: b0125a50-d187-49fc-ad12-bbe6650f8f1e
-source-git-commit: 7f535b87e415ae9191199b34476adb5c977b66e9
+source-git-commit: 2935e611bb9682256a324485b28e7dd2552e1dd2
 workflow-type: tm+mt
 source-wordcount: '149'
 ht-degree: 34%
@@ -25,6 +25,8 @@ ht-degree: 34%
 {style="table-layout:fixed"}
 
 +++
+
+<br/><br/>
 
 Un schéma représente et valide la structure et le format des données. Il fournit une définition abstraite d’un objet du monde réel (comme une personne) et décrit les données à inclure dans chaque instance de cet objet (nom, anniversaire, etc.).
 

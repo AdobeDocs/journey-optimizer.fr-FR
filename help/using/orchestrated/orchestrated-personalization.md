@@ -7,9 +7,9 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: f148440d-1c45-408f-8c00-080c1700fc91
-source-git-commit: 7f535b87e415ae9191199b34476adb5c977b66e9
+source-git-commit: 2935e611bb9682256a324485b28e7dd2552e1dd2
 workflow-type: tm+mt
-source-wordcount: '107'
+source-wordcount: '110'
 ht-degree: 3%
 
 ---
@@ -25,3 +25,11 @@ ht-degree: 3%
 {style="table-layout:fixed"}
 
 +++
+
+<br/><br/>
+
+>[!BEGINSHADEBOX]
+
+Documentation en cours
+
+>[!ENDSHADEBOX]

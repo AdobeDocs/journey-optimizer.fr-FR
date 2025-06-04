@@ -7,7 +7,7 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: a9bb3782-a4d1-43fe-ae2a-aef3f17ba588
-source-git-commit: 7f535b87e415ae9191199b34476adb5c977b66e9
+source-git-commit: 2935e611bb9682256a324485b28e7dd2552e1dd2
 workflow-type: tm+mt
 source-wordcount: '1116'
 ht-degree: 37%
@@ -30,6 +30,8 @@ ht-degree: 37%
 {style="table-layout:fixed"}
 
 +++
+
+<br/><br/>
 
 Lors de la création d’une campagne orchestrée ou de l’orchestration des activités de campagne dans la zone de travail, vous pouvez accéder aux paramètres avancés de la campagne orchestrée. Par exemple, vous pouvez définir un fuseau horaire spécifique pour la campagne orchestrée, gérer le comportement de la campagne orchestrée en cas d’erreur ou gérer le délai après lequel l’historique de la campagne orchestrée doit être purgé.
 

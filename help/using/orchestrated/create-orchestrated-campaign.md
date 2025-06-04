@@ -7,7 +7,7 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: 13da680d-fef8-4749-9190-8ca3d77b060a
-source-git-commit: 7f535b87e415ae9191199b34476adb5c977b66e9
+source-git-commit: 2935e611bb9682256a324485b28e7dd2552e1dd2
 workflow-type: tm+mt
 source-wordcount: '785'
 ht-degree: 28%
@@ -16,6 +16,11 @@ ht-degree: 28%
 
 
 # Créer une campagne orchestrée {#create-first-campaign}
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaign_creation_workflow"
+>title="Liste de campagnes orchestrées"
+>abstract="L’onglet **Étapes multiples** répertorie toutes les campagnes orchestrées. Cliquez sur le nom d’une campagne orchestrée pour la modifier. Cliquez sur le bouton **Créer une campagne orchestrée** pour ajouter une nouvelle campagne orchestrée."
 
 +++ Table des matières
 
@@ -27,10 +32,7 @@ ht-degree: 28%
 
 +++
 
->[!CONTEXTUALHELP]
->id="ajo_campaign_creation_workflow"
->title="Liste de campagnes orchestrées"
->abstract="L’onglet **Étapes multiples** répertorie toutes les campagnes orchestrées. Cliquez sur le nom d’une campagne orchestrée pour la modifier. Cliquez sur le bouton **Créer une campagne orchestrée** pour ajouter une nouvelle campagne orchestrée."
+<br/><br/>
 
 ## Créer la campagne
 

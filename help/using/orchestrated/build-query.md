@@ -6,10 +6,10 @@ description: Découvrez comment créer des requêtes pour vos campagnes orchestr
 badge: label="Alpha"
 hide: true
 hidefromtoc: true
-source-git-commit: 7f535b87e415ae9191199b34476adb5c977b66e9
+source-git-commit: 2935e611bb9682256a324485b28e7dd2552e1dd2
 workflow-type: tm+mt
-source-wordcount: '100'
-ht-degree: 4%
+source-wordcount: '101'
+ht-degree: 3%
 
 ---
 
@@ -26,6 +26,12 @@ ht-degree: 4%
 
 +++
 
-*En cours*
+<br/><br/>
+
+>[!BEGINSHADEBOX]
+
+Documentation en cours
+
+>[!ENDSHADEBOX]
 
 <!--rapatrier docs utiles de la doc Web UI -->

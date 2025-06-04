@@ -7,7 +7,7 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: 611dd06d-aa18-4fa3-a477-8a910cec21d8
-source-git-commit: 7f535b87e415ae9191199b34476adb5c977b66e9
+source-git-commit: 2935e611bb9682256a324485b28e7dd2552e1dd2
 workflow-type: tm+mt
 source-wordcount: '540'
 ht-degree: 16%
@@ -26,6 +26,8 @@ ht-degree: 16%
 {style="table-layout:fixed"}
 
 +++
+
+<br/><br/>
 
 ## Qu’est-ce qu’une campagne orchestrée ?
 
