@@ -7,10 +7,10 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: 4aa79448-f75a-48d5-8819-f4cb4baad5c7
-source-git-commit: 9606ca5710e6f91159474d76f68cdcbc2128b000
+source-git-commit: 01fbf78d15e620fa7b540e3a1a6972949a0c4795
 workflow-type: tm+mt
-source-wordcount: '678'
-ht-degree: 88%
+source-wordcount: '689'
+ht-degree: 48%
 
 ---
 
@@ -54,31 +54,34 @@ L’activité **Déduplication** est une activité de **ciblage**. Cette activit
 
 Pour configurer l’activité **Déduplication**, procédez comme suit :
 
-![](../assets/workflow-deduplication.png)
 
 1. Ajoutez une activité **Déduplication** à votre campagne orchestrée.
 
 1. Dans la section **Champs pour identifier des doublons**, cliquez sur le bouton **Ajouter un attribut** pour indiquer les champs pour lesquels des valeurs identiques permettent d’identifier les doublons, par exemple : adresse e-mail, prénom, nom, etc. L’ordre des champs vous permet de spécifier ceux à traiter en premier.
 
-1. Dans la section **Paramètres de déduplication**, sélectionnez le nombre de **Doublons à conserver** uniques. La valeur par défaut de champ est 1. La valeur 0 permet de conserver tous les doublons.
+![](../assets/deduplication-1.png)
 
-   Par exemple, si les enregistrements A et B sont considérés comme des doublons de l’enregistrement Y et qu’un enregistrement C est considéré comme un doublon de l’enregistrement Z :
+1. Dans la section **Paramètres de déduplication**, choisissez le nombre d’enregistrements uniques à conserver à l’aide du champ Doublons à conserver. La valeur par défaut est 1, ce qui conserve un enregistrement par groupe en double. Définissez-le sur 0 pour conserver tous les doublons.
 
-   * Si la valeur du champ est 1 : seuls les enregistrements Y et Z sont conservés.
-   * Si la valeur du champ est 0 : tous les enregistrements sont conservés.
-   * Si la valeur du champ est 2 : les enregistrements C et Z sont conservés et deux enregistrements parmi A, B et Y sont conservés, par hasard ou selon la méthode de déduplication sélectionnée par la suite.
+   Par exemple, si les enregistrements A et B sont des doublons de Y et que l&#39;enregistrement C est un doublon de Z :
 
-1. Sélectionnez la **méthode de déduplication** à utiliser :
+   * **Si la valeur du champ est 1** : Seuls les enregistrements Y et Z sont conservés.
+   * **Si la valeur du champ est 0** : tous les enregistrements (A, B, C, Y, Z) sont conservés.
+   * **Si la valeur du champ est 2** : C et Z sont conservés, plus deux valeurs de A, B et Y, de manière aléatoire ou en fonction de votre méthode de déduplication.
+
+1. Choisissez une **Méthode de déduplication**, elle définit la manière dont le système décide des enregistrements à conserver à partir de chaque groupe de doublons :
 
    * **Sélection aléatoire** : sélectionne au hasard l’enregistrement à conserver parmi les doublons.
-   * **À partir d’une expression** : permet de conserver les enregistrements dont la valeur de l’expression renseignée est la plus petite ou la plus grande.
-   * **Valeurs non vides** : conserve les enregistrements pour lesquels l’expression n’est pas vide.
-   * **Par ordonnancement de valeurs** : définit un ordre de priorité des valeurs pour un ou plusieurs champs. Pour définir les valeurs, cliquez sur **Attributs** pour sélectionner un champ ou créez une expression, puis ajoutez la ou les valeurs dans le tableau correspondant. Pour définir un nouveau champ, cliquez sur le bouton **Ajouter** situé au-dessus de la liste des valeurs.
+   * **En utilisant une expression** : conserve les enregistrements dont la valeur est la plus élevée ou la plus faible en fonction d’une expression que vous définissez.
+   * **Valeurs non vides** : conserve les enregistrements où le champ sélectionné n’est pas vide, par exemple ne conserve que les profils ayant un numéro de téléphone.
+   * **En suivant une liste de valeurs** : permet de prioriser des valeurs spécifiques pour un ou plusieurs champs, par exemple donner la priorité aux enregistrements dont le champ « Pays » est défini sur la France. Cliquez sur **Attribut** pour choisir un champ ou créer une expression personnalisée. Utilisez le bouton **Ajouter** pour saisir les valeurs préférées dans l&#39;ordre de priorité.
+
+   ![](../assets/deduplication-2.png)
 
 1. Cochez l’option **Générer le complément** si vous souhaitez exploiter la population restante. Le complément est constitué de tous les doublons. Une transition supplémentaire sera alors ajoutée à l’activité.
 
 ## Exemple{#deduplication-example}
 
-Dans l’exemple suivant, utilisez une activité Déduplication pour exclure les doublons de la cible avant l’envoi d’une diffusion. Les profils dupliqués identifiés sont ajoutés à une audience dédiée qui peut être réutilisée si nécessaire. Choisissez l’adresse **e-mail** pour identifier les doublons. Conservez une entrée et sélectionnez la méthode de déduplication **aléatoire**.
+Dans l’exemple suivant, une activité **Déduplication** est utilisée pour supprimer les enregistrements en double de l’audience cible avant d’envoyer une diffusion. L’audience est d’abord filtrée pour inclure uniquement les profils dont le champ E-mail n’est pas vide. Ensuite, l’activité **Déduplication** utilise l’adresse e-mail pour identifier et exclure les doublons.
 
-![](../assets/workflow-deduplication-example.png)
+![](../assets/deduplication-3.png)

@@ -7,10 +7,10 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: 0d5cfffe-bc6c-40bc-b3e1-5b44368ac76f
-source-git-commit: 9606ca5710e6f91159474d76f68cdcbc2128b000
+source-git-commit: 01fbf78d15e620fa7b540e3a1a6972949a0c4795
 workflow-type: tm+mt
-source-wordcount: '636'
-ht-degree: 68%
+source-wordcount: '621'
+ht-degree: 61%
 
 ---
 
@@ -50,12 +50,9 @@ ht-degree: 68%
 
 L&#39;activité **Réconciliation** est une activité de **Ciblage** qui permet de définir le lien entre les données de Adobe Journey Optimizer et les données d&#39;une table de travail, par exemple les données chargées depuis un fichier externe.
 
-## Bonnes pratiques {#reconciliation-best-practices}
+L’activité Enrichissement vous permet d’ajouter des données supplémentaires à votre campagne orchestrée, par exemple, en combinant des données provenant de plusieurs sources ou en les liant à une ressource temporaire. En revanche, l’activité Réconciliation est utilisée pour mettre en correspondance des données non identifiées ou externes avec des ressources existantes dans la base de données.
 
-Si vous utilisez l’activité **Enrichissement** pour définir des données supplémentaires à traiter dans votre campagne orchestrée (vous pouvez utiliser une activité **Enrichissement** pour combiner des données provenant de plusieurs jeux ou pour créer des liens vers une ressource temporaire), l’activité **Réconciliation** vous permet de lier des données non identifiées à des ressources existantes.
-
->[!NOTE]
->L’opération de réconciliation suppose que les données des dimensions liées sont déjà présentes dans la base de données.  Par exemple, si vous importez un fichier d’achats indiquant quel produit a été acheté, à quelle heure, par quel client, etc., le produit ainsi que le client doivent déjà exister dans la base de données.
+Le rapprochement nécessite que les enregistrements associés existent déjà dans le système. Par exemple, si vous importez un fichier d’achat répertoriant les produits, les horodatages et les informations client, les produits et les clients doivent déjà être présents dans la base de données pour établir la liaison.
 
 ## Configurer l’activité Réconciliation {#reconciliation-configuration}
 
