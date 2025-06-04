@@ -7,7 +7,7 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: b04aa15a-71bf-4683-bcbf-f611c189ffe1
-source-git-commit: 2935e611bb9682256a324485b28e7dd2552e1dd2
+source-git-commit: 9606ca5710e6f91159474d76f68cdcbc2128b000
 workflow-type: tm+mt
 source-wordcount: '518'
 ht-degree: 28%
@@ -32,7 +32,7 @@ ht-degree: 28%
 
 +++
 
-<br/><br/>
+<br/>
 
 Vous pouvez créer des campagnes orchestrées dans une zone de travail visuelle afin de concevoir des processus cross-canal tels que la segmentation, l’exécution de campagnes ou le traitement de fichiers.
 

@@ -7,7 +7,7 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: d1d64125-cf00-49c2-a71d-1494ede16f61
-source-git-commit: 2935e611bb9682256a324485b28e7dd2552e1dd2
+source-git-commit: 9606ca5710e6f91159474d76f68cdcbc2128b000
 workflow-type: tm+mt
 source-wordcount: '1289'
 ht-degree: 59%
@@ -26,7 +26,7 @@ ht-degree: 59%
 
 +++
 
-<br/><br/>
+<br/>
 
 Une fois que vous avez [créé une campagne orchestrée](gs-campaign-creation.md), à partir du menu de campagne orchestrée ou au sein d’une campagne, vous pouvez commencer à orchestrer les différentes tâches qu’elle exécutera. Pour ce faire, une zone de travail visuelle vous permet de créer un diagramme de campagne orchestré. Dans ce diagramme, vous pouvez ajouter différentes activités et les enchaîner dans un ordre séquentiel.
 

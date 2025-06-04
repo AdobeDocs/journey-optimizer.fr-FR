@@ -7,7 +7,7 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: 3959b5fa-0c47-42a5-828f-4d7ca9b7e72d
-source-git-commit: 32b13d4fd62abc8052c1bf64d8a2d5e97bd0f464
+source-git-commit: 9606ca5710e6f91159474d76f68cdcbc2128b000
 workflow-type: tm+mt
 source-wordcount: '445'
 ht-degree: 55%
@@ -31,7 +31,7 @@ ht-degree: 55%
 
 +++
 
-<br/><br/>
+<br/>
 
 En tant que spécialiste marketing, vous pouvez facilement créer des requêtes complexes à l’aide d’une interface conviviale. Cela me permet de segmenter votre audience en fonction d’un large éventail de critères et de comportements, afin d’adapter plus efficacement vos campagnes.
 

@@ -7,7 +7,7 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: 13da680d-fef8-4749-9190-8ca3d77b060a
-source-git-commit: 2935e611bb9682256a324485b28e7dd2552e1dd2
+source-git-commit: 9606ca5710e6f91159474d76f68cdcbc2128b000
 workflow-type: tm+mt
 source-wordcount: '785'
 ht-degree: 28%
@@ -32,7 +32,7 @@ ht-degree: 28%
 
 +++
 
-<br/><br/>
+<br/>
 
 ## Créer la campagne
 

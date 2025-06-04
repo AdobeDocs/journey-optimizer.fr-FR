@@ -7,7 +7,7 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: 986bc566-123a-451d-a4a6-bbf5a2798849
-source-git-commit: 32b13d4fd62abc8052c1bf64d8a2d5e97bd0f464
+source-git-commit: 9606ca5710e6f91159474d76f68cdcbc2128b000
 workflow-type: tm+mt
 source-wordcount: '1075'
 ht-degree: 83%
@@ -31,7 +31,7 @@ ht-degree: 83%
 
 +++
 
-<br/><br/>
+<br/>
 
 L’activité **Partage** est une activité de **ciblage** vous permettant de segmenter les populations entrantes en plusieurs sous-ensembles selon différents critères de sélection, tels que les règles de filtrage ou la taille de la population.
 

@@ -6,13 +6,13 @@ description: Découvrez comment créer des requêtes pour vos campagnes orchestr
 badge: label="Alpha"
 hide: true
 hidefromtoc: true
-source-git-commit: 2935e611bb9682256a324485b28e7dd2552e1dd2
+exl-id: 5e956a6a-0b89-4d78-8f16-fe9fceb25674
+source-git-commit: 9606ca5710e6f91159474d76f68cdcbc2128b000
 workflow-type: tm+mt
 source-wordcount: '101'
 ht-degree: 3%
 
 ---
-
 
 # Création de requêtes pour les campagnes orchestrées {#orchestrated-create-queries}
 
@@ -26,7 +26,7 @@ ht-degree: 3%
 
 +++
 
-<br/><br/>
+<br/>
 
 >[!BEGINSHADEBOX]
 

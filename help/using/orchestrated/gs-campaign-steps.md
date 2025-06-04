@@ -7,7 +7,7 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: 4465a69e-5b35-4580-a19d-af66f49f269f
-source-git-commit: 2935e611bb9682256a324485b28e7dd2552e1dd2
+source-git-commit: 9606ca5710e6f91159474d76f68cdcbc2128b000
 workflow-type: tm+mt
 source-wordcount: '168'
 ht-degree: 3%
@@ -26,7 +26,7 @@ ht-degree: 3%
 
 +++
 
-<br/><br/>
+<br/>
 
 * Accédez aux campagnes orchestrées, explorez votre liste de campagnes, ajoutez des balises et découvrez des actions rapides. En savoir plus
 * Création/extension de schémas, configuration de jeux de données, configuration de l’ingestion des données

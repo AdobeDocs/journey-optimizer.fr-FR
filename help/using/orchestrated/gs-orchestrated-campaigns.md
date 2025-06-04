@@ -7,9 +7,9 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: 611dd06d-aa18-4fa3-a477-8a910cec21d8
-source-git-commit: 2935e611bb9682256a324485b28e7dd2552e1dd2
+source-git-commit: 9606ca5710e6f91159474d76f68cdcbc2128b000
 workflow-type: tm+mt
-source-wordcount: '540'
+source-wordcount: '541'
 ht-degree: 16%
 
 ---
@@ -27,7 +27,7 @@ ht-degree: 16%
 
 +++
 
-<br/><br/>
+<br/>
 
 ## Qu’est-ce qu’une campagne orchestrée ?
 
@@ -51,7 +51,11 @@ Permettant de prendre des décisions basées sur les données, l’orchestration
 
 ## Conditions préalables
 
-*En cours*
+>[!BEGINSHADEBOX]
+
+Documentation en cours
+
+>[!ENDSHADEBOX]
 
 <!--prerequisites & permissions-->
 

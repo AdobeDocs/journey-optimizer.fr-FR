@@ -7,7 +7,7 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: 02f986b2-8200-4e0e-8918-44e528a6a3ec
-source-git-commit: 32b13d4fd62abc8052c1bf64d8a2d5e97bd0f464
+source-git-commit: 9606ca5710e6f91159474d76f68cdcbc2128b000
 workflow-type: tm+mt
 source-wordcount: '465'
 ht-degree: 46%
@@ -26,7 +26,7 @@ ht-degree: 46%
 
 +++
 
-<br/><br/>
+<br/>
 
 Les activités de campagne orchestrées sont regroupées en trois catégories. Selon le contexte, les activités disponibles peuvent différer.
 

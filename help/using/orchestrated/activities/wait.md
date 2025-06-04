@@ -7,7 +7,7 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: 11ef095b-77ec-4e2e-ab4d-49a248354f08
-source-git-commit: 32b13d4fd62abc8052c1bf64d8a2d5e97bd0f464
+source-git-commit: 9606ca5710e6f91159474d76f68cdcbc2128b000
 workflow-type: tm+mt
 source-wordcount: '245'
 ht-degree: 60%
@@ -31,7 +31,7 @@ ht-degree: 60%
 
 +++
 
-<br/><br/>
+<br/>
 
 L’activité d’**attente** est une activité de **contrôle de flux**. Elle est utilisée pour permettre qu’un certain temps s’écoule entre l’exécution de deux activités. Par exemple, elle permet d’attendre plusieurs jours après une activité de diffusion e-mail puis d’analyser les ouvertures et les clics générés pendant ce laps de temps avant d’appliquer d’autres traitements (e-mail de rappel, création d’audience, etc.).
 

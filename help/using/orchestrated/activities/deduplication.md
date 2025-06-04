@@ -7,7 +7,7 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: 4aa79448-f75a-48d5-8819-f4cb4baad5c7
-source-git-commit: 32b13d4fd62abc8052c1bf64d8a2d5e97bd0f464
+source-git-commit: 9606ca5710e6f91159474d76f68cdcbc2128b000
 workflow-type: tm+mt
 source-wordcount: '678'
 ht-degree: 88%
@@ -46,7 +46,7 @@ ht-degree: 88%
 
 +++
 
-<br/><br/>
+<br/>
 
 L’activité **Déduplication** est une activité de **ciblage**. Cette activité permet de supprimer les doublons dans le ou les résultats des activités entrantes, par exemple les profils dupliqués dans la liste des profils destinataires. L’activité **Déduplication** est généralement utilisée à la suite des activités de ciblage et avant les activités permettant d’utiliser les données ciblées.
 

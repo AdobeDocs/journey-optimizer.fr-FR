@@ -7,7 +7,7 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: 1b99313e-f131-44f7-a129-f85e1977fb05
-source-git-commit: 32b13d4fd62abc8052c1bf64d8a2d5e97bd0f464
+source-git-commit: 9606ca5710e6f91159474d76f68cdcbc2128b000
 workflow-type: tm+mt
 source-wordcount: '338'
 ht-degree: 62%
@@ -31,7 +31,7 @@ ht-degree: 62%
 
 +++
 
-<br/><br/>
+<br/>
 
 L’activité **Rendez-vous** est une activité de **contrôle de flux**. Elle permet de synchroniser plusieurs branches d’exécution d’une campagne orchestrée.
 

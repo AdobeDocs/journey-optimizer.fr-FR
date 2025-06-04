@@ -7,7 +7,7 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: af3c3a9c-8172-43b0-bba1-4a3d068b9a9e
-source-git-commit: 32b13d4fd62abc8052c1bf64d8a2d5e97bd0f464
+source-git-commit: 9606ca5710e6f91159474d76f68cdcbc2128b000
 workflow-type: tm+mt
 source-wordcount: '1121'
 ht-degree: 93%
@@ -31,7 +31,7 @@ ht-degree: 93%
 
 +++
 
-<br/><br/>
+<br/>
 
 L’activité **Combiner** est une activité de **ciblage**. Cette activité vous permet d’effectuer une segmentation sur votre population entrante. Il est ainsi possible de regrouper plusieurs populations, d’en exclure une partie ou de ne conserver que les données communes entre plusieurs cibles. Les types de segmentation disponibles sont les suivants :
 
