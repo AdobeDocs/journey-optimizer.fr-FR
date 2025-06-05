@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 033a11b8-c848-4e4a-b6f0-62fa0a2152bf
-source-git-commit: 8418b0c9251e090575671acb65f83bee911cd039
+source-git-commit: 1ca6ea08e177989a0aea8646ca28b1216644fd3e
 workflow-type: tm+mt
-source-wordcount: '448'
-ht-degree: 100%
+source-wordcount: '450'
+ht-degree: 89%
 
 ---
 
@@ -42,13 +42,16 @@ Pour créer cette règle de décision, procédez comme suit :
 
 1. L’écran de création des règles de décision s’affiche. Nommez votre règle et fournissez une description.
 
-1. Créez la règle de décision en fonction de vos besoins à l’aide du créateur de segments d’Adobe Experience Platform. Pour ce faire, vous pouvez utiliser diverses sources de données telles que les attributs de profil, les audiences ou les données contextuelles provenant d’Adobe Experience Platform. [Découvrir comment exploiter les données contextuelles](#context-data)
+1. Créez la règle de décision en fonction de vos besoins à l’aide du créateur de segments d’Adobe Experience Platform. Pour ce faire, vous pouvez utiliser diverses sources de données, telles que :
+   * Attributs de profil et d’élément de décision
+   * Audiences,
+   * Données contextuelles provenant de Adobe Experience Platform. [Découvrir comment exploiter les données contextuelles](#context-data)
 
    ![](assets/decision-rules-build.png)
 
    >[!NOTE]
    >
-   >Le créateur de segments fourni pour créer des règles de décision présente certaines spécificités par rapport à celui utilisé avec le service de segmentation d’Adobe Experience Platform.  Cependant, le processus global décrit dans la documentation est toujours valide pour créer des règles de décision. [Découvrir comment créer des définitions de segment](../audience/creating-a-segment-definition.md)
+   >Le Créateur de segments fourni pour créer des règles de décision présente certaines spécificités par rapport à celui utilisé avec le service Segmentation Adobe Experience Platform. Cependant, le processus global décrit dans la documentation est toujours valide pour créer des règles de décision. [Découvrir comment créer des définitions de segment](../audience/creating-a-segment-definition.md)
 
 1. À mesure que vous ajoutez et configurez de nouveaux champs dans l’espace de travail, le volet **[!UICONTROL Propriétés de l’audience]** affiche des informations sur l’estimation des profils appartenant à l’audience. Cliquez sur **[!UICONTROL Actualiser l’estimation]** pour mettre à jour les données.
 

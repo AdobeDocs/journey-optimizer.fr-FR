@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Notes de mise à jour d’Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 4945e2fb37b54683f56ca3b832553345486d0a80
+source-git-commit: 1ca6ea08e177989a0aea8646ca28b1216644fd3e
 workflow-type: tm+mt
-source-wordcount: '1416'
-ht-degree: 89%
+source-wordcount: '1441'
+ht-degree: 87%
 
 ---
 
@@ -69,6 +69,9 @@ ht-degree: 89%
 
   Les objets de prise de décision peuvent désormais être copiés entre les sandbox, ce qui simplifie les workflows de test et de déploiement. [En savoir plus](../configuration/copy-objects-to-sandbox.md#decisioning)
 
+* **Prise en charge des attributs d’élément de décision pour les règles de prise de décision** - Date de disponibilité : 4 juin 2025
+
+  Vous pouvez désormais tirer parti des attributs d’élément de décision pour créer des règles de prise de décision. [En savoir plus](../experience-decisioning/rules.md#create)
 
 ## Notes de mise à jour de mai 2025 {#25-5-rn}
 
@@ -306,13 +309,9 @@ Les améliorations de cette version sont présentées ci-dessous.
 
 <!--* **Form fields in code-based experience content**
 
-  In content templates, you can now define specific JSON or HTML fields which enable non-technical users to easily edit content in code-based experiences without the need to manipulate code.
+  In content templates, you can now define specific JSON or HTML fields which enable non-technical users to easily edit content in code-based experiences without the need to manipulate code.-->
 
-* **Decision item attribute support for decisioning rules**
-  
-  You can now leverage decision item attributes to create decisioning rules.
-
-* **Subdomains - 'Custom delegation' method**  
+<!--* **Subdomains - 'Custom delegation' method**  
   In addition to the full delegation and the CNAME method, a new subdomain configuration method is now available: the Custom delegation method, which enables you to fully own controlling and maintaining all aspects of DNS that are required for delivering, rendering, and tracking messages.
   -->
 
