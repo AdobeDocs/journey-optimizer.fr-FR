@@ -7,10 +7,10 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: d1d64125-cf00-49c2-a71d-1494ede16f61
-source-git-commit: b240d815826cd87b40cf0ed7dde9c9a28822dcba
+source-git-commit: 42c57cc8e6bd6a84495738fb987b271743c0dea7
 workflow-type: tm+mt
-source-wordcount: '1289'
-ht-degree: 59%
+source-wordcount: '732'
+ht-degree: 56%
 
 ---
 
@@ -36,11 +36,11 @@ Une fois que vous avez [créé une campagne orchestrée](gs-campaign-creation.md
 
 La liste des activités pouvant être ajoutées au diagramme s’affiche. Les activités disponibles dépendent de votre position dans le diagramme de campagne orchestré. Par exemple, lorsque vous ajoutez votre première activité, vous pouvez démarrer votre campagne orchestrée en ciblant une audience, en fractionnant le chemin de campagne orchestré ou en définissant une activité **Attente** pour retarder l’exécution de la campagne orchestrée. D’un autre côté, après une activité **Créer une audience**, vous pouvez affiner votre cible avec des activités de ciblage, envoyer une diffusion à votre audience avec des activités de canal ou organiser le processus de campagne orchestré avec des activités de contrôle de flux.
 
-![](assets/workflow-start.png){zoomable="yes"}
+![](assets/orchestrated-start.png){zoomable="yes"}
 
 Une fois qu’une activité a été ajoutée au diagramme, un volet s’affiche à droite. Il vous permet de définir des paramètres spécifiques pour l’activité. Des informations détaillées sur la configuration de chacune des activités sont disponibles dans [cette section](activities/about-activities.md).
 
-![](assets/workflow-configure-activities.png){zoomable="yes"}
+![](assets/orchestrated-configure-activities.png){zoomable="yes"}
 
 Répétez ce processus pour ajouter autant d’activités que vous le souhaitez en fonction des tâches que votre campagne orchestrée doit effectuer. Vous pouvez également insérer une nouvelle activité entre deux activités. Pour ce faire, cliquez sur le bouton **+** sur la transition entre les activités, puis sélectionnez l’activité souhaitée et configurez-la dans le volet de droite.
 
@@ -60,7 +60,7 @@ La barre d’outils située dans le coin supérieur droit de la zone de travail 
 * **Zoom arrière**/**Zoom avant** : effectuez un zoom arrière ou avant dans la zone de travail.
 * **Afficher la carte** : ouvre un instantané de la zone de travail indiquant où vous vous trouvez.
 
-![](assets/workflow-toolbar.png){zoomable="yes"}{width="50%"}
+![](assets/orchestrated-toolbar.png){zoomable="yes"}{width="50%"}
 
 ## Gérer des activités {#manage}
 
@@ -74,8 +74,6 @@ Vous pouvez effectuer les actions suivantes :
 * **Désactivez/activez** l’activité. Lorsque la campagne orchestrée est exécutée, les activités désactivées et les activités suivantes sur le même chemin ne sont pas exécutées et la campagne orchestrée est arrêtée.
 * **Mettez en pause/Reprenez** l’activité. Lorsque la campagne orchestrée est exécutée, elle se met en pause au niveau de l’activité en pause. La tâche correspondante, ainsi que toutes les suivantes dans le même chemin, ne sont pas exécutées.
 * **Copiez** l’activité. Consultez [cette section](#copy).
-* **Déplacez** une activité et tous ses nœuds enfant vers une autre transition. Consultez [cette section](#move)
-* Accédez aux **Options d’exécution** de l’activité.
 * Accédez aux **Journaux et tâches** de l’activité.
 
 Plusieurs activités de **Ciblage**, telles que **Combiner** ou **Déduplication**, vous permettent de traiter la population restante et de l’inclure dans une transition de sortie supplémentaire. Par exemple, si vous utilisez une activité **Partage**, le complément est constitué de la population qui ne correspond à aucun des sous-ensembles définis précédemment. Pour utiliser cette fonctionnalité, activez l’option **Générer le complément**.
@@ -90,75 +88,79 @@ Pour copier des activités, vous avez deux possibilités :
 
 * Copier une activité à l’aide du bouton d’action.
 
-  ![](assets/workflow-copy.png){zoomable="yes"}{width="70%"}
+  ![](assets/orchestrated-copy-1.png){zoomable="yes"}{width="70%"}
 
 * Copier plusieurs activités à l’aide du bouton de la barre d’outils.
 
-  ![](assets/workflow-copy-2.png){zoomable="yes"}{width="70%"}
+  ![](assets/orchestrated-copy-2.png){zoomable="yes"}{width="70%"}
 
 Pour coller les activités copiées, cliquez sur le bouton **+** sur une transition et sélectionnez « Coller l’activité X ».
 
-![](assets/workflow-copy-3.png){zoomable="yes"}{width="50%"}
+![](assets/orchestrated-copy-3.png){zoomable="yes"}{width="50%"}
 
-### Déplacer des activités et leurs nœuds enfant {#move}
+<!--
+### Move activities and their child nodes {#move}
 
-Journey Optimizer vous permet de déplacer une activité, ainsi que l’ensemble du contenu de ses nœuds enfants (y compris toutes les transitions et activités qu’elle contient), vers la fin d’une autre transition au sein de la même campagne orchestrée.
+Journey Optimizer allows you to move an activity, along with the entire content of its child nodes (including all transitions and activities within it) to the end of another transition within the same orchestrated campaign.
 
-Ce processus déconnecte l’activité et tout ce qui se trouve dans sa transition sortante de l’emplacement initial, en la déplaçant vers la nouvelle transition cible.
+This process disconnects the activity and everything in its outbound transition from the initial location, moving it to the new target transition.
 
-Pour déplacer une activité, procédez comme suit :
+To move an activity:
 
-1. Sélectionnez l’activité que vous souhaitez déplacer.
-1. Dans le volet des propriétés de l’activité, cliquez sur le bouton **Déplacer**.
-1. Sélectionnez la transition où vous souhaitez placer l’activité et sa transition sortante, puis confirmez.
+1. Select the activity you wish to move.
+1. In the activity's properties pane, click the **Move** button.
+1. Select the transition where you want to place the activity and its outbound transition, then confirm.
 
 ![](assets/activity-move.png)
 
-## Options d’exécution {#execution}
 
-Toutes les activités permettent de gérer les options d’exécution. Sélectionnez une activité et cliquez sur le bouton **Options d’exécution**. Vous pouvez ainsi définir le mode d’exécution et le comportement de l’activité en cas d’erreur.
+## Execution options {#execution}
+
+All activities allow you to manage their execution options. Select an activity and click on the **Execution options** button. This lets you define the activity's execution mode and behavior in case of errors.
 
 ![](assets/workflow-execution-options.png){zoomable="yes"}{width="70%"}
 
-### Propriétés
 
-Le champ **Exécution** vous permet de définir l’action à effectuer au moment du déclenchement de la tâche.
+### Properties
 
-Le champ **Durée d’exécution maximum** vous permet d’indiquer une durée de type « 30 s » ou « 1 h ». Si l’activité n’est pas terminée une fois cette durée écoulée, une alerte est déclenchée, Cela n’a aucun impact sur le fonctionnement de la campagne orchestrée.
+The **Execution** field allows you to define the action to be carried out when the task is started.
 
-Le champ **Fuseau horaire** vous permet de sélectionner le fuseau horaire de l’activité. Adobe Journey Optimizer vous permet de gérer les décalages horaires entre plusieurs pays sur la même instance. La configuration appliquée est paramétrée lors de la création de l’instance.
+The **Maximum execution duration** field allows you to specify a duration such as "30s" or "1h". If the activity is not finished after the duration specified has been elapsed, an alert is triggered. This has no impact on how the orchestrated campaign functions.
 
-Le champ **Affinité** vous permet de forcer l’exécution d’une campagne orchestrée ou d’une activité de campagne orchestrée sur une machine particulière. Pour ce faire, vous devez spécifier une ou plusieurs affinités pour la campagne orchestrée ou l’activité en question.
+The **Time zone** field allows you to select the time zone of the activity. Adobe Journey Optimizer allows you to manage the time differences between multiple countries on the same instance. The setting applied is configured when the instance is created.
 
-Le champ **Comportement** vous permet de définir la marche à suivre en cas de tâches asynchrones.
+**The Affinity** field allows you to force an orchestrated campaign or an orchestrated campaign activity to execute on a particular machine. To do this, you must specify one or several affinities for the orchestrated campaign or activity in question.
 
-### Gestion des erreurs
+The **Behavior** field allows you to define the procedure to follow if asynchronous tasks are used.
 
-Le champ **En cas d’erreur** vous permet de définir l’action à effectuer lorsque l’activité a rencontré une erreur.
+### Error management
 
-### Script d’initialisation
+The **In case of error** field allows you to specify the action to be carried out should the activity encounter an error.
 
-Ce **script d’initialisation** vous permet d’initialiser des variables ou de modifier des propriétés d’activité. Cliquez sur le bouton **Modifier le code** et saisissez l’extrait de code à exécuter. Le script est appelé lors de l’exécution de l’activité.
+### Initialization script
 
-## Exemple {#example}
+The **Initialization script** lets you initialize variables or modify activity properties. Click the **Edit code** button and type the snippet of code to execute. The script is called when the activity executes. 
 
-Voici un exemple de campagne orchestrée conçue pour envoyer un e-mail à tous les clients (autres que les clients VIP) qui s’intéressent aux machines à café.
+## Example {#example}
+
+Here is an orchestrated campaign example designed to send an email to all customers (other than VIP customers) with an email who are interested in coffee machines.
 
 ![](assets/workflow-example.png){zoomable="yes"}{zoomable="yes"}
 
-Dans le cadre de ce workflow, les activités suivantes ont été ajoutées :
+To achieve this, activities below have been added:
 
-* une activité **[!UICONTROL Branchement]** qui divise la campagne orchestrée en trois chemins (un pour chaque ensemble de clients et clientes),
-* des activités **[!UICONTROL Créer une audience]** destinées à cibler les trois ensembles de clients et clientes :
+* A **[!UICONTROL Fork]** activity that divides the orchestrated campaign into three paths (one for each set of customer),
+* **[!UICONTROL Build audience]** activities to target the three sets of customers:
 
-   * les clients et clientes disposant d’une adresse e-mail
-   * les clients et clientes appartenant à l’audience préexistante « Intéressés par la ou les machines à café »
-   * les clients et clientes appartenant à l’audience préexistante « VIP ou récompense »
+    * Customers with an email,
+    * Customers belonging to the pre-existing "Interrested in Coffee Machine(s)" audience,
+    * Customers belonging to the pre-existing "VIP ro reward" audience.
 
-* une activité **[!UICONTROL Combiner]** qui regroupe les clients et clientes disposant d’une adresse e-mail et ceux ou celles intéressés par les machines à café
-* une activité **[!UICONTROL Combiner]** qui exclut les clients et clientes VIP
-* une activité **[!UICONTROL Diffusion e-mail]** qui envoie un e-mail aux clients et clientes correspondants
+* A **[!UICONTROL Combine]** activity that groups together customers with an email and those interested in coffee machines,
+* A **[!UICONTROL Combine]** activity that excludes VIP customers,
+* An **[!UICONTROL Email delivery]** activity that sends an email to the resulting customers. 
 
-Une fois la campagne orchestrée terminée, ajoutez l’activité en **[!UICONTROL Fin]** à la fin du diagramme. Cette activité permet d’illustrer la fin d’un workflow et n’a aucun impact sur celui-ci.
+Once you have completed the orchestrated campaign, add en **[!UICONTROL End]** activity at the end of the diagram. This activity allow you to visually mark the end of a workflow and has no functional impact.
 
-Une fois le diagramme de campagne orchestré conçu, vous pouvez l’exécuter et suivre l’avancement de ses différentes tâches. [Découvrez comment démarrer une campagne orchestrée et surveiller son exécution](start-monitor-campaigns.md)
+After successfully designing the orchestrated campaign diagram, you can execute the orchestrated campaign and track the progress of its various tasks. [Learn how to start an orchestrated campaign and monitor its execution](start-monitor-campaigns.md)
+-->
