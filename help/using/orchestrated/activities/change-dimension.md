@@ -7,10 +7,10 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: 83e66f10-93dd-4759-840c-2c83abc42a28
-source-git-commit: 9606ca5710e6f91159474d76f68cdcbc2128b000
+source-git-commit: 457445e1c5f3e5819b484a26e9944f1295726d1e
 workflow-type: tm+mt
-source-wordcount: '408'
-ht-degree: 41%
+source-wordcount: '397'
+ht-degree: 28%
 
 ---
 
@@ -30,7 +30,7 @@ ht-degree: 41%
 
 | Bienvenue dans les campagnes orchestrées | Lancement de votre première campagne orchestrée | Interrogation de la base de données | Activités de campagnes orchestrées |
 |---|---|---|---|
-| [Prise en main des campagnes orchestrées](../gs-orchestrated-campaigns.md)<br/><br/>[Étapes de configuration](../configuration-steps.md)<br/><br/>[Étapes clés de la création de campagnes orchestrées](../gs-campaign-creation.md) | [Créer une campagne orchestrée](../create-orchestrated-campaign.md)<br/><br/>[Orchestrer des activités](../orchestrate-activities.md)<br/><br/>[Envoyer des messages avec des campagnes orchestrées](../send-messages.md)<br/><br/>[Démarrer et surveiller la campagne](../start-monitor-campaigns.md)<br/><br/>[Reporting](../reporting-campaigns.md) | [Utiliser la requête Modeler](../orchestrated-query-modeler.md)<br/><br/>[créer votre première requête](../build-query.md)<br/><br/>[modifier des expressions](../edit-expressions.md) | [Prise en main des activités](about-activities.md)<br/><br/>Activités:<br/>[Et-joindre](and-join.md) - [Créer une audience](build-audience.md) - [Modifier la dimension](change-dimension.md) - [Combiner](combine.md) - [Deduplication](deduplication.md) - [Enrichissement](enrichment.md) - [Fork](fork.md) - [Reconciliation](reconciliation.md) - [Split](split.md) - [Wait](wait.md) |
+| [Prise en main des campagnes orchestrées](../gs-orchestrated-campaigns.md)<br/><br/>[Étapes de configuration](../configuration-steps.md)<br/><br/>[Étapes clés de la création de campagnes orchestrées](../gs-campaign-creation.md) | [Créer une campagne orchestrée](../create-orchestrated-campaign.md)<br/><br/>[Orchestrer des activités](../orchestrate-activities.md)<br/><br/>[Envoyer des messages avec des campagnes orchestrées](../send-messages.md)<br/><br/>[Démarrer et surveiller la campagne](../start-monitor-campaigns.md)<br/><br/>[Reporting](../reporting-campaigns.md) | [Utiliser la requête Modeler](../orchestrated-rule-builder.md)<br/><br/>[créer votre première requête](../build-query.md)<br/><br/>[modifier des expressions](../edit-expressions.md) | [Prise en main des activités](about-activities.md)<br/><br/>Activités:<br/>[Et-joindre](and-join.md) - [Créer une audience](build-audience.md) - [Modifier la dimension](change-dimension.md) - [Combiner](combine.md) - [Deduplication](deduplication.md) - [Enrichissement](enrichment.md) - [Fork](fork.md) - [Reconciliation](reconciliation.md) - [Split](split.md) - [Wait](wait.md) |
 
 {style="table-layout:fixed"}
 
@@ -38,11 +38,11 @@ ht-degree: 41%
 
 <br/>
 
-En tant que spécialiste marketing, vous pouvez basculer la dimension de ciblage d’une entité à une autre entité liée dans une campagne orchestrée et affiner le ciblage de votre audience en fonction de différents jeux de données, par exemple en passant du profilage des utilisateurs au ciblage de leurs actions ou réservations spécifiques.
+En tant que spécialiste marketing, vous pouvez affiner le ciblage des audiences en passant d’une entité de données à une autre entité liée au sein d’une campagne orchestrée. Vous pouvez ainsi passer du ciblage des profils utilisateur à des actions spécifiques, telles que des achats, des réservations ou d’autres interactions.
 
-Pour ce faire, utilisez l’activité de ciblage **Modifier la dimension**. Cette activité permet de modifier la dimension de ciblage au fur et à mesure que vous créez votre campagne orchestrée. Il déplace l’axe en fonction du modèle de données et de la dimension d’entrée.
+Pour ce faire, utilisez l’activité **[!UICONTROL Modifier la dimension]**. Elle permet de modifier la dimension de ciblage au cours de la campagne orchestrée, en fonction de la structure de votre modèle de données et de la dimension de saisie.
 
-Par exemple, vous pouvez basculer la dimension de ciblage d’une campagne orchestrée de « Profil » vers « Contrats » afin d’envoyer des messages au propriétaire du contrat ciblé.
+Par exemple, vous pouvez déplacer la dimension de ciblage de **Profil** vers **Contrats** afin d’envoyer directement des messages aux propriétaires de contrat associés à l’audience sélectionnée.
 
 <!--
 >[!IMPORTANT]
@@ -63,8 +63,10 @@ Pour configurer l’activité **Changement de dimension**, procédez comme suit�
 
 ## Exemple {#example}
 
-Dans cet exemple, nous souhaitons envoyer une diffusion SMS à tous les profils ayant effectué un achat. Pour ce faire, nous utilisons d’abord une activité **[!UICONTROL Créer une audience]** liée à une dimension de ciblage « Achat » personnalisée pour cibler tous les achats qui se sont produits.
+Ce cas pratique implique l’envoi d’un SMS aux profils qui ont créé une liste de souhaits au cours du dernier mois.
 
-Nous utilisons ensuite une activité **[!UICONTROL Modifier la dimension]** pour basculer la dimension de ciblage de la campagne orchestrée sur « Destinataires ». Cela nous permet de cibler les personnes destinataires qui correspondent à la requête.
+Commencez par une activité de ciblage **[!UICONTROL Créer une audience]** à l’aide de la dimension de ciblage **Liste de souhaits** pour sélectionner toutes les listes de souhaits pertinentes.
+
+Insérez ensuite une activité **[!UICONTROL Modifier la dimension]** pour basculer la dimension de ciblage de **Liste de souhaits** à **Destinataire**. Cela permet à la campagne orchestrée d’envoyer les SMS aux profils associés à ces listes de souhaits.
 
 ![](../assets/change-dimension-example.png)
