@@ -9,9 +9,9 @@ role: Data Engineer, Data Architect, Admin
 level: Experienced
 keywords: actions, parcours, messages, envoi, connexions
 exl-id: 7f0cda1d-daf0-4d4c-9978-ddef81473813
-source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
-workflow-type: ht
-source-wordcount: '273'
+source-git-commit: bb2272e6959d896fb6b3286cec2c16a545a9f671
+workflow-type: tm+mt
+source-wordcount: '274'
 ht-degree: 100%
 
 ---
@@ -21,12 +21,12 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_action_list"
 >title="Actions personnalisées"
->abstract="Les actions sont des connexions par le biais desquelles vous proposez des expériences en temps réel personnalisées à la clientèle, telles que des notifications push, des e-mails, ou tout autre moyen d’engagement numérique utilisé dans votre entreprise."
+>abstract="Les actions sont des connexions par le biais desquelles vous proposez des expériences en temps réel personnalisées aux clients, telles que des notifications push, des emails, des SMS ou tout autre moyen d&#39;engagement numérique utilisé dans votre entreprise."
 
-Les actions sont des connexions par le biais desquelles vous proposez des expériences en temps réel personnalisées à la clientèle, telles que des notifications push, des e-mails, ou tout autre moyen d’engagement numérique utilisé dans votre entreprise.
+Les actions sont des connexions par le biais desquelles vous proposez des expériences en temps réel personnalisées aux clients, telles que des notifications push, des emails, des SMS ou tout autre moyen d&#39;engagement numérique utilisé dans votre entreprise.
 
 
-➡️ [Découvrez cette fonctionnalité en vidéo.](#video)
+➡️ [Découvrez cette fonctionnalité en vidéo](#video)
 
 [!DNL Journey Optimizer] est fourni avec une fonctionnalité de message intégrée. Les actions personnalisées vous permettent de configurer la connexion d&#39;un système tiers pour envoyer des messages ou des appels d&#39;API. Une action peut être configurée avec n’importe quel service de n’importe quel fournisseur qui peut être appelé via une API REST avec une payload au format JSON.
 
@@ -48,4 +48,4 @@ Pour afficher la liste des actions ou configurer une nouvelle action, sélection
 
 Découvrez comment configurer des actions personnalisées.
 
->[!VIDEO](https://video.tv.adobe.com/v/3430274?quality=12&captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/3428396?quality=12)

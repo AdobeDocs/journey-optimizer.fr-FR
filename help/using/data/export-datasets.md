@@ -8,10 +8,10 @@ role: User
 level: Beginner
 keywords: platform, lac de données, créer, lac, jeux de données, profil
 exl-id: 66b5c691-ddc4-4e9b-9386-2ce6c307451c
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
-workflow-type: ht
-source-wordcount: '870'
-ht-degree: 100%
+source-git-commit: bb2272e6959d896fb6b3286cec2c16a545a9f671
+workflow-type: tm+mt
+source-wordcount: '889'
+ht-degree: 94%
 
 ---
 
@@ -29,17 +29,17 @@ Vous pouvez exporter des jeux de données vers 6 destinations d’espace de sto
 
 Des informations détaillées sur chaque destination sont disponibles dans la documentation Adobe Experience Platform :
 
-* [Amazon S3](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/cloud-storage/amazon-s3.html?lang=fr){target="_blank"}
+* [Amazon S3](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/cloud-storage/amazon-s3.html?lang=fr){target="_blank"}
 * [Azure Blob](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/cloud-storage/azure-blob.html?lang=fr){target="_blank"}
 * [Azure Data Lake Gen2](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/cloud-storage/adls-gen2.html?lang=fr){target="_blank"}
-* [Zone dʼatterrissage de données](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/cloud-storage/data-landing-zone.html?lang=fr){target="_blank"}
+* [Zone d’atterrissage des données](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/cloud-storage/data-landing-zone.html?lang=fr){target="_blank"}
 * [Google Cloud Storage](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/cloud-storage/google-cloud-storage.html?lang=fr){target="_blank"}
-* [SFTP](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/cloud-storage/sftp.html?lang=fr){target="_blank"}.
+* [SFTP](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/cloud-storage/sftp.html?lang=fr){target="_blank"}
 
 
-## Prérequis {#prerequisites}
+## Conditions préalables {#prerequisites}
 
-Pour exporter des jeux de données, vous avez besoin des [autorisations de contrôle d’accès](https://experienceleague.adobe.com/docs/experience-platform/access-control/home.html?lang=fr#permissions){target="_blank"} répertoriées ci-dessous. Lisez la [vue d’ensemble du contrôle d’accès](https://experienceleague.adobe.com/docs/experience-platform/access-control/ui/overview.html?lang=fr){target="_blank"} ou contactez votre équipe d’administration de produit pour obtenir les autorisations requises.
+Pour exporter des jeux de données, vous avez besoin des [autorisations de contrôle d’accès](https://experienceleague.adobe.com/docs/experience-platform/access-control/home.html?lang=fr#permissions){target="_blank"} répertoriées ci-dessous. Lisez la [présentation du contrôle d’accès](https://experienceleague.adobe.com/docs/experience-platform/access-control/ui/overview.html?lang=fr){target="_blank"} ou contactez votre administrateur ou administratrice du produit pour obtenir les autorisations requises.
 
 | Catégorie | Autorisation |
 |--|--|
@@ -53,9 +53,9 @@ Les principales étapes pour exporter un jeu de données vers un emplacement d�
 
 ![](assets/dataset-export-process.png)
 
-Des informations détaillées sur chaque étape sont disponibles dans la [documentation Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/export-datasets.html?lang=fr){target="_blank"}.
+Des informations détaillées sur chaque étape sont disponibles dans la documentation de [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/export-datasets.html?lang=fr){target="_blank"}.
 
-1. **Configurez votre destination d’espace de stockage**. Si ce n’est pas déjà fait, connectez-vous à une destination d’espace de stockage à partir du catalogue des destinations. Découvrez comment créer une connexion de destination dans la [documentation Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/connect-destination.html?lang=fr#setup){target="_blank"}.
+1. **Configurez votre destination d’espace de stockage**. Si ce n’est pas déjà fait, connectez-vous à une destination d’espace de stockage à partir du catalogue des destinations. Découvrez comment créer une connexion de destination dans la documentation de [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/connect-destination.html?lang=fr#setup){target="_blank"}.
 
    <!--![](assets/dataset-export-setup.png)-->
 
@@ -79,7 +79,7 @@ Des informations détaillées sur chaque étape sont disponibles dans la [docume
 
    <!--![](assets/dataset-export-review.png)-->
 
-Une fois l’exportation terminée, le contenu de votre jeu de données est déposé dans votre emplacement d’espace de stockage selon le planning que vous avez configuré. [Découvrez comment vérifier la réussite de l’export d’un jeu de données](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/export-datasets.html?lang=fr#verify){target="_blank"}.
+Une fois l’exportation terminée, le contenu de votre jeu de données est déposé dans votre emplacement d’espace de stockage selon le planning que vous avez configuré. [Découvrez comment vérifier la réussite de l’exportation d’un jeu de données](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/export-datasets.html?lang=fr#verify){target="_blank"}.
 
 ## Jeux de données disponibles pour l’export {#datasets}
 
@@ -98,6 +98,7 @@ Découvrez dans le tableau ci-dessous les jeux de données Journey Optimizer qu
 | Extension de compteurs de profils AJO | Contient un mappage d’objets contenant counter_value et expiryDate, saisi par counter_id. |
 | Jeu de données de profil push AJO | Stocke les jetons de notifications push d’un profil. |
 | Jeu de données d’événement d’expérience de tracking de notifications push AJO | Logs d’interaction pour le canal Notification push utilisé à des fins de création de rapports et d’audiences.  |
+| Jeu de données d’événement d’expérience SMS AJO | Journaux d’interaction pour le canal SMS utilisé à des fins de création de rapports et d’audiences.  |
 | Jeu de données de surfaces AJO | Jeu de données vide associé au schéma de surfaces entrantes Journey Optimizer. |
 | AOOutputForUPSDataset | Contient toutes les appartenances à l’audience AO à réécrire dans UPS. |
 | Jeu de données de profil Orchestration de lʼaudience | Généré par la composition d’audience pour les audiences provenant de la composition d’audience. Contient toutes les audiences de composition d’audience, leurs attributs et leurs données d’enrichissement. |
