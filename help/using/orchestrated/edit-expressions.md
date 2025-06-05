@@ -41,14 +41,14 @@ Documentation en cours
 
 
 
----
+&#x200B;---
 audience : utilisateur final
 titre : créez votre première requête à l’aide du moteur de requête .
 Description : découvrez comment créer votre première requête dans Adobe Campaign Web Query Modeler.
 exl-id : f9a365ac-c8be-423f-a99d-40ad5492223c
 ---
 
-# Éditer les expressions {#expression}
+&#x200B;# Éditer les expressions {#expression}
 
 L’édition d’une expression consiste à saisir manuellement des conditions pour former une règle. Ce mode permet d’utiliser des fonctions avancées, vous permettant ainsi de manipuler les valeurs utilisées afin de réaliser des requêtes spécifiques comme la manipulation de dates, de chaînes, de champs numériques et le tri.
 
@@ -59,7 +59,7 @@ L’édition d’une expression consiste à saisir manuellement des conditions p
 >[!IMPORTANT]
 >
 >Une toute nouvelle interface pour le concepteur de requête est disponible. Pour passer à cette nouvelle expérience de créateur de règles, appuyez sur le bouton bascule dans le coin supérieur droit. Vous pouvez revenir au concepteur de requête classique à tout moment en appuyant simplement sur le bouton (bascule) pour désactiver la nouvelle interface. Vous pouvez appliquer les mêmes principes que le concepteur de requête dans cette nouvelle interface.
->>![Image montrant le bouton (bascule) de la nouvelle interface du créateur de règles](assets/query-modeler-toggle.png){zoomable="yes"}
+>&#x200B;>![Image montrant le bouton (bascule) de la nouvelle interface du créateur de règles](assets/query-modeler-toggle.png){zoomable="yes"}
 
 ## Utiliser l’éditeur d’expression {#edit}
 
