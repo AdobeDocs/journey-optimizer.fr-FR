@@ -7,10 +7,10 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: fb7a0eb2-b2ff-49fa-af1f-f1c10f219b00
-source-git-commit: 5872e192c849b7a7909f0b50caa1331b15490d79
+source-git-commit: 72bceb03a3e94b0f3c13dddb22c8d3b4de0fcb44
 workflow-type: tm+mt
-source-wordcount: '371'
-ht-degree: 16%
+source-wordcount: '303'
+ht-degree: 19%
 
 ---
 
@@ -45,17 +45,7 @@ Le créateur de règles fournit une zone de travail centrale dans laquelle vous 
 
 ![Image illustrant l’interface du créateur de règles](assets/rule-builder-interface.png)
 
-* La **zone de travail centrale** permet d’ajouter et de combiner les différents composants afin de créer votre règle. Une barre d’outils propose des options permettant de manipuler facilement les composants de règle :
-
-  | Icône de la barre d’outils | Description |
-  |--- |--- |
-  | ![Icône de sélection Déplacer vers le haut](assets/do-not-localize/rule-builder-icon-up.svg) | Déplacez le composant d’une ligne vers le haut. |
-  | ![Icône de sélection Déplacer vers le bas](assets/do-not-localize/rule-builder-icon-down.svg) | Déplacez le composant vers le bas d’une ligne. |
-  | ![Icône de sélection de groupe](assets/do-not-localize/rule-builder-icon-group.svg) | Placez deux composants dans un groupe. |
-  | ![ Icône Dissocier la sélection ](assets/do-not-localize/rule-builder-icon-ungroup.svg) | Séparez les composants d’un seul groupe. |
-  | ![icône Développer tout](assets/do-not-localize/rule-builder-icon-expand.svg) | Développez tous les groupes. |
-  | ![Icône Réduire tout](assets/do-not-localize/rule-builder-icon-collapse.svg) | Réduire tous les groupes. |
-  | ![Icône Tout supprimer](assets/do-not-localize/rule-builder-icon-delete.svg) | Supprimez tous les groupes et composants. |
+* La **zone de travail centrale** permet d’ajouter et de combiner les différents composants afin de créer votre règle. [Découvrez comment créer une règle](../orchestrated/build-query.md)
 
 * Le volet **[!UICONTROL Propriétés des règles]** fournit des informations sur votre règle. Il vous permet d’effectuer diverses opérations pour vérifier la règle et vous assurer qu’elle répond à vos besoins.
 
