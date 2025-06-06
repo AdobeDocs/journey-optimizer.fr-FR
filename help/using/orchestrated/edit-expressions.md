@@ -28,7 +28,7 @@ ht-degree: 76%
 
 <br/>
 
-# Éditer les expressions {#expression}
+&#x200B;# Éditer les expressions {#expression}
 
 L’édition d’une expression consiste à saisir manuellement des conditions pour former une règle. Ce mode permet d’utiliser des fonctions avancées, vous permettant ainsi de manipuler les valeurs utilisées afin de réaliser des requêtes spécifiques comme la manipulation de dates, de chaînes, de champs numériques et le tri.
 
