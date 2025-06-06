@@ -12,9 +12,9 @@ hidefromtoc: true
 badge: label="Disponibilité limitée" type="Informative"
 keywords: publication, parcours, actif, validité, vérifier
 exl-id: 58bcc8b8-5828-4ceb-9d34-8add9802b19d
-source-git-commit: 9ac387f073d8f0384e20cb2d8fe327efe4b8ecde
+source-git-commit: c34aa14f34759e9094df2eead1c784c0c23da356
 workflow-type: tm+mt
-source-wordcount: '730'
+source-wordcount: '743'
 ht-degree: 14%
 
 ---
@@ -90,7 +90,7 @@ Pour chaque activité, vous pouvez vérifier les éléments suivants :
 
 * **[!UICONTROL Entrées]** : nombre total de personnes ayant rejoint cette activité.
 * **[!UICONTROL Sorties (critères de sortie remplis)]** : nombre total de personnes ayant quitté le parcours de cette activité en raison d’un critère de sortie.
-* **[!UICONTROL Sorti (sortie forcée)]** : nombre total de personnes ayant quitté le site lorsque le parcours a été suspendu.
+* **[!UICONTROL Sorti (sortie forcée)]** : nombre total de personnes ayant quitté le site lorsque le parcours a été suspendu. Cette mesure est toujours égale à zéro pour les parcours en mode d’exécution d’essai.
 * **[!UICONTROL Erreur]** : nombre total de personnes ayant rencontré une erreur pour cette activité.
 
 
