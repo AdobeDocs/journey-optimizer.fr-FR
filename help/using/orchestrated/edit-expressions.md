@@ -7,9 +7,9 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: bf0a905f-00af-4ed7-9e4f-bf8cb0af9ea9
-source-git-commit: 70cef55d438894a8279bb4f8f3e1d3e460c1c82e
+source-git-commit: 04a21534d91e4fcfa550af50450ea241c9b1235c
 workflow-type: tm+mt
-source-wordcount: '2142'
+source-wordcount: '2114'
 ht-degree: 76%
 
 ---
@@ -29,13 +29,13 @@ ht-degree: 76%
 
 <br/>
 
-L’édition d’une expression consiste à saisir manuellement des conditions pour former une règle. Ce mode permet d’utiliser des fonctions avancées, vous permettant ainsi de manipuler les valeurs utilisées afin de réaliser des requêtes spécifiques comme la manipulation de dates, de chaînes, de champs numériques et le tri.
-
 >[!NOTE]
 >
 >La section ci-dessous fournit des informations sur l’utilisation de l’éditeur d’expression pour créer des règles. Gardez à l’esprit que la syntaxe utilisée pour créer des règles diffère de celle utilisée pour ajouter de la personnalisation.
 
 ## Utiliser l’éditeur d’expression {#edit}
+
+L’édition d’une expression consiste à saisir manuellement des conditions pour former une règle. Ce mode permet d’utiliser des fonctions avancées, vous permettant ainsi de manipuler les valeurs utilisées afin de réaliser des requêtes spécifiques comme la manipulation de dates, de chaînes, de champs numériques et le tri.
 
 L’éditeur d’expression est disponible à partir du bouton **[!UICONTROL Modifier l’expression]** du créateur de règles, disponible pour les champs **[!UICONTROL Attribut]** et **[!UICONTROL Valeur]** lors de la configuration d’une condition personnalisée.
 
@@ -52,8 +52,6 @@ L’éditeur d’expression fournit :
 Modifiez l’expression en saisissant une expression directement dans le champ de saisie. Pour ajouter un champ ou une fonction d’assistance, placez le curseur dans l’expression à l’endroit où vous souhaitez l’ajouter, puis cliquez sur le bouton +.
 
 ![Interface de l’éditeur d’expression](assets/rule-builder-expression-editor.png){zoomable="yes"}
-
-Lorsque votre expression est prête, cliquez sur le bouton **[!UICONTROL Confirmer]**. L’expression s’affiche dans le champ sélectionné. Pour la modifier, ouvrez l’éditeur d’expression et apportez les modifications souhaitées.
 
 ## Fonctions d’assistance
 

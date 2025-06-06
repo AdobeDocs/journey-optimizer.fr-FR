@@ -7,9 +7,9 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: 5e956a6a-0b89-4d78-8f16-fe9fceb25674
-source-git-commit: 450f83eb53068df10a63d39d1a43483ad3c7e803
+source-git-commit: 04a21534d91e4fcfa550af50450ea241c9b1235c
 workflow-type: tm+mt
-source-wordcount: '1792'
+source-wordcount: '1798'
 ht-degree: 52%
 
 ---
@@ -44,6 +44,8 @@ Pour ajouter des conditions à votre requête, procédez comme suit :
 
    Vous pouvez également lancer votre requête à l’aide d’un filtre prédéfini. Pour ce faire, cliquez sur le bouton **[!UICONTROL Sélectionner ou enregistrer le filtre]** et choisissez **[!UICONTROL Sélectionner un filtre prédéfini]**.
 
+   ![image illustrant le créateur de règles](assets/rule-builder-add.png)
+
 1. Identifiez l’attribut de la base de données à utiliser comme critère pour votre condition. L’icône « i » en regard d’un attribut fournit des informations sur la table où il est stocké et sur son type de données.
 
    ![image illustrant la sélection d’un attribut](assets/rule-builder-select-attribute.png)
@@ -76,13 +78,11 @@ Pour ajouter des conditions à votre requête, procédez comme suit :
 
 1. Cliquez sur **[!UICONTROL Confirmer]** pour ajouter l’attribut sélectionné à votre condition.
 
-1. Un volet de propriétés s’affiche, dans lequel vous pouvez configurer les valeurs souhaitées pour l’attribut.
+1. Un volet de propriétés s’affiche, dans lequel vous pouvez configurer la valeur souhaitée pour l’attribut.
 
    ![image illustrant le créateur de règles avec une condition ajoutée](assets/rule-builder-condition.png)
 
-1. Sélectionnez l’opérateur **[!UICONTROL Operator]** à appliquer dans la liste déroulante.
-
-   Différents opérateurs sont disponibles. Les opérateurs disponibles dans la liste déroulante dépendent du type de données de l’attribut.
+1. Sélectionnez l’opérateur **[!UICONTROL Operator]** à appliquer dans la liste déroulante. Différents opérateurs sont disponibles. Les opérateurs disponibles dans la liste déroulante dépendent du type de données de l’attribut.
 
    +++Liste des opérateurs disponibles
 
@@ -105,7 +105,7 @@ Pour ajouter des conditions à votre requête, procédez comme suit :
    | Comme | Quasiment identique à l’opérateur « Contient ». Il permet d’insérer un caractère générique « % » dans la valeur. | Nom (@lastName) comme « Jon%s ». Le caractère générique agit comme un « joker » pour trouver des noms tels que « Jones ». |
    | Pas comme | Quasiment identique à l’opérateur « Contient ». Il permet d’insérer un caractère générique « % » dans la valeur. | Nom (@lastName) pas comme « Smi%h ». Les personnes destinataires dont le nom est « Smith » ne seront pas renvoyées. |
 
-   +++
++++
 
 1. Dans le champ **Valeur**, définissez la valeur attendue. Vous pouvez également utiliser l’éditeur d’expression pour définir manuellement une expression à l’aide de champs de la base de données et de fonctions d’assistance. Pour ce faire, cliquez sur l’icône ![image illustrant l’icône de l’éditeur d’expression](assets/do-not-localize/rule-builder-icon-editor.svg). [Découvrez comment modifier des expressions](../orchestrated/edit-expressions.md)
 
@@ -115,7 +115,7 @@ Pour ajouter des conditions à votre requête, procédez comme suit :
 
    ![image illustrant l’option paramètre prédéfini](assets/rule-builder-attribute-preset.png)
 
-   +++
++++
 
 ### Conditions personnalisées sur les tables liées (liens 1-1 et 1-N){#links}
 
@@ -220,8 +220,10 @@ Une fois votre requête créée dans la zone de travail, vous pouvez la vérifie
 * **Calculer** : met à jour et affiche le nombre d’enregistrements ciblés par votre règle.
 * **Sélectionner ou enregistrer un filtre** : choisissez un filtre prédéfini existant à utiliser dans la zone de travail ou enregistrez votre requête en tant que filtre prédéfini pour une réutilisation ultérieure.
 
-  >[!IMPORTANT]
-  >
-  >Sélectionnez un filtre prédéfini dans le volet Propriétés des règles pour remplacer la règle créée dans la zone de travail par le filtre sélectionné.
+<br/>
+
+    >[!IMPORTANT]
+    >
+    >Sélectionnez un filtre prédéfini dans le volet Propriétés de la règle pour remplacer la règle créée dans la zone de travail par le filtre sélectionné.
 
 Lorsque votre règle est prête, cliquez sur le bouton **[!UICONTROL Confirmer]** dans le fichier pour l’enregistrer.
