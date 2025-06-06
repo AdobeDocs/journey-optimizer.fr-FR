@@ -7,7 +7,7 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: 5e956a6a-0b89-4d78-8f16-fe9fceb25674
-source-git-commit: d2d9847347a41579e5f66d331b6769efa0ef5b21
+source-git-commit: d015c386e4f2b1a15bf97ab444a368ee39ae5ea9
 workflow-type: tm+mt
 source-wordcount: '1789'
 ht-degree: 52%
@@ -50,7 +50,7 @@ Pour ajouter des conditions à votre requête, procédez comme suit :
 
    >[!NOTE]
    >
-   >Le bouton **Modifier l&#39;expression** permet d&#39;utiliser l&#39;éditeur d&#39;expressions pour définir manuellement une expression à l&#39;aide des champs de la base de données et des fonctions d&#39;assistance. [Découvrez comment modifier des expressions](expression-editor.md)
+   >Le bouton **Modifier l&#39;expression** permet d&#39;utiliser l&#39;éditeur d&#39;expressions pour définir manuellement une expression à l&#39;aide des champs de la base de données et des fonctions d&#39;assistance. [Découvrez comment modifier des expressions](../orchestrated/edit-expressions.md)
 
 1. Cliquez sur le bouton ![image illustrant le bouton Autres actions](assets/do-not-localize/rule-builder-icon-more.svg) en regard d’un attribut pour accéder à ces options supplémentaires :
 
@@ -105,9 +105,9 @@ Pour ajouter des conditions à votre requête, procédez comme suit :
    | Comme | Quasiment identique à l’opérateur « Contient ». Il permet d’insérer un caractère générique « % » dans la valeur. | Nom (@lastName) comme « Jon%s ». Le caractère générique agit comme un « joker » pour trouver des noms tels que « Jones ». |
    | Pas comme | Quasiment identique à l’opérateur « Contient ». Il permet d’insérer un caractère générique « % » dans la valeur. | Nom (@lastName) pas comme « Smi%h ». Les personnes destinataires dont le nom est « Smith » ne seront pas renvoyées. |
 
-   +++
++++
 
-1. Dans le champ **Valeur**, définissez la valeur attendue. Vous pouvez également utiliser l’éditeur d’expression pour définir manuellement une expression à l’aide de champs de la base de données et de fonctions d’assistance. Pour ce faire, cliquez sur l’icône ![image illustrant l’icône de l’éditeur d’expression](assets/do-not-localize/rule-builder-icon-editor.svg). [Découvrez comment modifier des expressions](expression-editor.md)
+1. Dans le champ **Valeur**, définissez la valeur attendue. Vous pouvez également utiliser l’éditeur d’expression pour définir manuellement une expression à l’aide de champs de la base de données et de fonctions d’assistance. Pour ce faire, cliquez sur l’icône ![image illustrant l’icône de l’éditeur d’expression](assets/do-not-localize/rule-builder-icon-editor.svg). [Découvrez comment modifier des expressions](../orchestrated/edit-expressions.md)
 
    Pour les attributs de type date, des valeurs prédéfinies sont disponibles à l’aide de l’option **[!UICONTROL Préréglages]**.
 
@@ -115,7 +115,7 @@ Pour ajouter des conditions à votre requête, procédez comme suit :
 
    ![image illustrant l’option paramètre prédéfini](assets/rule-builder-attribute-preset.png)
 
-   +++
++++
 
 ### Conditions personnalisées sur les tables liées (liens 1-1 et 1-N){#links}
 
