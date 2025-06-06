@@ -7,12 +7,13 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: bf0a905f-00af-4ed7-9e4f-bf8cb0af9ea9
-source-git-commit: 450f83eb53068df10a63d39d1a43483ad3c7e803
+source-git-commit: 70cef55d438894a8279bb4f8f3e1d3e460c1c82e
 workflow-type: tm+mt
-source-wordcount: '2144'
+source-wordcount: '2142'
 ht-degree: 76%
 
 ---
+
 
 # Éditer les expressions {#edit-expressions}
 
@@ -27,8 +28,6 @@ ht-degree: 76%
 +++
 
 <br/>
-
-&#x200B;# Éditer les expressions {#expression}
 
 L’édition d’une expression consiste à saisir manuellement des conditions pour former une règle. Ce mode permet d’utiliser des fonctions avancées, vous permettant ainsi de manipuler les valeurs utilisées afin de réaliser des requêtes spécifiques comme la manipulation de dates, de chaînes, de champs numériques et le tri.
 
