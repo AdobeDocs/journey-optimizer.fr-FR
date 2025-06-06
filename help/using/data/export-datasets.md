@@ -8,9 +8,9 @@ role: User
 level: Beginner
 keywords: platform, lac de données, créer, lac, jeux de données, profil
 exl-id: 66b5c691-ddc4-4e9b-9386-2ce6c307451c
-source-git-commit: a8e2118290566a4f6864cab0439615ee9720ee17
+source-git-commit: 98ddcbe1d4700341087538da3fb32db4ca9eb7c9
 workflow-type: tm+mt
-source-wordcount: '885'
+source-wordcount: '883'
 ht-degree: 94%
 
 ---
@@ -94,7 +94,7 @@ Découvrez dans le tableau ci-dessous les jeux de données Journey Optimizer qu
 | Jeu de données d’entité AJO | Jeu de données permettant de stocker les métadonnées des entités pour les messages envoyés à l’utilisateur final ou à l’utilisatrice finale.  |
 | Jeu de données d’événement d’activité entrante AJO | Jeu de données pour les canaux web et in-app Journey Optimizer pour les événements de diffusion et d’interaction. |
 | Jeu de données de profil de messagerie interactive AJO | Stocke les profils créés pour prendre en charge les campagnes déclenchées par API. |
-| Jeu de données d’événement de retour sur les messages AJO | Logs de diffusion des messages : Informations sur toutes les diffusions de messages à partir de Journey Optimizer à des fins de création de rapports et d’audiences. Les commentaires des FAI de messagerie sur les rebonds sont également enregistrés dans ce jeu de données. Ce jeu de données inclut les événements pour tous les canaux SMS/MMS, Courrier, etc., à l’exception des e-mails. |
+| Jeu de données d’événement de retour sur les messages AJO | Logs de diffusion des messages : Informations sur toutes les diffusions de messages à partir de Journey Optimizer à des fins de création de rapports et d’audiences. Les commentaires des FAI de messagerie sur les rebonds sont également enregistrés dans ce jeu de données. Ce jeu de données comprend des événements pour tous les canaux : e-mail, SMS/MMS, publipostage direct, etc. |
 | Extension de compteurs de profils AJO | Contient un mappage d’objets contenant counter_value et expiryDate, saisi par counter_id. |
 | Jeu de données de profil push AJO | Stocke les jetons de notifications push d’un profil. |
 | Jeu de données d’événement d’expérience de tracking de notifications push AJO | Logs d’interaction pour le canal Notification push utilisé à des fins de création de rapports et d’audiences.  |
