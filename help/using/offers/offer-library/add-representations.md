@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 718af505-7b7c-495e-8974-bd9c35d796bb
-source-git-commit: 3d332c6584b0625c83631bd6e5125dfcd244e68d
+source-git-commit: 7e9174f8a21c71b8b8e7633d664d5de7d877c240
 workflow-type: tm+mt
-source-wordcount: '766'
-ht-degree: 86%
+source-wordcount: '809'
+ht-degree: 82%
 
 ---
 
@@ -72,7 +72,7 @@ Si l&#39;emplacement sélectionné est de type image, vous pouvez ajouter du con
 
 >[!NOTE]
 >
-> Pour utiliser [Adobe Experience Manager Assets Essentials](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/introduction.html?lang=fr){target="_blank"}, vous devez déployer des [!DNL Assets Essentials] pour votre organisation et vous assurer que les utilisateurs font partie des profils de produit **Utilisateurs clients Assets Essentials** ou/et **Utilisateurs Assets Essentials**. En savoir plus sur [ cette page ](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/get-started-admins/deploy-administer.html?lang=fr){target="_blank"}.
+> Pour utiliser [Adobe Experience Manager Assets Essentials](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/introduction.html?lang=fr){target="_blank"}, vous devez déployer des [!DNL Assets Essentials] pour votre organisation et vous assurer que les utilisateurs font partie des profils de produit **Utilisateurs clients Assets Essentials** ou/et **Utilisateurs Assets Essentials**. En savoir plus sur [cette page](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/get-started-admins/deploy-administer.html?lang=fr){target="_blank"}.
 
 1. Choisissez l’option **[!UICONTROL Bibliothèque de ressources]**.
 
@@ -102,10 +102,11 @@ Pour ajouter du contenu provenant d&#39;un emplacement public externe, sélectio
 
 Vous pouvez personnaliser vos URL à l’aide de l’éditeur de personnalisation. En savoir plus sur la [personnalisation](../../personalization/personalize.md#use-expression-editor).
 
-<!--
-You can also insert an Adobe Experience Manager Content Fragment directly into your offer by clicking **[!UICONTROL Content Fragment]** Learn more about [Content fragment integration with Journey Optimizer](../../integrations/aem-fragments.md).
 
-![](../assets/offer-content-url.png)-->
+Vous pouvez également insérer un fragment de contenu Adobe Experience Manager directement dans votre offre en cliquant sur **[!UICONTROL Fragment de contenu]**. Notez que pour accéder au fragment de contenu dans les offres, l’emplacement sélectionné doit être de type JSON.
+En savoir plus sur [l’intégration de fragments de contenu à Journey Optimizer](../../integrations/aem-fragments.md).
+
+![](../assets/offer-content-url.png)
 
 Par exemple, vous souhaitez personnaliser l’image qui s’affiche sous forme d’offre. Vous voulez que les utilisateurs et utilisatrices qui préfèrent les vacances en ville voient la skyline de New York et les utilisateurs et utilisatrices qui préfèrent les vacances à la plage voient la rive nord d’Hawaii.
 
