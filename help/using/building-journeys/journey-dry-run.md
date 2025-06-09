@@ -11,7 +11,7 @@ hidefromtoc: true
 badge: label="Disponibilité limitée" type="Informative"
 keywords: publication, parcours, actif, validité, vérifier
 exl-id: 58bcc8b8-5828-4ceb-9d34-8add9802b19d
-source-git-commit: cd85b58350b4f8829aa1bc925c151be9b061b170
+source-git-commit: 318733edf55c7a9b067f4456bda657aecdb613cf
 workflow-type: tm+mt
 source-wordcount: '743'
 ht-degree: 14%
@@ -113,4 +113,4 @@ Vous pouvez également accéder aux **Rapports des dernières 24 heures** et **R
 
 Les parcours d’essai doivent être arrêtés manuellement. Cliquez sur le bouton **Fermer** pour terminer le test et confirmer.
 
-Après 14 jours, les parcours d’exécution d’essai passent automatiquement au statut Brouillon .
+Après 14 jours, les parcours d’exécution d’essai passent automatiquement au statut **Brouillon**.
