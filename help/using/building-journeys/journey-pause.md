@@ -10,16 +10,16 @@ hide: true
 hidefromtoc: true
 badge: label="Disponibilité limitée" type="Informative"
 keywords: publication, parcours, actif, validité, vérifier
-source-git-commit: 341f818d84264e3cb57563466866fdf43ebc401c
+source-git-commit: 3f00e7efd58fec09187be7d31199139b753dfcc2
 workflow-type: tm+mt
-source-wordcount: '711'
+source-wordcount: '704'
 ht-degree: 6%
 
 ---
 
 # Mettre en pause un parcours {#journey-pause}
 
-Vous pouvez suspendre vos parcours dynamiques, effectuer toutes les modifications nécessaires et les reprendre à tout moment. Un parcours peut être suspendu pendant 14 jours au maximum. <!--You can choose whether the journey is resumed at the end of the pause period, or whether it stops completely. --> Le parcours est automatiquement repris à l’issue de la période de pause. Vous pouvez également [reprendre manuellement](#journey-resume-steps).
+Vous pouvez suspendre vos parcours dynamiques, effectuer toutes les modifications nécessaires et les reprendre à tout moment. <!--You can choose whether the journey is resumed at the end of the pause period, or whether it stops completely. --> Le parcours est automatiquement repris à l’issue de la période de pause. Vous pouvez également [reprendre manuellement](#journey-resume-steps).
 
 
 >[!AVAILABILITY]
@@ -74,13 +74,11 @@ Pour suspendre le parcours, procédez comme suit :
 
 1. Cliquez sur le bouton **Pause** pour confirmer.
 
-Un parcours peut être suspendu pendant 14 jours au maximum.
-
 ## Reprise d’un parcours en pause {#journey-resume-steps}
 
-Les parcours en pause peuvent être repris manuellement à tout moment.
+Les parcours en pause sont automatiquement repris à l’issue d’une période de pause maximale de 14 jours. Ils peuvent être repris manuellement à tout moment.
 
-Pour mettre fin à la pause de parcours et recommencer à écouter les événements de parcours, procédez comme suit :
+Pour reprendre un parcours en pause et recommencer à écouter les événements de parcours, procédez comme suit :
 
 1. Ouvrez le parcours que vous souhaitez reprendre.
 1. Cliquez sur le bouton **...Plus** dans la section supérieure droite de la zone de travail du parcours, puis sélectionnez **Reprendre**.
