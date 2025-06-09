@@ -11,9 +11,9 @@ hidefromtoc: true
 badge: label="Disponibilité limitée" type="Informative"
 keywords: publication, parcours, actif, validité, vérifier
 exl-id: 58bcc8b8-5828-4ceb-9d34-8add9802b19d
-source-git-commit: 841c918da9c330a652dc8c6e1e4396677783a1e2
+source-git-commit: bb881f0257408ad70f3737c24d1caa28deea96e0
 workflow-type: tm+mt
-source-wordcount: '830'
+source-wordcount: '821'
 ht-degree: 14%
 
 ---
@@ -25,7 +25,7 @@ ht-degree: 14%
 >title="Tester à blanc votre parcours"
 >abstract="Une fois que vous avez conçu votre parcours, effectuez un test à blanc pour confirmer qu’il est fonctionnel et vous assurer que les étapes sont correctes. Ce mode de publication vous permet de tester un parcours sans envoyer de communication à un profil."
 
-L’essai de parcours est un mode de publication de parcours spécial dans Adobe Journey Optimizer qui permet aux spécialistes marketing de tester un parcours à l’aide de données de production réelles sans contacter de vrais clients ou mettre à jour les informations de profil.  Cette fonctionnalité permet aux spécialistes marketing de confiance dans la conception de leur parcours et le ciblage des audiences avant de le publier en direct.
+L’essai de parcours est un mode de publication de parcours spécial dans Adobe Journey Optimizer qui permet aux praticiens du parcours de tester un parcours à l’aide de données de production réelles sans contacter de vrais clients ou mettre à jour les informations de profil.  Cette fonctionnalité permet aux utilisateurs et utilisatrices du parcours d’avoir confiance dans leur conception de parcours et leur ciblage d’audience avant de le publier en direct.
 
 
 >[!AVAILABILITY]
@@ -35,7 +35,7 @@ L’essai de parcours est un mode de publication de parcours spécial dans Adobe
 
 ## Avantages clés {#journey-dry-run-benefits}
 
-Le parcours Dry Run améliore la confiance des professionnels et la réussite du parcours en permettant des tests sûrs et pilotés par les données des parcours clients à l’aide de données de production réelles, sans risque de contacter les clients ou de modifier les informations de profil. Cette fonctionnalité permet aux spécialistes marketing de valider la portée de l’audience et la logique de branche avant la mise en ligne, en s’assurant que les parcours s’alignent sur les objectifs commerciaux prévus.
+Le parcours Dry Run améliore la confiance des professionnels et la réussite du parcours en permettant des tests sûrs et pilotés par les données des parcours clients à l’aide de données de production réelles, sans risque de contacter les clients ou de modifier les informations de profil. Cette fonctionnalité permet aux spécialistes du parcours de valider la portée de l’audience et la logique des branches avant la mise en ligne, en s’assurant que les parcours s’alignent sur les objectifs commerciaux prévus.
 
 Grâce au Parcours Dry Run, vous avez la possibilité d’identifier les problèmes dès le début, d’optimiser les stratégies de ciblage et d’améliorer la conception du parcours en fonction des données réelles, et non des hypothèses. Directement intégré à la zone de travail de parcours, Dry Run offre des rapports intuitifs et une visibilité sur les indicateurs de performances clés, ce qui permet aux équipes d’effectuer une itération en toute confiance et de rationaliser les workflows d’approbation. Cela améliore l’efficacité opérationnelle, réduit les risques de lancement et génère de meilleurs résultats d’engagement client.
 
@@ -45,21 +45,23 @@ L’essai de parcours apporte :
 
 1. **Environnement de test sécurisé** : les profils en mode d’exécution d’essai ne sont pas contactés, ce qui élimine tout risque d’envoi de communications ou d’impact sur les données actives.
 1. **Informations sur l’audience** : les praticiens du Parcours peuvent prédire l’accessibilité de l’audience à divers nœuds du parcours, y compris les désinscriptions, les exclusions et d’autres conditions.
-1. **Commentaires en temps réel** : les mesures s’affichent directement dans la zone de travail de parcours, comme les rapports en direct, ce qui permet aux professionnels du marketing d’affiner leur conception de parcours.
+1. **Commentaires en temps réel** : les mesures s’affichent directement dans la zone de travail du parcours, comme les rapports en direct, ce qui permet aux spécialistes du parcours d’affiner leur conception de parcours.
 
 
 >[!CAUTION]
 >
-> Les autorisations de démarrage de l’exécution d’essai sont limitées aux utilisateurs disposant de l’autorisation de haut niveau **[!DNL Publish journeys]**. Les autorisations de démarrage et d’arrêt de l’exécution d’essai sont limitées aux utilisateurs disposant de l’autorisation de haut niveau **[!DNL Manage journeys]**. Pour en savoir plus sur la gestion des droits d’accès des utilisateurs et des utilisatrices [!DNL Journey Optimizer], consultez [cette section](../administration/permissions-overview.md).
+>Les autorisations de démarrage de l’exécution d’essai sont limitées aux utilisateurs disposant de l’autorisation de haut niveau **[!DNL Publish journeys]**. Les autorisations d’arrêt de l’exécution d’essai sont limitées aux utilisateurs disposant de l’autorisation de haut niveau **[!DNL Manage journeys]**. Pour en savoir plus sur la gestion des droits d’accès des utilisateurs et des utilisatrices [!DNL Journey Optimizer], consultez [cette section](../administration/permissions-overview.md).
 
 
 ## Mécanismes de sécurisation et limitations {#journey-dry-run-limitations}
 
 * Le mode Exécution d’essai n’est pas disponible pour les parcours contenant des événements de réaction.
+* Les profils en mode Exécution d’essai sont comptabilisés dans les profils engageables.
+* Les parcours d’exécution d’essai n’ont aucune incidence sur les règles métier.
 * Lors de la création d’une version de parcours, si une version de parcours précédente est **en ligne**, l’activation de l’exécution d’essai n’est pas autorisée sur la nouvelle version.
 * L’exécution d’essai de parcours génère des événements stepEvents. Ces événements stepEvents disposent d’un indicateur et d’un identifiant d’exécution d’essai spécifiques :
    * `_experience.journeyOrchestration.stepEvents.inDryRun` renvoie `true` si l’Exécution d’essai est activée et `false` dans le cas contraire
-   * `_experience.journeyOrchestration.stepEvents.dryRunID`renvoie l’identifiant d’une instance d’essai
+   * `_experience.journeyOrchestration.stepEvents.dryRunID` renvoie l’identifiant d’une instance d’essai
 * Lors de l’exécution de l’essai, le parcours est exécuté avec les spécificités suivantes :
 
    * Les nœuds **Action de canal** notamment les e-mails, SMS ou notifications push ne sont pas exécutés.
@@ -67,11 +69,6 @@ L’essai de parcours apporte :
    * Les **nœuds d’attente** sont ignorés lors de l’exécution de l’essai.
      <!--You can override the wait block timeouts, then if you have wait blocks duration longer than allowed dry run journey duration, then that branch will not execute completely.-->
    * **Les sources de données** y compris les sources de données externes, sont exécutées par défaut.
-
->[!NOTE]
->
-> * Les profils en mode Exécution d’essai sont comptabilisés dans les profils engageables.
-> * Les parcours d’exécution d’essai n’ont aucune incidence sur les règles métier.
 
 ## Démarrer une exécution d’essai {#journey-dry-run-start}
 
@@ -124,6 +121,8 @@ Vous pouvez également accéder aux **Rapports des dernières 24 heures** et **R
 
 ## Arrêt d’une exécution d’essai {#journey-dry-run-stop}
 
-Les parcours d’essai **doivent** doivent être arrêtés manuellement. Cliquez sur le bouton **Fermer** pour terminer le test et confirmer.
+Les parcours d’essai **doivent** doivent être arrêtés manuellement.
 
-Après 14 jours, les parcours d’exécution d’essai passent automatiquement au statut **Brouillon**.
+Cliquez sur le bouton **Fermer** pour terminer le test et confirmer.
+
+<!-- After 14 days, Dry run journeys automatically transition to the **Draft** status.-->

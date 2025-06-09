@@ -10,9 +10,9 @@ hide: true
 hidefromtoc: true
 badge: label="Disponibilité limitée" type="Informative"
 keywords: publication, parcours, actif, validité, vérifier
-source-git-commit: 3f00e7efd58fec09187be7d31199139b753dfcc2
+source-git-commit: bb881f0257408ad70f3737c24d1caa28deea96e0
 workflow-type: tm+mt
-source-wordcount: '704'
+source-wordcount: '705'
 ht-degree: 6%
 
 ---
@@ -29,7 +29,7 @@ Vous pouvez suspendre vos parcours dynamiques, effectuer toutes les modification
 
 ## Avantages clés {#journey-dry-run-benefits}
 
-Les parcours en pause et de reprise offrent aux marketeurs un meilleur contrôle et une plus grande flexibilité en permettant de suspendre temporairement les parcours en direct sans perturber l&#39;expérience client. En pause, aucune communication n’est envoyée et les profils restent suspendus jusqu’à la reprise du parcours.
+Les parcours de pause et de reprise offrent aux utilisateurs et aux utilisatrices du parcours davantage de contrôle et de flexibilité en permettant de suspendre temporairement les parcours en direct sans perturber l’expérience client. En pause, aucune communication n’est envoyée et les profils restent suspendus jusqu’à la reprise du parcours.
 
 Cette fonctionnalité réduit le risque d’envoi de messages inattendus lors d’erreurs ou de mises à jour (par exemple : modification du contenu du message), prend en charge une gestion du parcours plus sûre et accroît la confiance des utilisateurs et utilisatrices. La visibilité des parcours en pause et de leur statut directement dans l’interface utilisateur améliore la transparence et l’agilité opérationnelle.
 
