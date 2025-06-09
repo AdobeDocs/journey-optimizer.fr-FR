@@ -11,9 +11,9 @@ hidefromtoc: true
 badge: label="Disponibilité limitée" type="Informative"
 keywords: publication, parcours, actif, validité, vérifier
 exl-id: 58bcc8b8-5828-4ceb-9d34-8add9802b19d
-source-git-commit: 318733edf55c7a9b067f4456bda657aecdb613cf
+source-git-commit: 841c918da9c330a652dc8c6e1e4396677783a1e2
 workflow-type: tm+mt
-source-wordcount: '743'
+source-wordcount: '830'
 ht-degree: 14%
 
 ---
@@ -39,13 +39,39 @@ Le parcours Dry Run améliore la confiance des professionnels et la réussite du
 
 Grâce au Parcours Dry Run, vous avez la possibilité d’identifier les problèmes dès le début, d’optimiser les stratégies de ciblage et d’améliorer la conception du parcours en fonction des données réelles, et non des hypothèses. Directement intégré à la zone de travail de parcours, Dry Run offre des rapports intuitifs et une visibilité sur les indicateurs de performances clés, ce qui permet aux équipes d’effectuer une itération en toute confiance et de rationaliser les workflows d’approbation. Cela améliore l’efficacité opérationnelle, réduit les risques de lancement et génère de meilleurs résultats d’engagement client.
 
-En fin de compte, cette fonctionnalité améliore le temps nécessaire à la valorisation, réduit les échecs de parcours et renforce la position d’Adobe en tant que plateforme de confiance pour orchestrer des parcours personnalisés à fort impact.
+Cette fonctionnalité améliore le temps nécessaire à la valorisation et réduit les défaillances du parcours.
 
 L’essai de parcours apporte :
 
 1. **Environnement de test sécurisé** : les profils en mode d’exécution d’essai ne sont pas contactés, ce qui élimine tout risque d’envoi de communications ou d’impact sur les données actives.
-1. **Informations sur l’audience** : les marketeurs peuvent prédire l’accessibilité de l’audience à divers nœuds de parcours, y compris les désinscriptions, les exclusions et d’autres conditions.
+1. **Informations sur l’audience** : les praticiens du Parcours peuvent prédire l’accessibilité de l’audience à divers nœuds du parcours, y compris les désinscriptions, les exclusions et d’autres conditions.
 1. **Commentaires en temps réel** : les mesures s’affichent directement dans la zone de travail de parcours, comme les rapports en direct, ce qui permet aux professionnels du marketing d’affiner leur conception de parcours.
+
+
+>[!CAUTION]
+>
+> Les autorisations de démarrage de l’exécution d’essai sont limitées aux utilisateurs disposant de l’autorisation de haut niveau **[!DNL Publish journeys]**. Les autorisations de démarrage et d’arrêt de l’exécution d’essai sont limitées aux utilisateurs disposant de l’autorisation de haut niveau **[!DNL Manage journeys]**. Pour en savoir plus sur la gestion des droits d’accès des utilisateurs et des utilisatrices [!DNL Journey Optimizer], consultez [cette section](../administration/permissions-overview.md).
+
+
+## Mécanismes de sécurisation et limitations {#journey-dry-run-limitations}
+
+* Le mode Exécution d’essai n’est pas disponible pour les parcours contenant des événements de réaction.
+* Lors de la création d’une version de parcours, si une version de parcours précédente est **en ligne**, l’activation de l’exécution d’essai n’est pas autorisée sur la nouvelle version.
+* L’exécution d’essai de parcours génère des événements stepEvents. Ces événements stepEvents disposent d’un indicateur et d’un identifiant d’exécution d’essai spécifiques :
+   * `_experience.journeyOrchestration.stepEvents.inDryRun` renvoie `true` si l’Exécution d’essai est activée et `false` dans le cas contraire
+   * `_experience.journeyOrchestration.stepEvents.dryRunID`renvoie l’identifiant d’une instance d’essai
+* Lors de l’exécution de l’essai, le parcours est exécuté avec les spécificités suivantes :
+
+   * Les nœuds **Action de canal** notamment les e-mails, SMS ou notifications push ne sont pas exécutés.
+   * Les **actions personnalisées** sont désactivées pendant l’exécution d’essai et leurs réponses sont définies sur null.
+   * Les **nœuds d’attente** sont ignorés lors de l’exécution de l’essai.
+     <!--You can override the wait block timeouts, then if you have wait blocks duration longer than allowed dry run journey duration, then that branch will not execute completely.-->
+   * **Les sources de données** y compris les sources de données externes, sont exécutées par défaut.
+
+>[!NOTE]
+>
+> * Les profils en mode Exécution d’essai sont comptabilisés dans les profils engageables.
+> * Les parcours d’exécution d’essai n’ont aucune incidence sur les règles métier.
 
 ## Démarrer une exécution d’essai {#journey-dry-run-start}
 
@@ -62,20 +88,7 @@ Pour activer l’exécution d’essai, procédez comme suit :
 
    Un message de statut, **Activation de l’exécution d’essai**, s’affiche pendant que la transition est en cours.
 
-1. Une fois activé, le parcours passe en mode d’exécution d’essai.
-
-Lors de l’exécution de l’essai, le parcours est exécuté avec les spécificités suivantes :
-
-* Les nœuds **Action de canal** avec des e-mails, SMS ou notifications push ne sont pas exécutés.
-* Les **actions personnalisées** sont désactivées pendant l’exécution d’essai et leurs réponses sont définies sur null.
-* Les **nœuds d’attente** sont ignorés lors de l’exécution de l’essai.
-  <!--You can override the wait block timeouts, then if you have wait blocks duration longer than allowed dry run journey duration, then that branch will not execute completely.-->
-* Les **sources de données externes** sont exécutées par défaut.
-
->[!NOTE]
->
-> * Les profils en mode Exécution d’essai sont comptabilisés dans les profils engageables.
-> * Les parcours d’exécution d’essai n’ont aucune incidence sur les règles métier. Par exemple, un profil dans un parcours d’exécution d’essai ne sera pas exclu des autres parcours en raison de règles telles que `1 journey per day`.
+1. Une fois activé, le parcours passe en mode **Exécution d’essai**.
 
 ## Surveillance d’une exécution d’essai {#journey-dry-monitor}
 
@@ -89,7 +102,7 @@ Pour chaque activité, vous pouvez vérifier les éléments suivants :
 
 * **[!UICONTROL Entrées]** : nombre total de personnes ayant rejoint cette activité.
 * **[!UICONTROL Sorties (critères de sortie remplis)]** : nombre total de personnes ayant quitté le parcours de cette activité en raison d’un critère de sortie.
-* **[!UICONTROL Sorti (sortie forcée)]** : nombre total de personnes ayant quitté le site lorsque le parcours a été suspendu. Cette mesure est toujours égale à zéro pour les parcours en mode d’exécution d’essai.
+* **[!UICONTROL Sorti (sortie forcée)]** : nombre total de personnes ayant quitté le parcours alors qu’il était en pause en raison d’une configuration de praticien de parcours. Cette mesure est toujours égale à zéro pour les parcours en mode d’exécution d’essai.
 * **[!UICONTROL Erreur]** : nombre total de personnes ayant rencontré une erreur pour cette activité.
 
 
@@ -111,6 +124,6 @@ Vous pouvez également accéder aux **Rapports des dernières 24 heures** et **R
 
 ## Arrêt d’une exécution d’essai {#journey-dry-run-stop}
 
-Les parcours d’essai doivent être arrêtés manuellement. Cliquez sur le bouton **Fermer** pour terminer le test et confirmer.
+Les parcours d’essai **doivent** doivent être arrêtés manuellement. Cliquez sur le bouton **Fermer** pour terminer le test et confirmer.
 
 Après 14 jours, les parcours d’exécution d’essai passent automatiquement au statut **Brouillon**.
