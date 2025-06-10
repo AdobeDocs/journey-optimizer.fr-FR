@@ -7,9 +7,9 @@ role: User
 level: Intermediate
 exl-id: c1d69bc9-4486-4037-b218-f4f704b2ba9c
 source-git-commit: 07704f99aff7d92e8db76755f6617345bac56590
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '604'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -58,7 +58,7 @@ Les modèles d’optimisation personnalisés sont un type de modèle d’IA vous
 
 Par défaut, les modèles d’optimisation personnalisés utilisent les **clics sur l’offre** comme mesure d’optimisation. Si vous utilisez [!DNL Customer Journey Analytics], [!DNL Decisioning] vous permet de tirer profit de vos propres mesures personnalisées pour optimiser votre modèle.
 
-Pour ce faire, accédez à l’écran de création de modèle d’IA personnalisé et développez la liste déroulante **[!UICONTROL Événement de conversion]**. Toutes les mesures de votre [!DNL Customer Journey Analytics] par défaut [vue de données](https://experienceleague.adobe.com/fr/docs/analytics-platform/using/cja-dataviews/data-views){target="_blank"} s’affichent dans la liste. Sélectionnez la mesure sur laquelle optimiser votre modèle, puis procédez à la création du modèle d’IA comme vous le faites habituellement.
+Pour ce faire, accédez à l’écran de création de modèle d’IA personnalisé et développez la liste déroulante **[!UICONTROL Événement de conversion]**. Toutes les mesures de votre [!DNL Customer Journey Analytics] [vue de données](https://experienceleague.adobe.com/fr/docs/analytics-platform/using/cja-dataviews/data-views){target="_blank"} par défaut s’affichent dans la liste. Sélectionnez la mesure sur laquelle optimiser votre modèle, puis procédez à la création du modèle d’IA comme vous le faites habituellement.
 
 ![](assets/ai-ranking-custom-metrics.png)
 
@@ -68,7 +68,7 @@ Pour ce faire, accédez à l’écran de création de modèle d’IA personnalis
 >
 >Bien qu’il soit possible de modifier le modèle d’attribution, tous les modèles d’attribution ne sont pas idéaux pour l’optimisation du modèle d’IA. Nous vous recommandons de sélectionner soigneusement un modèle d’attribution qui s’aligne sur vos objectifs d’optimisation afin d’assurer la précision et les performances du modèle.
 >
->Pour plus d’informations sur les modèles d’attribution disponibles et des conseils sur leur utilisation, consultez la [[!DNL Customer Journey Analytics] documentation](https://experienceleague.adobe.com/fr/docs/analytics-platform/using/cja-dataviews/component-settings/attribution){target="_blank"}
+>Pour plus d’informations sur les modèles d’attribution disponibles et des conseils sur leur utilisation, consultez la [[!DNL Customer Journey Analytics] documentation](https://experienceleague.adobe.com/fr/docs/analytics-platform/using/cja-dataviews/component-settings/attribution){target="_blank"}.
 
 +++
 
@@ -78,7 +78,7 @@ Les formules de classement sont exprimées en **syntaxe PQL** et peuvent utilis
 
 >[!NOTE]
 >
->Pour plus d’informations sur l’utilisation de la syntaxe PQL, consultez la [documentation dédiée](https://experienceleague.adobe.com/docs/experience-platform/segmentation/pql/overview.html?lang=fr)
+>Pour plus d’informations sur l’utilisation de la syntaxe PQL, reportez-vous à la [documentation dédiée](https://experienceleague.adobe.com/docs/experience-platform/segmentation/pql/overview.html?lang=fr).
 
 Pour utiliser des attributs liés à vos éléments de décision dans des formules, veillez à respecter la syntaxe ci-dessous dans le code de votre formule de classement. Pour plus d’informations, développez chaque section :
 

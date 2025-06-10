@@ -9,9 +9,9 @@ level: Intermediate
 keywords: rentrée, parcours, profil, récurrent
 exl-id: 8874377c-6594-4a5a-9197-ba5b28258c02
 source-git-commit: a2e4a6c15ea9e6a96544eaa8f58dc0cd55854bbe
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '573'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -32,7 +32,7 @@ Avec Adobe Journey Optimizer, vous pouvez créer les types de parcours suivant
 
 * Parcours **Qualification de l’audience** : ces parcours commencent par un événement Qualification de l’audience. Ces parcours écoutent les entrées et les sorties des profils dans les audiences. Lorsque cela se produit, le profil associé rejoint le parcours. [En savoir plus](#entry-unitary)
 
-Dans tous les types de parcours, un profil ne peut pas être présent plusieurs fois dans le même parcours, en même temps, pour toutes les [versions du parcours ](publishing-the-journey.md#journey-versions-journey-versions) actives. Pour vérifier qu’une personne se trouve dans un parcours, l’identité du profil est utilisée comme clé. Le système n’autorise pas qu’une même clé (`CRMID=3224`, par exemple) se trouve à des endroits différents dans un même parcours.
+Dans tous les types de parcours, un profil ne peut pas être présent plusieurs fois dans un même parcours et au même moment. Cela s’applique à toutes les [versions actives du parcours](publishing-the-journey.md#journey-versions-journey-versions). Pour vérifier qu’une personne se trouve dans un parcours, l’identité du profil est utilisée comme clé. Le système n’autorise pas qu’une même clé (`CRMID=3224`, par exemple) se trouve à des endroits différents dans un même parcours.
 
 ## Parcours Événement unitaire et Qualification de l’audience{#entry-unitary}
 

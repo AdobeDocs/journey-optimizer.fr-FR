@@ -10,21 +10,21 @@ level: Intermediate
 keywords: publication, parcours, dynamique, validité, vérifier
 exl-id: e0ca8aef-4f1d-4631-8c34-1692d96e8b51
 source-git-commit: 5bdacef2196592776c6b37708b0df0986460ca1f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '613'
-ht-degree: 82%
+ht-degree: 100%
 
 ---
 
 # Publier votre parcours {#publishing-the-journey}
 
-Pour activer un parcours et permettre à de nouveaux profils d’y accéder, vous devez le publier. La publication rend le parcours actif et fonctionnel. Avant de publier, vous devez vous assurer que le parcours est complet et valide, et corriger les erreurs, car un parcours ne peut pas être publié s’il contient des erreurs.
+Pour activer un parcours et permettre à de nouveaux profils de le rejoindre, vous devez le publier. Suite à sa publication, le parcours devient actif et fonctionnel. Avant de le publier, vous devez vous assurer que le parcours est complet et valide, et corriger les erreurs, car un parcours ne peut pas être publié s’il contient des erreurs.
 
-➡️ [Découvrez cette fonctionnalité en vidéo](#video)
+➡️ [Découvrez cette fonctionnalité en vidéo.](#video)
 
 ## Processus de publication {#journey-publication}
 
-Les étapes de publication d’un parcours sont détaillées ci-dessous :
+Les étapes de publication d’un parcours sont présentées en détail ci-dessous :
 
 1. Avant de publier votre parcours, assurez-vous qu’il est valide et sans erreur. Les parcours ne peuvent pas être publiés s’ils contiennent des erreurs.
 
@@ -52,13 +52,13 @@ Lorsque vous arrêtez un parcours, il est définitivement arrêté : toutes les
 
 ## Versions de parcours {#journey-versions}
 
-Dans la liste des parcours, toutes les versions de parcours sont accompagnées d&#39;un numéro. Lorsque vous recherchez un parcours, les versions les plus récentes apparaissent en haut de la liste la première fois que vous ouvrez l&#39;application. Vous pouvez ensuite définir l&#39;ordre de tri souhaité ; l&#39;application le conservera en tant que préférence utilisateur. La version du parcours est également affichée en haut de l&#39;interface d&#39;édition des parcours, au-dessus de la zone de travail.
+Dans la liste des parcours, toutes les versions de parcours sont accompagnées d’un numéro. Lorsque vous recherchez un parcours, les versions les plus récentes apparaissent en haut de la liste la première fois que vous ouvrez l&#39;application. Vous pouvez ensuite définir l&#39;ordre de tri souhaité ; l&#39;application le conservera en tant que préférence utilisateur. La version du parcours est également affichée en haut de l&#39;interface d&#39;édition des parcours, au-dessus de la zone de travail.
 
 ![](assets/journeyversions1.png)
 
 >[!NOTE]
 >
->En règle générale, un profil ne peut pas être présent plusieurs fois dans le même parcours, en même temps, pour toutes les versions actives du parcours. Si la nouvelle entrée est activée, un profil peut rejoindre à nouveau un parcours, mais ne peut pas le faire tant qu’il n’a pas complètement quitté cette instance précédente du parcours. [En savoir plus](entry-management.md).
+>En règle générale, un profil ne peut pas être présent plusieurs fois dans le même parcours et au même moment. Cela s’applique à toutes les versions actives du parcours. Si la nouvelle entrée est activée, un profil peut rejoindre à nouveau un parcours, mais ne peut pas le faire tant qu’il n’a pas complètement quitté cette instance précédente du parcours. [En savoir plus](entry-management.md).
 
 ### Créer une nouvelle version d’un parcours {#journey-create-new-version}
 
@@ -90,4 +90,4 @@ Lorsque vous publiez une nouvelle version d&#39;un parcours, la version précéd
 
 Découvrez comment publier un parcours dans cette vidéo :
 
->[!VIDEO](https://video.tv.adobe.com/v/3427934?quality=12&captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/3424998?quality=12)

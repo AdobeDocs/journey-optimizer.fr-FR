@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 exl-id: d11dd1cb-041b-48cd-b1fc-bcbe12338a07
 source-git-commit: cc435a133f5fe24bff0f6ec9ec135941cf0bab99
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2181'
-ht-degree: 35%
+ht-degree: 100%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 35%
 >[!INFO]
 >
 >Depuis qu’Apple a introduit de nouvelles fonctionnalités de protection de la confidentialité pour son application Mail native, notamment la protection de la confidentialité dans Mail, les expéditeurs et expéditrices ne sont plus en mesure d’utiliser les pixels de suivi pour collecter des données sur les profils qui ont activé la protection de la confidentialité dans l’application Mail d’Apple. Par conséquent, la capacité d’Adobe Journey Optimizer à suivre les ouvertures d’e-mail à l’aide de pixels de suivi peut être affectée.
-> [En savoir plus](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-classic-blogs/the-impact-of-apple-ios-privacy-changes-on-email-marketing-and/ba-p/699780?profile.language=fr) sur l’impact des modifications apportées à la confidentialité d’Apple iOS sur le marketing par e-mail.
+>> [En savoir plus](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-classic-blogs/the-impact-of-apple-ios-privacy-changes-on-email-marketing-and/ba-p/699780?profile.language=fr) sur l’impact des modifications apportées à la confidentialité d’Apple iOS sur le marketing par e-mail.
 > 
 > Nous vous recommandons de vous concentrer sur les clics et les mesures de conversion plutôt que sur les taux d’ouverture pour obtenir des informations plus précises.
 
@@ -37,50 +37,50 @@ Vous pouvez accéder au rapport de campagne par e-mail en cliquant sur le bouton
 
 ![](assets/cja-email-kpis-unique.png)
 
-Les indicateurs clés de performance **[!UICONTROL e-mail]** fournissent un tableau de bord ciblé de mesures uniques et agrégées qui reflètent les performances et les niveaux d’engagement de vos campagnes par e-mail.
+Les KPI des **[!UICONTROL e-mails]** fournissent un tableau de bord ciblé de mesures uniques et agrégées qui reflètent les performances et les niveaux d’engagement de vos campagnes par e-mail.
 
-+++ En savoir plus sur les mesures des KPI des emails
++++ En savoir plus sur les mesures des KPI relatifs aux e-mails
 
-* **[!UICONTROL Taux de clics publicitaires uniques]** : pourcentage de profils uniques qui ont cliqué sur au moins un lien dans l’e-mail, par rapport au nombre d’e-mails diffusés uniques.
+* **[!UICONTROL Taux de clics uniques]** : pourcentage de profils uniques qui ont cliqué sur au moins un lien dans l’e-mail, par rapport au nombre d’e-mails diffusés uniques.
 
-* **[!UICONTROL Taux d’ouvertures par clic (CTOR)]** : pourcentage de profils ayant interagi avec le message.
+* **[!UICONTROL Taux de clics d’ouverture (CTOR)]** : pourcentage de profils ayant interagi avec le message.
 
-* **[!UICONTROL Taux d’ouvertures uniques]** : pourcentage de profils uniques ayant ouvert l’e-mail au moins une fois, par rapport au nombre d’e-mails diffusés uniques.
+* **[!UICONTROL Taux d’ouvertures uniques]** : pourcentage de profils uniques ayant ouvert l’e-mail au moins une fois, par rapport au nombre d’e-mails diffusés uniques.
 
-* **[!UICONTROL Taux de rebond unique]** : pourcentage de profils uniques dont l’e-mail a rebondi au moins une fois, en fonction du nombre total d’envois uniques.
+* **[!UICONTROL Taux de rebond unique]** : pourcentage de profils uniques dont l’e-mail a fait l’objet d’un rebond au moins une fois, en fonction du nombre total d’envois uniques.
 
 * **[!UICONTROL Diffusés]** : nombre d’e-mails envoyés avec succès, par rapport au nombre total de messages envoyés.
 
-* **[!UICONTROL Diffusés uniques]** : nombre de profils uniques ayant reçu au moins un message avec succès.
+* **[!UICONTROL Diffusions uniques]** : nombre de profils uniques ayant reçu au moins un message.
 
-* **[!UICONTROL Estimation des ouvertures]** : estimation du nombre total d’ouvertures d’e-mails qui prennent en compte les ouvertures directes par les profils et les ouvertures automatisées déclenchées par les serveurs de messagerie. Cette mesure prend en compte les ouvertures déclenchées par les serveurs de messagerie à des fins d’analyse de confidentialité ou de sécurité en appliquant un taux d’ouverture calculé à partir des destinataires qui ont ouvert manuellement l’e-mail à ceux dont les e-mails n’ont été ouverts que par des serveurs de messagerie.
+* **[!UICONTROL Estimation des ouvertures]** : estimation du nombre total d’ouvertures d’e-mails, prenant en compte les ouvertures directes par les profils et les ouvertures automatisées déclenchées par les serveurs de messagerie. Cette mesure prend en compte les ouvertures déclenchées par les serveurs de messagerie à des fins d’analyse de la confidentialité ou de la sécurité en appliquant un taux d’ouverture calculé à partir des destinataires qui ont ouvert manuellement l’e-mail par rapport à ceux dont les e-mails n’ont été ouverts que par des serveurs de messagerie.
 
-* **[!UICONTROL Ouvertures estimées uniques]** : estimation du nombre de destinataires d’e-mails uniques qui ont probablement ouvert l’e-mail. Cette mesure vise à fournir un nombre plus précis d’engagements individuels déclenchés par des serveurs de messagerie pour l’analyse de confidentialité ou de sécurité en appliquant un taux d’ouverture unique calculé à partir des profils uniques qui ont ouvert manuellement l’e-mail à ceux dont les e-mails n’ont été ouverts que par des serveurs de messagerie.
+* **[!UICONTROL Estimation des ouvertures uniques]** : estimation du nombre de destinataires d’e-mails uniques qui ont probablement ouvert l’e-mail. Cette mesure vise à fournir un nombre plus précis d’engagements individuels déclenchés par des serveurs de messagerie pour l’analyse de la confidentialité ou de la sécurité en appliquant un taux d’ouverture unique calculé à partir des profils uniques qui ont ouvert manuellement l’e-mail par rapport à ceux dont les e-mails n’ont été ouverts que par des serveurs de messagerie.
 
-* **[!UICONTROL Clics]** : nombre total de clics sur un lien du message, y compris les clics multiples par le même profil.
+* **[!UICONTROL Clics]** : nombre total de clics sur un lien du message, y compris les clics multiples par le même profil.
 
-* **[!UICONTROL Clics uniques]** : nombre de profils uniques ayant cliqué sur un contenu de votre message.
+* **[!UICONTROL Clics uniques]** : nombre de profils uniques qui ont cliqué sur un contenu dans votre message.
 
 +++
 
 
-## Entonnoir de clic unique
+## Entonnoir de clics uniques
 
 ![](assets/cja-email-click-funnel.png)
 
-Le graphique **[!UICONTROL Entonnoir de clic]** présente une analyse détaillée de la manière dont les profils ont interagi avec le contenu de vos e-mails, offrant ainsi des informations précieuses sur chaque étape de l’interaction, de la diffusion aux clics, ce qui vous aide à comprendre à quel point vos messages stimulent l’interaction des utilisateurs et utilisatrices.
+Le graphique **[!UICONTROL Entonnoir de clics]** présente une analyse détaillée de la manière dont les profils ont interagi avec le contenu de vos e-mails, offrant ainsi des informations précieuses sur chaque étape de l’interaction, depuis la diffusion jusqu’aux clics. Cela vous aide à comprendre l’efficacité de vos messages pour stimuler l’interaction client.
 
-+++ En savoir plus sur les mesures de l’entonnoir de clic
++++ En savoir plus sur les mesures de l’entonnoir des clics
 
-* **[!UICONTROL Ciblés uniques]** : nombre de profils uniques ciblés pendant le processus d’envoi.
+* **[!UICONTROL Ciblages uniques]** : nombre de profils uniques ciblés pendant le processus d’envoi.
 
-* **[!UICONTROL Envois uniques]** : nombre de profils uniques pour lesquels au moins un e-mail a été tenté d’être envoyé.
+* **[!UICONTROL Envois uniques]** : nombre de profils uniques pour lesquels au moins une tentative d’envoi d’e-mail a eu lieu.
 
-* **[!UICONTROL Diffusés uniques]** : nombre de profils uniques ayant reçu au moins un message avec succès.
+* **[!UICONTROL Diffusions uniques]** : nombre de profils uniques ayant reçu au moins un message.
 
-* **[!UICONTROL Ouvertures estimées uniques]** : estimation du nombre de destinataires d’e-mails uniques qui ont probablement ouvert l’e-mail. Cette mesure vise à fournir un nombre plus précis d’engagements individuels déclenchés par des serveurs de messagerie pour l’analyse de confidentialité ou de sécurité en appliquant un taux d’ouverture unique calculé à partir des profils uniques qui ont ouvert manuellement l’e-mail à ceux dont les e-mails n’ont été ouverts que par des serveurs de messagerie.
+* **[!UICONTROL Estimation des ouvertures uniques]** : estimation du nombre de destinataires uniques des e-mails qui ont probablement ouvert l’e-mail. Cette mesure vise à fournir un nombre plus précis d’engagements individuels déclenchés par des serveurs de messagerie pour l’analyse de la confidentialité ou de la sécurité en appliquant un taux d’ouverture unique calculé à partir des profils uniques qui ont ouvert manuellement l’e-mail par rapport à ceux dont les e-mails n’ont été ouverts que par des serveurs de messagerie.
 
-* **[!UICONTROL Clics uniques]** : nombre de profils uniques ayant cliqué sur un contenu de votre message.
+* **[!UICONTROL Clics uniques]** : nombre de profils uniques qui ont cliqué sur un contenu dans votre message.
 
 +++
 
@@ -92,21 +92,21 @@ Le graphe **[!UICONTROL Statut de la diffusion]** fournit une vue complète des 
 
 +++ En savoir plus sur les mesures de statut de la diffusion
 
-* **[!UICONTROL Erreurs d’envoi uniques]** : nombre de profils uniques qui ont rencontré au moins une erreur d’envoi lors du processus sortant.
+* **[!UICONTROL Erreurs d’envois uniques]** : nombre de profils uniques qui ont rencontré au moins une erreur d’envoi lors du processus sortant.
 
-* **[!UICONTROL Diffusés uniques]** : nombre de profils uniques ayant reçu au moins un message avec succès.
+* **[!UICONTROL Diffusions uniques]** : nombre de profils uniques ayant reçu au moins un message.
 
-* **[!UICONTROL Exclusions d’envoi uniques]** : nombre de profils uniques exclus de la réception des messages en raison de règles prédéfinies ou de critères d’audience.
+* **[!UICONTROL Exclusions d’envois uniques]** : nombre de profils uniques exclus de la réception des messages en raison de règles ou de critères d’audience prédéfinis.
 
-* **[!UICONTROL Rebonds uniques]** : nombre de profils uniques pour lesquels au moins un message a fait l’objet d’un rebond pendant le processus d’envoi.
+* **[!UICONTROL Rebonds uniques]** : nombre de profils uniques pour lesquels au moins un message a fait l’objet d’un rebond pendant le processus d’envoi.
 
 +++
 
-## Tendance diffusés et clics {#delivered-click}
+## Tendance des diffusions et clics {#delivered-click}
 
 ![](assets/cja-email-delivered-click.png)
 
-Le graphique **[!UICONTROL Tendance des diffusions par rapport aux clics]** présente une analyse détaillée de l&#39;engagement de vos profils avec vos e-mails, offrant des informations précieuses sur la manière dont les profils interagissent avec votre contenu. Le graphique utilise deux axes pour afficher les e-mails et les clics diffusés côte à côte, ce qui permet de repérer plus facilement les modèles inhabituels ou les changements d’engagement par rapport au nombre d’e-mails envoyés.
+Le graphique **[!UICONTROL Tendance des diffusions et clics]** présente une analyse détaillée de l’engagement de vos profils avec vos e-mails, offrant des informations précieuses sur la manière dont les profils interagissent avec votre contenu. Le graphique utilise deux axes pour afficher les e-mails et les clics diffusés côte à côte, ce qui permet de repérer plus facilement les modèles inhabituels ou les changements d’engagement par rapport au nombre d’e-mails envoyés.
 
 +++ En savoir plus sur les mesures de tendance Diffusés et clics
 
@@ -116,49 +116,49 @@ Le graphique **[!UICONTROL Tendance des diffusions par rapport aux clics]** pré
 
 +++
 
-## Statistiques d’envoi uniques {#unique-sending-statistics-email}
+## Statistiques d’envois uniques {#unique-sending-statistics-email}
 
 ![](assets/cja-unique-email-sending-stat.png)
 
-Le tableau **[!UICONTROL Statistiques d’envoi uniques]** présente un aperçu détaillé des mesures de performances des e-mails uniques dans vos campagnes. Il se concentre sur les profils individuels, tels que ceux qui sont ciblés, envoyés, rejetés ou exclus de manière unique, ce qui permet d’obtenir des informations plus précises sur la manière dont vos e-mails atteignent et impliquent votre audience.
+Le tableau **[!UICONTROL Statistiques d’envois uniques]** présente une vue d’ensemble détaillée des mesures de performances des e-mails uniques dans vos campagnes. Il se concentre sur les profils individuels, tels que ceux qui sont ciblés, reçoivent un envoi, font l’objet d’un rebond ou sont exclus de manière unique, ce qui permet d’obtenir des informations plus détaillées sur la manière dont vos e-mails atteignent votre audience et l’engagent.
 
-+++ En savoir plus sur les mesures Statistiques d’envoi uniques
++++ En savoir plus sur la mesure Statistiques d’envois uniques
 
-* **[!UICONTROL Ciblés uniques]** : nombre de profils uniques ciblés pendant le processus d’envoi.
+* **[!UICONTROL Ciblages uniques]** : nombre de profils uniques ciblés pendant le processus d’envoi.
 
-* **[!UICONTROL Envois uniques]** : nombre de profils uniques pour lesquels au moins un e-mail a été tenté d’être envoyé.
+* **[!UICONTROL Envois uniques]** : nombre de profils uniques pour lesquels au moins une tentative d’envoi d’e-mail a eu lieu.
 
-* **[!UICONTROL Diffusés uniques]** : nombre de profils uniques ayant reçu au moins un e-mail.
+* **[!UICONTROL Diffusions uniques]** : nombre de profils uniques ayant reçu au moins un e-mail.
 
-* **[!UICONTROL Rebonds uniques]** : nombre de profils uniques pour lesquels au moins un e-mail a provoqué un rebond.
+* **[!UICONTROL Rebonds uniques]** : nombre de profils uniques pour lesquels au moins un e-mail a entraîné un rebond.
 
-* **[!UICONTROL Taux de rebond unique]** : pourcentage de profils uniques dont l’e-mail a rebondi au moins une fois, en fonction du nombre total d’envois uniques.
+* **[!UICONTROL Taux de rebond unique]** : pourcentage de profils uniques dont l’e-mail a fait l’objet d’un rebond au moins une fois, en fonction du nombre total d’envois uniques.
 
-* **[!UICONTROL Erreurs d’envoi uniques]** : nombre de profils uniques qui ont rencontré au moins une erreur d’envoi lors du processus sortant.
+* **[!UICONTROL Erreurs d’envoi unique]** : nombre de profils uniques ayant rencontré au moins une erreur d’envoi lors du processus sortant.
 
-* **[!UICONTROL Exclusions d&#39;envoi uniques]** : nombre de profils uniques exclus de la réception des messages en raison de règles d&#39;éligibilité, de la segmentation de l&#39;audience ou du statut de profil.
+* **[!UICONTROL Exclusions d’envoi unique]** : nombre de profils uniques exclus de la réception des messages en raison de règles d’éligibilité, de la segmentation de l’audience ou du statut du profil.
 
 +++
 
-## Statistiques de tracking uniques {#unique-tracking-statistics-email}
+## Statistiques de tracking unique {#unique-tracking-statistics-email}
 
 ![](assets/cja-unique-email-track-stat.png)
 
-Le tableau **[!UICONTROL Statistiques de tracking uniques]** fournit une vue ciblée de l’engagement au niveau du profil avec les e-mails de votre campagne. Il met en évidence des mesures uniques offrant des informations précieuses sur la manière dont les profils individuels interagissent avec le contenu de vos e-mails à travers les étapes clés de l’engagement.
+Le tableau **[!UICONTROL Statistiques de tracking unique]** fournit une vue ciblée de l’engagement au niveau du profil avec les e-mails de votre campagne. Il met en évidence des mesures uniques offrant des informations précieuses sur la manière dont les profils individuels interagissent avec le contenu de vos e-mails à travers les étapes clés de l’engagement.
 
-+++ En savoir plus sur les mesures de statistiques de tracking
++++ En savoir plus sur la mesure Statistiques de tracking
 
-* **[!UICONTROL Taux de clics uniques (CTR)]** : pourcentage de profils uniques qui ont cliqué sur au moins un lien dans l’e-mail, par rapport au nombre d’e-mails diffusés uniques.
+* **[!UICONTROL Taux de clic unique (CTR)]** : pourcentage de profils uniques qui ont cliqué sur au moins un lien dans l’e-mail, par rapport au nombre d’e-mails diffusés uniques.
 
-* **[!UICONTROL Taux d’ouvertures de clics uniques (CTOR)]** : pourcentage de profils uniques qui ont cliqué sur un lien après l’ouverture de l’e-mail, en fonction des ouvertures uniques.
+* **[!UICONTROL Taux d’ouvertures de clics uniques (CTOR)]** : pourcentage de profils uniques qui ont cliqué sur un lien après l’ouverture de l’e-mail, en fonction des ouvertures uniques.
 
-* **[!UICONTROL Taux d’ouvertures uniques]** : pourcentage de profils uniques ayant ouvert l’e-mail au moins une fois, par rapport au nombre d’e-mails diffusés uniques.
+* **[!UICONTROL Taux d’ouvertures uniques]** : pourcentage de profils uniques ayant ouvert l’e-mail au moins une fois, par rapport au nombre d’e-mails diffusés uniques.
 
-* **[!UICONTROL Clics uniques]** : nombre de profils uniques qui ont cliqué sur au moins un élément de contenu de l’e-mail.
+* **[!UICONTROL Clics uniques]** : nombre de profils uniques qui ont cliqué sur au moins un élément de contenu de l’e-mail.
 
-* **[!UICONTROL Ouvertures estimées uniques d’e-mails]** : estimation du nombre de destinataires uniques d’e-mails qui ont probablement ouvert l’e-mail. Cette mesure vise à fournir un nombre plus précis d’engagements individuels déclenchés par des serveurs de messagerie pour l’analyse de confidentialité ou de sécurité en appliquant un taux d’ouverture unique calculé à partir des profils uniques qui ont ouvert manuellement l’e-mail à ceux dont les e-mails n’ont été ouverts que par des serveurs de messagerie.
+* **[!UICONTROL Estimation des ouvertures uniques d’e-mails]** : estimation du nombre de destinataires uniques d’e-mails qui ont probablement ouvert l’e-mail. Cette mesure vise à fournir un nombre plus précis d’engagements individuels déclenchés par des serveurs de messagerie pour l’analyse de la confidentialité ou de la sécurité en appliquant un taux d’ouverture unique calculé à partir des profils uniques qui ont ouvert manuellement l’e-mail par rapport à ceux dont les e-mails n’ont été ouverts que par des serveurs de messagerie.
 
-* **[!UICONTROL Désabonnements uniques des e-mails]** : nombre de profils uniques qui ont cliqué sur le lien de désabonnement dans vos e-mails ou sur la page de destination associée.
+* **[!UICONTROL Désabonnements uniques des e-mails]** : nombre de profils uniques qui ont cliqué sur le lien de désabonnement dans vos e-mails ou sur la page de destination associée.
 
 +++
 
@@ -174,15 +174,15 @@ Le tableau **[!UICONTROL Statistiques d’envoi]** fournit un résumé complet d
 
 * **[!UICONTROL Envois]** : nombre total d’e-mails envoyés.
 
-* **[!UICONTROL Délivrés]** : nombre total d’e-mails envoyés avec succès, par rapport au nombre total de messages envoyés.
+* **[!UICONTROL Diffusions]** : nombre total d’e-mails envoyés avec succès, par rapport au nombre total de messages envoyés.
 
 * **[!UICONTROL Rebonds]** : nombre total d’erreurs cumulées lors de la procédure d’envoi et du traitement automatique des retours par rapport au nombre total de messages envoyés.
 
-* **[!UICONTROL Taux de rebond]** : pourcentage d&#39;emails ayant entraîné un rebond, par rapport au nombre total d&#39;emails envoyés.
+* **[!UICONTROL Taux de rebond]** : pourcentage d’e-mails ayant entraîné un rebond, par rapport au nombre total d’e-mails envoyés.
 
-* **[!UICONTROL Erreurs d’envoi]** : nombre total d’erreurs survenues pendant le processus d’envoi, l’empêchant d’être envoyée à des profils.
+* **[!UICONTROL Erreurs d’envoi]** : nombre total d’erreurs qui se sont produites au cours de la procédure d’envoi, empêchant le message d’être envoyé à des profils.
 
-* **[!UICONTROL Exclure des envois]** : nombre total de profils qui ont été exclus par Adobe Journey Optimizer.
+* **[!UICONTROL Exclusions d’envoi]** : nombre total de profils qui ont été exclus par Adobe Journey Optimizer.
 
 +++
 
@@ -192,19 +192,19 @@ Le tableau **[!UICONTROL Statistiques d’envoi]** fournit un résumé complet d
 
 Le tableau **[!UICONTROL E-mail - Statistiques de tracking]** offre un compte rendu détaillé de l’activité de profil associée aux e-mails inclus dans votre campagne. Cela inclut des mesures sur les ouvertures, les clics et d’autres indicateurs d’engagement pertinents, offrant une vue d’ensemble complète de la manière dont les profils interagissent avec le contenu de vos e-mails.
 
-+++ En savoir plus sur les mesures de statistiques de tracking
++++ En savoir plus sur la mesure Statistiques de tracking
 
 * **[!UICONTROL Taux de clics (CTR)]** : pourcentage d’utilisateurs et d’utilisatrices ayant interagi avec l’e-mail.
 
 * **[!UICONTROL Taux d’ouverture par clic (CTOR)]** : nombre de fois où l’e-mail a été ouvert.
 
-* **[!UICONTROL Estimation des ouvertures d’e-mail]** : estimation du nombre total d’ouvertures d’e-mail qui prennent en compte les ouvertures directes par les profils et les ouvertures automatisées déclenchées par les serveurs de messagerie. Cette mesure prend en compte les ouvertures déclenchées par les serveurs de messagerie à des fins d’analyse de confidentialité ou de sécurité en appliquant un taux d’ouverture calculé à partir des destinataires qui ont ouvert manuellement l’e-mail à ceux dont les e-mails n’ont été ouverts que par des serveurs de messagerie.
+* **[!UICONTROL Estimation des ouvertures d’e-mail]** : estimation du nombre total d’ouvertures d’e-mail, prenant en compte les ouvertures directes par les profils et les ouvertures automatisées déclenchées par les serveurs de messagerie. Cette mesure prend en compte les ouvertures déclenchées par les serveurs de messagerie à des fins d’analyse de la confidentialité ou de la sécurité en appliquant un taux d’ouverture calculé à partir des destinataires qui ont ouvert manuellement l’e-mail par rapport à ceux dont les e-mails n’ont été ouverts que par des serveurs de messagerie.
 
 * **[!UICONTROL Clics]** : nombre de clics sur un contenu dans vos e-mails.
 
 * **[!UICONTROL Plaintes relatives aux spams]** : nombre de fois où un message a été déclaré comme spam ou courrier indésirable.
 
-* **[!UICONTROL Désabonnements]** : nombre de clics sur le lien de désabonnement ou sur la page de destination associée.
+* **[!UICONTROL Désabonnements]** : nombre de clics sur le lien de désabonnement ou sur la page de destination associée.
 
 +++
 
@@ -216,17 +216,17 @@ Le tableau **[!UICONTROL Domaines d’e-mails]** propose une ventilation détail
 
 +++ En savoir plus sur les mesures des domaines d’e-mails
 
-* **[!UICONTROL Diffusés uniques]** : nombre de profils uniques ayant reçu au moins un e-mail.
+* **[!UICONTROL Diffusions uniques]** : nombre de profils uniques ayant reçu au moins un e-mail.
 
-* **[!UICONTROL Estimation des ouvertures d’e-mail]** : estimation du nombre total d’ouvertures d’e-mail qui prennent en compte les ouvertures directes par les profils et les ouvertures automatisées déclenchées par les serveurs de messagerie. Cette mesure prend en compte les ouvertures déclenchées par les serveurs de messagerie à des fins d’analyse de confidentialité ou de sécurité en appliquant un taux d’ouverture calculé à partir des destinataires qui ont ouvert manuellement l’e-mail à ceux dont les e-mails n’ont été ouverts que par des serveurs de messagerie.
+* **[!UICONTROL Estimation des ouvertures d’e-mail]** : estimation du nombre total d’ouvertures d’e-mails, prenant en compte les ouvertures directes par les profils et les ouvertures automatisées déclenchées par les serveurs de messagerie. Cette mesure prend en compte les ouvertures déclenchées par les serveurs de messagerie à des fins d’analyse de la confidentialité ou de la sécurité en appliquant un taux d’ouverture calculé à partir des destinataires qui ont ouvert manuellement l’e-mail par rapport à ceux dont les e-mails n’ont été ouverts que par des serveurs de messagerie.
 
-* **[!UICONTROL Clics uniques]** : nombre de profils uniques qui ont cliqué sur au moins un élément de contenu de l’e-mail.
+* **[!UICONTROL Clics uniques]** : nombre de profils uniques ayant cliqué sur au moins un élément de contenu de l’e-mail.
 
-* **[!UICONTROL Rebonds uniques]** : nombre de profils uniques pour lesquels au moins un e-mail a provoqué un rebond.
+* **[!UICONTROL Rebonds uniques]** : nombre de profils uniques pour lesquels au moins un e-mail a entraîné un rebond.
 
-* **[!UICONTROL Erreurs d’envoi uniques]** : nombre de profils uniques qui ont rencontré au moins une erreur d’envoi lors du processus sortant.
+* **[!UICONTROL Erreurs d’envoi unique]** : nombre de profils uniques ayant rencontré au moins une erreur d’envoi lors du processus sortant.
 
-* **[!UICONTROL Exclusions d&#39;envoi uniques]** : nombre de profils uniques exclus de la réception des messages en raison de règles d&#39;éligibilité, de la segmentation de l&#39;audience ou du statut de profil.
+* **[!UICONTROL Exclusions d’envois uniques]** : nombre de profils uniques exclus de la réception des messages en raison de règles d’éligibilité, de la segmentation de l’audience ou du statut de profil.
 
 +++
 
@@ -266,13 +266,13 @@ Le tableau **[!UICONTROL Objets des e-mails]** présente une vue d’ensemble co
 
 +++ En savoir plus sur les mesures des objets des e-mails
 
-* **[!UICONTROL Taux d’ouvertures uniques]** : pourcentage de profils uniques ayant ouvert l’e-mail au moins une fois, par rapport au nombre d’e-mails diffusés uniques.
+* **[!UICONTROL Taux d’ouverture unique]** : pourcentage de profils uniques ayant ouvert l’e-mail au moins une fois, par rapport au nombre d’e-mails diffusés uniques.
 
-* **[!UICONTROL Ouvertures estimées uniques d’e-mails]** : estimation du nombre de destinataires uniques d’e-mails qui ont probablement ouvert l’e-mail. Cette mesure vise à fournir un nombre plus précis d’engagements individuels déclenchés par des serveurs de messagerie pour l’analyse de confidentialité ou de sécurité en appliquant un taux d’ouverture unique calculé à partir des profils uniques qui ont ouvert manuellement l’e-mail à ceux dont les e-mails n’ont été ouverts que par des serveurs de messagerie.
+* **[!UICONTROL Estimation des ouvertures uniques d’e-mails]** : estimation du nombre de destinataires uniques d’e-mails qui ont probablement ouvert l’e-mail. Cette mesure vise à fournir un nombre plus précis d’engagements individuels déclenchés par des serveurs de messagerie pour l’analyse de la confidentialité ou de la sécurité en appliquant un taux d’ouverture unique calculé à partir des profils uniques qui ont ouvert manuellement l’e-mail par rapport à ceux dont les e-mails n’ont été ouverts que par des serveurs de messagerie.
 
-* **[!UICONTROL Taux d’ouvertures]** : pourcentage d’ouvertures d’e-mails par rapport au nombre total d’e-mails diffusés, y compris les ouvertures multiples par le même profil.
+* **[!UICONTROL Taux d’ouvertures]** : pourcentage d’ouvertures d’e-mails par rapport au nombre total d’e-mails diffusés, y compris les ouvertures multiples par le même profil.
 
-* **[!UICONTROL Estimation des ouvertures d’e-mail]** : estimation du nombre total d’ouvertures d’e-mail qui prennent en compte les ouvertures directes par les profils et les ouvertures automatisées déclenchées par les serveurs de messagerie. Cette mesure prend en compte les ouvertures déclenchées par les serveurs de messagerie à des fins d’analyse de confidentialité ou de sécurité en appliquant un taux d’ouverture calculé à partir des destinataires qui ont ouvert manuellement l’e-mail à ceux dont les e-mails n’ont été ouverts que par des serveurs de messagerie.
+* **[!UICONTROL Estimation des ouvertures d’e-mail]** : estimation du nombre total d’ouvertures d’e-mails qui prend en compte les ouvertures directes par les profils et les ouvertures automatisées déclenchées par les serveurs de messagerie. Cette mesure prend en compte les ouvertures déclenchées par les serveurs de messagerie à des fins d’analyse de la confidentialité ou de la sécurité en appliquant un taux d’ouverture calculé à partir des destinataires qui ont ouvert manuellement l’e-mail par rapport à ceux dont les e-mails n’ont été ouverts que par des serveurs de messagerie.
 
 +++
 

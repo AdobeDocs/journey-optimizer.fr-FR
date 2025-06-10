@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 exl-id: aa060d8e-23e2-4bab-b709-636077eb5d20
 source-git-commit: be0a240f73e884fd91798952167e81689aa2ae2f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2134'
-ht-degree: 85%
+ht-degree: 100%
 
 ---
 
@@ -76,7 +76,7 @@ Les tableaux ci-dessous contiennent la liste des mesures utilisées dans les dif
   </tr>
   <tr> 
    <td> Taux de rebond<br/> </td> 
-   <td> Pourcentage d’e-mails ayant entraîné un bounce, par rapport au nombre total d’e-mails envoyés.<br/> </td> 
+   <td> Pourcentage d’e-mails ayant entraîné un rebond, par rapport au nombre total d’e-mails envoyés.<br/> </td> 
   </tr> 
   <tr> 
    <td> Taux d’ouvertures par clic (CTOR)<br/> </td> 
@@ -103,8 +103,8 @@ Les tableaux ci-dessous contiennent la liste des mesures utilisées dans les dif
    <td> Nom de la cause initiale spécifique de l’erreur. <a href="exclusion-list.md">En savoir plus sur les motifs des erreurs</a>.<br/> </td> 
   </tr>
   <tr> 
-   <td>Estimation des ouvertures d’e-mails<br/> </td> 
-   <td>Estimation du nombre total d’ouvertures d’e-mails qui prennent en compte à la fois les ouvertures directes par les profils et les ouvertures automatisées déclenchées par les serveurs de messagerie. Cette mesure ajuste les ouvertures déclenchées par les serveurs de messagerie pour l’analyse de confidentialité ou de sécurité en appliquant un taux d’ouverture calculé à partir des destinataires qui ont ouvert manuellement l’e-mail à ceux dont les e-mails n’ont été ouverts que par des serveurs de messagerie.<br/> </td> 
+   <td>Estimation des ouvertures dʼe-mails<br/> </td> 
+   <td>Estimation du nombre total d’ouvertures d’e-mails, prenant en compte les ouvertures directes par les profils et les ouvertures automatisées déclenchées par les serveurs de messagerie. Cette mesure prend en compte les ouvertures déclenchées par les serveurs de messagerie à des fins d’analyse de la confidentialité ou de la sécurité en appliquant un taux d’ouverture calculé à partir des destinataires qui ont ouvert manuellement l’e-mail par rapport à ceux dont les e-mails n’ont été ouverts que par des serveurs de messagerie.<br/> </td> 
   </tr>
   <tr> 
    <td> Taux de clics sur les offres<br/> </td> 
@@ -127,11 +127,11 @@ Les tableaux ci-dessous contiennent la liste des mesures utilisées dans les dif
    <td> Nombre d’ouvertures du message.<br/> </td> 
   </tr> 
   <tr> 
-   <td> Erreurs d’envoi <br/> </td> 
-   <td> Nombre total d’erreurs survenues au cours du processus d’envoi, empêchant l’envoi à des profils.<br/> </td> 
+   <td> Erreurs d’envoi<br/> </td> 
+   <td> Nombre total d’erreurs qui se sont produites au cours du processus d’envoi, empêchant l’envoi à des profils.<br/> </td> 
   </tr> 
   <tr> 
-   <td> Envoyer les exclusions <br/> </td> 
+   <td> Exclusions d’envois<br/> </td> 
    <td> Nombre de profils qui ont été exclus par Adobe Journey Optimizer.<br/> </td> 
   </tr>
   <tr> 
@@ -148,18 +148,18 @@ Les tableaux ci-dessous contiennent la liste des mesures utilisées dans les dif
   </tr>
   <tr> 
    <td>Rebonds uniques<br/> </td> 
-   <td> Nombre de profils uniques pour lesquels au moins un e-mail a provoqué un bounce.</td> 
+   <td> Nombre de profils uniques pour lesquels au moins un e-mail a entraîné un rebond.</td> 
   </tr>
   <tr> 
    <td>Taux de rebond unique<br/> </td> 
-   <td>Pourcentage de profils uniques dont l’e-mail a été retourné au moins une fois, en fonction du nombre total d’envois uniques.</td> 
+   <td>Pourcentage de profils uniques dont l’e-mail a fait au moins une fois l’objet d’un rebond, en fonction du nombre total d’envois uniques.</td> 
   </tr>
   <tr> 
    <td> Clics uniques<br/> </td> 
    <td> Nombre de profils qui ont cliqué sur le contenu d’un e-mail.<br> Notez que lors du calcul des clics uniques, les 10 derniers jours sont pris en compte. Si un profil enregistre plusieurs clics au cours de la période de 10 jours, ils sont comptés comme des clics uniques. Cependant, si un profil a deux clics à plus de 10 jours d’intervalle, ceux-ci ne seront pas considérés comme des clics uniques.<br/> </td> 
   </tr>
   <tr> 
-   <td>Taux d’ouvertures des clics uniques<br/> </td> 
+   <td>Taux d’ouvertures de clics uniques<br/> </td> 
    <td> Pourcentage de profils uniques qui ont cliqué sur un lien après l’ouverture de l’e-mail, en fonction des ouvertures uniques. </td> 
   </tr>
   <tr> 
@@ -175,8 +175,8 @@ Les tableaux ci-dessous contiennent la liste des mesures utilisées dans les dif
    <td> Nombre de profils qui se sont désabonnés de vos e-mails.<br/> </td> 
   </tr>
   <tr> 
-   <td> Ouvertures uniques estimées d’e-mails<br/> </td> 
-   <td> Estimation du nombre de destinataires uniques d’e-mails qui ont probablement ouvert l’e-mail. Cette mesure vise à fournir un nombre plus précis d’engagements individuels déclenchés par des serveurs de messagerie pour l’analyse de confidentialité ou de sécurité en appliquant un taux d’ouverture unique calculé à partir des profils uniques qui ont ouvert manuellement l’e-mail à ceux dont les e-mails n’ont été ouverts que par des serveurs de messagerie.<br/> </td> 
+   <td> Estimation des ouvertures dʼe-mails uniques<br/> </td> 
+   <td> Estimation du nombre de destinataires uniques des e-mails qui ont probablement ouvert l’e-mail. Cette mesure vise à fournir un nombre plus précis d’engagements individuels déclenchés par des serveurs de messagerie pour l’analyse de la confidentialité ou de la sécurité en appliquant un taux d’ouverture unique calculé à partir des profils uniques qui ont ouvert manuellement l’e-mail par rapport à ceux dont les e-mails n’ont été ouverts que par des serveurs de messagerie.<br/> </td> 
   </tr>
   <tr> 
    <td> Ouvertures uniques<br/> </td> 
@@ -185,18 +185,18 @@ Les tableaux ci-dessous contiennent la liste des mesures utilisées dans les dif
   <tr>
   <tr> 
    <td> Envois uniques<br/> </td> 
-   <td>Nombre de profils uniques pour lesquels au moins un e-mail a été tenté d’être envoyé.<br/> </td> 
+   <td>Nombre de profils uniques pour lesquels au moins une tentative d’envoi d’e-mail a eu lieu.<br/> </td> 
   </tr>
   <tr> 
-   <td> Erreurs d’envoi uniques<br/> </td> 
-   <td>Nombre de profils uniques qui ont rencontré au moins une erreur d’envoi lors du processus sortant.<br/> </td> 
+   <td> Erreurs d’envoi unique<br/> </td> 
+   <td>Nombre de profils uniques ayant rencontré au moins une erreur d’envoi lors du processus sortant.<br/> </td> 
   </tr>
   <tr> 
-   <td> Exclusions d’envoi uniques<br/> </td> 
+   <td> Exclusions d’envois uniques<br/> </td> 
    <td>Nombre de profils uniques exclus de la réception des messages en raison de règles d’éligibilité, de la segmentation de l’audience ou du statut de profil.<br/> </td> 
   </tr>
   <tr> 
-   <td>Ciblés uniques<br/> </td> 
+   <td>Ciblages uniques<br/> </td> 
    <td>Nombre de profils uniques ciblés pendant le processus d’envoi.<br/> </td> 
   </tr> 
   <tr> 

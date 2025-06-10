@@ -9,9 +9,9 @@ role: User
 level: Beginner
 exl-id: 01726ab6-f581-4d19-aedd-2541bc0f27c6
 source-git-commit: 22a8742bf9000ed1cc8437d7ac89747276284dbf
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '252'
-ht-degree: 85%
+ht-degree: 100%
 
 ---
 
@@ -29,7 +29,7 @@ Vous pouvez tester le rendu de certains de vos modèles d’e-mail, qu’ils aie
 
    >[!NOTE]
    >
-   >[!DNL Journey optimizer] vous permet également de tester différentes variantes de vos modèles de contenu en les prévisualisant et en envoyant des BAT à l’aide des exemples de données d’entrée téléchargées à partir d’un fichier CSV/JSON ou ajoutées manuellement. [Découvrez comment simuler des variations de contenu](../test-approve/simulate-sample-input.md)
+   >[!DNL Journey optimizer] permet également de tester différentes variantes de vos modèles de contenu en les prévisualisant et en envoyant des BAT à l’aide d’exemples de données d’entrée chargés à partir d’un fichier CSV/JSON ou ajoutés manuellement. [Découvrez comment simuler des variations de contenu.](../test-approve/simulate-sample-input.md)
 
 1. Vous pouvez envoyer un BAT pour tester votre contenu et le faire approuver par certains utilisateurs et utilisatrices internes avant de l’utiliser pour un parcours ou une campagne.
 

@@ -10,9 +10,9 @@ level: Intermediate
 keywords: e-mail, importation, contenu, html, zip, css
 exl-id: 52011299-0c65-49c3-9edd-ba7bed5d7205
 source-git-commit: e35d18002fa32df8c1cfd9e0a609ce167df4641a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '228'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -49,10 +49,10 @@ Pour importer un fichier avec du contenu HTML, procédez comme suit :
    >
    > L’utilisation d’une balise `<table>` comme première couche d’un fichier HTML peut entraîner une perte de style, y compris les paramètres d’arrière-plan et de largeur dans la balise de couche supérieure.
 
-1. Vous pouvez désormais personnaliser le fichier importé selon vos besoins à l’aide des fonctionnalités de Designer Email. [En savoir plus](content-from-scratch.md)
+1. Vous pouvez désormais personnaliser votre fichier importé selon vos besoins à l’aide des fonctionnalités du Concepteur d’e-mail. [En savoir plus](content-from-scratch.md)
 
 ## Vidéo pratique {#video}
 
 Découvrez comment importer du contenu HTML existant, améliorer la conception et ajouter une page miroir et des liens de désabonnement. Apprenez également comment coder le contenu.
 
->[!VIDEO](https://video.tv.adobe.com/v/3421910?quality=12&captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/334102?quality=12)

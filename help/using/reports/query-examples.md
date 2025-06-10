@@ -9,9 +9,9 @@ role: Data Engineer, Data Architect, Admin
 level: Experienced
 exl-id: 26ad12c3-0a2b-4f47-8f04-d25a6f037350
 source-git-commit: 528e1a54dd64503e5de716e63013c4fc41fd98db
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1499'
-ht-degree: 72%
+ht-degree: 100%
 
 ---
 
@@ -21,7 +21,7 @@ Cette section répertorie plusieurs exemples couramment utilisés pour interroge
 
 Assurez-vous que les champs utilisés dans vos requêtes ont des valeurs associées dans le schéma correspondant.
 
-+++Quelle est la différence entre id, instanceid et profileid ?
++++Différence entre les attributs id, instanceid et profileid
 
 * ID : unique pour toutes les entrées d’événement d’étape. Deux événements d’étape différents ne peuvent pas avoir le même identifiant.
 * instanceID : instanceID est le même pour tous les événements d’étape associés à un profil lors de l’exécution d’un parcours. Si un profil entre de nouveau dans le parcours, un instanceID différent sera utilisé. Ce nouvel instanceID sera le même pour tous les événements d’étape de l’instance reprise (du début à la fin).
@@ -33,7 +33,7 @@ Assurez-vous que les champs utilisés dans vos requêtes ont des valeurs associ�
 
 ## Cas d’utilisation de base/requêtes courantes {#common-queries}
 
-+++Nombre de profils entrés dans un parcours au cours d’une période donnée
++++Nombre de profils ayant rejoint un parcours au cours d’une période donnée
 
 Cette requête donne le nombre de profils distincts étant entrés dans le parcours donné dans la période donnée.
 
@@ -49,7 +49,7 @@ AND DATE(timestamp) > (now() - interval '<last x hours>' hour);
 
 +++
 
-+++Quelle règle a empêché un profil de rejoindre un parcours donné ?
++++Règle ayant empêché un profil de rejoindre un parcours donné
 
 _Exemple_
 
@@ -72,7 +72,7 @@ AND
 
 +++
 
-+++Nombre d’erreurs qui se sont produites sur chaque nœud d’un parcours spécifique pendant une certaine période
++++Nombre d’erreurs s’étant produites sur chaque nœud d’un parcours spécifique pendant une certaine période
 
 _Requête du lac de données_
 
@@ -110,7 +110,7 @@ AND DATE(timestamp) > (now() - interval '<last x hours>' hour);
 
 +++
 
-+++Qu’advient-il d’un profil spécifique dans un parcours spécifique pendant une période spécifique ?
++++Caractéristiques d’un profil spécifique dans un parcours spécifique pendant une période spécifique
 
 _Requête du lac de données_
 
@@ -139,7 +139,7 @@ ORDER BY timestamp;
 
 +++
 
-+++Temps écoulé entre deux nœuds
++++Durée écoulée entre deux nœuds
 
 Ces requêtes peuvent être utilisées notamment pour estimer le temps passé dans une activité d’attente. Vous pouvez ainsi vous assurer que l’activité d’attente est correctement configurée.
 
@@ -268,7 +268,7 @@ WHERE
 
 +++
 
-+++Comment vérifier les détails d’un événement serviceEvent
++++Vérification des détails d’un événement serviceEvent
 
 Le jeu de données Événements de l’étape du parcours contient tous les événements stepEvents et serviceEvents. Les événements stepEvents sont utilisés dans les rapports, dans la mesure où ils se rapportent aux activités (événement, actions, etc.) des profils d’un parcours. Les événements serviceEvents sont stockés dans le même jeu de données et indiquent des informations supplémentaires à des fins de débogage, comme la raison de l’abandon d’un événement d’expérience.
 
@@ -320,7 +320,7 @@ Cette requête renvoie toutes les erreurs différentes qui se sont produites lor
 
 ## Requêtes basées sur un profil {#profile-based-queries}
 
-+++Rechercher si un profil a rejoint un Parcours spécifique
++++Vérification de l’entrée d’un profil dans un parcours spécifique
 
 _Requête du lac de données_
 
@@ -396,7 +396,7 @@ La requête renvoie la liste de tous les messages ainsi que leur nombre appelés
 
 +++
 
-+++Rechercher tous les messages reçus par un profil au cours des 30 derniers jours
++++Rechercher tous les messages reçus par un profil au cours des 30 derniers jours
 
 _Requête du lac de données_
 
@@ -424,7 +424,7 @@ La requête renvoie la liste de tous les messages ainsi que leur nombre appelés
 
 +++
 
-+++Rechercher tous les parcours qu’un profil a saisis au cours des 30 derniers jours
++++Rechercher tous les parcours qu’un profil a rejoint au cours des 30 derniers jours
 
 _Requête du lac de données_
 
@@ -478,7 +478,7 @@ La requête renvoie, pour la période définie, le nombre de profils ayant rejoi
 
 ## Requêtes relatives à la lecture d’audience {#read-segment-queries}
 
-+++Temps nécessaire pour terminer un traitement d&#39;export d&#39;audience
++++Temps nécessaire pour terminer une traitement d’export d’audiences
 
 _Requête du lac de données_
 
@@ -560,7 +560,7 @@ La requête renvoie tous les identifiants de profil qui ont été ignorés par l
 
 +++
 
-+++Nombre de profils qui ont été ignorés par le parcours en raison de l&#39;absence de mappage d&#39;identité
++++Nombre de profils qui ont été ignorés par le parcours en raison de l’absence de mappage d’identité
 
 _Requête du lac de données_
 
@@ -584,7 +584,7 @@ La requête renvoie tous les identifiants de profil qui ont été ignorés par l
 
 +++
 
-+++Nombre de profils qui ont été ignorés par le parcours, car le parcours se trouvait dans le nœud de test et que le profil n’était pas un profil de test
++++Nombre de profils qui ont été ignorés par le parcours, car celui-ci se trouvait dans le nœud de test et que le profil n’était pas un profil de test
 
 _Requête du lac de données_
 
@@ -608,7 +608,7 @@ La requête renvoie tous les identifiants de profil qui ont été ignorés par l
 
 +++
 
-+++Nombre de profils qui ont été ignorés par le parcours en raison d&#39;une erreur interne
++++Nombre de profils qui ont été ignorés par le parcours en raison d’une erreur interne
 
 _Requête du lac de données_
 
@@ -632,7 +632,7 @@ La requête renvoie tous les identifiants de profil qui ont été ignorés par l
 
 +++
 
-+++Présentation de la lecture d’audience pour une version de parcours donnée
++++Vue d’ensemble de la lecture d’audience pour une version de parcours donnée
 
 _Requête du lac de données_
 
@@ -673,7 +673,7 @@ IMPORTANT : si aucun événement n&#39;est renvoyé par cette requête, cela pe
 +++
 
 
-+++Obtention des erreurs de lecture d’audience pour une version de parcours donnée.
++++ Obtention des erreurs de lecture d’audience pour une version de parcours donnée
 
 _Requête du lac de données_
 
@@ -701,7 +701,7 @@ WHERE
 
 +++
 
-+++Obtention de l&#39;état du traitement des tâches d&#39;exportation
++++Obtention du statut du traitement de la tâche d’export
 
 _Requête du lac de données_
 
@@ -732,7 +732,7 @@ Si aucun enregistrement n&#39;est renvoyé, cela signifie que :
 
 +++
 
-+++Obtention de mesures sur les profils exportés, y compris les abandons et les mesures de traitements d&#39;exportation pour chaque traitement d&#39;exportation
++++Obtention de mesures sur les profils exportés, y compris les abandons et les mesures de traitements d’export pour chaque tâche d’exportation
 
 _Requête du lac de données_
 
@@ -794,7 +794,7 @@ WHERE T1.EXPORTJOB_ID = T2.EXPORTJOB_ID
 
 +++
 
-+++Obtention de mesures agrégées (tâches d&#39;exportation d&#39;audience et abandons) sur toutes les tâches d&#39;exportation
++++Obtention de mesures agrégées (traitements d’export d’audiences et abandons) sur toutes les tâches d’export
 
 _Requête du lac de données_
 
@@ -861,7 +861,7 @@ Elle renvoie les mesures globales d&#39;une version de parcours donnée, quelles
 
 ## Requêtes relatives à la qualification de l’audience {#segment-qualification-queries}
 
-+++Profil ignoré en raison d&#39;une réalisation d&#39;audience différente de celle configurée
++++Profil ignoré en raison d’une réalisation d’audience différente de celle configurée
 
 _Requête du lac de données_
 
@@ -887,7 +887,7 @@ Cette requête renvoie tous les identifiants de profil qui ont été ignorés pa
 
 +++
 
-+++Événements de qualification d’audience ignorés par toute autre raison pour un profil spécifique
++++Événements de qualification d’audience ignorés pour toute autre raison pour un profil spécifique
 
 _Requête du lac de données_
 
@@ -945,7 +945,7 @@ WHERE DATE(timestamp) > (now() - interval '6' hour)
 
 +++
 
-+++Vérifier si un événement externe d’un profil a été ignoré car aucun parcours associé n’a été trouvé
++++Vérifier si l’événement externe d’un profil a été ignoré, car aucun parcours associé n’a été trouvé
 
 _Requête du lac de données_
 
@@ -1019,7 +1019,7 @@ _experience.journeyOrchestration.serviceEvents.stateMachine.eventType = 'discard
 
 +++
 
-+++Vérifier tous les événements ignorés car une nouvelle entrée n’était pas autorisée
++++Vérifier tous les événements ignorés, car une nouvelle entrée n’était pas autorisée
 
 _Requête du lac de données_
 
@@ -1223,7 +1223,7 @@ ORDER BY
 
 +++
 
-+++Nombre de profils qui ont quitté le parcours au cours de la période spécifique
++++Nombre de profils ayant quitté le parcours au cours de la période spécifique
 
 _Requête du lac de données_
 
@@ -1263,7 +1263,7 @@ ORDER BY
 
 +++
 
-+++Nombre de profils ayant quitté le parcours au cours de la période spécifique avec le nœud/l’état
++++Nombre de profils ayant quitté le parcours pendant la période spécifique avec le nœud/statut
 
 _Requête du lac de données_
 

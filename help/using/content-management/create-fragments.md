@@ -9,9 +9,9 @@ role: User
 level: Beginner, Intermediate
 exl-id: da3ffe9c-a244-4246-b4b5-a3a1d0508676
 source-git-commit: e35d18002fa32df8c1cfd9e0a609ce167df4641a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '700'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -73,7 +73,7 @@ Après avoir configuré les propriétés du fragment, le concepteur d’e-mail o
 
   >[!CAUTION]
   >
-  >Les fragments ne sont pas compatibles entre le mode Thème et le mode Classique. Pour pouvoir utiliser un fragment dans un contenu auquel vous souhaitez appliquer un thème, ce fragment doit être créé en mode Thème. [En savoir plus sur les thèmes](../email/apply-email-themes.md)
+  >Les fragments ne sont pas intercompatibles entre les modes Thème et Classique. Pour pouvoir utiliser un fragment dans un contenu auquel vous souhaitez appliquer un thème, ce fragment doit être créé en mode Thème. [En savoir plus sur les thèmes](../email/apply-email-themes.md)
 
 * Pour les fragments d’expression, utilisez l’éditeur de personnalisation de [!DNL Journey Optimizer] et toutes ses fonctionnalités de personnalisation et de création pour créer le contenu de votre fragment. [En savoir plus](../personalization/personalization-build-expressions.md)
 

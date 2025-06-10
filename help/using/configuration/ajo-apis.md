@@ -8,9 +8,9 @@ role: Developer
 level: Intermediate
 exl-id: 4c897c52-6eb2-4d6e-aaa9-9bd83608b2b6
 source-git-commit: 64e225cdc8615e51655ef550866b67ca249a7572
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '239'
-ht-degree: 84%
+ht-degree: 100%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 84%
 
 L’API Adobe Journey Optimizer vous permet de proposer des expériences clients personnalisées, connectées et opportunes sur n’importe quel appareil, canal ou application, ce qui vous permet de gérer efficacement le parcours client de bout en bout. Le parcours client est l’ensemble du processus d’interaction d’une cliente ou d’un client avec la marque, depuis le premier contact jusqu’au départ de la cliente ou du client. Il débute avec la phase de sensibilisation, où le client ou la cliente découvre la marque et commence à interagir. Le client ou la cliente interagira ensuite davantage avec la marque, se rendra sur les sites web et physiques, effectuera des achats, enverra des messages ou publiera des commentaires.
 
-Adobe Journey Optimizer est conçu de manière native sur Adobe Experience Platform et associe un profil client en temps réel unifié, un framework ouvert API-First, une fonction Offer Decisioning centralisée, une intelligence artificielle (IA) et du machine learning (ML) pour la personnalisation et l&#39;optimisation. L’intégration à l’API Journey Optimizer permet aux marques de déterminer intelligemment la meilleure interaction possible, avec l’échelle, la vitesse et la flexibilité adaptées, pour l’ensemble du parcours client.
+Adobe Journey Optimizer est conçu de manière native sur Adobe Experience Platform et associe un profil client en temps réel unifié, un framework ouvert fondé sur l’API, une prise de décisions sur les offres centralisée, une intelligence artificielle (IA) et du machine learning (ML) pour la personnalisation et l’optimisation. L’intégration à l’API Journey Optimizer permet aux marques de déterminer intelligemment la meilleure interaction possible, avec l’échelle, la vitesse et la flexibilité adaptées, pour l’ensemble du parcours client.
 
 Suivez [ce tutoriel](https://developer.adobe.com/journey-optimizer-apis/references/authentication/){target="_blank"} pour rassembler les informations d’identification d’authentification requises pour toutes les API Journey Optimizer.
 

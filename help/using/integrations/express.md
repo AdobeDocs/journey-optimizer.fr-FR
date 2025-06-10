@@ -11,7 +11,7 @@ level: Beginner
 keywords: ressources, intégration
 exl-id: c74156bb-4f00-4325-b416-6fe36cb755d1
 source-git-commit: b9ec22318baf888ba5d1ed3b1b7c64b658785cc1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '540'
 ht-degree: 100%
 
@@ -39,7 +39,7 @@ Pour accéder au menu **[!DNL Adobe Express]**, accédez à vos **Paramètres d�
 
 ![](assets/express_1.png)
 
-➡️ [Découvrez cette fonctionnalité en vidéo](#video)
+➡️ [Découvrez cette fonctionnalité en vidéo.](#video)
 
 ## Licence Adobe Express Enterprise {#licence}
 
@@ -149,7 +149,7 @@ Votre image est maintenant prête à être utilisée dans votre contenu.
 
 Découvrez comment modifier vos ressources dans Adobe Journey Optimizer à l’aide des outils d’Adobe Express.
 
->[!VIDEO](https://video.tv.adobe.com/v/3455525/?quality=12&captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/3455523/?quality=12)
 
 
 

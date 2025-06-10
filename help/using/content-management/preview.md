@@ -6,9 +6,9 @@ role: User
 level: Beginner
 exl-id: 6477270c-0309-411a-8254-c7ffc4419492
 source-git-commit: aa28d13b2ad874e4dc61510bfdc250415e8e8be1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '258'
-ht-degree: 83%
+ht-degree: 100%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 83%
 
 Une fois les [profils de test](test-profiles.md) sélectionnés, vous pouvez prévisualiser votre contenu à l’aide de leurs données. Procédez comme suit :
 
-1. Dans l’écran de modification du contenu de votre message ou dans le Designer Email, cliquez sur le bouton **[!UICONTROL Simuler du contenu]** et sélectionnez **[!UICONTROL Simuler du contenu]**.
+1. Dans l’écran Modifier le contenu de votre message ou dans le Concepteur d’e-mail, cliquez sur le bouton **[!UICONTROL Simuler le contenu]** et sélectionnez **[!UICONTROL Simuler le contenu]**.
 
 1. Sélectionnez un profil de test. Vous pouvez vérifier les valeurs disponibles dans les colonnes. Utilisez les flèches droite/gauche pour parcourir les données.
 
@@ -46,4 +46,4 @@ Lors de la création d’expériences basées sur du code, vous pouvez prévisua
 
 >[!NOTE]
 >
->[!DNL Journey optimizer] vous permet également de tester différentes variantes de votre contenu en le prévisualisant et en envoyant des BAT à l’aide d’exemples de données d’entrée chargés à partir d’un fichier CSV/JSON ou ajoutés manuellement. [Découvrez comment simuler des variations de contenu](../test-approve/simulate-sample-input.md)
+>[!DNL Journey optimizer] vous permet également de tester différentes variantes de votre contenu en le prévisualisant et en envoyant des BAT à l’aide d’exemples de données d’entrée chargés à partir d’un fichier CSV/JSON ou ajoutés manuellement. [Découvrez comment simuler des variations de contenu.](../test-approve/simulate-sample-input.md)

@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Simuler les variations du contenu
+title: Simuler des variations de contenu
 description: Découvrez comment prévisualiser du contenu et envoyer un BAT d’e-mail en utilisant des exemples de données d’entrée provenant d’un fichier CSV ou JSON ou ajoutées manuellement.
 feature: Email, Email Rendering, Personalization, Preview, Proofs
 topic: Content Management
@@ -9,76 +9,76 @@ role: User
 level: Intermediate
 exl-id: 8462c75e-4f4b-4c4f-8734-19efbbc70c7a
 source-git-commit: 03b22446ee06b5a6c20145c4b9abed95ac24e8bb
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '948'
-ht-degree: 41%
+ht-degree: 100%
 
 ---
 
-# Simuler les variations du contenu {#custom-profiles}
+# Simuler des variations de contenu {#custom-profiles}
 
 >[!CONTEXTUALHELP]
 >id="ajo_simulate_sample_profiles"
 >title="Simuler à l’aide d’un exemple d’entrée"
 >abstract="Sur cet écran, vous pouvez tester différentes variantes de votre contenu en fournissant des valeurs pour les champs de personnalisation à l’aide d’un modèle CSV ou JSON, ou en saisissant manuellement les valeurs."
 
-L’optimiseur de parcours vous permet de prévisualiser différentes variations de votre contenu à l’aide d’exemples de données d’entrée chargées à partir d’un fichier CSV ou JSON ou ajoutées manuellement.
+Journey Optimizer permet de prévisualiser différentes variations de votre contenu à l’aide d’exemples de données d’entrée chargés à partir d’un fichier CSV ou JSON ou ajoutés manuellement.
 
-Tous les attributs utilisés dans votre contenu pour la personnalisation sont automatiquement détectés par le système et peuvent être utilisés pour que vos tests créent plusieurs variantes. Une variante fait référence à une version du contenu dont les attributs ont des valeurs différentes.
+Tous les attributs utilisés dans votre contenu pour la personnalisation sont automatiquement détectés par le système et peuvent être utilisés dans vos tests afin de créer plusieurs variantes. Une variante fait référence à une version du contenu dont les attributs ont des valeurs différentes.
 
 >[!NOTE]
 >
->Les variantes ne servent qu’à des fins de test pour votre contenu actuel. Ils ne sont pas stockés dans Adobe Experience Platform, mais dans la session de votre navigateur utilisateur, ce qui signifie qu’ils ne s’affichent pas lors de la déconnexion ou lorsque vous travaillez à partir d’un autre appareil.
+>Les variantes servent uniquement à des fins de test pour votre contenu actuel. Celles-ci ne sont pas stockées dans Adobe Experience Platform, mais dans la session de votre navigateur, ce qui signifie qu’elles ne s’afficheront pas si vous vous déconnectez ou si vous travaillez sur un autre appareil.
 
 ## Mécanismes de sécurisation et limitations {#limitations}
 
 Avant de commencer à tester votre contenu à l’aide des exemples de données d’entrée, tenez compte des mécanismes de sécurisation et des conditions préalables suivants.
 
-* **Canaux** - La simulation de variations de contenu est disponible uniquement pour les canaux E-mail, SMS et Notification push.
+* **Canaux** : la simulation des variations de contenu n’est disponible que pour les canaux E-mail, SMS et Notification push.
 
-* **Fonctionnalités prises en charge** - Les variations de contenu peuvent être utilisées avec [!DNL Journey Optimizer] contenu multilingue et des fonctionnalités d’expérience de contenu. Vous pouvez ainsi tester les messages dans plusieurs langues et optimiser le contenu grâce à l’expérimentation.
+* **Fonctionnalités prises en charge** : les variations de contenu peuvent être utilisées avec le contenu multilingue [!DNL Journey Optimizer] et des fonctionnalités d’expérience de contenu. Vous pouvez ainsi tester les messages dans plusieurs langues et optimiser le contenu grâce à l’expérimentation.
 
-  Vous pouvez également utiliser des variations de contenu pour tester vos modèles de contenu.
+  Vous pouvez également tirer parti des variations de contenu pour tester vos modèles de contenu.
 
   >[!NOTE]
   >
-  >Pour l’instant, l’inbox rendering et les rapports de spam ne sont pas disponibles dans l’expérience actuelle :. Pour utiliser ces fonctionnalités, sélectionnez le bouton **[!UICONTROL Simuler le contenu]** de votre contenu pour accéder à l’interface d’utilisation précédente.
+  >Pour l’instant, le rendu de la boîte de réception et les rapports de spam ne sont pas disponibles dans l’expérience actuelle. Pour utiliser ces fonctionnalités, sélectionnez le bouton **[!UICONTROL Simuler le contenu]** de votre contenu pour accéder à l’interface d’utilisation précédente.
 
-* **Attributs** - Les attributs de profil et contextuels sont pris en charge.
+* **Attributs** : les attributs de profil et contextuels sont pris en charge.
 
-* **Types de données** - Seuls les types de données suivants sont pris en charge lors de la saisie de données pour vos variantes : nombre (entier et décimal), chaîne, valeur booléenne et type de date. Tout autre type de données affiche une erreur.
+* **Types de données** : seuls les types de données suivants sont pris en charge lors de la saisie de données pour vos variantes : nombre (entier et décimal), chaîne, valeur booléenne et type de date. Tout autre type de données affiche une erreur.
 
-* **Nombre de variantes** - Vous pouvez ajouter jusqu’à 30 variantes pour tester votre contenu, à l’aide d’un fichier ou manuellement.
+* **Nombre de variantes** : vous pouvez ajouter jusqu’à 30 variantes pour tester votre contenu, soit à l’aide d’un fichier, soit manuellement.
 
 ## Ajouter et prévisualiser des variations de contenu
 
-Pour créer des variations pour votre contenu et les prévisualiser, cliquez sur le bouton **[!UICONTROL Simuler du contenu]** et choisissez **[!UICONTROL Simuler des variations de contenu]**.
+Pour créer des variations de votre contenu et les prévisualiser, cliquez sur le bouton **[!UICONTROL Simuler le contenu]** et choisissez **[!UICONTROL Simuler les variations de contenu]**.
 
 ![](assets/simulate-sample.png)
 
 Les principales étapes pour tester votre contenu sont les suivantes :
 
-1. **Ajouter des variantes** - Ajoutez jusqu’à 30 variantes avec des exemples de données d’entrée, soit en chargeant un fichier, soit en ajoutant des données manuellement. [Découvrir comment ajouter des variantes](#profiles)
-1. **Prévisualiser les variations de contenu** - Vérifiez l’aperçu de votre contenu à l’aide des différentes variantes. [Découvrir comment prévisualiser votre contenu](#preview)
-1. **Envoyer des BAT par e-mail** - pour le contenu des e-mails, envoyez jusqu&#39;à 10 BAT aux adresses e-mail à l&#39;aide des différentes variantes. [Découvrir comment envoyer des épreuves](#proofs)
+1. **Ajouter des variantes** : ajoutez jusqu’à 30 variantes avec des exemples de données d’entrée, soit en chargeant un fichier, soit en ajoutant manuellement les données. [Découvrir comment ajouter des variantes](#profiles)
+1. **Prévisualiser des variations de contenu** : vérifiez l’aperçu de votre contenu à l’aide des différentes variantes. [Découvrir comment prévisualiser votre contenu](#preview)
+1. **Envoyer des BAT d’e-mail** : pour du contenu d’e-mail, envoyez jusqu’à 10 BAT aux adresses e-mail à l’aide des différentes variantes. [Découvrir comment envoyer des BAT](#proofs)
 
 ### Ajouter des variantes {#profiles}
 
 Lors de l’accès à l’expérience de variations de contenu, tous les champs de personnalisation utilisés dans votre contenu sont automatiquement détectés et affichés dans une liste de variantes vides.
 
-Par exemple, si votre e-mail contient deux champs de personnalisation « Ville » et « Solde des points du programme », ils apparaîtront dans la liste. Au départ, aucune valeur n’est saisie et aucun contenu personnalisé n’est affiché dans le volet d’aperçu.
+Par exemple, si votre e-mail contient deux champs de personnalisation « Ville » et « Solde des points du programme », ils apparaîtront dans la liste. Au départ, aucune valeur n’est saisie et aucun contenu personnalisé n’est affiché dans le volet d’aperçu.
 
 ![](assets/simulate-custom-variants-list.png)
 
-Pour modifier la valeur d’une variante :
+Pour modifier la valeur d’une variante :
 
 1. Cliquez sur le bouton représentant des points de suspension en regard de la variante.
 1. Sélectionnez **[!UICONTROL Modifier]** pour fournir des valeurs personnalisées pour chaque champ de personnalisation.
-1. Le volet d’aperçu se met à jour pour afficher le rendu de votre contenu avec les valeurs saisies.
+1. Le volet d’aperçu est mis à jour pour afficher le rendu de votre contenu avec les valeurs saisies.
 
-Pour ajouter une nouvelle variante :
+Pour ajouter une nouvelle variante :
 
-1. Cliquez sur le bouton **[!UICONTROL Créer un modèle d’entrée]**.
+1. Cliquez sur le bouton **[!UICONTROL Créer un exemple d’entrée]**.
 1. Une nouvelle variante vierge s’affiche, contenant tous les champs de personnalisation détectés.
 1. Modifiez la nouvelle variante selon vos besoins.
 
@@ -87,10 +87,10 @@ Pour ajouter une nouvelle variante :
 Vous pouvez également charger un fichier avec des variantes et des valeurs prédéfinies pour accélérer le processus.
 
 1. Cliquez sur **[!UICONTROL Télécharger l’exemple]** pour télécharger un modèle de fichier.
-1. Choisissez un format de fichier : CSV, JSON ou JSONLINES.
+1. Choisissez un format de fichier : CSV, JSON ou JSONLINES.
 1. Ouvrez le fichier de modèle et renseignez les valeurs souhaitées pour chaque attribut de profil. Le modèle inclut une colonne pour chaque attribut de profil utilisé dans votre contenu pour la personnalisation.
 
-   Exemple de syntaxe JSON :
+   Exemple de syntaxe JSON :
 
    ```
    {
@@ -108,11 +108,11 @@ Vous pouvez également charger un fichier avec des variantes et des valeurs pré
    ```
 
 1. Une fois votre fichier prêt, cliquez sur **[!UICONTROL Charger les données d’entrée]** pour le charger.
-1. Après le chargement, une nouvelle variante est ajoutée à la liste pour chaque entrée dans le fichier .
+1. Après le chargement, une nouvelle variante est ajoutée à la liste pour chaque entrée dans le fichier.
 
    ![](assets/simulate-custom-variants.png)
 
-Une fois les variantes ajoutées, vous pouvez les utiliser pour prévisualiser votre contenu dans le volet de droite et envoyer des BAT par e-mail.
+Une fois les variantes ajoutées, vous pouvez les utiliser pour prévisualiser votre contenu dans le volet de droite et envoyer des BAT d’e-mail.
 
 ### Prévisualiser les variations de contenu {#preview}
 

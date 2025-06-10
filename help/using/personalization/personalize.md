@@ -10,9 +10,9 @@ level: Beginner
 keywords: expression, éditeur, commencer, personnalisation
 exl-id: f448780b-91bc-455e-bf10-9a9aee0a0b24
 source-git-commit: 85fc6bdc6386f52374172d50667edeea5344011f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '505'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -51,7 +51,7 @@ Ce terrain de jeu fournit un environnement simulé pour écrire et tester du cod
 
 ![terrain de jeu de personnalisation](assets/playground.png)
 
-➡️ [Accédez au terrain de jeu de la personnalisation](https://experienceleague.adobe.com/fr/apps/journey-optimizer/ajo-personalization){target="_blank"}
+➡️ [Accédez au terrain de jeu de la personnalisation.](https://experienceleague.adobe.com/fr/apps/journey-optimizer/ajo-personalization){target="_blank"}
 
 ## Explorons plus en détail
 
@@ -97,11 +97,11 @@ Maintenant que vous savez comment effectuer des personnalisations dans **[!DNL J
 
 Découvrez comment utiliser les informations d’événement contextuelles d’un parcours pour personnaliser un message.
 
->[!VIDEO](https://video.tv.adobe.com/v/3448131?quality=12&captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/334165?quality=12)
 
 Découvrez comment ajouter une personnalisation basée sur un profil à un message et comment utiliser l’appartenance à une audience comme condition préalable à un bloc de personnalisation.
 
->[!VIDEO](https://video.tv.adobe.com/v/3416270?quality=12&captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/334078?quality=12)
 
 Découvrez comment tirer parti du terrain de jeu de l’éditeur de personnalisation pour écrire et tester du code de personnalisation à l’aide de données d’exemple.
 

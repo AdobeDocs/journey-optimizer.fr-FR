@@ -9,9 +9,9 @@ level: Intermediate
 keywords: rentrée, parcours, fin, dynamique, arrêt
 exl-id: ea1ecbb0-12b5-44e8-8e11-6d3b8bff06aa
 source-git-commit: a7468879b36dfe9184471824b387f1638fae3d50
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '756'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 95%
 
 ## Terminaison d’un parcours dynamique
 
-Les parcours sont fermés lorsque le délai d’expiration du parcours global est atteint ou après la dernière occurrence d’un parcours récurrent basé sur l’audience. [Découvrir comment les parcours sont fermés](#close-journey).
+Les parcours sont fermés lorsque la temporisation globale du parcours est atteinte ou après la dernière occurrence d’un parcours récurrent basé sur l’audience. [Découvrir comment les parcours sont fermés](#close-journey).
 
 Pour terminer un parcours dynamique, nous vous recommandons de [le clôturer](#close-to-new-entrances) manuellement. L’arrivée de nouvelles personnes dans le parcours sera alors bloquée. Les profils qui ont déjà rejoint le parcours peuvent l’expérimenter jusqu’à la fin.
 
@@ -27,7 +27,7 @@ Vous pouvez également [arrêter un parcours](#stop-journey), uniquement en cas 
 
 >[!IMPORTANT]
 >
->* Vous ne pouvez pas redémarrer ou supprimer un parcours [fermé](#close-journey) ou [arrêté](#stop-journey). Vous pouvez [créer une nouvelle version](publishing-the-journey.md#journey-versions-journey-versions) ou [la dupliquer](journey-ui.md#duplicate-a-journey-duplicate-a-journey).
+>* Vous ne pouvez pas redémarrer ou supprimer un parcours [fermé](#close-journey) ou [arrêté](#stop-journey). Vous pouvez [le dupliquer](journey-ui.md#duplicate-a-journey-duplicate-a-journey) ou en [créer une nouvelle version](publishing-the-journey.md#journey-versions-journey-versions).
 >
 >* Seuls les parcours terminés peuvent être supprimés.
 

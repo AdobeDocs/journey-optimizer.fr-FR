@@ -10,9 +10,9 @@ level: Intermediate
 keywords: parcours, message, notification push, sms, e-mail, in-app, web, carte de contenu, expérience basée sur du code
 exl-id: 4db07a9e-c3dd-4873-8bd9-ac34c860694c
 source-git-commit: db3c87d10469550eb30224c932344ff1e3ae1767
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '496'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -121,7 +121,7 @@ Pour ajouter une action de canal intégrée à un parcours, procédez comme suit
 
 >[!NOTE]
 >
->* Chaque activité d’expérience entrante s’accompagne d’une activité **Attente** de 3 jours. [En savoir plus](wait-activity.md#auto-wait-node)
+>* Chaque activité d’expérience entrante est accompagnée d’une activité **Attente** de 3 jours. [En savoir plus](wait-activity.md#auto-wait-node)
 >
 >* Pour les notifications push et les e-mails, vous pouvez activer l’optimisation de l’heure d’envoi. [En savoir plus](send-time-optimization.md)
 

@@ -9,9 +9,9 @@ role: User
 level: Beginner
 exl-id: a205539b-b7ea-4832-92b0-49637c4dac47
 source-git-commit: e35d18002fa32df8c1cfd9e0a609ce167df4641a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '661'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -83,7 +83,7 @@ Ce modèle est maintenant prêt à être utilisé lors de la création d’un co
 
 >[!NOTE]
 >
->Lors de la création d’un modèle de contenu d’e-mail, vous pouvez appliquer rapidement un style spécifique adapté à votre marque et à votre conception à votre contenu. [En savoir plus](../email/apply-email-themes.md)
+>Lors de la création d’un modèle de contenu d’e-mail, vous pouvez appliquer rapidement un style spécifique adapté à votre marque, ainsi qu’un thème à votre contenu. [En savoir plus](../email/apply-email-themes.md)
 
 ## Enregistrer le contenu comme modèle de contenu {#save-as-template}
 

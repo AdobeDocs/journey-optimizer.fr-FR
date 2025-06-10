@@ -1,8 +1,8 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Utilisation de GenStudio for Performance Marketing dans Journey Optimizer
-description: Découvrez comment utiliser GenStudio for Performance Marketing dans Journey Optimizer
+title: Utiliser GenStudio for Performance Marketing dans Journey Optimizer
+description: Découvrez comment utiliser GenStudio for Performance Marketing dans Journey Optimizer.
 feature: Content Assistant, Integrations
 topic: Content Management, Artificial Intelligence
 badge: label="Disponibilité limitée" type="Informative"
@@ -10,38 +10,38 @@ role: User
 level: Beginner, Intermediate
 exl-id: c22a44a8-e4e2-453a-9ca2-b80f7c0edc19
 source-git-commit: 11c6dd43d6b20864f9823130c5aed790a3091938
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '669'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
-# Utiliser GenStudio for Performance Marketing {#ajo-genstudio}
+# Utiliser GenStudio for Performance Marketing {#ajo-genstudio}
 
 >[!CONTEXTUALHELP]
 >id="ajo_genstudio_button"
 >title="Utiliser un modèle créé avec GenStudio"
 >abstract="Grâce à l’intégration transparente à Adobe GenStudio for Performance Marketing, vous pouvez facilement importer un modèle GenStudio amélioré par la technologie d’IA Adobe."
 
-## Prise en main de GenStudio {#gs-genstudio}
+## Commencer avec GenStudio {#gs-genstudio}
 
-[Adobe GenStudio for Performance Marketing](https://experienceleague.adobe.com/fr/docs/genstudio-for-performance-marketing/user-guide/home){target="_blank"} est une application axée sur l’IA générative qui permet aux équipes marketing de créer leurs propres publicités et e-mails afin de mener des campagnes marketing percutantes et personnalisées, tout en respectant les normes de votre marque et les politiques de votre entreprise. En tirant parti de la technologie d’IA d’Adobe, elle offre une suite complète d’outils qui simplifient la création et la gestion de contenu, ce qui permet aux créatifs de se concentrer sur l’innovation.
+[Adobe GenStudio for Performance Marketing](https://experienceleague.adobe.com/fr/docs/genstudio-for-performance-marketing/user-guide/home){target="_blank"} est une application axée sur l’IA générative qui permet aux équipes marketing de créer leurs propres publicités et e-mails afin de mener des campagnes marketing percutantes et personnalisées, tout en respectant les normes de votre marque et les politiques de votre entreprise. La technologie d’IA d’Adobe met à votre disposition une suite complète d’outils qui simplifient la création et la gestion de contenu, ce qui permet aux personnes en charge de la création de se concentrer sur l’innovation.
 
 >[!AVAILABILITY]
 >
 >* L’intégration de GenStudio dans [!DNL Adobe Journey Optimizer] n’est actuellement pas disponible pour une utilisation avec les offres complémentaires **Healthcare Shield** ou **Privacy and Security Shield**.
 >
->* Cette fonctionnalité est disponible uniquement pour le canal e-mail .
+>* Cette fonctionnalité est disponible uniquement pour le canal e-mail.
 
 Pour renforcer l’efficacité marketing et préserver la cohérence de la marque, vous pouvez intégrer de façon transparente les expériences [!DNL **GenStudio for Performance Marketing**] à [!DNL **Adobe Journey Optimizer**]. Vous pouvez ainsi tirer parti des capacités de création de contenu alimentées par l’IA de [!DNL GenStudio] en les associant aux fonctionnalités d’orchestration avancées de [!DNL Journey Optimizer].
 
-![Importer un contenu GenStudio dans Adobe Journey Optimizer](../rn/assets/do-not-localize/genstudio.gif)
+![Importer du contenu GenStudio dans Adobe Journey Optimizer](../rn/assets/do-not-localize/genstudio.gif)
 
 >[!INFO]
 >
->Pour aller plus loin, consultez cette [vue d’ensemble](https://business.adobe.com/fr/products/genstudio-for-performance-marketing.html#watch-overview){target="_blank"} ainsi qu’une [démo](https://business.adobe.com/fr/products/genstudio-for-performance-marketing.html#demo){target="_blank"} de [!DNL Adobe GenStudio for Performance Marketing].
+>Pour aller plus loin, consultez cette [vue d’ensemble](https://business.adobe.com/fr/products/genstudio-for-performance-marketing.html#watch-overview){target="_blank"} ainsi qu’une [démonstration](https://business.adobe.com/fr/products/genstudio-for-performance-marketing.html#demo){target="_blank"} de [!DNL Adobe GenStudio for Performance Marketing].
 
-➡️ [Découvrez cette fonctionnalité en vidéo](#video)
+➡️ [Découvrez cette fonctionnalité en vidéo.](#video)
 
 
 <!--To access the GenStudio integration in [!DNL Adobe Journey Optimizer] feature, users need to be granted the **xxx** permission. [Learn more](../administration/permissions.md)
@@ -60,7 +60,7 @@ See if guidelines/limitations such as the ones listed [here](gs-generative.md#ge
 
 The following limitations apply to GenStudio integration in [!DNL Adobe Journey Optimizer]:-->
 
-## Utilisation des fonctionnalités de GenStudio dans Journey Optimizer {#use-genstudio}
+## Utiliser les fonctionnalités de GenStudio dans Journey Optimizer {#use-genstudio}
 
 L’intégration entre [!DNL GenStudio for Performance Marketing] et [!DNL Journey Optimizer] permet aux équipes marketing de votre entreprise de mieux collaborer afin de rationaliser les processus.
 
@@ -140,4 +140,4 @@ Après avoir exécuté l’expérience, suivez les performances de vos traitemen
 
 Découvrez le processus d’export d’un modèle d’e-mail de Journey Optimizer vers GenStudio for Performance Marketing, de création d’e-mails conformes à la marque à l’aide du modèle dans GenStudio et de réimport transparent dans Journey Optimizer.
 
->[!VIDEO](https://video.tv.adobe.com/v/3456051/?quality=12&captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/3456038/?quality=12)

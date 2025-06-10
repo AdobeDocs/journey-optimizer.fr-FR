@@ -7,9 +7,9 @@ role: User
 level: Experienced
 exl-id: 7c45cd8a-8e86-4646-ba0a-db393e92d9da
 source-git-commit: 4839c3c70dcc524da5f3cc394d5573ce5755ea64
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '223'
-ht-degree: 74%
+ht-degree: 100%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 74%
 
 ## Rapports de campagnes basées sur du code {#campaigns}
 
-Une fois les expériences basées sur du code actives, vous pouvez accéder à des rapports dédiés pour surveiller les indicateurs clés de performance (KPI) de prise de décision.
+Une fois les expériences basées sur du code actives, vous pouvez accéder à des rapports dédiés pour suivre les indicateurs clés de performance de prise de décisions (KPI).
 
 <!--Once code-based experiences are live, you can access dedicated reports to monitor Key Performance Indicators (KPIs) as an all-encompassing dashboard, delivering an analysis of essential metrics associated with your campaign.
 
@@ -30,7 +30,7 @@ Vous pouvez également accéder à des détails relatifs aux performances des é
 
 ![](../reports/assets/cja-decisioning-item-performance.png)
 
-Découvrez comment utiliser les rapports d’expérience basés sur du code pour la prise de décision dans [cette section](../reports/campaign-global-report-cja-code.md#decisioning-reporting).
+Découvrez comment utiliser les rapports d’expérience basés sur du code pour la prise de décisions dans [cette section](../reports/campaign-global-report-cja-code.md#decisioning-reporting).
 
 ## Rapports dans Customer Journey Analytics {#cja}
 

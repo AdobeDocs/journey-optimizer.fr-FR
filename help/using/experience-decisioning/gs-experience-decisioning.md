@@ -7,9 +7,9 @@ role: User
 level: Intermediate
 exl-id: 4c57dbf9-b2a4-42da-8aa3-5a1b3a475a32
 source-git-commit: 4839c3c70dcc524da5f3cc394d5573ce5755ea64
-workflow-type: tm+mt
-source-wordcount: '546'
-ht-degree: 78%
+workflow-type: ht
+source-wordcount: '537'
+ht-degree: 100%
 
 ---
 
@@ -30,7 +30,7 @@ Ces éléments de décision sont intégrés de manière transparente à un large
 >
 >Les politiques de décision, dans la prise de décisions, ne peuvent être utilisées que dans des campagnes d’expérience basée sur du code.
 
-➡️ Un cas d’utilisation de bout en bout montrant comment créer des décisions et les utiliser dans des expériences de contenu avec le canal d’expérience basé sur le code est présenté dans [cette section](experience-decisioning-uc.md).
+➡️ Un cas d’utilisation de bout en bout montrant comment créer des décisions et les utiliser dans des expériences de contenu avec le canal d’expérience basé sur du code est présenté dans [cette section](experience-decisioning-uc.md).
 
 ## Étapes clés de la prise de décision {#steps}
 
@@ -56,35 +56,35 @@ Les principales étapes pour utiliser la prise de décision sont les suivantes 
 
    La personne doit alors recevoir un e-mail la redirigeant vers votre instance.
 
-   +++
++++
 
 1. **Configurez des attributs personnalisés** : personnalisez le catalogue d’éléments selon vos besoins spécifiques en configurant des attributs personnalisés dans le schéma du catalogue.
 
-   ➡️ [Découvr comment configurer le catalogue d’éléments](catalogs.md)
+   ➡️ [Découvrez comment configurer le catalogue d’éléments.](catalogs.md)
 
-1. **Créez des éléments de décision** pour l’afficher à l’audience ciblée.
+1. **Créez des éléments de décision** pour les afficher à l’audience ciblée.
 
-   ➡️ [Découvrez comment créer des éléments de prise de décision](items.md) dans l’interface utilisateur (et dans la [documentation de l’API](api-reference/decisions-items/create.md))
+   ➡️ [Découvrez comment créer des éléments de prise de décisions](items.md) dans l’interface d’uttilisattion (et dans la [documentation de l’API](api-reference/decisions-items/create.md)).
 
 1. **Organisez des collections** : utilisez des collections pour classer les éléments de décision en fonction de règles basées sur des attributs. Incorporez des collections dans vos stratégies de sélection afin de déterminer la collection d’éléments de décision à prendre en compte.
 
-   ➡️ [Découvrez comment gérer les collections d’éléments](collections.md) dans l’interface utilisateur (et dans la [documentation de l’API](api-reference/items-collections/create.md))
+   ➡️ [Découvrez comment gérer les collections d’éléments](collections.md) dans l’interface d’utilisation (et dans la [documentation de l’API](api-reference/items-collections/create.md)).
 
 1. **Créez des règles de décision** : les règles de décision sont utilisées dans les éléments de décision et/ou les stratégies de sélection pour déterminer qui a accès à l’affichage d’un élément de décision.
 
-   ➡️ [Découvrir comment créer des règles de décision](rules.md)
+   ➡️ [Découvrez comment créer des règles de décision](rules.md).
 
-1. **Implémenter des méthodes de classement** : créez des méthodes de classement et appliquez-les dans des stratégies de sélection pour déterminer l’ordre de priorité de sélection des éléments de décision.
+1. **Mettez en œuvre des méthodes de classement** : créez des méthodes de classement et appliquez-les dans les stratégies de sélection afin de déterminer l’ordre de priorité de sélection des éléments de décision.
 
-   ➡️ [Découvrir comment créer des méthodes de classement](ranking.md)
+   ➡️ [Découvrez comment créer des méthodes de classement.](ranking.md)
 
 1. **Créez des stratégies de sélection** : créez des stratégies de sélection qui tirent parti des collections, des règles de décision et des méthodes de classement afin d’identifier les éléments de décision pouvant être affichés dans les profils.
 
-   ➡️ [Découvrez comment créer des stratégies de sélection dans l’interface utilisateur](selection-strategies.md) dans l’interface utilisateur (et dans la [documentation de l’API](api-reference/selection-strategies/create.md))
+   ➡️ [Découvrez comment créer des stratégies de sélection](selection-strategies.md) dans l’interface d’utilisation (et dans la documentation de l’[API](api-reference/selection-strategies/create.md)).
 
 1. **Créez une politique de décision et incorporez-la dans votre campagne basée sur du code** : les politiques de décision combinent plusieurs stratégies de sélection pour déterminer les éléments de décision éligibles à afficher pour l’audience prévue.
 
-   ➡️ [Découvrez comment utiliser les politiques de décision](create-decision.md)
-➡️ Pour diffuser avec succès l’offre via le canal d’expérience basé sur du code, suivez les étapes d’implémentation décrites dans [cette section](../code-based/code-based-implementation-samples.md).
+   ➡️ [Découvrez comment utiliser les politiques de décision](create-decision.md)
+➡️ Pour diffuser l’offre par l’intermédiaire du canal d’expérience basé sur du code, suivez les étapes d’implémentation de [cette section](../code-based/code-based-implementation-samples.md).
 
-Un cas d’utilisation complet montrant comment utiliser les décisions dans une expérience basée sur du code est présenté dans [cette section](experience-decisioning-uc.md).
+Pour consulter un cas d’utilisation complet montrant comment utiliser les décisions dans une expérience basée sur du code, accédez à [cette section](experience-decisioning-uc.md).

@@ -7,9 +7,9 @@ role: User
 level: Beginner
 exl-id: e28c038b-49ed-4685-bfe6-514116eb0711
 source-git-commit: 528e1a54dd64503e5de716e63013c4fc41fd98db
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1543'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
@@ -51,7 +51,7 @@ Pour ajouter une activité **Web** pour un parcours, procédez comme suit :
 
    >[!NOTE]
    >
-   >Comme **Web** est une activité d’expérience entrante, elle est fournie avec une activité **Attente** de 3 jours. [En savoir plus](../building-journeys/wait-activity.md#auto-wait-node)
+   >**Web** est une activité d’expérience entrante. Dès lors, elle s’accompagne d’une activité **Attente** de 3 jours. [En savoir plus](../building-journeys/wait-activity.md#auto-wait-node)
 
 1. Saisissez un **[!UICONTROL libellé]** et une **[!UICONTROL description]** pour votre message.
 
@@ -93,7 +93,7 @@ Pour commencer à créer votre expérience web par le biais d’une campagne, su
 
 Pour plus d’informations sur la configuration d’une campagne, consultez cette [page](../campaigns/get-started-with-campaigns.md).
 
-➡️ [Découvrez comment créer une campagne web dans cette vidéo](#video)
+➡️ [Découvrez comment créer une campagne web dans cette vidéo.](#video)
 
 >[!ENDTABS]
 
@@ -157,26 +157,26 @@ Vous trouverez des informations détaillées sur la sélection des profils de te
 
 >[!CONTEXTUALHELP]
 >id="ajo_web_designer_redirect"
->title="Rediriger vers une autre URL"
->abstract="Saisissez une URL existante vers laquelle vous souhaitez rediriger les visiteurs et visiteuses de votre page."
+>title="Rediriger vers une autre URL"
+>abstract="Saisissez une URL existante vers laquelle vous souhaitez rediriger les visiteurs et visiteuses de votre page."
 
-Lors de la création d’une expérience web, vous pouvez rediriger les visiteurs vers une autre URL existante plutôt que de créer une nouvelle variation dans le concepteur web.
+Lors de la création d’une expérience web, vous pouvez rediriger les visiteurs et visiteuses vers une autre URL existante plutôt que de créer une nouvelle variation dans le concepteur web.
 
-Grâce à cette capacité, vous pouvez exécuter une [Expérience de contenu](../content-management/content-experiment.md) en comparant deux expériences différentes au lieu de simplement modifier quelques éléments dans une page.
+Cette capacité vous permet ainsi d’exécuter une [expérience de contenu](../content-management/content-experiment.md)afin de comparer deux expériences différentes au lieu de simplement modifier quelques éléments dans une page.
 
-Par exemple, créez une campagne web avec deux traitements :
+Par exemple, créez une campagne web avec deux traitements :
 
-* Dans **Traitement A**, créez une expérience web à l’aide du concepteur web pour la moitié de votre population ciblée.
+* Dans **Traitement A**, créez une expérience web à l’aide du concepteur web destinée à la moitié de votre population ciblée.
 
-* Dans **Traitement B**, sélectionnez l’option **[!UICONTROL Rediriger vers l’URL]** pour l’autre moitié de la population ciblée. Saisissez l’URL d’une page avec une conception alternative que vous avez créée en dehors de [!DNL Journey Optimizer].
+* Dans **Traitement B**, sélectionnez l’option **[!UICONTROL Rediriger vers l’URL]** pour l’autre moitié de la population ciblée. Saisissez l’URL d’une page dotée d’une autre conception que vous avez créée en dehors de [!DNL Journey Optimizer].
 
   ![](assets/web-campaign-redirect-to-url.png)
 
   >[!NOTE]
   >
-  >L’aperçu du site web ne s’affiche plus et le bouton bascule **[!UICONTROL Éditeur visuel]** est désactivé.
+  >L’aperçu du site web ne s’affiche plus et le bouton (bascule) **[!UICONTROL Éditeur visuel]** est désactivé.
 
-Une fois votre campagne web activée, vous pouvez suivre les performances de l’expérience web que vous avez créée dans [!DNL Journey Optimizer] pour les visiteurs de votre page par rapport à ceux qui ont été redirigés vers la page de destination externe. Découvrez comment utiliser le rapport de campagne d’[expérimentation](../reports/campaign-global-report-cja-experimentation.md)
+Une fois votre campagne web active, vous pouvez suivre les performances de l’expérience web que vous avez créée dans [!DNL Journey Optimizer] pour les visiteurs et visiteuses de votre page par rapport à ceux qui ont été redirigés vers la page de destination externe. Découvrez comment utiliser le [rapport de campagne sur les expérimentations](../reports/campaign-global-report-cja-experimentation.md).
 
 ## Mettre en ligne votre expérience web {#web-experience-live}
 
@@ -266,4 +266,4 @@ Lorsqu’une campagne ou est parcours web est en ligne, vous pouvez l’arrêter
 
 La vidéo ci-dessous montre comment créer une campagne web, configurer ses propriétés, la réviser et la publier.
 
->[!VIDEO](https://video.tv.adobe.com/v/3449983/?quality=12&learn=on&captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/3418800/?quality=12&learn=on)

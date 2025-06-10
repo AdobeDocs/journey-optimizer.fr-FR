@@ -2,7 +2,7 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Gérer la page de destination
-description: Découvrez comment accéder aux pages de destination et les gérer dans Journey Optimizer
+description: Découvrez comment accéder à des pages de destination et les gérer dans Journey Optimizer.
 feature: Landing Pages
 topic: Content Management
 role: User
@@ -10,13 +10,13 @@ level: Beginner
 keywords: destination, page de destination
 exl-id: cc4cfd17-4d85-4dcd-8dd9-23cc2cd898be
 source-git-commit: 27e5d1565522f5daa006a16438671ce9d559465b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '442'
-ht-degree: 46%
+ht-degree: 100%
 
 ---
 
-# Gestion des pages de destination {#manage-lp}
+# Gérer vos pages de destination {#manage-lp}
 
 ## Accéder aux pages de destination {#access-landing-pages}
 
@@ -26,27 +26,27 @@ Pour accéder à la liste des pages de destination, sélectionnez **[!UICONTROL 
 
 Toutes les pages de destination existantes s’affichent.
 
-Le volet de gauche vous permet d’organiser les pages de destination en dossiers. Par défaut, tous les éléments s’affichent. Lors de la sélection d’un dossier, seules les pages de destination et les dossiers inclus dans le dossier sélectionné s’affichent. [En savoir plus](#folders)
+Dans le volet de gauche, vous pouvez organiser les pages de destination en dossiers. Par défaut, tous les éléments s’affichent. Lorsque vous sélectionnez un dossier, seules les pages de destination et les dossiers qu’il contient s’affichent. [En savoir plus](#folders)
 
 ![](assets/lp-access-list-folders.png)
 
-Pour trouver un élément spécifique, commencez à saisir un nom dans le champ de recherche. Lorsqu’un [dossier](#folders) est sélectionné, la recherche s’applique à toutes les pages de destination ou à tous les dossiers du premier niveau de la hiérarchie de ce dossier<!--(not nested items)-->.
+Pour trouver un élément spécifique, commencez à saisir un nom dans le champ de recherche. Lorsque vous sélectionnez un [dossier](#folders), la recherche s’applique à toutes les pages de destination ou dossiers du premier niveau de la hiérarchie de ce dossier<!--(not nested items)-->.
 
-Vous pouvez filtrer les pages de destination en fonction de leur statut, de leur date de modification ou de leurs balises.
+Vous pouvez filtrer les pages de destination selon leur statut, leur date de modification ou leurs balises.
 
 ![](assets/lp_access-list-filter.png)
 
-Dans cette liste, vous pouvez cliquer sur les trois points en regard d’une page de destination et sélectionner l’action souhaitée :
+Pour ce faire, cliquez sur les trois points en regard d’une page de destination et sélectionnez l’action souhaitée :
 
-* Pour les pages de destination [publiées](create-lp.md#publish-landing-page), accédez au [rapport sur les pages de destination](../reports/lp-report-global-cja.md) et au [rapport dynamique sur les dernières 24 heures](../reports/lp-report-live.md).
+* Pour les pages de destination [publiées](create-lp.md#publish-landing-page), accédez au [rapport sur les pages de destination](../reports/lp-report-global-cja.md) et au [rapport dynamique sur les dernières 24 heures](../reports/lp-report-live.md).
 
-* **Supprimer** et **Dépublier** une page de destination. Vous ne pouvez pas supprimer une page de destination [publiée](create-lp.md#publish-landing-page). Pour la supprimer, vous devez d’abord la dépublier.
+* **Supprimez** et **dépubliez** une page de destination. Vous ne pouvez pas supprimer une page de destination [publiée](create-lp.md#publish-landing-page). Pour la supprimer, vous devez d’abord la dépublier.
 
   >[!CAUTION]
   >
   >Si vous dépubliez une page de destination référencée dans un message, le lien vers celle-ci est rompu et les personnes qui tentent d’y accéder verront une page d’erreur.
 
-* **Dupliquer** toute page de destination.
+* **Dupliquez** une page de destination.
 
 * Modifiez les [balises](../start/search-filter-categorize.md#tags) associées à une page de destination.
 
@@ -61,9 +61,9 @@ Dans cette liste, vous pouvez cliquer sur les trois points en regard d’une pag
 >title="Organiser vos pages de destination en dossiers"
 >abstract="Utilisez des dossiers pour classer et gérer vos pages de destination en fonction des besoins de votre organisation."
 
-Pour parcourir facilement vos pages de destination, vous pouvez utiliser des dossiers pour les organiser plus efficacement dans une hiérarchie structurée. Vous pouvez ainsi classer et gérer les éléments en fonction des besoins de votre organisation.
+Pour naviguer facilement dans vos pages de destination, vous pouvez utiliser des dossiers pour mieux les organiser dans une hiérarchie structurée. Vous pouvez ainsi classer et gérer les éléments en fonction des besoins de votre organisation.
 
-1. Cliquez sur le bouton **[!UICONTROL Toutes les pages de destination]** pour afficher tous les éléments créés précédemment sans le regroupement des dossiers.
+1. Cliquez sur le bouton **[!UICONTROL Toutes les pages de destination]** pour afficher tous les éléments créés précédemment sans le regroupement de dossiers.
 
    ![](assets/lp-folders.png)
 
@@ -79,14 +79,14 @@ Pour parcourir facilement vos pages de destination, vous pouvez utiliser des dos
 
    ![](assets/lp-create-folder.png)
 
-1. Saisissez le nom du nouveau dossier, puis cliquez sur **[!UICONTROL Enregistrer]**. Le nouveau dossier s’affiche à l’intérieur du dossier **[!UICONTROL racine]** ou dans le dossier actuellement sélectionné.
+1. Saisissez le nom du nouveau dossier, puis cliquez sur **[!UICONTROL Enregistrer]**. Le nouveau dossier s’affiche dans le dossier **[!UICONTROL racine]** ou le dossier actuellement sélectionné.
 
 1. Vous pouvez cliquer sur le bouton **[!UICONTROL Plus d’actions]** pour renommer ou supprimer le dossier.
 
    ![](assets/lp-folder-more-actions.png)
 
-1. À l’aide du bouton **[!UICONTROL Autres actions]**, vous pouvez également déplacer des pages de destination vers un autre dossier existant.
+1. Le bouton **[!UICONTROL Plus d’actions]** vous permet également de déplacer les pages de destination vers un autre dossier existant.
 
-1. Vous pouvez maintenant accéder au dossier que vous venez de créer. Chaque nouvelle page de destination que vous [créez](create-lp.md#create-landing-page.md) est enregistrée dans le dossier actif.
+1. Vous pouvez maintenant accéder au dossier que vous venez de créer. Chaque nouvelle page de destination que vous [créez](create-lp.md#create-landing-page.md) ici est enregistré dans le dossier actif.
 
    ![](assets/lp-folder-create.png)

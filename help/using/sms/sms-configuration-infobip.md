@@ -8,9 +8,9 @@ role: Admin
 level: Intermediate
 exl-id: 7b6dc89a-1a81-49c2-b2a7-bf24b9d215e3
 source-git-commit: 528e1a54dd64503e5de716e63013c4fc41fd98db
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '528'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -18,13 +18,13 @@ ht-degree: 90%
 
 >[!BEGINSHADEBOX]
 
-Si les mots-clés relatifs à l’opt-in ou à l’opt-out ne sont pas fournis, des messages de consentement standard sont utilisés pour respecter la confidentialité des utilisateurs. L’ajout de mots-clés personnalisés remplace automatiquement les valeurs par défaut.
+Si les mots-clés relatifs à l’opt-in ou à l’opt-out ne sont pas fournis, des messages de consentement standard sont utilisés pour respecter la confidentialité des personnes. L’ajout de mots-clés personnalisés remplace automatiquement les valeurs par défaut.
 
-**Mots-clés par défaut :**
+**Mots-clés par défaut :**
 
-* **Opt-in** : S’ABONNER, OUI, REPRENDRE, DÉMARRER, CONTINUER, REPRENDRE, COMMENCER
-* **Opt-out** : STOP, QUIT, CANCEL, END, UNSUBSCRIBE, NO
-* **Aide** : AIDE
+* **Opt-in** : SUBSCRIBE (s’abonner), YES (oui), UNSTOP (redémarrer), START (démarrer), CONTINUE (continuer), RESUME (reprendre), BEGIN (commencer).
+* **Opt-out** : STOP (arrêter), QUIT (quitter), CANCEL (annuler), END (terminer), UNSUBSCRIBE (se désabonner), NO (non).
+* **Aide** : HELP (aide).
 
 >[!ENDSHADEBOX]
 
@@ -38,7 +38,7 @@ Pour configurer Infobip avec Journey Optimizer, procédez comme suit :
 
    * **[!UICONTROL Nom]** : choisissez un nom pour vos informations d’identification d’API.
 
-   * **[!UICONTROL URL de base de l’API]** et **[!UICONTROL Clé API]** : accédez à la page d’accueil de votre interface web ou à la page de gestion des clés d’API pour trouver vos informations d’identification. En savoir plus dans la [Documentation Infobip](https://www.infobip.com/docs/api){target="_blank"}.
+   * **[!UICONTROL URL de base de l’API]** et **[!UICONTROL Clé API]** : accédez à la page d’accueil de votre interface web ou à la page de gestion des clés d’API pour trouver vos informations d’identification. En savoir plus dans la [Documentation d’Infobip](https://www.infobip.com/docs/api){target="_blank"}.
 
    * **[!UICONTROL Mots-clés d’opt-in]** : saisissez les mots-clés par défaut ou personnalisés qui déclencheront automatiquement votre **[!UICONTROL message d’opt-in]**. Pour plusieurs mots-clés, utilisez des valeurs séparées par des virgules.
 

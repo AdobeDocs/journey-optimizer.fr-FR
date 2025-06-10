@@ -6,9 +6,9 @@ role: User
 level: Beginner
 exl-id: c51e4089-7f51-437d-a5ed-de10bab46cf8
 source-git-commit: bc433a215021b9c5c6a8948468468808e7121712
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '276'
-ht-degree: 73%
+ht-degree: 100%
 
 ---
 
@@ -19,11 +19,11 @@ ht-degree: 73%
 >title="Utiliser des profils de test pour vérifier votre contenu"
 >abstract="Utilisez des profils de test pour prévisualiser et tester votre contenu. Si vous avez ajouté des champs personnalisés, vous pouvez vérifier leur affichage à l’aide des données de profil de test."
 
-Les profils de test sont des destinataires supplémentaires qui ne correspondent pas aux critères de ciblage définis. [Découvrez comment créer des profils de test](../audience/creating-test-profiles.md)
+Les profils de test sont des destinataires supplémentaires, qui ne correspondent pas aux critères de ciblage définis. [Découvrez comment créer des profils de test.](../audience/creating-test-profiles.md)
 
 Avant d’utiliser des profils de test pour tester votre contenu, vous devez d’abord les sélectionner. Pour ce faire, procédez comme suit :
 
-1. Dans l’écran de modification du contenu de votre message ou dans le Designer Email, cliquez sur le bouton **[!UICONTROL Simuler du contenu]** et sélectionnez **[!UICONTROL Simuler du contenu]**.
+1. Dans l’écran Modifier le contenu de votre message ou dans le Concepteur d’e-mail, cliquez sur le bouton **[!UICONTROL Simuler le contenu]** et sélectionnez **[!UICONTROL Simuler le contenu]**.
 
 1. Cliquez sur le bouton **[!UICONTROL Gérer des profils de test]** puis sélectionnez l’espace de noms à utiliser pour identifier les profils de test en cliquant sur l’icône de sélection **[!UICONTROL Espace de noms d’identité]**. [Apprenez-en davantage sur les espaces de noms d’identité Adobe Experience Platform](../audience/get-started-identity.md).
 
@@ -47,4 +47,4 @@ Avant d’utiliser des profils de test pour tester votre contenu, vous devez d�
 
 >[!NOTE]
 >
->En plus des profils de test, [!DNL Journey optimizer] vous permet également de tester différentes variantes de votre contenu en le prévisualisant et en envoyant des BAT à l’aide d’exemples de données d’entrée chargés à partir d’un fichier CSV/JSON ou ajoutés manuellement. [Découvrez comment simuler des variations de contenu](../test-approve/simulate-sample-input.md)
+>En plus des profils de test, [!DNL Journey optimizer] vous permet également de tester différentes variantes de votre contenu en le prévisualisant et en envoyant des BAT à l’aide d’exemples de données d’entrée chargés à partir d’un fichier CSV/JSON ou ajoutés manuellement. [Découvrez comment simuler des variations de contenu.](../test-approve/simulate-sample-input.md)

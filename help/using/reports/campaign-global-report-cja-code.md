@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 exl-id: d35a0e1c-2376-4cc5-88fc-5f8dfcfae666
 source-git-commit: 07704f99aff7d92e8db76755f6617345bac56590
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '873'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -81,7 +81,7 @@ Le tableau **[!UICONTROL Libellés des liens de suivi]** fournit une vue d’ens
 
 +++
 
-## Rapports de prise de décision {#decisioning-reporting}
+## Rapports de prise de décisions {#decisioning-reporting}
 
 ### KPI de prise de décision {#decisioning-kpis}
 
@@ -173,4 +173,4 @@ Le graphique **[!UICONTROL Taux de conversion pour le trafic Exclusion et le tra
 
 >[!CAUTION]
 >
->Lors de l’utilisation d’un modèle d’IA intégré à une [ formule de classement ](../experience-decisioning/exd-ranking-formulas.md#create-ranking-formula), les données ne sont pas reflétées dans le rapport Taux de conversion.
+>Lors de l’utilisation d’un modèle d’IA intégré à une [formule de classement](../experience-decisioning/exd-ranking-formulas.md#create-ranking-formula), les données ne sont pas reflétées dans le rapport sur les taux de conversion.
