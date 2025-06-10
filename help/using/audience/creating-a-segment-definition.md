@@ -136,4 +136,4 @@ Vous pouvez évaluer jusqu’à 20 audiences à la fois. Les audiences non élig
 
 Découvrez comment Journey Optimizer utilise des règles pour générer des audiences et comment utiliser des attributs, des événements et des audiences existantes pour créer une audience.
 
->[!VIDEO](https://video.tv.adobe.com/v/3425020?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3430324?quality=12&captions=fre_fr)
