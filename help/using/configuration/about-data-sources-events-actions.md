@@ -9,21 +9,22 @@ role: Admin
 level: Intermediate
 keywords: configuration, parcours, tableau de bord, sources de données, événements, actions
 exl-id: c144d44f-031f-4ca2-800e-d3878af400a5
-source-git-commit: 65b7b8323e37a0143a3941af1b9c2fb8b595a376
-workflow-type: ht
-source-wordcount: '457'
-ht-degree: 100%
+source-git-commit: 9eda5416ba72fae390fc7eca6d9a3c699cedde50
+workflow-type: tm+mt
+source-wordcount: '523'
+ht-degree: 67%
 
 ---
 
-# Configurer des sources de données, des événements et des actions {#configure-journeys}
+# Prise en main de la configuration de parcours {#configure-journeys}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_configuration_dashboard"
 >title="À propos de la configuration de parcours"
->abstract="Pour envoyer des messages avec des parcours, vous devez configurer les Sources de données, les Événements et les Actions. Les sources de données vous permettent de définir une connexion à un système pour récupérer des informations supplémentaires qui seront utilisées pour vos parcours, par exemple dans vos conditions. Les événements vous permettent de déclencher vos parcours lorsqu&#39;un événement est reçu. Les actions personnalisées vous permettent de vous connecter à un système tiers pour envoyer vos messages. Si vous utilisez les fonctionnalités de message intégré de Journey Optimizer, il n&#39;est pas nécessaire de configurer une action."
+>abstract="Pour envoyer des messages avec des parcours, il est nécessaire de configurer les sources de données, les événements et les actions. Les sources de données vous permettent d’établir une connexion à un système afin de récupérer des informations supplémentaires qui seront utilisées dans vos parcours, par exemple dans des conditions. Les événements permettent le déclenchement de vos parcours lorsqu’un événement est reçu. Les actions personnalisées facilitent la connexion à un système tiers pour envoyer vos messages. Si vous utilisez les fonctionnalités de messagerie intégrées de Journey Optimizer, il n’est pas nécessaire de configurer une action."
 
-Pour envoyer des messages avec des parcours, vous devez configurer des **[!UICONTROL sources de données]**, des **[!UICONTROL événements]** et des **[!UICONTROL actions]**.
+Pour envoyer des messages avec des parcours, il est nécessaire de configurer **[!UICONTROL Sources de données]**, **[!UICONTROL Événements]** et **[!UICONTROL Actions]**. Les sources de données vous permettent d’établir une connexion à un système afin de récupérer des informations supplémentaires qui seront utilisées dans vos parcours, par exemple dans des conditions. Les événements permettent le déclenchement de vos parcours lorsqu’un événement est reçu. Les actions personnalisées facilitent la connexion à un système tiers pour envoyer vos messages. Si vous utilisez les fonctionnalités de messagerie intégrées de Journey Optimizer, il n’est pas nécessaire de configurer une action.
+
 
 ![](assets/admin-menu.png)
 

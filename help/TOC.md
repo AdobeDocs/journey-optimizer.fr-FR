@@ -5,10 +5,10 @@ user-guide-title: Guide de Journey Optimizer
 user-guide-description: Utilisez Journey Optimizer pour créer et proposer aux clients des expériences connectées, contextuelles et personnalisées
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 6109c9176c160c2c0b1eafa06b855ebaf285e3ee
+source-git-commit: 9eda5416ba72fae390fc7eca6d9a3c699cedde50
 workflow-type: tm+mt
 source-wordcount: '2425'
-ht-degree: 96%
+ht-degree: 95%
 
 ---
 
@@ -736,7 +736,7 @@ Définissez les règles de limitation des messages et des parcours  {#capping-ru
    + [Modifier les adresses d’exécution](using/configuration/primary-email-addresses.md)
    + [Configurer des règles métier](using/configuration/frequency-rules.md)
 + Configuration de parcours {#configure-journeys}
-   + [Configurer des sources de données, des événements et des actions](using/configuration/about-data-sources-events-actions.md)
+   + [Prise en main de la configuration de parcours](using/configuration/about-data-sources-events-actions.md)
    + Configuration des événements {#events-journeys}
       + [Utiliser des événements de parcours](using/event/about-events.md)
       + [Configurer un événement unitaire](using/event/about-creating.md)
