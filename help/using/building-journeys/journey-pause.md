@@ -10,17 +10,16 @@ hide: true
 hidefromtoc: true
 badge: label="Disponibilité limitée" type="Informative"
 keywords: publication, parcours, actif, validité, vérifier
-source-git-commit: bb881f0257408ad70f3737c24d1caa28deea96e0
+source-git-commit: 0de7e1befa73cec2758be30caa28c93a2bf45b90
 workflow-type: tm+mt
-source-wordcount: '705'
-ht-degree: 6%
+source-wordcount: '1047'
+ht-degree: 4%
 
 ---
 
 # Mettre en pause un parcours {#journey-pause}
 
-Vous pouvez suspendre vos parcours dynamiques, effectuer toutes les modifications nécessaires et les reprendre à tout moment. <!--You can choose whether the journey is resumed at the end of the pause period, or whether it stops completely. --> Le parcours est automatiquement repris à l’issue de la période de pause. Vous pouvez également [reprendre manuellement](#journey-resume-steps).
-
+Vous pouvez suspendre vos parcours dynamiques, effectuer toutes les modifications nécessaires et les reprendre à tout moment.<!--You can choose whether the journey is resumed at the end of the pause period, or whether it stops completely. --> Pendant la pause, vous pouvez [appliquer des filtres globaux](#journey-global-filters) pour exclure des profils en fonction de leurs attributs. Le parcours est automatiquement repris à l’issue de la période de pause. Vous pouvez également [reprendre manuellement](#journey-resume-steps).
 
 >[!AVAILABILITY]
 >
@@ -54,14 +53,14 @@ Cette fonctionnalité réduit le risque d’envoi de messages inattendus lors d�
 
 ## Mise en pause d’un parcours {#journey-pause-steps}
 
-Vous pouvez suspendre n’importe quel parcours en direct.
+Vous pouvez suspendre n’importe quel parcours **en ligne**.
 
 Pour suspendre le parcours, procédez comme suit :
 
 1. Ouvrez le parcours à mettre en pause.
 1. Cliquez sur le bouton **...Plus** dans la section supérieure droite de la zone de travail du parcours, puis sélectionnez **Pause**.
 
-   ![Bouton Mettre en pause le parcours ](assets/pause-journey-button.png)
+   ![Bouton Mettre en pause le parcours ](assets/pause-journey-button.png){width="80%" align="left"}
 
 1. Sélectionnez le mode de gestion des profils qui se trouvent actuellement dans le parcours.
 
@@ -74,6 +73,11 @@ Pour suspendre le parcours, procédez comme suit :
 
 1. Cliquez sur le bouton **Pause** pour confirmer.
 
+Dans la liste de vos parcours, vous pouvez mettre en pause un ou plusieurs parcours **en ligne**. Pour suspendre un groupe de parcours (_pause en bloc_), sélectionnez-les dans la liste et cliquez sur le bouton **Pause** dans la barre bleue en bas de l’écran. Le bouton **Pause** n’est disponible que lorsque des parcours **en direct** sont sélectionnés.
+
+![Mettre en pause en bloc deux parcours actifs de la barre inférieure](assets/bulk-pause-journeys.png){width="80%" align="left"}
+
+
 ## Reprise d’un parcours en pause {#journey-resume-steps}
 
 Les parcours en pause sont automatiquement repris à l’issue d’une période de pause maximale de 14 jours. Ils peuvent être repris manuellement à tout moment.
@@ -85,6 +89,35 @@ Pour reprendre un parcours en pause et recommencer à écouter les événements 
 
    Le parcours passe à l’état **Reprise**. Le passage du statut **Reprise** au statut **Actif** peut prendre un certain temps : tous les profils doivent être repris pour que le parcours soit à nouveau **Actif**.
 
+1. Cliquez sur le bouton **Reprendre** pour confirmer.
 
 
+Dans la liste de vos parcours, vous pouvez reprendre un ou plusieurs parcours **en pause**. Pour reprendre un groupe de parcours (_reprise en bloc_), sélectionnez-les et cliquez sur le bouton **Reprendre** situé dans la barre bleue en bas de l’écran. Notez que le bouton **Reprendre** n’est disponible que lorsque les parcours **En pause** sont sélectionnés.
 
+
+## Application d’un filtre global aux profils d’un parcours en pause  {#journey-global-filters}
+
+Lorsqu’un parcours est en pause, vous pouvez l’appliquer en fonction des attributs de profil. Ce filtre permet d’exclure les profils qui correspondent à l’expression définie au moment de la reprise. Les profils correspondant aux critères qui se trouvent actuellement dans le parcours le quitteront et les nouveaux profils qui tenteront d’y accéder seront bloqués.
+
+Par exemple, pour exclure tous les clients français des communications marketing vers la France, procédez comme suit :
+
+
+1. Accédez au parcours en pause que vous souhaitez modifier.
+
+1. Cliquez sur l’icône **Critères de sortie et filtre global**.
+
+1. Dans les paramètres Filtre global , définissez un filtre en fonction des attributs de profil.
+
+1. Définissez l’expression pour exclure les profils dont l’attribut de pays est égal à France.
+
+1. Reprenez le parcours.
+
+   Au moment de la reprise, tous les profils dont l’attribut de pays est défini sur France seront automatiquement exclus du parcours. Tous les nouveaux profils dont l’attribut de pays est défini sur France qui tentent d’entrer sur le parcours seront bloqués.
+
+N’oubliez pas que les exclusions de profil pour les profils actuellement dans le parcours et pour les nouveaux profils ne se produiront que lorsqu’ils atteignent un nœud d’action.
+
+>[!CAUTION]
+>
+>* Vous ne pouvez définir qu **un seul** global par parcours.
+>
+>* Vous pouvez uniquement créer, mettre à jour ou supprimer un filtre global dans les parcours **En pause**.
