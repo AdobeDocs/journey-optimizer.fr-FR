@@ -10,10 +10,10 @@ hide: true
 hidefromtoc: true
 badge: label="Disponibilité limitée" type="Informative"
 keywords: publication, parcours, actif, validité, vérifier
-source-git-commit: 0de7e1befa73cec2758be30caa28c93a2bf45b90
+source-git-commit: c9f9ee8734184a734cdf6e5af88fa5a05b49a8de
 workflow-type: tm+mt
-source-wordcount: '1047'
-ht-degree: 4%
+source-wordcount: '1078'
+ht-degree: 3%
 
 ---
 
@@ -68,8 +68,8 @@ Pour suspendre le parcours, procédez comme suit :
 
    Vous pouvez effectuer les actions suivantes :
 
-   * Conserver les profils : les profils attendront que le parcours soit repris
-   * Ignorer les profils : les profils seront exclus du parcours sur le nœud d’action suivant
+   * **En attente** profils - Les profils attendront que le parcours soit repris
+   * **Ignorer** profils - Les profils seront exclus du parcours sur le nœud d’action suivant
 
 1. Cliquez sur le bouton **Pause** pour confirmer.
 
@@ -101,16 +101,21 @@ Lorsqu’un parcours est en pause, vous pouvez l’appliquer en fonction des att
 
 Par exemple, pour exclure tous les clients français des communications marketing vers la France, procédez comme suit :
 
-
 1. Accédez au parcours en pause que vous souhaitez modifier.
 
 1. Cliquez sur l’icône **Critères de sortie et filtre global**.
 
-1. Dans les paramètres Filtre global , définissez un filtre en fonction des attributs de profil.
+   ![Ajouter un filtre global à un parcours en pause](assets/add-global-filter.png){width="50%" align="left"}
+
+1. Dans les paramètres **Critères de sortie et filtre global**, définissez un filtre en fonction des attributs de profil.
 
 1. Définissez l’expression pour exclure les profils dont l’attribut de pays est égal à France.
 
-1. Reprenez le parcours.
+   ![Ajouter un filtre global à un parcours en pause](assets/add-country-filter.png){width="50%" align="left"}
+
+1. Enregistrez votre filtre et cliquez sur le bouton **Mettre à jour le parcours** pour appliquer vos modifications.
+
+1. [Reprendre le parcours ](#journey-resume-steps).
 
    Au moment de la reprise, tous les profils dont l’attribut de pays est défini sur France seront automatiquement exclus du parcours. Tous les nouveaux profils dont l’attribut de pays est défini sur France qui tentent d’entrer sur le parcours seront bloqués.
 

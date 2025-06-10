@@ -11,9 +11,9 @@ hidefromtoc: true
 badge: label="Disponibilité limitée" type="Informative"
 keywords: publication, parcours, actif, validité, vérifier
 exl-id: 58bcc8b8-5828-4ceb-9d34-8add9802b19d
-source-git-commit: bb881f0257408ad70f3737c24d1caa28deea96e0
+source-git-commit: c9f9ee8734184a734cdf6e5af88fa5a05b49a8de
 workflow-type: tm+mt
-source-wordcount: '821'
+source-wordcount: '826'
 ht-degree: 14%
 
 ---
@@ -123,6 +123,6 @@ Vous pouvez également accéder aux **Rapports des dernières 24 heures** et **R
 
 Les parcours d’essai **doivent** doivent être arrêtés manuellement.
 
-Cliquez sur le bouton **Fermer** pour terminer le test et confirmer.
+Cliquez sur le bouton **Fermer** pour terminer le test, puis sur **Retour au brouillon** pour confirmer.
 
 <!-- After 14 days, Dry run journeys automatically transition to the **Draft** status.-->
