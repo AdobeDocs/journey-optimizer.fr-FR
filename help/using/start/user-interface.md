@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
-source-git-commit: 2169ab0e42ab2e8890c87e698e937f0341515b1f
+source-git-commit: c8bf119cac7e5870cfe57ec2fc2a0e534f633f78
 workflow-type: tm+mt
 source-wordcount: '1402'
 ht-degree: 100%
@@ -59,8 +59,6 @@ Créez des campagnes et des parcours à partir de cette section.
 
 * **[!UICONTROL Parcours]** - Créez, configurez et orchestrez vos parcours client : combinez les activités d’événement, d’orchestration et d’action pour créer vos scénarios cross-canal à plusieurs étapes. [En savoir plus](../building-journeys/journey-gs.md#jo-build).
 
-* **[!UICONTROL Pages de destination]** - Créez, concevez, testez et publiez des pages de destination : envoyez à vos utilisateurs et utilisatrices des liens vers des formulaires en ligne où ils ou elles peuvent choisir de recevoir ou non vos communications ou s’abonner à des services spécifiques. [En savoir plus](../landing-pages/get-started-lp.md)
-
 
 ### [!UICONTROL GESTION DES DÉCISIONS] {#left-nav-decision}
 
@@ -78,7 +76,10 @@ Créez et gérez des contenus à partir de cette section.
 
 * **[!UICONTROL Modèles de contenu]** - Pour accélérer et améliorer le processus de conception, vous pouvez créer des modèles autonomes pour réutiliser facilement du contenu personnalisé dans les campagnes et parcours Journey Optimizer. [En savoir plus](../content-management/content-templates.md).
 
-* **[!UICONTROL Fragments]** - Créez et gérez des fragments pour optimiser le processus de conception des e-mails : précréez des blocs de contenu personnalisés qui peuvent être utilisés pour assembler rapidement le contenu des e-mails. [En savoir plus](../content-management/fragments.md)
+* **[!UICONTROL Fragments]** - Créez et gérez des fragments pour optimiser le processus de conception des e-mails : précréez des blocs de contenu personnalisés qui peuvent être utilisés pour assembler rapidement le contenu des e-mails. [En savoir plus](../content-management/fragments.md).
+
+* **[!UICONTROL Pages de destination]** - Créez, concevez, testez et publiez des pages de destination : envoyez à vos utilisateurs et utilisatrices des liens vers des formulaires en ligne où ils ou elles peuvent choisir de recevoir ou non vos communications ou s’abonner à des services spécifiques. [En savoir plus](../landing-pages/get-started-lp.md)
+
 
 ### [!UICONTROL GESTION DES DONNÉES] {#left-nav-data}
 

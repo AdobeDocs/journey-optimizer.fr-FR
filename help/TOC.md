@@ -5,9 +5,9 @@ user-guide-title: Guide de Journey Optimizer
 user-guide-description: Utilisez Journey Optimizer pour créer et proposer aux clients des expériences connectées, contextuelles et personnalisées
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 9eda5416ba72fae390fc7eca6d9a3c699cedde50
+source-git-commit: c8bf119cac7e5870cfe57ec2fc2a0e534f633f78
 workflow-type: tm+mt
-source-wordcount: '2425'
+source-wordcount: '2432'
 ht-degree: 95%
 
 ---
@@ -447,7 +447,8 @@ Définissez les règles de limitation des messages et des parcours  {#capping-ru
       + [Utiliser des attributs calculés](using/audience/computed-attributes.md)
    + [Identités](using/audience/get-started-identity.md)
    + [Utilisation des licences](using/audience/license-usage.md)
-+ Suivre et surveiller {#reporting}
++ Création de rapports et surveillance {#reporting}
+   + [Prise en main des rapports et de la surveillance](using/reports/gs-reports.md)
    + Rapport dynamique {#live-report}
       + [Commencer avec le rapport dynamique](using/reports/live-report.md)
       + [Liste de mesures](using/reports/live-report-components.md)
@@ -485,7 +486,7 @@ Définissez les règles de limitation des messages et des parcours  {#capping-ru
       + [Rapport d’aperçu](using/reports/channel-report-cja.md)
       + [Rapport sur les pages de destination](using/reports/lp-report-global-cja.md)
       + [Rapport sur les listes d’abonnements](using/reports/subscription-report-global-cja.md)
-   + Rapports de parcours {#reports}
+   + Rapports de parcours personnalisés {#reports}
       + [Créer des rapports de parcours](using/reports/sharing-overview.md)
       + [Liste des champs d’événement d’étape](using/reports/sharing-field-list.md)
       + Champs d’événement d’étape hérités {#legacy-step-event-fields}
