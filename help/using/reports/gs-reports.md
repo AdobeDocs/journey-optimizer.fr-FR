@@ -5,14 +5,14 @@ title: Commencez avec les fonctionnalités de reporting et de surveillance d’ 
 description: Découvrez comment utiliser les fonctionnalités  [!DNL Adobe Journey Optimizer]  reporting et de surveillance.
 role: User
 level: Beginner
-source-git-commit: c8bf119cac7e5870cfe57ec2fc2a0e534f633f78
+source-git-commit: 8c391d7437798df4f40baa65003e16a8c56228ab
 workflow-type: tm+mt
-source-wordcount: '391'
-ht-degree: 12%
+source-wordcount: '393'
+ht-degree: 13%
 
 ---
 
-# Prise en main des fonctionnalités de reporting et de surveillance {#get-started-report}
+# Prise en main des fonctionnalités de reporting {#get-started-report}
 
 Adobe Journey Optimizer vous offre des informations exploitables grâce à ses puissantes fonctionnalités de création de rapports. Les rapports sont disponibles pour les campagnes, les parcours, les pages de destination, les listes d’abonnements, etc. Les rapports disponibles sont répertoriés ci-dessous.
 
@@ -102,6 +102,7 @@ Maintenant que vous connaissez les types de rapports disponibles dans **[!DNL Jo
 
 ## Rapports à toute heure par canal
 
+### Canaux sortants
 
 Sélectionnez un canal sortant pour découvrir les rapports globaux associés.
 
@@ -116,6 +117,7 @@ Sélectionnez un canal sortant pour découvrir les rapports globaux associés.
 <div align="center"><a href="campaign-global-report-cja-direct.md"><strong>Courrier</strong></a></div></td>
 </tr></table>
 
+### Expériences entrantes
 
 Sélectionnez une expérience entrante pour découvrir les rapports globaux associés.
 
