@@ -71,7 +71,7 @@ Pour définir la population ciblée par une campagne marketing planifiée, suive
 
    ![](assets/create-campaign-namespace.png)
 
-   Apprenez-en davantage sur les types d&#39;identité et les espaces de noms dans la documentation de Adobe Experience Platform [](https://experienceleague.adobe.com/docs/experience-platform/identity/home.html?lang=fr){target="_blank"}.
+   Apprenez-en davantage sur les types d&#39;identité et les espaces de noms dans la documentation de Adobe Experience Platform [&#128279;](https://experienceleague.adobe.com/docs/experience-platform/identity/home.html?lang=fr){target="_blank"}.
 
    <!--If you are are creating an API-triggered campaign, the **[!UICONTROL cURL request]** section allows you to retrieve the **[!UICONTROL Campaign ID]** to use in the API call. [Learn more](api-triggered-campaigns.md)-->
 
