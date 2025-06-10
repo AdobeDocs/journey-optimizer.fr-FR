@@ -5,10 +5,10 @@ description: Découvrez comment utiliser Adobe Journey Optimizer.
 solution: Journey Optimizer
 product: journey optimizer
 exl-id: 3a1b6c61-82df-421c-98d8-2af4f2a5e0de
-source-git-commit: 528e1a54dd64503e5de716e63013c4fc41fd98db
-workflow-type: ht
-source-wordcount: '334'
-ht-degree: 100%
+source-git-commit: 69952a74e20be756488dc29a411c8eb2fd6b68e1
+workflow-type: tm+mt
+source-wordcount: '389'
+ht-degree: 88%
 
 ---
 
@@ -26,6 +26,12 @@ La version de mai est maintenant disponible. Consultez les notes de mise à jour
 
 [![En savoir plus](using/assets/do-not-localize/learn-more-button.svg)](using/rn/release-notes.md)
 
+>[!TAB Conflit et hiérarchisation]
+
+Journey Optimizer propose désormais plusieurs outils de gestion des conflits et de hiérarchisation. Ces outils sont disponibles pour les parcours de campagnes et unitaires, de qualification d’audience et de lecture d’audience.
+
+[![En savoir plus](using/assets/do-not-localize/learn-more-button.svg)](using/conflict-prioritization/gs-conflict-prioritization.md)
+
 >[!TAB Intégration d’Adobe Express]
 
 Adobe Journey Optimizer s’intègre désormais à Adobe Express, ce qui vous permet de connecter facilement vos ressources de création à l’orchestration de parcours.
@@ -34,15 +40,15 @@ Adobe Journey Optimizer s’intègre désormais à Adobe Express, ce qui vous
 
 >[!TAB Assistant IA]
 
-✨ Assistez à la prévisualisation en direct de notre fonctionnalité [Assistant IA](../help/using/content-management/gs-generative.md), conçue pour vous permettre d’explorer ses capacités et de saisir tous ses avantages.
+Plongez dans une expérience pratique avec notre aperçu en direct des fonctionnalités de [AI Assistant](../help/using/content-management/gs-generative.md), conçu pour vous permettre d&#39;explorer ses fonctionnalités en direct et de comprendre pleinement ses fonctionnalités.
 
 [![En savoir plus](using/assets/do-not-localize/try-it-button.svg)](https://experienceleague.adobe.com/fr/apps/journey-optimizer/ai-assistant-content-accelerator){target="_blank"}
 
->[!TAB Création de rapports avec CJA]
+>[!TAB Intégration de fragments de contenu AEM]
 
-La création de rapports Journey Optimizer est fournie avec une interopérabilité améliorée avec les fonctionnalités de Customer Journey Analytics, ce qui permet de normaliser la création de rapports sur les deux plateformes et d’améliorer la cohérence et la fiabilité des données.
+En intégrant Adobe Experience Manager as a Cloud Service à Adobe Journey Optimizer, vous pouvez désormais incorporer facilement vos fragments de contenu AEM dans le contenu de Journey Optimizer. Cette connexion rationalisée simplifie le processus d’accès au contenu AEM et d’utilisation de celui-ci, ce qui permet de créer des campagnes et des parcours personnalisés et dynamiques.
 
-[![En savoir plus](using/assets/do-not-localize/learn-more-button.svg)](using/reports/report-gs-cja.md)
+[![En savoir plus](using/assets/do-not-localize/learn-more-button.svg)](using/integrations/aem-fragments.md)
 
 
 >[!ENDTABS]
