@@ -23,7 +23,7 @@ Les principaux domaines à surveiller pour détecter un chevauchement potentiel 
 * **Jeu de règles de capping** : quels types de parcours suis-je en train de limiter et se chevauchent-ils ?
 * **Configuration des canaux** : existe-t-il d’autres parcours ou campagnes utilisant une configuration des canaux utilisée dans le même parcours ou la même campagne qui peut empêcher l’affichage du parcours ou de la campagne aux utilisateurs et utilisatrices finaux ?
 
-➡️ [Découvrez cette fonctionnalité en vidéo](#video)
+➡️ [Découvrez cette fonctionnalité en vidéo.](#video)
 
 ## Détection des conflits par Journey Optimizer {#detection}
 

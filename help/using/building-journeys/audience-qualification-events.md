@@ -31,7 +31,7 @@ Supposons que vous ayez une audience « cliente ou cliente Silver ». Avec cet
 
 Il est possible de positionner ce type d’événement dès la première étape, ou plus tard dans le parcours.
 
-➡️ [Découvrez cette fonctionnalité en vidéo](#video)
+➡️ [Découvrez cette fonctionnalité en vidéo.](#video)
 
 ### Mécanismes de sécurisation et recommandations {#important-notes-segment-qualification}
 
@@ -93,7 +93,7 @@ Pour configurer l’activité **[!UICONTROL Qualification d’audience]**, proc�
 
    >[!NOTE]
    >
-   >**[!UICONTROL Entrée]** et **[!UICONTROL Sortie]** correspondent aux statuts de participation d’audience **Réalisé** et **Sorti** de Adobe Experience Platform. Pour plus d’informations sur l’évaluation d’une audience, consultez la [documentation du service de segmentation](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html?lang=fr#interpret-segment-results){target="_blank"}.
+   >**[!UICONTROL Entrée]** et **[!UICONTROL Sortie]** correspondent aux statuts de participation d’audience **Réalisé** et **Sorti** de Adobe Experience Platform. Pour plus d’informations sur l’évaluation d’une audience, consultez la [documentation du service de segmentation](https://experienceleague.adobe.com/fr/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html?lang=fr#interpret-segment-results){target="_blank"}.
 
 1. Sélectionnez un espace de noms. Cela n’est nécessaire que si l’événement est considéré comme la première étape du parcours. Par défaut, le champ est prérempli avec le dernier espace de noms utilisé.
 
@@ -155,4 +155,4 @@ Voici quelques bonnes pratiques pour éviter de surcharger les systèmes utilis�
 
 Découvrez des cas d’utilisation des parcours de qualification d’audience dans cette vidéo. Découvrez comment créer un parcours avec qualification d’audience et les bonnes pratiques à appliquer.
 
->[!VIDEO](https://video.tv.adobe.com/v/3446206?quality=12&captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/3425028?quality=12)

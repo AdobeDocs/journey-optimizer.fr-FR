@@ -9,7 +9,7 @@ exl-id: 63aa1763-2220-4726-a45d-3a3a8b8a55ec
 source-git-commit: d3f15c09194a50b95107fb84d680606a468f8644
 workflow-type: tm+mt
 source-wordcount: '1735'
-ht-degree: 96%
+ht-degree: 98%
 
 ---
 
@@ -232,8 +232,8 @@ Une fois créée, la politique de décision peut être utilisée dans l’[édit
 
    >[!NOTE]
    >
-   >Actuellement, vous ne pouvez pas simuler le contenu de l’interface utilisateur dans une campagne ou un parcours [basée sur le code](../code-based/create-code-based.md) à l’aide de décisions. Une solution de contournement est proposée dans [cette section](../code-based/code-based-decisioning-implementations.md).
+   >Actuellement, vous ne pouvez pas simuler le contenu de l’interface d’utilisation dans une campagne ou un parcours d’[expérience basée sur du code](../code-based/create-code-based.md) à l’aide de décisions. Une solution de contournement est proposée dans [cette section](../code-based/code-based-decisioning-implementations.md).
 
-1. Pour évaluer les performances de vos décisions, vous pouvez créer des tableaux de bord de rapports [Customer Journey Analytics personnalisés](cja-reporting.md).
+1. Pour évaluer les performances de vos décisions, vous pouvez créer des [tableaux de bord de rapports Customer Journey Analytics personnalisés](cja-reporting.md).
 
 

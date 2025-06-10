@@ -12,7 +12,7 @@ exl-id: a9995ca1-d7eb-4f8d-a9d9-fe56198ac325
 source-git-commit: 6da1d9a3edb8a30b8f13fd0cb6a138f22459ad00
 workflow-type: tm+mt
 source-wordcount: '427'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -57,7 +57,7 @@ Pour créer une campagne de préchauffage d’adresses IP, suivez les étapes ci
 
    >[!IMPORTANT]
    >
-   >Les audiences autorisées dans une campagne de préchauffage d’adresses IP doivent être [basées sur des segments](../audience/creating-a-segment-definition.md) et créées à l’aide de la [ politique de fusion par défaut](https://experienceleague.adobe.com/fr/docs/experience-platform/profile/merge-policies/overview#default-merge-policy){target="_blank"}.
+   >Les audiences autorisées dans une campagne de préchauffage des adresses IP doivent être [basées sur des segments](../audience/creating-a-segment-definition.md) et créées à l’aide de la [politique de fusion par défaut](https://experienceleague.adobe.com/fr/docs/experience-platform/profile/merge-policies/overview#default-merge-policy){target="_blank"}.
 
    Pour plus d’informations sur la configuration d’une campagne, consultez cette [page](../campaigns/get-started-with-campaigns.md).
 

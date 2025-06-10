@@ -1,6 +1,6 @@
 ---
 title: Déduplication des éléments de décision dans les implémentations basées sur du code
-description: Cette page montre comment appliquer la déduplication à vos requêtes de prise de décision dans votre implémentation basée sur le code Journey Optimizer.
+description: Cette page montre comment appliquer la déduplication à vos requêtes de décision dans votre implémentation Journey Optimizer basée sur du code.
 feature: Code-based Experiences
 topic: Content Management
 role: Developer
@@ -9,33 +9,33 @@ exl-id: f9477611-b792-4b28-8ec2-6bbea2fa3328
 source-git-commit: 57686b9684f9233c81bd46b67d12ec5f1e3544c5
 workflow-type: tm+mt
 source-wordcount: '378'
-ht-degree: 1%
+ht-degree: 94%
 
 ---
 
-# Prise de décision dans les implémentations d’expérience basées sur du code
+# Prise de décisions dans les implémentations d’expérience basée sur du code
 
-Lors de l’utilisation de Decisioning dans des expériences basées sur du code, pensez à ajouter les indicateurs suivants à votre implémentation client dans les cas décrits ci-dessous.
+Lors de l’utilisation de prises de décisions dans des expériences basées sur du code, pensez à ajouter les indicateurs suivants à votre implémentation client dans les cas décrits ci-dessous.
 
 ## Test d’expériences basées sur du code à l’aide de décisions {#code-based-test-decisions}
 
 <!--Currently you cannot simulate content from the user interface in a [code-based experience](create-code-based.md) campaign or journey using decisions.-->
 
-Lors du test de l’[expérience basée sur le code](create-code-based.md) avec la prise de décision, l’indicateur `dryRun` peut être utilisé pour supprimer les événements de commentaires pour les compteurs de création de rapports et de limitation.
+Lors du test d’une [expérience basée sur du code](create-code-based.md) avec la prise de décisions, l’indicateur `dryRun` peut être utilisé pour supprimer les événements de feedback relatifs aux compteurs de création de rapports et de limitation.
 
-Après avoir publié votre campagne, ajoutez l’indicateur `dryRun` dans le bloc de `data` d’événement XDM de votre implémentation client :
+Après avoir publié votre campagne, ajoutez l’indicateur `dryRun` dans le bloc de `data` d’événement XDM de votre implémentation client :
 
-     »
-    &lbrace;
-    « data »: &lbrace;
-     »__adobe »: &lbrace;
-    « ajo »: &lbrace;
-    « dryRun »: true
-    &rbrace;
-    &rbrace;
-    &rbrace;
-    &rbrace;
-     »
+    ```
+    {
+    &quot;data&quot;: {
+    &quot;__adobe&quot;: {
+    &quot;ajo&quot;: {
+    &quot;dryRun&quot;: true
+    }
+    }
+    }
+    }
+    ```
 
 <!--
 >[!CAUTION]
@@ -46,19 +46,19 @@ Après avoir publié votre campagne, ajoutez l’indicateur `dryRun` dans le blo
 
 Lors de l’utilisation de [politiques de décision](../experience-decisioning/create-decision.md) dans vos expériences basées sur du code, vous pouvez appliquer une déduplication à vos requêtes de prise de décision dans votre implémentation client.
 
-Les requêtes de prise de décision (par l’intermédiaire de Konductor) acceptent l’indicateur de déduplication, qui gère l’unicité des éléments de décision dans une requête unique composée de plusieurs politiques de décision ou emplacements.
+Les requêtes de décision (par l’intermédiaire de Konductor) acceptent l’indicateur de déduplication, qui gère l’unicité des éléments de décision dans une requête unique composée de plusieurs politiques de décision ou emplacements.
 
 ### Logique de déduplication {#deduplication-logic}
 
-Pour toute requête de prise de décision, vous pouvez avoir une ou plusieurs politiques de décision/emplacements basés sur la configuration.
+Pour toute requête de décision, vous pouvez avoir une ou plusieurs politiques de décision/emplacements basés sur la configuration.
 
-* Pour une **politique de décision unique** et un emplacement dans une requête, tous les éléments de la réponse sont uniques (par défaut). Deux éléments de décision ne peuvent pas être identiques dans une seule demande.
+* Dans le contexte d’une politique de décision et d’un emplacement **uniques** dans une requête, tous les éléments de la réponse sont uniques (par défaut). Deux éléments de décision ne peuvent pas être identiques dans une seule requête.
 
-* Pour les **politiques/emplacements de décision multiples** dans une requête :
+* Dans le contexte de **plusieurs** politiques et emplacements de décision dans une requête :
 
-   * Si `allowDuplicateDecisionItems` est défini sur `false` : tous les éléments de la réponse sont uniques (quels que soient le message/la politique de décision/l’emplacement auquel l’élément est destiné).
+   * Si `allowDuplicateDecisionItems` est défini sur `false` : tous les éléments de la réponse sont uniques (quels que soient le message, la politique de décision ou l’emplacement auquel l’élément est destiné).
 
-   * Si `allowDuplicateDecisionItems` est défini sur `true` (par défaut) : les éléments de la réponse peuvent être dupliqués (si plusieurs messages/politiques de décision/emplacements sont qualifiés pour le même élément de décision pour cette requête).
+   * Si `allowDuplicateDecisionItems` est défini sur `true` (par défaut) : les éléments de la réponse peuvent être dupliqués (si plusieurs messages, politiques de décision ou emplacements sont qualifiés pour le même élément de décision dans cette requête).
 
 ### Appliquer la déduplication dans une requête {#deduplication-in-request}
 
@@ -78,7 +78,7 @@ Dans une requête Konductor, vous pouvez transmettre l’indicateur de déduplic
 }
 ```
 
-+++Exemple de requête Decisioning
++++Exemple de requête de décision
 
 ```
 curl --location 'https://edge-int.adobedc.net/ee/v1/interact?configId=2f21d344-b69f-4a4f-98e8-000282fc9552' \
@@ -125,19 +125,19 @@ curl --location 'https://edge-int.adobedc.net/ee/v1/interact?configId=2f21d344-b
 
 Supposons que vous ayez la même politique de décision avec l’emplacement de l’en-tête et du pied de page dans une seule requête.
 
-* Decisioning renvoie deux propositions.
+* La prise de décisions renvoie deux propositions.
 
-* Si `itemId-X` est l’élément de décision unique qui remplit les critères pour la combinaison de politique de décision et d’emplacement :
+* Si `itemId-X` est l’élément de décision unique qui remplit les critères pour la combinaison de politique de décision et d’emplacement :
 
-   * Si `allowDuplicateDecisionItems` est `true` (par défaut) : `itemId-X` est renvoyée pour les deux propositions dans une seule réponse.
+   * Si `allowDuplicateDecisionItems` est `true` (par défaut) : `itemId-X` est renvoyé aux deux propositions dans une seule réponse.
 
-   * Si `allowDuplicateDecisionItems` est `false` :
+   * Si `allowDuplicateDecisionItems` est `false` :
 
-      * `itemId-X` est renvoyée pour la première proposition.
+      * `itemId-X` est renvoyée à la première proposition.
 
-      * L&#39;élément de décision de secours (également unique) ou un élément de décision vide est transmis pour la deuxième proposition.
+      * L’élément de décision de secours (également unique) ou un élément de décision vide est transmis pour la deuxième proposition.
 
-+++Exemple de réponse Decisioning (`allowDuplicateDecisionItems` = `true`)
++++Exemple de réponse de décision (`allowDuplicateDecisionItems` = `true`)
 
 ```
 {
@@ -213,7 +213,7 @@ Supposons que vous ayez la même politique de décision avec l’emplacement de 
 
 +++
 
-+++Exemple de réponse Decisioning (`allowDuplicateDecisionItems` = `false`)
++++Exemple de réponse de décision (`allowDuplicateDecisionItems` = `false`)
 
 ```
 {

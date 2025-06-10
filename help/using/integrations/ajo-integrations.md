@@ -10,7 +10,7 @@ exl-id: 700dc66e-ae2d-418f-b75e-ece15af57ab3
 source-git-commit: 25eba9f5e738f669edbef8725328dba958b555b6
 workflow-type: tm+mt
 source-wordcount: '960'
-ht-degree: 85%
+ht-degree: 100%
 
 ---
 
@@ -27,7 +27,7 @@ Avec Adobe Journey Optimizer, vous pouvez facilement gérer, conserver et export
 
 Customer Journey Analytics vous permet d’effectuer une analyse avancée des données générées par Journey Optimizer.
 
-Journey Optimizer stocke les données dans Adobe Experience Platform. Avec Customer Journey Analytics, vous bénéficiez d’une vue d’ensemble de tous vos parcours, campagnes et offres, avec une distribution de rapports automatisée et des visualisations personnalisées des données.
+Journey Optimizer stocke les données dans Adobe Experience Platform. Customer Journey Analytics vous offre ensuite une vue holistique de tous vos parcours, campagnes et offres, avec distribution automatique de rapports et visualisations personnalisées des données.
 
 Une fois votre parcours créé dans Journey Optimizer, Customer Journey Analytics peut ingérer les données de Platform pour lancer des rapports et saisir l’impact de chaque interaction d’un client avec vos parcours.
 
@@ -41,7 +41,7 @@ En savoir plus sur [Journey Optimizer + Analytics](../event/about-analytics.m
 
 ## Adobe Experience Manager {#integration-aem}
 
-En tant qu’utilisateur Adobe Experience Manager, vous pouvez combiner vos workflows avec Adobe Journey Optimizer. Les cas d’utilisation disponibles sont répertoriés ci-dessous :
+En tant qu’utilisateur ou utilisatrice d’Adobe Experience Manager, vous pouvez combiner vos workflows avec Adobe Journey Optimizer. Les différents cas d’utilisation sont énumérés ci-dessous :
 
 
 >[!BEGINTABS]
@@ -67,9 +67,9 @@ En intégrant Adobe Experience Manager à Adobe Journey Optimizer, vous pouv
 
 [![En savoir plus](../assets/do-not-localize/learn-more-button.svg)](../integrations/aem-fragments.md)
 
->[!TAB Contenu multimédia dynamique]
+>[!TAB Dynamic Media]
 
-Utilisez le sélecteur de ressources Journey Optimizer pour sélectionner et utiliser des rendus Dynamic Media approuvés dans Journey Optimizer. Les modifications apportées aux ressources dans Adobe Experience Manager sont immédiatement répercutées dans votre contenu Journey Optimizer. Ainsi, les versions les plus récentes sont toujours utilisées sans nécessiter de mises à jour manuelles.
+Utilisez le sélecteur de ressources Journey Optimizer pour sélectionner et utiliser des rendus de médias dynamiques approuvés dans Journey Optimizer. Les modifications apportées aux ressources dans Adobe Experience Manager sont immédiatement répercutées dans votre contenu Journey Optimizer. Ainsi, les versions les plus récentes sont toujours utilisées sans nécessiter de mises à jour manuelles.
 
 [![En savoir plus](../assets/do-not-localize/learn-more-button.svg)](../integrations/aem-dynamic.md)
 
@@ -88,22 +88,22 @@ En savoir plus sur [Journey Optimizer + Stock](../integrations/stock.md).
 
 L’intégration d’Adobe Express à Adobe Journey Optimizer vous permet d’accéder facilement aux puissants outils d’édition d’Adobe Express lors de la création de contenu. Cette intégration vous permet de redimensionner des images, de supprimer des arrière-plans, de recadrer des visuels et de convertir des ressources en JPEG ou en PNG sans avoir à basculer entre les solutions.
 
-En savoir plus sur [Journey Optimizer + Adobe Express](../integrations/express.md).
+En savoir plus sur [Journey Optimizer + Assets Express](../integrations/express.md).
 
 ## GenStudio for Performance Marketing
 
-Adobe GenStudio for Performance Marketing est une application IA générative qui permet aux équipes marketing de créer leurs propres annonces publicitaires et emails afin de générer des campagnes marketing personnalisées et percutantes, qui respectent les normes de votre marque et se conforment à vos politiques d’entreprise. En tirant parti de la technologie d’IA d’Adobe, elle offre une suite complète d’outils qui simplifient la création et la gestion de contenu, ce qui permet aux créatifs de se concentrer sur l’innovation.
+Adobe GenStudio for Performance Marketing est une application axée sur l’IA générative qui permet aux équipes marketing de créer leurs propres annonces publicitaires et e-mails afin de mener des campagnes marketing percutantes et personnalisées, tout en respectant les normes de votre marque et les politiques de votre entreprise. La technologie d’IA d’Adobe met à votre disposition une suite complète d’outils qui simplifient la création et la gestion de contenu, ce qui permet aux personnes en charge de la création de se concentrer sur l’innovation.
 
-En savoir plus sur [Journey Optimizer + GenStudio for Performance Marketing](../integrations/genstudio.md).
+En savoir plus sur [Journey Optimizer + GenStudio for Performance Marketing](../integrations/genstudio.md).
 
 
 ## Services intelligents Adobe {#integration-intelligent-service}
 
 Les services intelligents Adobe, intégrés nativement à Real-Time Customer Data Platform, vous permettent de tirer parti de la puissance de l’intelligence artificielle et du machine learning dans les cas d’utilisation de l’expérience client. Les personnes analystes marketing peuvent obtenir des prédictions spécifiques aux besoins d’une entreprise en utilisant des configurations au niveau de l’entreprise sans avoir besoin d’expertise en sciences des données.
 
-L’IA dédiée aux clients permet aux marques de créer des scores d’attrition ou de conversion basés sur le machine learning, qui seront disponibles sous forme d’attributs de profil dans Adobe Experience Platform et prêts à être utilisés pour personnaliser un parcours.
+L’IA dédiée aux clients et clientes permet aux marques de créer des scores d’attrition ou de conversion basés sur le machine learning, qui seront disponibles sous forme d’attributs de profil dans Adobe Experience Platform et prêts à être utilisés pour personnaliser un parcours.
 
-En savoir plus sur [Journey Optimizer + Adobe Intelligent Services](../building-journeys/ai-services-overview.md).
+En savoir plus sur [Journey Optimizer + les services intelligents Adobe](../building-journeys/ai-services-overview.md).
 
 
 ## Adobe Campaign {#integration-ac}
@@ -121,7 +121,7 @@ En savoir plus sur [Journey Optimizer + Campaign Standard](../building-journ
 
 Utilisez les modules Adobe Journey Optimizer dans Adobe Workfront pour créer, lire, mettre à jour ou supprimer des enregistrements, ou effectuez un appel d’API personnalisé vers l’API Adobe Journey Optimizer.
 
-Une vue d’ensemble de l’étape clé de cette intégration est présente [dans cet article de blog](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/accelerating-go-to-market-how-workfront-workfront-fusion-aep-and/ba-p/653685?profile.language=fr&lang=fr){target="_blank"}.
+Une vue d’ensemble de l’étape clé de cette intégration est présente [dans cet article de blog](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/accelerating-go-to-market-how-workfront-workfront-fusion-aep-and/ba-p/653685?lang=fr){target="_blank"}.
 
 En savoir plus sur Journey Optimizer + Adobe Workfront [dans la documentation Adobe Workfront](https://experienceleague.adobe.com/docs/workfront/using/adobe-workfront-fusion/fusion-apps-and-modules/adobe-journey-optimizer-modules.html?lang=fr){target="_blank"}.
 

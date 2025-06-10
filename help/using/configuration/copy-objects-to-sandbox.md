@@ -12,7 +12,7 @@ exl-id: 356d56a5-9a90-4eba-9875-c7ba96967da9
 source-git-commit: 4945e2fb37b54683f56ca3b832553345486d0a80
 workflow-type: tm+mt
 source-wordcount: '1375'
-ht-degree: 85%
+ht-degree: 100%
 
 ---
 
@@ -61,18 +61,18 @@ Journey Optimizer permet d’exporter des parcours, des actions personnalisées
 
 ### Campagnes {#campaigns}
 
-Les campagnes sont copiées avec tous les éléments liés au profil, à l’audience, au schéma, aux messages en ligne et aux objets dépendants. Toutefois, les éléments suivants **ne sont pas** copiés :
+Les campagnes sont copiées avec tous les éléments liés au profil, à l’audience, au schéma, aux messages intégrés et aux objets dépendants. Toutefois, les éléments suivants **ne sont pas** copiés :
 
-* les variantes multilingues et les paramètres de langue ;
-* Règles de gestion,
-* Balises,
-* Étiquettes DULE (Data Usage Labeling and Enforcement).
+* Variantes multilingues et paramètres de langue
+* Règles métier
+* Balises
+* Libellés DULE (application et libellé d’utilisation des données)
 
-Lors de la copie de campagnes, assurez-vous que les objets répertoriés ci-dessous sont validés dans le sandbox cible afin d’éviter toute erreur de configuration :
+Lors de la copie de campagnes, assurez-vous que les objets répertoriés ci-dessous sont validés dans le sandbox cible afin d’éviter toute erreur de configuration :
 
-* **Configurations de canal** : les configurations de canal sont copiées avec les campagnes. Une fois les campagnes copiées, les configurations de canal doivent être sélectionnées manuellement dans le sandbox cible.
-* **Variantes et paramètres d’expérience** : les variantes et paramètres d’expérience sont inclus dans le processus de copie de la campagne. Validez ces paramètres dans le sandbox cible après l’importation.
-* **Prise de décision unifiée** : les politiques de décision et les éléments de décision sont pris en charge pour l’exportation et l’importation. Assurez-vous que les dépendances liées aux décisions sont correctement mappées dans le sandbox cible.
+* **Configurations de canal** : les configurations de canal sont copiées avec les campagnes. Une fois les campagnes copiées, les configurations de canal doivent être sélectionnées manuellement dans le sandbox cible.
+* **Variantes et paramètres d’expérience** : les variantes et paramètres d’expérience sont inclus dans le processus de copie de la campagne. Validez ces paramètres dans le sandbox cible après l’import.
+* **Prise de décisions unifiée** : les politiques de décision et les éléments de décision sont pris en charge pour l’export et l’import. Assurez-vous que les dépendances liées aux décisions sont correctement mappées dans le sandbox cible.
 
 ### Modèles de contenu {#content-templates}
 
@@ -82,17 +82,17 @@ Lors de la copie de campagnes, assurez-vous que les objets répertoriés ci-dess
 
 * Pour éviter toute duplication, il est recommandé d’exporter les modèles de contenu dans un seul package. Cela permet au système de gérer efficacement la déduplication.
 
-### Décision {#decisioning}
+### Prise de décisions {#decisioning}
 
-* Les objets ci-dessous doivent être présents dans le sandbox de destination avant de copier les objets Decisioning :
+* Les objets ci-dessous doivent être présents dans le sandbox de destination avant de copier les objets de prise de décisions :
 
-   * les attributs de profil utilisés dans les objets Decisioning,
-   * Le groupe de champs des attributs d’offre personnalisés,
-   * Les schémas des flux de données utilisés pour les attributs de contexte dans les règles, le classement ou la limitation.
+   * les attributs de profil utilisés dans les objets de prise de décisions,
+   * le groupe de champs des attributs d’offre personnalisés,
+   * les schémas des trains de données utilisés pour les attributs de contexte dans les règles, le classement ou la limitation.
 
 * La copie de sandbox pour les formules de classement avec des modèles d’IA n’est actuellement pas prise en charge.
 
-* Lors de la copie d&#39;entités de prise de décision, veillez à copier les éléments de décision **avant** tout autre objet. Par exemple, si vous copiez une collection en premier et qu’il n’existe aucune offre dans le nouveau sandbox, cette nouvelle collection reste vide.
+* Lors de la copie d’entités de prise de décisions, veillez à copier les éléments de décision **avant** tout autre objet. Par exemple, si vous copiez une collection en premier et qu’il n’existe aucune offre dans le nouveau sandbox, cette nouvelle collection reste vide.
 
 ### Fragments {#fragments}
 
@@ -102,7 +102,7 @@ Lors de la copie de campagnes, assurez-vous que les objets répertoriés ci-dess
 
 ## Ajouter des objets en tant que package{#export}
 
-Pour copier des objets dans un autre sandbox, vous devez d’abord les ajouter en tant que package dans le sandbox source. Procédez de la façon suivante :
+Pour copier des objets dans un autre sandbox, vous devez d’abord les ajouter en tant que package dans le sandbox source. Procédez comme suit :
 
 1. Accédez à l’inventaire où est stocké le premier objet que vous souhaitez copier, comme la liste des parcours. Cliquez sur l’icône **Autres actions** (points de suspension en regard du nom de l’objet) et cliquez sur **Ajouter au package**.
 
@@ -139,7 +139,7 @@ Une fois votre package prêt à être exporté, procédez comme suit pour le pub
 
 ## Importer le package vers le sandbox cible {#import}
 
-Une fois le package publié, vous devez l’importer vers le sandbox cible. Procédez de la façon suivante :
+Une fois le package publié, vous devez l’importer vers le sandbox cible. Procédez comme suit :
 
 1. Accédez au menu **[!UICONTROL Sandbox]** et sélectionnez l’onglet **[!UICONTROL Parcourir]**.
 

@@ -20,7 +20,7 @@ La limitation des parcours permet de limiter le nombre de parcours dans lesquels
 
 Les deux types de limitation de parcours utilisent des scores de priorité pour arbitrer les entrées.
 
-➡️ [Découvrez cette fonctionnalité en vidéo](#video)
+➡️ [Découvrez cette fonctionnalité en vidéo.](#video)
 
 ## Création d’une règle de limitation de parcours {#create-rule}
 
@@ -74,7 +74,7 @@ Pour créer une règle de limitation de parcours, procédez comme suit :
    >
    >Dans cet exemple, si la personne spécialiste marketing a déjà rejoint 4 parcours et qu’il y a un autre parcours planifié à venir ce mois-ci avec une priorité plus élevée, les personnes clientes seront alors supprimées de l’entrée au parcours de priorité plus faible.
 
-   +++
++++
 
    +++ Configuration d’une règle de limitation de la simultanéité des parcours
 
@@ -86,7 +86,7 @@ Pour créer une règle de limitation de parcours, procédez comme suit :
 
    ![](assets/journey-capping-concurrency-example.png){width="50%" zommable="yes"}
 
-   +++
++++
 
 1. Répétez les étapes ci-dessus pour ajouter autant de règles que nécessaire au jeu de règles.
 
@@ -117,4 +117,4 @@ En outre, vous pouvez également utiliser Adobe Experience Platform **Query Serv
 
 ## Vidéo pratique {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/3447615?quality=12&captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/3435530?quality=12)

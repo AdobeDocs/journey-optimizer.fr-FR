@@ -11,7 +11,7 @@ exl-id: bd5e053a-69eb-463b-add3-8b9168c8e280
 source-git-commit: 5fcbde9344e919b817ef8d360d2318a6d9a1513f
 workflow-type: tm+mt
 source-wordcount: '1352'
-ht-degree: 92%
+ht-degree: 93%
 
 ---
 
@@ -36,7 +36,7 @@ Vous pouvez charger un fichier JSON dans un jeu de données existant. Pour plus 
 
 Veuillez noter que la création d&#39;un profil de test est similaire à la création de profils classiques dans Adobe Experience Platform. Pour plus d&#39;informations, consultez la [documentation du profil client en temps réel](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=fr){target="_blank"}.
 
-➡️ [Découvrez comment créer des profils de test dans cette vidéo](#video)
+➡️ [Découvrez comment créer des profils de test dans cette vidéo.](#video)
 
 ## Conditions préalables {#test-profile-prerequisites}
 
@@ -75,7 +75,7 @@ Une fois que vous avez terminé, cliquez sur **[!UICONTROL Ajouter des groupes d
 
 ### Créer un jeu de données
 
-Vous devez ensuite **créer le jeu de données** dans lequel les profils seront importés. Procédez de la façon suivante :
+Vous devez ensuite **créer le jeu de données** dans lequel les profils seront importés. Procédez comme suit :
 
 1. Accédez à **[!UICONTROL Jeux de données]**, puis cliquez sur **[!UICONTROL Créer un jeu de données]**.
    ![](assets/test-profiles-6.png)
@@ -248,4 +248,4 @@ curl -X POST \
 
 Découvrez comment créer des profils de test.
 
->[!VIDEO](https://video.tv.adobe.com/v/3416331?quality=12&captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/334236?quality=12)
