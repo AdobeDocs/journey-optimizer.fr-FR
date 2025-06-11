@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
-source-git-commit: 476aaeb0d9d208eed3729b38c71a572daf0ec941
+source-git-commit: 35ab5ee85ee573da64bf34d9ec007796ee589f59
 workflow-type: tm+mt
-source-wordcount: '1643'
+source-wordcount: '1646'
 ht-degree: 90%
 
 ---
@@ -231,7 +231,7 @@ Vous découvrez [!DNL Journey Optimizer] ? Utilisateur expérimenté avec des q
 
 >[!CONTEXTUALHELP]
 >id="ajo_oc_campaign_ovv_2"
->title=Leverage multi-entity data"
+>title="Exploiter les données multi-entités"
 >abstract="Découvrez comment les campagnes orchestrées peuvent tirer parti des jeux de données relationnelles pour enrichir les données à des fins de segmentation et de personnalisation"
 
 
