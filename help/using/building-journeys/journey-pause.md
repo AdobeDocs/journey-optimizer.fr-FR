@@ -10,7 +10,7 @@ hide: true
 hidefromtoc: true
 badge: label="Disponibilité limitée" type="Informative"
 keywords: publication, parcours, actif, validité, vérifier
-source-git-commit: 2d7067782d6adc7fe5c458a575729d2293af2aaf
+source-git-commit: 25f5f30bd91b281310727069b4543c9815b485c2
 workflow-type: tm+mt
 source-wordcount: '1196'
 ht-degree: 3%
@@ -86,7 +86,7 @@ Dans la liste de vos parcours, vous pouvez mettre en pause un ou plusieurs parco
 ## Reprise d’un parcours en pause {#journey-resume-steps}
 
 >[!CONTEXTUALHELP]
->id="ajo_journey_pause"
+>id="ajo_journey_resume"
 >title="Reprendre le parcours"
 >abstract="Reprenez un parcours en pause pour permettre aux nouveaux profils de rejoindre à nouveau le parcours. Si les profils étaient en attente pendant la pause, ils continueront leur parcours. Idéal pour redémarrer les parcours en toute sécurité après des mises à jour ou des pauses."
 
