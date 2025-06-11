@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
-source-git-commit: 6eb552466cbd25b9ddf0e02bad75c8c750b1f738
+source-git-commit: 284c4896b923eac1d360b61d97cbe560d747ea4f
 workflow-type: tm+mt
-source-wordcount: '1657'
-ht-degree: 89%
+source-wordcount: '1694'
+ht-degree: 87%
 
 ---
 
@@ -226,7 +226,8 @@ Vous découvrez [!DNL Journey Optimizer] ? Utilisateur expérimenté avec des q
 
 <!--ORCHESTRATED CAMPAIGNS - Overview page-->
 
-<!--ORCHESTRATED CAMPAIGNS SKU only-->
+
+<!--OVERVIEW TAB ORCHESTRATED CAMPAIGNS SKU only-->
 
 
 >[!CONTEXTUALHELP]
@@ -255,7 +256,7 @@ Vous découvrez [!DNL Journey Optimizer] ? Utilisateur expérimenté avec des q
 >title="Canaux disponibles"
 >abstract="E-mail, SMS, notifications push, publipostage direct"
 
-<!--ORCHESTRATED CAMPAIGNS + JOURNEYS SKU -->
+<!--OVERVIEW TAB ORCHESTRATED CAMPAIGNS + JOURNEYS SKU -->
 
 
 >[!CONTEXTUALHELP]
@@ -268,6 +269,30 @@ Vous découvrez [!DNL Journey Optimizer] ? Utilisateur expérimenté avec des q
 >id="ajo_oc_jo_camppaign_ovv_2"
 >title="Canaux disponibles"
 >abstract="E-mail, SMS, notifications push, expériences in-app, web, basées sur du code"
+
+
+<!--OVERVIEW TAB ORCHESTRATED CAMPAIGNS - API triggered tab -->
+
+
+>[!CONTEXTUALHELP]
+>id="ajo_oc_api_camppaign_ovv_1"
+>title="Campagnes déclenchées par l’API transactionnelle"
+>abstract="Déclencher des messages en temps réel par le biais d’appels API"
+
+>[!CONTEXTUALHELP]
+>id="ajo_oc_api_camppaign_ovv_2"
+>title="Messages marketing"
+>abstract="Contenu promotionnel (nécessite un accord préalable, soumis aux règles de l’entreprise)"
+
+>[!CONTEXTUALHELP]
+>id="ajo_oc_api_camppaign_ovv_3"
+>title="Messages transactionnels"
+>abstract="Contenu lié au service (confirmation, alertes, non soumis à consentement marketing)"
+
+>[!CONTEXTUALHELP]
+>id="ajo_oc_api_camppaign_ovv_4"
+>title="Canaux disponibles"
+>abstract="E-mail, SMS, notifications push"
 
 <!--APPROVAL POLICIES-->
 

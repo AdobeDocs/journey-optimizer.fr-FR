@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: qualification, événements, audience, parcours, platform
 exl-id: 7e70b8a9-7fac-4450-ad9c-597fe0496df9
-source-git-commit: 84beb9ba9646cb1b40bcfd8a180fc98963a8ff0b
+source-git-commit: 284c4896b923eac1d360b61d97cbe560d747ea4f
 workflow-type: tm+mt
-source-wordcount: '1191'
-ht-degree: 52%
+source-wordcount: '1190'
+ht-degree: 50%
 
 ---
 
@@ -54,7 +54,7 @@ Suivez les mécanismes de sécurisation et les recommandations ci-dessous pour c
   >En raison de la nature par lot des audiences créées à l’aide des workflows de composition et des chargements personnalisés, ces audiences ne peuvent pas être ciblées dans une activité « Qualification d’audience ». Seules les audiences créées à l’aide de définitions de segment peuvent être utilisées dans cette activité.
 
 
-* Vous ne pouvez pas utiliser les groupes de champs d’événement d’expérience dans les parcours qui commencent par une activité **Lecture d’audience**, **Qualification d’audience** ou **Événement métier**.
+* Les groupes de champs d’événement d’expérience ne peuvent pas être utilisés dans les parcours commençant par une activité **Lecture d’audience**, **Qualification d’audience** ou **Événement métier**.
 
 * Lorsque vous utilisez une activité de **qualification d’audience** dans un parcours, cette activité peut prendre jusqu’à 10 minutes avant d’être active et d’écouter les profils entrant ou sortant de l’audience.
 
@@ -155,4 +155,4 @@ Voici quelques bonnes pratiques pour éviter de surcharger les systèmes utilis�
 
 Découvrez des cas d’utilisation des parcours de qualification d’audience dans cette vidéo. Découvrez comment créer un parcours avec qualification d’audience et les bonnes pratiques à appliquer.
 
->[!VIDEO](https://video.tv.adobe.com/v/3446206?quality=12&captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/3425028?quality=12)
