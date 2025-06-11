@@ -9,10 +9,10 @@ role: User
 level: Beginner, Intermediate
 keywords: liens, tracking, surveillance, e-mail
 exl-id: 689e630a-00ca-4893-8bf5-6d1ec60c52e7
-source-git-commit: 87d60ddafb8b3793ef774528a96f60501bb5a1b5
-workflow-type: ht
+source-git-commit: 4fa50df6827e07e6f6f3c5730d1ae2a1af0d426d
+workflow-type: tm+mt
 source-wordcount: '1200'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -173,7 +173,7 @@ La création de rapports sur les ouvertures et les clics est disponible dans le 
 
 Le [tracking des URL](email-settings.md#url-tracking) est géré au niveau de la configuration et s’applique à toutes les URL incluses dans le contenu de votre message.
 
-Vous pouvez également [personnaliser des URL individuelles](../personalization/personalization-syntax.md#perso-urls) dans le Concepteur d’e-mail. Pour ajouter des paramètres de tracking d’URL personnalisés à vos liens, procédez comme suit.
+Vous pouvez également [personnaliser des URL individuelles](../personalization/personalization-syntax.md#perso-urls) dans le Designer Email. Pour ajouter des paramètres de tracking d’URL personnalisés à vos liens, procédez comme suit.
 
 1. Sélectionnez un lien et cliquez sur **[!UICONTROL Insérer un lien]** dans la barre d’outils contextuelle.
 

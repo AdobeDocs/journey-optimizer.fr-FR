@@ -5,9 +5,9 @@ user-guide-title: Guide de Journey Optimizer
 user-guide-description: Utilisez Journey Optimizer pour créer et proposer aux clients des expériences connectées, contextuelles et personnalisées
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 435b4a7eee9428c7f0efeb62c72b39c0e2aaabba
+source-git-commit: 4fa50df6827e07e6f6f3c5730d1ae2a1af0d426d
 workflow-type: tm+mt
-source-wordcount: '2430'
+source-wordcount: '2433'
 ht-degree: 95%
 
 ---
@@ -253,6 +253,7 @@ Définissez les règles de limitation des messages et des parcours  {#capping-ru
             + [Insérer des offres personnalisées](using/email/add-offers-email.md)
             + [Génération de la version texte](using/email/text-version-email.md)
             + [Ajouter des métadonnées](using/email/email-metadata.md)
+            + [Ajouter un CSS personnalisé](using/email/custom-css.md)
          + Modifier le style {#edit-style}
             + [Prise en main du style des e-mails](using/email/get-started-email-style.md)
             + [Modifier les paramètres d’arrière-plan](using/email/backgrounds.md)

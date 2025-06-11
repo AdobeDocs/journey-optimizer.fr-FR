@@ -10,10 +10,10 @@ role: User
 level: Beginner
 keywords: ressources, intégration
 exl-id: c74156bb-4f00-4325-b416-6fe36cb755d1
-source-git-commit: b9ec22318baf888ba5d1ed3b1b7c64b658785cc1
-workflow-type: ht
+source-git-commit: 4fa50df6827e07e6f6f3c5730d1ae2a1af0d426d
+workflow-type: tm+mt
 source-wordcount: '540'
-ht-degree: 100%
+ht-degree: 96%
 
 ---
 
@@ -35,7 +35,7 @@ L’intégration d’Adobe Express à Adobe Journey Optimizer vous permet d�
 
 Pour en savoir plus sur Adobe Express, reportez-vous à [cette documentation](https://helpx.adobe.com/fr/express/user-guide.html).
 
-Pour accéder au menu **[!DNL Adobe Express]**, accédez à vos **Paramètres d’image** à partir du Concepteur d’e-mail et cliquez sur **[!UICONTROL Modifier dans Adobe Express]**.
+Pour accéder au menu **[!DNL Adobe Express]**, accédez à votre **Paramètres d’image** dans le Designer Email, puis cliquez sur **[!UICONTROL Modifier dans Adobe Express]**.
 
 ![](assets/express_1.png)
 
@@ -149,7 +149,7 @@ Votre image est maintenant prête à être utilisée dans votre contenu.
 
 Découvrez comment modifier vos ressources dans Adobe Journey Optimizer à l’aide des outils d’Adobe Express.
 
->[!VIDEO](https://video.tv.adobe.com/v/3455525/?quality=12&captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/3455523/?quality=12)
 
 
 

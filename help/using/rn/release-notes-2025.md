@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: aa8c74de-748b-4947-a972-14703f6ab4a7
-source-git-commit: 6da1d9a3edb8a30b8f13fd0cb6a138f22459ad00
-workflow-type: ht
+source-git-commit: 4fa50df6827e07e6f6f3c5730d1ae2a1af0d426d
+workflow-type: tm+mt
 source-wordcount: '2031'
-ht-degree: 100%
+ht-degree: 96%
 
 ---
 
@@ -212,7 +212,7 @@ Les nouvelles fonctionnalités de cette version sont présentées ci-dessous.
 <tbody>
 <tr>
 <td>
-<p>Le score d’alignement de la marque fournit des commentaires clairs directement dans le Concepteur d’e-mail, ce qui vous permet de voir si votre contenu correspond au ton, au style et aux règles de votre marque. Cette fonctionnalité est actuellement en version Beta.</p>
+<p>La fonction Score d’alignement de la marque offre des commentaires clairs directement dans le Designer d’e-mail, ce qui vous permet de voir si votre contenu correspond au ton, au style et aux directives de votre marque. Cette fonctionnalité est actuellement en version Beta.</p>
 <p>Pour plus d’informations, consultez la <a href="../content-management/brands-score.md">documentation détaillée</a>.</p>
 <img src="assets/do-not-localize/brand-score.gif">
 </td>
@@ -270,7 +270,7 @@ De nouvelles API sont disponibles pour prévisualiser les campagnes, en plus des
 
 * **Tracking personnalisé des URL** - Date de disponibilité : 30 avril 2025
 
-  Pour plus de flexibilité et de contrôle sur les paramètres d’e-mail, vous pouvez désormais personnaliser tous les paramètres de tracking des URL en une seule fois au niveau de la configuration du canal e-mail, au lieu de le faire dans le Concepteur d’e-mail pour chaque lien de votre contenu. [En savoir plus](../email/surface-personalization.md#personalize-url-tracking)
+  Pour plus de flexibilité et de contrôle sur vos paramètres d’e-mail, vous pouvez désormais personnaliser tous vos paramètres de tracking d’URL en une seule fois au niveau de la configuration du canal e-mail, au lieu de le faire dans le Designer e-mail pour chaque lien de votre contenu. [En savoir plus](../email/surface-personalization.md#personalize-url-tracking)
 
 * **Concepteur d’e-mail** - Date de disponibilité : 1er avril 2025
 

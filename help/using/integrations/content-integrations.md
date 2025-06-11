@@ -9,10 +9,10 @@ role: User
 level: Beginner
 keywords: ressources, intégration
 exl-id: 3e72df85-ba80-4cec-848b-7441cb3e7fef
-source-git-commit: d82e564833b15440bdf9b02bc646e3e46768dad8
-workflow-type: ht
+source-git-commit: 4fa50df6827e07e6f6f3c5730d1ae2a1af0d426d
+workflow-type: tm+mt
 source-wordcount: '693'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
@@ -40,7 +40,7 @@ En savoir plus sur [Journey Optimizer + Adobe Experience Manager Assets](../i
 <!--
 ### Templates
 
-With Adobe Journey Optimizer, you can create custom-tailored messages through Adobe Experience Manager sites. Start by designing your templates using Adobe Experience Manager's content sources, then send them to Adobe Journey Optimizer. Once shared, these templates can be accessed in Adobe Journey Optimizer's email designer, simplifying the process of crafting and sending messages to your desired audience.
+With Adobe Journey Optimizer, you can create custom-tailored messages through Adobe Experience Manager sites. Start by designing your templates using Adobe Experience Manager's content sources, then send them to Adobe Journey Optimizer. Once shared, these templates can be accessed in Adobe Journey Optimizer's Email Designer, simplifying the process of crafting and sending messages to your desired audience.
 
 Learn more about [Journey Optimizer + Adobe Experience Manager templates](../integrations/aem-templates.md).-->
 
@@ -71,7 +71,7 @@ En savoir plus sur [Journey Optimizer + Stock](../integrations/stock.md).
 
 L’intégration d’Adobe Express à Adobe Journey Optimizer vous permet d’accéder facilement aux puissants outils d’édition d’Adobe Express lors de la création de contenu. Cette intégration vous permet de redimensionner des images, de supprimer des arrière-plans, de recadrer des visuels et de convertir des ressources en JPEG ou en PNG sans avoir à basculer entre les solutions.
 
-Pour accéder au menu **[!DNL Adobe Express]**, accédez à vos **Paramètres d’image** à partir du Concepteur d’e-mail et cliquez sur **[!UICONTROL Modifier dans Adobe Express]**.
+Pour accéder au menu **[!DNL Adobe Express]**, accédez à votre **Paramètres d’image** dans le Designer Email, puis cliquez sur **[!UICONTROL Modifier dans Adobe Express]**.
 
 Notez qu’avec une licence Enterprise, les utilisateurs et les utilisatrices bénéficient d’un accès complet à l’éditeur Adobe Express, ce qui leur permet de modifier les images en ajustant la couleur, la luminosité, la netteté, le contraste, les dimensions et des paramètres supplémentaires.
 

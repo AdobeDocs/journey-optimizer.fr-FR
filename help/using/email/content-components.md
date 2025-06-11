@@ -1,18 +1,18 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Utiliser les composants de contenu du concepteur d’e-mail
+title: Utiliser les composants de contenu Designer d’e-mail
 description: Découvrez comment utiliser les composants de contenu dans vos e-mails
 feature: Email Design
 topic: Content Management
 role: User
 level: Beginner, Intermediate
-keywords: composants, concepteur d’e-mail, éditeur, e-mail
+keywords: composants, e-mail Designer, éditeur, e-mail
 exl-id: a4aaa814-3fd4-439e-8f34-faf97208378a
-source-git-commit: 1af75a0e6bfc2c3b9c565c3190f46d137a68d32e
-workflow-type: ht
+source-git-commit: 4fa50df6827e07e6f6f3c5730d1ae2a1af0d426d
+workflow-type: tm+mt
 source-wordcount: '1401'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -169,7 +169,7 @@ Utilisez le composant **[!UICONTROL Image]** pour insérer un fichier image de v
 
 1. Dans l’onglet **[!UICONTROL Paramètres]**, cliquez sur **[!UICONTROL Parcourir]** pour choisir un fichier image parmi vos ressources ou sur **[!UICONTROL Importer un média]** pour charger une ressource vers Adobe Experience Manager Assets.
 
-   Pour en savoir plus sur [!DNL Adobe Experience Manager Assets], consultez la [documentation d’Adobe Experience Manager Assets](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/introduction.html?lang=fr){target="_blank"}.
+   Pour en savoir plus sur [!DNL Adobe Experience Manager Assets], consultez la [documentation Adobe Experience Manager Assets](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/introduction.html?lang=fr){target="_blank"}.
 
    >[!NOTE]
    >
