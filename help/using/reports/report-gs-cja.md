@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: bfd88d2a-e7b8-4e3b-85a1-4a14b0ba56dc
-source-git-commit: a9349cedc4da2a8e76e53f9e2b5185270cda2558
+source-git-commit: 15a73ba3f2d91a38d61e6518d704fc218ad0eea3
 workflow-type: tm+mt
-source-wordcount: '519'
-ht-degree: 66%
+source-wordcount: '408'
+ht-degree: 68%
 
 ---
 
@@ -60,42 +60,8 @@ L’accès à ces fonctionnalités de création de rapports dépend du contexte 
 * Vos vues de données Customer Journey Analytics doivent être configurées avec le paramètre suivant : **Définir comme vue de données par défaut dans Adobe Journey Optimizer**. [En savoir plus sur les vues de données](https://experienceleague.adobe.com/fr/docs/analytics-platform/using/cja-dataviews/create-dataview){target="_blank"}
 
 
-## Rapports à toute heure par canal
-
-Des rapports globaux à tout moment sont disponibles pour tous vos canaux. Sélectionnez le rapport pour le canal dont vous avez besoin pour obtenir plus de détails.
-
-### Canaux sortants
-
-Sélectionnez un canal sortant pour découvrir les **rapports globaux en tout temps** associés.
-
-<table style="table-layout:fixed"><tr style="border: 0;">
-<td><img alt="E-mail" src="../channels/assets/do-not-localize/email.png">
-<div align="center"><p><strong>Canal e-mail</strong></p><p><a href="campaign-global-report-cja-email.md"><strong>Rapport de campagne</strong></a></p><p><a href="journey-global-report-cja-email.md"><strong>Rapport de parcours</strong></a></p></div></td>
-<td><a href="campaign-global-report-cja-sms.md"><img alt="SMS" src="../channels/assets/do-not-localize/sms.png"></a>
-<div align="center"><p><strong>Canal SMS</strong></p><p><a href="campaign-global-report-cja-sms.md"><strong>Rapport de campagne</strong></a></p><p><a href="journey-global-report-cja-sms.md"><strong>Rapport de parcours</strong></a></p></div></td>
-<td><a href="campaign-global-report-cja-push.md"><img alt="Notification push" src="../channels/assets/do-not-localize/push.png"></a>
-<div align="center"><p><strong>Canal de notification push</strong></p><p><a href="campaign-global-report-cja-push.md"><strong>Rapport de campagne</strong></a></p><p><a href="journey-global-report-cja-push.md"><strong>Rapport de parcours</strong></a></p></div></td>
-<td><a href="campaign-global-report-cja-direct.md"><img alt="Courrier" src="../channels/assets/do-not-localize/direct-mail.jpg"></a>
-<div align="center"><p><strong>Canal courrier</strong></p><p><a href="campaign-global-report-cja-direct.md"><strong>Rapport de campagne</strong></a></p><p><a href="journey-global-report-cja-direct.md"><strong>Rapport de parcours</strong></a></p></div></td>
-</tr></table>
-
-### Expériences entrantes
-
-Sélectionnez une expérience entrante pour découvrir les **rapports globaux à tout moment** associés.
-
-<table style="table-layout:fixed"><tr style="border: 0;">
-<td><img alt="In-app" src="../channels/assets/do-not-localize/inapp.jpg">
-<div align="center"><p><strong>Canal in-app</strong></p><p><a href="campaign-global-report-cja-inapp.md"><strong>Rapport de campagne</strong></a></p><p><a href="journey-global-report-cja-inapp.md"><strong>Rapport de parcours</strong></a></p></div></td>
-<td><p><img alt="Web" src="../channels/assets/do-not-localize/web.jpg"></p>
-<div align="center"><p><strong>Canal web</strong></p><p><a href="campaign-global-report-cja-web.md"><strong>Rapport de campagne</strong></a></p><p><a href="journey-global-report-cja-web.md"><strong>Rapport de parcours</strong></a></p></div></td>
-<td><img alt="Expérience basée sur du code" src="../channels/assets/do-not-localize/code.png">
-<div align="center"><p><strong>Expériences basées sur du code</strong></p><p><a href="campaign-global-report-cja-code.md"><strong>Rapport de campagne</strong></a></p><p><a href="campaign-global-report-cja-code.md"><strong>Rapport de parcours</strong></a></p></div></td>
-<td><img alt="Cartes de contenu" src="../channels/assets/do-not-localize/cards.png">
-<div align="center"><p><strong>Cartes de contenu</strong></p><p><a href="campaign-global-report-cja-content.md"><strong>Rapport de campagne</strong></a></p><p><a href="journey-global-report-cja-content.md"><strong>Rapport de parcours</strong></a></p></div></td>
-</tr></table>
-
 ## Vidéo pratique{#video}
 
 La vidéo ci-dessous montre comment utiliser le reporting Journey Optimizer amélioré avec Customer Journey Analytics.
 
->[!VIDEO](https://video.tv.adobe.com/v/3443153?captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/3430413)
