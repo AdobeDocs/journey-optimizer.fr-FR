@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
-source-git-commit: 35ab5ee85ee573da64bf34d9ec007796ee589f59
+source-git-commit: 6eb552466cbd25b9ddf0e02bad75c8c750b1f738
 workflow-type: tm+mt
-source-wordcount: '1646'
-ht-degree: 90%
+source-wordcount: '1657'
+ht-degree: 89%
 
 ---
 
@@ -149,12 +149,16 @@ La page d’accueil d’[!DNL Adobe Journey Optimizer] propose des cas d’utili
 
 ![](assets/use-cases-home.png)
 
++++ **Cas pratiques disponibles**
+
 Les cas d&#39;utilisation disponibles sont les suivants :
 
 * **Créer des profils de test** : pour créer des profils de test à l&#39;aide de notre modèle CSV afin de tester des messages et des parcours personnalisés. Découvrez comment mettre en œuvre ce cas d’utilisation [sur cette page](../audience/creating-test-profiles.md#use-case-1).
 * **Envoyer un message d&#39;anniversaire aux clients** : pour envoyer automatiquement un e-mail afin de souhaiter un bon anniversaire à vos clients. (bientôt disponible)
 * **Envoyer des e-mails pour souhaiter la bienvenue aux nouveaux clients** : pour envoyer facilement jusqu&#39;à deux e-mails afin d&#39;accueillir vos nouveaux clients enregistrés. (bientôt disponible)
 * **Envoyer des messages push à la liste importée de clients** : pour envoyer rapidement une notification push à une liste de clients importés à partir d&#39;un fichier CSV. (bientôt disponible)
+
++++
 
 Pour en savoir plus sur un cas d’utilisation, cliquez sur le lien **[!UICONTROL Afficher les détails]**.
 
@@ -199,14 +203,17 @@ L’interface utilisateur est disponible dans les langues suivantes :
 
 Votre langue d&#39;interface par défaut est déterminée par la langue préférée spécifiée dans votre profil utilisateur.
 
-Pour modifier la langue :
++++ **Comment changer de langue**
 
-* Cliquez sur **Préférences** depuis votre avatar, en haut à droite.
-  ![](assets/preferences.png)
-* Cliquez ensuite sur la langue affichée sous votre adresse e-mail.
-* Sélectionnez la langue de votre choix et cliquez sur **Enregistrer**. Vous pouvez sélectionner une seconde langue au cas où le composant que vous utilisez ne serait pas localisé dans votre langue maternelle.
-  ![](assets/select-language.png)
+Pour changer de langue, procédez comme suit :
 
+1. Cliquez sur **Préférences** depuis votre avatar, en haut à droite.
+   ![](assets/preferences.png)
+1. Cliquez ensuite sur la langue affichée sous votre adresse e-mail.
+1. Sélectionnez la langue de votre choix et cliquez sur **Enregistrer**. Vous pouvez sélectionner une seconde langue au cas où le composant que vous utilisez ne serait pas localisé dans votre langue maternelle.
+   ![](assets/select-language.png)
+
++++
 
 ## En savoir plus {#more}
 
