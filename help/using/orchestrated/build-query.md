@@ -5,28 +5,15 @@ title: Créer votre première règle
 description: Découvrez comment créer des règles pour vos campagnes orchestrées
 badge: label="Alpha"
 hide: true
-hidefromtoc: true
 exl-id: 5e956a6a-0b89-4d78-8f16-fe9fceb25674
-source-git-commit: dd1a9b6e14617014756e5b4449578a1f7bf805b4
+source-git-commit: 38d4cc896414fce2e8453940fb4674ce7e60fd2b
 workflow-type: tm+mt
-source-wordcount: '1801'
-ht-degree: 52%
+source-wordcount: '1719'
+ht-degree: 54%
 
 ---
 
 # Créer votre première règle {#build-query}
-
-+++ Table des matières
-
-| Bienvenue dans les campagnes orchestrées | Lancement de votre première campagne orchestrée | Interrogation de la base de données | Activités de campagnes orchestrées |
-|---|---|---|---|
-| [Prise en main des campagnes orchestrées](gs-orchestrated-campaigns.md)<br/><br/>[Étapes de configuration](configuration-steps.md)<br/><br/>[Accédez aux campagnes orchestrées et gérez-les](access-manage-orchestrated-campaigns.md) | [Étapes clés de création de campagne orchestrée](gs-campaign-creation.md)<br/><br/>[Créez et planifiez la campagne](create-orchestrated-campaign.md)<br/><br/>[Orchestrez les activités](orchestrate-activities.md)<br/><br/>[Envoyez des messages avec des campagnes orchestrées](send-messages.md)<br/><br/>[Lancez et surveillez la campagne](start-monitor-campaigns.md)<br/><br/>[Reporting](reporting-campaigns.md) | [Utiliser le créateur de règles](orchestrated-rule-builder.md)<br/><br/><b>[Créer votre première requête](build-query.md)</b><br/><br/>[Modifier des expressions](edit-expressions.md) | [Prise en main des activités](activities/about-activities.md)<br/><br/>Activités:<br/>[Et-joindre](activities/and-join.md) - [Créer une audience](activities/build-audience.md) - [Modifier la dimension](activities/change-dimension.md) - [Combiner](activities/combine.md) - [Deduplication](activities/deduplication.md) - [Enrichissement](activities/enrichment.md) - [Fork](activities/fork.md) - [Reconciliation](activities/reconciliation.md) - [Split](activities/split.md) - [Wait](activities/wait.md) |
-
-{style="table-layout:fixed"}
-
-+++
-
-<br/>
 
 Les étapes principales pour créer des règles pour vos campagnes orchestrées sont les suivantes :
 
@@ -105,7 +92,7 @@ Pour ajouter des conditions à votre requête, procédez comme suit :
    | Comme | Quasiment identique à l’opérateur « Contient ». Il permet d’insérer un caractère générique « % » dans la valeur. | Nom (@lastName) comme « Jon%s ». Le caractère générique agit comme un « joker » pour trouver des noms tels que « Jones ». |
    | Pas comme | Quasiment identique à l’opérateur « Contient ». Il permet d’insérer un caractère générique « % » dans la valeur. | Nom (@lastName) pas comme « Smi%h ». Les personnes destinataires dont le nom est « Smith » ne seront pas renvoyées. |
 
-   +++
++++
 
 1. Dans le champ **Valeur**, définissez la valeur attendue. Vous pouvez également utiliser l’éditeur d’expression pour définir manuellement une expression à l’aide de champs de la base de données et de fonctions d’assistance. Pour ce faire, cliquez sur l’icône ![image illustrant l’icône de l’éditeur d’expression](assets/do-not-localize/rule-builder-icon-editor.svg). [Découvrez comment modifier des expressions](../orchestrated/edit-expressions.md)
 
@@ -115,7 +102,7 @@ Pour ajouter des conditions à votre requête, procédez comme suit :
 
    ![image illustrant l’option paramètre prédéfini](assets/rule-builder-attribute-preset.png)
 
-   +++
++++
 
 ### Conditions personnalisées sur les tables liées (liens 1-1 et 1-N){#links}
 
