@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: reprises, rebond, temporaire, optimizer, erreur
 exl-id: 05564a99-da50-4837-8dfb-bb1d3e0f1097
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
-workflow-type: ht
-source-wordcount: '578'
-ht-degree: 100%
+source-git-commit: e422a62f49864c89bdaaab2d4b7622dc90163a71
+workflow-type: tm+mt
+source-wordcount: '572'
+ht-degree: 84%
 
 ---
 
@@ -34,11 +34,11 @@ Si une diffusion réussit après une reprise, le compteur d’erreurs de l’adr
 
 Par exemple :
 
-* Vous envoyez un e-mail le lundi avec une période de reprise définie sur 24 heures. La diffusion à l’adresse emma.jones@mail.com échoue. L’envoi de l’e-mail est retenté jusqu’à trois fois, puis les tentatives cessent lorsque la période de reprise de 24 heures est écoulée.
+* Vous envoyez un e-mail le lundi avec une période de reprise définie sur 24 heures. L&#39;adresse `emma.jones@mail.com` ne peut pas être remise. L’envoi de l’e-mail est retenté jusqu’à trois fois, puis les tentatives cessent lorsque la période de reprise de 24 heures est écoulée.
 
-* Vous envoyez un autre e-mail le mercredi. L’adresse emma.jones@mail.com, qui compte déjà trois erreurs, est également ciblée et l’envoi échoue une nouvelle fois. Deux autres erreurs sont comptabilisées.
+* Vous envoyez un autre e-mail le mercredi. L’`emma.jones@mail.com`, qui a déjà fait l’objet d’un comptage de trois erreurs, est également ciblée et ne peut à nouveau être diffusée, deux fois. Deux autres erreurs sont comptabilisées.
 
-À condition qu’aucune autre diffusion n’ait été tentée ni réussie entre ces deux e-mails, l’adresse emma.jones@mail.com est ajoutée à la liste de suppression du fait de l’impact cumulé de 3+2 erreurs.
+Si aucune autre diffusion n’a été tentée et a réussi entre ces deux e-mails, l’adresse `emma.jones@mail.com` est ajoutée à la liste de suppression, compte tenu de l’impact cumulé des erreurs 3 + 2.
 
 ## Modification du seuil de reprise {#edit-retry-threshold}
 
@@ -72,7 +72,7 @@ La **période de reprise** est la période pendant laquelle tout message électr
 
 Par défaut, les reprises seront effectuées pendant **3,5 jours** (ou **84 heures**) à partir du moment où le message a été ajouté à la file d’attente des e-mails.
 
-Cependant, pour vous assurer que les tentatives de reprise ne soient plus effectuées lorsque cela n’est plus nécessaire, vous pouvez modifier ce paramètre en fonction de vos besoins lors de la création ou de la modification d’une [configuration de canal](channel-surfaces.md) (c’est-à-dire un paramètre prédéfini de message) s’appliquant au canal e-mail.
+Cependant, pour vous assurer que les tentatives de reprise ne sont plus effectuées lorsque cela n’est plus nécessaire, vous pouvez modifier ce paramètre en fonction de vos besoins lors de la création ou de la modification d’une [configuration du canal](channel-surfaces.md) qui s’applique au canal e-mail.
 
 Par exemple, vous pouvez définir la période de reprise sur 24 heures pour un e-mail transactionnel relatif à la réinitialisation du mot de passe et contenant un lien valide seulement pendant une journée. De même, pour une vente à minuit, vous pouvez définir une période de reprise de 6 heures.
 
