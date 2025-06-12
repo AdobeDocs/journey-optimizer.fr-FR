@@ -1,13 +1,13 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Commencez avec les fonctionnalités de reporting et de surveillance d’ [!DNL Adobe Journey Optimizer]
-description: Découvrez comment utiliser les fonctionnalités  [!DNL Adobe Journey Optimizer]  reporting et de surveillance.
+title: Prise en main des fonctionnalités de reporting dans  [!DNL Adobe Journey Optimizer]
+description: 'Découvrez comment accéder aux rapports et les utiliser [!DNL Adobe Journey Optimizer] '
 role: User
 level: Beginner
-source-git-commit: 15a73ba3f2d91a38d61e6518d704fc218ad0eea3
+source-git-commit: da2fb137a8af82a8487638dc3d762377dd5dc506
 workflow-type: tm+mt
-source-wordcount: '435'
+source-wordcount: '432'
 ht-degree: 15%
 
 ---

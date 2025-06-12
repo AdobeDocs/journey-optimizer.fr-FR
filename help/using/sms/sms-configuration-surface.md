@@ -7,10 +7,10 @@ feature: SMS, Channel Configuration
 role: Admin
 level: Intermediate
 exl-id: 0d541520-016e-468f-b011-808712847556
-source-git-commit: 7ca149d420f802a6230e699cffefddc4117cb85e
-workflow-type: ht
-source-wordcount: '421'
-ht-degree: 100%
+source-git-commit: da2fb137a8af82a8487638dc3d762377dd5dc506
+workflow-type: tm+mt
+source-wordcount: '422'
+ht-degree: 94%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 100%
 >abstract="Sélectionnez le type de messages SMS utilisant cette configuration : Marketing pour les messages promotionnels, qui nécessitent le consentement de l’utilisateur ou de l’utilisatrice, ou Transactionnel pour les messages non commerciaux, tels que la réinitialisation du mot de passe."
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/privacy/consent/opt-out.html?lang=fr#sms-opt-out-management" text="Se désinscrire dans les messages texte de marketing"
 
-Une fois votre canal SMS/MMS configuré, vous devez créer une configuration de canal afin de pouvoir envoyer des SMS et des MMS à partir de **[!DNL Journey Optimizer]**.
+Une fois votre canal SMS/MMS configuré, vous devez créer une configuration de canal afin de pouvoir envoyer des SMS et/ou des MMS depuis **[!DNL Journey Optimizer]**.
 
 Pour créer une configuration des canaux, procédez comme suit :
 
