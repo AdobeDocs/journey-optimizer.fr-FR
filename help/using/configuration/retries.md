@@ -9,9 +9,9 @@ role: Admin
 level: Experienced
 keywords: reprises, rebond, temporaire, optimizer, erreur
 exl-id: 05564a99-da50-4837-8dfb-bb1d3e0f1097
-source-git-commit: e422a62f49864c89bdaaab2d4b7622dc90163a71
+source-git-commit: 0db7f514a2604ad09fbd9863a51d3c86d69eac41
 workflow-type: tm+mt
-source-wordcount: '572'
+source-wordcount: '567'
 ht-degree: 84%
 
 ---
@@ -46,7 +46,8 @@ Si aucune autre diffusion n’a été tentée et a réussi entre ces deux e-mail
 >id="ajo_admin_suppression_list_bounces"
 >title="Mettre à jour le seuil de reprise"
 >abstract="Si la valeur par défaut ne correspond pas à vos besoins, vous pouvez modifier le nombre autorisé de rebonds temporaires consécutifs. Lorsque le compteur de reprises atteint le seuil d’erreur pour une adresse e-mail spécifique, cette adresse est ajoutée à la liste de suppression."
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/reporting/deliverability/suppression-list.html?lang=fr" text="Comprendre la liste de suppression"
+<!--
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/reporting/deliverability/suppression-list.html" text="Understand the suppresion list"-->
 
 Si la valeur par défaut de 5 ne correspond pas à vos besoins, vous pouvez modifier le seuil d’erreur en procédant comme suit.
 
