@@ -10,10 +10,10 @@ hide: true
 hidefromtoc: true
 badge: label="Disponibilité limitée" type="Informative"
 keywords: publication, parcours, actif, validité, vérifier
-source-git-commit: 25f5f30bd91b281310727069b4543c9815b485c2
+source-git-commit: 8dae895f33d8e95424bc96c8050b8f52d7c02b50
 workflow-type: tm+mt
-source-wordcount: '1196'
-ht-degree: 3%
+source-wordcount: '1199'
+ht-degree: 2%
 
 ---
 
@@ -28,7 +28,7 @@ Vous pouvez suspendre vos parcours dynamiques, effectuer toutes les modification
 
 >[!AVAILABILITY]
 >
->Cette fonctionnalité est disponible uniquement pour un nombre limité d’organisations (disponibilité limitée). Pour en bénéficier, contactez votre représentant ou représentante Adobe.
+>Cette fonctionnalité n’est disponible que pour un ensemble d’organisations (disponibilité limitée) et sera déployée à l’échelle mondiale dans une prochaine version.
 
 
 ## Avantages clés {#journey-dry-run-benefits}

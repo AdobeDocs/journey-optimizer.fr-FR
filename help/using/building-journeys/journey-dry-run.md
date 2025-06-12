@@ -11,10 +11,10 @@ hidefromtoc: true
 badge: label="Disponibilité limitée" type="Informative"
 keywords: publication, parcours, actif, validité, vérifier
 exl-id: 58bcc8b8-5828-4ceb-9d34-8add9802b19d
-source-git-commit: 2d7067782d6adc7fe5c458a575729d2293af2aaf
+source-git-commit: 8dae895f33d8e95424bc96c8050b8f52d7c02b50
 workflow-type: tm+mt
-source-wordcount: '914'
-ht-degree: 12%
+source-wordcount: '917'
+ht-degree: 10%
 
 ---
 
@@ -36,7 +36,7 @@ L’essai de parcours est un mode de publication de parcours spécial dans Adobe
 
 >[!AVAILABILITY]
 >
->Cette fonctionnalité est disponible uniquement pour un nombre limité d’organisations (disponibilité limitée). Pour en bénéficier, contactez votre représentant ou représentante Adobe.
+>Cette fonctionnalité n’est disponible que pour un ensemble d’organisations (disponibilité limitée) et sera déployée à l’échelle mondiale dans une prochaine version.
 
 
 ## Avantages clés {#journey-dry-run-benefits}
