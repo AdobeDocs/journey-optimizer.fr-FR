@@ -5,7 +5,7 @@ user-guide-title: Guide de Journey Optimizer
 user-guide-description: Utilisez Journey Optimizer pour créer et proposer aux clients des expériences connectées, contextuelles et personnalisées
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: da2fb137a8af82a8487638dc3d762377dd5dc506
+source-git-commit: 7e9d707d6413509aef207a6183f6c9953ccdf229
 workflow-type: tm+mt
 source-wordcount: '2434'
 ht-degree: 95%
@@ -269,9 +269,9 @@ Définissez les règles de limitation des messages et des parcours  {#capping-ru
          + [Tracking d’URL](using/email/url-tracking.md)
          + [Personnaliser la configuration du canal e-mail](using/email/surface-personalization.md)
       + Délivrabilité des emails {#deliverability}
-      + [Commencer avec la délivrabilité](using/reports/deliverability.md)
-      + [Présentation de la liste de suppression](using/reports/suppression-list.md)
-      + [Nouvelle exigence DMARC](using/configuration/dmarc-record-update.md)
+         + [Commencer avec la délivrabilité](using/reports/deliverability.md)
+         + [Présentation de la liste de suppression](using/reports/suppression-list.md)
+         + [Nouvelle exigence DMARC](using/configuration/dmarc-record-update.md)
    + Canal in-app{#in-app}
       + [Commencer avec le canal in-app](using/in-app/get-started-in-app.md)
       + [Conditions préalables pour le canal in-app](using/in-app/inapp-configuration.md)
@@ -468,6 +468,7 @@ Définissez les règles de limitation des messages et des parcours  {#capping-ru
       + [Configurer manuellement Customer Journey Analytics](using/reports/cja-ajo.md)
       + [Gérer vos rapports](using/reports/report-cja-manage.md)
       + [Conditions préalables à la création de rapports et à l’expérimentation](using/reports/reporting-configuration.md)
+      + [Causes d’exclusion](using/reports/exclusion-list.md)
       + Rapports de campagne{#reporting}
          + [Rapport de campagne](using/reports/campaign-global-report-cja.md)
          + [Rapport de campagne basée sur le code](using/reports/campaign-global-report-cja-code.md)
@@ -492,7 +493,6 @@ Définissez les règles de limitation des messages et des parcours  {#capping-ru
       + [Rapport d’aperçu](using/reports/channel-report-cja.md)
       + [Rapport sur les pages de destination](using/reports/lp-report-global-cja.md)
       + [Rapport sur les listes d’abonnements](using/reports/subscription-report-global-cja.md)
-      + [Causes d’exclusion](using/reports/exclusion-list.md)
    + Rapports de parcours personnalisés {#reports}
       + [Créer des rapports de parcours](using/reports/sharing-overview.md)
       + [Liste des champs d’événement d’étape](using/reports/sharing-field-list.md)
