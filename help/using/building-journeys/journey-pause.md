@@ -41,7 +41,7 @@ Cette fonctionnalité réduit le risque d’envoi de messages inattendus lors d�
 >
 >* Les autorisations de pause et de reprise des parcours sont limitées aux utilisateurs disposant de l’autorisation de haut niveau **[!DNL Publish journeys]**. Pour en savoir plus sur la gestion des droits d’accès des utilisateurs et des utilisatrices [!DNL Journey Optimizer], consultez [cette section](../administration/permissions-overview.md).
 >
->* Avant de commencer à utiliser la fonctionnalité de pause/reprise, [lisez les mécanismes de sécurisation et limites](journey-pause-guardrails).
+>* Avant de commencer à utiliser la fonctionnalité de pause/reprise, [lisez les mécanismes de sécurisation et limites] (journey-pause-guardrails).
 
 
 ## Mise en pause d’un parcours {#journey-pause-steps}
