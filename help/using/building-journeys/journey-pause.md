@@ -10,9 +10,9 @@ hide: true
 hidefromtoc: true
 badge: label="Disponibilité limitée" type="Informative"
 keywords: publication, parcours, actif, validité, vérifier
-source-git-commit: 0c872f6bcc370c9f1557eca1b185fcb8fb0509f9
+source-git-commit: 3cc5abdbec27ac9a8009b3b0d125a3b49dc9ed04
 workflow-type: tm+mt
-source-wordcount: '2000'
+source-wordcount: '2004'
 ht-degree: 1%
 
 ---
@@ -68,7 +68,7 @@ Pour suspendre le parcours, procédez comme suit :
 
 Dans la liste de vos parcours, vous pouvez mettre en pause un ou plusieurs parcours **en ligne**. Pour suspendre un groupe de parcours (_pause en bloc_), sélectionnez-les dans la liste et cliquez sur le bouton **Pause** dans la barre bleue en bas de l’écran. Le bouton **Pause** n’est disponible que lorsque des parcours **en direct** sont sélectionnés.
 
-![Mettre en pause en bloc deux parcours actifs de la barre inférieure](assets/bulk-pause-journeys.png){width="80%" align="left"}
+![Mettre en pause en bloc deux parcours actifs de la barre inférieure](assets/bulk-pause-journeys.png)
 
 ### Comportement dans les parcours en pause
 
@@ -76,21 +76,20 @@ Lorsqu’un parcours est en pause, les nouvelles entrées sont toujours ignorée
 
 La gestion des profils lorsqu&#39;un parcours est en pause dépend de l&#39;activité. Les comportements sont détaillés ci-dessous. Pour une compréhension complète, consultez également cet [exemple de bout en bout](#journey-pause-sample).
 
-| Activité parcours | Gestion des profils | Notes |
-|-------------------------|--------------------------------------------------|------------------------|
-| [Qualification de l’audience](audience-qualification-events.md) | Dans le 1er nœud : ignoré <br> dans les autres nœuds : même comportement que dans un parcours en direct, cependant, si la qualification de l’audience se fait après une activité d’action et que l’utilisateur ou l’utilisatrice est mis en pause sur cette action, la qualification de l’audience est ignorée. |          |
-| [ Événement métier ](general-events.md) | Ignoré |    |
-| [Événement unitaire](general-events.md) | Dans le 1er nœud : ignoré <br>Dans les autres nœuds : même comportement que dans un parcours en direct, cependant, si l’événement se produit après une activité d’action et que l’utilisateur ou l’utilisatrice est mis en pause sur cette action, l’événement est ignoré. | Concevoir Votre Message |
-| [Lecture d’audience](read-audience.md) | Même comportement que dans un parcours en direct, avec quelques spécificités : <br> si l’option Pause a été activée après le démarrage de l’activité Lecture d’audience, les profils entrés dans le parcours continueront (jusqu’à l’activité d’action suivante). Comme le parcours lit les audiences à une certaine vitesse, si l’audience complète n’est pas encore entrée, les profils restants dans la file d’attente seront ignorés. | - Pour les exécutions uniques : nous n’affichons aucune erreur à l’heure de reprise si la date planifiée était antérieure à la date de reprise. Cet échéancier serait ignoré. <br>- Pour les parcours incrémentiels : <br> Si une pause se produit avant la première occurrence, une fois reprise, l’audience complète est lue. <br>Si la pause se produit, par exemple, le 4e jour d’une périodicité quotidienne et que le parcours reste en pause jusqu’au 9e jour, alors, lors de la reprise, tous les profils qui sont entrés du 4e au 9e jour seront inclus |
+| Activité parcours | Gestion des profils |
+|-------------------------|--------------------------------------------------|
+| [Qualification de l’audience](audience-qualification-events.md) | Dans le 1er nœud : ignoré <br> dans les autres nœuds : même comportement que dans un parcours en direct, cependant, si la qualification de l’audience se fait après une activité d’action et que l’utilisateur ou l’utilisatrice est mis en pause sur cette action, la qualification de l’audience est ignorée. |
+| [Événement unitaire](general-events.md) | Dans le 1er nœud : ignoré <br>Dans les autres nœuds : même comportement que dans un parcours en direct, cependant, si l’événement se produit après une activité d’action et que l’utilisateur ou l’utilisatrice est mis en pause sur cette action, l’événement est ignoré. |
+| [Lecture d’audience](read-audience.md) | Même comportement que dans un parcours en direct, avec quelques spécificités :<br>1.  Si l’action <strong>Pause</strong> a été activée après le démarrage de l’activité <strong>Lecture d’audience</strong>, les profils entrés dans le parcours continueront (jusqu’à l’activité <strong>Action</strong> suivante). Comme le parcours lit les audiences à une certaine vitesse, si l’audience complète n’est pas encore entrée, les profils restants dans la file d’attente seront ignorés.   <br>2. Pour les exécutions uniques : nous n’affichons aucune erreur à l’heure de reprise si la date planifiée était antérieure à la date de reprise. Cet échéancier serait ignoré. <br>3. Pour les parcours incrémentiels : <br>- Si une pause se produit avant la première occurrence, l’audience complète est lue lors de la reprise. <br>- Si une pause se produit, par exemple, le 4e jour d’une périodicité quotidienne et que le parcours reste en pause jusqu’au 9e jour, tous les profils entrés du 4e au 9e jour seront inclus lors de la reprise |
 | [Réaction](reaction-events.md) | Même comportement que dans un parcours en direct, cependant, si la réaction se produit après une activité d’action et que l’utilisateur est en pause sur cette action, l’événement sera ignoré. |
-| [Attente](wait-activity.md) | Même comportement que dans un parcours dynamique |           |
-| [Condition](condition-activity.md) | Même comportement que dans un parcours dynamique |         |
-| Décision de contenu | Les profils sont garés ou ignorés en fonction de ce que l’utilisateur a choisi lorsque le parcours a été suspendu |            |
-| [Action de canal](journeys-message.md) | Les profils sont garés ou ignorés en fonction de ce que l’utilisateur a choisi lorsque le parcours a été suspendu |          |
-| [Action personnalisée](../action/action.md) | Les profils sont garés ou ignorés en fonction de ce que l’utilisateur a choisi lorsque le parcours a été suspendu |            |
-| [Mettre à jour le profil](update-profiles.md) et [Saut](jump.md) |  |       |
-| [Source de données externes](../datasource/external-data-sources.md) | Même comportement que dans un parcours dynamique |           |
-| [Critères de sortie](journey-properties.md#exit-criteria) | Même comportement que dans un parcours dynamique |           |
+| [Attente](wait-activity.md) | Même comportement que dans un parcours dynamique |
+| [Condition](condition-activity.md) | Même comportement que dans un parcours dynamique |
+| Décision de contenu | Les profils sont garés ou ignorés en fonction de ce que l’utilisateur a choisi lorsque le parcours a été suspendu |
+| [Action de canal](journeys-message.md) | Les profils sont garés ou ignorés en fonction de ce que l’utilisateur a choisi lorsque le parcours a été suspendu |
+| [Action personnalisée](../action/action.md) | Les profils sont garés ou ignorés en fonction de ce que l’utilisateur a choisi lorsque le parcours a été suspendu |
+| [Mettre à jour le profil](update-profiles.md) et [Saut](jump.md) | Même comportement que dans un parcours dynamique |
+| [Source de données externes](../datasource/external-data-sources.md) | Même comportement que dans un parcours dynamique |
+| [Critères de sortie](journey-properties.md#exit-criteria) | Même comportement que dans un parcours dynamique |
 
 ## Reprise d’un parcours en pause {#journey-resume-steps}
 
