@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Notes de mise à jour d’Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 0abf2743f7b43b54df5305f47e3bd20d37df6f39
+source-git-commit: 9845e8ca89943b7c2bb7d236cac5e30aa2b01e23
 workflow-type: tm+mt
-source-wordcount: '1470'
-ht-degree: 86%
+source-wordcount: '2129'
+ht-degree: 62%
 
 ---
 
@@ -22,7 +22,125 @@ ht-degree: 86%
 
 [!DNL Adobe Journey Optimizer] offre en permanence de nouvelles fonctionnalités, des améliorations des fonctionnalités existantes et des correctifs. Toutes les modifications sont consolidées la dernière semaine de chaque mois dans ces notes de mise à jour. [!DNL Adobe Journey Optimizer] est créée de manière native sur [!DNL Adobe Experience Platform] et hérite de ses dernières innovations et améliorations. En savoir plus sur ces modifications dans les [Notes de mise à jour d’Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=fr){target="_blank"}.
 
-## Mises à jour du 25 juin {#25-6-rn}
+
+
+## Notes de mise à jour anticipées du 25 juin {#25-6-rn}
+
+
+**Les notes de mise à jour anticipée ci-dessous peuvent être modifiées sans avertissement préalable jusqu’à la date de disponibilité de la version**. Les liens, les copies d’écran et la documentation mise à jour sont publiés à la date de publication.
+
+**Date de publication** : 17-18 juin 2025
+
+
+### Nouvelles fonctionnalités {#25-06-features}
+
+Les nouvelles fonctionnalités de cette version sont présentées ci-dessous.
+
+
+<table>
+<thead>
+<tr>
+<th><strong>Messagerie RCS</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Les services de messagerie RCS (Rich Communication Services) sont désormais pris en charge dans Journey Optimizer, ce qui permet d’utiliser les fonctionnalités de messagerie améliorées suivantes, sous réserve de la prise en charge par le fournisseur et l’opérateur :</p>
+<ul>
+<li>Prise en charge des expéditeurs marqués et vérifiés : envoyez des messages à l’aide de profils métier vérifiés avec des éléments de branding (logo, nom de l’expéditeur, etc.).</li>
+<li>Informations sur la diffusion des messages : recevez des rapports de diffusion détaillés comprenant les mises à jour de l’état des messages (par exemple, envoyé, diffusé, lu).</li>
+<li>Suivi des liens : incorporez et suivez les URL dans les messages RCS pour l’analyse de l’engagement.</li>
+<li>Secours aux SMS : secours automatique aux SMS lorsque l’appareil du profil ne prend pas en charge RCS ou est temporairement inatteignable via RCS.</li>
+<li>Composition de base du message : envoyez des messages RCS textuels avec des médias facultatifs et des éléments riches, en fonction de la prise en charge du fournisseur.</li>
+</ul>
+<!--p>For more information, refer to the <a href="../sms/sms-configuration.md">detailed documentation</a>.</p-->
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Champs de formulaire dans le contenu d’expérience basé sur le code</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Vous pouvez désormais définir des champs modifiables spécifiques dans les modèles de contenu JSON ou HTML qui permettent aux utilisateurs non techniques de modifier facilement le contenu d’une vue de formulaire dans la création de canal d’expérience basée sur le code, sans avoir à manipuler le code. En outre, lors de la définition des modèles de contenu d’expérience basés sur du code, vous pouvez désormais insérer des politiques de décision dans le modèle, ce qui accroît la réutilisation et la facilité d’utilisation.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Méthode de délégation personnalisée pour les sous-domaines</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Outre la délégation complète et la méthode CNAME, une nouvelle méthode de configuration de sous-domaine est désormais disponible : la méthode de délégation personnalisée, qui vous permet de posséder entièrement le contrôle et la maintenance de tous les aspects du DNS nécessaires à la diffusion, au rendu et au suivi des messages.</p>
+<p>Publiée précédemment en disponibilité limitée, cette fonctionnalité est désormais disponible dans tous les environnements (disponibilité générale).</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+
+<table>
+<thead>
+<tr>
+<th><strong>Activité Prise de décision de contenu dans les parcours</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Vous pouvez désormais inclure des offres personnalisées dans vos parcours par le biais d’une activité de prise de décision de contenu dédiée dans la zone de travail de parcours et les utiliser dans des activités de parcours, y compris des conditions et des actions personnalisées.</p>
+<p>Cette fonctionnalité n’est disponible que pour un ensemble d’organisations (disponibilité limitée) et sera déployée à l’échelle mondiale dans une prochaine version.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Test à blanc du parcours</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>L’essai de parcours est un mode de publication de parcours spécial dans Adobe Journey Optimizer qui permet aux praticiens du parcours de tester un parcours à l’aide de données de production réelles sans contacter de vrais clients ou mettre à jour les informations de profil. Cette fonctionnalité permet aux utilisateurs et utilisatrices du parcours d’avoir confiance dans leur conception de parcours et leur ciblage d’audience avant de le publier en direct.</p>
+<p>Cette fonctionnalité n’est disponible que pour un ensemble d’organisations (disponibilité limitée) et sera déployée à l’échelle mondiale dans une prochaine version.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Suspendre et reprendre les parcours</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Vous pouvez maintenant suspendre et reprendre vos parcours. Cette fonctionnalité offre aux professionnels du parcours un meilleur contrôle et une plus grande flexibilité en permettant de suspendre temporairement les parcours en direct sans interrompre l’expérience client. En pause, aucune communication n’est envoyée et les profils restent suspendus jusqu’à la reprise du parcours.</p>
+<p>Vous pouvez suspendre et reprendre un seul parcours ou effectuer des opérations de pause et de reprise en bloc sur un groupe de parcours.</p>
+<p>En outre, vous pouvez appliquer des filtres globaux aux parcours en pause afin d’exclure les profils en fonction de leurs attributs.</p>
+<p>Cette fonctionnalité n’est disponible que pour un ensemble d’organisations (disponibilité limitée) et sera déployée à l’échelle mondiale dans une prochaine version.</p>
+</td>
+</tr>
+</tbody>
+</table>
 
 <table>
 <thead>
@@ -63,7 +181,26 @@ ht-degree: 86%
 </tbody>
 </table>
 
-### Améliorations
+
+### Améliorations {#25-06-improv}
+
+Les améliorations de cette version sont présentées ci-dessous.
+
+* **Jeux de règles de canal**
+
+   * **Fenêtre de durée personnalisée** pour la limitation - Un nouveau champ **Nombre de répétitions** est désormais disponible dans l’écran de configuration des jeux de règles de canal. Il vous permet d’appliquer des règles de limitation de fréquence sur plusieurs jours, semaines ou mois, selon la durée spécifiée.
+
+   * **Durée horaire** - Vous pouvez désormais appliquer une limitation toutes les heures pour les ensembles de règles de canal.
+
+* **Expériences basées sur le code**
+
+  Les politiques de décision sont désormais disponibles dans les modèles de contenu d’expérience basés sur du code et dans le rail de droite de l’éditeur de code.
+
+* **Concepteur d’e-mail**
+
+   * **Prise en charge d’un CSS personnalisé** - Journey Optimizer vous permet désormais d’ajouter un CSS personnalisé au contenu de votre e-mail directement dans le Concepteur d’e-mail.
+   * **Prise en charge du mode sombre** - Le Concepteur d’e-mail Journey Optimizer offre désormais la possibilité de passer en mode sombre où vous pouvez définir des paramètres spécifiques.
+
 
 * **Decisioning** - Date de disponibilité : 3 juin 2025
 
@@ -174,7 +311,7 @@ Les nouvelles fonctionnalités de cette version sont présentées ci-dessous.
 <table>
 <thead>
 <tr>
-<th><strong>Simuler les variations de contenu</strong><br/></th>
+<th><strong>Simuler des variations de contenu</strong><br/></th>
 </tr>
 </thead>
 <tbody>
