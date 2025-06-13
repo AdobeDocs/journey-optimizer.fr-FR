@@ -10,7 +10,7 @@ level: Intermediate
 keywords: message, fréquence, règles, pression
 exl-id: 07f5f0b4-417e-408e-8d9e-86615c8a3fbf
 source-git-commit: 6da1d9a3edb8a30b8f13fd0cb6a138f22459ad00
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1960'
 ht-degree: 100%
 
@@ -312,4 +312,4 @@ Pour appliquer une règle de limitation à un parcours, accédez au parcours et 
 
 ## Vidéo pratique {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/3444728?quality=12&captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/3435531?quality=12)

@@ -26,7 +26,7 @@ ht-degree: 100%
 Les actions sont des connexions par le biais desquelles vous proposez des expériences en temps réel personnalisées aux clients, telles que des notifications push, des emails, des SMS ou tout autre moyen d&#39;engagement numérique utilisé dans votre entreprise.
 
 
-➡️ [Découvrez cette fonctionnalité en vidéo](#video)
+➡️ [Découvrez cette fonctionnalité en vidéo.](#video)
 
 [!DNL Journey Optimizer] est fourni avec une fonctionnalité de message intégrée. Les actions personnalisées vous permettent de configurer la connexion d&#39;un système tiers pour envoyer des messages ou des appels d&#39;API. Une action peut être configurée avec n’importe quel service de n’importe quel fournisseur qui peut être appelé via une API REST avec une payload au format JSON.
 
@@ -48,4 +48,4 @@ Pour afficher la liste des actions ou configurer une nouvelle action, sélection
 
 Découvrez comment configurer des actions personnalisées.
 
->[!VIDEO](https://video.tv.adobe.com/v/3430274?quality=12&captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/3428396?quality=12)

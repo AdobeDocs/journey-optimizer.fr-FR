@@ -34,7 +34,7 @@ ht-degree: 38%
 
 Une fois que vous avez créé et conçu les tâches à effectuer dans la zone de travail, vous pouvez les publier et contrôler leur exécution.
 
-## Planification de campagnes orchestrées {#schedule}
+## Planifier des campagnes orchestrées {#schedule}
 
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_scheduler"

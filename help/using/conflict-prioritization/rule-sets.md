@@ -12,7 +12,7 @@ exl-id: 07f5f0b4-417e-408e-8d9e-86615c8a3fbf
 source-git-commit: 6da1d9a3edb8a30b8f13fd0cb6a138f22459ad00
 workflow-type: tm+mt
 source-wordcount: '948'
-ht-degree: 58%
+ht-degree: 63%
 
 ---
 
@@ -34,7 +34,7 @@ Vous pouvez créer deux types d’ensembles de règles :
 * Les ensembles de règles **Canal** appliquent des règles de limitation aux canaux de communication. Par exemple, ne pas envoyer plus d’un e-mail ou d’un SMS par jour.
 * **Parcours** les ensembles de règles appliquent des règles de limitation d&#39;entrée et de simultanéité à un parcours. Par exemple, ne pas entrer simultanément des profils dans plusieurs parcours.
 
-➡️ [Découvrez cette fonctionnalité en vidéo](#video)
+➡️ [Découvrez cette fonctionnalité en vidéo.](#video)
 
 ### Autorisations {#permissions-frequency-rules}
 
@@ -55,7 +55,7 @@ Outre cet ensemble de règles « Ensemble de règles par défaut global », vous
 
 ![](assets/rule-sets-default.png)
 
-## Création et activation d’ensembles de règles {#Create}
+## Créer et activer des ensembles de règles {#Create}
 
 >[!CONTEXTUALHELP]
 >id="ajo_rule_set_domain"
@@ -81,7 +81,7 @@ Outre cet ensemble de règles « Ensemble de règles par défaut global », vous
 >[!CONTEXTUALHELP]
 >id="ajo_rule_set_rule_capping"
 >title="Limitation des règles"
->abstract="Définissez la limitation de votre règle. Selon le domaine de l’ensemble de règles et la sélection effectuée dans le champ Type de règle , ce champ peut définir le nombre maximal de messages qui peuvent être envoyés à un profil, ou le nombre maximal de parcours auxquels le profil peut accéder ou auxquels il peut s’inscrire simultanément."
+>abstract="Définissez la limitation de votre règle. En fonction du domaine du jeu de règles et de la sélection dans le champ Type de règle, ce champ peut définir le nombre maximal de messages qui peuvent être envoyés à un profil, ou le nombre maximal de parcours que le profil peut rejoindre ou auxquels il peut être inscrit simultanément."
 
 Pour créer un jeu de règles, procédez comme suit.
 
@@ -164,4 +164,4 @@ Le statut de la règle devient **[!UICONTROL Inactif]** et la règle ne s’appl
 
 ## Vidéo pratique {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/3444728?quality=12&captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/3435531?quality=12)
