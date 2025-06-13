@@ -10,7 +10,7 @@ hide: true
 hidefromtoc: true
 badge: label="Disponibilité limitée" type="Informative"
 keywords: publication, parcours, actif, validité, vérifier
-source-git-commit: 3cc5abdbec27ac9a8009b3b0d125a3b49dc9ed04
+source-git-commit: 68a115d3075f7953501b10f2057b5aa87e0fcf92
 workflow-type: tm+mt
 source-wordcount: '2004'
 ht-degree: 1%
@@ -167,7 +167,7 @@ N’oubliez pas que les exclusions de profil pour les profils actuellement dans 
 
 Prenons l’exemple du parcours ci-dessous :
 
-![Exemple de parcours ](assets/pause-journey-sample.png){width="50%" align="left"}
+![Exemple de parcours ](assets/pause-journey-sample.png)
 
 Lorsque vous suspendez ce parcours, vous indiquez si les profils sont **Ignorés** ou **Bloqués**, puis la gestion des profils est la suivante :
 
