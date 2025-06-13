@@ -10,10 +10,10 @@ role: User
 level: Beginner
 keywords: ressources, intégration
 exl-id: c74156bb-4f00-4325-b416-6fe36cb755d1
-source-git-commit: 4fa50df6827e07e6f6f3c5730d1ae2a1af0d426d
+source-git-commit: bba2fd3b481c582f33ffad79d1f1c1327143f108
 workflow-type: tm+mt
-source-wordcount: '540'
-ht-degree: 96%
+source-wordcount: '549'
+ht-degree: 84%
 
 ---
 
@@ -41,26 +41,19 @@ Pour accéder au menu **[!DNL Adobe Express]**, accédez à votre **Paramètres 
 
 ➡️ [Découvrez cette fonctionnalité en vidéo.](#video)
 
-## Licence Adobe Express Enterprise {#licence}
+## Utilisation d’Adobe Express avec une licence d’entreprise {#licence}
 
 Les fonctionnalités présentées dans les sections ci-dessous sont accessibles aux utilisateurs et aux utilisatrices ne disposant pas d’une licence Adobe Express Enterprise.
 
-Avec une licence Enterprise, les utilisateurs et les utilisatrices bénéficient d’un accès complet à l’éditeur Adobe Express, ce qui leur permet de modifier les images en ajustant la couleur, la luminosité, la netteté, le contraste, les dimensions et des paramètres supplémentaires.
+Avec une licence Entreprise, les utilisateurs disposent d’un accès complet à l’éditeur web d’Adobe Express, ce qui leur permet d’ajuster les paramètres des ressources, de générer du contenu avec Firefly, d’ajouter du texte et d’appliquer des personnalisations supplémentaires.
 
 ![](assets/express-licence.png)
 
-+++Cas d’utilisation disponibles pour les utilisateurs et les utilisatrices disposant d’une licence Enterprise pour Adobe Express
+Pour plus d’informations sur les cas d’utilisation disponibles pour les utilisateurs disposant d’une licence Enterprise pour Adobe Express, consultez la [documentation web d’Adobe Express](https://helpx.adobe.com/express/web.html).
 
-* [Supprimer l’arrière-plan](https://helpx.adobe.com/fr/express/create-and-edit-images/edit-images/remove-background.html)
-* [Supprimer des objets](https://helpx.adobe.com/fr/express/create-and-edit-images/create-and-modify-with-generative-ai/remove-objects-generative-fill.html)
-* [Effacer](https://helpx.adobe.com/fr/express/create-and-edit-images/edit-images/eraser.html)
-* [Insérer un objet](https://helpx.adobe.com/fr/express/adobe-express-on-mobile/create-and-edit-designs/generative-fill-mobile.html)
-* [Recadrer](https://helpx.adobe.com/fr/express/create-and-edit-images/edit-images/crop-and-shape-images.html)
-* [Effets](https://helpx.adobe.com/fr/express/add-effects-to-your-designs/add-images-and-visuals/apply-image-filters.html)
+## Utilisation d’Adobe Express sans licence d’entreprise  {#edit}
 
-+++
-
-## Redimensionner l’image {#resize}
+### Redimensionner l’image {#resize}
 
 1. Dans le menu Adobe Express , sélectionnez **[!UICONTROL Redimensionner l’image]**.
 
@@ -84,7 +77,7 @@ Avec une licence Enterprise, les utilisateurs et les utilisatrices bénéficient
 
 Votre image est maintenant prête à être utilisée dans votre contenu.
 
-## Supprimer l’arrière-plan {#background}
+### Supprimer l’arrière-plan {#background}
 
 1. Dans le menu Adobe Express , sélectionnez **[!UICONTROL Supprimer l’arrière-plan]**.
 
@@ -104,7 +97,7 @@ Votre image est maintenant prête à être utilisée dans votre contenu.
 
 Votre image est maintenant prête à être utilisée dans votre contenu.
 
-## Recadrer l’image {#crop-image}
+### Recadrer l’image {#crop-image}
 
 1. Dans le menu Adobe Express , sélectionnez **[!UICONTROL Recadrer l’image]**.
 
@@ -122,7 +115,7 @@ Votre image est maintenant prête à être utilisée dans votre contenu.
 
 Votre image est maintenant prête à être utilisée dans votre contenu.
 
-## Convertir en JPEG ou PNG {#convert}
+### Convertir en JPEG ou PNG {#convert}
 
 1. Dans le menu Adobe Express , sélectionnez **[!UICONTROL Convertir en JPEG]** ou **[!UICONTROL Convertir en PNG]** en fonction du format d’origine de l’image.
 
@@ -144,12 +137,11 @@ Votre image est maintenant prête à être utilisée dans votre contenu.
 
 Votre image est maintenant prête à être utilisée dans votre contenu.
 
-
 ## Vidéo pratique {#video}
 
 Découvrez comment modifier vos ressources dans Adobe Journey Optimizer à l’aide des outils d’Adobe Express.
 
->[!VIDEO](https://video.tv.adobe.com/v/3455525/?quality=12&captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/3455523/?quality=12)
 
 
 
