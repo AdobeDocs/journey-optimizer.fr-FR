@@ -7,9 +7,9 @@ feature: Release Notes
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 8dae895f33d8e95424bc96c8050b8f52d7c02b50
+source-git-commit: eff3f2fb4d1c369e77a22013ae1576b57449a8b7
 workflow-type: tm+mt
-source-wordcount: '998'
+source-wordcount: '1000'
 ht-degree: 35%
 
 ---
@@ -45,7 +45,7 @@ Les nouvelles fonctionnalités de cette version sont présentées ci-dessous.
 <tbody>
 <tr>
 <td>
-<p>La messagerie RCS (Rich Communication Services) est désormais prise en charge dans Journey Optimizer, ce qui permet d’utiliser les fonctionnalités de messagerie améliorées suivantes, sous réserve de la prise en charge de l’opérateur :</p>
+<p>La messagerie RCS (Rich Communication Services) est désormais prise en charge dans Journey Optimizer, ce qui permet d’utiliser les fonctionnalités de messagerie améliorées suivantes, sous réserve de la prise en charge par le fournisseur et l’opérateur :</p>
 <ul>
 <li>Prise en charge des expéditeurs marqués et vérifiés : envoyez des messages à l’aide de profils métier vérifiés avec des éléments de branding (logo, nom de l’expéditeur, etc.).</li>
 <li>Informations sur la diffusion des messages : recevez des rapports de diffusion détaillés comprenant les mises à jour de l’état des messages (par exemple, envoyé, diffusé, lu).</li>
