@@ -10,7 +10,7 @@ hide: true
 hidefromtoc: true
 badge: label="Disponibilité limitée" type="Informative"
 keywords: publication, parcours, actif, validité, vérifier
-source-git-commit: 68a115d3075f7953501b10f2057b5aa87e0fcf92
+source-git-commit: adff7581d72947273675ab9b7bc36702d76d3792
 workflow-type: tm+mt
 source-wordcount: '2004'
 ht-degree: 1%
@@ -123,13 +123,13 @@ Par exemple, pour exclure tous les clients français d’un parcours en pause, p
 
 1. Cliquez sur l’icône **Critères de sortie et filtre global**.
 
-   ![Ajouter un filtre global à un parcours en pause](assets/add-global-filter.png){width="50%" align="left"}
+   ![Ajouter un filtre global à un parcours en pause](assets/add-global-filter.png)
 
 1. Dans les paramètres **Critères de sortie et filtre global**, cliquez sur **Ajouter un filtre global** pour définir un filtre en fonction des attributs de profil.
 
 1. Définissez l’expression pour exclure les profils dont l’attribut de pays est égal à France.
 
-   ![Ajouter un filtre global à un parcours en pause](assets/add-country-filter.png){width="50%" align="left"}
+   ![Ajouter un filtre global à un parcours en pause](assets/add-country-filter.png)
 
 1. Enregistrez votre filtre et cliquez sur le bouton **Mettre à jour le parcours** pour appliquer vos modifications.
 
