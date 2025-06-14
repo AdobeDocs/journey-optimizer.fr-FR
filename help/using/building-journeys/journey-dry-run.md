@@ -11,9 +11,9 @@ hidefromtoc: true
 badge: label="Disponibilité limitée" type="Informative"
 keywords: publication, parcours, actif, validité, vérifier
 exl-id: 58bcc8b8-5828-4ceb-9d34-8add9802b19d
-source-git-commit: 8dae895f33d8e95424bc96c8050b8f52d7c02b50
+source-git-commit: f308668ba1b7b20f6144e9200328e54986f66103
 workflow-type: tm+mt
-source-wordcount: '917'
+source-wordcount: '930'
 ht-degree: 11%
 
 ---
@@ -56,25 +56,10 @@ L’essai de parcours apporte :
 
 >[!CAUTION]
 >
->Les autorisations de démarrage de l’exécution d’essai sont limitées aux utilisateurs disposant de l’autorisation de haut niveau **[!DNL Publish journeys]**. Les autorisations d’arrêt de l’exécution d’essai sont limitées aux utilisateurs disposant de l’autorisation de haut niveau **[!DNL Manage journeys]**. Pour en savoir plus sur la gestion des droits d’accès des utilisateurs et des utilisatrices [!DNL Journey Optimizer], consultez [cette section](../administration/permissions-overview.md).
+>* Les autorisations de démarrage de l’exécution d’essai sont limitées aux utilisateurs disposant de l’autorisation de haut niveau **[!DNL Publish journeys]**. Les autorisations d’arrêt de l’exécution d’essai sont limitées aux utilisateurs disposant de l’autorisation de haut niveau **[!DNL Manage journeys]**. Pour en savoir plus sur la gestion des droits d’accès des utilisateurs et des utilisatrices [!DNL Journey Optimizer], consultez [cette section](../administration/permissions-overview.md).
+>
+>* Avant de commencer à utiliser la fonctionnalité Exécution d’essai, [lisez les mécanismes de sécurisation et limites](#journey-dry-run-limitations).
 
-
-## Mécanismes de sécurisation et limitations {#journey-dry-run-limitations}
-
-* Le mode Exécution d’essai n’est pas disponible pour les parcours contenant des événements de réaction.
-* Les profils en mode Exécution d’essai sont comptabilisés dans les profils engageables.
-* Les parcours d’exécution d’essai n’ont aucune incidence sur les règles métier.
-* Lors de la création d’une version de parcours, si une version de parcours précédente est **en ligne**, l’activation de l’exécution d’essai n’est pas autorisée sur la nouvelle version.
-* L’exécution d’essai de parcours génère des événements stepEvents. Ces événements stepEvents disposent d’un indicateur et d’un identifiant d’exécution d’essai spécifiques :
-   * `_experience.journeyOrchestration.stepEvents.inDryRun` renvoie `true` si l’Exécution d’essai est activée et `false` dans le cas contraire
-   * `_experience.journeyOrchestration.stepEvents.dryRunID` renvoie l’identifiant d’une instance d’essai
-* Lors de l’exécution de l’essai, le parcours est exécuté avec les spécificités suivantes :
-
-   * Les nœuds **Action de canal** notamment les e-mails, SMS ou notifications push ne sont pas exécutés.
-   * Les **actions personnalisées** sont désactivées pendant l’exécution d’essai et leurs réponses sont définies sur null.
-   * Les **nœuds d’attente** sont ignorés lors de l’exécution de l’essai.
-     <!--You can override the wait block timeouts, then if you have wait blocks duration longer than allowed dry run journey duration, then that branch will not execute completely.-->
-   * **Les sources de données** y compris les sources de données externes, sont exécutées par défaut.
 
 ## Démarrer une exécution d’essai {#journey-dry-run-start}
 
@@ -132,3 +117,20 @@ Les parcours d’essai **doivent** doivent être arrêtés manuellement.
 Cliquez sur le bouton **Fermer** pour terminer le test, puis sur **Retour au brouillon** pour confirmer.
 
 <!-- After 14 days, Dry run journeys automatically transition to the **Draft** status.-->
+
+## Mécanismes de sécurisation et limitations {#journey-dry-run-limitations}
+
+* Le mode Exécution d’essai n’est pas disponible pour les parcours contenant des événements de réaction.
+* Les profils en mode Exécution d’essai sont comptabilisés dans les profils engageables.
+* Les parcours d’exécution d’essai n’ont aucune incidence sur les règles métier.
+* Lors de la création d’une version de parcours, si une version de parcours précédente est **en ligne**, l’activation de l’exécution d’essai n’est pas autorisée sur la nouvelle version.
+* L’exécution d’essai de parcours génère des événements stepEvents. Ces événements stepEvents disposent d’un indicateur et d’un identifiant d’exécution d’essai spécifiques :
+   * `_experience.journeyOrchestration.stepEvents.inDryRun` renvoie `true` si l’Exécution d’essai est activée et `false` dans le cas contraire
+   * `_experience.journeyOrchestration.stepEvents.dryRunID` renvoie l’identifiant d’une instance d’essai
+* Lors de l’exécution de l’essai, le parcours est exécuté avec les spécificités suivantes :
+
+   * Les nœuds **Action de canal** notamment les e-mails, SMS ou notifications push ne sont pas exécutés.
+   * Les **actions personnalisées** sont désactivées pendant l’exécution d’essai et leurs réponses sont définies sur null.
+   * Les **nœuds d’attente** sont ignorés lors de l’exécution de l’essai.
+     <!--You can override the wait block timeouts, then if you have wait blocks duration longer than allowed dry run journey duration, then that branch will not execute completely.-->
+   * **Les sources de données** y compris les sources de données externes, sont exécutées par défaut.

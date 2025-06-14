@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: qualification, événements, audience, parcours, platform
 exl-id: 7e70b8a9-7fac-4450-ad9c-597fe0496df9
-source-git-commit: 284c4896b923eac1d360b61d97cbe560d747ea4f
+source-git-commit: f308668ba1b7b20f6144e9200328e54986f66103
 workflow-type: tm+mt
-source-wordcount: '1190'
+source-wordcount: '1202'
 ht-degree: 50%
 
 ---
@@ -33,39 +33,13 @@ Il est possible de positionner ce type d’événement dès la première étape,
 
 ➡️ [Découvrez cette fonctionnalité en vidéo.](#video)
 
-### Mécanismes de sécurisation et recommandations {#important-notes-segment-qualification}
-
-Suivez les mécanismes de sécurisation et les recommandations ci-dessous pour créer des parcours de qualification d’audience. Consultez également la section [ Bonnes pratiques en matière de qualification d’audience](#best-practices-segments).
-
-
-* Les parcours de qualification d’audience sont principalement conçus pour fonctionner avec les audiences en flux continu. Cette combinaison garantit une meilleure expérience en temps réel. Il est vivement recommandé d’utiliser des **audiences en flux continu** dans l’activité Qualification d’audience .
-
-  Cependant, si vous souhaitez utiliser des attributs basés sur l’ingestion par lots dans votre audience de diffusion en streaming ou une audience par lots pour un parcours de qualification d’audience, tenez compte de la période d’évaluation/activation de l’audience. Une audience par lots ou une audience en flux continu utilisant des attributs ingérés par lots est prête à être utilisée dans l’activité **Qualification de l’audience** environ **2 heures** après la fin de votre tâche de segmentation. Cette tâche s’exécute une fois par jour, à l’heure définie par l’administrateur de votre organisation Adobe.
-
-* Les audiences Adobe Experience Platform sont calculées une fois par jour (audiences **par lot**) ou en temps réel (pour les audiences **en flux continu**, à l’aide de l’option Audiences haute fréquence de Adobe Experience Platform).
-
-   * Si l’audience sélectionnée est diffusée en continu, les individus appartenant à cette audience peuvent éventuellement rejoindre le parcours en temps réel.
-   * Si l’audience est par lots, les personnes qui viennent d’être qualifiées pour cette audience peuvent éventuellement rejoindre le parcours lorsque le calcul de l’audience est exécuté sur Adobe Experience Platform.
-
-  Il est recommandé d’utiliser les audiences de diffusion en continu dans une activité **Qualification d’audience**. Pour les cas d’utilisation par lots, utilisez une activité **[Lecture d’audience](read-audience.md)**.
-
-  >[!NOTE]
-  >
-  >En raison de la nature par lot des audiences créées à l’aide des workflows de composition et des chargements personnalisés, ces audiences ne peuvent pas être ciblées dans une activité « Qualification d’audience ». Seules les audiences créées à l’aide de définitions de segment peuvent être utilisées dans cette activité.
-
-
-* Les groupes de champs d’événement d’expérience ne peuvent pas être utilisés dans les parcours commençant par une activité **Lecture d’audience**, **Qualification d’audience** ou **Événement métier**.
-
-* Lorsque vous utilisez une activité de **qualification d’audience** dans un parcours, cette activité peut prendre jusqu’à 10 minutes avant d’être active et d’écouter les profils entrant ou sortant de l’audience.
-
 
 >[!CAUTION]
 >
->[Les mécanismes de sécurisation pour les données et la segmentation du profil client en temps réel](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=fr){target="_blank"} s’appliquent également à Adobe Journey Optimizer.
+>Avant de commencer à configurer une qualification d’audience, [lisez les mécanismes de sécurisation et limites](#audience-qualification-guardrails).
 
 
-
-### Configurer l’activité {#configure-segment-qualification}
+## Configurer l’activité {#configure-segment-qualification}
 
 Pour configurer l’activité **[!UICONTROL Qualification d’audience]**, procédez comme suit :
 
@@ -151,8 +125,40 @@ Voici quelques bonnes pratiques pour éviter de surcharger les systèmes utilis�
 
   ![](assets/segment-overload.png)
 
+## Mécanismes de sécurisation et limitations {#audience-qualification-guardrails}
+
+Suivez les mécanismes de sécurisation et les recommandations ci-dessous pour créer des parcours de qualification d’audience. Consultez également la section [ Bonnes pratiques en matière de qualification d’audience](#best-practices-segments).
+
+
+* Les parcours de qualification d’audience sont principalement conçus pour fonctionner avec les audiences en flux continu. Cette combinaison garantit une meilleure expérience en temps réel. Il est vivement recommandé d’utiliser des **audiences en flux continu** dans l’activité Qualification d’audience .
+
+  Cependant, si vous souhaitez utiliser des attributs basés sur l’ingestion par lots dans votre audience de diffusion en streaming ou une audience par lots pour un parcours de qualification d’audience, tenez compte de la période d’évaluation/activation de l’audience. Une audience par lots ou une audience en flux continu utilisant des attributs ingérés par lots est prête à être utilisée dans l’activité **Qualification de l’audience** environ **2 heures** après la fin de votre tâche de segmentation. Cette tâche s’exécute une fois par jour, à l’heure définie par l’administrateur de votre organisation Adobe.
+
+* Les audiences Adobe Experience Platform sont calculées une fois par jour (audiences **par lot**) ou en temps réel (pour les audiences **en flux continu**, à l’aide de l’option Audiences haute fréquence de Adobe Experience Platform).
+
+   * Si l’audience sélectionnée est diffusée en continu, les individus appartenant à cette audience peuvent éventuellement rejoindre le parcours en temps réel.
+   * Si l’audience est par lots, les personnes qui viennent d’être qualifiées pour cette audience peuvent éventuellement rejoindre le parcours lorsque le calcul de l’audience est exécuté sur Adobe Experience Platform.
+
+  Il est recommandé d’utiliser les audiences de diffusion en continu dans une activité **Qualification d’audience**. Pour les cas d’utilisation par lots, utilisez une activité **[Lecture d’audience](read-audience.md)**.
+
+  >[!NOTE]
+  >
+  >En raison de la nature par lot des audiences créées à l’aide des workflows de composition et des chargements personnalisés, ces audiences ne peuvent pas être ciblées dans une activité « Qualification d’audience ». Seules les audiences créées à l’aide de définitions de segment peuvent être utilisées dans cette activité.
+
+
+* Les groupes de champs d’événement d’expérience ne peuvent pas être utilisés dans les parcours commençant par une activité **Lecture d’audience**, **Qualification d’audience** ou **Événement métier**.
+
+* Lorsque vous utilisez une activité de **qualification d’audience** dans un parcours, cette activité peut prendre jusqu’à 10 minutes avant d’être active et d’écouter les profils entrant ou sortant de l’audience.
+
+
+>[!CAUTION]
+>
+>[Les mécanismes de sécurisation pour les données et la segmentation du profil client en temps réel](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=fr){target="_blank"} s’appliquent également à Adobe Journey Optimizer.
+
+
+
 ## Vidéo pratique {#video}
 
 Découvrez des cas d’utilisation des parcours de qualification d’audience dans cette vidéo. Découvrez comment créer un parcours avec qualification d’audience et les bonnes pratiques à appliquer.
 
->[!VIDEO](https://video.tv.adobe.com/v/3446206?quality=12&captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/3425028?quality=12)

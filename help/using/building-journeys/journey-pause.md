@@ -10,7 +10,7 @@ hide: true
 hidefromtoc: true
 badge: label="Disponibilité limitée" type="Informative"
 keywords: publication, parcours, actif, validité, vérifier
-source-git-commit: adff7581d72947273675ab9b7bc36702d76d3792
+source-git-commit: f308668ba1b7b20f6144e9200328e54986f66103
 workflow-type: tm+mt
 source-wordcount: '2004'
 ht-degree: 1%
@@ -113,7 +113,7 @@ Pour reprendre un parcours en pause et recommencer à écouter les événements 
 Dans la liste de vos parcours, vous pouvez reprendre un ou plusieurs parcours **en pause**. Pour reprendre un groupe de parcours (_reprise en bloc_), sélectionnez-les et cliquez sur le bouton **Reprendre** situé dans la barre bleue en bas de l’écran. Notez que le bouton **Reprendre** n’est disponible que lorsque les parcours **En pause** sont sélectionnés.
 
 
-## Application d’un filtre global aux profils d’un parcours en pause  {#journey-global-filters}
+## Application d’un filtre global aux profils d’un parcours en pause {#journey-global-filters}
 
 Lorsqu’un parcours est en pause, vous pouvez l’appliquer en fonction des attributs de profil. Ce filtre permet d’exclure les profils qui correspondent à l’expression définie au moment de la reprise. Une fois le filtre global défini, il s’applique aux nœuds d’action, même pour les nouvelles entrées de profil. Les profils correspondant aux critères et les nouveaux profils qui tentent d’y accéder seront exclus du parcours **sur le nœud d’action suivant** qu’ils rencontrent.
 
