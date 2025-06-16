@@ -8,7 +8,7 @@ topic: Content Management
 role: Data Engineer, Data Architect, Admin
 level: Experienced
 exl-id: 273cda84-0261-4c5b-b5f4-0202e8874d05
-source-git-commit: 190f757853f65b7434319047760c2efb43d2d702
+source-git-commit: 91835d5b8b1f129c83c79613df30d9413db98ffe
 workflow-type: tm+mt
 source-wordcount: '416'
 ht-degree: 77%
@@ -51,13 +51,11 @@ Durée (en millisecondes) d’exécution d’une action en cours.
 
 Type : long
 
->[!NOTE]
->
-> Le champ `actionExecutionTime` représente le temps total (en millisecondes) nécessaire à l’exécution de l’action, y compris le temps d’attente de la requête dans la file d’attente (si la limitation est configurée et la limite de débit est atteinte) et le temps d’exécution réel (y compris la latence du réseau vers le point d’entrée externe).
->
-> Le champ `Timestamp` indique l’heure de fin de l’exécution de l’action. Pour déterminer quand le profil est entré dans le nœud d’action personnalisée, soustrayez `actionExecutionTime` de `Timestamp`.
->
->Par exemple, si `Timestamp` est « 2025-02-04 09:39:03 UTC » et `actionExecutionTime` est de 1 813 227 ms (~31 minutes), le profil est entré dans le nœud à environ « 2025-02-04 09:08:32 UTC ».
+Le champ `actionExecutionTime` représente le temps total (en millisecondes) nécessaire à l’exécution de l’action, y compris le temps d’attente de la requête dans la file d’attente (si la limitation est configurée et la limite de débit est atteinte) et le temps d’exécution réel (y compris la latence du réseau vers le point d’entrée externe).
+
+Le champ `Timestamp` indique l’heure de fin de l’exécution de l’action. Pour déterminer quand le profil est entré dans le nœud d’action personnalisée, soustrayez `actionExecutionTime` de `Timestamp`.
+
+Par exemple, si `Timestamp` est « 2025-02-04 09:39:03 UTC » et `actionExecutionTime` est de 1 813 227 ms (~31 minutes), le profil est entré dans le nœud à environ « 2025-02-04 09:08:32 UTC ».
 
 
 
