@@ -9,10 +9,10 @@ role: Data Engineer, Data Architect, Admin
 level: Intermediate, Experienced
 keywords: externe, sources, données, configuration, connexion, tiers
 exl-id: f3cdc01a-9f1c-498b-b330-1feb1ba358af
-source-git-commit: 2a2abe3e663f8c9ff24c804eae53d44988960838
-workflow-type: ht
-source-wordcount: '1626'
-ht-degree: 100%
+source-git-commit: 71d1a7c305c33ab7bef91b82329ecb692445fb27
+workflow-type: tm+mt
+source-wordcount: '1674'
+ht-degree: 97%
 
 ---
 
@@ -229,9 +229,9 @@ Voici un exemple pour le type d’authentification du porteur :
 
 >[!NOTE]
 >
->Le jeton d’authentification est mis en cache par parcours : si deux parcours utilisent la même action personnalisée, chaque parcours dispose de son propre jeton mis en cache. Ce jeton n’est pas partagé entre ces parcours.
+>* Le jeton d’authentification est mis en cache par parcours : si deux parcours utilisent la même action personnalisée, chaque parcours dispose de son propre jeton mis en cache. Ce jeton n’est pas partagé entre ces parcours.
 >
->La durée de mise en cache permet d’éviter un trop grand nombre d’appels aux points d’entrée d’authentification. La rétention des jetons d’authentification est mise en cache dans les services, il n’y a aucune persistance. Si un service est redémarré, il commence par un cache propre. Par défaut, la durée de mise en cache est de 1 heure. Dans la payload de l’authentification personnalisée, elle peut être adaptée en spécifiant une autre durée de rétention.
+>* La durée de mise en cache permet d’éviter un trop grand nombre d’appels aux points d’entrée d’authentification. La rétention des jetons d’authentification est mise en cache dans les services, il n’y a aucune persistance. Si un service est redémarré, il commence par un cache propre. Par défaut, la durée de mise en cache est de 1 heure. Dans la payload de l’authentification personnalisée, elle peut être adaptée en spécifiant une autre durée de rétention.
 >
 
 Voici un exemple pour le type d’authentification de l’en-tête :
@@ -269,3 +269,7 @@ Voici un exemple de réponse de l’appel API de connexion :
   "expiryDuration" : 5
 }
 ```
+
+>[!CAUTION]
+>
+>Lors de la configuration de l’authentification personnalisée pour une action personnalisée, notez que les objets JSON imbriqués (par exemple, les sous-objets dans `bodyParams`) ne sont actuellement **pas pris en charge**. Seules les paires clé-valeur plates seront incluses dans la payload de requête finale. Si votre point d’entrée d’authentification nécessite des objets imbriqués, cela peut entraîner des champs manquants et des échecs d’authentification.
