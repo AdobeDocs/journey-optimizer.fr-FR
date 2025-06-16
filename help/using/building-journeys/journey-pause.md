@@ -10,9 +10,9 @@ hide: true
 hidefromtoc: true
 badge: label="Disponibilité limitée" type="Informative"
 keywords: publication, parcours, actif, validité, vérifier
-source-git-commit: 33b60693d060e37873f9d505d0893839698036a8
+source-git-commit: d1b1670992ba5da14f1a4d0bfab0a7b15b29dec3
 workflow-type: tm+mt
-source-wordcount: '2011'
+source-wordcount: '2014'
 ht-degree: 1%
 
 ---
@@ -77,11 +77,11 @@ Lorsqu’un parcours est en pause, les nouvelles entrées sont toujours ignorée
 Lorsqu’un parcours est en pause, la gestion des profils et l’exécution des activités dépendent de l’activité. Les comportements sont détaillés ci-dessous. Pour une compréhension complète, consultez également cet [exemple de bout en bout](#journey-pause-sample).
 
 
-| Activité parcours | Impact |
+| Activité parcours | Lorsque le parcours est en pause |
 |-------------------------|--------------------------------------------------|
 | [Qualification de l’audience](audience-qualification-events.md) | <ul> <li>Dans le premier nœud : l’audience est ignorée </li><li>Dans les autres nœuds : même comportement que dans un parcours en ligne, mais si la qualification de l’audience se fait après une activité <strong>Action</strong> et que l’utilisateur ou l’utilisatrice est mis en pause sur cette action, la qualification de l’audience est ignorée. </li></ul> |
 | [Événement unitaire](general-events.md) | <ul> <li>Dans le premier nœud : l’événement est ignoré</li><li>Dans les autres nœuds : même comportement que dans un parcours en direct, cependant, si l’événement se produit après une activité <strong>Action</strong> et que l’utilisateur est mis en pause sur cette action, l’événement est ignoré. </li></ul> |
-| [Lecture d’audience](read-audience.md) | Même comportement que dans un parcours en ligne, avec quelques spécificités <ol> <li> Si l’action <strong>Pause</strong> a été activée après le démarrage de l’activité <strong>Lecture d’audience</strong>, les profils entrés dans le parcours continueront (jusqu’à l’activité <strong>Action</strong> suivante). Comme le parcours lit les audiences à une certaine vitesse, si l’audience complète n’est pas encore entrée, les profils restants dans la file d’attente seront ignorés.</li><li> Pour les exécutions uniques : nous n’affichons aucune erreur à l’heure de reprise si la date planifiée était antérieure à la date de reprise. Cet échéancier serait ignoré.</li><li>Pour les parcours incrémentiels : <ul><li>Si une pause se produit avant la première occurrence, l’audience complète sera lue lors de la reprise. </li><li>Si une pause se produit, par exemple, le 4e jour d’une périodicité quotidienne et que le parcours reste en pause jusqu’au 9e jour, alors, lors de la reprise, tous les profils qui sont entrés du 4e au 9e jour seront inclus  </li></ul></ol> |
+| [Lecture d’audience](read-audience.md) | Même comportement que dans un parcours en ligne, avec quelques spécificités : <ol> <li> Si l’action <strong>Pause</strong> a été activée après le démarrage de l’activité <strong>Lecture d’audience</strong>, les profils entrés dans le parcours continueront (jusqu’à l’activité <strong>Action</strong> suivante). Comme le parcours lit les audiences à une certaine vitesse, si l’audience complète n’est pas encore entrée, les profils restants dans la file d’attente seront ignorés.</li><li> Pour les exécutions uniques : nous n’affichons aucune erreur à l’heure de reprise si la date planifiée était antérieure à la date de reprise. Cet échéancier serait ignoré.</li><li>Pour les parcours incrémentiels : <ul><li>Si une pause se produit avant la première occurrence, l’audience complète sera lue lors de la reprise. </li><li>Si une pause se produit, par exemple, le 4e jour d’une périodicité quotidienne et que le parcours reste en pause jusqu’au 9e jour, alors, lors de la reprise, tous les profils qui sont entrés du 4e au 9e jour seront inclus  </li></ul></ol> |
 | [Réaction](reaction-events.md) | Même comportement que dans un parcours dynamique, cependant, si la réaction se produit après une activité <strong>Action</strong> et que l’utilisateur est mis en pause sur cette action, l’événement est ignoré. |
 | [Attente](wait-activity.md) | Même comportement que dans un parcours dynamique |
 | [Condition](condition-activity.md) | Même comportement que dans un parcours dynamique |
