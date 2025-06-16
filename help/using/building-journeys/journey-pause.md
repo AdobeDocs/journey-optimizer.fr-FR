@@ -10,9 +10,9 @@ hide: true
 hidefromtoc: true
 badge: label="Disponibilité limitée" type="Informative"
 keywords: publication, parcours, actif, validité, vérifier
-source-git-commit: d1b1670992ba5da14f1a4d0bfab0a7b15b29dec3
+source-git-commit: 8e5213cf51183c68e87c2cec9cb12984acf8151a
 workflow-type: tm+mt
-source-wordcount: '2014'
+source-wordcount: '2021'
 ht-degree: 1%
 
 ---
@@ -55,14 +55,14 @@ Pour suspendre le parcours, procédez comme suit :
 
    ![Bouton Mettre en pause le parcours ](assets/pause-journey-button.png)
 
-1. Sélectionnez le mode de gestion des profils qui se trouvent actuellement dans le parcours.
+1. Sélectionnez comment gérer les profils qui se trouvent actuellement dans le parcours.
 
    ![Options de parcours de pause](assets/pause-confirm.png){width="50%" align="left"}
 
    Vous pouvez effectuer les actions suivantes :
 
-   * **En attente** profils - Les profils attendront que le parcours soit repris
-   * **Ignorer** profils - Les profils seront exclus du parcours sur le nœud d’action suivant
+   * **Suspendre** profils - Les profils attendront le nœud **Action** suivant pour que le parcours soit repris
+   * **Ignorer** profils - Les profils seront exclus du parcours sur le nœud **Action** suivant
 
 1. Cliquez sur le bouton **Pause** pour confirmer.
 
@@ -79,15 +79,15 @@ Lorsqu’un parcours est en pause, la gestion des profils et l’exécution des 
 
 | Activité parcours | Lorsque le parcours est en pause |
 |-------------------------|--------------------------------------------------|
-| [Qualification de l’audience](audience-qualification-events.md) | <ul> <li>Dans le premier nœud : l’audience est ignorée </li><li>Dans les autres nœuds : même comportement que dans un parcours en ligne, mais si la qualification de l’audience se fait après une activité <strong>Action</strong> et que l’utilisateur ou l’utilisatrice est mis en pause sur cette action, la qualification de l’audience est ignorée. </li></ul> |
-| [Événement unitaire](general-events.md) | <ul> <li>Dans le premier nœud : l’événement est ignoré</li><li>Dans les autres nœuds : même comportement que dans un parcours en direct, cependant, si l’événement se produit après une activité <strong>Action</strong> et que l’utilisateur est mis en pause sur cette action, l’événement est ignoré. </li></ul> |
-| [Lecture d’audience](read-audience.md) | Même comportement que dans un parcours en ligne, avec quelques spécificités : <ol> <li> Si l’action <strong>Pause</strong> a été activée après le démarrage de l’activité <strong>Lecture d’audience</strong>, les profils entrés dans le parcours continueront (jusqu’à l’activité <strong>Action</strong> suivante). Comme le parcours lit les audiences à une certaine vitesse, si l’audience complète n’est pas encore entrée, les profils restants dans la file d’attente seront ignorés.</li><li> Pour les exécutions uniques : nous n’affichons aucune erreur à l’heure de reprise si la date planifiée était antérieure à la date de reprise. Cet échéancier serait ignoré.</li><li>Pour les parcours incrémentiels : <ul><li>Si une pause se produit avant la première occurrence, l’audience complète sera lue lors de la reprise. </li><li>Si une pause se produit, par exemple, le 4e jour d’une périodicité quotidienne et que le parcours reste en pause jusqu’au 9e jour, alors, lors de la reprise, tous les profils qui sont entrés du 4e au 9e jour seront inclus  </li></ul></ol> |
-| [Réaction](reaction-events.md) | Même comportement que dans un parcours dynamique, cependant, si la réaction se produit après une activité <strong>Action</strong> et que l’utilisateur est mis en pause sur cette action, l’événement est ignoré. |
+| [Qualification de l’audience](audience-qualification-events.md) | <ul> <li>Au premier nœud de la zone de travail : toute qualification de profil pour l’audience est ignorée </li><li>Dans les autres nœuds : même comportement que dans un parcours en ligne, mais si la qualification de l’audience se fait après une activité <strong>Action</strong> et que l’utilisateur ou l’utilisatrice est mis en pause sur cette action, la qualification de l’audience est ignorée. </li></ul> |
+| [Événement unitaire](general-events.md) | <ul> <li>Au premier nœud de la zone de travail : l’événement est ignoré</li><li>Dans les autres nœuds : même comportement que dans un parcours en direct, cependant, si l’événement se produit après une activité <strong>Action</strong> et que l’utilisateur est mis en pause sur cette action, l’événement est ignoré. </li></ul> |
+| [Lecture d’audience](read-audience.md) | Même comportement que dans un parcours en ligne, avec quelques spécificités : <ol> <li> Si l’action <strong>Pause</strong> a été activée après le démarrage de l’activité <strong>Lecture d’audience</strong>, les profils entrés dans le parcours continueront (jusqu’à l’activité <strong>Action</strong> suivante). Comme le parcours lit les audiences à une certaine vitesse, si l’audience complète n’est pas encore entrée, les profils restants dans la file d’attente seront ignorés.</li><li> Pour les exécutions uniques : aucune erreur ne s’affiche au moment de la reprise si la date planifiée était antérieure à la date de reprise. Cet échéancier serait ignoré.</li><li>Pour les parcours incrémentiels : <ul><li>Si une pause se produit avant la première occurrence, l’audience complète sera lue lors de la reprise. </li><li>Si une pause se produit, par exemple, le 4e jour d’une périodicité quotidienne et que le parcours reste en pause jusqu’au 9e jour, alors, lors de la reprise, tous les profils qui sont entrés du 4e au 9e jour seront inclus  </li></ul></ol> |
+| [Réaction](reaction-events.md) | Même comportement que dans un parcours dynamique, cependant, si la réaction se produit après une activité <strong>Action</strong> et que l’utilisateur est mis en pause sur cette action, l’événement de réaction est ignoré. |
 | [Attente](wait-activity.md) | Même comportement que dans un parcours dynamique |
 | [Condition](condition-activity.md) | Même comportement que dans un parcours dynamique |
-| Décision de contenu | Les profils sont garés ou ignorés en fonction de ce que l’utilisateur a choisi lorsque le parcours a été suspendu |
-| [Action de canal](journeys-message.md) | Les profils sont garés ou ignorés en fonction de ce que l’utilisateur a choisi lorsque le parcours a été suspendu |
-| [Action personnalisée](../action/action.md) | Les profils sont garés ou ignorés en fonction de ce que l’utilisateur a choisi lorsque le parcours a été suspendu |
+| Décision de contenu | Les profils sont mis en attente ou ignorés en fonction de ce que l’utilisateur a choisi lorsque le parcours a été suspendu |
+| [Action de canal](journeys-message.md) | Les profils sont mis en attente ou ignorés en fonction de ce que l’utilisateur a choisi lorsque le parcours a été suspendu |
+| [Action personnalisée](../action/action.md) | Les profils sont mis en attente ou ignorés en fonction de ce que l’utilisateur a choisi lorsque le parcours a été suspendu |
 | [Mettre à jour le profil](update-profiles.md) et [Saut](jump.md) | Même comportement que dans un parcours dynamique |
 | [Source de données externes](../datasource/external-data-sources.md) | Même comportement que dans un parcours dynamique |
 | [Critères de sortie](journey-properties.md#exit-criteria) | Même comportement que dans un parcours dynamique |
@@ -106,7 +106,7 @@ Pour reprendre un parcours en pause et recommencer à écouter les événements 
 1. Ouvrez le parcours que vous souhaitez reprendre.
 1. Cliquez sur le bouton **...Plus** dans la section supérieure droite de la zone de travail du parcours, puis sélectionnez **Reprendre**.
 
-   Le parcours passe à l’état **Reprise**. Lorsque le parcours reprend, de nouvelles entrées démarrent dans la minute qui suit. La reprise des profils qui étaient conservés peut prendre un certain temps.  Comme tous les profils doivent reprendre pour que le parcours soit à nouveau **actif**, la transition du statut **Reprise** au statut **actif** peut prendre un certain temps.
+   Le parcours passe à l’état **Reprise**. Lorsque le parcours reprend, de nouvelles entrées démarrent dans la minute qui suit. La reprise des profils qui ont été conservés peut prendre un certain temps : les profils sont repris à un taux de 5 000 tps.  Comme tous les profils doivent reprendre pour que le parcours soit à nouveau **actif**, la transition du statut **Reprise** au statut **actif** peut prendre un certain temps.
 
 1. Cliquez sur le bouton **Reprendre** pour confirmer.
 
@@ -116,7 +116,7 @@ Dans la liste de vos parcours, vous pouvez reprendre un ou plusieurs parcours **
 
 ## Application d’un filtre global aux profils d’un parcours en pause {#journey-global-filters}
 
-Lorsqu’un parcours est en pause, vous pouvez l’appliquer en fonction des attributs de profil. Ce filtre permet d’exclure les profils qui correspondent à l’expression définie au moment de la reprise. Une fois le filtre global défini, il s’applique aux nœuds d’action, même pour les nouvelles entrées de profil. Les profils correspondant aux critères et les nouveaux profils qui tentent d’y accéder seront exclus du parcours **sur le nœud d’action suivant** qu’ils rencontrent.
+Lorsqu’un parcours est en pause, vous pouvez l’appliquer en fonction des attributs de profil. Ce filtre permet d’exclure les profils qui correspondent à l’expression définie au moment de la reprise. Une fois le filtre global défini, il est appliqué sur les nœuds d’action, même pour les nouvelles entrées de profils. Les profils existants correspondant aux critères et les nouveaux profils entrant dans le parcours seront exclus du parcours **sur le nœud d’action suivant** qu’ils rencontrent.
 
 Par exemple, pour exclure tous les clients français d’un parcours en pause, procédez comme suit :
 
@@ -136,7 +136,7 @@ Par exemple, pour exclure tous les clients français d’un parcours en pause, p
 
 1. [Reprendre le parcours ](#journey-resume-steps).
 
-   Au moment de la reprise, tous les profils dont l’attribut de pays est défini sur France seront automatiquement exclus du parcours au niveau du nœud d’action suivant. Tous les nouveaux profils dont l’attribut de pays est défini sur France qui tentent d’entrer dans le parcours sont bloqués au nœud d’action suivant.
+   Au moment de la reprise, tous les profils dont l’attribut de pays est défini sur France seront automatiquement exclus du parcours au niveau du nœud d’action suivant. Tous les nouveaux profils dont l’attribut de pays est défini sur France qui tentent d’entrer dans le parcours sont également bloqués au nœud d’action suivant.
 
 N’oubliez pas que les exclusions de profil pour les profils actuellement dans le parcours et pour les nouveaux profils ne se produiront que lorsqu’ils atteignent un nœud d’action.
 
@@ -157,9 +157,9 @@ N’oubliez pas que les exclusions de profil pour les profils actuellement dans 
 * Même après la pause, à mesure que les événements continuent d’être traités, ces événements sont comptabilisés dans le nombre d’événements de Parcours par seconde, quota au-delà duquel la limitation est prise en compte pour l’unité
 * Lorsque les profils se maintiennent dans un parcours en pause, les attributs de profil sont actualisés au moment de la reprise
 * Les conditions sont toujours exécutées dans des parcours en pause. Ainsi, si un parcours a été suspendu en raison de problèmes de qualité des données, toute condition préalable à un nœud d’action peut être évaluée avec des données incorrectes
-* Pour les parcours basés sur l’audience incrémentielle **Lecture d’audience**, la durée de pause est prise en compte. Par exemple, pour un parcours quotidien, s’il a été mis en pause le 2 et a repris le 5 du mois, alors l’exécution le 6 prendra tous les profils qualifiés du 1 au 6. Ce n’est pas le cas pour la qualification d’audience ou les parcours basés sur un événement (si une qualification d’audience ou un événement sont reçus pendant une pause, ces événements sont ignorés)
+* Pour les parcours basés sur l’audience incrémentielle **Lecture d’audience**, la durée de pause est prise en compte. Ce n’est pas le cas pour la qualification d’audience ou les parcours basés sur un événement (si une qualification d’audience ou un événement sont reçus pendant une pause et qu’ils sont la première activité du parcours, ces événements sont ignorés)
 * Si des profils sont conservés dans un parcours et que ce parcours reprend automatiquement au bout de quelques jours, les profils continuent le parcours et ne sont pas supprimés. Si vous voulez les laisser tomber, vous devez arrêter le parcours
-* Dans les parcours en pause, les alertes ne se déclenchent pas pour les alertes de segments par lots
+* Dans les parcours en pause, les alertes ne se déclenchent pas pour les [alertes de segments par lots](../reports/alerts.md#alert-read-audiences)
 * Il n’existe aucun journal d’audit dans le système lorsque l’état de pause du parcours est arrêté après 14 jours
 * Certains profils ignorés peuvent être visibles dans l’événement d’étape de Parcours, mais pas dans les rapports. Par exemple :
    * Ignorer les événements métier pour **Lecture d’audience**
@@ -181,7 +181,7 @@ Lorsque vous suspendez ce parcours, vous choisissez si les profils sont **Ignor�
 1. Activités **Push**/**Email** : lors d&#39;un parcours en pause, les profils commencent à attendre ou sont ignorés (selon le choix effectué par l&#39;utilisateur au moment de la pause) sur le nœud d&#39;action suivant. Les profils vont donc commencer à attendre ou seront ignorés.
 1. **Événements** après les nœuds **Action** : si un profil est en attente sur un nœud **Action** et qu’une activité **Événement** suit, si cet événement est déclenché, le profil est ignoré.
 
-Selon ce comportement, vous pouvez voir le nombre de profils augmenter sur le parcours en pause, principalement dans les activités précédant les activités **Action**. Par exemple, dans cet exemple, l’activité **Attente** est ignorée, ce qui augmente le nombre de profils qui passent par l’activité **Condition**.
+Selon ce comportement, vous pouvez voir le nombre de profils augmenter sur le parcours en pause, principalement dans les activités précédant les activités **Action**. Par exemple, dans cet exemple, l’activité **Attente** est toujours activée, ce qui augmente le nombre de profils qui passent par l’activité **Condition** lorsqu’ils la quittent.
 
 Lorsque vous reprenez ce parcours :
 
