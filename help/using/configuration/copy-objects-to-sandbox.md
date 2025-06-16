@@ -9,10 +9,10 @@ role: User, Developer, Data Engineer
 level: Experienced
 keywords: sandbox, parcours, copier, environnement
 exl-id: 356d56a5-9a90-4eba-9875-c7ba96967da9
-source-git-commit: 4945e2fb37b54683f56ca3b832553345486d0a80
-workflow-type: ht
-source-wordcount: '1375'
-ht-degree: 100%
+source-git-commit: 4aaef970b76002c72e3c28f55078d96fdc3cd882
+workflow-type: tm+mt
+source-wordcount: '1450'
+ht-degree: 94%
 
 ---
 
@@ -40,6 +40,9 @@ Journey Optimizer permet d’exporter des parcours, des actions personnalisées
 * Lors de la copie d’un objet, toutes les dépendances (telles que les fragments imbriqués, les audiences de parcours ou les actions) sont correctement mises à jour dans l’objet parent, assurant ainsi un mappage correct dans le sandbox cible.
 
 * Si un objet exporté contient une personnalisation de profil, assurez-vous que le schéma approprié existe dans le sandbox cible afin d’éviter tout problème de personnalisation.
+
+* Les pages de destination ne sont actuellement pas prises en charge pour la migration entre les sandbox. Lorsque vous copiez un parcours dans un autre sandbox, toutes les références aux pages de destination dans votre parcours ou le contenu de l’e-mail pointent toujours vers les identifiants de page de destination d’origine (source) du sandbox. Après la migration, vous devez mettre à jour manuellement toutes les références de page de destination dans votre contenu de parcours et d’e-mail pour utiliser les identifiants corrects de page de destination à partir du sandbox cible (de destination). Voir [Création et publication de pages de destination](../landing-pages/create-lp.md).
+
 
 ### Parcours {#journeys}
 
