@@ -9,7 +9,7 @@ role: Data Engineer, Data Architect, Admin
 level: Experienced
 keywords: jeu de données, optimizer, cas d’utilisation
 exl-id: 26ba8093-8b6d-4ba7-becf-b41c9a06e1e8
-source-git-commit: 1728d43bf278f9caf127d8ed44ef8b15969485f7
+source-git-commit: 3df87ee9028217d353d657167e541e7d113c6065
 workflow-type: tm+mt
 source-wordcount: '894'
 ht-degree: 94%
@@ -146,6 +146,11 @@ Erreurs permanentes regroupées par code de rebond :
 SELECT _experience.customerjourneymanagement.messagedeliveryfeedback.messagefailure.reason AS failurereason, COUNT(*) AS hardbouncecount FROM ajo_message_feedback_event_dataset WHERE _experience.customerjourneymanagement.messagedeliveryfeedback.feedbackstatus = 'bounce' AND _experience.customerjourneymanagement.messagedeliveryfeedback.messagefailure.type = 'Hard' AND _experience.customerjourneymanagement.messageprofile.channel._id = 'https://ns.adobe.com/xdm/channels/email' GROUP BY failurereason
 ```
 
+>[!NOTE]
+>
+>Dans certains parcours, les `messageID` peuvent ne pas être uniques pour chaque diffusion individuelle. Si un parcours envoie à nouveau la même action au même profil, le même `messageID` peut être réutilisé. Par conséquent, pour suivre ou attribuer avec précision des événements au niveau de l’envoi individuel, combinez les champs `journeyVersionID`, `journeyActionID` et `batchInstanceID` (pour les parcours par lots) ou `identityMap` pour une unicité plus précise.
+
+
 ### Identifier les adresses en quarantaine après une panne du FAI{#isp-outage-query}
 
 En cas de panne du fournisseur d’accès à Internet (FAI), vous devez identifier les adresses e-mail qui ont été considérées incorrectement comme des rebonds (mises en quarantaine) pour des domaines spécifiques et pendant une période donnée. Pour obtenir ces adresses, utilisez la requête suivante :
@@ -169,9 +174,6 @@ dans laquelle le format des dates est le suivant : `YYYY-MM-DD HH:MM:SS`.
 Une fois identifiées, supprimez ces adresses de la liste de suppression de Journey Optimizer. [En savoir plus](../configuration/manage-suppression-list.md#remove-from-suppression-list).
 
 
->[!NOTE]
->
->Dans certains parcours, les `messageID` peuvent ne pas être uniques pour chaque diffusion individuelle. Si un parcours envoie à nouveau la même action au même profil, le même `messageID` peut être réutilisé. Par conséquent, pour suivre ou attribuer avec précision des événements au niveau de l’envoi individuel, combinez les champs `journeyVersionID`, `journeyActionID` et `batchInstanceID` (pour les parcours par lots) ou `identityMap` pour une unicité plus précise.
 
 
 ## Jeu de données d’événement d’expérience de tracking de notifications push {#push-tracking-experience-event-dataset}
