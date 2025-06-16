@@ -10,7 +10,7 @@ hide: true
 hidefromtoc: true
 badge: label="Disponibilité limitée" type="Informative"
 keywords: publication, parcours, actif, validité, vérifier
-source-git-commit: 8e5213cf51183c68e87c2cec9cb12984acf8151a
+source-git-commit: 437868d49f4bc4123e370b60d09ba0bf644e43d9
 workflow-type: tm+mt
 source-wordcount: '2021'
 ht-degree: 1%
@@ -185,5 +185,5 @@ Selon ce comportement, vous pouvez voir le nombre de profils augmenter sur le pa
 
 Lorsque vous reprenez ce parcours :
 
-1. Les entrées du parcours débutent dans une minute
+1. Les entrées du parcours débutent dans une minute.
 1. Les profils qui étaient en attente dans le parcours sur les activités **Action** sont rétablis à un taux de 5 000 tps. Ils peuvent alors entrer le **Action** qu’ils attendaient et continuer le parcours.
