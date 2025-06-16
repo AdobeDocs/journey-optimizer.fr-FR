@@ -10,9 +10,9 @@ hide: true
 hidefromtoc: true
 badge: label="Disponibilité limitée" type="Informative"
 keywords: publication, parcours, actif, validité, vérifier
-source-git-commit: 187ddc49d72a0ed5ce0ad6f7b910815ae2e59d34
+source-git-commit: 33b60693d060e37873f9d505d0893839698036a8
 workflow-type: tm+mt
-source-wordcount: '2008'
+source-wordcount: '2011'
 ht-degree: 1%
 
 ---
@@ -41,7 +41,7 @@ Cette fonctionnalité réduit le risque d’envoi de messages inattendus lors d�
 >
 >* Les autorisations de pause et de reprise des parcours sont limitées aux utilisateurs disposant de l’autorisation de haut niveau **[!DNL Publish journeys]**. Pour en savoir plus sur la gestion des droits d’accès des utilisateurs et des utilisatrices [!DNL Journey Optimizer], consultez [cette section](../administration/permissions-overview.md).
 >
->* Avant de commencer à utiliser la fonctionnalité de pause/reprise, [lisez les mécanismes de sécurisation et limites](#journey-pause-guardrails).
+>* Avant de commencer à utiliser la fonctionnalité de pause/reprise, [lisez les mécanismes de sécurisation et limitations](#journey-pause-guardrails).
 
 
 ## Mise en pause d’un parcours {#journey-pause-steps}
@@ -148,39 +148,42 @@ N’oubliez pas que les exclusions de profil pour les profils actuellement dans 
 
 ## Mécanismes de sécurisation et limitations {#journey-pause-guardrails}
 
-* Une version de parcours peut être suspendue pendant 14 jours au maximum.
-* Les parcours en pause sont pris en compte dans toutes les règles métier, de la même manière que s’ils étaient actifs.
-* Les profils sont « ignorés » dans un parcours en pause lorsqu’ils atteignent une activité d’action. S’ils restent en attente pendant la mise en pause d’un parcours et quittent cette attente après sa reprise, ils poursuivront le parcours et ne seront pas ignorés.
-* Même après la pause, à mesure que les événements continuent d’être traités, ces événements sont comptabilisés dans le nombre d’événements de Parcours par seconde, quota au-delà duquel la limitation est prise en compte pour l’unité.
-* Les profils entrés sur le parcours mais ignorés pendant la pause seraient toujours comptabilisés comme des profils engageables.
+* Une version de parcours peut être suspendue pendant 14 jours au maximum
+* Les parcours suspendus sont comptabilisés dans le quota de parcours vivants
+* Les profils entrés sur le parcours mais ignorés pendant la pause seraient toujours comptabilisés comme des profils engageables
+* Les parcours en pause sont pris en compte dans toutes les règles métier, de la même manière que s’ils étaient actifs
+* Le délai d’expiration global du parcours s’applique toujours aux parcours en pause. Par exemple, si un profil a été dans un parcours pendant 90 jours et que le parcours est suspendu, ce profil quittera toujours le parcours le 91
+* Les profils sont **ignorés** dans un parcours en pause lorsqu’ils atteignent une activité d’action. S’ils restent en attente pendant la mise en pause d’un parcours et quittent cette attente après sa reprise, ils poursuivront le parcours et ne seront pas ignorés. [Voir l’exemple complet](#journey-pause-sample)
+* Même après la pause, à mesure que les événements continuent d’être traités, ces événements sont comptabilisés dans le nombre d’événements de Parcours par seconde, quota au-delà duquel la limitation est prise en compte pour l’unité
 * Lorsque les profils se maintiennent dans un parcours en pause, les attributs de profil sont actualisés au moment de la reprise
-* Les conditions sont toujours exécutées dans des parcours en pause. Ainsi, si un parcours a été suspendu en raison de problèmes de qualité des données, toute condition préalable à un nœud d’action peut être évaluée avec des données incorrectes.
-* Pour le parcours d’audience de lecture incrémentielle, la durée de pause est prise en compte. Par exemple, pour un parcours quotidien, s’il a été mis en pause le 2 et a repris le 5 du mois, alors l’exécution le 6 prendra tous les profils qualifiés du 1 au 6. Ce n’est pas le cas pour la qualification d’audience ou les parcours basés sur un événement (si une qualification d’audience ou un événement sont reçus pendant une pause, ces événements sont ignorés).
-* Les parcours en pause sont comptabilisés dans le quota de parcours vivants.
-* Le délai d’expiration global du parcours s’applique toujours aux parcours en pause. Par exemple, si un profil a été dans un parcours pendant 90 jours et que le parcours est suspendu, ce profil quittera toujours le parcours le 91 e jour.
-* Si des profils sont conservés dans un parcours et que ce parcours reprend automatiquement au bout de quelques jours, les profils continuent le parcours et ne sont pas supprimés. Si vous voulez les laisser tomber, vous devez arrêter le parcours.
-* Dans les parcours en pause, les alertes ne se déclenchent pas pour les alertes de segments par lots.
-* Il n’existe aucun journal d’audit dans le système lorsque l’état de pause du parcours est arrêté après 14 jours.
-* Certains profils ignorés peuvent être visibles dans l’événement d’étape de Parcours, mais pas dans les rapports. Par exemple : ignorez les événements métier pour Lecture d’audience, les traitements Lecture d’audience sont abandonnés en raison d’un parcours en pause, les événements ignorés lorsque l’activité d’événement se trouvait après une action en attente du profil.
-  <!--* There is a guardrail (at an org level) on the max number of profiles that can be held in paused journeys. This guardrail is per org, and is visible in the journey inventory on a new bar (only visible when there are paused journeys).-->
+* Les conditions sont toujours exécutées dans des parcours en pause. Ainsi, si un parcours a été suspendu en raison de problèmes de qualité des données, toute condition préalable à un nœud d’action peut être évaluée avec des données incorrectes
+* Pour les parcours basés sur l’audience incrémentielle **Lecture d’audience**, la durée de pause est prise en compte. Par exemple, pour un parcours quotidien, s’il a été mis en pause le 2 et a repris le 5 du mois, alors l’exécution le 6 prendra tous les profils qualifiés du 1 au 6. Ce n’est pas le cas pour la qualification d’audience ou les parcours basés sur un événement (si une qualification d’audience ou un événement sont reçus pendant une pause, ces événements sont ignorés)
+* Si des profils sont conservés dans un parcours et que ce parcours reprend automatiquement au bout de quelques jours, les profils continuent le parcours et ne sont pas supprimés. Si vous voulez les laisser tomber, vous devez arrêter le parcours
+* Dans les parcours en pause, les alertes ne se déclenchent pas pour les alertes de segments par lots
+* Il n’existe aucun journal d’audit dans le système lorsque l’état de pause du parcours est arrêté après 14 jours
+* Certains profils ignorés peuvent être visibles dans l’événement d’étape de Parcours, mais pas dans les rapports. Par exemple :
+   * Ignorer les événements métier pour **Lecture d’audience**
+   * **Lecture d’audience** les tâches sont abandonnées en raison d’un parcours en pause
+   * Événements ignorés lorsque l’activité **Événement** se trouvait après une activité d’action en attente du profil
+     <!--* There is a guardrail (at an org level) on the max number of profiles that can be held in paused journeys. This guardrail is per org, and is visible in the journey inventory on a new bar (only visible when there are paused journeys).-->
 
 ## Exemple complet {#journey-pause-sample}
 
 Prenons l’exemple du parcours ci-dessous :
 
-![Exemple de parcours ](assets/pause-journey-sample.png)
+![Exemple de parcours ](assets/pause-journey-sample.png){zoomable="yes"}
 
-Lorsque vous suspendez ce parcours, vous indiquez si les profils sont **Ignorés** ou **Bloqués**, puis la gestion des profils est la suivante :
+Lorsque vous suspendez ce parcours, vous choisissez si les profils sont **Ignorés** ou **Bloqués**, puis la gestion des profils est la suivante :
 
-1. Activité **AddToCart** : toutes les nouvelles entrées de profil sont bloquées. Si un profil est déjà entré dans le parcours avant une pause, il passera au nœud d’action suivant.
+1. Activité **AddToCart** : toutes les nouvelles entrées de profil sont bloquées. Si un profil est déjà entré dans le parcours avant une pause, il passe au nœud d’action suivant.
 1. Activité **Attente** : les profils continuent à attendre normalement sur le nœud et le quitteront, même si le parcours est en pause.
 1. **Condition** : les profils continuent de remplir des conditions et de se déplacer vers la branche de droite, en fonction de l’expression définie sur la condition.
 1. Activités **Push**/**Email** : lors d&#39;un parcours en pause, les profils commencent à attendre ou sont ignorés (selon le choix effectué par l&#39;utilisateur au moment de la pause) sur le nœud d&#39;action suivant. Les profils vont donc commencer à attendre ou seront ignorés.
-1. **Événements** après les nœuds d’action : si un profil est en attente sur un nœud d’action et qu’un événement se produit après, si cet événement est déclenché, le profil est ignoré.
+1. **Événements** après les nœuds **Action** : si un profil est en attente sur un nœud **Action** et qu’une activité **Événement** suit, si cet événement est déclenché, le profil est ignoré.
 
-Selon ce comportement, vous pouvez voir le nombre de profils augmenter sur le parcours en pause, principalement dans les activités avant les actions. Par exemple, dans cet exemple, l’Attente est ignorée, ce qui augmente le nombre de profils qui passent par l’activité Condition .
+Selon ce comportement, vous pouvez voir le nombre de profils augmenter sur le parcours en pause, principalement dans les activités précédant les activités **Action**. Par exemple, dans cet exemple, l’activité **Attente** est ignorée, ce qui augmente le nombre de profils qui passent par l’activité **Condition**.
 
 Lorsque vous reprenez ce parcours :
 
 1. Les entrées du parcours débutent dans une minute
-1. Les profils qui étaient en attente dans le parcours des activités d’action sont repris à un taux de 5 000 tps. Ils vont alors entrer l’action qu’ils attendaient et continuer le parcours.
+1. Les profils qui étaient en attente dans le parcours sur les activités **Action** sont rétablis à un taux de 5 000 tps. Ils peuvent alors entrer le **Action** qu’ils attendaient et continuer le parcours.
