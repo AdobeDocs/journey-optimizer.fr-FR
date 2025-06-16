@@ -9,10 +9,10 @@ role: Data Engineer
 level: Intermediate
 keywords: expression, éditeur, dynamique, contenu
 exl-id: 639ad7df-0d0f-4c9b-95d1-f3101267aae2
-source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
-workflow-type: ht
-source-wordcount: '608'
-ht-degree: 100%
+source-git-commit: 0ce842816e8a63fabd21483323c664238c32848a
+workflow-type: tm+mt
+source-wordcount: '653'
+ht-degree: 93%
 
 ---
 
@@ -45,6 +45,11 @@ Les étapes suivantes permettent d’ajouter du contenu dynamique aux expression
 1. Une fois que votre contenu est prêt, vous pouvez prévisualiser les différentes variantes à l’aide du bouton **[!UICONTROL Simuler un contenu]**. [Découvrez comment tester et prévisualiser des messages](../content-management/preview-test.md).
 
    ![](assets/conditions-preview.png)
+
+>[!CAUTION]
+>
+>Si le rendu du Designer d’e-mail échoue après l’ajout de blocs conditionnels, vérifiez que la syntaxe de chaque nouvelle condition est correcte et qu’il n’existe aucune instruction en double ou conflictuelle. Si les problèmes persistent, pensez à reconstruire les sections problématiques dans un nouveau modèle et à tester chaque bloc conditionnel de manière incrémentielle.
+
 
 ## Ajouter du contenu dynamique dans les e-mails {#emails}
 
