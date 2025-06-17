@@ -5,10 +5,10 @@ feature: Decisioning
 role: User
 level: Intermediate
 exl-id: d2872bd3-42f8-4744-bb5b-41c49340098a
-source-git-commit: 60cb5e1ba2b5c8cfd0a306a589c85761be1cf657
+source-git-commit: 70543fc2b70b388934c1b3f45e5405f02895a3af
 workflow-type: tm+mt
-source-wordcount: '289'
-ht-degree: 100%
+source-wordcount: '295'
+ht-degree: 96%
 
 ---
 
@@ -24,9 +24,9 @@ Le débit de diffusion correspond au nombre de réponses de décision qui peuven
 
 | Mécanisme de sécurisation | Limite |
 | ------- | ------- |
-| Requêtes de l’API Decisioning par seconde | 500 |
-| Requêtes de l’API Edge Decisioning par seconde avec la segmentation Edge | 1 500 |
-| Requêtes de l’API Edge Decisioning par seconde sans la segmentation Edge | 5 000 |
+| Requêtes de l’API Decisioning par seconde | 500 par organisation |
+| Requêtes de l’API Edge Decisioning par seconde avec la segmentation Edge | 1 500 par organisation |
+| Requêtes de l’API Edge Decisioning par seconde sans la segmentation Edge | 5 000 par organisation |
 | Offres renvoyées par réponse | Jusqu’à 30 par portée de décision ou 100 au total |
 | Nombre maximal de règles d’offre impliquées par requête | 100 |
 
