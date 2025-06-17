@@ -8,7 +8,7 @@ solution: Journey Optimizer
 source-git-commit: 7e9d707d6413509aef207a6183f6c9953ccdf229
 workflow-type: tm+mt
 source-wordcount: '2434'
-ht-degree: 95%
+ht-degree: 99%
 
 ---
 
@@ -50,10 +50,10 @@ ht-degree: 95%
       + [Concevoir le parcours](using/building-journeys/using-the-journey-designer.md)
       + [Tester votre parcours](using/building-journeys/testing-the-journey.md)
       + [Simuler votre parcours](using/building-journeys/journey-simulation.md)
-      + [Parcours de l’essai](using/building-journeys/journey-dry-run.md)
+      + [Test à blanc du parcours](using/building-journeys/journey-dry-run.md)
       + [Publier votre parcours](using/building-journeys/publishing-the-journey.md)
       + [Rapport dynamique dans votre parcours](using/building-journeys/report-journey.md)
-      + [Mettre en pause un parcours](using/building-journeys/journey-pause.md)
+      + [Mettre un parcours en pause](using/building-journeys/journey-pause.md)
    + Gérer vos parcours{#manage-journey}
       + [Parcourir et filtrer vos parcours](using/building-journeys/journey-ui.md)
       + [Entrée de profil dans les parcours](using/building-journeys/entry-management.md)
@@ -63,8 +63,8 @@ ht-degree: 95%
       + [Fin de votre parcours](using/building-journeys/end-journey.md)
       + [Copier un parcours dans un autre sandbox](using/building-journeys/copy-to-sandbox.md)
       + [Résoudre les problèmes de votre parcours](using/building-journeys/troubleshooting.md)
-      + [Résolution des problèmes liés aux actions entrantes dans parcours](using/building-journeys/troubleshooting-inbound.md)
-      + [Intégration avec les services intelligents](using/building-journeys/ai-services-overview.md)
+      + [Résolution des problèmes liés aux actions entrantes dans les parcours](using/building-journeys/troubleshooting-inbound.md)
+      + [Intégration aux services intelligents](using/building-journeys/ai-services-overview.md)
    + Activités {#about-journey-building}
       + [Prise en main des activités de parcours](using/building-journeys/about-journey-activities.md)
       + [Événements généraux](using/building-journeys/general-events.md)
@@ -180,19 +180,19 @@ ht-degree: 95%
    + [Commencer les campagnes orchestrées](using/orchestrated/gs-orchestrated-campaigns.md)
    + [Étapes de configuration](using/orchestrated/configuration-steps.md)
    + [Accéder aux campagnes orchestrées et les gérer](using/orchestrated/access-manage-orchestrated-campaigns.md)
-   + Lancement de votre première campagne orchestrée{#launch}
+   + Lancer votre première campagne orchestrée{#launch}
       + [Étapes clés de création de campagnes orchestrées](using/orchestrated/gs-campaign-creation.md)
       + [Créer et planifier la campagne](using/orchestrated/create-orchestrated-campaign.md)
       + [Orchestrer les activités](using/orchestrated/orchestrate-activities.md)
       + [Envoyer des messages avec des campagnes orchestrées](using/orchestrated/send-messages.md)
-      + [Démarrer et suivre la campagne](using/orchestrated/start-monitor-campaigns.md)
+      + [Démarrer et surveiller la campagne](using/orchestrated/start-monitor-campaigns.md)
       + [Création de rapports](using/orchestrated/reporting-campaigns.md)
-   + Interrogation de la base de données {#query-database}
+   + Interroger la base de données {#query-database}
       + [Utiliser le créateur de règles](using/orchestrated/orchestrated-rule-builder.md)
       + [Créer votre première règle](using/orchestrated/build-query.md)
       + [Modifier les expressions](using/orchestrated/edit-expressions.md)
    + Activités de campagnes orchestrées {#design-campaigns}
-      + [Commencer avec les activités](using/orchestrated/activities/about-activities.md)
+      + [Commencer les activités](using/orchestrated/activities/about-activities.md)
       + [Rendez-vous](using/orchestrated/activities/and-join.md)
       + [Créer une audience](using/orchestrated/activities/build-audience.md)
       + [Changement de dimension](using/orchestrated/activities/change-dimension.md)
@@ -215,7 +215,7 @@ ht-degree: 95%
    + [Commencer avec la gestion et la hiérarchisation des conflits](using/conflict-prioritization/gs-conflict-prioritization.md)
    + [Identifier les conflits potentiels](using/conflict-prioritization/conflicts.md)
    + [Attribuer des scores de priorité](using/conflict-prioritization/priority-scores.md)
-Définissez les règles de limitation des messages et des parcours  {#capping-rules}
+Définissez les règles de limitation des messages et des parcours {#capping-rules}
       + [Utiliser des jeux de règles](using/conflict-prioritization/rule-sets.md)
       + [Limitation et arbitrage des parcours](using/conflict-prioritization/journey-capping.md)
       + [Capping de la fréquence par canal et type de communication](using/conflict-prioritization/channel-capping.md)
@@ -226,7 +226,7 @@ Définissez les règles de limitation des messages et des parcours  {#capping-ru
       + [Prévisualiser avec les profils de test](using/content-management/preview.md)
       + [Envoyer des BAT à l’aide des données de profil de test](using/content-management/proofs.md)
       + [Tester le rendu des e-mails](using/content-management/rendering.md)
-      + [Simuler les variations de contenu](using/test-approve/simulate-sample-input.md)
+      + [Simuler des variations de contenu](using/test-approve/simulate-sample-input.md)
       + [Envoyer le rapport sur les spams](using/content-management/spam-report.md)
    + Approuver les parcours et les campagnes {#approve}
       + [Commencer les approbations](using/test-approve/gs-approval.md)
@@ -454,7 +454,7 @@ Définissez les règles de limitation des messages et des parcours  {#capping-ru
    + [Identités](using/audience/get-started-identity.md)
    + [Utilisation des licences](using/audience/license-usage.md)
 + Création de rapports {#reporting}
-   + [Commencer avec les rapports](using/reports/gs-reports.md)
+   + [Commencer les rapports](using/reports/gs-reports.md)
    + Rapport dynamique {#live-report}
       + [Commencer avec le rapport dynamique](using/reports/live-report.md)
       + [Liste de mesures](using/reports/live-report-components.md)
@@ -493,7 +493,7 @@ Définissez les règles de limitation des messages et des parcours  {#capping-ru
       + [Rapport d’aperçu](using/reports/channel-report-cja.md)
       + [Rapport sur les pages de destination](using/reports/lp-report-global-cja.md)
       + [Rapport sur les listes d’abonnements](using/reports/subscription-report-global-cja.md)
-   + Rapports de parcours personnalisés {#reports}
+   + Rapports sur les parcours personnalisés {#reports}
       + [Créer des rapports de parcours](using/reports/sharing-overview.md)
       + [Liste des champs d’événement d’étape](using/reports/sharing-field-list.md)
       + Champs d’événement d’étape hérités {#legacy-step-event-fields}
@@ -738,7 +738,7 @@ Définissez les règles de limitation des messages et des parcours  {#capping-ru
    + [Modifier les adresses d’exécution](using/configuration/primary-email-addresses.md)
    + [Configurer des règles métier](using/configuration/frequency-rules.md)
 + Configuration de parcours {#configure-journeys}
-   + [Prise en main de la configuration de parcours](using/configuration/about-data-sources-events-actions.md)
+   + [Commencer la configuration des parcours](using/configuration/about-data-sources-events-actions.md)
    + Configuration des événements {#events-journeys}
       + [Utiliser des événements de parcours](using/event/about-events.md)
       + [Configurer un événement unitaire](using/event/about-creating.md)
@@ -764,15 +764,15 @@ Définissez les règles de limitation des messages et des parcours  {#capping-ru
       + [API de limitation](using/configuration/capping.md)
       + [API de limitation](using/configuration/throttling.md)
    + Envoyer avec les solutions Adobe {#adobe-solutions}
-      + [Action Campaign Standard dans les parcours](using/action/acs-action.md)
-      + [Action Campaign v7/v8 dans les parcours](using/action/acc-action.md)
-      + [Action Marketo Engage dans les parcours](using/action/marketo-engage.md)
+      + [Action Campaign Standard dans les parcours](using/action/acs-action.md)
+      + [Action Campaign v7/v8 dans les parcours](using/action/acc-action.md)
+      + [Action Marketo Engage dans les parcours](using/action/marketo-engage.md)
    + Gestion des sandbox {#sandbox}
       + [Utiliser et attribuer des sandbox](using/administration/sandboxes.md)
       + [Exporter des objets vers un autre sandbox](using/configuration/copy-objects-to-sandbox.md)
    + [Configurer le connecteur Sources](using/start/get-started-sources.md)
 + Contrôle d’accès {#access-control}
-   + [Prise en main du contrôle d’accès](using/administration/permissions-overview.md)
+   + [Commencer le contrôle d’accès](using/administration/permissions-overview.md)
    + [Gérer les utilisateurs et utilisatrices et les rôles](using/administration/permissions.md)
    + [Rôles intégrés](using/administration/ootb-product-profiles.md)
    + [Autorisations intégrées](using/administration/ootb-permissions.md)

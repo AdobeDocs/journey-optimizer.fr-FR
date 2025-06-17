@@ -11,7 +11,7 @@ exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
 source-git-commit: 284c4896b923eac1d360b61d97cbe560d747ea4f
 workflow-type: tm+mt
 source-wordcount: '2513'
-ht-degree: 98%
+ht-degree: 99%
 
 ---
 
@@ -24,9 +24,9 @@ Les droits, les limitations de produit et la sécurisation des performances sont
 
 >[!CAUTION]
 >
->* [Les mécanismes de sécurisation pour les données et la segmentation du profil client en temps réel](https://experienceleague.adobe.com/fr/docs/experience-platform/profile/guardrails){target="_blank"} s’appliquent également à Adobe Journey Optimizer.
+>* [Les mécanismes de sécurisation pour les données et la segmentation du profil client en temps réel](https://experienceleague.adobe.com/fr/docs/experience-platform/profile/guardrails){target="_blank"} s’appliquent également à Adobe Journey Optimizer.
 >
->* Consultez également la section [ Mécanismes de sécurisation pour l’ingestion de données dans le profil client en temps réel](https://experienceleague.adobe.com/fr/docs/experience-platform/ingestion/guardrails){target="_blank"}
+>* Consultez également la section [ Mécanismes de sécurisation pour l’ingestion de données dans le profil client en temps réel](https://experienceleague.adobe.com/en/docs/experience-platform/ingestion/guardrails){target="_blank"}
 
 
 ## Navigateurs pris en charge {#browsers}

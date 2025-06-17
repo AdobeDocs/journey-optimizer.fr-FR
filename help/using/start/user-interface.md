@@ -11,7 +11,7 @@ exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
 source-git-commit: 284c4896b923eac1d360b61d97cbe560d747ea4f
 workflow-type: tm+mt
 source-wordcount: '1694'
-ht-degree: 87%
+ht-degree: 98%
 
 ---
 
@@ -59,7 +59,7 @@ Créez des campagnes et des parcours à partir de cette section.
 
 * **[!UICONTROL Parcours]** - Créez, configurez et orchestrez vos parcours client : combinez les activités d’événement, d’orchestration et d’action pour créer vos scénarios cross-canal à plusieurs étapes. [En savoir plus](../building-journeys/journey-gs.md#jo-build).
 
-* **[!UICONTROL Rapports]** - La création de rapports Journey Optimizer est entièrement intégrée aux fonctionnalités de Customer Journey Analytics, ce qui permet de normaliser les rapports sur les deux plateformes et d’améliorer la cohérence et la fiabilité des données. Cette intégration transparente entre Journey Optimizer et Customer Journey Analytics offre une vue plus claire des mesures de performances, ce qui permet aux utilisateurs et aux utilisatrices de prendre des décisions plus éclairées. [En savoir plus](../reports/report-gs-cja.md)
+* **[!UICONTROL Rapports]** - La création de rapports de Journey Optimizer est entièrement intégrée aux fonctionnalités de Customer Journey Analytics, permettant ainsi de normaliser la création de rapports sur les deux plateformes et d’améliorer la cohérence et la fiabilité des données. Cette intégration transparente entre Journey Optimizer et Customer Journey Analytics fournit une meilleure visibilité des mesures de performances, ce qui aide les utilisateurs et les utilisatrices à prendre des décisions plus éclairées. [En savoir plus](../reports/report-gs-cja.md)
 
 
 ### [!UICONTROL GESTION DES DÉCISIONS] {#left-nav-decision}
@@ -149,7 +149,7 @@ La page d’accueil d’[!DNL Adobe Journey Optimizer] propose des cas d’utili
 
 ![](assets/use-cases-home.png)
 
-+++ **Cas pratiques disponibles**
++++ **Cas d’utilisation disponibles**
 
 Les cas d&#39;utilisation disponibles sont les suivants :
 
@@ -184,7 +184,7 @@ L’assistant IA est une fonctionnalité de l’interface d’utilisation qui vo
 
 Pour accéder à l’Assistant IA, cliquez sur l’icône située dans la barre supérieure. L’Assistant IA s’affiche dans la partie droite de l’écran.
 
-Découvrez comment accéder à l’assistant AI et l’utiliser [sur cette page](ai-assistant.md).
+Découvrez comment accéder à l’Assistant IA et comment l’utiliser [sur cette page](ai-assistant.md).
 
 ## Préférences linguistiques {#language-pref}
 
@@ -203,9 +203,9 @@ L’interface utilisateur est disponible dans les langues suivantes :
 
 Votre langue d&#39;interface par défaut est déterminée par la langue préférée spécifiée dans votre profil utilisateur.
 
-+++ **Comment changer de langue**
++++ **Pour modifier la langue**
 
-Pour changer de langue, procédez comme suit :
+Pour changer de langue, procédez comme suit :
 
 1. Cliquez sur **Préférences** depuis votre avatar, en haut à droite.
    ![](assets/preferences.png)
@@ -217,7 +217,7 @@ Pour changer de langue, procédez comme suit :
 
 ## En savoir plus {#more}
 
-Vous découvrez [!DNL Journey Optimizer] ? Utilisateur expérimenté avec des questions spécifiques ? Administrateur de l’instance de votre entreprise ? [Tracez votre propre chemin pour atteindre vos objectifs plus rapidement](quick-start.md) !
+Vous découvrez [!DNL Journey Optimizer] ? Utilisateur expérimenté avec des questions spécifiques ? Administrateur de l’instance de votre entreprise ? [Tracez votre propre chemin pour atteindre plus rapidement vos objectifs](quick-start.md) !
 
 
 <!--CONTEXTUAL HELP TO DISPATCH IN DOCS ONCE FEATURE LIVE-->
@@ -233,42 +233,42 @@ Vous découvrez [!DNL Journey Optimizer] ? Utilisateur expérimenté avec des q
 >[!CONTEXTUALHELP]
 >id="ajo_oc_campaign_ovv_1"
 >title="Orchestration des campagnes"
->abstract="Fractionner, combiner, enrichir et manipuler des jeux de données relationnels pour définir votre audience"
+>abstract="Partager, combiner, enrichir et manipuler des jeux de données relationnels pour définir votre audience"
 
 
 
 >[!CONTEXTUALHELP]
 >id="ajo_oc_campaign_ovv_2"
 >title="Exploiter les données multi-entités"
->abstract="Découvrez comment les campagnes orchestrées peuvent tirer parti des jeux de données relationnelles pour enrichir les données à des fins de segmentation et de personnalisation"
+>abstract="Découvrir la façon dont les campagnes orchestrées peuvent tirer parti des jeux de données relationnels pour enrichir les données à des fins de segmentation et de personnalisation"
 
 
 
 >[!CONTEXTUALHELP]
 >id="ajo_oc_campaign_ovv_3"
->title="Segmentation ad hoc et nombres exacts"
->abstract="Créez votre segment étape par étape avec des nombres exacts"
+>title="Segmentation ad hoc et décomptes exacts"
+>abstract="Créer votre segment étape par étape avec des décomptes exacts"
 
 
 
 >[!CONTEXTUALHELP]
 >id="ajo_oc_campaign_ovv_4"
 >title="Canaux disponibles"
->abstract="E-mail, SMS, notifications push, publipostage direct"
+>abstract="E-mail, SMS, notifications push, courrier"
 
 <!--OVERVIEW TAB ORCHESTRATED CAMPAIGNS + JOURNEYS SKU -->
 
 
 >[!CONTEXTUALHELP]
 >id="ajo_oc_jo_camppaign_ovv_1"
->title="Interface utilisateur guidée pour créer et envoyer une campagne"
->abstract="Définissez une ou plusieurs actions avec un canal, choisissez une audience, définissez un contenu, définissez un planning et vous êtes prêt à envoyer"
+>title="IU guidée pour créer et envoyer une campagne"
+>abstract="Définissez une ou plusieurs actions avec un canal, choisissez une audience, définissez un contenu, définissez un planning... tout est prêt pour l’envoi !"
 
 
 >[!CONTEXTUALHELP]
 >id="ajo_oc_jo_camppaign_ovv_2"
 >title="Canaux disponibles"
->abstract="E-mail, SMS, notifications push, expériences in-app, web, basées sur du code"
+>abstract="E-mail, SMS, notifications push et expériences in-app, web, basées sur du code"
 
 
 <!--OVERVIEW TAB ORCHESTRATED CAMPAIGNS - API triggered tab -->
