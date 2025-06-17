@@ -10,9 +10,9 @@ level: Intermediate
 keywords: css, éditeur, résumé, e-mail
 hide: true
 hidefromtoc: true
-source-git-commit: 4fa50df6827e07e6f6f3c5730d1ae2a1af0d426d
+source-git-commit: bf9f1dbacba54e8b2c499d888ba1f4d66c78b7ee
 workflow-type: tm+mt
-source-wordcount: '666'
+source-wordcount: '690'
 ht-degree: 1%
 
 ---
@@ -199,6 +199,12 @@ Votre CSS personnalisé est ajouté à la fin de la section `<head>` dans le cad
 
 Le CSS personnalisé n’est pas interprété ni validé par le volet Designer d’e-mail **[!UICONTROL Paramètres]**. Il est entièrement indépendant et ne peut être modifié que par l’intermédiaire de l’option **[!UICONTROL Ajouter un CSS personnalisé]**.
 
+Si la balise de style de `global-custom` possède l’attribut `data-disabled` défini sur `true`, le CSS personnalisé n’est pas appliqué. Par exemple :
+
+```html
+<style data-name="global-custom" type="text/css" data-disabled="true"> body: { color: red; } </style>
+```
+
 ### Contenu importé
 
 Si vous souhaitez utiliser une page CSS personnalisée avec du contenu importé dans le Designer d’e-mail, tenez compte des points suivants :
@@ -216,7 +222,7 @@ Si votre CSS personnalisé n’est pas appliqué, tenez compte des options ci-de
 
 * Assurez-vous que votre CSS est valide et ne comporte pas d’erreurs de syntaxe (telles que des accolades manquantes, des noms de propriété incorrects). [Voici comment procéder](#use-valid-css)
 
-* Assurez-vous que votre CSS est ajouté à la balise `<style>` avec l’attribut `data-name="global-custom"`. [En savoir plus](#implementation)
+* Assurez-vous que votre CSS est ajouté à la balise `<style>` avec l’attribut `data-name="global-custom"` et que `data-disabled` n’est pas appliqué à `global-custom`. [En savoir plus](#implementation)
 
 * Assurez-vous que votre CSS n’est pas remplacé par d’autres règles CSS, y compris tout [thème](apply-email-themes.md) appliqué à votre contenu.
 
@@ -229,16 +235,3 @@ Si votre CSS personnalisé n’est pas appliqué, tenez compte des options ci-de
        background: red !important;
      }
      ```
-
-<!--
-### Guardrails
--->
-
-
-
-
-
-
-
-
-
