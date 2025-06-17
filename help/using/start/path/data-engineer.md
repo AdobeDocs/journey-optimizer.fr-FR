@@ -8,9 +8,9 @@ role: Data Engineer
 level: Intermediate
 exl-id: 8beaafc2-e68d-46a1-be5c-e70892575bfb
 source-git-commit: 1a2c6e97fcd30245cff1bf08fd5771ce8bc84ddc
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '572'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -23,13 +23,13 @@ Découvrez comment **identifier des données et créer un schéma et un jeu de d
 
 >[!NOTE]
 >
->En savoir plus sur l’**ingestion de données** dans la documentation de [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/ingestion/home.html?lang=fr){target="_blank"}.
+>En savoir plus sur l’**ingestion de données** dans la [documentation Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/ingestion/home.html?lang=fr){target="_blank"}.
 
 Les étapes de création d’un espace de noms d’identité et d’un jeu de données activé pour les profils, ainsi que les profils de test sont détaillés dans les sections ci-dessous :
 
 1. **Création d’un espace de noms d’identité**. Dans Adobe [!DNL Journey Optimizer], les **Identités** relient les consommateurs sur les différents appareils et canaux, on obtient ainsi un graphique d’identités. Le graphique d’identités lié est utilisé pour personnaliser les expériences en fonction des interactions entre tous les points de contact de votre entreprise.  En savoir plus sur les identités et les espaces de noms d’identité [sur cette page](../../audience/get-started-identity.md).
 
-1. **Créer un schéma** et l’activer pour les profils. Un schéma est un jeu de règles qui représente et valide la structure et le format des données. À un niveau élevé, les schémas fournissent une définition abstraite d’un objet du monde réel (une personne, par exemple) et indiquent les données à inclure dans chaque instance de cet objet (comme le prénom, le nom, l’anniversaire, etc.).  En savoir plus sur les schémas [sur cette page](../../data/get-started-schemas.md).
+1. **Créer un schéma** et l’activer pour les profils. Un schéma est un jeu de règles qui représente et valide la structure et le format des données. À un niveau élevé, les schémas fournissent une définition abstraite d’un objet du monde réel (une personne, par exemple) et indiquent les données à inclure dans chaque instance de cet objet (comme le prénom, le nom, la date d’anniversaire, etc.).  En savoir plus sur les schémas [sur cette page](../../data/get-started-schemas.md).
 
 1. **Créer des jeux de données** et les activer pour les profils. Un jeu de données est une structure de stockage et de gestion pour une collection de données, généralement sous la forme d’un tableau, qui contient un schéma (des colonnes) et des champs (des lignes). Les jeux de données contiennent également des métadonnées qui décrivent divers aspects des données stockées. Une fois qu’un jeu de données est créé, vous pouvez le mapper à un schéma existant et y ajouter des données. En savoir plus sur les jeux de données sur [cette page](../../data/get-started-datasets.md).
 
