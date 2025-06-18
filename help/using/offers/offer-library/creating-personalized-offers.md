@@ -7,8 +7,8 @@ role: User
 level: Intermediate
 exl-id: 4a53ea96-632a-41c7-ab15-b85b99db4f3e
 source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
-workflow-type: ht
-source-wordcount: '830'
+workflow-type: tm+mt
+source-wordcount: '829'
 ht-degree: 100%
 
 ---
@@ -47,7 +47,7 @@ La liste des offres personnalisées est accessible dans le menu **[!UICONTROL Of
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_new_personalized"
 >title="Offre personnalisée"
->abstract="Une offre personnalisée est un message personnalisable basé sur des règles et des contraintes d’éligibilité."
+>abstract="Une offre personnalisée est un message personnalisable basé sur des contraintes et des règles d’éligibilité."
 
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_new_fallback"
@@ -172,4 +172,4 @@ Vous pouvez ainsi accéder à des informations détaillées sur cette offre. Sé
 
 ## Tutoriel vidéo {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/341347?quality=12&captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/329375?quality=12)
