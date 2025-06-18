@@ -9,8 +9,8 @@ role: Admin
 level: Experienced
 keywords: paramètres, e-mail, configuration, sous-domaine
 exl-id: 1e004a76-5d6d-43a1-b198-5c9b41f5332c
-source-git-commit: a5bd1e92b3696a7de2c44522099d54bc6e1e00ab
-workflow-type: ht
+source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
+workflow-type: tm+mt
 source-wordcount: '1169'
 ht-degree: 100%
 
@@ -60,7 +60,7 @@ Pour définir des sous-domaines dynamiques dans une configuration de canal e-mai
 
    >[!NOTE]
    >
-   >Certains sous-domaines ne peuvent actuellement pas être sélectionnés en raison d’un enregistrement de [boucle de rétroaction](../reports/deliverability.md#feedback-loops) en attente. Ce processus peut prendre jusqu’à 10 jours ouvrables. Une fois l’opération terminée, vous pouvez choisir parmi tous les sous-domaines disponibles. <!--where FL registration happens? is it when delegating a subdomain and you're awaiting from subdomain validation? or is it on ISP side only?-->
+   >Certains sous-domaines ne peuvent actuellement pas être sélectionnés en raison d’un enregistrement de [boucle de rétroaction](../reports/deliverability.md#feedback-loops) en attente. Ce processus peut prendre jusqu’à 10 jours ouvrables. Une fois l’opération terminée, vous pouvez choisir parmi tous les sous-domaines disponibles. <!--where FL registration happens? is it when delegating a subdomain and you are awaiting from subdomain validation? or is it on ISP side only?-->
 
    ![](assets/surface-email-select-subdomain.png)
 

@@ -8,10 +8,10 @@ topic: Content Management
 role: Data Engineer, Data Architect, Admin
 level: Experienced
 exl-id: 26ad12c3-0a2b-4f47-8f04-d25a6f037350
-source-git-commit: 528e1a54dd64503e5de716e63013c4fc41fd98db
-workflow-type: ht
-source-wordcount: '1499'
-ht-degree: 100%
+source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
+workflow-type: tm+mt
+source-wordcount: '1500'
+ht-degree: 98%
 
 ---
 
@@ -662,7 +662,7 @@ Elle renvoie tous les événements de service liés à la version de parcours do
 Nous pouvons également détecter des problèmes tels que :
 
 * erreurs lors de la création d’un traitement d’export ou de rubrique (y compris les temporisations sur les appels API d’export d’audience)
-* tâches d&#39;exportation pouvant être bloquées (dans le cas d&#39;une version de parcours donnée, aucun événement n&#39;est associé à la fin de la tâche d&#39;exportation)
+* tâches d’exportation pouvant être bloquées (dans le cas d’une version de parcours donnée, aucun événement n’est associé à la fin de la tâche d’exportation)
 * problèmes secondaires, si nous avons reçu un événement de fin de tâche d&#39;exportation, mais pas de fin de traitement secondaire
 
 IMPORTANT : si aucun événement n&#39;est renvoyé par cette requête, cela peut être dû à l&#39;une des raisons suivantes :

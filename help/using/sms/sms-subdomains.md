@@ -8,10 +8,10 @@ feature: SMS, Channel Configuration
 level: Intermediate
 keywords: SMS, sous-domaines, configuration
 exl-id: 08a546d1-060c-43e8-9eac-4c38945cc3e1
-source-git-commit: 19f127c2abc81239abda8ebd38bdcacee796a1b0
-workflow-type: ht
-source-wordcount: '928'
-ht-degree: 100%
+source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
+workflow-type: tm+mt
+source-wordcount: '881'
+ht-degree: 87%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="ajo_admin_subdomain_sms"
 >title="Déléguer un sous-domaine SMS/MMS"
->abstract="Vous devez configurer un sous-domaine dédié aux messages texte, car vous en aurez besoin pour créer une configuration des SMS. Vous pouvez utiliser un sous-domaine déjà délégué à Adobe ou en configurer un nouveau."
+>abstract="Vous devez configurer un sous-domaine dédié aux SMS, car vous en aurez besoin pour créer une configuration des SMS. Vous pouvez utiliser un sous-domaine déjà délégué à Adobe ou en configurer un nouveau."
 >additional-url="https://experienceleague.adobe.com/fr/docs/journey-optimizer/using/channels/sms/configure-sms/sms-configuration-surface" text="Créer une configuration des SMS"
 
 >[!CONTEXTUALHELP]
@@ -62,6 +62,10 @@ Pour utiliser un sous-domaine déjà délégué à Adobe, procédez comme suit.
 
    Seuls les caractères alphanumériques et les tirets sont autorisés.
 
+   >[!CAUTION]
+   >
+   >N’utilisez pas de préfixes `cdn` ou `data`, car ils sont réservés à un usage interne. D’autres préfixes restreints ou réservés tels que `dmarc` ou `spf` doivent également être évités.
+
 1. Sélectionnez un sous-domaine délégué dans la liste.
 
    Vous ne pouvez pas sélectionner un sous-domaine déjà utilisé comme sous-domaine SMS.
@@ -89,7 +93,7 @@ Pour utiliser un sous-domaine déjà délégué à Adobe, procédez comme suit.
 >[!CONTEXTUALHELP]
 >id="ajo_admin_sms_subdomain_dns"
 >title="Générer l’enregistrement DNS correspondant"
->abstract="Pour configurer un nouveau sous-domaine SMS, vous devez copier les informations du serveur de noms Adobe affichées dans l’interface de Journey Optimizer et les coller dans votre solution d’hébergement de domaine pour générer l’enregistrement DNS correspondant. Une fois les contrôles effectués, le sous-domaine est prêt à être utilisé pour créer des configurations SMS."
+>abstract="Pour configurer un nouveau sous-domaine SMS, vous devez copier les informations du serveur de noms Adobe affichées dans l’interface de Journey Optimizer et les coller dans votre solution d’hébergement de domaine pour générer l’enregistrement DNS correspondant. Une fois les contrôles effectués, le sous-domaine est prêt à être utilisé pour créer une configuration des SMS."
 
 Pour configurer un nouveau sous-domaine, procédez comme suit.
 
@@ -131,34 +135,17 @@ Le statut du sous-domaine sera marqué comme en **[!UICONTROL Échec]** si la cr
 
 ## Annuler la délégation d’un sous-domaine {#undelegate-subdomain}
 
-Si vous souhaitez annuler la délégation d’un sous-domaine de SMS, contactez votre représentant ou représentante Adobe.
+Si vous souhaitez annuler la délégation d’un sous-domaine SMS, contactez votre représentant Adobe avec le sous-domaine que vous souhaitez annuler.
 
-Cependant, vous devez suivre plusieurs étapes dans l’interface d’utilisation avant de contacter Adobe.
+<!--
+1. Stop the active campaigns associated with the subdomains. [Learn how](../campaigns/modify-stop-campaign.md#stop)
+
+1. Stop the active journeys associated with the subdomains. [Learn how](../building-journeys/end-journey.md#stop-journey)-->
+
+Si le sous-domaine SMS pointe vers un enregistrement CNAME, vous pouvez supprimer l’enregistrement DNS CNAME que vous avez créé pour le sous-domaine SMS de votre solution d’hébergement (mais ne supprimez pas le sous-domaine d’e-mail d’origine, le cas échéant).
 
 >[!NOTE]
 >
->Vous pouvez uniquement annuler la délégation de sous-domaines ayant le statut **[!UICONTROL Succès]**. Les sous-domaines ayant le statut **[!UICONTROL Brouillon]** ou **[!UICONTROL Échec]** peuvent simplement être supprimés de l’interface utilisation.
-
-Tout d’abord, effectuez les étapes suivantes dans [!DNL Journey Optimizer] :
-
-1. Désactivez toutes les configurations de canaux associées au sous-domaine. [Voici comment procéder](../configuration/channel-surfaces.md#deactivate-a-surface)
-
-<!--
-1. If the SMS subdomain is using an email subdomain that was [already delegated](#lp-use-existing-subdomain) to Adobe, undelegate the email subdomain. [Learn how](../configuration/delegate-subdomain.md#undelegate-subdomain)-->
-
-1. Arrêtez les campagnes actives associées aux sous-domaines. [Voici comment procéder](../campaigns/modify-stop-campaign.md#stop)
-
-1. Arrêtez les parcours actifs associés aux sous-domaines. [Voici comment procéder](../building-journeys/end-journey.md#stop-journey)
-
-1. Si le sous-domaine de SMS était un [nouveau sous-domaine délégué](#sms-configure-new-subdomain), supprimez les entrées DNS associées à ce sous-domaine.
-
-Une fois ces étapes terminées, contactez votre représentant ou représentante Adobe en indiquant le sous-domaine pour lequel vous souhaitez annuler la délégation.
+>Un sous-domaine SMS peut pointer vers un enregistrement CNAME, car il s’agissait d’un [sous-domaine existant](#sms-use-existing-subdomain) délégué à Adobe à l’aide de la méthode [CNAME](../configuration/delegate-subdomain.md#cname-subdomain-delegation) ou d’un [nouveau sous-domaine SMS](#sms-configure-new-subdomain) que vous avez configuré.
 
 Une fois que votre demande est gérée par Adobe, le domaine dont la délégation a été annulée ne s’affiche plus sur la page d’inventaire des sous-domaines.
-
->[!CAUTION]
->
->Après l’annulation de la délégation d’un sous-domaine :
->
->   * Vous ne pouvez pas réactiver les configurations de canal qui utilisaient ce sous-domaine.
->   * Vous ne pouvez pas déléguer à nouveau le sous-domaine exact via l’interface d’utilisation. Si vous souhaitez le faire, contactez votre représentant ou représentante Adobe.

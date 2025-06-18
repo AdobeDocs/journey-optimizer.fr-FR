@@ -6,7 +6,7 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 35d7488b-e7d8-402f-b337-28a0c869bff0
-source-git-commit: 2f2caf8615af8e3526124e0d7ed91873ccb6edc3
+source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
 workflow-type: tm+mt
 source-wordcount: '1179'
 ht-degree: 97%
@@ -73,7 +73,7 @@ To leverage data from an AEP dataset, you can select it in the **[!UICONTROL ELS
 
 ## Définir des critères à l’aide du créateur de formules {#ranking-select-criteria}
 
-Grâce à une interface intuitive, vous pouvez affiner la prise de décisions en ajustant les scores de l’IA (propension), la valeur de l’offre (priorité), les leviers contextuels et les propensions des profils externes, individuellement ou en combinaison, afin d’optimiser chaque interaction. <!--Whether you're maximizing revenue, promoting strategic offers, or balancing business goals with real-time context, the formula builder gives you total control in defining ranking strategies.-->
+Grâce à une interface intuitive, vous pouvez affiner la prise de décisions en ajustant les scores de l’IA (propension), la valeur de l’offre (priorité), les leviers contextuels et les propensions des profils externes, individuellement ou en combinaison, afin d’optimiser chaque interaction. <!--Whether you are maximizing revenue, promoting strategic offers, or balancing business goals with real-time context, the formula builder gives you total control in defining ranking strategies.-->
 
 Pour définir des critères directement à partir de l’interface, procédez comme suit :
 

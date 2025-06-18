@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Experienced
 exl-id: 63aa1763-2220-4726-a45d-3a3a8b8a55ec
-source-git-commit: d3f15c09194a50b95107fb84d680606a468f8644
+source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
 workflow-type: tm+mt
-source-wordcount: '1735'
-ht-degree: 98%
+source-wordcount: '1796'
+ht-degree: 95%
 
 ---
 
@@ -19,6 +19,12 @@ ht-degree: 98%
 >id="ajo_code_based_decision"
 >title="Qu’est-ce qu’une décision ?"
 >abstract="Les politiques de décision contiennent toute la logique de sélection afin que le moteur de prise de décision choisisse le meilleur contenu. Les politiques de décision sont spécifiques aux campagnes. Leur objectif est de sélectionner les meilleures offres pour chaque profil, tandis que la création de campagne vous permet d’indiquer comment les éléments de décision sélectionnés doivent être présentés, y compris les attributs d’élément à inclure dans le message."
+>additional-url="https://experienceleague.adobe.com/fr/docs/journey-optimizer/using/decisioning/offer-decisioning/get-started-decision/starting-offer-decisioning" text="À propos de la prise de décision"
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_decision_policy"
+>title="Définition d’une politique de décision"
+>abstract="Une politique de décision vous permet de sélectionner les meilleurs éléments du moteur de décision et de les diffuser à la bonne audience."
 >additional-url="https://experienceleague.adobe.com/fr/docs/journey-optimizer/using/decisioning/offer-decisioning/get-started-decision/starting-offer-decisioning" text="À propos de la prise de décision"
 
 Les politiques de décision sont des conteneurs pour vos offres qui tirent profit du moteur de prise de décision afin de choisir le meilleur contenu à diffuser, en fonction de l’audience.
@@ -62,6 +68,10 @@ Pour présenter la meilleure offre dynamique et expérience aux visiteurs et vis
 1. Dans l’[éditeur de code](../code-based/create-code-based.md#edit-code), sélectionnez l’icône **[!UICONTROL Politique de décision]** et cliquez sur **[!UICONTROL Ajouter une politique de décision]**.
 
    ![](assets/decision-code-based-create.png)
+
+   Depuis l’écran d’édition du parcours ou de la campagne, vous pouvez également ajouter directement une politique de décision sans ouvrir l’éditeur de personnalisation. Utilisez l’icône dédiée sur le rail de droite pour afficher la section **[!UICONTROL Prise de décision]**.
+
+   ![](../code-based/assets/code-based-campaign-show-decisioning.png)
 
 1. Par défaut, créez une politique.
 

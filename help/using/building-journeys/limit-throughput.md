@@ -8,10 +8,10 @@ role: Developer, Data Engineer
 level: Experienced
 keywords: parcours, sources de données, limite, débit, personnalisé, actions
 exl-id: 45d6bb82-88ea-4510-a023-a75a82cc6f7b
-source-git-commit: 60cb5e1ba2b5c8cfd0a306a589c85761be1cf657
+source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
 workflow-type: tm+mt
-source-wordcount: '753'
-ht-degree: 100%
+source-wordcount: '754'
+ht-degree: 94%
 
 ---
 
@@ -31,7 +31,7 @@ Cela est possible grâce aux éléments suivants :
 >
 >Les réponses étant désormais prises en charge, vous devez utiliser des actions personnalisées au lieu de sources de données pour les cas d’utilisation de sources de données externes. Pour plus d’informations sur les réponses, voir [cette section](../action/action-response.md)
 
-Si vous utilisez des sources de données externes ou des actions personnalisées, il peut être judicieux de protéger vos systèmes externes en limitant le débit des parcours : jusqu’à 5 000 instances/seconde pour les parcours unitaires et jusqu’à 2 000 instances/seconde pour les parcours déclenchés par une audience.
+Si vous utilisez des sources de données externes ou des actions personnalisées, vous pouvez protéger vos systèmes externes en limitant le débit du parcours : jusqu’à 5 000 instances/seconde pour les parcours unitaires et jusqu’à 20 000 instances/seconde pour les instances déclenchées par une audience.
 
 Pour les actions personnalisées, les fonctionnalités de ralentissement existent au niveau du produit. Voir cette [page](../configuration/external-systems.md#capping).
 

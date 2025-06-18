@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: activité, condition, zone de travail, parcours
 exl-id: 496c7666-a133-4aeb-be8e-c37b3b9bf5f9
-source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
+source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
 workflow-type: tm+mt
-source-wordcount: '1541'
+source-wordcount: '1542'
 ht-degree: 98%
 
 ---
@@ -73,6 +73,8 @@ Si vous utilisez le service de segmentation [Adobe Experience Platform](https://
 >[!NOTE]
 >
 >Vous ne pouvez pas effectuer de requêtes sur des séries temporelles (une liste d’achats ou des clics précédents sur des messages, par exemple) à l’aide de l’éditeur simple. Pour cela, vous devez utiliser l’éditeur avancé. Voir [cette page](expression/expressionadvanced.md).
+
+
 
 Lorsqu’une erreur se produit dans une action ou une condition, le parcours d’une personne s’arrête. La seule façon de le faire continuer est de cocher la case **[!UICONTROL Ajouter un chemin alternatif en cas de temporisation ou d’erreur]**. Consultez [cette section](../building-journeys/using-the-journey-designer.md#paths).
 

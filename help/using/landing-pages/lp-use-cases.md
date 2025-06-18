@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: destination, page de destination, cas d’utilisation
 exl-id: 8c00d783-54a3-45d9-bd8f-4dc58804d922
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
-workflow-type: ht
-source-wordcount: '979'
-ht-degree: 100%
+source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
+workflow-type: tm+mt
+source-wordcount: '980'
+ht-degree: 93%
 
 ---
 
@@ -26,7 +26,7 @@ L’un des cas d’utilisation les plus courants consiste à inviter vos clients
 
 ![](assets/lp_subscription-uc.png)
 
-Supposons, par exemple, que vous organisiez un événement le mois prochain et que vous souhaitiez lancer une campagne d’inscription à cet événement<!--to keep your customers that are interested updated on that event-->. Pour ce faire, vous allez envoyer un e-mail qui contient un lien vers une page de destination sur laquelle vos destinataires pourront sʼinscrire à cet événement. Les utilisateurs qui s’inscrivent seront ajoutés à la liste d’abonnements que vous avez créée à cet effet.
+Supposons, par exemple, que vous organisiez un événement le mois prochain et que vous souhaitiez lancer une campagne d’inscription à cet événement<!--to keep your customers that are interested updated on that event-->. Pour ce faire, vous allez envoyer un e-mail comprenant un lien vers une page de destination qui permettra à vos destinataires de s&#39;inscrire à cet événement. Les utilisateurs qui s’inscrivent seront ajoutés à la liste d’abonnements que vous avez créée à cet effet.
 
 ### Configurer une page de destination {#set-up-lp}
 
@@ -98,7 +98,7 @@ Pour permettre aux personnes destinataires de se désabonner de vos communicatio
 
 ### Gestion du droit d&#39;opposition {#opt-out-management}
 
-La possibilité pour les destinataires de se désabonner de la réception des communications d’une marque est une exigence légale. Pour en savoir plus sur la législation applicable, consultez la [documentation Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/privacy/regulations/overview.html?lang=fr#regulations){target="_blank"}.
+La possibilité pour les destinataires de se désabonner de la réception des communications d&#39;une marque est une exigence légale. Pour en savoir plus sur la législation applicable, consultez la [documentation Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/privacy/regulations/overview.html?lang=fr#regulations){target="_blank"}.
 
 Par conséquent, vous devez toujours inclure un **lien de désabonnement** dans chaque e-mail envoyé aux destinataires :
 
@@ -163,7 +163,7 @@ Les informations concernant les désinscriptions sont stockées dans le **Jeu de
 
 >[!NOTE]
 >
->Si la méthode de fusion de votre politique de fusion de **[!UICONTROL profils]** [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=fr){target="_blank"} par défaut est **[!UICONTROL Précédence du jeu de données]**, activez le **[!UICONTROL jeu de données du service de consentement AJO]** et placez-le en priorité dans la politique de fusion. [En savoir plus](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/ui-guide.html?lang=fr#dataset-precedence-profile){target="_blank"}
+>Si la méthode de fusion de votre stratégie de fusion [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=fr){target="_blank"} **[!UICONTROL Profils]** par défaut est **[!UICONTROL Priorité du jeu de données]**, veillez à activer le **[!UICONTROL jeu de données du service de consentement AJO]** et à le classer par priorité dans la stratégie de fusion. [En savoir plus](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/ui-guide.html?lang=fr#dataset-precedence-profile){target="_blank"}
 >
 >Même si aucun lot n’a été ajouté à ce jeu de données, il contiendra toujours les informations opt-in et opt-out.
 

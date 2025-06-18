@@ -6,10 +6,10 @@ description: Découvrez comment utiliser les canaux de communication  [!DNL Adob
 role: User
 level: Beginner
 exl-id: 5779bcee-49c0-4ffa-9b17-329ef458c96a
-source-git-commit: db3c87d10469550eb30224c932344ff1e3ae1767
-workflow-type: ht
-source-wordcount: '412'
-ht-degree: 100%
+source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
+workflow-type: tm+mt
+source-wordcount: '413'
+ht-degree: 96%
 
 ---
 
@@ -24,7 +24,7 @@ Adobe Journey Optimizer offre divers canaux natifs pour interagir efficacement
 Les canaux de diffusion des messages sortants impliquent l’envoi de messages aux clientes et aux clients sans interaction préalable. Il s’agit par exemple de campagnes par e-mail et de notifications push, via lesquelles vous atteignez votre audience de manière proactive. Dans [!DNL Adobe Journey Optimizer], les canaux sortants pris en charge sont les suivants :
 
 * **E-mail** : envoyez des messages personnalisés directement dans les boîtes de réception de vos clientes et clients.
-* **SMS/MMS** : envoyez des messages texte pour atteindre les utilisateurs et les utilisatrices sur leurs appareils mobiles.
+* **SMS/MMS/RCS** : envoyez des messages texte pour atteindre les utilisateurs sur leurs appareils mobiles.
 * **Notification push** : interagissez avec les utilisateurs et utilisatrices grâce à des notifications instantanées sur leurs appareils, entraînant une action immédiate.
 * **Courrier** : utilisez le courrier pour créer un lien tangible avec votre audience.
 

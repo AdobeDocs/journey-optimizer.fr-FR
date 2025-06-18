@@ -9,10 +9,10 @@ role: Data Engineer, Data Architect, Admin
 level: Intermediate, Experienced
 keywords: événement, unitaire, créer, parcours
 exl-id: e22e2bc7-0c15-457a-8980-97bea5da7784
-source-git-commit: dad3dc0022d04c9f9c82477d75a6fb8de7e85a6a
-workflow-type: ht
-source-wordcount: '1692'
-ht-degree: 100%
+source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
+workflow-type: tm+mt
+source-wordcount: '1693'
+ht-degree: 99%
 
 ---
 
@@ -110,7 +110,7 @@ La définition de la payload vous permet de choisir les informations que le syst
    >
    >Pour les événements générés par le système, le champ **[!UICONTROL eventID]** est automatiquement ajouté à la liste des champs sélectionnés afin que [!DNL Journey Optimizer] puisse identifier l&#39;événement. Le système à l&#39;origine de l&#39;envoi de l&#39;événement ne doit pas générer d&#39;identifiant, mais plutôt utiliser celui indiqué dans l&#39;aperçu de la payload. Consultez [cette section](../event/about-creating.md#preview-the-payload).
 
-1. Une fois la sélection des champs nécessaires terminée, cliquez sur **[!UICONTROL OK]** ou appuyez sur la touche **[!UICONTROL Entrée]**.
+1. Une fois la sélection des champs nécessaires terminée, cliquez sur **[!UICONTROL OK]** ou appuyez sur **[!UICONTROL Entrée]**.
 
    Le nombre de champs sélectionnés s&#39;affiche dans le champ **[!UICONTROL Champs]**.
 
@@ -127,7 +127,7 @@ Le type d’identité (anciennement appelé « espace de noms ») vous permet 
 
 Vous pouvez soit créer un type d’identité existant, soit en créer un nouveau à l’aide du service d’identités Adobe Experience Platform. Pour en savoir plus, consultez la [documentation d’Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/identity/home.html?lang=fr){target="_blank"}.
 
-Si vous sélectionnez un schéma doté d’une identité principale, alors les champs **[!UICONTROL Identifiant du profil]** et **[!UICONTROL Type d’identité]** sont déjà renseignés. Si aucune identité n’est définie, _identityMap > id_ est sélectionné comme clé principale. Vous devez ensuite sélectionner un type d’identité et la clé sera déjà renseignée (sous le champ **[!UICONTROL Type d’identité]**) à l’aide de _identityMap > id_.
+Si vous sélectionnez un schéma doté d’une identité principale, alors les champs **[!UICONTROL Identifiant du profil]** et **[!UICONTROL Type d’identité]** sont déjà renseignés. Si aucune identité n’est définie, _identityMap > id_ est sélectionné comme clé primaire. Vous devez ensuite sélectionner un type d’identité et la clé sera déjà renseignée (sous le champ **[!UICONTROL Type d’identité]**) à l’aide de _identityMap > id_.
 
 Lors de la sélection de champs, les champs de l’identité principale sont balisés.
 
@@ -149,7 +149,7 @@ La clé correspond au champ ou à la combinaison de champs faisant partie des do
 
 Pour utiliser les données stockées dans la base de données de profil client en temps réel d’Adobe, la clé d’événement doit correspondre aux informations que vous avez définies en tant qu’identité d’un profil dans le [Service de profil client en temps réel](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=fr){target="_blank"}.
 
-Le système peut ainsi effectuer la réconciliation entre l’événement et le profil de la personne. Si vous sélectionnez un schéma doté d’une identité principale, alors les champs **[!UICONTROL Identifiant du profil]** et **[!UICONTROL Type d’identité]** sont déjà renseignés. Si aucune identité n’est définie, _identityMap > id_ est la clé principale. Vous devez ensuite sélectionner un type d’identité et la clé est automatiquement renseignée à l’aide de la fonction _identityMap > id_.
+Le système peut ainsi effectuer la réconciliation entre l’événement et le profil de la personne. Si vous sélectionnez un schéma doté d’une identité principale, alors les champs **[!UICONTROL Identifiant du profil]** et **[!UICONTROL Type d’identité]** sont déjà renseignés. Si aucune identité n’est définie, _identityMap > id_ est la clé primaire. Vous devez ensuite sélectionner un type d’identité et la clé est automatiquement renseignée à l’aide de la fonction _identityMap > id_.
 
 Lors de la sélection de champs, les champs de l’identité principale sont balisés.
 

@@ -9,10 +9,10 @@ role: User
 level: Beginner, Intermediate
 keywords: e-mail, conception, stock, ressources
 exl-id: e4f91870-f06a-4cd3-98b7-4c413233e310
-source-git-commit: 4fa50df6827e07e6f6f3c5730d1ae2a1af0d426d
+source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
 workflow-type: tm+mt
-source-wordcount: '607'
-ht-degree: 95%
+source-wordcount: '608'
+ht-degree: 89%
 
 ---
 
@@ -32,7 +32,7 @@ Vous pouvez importer du contenu existant dans [!DNL Journey Optimizer] ou tirer 
 
 ## Bonnes pratiques en matière de conception d’e-mail {#best-practices}
 
-Lors de l’envoi d’e-mails, il est important de tenir compte du fait que les destinataires peuvent les transférer, ce qui peut parfois entraîner des problèmes de rendu de l’e-mail. Vous risquez de rencontrer ces problèmes si vous utilisez des classes CSS non prises en charge par le fournisseur de messagerie utilisé pour le transfert, comme « is-desktop-hidden », par exemple, pour masquer une image sur les appareils mobiles.
+Lors de l’envoi d’e-mails, il est important de tenir compte du fait que les destinataires peuvent les transférer, ce qui peut parfois entraîner des problèmes de rendu de l’e-mail. Cela est particulièrement vrai lors de l’utilisation de classes CSS qui peuvent ne pas être prises en charge par le fournisseur de messagerie utilisé pour le transfert, par exemple, si vous utilisez la classe CSS « is-desktop-hidden » pour masquer une image sur les appareils mobiles.
 
 Pour minimiser ces problèmes de rendu, nous vous recommandons de garder votre structure de conception d’e-mail aussi simple que possible. Essayez d’utiliser une conception unique qui fonctionne aussi bien pour les ordinateurs de bureau et les appareils mobiles, et évitez d’utiliser des classes CSS complexes ou d’autres éléments de conception qui ne sont pas entièrement pris en charge par tous les clients de messagerie. En suivant ces bonnes pratiques, vous aurez l’assurance que vos e-mails sont correctement rendus, quelle que soit la manière dont ils sont affichés ou transférés par les destinataires.
 
@@ -74,8 +74,8 @@ Une fois que vous avez [ajouté un e-mail](create-email.md) dans un parcours ou 
 
 Découvrez comment créer du contenu d’e-mail avec l’éditeur de messages.
 
->[!VIDEO](https://video.tv.adobe.com/v/3416232?quality=12&captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/334150?quality=12)
 
 Découvrez comment configurer des expériences de contenu pour un test AB et explorer le contenu d’e-mail qui répond le mieux aux objectifs de votre entreprise.
 
->[!VIDEO](https://video.tv.adobe.com/v/3447333?captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/3419893)

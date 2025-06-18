@@ -9,7 +9,7 @@ role: Admin,Leader
 level: Intermediate
 keywords: abac, attribut, autorisations, données, accès, sensible, ressources
 exl-id: 162b0848-313a-447e-9237-5a6dbc8102c6
-source-git-commit: 1a2c6e97fcd30245cff1bf08fd5771ce8bc84ddc
+source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
 workflow-type: tm+mt
 source-wordcount: '1006'
 ht-degree: 43%
@@ -38,11 +38,11 @@ Notez que les **[!UICONTROL Rôles]**, **[!UICONTROL Politiques]** et **[!UICONT
 
 >[!IMPORTANT]
 >
->&#x200B;>Avant de gérer les autorisations d’un rôle, créez une politique. Pour plus d’informations, consultez la [documentation Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/access-control/abac/permissions-ui/policies.html?lang=fr){target="_blank"}.
+>>Avant de gérer les autorisations d’un rôle, créez une politique. Pour plus d’informations, consultez la [documentation Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/access-control/abac/permissions-ui/policies.html?lang=fr){target="_blank"}.
 
 Les **[!UICONTROL rôles]** sont un ensemble d’utilisateurs qui partagent les mêmes autorisations, libellés et sandbox au sein de votre organisation. Chaque utilisateur appartenant à un **[!UICONTROL rôle]** a droit aux applications et services Adobe contenus dans le produit. Vous pouvez également créer vos propres **[!UICONTROL Rôles]** pour affiner l&#39;accès des utilisateurs à certaines fonctionnalités ou objets de l&#39;interface.
 
-Pour accorder aux utilisateurs sélectionnés l’accès au champ **Nationalité** libellé C2, créez un nouveau **[!UICONTROL Rôle]** avec un ensemble spécifique d’utilisateurs et attribuez-leur le libellé C2, ce qui leur permet d’utiliser les détails **Nationalité** dans un Parcours **&#x200B;**.
+Pour accorder aux utilisateurs sélectionnés l’accès au champ **Nationalité** libellé C2, créez un nouveau **[!UICONTROL Rôle]** avec un ensemble spécifique d’utilisateurs et attribuez-leur le libellé C2, ce qui leur permet d’utiliser les détails **Nationalité** dans un Parcours ****.
 
 1. Dans le produit [!DNL Permissions], sélectionnez le **[!UICONTROL rôle]** dans le menu du volet de gauche, puis cliquez sur **[!UICONTROL Créer un rôle]**. Notez que vous pouvez également ajouter un **[!UICONTROL libellé]** aux rôles intégrés.
 
@@ -155,7 +155,7 @@ Après avoir libellé le nom du champ **Nationalité** dans un nouveau schéma e
 Si l’utilisateur Y, sans accès aux objets de libellé C2, doit accéder à ce parcours avec le champ restreint :
 
 * L’utilisateur Y ne pourra pas utiliser le nom de champ restreint, car il ne sera pas visible.
-* L’utilisateur Y ne pourra pas modifier l’expression avec le nom de champ restreint en mode avancé. L&#39;erreur suivante s&#39;affiche : `The expression is invalid. Field is no longer available or you don't have enough permission to see it`.
+* L’utilisateur Y ne pourra pas modifier l’expression avec le nom de champ restreint en mode avancé. L&#39;erreur suivante s&#39;affiche : `The expression is invalid. Field is no longer available or you do not have enough permission to see it`.
 * L’utilisateur Y peut supprimer l’expression.
 * L’utilisateur Y ne pourra pas tester le parcours.
 * L’utilisateur Y ne pourra pas publier le parcours.

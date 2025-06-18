@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: cd47ca1d-f707-4425-b865-14f3fbbe5fd1
-source-git-commit: 19b75282b6f6fbc847805a263126534c9035ad5d
+source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
 workflow-type: tm+mt
-source-wordcount: '1183'
-ht-degree: 100%
+source-wordcount: '1185'
+ht-degree: 95%
 
 ---
 
@@ -99,7 +99,7 @@ Pour déclarer une variable et l’utiliser dans votre fragment, procédez comme
 
    | Action | Paramètre | Exemple |
    | ------- | ------- | ------- |
-   | Déclarez un champ modifiable avec une **valeur par défaut**. Lorsque vous ajoutez le fragment à votre contenu, cette valeur par défaut est utilisée si vous ne le personnalisez pas. | Ajoutez la valeur par défaut entre les balises intégrées. | `{{#inline "editableFieldID"}}default_value{{/inline}}` |
+   | Déclarez un champ modifiable avec une **valeur par défaut**. Lors de l’ajout du fragment à votre contenu, cette valeur par défaut sera utilisée si vous ne la personnalisez pas. | Ajoutez la valeur par défaut entre les balises intégrées. | `{{#inline "editableFieldID"}}default_value{{/inline}}` |
    | Définissez un **libellé** pour le champ modifiable. Ce libellé s’affiche dans le concepteur d’e-mail lors de l’édition des champs du fragment. | `name="title"` | `{{#inline "editableFieldID" name="title"}}default_value{{/inline}}` |
    | Déclarez un champ modifiable contenant une **source d’image** qui doit être publiée. | `assetType="image"` | `{{#inline "editableFieldID" assetType="image"}}default_value{{/inline}}` |
    | Déclarez un champ modifiable contenant une **URL** qui doit faire l’objet d’un suivi.<br/>Notez que les blocs prédéfinis « URL de page miroir » et « Lien de désabonnement » prêts à l’emploi ne peuvent pas devenir des champs modifiables. | `assetType="url"` | `{{#inline "editableFieldID" assetType="url"}}default_value{{/inline}}` |
@@ -126,7 +126,7 @@ Pour ce faire, procédez comme suit :
 
 1. Déclarez une variable « sports » avec l’ID « sports ».
 
-   Par défaut, si les utilisateurs et utilisatrices ne modifient pas la valeur de la variable après l’ajout du fragment dans leur contenu, la valeur définie entre les balises `{{#inline}}` et `{{/inline}}` s’affiche, soit « sports ».
+   Par défaut, si les utilisateurs ne modifient pas la valeur de la variable après l’ajout du fragment dans leur contenu, la valeur définie entre les balises `{{#inline}}` et `{{/inline}}`, c’est-à-dire « sports », s’affiche.
 
 1. Ajoutez la syntaxe ``{{{sport}}}`` dans le contenu du fragment où vous souhaitez afficher la valeur de la variable, c’est-à-dire « sports » par défaut, ou la valeur choisie par les utilisateurs et utilisatrices.
 

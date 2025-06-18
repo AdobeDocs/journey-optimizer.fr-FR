@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: qualification, événements, audience, parcours, platform
 exl-id: 7e70b8a9-7fac-4450-ad9c-597fe0496df9
-source-git-commit: f308668ba1b7b20f6144e9200328e54986f66103
+source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
 workflow-type: tm+mt
-source-wordcount: '1202'
-ht-degree: 50%
+source-wordcount: '1203'
+ht-degree: 51%
 
 ---
 
@@ -115,7 +115,7 @@ Pour plus d’informations sur la segmentation par streaming, consultez la [docu
 
 Voici quelques bonnes pratiques pour éviter de surcharger les systèmes utilisés dans les parcours (sources de données, actions personnalisées, activités d’action de canal) :
 
-* N’utilisez pas d’audience par lot immédiatement après sa création dans une activité **[!UICONTROL Qualification de l’audience]**. On évite ainsi le premier pic de calcul. Un avertissement jaune s&#39;affiche dans la zone de travail du parcours si vous êtes sur le point d&#39;utiliser une audience qui n&#39;a jamais été calculée.
+* N’utilisez pas d’audience par lot immédiatement après sa création dans une activité **[!UICONTROL Qualification de l’audience]**. On évite ainsi le premier pic de calcul. Un avertissement jaune s’affiche dans la zone de travail de parcours si vous êtes sur le point d’utiliser une audience qui n’a jamais été calculée.
 
   ![](assets/segment-error.png)
 
@@ -153,7 +153,7 @@ Suivez les mécanismes de sécurisation et les recommandations ci-dessous pour c
 
 >[!CAUTION]
 >
->[Les mécanismes de sécurisation pour les données et la segmentation du profil client en temps réel](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=fr){target="_blank"} s’appliquent également à Adobe Journey Optimizer.
+>[Les mécanismes de sécurisation pour les données et la segmentation du profil client en temps réel](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=fr){target="_blank"} s’appliquent également à Adobe Journey Optimizer.
 
 
 
@@ -161,4 +161,4 @@ Suivez les mécanismes de sécurisation et les recommandations ci-dessous pour c
 
 Découvrez des cas d’utilisation des parcours de qualification d’audience dans cette vidéo. Découvrez comment créer un parcours avec qualification d’audience et les bonnes pratiques à appliquer.
 
->[!VIDEO](https://video.tv.adobe.com/v/3446206?quality=12&captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/3425028?quality=12)

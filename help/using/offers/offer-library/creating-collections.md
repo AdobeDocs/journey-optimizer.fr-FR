@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 0c8808e3-9148-4a33-9fd5-9218e02c2dfd
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
-workflow-type: ht
-source-wordcount: '463'
-ht-degree: 100%
+source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
+workflow-type: tm+mt
+source-wordcount: '464'
+ht-degree: 94%
 
 ---
 
@@ -88,6 +88,6 @@ Pour créer une collection, procédez comme suit :
 
 ## Vidéo pratique {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/346687?quality=12&captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/329376?quality=12)
 
 

@@ -7,10 +7,10 @@ feature: Ranking, Decision Management
 role: User
 level: Experienced
 exl-id: a85de6a9-ece2-43da-8789-e4f8b0e4a0e7
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
 workflow-type: tm+mt
-source-wordcount: '1357'
-ht-degree: 96%
+source-wordcount: '1358'
+ht-degree: 84%
 
 ---
 
@@ -29,7 +29,7 @@ L’utilisation des modèles d’optimisation automatique pour la gestion des d�
 
 Les termes suivants sont utiles pour aborder l’optimisation automatique :
 
-* **Bandit manchot** : une approche de type [bandit manchot](https://fr.wikipedia.org/wiki/Bandit_manchot_(mathématiques)){target="_blank"} de l’optimisation équilibre l’apprentissage exploratoire et l’exploitation de cet apprentissage.
+* **Bandit manchot** : une approche [bandit manchot](https://fr.wikipedia.org/wiki/Bandit_manchot_(mathématiques)){target="_blank"} de l’optimisation équilibre l’apprentissage exploratoire et l’exploitation de cet apprentissage.
 
 * **Échantillonnage de Thomson** : l’échantillonnage de Thompson est un algorithme relatif aux problèmes de décision en ligne où les actions sont entreprises de manière séquentielle, de façon à trouver l’équilibre entre l’exploitation de ce qui est connu pour maximiser les performances immédiates et l’investissement pour accumuler de nouvelles informations susceptibles d’améliorer les performances futures. [En savoir plus](#thompson-sampling)
 
@@ -39,7 +39,7 @@ Les termes suivants sont utiles pour aborder l’optimisation automatique :
 
 L’algorithme qui sous-tend l’optimisation automatique est l’**échantillonnage de Thompson**. Dans cette section, nous abordons l’intuition sous-jacente à l’échantillonnage de Thompson.
 
-L’[échantillonnage de Thompson](https://fr.wikipedia.org/wiki/Échantillonnage_de_Thompson){target="_blank"}, ou bandits bayésiens, est une approche bayésienne du problème du bandit manchot.  L’idée de base est de traiter la récompense moyenne ?? de chaque offre comme une **variable aléatoire** et d’utiliser les données collectées jusqu’à présent pour mettre à jour la « croyance » sur la récompense moyenne. Cette « croyance » est représentée mathématiquement par une **loi de probabilité a posteriori**, qui est essentiellement une plage de valeurs pour la récompense moyenne, ainsi que la plausibilité (ou probabilité) que la récompense ait cette valeur pour chaque offre.Ensuite, pour chaque décision, nous réalisons un **échantillonnage d’un point de chacune de ces lois a posteriori de récompense** et sélectionnons l’offre dont la récompense échantillonnée a la valeur la plus élevée.
+L’[échantillonnage de Thompson](https://fr.wikipedia.org/wiki/Échantillonnage_de_Thompson){target="_blank"} ou bandits bayésiens, est une approche bayésienne du problème du bandit manchot.  L’idée de base est de traiter la récompense moyenne 𝛍 de chaque offre comme une **variable aléatoire** et d’utiliser les données collectées jusqu’à présent pour mettre à jour notre « croyance » sur la récompense moyenne. Cette « croyance » est représentée mathématiquement par une **loi de probabilité a posteriori**, qui est essentiellement une plage de valeurs pour la récompense moyenne, ainsi que la plausibilité (ou probabilité) que la récompense ait cette valeur pour chaque offre.Ensuite, pour chaque décision, nous réalisons un **échantillonnage d’un point de chacune de ces lois a posteriori de récompense** et sélectionnons l’offre dont la récompense échantillonnée a la valeur la plus élevée.
 
 Ce processus est illustré dans la figure ci-dessous, qui présente 3 offres différentes. Au départ, nous n’avons aucune preuve des données et nous supposons que toutes les offres ont une loi a posteriori uniforme de récompense. Nous tirons un échantillon de la loi a posteriori de récompense de chaque offre. L’échantillon sélectionné dans la loi de l’offre 2 a la valeur la plus élevée. Voici un exemple d’**exploration**. Après avoir affiché l’offre 2, nous collectons toute récompense potentielle (par exemple, conversion/pas de conversion) et mettons à jour la loi a posteriori de l’offre 2 à l’aide du théorème de Bayes, comme expliqué ci-dessous.  Nous poursuivons ce processus et mettons à jour les lois a posteriori chaque fois qu’une offre est affichée et que la récompense est collectée. Dans la seconde figure, l’offre 3 est sélectionnée. Bien que l’offre 1 ait obtenu la récompense moyenne la plus élevée (sa loi a posteriori de récompense est la plus éloignée à droite), le processus d’échantillonnage de chaque loi nous a amenés à choisir une offre 3 apparemment sous-optimale. Ce faisant, nous nous donnons la possibilité d’en savoir plus sur la loi de récompense véritable de l’offre 3.
 
@@ -49,7 +49,7 @@ Finalement, si une offre (par exemple l’offre 1) est un gagnant définitif, s
 
 ![](../assets/ai-ranking-thompson-sampling.png)
 
-**Figure 1** : *pour chaque décision, nous échantillonnons un point des lois a posteriori de récompense. L’offre avec la valeur d’échantillon la plus élevée (taux de conversion) est choisie. Dans la phase initiale, toutes les offres ont une loi uniforme puisque nous n’avons aucune preuve des taux de conversion des offres à partir des données. En collectant plus d’échantillons, les lois a posteriori deviennent plus étroites et plus précises. En fin de compte, l’offre présentant le taux de conversion le plus élevé est choisie à chaque fois.*
+**Figure 1** : *pour chaque décision, nous échantillonnons un point des lois a posteriori de récompense. L’offre avec la valeur d’échantillon la plus élevée (taux de conversion) est choisie. Dans la phase initiale, toutes les offres ont une loi uniforme, car nous n’avons aucune preuve des taux de conversion des offres à partir des données. En collectant plus d’échantillons, les lois a posteriori deviennent plus étroites et plus précises. En fin de compte, l’offre présentant le taux de conversion le plus élevé est choisie à chaque fois.*
 
 <!--
 ![](../assets/ai-ranking-thompson-sampling-initial.png)
@@ -59,7 +59,7 @@ Finalement, si une offre (par exemple l’offre 1) est un gagnant définitif, s
 
 +++**Détails techniques**
 
-Pour calculer/mettre à jour des lois, nous utilisons le **théorème de Bayes**. Pour chaque offre ***i***, nous voulons calculer sa ***P(??i | données)***, c’est-à-dire quelle est la probabilité d’une valeur de récompense **??i** pour chaque offre ***i***, compte tenu des données que nous avons collectées jusqu’à présent pour cette offre.
+Pour calculer/mettre à jour des lois, nous utilisons le **théorème de Bayes**. Pour chaque offre ***i***, nous voulons calculer leur ***P(𝛍i | données)*** c’est-à-dire pour chaque offre ***i***, la probabilité d’une valeur de récompense **𝛍i**, compte tenu des données que nous avons collectées jusqu’à présent pour cette offre.
 
 D’après le théorème de Bayes :
 

@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
-source-git-commit: 284c4896b923eac1d360b61d97cbe560d747ea4f
+source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
 workflow-type: tm+mt
-source-wordcount: '1694'
+source-wordcount: '1670'
 ht-degree: 98%
 
 ---
@@ -340,12 +340,3 @@ Vous découvrez [!DNL Journey Optimizer] ? Utilisateur expérimenté avec des q
 >abstract="Un emplacement détermine où les éléments renvoyés par le moteur de décision apparaissent dans un message. Vous pouvez suivre leurs performances sur les différents emplacements dans les rapports."
 
 
-
-
-
-
-
->[!CONTEXTUALHELP]
->id="ajo_journey_decision_policy"
->title="Définir une politique de décision"
->abstract="Une politique de décision vous permet de sélectionner les meilleurs éléments du moteur de décision et de les diffuser à l’audience appropriée."

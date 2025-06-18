@@ -9,10 +9,10 @@ role: Data Engineer, Data Architect, Admin
 level: Experienced
 keywords: action, tiers, personnalisé, parcours, API
 exl-id: 4df2fc7c-85cb-410a-a31f-1bc1ece237bb
-source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
-workflow-type: ht
+source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
+workflow-type: tm+mt
 source-wordcount: '1692'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 100%
 >title="Actions personnalisées"
 >abstract="Si vous utilisez un système tiers pour envoyer des messages ou souhaitez que les parcours envoient des appels API à un système tiers, utilisez des actions personnalisées pour configurer la connexion de ce système aux parcours."
 
-Si vous utilisez un système tiers pour envoyer des messages ou souhaitez que les parcours envoient des appels API à un système tiers, utilisez des actions personnalisées pour configurer la connexion de ce système aux parcours. Par exemple, vous pouvez vous connecter aux systèmes suivants avec des actions personnalisées : Epsilon, Slack, [Adobe Developer](https://developer.adobe.com){target="_blank"}, Firebase, etc.
+Si vous utilisez un système tiers pour envoyer des messages ou souhaitez que les parcours envoient des appels API à un système tiers, utilisez des actions personnalisées pour configurer la connexion de ce système aux parcours. Par exemple, vous pouvez vous connecter aux systèmes suivants avec des actions personnalisées : Epsilon, Slack, [Adobe Developer](https://developer.adobe.com){target="_blank"}, Firebase, etc.
 
 Les actions personnalisées sont des actions supplémentaires définies par les utilisateurs techniques et mises à la disposition des spécialistes marketing. Une fois configurés, elles apparaissent dans la palette gauche de votre parcours, dans la catégorie **[!UICONTROL Action]**. En savoir plus sur [cette page](../building-journeys/about-journey-activities.md#action-activities).
 
@@ -107,7 +107,7 @@ Lors de la configuration d’une action personnalisée, vous devez définir les 
 
    >[!NOTE]
    >
-   >Pour des raisons de sécurité, nous vous recommandons vivement d’utiliser le schéma HTTPS pour l’URL. L&#39;utilisation des adresses Adobe qui ne sont pas publiques et des adresses IP n&#39;est pas autorisée.
+   >Pour des raisons de sécurité, nous vous recommandons vivement d’utiliser le schéma HTTPS pour l’URL. L’utilisation d’adresses Adobe non publiques et d’adresses IP est interdite.
    >
    >Seuls les ports par défaut sont autorisés lors de la définition d’une action personnalisée : 80 pour http et 443 pour https.
 
@@ -137,7 +137,7 @@ Lors de la configuration d’une action personnalisée, vous devez définir les 
    >
    >Après avoir ajouté l’action personnalisée à un parcours, vous pouvez toujours y ajouter des champs d’en-tête si le parcours a le statut de brouillon. Si vous ne souhaitez pas que le parcours soit affecté par les modifications de configuration, dupliquez l’action personnalisée et ajoutez les champs d’en-tête à la nouvelle action personnalisée.
    >
-   >Les en-têtes sont validés conformément à des règles d’analyse. En savoir plus dans [cette documentation](https://tools.ietf.org/html/rfc7230#section-3.2.4){_blank}.
+   >Les en-têtes sont validés conformément à des règles d’analyse. Apprenez-en davantage en consultant [cette documentation](https://tools.ietf.org/html/rfc7230#section-3.2.4){_blank}.
 
 ## Couche de sécurité du transport {#tls}
 

@@ -9,10 +9,10 @@ role: Data Engineer, Data Architect, Admin
 level: Intermediate, Experienced
 keywords: externe, sources, données, configuration, connexion, tiers
 exl-id: f3cdc01a-9f1c-498b-b330-1feb1ba358af
-source-git-commit: 71d1a7c305c33ab7bef91b82329ecb692445fb27
+source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
 workflow-type: tm+mt
-source-wordcount: '1674'
-ht-degree: 97%
+source-wordcount: '1677'
+ht-degree: 92%
 
 ---
 
@@ -21,11 +21,11 @@ ht-degree: 97%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_data_source_custom"
 >title="Sources de données externes"
->abstract="Les sources de données externes vous permettent de définir une connexion à des systèmes tiers ; par exemple, si vous utilisez un système de réservation d’hôtels pour vérifier si la personne a réservé une chambre. Contrairement à la source de données Adobe Experience Platform intégrée, vous pouvez créer autant de sources de données externes que nécessaire."
+>abstract="Les sources de données externes vous permettent de définir une connexion à des systèmes tiers ; par exemple, si vous utilisez un système de réservation d’hôtels pour vérifier si la personne a réservé une chambre. Contrairement à la source de données Adobe Experience Platform intégrée, vous pouvez créer autant de sources de données externes que nécessaire."
 
 ## Utilisation de sources de données externes {#gs-ext-data-sources}
 
-Les sources de données externes vous permettent de définir une connexion à des systèmes tiers ; par exemple, si vous utilisez un système de réservation d’hôtels pour vérifier si la personne a réservé une chambre. Contrairement à la source de données Adobe Experience Platform intégrée, vous pouvez créer autant de sources de données externes que nécessaire.
+Les sources de données externes vous permettent de définir une connexion à des systèmes tiers ; par exemple, si vous utilisez un système de réservation d’hôtels pour vérifier si la personne a réservé une chambre. Contrairement à la source de données Adobe Experience Platform intégrée, vous pouvez créer autant de sources de données externes que nécessaire.
 
 >[!NOTE]
 >
@@ -69,7 +69,7 @@ Seuls les caractères alphanumériques et les traits de soulignement sont autori
 
    >[!CAUTION]
    >
-   >Nous vous recommandons vivement d&#39;utiliser le protocole HTTPS pour des raisons de sécurité. Notez également que l’utilisation des adresses Adobe qui ne sont pas publiquement disponibles et des adresses IP n’est pas autorisée.
+   >Nous vous recommandons vivement d&#39;utiliser le protocole HTTPS pour des raisons de sécurité. Notez également que nous n’autorisons pas l’utilisation d’adresses Adobe qui ne sont pas disponibles publiquement, ni d’adresses IP.
 
    ![](assets/journey27.png)
 

@@ -6,7 +6,7 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 2d118f5a-32ee-407c-9513-fe0ebe3ce8f0
-source-git-commit: 50687bad19e4866ace1e3e94f3efcdad84e98c96
+source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
 workflow-type: tm+mt
 source-wordcount: '378'
 ht-degree: 100%
@@ -38,7 +38,7 @@ Pour garantir des performances et une cohérence optimales, la prise de décisio
 
   Un maximum de quatre niveaux d’imbrication est pris en charge. Les images ne sont pas prises en charge au dernier niveau.
 
-## Accéder au schéma du catalogue et le modifier
+## Accéder au schéma du catalogue et le modifier {#access-catalog-schema}
 
 Pour accéder au schéma du catalogue où les attributs des éléments de décision sont stockés, procédez comme suit :
 

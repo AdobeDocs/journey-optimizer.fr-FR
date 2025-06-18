@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: IP, groupe, sous-domaines, délivrabilité
 exl-id: 752ffd7f-09c2-4aa3-a067-2dbe0634709c
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
-workflow-type: ht
-source-wordcount: '2634'
-ht-degree: 100%
+source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
+workflow-type: tm+mt
+source-wordcount: '2635'
+ht-degree: 96%
 
 ---
 
@@ -162,7 +162,7 @@ At phase level, system ensures that previously targeted + new profiles are picke
 
    ![](assets/ip-warmup-plan-send-time.png)
 
-1. Vous pouvez éventuellement définir une fenêtre temporelle pendant laquelle la campagne de préchauffage des adresses IP peut être exécutée en cas de retard dans l’[évaluation de l’audience](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=fr#how-segmentation-works){target="_blank"}. Pour ce faire, cliquez sur l’icône Propriétés en haut à gauche, en regard du nom du plan, et utilisez la liste déroulante **[!UICONTROL Temps d’exécution de reprise]** pour sélectionner une durée, jusqu’à 240 minutes (4 heures).
+1. Vous pouvez éventuellement définir une fenêtre temporelle pendant laquelle la campagne de préchauffage d’adresses IP peut être exécutée en cas de retard dans l’[évaluation de l’audience](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=fr#how-segmentation-works){target="_blank"}. Pour ce faire, cliquez sur l’icône Propriétés en haut à gauche, en regard du nom du plan, et utilisez la liste déroulante **[!UICONTROL Temps d’exécution de reprise]** pour sélectionner une durée, jusqu’à 240 minutes (4 heures).
 
    >[!NOTE]
    >
@@ -186,7 +186,7 @@ At phase level, system ensures that previously targeted + new profiles are picke
 
    >[!NOTE]
    >
-   >Si vous ne souhaitez appliquer aucune période d’engagement à une exécution, saisissez 0 dans le champ **[!UICONTROL Dernier engagement]**.
+   >Si vous ne souhaitez appliquer aucune période d’engagement à une exécution, saisissez 0 dans le champ **[!UICONTROL Dernier engagement]**.
 
 1. Sélectionnez l’option **[!UICONTROL Annuler les exécutions activées en cas d’erreurs]** pour annuler une exécution si les profils qualifiés sont inférieurs aux profils ciblés une fois que l’audience a été évaluée pour cette exécution.
 
@@ -232,7 +232,7 @@ Lorsque vous activez une exécution, plusieurs audiences sont automatiquement cr
 
 * Si vous activez la première exécution d’une phase :
 
-   * Une [audience](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html?lang=fr){target="_blank"} est créée pour les audiences de campagne exclues (le cas échéant), avec la convention de nommage suivante : `<warmupName>-Phase<phaseNo>-Audience Exclusion `.
+   * Une [audience](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html?lang=fr){target="_blank"} est créée pour les audiences de la campagne exclues (le cas échéant), avec la convention de nommage suivante : `<warmupName>-Phase<phaseNo>-Audience Exclusion `.
 
    * Une audience est créée pour les groupes de domaines exclus (le cas échéant), avec la convention de nommage suivante : `<warmupName>-Phase<phaseNo>-Domain Exclusion`.
 
@@ -254,7 +254,7 @@ Lorsque vous activez une exécution, plusieurs audiences sont automatiquement cr
      >
      >Le système ne crée pas de nouvelle audience en cas d’absence de modification du dernier filtre d’engagement pour les phases ultérieures.
 
-   * Une [composition d’audience](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/audience-composition.html?lang=fr){target="_blank"} est créée, qui correspond à l’audience à laquelle la campagne sera envoyée, avec la convention de nommage suivante : `<warmupName>-Phase<phaseNo>-Run<runNo>`.
+   * Une [composition d’audience](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/audience-composition.html?lang=fr){target="_blank"} est créée, correspondant à l’audience à laquelle la campagne sera envoyée, avec la convention de nommage suivante : `<warmupName>-Phase<phaseNo>-Run<runNo>`.
 
      >[!NOTE]
      >
@@ -328,7 +328,7 @@ Suivez les étapes [ci-dessus](#define-phases) pour définir la nouvelle phase.
 * Vous pouvez également exclure la campagne précédente ou un domaine qui n’est pas performant. Découvrez comment dans [cette section](#define-phases).
 
 <!--
-You don't have to decide the campaign upfront. You can do a split later. It's a work in progress plan: you activate one run at a time with a campaign and you always have the flexibility to modify it while working on it.
+You do not have to decide the campaign upfront. You can do a split later. It's a work in progress plan: you activate one run at a time with a campaign and you always have the flexibility to modify it while working on it.
 
 But need to explain in which case you want to modify campaigns, provide examples
 -->

@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: a205539b-b7ea-4832-92b0-49637c4dac47
-source-git-commit: e35d18002fa32df8c1cfd9e0a609ce167df4641a
-workflow-type: ht
-source-wordcount: '661'
-ht-degree: 100%
+source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
+workflow-type: tm+mt
+source-wordcount: '680'
+ht-degree: 97%
 
 ---
 
@@ -70,6 +70,12 @@ Pour créer entièrement un nouveau modèle de contenu, procédez comme suit.
    * [Définir le contenu d’un SMS](../sms/create-sms.md#sms-content)
    * [Définir le contenu d’un courrier](../direct-mail/create-direct-mail.md)
    * [Définir le contenu in-app](../in-app/design-in-app.md)
+   * [Définition du contenu web](../web/create-web.md#edit-web-content)
+   * [Définition du contenu d’expérience basé sur le code](../code-based/create-code-based.md)
+
+     >[!NOTE]
+     >
+     >Vous pouvez ajouter des politiques de décision aux modèles de contenu d’expérience basés sur du code. [En savoir plus](../experience-decisioning/create-decision.md#add-decision)
 
 1. Vous pouvez tester votre contenu. [Voici comment procéder.](#test-template)
 

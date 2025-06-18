@@ -8,10 +8,10 @@ role: User
 level: Beginner, Intermediate
 keywords: parcours, découverte, commencer
 exl-id: 73cfd48b-72e6-4b72-bbdf-700a32a34bda
-source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
-workflow-type: ht
+source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
+workflow-type: tm+mt
 source-wordcount: '417'
-ht-degree: 100%
+ht-degree: 93%
 
 ---
 
@@ -26,13 +26,13 @@ Utilisez [!DNL Journey Optimizer] pour créer des cas d’utilisation d’orches
 
 * Utilisez les **actions intégrées** pour envoyer des messages conçus dans [!DNL Journey Optimizer] ou créez des **actions personnalisées** si vous utilisez un système tiers pour envoyer vos messages.
 
-* Avec le **concepteur de parcours**, créez vos cas d’utilisation à plusieurs étapes : en toute facilité, faites glisser et déposez un événement d’entrée ou une activité de lecture d’audience, ajoutez des conditions et envoyez des messages personnalisés.
+* Avec le **concepteur de parcours**, créez vos cas d’utilisation à plusieurs étapes : faites glisser et déposez facilement un événement d’entrée ou une activité de lecture d’audience, ajoutez des conditions et envoyez des messages personnalisés.
 
 Le concepteur de parcours Journey Optimizer fournit tout ce dont les équipes de marketing et les spécialistes du parcours ont besoin pour orchestrer des parcours 1:1 à plusieurs étapes sur plusieurs canaux. Vous y trouverez une zone de travail intuitive par glisser-déposer pour orchestrer chaque étape du parcours, définir l’audience cible et inclure les messages, les offres et le contenu sur les canaux que les membres de l’audience cible verront en fonction du comportement, des données contextuelles et des événements métier.
 
 Découvrez comment concevoir et créer votre premier parcours dans [cette page](journey-gs.md).
 
-➡️ [Découvrez Journey Optimizer en vidéo.](#video)
+➡️ [Découvrir Journey Optimizer en vidéo](#video)
 
 ## Cas d’utilisation{#uc-journey}
 
@@ -56,4 +56,4 @@ Découvrez comment créer des parcours dans les cas d’utilisation complets sui
 
 Découvrez les composants d’un parcours et comprenez les principes de base de la création d’un parcours dans la zone de travail.
 
->[!VIDEO](https://video.tv.adobe.com/v/3430351?quality=12&captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/3424996?quality=12)

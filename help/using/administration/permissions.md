@@ -9,7 +9,7 @@ topic: Administration
 role: Admin
 level: Intermediate
 keywords: produit, profils, sandbox
-source-git-commit: 404fffa8d1f2ed40b18246002b67e2b533d8c19e
+source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
 workflow-type: tm+mt
 source-wordcount: '710'
 ht-degree: 51%
@@ -60,7 +60,7 @@ Pour plus d&#39;informations sur la gestion des utilisateurs, consultez la [docu
 
 Lors de l’accès à l’instance, l’utilisateur voit une vue spécifique en fonction des autorisations attribuées dans le **[!UICONTROL rôle]**. Si l’utilisateur ne dispose pas du droit d’accès à une fonctionnalité, le message suivant s’affiche :
 
-`You don't have permission to access this feature. Permission needed: XX.`
+`You do not have permission to access this feature. Permission needed: XX.`
 
 ## Modifier un rôle existant {#edit-product-profile}
 

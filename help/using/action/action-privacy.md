@@ -9,10 +9,10 @@ role: Data Engineer, Data Architect, Admin
 level: Experienced
 keywords: données, gouvernance, DULE, libellés, étiqueter, platform, politique
 exl-id: be3efd3b-35d5-4cf7-9015-29d1e305355d
-source-git-commit: f5df65a0225754ab66fb2ffa33c5130f7137b644
+source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
 workflow-type: tm+mt
-source-wordcount: '1292'
-ht-degree: 100%
+source-wordcount: '1291'
+ht-degree: 96%
 
 ---
 
@@ -25,9 +25,9 @@ ht-degree: 100%
 
 ## Commencer avec les politiques de gouvernance des données {#gs}
 
-Avec son cadre de gouvernance [Data Usage Labelling and Enforcement(DULE)](https://experienceleague.adobe.com/docs/experience-platform/data-governance/home.html?lang=fr){target="_blank"}, Adobe Experience Platform vous permet de gérer et d’appliquer des politiques de gouvernance des données sur vos canaux en **étiquetant vos champs** et en créant des **actions marketing** pour chaque canal.
+Grâce à son cadre [gouvernance DULE (Data Usage Labeling and Enforcement)](https://experienceleague.adobe.com/docs/experience-platform/data-governance/home.html?lang=fr){target="_blank"} Adobe Experience Platform vous permet de gérer et d’appliquer des politiques de gouvernance des données sur vos canaux en **étiquetant vos champs** et en créant des **actions marketing** pour chaque canal.
 
-Une fois les actions marketing et les libellés définis, vous pouvez créer des **politiques de gouvernance des données** qui lient ces deux éléments. Par exemple, vous pouvez configurer une politique qui associe un libellé « ePHI » à une action marketing de « ciblage e-mail », en veillant à ce que les champs étiquetés « ePHI » ne soient pas utilisés pour personnaliser les e-mails. [Découvrir comment créer des politiques de gouvernance des données](#governance-policies)
+Une fois les actions marketing et les libellés définis, vous pouvez créer des **politiques de gouvernance des données** qui lient ces deux éléments. Par exemple, vous pouvez configurer une politique qui associe un libellé « ePHI » à une action marketing de « ciblage e-mail », en veillant à ce que les champs étiquetés « ePHI » ne soient pas utilisés pour personnaliser les e-mails. [Découvrir comment créer des politiques de gouvernance des données](#policy)
 
 Après avoir créé les politiques de gouvernance, vous pouvez appliquer les actions marketing à vos actions parcours/campagnes actions personnalisées sur les parcours.
 [Découvrir comment appliquer des actions marketing dans Journey Optimizer](#apply-marketing-actions)
@@ -134,4 +134,4 @@ Les erreurs sont visibles à partir du bouton **[!UICONTROL Alertes]**. Cliquez 
 
 Cette boîte de dialogue indique que la configuration de parcours/campagne actuelle enfreint une politique de gouvernance des données existante. Utilisez le diagramme de lignage des données pour comprendre les autres modifications de configuration qui doivent être apportées avant de pouvoir activer votre parcours ou campagne.
 
-Des informations détaillées sont disponibles dans la [documentation sur les violations de politique d’utilisation des données](https://experienceleague.adobe.com/fr/docs/experience-platform/data-governance/enforcement/auto-enforcement#data-usage-violation){_blank}.
+Vous trouverez des informations détaillées dans la [documentation sur les violations de la politique d’utilisation des données](https://experienceleague.adobe.com/fr/docs/experience-platform/data-governance/enforcement/auto-enforcement#data-usage-violation){_blank}.

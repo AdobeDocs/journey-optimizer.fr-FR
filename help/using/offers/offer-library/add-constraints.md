@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 7234a8e8-4ab0-4f17-a833-5e452fadac35
-source-git-commit: 60cb5e1ba2b5c8cfd0a306a589c85761be1cf657
+source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
 workflow-type: tm+mt
-source-wordcount: '2715'
-ht-degree: 100%
+source-wordcount: '2717'
+ht-degree: 98%
 
 ---
 
@@ -75,7 +75,7 @@ Par exemple, si vous définissez les contraintes suivantes :
 >title="À propos de l&#39;éligibilité de l&#39;offre"
 >abstract="Dans cette section, vous pouvez utiliser des règles de décision pour déterminer quels utilisateurs sont éligibles à l&#39;offre."
 
-<!--additional-url="https://video.tv.adobe.com/v/341367?captions=fre_fr" text="Watch demo video"-->
+<!--additional-url="https://video.tv.adobe.com/v/329373" text="Watch demo video"-->
 
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_total_profile_estimate"
@@ -228,7 +228,7 @@ Vous pouvez indiquer si vous souhaitez que la limitation soit appliquée à tous
 
 * Sélectionnez **[!UICONTROL Par profil]** pour définir le nombre de fois où une offre peut être proposée au même utilisateur.
 
-  Par exemple, si vous êtes une banque avec une offre « Carte de crédit Platinum », vous ne souhaitez pas que cette offre soit présentée plus de 5 fois par profil. En effet, vous pensez que si l’utilisateur a vu l’offre 5 fois et n’a pas agi dessus, il a plus de chance d’agir sur la meilleure offre suivante.
+  Par exemple, si vous êtes une banque avec une offre « Carte de crédit Platinum », vous ne souhaitez pas que cette offre soit présentée plus de 5 fois par profil. En effet, vous pensez que si l’utilisateur a vu l’offre 5 fois et n’a pas agi dessus, il a plus de chance d’agir sur la meilleure offre suivante.
 
 ### Nombre de limitations {#capping-count}
 
@@ -268,7 +268,7 @@ Chaque région de hub est associée à une ou plusieurs régions périphériques
 * S’il existe une règle correspondante, le compteur de capping de fréquence du profil est incrémenté.
 * Dans le cas contraire, aucun compteur n’est créé pour le profil et la règle de capping de fréquence ne s’applique pas. Par conséquent, le profil continuera à recevoir des offres personnalisées, même si le seuil de limitation est dépassé.
 
-Par exemple, la région de hub de votre organisation est *NLD2* et vous envoyez une demande de prise de décision depuis l’Europe (région périphérique *IRL1*). Dans ce scénario, la requête de prise de décision incrémente le compteur du profil, car les règles sont disponibles dans la région *IRL1* (Irlande). Cependant, si la demande de prise de décision provient d’une région comme le Japon (*JPN3*), qui n’est pas une région périphérique liée à la région de hub *NLD2* (Pays-Bas), aucun compteur ne sera créé et les règles de limitation de fréquence ne seront pas appliquées.
+Par exemple, considérons la région de hub de votre organisation comme *NLD2* et vous envoyez une demande de prise de décision depuis l’Europe (*IRL1* région de périphérie). Dans ce scénario, la requête de prise de décision incrémente le compteur du profil, car les règles sont disponibles dans la région *IRL1* (Irlande). Cependant, si la demande de prise de décision provient d’une région comme le Japon (*JPN3*), qui n’est pas une région périphérique liée à la région de hub *NLD2* (Pays-Bas), aucun compteur ne sera créé et les règles de limitation de fréquence ne seront pas appliquées.
 
 >[!NOTE]
 >
