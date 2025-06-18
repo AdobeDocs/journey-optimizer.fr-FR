@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: message, fréquence, règles, pression
 exl-id: 07f5f0b4-417e-408e-8d9e-86615c8a3fbf
-source-git-commit: 6da1d9a3edb8a30b8f13fd0cb6a138f22459ad00
+source-git-commit: 37eed59b64a8bfad0b216c279b15612b6ac57897
 workflow-type: tm+mt
-source-wordcount: '948'
-ht-degree: 63%
+source-wordcount: '944'
+ht-degree: 68%
 
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 63%
 
 ### Que sont les jeux de règles ? {#what}
 
-Les ensembles de règles vous permettent de **regrouper plusieurs règles en ensembles de règles** et de les appliquer aux parcours et aux campagnes de votre choix. Cela permet d’obtenir une granularité améliorée afin de limiter la fréquence et le nombre de parcours qu’un client peut entrer au cours d’une certaine période ou de contrôler la fréquence à laquelle les utilisateurs et utilisatrices recevront un message selon le type de communication.
+Les jeux de règles vous permettent de **regrouper plusieurs règles en jeux de règles** et de les appliquer aux parcours et aux campagnes de votre choix. Cela permet d’améliorer la granularité afin de limiter la fréquence et le nombre de parcours qu’un client ou une cliente peut rejoindre au cours d’une certaine période ou de contrôler la fréquence à laquelle les utilisateurs et utilisatrices recevront un message selon le type de communication.
 
 Vous pouvez créer deux types d’ensembles de règles :
 
@@ -87,7 +87,7 @@ Pour créer un jeu de règles, procédez comme suit.
 
 >[!NOTE]
 >
->Vous pouvez créer jusqu’à 3 jeux de règles locales de domaine de canal et jusqu’à 5 jeux de règles locales de domaine de parcours.
+>Vous pouvez créer jusqu’à 10 ensembles de règles locales actifs pour le domaine de canal et pour le domaine de parcours.
 
 1. Accédez à la liste **[!UICONTROL Jeux de règles]**, puis cliquez sur **[!UICONTROL Créer un jeu de règles]**.
 
@@ -164,4 +164,4 @@ Le statut de la règle devient **[!UICONTROL Inactif]** et la règle ne s’appl
 
 ## Vidéo pratique {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/3444728?quality=12&captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/3435531?quality=12)

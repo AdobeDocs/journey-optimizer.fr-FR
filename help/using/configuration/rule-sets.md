@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: message, fréquence, règles, pression
 exl-id: 07f5f0b4-417e-408e-8d9e-86615c8a3fbf
-source-git-commit: 6da1d9a3edb8a30b8f13fd0cb6a138f22459ad00
+source-git-commit: 37eed59b64a8bfad0b216c279b15612b6ac57897
 workflow-type: tm+mt
-source-wordcount: '1960'
-ht-degree: 100%
+source-wordcount: '1956'
+ht-degree: 99%
 
 ---
 
@@ -72,7 +72,7 @@ Pour créer un jeu de règles, procédez comme suit.
 
 >[!NOTE]
 >
->Vous pouvez créer jusqu’à 3 jeux de règles locales de domaine de canal et jusqu’à 5 jeux de règles locales de domaine de parcours.
+>Vous pouvez créer jusqu’à 10 ensembles de règles locales actifs pour le domaine de canal et pour le domaine de parcours.
 
 1. Accédez à la liste **[!UICONTROL Jeux de règles]**, puis cliquez sur **[!UICONTROL Créer un jeu de règles]**.
 
@@ -312,4 +312,4 @@ Pour appliquer une règle de limitation à un parcours, accédez au parcours et 
 
 ## Vidéo pratique {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/3444728?quality=12&captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/3435531?quality=12)
