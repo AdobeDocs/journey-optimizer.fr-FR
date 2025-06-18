@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 keywords: css, éditeur, résumé, e-mail
-source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
+source-git-commit: a4055d1c4b6d75a04b71067df0c8f5499bae24d6
 workflow-type: tm+mt
-source-wordcount: '690'
+source-wordcount: '730'
 ht-degree: 1%
 
 ---
@@ -38,13 +38,17 @@ Pour ajouter du code CSS personnalisé au contenu de votre e-mail, procédez com
    >
    >La section **[!UICONTROL Styles CSS]** n’est disponible que lorsque du contenu est déjà présent dans l’éditeur.
 
+1. Cliquez sur le bouton **[!UICONTROL Ajouter un CSS personnalisé]**.
+
 1. Saisissez votre code CSS dans la zone de texte dédiée qui s’affiche. Assurez-vous que le code CSS personnalisé est valide et suit la syntaxe appropriée. [En savoir plus](#use-valid-css)
 
    ![Saisissez le CSS personnalisé dans la zone de texte dédiée](assets/email-body-custom-css.png){width="65%"}
 
    >[!NOTE]
    >
-   >Le bouton **[!UICONTROL Ajouter un CSS personnalisé]** n’est disponible que lorsque **[!UICONTROL Corps]** est sélectionné. Cependant, vous pouvez appliquer des styles CSS personnalisés à tous les composants de votre contenu.
+   >Le bouton **[!UICONTROL Ajouter un fichier CSS personnalisé]** n’est disponible que lorsque **[!UICONTROL Corps]** est sélectionné. Cependant, vous pouvez appliquer des styles CSS personnalisés à tous les composants de votre contenu.
+   >
+   >Lors de l’utilisation d’un [modèle avec du contenu verrouillé](../content-management/content-locking.md#use), vous ne pouvez pas ajouter de CSS personnalisé à votre contenu. Le libellé du bouton se transforme en **[!UICONTROL Afficher le CSS personnalisé]** et tout CSS personnalisé déjà présent dans le contenu est en lecture seule.
 
 1. Enregistrez votre CSS personnalisé et vérifiez qu’il est correctement appliqué à votre contenu. Si ce n’est pas le cas, consultez la section [Dépannage](#troubleshooting).
 
