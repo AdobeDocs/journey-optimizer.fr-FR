@@ -193,7 +193,7 @@ d. Open the report for the journey that you added the metric to and ensure that 
 >[!IMPORTANT]
 >
 >Chaque organisation est limitée à la publication de 25 audiences. En outre, les utilisateurs et utilisatrices peuvent publier un maximum de 5 audiences par heure et 20 par jour.
->> Les audiences ponctuelles ont une durée de vie de 48 heures. Par conséquent, si 25 audiences sont publiées au cours de ce délai, les audiences supplémentaires ne peuvent être publiées qu’une fois la période de 48 heures écoulée.
+>&#x200B;> Les audiences ponctuelles ont une durée de vie de 48 heures. Par conséquent, si 25 audiences sont publiées au cours de ce délai, les audiences supplémentaires ne peuvent être publiées qu’une fois la période de 48 heures écoulée.
 
 Vous pouvez désormais sélectionner des données spécifiques dans le tableau et créer directement une audience à partir de ces sélections, en rationalisant et en simplifiant le processus de création d’audience.
 
