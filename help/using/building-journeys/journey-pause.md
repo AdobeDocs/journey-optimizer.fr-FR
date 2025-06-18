@@ -8,7 +8,7 @@ role: User
 level: Intermediate
 badge: label="Disponibilité limitée" type="Informative"
 keywords: publication, parcours, actif, validité, vérifier
-source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
+source-git-commit: 024356ca30728611d1d32ba72172711e4714b64c
 workflow-type: tm+mt
 source-wordcount: '2021'
 ht-degree: 1%
@@ -83,7 +83,7 @@ Lorsqu’un parcours est en pause, la gestion des profils et l’exécution des 
 | [Réaction](reaction-events.md) | Même comportement que dans un parcours dynamique, cependant, si la réaction se produit après une activité <strong>Action</strong> et que l’utilisateur est mis en pause sur cette action, l’événement de réaction est ignoré. |
 | [Attente](wait-activity.md) | Même comportement que dans un parcours dynamique |
 | [Condition](condition-activity.md) | Même comportement que dans un parcours dynamique |
-| Décision de contenu | Les profils sont mis en attente ou ignorés en fonction de ce que l’utilisateur a choisi lorsque le parcours a été suspendu |
+| [Décision de contenu](content-decision.md) | Les profils sont mis en attente ou ignorés en fonction de ce que l’utilisateur a choisi lorsque le parcours a été suspendu |
 | [Action de canal](journeys-message.md) | Les profils sont mis en attente ou ignorés en fonction de ce que l’utilisateur a choisi lorsque le parcours a été suspendu |
 | [Action personnalisée](../action/action.md) | Les profils sont mis en attente ou ignorés en fonction de ce que l’utilisateur a choisi lorsque le parcours a été suspendu |
 | [Mettre à jour le profil](update-profiles.md) et [Saut](jump.md) | Même comportement que dans un parcours dynamique |
