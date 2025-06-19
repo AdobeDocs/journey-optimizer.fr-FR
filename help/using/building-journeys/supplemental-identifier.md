@@ -3,10 +3,10 @@ title: Identifiant supplémentaire dans les parcours déclenchés par un événe
 description: Découvrez comment utiliser un identifiant supplémentaire dans les parcours déclenchés par un événement.
 badge: label="Disponibilité limitée" type="Informative"
 exl-id: f6ebd706-4402-448a-a538-e9a4c2cf0f8b
-source-git-commit: e7f4959ceaa238e39858196b08d739053b21835c
+source-git-commit: 5e7aad25fa08994f6cbce9adfce4a3dc94fe3e47
 workflow-type: tm+mt
-source-wordcount: '861'
-ht-degree: 95%
+source-wordcount: '928'
+ht-degree: 88%
 
 ---
 
@@ -30,7 +30,7 @@ Ce faisant, les parcours déclenchés par l’événement sont exécutés dans l
 
 En outre, Journey Optimizer vous permet d’utiliser les attributs de l’identifiant supplémentaire (par exemple, le numéro de réservation, la date de renouvellement de l’ordonnance, le type de produit) pour personnaliser les messages, ce qui garantit des communications hautement pertinentes. <!--Example: A healthcare provider can send renewal reminders for each prescription in a patient's profile.-->
 
-## Mécanismes de sécurisation et limitations
+## Mécanismes de sécurisation et limitations {#guardrails}
 
 * **Limites d’instances simultanées** : les profils ne peuvent pas avoir plus de 10 instances de parcours simultanées.
 
@@ -61,7 +61,14 @@ En outre, Journey Optimizer vous permet d’utiliser les attributs de l’ident
 
 * **Type de données et structure du schéma** : l’identifiant supplémentaire doit être de type `string`. Il peut s’agir d’un attribut de chaîne indépendant ou d’un attribut de chaîne dans un tableau d’objets. L’attribut de chaîne indépendant entraîne une instance de parcours unique, tandis que l’attribut de chaîne dans un tableau d’objets entraîne une instance de parcours unique par itération du tableau d’objets. Les tableaux et mappages de chaînes ne sont pas pris en charge.
 
-## Ajouter un identifiant supplémentaire et l’utiliser dans un parcours
+* **Parcours de rentrée**
+
+  Le comportement de reprise de parcours avec des identifiants supplémentaires suit la politique de reprise existante :
+
+   * Si le parcours n’est pas rentrant, la même combinaison ID de profil + ID supplémentaire ne peut pas entrer à nouveau dans le parcours.
+   * Si le parcours est rentrant avec une fenêtre temporelle, la même combinaison ID de profil + ID supplémentaire peut entrer à nouveau après la fenêtre temporelle définie.
+
+## Ajouter un identifiant supplémentaire et l’utiliser dans un parcours {#add}
 
 Pour utiliser un identifiant supplémentaire dans un parcours, procédez comme suit :
 
@@ -88,6 +95,10 @@ Pour utiliser un identifiant supplémentaire dans un parcours, procédez comme s
       ![](assets/supplemental-ID-event.png)
 
    1. Utilisez l’éditeur d’expression pour sélectionner l’attribut que vous avez marqué comme ID supplémentaire.
+
+      >[!NOTE]
+      >
+      >Veillez à utiliser l’éditeur d’expression en **[!UICONTROL mode avancé]** pour sélectionner l’attribut.
 
    1. Après avoir sélectionné l’ID supplémentaire, l’espace de noms associé s’affiche en lecture seule dans l’écran de configuration de l’événement.
 

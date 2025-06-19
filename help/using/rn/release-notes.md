@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Notes de mise à jour d’Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 43fe7ca22a7685944b2b11ca3d1872641d1f4694
+source-git-commit: 5e7aad25fa08994f6cbce9adfce4a3dc94fe3e47
 workflow-type: tm+mt
-source-wordcount: '1070'
-ht-degree: 43%
+source-wordcount: '1078'
+ht-degree: 44%
 
 ---
 
@@ -30,7 +30,7 @@ ht-degree: 43%
 
 **Date de publication** : jeudi 18 juin 2025
 
-<!--See also [Adobe Experience Platform Pre Release Notes](https://experienceleague.adobe.com/fr/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
+<!--See also [Adobe Experience Platform Pre Release Notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
 
 ### Nouvelles fonctionnalités {#25-06-features}
 
@@ -202,6 +202,8 @@ Les améliorations de cette version sont présentées ci-dessous.
    * **Fréquence de limitation de la réinitialisation toutes les heures** - Vous pouvez désormais appliquer une limitation toutes les heures pour les ensembles de règles de canal. Cette fonctionnalité est disponible uniquement pour un nombre limité d’organisations (disponibilité limitée). Contactez l’assistance clientèle pour l’activer.
 
    * **Durée quotidienne** - Auparavant disponible en disponibilité limitée, le capping de la fréquence « quotidienne » dans les ensembles de règles de canal est désormais disponible pour tous les clients.
+
+  Pour plus d’informations, consultez la [documentation détaillée](../conflict-prioritization/channel-capping.md).
 
 * **Expériences basées sur le code**
 
