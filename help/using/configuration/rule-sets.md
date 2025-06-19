@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: message, fréquence, règles, pression
 exl-id: 07f5f0b4-417e-408e-8d9e-86615c8a3fbf
-source-git-commit: 37eed59b64a8bfad0b216c279b15612b6ac57897
+source-git-commit: 43fe7ca22a7685944b2b11ca3d1872641d1f4694
 workflow-type: tm+mt
-source-wordcount: '1956'
+source-wordcount: '1957'
 ht-degree: 99%
 
 ---
@@ -72,7 +72,7 @@ Pour créer un jeu de règles, procédez comme suit.
 
 >[!NOTE]
 >
->Vous pouvez créer jusqu’à 10 ensembles de règles locales actifs pour le domaine de canal et pour le domaine de parcours.
+>Vous pouvez créer jusqu’à 10 ensembles de règles locales actifs pour chaque domaine de canal et pour le domaine de parcours.
 
 1. Accédez à la liste **[!UICONTROL Jeux de règles]**, puis cliquez sur **[!UICONTROL Créer un jeu de règles]**.
 
@@ -197,7 +197,7 @@ Vous devez également activer le jeu de règles pour pouvoir y accéder dans les
 
 >[!NOTE]
 >
->L’activation complète d’un jeu de règles peut prendre jusqu’à 20 minutes. Vous n’avez pas besoin de modifier des messages ou de republier des parcours pour qu’une règle prenne effet.
+>L’activation complète d’un jeu de règles peut prendre jusqu’à 10 minutes. Vous n’avez pas besoin de modifier des messages ou de republier des parcours pour qu’une règle prenne effet.
 
 <!--Currently, once a rule set is activated, no more rules can be added to that rule set.-->
 
@@ -253,7 +253,7 @@ Vous pouvez appliquer un jeu de règles à un message ou à un parcours, en fonc
 
    <!--Messages where the category selected is **[!UICONTROL Transactional]** will not be evaluated against business rules.-->
 
-1. Avant d’activer votre campagne, assurez-vous de planifier son exécution au moins 20 minutes à l’avance.
+1. Avant d’activer votre campagne, assurez-vous de planifier son exécution au moins 10 minutes à l’avance.
 
    Cela laisse suffisamment de temps pour renseigner les valeurs de compteur sur le profil pour la règle métier que vous avez sélectionnée. Si vous activez immédiatement la campagne, les valeurs de compteur de jeux de règles ne seront pas renseignées sur les profils des personnes destinataires et le message ne sera pas comptabilisé dans les règles de capping de fréquence pour les jeux de règles personnalisées.
 
@@ -306,10 +306,10 @@ Pour appliquer une règle de limitation à un parcours, accédez au parcours et 
 
 >[!IMPORTANT]
 >
->Si un parcours est activé immédiatement, cela peut prendre jusqu’à 20 minutes pour que le système puisse commencer à supprimer la clientèle. Vous pouvez planifier votre parcours pour qu’il commence au moins 20 minutes dans le futur afin d’éviter cette éventualité.
+>Si un parcours est activé immédiatement, cela peut prendre jusqu’à 10 minutes pour que le système puisse commencer à supprimer la clientèle. Vous pouvez planifier votre parcours pour qu’il commence au moins 10 minutes dans le futur afin d’éviter cette éventualité.
 
 +++
 
 ## Vidéo pratique {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/3444728?quality=12&captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/3435531?quality=12)

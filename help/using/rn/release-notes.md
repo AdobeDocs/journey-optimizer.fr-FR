@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Notes de mise à jour d’Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 024356ca30728611d1d32ba72172711e4714b64c
+source-git-commit: 43fe7ca22a7685944b2b11ca3d1872641d1f4694
 workflow-type: tm+mt
-source-wordcount: '972'
-ht-degree: 46%
+source-wordcount: '1070'
+ht-degree: 43%
 
 ---
 
@@ -30,7 +30,7 @@ ht-degree: 46%
 
 **Date de publication** : jeudi 18 juin 2025
 
-<!--See also [Adobe Experience Platform Pre Release Notes](https://experienceleague.adobe.com/fr/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
+<!--See also [Adobe Experience Platform Pre Release Notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
 
 ### Nouvelles fonctionnalités {#25-06-features}
 
@@ -195,11 +195,13 @@ Les nouvelles fonctionnalités de cette version sont présentées ci-dessous.
 
 Les améliorations de cette version sont présentées ci-dessous.
 
-<!--* **Channel rule sets**
+* **Jeux de règles de canal**
 
-  * **Custom duration window** for capping -  A new **Repeat Count** field is now available in the channel rule sets configuration screen, allowing you to apply frequency capping rules over multiple days, weeks, or months, depending on the specified duration.
+   * **Fenêtre de durée personnalisée** pour la limitation : un nouveau champ **Toutes les** est désormais disponible dans l’écran de configuration des jeux de règles de canal, ce qui vous permet d’appliquer des règles de limitation de la fréquence sur plusieurs jours, semaines ou mois, selon la durée spécifiée.
 
-  * **Hourly duration** - You can now apply capping on an hourly basis for channel rule sets.    -->
+   * **Fréquence de limitation de la réinitialisation toutes les heures** - Vous pouvez désormais appliquer une limitation toutes les heures pour les ensembles de règles de canal. Cette fonctionnalité est disponible uniquement pour un nombre limité d’organisations (disponibilité limitée). Contactez l’assistance clientèle pour l’activer.
+
+   * **Durée quotidienne** - Auparavant disponible en disponibilité limitée, le capping de la fréquence « quotidienne » dans les ensembles de règles de canal est désormais disponible pour tous les clients.
 
 * **Expériences basées sur le code**
 

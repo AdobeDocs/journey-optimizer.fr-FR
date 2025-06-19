@@ -4,7 +4,7 @@ description: Découvrez comment tirer parti des outils de gestion des conflits e
 role: User
 level: Beginner
 exl-id: 9dc0cd89-d29a-42d2-a73f-d95f9c39c86e
-source-git-commit: 9d84a319497e833aa77416479dd019bab59aab55
+source-git-commit: 43fe7ca22a7685944b2b11ca3d1872641d1f4694
 workflow-type: tm+mt
 source-wordcount: '622'
 ht-degree: 97%
@@ -57,7 +57,7 @@ Les jeux de règles vous permettent de **regrouper plusieurs règles en jeux de 
 
 * **Latence de mise à jour du compteur de profils**
 
-  La mise à jour de la valeur du compteur de profil peut prendre jusqu’à 20 minutes après qu’un client ou une cliente a rejoint un parcours.
+  La mise à jour de la valeur du compteur de profil peut prendre jusqu’à 10 minutes après qu’un client ou une cliente a rejoint un parcours.
 
   Si un profil rejoint deux parcours dans un laps de temps réduit, le second parcours peut ne pas détecter correctement que la limitation de fréquence a déjà été atteinte, ce qui risque d’autoriser le profil à rejoindre les deux parcours.
 
