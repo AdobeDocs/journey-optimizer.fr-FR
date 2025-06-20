@@ -26,7 +26,7 @@ Les droits, les limitations de produit et la sécurisation des performances sont
 >
 >* [Les mécanismes de sécurisation pour les données et la segmentation du profil client en temps réel](https://experienceleague.adobe.com/fr/docs/experience-platform/profile/guardrails){target="_blank"} s’appliquent également à Adobe Journey Optimizer.
 >
->* Consultez également la section [ Mécanismes de sécurisation pour l’ingestion de données dans le profil client en temps réel](https://experienceleague.adobe.com/en/docs/experience-platform/ingestion/guardrails){target="_blank"}
+>* Consultez également la section [ Mécanismes de sécurisation pour l’ingestion de données dans le profil client en temps réel](https://experienceleague.adobe.com/fr/docs/experience-platform/ingestion/guardrails){target="_blank"}
 
 
 ## Navigateurs pris en charge {#browsers}
