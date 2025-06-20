@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: b1b7abbe-8600-4a8d-b0b5-0dbd49abc275
-source-git-commit: 0f3191a3d7c5c78e1d8fac2e587e26522f02f8f5
-workflow-type: ht
-source-wordcount: '1463'
-ht-degree: 100%
+source-git-commit: f9266d01610b92d8a55be8263da6bb808b3cc8ff
+workflow-type: tm+mt
+source-wordcount: '1471'
+ht-degree: 98%
 
 ---
 
@@ -34,7 +34,8 @@ ht-degree: 100%
 
 >[!AVAILABILITY]
 >
->Cette fonctionnalité est publiée en version Private Beta. Elle sera progressivement disponible pour l’ensemble de la clientèle dans les versions ultérieures.
+>Cette fonctionnalité est disponible en version bêta privée. Elle sera progressivement disponible pour l’ensemble de la clientèle dans les versions ultérieures.
+>
 >Vous devez accepter le [contrat d’utilisation](https://www.adobe.com/fr/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"} avant de pouvoir utiliser l’Assistant IA dans Adobe Journey Optimizer. Pour plus d’informations, contactez votre représentant ou représentante Adobe.
 
 Les consignes de marque sont un ensemble détaillé de règles et de normes qui établissent l’identité visuelle et verbale d’une marque. Elles servent de référence pour maintenir une représentation cohérente de la marque sur toutes les plateformes de marketing et de communication.
@@ -46,6 +47,8 @@ Dans [!DNL Journey Optimizer], vous avez désormais la possibilité de saisir et
 Pour accéder au menu **[!UICONTROL Marques]** dans [!DNL Adobe Journey Optimizer], vous devez disposer des autorisations **[!UICONTROL Gérer le kit de marque]** ou **[!UICONTROL Activer l’Assistant IA]**. [En savoir plus](../administration/permissions.md)
 
 +++  Découvrez comment attribuer des autorisations liées à la marque.
+
+Pour attribuer des autorisations aux marques, procédez comme suit :
 
 1. Dans le produit **Autorisations**, accédez à l’onglet **Rôles** et sélectionnez le **Rôle** de votre choix.
 
