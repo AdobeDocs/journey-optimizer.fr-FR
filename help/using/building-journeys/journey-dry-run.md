@@ -9,10 +9,10 @@ level: Intermediate
 badge: label="Disponibilité limitée" type="Informative"
 keywords: publication, parcours, actif, validité, vérifier
 exl-id: 58bcc8b8-5828-4ceb-9d34-8add9802b19d
-source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
+source-git-commit: 8f3d619adfb7b2f3dd876da7a3a6eba1fda6dd6b
 workflow-type: tm+mt
-source-wordcount: '930'
-ht-degree: 11%
+source-wordcount: '941'
+ht-degree: 10%
 
 ---
 
@@ -118,17 +118,19 @@ Cliquez sur le bouton **Fermer** pour terminer le test, puis sur **Retour au bro
 
 ## Mécanismes de sécurisation et limitations {#journey-dry-run-limitations}
 
-* Le mode Exécution d’essai n’est pas disponible pour les parcours contenant des événements de réaction.
-* Les profils en mode Exécution d’essai sont comptabilisés dans les profils engageables.
-* Les parcours d’exécution d’essai n’ont aucune incidence sur les règles métier.
+* Le mode Exécution d’essai n’est pas disponible pour les parcours contenant des événements de réaction
+* Les profils en mode Exécution d’essai sont comptabilisés dans les profils engageables
+* Les parcours en mode Exécution d’essai sont comptabilisés dans le quota de parcours en direct
+* Les parcours d’essai n’ont aucune incidence sur les règles métier.
 * Lors de la création d’une version de parcours, si une version de parcours précédente est **en ligne**, l’activation de l’exécution d’essai n’est pas autorisée sur la nouvelle version.
 * L’exécution d’essai de parcours génère des événements stepEvents. Ces événements stepEvents disposent d’un indicateur et d’un identifiant d’exécution d’essai spécifiques :
    * `_experience.journeyOrchestration.stepEvents.inDryRun` renvoie `true` si l’Exécution d’essai est activée et `false` dans le cas contraire
    * `_experience.journeyOrchestration.stepEvents.dryRunID` renvoie l’identifiant d’une instance d’essai
+
 * Lors de l’exécution de l’essai, le parcours est exécuté avec les spécificités suivantes :
 
-   * Les nœuds **Action de canal** notamment les e-mails, SMS ou notifications push ne sont pas exécutés.
+   * Les nœuds **Action de canal** notamment les e-mails, SMS ou notifications push ne sont pas exécutés
    * Les **actions personnalisées** sont désactivées pendant l’exécution d’essai et leurs réponses sont définies sur null.
    * Les **nœuds d’attente** sont ignorés lors de l’exécution de l’essai.
      <!--You can override the wait block timeouts, then if you have wait blocks duration longer than allowed dry run journey duration, then that branch will not execute completely.-->
-   * **Les sources de données** y compris les sources de données externes, sont exécutées par défaut.
+   * **Les sources de données** y compris les sources de données externes, sont exécutées par défaut

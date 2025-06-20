@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: 284c4896b923eac1d360b61d97cbe560d747ea4f
+source-git-commit: 8f3d619adfb7b2f3dd876da7a3a6eba1fda6dd6b
 workflow-type: tm+mt
-source-wordcount: '2513'
-ht-degree: 99%
+source-wordcount: '2539'
+ht-degree: 98%
 
 ---
 
@@ -26,7 +26,7 @@ Les droits, les limitations de produit et la sécurisation des performances sont
 >
 >* [Les mécanismes de sécurisation pour les données et la segmentation du profil client en temps réel](https://experienceleague.adobe.com/fr/docs/experience-platform/profile/guardrails){target="_blank"} s’appliquent également à Adobe Journey Optimizer.
 >
->* Consultez également la section [ Mécanismes de sécurisation pour l’ingestion de données dans le profil client en temps réel](https://experienceleague.adobe.com/fr/docs/experience-platform/ingestion/guardrails){target="_blank"}
+>* Consultez également la section [ Mécanismes de sécurisation pour l’ingestion de données dans le profil client en temps réel](https://experienceleague.adobe.com/en/docs/experience-platform/ingestion/guardrails){target="_blank"}
 
 
 ## Navigateurs pris en charge {#browsers}
@@ -117,8 +117,8 @@ Les mécanismes de sécurisation et les limitations à garder à l’esprit lors
 ### Mécanismes de sécurisation généraux des parcours {#journeys-guardrails-journeys}
 
 * Le nombre d’activités d’un parcours est désormais limité à 50. Le nombre d’activités s’affiche dans la section supérieure gauche de la zone de travail du parcours. Cela permet de faciliter la lisibilité, l’assurance qualité et la résolution des problèmes.
+* Le nombre de parcours d’exécution actifs, en pause ou secs à la fois est limité à 100.  Le nombre actuel de parcours s’affiche au-dessus de la zone de travail du parcours.
 * Lorsque vous publiez des parcours, nous les mettons automatiquement à l’échelle et les ajustons pour garantir une stabilité et un débit maximaux. Lorsque vous approchez du jalon de 100 parcours actifs à la fois, une notification s’affiche dans l’interface utilisateur pour cette réalisation. Si cette notification s’affiche et que vous devez étendre vos parcours au-delà de 100 parcours actifs à la fois, créez un ticket pour l’assistance clientèle et nous vous aiderons à atteindre vos objectifs.
-  <!-- DOCAC-10977 * As you publish journeys, we automatically scale and adjust to ensure maximum throughput and stability. As you near the milestone of 500 live journeys at one time, you will see a notification appear in the UI on this achievement. If you see this notification and have a need to extend your journeys beyond 500 live journeys at a time, please create a ticket for customer care and we will help you reach your goals.-->
 * Lorsque vous utilisez une qualification d’audience dans un parcours, cette activité de qualification d’audience peut demander jusqu’à 10 minutes avant d’être active et d’écouter les profils entrant ou sortant de l’audience.
 * La taille maximale d’une instance de parcours pour un profil est de 1 Mo. Toutes les données collectées dans le cadre de l’exécution du parcours sont stockées dans cette instance de parcours. Par conséquent, les données d’un événement entrant, les informations de profil extraites d’Adobe Experience Platform, les réponses d’action personnalisée, etc. sont stockées dans cette instance de parcours et affectent la taille du parcours. Il est conseillé, lorsqu’un parcours commence par un événement, de limiter la taille maximale de cette payload d’événement (par exemple, à moins de 800 Ko), afin d’éviter d’atteindre cette limite après quelques activités, dans l’exécution du parcours. Lorsque cette limite est atteinte, le profil est au statut d’erreur et est exclu du parcours.
 * Outre la temporisation utilisée dans les activités de parcours, il existe une temporisation globale qui n’est pas affichée dans l’interface et qui ne peut pas être modifiée. Cette temporisation globale met fin à la progression des personnes dans le parcours 91 jours après leur entrée. [En savoir plus](../building-journeys/journey-properties.md#global_timeout)
@@ -130,7 +130,7 @@ Les mécanismes de sécurisation suivants s’appliquent aux [actions](../buildi
 * En cas d’erreur, trois reprises sont systématiquement effectuées. Vous ne pouvez pas adapter le nombre de reprises en fonction du message d&#39;erreur renvoyé. Les reprises sont effectuées pour toutes les erreurs HTTP, à l’exception des erreurs HTTP 401, 403 et 404.
 * L’événement **Réaction** intégré vous permet de réagir aux actions d’usine. En savoir plus sur [cette page](../building-journeys/reaction-events.md). Si vous souhaitez réagir à un message envoyé par le biais d’une action personnalisée, vous devez configurer un événement dédié.
 * Vous ne pouvez pas placer deux actions en parallèle ; vous devez les ajouter l’une après l’autre.
-* Un profil ne peut pas être présent plusieurs fois dans le même parcours, en même temps, pour toutes les [versions actives du parcours ](../building-journeys/publishing-the-journey.md#create-a-new-version-of-a-journey-journey-create-new-version). Si la nouvelle entrée est activée, un profil peut rejoindre à nouveau un parcours, à condition d’avoir complètement quitté cette instance précédente du parcours. [En savoir plus](../building-journeys/end-journey.md)
+* Un profil ne peut pas être présent plusieurs fois dans le même parcours, en même temps, pour toutes les [versions actives du parcours ](../building-journeys/publishing-the-journey.md#create-a-new-version-of-a-journey-journey-create-new-version). Si la rentrée est activée, un profil peut rejoindre à nouveau un parcours, à condition d’avoir complètement quitté cette instance précédente du parcours. [En savoir plus](../building-journeys/end-journey.md)
 
 ### Versions de parcours {#journey-versions-g}
 
@@ -139,7 +139,7 @@ Les mécanismes de sécurisation suivants s’appliquent aux [versions de parcou
 * Un parcours commençant par une activité d’événement dans la version_v1 ne peut pas débuter avec un autre élément qu’un événement dans d’autres versions. Vous ne pouvez pas débuter un parcours avec un événement **Qualification d’audience**.
 * Un parcours commençant par une activité **Qualification d’audience** dans la version v1 doit toujours débuter avec une **qualification d’audience** dans d’autres versions.
 * L’audience et l’espace de noms sélectionnés dans **Qualification d’audience** (premier nœud) ne peuvent pas être modifiés dans les nouvelles versions.
-* La règle de nouvelle entrée doit être la même dans toutes les versions du parcours.
+* La règle de rentrée doit être la même dans toutes les versions du parcours.
 * Un parcours commençant par une **lecture d’audience** ne peut pas commencer par un autre événement dans les versions suivantes.
 * Vous ne pouvez pas créer de nouvelle version d’un parcours de lecture d’audience avec lecture incrémentielle. Vous devez dupliquer le parcours.
 
