@@ -7,10 +7,10 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: 0d5cfffe-bc6c-40bc-b3e1-5b44368ac76f
-source-git-commit: 5872e192c849b7a7909f0b50caa1331b15490d79
+source-git-commit: b5cdffa0794b3862094d8830b13bb618d94fe97f
 workflow-type: tm+mt
-source-wordcount: '621'
-ht-degree: 61%
+source-wordcount: '622'
+ht-degree: 62%
 
 ---
 
@@ -38,7 +38,7 @@ ht-degree: 61%
 
 +++ Table des matières
 
-| Bienvenue dans les campagnes orchestrées | Lancement de votre première campagne orchestrée | Interrogation de la base de données | Activités de campagnes orchestrées |
+| Bienvenue dans les campagnes orchestrées | Lancer votre première campagne orchestrée | Interroger la base de données | Activités de campagnes orchestrées |
 |---|---|---|---|
 | [Prise en main des campagnes orchestrées](../gs-orchestrated-campaigns.md)<br/><br/>[Étapes de configuration](../configuration-steps.md)<br/><br/>[Étapes clés de la création de campagnes orchestrées](../gs-campaign-creation.md) | [Créer une campagne orchestrée](../create-orchestrated-campaign.md)<br/><br/>[Orchestrer des activités](../orchestrate-activities.md)<br/><br/>[Envoyer des messages avec des campagnes orchestrées](../send-messages.md)<br/><br/>[Démarrer et surveiller la campagne](../start-monitor-campaigns.md)<br/><br/>[Reporting](../reporting-campaigns.md) | [Utiliser la requête Modeler](../orchestrated-rule-builder.md)<br/><br/>[créer votre première requête](../build-query.md)<br/><br/>[modifier des expressions](../edit-expressions.md) | [Prise en main des activités](about-activities.md)<br/><br/>Activités:<br/>[Et-joindre](and-join.md) - [Créer une audience](build-audience.md) - [Modifier la dimension](change-dimension.md) - [Combiner](combine.md) - [Deduplication](deduplication.md) - [Enrichissement](enrichment.md) - [Fork](fork.md) - [Reconciliation](reconciliation.md) - [Split](split.md) - [Wait](wait.md) |
 
@@ -50,9 +50,9 @@ ht-degree: 61%
 
 L&#39;activité **Réconciliation** est une activité de **Ciblage** qui permet de définir le lien entre les données de Adobe Journey Optimizer et les données d&#39;une table de travail, par exemple les données chargées depuis un fichier externe.
 
-L’activité Enrichissement vous permet d’ajouter des données supplémentaires à votre campagne orchestrée, par exemple, en combinant des données provenant de plusieurs sources ou en les liant à une ressource temporaire. En revanche, l’activité Réconciliation est utilisée pour mettre en correspondance des données non identifiées ou externes avec des ressources existantes dans la base de données.
+L’activité **Enrichissement** permet d’ajouter des données supplémentaires à votre campagne orchestrée, par exemple en combinant des données provenant de plusieurs sources ou en les liant à une ressource temporaire. En revanche, l’activité **Réconciliation** permet de mettre en correspondance des données non identifiées ou externes avec des ressources existantes dans la base de données.
 
-Le rapprochement nécessite que les enregistrements associés existent déjà dans le système. Par exemple, si vous importez un fichier d’achat répertoriant les produits, les horodatages et les informations client, les produits et les clients doivent déjà être présents dans la base de données pour établir la liaison.
+**Réconciliation** nécessite que les enregistrements associés existent déjà dans le système. Par exemple, si vous importez un fichier d’achat répertoriant les produits, les horodatages et les informations client, les produits et les clients doivent déjà être présents dans la base de données pour établir la liaison.
 
 ## Configurer l’activité Réconciliation {#reconciliation-configuration}
 
