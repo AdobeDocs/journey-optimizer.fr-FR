@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 5349b0cf-da4e-458c-89be-c75a38e4721a
-source-git-commit: 47482adb84e05fe41eb1c50479a8b50e00469ec4
+source-git-commit: 5b8d26b4fbc323308b5a49672f9d30298756ccf9
 workflow-type: tm+mt
-source-wordcount: '418'
-ht-degree: 100%
+source-wordcount: '381'
+ht-degree: 98%
 
 ---
 
@@ -31,7 +31,6 @@ Une fois que vous avez créé votre parcours dans [!DNL Journey Optimizer], vous
 >
 >Outre cette intégration, vous pouvez également exporter le contenu des jeux de données Adobe Journey Optimizer vers des emplacements de stockage dans le cloud et utiliser ces informations à des fins de création de rapports ou d’analyse. [Découvrez comment exporter des jeux de données vers des emplacements de stockage dans le cloud.](../data/export-datasets.md)
 >
->La fonction d’exportation des jeux de données, actuellement en version bêta, est disponible pour tous les utilisateurs et utilisatrices d’Adobe Journey Optimizer. Contactez votre représentant ou représentante Adobe pour obtenir l’accès aux destinations si vous n’y avez pas déjà accès.
 
 Avant d’utiliser [!DNL Customer Journey Analytics] pour vos parcours, vous devez d’abord configurer cette intégration :
 
