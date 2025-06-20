@@ -10,10 +10,10 @@ role: Data Engineer
 level: Intermediate
 keywords: expression, éditeur
 exl-id: 2fc10fdd-ca9e-46f0-94ed-2d7ea4de5baf
-source-git-commit: 47ff62f7dee5974afbffdd38dfe4a3f967781e93
+source-git-commit: 97a791329f35ba64a1dca9aef7802e0f4103dbe5
 workflow-type: tm+mt
-source-wordcount: '1044'
-ht-degree: 100%
+source-wordcount: '1114'
+ht-degree: 91%
 
 ---
 
@@ -44,6 +44,21 @@ Avant de commencer, consultez les restrictions et les directives suivantes :
 * **Canaux pris en charge** : pour l’instant, cette fonctionnalité n’est disponible que pour une utilisation dans les canaux e-mail, SMS et courrier.
 * **L’étiquetage et l’application de l’utilisation des données** n’est pas appliquée pour l’instant pour les jeux de données activés pour la recherche.
 * **Fragments** : pour le moment, la personnalisation de la recherche de jeux de données ne peut pas être placée dans des fragments d’expression ou visuels.
+
+### Prise de décisions {#decisioning}
+
+La possibilité d’exploiter les jeux de données [!DNL Adobe Experience Platform] dans les formules et règles de classement Experience Decisioning sera bientôt disponible.
+
+En attendant, veuillez consulter les mécanismes de sécurisation actuels décrits ci-dessous :
+
+* Une politique de décision est limitée à 3 jeux de données.
+* Une règle de décision peut utiliser 3 jeux de données.
+* Une formule de classement peut utiliser 3 jeux de données,
+* Une politique de décision est limitée à 1 000 requêtes d’enregistrement.
+
+>[!NOTE]
+>
+>Veuillez contacter votre représentant de compte si vous souhaitez accéder à cette fonctionnalité
 
 ## Activer un jeu de données pour la recherche de données {#enable}
 
@@ -117,7 +132,7 @@ Une fois qu’un jeu de données a été activé pour la personnalisation de la 
 
    +++Où récupérer un identifiant de jeu de données ?
 
-   Les identifiants de jeu de données peuvent être récupérés dans l’interface d’utilisation d’Adobe Experience Platform. Découvrez comment utiliser les jeux de données dans la [documentation d’Adobe Experience Platform](https://experienceleague.adobe.com/fr/docs/experience-platform/catalog/datasets/user-guide#view-datasets){target="_blank"}.
+   Les identifiants de jeu de données peuvent être récupérés dans l’interface d’utilisation d’Adobe Experience Platform. Découvrez comment utiliser les jeux de données dans la documentation de [Adobe Experience Platform](https://experienceleague.adobe.com/fr/docs/experience-platform/catalog/datasets/user-guide#view-datasets){target="_blank"}.
 
    ![](assets/aep-data-dataset.png)
 
@@ -148,7 +163,7 @@ Une fois qu’un jeu de données a été activé pour la personnalisation de la 
 
      +++Où récupérer un identifiant de champ ?
 
-     Les ID de champs peuvent être récupérés lors de la prévisualisation d’un jeu de données dans l’interface d’utilisation d’Adobe Experience Platform. Découvrez comment prévisualiser les jeux de données dans la [Documentation d’Adobe Experience Platform](https://experienceleague.adobe.com/fr/docs/experience-platform/catalog/datasets/user-guide#preview){target="_blank"}.
+     Les ID de champs peuvent être récupérés lors de la prévisualisation d’un jeu de données dans l’interface d’utilisation d’Adobe Experience Platform. Découvrez comment prévisualiser des jeux de données dans la documentation de [Adobe Experience Platform](https://experienceleague.adobe.com/fr/docs/experience-platform/catalog/datasets/user-guide#preview){target="_blank"}.
 
      ![](assets/aep-data-field.png)
 
