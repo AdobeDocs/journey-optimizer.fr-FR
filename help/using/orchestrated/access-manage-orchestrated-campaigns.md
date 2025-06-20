@@ -7,9 +7,9 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: 7b42d317-cd01-4c6a-b61e-5b03e5a8ff3c
-source-git-commit: 979b46eccf77db6e90cd47ceb7a40298bb481cc5
+source-git-commit: 919b462e869b8dd836fe45ee31441d3cc7ecf6b2
 workflow-type: tm+mt
-source-wordcount: '567'
+source-wordcount: '579'
 ht-degree: 23%
 
 ---
@@ -20,6 +20,11 @@ ht-degree: 23%
 >id="ajo_targeting_workflow_list"
 >title="Campagne orchestrée"
 >abstract="Dans cet écran, vous pouvez accéder à la liste complète des campagnes orchestrées, vérifier leur statut actuel, les dates de dernière exécution et de prochaine exécution, et créer une campagne orchestrée."
+
+>[!CONTEXTUALHELP]
+>id="ajo_orchestration_campaign_action"
+>title="Action"
+>abstract="Cette section répertorie toutes les actions utilisées dans la campagne orchestrée."
 
 +++ Table des matières
 
