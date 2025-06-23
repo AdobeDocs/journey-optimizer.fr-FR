@@ -7,10 +7,10 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: 1b99313e-f131-44f7-a129-f85e1977fb05
-source-git-commit: b5cdffa0794b3862094d8830b13bb618d94fe97f
+source-git-commit: 54b5591186dd51c0ea1fda6055d6c52fd079a748
 workflow-type: tm+mt
-source-wordcount: '338'
-ht-degree: 64%
+source-wordcount: '334'
+ht-degree: 39%
 
 ---
 
@@ -48,13 +48,16 @@ Pour configurer l’activité **Rendez-vous**, procédez comme suit :
 
 ![](../assets/workflow-andjoin.png)
 
-1. Ajoutez plusieurs activités telles que des activités de canal afin de former au moins deux branches d’exécution différentes.
-1. Ajoutez une activité **Rendez-vous** à l’une des branches.
-1. Dans les **Options de fusion**, cochez les activités précédentes à joindre.
-1. Dans l’**Ensemble principal**, choisissez la population de transition entrante à conserver. La transition sortante ne peut contenir que l’une des populations de la transition entrante.
+1. Ajoutez plusieurs activités, telles que des activités de canal, pour créer au moins deux branches d’exécution distinctes.
+
+1. Insérez une activité **Rendez-vous** dans l’une des branches.
+
+1. Sous la section **Options de fusion**, sélectionnez toutes les activités précédentes à joindre.
+
+1. Dans le menu déroulant Ensemble de Principal ****, choisissez la population de transition entrante que vous souhaitez conserver.
 
 ## Exemple{#and-join-example}
 
-L’exemple suivant illustre deux branches de campagne orchestrées avec une diffusion e-mail et SMS. L’activité Rendez-vous se déclenche lorsque les deux transitions entrantes sont activées. Les notifications push seront alors envoyées uniquement lorsque les deux diffusions seront terminées.
+Cet exemple illustre deux branches de campagne coordonnée, chacune disposant d’une diffusion e-mail, l’une ciblant les membres Gold et l’autre les membres Silver. La **Rendez-vous** s’active une fois les deux transitions entrantes déclenchées. Le SMS ne sera envoyé qu’une fois les deux diffusions par e-mail terminées, après un délai de 7 jours.
 
 ![](../assets/workflow-andjoin-example.png){zoomable="yes"}
