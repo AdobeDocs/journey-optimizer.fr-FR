@@ -7,7 +7,7 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: 02f986b2-8200-4e0e-8918-44e528a6a3ec
-source-git-commit: 38b65200435e0b997e79aefbb66549b9168188fd
+source-git-commit: 22655a1ad08bb96d7fee86eb31b0542e4ea669c7
 workflow-type: tm+mt
 source-wordcount: '461'
 ht-degree: 45%
@@ -44,7 +44,7 @@ Ces activités sont spécifiques au ciblage. Elles permettent de construire une 
 
 ![Liste des activités de ciblage](../assets/targeting-activities.png){width="40%" align="left"}
 
-* [![Créer une audience](../assets/..build-audience-icon.png)](build-audience.md) : définissez votre population cible. Vous pouvez sélectionner une audience existante ou utiliser le concepteur de requête pour définir votre propre requête.
+* [![Créer une audience](../assets/build-audience-icon.png)](build-audience.md) : définissez votre population cible. Vous pouvez sélectionner une audience existante ou utiliser le concepteur de requête pour définir votre propre requête.
 * [Modifier la dimension](change-dimension.md) : modifiez la dimension de ciblage au fur et à mesure que vous créez votre campagne orchestrée.
 * [Combiner](combine.md) : effectuez une segmentation sur votre population entrante. Vous pouvez utiliser une union, une intersection ou une exclusion.
 * [Déduplication](deduplication.md) : supprimez les doublons dans le ou les résultats des activités entrantes.
