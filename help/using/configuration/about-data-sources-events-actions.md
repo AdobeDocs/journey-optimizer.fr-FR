@@ -10,7 +10,7 @@ level: Intermediate
 keywords: configuration, parcours, tableau de bord, sources de données, événements, actions
 exl-id: c144d44f-031f-4ca2-800e-d3878af400a5
 source-git-commit: 9eda5416ba72fae390fc7eca6d9a3c699cedde50
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '523'
 ht-degree: 100%
 

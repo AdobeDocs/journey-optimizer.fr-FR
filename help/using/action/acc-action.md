@@ -10,7 +10,7 @@ level: Intermediate
 keywords: campaign, acc, intégration
 exl-id: 109ba212-f04b-425f-9447-708c8e0b3f51
 source-git-commit: 60cb5e1ba2b5c8cfd0a306a589c85761be1cf657
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '546'
 ht-degree: 100%
 
