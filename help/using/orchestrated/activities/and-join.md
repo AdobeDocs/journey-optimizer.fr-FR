@@ -7,7 +7,7 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: 1b99313e-f131-44f7-a129-f85e1977fb05
-source-git-commit: 54b5591186dd51c0ea1fda6055d6c52fd079a748
+source-git-commit: 38b65200435e0b997e79aefbb66549b9168188fd
 workflow-type: tm+mt
 source-wordcount: '334'
 ht-degree: 39%
@@ -33,7 +33,7 @@ ht-degree: 39%
 
 <br/>
 
-L’activité **Rendez-vous** est une activité de **contrôle de flux**. Elle permet de synchroniser plusieurs branches d’exécution d’une campagne orchestrée.
+L’activité **[!UICONTROL Rendez-vous]** est une activité de **[!UICONTROL contrôle de flux]**. Elle permet de synchroniser plusieurs branches d’exécution d’une campagne orchestrée.
 
 L’activité Rendez-vous ne déclenche sa transition sortante qu’une fois toutes les transitions entrantes activées, c’est-à-dire quand toutes les activités précédentes sont terminées. Vous pouvez ainsi vous assurer que certaines activités sont terminées avant de continuer à exécuter la campagne orchestrée.
 
@@ -44,20 +44,20 @@ L’activité Rendez-vous ne déclenche sa transition sortante qu’une fois tou
 >title="Options de fusion"
 >abstract="Sélectionnez les activités auxquelles vous souhaitez adhérer. Dans l’**Ensemble principal**, choisissez la population de transition entrante à conserver."
 
-Pour configurer l’activité **Rendez-vous**, procédez comme suit :
+Pour configurer l’activité **[!UICONTROL Rendez-vous]**, procédez comme suit :
 
 ![](../assets/workflow-andjoin.png)
 
 1. Ajoutez plusieurs activités, telles que des activités de canal, pour créer au moins deux branches d’exécution distinctes.
 
-1. Insérez une activité **Rendez-vous** dans l’une des branches.
+1. Insérez une activité **[!UICONTROL Rendez-vous]** dans l’une des branches.
 
-1. Sous la section **Options de fusion**, sélectionnez toutes les activités précédentes à joindre.
+1. Sous la section **[!UICONTROL Options de fusion]**, sélectionnez toutes les activités précédentes à joindre.
 
-1. Dans le menu déroulant Ensemble de Principal **&#x200B;**, choisissez la population de transition entrante que vous souhaitez conserver.
+1. Dans le menu déroulant Ensemble de Principal ****, choisissez la population de transition entrante que vous souhaitez conserver.
 
 ## Exemple{#and-join-example}
 
-Cet exemple illustre deux branches de campagne coordonnée, chacune disposant d’une diffusion e-mail, l’une ciblant les membres Gold et l’autre les membres Silver. La **Rendez-vous** s’active une fois les deux transitions entrantes déclenchées. Le SMS ne sera envoyé qu’une fois les deux diffusions par e-mail terminées, après un délai de 7 jours.
+Cet exemple illustre deux branches de campagne coordonnée, chacune disposant d’une diffusion e-mail, l’une ciblant les membres Gold et l’autre les membres Silver. La **[!UICONTROL Rendez-vous]** s’active une fois les deux transitions entrantes déclenchées. Le SMS ne sera envoyé qu’une fois les deux diffusions par e-mail terminées, après un délai de 7 jours.
 
 ![](../assets/workflow-andjoin-example.png){zoomable="yes"}

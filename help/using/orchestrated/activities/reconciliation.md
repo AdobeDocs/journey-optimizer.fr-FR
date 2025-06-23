@@ -7,10 +7,10 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: 0d5cfffe-bc6c-40bc-b3e1-5b44368ac76f
-source-git-commit: b5cdffa0794b3862094d8830b13bb618d94fe97f
+source-git-commit: 38b65200435e0b997e79aefbb66549b9168188fd
 workflow-type: tm+mt
-source-wordcount: '622'
-ht-degree: 62%
+source-wordcount: '621'
+ht-degree: 34%
 
 ---
 
@@ -48,11 +48,11 @@ ht-degree: 62%
 
 <br/>
 
-L&#39;activité **Réconciliation** est une activité de **Ciblage** qui permet de définir le lien entre les données de Adobe Journey Optimizer et les données d&#39;une table de travail, par exemple les données chargées depuis un fichier externe.
+L&#39;activité **[!UICONTROL Réconciliation]** est une activité de **[!UICONTROL Ciblage]** qui permet de définir le lien entre les données de Adobe Journey Optimizer et les données d&#39;une table de travail, par exemple les données chargées depuis un fichier externe.
 
-L’activité **Enrichissement** permet d’ajouter des données supplémentaires à votre campagne orchestrée, par exemple en combinant des données provenant de plusieurs sources ou en les liant à une ressource temporaire. En revanche, l’activité **Réconciliation** permet de mettre en correspondance des données non identifiées ou externes avec des ressources existantes dans la base de données.
+L’activité **[!UICONTROL Enrichissement]** permet d’ajouter des données supplémentaires à votre campagne orchestrée, par exemple en combinant des données provenant de plusieurs sources ou en les liant à une ressource temporaire. En revanche, l’activité **[!UICONTROL Réconciliation]** permet de mettre en correspondance des données non identifiées ou externes avec des ressources existantes dans la base de données.
 
-**Réconciliation** nécessite que les enregistrements associés existent déjà dans le système. Par exemple, si vous importez un fichier d’achat répertoriant les produits, les horodatages et les informations client, les produits et les clients doivent déjà être présents dans la base de données pour établir la liaison.
+**[!UICONTROL Réconciliation]** nécessite que les enregistrements associés existent déjà dans le système. Par exemple, si vous importez un fichier d’achat répertoriant les produits, les horodatages et les informations client, les produits et les clients doivent déjà être présents dans la base de données pour établir la liaison.
 
 ## Configurer l’activité Réconciliation {#reconciliation-configuration}
 
@@ -83,22 +83,36 @@ L’activité **Enrichissement** permet d’ajouter des données supplémentaire
 >title="Attribut de réconciliation"
 >abstract="Sélectionnez l’attribut à utiliser pour réconcilier les données, puis cliquez sur Confirmer."
 
-Pour configurer l’activité **Réconciliation**, procédez comme suit :
+Pour configurer l’activité **[!UICONTROL Réconciliation]**, procédez comme suit :
 
-1. Ajoutez une activité **Réconciliation** dans votre campagne orchestrée.
+1. Ajoutez une activité **[!UICONTROL Réconciliation]** à votre workflow.
 
-1. Sélectionnez la nouvelle dimension de ciblage. Une dimension vous permet de définir la population ciblée : destinataires, abonnés de l’application, opérateurs, abonnés, etc.
+1. Choisissez une nouvelle dimension de ciblage pour définir les personnes à cibler, telles que les destinataires ou les abonnés.
 
-1. Sélectionnez le ou les champs à utiliser pour la réconciliation. Vous pouvez utiliser un ou plusieurs critères de réconciliation.
+1. Définissez le ou les champs à utiliser pour faire correspondre vos données entrantes avec des profils existants.
 
-   1. Pour utiliser des attributs afin de réconcilier des données, sélectionnez l’option **Attributs simples**. Le champ **Source** répertorie les champs disponibles dans la transition d’entrée, qui doivent être réconciliés. Le champ **Destination** correspond aux champs de la dimension de ciblage sélectionnée. Les données sont réconciliées lorsque la source et la destination sont égales. Par exemple, sélectionnez les champs **E-mail** pour dédupliquer des profils en fonction de leur adresse e-mail.
+1. Pour faire correspondre les données à l’aide de champs de base, sélectionnez **[!UICONTROL Attributs simples]**.
 
-      Pour ajouter un autre critère de réconciliation, cliquez sur le bouton **Ajouter une règle**. Si plusieurs conditions de jointure sont indiquées, elles doivent TOUTES être vérifiées pour que le lien entre les données puisse se faire.
+1. Définissez les champs correspondants :
 
-      ![](../assets/workflow-reconciliation-criteria.png)
+   * **[!UICONTROL Source]** : répertorie les champs de données entrants.
 
-   1. Pour utiliser d’autres attributs afin de réconcilier des données, sélectionnez l’option **Conditions avancées de réconciliation**. Vous pouvez ensuite créer votre propre condition de réconciliation à l&#39;aide du modéliseur de requêtes.
+   * **[!UICONTROL Destination]** : fait référence aux champs de la dimension de ciblage sélectionnée.
 
-1. Vous pouvez filtrer les données à réconcilier à l’aide du bouton **Créer un filtre**. Vous pouvez ainsi créer une condition personnalisée à l’aide du concepteur de requête.
+   Une correspondance se produit lorsque les deux valeurs sont égales. Par exemple, une correspondance par **[!UICONTROL E-mail]** pour identifier les profils.
 
-Par défaut, les données non réconciliées sont conservées dans la transition sortante et disponibles dans la table de travail pour une utilisation ultérieure. Pour supprimer les données non réconciliées, désactivez l’option **Conserver les données non réconciliées**.
+   ![](../assets/workflow-reconciliation-criteria.png)
+
+1. Pour ajouter d’autres règles correspondantes, cliquez sur **[!UICONTROL Ajouter une règle]**. Toutes les conditions doivent être remplies pour qu’une correspondance soit trouvée.
+
+1. Pour les conditions plus complexes, choisissez **[!UICONTROL Conditions avancées de réconciliation]**. Utilisez le [moteur de requête](../orchestrated-rule-builder.md) pour définir une logique personnalisée.
+
+1. Pour filtrer les données à réconcilier, cliquez sur **[!UICONTROL Créer un filtre]** et définissez votre condition dans le moteur de requête.
+
+1. Par défaut, les enregistrements non correspondants sont conservés dans la transition sortante et stockés dans la table de travail. Pour les supprimer, activez l’option **[!UICONTROL Conserver les données non rapprochées]**.
+
+## Exemple {#example-reconciliation}
+
+Cet exemple utilise l’activité **[!UICONTROL Réconciliation]** dans Adobe Journey Optimizer pour s’assurer que les e-mails sont envoyés uniquement aux clients reconnus. Les données sont transmises par le biais d’une activité **[!UICONTROL Lecture d’audience]** qui cible les utilisateurs avec des commandes précédentes. L’activité **[!UICONTROL Réconciliation]** associe ensuite ces données entrantes à des profils existants dans la base de données à l’aide du champ d’adresse électronique.
+
+![](../assets/workflow-reconciliation-sample-1.0.png)

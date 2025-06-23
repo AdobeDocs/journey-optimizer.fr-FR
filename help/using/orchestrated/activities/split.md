@@ -7,10 +7,10 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: 986bc566-123a-451d-a4a6-bbf5a2798849
-source-git-commit: 5872e192c849b7a7909f0b50caa1331b15490d79
+source-git-commit: 38b65200435e0b997e79aefbb66549b9168188fd
 workflow-type: tm+mt
 source-wordcount: '878'
-ht-degree: 53%
+ht-degree: 54%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 53%
 
 +++ Table des matières
 
-| Bienvenue dans les campagnes orchestrées | Lancement de votre première campagne orchestrée | Interrogation de la base de données | Activités de campagnes orchestrées |
+| Bienvenue dans les campagnes orchestrées | Lancer votre première campagne orchestrée | Interroger la base de données | Activités de campagnes orchestrées |
 |---|---|---|---|
 | [Prise en main des campagnes orchestrées](../gs-orchestrated-campaigns.md)<br/><br/>[Étapes de configuration](../configuration-steps.md)<br/><br/>[Étapes clés de la création de campagnes orchestrées](../gs-campaign-creation.md) | [Créer une campagne orchestrée](../create-orchestrated-campaign.md)<br/><br/>[Orchestrer des activités](../orchestrate-activities.md)<br/><br/>[Envoyer des messages avec des campagnes orchestrées](../send-messages.md)<br/><br/>[Démarrer et surveiller la campagne](../start-monitor-campaigns.md)<br/><br/>[Reporting](../reporting-campaigns.md) | [Utiliser la requête Modeler](../orchestrated-rule-builder.md)<br/><br/>[créer votre première requête](../build-query.md)<br/><br/>[modifier des expressions](../edit-expressions.md) | [Prise en main des activités](about-activities.md)<br/><br/>Activités:<br/>[Et-joindre](and-join.md) - [Créer une audience](build-audience.md) - [Modifier la dimension](change-dimension.md) - [Combiner](combine.md) - [Deduplication](deduplication.md) - [Enrichissement](enrichment.md) - [Fork](fork.md) - [Reconciliation](reconciliation.md) - [Split](split.md) - [Wait](wait.md) |
 
@@ -33,7 +33,7 @@ ht-degree: 53%
 
 <br/>
 
-L&#39;activité **Partage** est une activité **Ciblage** qui segmente la population entrante en plusieurs sous-ensembles en fonction de critères de sélection définis, tels que les règles de filtrage ou la taille de la population.
+L&#39;activité **[!UICONTROL Partage]** est une activité **[!UICONTROL Ciblage]** qui segmente la population entrante en plusieurs sous-ensembles en fonction de critères de sélection définis, tels que les règles de filtrage ou la taille de la population.
 
 ## Configurer l’activité Partage {#split-configuration}
 
@@ -77,11 +77,11 @@ L&#39;activité **Partage** est une activité **Ciblage** qui segmente la popula
 >title="Permettre le chevauchement des populations de sortie"
 >abstract=" L’option **[!UICONTROL Permettre le chevauchement des populations de sortie]** permet de gérer les populations qui appartiennent à plusieurs sous-ensembles. Lorsque la case n’est pas cochée, l’activité de partage fait en sorte qu’une personne destinataire ne puisse pas apparaître dans plusieurs transitions de sortie, même si elle répond aux critères de plusieurs sous-ensembles. Elles apparaissent ainsi dans la cible du premier onglet avec les critères correspondants. Lorsque la case est activée, les destinataires se trouvent dans plusieurs sous-ensembles s’ils ou elles répondent à leurs critères de filtre."
 
-Pour configurer l’activité **Partage**, procédez comme suit :
+Pour configurer l’activité **[!UICONTROL Partage]**, procédez comme suit :
 
-1. Ajoutez une activité **Partage** à votre campagne orchestrée.
+1. Ajoutez une activité **[!UICONTROL Partage]** à votre campagne orchestrée.
 
-1. Le volet de configuration des activités s’ouvre avec un sous-ensemble par défaut. Cliquez sur le bouton **Ajouter un segment** pour ajouter autant de sous-ensembles que vous le souhaitez pour segmenter la population entrante.
+1. Le volet de configuration des activités s’ouvre avec un sous-ensemble par défaut. Cliquez sur le bouton **[!UICONTROL Ajouter un segment]** pour ajouter autant de sous-ensembles que vous le souhaitez pour segmenter la population entrante.
 
    ![](../assets/orchestrated-split-1.png)
 

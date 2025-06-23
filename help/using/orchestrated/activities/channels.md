@@ -7,7 +7,7 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: ffe1e77c-6c4f-4f23-9183-d715a4c7c402
-source-git-commit: 5872e192c849b7a7909f0b50caa1331b15490d79
+source-git-commit: 38b65200435e0b997e79aefbb66549b9168188fd
 workflow-type: tm+mt
 source-wordcount: '968'
 ht-degree: 63%
@@ -18,7 +18,7 @@ ht-degree: 63%
 
 +++ Table des matières
 
-| Bienvenue dans les campagnes orchestrées | Lancement de votre première campagne orchestrée | Interrogation de la base de données | Activités de campagnes orchestrées |
+| Bienvenue dans les campagnes orchestrées | Lancer votre première campagne orchestrée | Interroger la base de données | Activités de campagnes orchestrées |
 |---|---|---|---|
 | [Prise en main des campagnes orchestrées](../gs-orchestrated-campaigns.md)<br/><br/>[Étapes de configuration](../configuration-steps.md)<br/><br/>[Étapes clés de la création de campagnes orchestrées](../gs-campaign-creation.md) | [Créer une campagne orchestrée](../create-orchestrated-campaign.md)<br/><br/>[Orchestrer des activités](../orchestrate-activities.md)<br/><br/>[Envoyer des messages avec des campagnes orchestrées](../send-messages.md)<br/><br/>[Démarrer et surveiller la campagne](../start-monitor-campaigns.md)<br/><br/>[Reporting](../reporting-campaigns.md) | [Utiliser la requête Modeler](../orchestrated-rule-builder.md)<br/><br/>[créer votre première requête](../build-query.md)<br/><br/>[modifier des expressions](../edit-expressions.md) | [Prise en main des activités](about-activities.md)<br/><br/>Activités:<br/>[Et-joindre](and-join.md) - [Créer une audience](build-audience.md) - [Modifier la dimension](change-dimension.md) - [Combiner](combine.md) - [Deduplication](deduplication.md) - [Enrichissement](enrichment.md) - [Fork](fork.md) - [Reconciliation](reconciliation.md) - [Split](split.md) - [Wait](wait.md) |
 
@@ -40,7 +40,7 @@ Commencez à créer votre campagne orchestrée avec les activités pertinentes :
 
 * Avant d’insérer une activité de canal, vous devez définir l’audience. L’audience est la cible principale de votre diffusion : les profils qui reçoivent les messages.
 
-* Pour envoyer une diffusion récurrente, lancez votre campagne orchestrée avec une activité **Planificateur**. Vous pouvez également utiliser une activité **Planificateur** pour les diffusions ponctuelles afin de définir la date de contact de celles-ci. Cette date de contact peut également être définie dans les paramètres de diffusion.
+* Pour envoyer une diffusion récurrente, lancez votre campagne orchestrée avec une activité **[!UICONTROL Planificateur]**. Vous pouvez également utiliser une activité **[!UICONTROL Planificateur]** pour les diffusions ponctuelles afin de définir la date de contact de celles-ci. Cette date de contact peut également être définie dans les paramètres de diffusion.
 
 ## Configurer une activité de canal {#create-a-delivery-in-a-workflow}
 
@@ -78,23 +78,23 @@ Pour configurer une diffusion dans le cadre d&#39;une campagne orchestrée, proc
    * **Diffusion unique** : il s’agit d’une diffusion ponctuelle, envoyée une seule fois, par exemple un e-mail pour le Black Friday.
    * Une **diffusion récurrente** est envoyée plusieurs fois en fonction de sa fréquence d’exécution. Chaque fois que la campagne orchestrée s’exécute, l’audience est recalculée et la diffusion est envoyée à l’audience mise à jour, avec le contenu mis à jour. Il peut s’agir d’une newsletter hebdomadaire ou d’un e-mail d’anniversaire récurrent.
 
-1. Choisissez un **modèle** de diffusion. Les modèles sont des paramètres de diffusion préconfigurés, spécifiques à un canal. Un modèle intégré est disponible pour chaque canal et prérempli par défaut.
+1. Choisissez un **[!UICONTROL modèle]** de diffusion. Les modèles sont des paramètres de diffusion préconfigurés, spécifiques à un canal. Un modèle intégré est disponible pour chaque canal et prérempli par défaut.
 
    ![](../assets/delivery-activity-in-wf.png)
 
-   Vous pouvez sélectionner le modèle dans le volet de gauche de la configuration de l’activité de canal. Si l’audience précédemment sélectionnée n’est pas compatible avec le canal, vous ne pouvez pas sélectionner de modèle. Pour résoudre ce problème, mettez à jour l’activité **Créer une audience** afin de sélectionner une audience ayant le mapping de ciblage approprié.
+   Vous pouvez sélectionner le modèle dans le volet de gauche de la configuration de l’activité de canal. Si l’audience précédemment sélectionnée n’est pas compatible avec le canal, vous ne pouvez pas sélectionner de modèle. Pour résoudre ce problème, mettez à jour l’activité **[!UICONTROL Créer une audience]** afin de sélectionner une audience ayant le mapping de ciblage approprié.
 
-1. Cliquez sur **Créer une diffusion**. Vous pouvez définir les paramètres et le contenu de votre message de la même manière que vous créez une diffusion autonome. Vous pouvez également tester et simuler le contenu.
+1. Cliquez sur **[!UICONTROL Créer une diffusion]**. Vous pouvez définir les paramètres et le contenu de votre message de la même manière que vous créez une diffusion autonome. Vous pouvez également tester et simuler le contenu.
 
-1. Revenez à votre workflow. Pour continuer votre workflow, activez l’option **Générer une transition sortante** pour ajouter une transition après l’activité de canal.
+1. Revenez à votre workflow. Pour continuer votre workflow, activez l’option **[!UICONTROL Générer une transition sortante]** pour ajouter une transition après l’activité de canal.
 
-1. Cliquez sur **Démarrer** pour lancer votre campagne orchestrée.
+1. Cliquez sur **[!UICONTROL Démarrer]** pour lancer votre campagne orchestrée.
 
    Par défaut, le démarrage d’une campagne orchestrée déclenche l’étape de préparation du message, sans envoyer immédiatement le message.
 
-1. Ouvrez votre activité de canal pour confirmer l’envoi avec le bouton **Vérifier et envoyer**.
+1. Ouvrez votre activité de canal pour confirmer l’envoi avec le bouton **[!UICONTROL Vérifier et envoyer]**.
 
-1. Dans le tableau de bord de la diffusion, cliquez sur **Envoyer**.
+1. Dans le tableau de bord de la diffusion, cliquez sur **[!UICONTROL Envoyer]**.
 
 ## Exemples {#cross-channel-workflow-sample}
 
