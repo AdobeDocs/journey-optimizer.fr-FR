@@ -48,4 +48,4 @@ Pour afficher la liste des actions ou configurer une nouvelle action, sélection
 
 Découvrez comment configurer des actions personnalisées.
 
->[!VIDEO](https://video.tv.adobe.com/v/3428396?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3430274?quality=12&captions=fre_fr)
