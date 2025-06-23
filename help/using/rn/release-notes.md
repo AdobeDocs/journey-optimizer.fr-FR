@@ -30,7 +30,7 @@ ht-degree: 80%
 
 **Date de publication** : 18 juin 2025
 
-<!--See also [Adobe Experience Platform Pre Release Notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
+<!--See also [Adobe Experience Platform Pre Release Notes](https://experienceleague.adobe.com/fr/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
 
 ### Nouvelles fonctionnalités {#25-06-features}
 
