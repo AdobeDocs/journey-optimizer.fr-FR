@@ -10,9 +10,9 @@ level: Beginner, Intermediate
 hidefromtoc: true
 exl-id: 0e43be98-f471-4860-be84-8f99ab93e983
 source-git-commit: 4fa50df6827e07e6f6f3c5730d1ae2a1af0d426d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2035'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -77,7 +77,7 @@ Cette page répertorie toutes les fonctionnalités et améliorations pour [!DNL 
 </table>
 
 
-Voir également les [notes de mise à jour d’octobre de Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/release-notes/2021/october-2021.html?lang=fr){target="_blank"} pour d’autres modifications.
+Consultez également les [Notes de mise à jour d’octobre d’Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/release-notes/2021/october-2021.html?lang=fr){target="_blank"} pour connaître les autres modifications.
 
 ### Améliorations
 
@@ -111,8 +111,8 @@ Voir également les [notes de mise à jour d’octobre de Adobe Experience Platf
 
 ### Correctifs
 
-* Correction d&#39;un problème qui empêchait l&#39;affichage de la liste de Parcours, de la liste de messages et du Designer d&#39;e-mail lorsque la langue du navigateur n&#39;était pas l&#39;anglais.
-* Correction d&#39;une erreur de syntaxe qui se produisait lors de l&#39;ajout de la personnalisation à l&#39;aide d&#39;une expression dans le Designer Email : les caractères étaient incorrectement placés dans une séquence d&#39;échappement.
+* Correction d’un problème qui empêchait l’affichage de la liste des parcours, de la liste des messages et du concepteur d’e-mail lorsque la langue du navigateur n’était pas l’anglais.
+* Correction d’une erreur de syntaxe qui survenait lors de l’ajout d’une personnalisation à l’aide d’une expression dans le concepteur d’e-mail : les caractères étaient placés par erreur dans une séquence d’échappement.
 * Correction d’un problème qui entraînait une erreur 404 lors de la navigation dans le menu **Administration**. 
 * Correction d’un problème qui déclenchait d’autres parcours actifs lors du test d’un parcours à l’aide d’un événement métier. 
 
@@ -294,7 +294,7 @@ Voir également les [notes de mise à jour d’octobre de Adobe Experience Platf
 ### Correctifs
 
 * Correction d’un problème d’accessibilité dans la navigation par onglets des messages.
-* Correction d’un problème de localisation dans les libellés de Designer des emails.
+* Correction d’un problème de localisation dans les libellés du concepteur d’e-mails.
 * Correction d’un problème lors de la sélection de plusieurs nœuds dans un parcours et du clic sur « Supprimer » dans le volet des propriétés.
 * Correction d’un problème qui empêchait l’ajout d’un nouvel en-tête à une action utilisée dans un parcours.
 * Vous pouvez maintenant découvrir la raison pour laquelle la création d’un préréglage de message a échoué via un avertissement plus explicite dans l’interface utilisateur.
@@ -365,4 +365,4 @@ Voir également les [notes de mise à jour d’octobre de Adobe Experience Platf
 * Correction d&#39;un problème en raison duquel les informations IP manquaient dans l&#39;écran Enregistrements PTR.
 * La localisation est maintenant implémentée dans le rail des offres au sein de l’éditeur d’expression.
 * Correction d’un espacement incorrect dans les fenêtres contextuelles d’informations.
-* Correction d&#39;un problème dans le Designer Email lors du chargement d&#39;un fichier HTML en raison duquel la feuille de style interne avec la propriété `background-image` n&#39;était pas prise en charge.
+* Correction d’un problème dans le concepteur d’e-mails lors du chargement d’un fichier HTML en raison duquel la feuille de style interne avec la propriété `background-image` n’était pas prise en charge.

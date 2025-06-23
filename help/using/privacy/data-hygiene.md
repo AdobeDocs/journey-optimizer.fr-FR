@@ -8,9 +8,9 @@ role: User
 level: Intermediate
 exl-id: 8045b559-bf5e-4b5f-9da4-accd44641a68
 source-git-commit: a5b292e6eb4145fa29774fbeb4ce823bc71b849c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '221'
-ht-degree: 57%
+ht-degree: 100%
 
 ---
 
@@ -29,9 +29,9 @@ Ces tâches peuvent être effectuées à l’aide du menu **[!UICONTROL Cycle de
 
 ## Recommandations {#data-hygiene-recommendations}
 
-Lors de l’exécution d’opérations d’hygiène des données (telles que la suppression d’identités ou de jeux de données), sachez que les événements de diffusion historiques associés aux identités supprimées n’apparaîtront plus dans les rapports standard ou les requêtes de lac de données. Cela peut entraîner des incohérences entre le nombre d’e-mails signalés comme **Diffusés** et le nombre d’e-mails **Reçus** dans les boîtes de réception des destinataires, en particulier pour les parcours plus anciens.
+Lors de l’exécution d’opérations de nettoyage des données (telles que la suppression d’identités ou de jeux de données), n’oubliez pas que les événements de diffusion historiques associés aux identités supprimées n’apparaîtront plus dans les rapports standard ou les requêtes de lac de données. Cela peut entraîner des incohérences entre le nombre d’e-mails **Diffusés** et le nombre d’e-mails **Reçus** dans les boîtes de réception des destinataires, en particulier pour les parcours plus anciens.
 
-Avant d’exécuter des suppressions à grande échelle, validez et exportez toutes les données de diffusion ou de création de rapports requises. Si la réconciliation est nécessaire après l’hygiène des données, contactez l’assistance Adobe pour accéder aux journaux archivés ou utilisez des requêtes de jeu de données d’événement de retour de message pour obtenir des données récentes.
+Avant d’exécuter des suppressions à grande échelle, validez et exportez toutes les données de diffusion ou de création de rapports requises. Si une réconciliation s’avère nécessaire après le nettoyage des données, contactez l’assistance Adobe pour accéder aux journaux archivés ou utilisez des requêtes de jeu de données d’événement de feedback sur les messages pour obtenir des données récentes.
 
 ## En savoir plus {#data-hygiene-learn-more}
 
