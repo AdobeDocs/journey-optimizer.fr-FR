@@ -9,10 +9,10 @@ level: Intermediate
 badge: label="Disponibilité limitée" type="Informative"
 keywords: publication, parcours, actif, validité, vérifier
 exl-id: 58bcc8b8-5828-4ceb-9d34-8add9802b19d
-source-git-commit: 8f3d619adfb7b2f3dd876da7a3a6eba1fda6dd6b
+source-git-commit: f2e13aa4bbc27e8197b5e6db44763ffbabdc0ebc
 workflow-type: tm+mt
-source-wordcount: '941'
-ht-degree: 86%
+source-wordcount: '984'
+ht-degree: 81%
 
 ---
 
@@ -51,6 +51,13 @@ Le test à blanc de parcours apporte :
 1. **Informations sur l’audience** : les responsables des parcours peuvent prédire l’accessibilité de l’audience à divers nœuds du parcours, y compris les désinscriptions, les exclusions et d’autres conditions.
 1. **Commentaires en temps réel** : les mesures s’affichent directement dans la zone de travail du parcours, comme les rapports dynamiques, ce qui permet aux responsables des parcours d’affiner leur conception de parcours.
 
+Lors du test à blanc, le parcours est exécuté avec les spécificités suivantes :
+
+* Les nœuds **Action de canal** notamment les e-mails, SMS ou notifications push ne sont pas exécutés
+* Les **actions personnalisées** sont désactivées pendant l’exécution d’essai et leurs réponses sont définies sur null.
+* Les **nœuds d’attente** sont ignorés lors du test à blanc.
+  <!--You can override the wait block timeouts, then if you have wait blocks duration longer than allowed dry run journey duration, then that branch will not execute completely.-->
+* **Les sources de données** y compris les sources de données externes, sont exécutées par défaut
 
 >[!CAUTION]
 >
@@ -86,7 +93,7 @@ Les mesures s’affichent directement dans la zone de travail du parcours.
 
 Pour chaque activité, vous pouvez vérifier les éléments suivants :
 
-* **[!UICONTROL Entrées]** : nombre total de personnes ayant rejoint cette activité.
+* **[!UICONTROL Entrées]** : nombre total de personnes ayant participé à cette activité. Pour les activités **Action**, étant donné qu’elles ne sont pas exécutées en mode d’exécution d’essai, cette mesure indique le passage des profils.
 * **[!UICONTROL Sorties (critères de sortie remplis)]** : nombre total de personnes ayant quitté le parcours de cette activité en raison d’un critère de sortie.
 * **[!UICONTROL Sorties (sorties forcées)]** : nombre total de personnes ayant quitté le parcours alors qu’il était en pause en raison d’une configuration opérée par le responsable du parcours. Cette mesure est toujours égale à zéro pour les parcours en mode Test à blanc.
 * **[!UICONTROL Erreur]** : nombre total de personnes ayant rencontré une erreur pour cette activité.
@@ -127,10 +134,4 @@ Cliquez sur le bouton **Fermer** pour terminer le test, puis sur **Retour au bro
    * `_experience.journeyOrchestration.stepEvents.inDryRun` renvoie `true` si le test à blanc est activé et `false` dans le cas contraire.
    * `_experience.journeyOrchestration.stepEvents.dryRunID` renvoie l’identifiant d’une instance de test à blanc.
 
-* Lors du test à blanc, le parcours est exécuté avec les spécificités suivantes :
-
-   * Les nœuds **Action de canal** notamment les e-mails, SMS ou notifications push ne sont pas exécutés
-   * Les **actions personnalisées** sont désactivées pendant l’exécution d’essai et leurs réponses sont définies sur null.
-   * Les **nœuds d’attente** sont ignorés lors du test à blanc.
-     <!--You can override the wait block timeouts, then if you have wait blocks duration longer than allowed dry run journey duration, then that branch will not execute completely.-->
-   * **Les sources de données** y compris les sources de données externes, sont exécutées par défaut
+* Lors de l’analyse des mesures de rapports de parcours à l’aide de Adobe Experience Platform Query Service, les événements d’étape générés par l’exécution d’essai doivent être exclus. Pour ce faire, définissez l’indicateur de `inDryRun` sur `false`.
