@@ -7,9 +7,9 @@ role: Developer
 level: Experienced
 exl-id: f9477611-b792-4b28-8ec2-6bbea2fa3328
 source-git-commit: 57686b9684f9233c81bd46b67d12ec5f1e3544c5
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '378'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -44,7 +44,7 @@ Après avoir publié votre campagne, ajoutez l’indicateur `dryRun` dans le blo
 
 ## Déduplication des éléments de décision dans les implémentations basées sur du code {#code-based-decisioning-deduplication}
 
-Lors de l’utilisation de [politiques de décision](../experience-decisioning/create-decision.md) dans vos expériences basées sur du code, vous pouvez appliquer une déduplication à vos requêtes de prise de décision dans votre implémentation client.
+Lorsque vous utilisez des [politiques de décision](../experience-decisioning/create-decision.md) dans vos expériences basées sur du code, vous pouvez appliquer une déduplication à vos requêtes de décision dans votre implémentation côté client.
 
 Les requêtes de décision (par l’intermédiaire de Konductor) acceptent l’indicateur de déduplication, qui gère l’unicité des éléments de décision dans une requête unique composée de plusieurs politiques de décision ou emplacements.
 

@@ -8,15 +8,15 @@ role: User
 level: Beginner
 exl-id: 3e777cc5-a935-4e68-9de7-60b241e78f63
 source-git-commit: 863d7c1d324e4f36afdb9673910c30b08182552f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1074'
-ht-degree: 74%
+ht-degree: 100%
 
 ---
 
 # Utiliser Dynamic Media {#aem-dynamic}
 
-## Prise en main de Dynamic Media {#gs-aem-dynamic}
+## Commencer avec Dynamic Media {#gs-aem-dynamic}
 
 Le sélecteur de ressources prend désormais en charge Dynamic Media, ce qui vous permet de sélectionner et d’utiliser facilement des rendus de médias dynamiques approuvés dans Journey Optimizer. Les modifications apportées aux ressources dans Adobe Experience Manager sont immédiatement répercutées dans votre contenu Journey Optimizer. Ainsi, les versions les plus récentes sont toujours utilisées sans nécessiter de mises à jour manuelles.
 
@@ -26,7 +26,7 @@ Pour en savoir plus sur Dynamic Media dans Adobe Experience Manager as a Cloud S
 
 >[!AVAILABILITY]
 >
->Pour les clients du secteur de la santé, l’intégration n’est activée que sous licence des offres complémentaires Journey Optimizer Healthcare Shield et Adobe Experience Manager Enhanced Security .
+>Pour les clientes et clients du secteur de la santé, l’intégration n’est activée que sous licence des modules complémentaires Journey Optimizer Healthcare Shield et Adobe Experience Manager Enhanced Security.
 
 
 ## Ajouter et gérer des médias dynamiques {#dynamic-media}
@@ -37,20 +37,20 @@ Améliorez et optimisez votre contenu pour n’importe quel écran ou navigateur
 
 >[!IMPORTANT]
 >
->Assurez-vous que Dynamic Media avec OpenAPI est activé dans Adobe Experience Manager as a Cloud Service. [En savoir plus](https://experienceleague.adobe.com/fr/docs/experience-manager-cloud-service/content/assets/dynamicmedia/dynamic-media-open-apis/dynamic-media-open-apis-overview#enable-dynamic-media-open-apis){target="_blank"}.
+>Vérifiez que Dynamic Media avec OpenAPI est activé dans Adobe Experience Manager as a Cloud Service. [En savoir plus](https://experienceleague.adobe.com/fr/docs/experience-manager-cloud-service/content/assets/dynamicmedia/dynamic-media-open-apis/dynamic-media-open-apis-overview#enable-dynamic-media-open-apis){target="_blank"}.
 
-L’intégration de Dynamic Media à Adobe Journey Optimizer est disponible pour Dynamic Media [mode Scene7](https://experienceleague.adobe.com/fr/docs/experience-manager-65/content/assets/dynamic/config-dms7){target="_blank"} et [avec OpenAPI](https://experienceleague.adobe.com/fr/docs/experience-manager-cloud-service/content/assets/dynamicmedia/dynamic-media-open-apis/dynamic-media-open-apis-overview){target="_blank"}.
+L’intégration de Dynamic Media à Adobe Journey Optimizer est disponible à la fois pour Dynamic Media en [mode Scene7](https://experienceleague.adobe.com/fr/docs/experience-manager-65/content/assets/dynamic/config-dms7){target="_blank"} et Dynamic Media [avec OpenAPI](https://experienceleague.adobe.com/fr/docs/experience-manager-cloud-service/content/assets/dynamicmedia/dynamic-media-open-apis/dynamic-media-open-apis-overview){target="_blank"}.
 
 >[!AVAILABILITY]
 >
->Les anciennes versions d’Outlook (y compris 2016) ne prennent pas en charge le rendu du contenu avec Dynamic Media.  Nous travaillons activement à un correctif permanent pour améliorer la compatibilité. En attendant, respectez les directives suivantes :
+>Les anciennes versions d’Outlook (y compris la version de 2016) ne prennent pas en charge l’affichage de contenu avec Dynamic Media. Nous travaillons activement à une solution permanente pour améliorer la compatibilité. En attendant, appliquez les consignes suivantes :
 >
->* Pour les URL Dynamic Media Scene7 : ajoutez des `?bfc=on` à l’URL de l’image. Cela permet la négociation automatique du format, en s’assurant que le format d’image le plus compatible est fourni en fonction des fonctionnalités du client.
+>* Pour les URL Dynamic Media Scene7 : ajoutez `?bfc=on` à l’URL de l’image. Cela permet la négociation automatique du format, ce qui garantit la fourniture du format d’image le plus compatible selon les capacités du client.
 >
->* Pour Dynamic Media avec API ouverte : utilisez le format `.avif` . Ce format comprend des mécanismes de secours intégrés pour fournir un format compatible si nécessaire.
+>* Pour Dynamic Media avec OpenAPI : utilisez le format `.avif`. Ce format comprend des mécanismes de secours intégrés afin de fournir un format compatible lorsque cela est nécessaire.
 >
 
-Pour ajouter une ressource Adobe Experience Manager dans votre contenu HTML, procédez comme suit :
+Pour ajouter une ressource Adobe Experience Manager à votre contenu HTML, procédez comme suit :
 
 1. Faites glisser et déposez un **[!UICONTROL composant HTML]** dans votre contenu.
 
@@ -86,9 +86,9 @@ Par exemple, à l’aide de la fonctionnalité d’expérimentation, vous pouvez
 
 >[!AVAILABILITY]
 >
->**La personnalisation de la superposition de texte** est disponible exclusivement dans Dynamic Media [mode Scene7](https://experienceleague.adobe.com/fr/docs/experience-manager-65/content/assets/dynamic/config-dms7){target="_blank"}. Comme le mode Scene7 n’est pas accessible pour les clients du secteur de la santé, le contenu est rendu à l’aide d’une copie binaire Journey Optimizer de l’image. Pour toute exception, veuillez contacter votre représentant Adobe.
+>La **personnalisation de la superposition de texte** est uniquement disponible dans Dynamic Media en [mode Scene7](https://experienceleague.adobe.com/fr/docs/experience-manager-65/content/assets/dynamic/config-dms7){target="_blank"}. Comme le mode Scene7 n’est pas accessible pour les clientes et clients du secteur de la santé, le contenu est rendu à l’aide d’une copie binaire de l’image Journey Optimizer. Pour toute exception, veuillez contacter votre représentant ou représentante Adobe.
 
-Pour personnaliser votre superposition de texte, procédez comme suit :
+Pour personnaliser votre superposition de texte, procédez comme suit :
 
 1. Faites glisser et déposez un **[!UICONTROL composant HTML]** dans votre contenu.
 
@@ -123,7 +123,7 @@ Votre contenu inclut désormais la superposition de texte mise à jour.
 
 ![](assets/dynamic-media-layout-3.png)
 
-## Ajout et gestion de votre modèle Dynamic Media {#dynamic-media-template}
+## Ajouter et gérer votre modèle Dynamic Media {#dynamic-media-template}
 
 Ajoutez facilement votre modèle Dynamic Media dans Journey Optimizer et modifiez votre contenu multimédia chaque fois que nécessaire. Vous pouvez désormais incorporer des champs de personnalisation dans vos médias, ce qui vous permet de créer du contenu plus personnalisé et plus attrayant dans Journey Optimizer.
 
@@ -132,7 +132,7 @@ En savoir plus sur le [modèle Dynamic Media](https://experienceleague.adobe.com
 
 >[!AVAILABILITY]
 >
->**Modèle Dynamic Media** est disponible exclusivement dans Dynamic Media [mode Scene7](https://experienceleague.adobe.com/fr/docs/experience-manager-65/content/assets/dynamic/config-dms7). Comme le mode Scene7 n’est pas accessible pour les clients du secteur de la santé, le contenu ne sera pas rendu. Pour toute exception, contactez l’assistance Experience Manager.
+>Le **modèle Dynamic Media** est disponible exclusivement dans Dynamic Media en [mode Scene7](https://experienceleague.adobe.com/fr/docs/experience-manager-65/content/assets/dynamic/config-dms7). Comme le mode Scene7 n’est pas accessible pour les clientes et clients du secteur de la santé, le contenu ne sera pas rendu. Pour toute exception, contactez l’assistance Experience Manager.
 
 
 ### Avec le composant Image {#image-component}
@@ -252,9 +252,9 @@ Enable conditional content in your dynamic media to better target your audience 
 
 ## Vidéo pratique {#video}
 
-Découvrez comment intégrer Adobe Experience Manager Dynamic Media à Adobe Journey Optimizer pour activer les mises à jour et la personnalisation de contenu en temps réel.
+Découvrez comment intégrer Adobe Experience Manager Dynamic Media à Adobe Journey Optimizer pour activer les mises à jour de contenu en temps réel et la personnalisation.
 
 Ce tutoriel explique comment modifier des images directement dans AJO, ajouter des superpositions de texte à l’aide du mode HTML, créer des modèles Dynamic Media dans AEM à des fins d’hyper-personnalisation et personnaliser des campagnes en adaptant le contenu à différents segments d’audience. Cette intégration permet aux spécialistes du marketing de créer efficacement des campagnes attrayantes et personnalisées sans passer d’une application à l’autre.
 
->[!VIDEO](https://video.tv.adobe.com/v/3463784/?learn=on&enablevpops=&autoplay=true&captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/3457695/?learn=on&enablevpops=&autoplay=true)
 

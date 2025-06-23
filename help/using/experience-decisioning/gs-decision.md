@@ -7,13 +7,13 @@ role: User
 level: Experienced
 exl-id: 008d42c7-a523-4857-b34e-0e8dd1dfa507
 source-git-commit: a9dc2998097c45bd6235af3f5c08bc7077dc3f2f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '287'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
-# Prise en main des fonctionnalités de décision dans [!DNL Journey Optimizer] {#gs-decision}
+# Commencer avec les fonctionnalités de décision dans [!DNL Journey Optimizer] {#gs-decision}
 
 Les fonctionnalités de décision dans [!DNL Journey Optimizer] vous permettent de proposer les meilleures offres et expériences personnalisées à vos clientes et vos clients sur tous les points de contact, et ce, exactement au bon moment. Ces fonctionnalités simplifient la personnalisation grâce à un catalogue centralisé d’offres marketing et à un moteur de décision avancé, qui utilise des règles et des critères de classement pour diffuser le contenu le plus pertinent pour chaque personne.
 
@@ -38,7 +38,7 @@ Notre framework de décision de nouvelle génération est conçu pour unifier le
 
 Pour l’instant, les Décisions pour les expériences sont prises en charge dans le canal Expérience basée sur du code.
 
-➡️ [Prise en main de Decisioning](../experience-decisioning/gs-experience-decisioning.md)
+➡️[Commencer la prise de décisions](../experience-decisioning/gs-experience-decisioning.md)
 
 ## Gestion des décisions {#decision-management}
 
@@ -48,4 +48,4 @@ Notre fonctionnalité de gestion des décisions, présente dans Journey Optimiz
 
 La gestion des décisions prend actuellement en charge quatre canaux : e-mail, messagerie in-app, notifications push et SMS.
 
-➡️ [Prise en main de la gestion des décisions](../offers/get-started/starting-offer-decisioning.md)
+➡️[Commencer la gestion des décisions](../offers/get-started/starting-offer-decisioning.md)

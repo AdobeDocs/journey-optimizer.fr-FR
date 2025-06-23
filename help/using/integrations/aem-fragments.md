@@ -8,9 +8,9 @@ role: User
 level: Beginner
 exl-id: 57d7c25f-7e39-46ad-85c1-65e2c18e2686
 source-git-commit: 7098a643c8026ed00f83a66fd45f957c2403a569
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '623'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -32,7 +32,7 @@ Pour en savoir plus sur les fragments de contenu AEM, voir [Utilisation des frag
 
 * Les variations ne sont actuellement pas prises en charge.
 
-* Le BAT de la campagne et du parcours publiés reflète les données de la dernière publication de fragment de contenu Experience Manager.
+* Le BAT de la campagne et du parcours publiés reflète les données de la dernière publication de fragment de contenu Experience Manager.
 
 ## Créer et affecter une balise dans Experience Manager
 
@@ -122,4 +122,4 @@ Dans ce cas, assurez-vous que **_variableName_** est déclaré avant d’ajouter
 
 Une fois que vous avez effectué vos tests et validé le contenu, vous pouvez [envoyer votre campagne](../campaigns/review-activate-campaign.md) ou [publier votre parcours](../building-journeys/publishing-the-journey.md) pour votre audience.
 
-Adobe Experience Manager vous permet d’identifier les campagnes ou parcours Journey Optimizer dans lesquels un fragment de contenu est utilisé. En savoir plus dans la documentation de [Adobe Experience Manager](https://experienceleague.adobe.com/fr/docs/experience-manager-cloud-service/content/sites/administering/content-fragments/extension-content-fragment-ajo-external-references).
+Adobe Experience Manager permet d’identifier les campagnes ou parcours Journey Optimizer qui utilisent un fragment de contenu. En savoir plus dans la documentation d’[Adobe Experience Manager](https://experienceleague.adobe.com/fr/docs/experience-manager-cloud-service/content/sites/administering/content-fragments/extension-content-fragment-ajo-external-references).

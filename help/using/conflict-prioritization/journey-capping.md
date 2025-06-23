@@ -5,9 +5,9 @@ role: User
 level: Beginner
 exl-id: 4c0ee178-81fb-41ae-b7f5-22da995e6fc6
 source-git-commit: 6da1d9a3edb8a30b8f13fd0cb6a138f22459ad00
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '910'
-ht-degree: 82%
+ht-degree: 100%
 
 ---
 
@@ -48,7 +48,7 @@ Pour créer une règle de limitation de parcours, procédez comme suit :
 
      ![](assets/journey-capping-rule-set.png)
 
-1. Dans l’écran d’ensemble de règles, cliquez sur le bouton **[!UICONTROL Ajouter une règle]** puis attribuez un nom unique à la règle.
+1. Dans l’écran de définition des règles, cliquez sur le bouton **[!UICONTROL Ajouter une règle]**, puis attribuez un nom unique à la règle.
 
 1. Dans la liste déroulante **[!UICONTROL Type de règle]**, spécifiez le type de limitation de la règle.
 
@@ -90,7 +90,7 @@ Pour créer une règle de limitation de parcours, procédez comme suit :
 
 1. Répétez les étapes ci-dessus pour ajouter autant de règles que nécessaire au jeu de règles.
 
-1. Lorsque la règle de limitation est prête à être appliquée aux parcours, activez la règle et l’ensemble de règles auquel elle a été ajoutée. [Découvrez comment activer des ensembles de règles](../conflict-prioritization/rule-sets.md#create)
+1. Lorsque la règle de limitation est prête à être appliquée aux parcours, activez la règle et le jeu de règles auquel elle a été ajoutée. [Découvrir comment activer des jeux de règles](../conflict-prioritization/rule-sets.md#create)
 
 ## Application de règles de limitation aux parcours {#apply-capping}
 
@@ -105,16 +105,16 @@ Pour appliquer une règle de limitation à un parcours, accédez au parcours et 
 
 >[!NOTE]
 >
->Si un parcours est activé immédiatement, cela peut prendre jusqu’à 10 minutes pour que le système puisse commencer à supprimer la clientèle. Par conséquent, un message s’affiche si vous tentez de publier un parcours dont l’heure de début est inférieure à 10 minutes.
+>Si un parcours est activé immédiatement, cela peut prendre jusqu’à 10 minutes pour que le système puisse commencer à supprimer la clientèle. Par conséquent, un message s’affiche si vous tentez de publier un parcours avec une heure de début inférieure à dix minutes.
 
-## Surveiller les exclusions d’ensembles de règles {#monitor}
+## Surveiller les exclusions de jeux de règles {#monitor}
 
-Une fois qu’un parcours est actif, vous pouvez vérifier dans le rapport de parcours si l’ensemble de règles a entraîné une exclusion du parcours, dans le tableau **[!UICONTROL Exclusions de Parcours]**. Le tableau Exclusions du Parcours comprend des répartitions détaillées des exclusions par jeu de règles et nom de règle, fournissant des informations sur les raisons pour lesquelles les profils ont été ignorés. [Découvrir comment utiliser les rapports de parcours](../reports/journey-global-report-cja.md)
+Une fois un parcours actif, vous pouvez vérifier dans le rapport de parcours si le jeu de règles a entraîné des exclusions du parcours, dans le tableau **[!UICONTROL Exclusions du parcours]**. Le tableau Exclusions du parcours comprend des répartitions détaillées des exclusions par jeu de règles et nom de règle, ce qui permet de comprendre pourquoi certains profils ont été écartés. [Découvrir comment utiliser les rapports de parcours](../reports/journey-global-report-cja.md)
 
 ![](assets/journey-report.png)
 
-En outre, vous pouvez également utiliser Adobe Experience Platform **Query Service** pour créer des requêtes afin d’identifier la règle qui a empêché un profil d’entrer dans un parcours donné. Un exemple de requête est disponible dans [cette section](../reports/query-examples.md#common-queries).
+En outre, vous pouvez également utiliser le service **Query Service** d’Adobe Experience Platform pour créer des requêtes permettant d’identifier quelle règle a empêché un profil de rejoindre un parcours donné. Un exemple de requête est disponible dans [cette section](../reports/query-examples.md#common-queries).
 
 ## Vidéo pratique {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/3447615?quality=12&captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/3435530?quality=12)

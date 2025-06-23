@@ -9,9 +9,9 @@ role: User
 level: Beginner
 exl-id: 10d2de34-23c1-4a5e-b868-700b462312eb
 source-git-commit: d87f33c80cc85b1d1a87150687f6d7c9a268a016
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '541'
-ht-degree: 78%
+ht-degree: 100%
 
 ---
 
@@ -28,17 +28,17 @@ ht-degree: 78%
 >title="Sélectionner l’audience de la campagne"
 >abstract="Cette liste affiche toutes les audiences Adobe Experience Platform disponibles. Sélectionnez l’audience à cibler avec votre campagne. Le message configuré dans l’opération sera envoyé à toutes les personnes appartenant à l’audience sélectionnée. [En savoir plus sur les audiences](../audience/about-audiences.md)."
 
-Les audiences sont des ensembles de personnes qui partagent des comportements et/ou des caractéristiques similaires. Les audiences sont configurées et conservées de manière centralisée dans Adobe Experience Platform à l’aide du service de segmentation d’Adobe Experience Platform et sont facilement accessibles dans Journey Optimizer pour être activées dans vos parcours et campagnes.
+Les audiences sont des groupes de personnes qui partagent des comportements et/ou des caractéristiques similaires. Les audiences sont configurées et conservées de manière centralisée dans Adobe Experience Platform à l’aide du service de segmentation d’Adobe Experience Platform et sont facilement accessibles dans Journey Optimizer pour être activées dans vos parcours et campagnes.
 
 Adobe Journey Optimizer propose des outils fiables pour créer, gérer et enrichir les audiences afin d’améliorer les efforts marketing. Associé à Adobe Real-Time Customer Data Platform, Journey Optimizer vous permet de superposer des audiences pour une segmentation plus complexe et de partager les audiences de manière bidirectionnelle avec d’autres solutions Adobe Experience Cloud.
 
-À mesure que des flux de données en temps réel ou des chargements par lots se produisent, les jeux de données sont mis à jour et Journey Optimizer déplace dynamiquement les individus dans et hors des audiences et des parcours en temps réel.
+Lorsque les données en temps réel sont diffusées ou chargées par lots, les jeux de données sont mis à jour et Journey Optimizer déplace dynamiquement et en temps réel les personnes vers les audiences et les parcours ou en dehors de ceux-ci.
 
 >[!BEGINSHADEBOX]
 
 Cette documentation fournit des informations sur l’utilisation des audiences dans [!DNL Adobe Journey Optimizer]. Des informations détaillées sur le portail Audience et les audiences sont disponibles dans la documentation du service de segmentation Adobe Experience Platform. Pour plus d’informations, reportez-vous à ces sections :
 
-* [ Guide de l’interface utilisateur de Segmentation Service ](https://experienceleague.adobe.com/fr/docs/experience-platform/segmentation/ui/overview){target="_blank"}
+* [Guide de l’interface d’utilisation du Service de segmentation](https://experienceleague.adobe.com/fr/docs/experience-platform/segmentation/ui/overview){target="_blank"}
 
 * [Service de segmentation - Questions fréquentes](https://experienceleague.adobe.com/fr/docs/experience-platform/segmentation/faq){target="_blank"}
 
@@ -48,13 +48,13 @@ Cette documentation fournit des informations sur l’utilisation des audiences d
 
 Les audiences sont disponibles à partir du menu **[!UICONTROL Client ou cliente]** > **[!UICONTROL Audiences]**.
 
-Un tableau de bord montre visuellement les chevauchements entre des audiences importantes et prend en charge l’exploration des tendances d’audience importantes. Par exemple, des modifications de la taille de l’audience sur une période donnée ou des pics soudains d’audiences peuvent mettre en évidence des événements ou des actions qui ont provoqué un rétrécissement ou une croissance de l’audience, comme une offre réussie.
+Un tableau de bord montre visuellement les points communs entre les audiences importantes et facilite l’exploration des tendances essentielles des audiences. Par exemple, des modifications de la taille de l’audience sur une période donnée ou des pics soudains d’audiences peuvent mettre en évidence des événements ou des actions qui ont provoqué un rétrécissement ou une croissance de l’audience, comme une offre réussie. 
 
 ![](assets/audiences-overview.png)
 
 À partir du portail Audience, vous pouvez facilement gérer, rechercher et explorer des audiences avec un étiquetage normalisé, des contrôles de gouvernance, des dossiers pouvant faire l’objet de recherches et des balises.
 
-Pour plus d’informations sur l’utilisation des audiences dans Audience Portal, reportez-vous à la documentation du service de segmentation de Adobe Experience Platform [&#128279;](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=fr){target="_blank"}.
+Pour plus d’informations sur l’utilisation des audiences dans le portail Audience, consultez la [documentation du Service de segmentation d’Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=fr){target="_blank"}.
 
 ## Types d’audiences {#types}
 

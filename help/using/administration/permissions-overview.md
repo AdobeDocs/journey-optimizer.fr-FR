@@ -10,19 +10,19 @@ level: Intermediate
 keywords: autorisations, droits, restrictions, accès, sandbox
 exl-id: b8e266b1-d8eb-4c77-9341-9761b82609b0
 source-git-commit: 404fffa8d1f2ed40b18246002b67e2b533d8c19e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '438'
-ht-degree: 33%
+ht-degree: 100%
 
 ---
 
-# Prise en main du contrôle d’accès {#permissions-overview}
+# Commencer le contrôle d’accès {#permissions-overview}
 
 [!DNL Journey Optimizer] vous permet de définir et de gérer les autorisations attribuées à différents utilisateurs. Les autorisations sont un ensemble de droits et de restrictions qui autorisent ou refusent l&#39;accès aux fonctionnalités du produit.
 
-Le contrôle d’accès pour [!DNL Journey Optimizer] est fourni via l’**Autorisations** dans Adobe Experience Cloud. Cette fonctionnalité exploite les rôles et les politiques, liant les utilisateurs et utilisatrices à des autorisations et des sandbox.
+Le contrôle d’accès pour [!DNL Journey Optimizer] est assuré via les **Autorisations** dans Adobe Experience Cloud. Cette fonctionnalité utilise les rôles et les politiques, liant les utilisateurs et utilisatrices à des autorisations et des sandbox.
 
-Pour configurer le contrôle d’accès de Journey Optimizer, vous devez disposer des privilèges d’administrateur système ou produit pour votre organisation. Le rôle minimum qui permet d’accorder ou de retirer des autorisations est un administrateur ou une administratrice de produit. Les autres rôles d’administrateur ou d’administratrice qui peuvent gérer les autorisations sont les administrateurs ou administratrices système (aucune restriction). Pour plus d’informations, consultez l’article [Centre d’aide Adobe](https://helpx.adobe.com/fr/enterprise/using/admin-roles.html){target="_blank"} sur les rôles administratifs .
+Pour configurer le contrôle d’accès pour Journey Optimizer, vous devez disposer des droits d’administration système ou produit pour votre organisation. Le rôle minimum qui permet d’accorder ou de retirer des autorisations est un administrateur ou une administratrice de produit. Les autres rôles d’administrateur ou d’administratrice qui peuvent gérer les autorisations sont les administrateurs ou administratrices système (aucune restriction). Pour plus d’informations, consultez l’[article du Centre d’aide Adobe](https://helpx.adobe.com/fr/enterprise/using/admin-roles.html){target="_blank"} consacré aux rôles administratifs.
 
 <!-- A high-level workflow for gaining and assigning access permissions can be summarized as follows:
 
@@ -34,25 +34,25 @@ Pour configurer le contrôle d’accès de Journey Optimizer, vous devez dispose
 * When users log in to the Journey Optimizer user interface, their access to capabilities is driven by the permissions that have been granted to them from the previous step. For example, if a user does not have the View Datasets permission, the Datasets tab in the side menu will not be visible to that user.-->
 
 
-La gestion des utilisateurs dans [!DNL Journey Optimizer] repose sur les concepts clés suivants :
+La gestion des utilisateurs et des utilisatrices dans [!DNL Journey Optimizer] repose sur les concepts clés suivants :
 
-* **[!UICONTROL Rôles]** : les rôles font référence à un ensemble d’utilisateurs qui partagent les mêmes autorisations et sandbox. Ces rôles vous permettent de gérer facilement l’accès et les autorisations pour différents groupes d’utilisateurs et d’utilisatrices au sein de votre organisation. Un rôle s’accompagne d’un ensemble de droits unitaires (autorisations) qui permettent aux utilisateurs et utilisatrices d’accéder à certaines fonctionnalités ou à certains objets de l’interface.
-Avec [!DNL Journey Optimizer], vous pouvez choisir parmi un éventail de **[!UICONTROL rôles]** préexistants, chacun avec différents niveaux d’autorisations, à affecter à vos utilisateurs et utilisatrices. En savoir plus sur les **rôles intégrés** disponibles sur [cette page](ootb-product-profiles.md).
+* **[!UICONTROL Rôles]** : les rôles désignent un ensemble d’utilisateurs et d’utilisatrices partageant les mêmes autorisations et les mêmes sandbox. Ces rôles vous permettent de gérer facilement les accès et les autorisations pour différents groupes d’utilisateurs et d’utilisatrices au sein de votre organisation. Un rôle est associé à un ensemble de droits unitaires (autorisations) permettant aux utilisateurs et aux utilisatrices d’accéder à certaines fonctionnalités ou à certains objets de l’interface.
+Avec [!DNL Journey Optimizer], vous pouvez effectuer un choix parmi une gamme de **[!UICONTROL rôles]** préexistants, chacun comportant différents niveaux d’autorisations, à attribuer à vos utilisateurs et utilisatrices. Pour en savoir plus sur les **rôles intégrés**, consultez [cette page](ootb-product-profiles.md).
 
-* **[!UICONTROL Autorisations]** : les autorisations sont des droits unitaires qui permettent de définir les autorisations attribuées aux **[!UICONTROL Rôles]**. Chaque autorisation est regroupée sous des ressources, par exemple Parcours ou Offres, ce qui représente les différentes fonctionnalités ou objets dans [!DNL Journey Optimizer]. Pour en savoir plus, consultez la section [Niveaux d’autorisation](high-low-permissions.md).
+* **[!UICONTROL Autorisations]** : les autorisations sont des droits unitaires qui permettent de définir les privilèges attribués aux **[!UICONTROL rôles]**. Chaque autorisation est regroupée sous des ressources, par exemple Parcours ou Offres, ce qui représente les différentes fonctionnalités ou objets dans [!DNL Journey Optimizer]. Pour en savoir plus, consultez la section [Niveaux d’autorisation](high-low-permissions.md).
 
   ![](assets/do-not-localize/permissions_2.png)
 
-* **[!UICONTROL Sandbox]** : les sandbox virtuels divisent les instances en environnements virtuels distincts et isolés. Les sandbox sont affectées par le biais de rôles dans les autorisations. En savoir plus sur [l’utilisation des sandbox](sandboxes.md).
+* **[!UICONTROL Sandbox]** : les sandbox virtuels permettent de partitionner les instances en environnements virtuels distincts et isolés. Les sandbox sont affectés via les rôles dans les autorisations. En savoir plus sur l’[utilisation des sandbox](sandboxes.md).
 
-* **Contrôle d’accès basé sur l’objet** : libellés pour limiter l’accès à un objet. Cette approche protège les ressources numériques sensibles contre les utilisateurs non autorisés et assure une protection supplémentaire des données personnelles. En savoir plus sur la [Gestion des accès basée sur les objets](object-based-access.md).
+* **Contrôle d’accès basé sur les objets** : utilisation de libellés pour restreindre l’accès à un objet. Cette approche protège les ressources numériques sensibles contre les utilisateurs et les utilisatrices non autorisés, permettant ainsi de renforcer la protection des données personnelles. En savoir plus sur la [Gestion des accès basée sur les objets](object-based-access.md).
 
-* **Contrôle d’accès basé sur les attributs** : autorisations de gérer l’accès aux données pour des équipes ou des groupes d’utilisateurs spécifiques. Le contrôle d’accès basé sur les attributs permet aux administrateurs de contrôler l’accès à des objets et/ou fonctionnalités spécifiques en fonction d’attributs. Les attributs peuvent être des métadonnées ajoutées à un objet, comme un libellé ajouté à un champ ou à un segment de schéma. Un administrateur définit des politiques d’accès qui incluent des attributs pour gérer les autorisations d’accès des utilisateurs. En savoir plus sur la [Gestion des accès basée sur les attributs](attribute-based-access.md).
+* **Contrôle d’accès basé sur les attributs** : autorisations permettant de gérer l’accès aux données pour certaines équipes ou groupes d’utilisateurs et d’utilisatrices. Le contrôle d’accès basé sur les attributs permet aux membres de l’équipe d’administration de restreindre l’accès à des objets et/ou des fonctionnalités en fonction d’attributs. Les attributs peuvent être des métadonnées ajoutées à un objet, comme un libellé ajouté à un champ ou à un segment de schéma. Un administrateur ou une administratrice définit des politiques d’accès intégrant des attributs afin de gérer les autorisations d’accès des utilisateurs et des utilisatrices. En savoir plus sur la [Gestion des accès basée sur les attributs](attribute-based-access.md).
 
 
 ## Explorons plus en détail
 
-Maintenant que vous connaissez les concepts du contrôle d’accès dans **[!DNL Journey Optimizer]**, il est temps d’examiner plus en détail ces sections de documentation pour commencer à configurer les autorisations.
+Maintenant que vous comprenez les concepts liés à la gestion des accès dans **[!DNL Journey Optimizer]**, il est temps d’explorer plus en détail les sections de documentation suivantes pour commencer à configurer les autorisations.
 
 
 <table style="table-layout:fixed"><tr style="border: 0;">
@@ -76,10 +76,10 @@ Maintenant que vous connaissez les concepts du contrôle d’accès dans **[!DNL
 </td>
 <td>
 <a href="sandboxes.md">
-<img alt="gestion des sandbox" src="assets/do-not-localize/sandboxes.jpg">
+<img alt="gérer les sandbox" src="assets/do-not-localize/sandboxes.jpg">
 </a>
 <div>
-<a href="sandboxes.md"><strong>Gestion des sandbox</strong></a>
+<a href="sandboxes.md"><strong>Gérer les sandbox</strong></a>
 </div>
 <p></td>
 <td>
@@ -87,7 +87,7 @@ Maintenant que vous connaissez les concepts du contrôle d’accès dans **[!DNL
 <img alt="Contrôle d’accès basé sur les attributs" src="assets/do-not-localize/data-access.jpeg">
 </a>
 <div>
-<a href="attribute-based-access.md"><strong> Contrôle d’accès basé sur les attributs </strong></a>
+<a href="attribute-based-access.md"><strong>Contrôle d’accès basé sur les attributs</strong></a>
 </div>
 <p>
 </td>

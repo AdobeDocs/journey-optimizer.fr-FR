@@ -10,9 +10,9 @@ level: Intermediate
 keywords: parcours, premier, commencer, démarrage rapide, audience, événement, action
 exl-id: 770bdbf2-560d-4127-bdb9-1f82495a566f
 source-git-commit: 29d12b6190f49e7f3f6fd2760e522a5a62c0de87
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1179'
-ht-degree: 81%
+ht-degree: 100%
 
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 81%
 
 Dans la section du menu GESTION DES PARCOURS, cliquez sur **[!UICONTROL Parcours]**. Deux onglets sont disponibles : **[!UICONTROL Vue d’ensemble]** et **[!UICONTROL Parcourir]**.
 
-### Présentation de Parcours
+### Vue d’ensemble des parcours
 
 L’onglet **[!UICONTROL Vue d’ensemble]** affiche un tableau de bord avec les mesures clés liées à vos parcours.
 
@@ -48,29 +48,29 @@ L’onglet **[!UICONTROL Parcourir]** affiche la liste des parcours existants. V
 
 ![Tableau de bord de parcours mettant en surbrillance l’onglet Parcourir](assets/journeys-browse.png)
 
-### Calendrier Parcours {#calendar}
+### Calendrier des parcours {#calendar}
 
-Outre la liste des parcours, [!DNL Journey Optimizer] fournit une vue de calendrier de vos parcours, offrant une représentation visuelle claire de leurs plannings.
+Outre la liste des parcours, [!DNL Journey Optimizer] fournit une vue de calendrier de vos parcours, ce qui apporte une représentation visuelle claire de leur planning.
 
 >[!AVAILABILITY]
 >
->La vue Calendrier n’est actuellement disponible que pour un ensemble d’organisations (disponibilité limitée). Pour demander l’accès, utilisez [ce formulaire](https://forms.cloud.microsoft/r/FC49afuJVi){target=”_blank”}.
+>La vue de calendrier n’est actuellement disponible que pour un ensemble d’organisations (disponibilité limitée). Pour demander l’accès, utilisez [ce formulaire](https://forms.cloud.microsoft/r/FC49afuJVi){target=”_blank”}.
 >
->Cette fonctionnalité est en développement actif. Vos commentaires et demandes sont les bienvenus à l’aide du bouton **[!UICONTROL Commentaires Beta]** situé dans le menu supérieur.
+>Cette fonctionnalité est en développement actif. Pour soumettre vos commentaires et demandes, cliquez sur le bouton **[!UICONTROL Commentaires Beta]** situé dans le menu supérieur.
 
-Pour accéder à la vue Calendrier, ouvrez la liste parcours et cliquez sur l’icône ![icône de calendrier](assets/do-not-localize/timeline-icon.svg).
+Pour accéder à la vue de calendrier, ouvrez la liste des parcours et cliquez sur l’icône ![icône de calendrier](assets/do-not-localize/timeline-icon.svg).
 
 Le calendrier affiche tous les parcours planifiés pour la semaine en cours. Utilisez les boutons fléchés situés au-dessus du calendrier pour naviguer entre les semaines.
 
-![vue calendrier affichant les parcours en direct](assets/timeline-journeys.png)
+![vue de calendrier affichant les parcours actifs](assets/timeline-journeys.png)
 
-Représentation des parcours :
+Représentation des parcours :
 
-* Par défaut, la grille de calendrier affiche tous les parcours actifs et planifiés pour la semaine sélectionnée. D’autres options de filtre peuvent afficher les activations ou activations terminées, arrêtées et terminées.
+* Par défaut, la grille de calendrier affiche tous les parcours actifs et planifiés pour la semaine sélectionnée. D’autres options de filtre peuvent afficher les activations ou activations complétées, arrêtées et terminées.
 * Les brouillons de parcours et les parcours en mode test ne s’affichent pas.
 * Les parcours s’étendant sur plusieurs jours s’affichent en haut de la grille du calendrier.
 * Si aucune heure de début n’est spécifiée, l’heure d’activation manuelle la plus proche est utilisée pour la positionner dans le calendrier.
-* Les parcours s’affichent sous la forme de périodes d’une heure, mais cela ne reflète pas l’heure d’envoi ou d’achèvement réelle.
+* Les parcours s’affichent sous la forme de périodes d’une heure, ce qui ne reflète pas l’heure d’envoi ou d’achèvement réelle.
 
 Pour plus d’informations sur un parcours, cliquez sur son bloc visuel afin de l’ouvrir et d’en explorer les détails.
 

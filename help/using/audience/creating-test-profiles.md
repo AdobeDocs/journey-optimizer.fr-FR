@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 exl-id: bd5e053a-69eb-463b-add3-8b9168c8e280
 source-git-commit: 5fcbde9344e919b817ef8d360d2318a6d9a1513f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1352'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -22,15 +22,15 @@ Les profils de test sont requis lors de l’utilisation du [mode test](../buildi
 
 >[!NOTE]
 >
->[!DNL Journey optimizer] permet de tester différentes variantes de votre contenu en le prévisualisant et en envoyant des BAT à l’aide des exemples de données d’entrée chargées à partir d’un fichier CSV ou JSON ou ajoutées manuellement. [Découvrir comment tester votre contenu à l’aide d’exemples de données d’entrée](../test-approve/simulate-sample-input.md)
+>[!DNL Journey optimizer] permet de tester différentes variantes de votre contenu en les prévisualisant et en envoyant des BAT à l’aide de données d’entrée d’exemple chargées depuis un fichier CSV ou JSON, ou ajoutées manuellement. [Découvrir comment tester votre contenu à l’aide d’exemples de données d’entrée](../test-approve/simulate-sample-input.md)
 
 Il existe plusieurs façons de créer des profils de test. Vous trouverez sur cette page des informations détaillées pour :
 
 * Transformer un [profil existant](#turning-profile-into-test) en profil de test.
 
-* Créez des profils de test en chargeant un [fichier CSV](#create-test-profiles-csv) ou en utilisant des [appels API](#create-test-profiles-api).
+* Créer des profils de test en chargeant un fichier [CSV](#create-test-profiles-csv) ou en utilisant des [appels API](#create-test-profiles-api).
 
-  Adobe Journey Optimizer fournit également un [cas d’utilisation intégré au produit](#use-case-1) spécifique pour faciliter la création de profils de test.
+  Adobe Journey Optimizer propose également un [cas d’utilisation intégré au produit](#use-case-1) spécifique pour faciliter la création de profils de test.
 
 Vous pouvez charger un fichier JSON dans un jeu de données existant. Pour plus d’informations, consultez la [documentation sur l’ingestion de données](https://experienceleague.adobe.com/docs/experience-platform/ingestion/tutorials/ingest-batch-data.html?lang=fr#add-data-to-dataset){target="_blank"}.
 
@@ -40,7 +40,7 @@ Veuillez noter que la création d&#39;un profil de test est similaire à la cré
 
 ## Conditions préalables {#test-profile-prerequisites}
 
-Pour créer des profils, vous devez d’abord créer un schéma ainsi qu’un jeu de données dans Adobe [!DNL Journey Optimizer].
+Pour créer des profils, vous devez d’abord créer un schéma et un jeu de données dans Adobe [!DNL Journey Optimizer].
 
 ### Créer un schéma
 
@@ -248,4 +248,4 @@ curl -X POST \
 
 Découvrez comment créer des profils de test.
 
->[!VIDEO](https://video.tv.adobe.com/v/3416331?quality=12&captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/334236?quality=12)

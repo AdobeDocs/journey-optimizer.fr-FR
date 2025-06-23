@@ -7,9 +7,9 @@ role: Admin
 level: Experienced
 exl-id: 1aff2f6f-914c-4088-afd8-58bd9edfe07d
 source-git-commit: d3f15c09194a50b95107fb84d680606a468f8644
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1118'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -26,7 +26,7 @@ Une configuration d’expérience basée sur du code doit référencer la surfac
 
 >[!NOTE]
 >
->Lorsque vous disposez de plusieurs actions d’expérience basées sur le code utilisant la même configuration de canal (et s’exécutant donc sur la même surface), le **[!UICONTROL score de priorité]** de la campagne ou du parcours détermine ce qui est diffusé à l’utilisateur final s’il remplit les critères de plusieurs actions. [En savoir plus sur les scores de priorité](../conflict-prioritization/priority-scores.md)
+>Lorsque plusieurs actions d’expérience basée sur du code utilisent la même configuration des canaux (et s’exécutent donc sur la même surface), le **[!UICONTROL score de priorité]** de la campagne ou du parcours détermine l’action qui sera diffusée à l’utilisateur ou à l’utilisatrice lorsqu’ils sont qualifiés pour plusieurs actions. [Découvrir les scores de priorité](../conflict-prioritization/priority-scores.md)
 
 ## Création d’une configuration d’expérience basée sur du code {#create-code-based-configuration}
 

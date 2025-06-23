@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Prise en main de la configuration  [!DNL Journey Optimizer]  canaux
+title: 'Commencer la configuration des canaux  [!DNL Journey Optimizer] '
 description: 'En savoir plus sur la configuration des canaux [!DNL Journey Optimizer] '
 role: Admin, Developer
 level: Intermediate, Experienced
@@ -10,9 +10,9 @@ feature: Application Settings
 topic: Administration
 keywords: configuration, configurer, messages, canal, sandbox, optimizer
 source-git-commit: 6109c9176c160c2c0b1eafa06b855ebaf285e3ee
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '295'
-ht-degree: 71%
+ht-degree: 100%
 
 ---
 
@@ -24,7 +24,7 @@ Lors de l&#39;accès à [!DNL Journey Optimizer] pour la première fois, vous re
 
 Pour envoyer des messages, vous devez suivre les étapes de configuration suivantes :
 
-1. En tant qu’administrateur système de [Adobe Journey Optimizer](../start/path/administrator.md), définissez vos configurations spécifiques à un canal. Découvrez comment effectuer ces configurations dans les pages suivantes :
+1. En tant qu’[administrateur ou administratrice système Adobe Journey Optimizer](../start/path/administrator.md), définissez les configurations propres à chaque canal. Découvrez comment effectuer ces configurations dans les pages suivantes :
 
    <table style="table-layout:fixed"><tr style="border: 0;">
     <td><a href="../email/get-started-email-config.md"><img alt="E-mail" src="../channels/assets/do-not-localize/email.png"></a>
@@ -52,15 +52,15 @@ Pour envoyer des messages, vous devez suivre les étapes de configuration suivan
    >
    >Pour les canaux mobiles, la [configuration guidée des canaux](set-mobile-config.md) facilite la configuration des canaux marketing, tout en garantissant la disponibilité des ressources requises dans Experience Platform, Journey Optimizer et la collecte de données. Cela permet à votre équipe marketing de lancer la création de campagnes et de parcours.
 
-1. Une fois cette opération terminée, vous devez configurer tous les paramètres techniques requis pour diffuser les messages en créant des **configurations des canaux**. [En savoir plus sur les configurations de canaux](channel-surfaces.md)
+1. Une fois cette étape terminée, vous devez configurer tous les paramètres techniques nécessaires à la diffusion des messages en créant des **configurations de canal**. [En savoir plus sur les configurations de canal](channel-surfaces.md)
 
-1. En fonction des canaux que vous utilisez, de vos environnements et de vos besoins, vous devez également effectuer les étapes suivantes :
+1. En fonction des canaux utilisés, de vos environnements et de vos besoins, vous devrez également effectuer les étapes suivantes :
 
-   * Configuration et délégation de sous-domaines pour vos canaux, tels que [e-mails](about-subdomain-delegation.md), [SMS](../sms/sms-subdomains.md), [landing pages](../landing-pages/lp-subdomains.md) et [expériences web](../web/web-delegated-subdomains.md).
+   * Configurer et déléguer les sous-domaines pour vos canaux, tels que les [e-mails](about-subdomain-delegation.md), les [SMS](../sms/sms-subdomains.md), les [pages de destination](../landing-pages/lp-subdomains.md) et les [expériences web](../web/web-delegated-subdomains.md).
 
-   * Configurez des plans de préchauffage d’adresses IP pour une délivrabilité optimale. [En savoir plus](ip-warmup-gs.md)
+   * Mettre en place des plans de préchauffage des adresses IP pour garantir une délivrabilité optimale. [En savoir plus](ip-warmup-gs.md)
 
-   * Définissez une liste autorisée pour l’envoi d’e-mails. [En savoir plus](allow-list.md)
+   * Définir une liste autorisée pour l’envoi des e-mails. [En savoir plus](allow-list.md)
 
    * Gérez le nombre de jours pendant lesquels de nouvelles tentatives sont effectuées avant d&#39;envoyer des adresses électroniques à la liste de suppression. [En savoir plus](manage-suppression-list.md)
 

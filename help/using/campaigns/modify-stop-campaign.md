@@ -10,9 +10,9 @@ level: Beginner
 keywords: gérer les campagnes, statut, planification, accès, optimizer
 exl-id: 1b88c84e-9d92-4cc1-b9bf-27a2f1d29569
 source-git-commit: 1ad534b7877f0ac6c1f50e29f41af708e83b34c9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '868'
-ht-degree: 66%
+ht-degree: 100%
 
 ---
 
@@ -35,25 +35,25 @@ Par défaut, toutes les campagnes dont le statut est **[!UICONTROL Brouillon]**,
 
 ![](assets/create-campaign-list.png)
 
-Vous pouvez également filtrer la liste en fonction du type et du canal de la campagne, ou des balises qui ont été affectées aux campagnes lors de leur création. [Découvrir comment attribuer des balises à une campagne](create-campaign.md#create)
+De plus, vous pouvez filtrer la liste en fonction du type et du canal de la campagne, ou des balises qui ont été affectées aux campagnes lors de leur création. [En savoir plus sur l’attribution de balises à une campagne](create-campaign.md#create)
 
 ## Calendrier des campagnes {#calendar}
 
-Outre la liste des campagnes, [!DNL Journey Optimizer] fournit une vue Calendrier de vos campagnes, offrant une représentation visuelle claire de leurs plannings.
+Outre la liste des campagnes, [!DNL Journey Optimizer] fournit une vue de calendrier de vos campagnes, ce qui apporte une représentation visuelle claire de leur planning.
 
 >[!AVAILABILITY]
 >
->La vue Calendrier n’est actuellement disponible que pour un ensemble d’organisations (disponibilité limitée). Pour demander l’accès, utilisez [ce formulaire](https://forms.cloud.microsoft/r/FC49afuJVi){target=”_blank”}.
+>La vue de calendrier n’est actuellement disponible que pour un ensemble d’organisations (disponibilité limitée). Pour demander l’accès, utilisez [ce formulaire](https://forms.cloud.microsoft/r/FC49afuJVi){target=”_blank”}.
 >
->Cette fonctionnalité est en développement actif. Vos commentaires et demandes sont les bienvenus à l’aide du bouton **[!UICONTROL Commentaires Beta]** situé dans le menu supérieur.
+>Cette fonctionnalité est en développement actif. Pour soumettre vos commentaires et demandes, cliquez sur le bouton **[!UICONTROL Commentaires Beta]** situé dans le menu supérieur.
 
 Le calendrier affiche toutes les campagnes planifiées pour la semaine en cours. Utilisez les boutons fléchés situés au-dessus du calendrier pour naviguer entre les semaines.
 
-![vue calendrier affichant les campagnes actives](assets/campaigns-timeline.png)
+![vue de calendrier affichant les campagnes actives](assets/campaigns-timeline.png)
 
-Représentation des campagnes :
+Représentation des campagnes :
 
-* Par défaut, la grille de calendrier affiche toutes les campagnes actives et planifiées pour la semaine sélectionnée. D’autres options de filtre peuvent afficher les activations terminées, arrêtées et terminées ou les activations d’un certain type ou d’un certain canal.
+* Par défaut, la grille de calendrier affiche toutes les campagnes actives et planifiées pour la semaine sélectionnée. D’autres options de filtre peuvent afficher les activations complétées, arrêtées et terminées, ou bien les activations d’un certain type ou d’un certain canal.
 * Les brouillons de campagne ne s’affichent pas.
 * Les campagnes s’étendant sur plusieurs jours s’affichent en haut de la grille du calendrier.
 * Si aucune heure de début n’est spécifiée, l’heure d’activation manuelle la plus proche est utilisée pour la positionner dans le calendrier.
@@ -114,7 +114,7 @@ Pour arrêter une campagne récurrente, ouvrez-la, puis cliquez sur le bouton **
 
 >[!IMPORTANT]
 >
->L’arrêt d’une campagne n’arrête pas un envoi continu, mais elle arrête un envoi planifié ou les occurrences suivantes si l’envoi est déjà en cours.
+>L’arrêt d’une campagne n’arrête pas un envoi continu, mais il arrête un envoi planifié ou les occurrences suivantes si l’envoi est déjà en cours.
 
 <!-- inbound campaign (inapp): can stop and resume -->
 

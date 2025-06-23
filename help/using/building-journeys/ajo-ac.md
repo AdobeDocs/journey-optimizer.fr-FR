@@ -10,21 +10,21 @@ level: Intermediate, Experienced
 keywords: parcours, message, campagne, intégration
 exl-id: b07feb98-b2ae-476c-8fcb-873b308176f0
 source-git-commit: 84beb9ba9646cb1b40bcfd8a180fc98963a8ff0b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '389'
-ht-degree: 56%
+ht-degree: 100%
 
 ---
 
 # Cas d’utilisation : envoi d’un message à l’aide de Campaign v7/v8 {#campaign-v7-v8-use-case}
 
-Ce cas pratique décrit toutes les étapes requises pour envoyer un e-mail à l’aide de l’intégration à Adobe Campaign v7 et Adobe Campaign v8.
+Ce cas d’utilisation explique toutes les étapes nécessaires pour envoyer un e-mail à l’aide de l’intégration à Adobe Campaign v7 et Adobe Campaign v8.
 
 >[!NOTE]
 >
->Pour utiliser cette intégration, vous devez disposer de la version 9125 de Campaign v7/v8 ou d’une version ultérieure.
+>Pour utiliser cette intégration, vous devez disposer de la build 9125 de Campaign v7/v8 ou d’une build ultérieure.
 
-Créez tout d’abord un modèle d’e-mail transactionnel dans Campaign. Ensuite, dans Journey Optimizer, créez l’événement, l’action et concevez le parcours.
+Tout d’abord, créez un modèle d’e-mail transactionnel dans Campaign. Ensuite, dans Journey Optimizer, créez l’événement, l’action et concevez le parcours.
 
 Pour en savoir plus sur l’intégration de Campaign, consultez les pages suivantes :
 
@@ -33,7 +33,7 @@ Pour en savoir plus sur l’intégration de Campaign, consultez les pages suivan
 
 **Adobe Campaign**
 
-Votre instance Campaign doit être configurée pour cette intégration. La fonctionnalité de messagerie transactionnelle doit être configurée.
+Votre instance de Campaign doit être approvisionnée pour cette intégration. La fonctionnalité de messagerie transactionnelle doit être configurée.
 
 1. Connectez-vous à votre instance de pilotage Campaign.
 
@@ -47,7 +47,7 @@ Votre instance Campaign doit être configurée pour cette intégration. La fonct
 
    ![](assets/accintegration-uc-2.png)
 
-1. Concevez votre modèle. Dans cet exemple, la personnalisation est appliquée au prénom et au numéro de commande du profil. Le prénom se trouve dans la source de données Adobe Experience Platform et le numéro de commande est un champ de l’événement Journey Optimizer. Veillez à utiliser les noms de champ corrects dans Campaign.
+1. Concevez votre modèle. Dans cet exemple, la personnalisation est utilisée sur le prénom et le numéro de commande du profil. Le prénom se trouve dans la source de données Adobe Experience Platform et le numéro de commande est un champ de l’événement Journey Optimizer. Veillez à utiliser les noms de champ corrects dans Campaign.
 
    ![](assets/accintegration-uc-3.png)
 
@@ -75,15 +75,15 @@ Votre instance Campaign doit être configurée pour cette intégration. La fonct
 
 **Journey Optimizer**
 
-1. Créez un événement. Incluez le champ « purchaseOrderNumber ».
+1. Créez un événement. Incluez le champ « purchaseOrderNumber ».
 
    ![](assets/accintegration-uc-5.png)
 
-1. Créez une action dans Journey Optimizer correspondant à votre modèle Campaign. Dans le menu déroulant **Type d&#39;action**, sélectionnez **Adobe Campaign Classic**.
+1. Créez une action dans Journey Optimizer correspondant à votre modèle Campaign. Dans le menu déroulant **Type d’action**, sélectionnez **Adobe Campaign Classic**.
 
    ![](assets/accintegration-uc-6.png)
 
-1. Cliquez sur le **champ Payload** et collez le code JSON créé précédemment.
+1. Cliquez sur le **champ Payload** et collez le JSON créé précédemment.
 
    ![](assets/accintegration-uc-7.png)
 

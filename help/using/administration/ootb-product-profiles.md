@@ -10,9 +10,9 @@ level: Intermediate
 keywords: autorisations, création, messages
 exl-id: 5a968bd8-cf76-4242-aa80-3cfb3d551511
 source-git-commit: 49a607e8e4b4cce7bcf41d92abe6b9fa54dfb411
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1175'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -24,7 +24,7 @@ Les rôles intégrés sont un ensemble de droits unitaires qui permet aux utilis
 
 Le rôle **[!DNL Campaign Administrator]** permet dʼaccéder aux menus dʼadministration avec la possibilité de gérer et de publier des campagnes et d’avoir accès à la gestion des décisions.
 
-Cette autorisation inclut les autorisations suivantes :
+Cette autorisation inclut les autorisations suivantes :
 
 | Ressources | Autorisations |
 |-|-|
@@ -46,9 +46,9 @@ Le rôle **[!DNL Campaign Approver]** permet aux utilisateurs et utilisatrices d
 
 ## [!DNL Campaign Manager] {#campaign-manager}
 
-Le rôle **[!DNL Campaign Manager]** permet aux utilisateurs et utilisatrices de créer et de modifier des **[!UICONTROL campagnes]**, ainsi que toutes les fonctionnalités liées aux **[!UICONTROL campagnes]**. Cependant, leur publication ne sera pas possible.
+Le rôle **[!DNL Campaign Manager]** permet aux utilisateurs et aux utilisatrices de créer et de modifier des **[!UICONTROL campagnes]**, ainsi que toutes les fonctionnalités liées aux **[!UICONTROL campagnes]**. Cependant, leur publication ne sera pas possible.
 
-Cette autorisation inclut les autorisations suivantes :
+Cette autorisation inclut les autorisations suivantes :
 
 | Ressources | Autorisations |
 |-|-|
@@ -63,7 +63,7 @@ Le rôle **[!DNL Campaign Viewer]** permet un accès en lecture seule aux **[!UI
 
 Les personnes affectées à ce rôle ne pourront effectuer ni modification, ni publication.
 
-Cette autorisation inclut les autorisations suivantes :
+Cette autorisation inclut les autorisations suivantes :
 
 | Ressources | Autorisations |
 |-|-|
@@ -74,7 +74,7 @@ Cette autorisation inclut les autorisations suivantes :
 
 Le rôle **[!DNL Journey Administrator]** permet dʼavoir accès aux menus dʼadministration avec la possibilité de gérer et de publier des parcours et d’avoir accès à la gestion des décisions.
 
-Cette autorisation inclut les autorisations suivantes :
+Cette autorisation inclut les autorisations suivantes :
 
 | Ressources | Autorisations |
 |-|-|
@@ -89,7 +89,7 @@ Cette autorisation inclut les autorisations suivantes :
 
 Le rôle **[!DNL Journey Approver]** permet aux utilisateurs et utilisatrices dʼapprouver les diffusions et de les publier. Il est ensuite possible vérifier le succès des diffusions avec les rapports **[!DNL Journey]**.
 
-Cette autorisation inclut les autorisations suivantes :
+Cette autorisation inclut les autorisations suivantes :
 
 | Ressources | Autorisations |
 |-|-|
@@ -100,9 +100,9 @@ Cette autorisation inclut les autorisations suivantes :
 
 ## [!DNL Journey Manager] {#journey-manager}
 
-Le rôle **[!DNL Journey Manager]** permet aux utilisateurs et utilisatrices de créer et de modifier des **[!UICONTROL parcours]** ainsi que toutes les fonctionnalités liées aux **[!UICONTROL parcours]**. Cependant, il sera impossible de les publier.
+Le rôle **[!DNL Journey Manager]** permet aux utilisateurs et aux utilisatrices de créer et de modifier des **[!UICONTROL parcours]** ainsi que toutes les fonctionnalités liées aux **[!UICONTROL parcours]**. Cependant, il sera impossible de les publier.
 
-Cette autorisation inclut les autorisations suivantes :
+Cette autorisation inclut les autorisations suivantes :
 
 | Ressources | Autorisations |
 |-|-|
@@ -117,7 +117,7 @@ Le rôle **[!DNL Journey viewer]** permet un accès en lecture seule aux **[!UIC
 
 Les personnes affectées à ce rôle ne pourront effectuer ni modification, ni publication.
 
-Cette autorisation inclut les autorisations suivantes :
+Cette autorisation inclut les autorisations suivantes :
 
 | Ressources | Autorisations |
 |-|-|
@@ -128,7 +128,7 @@ Cette autorisation inclut les autorisations suivantes :
 
 Le rôle **[!DNL Decisioning manager]** permet uniquement d’accéder au menu **[!UICONTROL Gestion des décisions]**. Les personnes affectées à ce rôle ne pourront gérer, afficher et publier que les décisions.
 
-Cette autorisation inclut les autorisations suivantes :
+Cette autorisation inclut les autorisations suivantes :
 
 | Fonctionnalité | Autorisations |
 |-|-|
@@ -138,7 +138,7 @@ Cette autorisation inclut les autorisations suivantes :
 
 Le rôle **[!DNL Content Library Manager]** permet uniquement d’accéder au menu **[!UICONTROL Modèles de contenu]**. Les personnes affectées à ce rôle ne pourront accéder à la bibliothèque de modèles que pour créer du contenu sans accéder aux parcours ou aux campagnes.
 
-Cette autorisation inclut les autorisations suivantes :
+Cette autorisation inclut les autorisations suivantes :
 
 | Fonctionnalité | Autorisations |
 |-|-|

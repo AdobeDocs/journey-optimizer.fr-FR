@@ -10,9 +10,9 @@ level: Intermediate
 keywords: publication, parcours, actif, validité, vérifier
 exl-id: 95d0267e-fab4-4057-8ab5-6f7c9c866b0f
 source-git-commit: d772ef2d98775446618bd6614a26b9f352e073bd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '522'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -22,9 +22,9 @@ Bénéficiez d’une visibilité claire sur l’efficacité de vos parcours clie
 
 ## Conditions préalables {#prerequisites}
 
-Avant d’utiliser vos mesures de parcours, vous devez ajouter un jeu de données qui inclut les `Commerce Details`, les `Web` et les `Mobile` [groupes de champs](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=fr#field-group){target="_blank"} sous Configuration > Création de rapports dans Adobe Experience Platform.
+Avant d’utiliser les mesures de parcours, vous devez ajouter un jeu de données qui inclut les [groupes de champs](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=fr#field-group){target="_blank"} `Commerce Details`, `Web` et `Mobile` sous Configuration > Création de rapports dans Adobe Experience Platform.
 
-Ces groupes de champs doivent être sélectionnés à partir des options intégrées, et non à partir de groupes personnalisés. Pour plus d&#39;informations, consultez la section [Ajouter des jeux de données](../reports/reporting-configuration.md#add-datasets).
+Ces groupes de champs doivent être sélectionnés parmi les options intégrées, et non à partir de groupes personnalisés. Consultez la section [Ajouter des jeux de données](../reports/reporting-configuration.md#add-datasets).
 
 ## Mesures disponibles {#metrics}
 

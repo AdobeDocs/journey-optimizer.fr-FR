@@ -10,7 +10,7 @@ level: Experienced
 keywords: actions, parcours, messages, envoi, connexions
 exl-id: 7f0cda1d-daf0-4d4c-9978-ddef81473813
 source-git-commit: bb2272e6959d896fb6b3286cec2c16a545a9f671
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '274'
 ht-degree: 100%
 
@@ -21,9 +21,9 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_action_list"
 >title="Actions personnalisées"
->abstract="Les actions sont des connexions par le biais desquelles vous proposez des expériences en temps réel personnalisées aux clients, telles que des notifications push, des emails, des SMS ou tout autre moyen d&#39;engagement numérique utilisé dans votre entreprise."
+>abstract="Les actions sont des connexions par lesquelles vous proposez des expériences personnalisées et en temps réel aux clients ou aux clientes, telles que des notifications push, des e-mails, des SMS ou tout autre moyen d’engagement numérique utilisé dans votre entreprise."
 
-Les actions sont des connexions par le biais desquelles vous proposez des expériences en temps réel personnalisées aux clients, telles que des notifications push, des emails, des SMS ou tout autre moyen d&#39;engagement numérique utilisé dans votre entreprise.
+Les actions sont des connexions par lesquelles vous proposez des expériences personnalisées et en temps réel aux clients ou aux clientes, telles que des notifications push, des e-mails, des SMS ou tout autre moyen d’engagement numérique utilisé dans votre entreprise.
 
 
 ➡️ [Découvrez cette fonctionnalité en vidéo.](#video)
@@ -48,4 +48,4 @@ Pour afficher la liste des actions ou configurer une nouvelle action, sélection
 
 Découvrez comment configurer des actions personnalisées.
 
->[!VIDEO](https://video.tv.adobe.com/v/3430274?quality=12&captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/3428396?quality=12)

@@ -9,9 +9,9 @@ role: User
 level: Beginner
 exl-id: 78b95ccd-bc28-46cd-937a-f68e3f34cc1e
 source-git-commit: 1ad534b7877f0ac6c1f50e29f41af708e83b34c9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '636'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -27,7 +27,7 @@ Vous pouvez sélectionner dans des campagnes et des parcours n’importe quelle 
 
 Les audiences sont prêtes à être utilisées dans Journey Optimizer une fois l’ingestion terminée. Ce délai est généralement de moins d’une heure, mais il peut varier. Les audiences obtenues à partir de compositions devraient être disponibles 24 heures après leur publication.
 
-Pour les audiences résultant de tâches de segmentation par lots, l’activation peut être retardée en raison de la variabilité de l’ingestion par lots. Pour les parcours de lecture d’audience planifiés tous les jours, vous pouvez définir une fenêtre temporelle dans les propriétés du parcours pour vous assurer que les nouvelles données d’audience sont disponibles avant l’exécution du parcours. Si la tâche de segmentation ne se termine pas dans la fenêtre temporelle définie, le parcours sera ignoré jusqu’à son occurrence suivante. [Découvrir comment planifier un parcours Lecture d’audience](../building-journeys/read-audience.md)
+Pour les audiences résultant de tâches de segmentation par lots, l’activation peut être retardée en raison de la variabilité de l’ingestion par lots. Pour les parcours de lecture d’audience planifiés tous les jours, vous pouvez définir une fenêtre temporelle dans les propriétés du parcours pour vous assurer que les nouvelles données d’audience sont disponibles avant l’exécution du parcours. Si le traitement de la segmentation ne se termine pas dans la fenêtre temporelle définie, le parcours sera ignoré jusqu’à sa prochaine occurrence. [Découvrir la planification d’un parcours de lecture d’audience](../building-journeys/read-audience.md)
 
 ## Chargement personnalisé et composition d’audiences fédérées
 

@@ -7,9 +7,9 @@ role: User
 level: Intermediate
 exl-id: 718af505-7b7c-495e-8974-bd9c35d796bb
 source-git-commit: 7e9174f8a21c71b8b8e7633d664d5de7d877c240
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '809'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -103,8 +103,8 @@ Pour ajouter du contenu provenant d&#39;un emplacement public externe, sélectio
 Vous pouvez personnaliser vos URL à l’aide de l’éditeur de personnalisation. En savoir plus sur la [personnalisation](../../personalization/personalize.md#use-expression-editor).
 
 
-Vous pouvez également insérer un fragment de contenu Adobe Experience Manager directement dans votre offre en cliquant sur **[!UICONTROL Fragment de contenu]**. Notez que pour accéder au fragment de contenu dans les offres, l’emplacement sélectionné doit être de type JSON.
-En savoir plus sur [l’intégration de fragments de contenu à Journey Optimizer](../../integrations/aem-fragments.md).
+Vous pouvez également insérer un fragment de contenu Adobe Experience Manager directement dans votre offre en cliquant sur **[!UICONTROL Fragment de contenu]**. Notez que, pour accéder aux fragments de contenu dans les offres, l’emplacement sélectionné doit être de type JSON.
+En savoir plus sur l’[intégration de fragments de contenu avec Journey Optimizer](../../integrations/aem-fragments.md).
 
 ![](../assets/offer-content-url.png)
 
