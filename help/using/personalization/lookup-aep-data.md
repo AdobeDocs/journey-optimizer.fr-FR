@@ -10,14 +10,24 @@ role: Data Engineer
 level: Intermediate
 keywords: expression, éditeur
 exl-id: 2fc10fdd-ca9e-46f0-94ed-2d7ea4de5baf
-source-git-commit: 97a791329f35ba64a1dca9aef7802e0f4103dbe5
+source-git-commit: baca603427ebba9ecb843b3c8d219c40354dde0f
 workflow-type: tm+mt
-source-wordcount: '1114'
-ht-degree: 91%
+source-wordcount: '1246'
+ht-degree: 82%
 
 ---
 
 # Utiliser des données Adobe Experience Platform à des fins de personnalisation{#aep-data}
+
+>[!CONTEXTUALHELP]
+>id="ajo_exd_rules_dataset_lookup"
+>title="Recherche de jeu de données"
+>abstract="L’utilisation des données Adobe Experience Platform dans les règles de décision vous permet de définir des critères d’éligibilité en fonction d’attributs externes dynamiques, en veillant à ce que les éléments de décision ne soient affichés que lorsque cela est pertinent. Créez un mappage pour définir la manière dont le jeu de données Adobe Experience Platform se joint aux données dans [!DNL Journey Optimizer]. Sélectionnez le jeu de données avec les attributs dont vous avez besoin et choisissez une clé de liaison qui existe à la fois dans les attributs d’élément de décision et dans le jeu de données."
+
+>[!CONTEXTUALHELP]
+>id="ajo_exd_formula_dataset_lookup"
+>title="Recherche de jeu de données"
+>abstract="Les formules de classement définissent la priorité des éléments de décision. En utilisant [!DNL Adobe Experience Platform] attributs de jeu de données, vous pouvez ajuster dynamiquement la logique de classement pour refléter des conditions réelles. Créez un mappage pour définir la manière dont le jeu de données Adobe Experience Platform se joint aux données dans [!DNL Journey Optimizer]. Sélectionnez le jeu de données avec les attributs dont vous avez besoin et choisissez une clé de liaison qui existe à la fois dans les attributs d’élément de décision et dans le jeu de données"
 
 >[!AVAILABILITY]
 >
@@ -136,7 +146,7 @@ Une fois qu’un jeu de données a été activé pour la personnalisation de la 
 
    ![](assets/aep-data-dataset.png)
 
-   +++
++++
 
 1. Adaptez la syntaxe à vos besoins. Dans cet exemple, nous allons récupérer les données relatives aux vols des passagères et passagers. La syntaxe se présente comme suit :
 
@@ -167,7 +177,7 @@ Une fois qu’un jeu de données a été activé pour la personnalisation de la 
 
      ![](assets/aep-data-field.png)
 
-     +++
++++
 
    Dans cet exemple, nous allons utiliser des informations relatives à l’heure et à la porte d’embarquement des passagères et passagers. Nous ajoutons donc ces deux lignes :
 
