@@ -9,7 +9,7 @@ exl-id: 25c2c448-9380-47b0-97c5-16d9afb794c5
 source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
 workflow-type: tm+mt
 source-wordcount: '785'
-ht-degree: 77%
+ht-degree: 89%
 
 ---
 
@@ -41,13 +41,13 @@ Pour ajouter une activité **expérience basée sur du code** à un parcours, pr
 
 1. Saisissez un **[!UICONTROL libellé]** et une **[!UICONTROL description]** pour votre message.
 
-1. Sélectionnez ou créez la configuration d’expérience basée sur le code à utiliser. [En savoir plus](code-based-configuration.md)
+1. Sélectionnez ou créez la configuration d’expérience basée sur du code à utiliser. [En savoir plus](code-based-configuration.md)
 
    ![](assets/code-based-activity-config.png)
 
    >[!NOTE]
    >
-   >Lorsque vous disposez de plusieurs actions d’expérience basées sur le code utilisant la même configuration de canal, le **[!UICONTROL score de priorité]** du parcours détermine ce qui est diffusé à l’utilisateur final s’il remplit les critères de plusieurs actions. [En savoir plus sur les scores de priorité](../conflict-prioritization/priority-scores.md)
+   >Lorsque plusieurs actions d’expérience basée sur du code utilisent la même configuration des canaux, le **[!UICONTROL score de priorité]** du parcours détermine ce qui est diffusé à l’utilisateur ou à l’utilisatrice s’ils sont qualifiés pour plusieurs actions. [En savoir plus sur les scores de priorité](../conflict-prioritization/priority-scores.md)
 
 1. Sélectionnez le bouton **[!UICONTROL Modifier le contenu]** et modifiez votre contenu selon vos besoins à l’aide de l’éditeur de personnalisation. [En savoir plus](#edit-code)
 
@@ -71,13 +71,13 @@ Pour commencer à créer votre **expérience basée sur du code** par le biais d
 
 1. Sélectionnez l’action **[!UICONTROL Expérience basée sur le code]**.
 
-1. Sélectionnez ou créez la configuration d’expérience basée sur le code à utiliser. [En savoir plus](code-based-configuration.md)
+1. Sélectionnez ou créez la configuration d’expérience basée sur du code à utiliser. [En savoir plus](code-based-configuration.md)
 
    ![](assets/code-based-campaign-surface.png)
 
    >[!NOTE]
    >
-   >Lorsque vous disposez de plusieurs actions d’expérience basées sur le code utilisant la même configuration de canal, le **[!UICONTROL score de priorité]** de la campagne détermine ce qui est diffusé à l’utilisateur final s’il remplit les critères de plusieurs actions. [En savoir plus sur les scores de priorité](../conflict-prioritization/priority-scores.md)
+   >Lorsque plusieurs actions d’expérience basée sur du code utilisent sur la même configuration des canaux, le **[!UICONTROL score de priorité]** de la campagne détermine ce qui est diffusé à l’utilisateur ou à l’utilisatrice s’ils sont qualifiés pour plusieurs actions. [En savoir plus sur les scores de priorité](../conflict-prioritization/priority-scores.md)
 
 1. Modifiez le contenu selon vos besoins à l’aide de l’éditeur de personnalisation. [En savoir plus](#edit-code)
 
@@ -145,4 +145,4 @@ Désormais, dès que votre développeur ou développeuse lance un appel d’API 
 
 La vidéo ci-dessous montre comment créer une campagne par expérience basée sur du code, configurer ses propriétés, la tester et la publier.
 
->[!VIDEO](https://video.tv.adobe.com/v/3449455/?quality=12&learn=on&captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/3428868/?quality=12&learn=on)

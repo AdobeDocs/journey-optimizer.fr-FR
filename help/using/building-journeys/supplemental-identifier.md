@@ -6,7 +6,7 @@ exl-id: f6ebd706-4402-448a-a538-e9a4c2cf0f8b
 source-git-commit: 5e7aad25fa08994f6cbce9adfce4a3dc94fe3e47
 workflow-type: tm+mt
 source-wordcount: '928'
-ht-degree: 88%
+ht-degree: 92%
 
 ---
 
@@ -175,11 +175,11 @@ Pour utiliser un identifiant supplémentaire dans un parcours, procédez comme s
 
 ### **Gestion des abonnements**
 
-* **Scénario** : un service d’abonnement envoie des messages personnalisés pour chaque abonnement lorsqu’un événement est déclenché pour cet abonnement.
+* **Scénario** : un service d’abonnement envoie des messages personnalisés pour chaque abonnement lorsqu’un événement est déclenché pour cet abonnement.
 * **Exécution** :
    * Profil : « Jane ».
    * ID supplémentaires : `"Luma Yoga Program ", "Luma Fitness Program"`.
-   * Chaque événement comprend un ID d’abonnement et des détails sur cet abonnement. Le parcours s’exécute séparément pour chaque événement/abonnement, ce qui permet d’obtenir des offres de renouvellement personnalisées par abonnement.
+   * Chaque événement comprend un ID d’abonnement et des détails sur cet abonnement. Le parcours s’exécute séparément pour chaque événement/abonnement, ce qui permet d’utiliser des offres de renouvellement personnalisées.
 
 ### **Recommandations de produit**
 

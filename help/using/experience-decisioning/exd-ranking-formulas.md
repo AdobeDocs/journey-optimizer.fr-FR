@@ -8,8 +8,8 @@ level: Intermediate
 exl-id: 35d7488b-e7d8-402f-b337-28a0c869bff0
 source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
 workflow-type: tm+mt
-source-wordcount: '1179'
-ht-degree: 97%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -46,7 +46,7 @@ Pour créer une formule de classement, procédez comme suit :
 
    >[!NOTE]
    >
-   >[Les modèles d’optimisation personnalisés](../offers/ranking/personalized-optimization-model.md) utilisant des mesures continues ne sont pas pris en charge avec le créateur de formules d’IA.
+   >Les [modèles d’optimisation personnalisés](../offers/ranking/personalized-optimization-model.md) utilisant des mesures continues ne sont pas pris en charge avec le créateur de formules d’IA.
 
    Chaque fois que vous vous référez à un score de modèle lors de la définition de votre formule ci-dessous, le modèle d’IA que vous avez sélectionné est utilisé.
 

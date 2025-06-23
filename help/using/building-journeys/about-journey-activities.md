@@ -11,8 +11,8 @@ keywords: parcours, activités, commencer, événements, action
 exl-id: 239b3d72-3be0-4a82-84e6-f219e33ddca4
 source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
 workflow-type: tm+mt
-source-wordcount: '600'
-ht-degree: 63%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -22,23 +22,23 @@ Combinez les différentes activités d&#39;événement, d&#39;orchestration et d
 
 ## Activités d’événement {#event-activities}
 
-Les parcours personnalisés sont déclenchés par des événements, tels qu’un achat en ligne. Une fois qu’un profil entre dans un parcours, il évolue de manière individuelle, et deux individus ne peuvent pas évoluer à la même vitesse ou sur le même chemin. Lorsque vous commencez votre parcours avec un événement, le parcours se déclenche à la réception de l’événement. Ensuite, chaque personne du parcours suit individuellement les étapes suivantes définies dans votre parcours.
+Les parcours personnalisés sont déclenchés par des événements, tels qu’un achat en ligne. Lorsqu’un profil rejoint un parcours, il progresse de manière individuelle, et aucun individu ne suit le même rythme ni le même chemin. Lorsque vous commencez votre parcours avec un événement, le parcours est déclenché à la réception de cet événement. Ensuite, chaque personne du parcours suit individuellement les étapes suivantes définies dans votre parcours.
 
-Les événements configurés par l’utilisateur ou l’utilisatrice technique (voir [cette page](../event/about-events.md)) sont tous affichés dans la première catégorie de la palette, dans la partie gauche de l’écran. Les activités d’événement suivantes sont disponibles :
+Les événements configurés par l’utilisateur ou l’utilisatrice technique (voir [cette page](../event/about-events.md)) sont tous affichés dans la première catégorie de la palette, dans la partie gauche de l’écran. Les activités d’événement suivantes sont disponibles :
 
 * [Événements généraux](../building-journeys/general-events.md)
 * [Réaction](../building-journeys/reaction-events.md)
 * [Qualification de l’audience](../building-journeys/audience-qualification-events.md)
 
-![Palette des activités d&#39;événement dans le concepteur de parcours ](assets/journey43.png)
+![Palette des activités d’événement dans le concepteur de parcours](assets/journey43.png)
 
-Pour démarrer votre parcours, effectuez un glisser-déposer d’une activité d’événement. Vous pouvez également double-cliquer sur celle-ci.
+Pour démarrer votre parcours, faites glisser et déposez une activité d’événement. Vous pouvez également double-cliquer sur celle-ci.
 
-![Activité d’événement de glisser-déposer dans le concepteur de parcours ](assets/journey44.png)
+![Glisser-déposer d’une activité d’événement dans le concepteur de parcours](assets/journey44.png)
 
 ## Activités d’orchestration {#orchestration-activities}
 
-Les activités d’orchestration sont des conditions différentes qui permettent de déterminer l’étape suivante du parcours. Ces conditions peuvent inclure le fait de savoir si la personne a un dossier d’assistance ouvert, les prévisions météorologiques à son emplacement actuel, si elle a effectué un achat ou si elle a atteint 10 000 points de fidélité.
+Les activités d’orchestration sont des conditions différentes qui permettent de déterminer l’étape suivante du parcours. Ces conditions peuvent inclure le fait de savoir si la personne a un dossier d’assistance ouvert, les prévisions météorologiques à son emplacement actuel, si elle a effectué un achat ou si elle a atteint 10 000 points de fidélité.
 
 Les activités d’orchestration ci-dessous sont disponibles dans la palette située dans la partie gauche de l’écran :
 
@@ -46,7 +46,7 @@ Les activités d’orchestration ci-dessous sont disponibles dans la palette sit
 * [Attente](../building-journeys/wait-activity.md)
 * [Lecture d’audience](../building-journeys/read-audience.md)
 
-![Palette des activités d’orchestration dans le concepteur de parcours ](assets/journey49.png)
+![Palette des activités d’orchestration dans le concepteur de parcours](assets/journey49.png)
 
 ## Activités d’action {#action-activities}
 
@@ -58,13 +58,13 @@ La catégorie **[!UICONTROL Actions]** se trouve dans la palette située dans la
 * [Actions personnalisées](../building-journeys/using-custom-actions.md)
 * [Sauter](../building-journeys/jump.md)
 
-![Palette des activités d&#39;action dans le concepteur de parcours ](assets/journey58.png)
+![Palette des activités d’action dans le concepteur de parcours](assets/journey58.png)
 
 Ces activités représentent les différents canaux de communication disponibles. Vous pouvez les combiner pour créer un scénario cross-canal.
 
 <!--If you have configured custom actions, they also appear here. [Learn more](../building-journeys/using-custom-actions.md)-->
 
-Vous pouvez également configurer des actions spécifiques pour envoyer des messages :
+Vous pouvez également configurer des actions spécifiques pour envoyer des messages :
 
 * Si vous utilisez un système tiers pour envoyer des messages, vous pouvez créer une action personnalisée spécifique. [En savoir plus](../action/action.md)
 
@@ -78,7 +78,7 @@ Vous pouvez également configurer des actions spécifiques pour envoyer des mess
 
 ### Ajouter un libellé
 
-La plupart des activités vous permettent de définir un **[!UICONTROL libellé]**. Cela ajoute un suffixe au nom qui s’affiche sous votre activité dans la zone de travail. Cela s’avère utile si vous utilisez plusieurs fois la même activité dans votre parcours et souhaitez faciliter son identification. Cela facilite également le débogage en cas d’erreurs et facilite la lecture des rapports. Vous pouvez, en outre, ajouter une **[!UICONTROL description]** facultative.
+La plupart des activités vous permettent de définir un **[!UICONTROL libellé]**. Un suffixe est alors ajouté au nom qui apparaît sous votre activité dans la zone de travail. Cela s’avère utile si vous utilisez plusieurs fois la même activité dans votre parcours et souhaitez faciliter son identification. Cela facilite également le débogage en cas d’erreurs et rend les rapports plus lisibles. Vous pouvez, en outre, ajouter une **[!UICONTROL description]** facultative.
 
 ![](assets/journey-action-label.png)
 

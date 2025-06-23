@@ -11,8 +11,8 @@ keywords: activité, parcours, lecture, audience, platform
 exl-id: 7b27d42e-3bfe-45ab-8a37-c55b231052ee
 source-git-commit: f308668ba1b7b20f6144e9200328e54986f66103
 workflow-type: tm+mt
-source-wordcount: '2195'
-ht-degree: 98%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -85,14 +85,14 @@ Les étapes de configuration de l’activité Lecture d’audience sont les suiv
 
 * En guise de bonne pratique, il est recommandé d’utiliser uniquement des audiences par lots dans une activité **Lecture d’audience**. Cela permet un comptage fiable et cohérent des audiences utilisées dans un parcours. La lecture d’audience est conçue pour les cas d’utilisation par lots. Si votre cas d’utilisation nécessite des données en temps réel, utilisez l’activité **[Qualification de l’audience](audience-qualification-events.md)**.
 
-* Les audiences [importées d’un fichier CSV](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=fr#import-audience) ou résultant de [workflows de composition](../audience/get-started-audience-orchestration.md) peuvent être sélectionnées dans l’activité **Lecture d’audience**. Ces audiences ne sont pas disponibles dans l’activité **Qualification de l’audience**.
+* Les audiences [importées d’un fichier CSV](https://experienceleague.adobe.com/fr/docs/experience-platform/segmentation/ui/overview.html#import-audience) ou résultant de [workflows de composition](../audience/get-started-audience-orchestration.md) peuvent être sélectionnées dans l’activité **Lecture d’audience**. Ces audiences ne sont pas disponibles dans l’activité **Qualification de l’audience**.
 
 Les mécanismes de sécurisation liés à l’activité **Lecture d’audience** sont répertoriées sur [cette page](../start/guardrails.md#read-segment-g).
 
 
 >[!CAUTION]
 >
->[Les mécanismes de sécurisation pour les données et la segmentation du profil client en temps réel](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=fr){target="_blank"} s’appliquent également à Adobe Journey Optimizer.
+>[Les mécanismes de sécurisation pour la segmentation et les données du profil client en temps réel](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=fr){target="_blank"} s’appliquent également à Adobe Journey Optimizer.
 
 
 ### Gérer les entrées des profils dans le parcours
@@ -292,4 +292,4 @@ Les déclencheurs **Lecture d’audience** échoués sont capturés et affichés
 
 Comprenez les cas d’utilisation applicables pour un parcours déclenché par l’activité de lecture d’audience. Découvrez comment créer des parcours basés sur des lots et les bonnes pratiques à appliquer.
 
->[!VIDEO](https://video.tv.adobe.com/v/3430370?quality=12&captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/3424997?quality=12)

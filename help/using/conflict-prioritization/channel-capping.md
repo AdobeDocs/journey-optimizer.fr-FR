@@ -12,15 +12,15 @@ exl-id: 80bd5a61-1368-435c-9a9a-dd84b9e4c208
 source-git-commit: 43fe7ca22a7685944b2b11ca3d1872641d1f4694
 workflow-type: tm+mt
 source-wordcount: '1251'
-ht-degree: 49%
+ht-degree: 64%
 
 ---
 
 # Capping de la fréquence par canal et type de communication {#rule-sets}
 
-Les ensembles de règles **Canal** appliquent des règles de limitation aux canaux de communication. Par exemple, ne pas envoyer plus d’un e-mail ou d’un SMS par jour.
+Les jeux de règles de **Canal** appliquent des règles de limitation aux canaux de communication. Par exemple, ne pas envoyer plus d’un e-mail ou d’un SMS par jour.
 
-L’utilisation des ensembles de règles de canal vous permet de définir le capping de la fréquence par type de communication afin d’éviter de surcharger les clients avec des messages similaires. Vous pouvez par exemple créer un jeu de règles pour limiter le nombre de **communications promotionnelles** envoyées à votre clientèle et créer un autre jeu de règles pour limiter le nombre de **newsletters** qu’elle reçoit. Selon le type de campagne que vous créez, vous pouvez ensuite choisir d’appliquer la communication promotionnelle ou le jeu de règles des newsletters.
+L’utilisation des jeux de règles de canal vous permet de définir un capping de fréquence par type de communication afin d’éviter de surcharger les clients avec des messages similaires. Vous pouvez par exemple créer un jeu de règles pour limiter le nombre de **communications promotionnelles** envoyées à votre clientèle et créer un autre jeu de règles pour limiter le nombre de **newsletters** qu’elle reçoit. Selon le type de campagne que vous créez, vous pouvez ensuite choisir d’appliquer la communication promotionnelle ou le jeu de règles des newsletters.
 
 >[!IMPORTANT]
 >
@@ -33,7 +33,7 @@ L’utilisation des ensembles de règles de canal vous permet de définir le cap
 >title="Définissez le ou les canaux auxquels la règle s’applique."
 >abstract="Sélectionnez au moins un canal. La limitation est calculée sur l’ensemble des canaux."
 
-Pour créer un ensemble de règles de canal, procédez comme suit :
+Pour créer un jeu de règles de canal, procédez comme suit :
 
 >[!NOTE]
 >
@@ -49,11 +49,11 @@ Pour créer un ensemble de règles de canal, procédez comme suit :
 
      ![](assets/journey-capping-list.png)
 
-   * Pour créer la règle de limitation dans un nouvel ensemble de règles, cliquez sur **[!UICONTROL Créer un ensemble de règles]**, attribuez un nom unique à l’ensemble de règles et sélectionnez « Canal » dans la liste déroulante **[!UICONTROL Domaine de l’ensemble de règles]**, puis cliquez sur **[!UICONTROL Enregistrer]**.
+   * Pour créer la règle de limitation dans un nouveau jeu de règles, cliquez sur **[!UICONTROL Créer un jeu de règles]**, indiquez un nom unique pour ce jeu, sélectionnez « Channel » (Canal) dans le menu déroulant **[!UICONTROL Domaine du jeu de règles]**, puis cliquez sur **[!UICONTROL Enregistrer]**.
 
      ![](assets/rule-sets-create.png)
 
-1. Dans l’écran d’ensemble de règles, cliquez sur le bouton **[!UICONTROL Ajouter une règle]** et définissez un nom unique pour la règle.
+1. Dans l’écran du jeu de règles, cliquez sur le bouton **[!UICONTROL Ajouter une règle]** et définissez un nom unique pour la règle.
 
 1. Le champ **Catégorie** spécifie la catégorie de message à laquelle la règle s’applique. Pour l’instant, ce champ est en lecture seule, car seule la catégorie **[!UICONTROL Marketing]** est disponible.
 
@@ -89,7 +89,7 @@ Pour créer un ensemble de règles de canal, procédez comme suit :
 
 1. Sélectionnez le canal à utiliser pour cette règle : **[!UICONTROL E-mail]**, **[!UICONTROL SMS]**, **[!UICONTROL Notification push]** ou **[!UICONTROL Courrier]**.
 
-1. Sélectionnez plusieurs canaux si vous souhaitez appliquer une limitation sur tous les canaux sélectionnés en tant que nombre total.
+1. Sélectionnez plusieurs canaux si vous souhaitez appliquer la limitation à tous les canaux sélectionnés en tant que nombre total.
 
    Par exemple, définissez la limitation sur 5 et sélectionnez les canaux e-mail et SMS. Si un profil a déjà reçu 3 e-mails marketing et 2 SMS marketing pour la période sélectionnée, ce profil sera exclu de la prochaine diffusion de tout e-mail ou SMS marketing.
 
@@ -99,17 +99,17 @@ Pour créer un ensemble de règles de canal, procédez comme suit :
 
 1. Répétez les étapes ci-dessus pour ajouter autant de règles que nécessaire au jeu de règles.
 
-1. Lorsque la règle de limitation est prête à être appliquée aux messages, activez l’ensemble de règles et la règle où elle a été ajoutée. [Découvrez comment activer des ensembles de règles](../conflict-prioritization/rule-sets.md#create)
+1. Une fois la règle de limitation prête à être appliquée aux messages, activez le jeu de règles ainsi que la règle qui y a été ajoutée. [Découvrir comment activer les jeux de règles](../conflict-prioritization/rule-sets.md#create)
 
-## Appliquer des ensembles de règles à un message {#apply-frequency-rule}
+## Appliquer des jeux de règles à un message {#apply-frequency-rule}
 
-Pour appliquer un ensemble de règles à un message, procédez comme suit :
+Pour appliquer un jeu de règles à un message, procédez comme suit :
 
-1. Lors de la création d’un message de parcours ou de campagne, sélectionnez l’un des canaux que vous avez définis pour votre ensemble de règles et modifiez le contenu de votre message
+1. Lors de la création d’un message de parcours ou de campagne, sélectionnez l’un des canaux que vous avez définis pour votre jeu de règles, puis modifiez le contenu de votre message.
 
 1. Dans l’écran de modification du contenu, cliquez sur le bouton **[!UICONTROL Ajouter une règle métier]**.
 
-1. Sélectionnez l’ensemble de règles que vous avez créé.
+1. Sélectionnez le jeu de règles que vous avez créé.
 
    ![](assets/rule-set-campaign-add-rule-button.png)
 
@@ -119,7 +119,7 @@ Pour appliquer un ensemble de règles à un message, procédez comme suit :
 
    <!--Messages where the category selected is **[!UICONTROL Transactional]** will not be evaluated against business rules.-->
 
-1. Avant d’activer votre parcours ou votre campagne, veillez à planifier son exécution au moins 10 minutes à l’avenir.
+1. Avant d’activer votre parcours ou votre campagne, assurez-vous de planifier son exécution au moins 10 minutes à l’avance.
 
    Cela laisse suffisamment de temps pour renseigner les valeurs de compteur sur le profil pour la règle métier que vous avez sélectionnée. Si vous activez la campagne immédiatement, les valeurs du compteur de l’ensemble de règles ne seront pas renseignées sur les profils des destinataires et le message ne sera pas comptabilisé dans leurs règles de limitation de la fréquence pour les ensembles de règles personnalisés. En outre, la limitation peut ne pas fonctionner correctement pour les parcours et les campagnes activés immédiatement et les campagnes déclenchées par API.
 
@@ -166,4 +166,4 @@ In this scenario, an individual profile:
 
 ## Vidéo pratique {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/3444728?quality=12&captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/3435531?quality=12)

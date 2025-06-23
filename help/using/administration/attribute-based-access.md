@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Contrôle d’accès basé sur attribut
+title: Contrôle d’accès basé sur les attributs
 description: Le contrôle d’accès basé sur les attributs (ABAC) permet de définir des autorisations pour gérer l’accès aux données pour des équipes ou des groupes d’utilisateurs et d’utilisatrices spécifiques.
 feature: Access Management
 topic: Administration
@@ -11,20 +11,20 @@ keywords: abac, attribut, autorisations, données, accès, sensible, ressources
 exl-id: 162b0848-313a-447e-9237-5a6dbc8102c6
 source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
 workflow-type: tm+mt
-source-wordcount: '1006'
-ht-degree: 43%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 # Contrôle d’accès basé sur les attributs {#attribute-based-access}
 
-La fonctionnalité de contrôle d’accès basé sur les attributs vous permet de définir des autorisations pour gérer l’accès aux données pour des équipes ou des groupes d’utilisateurs spécifiques. Son objectif est de protéger les ressources numériques sensibles contre les utilisateurs non autorisés, en offrant une protection supplémentaire des données personnelles.
+La fonctionnalité de contrôle d’accès basé sur les attributs permet de définir des autorisations pour gérer l’accès aux données pour des équipes ou groupes d’utilisateurs et d’utilisatrices spécifiques. Elle a pour objectif de protéger les ressources numériques sensibles des utilisateurs et utilisatrices non autorisés, renforçant ainsi la protection des données personnelles.
 
 Dans Adobe Journey Optimizer, le contrôle d’accès basé sur les attributs vous permet de protéger les données et d’accorder un accès spécifique à des éléments de champ particuliers, notamment des schémas de modèle de données d’expérience (XDM), des attributs de profil et des audiences.
 
-Pour obtenir une liste plus détaillée de la terminologie utilisée avec le contrôle d’accès basé sur les attributs, consultez la documentation de [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/access-control/abac/overview.html?lang=fr){target="_blank"}.
+Pour consulter une liste détaillée de la terminologie associée au contrôle d’accès basé sur les attributs, reportez-vous à la [documentation d’Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/access-control/abac/overview.html?lang=fr){target="_blank"}.
 
-Dans cet exemple, un libellé est ajouté au champ de schéma **Nationalité** pour empêcher des utilisateurs non autorisés de l’utiliser. Pour que cela fonctionne, procédez comme suit :
+Dans cet exemple, un libellé est ajouté au champ de schéma **Nationalité** afin d’empêcher son utilisation par des personnes non autorisées. Pour que cela fonctionne, procédez comme suit :
 
 1. Créez un **[!UICONTROL Rôle]** et attribuez-le à l’aide du **[!UICONTROL Libellé]** correspondant pour que les utilisateurs puissent accéder au champ de schéma et l’utiliser.
 
@@ -32,17 +32,17 @@ Dans cet exemple, un libellé est ajouté au champ de schéma **Nationalité** p
 
 1. Utilisez le **[!UICONTROL Champ de schéma]** dans Adobe Journey Optimizer.
 
-Notez que les **[!UICONTROL Rôles]**, **[!UICONTROL Politiques]** et **[!UICONTROL Produits]** sont également accessibles avec l’API de contrôle d’accès basé sur les attributs. Pour plus d’informations, consultez cette [documentation](https://experienceleague.adobe.com/docs/experience-platform/access-control/abac/abac-api/overview.html?lang=fr){target="_blank"}.
+Remarque : les **[!UICONTROL Rôles]**, les **[!UICONTROL Politiques]** et les **[!UICONTROL Produits]** sont également accessibles via l’API de contrôle d’accès basé sur les attributs. Pour plus d’informations, consultez cette [documentation](https://experienceleague.adobe.com/docs/experience-platform/access-control/abac/abac-api/overview.html?lang=fr){target="_blank"}.
 
-## Création d’un rôle et attribution de libellés {#assign-role}
+## Créer un rôle et attribuer des libellés {#assign-role}
 
 >[!IMPORTANT]
 >
->&#x200B;>Avant de gérer les autorisations d’un rôle, créez une politique. Pour plus d’informations, consultez la [documentation Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/access-control/abac/permissions-ui/policies.html?lang=fr){target="_blank"}.
+>>Avant de gérer les autorisations pour un rôle, créez une politique. Pour plus d’informations, consultez la [documentation Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/access-control/abac/permissions-ui/policies.html?lang=fr){target="_blank"}.
 
-Les **[!UICONTROL rôles]** sont un ensemble d’utilisateurs qui partagent les mêmes autorisations, libellés et sandbox au sein de votre organisation. Chaque utilisateur appartenant à un **[!UICONTROL rôle]** a droit aux applications et services Adobe contenus dans le produit. Vous pouvez également créer vos propres **[!UICONTROL Rôles]** pour affiner l&#39;accès des utilisateurs à certaines fonctionnalités ou objets de l&#39;interface.
+Les **[!UICONTROL rôles]** représentent un ensemble d’utilisateurs ou d’utilisatrices partageant les mêmes autorisations, libellés et sandbox au sein de votre organisation. Chaque utilisateur ou utilisatrice appartenant à un **[!UICONTROL rôle]** bénéficie des applications et services Adobe associés au produit concerné. Vous pouvez également créer vos propres **[!UICONTROL rôles]** afin d’affiner l’accès des utilisateurs ou utilisatrices à certaines fonctionnalités ou à certains objets dans l’interface.
 
-Pour accorder aux utilisateurs sélectionnés l’accès au champ **Nationalité** libellé C2, créez un nouveau **[!UICONTROL Rôle]** avec un ensemble spécifique d’utilisateurs et attribuez-leur le libellé C2, ce qui leur permet d’utiliser les détails **Nationalité** dans un Parcours **&#x200B;**.
+Pour accorder à des personnes sélectionnées l’accès au champ **Nationalité** libellé C2, créez un nouveau **[!UICONTROL rôle]** regroupant un ensemble défini de personnes, et affectez-lui le libellé C2 afin de permettre l’utilisation des données de **Nationalité** dans un **[!UICONTROL parcours]**.
 
 1. Dans le produit [!DNL Permissions], sélectionnez le **[!UICONTROL rôle]** dans le menu du volet de gauche, puis cliquez sur **[!UICONTROL Créer un rôle]**. Notez que vous pouvez également ajouter un **[!UICONTROL libellé]** aux rôles intégrés.
 
@@ -74,19 +74,19 @@ Pour accorder aux utilisateurs sélectionnés l’accès au champ **Nationalité
 
    ![](assets/role_9.png)
 
-1. Sélectionnez les **[!UICONTROL libellés]** que vous souhaitez ajouter à votre rôle, puis cliquez sur **[!UICONTROL Enregistrer]**. Pour cet exemple, accordez le libellé C2 pour que les utilisateurs puissent accéder au champ du schéma précédemment restreint.
+1. Sélectionnez les **[!UICONTROL libellés]** que vous souhaitez ajouter à votre rôle, puis cliquez sur **[!UICONTROL Enregistrer]**. Dans cet exemple, affectez l’étiquette C2 pour que les personnes puissent accéder au champ de schéma précédemment restreint.
 
-   ![Enregistrez la configuration de libellé](assets/role_4.png)
+   ![Enregistrer la configuration des libellés](assets/role_4.png)
 
-Les utilisateurs du rôle **Rôle démographique limité** ont désormais accès aux objets libellés C2.
+Les personnes appartenant au **rôle Démographie restreint** ont désormais accès aux objets libellés C2.
 
-## Attribution de libellés à un objet dans Adobe Experience Platform {#assign-label}
+## Attribuer des libellés à un objet dans Adobe Experience Platform {#assign-label}
 
 >[!WARNING]
 >
->Une utilisation incorrecte des libellés peut interrompre l’accès des personnes et déclencher des violations de politique.
+>Une mauvaise utilisation des libellés peut entraîner une perte d’accès et déclencher des violations de politique.
 
-**[!UICONTROL Les libellés]** peuvent être utilisés pour attribuer des zones de fonctionnalités spécifiques à l’aide du contrôle d’accès basé sur les attributs. Dans cet exemple, l’accès au champ **Nationalité** est limité. Ce champ est accessible uniquement aux utilisateurs qui disposent du **[!UICONTROL Libellé]** associé à leur **[!UICONTROL Rôle]**.
+Les **[!UICONTROL libellés]** peuvent être utilisés pour attribuer des zones de fonctionnalités spécifiques à l’aide du contrôle d’accès basé sur les attributs. Dans cet exemple, l’accès au champ **Nationalité** est restreint. Ce champ ne sera accessible qu’aux utilisateurs ou aux utilisatrices dont le **[!UICONTROL libellé]** correspondant a été affecté à leur **[!UICONTROL rôle]**.
 
 Notez que vous pouvez également ajouter un **[!UICONTROL libellé]** à un **[!UICONTROL schéma]**, à des **[!UICONTROL jeux de données]** et à des **[!UICONTROL audiences]**.
 
@@ -100,24 +100,24 @@ Notez que vous pouvez également ajouter un **[!UICONTROL libellé]** à un **[!
 
 1. Dans l’onglet **[!UICONTROL Libellés]**, vérifiez le nom du champ restreint, ici **Nationalité**. Ensuite, dans le menu du volet de droite, sélectionnez **[!UICONTROL Modifier les libellés de gouvernance]**.
 
-   ![Modifier les libellés de gouvernance du champ](assets/label_3.png)
+   ![Modifier les libellés de gouvernance pour le champ](assets/label_3.png)
 
 1. Sélectionnez le **[!UICONTROL libellé]** correspondant, dans ce cas, le C2 - Les données ne peuvent pas être exportées vers un tiers. Pour obtenir la liste détaillée des libellés disponibles, reportez-vous à [cette page](https://experienceleague.adobe.com/docs/experience-platform/data-governance/labels/reference.html?lang=fr#contract-labels){target="_blank"}.
 
    ![](assets/label_4.png)
 
-1. Personnalisez davantage votre schéma si nécessaire, puis activez-le. Pour obtenir des instructions détaillées sur la façon d’activer votre schéma, consultez cette [page](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/resources/schemas.html?lang=fr#profile){target="_blank"}.
+1. Personnalisez davantage votre schéma si nécessaire, puis activez-le. Pour obtenir les étapes détaillées d’activation du schéma, reportez-vous à cette [page](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/resources/schemas.html?lang=fr#profile){target="_blank"}.
 
-Le champ de votre schéma ne sera désormais visible et utilisable que par les utilisateurs qui font partie d’un jeu de rôles avec le libellé C2. En appliquant un **[!UICONTROL Libellé]** à votre **[!UICONTROL Nom du champ]**, le **[!UICONTROL Libellé]** s’applique automatiquement au champ **Nationalité** dans chaque schéma créé.
+Le champ de votre schéma ne sera désormais visible et exploitable que par les utilisateurs ou utilisatrices appartenant à un rôle comportant le libellé C2. Si vous appliquez un **[!UICONTROL libellé]** à votre **[!UICONTROL nom de champ]**, ce **[!UICONTROL libellé]** s’appliquera automatiquement au champ **Nationalité** dans chaque schéma créé.
 
 ![](assets/label_5.png)
 
-## Accès aux objets libellés dans Adobe Journey Optimizer {#attribute-access-ajo}
+## Accéder aux objets libellés dans Adobe Journey Optimizer {#attribute-access-ajo}
 
-Après avoir libellé le nom du champ **Nationalité** dans un nouveau schéma et rôle, l’impact de cette restriction peut être observé dans Adobe Journey Optimizer. Pour cet exemple :
+Après avoir libellé le nom de champ **Nationalité** dans un nouveau schéma et un nouveau rôle, vous pourrez observer l’impact de cette restriction dans Adobe Journey Optimizer. Dans cet exemple :
 
-* L’utilisateur X, ayant accès aux objets libellés C2, crée un parcours avec une condition ciblant le **[!UICONTROL Nom du champ]** restreint.
-* L’utilisateur Y, sans accès aux objets libellés C2, tente de publier le parcours.
+* L’utilisateur ou l’utilisatrice X, ayant accès aux objets libellés C2, crée un parcours avec une condition ciblant le **[!UICONTROL nom de champ]** restreint.
+* L’utilisateur ou l’utilisatrice Y, n’ayant pas accès aux objets libellés C2, tente de publier le parcours.
 
 
 1. Dans Adobe Journey Optimizer, configurez la **[!UICONTROL source de données]** avec votre nouveau schéma.
@@ -136,7 +136,7 @@ Après avoir libellé le nom du champ **Nationalité** dans un nouveau schéma e
 
    ![](assets/journey_4.png)
 
-1. Créez un parcours qui envoie un e-mail aux utilisateurs ayant une nationalité spécifique. Ajoutez un **[!UICONTROL Événement]** et un **[!UICONTROL Condition]**.
+1. Créez un parcours qui envoie un e-mail aux utilisateurs ou aux utilisatrices ayant une nationalité spécifique. Ajoutez un **[!UICONTROL événement]** et une **[!UICONTROL condition]**.
 
    ![](assets/journey_5.png)
 
@@ -150,12 +150,12 @@ Après avoir libellé le nom du champ **Nationalité** dans un nouveau schéma e
 
 1. Personnalisez votre parcours selon vos besoins. Nous ajoutons ici une action **[!UICONTROL E-mail]**.
 
-   ![Ajouter une action e-mail au parcours ](assets/journey_8.png)
+   ![Ajouter une action d’e-mail au parcours](assets/journey_8.png)
 
-Si l’utilisateur Y, sans accès aux objets de libellé C2, doit accéder à ce parcours avec le champ restreint :
+Si l’utilisateur ou l’utilisatrice Y, sans accès aux objets libellés C2, a besoin d’accéder à ce parcours contenant le champ restreint :
 
-* L’utilisateur Y ne pourra pas utiliser le nom de champ restreint, car il ne sera pas visible.
-* L’utilisateur Y ne pourra pas modifier l’expression avec le nom de champ restreint en mode avancé. L&#39;erreur suivante s&#39;affiche : `The expression is invalid. Field is no longer available or you do not have enough permission to see it`.
-* L’utilisateur Y peut supprimer l’expression.
-* L’utilisateur Y ne pourra pas tester le parcours.
-* L’utilisateur Y ne pourra pas publier le parcours.
+* L’utilisateur ou l’utilisatrice Y ne pourra pas utiliser le nom de champ restreint, car il ne sera pas visible.
+* L’utilisateur ou l’utilisatrice Y ne pourra pas modifier l’expression contenant le champ restreint en mode avancé. L’erreur suivante s’affiche : `The expression is invalid. Field is no longer available or you do not have enough permission to see it`.
+* L’utilisateur ou l’utilisatrice Y peut supprimer l’expression.
+* L’utilisateur ou l’utilisatrice Y ne pourra pas tester le parcours.
+* L’utilisateur ou l’utilisatrice Y ne pourra pas publier le parcours.

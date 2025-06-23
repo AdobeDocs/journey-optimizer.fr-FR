@@ -12,7 +12,7 @@ exl-id: 07f5f0b4-417e-408e-8d9e-86615c8a3fbf
 source-git-commit: 43fe7ca22a7685944b2b11ca3d1872641d1f4694
 workflow-type: tm+mt
 source-wordcount: '945'
-ht-degree: 68%
+ht-degree: 97%
 
 ---
 
@@ -29,10 +29,10 @@ ht-degree: 68%
 
 Les jeux de règles vous permettent de **regrouper plusieurs règles en jeux de règles** et de les appliquer aux parcours et aux campagnes de votre choix. Cela permet d’améliorer la granularité afin de limiter la fréquence et le nombre de parcours qu’un client ou une cliente peut rejoindre au cours d’une certaine période ou de contrôler la fréquence à laquelle les utilisateurs et utilisatrices recevront un message selon le type de communication.
 
-Vous pouvez créer deux types d’ensembles de règles :
+Vous pouvez créer deux types de jeux de règles :
 
-* Les ensembles de règles **Canal** appliquent des règles de limitation aux canaux de communication. Par exemple, ne pas envoyer plus d’un e-mail ou d’un SMS par jour.
-* **Parcours** les ensembles de règles appliquent des règles de limitation d&#39;entrée et de simultanéité à un parcours. Par exemple, ne pas entrer simultanément des profils dans plusieurs parcours.
+* Les jeux de règles de **Canal** appliquent des règles de limitation aux canaux de communication. Par exemple, ne pas envoyer plus d’un e-mail ou d’un SMS par jour.
+* Les jeux de règles de **Parcours** appliquent des règles de limitation d’entrée et de simultanéité à un parcours. Par exemple, ne pas entrer simultanément des profils dans plusieurs parcours.
 
 ➡️ [Découvrez cette fonctionnalité en vidéo.](#video)
 
@@ -49,13 +49,13 @@ Pour en savoir plus sur les autorisations, consultez [cette section](../administ
 
 Lors de l’accès aux jeux de règles pour la première fois à partir du menu **[!UICONTROL Administration]** > **[!UICONTROL Règles métier]**, un jeu de règles par défaut est précréé et actif : **Jeu de règles par défaut global**.
 
-Cet ensemble de règles contient des règles globales que vous pouvez appliquer pour contrôler la fréquence à laquelle les utilisateurs et utilisatrices reçoivent des messages sur un ou plusieurs canaux. Toutes les règles définies dans cet ensemble de règles s’appliquent à tous les canaux sélectionnés, que les communications soient envoyées à partir d’un parcours ou d’une campagne.
+Ce jeu de règles contient des règles globales que vous pouvez appliquer pour contrôler la fréquence à laquelle les utilisateurs et utilisatrices reçoivent des messages sur un ou plusieurs canaux. Toutes les règles définies dans ce jeu de règles s’appliquent à tous les canaux sélectionnés, que les communications soient envoyées d’un parcours ou d’une campagne.
 
-Outre cet ensemble de règles « Ensemble de règles par défaut global », vous pouvez créer des **ensembles de règles** que vous pouvez appliquer à n’importe quel parcours ou campagne pour appliquer des règles de limitation spécifiques. [Découvrir comment créer des jeux de règles personnalisés](#create)
+En plus du jeu de règles « Jeu de règles par défaut global », vous pouvez créer des **jeux de règles** que vous pouvez appliquer à tout parcours ou campagne afin d’appliquer des règles de limitation spécifiques. [Découvrir comment créer des jeux de règles personnalisés](#create)
 
 ![](assets/rule-sets-default.png)
 
-## Créer et activer des ensembles de règles {#Create}
+## Créer et activer des jeux de règles {#Create}
 
 >[!CONTEXTUALHELP]
 >id="ajo_rule_set_domain"
@@ -81,7 +81,7 @@ Outre cet ensemble de règles « Ensemble de règles par défaut global », vous
 >[!CONTEXTUALHELP]
 >id="ajo_rule_set_rule_capping"
 >title="Limitation des règles"
->abstract="Définissez la limitation de votre règle. En fonction du domaine du jeu de règles et de la sélection dans le champ Type de règle, ce champ peut définir le nombre maximal de messages qui peuvent être envoyés à un profil, ou le nombre maximal de parcours que le profil peut rejoindre ou auxquels il peut être inscrit simultanément."
+>abstract="Définissez la limitation de votre règle. En fonction du domaine du jeu de règles et de la sélection dans le champ Type de règle, ce champ peut définir le nombre maximal de messages qui peuvent être envoyés à un profil, ou le nombre maximal de parcours auxquels le profil peut s’inscrire ou être inscrit simultanément."
 
 Pour créer un jeu de règles, procédez comme suit.
 
@@ -95,20 +95,20 @@ Pour créer un jeu de règles, procédez comme suit.
 
 1. Définissez un nom unique pour le jeu de règles et ajoutez une description.
 
-1. Sélectionnez le domaine de l’ensemble de règles et cliquez sur **[!UICONTROL Enregistrer]**.
+1. Sélectionnez le domaine du jeu de règles et cliquez sur **[!UICONTROL Enregistrer]**.
 
-   * Domaine **Canal** : appliquez des règles de limitation pour les canaux de communication.
-   * domaine **Parcours** : appliquez des règles de limitation d&#39;entrée et de simultanéité à un parcours.
+   * Domaine de **Canal** : appliquez des règles de limitation aux canaux de communication.
+   * Domaine de **Parcours** : appliquez des règles de limitation d’entrée et de simultanéité à un parcours.
 
    ![](assets/rule-sets-create.png)
 
-1. Définissez les règles à ajouter à cet ensemble de règles. Pour ce faire, accédez au jeu de règles et cliquez sur **[!UICONTROL Ajouter une règle]**.
+1. Définissez les règles que vous souhaitez ajouter à ce jeu de règles. Pour ce faire, accédez au jeu de règles et cliquez sur **[!UICONTROL Ajouter une règle]**.
 
 1. Configurez les paramètres de la règle en fonction de vos besoins. Les paramètres disponibles pour la règle dépendent du domaine du jeu de règles sélectionné à sa création.
 
-   Vous trouverez des informations détaillées sur la configuration des règles de parcours et de limitation des canaux dans les sections suivantes :
+   Vous trouverez des informations détaillées sur la configuration des règles de limitation de parcours et de canaux dans les sections suivantes :
 
-   * [Limitation de Parcours ](../conflict-prioritization/journey-capping.md)
+   * [Limitation d’un parcours](../conflict-prioritization/journey-capping.md)
    * [Capping de la fréquence par canal et type de communication](../conflict-prioritization/channel-capping.md)
 
 1. Cliquez sur **[!UICONTROL Enregistrer]** pour confirmer la création de la règle. Votre message est ajouté au jeu de règles, au statut **[!UICONTROL Brouillon]**.
@@ -121,7 +121,7 @@ Pour créer un jeu de règles, procédez comme suit.
 
    ![](assets/rule-set-activate-rule.png)
 
-1. Activez l’ensemble de règles pour pouvoir l’appliquer à vos parcours et messages.
+1. Activez le jeu de règles pour pouvoir l’appliquer à vos parcours et à vos messages.
 
    ![](assets/rule-set-activate-set.png)
 
@@ -131,12 +131,12 @@ Pour créer un jeu de règles, procédez comme suit.
 
 <!--Currently, once a rule set is activated, no more rules can be added to that rule set.-->
 
-1. Vous pouvez appliquer un ensemble de règles à un message ou à un parcours, selon le domaine sélectionné lors de la création de l’ensemble de règles.
+1. Vous pouvez appliquer un jeu de règles à un message ou à un parcours, en fonction du domaine sélectionné lors de la création du jeu de règles.
 
-   Vous trouverez des informations détaillées sur la manière d’appliquer un ensemble de règles dans les sections suivantes :
+   Vous trouverez des informations détaillées sur l’application d’un jeu de règles dans les sections suivantes :
 
    * [Appliquer un jeu de règles à un parcours](../conflict-prioritization/journey-capping.md#apply-capping)
-   * [Application de règles de limitation à un message](../conflict-prioritization/channel-capping.md#apply)
+   * [Appliquer des règles de limitation à un message](../conflict-prioritization/channel-capping.md#apply)
 
 ## Accéder aux jeux de règles et les gérer {#access-rule-sets}
 
@@ -144,11 +144,11 @@ Tous les jeux de règles créés s’affichent dans le menu **[!UICONTROL Admini
 
 ![](assets/rule-sets-list.png)
 
-Cliquez sur le nom d’un jeu de règles pour afficher et modifier son contenu. Toutes les règles incluses dans ce jeu de règles sont répertoriées. Le menu contextuel en haut à droite vous permet de modifier le nom et la description de l’ensemble de règles, de l’activer et de le supprimer.
+Cliquez sur le nom d’un jeu de règles pour afficher et modifier son contenu. Toutes les règles incluses dans ce jeu de règles sont répertoriées. Le menu contextuel en haut à droite vous permet de modifier le nom et la description du jeu de règles, ainsi que d’activer et de supprimer ce dernier.
 
 ![](assets/rule-set-example.png)
 
-Pour chaque règle de l’ensemble de règles, le bouton **[!UICONTROL Plus d’actions]** permet de modifier la règle, de l’activer et de la supprimer.
+Pour chaque règle du jeu de règles, le bouton **[!UICONTROL Plus d’actions]** vous permet de modifier la règle, de l’activer et de la supprimer.
 
 ![](assets/rule-set-example-rules.png)
 
@@ -164,4 +164,4 @@ Le statut de la règle devient **[!UICONTROL Inactif]** et la règle ne s’appl
 
 ## Vidéo pratique {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/3444728?quality=12&captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/3435531?quality=12)

@@ -9,7 +9,7 @@ exl-id: 63aa1763-2220-4726-a45d-3a3a8b8a55ec
 source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
 workflow-type: tm+mt
 source-wordcount: '1796'
-ht-degree: 95%
+ht-degree: 96%
 
 ---
 
@@ -226,7 +226,7 @@ Une fois créée, la politique de décision peut être utilisée dans l’[édit
 
    ![](assets/decision-code-based-add-decision-attributes.png)
 
-1. Veillez à placer la boucle `#each` à l&#39;intérieur d&#39;une paire de crochets `[ ]`, et ajoutez une virgule juste avant la `/each` de fermeture.
+1. Veillez à placer la boucle `#each` à l’intérieur d’une paire de crochets `[ ]`, ajoutez une virgule juste avant l’élément `/each` de fermeture.
 
    ![](assets/decision-code-based-wrap-code.png)
 

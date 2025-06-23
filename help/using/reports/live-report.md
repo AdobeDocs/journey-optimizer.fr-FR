@@ -10,14 +10,14 @@ level: Intermediate
 exl-id: 8dd48bb2-a805-4c46-a16c-c68173a9ac08
 source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
 workflow-type: tm+mt
-source-wordcount: '513'
-ht-degree: 93%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 # Prise en main du rapport dynamique {#live-report}
 
-Utilisez le **[!UICONTROL Rapport dynamique]** pour mesurer et visualiser en temps réel l’impact et les performances de vos parcours et de vos messages dans un tableau de bord intégré. Les données sont disponibles dans le **[!UICONTROL rapport dynamique]** aussitôt que votre diffusion est envoyée ou que votre parcours est exécuté dans l’onglet **[!UICONTROL Dernières 24 heures]**.
+Utilisez le **[!UICONTROL rapport dynamique]** pour mesurer et visualiser en temps réel l’impact et les performances de vos parcours et de vos messages dans un tableau de bord intégré. Les données sont disponibles dans le **[!UICONTROL rapport dynamique]** aussitôt que votre diffusion est envoyée ou que votre parcours est exécuté dans l’onglet **[!UICONTROL Dernières 24 heures]**.
 
 * Si vous souhaitez cibler un parcours dans le contexte d’un parcours, dans le menu **[!UICONTROL Parcours]**, accédez au menu **[!UICONTROL Autres actions]** de votre parcours et cliquez sur le bouton **[!UICONTROL Afficher le rapport des dernières 24 heures]**.
 
