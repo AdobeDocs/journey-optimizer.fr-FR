@@ -9,10 +9,10 @@ level: Intermediate
 badge: label="Disponibilité limitée" type="Informative"
 keywords: publication, parcours, actif, validité, vérifier
 exl-id: 58bcc8b8-5828-4ceb-9d34-8add9802b19d
-source-git-commit: f2e13aa4bbc27e8197b5e6db44763ffbabdc0ebc
+source-git-commit: bb3379fa71aaeb00d0833c67547de70f4e9c3fb1
 workflow-type: tm+mt
-source-wordcount: '984'
-ht-degree: 81%
+source-wordcount: '996'
+ht-degree: 79%
 
 ---
 
@@ -91,7 +91,7 @@ Les mesures s’affichent directement dans la zone de travail du parcours.
 
 ![Surveiller l’exécution du test à blanc du parcours](assets/dry-run-metrics.png)
 
-Pour chaque activité, vous pouvez vérifier les éléments suivants :
+Pour chaque activité, dans leur boîte d&#39;activité, vous pouvez cocher :
 
 * **[!UICONTROL Entrées]** : nombre total de personnes ayant participé à cette activité. Pour les activités **Action**, étant donné qu’elles ne sont pas exécutées en mode d’exécution d’essai, cette mesure indique le passage des profils.
 * **[!UICONTROL Sorties (critères de sortie remplis)]** : nombre total de personnes ayant quitté le parcours de cette activité en raison d’un critère de sortie.
@@ -99,7 +99,7 @@ Pour chaque activité, vous pouvez vérifier les éléments suivants :
 * **[!UICONTROL Erreur]** : nombre total de personnes ayant rencontré une erreur pour cette activité.
 
 
-Au niveau du parcours, vous pouvez consulter les éléments suivants :
+En parcours, dans la section supérieure gauche de la zone de travail, vous pouvez vérifier les éléments suivants :
 
 * Le nombre total de **profils ont rejoint** le parcours.
 * Le nombre total de **profils qui sont sortis**.
