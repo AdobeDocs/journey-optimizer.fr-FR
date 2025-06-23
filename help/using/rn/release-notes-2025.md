@@ -11,7 +11,7 @@ exl-id: aa8c74de-748b-4947-a972-14703f6ab4a7
 source-git-commit: 024356ca30728611d1d32ba72172711e4714b64c
 workflow-type: tm+mt
 source-wordcount: '3117'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -456,7 +456,7 @@ Les nouvelles fonctionnalités de cette version sont présentées ci-dessous.
 <tbody>
 <tr>
 <td>
-<p>La fonction Score d’alignement de la marque offre des commentaires clairs directement dans le Designer d’e-mail, ce qui vous permet de voir si votre contenu correspond au ton, au style et aux directives de votre marque. Cette fonctionnalité est actuellement en version Beta.</p>
+<p>Le score d’alignement de la marque fournit des commentaires clairs directement dans le concepteur d’e-mail, ce qui vous permet de vérifier que votre contenu correspond au ton, au style et aux règles de votre marque. Cette fonctionnalité est actuellement en version Beta.</p>
 <p>Pour plus d’informations, consultez la <a href="../content-management/brands-score.md">documentation détaillée</a>.</p>
 <img src="assets/do-not-localize/brand-score.gif">
 </td>
@@ -514,7 +514,7 @@ De nouvelles API sont disponibles pour prévisualiser les campagnes, en plus des
 
 * **Tracking personnalisé des URL** - Date de disponibilité : 30 avril 2025
 
-  Pour plus de flexibilité et de contrôle sur vos paramètres d’e-mail, vous pouvez désormais personnaliser tous vos paramètres de tracking d’URL en une seule fois au niveau de la configuration du canal e-mail, au lieu de le faire dans le Designer e-mail pour chaque lien de votre contenu. [En savoir plus](../email/surface-personalization.md#personalize-url-tracking)
+  Pour plus de flexibilité et de contrôle sur vos paramètres d’e-mail, vous pouvez désormais personnaliser tous vos paramètres de suivi des URL en même temps au niveau de la configuration des canaux e-mail, au lieu de le faire dans le concepteur d’e-mail pour chaque lien de votre contenu. [En savoir plus](../email/surface-personalization.md#personalize-url-tracking)
 
 * **Concepteur d’e-mail** - Date de disponibilité : 1er avril 2025
 

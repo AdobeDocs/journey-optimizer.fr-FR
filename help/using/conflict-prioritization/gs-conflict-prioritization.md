@@ -6,8 +6,8 @@ level: Beginner
 exl-id: 9dc0cd89-d29a-42d2-a73f-d95f9c39c86e
 source-git-commit: 43fe7ca22a7685944b2b11ca3d1872641d1f4694
 workflow-type: tm+mt
-source-wordcount: '622'
-ht-degree: 97%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -63,7 +63,7 @@ Les jeux de règles vous permettent de **regrouper plusieurs règles en jeux de 
 
 * **Priorité de l’espace de nommage pour la limitation des entrées de parcours**
 
-  La limitation des entrées n’est prise en charge que si l’espace de nommage sélectionné dans le parcours est celui ayant la priorité la plus élevée dans le sandbox. Si la priorité de l’espace de noms n’a pas été configurée explicitement, la priorité la plus élevée par défaut est e-mail.
+  La limitation des entrées n’est prise en charge que si l’espace de nommage sélectionné dans le parcours est celui ayant la priorité la plus élevée dans le sandbox. Si la priorité de l’espace de noms n’a pas été configurée explicitement, la priorité la plus élevée par défaut est celle des e-mails.
 
 * **Activations simultanées dans les parcours de qualification d’audience**
 

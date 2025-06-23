@@ -12,7 +12,7 @@ exl-id: e4f91870-f06a-4cd3-98b7-4c413233e310
 source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
 workflow-type: tm+mt
 source-wordcount: '608'
-ht-degree: 89%
+ht-degree: 93%
 
 ---
 
@@ -52,9 +52,9 @@ Une fois que vous avez [ajouté un e-mail](create-email.md) dans un parcours ou 
 
 1. Dans la page d’accueil du concepteur d’e-mail, choisissez la manière de concevoir votre e-mail à l’aide des options suivantes :
 
-   * **Concevez entièrement votre e-mail** via l’interface de Designer des e-mails et tirez parti des images provenant de [Adobe Experience Manager Assets](../integrations/assets.md). Découvrez comment concevoir le contenu des e-mails dans [cette section](content-from-scratch.md).
+   * **Concevez votre e-mail à partir de zéro** dans lʼinterface du concepteur d’e-mail et utilisez les images provenant dʼ[Adobe Experience Manager Assets](../integrations/assets.md). Découvrez comment concevoir le contenu des e-mails dans [cette section](content-from-scratch.md).
 
-   * **Codez ou collez du code HTML brut** directement dans le Designer Email. Découvrez comment coder votre propre contenu dans [cette section](code-content.md).
+   * **Codez ou collez du code HTML brut** directement dans le concepteur d’e-mail. Découvrez comment coder votre propre contenu dans [cette section](code-content.md).
 
      >[!NOTE]
      >
@@ -74,8 +74,8 @@ Une fois que vous avez [ajouté un e-mail](create-email.md) dans un parcours ou 
 
 Découvrez comment créer du contenu d’e-mail avec l’éditeur de messages.
 
->[!VIDEO](https://video.tv.adobe.com/v/3416232?quality=12&captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/334150?quality=12)
 
 Découvrez comment configurer des expériences de contenu pour un test AB et explorer le contenu d’e-mail qui répond le mieux aux objectifs de votre entreprise.
 
->[!VIDEO](https://video.tv.adobe.com/v/3447333?captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/3419893)

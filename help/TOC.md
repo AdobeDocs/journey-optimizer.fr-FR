@@ -50,7 +50,7 @@ ht-degree: 98%
       + [Concevoir le parcours](using/building-journeys/using-the-journey-designer.md)
       + [Tester votre parcours](using/building-journeys/testing-the-journey.md)
       + [Simuler votre parcours](using/building-journeys/journey-simulation.md)
-      + [Test à blanc du parcours](using/building-journeys/journey-dry-run.md)
+      + [Essai de parcours](using/building-journeys/journey-dry-run.md)
       + [Publier votre parcours](using/building-journeys/publishing-the-journey.md)
       + [Rapport dynamique dans votre parcours](using/building-journeys/report-journey.md)
       + [Mettre un parcours en pause](using/building-journeys/journey-pause.md)
@@ -269,7 +269,7 @@ Définissez les règles de limitation des messages et des parcours {#capping-rul
          + [Paramètres d’en-tête](using/email/header-parameters.md)
          + [Tracking d’URL](using/email/url-tracking.md)
          + [Personnaliser la configuration du canal e-mail](using/email/surface-personalization.md)
-      + Délivrabilité des emails {#deliverability}
+      + Délivrabilité des e-mails {#deliverability}
          + [Commencer avec la délivrabilité](using/reports/deliverability.md)
          + [Présentation de la liste de suppression](using/reports/suppression-list.md)
          + [Nouvelle exigence DMARC](using/configuration/dmarc-record-update.md)

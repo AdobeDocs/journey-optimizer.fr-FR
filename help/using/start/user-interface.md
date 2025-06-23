@@ -11,7 +11,7 @@ exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
 source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
 workflow-type: tm+mt
 source-wordcount: '1670'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -282,12 +282,12 @@ Vous découvrez [!DNL Journey Optimizer] ? Utilisateur expérimenté avec des q
 >[!CONTEXTUALHELP]
 >id="ajo_oc_api_camppaign_ovv_2"
 >title="Messages marketing"
->abstract="Contenu promotionnel (nécessite un accord préalable, soumis aux règles de l’entreprise)"
+>abstract="Contenu promotionnel (nécessite un accord préalable, soumis aux règles métier)"
 
 >[!CONTEXTUALHELP]
 >id="ajo_oc_api_camppaign_ovv_3"
 >title="Messages transactionnels"
->abstract="Contenu lié au service (confirmation, alertes, non soumis à consentement marketing)"
+>abstract="Contenu lié au service (confirmations, alertes, non soumis à un consentement marketing)"
 
 >[!CONTEXTUALHELP]
 >id="ajo_oc_api_camppaign_ovv_4"
