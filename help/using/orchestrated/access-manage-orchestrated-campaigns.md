@@ -7,10 +7,10 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: 7b42d317-cd01-4c6a-b61e-5b03e5a8ff3c
-source-git-commit: cd42bca1a36344f688b2d90e1c0b96a9ef2a53ce
+source-git-commit: 7e378cbda6ee2379a8bd795588c328cb14107aa4
 workflow-type: tm+mt
-source-wordcount: '610'
-ht-degree: 22%
+source-wordcount: '637'
+ht-degree: 21%
 
 ---
 
@@ -68,6 +68,9 @@ Chaque campagne orchestrée contient :
 
 Les campagnes orchestrées peuvent avoir plusieurs statuts :
 
+la récurrence commence à s&#39;executer , fait une requête .click close : va continuer et se termine quand elle sera allée jusqu&#39;au bout du diagramme
+
+
 * **[!UICONTROL Brouillon]** : la campagne orchestrée a été créée. Il n’a pas encore été publié.
 * **[!UICONTROL Publication]** : la campagne orchestrée est en cours de publication.
 * **[!UICONTROL En direct]** : la campagne orchestrée a été publiée et est en cours d’exécution.
@@ -76,12 +79,13 @@ Les campagnes orchestrées peuvent avoir plusieurs statuts :
 * **[!UICONTROL Fermé]** : ce statut s’affiche lorsqu’une campagne récurrente a été arrêtée.
 <!--Comment une campaign devient Closed?
 [CPR] : A vérifier avec Fred si cette fonctionalité est toujours d'actualité. Normalement c'est sur action de l'utilisateur sur une campaine récurrente only
-= pas trouvé-->
+= pas trouvé--> cexui qsui sont déjà entrés ocnitnuent. on ferme les portes d'entrée.
+
 * **[!UICONTROL Archivé]** : la campagne orchestrée a été archivée. Toutes les campagnes archivées sont supprimées selon un nouveau planning progressif 30 jours après la date de la dernière modification. Vous pouvez dupliquer une campagne archivée si nécessaire pour continuer à travailler dessus.
 <!--Comment une campaign devient Archived?
-[CPR] : Soit par action manuel sur une campagne en statut "final" (Completed, Closed, Stopped, etc. ...)
+[CPR] : Soit par action manuel sur une campagne en statut "final" (Completed, Closed, Stopped, etc. ...) bouton bientôt visible. possible pour tout sauf les draft.
 = pas trouvé -->
-* **[!UICONTROL Arrêté]** : l&#39;exécution de la campagne orchestrée a été arrêtée. Pour redémarrer la campagne, vous devez la dupliquer.
+* **[!UICONTROL Arrêté]** : l&#39;exécution de la campagne orchestrée a été arrêtée. Pour redémarrer la campagne, vous devez la dupliquer. si erreur , restera avec triangle
 
 ## Dupliquer et supprimer des campagnes orchestrées {#duplicate-delete}
 

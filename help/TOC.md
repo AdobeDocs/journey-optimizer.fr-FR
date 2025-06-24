@@ -5,10 +5,10 @@ user-guide-title: Guide de Journey Optimizer
 user-guide-description: Utilisez Journey Optimizer pour créer et proposer aux clients des expériences connectées, contextuelles et personnalisées
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
+source-git-commit: 7e378cbda6ee2379a8bd795588c328cb14107aa4
 workflow-type: tm+mt
-source-wordcount: '2448'
-ht-degree: 98%
+source-wordcount: '2462'
+ht-degree: 97%
 
 ---
 
@@ -372,7 +372,7 @@ Définissez les règles de limitation des messages et des parcours {#capping-rul
       + [Ajouter une personnalisation](using/personalization/personalization-build-expressions.md)
       + [Syntaxe de personnalisation](using/personalization/personalization-syntax.md)
       + [Réutiliser des fragments d’expression](using/personalization/use-expression-fragments.md)
-      + [Utiliser les données Adobe Experience Platform pour la personnalisation (Beta)](using/personalization/lookup-aep-data.md)
+      + [Utiliser les données Adobe Experience Platform pour la personnalisation (version bêta)](using/personalization/aep-data-perso.md)
       + Liste des fonctions d’assistance {#functions}
          + [Prise en main des fonctions d’assistance](using/personalization/functions/functions.md)
          + [Fonctions d’agrégation](using/personalization/functions/aggregation.md)
@@ -552,7 +552,8 @@ Définissez les règles de limitation des messages et des parcours {#capping-rul
          + [Créer des règles de décision](using/experience-decisioning/rules.md)
          + [Créer des méthodes de classement](using/experience-decisioning/ranking.md)
          + [Utiliser le créateur de formules d’IA](using/experience-decisioning/exd-ranking-formulas.md)
-         + [Utiliser les données contextuelles](using/experience-decisioning/context-data.md)
+         + [Utiliser des données contextuelles](using/experience-decisioning/context-data.md)
+         + [Utilisation de Adobe Experience Platform pour la prise de décision](using/experience-decisioning/aep-data-exd.md)
       + [Créer des stratégies de sélection](using/experience-decisioning/selection-strategies.md)
       + [Créer des politiques de décision](using/experience-decisioning/create-decision.md)
       + [Rapports sur la prise de décision](using/experience-decisioning/cja-reporting.md)
@@ -705,6 +706,7 @@ Définissez les règles de limitation des messages et des parcours {#capping-rul
 + Gestion des données {#data-management}
    + [Commencer avec la gestion des données](using/data/gs-data.md)
    + [Utilisation des schémas](using/data/get-started-schemas.md)
+   + [Utilisation des données Adobe Experience Platform dans Journey Optimizer](using/data/lookup-aep-data.md)
    + Jeux de données Journey Optimizer {#datasets}
       + [Commencer avec les jeux de données](using/data/get-started-datasets.md)
       + [Mécanismes de sécurisation de la durée de vie (TTL) des jeux de données](using/data/datasets-ttl.md)
