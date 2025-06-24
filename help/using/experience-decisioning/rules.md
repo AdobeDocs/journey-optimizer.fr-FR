@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 033a11b8-c848-4e4a-b6f0-62fa0a2152bf
-source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
+source-git-commit: ebefeb59a19e831ec7f86cee690a35fe71e14554
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '515'
+ht-degree: 89%
 
 ---
 
@@ -39,6 +39,10 @@ La liste des règles de décision est accessible dans le menu **[!UICONTROL Conf
 Pour créer cette règle de décision, procédez comme suit :
 
 1. Accédez à **[!UICONTROL Configuration de la stratégie]** / **[!UICONTROL Règles de décision]**, puis cliquez sur le bouton **[!UICONTROL Créer une règle]**.
+
+   >[!NOTE]
+   >
+   >Vous pouvez également utiliser les données de Adobe Experience Platform pour enrichir votre logique de décision avec des données externes. Cela s’avère particulièrement utile pour les attributs qui changent fréquemment, tels que la disponibilité des produits ou la tarification en temps réel. Cette fonctionnalité est actuellement disponible en version Beta publique pour l’ensemble des clientes et clients. Contactez votre représentant de compte si vous souhaitez y accéder. [Découvrez comment utiliser les données Adobe Experience Platform pour la prise de décision](../experience-decisioning/aep-data-exd.md)
 
 1. L’écran de création des règles de décision s’affiche. Nommez votre règle et fournissez une description.
 

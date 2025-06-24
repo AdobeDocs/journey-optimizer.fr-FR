@@ -6,9 +6,9 @@ feature: Release Notes
 topic: Content Management
 description: Notes de mise à jour d’Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 7e378cbda6ee2379a8bd795588c328cb14107aa4
+source-git-commit: ebefeb59a19e831ec7f86cee690a35fe71e14554
 workflow-type: tm+mt
-source-wordcount: '1179'
+source-wordcount: '1176'
 ht-degree: 72%
 
 ---
@@ -30,7 +30,7 @@ ht-degree: 72%
 
 **Date de publication** : 18 juin 2025
 
-<!--See also [Adobe Experience Platform Pre Release Notes](https://experienceleague.adobe.com/fr/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
+<!--See also [Adobe Experience Platform Pre Release Notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
 
 ### Nouvelles fonctionnalités {#25-06-features}
 
@@ -201,7 +201,7 @@ Les nouvelles fonctionnalités de cette version sont présentées ci-dessous.
 <tr>
 <td>
 <p>Auparavant disponibles pour la personnalisation, les jeux de données Adobe Experience Platform peuvent désormais être utilisés pour la prise de décision. Cela vous permet d’étendre la définition de vos attributs de décision aux données supplémentaires des jeux de données pour les mises à jour en bloc qui changent régulièrement sans avoir à mettre à jour manuellement les attributs un par un. Par exemple, la disponibilité, les temps d’attente, etc.</p>
-<p>Cette fonctionnalité est actuellement disponible en version Beta publique pour l’ensemble des clientes et clients. Veuillez contacter votre représentant de compte si vous souhaitez accéder à cette fonctionnalité</p>
+<p>Cette fonctionnalité est actuellement disponible en version Beta publique pour l’ensemble des clientes et clients. Contactez votre représentant de compte si vous souhaitez y accéder.</p>
 <p>Pour plus d’informations, consultez la <a href="../experience-decisioning/aep-data-exd.md">documentation détaillée</a>.</p>
 <p>Date de disponibilité : 20 juin 2025</p>
 </td>

@@ -9,14 +9,15 @@ topic: Personalization
 role: Data Engineer
 level: Intermediate
 keywords: expression, éditeur
-source-git-commit: 7e378cbda6ee2379a8bd795588c328cb14107aa4
+exl-id: 46d868b3-01d2-49fa-852b-8c2e2f54292f
+source-git-commit: ebefeb59a19e831ec7f86cee690a35fe71e14554
 workflow-type: tm+mt
-source-wordcount: '843'
-ht-degree: 2%
+source-wordcount: '840'
+ht-degree: 4%
 
 ---
 
-# Utilisation des données Adobe Experience Platform pour la prise de décision{#aep-data}
+# Utilisation des données Adobe Experience Platform pour la prise de décision {#aep-data}
 
 >[!CONTEXTUALHELP]
 >id="ajo_exd_rules_dataset_lookup"
@@ -30,7 +31,7 @@ ht-degree: 2%
 
 >[!AVAILABILITY]
 >
->Cette fonctionnalité est actuellement disponible à tous les clients sous la forme d’une version bêta publique. Veuillez contacter votre représentant de compte si vous souhaitez accéder à cette fonctionnalité
+>Cette fonctionnalité est actuellement disponible en version Beta publique pour l’ensemble des clientes et clients. Contactez votre représentant de compte si vous souhaitez y accéder.
 
 [!DNL Journey Optimizer] vous permet d’exploiter les données de [!DNL Adobe Experience Platform] pour la prise de décision. Cela vous permet d’étendre la définition de vos attributs de décision aux données supplémentaires des jeux de données pour les mises à jour en bloc qui changent régulièrement sans avoir à mettre à jour manuellement les attributs un par un. Par exemple, la disponibilité, les temps d’attente, etc.
 
