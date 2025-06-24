@@ -7,10 +7,10 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: fb7a0eb2-b2ff-49fa-af1f-f1c10f219b00
-source-git-commit: f8fa52c89659918ef3837f88ddb03c219239f4ee
+source-git-commit: 19e3e261f076a158a513a84e993db5851d9cf577
 workflow-type: tm+mt
-source-wordcount: '309'
-ht-degree: 22%
+source-wordcount: '388'
+ht-degree: 16%
 
 ---
 
@@ -31,13 +31,17 @@ ht-degree: 22%
 
 Les campagnes orchestrées s’accompagnent d’un créateur de règles qui simplifie le processus de filtrage de la base de données en fonction de divers critères. Le créateur de règles gère efficacement des requêtes très complexes et longues, offrant ainsi une flexibilité et une précision accrues.
 
-En outre, il prend en charge les filtres prédéfinis dans les conditions, ce qui permet aux utilisateurs et utilisatrices d’affiner facilement leurs requêtes tout en utilisant des expressions et des opérateurs avancés pour des stratégies de segmentation et un ciblage d’audience complets.
+Il prend également en charge les filtres prédéfinis dans des conditions, ce qui vous permet d’affiner facilement les requêtes tout en utilisant des expressions et des opérateurs avancés pour le ciblage d’audience et les stratégies de segmentation complètes.
 
 ## Accéder au créateur de règles
 
-Le créateur de règles est disponible lors de la création d’une requête dans une activité **[!UICONTROL Créer une audience]** pour cibler une audience. Il vous permet de spécifier la population que vous souhaitez cibler et de créer facilement de nouvelles audiences adaptées à vos besoins.
+Le concepteur de requête est disponible dans tout contexte où vous devez définir des règles pour filtrer les données.
 
-![image illustrant une activité créer une audience](assets/rule-builder-query.png)
+| Utilisation | Exemple |
+|  ---  |  ---  |
+| **Créer des audiences** : spécifiez la population que vous souhaitez cibler dans vos campagnes orchestrées à l’aide d’une activité **[!UICONTROL Créer une audience]** et créez facilement de nouvelles audiences adaptées à vos besoins. [Découvrir comment créer des audiences](../orchestrated/activities/build-audience.md) | ![Image montrant comment accéder à l’interface de création d’audience](assets/query-access-audience.png){width="200" align="center" zoomable="yes"} |
+| **Créer une condition dans la zone de travail de campagne** : appliquez les règles de la zone de travail de campagne à l’aide d’une activité **[!UICONTROL Partage]** pour vous aligner sur vos besoins spécifiques. [Découvrez comment utiliser une activité Partage](../orchestrated/activities/split.md) | ![Image illustrant comment accéder aux options de personnalisation d’un workflow](assets/query-access-split.png){width="200" align="center" zoomable="yes"} |
+| **Créer des filtres avancés** : créez des règles pour filtrer les données affichées dans les listes, telles que les logs de workflow ou les dimensions de ciblage. | ![Image illustrant comment personnaliser les filtres de liste](assets/query-access-advanced-filters.png){width="200" align="center" zoomable="yes"} |
 
 ## Interface du créateur de règles {#interface}
 
