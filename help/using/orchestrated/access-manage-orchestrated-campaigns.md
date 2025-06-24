@@ -7,10 +7,10 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: 7b42d317-cd01-4c6a-b61e-5b03e5a8ff3c
-source-git-commit: 7e378cbda6ee2379a8bd795588c328cb14107aa4
+source-git-commit: e1cb8bc75a5d7d7e43c641ffe7e164bbc1ac1086
 workflow-type: tm+mt
-source-wordcount: '637'
-ht-degree: 21%
+source-wordcount: '697'
+ht-degree: 19%
 
 ---
 
@@ -48,11 +48,23 @@ Chaque campagne orchestrée figurant dans la liste affiche des informations tell
 
 Une barre de recherche et des filtres sont également disponibles pour faciliter la recherche dans la liste. Vous pouvez, par exemple, filtrer les campagnes orchestrées afin de n’afficher que celles associées à un canal ou à une balise donnée, ou celles créées au cours d’une période spécifique.
 
+
+L’image ![bouton Plus d’actions](assets/do-not-localize/rule-builder-icon-more.svg) dans l’inventaire des campagnes vous permet d’effectuer les différentes opérations présentées ci-dessous.
+
+![image de l’inventaire des campagnes](assets/inventory-actions.png)
+
+* **[!UICONTROL Afficher le rapport à toute heure]** -
+* **[!UICONTROL Afficher le rapport des dernières 24 heures]** -
+* **[!UICONTROL Modifier les balises]** - Modifiez les balises associées à la campagne.
+* **[!UICONTROL Dupliquer]** - Dans certains cas, vous devrez peut-être dupliquer une campagne orchestrée, par exemple pour exécuter une campagne qui a été arrêtée, ou pour modifier la fréquence d’exécution d’une campagne planifiée.
+* **[!UICONTROL Supprimer]** - Supprimez la campagne. Cette action est disponible uniquement pour les campagnes **[!UICONTROL brouillon]**.
+* **[!UICONTROL Archiver]** - Archivez la campagne. Toutes les campagnes archivées sont supprimées selon un nouveau planning progressif 30 jours après leur date de dernière modification. Cette action est disponible pour toutes les campagnes, à l’exception des campagnes **[!UICONTROL Brouillon]**.
+
 ## Que contient une campagne orchestrée ? {#gs-ms-campaign-inside}
 
 La zone de travail de campagne orchestrée est une représentation de ce qui est censé se produire. Il décrit les différentes tâches à effectuer et la manière dont elles sont liées.
 
-![image montrant une zone de travail de campagne orchestrée](assets/canvas-example.png){zoomable="yes"}{zoomable="yes"}
+![image montrant une zone de travail de campagne orchestrée](assets/canvas-example.png)
 
 Chaque campagne orchestrée contient :
 
@@ -76,26 +88,6 @@ la récurrence commence à s&#39;executer , fait une requête .click close : va 
 * **[!UICONTROL En direct]** : la campagne orchestrée a été publiée et est en cours d’exécution.
 * **[!UICONTROL Planifié]** : l’exécution de la campagne orchestrée a été planifiée.
 * **[!UICONTROL Terminé]** : l’exécution de la campagne orchestrée est terminée. Le statut Terminé est automatiquement attribué jusqu’à 3 jours après qu’une campagne a terminé l’envoi des messages sans erreur.
-* **[!UICONTROL Fermé]** : ce statut s’affiche lorsqu’une campagne récurrente a été arrêtée.
-<!--Comment une campaign devient Closed?
-[CPR] : A vérifier avec Fred si cette fonctionalité est toujours d'actualité. Normalement c'est sur action de l'utilisateur sur une campaine récurrente only
-= pas trouvé--> cexui qsui sont déjà entrés ocnitnuent. on ferme les portes d'entrée.
-
+* **[!UICONTROL Fermé]** : ce statut s’affiche lorsqu’une campagne récurrente a été fermée. La campagne continue son exécution jusqu&#39;à ce que toutes ses activités soient terminées, mais plus aucun profil ne peut entrer dans la campagne.
 * **[!UICONTROL Archivé]** : la campagne orchestrée a été archivée. Toutes les campagnes archivées sont supprimées selon un nouveau planning progressif 30 jours après la date de la dernière modification. Vous pouvez dupliquer une campagne archivée si nécessaire pour continuer à travailler dessus.
-<!--Comment une campaign devient Archived?
-[CPR] : Soit par action manuel sur une campagne en statut "final" (Completed, Closed, Stopped, etc. ...) bouton bientôt visible. possible pour tout sauf les draft.
-= pas trouvé -->
 * **[!UICONTROL Arrêté]** : l&#39;exécution de la campagne orchestrée a été arrêtée. Pour redémarrer la campagne, vous devez la dupliquer. si erreur , restera avec triangle
-
-## Dupliquer et supprimer des campagnes orchestrées {#duplicate-delete}
-
-Dans certains cas, vous devrez peut-être dupliquer une campagne orchestrée, par exemple pour exécuter une campagne qui a été arrêtée, ou pour modifier la fréquence d’exécution d’une campagne planifiée. Pour ce faire, cliquez sur le bouton ![image illustrant le bouton Autres actions](assets/do-not-localize/rule-builder-icon-more.svg) de l’inventaire des campagnes, puis sélectionnez **[!UICONTROL Dupliquer]**
-
-<!--Une fois une campaign Scheduled, on ne peut plus changer l'execution frequency = la solution est de dupliquer la campaign ?
-[CPR] : Actuellement oui, mais on est en discussion pour pouvoir revenir en mode "draft" et quelles seraient les actions à nouveau disponibles. A vérifier avec Fred-->
-
-Pour supprimer une campagne, cliquez sur l’image ![bouton Autres actions](assets/do-not-localize/rule-builder-icon-more.svg) puis sélectionnez **[!UICONTROL Supprimer]**.
-
->[!NOTE]
->
->Seules les campagnes **[!UICONTROL Brouillon]** peuvent être supprimées.
