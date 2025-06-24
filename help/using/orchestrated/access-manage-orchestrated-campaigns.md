@@ -7,10 +7,10 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: 7b42d317-cd01-4c6a-b61e-5b03e5a8ff3c
-source-git-commit: e1cb8bc75a5d7d7e43c641ffe7e164bbc1ac1086
+source-git-commit: f8fa52c89659918ef3837f88ddb03c219239f4ee
 workflow-type: tm+mt
-source-wordcount: '697'
-ht-degree: 19%
+source-wordcount: '717'
+ht-degree: 18%
 
 ---
 
@@ -48,13 +48,11 @@ Chaque campagne orchestrée figurant dans la liste affiche des informations tell
 
 Une barre de recherche et des filtres sont également disponibles pour faciliter la recherche dans la liste. Vous pouvez, par exemple, filtrer les campagnes orchestrées afin de n’afficher que celles associées à un canal ou à une balise donnée, ou celles créées au cours d’une période spécifique.
 
-
 L’image ![bouton Plus d’actions](assets/do-not-localize/rule-builder-icon-more.svg) dans l’inventaire des campagnes vous permet d’effectuer les différentes opérations présentées ci-dessous.
 
 ![image de l’inventaire des campagnes](assets/inventory-actions.png)
 
-* **[!UICONTROL Afficher le rapport à toute heure]** -
-* **[!UICONTROL Afficher le rapport des dernières 24 heures]** -
+* **[!UICONTROL Afficher le rapport à toute heure]** / **[!UICONTROL Afficher le rapport des dernières 24 heures]** - Accédez aux rapports pour mesurer et visualiser l’impact et les performances de vos campagnes orchestrées. [En savoir plus sur le reporting des campagnes orchestrées](../orchestrated/reporting-campaigns.md)
 * **[!UICONTROL Modifier les balises]** - Modifiez les balises associées à la campagne.
 * **[!UICONTROL Dupliquer]** - Dans certains cas, vous devrez peut-être dupliquer une campagne orchestrée, par exemple pour exécuter une campagne qui a été arrêtée, ou pour modifier la fréquence d’exécution d’une campagne planifiée.
 * **[!UICONTROL Supprimer]** - Supprimez la campagne. Cette action est disponible uniquement pour les campagnes **[!UICONTROL brouillon]**.
