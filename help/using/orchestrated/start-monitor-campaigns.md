@@ -6,10 +6,10 @@ description: Découvrez comment planifier et démarrer des campagnes orchestrée
 hide: true
 hidefromtoc: true
 exl-id: 5fc2d1d6-75c3-4b45-bb2b-09982b9bd5ed
-source-git-commit: f8fa52c89659918ef3837f88ddb03c219239f4ee
+source-git-commit: 50386efbb639031bfc41a0aa67f4f3b49603f03a
 workflow-type: tm+mt
-source-wordcount: '1209'
-ht-degree: 38%
+source-wordcount: '1197'
+ht-degree: 36%
 
 ---
 
@@ -38,8 +38,8 @@ Une fois que vous avez créé et conçu les tâches à effectuer dans la zone de
 
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_scheduler"
->title="Activité Planificateur"
->abstract="L’activité **Planificateur** vous permet de planifier le moment du démarrage de la campagne orchestrée. Cette activité est à considérer comme un démarrage planifié. Elle ne peut être utilisée que comme première activité de la campagne orchestrée."
+>title="Planificateur"
+>abstract="En tant que responsable de campagne, vous pouvez planifier des campagnes pour les lancer automatiquement à des heures spécifiques, ce qui permet d’obtenir un timing précis et des données de ciblage précises pour les communications marketing."
 
 En tant que responsable de campagne, vous pouvez planifier des campagnes pour les lancer automatiquement à des heures spécifiques, ce qui permet d’obtenir un timing précis et des données de ciblage précises pour les communications marketing.
 
