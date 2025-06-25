@@ -9,10 +9,10 @@ level: Intermediate
 badge: label="Disponibilité limitée" type="Informative"
 keywords: publication, parcours, actif, validité, vérifier
 exl-id: a2892f0a-5407-497c-97af-927de81055ac
-source-git-commit: 158ae930fa87dc0476273bfbb14c96e780281491
+source-git-commit: 624bcbdbbd33d9827b98c953043e692757deb847
 workflow-type: tm+mt
-source-wordcount: '2021'
-ht-degree: 32%
+source-wordcount: '2109'
+ht-degree: 30%
 
 ---
 
@@ -147,7 +147,11 @@ N’oubliez pas que les exclusions de profils, pour les profils actuellement dan
 
 ## Mécanismes de sécurisation et limitations {#journey-pause-guardrails}
 
-* Une version de parcours peut être suspendue pendant 14 jours au maximum
+* Une version de parcours peut être suspendue pendant **14 jours au maximum** avec un maximum de **10 millions de profils** autorisés dans les parcours en pause dans l’ensemble de votre organisation.
+Cette limite est vérifiée toutes les 30 minutes. Cela signifie que vous pouvez temporairement dépasser le seuil de 10 millions, mais une fois que le système le détecte, tous les profils supplémentaires sont automatiquement ignorés.
+
+  Si vous reprenez les parcours pour ramener le nombre de profils retenus en dessous de la limite, le parcours reprend immédiatement, mais la mise à jour du nombre de profils peut prendre jusqu’à 30 minutes. Pendant ce temps, le système peut toujours considérer ces profils comme en pause.
+
 * Les parcours suspendus sont comptabilisés dans le quota de parcours vivants
 * Les profils entrés sur le parcours mais ignorés pendant la pause seraient toujours comptabilisés comme des profils engageables
 * Les parcours en pause sont pris en compte dans toutes les règles métier, de la même manière que s’ils étaient actifs
