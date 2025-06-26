@@ -6,8 +6,7 @@ description: Découvrez comment configurer votre schéma d’offre pour capturer
 feature: Ranking, Datasets, Decision Management
 role: Developer, Data Engineer
 level: Experienced
-exl-id: f70ba749-f517-4e09-a381-243b21713b48
-source-git-commit: 4e7c4e7e6fcf488f572ccf3e9037e597dde06510
+source-git-commit: bd94edd5be8651fdde5c353a59442ab3f255cfbc
 workflow-type: tm+mt
 source-wordcount: '272'
 ht-degree: 92%

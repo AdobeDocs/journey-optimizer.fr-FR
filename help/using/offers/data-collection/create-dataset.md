@@ -6,11 +6,10 @@ description: Découvrez comment créer un jeu de données pour collecter des év
 feature: Ranking, Decision Management, Datasets
 role: Data Engineer, Developer
 level: Experienced
-exl-id: 99963ef4-0b19-475e-96f4-2eac3f680c6f
-source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
+source-git-commit: bd94edd5be8651fdde5c353a59442ab3f255cfbc
 workflow-type: tm+mt
 source-wordcount: '255'
-ht-degree: 86%
+ht-degree: 91%
 
 ---
 
@@ -28,7 +27,7 @@ Commencez par créer le schéma qui sera utilisé dans votre jeu de données :
 
    >[!NOTE]
    >
-   >Pour en savoir plus sur les schémas et les groupes de champs XDM, consultez la [documentation de présentation du système XDM](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=fr){target="_blank"}.
+   >Découvrez les schémas XDM et les groupes de champs dans la [documentation de présentation du système XDM](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=fr){target="_blank"}.
 
 1. Saisissez le nom et la description de votre schéma, puis cliquez sur **Terminer**.
    ![](../assets/ai-ranking-xdm-event-2.png)
