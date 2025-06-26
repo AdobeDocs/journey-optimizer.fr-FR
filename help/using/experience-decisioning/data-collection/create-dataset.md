@@ -6,7 +6,9 @@ description: Découvrez comment créer un jeu de données pour collecter des év
 feature: Ranking, Decision Management, Datasets
 role: Data Engineer, Developer
 level: Experienced
-source-git-commit: dd108b67ec252d391418d8af53de696bf9cd167d
+hide: true
+hidefromtoc: true
+source-git-commit: e5c457494d5d79d1a7951b9172c39c91007e2651
 workflow-type: tm+mt
 source-wordcount: '255'
 ht-degree: 85%
