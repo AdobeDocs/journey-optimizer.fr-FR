@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 5c866814-d79a-4a49-bfcb-7a767d802e90
-source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
+source-git-commit: 42b7b7fe7ab6380ca54e05ab0905f2517f489782
 workflow-type: tm+mt
-source-wordcount: '1753'
-ht-degree: 98%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -81,7 +81,7 @@ Pour faire simple, la sortie d’une audience est une liste de profils, tandis q
 
 * Pour limiter la présentation de l’élément de décision aux membres d’une ou de plusieurs audiences Adobe Experience Platform, sélectionnez l’option **[!UICONTROL Visiteurs et visiteuses appartenant à une ou plusieurs audiences]**, puis ajoutez une ou plusieurs audiences depuis le volet de gauche et combinez-les à l’aide des opérateurs logiques **[!UICONTROL Et]**/**[!UICONTROL Ou]**. [En savoir plus sur les audiences](../audience/about-audiences.md).
 
-* Pour associer une règle de décision spécifique à l’élément de décision, sélectionnez **[!UICONTROL Par règle]**, puis faites glisser la règle de votre choix depuis le volet de gauche vers la zone centrale. [En savoir plus sur les règles de décision](rules.md).
+* Pour associer une règle de décision spécifique à l’élément de décision, sélectionnez **[!UICONTROL Par règle]**, puis faites glisser la règle de votre choix depuis le volet de gauche vers la zone centrale. [En savoir plus sur les règles de décision](rules.md)
 
 ![](assets/item-constraints.png)
 
@@ -114,8 +114,8 @@ Pour définir des règles de limitation pour l’élément de décision, cliquez
    >[!NOTE]
    >
    >Pour tous les événements de limitation, à l’exception des événements de décision, les commentaires sur la gestion des décisions peuvent ne pas être collectés automatiquement, ce qui peut entraîner une incrémentation incorrecte du compteur de limitation. Pour vous assurer que chaque événement de limitation est suivi et comptabilisé dans le compteur de limitation, vérifiez que le schéma utilisé pour collecter les événements d’expérience inclut le groupe de champs approprié pour cet événement. Des informations détaillées sur la collecte de données sont disponibles dans la documentation relative à la gestion des décisions de Journey Optimizer :
-   >* [Collecte de données sur la gestion des décisions](../offers/data-collection/data-collection.md)
-   >* [Configurer la collecte de données](../offers/data-collection/schema-requirement.md)
+   >* [Collecte de données sur la gestion des décisions](data-collection/data-collection.md)
+   >* [Configurer la collecte de données](data-collection/schema-requirement.md)
 
 1. Choisir le type de limitation :
 
