@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: parcours, configuration, propriétés
 exl-id: 6c21371c-6cbc-4d39-8fe6-39f1b8b13280
-source-git-commit: 6da1d9a3edb8a30b8f13fd0cb6a138f22459ad00
+source-git-commit: 7d5d27d9509dd80fece2e360d58437d26df7c4de
 workflow-type: tm+mt
-source-wordcount: '2395'
-ht-degree: 100%
+source-wordcount: '2392'
+ht-degree: 95%
 
 ---
 
@@ -21,11 +21,11 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_properties"
 >title="Propriétés du parcours"
->abstract="Cette section présente les propriétés du parcours. Par défaut, les paramètres en lecture seule sont masqués. Les paramètres disponibles dépendent du statut du parcours, de vos autorisations et de la configuration de votre produit."
+>abstract="Cette section présente les propriétés du parcours. Par défaut, les paramètres en lecture seule sont masqués. Les paramètres disponibles dépendent du statut du parcours, de vos autorisations et de la configuration du produit."
 
 ## Accéder aux propriétés d’un parcours {#access-properties}
 
-Les propriétés d’un parcours sont centralisées dans le rail de droite. Cette section est affichée par défaut lors de la création d’un parcours. Pour les parcours existants, cliquez sur l’icône en forme de crayon à côté du nom du parcours pour l’ouvrir.
+Les propriétés d’un parcours sont centralisées dans le rail de droite. Cette section est affichée par défaut lors de la création d’un parcours. Pour les parcours existants, cliquez sur l’icône en forme de crayon en regard du nom du parcours pour l’ouvrir.
 
 Dans cette section, choisissez le nom du parcours, ajoutez une description et définissez les propriétés globales du parcours.
 
@@ -46,7 +46,7 @@ Vous pouvez effectuer les actions suivantes :
 >
 >Pour les parcours actifs, cet écran affiche la date de publication et le nom de l’utilisateur ou de l’utilisatrice qui a publié le parcours.
 
-La fonction **Copier les détails techniques** permet de copier les informations techniques relatives au parcours qui seront utiles à l’équipe d’assistance technique pour résoudre les problèmes. Les informations suivantes sont copiées : `JourneyVersion UID`, `OrgID`, `orgName`, `sandboxName`, `lastDeployedBy`, `lastDeployedAt`.
+L&#39;option **Copier les détails techniques** permet de copier les informations techniques relatives au parcours que l&#39;équipe d&#39;assistance technique peut utiliser pour résoudre les problèmes. Les informations suivantes sont copiées : `JourneyVersion UID`, `OrgID`, `orgName`, `sandboxName`, `lastDeployedBy`, `lastDeployedAt`.
 
 Pour plus d’informations sur les champs techniques liés à un parcours pour un profil donné et comment les utiliser, consultez [cette page](expression/journey-properties.md).
 
@@ -71,14 +71,14 @@ Par défaut, les nouveaux parcours autorisent la rentrée. Vous pouvez désélec
 >[!CONTEXTUALHELP]
 >id="ajo_journey_properties_re-entrance_wait"
 >title="Période d’attente de rentrée"
->abstract="Définissez le temps d’attente avant de permettre à un profil de reprendre le parcours dans les parcours unitaires. Cela empêche les utilisateurs et utilisatrices d’entrer de nouveau dans le parcours pendant une durée donnée. Durée maximale : 90 jours."
+>abstract="Définissez le temps d’attente avant d’autoriser un profil à entrer à nouveau dans le parcours en parcours unitaires. Cela empêche les utilisateurs et utilisatrices d’entrer de nouveau dans le parcours pendant une durée donnée. Durée maximale : 90 jours."
 >additional-url="https://experienceleague.adobe.com/fr/docs/journey-optimizer/using/orchestrate-journeys/manage-journey/entry-management" text="Gestion des entrées de profil"
 
 Lorsque l’option **Autoriser une rentrée** est activée, le champ **Période d’attente de rentrée** s’affiche. Ce champ vous permet de définir le temps d’attente avant d’autoriser un profil à entrer à nouveau dans un parcours pour les parcours unitaires (en commençant par un événement ou une qualification d’audience). Cela empêche les parcours d’être déclenchés plusieurs fois par erreur pour le même événement. Par défaut, le champ est défini sur 5 minutes. La durée maximale est de 90 jours.
 
 ## Gérer l’accès {#manage-access}
 
-Vous pouvez limiter l’accès à ce parcours en fonction des libellés d’accès.
+Vous pouvez restreindre l’accès à un parcours en fonction des libellés d’accès.
 
 Pour attribuer des libellés d’utilisation des données personnalisés au parcours, cliquez sur l’icône **[!UICONTROL Gérer les libellés d’accès]** et sélectionnez un ou plusieurs libellés.
 
@@ -95,12 +95,12 @@ Le fuseau horaire est défini au niveau du parcours. Vous pouvez entrer un fusea
 >[!CONTEXTUALHELP]
 >id="ajo_journey_properties_start_date"
 >title="Date de début"
->abstract="Sélectionnez la date à laquelle les profils peuvent commencer à rejoindre le parcours. Si aucune date de début n’est définie, elle correspond par défaut à la date de publication du parcours."
+>abstract="Sélectionnez la date à laquelle les profils peuvent commencer à rejoindre le parcours. Si aucune date de début n’est définie, la date de publication par défaut est celle du parcours."
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_properties_end_date"
 >title="Date de fin"
->abstract="Définissez la date de fin du parcours. À cette date, les profils actifs sortiront automatiquement du parcours et aucune nouvelle entrée ne sera autorisée."
+>abstract="Définissez la date de fin du parcours. À cette date, les profils actifs quittent automatiquement le parcours et aucune nouvelle entrée n’est autorisée."
 
 Par défaut, les profils peuvent rejoindre votre parcours dès qu’il est publié et y rester jusqu’à la [temporisation globale du parcours](#global_timeout). La seule exception concerne les parcours de lecture d’audience récurrents avec l’option **Forcer une rentrée sur la périodicité** activée, qui se termine à la date de début de l’occurrence suivante.
 
