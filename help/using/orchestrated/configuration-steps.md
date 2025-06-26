@@ -7,7 +7,7 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: 8c785431-9a00-46b8-ba54-54a10e288141
-source-git-commit: 10333b4dab32abe87b1e8b4f3e4d7b1e72eafb50
+source-git-commit: fad312d2951dc6d602fb27d24adad6de0192f650
 workflow-type: tm+mt
 source-wordcount: '1008'
 ht-degree: 24%
@@ -179,7 +179,7 @@ Adobe Experience Platform permet d’ingérer des données à partir de sources 
 
    * Avec un nouveau compte
 
-   [En savoir plus dans la documentation d’Adobe Experience Platform](https://experienceleague.adobe.com/fr/docs/experience-platform/destinations/catalog/cloud-storage/amazon-s3#connect)
+   [En savoir plus dans la documentation d’Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/cloud-storage/amazon-s3#connect)
 
    ![](assets/admin_sources_2.png)
 
@@ -189,9 +189,11 @@ Adobe Experience Platform permet d’ingérer des données à partir de sources 
 
    La sélection d’un dossier garantit que tous les fichiers actuels et futurs avec la même structure sont traités automatiquement, tandis que la sélection d’un fichier nécessite des mises à jour manuelles pour chaque nouvel incrément de données.
 
-   ![](assets/s3_config_1.png)
+   ![](assets/S3_config_1.png)
 
 1. Choisissez le format des données, puis cliquez sur Suivant.
+
+
 
 <!--manual
 ## Create a relational schema manual
