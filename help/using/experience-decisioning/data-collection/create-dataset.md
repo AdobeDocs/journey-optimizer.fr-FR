@@ -7,10 +7,10 @@ feature: Ranking, Decision Management, Datasets
 role: Data Engineer, Developer
 level: Experienced
 exl-id: 99963ef4-0b19-475e-96f4-2eac3f680c6f
-source-git-commit: 42b7b7fe7ab6380ca54e05ab0905f2517f489782
+source-git-commit: 9f77bb0bfae48e879335f72f07f106a2f0472f45
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '255'
+ht-degree: 85%
 
 ---
 
@@ -69,4 +69,4 @@ vous êtes maintenant prêt à créer un jeu de données à l’aide de ce sché
 
 >[!NOTE]
 >
->Ce jeu de données est maintenant prêt à être sélectionné pour collecter les données dʼévénement lors de la [création dʼun modèle d’IA] ().
+>Ce jeu de données peut désormais être sélectionné pour collecter des données d’événement lors de la création d’un modèle d’IA<!--add link to Creat AI models section-->.
