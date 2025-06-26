@@ -69,4 +69,4 @@ vous êtes maintenant prêt à créer un jeu de données à l’aide de ce sché
 
 >[!NOTE]
 >
->Ce jeu de données est maintenant prêt à être sélectionné pour collecter les données dʼévénement lors de la [création dʼun modèle d’IA]().
+>Ce jeu de données est maintenant prêt à être sélectionné pour collecter les données dʼévénement lors de la [création dʼun modèle d’IA] ().
