@@ -9,10 +9,10 @@ level: Intermediate
 badge: label="Disponibilité limitée" type="Informative"
 keywords: publication, parcours, actif, validité, vérifier
 exl-id: a2892f0a-5407-497c-97af-927de81055ac
-source-git-commit: 624bcbdbbd33d9827b98c953043e692757deb847
+source-git-commit: fa46397b87ae3a81cd016d95afd3e09bb002cfaa
 workflow-type: tm+mt
-source-wordcount: '2109'
-ht-degree: 30%
+source-wordcount: '2106'
+ht-degree: 28%
 
 ---
 
@@ -50,7 +50,7 @@ Vous pouvez mettre en pause n’importe quel parcours **actif**.
 Pour mettre en pause votre parcours, procédez comme suit :
 
 1. Ouvrez le parcours que vous souhaitez mettre en pause.
-1. Cliquez sur le bouton **...Plus** situé dans la section supérieure droite de la zone de travail du parcours, puis sélectionnez **Mettre en pause**.
+1. Cliquez sur le bouton **...Plus** dans la section supérieure droite de la zone de travail du parcours, puis sélectionnez **Pause**.
 
    ![Bouton Mettre en pause le parcours](assets/pause-journey-button.png)
 
@@ -103,7 +103,7 @@ Les parcours en pause sont automatiquement repris à l’issue d’une période 
 Pour reprendre un parcours en pause et recommencer à écouter les événements de parcours, procédez comme suit :
 
 1. Ouvrez le parcours que vous souhaitez reprendre.
-1. Cliquez sur le bouton **...Plus** situé dans la section supérieure droite de la zone de travail du parcours, puis sélectionnez **Reprendre**.
+1. Sélectionnez le bouton **...Plus** dans la section supérieure droite de la zone de travail du parcours, puis **Reprendre**.
 
    Le statut du parcours devient **Reprise en cours**. Lorsque le parcours reprend, de nouvelles entrées démarrent dans la minute qui suit. La reprise des profils qui ont été conservés peut prendre un certain temps : les profils sont repris à un taux de 5 000 tps.  Comme tous les profils doivent reprendre pour que le parcours soit à nouveau **actif**, la transition du statut **Reprise** au statut **actif** peut prendre un certain temps.
 
@@ -121,7 +121,7 @@ Par exemple, pour exclure tous les clients français d’un parcours en pause, p
 
 1. Accédez au parcours en pause que vous souhaitez modifier.
 
-1. Cliquez sur l’icône **Critères de sortie et filtre global**.
+1. Sélectionnez l’icône **Critères de sortie et filtre global**.
 
    ![Ajouter un filtre global à un parcours en pause](assets/add-global-filter.png)
 

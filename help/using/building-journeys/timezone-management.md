@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: fuseau horaire, propriétés, parcours, condition, heure, date, personnalisé
 exl-id: 3bcc08d6-1210-4ff9-92f4-edee8285b469
-source-git-commit: 21b53c72976d1a65651bc142e23ba847dc40a305
+source-git-commit: fa46397b87ae3a81cd016d95afd3e09bb002cfaa
 workflow-type: tm+mt
-source-wordcount: '361'
-ht-degree: 100%
+source-wordcount: '360'
+ht-degree: 96%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 100%
 
 Vous pouvez définir un fuseau horaire dans les [propriétés](../building-journeys/journey-properties.md#timezone) de votre parcours.
 
-Pour accéder aux propriétés du parcours, cliquez sur l’icône en forme de crayon dans le coin supérieur droit de l’écran.
+Pour accéder aux propriétés du parcours, sélectionnez l’icône en forme de crayon dans le coin supérieur droit de l’écran.
 
 Ce fuseau horaire sera utilisé pour chaque activité du parcours contenant un élément temporel tel que :
 

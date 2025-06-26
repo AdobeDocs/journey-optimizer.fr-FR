@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: profil, mise à jour, parcours, activité
 exl-id: 8b2b2d1e-9bd1-439d-a15e-acdbab387c4b
-source-git-commit: dc226803d2df198bde9c525f82431161734f53f8
+source-git-commit: fa46397b87ae3a81cd016d95afd3e09bb002cfaa
 workflow-type: tm+mt
-source-wordcount: '630'
-ht-degree: 100%
+source-wordcount: '629'
+ht-degree: 95%
 
 ---
 
@@ -33,7 +33,7 @@ Utilisez l’activité d&#39;action **[!UICONTROL Mettre à jour le profil]** po
 * Comme toute autre action, vous pouvez définir un chemin alternatif en cas d&#39;erreur ou de temporisation, et vous ne pouvez pas placer deux actions en parallèle.
 * La demande de mise à jour envoyée à Adobe Experience Platform est immédiate/inférieure à une seconde. Cela prendra normalement quelques secondes, parfois plus, sans aucune garantie. En conséquence, par exemple, si une action utilise « champ 1 » mis à jour par une action **Mettre à jour le profil** positionnée juste avant, vous ne devriez pas vous attendre à une mise à jour du « champ 1 » dans l&#39;action.
 * L’activité **Mettre à jour le profil** ne prend pas en charge les champs XDM définis comme des énumérations ou des valeurs suggérées.
-* L’activité **[!UICONTROL Mettre à jour le profil]** ne met à jour que le [magasin de profils](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=fr#profile-data-store){target="_blank"} et non le lac de données.
+* L’activité **[!UICONTROL Mettre à jour le profil]** met uniquement à jour le [Magasin de profils](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=fr#profile-data-store){target="_blank"}, et non le lac de données.
 
 ## Sélection du jeu de données {#dataset-selection}
 
@@ -67,7 +67,7 @@ En outre, la configuration d’activité **Mettre à jour le profil** ne nécess
 
      ![](assets/profileupdate4.png)
 
-   * Si vous souhaitez définir une valeur spécifique ou utiliser des fonctions avancées, cliquez sur **Mode avancé**.
+   * Pour définir une valeur spécifique ou utiliser des fonctions avancées, sélectionnez **Mode avancé**.
 
      ![](assets/profileupdate3.png)
 

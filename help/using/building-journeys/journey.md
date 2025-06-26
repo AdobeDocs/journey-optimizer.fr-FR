@@ -8,17 +8,17 @@ role: User
 level: Beginner, Intermediate
 keywords: parcours, découverte, commencer
 exl-id: 73cfd48b-72e6-4b72-bbdf-700a32a34bda
-source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
+source-git-commit: fa46397b87ae3a81cd016d95afd3e09bb002cfaa
 workflow-type: tm+mt
-source-wordcount: '417'
-ht-degree: 93%
+source-wordcount: '418'
+ht-degree: 90%
 
 ---
 
 
 # Prise en main des parcours{#jo-general-principle}
 
-Utilisez [!DNL Journey Optimizer] pour créer des cas d’utilisation d’orchestration en temps réel à l’aide de données contextuelles stockées dans des événements ou des sources de données. Vous pouvez concevoir des scénarios avancés à plusieurs étapes avec les fonctionnalités suivantes :
+Utilisez [!DNL Journey Optimizer] pour créer des cas d’utilisation d’orchestration en temps réel à l’aide de données contextuelles stockées dans des événements ou des sources de données. Vous pouvez concevoir des scénarios avancés à plusieurs étapes avec les fonctionnalités suivantes :
 
 * Envoyez des **diffusions unitaires** en temps réel déclenchées lors de la réception d’un événement ou **par lots** à l’aide d’audiences Adobe Experience Platform.
 
@@ -56,4 +56,4 @@ Découvrez comment créer des parcours dans les cas d’utilisation complets sui
 
 Découvrez les composants d’un parcours et comprenez les principes de base de la création d’un parcours dans la zone de travail.
 
->[!VIDEO](https://video.tv.adobe.com/v/3430351?quality=12&captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/3424996?quality=12)

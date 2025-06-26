@@ -9,10 +9,10 @@ role: User, Data Engineer
 level: Intermediate, Experienced
 keywords: parcours, cas d’utilisation, message, abonnés, liste, lecture
 exl-id: 2540938f-8ac7-43fa-83ff-fed59f6bc417
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: fa46397b87ae3a81cd016d95afd3e09bb002cfaa
 workflow-type: tm+mt
 source-wordcount: '331'
-ht-degree: 100%
+ht-degree: 94%
 
 ---
 
@@ -46,8 +46,8 @@ Pour configurer ce parcours, procédez comme suit:
 
       | Fonction | Description | Exemple |
       | --- | --- | --- |
-      | `entry` | Renvoyer à un élément de mappage selon l’espace de noms sélectionné | Renvoyer à une liste d’abonnements spécifique |
-      | `firstEntryKey` | Récupérer la première clé d’entrée d’un mapping | Récupérer la première adresse e-mail des abonnés |
+      | `entry` | Fait référence à un élément de mappage en fonction de l’espace de noms sélectionné | Renvoyer à une liste d’abonnements spécifique |
+      | `firstEntryKey` | Récupère la première clé d’entrée d’un mappage | Récupérer la première adresse e-mail des abonnés |
 
       Dans cet exemple, la liste d’abonnements est nommée `daily-email`. Les adresses e-mail sont définies comme des clés dans le mappage `subscribers`, qui est lié au mappage de la liste d’abonnements.
 

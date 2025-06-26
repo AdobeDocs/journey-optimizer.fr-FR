@@ -8,10 +8,10 @@ topic: Content Management
 role: Developer, Data Engineer
 level: Experienced
 exl-id: 890a194f-f54d-4230-863a-fb2b924d716a
-source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
-workflow-type: ht
-source-wordcount: '369'
-ht-degree: 100%
+source-git-commit: fa46397b87ae3a81cd016d95afd3e09bb002cfaa
+workflow-type: tm+mt
+source-wordcount: '366'
+ht-degree: 93%
 
 ---
 
@@ -39,7 +39,7 @@ curl -X POST 'https://ims-na1.adobelogin.com/ims/token/v3' -H 'Content-Type: app
 
 >[!CAUTION]
 >
->Après avoir créé votre projet sur Adobe Developer Console, assurez vous d’accorder aux développeurs et développeuses et aux API le contrôle d’accès avec les autorisations appropriées. Pour en savoir plus, consultez la [documentation Adobe Experience Platform](https://experienceleague.adobe.com/fr/docs/experience-platform/landing/platform-apis/api-authentication#grant-developer-and-api-access-control){target="_blank"}
+>Après avoir créé votre projet sur Adobe Developer Console, assurez vous d’accorder aux développeurs et développeuses et aux API le contrôle d’accès avec les autorisations appropriées. En savoir plus dans la documentation de [Adobe Experience Platform](https://experienceleague.adobe.com/fr/docs/experience-platform/landing/platform-apis/api-authentication#grant-developer-and-api-access-control){target="_blank"}
 
 ## Configurer la source à l’aide de l’API HTTP Inlet
 
@@ -49,11 +49,11 @@ curl -X POST 'https://ims-na1.adobelogin.com/ims/token/v3' -H 'Content-Type: app
 
    ![](assets/custom-action-aep-3.png)
 
-1. Sélectionnez **Nouveau compte** et activez l’authentification. Cliquez sur **Se connecter à la source**.
+1. Sélectionnez **Nouveau compte** et activez l’authentification. Sélectionnez **Connexion à Source**.
 
    ![](assets/custom-action-aep-4.png)
 
-1. Cliquez sur **Suivant** et sélectionnez le jeu de données dans lequel vous souhaitez écrire les données. Cliquez sur **Suivant** et **Terminer**.
+1. Sélectionnez **Suivant** et le Jeu de données dans lequel vous souhaitez écrire les données. Cliquez sur **Suivant** et **Terminer**.
 
    ![](assets/custom-action-aep-5.png)
 

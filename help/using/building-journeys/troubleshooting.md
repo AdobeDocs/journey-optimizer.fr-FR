@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: dépannage, résolution des problèmes, parcours, vérification, erreurs
 exl-id: 03fbc4f4-b0a8-46d5-91f9-620685b11493
-source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
+source-git-commit: fa46397b87ae3a81cd016d95afd3e09bb002cfaa
 workflow-type: tm+mt
-source-wordcount: '1059'
-ht-degree: 93%
+source-wordcount: '1058'
+ht-degree: 91%
 
 ---
 
@@ -29,7 +29,7 @@ Avant de tester et de publier votre parcours, vérifiez que toutes les activité
 
 ### Erreurs dans les activités {#activity-errors}
 
-Les erreurs sont représentées par un symbole d&#39;avertissement, affiché sur l&#39;activité elle-même, dans la zone de travail. Placez le curseur sur le point d&#39;exclamation pour afficher le message d&#39;erreur. Si vous cliquez sur l&#39;activité, vous devez voir la ligne contenant l&#39;erreur associée à un avertissement. Par exemple :
+Les erreurs sont représentées par un symbole d&#39;avertissement, affiché sur l&#39;activité elle-même, dans la zone de travail. Placez le curseur sur le point d&#39;exclamation pour afficher le message d&#39;erreur. Si vous sélectionnez l’activité, la ligne contenant l’erreur doit s’afficher avec un avertissement. Par exemple :
 
 * si un champ obligatoire est vide, une erreur s’affiche ;
 

@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: parcours, premier, commencer, démarrage rapide, audience, événement, action
 exl-id: d940191e-8f37-4956-8482-d2df0c4274aa
-source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
-workflow-type: ht
-source-wordcount: '711'
-ht-degree: 100%
+source-git-commit: fa46397b87ae3a81cd016d95afd3e09bb002cfaa
+workflow-type: tm+mt
+source-wordcount: '768'
+ht-degree: 60%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_create"
 >title="Parcours"
->abstract="Concevoir des parcours clients pour offrir des expériences contextuelles personnalisées. Journey Optimizer vous permet de créer des cas d’utilisation d’orchestration en temps réel avec des données contextuelles stockées dans des événements ou des sources de données. L’onglet **Vue d’ensemble** affiche un tableau de bord avec les mesures clés liées à vos parcours : L’onglet **Parcourir** affiche la liste des parcours existants."
+>abstract="Concevoir des parcours clients pour offrir des expériences contextuelles personnalisées. Journey Optimizer vous permet de créer des cas d’utilisation d’orchestration en temps réel avec des données contextuelles stockées dans des événements ou des sources de données. L’onglet **Vue d’ensemble** affiche un tableau de bord avec les mesures clés liées à vos parcours : L’onglet **Parcourir** affiche la liste des parcours existants."
 
 Adobe Journey Optimizer comprend une zone de travail d’orchestration omnicanal qui permet aux spécialistes du marketing d’harmoniser la portée marketing avec l’engagement client individuel. L’interface utilisateur vous permet de faire glisser facilement des activités de la palette vers la zone de travail pour créer votre parcours. L’interface d’utilisation du parcours est présentée sur [cette page](journey-ui.md).
 
@@ -38,19 +38,19 @@ Les étapes principales de la création d’un parcours sont détaillées sur ce
 ![étapes de création de parcours : création, conception, test et publication](assets/journey-creation-process.png)
 
 
-La création de parcours clients à plusieurs étapes lance une séquence d’interactions, d’offres et de messages sur plusieurs canaux en temps réel. Cette approche garantit que les clientes et clients interagissent aux moments optimaux en fonction de leurs actions et des signaux commerciaux pertinents. Les audiences cibles peuvent être définies en fonction du comportement, des données contextuelles et des événements métier. Les prérequis dépendent de votre cas d’utilisation et du [type de parcours](entry-management.md#types-of-journeys) créé.
+Créez des parcours client à plusieurs étapes pour lancer une séquence d’interactions, d’offres et de messages sur plusieurs canaux en temps réel. Cette approche garantit que les clientes et clients interagissent aux moments optimaux en fonction de leurs actions et des signaux commerciaux pertinents. Les audiences cibles sont définies en fonction du comportement, des données contextuelles et des événements métier. Les prérequis dépendent de votre cas d’utilisation et du [ type de parcours ](entry-management.md#types-of-journeys) vous créez.
 
-Avant de commencer à créer votre parcours, vérifiez que les étapes de configuration appropriées sont effectuées :
+Avant de commencer à créer votre parcours, assurez-vous que les étapes de configuration appropriées sont terminées :
 
-* Si vous souhaitez déclencher vos parcours lorsqu’un événement se produit, vous devez **configurer un événement**. Vous devez définir les informations attendues et comment les traiter. [En savoir plus](../event/about-events.md).
+* Si vous souhaitez déclencher vos parcours individuellement lorsqu’un événement est reçu, **configurez un événement**. Définissez les informations attendues et comment les traiter. [En savoir plus](../event/about-events.md).
 
 <!--   ![](assets/jo-event7bis.png)  -->
 
-* Votre parcours peut également écouter les audiences Adobe Experience Platform afin d’envoyer des messages par lots à un ensemble de profils spécifié. Pour ce faire, vous devez **créer des audiences**. [En savoir plus](../audience/about-audiences.md).
+* Votre parcours peut également écouter les audiences Adobe Experience Platform pour envoyer des messages par lots à un ensemble de profils spécifié. Pour cela, **créez des audiences**. [En savoir plus](../audience/about-audiences.md).
 
 <!--   ![](assets/segment2.png)  -->
 
-* Vous devez définir une connexion à un système pour récupérer des informations supplémentaires qui seront utilisées pour vos parcours, par exemple dans vos conditions. Cette connexion repose sur une **source de données**. [En savoir plus](../datasource/about-data-sources.md)
+* Définissez une connexion à un système afin de récupérer des informations supplémentaires qui seront utilisées dans vos parcours, par exemple dans vos conditions. Cette connexion repose sur une **source de données**. [En savoir plus](../datasource/about-data-sources.md).
 
 <!--   ![](assets/jo-datasource.png)  -->
 
@@ -90,17 +90,17 @@ Le concepteur de parcours omnicanaux dispose d’une interface intuitive par gli
 
    ![](assets/read-segment.png)
 
-1. Faites glisser et déposez les étapes suivantes que l&#39;individu doit suivre. Par exemple, vous pouvez ajouter une condition suivie d’une action de canal. Pour en savoir plus sur les activités, consultez [cette section](about-journey-activities.md).
+1. Commencez par faire glisser-déposer un événement ou une activité **Lecture d’audience** de la palette vers la zone de travail. Pour en savoir plus sur la conception d&#39;un parcours, consultez [cette section](using-the-journey-designer.md).
 
 ## Tester le parcours {#jo-test}
 
-Une fois que vous avez créé votre parcours, vous pouvez le tester avant de le publier. Journey Optimizer propose un « mode test » pour afficher les profils de test au fur et à mesure de leur progression dans le parcours et ainsi détecter les erreurs potentielles avant leur activation. L’exécution de tests rapides vous permet de vérifier que les parcours fonctionnent correctement afin de pouvoir les publier en toute confiance.
+Une fois le parcours créé, testez-le avant de le publier. Journey Optimizer propose un **mode Test** qui permet d’afficher les profils de test lors de leur déplacement sur le parcours, en détectant les erreurs potentielles avant l’activation. L’exécution de tests rapides permet de s’assurer que les parcours fonctionnent correctement afin que vous puissiez les publier en toute confiance. Découvrez comment tester votre parcours [dans cette section](testing-the-journey.md)
 
-En savoir plus dans cette [section](testing-the-journey.md)
+Vous pouvez également exécuter votre parcours dans **Exécution d’essai**. L’essai de parcours est un mode de publication de parcours spécial dans Adobe Journey Optimizer qui permet aux concepteurs et conceptrices de tester un parcours à l’aide de données de production réelles sans contacter les clients et clientes ni modifier les informations de profil. Cette fonctionnalité permet aux utilisateurs et utilisatrices du parcours d’avoir confiance dans leur conception de parcours et leur ciblage d’audience avant de le publier en direct. Découvrez comment publier un parcours en mode Exécution d’essai [dans cette section](journey-dry-run.md).
 
 ## Publier le parcours {#jo-pub}
 
-Vous devez publier un parcours pour l’activer et le rendre disponible pour que de nouveaux profils puissent le rejoindre. Avant de publier votre parcours, vérifiez qu’il est valide et qu’il ne comporte aucune erreur. Vous ne pouvez pas publier un parcours comportant des erreurs. En savoir plus sur la publication d’un parcours dans [cette section](publishing-the-journey.md).
+Vous devez publier un parcours pour l’activer et le rendre disponible pour que de nouveaux profils puissent le rejoindre. Avant de publier votre parcours, vérifiez qu’il est valide et qu’il ne comporte aucune erreur. Vous ne pouvez pas publier un parcours comportant des erreurs. En savoir plus sur la publication des parcours dans cette [section](publishing-the-journey.md).
 
 ![](assets/jo-journeyuc2_32bis.png)
 
@@ -112,4 +112,4 @@ En savoir plus sur les rapports de parcours dans [cette section](../reports/live
 
 >[!NOTE]
 >
->Si vous souhaitez apporter des modifications à un parcours **actif**, vous devez d’abord en [créer une nouvelle version](journey-ui.md#journey-versions).
+>Si vous devez modifier un parcours **actif**, [créez une nouvelle version](journey-ui.md#journey-versions) de votre parcours.

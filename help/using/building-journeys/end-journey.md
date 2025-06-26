@@ -8,10 +8,10 @@ role: User
 level: Intermediate
 keywords: rentrée, parcours, fin, dynamique, arrêt
 exl-id: ea1ecbb0-12b5-44e8-8e11-6d3b8bff06aa
-source-git-commit: a7468879b36dfe9184471824b387f1638fae3d50
-workflow-type: ht
-source-wordcount: '756'
-ht-degree: 100%
+source-git-commit: fa46397b87ae3a81cd016d95afd3e09bb002cfaa
+workflow-type: tm+mt
+source-wordcount: '753'
+ht-degree: 97%
 
 ---
 
@@ -72,7 +72,7 @@ Pour fermer un parcours dans la liste des parcours, cliquez sur le bouton **[!UI
 
 Vous pouvez également réaliser les opérations suivantes :
 
-1. Dans la liste **[!UICONTROL Parcours]**, cliquez sur le parcours que vous souhaitez fermer.
+1. Dans la liste **[!UICONTROL Parcours]**, cliquez sur le parcours à fermer.
 1. En haut à droite, cliquez sur la flèche vers le bas.
 
    ![](assets/finish_drop_down_list.png){width="50%" align="left" zoomable="yes"}
@@ -93,7 +93,7 @@ Vous pouvez arrêter un parcours, par exemple, si un spécialiste marketing se r
 
 Vous pouvez également réaliser les opérations suivantes :
 
-1. Dans la liste **[!UICONTROL Parcours]**, cliquez sur le parcours que vous souhaitez arrêter.
+1. Dans la liste **[!UICONTROL Parcours]**, cliquez sur le parcours à arrêter.
 1. En haut à droite, cliquez sur la flèche vers le bas.
 
    ![](assets/finish_drop_down_list2.png){width="50%" align="left" zoomable="yes"}

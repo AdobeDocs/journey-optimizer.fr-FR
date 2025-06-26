@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: test, parcours, vérification, erreur, dépannage
 exl-id: 9937d9b5-df5e-4686-83ac-573c4eba983a
-source-git-commit: 0f783c57ba946866cb74c2b16e1807ff963cfbaf
-workflow-type: ht
-source-wordcount: '1768'
-ht-degree: 100%
+source-git-commit: fa46397b87ae3a81cd016d95afd3e09bb002cfaa
+workflow-type: tm+mt
+source-wordcount: '1767'
+ht-degree: 98%
 
 ---
 
@@ -111,7 +111,7 @@ Si votre parcours contient plusieurs événements, sélectionnez-les dans la lis
 
 ![](assets/journeytest4.png)
 
-L’interface vous permet de transmettre des paramètres d’événement simples. Pour transmettre des collections ou d’autres objets avancés dans l’événement, vous pouvez cliquer sur **[!UICONTROL Affichage du code]** pour afficher le code entier du payload et le modifier. Vous pouvez par exemple copier et coller des informations d’événement préparées par un utilisateur ou une utilisatrice technique.
+L’interface vous permet de transmettre des paramètres d’événement simples. Si vous souhaitez transmettre des collections ou d’autres objets avancés dans l’événement, vous pouvez sélectionner **[!UICONTROL Affichage du code]** pour afficher l’intégralité du code de la payload et le modifier. Vous pouvez par exemple copier et coller des informations d’événement préparées par un utilisateur ou une utilisatrice technique.
 
 ![](assets/journeytest5.png)
 

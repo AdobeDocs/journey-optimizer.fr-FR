@@ -9,10 +9,10 @@ level: Intermediate
 badge: label="Disponibilité limitée" type="Informative"
 keywords: publication, parcours, actif, validité, vérifier
 exl-id: 58bcc8b8-5828-4ceb-9d34-8add9802b19d
-source-git-commit: bb3379fa71aaeb00d0833c67547de70f4e9c3fb1
+source-git-commit: fa46397b87ae3a81cd016d95afd3e09bb002cfaa
 workflow-type: tm+mt
-source-wordcount: '996'
-ht-degree: 79%
+source-wordcount: '995'
+ht-degree: 78%
 
 ---
 
@@ -73,7 +73,7 @@ Vous pouvez utiliser la fonctionnalité Test à blanc dans n’importe quel brou
 Pour activer le test à blanc, procédez comme suit :
 
 1. Ouvrez le parcours que vous souhaitez tester.
-1. Cliquez sur le bouton **Test à blanc**.
+1. Sélectionnez le bouton **Exécution d’essai**.
 
    ![Démarrer le test à blanc du parcours](assets/dry-run-button.png)
 

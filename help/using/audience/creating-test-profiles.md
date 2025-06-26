@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: bd5e053a-69eb-463b-add3-8b9168c8e280
-source-git-commit: 5fcbde9344e919b817ef8d360d2318a6d9a1513f
-workflow-type: ht
-source-wordcount: '1352'
-ht-degree: 100%
+source-git-commit: fa46397b87ae3a81cd016d95afd3e09bb002cfaa
+workflow-type: tm+mt
+source-wordcount: '1351'
+ht-degree: 97%
 
 ---
 
@@ -61,7 +61,7 @@ Une fois que vous avez terminé, cliquez sur **[!UICONTROL Ajouter des groupes d
    >
    >Cliquez sur le nom du schéma pour mettre à jour ses propriétés.
 
-1. Dans la liste des champs, cliquez sur le champ que vous souhaitez définir comme l’identité principale.
+1. Dans la liste des champs, cliquez sur le champ que vous souhaitez définir comme identité principale.
    ![](assets/test-profiles-3.png)
 1. Dans le volet de droite **[!UICONTROL Propriétés du champ]**, vérifiez les options **[!UICONTROL Identité]** et **[!UICONTROL Identité principale]**, puis sélectionnez un espace de noms. Si vous souhaitez que l&#39;identité principale soit une adresse e-mail, choisissez l&#39;espace de noms **[!UICONTROL E-mail]**. Cliquez sur **[!UICONTROL Appliquer]**.
    ![](assets/test-profiles-4bis.png)
@@ -248,4 +248,4 @@ curl -X POST \
 
 Découvrez comment créer des profils de test.
 
->[!VIDEO](https://video.tv.adobe.com/v/3416331?quality=12&captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/334236?quality=12)

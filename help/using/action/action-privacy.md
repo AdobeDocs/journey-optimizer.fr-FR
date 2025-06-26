@@ -9,10 +9,10 @@ role: Data Engineer, Data Architect, Admin
 level: Experienced
 keywords: données, gouvernance, DULE, libellés, étiqueter, platform, politique
 exl-id: be3efd3b-35d5-4cf7-9015-29d1e305355d
-source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
+source-git-commit: fa46397b87ae3a81cd016d95afd3e09bb002cfaa
 workflow-type: tm+mt
-source-wordcount: '1291'
-ht-degree: 96%
+source-wordcount: '1290'
+ht-degree: 95%
 
 ---
 
@@ -128,7 +128,7 @@ Si l’un des champs étiquetés _ePHI1_ (dans notre exemple, le champ de groupe
 
 Si le système identifie un champ restreint dans un parcours ou une campagne, ou encore une action personnalisée, une erreur s’affiche empêchant sa publication.
 
-Les erreurs sont visibles à partir du bouton **[!UICONTROL Alertes]**. Cliquez sur l’erreur pour afficher des informations détaillées sur la violation de la politique de gouvernance des données qui s’est produite.
+Les erreurs sont visibles à partir du bouton **[!UICONTROL Alertes]**. Sélectionnez l’erreur pour afficher des informations détaillées sur la violation de la politique de gouvernance des données qui s’est produite.
 
 ![](assets/action-privacy8.png)
 
