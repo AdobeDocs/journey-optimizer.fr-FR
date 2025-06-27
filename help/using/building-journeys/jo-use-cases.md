@@ -8,7 +8,7 @@ role: User, Data Engineer
 level: Intermediate, Experienced
 keywords: cas d’utilisation, multicanal, parcours, événements
 exl-id: 28f3f06b-3576-43a7-9c1b-8e616390907b
-source-git-commit: 938f0b0247cc4b9d3e05a234082db534acbbbac5
+source-git-commit: f1d96aa3fb74c9aedefa026fc65a4dcc8a2b4109
 workflow-type: tm+mt
 source-wordcount: '266'
 ht-degree: 15%
@@ -29,7 +29,7 @@ Utilisez cette bibliothèque comme point de référence lors de la conception de
   <td>
     <div>
     <a href="exp-event-lookup.md">
-    <img alt="bonnes pratiques de recherche des événements d’expérience" src="../assets/do-not-localize/icon-content.svg" /></a> 
+    <img alt="bonnes pratiques de recherche des événements d’expérience" src="../assets/do-not-localize/icon_profile-audience.svg" /></a> 
     <br>Découvrez les modèles courants et les approches évolutives pour vous aider à tirer le meilleur parti des événements d’expérience dans Adobe Journey Optimizer. Ces cas d’utilisation sont conçus pour vous aider à résoudre des défis fréquents tels que la gestion des désinscriptions, le contrôle de la fréquence des messages, la personnalisation du contenu en fonction du comportement de l’utilisateur et la réaction aux signaux en temps réel.
     </div>
       <div>
