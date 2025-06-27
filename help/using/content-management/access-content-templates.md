@@ -7,10 +7,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: ef6110c4-1aa6-4835-b0b0-b3c4fe0e7024
-source-git-commit: 528e1a54dd64503e5de716e63013c4fc41fd98db
-workflow-type: ht
-source-wordcount: '603'
-ht-degree: 100%
+source-git-commit: a9f2eae6398f92a40accb62b1d4544bda031559c
+workflow-type: tm+mt
+source-wordcount: '587'
+ht-degree: 70%
 
 ---
 
@@ -22,7 +22,7 @@ Pour accéder à la liste des modèles de contenu, sélectionnez **[!UICONTROL G
 
 ![](assets/content-template-list.png)
 
-Tous les modèles qui ont été créés sur le sandbox actuel à partir d’un parcours ou d’une campagne à l’aide de l’option **[!UICONTROL Enregistrer en tant que modèle]** du menu **[!UICONTROL Modèles de contenu]** s’affichent. [Découvrir comment créer des modèles](#create-content-templates)
+Tous les modèles créés sur le sandbox courant, soit à partir d’un parcours ou d’une campagne à l’aide de l’option **[!UICONTROL Enregistrer en tant que modèle]** ou à partir du menu **[!UICONTROL Modèles de contenu]**, s’affichent. [Découvrir comment créer des modèles](#create-content-templates)
 
 Dans le volet de gauche, vous pouvez organiser les modèles de contenu en dossiers. Par défaut, tous les modèles s’affichent. Lorsque vous sélectionnez un dossier, seuls les modèles et les dossiers qu’il contient s’affichent. [En savoir plus](#folders)
 
@@ -31,6 +31,7 @@ Dans le volet de gauche, vous pouvez organiser les modèles de contenu en dossie
 Pour trouver un élément spécifique, commencez à saisir un nom dans le champ de recherche. Lorsque vous sélectionnez un [dossier](#folders), la recherche s’applique à tous les modèles de contenu ou dossiers du premier niveau de la hiérarchie de ce dossier<!--(not nested items)-->.
 
 Vous pouvez trier les modèles de contenu par :
+
 * Type
 * Canal
 * Date de création ou de modification
@@ -42,15 +43,15 @@ Vous pouvez également choisir d’afficher uniquement les éléments que vous a
 
 >[!NOTE]
 >
->Depuis mars 2025, les modèles de contenu de type HTML sont devenus obsolètes. Vous pouvez toujours accéder aux modèles de contenu HTML précédemment créés dans [!DNL Journey Optimizer].
+>À compter de mars 2025, les modèles de contenu de type HTML seront obsolètes. Vous pouvez toujours accéder aux modèles de contenu HTML précédemment créés dans [!DNL Journey Optimizer].
 
 ## Utiliser des dossiers pour gérer les modèles de contenu {#folders}
 
-Pour gérer facilement vos modèles de contenu, vous pouvez désormais utiliser des dossiers pour mieux les organiser dans une hiérarchie structurée. Vous pouvez ainsi classer et gérer les éléments en fonction des besoins de votre organisation.
+Pour parcourir facilement vos modèles de contenu, utilisez des dossiers pour les organiser plus efficacement dans une hiérarchie structurée. Vous pouvez ainsi catégoriser et gérer les éléments en fonction des besoins de votre entreprise.
 
 ![](assets/content-template-folders.png)
 
-1. Cliquez sur le bouton **[!UICONTROL Tous les modèles de contenu]** pour afficher tous les éléments créés précédemment sans le regroupement de dossiers.
+1. Cliquez sur le bouton **[!UICONTROL Tous les modèles de contenu]** pour afficher tous les éléments précédemment créés sans le regroupement de dossiers.
 
 1. Cliquez sur le dossier **[!UICONTROL racine]** pour afficher tous les dossiers créés.
 
@@ -74,7 +75,7 @@ Pour gérer facilement vos modèles de contenu, vous pouvez désormais utiliser 
 
    ![](assets/content-template-folder-moved.png)
 
-1. Vous pouvez maintenant accéder au dossier que vous venez de créer. Chaque nouveau modèle de contenu que vous [créez](create-content-templates.md) ici est enregistré dans le dossier actif.
+1. Accédez au dossier que vous venez de créer. Chaque nouveau modèle de contenu que vous [créez](create-content-templates.md) ici est enregistré dans le dossier actif.
 
    ![](assets/content-template-folder-create.png)
 
@@ -104,12 +105,13 @@ Sélectionnez le mode de **[!UICONTROL vue Grille]** pour afficher chaque modèl
 
 >[!NOTE]
 >
->Actuellement, les miniatures appropriées ne peuvent être générées que pour les modèles de contenu d’e-mail de type HTML.
+>Des miniatures appropriées ne peuvent être générées que pour les modèles de contenu d’e-mail de type HTML.
 
-Lorsque vous mettez à jour du contenu, vous devrez peut-être attendre quelques secondes avant que les modifications ne soient reflétées dans la miniature.
+Lorsque vous mettez à jour le contenu, attendez quelques secondes que les modifications se reflètent dans la miniature.
 
 ## Exporter des modèles de contenu vers un autre sandbox {#export}
 
 Journey Optimizer vous permet de copier un modèle de contenu d’un sandbox à un autre. Par exemple, vous pouvez copier un modèle de votre sandbox d’évaluation vers votre sandbox de production.
 
-Le processus de copie est réalisé via un **import et un export de package** entre les sandbox source et cible. Des informations détaillées sur l’export d’objets et leur import dans un sandbox cible sont disponibles dans cette section : [Copier des objets vers un autre sandbox](../configuration/copy-objects-to-sandbox.md).
+Le processus de copie est effectué via un **exportation et importation de package** entre les sandbox source et cible. Vous trouverez des informations détaillées sur la manière d’exporter des objets et de les importer dans un sandbox cible dans cette section : [Copier des objets dans un autre sandbox](../configuration/copy-objects-to-sandbox.md)
+

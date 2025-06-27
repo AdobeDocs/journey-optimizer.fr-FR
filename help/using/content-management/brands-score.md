@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 01e74670-7431-4791-b98c-12278e6d3332
-source-git-commit: 4fa50df6827e07e6f6f3c5730d1ae2a1af0d426d
+source-git-commit: a9f2eae6398f92a40accb62b1d4544bda031559c
 workflow-type: tm+mt
-source-wordcount: '290'
-ht-degree: 96%
+source-wordcount: '286'
+ht-degree: 81%
 
 ---
 
@@ -38,9 +38,9 @@ ht-degree: 96%
 >[!AVAILABILITY]
 >
 >Cette fonctionnalité est publiée en version Private Beta. Elle sera progressivement disponible pour l’ensemble de la clientèle dans les versions ultérieures.
->&#x200B;>Vous devez accepter le [contrat d’utilisation](https://www.adobe.com/fr/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"} avant de pouvoir utiliser l’Assistant IA dans Adobe Journey Optimizer. Pour plus d’informations, contactez votre représentant ou représentante Adobe.
+>>Vous devez accepter le [contrat d’utilisation](https://www.adobe.com/fr/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"} avant de pouvoir utiliser l’Assistant IA dans Adobe Journey Optimizer. Pour plus d’informations, contactez votre représentant ou représentante Adobe.
 
-La fonctionnalité d’alignement sur la marque a été conçue pour vous permettre de créer, de réviser et de gérer du contenu conforme à vos directives de marque. Elle garantit la cohérence du ton, des messages et de l’identité visuelle dans vos campagnes par e-mail, tout en servant de contrôle qualité avant la mise en ligne de votre contenu.
+La fonction d’alignement des marques vous permet de créer, de réviser et de gérer du contenu qui respecte les directives de votre marque. Elle garantit la cohérence du ton, des messages et de l’identité visuelle dans vos campagnes par e-mail, tout en servant de contrôle qualité avant la mise en ligne de votre contenu.
 
 ## Valider le contenu avec l’alignement sur la marque {#validate-content}
 
@@ -50,7 +50,7 @@ Une fois [votre marque configurée et publiée](brands.md), évaluez son score d
 
 1. Ouvrez le menu **[!UICONTROL Alignement des marques]** dans le Designer Email.
 
-   Votre contenu sera automatiquement évalué par rapport à votre marque par défaut. [Découvrez comment attribuer une marque par défaut](brands.md).
+   Votre contenu est automatiquement évalué par rapport à votre marque par défaut. [Découvrez comment attribuer une marque par défaut](brands.md).
 
    ![](assets/brand-score-1.png)
 
@@ -60,7 +60,7 @@ Une fois [votre marque configurée et publiée](brands.md), évaluez son score d
 
 1. Parcourez le **score d’alignement sur la marque** (élevé, moyen, faible) et passez en revue les commentaires détaillés.
 
-1. Cliquez sur l’icône ![Texte secondaire de l’image de plongée](assets/do-not-localize/Smock_FullScreen_18_N.svg "Plein écran") pour afficher plus d’informations sur votre score.
+1. Cliquez sur l’icône ![ Plein écran pour obtenir des informations détaillées](assets/do-not-localize/Smock_FullScreen_18_N.svg "Plein écran") pour afficher plus d’informations sur votre score.
 
    ![](assets/brand-score-3.png)
 
