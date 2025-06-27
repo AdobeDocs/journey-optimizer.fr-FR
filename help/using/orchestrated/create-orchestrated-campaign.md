@@ -7,7 +7,7 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: 13da680d-fef8-4749-9190-8ca3d77b060a
-source-git-commit: 445194fcc08efacdbf5f97a425d01229f82d11ea
+source-git-commit: 3eeb84e57af655bef669be8e9fc9ae7a024b1ab0
 workflow-type: tm+mt
 source-wordcount: '1125'
 ht-degree: 14%
@@ -50,7 +50,7 @@ Pour créer une campagne orchestrée, procédez comme suit :
 
 1. Cliquez sur **[!UICONTROL Créer]**.
 
-Votre campagne orchestrée est maintenant créée et apparaît dans la liste des campagnes orchestrées. Vous pouvez mettre à jour ces propriétés à tout moment en cliquant sur l’icône ![icône des paramètres de campagne](assets/do-not-localize/campaign-settings.svg) dans la zone de travail de la campagne.
+Votre campagne orchestrée est maintenant créée et apparaît dans la liste des campagnes orchestrées. Vous pouvez mettre à jour ces propriétés à tout moment en cliquant sur l’icône ![icône des paramètres de campagne](assets/do-not-localize/campaign-settings.svg) dans la zone de travail de campagne.
 
 ## Planifier la campagne {#schedule}
 
@@ -92,7 +92,7 @@ Pour configurer le planning de la campagne, procédez comme suit :
    * **[!UICONTROL Date]** : sélectionnez la date à laquelle la campagne doit être exécutée.
    * **[!UICONTROL Heure]** : sélectionnez l’heure spécifique à laquelle la campagne doit être exécutée.
 
-   +++
++++
 
    +++Quotidien
 
@@ -106,7 +106,7 @@ Pour configurer le planning de la campagne, procédez comme suit :
 
    * **[!UICONTROL Heure de début]** : définissez l’heure à laquelle la campagne doit s’exécuter chaque jour.
 
-   +++
++++
 
    +++Plusieurs fois par jour
 
@@ -115,7 +115,7 @@ Pour configurer le planning de la campagne, procédez comme suit :
    * **[!UICONTROL Heures sélectionnées]** : sélectionnez les heures spécifiques auxquelles la campagne doit s’exécuter et configurez sa périodicité quotidienne (à exécuter tous les jours de la semaine ou certains jours).
    * **[!UICONTROL Périodique]** : choisissez d’exécuter la campagne toutes les n minutes ou toutes les heures. Vous pouvez également définir la période au cours de laquelle les exécutions sont autorisées.
 
-   +++
++++
 
    +++Hebdomadaire
 
@@ -126,7 +126,7 @@ Pour configurer le planning de la campagne, procédez comme suit :
    * **[!UICONTROL Périodicité quotidienne]** : sélectionnez les jours de la semaine où l’exécution doit avoir lieu (par exemple, tous les lundis et jeudis).
    * **[!UICONTROL Heure de début]** : définissez l’heure à laquelle la campagne doit s’exécuter les jours sélectionnés.
 
-   +++
++++
 
    +++Mensuel
 
@@ -142,7 +142,7 @@ Pour configurer le planning de la campagne, procédez comme suit :
 
    * **[!UICONTROL Heure de début]** : définissez l’heure d’exécution de la campagne.
 
-   +++
++++
 
 1. Utilisez le paramètre **[!UICONTROL Période de validité]** pour définir des dates de début et de fin spécifiques et limiter ainsi l’exécution de la campagne à une période limitée.
 
