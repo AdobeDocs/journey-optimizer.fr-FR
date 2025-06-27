@@ -7,10 +7,10 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: d1d64125-cf00-49c2-a71d-1494ede16f61
-source-git-commit: 2604fa59a8fa6393580180afa6da264319636e68
+source-git-commit: 185e4121a939f2b46b85865278a591c43ad01f27
 workflow-type: tm+mt
-source-wordcount: '737'
-ht-degree: 28%
+source-wordcount: '733'
+ht-degree: 27%
 
 ---
 
@@ -82,9 +82,7 @@ Lors de l’ajout d’activités, des boutons d’action sont disponibles dans l
 
 Plusieurs activités de **Ciblage**, telles que **Combiner** ou **Déduplication**, vous permettent de traiter la population restante et de l’inclure dans une transition de sortie supplémentaire. Par exemple, si vous utilisez une activité **Partage**, le complémentaire est constitué de la population qui ne correspond à aucun des sous-ensembles définis précédemment. Pour utiliser cette fonctionnalité, activez l’option **[!UICONTROL Générer le complément]**.
 
-## Déplacer ou copier des activités {#move-copy}
-
-### Activités de copier-coller {#copy}
+## Activités de copier-coller {#copy}
 
 Vous pouvez copier des activités et les coller dans n’importe quelle zone de travail de campagne orchestrée. La campagne de destination peut se trouver dans un autre onglet du navigateur.
 
