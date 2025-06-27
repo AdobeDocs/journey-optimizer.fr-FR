@@ -6,10 +6,10 @@ description: Découvrez comment utiliser les canaux de communication  [!DNL Adob
 role: User
 level: Beginner
 exl-id: 5779bcee-49c0-4ffa-9b17-329ef458c96a
-source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
+source-git-commit: f365a5819575990b92ca589557d37c3f274bd4d7
 workflow-type: tm+mt
-source-wordcount: '413'
-ht-degree: 96%
+source-wordcount: '418'
+ht-degree: 79%
 
 ---
 
@@ -41,16 +41,16 @@ Sélectionnez un canal pour approfondir vos connaissances et découvrir comment 
 <div align="center"><a href="../direct-mail/get-started-direct-mail.md"><strong>Courrier</strong></a></div></td>
 </tr></table>
 
-## Expériences entrantes {#inbound-channels}
+## Applications mobiles et expériences web {#inbound-channels}
 
-Avec les expériences entrantes, les clientes et les clients peuvent initier des interactions. Il s’agit par exemple de la messagerie in-app et des expériences web, où les utilisateurs et utilisatrices peuvent interagir avec le contenu selon leurs propres conditions. Dans [!DNL Adobe Journey Optimizer], les canaux entrants pris en charge sont les suivants :
+Avec les expériences entrantes sur les applications mobiles et le Web, les clients et clientes déclenchent des interactions. Il s’agit par exemple de la messagerie in-app et des expériences web, où les utilisateurs et utilisatrices interagissent avec le contenu selon leurs propres conditions. Dans [!DNL Adobe Journey Optimizer], les canaux entrants pris en charge sont les suivants :
 
 * **In-app** : communiquez avec les utilisateurs et utilisatrices de vos applications mobiles ou web pour améliorer leur expérience.
 * **Web** : utilisez la messagerie web pour interagir avec les utilisateurs et utilisatrices qui naviguent sur votre site.
 * **Expérience basée sur du code** : mettez en œuvre des expériences personnalisées par le biais du codage pour des opportunités d’engagement uniques.
 * **Cartes de contenu** : partagez du contenu dynamique directement dans vos applications ou sites web pour informer les utilisateurs et les utilisatrices et stimuler l’engagement.
 
-Sélectionnez un canal pour approfondir vos connaissances et découvrir comment les exploiter efficacement dans votre stratégie marketing.
+Sélectionnez un canal pour approfondir vos connaissances et découvrir comment exploiter efficacement ces canaux dans votre stratégie marketing.
 
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td><a href="../in-app/get-started-in-app.md"><img alt="In-app" src="assets/do-not-localize/inapp.jpg"></a>
@@ -70,5 +70,4 @@ Dans Adobe Journey Optimizer, vous pouvez utiliser les canaux de communication
 
 * **Parcours** : créez des expériences clientèle transparentes sur plusieurs points de contact. Automatisez les interactions en fonction du comportement et des préférences des utilisateurs et des utilisatrices pour garantir des communications pertinentes envoyées au bon moment qui les guident tout au long de leur parcours avec votre marque. [Découvrez comment créer et exécuter un parcours](../building-journeys/journey-gs.md).
 
-* **Campagnes** : déployez des campagnes marketing spécifiques qui utilisent un canal donné pour atteindre des objectifs cibles. Qu’il s’agisse de promouvoir un nouveau produit ou de stimuler les ventes en période de soldes, les campagnes vous permettent de concevoir des stratégies d’envoi de messages ciblées et adaptées à votre audience. [Découvrez comment créer et exécuter une campagne](../campaigns/get-started-with-campaigns.md).
-
+* **Campagnes** : déployez des campagnes marketing spécifiques qui utilisent un canal donné pour atteindre les objectifs ciblés. Qu’il s’agisse de promouvoir un nouveau produit ou de stimuler les ventes en période de soldes, les campagnes vous permettent de concevoir des stratégies d’envoi de messages ciblées et adaptées à votre audience. [Découvrez comment créer et exécuter une campagne](../campaigns/get-started-with-campaigns.md).
