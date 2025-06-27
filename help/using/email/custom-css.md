@@ -1,26 +1,27 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Ajout d’une page CSS personnalisée au contenu de votre e-mail
+title: Ajouter du CSS personnalisé au contenu de votre e-mail
 description: Découvrez comment ajouter du code CSS personnalisé au contenu de votre e-mail directement dans le Designer d’e-mail de Journey Optimizer.
 feature: Email Design
 topic: Content Management
 role: User
 level: Intermediate
 keywords: css, éditeur, résumé, e-mail
-source-git-commit: a4055d1c4b6d75a04b71067df0c8f5499bae24d6
+exl-id: e4645bc7-fb99-4fcc-8d0e-bf8b9efc828e
+source-git-commit: 158ae930fa87dc0476273bfbb14c96e780281491
 workflow-type: tm+mt
 source-wordcount: '730'
-ht-degree: 1%
+ht-degree: 7%
 
 ---
 
-# Ajout d’une page CSS personnalisée au contenu de votre e-mail {#email-metadata}
+# Ajouter du CSS personnalisé au contenu de votre e-mail {#email-metadata}
 
 >[!CONTEXTUALHELP]
 >id="ac_edition_css"
 >title="Saisir votre propre CSS"
->abstract="Pour plus de flexibilité et de contrôle sur l’apparence de votre contenu, vous pouvez ajouter un CSS personnalisé directement dans le Designer d’e-mail pour appliquer un style avancé et spécifique."
+>abstract="Pour plus de flexibilité et de contrôle sur l’apparence de votre contenu, vous pouvez ajouter du CSS personnalisé directement dans le concepteur d’e-mail pour appliquer un style avancé et spécifique."
 
 Lors de la conception de vos e-mails, vous pouvez ajouter votre propre CSS personnalisé directement dans le [!DNL Journey Optimizer] [Designer d’e-mail](get-started-email-design.md). Cette fonctionnalité vous permet d’appliquer un style avancé et spécifique, pour une plus grande flexibilité et un meilleur contrôle de l’aspect de votre contenu.
 
