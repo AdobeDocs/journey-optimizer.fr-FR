@@ -48,4 +48,4 @@ Pour créer, modifier et supprimer des modèles de contenu, vérifiez que vous d
 
 Découvrez comment créer, modifier et utiliser des modèles de contenu dans [!DNL Journey Optimizer].
 
->[!VIDEO](https://video.tv.adobe.com/v/3413743/?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3418586/?quality=12&captions=fre_fr)
