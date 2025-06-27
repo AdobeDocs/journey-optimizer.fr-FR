@@ -10,10 +10,10 @@ role: Data Engineer
 level: Intermediate
 keywords: expression, éditeur
 exl-id: 44a8bc87-5ab0-45cb-baef-e9cd75432bde
-source-git-commit: 4c78163cfc34937888cd323b461246f5955232bb
+source-git-commit: 416f82a932f0b484d8463ff24090a7061461822f
 workflow-type: tm+mt
-source-wordcount: '451'
-ht-degree: 79%
+source-wordcount: '435'
+ht-degree: 78%
 
 ---
 
@@ -36,7 +36,6 @@ Avant de commencer, consultez les restrictions et les directives suivantes :
 * **Le nombre d’enregistrements** est limité à 5M dans les jeux de données de production et à 1M dans les jeux de données de sandbox de développement.
 * **L’étiquetage et l’application de l’utilisation des données** n’est pas appliquée pour l’instant pour les jeux de données activés pour la recherche.
 * **Les jeux de données activés pour la recherche et utilisés dans la personnalisation ne sont pas protégés contre la suppression**. Il vous appartient de noter les jeux de données utilisés pour la personnalisation afin de vous assurer qu’ils ne seront pas supprimés ou retirés.
-* **L’étiquetage et l’application de l’utilisation des données** n’est pas appliquée pour l’instant pour les jeux de données activés pour la recherche.
 
 ## Activer un jeu de données pour la recherche de données {#enable}
 
