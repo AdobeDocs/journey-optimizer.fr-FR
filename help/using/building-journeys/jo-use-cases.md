@@ -8,7 +8,7 @@ role: User, Data Engineer
 level: Intermediate, Experienced
 keywords: cas d’utilisation, multicanal, parcours, événements
 exl-id: 28f3f06b-3576-43a7-9c1b-8e616390907b
-source-git-commit: 4a14c76aeceba624cd252890e37ccf3e42049597
+source-git-commit: 0a96368f2aefa1ffa6e12d08d679b2d360701127
 workflow-type: tm+mt
 source-wordcount: '266'
 ht-degree: 15%
@@ -47,7 +47,7 @@ Utilisez cette bibliothèque comme point de référence lors de la conception de
   <td>
     <div>
     <a href="../data/datasets-query-examples.md">
-    <img alt="exemples de requêtes" src="../assets/do-not-localize/icon-data.svg" width="35px" /></a> 
+    <img alt="exemples de requêtes" src="../assets/do-not-localize/icon-data.svg"/></a> 
     <br>Pour créer vos cas d’utilisation, vous devez interroger les jeux de données Adobe Journey Optimizer, tels que les jeux de données système pour l’ingestion d’événements d’expérience de suivi, le jeu de données pour l’ingestion d’événements d’étape dans un parcours, le jeu de données pour l’ingestion de propositions d’offres aux utilisateurs, etc.
     </div>
       <div>
