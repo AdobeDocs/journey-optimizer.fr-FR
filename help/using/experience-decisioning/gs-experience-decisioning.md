@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 4c57dbf9-b2a4-42da-8aa3-5a1b3a475a32
-source-git-commit: 4839c3c70dcc524da5f3cc394d5573ce5755ea64
-workflow-type: ht
-source-wordcount: '537'
-ht-degree: 100%
+source-git-commit: dbb1a4d649f29b763121c7856cecca16dcd2864f
+workflow-type: tm+mt
+source-wordcount: '516'
+ht-degree: 95%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 100%
 
 La prise de décision simplifie la personnalisation en offrant un catalogue centralisé d’offres marketing connues sous le nom d’« éléments de décision » et un moteur de décision sophistiqué. Ce moteur tire parti des règles et des critères de classement pour sélectionner et présenter les éléments de décision les plus pertinents à chaque personne.
 
-Ces éléments de décision sont intégrés de manière transparente à un large éventail de surfaces entrantes grâce au [nouveau canal d’expérience basé sur le code](https://experienceleague.adobe.com/fr/docs/journey-optimizer/using/code-based-experience/get-started-code-based), désormais accessible dans les campagnes Journey Optimizer.
+Ces éléments de décision sont intégrés de manière transparente à un large éventail de surfaces entrantes par le biais du [nouveau canal d’expérience basé sur le code](../code-based/get-started-code-based.md), accessible dans les campagnes Journey Optimizer.
 
 >[!IMPORTANT]
 >
@@ -87,4 +87,3 @@ Les principales étapes pour utiliser la prise de décision sont les suivantes 
    ➡️ [Découvrez comment utiliser les politiques de décision](create-decision.md)
 ➡️ Pour diffuser l’offre par l’intermédiaire du canal d’expérience basé sur du code, suivez les étapes d’implémentation de [cette section](../code-based/code-based-implementation-samples.md).
 
-Pour consulter un cas d’utilisation complet montrant comment utiliser les décisions dans une expérience basée sur du code, accédez à [cette section](experience-decisioning-uc.md).

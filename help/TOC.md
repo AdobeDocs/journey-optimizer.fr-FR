@@ -5,10 +5,10 @@ user-guide-title: Guide de Journey Optimizer
 user-guide-description: Utilisez Journey Optimizer pour créer et proposer aux clients des expériences connectées, contextuelles et personnalisées
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 3078d9d95327e58e98366d9d8f0d0dfd1c571bec
+source-git-commit: e1cbaaf30f376c1bb32a16dcc8a09686e0b9e231
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '2474'
+ht-degree: 97%
 
 ---
 
@@ -167,15 +167,15 @@ ht-degree: 0%
             + [upper](using/building-journeys/functions/functionupper.md)
             + [uuid](using/building-journeys/functions/functionuuid.md)
    + Cas d’utilisation {#journey-use-cases}
-      + Cas d’utilisation professionnels {#business-use-cases}
-         + [Envoi de messages multi-canal](using/building-journeys/journeys-uc.md)
-         + [Envoi de messages à l’aide de Campaign v7/v8](using/building-journeys/ajo-ac.md)
-         + [Envoyer un message aux abonnés](using/building-journeys/message-to-subscribers-uc.md)
-      + Cas d’utilisation techniques {#technical-use-cases}
-         + [Transmettre des collections de manière dynamique à l’aide d’actions personnalisées](using/building-journeys/collections.md)
-         + [Accélérer les diffusions](using/building-journeys/ramp-up-deliveries-uc.md)
-         + [Limiter le débit avec des sources de données externes et des actions personnalisées](using/building-journeys/limit-throughput.md)
-         + [Utiliser des actions personnalisées pour écrire des événements de parcours dans Experience Platform](using/building-journeys/custom-action-aep.md)
+      + [Apprendre avec des cas d’utilisation](using/building-journeys/jo-use-cases.md)
+      + [Recherche d’événement d’expérience](using/building-journeys/exp-event-lookup.md)
+      + [Envoi de messages multi-canal](using/building-journeys/journeys-uc.md)
+      + [Envoi de messages à l’aide de Campaign v7/v8](using/building-journeys/ajo-ac.md)
+      + [Envoyer un message aux abonnés](using/building-journeys/message-to-subscribers-uc.md)
+      + [Transmettre des collections de manière dynamique à l’aide d’actions personnalisées](using/building-journeys/collections.md)
+      + [Accélérer les diffusions](using/building-journeys/ramp-up-deliveries-uc.md)
+      + [Limiter le débit avec des sources de données externes et des actions personnalisées](using/building-journeys/limit-throughput.md)
+      + [Utiliser des actions personnalisées pour écrire des événements de parcours dans Experience Platform](using/building-journeys/custom-action-aep.md)
 + Campagnes orchestrées {#orchestrated-campaigns}
    + [Commencer les campagnes orchestrées](using/orchestrated/gs-orchestrated-campaigns.md)
    + [Étapes de configuration](using/orchestrated/configuration-steps.md)

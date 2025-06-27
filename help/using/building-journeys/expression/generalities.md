@@ -8,16 +8,16 @@ role: Data Engineer, Architect
 level: Experienced
 keywords: syntaxe, éditeur, parcours
 exl-id: c9434b28-2750-4a53-985e-c4a3f940472c
-source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
-workflow-type: ht
-source-wordcount: '262'
-ht-degree: 100%
+source-git-commit: dbb1a4d649f29b763121c7856cecca16dcd2864f
+workflow-type: tm+mt
+source-wordcount: '249'
+ht-degree: 95%
 
 ---
 
 # Syntaxe de l’éditeur d’expression avancé {#syntax}
 
-Les principtes de base de la syntaxe lors de l’utilisation de l’[éditeur d’expression avancé](expressionadvanced.md) sont répertoriés ci-dessous. Des exemples d’utilisation de l’éditeur d’expression avancé sont disponibles sur [cette page](advanced-editor-use-cases.md).
+Les notions de base de la syntaxe lors de l’utilisation de l’[éditeur d’expression avancé](expressionadvanced.md) sont répertoriées ci-dessous. <!-- Samples of use of the advanced expression editor are available on [this page](advanced-editor-use-cases.md).-->
 
 ## Parenthèses et priorité des expressions {#parentheses-and-expression-priority}
 

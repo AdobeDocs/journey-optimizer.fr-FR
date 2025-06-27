@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Experienced
 exl-id: 008d42c7-a523-4857-b34e-0e8dd1dfa507
-source-git-commit: a9dc2998097c45bd6235af3f5c08bc7077dc3f2f
-workflow-type: ht
-source-wordcount: '287'
-ht-degree: 100%
+source-git-commit: dbb1a4d649f29b763121c7856cecca16dcd2864f
+workflow-type: tm+mt
+source-wordcount: '285'
+ht-degree: 79%
 
 ---
 
@@ -31,12 +31,12 @@ Actuellement, [!DNL Journey Optimizer] propose les deux solutions principales pr
 
 Notre framework de décision de nouvelle génération est conçu pour unifier les workflows Journey Optimizer existants et poser des bases pour la gestion de catalogues de contenu supplémentaires. Offres de prise de décision :
 
-* Gestion des catalogues d’éléments basés sur des schémas : augmentez la flexibilité en associant des métadonnées personnalisées à chaque offre.
-* Règles de collecte flexibles : regroupez facilement les offres en fonction de différents critères en vue d’une évaluation ultérieure.
-* Politique de décision et stratégie de sélection mises à jour : permet la réutilisation des composants de décision.
-* Fonctionnalités d’expérimentation : testez la logique de décision en la comparant à d’autres composants de contenu pour mesurer ses performances.
+* Gestion de catalogues d’articles basée sur des schémas : augmentez la flexibilité en associant des métadonnées personnalisées à chaque offre.
+* Règles de collecte flexibles : regroupez facilement les offres pour une évaluation ultérieure en fonction de différents critères
+* Mise à jour de la configuration de la politique de décision et de la stratégie de sélection : autoriser la réutilisation des composants de décision
+* Fonctionnalités d’expérimentation : testez la logique de décision par rapport aux autres composants de contenu pour mesurer les performances
 
-Pour l’instant, les Décisions pour les expériences sont prises en charge dans le canal Expérience basée sur du code.
+Experience Decisioning est pris en charge dans le canal d’expérience basé sur le code.
 
 ➡️[Commencer la prise de décisions](../experience-decisioning/gs-experience-decisioning.md)
 

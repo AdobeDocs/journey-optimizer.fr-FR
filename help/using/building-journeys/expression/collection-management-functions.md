@@ -8,18 +8,21 @@ role: Data Engineer, Architect
 level: Experienced
 keywords: requête, collections, fonctions, payload, parcours
 exl-id: 09b38179-9ace-4921-985b-ddd17eb64681
-source-git-commit: e539d694e8fb91b6a8c7ba7ff5a2bb0905651f81
-workflow-type: ht
-source-wordcount: '739'
-ht-degree: 100%
+source-git-commit: ca2e30ddb5e80783b57b9f3e0d07ff8d0bc0bbdb
+workflow-type: tm+mt
+source-wordcount: '513'
+ht-degree: 75%
 
 ---
 
 # Fonctions de gestion des collections {#collection-management-functions}
 
-Le langage d’expression s’accompagne également d’un ensemble de fonctions permettant d’interroger les collections.
 
-Ces fonctions sont expliquées ci-dessous. Dans les exemples suivants, nous allons utiliser la payload d’événement contenant une collection :
+## À propos des fonctions de collecte de requêtes
+
+Le langage d’expression introduit également un ensemble de fonctions pour interroger des collections. Ces fonctions sont expliquées ci-dessous.
+
+Dans les exemples suivants, nous allons utiliser la payload d’événement contenant une collection :
 
 ```json
                 { 
@@ -61,7 +64,7 @@ Ces fonctions sont expliquées ci-dessous. Dans les exemples suivants, nous allo
 }
 ```
 
-**La fonction « all(`<condition>`) »**
+## La fonction all(`<condition>`)
 
 La fonction **[!UICONTROL all]** permet de définir un filtre sur une collection donnée en utilisant une expression booléenne.
 
@@ -74,13 +77,11 @@ Par exemple, parmi tous les personnes utilisant l’application, vous pouvez ext
 Dans une activité Condition de source de données, vous pouvez vérifier si le résultat de la fonction **[!UICONTROL all]** est nul ou non. Vous pouvez également combiner cette fonction **[!UICONTROL all]** à d’autres fonctions, telles que **[!UICONTROL count]**. Pour plus d’informations, voir [Activité Condition de source de données](../condition-activity.md#data_source_condition).
 
 
-## Exemples
-
 >[!CAUTION]
 >
->L’utilisation d’événements d’expérience dans des expressions/conditions de parcours est prise en charge, mais non recommandée. Si votre cas d’usage nécessite l’utilisation d’événements d’expérience, envisagez des méthodes alternatives telles que les [attributs calculés](../../audience/computed-attributes.md) ou la création d’un segment basé sur ces événements, que vous pourrez ensuite intégrer dans des [`inAudience`expressions](../../building-journeys/functions/functioninaudience.md).
+>L’utilisation d’événements d’expérience dans des expressions/conditions de parcours n’est pas prise en charge. Si votre cas d’utilisation nécessite l’utilisation d’événements d’expérience, envisagez d’autres méthodes. [En savoir plus](../exp-event-lookup.md)
 
-**Exemple 1 :**
+### Exemple 1
 
 Nous voulons vérifier si un utilisateur a installé une version spécifique d’une application. Pour ce faire, nous récupérons tous les jetons de notification push associés aux applications mobiles dont la version est égale à 1.0. Ensuite, nous exécutons une condition avec la fonction **[!UICONTROL count]** pour vérifier que la liste de jetons renvoyée contient au moins un élément. 
 
@@ -90,7 +91,7 @@ count(@event{LobbyBeacon._experience.campaign.message.profile.pushNotificationTo
 
 Le résultat est true.
 
-**Exemple 2 :**
+### Exemple 2
 
 Ici, nous utilisons la fonction **[!UICONTROL count]** pour vérifier s’il existe des jetons de notification push dans la collection.
 
@@ -98,34 +99,8 @@ Ici, nous utilisons la fonction **[!UICONTROL count]** pour vérifier s’il exi
 count(@event{LobbyBeacon._experience.campaign.message.profile.pushNotificationTokens.all().token}) > 0
 ```
 
-Le résultat sera true.
 
-<!--Alternatively, you can check if there is no token in the collection:
-
-   ```json
-   count(@event{LobbyBeacon._experience.campaign.message.profile.pushNotificationTokens.all().token}) == 0
-   ```
-
-The result will be false.
-
-Here we use the count function in a condition to count the number of push notification tokens in the event.
-
-`count(@event{LobbyBeacon._experience.campaign.message.profile.pushNotificationTokens.all().token})`
-
-The result is true.
-
-Note that when the condition in the **all()** function is empty, the filter will return all the elements in the list. Hence, the expression above is equivalent to:
-
-`count(@event{LobbyBeacon._experience.campaign.message.profile.pushNotificationTokens.application.name})`
-
-In both cases, the result of the expression is **3**.
-
-A query of experience events recorded on the Adobe Experience Platform may or may not include the current event that triggered the current Journey. This will depend on the relative processing time with which [!DNL Journey Orchestration] sees an event and started evaluating conditions, versus the time it takes for that event to be ingested into the Adobe Experience Platform. For example, when using the .all() syntax to query experience events from the Adobe Experience Platform, we recommend enforcing the exclusion of the current event (by requiring an
-earlier timestamp) in order to only consider prior events.-->
-
->[!NOTE]
->
->Lorsque la condition de filtrage de la fonction **all()** est vide, le filtre renvoie tous les éléments de la liste. **Cependant, pour comptabiliser le nombre d’éléments d’une collection, la fonction all n’est pas obligatoire.**
+Le résultat est true.
 
 
 ```json
@@ -134,53 +109,17 @@ count(@event{LobbyBeacon._experience.campaign.message.profile.pushNotificationTo
 
 Le résultat de l’expression est **3**.
 
-**Exemple 3 :**
-
-Dans cet exemple, nous allons vérifier si un individu n’a reçu aucune communication au cours des dernières 24 heures. Nous allons filtrer la collection d’événements d’expérience récupérés à partir de la source de données Experience Platform, en utilisant deux expressions basées sur deux éléments de la collection. En particulier, l’horodatage de l’événement est comparé à la valeur dateTime renvoyée par la fonction **[!UICONTROL nowWithDelta]**.
-
-```json
-count(#{ExperiencePlatform.MarltonExperience.experienceevent.all(
-   currentDataPackField.directMarketing.sends.value > 0 and
-   currentDataPackField.timestamp > nowWithDelta(-1, "days")).timestamp}) == 0
-```
-
-Le résultat sera true si aucun événement d’expérience ne correspond aux deux conditions.
-
-**Exemple 4 :**
-
-Notre objectif ici est de vérifier si un individu a lancé au moins une application au cours des 7 derniers jours afin, par exemple, de déclencher une notification push l’invitant à démarrer un tutoriel. 
-
-```json
-count(
- #{ExperiencePlatform.AnalyticsData.experienceevent.all(
- nowWithDelta(-7,"days") <= currentDataPackField.timestamp
- and currentDataPackField.application.firstLaunches.value > 0
-)._id}) > 0
-```
-
-<!--**"All + Count" example 4:** here we use the count function in a boolean expression to see if there is push notification tokens in the collection.
-
-`count(@event{LobbyBeacon._experience.campaign.message.profile.pushNotificationTokens.all().application.name}) > 0`
-
-The result will be:
-
-`true`
-
-Alternatively, you can check if there is NO token in the collection:
-
-`count(@event{LobbyBeacon._experience.campaign.message.profile.pushNotificationTokens.all().application.name}) =0`
-
-The result will be:
-
-`false`-->
 
 >[!NOTE]
 >
->**[!UICONTROL currentEventField]** n’est disponible que lors de la manipulation de collections d’événements, **[!UICONTROL currentDataPackField]** lors de la manipulation de collections de sources de données et **[!UICONTROL currentActionField]** lors de la manipulation de collections de réponses d’actions personnalisées.
+>* Lorsque la condition de filtrage de la fonction **all()** est vide, le filtre renvoie tous les éléments de la liste. **Toutefois, pour compter le nombre d’éléments d’une collection, la fonction all n’est pas obligatoire.
 >
->Lors du traitement de collections avec **[!UICONTROL all]** (tout), **[!UICONTROL first]** (premier) et **[!UICONTROL last]** (dernier), nous exécutons une boucle sur chaque élément de la collection un par un. **[!UICONTROL currentEventField]**, **currentDataPackField** et **[!UICONTROL currentActionField]** correspondent à l’élément mis en boucle.
+>* `currentEventField` n’est disponible que lors de la manipulation de collections d’événements, `currentDataPackField` lors de la manipulation de collections de sources de données et `currentActionField` lors de la manipulation de collections de réponses d’actions personnalisées.
+>
+>  Lors du traitement des collections avec `all`, `first` et `last`, nous effectuons une boucle sur chaque élément de la collection, un par un. `currentEventField`, `currentDataPackField` et `currentActionField` correspondent à l&#39;élément en boucle.
 
-**Les fonctions « first(`<condition>`) » et « last(`<condition>`) »**
+
+## Fonctions first(`<condition>`) et last(`<condition>`)
 
 Les fonctions **[!UICONTROL first]** et **[!UICONTROL last]** activent également la définition d’un filtre sur la collection, tout en renvoyant le premier/dernier élément de la liste qui correspond au filtre.
 
@@ -188,25 +127,27 @@ _`<listExpression>.first(<condition>)`_
 
 _`<listExpression>.last(<condition>)`_
 
-**Exemple 1 :**
+### Exemple 1
 
 Cette expression renvoie le premier jeton de notification push associé aux applications mobiles dont la version est égale à 1.0. 
 
+
 ```json
-@event{LobbyBeacon._experience.campaign.message.profile.pushNotificationTokens.first(currentEventField.application.version == "1.0").token
+@event{LobbyBeacon._experience.campaign.message.profile.pushNotificationTokens.first(currentEventField.application.version == "1.0").token}
 ```
 
-Le résultat est « token_1 ».
+Le résultat est `token_1`.
 
-**Exemple 2 :**
+### Exemple 2
 
 Cette expression renvoie le dernier jeton de notification push associé aux applications mobiles dont la version est égale à 1.0. 
+
 
 ```json
 @event{LobbyBeacon._experience.campaign.message.profile.pushNotificationTokens.last(currentEventField.application.version == "1.0").token}
 ```
 
-Le résultat est « token_2 ».
+Le résultat est `token_2`.
 
 >[!NOTE]
 >
@@ -215,44 +156,22 @@ Le résultat est « token_2 ».
 >* La fonction **[!UICONTROL first]** renvoie l’événement le plus récent.
 >* La fonction **[!UICONTROL last]** renvoie l’événement le plus ancien.
 
-**Exemple 3 :**
 
-Nous vérifions si la valeur du premier événement Adobe Analytics (le plus récent), dont l’ID DMA a une valeur non nulle, est égale à 602.
 
-```json
-#{ExperiencePlatform.AnalyticsProd_EvarsProps.experienceevent.first(
-currentDataPackField.placeContext.geo.dmaID > 0).placeContext.geo.dmaID} == 602
-```
-
-**La fonction « at(`<index>`) »**
+## La fonction at(`<index>`)
 
 La fonction **[!UICONTROL at]** vous permet de référencer un élément spécifique d’une collection conformément à un index.
 L’index 0 est le premier de la collection.
 
 _`<listExpression>`.at(`<index>`)_
 
-**Exemple :**
+### Exemple
 
 Cette expression renvoie le deuxième jeton de notification push de la liste.
 
-```json
-@event{LobbyBeacon._experience.campaign.message.profile.pushNotificationTokens.at(1).token}
-```
-
-Le résultat est « token_2 ».
-
-**Autres exemples**
-
-Cette expression renvoie les noms des produits en fonction de la valeur SKU. La liste de ces produits est incluse dans la liste des événements, la condition étant l’identifiant d’événement.
 
 ```json
-#{ExperiencePlatform.ExperienceEventFieldGroup.experienceevent.all(currentDataPackField._aepgdcdevenablement2.purchase_event.receipt_nbr == "10-337-4016"). 
-_aepgdcdevenablement2.purchase_event.productListItems.all(currentDataPackField.SKU == "AB17 1234 1775 19DT B4DR 8HDK 762").name}
+@event{LobbyBeacon._experience.campaign.message.profile.pushNotificationTokens.at(1).token}`
 ```
 
-Cette expression récupère le nom du dernier produit de la liste de produits d’un événement de commerce dont le type d’événement est « productListAdds » et le prix total est supérieur ou égal à 150.
-
-```json
- #{ExperiencePlatform.ExperienceEventFieldGroup.experienceevent.last(
-currentDataPackField.eventType == "commerce.productListAdds").productListItems.last(currentDataPackField.priceTotal >= 150).name}
-```
+Le résultat est `token_2`.
