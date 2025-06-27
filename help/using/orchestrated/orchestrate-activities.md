@@ -7,7 +7,7 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: d1d64125-cf00-49c2-a71d-1494ede16f61
-source-git-commit: ecb62dfc6a04754cb5d549615047cfb8e5e8f518
+source-git-commit: 2604fa59a8fa6393580180afa6da264319636e68
 workflow-type: tm+mt
 source-wordcount: '737'
 ht-degree: 28%
@@ -93,7 +93,6 @@ Vous pouvez copier des activités et les coller dans n’importe quelle zone de 
 
 | Copier une activité | Copie de plusieurs activités |
 |  ---  |  ---  |
-|  |
 | ![](assets/orchestrated-copy-1.png){width="200" align="center" zoomable="yes"} | ![](assets/orchestrated-copy-2.png){width="200" align="center" zoomable="yes"} |
 
 Pour coller les activités, cliquez sur le bouton **+** sur une transition et sélectionnez « Coller x activité ».
