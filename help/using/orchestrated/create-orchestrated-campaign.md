@@ -2,15 +2,15 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Création et planification de campagnes orchestrées avec Journey Optimizer
-description: Découvrez comment créer une campagne orchestrée avec Adobe Journey Optimizer
+description: Découvrez comment créer et planifier une campagne orchestrée avec Adobe Journey Optimizer
 badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: 13da680d-fef8-4749-9190-8ca3d77b060a
-source-git-commit: f8fa52c89659918ef3837f88ddb03c219239f4ee
+source-git-commit: f64fa51fa753fe62eecb6199946615f4d5c4f767
 workflow-type: tm+mt
-source-wordcount: '342'
-ht-degree: 18%
+source-wordcount: '910'
+ht-degree: 10%
 
 ---
 
@@ -34,115 +34,105 @@ ht-degree: 18%
 
 <br/>
 
->[!BEGINSHADEBOX]
+Créez une campagne orchestrée dans [!DNLAadobe Journey Optimizer] et configurez son planning d’exécution pour contrôler le moment de son lancement et sa fréquence d’exécution. Choisissez de lancer la campagne immédiatement, à une date et une heure spécifiques ou de manière récurrente à l’aide d’options de planification flexibles telles que les fréquences quotidiennes, hebdomadaires ou mensuelles.
 
-Documentation en cours
-
->[!ENDSHADEBOX]
-
-## Créer la campagne {#create}
+## Créer et planifier la campagne {#create}
 
 Pour créer une campagne orchestrée, procédez comme suit :
 
-1. Accédez au menu **[!UICONTROL Campagnes]**, sélectionnez l’onglet **[!UICONTROL Orchestration]** et sélectionnez **[!UICONTROL Créer une campagne]**.
+1. Dans le menu **[!UICONTROL Campagnes]**, sélectionnez l’onglet **[!UICONTROL Orchestration]**, puis cliquez sur **[!UICONTROL Créer une campagne]**.
 
    ![](assets/inventory-create.png)
 
-1. Saisissez le nom de la campagne orchestrée. En outre, nous vous recommandons vivement d’ajouter une description dans le champ dédié.
+1. Saisissez un nom et une description pour la campagne.
 
-1. (facultatif) Utilisez le champ **Balises** pour affecter des balises unifiées Adobe Experience Platform à votre campagne orchestrée. Vous pouvez ainsi facilement les classer et améliorer la recherche à partir de la liste des campagnes. [Découvrez comment utiliser les balises](../start/search-filter-categorize.md#tags).
+1. *(facultatif)* utilisez le champ **[!UICONTROL Balises]** pour affecter des balises unifiées Adobe Experience Platform à votre campagne. Vous pouvez ainsi facilement les classer et améliorer la recherche à partir de la liste des campagnes orchestrées. [Découvrez comment utiliser les balises](../start/search-filter-categorize.md#tags).
 
-1. Cliquez sur le bouton **[!UICONTROL Créer]** pour confirmer.
+1. Cliquez sur **[!UICONTROL Créer]**.
 
-
-Votre campagne orchestrée est maintenant créée et disponible dans la liste des campagnes. Vous pouvez modifier ces propriétés à tout moment en cliquant sur l’icône ![icône des paramètres de campagne](assets/do-not-localize/campaign-settings.svg) dans la zone de travail de la campagne.
-
+Votre campagne orchestrée est maintenant créée et apparaît dans la liste des campagnes orchestrées. Vous pouvez mettre à jour ces propriétés à tout moment en cliquant sur l’icône ![icône des paramètres de campagne](assets/do-not-localize/campaign-settings.svg) dans la zone de travail de la campagne.
 
 ## Planifier la campagne {#schedule}
 
-Par défaut, les campagnes orchestrées démarrent une fois qu’elles sont activées manuellement et se terminent dès que leurs activités ont été exécutées.
+Par défaut, les campagnes orchestrées démarrent lorsqu’elles sont activées manuellement et se terminent lorsque leurs activités associées ont été exécutées.
 
-Si vous ne souhaitez pas exécuter une campagne orchestrée juste après son activation, vous pouvez spécifier la date et l’heure de son exécution. Vous pouvez également exécuter la campagne à des fréquences régulières en fonction de divers critères.
+Si vous préférez retarder l’exécution ou exécuter la campagne de manière récurrente, vous pouvez définir un planning pour la campagne.
 
-Pour configurer le planning de la campagne, ouvrez la campagne orchestrée, puis cliquez sur le bouton **[!UICONTROL Dès que possible]**.
+Pour configurer le planning de la campagne, procédez comme suit :
 
-![](assets/create-schedule.png)
+1. Ouvrez la campagne et cliquez sur le bouton **[!UICONTROL Dès que possible]**.
 
-<!--In the Execution frequency field, select 
+   ![](assets/create-schedule.png)
 
-time zone
+1. Sélectionnez une fréquence d&#39;exécution pour la campagne, puis configurez les options disponibles. Les paramètres varient en fonction de la fréquence sélectionnée :
 
-daily, weekly, monthly
-several times a day based on specific hours or periodically
+   +++Une fois
 
-recurring frequencies (all except as soon and once)
-preview launch times
-validity period
+   Exécuter la campagne une seule fois à une date et une heure spécifiées.
+
+   * **[!UICONTROL Date]** : sélectionnez la date à laquelle la campagne doit être exécutée.
+   * **[!UICONTROL Heure]** : sélectionnez l’heure spécifique à laquelle la campagne doit être exécutée.
+
++++
+
+   +++Quotidien
+
+   Exécuter la campagne tous les jours ou les jours sélectionnés.
+
+   * **[!UICONTROL Périodicité quotidienne]** : sélectionnez la fréquence d’exécution de la campagne :
+      * **[!UICONTROL Tous les jours]** : exécute la campagne tous les jours de la semaine, y compris les week-ends.
+      * **[!UICONTROL En semaine]** : exécute la campagne uniquement du lundi au vendredi.
+      * **[!UICONTROL Sur une période spécifique]** : exécute la campagne quotidiennement au cours d’une période définie (par exemple, du 1er au 15 juillet). La campagne ne s’exécutera pas en dehors de cette plage.
+      * **[!UICONTROL Jours sélectionnés de la semaine]** : exécute la campagne uniquement les jours spécifiés de la semaine (par exemple, lundi, mercredi, vendredi).
+
+   * **[!UICONTROL Heure de début]** : définissez l’heure à laquelle la campagne doit s’exécuter chaque jour.
+
++++
+
+   +++Plusieurs fois par jour
+
+   Exécuter la campagne plusieurs fois au cours de la même journée. Vous pouvez choisir des heures spécifiques ou définir une fréquence périodique.
+
+   * **[!UICONTROL Heures sélectionnées]** : sélectionnez les heures spécifiques auxquelles la campagne doit s’exécuter et configurez sa périodicité quotidienne (à exécuter tous les jours de la semaine ou certains jours).
+   * **[!UICONTROL Périodique]** : choisissez d’exécuter la campagne toutes les n minutes ou toutes les heures. Vous pouvez également définir la période au cours de laquelle les exécutions sont autorisées.
+
++++
+
+   +++Hebdomadaire
+
+   Exécutez la campagne une fois par semaine, avec des options pour des jours spécifiques.
+
+   * **[!UICONTROL Fréquence]** : choisissez la fréquence d’exécution de la campagne (par exemple, toutes les semaines, toutes les 2 semaines).
+   * **[!UICONTROL Date de début]** : sélectionnez la date à laquelle la périodicité doit commencer.
+   * **[!UICONTROL Périodicité quotidienne]** : sélectionnez les jours de la semaine où l’exécution doit avoir lieu (par exemple, tous les lundis et jeudis).
+   * **[!UICONTROL Heure de début]** : définissez l’heure à laquelle la campagne doit s’exécuter les jours sélectionnés.
+
++++
+
+   +++Mensuel
+
+   Exécutez la campagne sur une base mensuelle, avec des options pour des jours spécifiques.
+
+   * **[!UICONTROL Récurrence mensuelle]** : indiquez si la campagne s’exécute tous les mois ou uniquement pendant des mois spécifiques.
+   * **[!UICONTROL Récurrence quotidienne]** :
+      * **[!UICONTROL Tous les jours]** : exécute la campagne tous les jours du mois, y compris les week-ends.
+      * **[!UICONTROL Dernier jour du mois]** : exécute la campagne uniquement le dernier jour calendaire de chaque mois (par exemple, le 31 janvier et les 28 et 29 février).
+      * **[!UICONTROL Jour spécifique du mois (par exemple, le 15)]** : exécute la campagne un jour spécifié (par exemple, le 15 de chaque mois).
+      * **[!UICONTROL Premier/dernier ou énième jour de la semaine]** (par exemple, premier lundi) :      Exécute la campagne un jour de la semaine spécifié (par exemple, le 15 de chaque semaine).
+      * **[!UICONTROL Jours sélectionnés de la semaine]** : exécute la campagne un jour spécifié.
+
+   * **[!UICONTROL Heure de début]** : définissez l’heure d’exécution de la campagne.
+
++++
+
+1. Utilisez le paramètre **[!UICONTROL Période de validité]** pour définir des dates de début et de fin spécifiques et limiter ainsi l’exécution de la campagne à une période limitée.
+
+1. Pour les plannings de périodicité, cliquez sur le bouton **[!UICONTROL Prévisualiser les heures de lancement]** pour prévisualiser les dates et heures exactes d’exécution à venir en fonction de la configuration actuelle. Cela permet de valider le planning avant l’activation et de s’assurer que la campagne s’exécutera comme prévu.
 
 >[!NOTE]
 >
->When scheduling campaigns in [!DNL Adobe Journey Optimizer], ensure your start date/time aligns with the desired first delivery. For recurring campaigns, if the initial scheduled time has already passed, the campaigns will roll over to the next available time slot according to their recurrence rules.
+>Lors de la planification de campagnes dans [!DNL Adobe Journey Optimizer], assurez-vous que la date/l’heure de début correspond à la première diffusion souhaitée. Pour les campagnes récurrentes, si l’heure planifiée initiale est déjà dépassée, les campagnes sont reportées au prochain créneau horaire disponible en fonction de leurs règles de périodicité.
 
-## Work with orchestrated campaign templates {#campaign-templates}
+## Étapes suivantes {#next}
 
->[!CONTEXTUALHELP]
->id="ajo_workflow_template_for_campaign"
->title="Orchestrated campaign templates"
->abstract="Orchestrated campaign templates contain pre-configured settings and activities which can be reused for creating new orchestrated campaign."
-
->[!CONTEXTUALHELP]
->id="ajo_workflow_template_creation_properties"
->title="Orchestrated campaign properties"
->abstract="Orchestrated campaign templates contain pre-configured settings and activities which can be reused for creating new orchestrated campaigns. In this screen, enter the label of the orchestrated campaign template and configure its settings such as its internal name, folder and execution folders, timezone, and supervisor group."
-
-Orchestrated campaign templates contain pre-configured settings and activities which can be reused for creating new orchestrated campaigns. You can select the template of your orchestrated campaign from the orchestrated campaign properties, when creating an orchestrated campaign. An empty template is provided by default.
-
-You can create a template from an existing orchestrated campaign, or create a new template from scratch. Both methods are detailed below.
-
->[!BEGINTABS]
-
->[!TAB Create a template from an existing orchestrated campaign]
-
-To create an orchestrated campaign template from an existing orchestrated campaign, follow these steps:
-
-1. Open to the **Campaign** menu and browse to the orchestrated campaign to save as a template.
-1. Click the three dots on the right of the name of the orchestrated campaign, and choose **Copy as template**.
-1. In the popup window, confirm the template creation.
-1. In the orchestrated campaign template canvas, check, add, and configure the activities as needed.
-1. Browse to the settings, from the **Settings** button, to change the name of the orchestrated campaign template, and enter a description.
-1. Select the **folder** and **execution folder** of the template. The folder is the location where the orchestrated campaign template is saved. The execution folder is the folder where orchestrated campaigns created based on this template are saved.
-1. Save your changes. 
-
-The orchestrated campaign template is now available in the template list. You can create an orchestrated campaign based on this template. This orchestrated campaign will be pre-configured with the settings and activities defined in the template.
-
-
->[!TAB Create a template from scratch]
-
-
-To create an orchestrated campaign template from scratch, follow these steps:
-
-1. Open to the **Campaign** menu and browse to the **Templates** tab. You can see the list of available orchestrated campaign templates.
-1. Click the **[!UICONTROL Create template]** button in the upper-right corner of the screen.
-1. Enter the label and open the additional options to enter a description of your orchestrated campaign template.
-1. Select the folder and execution folder of the template. The folder is the location where the orchestrated campaign template is saved. The execution folder is the folder where orchestrated campaigns created based on this template are saved.
-1. Click the **Create** button to confirm your settings.
-1. In the orchestrated campaign template canvas, add and configure the activities as needed.
-
-     ![](assets/wf-template-activities.png){zoomable="yes"}
-
-1. Save your changes. 
-
-The orchestrated campaign template is now available in the template list. You can create an orchestrated campaign based on this template. This orchestrated campaign will be pre-configured with the settings and activities defined in the template.
-
->[!ENDTABS]
-
-
-
-
-
-
-## Next steps {#next}
-
-Once your campaign configuration and content are ready, you can review and activate it. [Learn more](review-activate-campaign.md)
-
--->
+Une fois les paramètres et le planning de votre campagne configurés, vous pouvez commencer à orchestrer les différentes tâches qu’elle effectuera. [Découvrez comment orchestrer des activités de campagne](../orchestrated/orchestrate-activities.md)
