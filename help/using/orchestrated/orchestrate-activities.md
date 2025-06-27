@@ -7,10 +7,10 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: d1d64125-cf00-49c2-a71d-1494ede16f61
-source-git-commit: 185e4121a939f2b46b85865278a591c43ad01f27
+source-git-commit: 4d41920b9a0a1acadd97858718a2f80ee9ece8aa
 workflow-type: tm+mt
-source-wordcount: '733'
-ht-degree: 27%
+source-wordcount: '896'
+ht-degree: 24%
 
 ---
 
@@ -48,7 +48,7 @@ Vous pouvez personnaliser le nom des transitions entre chaque activité. Pour ce
 
 ![](assets/canvas-transition.png)
 
-## Barre d’outils de la zone de travail {#toolbar}
+### Barre d’outils de la zone de travail {#toolbar}
 
 La barre d’outils de la zone de travail propose des options permettant de manipuler facilement les activités et de naviguer dans la zone de travail :
 
@@ -64,7 +64,7 @@ La barre d’outils de la zone de travail propose des options permettant de mani
 
 ![Icône Paramètres de campagne](assets/do-not-localize/canvas-map.svg) ouvre un instantané de la zone de travail indiquant que vous vous trouvez.
 
-## Gérer des activités {#manage}
+### Gérer des activités {#manage}
 
 Lors de l’ajout d’activités, des boutons d’action sont disponibles dans le panneau des propriétés, vous permettant d’effectuer plusieurs opérations.
 
@@ -82,7 +82,7 @@ Lors de l’ajout d’activités, des boutons d’action sont disponibles dans l
 
 Plusieurs activités de **Ciblage**, telles que **Combiner** ou **Déduplication**, vous permettent de traiter la population restante et de l’inclure dans une transition de sortie supplémentaire. Par exemple, si vous utilisez une activité **Partage**, le complémentaire est constitué de la population qui ne correspond à aucun des sous-ensembles définis précédemment. Pour utiliser cette fonctionnalité, activez l’option **[!UICONTROL Générer le complément]**.
 
-## Activités de copier-coller {#copy}
+### Activités de copier-coller {#copy}
 
 Vous pouvez copier des activités et les coller dans n’importe quelle zone de travail de campagne orchestrée. La campagne de destination peut se trouver dans un autre onglet du navigateur.
 
@@ -97,25 +97,25 @@ Pour coller les activités, cliquez sur le bouton **+** sur une transition et s�
 
 ![](assets/orchestrated-copy-3.png){zoomable="yes"}{width="50%"}
 
-<!--## Example {#example}
+## Exemple de diagramme {#example}
 
-Here is an orchestrated campaign example designed to send an email to all customers (other than VIP customers) with an email who are interested in coffee machines.
+Voici un exemple de campagne orchestrée conçue pour envoyer un e-mail à tous les clients qui ont effectué un achat d’au moins 100 $, tout en excluant tous les clients qui ont moins de 50 points de fidélité.
 
-![](assets/workflow-example.png){zoomable="yes"}{zoomable="yes"}
+![](assets/canvas-example-diagram.png){zoomable="yes"}
 
-To achieve this, activities below have been added:
+Dans le cadre de ce workflow, les activités suivantes ont été ajoutées :
 
-* A **[!UICONTROL Fork]** activity that divides the orchestrated campaign into three paths (one for each set of customer),
-* **[!UICONTROL Build audience]** activities to target the three sets of customers:
+* Une activité **[!UICONTROL Branchement]** divise la campagne orchestrée en trois chemins.
+* Les activités **[!UICONTROL Créer une audience]** ciblent les trois ensembles de clients et clientes :
 
-    * Customers with an email,
-    * Customers belonging to the pre-existing "Interrested in Coffee Machine(s)" audience,
-    * Customers belonging to the pre-existing "VIP ro reward" audience.
+   * les clients et clientes disposant d’une adresse e-mail
+   * Les clients qui ont effectué un achat d&#39;au moins 100 $,
+   * Les clients qui ont moins de 50 points de fidélité.
 
-* A **[!UICONTROL Combine]** activity that groups together customers with an email and those interested in coffee machines,
-* A **[!UICONTROL Combine]** activity that excludes VIP customers,
-* An **[!UICONTROL Email delivery]** activity that sends an email to the resulting customers. 
+* Une activité **[!UICONTROL Combiner]** regroupe les clients et clientes disposant d’une adresse e-mail et ceux et celles qui ont effectué un achat d’au moins 100 $,
+* Une activité **[!UICONTROL Combiner]** exclut les clients et clientes disposant de moins de 50 points de fidélité,
+* Une activité **[!UICONTROL Diffusion e-mail]** envoie un e-mail aux clients et clientes correspondants(e)s.
 
-Once you have completed the orchestrated campaign, add en **[!UICONTROL End]** activity at the end of the diagram. This activity allow you to visually mark the end of a workflow and has no functional impact.
+## Étapes suivantes {#next}
 
-After successfully designing the orchestrated campaign diagram, you can execute the orchestrated campaign and track the progress of its various tasks. [Learn how to start an orchestrated campaign and monitor its execution](start-monitor-campaigns.md)-->
+Une fois le diagramme de campagne orchestré conçu, vous pouvez l’exécuter et suivre l’avancement de ses différentes tâches. [Découvrez comment démarrer une campagne orchestrée et surveiller son exécution](start-monitor-campaigns.md)
