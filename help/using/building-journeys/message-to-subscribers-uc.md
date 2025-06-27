@@ -9,14 +9,14 @@ role: User, Data Engineer
 level: Intermediate, Experienced
 keywords: parcours, cas d’utilisation, message, abonnés, liste, lecture
 exl-id: 2540938f-8ac7-43fa-83ff-fed59f6bc417
-source-git-commit: fa46397b87ae3a81cd016d95afd3e09bb002cfaa
+source-git-commit: 824cbf12502f0a52e27636dddee38cb7dee94bf4
 workflow-type: tm+mt
-source-wordcount: '331'
+source-wordcount: '329'
 ht-degree: 94%
 
 ---
 
-# Cas d’utilisation : envoyer un message aux abonnés d’une liste{#send-a-message-to-the-subscribers-of-a-list}
+# Envoyer un message aux abonnés d’une liste {#send-a-message-to-the-subscribers-of-a-list}
 
 Ce cas d’utilisation a pour but de créer un parcours pour envoyer un message aux abonnés d’une liste.
 

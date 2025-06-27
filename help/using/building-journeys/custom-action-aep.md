@@ -8,18 +8,18 @@ topic: Content Management
 role: Developer, Data Engineer
 level: Experienced
 exl-id: 890a194f-f54d-4230-863a-fb2b924d716a
-source-git-commit: fa46397b87ae3a81cd016d95afd3e09bb002cfaa
+source-git-commit: 824cbf12502f0a52e27636dddee38cb7dee94bf4
 workflow-type: tm+mt
-source-wordcount: '366'
-ht-degree: 93%
+source-wordcount: '364'
+ht-degree: 88%
 
 ---
 
-# Cas d’utilisation : utiliser des actions personnalisées pour écrire des événements de parcours dans Experience Platform {#custom-action-aep}
+# Utiliser des actions personnalisées pour écrire des événements de parcours dans Experience Platform {#custom-action-aep}
 
 Ce cas d’utilisation explique comment écrire des événements personnalisés dans Adobe Experience Platform à partir de parcours à l’aide d’actions personnalisées et d’appels authentifiés.
 
-## Configurer un projet IO {#custom-action-aep-IO}
+## Configuration d’un projet de développement {#custom-action-aep-IO}
 
 1. Dans Adobe Developer Console, cliquez sur **Projet** et ouvrez votre projet IO.
 
@@ -41,7 +41,7 @@ curl -X POST 'https://ims-na1.adobelogin.com/ims/token/v3' -H 'Content-Type: app
 >
 >Après avoir créé votre projet sur Adobe Developer Console, assurez vous d’accorder aux développeurs et développeuses et aux API le contrôle d’accès avec les autorisations appropriées. En savoir plus dans la documentation de [Adobe Experience Platform](https://experienceleague.adobe.com/fr/docs/experience-platform/landing/platform-apis/api-authentication#grant-developer-and-api-access-control){target="_blank"}
 
-## Configurer la source à l’aide de l’API HTTP Inlet
+## Configuration de la source à l’aide de l’entrée d’API HTTP
 
 1. Créez un point d’entrée dans Adobe Experience Platform pour écrire les données de parcours.
 

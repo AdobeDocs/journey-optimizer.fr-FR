@@ -9,14 +9,14 @@ role: User, Data Engineer
 level: Intermediate, Experienced
 keywords: cas d’utilisation, multicanal, messages, parcours, canal, événements, notification push
 exl-id: a1bbfcee-2235-4820-a391-d5d35f499cb0
-source-git-commit: fa46397b87ae3a81cd016d95afd3e09bb002cfaa
+source-git-commit: 824cbf12502f0a52e27636dddee38cb7dee94bf4
 workflow-type: tm+mt
-source-wordcount: '725'
+source-wordcount: '723'
 ht-degree: 44%
 
 ---
 
-# Cas d’utilisation : envoyer des messages multicanaux{#send-multi-channel-messages}
+# Envoi de messages multi-canal {#send-multi-channel-messages}
 
 Cette section présente un cas d’utilisation qui combine une lecture d’audience, un événement, des événements de réaction et des e-mails/messages push.
 
