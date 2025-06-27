@@ -8,10 +8,10 @@ role: Data Engineer, Architect
 level: Experienced
 keywords: requête, collections, fonctions, payload, parcours
 exl-id: 09b38179-9ace-4921-985b-ddd17eb64681
-source-git-commit: ca2e30ddb5e80783b57b9f3e0d07ff8d0bc0bbdb
+source-git-commit: 8e020f79e0f44e6fc804fcceb149146f9644c777
 workflow-type: tm+mt
-source-wordcount: '513'
-ht-degree: 75%
+source-wordcount: '481'
+ht-degree: 74%
 
 ---
 
@@ -148,15 +148,6 @@ Cette expression renvoie le dernier jeton de notification push associé aux appl
 ```
 
 Le résultat est `token_2`.
-
->[!NOTE]
->
->Les événements d’expérience sont récupérés depuis Adobe Experience Platform sous la forme d’une collection dans l’ordre chronologique inverse. Par conséquent :
->
->* La fonction **[!UICONTROL first]** renvoie l’événement le plus récent.
->* La fonction **[!UICONTROL last]** renvoie l’événement le plus ancien.
-
-
 
 ## La fonction at(`<index>`)
 
