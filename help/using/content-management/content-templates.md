@@ -42,7 +42,7 @@ Pour créer, modifier et supprimer des modèles de contenu, vérifiez que vous d
 
 >[!NOTE]
 >
->Vous pouvez également créer et gérer des modèles de contenu à l’aide d’API. Pour plus d&#39;informations, consultez la documentation des API Journey Optimizer [](https://developer.adobe.com/journey-optimizer-apis/references/content/){target="_blank"}.
+>Vous pouvez également créer et gérer des modèles de contenu à l’aide d’API. Pour plus d&#39;informations, consultez la documentation des API Journey Optimizer [&#128279;](https://developer.adobe.com/journey-optimizer-apis/references/content/){target="_blank"}.
 
 ## Vidéo pratique {#video-templates}
 
