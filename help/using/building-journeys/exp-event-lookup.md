@@ -51,9 +51,9 @@ Pour supprimer des profils qui ont démontré certains comportements, utilisez d
 
 En savoir plus :
 
-* Adobe Experience Platform [Créateur de segments - Événements](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/segment-builder#events){target="_blank"}
+* Adobe Experience Platform [Créateur de segments - Événements](https://experienceleague.adobe.com/fr/docs/experience-platform/segmentation/ui/segment-builder#events){target="_blank"}
 
-* Adobe Experience Platform [Créateur de segments - Contraintes de temps](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/segment-builder#time-constraints){target="_blank"}
+* Adobe Experience Platform [Créateur de segments - Contraintes de temps](https://experienceleague.adobe.com/fr/docs/experience-platform/segmentation/ui/segment-builder#time-constraints){target="_blank"}
 
 * [Utiliser des audiences dans des conditions](../building-journeys/condition-activity.md#using-audiences-in-conditions)
 
@@ -70,9 +70,9 @@ Pour empêcher l’envoi de messages aux profils qui ont reçu des communication
 
 En savoir plus sur l’utilisation des audiences :
 
-* Adobe Experience Platform [Créateur de segments - Événements](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/segment-builder#events){target="_blank"}
+* Adobe Experience Platform [Créateur de segments - Événements](https://experienceleague.adobe.com/fr/docs/experience-platform/segmentation/ui/segment-builder#events){target="_blank"}
 
-* Adobe Experience Platform [Créateur de segments - Contraintes de temps](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/segment-builder#time-constraints){target="_blank"}
+* Adobe Experience Platform [Créateur de segments - Contraintes de temps](https://experienceleague.adobe.com/fr/docs/experience-platform/segmentation/ui/segment-builder#time-constraints){target="_blank"}
 
 * [Utiliser des audiences dans des conditions](../building-journeys/condition-activity.md#using-audiences-in-conditions)
 
@@ -92,9 +92,9 @@ Pour inclure ou exclure des profils en fonction du message reçu, créez des aud
 
 En savoir plus :
 
-* Adobe Experience Platform [Créateur de segments - Événements](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/segment-builder#events){target="_blank"}
+* Adobe Experience Platform [Créateur de segments - Événements](https://experienceleague.adobe.com/fr/docs/experience-platform/segmentation/ui/segment-builder#events){target="_blank"}
 
-* Adobe Experience Platform [Créateur de segments - Contraintes de temps](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/segment-builder#time-constraints){target="_blank"}
+* Adobe Experience Platform [Créateur de segments - Contraintes de temps](https://experienceleague.adobe.com/fr/docs/experience-platform/segmentation/ui/segment-builder#time-constraints){target="_blank"}
 
 * [Utiliser des audiences dans des conditions](../building-journeys/condition-activity.md#using-audiences-in-conditions)
 
@@ -104,8 +104,8 @@ En savoir plus :
 
 Pour personnaliser les communications en fonction du dernier panier ou parcourir les événements sur plusieurs types de panier ou consultations de produits :
 
-* Si vous avez accès à [Adobe Experience Platform Data Distiller](https://experienceleague.adobe.com/en/docs/experience-platform/query/data-distiller/overview){target="_blank"}, configurez des requêtes automatisées pour extraire les données requises de l&#39;événement, les manipuler pour les adapter au cas d&#39;utilisation et les réécrire dans un jeu de données activé pour un profil pour activation.
-* Si les données d’abandon peuvent être modélisées sur le profil avec des attributs scalaires, pensez à utiliser les attributs calculés pour capturer les dernières informations, puis à référencer ces attributs dans le parcours pour créer la communication. [En savoir plus dans la documentation d’Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/profile/computed-attributes/overview){target="_blank"}
+* Si vous avez accès à [Adobe Experience Platform Data Distiller](https://experienceleague.adobe.com/fr/docs/experience-platform/query/data-distiller/overview){target="_blank"}, configurez des requêtes automatisées pour extraire les données requises de l&#39;événement, les manipuler pour les adapter au cas d&#39;utilisation et les réécrire dans un jeu de données activé pour un profil pour activation.
+* Si les données d’abandon peuvent être modélisées sur le profil avec des attributs scalaires, pensez à utiliser les attributs calculés pour capturer les dernières informations, puis à référencer ces attributs dans le parcours pour créer la communication. [En savoir plus dans la documentation d’Adobe Experience Platform](https://experienceleague.adobe.com/fr/docs/experience-platform/profile/computed-attributes/overview){target="_blank"}
 
 
 ## Sortie de parcours basée sur le comportement
@@ -122,7 +122,7 @@ Pour déclencher des parcours en fonction des achats et supprimer si la valeur e
 
 En savoir plus :
 
-* Adobe Experience Platform [Présentation des attributs calculés](https://experienceleague.adobe.com/en/docs/experience-platform/profile/computed-attributes/overview){target="_blank"}
+* Adobe Experience Platform [Présentation des attributs calculés](https://experienceleague.adobe.com/fr/docs/experience-platform/profile/computed-attributes/overview){target="_blank"}
 
 
 
