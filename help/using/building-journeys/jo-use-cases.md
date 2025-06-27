@@ -8,7 +8,7 @@ role: User, Data Engineer
 level: Intermediate, Experienced
 keywords: cas d’utilisation, multicanal, parcours, événements
 exl-id: 28f3f06b-3576-43a7-9c1b-8e616390907b
-source-git-commit: 0a96368f2aefa1ffa6e12d08d679b2d360701127
+source-git-commit: 938f0b0247cc4b9d3e05a234082db534acbbbac5
 workflow-type: tm+mt
 source-wordcount: '266'
 ht-degree: 15%
@@ -29,7 +29,7 @@ Utilisez cette bibliothèque comme point de référence lors de la conception de
   <td>
     <div>
     <a href="exp-event-lookup.md">
-    <img alt="bonnes pratiques de recherche des événements d’expérience" src="../assets/do-not-localize/icon-configure.svg" /></a> 
+    <img alt="bonnes pratiques de recherche des événements d’expérience" src="../assets/do-not-localize/icon-content.svg" /></a> 
     <br>Découvrez les modèles courants et les approches évolutives pour vous aider à tirer le meilleur parti des événements d’expérience dans Adobe Journey Optimizer. Ces cas d’utilisation sont conçus pour vous aider à résoudre des défis fréquents tels que la gestion des désinscriptions, le contrôle de la fréquence des messages, la personnalisation du contenu en fonction du comportement de l’utilisateur et la réaction aux signaux en temps réel.
     </div>
       <div>
@@ -47,7 +47,7 @@ Utilisez cette bibliothèque comme point de référence lors de la conception de
   <td>
     <div>
     <a href="../data/datasets-query-examples.md">
-    <img alt="exemples de requêtes" src="../assets/do-not-localize/icon-data.svg"/></a> 
+    <img alt="exemples de requêtes" src="../assets/do-not-localize/icon-configure.svg"/></a> 
     <br>Pour créer vos cas d’utilisation, vous devez interroger les jeux de données Adobe Journey Optimizer, tels que les jeux de données système pour l’ingestion d’événements d’expérience de suivi, le jeu de données pour l’ingestion d’événements d’étape dans un parcours, le jeu de données pour l’ingestion de propositions d’offres aux utilisateurs, etc.
     </div>
       <div>
