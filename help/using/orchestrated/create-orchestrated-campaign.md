@@ -7,20 +7,15 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: 13da680d-fef8-4749-9190-8ca3d77b060a
-source-git-commit: f64fa51fa753fe62eecb6199946615f4d5c4f767
+source-git-commit: 445194fcc08efacdbf5f97a425d01229f82d11ea
 workflow-type: tm+mt
-source-wordcount: '910'
-ht-degree: 10%
+source-wordcount: '1125'
+ht-degree: 14%
 
 ---
 
 
 # Création et planification d’une campagne orchestrée {#create-first-campaign}
-
->[!CONTEXTUALHELP]
->id="ajo_campaign_creation_workflow"
->title="Liste de campagnes orchestrées"
->abstract="L’onglet **Orchestration** répertorie toutes les campagnes orchestrées. Cliquez sur le nom d’une campagne orchestrée pour la modifier. Cliquez sur le bouton **Créer une campagne orchestrée** pour ajouter une nouvelle campagne orchestrée."
 
 +++ Table des matières
 
@@ -34,9 +29,14 @@ ht-degree: 10%
 
 <br/>
 
-Créez une campagne orchestrée dans [!DNL Aadobe Journey Optimizer] et configurez son planning d’exécution pour contrôler le moment de son lancement et sa fréquence d’exécution. Choisissez de lancer la campagne immédiatement, à une date et une heure spécifiques ou de manière récurrente à l’aide d’options de planification flexibles telles que les fréquences quotidiennes, hebdomadaires ou mensuelles.
+Créez une campagne orchestrée dans [!DNL Adobe Journey Optimizer] et configurez son planning d’exécution pour contrôler le moment de son lancement et sa fréquence d’exécution. Choisissez de lancer la campagne immédiatement, à une date et une heure spécifiques ou de manière récurrente à l’aide d’options de planification flexibles telles que les fréquences quotidiennes, hebdomadaires ou mensuelles.
 
-## Créer et planifier la campagne {#create}
+## Créer la campagne {#create}
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaign_creation_workflow"
+>title="Liste de campagnes orchestrées"
+>abstract="L’onglet **Orchestration** répertorie toutes les campagnes orchestrées. Cliquez sur le nom d’une campagne orchestrée pour la modifier. Cliquez sur le bouton **Créer une campagne orchestrée** pour ajouter une nouvelle campagne orchestrée."
 
 Pour créer une campagne orchestrée, procédez comme suit :
 
@@ -54,9 +54,28 @@ Votre campagne orchestrée est maintenant créée et apparaît dans la liste des
 
 ## Planifier la campagne {#schedule}
 
-Par défaut, les campagnes orchestrées démarrent lorsqu’elles sont activées manuellement et se terminent lorsque leurs activités associées ont été exécutées.
+>[!CONTEXTUALHELP]
+>id="ajo_orchestration_scheduler"
+>title="Planificateur"
+>abstract="En tant que responsable de campagne, vous pouvez planifier des campagnes pour les lancer automatiquement à des heures spécifiques, ce qui permet d’obtenir un timing précis et des données de ciblage précises pour les communications marketing."
 
-Si vous préférez retarder l’exécution ou exécuter la campagne de manière récurrente, vous pouvez définir un planning pour la campagne.
+>[!CONTEXTUALHELP]
+>id="ajo_orchestration_schedule_validity"
+>title="Validité du planificateur"
+>abstract="Vous pouvez définir une période de validité pour le planificateur. Elle peut être permanente (par défaut) ou valide jusqu’à une date spécifique."
+
+>[!CONTEXTUALHELP]
+>id="ajo_orchestration_schedule_options"
+>title="Options du planificateur"
+>abstract="Définissez la fréquence du planificateur. Il peut être exécuté à un moment précis, ou encore une ou plusieurs fois par jour, semaine ou mois."
+
+Par défaut, les campagnes orchestrées démarrent lorsqu’elles sont activées manuellement et se terminent lorsque leurs activités associées ont été exécutées. Si vous préférez retarder l’exécution ou exécuter la campagne de manière récurrente, vous pouvez définir un planning pour la campagne.
+
+Tenez compte des bonnes pratiques suivantes lors de la planification de campagnes orchestrées afin de garantir des performances optimales et un comportement attendu :
+
+* Ne planifiez pas l’exécution d’une campagne orchestrée à une fréquence supérieure à toutes les 15 minutes, car cela peut nuire aux performances générales du système et créer des blocs dans la base de données.
+* Si vous souhaitez envoyer un message ponctuel dans votre campagne orchestrée, vous pouvez le définir pour qu’il s’exécute **Une fois**.
+* Si vous souhaitez envoyer un message récurrent dans votre campagne orchestrée, vous devez utiliser une option **Planification** et définir la fréquence d&#39;exécution. L’activité de diffusion récurrente ne permet pas de définir de planning.
 
 Pour configurer le planning de la campagne, procédez comme suit :
 
@@ -73,7 +92,7 @@ Pour configurer le planning de la campagne, procédez comme suit :
    * **[!UICONTROL Date]** : sélectionnez la date à laquelle la campagne doit être exécutée.
    * **[!UICONTROL Heure]** : sélectionnez l’heure spécifique à laquelle la campagne doit être exécutée.
 
-   +++
++++
 
    +++Quotidien
 
@@ -87,7 +106,7 @@ Pour configurer le planning de la campagne, procédez comme suit :
 
    * **[!UICONTROL Heure de début]** : définissez l’heure à laquelle la campagne doit s’exécuter chaque jour.
 
-   +++
++++
 
    +++Plusieurs fois par jour
 
@@ -96,7 +115,7 @@ Pour configurer le planning de la campagne, procédez comme suit :
    * **[!UICONTROL Heures sélectionnées]** : sélectionnez les heures spécifiques auxquelles la campagne doit s’exécuter et configurez sa périodicité quotidienne (à exécuter tous les jours de la semaine ou certains jours).
    * **[!UICONTROL Périodique]** : choisissez d’exécuter la campagne toutes les n minutes ou toutes les heures. Vous pouvez également définir la période au cours de laquelle les exécutions sont autorisées.
 
-   +++
++++
 
    +++Hebdomadaire
 
@@ -107,7 +126,7 @@ Pour configurer le planning de la campagne, procédez comme suit :
    * **[!UICONTROL Périodicité quotidienne]** : sélectionnez les jours de la semaine où l’exécution doit avoir lieu (par exemple, tous les lundis et jeudis).
    * **[!UICONTROL Heure de début]** : définissez l’heure à laquelle la campagne doit s’exécuter les jours sélectionnés.
 
-   +++
++++
 
    +++Mensuel
 
@@ -123,7 +142,7 @@ Pour configurer le planning de la campagne, procédez comme suit :
 
    * **[!UICONTROL Heure de début]** : définissez l’heure d’exécution de la campagne.
 
-   +++
++++
 
 1. Utilisez le paramètre **[!UICONTROL Période de validité]** pour définir des dates de début et de fin spécifiques et limiter ainsi l’exécution de la campagne à une période limitée.
 
@@ -132,6 +151,10 @@ Pour configurer le planning de la campagne, procédez comme suit :
 >[!NOTE]
 >
 >Lors de la planification de campagnes dans [!DNL Adobe Journey Optimizer], assurez-vous que la date/l’heure de début correspond à la première diffusion souhaitée. Pour les campagnes récurrentes, si l’heure planifiée initiale est déjà dépassée, les campagnes sont reportées au prochain créneau horaire disponible en fonction de leurs règles de périodicité.
+
+Dans l’exemple suivant, l’activité est configurée de sorte que la campagne orchestrée s’exécute deux fois par jour à 9 h et à 12 h, tous les jours de la semaine du 1er octobre 2025 au 1er janvier 2026.
+
+![Planificateur configuré pour exécuter la campagne deux fois par jour à 9 h et 12 h](assets/scheduler-sample.png){width="50%" align="left"}
 
 ## Étapes suivantes {#next}
 
