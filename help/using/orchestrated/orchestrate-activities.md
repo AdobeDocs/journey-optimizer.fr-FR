@@ -7,10 +7,10 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: d1d64125-cf00-49c2-a71d-1494ede16f61
-source-git-commit: f64fa51fa753fe62eecb6199946615f4d5c4f767
+source-git-commit: ecb62dfc6a04754cb5d549615047cfb8e5e8f518
 workflow-type: tm+mt
-source-wordcount: '738'
-ht-degree: 53%
+source-wordcount: '737'
+ht-degree: 28%
 
 ---
 
@@ -28,7 +28,7 @@ ht-degree: 53%
 
 <br/>
 
-Une fois que vous avez [créé une campagne orchestrée](gs-campaign-creation.md), à partir du menu de campagne orchestrée ou au sein d’une campagne, vous pouvez commencer à orchestrer les différentes tâches qu’elle exécutera. Pour ce faire, une zone de travail visuelle vous permet de créer un diagramme de campagne orchestré. Dans ce diagramme, vous pouvez ajouter différentes activités et les enchaîner dans un ordre séquentiel.
+Une fois que vous avez [créé une campagne orchestrée](gs-campaign-creation.md), vous pouvez commencer à orchestrer les différentes tâches qu’elle exécutera. Pour ce faire, une zone de travail visuelle vous permet de créer un diagramme de campagne orchestré. Dans ce diagramme, vous pouvez ajouter différentes activités et les enchaîner dans un ordre séquentiel.
 
 ## Ajouter des activités {#add}
 
@@ -38,110 +38,69 @@ La liste des activités pouvant être ajoutées au diagramme s’affiche. Les ac
 
 ![](assets/orchestrated-start.png){zoomable="yes"}
 
-Une fois qu’une activité a été ajoutée au diagramme, un volet s’affiche à droite. Il vous permet de définir des paramètres spécifiques pour l’activité. Des informations détaillées sur la configuration de chacune des activités sont disponibles dans [cette section](activities/about-activities.md).
+Une fois qu’une activité a été ajoutée au diagramme, un volet s’affiche à droite. Il vous permet de la configurer avec des paramètres spécifiques. Des informations détaillées sur la configuration de chacune des activités sont disponibles dans [cette section](activities/about-activities.md).
 
 ![](assets/orchestrated-configure-activities.png){zoomable="yes"}
 
 Répétez ce processus pour ajouter autant d’activités que vous le souhaitez en fonction des tâches que votre campagne orchestrée doit effectuer. Vous pouvez également insérer une nouvelle activité entre deux activités. Pour ce faire, cliquez sur le bouton **+** sur la transition entre les activités, puis sélectionnez l’activité souhaitée et configurez-la dans le volet de droite.
 
-Pour supprimer une activité, sélectionnez-la dans la zone de travail et cliquez sur l’icône **Supprimer** dans les propriétés de l’activité.
+Vous pouvez personnaliser le nom des transitions entre chaque activité. Pour ce faire, sélectionnez la transition et modifiez son libellé dans le volet de droite.
 
->[!TIP]
->
->Vous pouvez personnaliser le nom des transitions entre chaque activité. Pour ce faire, sélectionnez la transition et modifiez son libellé dans le volet de droite.
+![](assets/canvas-transition.png)
 
-## Barre d’outils {#toolbar}
+## Barre d’outils de la zone de travail {#toolbar}
 
-La barre d’outils située dans le coin supérieur droit de la zone de travail fournit des options permettant de manipuler facilement les activités et de naviguer dans la zone de travail :
+La barre d’outils de la zone de travail propose des options permettant de manipuler facilement les activités et de naviguer dans la zone de travail :
 
-* **Mode de sélection multiple** : sélectionnez plusieurs activités pour les supprimer toutes en même temps ou pour les copier et les coller. Consultez [cette section](#copy).
-* **Faire pivoter** : retournez la zone de travail verticalement.
-* **Ajuster à l’écran** : adaptez le niveau de zoom de la zone de travail à votre écran.
-* **Zoom arrière**/**Zoom avant** : effectuez un zoom arrière ou avant dans la zone de travail.
-* **Afficher la carte** : ouvre un instantané de la zone de travail indiquant où vous vous trouvez.
+![](assets/orchestrated-toolbar.png)
 
-![](assets/orchestrated-toolbar.png){zoomable="yes"}{width="50%"}
+![Icône Mode de sélection multiple](assets/do-not-localize/canvas-multiple.svg) Sélectionnez plusieurs activités pour toutes les supprimer en même temps ou copiez-collez-les. [Découvrez comment copier-coller des activités](#copy)
+
+![Icône Rotation](assets/do-not-localize/canvas-rotate.svg) basculez la zone de travail verticalement.
+
+![Icône Ajuster à l’écran](assets/do-not-localize/canvas-fit.svg) Adaptez le niveau de zoom de la zone de travail à votre écran.
+
+![Icône Zoom arrière](assets/do-not-localize/canvas-zoomout.svg) ![Icône Zoom avant](assets/do-not-localize/canvas-zoomin.svg) Zoom arrière ou dans la zone de travail.
+
+![Icône Paramètres de campagne](assets/do-not-localize/canvas-map.svg) ouvre un instantané de la zone de travail indiquant que vous vous trouvez.
 
 ## Gérer des activités {#manage}
 
 Lors de l’ajout d’activités, des boutons d’action sont disponibles dans le panneau des propriétés, vous permettant d’effectuer plusieurs opérations.
 
-![](assets/activity-action.png){zoomable="yes"}
+![](assets/activity-action.png)
 
-Vous pouvez effectuer les actions suivantes :
+![Icône Supprimer](assets/do-not-localize/activity-delete.svg) Supprimez l’activité de la zone de travail.
 
-* **Supprimer** l’activité à partir de la zone de travail.
-* **Désactivez/activez** l’activité. Lorsque la campagne orchestrée est exécutée, les activités désactivées et les activités suivantes sur le même chemin ne sont pas exécutées et la campagne orchestrée est arrêtée.
-* **Mettez en pause/Reprenez** l’activité. Lorsque la campagne orchestrée est exécutée, elle se met en pause au niveau de l’activité en pause. La tâche correspondante, ainsi que toutes les suivantes dans le même chemin, ne sont pas exécutées.
-* **Copiez** l’activité. Consultez [cette section](#copy).
-* Accédez aux **Journaux et tâches** de l’activité.
+![Icône Désactiver](assets/do-not-localize/activity-disable.svg) ![Icône Activer](assets/do-not-localize/activity-enable.svg) Désactivez/activez l’activité. Lorsque la campagne orchestrée est exécutée, les activités désactivées et les activités suivantes sur le même chemin ne sont pas exécutées et la campagne orchestrée est arrêtée.
 
-Plusieurs activités de **Ciblage**, telles que **Combiner** ou **Déduplication**, vous permettent de traiter la population restante et de l’inclure dans une transition de sortie supplémentaire. Par exemple, si vous utilisez une activité **Partage**, le complémentaire est constitué de la population qui ne correspond à aucun des sous-ensembles définis précédemment. Pour utiliser cette fonctionnalité, activez l’option **Générer le complément**.
+![Icône Pause](assets/do-not-localize/activity-pause.svg) ![Icône Reprendre](assets/do-not-localize/activity-resume.svg) Suspendre/Reprendre l’activité. Lorsque la campagne orchestrée est exécutée, elle se met en pause au niveau de l’activité en pause. La tâche correspondante, ainsi que toutes les suivantes dans le même chemin, ne sont pas exécutées.
+
+![Icône Copier](assets/do-not-localize/activity-copy.svg) Copiez l’activité. [Découvrez comment copier-coller des activités](#copy)
+
+![Icône Logs et tâches](assets/do-not-localize/activity-logs.svg) Accédez aux logs et tâches de l’activité.
+
+Plusieurs activités de **Ciblage**, telles que **Combiner** ou **Déduplication**, vous permettent de traiter la population restante et de l’inclure dans une transition de sortie supplémentaire. Par exemple, si vous utilisez une activité **Partage**, le complémentaire est constitué de la population qui ne correspond à aucun des sous-ensembles définis précédemment. Pour utiliser cette fonctionnalité, activez l’option **[!UICONTROL Générer le complément]**.
 
 ## Déplacer ou copier des activités {#move-copy}
 
 ### Activités de copier-coller {#copy}
 
-Vous pouvez copier des activités de campagne orchestrées et les coller dans n’importe quel workflow. La campagne orchestrée de destination peut se trouver dans un autre onglet du navigateur.
+Vous pouvez copier des activités et les coller dans n’importe quelle zone de travail de campagne orchestrée. La campagne de destination peut se trouver dans un autre onglet du navigateur.
 
-Pour copier des activités, vous avez deux possibilités :
+* Pour copier une activité, cliquez sur le bouton ![Copier l’icône](assets/do-not-localize/activity-copy.svg) dans le volet des propriétés de l’activité.
+* Pour copier plusieurs activités, cliquez sur l’icône ![Mode de sélection multiple](assets/do-not-localize/canvas-multiple.svg) dans la barre d’outils de la zone de travail.
 
-* Copier une activité à l’aide du bouton d’action.
+| Copier une activité | Copie de plusieurs activités |
+|  ---  |  ---  |
+|  |
+| ![](assets/orchestrated-copy-1.png){width="200" align="center" zoomable="yes"} | ![](assets/orchestrated-copy-2.png){width="200" align="center" zoomable="yes"} |
 
-  ![](assets/orchestrated-copy-1.png){zoomable="yes"}{width="70%"}
-
-* Copier plusieurs activités à l’aide du bouton de la barre d’outils.
-
-  ![](assets/orchestrated-copy-2.png){zoomable="yes"}{width="70%"}
-
-Pour coller les activités copiées, cliquez sur le bouton **+** sur une transition et sélectionnez « Coller l’activité X ».
+Pour coller les activités, cliquez sur le bouton **+** sur une transition et sélectionnez « Coller x activité ».
 
 ![](assets/orchestrated-copy-3.png){zoomable="yes"}{width="50%"}
 
-<!--
-### Move activities and their child nodes {#move}
-
-Journey Optimizer allows you to move an activity, along with the entire content of its child nodes (including all transitions and activities within it) to the end of another transition within the same orchestrated campaign.
-
-This process disconnects the activity and everything in its outbound transition from the initial location, moving it to the new target transition.
-
-To move an activity:
-
-1. Select the activity you wish to move.
-1. In the activity's properties pane, click the **Move** button.
-1. Select the transition where you want to place the activity and its outbound transition, then confirm.
-
-![](assets/activity-move.png)
-
-
-## Execution options {#execution}
-
-All activities allow you to manage their execution options. Select an activity and click on the **Execution options** button. This lets you define the activity's execution mode and behavior in case of errors.
-
-![](assets/workflow-execution-options.png){zoomable="yes"}{width="70%"}
-
-
-### Properties
-
-The **Execution** field allows you to define the action to be carried out when the task is started.
-
-The **Maximum execution duration** field allows you to specify a duration such as "30s" or "1h". If the activity is not finished after the duration specified has been elapsed, an alert is triggered. This has no impact on how the orchestrated campaign functions.
-
-The **Time zone** field allows you to select the time zone of the activity. Adobe Journey Optimizer allows you to manage the time differences between multiple countries on the same instance. The setting applied is configured when the instance is created.
-
-**The Affinity** field allows you to force an orchestrated campaign or an orchestrated campaign activity to execute on a particular machine. To do this, you must specify one or several affinities for the orchestrated campaign or activity in question.
-
-The **Behavior** field allows you to define the procedure to follow if asynchronous tasks are used.
-
-### Error management
-
-The **In case of error** field allows you to specify the action to be carried out should the activity encounter an error.
-
-### Initialization script
-
-The **Initialization script** lets you initialize variables or modify activity properties. Click the **Edit code** button and type the snippet of code to execute. The script is called when the activity executes. 
-
-## Example {#example}
+<!--## Example {#example}
 
 Here is an orchestrated campaign example designed to send an email to all customers (other than VIP customers) with an email who are interested in coffee machines.
 
@@ -162,5 +121,4 @@ To achieve this, activities below have been added:
 
 Once you have completed the orchestrated campaign, add en **[!UICONTROL End]** activity at the end of the diagram. This activity allow you to visually mark the end of a workflow and has no functional impact.
 
-After successfully designing the orchestrated campaign diagram, you can execute the orchestrated campaign and track the progress of its various tasks. [Learn how to start an orchestrated campaign and monitor its execution](start-monitor-campaigns.md)
--->
+After successfully designing the orchestrated campaign diagram, you can execute the orchestrated campaign and track the progress of its various tasks. [Learn how to start an orchestrated campaign and monitor its execution](start-monitor-campaigns.md)-->
