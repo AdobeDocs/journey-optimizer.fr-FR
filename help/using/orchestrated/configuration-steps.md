@@ -7,10 +7,10 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: 8c785431-9a00-46b8-ba54-54a10e288141
-source-git-commit: f64fa51fa753fe62eecb6199946615f4d5c4f767
+source-git-commit: 4cc571b306058dc58454e488ba53bb69117a8b27
 workflow-type: tm+mt
-source-wordcount: '1008'
-ht-degree: 24%
+source-wordcount: '1142'
+ht-degree: 21%
 
 ---
 
@@ -103,7 +103,7 @@ Pour définir des connexions logiques entre les tables de votre schéma, procéd
 
 1. Remplissez le formulaire donné pour définir le lien et cliquez sur **Appliquer** une fois configuré.
 
-   ![](assets/toolbar.png)
+   ![](assets/admin_schema_3.png)
 
    **Cardinalité** :
 
@@ -133,7 +133,7 @@ Pour définir des connexions logiques entre les tables de votre schéma, procéd
 
    * **Afficher la carte** : basculez sur une superposition minimale pour parcourir plus facilement les dispositions de schémas volumineuses ou complexes.
 
-1. Cliquez sur **Enregistrer** une fois l’opération terminée. Cette action crée les schémas et les jeux de données associés et active le jeu de données en vue de son utilisation dans des campagnes orchestrées.
+1. Cliquez sur **Enregistrer** une fois l’opération terminée. Cette action crée les schémas et les jeux de données associés et permet au jeu de données d’être utilisé dans des campagnes orchestrées.
 
 1. Cliquez sur **[!UICONTROL Ouvrir les tâches]** pour surveiller la progression de la tâche de création. Ce processus peut prendre quelques minutes, selon le nombre de tables définies dans le fichier DDL.
 
@@ -179,21 +179,43 @@ Adobe Experience Platform permet d’ingérer des données à partir de sources 
 
    * Avec un nouveau compte
 
-   [En savoir plus dans la documentation d’Adobe Experience Platform](https://experienceleague.adobe.com/fr/docs/experience-platform/destinations/catalog/cloud-storage/amazon-s3#connect)
+   [En savoir plus dans la documentation d’Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/cloud-storage/amazon-s3#connect)
 
    ![](assets/admin_sources_2.png)
 
+1. Choisissez votre dossier **[!UICONTROL Format des données]**, **[!UICONTROL Délimiteur]** et **[!UICONTROL Type de compression]**.
+
 1. Parcourez la source S3 connectée jusqu’à localiser les deux dossiers créés précédemment, à savoir **récompenses de fidélité** et **transactions de fidélité**.
 
-1. Cliquez sur votre dossier.
+1. Sélectionnez le dossier contenant vos données.
 
-   La sélection d’un dossier garantit que tous les fichiers actuels et futurs avec la même structure sont traités automatiquement, tandis que la sélection d’un fichier nécessite des mises à jour manuelles pour chaque nouvel incrément de données.
+   La sélection d’un dossier garantit que tous les fichiers actuels et futurs avec la même structure sont automatiquement traités. Toutefois, la sélection d’un seul fichier nécessite de charger manuellement chaque nouvel incrément de données.
+
+   ![](assets/S3_config_2.png)
+
+1. Choisissez votre dossier **[!UICONTROL Format des données]**, **[!UICONTROL Délimiteur]** et **[!UICONTROL Type de compression]**. Vérifiez l’exactitude de vos données d’exemple, puis cliquez sur **[!UICONTROL Suivant]**.
 
    ![](assets/S3_config_1.png)
 
-1. Choisissez le format des données, puis cliquez sur Suivant.
+1. Cochez **[!UICONTROL Activer la capture de données Modifier]** pour effectuer une sélection parmi les jeux de données mappés aux schémas relationnels et pour lesquels une clé primaire et un descripteur de version sont définis.
 
+1. Sélectionnez le [jeu de données créé précédemment](#entities) et cliquez sur **[!UICONTROL Suivant]**.
 
+   ![](assets/S3_config_3.png)
+
+1. Dans la fenêtre **[!UICONTROL Mappage]**, vérifiez que chaque attribut de fichier source est correctement mappé avec les champs correspondants dans le schéma cible.
+
+   Cliquez sur **[!UICONTROL Suivant]** une fois l’opération terminée.
+
+   ![](assets/S3_config_4.png)
+
+1. Configurez le flux de données **[!UICONTROL Planifier]** en fonction de la fréquence souhaitée.
+
+1. Cliquez sur **[!UICONTROL Terminer]** pour créer le flux de données. Il s’exécute automatiquement selon le planning défini.
+
+1. Dans le menu **[!UICONTROL Connexions]**, sélectionnez **[!UICONTROL Sources]** et accédez à l’onglet **[!UICONTROL Flux de données]** pour suivre l’exécution du flux, passer en revue les enregistrements ingérés et résoudre les erreurs.
+
+   ![](assets/S3_config_5.png)
 
 <!--manual
 ## Create a relational schema manual
