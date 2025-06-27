@@ -8,7 +8,7 @@ role: User, Data Engineer
 level: Intermediate, Experienced
 keywords: cas d’utilisation, multicanal, parcours, événements
 exl-id: 28f3f06b-3576-43a7-9c1b-8e616390907b
-source-git-commit: a94d579086f8ab78e611b15d993bb8f12673ea36
+source-git-commit: 06d25d9344588d668304bbf5d6d3c2e7cd6659ef
 workflow-type: tm+mt
 source-wordcount: '266'
 ht-degree: 15%
@@ -29,7 +29,7 @@ Utilisez cette bibliothèque comme point de référence lors de la conception de
   <td>
     <div>
     <a href="exp-event-lookup.md">
-    <img alt="bonnes pratiques de recherche des événements d’expérience" src="../assets/do-not-localize/icon-configure.svg" /></a> 
+    <img alt="bonnes pratiques de recherche des événements d’expérience" src="../assets/do-not-localize/icon-quick-start.svg" /></a> 
     <br>Découvrez les modèles courants et les approches évolutives pour vous aider à tirer le meilleur parti des événements d’expérience dans Adobe Journey Optimizer. Ces cas d’utilisation sont conçus pour vous aider à résoudre des défis fréquents tels que la gestion des désinscriptions, le contrôle de la fréquence des messages, la personnalisation du contenu en fonction du comportement de l’utilisateur et la réaction aux signaux en temps réel.
     </div>
       <div>
@@ -92,7 +92,7 @@ Utilisez cette bibliothèque comme point de référence lors de la conception de
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td>
 <a href="collections.md">
-<img alt="Transmettre des collections de manière dynamique à l’aide d’actions personnalisées" src="../assets/do-not-localize/icon-quick-start.svg">
+<img alt="Transmettre des collections de manière dynamique à l’aide d’actions personnalisées" src="../assets/do-not-localize/icon-configure.svg">
 </a>
 <div>
 <a href="collections.md"><strong>Transmission dynamique des collections avec des actions personnalisées</strong></a>
