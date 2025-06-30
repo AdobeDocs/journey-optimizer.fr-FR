@@ -7,10 +7,10 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: 3959b5fa-0c47-42a5-828f-4d7ca9b7e72d
-source-git-commit: 38b65200435e0b997e79aefbb66549b9168188fd
+source-git-commit: 62f16b6f582e6bf5620b75df4a75d4c15441ca4a
 workflow-type: tm+mt
-source-wordcount: '370'
-ht-degree: 39%
+source-wordcount: '421'
+ht-degree: 28%
 
 ---
 
@@ -19,7 +19,14 @@ ht-degree: 39%
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_build_audience"
 >title="Activité Créer une audience"
->abstract="L’activité **Créer une audience** vous permet de définir l’audience qui va entrer dans la campagne orchestrée. Lors de l’envoi de messages dans le cadre d’une campagne orchestrée, l’audience du message n’est pas définie dans l’activité de canal, mais dans l’activité **Créer une audience**."
+>abstract="L’activité **Créer une audience** vous permet de définir l’audience qui va entrer dans la campagne orchestrée. Lors de l’envoi de messages dans le cadre d’une campagne orchestrée, l’audience du message n’est pas définie dans l’activité de canal, mais dans une activité **Créer une audience**."
+
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_read_audience"
+>title="Activité Créer une audience"
+>abstract="L&#39;activité **Lecture d&#39;audience** permet de sélectionner une audience existante qui va rejoindre la campagne orchestrée. Lors de l’envoi de messages dans le cadre d’une campagne orchestrée, l’audience du message n’est pas définie dans l’activité de canal, mais dans une activité **Lecture d’audience** ou **Création d’audience**."
+
 
 +++ Table des matières
 
