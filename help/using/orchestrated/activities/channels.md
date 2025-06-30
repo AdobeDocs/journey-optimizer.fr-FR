@@ -7,10 +7,10 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: ffe1e77c-6c4f-4f23-9183-d715a4c7c402
-source-git-commit: 38b65200435e0b997e79aefbb66549b9168188fd
+source-git-commit: 6059de3366743ac6f5971a6113f3bec0f1e6fb32
 workflow-type: tm+mt
-source-wordcount: '968'
-ht-degree: 63%
+source-wordcount: '899'
+ht-degree: 38%
 
 ---
 
@@ -47,27 +47,39 @@ Commencez à créer votre campagne orchestrée avec les activités pertinentes :
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_email"
 >title="Activité e-mail"
->abstract="L’activité E-mail permet d’envoyer des e-mails dans votre campagne à plusieurs étapes pour des messages ponctuels et récurrents. Elle permet d’automatiser le processus d’envoi d’e-mails à une cible calculée dans la même campagne à plusieurs étapes. Vous pouvez combiner des activités de canal dans une zone de travail de campagne à plusieurs étapes, afin de créer des campagnes cross-canal pouvant déclencher des actions en fonction du comportement de la clientèle et des données."
+>abstract="L’activité E-mail permet d’envoyer des e-mails dans votre campagne orchestrée, pour des messages ponctuels et récurrents. Il permet d’automatiser le processus d’envoi d’e-mails à une cible calculée dans la même campagne orchestrée. Vous pouvez combiner des activités de canal dans une zone de travail de campagne à plusieurs étapes, afin de créer des campagnes cross-canal pouvant déclencher des actions en fonction du comportement de la clientèle et des données."
 
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_sms"
 >title="Activité SMS"
->abstract="L’activité SMS permet d’envoyer des SMS dans votre campagne à plusieurs étapes pour les messages ponctuels et récurrents. Elle permet d’automatiser le processus d’envoi de SMS à une cible calculée dans la même campagne à plusieurs étapes. Vous pouvez combiner des activités de canal dans la zone de travail de campagne à plusieurs étapes, afin de créer des campagnes cross-canal pouvant déclencher des actions en fonction du comportement de la clientèle et des données."
+>abstract="L’activité SMS permet d’envoyer des SMS au sein de votre campagne orchestrée, pour les messages ponctuels et récurrents. Il permet d’automatiser le processus d’envoi de SMS à une cible calculée dans la même campagne orchestrée. Vous pouvez combiner des activités de canal dans la zone de travail de campagne à plusieurs étapes, afin de créer des campagnes cross-canal pouvant déclencher des actions en fonction du comportement de la clientèle et des données."
+
+
+>[!CONTEXTUALHELP]
+>id="ajo_orchestration_push"
+>title="Activité push"
+>abstract="L’activité Push permet d’envoyer des notifications push dans le cadre de votre campagne orchestrée. Elle permet la diffusion de campagnes orchestrées ponctuelles et récurrentes, automatisant l’envoi de notifications push à une cible prédéfinie dans la même campagne orchestrée. Vous pouvez combiner des activités de canal dans la zone de travail de campagne afin de créer des campagnes cross-canal pouvant déclencher des actions en fonction du comportement du client et des données."
+
+
+<!--
+UNUSED IDs in BJ
 
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_push_ios"
->title="Activité Notification push iOS"
->abstract="L’activité Notification push iOS permet d’envoyer des notifications push iOS dans le cadre de votre campagne à plusieurs étapes. Elle permet la diffusion de campagnes à plusieurs étapes ponctuelles et récurrentes, en automatisant l’envoi de notifications push iOS à une cible prédéfinie dans le même workflow. Vous pouvez combiner des activités de canal dans la zone de travail du workflow afin de créer des workflows cross-canal pouvant déclencher des actions en fonction du comportement et des données de la clientèle."
+>title="Push iOS activity"
+>abstract="The Push iOS activity let you send iOS Push notifications as part of your orchestrated campaign. It enables the delivery of both one-time and recurring orchestrated campaigns, automating the sending iOS Push notifications to a predefined target within the same workflow. You can combine channel activities into the campaign canvas to create cross-channel campaigns that can trigger actions based on customer behavior and data."
 
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_push_android"
->title="Activité Notification push Android"
->abstract="L’activité Notification push Android permet d’envoyer des notifications push Android dans le cadre de votre campagne à plusieurs étapes. Elle permet la diffusion de messages ponctuels et récurrents, en automatisant l’envoi de notifications push Android à une cible prédéfinie dans la même campagne à plusieurs étapes. Vous pouvez combiner des activités de canal dans la zone de travail de campagne à plusieurs étapes, afin de créer des campagnes cross-canal pouvant déclencher des actions en fonction du comportement de la clientèle et des données."
+>title="Push Android activity"
+>abstract="The Push Android activity ket you send Android Push notifications as part of your orchestrated campaign. It enables the delivery of both one-time and recurring messages, automating the sending Android Push notifications to a predefined target within the same orchestrated campaign. You can combine channel activities into the orchestrated campaign canvas to create cross-channel campaigns that can trigger actions based on customer behavior and data."
+
+-->
 
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_directmail"
 >title="Activité Courrier"
->abstract="L’activité Courrier facilite l’envoi de courrier depuis votre campagne à plusieurs étapes pour les messages ponctuels et récurrents. Elle permet d’automatiser le processus de génération du fichier d’extraction requis par les fournisseurs de services postaux. Vous pouvez combiner des activités de canal dans la zone de travail de campagne à plusieurs étapes, afin de créer des campagnes cross-canal pouvant déclencher des actions en fonction du comportement de la clientèle et des données."
+>abstract="L’activité Publipostage direct facilite l’envoi de publipostage direct dans votre campagne orchestrée, pour les messages ponctuels et récurrents. Elle permet d’automatiser le processus de génération du fichier d’extraction requis par les fournisseurs de services postaux. Vous pouvez combiner des activités de canal dans la zone de travail de campagne orchestrée afin de créer des campagnes cross-canal pouvant déclencher des actions en fonction du comportement du client et des données."
 
 Pour configurer une diffusion dans le cadre d&#39;une campagne orchestrée, procédez comme suit :
 
@@ -86,7 +98,7 @@ Pour configurer une diffusion dans le cadre d&#39;une campagne orchestrée, proc
 
 1. Cliquez sur **[!UICONTROL Créer une diffusion]**. Vous pouvez définir les paramètres et le contenu de votre message de la même manière que vous créez une diffusion autonome. Vous pouvez également tester et simuler le contenu.
 
-1. Revenez à votre workflow. Pour continuer votre workflow, activez l’option **[!UICONTROL Générer une transition sortante]** pour ajouter une transition après l’activité de canal.
+1. Revenez à votre campagne orchestrée. Si vous souhaitez poursuivre votre campagne orchestrée, activez l’option **[!UICONTROL Générer une transition sortante]** pour ajouter une transition après l’activité de canal.
 
 1. Cliquez sur **[!UICONTROL Démarrer]** pour lancer votre campagne orchestrée.
 
