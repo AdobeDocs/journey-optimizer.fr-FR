@@ -6,9 +6,9 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 5c866814-d79a-4a49-bfcb-7a767d802e90
-source-git-commit: 3eafc1bcfcd332eb9bf262f9257a084604f60011
+source-git-commit: 66e5d12e6d262014db5c7eb7603f678296591301
 workflow-type: tm+mt
-source-wordcount: '1746'
+source-wordcount: '1753'
 ht-degree: 98%
 
 ---
@@ -64,9 +64,8 @@ Commencez par définir les attributs standard et personnalisés de l’élément
 >id="ajo_exd_item_constraints"
 >title="Ajouter des audiences ou des règles de décision"
 >abstract="Par défaut, tous les profils seront éligibles pour recevoir l’élément de décision; Vous pouvez toutefois utiliser des audiences ou des règles pour limiter l’élément à des profils spécifiques uniquement."
-
-<!--additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/audiences-profiles-identities/audiences/about-audiences.html?lang=fr" text="Use audiences"
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/decisioning/experience-decisioning/selection/rules.html?lang=fr" text="Use decision rules"-->
+>additional-url="https://experienceleague.adobe.com/fr/docs/journey-optimizer/using/audiences-profiles-identities/audiences/about-audiences" text="Utiliser des audiences"
+>additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/decisioning/experience-decisioning/rules" text="Utiliser des règles de décision"
 
 Par défaut, tous les profils seront éligibles pour recevoir l’élément de décision; Vous pouvez toutefois utiliser des audiences ou des règles pour limiter l’élément à des profils spécifiques uniquement ; les deux solutions correspondant à différents usages. Pour plus d’informations, développez la section ci-dessous :
 
