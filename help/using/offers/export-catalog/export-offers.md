@@ -123,6 +123,7 @@ Voici la liste de tous les champs qui peuvent être utilisés dans le jeu de don
      **Exemple :** &quot;application/vnd.adobe.photoshop&quot;
 
    * **Langue**
+
      **Champ :** language
      **Titre :** langue
      **Description :** la ou les langues de la ressource. \nLes langues sont spécifiées dans le code de langue comme défini dans [IETF RFC 3066](https://www.ietf.org/rfc/rfc3066.txt), qui fait partie de BCP 47, utilisé ailleurs dans XDM.
@@ -230,7 +231,7 @@ Voici la liste de tous les champs qui peuvent être utilisés dans le jeu de don
 +++_experience > decisioning > profileConstraints > Eligibility Rule
 
 **Champ :** eligibilityRule
-**Titre :**règle d&#39;éligibilité
+**Titre :**&#x200B;règle d&#39;éligibilité
 **Description :** référence à une règle de décision qui renvoie true ou false pour un profil donné et/ou d&#39;autres objets XDM contextuels donnés. La règle est utilisée pour déterminer si l&#39;option est admissible pour un profil donné. La valeur est l&#39;URI (@id) de la règle de décision référencée. Voir le schéma https://ns.adobe.com/experience/decisioning/rule.
 **Type :** Chaîne
 

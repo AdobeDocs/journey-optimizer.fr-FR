@@ -146,7 +146,7 @@ Voici un exemple de requête transmettant des données contextuelles.
 
   ![](assets/context-edge-copy-scope.png)
 
-+++
+  +++
 
 ```
 {
