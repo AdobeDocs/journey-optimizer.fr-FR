@@ -1,15 +1,16 @@
 ---
 title: Créer des offres personnalisées
 description: Découvrez comment créer, configurer et gérer vos offres
+badge: label="Hérité" type="Informative"
 feature: Decision Management
 topic: Integrations
 role: User
 level: Intermediate
 exl-id: 4a53ea96-632a-41c7-ab15-b85b99db4f3e
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+source-git-commit: 87f3da0a1d73f9aa26c7420d260778286bacdf0c
 workflow-type: tm+mt
-source-wordcount: '829'
-ht-degree: 100%
+source-wordcount: '830'
+ht-degree: 99%
 
 ---
 
@@ -60,7 +61,7 @@ Pour créer une **offre**, procédez comme suit :
 
    ![](../assets/create_offer.png)
 
-1. Indiquez le nom de l&#39;offre, ainsi que sa date et son heure de début et de fin. En dehors de ces dates, l’offre ne sera pas sélectionnée par le moteur de décision.
+1. Indiquez le nom de l’offre, ainsi que sa date et son heure de début et de fin. En dehors de ces dates, l’offre ne sera pas sélectionnée par le moteur de décision.
 
    >[!NOTE]
    >
@@ -172,4 +173,4 @@ Vous pouvez ainsi accéder à des informations détaillées sur cette offre. Sé
 
 ## Tutoriel vidéo {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/341347?quality=12&captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/329375?quality=12)

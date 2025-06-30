@@ -1,15 +1,16 @@
 ---
 title: Utilisation d’offres personnalisées dans un e-mail
 description: Découvrez un exemple complet montrant toutes les étapes nécessaires pour configurer des offres et les utiliser dans un e-mail.
+badge: label="Hérité" type="Informative"
 feature: Decision Management, Email
 topic: Integrations
 role: User
 level: Intermediate
 exl-id: 851d988a-2582-4c30-80f3-b881d90771be
-source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
-workflow-type: ht
-source-wordcount: '1100'
-ht-degree: 100%
+source-git-commit: 87f3da0a1d73f9aa26c7420d260778286bacdf0c
+workflow-type: tm+mt
+source-wordcount: '1101'
+ht-degree: 99%
 
 ---
 

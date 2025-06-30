@@ -3,14 +3,15 @@ product: experience platform
 solution: Experience Platform
 title: Données contextuelles et requêtes Edge Decisioning
 description: Découvrez comment transmettre des données contextuelles dans les requêtes Edge Decisioning.
+badge: label="Hérité" type="Informative"
 feature: Decision Management
 role: Developer, Data Engineer
 level: Experienced
 exl-id: c9e14d4d-f2e2-43f9-b1c5-4b005ce858ad
-source-git-commit: 12a36b38958e2a3cdb702b4789a1a6dadf45e911
-workflow-type: ht
-source-wordcount: '812'
-ht-degree: 100%
+source-git-commit: 87f3da0a1d73f9aa26c7420d260778286bacdf0c
+workflow-type: tm+mt
+source-wordcount: '813'
+ht-degree: 96%
 
 ---
 
@@ -50,11 +51,11 @@ Contrairement à la transmission du contexte dans un format assez libre à l’a
 
    ![](assets/context-edge-xdm.png){width="60%" align="center" zoomable="yes"}
 
-   Découvrez comment utiliser les schémas dans le guide d’Adobe Experience Platform sur le [Modèle de données d’expérience (XDM)](https://experienceleague.adobe.com/fr/docs/experience-platform/xdm/home){target="_blank"}.
+   Découvrez comment utiliser les schémas dans le guide Adobe Experience Platform [Modèle de données d’expérience (XDM)](https://experienceleague.adobe.com/fr/docs/experience-platform/xdm/home){target="_blank"}
 
 1. Créez un jeu de données (ici, « Contexte de l’offre ») et assurez-vous qu’il est activé pour le profil.
 
-1. Créez un train de données à partir du menu **[!UICONTROL Collecte de données]** > **[!UICONTROL Trains de données]**. Découvrez comment créer et configurer un train de données dans le [Guide d’Adobe Experience Platform sur les trains de données](https://experienceleague.adobe.com/fr/docs/experience-platform/datastreams/configure){target="_blank"}.
+1. Créez un train de données à partir du menu **[!UICONTROL Collecte de données]** > **[!UICONTROL Trains de données]**. Découvrez comment créer et configurer un flux de données dans Adobe Experience Platform [Guide des flux de données](https://experienceleague.adobe.com/fr/docs/experience-platform/datastreams/configure){target="_blank"}
 
    Ici, nous avons créé un train de données « Contexte de l’offre », avec le schéma d’événement « Contenu de l’offre » sélectionné.
 

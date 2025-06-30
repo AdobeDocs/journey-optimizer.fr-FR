@@ -1,15 +1,16 @@
 ---
 title: Étapes clés de la création d’une offre
 description: Découvrez les étapes clés nécessaires à la création dʼune offre.
+badge: label="Hérité" type="Informative"
 feature: Decision Management
 topic: Integrations
 role: User
 level: Intermediate
 exl-id: e375fd3a-b10d-45f4-a95b-ceb48116e841
-source-git-commit: 4847415fa33ebf1c21622ebf4faecafd4decc8d3
+source-git-commit: 87f3da0a1d73f9aa26c7420d260778286bacdf0c
 workflow-type: tm+mt
-source-wordcount: '325'
-ht-degree: 100%
+source-wordcount: '326'
+ht-degree: 99%
 
 ---
 

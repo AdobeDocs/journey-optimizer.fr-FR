@@ -3,14 +3,15 @@ product: experience platform
 solution: Experience Platform
 title: Requêtes de données contextuelles et de décision
 description: Découvrez comment transmettre des données contextuelles dans les requêtes de décision.
+badge: label="Hérité" type="Informative"
 feature: Decision Management
 role: Developer, Data Engineer
 level: Experienced
 exl-id: 45d060ce-0a12-4a6e-a594-ec10cdff8f38
-source-git-commit: c3d256fcd06eb096a589d1154a0a4c97462005a9
+source-git-commit: 87f3da0a1d73f9aa26c7420d260778286bacdf0c
 workflow-type: tm+mt
-source-wordcount: '154'
-ht-degree: 100%
+source-wordcount: '155'
+ht-degree: 99%
 
 ---
 

@@ -1,15 +1,16 @@
 ---
 title: Création d’offres de secours
 description: Découvrez comment créer des offres de secours à afficher pour les clients qui ne sont éligibles à aucune offre.
+badge: label="Hérité" type="Informative"
 feature: Decision Management
 topic: Integrations
 role: User
 level: Intermediate
 exl-id: 9ba16ad9-a5e7-4ce7-8ed6-7707d37178c6
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
-workflow-type: ht
+source-git-commit: 87f3da0a1d73f9aa26c7420d260778286bacdf0c
+workflow-type: tm+mt
 source-wordcount: '300'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -57,5 +58,5 @@ Pour créer une offre de secours, procédez comme suit :
 
 ## Vidéo pratique {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/341348?quality=12&captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/329383?quality=12)
 

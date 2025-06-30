@@ -3,14 +3,15 @@ product: experience platform
 solution: Experience Platform
 title: Créer des modèles d’IA
 description: Découvrez comment créer des modèles d’IA pour classer les offres.
+badge: label="Hérité" type="Informative"
 feature: Ranking, Decision Management
 role: User
 level: Intermediate
 exl-id: 81d07ec8-e808-4bc6-97b1-b9f7db2aec22
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
-workflow-type: ht
+source-git-commit: 87f3da0a1d73f9aa26c7420d260778286bacdf0c
+workflow-type: tm+mt
 source-wordcount: '480'
-ht-degree: 100%
+ht-degree: 92%
 
 ---
 
@@ -68,7 +69,7 @@ Pour créer un modèle d’IA, procédez comme suit :
 
 1. Si vous créez un modèle d’IA **[!UICONTROL Optimisation personnalisée]**, sélectionnez le ou les segments à utiliser pour entraîner le modèle d’IA.
 
-   ➡️ [Découvrez cette fonctionnalité en vidéo](#video)
+   ➡️ [Découvrez cette fonctionnalité en vidéo.](#video)
 
    ![](../assets/ai-ranking-segments.png)
 
@@ -86,7 +87,7 @@ Pour créer un modèle d’IA, procédez comme suit :
 * defined which type of event you want to capture - offer displayed (impression) and/or offer clicked (conversion),
 * and in which dataset you want to collect the event data.-->
 
-Désormais, chaque fois quʼune offre est présentée et/ou qu’un utilisateur ou une utilisatrice clique dessus, lʼévénement correspondant sera automatiquement capturé par le groupe de champs **[!UICONTROL Événement dʼexpérience - Interactions de proposition]** à lʼaide du [SDK web d’Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/edge/web-sdk-faq.html?lang=fr#what-is-adobe-experience-platform-web-sdk%3F){target="_blank"} ou du SDK mobile.
+Désormais, chaque fois qu’une offre s’affiche et/ou fait l’objet d’un clic, vous souhaitez que l’événement correspondant soit automatiquement capturé par le groupe de champs **[!UICONTROL Événement d’expérience - Interactions de proposition]** à l’aide du [SDK Web Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/edge/web-sdk-faq.html?lang=fr#what-is-adobe-experience-platform-web-sdk%3F){target="_blank"} ou de Mobile SDK.
 
 Pour envoyer des types d’événement (offre affichée ou offre ayant fait l’objet d’un clic), vous devez définir la valeur correcte pour chaque type d’événement dans un événement d’expérience qui est envoyé dans Adobe Experience Platform. [Voici comment procéder.](../data-collection/schema-requirement.md)
 
@@ -94,4 +95,4 @@ Pour envoyer des types d’événement (offre affichée ou offre ayant fait l�
 
 Découvrez comment créer un modèle d’optimisation personnalisé et comment l’appliquer à une décision.
 
->[!VIDEO](https://video.tv.adobe.com/v/3445953?quality=12&captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/3419954?quality=12)

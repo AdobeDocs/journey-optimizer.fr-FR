@@ -1,14 +1,15 @@
 ---
 title: Utilisation d’audiences de chargement personnalisé pour la prise de décision
 description: Découvrez comment utiliser des audiences de chargement personnalisé pour la prise de décision.
+badge: label="Hérité" type="Informative"
 feature: Decision Management
 role: User
 level: Intermediate
 exl-id: bd950410-691b-49d8-8851-8c6c448c00fd
-source-git-commit: f5df65a0225754ab66fb2ffa33c5130f7137b644
+source-git-commit: 87f3da0a1d73f9aa26c7420d260778286bacdf0c
 workflow-type: tm+mt
-source-wordcount: '532'
-ht-degree: 100%
+source-wordcount: '533'
+ht-degree: 98%
 
 ---
 
@@ -23,7 +24,7 @@ Les données des audiences de chargement personnalisé peuvent être utilisées 
 
 Pour plus d’informations sur les audiences de chargement personnalisé, reportez-vous aux sections :
 * [Commencer avec les audiences et Journey Optimizer](../audience/about-audiences.md)
-* [Import d’une audience dans Adobe Experience Platform](https://experienceleague.adobe.com/fr/docs/experience-platform/segmentation/ui/audience-portal#import-audience){target="_blank"}
+* [Importation d’une audience dans Adobe Experience Platform](https://experienceleague.adobe.com/fr/docs/experience-platform/segmentation/ui/audience-portal#import-audience){target="_blank"}
 
 ## À lire absolument {#must-read}
 

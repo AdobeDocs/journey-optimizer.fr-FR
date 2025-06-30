@@ -3,14 +3,15 @@ product: experience platform
 solution: Experience Platform
 title: Commencer avec les données contextuelles
 description: Découvrez comment utiliser les données contextuelles dans la gestion des décisions.
+badge: label="Hérité" type="Informative"
 feature: Decision Management
 role: Developer, Data Engineer
 level: Experienced
 exl-id: 4e736f9d-0f05-4a79-8ebf-ea22517d78a9
-source-git-commit: c3d256fcd06eb096a589d1154a0a4c97462005a9
-workflow-type: ht
-source-wordcount: '209'
-ht-degree: 100%
+source-git-commit: 87f3da0a1d73f9aa26c7420d260778286bacdf0c
+workflow-type: tm+mt
+source-wordcount: '210'
+ht-degree: 99%
 
 ---
 

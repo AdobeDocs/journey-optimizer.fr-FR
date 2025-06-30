@@ -1,15 +1,16 @@
 ---
 title: Créer des emplacements
 description: Découvrez comment créer des emplacements pour vos offres
+badge: label="Hérité" type="Informative"
 feature: Decision Management
 topic: Integrations
 role: User
 level: Intermediate
 exl-id: dfaf887e-d4b3-45b0-8297-bffdb0abff4d
-source-git-commit: 88e7140183700da0283fa00d89f6fff2c71c138f
+source-git-commit: 87f3da0a1d73f9aa26c7420d260778286bacdf0c
 workflow-type: tm+mt
 source-wordcount: '630'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -85,5 +86,5 @@ Pour créer une emplacement, procédez comme suit :
 
 Découvrez comment créer des emplacements pour la gestion des décisions.
 
->[!VIDEO](https://video.tv.adobe.com/v/341382?quality=12&captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/329372?quality=12)
 

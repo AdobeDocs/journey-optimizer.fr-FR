@@ -1,15 +1,16 @@
 ---
 title: Ajouter des représentations à une offre
 description: Découvrez comment ajouter des représentations à vos offres
+badge: label="Hérité" type="Informative"
 feature: Decision Management
 topic: Integrations
 role: User
 level: Intermediate
 exl-id: 718af505-7b7c-495e-8974-bd9c35d796bb
-source-git-commit: 7e9174f8a21c71b8b8e7633d664d5de7d877c240
-workflow-type: ht
-source-wordcount: '809'
-ht-degree: 100%
+source-git-commit: 87f3da0a1d73f9aa26c7420d260778286bacdf0c
+workflow-type: tm+mt
+source-wordcount: '810'
+ht-degree: 99%
 
 ---
 

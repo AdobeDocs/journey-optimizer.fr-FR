@@ -1,15 +1,16 @@
 ---
 title: Créer des décisions
 description: Découvrez comment créer des décisions
+badge: label="Hérité" type="Informative"
 feature: Decision Management
 topic: Integrations
 role: User
 level: Intermediate
 exl-id: 7a217c97-57e1-4f04-a92c-37632f8dfe91
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
-workflow-type: ht
+source-git-commit: 87f3da0a1d73f9aa26c7420d260778286bacdf0c
+workflow-type: tm+mt
 source-wordcount: '2511'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -17,7 +18,7 @@ ht-degree: 100%
 
 Les décisions sont des conteneurs pour vos offres qui s’appuient sur le moteur de décision d’offre pour choisir la meilleure offre à diffuser en fonction de la cible de la diffusion.
 
-➡️ [Découvrez comment créer des activités d&#39;offre dans cette vidéo](#video)
+➡️ [Découvrez comment créer des activités d’offre dans cette vidéo](#video)
 
 La liste des décisions est accessible dans le menu **[!UICONTROL Offres]**> onglet **[!UICONTROL Décisions]**. Des filtres sont disponibles pour vous aider à récupérer les décisions en fonction de leurs statuts ou de leurs dates de début ou de fin.
 
@@ -400,6 +401,6 @@ Vous pouvez ainsi accéder à des informations détaillées sur cette décision.
 
 Découvrez comment créer des activités d’offre dans la gestion de décisions.
 
->[!VIDEO](https://video.tv.adobe.com/v/346693?quality=12&captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/329606?quality=12)
 
 

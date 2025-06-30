@@ -1,15 +1,16 @@
 ---
 title: Jeu de données de décisions
 description: Cette section répertorie tous les champs utilisés dans le jeu de données exporté pour les décisions.
+badge: label="Hérité" type="Informative"
 feature: Decision Management, Datasets
 topic: Integrations
 role: User, Data Engineer
 level: Intermediate
 exl-id: 064762b7-9774-42eb-bcef-1d92bc94a988
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: 87f3da0a1d73f9aa26c7420d260778286bacdf0c
 workflow-type: tm+mt
-source-wordcount: '1530'
-ht-degree: 100%
+source-wordcount: '1531'
+ht-degree: 99%
 
 ---
 
@@ -256,11 +257,11 @@ Vous trouverez ci-dessous la liste de tous les champs qui peuvent être utilisé
 
 +++
 
-+++ _experience > decisioning > Activity End Date and Time
++++ _experience > prise de décision > Date et heure de fin de l’activité
 
-**Champ :** endTime
-**Titre :** date et heure de fin de l&#39;activité
-**Description :** date et heure de fin de la décision (auparavant &#39;&#39;activité&#39;&#39;). La propriété a la sémantique de la propriété « endTime » de schema.org définie sur https://schema.org/Action.
+**Champ** :  endTime
+**Titre** : date et heure de fin de l’activité
+**Description** : date et heure de fin de la décision (auparavant « activité »). La propriété a la sémantique de la propriété « endTime » de schema.org définie sur https://schema.org/Action.
 **Type :** chaîne
 
 +++
@@ -283,10 +284,10 @@ Vous trouverez ci-dessous la liste de tous les champs qui peuvent être utilisé
 
 +++
 
-+++_experience > decisioning > Activity Start Date and Time
++++_experience > prise de décision > Date et heure de début de l’activité
 
 **Champ :** startTime
-**Titre :** date et heure de début de l&#39;activité
+**Titre :** date et heure de début de l’activité
 **Description :** date et heure de début de la décision (auparavant « activité »). La propriété a la sémantique de la propriété « startTime » de schema.org définie sur https://schema.org/Action.
 **Type :** chaîne
 
