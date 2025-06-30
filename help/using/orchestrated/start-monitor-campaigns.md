@@ -6,10 +6,10 @@ description: Découvrez comment démarrer et surveiller des campagnes orchestré
 hide: true
 hidefromtoc: true
 exl-id: 5fc2d1d6-75c3-4b45-bb2b-09982b9bd5ed
-source-git-commit: 02270bddf988e8a722e78d0b63fe157c74b586e4
+source-git-commit: 1c11521ab9f8df9a7147565ddd274f341c56cbdf
 workflow-type: tm+mt
-source-wordcount: '694'
-ht-degree: 18%
+source-wordcount: '670'
+ht-degree: 19%
 
 ---
 
@@ -74,13 +74,6 @@ Le flux visuel redémarre et les profils réels commencent à circuler dans le p
 Lors de l’exécution (en mode test ou actif), le flux visuel montre comment les profils se déplacent dans le parcours en temps réel. Le nombre de profils qui passent d’une tâche à l’autre s’affiche.
 
 ![](assets/workflow-execution.png){zoomable="yes"}
-
-1. Sélectionnez une transition.
-1. Dans le panneau de droite :
-&#x200B;- Cliquez sur **[!UICONTROL Aperçu du schéma]** pour afficher le schéma de la table de travail.
-&#x200B;- Cliquez sur **[!UICONTROL Prévisualiser les résultats]** pour afficher les données transportées.
-
-![](assets/transition.png){zoomable="yes"}
 
 Les données transportées d&#39;une activité à une autre via des transitions sont stockées dans une table de travail temporaire. Ces données peuvent être affichées pour chaque transition. Pour examiner les données transmises entre les activités :
 
