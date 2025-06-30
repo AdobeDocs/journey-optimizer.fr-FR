@@ -6,10 +6,10 @@ description: Découvrez comment utiliser l’activité Lecture d’audience dans
 badge: label="Alpha"
 hide: true
 hidefromtoc: true
-source-git-commit: d0ac966780349ab10c47dd9ea915ca4f5964e938
+source-git-commit: 64f886e733c0bf6ff8fd258fc24310a04397ba55
 workflow-type: tm+mt
-source-wordcount: '147'
-ht-degree: 11%
+source-wordcount: '164'
+ht-degree: 10%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 11%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_read_audience"
 >title="Activité Créer une audience"
->abstract="L&#39;activité **Lecture d&#39;audience** permet de sélectionner une audience existante qui va rejoindre la campagne orchestrée. Lors de l’envoi de messages dans le cadre d’une campagne orchestrée, l’audience du message n’est pas définie dans l’activité de canal, mais dans une activité **Lecture d’audience** ou **Création d’audience**."
+>abstract="L&#39;activité **Lecture d&#39;audience** permet de sélectionner l&#39;audience qui va rejoindre la campagne orchestrée. Il peut s’agir d’une audience Adobe Experience Platform existante ou d’une audience extraite d’un fichier CSV. Lors de l’envoi de messages dans le cadre d’une campagne orchestrée, l’audience du message n’est pas définie dans l’activité de canal, mais dans une activité **Lecture d’audience** ou **Création d’audience**."
 
 
 +++ Table des matières
