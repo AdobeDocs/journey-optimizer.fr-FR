@@ -116,4 +116,4 @@ Pour envoyer des types d’événement (offre affichée ou offre ayant fait l�
 
 Learn how to create a personalized optimization model and how to apply it to a decision.
 
->[!VIDEO](https://video.tv.adobe.com/v/3419954?quality=12)-->
+>[!VIDEO](https://video.tv.adobe.com/v/3445953?quality=12&captions=fre_fr)-->
