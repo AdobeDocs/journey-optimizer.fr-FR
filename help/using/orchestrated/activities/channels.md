@@ -7,10 +7,10 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: ffe1e77c-6c4f-4f23-9183-d715a4c7c402
-source-git-commit: 6059de3366743ac6f5971a6113f3bec0f1e6fb32
+source-git-commit: d8128190a51cac665c9f25b5077185a496ad7849
 workflow-type: tm+mt
-source-wordcount: '899'
-ht-degree: 38%
+source-wordcount: '896'
+ht-degree: 36%
 
 ---
 
@@ -83,7 +83,7 @@ UNUSED IDs in BJ
 
 Pour configurer une diffusion dans le cadre d&#39;une campagne orchestrée, procédez comme suit :
 
-1. Ajoutez une activité de canal : **[!UICONTROL E-mail]**, **[!UICONTROL SMS]**, **[!UICONTROL Notification push (Android)]**, **[!UICONTROL Notification push (iOS)]** ou **[!UICONTROL Courrier]**.
+1. Ajoutez une activité de canal. Les canaux pris en charge sont **[!UICONTROL E-mail]**, **[!UICONTROL SMS]** ou **[!UICONTROL Notification push]**
 
 1. Sélectionnez le **Type de diffusion** : unique ou récurrent.
 
