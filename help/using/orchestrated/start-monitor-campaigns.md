@@ -77,8 +77,8 @@ Lors de l’exécution (en mode test ou actif), le flux visuel montre comment le
 
 1. Sélectionnez une transition.
 1. Dans le panneau de droite :
-- Cliquez sur **[!UICONTROL Aperçu du schéma]** pour afficher le schéma de la table de travail.
-- Cliquez sur **[!UICONTROL Prévisualiser les résultats]** pour afficher les données transportées.
+&#x200B;- Cliquez sur **[!UICONTROL Aperçu du schéma]** pour afficher le schéma de la table de travail.
+&#x200B;- Cliquez sur **[!UICONTROL Prévisualiser les résultats]** pour afficher les données transportées.
 
 ![](assets/transition.png){zoomable="yes"}
 
