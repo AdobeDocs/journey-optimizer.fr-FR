@@ -7,7 +7,7 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: 8c785431-9a00-46b8-ba54-54a10e288141
-source-git-commit: 4cc571b306058dc58454e488ba53bb69117a8b27
+source-git-commit: 4b4363bf89f80ee9203989f1ba66a8062dfd2719
 workflow-type: tm+mt
 source-wordcount: '1142'
 ht-degree: 21%
@@ -37,6 +37,8 @@ Documentation en cours
 Ce guide vous guide tout au long du processus de création d’un schéma relationnel, de configuration d’un jeu de données pour des campagnes orchestrées, d’ingestion de données via une source S3 et d’interrogation des données ingérées dans la plateforme AP.
 
 Dans cet exemple, la configuration comprend l’intégration de deux entités clés, **Transactions de fidélité** et **Récompenses de fidélité**, et leur liaison à des entités de base existantes **Destinataires** et **Marques**.
+
+![](assets/do-not-localize/schema_admin.png)
 
 1. [Charger le fichier DDL](#upload-ddl)
 
@@ -179,7 +181,7 @@ Adobe Experience Platform permet d’ingérer des données à partir de sources 
 
    * Avec un nouveau compte
 
-   [En savoir plus dans la documentation d’Adobe Experience Platform](https://experienceleague.adobe.com/fr/docs/experience-platform/destinations/catalog/cloud-storage/amazon-s3#connect)
+   [En savoir plus dans la documentation d’Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/cloud-storage/amazon-s3#connect)
 
    ![](assets/admin_sources_2.png)
 
