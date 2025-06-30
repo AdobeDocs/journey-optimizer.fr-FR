@@ -6,7 +6,7 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 4c57dbf9-b2a4-42da-8aa3-5a1b3a475a32
-source-git-commit: dbb1a4d649f29b763121c7856cecca16dcd2864f
+source-git-commit: 58f4fdf8ec3cdb609efebf5b8713f6b770ef5414
 workflow-type: tm+mt
 source-wordcount: '516'
 ht-degree: 95%
@@ -56,7 +56,7 @@ Les principales étapes pour utiliser la prise de décision sont les suivantes 
 
    La personne doit alors recevoir un e-mail la redirigeant vers votre instance.
 
-   +++
++++
 
 1. **Configurez des attributs personnalisés** : personnalisez le catalogue d’éléments selon vos besoins spécifiques en configurant des attributs personnalisés dans le schéma du catalogue.
 
@@ -76,7 +76,7 @@ Les principales étapes pour utiliser la prise de décision sont les suivantes 
 
 1. **Mettez en œuvre des méthodes de classement** : créez des méthodes de classement et appliquez-les dans les stratégies de sélection afin de déterminer l’ordre de priorité de sélection des éléments de décision.
 
-   ➡️ [Découvrez comment créer des méthodes de classement.](ranking.md)
+   ➡️ [Découvrez comment créer des méthodes de classement.](ranking/ranking.md)
 
 1. **Créez des stratégies de sélection** : créez des stratégies de sélection qui tirent parti des collections, des règles de décision et des méthodes de classement afin d’identifier les éléments de décision pouvant être affichés dans les profils.
 

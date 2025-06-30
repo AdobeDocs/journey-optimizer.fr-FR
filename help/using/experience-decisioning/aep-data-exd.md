@@ -10,9 +10,9 @@ role: Data Engineer
 level: Intermediate
 keywords: expression, éditeur
 exl-id: 46d868b3-01d2-49fa-852b-8c2e2f54292f
-source-git-commit: ebefeb59a19e831ec7f86cee690a35fe71e14554
+source-git-commit: 58f4fdf8ec3cdb609efebf5b8713f6b770ef5414
 workflow-type: tm+mt
-source-wordcount: '840'
+source-wordcount: '838'
 ht-degree: 4%
 
 ---
@@ -48,7 +48,7 @@ Avant de commencer, prenez note des restrictions et directives suivantes :
 
 Pour utiliser les données d’un jeu de données [!DNL Adobe Experience Platform] pour la prise de décision, vous devez d’abord les activer pour la recherche via un appel API. Pour obtenir des instructions détaillées, consultez cette section : [Utilisation de jeux de données Adobe Experience Platform dans Journey Optimizer](../data/lookup-aep-data.md).
 
-## Utilisation des données Adobe Experience Platform pour la prise de décision
+## Utilisation des données Adobe Experience Platform {#leverage-aep-data}
 
 Une fois qu’un jeu de données est activé pour la recherche, vous pouvez utiliser ses attributs pour enrichir votre logique de décision avec des données externes. Cela s’avère particulièrement utile pour les attributs qui changent fréquemment, tels que la disponibilité des produits ou la tarification en temps réel.
 
@@ -86,7 +86,7 @@ Pour utiliser les données Adobe Experience Platform dans les règles de décisi
 
    ![](assets/exd-lookup-menu.png)
 
-### Formules de classement
+### Formules de classement {#ranking-formulas}
 
 Les formules de classement définissent la priorité des éléments de décision. En utilisant [!DNL Adobe Experience Platform] attributs de jeu de données, vous pouvez ajuster dynamiquement la logique de classement pour refléter des conditions réelles.
 
@@ -107,6 +107,6 @@ Pour utiliser les données de Adobe Experience Platform dans les formules de cla
    >
    >Vous pouvez créer jusqu’à 3 mappages par formule de classement.
 
-1. Utilisez les champs du jeu de données pour créer votre formule de classement comme d’habitude. [Découvrez comment créer une formule de classement](../experience-decisioning/exd-ranking-formulas.md#create-ranking-formula)
+1. Utilisez les champs du jeu de données pour créer votre formule de classement comme d’habitude. [Découvrez comment créer une formule de classement](ranking/ranking-formulas.md#create-ranking-formula)
 
    ![](assets/exd-lookup-formula-criteria.png)

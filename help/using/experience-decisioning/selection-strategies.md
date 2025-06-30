@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 1b73b398-050a-40bb-a8ae-1c66e3e26ce8
-source-git-commit: e63a21b5dcc8f227d56c696c8fd0825c75684189
-workflow-type: ht
-source-wordcount: '733'
-ht-degree: 100%
+source-git-commit: 58f4fdf8ec3cdb609efebf5b8713f6b770ef5414
+workflow-type: tm+mt
+source-wordcount: '729'
+ht-degree: 96%
 
 ---
 
@@ -98,9 +98,9 @@ Si plusieurs offres sont éligibles pour une stratégie de sélection donnée, v
 
 ### Priorité des offres {#offer-priority}
 
-Par défaut, lorsque plusieurs offres sont éligibles pour un emplacement donné dans une politique de décision, les éléments ayant la **priorité** la plus élevée sont diffusés en premier aux clientes et aux clients.
+Par défaut, lorsque plusieurs offres sont éligibles dans une politique de décision, les éléments avec la **priorité** la plus élevée sont diffusés en premier aux clients.
 
-![](assets/item-priority.png)
+![](assets/item-priority.png){width=85%}
 
 Les scores de priorité des offres sont attribués lors de la création d’un [élément de décision](items.md).
 
@@ -108,17 +108,17 @@ Les scores de priorité des offres sont attribués lors de la création d’un [
 
 En plus de la priorité d’offre, Journey Optimizer vous permet de créer des **formules de classement**. Ces formules déterminent quelle offre doit être présentée en premier pour un emplacement donné au lieu de prendre en compte les scores de priorité des offres.
 
-Par exemple, vous pouvez augmenter la priorité de toutes les offres dont la date de fin est inférieure à 24 heures, ou remonter les offres de la catégorie « en cours » si le point ciblé du profil est « en cours ». Découvrez comment créer une formule de classement dans [cette section](exd-ranking-formulas.md).
+Par exemple, vous pouvez augmenter la priorité de toutes les offres dont la date de fin est inférieure à 24 heures, ou remonter les offres de la catégorie « en cours » si le point ciblé du profil est « en cours ». Découvrez comment créer une formule de classement dans [cette section](ranking/ranking-formulas.md).
 
 Une fois créée, vous pouvez utiliser cette formule dans une stratégie de sélection. Si plusieurs offres sont éligibles à la présentation lors de l’utilisation de cette stratégie de sélection, la décision emploiera la formule sélectionnée pour calculer l’offre à présenter en premier.
 
 ### Classement par l’IA {#ai-ranking}
 
-Vous pouvez également utiliser un système de modèles formés qui classe automatiquement les offres à afficher pour un profil donné en sélectionnant un modèle d’IA. Découvrez comment créer un modèle d’IA dans [cette section](../offers/ranking/ai-models.md).
+Vous pouvez également utiliser un système de modèles formés qui classe automatiquement les offres à afficher pour un profil donné en sélectionnant un modèle d’IA. Découvrez comment créer un modèle d’IA dans [cette section](ranking/create-ai-models.md).
 
 Une fois qu’un modèle d’IA a été créé, vous pouvez l’utiliser dans une stratégie de sélection. Si plusieurs offres sont éligibles, le système de modèles formés détermine l’offre qui doit être présentée en premier pour la stratégie de sélection.
 
 >[!NOTE]
 >
->Actuellement, le rapport [Mesure de l’effet élévateur](../offers/ranking/auto-optimization-model.md#lift) n’est disponible que pour le modèle d’IA [Optimisation personnalisée](../offers/ranking/personalized-optimization-model.md).
+>Actuellement, le rapport [Mesure de l’effet élévateur](ranking/auto-optimization-model.md#lift) n’est disponible que pour le modèle d’IA [Optimisation personnalisée](ranking/personalized-optimization-model.md).
 

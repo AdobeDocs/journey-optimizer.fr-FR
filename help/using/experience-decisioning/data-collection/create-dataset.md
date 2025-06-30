@@ -8,7 +8,8 @@ role: Data Engineer, Developer
 level: Experienced
 hide: true
 hidefromtoc: true
-source-git-commit: e5c457494d5d79d1a7951b9172c39c91007e2651
+exl-id: 96c1326f-be40-4738-8997-a67dc14872bb
+source-git-commit: 58f4fdf8ec3cdb609efebf5b8713f6b770ef5414
 workflow-type: tm+mt
 source-wordcount: '255'
 ht-degree: 85%
@@ -54,7 +55,7 @@ Commencez par créer le schéma qui sera utilisé dans votre jeu de données :
 >
 >En savoir plus sur la création de schémas dans [Principes de base de la composition des schémas](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html?lang=fr#understanding-schemas){target="_blank"}.
 
-vous êtes maintenant prêt à créer un jeu de données à l’aide de ce schéma. Pour ce faire, procédez comme suit :
+Vous êtes maintenant prêt à créer un jeu de données à l’aide de ce schéma. Pour ce faire, procédez comme suit :
 
 1. Dans le menu **[!UICONTROL Gestion des données]**, sélectionnez **[!UICONTROL Jeux de données]** et accédez à l’onglet **[!UICONTROL Parcourir]**.
 
@@ -70,4 +71,4 @@ vous êtes maintenant prêt à créer un jeu de données à l’aide de ce sché
 
 >[!NOTE]
 >
->Ce jeu de données peut désormais être sélectionné pour collecter des données d’événement lors de la création d’un modèle d’IA<!--add link to Creat AI models section-->.
+>Ce jeu de données peut désormais être sélectionné pour collecter des données d’événement lors de la création d’un modèle [AI](../ranking/create-ai-models.md).

@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: bae533c5-1bfc-48bf-9f8d-1145383c040c
-source-git-commit: 7e378cbda6ee2379a8bd795588c328cb14107aa4
+source-git-commit: 58f4fdf8ec3cdb609efebf5b8713f6b770ef5414
 workflow-type: tm+mt
 source-wordcount: '6783'
 ht-degree: 100%
@@ -342,7 +342,7 @@ Cette version est fournie avec les améliorations répertoriées ci-dessous.
 
 **Prise de décision**
 
-* Les utilisateurs et utilisatrices d’[Adobe Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html?lang=fr) peuvent désormais choisir des modèles personnalisés à optimiser lors de la configuration d’un modèle IA dans la prise de décision (anciennement appelée Décisions pour les expériences). Cela vous permet, par exemple, d’optimiser un tableau personnalisé « achats » plutôt que des contraintes définies telles que le taux de clics. [En savoir plus](../experience-decisioning/ranking.md)
+* Les utilisateurs et utilisatrices d’[Adobe Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html?lang=fr) peuvent désormais choisir des modèles personnalisés à optimiser lors de la configuration d’un modèle IA dans la prise de décision (anciennement appelée Décisions pour les expériences). Cela vous permet, par exemple, d’optimiser un tableau personnalisé « achats » plutôt que des contraintes définies telles que le taux de clics. [En savoir plus](../experience-decisioning/ranking/ranking.md)
 
 * Lors de l’ajout d’une politique de décision à une campagne basée sur du code avec la prise de décision, vous pouvez désormais sélectionner manuellement des éléments de décision uniques, en plus des stratégies de sélection. En outre, vous pouvez désormais sélectionner plusieurs offres de secours. Cela garantit qu’un certain nombre d’éléments de décision sont renvoyés. [En savoir plus](../experience-decisioning/create-decision.md)
 

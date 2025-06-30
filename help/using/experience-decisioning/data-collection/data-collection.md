@@ -7,10 +7,11 @@ role: User, Data Engineer, Developer
 level: Experienced
 hide: true
 hidefromtoc: true
-source-git-commit: e5c457494d5d79d1a7951b9172c39c91007e2651
+exl-id: 32e3a5b9-0633-48df-95b5-c03536be23a1
+source-git-commit: 58f4fdf8ec3cdb609efebf5b8713f6b770ef5414
 workflow-type: tm+mt
 source-wordcount: '378'
-ht-degree: 83%
+ht-degree: 86%
 
 ---
 
@@ -22,7 +23,7 @@ Vous pouvez collecter des commentaires concernant la prise de décisions sur les
 
 * élaborer des [rapports de prise de décision](../cja-reporting.md) ;
 * Utilisation des règles [capping](../items.md#capping) ;
-* Créer des modèles d’IA<!--add link--> qui peuvent être utilisés comme méthode de classement.
+* créer des [modèles d’IA](../ranking/ai-models.md) qui peuvent être utilisés comme méthode de classement.
 
 ## Types d’événements
 
