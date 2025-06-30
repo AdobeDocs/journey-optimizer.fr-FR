@@ -6,10 +6,10 @@ description: Découvrez comment démarrer et surveiller des campagnes orchestré
 hide: true
 hidefromtoc: true
 exl-id: 5fc2d1d6-75c3-4b45-bb2b-09982b9bd5ed
-source-git-commit: f8afef4729e50b7c9899bf7f2fe282347220dfac
+source-git-commit: 02270bddf988e8a722e78d0b63fe157c74b586e4
 workflow-type: tm+mt
-source-wordcount: '780'
-ht-degree: 35%
+source-wordcount: '694'
+ht-degree: 18%
 
 ---
 
@@ -36,36 +36,62 @@ Une fois que vous avez créé et conçu les tâches à effectuer dans la zone de
 
 Vous pouvez également exécuter la campagne en mode test pour vérifier son exécution et le résultat des différentes activités.
 
-## Tester et publier la campagne orchestrée {#test}
+## Tester votre campagne avant la publication {#test}
 
-Journey Optimizer vous permet de tester vos campagnes orchestrées avant de les publier. Vous pouvez ainsi vérifier l’exécution et le résultat des différentes tâches composant la campagne, et cela n’a aucun impact fonctionnel : toutes les activités de la zone de travail sont exécutées, à l’exception des activités ayant un impact telles que **[!UICONTROL Sauvegarde d’audience]** et activités de canal.
+Journey Optimizer vous permet de tester les campagnes orchestrées avant leur mise en ligne. En mode test, toutes les activités de la zone de travail sont exécutées, à l’exception des activités **[!UICONTROL Sauvegarde d’audience]** et des activités de canal. Il n’y a aucun impact fonctionnel sur vos données ou votre audience.
 
-Pour démarrer une campagne orchestrée en mode test, ouvrez la campagne orchestrée, puis cliquez sur le bouton **[!UICONTROL Démarrer]**.
+Pour tester une campagne :
+
+1. Ouvrez la campagne orchestrée.
+2. Cliquez sur **[!UICONTROL Démarrer]**.
 
 ![](assets/campaign-start.png){zoomable="yes"}
 
-Une fois la campagne orchestrée en cours d’exécution, chaque activité de la zone de travail est exécutée dans un ordre séquentiel, jusqu’à ce que la fin de la campagne orchestrée soit atteinte.
+Chaque activité de la campagne est exécutée de manière séquentielle jusqu’à ce que la fin du diagramme soit atteinte. Lors de l’exécution du test, vous pouvez gérer la campagne à l’aide de la barre d’actions de la zone de travail. Plusieurs possibilités sʼoffrent alors à vous :
 
-Lorsque votre campagne est prête à être publiée, cliquez sur le bouton **[!UICONTROL Publier]**. Le flux visuel dans la zone de travail redémarre, ce qui vous permet d’afficher la progression des profils dans le diagramme.
+* **Arrêter** l’exécution à tout moment.
+* **Démarrez** l’exécution à nouveau.
+* **Reprendre** l’exécution si elle a été précédemment suspendue en raison d’un problème.
 
-## Flux visuel des campagnes orchestrées
+Si une erreur ou un avertissement se produit lors de l’exécution, vous êtes averti(e) via l’icône **[!UICONTROL Alertes]** / **[!UICONTROL Avertissement]** dans la barre d’outils de la zone de travail.
 
-Lorsqu’une campagne orchestrée est en cours d’exécution, en mode test ou de production, vous pouvez suivre la progression des profils ciblés par le biais des différentes tâches en temps réel à l’aide d’un flux visuel. Vous pouvez ainsi identifier rapidement le statut de chaque activité et le nombre de profils qu’elle contient.
+![](assets/campaign-warning.png){zoomable="yes"}
+
+Vous pouvez également identifier rapidement les activités ayant échoué à l’aide des [indicateurs visuels de statut](#activities) affichés directement sur chaque activité. Pour obtenir un dépannage détaillé, ouvrez les [journaux de la campagne](#logs-tasks) qui fournissent des informations détaillées sur l’erreur et son contexte.
+
+## Publication de la campagne {#publish}
+
+Une fois votre campagne testée et prête, cliquez sur **[!UICONTROL Publier]** pour la rendre active.
+
+![](assets/campaign-publish.png){zoomable="yes"}
+
+Le flux visuel redémarre et les profils réels commencent à circuler dans le parcours en temps réel.
+
+## Surveiller l’exécution des campagnes {#monitor}
+
+### Surveillance visuelle du flux {#flow}
+
+Lors de l’exécution (en mode test ou actif), le flux visuel montre comment les profils se déplacent dans le parcours en temps réel. Le nombre de profils qui passent d’une tâche à l’autre s’affiche.
 
 ![](assets/workflow-execution.png){zoomable="yes"}
 
-Les données transportées d&#39;une activité à une autre via des transitions sont stockées dans une table de travail temporaire. Ces données peuvent être affichées pour chaque transition. Pour cela, sélectionnez une transition pour ouvrir ses propriétés dans la partie droite de l’écran.
-
-* Cliquez sur **[!UICONTROL Aperçu du schéma]** pour afficher le schéma de la table de travail.
-* Cliquez sur **[!UICONTROL Aperçu des résultats]** pour visualiser les données véhiculées dans la transition sélectionnée.
+1. Sélectionnez une transition.
+1. Dans le panneau de droite :
+- Cliquez sur **[!UICONTROL Aperçu du schéma]** pour afficher le schéma de la table de travail.
+- Cliquez sur **[!UICONTROL Prévisualiser les résultats]** pour afficher les données transportées.
 
 ![](assets/transition.png){zoomable="yes"}
 
-## Surveiller l’exécution de la campagne
+Les données transportées d&#39;une activité à une autre via des transitions sont stockées dans une table de travail temporaire. Ces données peuvent être affichées pour chaque transition. Pour examiner les données transmises entre les activités :
 
-### Surveiller l’exécution des activités {#activities}
+1. Sélectionnez une transition.
+1. Dans le volet des propriétés, cliquez sur **[!UICONTROL Aperçu du schéma]** pour afficher le schéma de la table de travail. Sélectionnez **[!UICONTROL Prévisualiser les résultats]** pour afficher les données transportées.
 
-Les indicateurs visuels présents dans chaque boîte d&#39;activité permettent de vérifier leur exécution :
+![](assets/transition.png){zoomable="yes"}
+
+### Indicateurs d’exécution d’activité {#activities}
+
+Les indicateurs visuels de statut vous aident à comprendre les performances de chaque activité :
 
 | Indicateur visuel | Description |
 |-----|------------|
@@ -74,32 +100,22 @@ Les indicateurs visuels présents dans chaque boîte d&#39;activité permettent 
 | ![](assets/activity-status-red.png){zoomable="yes"}{width="70%"} | L’activité a rencontré une erreur. Pour résoudre ce problème, ouvrez les journaux de campagne orchestrés pour plus d’informations. |
 | ![](assets/activity-status-green.png){zoomable="yes"}{width="70%"} | L’activité a été exécutée correctement. |
 
-### Surveiller les logs et les tâches {#logs-tasks}
+### Logs et tâches {#logs-tasks}
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_logs"
 >title="Logs et tâches"
->abstract="L’écran **Logs et tâches** fournit un historique de l’exécution de la campagne orchestrée : il consigne toutes les actions de l’utilisateur ou de l’utilisatrice, ainsi que les erreurs rencontrées."
+>abstract="L’écran **Logs et tâches** fournit un historique de l’exécution de la campagne orchestrée, enregistrant toutes les actions des utilisateurs et utilisatrices ainsi que les erreurs rencontrées."
 
-La surveillance des logs et des tâches est une étape essentielle pour analyser vos campagnes orchestrées et vérifier qu’elles s’exécutent correctement. Les logs sont accessibles à partir de l’icône **[!UICONTROL Logs]**, située dans la barre d’outils d’actions et dans le volet des propriétés de chaque activité.
+La surveillance des logs et des tâches est une étape essentielle pour analyser vos campagnes orchestrées et vérifier qu’elles s’exécutent correctement. Les journaux et les tâches sont accessibles à partir du bouton **[!UICONTROL Journaux]** disponible en mode test et actif dans la barre d’outils de la zone de travail ou dans le volet des propriétés de chaque activité.
 
-Le menu **[!UICONTROL Logs et tâches]** fournit un historique de l’exécution de la campagne orchestrée, enregistrant toutes les actions des utilisateurs et utilisatrices ainsi que les erreurs rencontrées.
+L’écran **[!UICONTROL Logs et tâches]** fournit un historique complet de l’exécution de votre campagne, enregistrant toutes les actions des utilisateurs et les erreurs rencontrées.
 
 ![](assets/workflow-logs.png){zoomable="yes"}
 
 Deux types d’informations sont disponibles :
 
-* L’onglet **[!UICONTROL Log]** contient l’historique de l’exécution de toutes les activités de la campagne orchestrée. Il répertorie par ordre chronologique les opérations réalisées et les erreurs d’exécution.
-* L’onglet **[!UICONTROL Tâches]** permet de voir le séquencement de l’exécution des activités.
+* L’onglet **[!UICONTROL Log]** contient l’historique chronologique de toutes les opérations et erreurs.
+* L’onglet **[!UICONTROL Tâches]** détaille la séquence d’exécution étape par étape des activités.
 
 Sous les deux onglets, vous pouvez choisir les colonnes à afficher et leur ordre, appliquer des filtres et trouver rapidement des informations à l’aide du champ de recherche.
-
-## Commandes d’exécution de campagne orchestrées {#execution-commands}
-
-La barre d’actions située dans le coin supérieur droit propose des commandes qui vous permettent de gérer l’exécution orchestrée de la campagne. Vous pouvez effectuer les actions suivantes :
-
-* **[!UICONTROL Démarrer]** / **[!UICONTROL Reprendre]** l&#39;exécution de la   campagne orchestrée, qui adopte alors le statut En cours . Si la campagne orchestrée a été suspendue, elle est reprise, sinon elle est lancée et les activités initiales sont alors activées.
-
-* **[!UICONTROL Pause]** l’exécution de la campagne orchestrée, qui adopte alors le statut En pause. Aucune nouvelle activité ne sera activée jusqu’à la prochaine reprise, mais les opérations en cours ne sont pas suspendues.
-
-* **[!UICONTROL Arrêter]** une campagne orchestrée en cours d’exécution, qui adopte alors le statut Terminé. Les opérations en cours sont interrompues si possible. Vous ne pouvez pas reprendre à partir de la campagne orchestrée à l’endroit où elle a été arrêtée.
