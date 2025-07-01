@@ -150,7 +150,7 @@ Le texte enrichi tel que les sauts de ligne, le gras, l’italique, etc. peut ê
 
 1. Créez un [fragment](create-fragments.md) visuel et commencez à ajouter des composants.
 
-1. Ajoutez un composant HTML [](../email/content-components.md#HTML) et ouvrez l’éditeur HTML.
+1. Ajoutez un composant HTML [&#128279;](../email/content-components.md#HTML) et ouvrez l’éditeur HTML.
 
 1. Accédez au menu **[!UICONTROL Fonctions d’assistance]** dans le volet de navigation de gauche et ajoutez la fonction d’assistance **intégrée**.
 
