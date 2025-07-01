@@ -7,10 +7,10 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: 7b42d317-cd01-4c6a-b61e-5b03e5a8ff3c
-source-git-commit: f64fa51fa753fe62eecb6199946615f4d5c4f767
+source-git-commit: a1da25455621c02656706b95dcefe241370a6ac6
 workflow-type: tm+mt
-source-wordcount: '717'
-ht-degree: 18%
+source-wordcount: '695'
+ht-degree: 20%
 
 ---
 
@@ -77,9 +77,6 @@ Chaque campagne orchestrée contient :
 ## Statuts des campagnes {#status}
 
 Les campagnes orchestrées peuvent avoir plusieurs statuts :
-
-la récurrence commence à s&#39;executer , fait une requête .click close : va continuer et se termine quand elle sera allée jusqu&#39;au bout du diagramme
-
 
 * **[!UICONTROL Brouillon]** : la campagne orchestrée a été créée. Il n’a pas encore été publié.
 * **[!UICONTROL Publication]** : la campagne orchestrée est en cours de publication.
