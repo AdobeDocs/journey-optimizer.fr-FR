@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 25a00f74-ed08-479c-9a5d-4185b5f3c684
-source-git-commit: 428e08ca712724cb0b3453681bee1c7e86ce49dc
+source-git-commit: 7a8a0c133318b0bfc33b0fdb294e5b9ef53de9a5
 workflow-type: tm+mt
-source-wordcount: '713'
-ht-degree: 100%
+source-wordcount: '715'
+ht-degree: 91%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 100%
 
 Un fragment est un composant réutilisable pouvant être référencé dans un ou plusieurs e-mails dans des campagnes, des parcours ou des modèles de contenu de Journey Optimizer. Cette fonctionnalité permet de créer en avance plusieurs blocs de contenu personnalisés qui peuvent être utilisés par des personnes chargées du marketing pour assembler rapidement les contenus d’e-mail dans un processus de conception amélioré. [Découvrez comment créer et gérer des fragments](../content-management/fragments.md).
 
-➡️ [Découvrez comment gérer, créer et utiliser des fragments dans cette vidéo.](../content-management/fragments.md#video-fragments)
+➡️ [Découvrez comment gérer, créer et utiliser des fragments dans cette vidéo](../content-management/fragments.md#video-fragments)
 
 ## Utiliser un fragment {#use-fragment}
 
@@ -85,11 +85,13 @@ Si certaines parties du fragment sélectionné ont été rendues modifiables, vo
 
 Pour personnaliser les champs modifiables dans un fragment, procédez comme suit :
 
-1. Ajoutez le fragment à votre contenu et sélectionnez-le pour ouvrir le volet des propriétés sur le côté droit.
+1. Ajoutez le fragment à votre contenu.
 
-1. Tous les champs modifiables du fragment sont affichés dans l’onglet **Paramètres** sous la section **Fragment**.
+1. Sélectionnez-le pour ouvrir le volet Propriétés sur le côté droit.
 
-   Les champs modifiables sont surlignés en vert dans le volet de prévisualisation lorsqu’ils sont sélectionnés dans le volet de droite, ce qui facilite l’identification de leur emplacement dans votre contenu.
+   Tous les champs modifiables du fragment sont affichés dans l’onglet **Paramètres** sous la section **Fragment**.
+
+1. Lorsque vous sélectionnez un champ modifiable dans le volet de droite, il est mis en surbrillance en vert dans le volet d’aperçu central, ce qui facilite l’identification de son emplacement dans votre contenu.
 
    Dans l’exemple ci-dessous, l’image **source** et le **texte alternatif** peuvent être modifiés, ainsi que l’**URL** du bouton « Cliquez ici ».
 
