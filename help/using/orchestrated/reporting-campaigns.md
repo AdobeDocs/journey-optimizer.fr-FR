@@ -7,7 +7,7 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: 8cb569a2-a4a0-45a5-b7f9-f5a591e44335
-source-git-commit: e01715416659270ddf75eb9fdb8f0eb03063bd7b
+source-git-commit: d4cee2680dbe631d93f43d7d165d6874b9e41a47
 workflow-type: tm+mt
 source-wordcount: '256'
 ht-degree: 14%
@@ -45,8 +45,8 @@ Grâce à ses puissantes fonctionnalités de reporting, la campagne orchestrée 
 
 | Type de rapport | Description |
 |-----|------------|
-| ![](assets/last-24hours.png){zoomable="yes"}{width="70%"} | Utilisez le **[!UICONTROL Rapport dynamique]** pour mesurer et visualiser en temps réel l’impact et les performances de vos campagnes orchestrées dans un tableau de bord intégré. Les données sont disponibles dans le **[!UICONTROL Rapport dynamique]** dès que votre campagne orchestrée est exécutée dans le menu **[!UICONTROL Afficher le rapport des dernières 24 heures]**. En savoir plus sur les rapports dynamiques dans [cette section](live-report.md). |
-| ![](assets/all-time-report.png){zoomable="yes"}{width="70%"} | Les rapports de campagne orchestrés sont entièrement intégrés aux fonctionnalités de Customer Journey Analytics, ce qui permet de normaliser les rapports sur les deux plateformes et d’améliorer la cohérence et la fiabilité des données.  En savoir plus sur les rapports à tout moment [dans cette section](report-gs-cja.md). |
+| ![](assets/last-24hours.png){zoomable="yes"}{width="70%"} | Utilisez le **[!UICONTROL Rapport dynamique]** pour mesurer et visualiser en temps réel l’impact et les performances de vos campagnes orchestrées dans un tableau de bord intégré. Les données sont disponibles dans le **[!UICONTROL Rapport dynamique]** dès que votre campagne orchestrée est exécutée dans le menu **[!UICONTROL Afficher le rapport des dernières 24 heures]**. En savoir plus sur les rapports dynamiques dans [cette section](../reports/live-report.md). |
+| ![](assets/all-time-report.png){zoomable="yes"}{width="70%"} | Les rapports de campagne orchestrés sont entièrement intégrés aux fonctionnalités de Customer Journey Analytics, ce qui permet de normaliser les rapports sur les deux plateformes et d’améliorer la cohérence et la fiabilité des données.  En savoir plus sur les rapports à tout moment [dans cette section](../reports/report-gs-cja.md). |
 
 
 
