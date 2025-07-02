@@ -7,9 +7,9 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: ffe1e77c-6c4f-4f23-9183-d715a4c7c402
-source-git-commit: 1a4cd7df44cb54aaf4d18409574f5ceb9537935c
+source-git-commit: 85d322e5855c6e658a3a93dc0f3d644ef79437b5
 workflow-type: tm+mt
-source-wordcount: '1040'
+source-wordcount: '985'
 ht-degree: 30%
 
 ---
@@ -99,29 +99,13 @@ Pour configurer une diffusion dans le cadre d&#39;une campagne orchestrée, proc
 
    Celle-ci est définie par une [équipe d’administration système](../../start/path/administrator.md). Elle contient tous les paramètres techniques relatifs à l’envoi du message, tels que les paramètres d’en-tête, le sous-domaine, les applications mobiles, etc. [Découvrez comment configurer des configurations de canal](../../configuration/channel-surfaces.md).
 
-1. Plusieurs options sont disponibles en fonction du canal. Parcourez les onglets ci-dessous pour plus d’informations :
-
-   >[!BEGINTABS]
-
-   >[!TAB E-mail]
-
-   Utilisez les options **[!UICONTROL Suivre les ouvertures d’e-mail]** et **[!UICONTROL Suivre les clics sur les liens et les boutons dans les e-mails]** pour suivre la réaction de vos destinataires à votre diffusion.
+1. Pour les e-mails et les SMS, utilisez les options de suivi pour surveiller la réaction des destinataires à vos diffusions e-mail ou SMS.
 
    Les résultats du suivi sont accessibles dans le rapport de la campagne, une fois celle-ci exécutée. [En savoir plus sur les rapports de campagne](../reports/campaign-global-report-cja.md)
 
-   >[!TAB SMS]
+1. Pour les notifications push, utilisez l’option **[!UICONTROL Mode de diffusion rapide]** pour envoyer des messages à grande vitesse sur le canal push pour une taille d’audience inférieure à 30 millions.
 
-   Utilisez l’option **[!UICONTROL Suivre les clics sur les liens dans les SMS]** pour suivre les clics sur les liens dans vos SMS.
-
-   Les résultats du suivi sont accessibles dans le rapport de la campagne, une fois celle-ci exécutée. [En savoir plus sur les rapports de campagne](../reports/campaign-global-report-cja.md)
-
-   >[!TAB Notification push]
-
-   Le mode de diffusion rapide est un module complémentaire **[!DNL Journey Optimizer]** qui permet d’envoyer très rapidement des messages push en grande quantité.
-
-   Activez l’option **[!UICONTROL Mode de diffusion rapide]** pour envoyer des messages à grande vitesse sur le canal push pour une taille d’audience inférieure à 30 millions. [En savoir plus](../push/create-push.md#rapid-delivery)
-
-   >[!ENDTABS]
+   Le mode de diffusion rapide est un module complémentaire **[!DNL Journey Optimizer]** qui permet d’envoyer très rapidement des messages push en grande quantité. [En savoir plus](../push/create-push.md#rapid-delivery)
 
 1. La section **[!UICONTROL Expérience de contenu]** vous permet de définir plusieurs traitements de diffusion afin de mesurer celui qui fonctionne le mieux pour votre audience cible.
 
