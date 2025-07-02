@@ -5,9 +5,9 @@ user-guide-title: Guide de Journey Optimizer
 user-guide-description: Utilisez Journey Optimizer pour créer et proposer aux clients des expériences connectées, contextuelles et personnalisées
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 58f4fdf8ec3cdb609efebf5b8713f6b770ef5414
+source-git-commit: 7a2c5c414dcb63d362f7decebb281d00b72e9ae7
 workflow-type: tm+mt
-source-wordcount: '2490'
+source-wordcount: '2485'
 ht-degree: 97%
 
 ---
@@ -184,7 +184,6 @@ ht-degree: 97%
       + [Étapes clés de création de campagnes orchestrées](using/orchestrated/gs-campaign-creation.md)
       + [Créer et planifier la campagne](using/orchestrated/create-orchestrated-campaign.md)
       + [Orchestrer les activités](using/orchestrated/orchestrate-activities.md)
-      + [Envoyer des messages avec des campagnes orchestrées](using/orchestrated/send-messages.md)
       + [Démarrer et surveiller la campagne](using/orchestrated/start-monitor-campaigns.md)
       + [Création de rapports](using/orchestrated/reporting-campaigns.md)
    + Interroger la base de données {#query-database}
@@ -196,6 +195,7 @@ ht-degree: 97%
       + [Rendez-vous](using/orchestrated/activities/and-join.md)
       + [Créer une audience](using/orchestrated/activities/build-audience.md)
       + [Changement de dimension](using/orchestrated/activities/change-dimension.md)
+      + [Activités de canal](using/orchestrated/activities/channels.md)
       + [Combiner](using/orchestrated/activities/combine.md)
       + [Déduplication](using/orchestrated/activities/deduplication.md)
       + [Enrichissement](using/orchestrated/activities/enrichment.md)
@@ -205,7 +205,6 @@ ht-degree: 97%
       + [Partage](using/orchestrated/activities/split.md)
       + [Test](using/orchestrated/activities/test.md)
       + [Attente](using/orchestrated/activities/wait.md)
-      + [Activités de canal](using/orchestrated/activities/channels.md)
 + Campagnes {#campaigns}
    + [Commencer avec les campagnes](using/campaigns/get-started-with-campaigns.md)
    + [Création d’une campagne](using/campaigns/create-campaign.md)
