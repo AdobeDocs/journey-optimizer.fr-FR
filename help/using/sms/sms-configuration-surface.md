@@ -10,11 +10,11 @@ exl-id: 0d541520-016e-468f-b011-808712847556
 source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
 workflow-type: tm+mt
 source-wordcount: '424'
-ht-degree: 92%
+ht-degree: 93%
 
 ---
 
-# Création d’une configuration SMS/MMS/RCS {#message-preset-sms}
+# Créer une configuration de SMS/MMS/RCS {#message-preset-sms}
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_surface_sms_type"
