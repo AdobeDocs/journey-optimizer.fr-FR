@@ -9,12 +9,12 @@ level: Intermediate
 exl-id: 4dcd22ed-bf7e-4789-ab7b-33544c857db8
 source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
 workflow-type: tm+mt
-source-wordcount: '371'
-ht-degree: 81%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
-# Prise en main de la configuration des SMS/MMS/RCS {#sms-configuration}
+# Commencer avec la configuration des SMS/MMS/RCS {#sms-configuration}
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_sms_api_header"

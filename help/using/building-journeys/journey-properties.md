@@ -11,8 +11,8 @@ keywords: parcours, configuration, propriétés
 exl-id: 6c21371c-6cbc-4d39-8fe6-39f1b8b13280
 source-git-commit: 7d5d27d9509dd80fece2e360d58437d26df7c4de
 workflow-type: tm+mt
-source-wordcount: '2392'
-ht-degree: 95%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 95%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_properties"
 >title="Propriétés du parcours"
->abstract="Cette section présente les propriétés du parcours. Par défaut, les paramètres en lecture seule sont masqués. Les paramètres disponibles dépendent du statut du parcours, de vos autorisations et de la configuration du produit."
+>abstract="Cette section présente les propriétés du parcours. Par défaut, les paramètres en lecture seule sont masqués. Les paramètres disponibles dépendent du statut du parcours, de vos autorisations et de la configuration de votre produit."
 
 ## Accéder aux propriétés d’un parcours {#access-properties}
 
@@ -71,7 +71,7 @@ Par défaut, les nouveaux parcours autorisent la rentrée. Vous pouvez désélec
 >[!CONTEXTUALHELP]
 >id="ajo_journey_properties_re-entrance_wait"
 >title="Période d’attente de rentrée"
->abstract="Définissez le temps d’attente avant d’autoriser un profil à entrer à nouveau dans le parcours en parcours unitaires. Cela empêche les utilisateurs et utilisatrices d’entrer de nouveau dans le parcours pendant une durée donnée. Durée maximale : 90 jours."
+>abstract="Définissez le temps d’attente avant de permettre à un profil de reprendre le parcours dans les parcours unitaires. Cela empêche les utilisateurs et utilisatrices d’entrer de nouveau dans le parcours pendant une durée donnée. Durée maximale : 90 jours."
 >additional-url="https://experienceleague.adobe.com/fr/docs/journey-optimizer/using/orchestrate-journeys/manage-journey/entry-management" text="Gestion des entrées de profil"
 
 Lorsque l’option **Autoriser une rentrée** est activée, le champ **Période d’attente de rentrée** s’affiche. Ce champ vous permet de définir le temps d’attente avant d’autoriser un profil à entrer à nouveau dans un parcours pour les parcours unitaires (en commençant par un événement ou une qualification d’audience). Cela empêche les parcours d’être déclenchés plusieurs fois par erreur pour le même événement. Par défaut, le champ est défini sur 5 minutes. La durée maximale est de 90 jours.
@@ -95,7 +95,7 @@ Le fuseau horaire est défini au niveau du parcours. Vous pouvez entrer un fusea
 >[!CONTEXTUALHELP]
 >id="ajo_journey_properties_start_date"
 >title="Date de début"
->abstract="Sélectionnez la date à laquelle les profils peuvent commencer à rejoindre le parcours. Si aucune date de début n’est définie, la date de publication par défaut est celle du parcours."
+>abstract="Sélectionnez la date à laquelle les profils peuvent commencer à rejoindre le parcours. Si aucune date de début n’est définie, elle correspond par défaut à la date de publication du parcours."
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_properties_end_date"

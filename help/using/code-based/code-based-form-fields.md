@@ -5,10 +5,11 @@ feature: Code-based Experiences
 topic: Content Management
 role: User
 level: Experienced
-source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
+exl-id: 5dd46ea8-acba-4c42-a65a-c18e45cba2cd
+source-git-commit: 158ae930fa87dc0476273bfbb14c96e780281491
 workflow-type: tm+mt
-source-wordcount: '1218'
-ht-degree: 11%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -34,8 +35,8 @@ Lors de l’application du modèle de contenu à leur contenu, les utilisateurs 
 
 >[!CONTEXTUALHELP]
 >id="ajo_cbe_preview_form_fields"
->title="Vérifier le rendu des champs de formulaire"
->abstract="Dans les modèles de contenu JSON ou HTML, vous pouvez définir des champs modifiables spécifiques qui permettront aux utilisateurs non techniques de modifier facilement le contenu des expériences basées sur le code sans avoir à manipuler le code. Créez ces champs à l’aide de la syntaxe dédiée et prévisualisez-les à l’aide de ce bouton."
+>title="Vérifier le rendu de vos champs de formulaire"
+>abstract="Dans les modèles de contenu JSON ou HTML, vous pouvez définir des champs modifiables spécifiques qui permettent aux utilisateurs et aux utilisatrices non spécialistes de modifier facilement le contenu dans les expériences basées sur du code sans avoir à manipuler le code. Créez ces champs à l’aide de la syntaxe dédiée et prévisualisez-les à l’aide de ce bouton."
 
 Pour rendre une partie de votre code JSON ou HTML modifiable, commencez par créer un modèle de contenu d’expérience basé sur du code [modèle de contenu](../content-management/content-templates.md) dans lequel vous pouvez définir des champs de formulaire spécifiques.
 
@@ -201,7 +202,7 @@ Vous trouverez ci-dessous quelques exemples de modèles JSON et HTML, dont certa
 >[!CONTEXTUALHELP]
 >id="ajo_code_based_form_fields"
 >title="Que sont les champs de formulaire ?"
->abstract="Cette expérience basée sur le code contient des champs de formulaire que vous pouvez facilement modifier sans avoir à manipuler le code dans l’éditeur de personnalisation."
+>abstract="Cette expérience basée sur du code contient des champs de formulaire que vous pouvez facilement modifier sans avoir à manipuler le code dans l’éditeur de personnalisation."
 
 Maintenant que le modèle de contenu contenant les champs de formulaire modifiables prédéfinis est créé, vous pouvez créer une expérience basée sur le code à l’aide de ce modèle de contenu.
 
@@ -245,5 +246,4 @@ Vous pourrez facilement modifier les champs de formulaire d’un parcours d’ex
 
 Découvrez comment ajouter des champs modifiables aux modèles de contenu de canal d’expérience codés.
 
->[!VIDEO](https://video.tv.adobe.com/v/3463993/?learn=on&#x26;enablevpops&captions=fre_fr)
-
+>[!VIDEO](https://video.tv.adobe.com/v/3463990/?learn=on&#x26;enablevpops)

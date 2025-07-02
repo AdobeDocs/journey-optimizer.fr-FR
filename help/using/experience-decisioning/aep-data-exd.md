@@ -12,8 +12,8 @@ keywords: expression, éditeur
 exl-id: 46d868b3-01d2-49fa-852b-8c2e2f54292f
 source-git-commit: 58f4fdf8ec3cdb609efebf5b8713f6b770ef5414
 workflow-type: tm+mt
-source-wordcount: '838'
-ht-degree: 4%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -22,12 +22,12 @@ ht-degree: 4%
 >[!CONTEXTUALHELP]
 >id="ajo_exd_rules_dataset_lookup"
 >title="Recherche de jeu de données"
->abstract="L’utilisation des données Adobe Experience Platform dans les règles de décision vous permet de définir des critères d’éligibilité en fonction d’attributs externes dynamiques, en veillant à ce que les éléments de décision ne soient affichés que lorsque cela est pertinent. Créez un mappage pour définir la manière dont le jeu de données Adobe Experience Platform se joint aux données dans [!DNL Journey Optimizer]. Sélectionnez le jeu de données avec les attributs dont vous avez besoin et choisissez une clé de liaison qui existe à la fois dans les attributs d’élément de décision et dans le jeu de données."
+>abstract="L’utilisation des données Adobe Experience Platform dans les règles de décision vous permet de définir des critères d’éligibilité en fonction d’attributs externes dynamiques, en veillant à ce que les éléments de décision ne soient affichés que lorsque cela est pertinent. Créez un mappage pour définir la manière dont le jeu de données Adobe Experience Platform se joint aux données dans [!DNL Journey Optimizer]. Sélectionnez le jeu de données avec les attributs dont vous avez besoin et choisissez une clé de jointure qui existe à la fois dans les attributs d’élément de décision et dans le jeu de données."
 
 >[!CONTEXTUALHELP]
 >id="ajo_exd_formula_dataset_lookup"
 >title="Recherche de jeu de données"
->abstract="Les formules de classement définissent la priorité des éléments de décision. En utilisant [!DNL Adobe Experience Platform] attributs de jeu de données, vous pouvez ajuster dynamiquement la logique de classement pour refléter des conditions réelles. Créez un mappage pour définir la manière dont le jeu de données Adobe Experience Platform se joint aux données dans [!DNL Journey Optimizer]. Sélectionnez le jeu de données avec les attributs dont vous avez besoin et choisissez une clé de liaison qui existe à la fois dans les attributs d’élément de décision et dans le jeu de données"
+>abstract="Les formules de classement définissent la priorité des éléments de décision. En utilisant des attributs de jeu de données [!DNL Adobe Experience Platform], vous pouvez ajuster dynamiquement la logique de classement pour refléter des conditions réelles. Créez un mappage pour définir la manière dont le jeu de données Adobe Experience Platform se joint aux données dans [!DNL Journey Optimizer]. Sélectionnez le jeu de données avec les attributs dont vous avez besoin et choisissez une clé de jointure qui existe à la fois dans les attributs d’élément de décision et dans le jeu de données."
 
 >[!AVAILABILITY]
 >
