@@ -65,6 +65,6 @@ Ce cas pratique implique l’envoi d’un SMS aux profils qui ont créé une lis
 
 Commencez par une activité de ciblage **[!UICONTROL Créer une audience]** à l’aide de la dimension de ciblage **[!UICONTROL Liste de souhaits]** pour sélectionner toutes les listes de souhaits pertinentes.
 
-Insérez ensuite une activité **[!UICONTROL Modifier la dimension]** pour basculer la dimension de ciblage de **[!UICONTROL Liste de souhaits]** à ****[!UICONTROL Destinataire]**. Cela permet à la campagne orchestrée d’envoyer les SMS aux profils associés à ces listes de souhaits.
+Insérez ensuite une activité **[!UICONTROL Modifier la dimension]** pour basculer la dimension de ciblage de **[!UICONTROL Liste de souhaits]** à **&#x200B;**&#x200B;[!UICONTROL Destinataire]**. Cela permet à la campagne orchestrée d’envoyer les SMS aux profils associés à ces listes de souhaits.
 
 ![](../assets/change-dimension-example.png)
