@@ -7,10 +7,10 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: af3c3a9c-8172-43b0-bba1-4a3d068b9a9e
-source-git-commit: cb335fd5610d70d801ae1c32dfe4d3ca9d1160ab
+source-git-commit: 01c9b947ce9459944c5c16ef177b55e889eb3634
 workflow-type: tm+mt
-source-wordcount: '1103'
-ht-degree: 78%
+source-wordcount: '1096'
+ht-degree: 53%
 
 ---
 
@@ -62,7 +62,7 @@ Les options de segmentation suivantes sont disponibles :
 
 Pour commencer à configurer l’activité **[!UICONTROL Combiner]**, procédez comme suit :
 
-![](../assets/orchestrated-combine.png)
+![](../assets/orchestrated-union.png)
 
 1. Ajoutez plusieurs activités, comme **[!UICONTROL Créer une audience]**, pour former au moins deux branches d’exécution différentes.
 1. Ajoutez une activité **[!UICONTROL Combiner]** à l’une des branches précédentes.
@@ -77,12 +77,13 @@ Pour commencer à configurer l’activité **[!UICONTROL Combiner]**, procédez 
 >title="Options de réconciliation"
 >abstract="Sélectionnez le **type de réconciliation** pour définir comment gérer les doublons. Par défaut, l’option **Clés** est activée, ce qui signifie que l’activité ne conserve qu’un élément lorsque des éléments provenant de différentes transitions entrantes ont la même clé. Utilisez l’option **Une sélection de colonnes** pour définir la liste des colonnes sur lesquelles est appliquée la réconciliation des données."
 
-Dans l’activité **[!UICONTROL Combiner]**, vous pouvez configurer une **[!UICONTROL Union]**. Pour cela, vous devez sélectionner le **[!UICONTROL type de réconciliation]** pour définir la manière dont les doublons sont traités :
+Dans l&#39;activité **[!UICONTROL Combiner]**, vous pouvez paramétrer une **[!UICONTROL Union]** en sélectionnant un **[!UICONTROL Type de réconciliation]** afin de déterminer comment les enregistrements en double sont gérés :
 
-* **[!UICONTROL Uniquement les clés]** : il s’agit du mode par défaut. Lorsque des éléments provenant des différentes transitions entrantes ont la même clé, l’activité ne conserve qu’un élément. Cette option ne peut être utilisée que si les populations entrantes sont homogènes.
-* **[!UICONTROL Une sélection de colonnes]** : sélectionnez cette option pour définir la liste des colonnes sur lesquelles est appliquée la réconciliation des données. Vous devez d’abord sélectionner l’ensemble principal (celui qui contient les données sources), puis les colonnes à utiliser pour la jointure.
+* **[!UICONTROL Clés uniquement]** (par défaut) : conserve un seul enregistrement lorsque plusieurs transitions entrantes partagent la même clé. Cette option n’est applicable que lorsque les populations entrantes sont homogènes.
 
-Dans l’exemple suivant, nous utilisons une activité **[!UICONTROL Combiner]** et nous ajoutons une activité **[!UICONTROL Union]** pour récupérer tous les profils des deux requêtes : Membres du programme de fidélité et Acheteurs afin de former une audience plus grande.
+* **[!UICONTROL Une sélection de colonnes]** : permet de spécifier quelles colonnes sont utilisées pour la réconciliation des données. Sélectionnez **[!UICONTROL Ajouter un attribut]**.
+
+Dans l’exemple suivant, une activité **[!UICONTROL Combiner]** est utilisée avec une **[!UICONTROL Union]** pour fusionner les résultats de deux requêtes, **Membres du programme de fidélité** et **Acheteurs**, en une seule audience plus grande qui inclut tous les profils des deux segments.
 
 ![](../assets/orchestrated-union-example.png)
 
@@ -95,10 +96,15 @@ Dans l’exemple suivant, nous utilisons une activité **[!UICONTROL Combiner]**
 
 Dans l’activité **[!UICONTROL Combiner]**, vous pouvez configurer une **[!UICONTROL intersection]**. Pour cela, suivez les étapes supplémentaires ci-dessous :
 
-1. Sélectionnez le **[!UICONTROL Type de réconciliation]** pour définir la manière dont les duplicatas sont traités. Pour plus d’informations, consultez la section [Union](#union).
-1. Vous pouvez vérifier l’option **[!UICONTROL Générer le complémentaire]** si vous souhaitez traiter la population restante. Le complémentaire contiendra l’union des résultats de toutes les activités entrantes, moins l’intersection. Une transition sortante supplémentaire sera alors ajoutée à l’activité.
+1. Sélectionnez le **[!UICONTROL Type de réconciliation]** pour définir la manière dont les duplicatas sont traités :
 
-L’exemple suivant montre l’**[!UICONTROL intersection]** de deux activités de requête. Elle est utilisée ici pour récupérer les profils avec un abonnement Fidélité et dont le dernier achat remonte à moins d’un mois.
+   * **[!UICONTROL Clés uniquement]** (par défaut) : conserve un seul enregistrement lorsque plusieurs transitions entrantes partagent la même clé. Cette option n’est applicable que lorsque les populations entrantes sont homogènes.
+
+   * **[!UICONTROL Une sélection de colonnes]** : permet de spécifier quelles colonnes sont utilisées pour la réconciliation des données. Sélectionnez **[!UICONTROL Ajouter un attribut]**.
+
+1. Activez l’option **[!UICONTROL Générer le complémentaire]** si vous souhaitez traiter la population restante. Le complémentaire contient l’union de tous les résultats de l’activité entrante, à l’exclusion de l’intersection. Une transition sortante supplémentaire est ajoutée à l’activité.
+
+L’exemple suivant illustre l’utilisation de l’**[!UICONTROL Intersection]** entre deux activités de requête. Il est utilisé pour identifier les profils qui sont des **membres du programme de fidélité** et qui ont effectué un achat au cours du dernier mois.
 
 ![](../assets/orchestrated-intersection-example.png)
 
@@ -127,13 +133,13 @@ L’exemple suivant montre l’**[!UICONTROL intersection]** de deux activités 
 
 Dans l’activité **[!UICONTROL Combiner]**, vous pouvez configurer une **[!UICONTROL exclusion]**. Pour cela, suivez les étapes supplémentaires ci-dessous :
 
-1. Dans la section **[!UICONTROL Ensembles à joindre]**, sélectionnez **[!UICONTROL Ensemble principal]** parmi les transitions entrantes. C’est l’ensemble à partir duquel des éléments sont exclus. Les autres ensembles correspondent aux éléments devant être exclus de l’ensemble principal.
-1. Le cas échéant, vous pouvez manipuler les tableaux entrants. En effet, pour exclure une cible d’une autre dimension, cette cible doit être replacée dans la même dimension de ciblage que la cible principale. Pour ce faire, cliquez sur **[!UICONTROL Ajouter une règle]** dans la section **[!UICONTROL Règles d’exclusion]** et indiquez les conditions de changement de dimension. La réconciliation des données s’effectue au moyen d’un attribut ou d’une jointure.
-1. Vous pouvez vérifier l’option **[!UICONTROL Générer le complémentaire]** si vous souhaitez traiter la population restante. Pour plus d’informations, consultez la section [Intersection](#intersection).
+1. Dans la section **[!UICONTROL Ensembles à joindre]**, choisissez l&#39;ensemble de Principal ****, qui représente la population principale. Les enregistrements trouvés dans les autres ensembles sont exclus de cet ensemble principal.
+
+1. Si nécessaire, vous pouvez ajuster les tableaux entrants pour aligner les cibles de différentes dimensions. Pour exclure une cible d&#39;une autre dimension, elle doit d&#39;abord être amenée dans la même dimension de ciblage que la population principale. Pour ce faire, cliquez sur **[!UICONTROL Ajouter une règle]** et définissez les conditions de modification de la dimension. La réconciliation est ensuite effectuée à l’aide d’un attribut ou d’une jointure.
+
+1. Activez l’option **[!UICONTROL Générer le complémentaire]** si vous souhaitez traiter la population restante. Le complémentaire contient l’union de tous les résultats de l’activité entrante, à l’exclusion de l’intersection. Une transition sortante supplémentaire est ajoutée à l’activité.
 
 L’exemple **[!UICONTROL Exclusion]** suivant montre deux requêtes configurées pour filtrer les profils qui ont acheté un produit. Les profils qui n’ont pas d’abonnement de fidélité sont ensuite exclus du premier ensemble.
-
-Pourquoi : vous lancez une campagne de fidélité. Les personnes qui ne sont pas membres ne sont donc pas pertinentes.
 
 ![](../assets/orchestrated-exclusion-example.png)
 
