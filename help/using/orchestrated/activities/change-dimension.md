@@ -7,7 +7,7 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: 83e66f10-93dd-4759-840c-2c83abc42a28
-source-git-commit: 7de878c316e966129e7dede37f132938d2abbdf8
+source-git-commit: 8a6fc9fca96bfab90a72be329e2ab99c6942a4a7
 workflow-type: tm+mt
 source-wordcount: '367'
 ht-degree: 32%
@@ -65,6 +65,6 @@ Ce cas pratique implique l’envoi d’un SMS aux profils qui ont créé une lis
 
 Commencez par une activité de ciblage **[!UICONTROL Créer une audience]** à l’aide de la dimension de ciblage **[!UICONTROL Liste de souhaits]** pour sélectionner toutes les listes de souhaits pertinentes.
 
-Insérez ensuite une activité **[!UICONTROL Modifier la dimension]** pour basculer la dimension de ciblage de **[!UICONTROL Liste de souhaits]** à **&#x200B;**&#x200B;[!UICONTROL Destinataire]**. Cela permet à la campagne orchestrée d’envoyer les SMS aux profils associés à ces listes de souhaits.
+Insérez ensuite une activité **[!UICONTROL Modifier la dimension]** pour basculer la dimension de ciblage de **[!UICONTROL Liste de souhaits]** à **[!UICONTROL Destinataire]**. Cela permet à la campagne orchestrée d’envoyer les SMS aux profils associés à ces listes de souhaits.
 
-![](../assets/change-dimension-example.png)
+![](../assets/orchestrated-change-dimension-example.png)

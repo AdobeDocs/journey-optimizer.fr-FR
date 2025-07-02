@@ -7,9 +7,9 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: 8cb569a2-a4a0-45a5-b7f9-f5a591e44335
-source-git-commit: 5e4d64c4236898683a1ebb5ab2a19be4fcd15d79
+source-git-commit: 8a6fc9fca96bfab90a72be329e2ab99c6942a4a7
 workflow-type: tm+mt
-source-wordcount: '262'
+source-wordcount: '259'
 ht-degree: 15%
 
 ---
@@ -34,20 +34,15 @@ Grâce à ses puissantes fonctionnalités de reporting, la campagne orchestrée 
 ## Types de rapports {#reporting-types}
 
 <table style="table-layout:auto; width: 100%; border-collapse: collapse;">
-  <thead>
-    <tr style="text-align: left">
-      <th>Type de rapport</th>
-      <th>Description</th>
-    </tr>
-  </thead>
   <tbody>
-    <tr style="border: 0;">
+    <tr>
       <td><a href="../reports/live-report.md"><img alt="Rapport dynamique" src="assets/last-24hours.png"></a></td>
       <td>
         Utilisez le <b>Rapport dynamique</b> pour mesurer et visualiser en temps réel l’impact et les performances de vos campagnes orchestrées dans un tableau de bord intégré. Les données sont disponibles dans le <b>Rapport dynamique</b> dès que votre campagne orchestrée est exécutée dans le menu <b>Afficher le rapport des dernières 24 heures</b>. En savoir plus sur les rapports dynamiques dans <a href="../reports/live-report.md">cette section</a>.
       </td>
+        </br>
     </tr>
-    <tr style="border: 0; background-color: #FFFFFF;">
+    <tr style="background-color: #FFFFFF;">
       <td><a href="../reports/report-gs-cja.md"><img alt="Rapport complet" src="assets/all-time-report.png"></a></td>
       <td>
         Les rapports de campagne orchestrés sont entièrement intégrés aux fonctionnalités de Customer Journey Analytics, ce qui permet de normaliser les rapports sur les deux plateformes et d’améliorer la cohérence et la fiabilité des données. En savoir plus sur les <a href="../reports/report-gs-cja.md">rapports à tout moment</a>.
