@@ -7,9 +7,9 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: 8cb569a2-a4a0-45a5-b7f9-f5a591e44335
-source-git-commit: 8a6fc9fca96bfab90a72be329e2ab99c6942a4a7
+source-git-commit: ef0d0e54e566d168a4845cd1af57900d54aec0b7
 workflow-type: tm+mt
-source-wordcount: '259'
+source-wordcount: '262'
 ht-degree: 15%
 
 ---
@@ -30,6 +30,7 @@ ht-degree: 15%
 
 Grâce à ses puissantes fonctionnalités de reporting, la campagne orchestrée vous offre des informations exploitables. Ces informations vous aident à mieux comprendre le comportement de l’audience, à mesurer les performances de chaque étape de votre parcours client et à prendre des décisions basées sur les données afin d’optimiser les campagnes futures. Grâce aux mesures et visualisations détaillées, vous pouvez suivre l’engagement et affiner vos stratégies de ciblage pour un impact maximal.
 
+![](assets/report-orchestrated.png)
 
 ## Types de rapports {#reporting-types}
 
@@ -45,7 +46,7 @@ Grâce à ses puissantes fonctionnalités de reporting, la campagne orchestrée 
     <tr style="background-color: #FFFFFF;">
       <td><a href="../reports/report-gs-cja.md"><img alt="Rapport complet" src="assets/all-time-report.png"></a></td>
       <td>
-        Les rapports de campagne orchestrés sont entièrement intégrés aux fonctionnalités de Customer Journey Analytics, ce qui permet de normaliser les rapports sur les deux plateformes et d’améliorer la cohérence et la fiabilité des données. En savoir plus sur les <a href="../reports/report-gs-cja.md">rapports à tout moment</a>.
+        Le <b>rapport à tout moment</b> est entièrement intégré aux fonctionnalités de Customer Journey Analytics, ce qui permet de normaliser les rapports sur les deux plateformes et d’améliorer la cohérence et la fiabilité des données. En savoir plus sur les rapports à tout moment <a href="../reports/report-gs-cja.md">dans cette section</a>.
       </td>
     </tr>
   </tbody>

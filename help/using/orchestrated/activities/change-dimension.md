@@ -7,10 +7,10 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: 83e66f10-93dd-4759-840c-2c83abc42a28
-source-git-commit: 8a6fc9fca96bfab90a72be329e2ab99c6942a4a7
+source-git-commit: cfd94e714c0e99200ac9816315bdbb6c410f2a12
 workflow-type: tm+mt
-source-wordcount: '367'
-ht-degree: 32%
+source-wordcount: '334'
+ht-degree: 35%
 
 ---
 
@@ -38,9 +38,9 @@ ht-degree: 32%
 
 <br/>
 
-En tant que spécialiste marketing, vous pouvez affiner le ciblage des audiences en passant d’une entité de données à une autre entité liée au sein d’une campagne orchestrée. Vous pouvez ainsi passer du ciblage des profils utilisateur à des actions spécifiques, telles que des achats, des réservations ou d’autres interactions.
+En tant que spécialiste marketing, vous pouvez améliorer le ciblage des audiences en passant d’une entité de données à une entité associée au sein d’une campagne orchestrée. Vous pouvez ainsi aller au-delà des profils utilisateur et vous concentrer sur des comportements spécifiques, tels que les achats, les réservations ou d’autres interactions.
 
-Pour ce faire, utilisez l’activité **[!UICONTROL Modifier la dimension]**. Elle permet de modifier la dimension de ciblage au cours de la campagne orchestrée, en fonction de la structure de votre modèle de données et de la dimension de saisie.
+Pour ce faire, utilisez l’activité **[!UICONTROL Modifier la dimension]**. Elle permet d’ajuster la dimension de ciblage au cours de la campagne orchestrée.
 
 <!--
 >[!IMPORTANT]
@@ -53,18 +53,17 @@ Pour configurer l’activité **[!UICONTROL Changement de dimension]**, procéde
 
 1. Ajoutez une activité **[!UICONTROL Modifier la dimension]** à votre campagne orchestrée.
 
-   ![](../assets/change-dimension.png)
+   ![](../assets/orchestrated-change-dimension.png)
 
 1. Définissez la **[!UICONTROL Nouvelle dimension cible]**. Lors du changement de dimension, tous les enregistrements sont conservés.
 
-1. Exécutez la campagne orchestrée pour afficher le résultat. Comparez les données dans les tables avant et après l’activité de changement de dimension, et comparez la structure des tables de la campagne orchestrée.
 
 ## Exemple {#example}
 
-Ce cas pratique implique l’envoi d’un SMS aux profils qui ont créé une liste de souhaits au cours du dernier mois.
+Ce cas pratique se concentre sur l’envoi d’un SMS aux profils qui ont créé une liste de souhaits au cours du dernier mois.
 
-Commencez par une activité de ciblage **[!UICONTROL Créer une audience]** à l’aide de la dimension de ciblage **[!UICONTROL Liste de souhaits]** pour sélectionner toutes les listes de souhaits pertinentes.
+Commencez par une activité de ciblage **[!UICONTROL Créer une audience]**, en utilisant la dimension de ciblage **[!UICONTROL Liste de souhaits]** pour identifier toutes les listes de souhaits pertinentes.
 
-Insérez ensuite une activité **[!UICONTROL Modifier la dimension]** pour basculer la dimension de ciblage de **[!UICONTROL Liste de souhaits]** à **[!UICONTROL Destinataire]**. Cela permet à la campagne orchestrée d’envoyer les SMS aux profils associés à ces listes de souhaits.
+Ajoutez ensuite une activité **[!UICONTROL Modifier la dimension]** pour basculer la dimension de ciblage de **[!UICONTROL Liste de souhaits]** à **[!UICONTROL Destinataire].** Cette étape permet de s’assurer que la campagne orchestrée cible les profils corrects associés à ces listes de souhaits, ce qui permet d’envoyer le SMS aux profils prévus.
 
 ![](../assets/orchestrated-change-dimension-example.png)
