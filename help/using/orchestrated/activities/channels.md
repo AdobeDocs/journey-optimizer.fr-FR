@@ -7,7 +7,7 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: ffe1e77c-6c4f-4f23-9183-d715a4c7c402
-source-git-commit: 7de878c316e966129e7dede37f132938d2abbdf8
+source-git-commit: cfb09467809a69516c34d52be3f41e7a1abdb7c3
 workflow-type: tm+mt
 source-wordcount: '985'
 ht-degree: 30%
@@ -101,7 +101,7 @@ Pour configurer une diffusion dans le cadre d&#39;une campagne orchestrée, proc
 
 1. Pour les e-mails et les SMS, utilisez les options de suivi pour surveiller la réaction des destinataires à vos diffusions e-mail ou SMS.
 
-   Les résultats du suivi sont accessibles dans le rapport de la campagne, une fois celle-ci exécutée. [En savoir plus sur les rapports de campagne](../reports/campaign-global-report-cja.md)
+   Les résultats du suivi sont accessibles dans le rapport de la campagne, une fois celle-ci exécutée. [En savoir plus sur les rapports de campagne](../../reports/campaign-global-report-cja.md)
 
 1. Pour les notifications push, utilisez l’option **[!UICONTROL Mode de diffusion rapide]** pour envoyer des messages à grande vitesse sur le canal push pour une taille d’audience inférieure à 30 millions.
 
