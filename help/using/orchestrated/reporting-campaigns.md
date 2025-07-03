@@ -7,7 +7,7 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: 8cb569a2-a4a0-45a5-b7f9-f5a591e44335
-source-git-commit: 08746d3689c7ad2db49b991db792cdc41c889f75
+source-git-commit: de769ae29f933e3bfa520e67b9193666f3f2cef5
 workflow-type: tm+mt
 source-wordcount: '262'
 ht-degree: 13%
@@ -55,8 +55,8 @@ Grâce à ses puissantes fonctionnalités de reporting, la campagne orchestrée 
 ## Découvrir les rapports Canal
 
 <table style="table-layout:fixed"><tr style="border: 0; text-align: center;" >
-<td><a href="../reports/campaign-global-report-cja-email.md"><img alt="E-mail" src="../../channels/assets/do-not-localize/email.png"></a><br/><a href="../reports/campaign-global-report-cja-email.md"><strong>Rapport sur les e-mails</strong></a></td>
-<td><a href="../reports/campaign-global-report-cja-sms.md"><img alt="SMS" src="../../channels/assets/do-not-localize/sms.png"></a><br/><a href="../reports/campaign-global-report-cja-sms.md"><strong>Rapport SMS</strong></a></td>
-<td><a href="../reports/campaign-global-report-cja-push.md"><img alt="Notification push" src="../../channels/assets/do-not-localize/push.png"></a><a href="../reports/campaign-global-report-cja-push.md"><strong>Rapport push</strong></a></td>
+<td><a href="../reports/campaign-global-report-cja-email.md"><img alt="E-mail" src="../channels/assets/do-not-localize/email.png"></a><br/><a href="../reports/campaign-global-report-cja-email.md"><strong>Rapport sur les e-mails</strong></a></td>
+<td><a href="../reports/campaign-global-report-cja-sms.md"><img alt="SMS" src="../channels/assets/do-not-localize/sms.png"></a><br/><a href="../reports/campaign-global-report-cja-sms.md"><strong>Rapport SMS</strong></a></td>
+<td><a href="../reports/campaign-global-report-cja-push.md"><img alt="Notification push" src="../channels/assets/do-not-localize/push.png"></a><a href="../reports/campaign-global-report-cja-push.md"><strong>Rapport push</strong></a></td>
 </tr></table>
 
