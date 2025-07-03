@@ -1,20 +1,18 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Procédure de création de campagnes orchestrées
-description: Découvrez les principales étapes de création de campagnes orchestrées avec Adobe Journey Optimizer
-badge: label="Alpha"
+title: Démarrer et surveiller les campagnes orchestrées avec Adobe Journey Optimizer
+description: Découvrez comment démarrer et surveiller des campagnes orchestrées avec Adobe Journey Optimizer.
 hide: true
 hidefromtoc: true
-exl-id: 4465a69e-5b35-4580-a19d-af66f49f269f
 source-git-commit: 6439be00315dfde7ab385d7f848b7031d95060f4
 workflow-type: tm+mt
-source-wordcount: '174'
-ht-degree: 8%
+source-wordcount: '107'
+ht-degree: 11%
 
 ---
 
-# Procédure de création de campagnes orchestrées {#orchestrated-campaign-steps}
+# Reciblage {#retarget}
 
 +++ Table des matières
 
@@ -26,24 +24,8 @@ ht-degree: 8%
 
 +++
 
-<br/>
+>[!BEGINSHADEBOX]
 
-* Accédez aux campagnes orchestrées, explorez votre liste de campagnes, ajoutez des balises et découvrez des actions rapides. En savoir plus
-* Création/extension de schémas, configuration de jeux de données, configuration de l’ingestion des données
+Documentation en cours
 
-* Créer des segments à partir de données ingérées
-* Utiliser les activités de la zone de travail
-* Validation du cycle de vie d’une campagne orchestrée
-
-* Envoyer des messages - E-mail et SMS
-* Utiliser la personnalisation basée sur l’enrichissement
-* Consulter les tableaux de bord de reporting
-
-* Test de la personnalisation directe sans activité d’enrichissement
-* Reciblage des événements de retour d’informations
-* Création de parcours à l’aide d’e-mails et de SMS (bientôt les notifications push)
-
-* Valider les relations à entités multiples dans la segmentation, la personnalisation et le reporting
-
-
-
+>[!ENDSHADEBOX]
