@@ -38,7 +38,7 @@ ht-degree: 84%
 >[!AVAILABILITY]
 >
 >Cette fonctionnalité est publiée en version Private Beta. Elle sera progressivement disponible pour l’ensemble de la clientèle dans les versions ultérieures.
->>Vous devez accepter le [contrat d’utilisation](https://www.adobe.com/fr/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"} avant de pouvoir utiliser l’Assistant IA dans Adobe Journey Optimizer. Pour plus d’informations, contactez votre représentant ou représentante Adobe.
+>&#x200B;>Vous devez accepter le [contrat d’utilisation](https://www.adobe.com/fr/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"} avant de pouvoir utiliser l’Assistant IA dans Adobe Journey Optimizer. Pour plus d’informations, contactez votre représentant ou représentante Adobe.
 
 La fonction d’alignement des marques vous permet de créer, de réviser et de gérer du contenu qui respecte les directives de votre marque. Elle garantit la cohérence du ton, des messages et de l’identité visuelle dans vos campagnes par e-mail, tout en servant de contrôle qualité avant la mise en ligne de votre contenu.
 
