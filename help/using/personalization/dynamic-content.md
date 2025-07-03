@@ -10,9 +10,9 @@ level: Intermediate
 keywords: expression, éditeur, dynamique, contenu
 exl-id: 639ad7df-0d0f-4c9b-95d1-f3101267aae2
 source-git-commit: 0ce842816e8a63fabd21483323c664238c32848a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '653'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -48,7 +48,7 @@ Les étapes suivantes permettent d’ajouter du contenu dynamique aux expression
 
 >[!CAUTION]
 >
->Si le rendu du Designer d’e-mail échoue après l’ajout de blocs conditionnels, vérifiez que la syntaxe de chaque nouvelle condition est correcte et qu’il n’existe aucune instruction en double ou conflictuelle. Si les problèmes persistent, pensez à reconstruire les sections problématiques dans un nouveau modèle et à tester chaque bloc conditionnel de manière incrémentielle.
+>Si le rendu du concepteur d’e-mail échoue après l’ajout de blocs conditionnels, vérifiez que la syntaxe de chaque nouvelle condition est correcte et qu’il n’existe aucune instruction en double ou conflictuelle. Si les problèmes persistent,envisagez de recréer les sections problématiques dans un nouveau modèle et de tester chaque bloc conditionnel progressivement.
 
 
 ## Ajouter du contenu dynamique dans les e-mails {#emails}

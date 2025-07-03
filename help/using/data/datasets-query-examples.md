@@ -10,9 +10,9 @@ level: Experienced
 keywords: jeu de données, optimizer, cas d’utilisation
 exl-id: 26ba8093-8b6d-4ba7-becf-b41c9a06e1e8
 source-git-commit: 3df87ee9028217d353d657167e541e7d113c6065
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '894'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -148,7 +148,7 @@ SELECT _experience.customerjourneymanagement.messagedeliveryfeedback.messagefail
 
 >[!NOTE]
 >
->Dans certains parcours, les `messageID` peuvent ne pas être uniques pour chaque diffusion individuelle. Si un parcours envoie à nouveau la même action au même profil, le même `messageID` peut être réutilisé. Par conséquent, pour suivre ou attribuer avec précision des événements au niveau de l’envoi individuel, combinez les champs `journeyVersionID`, `journeyActionID` et `batchInstanceID` (pour les parcours par lots) ou `identityMap` pour une unicité plus précise.
+>Dans certains parcours, les `messageID` peuvent ne pas être uniques pour chaque diffusion individuelle. Si un parcours envoie à nouveau la même action au même profil, le même `messageID` peut être réutilisé. Par conséquent, pour suivre ou attribuer avec précision des événements au niveau de l’envoi individuel, combinez les champs `journeyVersionID`, `journeyActionID` et `batchInstanceID` (pour les parcours par lots) ou `identityMap` pour plus de précision.
 
 
 ### Identifier les adresses en quarantaine après une panne du FAI{#isp-outage-query}

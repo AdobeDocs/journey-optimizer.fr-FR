@@ -10,9 +10,9 @@ level: Beginner
 keywords: destination, page de destination, conception, HTML
 exl-id: c61b8d80-17e1-4fdd-a739-efcee032dc23
 source-git-commit: 4fa50df6827e07e6f6f3c5730d1ae2a1af0d426d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '159'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -34,4 +34,4 @@ Plusieurs possibilités sʼoffrent alors à vous :
 
 >[!NOTE]
 >
->Le concepteur de contenu de page de destination est principalement similaire au Designer d’e-mail. En savoir plus sur la [conception de contenu avec  [!DNL Journey Optimizer]](../email/get-started-email-design.md).
+>Le concepteur de contenu de page de destination est très similaire au concepteur d’e-mail. En savoir plus sur la [conception de contenu avec  [!DNL Journey Optimizer]](../email/get-started-email-design.md).

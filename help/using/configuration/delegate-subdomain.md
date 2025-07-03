@@ -10,9 +10,9 @@ level: Experienced
 keywords: sous-domaine, délégation, domaine, DNS
 exl-id: 8021f66e-7725-475b-8722-e6f8d74c9023
 source-git-commit: 3cc5abdbec27ac9a8009b3b0d125a3b49dc9ed04
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2011'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -243,13 +243,13 @@ Une fois que votre demande est gérée par Adobe, le domaine dont la délégatio
 
 >[!CAUTION]
 >
->Une fois le sous-domaine non délégué, les conditions suivantes s’appliquent :
+>Après l’annulation de la délégation d’un sous-domaine, les conditions suivantes s’appliquent :
 >
 >* Vous ne pouvez pas réactiver les configurations de canal qui utilisaient ce sous-domaine.
->* Vous ne pouvez pas déléguer à nouveau le même sous-domaine via l’interface utilisateur. Si vous souhaitez le faire, contactez votre représentant ou représentante Adobe.
+>* Vous ne pouvez pas déléguer à nouveau le même sous-domaine via l’interface d’utilisation. Si vous souhaitez le faire, contactez votre représentant ou représentante Adobe.
 
 ## Vidéo pratique{#video}
 
 Découvrez comment créer un sous-domaine à l&#39;aide de la méthode CNAME pour pointer vers des enregistrements spécifiques à Adobe.
 
->[!VIDEO](https://video.tv.adobe.com/v/342230?quality=12&captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/339484?quality=12)

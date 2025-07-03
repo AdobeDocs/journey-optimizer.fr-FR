@@ -11,9 +11,9 @@ level: Beginner
 keywords: ressources, intégration
 exl-id: c74156bb-4f00-4325-b416-6fe36cb755d1
 source-git-commit: 070debe5c4fb5e39316b12a0788ec55abbf3c005
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '576'
-ht-degree: 82%
+ht-degree: 100%
 
 ---
 
@@ -35,25 +35,25 @@ L’intégration d’Adobe Express à Adobe Journey Optimizer vous permet d�
 
 Pour en savoir plus sur Adobe Express, reportez-vous à [cette documentation](https://helpx.adobe.com/fr/express/user-guide.html).
 
-Pour accéder au menu **[!DNL Adobe Express]**, accédez à votre **Paramètres d’image** dans le Designer Email, puis cliquez sur **[!UICONTROL Modifier dans Adobe Express]**.
+Pour accéder au menu **[!DNL Adobe Express]**, accédez à vos **Paramètres d’image** à partir du Concepteur d’e-mail et cliquez sur **[!UICONTROL Modifier dans Adobe Express]**.
 
 ![](assets/express_1.png)
 
 ➡️ [Découvrez cette fonctionnalité en vidéo.](#video)
 
-## Utilisation d’Adobe Express avec une licence d’entreprise {#licence}
+## Utilisation d’Adobe Express avec une licence Entreprise {#licence}
 
 Les fonctionnalités présentées dans les sections ci-dessous sont accessibles aux utilisateurs et aux utilisatrices ne disposant pas d’une licence Adobe Express Enterprise.
 
-Avec une licence Entreprise, les utilisateurs disposent d’un accès complet à l’éditeur web d’Adobe Express, ce qui leur permet d’ajuster les paramètres des ressources, de générer du contenu avec Firefly, d’ajouter du texte et d’appliquer des personnalisations supplémentaires.
+Avec une licence Entreprise, les utilisateurs et les utilisatrices disposent d’un accès complet à l’éditeur web d’Adobe Express, ce qui leur permet d’ajuster les paramètres des ressources, de générer du contenu avec Firefly, d’ajouter du texte et d’appliquer des personnalisations supplémentaires.
 
 ![](assets/express-licence.png)
 
-Pour plus d’informations sur les cas d’utilisation disponibles pour les utilisateurs disposant d’une licence Enterprise pour Adobe Express, consultez la [documentation web d’Adobe Express](https://helpx.adobe.com/fr/express/web.html).
+Pour plus d’informations sur les cas d’utilisation disponibles pour les utilisateurs et les utilisatrices disposant d’une licence Enterprise pour Adobe Express, consultez la [documentation web d’Adobe Express](https://helpx.adobe.com/express/web.html).
 
-## Utilisation d’Adobe Express sans licence d’entreprise  {#edit}
+## Utilisation d’Adobe Express sans licence Entreprise  {#edit}
 
-Sans licence Enterprise, les utilisateurs ont accès aux cas pratiques suivants disponibles avec Adobe Express :
+Sans licence Enterprise, les utilisateurs et les utilisatrices ont accès aux cas pratiques suivants disponibles avec Adobe Express :
 
 * [Redimensionner l’image](#resize)
 * [Supprimer l’arrière-plan](#background)
@@ -148,7 +148,7 @@ Votre image est maintenant prête à être utilisée dans votre contenu.
 
 Découvrez comment modifier vos ressources dans Adobe Journey Optimizer à l’aide des outils d’Adobe Express.
 
->[!VIDEO](https://video.tv.adobe.com/v/3455525/?quality=12&captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/3455523/?quality=12)
 
 
 

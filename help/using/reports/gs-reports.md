@@ -1,42 +1,41 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Prise en main des fonctionnalités de reporting dans  [!DNL Adobe Journey Optimizer]
-description: 'Découvrez comment accéder aux rapports et les utiliser [!DNL Adobe Journey Optimizer] '
+title: Commencer avec les fonctionnalités de création de rapports dans  [!DNL Adobe Journey Optimizer]
+description: Découvrez comment accéder aux rapports  [!DNL Adobe Journey Optimizer]  et comment les utiliser.
 role: User
 level: Beginner
-exl-id: 7961dc5c-7918-4ae3-8361-0ed4bc4f145b
-source-git-commit: 158ae930fa87dc0476273bfbb14c96e780281491
-workflow-type: tm+mt
+source-git-commit: da2fb137a8af82a8487638dc3d762377dd5dc506
+workflow-type: ht
 source-wordcount: '432'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
 # Commencer avec les fonctionnalités de création de rapports {#get-started-report}
 
-Adobe Journey Optimizer vous fournit des informations exploitables grâce à ses puissantes fonctionnalités de création de rapports. Les rapports sont disponibles pour les campagnes, les parcours, les pages de destination, les listes d’abonnements, etc. Les rapports disponibles sont répertoriés ci-dessous.
+Adobe Journey Optimizer vous fournit des informations exploitables grâce à ses puissantes fonctionnalités de création de rapports. Les rapports sont disponibles pour les campagnes, les parcours, les pages de destination, les listes d’abonnements, etc. Les rapports disponibles sont répertoriés ci-dessous.
 
-En outre, pour optimiser la délivrabilité de vos expériences [!DNL Journey Optimizer], nous vous recommandons d’observer les bonnes pratiques répertoriées [dans cette section](deliverability.md).
+Pour optimiser la délivrabilité de vos expériences [!DNL Journey Optimizer], nous vous recommandons d’observer les bonnes pratiques répertoriées dans [cette section](deliverability.md).
 
 
 ## Types de rapports {#reporting-types}
 
-* **Rapports dynamiques sur les dernières 24 heures** : utilisez le **[!UICONTROL rapport dynamique]** pour mesurer et visualiser en temps réel l’impact et les performances de vos parcours et de vos messages dans un tableau de bord intégré. Les données sont disponibles dans le **[!UICONTROL rapport dynamique]** dès que votre diffusion est envoyée ou que votre parcours est exécuté à partir de l’onglet **[!UICONTROL Dernières 24 heures]**. En savoir plus sur les rapports dynamiques dans [cette section](live-report.md).
+* **Rapports en temps réel sur les dernières 24 heures** - Utilisez le **[!UICONTROL rapport en temps réel]** pour mesurer et visualiser en temps réel l’impact et les performances de vos parcours et de vos messages dans un tableau de bord intégré. Les données sont disponibles dans le **[!UICONTROL rapport en temps réel]** dès que votre diffusion est envoyée ou que votre parcours est exécuté à partir de l’onglet **[!UICONTROL Dernières 24 heures]**. En savoir plus sur les rapports en temps réel dans [cette section](live-report.md).
 
   ![](assets/report_journey.png)
 
 
-* **Rapports sur toute la période avec Customer Journey Analytics** : la création de rapports de Journey Optimizer est entièrement intégrée aux fonctionnalités de Customer Journey Analytics, permettant ainsi de normaliser la création de rapports sur les deux plateformes et d’améliorer la cohérence et la fiabilité des données. Cette intégration transparente entre Journey Optimizer et Customer Journey Analytics fournit une meilleure visibilité des mesures de performances, ce qui aide les utilisateurs et les utilisatrices à prendre des décisions plus éclairées. En savoir plus sur les rapports sur toute la période dans [cette section](report-gs-cja.md).
+* **Rapports sur la durée entière avec Customer Journey Analytics** - La création de rapports Journey Optimizer est entièrement intégrée aux fonctionnalités de Customer Journey Analytics, permettant ainsi de normaliser la création de rapports sur les deux plateformes et d’améliorer la cohérence et la fiabilité des données. L’intégration transparente entre Journey Optimizer et Customer Journey Analytics fournit une meilleure visibilité des mesures de performance, ce qui aide les utilisateurs et les utilisatrices à prendre des décisions plus éclairées. En savoir plus sur les rapports sur la durée entière dans [cette section](report-gs-cja.md).
 
   ![](assets/gs-cja-report-1.png)
 
-  Si vous possédez une licence Adobe Customer Journey Analytics, vous pouvez analyser vos rapports Journey Optimizer dans Customer Journey Analytics. Cette puissante option vous redirige de manière transparente vers votre environnement Customer Journey Analytics, ce qui vous permet de personnaliser vos rapports de manière approfondie. Intégrez des mesures avancées de Customer Journey Analytics dans vos widgets pour enrichir vos informations et les rendre encore plus pertinentes. [En savoir plus](report-cja-manage.md)
+  Si vous possédez une licence Adobe Customer Journey Analytics, vous pouvez analyser vos rapports Journey Optimizer dans Customer Journey Analytics. Cette puissante option vous redirige de manière transparente vers votre environnement Customer Journey Analytics, ce qui vous permet de personnaliser vos rapports en détails. Intégrez des mesures avancées de Customer Journey Analytics dans vos widgets pour enrichir vos informations et les rendre encore plus pertinentes. [En savoir plus](report-cja-manage.md)
 
 
 ## Explorons plus en détail
 
-Maintenant que vous comprenez les concepts liés aux types de rapports dans **[!DNL Journey Optimizer]**, il est temps d’explorer plus en détail les sections de documentation suivantes pour découvrir comment accéder aux fonctionnalités de création de rapports et comprendre leurs principes.
+Maintenant que vous avez une compréhension des concepts liés aux types de rapports dans **[!DNL Journey Optimizer]**, il est temps d’explorer plus en détail les sections de documentation suivantes pour découvrir comment accéder aux fonctionnalités de création de rapports et comprendre leurs principes.
 
 
 <table style="table-layout:fixed"><tr style="border: 0;">
@@ -46,10 +45,10 @@ Maintenant que vous comprenez les concepts liés aux types de rapports dans **[!
 <p><strong>RAPPORTS DE PARCOURS</strong></p>
 </div>
 <div>
-<a href="journey-live-report.md"><strong>Rapport dynamique</strong></a>
+<a href="journey-live-report.md"><strong>Rapport en temps réel</strong></a>
 </div>
 <div>
-<a href="journey-global-report-cja.md"><strong>Rapport sur toute la période</strong></a>
+<a href="journey-global-report-cja.md"><strong>Rapport sur la durée entière</strong></a>
 </div>
 <div>
 <a href="sharing-overview.md"><strong>Créer des rapports de parcours</strong></a>
@@ -63,24 +62,24 @@ Maintenant que vous comprenez les concepts liés aux types de rapports dans **[!
 <p><strong>RAPPORTS DE CAMPAGNE</strong></p>
 </div>
 <div>
-<a href="campaign-live-report.md"><strong>Rapport dynamique</strong></a>
+<a href="campaign-live-report.md"><strong>Rapport en temps réel</strong></a>
 </div>
 <div>
-<a href="campaign-global-report-cja.md"><strong>Rapport sur toute la période</strong></a>
+<a href="campaign-global-report-cja.md"><strong>Rapport sur la durée entière</strong></a>
 </div>
 <p>
 <p>
 </td>
 <td>
-<img alt="Rapports sur les pages de destination" src="../assets/do-not-localize/start-interface.jpeg">
+<img alt="Rapports de page de destination" src="../assets/do-not-localize/start-interface.jpeg">
 <div>
-<p><strong>RAPPORTS SUR LES PAGES DE DESTINATION</strong></p>
+<p><strong>RAPPORTS DE PAGES DE DESTINATION</strong></p>
 </div>
 <div>
-<a href="lp-report-live.md"><strong>Rapport dynamique</strong></a>
+<a href="lp-report-live.md"><strong>Rapport en temps réel</strong></a>
 </div>
 <div>
-<a href="lp-report-global-cja.md"><strong>Rapport sur toute la période</strong></a>
+<a href="lp-report-global-cja.md"><strong>Rapport sur la durée entière</strong></a>
 </div>
 <p>
 <p>
@@ -91,10 +90,10 @@ Maintenant que vous comprenez les concepts liés aux types de rapports dans **[!
 <p><strong>RAPPORTS SUR LES LISTES D’ABONNEMENTS</strong></p>
 </div>
 <div>
-<a href="subscription-report-live.md"><strong>Rapport dynamique</strong></a>
+<a href="subscription-report-live.md"><strong>Rapport en temps réel</strong></a>
 </div>
 <div>
-<a href="subscription-report-global-cja.md"><strong>Rapport sur toute la période</strong></a>
+<a href="subscription-report-global-cja.md"><strong>Rapport sur la durée entière</strong></a>
 </div>
 <p>
 <p>
@@ -102,11 +101,11 @@ Maintenant que vous comprenez les concepts liés aux types de rapports dans **[!
 </tr></table>
 
 
-Des rapports globaux à tout moment sont disponibles pour tous vos canaux. Sélectionnez le rapport pour le canal dont vous avez besoin pour obtenir plus de détails.
+Les rapports globaux sur la durée entière sont disponibles pour tous vos canaux. Sélectionnez le rapport du canal dont vous avez besoin afin d’obtenir plus de détails.
 
 ### Rapports pour les canaux sortants
 
-Sélectionnez un canal sortant pour découvrir les **rapports globaux sur toute la période** associés.
+Sélectionnez un canal sortant pour découvrir les **rapports globaux sur la durée entière** associés.
 
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td><img alt="E-mail" src="../channels/assets/do-not-localize/email.png">
@@ -114,14 +113,14 @@ Sélectionnez un canal sortant pour découvrir les **rapports globaux sur toute 
 <td><a href="campaign-global-report-cja-sms.md"><img alt="SMS" src="../channels/assets/do-not-localize/sms.png"></a>
 <div align="center"><p><strong>Canal SMS</strong></p><p><a href="campaign-global-report-cja-sms.md"><strong>Rapport de campagne</strong></a></p><p><a href="journey-global-report-cja-sms.md"><strong>Rapport de parcours</strong></a></p></div></td>
 <td><a href="campaign-global-report-cja-push.md"><img alt="Notification push" src="../channels/assets/do-not-localize/push.png"></a>
-<div align="center"><p><strong>Canal push</strong></p><p><a href="campaign-global-report-cja-push.md"><strong>Rapport de campagne</strong></a></p><p><a href="journey-global-report-cja-push.md"><strong>Rapport de parcours</strong></a></p></div></td>
+<div align="center"><p><strong>Canal de notification push</strong></p><p><a href="campaign-global-report-cja-push.md"><strong>Rapport de campagne</strong></a></p><p><a href="journey-global-report-cja-push.md"><strong>Rapport de parcours</strong></a></p></div></td>
 <td><a href="campaign-global-report-cja-direct.md"><img alt="Courrier" src="../channels/assets/do-not-localize/direct-mail.jpg"></a>
 <div align="center"><p><strong>Canal courrier</strong></p><p><a href="campaign-global-report-cja-direct.md"><strong>Rapport de campagne</strong></a></p><p><a href="journey-global-report-cja-direct.md"><strong>Rapport de parcours</strong></a></p></div></td>
 </tr></table>
 
 ### Rapports pour les expériences entrantes
 
-Sélectionnez une expérience entrante pour découvrir les **rapports globaux sur toute la période** associés.
+Sélectionnez une expérience entrante pour découvrir les **rapports globaux sur la durée entière** associés.
 
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td><img alt="In-app" src="../channels/assets/do-not-localize/inapp.jpg">

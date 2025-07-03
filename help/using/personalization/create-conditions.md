@@ -10,9 +10,9 @@ level: Intermediate
 keywords: expression, éditeur, condition, règles
 exl-id: 246a4a55-059e-462c-ac1e-43b90f4abda4
 source-git-commit: 0ce842816e8a63fabd21483323c664238c32848a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '605'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -91,7 +91,7 @@ Si vous réutilisez fréquemment des règles de condition, vous pouvez les enreg
 
 >[!CAUTION]
 >
->Lorsque vous nommez des variantes de contenu conditionnel, utilisez uniquement des caractères alphanumériques (A-Z, a-z, 0-9). L’utilisation de caractères spéciaux (tels que `<`, `>`, `=`, `{`, `}`, etc.) dans des variantes de nom peut entraîner l’annulation ou le masquage de composants par l’éditeur de modèles.
+>Lorsque vous nommez des variantes de contenu conditionnel, utilisez uniquement des caractères alphanumériques (A-Z, a-z, 0-9). L’utilisation de caractères spéciaux (tels que `<`, `>`, `=`, `{`, `}`, etc.) dans les noms des variantes peut causer un dysfonctionnement de l’éditeur de modèle ou le masquage des composants dans celui-ci.
 
 ## Modifier et supprimer des règles conditionnelles enregistrées {#edit-delete}
 

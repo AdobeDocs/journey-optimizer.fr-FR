@@ -10,9 +10,9 @@ level: Beginner
 keywords: ressources, experience manager, intégration
 exl-id: d4fde14b-e2da-40bf-a387-ee9f2f7ff204
 source-git-commit: 4fa50df6827e07e6f6f3c5730d1ae2a1af0d426d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '787'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -89,7 +89,7 @@ Pour importer des fichiers dans **[!DNL Assets Essentials]** ou **[!DNL Assets a
 
    ![](assets/media_library_12.png)
 
-1. Dans [!DNL Adobe Journey Optimizer], sélectionnez le menu **[!UICONTROL Sélecteur de ressources]** dans le volet gauche du Designer Email.
+1. Dans [!DNL Adobe Journey Optimizer], sélectionnez le menu **[!UICONTROL Sélecteur de ressources]** dans le volet gauche du concepteur d’e-mail.
 
    ![](assets/media_library_5.png)
 
@@ -122,7 +122,7 @@ En cas d’approvisionnement sur **[!DNL Adobe Experience Manager Assets as a Cl
 
 +++ Comment les ressources sont-elles gérées ? Les modifications apportées à Assets as a Cloud Service sont-elles reflétées dans Journey Optimizer ?
 
-**[!DNL Adobe Experience Manager Assets as a Cloud Service]** s’intègre à Journey Optimizer de la même manière que **[!DNL Adobe Experience Manager Assets Essentials]**. Lorsque des modifications sont apportées à des ressources, une copie binaire est générée. Notez que les mises à jour dans **[!DNL Assets as a Cloud Service]** ne se propagent pas automatiquement aux campagnes par e-mail actives. Toute modification doit être sélectionnée à nouveau manuellement dans le Designer d’e-mail pour assurer la synchronisation entre les ressources et les campagnes par e-mail en cours.
+**[!DNL Adobe Experience Manager Assets as a Cloud Service]** s’intègre à Journey Optimizer de la même manière que **[!DNL Adobe Experience Manager Assets Essentials]**. Lorsque des modifications sont apportées à des ressources, une copie binaire est générée. Notez que les mises à jour dans **[!DNL Assets as a Cloud Service]** ne se propagent pas automatiquement aux campagnes par e-mail actives. Les modifications doivent être resélectionnées manuellement dans le concepteur d’e-mail afin de garantir la synchronisation entre les ressources et les campagnes par e-mail en cours.
 
 +++
 
