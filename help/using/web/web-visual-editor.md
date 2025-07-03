@@ -9,7 +9,7 @@ exl-id: 98e99978-8538-40b4-92ac-7184864017eb
 source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
 workflow-type: tm+mt
 source-wordcount: '934'
-ht-degree: 91%
+ht-degree: 97%
 
 ---
 
@@ -20,13 +20,13 @@ ht-degree: 91%
 >id="ajo_web_url_to_edit_surface"
 >title="Confirm the URL to edit"
 >abstract="Confirm the URL of the specific web page to use for editing the content that will be applied on the web configuration defined above. The web page must be implemented using the Adobe Experience Platform Web SDK."
->additional-url="https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html?lang=fr" text="Learn more"
+>additional-url="https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html" text="Learn more"
 
 >[!CONTEXTUALHELP]
 >id="ajo_web_url_to_edit_rule"
 >title="Enter the URL to edit"
 >abstract="Enter the URL of a specific web page to use for editing the content that will be applied to all pages matching the rule. The web page must be implemented using Adobe Experience Platform Web SDK."
->additional-url="https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html?lang=fr" text="Learn more"
+>additional-url="https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html" text="Learn more"
 -->
 
 Dans [!DNL Journey Optimizer], la création web est optimisée par l’extension de navigateur Chrome **Adobe Experience Cloud Visual Helper**. [En savoir plus](web-prerequisites.md#visual-authoring-prerequisites).
@@ -41,7 +41,7 @@ Pour commencer à créer votre expérience web à l’aide du concepteur web vis
 
 >[!CAUTION]
 >
->Le [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html?lang=fr){target="_blank"} doit être inclus dans votre page web. [En savoir plus](web-prerequisites.md#implementation-prerequisites)
+>Le [SDK web Adobe Experience Platform](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html?lang=fr){target="_blank"} doit être inclus dans votre page web. [En savoir plus](web-prerequisites.md#implementation-prerequisites)
 
 1. Sur l’écran **[!UICONTROL Modifier le contenu]**, cliquez sur **[!UICONTROL Modifier la page web]** pour ouvrir le concepteur web.
 
@@ -73,7 +73,7 @@ Pour commencer à créer votre expérience web à l’aide du concepteur web vis
 
 >[!NOTE]
 >
->Le concepteur de contenu web est principalement similaire au Designer Email. En savoir plus sur la [conception de contenu avec  [!DNL Journey Optimizer]](../email/get-started-email-design.md).
+>Le concepteur de contenu web est très similaire au concepteur d’e-mail. En savoir plus sur la [conception de contenu avec  [!DNL Journey Optimizer]](../email/get-started-email-design.md).
 
 Une fois que vous avez modifié le contenu web, vous pouvez gérer vos modifications. [En savoir plus](manage-web-modifications.md)
 
@@ -89,8 +89,8 @@ Une fois que vous avez modifié le contenu web, vous pouvez gérer vos modificat
    * [Diviseur](../email/content-components.md#divider)
    * [HTML](../email/content-components.md#HTML)
    * [Image](../email/content-components.md#image)
-   * En-tête : l’utilisation de ce composant est similaire à l’utilisation du composant **[!UICONTROL Texte]** dans le Designer d’e-mail. [En savoir plus](../email/content-components.md#text)
-   * Paragraphe : l’utilisation de ce composant est similaire à l’utilisation du composant **[!UICONTROL Texte]** dans le Designer d’e-mail. [En savoir plus](../email/content-components.md#text)
+   * En-tête : l’utilisation de ce composant est similaire à l’utilisation du composant **[!UICONTROL Texte]** dans le concepteur d’e-mail. [En savoir plus](../email/content-components.md#text)
+   * Paragraphe : l’utilisation de ce composant est similaire à l’utilisation du composant **[!UICONTROL Texte]** dans le concepteur d’e-mail. [En savoir plus](../email/content-components.md#text)
    * Lien
 
    ![](assets/web-designer-components.png)

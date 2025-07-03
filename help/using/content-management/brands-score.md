@@ -9,7 +9,7 @@ exl-id: 01e74670-7431-4791-b98c-12278e6d3332
 source-git-commit: a9f2eae6398f92a40accb62b1d4544bda031559c
 workflow-type: tm+mt
 source-wordcount: '286'
-ht-degree: 81%
+ht-degree: 84%
 
 ---
 
@@ -38,7 +38,7 @@ ht-degree: 81%
 >[!AVAILABILITY]
 >
 >Cette fonctionnalité est publiée en version Private Beta. Elle sera progressivement disponible pour l’ensemble de la clientèle dans les versions ultérieures.
->&#x200B;>Vous devez accepter le [contrat d’utilisation](https://www.adobe.com/fr/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"} avant de pouvoir utiliser l’Assistant IA dans Adobe Journey Optimizer. Pour plus d’informations, contactez votre représentant ou représentante Adobe.
+>>Vous devez accepter le [contrat d’utilisation](https://www.adobe.com/fr/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"} avant de pouvoir utiliser l’Assistant IA dans Adobe Journey Optimizer. Pour plus d’informations, contactez votre représentant ou représentante Adobe.
 
 La fonction d’alignement des marques vous permet de créer, de réviser et de gérer du contenu qui respecte les directives de votre marque. Elle garantit la cohérence du ton, des messages et de l’identité visuelle dans vos campagnes par e-mail, tout en servant de contrôle qualité avant la mise en ligne de votre contenu.
 
@@ -48,7 +48,7 @@ Une fois [votre marque configurée et publiée](brands.md), évaluez son score d
 
 1. Créez votre [campagne par email](../campaigns/create-campaign.md).
 
-1. Ouvrez le menu **[!UICONTROL Alignement des marques]** dans le Designer Email.
+1. Ouvrez le menu **[!UICONTROL Alignement sur la marque]** dans le concepteur d’e-mail.
 
    Votre contenu est automatiquement évalué par rapport à votre marque par défaut. [Découvrez comment attribuer une marque par défaut](brands.md).
 

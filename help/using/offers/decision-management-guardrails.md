@@ -9,7 +9,7 @@ exl-id: d2872bd3-42f8-4744-bb5b-41c49340098a
 source-git-commit: 87f3da0a1d73f9aa26c7420d260778286bacdf0c
 workflow-type: tm+mt
 source-wordcount: '296'
-ht-degree: 96%
+ht-degree: 99%
 
 ---
 
@@ -26,8 +26,8 @@ Le débit de diffusion correspond au nombre de réponses de décision qui peuven
 | Mécanisme de sécurisation | Limite |
 | ------- | ------- |
 | Requêtes de l’API Decisioning par seconde | 500 par organisation |
-| Requêtes de l’API Edge Decisioning par seconde avec la segmentation Edge | 1 500 par organisation |
-| Requêtes de l’API Edge Decisioning par seconde sans la segmentation Edge | 5 000 par organisation |
+| Requêtes de l’API Edge Decisioning par seconde avec la segmentation Edge | 1 500 par organisation |
+| Requêtes de l’API Edge Decisioning par seconde sans la segmentation Edge | 5 000 par organisation |
 | Offres renvoyées par réponse | Jusqu’à 30 par portée de décision ou 100 au total |
 | Nombre maximal de règles d’offre impliquées par requête | 100 |
 
@@ -52,7 +52,7 @@ Le débit de diffusion correspond au nombre de réponses de décision qui peuven
 | Mécanisme de sécurisation | Limite |
 | ------- | ------- |
 | Qualificateur de collection par offre ou collection | 20 |
-| Nombre total de qualificateurs de collection | 1,000 |
+| Nombre total de qualificateurs de collection | 1 000 |
 
 ## Offres
 
