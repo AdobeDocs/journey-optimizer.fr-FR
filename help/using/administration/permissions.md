@@ -10,7 +10,7 @@ role: Admin
 level: Intermediate
 keywords: produit, profils, sandbox
 source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '710'
 ht-degree: 100%
 
