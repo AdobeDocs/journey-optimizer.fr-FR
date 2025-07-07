@@ -9,10 +9,10 @@ role: User
 level: Beginner, Intermediate
 keywords: parcours, activités, commencer, événements, action
 exl-id: 239b3d72-3be0-4a82-84e6-f219e33ddca4
-source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
+source-git-commit: 527a539272460aa6aa22de5bb3da2223521ee2a3
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '688'
+ht-degree: 90%
 
 ---
 
@@ -62,8 +62,6 @@ La catégorie **[!UICONTROL Actions]** se trouve dans la palette située dans la
 
 Ces activités représentent les différents canaux de communication disponibles. Vous pouvez les combiner pour créer un scénario cross-canal.
 
-<!--If you have configured custom actions, they also appear here. [Learn more](../building-journeys/using-custom-actions.md)-->
-
 Vous pouvez également configurer des actions spécifiques pour envoyer des messages :
 
 * Si vous utilisez un système tiers pour envoyer des messages, vous pouvez créer une action personnalisée spécifique. [En savoir plus](../action/action.md)
@@ -80,7 +78,7 @@ Vous pouvez également configurer des actions spécifiques pour envoyer des mess
 
 La plupart des activités vous permettent de définir un **[!UICONTROL libellé]**. Un suffixe est alors ajouté au nom qui apparaît sous votre activité dans la zone de travail. Cela s’avère utile si vous utilisez plusieurs fois la même activité dans votre parcours et souhaitez faciliter son identification. Cela facilite également le débogage en cas d’erreurs et rend les rapports plus lisibles. Vous pouvez, en outre, ajouter une **[!UICONTROL description]** facultative.
 
-![](assets/journey-action-label.png)
+![Champs Libellé et Description dans les propriétés de l’activité de parcours ](assets/journey-action-label.png)
 
 >[!NOTE]
 >
@@ -90,18 +88,24 @@ La plupart des activités vous permettent de définir un **[!UICONTROL libellé]
 
 La plupart des activités affichent un certain nombre de paramètres avancés et/ou techniques que vous ne pouvez pas modifier.
 
-![](assets/journey-advanced-parameters.png)
+![Champs de paramètres avancés dans les propriétés de l’activité de parcours ](assets/journey-advanced-parameters.png)
 
 Pour une meilleure lisibilité, masquez ces paramètres à l’aide du bouton **[!UICONTROL Masquer les champs en lecture seule]**.
 
-![](assets/journey-hide-read-only-fields.png)
+![Masquez l’icône des champs en lecture seule dans les propriétés de l’activité de parcours ](assets/journey-hide-read-only-fields.png)
 
 Dans certains contextes précis, vous pouvez remplacer les valeurs de ces paramètres pour une utilisation spécifique. Pour forcer une valeur, cliquez sur l’icône **[!UICONTROL Activer le remplacement du paramètre]** à droite du champ. [En savoir plus](../configuration/primary-email-addresses.md#journey-parameters).
 
-![](assets/journey-enable-parameter-override.png)
+![Activer l’option de remplacement de paramètre dans les propriétés de l’activité E-mail](assets/journey-enable-parameter-override.png)
 
 ### Ajouter un chemin d’accès alternatif
 
 Lorsqu’une erreur se produit dans une action ou une condition, le parcours d’une personne s’arrête. La seule façon de le faire continuer est de cocher la case **[!UICONTROL Ajouter un chemin alternatif en cas de temporisation ou d’erreur]**. Consultez [cette section](../building-journeys/using-the-journey-designer.md#paths).
 
-![](assets/journey42.png)
+![Ajoutez une option de chemin alternatif dans les propriétés de l&#39;activité Condition](assets/journey42.png)
+
+## Résolution des problèmes {#troubleshooting}
+
+Avant de tester et de publier votre parcours, vérifiez que toutes les activités sont correctement configurées. Vous ne pouvez pas effectuer de tests ou de publications si des erreurs sont détectées par le système.
+
+Découvrez comment résoudre les erreurs dans les activités et dans le parcours [sur cette page](troubleshooting.md).
