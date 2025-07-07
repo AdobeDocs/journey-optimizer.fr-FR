@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: css, éditeur, résumé, e-mail
 exl-id: e4645bc7-fb99-4fcc-8d0e-bf8b9efc828e
-source-git-commit: 50a2f0cab82dfe9fa39ede9a6cfdb1d6c1a8fe18
+source-git-commit: edf82b966588a792c660430ced2cfe72c6b88216
 workflow-type: tm+mt
 source-wordcount: '733'
 ht-degree: 85%
