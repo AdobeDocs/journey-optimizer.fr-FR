@@ -139,6 +139,7 @@ Vous trouverez ci-dessous des exemples de CSS valide.
   }
 }
 ```
+
 +++
 
 +++ Exemples de CSS non valides
@@ -165,6 +166,7 @@ Une syntaxe non valide, comme l’omission des accolades, n’est pas acceptée�
 body {
   background: red;
 ```
+
 +++
 
 ## Implémentation technique {#implementation}
@@ -205,6 +207,7 @@ Votre CSS personnalisé est ajouté à la fin de la section `<head>` dans le cad
   </body>
 </html>
 ```
+
 +++
 
 Le CSS personnalisé n’est pas interprété ni validé par le volet **[!UICONTROL Paramètres]** du concepteur d’e-mail. Il est entièrement indépendant et ne peut être modifié que par l’intermédiaire de l’option **[!UICONTROL Ajouter un fichier CSS personnalisé]**.
