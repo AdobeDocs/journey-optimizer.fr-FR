@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: test, parcours, vérification, erreur, dépannage
 exl-id: 9937d9b5-df5e-4686-83ac-573c4eba983a
-source-git-commit: fa46397b87ae3a81cd016d95afd3e09bb002cfaa
+source-git-commit: 392bf9871ee39aa8a5279661814daff9482be0fd
 workflow-type: tm+mt
 source-wordcount: '1767'
 ht-degree: 98%
@@ -29,7 +29,7 @@ Seuls les profils de test peuvent rejoindre un parcours en mode test. Vous pouve
 
 >[!NOTE]
 >
->Avant de tester votre parcours, vous devez résoudre toutes les erreurs, le cas échéant. Découvrez comment rechercher des erreurs avant d’effectuer des tests dans [cette section](../building-journeys/troubleshooting.md#checking-for-errors-before-testing).
+>Avant de tester votre parcours, vous devez résoudre toutes les erreurs, le cas échéant. Découvrez comment rechercher des erreurs avant d’effectuer des tests dans [cette section](../building-journeys/troubleshooting.md).
 
 Pour utiliser le mode test, procédez comme suit :
 
@@ -171,8 +171,8 @@ Voici les différents statuts du parcours d’une personne :
 
 * _En cours_ : la personne se trouve actuellement dans le parcours.
 * _Terminé_ : la personne est à la fin du parcours.
-* _Erreur_ : la personne est arrêtée dans le parcours en raison d’une erreur.
-* _Expiré_ : la personne est arrêtée dans le parcours à cause d’une étape qui a pris trop de temps.
+* _Erreur_ : le parcours de la personne a été arrêté en raison d’une erreur.
+* _Délai dépassé_ : le parcours de la personne a été arrêté, car l’exécution d’une étape a pris trop de temps.
 
 Lorsqu’un événement est déclenché en mode test, un jeu de données est automatiquement généré avec le nom de la source.
 
