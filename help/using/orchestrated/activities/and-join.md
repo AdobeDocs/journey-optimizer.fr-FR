@@ -55,7 +55,7 @@ Pour configurer l’activité **[!UICONTROL Rendez-vous]**, procédez comme suit
 
 1. Sous la section **[!UICONTROL Options de fusion]**, sélectionnez toutes les activités précédentes à joindre.
 
-1. Dans le menu déroulant Ensemble de Principal ****, choisissez la population de transition entrante que vous souhaitez conserver.
+1. Dans le menu déroulant Ensemble de Principal **&#x200B;**, choisissez la population de transition entrante que vous souhaitez conserver.
 
 ## Exemple{#and-join-example}
 
