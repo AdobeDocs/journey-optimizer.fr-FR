@@ -5,9 +5,9 @@ user-guide-title: Guide de Journey Optimizer
 user-guide-description: Utilisez Journey Optimizer pour créer et proposer aux clients des expériences connectées, contextuelles et personnalisées
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 61498b61f7f05e0553fe575c980fd1bee08500a3
+source-git-commit: a214afd830b9a0f37268b7e298e742470004e2a0
 workflow-type: tm+mt
-source-wordcount: '2491'
+source-wordcount: '2492'
 ht-degree: 97%
 
 ---
@@ -62,10 +62,6 @@ ht-degree: 97%
       + [Fin de votre parcours](using/building-journeys/end-journey.md)
       + [Copier un parcours dans un autre sandbox](using/building-journeys/copy-to-sandbox.md)
       + [Intégration aux services intelligents](using/building-journeys/ai-services-overview.md)
-   + Résolution des problèmes {#troubleshoot-journey}
-      + [Résolution des erreurs de parcours](using/building-journeys/troubleshooting.md)
-      + [Résolution des problèmes d’exécution du parcours](using/building-journeys/troubleshooting-execution.md)
-      + [Résolution des problèmes liés aux actions entrantes](using/building-journeys/troubleshooting-inbound.md)
    + Activités {#about-journey-building}
       + [Prise en main des activités de parcours](using/building-journeys/about-journey-activities.md)
       + [Événements généraux](using/building-journeys/general-events.md)
@@ -178,12 +174,16 @@ ht-degree: 97%
       + [Accélérer les diffusions](using/building-journeys/ramp-up-deliveries-uc.md)
       + [Limiter le débit avec des sources de données externes et des actions personnalisées](using/building-journeys/limit-throughput.md)
       + [Utiliser des actions personnalisées pour écrire des événements de parcours dans Experience Platform](using/building-journeys/custom-action-aep.md)
+   + Résolution des problèmes {#troubleshoot-journey}
+      + [Résolution des erreurs de parcours](using/building-journeys/troubleshooting.md)
+      + [Résolution des problèmes d’exécution du parcours](using/building-journeys/troubleshooting-execution.md)
+      + [Résolution des problèmes liés aux actions entrantes](using/building-journeys/troubleshooting-inbound.md)
 + Campagnes orchestrées {#orchestrated-campaigns}
    + [Commencer les campagnes orchestrées](using/orchestrated/gs-orchestrated-campaigns.md)
    + [Étapes de configuration](using/orchestrated/configuration-steps.md)
    + [Accéder aux campagnes orchestrées et les gérer](using/orchestrated/access-manage-orchestrated-campaigns.md)
    + Lancer votre première campagne orchestrée{#launch}
-      + [Étapes clés de création de campagnes orchestrées](using/orchestrated/gs-campaign-creation.md)
+      + [Étapes clés de création d’une campagne orchestrée](using/orchestrated/gs-campaign-creation.md)
       + [Créer et planifier la campagne](using/orchestrated/create-orchestrated-campaign.md)
       + [Orchestrer les activités](using/orchestrated/orchestrate-activities.md)
       + [Démarrer et surveiller la campagne](using/orchestrated/start-monitor-campaigns.md)
