@@ -6,10 +6,11 @@ description: Découvrez comment utiliser l’activité Enregistrer l’audience 
 badge: label="Alpha"
 hide: true
 hidefromtoc: true
-source-git-commit: 8a5026cdeb63b7b261ec0dfa690c5bd41d7de772
+exl-id: 7b5b03ba-fbb1-4916-8c72-10778752d8e4
+source-git-commit: ab3cfbdc5c48b5fea47817d39fb8429e096439ff
 workflow-type: tm+mt
-source-wordcount: '473'
-ht-degree: 48%
+source-wordcount: '345'
+ht-degree: 9%
 
 ---
 
@@ -32,26 +33,28 @@ Cette activité est particulièrement utile pour conserver les segments d’audi
 
 ## Configurer l’activité Enregistrer l’audience {#save-audience-configuration}
 
-Pour configurer l’activité **Enregistrer l’audience**, procédez comme suit :
+Pour configurer l’activité **[!UICONTROL Enregistrer l’audience]**, procédez comme suit :
 
-1. Ajoutez une activité **Enregistrer l’audience** à votre campagne orchestrée.
+1. Ajoutez une activité **[!UICONTROL Enregistrer l’audience]** à votre campagne orchestrée.
 
-1. Dans la liste déroulante **Mode**, sélectionnez l’action à effectuer :
+1. Saisissez un **[!UICONTROL libellé Audience]** qui identifiera l’audience enregistrée.
 
-   * **Créer ou mettre à jour une audience existante** : définissez un **libellé d’audience**. Si l’audience existe déjà, elle est mise à jour, sinon une nouvelle audience est créée.
+1. Cliquez sur **[!UICONTROL Ajouter un attribut d’audience]** pour définir la structure et le stockage des données d’audience en vue d’une réutilisation ultérieure.
 
-   * **Mettre à jour une audience existante** : sélectionnez l’**Audience** que vous souhaitez mettre à jour parmi la liste des audiences existantes.
+   ![](../assets/save-audience-1.png)
 
-1. Sélectionnez le **mode de mise à jour** qui s’applique aux audiences existantes :
+1. Sélectionnez ensuite le champ d’identité de Principal **[!UICONTROL approprié]** &#x200B;et **[!UICONTROL Espace de noms d’identité]** pour garantir une résolution de profil précise.
 
-   * **Remplacer le contenu de l’audience par les nouvelles données** : tout le contenu de l’audience est remplacé et les anciennes données sont perdues. Seules les données issues de la transition entrante de l’activité **Enregistrer l’audience** sont conservées. Cette option écrase le type et la dimension de ciblage de l’audience mise à jour.
+   ![](../assets/save-audience-2.png)
 
-   * **Compléter l’audience avec les nouvelles données** : l’ancien contenu de l’audience est conservé et les données sont complétées avec celles issues de la transition entrante de l’activité **Enregister l’audience**.
+1. Finalisez votre configuration en enregistrant et en publiant la campagne orchestrée. Cette opération génère et stocke votre audience.
 
-1. Cochez l’option **Générer une transition sortante** si vous souhaitez ajouter une transition après l’activité **Enregistrer l’audience**.
+Le contenu de l’audience enregistrée est alors disponible dans la vue détaillée de l’audience, accessible à partir du menu **[!UICONTROL Audiences]**.
 
-Le contenu de l’audience enregistrée est ensuite disponible dans la vue détaillée de l’audience, accessible depuis le menu **Audiences**. Les colonnes disponibles dans cette vue correspondent aux colonnes de la transition entrante de l’activité de campagne orchestrée **Sauvegarde d’audience**.
+![](../assets/save-audience-3.png)
 
 ## Exemple {#save-audience-example}
 
-L’exemple suivant illustre une mise à jour simple de l’audience à partir du ciblage. Un planificateur exécute la campagne orchestrée une fois par mois. Une requête récupère tous les profils abonnés aux différentes applications disponibles. L’activité **Enregistrer l’audience** met à jour l’audience en supprimant les profils qui se sont désabonnés du service depuis la dernière exécution de campagne orchestrée et en ajoutant les profils nouvellement abonnés.
+L’exemple suivant montre comment créer une audience simple à l’aide du ciblage. Une requête identifie tous les profils qui ont effectué un achat au cours des 30 derniers jours. L’activité **[!UICONTROL Enregistrer l’audience]** capture ensuite ces profils afin de créer une audience réutilisable des acheteurs récents.
+
+![](../assets/save-audience-4.png)
