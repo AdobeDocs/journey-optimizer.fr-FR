@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: css, éditeur, résumé, e-mail
 exl-id: e4645bc7-fb99-4fcc-8d0e-bf8b9efc828e
-source-git-commit: edf82b966588a792c660430ced2cfe72c6b88216
+source-git-commit: 5593758448216efcc82971b1072b7fc8c9303572
 workflow-type: tm+mt
 source-wordcount: '733'
 ht-degree: 85%
@@ -142,6 +142,7 @@ Vous trouverez ci-dessous des exemples de CSS valide.
 
 +++
 
+
 +++ Exemples de CSS non valides
 
 Si le code CSS saisi n’est pas valide, un message d’erreur s’affiche, indiquant qu’il ne peut pas être enregistré. Vous trouverez ci-dessous des exemples de CSS non valides.
@@ -209,6 +210,7 @@ Votre CSS personnalisé est ajouté à la fin de la section `<head>` dans le cad
 ```
 
 +++
+
 
 Le CSS personnalisé n’est pas interprété ni validé par le volet **[!UICONTROL Paramètres]** du concepteur d’e-mail. Il est entièrement indépendant et ne peut être modifié que par l’intermédiaire de l’option **[!UICONTROL Ajouter un fichier CSS personnalisé]**.
 
