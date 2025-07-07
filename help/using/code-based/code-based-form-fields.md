@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Experienced
 exl-id: 5dd46ea8-acba-4c42-a65a-c18e45cba2cd
-source-git-commit: 158ae930fa87dc0476273bfbb14c96e780281491
+source-git-commit: 92247adabc56f369c9b11cdc519cdc7bf30c99f1
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1218'
+ht-degree: 18%
 
 ---
 
@@ -149,8 +149,8 @@ Vous trouverez ci-dessous quelques exemples de modèles JSON et HTML, dont certa
 >
 >Lors du référencement des champs intégrés dans la payload JSON :
 >
->   * Les champs de type chaîne doivent être placés entre guillemets doubles.
->   * Les entiers ou les booléens ne doivent PAS être placés entre guillemets doubles. (Voir le champ `number_of_items` dans l’exemple ci-dessus.)
+>* Les champs de type chaîne doivent être placés entre guillemets doubles.
+>* Les entiers ou les booléens ne doivent PAS être placés entre guillemets doubles. (Voir le champ `number_of_items` dans l’exemple ci-dessus.)
 
 **Modèle JSON avec prise de décision :**
 
@@ -246,4 +246,4 @@ Vous pourrez facilement modifier les champs de formulaire d’un parcours d’ex
 
 Découvrez comment ajouter des champs modifiables aux modèles de contenu de canal d’expérience codés.
 
->[!VIDEO](https://video.tv.adobe.com/v/3463993/?learn=on&#x26;enablevpops&captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/3463990/?learn=on&#x26;enablevpops)

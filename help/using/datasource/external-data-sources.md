@@ -9,7 +9,7 @@ role: Data Engineer, Data Architect, Admin
 level: Intermediate, Experienced
 keywords: externe, sources, données, configuration, connexion, tiers
 exl-id: f3cdc01a-9f1c-498b-b330-1feb1ba358af
-source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
+source-git-commit: 92247adabc56f369c9b11cdc519cdc7bf30c99f1
 workflow-type: tm+mt
 source-wordcount: '1677'
 ht-degree: 98%
@@ -108,11 +108,11 @@ Dans le cas d’une méthode GET nécessitant un ou plusieurs paramètres, vous 
 * répertorier les paramètres à transmettre au moment de l’appel dans le champ **[!UICONTROL Valeurs dynamiques]** (« identifiant » dans l’exemple ci-dessous) ;
 * spécifier les paramètres avec la même syntaxe dans le corps de la payload envoyée. Pour ce faire, vous devez ajouter : « param » : « nom de votre paramètre » (« identifiant » dans l’exemple ci-dessous). Suivez la syntaxe ci-dessous :
 
-  ```json
-  {"id":{"param":"identifier"}}
-  ```
+```json
+{"id":{"param":"identifier"}}
+```
 
-  ![](assets/journey29.png)
+![](assets/journey29.png)
 
 
 Une fois vos modifications enregistrées, la source de données est configurée et prête à être utilisée dans vos parcours, par exemple dans vos conditions ou pour personnaliser un e-mail. Si la température est supérieure à 30 °C, vous pouvez choisir d’envoyer une communication spécifique.
