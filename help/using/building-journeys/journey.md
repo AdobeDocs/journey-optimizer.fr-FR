@@ -8,10 +8,10 @@ role: User
 level: Beginner, Intermediate
 keywords: parcours, découverte, commencer
 exl-id: 73cfd48b-72e6-4b72-bbdf-700a32a34bda
-source-git-commit: fa46397b87ae3a81cd016d95afd3e09bb002cfaa
+source-git-commit: 6c4bfc4544afc84d4a8685562f716c258a2acbab
 workflow-type: tm+mt
-source-wordcount: '418'
-ht-degree: 90%
+source-wordcount: '387'
+ht-degree: 87%
 
 ---
 
@@ -40,13 +40,7 @@ Découvrez comment concevoir et créer votre premier parcours dans [cette page](
 
 Le [concepteur de parcours](using-the-journey-designer.md) fournit des [actions de canal intégrées](journeys-message.md) qui prennent en charge les messages sortants, tels que les e-mails, les notifications push et les SMS/MMS, ainsi que les canaux entrants, notamment les applications mobiles, les sites web et les expériences basées sur du code créées directement dans Journey Optimizer. Vous pouvez également utiliser des systèmes tiers pour envoyer des messages (par e-mail, par texte ou par d’autres canaux). Journey Optimizer inclut des [actions personnalisées](using-custom-actions.md) pour permettre l’intégration de ces systèmes dans les parcours directement à partir du concepteur de parcours.
 
-Découvrez comment créer des parcours dans les cas d’utilisation complets suivants.
-
-* [Envoi de messages multi-canal](journeys-uc.md)
-* [Envoi de messages à l’aide de Campaign v7/v8](ajo-ac.md)
-* [Envoyer un message aux abonnés](message-to-subscribers-uc.md)
-* [Transmettre des collections de manière dynamique à l’aide d’actions personnalisées](collections.md)
-* [Limiter le débit avec des sources de données externes et des actions personnalisées](limit-throughput.md)
+Découvrez comment créer des parcours [dans ces cas d’utilisation complets](jo-use-cases.md).
 
 >[!NOTE]
 >
@@ -56,4 +50,4 @@ Découvrez comment créer des parcours dans les cas d’utilisation complets sui
 
 Découvrez les composants d’un parcours et comprenez les principes de base de la création d’un parcours dans la zone de travail.
 
->[!VIDEO](https://video.tv.adobe.com/v/3430351?quality=12&captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/3424996?quality=12)
