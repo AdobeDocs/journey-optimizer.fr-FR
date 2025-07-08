@@ -33,6 +33,6 @@ Obtenez de l’aide pour diagnostiquer les problèmes liés aux événements ent
 * **[Résolution des problèmes liés à une action personnalisée](../action/troubleshoot-custom-action.md)**
 Découvrez comment déboguer et valider des actions personnalisées, notamment la gestion des données, les erreurs de réponse et les échecs d’intégration.
 
-De plus, consultez cet article de blog de la communauté Adobe [&#128279;](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/demystifying-adobe-journey-optimizer-error-codes-root-causes-and/ba-p/760884){target="_blank"} détaillant les **codes d’erreur courants** et comment les résoudre efficacement.
+De plus, consultez cet article de blog de la communauté Adobe [&#128279;](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/demystifying-adobe-journey-optimizer-error-codes-root-causes-and/ba-p/760884?profile.language=fr){target="_blank"} détaillant les **codes d’erreur courants** et comment les résoudre efficacement.
 
 Ces ressources vous aideront à isoler rapidement les problèmes, à valider votre configuration et à relancer vos parcours en douceur.
