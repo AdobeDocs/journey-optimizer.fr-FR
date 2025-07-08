@@ -7,9 +7,9 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: 8c785431-9a00-46b8-ba54-54a10e288141
-source-git-commit: a19fe429d34a88c6159ab3b2b4dfa3768bcd24ad
+source-git-commit: 54d5b3386da4eed53fca79a2135ab54548855150
 workflow-type: tm+mt
-source-wordcount: '1143'
+source-wordcount: '1171'
 ht-degree: 21%
 
 ---
@@ -167,6 +167,10 @@ Continuez en créant une relation entre le schéma **récompenses de fidélité*
 
 ## Ingestion de données {#ingest}
 
+>[!IMPORTANT]
+>
+>Chaque jeu de données de Adobe Experience Platform ne prend en charge qu’un seul flux de données actif à la fois. Pour obtenir des instructions de configuration détaillées sur le changement de source de données, consultez cette [section](#cdc-ingestion).
+
 Adobe Experience Platform permet d’ingérer des données à partir de sources externes tout en vous offrant la possibilité de structurer, d’étiqueter et d’améliorer les données entrantes à l’aide des services d’Experience Platform. Vous pouvez ingérer des données provenant de diverses sources telles que les applications Adobe, les stockages dans le cloud, des bases de données, etc.
 
 1. Dans le menu **[!UICONTROL Connexions]**, accédez au menu **[!UICONTROL Sources]**.
@@ -181,7 +185,7 @@ Adobe Experience Platform permet d’ingérer des données à partir de sources 
 
    * Avec un nouveau compte
 
-   [En savoir plus dans la documentation d’Adobe Experience Platform](https://experienceleague.adobe.com/fr/docs/experience-platform/destinations/catalog/cloud-storage/amazon-s3#connect)
+   [En savoir plus dans la documentation d’Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/cloud-storage/amazon-s3#connect)
 
    ![](assets/admin_sources_2.png)
 
@@ -219,6 +223,29 @@ Adobe Experience Platform permet d’ingérer des données à partir de sources 
 
    ![](assets/S3_config_5.png)
 
+<!--### Setting Up Change data capture ingestion {#cdc-ingestion}
+
+If you need to change the data source, you must delete the existing dataflow and create a new one pointing to the same dataset with the new source.
+
+When using Change Data Capture (CDC), it is essential that the source and dataset remain in sync to ensure accurate incremental updates. Follow the steps below:
+
+1. **Schema Requirements**
+   - Your schema must include:
+     - A **primary key** (e.g., `transaction_id`)
+     - A **versioning field** (e.g., `lastmodified` or an incrementing `version_id`)
+   - Enable the dataset for **Orchestrated Campaigns** if needed.
+
+2. **CDC Dataflow Setup**
+   - During dataflow creation, after choosing your source and files:
+     - **Enable the CDC option**
+     - Select your CDC-ready dataset
+     - Confirm field mappings (especially version field)
+
+3. **Keep Source and Target in Sync**
+   - The source system must consistently update the version field so the platform can detect changes accurately.
+
+Once set up, the platform will automatically ingest **only changed or new records** each time the flow runs.
+-->
 <!--manual
 ## Create a relational schema manual
 
