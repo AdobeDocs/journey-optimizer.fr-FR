@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Intermediate
 keywords: dépannage, résolution des problèmes, parcours, vérification, erreurs
-source-git-commit: 6ede06256038f781cfb8307bacc4e731b0323a8c
+source-git-commit: b9db2b39629750ead953a229a46e3a75467fd203
 workflow-type: tm+mt
 source-wordcount: '230'
 ht-degree: 11%
@@ -34,7 +34,7 @@ Consultez les pages ci-dessous pour découvrir des rubriques de dépannage spéc
     <div><strong>Résolution des problèmes d’exécution de parcours </strong><br/> Découvrez comment résoudre les problèmes liés aux événements de parcours, vérifier si les profils ont rejoint votre parcours, comment ils le parcourent et si des messages sont envoyés.</div>
     </td>
     <td>
-    <a href="..building-journeys/troubleshooting-inbound.md" "><img src="../assets/do-not-localize/in-app.jpg"></a>
+    <a href="../building-journeys/troubleshooting-inbound.md" "><img src="../assets/do-not-localize/in-app.jpg"></a>
     <div><strong>Dépannage des actions entrantes</strong><br/>Découvrez comment déboguer les problèmes liés aux actions entrantes dans un parcours, afin de vous aider à les identifier et à les résoudre vous-même.</div>
     </td>
     <td>
@@ -91,12 +91,12 @@ Consultez les pages ci-dessous pour découvrir des rubriques de dépannage spéc
 <tr style="border: 0;">
   <td>
     <div>
-    <a href="https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/demystifying-adobe-journey-optimizer-error-codes-root-causes-and/ba-p/760884?profile.language=fr">
+    <a href="https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/demystifying-adobe-journey-optimizer-error-codes-root-causes-and/ba-p/760884">
     <img alt="Comprendre les codes d’erreur courants" src="../assets/do-not-localize/icon-quick-start.svg" /></a> 
     <br>Consultez également cet article de blog de la communauté Adobe qui détaille les <strong>codes d’erreur courants</strong> et la manière de les résoudre efficacement.
     </div>
       <div>
-     <a href="https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/demystifying-adobe-journey-optimizer-error-codes-root-causes-and/ba-p/760884?profile.language=fr" target="_blank">En savoir plus</a></div>
+     <a href="https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/demystifying-adobe-journey-optimizer-error-codes-root-causes-and/ba-p/760884" target="_blank">En savoir plus</a></div>
     </div>
   </td>
 </tr>
