@@ -5,9 +5,9 @@ user-guide-title: Guide de Journey Optimizer
 user-guide-description: Utilisez Journey Optimizer pour créer et proposer aux clients des expériences connectées, contextuelles et personnalisées
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 84c65ee3f890685a12653c07ef06a179515f602d
+source-git-commit: f5baa901c4f9d1061837528007b2c3f048ecbf2a
 workflow-type: tm+mt
-source-wordcount: '2491'
+source-wordcount: '2494'
 ht-degree: 97%
 
 ---
@@ -175,9 +175,11 @@ ht-degree: 97%
       + [Limiter le débit avec des sources de données externes et des actions personnalisées](using/building-journeys/limit-throughput.md)
       + [Utiliser des actions personnalisées pour écrire des événements de parcours dans Experience Platform](using/building-journeys/custom-action-aep.md)
    + Résolution des problèmes {#troubleshoot-journey}
+      + [Résolution des problèmes liés aux parcours](using/building-journeys/gs-troubleshooting.md)
       + [Résolution des erreurs de parcours](using/building-journeys/troubleshooting.md)
       + [Résolution des problèmes d’exécution du parcours](using/building-journeys/troubleshooting-execution.md)
       + [Résolution des problèmes liés aux actions entrantes](using/building-journeys/troubleshooting-inbound.md)
+      + [Résoudre les problèmes liés aux actions personnalisées](using/action/troubleshoot-custom-action.md)
 + Campagnes orchestrées {#orchestrated-campaigns}
    + [Commencer les campagnes orchestrées](using/orchestrated/gs-orchestrated-campaigns.md)
    + [Étapes de configuration](using/orchestrated/configuration-steps.md)
@@ -770,7 +772,6 @@ Définissez les règles de limitation des messages et des parcours {#capping-rul
    + Configuration des actions {#action-journeys}
       + [Commencer avec les actions personnalisées](using/action/action.md)
       + [Configurer une action personnalisée](using/action/about-custom-action-configuration.md)
-      + [Résoudre les problèmes liés aux actions personnalisées](using/action/troubleshoot-custom-action.md)
       + [Utiliser des réponses d’appel API dans des actions personnalisées](using/action/action-response.md)
 + Connecter vos systèmes et environnements {#connect-systems}
    + [Intégration à d’autres solutions](using/integrations/ajo-integrations.md)
