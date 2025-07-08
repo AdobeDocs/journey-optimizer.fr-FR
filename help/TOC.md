@@ -5,10 +5,10 @@ user-guide-title: Guide de Journey Optimizer
 user-guide-description: Utilisez Journey Optimizer pour créer et proposer aux clients des expériences connectées, contextuelles et personnalisées
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 54d5b3386da4eed53fca79a2135ab54548855150
+source-git-commit: 9324de79b7a1e787c3a23338c4292cd4ff2bb6df
 workflow-type: tm+mt
-source-wordcount: '2496'
-ht-degree: 97%
+source-wordcount: '2502'
+ht-degree: 96%
 
 ---
 
@@ -313,6 +313,7 @@ Définissez les règles de limitation des messages et des parcours {#capping-rul
       + [Créer un courrier](using/direct-mail/create-direct-mail.md)
       + [Vérifier et envoyer un message de publipostage direct](using/direct-mail/test-send-direct-mail.md)
       + [Configurer le courrier](using/direct-mail/direct-mail-configuration.md)
+      + [Envoi de messages de publipostage direct avec parcours](using/direct-mail/direct-mail-journeys.md)
    + Canal web {#web}
       + [Commencer avec le canal web](using/web/get-started-web.md)
       + Configurer le canal web {#configure-web-channel}

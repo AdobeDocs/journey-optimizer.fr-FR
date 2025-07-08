@@ -7,10 +7,10 @@ role: User
 level: Beginner
 keywords: courrier, message, campagne
 exl-id: 6b438268-d983-4ab8-9276-c4b7de74e6bd
-source-git-commit: 6bcfbc835a61aa326d4ee548722a6ad6e2942ea2
-workflow-type: ht
-source-wordcount: '751'
-ht-degree: 100%
+source-git-commit: 9324de79b7a1e787c3a23338c4292cd4ff2bb6df
+workflow-type: tm+mt
+source-wordcount: '749'
+ht-degree: 98%
 
 ---
 
@@ -55,7 +55,7 @@ Pour créer une campagne par courrier, procédez comme suit :
 
 1. Dans la section **[!UICONTROL Actions]**, choisissez le **[!UICONTROL Publipostage direct]**.
 
-1. Sélectionnez ou créez une configuration de **[!UICONTROL configuration de publipostage direct]** à utiliser. [Découvrez comment créer une configuration de publipostage direct](direct-mail-configuration.md#direct-mail-surface).
+1. Sélectionnez ou créez une **[!UICONTROL configuration du publipostage direct]** à utiliser. [Découvrez comment créer une configuration de publipostage direct](direct-mail-configuration.md#direct-mail-surface).
 
    ![](assets/direct-mail-campaign.png){width="800" align="center"}
 
