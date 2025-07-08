@@ -90,4 +90,4 @@ Pour ajouter une action Courrier dans un parcours, procédez comme suit :
 
    Vous trouverez des informations détaillées sur la sélection des profils de test et la prévisualisation de votre contenu dans la section [Gestion de contenu](../content-management/preview-test.md).
 
-Lorsque votre fichier d’extraction est prêt, effectuez la configuration de votre parcours [&#128279;](../building-journeys/journey-gs.md) pour l’envoyer.
+Lorsque votre fichier d’extraction est prêt, effectuez la configuration de votre parcours [](../building-journeys/journey-gs.md) pour l’envoyer.
