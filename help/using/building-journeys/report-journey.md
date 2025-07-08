@@ -9,26 +9,28 @@ role: User
 level: Intermediate
 keywords: publication, parcours, dynamique, validité, vérifier
 exl-id: 186b061d-0941-48be-8917-bbdfff6dae90
-source-git-commit: b604ab6d94f414b96378f15986edbcf92cee77dc
-workflow-type: ht
-source-wordcount: '312'
-ht-degree: 100%
+source-git-commit: 62525caa9b065538c090b98d38c15dbd960dafe7
+workflow-type: tm+mt
+source-wordcount: '402'
+ht-degree: 70%
 
 ---
 
 # Rapport dynamique dans la zone de travail du parcours {#report-journey}
 
->[!NOTE]
+Une fois votre parcours publié, une fois le [mode d’exécution d’essai](journey-dry-run.md) activé, **Rapports dynamiques** fournit les mesures des dernières 24 heures, directement dans la zone de travail du parcours.
+
+
+>[!AVAILABILITY]
 >
 >Si vous ne pouvez pas voir les données dans le rapport dynamique de votre parcours, vos droits d’accès doivent être étendus afin d’inclure l’autorisation **[!UICONTROL Afficher le rapport des parcours]**. [En savoir plus](../administration/permissions.md)
 
-Une fois votre parcours publié, la fonction **Rapports dynamiques** fournit des mesures des dernières 24 heures, directement dans la zone de travail du parcours.
 
 Les événements affichés se sont produits au cours des dernières 24 heures, avec un intervalle minimal de deux minutes entre l’événement et son affichage, généralement dans les cinq minutes.
 
 ![](assets/journey_live_report.png)
 
-Pour votre parcours dynamique, vous avez accès aux éléments suivants :
+Pour vos parcours en mode d’exécution Live ou [Dry](journey-dry-run.md), vous pouvez vérifier les éléments suivants :
 
 * **[!UICONTROL Profils entrés]** : nombre total de personnes ayant rejoint le parcours.
 * **[!UICONTROL Profils sortis]** : nombre total de personnes ayant quitté le parcours (y compris les erreurs).
@@ -40,8 +42,18 @@ Pour votre parcours dynamique, vous avez accès aux éléments suivants :
    * Sur les parcours **récurrents**, un rejet est comptabilisé à chaque périodicité si la personne figure déjà dans le parcours et que la politique de rentrée n’est pas définie sur « Forcer une rentrée ».
    * Sur les activités **Lecture d’audience**, un rejet survient si aucune identité n’est définie pour la personne exportée ou si l’espace de noms d’identité reçu ne correspond pas à celui attendu pour le parcours.
 
-Pour chaque activité au sein de chaque parcours dynamique, vous avez accès aux éléments suivants :
+Pour chaque activité de chaque parcours en mode d’exécution actif ou [essai](journey-dry-run.md), vous avez accès aux éléments suivants :
 
-* **[!UICONTROL Entrées]** : nombre total de personnes ayant rejoint cette activité.
-* **[!UICONTROL Sorties (critères de sortie remplis)]** : nombre total de personnes ayant quitté le parcours de cette activité en raison d’un critère de sortie.
+* **[!UICONTROL Entrées]** : nombre total de personnes ayant participé à cette activité. Pour les activités **Action**, étant donné qu’elles ne sont pas exécutées en mode d’exécution d’essai, cette mesure indique le passage des profils.
+* **[!UICONTROL Sorti (satisfait aux critères de sortie)]** : nombre total de personnes ayant quitté le parcours de cette activité en raison d’un critère de sortie (y compris les erreurs).
+* **[!UICONTROL Sorties (sorties forcées)]** : nombre total de personnes ayant quitté le parcours alors qu’il était en pause en raison d’une configuration opérée par la personne responsable du parcours. Cette mesure est toujours égale à zéro pour les parcours en mode Test à blanc.
 * **[!UICONTROL Erreur]** : nombre total de personnes ayant rencontré une erreur pour cette activité.
+
+
+>[!MORELIKETHIS]
+>
+>* [Prise en main du reporting](../reports/gs-reports.md)
+>* [Publier votre parcours ](publishing-the-journey.md)
+>* [Exécution d’essai de Parcours ](journey-dry-run.md)
+>* [Configurer et suivre les mesures de parcours ](success-metrics.md)
+>* [ Rapports de parcours personnalisés ](../reports/sharing-overview.md)

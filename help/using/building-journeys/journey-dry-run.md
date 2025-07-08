@@ -9,9 +9,9 @@ level: Intermediate
 badge: label="Disponibilité limitée" type="Informative"
 keywords: publication, parcours, actif, validité, vérification
 exl-id: 58bcc8b8-5828-4ceb-9d34-8add9802b19d
-source-git-commit: fa46397b87ae3a81cd016d95afd3e09bb002cfaa
+source-git-commit: 62525caa9b065538c090b98d38c15dbd960dafe7
 workflow-type: tm+mt
-source-wordcount: '995'
+source-wordcount: '864'
 ht-degree: 84%
 
 ---
@@ -87,24 +87,10 @@ Pour activer le test à blanc, procédez comme suit :
 
 Une fois la publication en mode Test à blanc lancée, vous pouvez visualiser l’exécution du parcours et la progression des profils dans les branches et les nœuds du parcours.
 
-Les mesures s’affichent directement dans la zone de travail du parcours.
+Les mesures s’affichent directement dans la zone de travail du parcours. Pour en savoir plus sur les rapports et les mesures dynamiques du parcours, consultez la section [ Rapport dynamique dans la zone de travail du parcours ](report-journey.md).
 
 ![Surveiller l’exécution du test à blanc du parcours](assets/dry-run-metrics.png)
 
-Pour chaque activité, dans leur boîte d&#39;activité, vous pouvez cocher :
-
-* **[!UICONTROL Entrées]** : nombre total de personnes ayant participé à cette activité. Pour les activités **Action**, étant donné qu’elles ne sont pas exécutées en mode d’exécution d’essai, cette mesure indique le passage des profils.
-* **[!UICONTROL Sorties (critères de sortie remplis)]** : nombre total de personnes ayant quitté le parcours de cette activité en raison d’un critère de sortie.
-* **[!UICONTROL Sorties (sorties forcées)]** : nombre total de personnes ayant quitté le parcours alors qu’il était en pause en raison d’une configuration opérée par la personne responsable du parcours. Cette mesure est toujours égale à zéro pour les parcours en mode Test à blanc.
-* **[!UICONTROL Erreur]** : nombre total de personnes ayant rencontré une erreur pour cette activité.
-
-
-En parcours, dans la section supérieure gauche de la zone de travail, vous pouvez vérifier les éléments suivants :
-
-* Le nombre total de **profils d’entrée**.
-* Le nombre total de **profils de sortie**.
-* Le nombre total de **profils qui présentent une erreur**.
-* Le nombre total de **profils supprimés** dans le parcours.
 
 Vous pouvez également accéder aux **Rapports sur les dernières 24 heures** et aux **Rapports sur la durée entière** pour le test à blanc. Pour accéder à ces rapports, cliquez sur le bouton **Afficher le rapport** dans le coin supérieur droit de la zone de travail du parcours.
 
