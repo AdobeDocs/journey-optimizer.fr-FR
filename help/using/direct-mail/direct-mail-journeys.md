@@ -10,10 +10,10 @@ hide: true
 robots: noindex
 googlebot: noindex
 keywords: courrier, message, campagne
-source-git-commit: 6f239f9bb9dbce871fbbdd89c460d9ac39706e1e
+source-git-commit: 088e89013235883d0a8b433fa348ee33a34e7a8c
 workflow-type: tm+mt
-source-wordcount: '765'
-ht-degree: 39%
+source-wordcount: '760'
+ht-degree: 30%
 
 ---
 
@@ -29,9 +29,7 @@ Le courrier est un canal hors ligne qui vous permet de personnaliser et de gén�
 
 Lors de la création d’un message de publipostage direct, [!DNL Journey Optimizer] génère automatiquement un fichier contenant tous les profils ciblés et les données sélectionnées, telles que les adresses postales et les attributs de profil. Ce fichier est envoyé au serveur de votre choix afin qu’il soit accessible par le fournisseur de courrier tiers de votre choix, qui gérera le processus de courrier réel pour vous.
 
-Vous devrez collaborer avec le fournisseur de courrier tiers de votre choix pour obtenir tout consentement requis de votre clientèle, le cas échéant, afin qu’elle puisse recevoir du courrier de votre part.
-
-Votre utilisation des services de publipostage est soumise aux conditions générales supplémentaires du fournisseur de publipostage direct tiers concerné. Adobe ne contrôle pas les produits tiers et n’en n’est pas responsable. Pour tout problème ou toute demande d’assistance liés à l’envoi de votre message de publipostage direct, contactez le fournisseur de publipostage direct tiers de votre choix.
+Vous devez travailler avec le fournisseur de publipostage direct tiers de votre choix pour obtenir les consentements requis de vos clients, le cas échéant, afin que vos clients puissent recevoir du courrier de votre part. Votre utilisation des services de publipostage est soumise aux conditions générales supplémentaires du fournisseur de publipostage direct tiers concerné. Adobe ne contrôle pas les produits tiers et n’en n’est pas responsable. Pour tout problème ou toute demande d’assistance liés à l’envoi de votre message de publipostage direct, contactez le fournisseur de publipostage direct tiers de votre choix.
 
 >[!NOTE]
 >
@@ -58,11 +56,9 @@ Avant de créer un message de publipostage direct, assurez-vous d’avoir config
 
 ## Créer une configuration de publipostage direct {#direct-mail-surface}
 
-Une configuration de publipostage direct contient les paramètres de formatage du fichier qui contient les données de l’audience ciblée et qui seront utilisées par le fournisseur du publipostage direct. Vous devez également définir l’endroit où le fichier sera exporté en sélectionnant la configuration du routage du fichier.
+Une configuration de publipostage direct contient les paramètres de formatage du fichier qui contient les données de l’audience ciblée et qui seront utilisées par le fournisseur du publipostage direct. Vous devez également définir l’endroit où le fichier sera exporté en sélectionnant la configuration du routage du fichier. Vous trouverez des informations détaillées sur la création d’une configuration de publipostage direct dans la section [Configuration du publipostage direct](../direct-mail/direct-mail-configuration.md#file-routing-configuration).
 
-Vous trouverez des informations détaillées sur la création d’une configuration de publipostage direct dans la section [Configuration du publipostage direct](../direct-mail/direct-mail-configuration.md#file-routing-configuration).
-
-Une fois que votre configuration de publipostage direct est prête, vous pouvez créer et ajouter une action de publipostage direct dans votre parcours.
+Une fois que votre configuration du publipostage direct est prête, vous pouvez ajouter une action de publipostage direct dans votre parcours.
 
 ## Ajouter une action Courrier à votre parcours
 
@@ -70,24 +66,20 @@ Pour ajouter une action Courrier dans un parcours, procédez comme suit :
 
 1. Ouvrez votre parcours, puis effectuez un glisser-déposer d’une activité **[!UICONTROL Publipostage direct]** depuis la section **Actions** de la palette.
 
-1. Fournissez des informations de base sur votre message (libellé, description, catégorie), puis choisissez la configuration de message à utiliser. Par défaut, le champ de **[!UICONTROL configuration]** est prérempli avec la dernière configuration utilisée par l’utilisateur ou l’utilisatrice pour ce canal.
+1. Fournissez des informations de base sur votre message (libellé, description, catégorie), puis choisissez la configuration de message à utiliser. Par défaut, le champ **[!UICONTROL configuration]** est prérempli avec la dernière configuration utilisée par l’utilisateur ou l’utilisatrice pour ce canal. Pour plus d’informations sur la configuration de votre parcours, consultez [cette page](../building-journeys/journey-gs.md).
 
-   Pour plus d’informations sur la configuration de votre parcours, consultez [cette page](../building-journeys/journey-gs.md).
-
-1. Vous pouvez maintenant configurer le fichier d’extraction à envoyer à votre fournisseur de publipostage direct. Pour ce faire, cliquez sur le bouton **[!UICONTROL Modifier le contenu]**.
+1. Configurez le fichier d’extraction à envoyer à votre fournisseur de publipostage direct. Pour ce faire, cliquez sur le bouton **[!UICONTROL Modifier le contenu]**.
 
    ![](assets/direct-mail-add-journey.png)
 
-1. Ajustez les propriétés du fichier d’extraction, telles que le nom du fichier, ou les colonnes à afficher. Pour plus d&#39;informations sur la configuration des propriétés du fichier d&#39;extraction, consultez cette section. [Créer un message de publipostage direct](../direct-mail/create-direct-mail.md#extraction-file)
+1. Ajustez les propriétés du fichier d’extraction, telles que le nom du fichier, ou les colonnes à afficher. Pour plus d’informations sur la configuration des propriétés du fichier d’extraction, reportez-vous à cette section : [Créer un message de publipostage direct](../direct-mail/create-direct-mail.md#extraction-file).
 
    ![](assets/direct-mail-journey-content.png)
 
 1. Une fois le contenu du fichier d’extraction défini, vous pouvez utiliser des profils de test pour le prévisualiser. Si vous avez inséré du contenu personnalisé, vous pouvez vérifier l’affichage de celui-ci dans le message à l’aide des données de profil de test.
 
-   Pour ce faire, cliquez sur **[!UICONTROL Simuler du contenu]** puis ajoutez un profil de test pour vérifier le rendu du fichier d’extraction à l’aide des données du profil de test.
+   Pour ce faire, cliquez sur **[!UICONTROL Simuler du contenu]** puis ajoutez un profil de test pour vérifier le rendu du fichier d’extraction à l’aide des données du profil de test. Vous trouverez des informations détaillées sur la sélection des profils de test et la prévisualisation de votre contenu dans la section [Gestion de contenu](../content-management/preview-test.md).
 
    ![](assets/direct-mail-simulate.png){width="800" align="center"}
 
-   Vous trouverez des informations détaillées sur la sélection des profils de test et la prévisualisation de votre contenu dans la section [Gestion de contenu](../content-management/preview-test.md).
-
-Lorsque votre fichier d’extraction est prêt, effectuez la configuration de votre parcours [&#128279;](../building-journeys/journey-gs.md) pour l’envoyer.
+Lorsque votre fichier d’extraction est prêt, effectuez la configuration de votre parcours [](../building-journeys/journey-gs.md) pour l’envoyer.
