@@ -82,4 +82,4 @@ Pour ajouter une action Courrier dans un parcours, procédez comme suit :
 
    ![](assets/direct-mail-simulate.png){width="800" align="center"}
 
-Lorsque votre fichier d’extraction est prêt, effectuez la configuration de votre parcours [](../building-journeys/journey-gs.md) pour l’envoyer.
+Lorsque votre fichier d’extraction est prêt, effectuez la configuration de votre parcours [&#128279;](../building-journeys/journey-gs.md) pour l’envoyer.
