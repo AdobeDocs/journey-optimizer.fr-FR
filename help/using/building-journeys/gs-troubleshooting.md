@@ -53,6 +53,6 @@ Consultez les pages ci-dessous pour découvrir des rubriques de dépannage spéc
 
 -->
 
-De plus, consultez cet article de blog de la communauté Adobe [](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/demystifying-adobe-journey-optimizer-error-codes-root-causes-and/ba-p/760884){target="_blank"} détaillant les **codes d’erreur courants** et comment les résoudre efficacement.
+De plus, consultez cet article de blog de la communauté Adobe [&#128279;](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/demystifying-adobe-journey-optimizer-error-codes-root-causes-and/ba-p/760884){target="_blank"} détaillant les **codes d’erreur courants** et comment les résoudre efficacement.
 
 Ces ressources vous aideront à isoler rapidement les problèmes, à valider votre configuration et à relancer vos parcours en douceur.
