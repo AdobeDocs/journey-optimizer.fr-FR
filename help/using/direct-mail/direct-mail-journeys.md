@@ -10,7 +10,7 @@ hide: true
 robots: noindex
 googlebot: noindex
 keywords: courrier, message, campagne
-source-git-commit: 114f712984b946bba30841a1d79be8870f9e3f07
+source-git-commit: 6f239f9bb9dbce871fbbdd89c460d9ac39706e1e
 workflow-type: tm+mt
 source-wordcount: '765'
 ht-degree: 39%
@@ -78,7 +78,7 @@ Pour ajouter une action Courrier dans un parcours, procédez comme suit :
 
    ![](assets/direct-mail-add-journey.png)
 
-1. Ajustez les propriétés du fichier d’extraction, telles que le nom de fichier ou les colonnes à afficher. Pour plus d&#39;informations sur la configuration des propriétés du fichier d&#39;extraction, consultez cette section. [Créer un message de publipostage direct](../direct-mail/create-direct-mail.md#extraction-file)
+1. Ajustez les propriétés du fichier d’extraction, telles que le nom du fichier, ou les colonnes à afficher. Pour plus d&#39;informations sur la configuration des propriétés du fichier d&#39;extraction, consultez cette section. [Créer un message de publipostage direct](../direct-mail/create-direct-mail.md#extraction-file)
 
    ![](assets/direct-mail-journey-content.png)
 
@@ -90,4 +90,4 @@ Pour ajouter une action Courrier dans un parcours, procédez comme suit :
 
    Vous trouverez des informations détaillées sur la sélection des profils de test et la prévisualisation de votre contenu dans la section [Gestion de contenu](../content-management/preview-test.md).
 
-Lorsque votre fichier d’extraction est prêt, effectuez la configuration de votre parcours [&#128279;](../building-journeys/journey-gs.md) pour l’envoyer.
+Lorsque votre fichier d’extraction est prêt, effectuez la configuration de votre parcours [](../building-journeys/journey-gs.md) pour l’envoyer.
