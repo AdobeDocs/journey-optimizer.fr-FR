@@ -10,7 +10,7 @@ exl-id: ffe1e77c-6c4f-4f23-9183-d715a4c7c402
 source-git-commit: a19fe429d34a88c6159ab3b2b4dfa3768bcd24ad
 workflow-type: tm+mt
 source-wordcount: '966'
-ht-degree: 19%
+ht-degree: 37%
 
 ---
 
@@ -19,17 +19,17 @@ ht-degree: 19%
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_email"
 >title="Activité e-mail"
->abstract="L’activité E-mail permet d’envoyer des e-mails dans votre campagne orchestrée, pour des messages ponctuels et récurrents. Il permet d’automatiser le processus d’envoi d’e-mails à une cible calculée dans la même campagne orchestrée. Vous pouvez combiner des activités de canal dans une zone de travail de campagne à plusieurs étapes, afin de créer des campagnes cross-canal pouvant déclencher des actions en fonction du comportement de la clientèle et des données."
+>abstract="L’activité E-mail permet d’envoyer des e-mails dans votre campagne orchestrée, pour des messages ponctuels et récurrents. Elle permet d’automatiser le processus d’envoi d’e-mails à une cible calculée dans la même campagne orchestrée. Vous pouvez combiner des activités de canal dans une zone de travail de campagne à plusieurs étapes, afin de créer des campagnes cross-canal pouvant déclencher des actions en fonction du comportement de la clientèle et des données."
 
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_sms"
 >title="Activité SMS"
->abstract="L’activité SMS permet d’envoyer des SMS au sein de votre campagne orchestrée, pour les messages ponctuels et récurrents. Il permet d’automatiser le processus d’envoi de SMS à une cible calculée dans la même campagne orchestrée. Vous pouvez combiner des activités de canal dans la zone de travail de campagne à plusieurs étapes, afin de créer des campagnes cross-canal pouvant déclencher des actions en fonction du comportement de la clientèle et des données."
+>abstract="L’activité SMS permet d’envoyer des SMS dans votre campagne orchestrée, pour les messages ponctuels et récurrents. Elle permet d’automatiser le processus d’envoi de SMS à une cible calculée dans la même campagne orchestrée. Vous pouvez combiner des activités de canal dans la zone de travail de campagne à plusieurs étapes, afin de créer des campagnes cross-canal pouvant déclencher des actions en fonction du comportement de la clientèle et des données."
 
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_push"
->title="Activité push"
->abstract="L’activité Push permet d’envoyer des notifications push dans le cadre de votre campagne orchestrée. Elle permet la diffusion de campagnes orchestrées ponctuelles et récurrentes, automatisant l’envoi de notifications push à une cible prédéfinie dans la même campagne orchestrée. Vous pouvez combiner des activités de canal dans la zone de travail de campagne afin de créer des campagnes cross-canal pouvant déclencher des actions en fonction du comportement du client et des données."
+>title="Activité Notification push"
+>abstract="L’activité Notification push permet d’envoyer des notifications push dans le cadre de votre campagne orchestrée. Elle permet la diffusion de campagnes orchestrées ponctuelles et récurrentes, en automatisant l’envoi de notifications push à une cible prédéfinie dans la même campagne orchestrée. Vous pouvez combiner des activités de canal dans la zone de travail de campagne, afin de créer des campagnes cross-canal pouvant déclencher des actions en fonction du comportement de la clientèle et des données."
 
 <!--
 UNUSED IDs in BJ
@@ -49,7 +49,7 @@ UNUSED IDs in BJ
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_directmail"
 >title="Activité Courrier"
->abstract="L’activité Publipostage direct facilite l’envoi de publipostage direct dans votre campagne orchestrée, pour les messages ponctuels et récurrents. Elle permet d’automatiser le processus de génération du fichier d’extraction requis par les fournisseurs de services postaux. Vous pouvez combiner des activités de canal dans la zone de travail de campagne orchestrée afin de créer des campagnes cross-canal pouvant déclencher des actions en fonction du comportement du client et des données."
+>abstract="L’activité Courrier facilite l’envoi de courrier depuis votre campagne orchestrée pour les messages ponctuels et récurrents. Elle permet d’automatiser le processus de génération du fichier d’extraction requis par les fournisseurs de services postaux. Vous pouvez combiner des activités de canal dans la zone de travail de campagne orchestrée, afin de créer des campagnes cross-canal pouvant déclencher des actions en fonction du comportement de la clientèle et des données."
 
 
 +++ Table des matières

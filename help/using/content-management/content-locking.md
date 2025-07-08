@@ -10,7 +10,7 @@ exl-id: f64fe1c4-3e30-4b74-80f8-b801a5f1d4c4
 source-git-commit: a9f2eae6398f92a40accb62b1d4544bda031559c
 workflow-type: tm+mt
 source-wordcount: '1276'
-ht-degree: 81%
+ht-degree: 82%
 
 ---
 
@@ -39,7 +39,7 @@ ht-degree: 81%
 >[!CONTEXTUALHELP]
 >id="ajo_email_locking_read_only"
 >title="Lecture seule"
->abstract="Ce contenu est en mode lecture seule et ne peut pas être modifié."
+>abstract="Ce contenu est en lecture seule et ne peut pas être modifié."
 
 Journey Optimizer vous permet de verrouiller le contenu de modèles d’e-mail en verrouillant le modèle entier ou des structures et composants spécifiques. Vous pouvez ainsi éviter les modifications ou suppressions involontaires, ce qui vous permet de mieux contrôler la personnalisation des modèles et d’améliorer l’efficacité et la fiabilité de vos campagnes par e-mail.
 
@@ -196,4 +196,4 @@ Voici quelques exemples d’éditions d’e-mail et des configurations de verrou
 
 Découvrez comment verrouiller le contenu dans vos modèles d’e-mail.
 
->[!VIDEO](https://video.tv.adobe.com/v/3451609?quality=12&captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/3451591?quality=12)

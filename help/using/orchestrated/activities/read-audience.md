@@ -10,7 +10,7 @@ exl-id: ef8eba57-cd33-4746-8eb4-5214ef9cbe2f
 source-git-commit: a19fe429d34a88c6159ab3b2b4dfa3768bcd24ad
 workflow-type: tm+mt
 source-wordcount: '171'
-ht-degree: 9%
+ht-degree: 47%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 9%
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_read_audience"
 >title="Activité Créer une audience"
->abstract="L&#39;activité **Lecture d&#39;audience** permet de sélectionner l&#39;audience qui va rejoindre la campagne orchestrée. Il peut s’agir d’une audience Adobe Experience Platform existante ou d’une audience extraite d’un fichier CSV. Lors de l’envoi de messages dans le cadre d’une campagne orchestrée, l’audience du message n’est pas définie dans l’activité de canal, mais dans une activité **Lecture d’audience** ou **Création d’audience**."
+>abstract="L’activité **Lire l’audience** permet de sélectionner l’audience qui va entrer dans la campagne orchestrée. Il peut s’agir d’une audience Adobe Experience Platform existante ou d’une audience extraite d’un fichier CSV. Lors de l’envoi de messages dans le cadre d’une campagne orchestrée, l’audience du message n’est pas définie dans l’activité de canal, mais dans une activité **Lire l’audience** ou **Créer une audience**."
 
 
 +++ Table des matières

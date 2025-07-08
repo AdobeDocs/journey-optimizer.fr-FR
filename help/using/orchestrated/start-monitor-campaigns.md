@@ -9,7 +9,7 @@ exl-id: 5fc2d1d6-75c3-4b45-bb2b-09982b9bd5ed
 source-git-commit: a19fe429d34a88c6159ab3b2b4dfa3768bcd24ad
 workflow-type: tm+mt
 source-wordcount: '671'
-ht-degree: 19%
+ht-degree: 22%
 
 ---
 
@@ -98,7 +98,7 @@ Les indicateurs visuels de statut vous aident à comprendre les performances de 
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_logs"
 >title="Logs et tâches"
->abstract="L’écran **Logs et tâches** fournit un historique de l’exécution de la campagne orchestrée, enregistrant toutes les actions des utilisateurs et utilisatrices ainsi que les erreurs rencontrées."
+>abstract="L’écran **Logs et tâches** fournit un historique de l’exécution de la campagne orchestrée : il consigne toutes les actions de l’utilisateur ou de l’utilisatrice, ainsi que les erreurs rencontrées."
 
 La surveillance des logs et des tâches est une étape essentielle pour analyser vos campagnes orchestrées et vérifier qu’elles s’exécutent correctement. Les journaux et les tâches sont accessibles à partir du bouton **[!UICONTROL Journaux]** disponible en mode test et actif dans la barre d’outils de la zone de travail ou dans le volet des propriétés de chaque activité.
 

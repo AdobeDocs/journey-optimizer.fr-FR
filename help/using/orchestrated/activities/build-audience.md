@@ -10,7 +10,7 @@ exl-id: 3959b5fa-0c47-42a5-828f-4d7ca9b7e72d
 source-git-commit: a19fe429d34a88c6159ab3b2b4dfa3768bcd24ad
 workflow-type: tm+mt
 source-wordcount: '377'
-ht-degree: 31%
+ht-degree: 38%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 31%
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_build_audience"
 >title="Activité Créer une audience"
->abstract="L’activité **Créer une audience** vous permet de définir l’audience qui va entrer dans la campagne orchestrée. Lors de l’envoi de messages dans le cadre d’une campagne orchestrée, l’audience du message n’est pas définie dans l’activité de canal, mais dans une activité **Créer une audience**."
+>abstract="L’activité **Créer une audience** vous permet de définir l’audience qui va entrer dans la campagne orchestrée. Lors de l’envoi de messages dans le cadre d’une campagne orchestrée, l’audience du message n’est pas définie dans l’activité de canal, mais dans l’activité **Créer une audience**."
 
 +++ Table des matières
 
