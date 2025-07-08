@@ -5,19 +5,14 @@ title: Mécanismes de sécurisation et limitations des campagnes orchestrées
 description: En savoir plus sur les mécanismes de sécurisation et les limitations des campagnes orchestrées
 hide: true
 hidefromtoc: true
-source-git-commit: 54d5b3386da4eed53fca79a2135ab54548855150
+source-git-commit: d9fb9462c52eb8a79fd2c9bd6bdb5381d318453f
 workflow-type: tm+mt
-source-wordcount: '278'
-ht-degree: 11%
+source-wordcount: '260'
+ht-degree: 5%
 
 ---
 
 # Mécanismes de sécurisation et limitations {#guardrails}
-
->[!CONTEXTUALHELP]
->id="ajo_campaign_publication"
->title="Publier une campagne orchestrée"
->abstract="Pour lancer votre campagne, vous devez la publier. Assurez-vous que tous les avertissements sont effacés avant la publication."
 
 +++ Table des matières
 
