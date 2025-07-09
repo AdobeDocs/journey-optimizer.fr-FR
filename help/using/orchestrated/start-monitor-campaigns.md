@@ -6,10 +6,10 @@ description: Découvrez comment démarrer et surveiller des campagnes orchestré
 hide: true
 hidefromtoc: true
 exl-id: 5fc2d1d6-75c3-4b45-bb2b-09982b9bd5ed
-source-git-commit: a19fe429d34a88c6159ab3b2b4dfa3768bcd24ad
+source-git-commit: e316c3dbbec028f7501990486506779656990c20
 workflow-type: tm+mt
-source-wordcount: '671'
-ht-degree: 22%
+source-wordcount: '738'
+ht-degree: 20%
 
 ---
 
@@ -38,7 +38,9 @@ Vous pouvez également exécuter la campagne en mode test pour vérifier son ex�
 
 ## Tester votre campagne avant la publication {#test}
 
-Journey Optimizer vous permet de tester les campagnes orchestrées avant leur mise en ligne. En mode test, toutes les activités de la zone de travail sont exécutées, à l’exception des activités **[!UICONTROL Sauvegarde d’audience]** et des activités de canal. Il n’y a aucun impact fonctionnel sur vos données ou votre audience.
+[!DNL Journey Optimizer] vous permet de tester les campagnes orchestrées avant la mise en ligne. Lorsqu’une campagne est créée, elle passe par défaut à l’état **Brouillon**. Dans cet état, vous pouvez exécuter la campagne manuellement pour tester le flux.
+
+Toutes les activités de la zone de travail sont exécutées, à l’exception des activités **[!UICONTROL Sauvegarde d’audience]** et des activités de canal. Il n’y a aucun impact fonctionnel sur vos données ou votre audience.
 
 Pour tester une campagne :
 
@@ -47,7 +49,9 @@ Pour tester une campagne :
 
 ![](assets/campaign-start.png){zoomable="yes"}
 
-Chaque activité de la campagne est exécutée de manière séquentielle jusqu’à ce que la fin du diagramme soit atteinte. Lors de l’exécution du test, vous pouvez gérer la campagne à l’aide de la barre d’actions de la zone de travail. Plusieurs possibilités sʼoffrent alors à vous :
+Chaque activité de la campagne est exécutée de manière séquentielle jusqu’à ce que la fin du diagramme soit atteinte.
+
+Pendant le test, vous pouvez contrôler l’exécution de la campagne à l’aide de la barre d’actions de la zone de travail. Plusieurs possibilités sʼoffrent alors à vous :
 
 * **Arrêter** l’exécution à tout moment.
 * **Démarrez** l’exécution à nouveau.
@@ -59,6 +63,8 @@ Si une erreur ou un avertissement se produit lors de l’exécution, vous êtes 
 
 Vous pouvez également identifier rapidement les activités ayant échoué à l’aide des [indicateurs visuels de statut](#activities) affichés directement sur chaque activité. Pour une résolution détaillée des problèmes, ouvrez les [journaux de la campagne](#logs-tasks) qui fournissent des informations détaillées sur l’erreur et son contexte.
 
+Une fois validée, la campagne peut être publiée.
+
 ## Publication de la campagne {#publish}
 
 Une fois votre campagne testée et prête, cliquez sur **[!UICONTROL Publier]** pour la rendre active.
@@ -66,6 +72,8 @@ Une fois votre campagne testée et prête, cliquez sur **[!UICONTROL Publier]** 
 ![](assets/campaign-publish.png){zoomable="yes"}
 
 Le flux visuel redémarre et les profils réels commencent à circuler dans le parcours en temps réel.
+
+Si l’action de publication échoue (en raison d’un contenu de message manquant, par exemple), vous êtes averti et devez résoudre le problème avant de réessayer. Une fois la publication terminée, la campagne passe du statut **Brouillon** au statut **Actif** et commence à s’exécuter (immédiatement ou selon le planning).
 
 ## Surveiller l’exécution des campagnes {#monitor}
 
