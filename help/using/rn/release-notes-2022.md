@@ -8,8 +8,9 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 hidefromtoc: true
+hide: true
 exl-id: 0997a640-3f89-4460-ba93-ea21a9d4efc5
-source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
+source-git-commit: 8ff4f970796218451996bd5ed1938d33fa818495
 workflow-type: tm+mt
 source-wordcount: '3599'
 ht-degree: 99%
@@ -50,7 +51,7 @@ Cette page répertorie toutes les fonctionnalités et améliorations pour [!DNL 
 
 **Parcours**
 
-* L’option **Forcer une reprise sur une périodicité** a été ajoutée dans les paramètres de planning de lecture d’audience récurrente. Cette option permet de faire en sorte que tous les profils toujours présents dans le parcours le quittent automatiquement lors de la prochaine exécution. Lorsque l’option est désactivée, les profils doivent terminer le parcours avant de pouvoir entrer à nouveau dans une autre occurrence. [En savoir plus](../building-journeys/read-audience.md#configuring-segment-trigger-activity)
+* L’option **Forcer une rentrée sur une périodicité** a été ajoutée dans les paramètres de planning de lecture d’audience récurrente. Cette option permet de faire en sorte que tous les profils toujours présents dans le parcours le quittent automatiquement lors de la prochaine exécution. Lorsque l’option est désactivée, les profils doivent terminer le parcours avant de pouvoir entrer à nouveau dans une autre occurrence. [En savoir plus](../building-journeys/read-audience.md#configuring-segment-trigger-activity)
 
 **Administration**
 
@@ -130,7 +131,7 @@ Cette page répertorie toutes les fonctionnalités et améliorations pour [!DNL 
 <tbody>
 <tr>
 <td>
-<p>Grâce à son cadre de gouvernance DULE (Data Usage Labelling and Enforcement), Journey Optimizer peut désormais tirer parti des politiques de gouvernance d’Adobe Experience Platform pour empêcher l’exportation de champs sensibles vers des systèmes tiers au moyen d’actions personnalisées. Si le système identifie un champ restreint dans les paramètres d’action personnalisée, une erreur s’affiche, vous empêchant de publier le parcours.</p>
+<p>Grâce à son cadre de gouvernance DULE (Data Usage Labelling and Enforcement), Journey Optimizer peut désormais tirer parti des politiques de gouvernance d’Adobe Experience Platform pour empêcher l’export de champs sensibles vers des systèmes tiers au moyen d’actions personnalisées. Si le système identifie un champ restreint dans les paramètres d’action personnalisée, une erreur s’affiche, vous empêchant de publier le parcours.</p>
 <p>L’utilisation de l’outil DULE (Data Usage Labelling and Enforcement) est actuellement limitée à certains clients et sera déployée dans tous les environnements dans une prochaine version.</p>
 <p>Pour plus d’informations, consultez la <a href="../action/action-privacy.md">documentation détaillée</a>.
 </td>
@@ -212,7 +213,7 @@ Cette page répertorie toutes les fonctionnalités et améliorations pour [!DNL 
 **Parcours**
 
 * Le **jeu de données d’entité** est désormais disponible en tant que jeu de données prêt à l’emploi dans Adobe Journey Optimizer. Ce jeu de données de recherche comprend des métadonnées pour enrichir les informations des jeux de données de tracking et de commentaires. Vous pourrez ainsi améliorer vos rapports et requêtes avec des données plus compréhensibles. [En savoir plus](../data/datasets-query-examples.md#entity-dataset)
-* Un nouveau mécanisme de sécurisation a été ajouté aux parcours unitaires (commençant par un événement ou une qualification d’audience) pour empêcher que les parcours ne soient déclenchés par erreur plusieurs fois pour le même événement. La nouvelle entrée du profil sera désormais temporairement bloquée par défaut pendant 5 minutes. [En savoir plus](../start/guardrails.md#events-g)
+* Un nouveau mécanisme de sécurisation a été ajouté aux parcours unitaires (commençant par un événement ou une qualification d’audience) pour empêcher que les parcours ne soient déclenchés par erreur plusieurs fois pour le même événement. La rentrée du profil sera désormais temporairement bloquée par défaut pendant 5 minutes. [En savoir plus](../start/guardrails.md#events-g)
 
 **Administration**
 
@@ -261,7 +262,7 @@ Cette page répertorie toutes les fonctionnalités et améliorations pour [!DNL 
 <td>
 <p>Utilisez les campagnes de Journey Optimizer pour diffuser du contenu ponctuel sur une audience spécifique à l’aide de divers canaux. Lors de l’utilisation de parcours, les actions sont conçues pour être exécutées en séquence. Avec les campagnes, les actions sont exécutées simultanément, immédiatement ou selon un planning spécifié. </p>
 <img src="assets/do-not-localize/campaigns.gif"/>
-<p>Découvrez comment créer une campagne dans la <a href="../campaigns/get-started-with-campaigns.md">documentation détaillée</a> et la <a href="https://video.tv.adobe.com/v/3412403?captions=fre_fr">vidéo sur les fonctionnalités</a>.
+<p>Découvrez comment créer une campagne dans la <a href="../campaigns/get-started-with-campaigns.md">documentation détaillée</a> et la <a href="https://video.tv.adobe.com/v/346680">vidéo sur les fonctionnalités</a>.
 </td>
 </tr>
 </tbody>
@@ -345,7 +346,7 @@ Cette page répertorie toutes les fonctionnalités et améliorations pour [!DNL 
 <tbody>
 <tr>
 <td>
-<p>Vous pouvez désormais identifier les champs de schéma avec des étiquettes qui définissent les portées d’utilisation des données ou de l’organisation. Les administrateurs peuvent utiliser l’interface Autorisations pour définir des politiques d’accès couvrant les champs de schéma XDM et mieux gérer l’accès attribué aux utilisateurs ou groupes d’utilisateurs (utilisateurs internes, externes ou tiers) et gérer l’accès à des types de données spécifiques (c’est-à-dire des données personnelles sensibles/SPD).</p>
+<p>Vous pouvez désormais identifier les champs de schéma avec des libellés qui définissent les portées d’utilisation des données ou de l’organisation. Les administrateurs peuvent utiliser l’interface Autorisations pour définir des politiques d’accès couvrant les champs de schéma XDM et mieux gérer l’accès attribué aux utilisateurs ou groupes d’utilisateurs (utilisateurs internes, externes ou tiers) et gérer l’accès à des types de données spécifiques (c’est-à-dire des données personnelles sensibles/SPD).</p>
 <p>L’utilisation du contrôle d’accès basé sur les attributs est actuellement limitée à certains clients et sera déployée dans tous les environnements dans une prochaine version.</p>
 <p>Pour plus d’informations, consultez la <a href="../administration/attribute-based-access.md">documentation détaillée</a>.</p>
 </td>

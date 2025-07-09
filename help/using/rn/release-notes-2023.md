@@ -5,11 +5,13 @@ title: Notes de mise à jour 2023
 description: Notes de mise à jour 2023 pour Journey Optimizer
 feature: Release Notes
 topic: Content Management
+hide: true
+hidefromtoc: true
 role: User
 level: Beginner, Intermediate
 exl-id: 61e6291f-c063-44a0-950c-8bb76de693f2
-source-git-commit: 4fa50df6827e07e6f6f3c5730d1ae2a1af0d426d
-workflow-type: ht
+source-git-commit: 8ff4f970796218451996bd5ed1938d33fa818495
+workflow-type: tm+mt
 source-wordcount: '4377'
 ht-degree: 100%
 
@@ -87,7 +89,7 @@ Cette version est fournie avec les améliorations répertoriées ci-dessous.
 * La durée maximale que vous pouvez définir dans n’importe quel temps d’attente est désormais de 29 jours au lieu de 30. Cette amélioration a été introduite afin d’éviter que les temps d’attente ne dépassent la durée de vie de 30 jours du parcours. Cela s’applique aux éléments suivants :
 
    * Le champ **Durée** dans l’[activité d’attente](../building-journeys/wait-activity.md).
-   * La **période d’attente de nouvelle entrée** dans les [propriétés du parcours](../building-journeys/journey-properties.md#entrance).
+   * La **période d’attente de rentrée** dans les [propriétés du parcours](../building-journeys/journey-properties.md#entrance).
    * Le champ **Attendre pendant** dans la définition du délai d’expiration des [activités d’événement](../building-journeys/general-events.md#events-specific-time).
 
 <!--
@@ -788,7 +790,7 @@ Enhancements have been made to the audience picker in journeys or campaigns, wit
 
 * La nouvelle **API de limitation** vous permet de limiter le nombre d’événements envoyés par seconde. Vous pouvez ainsi éviter les pics de trafic importants sur vos systèmes ou API externes. Lorsque la limite définie est atteinte, tous les appels API suivants sont placés en file d’attente et traités dès que possible, dans l’ordre dans lequel ils ont été reçus. Notez que cette fonctionnalité ne prend en charge qu’une seule configuration de limitation pour toutes vos sandbox. [En savoir plus](../configuration/external-systems.md).
 * Amélioration de la zone de travail Parcours pour offrir une expérience utilisateur plus fluide et épurée. Suppression des espaces réservés vides à la fin de chaque chemin de la zone de travail. Vous pouvez maintenant simplement ajouter vos activités en les faisant glisser à la fin d’un chemin.
-* Dans la zone de travail Parcours, la balise **Fin** n’est plus définie automatiquement avec le nom de l’activité précédente. Si nécessaire, les utilisateurs et utilisatrices peuvent indiquer un libellé personnalisé manuellement.
+* Dans la zone de travail Parcours, le libellé de la balise **Fin** n’est plus défini automatiquement avec le nom de l’activité précédente. Si nécessaire, les utilisateurs et utilisatrices peuvent indiquer un libellé personnalisé manuellement.
 * Le délai d’expiration par défaut et la durée d’erreur dans les propriétés du parcours passent de 5 à 30 secondes. [En savoir plus](../configuration/external-systems.md#timeout).
 * Le taux de limitation par défaut dans les activités de lecture d’audience passe de 20 000 à 5 000 messages par seconde. [En savoir plus](../building-journeys/read-audience.md#configuring-segment-trigger-activity).
 * Un mécanisme de sécurisation a été ajouté au mode test pour n’écouter que les événements envoyés via l’interface. Les événements envoyés par l’intermédiaire d’un outil externe ne sont pas pris en compte. [En savoir plus](../building-journeys/testing-the-journey.md)
@@ -921,7 +923,7 @@ Note that each widget can be resized and deleted as needed.
 
 **Parcours**
 
-* Le champ **Période d’attente de nouvelle entrée** a été ajouté aux propriétés du parcours. Ce champ vous permet de définir le temps d’attente avant d’autoriser un profil à entrer à nouveau dans un parcours pour les parcours unitaires (en commençant par un événement ou une qualification d’audience). Cela empêche les parcours d’être déclenchés plusieurs fois par erreur pour le même événement. Par défaut, le champ est défini sur 5 minutes. [En savoir plus](../building-journeys/journey-properties.md#entrance).
+* Le champ **Période d’attente de rentrée** a été ajouté aux propriétés du parcours. Ce champ vous permet de définir le temps d’attente avant d’autoriser un profil à entrer à nouveau dans un parcours pour les parcours unitaires (en commençant par un événement ou une qualification d’audience). Cela empêche les parcours d’être déclenchés plusieurs fois par erreur pour le même événement. Par défaut, le champ est défini sur 5 minutes. [En savoir plus](../building-journeys/journey-properties.md#entrance).
 
 * Des améliorations ont été apportées aux **dates de début et de fin de parcours**. Si vous n’avez pas spécifié de date de début, elle est désormais automatiquement ajoutée au moment de la publication. Pour les parcours **Lecture d’audience**, vous pouvez désormais ajouter une date de fin. Cela permet aux profils de se fermer automatiquement lorsque la date est atteinte. [En savoir plus](../building-journeys/journey-gs.md#dates)
 
