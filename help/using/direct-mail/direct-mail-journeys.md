@@ -10,13 +10,13 @@ hide: true
 robots: noindex
 googlebot: noindex
 keywords: courrier, message, campagne
-source-git-commit: 088e89013235883d0a8b433fa348ee33a34e7a8c
+exl-id: 44886355-ee3a-4323-899a-35d967487924
+source-git-commit: ca6e2834f92585094d3316e9259e3370cfad22fc
 workflow-type: tm+mt
 source-wordcount: '760'
 ht-degree: 30%
 
 ---
-
 
 # Envoi de messages de publipostage direct avec parcours {#direct-mail-journeys}
 
@@ -72,7 +72,7 @@ Pour ajouter une action Courrier dans un parcours, procédez comme suit :
 
    ![](assets/direct-mail-add-journey.png)
 
-1. Ajustez les propriétés du fichier d’extraction, telles que le nom du fichier, ou les colonnes à afficher. Pour plus d’informations sur la configuration des propriétés du fichier d’extraction, reportez-vous à cette section : [Créer un message de publipostage direct](../direct-mail/create-direct-mail.md#extraction-file).
+1. Ajustez les propriétés du fichier d’extraction, telles que le nom du fichier, ou les colonnes à afficher. Pour plus d’informations sur la configuration des propriétés du fichier d’extraction, consultez cette section : [Créer un message de publipostage direct](../direct-mail/create-direct-mail.md#extraction-file).
 
    ![](assets/direct-mail-journey-content.png)
 
@@ -82,4 +82,4 @@ Pour ajouter une action Courrier dans un parcours, procédez comme suit :
 
    ![](assets/direct-mail-simulate.png){width="800" align="center"}
 
-Lorsque votre fichier d’extraction est prêt, effectuez la configuration de votre parcours [&#128279;](../building-journeys/journey-gs.md) pour l’envoyer.
+Lorsque votre fichier d’extraction est prêt, effectuez la configuration de votre parcours [](../building-journeys/journey-gs.md) pour l’envoyer.
