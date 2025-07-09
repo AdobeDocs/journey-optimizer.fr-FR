@@ -5,15 +5,16 @@ feature: Direct Mail
 topic: Content Management
 role: User
 level: Beginner
+badge: label="Disponibilité limitée" type="Informative"
 hidefromtoc: true
 hide: true
 robots: noindex
 googlebot: noindex
 keywords: courrier, message, campagne
 exl-id: 44886355-ee3a-4323-899a-35d967487924
-source-git-commit: ca6e2834f92585094d3316e9259e3370cfad22fc
+source-git-commit: 755ffdb0a9986ce8c2175a9bc61ed4a56714ff7d
 workflow-type: tm+mt
-source-wordcount: '760'
+source-wordcount: '774'
 ht-degree: 30%
 
 ---
@@ -24,6 +25,10 @@ ht-degree: 30%
 >id="ajo_journey_direct_mail"
 >title="Activité de fin"
 >abstract="Le courrier est un canal hors ligne qui vous permet de personnaliser et de générer les fichiers d’extraction requis par les fournisseurs de courrier tiers pour envoyer du courrier à votre clientèle."
+
+>[!AVAILABILITY]
+>
+>Cette fonctionnalité est réservée à un nombre restreint d’organisations (disponibilité limitée).
 
 Le courrier est un canal hors ligne qui vous permet de personnaliser et de générer les fichiers d’extraction requis par les fournisseurs de courrier tiers pour envoyer du courrier à votre clientèle.
 
@@ -82,4 +87,4 @@ Pour ajouter une action Courrier dans un parcours, procédez comme suit :
 
    ![](assets/direct-mail-simulate.png){width="800" align="center"}
 
-Lorsque votre fichier d’extraction est prêt, effectuez la configuration de votre parcours [&#128279;](../building-journeys/journey-gs.md) pour l’envoyer.
+Lorsque votre fichier d’extraction est prêt, effectuez la configuration de votre parcours [](../building-journeys/journey-gs.md) pour l’envoyer.
