@@ -37,7 +37,7 @@ Par défaut, seuls les jeux de données que vous avez ingérés s’affichent. S
 
 >[!NOTE]
 >
->Depuis le 1er novembre 2024, la segmentation en flux continu ne prend plus en charge les événements d’envoi et d’ouverture provenant de jeux de données de tracking et de commentaires [!DNL Journey Optimizer]. Pour l’implémentation du capping de la fréquence ou de la gestion de la fatigue, utilisez plutôt des règles métier. Vous trouverez plus d’informations dans [cette section](../conflict-prioritization/rule-sets.md), y compris une explication de cas d’utilisation de la limitation quotidienne [ici](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/elevate-customer-experience-with-daily-frequency-capping-in-ajo/ba-p/761510){target="_blank"}.
+>Depuis le 1er novembre 2024, la segmentation en flux continu ne prend plus en charge les événements d’envoi et d’ouverture provenant de jeux de données de tracking et de commentaires [!DNL Journey Optimizer]. Pour l’implémentation du capping de la fréquence ou de la gestion de la fatigue, utilisez plutôt des règles métier. Vous trouverez plus d’informations dans [cette section](../conflict-prioritization/rule-sets.md), y compris une explication de cas d’utilisation de la limitation quotidienne [ici](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/elevate-customer-experience-with-daily-frequency-capping-in-ajo/ba-p/761510?profile.language=fr){target="_blank"}.
 >
 >En outre, depuis février 2025, un mécanisme de sécurisation sur la durée de vie (TTL) est déployé dans les jeux de données générés par le système Journey Optimizer. [En savoir plus](datasets-ttl.md)
 
