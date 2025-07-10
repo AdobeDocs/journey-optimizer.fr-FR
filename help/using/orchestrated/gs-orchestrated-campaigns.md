@@ -7,9 +7,9 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: 611dd06d-aa18-4fa3-a477-8a910cec21d8
-source-git-commit: ea4b65ae05f219203754ed6e5ddd7effc795ff56
+source-git-commit: 3bbbc09e05958579782e8e70974a241f1154d319
 workflow-type: tm+mt
-source-wordcount: '492'
+source-wordcount: '487'
 ht-degree: 6%
 
 ---
@@ -27,8 +27,6 @@ ht-degree: 6%
 +++
 
 <br/>
-
-&#x200B;# Prise en main de l’orchestration des campagnes {#gs}
 
 L’orchestration des campagnes dans [!DNL Adobe Journey Optimizer] alimente des campagnes marketing sophistiquées et lancées par la marque sur l’ensemble des canaux, ce qui vous permet de stimuler l’engagement, le chiffre d’affaires et la fidélisation de la clientèle à grande échelle.
 
