@@ -13,7 +13,7 @@ exl-id: 0997a640-3f89-4460-ba93-ea21a9d4efc5
 source-git-commit: 8ff4f970796218451996bd5ed1938d33fa818495
 workflow-type: tm+mt
 source-wordcount: '3599'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -182,7 +182,7 @@ Cette page répertorie toutes les fonctionnalités et améliorations pour [!DNL 
 <tbody>
 <tr>
 <td>
-<p>En tant qu’utilisateur Journey Optimizer, vous pouvez désormais accéder aux alertes système par le biais de l’interface utilisateur afin d’être averti lorsque les parcours ne fonctionnent pas comme prévu. Vous pouvez afficher les alertes disponibles et vous y abonner. La première alerte disponible dans cette version vous avertit si une activité Lecture d’audience n’a traité aucun profil pendant la période définie. D’autres informations seront disponibles maintenant que ce workflow est déverrouillé.</p>
+<p>En tant qu’utilisateur ou utilisatrice de Journey Optimizer, vous pouvez désormais accéder aux alertes système par le biais de l’interface d’utilisation afin de recevoir une notification lorsque les parcours ne fonctionnent pas comme prévu. Vous pouvez afficher les alertes disponibles et vous y abonner. La première alerte disponible dans cette version vous avertit si une activité Lecture d’audience n’a traité aucun profil pendant la période définie. D’autres informations seront disponibles maintenant que ce workflow est déverrouillé.</p>
 <!--p>For more information, refer to the <a href="../reports/alerts.md">detailed documentation</a>.</p-->
 </td>
 </tr>
@@ -262,7 +262,7 @@ Cette page répertorie toutes les fonctionnalités et améliorations pour [!DNL 
 <td>
 <p>Utilisez les campagnes de Journey Optimizer pour diffuser du contenu ponctuel sur une audience spécifique à l’aide de divers canaux. Lors de l’utilisation de parcours, les actions sont conçues pour être exécutées en séquence. Avec les campagnes, les actions sont exécutées simultanément, immédiatement ou selon un planning spécifié. </p>
 <img src="assets/do-not-localize/campaigns.gif"/>
-<p>Découvrez comment créer une campagne dans la <a href="../campaigns/get-started-with-campaigns.md">documentation détaillée</a> et la <a href="https://video.tv.adobe.com/v/3412403?captions=fre_fr">vidéo sur les fonctionnalités</a>.
+<p>Découvrez comment créer une campagne dans la <a href="../campaigns/get-started-with-campaigns.md">documentation détaillée</a> et la <a href="https://video.tv.adobe.com/v/346680">vidéo sur les fonctionnalités</a>.
 </td>
 </tr>
 </tbody>

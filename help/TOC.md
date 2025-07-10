@@ -8,7 +8,7 @@ solution: Journey Optimizer
 source-git-commit: 9324de79b7a1e787c3a23338c4292cd4ff2bb6df
 workflow-type: tm+mt
 source-wordcount: '2502'
-ht-degree: 96%
+ht-degree: 99%
 
 ---
 
@@ -166,7 +166,7 @@ ht-degree: 96%
             + [uuid](using/building-journeys/functions/functionuuid.md)
    + Cas d’utilisation {#journey-use-cases}
       + [Apprendre avec des cas d’utilisation](using/building-journeys/jo-use-cases.md)
-      + [Recherche d’événement d’expérience](using/building-journeys/exp-event-lookup.md)
+      + [Rechercher des événements d’expérience](using/building-journeys/exp-event-lookup.md)
       + [Envoi de messages multi-canal](using/building-journeys/journeys-uc.md)
       + [Envoi de messages à l’aide de Campaign v7/v8](using/building-journeys/ajo-ac.md)
       + [Envoyer un message aux abonnés](using/building-journeys/message-to-subscribers-uc.md)
@@ -176,9 +176,9 @@ ht-degree: 96%
       + [Utiliser des actions personnalisées pour écrire des événements de parcours dans Experience Platform](using/building-journeys/custom-action-aep.md)
    + Résolution des problèmes {#troubleshoot-journey}
       + [Résolution des problèmes liés aux parcours](using/building-journeys/gs-troubleshooting.md)
-      + [Résolution des erreurs de parcours](using/building-journeys/troubleshooting.md)
+      + [Résoudre les erreurs de parcours](using/building-journeys/troubleshooting.md)
       + [Résolution des problèmes d’exécution du parcours](using/building-journeys/troubleshooting-execution.md)
-      + [Résolution des problèmes liés aux actions entrantes](using/building-journeys/troubleshooting-inbound.md)
+      + [Résoudre les problèmes des actions entrantes](using/building-journeys/troubleshooting-inbound.md)
       + [Résolution des problèmes liés aux actions personnalisées](using/action/troubleshoot-custom-action.md)
 + Campagnes orchestrées {#orchestrated-campaigns}
    + [Commencer les campagnes orchestrées](using/orchestrated/gs-orchestrated-campaigns.md)
@@ -194,7 +194,7 @@ ht-degree: 96%
    + Interroger la base de données {#query-database}
       + [Utiliser le créateur de règles](using/orchestrated/orchestrated-rule-builder.md)
       + [Créer votre première règle](using/orchestrated/build-query.md)
-      + [Éditer les expressions](using/orchestrated/edit-expressions.md)
+      + [Modifier les expressions](using/orchestrated/edit-expressions.md)
       + [Reciblage](using/orchestrated/retarget.md)
    + Activités de campagnes orchestrées {#design-campaigns}
       + [Commencer les activités](using/orchestrated/activities/about-activities.md)
@@ -307,7 +307,7 @@ Définissez les règles de limitation des messages et des parcours {#capping-rul
          + [Configurer le fournisseur Infobip](using/sms/sms-configuration-infobip.md)
          + [Configurer le fournisseur Twilio](using/sms/sms-configuration-twilio.md)
          + [Configurer un fournisseur personnalisé](using/sms/sms-configuration-custom.md)
-         + [Créer une configuration SMS/MMS/RCS](using/sms/sms-configuration-surface.md)
+         + [Créer une configuration de SMS/MMS/RCS](using/sms/sms-configuration-surface.md)
    + Courrier {#direct-mail}
       + [Prise en main du courrier](using/direct-mail/get-started-direct-mail.md)
       + [Créer un courrier](using/direct-mail/create-direct-mail.md)
@@ -337,7 +337,7 @@ Définissez les règles de limitation des messages et des parcours {#capping-rul
          + [Créer une configuration de l’expérience basée sur du code](using/code-based/code-based-configuration.md)
       + Créer des expériences basées sur du code {#create-code-based-experiences}
          + [Créer et composer des expériences basées sur du code](using/code-based/create-code-based.md)
-         + [Utilisation de champs modifiables dans les expériences basées sur du code](using/code-based/code-based-form-fields.md)
+         + [Utiliser des champs modifiables dans les expériences basées sur du code](using/code-based/code-based-form-fields.md)
          + [Tester des expériences basées sur du code](using/code-based/test-code-based.md)
          + [Gérer des expériences basées sur du code](using/code-based/publish-code-based.md)
    + Cartes de contenu{#content-card}
@@ -365,7 +365,7 @@ Définissez les règles de limitation des messages et des parcours {#capping-rul
       + [Ajouter une personnalisation](using/personalization/personalization-build-expressions.md)
       + [Syntaxe de personnalisation](using/personalization/personalization-syntax.md)
       + [Réutiliser des fragments d’expression](using/personalization/use-expression-fragments.md)
-      + [Utiliser les données Adobe Experience Platform pour la personnalisation (version bêta)](using/personalization/aep-data-perso.md)
+      + [Utiliser les données Adobe Experience Platform pour la personnalisation (version Beta)](using/personalization/aep-data-perso.md)
       + Liste des fonctions d’assistance {#functions}
          + [Prise en main des fonctions d’assistance](using/personalization/functions/functions.md)
          + [Fonctions d’agrégation](using/personalization/functions/aggregation.md)
@@ -564,9 +564,9 @@ Définissez les règles de limitation des messages et des parcours {#capping-rul
             + [Modèle dʼoptimisation automatique](using/experience-decisioning/ranking/auto-optimization-model.md)
             + [Modèle d’optimisation personnalisé](using/experience-decisioning/ranking/personalized-optimization-model.md)
             + [Créer des modèles d’IA](using/experience-decisioning/ranking/create-ai-models.md)
-      + Utilisation des données Adobe Experience Platform {#aep-data}
+      + Utiliser des données Adobe Experience Platform {#aep-data}
          + [Utiliser des données contextuelles](using/experience-decisioning/context-data.md)
-         + [Utilisation de Adobe Experience Platform pour la prise de décision](using/experience-decisioning/aep-data-exd.md)
+         + [Utiliser Adobe Experience Platform pour la prise de décision](using/experience-decisioning/aep-data-exd.md)
       + [Créer des stratégies de sélection](using/experience-decisioning/selection-strategies.md)
       + [Créer des politiques de décision](using/experience-decisioning/create-decision.md)
       + [Rapports sur la prise de décision](using/experience-decisioning/cja-reporting.md)
@@ -585,7 +585,7 @@ Définissez les règles de limitation des messages et des parcours {#capping-rul
          + [Cas pratique : insertion d’offres dans un e-mail](using/offers/offers-e2e.md)
       + Créer des composants {#create-components}
          + [Créer des emplacements](using/offers/offer-library/creating-placements.md)
-         + [Création de règles de décision](using/offers/offer-library/creating-decision-rules.md)
+         + [Créer des règles de décision](using/offers/offer-library/creating-decision-rules.md)
          + [Créer des qualificateurs de collection](using/offers/offer-library/creating-tags.md)
       + Créer des classements {#rankings}
          + [Prise en main des classements](using/offers/ranking/get-started-rankings.md)
@@ -728,7 +728,7 @@ Définissez les règles de limitation des messages et des parcours {#capping-rul
       + [Exporter des jeux de données Journey Optimizer](using/data/export-datasets.md)
       + [Exemples de requêtes](using/data/datasets-query-examples.md)
       + [Schémas intégrés >](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=fr)
-   + [Utilisation des données Adobe Experience Platform](using/data/lookup-aep-data.md)
+   + [Utiliser des données Adobe Experience Platform](using/data/lookup-aep-data.md)
    + [Requêtes](using/data/get-started-queries.md)
 + Configuration des canaux {#configuration}
    + [Commencer la configuration des canaux](using/configuration/get-started-configuration.md)
