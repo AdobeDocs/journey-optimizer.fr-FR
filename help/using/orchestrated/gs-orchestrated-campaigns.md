@@ -7,7 +7,7 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: 611dd06d-aa18-4fa3-a477-8a910cec21d8
-source-git-commit: e6944928e40b471a86085c126ff678002357e66c
+source-git-commit: 34788c05cdcdcbc0c261df3f931a5bc1786fff5f
 workflow-type: tm+mt
 source-wordcount: '453'
 ht-degree: 7%
@@ -36,7 +36,7 @@ Bien que le marketing cross-canal soit essentiel, les campagnes orchestrées le 
 
 L’orchestration des campagnes repose sur quatre piliers principaux :
 
-<table style="table-layout:fixed">
+<table>
 <tr style="border: 0;">
 <td><img alt="Audiences à la demande" src="assets/do-not-localize/icon-audience.svg" width="50px"></a></td><td><b>Audiences à la demande</b><br/>Interrogez instantanément les jeux de données pour créer des segments d’audience à l’aide de n’importe quelle combinaison de types et de dimensions de données.</td></tr>
 <tr style="border: 0;">
