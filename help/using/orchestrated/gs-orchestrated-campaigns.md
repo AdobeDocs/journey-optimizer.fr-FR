@@ -7,9 +7,9 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: 611dd06d-aa18-4fa3-a477-8a910cec21d8
-source-git-commit: 3bbbc09e05958579782e8e70974a241f1154d319
+source-git-commit: 8f32edf905ed80ca4a23d4b9afe2805c000dacef
 workflow-type: tm+mt
-source-wordcount: '487'
+source-wordcount: '498'
 ht-degree: 6%
 
 ---
@@ -43,21 +43,16 @@ Ce module apporte **orchestration de campagnes par lots** à [!DNL Journey Optim
 
 L’orchestration des campagnes repose sur quatre piliers principaux :
 
-1. **Audiences À La Demande**
-
-   Exécutez instantanément des requêtes sur les jeux de données pour créer des segments d’audience à l’aide de n’importe quelle combinaison de types et de dimensions de données.
-
-1. **Segmentation et envoi d’entités multiples**
-
-   Allez au-delà des campagnes basées sur les personnes : utilisez des entités telles que des catalogues de produits, des emplacements de magasin ou des données de service pour cibler avec précision.
-
-1. **Visibilité et précision de la pré-envoi**
-
-   Obtenez le nombre exact de segmentations et la portée complète de la campagne avant le lancement, pour garantir la précision et la confiance.
-
-1. **Workflows de campagne à plusieurs étapes**
-
-   Concevez des campagnes en plusieurs étapes, des messages quotidiens aux campagnes complexes telles que les promotions saisonnières ou les lancements de produits majeurs.
+<table>
+<tr style="border: 0;">
+<td><img alt="Audiences à la demande" src="assets/do-not-localize/icon-audience.svg"></a></td><td><b>Audiences à la demande</b><br/>Interrogez instantanément les jeux de données pour créer des segments d’audience à l’aide de n’importe quelle combinaison de types et de dimensions de données.</td></tr>
+<tr style="border: 0;">
+<td><img alt="Segmentation et envoi d’entités multiples" src="assets/do-not-localize/icon-audience.svg"></a></td><td><b>Segmentation et envoi d’entités multiples</b><br/>allez au-delà des campagnes basées sur les personnes : utilisez des entités telles que des catalogues de produits, des emplacements de magasin ou des données de service pour cibler avec précision.</td></tr>
+<tr style="border: 0;">
+<td><img alt="Visibilité et précision de la pré-envoi" src="assets/do-not-localize/icon-audience.svg"></a></td><td><b>Visibilité et précision de l’envoi préalable</b><br/>obtenez un nombre exact de segmentations et une portée complète de la campagne avant le lancement, pour garantir la précision et la confiance.</td></tr>
+<tr style="border: 0;">
+<td><img alt="Workflows de campagne à plusieurs étapes" src="assets/do-not-localize/icon-audience.svg"></a></td><td><b>Workflows de campagne à plusieurs étapes</b><br/>Concevez des campagnes à plusieurs étapes, des messages quotidiens aux campagnes complexes telles que les promotions saisonnières ou les lancements de produits majeurs.</td></tr>
+</table>
 
 ## Campagnes et parcours orchestrés
 
