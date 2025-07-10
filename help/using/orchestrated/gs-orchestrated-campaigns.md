@@ -7,10 +7,10 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: 611dd06d-aa18-4fa3-a477-8a910cec21d8
-source-git-commit: 8f32edf905ed80ca4a23d4b9afe2805c000dacef
+source-git-commit: e6944928e40b471a86085c126ff678002357e66c
 workflow-type: tm+mt
-source-wordcount: '498'
-ht-degree: 6%
+source-wordcount: '453'
+ht-degree: 7%
 
 ---
 
@@ -32,26 +32,19 @@ L’orchestration des campagnes dans [!DNL Adobe Journey Optimizer] alimente des
 
 Bien que le marketing cross-canal soit essentiel, les campagnes orchestrées le rendent transparent. Grâce à une interface visuelle par glisser-déposer, vous pouvez concevoir et automatiser des workflows marketing complexes, de la segmentation à la diffusion des messages, sur plusieurs canaux. Tout se passe dans un environnement intuitif, conçu pour la vitesse, le contrôle et l’efficacité.
 
-Ce module apporte **orchestration de campagnes par lots** à [!DNL Journey Optimizer], ce qui vous permet d’effectuer les opérations suivantes :
-
-* Créer et exécuter des **campagnes à plusieurs étapes** (par exemple, promotions saisonnières, lancements de nouveaux produits),
-* Diffusez des **messages personnalisés et cohérents** sur n’importe quel canal,
-* Coordonner **segmentation, traitement des fichiers et gestion des tâches** en un seul endroit,
-* Autoriser la collaboration par le biais des approbations et des affectations de tâches
-
 ## Fonctionnalités principales
 
 L’orchestration des campagnes repose sur quatre piliers principaux :
 
-<table>
+<table style="table-layout:fixed">
 <tr style="border: 0;">
-<td><img alt="Audiences à la demande" src="assets/do-not-localize/icon-audience.svg"></a></td><td><b>Audiences à la demande</b><br/>Interrogez instantanément les jeux de données pour créer des segments d’audience à l’aide de n’importe quelle combinaison de types et de dimensions de données.</td></tr>
+<td><img alt="Audiences à la demande" src="assets/do-not-localize/icon-audience.svg" width="50px"></a></td><td><b>Audiences à la demande</b><br/>Interrogez instantanément les jeux de données pour créer des segments d’audience à l’aide de n’importe quelle combinaison de types et de dimensions de données.</td></tr>
 <tr style="border: 0;">
-<td><img alt="Segmentation et envoi d’entités multiples" src="assets/do-not-localize/icon-audience.svg"></a></td><td><b>Segmentation et envoi d’entités multiples</b><br/>allez au-delà des campagnes basées sur les personnes : utilisez des entités telles que des catalogues de produits, des emplacements de magasin ou des données de service pour cibler avec précision.</td></tr>
+<td><img alt="Segmentation et envoi d’entités multiples" src="assets/do-not-localize/icon-entity.svg" width="50px"></a></td><td><b>Segmentation et envoi d’entités multiples</b><br/>allez au-delà des campagnes basées sur les personnes : utilisez des entités telles que des catalogues de produits, des emplacements de magasin ou des données de service pour cibler avec précision.</td></tr>
 <tr style="border: 0;">
-<td><img alt="Visibilité et précision de la pré-envoi" src="assets/do-not-localize/icon-audience.svg"></a></td><td><b>Visibilité et précision de l’envoi préalable</b><br/>obtenez un nombre exact de segmentations et une portée complète de la campagne avant le lancement, pour garantir la précision et la confiance.</td></tr>
+<td><img alt="Visibilité et précision de la pré-envoi" src="assets/do-not-localize/icon-visibility.svg" width="50px"></a></td><td><b>Visibilité et précision de l’envoi préalable</b><br/>obtenez un nombre exact de segmentations et une portée complète de la campagne avant le lancement, pour garantir la précision et la confiance.</td></tr>
 <tr style="border: 0;">
-<td><img alt="Workflows de campagne à plusieurs étapes" src="assets/do-not-localize/icon-audience.svg"></a></td><td><b>Workflows de campagne à plusieurs étapes</b><br/>Concevez des campagnes à plusieurs étapes, des messages quotidiens aux campagnes complexes telles que les promotions saisonnières ou les lancements de produits majeurs.</td></tr>
+<td><img alt="Workflows de campagne à plusieurs étapes" src="assets/do-not-localize/icon-multistep.svg" width="50px"></a></td><td><b>Workflows de campagne à plusieurs étapes</b><br/>Concevez des campagnes à plusieurs étapes, des messages quotidiens aux campagnes complexes telles que les promotions saisonnières ou les lancements de produits majeurs.</td></tr>
 </table>
 
 ## Campagnes et parcours orchestrés
