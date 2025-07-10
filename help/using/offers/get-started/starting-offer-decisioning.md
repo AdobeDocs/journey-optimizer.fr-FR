@@ -8,9 +8,9 @@ role: User
 level: Intermediate
 exl-id: 659984cb-b232-47ba-9f5a-604bf97a5e92
 source-git-commit: 87f3da0a1d73f9aa26c7420d260778286bacdf0c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '911'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 93%
 
 >[!TIP]
 >
->Decisioning, la nouvelle fonctionnalité de prise de décision de [!DNL Adobe Journey Optimizer], est désormais disponible via le canal d’expérience basé sur le code ! [En savoir plus](../../experience-decisioning/gs-experience-decisioning.md)
+>La prise de décision, la nouvelle fonctionnalité de prise de décision de [!DNL Adobe Journey Optimizer], est désormais disponible via le canal d’expérience basée sur du code. [En savoir plus](../../experience-decisioning/gs-experience-decisioning.md)
 
 Utilisez [!DNL Journey Optimizer] pour offrir au bon moment à vos clients les meilleures offre et expérience possibles à tous les points de contact. Une fois la conception réalisée, ciblez vos audiences avec des offres personnalisées.
 
@@ -37,11 +37,11 @@ Voici quelques-uns des avantages :
 * Workflows améliorés : plutôt que de créer plusieurs diffusions ou plusieurs campagnes, les équipes marketing peuvent améliorer les workflows en créant une seule diffusion et en variant les offres dans les différentes parties du modèle.
 * Contrôle du nombre d&#39;affichages d&#39;une offre sur plusieurs campagnes et clients.
 
-➡️ [En savoir plus sur la gestion des décisions dans ces vidéos](#video)
+➡️ [Découvrez la gestion des décisions dans ces vidéos.](#video)
 
 >[!NOTE]
 >
->Si vous êtes un utilisateur de [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/home.html?lang=fr){target="_blank"} qui tire parti de l’application **Offer Decisioning**, toutes les fonctionnalités de gestion des décisions décrites dans cette section s’appliquent également à vous.
+>Si vous utilisez [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/home.html?lang=fr){target="_blank"} et l’application **Offer Decisioning**, toutes les fonctionnalités de gestion des décisions décrites dans cette section s’appliquent également à vous.
 
 ## À propos des offres et des décisions {#about-offers-and-decisions}
 
@@ -76,7 +76,7 @@ Les API de gestion des décisions permettent d’afficher, sur le portail des ag
 
 ## Octroi de l’accès à la gestion des décisions {#granting-acess-to-decision-management}
 
-Les autorisations d’accès et d’utilisation des fonctionnalités de prise de décision sont gérées à l’aide de [Adobe Admin Console](https://helpx.adobe.com/fr/enterprise/managing/user-guide.html){target="_blank"}.
+Les autorisations d’accès et d’utilisation des fonctionnalités de prise de décision sont gérées à l’aide d’[Adobe Admin Console](https://helpx.adobe.com/fr/enterprise/managing/user-guide.html){target="_blank"}.
 
 Pour accorder l’accès à la fonctionnalité de gestion des décisions, vous devez créer un **[!UICONTROL profil de produit]** et attribuer les autorisations correspondantes à vos utilisateurs et utilisatrices. Pour en savoir plus sur la gestion des utilisateurs, des utilisatrices et des autorisations [!DNL Journey Optimizer], consultez [cette section](../../administration/permissions.md).
 
@@ -120,13 +120,13 @@ Vous trouverez ci-dessous la liste des principaux concepts que vous utiliserez l
 La vidéo ci-dessous présente les principales fonctionnalités, l’architecture et les cas d’utilisation de la gestion des décisions :
 
 
->[!VIDEO](https://video.tv.adobe.com/v/340412?quality=12&learn=on&captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/326961?quality=12&learn=on)
 
 ### Définition et gestion des offres {#use-offer-decisioning}
 
 La vidéo ci-dessous montre comment utiliser la gestion des décisions pour définir et gérer vos offres, et exploiter les données client en temps réel.
 
 
->[!VIDEO](https://video.tv.adobe.com/v/340346?quality=12&learn=on&captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/326841?quality=12&learn=on)
 
 

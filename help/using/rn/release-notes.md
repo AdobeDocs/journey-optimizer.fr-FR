@@ -7,9 +7,9 @@ topic: Content Management
 description: Notes de mise à jour d’Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
 source-git-commit: ec2cccb651360ec796610781affcedca96d66af4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1278'
-ht-degree: 66%
+ht-degree: 100%
 
 ---
 
@@ -25,23 +25,23 @@ ht-degree: 66%
 
 ## Dernières mises à jour {#latest-updates}
 
-### Changement des conditions du parcours {#ee-change@}
+### Modification des conditions du parcours {#ee-change@}
 
-À compter du 8 juillet, dans les nouvelles organisations clientes, la création d’expressions à l’aide d’événements d’expérience ne sera plus prise en charge dans l’éditeur d’expression utilisé dans les conditions de parcours. Par conséquent, les événements d’expérience dans la source de données [Experience Platform](../datasource/adobe-experience-platform-data-source.md) ne peuvent pas être utilisés pour créer des expressions. Les autres approches et bonnes pratiques pour créer des expressions/logiques avec des événements d’expérience sont référencées [ici](../building-journeys/exp-event-lookup.md).
+À compter du 8 juillet, dans les nouvelles organisations clientes, la création d’expressions à l’aide d’événements d’expérience ne sera plus prise en charge dans l’éditeur d’expression utilisé dans les conditions de parcours. Par conséquent, les événements d’expérience dans la [source de données Experience Platform](../datasource/adobe-experience-platform-data-source.md) ne peuvent pas être utilisés pour créer des expressions. Les autres approches et bonnes pratiques pour créer des expressions/logiques avec des événements d’expérience sont référencées [ici](../building-journeys/exp-event-lookup.md).
 
 L’accès aux données d’événement de contexte de parcours dans les parcours unitaires reste inchangé. Dans les éditeurs d’expression et de personnalisation, les utilisateurs et utilisatrices peuvent continuer à accéder aux données transmises avec l’événement de parcours initial.
 
-En savoir plus [dans cette FAQ](../building-journeys/exp-event-lookup.md#faq-ee).
+Pour en savoir plus, consultez [ces questions fréquentes](../building-journeys/exp-event-lookup.md#faq-ee).
 
 
-## Notes de mise à jour du 25 juin {#25-6-rn}
+## Notes de mise à jour de juin 2025 {#25-6-rn}
 
 <!--
 **Early release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published at the release date.-->
 
 **Date de publication** : 18 juin 2025
 
-<!--See also [Adobe Experience Platform Pre Release Notes](https://experienceleague.adobe.com/fr/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
+<!--See also [Adobe Experience Platform Pre Release Notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
 
 ### Nouvelles fonctionnalités {#25-06-features}
 
@@ -50,16 +50,16 @@ Les nouvelles fonctionnalités de cette version sont présentées ci-dessous.
 <table>
 <thead>
 <tr>
-<th><strong>jeux de données Adobe Experience Platform dans la prise de décision (version bêta)</strong><br/></th>
+<th><strong>Jeux de données Adobe Experience Platform dans la prise de décision (version Beta)</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Auparavant disponibles pour la personnalisation, les jeux de données Adobe Experience Platform peuvent désormais être utilisés pour la prise de décision. Cela vous permet d’étendre la définition de vos attributs de décision aux données supplémentaires des jeux de données pour les mises à jour en bloc qui changent régulièrement sans avoir à mettre à jour manuellement les attributs un par un. Par exemple, la disponibilité, les temps d’attente, etc.</p>
-<p>Cette fonctionnalité est actuellement disponible en version Beta publique pour l’ensemble des clientes et clients. Contactez votre représentant de compte si vous souhaitez y accéder.</p>
+<p>Auparavant disponibles pour la personnalisation, les jeux de données Adobe Experience Platform peuvent désormais être utilisés pour la prise de décision. Vous pouvez ainsi étendre la définition des attributs de décision aux données supplémentaires des jeux de données pour les mises à jour en masse qui changent régulièrement sans avoir à mettre à jour manuellement les attributs un par un. Par exemple, la disponibilité, les temps d’attente, etc.</p>
+<p>Cette fonctionnalité est actuellement disponible en version Beta publique pour l’ensemble des clientes et clients. Contactez votre représentant ou représentante de compte si vous souhaitez y accéder.</p>
 <p>Pour plus d’informations, consultez la <a href="../experience-decisioning/aep-data-exd.md">documentation détaillée</a>.</p>
-<p>Date de disponibilité : 20 juin 2025</p>
+<p>Date de disponibilité : 20 juin 2025</p>
 </td>
 </tr>
 </tbody>
@@ -131,9 +131,9 @@ Les nouvelles fonctionnalités de cette version sont présentées ci-dessous.
 <tbody>
 <tr>
 <td>
-<p>Vous pouvez désormais inclure des offres personnalisées dans vos parcours par le biais d’une activité de décision de contenu dédiée dans la zone de travail de parcours et les utiliser dans des activités de parcours, y compris des conditions et des actions personnalisées.</p>
+<p>Vous pouvez désormais inclure des offres personnalisées dans vos parcours par le biais d’une activité Décision de contenu dédiée dans la zone de travail du parcours et les utiliser dans des activités de parcours, y compris des conditions et des actions personnalisées.</p>
 <img src="assets/do-not-localize/content-decision.gif">
-<p>Cette fonctionnalité n’est disponible que pour un ensemble d’organisations (disponibilité limitée) et sera proposée à tous les utilisateurs et utilisatrices dans une prochaine version.</p>
+<p>Cette fonctionnalité n’est disponible que pour un certain nombre d’organisations (disponibilité limitée) et sera proposée à l’ensemble des utilisateurs et utilisatrices dans une prochaine version.</p>
 <p>Pour plus d’informations, consultez la <a href="../building-journeys/content-decision.md">documentation détaillée</a>.</p>
 </td>
 </tr>
@@ -151,7 +151,7 @@ Les nouvelles fonctionnalités de cette version sont présentées ci-dessous.
 <td>
 <p>L’essai de parcours est un mode de publication de parcours spécial dans Adobe Journey Optimizer qui permet aux concepteurs et conceptrices de tester un parcours à l’aide de données de production réelles sans contacter les clients et clientes ni modifier les informations de profil. Cette fonctionnalité permet aux concepteurs et conceptrices du parcours de valider leur conception et leur ciblage d’audience avant de publier le parcours.</p>
 <img src="assets/do-not-localize/DryRun.gif">
-<p>Cette fonctionnalité n’est disponible que pour un ensemble d’organisations (disponibilité limitée) et sera proposée à tous les utilisateurs et utilisatrices dans une prochaine version.</p>
+<p>Cette fonctionnalité n’est disponible que pour un certain nombre d’organisations (disponibilité limitée) et sera proposée à l’ensemble des utilisateurs et utilisatrices dans une prochaine version.</p>
 <p>Pour plus d’informations, consultez la <a href="../building-journeys/journey-dry-run.md">documentation détaillée</a>.</p>
 
 </td>
@@ -172,7 +172,7 @@ Les nouvelles fonctionnalités de cette version sont présentées ci-dessous.
 <p>Vous pouvez suspendre et reprendre un seul parcours ou un groupe de parcours par le biais d’opérations en bloc.</p>
 <p>En outre, vous pouvez appliquer des filtres globaux aux parcours suspendus afin d’exclure les profils en fonction de leurs attributs.</p>
 <img src="assets/do-not-localize/PauseResume.gif">
-<p>Cette fonctionnalité n’est disponible que pour un ensemble d’organisations (disponibilité limitée) et sera proposée à tous les utilisateurs et utilisatrices dans une prochaine version.</p>
+<p>Cette fonctionnalité n’est disponible que pour un certain nombre d’organisations (disponibilité limitée) et sera proposée à l’ensemble des utilisateurs et utilisatrices dans une prochaine version.</p>
 <p>Pour plus d’informations, consultez la <a href="../building-journeys/journey-pause.md">documentation détaillée</a>.</p>
 </td>
 </tr>
@@ -224,33 +224,33 @@ Les améliorations de cette version sont présentées ci-dessous.
 
 * **Jeux de règles de canal**
 
-   * **Fenêtre de durée personnalisée** pour la limitation : un nouveau champ **Toutes les** est désormais disponible dans l’écran de configuration des jeux de règles de canal, ce qui vous permet d’appliquer des règles de limitation de la fréquence sur plusieurs jours, semaines ou mois, selon la durée spécifiée.
+   * **Fenêtre de durée personnalisée** pour le capping de la fréquence : un nouveau champ **Chaque** est désormais disponible dans l’écran de configuration des jeux de règles de canal. Il vous permet d’appliquer des règles de capping de la fréquence sur plusieurs jours, semaines ou mois, selon la durée spécifiée.
 
-   * **Fréquence de limitation de la réinitialisation toutes les heures** - Vous pouvez désormais appliquer une limitation toutes les heures pour les ensembles de règles de canal. Cette fonctionnalité est disponible uniquement pour un nombre limité d’organisations (disponibilité limitée). Contactez l’assistance clientèle pour l’activer.
+   * **Fréquence du capping redéfini à l’heure** : vous pouvez désormais appliquer un capping de la fréquence à l’heure pour les jeux de règles de canal. Cette fonctionnalité est disponible uniquement pour un nombre limité d’organisations (disponibilité limitée). Contactez l’assistance clientèle pour l’activer.
 
-   * **Durée quotidienne** - Auparavant disponible en disponibilité limitée, le capping de la fréquence « quotidienne » dans les ensembles de règles de canal est désormais disponible pour tous les clients.
+   * **Durée quotidienne** : auparavant en disponibilité limitée, le capping de la fréquence « quotidienne » dans les jeux de règles de canal est désormais disponible pour l’ensemble des clientes et clients.
 
   Pour plus d’informations, consultez la [documentation détaillée](../conflict-prioritization/channel-capping.md).
 
 * **Expériences basées sur du code**
 
-   * L’ajout d’une politique de décision est désormais disponible dans des modèles de contenu d’expérience basés sur du code, où elle peut être utilisée pour tirer parti des offres dans les champs de formulaire modifiables. [En savoir plus](../code-based/code-based-form-fields.md)
+   * L’ajout d’une politique de décision est désormais disponible dans les modèles de contenu d’expérience basée sur du code, où elle peut être utilisée pour tirer profit des offres dans les champs de formulaire modifiables. [En savoir plus](../code-based/code-based-form-fields.md)
 
-   * À partir du parcours d’expérience basé sur le code ou de l’écran d’édition de la campagne, vous pouvez désormais ajouter directement une politique de décision, sans ouvrir l’éditeur de personnalisation. [En savoir plus](../code-based/create-code-based.md#edit-code)
+   * À partir du parcours d’expérience basée sur du code ou de l’écran de modification de la campagne, vous pouvez désormais ajouter directement une politique de décision, sans ouvrir l’éditeur de personnalisation. [En savoir plus](../code-based/create-code-based.md#edit-code)
 
-* **Prise en charge des CSS personnalisés dans le concepteur d’e-mail**
+* **Prise en charge des feuilles CSS personnalisées dans le Concepteur d’e-mail**
 
-  Journey Optimizer vous permet désormais d’ajouter un CSS personnalisé au contenu de votre e-mail directement dans le Designer d’e-mail. [En savoir plus](../email/custom-css.md)
+  Journey Optimizer vous permet désormais d’ajouter une feuille CSS personnalisée au contenu de votre e-mail directement dans le Concepteur d’e-mail. [En savoir plus](../email/custom-css.md)
 
 * **Nouvelle navigation à onglets pour les campagnes**
 
-  Un nouveau modèle de navigation permet un accès plus rapide à la création de contenu et prend en charge une extension supplémentaire des paramètres dans les campagnes. [En savoir plus](../campaigns/create-campaign.md)
+  Le nouveau modèle de navigation permet un accès plus rapide à la création de contenu et prend en charge une extension supplémentaire des paramètres dans les campagnes. [En savoir plus](../campaigns/create-campaign.md)
 
 * **Prise de décision**
 
-   * **Copie de sandbox et prise de décision** (date de disponibilité : 3 juin 2025) - Les objets Decisioning peuvent désormais être copiés entre des sandbox, ce qui simplifie les workflows de test et de déploiement. [En savoir plus](../configuration/copy-objects-to-sandbox.md#decisioning)
+   * **Copie de sandbox et prise de décision** (date de disponibilité : 3 juin 2025) : les objets de prise de décision peuvent désormais être copiés entre des sandbox, ce qui simplifie les workflows de test et de déploiement. [En savoir plus](../configuration/copy-objects-to-sandbox.md#decisioning)
 
-   * **Prise en charge des attributs d’élément de décision pour les règles de prise de décision** (date de disponibilité : 4 juin 2025) - Vous pouvez désormais tirer parti des attributs d’élément de décision pour créer des règles de prise de décision. [En savoir plus](../experience-decisioning/rules.md#create)
+   * **Prise en charge des attributs d’élément de décision pour les règles de prise de décision** (date de disponibilité : 4 juin 2025) : vous pouvez désormais tirer profit des attributs d’élément de décision pour créer des règles de prise de décision. [En savoir plus](../experience-decisioning/rules.md#create)
 
 * **Mise à jour de l’API d’exécution de message interactif** - Date de disponibilité : 6 juin 2025
 

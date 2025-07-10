@@ -10,9 +10,9 @@ level: Experienced
 keywords: données, gouvernance, DULE, libellés, étiqueter, platform, politique
 exl-id: be3efd3b-35d5-4cf7-9015-29d1e305355d
 source-git-commit: fa46397b87ae3a81cd016d95afd3e09bb002cfaa
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1290'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 95%
 
 ## Commencer avec les politiques de gouvernance des données {#gs}
 
-Grâce à son cadre [gouvernance DULE (Data Usage Labeling and Enforcement)](https://experienceleague.adobe.com/docs/experience-platform/data-governance/home.html?lang=fr){target="_blank"} Adobe Experience Platform vous permet de gérer et d’appliquer des politiques de gouvernance des données sur vos canaux en **étiquetant vos champs** et en créant des **actions marketing** pour chaque canal.
+Avec son cadre de [gouvernance Data Usage Labelling and Enforcement(DULE)](https://experienceleague.adobe.com/docs/experience-platform/data-governance/home.html?lang=fr){target="_blank"}, Adobe Experience Platform vous permet de gérer et d’appliquer des politiques de gouvernance des données sur vos canaux en **étiquetant vos champs** et en créant des **actions marketing** pour chaque canal.
 
 Une fois les actions marketing et les libellés définis, vous pouvez créer des **politiques de gouvernance des données** qui lient ces deux éléments. Par exemple, vous pouvez configurer une politique qui associe un libellé « ePHI » à une action marketing de « ciblage e-mail », en veillant à ce que les champs étiquetés « ePHI » ne soient pas utilisés pour personnaliser les e-mails. [Découvrir comment créer des politiques de gouvernance des données](#policy)
 
@@ -134,4 +134,4 @@ Les erreurs sont visibles à partir du bouton **[!UICONTROL Alertes]**. Sélecti
 
 Cette boîte de dialogue indique que la configuration de parcours/campagne actuelle enfreint une politique de gouvernance des données existante. Utilisez le diagramme de lignage des données pour comprendre les autres modifications de configuration qui doivent être apportées avant de pouvoir activer votre parcours ou campagne.
 
-Vous trouverez des informations détaillées dans la [documentation sur les violations de la politique d’utilisation des données](https://experienceleague.adobe.com/fr/docs/experience-platform/data-governance/enforcement/auto-enforcement#data-usage-violation){_blank}.
+Des informations détaillées sont disponibles dans la [documentation sur les violations de politique d’utilisation des données](https://experienceleague.adobe.com/fr/docs/experience-platform/data-governance/enforcement/auto-enforcement#data-usage-violation){_blank}.
