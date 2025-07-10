@@ -28,7 +28,7 @@ ht-degree: 6%
 
 <br/>
 
-# Prise en main de l’orchestration des campagnes {#gs}
+&#x200B;# Prise en main de l’orchestration des campagnes {#gs}
 
 L’orchestration des campagnes dans [!DNL Adobe Journey Optimizer] alimente des campagnes marketing sophistiquées et lancées par la marque sur l’ensemble des canaux, ce qui vous permet de stimuler l’engagement, le chiffre d’affaires et la fidélisation de la clientèle à grande échelle.
 
