@@ -7,10 +7,10 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: 611dd06d-aa18-4fa3-a477-8a910cec21d8
-source-git-commit: a1af07fd8e95864ec758717b35e93555eada03f0
+source-git-commit: ea4b65ae05f219203754ed6e5ddd7effc795ff56
 workflow-type: tm+mt
-source-wordcount: '620'
-ht-degree: 15%
+source-wordcount: '492'
+ht-degree: 6%
 
 ---
 
@@ -28,25 +28,46 @@ ht-degree: 15%
 
 <br/>
 
-## Qu’est-ce qu’une campagne orchestrée ?
+# Prise en main de l’orchestration des campagnes {#gs}
 
-Les campagnes orchestrées améliorent Adobe Journey Optimizer en introduisant de puissantes fonctionnalités de campagne par lots initiées par la marque. Vous pouvez ainsi planifier et orchestrer des campagnes cross-canal à l’aide de stratégies de segmentation avancées.
+L’orchestration des campagnes dans [!DNL Adobe Journey Optimizer] alimente des campagnes marketing sophistiquées et lancées par la marque sur l’ensemble des canaux, ce qui vous permet de stimuler l’engagement, le chiffre d’affaires et la fidélisation de la clientèle à grande échelle.
 
-Toute entreprise qui souhaite atteindre efficacement ses clients et ses clientes doit élaborer une stratégie de marketing cross-canal efficace. Adobe Journey Optimizer propose un environnement graphique complet qui vous permet de concevoir des processus complexes et de gérer vos campagnes marketing en toute facilité. Grâce aux campagnes orchestrées, vous pouvez orchestrer l’ensemble des processus et tâches, améliorer la vitesse et l’échelle de chaque aspect de vos campagnes marketing, de la création de segments à la préparation des messages, en passant par leur diffusion. Dans une interface unique et conviviale, vous pouvez coordonner vos canaux et orchestrer vos campagnes.
+Bien que le marketing cross-canal soit essentiel, les campagnes orchestrées le rendent transparent. Grâce à une interface visuelle par glisser-déposer, vous pouvez concevoir et automatiser des workflows marketing complexes, de la segmentation à la diffusion des messages, sur plusieurs canaux. Tout se passe dans un environnement intuitif, conçu pour la vitesse, le contrôle et l’efficacité.
 
-L’un des avantages les plus importants des campagnes orchestrées est qu’elles facilitent la diffusion de contenu personnalisé à vos clients sur tous les canaux. Que vos clients préfèrent recevoir des messages par e-mail ou mobile, Adobe Journey Optimizer vous permet de fournir une expérience cohérente et contextuelle sur n’importe quel canal, transformant le parcours de chaque client en une expérience unique.
+Ce module apporte **orchestration de campagnes par lots** à [!DNL Journey Optimizer], ce qui vous permet d’effectuer les opérations suivantes :
 
-Les campagnes orchestrées sont incroyablement polyvalentes et peuvent être utilisées dans divers contextes, notamment le ciblage pour gérer les audiences ou envoyer des messages, la gestion des données (ETL) pour manipuler les données et l’importation de données.
+* Créer et exécuter des **campagnes à plusieurs étapes** (par exemple, promotions saisonnières, lancements de nouveaux produits),
+* Diffusez des **messages personnalisés et cohérents** sur n’importe quel canal,
+* Coordonner **segmentation, traitement des fichiers et gestion des tâches** en un seul endroit,
+* Autoriser la collaboration par le biais des approbations et des affectations de tâches
 
-Grâce à un environnement graphique complet, vous pouvez concevoir des processus tels que la segmentation, l’exécution de campagnes ou le traitement de fichiers. Les campagnes orchestrées peuvent également faire participer les utilisateurs et utilisatrices en leur attribuant des tâches ou en leur demandant d’approuver les tâches effectuées, ce qui facilite la gestion du travail de votre équipe et garantit son bon déroulement.
+## Fonctionnalités principales
 
-## orchestration des parcours et orchestration des campagnes
+L’orchestration des campagnes repose sur quatre piliers principaux :
 
-L’orchestration des campagnes est le module principal pour la conception, l’envoi et le suivi des communications de marque à grande échelle. Il permet la distribution automatisée des messages marketing aux audiences ciblées, en exploitant les segments de données existants pour une personnalisation efficace, en combinant des entités de profil et non de profil. Idéale pour les campagnes de sensibilisation, l’orchestration des campagnes assure une diffusion des messages cohérente et efficace, souvent planifiée à l’avance, afin de stimuler l’engagement des clients et de soutenir les objectifs marketing clés.
+1. **Audiences À La Demande**
 
-L’orchestration des campagnes redéfinit la segmentation des audiences en activant plusieurs entités dans Adobe Journey Optimizer et facilite la messagerie ciblée en fonction, par exemple, de statuts, d’événements, de contrats ou de réservations spécifiques. Comme vous pouvez envoyer des communications à des entités autres que des profils, ou créer des requêtes sur n’importe quelle entité, vous pouvez bénéficier d’une vue d’ensemble et capturer une grande étendue d’informations pour créer vos audiences.
+   Exécutez instantanément des requêtes sur les jeux de données pour créer des segments d’audience à l’aide de n’importe quelle combinaison de types et de dimensions de données.
 
-Permettant de prendre des décisions basées sur les données, l’orchestration de Campaign exploite plusieurs sources pour un jeu de données enrichi et dynamique.
+1. **Segmentation et envoi d’entités multiples**
+
+   Allez au-delà des campagnes basées sur les personnes : utilisez des entités telles que des catalogues de produits, des emplacements de magasin ou des données de service pour cibler avec précision.
+
+1. **Visibilité et précision de la pré-envoi**
+
+   Obtenez le nombre exact de segmentations et la portée complète de la campagne avant le lancement, pour garantir la précision et la confiance.
+
+1. **Workflows de campagne à plusieurs étapes**
+
+   Concevez des campagnes en plusieurs étapes, des messages quotidiens aux campagnes complexes telles que les promotions saisonnières ou les lancements de produits majeurs.
+
+## Campagnes et parcours orchestrés
+
+Même si la visualisation des campagnes orchestrées présente des similitudes avec les parcours, elle résout différents objectifs et cas d’utilisation :
+
+* **Parcours** - 1 à 1 canevas où chaque profil parcourt les différentes étapes à son propre rythme. L’état de chaque client est conservé dans son contexte pour déclencher des actions en temps réel.
+
+* **Campagnes orchestrées** - Contrairement aux parcours, les campagnes orchestrées fonctionnent à l’aide d’une zone de travail par lots qui calcule les segments. Tous les profils sont traités ensemble en même temps.
 
 ## Conditions préalables
 
@@ -58,7 +79,7 @@ Si vous ne parvenez pas à accéder aux fonctionnalités de Campaign orchestrée
 
 ## Explorons plus en détail
 
-Maintenant que vous connaissez le b.a.-ba des workflows et leur utilisation dans Adobe Campaign, nous allons parcourir les sections de la documentation consacrées à l’utilisation de cette fonctionnalité.
+Maintenant que vous avez une compréhension de ce que sont les campagnes orchestrées, il est temps d’examiner plus en détail ces sections de documentation pour commencer à utiliser la fonctionnalité.
 
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td>
