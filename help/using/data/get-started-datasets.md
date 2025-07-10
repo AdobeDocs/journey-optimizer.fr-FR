@@ -8,10 +8,10 @@ role: Data Engineer, Data Architect, Admin
 level: Experienced
 keywords: platform, lac de données, créer, lac, jeux de données, profil
 exl-id: dcdd3c81-0f00-4259-a8a5-9062a4c40b6f
-source-git-commit: b27ddcc88ca4b4209c9d29974a0b0d0dbe98cc94
-workflow-type: ht
-source-wordcount: '847'
-ht-degree: 100%
+source-git-commit: 7fb853a898a84ff31c7a24b48f963f06c4d10b6f
+workflow-type: tm+mt
+source-wordcount: '873'
+ht-degree: 94%
 
 ---
 
@@ -37,7 +37,9 @@ Par défaut, seuls les jeux de données que vous avez ingérés s’affichent. S
 
 >[!NOTE]
 >
->Dès le 1er novembre 2024, la segmentation en flux continu (streaming) ne prend plus en charge l’utilisation des événements d’envoi et d’ouverture provenant des jeux de données de tracking et de commentaires dans Journey Optimizer. En outre, depuis février 2025, un mécanisme de sécurisation sur la durée de vie (TTL) est déployé dans les jeux de données générés par le système Journey Optimizer. [En savoir plus](datasets-ttl.md)
+>Depuis le 1er novembre 2024, la segmentation en flux continu ne prend plus en charge les événements d’envoi et d’ouverture provenant de jeux de données de tracking et de commentaires [!DNL Journey Optimizer]. Pour l’implémentation du capping de la fréquence ou de la gestion de la fatigue, utilisez plutôt des règles métier. Vous trouverez plus d’informations dans [cette section](../conflict-prioritization/rule-sets.md), y compris une explication de cas d’utilisation de la limitation quotidienne [ici](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/elevate-customer-experience-with-daily-frequency-capping-in-ajo/ba-p/761510){target="_blank"}.
+>
+>En outre, depuis février 2025, un mécanisme de sécurisation sur la durée de vie (TTL) est déployé dans les jeux de données générés par le système Journey Optimizer. [En savoir plus](datasets-ttl.md)
 
 Sélectionnez le nom d’un jeu de données pour accéder à l’écran Activité du jeu de données et consulter les détails du jeu de données que vous avez sélectionné. L’onglet activité contient un graphique qui permet de visualiser le taux de messages consommé ainsi qu’une liste des lots réussis et en échec.
 
@@ -83,7 +85,7 @@ Vous pouvez effectuer les actions suivantes :
 
 Regardez cette vidéo pour découvrir comment créer un jeu de données, le mapper à un schéma, y ajouter des données et confirmer que les données ont été ingérées.
 
->[!VIDEO](https://video.tv.adobe.com/v/3416649?quality=12&captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/334293?quality=12)
 
 ## Gouvernance des données
 
