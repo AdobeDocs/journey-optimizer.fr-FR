@@ -6,10 +6,10 @@ description: Découvrez comment démarrer et surveiller des campagnes orchestré
 hide: true
 hidefromtoc: true
 exl-id: 5fc2d1d6-75c3-4b45-bb2b-09982b9bd5ed
-source-git-commit: e316c3dbbec028f7501990486506779656990c20
+source-git-commit: baeb26d3006ee26f4c6651c698c225714c85d9fa
 workflow-type: tm+mt
-source-wordcount: '738'
-ht-degree: 20%
+source-wordcount: '774'
+ht-degree: 18%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 20%
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_publication"
 >title="Publier une campagne orchestrée"
->abstract="Pour lancer votre campagne, vous devez la publier. Assurez-vous que tous les avertissements sont effacés avant la publication."
+>abstract="Pour lancer votre campagne, vous devez la publier. Vérifiez que toutes les erreurs sont effacées avant la publication."
 
 +++ Table des matières
 
@@ -71,9 +71,13 @@ Une fois votre campagne testée et prête, cliquez sur **[!UICONTROL Publier]** 
 
 ![](assets/campaign-publish.png){zoomable="yes"}
 
+>[!NOTE]
+>
+>Si le bouton **[!UICONTROL Publier]** est désactivé (grisé), accédez aux journaux à partir de la barre d’actions et vérifiez les messages d’erreur. Toutes les erreurs doivent être corrigées avant de pouvoir publier une campagne.
+
 Le flux visuel redémarre et les profils réels commencent à circuler dans le parcours en temps réel.
 
-Si l’action de publication échoue (en raison d’un contenu de message manquant, par exemple), vous êtes averti et devez résoudre le problème avant de réessayer. Une fois la publication terminée, la campagne passe du statut **Brouillon** au statut **Actif** et commence à s’exécuter (immédiatement ou selon le planning).
+Si l’action de publication échoue (en raison d’un contenu de message manquant, par exemple), vous êtes averti et devez résoudre le problème avant de réessayer. Une fois la publication réussie, la campagne commence à s’exécuter (immédiatement ou selon le calendrier), passe du statut **Brouillon** au statut **Actif** et devient « Lecture seule ».
 
 ## Surveiller l’exécution des campagnes {#monitor}
 

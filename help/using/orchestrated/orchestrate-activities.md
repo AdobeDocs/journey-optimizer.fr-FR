@@ -7,10 +7,10 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: d1d64125-cf00-49c2-a71d-1494ede16f61
-source-git-commit: a19fe429d34a88c6159ab3b2b4dfa3768bcd24ad
+source-git-commit: baeb26d3006ee26f4c6651c698c225714c85d9fa
 workflow-type: tm+mt
-source-wordcount: '897'
-ht-degree: 24%
+source-wordcount: '968'
+ht-degree: 22%
 
 ---
 
@@ -75,6 +75,8 @@ Lors de l’ajout d’activités, des boutons d’action sont disponibles dans l
 ![Icône Désactiver](assets/do-not-localize/activity-disable.svg) ![Icône Activer](assets/do-not-localize/activity-enable.svg) Désactivez/activez l’activité. Lorsque la campagne orchestrée est exécutée, les activités désactivées et les activités suivantes sur le même chemin ne sont pas exécutées et la campagne orchestrée est arrêtée.
 
 ![Icône Pause](assets/do-not-localize/activity-pause.svg) ![Icône Reprendre](assets/do-not-localize/activity-resume.svg) Suspendre/Reprendre l’activité. Lorsque la campagne orchestrée est exécutée, elle se met en pause au niveau de l’activité en pause. La tâche correspondante, ainsi que toutes les suivantes dans le même chemin, ne sont pas exécutées.
+
+    Vous pouvez utiliser n’importe quelle activité de la zone de travail comme point d’arrêt pour suspendre l’exécution de la campagne. Cela signifie que la campagne sera exécutée uniquement jusqu’à cette activité, puis que l’exécution sera suspendue. Pendant la suspension de l’exécution, le moteur de segmentation conserve les données temporaires à votre disposition pour la prévisualisation. Vous pouvez sélectionner la transition entrante juste avant l’activité en pause pour afficher les données transportées. En savoir plus sur cette section : [Surveillance visuelle du flux](../orchestrated/start-monitor-campaigns.md#flow).
 
 ![Icône Copier](assets/do-not-localize/activity-copy.svg) Copiez l’activité. [Découvrez comment copier-coller des activités](#copy)
 
