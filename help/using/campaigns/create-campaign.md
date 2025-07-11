@@ -9,10 +9,10 @@ role: User
 level: Beginner
 keywords: créer, optimizer, campagne, surface, messages
 exl-id: 617d623c-e038-4b5b-a367-5254116b7815
-source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
-workflow-type: ht
-source-wordcount: '1277'
-ht-degree: 100%
+source-git-commit: 21e2ea3e6a72d2a0eb0338df5665282d814501ac
+workflow-type: tm+mt
+source-wordcount: '1283'
+ht-degree: 99%
 
 ---
 
@@ -158,6 +158,11 @@ En plus du contenu du message, vous pouvez configurer les paramètres suivants 
 >id="ajo_campaigns_schedule_triggers"
 >title="Déclencheurs d’action de campagne"
 >abstract="Vous pouvez définir la fréquence d’envoi du message de la campagne."
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaigns_throttling"
+>title="Contrôle du taux de limitation"
+>abstract="Contrôle du taux de limitation"
 
 Par défaut, les campagnes démarrent une fois qu’elles ont été activées manuellement et se terminent dès que le message a été envoyé une fois.
 
