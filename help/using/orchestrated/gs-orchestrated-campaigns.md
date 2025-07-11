@@ -7,9 +7,9 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: 611dd06d-aa18-4fa3-a477-8a910cec21d8
-source-git-commit: 34788c05cdcdcbc0c261df3f931a5bc1786fff5f
+source-git-commit: a8265a2e509df0f18db5d8ca36c4298ba020fa38
 workflow-type: tm+mt
-source-wordcount: '453'
+source-wordcount: '454'
 ht-degree: 7%
 
 ---
@@ -31,6 +31,8 @@ ht-degree: 7%
 L’orchestration des campagnes dans [!DNL Adobe Journey Optimizer] alimente des campagnes marketing sophistiquées et lancées par la marque sur l’ensemble des canaux, ce qui vous permet de stimuler l’engagement, le chiffre d’affaires et la fidélisation de la clientèle à grande échelle.
 
 Bien que le marketing cross-canal soit essentiel, les campagnes orchestrées le rendent transparent. Grâce à une interface visuelle par glisser-déposer, vous pouvez concevoir et automatiser des workflows marketing complexes, de la segmentation à la diffusion des messages, sur plusieurs canaux. Tout se passe dans un environnement intuitif, conçu pour la vitesse, le contrôle et l’efficacité.
+
+![](assets/canvas-example-diagram.png){zoomable="yes"}
 
 ## Fonctionnalités principales
 
@@ -61,13 +63,13 @@ Avant d’utiliser des campagnes orchestrées, il est essentiel de vérifier que
 
 Si vous ne parvenez pas à accéder aux fonctionnalités de Campaign orchestrée, contactez votre administrateur pour demander les autorisations nécessaires.
 
-➡️[En savoir plus sur les profils de produit liés aux campagnes orchestrées](../administration/ootb-product-profiles.md)
+➡️ [En savoir plus sur les profils de produit liés aux campagnes orchestrées](../administration/ootb-product-profiles.md)
 
 ## Explorons plus en détail
 
 Maintenant que vous avez une compréhension de ce que sont les campagnes orchestrées, il est temps d’examiner plus en détail ces sections de documentation pour commencer à utiliser la fonctionnalité.
 
-<table style="table-layout:fixed"><tr style="border: 0;">
+&lt;table »><tr style="border: 0; text-align: center;">
 <td>
 <a href="gs-campaign-creation.md">
 <img alt="Accéder et gérer des workflows" src="assets/do-not-localize/workflow-access.jpeg">
