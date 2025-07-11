@@ -7,9 +7,9 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: 7b42d317-cd01-4c6a-b61e-5b03e5a8ff3c
-source-git-commit: d464668582fbb4bea6f8d4ef57e17f80b5d83378
+source-git-commit: 779c90f0be57749a63da103d18cc642106c5f837
 workflow-type: tm+mt
-source-wordcount: '691'
+source-wordcount: '694'
 ht-degree: 22%
 
 ---
@@ -37,6 +37,12 @@ ht-degree: 22%
 +++
 
 <br/>
+
+>[!BEGINSHADEBOX]
+
+Documentation en cours
+
+>[!ENDSHADEBOX]
 
 ## Accès aux campagnes orchestrées
 

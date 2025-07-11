@@ -6,9 +6,9 @@ description: Découvrez comment démarrer et surveiller des campagnes orchestré
 hide: true
 hidefromtoc: true
 exl-id: 5fc2d1d6-75c3-4b45-bb2b-09982b9bd5ed
-source-git-commit: baeb26d3006ee26f4c6651c698c225714c85d9fa
+source-git-commit: 779c90f0be57749a63da103d18cc642106c5f837
 workflow-type: tm+mt
-source-wordcount: '774'
+source-wordcount: '777'
 ht-degree: 18%
 
 ---
@@ -31,6 +31,12 @@ ht-degree: 18%
 +++
 
 <br/>
+
+>[!BEGINSHADEBOX]
+
+Documentation en cours
+
+>[!ENDSHADEBOX]
 
 Une fois que vous avez créé et conçu les tâches à effectuer dans la zone de travail, vous pouvez les publier et contrôler leur exécution.
 
@@ -77,7 +83,7 @@ Une fois votre campagne testée et prête, cliquez sur **[!UICONTROL Publier]** 
 
 Le flux visuel redémarre et les profils réels commencent à circuler dans le parcours en temps réel.
 
-Si l’action de publication échoue (en raison d’un contenu de message manquant, par exemple), vous êtes averti et devez résoudre le problème avant de réessayer. Une fois la publication réussie, la campagne commence à s’exécuter (immédiatement ou selon le calendrier), passe du statut **Brouillon** au statut **Actif** et devient « Lecture seule ».
+Si l’action de publication échoue (en raison d’un contenu de message manquant, par exemple), vous êtes averti et devez résoudre le problème avant de réessayer. Une fois la publication terminée, la campagne commence à s’exécuter (immédiatement ou selon le calendrier), passe du statut **Brouillon** au statut **Actif** et devient « Lecture seule ».
 
 ## Surveiller l’exécution des campagnes {#monitor}
 

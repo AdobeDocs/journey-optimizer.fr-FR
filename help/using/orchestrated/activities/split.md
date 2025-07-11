@@ -7,9 +7,9 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: 986bc566-123a-451d-a4a6-bbf5a2798849
-source-git-commit: a19fe429d34a88c6159ab3b2b4dfa3768bcd24ad
+source-git-commit: 779c90f0be57749a63da103d18cc642106c5f837
 workflow-type: tm+mt
-source-wordcount: '885'
+source-wordcount: '888'
 ht-degree: 54%
 
 ---
@@ -34,6 +34,12 @@ ht-degree: 54%
 
 
 <br/>
+
+>[!BEGINSHADEBOX]
+
+Documentation en cours
+
+>[!ENDSHADEBOX]
 
 L&#39;activité **[!UICONTROL Partage]** est une activité **[!UICONTROL Ciblage]** qui segmente la population entrante en plusieurs sous-ensembles en fonction de critères de sélection définis, tels que les règles de filtrage ou la taille de la population.
 

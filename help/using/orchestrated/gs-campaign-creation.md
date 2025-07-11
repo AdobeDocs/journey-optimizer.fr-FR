@@ -7,9 +7,9 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: b04aa15a-71bf-4683-bcbf-f611c189ffe1
-source-git-commit: 4840dd87f82d3c9b8cfa5a565ee661bb492cff50
+source-git-commit: 779c90f0be57749a63da103d18cc642106c5f837
 workflow-type: tm+mt
-source-wordcount: '367'
+source-wordcount: '370'
 ht-degree: 3%
 
 ---
@@ -29,6 +29,12 @@ ht-degree: 3%
 
 <br/>
 
+>[!BEGINSHADEBOX]
+
+Documentation en cours
+
+>[!ENDSHADEBOX]
+
 Cette page vous guide tout au long des étapes essentielles pour créer et lancer une campagne orchestrée, depuis la configuration et la conception jusqu’à la surveillance et le reporting.
 
 <!--
@@ -43,7 +49,7 @@ Cette page vous guide tout au long des étapes essentielles pour créer et lance
 
 ## Étape 1 : créer et planifier votre campagne {#create}
 
-Avant toute autre chose, vous devez créer votre campagne orchestrée et définir *quand* elle doit s’exécuter. Qu’il s’agisse d’une campagne push unique ou multicanal récurrente, vous aurez un contrôle total sur le timing et la fréquence.
+Avant toute autre chose, vous devez créer votre campagne orchestrée et définir *quand* elle doit s’exécuter. Qu’il s’agisse d’une notification push unique ou d’une campagne multicanal récurrente, vous aurez un contrôle total sur le timing et la fréquence.
 
 ➡️ [Découvrez comment créer et planifier une campagne](../orchestrated/create-orchestrated-campaign.md)
 

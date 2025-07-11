@@ -7,9 +7,9 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: 8a0aeae8-f4f2-4f1d-9b89-28ce573fadfd
-source-git-commit: a19fe429d34a88c6159ab3b2b4dfa3768bcd24ad
+source-git-commit: 779c90f0be57749a63da103d18cc642106c5f837
 workflow-type: tm+mt
-source-wordcount: '571'
+source-wordcount: '574'
 ht-degree: 43%
 
 ---
@@ -33,6 +33,12 @@ ht-degree: 43%
 +++
 
 <br/>
+
+>[!BEGINSHADEBOX]
+
+Documentation en cours
+
+>[!ENDSHADEBOX]
 
 L’activité **[!UICONTROL Enrichissement]** est une activité **[!UICONTROL Ciblage]** qui vous permet d’enrichir les données de votre audience avec des attributs supplémentaires.
 

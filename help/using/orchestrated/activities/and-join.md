@@ -7,9 +7,9 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: 1b99313e-f131-44f7-a129-f85e1977fb05
-source-git-commit: a19fe429d34a88c6159ab3b2b4dfa3768bcd24ad
+source-git-commit: 779c90f0be57749a63da103d18cc642106c5f837
 workflow-type: tm+mt
-source-wordcount: '341'
+source-wordcount: '344'
 ht-degree: 38%
 
 ---
@@ -34,6 +34,12 @@ ht-degree: 38%
 
 <br/>
 
+>[!BEGINSHADEBOX]
+
+Documentation en cours
+
+>[!ENDSHADEBOX]
+
 L’activité **[!UICONTROL Rendez-vous]** est une activité de **[!UICONTROL contrôle de flux]**. Elle permet de synchroniser plusieurs branches d’exécution d’une campagne orchestrée.
 
 L’activité Rendez-vous ne déclenche sa transition sortante qu’une fois toutes les transitions entrantes activées, c’est-à-dire quand toutes les activités précédentes sont terminées. Vous pouvez ainsi vous assurer que certaines activités sont terminées avant de continuer à exécuter la campagne orchestrée.
@@ -55,7 +61,7 @@ Pour configurer l’activité **[!UICONTROL Rendez-vous]**, procédez comme suit
 
 1. Sous la section **[!UICONTROL Options de fusion]**, sélectionnez toutes les activités précédentes à joindre.
 
-1. Dans le menu déroulant Ensemble de Principal **&#x200B;**, choisissez la population de transition entrante que vous souhaitez conserver.
+1. Dans le menu déroulant Ensemble de Principal ****, choisissez la population de transition entrante que vous souhaitez conserver.
 
 ## Exemple{#and-join-example}
 

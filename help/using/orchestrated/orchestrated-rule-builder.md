@@ -7,10 +7,10 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: fb7a0eb2-b2ff-49fa-af1f-f1c10f219b00
-source-git-commit: a19fe429d34a88c6159ab3b2b4dfa3768bcd24ad
+source-git-commit: 779c90f0be57749a63da103d18cc642106c5f837
 workflow-type: tm+mt
-source-wordcount: '389'
-ht-degree: 16%
+source-wordcount: '392'
+ht-degree: 22%
 
 ---
 
@@ -29,6 +29,12 @@ ht-degree: 16%
 
 <br/>
 
+>[!BEGINSHADEBOX]
+
+Documentation en cours
+
+>[!ENDSHADEBOX]
+
 Les campagnes orchestrées s’accompagnent d’un créateur de règles qui simplifie le processus de filtrage de la base de données en fonction de divers critères. Le créateur de règles gère efficacement des requêtes très complexes et longues, offrant ainsi une flexibilité et une précision accrues.
 
 Il prend également en charge les filtres prédéfinis dans des conditions, ce qui vous permet d’affiner facilement les requêtes tout en utilisant des expressions et des opérateurs avancés pour le ciblage d’audience et les stratégies de segmentation complètes.
@@ -40,8 +46,8 @@ Le concepteur de requête est disponible dans tout contexte où vous devez défi
 | Utilisation | Exemple |
 |  ---  |  ---  |
 | **Créer des audiences** : spécifiez la population que vous souhaitez cibler dans vos campagnes orchestrées à l’aide d’une activité **[!UICONTROL Créer une audience]** et créez facilement de nouvelles audiences adaptées à vos besoins. [Découvrir comment créer des audiences](../orchestrated/activities/build-audience.md) | ![Image montrant comment accéder à l’interface de création d’audience](assets/query-access-audience.png){width="200" align="center" zoomable="yes"} |
-| **Créer une condition dans la zone de travail de campagne** : appliquez les règles de la zone de travail de campagne à l’aide d’une activité **[!UICONTROL Partage]** pour vous aligner sur vos besoins spécifiques. [Découvrez comment utiliser une activité Partage](../orchestrated/activities/split.md) | ![Image illustrant comment accéder aux options de personnalisation d’un workflow](assets/query-access-split.png){width="200" align="center" zoomable="yes"} |
-| **Créer des filtres avancés** : créez des règles pour filtrer les données affichées dans les listes, telles que les logs de workflow ou les dimensions de ciblage. | ![Image illustrant comment personnaliser les filtres de liste](assets/query-access-advanced-filters.png){width="200" align="center" zoomable="yes"} |
+| **Créer une condition dans la zone de travail de campagne** : appliquez les règles de la zone de travail de campagne à l’aide d’une activité **[!UICONTROL Partage]** pour vous aligner sur vos besoins spécifiques. [Découvrez comment utiliser une activité Partage](../orchestrated/activities/split.md) | ![Image montrant comment accéder aux options de personnalisation d’un workflow](assets/query-access-split.png){width="200" align="center" zoomable="yes"} |
+| **Créer des filtres avancés** : créez des règles pour filtrer les données affichées dans les listes, telles que les logs de workflow ou les dimensions de ciblage. | ![Image montrant comment personnaliser les filtres de liste](assets/query-access-advanced-filters.png){width="200" align="center" zoomable="yes"} |
 
 ## Interface du créateur de règles {#interface}
 
