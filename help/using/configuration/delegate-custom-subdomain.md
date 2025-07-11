@@ -10,7 +10,8 @@ level: Experienced
 keywords: sous-domaine, délégation, domaine, DNS
 hide: true
 hidefromtoc: true
-source-git-commit: 2950856622ea9ee6c761f4555d5322bb788bb2cb
+exl-id: 34af1329-f0c8-4fcd-a284-f8f4214611d4
+source-git-commit: a1172d331aff538e867428b36ab913b4ae9c8f7e
 workflow-type: tm+mt
 source-wordcount: '665'
 ht-degree: 9%
@@ -128,3 +129,4 @@ Si des erreurs se produisent lors de la tentative d’envoi de votre sous-domain
 * Vérifiez que votre certificat répond à toutes les exigences techniques avant de le charger.
 
 * Vérifiez que le certificat a été chargé au bon format.
+
