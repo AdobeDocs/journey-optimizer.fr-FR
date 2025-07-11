@@ -6,10 +6,10 @@ description: Découvrez comment démarrer et surveiller des campagnes orchestré
 hide: true
 hidefromtoc: true
 exl-id: 3c1cad30-3ed7-4df1-a46a-60394a834e79
-source-git-commit: 0ae8372c179707a87a6b512a5420753a4aaef754
+source-git-commit: b1bee7a5ee05e0e535a982c31bafafdc760d21ae
 workflow-type: tm+mt
-source-wordcount: '591'
-ht-degree: 2%
+source-wordcount: '641'
+ht-degree: 1%
 
 ---
 
@@ -35,72 +35,99 @@ Documentation en cours
 
 Le reciblage vous permet d’effectuer le suivi auprès des destinataires en fonction de leur réponse à une campagne orchestrée précédente. Par exemple, vous pouvez envoyer un second e-mail aux profils qui ont reçu le premier, mais n’ont pas cliqué dessus.
 
-Pour ce faire, une campagne orchestrée fournit deux sources de données principales :
+**[!UICONTROL Campagne orchestrée]** fournit deux sources de données principales à cet effet :
 
-- **Commentaires sur le message** : capture les événements liés à la diffusion, par exemple le message envoyé, ouvert, rebond, etc.
+* **[!UICONTROL Commentaires sur le message]** : capture les événements liés à la diffusion, par exemple le message envoyé, ouvert, rebond, etc.
+* **[!UICONTROL Suivi des e-mails]** : capture les actions de l’utilisateur, par exemple les clics et les ouvertures.
 
-- **Suivi des e-mails** : capture les actions de l’utilisateur, par exemple les clics et les ouvertures.
-
-## Création d’une règle de reciblage basée sur les commentaires
+## Création d’une règle de reciblage basée sur les commentaires {#feedback-retarget}
 
 La règle de reciblage basé sur les retours permet de recibler les destinataires en fonction des événements de diffusion de message capturés dans le jeu de données **Commentaires de message**. Ces événements incluent les résultats tels que les messages envoyés, ouverts, rejetés ou marqués comme spam.
 
-Grâce à ces données, vous pouvez définir des règles pour identifier les destinataires qui ont reçu un message précédent, mais qui ne l’ont pas utilisé, ce qui permet une communication de suivi basée sur des statuts de diffusion spécifiques.
+Grâce à ces données, vous pouvez définir des règles pour identifier les destinataires ayant reçu un message précédent, ce qui permet d’établir une communication de suivi en fonction de statuts de diffusion spécifiques.
 
-1. Créez une **Campagne orchestrée**.
+1. Créez une **[!UICONTROL Campagne orchestrée]**.
 
-2. Ajoutez une activité **Créer une audience** et définissez la dimension de ciblage sur **Destinataire (caas)**.
+1. Ajoutez une activité **[!UICONTROL Créer une audience]** et définissez la dimension de ciblage sur **[!UICONTROL Destinataire (caas)]**.
 
-3. Dans le **Créateur de règles**, cliquez sur **Ajouter une condition** et sélectionnez **Retour d’informations du message** dans le sélecteur d’attributs. Cliquez sur **Confirmer**.
+1. Dans le **[!UICONTROL Créateur de règles]**, cliquez sur **[!UICONTROL Ajouter une condition]** et sélectionnez **[!UICONTROL Commentaires de message]** dans le **[!UICONTROL Sélecteur d’attributs]**. Cliquez sur **[!UICONTROL Confirmer]** pour créer une condition **Le retour d’informations sur le message existe, telle que**.
 
-4. Ajoutez une condition pour **Statut des commentaires** et définissez la valeur sur **Message envoyé**.
+   ![](assets/retarget_1.png)
 
-5. Pour cibler une campagne orchestrée spécifique :
+1. Choisissez l’attribut **[!UICONTROL Statut des commentaires]** pour cibler les événements de diffusion des messages.
 
-   - Ajoutez une autre condition, recherchez `entity` et accédez à :\
-     `_experience > CustomerJourneyManagement > Entities > AJO Orchestrated Campaign`.
++++ Détaillé pas à pas
 
-   - Sélectionnez **Nom de la campagne orchestrée** et indiquez le nom de la campagne.
+   1. Ajoutez une autre condition liée à l&#39;attribut **[!UICONTROL Message feedback]**.
 
-6. Pour cibler un message ou une activité spécifique dans cette campagne orchestrée :
+   1. Recherchez l’attribut **[!UICONTROL Statut du retour d’informations]** et cliquez sur **[!UICONTROL Confirmer]**.
 
-   - Ajoutez une autre condition, recherchez `entity` et accédez à :\
-     `_experience > CustomerJourneyManagement > Entities > AJO Orchestrated Campaign`.
+      ![](assets/retarget_3.png)
 
-   - Sélectionnez **Nom de l’action de campagne orchestrée** et indiquez le nom de l’action de campagne.
+   1. Dans le menu **[!UICONTROL Condition personnalisée]**, choisissez l&#39;état de la diffusion à suivre dans le menu déroulant **[!UICONTROL Valeur]**.
 
-     Pour trouver les noms des actions, cliquez sur l’icône ![Informations](assets/do-not-localize/info-icon.svg) en regard d’une activité dans la zone de travail.
+      ![](assets/retarget_4.png)
 
-   >[!TIP]
-   >
-   >Au lieu d’utiliser des noms, vous pouvez également filtrer selon l’**Identifiant de campagne** (UUID), qui se trouve dans vos propriétés Campaign.
++++
+
+1. Choisissez l’attribut **[!UICONTROL Nom de campagne orchestrée]** pour cibler une campagne orchestrée spécifique.
+
++++ Détaillé pas à pas
+
+   1. Ajoutez une autre condition liée à l’attribut **[!UICONTROL Commentaires de message]**, recherchez **[!UICONTROL entité]** et accédez à :
+
+      `_experience > CustomerJourneyManagement > Entities > AJO Orchestrated Campaign entity`.
+
+   1. Sélectionnez **[!UICONTROL Nom orchestré de la campagne]**.
+
+      ![](assets/retarget_5.png)
+
+   1. Dans le menu **[!UICONTROL Condition personnalisée]**, indiquez le nom de la campagne dans le champ **[!UICONTROL Valeur]**.
+
++++
+
+1. Choisissez l’attribut **[!UICONTROL Nom de l’action de campagne orchestrée]** pour cibler un message ou une activité spécifique dans une campagne orchestrée.
+
++++ Détaillé pas à pas
+
+   1. Ajoutez une autre condition liée à l’attribut **[!UICONTROL Commentaires de message]**, recherchez **[!UICONTROL entité]** et accédez à :
+
+      `_experience > CustomerJourneyManagement > Entities > AJO Orchestrated Campaign entity`.
+
+   1. Sélectionnez **[!UICONTROL Nom de l’action de campagne orchestrée]**.
+
+      ![](assets/retarget_6.png)
+
+   1. Dans le menu **[!UICONTROL Condition personnalisée]**, indiquez le nom de l’action de campagne dans le champ **[!UICONTROL Valeur]**.
+
+      Pour trouver les noms des actions, cliquez sur l’icône ![Informations](assets/do-not-localize/info-icon.svg) en regard d’une activité dans la zone de travail.
+
+   ++
+
+1. Vous pouvez également filtrer selon l’**[!UICONTROL identifiant de campagne]** (UUID) qui se trouve dans vos propriétés de campagne.
 
 ## Création d’une règle de reciblage basé sur le tracking
 
-La règle de reciblage basé sur le tracking cible les destinataires en fonction de leurs interactions avec un message, à l&#39;aide des données du jeu de données **Suivi des e-mails**. Il capture les actions des utilisateurs telles que les ouvertures d’e-mail et les clics sur les liens.
+La règle de reciblage basé sur le tracking cible les destinataires en fonction de leurs interactions avec un message, à l&#39;aide des données du jeu de données **[!UICONTROL Suivi des e-mails]**. Il capture les actions des utilisateurs telles que les ouvertures d’e-mail et les clics sur les liens.
 
-Pour recibler les destinataires en fonction des interactions des messages (ouverture ou clic, par exemple), utilisez l&#39;entité **Tracking des emails** comme suit :
+Pour recibler les destinataires en fonction des interactions des messages (ouverture ou clic, par exemple), utilisez l&#39;entité **[!UICONTROL Tracking des emails]** comme suit :
 
-1. Créez une **Campagne orchestrée**, puis ajoutez une activité **Créer une audience** avec **Destinataire (caas)** comme dimension de ciblage pour vous concentrer sur les destinataires précédents de la campagne orchestrée.
+1. Créez une **[!UICONTROL Campagne orchestrée]**.
 
-1. Ajoutez une nouvelle condition pour **Suivi des e-mails**. Cliquez sur **Confirmer** pour créer une condition « Le suivi des e-mails existe, par exemple ».
+1. Ajoutez une activité **[!UICONTROL Créer une audience]** et définissez la dimension de ciblage sur **[!UICONTROL Destinataire (caas)]** pour vous concentrer sur les destinataires précédents de la campagne orchestrée.
 
-1. Dans cette condition, ajoutez une condition et recherchez l’attribut **Type d’interaction**.
+1. Dans le **[!UICONTROL Créateur de règles]**, cliquez sur **[!UICONTROL Ajouter une condition]** et sélectionnez **[!UICONTROL Suivi des e-mails]** dans le **[!UICONTROL Sélecteur d’attributs]**.
 
-1. Dans les options de condition personnalisée, utilisez **Inclus dans** comme opérateur et sélectionnez une ou plusieurs valeurs en fonction de votre cas d’utilisation. Par exemple :
-   - **Message ouvert**
-   - **Lien du message sur lequel l’utilisateur a cliqué**
+   Cliquez sur **[!UICONTROL Confirmer]** pour créer une condition **Le suivi des e-mails existe, telle que**.
 
-1. Pour associer les données de tracking à une campagne spécifique :
+   ![](assets/retarget_2.png)
 
-   - Ajoutez une condition dans le bloc Tracking e-mail .
+1. Pour cibler les interactions des profils avec un message, ajoutez une autre condition liée à l&#39;attribut **[!UICONTROL Tracking des emails]** et recherchez l&#39;attribut **[!UICONTROL Type d&#39;interaction]**.
 
-   - Accédez à `_experience > CustomerJourneyManagement > Entities > AJO Orchestrated Campaign`.
+   ![](assets/retarget_7.png)
 
-   - Ajoutez des conditions pour **Nom de campagne orchestré** et, si nécessaire, **Nom d’action de campagne orchestré**.
+1. Dans les options de condition personnalisée, utilisez **[!UICONTROL Inclus dans]** comme opérateur et sélectionnez une ou plusieurs valeurs en fonction de votre cas d’utilisation, par exemple **[!UICONTROL Message ouvert]** ou **[!UICONTROL Lien du message sur lequel l’utilisateur a cliqué]**.
 
-     Pour trouver les noms des actions, cliquez sur l’icône ![Informations](assets/do-not-localize/info-icon.svg) en regard d’une activité dans la zone de travail.
+   ![](assets/retarget_8.png)
 
-   >[!TIP]
-   >
-   >Au lieu d’utiliser des noms, vous pouvez également filtrer selon l’**Identifiant de campagne** (UUID), qui se trouve dans vos propriétés Campaign.
+1. Pour associer les données de tracking à une campagne spécifique, ajoutez une nouvelle condition **[!UICONTROL Commentaires des messages]** et suivez les étapes détaillées [dans cette section](#feedback-retarget).
