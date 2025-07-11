@@ -7,9 +7,9 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: 611dd06d-aa18-4fa3-a477-8a910cec21d8
-source-git-commit: a8265a2e509df0f18db5d8ca36c4298ba020fa38
+source-git-commit: c39248867a5e9f21ef4c87122585226104f4a587
 workflow-type: tm+mt
-source-wordcount: '454'
+source-wordcount: '453'
 ht-degree: 7%
 
 ---
@@ -38,7 +38,7 @@ Bien que le marketing cross-canal soit essentiel, les campagnes orchestrées le 
 
 L’orchestration des campagnes repose sur quatre piliers principaux :
 
-<table>
+<table style="table-layout:auto">
 <tr style="border: 0;">
 <td><img alt="Audiences à la demande" src="assets/do-not-localize/icon-audience.svg" width="50px"></a></td><td><b>Audiences à la demande</b><br/>Interrogez instantanément les jeux de données pour créer des segments d’audience à l’aide de n’importe quelle combinaison de types et de dimensions de données.</td></tr>
 <tr style="border: 0;">
@@ -69,7 +69,7 @@ Si vous ne parvenez pas à accéder aux fonctionnalités de Campaign orchestrée
 
 Maintenant que vous avez une compréhension de ce que sont les campagnes orchestrées, il est temps d’examiner plus en détail ces sections de documentation pour commencer à utiliser la fonctionnalité.
 
-&lt;table »><tr style="border: 0; text-align: center;">
+<table><tr style="border: 0; text-align: center;">
 <td>
 <a href="gs-campaign-creation.md">
 <img alt="Accéder et gérer des workflows" src="assets/do-not-localize/workflow-access.jpeg">
