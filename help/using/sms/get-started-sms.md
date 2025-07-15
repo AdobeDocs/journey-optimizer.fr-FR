@@ -72,7 +72,7 @@ Adobe Journey Optimizer envoie des messages texte par le biais de fournisseurs
 
   >[!VIDEO](https://video.tv.adobe.com/v/3420509?learn=on)
 
-+++
+  +++
 
 * La vidéo ci-dessous vous aide à mieux comprendre les fonctionnalités mobiles qu’Adobe Journey Optimizer propose aux personnes spécialisées dans le marketing.
 
@@ -81,7 +81,7 @@ Adobe Journey Optimizer envoie des messages texte par le biais de fournisseurs
 
   >[!VIDEO](https://video.tv.adobe.com/v/3426021?quality=12&learn=on)
 
-+++
+  +++
 
 * La vidéo ci-dessous vous aide à configurer et à envoyer des messages RCS interactifs de marque dans Adobe Journey Optimizer à l’aide d’un fournisseur de SMS personnalisé.
 
@@ -90,4 +90,4 @@ Adobe Journey Optimizer envoie des messages texte par le biais de fournisseurs
 
   >[!VIDEO](https://video.tv.adobe.com/v/3464755)
 
-+++
+  +++
