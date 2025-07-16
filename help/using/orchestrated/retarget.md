@@ -6,7 +6,7 @@ description: Découvrez comment démarrer et surveiller des campagnes orchestré
 hide: true
 hidefromtoc: true
 exl-id: 3c1cad30-3ed7-4df1-a46a-60394a834e79
-source-git-commit: b1bee7a5ee05e0e535a982c31bafafdc760d21ae
+source-git-commit: 811a04c1ce74627b48143da4cd78d6cc644f4ba5
 workflow-type: tm+mt
 source-wordcount: '641'
 ht-degree: 1%
@@ -39,6 +39,8 @@ Le reciblage vous permet d’effectuer le suivi auprès des destinataires en fon
 
 * **[!UICONTROL Commentaires sur le message]** : capture les événements liés à la diffusion, par exemple le message envoyé, ouvert, rebond, etc.
 * **[!UICONTROL Suivi des e-mails]** : capture les actions de l’utilisateur, par exemple les clics et les ouvertures.
+
+![](assets/do-not-localize/retarget-schema.png)
 
 ## Création d’une règle de reciblage basée sur les commentaires {#feedback-retarget}
 
@@ -102,7 +104,7 @@ Grâce à ces données, vous pouvez définir des règles pour identifier les des
 
       Pour trouver les noms des actions, cliquez sur l’icône ![Informations](assets/do-not-localize/info-icon.svg) en regard d’une activité dans la zone de travail.
 
-   ++
++++
 
 1. Vous pouvez également filtrer selon l’**[!UICONTROL identifiant de campagne]** (UUID) qui se trouve dans vos propriétés de campagne.
 
