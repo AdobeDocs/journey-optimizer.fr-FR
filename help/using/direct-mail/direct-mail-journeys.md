@@ -1,5 +1,5 @@
 ---
-title: Envoi de messages de publipostage direct avec parcours
+title: Envoyer des messages de publipostage direct avec les parcours
 description: Découvrez comment créer et envoyer des messages de publipostage direct avec parcours.
 feature: Direct Mail
 topic: Content Management
@@ -15,11 +15,11 @@ exl-id: 44886355-ee3a-4323-899a-35d967487924
 source-git-commit: 755ffdb0a9986ce8c2175a9bc61ed4a56714ff7d
 workflow-type: tm+mt
 source-wordcount: '774'
-ht-degree: 30%
+ht-degree: 40%
 
 ---
 
-# Envoi de messages de publipostage direct avec parcours {#direct-mail-journeys}
+# Envoyer des messages de publipostage direct avec les parcours {#direct-mail-journeys}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_direct_mail"
@@ -87,4 +87,4 @@ Pour ajouter une action Courrier dans un parcours, procédez comme suit :
 
    ![](assets/direct-mail-simulate.png){width="800" align="center"}
 
-Lorsque votre fichier d’extraction est prêt, effectuez la configuration de votre parcours [&#128279;](../building-journeys/journey-gs.md) pour l’envoyer.
+Lorsque votre fichier d’extraction est prêt, effectuez la configuration de votre parcours [](../building-journeys/journey-gs.md) pour l’envoyer.
