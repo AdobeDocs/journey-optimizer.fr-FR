@@ -6,9 +6,9 @@ description: Découvrez comment démarrer et surveiller des campagnes orchestré
 hide: true
 hidefromtoc: true
 exl-id: 3c1cad30-3ed7-4df1-a46a-60394a834e79
-source-git-commit: 811a04c1ce74627b48143da4cd78d6cc644f4ba5
+source-git-commit: 175762a1d843f55dd9dcbb1cb0ac107a27a370b0
 workflow-type: tm+mt
-source-wordcount: '641'
+source-wordcount: '743'
 ht-degree: 1%
 
 ---
@@ -33,18 +33,18 @@ Documentation en cours
 
 >[!ENDSHADEBOX]
 
-Le reciblage vous permet d’effectuer le suivi auprès des destinataires en fonction de leur réponse à une campagne orchestrée précédente. Par exemple, vous pouvez envoyer un second e-mail aux profils qui ont reçu le premier, mais n’ont pas cliqué dessus.
+Le reciblage vous permet d’effectuer le suivi auprès des destinataires en fonction de leur réponse à une campagne orchestrée précédente. Par exemple, vous pouvez envoyer un second e-mail aux destinataires qui ont reçu le premier message, mais n’ont pas cliqué dessus.
 
-**[!UICONTROL Campagne orchestrée]** fournit deux sources de données principales à cet effet :
+**[!UICONTROL Campagne orchestrée]** fournit deux attributs principaux à cet effet :
 
 * **[!UICONTROL Commentaires sur le message]** : capture les événements liés à la diffusion, par exemple le message envoyé, ouvert, rebond, etc.
 * **[!UICONTROL Suivi des e-mails]** : capture les actions de l’utilisateur, par exemple les clics et les ouvertures.
 
 ![](assets/do-not-localize/retarget-schema.png)
 
-## Création d’une règle de reciblage basée sur les commentaires {#feedback-retarget}
+## Création d’une règle de reciblage basée sur les retours d’informations {#feedback-retarget}
 
-La règle de reciblage basé sur les retours permet de recibler les destinataires en fonction des événements de diffusion de message capturés dans le jeu de données **Commentaires de message**. Ces événements incluent les résultats tels que les messages envoyés, ouverts, rejetés ou marqués comme spam.
+La règle de reciblage basée sur les retours permet de recibler les destinataires en fonction des événements de diffusion de message capturés dans l’attribut **[!UICONTROL Commentaires de message]**. Ces événements incluent les résultats tels que les messages envoyés, ouverts, rejetés ou marqués comme spam.
 
 Grâce à ces données, vous pouvez définir des règles pour identifier les destinataires ayant reçu un message précédent, ce qui permet d’établir une communication de suivi en fonction de statuts de diffusion spécifiques.
 
@@ -72,7 +72,7 @@ Grâce à ces données, vous pouvez définir des règles pour identifier les des
 
 +++
 
-1. Choisissez l’attribut **[!UICONTROL Nom de campagne orchestrée]** pour cibler une campagne orchestrée spécifique.
+1. Choisissez l’attribut **[!UICONTROL Nom de la campagne orchestrée]** pour cibler une campagne orchestrée spécifique.
 
 +++ Détaillé pas à pas
 
@@ -88,7 +88,7 @@ Grâce à ces données, vous pouvez définir des règles pour identifier les des
 
 +++
 
-1. Choisissez l’attribut **[!UICONTROL Nom de l’action de campagne orchestrée]** pour cibler un message ou une activité spécifique dans une campagne orchestrée.
+1. Sélectionnez l’attribut **[!UICONTROL Nom de l’action de campagne orchestrée]** pour cibler un message ou une activité spécifique dans une campagne orchestrée.
 
 +++ Détaillé pas à pas
 
@@ -102,15 +102,20 @@ Grâce à ces données, vous pouvez définir des règles pour identifier les des
 
    1. Dans le menu **[!UICONTROL Condition personnalisée]**, indiquez le nom de l’action de campagne dans le champ **[!UICONTROL Valeur]**.
 
-      Pour trouver les noms des actions, cliquez sur l’icône ![Informations](assets/do-not-localize/info-icon.svg) en regard d’une activité dans la zone de travail.
+      Pour trouver les noms des actions, cliquez sur l’icône ![Informations](assets/do-not-localize/info-icon.svg) en regard du champ Libellé de votre activité.
 
 +++
 
-1. Vous pouvez également filtrer selon l’**[!UICONTROL identifiant de campagne]** (UUID) qui se trouve dans vos propriétés de campagne.
+1. Vous pouvez également filtrer selon l’**[!UICONTROL identifiant de campagne]** (UUID) qui se trouve dans vos propriétés Campaign.
 
-## Création d’une règle de reciblage basé sur le tracking
+Vous avez maintenant configuré une règle de reciblage basée sur les commentaires pour identifier les destinataires en fonction du statut de diffusion d&#39;un message précédent, tel que envoyé, ouvert, retourné ou marqué comme spam. Une fois cette audience définie, vous pouvez ajouter un e-mail de relance ou affiner davantage votre ciblage en [configurant une règle de reciblage basé sur le tracking](#tracking-based), qui utilise les données d’interaction utilisateur.
 
-La règle de reciblage basé sur le tracking cible les destinataires en fonction de leurs interactions avec un message, à l&#39;aide des données du jeu de données **[!UICONTROL Suivi des e-mails]**. Il capture les actions des utilisateurs telles que les ouvertures d’e-mail et les clics sur les liens.
+![](assets/retarget_9.png)
+
+
+## Création d’une règle de reciblage basé sur le tracking {#tracking-based}
+
+La règle de reciblage basé sur le tracking cible les destinataires en fonction de leurs interactions avec un message, à l&#39;aide des données de l&#39;attribut **[!UICONTROL Suivi des emails]**. Il capture les actions des utilisateurs telles que les ouvertures d’e-mail et les clics sur les liens.
 
 Pour recibler les destinataires en fonction des interactions des messages (ouverture ou clic, par exemple), utilisez l&#39;entité **[!UICONTROL Tracking des emails]** comme suit :
 
@@ -124,7 +129,7 @@ Pour recibler les destinataires en fonction des interactions des messages (ouver
 
    ![](assets/retarget_2.png)
 
-1. Pour cibler les interactions des profils avec un message, ajoutez une autre condition liée à l&#39;attribut **[!UICONTROL Tracking des emails]** et recherchez l&#39;attribut **[!UICONTROL Type d&#39;interaction]**.
+1. Pour cibler les interactions des destinataires avec un message, ajoutez une autre condition liée à l&#39;attribut **[!UICONTROL Tracking des emails]** et recherchez l&#39;attribut **[!UICONTROL Type d&#39;interaction]**.
 
    ![](assets/retarget_7.png)
 
@@ -132,4 +137,7 @@ Pour recibler les destinataires en fonction des interactions des messages (ouver
 
    ![](assets/retarget_8.png)
 
-1. Pour associer les données de tracking à une campagne spécifique, ajoutez une nouvelle condition **[!UICONTROL Commentaires des messages]** et suivez les étapes détaillées [dans cette section](#feedback-retarget).
+Vous avez maintenant configuré une règle de reciblage basée sur le tracking pour cibler les destinataires en fonction de leurs interactions avec un message précédent, telles que les ouvertures d’e-mail ou les clics sur des liens, à l’aide des données de l’attribut **[!UICONTROL Suivi des e-mails]**. Une fois cette audience définie, vous pouvez ajouter une action de suivi ou affiner davantage votre ciblage en la combinant avec une [règle de reciblage basé sur les commentaires](#feedback-retarget) pour inclure les résultats des messages tels que l’envoi, le rebond ou le marquage comme spam.
+
+
+![](assets/retarget_10.png)
