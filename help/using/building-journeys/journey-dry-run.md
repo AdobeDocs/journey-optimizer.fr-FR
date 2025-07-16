@@ -12,7 +12,7 @@ exl-id: 58bcc8b8-5828-4ceb-9d34-8add9802b19d
 source-git-commit: 62525caa9b065538c090b98d38c15dbd960dafe7
 workflow-type: tm+mt
 source-wordcount: '864'
-ht-degree: 84%
+ht-degree: 97%
 
 ---
 
@@ -34,7 +34,7 @@ Le test à blanc de parcours est un mode de publication de parcours spécial dan
 
 >[!AVAILABILITY]
 >
->Cette fonctionnalité n’est disponible que pour un certain nombre d’organisations (disponibilité limitée) et sera proposée à tous les utilisateurs et toutes les utilisatrices dans une prochaine version.
+>Cette fonctionnalité n’est disponible que pour un certain nombre d’organisations (disponibilité limitée) et sera proposée à l’ensemble des utilisateurs et utilisatrices dans une prochaine version.
 
 
 ## Avantages clés {#journey-dry-run-benefits}
@@ -53,11 +53,11 @@ Le test à blanc de parcours apporte :
 
 Lors du test à blanc, le parcours est exécuté avec les spécificités suivantes :
 
-* Les nœuds **Action de canal** notamment les e-mails, SMS ou notifications push ne sont pas exécutés
-* Les **actions personnalisées** sont désactivées pendant l’exécution d’essai et leurs réponses sont définies sur null.
+* Les nœuds **Action de canal**, y compris les e-mails, SMS ou notifications push ne sont pas exécutés.
+* Les **actions personnalisées** sont désactivées pendant le test à blanc et leurs réponses sont définies sur null.
 * Les **nœuds d’attente** sont ignorés lors du test à blanc.
   <!--You can override the wait block timeouts, then if you have wait blocks duration longer than allowed dry run journey duration, then that branch will not execute completely.-->
-* **Les sources de données** y compris les sources de données externes, sont exécutées par défaut
+* Les **sources de données**, y compris les sources de données externes, sont exécutées par défaut.
 
 >[!CAUTION]
 >
@@ -73,7 +73,7 @@ Vous pouvez utiliser la fonctionnalité Test à blanc dans n’importe quel brou
 Pour activer le test à blanc, procédez comme suit :
 
 1. Ouvrez le parcours que vous souhaitez tester.
-1. Sélectionnez le bouton **Exécution d’essai**.
+1. Cliquez sur le bouton **Test à blanc**.
 
    ![Démarrer le test à blanc du parcours](assets/dry-run-button.png)
 
@@ -111,13 +111,13 @@ Cliquez sur le bouton **Fermer** pour terminer le test, puis sur **Retour au bro
 
 ## Mécanismes de sécurisation et limitations {#journey-dry-run-limitations}
 
-* Le mode Exécution d’essai n’est pas disponible pour les parcours contenant des événements de réaction
-* Les profils en mode Exécution d’essai sont comptabilisés dans les profils engageables
-* Les parcours en mode Exécution d’essai sont comptabilisés dans le quota de parcours en direct
-* Les parcours d’essai n’ont aucune incidence sur les règles métier.
+* Le mode Test à blanc n’est pas disponible pour les parcours contenant des événements de réaction.
+* Les profils en mode Test à blanc sont comptabilisés dans les profils engageables.
+* Les parcours en mode Test à blanc sont comptabilisés dans le quota des parcours actifs.
+* Les parcours en mode Test à blanc n’ont aucune incidence sur les règles métier.
 * Lors de la création d’une version de parcours, si une version de parcours précédente est **active**, l’activation du test à blanc n’est pas autorisée sur la nouvelle version.
 * Un test à blanc de parcours génère des événements stepEvents. Ces événements stepEvents disposent d’un indicateur et d’un identifiant de test à blanc spécifiques :
    * `_experience.journeyOrchestration.stepEvents.inDryRun` renvoie `true` si le test à blanc est activé et `false` dans le cas contraire.
    * `_experience.journeyOrchestration.stepEvents.dryRunID` renvoie l’identifiant d’une instance de test à blanc.
 
-* Lors de l’analyse des mesures de rapports de parcours à l’aide de Adobe Experience Platform Query Service, les événements d’étape générés par l’exécution d’essai doivent être exclus. Pour ce faire, définissez l’indicateur de `inDryRun` sur `false`.
+* Lors de l’analyse des mesures de rapports de parcours à l’aide d’Adobe Experience Platform Query Service, les événements d’étape générés par le test à blanc doivent être exclus. Pour ce faire, définissez l’indicateur `inDryRun` sur `false`.

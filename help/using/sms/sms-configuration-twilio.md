@@ -9,16 +9,16 @@ level: Intermediate
 exl-id: d6f74566-c913-4727-83b9-473a798a0158
 source-git-commit: 604af3a0ac9febb62f2e2b1705e2751b2c476e04
 workflow-type: tm+mt
-source-wordcount: '422'
-ht-degree: 49%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 # Configurer le fournisseur Twilio {#sms-configuration-twilio}
 
-## Configurer les informations d’identification d’API pour SMS/MMS
+## Configurer les informations d’identification d’API pour les SMS/MMS
 
-Pour configurer Twilio avec Journey Optimizer, vous devez créer des informations d’identification de l’API utilisées pour Twilio :
+Pour configurer Twilio avec Journey Optimizer, vous devez créer des informations d’identification d’API utilisées pour Twilio :
 
 1. Dans le rail de gauche, accédez à **[!UICONTROL Administration]** > **[!UICONTROL Canaux]** `>`**[!UICONTROL Paramètres des SMS]** et sélectionnez le menu **[!UICONTROL Informations d’identification de l’API]**. Cliquez sur le bouton **[!UICONTROL Créer des informations d’identification de l’API]**.
 
@@ -30,9 +30,9 @@ Pour configurer Twilio avec Journey Optimizer, vous devez créer des informatio
 
    * **[!UICONTROL SID du compte]** et **[!UICONTROL Jeton d’authentification]** : accédez au volet **Informations du compte** de la page Tableau de bord de la console Twilio pour trouver vos informations d’identification.
 
-   * **[!UICONTROL SID du message]** : saisissez l’identifiant unique attribué à chaque message créé par l’API de Twilio. En savoir plus dans la [Documentation Twilio](https://support.twilio.com/hc/en-us/articles/223134387-What-is-a-Message-SID-){target="_blank"}.
+   * **[!UICONTROL SID du message]** : saisissez l’identifiant unique attribué à chaque message créé par l’API de Twilio. En savoir plus dans la [Documentation de Twilio](https://support.twilio.com/hc/en-us/articles/223134387-What-is-a-Message-SID-){target="_blank"}.
 
-   * **[!UICONTROL Numéro entrant]** : ajoutez votre numéro entrant unique. Cela vous permet d’utiliser les mêmes informations d’identification d’API dans différents sandbox, chacun ayant son propre numéro entrant.
+   * **[!UICONTROL Numéro entrant]** : ajoutez votre numéro entrant unique. Cela permet d’utiliser les mêmes informations d’identification d’API dans différents sandbox, chacun possédant son propre numéro entrant.
 
 1. Cliquez sur **[!UICONTROL Envoyer]** lorsque vous avez terminé la configuration de vos informations d’identification d’API.
 
@@ -42,9 +42,9 @@ Pour configurer Twilio avec Journey Optimizer, vous devez créer des informatio
 
 Après avoir créé et configuré vos informations d’identification de l’API, vous devez maintenant créer une configuration de canal pour les messages SMS et MMS. [En savoir plus](sms-configuration-surface.md)
 
-## Configuration des informations d’identification d’API pour RCS
+## Configurer des informations d’identification d’API pour RCS
 
-La messagerie RCS est prise en charge dans Adobe Journey Optimizer via Twilio à l’aide de la fonctionnalité [Fournisseur de SMS personnalisé](sms-configuration-custom.md). Cela permet de diffuser des messages riches et interactifs par le biais de profils professionnels vérifiés, en incorporant des éléments tels que des carrousels, des boutons et du contenu multimédia.
+Les messages RCS sont pris en charge dans Adobe Journey Optimizer via Twilio à l’aide de la fonctionnalité [Fournisseur de SMS personnalisé](sms-configuration-custom.md). Cela permet de diffuser des messages riches et interactifs par le biais de profils professionnels vérifiés, en incorporant des éléments tels que des carrousels, des boutons et du contenu multimédia.
 
 ➡️ [Découvrez comment Twilio prend en charge RCS dans la documentation Twilio](https://www.twilio.com/docs/rcs)
 
@@ -52,19 +52,19 @@ Pour activer la messagerie RCS avec Twilio, les nouvelles informations d’ident
 
 Pour configurer RCS avec Twilio :
 
-1. **S&#39;inscrire aux messages RCS dans Twilio**
+1. **S’inscrire à la messagerie RCS dans Twilio**
 
-   Commencez par terminer le processus d’enregistrement RCS sur la plateforme Twilio. Cela inclut la configuration de votre profil d’entreprise et l’activation des fonctionnalités RCS pour votre compte.
+   Commencez par terminer le processus d’enregistrement RCS sur la plateforme Twilio. Cela comprend la configuration de votre profil d’entreprise et l’activation des fonctionnalités RCS pour votre compte.
 
-1. **Créer un Webhook SMS**
+1. **Créer un webhook SMS**
 
-   [Configurez un Webhook SMS](sms-configuration-custom.md#webhook) qui peut recevoir les réponses aux messages RCS entrants ou les mises à jour de diffusion. Ce webhook doit être correctement lié à votre configuration Twilio pour une communication bidirectionnelle.
+   [Configurez un webhook SMS](sms-configuration-custom.md#webhook) qui peut recevoir les réponses aux messages RCS entrants ou les mises à jour des diffusions. Ce webhook doit être correctement lié à votre configuration Twilio pour disposer d’une communication bidirectionnelle.
 
-1. **Créer des informations d’identification d’API à l’aide de Personnalisé en tant que fournisseur SMS**
+1. **Créer des informations d’identification d’API en définissant le fournisseur de SMS sur Personnalisé**
 
-   Dans Journey Optimizer, [définissez de nouvelles informations d’identification d’API](sms-configuration-custom.md#api-credential) spécifiquement pour RCS en utilisant « Personnalisé » comme fournisseur de SMS. Utilisez la méthode d’authentification de point d’entrée RCS appropriée, l’URL de base et les en-têtes.
+   Dans Journey Optimizer, [définissez de nouvelles informations d’identification d’API](sms-configuration-custom.md#api-credential) spécifiquement pour RCS en utilisant « Personnalisé » comme fournisseur de SMS. Utilisez la méthode d’authentification de point d’entrée RCS, l’URL de base et les en-têtes appropriés.
 
-Après avoir créé et configuré vos informations d’identification API, vous devez maintenant créer une configuration de canal pour vos messages RCS. [En savoir plus](sms-configuration-surface.md)
+Après avoir créé et configuré vos informations d’identification d’API, vous devez maintenant créer une configuration de canal pour les messages RCS. [En savoir plus](sms-configuration-surface.md)
 
 
 

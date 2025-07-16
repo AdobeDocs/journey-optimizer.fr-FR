@@ -12,7 +12,7 @@ exl-id: 4df2fc7c-85cb-410a-a31f-1bc1ece237bb
 source-git-commit: f5baa901c4f9d1061837528007b2c3f048ecbf2a
 workflow-type: tm+mt
 source-wordcount: '1704'
-ht-degree: 98%
+ht-degree: 99%
 
 ---
 
@@ -107,7 +107,7 @@ Lors de la configuration d’une action personnalisée, vous devez définir les 
 
    >[!NOTE]
    >
-   >Pour des raisons de sécurité, nous vous recommandons vivement d’utiliser le schéma HTTPS pour l’URL. L’utilisation d’adresses Adobe non publiques et d’adresses IP est interdite.
+   >Pour des raisons de sécurité, nous vous recommandons vivement d’utiliser le schéma HTTPS pour l’URL. L’utilisation des adresses Adobe qui ne sont pas publiques et des adresses IP n’est pas autorisée.
    >
    >Seuls les ports par défaut sont autorisés lors de la définition d’une action personnalisée : 80 pour http et 443 pour https.
 
@@ -137,7 +137,7 @@ Lors de la configuration d’une action personnalisée, vous devez définir les 
    >
    >Après avoir ajouté l’action personnalisée à un parcours, vous pouvez toujours y ajouter des champs d’en-tête si le parcours a le statut de brouillon. Si vous ne souhaitez pas que le parcours soit affecté par les modifications de configuration, dupliquez l’action personnalisée et ajoutez les champs d’en-tête à la nouvelle action personnalisée.
    >
-   >Les en-têtes sont validés conformément à des règles d’analyse. Apprenez-en davantage en consultant [cette documentation](https://tools.ietf.org/html/rfc7230#section-3.2.4){_blank}.
+   >Les en-têtes sont validés conformément à des règles d’analyse. Pour plus d’informations, consultez [cette documentation](https://tools.ietf.org/html/rfc7230#section-3.2.4){_blank}.
 
 ## Couche de sécurité du transport {#tls}
 
