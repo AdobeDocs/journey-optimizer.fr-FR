@@ -1,5 +1,5 @@
 ---
-title: Création de règles de décision
+title: Créer des règles de décision
 description: Découvrez comment créer des règles de décision pour définir pour qui les offres peuvent être affichées.
 badge: label="Hérité" type="Informative"
 feature: Decision Management
@@ -8,9 +8,9 @@ role: User
 level: Intermediate
 exl-id: 401ce05b-412b-4fa0-a516-bf75727f6387
 source-git-commit: 87f3da0a1d73f9aa26c7420d260778286bacdf0c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '408'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -74,4 +74,4 @@ Pour créer cette règle de décision, procédez comme suit :
 
 ## Tutoriel vidéo {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/341367?quality=12&captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/329373?quality=12)

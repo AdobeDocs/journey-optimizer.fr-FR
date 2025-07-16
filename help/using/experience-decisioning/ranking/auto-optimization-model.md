@@ -6,10 +6,11 @@ description: En savoir plus sur les modèles d’optimisation automatique.
 feature: Ranking, Decision Management
 role: User
 level: Experienced
-source-git-commit: 58f4fdf8ec3cdb609efebf5b8713f6b770ef5414
-workflow-type: tm+mt
+exl-id: 8a8b66cb-dd96-4373-bbe0-a67e0dc0b2c0
+source-git-commit: 18a1020971dc6a1101e4e35c1523d004f3fd4188
+workflow-type: ht
 source-wordcount: '1348'
-ht-degree: 84%
+ht-degree: 100%
 
 ---
 
@@ -28,17 +29,17 @@ L’utilisation des modèles d’optimisation automatique pour la gestion des d�
 
 Les termes suivants sont utiles pour aborder l’optimisation automatique :
 
-* **Bandit manchot** : une approche [bandit manchot](https://fr.wikipedia.org/wiki/Bandit_manchot_(mathématiques)){target="_blank"} de l’optimisation équilibre l’apprentissage exploratoire et l’exploitation de cet apprentissage.
+* **Bandit manchot** : une approche de type [bandit manchot](https://fr.wikipedia.org/wiki/Bandit_manchot_(mathématiques)){target="_blank"} en matière d’optimisation permet d’équilibrer l’apprentissage exploratoire et l’exploitation de cet apprentissage.
 
 * **Échantillonnage de Thomson** : l’échantillonnage de Thompson est un algorithme relatif aux problèmes de décision en ligne où les actions sont entreprises de manière séquentielle, de façon à trouver l’équilibre entre l’exploitation de ce qui est connu pour maximiser les performances immédiates et l’investissement pour accumuler de nouvelles informations susceptibles d’améliorer les performances futures. [En savoir plus](#thompson-sampling)
 
-* [**loi Beta**](https://fr.wikipedia.org/wiki/Loi_bêta){target="_blank"} : ensemble de lois de probabilité [ continues](https://fr.wikipedia.org/wiki/Loi_de_probabilité){target="_blank"} définies sur l&#39;intervalle [0, 1] [paramétré](https://en.wikipedia.org/wiki/Statistical_parameter){target="_blank"} par deux [paramètres de forme](https://fr.wikipedia.org/wiki/Paramètre_de_forme){target="_blank"} positifs.
+* [**Loi Bêta**](https://fr.wikipedia.org/wiki/Loi_bêta){target="_blank"} : ensemble de [lois de probabilité continues](https://fr.wikipedia.org/wiki/Loi_de_probabilité){target="_blank"} définies sur l&#39;intervalle [0, 1] [paramétré](https://en.wikipedia.org/wiki/Statistical_parameter){target="_blank"} par deux [paramètres de forme](https://fr.wikipedia.org/wiki/Paramètre_de_forme){target="_blank"} positifs.
 
 ## Échantillonnage de Thompson {#thompson-sampling}
 
 L’algorithme qui sous-tend l’optimisation automatique est l’**échantillonnage de Thompson**. Dans cette section, nous abordons l’intuition sous-jacente à l’échantillonnage de Thompson.
 
-L’[échantillonnage de Thompson](https://fr.wikipedia.org/wiki/Échantillonnage_de_Thompson){target="_blank"} ou bandits bayésiens, est une approche bayésienne du problème du bandit manchot.  L’idée de base est de traiter la récompense moyenne 𝛍 de chaque offre comme une **variable aléatoire** et d’utiliser les données collectées jusqu’à présent pour mettre à jour notre « croyance » sur la récompense moyenne. Cette « croyance » est représentée mathématiquement par une **loi de probabilité a posteriori**, qui est essentiellement une plage de valeurs pour la récompense moyenne, ainsi que la plausibilité (ou probabilité) que la récompense ait cette valeur pour chaque offre.Ensuite, pour chaque décision, nous réalisons un **échantillonnage d’un point de chacune de ces lois a posteriori de récompense** et sélectionnons l’offre dont la récompense échantillonnée a la valeur la plus élevée.
+[L’échantillonnage de Thompson](https://fr.wikipedia.org/wiki/Échantillonnage_de_Thompson){target="_blank"}, ou bandits bayésiens, est une approche bayésienne du problème du bandit manchot.  L’idée de base est de traiter la récompense moyenne 𝛍 de chaque offre comme une **variable aléatoire** et d’utiliser les données collectées jusqu’à présent pour mettre à jour notre « croyance » de la récompense moyenne. Cette « croyance » est représentée mathématiquement par une **loi de probabilité a posteriori**, qui est essentiellement une plage de valeurs pour la récompense moyenne, ainsi que la plausibilité (ou probabilité) que la récompense ait cette valeur pour chaque offre.Ensuite, pour chaque décision, nous réalisons un **échantillonnage d’un point de chacune de ces lois a posteriori de récompense** et sélectionnons l’offre dont la récompense échantillonnée a la valeur la plus élevée.
 
 Ce processus est illustré dans la figure ci-dessous, qui présente 3 offres différentes. Au départ, nous n’avons aucune preuve des données et nous supposons que toutes les offres ont une loi a posteriori uniforme de récompense. Nous tirons un échantillon de la loi a posteriori de récompense de chaque offre. L’échantillon sélectionné dans la loi de l’offre 2 a la valeur la plus élevée. Voici un exemple d’**exploration**. Après avoir affiché l’offre 2, nous collectons toute récompense potentielle (par exemple, conversion/pas de conversion) et mettons à jour la loi a posteriori de l’offre 2 à l’aide du théorème de Bayes, comme expliqué ci-dessous.  Nous poursuivons ce processus et mettons à jour les lois a posteriori chaque fois qu’une offre est affichée et que la récompense est collectée. Dans la seconde figure, l’offre 3 est sélectionnée. Bien que l’offre 1 ait obtenu la récompense moyenne la plus élevée (sa loi a posteriori de récompense est la plus éloignée à droite), le processus d’échantillonnage de chaque loi nous a amenés à choisir une offre 3 apparemment sous-optimale. Ce faisant, nous nous donnons la possibilité d’en savoir plus sur la loi de récompense véritable de l’offre 3.
 
@@ -48,11 +49,11 @@ Finalement, si une offre (par exemple l’offre 1) est un gagnant définitif, s
 
 ![](../assets/ai-ranking-thompson-sampling.png)
 
-**Figure 1** : *pour chaque décision, nous échantillonnons un point des lois a posteriori de récompense. L’offre avec la valeur d’échantillon la plus élevée (taux de conversion) est choisie. Dans la phase initiale, toutes les offres ont une loi uniforme, car nous n’avons aucune preuve des taux de conversion des offres à partir des données. En collectant plus d’échantillons, les lois a posteriori deviennent plus étroites et plus précises. En fin de compte, l’offre présentant le taux de conversion le plus élevé est choisie à chaque fois.*
+**Figure 1** : *pour chaque décision, nous échantillonnons un point des lois a posteriori de récompense. L’offre avec la valeur d’échantillon la plus élevée (taux de conversion) est choisie. Dans la phase initiale, toutes les offres ont une loi uniforme puisque nous n’avons aucune preuve concernant les taux de conversion des offres à partir des données. En collectant plus d’échantillons, les lois a posteriori deviennent plus étroites et plus précises. En fin de compte, l’offre présentant le taux de conversion le plus élevé est choisie à chaque fois.*
 
 +++**Détails techniques**
 
-Pour calculer/mettre à jour des lois, nous utilisons le **théorème de Bayes**. Pour chaque offre ***i***, nous voulons calculer leur ***P(𝛍i | données)*** c’est-à-dire pour chaque offre ***i***, la probabilité d’une valeur de récompense **𝛍i**, compte tenu des données que nous avons collectées jusqu’à présent pour cette offre.
+Pour calculer/mettre à jour des lois, nous utilisons le **théorème de Bayes**. Pour chaque offre ***i***, nous voulons calculer sa ***P(𝛍i | données)***, c’est-à-dire la probabilité d’une valeur de récompense **𝛍i** pour chaque offre ***i***, compte tenu des données que nous avons collectées jusqu’à présent pour cette offre.
 
 D’après le théorème de Bayes :
 
@@ -64,7 +65,7 @@ L’optimisation automatique est conçue pour prendre en compte les récompenses
 
 ![](../assets/ai-ranking-beta-distribution.png)
 
-Comme nous l’avons expliqué ci-dessus, la fonction de Vraisemblance est modélisée par une loi binomiale, avec s succès (conversions) et f échecs (aucune conversion), et q est une [variable aléatoire](https://fr.wikipedia.org/wiki/Variable_aléatoire){target="_blank"} avec une loi [bêta](https://fr.wikipedia.org/wiki/Loi_bêta){target="_blank"}.
+Comme nous l’avons expliqué ci-dessus, la fonction de Vraisemblance est modélisée par une loi binomiale, avec s succès (conversions) et f échecs (aucune conversion), et q est une [variable aléatoire](https://fr.wikipedia.org/wiki/Variable_aléatoire){target="_blank"} avec une [loi bêta](https://fr.wikipedia.org/wiki/Loi_bêta){target="_blank"}.
 
 La loi a priori est modélisée par la loi Beta et la loi a posteriori se présente comme suit :
 
@@ -84,7 +85,7 @@ Pour une étude plus approfondie de l’échantillonnage de Thompson, lisez les 
 
 ## Problème du démarrage à froid {#cold-start}
 
-Le problème du « démarrage à froid » se produit lorsqu’une nouvelle offre est ajoutée à une campagne et qu’aucune donnée n’est disponible concernant le taux de conversion de cette nouvelle offre. Au cours de cette période, nous devons définir une stratégie concernant la fréquence de sélection de cette nouvelle offre afin de minimiser la baisse de performance, tandis que nous collectons des informations sur le taux de conversion de cette nouvelle offre. Plusieurs solutions existent pour résoudre ce problème. La clé est de trouver un équilibre entre l’exploration de cette nouvelle offre et le fait de ne pas trop sacrifier l’exploitation. Actuellement, nous utilisons la « loi uniforme » comme estimation initiale du taux de conversion de la nouvelle offre (loi a priori). En gros, nous donnons à toutes les valeurs de taux de conversion une probabilité d’occurrence égale.
+Le problème du « démarrage à froid » se produit lorsqu’une nouvelle offre est ajoutée à une campagne et qu’aucune donnée n’est disponible concernant le taux de conversion de cette nouvelle offre. Au cours de cette période, nous devons définir une stratégie concernant la fréquence de sélection de cette nouvelle offre afin de minimiser la baisse de performance, tandis que nous collectons des informations sur le taux de conversion de cette nouvelle offre. Plusieurs solutions existent pour résoudre ce problème. La clé est de trouver un équilibre entre l’exploration de cette nouvelle offre et d’éviter de trop sacrifier l’exploitation. Actuellement, nous utilisons la « loi uniforme » comme estimation initiale du taux de conversion de la nouvelle offre (loi a priori). En gros, nous donnons à toutes les valeurs de taux de conversion une probabilité d’occurrence égale.
 
 ![](../assets/ai-ranking-cold-start-strategies.png)
 

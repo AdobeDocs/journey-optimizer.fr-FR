@@ -8,9 +8,9 @@ role: Admin
 level: Intermediate
 exl-id: 4dcd22ed-bf7e-4789-ab7b-33544c857db8
 source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '371'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
@@ -37,7 +37,7 @@ ht-degree: 89%
 >title="Sélectionnez la configuration du fournisseur de SMS."
 >abstract="Sélectionnez les informations d’identification d’API configurées pour votre fournisseur SMS."
 
-Avant d’envoyer des SMS, des MMS ou des RCS, vous devez configurer votre environnement Adobe Journey Optimizer. Pour ce faire, procédez comme suit :
+Avant d’envoyer des messages SMS, MMS ou RCS, vous devez configurer votre environnement Adobe Journey Optimizer. Pour ce faire, procédez comme suit :
 
 1. Intégrez les paramètres du fournisseur à Journey Optimizer.
 Les étapes dépendent de votre fournisseur SMS. Consultez les liens ci-dessous pour accéder à la documentation détaillée :
@@ -49,9 +49,9 @@ Les étapes dépendent de votre fournisseur SMS. Consultez les liens ci-dessous 
 
 Ces étapes doivent être exécutées par un [Administrateur ou une Administratrice système](../start/path/administrator.md) Adobe Journey Optimizer.
 
-## Prérequis{#sms-prerequisites}
+## Conditions préalables{#sms-prerequisites}
 
-Adobe Journey Optimizer s’intègre actuellement à des fournisseurs tiers qui proposent des services de messages texte indépendants d’Adobe Journey Optimizer. Les fournisseurs pris en charge pour la messagerie texte et MMS sont : **Sinch**, **Twilio** et **Infobip**. Notez que vous pouvez configurer des fournisseurs de messagerie supplémentaires à l’aide de la [configuration de fournisseur personnalisé](sms-configuration-custom.md).
+Adobe Journey Optimizer s’intègre actuellement à des fournisseurs tiers qui proposent des services de messages texte indépendants d’Adobe Journey Optimizer. Les fournisseurs pris en charge pour les SMS et les MMS sont les suivants : **Sinch**, **Twilio** et **Infobip**. Notez que vous pouvez configurer des fournisseurs de messagerie supplémentaires à l’aide de la [configuration de fournisseur personnalisé](sms-configuration-custom.md).
 
 Avant la configuration du canal SMS, vous devez créer un compte auprès de l’un de ces fournisseurs afin de recevoir le **jeton API** et l’**ID de service** qui vous permettront d’établir la connexion entre Adobe Journey Optimizer et le fournisseur approprié.
 

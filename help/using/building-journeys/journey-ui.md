@@ -10,9 +10,9 @@ level: Intermediate
 keywords: parcours, premier, commencer, démarrage rapide, audience, événement, action
 exl-id: 770bdbf2-560d-4127-bdb9-1f82495a566f
 source-git-commit: fa46397b87ae3a81cd016d95afd3e09bb002cfaa
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1175'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
@@ -31,12 +31,12 @@ Dans la section du menu GESTION DES PARCOURS, cliquez sur **[!UICONTROL Parcours
 
 L’onglet **[!UICONTROL Vue d’ensemble]** affiche un tableau de bord avec les mesures clés liées à vos parcours.
 
-Tableau de bord de Parcours ![mettant en surbrillance l’onglet Aperçu](assets/journeys-dashboard.png)
+![Tableau de bord de parcours avec l’onglet Vue d’ensemble en surbrillance](assets/journeys-dashboard.png)
 
 * **Profils traités** : nombre total de profils traités au cours des dernières 24 heures
 * **Parcours dynamiques** : nombre total de parcours dynamiques avec trafic au cours des dernières 24 heures. Les parcours dynamiques incluent les **parcours unitaires** (basés sur un événement) et les **parcours par lots** (lecture d’audience).
 * **Taux d’erreur** : ratio de tous les profils en erreur par rapport au nombre total de profils entrés au cours des dernières 24 heures.
-* **Taux de rejet** : ratio de tous les profils rejetés par rapport au nombre total de profils entrés au cours des dernières 24 heures. Un profil ignoré représente une personne qui ne répond pas aux conditions d’entrée du parcours, par exemple en raison d’un espace de noms incorrect ou de règles de reprise.
+* **Taux de rejet** : ratio de tous les profils rejetés par rapport au nombre total de profils entrés au cours des dernières 24 heures. Un profil rejeté représente une personne qui ne répond pas aux conditions d’entrée du parcours, par exemple en raison d’un espace de noms incorrect ou des règles d’entrée.
 
 >[!NOTE]
 >
@@ -80,7 +80,7 @@ Dans la liste des parcours, toutes les versions de parcours sont accompagnées d
 
 ## Filtrer vos parcours {#journey-filter}
 
-Dans la liste des parcours, utilisez différents filtres pour affiner la liste des parcours.
+Dans la liste des parcours, utilisez différents filtres pour affiner la liste.
 
 ![Écran affichant un exemple de filtrage de parcours avec deux types de parcours sélectionnés](assets/filter-journeys.png)
 
@@ -88,7 +88,7 @@ Filtrez les parcours en fonction de leur [statut](#journey-statuses), [type](#jo
 
 Utilisez les **[!UICONTROL filtres de création]** pour filtrer les parcours en fonction de leur date de création ou de la personne qui les a créés.
 
-Affichez les parcours qui utilisent un événement, un groupe de champs ou une action spécifique à partir des **[!UICONTROL filtres d’activité]** et **[!UICONTROL filtres de données]**.
+Affichez les parcours qui utilisent un événement, un groupe de champs ou une action spécifique à l’aide des **[!UICONTROL filtres d’activité]** et des **[!UICONTROL filtres de données]**.
 
 Utilisez les **[!UICONTROL filtres de publication]** pour sélectionner une date de publication ou une personne. Vous pouvez choisir, par exemple, d’afficher les dernières versions des parcours actifs publiées la veille.
 
@@ -102,7 +102,7 @@ Dans les volets de configuration des événements, des sources de données et de
 
 Le type de parcours dépend des activités utilisées dans ce parcours. Il peut s’agir des éléments suivants :
 
-* **[!UICONTROL Événements unitaires]** : les événements unitaires des parcours sont liés à un profil spécifique. Les événements sont liés au comportement d’une personne ou à un événement lié à une personne (par exemple, une personne a atteint 10 000 points de fidélité). [En savoir plus](../event/about-events.md).
+* **[!UICONTROL Événements unitaires]** : les événements unitaires des parcours sont liés à un profil spécifique. Les événements sont liés au comportement d’une personne ou d’une chose qui se produit et qui est liée à une personne (par exemple, une personne qui atteint 10 000 points de fidélité). [En savoir plus](../event/about-events.md).
 * **[!UICONTROL Événement métier]**. Le parcours d’événements métier commence par un événement non lié au profil. La configuration de l’événement est effectuée par un utilisateur ou une utilisatrice technique et ne peut pas être modifiée. [En savoir plus](../event/about-events.md).
 * **[!UICONTROL Qualification d’audience]** : les parcours de qualification d’audience écoutent les entrées et les sorties des profils dans les audiences Adobe Experience Platform pour que les personnes puissent rejoindre le parcours ou y progresser. [En savoir plus](audience-qualification-events.md).
 * **[!UICONTROL Lecture d’audience]** : dans les parcours Lecture d’audience, toutes les personnes de l’audience rejoignent le parcours et reçoivent les messages inclus dans votre parcours. [En savoir plus](read-audience.md).
@@ -123,7 +123,7 @@ Le statut du parcours dépend de son cycle de vie. Il peut s’agir des élémen
 
 >[!NOTE]
 >
->* Le cycle de vie de création d’un Parcours comprend également un ensemble de statuts intermédiaires qui ne sont pas disponibles pour le filtrage : « Publication » (entre « Brouillon » et « Actif »), « Activation du mode test » ou « Désactivation du mode test » (entre « Brouillon » et « Brouillon (test) »), et « Arrêt » (entre « Actif » et « Arrêté »). Lorsqu’un parcours se trouve dans un état intermédiaire, il est en lecture seule.
+>* Le cycle de vie de création d’un parcours comprend également un ensemble de statuts intermédiaires qui ne sont pas disponibles pour le filtrage : « Publication » (entre « Brouillon » et « Actif »), « Activer le mode test » ou « Désactiver le mode test » (entre « Brouillon » et « Brouillon (test) ») et « Arrêt en cours » (entre « Actif » et « Arrêté »). Lorsqu’un parcours se trouve dans un état intermédiaire, il est en lecture seule.
 >
 >* Si vous devez apporter des modifications à un parcours **publié**, vous devez en [créer une nouvelle version](#journey-versions).
 

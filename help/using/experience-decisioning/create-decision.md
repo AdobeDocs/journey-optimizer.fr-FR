@@ -7,9 +7,9 @@ role: User
 level: Experienced
 exl-id: 63aa1763-2220-4726-a45d-3a3a8b8a55ec
 source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '1796'
+ht-degree: 100%
 
 ---
 
@@ -69,7 +69,7 @@ Pour présenter la meilleure offre dynamique et expérience aux visiteurs et vis
 
    ![](assets/decision-code-based-create.png)
 
-   Depuis l’écran d’édition du parcours ou de la campagne, vous pouvez également ajouter directement une politique de décision sans ouvrir l’éditeur de personnalisation. Utilisez l’icône dédiée sur le rail de droite pour afficher la section **[!UICONTROL Prise de décision]**.
+   Dans l’écran de modification du parcours ou de la campagne, vous pouvez également ajouter directement une politique de décision sans ouvrir l’éditeur de personnalisation. Utilisez l’icône dédiée dans le rail de droite pour afficher la section **[!UICONTROL Prise de décision]**.
 
    ![](../code-based/assets/code-based-campaign-show-decisioning.png)
 
@@ -85,7 +85,7 @@ Pour présenter la meilleure offre dynamique et expérience aux visiteurs et vis
    >
    >Actuellement, seul le catalogue par défaut **[!UICONTROL Offres]** est disponible.
 
-1. Sélectionnez le nombre d’éléments à renvoyer. Par exemple, si vous sélectionnez 2, les 2 meilleures offres éligibles seront présentées pour la configuration actuelle. Cliquez sur **[!UICONTROL Suivant]**.
+1. Sélectionnez le nombre d’éléments que vous souhaitez renvoyer. Par exemple, si vous sélectionnez 2, les 2 meilleures offres éligibles seront présentées pour la configuration actuelle. Cliquez sur **[!UICONTROL Suivant]**.
 
    ![](assets/decision-code-based-details.png)
 

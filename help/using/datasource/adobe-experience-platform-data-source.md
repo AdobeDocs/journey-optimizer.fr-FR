@@ -10,9 +10,9 @@ level: Intermediate, Experienced
 keywords: intégré, source, données, platform, intégration
 exl-id: 9083e355-15e3-4d1f-91ae-03095e08ad16
 source-git-commit: 8e020f79e0f44e6fc804fcceb149146f9644c777
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '398'
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 
@@ -21,9 +21,9 @@ ht-degree: 87%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_data_source_built_in"
 >title="Source de données Adobe Experience Platform"
->abstract="La source de données Adobe Experience Platform définit la connexion au profil client en temps réel d’Adobe. Cette source de données est intégrée et préconfigurée et ne peut pas être supprimée. Elle est conçue pour récupérer et utiliser des données du service de profil client en temps réel (par exemple, vérifier si la personne qui est entrée dans un parcours est de sexe féminin)."
+>abstract="La source de données Adobe Experience Platform définit la connexion au profil client en temps réel d’Adobe. Cette source de données est intégrée et préconfigurée et ne peut pas être supprimée. Elle a été conçue pour récupérer et utiliser des données du service de profil client en temps réel (par exemple, pour vérifier si la personne qui a rejoint le parcours est de sexe féminin)."
 
-La source de données Adobe Experience Platform définit la connexion au profil client en temps réel d’Adobe. Cette source de données est intégrée et préconfigurée et ne peut pas être supprimée. Cette source de données est conçue pour récupérer et utiliser des données du service de profil client en temps réel (par exemple, vérifier si la personne qui est entrée dans un parcours est de sexe féminin). Pour plus d’informations sur le profil client en temps réel d’Adobe, consultez la [documentation d’Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=fr){target="_blank"}.
+La source de données Adobe Experience Platform définit la connexion au profil client en temps réel d’Adobe. Cette source de données est intégrée et préconfigurée et ne peut pas être supprimée. Cette source de données a été conçue pour récupérer et utiliser des données du service de profil client en temps réel (par exemple, vérifier si la personne qui a rejoint un parcours est de sexe féminin). Pour plus d’informations sur le profil client en temps réel d’Adobe, consultez la [documentation d’Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=fr){target="_blank"}.
 
 Pour autoriser la connexion au service de profil client en temps réel, nous devons utiliser une clé afin d’identifier une personne, ainsi qu’un espace de noms qui contextualise la clé. Par conséquent, vous ne pouvez utiliser cette source de données que si vos parcours commencent par un événement contenant une clé et un espace de noms. [En savoir plus](../building-journeys/journey.md).
 
@@ -32,7 +32,7 @@ Vous pouvez modifier le groupe de champs préconfiguré nommé « ProfileFieldG
 
 >[!CAUTION]
 >
->L’utilisation d’événements d’expérience dans des expressions/conditions de parcours n’est pas prise en charge. Si votre cas d’utilisation nécessite l’utilisation d’événements d’expérience, envisagez d’autres méthodes. [En savoir plus](../building-journeys/exp-event-lookup.md)
+>L’utilisation d’événements d’expérience dans des expressions/conditions de parcours n’est pas prise en charge. Si votre cas d’utilisation nécessite l’utilisation d’événements d’expérience, envisagez d’utiliser d’autres méthodes. [En savoir plus](../building-journeys/exp-event-lookup.md)
 
 
 Voici les étapes principales pour ajouter des groupes de champs à la source de données intégrée :

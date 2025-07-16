@@ -8,9 +8,9 @@ role: Admin
 level: Intermediate
 exl-id: fd713864-96b9-4687-91bd-84e3533273ff
 source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1032'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
@@ -31,11 +31,11 @@ ht-degree: 88%
 >title="Payload du fournisseur"
 >abstract="Fournissez le payload de la requête pour vous assurer que les bonnes données sont envoyées pour le traitement et la génération de la réponse."
 
-Cette fonctionnalité vous permet d’intégrer et de configurer vos propres fournisseurs de messagerie, offrant ainsi une flexibilité au-delà des options par défaut (Sinch, Twilio et Infobip). Cela permet une création, une diffusion, un reporting et une gestion du consentement transparents pour les SMS et les messages RCS.
+Cette fonctionnalité vous permet d’intégrer et de configurer vos propres fournisseurs de messagerie, offrant ainsi une flexibilité qui va au-delà des options disponibles par défaut (Sinch, Twilio et Infobip). Cela permet une création, une diffusion, des rapports et une gestion du consentement transparents pour les messages SMS et RCS.
 
-Grâce à la configuration personnalisée du fournisseur, vous pouvez connecter des services de messagerie tiers directement dans Journey Optimizer, personnaliser les payloads des messages pour le contenu dynamique et gérer les préférences de souscription/désinscription pour assurer la conformité sur les canaux SMS et RCS.
+En configurant un fournisseur personnalisé, vous pouvez connecter des services de messagerie tiers directement dans Journey Optimizer, personnaliser les payloads des messages pour du contenu dynamique et gérer les préférences d’opt-in/opt-out pour assurer la conformité sur les canaux SMS et RCS.
 
-Pour configurer votre fournisseur personnalisé, procédez comme suit :
+Pour configurer votre fournisseur personnalisé, procédez comme suit :
 
 1. [Créer des informations d’identification d’API](#api-credential)
 1. [Créer un webhook](#webhook)
@@ -44,7 +44,7 @@ Pour configurer votre fournisseur personnalisé, procédez comme suit :
 
 ## Créer vos informations d’identification d’API {#api-credential}
 
-Pour envoyer des SMS et des messages RCS dans Journey Optimizer à l’aide d’un fournisseur personnalisé qui n’est pas prêt à l’emploi par Adobe (par exemple Sinch, Infobip, Twilio), procédez comme suit :
+Pour envoyer des SMS et des messages RCS dans Journey Optimizer à l’aide d’un fournisseur personnalisé non disponible par défaut chez Adobe (par exemple, Sinch, Infobip, Twilio), procédez comme suit :
 
 1. Dans le rail de gauche, accédez à **[!UICONTROL Administration]** `>` **[!UICONTROL Canaux]**, sélectionnez le menu **[!UICONTROL Informations d’identification d’API]** sous **[!UICONTROL Paramètres SMS]**, puis cliquez sur le bouton **[!UICONTROL Créer de nouvelles informations d’identification d’API]**.
 
@@ -74,7 +74,7 @@ Pour envoyer des SMS et des messages RCS dans Journey Optimizer à l’aide d’
 
 1. Ajoutez la **[!UICONTROL payload du fournisseur]** pour valider et personnaliser les payloads de votre requête.
 
-   Pour les messages RCS, cette payload est ensuite utilisée lors de la [conception de contenu](create-sms.md#sms-content).
+   Pour les messages RCS, cette payload est ensuite utilisée lors de la [conception du contenu](create-sms.md#sms-content).
 
 1. Cliquez sur **[!UICONTROL Envoyer]** lorsque vous avez terminé la configuration de vos informations d’identification d’API.
 

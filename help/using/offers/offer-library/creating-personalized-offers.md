@@ -8,9 +8,9 @@ role: User
 level: Intermediate
 exl-id: 4a53ea96-632a-41c7-ab15-b85b99db4f3e
 source-git-commit: 87f3da0a1d73f9aa26c7420d260778286bacdf0c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '830'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -22,7 +22,7 @@ Avant de créer une offre, assurez-vous que vous avez créé les éléments suiv
 * Si vous souhaitez ajouter une condition d’éligibilité : une **règle de décision** qui définit la condition dans laquelle l’offre sera présentée. Voir [Création de règles de décision](../offer-library/creating-decision-rules.md).
 * Un ou plusieurs **qualificateurs de collection** (précédemment appelés « balises ») que vous souhaitez peut-être associer à l’offre. Consultez la section [Créer des qualificateurs de collection](../offer-library/creating-tags.md).
 
-➡️ [Découvrez cette fonctionnalité en vidéo](#video)
+➡️ [Découvrez cette fonctionnalité en vidéo.](#video)
 
 La liste des offres personnalisées est accessible dans le menu **[!UICONTROL Offres]**.
 
@@ -173,4 +173,4 @@ Vous pouvez ainsi accéder à des informations détaillées sur cette offre. Sé
 
 ## Tutoriel vidéo {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/341347?quality=12&captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/329375?quality=12)

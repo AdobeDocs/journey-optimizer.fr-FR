@@ -10,9 +10,9 @@ level: Intermediate
 keywords: qualification, événements, audience, parcours, platform
 exl-id: 7e70b8a9-7fac-4450-ad9c-597fe0496df9
 source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1203'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -115,7 +115,7 @@ Pour plus d’informations sur la segmentation par streaming, consultez la [docu
 
 Voici quelques bonnes pratiques qui permettront d’éviter de surcharger les systèmes utilisés dans les parcours (sources de données, actions personnalisées, activités d’action de canal) :
 
-* N’utilisez pas une audience par lots immédiatement après sa création dans une activité **[!UICONTROL Qualification d’audience]**. Cela permet d’éviter le premier pic de calcul. Un avertissement jaune s’affiche dans la zone de travail de parcours si vous êtes sur le point d’utiliser une audience qui n’a jamais été calculée.
+* N’utilisez pas une audience par lots immédiatement après sa création dans une activité **[!UICONTROL Qualification d’audience]**. Cela permet d’éviter le premier pic de calcul. Un avertissement jaune apparaît dans la zone de travail du parcours si vous êtes sur le point d’utiliser une audience qui n’a jamais été calculée.
 
   ![](assets/segment-error.png)
 
@@ -161,4 +161,4 @@ Utilisez les mécanismes de sécurisation et suivez les recommandations ci-desso
 
 Découvrez des cas d’utilisation des parcours de qualification d’audience dans cette vidéo. Découvrez comment créer un parcours avec qualification d’audience et les bonnes pratiques à appliquer.
 
->[!VIDEO](https://video.tv.adobe.com/v/3446206?quality=12&captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/3425028?quality=12)

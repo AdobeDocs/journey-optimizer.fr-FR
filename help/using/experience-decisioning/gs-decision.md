@@ -7,9 +7,9 @@ role: User
 level: Experienced
 exl-id: 008d42c7-a523-4857-b34e-0e8dd1dfa507
 source-git-commit: 58f4fdf8ec3cdb609efebf5b8713f6b770ef5414
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '285'
-ht-degree: 79%
+ht-degree: 100%
 
 ---
 
@@ -31,12 +31,12 @@ Actuellement, [!DNL Journey Optimizer] propose les deux solutions principales pr
 
 Notre framework de décision de nouvelle génération est conçu pour unifier les workflows Journey Optimizer existants et poser des bases pour la gestion de catalogues de contenu supplémentaires. Offres de prise de décision :
 
-* Gestion de catalogues d’articles basée sur des schémas : augmentez la flexibilité en associant des métadonnées personnalisées à chaque offre.
-* Règles de collecte flexibles : regroupez facilement les offres pour une évaluation ultérieure en fonction de différents critères
-* Mise à jour de la configuration de la politique de décision et de la stratégie de sélection : autoriser la réutilisation des composants de décision
-* Fonctionnalités d’expérimentation : testez la logique de décision par rapport aux autres composants de contenu pour mesurer les performances
+* Gestion des catalogues d’éléments basés sur des schémas : augmentez la flexibilité en associant des métadonnées personnalisées à chaque offre.
+* Règles de collecte flexibles : regroupez facilement les offres pour une évaluation ultérieure en fonction de différents critères.
+* Configuration mise à jour de la politique de décision et de la stratégie de sélection : autorisez la réutilisation des composants de décision.
+* Fonctionnalités d’expérimentation : testez la logique de décision en la comparant à d’autres composants de contenu pour mesurer les performances.
 
-La prise de décision est actuellement prise en charge dans le canal d’expérience basé sur le code.
+La prise de décision est actuellement prise en charge dans le canal d’expérience basé sur du code.
 
 ➡️[Commencer la prise de décisions](../experience-decisioning/gs-experience-decisioning.md)
 

@@ -6,10 +6,11 @@ description: En savoir plus sur les modèles d’IA qui permettent de classer le
 feature: Ranking, Decision Management
 role: User
 level: Intermediate
-source-git-commit: 58f4fdf8ec3cdb609efebf5b8713f6b770ef5414
-workflow-type: tm+mt
+exl-id: 07679823-2288-4528-b09a-12fd76a69482
+source-git-commit: 18a1020971dc6a1101e4e35c1523d004f3fd4188
+workflow-type: ht
 source-wordcount: '303'
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 
@@ -39,9 +40,9 @@ Deux types de modèles d’IA sont disponibles dans [!DNL Journey Optimizer] :
 
 * **Les modèles d’optimisation personnalisés** vous permettent de définir des objectifs métier et d’utiliser les données client pour entraîner des modèles orientés métier afin de diffuser des offres personnalisées et d’optimiser les KPI. [En savoir plus](personalized-optimization-model.md).
 
-## Création d’un modèle d’IA {#create-ai-model}
+## Créer un modèle d’IA {#create-ai-model}
 
-Les principales étapes pour pouvoir créer et utiliser des modèles d’IA sont les suivantes :
+Les principales étapes pour créer et utiliser des modèles d’IA sont les suivantes :
 
 1. Créez un jeu de données dans lequel les événements de conversion et d’impression seront collectés. [En savoir plus](../data-collection/create-dataset.md)
 
@@ -51,6 +52,6 @@ Les principales étapes pour pouvoir créer et utiliser des modèles d’IA sont
 
    >[!IMPORTANT]
    >
-   >Les modèles de classement exigent que des événements de commentaires soient envoyés en tant qu’événements d’expérience afin d’être collectés. [En savoir plus sur la collecte de données Decisioning](../data-collection/data-collection.md)
+   >Les modèles de classement exigent que des événements de commentaires soient envoyés en tant qu’événements d’expérience afin d’être collectés. [En savoir plus sur la collecte de données de prise de décision](../data-collection/data-collection.md).
 
 1. Affectez le modèle d’IA à une stratégie de sélection pour classer les offres éligibles. [En savoir plus](../selection-strategies.md#select-ranking-method)

@@ -9,9 +9,9 @@ role: User
 level: Beginner
 exl-id: a205539b-b7ea-4832-92b0-49637c4dac47
 source-git-commit: a9f2eae6398f92a40accb62b1d4544bda031559c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '626'
-ht-degree: 66%
+ht-degree: 100%
 
 ---
 
@@ -22,25 +22,25 @@ ht-degree: 66%
 >title="Définissez votre propre modèle de contenu"
 >abstract="Créez entièrement un modèle personnalisé autonome pour rendre votre contenu réutilisable sur plusieurs parcours et campagnes."
 
-Vous pouvez créer des modèles de contenu de deux manières différentes :
+Il est possible de créer des modèles de contenu de deux façons différentes :
 
 * Créez un modèle de contenu à partir de zéro à l’aide du menu **[!UICONTROL Modèles de contenu]** du rail de gauche. [Voici comment procéder](#create-template-from-scratch)
 
 * Lors de la conception de votre contenu dans une campagne ou un parcours, enregistrez-le en tant que modèle. [Voici comment procéder.](#save-as-template)
 
-Une fois enregistré, votre modèle de contenu peut être utilisé dans une campagne ou un parcours. Qu’il soit créé entièrement ou à partir d’un contenu précédent, vous pouvez utiliser ce modèle lors de la création de n’importe quel contenu dans [!DNL Journey Optimizer]. [Voici comment procéder.](#use-content-templates)
+Une fois enregistré, votre modèle de contenu peut être utilisé dans une campagne ou un parcours. Qu’il soit créé en partant de zéro ou à partir d’un contenu existant, vous pouvez maintenant utiliser ce modèle lors de la création d’un contenu dans [!DNL Journey Optimizer]. [Voici comment procéder.](#use-content-templates)
 
 >[!NOTE]
 >
 >* Les modifications apportées aux modèles de contenu ne sont pas propagées aux campagnes ou aux parcours, qu’ils soient en ligne ou en version préliminaire.
 >
->* De même, lorsque des modèles sont utilisés dans une campagne ou un parcours, les modifications apportées à votre campagne et au contenu du parcours n’ont aucune incidence sur le modèle de contenu précédemment utilisé.
+>* De même, lorsque des modèles sont utilisés dans une campagne ou un parcours, toute modification que vous apportez au contenu de votre campagne et de votre parcours n’affecte pas le modèle de contenu précédemment utilisé.
 
-## Créer un nouveau modèle {#create-template-from-scratch}
+## Créer entièrement un modèle {#create-template-from-scratch}
 
 >[!NOTE]
 >
->À compter de mars 2025, les modèles de contenu de type HTML seront obsolètes. Les modèles de contenu HTML existants précédemment créés dans [!DNL Journey Optimizer] peuvent toujours être utilisés.
+>Depuis mars 2025, les modèles de contenu de type HTML sont devenus obsolètes. Les modèles de contenu HTML existants précédemment créés dans [!DNL Journey Optimizer] peuvent toujours être utilisés.
 
 Pour créer entièrement un nouveau modèle de contenu, procédez comme suit.
 
@@ -58,9 +58,9 @@ Pour créer entièrement un nouveau modèle de contenu, procédez comme suit.
 
 1. Sélectionnez ou créez des balises Adobe Experience Platform à partir du champ **[!UICONTROL Balises]** pour classer votre modèle en vue d’une recherche améliorée. [En savoir plus](../start/search-filter-categorize.md#tags)
 
-1. Pour attribuer des libellés d’utilisation des données personnalisés ou de base au modèle, sélectionnez **[!UICONTROL Gérer l’accès]**. [En savoir plus sur le contrôle d’accès au niveau de l’objet (OLAC)](../administration/object-based-access.md)
+1. Pour attribuer des libellés d’utilisation des données personnalisés ou de base au modèle, sélectionnez **[!UICONTROL Gérer l’accès]**. [En savoir plus sur le contrôle d’accès au niveau de l’objet (OLAC)](../administration/object-based-access.md).
 
-1. Cliquez sur **[!UICONTROL Créer]** et concevez votre contenu selon vos besoins, de la même manière que pour tout contenu situé dans un parcours ou une campagne, en fonction du canal que vous avez sélectionné.
+1. Cliquez sur **[!UICONTROL Créer]** et concevez votre contenu selon vos besoins, de la même manière que tout autre contenu dans un parcours ou une campagne, selon le canal que vous avez sélectionné.
 
    ![](assets/content-template-edition.png)
 
@@ -70,12 +70,12 @@ Pour créer entièrement un nouveau modèle de contenu, procédez comme suit.
    * [Définir le contenu d’un SMS](../sms/create-sms.md#sms-content)
    * [Définir le contenu d’un courrier](../direct-mail/create-direct-mail.md)
    * [Définir le contenu in-app](../in-app/design-in-app.md)
-   * [Définition du contenu web](../web/create-web.md#edit-web-content)
-   * [Définition du contenu d’expérience basé sur le code](../code-based/create-code-based.md)
+   * [Définir le contenu web](../web/create-web.md#edit-web-content)
+   * [Définir le contenu de l’expérience basée sur du code](../code-based/create-code-based.md)
 
      >[!NOTE]
      >
-     >Vous pouvez ajouter des politiques de décision aux modèles de contenu d’expérience basés sur du code. [En savoir plus](../experience-decisioning/create-decision.md#add-decision)
+     >Vous pouvez ajouter des politiques de décision aux modèles de contenu d’expérience basée sur du code. [En savoir plus](../experience-decisioning/create-decision.md#add-decision)
 
 1. Vous pouvez tester votre contenu. [Voici comment procéder.](#test-template)
 
@@ -89,9 +89,9 @@ Ce modèle est maintenant prêt à être utilisé lors de la création d’un co
 
 >[!NOTE]
 >
->Lors de la création d’un modèle de contenu d’e-mail, vous pouvez rapidement appliquer un style spécifique adapté à votre marque et à votre conception en appliquant un thème à votre contenu. [En savoir plus](../email/apply-email-themes.md)
+>Lors de la création d’un modèle de contenu d’e-mail, vous pouvez appliquer rapidement un style spécifique adapté à votre marque en appliquant un thème à votre contenu. [En savoir plus](../email/apply-email-themes.md)
 
-## Enregistrer le contenu comme modèle de contenu {#save-as-template}
+## Enregistrer le contenu en tant que modèle de contenu {#save-as-template}
 
 Lors de la conception d’un contenu dans une campagne ou un parcours, vous pouvez l’enregistrer pour une réutilisation ultérieure. Pour ce faire, suivez les étapes ci-après.
 
@@ -101,7 +101,7 @@ Lors de la conception d’un contenu dans une campagne ou un parcours, vous pouv
 
    ![](assets/content-template-button-save.png)
 
-   Si vous vous trouvez dans la [Designer d’e-mail](../email/get-started-email-design.md), vous pouvez également sélectionner cette option dans la liste déroulante **[!UICONTROL Plus]** dans le coin supérieur droit de l’écran.
+   Si vous vous trouvez dans le [Concepteur d’e-mail](../email/get-started-email-design.md), vous pouvez également sélectionner cette option dans la liste déroulante **[!UICONTROL Plus]** située en haut à droite de l’écran.
 
    ![](assets/content-template-more-button-save.png)
 
@@ -125,5 +125,5 @@ Vous pouvez désormais utiliser ce modèle lors de la création de contenu dans 
 
 >[!NOTE]
 >
->Toute modification apportée au nouveau modèle n’est pas propagée au contenu d’où il provient. De même, lorsque le contenu d’origine est modifié, le nouveau modèle n’est pas modifié.
+>Toute modification apportée à ce nouveau modèle n’est pas propagée au contenu d’origine. De même, lorsque le contenu d’origine est modifié, le nouveau modèle n’est pas modifié.
 

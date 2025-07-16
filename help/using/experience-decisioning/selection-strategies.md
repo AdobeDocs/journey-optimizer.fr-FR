@@ -7,9 +7,9 @@ role: User
 level: Intermediate
 exl-id: 1b73b398-050a-40bb-a8ae-1c66e3e26ce8
 source-git-commit: b44eba66fd88f56b999937e7638bd6c5526fec43
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '729'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -98,7 +98,7 @@ Si plusieurs offres sont éligibles pour une stratégie de sélection donnée, v
 
 ### Priorité des offres {#offer-priority}
 
-Par défaut, lorsque plusieurs offres sont éligibles dans une politique de décision, les éléments avec la **priorité** la plus élevée sont diffusés en premier aux clients.
+Par défaut, lorsque plusieurs offres sont éligibles dans une politique de décision, les éléments dont la **priorité** est la plus élevée sont diffusés en premier aux clientes et aux clients.
 
 ![](assets/item-priority.png){width=85%}
 

@@ -7,9 +7,9 @@ role: User
 level: Intermediate
 exl-id: bd950410-691b-49d8-8851-8c6c448c00fd
 source-git-commit: 87f3da0a1d73f9aa26c7420d260778286bacdf0c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '533'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -24,7 +24,7 @@ Les données des audiences de chargement personnalisé peuvent être utilisées 
 
 Pour plus d’informations sur les audiences de chargement personnalisé, reportez-vous aux sections :
 * [Commencer avec les audiences et Journey Optimizer](../audience/about-audiences.md)
-* [Importation d’une audience dans Adobe Experience Platform](https://experienceleague.adobe.com/fr/docs/experience-platform/segmentation/ui/audience-portal#import-audience){target="_blank"}
+* [Import d’une audience dans Adobe Experience Platform](https://experienceleague.adobe.com/fr/docs/experience-platform/segmentation/ui/audience-portal#import-audience){target="_blank"}
 
 ## À lire absolument {#must-read}
 

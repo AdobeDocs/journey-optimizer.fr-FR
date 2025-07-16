@@ -7,9 +7,9 @@ role: User
 level: Beginner, Intermediate
 exl-id: 01e74670-7431-4791-b98c-12278e6d3332
 source-git-commit: a9f2eae6398f92a40accb62b1d4544bda031559c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '286'
-ht-degree: 84%
+ht-degree: 100%
 
 ---
 
@@ -38,9 +38,9 @@ ht-degree: 84%
 >[!AVAILABILITY]
 >
 >Cette fonctionnalité est publiée en version Private Beta. Elle sera progressivement disponible pour l’ensemble de la clientèle dans les versions ultérieures.
->&#x200B;>Vous devez accepter le [contrat d’utilisation](https://www.adobe.com/fr/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"} avant de pouvoir utiliser l’Assistant IA dans Adobe Journey Optimizer. Pour plus d’informations, contactez votre représentant ou représentante Adobe.
+>>Vous devez accepter le [contrat d’utilisation](https://www.adobe.com/fr/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"} avant de pouvoir utiliser l’Assistant IA dans Adobe Journey Optimizer. Pour plus d’informations, contactez votre représentant ou représentante Adobe.
 
-La fonction d’alignement des marques vous permet de créer, de réviser et de gérer du contenu qui respecte les directives de votre marque. Elle garantit la cohérence du ton, des messages et de l’identité visuelle dans vos campagnes par e-mail, tout en servant de contrôle qualité avant la mise en ligne de votre contenu.
+La fonctionnalité d’alignement sur la marque vous permet de créer, de réviser et de gérer le contenu conforme aux directives de votre marque. Elle garantit la cohérence du ton, des messages et de l’identité visuelle dans vos campagnes par e-mail, tout en servant de contrôle qualité avant la mise en ligne de votre contenu.
 
 ## Valider le contenu avec l’alignement sur la marque {#validate-content}
 
@@ -60,7 +60,7 @@ Une fois [votre marque configurée et publiée](brands.md), évaluez son score d
 
 1. Parcourez le **score d’alignement sur la marque** (élevé, moyen, faible) et passez en revue les commentaires détaillés.
 
-1. Cliquez sur l’icône ![ Plein écran pour obtenir des informations détaillées](assets/do-not-localize/Smock_FullScreen_18_N.svg "Plein écran") pour afficher plus d’informations sur votre score.
+1. Cliquez sur l’icône ![Icône plein écran pour afficher les informations détaillées](assets/do-not-localize/Smock_FullScreen_18_N.svg "Plein écran") pour afficher plus d’informations sur votre score.
 
    ![](assets/brand-score-3.png)
 

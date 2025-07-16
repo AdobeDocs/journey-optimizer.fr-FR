@@ -7,9 +7,9 @@ role: User
 level: Intermediate
 exl-id: 033a11b8-c848-4e4a-b6f0-62fa0a2152bf
 source-git-commit: ebefeb59a19e831ec7f86cee690a35fe71e14554
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '515'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
@@ -42,7 +42,7 @@ Pour créer cette règle de décision, procédez comme suit :
 
    >[!NOTE]
    >
-   >Vous pouvez également utiliser les données de Adobe Experience Platform pour enrichir votre logique de décision avec des données externes. Cela s’avère particulièrement utile pour les attributs qui changent fréquemment, tels que la disponibilité des produits ou la tarification en temps réel. Cette fonctionnalité est actuellement disponible en version Beta publique pour l’ensemble des clientes et clients. Contactez votre représentant de compte si vous souhaitez y accéder. [Découvrez comment utiliser les données Adobe Experience Platform pour la prise de décision](../experience-decisioning/aep-data-exd.md)
+   >Vous pouvez également utiliser les données d’Adobe Experience Platform pour enrichir votre logique de décision avec des données externes. Cela s’avère particulièrement utile pour les attributs qui changent fréquemment, tels que la disponibilité des produits ou la tarification en temps réel. Cette fonctionnalité est actuellement disponible en version Beta publique pour l’ensemble des clientes et clients. Contactez votre représentant ou représentante de compte si vous souhaitez y accéder. [Découvrez comment utiliser des données Adobe Experience Platform pour la prise de décision.](../experience-decisioning/aep-data-exd.md)
 
 1. L’écran de création des règles de décision s’affiche. Nommez votre règle et fournissez une description.
 

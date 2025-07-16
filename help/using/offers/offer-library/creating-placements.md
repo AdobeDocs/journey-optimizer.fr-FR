@@ -8,9 +8,9 @@ role: User
 level: Intermediate
 exl-id: dfaf887e-d4b3-45b0-8297-bffdb0abff4d
 source-git-commit: 87f3da0a1d73f9aa26c7420d260778286bacdf0c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '630'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -33,7 +33,7 @@ ht-degree: 98%
 
 Un emplacement permet de s&#39;assurer que le contenu d&#39;offre approprié s&#39;affiche au bon endroit dans votre message. Lorsque vous ajoutez du contenu à une offre, vous êtes invité à sélectionner un emplacement dans lequel ce contenu peut être affiché.
 
-➡️ [Découvrez comment créer des emplacements dans cette vidéo](#video)
+➡️ [Découvrez comment créer des emplacements dans cette vidéo.](#video)
 
 Dans l&#39;exemple ci-dessous, trois emplacements correspondent à différents types de contenu (image, texte, HTML).
 
@@ -86,5 +86,5 @@ Pour créer une emplacement, procédez comme suit :
 
 Découvrez comment créer des emplacements pour la gestion des décisions.
 
->[!VIDEO](https://video.tv.adobe.com/v/341382?quality=12&captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/329372?quality=12)
 

@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Envoyer un message aux abonnés
+title: Envoyer un message aux personnes abonnées
 description: Découvrez comment créer un parcours pour envoyer un message aux abonnés d’une liste.
 feature: Journeys, Use Cases, Subscriptions
 topic: Content Management
@@ -10,9 +10,9 @@ level: Intermediate, Experienced
 keywords: parcours, cas d’utilisation, message, abonnés, liste, lecture
 exl-id: 2540938f-8ac7-43fa-83ff-fed59f6bc417
 source-git-commit: 824cbf12502f0a52e27636dddee38cb7dee94bf4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '329'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -46,8 +46,8 @@ Pour configurer ce parcours, procédez comme suit:
 
       | Fonction | Description | Exemple |
       | --- | --- | --- |
-      | `entry` | Fait référence à un élément de mappage en fonction de l’espace de noms sélectionné | Renvoyer à une liste d’abonnements spécifique |
-      | `firstEntryKey` | Récupère la première clé d’entrée d’un mappage | Récupérer la première adresse e-mail des abonnés |
+      | `entry` | Renvoie à un élément de mappage selon l’espace de noms sélectionné. | Renvoyer à une liste d’abonnements spécifique |
+      | `firstEntryKey` | Récupère la première clé d’entrée d’un mappage. | Récupérer la première adresse e-mail des abonnés |
 
       Dans cet exemple, la liste d’abonnements est nommée `daily-email`. Les adresses e-mail sont définies comme des clés dans le mappage `subscribers`, qui est lié au mappage de la liste d’abonnements.
 

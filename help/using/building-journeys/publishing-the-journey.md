@@ -10,15 +10,15 @@ level: Intermediate
 keywords: publication, parcours, dynamique, validité, vérifier
 exl-id: e0ca8aef-4f1d-4631-8c34-1692d96e8b51
 source-git-commit: fa46397b87ae3a81cd016d95afd3e09bb002cfaa
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '600'
-ht-degree: 66%
+ht-degree: 100%
 
 ---
 
 # Publier votre parcours {#publishing-the-journey}
 
-Vous devez publier un parcours pour l’activer et le rendre disponible pour que de nouveaux profils puissent entrer dans le parcours. Avant de publier votre parcours, vérifiez qu’il est valide et qu’il ne comporte aucune erreur. Vous ne pouvez pas publier un parcours comportant des erreurs.
+Vous devez publier un parcours pour l’activer et le rendre disponible pour que de nouveaux profils puissent le rejoindre. Avant de publier votre parcours, vérifiez qu’il est valide et qu’il ne comporte aucune erreur. Vous ne pouvez pas publier un parcours comportant des erreurs.
 
 ➡️ [Découvrez cette fonctionnalité en vidéo.](#video)
 
@@ -31,17 +31,17 @@ Les étapes de publication d’un parcours sont présentées en détail ci-desso
    * Découvrez comment tester votre parcours sur [cette page](testing-the-journey.md).
    * Découvrez comment résoudre les erreurs présentes dans votre parcours dans [cette section](../building-journeys/troubleshooting.md#checking-for-errors-before-testing).
 
-1. Pour publier le parcours, cliquez sur l’option **[!UICONTROL Publier]** située dans le menu déroulant en haut à droite.
+1. Pour publier le parcours, cliquez sur l’option **[!UICONTROL Publier]** dans le menu déroulant situé en haut à droite.
 
    >[!NOTE]
    >
-   > Si votre parcours est soumis à une politique d’approbation, vous devez demander une approbation pour publier votre parcours. [En savoir plus](../test-approve/gs-approval.md)
+   > Si votre parcours est soumis à une politique d’approbation, vous devez effectuer une demande d’approbation afin de pouvoir le publier. [En savoir plus](../test-approve/gs-approval.md)
 
    ![](assets/journeyuc1_18.png)
 
-Une fois le parcours publié, il est en **lecture seule**. En mode lecture seule, vous ne pouvez modifier que les libellés et descriptions des activités, le nom du parcours et la description du parcours. Si vous devez apporter des modifications supplémentaires à un parcours publié, créez [une nouvelle version](journey-ui.md#journey-versions) de votre parcours.
+Une fois le parcours publié, il est en **lecture seule**. En lecture seule, vous ne pouvez modifier que les libellés et les descriptions des activités, ainsi que le nom et la description du parcours. Si vous devez apporter des modifications à un parcours publié, créez [une nouvelle version](journey-ui.md#journey-versions) de votre parcours.
 
-Lorsque vous arrêtez un parcours, il est définitivement arrêté. Tous les individus qui traversent le parcours sont définitivement arrêtés, et le parcours cesse d&#39;autoriser de nouvelles entrées. Si vous devez réexécuter le parcours, dupliquez-le et publiez le nouveau parcours.
+Si vous arrêtez un parcours, l’arrêt est définitif. Toutes les personnes progressant dans le parcours s’arrêteront définitivement et le parcours n’autorisera plus aucune entrée. Si vous devez exécuter le parcours à nouveau, vous devez le dupliquer et publier le nouveau parcours.
 
 >[!IMPORTANT]
 >
@@ -87,4 +87,4 @@ Lorsque vous publiez une nouvelle version d&#39;un parcours, la version précéd
 
 Découvrez comment publier un parcours dans cette vidéo :
 
->[!VIDEO](https://video.tv.adobe.com/v/3427934?quality=12&captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/3424998?quality=12)

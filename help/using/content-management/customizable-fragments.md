@@ -9,17 +9,17 @@ role: User
 level: Beginner, Intermediate
 exl-id: cd47ca1d-f707-4425-b865-14f3fbbe5fd1
 source-git-commit: 5bc467f7fd25dd4218470c0e73bc0dc87938e218
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1510'
-ht-degree: 67%
+ht-degree: 100%
 
 ---
 
 # Fragments personnalisables {#customizable-fragments}
 
-Lorsque des fragments sont utilisés dans une action de campagne ou de parcours, ils sont verrouillés par défaut en raison de l’héritage. Cela signifie que toute modification apportée à un fragment est automatiquement propagée à toutes les campagnes et tous les parcours où le fragment est utilisé.
+Lorsque des fragments sont utilisés dans une action de campagne ou de parcours, ils sont verrouillés par défaut en raison de l’héritage. Cela signifie que toutes les modifications apportées à un fragment sont automatiquement propagées à tous les parcours et à toutes les campagnes où le fragment est utilisé.
 
-Grâce aux **fragments personnalisables**, les champs spécifiques d’un fragment peuvent être définis comme modifiables lorsque le fragment est ajouté à une action de campagne ou de parcours. Supposons, par exemple, que vous ayez un fragment avec une bannière, du texte et un bouton. Vous pouvez désigner comme modifiables certains champs, tels que l’image ou l’URL cible du bouton. Cela permet aux utilisateurs et utilisatrices de modifier ces éléments lorsqu’ils incorporent le fragment dans leur campagne ou leur parcours, ce qui offre une expérience personnalisée sans affecter le fragment d’origine.
+Avec les **fragments personnalisables**, des champs spécifiques d’un fragment peuvent être définis comme modifiables lorsque le fragment est ajouté à une action de campagne ou de parcours. Supposons, par exemple, que vous ayez un fragment avec une bannière, du texte et un bouton. Vous pouvez désigner comme modifiables certains champs, tels que l’image ou l’URL cible du bouton. Cela permet aux utilisateurs et utilisatrices de modifier ces éléments lorsqu’ils incorporent le fragment dans leur campagne ou leur parcours, ce qui offre une expérience personnalisée sans affecter le fragment d’origine.
 
 Les fragments personnalisables éliminent la nécessité de rompre l’héritage des fragments, ce qui empêchait auparavant la propagation des modifications centralisées au niveau des fragments vers les campagnes et les parcours. Cette approche permet d’ajuster les portions de contenu au moment de l’utilisation, ce qui offre la possibilité de remplacer les valeurs par défaut par des détails spécifiques au contexte.
 
@@ -29,19 +29,19 @@ Les fragments visuels et d’expression peuvent être marqués comme personnalis
 
 ![](../content-management/assets/do-not-localize/gif-fragments.gif)
 
-## Ajout de champs modifiables aux fragments visuels {#visual}
+## Ajouter des champs modifiables à des fragments visuels {#visual}
 
 Pour rendre des parties d’un fragment visuel modifiables, procédez comme suit :
 
 >[!NOTE]
 >
->Des champs modifiables peuvent être ajoutés aux composants **image**, **texte** et **bouton**. Pour les composants **HTML**, les champs modifiables sont ajoutés à l’aide de l’éditeur de personnalisation, comme pour les fragments d’expression. [Découvrez comment ajouter un champ modifiable dans les composants HTML et les fragments d’expression](#expression)
+>Des champs modifiables peuvent être ajoutés aux composants **image**, **texte** et **bouton**. Pour les composants **HTML**, les champs modifiables sont ajoutés à l’aide de l’éditeur de personnalisation, comme pour les fragments d’expression. [Découvrez comment ajouter un champ modifiable dans les composants HTML et les fragments d’expression.](#expression)
 
 1. Ouvrez l’écran d’édition du contenu du fragment.
 
 1. Sélectionnez le composant de votre fragment dans lequel vous souhaitez configurer des champs modifiables.
 
-1. Le volet Propriétés du composant s’ouvre sur le côté droit. Sélectionnez l’onglet **Champs modifiables** puis activez/désactivez l’option **Activer l’édition**.
+1. Le volet des propriétés du composant s’ouvre sur le côté droit. Sélectionnez l’onglet **Champs modifiables**, puis activez l’option **Activer l’édition**.
 
 1. Tous les champs pouvant être modifiés pour le composant sélectionné sont répertoriés dans le volet. Les champs disponibles pour la modification dépendent du type de composant sélectionné.
 
@@ -59,7 +59,7 @@ Pour rendre des parties d’un fragment visuel modifiables, procédez comme suit
 
 1. Après avoir ajouté le fragment dans un e-mail, les utilisateurs et utilisatrices peuvent personnaliser tous les champs modifiables configurés dans le fragment. [Découvrir comment personnaliser des champs modifiables dans un fragment visuel](../email/use-visual-fragments.md#customize-fields)
 
-## Ajouter des champs modifiables aux composants HTML et aux fragments d’expression {#expression}
+## Ajouter des champs modifiables dans les composants HTML et les fragments d’expression {#expression}
 
 Pour rendre modifiables des parties d’un composant HTML ou d’un fragment d’expression, vous devez utiliser une syntaxe spécifique dans l’éditeur d’expression. Cela implique de déclarer une **variable** avec une valeur par défaut que les utilisateurs et utilisatrices peuvent remplacer après l’ajout du fragment à leur contenu.
 
@@ -73,7 +73,7 @@ Les éléments ci-dessous peuvent devenir des champs modifiables dans un composa
 
 * Partie de texte
 * URL complète pour un lien ou une image (ne fonctionne pas avec une partie d’une URL)
-* Propriété CSS entière (ne fonctionne pas avec la propriété partielle)
+* Propriété CSS entière (ne fonctionne pas avec une propriété partielle)
 
 Par exemple, dans le code ci-dessous, chaque élément surligné en rouge peut devenir une propriété :
 
@@ -89,7 +89,7 @@ Pour déclarer une variable et l’utiliser dans votre fragment, procédez comme
 
    Pour les composants HTML, sélectionnez le composant dans le fragment et cliquez sur le bouton **Afficher le code source**.
 
-1. Déclarez la variable que vous souhaitez que les utilisateurs et utilisatrices modifient. Accédez au menu **Fonctions d’assistance** dans le volet de navigation de gauche, puis ajoutez la fonction **en ligne**. La syntaxe pour déclarer et pour appeler la variable est automatiquement ajoutée à votre contenu.
+1. Déclarez la variable que vous souhaitez que les utilisateurs et utilisatrices modifient. Accédez au menu **Fonctions d’assistance** dans le volet de navigation de gauche, puis ajoutez la fonction **en ligne**. La syntaxe pour déclarer et appeler la variable est automatiquement ajoutée à votre contenu.
 
    ![](assets/fragment-add-helper.png)
 
@@ -103,7 +103,7 @@ Pour déclarer une variable et l’utiliser dans votre fragment, procédez comme
 
    | Action | Paramètre | Exemple |
    | ------- | ------- | ------- |
-   | Déclarez un champ modifiable avec une **valeur par défaut**. Lors de l’ajout du fragment à votre contenu, cette valeur par défaut sera utilisée si vous ne la personnalisez pas. | Ajoutez la valeur par défaut entre les balises intégrées. | `{{#inline "editableFieldID"}}default_value{{/inline}}` |
+   | Déclarez un champ modifiable avec une **valeur par défaut**. Lorsque vous ajoutez le fragment à votre contenu, cette valeur par défaut est utilisée si vous ne la personnalisez pas. | Ajoutez la valeur par défaut entre les balises intégrées. | `{{#inline "editableFieldID"}}default_value{{/inline}}` |
    | Définissez un **libellé** pour le champ modifiable. Ce libellé s’affiche dans le concepteur d’e-mail lors de l’édition des champs du fragment. | `name="title"` | `{{#inline "editableFieldID" name="title"}}default_value{{/inline}}` |
    | Déclarez un champ modifiable contenant une **source d’image** qui doit être publiée. | `assetType="image"` | `{{#inline "editableFieldID" assetType="image"}}default_value{{/inline}}` |
    | Déclarez un champ modifiable contenant une **URL** qui doit faire l’objet d’un suivi.<br/>Notez que les blocs prédéfinis « URL de page miroir » et « Lien de désabonnement » prêts à l’emploi ne peuvent pas devenir des champs modifiables. | `assetType="url"` | `{{#inline "editableFieldID" assetType="url"}}default_value{{/inline}}` |
@@ -130,7 +130,7 @@ Pour ce faire, procédez comme suit :
 
 1. Déclarez une variable « sports » avec l’ID « sports ».
 
-   Par défaut, si les utilisateurs ne modifient pas la valeur de la variable après l’ajout du fragment dans leur contenu, la valeur définie entre les balises `{{#inline}}` et `{{/inline}}`, c’est-à-dire « sports », s’affiche.
+   Par défaut, si les utilisateurs et les utilisatrices ne modifient pas la valeur de la variable après avoir ajouté le fragment dans leur contenu, la valeur définie entre les balises `{{#inline}}` et `{{/inline}}` s’affiche, soit « sports ».
 
 1. Ajoutez la syntaxe ``{{{sport}}}`` dans le contenu du fragment où vous souhaitez afficher la valeur de la variable, c’est-à-dire « sports » par défaut, ou la valeur choisie par les utilisateurs et utilisatrices.
 
@@ -142,27 +142,27 @@ Pour ce faire, procédez comme suit :
 
 ## Ajouter du texte enrichi à un fragment personnalisable {#rich-text}
 
-Le texte enrichi tel que les sauts de ligne, le gras, l’italique, etc. peut être ajouté à un fragment modifiable à l’aide des composants HTML. Pour ce faire, procédez comme suit.
+Le texte enrichi, tel que les sauts de ligne, l’attribut gras, italique, etc., peut être ajouté à un fragment modifiable à l’aide de composants HTML. Pour ce faire, procédez comme suit.
 
-➡️ [Découvrez comment ajouter et utiliser du texte enrichi à un fragment modifiable dans cette vidéo](#video)
+➡️ [Découvrez comment ajouter et utiliser du texte enrichi dans un fragment modifiable dans cette vidéo.](#video)
 
 ### Créer un fragment contenant du texte enrichi {#add-rich-text}
 
 1. Créez un [fragment](create-fragments.md) visuel et commencez à ajouter des composants.
 
-1. Ajoutez un composant HTML [&#128279;](../email/content-components.md#HTML) et ouvrez l’éditeur HTML.
+1. Ajoutez un [composant HTML](../email/content-components.md#HTML) et ouvrez l’éditeur HTML.
 
-1. Accédez au menu **[!UICONTROL Fonctions d’assistance]** dans le volet de navigation de gauche et ajoutez la fonction d’assistance **intégrée**.
+1. Accédez au menu **[!UICONTROL Fonctions d’assistance]** dans le volet de navigation de gauche, puis ajoutez la fonction **inline**.
 
-1. Remplacez `"name"` par l’identifiant à utiliser pour votre contenu modifiable, par exemple « EditableContent ».
+1. Remplacez `"name"` par l’identifiant à utiliser pour votre contenu modifiable, par exemple &quot;EditableContent&quot;.
 
-1. Remplacez `render_content` par le code HTML correspondant au contenu enrichi par défaut de votre choix. Vous pouvez ajouter des caractères gras, italiques, des sauts de ligne, des listes à puces, etc.
+1. Remplacez `render_content` par le code HTML correspondant au contenu enrichi par défaut de votre choix. Vous pouvez ajouter un attribut gras ou italique, des sauts de ligne, des listes à puces, etc.
 
    ![](assets/fragment-rich-editable-content.png)
 
-1. Dans le même composant HTML, ajoutez une autre fonction d’assistance **intégrée** pour vos éléments de style.
+1. Dans le même composant HTML, ajoutez une autre fonction d’assistance **inline** pour vos éléments de style.
 
-1. Remplacez `"name"` et `render_content` par l’ID et le code HTML correspondant au style par défaut de votre choix.
+1. Remplacez `"name"` et `render_content` par l’identifiant et le code HTML correspondant au style par défaut de votre choix.
 
    ![](assets/fragment-rich-editable-styling.png)
 
@@ -172,9 +172,9 @@ Le texte enrichi tel que les sauts de ligne, le gras, l’italique, etc. peut ê
 
 1. Enregistrez et [publiez](create-fragments.md#publish) le fragment.
 
-### Utilisation de fragments modifiables de texte enrichi {#use-rich-text}
+### Utiliser des fragments modifiables avec du texte enrichi {#use-rich-text}
 
-Lors de l’ajout du fragment au contenu de leur e-mail, les utilisateurs peuvent désormais modifier le contenu et le style de texte enrichi que vous avez créés. Pour utiliser les fragments modifiables de texte enrichi en tant que marketeur, procédez comme suit.
+Lorsqu’ils ajoutent le fragment au contenu de leur e-mail, les utilisateurs et les utilisatrices peuvent désormais modifier le contenu enrichi et le style que vous avez créés. Pour utiliser des fragments modifiables avec du texte enrichi en tant que spécialiste marketing, procédez comme suit.
 
 1. [Créez un e-mail](../email/create-email.md) dans une campagne ou un parcours, puis ajoutez le fragment avec le texte enrichi qui a été [créé](#add-rich-text).
 
@@ -182,16 +182,16 @@ Lors de l’ajout du fragment au contenu de leur e-mail, les utilisateurs peuven
 
    ![](assets/fragment-use-rich-editable-fields.png)
 
-1. Vous pouvez cliquer sur **[!UICONTROL Simuler du contenu]** pour voir comment le contenu modifiable et le style s’affichent. [En savoir plus sur la prévisualisation du contenu](preview-test.md)
+1. Vous pouvez cliquer sur **[!UICONTROL Simuler le contenu]** pour voir comment le contenu modifiable et le style s’affichent. [En savoir plus sur la prévisualisation de contenu](preview-test.md)
 
-1. Sélectionnez l’icône **[!UICONTROL Ajouter une personnalisation]** en regard de l’un des champs modifiables.
+1. Sélectionnez l’icône **[!UICONTROL Ajouter une personnalisation]** à côté de l’un des champs modifiables.
 
-1. Dans l’éditeur de personnalisation qui s’ouvre, mettez à jour le <!--CSS-->style et/ou contenu selon vos besoins en ajoutant ou en supprimant des éléments du champ modifiable.
+1. Dans l’éditeur de personnalisation qui s’ouvre, mettez à jour le <!--CSS-->style et/ou le contenu selon vos besoins en ajoutant ou en supprimant des éléments du champ modifiable.
 
    ![](assets/fragment-rich-editable-fields-update-styling.png)
 
 ## Vidéo pratique {#video}
 
-Cette vidéo montre comment rendre les composants HTML d’un fragment modifiables, ce qui permet des mises à jour dynamiques du contenu et du style.
+Cette vidéo montre comment rendre les composants HTML d’un fragment modifiables, permettant ainsi des mises à jour dynamiques du contenu et du style.
 
->[!VIDEO](https://video.tv.adobe.com/v/3464370/?learn=on&#x26;enablevpops&captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/3464363/?learn=on&#x26;enablevpops)

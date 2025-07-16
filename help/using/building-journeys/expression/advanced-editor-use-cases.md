@@ -11,20 +11,20 @@ hidefromtoc: true
 keywords: expression, condition, cas d’utilisation, événements
 exl-id: 753ef9f4-b39d-4de3-98ca-e69a1766a78b
 source-git-commit: dbb1a4d649f29b763121c7856cecca16dcd2864f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '545'
-ht-degree: 85%
+ht-degree: 100%
 
 ---
 
 
 # Exemples d’expressions avancées{#advanced-expression-examples}
 
-L’éditeur d’expression avancé sert à créer des conditions pour filtrer les utilisateurs dans vos parcours. Ces conditions vous permettent de cibler les utilisateurs et utilisatrices sur les heures, les dates, les lieux et les durées, afin qu’ils ou elles puissent être reciblés dans le parcours.
+L’éditeur d’expression avancé sert à créer des conditions pour filtrer les utilisateurs et utilisatrices dans vos parcours. Ces conditions vous permettent de cibler des utilisateurs et des utilisatrices en fonction de l’heure, de la date, de l’emplacement ou de la durée pour pouvoir les cibler à nouveau dans le parcours.
 
 >[!CAUTION]
 >
->L’utilisation d’événements d’expérience dans des expressions/conditions de parcours n’est pas prise en charge. Si votre cas d’utilisation nécessite l’utilisation d’événements d’expérience, envisagez d’autres méthodes. [En savoir plus](../exp-event-lookup.md)
+>L’utilisation d’événements d’expérience dans des expressions/conditions de parcours n’est pas prise en charge. Si votre cas d’utilisation nécessite l’utilisation d’événements d’expérience, envisagez d’utiliser d’autres méthodes. [En savoir plus](../exp-event-lookup.md)
 
 
 ## Création de conditions pour les événements d’expérience
@@ -32,7 +32,7 @@ L’éditeur d’expression avancé sert à créer des conditions pour filtrer l
 
 >[!CAUTION]
 >
->L’utilisation d’événements d’expérience dans des expressions/conditions de parcours n’est pas prise en charge. Si votre cas d’utilisation nécessite l’utilisation d’événements d’expérience, envisagez d’autres méthodes. [En savoir plus](../exp-event-lookup.md)
+>L’utilisation d’événements d’expérience dans des expressions/conditions de parcours n’est pas prise en charge. Si votre cas d’utilisation nécessite l’utilisation d’événements d’expérience, envisagez d’utiliser d’autres méthodes. [En savoir plus](../exp-event-lookup.md)
 >
 
 
@@ -54,7 +54,7 @@ Par exemple, supposons que vous vouliez cibler des clients ayant abandonné leur
 
 Tout d’abord, il s’agit de cibler les clients qui ont accédé à la boutique en ligne, mais n’ont pas finalisé la commande au cours des 7 derniers jours.
 
-**Cette expression recherche une valeur spécifiée dans une valeur de chaîne :**
+**Cette expression recherche une valeur spécifiée dans une valeur de chaîne :**
 
 `In ("addToCart", #{field reference from experience event})`
 

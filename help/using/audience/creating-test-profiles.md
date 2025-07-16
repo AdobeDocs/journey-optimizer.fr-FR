@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 exl-id: bd5e053a-69eb-463b-add3-8b9168c8e280
 source-git-commit: fa46397b87ae3a81cd016d95afd3e09bb002cfaa
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1351'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -248,4 +248,4 @@ curl -X POST \
 
 Découvrez comment créer des profils de test.
 
->[!VIDEO](https://video.tv.adobe.com/v/3416331?quality=12&captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/334236?quality=12)

@@ -4,9 +4,9 @@ description: Découvrez comment utiliser un identifiant supplémentaire dans les
 badge: label="Disponibilité limitée" type="Informative"
 exl-id: f6ebd706-4402-448a-a538-e9a4c2cf0f8b
 source-git-commit: 5e7aad25fa08994f6cbce9adfce4a3dc94fe3e47
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '928'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -61,12 +61,12 @@ En outre, Journey Optimizer vous permet d’utiliser les attributs de l’ident
 
 * **Type de données et structure du schéma** : l’identifiant supplémentaire doit être de type `string`. Il peut s’agir d’un attribut de chaîne indépendant ou d’un attribut de chaîne dans un tableau d’objets. L’attribut de chaîne indépendant entraîne une instance de parcours unique, tandis que l’attribut de chaîne dans un tableau d’objets entraîne une instance de parcours unique par itération du tableau d’objets. Les tableaux et mappages de chaînes ne sont pas pris en charge.
 
-* **Parcours de rentrée**
+* **Réentrée dans un parcours**
 
-  Le comportement de reprise de parcours avec des identifiants supplémentaires suit la politique de reprise existante :
+  Le comportement de réentrée d’un parcours avec des identifiants supplémentaires respecte la politique de réentrée existante :
 
-   * Si le parcours n’est pas rentrant, la même combinaison ID de profil + ID supplémentaire ne peut pas entrer à nouveau dans le parcours.
-   * Si le parcours est rentrant avec une fenêtre temporelle, la même combinaison ID de profil + ID supplémentaire peut entrer à nouveau après la fenêtre temporelle définie.
+   * Si le parcours ne prend pas en charge la rentrée, la même combinaison d’identifiant de profil + identifiant supplémentaire ne peut pas réintégrer le parcours.
+   * Si le parcours prend en charge la rentrée avec une période, la même combinaison d’identifiant de profil + identifiant supplémentaire peut réintégrer après la période définie.
 
 ## Ajouter un identifiant supplémentaire et l’utiliser dans un parcours {#add}
 

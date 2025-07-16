@@ -7,9 +7,9 @@ role: User
 level: Intermediate
 exl-id: 35d7488b-e7d8-402f-b337-28a0c869bff0
 source-git-commit: 58f4fdf8ec3cdb609efebf5b8713f6b770ef5414
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1342'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -63,9 +63,9 @@ Pour créer une formule de classement, procédez comme suit :
    >
    >La profondeur d’imbrication dans une formule de classement est limitée à 30 niveaux. Celle-ci est mesurée en comptant les parenthèses fermantes `)` dans la chaîne PQL. La taille d’une chaîne de règle est de 8 Ko maximum pour les caractères codés en UTF-8. Cela équivaut à 8 000 caractères ASCII (1 octet chacun) ou 2 000 à 4 000 caractères non ASCII (2 à 4 octets chacun). [En savoir plus sur les mécanismes de sécurisation et sur les limitations de la prise de décisions](../decisioning-guardrails.md#ranking-formulas)
 
-1. Vous pouvez également utiliser les données de Adobe Experience Platform pour ajuster dynamiquement la logique de classement afin de refléter des conditions réelles. Cela s’avère particulièrement utile pour les attributs qui changent fréquemment, tels que la disponibilité des produits ou la tarification en temps réel.
+1. Vous pouvez également utiliser des données provenant d’Adobe Experience Platform afin d’ajuster dynamiquement la logique de classement pour refléter des conditions réelles. Cela s’avère particulièrement utile pour les attributs qui changent fréquemment, tels que la disponibilité des produits ou la tarification en temps réel.
 
-   Cette fonctionnalité est actuellement disponible en version Beta publique pour l’ensemble des clientes et clients. Contactez votre représentant de compte si vous souhaitez y accéder. [Découvrez comment utiliser les données Adobe Experience Platform pour la prise de décision](../aep-data-exd.md)
+   Cette fonctionnalité est actuellement disponible en version Beta publique pour l’ensemble des clientes et clients. Contactez votre représentant ou représentante de compte si vous souhaitez y accéder. [Découvrez comment utiliser des données Adobe Experience Platform pour la prise de décision.](../aep-data-exd.md)
 
 <!--## Select an ELS dataset {#els-dataset}
 
@@ -154,7 +154,7 @@ Dans cet exemple, nous voulons augmenter la priorité de toutes les offres conte
 >
 >Lors de la création d’une formule de classement, la consultation d’une période précédente n’est pas prise en charge (par exemple, l’ajout d’un événement d’expérience qui s’est produit le mois dernier en tant que composant de la formule). Toute tentative d’inclusion d’une période de recherche arrière lors de la création d’une formule déclenche une erreur lors de son enregistrement.
 
-Pour exploiter les attributs liés à vos éléments de décision dans les formules, veillez à suivre la syntaxe correcte dans le code de votre formule de classement. Pour plus d’informations, développez chaque section :
+Pour utiliser des attributs liés à vos éléments de décision dans des formules, veillez à respecter la syntaxe correcte dans le code de votre formule de classement. Pour plus d’informations, développez chaque section :
 
 +++Utiliser des attributs standard d’éléments de décision
 
@@ -226,13 +226,13 @@ Ainsi, pour un profil tel que :
 
 +++Booster les offres basées sur des données contextuelles {#context-data}
 
-[!DNL Journey Optimizer] permet de booster certaines offres en fonction des données contextuelles transmises dans l’appel. Par exemple, si le `contextData.weather=hot` est transmis, la priorité de toutes les offres avec `attribute=hot` doit être augmentée.
+[!DNL Journey Optimizer] permet de mettre en avant certaines offres en fonction des données contextuelles transmises dans l’appel. Par exemple, si la valeur `contextData.weather=hot` est transmise, la priorité de toutes les offres avec la valeur `attribute=hot` doit être augmentée.
 
 >[!NOTE]
 >
->Pour plus d’informations sur la transmission de données contextuelles<!-- using the **Edge Decisioning** and **Decisioning** APIs--> consultez [cette section](../context-data.md).
+>Pour obtenir des informations détaillées sur la transmission de données contextuelles<!-- using the **Edge Decisioning** and **Decisioning** APIs-->, consultez [cette section](../context-data.md).
 
-Notez que lors de l’utilisation de l’API **Decisioning**, les données contextuelles sont ajoutées à l’élément de profil dans le corps de la requête, comme dans l’exemple ci-dessous :
+Notez que lorsque vous utilisez l’API **Decisioning**, les données contextuelles sont ajoutées à l’élément de profil dans le corps de la requête, comme dans l’exemple ci-dessous.
 
 ```
 "xdm:profiles": [

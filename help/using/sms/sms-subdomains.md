@@ -9,9 +9,9 @@ level: Intermediate
 keywords: SMS, sous-domaines, configuration
 exl-id: 08a546d1-060c-43e8-9eac-4c38945cc3e1
 source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '881'
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 
@@ -64,7 +64,7 @@ Pour utiliser un sous-domaine déjà délégué à Adobe, procédez comme suit.
 
    >[!CAUTION]
    >
-   >N’utilisez pas de préfixes `cdn` ou `data`, car ils sont réservés à un usage interne. D’autres préfixes restreints ou réservés tels que `dmarc` ou `spf` doivent également être évités.
+   >N’utilisez pas les préfixes `cdn` ou `data`, car ils sont réservés à un usage interne. D’autres préfixes restreints ou réservés tels que `dmarc` ou `spf` doivent également être évités.
 
 1. Sélectionnez un sous-domaine délégué dans la liste.
 
@@ -135,7 +135,7 @@ Le statut du sous-domaine sera marqué comme en **[!UICONTROL Échec]** si la cr
 
 ## Annuler la délégation d’un sous-domaine {#undelegate-subdomain}
 
-Si vous souhaitez annuler la délégation d’un sous-domaine SMS, contactez votre représentant Adobe avec le sous-domaine que vous souhaitez annuler.
+Si vous souhaitez annuler la délégation d’un sous-domaine SMS, contactez votre représentant ou représentante Adobe en indiquant le sous-domaine pour lequel vous souhaitez annuler la délégation.
 
 <!--
 1. Stop the active campaigns associated with the subdomains. [Learn how](../campaigns/modify-stop-campaign.md#stop)
@@ -148,4 +148,4 @@ Si le sous-domaine SMS pointe vers un enregistrement CNAME, vous pouvez supprime
 >
 >Un sous-domaine SMS peut pointer vers un enregistrement CNAME, car il s’agissait d’un [sous-domaine existant](#sms-use-existing-subdomain) délégué à Adobe à l’aide de la méthode [CNAME](../configuration/delegate-subdomain.md#cname-subdomain-delegation) ou d’un [nouveau sous-domaine SMS](#sms-configure-new-subdomain) que vous avez configuré.
 
-Une fois que votre demande est gérée par Adobe, le domaine dont la délégation a été annulée ne s’affiche plus sur la page d’inventaire des sous-domaines.
+Une fois votre demande traitée par Adobe, le domaine dont la délégation a été annulée ne s’affiche plus sur la page d’inventaire des sous-domaines.

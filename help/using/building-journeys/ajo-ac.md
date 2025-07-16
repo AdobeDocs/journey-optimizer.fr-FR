@@ -10,13 +10,13 @@ level: Intermediate, Experienced
 keywords: parcours, message, campagne, intégration
 exl-id: b07feb98-b2ae-476c-8fcb-873b308176f0
 source-git-commit: 824cbf12502f0a52e27636dddee38cb7dee94bf4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '387'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
-# Envoyer un message avec Campaign v7/v8 {#campaign-v7-v8-use-case}
+# Envoyer un message avec Campaign v7/v8 {#campaign-v7-v8-use-case}
 
 Ce cas d’utilisation explique toutes les étapes nécessaires pour envoyer un e-mail à l’aide de l’intégration à Adobe Campaign v7 et Adobe Campaign v8.
 

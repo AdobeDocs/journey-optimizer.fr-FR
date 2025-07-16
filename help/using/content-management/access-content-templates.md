@@ -8,9 +8,9 @@ role: User
 level: Beginner
 exl-id: ef6110c4-1aa6-4835-b0b0-b3c4fe0e7024
 source-git-commit: a9f2eae6398f92a40accb62b1d4544bda031559c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '587'
-ht-degree: 70%
+ht-degree: 100%
 
 ---
 
@@ -22,7 +22,7 @@ Pour accéder à la liste des modèles de contenu, sélectionnez **[!UICONTROL G
 
 ![](assets/content-template-list.png)
 
-Tous les modèles créés sur le sandbox courant, soit à partir d’un parcours ou d’une campagne à l’aide de l’option **[!UICONTROL Enregistrer en tant que modèle]** ou à partir du menu **[!UICONTROL Modèles de contenu]**, s’affichent. [Découvrir comment créer des modèles](#create-content-templates)
+Tous les modèles qui ont été créés sur le sandbox actuel, soit à partir d’un parcours ou d’une campagne à l’aide de l’option **[!UICONTROL Enregistrer en tant que modèle]**, soit à partir du menu **[!UICONTROL Modèles de contenu]**, sont affichés. [Découvrez comment créer des modèles.](#create-content-templates)
 
 Dans le volet de gauche, vous pouvez organiser les modèles de contenu en dossiers. Par défaut, tous les modèles s’affichent. Lorsque vous sélectionnez un dossier, seuls les modèles et les dossiers qu’il contient s’affichent. [En savoir plus](#folders)
 
@@ -43,15 +43,15 @@ Vous pouvez également choisir d’afficher uniquement les éléments que vous a
 
 >[!NOTE]
 >
->À compter de mars 2025, les modèles de contenu de type HTML seront obsolètes. Vous pouvez toujours accéder aux modèles de contenu HTML précédemment créés dans [!DNL Journey Optimizer].
+>Depuis mars 2025, les modèles de contenu de type HTML sont devenus obsolètes. Vous pouvez toujours accéder aux modèles de contenu HTML précédemment créés dans [!DNL Journey Optimizer].
 
 ## Utiliser des dossiers pour gérer les modèles de contenu {#folders}
 
-Pour parcourir facilement vos modèles de contenu, utilisez des dossiers pour les organiser plus efficacement dans une hiérarchie structurée. Vous pouvez ainsi catégoriser et gérer les éléments en fonction des besoins de votre entreprise.
+Pour parcourir facilement vos modèles de contenu, utilisez des dossiers pour mieux les organiser avec une hiérarchie structurée. Vous pouvez ainsi classer et gérer les éléments en fonction des besoins de votre organisation.
 
 ![](assets/content-template-folders.png)
 
-1. Cliquez sur le bouton **[!UICONTROL Tous les modèles de contenu]** pour afficher tous les éléments précédemment créés sans le regroupement de dossiers.
+1. Cliquez sur le bouton **[!UICONTROL Tous les modèles de contenu]** pour afficher tous les éléments créés précédemment sans le regroupement des dossiers.
 
 1. Cliquez sur le dossier **[!UICONTROL racine]** pour afficher tous les dossiers créés.
 
@@ -105,13 +105,13 @@ Sélectionnez le mode de **[!UICONTROL vue Grille]** pour afficher chaque modèl
 
 >[!NOTE]
 >
->Des miniatures appropriées ne peuvent être générées que pour les modèles de contenu d’e-mail de type HTML.
+>Les miniatures appropriées peuvent uniquement être générées pour les modèles de contenu d’e-mail de type HTML.
 
-Lorsque vous mettez à jour le contenu, attendez quelques secondes que les modifications se reflètent dans la miniature.
+Lorsque vous mettez à jour du contenu, patientez quelques secondes pour que les modifications se reflètent dans la miniature.
 
 ## Exporter des modèles de contenu vers un autre sandbox {#export}
 
 Journey Optimizer vous permet de copier un modèle de contenu d’un sandbox à un autre. Par exemple, vous pouvez copier un modèle de votre sandbox d’évaluation vers votre sandbox de production.
 
-Le processus de copie est effectué via un **exportation et importation de package** entre les sandbox source et cible. Vous trouverez des informations détaillées sur la manière d’exporter des objets et de les importer dans un sandbox cible dans cette section : [Copier des objets dans un autre sandbox](../configuration/copy-objects-to-sandbox.md)
+Le processus de copie est réalisé via un **export et un import de package** entre les sandbox source et cible. Des informations détaillées sur l’export d’objets et leur import dans un sandbox cible sont disponibles dans cette section : [Copier des objets vers un autre sandbox](../configuration/copy-objects-to-sandbox.md).
 

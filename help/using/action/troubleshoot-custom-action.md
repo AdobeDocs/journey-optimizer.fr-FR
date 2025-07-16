@@ -10,9 +10,9 @@ level: Experienced
 keywords: action, tiers, personnalisé, parcours, API
 exl-id: c0bb473a-82dc-4604-bd8a-020447ac0c93
 source-git-commit: fa46397b87ae3a81cd016d95afd3e09bb002cfaa
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '558'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -43,7 +43,7 @@ En savoir plus sur les autorisations de parcours dans [cette section](../adminis
 Pour tester une action personnalisée, procédez comme suit :
 
 1. Accédez à l’écran de configuration **Actions** et sélectionnez une action personnalisée.
-1. Cliquez sur le bouton **[!UICONTROL Envoyer la requête de test]** en bas de l’écran de configuration de l’action.
+1. Cliquez sur le bouton **[!UICONTROL Envoyer une demande de test]** en bas de l’écran de configuration de l’action.
    ![Bouton Envoyer une demande de test du panneau Configuration de l’action](assets/test-request.png){width="70%" align="left"}
 1. Dans la fenêtre contextuelle qui s’affiche, spécifiez les paramètres de la demande :
 
@@ -80,7 +80,7 @@ En tant qu’administrateur ou administratrice de Journey Optimizer, vous pouve
 
 * Cette fonctionnalité de test intégrée au produit élimine la nécessité de copier manuellement les informations de configuration entre les outils, ce qui réduit le risque d’erreurs.
 
-## Dépannage {#troubleshoot-custom-action-check}
+## Résolution des problèmes {#troubleshoot-custom-action-check}
 
 Si la demande échoue, vous pouvez vérifier les éléments suivants :
 

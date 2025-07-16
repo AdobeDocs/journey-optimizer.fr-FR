@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
-title: Limiter le débit avec les sources de données externes et les actions personnalisées
-description: Limiter le débit avec les sources de données externes et les actions personnalisées
+title: Limiter le débit avec des sources de données externes et des actions personnalisées
+description: Limiter le débit avec des sources de données externes et des actions personnalisées
 feature: Journeys, Use Cases, Custom Actions, Data Sources
 topic: Content Management
 role: Developer, Data Engineer
@@ -9,9 +9,9 @@ level: Experienced
 keywords: parcours, sources de données, limite, débit, personnalisé, actions
 exl-id: 45d6bb82-88ea-4510-a023-a75a82cc6f7b
 source-git-commit: fa46397b87ae3a81cd016d95afd3e09bb002cfaa
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '753'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -31,7 +31,7 @@ Cela est possible grâce aux éléments suivants :
 >
 >Les réponses étant désormais prises en charge, vous devez utiliser des actions personnalisées au lieu de sources de données pour les cas d’utilisation de sources de données externes. Pour plus d’informations sur les réponses, voir [cette section](../action/action-response.md)
 
-Si vous utilisez des sources de données externes ou des actions personnalisées, vous pouvez protéger vos systèmes externes en limitant le débit du parcours : jusqu’à 5 000 instances/seconde pour les parcours unitaires et jusqu’à 20 000 instances/seconde pour les instances déclenchées par une audience.
+Si vous utilisez des sources de données externes ou des actions personnalisées, il peut être judicieux de protéger vos systèmes externes en limitant le débit des parcours : jusqu’à 5 000 instances/seconde pour les parcours unitaires et jusqu’à 20 000 instances/seconde pour les parcours déclenchés par une audience.
 
 Pour les actions personnalisées, les fonctionnalités de ralentissement existent au niveau du produit. Voir cette [page](../configuration/external-systems.md#capping).
 
@@ -54,7 +54,7 @@ Vous pouvez modifier cette valeur de 500 à 20 000 instances par seconde. Si v
 
 ![](assets/limit-throughput-2.png)
 
-Prenons un exemple de **parcours déclenchés par une audience** travaillant avec une population de 10 000 profils **&#x200B;**&#x200B;et envoyant des données à un système externe prenant en charge 100 requêtes/seconde **&#x200B;**.
+Prenons l’exemple d’un **parcours déclenché par une audience** s’exécutant avec une population de **10 000 profils** et envoyant des données à un système externe prenant en charge **100 requêtes/seconde**.
 
 1. Vous pouvez définir votre Lecture d’audience pour lire les profils avec un débit de 500 profils/seconde, ce qui signifie que la lecture de tous vos profils prendra 20 secondes. Lors de la seconde 1, vous lirez 500 d’entre eux, lors de la seconde 2, 500 de plus, etc.
 

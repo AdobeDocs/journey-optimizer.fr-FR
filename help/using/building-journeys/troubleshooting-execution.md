@@ -1,27 +1,27 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Résolution des problèmes liés à l’exécution du parcours en direct
-description: Découvrez comment résoudre les erreurs dans l’exécution des parcours en direct
+title: Résoudre les problèmes d’exécution de votre parcours actif
+description: Découvrez comment résoudre les erreurs d’exécution des parcours actifs.
 feature: Journeys
 topic: Content Management
 role: User
 level: Intermediate
 keywords: dépannage, résolution des problèmes, parcours, vérification, erreurs
 source-git-commit: 61498b61f7f05e0553fe575c980fd1bee08500a3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '702'
-ht-degree: 78%
+ht-degree: 100%
 
 ---
 
-# Résolution des problèmes liés à l’exécution du parcours en direct {#troubleshooting-execution}
+# Résoudre les problèmes d’exécution de votre parcours actif {#troubleshooting-execution}
 
-Dans cette section, découvrez comment résoudre les problèmes liés aux événements de parcours, vérifier si les profils ont accédé à votre parcours, comment ils le parcourent et si des messages sont envoyés.
+Dans cette section, découvrez comment résoudre les problèmes liés aux événements de parcours, vérifier si des profils ont rejoint votre parcours et la façon dont ils progressent dans celui-ci, et si des messages sont envoyés.
 
-Vous pouvez également résoudre les erreurs avant de tester ou de publier un parcours. Découvrez comment [sur cette page](troubleshooting.md).
+Vous pouvez également résoudre les erreurs avant de tester ou de publier un parcours. Découvrez comment procéder [sur cette page](troubleshooting.md).
 
-Si vous utilisez des actions entrantes, découvrez comment les résoudre [sur cette page](troubleshooting-inbound.md).
+Si vous utilisez des actions entrantes, découvrez comment résoudre les problèmes liés à ces dernières [sur cette page](troubleshooting-inbound.md).
 
 ## Vérifier l’envoi correct des événements {#checking-that-events-are-properly-sent}
 
@@ -29,7 +29,7 @@ Le point de départ d&#39;un parcours est toujours un événement. Il est possib
 
 Vous pouvez ainsi vérifier si l&#39;appel d&#39;API émis via ces outils est correctement envoyé ou non. Si vous obtenez une erreur en retour, cela signifie que votre appel a rencontré un problème. Vérifiez à nouveau la payload, l&#39;en-tête (et en particulier l&#39;identifiant d&#39;organisation) et l&#39;URL de destination. Vous pouvez demander à votre administrateur l&#39;URL appropriée pour l&#39;accès.
 
-Les événements ne sont pas directement transmis de la source aux parcours. En effet, les parcours s’appuient sur les API d’ingestion en flux continu d’Adobe Experience Platform. En cas de problèmes relatifs aux événements, vous pouvez donc consulter la documentation de [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/troubleshooting.html?lang=fr){target="_blank"} pour la résolution des problèmes concernant les API d&#39;ingestion en flux continu.
+Les événements ne sont pas directement transmis de la source aux parcours. En effet, les parcours s’appuient sur les API d’ingestion en flux continu d’Adobe Experience Platform. En cas de problèmes relatifs aux événements, vous pouvez consulter la [documentation d’Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/troubleshooting.html?lang=fr){target="_blank"} pour la résolution des problèmes liés aux API Streaming ingestion.
 
 Si votre parcours ne parvient pas à activer le mode test avec l’erreur `ERR_MODEL_RULES_16`, assurez-vous que l’événement utilisé inclut un [espace de noms d’identité](../audience/get-started-identity.md) lors de l’utilisation d’une action de canal.
 
@@ -39,7 +39,7 @@ L’espace de noms d’identité est utilisé pour identifier de manière unique
 
 Les rapports produits par Journey donnent des mesures en temps réel des entrées des visiteurs dans un parcours.
 
-Si l’événement est envoyé avec succès, mais que vous ne voyez pas d’entrée dans le parcours, cela signifie qu’une erreur s’est produite entre l’envoi de l’événement et la réception de l’événement dans le parcours.
+Si l’événement a été envoyé avec succès, mais que vous ne voyez aucune entrée dans le parcours, cela signifie qu’une erreur s’est produite entre l’envoi de l’événement et la réception de l’événement dans le parcours.
 
 Pour résoudre votre problème, commencez par répondre aux questions suivantes :
 
@@ -66,7 +66,7 @@ Les éléments à vérifier sont les suivants :
 
 ## Vérifier que les messages sont bien envoyés {#checking-that-messages-are-sent-successfully}
 
-Si les individus suivent le bon chemin dans le parcours sans recevoir les messages qu’ils devraient recevoir, vous pouvez vérifier si :
+Si les personnes progressent correctement dans le parcours sans recevoir les messages qu’ils devraient recevoir, vous pouvez vérifier les points suivants :
 
 * [!DNL Journey Optimizer] a correctement pris en compte la demande d&#39;envoi. Les utilisateurs professionnels peuvent accéder au message censé être envoyé et vérifier si l’heure de la dernière exécution correspond à l’heure d’exécution de votre parcours. Ils peuvent également vérifier les derniers appels/événements d’API reçus.
 * [!DNL Journey Optimizer] a envoyé le message avec succès. Vérifiez les rapports sur les parcours pour vous assurer qu’il n’y a aucune erreur.

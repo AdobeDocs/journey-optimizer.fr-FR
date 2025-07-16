@@ -10,9 +10,9 @@ level: Intermediate, Experienced
 keywords: schémas, XDM, platform, en flux continu, ingestion, parcours
 exl-id: f19749c4-d683-4db6-bede-9360b9610eef
 source-git-commit: d79e42cd42fa8342526e02116f65a8e53449fad5
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '391'
-ht-degree: 77%
+ht-degree: 100%
 
 ---
 
@@ -25,7 +25,7 @@ Les événements [!DNL Journey Optimizer] sont des événements d’expérience 
 
 >[!CAUTION]
 >
->Les recherches d’événements d’expérience dans des conditions de parcours ne sont plus prises en charge. Recherchez d’autres bonnes pratiques ici. Si vous disposez d’un cas d’utilisation de parcours déclenché par un événement qui nécessite toujours une recherche d’événements d’expérience et ne peut être pris en charge par aucune des alternatives répertoriées, contactez votre représentant Adobe afin que nous vous aidions à atteindre votre objectif.
+>Les recherches d’événements d’expérience dans les conditions de parcours ne sont plus prises en charge. Consultez d’autres bonnes pratiques ici. Si vous êtes face à un cas d’utilisation de parcours déclenché par un événement qui nécessite encore une recherche d’événements d’expérience et ne peut pas être pris en charge par une des autres options répertoriées, contactez votre représentant ou représentante Adobe afin que nous vous aidions à atteindre votre objectif.
 >
 >L’accès au contexte à partir de l’événement de démarrage d’un parcours n’est pas affecté.
 
@@ -49,7 +49,7 @@ Tout schéma XDM utilisé pour les événements [!DNL Journey Optimizer] doit r�
 
   ![](assets/schema4.png)
 
-* Si vous souhaitez que ces données soient disponibles pour le profil, marquez le schéma et le jeu de données pour le profil. [En savoir plus](../data/lookup-aep-data.md)
+* Si vous souhaitez que ces données soient disponibles pour un profil, marquez le schéma et le jeu de données pour le profil. [En savoir plus](../data/lookup-aep-data.md)
 
   ![](assets/schema5.png)
 
@@ -80,7 +80,7 @@ Here is the purchase schema with the relationship defined on the product ID fiel
 
 >[!NOTE]
 >
->Learn more about schema relationships in the [Experience Platform documentation](https://experienceleague.adobe.com/docs/platform-learn/tutorials/schemas/configure-relationships-between-schemas.html?lang=fr).
+>Learn more about schema relationships in the [Experience Platform documentation](https://experienceleague.adobe.com/docs/platform-learn/tutorials/schemas/configure-relationships-between-schemas.html).
 
 In Journey Optimizer, you can then leverage all the fields from the linked tables:
 

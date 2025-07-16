@@ -7,9 +7,9 @@ role: User
 level: Experienced
 exl-id: 25c2c448-9380-47b0-97c5-16d9afb794c5
 source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '785'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
@@ -99,7 +99,7 @@ Pour plus d’informations sur la configuration d’une campagne, consultez cett
 >abstract="Insérez et modifiez le code que vous souhaitez diffuser dans le cadre de cette action d’expérience basée sur le code."
 >additional-url="https://experienceleague.adobe.com/fr/docs/journey-optimizer/using/content-management/personalization/personalization-build-expressions" text="Utiliser l’éditeur de personnalisation"
 
-Pour modifier le contenu de votre expérience basée sur du code, procédez comme suit.
+Pour modifier le contenu de l’expérience basée sur du code, suivez les étapes ci-après.
 
 1. Dans l’écran de modification de la campagne ou d’activité du parcours, sélectionnez **[!UICONTROL Modifier le code]**.
 
@@ -107,7 +107,7 @@ Pour modifier le contenu de votre expérience basée sur du code, procédez comm
 
    >[!NOTE]
    >
-   >Si vous utilisez un modèle de contenu d’expérience basé sur du code avec des champs de formulaire modifiables prédéfinis, vous pouvez gérer le contenu de ces champs sans ouvrir l’éditeur de personnalisation. [En savoir plus](code-based-form-fields.md)
+   >Si vous utilisez un modèle de contenu d’expérience basée sur du code avec des champs de formulaire modifiables prédéfinis, vous pouvez gérer le contenu de ces champs sans ouvrir l’éditeur de personnalisation. [En savoir plus](code-based-form-fields.md)
 
 1. L’[éditeur de personnalisation](../personalization/personalization-build-expressions.md) s’ouvre. Il s’agit d’une interface de création d’expérience non visuelle qui vous permet de créer votre code.
 
@@ -131,7 +131,7 @@ Pour modifier le contenu de votre expérience basée sur du code, procédez comm
 
    <!--![](../experience-decisioning/assets/decision-code-based-create.png)-->
 
-   Depuis l’écran d’édition du parcours ou de la campagne, vous pouvez également ajouter directement une politique de décision sans ouvrir l’éditeur de personnalisation. Utilisez l’icône dédiée sur le rail de droite pour afficher la section **[!UICONTROL Prise de décision]**.
+   Dans l’écran de modification du parcours ou de la campagne, vous pouvez également ajouter directement une politique de décision sans ouvrir l’éditeur de personnalisation. Utilisez l’icône dédiée dans le rail de droite pour afficher la section **[!UICONTROL Prise de décision]**.
 
    <!--![](assets/code-based-campaign-show-decisioning.png)-->
 
@@ -145,4 +145,4 @@ Désormais, dès que votre développeur ou développeuse lance un appel d’API 
 
 La vidéo ci-dessous montre comment créer une campagne par expérience basée sur du code, configurer ses propriétés, la tester et la publier.
 
->[!VIDEO](https://video.tv.adobe.com/v/3449455/?quality=12&learn=on&captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/3428868/?quality=12&learn=on)

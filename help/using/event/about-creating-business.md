@@ -10,9 +10,9 @@ level: Intermediate, Experienced
 keywords: événement, parcours, entreprise, configuration
 exl-id: 39eb40e1-d7f5-4a8e-9b64-c620940d5ff2
 source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1127'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -43,7 +43,7 @@ Les événements métier peuvent être « un produit est de nouveau en stock �
 * Pour autoriser plusieurs exécutions d&#39;événements métier, activez l&#39;option correspondante dans la section **[!UICONTROL Exécution]** des propriétés du parcours.
 * Une fois qu’un événement métier est déclenché, l’exportation de l’audience est retardée de 15 minutes à une heure maximum.
 * Lors du test d&#39;un événement métier, vous devez transmettre les paramètres d&#39;événement et l&#39;identifiant du profil de test qui va rejoindre le parcours au moment du test. En outre, lorsque vous testez un parcours basé sur un événement métier, vous ne pouvez déclencher qu&#39;une seule entrée de profil. Consultez [cette section](../building-journeys/testing-the-journey.md#test-business). En mode test, aucun mode « Affichage du code » n&#39;est disponible.
-* Qu&#39;advient-il des personnes qui se trouvent actuellement dans le parcours si un nouvel événement métier se produit ? La même chose que lorsque des personnes se trouvent encore dans un parcours récurrent lorsqu&#39;une nouvelle récurrence se produit. Leur chemin est terminé. En conséquence, les spécialistes du marketing doivent veiller à ne pas créer de parcours trop longs s&#39;ils s&#39;attendent à des événements métier fréquents.
+* Qu&#39;advient-il des personnes qui se trouvent actuellement dans le parcours si un nouvel événement métier se produit ? La même chose que lorsque des personnes se trouvent encore dans un parcours récurrent lorsqu’une nouvelle récurrence se produit. Leur chemin est terminé. En conséquence, les spécialistes du marketing doivent veiller à ne pas créer de parcours trop longs s&#39;ils s&#39;attendent à des événements métier fréquents.
 * Les événements métier ne peuvent pas être utilisés conjointement avec des événements unitaires ou des activités de qualification d’audience.
 
 ## Plusieurs événements métier {#multiple-business-events}
@@ -126,7 +126,7 @@ La définition de la payload vous permet de choisir les informations que le syst
 
 1. Sélectionnez les champs que vous prévoyez de recevoir de l&#39;événement. Il s&#39;agit des champs que l&#39;utilisateur chargé de la conception de parcours exploitera dans le parcours.
 
-1. Une fois la sélection des champs nécessaires terminée, cliquez sur **[!UICONTROL Enregistrer]** ou appuyez sur **[!UICONTROL Entrée]**.
+1. Une fois que vous avez terminé de sélectionner les champs nécessaires, cliquez sur **[!UICONTROL Enregistrer]** ou appuyez sur **[!UICONTROL Entrée]**.
 
    Le nombre de champs sélectionnés s’affiche dans **[!UICONTROL Champs]**.
 

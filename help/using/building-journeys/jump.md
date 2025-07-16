@@ -10,9 +10,9 @@ level: Intermediate
 keywords: saut, activité, parcours, partage, partager
 exl-id: 46d8950b-8b02-4160-89b4-1c492533c0e2
 source-git-commit: fa46397b87ae3a81cd016d95afd3e09bb002cfaa
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '825'
-ht-degree: 64%
+ht-degree: 100%
 
 ---
 
@@ -28,13 +28,13 @@ L’activité d’action **[!UICONTROL Saut]** permet d’inviter des individus 
 * simplifier la conception de parcours très complexes en les divisant en plusieurs autres ;
 * créer des parcours basés sur des schémas de parcours communs et réutilisables.
 
-Dans le parcours d’origine, ajoutez une activité **[!UICONTROL Saut]** et sélectionnez un parcours cible. Lorsque l’individu parvient à l’étape de **[!UICONTROL saut]**, un événement interne est envoyé au premier événement du parcours cible. Si l’action **[!UICONTROL Saut]** réussit, l’individu continue à progresser dans le parcours. Le comportement est similaire aux autres actions.
+Dans le parcours d’origine, ajoutez une activité **[!UICONTROL Saut]** et sélectionnez un parcours cible. Lorsque la personne parvient à l’étape de **[!UICONTROL saut]**, un événement interne est envoyé au premier événement du parcours cible. Si l’action **[!UICONTROL Saut]** réussit, la personne continue à progresser dans le parcours. Le comportement est similaire aux autres actions.
 
-Dans le parcours cible, le premier événement déclenché en interne par l&#39;activité **[!UICONTROL Saut]** fait circuler l&#39;individu dans le parcours.
+Dans le parcours cible, le premier événement déclenché en interne par l’activité **[!UICONTROL Saut]** permet à la personne de s’insérer dans le parcours.
 
 ## Cycle de vie {#jump-lifecycle}
 
-Supposons que vous ayez ajouté une activité **[!UICONTROL Saut]** dans le parcours A au parcours B. Le Parcours A est le **parcours d’origine** et le parcours B est le **parcours cible**.
+Supposons que vous ayez ajouté une activité **[!UICONTROL Saut]** d’un parcours A à un parcours B. Le parcours A est le **parcours d’origine** et le parcours B, le **parcours cible**.
 
 Voici les différentes étapes du processus d’exécution :
 
@@ -42,12 +42,12 @@ Le **parcours A** est déclenché par un événement externe :
 
 1. Le parcours A reçoit un événement externe lié à un individu.
 1. L’individu atteint l’étape du **[!UICONTROL saut]**.
-1. L&#39;individu est poussé au parcours B et passe aux étapes suivantes du parcours A, après l&#39;étape **[!UICONTROL Saut]**.
+1. La personne est amenée au parcours B et passe aux étapes suivantes du parcours A, situées après l’étape **[!UICONTROL Saut]**.
 
-Dans le parcours B, le premier événement est déclenché en interne via l&#39;activité **[!UICONTROL Saut]** du parcours A :
+Dans le parcours B, le premier événement est déclenché en interne via l’activité **[!UICONTROL Saut]** à partir du parcours A :
 
-1. Le parcours B reçoit un événement interne du parcours A.
-1. L&#39;individu commence à couler dans le parcours B.
+1. Le parcours B reçoit un événement interne du parcours A.
+1. La personne commence à effectuer le parcours B.
 
 >[!NOTE]
 >
@@ -62,14 +62,14 @@ Dans le parcours B, le premier événement est déclenché en interne via l&#39;
 * Vous ne pouvez pas accéder à un parcours commençant par un événement **Qualification d’audience** ou **Lecture d’audience**.
 * Un même parcours ne peut pas contenir une activité **[!UICONTROL Saut]** et un événement **Qualification d’audience** ou **Lecture d’audience**.
 * Vous pouvez inclure autant d’activités **[!UICONTROL Saut]** que nécessaire dans un parcours. Après un **[!UICONTROL saut]**, vous pouvez ajouter toutes les activités nécessaires.
-* Vous pouvez avoir autant de niveaux de saut que nécessaire. Par exemple, le parcours A passe au parcours B, qui passe au parcours C, etc.
+* Vous pouvez avoir autant de niveaux de saut que nécessaire. Par exemple, un saut du parcours A vers le parcours B, puis un saut du parcours B vers le parcours C, etc.
 * Le parcours cible peut également comporter autant d’activités **[!UICONTROL Saut]** que nécessaire.
-* Les schémas de boucle ne sont pas pris en charge. Il n&#39;existe aucun moyen de relier deux parcours ou plus entre eux, ce qui créerait une boucle infinie. L’écran de configuration de l’activité **[!UICONTROL Saut]** vous empêche de le faire.
+* Les schémas de boucle ne sont pas pris en charge. Il n’est pas possible de relier deux parcours ou plus entre eux, car cela entraînerait une boucle infinie. L’écran de configuration de l’activité **[!UICONTROL Saut]** vous empêche de le faire.
 
 ### Exécution {#jump-limitations-exec}
 
 * Lorsque l’activité **[!UICONTROL Saut]** est exécutée, la dernière version du parcours cible est déclenchée.
-* Un individu unique ne peut être présent qu&#39;une seule fois dans le même parcours. Par conséquent, si la personne poussée à partir du parcours d’origine se trouve déjà dans le parcours cible, elle n’accédera pas au parcours cible. Aucune erreur ne sera signalée sur l’activité **[!UICONTROL Saut]**, car il s’agit d’un comportement normal.
+* Une personne unique ne peut être présente qu’une seule fois dans un même parcours. Ainsi, si une personne provenant d’un parcours d’origine se trouve déjà dans le parcours cible, elle ne rejoindra pas le parcours cible. Aucune erreur ne sera signalée lors de l’activité **[!UICONTROL Saut]**, car il s’agit d’un comportement normal.
 
 ## Configuration de l’activité Saut {#jump-configure}
 
@@ -95,7 +95,7 @@ Le champ **Premier événement** est prérenseigné avec le nom du premier évé
 
    ![](assets/jump4.png)
 
-1. La section **Paramètres d’action** affiche tous les champs de l’événement cible. Mappez chaque champ avec les champs de l’événement d’origine ou de la source de données, comme avec les autres types d’actions. Ces informations seront transmises au parcours cible au moment de l’exécution.
+1. La section **Paramètres d’action** affiche tous les champs de l’événement cible. Mappez chaque champ aux champs de l’événement d’origine ou de la source de données, comme pour les autres types d’actions. Ces informations seront transmises au parcours cible au moment de l’exécution.
 1. Ajoutez les activités suivantes pour terminer le parcours d’origine.
 
    ![](assets/jump5.png)
@@ -105,18 +105,18 @@ Le champ **Premier événement** est prérenseigné avec le nom du premier évé
    >
    >L’identité de l’individu est automatiquement mappée. Ces informations ne sont pas visibles dans l’interface.
 
-Votre activité **[!UICONTROL Saut]** est configurée. Dès que votre parcours est actif ou en mode test, les individus qui atteignent l’étape **[!UICONTROL Saut]** sont redirigés vers le parcours cible.
+Votre activité **[!UICONTROL Saut]** est configurée. Dès que votre parcours est actif ou en mode de test, les personnes qui atteignent l’étape **[!UICONTROL Saut]** sont amenées au parcours cible.
 
 Lorsqu’une activité **[!UICONTROL Saut]** est configurée dans un parcours, une icône d’entrée **[!UICONTROL Saut]** est automatiquement ajoutée au début du parcours cible. Vous pouvez ainsi identifier que le parcours peut être déclenché depuis l’extérieur mais aussi en interne par le biais d’une activité **[!UICONTROL Saut]**.
 
 ![](assets/jump7.png)
 
-## Dépannage {#jump-troubleshoot}
+## Résolution des problèmes {#jump-troubleshoot}
 
-Des erreurs se produisent si :
+Des erreurs se produisent si :
 
-* Le parcours cible n’existe plus
-* Le parcours cible est brouillon, fermé ou arrêté
-* Le premier événement du parcours cible a changé et le mapping est rompu
+* Le parcours cible n’existe plus.
+* Le parcours cible est une version brouillon, fermé ou arrêté.
+* Le premier événement du parcours cible a changé et le mappage est interrompu.
 
 ![](assets/jump6.png)

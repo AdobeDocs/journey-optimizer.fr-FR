@@ -8,9 +8,9 @@ role: User
 level: Intermediate
 exl-id: 851d988a-2582-4c30-80f3-b881d90771be
 source-git-commit: 87f3da0a1d73f9aa26c7420d260778286bacdf0c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1101'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -25,7 +25,7 @@ Les étapes clés de configuration des offres, de leur inclusion dans une décis
 1. Avant de créer des offres, [définissez vos composants](#define-components)
 
    * Créer des emplacements
-   * Création de règles de décision
+   * Créer des règles de décision
    * Créer des qualificateurs de collection (précédemment appelés « balises »)
    * Création de classements (facultatif)
 

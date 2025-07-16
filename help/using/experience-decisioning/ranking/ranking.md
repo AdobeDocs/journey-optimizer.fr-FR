@@ -7,9 +7,9 @@ role: User
 level: Intermediate
 exl-id: c1d69bc9-4486-4037-b218-f4f704b2ba9c
 source-git-commit: 58f4fdf8ec3cdb609efebf5b8713f6b770ef5414
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '204'
-ht-degree: 64%
+ht-degree: 100%
 
 ---
 
@@ -33,12 +33,12 @@ Pour créer une méthode de classement, procédez comme suit :
 
 1. Cliquez sur le bouton **[!UICONTROL Créer une formule]** ou **[!UICONTROL Créer un modèle d’IA]** dans le coin supérieur droit de l’écran.
 
-   Vous trouverez des informations détaillées sur la création de formules de classement et de modèles d’IA dans les sections suivantes :
+   Des informations détaillées sur création de formules de classement et de modèles d’IA sont disponibles dans les sections suivantes :
 
    * [Formules de classement](ranking-formulas.md)
    * [Modèles d’IA](ai-models.md)
 
-1. Configurez la formule ou le modèle d’IA en fonction de vos besoins, puis enregistrez-le.
+1. Configurez la formule ou le modèle d’IA en fonction de vos besoins, puis enregistrez la formule ou le modèle.
 
 Votre méthode de classement est maintenant prête à être utilisée dans une [stratégie de sélection](../selection-strategies.md) pour classer les éléments de décision éligibles.
 

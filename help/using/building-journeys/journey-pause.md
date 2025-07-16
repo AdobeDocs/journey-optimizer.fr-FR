@@ -10,9 +10,9 @@ badge: label="Disponibilité limitée" type="Informative"
 keywords: publication, parcours, actif, validité, vérification
 exl-id: a2892f0a-5407-497c-97af-927de81055ac
 source-git-commit: fa46397b87ae3a81cd016d95afd3e09bb002cfaa
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2106'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -27,7 +27,7 @@ Vous pouvez mettre en pause vos parcours actifs, effectuer toutes les modificati
 
 >[!AVAILABILITY]
 >
->Cette fonctionnalité n’est disponible que pour un certain nombre d’organisations (disponibilité limitée) et sera proposée à tous les utilisateurs et toutes les utilisatrices dans une prochaine version.
+>Cette fonctionnalité n’est disponible que pour un certain nombre d’organisations (disponibilité limitée) et sera proposée à l’ensemble des utilisateurs et utilisatrices dans une prochaine version.
 
 
 ## Avantages clés {#journey-pause-benefits}
@@ -50,7 +50,7 @@ Vous pouvez mettre en pause n’importe quel parcours **actif**.
 Pour mettre en pause votre parcours, procédez comme suit :
 
 1. Ouvrez le parcours que vous souhaitez mettre en pause.
-1. Cliquez sur le bouton **...Plus** dans la section supérieure droite de la zone de travail du parcours, puis sélectionnez **Pause**.
+1. Cliquez sur le bouton **...Plus** situé en haut à droite de la zone de travail du parcours, puis sélectionnez **Mettre en pause**.
 
    ![Bouton Mettre en pause le parcours](assets/pause-journey-button.png)
 
@@ -103,7 +103,7 @@ Les parcours en pause sont automatiquement repris à l’issue d’une période 
 Pour reprendre un parcours en pause et recommencer à écouter les événements de parcours, procédez comme suit :
 
 1. Ouvrez le parcours que vous souhaitez reprendre.
-1. Sélectionnez le bouton **...Plus** dans la section supérieure droite de la zone de travail du parcours, puis **Reprendre**.
+1. Cliquez sur le bouton **...Plus** situé en haut à droite de la zone de travail du parcours, puis sélectionnez **Reprendre**.
 
    Le statut du parcours devient **Reprise en cours**. Lorsque le parcours reprend, les nouvelles entrées démarrent en moins d’une minute. La reprise des profils qui ont été mis en pause peut prendre un certain temps : les profils sont repris à un taux de 5 000 tps.  Étant donné que tous les profils doivent reprendre pour que le parcours soit à nouveau **actif**, la transition du statut **reprise en cours** au statut **actif** peut prendre un certain temps.
 
@@ -121,7 +121,7 @@ Par exemple, pour exclure toutes les clientes et tous les clients français d’
 
 1. Accédez au parcours en pause que vous souhaitez modifier.
 
-1. Sélectionnez l’icône **Critères de sortie et filtre global**.
+1. Cliquez sur l’icône **Critères de sortie et filtre global**.
 
    ![Ajouter un filtre global à un parcours en pause](assets/add-global-filter.png)
 
@@ -147,10 +147,10 @@ N’oubliez pas que les exclusions de profils, pour les profils actuellement dan
 
 ## Mécanismes de sécurisation et limitations {#journey-pause-guardrails}
 
-* Une version de parcours peut être suspendue pendant **14 jours au maximum** avec un maximum de **10 millions de profils** autorisés dans les parcours en pause dans l’ensemble de votre organisation.
-Cette limite est vérifiée toutes les 30 minutes. Cela signifie que vous pouvez temporairement dépasser le seuil de 10 millions, mais une fois que le système le détecte, tous les profils supplémentaires sont automatiquement ignorés.
+* Une version de parcours peut être mise en pause pendant **14 jours** avec un maximum de **10 millions de profils** autorisés dans les parcours en pause dans l’ensemble de votre organisation.
+Cette limite est vérifiée toutes les 30 minutes. Cela signifie que vous pouvez temporairement dépasser le seuil de 10 millions, mais une fois que le système le détecte, tous les profils supplémentaires sont automatiquement ignorés.
 
-  Si vous reprenez les parcours pour ramener le nombre de profils retenus en dessous de la limite, le parcours reprend immédiatement, mais la mise à jour du nombre de profils peut prendre jusqu’à 30 minutes. Pendant ce temps, le système peut toujours considérer ces profils comme en pause.
+  Si vous reprenez les parcours pour ramener le nombre de profils conservés en dessous de la limite, le parcours reprend immédiatement, mais la mise à jour du nombre de profils peut prendre jusqu’à 30 minutes. Pendant ce temps, le système peut toujours considérer ces profils comme étant en pause.
 
 * Les parcours en pause sont comptabilisés dans le quota des parcours actifs.
 * Les profils qui sont entrés dans le parcours mais ignorés pendant la pause sont toujours comptabilisés comme des profils engageables.

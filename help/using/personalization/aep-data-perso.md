@@ -11,9 +11,9 @@ level: Intermediate
 keywords: expression, éditeur
 exl-id: 2fc10fdd-ca9e-46f0-94ed-2d7ea4de5baf
 source-git-commit: 7e378cbda6ee2379a8bd795588c328cb14107aa4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '849'
-ht-degree: 84%
+ht-degree: 100%
 
 ---
 
@@ -21,37 +21,37 @@ ht-degree: 84%
 
 >[!AVAILABILITY]
 >
->Cette fonctionnalité est actuellement disponible en version bêta publique pour l’ensemble des clientes et des clients.
+>Cette fonctionnalité est actuellement disponible en version Beta publique pour l’ensemble des clientes et clients.
 >
 >Pour utiliser cette fonctionnalité, vous devez d’abord accepter les termes de la version bêta pour votre entreprise qui s’affichent lors de l’ajout des nouvelles fonctions d’assistance « datasetLookup » dans l’éditeur de personnalisation.
 
 Journey Optimizer vous permet d’utiliser les données d’Adobe Experience Platform dans l’éditeur de personnalisation pour [personnaliser votre contenu](../personalization/personalize.md). Pour ce faire, les jeux de données nécessaires à la personnalisation de la recherche doivent d’abord être activés par le biais d’un appel API, comme décrit ci-dessous. Une fois que vous avez terminé, vous pouvez utiliser leurs données pour personnaliser votre contenu dans [!DNL Journey Optimizer].
 
-## Restrictions et directives de la version bêta {#guidelines}
+## Restrictions et directives de la version Beta {#guidelines}
 
 Avant de commencer, consultez les restrictions et les directives suivantes :
 
 * **Canaux pris en charge** : pour l’instant, cette fonctionnalité n’est disponible que pour une utilisation dans les canaux e-mail, SMS et courrier.
 * **Fragments** : pour le moment, la personnalisation de la recherche de jeux de données ne peut pas être placée dans des fragments d’expression ou visuels.
 
-### Prise de décisions {#decisioning}
+### Prise de décision {#decisioning}
 
-La possibilité d’exploiter les jeux de données [!DNL Adobe Experience Platform] dans les formules et règles de classement Experience Decisioning sera bientôt disponible.
+La possibilité d’exploiter des jeux de données [!DNL Adobe Experience Platform] dans les formules et les règles de classement des Décisions pour les expériences sera bientôt disponible.
 
-En attendant, veuillez consulter les mécanismes de sécurisation actuels décrits ci-dessous :
+En attendant, veuillez consulter les mécanismes de sécurisation actuels décrits ci-dessous :
 
-* Une politique de décision est limitée à 3 jeux de données.
-* Une règle de décision peut utiliser 3 jeux de données.
-* Une formule de classement peut utiliser 3 jeux de données,
-* Une politique de décision est limitée à 1 000 requêtes d’enregistrement.
+* Une politique de décision est limitée à 3 jeux de données.
+* Une règle de décision peut utiliser 3 jeux de données.
+* Une formule de classement peut utiliser 3 jeux de données.
+* Une politique de décision est limitée à 1 000 requêtes d’enregistrement.
 
 >[!NOTE]
 >
->Veuillez contacter votre représentant de compte si vous souhaitez accéder à cette fonctionnalité
+>Si vous souhaitez accéder à cette fonctionnalité, contactez votre représentant ou représentante de compte.
 
 ## Activer un jeu de données pour la recherche de données {#enable}
 
-Pour exploiter les données de votre jeu de données à des fins de personnalisation, vous devez utiliser un appel API pour récupérer son statut et activer le service de recherche. Vous trouverez des informations détaillées dans cette section : [Utilisation des jeux de données Adobe Experience Platform dans [!DNL Journey Optimizer]](../data/lookup-aep-data.md)
+Afin d’exploiter les données de votre jeu de données pour la personnalisation, vous devez utiliser un appel API pour récupérer son statut et activer le service de recherche. Vous trouverez des informations détaillées dans cette section : [Utiliser des jeux de données Adobe Experience Platform dans [!DNL Journey Optimizer]](../data/lookup-aep-data.md)
 
 ## Exploiter un jeu de données pour la personnalisation {#leverage}
 
@@ -84,11 +84,11 @@ Une fois qu’un jeu de données a été activé pour la personnalisation de la 
 
    +++Où récupérer un identifiant de jeu de données ?
 
-   Les identifiants de jeu de données peuvent être récupérés dans l’interface d’utilisation d’Adobe Experience Platform. Découvrez comment utiliser les jeux de données dans la documentation de [Adobe Experience Platform](https://experienceleague.adobe.com/fr/docs/experience-platform/catalog/datasets/user-guide#view-datasets){target="_blank"}.
+   Les identifiants de jeu de données peuvent être récupérés dans l’interface d’utilisation d’Adobe Experience Platform. Découvrez comment utiliser des jeux de données dans la [documentation d’Adobe Experience Platform](https://experienceleague.adobe.com/fr/docs/experience-platform/catalog/datasets/user-guide#view-datasets){target="_blank"}.
 
    ![](assets/aep-data-dataset.png)
 
-   +++
++++
 
 1. Adaptez la syntaxe à vos besoins. Dans cet exemple, nous allons récupérer les données relatives aux vols des passagères et passagers. La syntaxe se présente comme suit :
 
@@ -115,11 +115,11 @@ Une fois qu’un jeu de données a été activé pour la personnalisation de la 
 
      +++Où récupérer un identifiant de champ ?
 
-     Les ID de champs peuvent être récupérés lors de la prévisualisation d’un jeu de données dans l’interface d’utilisation d’Adobe Experience Platform. Découvrez comment prévisualiser des jeux de données dans la documentation de [Adobe Experience Platform](https://experienceleague.adobe.com/fr/docs/experience-platform/catalog/datasets/user-guide#preview){target="_blank"}.
+     Les ID de champs peuvent être récupérés lors de la prévisualisation d’un jeu de données dans l’interface d’utilisation d’Adobe Experience Platform. Découvrez comment prévisualiser des jeux de données dans la [documentation d’Adobe Experience Platform](https://experienceleague.adobe.com/fr/docs/experience-platform/catalog/datasets/user-guide#preview){target="_blank"}.
 
      ![](assets/aep-data-field.png)
 
-     +++
++++
 
    Dans cet exemple, nous allons utiliser des informations relatives à l’heure et à la porte d’embarquement des passagères et passagers. Nous ajoutons donc ces deux lignes :
 

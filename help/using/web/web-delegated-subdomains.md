@@ -9,9 +9,9 @@ level: Experienced
 keywords: web, sous-domaines, configuration
 exl-id: 6e00466d-4ce5-4d80-89ff-c7331a5ab158
 source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '987'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -152,7 +152,7 @@ You cannot delete a subdomain with the **[!UICONTROL Processing]** status.
 
 ## Annuler la délégation d’un sous-domaine {#undelegate-subdomain}
 
-Si vous souhaitez annuler la délégation d’un sous-domaine web, contactez votre représentant Adobe avec le sous-domaine que vous souhaitez annuler.
+Si vous souhaitez annuler la délégation d’un sous-domaine web, contactez votre représentant ou représentante Adobe en indiquant le sous-domaine pour lequel vous souhaitez annuler la délégation.
 
 <!--
 1. Deactivate all the channel configurations associated with the subdomain. [Learn how](../configuration/channel-surfaces.md#deactivate-a-surface)
@@ -163,4 +163,4 @@ Si vous souhaitez annuler la délégation d’un sous-domaine web, contactez vot
 
 Si le sous-domaine web était un [nouveau sous-domaine délégué](#web-configure-new-subdomain), vous pouvez supprimer l’enregistrement DNS CNAME que vous avez créé pour le sous-domaine web de votre solution d’hébergement (mais ne supprimez pas le sous-domaine d’e-mail d’origine, le cas échéant).
 
-Une fois que votre demande est gérée par Adobe, le domaine dont la délégation a été annulée ne s’affiche plus sur la page d’inventaire des sous-domaines.
+Une fois votre demande traitée par Adobe, le domaine dont la délégation a été annulée ne s’affiche plus sur la page d’inventaire des sous-domaines.

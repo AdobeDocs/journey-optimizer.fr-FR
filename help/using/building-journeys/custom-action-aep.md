@@ -9,9 +9,9 @@ role: Developer, Data Engineer
 level: Experienced
 exl-id: 890a194f-f54d-4230-863a-fb2b924d716a
 source-git-commit: 824cbf12502f0a52e27636dddee38cb7dee94bf4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '364'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 88%
 
 Ce cas d’utilisation explique comment écrire des événements personnalisés dans Adobe Experience Platform à partir de parcours à l’aide d’actions personnalisées et d’appels authentifiés.
 
-## Configuration d’un projet de développement {#custom-action-aep-IO}
+## Configurer un projet de développement {#custom-action-aep-IO}
 
 1. Dans Adobe Developer Console, cliquez sur **Projet** et ouvrez votre projet IO.
 
@@ -39,9 +39,9 @@ curl -X POST 'https://ims-na1.adobelogin.com/ims/token/v3' -H 'Content-Type: app
 
 >[!CAUTION]
 >
->Après avoir créé votre projet sur Adobe Developer Console, assurez vous d’accorder aux développeurs et développeuses et aux API le contrôle d’accès avec les autorisations appropriées. En savoir plus dans la documentation de [Adobe Experience Platform](https://experienceleague.adobe.com/fr/docs/experience-platform/landing/platform-apis/api-authentication#grant-developer-and-api-access-control){target="_blank"}
+>Après avoir créé votre projet sur Adobe Developer Console, assurez vous d’accorder aux développeurs et développeuses et aux API le contrôle d’accès avec les autorisations appropriées. Pour en savoir plus, consultez la [documentation Adobe Experience Platform](https://experienceleague.adobe.com/fr/docs/experience-platform/landing/platform-apis/api-authentication#grant-developer-and-api-access-control){target="_blank"}.
 
-## Configuration de la source à l’aide de l’entrée d’API HTTP
+## Configurer la source à l’aide de l’inlet d’API HTTP
 
 1. Créez un point d’entrée dans Adobe Experience Platform pour écrire les données de parcours.
 
@@ -49,11 +49,11 @@ curl -X POST 'https://ims-na1.adobelogin.com/ims/token/v3' -H 'Content-Type: app
 
    ![](assets/custom-action-aep-3.png)
 
-1. Sélectionnez **Nouveau compte** et activez l’authentification. Sélectionnez **Connexion à Source**.
+1. Sélectionnez **Nouveau compte** et activez l’authentification. Sélectionnez **Se connecter à la source**.
 
    ![](assets/custom-action-aep-4.png)
 
-1. Sélectionnez **Suivant** et le Jeu de données dans lequel vous souhaitez écrire les données. Cliquez sur **Suivant** et **Terminer**.
+1. Cliquez sur **Suivant** et sélectionnez le jeu de données dans lequel vous souhaitez écrire les données. Cliquez sur **Suivant** et **Terminer**.
 
    ![](assets/custom-action-aep-5.png)
 
@@ -146,7 +146,7 @@ Pour cet exemple, procédez comme suit :
 
 ### Configurer la payload {#custom-action-aep-payload}
 
-1. Dans les champs **Demande** et **Réponse**, collez la payload de la connexion source utilisée auparavant.
+1. Dans les champs **Requête** et **Réponse**, collez la payload de la connexion source utilisée auparavant.
 
    ```
    {

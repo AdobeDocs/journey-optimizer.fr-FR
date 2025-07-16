@@ -8,10 +8,11 @@ role: Developer, Data Engineer
 level: Experienced
 hide: true
 hidefromtoc: true
-source-git-commit: e5c457494d5d79d1a7951b9172c39c91007e2651
-workflow-type: tm+mt
+exl-id: ce3a2c33-c15b-436f-90b1-7373d7b2b1ca
+source-git-commit: 0bba63855360d0dcd7daa98a2083f23995b88b94
+workflow-type: ht
 source-wordcount: '271'
-ht-degree: 79%
+ht-degree: 100%
 
 ---
 
@@ -103,9 +104,9 @@ Pour les événements personnalisés, le schéma utilisé dans le jeu de donnée
 
 >[!NOTE]
 >
->Pour que vos événements personnalisés soient pris en compte dans la [limitation](../items.md#capping), vous devez connecter l’événement d’expérience aux points d’entrée Adobe Experience Platform en l’envoyant à l’un de ces deux points d’entrée de la collecte de données Edge :
+>Pour que vos événements personnalisés soient pris en compte dans la [limitation](../items.md#capping), vous devez connecter l’événement d’expérience aux points d’entrée Adobe Experience Platform en l’envoyant à l’un de ces deux points d’entrée de collecte de données Edge :
 >
 >* POST /ee/v2/interact
 >* POST /ee/v2/collect
 >
->Si vous utilisez le [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=fr){target="_blank"} ou le [Adobe Experience Platform Mobile SDK](https://experienceleague.adobe.com/docs/platform-learn/data-collection/mobile-sdk/overview.html?lang=fr){target="_blank"}, la connexion est établie automatiquement.
+>Si vous utilisez le [SDK Web Adobe Experience Platform](https://experienceleague.adobe.com//docs/experience-platform/edge/home.html?lang=fr){target="_blank"} ou le [SDK mobile Adobe Experience Platform](https://experienceleague.adobe.com/docs/platform-learn/data-collection/mobile-sdk/overview.html?lang=fr){target="_blank"}, la connexion est établie automatiquement.

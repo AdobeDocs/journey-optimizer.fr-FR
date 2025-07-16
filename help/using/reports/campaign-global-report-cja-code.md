@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 exl-id: d35a0e1c-2376-4cc5-88fc-5f8dfcfae666
 source-git-commit: 58f4fdf8ec3cdb609efebf5b8713f6b770ef5414
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '869'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -139,7 +139,7 @@ Le tableau **[!UICONTROL Performances des éléments de décision]** évalue les
 
 >[!NOTE]
 >
->Le tableau **[!UICONTROL Stratégie de classement]** n’est disponible que lorsqu’un [modèle d’IA](../experience-decisioning/ranking/ai-models.md) est intégré à la campagne. <!--[Learn more](../experience-decisioning/ranking/ranking-formulas.md)-->
+>Le tableau **[!UICONTROL Stratégie de classement]** devient disponible uniquement lorsqu’un [modèle d’IA](../experience-decisioning/ranking/ai-models.md) est intégré à la campagne. <!--[Learn more](../experience-decisioning/ranking/ranking-formulas.md)-->
 
 ![](assets/cja-decision-ranking-strategy.png)
 
@@ -161,7 +161,7 @@ Les mesures clés affichées sont les suivantes :
 
 >[!NOTE]
 >
->Le graphique **[!UICONTROL Taux de conversion du trafic piloté par les modèles et d’exclusion]** n’est disponible que lorsqu’un [modèle d’IA](../experience-decisioning/ranking/ai-models.md) est intégré à la campagne. <!--[Learn more](../experience-decisioning/ranking/ranking-formulas.md)-->
+>Le graphique **[!UICONTROL Taux de conversion pour la rétension et le trafic piloté par le modèle]** devient disponible uniquement lorsqu’un [modèle d’IA](../experience-decisioning/ranking/ai-models.md) est intégré à la campagne. <!--[Learn more](../experience-decisioning/ranking/ranking-formulas.md)-->
 
 ![](assets/cja-decisioning-conversion.png)
 

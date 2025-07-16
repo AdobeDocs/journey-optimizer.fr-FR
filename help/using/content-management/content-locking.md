@@ -8,9 +8,9 @@ role: User
 level: Beginner, Intermediate
 exl-id: f64fe1c4-3e30-4b74-80f8-b801a5f1d4c4
 source-git-commit: a9f2eae6398f92a40accb62b1d4544bda031559c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1276'
-ht-degree: 82%
+ht-degree: 100%
 
 ---
 
@@ -34,20 +34,20 @@ ht-degree: 82%
 >[!CONTEXTUALHELP]
 >id="ajo_email_locking_activated"
 >title="Gouvernance activée"
->abstract="Le verrouillage de contenu est activé et empêche les modifications."
+>abstract="Le verrouillage du contenu est activé et empêche les modifications."
 
 >[!CONTEXTUALHELP]
 >id="ajo_email_locking_read_only"
 >title="Lecture seule"
 >abstract="Ce contenu est en lecture seule et ne peut pas être modifié."
 
-Journey Optimizer vous permet de verrouiller le contenu de modèles d’e-mail en verrouillant le modèle entier ou des structures et composants spécifiques. Vous pouvez ainsi éviter les modifications ou suppressions involontaires, ce qui vous permet de mieux contrôler la personnalisation des modèles et d’améliorer l’efficacité et la fiabilité de vos campagnes par e-mail.
+Journey Optimizer vous permet de verrouiller le contenu dans les modèles d’e-mail, en verrouillant l’intégralité du modèle ou des structures et composants spécifiques. Cela vous permet d’éviter des modifications ou suppressions involontaires, de mieux contrôler la personnalisation des modèles et d’améliorer l’efficacité et la fiabilité de vos campagnes par e-mail.
 
 >[!IMPORTANT]
 >
->Le verrouillage de contenu est une fonctionnalité de niveau éditeur pour les auteurs et les autrices qui ne garantit pas que le contenu restera non modifié lors de son importation ou de sa création via l’API.
+>Le verrouillage du contenu est une fonctionnalité au niveau de l’éditeur pour les personnes chargées de la création et ne garantit pas que le contenu ne sera pas modifié s’il est importé ou créé via une API.
 
-Le verrouillage de contenu peut être appliqué au niveau **structure** ou au niveau **composant**. Vous trouverez ci-dessous les principes principaux qui s’appliquent au niveau de la structure et du composant lors du verrouillage de contenu dans votre modèle :
+Le verrouillage du contenu peut être appliqué au niveau de la **structure** ou au niveau du **composant**. Voici les principaux principes qui s’appliquent au niveau de la structure et au niveau du composant lors du verrouillage du contenu dans votre modèle :
 
 * Lorsqu’une structure est verrouillée :
 
@@ -95,13 +95,13 @@ Vous pouvez activer le verrouillage de contenu pour un modèle d’e-mail direct
    * [Découvrir comment verrouiller des structures](#lock-structures)
    * [Découvrir comment verrouiller des composants](#lock-components)
 
-   Si vous avez choisi le mode **[!UICONTROL Lecture seule]**, finalisez et enregistrez votre modèle comme vous le faites habituellement.
+   Si vous choisissez le mode **[!UICONTROL Lecture seule]**, vous pouvez terminer et enregistrer votre modèle de la manière habituelle.
 
-Vous pouvez ajuster les paramètres de **[!UICONTROL Gouvernance]** à tout moment lors de la conception de votre modèle en sélectionnant le corps du modèle. Pour ce faire, cliquez sur le lien **[!UICONTROL Corps]** dans le rail de navigation situé en haut du volet droit.
+Vous pouvez ajuster les paramètres de **[!UICONTROL gouvernance]** à tout moment lors de la conception de votre modèle en sélectionnant le corps du modèle. Pour ce faire, cliquez sur le lien **[!UICONTROL Corps]** dans le rail de navigation situé en haut du volet de droite.
 
 ![](assets/template-lock-body.png)
 
-### Verrouillage des structures {#lock-structures}
+### Verrouiller des structures {#lock-structures}
 
 >[!CONTEXTUALHELP]
 >id="ajo_locking_structure"
@@ -156,7 +156,7 @@ Pour verrouiller un composant spécifique dans une structure :
 
 ### Identification du contenu verrouillé {#identify}
 
-Pour identifier facilement les structures et composants verrouillés dans votre modèle, utilisez l’**[!UICONTROL arborescence de navigation]** située dans le menu de gauche. Ce menu présente une vue d’ensemble visuelle de tous les éléments de modèle, en mettant en surbrillance les éléments verrouillés avec une icône de verrouillage et les éléments modifiables avec une icône en forme de crayon.
+Pour identifier facilement les structures et les composants verrouillés dans votre modèle, utilisez l’**[!UICONTROL arborescence de navigation]** située dans le menu de gauche. Ce menu présente une vue d’ensemble visuelle de tous les éléments de modèle, en mettant en surbrillance les éléments verrouillés avec une icône de verrouillage et les éléments modifiables avec une icône en forme de crayon.
 
 Dans l’exemple ci-dessous, la gouvernance est activée pour le corps du modèle. *La structure 2* est verrouillée avec le *composant 1* modifiable, tandis que la *structure 3* est entièrement verrouillée.
 
@@ -173,16 +173,16 @@ Lors de l’utilisation d’un modèle avec du contenu verrouillé, le message *
 
 Selon le type de verrouillage appliqué au modèle, vous pouvez effectuer différentes actions sur les structures et composants du modèle. Pour identifier rapidement toutes les zones modifiables dans le modèle, activez l’option **[!UICONTROL Mettre en surbrillance les zones modifiables]**.
 
-Par exemple, dans le modèle ci-dessous, toutes les zones sont modifiables, à l’exception de l’image supérieure, qui a été verrouillée, ce qui signifie que vous ne pouvez pas la modifier ni la supprimer.
+Par exemple, dans le modèle ci-dessous, toutes les zones sont modifiables, à l’exception de l’image du haut qui a été verrouillée, ce qui signifie que vous ne pouvez pas la modifier ni la supprimer.
 
 ![](assets/template-lock-highlight.png)
 
-Vous trouverez des informations détaillées sur les différents types de verrouillage pouvant être appliqués dans les sections suivantes :
+Pour plus d’informations sur les différents types de verrouillage qui peuvent être appliqués, consultez les sections suivantes :
 
-* [Verrouillage des structures](#lock-structures)
+* [Verrouiller des structures](#lock-structures)
 * [Verrouillage des composants](#lock-components)
 
-Voici quelques exemples d’éditions d’e-mail et des configurations de verrouillage de contenu associées qui ont été configurées :
+Voici quelques exemples de modifications d’e-mails et de configurations de verrouillage de contenu associées qui ont été appliquées :
 
 | Type de verrouillage de contenu | Configuration des modèles | Modification d’e-mails |
 | ------- | ------- | ------- |
@@ -196,4 +196,4 @@ Voici quelques exemples d’éditions d’e-mail et des configurations de verrou
 
 Découvrez comment verrouiller le contenu dans vos modèles d’e-mail.
 
->[!VIDEO](https://video.tv.adobe.com/v/3451609?quality=12&captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/3451591?quality=12)

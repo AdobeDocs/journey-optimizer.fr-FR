@@ -1,8 +1,8 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Utilisation des données Adobe Experience Platform (Beta)
-description: Découvrez comment utiliser les jeux de données Adobe Experience Platform dans les fonctionnalités  [!DNL Journey Optimizer]  prise de décision et de personnalisation.
+title: Utiliser les données Adobe Experience Platform (version Beta)
+description: Découvrez comment utiliser des jeux de données Adobe Experience Platform dans les fonctionnalités de prise de décision et de personnalisation de  [!DNL Journey Optimizer] .
 badge: label="Beta" type="Informative"
 feature: Personalization, Rules
 topic: Personalization
@@ -11,23 +11,23 @@ level: Intermediate
 keywords: expression, éditeur
 exl-id: 44a8bc87-5ab0-45cb-baef-e9cd75432bde
 source-git-commit: 416f82a932f0b484d8463ff24090a7061461822f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '435'
-ht-degree: 78%
+ht-degree: 100%
 
 ---
 
-# Utilisation des données Adobe Experience Platform {#aep-data}
+# Utiliser des données Adobe Experience Platform {#aep-data}
 
 >[!AVAILABILITY]
 >
->Cette fonctionnalité est actuellement disponible en version bêta publique pour l’ensemble des clientes et des clients.
+>Cette fonctionnalité est actuellement disponible en version Beta publique pour l’ensemble des clientes et clients.
 >
->Pour utiliser cette fonctionnalité, vous devez d’abord accepter les conditions générales de la version bêta de votre entreprise.
+>Pour utiliser cette fonctionnalité, vous devez d’abord accepter les conditions générales de la version Beta pour votre entreprise.
 
-Journey Optimizer vous permet d’exploiter les données de Adobe Experience Platform dans [!DNL Journey Optimizer]. Pour ce faire, les jeux de données nécessaires à la personnalisation de la recherche doivent d’abord être activés par le biais d’un appel API, comme décrit ci-dessous. Une fois cette opération terminée, vous pouvez utiliser leurs données avec des fonctionnalités de personnalisation et de prise de décision [!DNL Journey Optimizer].
+Journey Optimizer vous permet d’exploiter les données d’Adobe Experience Platform dans [!DNL Journey Optimizer]. Pour ce faire, les jeux de données nécessaires à la personnalisation de la recherche doivent d’abord être activés par le biais d’un appel API, comme décrit ci-dessous. Une fois cette opération terminée, vous pouvez utiliser leurs données avec les fonctionnalités de personnalisation et de prise de décision de [!DNL Journey Optimizer].
 
-## Restrictions et directives de la version bêta {#guidelines}
+## Restrictions et directives de la version Beta {#guidelines}
 
 Avant de commencer, consultez les restrictions et les directives suivantes :
 
@@ -78,7 +78,7 @@ Où ce qui suit est vrai :
 >
 >```
 
-Une fois qu’un jeu de données a été activé pour la recherche à l’aide d’un appel API, vous pouvez utiliser ses données avec [!DNL Journey Optimizer] fonctionnalités de personnalisation et de prise de décision.
+Une fois qu’un jeu de données a été activé pour la recherche à l’aide d’un appel API, vous pouvez utiliser ses données dans les fonctionnalités de personnalisation et de prise de décision de [!DNL Journey Optimizer].
 
 * [Utiliser des données Adobe Experience Platform à des fins de personnalisation](../personalization/aep-data-perso.md)
-* [Utilisation des données Adobe Experience Platform pour la prise de décision](../experience-decisioning/aep-data-exd.md)
+* [Utiliser des données Adobe Experience Platform à des fins de prise de décision](../experience-decisioning/aep-data-exd.md)

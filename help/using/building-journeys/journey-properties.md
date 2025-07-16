@@ -10,9 +10,9 @@ level: Intermediate
 keywords: parcours, configuration, propriétés
 exl-id: 6c21371c-6cbc-4d39-8fe6-39f1b8b13280
 source-git-commit: 7d5d27d9509dd80fece2e360d58437d26df7c4de
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '2392'
+ht-degree: 100%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 0%
 
 ## Accéder aux propriétés d’un parcours {#access-properties}
 
-Les propriétés d’un parcours sont centralisées dans le rail de droite. Cette section est affichée par défaut lors de la création d’un parcours. Pour les parcours existants, cliquez sur l’icône en forme de crayon en regard du nom du parcours pour l’ouvrir.
+Les propriétés d’un parcours sont centralisées dans le rail de droite. Cette section est affichée par défaut lors de la création d’un parcours. Pour les parcours existants, cliquez sur l’icône en forme de crayon à côté du nom du parcours pour l’ouvrir.
 
 Dans cette section, choisissez le nom du parcours, ajoutez une description et définissez les propriétés globales du parcours.
 
@@ -33,7 +33,7 @@ Vous pouvez effectuer les actions suivantes :
 
 * Attribuer des balises unifiées Adobe Experience Platform à votre parcours afin de les classer facilement et d’améliorer la recherche dans la liste des campagnes. [Découvrir comment utiliser les balises](../start/search-filter-categorize.md#tags)
 * Sélectionner les mesures du parcours. [Découvrir comment configurer et suivre vos mesures de parcours.](success-metrics.md)
-* Gérer [l’entrée et la rentrée](#entrance). La gestion des entrées de profil dépend du type de parcours. Pour plus d’informations, consultez [cette page](entry-management.md).
+* Gérer [l’entrée et la rentrée](#entrance). La gestion des entrées de profils dépend du type de parcours. Pour plus d’informations, consultez [cette page](entry-management.md).
 * Gérer l’[accès aux données](#manage-access)
 * Sélectionner les [fuseaux horaires](#timezone) des parcours et des profils.
 * Choisir des [dates de début et de fin](#dates) personnalisées.
@@ -44,9 +44,9 @@ Vous pouvez effectuer les actions suivantes :
 
 >[!NOTE]
 >
->Pour les parcours actifs, cet écran affiche la date de publication et le nom de l’utilisateur ou de l’utilisatrice qui a publié le parcours.
+>Pour les parcours actifs, cet écran affiche uniquement la date de publication et le nom de l’utilisateur ou de l’utilisatrice qui a publié le parcours.
 
-L&#39;option **Copier les détails techniques** permet de copier les informations techniques relatives au parcours que l&#39;équipe d&#39;assistance technique peut utiliser pour résoudre les problèmes. Les informations suivantes sont copiées : `JourneyVersion UID`, `OrgID`, `orgName`, `sandboxName`, `lastDeployedBy`, `lastDeployedAt`.
+L’option **Copier les détails techniques** vous permet de copier les informations techniques relatives au parcours qui pourront être utiles à l’équipe d’assistance technique pour résoudre les éventuels problèmes. Les informations suivantes sont copiées : `JourneyVersion UID`, `OrgID`, `orgName`, `sandboxName`, `lastDeployedBy`, `lastDeployedAt`.
 
 Pour plus d’informations sur les champs techniques liés à un parcours pour un profil donné et comment les utiliser, consultez [cette page](expression/journey-properties.md).
 
@@ -54,7 +54,7 @@ Pour plus d’informations sur les champs techniques liés à un parcours pour u
 
 Le mode d’entrée des profils est défini au niveau du parcours, dans le volet de configuration de droite. Les paramètres sont décrits ci-dessous.
 
-La gestion des entrées de profil dépend du type de parcours. Pour plus d’informations sur la gestion des entrées et des rentrées de profils, consultez [cette page](entry-management.md).
+La gestion des entrées de profils dépend du type de parcours. Pour plus d’informations sur la gestion des entrées et des rentrées de profils, consultez [cette page](entry-management.md).
 
 ### Autoriser une nouvelle rentrée  {#allow-reentrance}
 
@@ -78,7 +78,7 @@ Lorsque l’option **Autoriser une rentrée** est activée, le champ **Période 
 
 ## Gérer l’accès {#manage-access}
 
-Vous pouvez restreindre l’accès à un parcours en fonction des libellés d’accès.
+Vous pouvez limiter l’accès à un parcours en fonction des libellés d’accès.
 
 Pour attribuer des libellés d’utilisation des données personnalisés au parcours, cliquez sur l’icône **[!UICONTROL Gérer les libellés d’accès]** et sélectionnez un ou plusieurs libellés.
 
@@ -135,7 +135,7 @@ Une personne ne peut entrer dans une activité d’attente que si elle dispose d
 
 #### Questions fréquentes sur la durée de vie (TTL) et la rétention des données {#timeout-faq}
 
-À compter de la version de juin 2024 d’Adobe Journey Optimizer, la temporisation globale du parcours est passée de 30 à 91 jours. Les impacts sont répertoriés dans les questions fréquentes ci-dessous :
+À compter de la version de juin 2024 d’Adobe Journey Optimizer, la temporisation globale du parcours est passée de 30 à 91 jours. Les éléments affectés sont répertoriés dans les questions fréquentes ci-dessous :
 
 **Pour les parcours unitaires**
 <table style="table-layout:auto">

@@ -6,10 +6,11 @@ description: Découvrez comment créer des modèles d’IA pour classer les offr
 feature: Ranking, Decision Management
 role: User
 level: Intermediate
-source-git-commit: 58f4fdf8ec3cdb609efebf5b8713f6b770ef5414
-workflow-type: tm+mt
+exl-id: 532392d6-3637-4381-984d-f5b630f6d32d
+source-git-commit: 18a1020971dc6a1101e4e35c1523d004f3fd4188
+workflow-type: ht
 source-wordcount: '679'
-ht-degree: 77%
+ht-degree: 100%
 
 ---
 
@@ -40,9 +41,9 @@ Pour créer un modèle d’IA, procédez comme suit :
 
 1. Cliquez sur le bouton **[!UICONTROL Créer un modèle d’IA]**.
 
-1. Spécifiez un nom unique et, si nécessaire, une description pour le modèle d’IA.
+1. Spécifiez un nom unique et une description pour le modèle d’IA, le cas échéant.
 
-1. Sélectionnez le type de modèle d’IA que vous souhaitez créer :
+1. Sélectionnez le type de modèle d’IA que vous souhaitez créer :
 
    * L’option **[!UICONTROL Optimisation automatique]** optimise les offres en fonction des performances des offres antérieures. [En savoir plus](auto-optimization-model.md)
    * L’**[!UICONTROL optimisation personnalisée]** optimise et personnalise les offres en fonction des audiences et des performances des offres. [En savoir plus](personalized-optimization-model.md)
@@ -55,7 +56,7 @@ Pour créer un modèle d’IA, procédez comme suit :
    * Les **événements d’impression** (les offres qui sont affichées).
    * Les **événements de conversion** (les offres qui génèrent des clics par e-mail ou sur le Web).
 
-   Ces événements sont automatiquement capturés à l’aide du SDK Web ou du SDK Mobile fourni. En savoir plus dans la présentation de [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=fr).
+   Ces événements sont automatiquement capturés à l’aide du SDK Web ou du SDK Mobile fourni. Pour plus d’informations, consultez la vue d’ensemble du [SDK Web Adobe Experience Platform](https://experienceleague.adobe.com//docs/experience-platform/edge/home.html?lang=fr).
 
 +++ Optimisation de modèles sur des mesures [!DNL Customer Journey Analytics] personnalisées
 
@@ -65,11 +66,11 @@ Pour créer un modèle d’IA, procédez comme suit :
    >
    >Avant de commencer, assurez-vous d’avoir intégré Journey Optimizer à Customer Journey Analytics afin d’exporter des jeux de données Journey Optimizer dans vos vues de données par défaut. [Découvrir comment exploiter les données  [!DNL Journey Optmizer]  dans  [!DNL Customer Journey Analytics]](../../reports/cja-ajo.md)
 
-   Les modèles **[!UICONTROL Optimisation personnalisée]** sont un type de modèle d’IA qui vous permet de définir des objectifs commerciaux et d’utiliser les données client pour entraîner des modèles orientés métier afin de diffuser des offres personnalisées et d’optimiser les KPI.
+   Les modèles d’**[!UICONTROL optimisation personnalisée]** sont un type de modèle d’IA qui vous permet de définir des objectifs métier et d’utiliser les données client pour entraîner des modèles orientés métier afin de diffuser des offres personnalisées et d’optimiser les KPI.
 
    Par défaut, les modèles d’optimisation personnalisés utilisent les **clics sur l’offre** comme mesure d’optimisation. Si vous utilisez [!DNL Customer Journey Analytics], [!DNL Decisioning] vous permet de tirer profit de vos propres mesures personnalisées pour optimiser votre modèle.
 
-   Pour ce faire, sélectionnez le type de modèle **[!UICONTROL Optimisation personnalisée]** et développez le menu déroulant **[!UICONTROL Événement de conversion]**. Toutes les mesures de votre [!DNL Customer Journey Analytics] [vue de données](https://experienceleague.adobe.com/fr/docs/analytics-platform/using/cja-dataviews/data-views){target="_blank"} par défaut s’affichent dans la liste. Sélectionnez la mesure sur laquelle vous souhaitez optimiser votre modèle.
+   Pour ce faire, sélectionnez le type de modèle **[!UICONTROL Optimisation personnalisée]** et développez la liste déroulante **[!UICONTROL Événement de conversion]**. Toutes les mesures de votre [vue de données](https://experienceleague.adobe.com/fr/docs/analytics-platform/using/cja-dataviews/data-views){target="_blank"} [!DNL Customer Journey Analytics] par défaut s’affichent dans la liste. Sélectionnez la mesure que vous souhaitez utiliser pour optimiser votre modèle.
 
    ![](../assets/ai-model-custom-metrics.png){width=85%}
 
@@ -83,13 +84,13 @@ Pour créer un modèle d’IA, procédez comme suit :
 
 +++
 
-1. Sélectionnez le ou les jeux de données dans lesquels les événements de conversion et d’impression sont collectés. Découvrez comment créer de tels jeux de données dans [cette section](../data-collection/create-dataset.md).
+1. Sélectionnez le ou les jeux de données dans lesquels les événements de conversion et d’impression sont collectés. Découvrez comment créer ce type de jeu de données dans [cette section](../data-collection/create-dataset.md).
 
    ![](../assets/ai-model-datasets.png){width=85%}
 
    >[!CAUTION]
    >
-   >Seuls les jeux de données créés à partir de schémas associés au groupe de champs **[!UICONTROL Événement d&#39;expérience - Interactions de propositions]** (précédemment appelé « mixin ») s&#39;affichent dans la liste déroulante.
+   >Seuls les jeux de données créés à partir de schémas associés au groupe de champs **[!UICONTROL Événement d’expérience - Interactions avec les propositions]** (précédemment appelé « mixin ») s’affichent dans la liste déroulante.
 
 1. Si vous créez un modèle d’IA **[!UICONTROL Optimisation personnalisée]**, sélectionnez le ou les segments à utiliser pour entraîner le modèle d’IA.
 
@@ -107,7 +108,7 @@ Pour créer un modèle d’IA, procédez comme suit :
 * defined which type of event you want to capture - offer displayed (impression) and/or offer clicked (conversion),
 * and in which dataset you want to collect the event data.-->
 
-Désormais, chaque fois qu’une offre s’affiche et/ou fait l’objet d’un clic, vous souhaitez que l’événement correspondant soit automatiquement capturé par le groupe de champs **[!UICONTROL Événement d’expérience - Interactions de proposition]** à l’aide du [SDK Web Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/edge/web-sdk-faq.html?lang=fr#what-is-adobe-experience-platform-web-sdk%3F){target="_blank"} ou de Mobile SDK.
+Désormais, chaque fois quʼune offre est présentée et/ou qu’un utilisateur ou une utilisatrice clique dessus, vous souhaitez que lʼévénement correspondant soit automatiquement capturé par le groupe de champs **[!UICONTROL Événement dʼexpérience - Interactions avec les propositions]** à lʼaide du [SDK Web Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/edge/web-sdk-faq.html?lang=fr#what-is-adobe-experience-platform-web-sdk%3F){target="_blank"} ou du SDK mobile.
 
 Pour envoyer des types d’événement (offre affichée ou offre ayant fait l’objet d’un clic), vous devez définir la valeur correcte pour chaque type d’événement dans un événement d’expérience qui est envoyé dans Adobe Experience Platform. [Voici comment procéder.](../data-collection/schema-requirement.md)
 
@@ -116,4 +117,4 @@ Pour envoyer des types d’événement (offre affichée ou offre ayant fait l�
 
 Learn how to create a personalized optimization model and how to apply it to a decision.
 
->[!VIDEO](https://video.tv.adobe.com/v/3445953?quality=12&captions=fre_fr)-->
+>[!VIDEO](https://video.tv.adobe.com/v/3419954?quality=12)-->

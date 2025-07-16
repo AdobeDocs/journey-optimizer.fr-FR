@@ -9,9 +9,9 @@ hide: true
 hidefromtoc: true
 exl-id: 32e3a5b9-0633-48df-95b5-c03536be23a1
 source-git-commit: 58f4fdf8ec3cdb609efebf5b8713f6b770ef5414
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '378'
-ht-degree: 86%
+ht-degree: 100%
 
 ---
 
@@ -21,8 +21,8 @@ ht-degree: 86%
 
 Vous pouvez collecter des commentaires concernant la prise de décisions sur les offres dans Adobe Experience Platform, notamment par rapport aux offres présentées et à la manière dont les utilisateurs et utilisatrices interagissent avec elles. Tirez ensuite parti de ces données dans les scénarios suivants :
 
-* élaborer des [rapports de prise de décision](../cja-reporting.md) ;
-* Utilisation des règles [capping](../items.md#capping) ;
+* Élaborer des [rapports de prise de décision](../cja-reporting.md)
+* Utiliser des règles de [limitation](../items.md#capping)
 * créer des [modèles d’IA](../ranking/ai-models.md) qui peuvent être utilisés comme méthode de classement.
 
 ## Types d’événements
@@ -31,7 +31,7 @@ Le mode de collecte de données varie en fonction du type d’événement que vo
 
 ### Événements de décision
 
-Chaque fois que Decisioning prend une décision, les informations relatives à cet événement de décision sont **automatiquement** envoyées à Adobe Experience Platform. <!--TBC + link-->
+Chaque fois que la prise de décision prend une décision, les informations relatives à cet événement de décision sont **automatiquement** envoyées à Adobe Experience Platform. <!--TBC + link-->
 
 ### Événements d’impression et de clic
 
@@ -47,9 +47,9 @@ Les **e-mails** créés par [!DNL Journey Optimizer] effectuent **automatiquemen
 
 Cependant, pour la **plupart des canaux**, les données relatives aux impressions et aux clics doivent être transmises à Adobe Experience Platform en tant qu’**événement d’expérience**. Cela inclut :
 
-* Pages web utilisant [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=fr){target="_blank"} pour effectuer le rendu des offres
+* Les pages web utilisant le [SDK Web Adobe Experience Platform](https://experienceleague.adobe.com//docs/experience-platform/edge/home.html?lang=fr){target="_blank"} pour afficher les offres
 
-* Applications mobiles utilisant [Adobe Experience Platform Mobile SDK](https://experienceleague.adobe.com/docs/platform-learn/data-collection/mobile-sdk/overview.html?lang=fr){target="_blank"} pour effectuer le rendu des offres - [En savoir plus](https://developer.adobe.com/client-sdks/documentation/adobe-journey-optimizer-decisioning/#ab-sj-tracking-servers){target="_blank"}
+* Les applications mobiles utilisant le [SDK mobile Adobe Experience Platform](https://experienceleague.adobe.com/docs/platform-learn/data-collection/mobile-sdk/overview.html?lang=fr){target="_blank"} pour afficher les offres - [En savoir plus](https://developer.adobe.com/client-sdks/documentation/adobe-journey-optimizer-decisioning/#ab-sj-tracking-servers){target="_blank"}
 * les kiosques,
 * les messages envoyés par le biais d’applications tierces.
   <!--Mobile push notifications authored by [!DNL Journey Optimizer] - [Learn more](https://developer.adobe.com/client-sdks/documentation/adobe-journey-optimizer/api-reference/#handlenotificationresponse){target="_blank"}-->

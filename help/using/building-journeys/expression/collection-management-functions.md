@@ -9,18 +9,18 @@ level: Experienced
 keywords: requête, collections, fonctions, payload, parcours
 exl-id: 09b38179-9ace-4921-985b-ddd17eb64681
 source-git-commit: 8e020f79e0f44e6fc804fcceb149146f9644c777
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '481'
-ht-degree: 74%
+ht-degree: 100%
 
 ---
 
 # Fonctions de gestion des collections {#collection-management-functions}
 
 
-## À propos des fonctions de collecte de requêtes
+## À propos des fonctions d’interrogation de collections
 
-Le langage d’expression introduit également un ensemble de fonctions pour interroger des collections. Ces fonctions sont expliquées ci-dessous.
+Le langage d’expression s’accompagne également d’un ensemble de fonctions permettant d’interroger les collections. Ces fonctions sont expliquées ci-dessous.
 
 Dans les exemples suivants, nous allons utiliser la payload d’événement contenant une collection :
 
@@ -79,11 +79,11 @@ Dans une activité Condition de source de données, vous pouvez vérifier si le 
 
 >[!CAUTION]
 >
->L’utilisation d’événements d’expérience dans des expressions/conditions de parcours n’est pas prise en charge. Si votre cas d’utilisation nécessite l’utilisation d’événements d’expérience, envisagez d’autres méthodes. [En savoir plus](../exp-event-lookup.md)
+>L’utilisation d’événements d’expérience dans des expressions/conditions de parcours n’est pas prise en charge. Si votre cas d’utilisation nécessite l’utilisation d’événements d’expérience, envisagez d’utiliser d’autres méthodes. [En savoir plus](../exp-event-lookup.md)
 
-### Exemple 1
+### Exemple 1
 
-Nous voulons vérifier si un utilisateur a installé une version spécifique d’une application. Pour ce faire, nous récupérons tous les jetons de notification push associés aux applications mobiles dont la version est égale à 1.0. Ensuite, nous exécutons une condition avec la fonction **[!UICONTROL count]** pour vérifier que la liste de jetons renvoyée contient au moins un élément. 
+Nous voulons vérifier si un utilisateur ou une utilisatrice a installé une version spécifique d’une application. Pour ce faire, nous récupérons tous les jetons de notification push associés aux applications mobiles dont la version est égale à 1.0. Ensuite, nous exécutons une condition avec la fonction **[!UICONTROL count]** pour vérifier que la liste de jetons renvoyée contient au moins un élément. 
 
 ```json
 count(@event{LobbyBeacon._experience.campaign.message.profile.pushNotificationTokens.all(currentEventField.application.version == "1.0").token}) > 0
@@ -91,7 +91,7 @@ count(@event{LobbyBeacon._experience.campaign.message.profile.pushNotificationTo
 
 Le résultat est true.
 
-### Exemple 2
+### Exemple 2
 
 Ici, nous utilisons la fonction **[!UICONTROL count]** pour vérifier s’il existe des jetons de notification push dans la collection.
 
@@ -112,11 +112,11 @@ Le résultat de l’expression est **3**.
 
 >[!NOTE]
 >
->* Lorsque la condition de filtrage de la fonction **all()** est vide, le filtre renvoie tous les éléments de la liste. **Toutefois, pour compter le nombre d’éléments d’une collection, la fonction all n’est pas obligatoire.
+>* Lorsque la condition de filtrage de la fonction **all()** est vide, le filtre renvoie tous les éléments de la liste. ** Cependant, pour comptabiliser le nombre d’éléments d’une collection, la fonction all n’est pas obligatoire.
 >
 >* `currentEventField` n’est disponible que lors de la manipulation de collections d’événements, `currentDataPackField` lors de la manipulation de collections de sources de données et `currentActionField` lors de la manipulation de collections de réponses d’actions personnalisées.
 >
->  Lors du traitement des collections avec `all`, `first` et `last`, nous effectuons une boucle sur chaque élément de la collection, un par un. `currentEventField`, `currentDataPackField` et `currentActionField` correspondent à l&#39;élément en boucle.
+>  Lors du traitement de collections avec `all`, `first` et `last`, une boucle est exécutée sur chaque élément de la collection, un par un. `currentEventField`, `currentDataPackField` et `currentActionField` correspondent à l’élément exécuté en boucle.
 
 
 ## Fonctions first(`<condition>`) et last(`<condition>`)
@@ -127,9 +127,9 @@ _`<listExpression>.first(<condition>)`_
 
 _`<listExpression>.last(<condition>)`_
 
-### Exemple 1
+### Exemple 1
 
-Cette expression renvoie le premier jeton de notification push associé aux applications mobiles dont la version est égale à 1.0. 
+Cette expression renvoie le premier jeton de notification push associé aux applications mobiles dont la version est égale à 1.0. 
 
 
 ```json
@@ -138,9 +138,9 @@ Cette expression renvoie le premier jeton de notification push associé aux appl
 
 Le résultat est `token_1`.
 
-### Exemple 2
+### Exemple 2
 
-Cette expression renvoie le dernier jeton de notification push associé aux applications mobiles dont la version est égale à 1.0. 
+Cette expression renvoie le dernier jeton de notification push associé aux applications mobiles dont la version est égale à 1.0. 
 
 
 ```json

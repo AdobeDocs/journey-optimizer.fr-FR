@@ -10,9 +10,9 @@ hide: true
 hidefromtoc: true
 exl-id: 271fb85d-5621-4a12-b3d1-65cf6021b174
 source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '983'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -57,7 +57,7 @@ Cette section vous guide sur la mise à l’échelle avec les deux limites suiva
 
 Il existe un certain nombre de bonnes pratiques que vous pouvez adopter, qui vous aideront à respecter les mécanismes de sécurisation et à utiliser le système efficacement.
 
-* Si vous approchez de votre limite de parcours en direct, la première étape que vous pouvez effectuer consiste à accéder à l’onglet **Présentation** sous **Parcours** pour voir combien de parcours étaient actifs au cours des dernières 24 heures, parcours qui avaient des profils actifs. Vous pouvez vérifier le nombre de profils entrant et sortant du parcours dans cette section.
+* Si vous approchez de votre limite de parcours actifs, la première chose que vous pouvez faire est d’accéder à l’onglet **Vue d’ensemble** dans **Parcours** pour voir le nombre de parcours actifs au cours des dernières 24 heures qui comprennent des profils actifs. Vous pouvez vérifier le nombre de profils entrant et sortant du parcours dans cette section.
 
   ![](assets/journey-guardrails2.png)
 

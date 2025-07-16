@@ -1,8 +1,8 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Résolution des erreurs avant de tester ou de publier votre parcours
-description: Découvrez comment résoudre les erreurs avant de tester ou de publier votre parcours
+title: Résoudre les erreurs avant de tester ou de publier votre parcours
+description: Découvrez comment résoudre les erreurs avant de tester ou de publier votre parcours.
 feature: Journeys
 topic: Content Management
 role: User
@@ -10,25 +10,25 @@ level: Intermediate
 keywords: dépannage, résolution des problèmes, parcours, vérification, erreurs
 exl-id: 03fbc4f4-b0a8-46d5-91f9-620685b11493
 source-git-commit: 61498b61f7f05e0553fe575c980fd1bee08500a3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '456'
-ht-degree: 82%
+ht-degree: 100%
 
 ---
 
-# Résolution des erreurs avant de tester votre parcours {#troubleshooting}
+# Résoudre les erreurs avant de tester votre parcours {#troubleshooting}
 
 Cette section décrit comment résoudre les problèmes liés aux parcours avant de les tester ou de les publier. Il est possible d&#39;effectuer les vérifications répertoriées ci-dessous lorsque le parcours est en mode test ou actif. Il est recommandé de les réaliser en mode test, puis d&#39;effectuer la publication. En savoir plus sur le mode test sur [cette page](../building-journeys/testing-the-journey.md).
 
-Découvrez comment résoudre les problèmes liés aux événements de parcours, vérifier si les profils ont rejoint votre parcours, comment ils le parcourent et si des messages sont envoyés [sur cette page](troubleshooting-execution.md).
+Découvrez [dans cette page](troubleshooting-execution.md) comment résoudre les problèmes liés aux événements de parcours. Apprenez également comment vérifier si des profils ont rejoint votre parcours et la façon dont ils progressent dans celui-ci, et si des messages sont envoyés.
 
-Si vous utilisez des actions entrantes, découvrez comment les résoudre [sur cette page](troubleshooting-inbound.md).
+Si vous utilisez des actions entrantes, découvrez comment résoudre les problèmes liés à ces dernières [dans cette page](troubleshooting-inbound.md).
 
 ## Erreurs dans les activités {#activity-errors}
 
 Avant de tester et de publier votre parcours, vérifiez que toutes les activités sont correctement configurées. Vous ne pouvez pas effectuer de tests ou de publications si des erreurs sont détectées par le système.
 
-Les erreurs sont représentées par un symbole d&#39;avertissement, affiché sur l&#39;activité elle-même, dans la zone de travail. Placez le curseur sur le point d&#39;exclamation pour afficher le message d&#39;erreur. Si vous sélectionnez l’activité, la ligne contenant l’erreur doit s’afficher avec un avertissement. Par exemple :
+Les erreurs sont représentées par un symbole d&#39;avertissement, affiché sur l&#39;activité elle-même, dans la zone de travail. Placez le curseur sur le point d&#39;exclamation pour afficher le message d&#39;erreur. Si vous sélectionnez l’activité, vous devez voir la ligne contenant l’erreur accompagnée d’un avertissement. Par exemple :
 
 * si un champ obligatoire est vide, une erreur s’affiche ;
 

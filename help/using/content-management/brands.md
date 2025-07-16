@@ -9,9 +9,9 @@ role: User
 level: Beginner, Intermediate
 exl-id: b1b7abbe-8600-4a8d-b0b5-0dbd49abc275
 source-git-commit: f9266d01610b92d8a55be8263da6bb808b3cc8ff
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1471'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -34,7 +34,7 @@ ht-degree: 98%
 
 >[!AVAILABILITY]
 >
->Cette fonctionnalité est disponible en version bêta privée. Elle sera progressivement disponible pour l’ensemble de la clientèle dans les versions ultérieures.
+>Cette fonctionnalité est disponible en version Beta privée. Elle sera progressivement disponible pour l’ensemble de la clientèle dans les versions ultérieures.
 >
 >Vous devez accepter le [contrat d’utilisation](https://www.adobe.com/fr/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"} avant de pouvoir utiliser l’Assistant IA dans Adobe Journey Optimizer. Pour plus d’informations, contactez votre représentant ou représentante Adobe.
 
@@ -48,7 +48,7 @@ Pour accéder au menu **[!UICONTROL Marques]** dans [!DNL Adobe Journey Optimize
 
 +++  Découvrez comment attribuer des autorisations liées à la marque.
 
-Pour attribuer des autorisations aux marques, procédez comme suit :
+Pour attribuer des autorisations aux marques, procédez comme suit :
 
 1. Dans le produit **Autorisations**, accédez à l’onglet **Rôles** et sélectionnez le **Rôle** de votre choix.
 

@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 exl-id: 8dd48bb2-a805-4c46-a16c-c68173a9ac08
 source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '513'
+ht-degree: 100%
 
 ---
 
@@ -53,7 +53,7 @@ Vous pouvez modifier chaque tableau de bord de reporting en redimensionnant ou e
 
    ![](assets/report_modify_9.png)
 
-1. Une fois satisfait de l&#39;ordre d&#39;affichage et de la taille de vos widgets, cliquez sur **[!UICONTROL Enregistrer]**.
+1. Une fois que l’ordre d’affichage et la taille des widgets vous conviennent, cliquez sur **[!UICONTROL Enregistrer]**.
 
 1. Pour personnaliser l’affichage de vos données, basculez entre les différentes options de visualisation disponibles, telles que les graphiques, les tableaux et les graphiques en anneau.
 
