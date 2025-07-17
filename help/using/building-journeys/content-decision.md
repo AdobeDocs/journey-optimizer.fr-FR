@@ -10,10 +10,10 @@ level: Intermediate
 badge: label="Disponibilité limitée" type="Informative"
 keywords: activité, prise de décision, décision de contenu, politique de décision, zone de travail, parcours
 exl-id: 6188644a-6a3b-4926-9ae9-0c6b42c96bae
-source-git-commit: 701b2caeac704149c820ce3bf6338107ab4bc9f8
-workflow-type: ht
-source-wordcount: '1030'
-ht-degree: 100%
+source-git-commit: 30234392f9b643fa37be701d4d6878d798ea94fe
+workflow-type: tm+mt
+source-wordcount: '1027'
+ht-degree: 91%
 
 ---
 
@@ -49,7 +49,7 @@ Pour configurer l’activité **[!UICONTROL Décision de contenu]**, suivez les 
 
    ![Ajouter une décision de contenu au parcours ](assets/journey-content-decision.png){width=100%}
 
-1. Vous pouvez, si vous le souhaitez, ajouter un libellé et une description à l’activité.
+1. Vous pouvez éventuellement ajouter un libellé et une description à l’activité.
 
 1. Cliquez sur **[!UICONTROL Ajouter une politique de décision]**. [En savoir plus sur les politiques de décision](../experience-decisioning/create-decision.md).
 
@@ -63,9 +63,9 @@ Pour configurer l’activité **[!UICONTROL Décision de contenu]**, suivez les 
 
 1. Organisez l’ordre d’évaluation selon vos besoins.
 
-   Lors de l’ajout de plusieurs éléments de décision et/ou stratégies, ceux-ci sont évalués dans un ordre séquentiel, indiqué par des nombres à gauche de chaque objet ou groupe d’objets. Pour modifier la séquence par défaut, vous pouvez faire glisser et déposer les objets et/ou les groupes afin de les réorganiser selon vos besoins. [En savoir plus](../experience-decisioning/create-decision.md#evaluation-order)
+   Lors de l’ajout de plusieurs éléments de décision et/ou stratégies, ils sont évalués dans un ordre séquentiel, avec des nombres à gauche de chaque objet ou groupe d’objets. Pour modifier la séquence par défaut, vous pouvez faire glisser et déposer les objets et/ou les groupes afin de les réorganiser selon vos besoins. [En savoir plus](../experience-decisioning/create-decision.md#evaluation-order)
 
-1. Vous pouvez, si vous le souhaitez, ajouter une offre de secours. [En savoir plus](../experience-decisioning/create-decision.md#fallback)
+1. (facultatif) Ajoutez une offre de secours. [En savoir plus](../experience-decisioning/create-decision.md#fallback)
 
 1. Vérifiez et enregistrez votre politique de décision.
 
@@ -85,7 +85,7 @@ Pour tirer parti de la sortie d’une activité Décision de contenu, vous pouve
 
 1. Dans la catégorie **[!UICONTROL Orchestration]**, déposez une activité **[!UICONTROL Condition]** dans votre zone de travail. [En savoir plus](condition-activity.md#add-condition-activity)
 
-1. Vous pouvez, si vous le souhaitez, renommer **[!UICONTROL Path1]**, qui correspond à la première expression que vous définissez, pour lui donner un nom plus pertinent.
+1. (facultatif) Renommez **[!UICONTROL Path1]**, qui correspond à la première expression que vous définissez, en un libellé plus pertinent.
 
 1. Pour ce premier chemin, cliquez dans le champ **[!UICONTROL Expression]** ou utilisez l’icône Modifier pour ajouter une expression.
 
@@ -103,7 +103,7 @@ Pour tirer parti de la sortie d’une activité Décision de contenu, vous pouve
 
    >[!NOTE]
    >
-   >Tout libellé restreint défini sur un attribut, soit dans un événement d’expérience de parcours utilisé dans une règle de décision (en tant que données contextuelles), soit dans le [schéma d’offres](../experience-decisioning/catalogs.md#access-catalog-schema), n’entraîne pas de violation de la politique DULE ou de la politique de consentement. Pour en savoir plus sur les politiques de gouvernance des données, consultez [cette section](../action/action-privacy.md).
+   >Toute étiquette restreinte définie sur un attribut, soit dans un événement d’expérience de parcours utilisé dans une règle de décision (comme données contextuelles), soit dans le [schéma d’offres](../experience-decisioning/catalogs.md#access-catalog-schema), entraîne une violation de la politique pour DULE ou le consentement. Pour en savoir plus sur les politiques de gouvernance des données, consultez [cette section](../action/action-privacy.md).
 
 1. Pour vérifier si une offre a été renvoyée pour les profils qui rejoignent le parcours, utilisez la fonction [listSize](functions/functionlistsize.md) avec la syntaxe suivante : `listSize(@decision{ContentdecisionName.items})>0`
 
