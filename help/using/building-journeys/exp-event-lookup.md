@@ -4,10 +4,10 @@ product: journey optimizer
 title: Recherche d’événements d’expérience dans les parcours
 description: Découvrez comment utiliser la recherche d’événements d’expérience dans les parcours.
 exl-id: 35e2e347-0669-44a3-92ba-aee52e54c219
-source-git-commit: cee47accd4f5427f7e10015eba8b952d4e86daab
-workflow-type: ht
-source-wordcount: '933'
-ht-degree: 100%
+source-git-commit: a587b8754e94781b7735f3d7d5abb9b9767a74a5
+workflow-type: tm+mt
+source-wordcount: '929'
+ht-degree: 92%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 100%
 
 >[!CAUTION]
 >
->À compter du 8 juillet 2025, dans les nouvelles organisations clients, la création d’expressions à l’aide d’événements d’expérience ne sera plus prise en charge dans l’éditeur d’expression utilisé dans les conditions de parcours. Par conséquent, les événements d’expérience dans la [source de données Experience Platform](../datasource/adobe-experience-platform-data-source.md) ne peuvent pas être utilisés pour créer des expressions. Les autres approches et bonnes pratiques pour créer des expressions/logiques avec des événements d’expérience sont référencées ci-dessous.
+>À compter du 8 juillet 2025, dans les nouvelles organisations clientes, la création d’expressions à l’aide d’événements d’expérience n’est plus prise en charge dans l’éditeur d’expression utilisé dans des conditions de parcours. Par conséquent, les événements d’expérience dans la [source de données Experience Platform](../datasource/adobe-experience-platform-data-source.md) ne peuvent pas être utilisés pour créer des expressions. Les autres approches et bonnes pratiques pour créer des expressions/logiques avec des événements d’expérience sont référencées ci-dessous.
 >
 >Vous avez besoin de plus d’informations ? [Consultez les questions fréquentes](#faq-ee).
 
@@ -150,9 +150,9 @@ Seule la recherche d’événements d’expérience dans l’éditeur d’expres
 
 +++
 
-+++Mon organisation Adobe existante sera-t-elle affectée par cette mise à jour ?
++++Mon organisation Adobe existante est-elle affectée par cette mise à jour ?
 
-Votre organisation Adobe ne sera affectée que si vous n’avez pas déjà utilisé la recherche d’événements d’expérience. Si vous utilisez déjà des événements d’expérience dans la [source de données Experience Platform](../datasource/adobe-experience-platform-data-source.md), votre organisation Adobe continuera à prendre en charge la recherche d’événements d’expérience.
+Votre organisation Adobe n’est affectée que si vous n’utilisiez pas déjà la recherche d’événement d’expérience. Si vous utilisez déjà des événements d’expérience dans la source de données [Experience Platform](../datasource/adobe-experience-platform-data-source.md), votre organisation Adobe continue à prendre en charge la recherche d’événements d’expérience.
 
 +++
 
