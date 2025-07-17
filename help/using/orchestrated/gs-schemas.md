@@ -6,10 +6,10 @@ description: Découvrez comment créer un schéma relationnel dans Adobe Experie
 badge: label="Alpha"
 hide: true
 hidefromtoc: true
-source-git-commit: 1a9ea09fcbf304b1649a5ae88da34bd209e9ac8b
+source-git-commit: 3f92dc721648f822687b8efc302c40989b72b145
 workflow-type: tm+mt
-source-wordcount: '272'
-ht-degree: 5%
+source-wordcount: '172'
+ht-degree: 8%
 
 ---
 
@@ -31,30 +31,30 @@ ht-degree: 5%
 
 </br>
 
-Le contenu
-
 Le contenu de cette page n’est pas définitif et peut être modifié.
 
 >[!ENDSHADEBOX]
 
 Ce guide vous guide tout au long du processus de création d’un schéma relationnel, de configuration d’un jeu de données pour des campagnes orchestrées, d’ingestion de données via une source S3 et d’interrogation des données ingérées dans la plateforme AP.
 
-Dans cet exemple, la configuration comprend l’intégration de deux entités clés, **Transactions de fidélité** et **Récompenses de fidélité**, et leur liaison à des entités de base existantes **Destinataires** et **Marques**.
+<!--
+In this example, the setup includes integrating two key entities, **Loyalty Transactions** and **Loyalty Rewards**, and link them to existing core entities **Recipients** and **Brands**. 
 
 ![](assets/do-not-localize/schema_admin.png)
 
-1. [Création d’un schéma relationnel et d’un jeu de données associé](#schema)
+1. [Create relational Schema and associated Dataset](#schema)
+    
+    Define the relational data model for orchestrated campaigns, including the **Loyalty Memberships**, **Loyalty Transactions** and **Loyalty Rewards** entities, along with required keys and versioning attributes.
 
-   Définissez le modèle de données relationnel pour les campagnes orchestrées, y compris les entités **Loyalty Memberships**, **Loyalty Transactions** et **Loyalty Rewards**, ainsi que les clés et attributs de contrôle de version requis.
+1. [Link schema](#link-schema)
 
-1. [Schéma du lien](#link-schema)
+    Link the **Loyalty Transactions** entity to **Recipients**, and **Loyalty Rewards** to **Brands**, to build a connected data model that supports personalized customer journeys.
 
-   Liez l’entité **Transactions de fidélité** à **Destinataires** et **Récompenses de fidélité** à **Marques**, afin de créer un modèle de données connecté prenant en charge les parcours client personnalisés.
+1. [Ingest Data](#ingest)
 
-1. [Ingérer des données](#ingest)
+    Bring data into Adobe Experience Platform from supported sources like SFTP, cloud storage, or databases.
 
-   Insérez des données dans Adobe Experience Platform à partir de sources prises en charge telles que SFTP, l’espace de stockage dans le cloud ou des bases de données.
-
+-->
 
 <!--### Setting Up Change data capture ingestion {#cdc-ingestion}
 
