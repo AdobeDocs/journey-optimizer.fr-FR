@@ -7,7 +7,7 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: af3c3a9c-8172-43b0-bba1-4a3d068b9a9e
-source-git-commit: 1aa4f3e24a4cb7594232c0b25da8c9fd2e62c1de
+source-git-commit: 6eb49e954b7906f668b1c1779c16f3e67003307b
 workflow-type: tm+mt
 source-wordcount: '1129'
 ht-degree: 51%
@@ -25,7 +25,7 @@ ht-degree: 51%
 
 | Bienvenue dans les campagnes orchestrées | Lancer votre première campagne orchestrée | Interroger la base de données | Activités de campagnes orchestrées |
 |---|---|---|---|
-| [Prise en main des campagnes orchestrées](gs-orchestrated-campaigns.md)<br/><br/>Création et gestion de schémas et de jeux de données relationnels :</br> <ul><li>[Schéma manuel](manual-schema.md)</li><li>[Schéma de chargement de fichier](file-upload-schema.md)</li><li>[ Ingérer des données ](ingest-data.md)</li></ul><br/><br/>[Accéder aux campagnes orchestrées et les gérer](../access-manage-orchestrated-campaigns.md) | [Étapes clés de création d’une campagne orchestrée](../gs-campaign-creation.md)<br/><br/>[Créez et planifiez la campagne](../create-orchestrated-campaign.md)<br/><br/>[Orchestrez les activités](../orchestrate-activities.md)<br/><br/>[Lancez et surveillez la campagne](../start-monitor-campaigns.md)<br/><br/>[Reporting](../reporting-campaigns.md) | [Utiliser le créateur de règles](../orchestrated-rule-builder.md)<br/><br/>[Créer votre première requête](../build-query.md)<br/><br/>[Modifier les expressions](../edit-expressions.md)<br/><br/>[Reciblage](../retarget.md) | [Prise en main des activités](about-activities.md)<br/><br/>Activités:<br/>[Et-joindre](and-join.md) - [Créer une audience](build-audience.md) - [Modifier la dimension](change-dimension.md) - [Activités de canal](channels.md) - <b>[Combine](combine.md)</b> - [Deduplication](deduplication.md) - [Enrichissement](enrichment.md) - [Fork](fork.md) - [Reconciliation](reconciliation.md) - [Enregistrer l’audience](save-audience.md) - [Split](split.md) - [Wait](wait.md) |
+| [Prise en main des campagnes orchestrées](../gs-orchestrated-campaigns.md)<br/><br/>Création et gestion de schémas et de jeux de données relationnels :</br> <ul><li>[Schéma manuel](../manual-schema.md)</li><li>[Schéma de chargement de fichier](../file-upload-schema.md)</li><li>[ Ingérer des données ](../ingest-data.md)</li></ul><br/><br/>[Accéder aux campagnes orchestrées et les gérer](../access-manage-orchestrated-campaigns.md) | [Étapes clés de création d’une campagne orchestrée](../gs-campaign-creation.md)<br/><br/>[Créez et planifiez la campagne](../create-orchestrated-campaign.md)<br/><br/>[Orchestrez les activités](../orchestrate-activities.md)<br/><br/>[Lancez et surveillez la campagne](../start-monitor-campaigns.md)<br/><br/>[Reporting](../reporting-campaigns.md) | [Utiliser le créateur de règles](../orchestrated-rule-builder.md)<br/><br/>[Créer votre première requête](../build-query.md)<br/><br/>[Modifier les expressions](../edit-expressions.md)<br/><br/>[Reciblage](../retarget.md) | [Prise en main des activités](about-activities.md)<br/><br/>Activités:<br/>[Et-joindre](and-join.md) - [Créer une audience](build-audience.md) - [Modifier la dimension](change-dimension.md) - [Activités de canal](channels.md) - <b>[Combine](combine.md)</b> - [Deduplication](deduplication.md) - [Enrichissement](enrichment.md) - [Fork](fork.md) - [Reconciliation](reconciliation.md) - [Enregistrer l’audience](save-audience.md) - [Split](split.md) - [Wait](wait.md) |
 
 {style="table-layout:fixed"}
 
@@ -139,7 +139,7 @@ L’exemple suivant illustre l’utilisation de l’**[!UICONTROL Intersection]*
 
 Dans l’activité **[!UICONTROL Combiner]**, vous pouvez configurer une **[!UICONTROL exclusion]**. Pour cela, suivez les étapes supplémentaires ci-dessous :
 
-1. Dans la section **[!UICONTROL Ensembles à joindre]**, choisissez l&#39;ensemble de Principal **&#x200B;**, qui représente la population principale. Les enregistrements trouvés dans les autres ensembles sont exclus de cet ensemble principal.
+1. Dans la section **[!UICONTROL Ensembles à joindre]**, choisissez l&#39;ensemble de Principal ****, qui représente la population principale. Les enregistrements trouvés dans les autres ensembles sont exclus de cet ensemble principal.
 
 1. Si nécessaire, vous pouvez ajuster les tableaux entrants pour aligner les cibles de différentes dimensions. Pour exclure une cible d&#39;une autre dimension, elle doit d&#39;abord être amenée dans la même dimension de ciblage que la population principale. Pour ce faire, cliquez sur **[!UICONTROL Ajouter une règle]** et définissez les conditions de modification de la dimension. La réconciliation est ensuite effectuée à l’aide d’un attribut ou d’une jointure.
 
