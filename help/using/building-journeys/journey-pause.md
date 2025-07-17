@@ -9,10 +9,10 @@ level: Intermediate
 badge: label="Disponibilité limitée" type="Informative"
 keywords: publication, parcours, actif, validité, vérification
 exl-id: a2892f0a-5407-497c-97af-927de81055ac
-source-git-commit: fa46397b87ae3a81cd016d95afd3e09bb002cfaa
-workflow-type: ht
-source-wordcount: '2106'
-ht-degree: 100%
+source-git-commit: 1215cdc3ed6050ca061f8d97281d52ade352611e
+workflow-type: tm+mt
+source-wordcount: '2117'
+ht-degree: 98%
 
 ---
 
@@ -87,7 +87,7 @@ Lorsqu’un parcours est en pause, la gestion des profils et l’exécution des 
 | [Décision de contenu](content-decision.md) | Les profils sont conservés ou ignorés en fonction de ce que l’utilisateur ou l’utilisatrice a choisi lorsque le parcours a été mis en pause. |
 | [Action de canal](journeys-message.md) | Les profils sont conservés ou ignorés en fonction de ce que l’utilisateur ou l’utilisatrice a choisi lorsque le parcours a été mis en pause. |
 | [Action personnalisée](../action/action.md) | Les profils sont conservés ou ignorés en fonction de ce que l’utilisateur ou l’utilisatrice a choisi lorsque le parcours a été mis en pause. |
-| [Mettre à jour le profil](update-profiles.md) et [Sauter](jump.md) | Même comportement que dans un parcours actif. |
+| [Mettre à jour le profil](update-profiles.md) et [Sauter](jump.md) | Les profils sont conservés ou ignorés en fonction de ce que l’utilisateur ou l’utilisatrice a choisi lorsque le parcours a été mis en pause. |
 | [Source de données externe](../datasource/external-data-sources.md) | Même comportement que dans un parcours actif. |
 | [Critères de sortie](journey-properties.md#exit-criteria) | Même comportement que dans un parcours actif. |
 
@@ -182,7 +182,7 @@ Lorsque vous mettez en pause ce parcours, vous choisissez si les profils sont **
 1. Activité **Attente** : les profils continuent à attendre normalement sur le nœud et le quitteront, même si le parcours est en pause.
 1. **Condition** : les profils continuent de passer par les conditions et se dirigent vers la bonne branche, en fonction de l’expression définie sur la condition.
 1. Activités **Push**/**E-mail** : lorsqu’un parcours est suspendu, les profils commencent à attendre ou sont ignorés (selon le choix effectué par l’utilisateur ou l’utilisatrice au moment de la suspension) sur le nœud d’action suivant. Les profils vont donc commencer à attendre ou seront ignorés.
-1. **Événements** après les nœuds **Action** : si un profil est en attente sur un nœud **Action** et qu’une activité **Événement** vient ensuite, si cet événement est déclenché, le profil est ignoré.
+1. **Événements** après les nœuds **Action** : si un profil attend sur un nœud **Action** et qu’une activité **Event** le suit, si cet événement est déclenché, l’événement est ignoré.
 
 Selon ce comportement, vous pouvez voir le nombre de profils augmenter sur le parcours en pause, principalement dans les activités précédant les activités **Action**. Dans cet exemple, l’activité **Attente** est toujours activée, ce qui augmente le nombre de profils qui passent par l’activité **Condition** lorsqu’ils la quittent.
 
