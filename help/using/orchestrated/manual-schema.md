@@ -62,12 +62,12 @@ L’exemple suivant définit manuellement le schéma des appartenances au progra
 ## Sélectionner les entités et les champs à importer
 
 1. Dans la zone de travail, ajoutez des attributs (champs) à votre schéma.
-1. Ajoutez une clé de Principal **** (obligatoire).
+1. Ajoutez une clé de Principal **&#x200B;**&#x200B;(obligatoire).
 1. Ajoutez un attribut **Descripteur de version** (pour la prise en charge du CDC) :
 Elle doit être de type **DateTime** ou **Numérique** (Entier, Long, Court, Octet).
 Exemple courant : `last_modified`
 
-> **Pourquoi ?** La clé de Principal **** identifie de manière unique chaque enregistrement et le **descripteur de version** suit les modifications, prend en charge le CDC (capture de données modifiées) et la mise en miroir des données.
+> **Pourquoi ?** La clé de Principal **&#x200B;**&#x200B;identifie de manière unique chaque enregistrement et le **descripteur de version** suit les modifications, prend en charge le CDC (capture de données modifiées) et la mise en miroir des données.
 
 1. Marquez les champs appropriés comme **clé de Principal** et **descripteur de version**.
 1. Cliquez sur **Enregistrer**.
