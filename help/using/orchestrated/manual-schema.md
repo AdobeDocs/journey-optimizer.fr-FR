@@ -7,7 +7,7 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: 8c785431-9a00-46b8-ba54-54a10e288141
-source-git-commit: c5a0c6401add384685c9d7ab2c623076ea4bf793
+source-git-commit: aefc95b755074dfa043bad7dfd4acbd8dfb8e939
 workflow-type: tm+mt
 source-wordcount: '300'
 ht-degree: 7%
@@ -53,19 +53,19 @@ L’exemple suivant définit manuellement le schéma des appartenances au progra
 
 1. Fournissez un **Nom du schéma** (par exemple, `test_demo_ck001`).
 1. Choisissez **Type de schéma** :
-   &#x200B;- **Type d’enregistrement** (obligatoire pour les campagnes AGO)
-   &#x200B;- **Série temporelle** (non applicable ici)
+   **Type d’enregistrement** (obligatoire pour les campagnes AGO)
+   **Série temporelle** (non applicable ici)
 1. Cliquez sur **Terminer** pour accéder à la zone de travail de conception de schéma.
 
 ## Sélectionner les entités et les champs à importer
 
 1. Dans la zone de travail, ajoutez des attributs (champs) à votre schéma.
-1. Ajoutez une clé de Principal **&#x200B;**&#x200B;(obligatoire).
+1. Ajoutez une clé de Principal **** (obligatoire).
 1. Ajoutez un attribut **Descripteur de version** (pour la prise en charge du CDC) :
 Elle doit être de type **DateTime** ou **Numérique** (Entier, Long, Court, Octet).
 Exemple courant : `last_modified`
 
-> **Pourquoi ?** La clé de Principal **&#x200B;**&#x200B;identifie de manière unique chaque enregistrement et le **descripteur de version** suit les modifications, prend en charge le CDC (capture de données modifiées) et la mise en miroir des données.
+> **Pourquoi ?** La clé de Principal **** identifie de manière unique chaque enregistrement et le **descripteur de version** suit les modifications, prend en charge le CDC (capture de données modifiées) et la mise en miroir des données.
 
 1. Marquez les champs appropriés comme **clé de Principal** et **descripteur de version**.
 1. Cliquez sur **Enregistrer**.
