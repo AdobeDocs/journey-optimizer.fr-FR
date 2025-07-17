@@ -5,9 +5,9 @@ user-guide-title: Guide de Journey Optimizer
 user-guide-description: Utilisez Journey Optimizer pour créer et proposer aux clients des expériences connectées, contextuelles et personnalisées
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 2950856622ea9ee6c761f4555d5322bb788bb2cb
+source-git-commit: 1aa4f3e24a4cb7594232c0b25da8c9fd2e62c1de
 workflow-type: tm+mt
-source-wordcount: '2507'
+source-wordcount: '2523'
 ht-degree: 98%
 
 ---
@@ -182,7 +182,11 @@ ht-degree: 98%
       + [Résolution des problèmes liés aux actions personnalisées](using/action/troubleshoot-custom-action.md)
 + Campagnes orchestrées {#orchestrated-campaigns}
    + [Commencer les campagnes orchestrées](using/orchestrated/gs-orchestrated-campaigns.md)
-   + [Étapes de configuration](using/orchestrated/configuration-steps.md)
+   + Gestion des schémas relationnels et des jeux de données {#schemas-datasets}
+      + [Prise en main des schémas et des jeux de données](using/orchestrated/gs-schemas.md)
+      + [Schéma manuel](using/orchestrated/manual-schema.md)
+      + [Schéma de chargement de fichier](using/orchestrated/file-upload-schema.md)
+      + [Ingestion de données](using/orchestrated/ingest-data.md)
    + [Accéder aux campagnes orchestrées et les gérer](using/orchestrated/access-manage-orchestrated-campaigns.md)
    + [Mécanismes de sécurisation et limitations](using/orchestrated/guardrails.md)
    + Lancer votre première campagne orchestrée{#launch}
@@ -313,7 +317,7 @@ Définissez les règles de limitation des messages et des parcours {#capping-rul
       + [Créer un courrier](using/direct-mail/create-direct-mail.md)
       + [Vérifier et envoyer un message de publipostage direct](using/direct-mail/test-send-direct-mail.md)
       + [Configurer le courrier](using/direct-mail/direct-mail-configuration.md)
-      + [Envoi de messages de publipostage direct avec parcours](using/direct-mail/direct-mail-journeys.md)
+      + [Envoyer des messages de publipostage direct avec les parcours](using/direct-mail/direct-mail-journeys.md)
    + Canal web {#web}
       + [Commencer avec le canal web](using/web/get-started-web.md)
       + Configurer le canal web {#configure-web-channel}
