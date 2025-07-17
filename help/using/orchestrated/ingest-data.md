@@ -55,7 +55,7 @@ Adobe Experience Platform permet d’ingérer des données à partir de sources 
 
    * Avec un nouveau compte
 
-   [En savoir plus dans la documentation d’Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/cloud-storage/amazon-s3#connect)
+   [En savoir plus dans la documentation d’Adobe Experience Platform](https://experienceleague.adobe.com/fr/docs/experience-platform/destinations/catalog/cloud-storage/amazon-s3#connect)
 
    ![](assets/admin_sources_2.png)
 
