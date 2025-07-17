@@ -5,9 +5,9 @@ user-guide-title: Guide de Journey Optimizer
 user-guide-description: Utilisez Journey Optimizer pour créer et proposer aux clients des expériences connectées, contextuelles et personnalisées
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 1aa4f3e24a4cb7594232c0b25da8c9fd2e62c1de
+source-git-commit: 069df6fb67960bc7bdad4a8e0c3fdfa2b82fb8b5
 workflow-type: tm+mt
-source-wordcount: '2523'
+source-wordcount: '2526'
 ht-degree: 98%
 
 ---
@@ -263,7 +263,7 @@ Définissez les règles de limitation des messages et des parcours {#capping-rul
             + [Utiliser des fragments visuels](using/email/use-visual-fragments.md)
             + [Ajouter des liens et suivre les messages](using/email/message-tracking.md)
             + [Insérer des offres personnalisées](using/email/add-offers-email.md)
-            + [Génération de la version texte](using/email/text-version-email.md)
+            + [Générer la version texte](using/email/text-version-email.md)
             + [Ajouter des métadonnées](using/email/email-metadata.md)
             + [Ajouter un CSS personnalisé](using/email/custom-css.md)
          + Modifier le style {#edit-style}
@@ -271,6 +271,7 @@ Définissez les règles de limitation des messages et des parcours {#capping-rul
             + [Modifier les paramètres d’arrière-plan](using/email/backgrounds.md)
             + [Ajuster l’alignement vertical et la marge intérieure](using/email/alignment-and-padding.md)
             + [Ajouter des attributs de style intégrés](using/email/inline-styling.md)
+            + [Définition du contenu en mode sombre](using/email/dark-mode.md)
       + [Gérer les désinscriptions aux e-mails](using/email/email-opt-out.md)
       + Configurer le canal e-mail {#configure-email}
          + [Commencer la configuration du canal e-mail](using/email/get-started-email-config.md)
@@ -440,7 +441,7 @@ Définissez les règles de limitation des messages et des parcours {#capping-rul
          + [Évaluer le score d’alignement de votre marque](using/content-management/brands-score.md)
    + Contenu multilingue{#content-multilingual}
       + [Commencer avec le contenu multilingue](using/content-management/multilingual-gs.md)
-      + [Créer un paramètre régional](using/content-management/multilingual-locale.md)
+      + [Créer des paramètres régionaux](using/content-management/multilingual-locale.md)
       + [Créer un fournisseur de langue](using/content-management/multilingual-provider.md)
       + [Créer du contenu multilingue avec traduction manuelle](using/content-management/multilingual-manual.md)
       + [Créer du contenu multilingue avec traduction automatisée](using/content-management/multilingual-automated.md)
