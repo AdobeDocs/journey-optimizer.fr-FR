@@ -10,14 +10,15 @@ level: Beginner, Intermediate
 keywords: mode sombre, e-mail, couleur, éditeur
 hide: true
 hidefromtoc: true
-source-git-commit: 069df6fb67960bc7bdad4a8e0c3fdfa2b82fb8b5
+exl-id: 27442cb0-5027-4d9c-9d3c-9ec33af7c9ff
+source-git-commit: b5d9b9c26824517414982fa539e0b360500cafc6
 workflow-type: tm+mt
-source-wordcount: '1617'
+source-wordcount: '1701'
 ht-degree: 1%
 
 ---
 
-# Définition du contenu en mode sombre {#dark-mode}
+# Gestion du contenu en mode sombre {#dark-mode}
 
 >[!CONTEXTUALHELP]
 >id="ac_edition_darkmode"
@@ -144,13 +145,19 @@ Pour définir les paramètres personnalisés du mode sombre, procédez comme sui
 
    <!--![](assets/dark-mode-custom.png)-->
 
-1. Une fois toutes les modifications du mode sombre effectuées, cliquez sur **[!UICONTROL Simuler du contenu]**.
+1. Vous pouvez à tout moment **[!UICONTROL Basculer vers la vue en direct]** afin de vérifier comment votre contenu peut s’afficher sur différentes tailles d’appareil. Dans cet affichage, sélectionnez le bouton (bascule) Mode sombre en haut de l’écran pour prévisualiser la version en mode sombre de votre contenu sur les différents appareils.
+
+   ![](assets/dark-mode-live-view.png){width="80%" align="center"}
+
+   >[!CAUTION]
+   >
+   >L’aperçu en direct est un aperçu générique conçu pour comparer l’apparence du rendu sur différentes tailles d’appareil. Le rendu final peut varier en fonction du client de messagerie du destinataire.
+
+1. Une fois que vous êtes satisfait des modifications pour le mode sombre, cliquez sur **[!UICONTROL Simuler du contenu]**.
 
    ![](assets/dark-mode-simulate.png)
 
-1. Sélectionnez **[!UICONTROL Rendu d’e-mail]** et connectez-vous à votre compte Litmus. Vous pouvez voir le rendu final en mode sombre pour divers clients de messagerie.
-
-   ![](assets/dark-mode-email-rendering.png){width="80%"}
+1. Sélectionnez **[!UICONTROL Rendu d’e-mail]** et connectez-vous à votre compte Litmus. Vous pouvez voir le rendu final en mode sombre pour divers clients de messagerie. En savoir plus sur le [Rendu des emails](../content-management/rendering.md).
 
    >[!WARNING]
    >
