@@ -103,9 +103,9 @@ Ajoutez ensuite des attributs pour définir la structure de votre schéma. Ces c
 
 +++
 
-1. Attribuez les champs appropriés comme clé de Principal **** et **[!UICONTROL descripteur de version]**.
+1. Attribuez les champs appropriés comme clé de Principal **&#x200B;**&#x200B;et **[!UICONTROL descripteur de version]**.
 
-   La clé de Principal **** garantit que chaque enregistrement est identifié de manière unique, tandis que le descripteur de version **[!UICONTROL Version]** capture les mises à jour au fil du temps, permettant la capture des données modifiées et la mise en miroir des données.
+   La clé de Principal **&#x200B;**&#x200B;garantit que chaque enregistrement est identifié de manière unique, tandis que le descripteur de version **[!UICONTROL Version]** capture les mises à jour au fil du temps, permettant la capture des données modifiées et la mise en miroir des données.
 
    ![](assets/schema_manual_2.png){zoomable="yes"}
 
