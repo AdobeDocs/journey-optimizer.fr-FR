@@ -11,10 +11,10 @@ keywords: sous-domaine, délégation, domaine, DNS
 hide: true
 hidefromtoc: true
 exl-id: 34af1329-f0c8-4fcd-a284-f8f4214611d4
-source-git-commit: a1172d331aff538e867428b36ab913b4ae9c8f7e
+source-git-commit: 6d2342b262ea10942f94c82f7d1539a2f6c7c82e
 workflow-type: tm+mt
-source-wordcount: '665'
-ht-degree: 9%
+source-wordcount: '742'
+ht-degree: 14%
 
 ---
 
@@ -118,7 +118,15 @@ Pour configurer un sous-domaine personnalisé, procédez comme suit.
 
    ![](assets/subdomain-custom-feedback-loop.png){width="85%"}
 
-1. Cliquez sur **[!UICONTROL Envoyer]** pour que Adobe effectue les vérifications nécessaires.
+1. Cliquez sur **[!UICONTROL Continuer]** et attendez qu’Adobe vérifie que les enregistrements sont générés sans erreur sur votre solution d’hébergement. Cette opération peut prendre jusquʼà 2 minutes.
+
+   >[!NOTE]
+   >
+   >Les enregistrements manquants, cʼest-à-dire ceux qui nʼont pas encore été créés sur votre solution dʼhébergement, seront répertoriés.
+
+   Adobe génère un enregistrement de validation dʼURL (avec protocole SSL sur réseau CDN). Copiez cet enregistrement de validation sur votre plateforme dʼhébergement. Si vous avez correctement créé cet enregistrement sur votre solution d&#39;hébergement, cochez la case « Je confirme... ».
+
+1. Cliquez sur **[!UICONTROL Envoyer]** pour que Adobe effectue les vérifications nécessaires. [En savoir plus](#submit-subdomain)
 
 ## Liste de contrôle de dépannage {#check-list}
 
