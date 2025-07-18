@@ -7,14 +7,14 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: 8c785431-9a00-46b8-ba54-54a10e288141
-source-git-commit: 3f92dc721648f822687b8efc302c40989b72b145
+source-git-commit: 3dc0bf4acc4976ca1c46de46cf6ce4f2097f3721
 workflow-type: tm+mt
-source-wordcount: '152'
-ht-degree: 9%
+source-wordcount: '735'
+ht-degree: 4%
 
 ---
 
-# Schéma manuel {#manual-schema}
+# Configurer un schéma relationnel manuel {#manual-schema}
 
 +++ Table des matières
 
@@ -38,146 +38,123 @@ Le contenu de cette page n’est pas définitif et peut être modifié.
 
 Les schémas relationnels peuvent être créés directement via l’interface utilisateur, ce qui permet une configuration détaillée des attributs, des clés primaires, des champs de contrôle de version et des relations.
 
-<!--
-The following example manually defines the Loyalty Memberships schema to illustrate the required structure for orchestrated campaigns.
+L’exemple suivant définit manuellement le schéma **Loyalty Memberships** pour illustrer la structure requise pour les campagnes orchestrées.
 
-1. Log in to Adobe Experience Platform.
+1. [Création manuelle d’un schéma relationnel](#schema) à l’aide de l’interface Adobe Experience Platform.
 
-1. Navigate to the **Data Management** > **Schema**.
+1. [Ajoutez des attributs](#schema-attributes) tels que l’ID de client, le niveau d’abonnement et les champs de statut.
 
-1. Click on **Create Schema**.
+1. [Liez votre schéma](#link-schema) à des schémas intégrés tels que les destinataires pour le ciblage de la campagne.
 
-1. You will be prompted to select between two schema types:
+1. [Créez un jeu de données](#dataset) basé sur votre schéma et activez-le pour l’utiliser dans des campagnes orchestrées.
 
-    * **Standard**
-    * **Relational**, used specifically for orchestrated campaigns
+1. [Ingérez des données](ingest-data.md) dans votre jeu de données à partir de sources prises en charge.
 
-    ![](assets/admin_schema_1.png)
+## Création de votre schéma {#schema}
 
-1. Provide a **Schema Name** (e.g., `test_demo_ck001`).
-1. Choose **Schema Type**:
-    **Record Type** (required for AGO campaigns)
-    **Time Series** (not applicable here)
-1. Click **Finish** to proceed to the schema design canvas.
+Commencez par créer manuellement un nouveau schéma relationnel dans Adobe Experience Platform. Ce processus vous permet de définir la structure du schéma à partir de zéro, y compris son nom et son comportement.
 
-## Select entities and fields to import
+1. Connectez-vous à Adobe Experience Platform.
 
-1. In the canvas, add attributes (fields) to your schema.
-1. Add a **Primary Key** (mandatory).
-1. Add a **Version Descriptor** attribute (for CDC support):
-     This must be of type **DateTime** or **Numeric** (Integer, Long, Short, Byte).
-     Common example: `last_modified`
+1. Accédez au menu **[!UICONTROL Gestion des données]** > **[!UICONTROL Schéma]**.
 
-> **Why?** The **Primary Key** uniquely identifies each record, and the **Version Descriptor** tracks changes, supporting CDC (Change Data Capture) and data mirroring.
+1. Cliquez sur **[!UICONTROL Créer un schéma]**.
 
-1. Mark the appropriate fields as **Primary Key** and **Version Descriptor**.
-1. Click **Save**.
--->
+1. Sélectionnez **[!UICONTROL Relationnel]** comme **Type de schéma**.
 
-<!--
+   ![](assets/admin_schema_1.png){zoomable="yes"}
 
-## 5. Creating a Dataset
+1. Choisissez **[!UICONTROL Créer manuellement]** pour créer un schéma en ajoutant manuellement des champs.
 
-1. Navigate to **Datasets**.
-1. Click on **Create Dataset**.
-1. Select the schema you just created.
-1. Assign a **Dataset Name** (same as schema is fine).
-1. Optionally, add tags (e.g., `AGO_campaigns`).
-6. Ensure the checkbox **"Relational Schema"** is checked.
-7. Click **Finish**.
+1. Saisissez votre **[!UICONTROL nom d’affichage du schéma]**.
 
-> **Note:** Only one dataset can be created per relational schema.
+1. Choisissez **[!UICONTROL Enregistrement]** comme **[!UICONTROL comportement du schéma]**.
 
+   ![](assets/schema_manual_8.png){zoomable="yes"}
 
-## 6. Enabling the Dataset
+1. Cliquez sur **Terminer** pour procéder à la création de votre schéma.
 
-1. Click **Enable** for the dataset.
-1. Wait a few moments for the status to show **Enabled**.
+Vous pouvez maintenant commencer à ajouter des attributs à votre schéma pour définir sa structure.
 
-> **Why?** Without enabling, the dataset cannot be used in orchestrated campaigns or ingest data.
+## Ajouter des attributs à votre schéma {#schema-attributes}
 
-## 7. Creating a Data Source (S3)
+Ajoutez ensuite des attributs pour définir la structure de votre schéma. Ces champs représentent les points de données clés utilisés dans les campagnes orchestrées, tels que les identifiants des clients, les détails d’abonnement et les dates d’activité. Leur définition précise garantit une personnalisation, une segmentation et un suivi fiables.
 
-1. Navigate to **Sources**.
-1. Click **Create Source**.
-1. Choose the source type (e.g., **S3 Bucket**).
-1. Provide connection details:
-    - Bucket Path (optionally include subfolder path)
-1. Save the source.
+1. Dans la zone de travail, cliquez sur ![](assets/do-not-localize/Smock_AddCircle_18_N.svg) en regard de votre **nom du schéma** pour commencer à ajouter des attributs.
 
-## 8. Preparing and Uploading Data
+   ![](assets/schema_manual_1.png){zoomable="yes"}
 
-1. Prepare your CSV file with:
-    - Column headers matching your schema attributes
-    - `last_modified` column
-    - `change_type` column (`U`/`DU` for upsert, `D` for delete)
+1. Saisissez votre attribut **[!UICONTROL Nom du champ]**, **[!UICONTROL Nom d’affichage]** et **[!UICONTROL Type]**.
 
-> **Important:** `change_type` is required but does not need to be defined in the schema.
+   Dans cet exemple, nous avons ajouté les attributs présentés dans le tableau ci-dessous au schéma **Abonnements aux programmes de fidélité**.
 
-1. Save the file as `.csv`.
++++ Exemples d’attributs
 
-1. Upload the file to the specified folder in your S3 bucket.
+   | Nom de l’attribut | Type de données | Attributs supplémentaires |
+   |-|-|-|
+   | client ou cliente | CHAÎNE | Clé primaire |
+   | membership_level | CHAÎNE | Obligatoire |
+   | points_balance | NOMBRE ENTIER | Obligatoire |
+   | enrollment_date | DATE | Obligatoire |
+   | last_status_change | DATE | Obligatoire |
+   | expiration_date | DATE | - |
+   | is_active | BOOLEAN | Obligatoire |
+   | lastmodified | DATETIME | Obligatoire |
 
++++
 
-## 9. Ingesting Data from S3
+1. Attribuez les champs appropriés comme clé de Principal **** et **[!UICONTROL descripteur de version]**.
 
-1. Go to **Sources** and find your S3 source.
-1. Click **Add Data**.
-1. Select the uploaded file.
-1. Specify the file format as **CSV** and any compression type if applicable.
-1. Review the data preview (ensure `change_type`, `last_modified`, and primary key are visible).
-1. Click **Next**.
+   La clé de Principal **** garantit que chaque enregistrement est identifié de manière unique, tandis que le descripteur de version **[!UICONTROL Version]** capture les mises à jour au fil du temps, permettant la capture des données modifiées et la mise en miroir des données.
 
-### Enable Change Data Capture (CDC)
+   ![](assets/schema_manual_2.png){zoomable="yes"}
 
-- Check **Enable Change Data Capture**.
-- Select the dataset enabled for AGO campaigns.
+1. Cliquez sur **[!UICONTROL Enregistrer]**.
 
-### Field Mapping
+Une fois les attributs créés, vous devez lier le schéma que vous venez de créer à un schéma intégré.
 
-- Fields are auto-mapped (note that `change_type` is not mapped and that's expected).
-- Click **Next**.
+## Lier les schémas {#link-schema}
 
-### Scheduling
+La création d’une relation entre deux schémas permet d’enrichir vos campagnes orchestrées avec des données stockées en dehors du schéma de profil principal.
 
-- Schedule ingestion frequency (minute, hour, day, week).
-- Set start time (immediate or future).
-- Click **Finish** to create the data flow.
+1. Dans le schéma que vous venez de créer, sélectionnez l’attribut à utiliser comme lien et cliquez sur **[!UICONTROL Ajouter une relation]**.
 
-## 10. Monitoring Data Flow
+   ![](assets/schema_manual_3.png){zoomable="yes"}
 
-1. Navigate back to **Sources > Data Flows**.
-1. Wait 4–5 minutes for the first run (initial overhead).
-1. Monitor:
-    - Status (Started, Completed)
-    - Number of records ingested
-    - Errors (if any)
+1. Choisissez les champs **[!UICONTROL Schéma de référence]** et **[!UICONTROL Champ de référence]** avec lesquels établir la relation.
 
-> **Tip:** Ingested data first lands in the **Data Lake**.
+   Dans cet exemple, l’attribut `customer` est lié au schéma `recipients`.
 
-## 11. Data Replication to Data Store
+   ![](assets/schema_manual_4.png){zoomable="yes"}
 
-The **Data Store** is updated:
+1. Saisissez un Nom de la relation à partir du schéma actuel et du schéma de référence.
 
-- Every **15 minutes**, or
+1. Cliquez sur **[!UICONTROL Appliquer]** une fois la configuration terminée.
 
-- If **Data Lake size exceeds 5MB**
+Une fois la relation établie, vous devez créer un jeu de données basé sur votre schéma.
 
-This is a background replication process.
+## Création d’un jeu de données pour le schéma {#dataset}
 
+Après avoir défini votre schéma, l’étape suivante consiste à créer un jeu de données basé sur celui-ci. Ce jeu de données stocke vos données ingérées et doit être activé pour les campagnes orchestrées afin de le rendre accessible dans Adobe Journey Optimizer. L’activation de cette option garantit que le jeu de données est reconnu pour une utilisation dans les workflows d’orchestration et de personnalisation en temps réel.
 
-## 12. Querying the Dataset
+1. Accédez au menu **[!UICONTROL Data Management]** > **[!UICONTROL Datasets]** et cliquez sur **[!UICONTROL Créer un jeu de données]**.
 
-1. Navigate to **Query Services**.
-1. Click **Create Query**.
-1. Example query:
+   ![](assets/schema_manual_5.png){zoomable="yes"}
 
-   ```sql
-   SELECT * FROM test_demo_ck001;
-   ```
+1. Sélectionnez **[!UICONTROL Créer un jeu de données à partir d&#39;un schéma]**.
 
-1. Run the query.
+1. Sélectionnez le schéma créé précédemment, ici **Abonnements de fidélité**, puis cliquez sur **[!UICONTROL Suivant]**.
 
-> **Note:** If ingestion is incomplete, query will return an error. Check data flow status.
+   ![](assets/schema_manual_6.png){zoomable="yes"}
 
--->
+1. Saisissez un **[!UICONTROL Nom]** pour votre **[!UICONTROL Jeu de données]** puis cliquez sur **[!UICONTROL Terminer]**.
+
+1. Activez l’option **Campagnes orchestrées** pour rendre le jeu de données disponible pour une utilisation dans vos campagnes AJO.
+
+   L’activation peut prendre quelques minutes. L’ingestion de données n’est possible qu’une fois l’option entièrement activée.
+
+   ![](assets/schema_manual_7.png){zoomable="yes"}
+
+Vous pouvez maintenant commencer à ingérer des données dans votre schéma à l’aide de la source de votre choix.
+
+➡️ [Découvrez comment ingérer des données](ingest-data.md)
