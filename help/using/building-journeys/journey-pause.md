@@ -9,10 +9,10 @@ level: Intermediate
 badge: label="Disponibilité limitée" type="Informative"
 keywords: publication, parcours, actif, validité, vérification
 exl-id: a2892f0a-5407-497c-97af-927de81055ac
-source-git-commit: 1215cdc3ed6050ca061f8d97281d52ade352611e
+source-git-commit: 9db476ff5b693bef91e982502c6dd37321610fc7
 workflow-type: tm+mt
-source-wordcount: '2117'
-ht-degree: 98%
+source-wordcount: '2169'
+ht-degree: 96%
 
 ---
 
@@ -152,6 +152,7 @@ Cette limite est vérifiée toutes les 30 minutes. Cela signifie que vous pouve
 
   Si vous reprenez les parcours pour ramener le nombre de profils conservés en dessous de la limite, le parcours reprend immédiatement, mais la mise à jour du nombre de profils peut prendre jusqu’à 30 minutes. Pendant ce temps, le système peut toujours considérer ces profils comme étant en pause.
 
+* Pour les parcours qui incluent des [activités entrantes](../channels/gs-channels.md#mobile-app-and-web-experiences) (par exemple, in-app, web, etc.), la suspension du parcours n’interrompt pas les communications qui ont déjà été déclenchées. Si un profil s’est qualifié pour une activité entrante avant la pause, le message correspondant sera toujours diffusé. Pour arrêter complètement toutes les communications entrantes, vous devez arrêter le parcours.
 * Les parcours en pause sont comptabilisés dans le quota des parcours actifs.
 * Les profils qui sont entrés dans le parcours mais ignorés pendant la pause sont toujours comptabilisés comme des profils engageables.
 * Les parcours en pause sont pris en compte dans toutes les règles métier, de la même manière que s’ils étaient actifs.
