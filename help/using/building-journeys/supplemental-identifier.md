@@ -195,4 +195,4 @@ Pour utiliser un identifiant supplémentaire dans un parcours, procédez comme s
 
 Découvrez comment activer et appliquer un identifiant supplémentaire dans [!DNL Adobe Journey Optimizer].
 
->[!VIDEO](https://video.tv.adobe.com/v/3464792?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3464794?quality=12&captions=fre_fr)
