@@ -12,7 +12,7 @@ exl-id: 617d623c-e038-4b5b-a367-5254116b7815
 source-git-commit: 21e2ea3e6a72d2a0eb0338df5665282d814501ac
 workflow-type: tm+mt
 source-wordcount: '1283'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -161,8 +161,8 @@ En plus du contenu du message, vous pouvez configurer les paramètres suivants 
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_throttling"
->title="Contrôle du taux de limitation"
->abstract="Contrôle du taux de limitation"
+>title="Contrôle du taux de ralentissement"
+>abstract="Contrôle du taux de ralentissement"
 
 Par défaut, les campagnes démarrent une fois qu’elles ont été activées manuellement et se terminent dès que le message a été envoyé une fois.
 

@@ -14,7 +14,7 @@ exl-id: 34af1329-f0c8-4fcd-a284-f8f4214611d4
 source-git-commit: 64ff860167439e1b098918cd913f2361f7365a50
 workflow-type: tm+mt
 source-wordcount: '742'
-ht-degree: 14%
+ht-degree: 32%
 
 ---
 
@@ -40,12 +40,12 @@ Pour configurer un sous-domaine personnalisé, procédez comme suit.
    >
    >Vous ne pouvez pas utiliser le même domaine d’envoi pour envoyer des messages depuis [!DNL Adobe Journey Optimizer] et à partir d’un autre produit, tel que [!DNL Adobe Campaign] ou [!DNL Adobe Marketo Engage].
 
-## Création des enregistrements DNS {#create-dns-records}
+## Créer des enregistrements DNS {#create-dns-records}
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_subdomain_custom_dns"
 >title="Générer les enregistrements DNS correspondants"
->abstract="Pour déléguer un sous-domaine personnalisé à Adobe, vous devez copier-coller les informations du serveur de noms affichées dans l’interface Journey Optimizer dans votre solution d’hébergement de domaine pour générer les enregistrements DNS correspondants."
+>abstract="Pour déléguer un sous-domaine personnalisé à Adobe, vous devez copier-coller les informations du serveur de noms Adobe affichées dans l’interface Journey Optimizer de votre solution d’hébergement de domaine pour générer les enregistrements DNS correspondants."
 
 1. La liste des enregistrements à placer dans les serveurs DNS s&#39;affiche. Copiez ces enregistrements un par un ou en téléchargeant un fichier CSV.
 
@@ -57,12 +57,12 @@ Pour configurer un sous-domaine personnalisé, procédez comme suit.
 
    ![](assets/subdomain-custom-submit.png){width="75%"}
 
-## Charger le certificat SSL {#upload-ssl-certificate}
+## Charger le certificat SSL {#upload-ssl-certificate}
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_subdomain_custom-ssl"
 >title="Générer la demande de signature de certificat"
->abstract="Lors de la configuration d’un nouveau sous-domaine personnalisé, vous devez générer la demande de signature de certificat (CSR), la remplir et l’envoyer à l’autorité de certification pour obtenir le certificat SSL que vous devez télécharger sur Journey Optimizer."
+>abstract="Lors de la configuration d’un nouveau sous-domaine personnalisé, vous devez générer la demande de signature de certificat (CSR), la remplir et l’envoyer à l’autorité de certification pour obtenir le certificat SSL que vous devez charger dans Journey Optimizer."
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_subdomain_key_length"
@@ -89,12 +89,12 @@ Pour configurer un sous-domaine personnalisé, procédez comme suit.
 
 1. Une fois récupéré, cliquez sur **[!UICONTROL Télécharger le certificat SSL]** et téléchargez le certificat vers [!DNL Journey Optimizer] au format .pem.
 
-## Suivez les étapes de la boucle de commentaires {#feedback-loop-steps}
+## Suivre les étapes de la boucle de commentaires {#feedback-loop-steps}
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_subdomain_feedback-loop"
->title="Suivez les étapes de la boucle de commentaires"
->abstract="Allez chez Yahoo ! Sender Hub et remplissez le formulaire pour vérifier la propriété du domaine. Saisissez l&#39;adresse e-mail de déclaration FBL indiquée ci-dessous, et utilisez le mot de passe à usage unique qui sera reçu pour vérifier la propriété sur Yahoo ! Hub de l’expéditeur."
+>title="Suivre les étapes de la boucle de commentaires"
+>abstract="Accédez à Yahoo! Sender Hub et remplissez le formulaire pour vérifier la propriété du domaine. Saisissez l’adresse e-mail de reporting FBL indiquée ci-dessous, puis utilisez le mot de passe à usage unique qui sera reçu pour vérifier la propriété sur le Yahoo! Sender Hub."
 
 1. Allez au [ Yahoo ! Sender Hub](https://senders.yahooinc.com/) site web et remplissez le formulaire requis pour vérifier le propriétaire de votre domaine.
 
@@ -110,7 +110,7 @@ Pour configurer un sous-domaine personnalisé, procédez comme suit.
    >
    >La requête OTP ne peut être effectuée que les jours de la semaine. Il n&#39;y a pas de support le week-end. <!--Add times + timezone-->
 
-1. Entrez dans le OTP sur Yahoo ! Hub de l’expéditeur.
+1. Entrez dans le OTP sur Yahoo ! Sender Hub.
 
 1. Vérifiez que vous avez terminé toutes les étapes de Feedback Loop.
 
