@@ -5,10 +5,10 @@ user-guide-title: Guide de Journey Optimizer
 user-guide-description: Utilisez Journey Optimizer pour créer et proposer aux clients des expériences connectées, contextuelles et personnalisées
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 069df6fb67960bc7bdad4a8e0c3fdfa2b82fb8b5
+source-git-commit: 1bdba8c5c1a9238d351b159551f6d3924935b339
 workflow-type: tm+mt
-source-wordcount: '2526'
-ht-degree: 98%
+source-wordcount: '2581'
+ht-degree: 96%
 
 ---
 
@@ -218,10 +218,24 @@ ht-degree: 98%
       + [Attente](using/orchestrated/activities/wait.md)
 + Campagnes {#campaigns}
    + [Commencer avec les campagnes](using/campaigns/get-started-with-campaigns.md)
-   + [Création d’une campagne](using/campaigns/create-campaign.md)
-   + [Vérifier et activer une campagne](using/campaigns/review-activate-campaign.md)
-   + [Gérer les campagnes](using/campaigns/modify-stop-campaign.md)
-   + [Déclencher des campagnes à l’aide d’API](using/campaigns/api-triggered-campaigns.md)
+   + [Accéder aux campagnes et les gérer](using/campaigns/modify-stop-campaign.md)
+   + Campagnes d’action {#action-campaigns}
+      + [Utiliser des campagnes d’action](using/campaigns/create-campaign.md)
+      + [Définir les propriétés de la campagne](using/campaigns/campaign-properties.md)
+      + [Configurer l’action de campagne](using/campaigns/campaign-action.md)
+      + [Modifier le contenu de la campagne](using/campaigns/campaign-content.md)
+      + [Définir l’audience de la campagne](using/campaigns/campaign-audience.md)
+      + [Planifier la campagne](using/campaigns/campaign-schedule.md)
+      + [Vérifier et activer une campagne d’action](using/campaigns/review-activate-campaign.md)
+   + Campagnes déclenchées par l’API {#api-triggered-campaigns}
+      + [Utiliser des campagnes déclenchées par API](using/campaigns/api-triggered-campaigns.md)
+      + [Définir les propriétés de la campagne](using/campaigns/api-triggered-campaign-properties.md)
+      + [Configurer l’action de campagne](using/campaigns/api-triggered-campaign-action.md)
+      + [Modifier le contenu de la campagne](using/campaigns/api-triggered-campaign-content.md)
+      + [Définir l’audience de la campagne](using/campaigns/api-triggered-campaign-audience.md)
+      + [Planifier la campagne](using/campaigns/api-triggered-campaign-schedule.md)
+      + [Vérifier et activer la campagne](using/campaigns/review-activate-api-triggered-campaign.md)
+      + [Déclencher l’exécution de la campagne](using/campaigns/trigger-campaigns.md)
 + Gestion des conflits et hiérarchisation {#conflict-prioritization}
    + [Commencer avec la gestion et la hiérarchisation des conflits](using/conflict-prioritization/gs-conflict-prioritization.md)
    + [Identifier les conflits potentiels](using/conflict-prioritization/conflicts.md)

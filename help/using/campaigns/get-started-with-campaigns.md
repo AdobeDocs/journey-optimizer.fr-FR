@@ -9,14 +9,39 @@ role: User
 level: Beginner
 keywords: campagne, guide, commencer, optimizer
 exl-id: e2506a43-e4f5-48af-bd14-ab76c54b7c90
-source-git-commit: c2f32533027e374a1df26943e7c5acd4e1d13869
-workflow-type: ht
-source-wordcount: '437'
-ht-degree: 100%
+source-git-commit: 1bdba8c5c1a9238d351b159551f6d3924935b339
+workflow-type: tm+mt
+source-wordcount: '620'
+ht-degree: 68%
 
 ---
 
 # Commencer avec les campagnes {#get-started-campaigns}
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaigns_schedule"
+>title="Planning de la campagne"
+>abstract="Par défaut, les campagnes démarrent via une activation manuelle et se terminent immédiatement après un seul envoi du message. Vous avez la possibilité de définir une date et une heure spécifiques pour l’envoi du message. De plus, vous pouvez spécifier une date de fin pour les campagnes d’action récurrentes. Dans les déclencheurs d’action, vous pouvez également configurer la fréquence d’envoi des messages en fonction de vos préférences."
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaigns_schedule_start"
+>title="Début de campagne"
+>abstract="Indiquez la date et l’heure auxquelles le message doit être envoyé."
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaigns_schedule_end"
+>title="Fin de campagne"
+>abstract="Indiquez à quel moment une campagne récurrente doit cesser d’être exécutée."
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaigns_schedule_triggers"
+>title="Déclencheurs d’action de campagne"
+>abstract="Vous pouvez définir la fréquence d’envoi du message de la campagne."
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaigns_throttling"
+>title="Contrôle du taux de ralentissement"
+>abstract="Contrôle du taux de ralentissement"
 
 >[!CONTEXTUALHELP]
 >id="ajo_homepage_card3"
@@ -28,24 +53,36 @@ ht-degree: 100%
 >title="Campagnes"
 >abstract="Créez des campagnes pour diffuser du contenu ponctuel à une audience spécifique sur différents canaux. Avant de créer votre campagne, assurez-vous de disposer d’une configuration de canal et d’une audience Adobe Experience Platform prête à l’emploi."
 
+>[!CONTEXTUALHELP]
+>id="ajo_campaigns_campaign_type"
+>title="Type de campagne"
+>abstract="Les **campagnes planifiées** sont exécutées immédiatement ou à une date spécifiée et sont destinées à envoyer des messages de type marketing. Les campagnes **déclenchées par API** sont exécutées à l’aide d’un appel API. Elles sont destinées à envoyer soit des messages marketing (messages promotionnels nécessitant le consentement de la personne), soit des messages transactionnels (messages non commerciaux, qui peuvent également être envoyés à des profils désabonnés dans des contextes spécifiques)."
+
 Utilisez les campagnes de Journey Optimizer pour diffuser du contenu ponctuel sur une audience spécifique à l’aide de divers canaux. Lors de l’utilisation de parcours, les actions sont exécutées à la suite. Avec les campagnes, les actions sont exécutées simultanément, immédiatement ou selon un planning spécifié.
 
-Vous pouvez créer deux types de campagnes :
+![](assets/gs-campaigns.png)
 
-* **Les campagnes planifiées** permettent des communications par lots ad hoc simples pour des cas d’utilisation marketing tels que des offres promotionnelles, des campagnes d’engagement, des avis juridiques ou des mises à jour de politique.
-* Les **campagnes déclenchées par API** visent à permettre aux communications marketing d’atteindre une audience au moment opportun ou aux messages transactionnels/opérationnels d’être envoyés à une personne, comme la réinitialisation d’un mot de passe. La personnalisation de ces campagnes inclut l’attribut de profil, mais aussi les données contextuelles en temps réel dans le déclencheur, qui est une payload de l’API REST.
+Vous pouvez créer différents types de campagnes dans Journey Optimizer :
 
-Suivez les étapes de création dʼune campagne décrites ci-après :
+* **Campagnes d’action**
 
-![](assets/create-campaign-process.png)
+  Les campagnes d’action (ou campagnes planifiées) permettent des communications par lots ad hoc simples pour des cas d’utilisation marketing tels que des offres promotionnelles, des campagnes d’engagement, des annonces, des informations juridiques ou des mises à jour de politiques.
 
-➡️ [Découvrez cette fonctionnalité en vidéo](#video)
+* **Campagnes déclenchées par l’API**
+
+  Les campagnes déclenchées par API permettent aux communications marketing d’atteindre une audience au bon moment ou aux messages transactionnels/opérationnels d’être envoyés à une personne, comme la réinitialisation d’un mot de passe. La personnalisation de ces campagnes inclut l’attribut de profil, mais aussi les données contextuelles en temps réel dans le déclencheur, qui est une payload de l’API REST.
+
+<!--* **Orchestrated campaigns**
+
+    Campaign Orchestration in Adobe Journey Optimizer powers sophisticated, brand-initiated marketing campaigns across channels, helping you drive engagement, revenue, and customer loyalty at scale.
+
+    While cross-channel marketing is essential, orchestrated campaigns make it seamless. With a visual, drag-and-drop interface, you can design and automate complex marketing workflows, from segmentation to message delivery, across multiple channels. Everything happens in one intuitive environment, built for speed, control, and efficiency.-->
 
 ## Avant de commencer {#campaign-prerequisites}
 
-Vérifiez les conditions préalables suivantes avant de commencer la création de votre première campagne dans Journey Optimizer :
+Vérifiez les conditions préalables suivantes avant de commencer à créer votre première campagne dans [!DNL Journey Optimizer] :
 
-1. **Il vous faut les autorisations appropriées**. Les campagnes ne sont disponibles que pour les utilisateurs et les utilisatrices ayant accès à un **[!UICONTROL Profil produit]** associé à une campagne, tels que l’administrateur ou l’administratrice de la campagne, l’approbateur ou l’approbatrice de la campagne, la personne responsable de la gestion de la campagne, ou l’observateur ou l’observatrice de la campagne. Si vous ne pouvez pas accéder aux campagnes, vos autorisations doivent être étendues.
+1. **Il vous faut les autorisations appropriées**. Les campagnes ne sont disponibles que pour les utilisateurs ayant accès à une campagne liée **[!UICONTROL profil de produit]** telle que l’administrateur de la campagne, l’approbateur de la campagne, le responsable de la campagne et/ou l’observateur de la campagne. Si vous ne pouvez pas accéder aux campagnes, vos autorisations doivent être étendues.
 
    +++Découvrir comment attribuer un rôle lié à la campagne
 
@@ -61,11 +98,22 @@ Vérifiez les conditions préalables suivantes avant de commencer la création d
 
 +++
 
-1. **Vous avez besoin d’une audience**. Les audiences doivent être disponibles avant de créer la campagne. En savoir plus sur les audiences [sur cette page](../audience/about-audiences.md).
-1. **Il vous faut une configuration de canal**. Pour pouvoir sélectionner un canal, la configuration de canal correspondante (c’est-à-dire le paramètre prédéfini) doit être créée et disponible. En savoir plus sur les configurations de canaux [sur cette page](../configuration/channel-surfaces.md).
+1. **Vous avez besoin d’une audience**. Les audiences doivent être disponibles avant de créer la campagne. [Prise en main des audiences](../audience/about-audiences.md).
 
-## Vidéo pratique {#video}
+1. **Il vous faut une configuration de canal**. Pour pouvoir sélectionner un canal, la configuration de canal correspondante (c’est-à-dire le paramètre prédéfini) doit être créée et disponible. [Découvrez comment configurer des configurations de canal](../configuration/channel-surfaces.md).
 
-Découvrez comment créer votre première campagne.
+## Explorons plus en détail
 
->[!VIDEO](https://video.tv.adobe.com/v/3412403?quality=12&captions=fre_fr)
+Maintenant que vous connaissez les campagnes dans [!DNL Journey Optimizer], il est temps d’examiner plus en détail ces sections de documentation pour commencer à créer vos premières campagnes.
+
+<table style="table-layout:fixed"><tr style="border: 0; text-align: center;">
+<td><a href="create-campaign.md"><img alt="campagnes d’action" src="assets/do-not-localize/gs-action-campaign.png" width="50%"></a><br/><a href="create-campaign.md">Campagnes d’action</a></td>
+<td><a href="api-triggered-campaigns.md"><img alt="SMS" src="assets/do-not-localize/gs-api-triggered-campaign.png" width="50%"></a><br/><a href="api-triggered-campaigns.md">Campagnes déclenchées par l’API</a></td>
+</tr></table>
+
+<!--
+<table style="table-layout:fixed"><tr style="border: 0; text-align: center;">
+<td><a href="create-campaign.md"><img alt="action campaigns" src="assets/do-not-localize/gs-action-campaign.png"></a><br/><a href="create-campaign.md">Action campaigns</a></td>
+<td><a href="api-triggered-campaigns.md"><img alt="sms" src="assets/do-not-localize/gs-api-triggered-campaign.png"></a><br/><a href="api-triggered-campaigns.md">API triggered campaigns</a></td>
+<td><a href="../orchestrated/gs-orchestrated-campaigns.md"><img alt="push" src="assets/do-not-localize/gs-orchestrated-campaign.png"></a><a href="../orchestrated/gs-orchestrated-campaigns.md">Orchestrated campaigns</a></td>
+</tr></table>-->
