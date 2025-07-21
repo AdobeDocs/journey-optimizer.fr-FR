@@ -96,7 +96,7 @@ Vérifiez les conditions préalables suivantes avant de commencer à créer votr
 
    La personne doit alors recevoir un e-mail la redirigeant vers votre instance.
 
-   +++
++++
 
 1. **Vous avez besoin d’une audience**. Les audiences doivent être disponibles avant de créer la campagne. [Prise en main des audiences](../audience/about-audiences.md).
 
