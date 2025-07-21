@@ -7,10 +7,10 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: ef8eba57-cd33-4746-8eb4-5214ef9cbe2f
-source-git-commit: 1a9ea09fcbf304b1649a5ae88da34bd209e9ac8b
+source-git-commit: 2ad659b391515c193418325c34a9dd56133b90d6
 workflow-type: tm+mt
-source-wordcount: '203'
-ht-degree: 40%
+source-wordcount: '417'
+ht-degree: 19%
 
 ---
 
@@ -43,3 +43,36 @@ Le contenu de cette page n’est pas définitif et peut être modifié.
 
 >[!ENDSHADEBOX]
 
+L&#39;activité **[!UICONTROL Lecture d&#39;audience]** vous permet de récupérer une audience existante, précédemment enregistrée ou importée, et de la réutiliser dans une campagne orchestrée. Cette activité est particulièrement utile pour cibler un ensemble prédéfini de profils sans avoir à exécuter un nouveau processus de segmentation.
+
+Une fois l’audience chargée, vous pouvez éventuellement l’affiner en sélectionnant un champ d’identité unique et en enrichissant l’audience avec des attributs de profil supplémentaires à des fins de ciblage, de personnalisation ou de création de rapports.
+
+## Configuration de l&#39;activité Lecture d&#39;audience {#read-audience-configuration}
+
+Pour configurer l’activité **[!UICONTROL Lecture d’audience]**, procédez comme suit :
+
+1. Ajoutez une activité **[!UICONTROL Lecture d’audience]** à votre campagne orchestrée.
+
+   ![](../assets/read-audience-1.png)
+
+1. Saisissez un **[!UICONTROL libellé]** pour votre activité.
+
+1. Cliquez sur ![icône de recherche de dossier](../assets/do-not-localize/folder-search.svg) pour sélectionner l’audience que vous souhaitez cibler pour votre campagne orchestrée.
+
+   ![](../assets/read-audience-2.png)
+
+1. Sélectionnez l’**[!UICONTROL Entité]** utilisée pour identifier de manière unique les profils de votre audience.
+
+   ![](../assets/read-audience-3.png)
+
+1. Sélectionnez **[!UICONTROL Ajouter un attribut de profil]** pour enrichir votre audience sélectionnée avec des données supplémentaires. L’audience obtenue contient une liste de destinataires, enrichie chacun des attributs de profil sélectionnés.
+
+1. Sélectionnez les **[!UICONTROL Attributs]** à ajouter à votre audience.
+
+   ![](../assets/read-audience-4.png)
+
+## Exemple
+
+Dans l’exemple ci-dessous, l’activité **[!UICONTROL Lecture d’audience]** permet de récupérer une audience créée et enregistrée précédemment pour les profils s’étant abonnés à la newsletter. L’audience est ensuite enrichie de l’attribut **Loyalty membership** pour permettre le ciblage des utilisateurs qui sont membres inscrits au programme de fidélité.
+
+![](../assets/read-audience-5.png)

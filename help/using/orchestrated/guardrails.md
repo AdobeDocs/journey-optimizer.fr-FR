@@ -6,10 +6,10 @@ description: En savoir plus sur les mécanismes de sécurisation et les limitati
 hide: true
 hidefromtoc: true
 exl-id: 82744db7-7358-4cc6-a9dd-03001759fef7
-source-git-commit: 1a9ea09fcbf304b1649a5ae88da34bd209e9ac8b
+source-git-commit: 2ad659b391515c193418325c34a9dd56133b90d6
 workflow-type: tm+mt
-source-wordcount: '278'
-ht-degree: 5%
+source-wordcount: '575'
+ht-degree: 3%
 
 ---
 
@@ -40,7 +40,60 @@ Cela garantit une ingestion de données fiable et est essentiel lors de l’util
 
 ## Schémas relationnels/limites d’ingestion des données
 
-* Nombre de schémas - Le nombre maximal de schémas relationnels (tables dans le magasin de données relationnelles) est de 200
-* Taille du schéma relationnel : la taille maximale du schéma relationnel pour l’orchestration des campagnes est 100GB.
-* Fréquence d’ingestion des données : la fréquence d’ingestion des données par lots pour l’orchestration des campagnes ne doit pas dépasser une toutes les quinze minutes.
-* Modifications/Mises à jour : les mises à jour/modifications quotidiennes doivent représenter moins de 20 % du total des enregistrements pour un schéma relationnel donné
+* Jusqu’à 200 schémas relationnels (tables) sont pris en charge dans le magasin de données relationnelles.
+
+* La taille totale d’un schéma relationnel utilisé pour l’orchestration des campagnes ne doit pas dépasser 100 Go.
+
+* L’ingestion par lots pour l’orchestration des campagnes ne doit pas avoir lieu plus d’une fois toutes les 15 minutes.
+
+* Les modifications quotidiennes apportées à un schéma relationnel doivent rester inférieures à 20 % du nombre total d’enregistrements.
+
+## Modélisation des données
+
+* Le descripteur de version est obligatoire sur tous les schémas, y compris les tables de faits.
+
+* Une clé primaire est requise pour chaque table.
+
+* Le nom_table attribué lors de la création du jeu de données est utilisé dans l’interface utilisateur de segmentation et les fonctionnalités de personnalisation.
+
+  Ce nom est permanent et ne peut pas être modifié après sa création.
+
+* Les groupes de champs ne sont actuellement pas pris en charge.
+
+## Ingestion des données
+
+* Profil + ingestion de données relationnelles requise.
+
+* Un champ de type de modification est requis pour l’ingestion basée sur des fichiers, tandis que la journalisation des tables doit être activée pour l’ingestion de la base de données Cloud. Cela est nécessaire pour la capture des données modifiées (CDC).
+
+* La latence entre l’ingestion et la disponibilité des données dans Snowflake varie de 15 minutes à 2 heures, selon le volume de données, la simultanéité et le type d’opérations (les insertions sont plus rapides que les mises à jour).
+
+* La surveillance des données dans Snowflake est en cours de développement. Il n’existe actuellement aucune confirmation native de réussite de l’ingestion.
+
+* Les mises à jour directes de Snowflake ou du jeu de données ne sont pas prises en charge. Toutes les modifications doivent transiter par les sources CDC.
+
+  Le service de requête est en lecture seule.
+
+* ETL n’est pas pris en charge : les clients doivent fournir les données au format requis.
+
+* Les mises à jour partielles ne sont pas autorisées. Chaque ligne doit être fournie en tant qu’enregistrement complet.
+
+* L’ingestion repose sur Query Service et Data Distiller.
+
+## Segmentation
+
+* La liste de valeurs et les énumérations sont actuellement disponibles.
+
+* Les audiences enregistrées sont des listes statiques dont le contenu reflète les données disponibles au moment de l’exécution de la campagne.
+
+* L’ajout à une audience enregistrée n’est pas pris en charge. Les mises à jour nécessitent un remplacement complet.
+
+* Les audiences doivent consister uniquement en attributs scalaires ; les mappages et les tableaux ne sont pas pris en charge.
+
+* La segmentation prend principalement en charge les données relationnelles. Bien que le mélange avec des données de profil soit autorisé, l’ajout de jeux de données de profil volumineux peut affecter les performances. Pour éviter cela :
+
+* Des mécanismes de sécurisation sont en place, comme la limitation du nombre d’attributs de profil sélectionnés dans les audiences par lots ou en flux continu.
+
+* Les audiences de lecture ne sont pas mises en cache : chaque exécution de campagne déclenche une lecture complète.
+
+  L’optimisation est nécessaire pour les audiences volumineuses ou complexes.
