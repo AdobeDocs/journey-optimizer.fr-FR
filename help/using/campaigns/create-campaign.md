@@ -39,4 +39,4 @@ Les campagnes d’action (ou campagnes planifiées) permettent des communication
 
 Découvrez comment créer une campagne d’action.
 
->[!VIDEO](https://video.tv.adobe.com/v/3425358?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3452727?quality=12&captions=fre_fr)
