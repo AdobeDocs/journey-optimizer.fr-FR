@@ -3,10 +3,10 @@ title: Identifiant supplémentaire dans les parcours déclenchés par un événe
 description: Découvrez comment utiliser un identifiant supplémentaire dans les parcours déclenchés par un événement.
 badge: label="Disponibilité limitée" type="Informative"
 exl-id: f6ebd706-4402-448a-a538-e9a4c2cf0f8b
-source-git-commit: 5e7aad25fa08994f6cbce9adfce4a3dc94fe3e47
-workflow-type: ht
-source-wordcount: '928'
-ht-degree: 100%
+source-git-commit: 14a0054c605edd8ff0b63e71fb5c30104ff513ed
+workflow-type: tm+mt
+source-wordcount: '945'
+ht-degree: 98%
 
 ---
 
@@ -29,6 +29,8 @@ Dans cet exemple, nous avons ajouté un identifiant de réservation en tant qu�
 Ce faisant, les parcours déclenchés par l’événement sont exécutés dans le contexte de l’identifiant de profil associé à l’identifiant supplémentaire (ici, l’identifiant de réservation). Une instance du parcours est exécutée pour chaque itération de l’identifiant supplémentaire. Cela permet plusieurs entrées du même ID de profil dans les parcours s’ils ont effectué des réservations différentes.
 
 En outre, Journey Optimizer vous permet d’utiliser les attributs de l’identifiant supplémentaire (par exemple, le numéro de réservation, la date de renouvellement de l’ordonnance, le type de produit) pour personnaliser les messages, ce qui garantit des communications hautement pertinentes. <!--Example: A healthcare provider can send renewal reminders for each prescription in a patient's profile.-->
+
+➡️ [Découvrez cette fonctionnalité en vidéo.](#video)
 
 ## Mécanismes de sécurisation et limitations {#guardrails}
 
@@ -188,3 +190,9 @@ Pour utiliser un identifiant supplémentaire dans un parcours, procédez comme s
    * Profil : « Alex ».
    * ID supplémentaires : `"productID1234", "productID5678"`.
    * Le parcours s’exécute séparément pour chaque produit, avec des opportunités de montée en gamme personnalisées.
+
+## Vidéo pratique {#video}
+
+Découvrez comment activer et appliquer un identifiant supplémentaire dans [!DNL Adobe Journey Optimizer].
+
+>[!VIDEO](https://video.tv.adobe.com/v/3464792?quality=12)
