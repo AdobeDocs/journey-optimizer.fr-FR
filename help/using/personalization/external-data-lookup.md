@@ -8,9 +8,9 @@ level: Experienced
 hide: true
 hidefromtoc: true
 badge: label="Disponibilité limitée" type="Informative"
-source-git-commit: f5d1bc27afadbf875fe4dd3149ce090a8773e0f9
+source-git-commit: cf29013bd7578f6b04543d04e85c714ce7728f36
 workflow-type: tm+mt
-source-wordcount: '1188'
+source-wordcount: '1185'
 ht-degree: 1%
 
 ---
@@ -95,10 +95,10 @@ Pour toutes les valeurs d’en-tête de variable, les paramètres de requête/ch
 
 Noms des paramètres :
 
-* Paramètres d’en-tête : en-tête.&lt;parameter-name>
-* Paramètres de requête : requête.&lt;parameter-name>
-* Paramètres de payload : payload.&lt;parameter-name>
-* Paramètres de chemin : dynamic_path.&lt;parameter-name>
+* Paramètres d’en-tête : `header.<parameter-name>
+* Paramètres de requête : `query.<parameter-name>`
+* Paramètres de payload : `payload.<parameter-name>`
+* Paramètres de chemin : `dynamic_path.<parameter-name>`
 
 Par exemple :
 
