@@ -44,7 +44,7 @@ Ce guide vous guide tout au long du processus de création d’un schéma relati
 
    Définissez la structure de votre modèle de données, y compris les tables, les attributs et les relations. Choisissez de créer le schéma manuellement dans l’interface utilisateur ou de charger un fichier DDL pour une configuration plus rapide.
 
-1. [Schéma du lien](file-upload-md)
+1. [Schéma du lien] (file-upload-md)
 
    établissez des relations entre vos schémas pour garantir la cohérence des données et activer les requêtes entre entités. Par exemple, liez les transactions de fidélité aux destinataires ou les récompenses aux marques.
 
