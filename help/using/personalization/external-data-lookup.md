@@ -95,10 +95,10 @@ Pour toutes les valeurs d’en-tête de variable, les paramètres de requête/ch
 
 Noms des paramètres :
 
-* Paramètres d’en-tête : en-tête.<parameter-name>
-* Paramètres de requête : requête.<parameter-name>
-* Paramètres de payload : payload.<parameter-name>
-* Paramètres de chemin : dynamic_path.<parameter-name>
+* Paramètres d’en-tête : en-tête.&lt;parameter-name>
+* Paramètres de requête : requête.&lt;parameter-name>
+* Paramètres de payload : payload.&lt;parameter-name>
+* Paramètres de chemin : dynamic_path.&lt;parameter-name>
 
 Par exemple :
 
