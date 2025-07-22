@@ -7,14 +7,20 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: 7b5b03ba-fbb1-4916-8c72-10778752d8e4
-source-git-commit: 1a9ea09fcbf304b1649a5ae88da34bd209e9ac8b
+source-git-commit: b575f2363059a24e7192f436fac62001f79a3dbc
 workflow-type: tm+mt
-source-wordcount: '378'
-ht-degree: 8%
+source-wordcount: '431'
+ht-degree: 7%
 
 ---
 
 # Enregistrer l’audience {#save-audience}
+
+>[!CONTEXTUALHELP]
+>id="ajo_orchestration_save_audience"
+>title="Activité Sauvegarde d’audience"
+>abstract="L&#39;activité **Sauvegarde d&#39;audience** est une activité **Ciblage** qui permet de mettre à jour une audience existante ou d&#39;en créer une nouvelle à partir de la population générée précédemment dans la campagne orchestrée. Une fois créées, ces audiences sont ajoutées à la liste des audiences de l’application. Vous pouvez y accéder à partir du menu **Audiences**."
+
 
 +++ Table des matières
 
