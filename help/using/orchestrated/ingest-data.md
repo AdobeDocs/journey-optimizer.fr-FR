@@ -7,9 +7,9 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: 7f1e7985-b68e-43d6-9c8f-fea2469f8af9
-source-git-commit: 2ad659b391515c193418325c34a9dd56133b90d6
+source-git-commit: a4337df949d25740f75204fe4530837dda1af3dd
 workflow-type: tm+mt
-source-wordcount: '480'
+source-wordcount: '508'
 ht-degree: 8%
 
 ---
@@ -43,7 +43,9 @@ Adobe Experience Platform permet d’ingérer des données à partir de sources 
 
 >[!IMPORTANT]
 >
->Chaque jeu de données de Adobe Experience Platform ne prend en charge qu’un seul flux de données actif à la fois. Pour obtenir des instructions de configuration détaillées sur le changement de source de données, consultez cette [section](#cdc-ingestion).
+>Pour modifier la source de données d’un jeu de données, vous devez d’abord supprimer le flux de données existant avant d’en créer un nouveau qui référence le même jeu de données et la nouvelle source.
+>
+>Adobe Experience Platform applique une relation stricte et individuelle entre les flux de données et les jeux de données. Cela vous permet de maintenir la synchronisation entre la source et le jeu de données pour une ingestion incrémentielle précise.
 
 
 Vous pouvez configurer un flux de données pour ingérer des données d’une source Amazon S3 dans Adobe Experience Platform. Une fois configuré, le flux de données permet l’ingestion automatisée et planifiée de données structurées et prend en charge les mises à jour en temps réel.
@@ -60,7 +62,7 @@ Vous pouvez configurer un flux de données pour ingérer des données d’une so
 
    * Avec un nouveau compte
 
-   [En savoir plus dans la documentation d’Adobe Experience Platform](https://experienceleague.adobe.com/fr/docs/experience-platform/destinations/catalog/cloud-storage/amazon-s3#connect)
+   [En savoir plus dans la documentation d’Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/cloud-storage/amazon-s3#connect)
 
    ![](assets/admin_sources_2.png)
 
@@ -78,9 +80,11 @@ Vous pouvez configurer un flux de données pour ingérer des données d’une so
 
    ![](assets/S3_config_1.png)
 
-1. Cochez **[!UICONTROL Activer la capture de données Modifier]** pour effectuer une sélection parmi les jeux de données mappés aux schémas relationnels et pour lesquels une clé primaire et un descripteur de version sont définis.
+1. Cochez **[!UICONTROL Activer la capture de données Modifier]** pour afficher uniquement les jeux de données mappés à des schémas relationnels et inclure une clé primaire et un descripteur de version.
 
-1. Sélectionnez le [jeu de données créé précédemment](file-upload-schema.md) et cliquez sur **[!UICONTROL Suivant]**.
+   ![](assets/S3_config_6.png)
+
+1. Sélectionnez le jeu de données créé précédemment et cliquez sur **[!UICONTROL Suivant]**.
 
    ![](assets/S3_config_3.png)
 
@@ -98,26 +102,3 @@ Vous pouvez configurer un flux de données pour ingérer des données d’une so
 
    ![](assets/S3_config_5.png)
 
-<!--### Setting Up Change data capture ingestion {#cdc-ingestion}
-
-If you need to change the data source, you must delete the existing dataflow and create a new one pointing to the same dataset with the new source.
-
-When using Change Data Capture (CDC), it is essential that the source and dataset remain in sync to ensure accurate incremental updates. Follow the steps below:
-
-1. **Schema Requirements**
-   - Your schema must include:
-     - A **primary key** (e.g., `transaction_id`)
-     - A **versioning field** (e.g., `lastmodified` or an incrementing `version_id`)
-   - Enable the dataset for **Orchestrated Campaigns** if needed.
-
-2. **CDC Dataflow Setup**
-   - During dataflow creation, after choosing your source and files:
-     - **Enable the CDC option**
-     - Select your CDC-ready dataset
-     - Confirm field mappings (especially version field)
-
-3. **Keep Source and Target in Sync**
-   - The source system must consistently update the version field so the platform can detect changes accurately.
-
-Once set up, the platform will automatically ingest **only changed or new records** each time the flow runs.
--->
