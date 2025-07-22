@@ -7,7 +7,7 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: 327597f6-8a53-42dc-966a-baae49b58bb3
-source-git-commit: 3dc0bf4acc4976ca1c46de46cf6ce4f2097f3721
+source-git-commit: 81f0338935ee36b152963f2b1c0e7989b86f5f8a
 workflow-type: tm+mt
 source-wordcount: '243'
 ht-degree: 5%
@@ -44,11 +44,11 @@ Ce guide vous guide tout au long du processus de création d’un schéma relati
 
    Définissez la structure de votre modèle de données, y compris les tables, les attributs et les relations. Choisissez de créer le schéma manuellement dans l’interface utilisateur ou de charger un fichier DDL pour une configuration plus rapide.
 
-1. [Schéma du lien](#link-schema)
+1. [Schéma du lien](file-upload-md)
 
    établissez des relations entre vos schémas pour garantir la cohérence des données et activer les requêtes entre entités. Par exemple, liez les transactions de fidélité aux destinataires ou les récompenses aux marques.
 
-1. [Ingérer des données](#ingest)
+1. [Ingérer des données](ingest-data.md)
 
    Insérez des données dans Adobe Experience Platform à partir de sources prises en charge telles que le SFTP, l’espace de stockage dans le cloud ou les bases de données.
 
