@@ -7,9 +7,9 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: 13da680d-fef8-4749-9190-8ca3d77b060a
-source-git-commit: 1a9ea09fcbf304b1649a5ae88da34bd209e9ac8b
+source-git-commit: ea541231b16947908197748202e62227c5752966
 workflow-type: tm+mt
-source-wordcount: '1158'
+source-wordcount: '1152'
 ht-degree: 16%
 
 ---
@@ -47,17 +47,23 @@ Créez une campagne orchestrée dans [!DNL Adobe Journey Optimizer] et configure
 
 Pour créer une campagne orchestrée, procédez comme suit :
 
-1. Dans le menu **[!UICONTROL Campagnes]**, sélectionnez l’onglet **[!UICONTROL Orchestration]**, puis cliquez sur **[!UICONTROL Créer une campagne]**.
+1. Accédez au menu **[!UICONTROL Campagnes]** et sélectionnez l’onglet **[!UICONTROL Orchestration]**.
+
+1. Cliquez sur le bouton **[!UICONTROL Créer une campagne]** et sélectionnez le type de campagne **[!UICONTROL Orchestration - Marketing]**.
+
+   ![](assets/create-modal.png)
+
+1. Définissez les propriétés de la campagne. Pour ce faire, cliquez sur le bouton ![Icône Paramètres de campagne](assets/do-not-localize/campaign-settings.svg) en regard du nom de la campagne.
 
    ![](assets/inventory-create.png)
 
 1. Saisissez un nom et une description pour la campagne.
 
-1. *(facultatif)* utilisez le champ **[!UICONTROL Balises]** pour affecter des balises unifiées Adobe Experience Platform à votre campagne. Vous pouvez ainsi facilement les classer et améliorer la recherche à partir de la liste des campagnes orchestrées. [Découvrez comment utiliser les balises](../start/search-filter-categorize.md#tags).
+<!--1. Merge policy-->
 
-1. Cliquez sur **[!UICONTROL Créer]**.
+1. Utilisez le champ **[!UICONTROL Balises]** pour affecter des balises unifiées Adobe Experience Platform à votre campagne. Vous pouvez ainsi facilement les classer et améliorer la recherche à partir de la liste des campagnes orchestrées. [Découvrez comment utiliser les balises](../start/search-filter-categorize.md#tags).
 
-Votre campagne orchestrée est maintenant créée et apparaît dans la liste des campagnes orchestrées. Vous pouvez mettre à jour ces propriétés à tout moment en cliquant sur l’icône ![icône des paramètres de campagne](assets/do-not-localize/campaign-settings.svg) dans la zone de travail de campagne.
+1. Cliquez sur **[!UICONTROL Enregistrer]**.
 
 ## Planifier la campagne {#schedule}
 
@@ -99,7 +105,7 @@ Pour configurer le planning de la campagne, procédez comme suit :
    * **[!UICONTROL Date]** : sélectionnez la date à laquelle la campagne doit être exécutée.
    * **[!UICONTROL Heure]** : sélectionnez l’heure spécifique à laquelle la campagne doit être exécutée.
 
-   +++
++++
 
    +++Quotidien
 
@@ -113,7 +119,7 @@ Pour configurer le planning de la campagne, procédez comme suit :
 
    * **[!UICONTROL Heure de début]** : définissez l’heure à laquelle la campagne doit s’exécuter chaque jour.
 
-   +++
++++
 
    +++Plusieurs fois par jour
 
@@ -122,7 +128,7 @@ Pour configurer le planning de la campagne, procédez comme suit :
    * **[!UICONTROL Heures sélectionnées]** : sélectionnez les heures spécifiques auxquelles la campagne doit s’exécuter et configurez sa périodicité quotidienne (à exécuter tous les jours de la semaine ou certains jours).
    * **[!UICONTROL Périodique]** : choisissez d’exécuter la campagne toutes les n minutes ou toutes les heures. Vous pouvez également définir la période au cours de laquelle les exécutions sont autorisées.
 
-   +++
++++
 
    +++Hebdomadaire
 
@@ -133,7 +139,7 @@ Pour configurer le planning de la campagne, procédez comme suit :
    * **[!UICONTROL Périodicité quotidienne]** : sélectionnez les jours de la semaine où l’exécution doit avoir lieu (par exemple, tous les lundis et jeudis).
    * **[!UICONTROL Heure de début]** : définissez l’heure à laquelle la campagne doit s’exécuter les jours sélectionnés.
 
-   +++
++++
 
    +++Mensuel
 
@@ -149,7 +155,7 @@ Pour configurer le planning de la campagne, procédez comme suit :
 
    * **[!UICONTROL Heure de début]** : définissez l’heure d’exécution de la campagne.
 
-   +++
++++
 
 1. Utilisez le paramètre **[!UICONTROL Période de validité]** pour définir des dates de début et de fin spécifiques et limiter ainsi l’exécution de la campagne à une période limitée.
 
