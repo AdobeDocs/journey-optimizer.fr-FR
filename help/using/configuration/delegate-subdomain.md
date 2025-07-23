@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: sous-domaine, délégation, domaine, DNS
 exl-id: 8021f66e-7725-475b-8722-e6f8d74c9023
-source-git-commit: 3cc5abdbec27ac9a8009b3b0d125a3b49dc9ed04
-workflow-type: ht
-source-wordcount: '2011'
-ht-degree: 100%
+source-git-commit: c1b016af0d44e0dceb4cc292ddf1820abf2734e1
+workflow-type: tm+mt
+source-wordcount: '1999'
+ht-degree: 98%
 
 ---
 
@@ -99,7 +99,7 @@ Pour déléguer complètement un nouveau sous-domaine à Adobe, procédez comme 
 
    >[!NOTE]
    >
-   >Les enregistrements manquants, cʼest-à-dire ceux qui nʼont pas encore été créés sur votre solution dʼhébergement, seront répertoriés.
+   >Assurez-vous que tous les enregistrements sont correctement créés avant de continuer.
 
 1. Une fois les vérifications effectuées, le sous-domaine obtient le statut **[!UICONTROL Succès]**. Elle est prête à être utilisée pour diffuser des messages.
 
@@ -164,7 +164,7 @@ Pour configurer un sous-domaine à l’aide de CNAME, procédez comme suit :
 
    >[!NOTE]
    >
-   >Les enregistrements manquants, cʼest-à-dire ceux qui nʼont pas encore été créés sur votre solution dʼhébergement, seront répertoriés.
+   >Assurez-vous que tous les enregistrements sont correctement créés avant de continuer.
 
 1. Adobe génère un enregistrement de validation dʼURL (avec protocole SSL sur réseau CDN). Copiez cet enregistrement de validation sur votre plateforme dʼhébergement. Si vous avez terminé la création de cet enregistrement sur votre solution dʼhébergement, cochez la case « Je confirme... », puis cliquez sur **[!UICONTROL Envoyer]**.
 
@@ -196,7 +196,7 @@ Ces étapes sont effectuées par Adobe et peuvent prendre **jusqu’à 3 heures
    * **Enregistrement MX** (enregistrement Mail eXchange) : enregistrement du serveur de messagerie qui traite les e-mails entrants envoyés au sous-domaine.
    * **Enregistrement SPF** (enregistrement Sender Policy Framework) : répertorie les adresses IP des serveurs de messagerie qui peuvent envoyer des e-mails à partir du sous-domaine.
    * **Enregistrement DKIM** (enregistrement standard DomainKeys Identified Mail) : utilise le chiffrement de la clé publique-privée pour authentifier le message afin d’éviter les usurpations.
-   * **A** : mappage IP par défaut.
+   * **A** : mapping IP par défaut.
    * **CNAME** : un enregistrement de nom canonique ou CNAME est un type d’enregistrement DNS qui mappe un nom d’alias à un nom de domaine réel ou canonique.
 
 1. **Création des URL de tracking et miroir** : si le domaine est email.example.com, le domaine tracking/mirror sera data.email.example.com. La sécurité est assurée par l’installation du certificat SSL.
@@ -252,4 +252,4 @@ Une fois que votre demande est gérée par Adobe, le domaine dont la délégatio
 
 Découvrez comment créer un sous-domaine à l&#39;aide de la méthode CNAME pour pointer vers des enregistrements spécifiques à Adobe.
 
->[!VIDEO](https://video.tv.adobe.com/v/342230?quality=12&captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/339484?quality=12)
