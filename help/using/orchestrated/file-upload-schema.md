@@ -7,10 +7,10 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: 88eb1438-0fe5-4a19-bfb6-2968a427e9e8
-source-git-commit: 3dc0bf4acc4976ca1c46de46cf6ce4f2097f3721
+source-git-commit: 6447f5d1a060037c0ceaa374db20966097585f9c
 workflow-type: tm+mt
-source-wordcount: '872'
-ht-degree: 24%
+source-wordcount: '1101'
+ht-degree: 59%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 24%
 
 | Bienvenue dans les campagnes orchestrées | Lancer votre première campagne orchestrée | Interroger la base de données | Activités de campagnes orchestrées |
 |---|---|---|---|
-| [Prise en main des campagnes orchestrées](gs-orchestrated-campaigns.md)<br/><br/>Création et gestion de schémas et de jeux de données relationnels :</br> <ul><li>[Prise en main des schémas et des jeux de données](gs-schemas.md)</li><li>[Schéma manuel](manual-schema.md)</li><li>[Schéma de chargement de fichier](file-upload-schema.md)</li><li>[ Ingérer des données ](ingest-data.md)</li></ul>[Accéder aux campagnes orchestrées et les gérer](access-manage-orchestrated-campaigns.md)<br/><br/>[Étapes clés pour créer une campagne orchestrée](gs-campaign-creation.md) | [Créer et planifier la campagne](create-orchestrated-campaign.md)<br/><br/>[Orchestrer les activités](orchestrate-activities.md)<br/><br/>[Démarrer et surveiller la campagne](start-monitor-campaigns.md)<br/><br/>[le reporting](reporting-campaigns.md) | [Utiliser le créateur de règles](orchestrated-rule-builder.md)<br/><br/>[Créer votre première requête](build-query.md)<br/><br/>[Modifier les expressions](edit-expressions.md)<br/><br/>[Reciblage](retarget.md) | [Prise en main des activités](activities/about-activities.md)<br/><br/>Activités:<br/>[Et-joindre](activities/and-join.md) - [Créer une audience](activities/build-audience.md) - [Modifier la dimension](activities/change-dimension.md) - [Activités de canal](activities/channels.md) - [Combine](activities/combine.md) - [Deduplication](activities/deduplication.md) - [Enrichissement](activities/enrichment.md) - [Fork](activities/fork.md) - [Reconciliation](activities/reconciliation.md) - [Enregistrer l’audience](activities/save-audience.md) - [Split](activities/split.md) - [Wait](activities/wait.md) |
+| [Prise en main des campagnes orchestrées](gs-orchestrated-campaigns.md)<br/><br/>Création et gestion de schémas et de jeux de données relationnels :</br> <ul><li>[Prise en main des schémas et des jeux de données](gs-schemas.md)</li><li>[Schéma manuel](manual-schema.md)</li><li>[Schéma de chargement de fichier](file-upload-schema.md)</li><li>[ Ingérer des données ](ingest-data.md)</li></ul>[Accéder aux campagnes orchestrées et les gérer](access-manage-orchestrated-campaigns.md)<br/><br/>[Étapes clés pour créer une campagne orchestrée](gs-campaign-creation.md) | [Créer et planifier la campagne](create-orchestrated-campaign.md)<br/><br/>[Orchestrer les activités](orchestrate-activities.md)<br/><br/>[Démarrer et surveiller la campagne](start-monitor-campaigns.md)<br/><br/>[Reporting](reporting-campaigns.md) | [Utiliser le créateur de règles](orchestrated-rule-builder.md)<br/><br/>[Créer votre première requête](build-query.md)<br/><br/>[Modifier les expressions](edit-expressions.md)<br/><br/>[Reciblage](retarget.md) | [Commencer avec les activités](activities/about-activities.md)<br/><br/>Activités :<br/>[Rendez-vous](activities/and-join.md) - [Créer une audience](activities/build-audience.md) - [Changement de dimension](activities/change-dimension.md) - [Activités de canal](activities/channels.md) - [Combiner](activities/combine.md) - [Déduplication](activities/deduplication.md) - [Enrichissement](activities/enrichment.md) - [Branchement](activities/fork.md) - [Réconciliation](activities/reconciliation.md) - [Enregistrer l’audience](activities/save-audience.md) - [Partage](activities/split.md) - [Attente](activities/wait.md) |
 
 {style="table-layout:fixed"}
 
@@ -40,7 +40,7 @@ Définissez le modèle de données relationnelles requis pour les campagnes orch
 
 Les schémas peuvent être créés manuellement par le biais de l’interface ou importés en bloc à l’aide d’un fichier DDL.
 
-Cette section fournit des instructions détaillées sur la création d’un schéma relationnel dans Adobe Experience Platform en chargeant un fichier DDL (Data Definition Language). L’utilisation d’un fichier DDL vous permet de définir à l’avance la structure de votre modèle de données, y compris les tables, les attributs, les clés et les relations.
+Cette section fournit des instructions détaillées sur la création d’un schéma relationnel dans Adobe Experience Platform en chargeant un fichier DDL (Data Definition Language). L’utilisation d’un fichier DDL permet de définir à l’avance la structure de votre modèle de données, y compris les tables, les attributs, les clés et les relations.
 
 1. [Chargez un fichier DDL](#ddl-upload) pour créer des schémas relationnels et définir leur structure.
 
@@ -54,6 +54,21 @@ Cette section fournit des instructions détaillées sur la création d’un sch�
 
 En chargeant un fichier DDL, vous pouvez définir à l’avance la structure de votre modèle de données, y compris les tables, les attributs, les clés et les relations.
 
+Les chargements de fichiers de schéma basés sur Excel sont pris en charge. Téléchargez le [modèle fourni](assets/template.zip) pour préparer facilement vos définitions de schéma.
+
++++Les fonctions suivantes sont prises en charge lors de la création de schémas relationnels dans Adobe Experience Platform
+
+* **ENUM**\
+  Les champs ENUM sont pris en charge lors de la création de schémas manuelle et basée sur DDL, ce qui vous permet de définir des attributs avec un ensemble fixe de valeurs autorisées.
+
+* **libellé de schéma pour la gouvernance des données**\
+  L’étiquetage est pris en charge au niveau du champ de schéma pour appliquer des politiques de gouvernance des données telles que le contrôle d’accès et les restrictions d’utilisation. Pour plus d’informations, consultez la [documentation Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=fr).
+
+* **Clé composite**\
+  Les clés primaires composites sont prises en charge dans les définitions de schéma relationnel, ce qui permet d’utiliser plusieurs champs ensemble pour identifier les enregistrements de manière unique.
+
++++
+
 1. Connectez-vous à Adobe Experience Platform.
 
 1. Accédez au menu **Gestion des données** > **Schéma**.
@@ -64,19 +79,28 @@ En chargeant un fichier DDL, vous pouvez définir à l’avance la structure de 
 
    ![](assets/admin_schema_1.png)
 
-1. Sélectionnez **[!UICONTROL Télécharger le fichier DDL]** pour définir un diagramme de relation d’entité et créer des schémas.
+1. Sélectionnez **[!UICONTROL Charger un fichier DDL]** pour définir un diagramme de relations d’entités et créer des schémas.
 
-   La structure du tableau doit contenir :
+   La structure de la table doit contenir :
    * Au moins une clé primaire
-   * Identifiant de version, tel qu’un champ de `lastmodified` de type `datetime` ou `number`.
+   * Un identifiant de version, tel qu’un champ `lastmodified` de type `datetime` ou `number`.
+   * Pour l’ingestion Change Data Capture (CDC), une colonne spéciale nommée `_change_request_type` de type `String`, qui indique le type de modification des données (par exemple, insertion, mise à jour, suppression) et permet un traitement incrémentiel
 
-1. Faites glisser et déposez votre fichier DDL, puis cliquez sur **[!UICONTROL Suivant]**.
 
-1. Saisissez votre **[!UICONTROL nom du schéma]**.
+   >[!IMPORTANT]
+   >
+   > Tout schéma utilisé pour le ciblage doit inclure au moins un champ d’identité de type `String` avec un **espace de noms d’identité** associé.\
+   >Cela garantit la compatibilité avec les fonctionnalités de ciblage et de résolution d’identité de Adobe Journey Optimizer.
 
-1. Configurez chaque schéma et ses colonnes en veillant à ce qu’une clé primaire soit spécifiée.
+1. Faites glisser et déposez votre fichier DDL, puis cliquez sur **[!UICONTROL Suivant]**.
 
-   Un attribut, tel que `lastmodified`, doit être désigné comme descripteur de version. Cet attribut, généralement de type `datetime`, `long` ou `int`, est essentiel pour que les processus d’ingestion garantissent que le jeu de données est mis à jour avec la dernière version des données.
+   Notez que la taille maximale prise en charge pour un fichier DDL est de 10 Mo.
+
+1. Saisissez le **[!UICONTROL nom de votre schéma]**.
+
+1. Configurez chaque schéma et ses colonnes en veillant à spécifier une clé primaire.
+
+   Un attribut, tel que `lastmodified`, doit être désigné comme descripteur de version. Cet attribut, généralement de type `datetime`, `long` ou `int`, est essentiel pour que les processus d’ingestion s’assurent que le jeu de données est mis à jour avec la dernière version des données.
 
    ![](assets/admin_schema_2.png)
 
@@ -88,7 +112,7 @@ Vous pouvez maintenant vérifier les définitions de table et de champ dans la z
 
 Pour définir des connexions logiques entre les tables de votre schéma, procédez comme suit.
 
-1. Accédez à la vue Zone de travail de votre modèle de données et sélectionnez les deux tables à lier
+1. Accédez à la vue Zone de travail de votre modèle de données et sélectionnez les deux tables à lier.
 
 1. Cliquez sur le bouton ![](assets/do-not-localize/Smock_AddCircle_18_N.svg) en regard de la jointure Source, puis faites glisser la flèche vers la jointure cible pour établir la connexion.
 
@@ -98,7 +122,7 @@ Pour définir des connexions logiques entre les tables de votre schéma, procéd
 
    ![](assets/admin_schema_3.png)
 
-   **Cardinalité** :
+   **Cardinalité** :
 
    * **1-N** : à une occurrence du tableau source peuvent correspondre plusieurs occurrences du tableau cible, mais à une occurrence du tableau cible peut correspondre au plus une occurrence du tableau source.
 
@@ -118,41 +142,47 @@ Pour définir des connexions logiques entre les tables de votre schéma, procéd
 
    * **Zoom arrière** : réduisez la taille de la zone de travail pour obtenir une vue plus large de votre modèle de données.
 
-   * **Ajuster la vue** : ajustez le zoom pour qu’il s’adapte à tous les schémas dans la zone visible.
+   * **Ajuster la vue** : ajustez le zoom pour qu’il s’adapte à l’ensemble des schémas dans la zone visible.
 
    * **Filtre** : choisissez le schéma à afficher dans la zone de travail.
 
-   * **Forcer la disposition automatique** : organiser automatiquement les schémas pour une meilleure organisation.
+   * **Forcer la disposition automatique** : organisez automatiquement les schémas pour une meilleure organisation.
 
-   * **Afficher la carte** : basculez sur une superposition minimale pour parcourir plus facilement les dispositions de schémas volumineuses ou complexes.
+   * **Afficher la carte** : activez une superposition de mini-carte pour parcourir plus facilement les dispositions de schémas volumineux ou complexes.
 
-1. Cliquez sur **Enregistrer** une fois l’opération terminée. Cette action crée les schémas et les jeux de données associés et permet au jeu de données d’être utilisé dans des campagnes orchestrées.
+1. Cliquez sur **Enregistrer** lorsque vous avez terminé. Cette action crée les schémas et les jeux de données associés et permet au jeu de données d’être utilisé dans des campagnes orchestrées.
 
-1. Cliquez sur **[!UICONTROL Ouvrir les tâches]** pour surveiller la progression de la tâche de création. Ce processus peut prendre quelques minutes, selon le nombre de tables définies dans le fichier DDL.
+1. Cliquez sur **[!UICONTROL Ouvrir les traitements]** pour surveiller la progression du traitement de création. Ce processus peut prendre quelques minutes, selon le nombre de tables définies dans le fichier DDL.
+
+   Vous pouvez également accéder à vos tâches relationnelles en ouvrant la fenêtre **[!UICONTROL Charger un fichier DDL]** et en sélectionnant **[!UICONTROL Afficher toutes les tâches relationnelles]**.
 
    ![](assets/admin_schema_4.png)
 
 ## Lier les schémas {#link-schema}
 
-Établissez une relation entre le schéma **transactions de fidélité** et le schéma **Destinataires** pour associer chaque transaction à l’enregistrement client correct.
+>[!IMPORTANT]
+>
+> Seules les relations explicitement définies dans le fichier DDL sont reconnues par le système. Toutes les relations d’entité qui existent en dehors du fichier DDL seront ignorées et ne seront pas traitées.
 
-1. Accédez à **[!UICONTROL Schémas]** et ouvrez vos **transactions de fidélité** créées précédemment.
+Établissez une relation entre le schéma **Transactions de fidélité** et le schéma **Destinataires** pour associer chaque transaction à l’enregistrement client correct.
 
-1. Cliquez sur **[!UICONTROL Ajouter une relation]** dans le champ Client **[!UICONTROL Propriétés du champ]**.
+1. Accédez à **[!UICONTROL Schémas]** et ouvrez vos **Transactions de fidélité** créées précédemment.
+
+1. Cliquez sur **[!UICONTROL Ajouter une relation]** dans les **[!UICONTROL Propriétés du champ client]**.
 
    ![](assets/schema_1.png)
 
-1. Sélectionnez **[!UICONTROL Plusieurs-à-un]** comme relation **[!UICONTROL Type]**.
+1. Sélectionnez **[!UICONTROL Multiples-à-un]** comme **[!UICONTROL Type]** de relation.
 
-1. Lien vers le schéma **Destinataires** existant.
+1. Liez vers le schéma **Destinataires** existant.
 
    ![](assets/schema_2.png)
 
-1. Saisissez un **[!UICONTROL Nom de la relation à partir du schéma actuel]** et un **[!UICONTROL Nom de la relation à partir du schéma de référence]**.
+1. Saisissez un **[!UICONTROL nom de relation à partir du schéma actuel]** et un **[!UICONTROL nom de relation à partir du schéma de référence]**.
 
 1. Cliquez sur **[!UICONTROL Appliquer]** pour enregistrer vos modifications.
 
-Continuez en créant une relation entre le schéma **récompenses de fidélité** et le schéma **Marques** pour associer chaque entrée de récompense à la marque appropriée.
+Continuez en créant une relation entre le schéma **Récompenses de fidélité** et le schéma **Marques** pour associer chaque entrée de récompense à la marque appropriée.
 
 ![](assets/schema_3.png)
 
