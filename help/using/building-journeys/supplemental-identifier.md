@@ -3,10 +3,10 @@ title: Identifiant supplémentaire dans les parcours déclenchés par un événe
 description: Découvrez comment utiliser un identifiant supplémentaire dans les parcours déclenchés par un événement.
 badge: label="Disponibilité limitée" type="Informative"
 exl-id: f6ebd706-4402-448a-a538-e9a4c2cf0f8b
-source-git-commit: 14a0054c605edd8ff0b63e71fb5c30104ff513ed
+source-git-commit: 664f38b4ff56ce871599400f898e23a8d04f7816
 workflow-type: tm+mt
-source-wordcount: '945'
-ht-degree: 98%
+source-wordcount: '971'
+ht-degree: 96%
 
 ---
 
@@ -69,6 +69,10 @@ En outre, Journey Optimizer vous permet d’utiliser les attributs de l’ident
 
    * Si le parcours ne prend pas en charge la rentrée, la même combinaison d’identifiant de profil + identifiant supplémentaire ne peut pas réintégrer le parcours.
    * Si le parcours prend en charge la rentrée avec une période, la même combinaison d’identifiant de profil + identifiant supplémentaire peut réintégrer après la période définie.
+
+* **Configuration des événements en aval**
+
+  Si vous utilisez un autre événement en aval dans le parcours, il doit utiliser le même ID supplémentaire et avoir le même espace de noms d’ID.
 
 ## Ajouter un identifiant supplémentaire et l’utiliser dans un parcours {#add}
 
@@ -195,4 +199,4 @@ Pour utiliser un identifiant supplémentaire dans un parcours, procédez comme s
 
 Découvrez comment activer et appliquer un identifiant supplémentaire dans [!DNL Adobe Journey Optimizer].
 
->[!VIDEO](https://video.tv.adobe.com/v/3464794?quality=12&captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/3464792?quality=12)
