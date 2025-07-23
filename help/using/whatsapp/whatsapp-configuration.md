@@ -9,10 +9,10 @@ level: Intermediate
 hide: true
 hidefromtoc: true
 exl-id: d1f40cd8-f311-4df6-b401-8858095cef3e
-source-git-commit: acb87d0c7c3b8b1bde033f9483ecdeca5cee3325
+source-git-commit: 50a16d70fbf0c64fed64b037a5bcd14c21442c89
 workflow-type: tm+mt
-source-wordcount: '636'
-ht-degree: 76%
+source-wordcount: '654'
+ht-degree: 74%
 
 ---
 
@@ -112,7 +112,7 @@ Après avoir créé et configuré vos informations d’identification d’API, v
 >
 >Sans mots-clés de souscription ou d’exclusion spécifiés, les messages de consentement standard ne sont pas activés.
 
-Une fois vos informations d’identification d’API WhatsApp créées, l’étape suivante consiste à créer un webhook et à configurer vos paramètres entrants.
+Une fois vos identifiants d&#39;API WhatsApp et vos Webhooks [Meta](https://developers.facebook.com/docs/whatsapp/webhooks/) créés, l&#39;étape suivante consiste à créer un webhook et à configurer vos paramètres entrants.
 
 1. Dans le rail de gauche, accédez à **[!UICONTROL Administration]** `>` **[!UICONTROL Canaux]**, sélectionnez le menu **[!UICONTROL WhatsApp Webhooks]** sous **[!UICONTROL Paramètres de WhatsApp]**, puis cliquez sur le bouton **[!UICONTROL Créer Webhook]**.
 
@@ -143,6 +143,8 @@ Une fois vos informations d’identification d’API WhatsApp créées, l’éta
 1. Dans le menu **[!UICONTROL Webhooks]**, cliquez sur l&#39;icône ![bin](assets/do-not-localize/Smock_Delete_18_N.svg) pour supprimer votre Webhook WhatsApp.
 
 1. Pour modifier la configuration existante, recherchez le webhook souhaité et cliquez sur l’option **[!UICONTROL Modifier]** pour apporter les modifications nécessaires.
+
+1. Accédez à votre nouvelle **[!UICONTROL URL Webhook]** et copiez-la à partir de votre **[!UICONTROL Webhook WhatsApp]** précédemment envoyé.
 
 Une fois qu’il est configuré, vous pouvez tirer parti de toutes les fonctionnalités d’origine des canaux, telles que la création de messages, la personnalisation, le suivi des liens et la création de rapports.
 
