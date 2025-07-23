@@ -9,14 +9,14 @@ role: User
 level: Beginner
 hide: true
 hidefromtoc: true
-badge: label="Beta" type="Informative"
 exl-id: cac6f675-59e0-431d-8c20-f24ef16d7bf2
-source-git-commit: f57a89e249c41e76f9ebf1a77dfe383129ae9250
-workflow-type: ht
-source-wordcount: '768'
-ht-degree: 100%
+source-git-commit: 7f507dc0113e85191429c2c48b873112b590e3ce
+workflow-type: tm+mt
+source-wordcount: '766'
+ht-degree: 96%
 
 ---
+
 
 # Créer un message WhatsApp {#create-whatsapp}
 
@@ -154,8 +154,7 @@ Notez que votre modèle WhatsApp doit d’abord être approuvé par Meta avant d
 
 1. Cliquez sur le bouton **[!UICONTROL Simuler le contenu]** pour prévisualiser le contenu de votre message WhatsApp, les URL raccourcies et le contenu personnalisé. [En savoir plus](send-whatsapp.md)
 
-Une fois que vous avez effectué vos tests et validé le contenu, vous pouvez envoyer votre message WhatsApp à votre audience. Ces étapes sont présentées sur [cette page](send-whatsapp.md).
-
+Une fois que vous avez effectué vos tests et validé le contenu, vous pouvez [envoyer votre message WhatsApp](send-whatsapp.md) à votre audience et surveiller ses performances grâce à [reporting](../reports/campaign-global-report-cja.md).
 
 <!--
 * **[!UICONTROL Template message]**: Predefined message imported from Meta into Journey Optimizer. These are intended for sending notifications, alerts, or updates to your customers.
