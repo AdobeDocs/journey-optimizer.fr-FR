@@ -10,7 +10,7 @@ exl-id: 4aa79448-f75a-48d5-8819-f4cb4baad5c7
 source-git-commit: 1a9ea09fcbf304b1649a5ae88da34bd209e9ac8b
 workflow-type: tm+mt
 source-wordcount: '728'
-ht-degree: 47%
+ht-degree: 93%
 
 ---
 
@@ -41,7 +41,7 @@ ht-degree: 47%
 
 | Bienvenue dans les campagnes orchestrées | Lancer votre première campagne orchestrée | Interroger la base de données | Activités de campagnes orchestrées |
 |---|---|---|---|
-| [Prise en main des campagnes orchestrées](../gs-orchestrated-campaigns.md)<br/><br/>Création et gestion de schémas et de jeux de données relationnels :</br> <ul><li>[Prise en main des schémas et des jeux de données](../gs-schemas.md)</li><li>[Schéma manuel](../manual-schema.md)</li><li>[Schéma de chargement de fichier](../file-upload-schema.md)</li><li>[ Ingérer des données ](../ingest-data.md)</li></ul>[Accéder aux campagnes orchestrées et les gérer](../access-manage-orchestrated-campaigns.md) | [Étapes clés de création d’une campagne orchestrée](../gs-campaign-creation.md)<br/><br/>[Créez et planifiez la campagne](../create-orchestrated-campaign.md)<br/><br/>[Orchestrez les activités](../orchestrate-activities.md)<br/><br/>[Lancez et surveillez la campagne](../start-monitor-campaigns.md)<br/><br/>[Reporting](../reporting-campaigns.md) | [Utiliser le créateur de règles](../orchestrated-rule-builder.md)<br/><br/>[Créer votre première requête](../build-query.md)<br/><br/>[Modifier les expressions](../edit-expressions.md)<br/><br/>[Reciblage](../retarget.md) | [Prise en main des activités](about-activities.md)<br/><br/>Activités:<br/>[Et-joindre](and-join.md) - [Créer une audience](build-audience.md) - [Modifier la dimension](change-dimension.md) - [Activités de canal](channels.md) - [Combine](combine.md) - <b>[Deduplication](deduplication.md)</b> - [Enrichissement](enrichment.md) - [Fork](fork.md) - [Reconciliation](reconciliation.md) - [Enregistrer l’audience](save-audience.md) - [Split](split.md) - [Wait](wait.md) |
+| [Prise en main des campagnes orchestrées](../gs-orchestrated-campaigns.md)<br/><br/>Création et gestion de schémas et de jeux de données relationnels :</br> <ul><li>[Prise en main des schémas et des jeux de données](../gs-schemas.md)</li><li>[Schéma manuel](../manual-schema.md)</li><li>[Schéma de chargement de fichier](../file-upload-schema.md)</li><li>[ Ingérer des données ](../ingest-data.md)</li></ul>[Accéder aux campagnes orchestrées et les gérer](../access-manage-orchestrated-campaigns.md) | [Étapes clés de création d’une campagne orchestrée](../gs-campaign-creation.md)<br/><br/>[Créer et planifier la campagne](../create-orchestrated-campaign.md)<br/><br/>[Orchestrer les activités](../orchestrate-activities.md)<br/><br/>[Lancer et surveiller la campagne](../start-monitor-campaigns.md)<br/><br/>[Reporting](../reporting-campaigns.md) | [Utiliser le créateur de règles](../orchestrated-rule-builder.md)<br/><br/>[Créer votre première requête](../build-query.md)<br/><br/>[Modifier les expressions](../edit-expressions.md)<br/><br/>[Reciblage](../retarget.md) | [Commencer avec les activités](about-activities.md)<br/><br/>Activités :<br/>[Rendez-vous](and-join.md) - [Créer une audience](build-audience.md) - [Changement de dimension](change-dimension.md) - [Activités de canal](channels.md) - [Combiner](combine.md) - <b>[Déduplication](deduplication.md)</b> - [Enrichissement](enrichment.md) - [Branchement](fork.md) - [Réconciliation](reconciliation.md) - [Enregistrer l’audience](save-audience.md) - [Partage](split.md) - [Attente](wait.md) |
 
 {style="table-layout:fixed"}
 
@@ -70,20 +70,20 @@ Pour configurer l’activité **[!UICONTROL Déduplication]**, procédez comme s
 
    ![](../assets/deduplication-1.png)
 
-1. Dans la section **[!UICONTROL Paramètres de déduplication]**, choisissez le nombre d’enregistrements uniques à conserver à l’aide du champ Doublons à conserver. La valeur par défaut est 1, ce qui conserve un enregistrement par groupe en double. Définissez-le sur 0 pour conserver tous les doublons.
+1. Dans la section **[!UICONTROL Paramètres de déduplication]**, choisissez le nombre d’enregistrements uniques à conserver à l’aide du champ Doublons à conserver. La valeur par défaut est 1, ce qui permet de conserver un enregistrement par groupe de doublons. Définissez-la sur 0 pour conserver tous les doublons.
 
-   Par exemple, si les enregistrements A et B sont des doublons de Y et que l&#39;enregistrement C est un doublon de Z :
+   Par exemple, si des enregistrements A et B sont des doublons de Y, et qu’un enregistrement C est un doublon de Z :
 
-   * **Si la valeur du champ est 1** : Seuls les enregistrements Y et Z sont conservés.
-   * **Si la valeur du champ est 0** : tous les enregistrements (A, B, C, Y, Z) sont conservés.
-   * **Si la valeur du champ est 2** : C et Z sont conservés, plus deux valeurs de A, B et Y, de manière aléatoire ou en fonction de votre méthode de déduplication.
+   * **Si la valeur du champ est 1** : seuls les enregistrements Y et Z sont conservés.
+   * **Si la valeur du champ est 0** : tous les enregistrements (A, B, C, Y, Z) sont conservés.
+   * **Si la valeur du champ est 2** : les enregistrements C et Z sont conservés, ainsi que deux valeurs de A, B et Y, de façon aléatoire ou selon votre méthode de déduplication.
 
-1. Choisissez une **[!UICONTROL Méthode de déduplication]**, elle définit la manière dont le système décide des enregistrements à conserver à partir de chaque groupe de doublons :
+1. Choisissez une **[!UICONTROL Méthode de déduplication]**. Celle-ci définit la manière dont le système décide des enregistrements à conserver à partir de chaque groupe de doublons :
 
    * **[!UICONTROL Sélection aléatoire]** : sélectionne au hasard l’enregistrement à conserver parmi les doublons.
-   * **[!UICONTROL En utilisant une expression]** : conserve les enregistrements dont la valeur est la plus élevée ou la plus faible en fonction d’une expression que vous définissez.
-   * **[!UICONTROL Valeurs non vides]** : conserve les enregistrements où le champ sélectionné n’est pas vide, par exemple ne conserve que les profils ayant un numéro de téléphone.
-   * **[!UICONTROL En suivant une liste de valeurs]** : permet de prioriser des valeurs spécifiques pour un ou plusieurs champs, par exemple donner la priorité aux enregistrements dont le champ « Pays » est défini sur la France. Cliquez sur **[!UICONTROL Attribut]** pour choisir un champ ou créer une expression personnalisée. Utilisez le bouton **[!UICONTROL Ajouter]** pour saisir les valeurs préférées dans l&#39;ordre de priorité.
+   * **[!UICONTROL En utilisant une expression]** : conserve les enregistrements dont la valeur est la plus élevée ou la plus faible en fonction d’une expression que vous définissez.
+   * **[!UICONTROL Valeurs non vides]** : conserve les enregistrements dans lesquels le champ sélectionné n’est pas vide, par exemple ne conserve que les profils ayant un numéro de téléphone.
+   * **[!UICONTROL En suivant une liste de valeurs]** : permet de prioriser des valeurs spécifiques pour un ou plusieurs champs, par exemple donner la priorité aux enregistrements dont le champ « Pays » est défini sur la France. Cliquez sur **[!UICONTROL Attribut]** pour choisir un champ ou créer une expression personnalisée. Utilisez le **[!UICONTROL bouton Ajouter]** pour saisir les valeurs préférées dans l’ordre de priorité.
 
    ![](../assets/deduplication-2.png)
 

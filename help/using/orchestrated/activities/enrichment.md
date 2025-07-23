@@ -10,7 +10,7 @@ exl-id: 8a0aeae8-f4f2-4f1d-9b89-28ce573fadfd
 source-git-commit: 1a9ea09fcbf304b1649a5ae88da34bd209e9ac8b
 workflow-type: tm+mt
 source-wordcount: '603'
-ht-degree: 41%
+ht-degree: 92%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 41%
 
 | Bienvenue dans les campagnes orchestrées | Lancer votre première campagne orchestrée | Interroger la base de données | Activités de campagnes orchestrées |
 |---|---|---|---|
-| [Prise en main des campagnes orchestrées](../gs-orchestrated-campaigns.md)<br/><br/>Création et gestion de schémas et de jeux de données relationnels :</br> <ul><li>[Prise en main des schémas et des jeux de données](../gs-schemas.md)</li><li>[Schéma manuel](../manual-schema.md)</li><li>[Schéma de chargement de fichier](../file-upload-schema.md)</li><li>[ Ingérer des données ](../ingest-data.md)</li></ul>[Accéder aux campagnes orchestrées et les gérer](../access-manage-orchestrated-campaigns.md) | [Étapes clés de création d’une campagne orchestrée](../gs-campaign-creation.md)<br/><br/>[Créez et planifiez la campagne](../create-orchestrated-campaign.md)<br/><br/>[Orchestrez les activités](../orchestrate-activities.md)<br/><br/>[Lancez et surveillez la campagne](../start-monitor-campaigns.md)<br/><br/>[Reporting](../reporting-campaigns.md) | [Utiliser le créateur de règles](../orchestrated-rule-builder.md)<br/><br/>[Créer votre première requête](../build-query.md)<br/><br/>[Modifier les expressions](../edit-expressions.md)<br/><br/>[Reciblage](../retarget.md) | [Prise en main des activités](about-activities.md)<br/><br/>Activités:<br/>[Et-joindre](and-join.md) - [Créer une audience](build-audience.md) - [Modifier la dimension](change-dimension.md) - [Activités de canal](channels.md) - [Combine](combine.md) - [Deduplication](deduplication.md) - <b>[Enrichissement](enrichment.md)</b> - [Fork](fork.md) - [Reconciliation](reconciliation.md) - [Enregistrer l’audience](save-audience.md) - [Split](split.md) - [Wait](wait.md) |
+| [Prise en main des campagnes orchestrées](../gs-orchestrated-campaigns.md)<br/><br/>Création et gestion de schémas et de jeux de données relationnels :</br> <ul><li>[Prise en main des schémas et des jeux de données](../gs-schemas.md)</li><li>[Schéma manuel](../manual-schema.md)</li><li>[Schéma de chargement de fichier](../file-upload-schema.md)</li><li>[ Ingérer des données ](../ingest-data.md)</li></ul>[Accéder aux campagnes orchestrées et les gérer](../access-manage-orchestrated-campaigns.md) | [Étapes clés de création d’une campagne orchestrée](../gs-campaign-creation.md)<br/><br/>[Créer et planifier la campagne](../create-orchestrated-campaign.md)<br/><br/>[Orchestrer les activités](../orchestrate-activities.md)<br/><br/>[Lancer et surveiller la campagne](../start-monitor-campaigns.md)<br/><br/>[Reporting](../reporting-campaigns.md) | [Utiliser le créateur de règles](../orchestrated-rule-builder.md)<br/><br/>[Créer votre première requête](../build-query.md)<br/><br/>[Modifier les expressions](../edit-expressions.md)<br/><br/>[Reciblage](../retarget.md) | [Commencer avec les activités](about-activities.md)<br/><br/>Activités :<br/>[Rendez-vous](and-join.md) - [Créer une audience](build-audience.md) - [Changement de dimension](change-dimension.md) - [Activités de canal](channels.md) - [Combiner](combine.md) - [Déduplication](deduplication.md) - <b>[Enrichissement](enrichment.md)</b> - [Branchement](fork.md) - [Réconciliation](reconciliation.md) - [Enregistrer l’audience](save-audience.md) - [Partage](split.md) - [Attente](wait.md) |
 
 {style="table-layout:fixed"}
 
@@ -42,7 +42,7 @@ Le contenu de cette page n’est pas définitif et peut être modifié.
 
 >[!ENDSHADEBOX]
 
-L’activité **[!UICONTROL Enrichissement]** est une activité **[!UICONTROL Ciblage]** qui vous permet d’enrichir les données de votre audience avec des attributs supplémentaires.
+L’activité **[!UICONTROL Enrichissement]** est une activité de **[!UICONTROL Ciblage]** qui permet d’enrichir les données de votre audience avec des attributs supplémentaires.
 
 Vous pouvez exploiter ces informations pour segmenter votre audience plus précisément, en fonction des comportements, des préférences ou des besoins, et pour concevoir des messages personnalisés qui s’adaptent mieux à chaque profil.
 
@@ -89,15 +89,15 @@ Pour ce faire :
 
 ### Lien de collection {#collection-link}
 
-Ce cas pratique enrichit votre audience avec des données provenant d’une table liée. Par exemple, vous souhaitez récupérer les trois derniers achats de moins de 100 $.
+Ce cas d’utilisation enrichit votre audience avec des données provenant d’une table liée. Par exemple, vous souhaitez récupérer les trois derniers achats de moins de 100 $.
 
-Pour ce faire, configurez l’enrichissement comme suit :
+Pour ce faire, configurez l’enrichissement comme suit :
 
-* **Attribut d’enrichissement** : **[!UICONTROL Prix]**
+* **Attribut d’enrichissement** : **[!UICONTROL Prix]**
 
-* **Nombre d&#39;enregistrements à récupérer** : 3
+* **Nombre d’enregistrements à récupérer** : 3
 
-* **Filtre** : incluez uniquement les achats dont le **[!UICONTROL Prix]** est inférieur à 100 $
+* **Filtrer** : incluez uniquement les achats dont le **[!UICONTROL prix]** est inférieur à 100 $.
 
 #### Ajouter l’attribut {#add-attribute}
 
@@ -117,7 +117,7 @@ Ensuite, configurez la manière dont les données doivent être collectées et l
 
    ![](../assets/enrichment-4.png)
 
-1. Dans le champ **[!UICONTROL Lignes à récupérer (Colonnes à créer)]** saisissez `3`.
+1. Dans le champ **[!UICONTROL Lignes à récupérer (Colonnes à créer)]**, saisissez `3`.
 
 1. Pour effectuer une agrégation (par exemple, un montant d’achat moyen), sélectionnez **[!UICONTROL Données agrégées]**, puis choisissez **[!UICONTROL Moyenne]** dans le menu déroulant **[!UICONTROL Fonction d’agrégat]**.
 
@@ -127,13 +127,13 @@ Ensuite, configurez la manière dont les données doivent être collectées et l
 
 #### Définir des filtres{#collection-filters}
 
-Enfin, appliquez des filtres pour vous assurer que seuls les enregistrements pertinents sont inclus :
+Enfin, appliquez des filtres pour vous assurer que seuls les enregistrements pertinents sont inclus :
 
 1. Cliquez sur **[!UICONTROL Créer des filtres]**.
 
-1. Ajoutez les deux conditions suivantes :
+1. Ajoutez les deux conditions suivantes :
 
-   * **[!UICONTROL Prix]** existe (pour exclure les NULL)
+   * **[!UICONTROL Prix]** existe (pour exclure les valeurs nulles)
 
    * **[!UICONTROL Prix]** est inférieur à 100
 

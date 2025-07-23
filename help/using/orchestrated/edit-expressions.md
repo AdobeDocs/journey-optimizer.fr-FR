@@ -2,7 +2,7 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Modifier les expressions
-description: Découvrez comment modifier des expressions.
+description: Découvrir comment modifier les expressions
 badge: label="Alpha"
 hide: true
 hidefromtoc: true
@@ -10,7 +10,7 @@ exl-id: bf0a905f-00af-4ed7-9e4f-bf8cb0af9ea9
 source-git-commit: 3f92dc721648f822687b8efc302c40989b72b145
 workflow-type: tm+mt
 source-wordcount: '2150'
-ht-degree: 75%
+ht-degree: 97%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 75%
 
 | Bienvenue dans les campagnes orchestrées | Lancer votre première campagne orchestrée | Interroger la base de données | Activités de campagnes orchestrées |
 |---|---|---|---|
-| [Prise en main des campagnes orchestrées](gs-orchestrated-campaigns.md)<br/><br/>Création et gestion de schémas et de jeux de données relationnels :</br> <ul><li>[Prise en main des schémas et des jeux de données](gs-schemas.md)</li><li>[Schéma manuel](manual-schema.md)</li><li>[Schéma de chargement de fichier](file-upload-schema.md)</li><li>[ Ingérer des données ](ingest-data.md)</li></ul>[Accéder aux campagnes orchestrées et les gérer](access-manage-orchestrated-campaigns.md)<br/><br/>[Étapes clés pour créer une campagne orchestrée](gs-campaign-creation.md) | [Créer et planifier la campagne](create-orchestrated-campaign.md)<br/><br/>[Orchestrer les activités](orchestrate-activities.md)<br/><br/>[Démarrer et surveiller la campagne](start-monitor-campaigns.md)<br/><br/>[le reporting](reporting-campaigns.md) | [Utiliser le créateur de règles](orchestrated-rule-builder.md)<br/><br/>[Créer votre première requête](build-query.md)<br/><br/><b>[Modifier les expressions](edit-expressions.md)</b><br/><br/>[Reciblage](retarget.md) | [Prise en main des activités](activities/about-activities.md)<br/><br/>Activités:<br/>[Et-joindre](activities/and-join.md) - [Créer une audience](activities/build-audience.md) - [Modifier la dimension](activities/change-dimension.md) - [Activités de canal](activities/channels.md) - [Combine](activities/combine.md) - [Deduplication](activities/deduplication.md) - [Enrichissement](activities/enrichment.md) - [Fork](activities/fork.md) - [Reconciliation](activities/reconciliation.md) - [Enregistrer l’audience](activities/save-audience.md) - [Split](activities/split.md) - [Wait](activities/wait.md) |
+| [Prise en main des campagnes orchestrées](gs-orchestrated-campaigns.md)<br/><br/>Création et gestion de schémas et de jeux de données relationnels :</br> <ul><li>[Prise en main des schémas et des jeux de données](gs-schemas.md)</li><li>[Schéma manuel](manual-schema.md)</li><li>[Schéma de chargement de fichier](file-upload-schema.md)</li><li>[ Ingérer des données ](ingest-data.md)</li></ul>[Accéder aux campagnes orchestrées et les gérer](access-manage-orchestrated-campaigns.md)<br/><br/>[Étapes clés pour créer une campagne orchestrée](gs-campaign-creation.md) | [Créer et planifier la campagne](create-orchestrated-campaign.md)<br/><br/>[Orchestrer les activités](orchestrate-activities.md)<br/><br/>[Démarrer et surveiller la campagne](start-monitor-campaigns.md)<br/><br/>[Reporting](reporting-campaigns.md) | [Utiliser le créateur de règles](orchestrated-rule-builder.md)<br/><br/>[Créer votre première requête](build-query.md)<br/><br/><b>[Modifier les expressions](edit-expressions.md)</b><br/><br/>[Reciblage](retarget.md) | [Commencer avec les activités](activities/about-activities.md)<br/><br/>Activités :<br/>[Rendez-vous](activities/and-join.md) - [Créer une audience](activities/build-audience.md) - [Changement de dimension](activities/change-dimension.md) - [Activités de canal](activities/channels.md) - [Combiner](activities/combine.md) - [Déduplication](activities/deduplication.md) - [Enrichissement](activities/enrichment.md) - [Branchement](activities/fork.md) - [Réconciliation](activities/reconciliation.md) - [Enregistrer l’audience](activities/save-audience.md) - [Partage](activities/split.md) - [Attente](activities/wait.md) |
 
 {style="table-layout:fixed"}
 
@@ -42,7 +42,7 @@ Le contenu de cette page n’est pas définitif et peut être modifié.
 
 L’édition d’une expression consiste à saisir manuellement des conditions pour former une règle. Ce mode permet d’utiliser des fonctions avancées, vous permettant ainsi de manipuler les valeurs utilisées afin de réaliser des requêtes spécifiques comme la manipulation de dates, de chaînes, de champs numériques et le tri.
 
-L’éditeur d’expression est disponible à partir du bouton **[!UICONTROL Modifier l’expression]** du créateur de règles, disponible pour les champs **[!UICONTROL Attribut]** et **[!UICONTROL Valeur]** lors de la configuration d’une condition personnalisée.
+L’éditeur d’expression est accessible avec le bouton **[!UICONTROL Modifier une expression]** du créateur de règles, disponible pour les champs **[!UICONTROL Attribut]** et **[!UICONTROL Valeur]** lors de la configuration d’une condition personnalisée.
 
 | Accéder depuis le champ **Attribut** | Accéder depuis le champ **Valeur** |
 | --- | --- |
@@ -134,33 +134,33 @@ Les fonctions de date manipulent les valeurs de date ou d’heure.
 </tr>
 <tr>
 <td><strong>AddDays</strong></td>
-<td>Ajoute un nombre de jours à une date</td>
-<td>AddDays(&lt;date&gt;, &lt;number&gt;)</td>
+<td>Ajoute un nombre de jours à une date.</td>
+<td>AddDays(&lt;date&gt;, &lt;nombre&gt;)</td>
 </tr>
 <tr>
 <td><strong>AddHours</strong></td>
-<td>Ajoute un nombre d'heures à une date</td>
-<td>AddHours(&lt;date&gt;, &lt;number&gt;)</td>
+<td>Ajoute un nombre d’heures à une date.</td>
+<td>AddHours(&lt;date&gt;, &lt;nombre&gt;)</td>
 </tr>
 <tr>
 <td><strong>AddMinutes</strong></td>
-<td>Ajoute un nombre de minutes à une date</td>
-<td>AddMinutes(&lt;date&gt;, &lt;number&gt;)</td>
+<td>Ajoute un nombre de minutes à une date.</td>
+<td>AddMinutes(&lt;date&gt;, &lt;nombre&gt;)</td>
 </tr>
 <tr>
 <td><strong>AddMonths</strong></td>
-<td>Ajoute un nombre de mois à une date</td>
-<td>AddMonths(&lt;date&gt;, &lt;number&gt;)</td>
+<td>Ajoute un nombre de mois à une date.</td>
+<td>AddMonths(&lt;date&gt;, &lt;nombre&gt;)</td>
 </tr>
 <tr>
 <td><strong>AddSeconds</strong></td>
-<td>Ajoute un nombre de secondes à une date</td>
-<td>AddSeconds(&lt;date&gt;, &lt;number&gt;)</td>
+<td>Ajoute un nombre de secondes à une date.</td>
+<td>AddSeconds(&lt;date&gt;, &lt;nombre&gt;)</td>
 </tr>
 <tr>
 <td><strong>AddYears</strong></td>
-<td>Ajoute un nombre d’années à une date</td>
-<td>AddYears(&lt;date&gt;, &lt;number&gt;)</td>
+<td>Ajoute un nombre d’années à une date.</td>
+<td>AddYears(&lt;date&gt;, &lt;nombre&gt;)</td>
 </tr>
 <tr>
 <td><strong>ConvertNTZ</strong></td>
@@ -174,12 +174,12 @@ Les fonctions de date manipulent les valeurs de date ou d’heure.
 </tr>
 <tr>
 <td><strong>DateOnly</strong></td>
-<td>Renvoie la date uniquement (avec une heure à 00:00)</td>
+<td>Renvoie la date uniquement (avec heure à 00:00).</td>
 <td>DateOnly(&lt;date&gt;)</td>
 </tr>
 <tr>
 <td><strong>Jour</strong></td>
-<td>Renvoie le nombre représentant le jour de la date</td>
+<td>Renvoie le nombre représentant le jour de la date.</td>
 <td>Day(&lt;date&gt;)</td>
 </tr>
 <tr>
@@ -204,12 +204,12 @@ Les fonctions de date manipulent les valeurs de date ou d’heure.
 </tr>
 <tr>
 <td><strong>DaysOld</strong></td>
-<td>Renvoie l’âge en jours d’une date</td>
+<td>Renvoie l’ancienneté en jours d’une date.</td>
 <td>DaysOld(&lt;date&gt;)</td>
 </tr>
 <tr>
 <td><strong>GetDate</strong></td>
-<td>Retourne la date courante du système du serveur</td>
+<td>Renvoie la date système courante du serveur.</td>
 <td>GetDate()</td>
 </tr>
 <tr>
@@ -224,32 +224,32 @@ Les fonctions de date manipulent les valeurs de date ou d’heure.
 </tr>
 <tr>
 <td><strong>Minute</strong></td>
-<td>Renvoie les minutes de la date</td>
+<td>Renvoie les minutes de la date.</td>
 <td>Minute(&lt;date&gt;)</td>
 </tr>
 <tr>
 <td><strong>MinutesDiff</strong></td>
-<td>Renvoie le nombre de minutes entre deux dates</td>
+<td>Renvoie le nombre de minutes entre deux dates.</td>
 <td>MinutesDiff(&lt;date de fin&gt;, &lt;date de début&gt;)</td>
 </tr>
 <tr>
 <td><strong>Mois</strong></td>
-<td>Renvoie le nombre représentant le mois de la date</td>
+<td>Renvoie le nombre représentant le mois de la date.</td>
 <td>Month(&lt;date&gt;)</td>
 </tr>
 <tr>
 <td><strong>MonthsAgo</strong></td>
-<td>Renvoie la date correspondant à la date actuelle moins n mois</td>
-<td>MonthsAgo(&lt;number&gt;)</td>
+<td>Renvoie la date correspondant à la date courante moins n mois.</td>
+<td>MonthsAgo(&lt;nombre&gt;)</td>
 </tr>
 <tr>
 <td><strong>MonthsDiff</strong></td>
-<td>Renvoie le nombre de mois entre deux dates</td>
+<td>Renvoie le nombre de mois entre deux dates.</td>
 <td>MonthsDiff(&lt;date de fin&gt;, &lt;date de début&gt;)</td>
 </tr>
 <tr>
 <td><strong>MonthsOld</strong></td>
-<td>Renvoie l’âge en mois d’une date</td>
+<td>Renvoie l’ancienneté en mois d’une date.</td>
 <td>MonthsOld(&lt;date&gt;)</td>
 </tr>
 <tr>
@@ -259,52 +259,52 @@ Les fonctions de date manipulent les valeurs de date ou d’heure.
 </tr>
 <tr>
 <td><strong>Second</strong></td>
-<td>Renvoie les secondes de la date</td>
+<td>Renvoie les secondes de la date.</td>
 <td>Second(&lt;date&gt;)</td>
 </tr>
 <tr>
 <td><strong>SecondsDiff</strong></td>
-<td>Renvoie le nombre de secondes entre deux dates</td>
+<td>Renvoie le nombre de secondes entre deux dates.</td>
 <td>SecondsDiff(&lt;date de fin&gt;, &lt;date de début&gt;)</td>
 </tr>
 <tr>
 <td><strong>SubDays</strong></td>
-<td>Soustrait un nombre de jours d'une date</td>
-<td>SubDays(&lt;date&gt;, &lt;number&gt;)</td>
+<td>Enlève un nombre de jours à une date.</td>
+<td>SubDays(&lt;date&gt;, &lt;nombre&gt;)</td>
 </tr>
 <tr>
 <td><strong>SubHours</strong></td>
-<td>Soustrait un nombre d'heures d'une date</td>
-<td>SubHours(&lt;date&gt;, &lt;number&gt;)</td>
+<td>Enlève un nombre d’heures à une date.</td>
+<td>SubHours(&lt;date&gt;, &lt;nombre&gt;)</td>
 </tr>
 <tr>
 <td><strong>SubMinutes</strong></td>
-<td>Soustrait un nombre de minutes d’une date</td>
-<td>SubMinutes(&lt;date&gt;, &lt;number&gt;)</td>
+<td>Enlève un nombre de minutes à une date.</td>
+<td>SubMinutes(&lt;date&gt;, &lt;nombre&gt;)</td>
 </tr>
 <tr>
 <td><strong>SubMonths</strong></td>
-<td>Soustrait un nombre de mois d'une date</td>
-<td>SubMonths(&lt;date&gt;, &lt;number&gt;)</td>
+<td>Enlève un nombre de mois à une date.</td>
+<td>SubMonths(&lt;date&gt;, &lt;nombre&gt;)</td>
 </tr>
 <tr>
 <td><strong>SubSeconds</strong></td>
-<td>Soustrait un nombre de secondes d’une date</td>
-<td>SubSeconds(&lt;date&gt;, &lt;number&gt;)</td>
+<td>Enlève un nombre de secondes à une date.</td>
+<td>SubSeconds(&lt;date&gt;, &lt;nombre&gt;)</td>
 </tr>
 <tr>
 <td><strong>SubYears</strong></td>
-<td>Soustrait un nombre d'années d'une date</td>
-<td>SubYears(&lt;date&gt;, &lt;number&gt;)</td>
+<td>Enlève un nombre d’années à une date.</td>
+<td>SubYears(&lt;date&gt;, &lt;nombre&gt;)</td>
 </tr>
 <tr>
 <td><strong>ToDate</strong></td>
-<td>Convertit une date + heure en date</td>
+<td>Convertit une date+heure en date seule</td>
 <td>ToDate(&lt;date + heure&gt;)</td>
 </tr>
 <tr>
 <td><strong>ToDateTime</strong></td>
-<td>Convertit une chaîne en date + heure</td>
+<td>Convertit une chaîne en date+heure</td>
 <td>ToDateTime(&lt;chaîne&gt;)</td>
 </tr>
 <tr>
@@ -324,27 +324,27 @@ Les fonctions de date manipulent les valeurs de date ou d’heure.
 </tr>
 <tr>
 <td><strong>TruncDateTZ</strong></td>
-<td>Arrondit une date + une heure à une précision donnée, exprimée en secondes</td>
-<td>TruncDateTZ(&lt;date&gt;, &lt;nombre de secondes&gt;, &lt;fuseau horaire&gt;)</td>
+<td>Arrondit une date+heure à la seconde près</td>
+<td>TruncDateTZ(&lt;date&gt;, &lt;nombre de secondes&gt;, &lt;time zone&gt;)</td>
 </tr>
 <tr>
 <td><strong>TruncQuarter</strong></td>
-<td>Arrondit une date au trimestre</td>
+<td>Arrondit une date au trimestre.</td>
 <td>TruncQuarter(&lt;date&gt;)</td>
 </tr>
 <tr>
 <td><strong>TruncTime</strong></td>
-<td>Arrondit la partie temporelle à la seconde la plus proche</td>
+<td>Arrondit la partie heure à la seconde.</td>
 <td>TruncTime(&lt;date&gt;, &lt;nombre de secondes&gt;)</td>
 </tr>
 <tr>
 <td><strong>TruncWeek</strong></td>
-<td>Arrondit une date à la semaine</td>
+<td>Arrondit une date à la semaine.</td>
 <td>TruncWeek(&lt;date&gt;)</td>
 </tr>
 <tr>
 <td><strong>TruncYear</strong></td>
-<td>Arrondit une valeur date + heure au 1er janvier de l’année</td>
+<td>Arrondit une date+heure au premier janvier de l’année.</td>
 <td>TruncYear(&lt;date&gt;)</td>
 </tr>
 <tr>
@@ -354,12 +354,12 @@ Les fonctions de date manipulent les valeurs de date ou d’heure.
 </tr>
 <tr>
 <td><strong>Année</strong></td>
-<td>Renvoie le nombre représentant l’année de la date</td>
+<td>Renvoie le nombre représentant l’année de la date.</td>
 <td>Year(&lt;date&gt;)</td>
 </tr>
 <tr>
 <td><strong>YearAndMonth</strong></td>
-<td>Renvoie le nombre représentant l’année et le mois de la date</td>
+<td>Renvoie le nombre représentant l’année et le mois de la date.</td>
 <td>YearAndMonth(&lt;date&gt;)</td>
 </tr>
 <tr>
@@ -374,7 +374,7 @@ Les fonctions de date manipulent les valeurs de date ou d’heure.
 </tr>
 <tr>
 <td><strong>YearsOld</strong></td>
-<td>Renvoie l’âge en années d’une date</td>
+<td>Renvoie l’ancienneté en années d’une date.</td>
 <td>YearsOld(&lt;date&gt;)</td>
 </tr>
 </tbody>

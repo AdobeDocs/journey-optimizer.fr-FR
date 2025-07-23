@@ -2,7 +2,7 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Utiliser l’activité Partage
-description: Découvrez comment utiliser l’activité Partage dans une campagne orchestrée
+description: Découvrez comment utiliser l’activité Partage dans une campagne orchestrée.
 badge: label="Alpha"
 hide: true
 hidefromtoc: true
@@ -10,7 +10,7 @@ exl-id: 986bc566-123a-451d-a4a6-bbf5a2798849
 source-git-commit: 1a9ea09fcbf304b1649a5ae88da34bd209e9ac8b
 workflow-type: tm+mt
 source-wordcount: '917'
-ht-degree: 52%
+ht-degree: 95%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 52%
 
 | Bienvenue dans les campagnes orchestrées | Lancer votre première campagne orchestrée | Interroger la base de données | Activités de campagnes orchestrées |
 |---|---|---|---|
-| [Prise en main des campagnes orchestrées](../gs-orchestrated-campaigns.md)<br/><br/>Création et gestion de schémas et de jeux de données relationnels :</br> <ul><li>[Prise en main des schémas et des jeux de données](../gs-schemas.md)</li><li>[Schéma manuel](../manual-schema.md)</li><li>[Schéma de chargement de fichier](../file-upload-schema.md)</li><li>[ Ingérer des données ](../ingest-data.md)</li></ul>[Accéder aux campagnes orchestrées et les gérer](../access-manage-orchestrated-campaigns.md) | [Étapes clés de création d’une campagne orchestrée](../gs-campaign-creation.md)<br/><br/>[Créez et planifiez la campagne](../create-orchestrated-campaign.md)<br/><br/>[Orchestrez les activités](../orchestrate-activities.md)<br/><br/>[Lancez et surveillez la campagne](../start-monitor-campaigns.md)<br/><br/>[Reporting](../reporting-campaigns.md) | [Utiliser le créateur de règles](../orchestrated-rule-builder.md)<br/><br/>[Créer votre première requête](../build-query.md)<br/><br/>[Modifier les expressions](../edit-expressions.md)<br/><br/>[Reciblage](../retarget.md) | [Prise en main des activités](about-activities.md)<br/><br/>Activités:<br/>[Et-joindre](and-join.md) - [Créer une audience](build-audience.md) - [Modifier la dimension](change-dimension.md) - [Activités de canal](channels.md) - [Combine](combine.md) - [Deduplication](deduplication.md) - [Enrichissement](enrichment.md) - [Fork](fork.md) - [Reconciliation](reconciliation.md) - [Enregistrer l’audience](save-audience.md) - <b>[Split](split.md)</b> - [Wait](wait.md) |
+| [Prise en main des campagnes orchestrées](../gs-orchestrated-campaigns.md)<br/><br/>Création et gestion de schémas et de jeux de données relationnels :</br> <ul><li>[Prise en main des schémas et des jeux de données](../gs-schemas.md)</li><li>[Schéma manuel](../manual-schema.md)</li><li>[Schéma de chargement de fichier](../file-upload-schema.md)</li><li>[ Ingérer des données ](../ingest-data.md)</li></ul>[Accéder aux campagnes orchestrées et les gérer](../access-manage-orchestrated-campaigns.md) | [Étapes clés de création d’une campagne orchestrée](../gs-campaign-creation.md)<br/><br/>[Créer et planifier la campagne](../create-orchestrated-campaign.md)<br/><br/>[Orchestrer les activités](../orchestrate-activities.md)<br/><br/>[Lancer et surveiller la campagne](../start-monitor-campaigns.md)<br/><br/>[Reporting](../reporting-campaigns.md) | [Utiliser le créateur de règles](../orchestrated-rule-builder.md)<br/><br/>[Créer votre première requête](../build-query.md)<br/><br/>[Modifier les expressions](../edit-expressions.md)<br/><br/>[Reciblage](../retarget.md) | [Commencer avec les activités](about-activities.md)<br/><br/>Activités :<br/>[Rendez-vous](and-join.md) - [Créer une audience](build-audience.md) - [Changement de dimension](change-dimension.md) - [Activités de canal](channels.md) - [Combiner](combine.md) - [Déduplication](deduplication.md) - [Enrichissement](enrichment.md) - [Branchement](fork.md) - [Réconciliation](reconciliation.md) - [Enregistrer l’audience](save-audience.md) - <b>[Partage](split.md)</b> - [Attente](wait.md) |
 
 {style="table-layout:fixed"}
 
@@ -43,7 +43,7 @@ Le contenu de cette page n’est pas définitif et peut être modifié.
 
 >[!ENDSHADEBOX]
 
-L&#39;activité **[!UICONTROL Partage]** est une activité **[!UICONTROL Ciblage]** qui segmente la population entrante en plusieurs sous-ensembles en fonction de critères de sélection définis, tels que les règles de filtrage ou la taille de la population.
+L’activité **[!UICONTROL Partage]** est une activité de **[!UICONTROL ciblage]** qui segmente la population entrante en plusieurs sous-ensembles selon des critères de sélection définis, tels que les règles de filtrage ou la taille de la population.
 
 ## Configurer l’activité Partage {#split-configuration}
 
@@ -97,17 +97,17 @@ Pour configurer l’activité **[!UICONTROL Partage]**, procédez comme suit :
 
    >[!IMPORTANT]
    >
-   >L&#39;activité **Partage** traite les sous-ensembles dans l&#39;ordre dans lequel ils sont ajoutés. Par exemple, si le premier sous-ensemble capture 70 % de la population, le suivant applique ses critères aux 30 % restants.
+   >L’activité **Partage** traite les sous-ensembles dans l’ordre dans lequel ils sont ajoutés. Par exemple, si le premier sous-ensemble capture 70 % de la population, le suivant applique ses critères aux 30 % restants.
    >
-   >Avant d’exécuter votre campagne orchestrée, assurez-vous que les sous-ensembles sont triés comme prévu. Utilisez les boutons fléchés pour ajuster leur position.
+   >Avant d’exécuter votre campagne orchestrée, assurez-vous que les sous-ensembles sont ordonnés comme prévu. Utilisez les boutons fléchés pour ajuster leur position.
 
-1. Une fois les sous-ensembles ajoutés, l’activité propose autant de transitions en sortie que de sous-ensembles : Nous vous recommandons vivement de modifier le libellé de chaque sous-ensemble pour les identifier facilement dans la zone de travail de campagne orchestrée.
+1. Une fois les sous-ensembles ajoutés, l’activité propose autant de transitions sortante que de sous-ensembles : Nous vous recommandons vivement de modifier le libellé de chaque sous-ensemble afin de les identifier facilement dans la zone de travail de la campagne orchestrée.
 
-1. Configurez les filtres pour chaque sous-ensemble :
+1. Configurez les filtres pour chaque sous-ensemble :
 
    1. Cliquez sur un sous-ensemble pour en ouvrir les paramètres.
 
-   1. Cliquez sur **[!UICONTROL Créer un filtre]** pour définir des règles de filtrage à l’aide du modéliseur de requêtes, par exemple, pour sélectionner des profils avec une adresse e-mail valide.
+   1. Cliquez sur **[!UICONTROL Créer un filtre]** pour définir des règles de filtrage à l’aide du concepteur de requête, par exemple, pour sélectionner des profils avec une adresse e-mail valide.
 
       ![](../assets/orchestrated-split-1.png)
 
@@ -115,28 +115,28 @@ Pour configurer l’activité **[!UICONTROL Partage]**, procédez comme suit :
 
    1. Pour ignorer une transition lorsque le sous-ensemble est vide, activez **[!UICONTROL Ignorer la transition vide].**
 
-1. Pour inclure des profils qui ne correspondent à aucun sous-ensemble, activez **[!UICONTROL Générer le complémentaire]**. Cela crée une transition sortante supplémentaire pour la population restante.
+1. Pour inclure des profils qui ne correspondent à aucun sous-ensemble, activez **[!UICONTROL Générer le complément]**. Cela crée une transition sortante supplémentaire pour la population restante.
 
    >[!NOTE]
    >
-   >Activez l&#39;option **[!UICONTROL Générer tous les sous-ensembles dans la même table]** pour regrouper tous les sous-ensembles en une seule transition.
+   >Activez **[!UICONTROL Générer tous les sous-ensembles dans la même table]** pour regrouper tous les sous-ensembles dans une seule transition sortante.
 
-1. Utilisez **[!UICONTROL Permettre le chevauchement des populations de sortie]** pour autoriser les profils à apparaître dans plusieurs sous-ensembles :
+1. Utilisez **[!UICONTROL Activer le chevauchement des populations de sortie]** pour autoriser les profils à apparaître dans plusieurs sous-ensembles :
 
-   * **Si cette option n’est pas cochée** chaque profil est affecté à un seul sous-ensemble, le premier dont il correspond aux critères, même s’il est admissible pour d’autres sous-ensembles.
+   * **Si cette option n’est pas cochée** chaque profil est affecté à un seul sous-ensemble, le premier dont il correspond aux critères, même s’il correspond à d’autres sous-ensembles.
 
-   * **Si cette case est cochée** les profils peuvent être inclus dans plusieurs sous-ensembles s’ils répondent aux critères de chacun d’eux.
+   * **Si cette option est cochée** les profils peuvent être inclus dans plusieurs sous-ensembles s’ils répondent aux critères de chacun d’eux.
 
-L’activité est désormais configurée. Lors de l&#39;exécution de la campagne orchestrée, la population sera segmentée en différents sous-ensembles, dans l&#39;ordre dans lequel ils ont été ajoutés à l&#39;activité.
+L’activité est désormais configurée. Lors de l’exécution de la campagne orchestrée, la population sera segmentée dans les différents sous-ensembles, dans l’ordre dans lequel ils ont été ajoutés à l’activité.
 
 ## Exemple{#split-example}
 
 Dans l’exemple suivant, l’activité **[!UICONTROL Partage]** sert à segmenter une audience en sous-ensembles distincts en fonction du canal de communication que nous voulons utiliser :
 
-* **Sous-ensemble 1 « e-mail »** : inclut les profils qui ont fourni un numéro de téléphone.
+* **Sous-ensemble 1 « E-mail »** : inclut les profils qui ont fourni un numéro de téléphone.
 
-* **Sous-ensemble 2 « sms »** : cible les profils dont le numéro de téléphone mobile est stocké dans la base de données.
+* **Sous-ensemble 2 « SMS »** : cible les profils dont le numéro de téléphone mobile est stocké dans la base de données.
 
-* **Transition complémentaire** : capture les profils restants qui ne répondent aux critères d’aucun des sous-ensembles.
+* **Transition de complément** : capture les profils restants qui ne répondent aux critères d’aucun des sous-ensembles.
 
 ![](../assets/orchestrated-split-3.png)
