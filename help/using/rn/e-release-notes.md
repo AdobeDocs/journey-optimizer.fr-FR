@@ -2,15 +2,15 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Notes de mise à jour préliminaires de Journey Optimizer
-description: Notes de mise à jour préliminaires de Journey Optimizer
+description: Notes de mise à jour préliminaires de Adobe Journey Optimizer
 feature: Release Notes
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: f74ef3dfe8ceb504ace425cf4e701c9733373c2f
+source-git-commit: 08d32e9323d5841cdac5ed08b3e1764aeb6368be
 workflow-type: tm+mt
-source-wordcount: '897'
-ht-degree: 20%
+source-wordcount: '933'
+ht-degree: 17%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 20%
 **Les notes de mise à jour préliminaires ci-dessous peuvent être modifiées sans préavis jusqu’à la date de disponibilité de la version**. Les liens, les copies d’écran et la documentation mise à jour sont publiés dans les [notes de mise à jour](release-notes.md) à la date de publication.
 
 
-## Notes de mise à jour anticipées du 25 juillet {#25-7-rn}
+## Notes de mise à jour préliminaires du 25 juillet {#25-7-rn}
 
 
 **Les notes de mise à jour préliminaires ci-dessous peuvent être modifiées sans préavis jusqu’à la date de disponibilité de la version**. Les liens, les copies d’écran et la documentation mise à jour sont publiés à la date de publication.
@@ -118,6 +118,12 @@ Les nouvelles fonctionnalités de cette version sont présentées ci-dessous.
 <tr>
 <td>
 <p>Journey Optimizer vous fournit désormais les outils nécessaires pour diffuser du contenu personnalisé et optimisé à l’audience de vos campagnes. Vous pouvez ainsi exécuter des expériences de contenu, créer un ciblage basé sur des règles et utiliser des combinaisons avancées des deux pour maximiser l’efficacité de vos campagnes.</p>
+<p>Avec l’optimisation, vous pouvez :</p>
+<ul>
+<li>Exécuter des expériences de contenu</li>
+<li>Utilisation des règles de ciblage</li>
+<li>Utilisez des combinaisons avancées d’expérimentation et de ciblage dans une seule campagne.</li></ul>
+<P>Une fois la campagne active, les profils sont évalués en fonction des critères définis. Ensuite, en fonction des critères correspondants, ils sont diffusés avec l’expérience ou le contenu approprié de la campagne.</p>
 <p><!--img src="assets/do-not-localize/FILE.gif"/>--></p>
 <p><!--For more information, refer to the <a href="../FILE.md">detailed documentation</a>--></p>
 </td>
@@ -158,7 +164,6 @@ Les nouvelles fonctionnalités de cette version sont présentées ci-dessous.
 <li>La possibilité de voir les brouillons de campagne si vous avez défini une date de début et de fin</li>
 <li>Nouveau paramètre permettant de masquer et d’afficher les éléments de calendrier s’exécutant depuis longtemps</li>
 </ul>
-<p>Publiée précédemment en disponibilité limitée, cette fonctionnalité est désormais disponible dans tous les environnements (disponibilité générale).</p>
 <p><!--img src="assets/do-not-localize/FILE.gif"/>--></p>
 <p><!--For more information, refer to the <a href="../FILE.md">detailed documentation</a>--></p>
 </td>
