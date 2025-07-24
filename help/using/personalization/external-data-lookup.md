@@ -8,17 +8,17 @@ level: Experienced
 hide: true
 hidefromtoc: true
 badge: label="Disponibilité limitée" type="Informative"
-source-git-commit: a600af73bd85d525bc1320d0aa6193660331e452
+exl-id: eae8a09a-5d27-4a80-b21f-7f795d800602
+source-git-commit: 5df643d2b0623d40779d155e406467d622d3d753
 workflow-type: tm+mt
-source-wordcount: '1184'
+source-wordcount: '1198'
 ht-degree: 1%
 
 ---
 
-
 # Assistant de recherche de données externes
 
-L’assistant `externalDataLookup` de l’éditeur de personnalisation [!DNL Journey Optmizer] peut être utilisé pour récupérer dynamiquement des données à partir d’un point d’entrée externe afin de les utiliser pour générer du contenu pour les canaux entrants tels que les canaux Expérience basée sur le code, Web et Message In-App.
+L’assistant `externalDataLookup` de l’éditeur de personnalisation [!DNL Journey Optimizer] peut être utilisé pour récupérer dynamiquement des données à partir d’un point d’entrée externe afin de les utiliser pour générer du contenu pour les canaux entrants tels que les canaux Expérience basée sur le code, Web et Message In-App.
 
 >[!AVAILABILITY]
 >
@@ -35,14 +35,14 @@ Une fois l’action définie, elle peut être utilisée à la fois :
 
 Reportez-vous également à la section Actions personnalisées dans [!DNL Journey Optimizer] campagnes et Parcours de canaux entrants #GuardrailsandGuidelines .
 
-* Par défaut, [!DNL Journey Optimizer] utilise un délai d’expiration de 300 ms lors de l’appel d’un point d’entrée externe. Contactez [!DNL Journey Optimizer] Ingénierie pour augmenter ce délai d’expiration pour un point d’entrée.
-* Dans l’éditeur Personalization, [!DNL Journey Optimizer] ne vous permet pas de parcourir le schéma de la réponse de point d’entrée lors de l’insertion d’expressions et ne valide pas les références aux attributs JSON de la réponse utilisée dans les expressions.
-* Les types de données pris en charge pour les paramètres de variable de payload à remplacer via l’assistant externalDataLookup sont String, Integer, Decimal, Boolean, listString, listInt, listInteger, listDecimal.
-* Les modifications apportées à une configuration d’action ne sont pas répercutées dans les appels externalDataLookup correspondants dans les campagnes et parcours dynamiques. Pour qu’une modification soit prise en compte, vous devez copier ou modifier les campagnes ou parcours actifs qui utilisent l’action dans un assistant externalDataLookup.
-* L’utilisation des variables n’est pas encore prise en charge dans les paramètres de l’assistant de recherche de données externes.
-* Le chemin URL dynamique n’est actuellement pas pris en charge.  - Améliorations apportées aux actions personnalisées entrantes#DynamicPathSegments.
-* Le rendu multipasse est pris en charge.
-* Les options d’authentification de la configuration d’action ne sont actuellement pas prises en charge par l’assistant externalDataLookup. En attendant, pour l’authentification par clé API ou d’autres clés d’autorisation en texte brut, vous pouvez les spécifier comme champs d’en-tête dans la configuration de l’action.
+* **Délai d’expiration par défaut** - Par défaut, [!DNL Journey Optimizer] utilise un délai d’expiration de 300 ms lors de l’appel d’un point d’entrée externe. Contactez votre représentant Adobe pour augmenter ce délai d’expiration pour un point d’entrée.
+* **Exploration du schéma de réponse et validation des expressions** - Dans l’éditeur de personnalisation, vous ne pouvez pas parcourir le schéma de la réponse de point d’entrée lors de l’insertion d’expressions. [!DNL Journey Optimizer] ne valide pas les références aux attributs JSON de la réponse utilisée dans les expressions.
+* **Types de données pris en charge pour les paramètres** - Les types de données pris en charge pour les paramètres de variable de payload à remplacer via l’assistant externalDataLookup sont `String`, `Integer`, `Decimal`, `Boolean`, `listString`, `listInt`, `listInteger` et `listDecimal`.
+* **Actualisation automatique pour les actions mises à jour** - Les modifications apportées à une configuration d’action ne sont pas répercutées dans les appels externalDataLookup correspondants dans les campagnes et parcours dynamiques. Pour qu’une modification soit prise en compte, vous devez copier ou modifier les campagnes ou parcours actifs qui utilisent l’action dans un assistant externalDataLookup.
+* **Substitution de variable** - Pour l’instant, l’utilisation des variables n’est pas prise en charge dans les paramètres de l’assistant externalDataLookup.
+* **Chemin dynamique** - Pour l’instant, le chemin URL dynamique n’est pas pris en charge.
+* **Rendu en plusieurs passages** - Le rendu en plusieurs passages est pris en charge.
+* **Authentification** - Pour l’instant, les options d’authentification dans la configuration de l’action ne sont pas prises en charge par l’assistant externalDataLookup. En attendant, pour l’authentification par clé API ou d’autres clés d’autorisation en texte brut, vous pouvez les spécifier comme champs d’en-tête dans la configuration de l’action.
 
 ## Configuration d’une action et utilisation de l’assistant
 
@@ -102,15 +102,21 @@ Noms des paramètres :
 
 Par exemple :
 
-`{{externalDataLookup actionId="..." result="result" header.myHeaderParameter="value1" query.myQueryParameter="value2" payload.myPayloadParameter="value3"}}`
+```
+{{externalDataLookup actionId="..." result="result" header.myHeaderParameter="value1" query.myQueryParameter="value2" payload.myPayloadParameter="value3"}}`
+```
 
 Les valeurs de paramètre peuvent être des valeurs fixes ou elles peuvent être personnalisées en référençant des champs de profil ou d’autres attributs contextuels, par exemple :
 
-`{{externalDataLookup actionId="..." result="result" query.myQueryParameter=profile.myProfileValue}}`
+```
+{{externalDataLookup actionId="..." result="result" query.myQueryParameter=profile.myProfileValue}}
+```
 
 Les paramètres de payload peuvent être fournis à l’aide de la notation par points pour référencer des attributs JSON imbriqués, par exemple :
 
-`{{externalDataLookup actionId="..." result="result" payload.context.channel="web"}}`
+```
+{{externalDataLookup actionId="..." result="result" payload.context.channel="web"}}
+```
 
 ### Accès au résultat
 
@@ -174,7 +180,9 @@ Si vous souhaitez gérer plus efficacement les délais d’expiration ou les err
 
 Par exemple, vous pouvez afficher une valeur de secours pour un seul attribut comme celui-ci :
 
-`First video description: {%=result.videos[0].description ?: "none found" %}`
+```
+First video description: {%=result.videos[0].description ?: "none found" %}
+```
 
 ou vous pouvez effectuer le rendu conditionnel d’un bloc de contenu entier comme suit :
 
@@ -196,7 +204,7 @@ Par exemple :
 
 Sous la section Edge Delivery de la trace d’assurance dans le cadre des détails d’exécution, un nouveau bloc customActions a été ajouté avec des détails de requête et de réponse similaires à celui ci-dessous. La section Erreurs doit vous aider à déboguer en cas de problèmes lors de l’exécution de l’action personnalisée
 
-![](assets/external-data-troubleshoot.png)
+![](assets/external-data-troubleshoot.png "width=50%")
 
 ## FAQ
 
@@ -204,7 +212,9 @@ Sous la section Edge Delivery de la trace d’assurance dans le cadre des détai
 
   Utilisez le menu Attributs contextuels > Flux de données > Événement pour parcourir le schéma d’événement d’expérience que vous utilisez et insérer l’attribut approprié en tant que valeur de paramètre comme suit :
 
-  `{{externalDataLookup actionId="..." result="result" query.myQueryParameter=context.datastream.event.<schemaId>.my.xdm.attribute}}`
+  ```
+  {{externalDataLookup actionId="..." result="result" query.myQueryParameter=context.datastream.event.<schemaId>.my.xdm.attribute}}
+  ```
 
 * Effectuez-[!DNL Journey Optimizer] une mise en cache des réponses des points d’entrée externes ?
 
