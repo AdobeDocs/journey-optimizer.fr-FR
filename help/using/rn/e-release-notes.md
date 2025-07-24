@@ -7,10 +7,10 @@ feature: Release Notes
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 47665bc3cbe1221ba872bcd2b1dac94fea5ec63a
+source-git-commit: f74ef3dfe8ceb504ace425cf4e701c9733373c2f
 workflow-type: tm+mt
-source-wordcount: '931'
-ht-degree: 22%
+source-wordcount: '897'
+ht-degree: 20%
 
 ---
 
@@ -82,7 +82,6 @@ Les nouvelles fonctionnalités de cette version sont présentées ci-dessous.
 <tr>
 <td>
 <p>Vous pouvez désormais ajouter des politiques de décision dans des parcours et des campagnes par e-mail. Les politiques de décision sont des conteneurs pour vos offres qui s’appuient sur le moteur de prise de décision pour renvoyer de manière dynamique le meilleur contenu à diffuser pour chaque membre de l’audience.</p>
-<p>Cette fonctionnalité est disponible uniquement pour un nombre limité d’organisations (disponibilité limitée). Pour en bénéficier, contactez votre représentant ou représentante Adobe.</p>
 <p>Cette fonctionnalité n’est disponible que pour un ensemble d’organisations. Il n’est actuellement pas disponible pour être utilisé avec Healthcare Shield et Privacy and Security Shield (disponibilité limitée).</p>
 <p><!--img src="assets/do-not-localize/FILE.gif"/>--></p>
 <p><!--For more information, refer to the <a href="../FILE.md">detailed documentation</a>--></p>
@@ -177,7 +176,6 @@ Les nouvelles fonctionnalités de cette version sont présentées ci-dessous.
 <tr>
 <td>
 <p>Publiée précédemment en disponibilité limitée, l’utilisation d’identifiants supplémentaires dans les parcours est désormais disponible pour tous les environnements. Avec cette version de disponibilité générale, la fonctionnalité prend désormais en charge les parcours Lecture d’audience .</p>
-<p>Publiée précédemment en disponibilité limitée, cette fonctionnalité est désormais disponible dans tous les environnements (disponibilité générale).</p>
 <p><!--img src="assets/do-not-localize/FILE.gif"/>--></p>
 <p><!--For more information, refer to the <a href="../FILE.md">detailed documentation</a>--></p>
 </td>
