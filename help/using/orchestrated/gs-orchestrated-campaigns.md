@@ -19,7 +19,7 @@ ht-degree: 19%
 >[!CONTEXTUALHELP]
 >id="campaigns_overview_orchestrated"
 >title="Campagnes orchestrées"
->abstract="**Orchestration des campagnes**<br/> divisez, combinez, enrichissez et manipulez des jeux de données relationnels pour définir votre audience<br/><br/>
+>abstract="**Orchestration des campagnes**<br/> divisez, combinez, enrichissez et manipulez des jeux de données relationnels pour définir votre audience<br/><br/>"
 
 **Exploiter les données multi-entités**<br/> Découvrez comment les campagnes orchestrées peuvent tirer parti des jeux de données relationnelles pour enrichir les données pour la segmentation et la personnalisation <br/><br/>**Segmentation ad hoc et nombres exacts**<br/> Créez votre segment étape par étape avec des nombres exacts <br/><br/>**Canaux disponibles**<br/> E-mail, SMS, notifications push, publipostage direct »
 
