@@ -11,10 +11,10 @@ keywords: mode sombre, e-mail, couleur, éditeur
 hide: true
 hidefromtoc: true
 exl-id: 27442cb0-5027-4d9c-9d3c-9ec33af7c9ff
-source-git-commit: b5d9b9c26824517414982fa539e0b360500cafc6
+source-git-commit: 12b41a253693184e4e3d866f00e7d8b0a1e30ce3
 workflow-type: tm+mt
-source-wordcount: '1701'
-ht-degree: 8%
+source-wordcount: '1674'
+ht-degree: 9%
 
 ---
 
@@ -209,13 +209,13 @@ Inline CSS helps maintain more control over styling, as some clients strip exter
 
 ## Clients de messagerie prenant en charge le mode sombre {#supporting-email-clients}
 
-Vous trouverez ci-dessous une liste des principaux clients de messagerie prenant en charge le mode sombre. Cependant, certaines versions des clients de messagerie répertoriés ne prennent pas en charge le mode sombre. Elles sont donc également présentées dans ce tableau par souci de clarté et de précision.
+Vous trouverez ci-dessous une liste des principaux clients de messagerie prenant en charge le mode sombre.
 
->[!WARNING]
+>[!NOTE]
 >
->Le rendu final en mode sombre dépend de chaque client de messagerie. Les résultats peuvent donc varier d&#39;un client à l&#39;autre. Pour voir une simulation qui se rapproche le plus possible du résultat final pour chaque client de messagerie, utilisez l’option [ Rendu des e-mails ](../content-management/rendering.md).
+>Certaines versions de ces clients de messagerie ne prennent pas en charge le mode sombre. Par souci de clarté, elles sont donc également présentées dans ce tableau.
 
-| Clients de messagerie prenant en charge le mode sombre | Versions compatibles | Versions non prises en charge |
+| Clients de messagerie prenant en charge le mode sombre | Versions compatibles | *Versions non prises en charge* |
 |---------|----------|---------|
 | Apple Mail macOS | 12,4, 16,0 | 10,3 ** |
 | Apple Mail iOS | 13.0, 16.1 | 12,2 ** |
@@ -237,13 +237,17 @@ Vous trouverez ci-dessous une liste des principaux clients de messagerie prenant
 | WEB.DE (iOS et Android) | 2022-2006 | NA |
 | Free.fr | 2022-2012 | NA |
 
+>[!WARNING]
+>
+>Le rendu final en mode sombre dépend de chaque client de messagerie. Les résultats peuvent donc varier d&#39;un client à l&#39;autre.
+
 <!--
 * Check out the list of [email clients supporting dark mode](https://www.caniemail.com/search/?s=dark){target="_blank"}
 
 * Learn more on Dark mode in this [Litmus blog post](https://www.litmus.com/blog/the-ultimate-guide-to-dark-mode-for-email-marketers){target="_blank"}
 -->
 
-## Clients de messagerie NE prenant PAS en charge le mode sombre {#non-supporting-email-clients}
+## Clients de messagerie ne prenant pas en charge le mode sombre {#non-supporting-email-clients}
 
 Certains clients de messagerie permettent aux utilisateurs de basculer leur interface en mode sombre, mais ce paramètre n’affecte pas l’affichage des e-mails HTML. Que l’interface soit en mode clair ou sombre, votre e-mail affichera le même rendu. Voici une liste de ces clients :
 
