@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: publication, parcours, actif, validité, vérifier
 exl-id: 95d0267e-fab4-4057-8ab5-6f7c9c866b0f
-source-git-commit: d772ef2d98775446618bd6614a26b9f352e073bd
-workflow-type: ht
-source-wordcount: '522'
-ht-degree: 100%
+source-git-commit: f8f07c27dc7e2ef223972e9044042c60e6dca4c8
+workflow-type: tm+mt
+source-wordcount: '530'
+ht-degree: 98%
 
 ---
 
@@ -72,6 +72,10 @@ Chaque mesure est fournie avec une attribution définie qui détermine les point
   En savoir plus sur les [modèles d’attribution](https://experienceleague.adobe.com/fr/docs/analytics-platform/using/cja-dataviews/component-settings/attribution#attribution-models)
 
 ## Attribuer les mesures de votre parcours {#assign}
+
+>[!IMPORTANT]
+>
+>Une seule mesure de parcours est autorisée par parcours.
 
 Pour commencer à effectuer le suivi des mesures de votre parcours, procédez comme suit :
 
