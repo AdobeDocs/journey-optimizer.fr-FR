@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Basculer en mode sombre
+title: Basculer vers le mode sombre
 description: Découvrez comment utiliser le mode sombre dans le Designer d’e-mail
 feature: Email Design
 topic: Content Management
@@ -14,26 +14,26 @@ exl-id: 27442cb0-5027-4d9c-9d3c-9ec33af7c9ff
 source-git-commit: b5d9b9c26824517414982fa539e0b360500cafc6
 workflow-type: tm+mt
 source-wordcount: '1701'
-ht-degree: 1%
+ht-degree: 8%
 
 ---
 
-# Gestion du contenu en mode sombre {#dark-mode}
+# Gérer le contenu en mode sombre {#dark-mode}
 
 >[!CONTEXTUALHELP]
 >id="ac_edition_darkmode"
->title="Basculer en mode sombre"
->abstract="Passez en mode sombre où vous pouvez prévisualiser la manière dont il peut s’afficher et définir des paramètres personnalisés spécifiques. <br>Attention : le rendu final dépend du client de messagerie du destinataire. Tous les clients de messagerie ne prennent pas en charge le mode sombre personnalisé."
+>title="Basculer vers le mode sombre"
+>abstract="Basculez vers le mode sombre pour prévisualiser le rendu et définir des paramètres personnalisés spécifiques. <br>Attention : le rendu final dépend du client de messagerie de la personne destinataire. Les clients de messagerie ne prennent pas tous en charge le mode sombre personnalisé."
 
 >[!CONTEXTUALHELP]
 >id="ac_edition_darkmode_image"
 >title="Utiliser une image spécifique pour le mode sombre"
->abstract="Vous pouvez sélectionner une autre image qui s’affichera lorsque le mode sombre sera activé. <br>Attention : l&#39;ajout d&#39;une image spécifique pour le mode sombre ne garantit pas qu&#39;elle s&#39;affichera correctement dans tous les clients de messagerie. Tous les clients de messagerie ne prennent pas en charge le mode sombre personnalisé."
+>abstract="Vous pouvez sélectionner une autre image qui s’affichera lorsque le mode sombre sera activé. <br>Attention : l’ajout d’une image spécifique pour le mode sombre ne garantit pas qu’elle s&#39;affichera correctement dans tous les clients de messagerie. Les clients de messagerie ne prennent pas tous en charge le mode sombre personnalisé."
 
 >[!CONTEXTUALHELP]
 >id="ac_edition_darkmode_preview"
->title="Basculer en mode sombre"
->abstract="Basculez vers le mode sombre pour prévisualiser la manière dont il peut s’afficher sur les clients de messagerie pris en charge. <br>Attention : le rendu final dépend du client de messagerie du destinataire. Tous les clients de messagerie ne prennent pas en charge le mode sombre personnalisé."
+>title="Basculer vers le mode sombre"
+>abstract="Basculez vers le mode sombre pour prévisualiser le rendu sur les clients de messagerie pris en charge. <br>Attention : le rendu final dépend du client de messagerie de la personne destinataire. Les clients de messagerie ne prennent pas tous en charge le mode sombre personnalisé."
 
 Lors de la conception de vos e-mails, le [!DNL Journey Optimizer] [Email Designer](get-started-email-design.md) vous permet de passer en **[!UICONTROL mode sombre]** où vous pouvez définir des paramètres personnalisés spécifiques. Lorsque le mode sombre est activé, les clients de messagerie de prise en charge affichent les paramètres que vous avez définis pour ce mode.
 
