@@ -9,15 +9,20 @@ role: Developer
 level: Experienced
 keywords: campagnes, déclenchées par l’API, REST, optimizer, messages
 exl-id: 0ef03d33-da11-43fa-8e10-8e4b80c90acb
-source-git-commit: 1bdba8c5c1a9238d351b159551f6d3924935b339
+source-git-commit: 15f5fdfde0e9f7c93739a624918838dbd6787833
 workflow-type: tm+mt
-source-wordcount: '193'
-ht-degree: 30%
+source-wordcount: '233'
+ht-degree: 25%
 
 ---
 
 
 # Utiliser des campagnes déclenchées par API {#trigger-campaigns}
+
+>[!CONTEXTUALHELP]
+>id="campaigns_overview_api_triggered"
+>title="Campagnes déclenchées par l’API"
+>abstract="**Campagnes déclenchées par l’API transactionnelle**<br/> Déclencher des messages en temps réel par le biais d’appels d’API <br/><br/>**Messages marketing**<br/> Contenu promotionnel (nécessite un accord préalable, soumis aux règles de l’entreprise)<br/><br/>**Messages transactionnels**<br/> Contenu lié au service (confirmation, alertes, non soumis à un consentement marketing)<br/><br/>**Canaux disponibles**<br/> E-mail, SMS, notifications push"
 
 ## À propos des campagnes déclenchées par API {#about}
 
@@ -43,4 +48,4 @@ Les canaux disponibles pour les campagnes déclenchées par API sont E-mail, SMS
 
 Découvrez comment créer une campagne et la déclencher à partir d’un système externe en fonction des interactions des utilisateurs et utilisatrices, à l’aide de l’API REST d’exécution de message interactif.
 
->[!VIDEO](https://video.tv.adobe.com/v/3452727?quality=12&captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/3425358?quality=12)

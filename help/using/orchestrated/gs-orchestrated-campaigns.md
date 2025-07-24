@@ -7,14 +7,21 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: 611dd06d-aa18-4fa3-a477-8a910cec21d8
-source-git-commit: bd5239b177954d6e5d83f4b08e7d79819c102485
+source-git-commit: 15f5fdfde0e9f7c93739a624918838dbd6787833
 workflow-type: tm+mt
-source-wordcount: '485'
-ht-degree: 20%
+source-wordcount: '540'
+ht-degree: 19%
 
 ---
 
 # Commencer les campagnes orchestrées {#orchestrated-camp}
+
+>[!CONTEXTUALHELP]
+>id="campaigns_overview_orchestrated"
+>title="Campagnes orchestrées"
+>abstract="**Orchestration des campagnes**<br/> divisez, combinez, enrichissez et manipulez des jeux de données relationnels pour définir votre audience<br/><br/>
+
+**Exploiter les données multi-entités**<br/> Découvrez comment les campagnes orchestrées peuvent tirer parti des jeux de données relationnelles pour enrichir les données pour la segmentation et la personnalisation <br/><br/>**Segmentation ad hoc et nombres exacts**<br/> Créez votre segment étape par étape avec des nombres exacts <br/><br/>**Canaux disponibles**<br/> E-mail, SMS, notifications push, publipostage direct »
 
 +++ Table des matières
 
