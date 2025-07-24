@@ -7,9 +7,9 @@ feature: Release Notes
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 08d32e9323d5841cdac5ed08b3e1764aeb6368be
+source-git-commit: 085a86b0869a10536300329acc27914f12be6d7b
 workflow-type: tm+mt
-source-wordcount: '933'
+source-wordcount: '924'
 ht-degree: 17%
 
 ---
@@ -82,7 +82,7 @@ Les nouvelles fonctionnalités de cette version sont présentées ci-dessous.
 <tr>
 <td>
 <p>Vous pouvez désormais ajouter des politiques de décision dans des parcours et des campagnes par e-mail. Les politiques de décision sont des conteneurs pour vos offres qui s’appuient sur le moteur de prise de décision pour renvoyer de manière dynamique le meilleur contenu à diffuser pour chaque membre de l’audience.</p>
-<p>Cette fonctionnalité n’est disponible que pour un ensemble d’organisations. Il n’est actuellement pas disponible pour être utilisé avec Healthcare Shield et Privacy and Security Shield (disponibilité limitée).</p>
+<p>Cette fonctionnalité n’est actuellement pas disponible pour être utilisée avec Healthcare Shield et Privacy and Security Shield (disponibilité limitée).</p>
 <p><!--img src="assets/do-not-localize/FILE.gif"/>--></p>
 <p><!--For more information, refer to the <a href="../FILE.md">detailed documentation</a>--></p>
 </td>
