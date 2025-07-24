@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: publication, parcours, actif, validité, vérifier
 exl-id: 95d0267e-fab4-4057-8ab5-6f7c9c866b0f
-source-git-commit: f8f07c27dc7e2ef223972e9044042c60e6dca4c8
+source-git-commit: f26083c222efa71176ce5c78f5f35f2c208240e6
 workflow-type: tm+mt
 source-wordcount: '530'
 ht-degree: 98%
@@ -100,3 +100,4 @@ Pour commencer à effectuer le suivi des mesures de votre parcours, procédez co
    Les mesures que vous avez choisies s’affichent dans les KPI du rapport et le tableau des statistiques du parcours.
 
    ![](assets/success_metric_2.png)
+
