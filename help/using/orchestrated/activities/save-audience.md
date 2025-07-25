@@ -7,10 +7,10 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: 7b5b03ba-fbb1-4916-8c72-10778752d8e4
-source-git-commit: 81f0338935ee36b152963f2b1c0e7989b86f5f8a
+source-git-commit: 0ae9ed8ba93bd4f64f27380f956e1c97af75dd90
 workflow-type: tm+mt
-source-wordcount: '427'
-ht-degree: 67%
+source-wordcount: '466'
+ht-degree: 52%
 
 ---
 
@@ -54,11 +54,13 @@ Pour configurer l’activité **[!UICONTROL Enregistrer l’audience]**, procéd
 
 1. Saisissez un **[!UICONTROL libellé d’audience]** qui identifiera l’audience enregistrée.
 
-1. Cliquez sur **[!UICONTROL Ajouter un attribut d’audience]** pour définir la structure et le stockage des données d’audience en vue d’une réutilisation ultérieure.
+1. Choisissez un **[!UICONTROL champ de mappage de profil&#x200B;]** à partir de votre dimension de ciblage de campagne.
+
+   ➡️ [Suivez les étapes présentées sur cette page pour créer votre dimension de ciblage de campagne](../target-dimension.md)
 
    ![](../assets/save-audience-1.png)
 
-1. Sélectionnez ensuite le **[!UICONTROL champ Identité principale]** approprié et l’**[!UICONTROL espace de noms d’identité]** pour garantir une résolution de profil précise.
+1. Cliquez sur **[!UICONTROL Ajouter des mappages d’audience]** si vous souhaitez associer l’audience enregistrée à des champs d’identité supplémentaires.
 
    ![](../assets/save-audience-2.png)
 
@@ -66,10 +68,8 @@ Pour configurer l’activité **[!UICONTROL Enregistrer l’audience]**, procéd
 
 Le contenu de l’audience enregistrée est ensuite disponible dans la vue détaillée de l’audience, accessible depuis le menu **[!UICONTROL Audiences]**.
 
-![](../assets/save-audience-3.png)
-
 ## Exemple {#save-audience-example}
 
-L’exemple suivant montre comment créer une audience simple à l’aide du ciblage. Une requête identifie tous les profils qui ont effectué un achat au cours des 30 derniers jours. L’activité **[!UICONTROL Enregistrer l’audience]** capture ensuite ces profils afin de créer une audience réutilisable des acheteurs et acheteuses récents.
+L’exemple suivant montre comment créer une audience simple à l’aide du ciblage. Une requête identifie tous les destinataires qui ont réservé un voyage au cours des 30 derniers jours en filtrant cette population dans votre campagne orchestrée. En choisissant **Destinataires - CRMID** comme **Dimension de ciblage**, l’audience cible chaque événement de réservation individuel plutôt que le destinataire dans son ensemble. L’activité **[!UICONTROL Enregistrer l’audience]** capture ensuite ces profils afin de créer une audience réutilisable des acheteurs et acheteuses récents.
 
-![](../assets/save-audience-4.png)
+![](../assets/save-audience-3.png)

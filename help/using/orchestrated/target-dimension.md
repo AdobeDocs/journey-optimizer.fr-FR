@@ -6,7 +6,7 @@ description: Découvrez comment mapper un schéma relationnel au profil client
 badge: label="Alpha"
 hide: true
 hidefromtoc: true
-source-git-commit: 70d397614dc0e5b5ce94cc4221a28d47dc9b476d
+source-git-commit: 0ae9ed8ba93bd4f64f27380f956e1c97af75dd90
 workflow-type: tm+mt
 source-wordcount: '642'
 ht-degree: 11%
@@ -58,7 +58,7 @@ Commencez par configurer l&#39;orchestration des campagnes en mappant un schéma
 
    Dans cet exemple, le profil client est lié à plusieurs abonnements, chacun étant représenté par un `crmID` unique dans le schéma `Recipient`. En définissant le **[!UICONTROL Dimension cible]** pour utiliser le schéma `Recipient` et son identité `crmID`, vous pouvez envoyer des messages au niveau de l’abonnement, plutôt qu’au niveau du profil client principal, en vous assurant que chaque contrat ou ligne reçoit son propre message personnalisé.
 
-   [En savoir plus dans la documentation d’Adobe Experience Platform](https://experienceleague.adobe.com/fr/docs/experience-platform/xdm/schema/composition#identity)
+   [En savoir plus dans la documentation d’Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/composition#identity)
 
    ![](assets/target-dimension-2.png)
 
@@ -108,4 +108,4 @@ Après avoir configuré votre **[!UICONTROL Dimension Target]**, vous devez conf
 
 1. Une fois la configuration effectuée, cliquez sur **[!UICONTROL Envoyer]**.
 
-Votre canal est maintenant prêt à être utilisé avec les campagnes orchestrées. Les messages seront diffusés en fonction de la dimension cible sélectionnée.
+Votre canal est maintenant prêt à être utilisé avec les **Campagnes orchestrées** et les messages seront diffusés en fonction de la dimension cible sélectionnée.
