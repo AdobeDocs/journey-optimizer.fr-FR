@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
-source-git-commit: 1b402e8c8a5dbff84dbd362181d6168fe85de6b5
+source-git-commit: 6091edd8413cdb9e86e982cb916594d9b609e3f7
 workflow-type: tm+mt
-source-wordcount: '1671'
+source-wordcount: '1647'
 ht-degree: 100%
 
 ---
@@ -321,13 +321,6 @@ Vous découvrez [!DNL Journey Optimizer] ? Utilisateur expérimenté avec des q
 >id="ajo_journey_approve"
 >title="Approuver"
 >abstract="Approuver (parcours)"
-
-<!-- ExD in email-->
-
->[!CONTEXTUALHELP]
->id="ajo_exd_decision_attribute"
->title="Sélectionner des attributs de décision dans un catalogue"
->abstract="Les attributs de décision sont stockés dans le schéma du catalogue. Sélectionnez un attribut que vous souhaitez utiliser ici dans le catalogue sélectionné."
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_simulation"
