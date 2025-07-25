@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Notes de mise à jour d’Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: ffa407c225324b88fae5b8e6fba53343eb629785
+source-git-commit: 4ad1d76d81bf328c9229786ca0ea7594d5580710
 workflow-type: tm+mt
-source-wordcount: '2160'
-ht-degree: 63%
+source-wordcount: '2246'
+ht-degree: 66%
 
 ---
 
@@ -94,13 +94,14 @@ Les nouvelles fonctionnalités de cette version sont présentées ci-dessous.
 <table>
 <thead>
 <tr>
-<th><strong>Activité Décision de contenu</strong><br/></th>
+<th><strong>Activité Décision de contenu dans les parcours</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Vous pouvez désormais inclure des offres personnalisées dans vos parcours par le biais d’une activité de décision de contenu dédiée dans la zone de travail de parcours et les utiliser dans des activités de parcours, y compris des conditions et des actions personnalisées.</p>
+<p>Vous pouvez désormais inclure des offres personnalisées dans vos parcours par le biais d’une activité Décision de contenu dédiée dans la zone de travail du parcours et les utiliser dans des activités de parcours, y compris des conditions et des actions personnalisées.</p>
+<img src="assets/do-not-localize/content-decision.gif">
 <p>Publiée précédemment en disponibilité limitée, cette fonctionnalité est désormais disponible dans tous les environnements (disponibilité générale).</p>
 <p><!--img src="assets/do-not-localize/FILE.gif"/>--></p>
 <p><!--For more information, refer to the <a href="../FILE.md">detailed documentation</a>--></p>
@@ -142,6 +143,7 @@ Les nouvelles fonctionnalités de cette version sont présentées ci-dessous.
 <tr>
 <td>
 <p>L’essai de parcours est un mode de publication de parcours spécial dans Adobe Journey Optimizer qui permet aux concepteurs et conceptrices de tester un parcours à l’aide de données de production réelles sans contacter les clients et clientes ni modifier les informations de profil. Cette fonctionnalité permet aux concepteurs et conceptrices du parcours de valider leur conception et leur ciblage d’audience avant de publier le parcours.</p>
+<img src="assets/do-not-localize/DryRun.gif">
 <p>Publiée précédemment en disponibilité limitée, cette fonctionnalité est désormais disponible dans tous les environnements (disponibilité générale).</p>
 <p><!--img src="assets/do-not-localize/FILE.gif"/>--></p>
 <p><!--For more information, refer to the <a href="../FILE.md">detailed documentation</a>--></p>
@@ -159,13 +161,14 @@ Les nouvelles fonctionnalités de cette version sont présentées ci-dessous.
 <tbody>
 <tr>
 <td>
+<p>Une vue Calendrier est désormais disponible dans les listes des parcours et des campagnes. Elle vous permet de visualiser toutes les activations de parcours et de campagnes dans les listes respectives.</p>
 <p>Auparavant disponible en disponibilité limitée, cette fonctionnalité est désormais disponible dans tous les environnements. Avec cette version de disponibilité générale, la fonctionnalité inclut :</p>
 <ul>
 <li>Améliorations de la conception pour la navigation dans les dates</li>
 <li>La possibilité de voir les brouillons de campagne si vous avez défini une date de début et de fin</li>
 <li>Nouveau paramètre permettant de masquer et d’afficher les éléments de calendrier s’exécutant depuis longtemps</li>
 </ul>
-<p><!--img src="assets/do-not-localize/FILE.gif"/>--></p>
+<img src="assets/do-not-localize/calendar.gif">
 <p><!--For more information, refer to the <a href="../FILE.md">detailed documentation</a>--></p>
 </td>
 </tr>
@@ -175,12 +178,13 @@ Les nouvelles fonctionnalités de cette version sont présentées ci-dessous.
 <table>
 <thead>
 <tr>
-<th><strong>ID supplémentaire dans parcours</strong><br/></th>
+<th><strong>ID supplémentaire pour parcours</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
+<p>Vous pouvez désormais déclencher des parcours à l’aide d’un identifiant de profil ainsi que d’un autre identifiant, tel qu’un identifiant de commande, d’abonnement ou de prescription, ce qui permet au même profil de se trouver plusieurs fois dans le même parcours à la fois. Cela permet des scénarios tels que la gestion de plusieurs commandes ou abonnements en parallèle, chaque instance suivant son propre chemin d’accès dans le parcours.</p>
 <p>Publiée précédemment en disponibilité limitée, l’utilisation d’identifiants supplémentaires dans les parcours est désormais disponible pour tous les environnements. Avec cette version de disponibilité générale, la fonctionnalité prend désormais en charge les parcours Lecture d’audience .</p>
 <p><!--img src="assets/do-not-localize/FILE.gif"/>--></p>
 <p><!--For more information, refer to the <a href="../FILE.md">detailed documentation</a>--></p>
@@ -242,7 +246,7 @@ Les améliorations de cette version sont présentées ci-dessous.
 
 **Date de publication** : 18 juin 2025
 
-<!--See also [Adobe Experience Platform Pre Release Notes](https://experienceleague.adobe.com/fr/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
+<!--See also [Adobe Experience Platform Pre Release Notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
 
 ### Nouvelles fonctionnalités {#25-06-features}
 
