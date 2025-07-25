@@ -9,10 +9,10 @@ role: User
 level: Beginner, Intermediate
 keywords: liens, tracking, surveillance, e-mail
 exl-id: 689e630a-00ca-4893-8bf5-6d1ec60c52e7
-source-git-commit: 4fa50df6827e07e6f6f3c5730d1ae2a1af0d426d
-workflow-type: ht
-source-wordcount: '1200'
-ht-degree: 100%
+source-git-commit: c3513c087a05f2258e00fd4d80fdb23bedfd9188
+workflow-type: tm+mt
+source-wordcount: '1214'
+ht-degree: 98%
 
 ---
 
@@ -48,6 +48,10 @@ Lorsqu’elles sont activées, ces options effectuent le suivi du comportement d
 ## Insertion de liens {#insert-links}
 
 Lorsque le [suivi est activé](#enable-tracking), tous les liens inclus dans le contenu du message sont suivis.
+
+>[!NOTE]
+>
+>Les liens des fragments utilisés dans un e-mail sont également suivis. [En savoir plus sur les fragments](../content-management/fragments.md)
 
 Pour insérer des liens dans le contenu de votre e-mail, procédez comme suit :
 

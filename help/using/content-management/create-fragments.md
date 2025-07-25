@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: da3ffe9c-a244-4246-b4b5-a3a1d0508676
-source-git-commit: e35d18002fa32df8c1cfd9e0a609ce167df4641a
-workflow-type: ht
-source-wordcount: '700'
-ht-degree: 100%
+source-git-commit: c3513c087a05f2258e00fd4d80fdb23bedfd9188
+workflow-type: tm+mt
+source-wordcount: '710'
+ht-degree: 97%
 
 ---
 
@@ -79,7 +79,13 @@ Après avoir configuré les propriétés du fragment, le concepteur d’e-mail o
 
   ![](assets/fragment-expression-editor.png)
 
-Lorsque votre contenu est prêt, cliquez sur le bouton **[!UICONTROL Enregistrer]**. Le fragment est créé et ajouté à la liste de fragments avec le statut **[!UICONTROL Brouillon]**. Vous pouvez le prévisualiser et le publier pour le rendre disponible dans les parcours et les campagnes.
+Lorsque votre contenu est prêt, cliquez sur le bouton **[!UICONTROL Enregistrer]**.
+
+>[!NOTE]
+>
+>Les fragments visuels ne peuvent pas dépasser 100KB. Les fragments d’expression ne peuvent pas dépasser 200KB.
+
+Le fragment est créé et ajouté à la liste de fragments avec le statut **[!UICONTROL Brouillon]**. Vous pouvez le prévisualiser et le publier pour le rendre disponible dans les parcours et les campagnes.
 
 ## Prévisualiser et publier le fragment {#publish}
 
