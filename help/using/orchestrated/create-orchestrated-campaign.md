@@ -7,10 +7,10 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: 13da680d-fef8-4749-9190-8ca3d77b060a
-source-git-commit: c0f5ba3a8d5a361cdae3dd432ddbe54c5b79fe36
+source-git-commit: 68d47250c3239c0da1609367e5ab14f992a8898b
 workflow-type: tm+mt
-source-wordcount: '1152'
-ht-degree: 90%
+source-wordcount: '1232'
+ht-degree: 84%
 
 ---
 
@@ -57,9 +57,11 @@ Pour créer une campagne orchestrée, procédez comme suit :
 
    ![](assets/inventory-create.png)
 
-   1. Saisissez le nom et la description de la campagne.
+   1. Saisissez un **[!UICONTROL Nom]** et un **[!UICONTROL Description]** pour la campagne.
 
-      <!--1. Merge policy-->
+   1. Sélectionnez une **[!UICONTROL politique de fusion]** pour votre campagne.
+
+      Dans [!DNL Adobe Experience Platform], chaque audience est liée à une politique de fusion spécifique, qui définit la manière dont les informations de profil sont combinées pour former un profil fusionné. Lorsque vous sélectionnez une politique de fusion dans l’activité Lecture d’audience , seules les audiences basées sur cette même politique de fusion sont disponibles. Par défaut, le système utilise la politique de fusion par défaut, mais vous pouvez la modifier si nécessaire. Pour plus d’informations sur les politiques de fusion, consultez la documentation de [Adobe Experience Platform](https://experienceleague.adobe.com/fr/docs/experience-platform/profile/merge-policies/overview){target="_blank"}.
 
    1. Utilisez le champ **[!UICONTROL Balises]** pour affecter des balises unifiées Adobe Experience Platform à votre campagne. Vous pouvez ainsi facilement les classer et améliorer la recherche à partir de la liste des campagnes orchestrées. [Découvrez comment utiliser les balises](../start/search-filter-categorize.md#tags).
 
@@ -105,7 +107,7 @@ Pour configurer le planning de la campagne, procédez comme suit :
    * **[!UICONTROL Date]** : sélectionnez la date à laquelle la campagne doit être exécutée.
    * **[!UICONTROL Heure]** : sélectionnez l’heure spécifique à laquelle la campagne doit être exécutée.
 
-   +++
++++
 
    +++Tous les jours
 
@@ -119,7 +121,7 @@ Pour configurer le planning de la campagne, procédez comme suit :
 
    * **[!UICONTROL Heure de début]** : définissez l’heure à laquelle la campagne doit être exécutée chaque jour.
 
-   +++
++++
 
    +++Plusieurs fois par jour
 
@@ -128,7 +130,7 @@ Pour configurer le planning de la campagne, procédez comme suit :
    * **[!UICONTROL Heures sélectionnées]** : sélectionnez les heures spécifiques auxquelles la campagne doit être exécutée et configurez sa récurrence quotidienne (à exécuter tous les jours de la semaine ou certains jours).
    * **[!UICONTROL Périodique]** : choisissez d’exécuter la campagne toutes les X minutes ou toutes les X heures. Vous pouvez également définir la période de la journée pendant laquelle les exécutions sont autorisées.
 
-   +++
++++
 
    +++Toutes les semaines
 
@@ -139,7 +141,7 @@ Pour configurer le planning de la campagne, procédez comme suit :
    * **[!UICONTROL Récurrence quotidienne]** : sélectionnez les jours de la semaine où l’exécution doit avoir lieu (par exemple, tous les lundis et jeudis).
    * **[!UICONTROL Heure de début]** : définissez l’heure à laquelle la campagne doit être exécutée les jours sélectionnés.
 
-   +++
++++
 
    +++Tous les mois
 
@@ -155,7 +157,7 @@ Pour configurer le planning de la campagne, procédez comme suit :
 
    * **[!UICONTROL Heure de début]** : définissez l’heure d’exécution de la campagne.
 
-   +++
++++
 
 1. Utilisez le paramètre **[!UICONTROL Période de validité]** pour définir des dates de début et de fin spécifiques et limiter ainsi l’exécution de la campagne à une période limitée.
 
