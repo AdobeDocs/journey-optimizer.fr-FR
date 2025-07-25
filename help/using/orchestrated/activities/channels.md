@@ -7,7 +7,7 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: ffe1e77c-6c4f-4f23-9183-d715a4c7c402
-source-git-commit: 3c3ef1555c587b3e50e3b70596fbac98e87d414e
+source-git-commit: 00e7ede1d8576aeef411caffd9c4251a6957f0ad
 workflow-type: tm+mt
 source-wordcount: '1213'
 ht-degree: 79%
@@ -109,7 +109,7 @@ Utilisez l’onglet **[!UICONTROL Actions]** afin de sélectionner une configura
 
 1. **Appliquer des règles de limitation**
 
-   Dans la liste déroulante **[!UICONTROL Jeu de règles]**, sélectionnez un jeu de règles de canal pour appliquer des règles de limitation à votre campagne. L’utilisation des jeux de règles de canal vous permet de définir un capping de fréquence par type de communication afin d’éviter de surcharger les clients avec des messages similaires. [Découvrir comment utiliser les jeux de règles](../conflict-prioritization/rule-sets.md)
+   Dans la liste déroulante **[!UICONTROL Jeu de règles]**, sélectionnez un jeu de règles de canal pour appliquer des règles de limitation à votre campagne. L’utilisation des jeux de règles de canal vous permet de définir un capping de fréquence par type de communication afin d’éviter de surcharger les clients avec des messages similaires. [Découvrir comment utiliser les jeux de règles](../../conflict-prioritization/rule-sets.md)
 
 1. **Suivi de l’engagement** (e-mails et SMS)
 
