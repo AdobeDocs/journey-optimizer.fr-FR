@@ -9,7 +9,7 @@ level: Intermediate
 hide: true
 hidefromtoc: true
 exl-id: d1f40cd8-f311-4df6-b401-8858095cef3e
-source-git-commit: d71dfb4f791c48997e448147b414fede49023b91
+source-git-commit: 78da5e017b5e3f39be1b613713f131d35260992b
 workflow-type: tm+mt
 source-wordcount: '748'
 ht-degree: 65%
@@ -76,7 +76,7 @@ Après avoir créé et configuré vos informations d’identification d’API, v
 >[!CONTEXTUALHELP]
 >id="ajo_admin_whatsapp_webhook_inbound_keyword_category"
 >title="Catégorie de mots-clés entrants"
->abstract="<br/><b>Opt-in</b> : envoie votre réponse automatique définie lorsqu’un utilisateur s’abonne. <br/><b>Opt-out</b> : envoie votre réponse automatique définie lorsqu’un utilisateur se désabonne. <br/><b>Aide</b> : envoie votre réponse automatique définie lorsqu’un utilisateur demande de l’aide ou de l’assistance. <br/><b>Par défaut</b> : envoie votre réponse automatique de secours lorsqu’aucun mot-clé ne correspond."
+>abstract="<b>Opt-in</b> : envoie votre réponse automatique définie lorsqu’un utilisateur s’abonne. <br/><b>Opt-out</b> : envoie votre réponse automatique définie lorsqu’un utilisateur se désabonne. <br/><b>Aide</b> : envoie votre réponse automatique définie lorsqu’un utilisateur demande de l’aide ou de l’assistance. <br/><b>Par défaut</b> : envoie votre réponse automatique de secours lorsqu’aucun mot-clé ne correspond."
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_whatsapp_webhook_inbound_keyword"
