@@ -9,7 +9,7 @@ level: Intermediate
 hide: true
 hidefromtoc: true
 exl-id: d1f40cd8-f311-4df6-b401-8858095cef3e
-source-git-commit: 78da5e017b5e3f39be1b613713f131d35260992b
+source-git-commit: 2d80f72d672f0a8ecb345dbd12ee8864785dca14
 workflow-type: tm+mt
 source-wordcount: '748'
 ht-degree: 65%
@@ -81,7 +81,7 @@ Après avoir créé et configuré vos informations d’identification d’API, v
 >[!CONTEXTUALHELP]
 >id="ajo_admin_whatsapp_webhook_inbound_keyword"
 >title="Entrez vos mots-clés"
->abstract= "You can define keywords to trigger specific auto-responses, such as for Opt-In, Opt-Out, Help, or Default, based on what users text. Keywords are not case-sensitive, e.g., "stop" and "STOP" are treated the same."
+>abstract= "You can define keywords to trigger specific auto-responses, such as for Opt-In, Opt-Out, Help, or Default, based on what users text. Keywords are not case-sensitive, e.g., stop and STOP are treated the same."
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_whatsapp_webhook_webhook_url"
