@@ -7,10 +7,10 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: 7b5b03ba-fbb1-4916-8c72-10778752d8e4
-source-git-commit: 0ae9ed8ba93bd4f64f27380f956e1c97af75dd90
+source-git-commit: c040ad5433d041f0f4f83fce46bc02662b77648f
 workflow-type: tm+mt
-source-wordcount: '466'
-ht-degree: 52%
+source-wordcount: '480'
+ht-degree: 45%
 
 ---
 
@@ -66,7 +66,10 @@ Pour configurer l’activité **[!UICONTROL Enregistrer l’audience]**, procéd
 
 1. Finalisez votre configuration en enregistrant et en publiant la campagne orchestrée. Cette opération génère et stocke votre audience.
 
-Le contenu de l’audience enregistrée est ensuite disponible dans la vue détaillée de l’audience, accessible depuis le menu **[!UICONTROL Audiences]**.
+Le contenu de l’audience enregistrée est alors disponible dans la vue détaillée de l’audience. Elle est accessible à partir du menu **[!UICONTROL Audiences]** ou peut être sélectionnée lors du ciblage d’une audience, par exemple avec une activité **[!UICONTROL Lecture d’audience]**.
+
+![](../assets/save-audience-4.png)
+
 
 ## Exemple {#save-audience-example}
 

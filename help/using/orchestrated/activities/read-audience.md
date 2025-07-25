@@ -7,10 +7,10 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: ef8eba57-cd33-4746-8eb4-5214ef9cbe2f
-source-git-commit: 2ad659b391515c193418325c34a9dd56133b90d6
+source-git-commit: c040ad5433d041f0f4f83fce46bc02662b77648f
 workflow-type: tm+mt
-source-wordcount: '417'
-ht-degree: 38%
+source-wordcount: '426'
+ht-degree: 37%
 
 ---
 
@@ -61,11 +61,13 @@ Pour configurer l’activité **[!UICONTROL Lecture d’audience]**, procédez c
 
    ![](../assets/read-audience-2.png)
 
-1. Sélectionnez l’**[!UICONTROL Entité]** utilisée pour identifier de manière unique les profils de votre audience.
+1. Choisissez une **[!UICONTROL Entité&#x200B;]** dans votre dimension de ciblage de campagne.
+
+   ➡️ [Suivez les étapes présentées sur cette page pour créer votre dimension de ciblage de campagne](../target-dimension.md)
 
    ![](../assets/read-audience-3.png)
 
-1. Sélectionnez **[!UICONTROL Ajouter un attribut de profil]** pour enrichir votre audience sélectionnée avec des données supplémentaires. L’audience obtenue contient une liste de destinataires, enrichie chacun des attributs de profil sélectionnés.
+1. Sélectionnez **[!UICONTROL Ajouter un attribut]** pour enrichir votre audience sélectionnée avec des données supplémentaires. L’audience obtenue contient une liste de destinataires, enrichie chacun des attributs de profil sélectionnés.
 
 1. Sélectionnez les **[!UICONTROL Attributs]** à ajouter à votre audience.
 
