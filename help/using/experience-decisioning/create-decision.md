@@ -6,9 +6,9 @@ topic: Integrations
 role: User
 level: Experienced
 exl-id: 63aa1763-2220-4726-a45d-3a3a8b8a55ec
-source-git-commit: 12040f4c94f01d116051da360cad4ca34a26f8e2
+source-git-commit: ddb0a03461f37c7217486cc7fb8f28df83a90e59
 workflow-type: tm+mt
-source-wordcount: '1841'
+source-wordcount: '1865'
 ht-degree: 100%
 
 ---
@@ -36,6 +36,11 @@ ht-degree: 100%
 >id="ajo_exd_placements"
 >title="Emplacement"
 >abstract="Un emplacement détermine où les éléments renvoyés par le moteur de décision apparaissent dans un message. Vous pouvez suivre leurs performances sur les différents emplacements dans les rapports."
+
+>[!CONTEXTUALHELP]
+>id="ajo_exd_decision_attribute"
+>title="Sélectionner des attributs de décision dans un catalogue"
+>abstract="Les attributs de décision sont stockés dans le schéma du catalogue. Sélectionnez un attribut que vous souhaitez utiliser ici dans le catalogue sélectionné."
 
 Les politiques de décision sont des conteneurs pour vos offres qui tirent profit du moteur de prise de décision afin de choisir le meilleur contenu à diffuser, en fonction de l’audience.
 
