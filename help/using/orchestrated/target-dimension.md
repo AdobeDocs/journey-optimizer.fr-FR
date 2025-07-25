@@ -6,7 +6,7 @@ description: Découvrez comment mapper un schéma relationnel au profil client
 badge: label="Alpha"
 hide: true
 hidefromtoc: true
-source-git-commit: 0ae9ed8ba93bd4f64f27380f956e1c97af75dd90
+source-git-commit: 0abe441a413b748b46379871f3b70842715921a3
 workflow-type: tm+mt
 source-wordcount: '642'
 ht-degree: 11%
@@ -25,6 +25,7 @@ ht-degree: 11%
 {style="table-layout:fixed"}
 
 +++
+
 
 <br/>
 
@@ -58,7 +59,7 @@ Commencez par configurer l&#39;orchestration des campagnes en mappant un schéma
 
    Dans cet exemple, le profil client est lié à plusieurs abonnements, chacun étant représenté par un `crmID` unique dans le schéma `Recipient`. En définissant le **[!UICONTROL Dimension cible]** pour utiliser le schéma `Recipient` et son identité `crmID`, vous pouvez envoyer des messages au niveau de l’abonnement, plutôt qu’au niveau du profil client principal, en vous assurant que chaque contrat ou ligne reçoit son propre message personnalisé.
 
-   [En savoir plus dans la documentation d’Adobe Experience Platform](https://experienceleague.adobe.com/fr/docs/experience-platform/xdm/schema/composition#identity)
+   [En savoir plus dans la documentation d’Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/composition#identity)
 
    ![](assets/target-dimension-2.png)
 
