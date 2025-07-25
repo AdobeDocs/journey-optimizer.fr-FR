@@ -7,7 +7,7 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: 13da680d-fef8-4749-9190-8ca3d77b060a
-source-git-commit: 4461d3fdf6e61b7d2593027250dce65bba5fbd77
+source-git-commit: f1c86dd54e46e813b3b813c539df08d4a5ce5fa9
 workflow-type: tm+mt
 source-wordcount: '1232'
 ht-degree: 84%
@@ -107,7 +107,7 @@ Pour configurer le planning de la campagne, procédez comme suit :
    * **[!UICONTROL Date]** : sélectionnez la date à laquelle la campagne doit être exécutée.
    * **[!UICONTROL Heure]** : sélectionnez l’heure spécifique à laquelle la campagne doit être exécutée.
 
-   +++
++++
 
    +++Tous les jours
 
@@ -121,7 +121,7 @@ Pour configurer le planning de la campagne, procédez comme suit :
 
    * **[!UICONTROL Heure de début]** : définissez l’heure à laquelle la campagne doit être exécutée chaque jour.
 
-   +++
++++
 
    +++Plusieurs fois par jour
 
@@ -130,7 +130,7 @@ Pour configurer le planning de la campagne, procédez comme suit :
    * **[!UICONTROL Heures sélectionnées]** : sélectionnez les heures spécifiques auxquelles la campagne doit être exécutée et configurez sa récurrence quotidienne (à exécuter tous les jours de la semaine ou certains jours).
    * **[!UICONTROL Périodique]** : choisissez d’exécuter la campagne toutes les X minutes ou toutes les X heures. Vous pouvez également définir la période de la journée pendant laquelle les exécutions sont autorisées.
 
-   +++
++++
 
    +++Toutes les semaines
 
@@ -141,7 +141,7 @@ Pour configurer le planning de la campagne, procédez comme suit :
    * **[!UICONTROL Récurrence quotidienne]** : sélectionnez les jours de la semaine où l’exécution doit avoir lieu (par exemple, tous les lundis et jeudis).
    * **[!UICONTROL Heure de début]** : définissez l’heure à laquelle la campagne doit être exécutée les jours sélectionnés.
 
-   +++
++++
 
    +++Tous les mois
 
@@ -157,7 +157,7 @@ Pour configurer le planning de la campagne, procédez comme suit :
 
    * **[!UICONTROL Heure de début]** : définissez l’heure d’exécution de la campagne.
 
-   +++
++++
 
 1. Utilisez le paramètre **[!UICONTROL Période de validité]** pour définir des dates de début et de fin spécifiques et limiter ainsi l’exécution de la campagne à une période limitée.
 
