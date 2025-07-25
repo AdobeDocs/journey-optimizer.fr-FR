@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Notes de mise à jour d’Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 23684c906d11c7f54eb28cac7c2697964e723a2e
+source-git-commit: 1e9aaceb48335beb0c9a8ef037f758818c700dfa
 workflow-type: tm+mt
-source-wordcount: '2316'
-ht-degree: 63%
+source-wordcount: '2342'
+ht-degree: 62%
 
 ---
 
@@ -103,9 +103,12 @@ Les nouvelles fonctionnalités de cette version sont présentées ci-dessous.
 <p>Journey Optimizer vous fournit désormais les outils nécessaires pour diffuser du contenu personnalisé et optimisé à l’audience de vos campagnes. Vous pouvez ainsi exécuter des expériences de contenu, créer un ciblage basé sur des règles et utiliser des combinaisons avancées des deux pour maximiser l’efficacité de vos campagnes.</p>
 <p>Avec l’optimisation, vous pouvez :</p>
 <ul>
-<li>Exécuter des expériences de contenu</li>
-<li>Utilisation des règles de ciblage</li>
-<li>Utilisez des combinaisons avancées d’expérimentation et de ciblage dans une seule campagne.</li></ul>
+<li>Testez plusieurs variations de contenu pour identifier le message le plus efficace.</li>
+<li>Diffusez du contenu personnalisé en fonction des attributs de l’utilisateur et des données contextuelles.</li>
+<li>Combinez le ciblage et l’expérimentation pour obtenir des stratégies de campagne avancées.</li>
+<li>Filtrez les utilisateurs qui ne correspondent pas aux critères de variante.</li>
+<li>Garantissez des mécanismes de secours pour maintenir l’interaction client.</li>
+</ul>
 <P>Une fois la campagne active, les profils sont évalués en fonction des critères définis. Ensuite, en fonction des critères correspondants, ils sont diffusés avec l’expérience ou le contenu approprié de la campagne.</p>
 <p><!--img src="assets/do-not-localize/FILE.gif"/>--></p>
 <p><!--For more information, refer to the <a href="../FILE.md">detailed documentation</a>--></p>
@@ -248,7 +251,7 @@ Les améliorations de cette version sont présentées ci-dessous.
 
 **Date de publication** : 18 juin 2025
 
-<!--See also [Adobe Experience Platform Pre Release Notes](https://experienceleague.adobe.com/fr/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
+<!--See also [Adobe Experience Platform Pre Release Notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
 
 ### Nouvelles fonctionnalités {#25-06-features}
 
