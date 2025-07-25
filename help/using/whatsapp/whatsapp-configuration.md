@@ -9,10 +9,10 @@ level: Intermediate
 hide: true
 hidefromtoc: true
 exl-id: d1f40cd8-f311-4df6-b401-8858095cef3e
-source-git-commit: fa65d30fd55fa7f9392623352ff3c77192cc77dc
+source-git-commit: 9af09d694f58d169dcf4448562129ed0b37f35df
 workflow-type: tm+mt
-source-wordcount: '781'
-ht-degree: 62%
+source-wordcount: '773'
+ht-degree: 63%
 
 ---
 
@@ -81,11 +81,11 @@ Après avoir créé et configuré vos informations d’identification d’API, v
 >[!CONTEXTUALHELP]
 >id="ajo_admin_whatsapp_webhook_inbound_keyword"
 >title="Entrez vos mots-clés"
->abstract="Vous pouvez définir des mots-clés pour déclencher des réponses automatiques spécifiques, telles que pour Opt-in, Opt-out, Aide ou Par défaut, en fonction du texte des utilisateurs. Les mots-clés ne sont pas sensibles à la casse ; par exemple, les arrêts et les arrêts sont traités de la même manière."
+>abstract="Vous pouvez définir des mots-clés pour déclencher des réponses automatiques spécifiques en fonction du texte des utilisateurs. Les mots-clés ne sont pas sensibles à la casse ; par exemple, les arrêts et les arrêts sont traités de la même manière."
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_whatsapp_webhook_webhook_url"
->title=" URL de rappel"
+>title="URL de rappel"
 >abstract="La demande de validation et les notifications webhook pour cet objet sont envoyées à l’URL spécifiée."
 
 >[!CONTEXTUALHELP]
