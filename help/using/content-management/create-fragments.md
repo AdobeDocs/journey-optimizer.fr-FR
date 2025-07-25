@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: da3ffe9c-a244-4246-b4b5-a3a1d0508676
-source-git-commit: c3513c087a05f2258e00fd4d80fdb23bedfd9188
+source-git-commit: 82b1dd99e13b63a1b19b96211f4410a16dd82a9e
 workflow-type: tm+mt
-source-wordcount: '710'
-ht-degree: 97%
+source-wordcount: '755'
+ht-degree: 91%
 
 ---
 
@@ -78,6 +78,10 @@ Après avoir configuré les propriétés du fragment, le concepteur d’e-mail o
 * Pour les fragments d’expression, utilisez l’éditeur de personnalisation de [!DNL Journey Optimizer] et toutes ses fonctionnalités de personnalisation et de création pour créer le contenu de votre fragment. [En savoir plus](../personalization/personalization-build-expressions.md)
 
   ![](assets/fragment-expression-editor.png)
+
+>[!NOTE]
+>
+>Lorsque le tracking est activé dans un parcours ou une campagne, si vous ajoutez des liens à un fragment et que ce fragment est utilisé dans un e-mail, ces liens sont trackés comme tous les autres liens inclus dans le message. [En savoir plus sur les liens et le tracking](../email/message-tracking.md)
 
 Lorsque votre contenu est prêt, cliquez sur le bouton **[!UICONTROL Enregistrer]**.
 
