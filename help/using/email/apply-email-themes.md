@@ -3,15 +3,16 @@ solution: Journey Optimizer
 product: journey optimizer
 title: Amélioration de l’expérience de création d’e-mails
 description: Découvrez comment rationaliser la création d’e-mails avec des thèmes et des modules réutilisables, en garantissant la cohérence et l’efficacité de la conception dans vos campagnes.
+badge: label="Beta" type="Informative"
 feature: Email Design
 topic: Content Management
 role: User
 level: Beginner, Intermediate
 keywords: Thèmes d’e-mail, modules, réutilisation, cohérence de la marque, conception d’e-mail, CSS personnalisé, optimisation mobile
 exl-id: e81d9634-bbff-44d0-8cd7-e86f85075c06
-source-git-commit: bfe0ce29a30cff7ba876b43d9ed7858ffaab6bb5
-workflow-type: ht
-source-wordcount: '821'
+source-git-commit: 23684c906d11c7f54eb28cac7c2697964e723a2e
+workflow-type: tm+mt
+source-wordcount: '822'
 ht-degree: 100%
 
 ---

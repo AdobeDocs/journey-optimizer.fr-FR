@@ -3,6 +3,7 @@ solution: Journey Optimizer
 product: journey optimizer
 title: Basculer vers le mode sombre
 description: Découvrez comment utiliser le mode sombre dans le Designer d’e-mail
+badge: label="Beta" type="Informative"
 feature: Email Design
 topic: Content Management
 role: User
@@ -11,10 +12,10 @@ keywords: mode sombre, e-mail, couleur, éditeur
 hide: true
 hidefromtoc: true
 exl-id: 27442cb0-5027-4d9c-9d3c-9ec33af7c9ff
-source-git-commit: 12b41a253693184e4e3d866f00e7d8b0a1e30ce3
+source-git-commit: 23684c906d11c7f54eb28cac7c2697964e723a2e
 workflow-type: tm+mt
-source-wordcount: '1674'
-ht-degree: 9%
+source-wordcount: '1677'
+ht-degree: 10%
 
 ---
 
@@ -34,6 +35,10 @@ ht-degree: 9%
 >id="ac_edition_darkmode_preview"
 >title="Basculer vers le mode sombre"
 >abstract="Basculez vers le mode sombre pour prévisualiser le rendu sur les clients de messagerie pris en charge. <br>Attention : le rendu final dépend du client de messagerie de la personne destinataire. Les clients de messagerie ne prennent pas tous en charge le mode sombre personnalisé."
+
+>[!AVAILABILITY]
+>
+>Cette fonctionnalité est actuellement en version Beta et disponible uniquement pour les clientes et clients Beta. Pour rejoindre le programme bêta, contactez votre représentant ou représentante Adobe.
 
 Lors de la conception de vos e-mails, le [!DNL Journey Optimizer] [Email Designer](get-started-email-design.md) vous permet de passer en **[!UICONTROL mode sombre]** où vous pouvez définir des paramètres personnalisés spécifiques. Lorsque le mode sombre est activé, les clients de messagerie de prise en charge affichent les paramètres que vous avez définis pour ce mode.
 
@@ -91,9 +96,10 @@ Pour accéder au mode sombre dans le Designer Email et obtenir un aperçu des pa
 
 1. Sur la page d&#39;accueil de Designer Email, sélectionnez l&#39;option **[!UICONTROL Créer en partant de zéro]**. [En savoir plus](content-from-scratch.md)
 
-   >[!NOTE]
-   >
-   >Actuellement, vous ne pourrez peut-être pas passer en mode sombre si vous sélectionnez un [modèle d’e-mail](use-email-templates.md) ou si vous appliquez un [thème](apply-email-themes.md).
+<!--Should work with templates and themes, NOT for LP and fragments - but TBC with eng.
+    >[!NOTE]
+    >
+    >Currently you may not be able to switch to dark mode if you select an [email template](use-email-templates.md) or if you apply a [theme](apply-email-themes.md).-->
 
 1. Ajoutez [structures](content-from-scratch.md) et [composants de contenu](content-components.md) à votre contenu.
 
@@ -104,12 +110,8 @@ Pour accéder au mode sombre dans le Designer Email et obtenir un aperçu des pa
 1. L’aperçu du mode sombre par défaut s’affiche.
 
    ![](assets/dark-mode-default.png)
-<!--
-    >[!NOTE]
-    >
-    >Dark mode applies to all elements, except images and icons.-->
 
-Par défaut, l’aperçu du mode sombre d’Email Designer applique le modèle de couleurs « inverser toutes les couleurs » à tous les éléments, à l’exception des images et des icônes. <!--It fully inverts all colors for all the elements (texts, buttons, etc.)-->
+Par défaut, l’aperçu du mode sombre d’Email Designer applique le modèle de couleurs « inverser toutes les couleurs » à tous les éléments, à l’exception des images et des icônes.
 
 Cela signifie qu’il détecte les zones comportant des éléments clairs et sombres et les inverse, de sorte que les arrière-plans clairs deviennent sombres et que le texte sombre devient clair, tandis que les arrière-plans sombres deviennent clairs et que le texte clair devient sombre.
 
@@ -135,7 +137,7 @@ Pour tirer parti du style du mode sombre personnalisé Designer d’e-mail, Jour
 
 Pour définir les paramètres personnalisés du mode sombre, procédez comme suit.
 
-1. Assurez-vous que le **[!UICONTROL mode sombre]** est activé dans le Designer Email. [Voici comment procéder](#preview-dark-mode)
+1. Veillez à passer à l’aperçu **[!UICONTROL Mode sombre]** dans le Designer d’e-mail. [Voici comment procéder](#preview-dark-mode)
 
 1. Modifiez les attributs de couleur de style, tels que le texte, les arrière-plans, le bouton, etc.
 
