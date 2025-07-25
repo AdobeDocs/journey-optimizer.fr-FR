@@ -423,36 +423,36 @@ Les nouvelles fonctionnalités de cette version sont présentées ci-dessous.
 
 Les améliorations de cette version sont présentées ci-dessous.
 
-* **Jeux de règles de canal**
+&#x200B;* **Jeux de règles de canal**
 
-   * **Fenêtre de durée personnalisée** pour le capping de la fréquence : un nouveau champ **Chaque** est désormais disponible dans l’écran de configuration des jeux de règles de canal. Il vous permet d’appliquer des règles de capping de la fréquence sur plusieurs jours, semaines ou mois, selon la durée spécifiée.
+   &#x200B;* **Fenêtre de durée personnalisée** pour le capping de la fréquence : un nouveau champ **Chaque** est désormais disponible dans l’écran de configuration des jeux de règles de canal. Il vous permet d’appliquer des règles de capping de la fréquence sur plusieurs jours, semaines ou mois, selon la durée spécifiée.
 
-   * **Fréquence du capping redéfini à l’heure** : vous pouvez désormais appliquer un capping de la fréquence à l’heure pour les jeux de règles de canal. Cette fonctionnalité est disponible uniquement pour un nombre limité d’organisations (disponibilité limitée). Contactez l’assistance clientèle pour l’activer.
+   &#x200B;* **Fréquence du capping redéfini à l’heure** : vous pouvez désormais appliquer un capping de la fréquence à l’heure pour les jeux de règles de canal. Cette fonctionnalité est disponible uniquement pour un nombre limité d’organisations (disponibilité limitée). Contactez l’assistance clientèle pour l’activer.
 
-   * **Durée quotidienne** : auparavant en disponibilité limitée, le capping de la fréquence « quotidienne » dans les jeux de règles de canal est désormais disponible pour l’ensemble des clientes et clients.
+   &#x200B;* **Durée quotidienne** : auparavant en disponibilité limitée, le capping de la fréquence « quotidienne » dans les jeux de règles de canal est désormais disponible pour l’ensemble des clientes et clients.
 
   Pour plus d’informations, consultez la [documentation détaillée](../conflict-prioritization/channel-capping.md).
 
-* **Expériences basées sur du code**
+&#x200B;* **Expériences basées sur du code**
 
-   * L’ajout d’une politique de décision est désormais disponible dans les modèles de contenu d’expérience basée sur du code, où elle peut être utilisée pour tirer profit des offres dans les champs de formulaire modifiables. [En savoir plus](../code-based/code-based-form-fields.md)
+   &#x200B;* L’ajout d’une politique de décision est désormais disponible dans les modèles de contenu d’expérience basée sur du code, où elle peut être utilisée pour tirer profit des offres dans les champs de formulaire modifiables. [En savoir plus](../code-based/code-based-form-fields.md)
 
-   * À partir du parcours d’expérience basée sur du code ou de l’écran de modification de la campagne, vous pouvez désormais ajouter directement une politique de décision, sans ouvrir l’éditeur de personnalisation. [En savoir plus](../code-based/create-code-based.md#edit-code)
+   &#x200B;* À partir du parcours d’expérience basée sur du code ou de l’écran de modification de la campagne, vous pouvez désormais ajouter directement une politique de décision, sans ouvrir l’éditeur de personnalisation. [En savoir plus](../code-based/create-code-based.md#edit-code)
 
-* **Prise en charge des feuilles CSS personnalisées dans le Concepteur d’e-mail**
+&#x200B;* **Prise en charge des feuilles CSS personnalisées dans le Concepteur d’e-mail**
 
   Journey Optimizer vous permet désormais d’ajouter une feuille CSS personnalisée au contenu de votre e-mail directement dans le Concepteur d’e-mail. [En savoir plus](../email/custom-css.md)
 
-* **Nouvelle navigation à onglets pour les campagnes**
+&#x200B;* **Nouvelle navigation à onglets pour les campagnes**
 
   Le nouveau modèle de navigation permet un accès plus rapide à la création de contenu et prend en charge une extension supplémentaire des paramètres dans les campagnes. [En savoir plus](../campaigns/create-campaign.md)
 
-* **Prise de décision**
+&#x200B;* **Prise de décision**
 
-   * **Copie de sandbox et prise de décision** (date de disponibilité : 3 juin 2025) : les objets de prise de décision peuvent désormais être copiés entre des sandbox, ce qui simplifie les workflows de test et de déploiement. [En savoir plus](../configuration/copy-objects-to-sandbox.md#decisioning)
+   &#x200B;* **Copie de sandbox et prise de décision** (date de disponibilité : 3 juin 2025) : les objets de prise de décision peuvent désormais être copiés entre des sandbox, ce qui simplifie les workflows de test et de déploiement. [En savoir plus](../configuration/copy-objects-to-sandbox.md#decisioning)
 
-   * **Prise en charge des attributs d’élément de décision pour les règles de prise de décision** (date de disponibilité : 4 juin 2025) : vous pouvez désormais tirer profit des attributs d’élément de décision pour créer des règles de prise de décision. [En savoir plus](../experience-decisioning/rules.md#create)
+   &#x200B;* **Prise en charge des attributs d’élément de décision pour les règles de prise de décision** (date de disponibilité : 4 juin 2025) : vous pouvez désormais tirer profit des attributs d’élément de décision pour créer des règles de prise de décision. [En savoir plus](../experience-decisioning/rules.md#create)
 
-* **Mise à jour de l’API d’exécution de message interactif** - Date de disponibilité : 6 juin 2025
+&#x200B;* **Mise à jour de l’API d’exécution de message interactif** - Date de disponibilité : 6 juin 2025
 
   L’API d’exécution de message interactif vous permet désormais de supprimer le planning d’exécution des campagnes à venir. [En savoir plus](https://developer.adobe.com/journey-optimizer-apis/references/messaging/){target="_blank"}
