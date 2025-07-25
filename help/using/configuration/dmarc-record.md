@@ -9,8 +9,8 @@ role: Admin
 level: Experienced
 keywords: sous-domaine, domaine, courrier, dmarc, enregistrement
 exl-id: f9e217f8-5aa8-4d3a-96fc-65defcb5d340
-source-git-commit: e539d694e8fb91b6a8c7ba7ff5a2bb0905651f81
-workflow-type: ht
+source-git-commit: 8b755351e25ecae9a2058e63919d6512ea0bf153
+workflow-type: tm+mt
 source-wordcount: '1482'
 ht-degree: 100%
 
@@ -104,7 +104,7 @@ Pour vous assurer que l’enregistrement DMARC est configuré pour tous les sou
 
    * Il est [Entièrement délégué](delegate-subdomain.md#full-subdomain-delegation) à Adobe, aucune autre action n’est requise.
 
-   * Si vous modifiez un [CNAME](delegate-subdomain.md#cname-subdomain-delegation), vous devez copier l’enregistrement DNS pour DMARC dans votre solution d’hébergement afin de générer les enregistrements DNS correspondants.
+   * Si vous modifiez un [CNAME](delegate-subdomain.md#cname-subdomain-setup), vous devez copier l’enregistrement DNS pour DMARC dans votre solution d’hébergement afin de générer les enregistrements DNS correspondants.
 
      ![](assets/dmarc-record-edit-cname.png)
 

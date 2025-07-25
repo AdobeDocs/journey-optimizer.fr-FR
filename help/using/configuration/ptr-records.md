@@ -9,8 +9,8 @@ role: Admin
 level: Experienced
 keywords: sous-domaine, PTR, enregistrements, DNS, domaine, courrier
 exl-id: 4c930792-0677-4ad5-a46c-8d40fc3c4d3a
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
-workflow-type: ht
+source-git-commit: 8b755351e25ecae9a2058e63919d6512ea0bf153
+workflow-type: tm+mt
 source-wordcount: '842'
 ht-degree: 100%
 
@@ -82,13 +82,13 @@ Pour modifier un enregistrement PTR avec un sous-domaine qui est [entièrement d
 
 ### Sous-domaines délégués à l’aide de la méthode CNAME {#edit-ptr-subdomains-cname}
 
-Pour modifier un enregistrement PTR avec un sous-domaine délégué à Adobe à l’aide de la [méthode CNAME](delegate-subdomain.md#cname-subdomain-delegation), procédez comme suit.
+Pour modifier un enregistrement PTR avec un sous-domaine délégué à Adobe à l’aide de la [méthode CNAME](delegate-subdomain.md#cname-subdomain-setup), procédez comme suit.
 
 1. Dans la liste, cliquez sur un nom d’enregistrement PTR pour l’ouvrir.
 
    ![](assets/ptr-record-select.png)
 
-1. Sélectionnez dans la liste un sous-domaine délégué à Adobe à l’aide de la [méthode CNAME](delegate-subdomain.md#cname-subdomain-delegation).
+1. Sélectionnez dans la liste un sous-domaine délégué à Adobe à l’aide de la [méthode CNAME](delegate-subdomain.md#cname-subdomain-setup).
 
    ![](assets/ptr-record-subdomain-cname.png)
 

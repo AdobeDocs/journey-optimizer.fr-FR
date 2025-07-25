@@ -9,7 +9,7 @@ role: Admin
 level: Experienced
 keywords: sous-domaine, domaine, courrier, dmarc, enregistrement
 exl-id: 15b10a61-6ecd-4ffa-b1c2-21e862263f6d
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+source-git-commit: 8b755351e25ecae9a2058e63919d6512ea0bf153
 workflow-type: tm+mt
 source-wordcount: '431'
 ht-degree: 96%
@@ -39,7 +39,7 @@ Par conséquent, Adobe vous recommande vivement de vous assurer que les enregist
 ou
    * Configurez DMARC sur vos sous-domaines délégués **dans l’interface utilisateur de configuration[!DNL Journey Optimizer]**, et ce sans travail supplémentaire à effectuer sur votre solution d’hébergement. [Voici comment procéder.](dmarc-record.md#implement-dmarc)
 
-* Si vous avez configuré vos sous-domaines d’envoi avec [CNAME](delegate-subdomain.md#cname-subdomain-delegation), suivez l’une des options ci-dessous :
+* Si vous avez configuré vos sous-domaines d’envoi avec [CNAME](delegate-subdomain.md#cname-subdomain-setup), suivez l’une des options ci-dessous :
 
    * Configurez DMARC sur vos sous-domaines ou sur le domaine parent de vos sous-domaines **dans votre solution d’hébergement**.
 ou
