@@ -1,15 +1,15 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Démarrer et surveiller les campagnes orchestrées avec Adobe Journey Optimizer
-description: Découvrez comment démarrer et surveiller des campagnes orchestrées avec Adobe Journey Optimizer.
+title: Démarrer et surveiller les campagnes orchestrées avec Adobe Journey Optimizer
+description: Découvrez comment démarrer et surveiller les campagnes orchestrées avec Adobe Journey Optimizer.
 hide: true
 hidefromtoc: true
 exl-id: 5fc2d1d6-75c3-4b45-bb2b-09982b9bd5ed
-source-git-commit: 855c45b5baec50865ac645eae707d5f1a5052b9b
+source-git-commit: 3be1b238962fa5d0e2f47b64f6fa5ab4337272a5
 workflow-type: tm+mt
 source-wordcount: '810'
-ht-degree: 68%
+ht-degree: 56%
 
 ---
 
@@ -17,12 +17,12 @@ ht-degree: 68%
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_publication"
->title="Publier une campagne orchestrée"
+>title="Publier la campagne orchestrée"
 >abstract="Pour lancer votre campagne, vous devez la publier. Assurez-vous que toutes les erreurs sont effacées avant la publication."
 
 +++ Table des matières
 
-| Bienvenue dans les campagnes orchestrées | Lancer votre première campagne orchestrée | Interroger la base de données | Activités de campagnes orchestrées |
+| Bienvenue dans les campagnes orchestrées | Lancement de votre première campagne orchestrée | Interroger la base de données | Activités de campagnes orchestrées |
 |---|---|---|---|
 | [Prise en main des campagnes orchestrées](gs-orchestrated-campaigns.md)<br/><br/>Création et gestion de schémas et de jeux de données relationnels :</br> <ul><li>[Prise en main des schémas et des jeux de données](gs-schemas.md)</li><li>[Schéma manuel](manual-schema.md)</li><li>[Schéma de chargement de fichier](file-upload-schema.md)</li><li>[ Ingérer des données ](ingest-data.md)</li></ul>[Accéder aux campagnes orchestrées et les gérer](access-manage-orchestrated-campaigns.md)<br/><br/>[Étapes clés pour créer une campagne orchestrée](gs-campaign-creation.md) | [Créer et planifier la campagne](create-orchestrated-campaign.md)<br/><br/>[Orchestrer les activités](orchestrate-activities.md)<br/><br/><b>[Démarrer et surveiller la campagne](start-monitor-campaigns.md)</b><br/><br/>[Reporting](reporting-campaigns.md) | [Utiliser le créateur de règles](orchestrated-rule-builder.md)<br/><br/>[Créer votre première requête](build-query.md)<br/><br/>[Modifier les expressions](edit-expressions.md)<br/><br/>[Reciblage](retarget.md) | [Commencer avec les activités](activities/about-activities.md)<br/><br/>Activités :<br/>[Rendez-vous](activities/and-join.md) - [Créer une audience](activities/build-audience.md) - [Changement de dimension](activities/change-dimension.md) - [Activités de canal](activities/channels.md) - [Combiner](activities/combine.md) - [Déduplication](activities/deduplication.md) - [Enrichissement](activities/enrichment.md) - [Branchement](activities/fork.md) - [Réconciliation](activities/reconciliation.md) - [Enregistrer l’audience](activities/save-audience.md) - [Partage](activities/split.md) - [Attente](activities/wait.md) |
 
@@ -54,7 +54,7 @@ Vous pouvez également exécuter la campagne en mode test pour vérifier son ex�
 
 Pour tester une campagne :
 
-1. Ouvrez la campagne orchestrée.
+1. Ouvrez la campagne orchestrée .
 2. Cliquez sur **[!UICONTROL Démarrer]**.
 
 ![](assets/campaign-start.png){zoomable="yes"}
@@ -118,7 +118,7 @@ Les indicateurs visuels de statut vous aident à déterminer les performances de
 |-----|------------|
 | ![](assets/activity-status-pending.png){zoomable="yes"}{width="70%"} | L’activité est en cours d’exécution. |
 | ![](assets/activity-status-orange.png){zoomable="yes"}{width="70%"} | L’activité nécessite votre attention. Vous devez, par exemple, confirmer l’envoi d’une diffusion ou prendre une mesure nécessaire. |
-| ![](assets/activity-status-red.png){zoomable="yes"}{width="70%"} | L’activité a rencontré une erreur. Pour résoudre ce problème et obtenir davantage d’informations, ouvrez les journaux de campagne orchestrée. |
+| ![](assets/activity-status-red.png){zoomable="yes"}{width="70%"} | L’activité a rencontré une erreur. Pour résoudre ce problème, ouvrez les journaux de campagne orchestrés pour plus d’informations. |
 | ![](assets/activity-status-green.png){zoomable="yes"}{width="70%"} | L’activité a été exécutée correctement. |
 
 ### Logs et tâches {#logs-tasks}
@@ -126,9 +126,9 @@ Les indicateurs visuels de statut vous aident à déterminer les performances de
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_logs"
 >title="Logs et tâches"
->abstract="L’écran **Logs et tâches** fournit un historique de l’exécution de la campagne orchestrée : il consigne toutes les actions de l’utilisateur ou de l’utilisatrice, ainsi que les erreurs rencontrées."
+>abstract="L’écran **Logs et tâches** fournit un historique de l’exécution de la campagne orchestrée, enregistrant toutes les actions des utilisateurs et utilisatrices ainsi que les erreurs rencontrées."
 
-La surveillance des journaux et des tâches est une étape essentielle pour analyser vos campagnes orchestrées et vérifier qu’elles s’exécutent correctement. Les journaux et les tâches sont accessibles à partir du bouton **[!UICONTROL Journaux]**, disponible dans les modes Test et Actif, dans la barre d’outils de la zone de travail ou dans le volet des propriétés de chaque activité.
+La surveillance des logs et des tâches est une étape essentielle pour analyser vos campagnes orchestrées et vérifier qu’elles s’exécutent correctement. Les journaux et les tâches sont accessibles à partir du bouton **[!UICONTROL Journaux]**, disponible dans les modes Test et Actif, dans la barre d’outils de la zone de travail ou dans le volet des propriétés de chaque activité.
 
 L’écran **[!UICONTROL Journaux et tâches]** fournit un historique complet de l’exécution de votre campagne : il consigne toutes les actions de l’utilisateur ou de l’utilisatrice, ainsi que les erreurs rencontrées.
 

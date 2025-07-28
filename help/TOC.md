@@ -5,10 +5,10 @@ user-guide-title: Guide de Journey Optimizer
 user-guide-description: Utilisez Journey Optimizer pour créer et proposer aux clients des expériences connectées, contextuelles et personnalisées
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 19f843590796e84b050b32d0c379577234c1efbc
+source-git-commit: 3be1b238962fa5d0e2f47b64f6fa5ab4337272a5
 workflow-type: tm+mt
 source-wordcount: '2589'
-ht-degree: 96%
+ht-degree: 95%
 
 ---
 
@@ -201,7 +201,7 @@ ht-degree: 96%
       + [Vérifier et activer la campagne](using/campaigns/review-activate-api-triggered-campaign.md)
       + [Déclencher l’exécution de la campagne](using/campaigns/trigger-campaigns.md)
    + Campagnes orchestrées {#orchestrated-campaigns}
-      + [Commencer les campagnes orchestrées](using/orchestrated/gs-orchestrated-campaigns.md)
+      + [Prise en main des campagnes orchestrées](using/orchestrated/gs-orchestrated-campaigns.md)
       + Gestion des schémas relationnels et des jeux de données {#schemas-datasets}
          + [Prise en main des schémas et des jeux de données](using/orchestrated/gs-schemas.md)
          + [Schéma manuel](using/orchestrated/manual-schema.md)
@@ -210,7 +210,7 @@ ht-degree: 96%
       + [Accéder aux campagnes orchestrées et les gérer](using/orchestrated/access-manage-orchestrated-campaigns.md)
       + [Création d’une dimension de ciblage](using/orchestrated/target-dimension.md)
       + [Mécanismes de sécurisation et limitations](using/orchestrated/guardrails.md)
-      + Lancer votre première campagne orchestrée{#launch}
+      + Lancement de votre première campagne orchestrée{#launch}
          + [Étapes clés de création d’une campagne orchestrée](using/orchestrated/gs-campaign-creation.md)
          + [Créer et planifier la campagne](using/orchestrated/create-orchestrated-campaign.md)
          + [Orchestrer les activités](using/orchestrated/orchestrate-activities.md)

@@ -2,15 +2,15 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Utiliser l’activité Partage
-description: Découvrez comment utiliser l’activité Partage dans une campagne orchestrée.
+description: Découvrez comment utiliser l’activité Partage dans une campagne orchestrée
 badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: 986bc566-123a-451d-a4a6-bbf5a2798849
-source-git-commit: 1a9ea09fcbf304b1649a5ae88da34bd209e9ac8b
+source-git-commit: 3be1b238962fa5d0e2f47b64f6fa5ab4337272a5
 workflow-type: tm+mt
 source-wordcount: '917'
-ht-degree: 95%
+ht-degree: 81%
 
 ---
 
@@ -24,9 +24,9 @@ ht-degree: 95%
 
 +++ Table des matières
 
-| Bienvenue dans les campagnes orchestrées | Lancer votre première campagne orchestrée | Interroger la base de données | Activités de campagnes orchestrées |
+| Bienvenue dans les campagnes orchestrées | Lancement de votre première campagne orchestrée | Interroger la base de données | Activités de campagnes orchestrées |
 |---|---|---|---|
-| [Prise en main des campagnes orchestrées](../gs-orchestrated-campaigns.md)<br/><br/>Création et gestion de schémas et de jeux de données relationnels :</br> <ul><li>[Prise en main des schémas et des jeux de données](../gs-schemas.md)</li><li>[Schéma manuel](../manual-schema.md)</li><li>[Schéma de chargement de fichier](../file-upload-schema.md)</li><li>[ Ingérer des données ](../ingest-data.md)</li></ul>[Accéder aux campagnes orchestrées et les gérer](../access-manage-orchestrated-campaigns.md) | [Étapes clés de création d’une campagne orchestrée](../gs-campaign-creation.md)<br/><br/>[Créer et planifier la campagne](../create-orchestrated-campaign.md)<br/><br/>[Orchestrer les activités](../orchestrate-activities.md)<br/><br/>[Lancer et surveiller la campagne](../start-monitor-campaigns.md)<br/><br/>[Reporting](../reporting-campaigns.md) | [Utiliser le créateur de règles](../orchestrated-rule-builder.md)<br/><br/>[Créer votre première requête](../build-query.md)<br/><br/>[Modifier les expressions](../edit-expressions.md)<br/><br/>[Reciblage](../retarget.md) | [Commencer avec les activités](about-activities.md)<br/><br/>Activités :<br/>[Rendez-vous](and-join.md) - [Créer une audience](build-audience.md) - [Changement de dimension](change-dimension.md) - [Activités de canal](channels.md) - [Combiner](combine.md) - [Déduplication](deduplication.md) - [Enrichissement](enrichment.md) - [Branchement](fork.md) - [Réconciliation](reconciliation.md) - [Enregistrer l’audience](save-audience.md) - <b>[Partage](split.md)</b> - [Attente](wait.md) |
+| [Prise en main des campagnes orchestrées](../gs-orchestrated-campaigns.md)<br/><br/>Création et gestion de schémas et de jeux de données relationnels :</br> <ul><li>[Prise en main des schémas et des jeux de données](../gs-schemas.md)</li><li>[Schéma manuel](../manual-schema.md)</li><li>[Schéma de chargement de fichier](../file-upload-schema.md)</li><li>[ Ingérer des données ](../ingest-data.md)</li></ul>[Accéder aux campagnes orchestrées et les gérer](../access-manage-orchestrated-campaigns.md) | [Étapes clés de création d’une campagne orchestrée](../gs-campaign-creation.md)<br/><br/>[Créez et planifiez la campagne](../create-orchestrated-campaign.md)<br/><br/>[Orchestrez les activités](../orchestrate-activities.md)<br/><br/>[Lancez et surveillez la campagne](../start-monitor-campaigns.md)<br/><br/>[Créez des rapports](../reporting-campaigns.md) | [Utiliser le créateur de règles](../orchestrated-rule-builder.md)<br/><br/>[Créer votre première requête](../build-query.md)<br/><br/>[Modifier les expressions](../edit-expressions.md)<br/><br/>[Reciblage](../retarget.md) | [Commencer avec les activités](about-activities.md)<br/><br/>Activités :<br/>[Rendez-vous](and-join.md) - [Créer une audience](build-audience.md) - [Changement de dimension](change-dimension.md) - [Activités de canal](channels.md) - [Combiner](combine.md) - [Déduplication](deduplication.md) - [Enrichissement](enrichment.md) - [Branchement](fork.md) - [Réconciliation](reconciliation.md) - [Enregistrer l’audience](save-audience.md) - <b>[Partage](split.md)</b> - [Attente](wait.md) |
 
 {style="table-layout:fixed"}
 
@@ -50,7 +50,7 @@ L’activité **[!UICONTROL Partage]** est une activité de **[!UICONTROL ciblag
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_split_segments"
 >title="Segments de l’activité de partage"
->abstract="Ajoutez autant de sous-ensembles que vous le souhaitez pour segmenter la population entrante.<br/></br>Lorsque l’activité **Partage** est exécutée, la population est segmentée entre les différents sous-ensembles dans l’ordre dans lequel ils sont ajoutés à l’activité. Avant de démarrer votre campagne orchestrée, assurez-vous d’avoir trié les sous-ensembles dans l’ordre qui vous convient à l’aide des boutons fléchés."
+>abstract="Ajoutez autant de sous-ensembles que vous le souhaitez pour segmenter la population entrante.<br/></br>Lorsque l’activité **Partage** est exécutée, la population est segmentée entre les différents sous-ensembles dans l’ordre dans lequel ils sont ajoutés à l’activité. Avant de commencer votre campagne orchestrée, assurez-vous d’avoir ordonné les sous-ensembles dans l’ordre adapté à vos besoins à l’aide des boutons fléchés."
 
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_split_filter"
@@ -99,9 +99,9 @@ Pour configurer l’activité **[!UICONTROL Partage]**, procédez comme suit :
    >
    >L’activité **Partage** traite les sous-ensembles dans l’ordre dans lequel ils sont ajoutés. Par exemple, si le premier sous-ensemble capture 70 % de la population, le suivant applique ses critères aux 30 % restants.
    >
-   >Avant d’exécuter votre campagne orchestrée, assurez-vous que les sous-ensembles sont ordonnés comme prévu. Utilisez les boutons fléchés pour ajuster leur position.
+   >Avant d’exécuter votre campagne orchestrée, assurez-vous que les sous-ensembles sont triés comme prévu. Utilisez les boutons fléchés pour ajuster leur position.
 
-1. Une fois les sous-ensembles ajoutés, l’activité propose autant de transitions sortante que de sous-ensembles : Nous vous recommandons vivement de modifier le libellé de chaque sous-ensemble afin de les identifier facilement dans la zone de travail de la campagne orchestrée.
+1. Une fois les sous-ensembles ajoutés, l’activité propose autant de transitions sortante que de sous-ensembles : Nous vous recommandons vivement de modifier le libellé de chaque sous-ensemble pour les identifier facilement dans la zone de travail de campagne orchestrée.
 
 1. Configurez les filtres pour chaque sous-ensemble :
 
@@ -127,7 +127,7 @@ Pour configurer l’activité **[!UICONTROL Partage]**, procédez comme suit :
 
    * **Si cette option est cochée** les profils peuvent être inclus dans plusieurs sous-ensembles s’ils répondent aux critères de chacun d’eux.
 
-L’activité est désormais configurée. Lors de l’exécution de la campagne orchestrée, la population sera segmentée dans les différents sous-ensembles, dans l’ordre dans lequel ils ont été ajoutés à l’activité.
+L’activité est désormais configurée. Lors de l&#39;exécution de la campagne orchestrée, la population sera segmentée en différents sous-ensembles, dans l&#39;ordre dans lequel ils ont été ajoutés à l&#39;activité.
 
 ## Exemple{#split-example}
 

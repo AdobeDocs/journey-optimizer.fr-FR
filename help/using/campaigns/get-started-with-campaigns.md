@@ -9,10 +9,10 @@ role: User
 level: Beginner
 keywords: campagne, guide, commencer, optimizer
 exl-id: e2506a43-e4f5-48af-bd14-ab76c54b7c90
-source-git-commit: 1bdba8c5c1a9238d351b159551f6d3924935b339
+source-git-commit: 3be1b238962fa5d0e2f47b64f6fa5ab4337272a5
 workflow-type: tm+mt
 source-wordcount: '620'
-ht-degree: 68%
+ht-degree: 69%
 
 ---
 
@@ -76,7 +76,7 @@ Vous pouvez créer différents types de campagnes dans Journey Optimizer :
 
     Campaign Orchestration in Adobe Journey Optimizer powers sophisticated, brand-initiated marketing campaigns across channels, helping you drive engagement, revenue, and customer loyalty at scale.
 
-    While cross-channel marketing is essential, orchestrated campaigns make it seamless. With a visual, drag-and-drop interface, you can design and automate complex marketing workflows, from segmentation to message delivery, across multiple channels. Everything happens in one intuitive environment, built for speed, control, and efficiency.-->
+    While cross-channel marketing is essential, Orchestrated campaigns make it seamless. With a visual, drag-and-drop interface, you can design and automate complex marketing workflows, from segmentation to message delivery, across multiple channels. Everything happens in one intuitive environment, built for speed, control, and efficiency.-->
 
 ## Avant de commencer {#campaign-prerequisites}
 
@@ -96,11 +96,11 @@ Vérifiez les conditions préalables suivantes avant de commencer à créer votr
 
    La personne doit alors recevoir un e-mail la redirigeant vers votre instance.
 
-   +++
++++
 
 1. **Vous avez besoin d’une audience**. Les audiences doivent être disponibles avant de créer la campagne. [Prise en main des audiences](../audience/about-audiences.md).
 
-1. **Il vous faut une configuration de canal**. Pour pouvoir sélectionner un canal, la configuration de canal correspondante (c’est-à-dire le paramètre prédéfini) doit être créée et disponible. [Découvrez comment configurer des configurations de canal](../configuration/channel-surfaces.md).
+1. **Il vous faut une configuration de canal**. Pour pouvoir sélectionner un canal, la configuration de canal correspondante (c’est-à-dire le paramètre prédéfini) doit être créée et disponible. [Découvrez comment configurer les canaux](../configuration/channel-surfaces.md).
 
 ## Explorons plus en détail
 
@@ -108,7 +108,7 @@ Maintenant que vous connaissez les campagnes dans [!DNL Journey Optimizer], il e
 
 <table style="table-layout:fixed"><tr style="border: 0; text-align: center;">
 <td><a href="create-campaign.md"><img alt="campagnes d’action" src="assets/do-not-localize/gs-action-campaign.png" width="50%"></a><br/><a href="create-campaign.md">Campagnes d’action</a></td>
-<td><a href="api-triggered-campaigns.md"><img alt="SMS" src="assets/do-not-localize/gs-api-triggered-campaign.png" width="50%"></a><br/><a href="api-triggered-campaigns.md">Campagnes déclenchées par l’API</a></td>
+<td><a href="api-triggered-campaigns.md"><img alt="sms" src="assets/do-not-localize/gs-api-triggered-campaign.png" width="50%"></a><br/><a href="api-triggered-campaigns.md">Campagnes déclenchées par l’API</a></td>
 </tr></table>
 
 <!--

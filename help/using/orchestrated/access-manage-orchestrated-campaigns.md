@@ -2,15 +2,15 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Accéder à une campagne orchestrée et la gérer
-description: Découvrir les principes fondamentaux de la création de campagnes orchestrées avec Adobe Journey Optimizer
+description: Découvrez les principes fondamentaux de la création de campagnes orchestrées avec Adobe Journey Optimizer
 badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: 7b42d317-cd01-4c6a-b61e-5b03e5a8ff3c
-source-git-commit: 1a9ea09fcbf304b1649a5ae88da34bd209e9ac8b
+source-git-commit: 3be1b238962fa5d0e2f47b64f6fa5ab4337272a5
 workflow-type: tm+mt
 source-wordcount: '723'
-ht-degree: 91%
+ht-degree: 48%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 91%
 >[!CONTEXTUALHELP]
 >id="ajo_targeting_workflow_list"
 >title="Campagne orchestrée"
->abstract="Dans cet écran, vous pouvez accéder à la liste complète des campagnes orchestrées, vérifier leur statut actuel, les dates de dernière exécution et de prochaine exécution, et créer une campagne orchestrée."
+>abstract="Dans cet écran, vous pouvez accéder à la liste complète des campagnes orchestrées, vérifier leur statut actuel, les dates de dernière exécution et de prochaine exécution, et créer une nouvelle campagne orchestrée."
 
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_campaign_action"
@@ -28,7 +28,7 @@ ht-degree: 91%
 
 +++ Table des matières
 
-| Bienvenue dans les campagnes orchestrées | Lancer votre première campagne orchestrée | Interroger la base de données | Activités de campagnes orchestrées |
+| Bienvenue dans les campagnes orchestrées | Lancement de votre première campagne orchestrée | Interroger la base de données | Activités de campagnes orchestrées |
 |---|---|---|---|
 | [Prise en main des campagnes orchestrées](gs-orchestrated-campaigns.md)<br/><br/>Création et gestion de schémas et de jeux de données relationnels :</br> <ul><li>[Prise en main des schémas et des jeux de données](gs-schemas.md)</li><li>[Schéma manuel](manual-schema.md)</li><li>[Schéma de chargement de fichier](file-upload-schema.md)</li><li>[ Ingérer des données ](ingest-data.md)</li></ul><br/><br/><b>[Accéder aux campagnes orchestrées et les gérer](access-manage-orchestrated-campaigns.md)</b><br/><br/>[Étapes clés pour créer une campagne orchestrée](gs-campaign-creation.md) | [Créer et planifier la campagne](create-orchestrated-campaign.md)<br/><br/>[Orchestrer les activités](orchestrate-activities.md)<br/><br/>[Démarrer et surveiller la campagne](start-monitor-campaigns.md)<br/><br/>[Reporting](reporting-campaigns.md) | [Utiliser le créateur de règles](orchestrated-rule-builder.md)<br/><br/>[Créer votre première requête](build-query.md)<br/><br/>[Modifier les expressions](edit-expressions.md)<br/><br/>[Reciblage](retarget.md) | [Commencer avec les activités](activities/about-activities.md)<br/><br/>Activités :<br/>[Rendez-vous](activities/and-join.md) - [Créer une audience](activities/build-audience.md) - [Changement de dimension](activities/change-dimension.md) - [Activités de canal](activities/channels.md) - [Combiner](activities/combine.md) - [Déduplication](activities/deduplication.md) - [Enrichissement](activities/enrichment.md) - [Branchement](activities/fork.md) - [Réconciliation](activities/reconciliation.md) - [Enregistrer l’audience](activities/save-audience.md) - [Partage](activities/split.md) - [Attente](activities/wait.md) |
 
@@ -46,15 +46,15 @@ Le contenu de cette page n’est pas définitif et peut être modifié.
 
 >[!ENDSHADEBOX]
 
-## Accéder à des campagnes orchestrées
+## Accès aux campagnes orchestrées
 
 Accédez au menu **[!UICONTROL Campagnes]** et sélectionnez l’onglet **[!UICONTROL Orchestration]** pour accéder à la liste complète des campagnes orchestrées.
 
-![image affichant l’inventaire des campagnes orchestrées](assets/inventory.png){zoomable="yes"}{zoomable="yes"}
+![image montrant l’inventaire des campagnes orchestrées](assets/inventory.png){zoomable="yes"}{zoomable="yes"}
 
-Chaque campagne orchestrée figurant dans la liste affiche des informations telles que le [statut](#status) actuel de la campagne, le canal et les balises associés ou la dernière fois qu’elle a été modifiée. Vous pouvez personnaliser les colonnes affichées en cliquant sur le bouton ![Configure layout button](assets/do-not-localize/inventory-configure-layout.svg).
+Chaque campagne orchestrée de la liste affiche des informations telles que le [statut](#status) actuel de la campagne, le canal et les balises associés ou la dernière fois qu’elle a été modifiée. Vous pouvez personnaliser les colonnes affichées en cliquant sur le bouton ![Configure layout button](assets/do-not-localize/inventory-configure-layout.svg).
 
-Une barre de recherche et des filtres sont également disponibles pour faciliter la recherche dans la liste. Vous pouvez par exemple filtrer les campagnes orchestrées afin de n’afficher que celles associées à un canal ou une balise en particulier ou celles créées au cours d’une période spécifique.
+Une barre de recherche et des filtres sont également disponibles pour faciliter la recherche dans la liste. Vous pouvez, par exemple, filtrer les campagnes orchestrées afin de n’afficher que celles associées à un canal ou à une balise donnée, ou celles créées au cours d’une période spécifique.
 
 Le bouton ![image showing the More actions button](assets/do-not-localize/rule-builder-icon-more.svg) dans l’inventaire des campagnes permet d’effectuer les différentes opérations présentées ci-dessous.
 
@@ -66,17 +66,17 @@ Le bouton ![image showing the More actions button](assets/do-not-localize/rule-b
 * **[!UICONTROL Supprimer]** - Supprimez la campagne. Cette action est disponible uniquement pour les campagnes **[!UICONTROL brouillon]**.
 * **[!UICONTROL Archiver]** - Archivez la campagne. Toutes les campagnes archivées sont supprimées selon un nouveau planning progressif 30 jours après la date de leur dernière modification. Cette action est disponible pour toutes les campagnes, à l’exception des campagnes **[!UICONTROL brouillon]**.
 
-## Que contient une campagne orchestrée ? {#gs-ms-campaign-inside}
+## Que contient une campagne orchestrée ? {#gs-ms-campaign-inside}
 
-La zone de travail d’une campagne orchestrée est une représentation de ce qui est censé se produire. Elle décrit les différentes tâches à effectuer et la manière dont elles sont liées.
+La zone de travail de campagne orchestrée est une représentation de ce qui est censé se produire. Elle décrit les différentes tâches à effectuer et la manière dont elles sont liées.
 
-![image affichant le canevas des campagnes orchestrées](assets/canvas-example.png)
+![image montrant une zone de travail de campagne orchestrée](assets/canvas-example.png)
 
-Chaque campagne orchestrée contient :
+Chaque campagne orchestrée contient :
 
 * des **Activités** : une activité est une tâche à effectuer. Les différentes activités disponibles sont représentées sur le diagramme par des icônes. Chaque activité possède des propriétés spécifiques et d’autres propriétés communes à toutes les activités.
 
-  Dans un diagramme de campagne orchestrée, une même activité peut engendrer plusieurs tâches, notamment en cas de boucle ou d’actions récurrentes.
+  Dans un diagramme de Campagne orchestrée, une même activité peut générer plusieurs tâches, notamment en cas de boucle ou d&#39;actions récurrentes.
 
 * **Transitions** : les transitions relient une activité source à une activité de destination et définissent leur ordre.
 
@@ -86,11 +86,11 @@ Chaque campagne orchestrée contient :
 
 Les campagnes orchestrées peuvent avoir plusieurs statuts :
 
-* **[!UICONTROL Brouillon]** : la campagne orchestrée a été créée. Elle n’a pas encore été publiée.
-* **[!UICONTROL Publication]** : la campagne orchestrée est en cours de publication.
-* **[!UICONTROL Dynamique]** : la campagne orchestrée a été publiée et est en cours d’exécution.
-* **[!UICONTROL Planification]** : l’exécution de la campagne orchestrée a été planifiée.
-* **[!UICONTROL Terminé]** : l’exécution de la campagne orchestrée est terminée. Le statut Terminé est automatiquement attribué jusqu’à 3 jours après qu’une campagne a terminé l’envoi des messages sans erreur.
+* **[!UICONTROL Brouillon]** : la campagne orchestrée a été créée. Elle n’a pas encore été publiée.
+* **[!UICONTROL Publication]** : la campagne orchestrée est en cours de publication.
+* **[!UICONTROL En direct]** : la campagne orchestrée a été publiée et est en cours d’exécution.
+* **[!UICONTROL Planifié]** : l’exécution de la campagne orchestrée a été planifiée.
+* **[!UICONTROL Terminé]** : l’exécution de la campagne orchestrée est terminée. Le statut Terminé est automatiquement attribué jusqu’à 3 jours après qu’une campagne a terminé l’envoi des messages sans erreur.
 * **[!UICONTROL Fermé]** : ce statut s’affiche lorsqu’une campagne récurrente a été fermée. La campagne continue de s’exécuter jusqu’à ce que toutes ses activités soient terminées, mais plus aucun profil ne peut entrer dans la campagne.
-* **[!UICONTROL Archivé]** : la campagne orchestrée a été archivée. Toutes les campagnes archivées sont supprimées selon un nouveau planning progressif 30 jours après la date de la dernière modification. Si nécessaire, vous pouvez dupliquer une campagne archivée pour continuer à travailler dessus.
-* **[!UICONTROL Arrêté]** : l&#39;exécution de la campagne orchestrée a été arrêtée. Pour redémarrer la campagne, vous devez la dupliquer.
+* **[!UICONTROL Archivé]** : la campagne orchestrée a été archivée. Toutes les campagnes archivées sont supprimées selon un nouveau planning progressif 30 jours après la date de la dernière modification. Si nécessaire, vous pouvez dupliquer une campagne archivée pour continuer à travailler dessus.
+* **[!UICONTROL Arrêté]** : l&#39;exécution de la campagne orchestrée a été arrêtée. Pour redémarrer la campagne, vous devez la dupliquer.

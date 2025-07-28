@@ -1,16 +1,16 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Reporting pour les campagnes orchestrées avec Adobe Journey Optimizer
-description: Découvrez comment accéder aux rapports sur les campagnes orchestrées avec Adobe Journey Optimizer
+title: Création de rapports pour les campagnes orchestrées avec Adobe Journey Optimizer
+description: Découvrez comment accéder aux rapports sur les campagnes orchestrées avec Adobe Journey Optimizer
 badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: 8cb569a2-a4a0-45a5-b7f9-f5a591e44335
-source-git-commit: 1a9ea09fcbf304b1649a5ae88da34bd209e9ac8b
+source-git-commit: 3be1b238962fa5d0e2f47b64f6fa5ab4337272a5
 workflow-type: tm+mt
 source-wordcount: '298'
-ht-degree: 82%
+ht-degree: 58%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 82%
 
 +++ Table des matières
 
-| Bienvenue dans les campagnes orchestrées | Lancer votre première campagne orchestrée | Interroger la base de données | Activités de campagnes orchestrées |
+| Bienvenue dans les campagnes orchestrées | Lancement de votre première campagne orchestrée | Interroger la base de données | Activités de campagnes orchestrées |
 |---|---|---|---|
 | [Prise en main des campagnes orchestrées](gs-orchestrated-campaigns.md)<br/><br/>Création et gestion de schémas et de jeux de données relationnels :</br> <ul><li>[Prise en main des schémas et des jeux de données](gs-schemas.md)</li><li>[Schéma manuel](manual-schema.md)</li><li>[Schéma de chargement de fichier](file-upload-schema.md)</li><li>[ Ingérer des données ](ingest-data.md)</li></ul>[Accéder aux campagnes orchestrées et les gérer](access-manage-orchestrated-campaigns.md)<br/><br/>[Étapes clés pour créer une campagne orchestrée](gs-campaign-creation.md) | [Créer et planifier la campagne](create-orchestrated-campaign.md)<br/><br/>[Orchestrer les activités](orchestrate-activities.md)<br/><br/>[Démarrer et surveiller la campagne](start-monitor-campaigns.md)<br/><br/><b>[Reporting](reporting-campaigns.md)<b> | [Utiliser le créateur de règles](orchestrated-rule-builder.md)<br/><br/>[Créer votre première requête](build-query.md)<br/><br/>[Modifier les expressions](edit-expressions.md)<br/><br/>[Reciblage](retarget.md) | [Commencer avec les activités](activities/about-activities.md)<br/><br/>Activités :<br/>[Rendez-vous](activities/and-join.md) - [Créer une audience](activities/build-audience.md) - [Changement de dimension](activities/change-dimension.md) - [Activités de canal](activities/channels.md) - [Combiner](activities/combine.md) - [Déduplication](activities/deduplication.md) - [Enrichissement](activities/enrichment.md) - [Branchement](activities/fork.md) - [Réconciliation](activities/reconciliation.md) - [Enregistrer l’audience](activities/save-audience.md) - [Partage](activities/split.md) - [Attente](activities/wait.md) |
 
@@ -47,7 +47,7 @@ Une campagne orchestrée vous fournit des informations exploitables grâce à se
     <tr>
       <td><a href="../reports/live-report.md"><img alt="Rapport dynamique" src="assets/last-24hours.png"></a></td>
       <td>
-        Utilisez le <b>rapport dynamique</b> pour mesurer et visualiser en temps réel l’impact et les performances de vos campagnes orchestrées dans un tableau de bord intégré. Les données sont disponibles dans le <b>rapport dynamique</b> dès que votre campagne orchestrée est exécutée dans le menu <b>Afficher le rapport des dernières 24 heures</b>. En savoir plus sur les rapports en temps réel dans <a href="../reports/live-report.md">cette section</a>.
+        Utilisez le <b>Rapport dynamique</b> pour mesurer et visualiser en temps réel l’impact et les performances de vos campagnes orchestrées dans un tableau de bord intégré. Les données sont disponibles dans le <b>Rapport dynamique</b> dès que votre campagne orchestrée est exécutée dans le menu <b>Afficher le rapport des dernières 24 heures</b>. En savoir plus sur les rapports en temps réel dans <a href="../reports/live-report.md">cette section</a>.
       </td>
         </br>
     </tr>

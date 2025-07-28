@@ -2,15 +2,15 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Utiliser le créateur de règles
-description: Découvrir comment créer des règles pour vos campagnes orchestrées
+description: Découvrez comment créer des règles pour vos campagnes orchestrées
 badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: fb7a0eb2-b2ff-49fa-af1f-f1c10f219b00
-source-git-commit: 1a9ea09fcbf304b1649a5ae88da34bd209e9ac8b
+source-git-commit: 3be1b238962fa5d0e2f47b64f6fa5ab4337272a5
 workflow-type: tm+mt
 source-wordcount: '421'
-ht-degree: 87%
+ht-degree: 77%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 87%
 
 +++ Table des matières
 
-| Bienvenue dans les campagnes orchestrées | Lancer votre première campagne orchestrée | Interroger la base de données | Activités de campagnes orchestrées |
+| Bienvenue dans les campagnes orchestrées | Lancement de votre première campagne orchestrée | Interroger la base de données | Activités de campagnes orchestrées |
 |---|---|---|---|
 | [Prise en main des campagnes orchestrées](gs-orchestrated-campaigns.md)<br/><br/>Création et gestion de schémas et de jeux de données relationnels :</br> <ul><li>[Prise en main des schémas et des jeux de données](gs-schemas.md)</li><li>[Schéma manuel](manual-schema.md)</li><li>[Schéma de chargement de fichier](file-upload-schema.md)</li><li>[ Ingérer des données ](ingest-data.md)</li></ul>[Accéder aux campagnes orchestrées et les gérer](access-manage-orchestrated-campaigns.md)<br/><br/>[Étapes clés pour créer une campagne orchestrée](gs-campaign-creation.md) | [Créer et planifier la campagne](create-orchestrated-campaign.md)<br/><br/>[Orchestrer les activités](orchestrate-activities.md)<br/><br/>[Démarrer et surveiller la campagne](start-monitor-campaigns.md)<br/><br/>[Reporting](reporting-campaigns.md) | <b>[Utiliser le créateur de règles](orchestrated-rule-builder.md)</b><br/><br/>[Créer votre première requête](build-query.md)<br/><br/>[Modifier les expressions](edit-expressions.md)<br/><br/>[Reciblage](retarget.md) | [Commencer avec les activités](activities/about-activities.md)<br/><br/>Activités :<br/>[Rendez-vous](activities/and-join.md) - [Créer une audience](activities/build-audience.md) - [Changement de dimension](activities/change-dimension.md) - [Activités de canal](activities/channels.md) - [Combiner](activities/combine.md) - [Déduplication](activities/deduplication.md) - [Enrichissement](activities/enrichment.md) - [Branchement](activities/fork.md) - [Réconciliation](activities/reconciliation.md) - [Enregistrer l’audience](activities/save-audience.md) - [Partage](activities/split.md) - [Attente](activities/wait.md) |
 
@@ -47,7 +47,7 @@ Le concepteur de requête est disponible dans tout contexte où vous devez défi
 
 | Utilisation | Exemple |
 |  ---  |  ---  |
-| **Créer des audiences** : indiquez la population à cibler dans vos campagnes orchestrées à l’aide de l’activité **[!UICONTROL Créer une audience]**, et créez facilement de nouvelles audiences adaptées à vos besoins. [Découvrir comment créer des audiences](../orchestrated/activities/build-audience.md) | ![Image montrant comment accéder à l’interface de création d’audience](assets/query-access-audience.png){width="200" align="center" zoomable="yes"} |
+| **Créer des audiences** : spécifiez la population que vous souhaitez cibler dans vos campagnes orchestrées à l’aide d’une activité **[!UICONTROL Créer une audience]** et créez facilement de nouvelles audiences adaptées à vos besoins. [Découvrir comment créer des audiences](../orchestrated/activities/build-audience.md) | ![Image montrant comment accéder à l’interface de création d’audience](assets/query-access-audience.png){width="200" align="center" zoomable="yes"} |
 | **Créer une condition dans la zone de travail de la campagne** : appliquez les règles de la zone de travail de la campagne à l’aide d’une activité **[!UICONTROL Partage]**, pour répondre à vos besoins spécifiques. [Découvrir comment utiliser l’activité Partage](../orchestrated/activities/split.md) | ![Image montrant comment accéder aux options de personnalisation d’un workflow](assets/query-access-split.png){width="200" align="center" zoomable="yes"} |
 | **Créer des filtres avancés** : créez des règles pour filtrer les données affichées dans les listes, telles que les journaux de workflow ou les dimensions de ciblage. | ![Image montrant comment personnaliser les filtres de liste](assets/query-access-advanced-filters.png){width="200" align="center" zoomable="yes"} |
 
