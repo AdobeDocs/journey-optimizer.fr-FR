@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: suppression, liste, rebond, e-mail, optimizer, quarantaine
 exl-id: 430a2cd4-781d-4d37-a75d-405f5ed82377
-source-git-commit: 1adf4db1e76645b2c369b39d54ef97aff5be963d
+source-git-commit: 1e36871c2c975c81d018fabb3cff51d11c98962e
 workflow-type: tm+mt
-source-wordcount: '1599'
-ht-degree: 100%
+source-wordcount: '1600'
+ht-degree: 99%
 
 ---
 
@@ -71,7 +71,7 @@ Les motifs possibles d’un échec de diffusion sont les suivants :
 
 | Motif | Description | Catégorie |
 | --- | --- | --- |
-| **[!UICONTROL Destinataire non valide]** | Le destinataire n&#39;est pas valide ou n&#39;existe pas. | Hard |
+| **[!UICONTROL Destinataire non valide]** | L&#39;adresse du destinataire n&#39;est pas valide ou n&#39;existe pas. | Hard |
 | **[!UICONTROL Rebond temporaire]** | Le message a fait l’objet d’un rebond temporaire pour un motif autre que les erreurs temporaires répertoriées dans ce tableau, par exemple lors d’un envoi supérieur au taux autorisé recommandé par un FAI. | Soft |
 | **[!UICONTROL Échec du DNS]** | Le message a fait l’objet d’un rebond en raison d’un échec du DNS. | Soft |
 | **[!UICONTROL Boîte pleine]** | Le message a fait l’objet d’un rebond, car la boîte du destinataire était pleine et ne pouvait pas accepter d’autres messages. | Soft |

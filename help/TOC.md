@@ -5,9 +5,9 @@ user-guide-title: Guide de Journey Optimizer
 user-guide-description: Utilisez Journey Optimizer pour créer et proposer aux clients des expériences connectées, contextuelles et personnalisées
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 3be1b238962fa5d0e2f47b64f6fa5ab4337272a5
+source-git-commit: 1e36871c2c975c81d018fabb3cff51d11c98962e
 workflow-type: tm+mt
-source-wordcount: '2589'
+source-wordcount: '2592'
 ht-degree: 95%
 
 ---
@@ -772,6 +772,7 @@ Définissez les règles de limitation des messages et des parcours {#capping-rul
       + [Exécuter le plan de préchauffage des adresses IP](using/configuration/ip-warmup-execution.md)
       + [Fichiers du plan de préchauffage des adresses IP](using/configuration/ip-warmup-plan-files.md)
    + Surveiller des adresses e-mail {#monitor-reputation}
+      + [Types d&#39;erreur e-mail](using/configuration/email-error-types.md)
       + [Liste de suppression](using/configuration/manage-suppression-list.md)
       + [Reprises](using/configuration/retries.md)
       + [Liste autorisée](using/configuration/allow-list.md)
