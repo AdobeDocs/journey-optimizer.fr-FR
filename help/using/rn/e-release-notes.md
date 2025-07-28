@@ -7,9 +7,9 @@ feature: Release Notes
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 24c34fd35c03acf8e83bfb8a913ad7e57afd7b7b
+source-git-commit: 3896015ea63a1d25a16744940ffc622b977ff4ce
 workflow-type: tm+mt
-source-wordcount: '948'
+source-wordcount: '941'
 ht-degree: 17%
 
 ---
@@ -216,9 +216,8 @@ Les améliorations de cette version sont présentées ci-dessous.
 
 - **Parcours**
    - **Améliorations des outils de sandbox de Parcours** - Lors de la copie de parcours dans plusieurs sandbox à l’aide des fonctionnalités d’exportation et d’importation de package, les fonctionnalités suivantes sont désormais également disponibles :
-      - Sélectionner un événement existant au niveau de la destination
       - Copie sur un événement indépendamment d’un parcours
-      - Détection des relations entre les groupes de champs et les sources de données, liaison à ces dernières à la destination si elles existent, création si elles n’existent pas.
+      - Détecter les événements, les groupes de champs et les sources de données et les lier à la destination s’ils existent, en les créant dans le cas contraire.
   <!-- [Read more](../FILE.md) -->
 
 - **Canal - InApp**
