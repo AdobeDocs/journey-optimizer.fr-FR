@@ -10,7 +10,7 @@ level: Experienced
 keywords: reprises, bounce, soft, ignoré, hard, optimizer, erreur
 hide: true
 hidefromtoc: true
-source-git-commit: 1e36871c2c975c81d018fabb3cff51d11c98962e
+source-git-commit: 817f7c88bfc2b40a7ce39575b4ad02fb372d429d
 workflow-type: tm+mt
 source-wordcount: '422'
 ht-degree: 19%
@@ -18,7 +18,7 @@ ht-degree: 19%
 ---
 
 
-# Types d&#39;erreur e-mail
+# Types d&#39;erreur e-mail {#email-error-types}
 
 Les raisons possibles d’un échec de diffusion sont multiples. Le tableau ci-dessous détaille toutes les erreurs qui peuvent se produire lors de l’envoi de diffusions e-mail avec [!DNL Journey Optimizer], ainsi que leur description et leur type d’erreur.
 
