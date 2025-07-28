@@ -6,10 +6,10 @@ description: Découvrez comment démarrer et surveiller des campagnes orchestré
 hide: true
 hidefromtoc: true
 exl-id: 5fc2d1d6-75c3-4b45-bb2b-09982b9bd5ed
-source-git-commit: 1a9ea09fcbf304b1649a5ae88da34bd209e9ac8b
+source-git-commit: 855c45b5baec50865ac645eae707d5f1a5052b9b
 workflow-type: tm+mt
-source-wordcount: '806'
-ht-degree: 73%
+source-wordcount: '810'
+ht-degree: 68%
 
 ---
 
@@ -48,7 +48,9 @@ Vous pouvez également exécuter la campagne en mode test pour vérifier son ex�
 
 [!DNL Journey Optimizer] vous permet de tester les campagnes orchestrées avant la mise en ligne. Lorsqu’une campagne est créée, elle passe par défaut à l’état **Brouillon**. Dans cet état, vous pouvez exécuter la campagne manuellement pour tester le flux.
 
-Toutes les activités de la zone de travail sont exécutées, à l’exception des activités **[!UICONTROL Sauvegarde d’audience]** et des activités de canal. L’opération n’a aucun impact fonctionnel sur vos données ou votre audience.
+>[!IMPORTANT]
+>
+>Toutes les activités de la zone de travail sont exécutées, à l’exception des activités **[!UICONTROL Sauvegarde d’audience]** et des activités de canal. Il n’y a aucun impact fonctionnel sur vos données ou votre audience.**
 
 Pour tester une campagne :
 
@@ -63,13 +65,19 @@ Pendant le test, vous pouvez contrôler l’exécution de la campagne à l’aid
 
 * **Arrêtez** l’exécution à tout moment.
 * **Démarrez** l’exécution à nouveau.
-* **Reprenez** l’exécution si elle a été précédemment suspendue en raison d’un problème.
+* **Reprendre** l’exécution si elle a été précédemment mise en pause.
 
-Si une erreur ou un avertissement se produit lors de l’exécution, vous recevez un avertissement via l’icône **[!UICONTROL Alertes]**/**[!UICONTROL Avertissement]** dans la barre d’outils de la zone de travail.
+L’icône **[!UICONTROL Alertes]** / **[!UICONTROL Avertissement]** de la barre d’outils de la zone de travail vous informe des problèmes, notamment des avertissements qui peuvent apparaître de manière proactive avant l’exécution et des erreurs qui se produisent pendant ou après l’exécution.
 
 ![](assets/campaign-warning.png){zoomable="yes"}
 
 Vous pouvez également identifier rapidement les activités ayant échoué à l’aide des [indicateurs visuels de statut](#activities) affichés directement sur chaque activité. Pour une résolution détaillée des problèmes, ouvrez les [journaux de la campagne](#logs-tasks) qui fournissent des informations détaillées sur l’erreur et son contexte.
+
+<!--WAITING FOR PM's TEST TO UNHIDE
+
+If you have added channel activities in the canvas, you can preview and test the content of your messages using the **[!UICONTROL Simulate Content]** button. [Learn how to work with channel activities](activities/channels.md)
+
+-->
 
 Une fois validée, la campagne peut être publiée.
 

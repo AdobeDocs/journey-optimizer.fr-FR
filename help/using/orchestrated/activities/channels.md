@@ -7,9 +7,9 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: ffe1e77c-6c4f-4f23-9183-d715a4c7c402
-source-git-commit: 00e7ede1d8576aeef411caffd9c4251a6957f0ad
+source-git-commit: 855c45b5baec50865ac645eae707d5f1a5052b9b
 workflow-type: tm+mt
-source-wordcount: '1213'
+source-wordcount: '1168'
 ht-degree: 79%
 
 ---
@@ -161,11 +161,15 @@ Lorsque vous accédez à l’éditeur de personnalisation à partir d’une camp
 
 Pour une présentation détaillée de l’utilisation de l’éditeur de personnalisation, reportez-vous à la section [Prise en main de la personnalisation](../../personalization/personalize.md)
 
-## Vérifier et tester votre contenu
+<!--WAITING FOR PM's TEST TO UNHIDE
 
-Une fois votre contenu créé, utilisez le bouton **[!UICONTROL Simuler le contenu]** pour prévisualiser et tester votre contenu avec des profils de test ou des exemples de données d’entrée chargés à partir d’un fichier CSV/JSON ou ajoutés manuellement. [En savoir plus](../../content-management/preview-test.md)
+## Check and test your content
 
-![image montrant le bouton Simuler du contenu](../assets/channel-simulate.png)
+Once the content is created, use the **[!UICONTROL Simulate Content]** button to preview and test your content with test profiles or sample input data uploaded from a CSV / JSON file, or added manually. [Learn more](../../content-management/preview-test.md)
+
+![image showing the Simulate Content button](../assets/channel-simulate.png)
+
+-->
 
 ## Étapes suivantes {#next}
 
