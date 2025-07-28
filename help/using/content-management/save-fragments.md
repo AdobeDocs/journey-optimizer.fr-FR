@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 70e88ea0-f2b0-4c13-8693-619741762429
-source-git-commit: 82b1dd99e13b63a1b19b96211f4410a16dd82a9e
+source-git-commit: f8ee42f42849bec199bfa5203dc59112f98de99c
 workflow-type: tm+mt
 source-wordcount: '511'
 ht-degree: 90%
@@ -21,7 +21,7 @@ Lors de la modification de contenu dans [!DNL Journey Optimizer], vous pouvez en
 
 >[!NOTE]
 >
->Lorsque le tracking est activé dans un parcours ou une campagne, si des liens sont présents dans un fragment enregistré et si ce fragment est utilisé dans un e-mail, ces liens sont suivis comme tous les autres liens inclus dans le message. [En savoir plus sur les liens et le tracking](../email/message-tracking.md)
+>Lorsque le tracking est activé dans un parcours ou une campagne, si des liens sont présents dans un fragment enregistré et si ce fragment est utilisé dans un message, ces liens sont suivis comme tous les autres liens inclus dans le message. [En savoir plus sur les liens et le tracking](../email/message-tracking.md)
 
 ## Enregistrer en tant que fragment visuel {#save-as-visual-fragment}
 
