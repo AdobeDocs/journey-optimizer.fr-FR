@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 5c866814-d79a-4a49-bfcb-7a767d802e90
-source-git-commit: 66e5d12e6d262014db5c7eb7603f678296591301
-workflow-type: ht
-source-wordcount: '1753'
-ht-degree: 100%
+source-git-commit: 923d9dfc4e281ea06ac1f5cd9c08d99a80617301
+workflow-type: tm+mt
+source-wordcount: '1788'
+ht-degree: 98%
 
 ---
 
@@ -129,11 +129,11 @@ Pour définir des règles de limitation pour l’élément de décision, cliquez
 
 1. Dans la liste déroulante **[!UICONTROL Réinitialiser la fréquence de limitation]**, définissez la fréquence à laquelle le compteur de limitation est réinitialisé. Pour ce faire, définissez la période du comptage (tous les jours, toutes les semaines ou tous les mois) et saisissez le nombre de jours, semaines ou mois de votre choix. Par exemple, si vous souhaitez que le nombre de limitations soit réinitialisé toutes les 2 semaines, sélectionnez **[!UICONTROL Hebdomadaire]** dans la liste déroulante correspondante et saisissez **2** dans l’autre champ.
 
-   >[!NOTE]
-   >
-   >Le compteur de capping de la fréquence se réinitialise à **00 h 00 UTC**, le jour que vous avez défini ou le premier jour de la semaine ou du mois, le cas échéant. Le jour de début de semaine est le **dimanche**. La durée que vous avez choisie ne peut pas dépasser **2 ans** (ou le nombre correspondant de mois, de semaines ou de jours).
-   >
-   >Une fois que vous avez publié votre élément de décision, vous ne pourrez plus modifier la période (mensuelle, hebdomadaire ou quotidienne) de la fréquence. Vous pouvez désormais modifier le capping de la fréquence si le statut de l’élément est **[!UICONTROL Brouillon]** et si l’élément n’a jamais été publié auparavant avec le capping de la fréquence activé.
+   * Le compteur de capping de la fréquence se réinitialise à **00 h 00 UTC**, le jour que vous avez défini ou le premier jour de la semaine ou du mois, le cas échéant. Le jour de début de semaine est le **dimanche**. La durée que vous avez choisie ne peut pas dépasser **2 ans** (ou le nombre correspondant de mois, de semaines ou de jours).
+
+   * Une fois que vous avez publié votre élément de décision, vous ne pourrez plus modifier la période (mensuelle, hebdomadaire ou quotidienne) de la fréquence. Vous pouvez désormais modifier le capping de la fréquence si le statut de l’élément est **[!UICONTROL Brouillon]** et si l’élément n’a jamais été publié auparavant avec le capping de la fréquence activé.
+
+   * Une durée de mise en mémoire tampon maximale de 15 minutes peut être nécessaire avant que les événements ne soient comptabilisés dans les contraintes de limitation de la fréquence, soit lorsque l’élément de décision est approuvé, soit lorsque la limitation est créée, selon ce qui se produit en dernier.
 
 1. Cliquez sur **[!UICONTROL Créer]** pour confirmer la création de la règle de limitation. Vous pouvez créer jusqu’à 10 règles pour un seul élément de décision. Pour ce faire, cliquez sur le bouton **[!UICONTROL Créer une limitation]** et répétez les étapes ci-dessus.
 
