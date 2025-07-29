@@ -7,10 +7,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 9ba16ad9-a5e7-4ce7-8ed6-7707d37178c6
-source-git-commit: 87f3da0a1d73f9aa26c7420d260778286bacdf0c
-workflow-type: ht
-source-wordcount: '300'
-ht-degree: 100%
+source-git-commit: fb036e910431a4ce9709b394c93484e6b76bf8f8
+workflow-type: tm+mt
+source-wordcount: '337'
+ht-degree: 89%
 
 ---
 
@@ -44,6 +44,10 @@ Pour créer une offre de secours, procédez comme suit :
 
    ![](../assets/fallback_content.png)
 
+   >[!CAUTION]
+   >
+   >Les offres de secours doivent contenir toutes les représentations utilisées dans une [décision](../offer-activities/create-offer-activities.md). Par exemple, si une décision comporte 5 offres et que chacune d&#39;elles a une représentation différente, 5 représentations doivent être incluses dans l&#39;offre de secours.
+
 1. Une fois les représentations d&#39;offres de secours ajoutées, un résumé s&#39;affiche. Si tout est configuré correctement et que votre offre de secours est prête à être présentée aux clients, cliquez sur **[!UICONTROL Terminer]**, puis sélectionnez **[!UICONTROL Enregistrer et valider]**.
 
    Vous pouvez également enregistrer l&#39;offre de secours en tant que brouillon pour la modifier et l&#39;approuver ultérieurement.
@@ -58,5 +62,5 @@ Pour créer une offre de secours, procédez comme suit :
 
 ## Vidéo pratique {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/341348?quality=12&captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/329383?quality=12)
 

@@ -7,10 +7,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 7a217c97-57e1-4f04-a92c-37632f8dfe91
-source-git-commit: 87f3da0a1d73f9aa26c7420d260778286bacdf0c
-workflow-type: ht
-source-wordcount: '2511'
-ht-degree: 100%
+source-git-commit: fb036e910431a4ce9709b394c93484e6b76bf8f8
+workflow-type: tm+mt
+source-wordcount: '2549'
+ht-degree: 96%
 
 ---
 
@@ -46,7 +46,7 @@ Avant de créer une décision, vérifiez que les composants suivants ont été c
 
    ![](../assets/activities-name.png)
 
-1. Pour attribuer des étiquettes d’utilisation des données personnalisées ou de base à la décision, sélectionnez **[!UICONTROL Gérer l’accès]**. [En savoir plus sur le contrôle d’accès au niveau de l’objet (OLAC)](../../administration/object-based-access.md)
+1. Pour attribuer des libellés d’utilisation des données personnalisés ou de base à la décision, sélectionnez **[!UICONTROL Gérer l’accès]**. [En savoir plus sur le contrôle d’accès au niveau de l’objet (OLAC)](../../administration/object-based-access.md)
 
 ## Définir des portées de décision {#add-decision-scopes}
 
@@ -310,17 +310,21 @@ La sélection se présente comme suit :
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_decision_fallback"
 >title="Ajouter une offre de secours"
->abstract="Une fois que vous avez défini les portées de décision, définissez l’offre de secours qui sera présentée en dernier recours aux clientes et aux clients qui ne correspondent pas aux règles d’éligibilité et aux contraintes des offres."
+>abstract="Une fois que vous avez défini les portées de décision, définissez l’offre de secours qui sera présentée en dernier recours aux clients qui ne correspondent pas aux règles d’éligibilité et contraintes des offres."
 
-Une fois que vous avez défini les portées de décision, définissez l’offre de secours qui sera présentée en dernier recours aux clientes et aux clients qui ne correspondent pas aux règles d’éligibilité et aux contraintes des offres.
+Une fois que vous avez défini les portées de décision, définissez l’[offre de secours](../offer-library/creating-fallback-offers.md) qui sera présentée en dernier recours aux clients qui ne correspondent pas aux règles d’éligibilité et contraintes des offres.
 
-Pour ce faire, sélectionnez-la dans la liste des offres de secours disponibles pour les emplacements définis dans la décision, puis cliquez sur **[!UICONTROL Suivant]**.
+Pour ce faire, sélectionnez-la dans la liste des offres de secours disponibles pour les emplacements définis dans la décision.
 
 ![](../assets/add-fallback-offer.png)
 
 >[!NOTE]
 >
->Vous pouvez cliquer sur le lien **[!UICONTROL Ouvrir la bibliothèque des offres]** pour afficher la liste des offres dans un nouvel onglet.
+>Les offres de secours doivent contenir toutes les représentations utilisées dans une décision. Par exemple, si une décision comporte 5 offres et que chacune d&#39;elles a une représentation différente, 5 représentations doivent être incluses dans l&#39;offre de secours.
+
+Une fois sélectionné, cliquez sur **[!UICONTROL Suivant]**.
+
+Vous pouvez cliquer sur le lien **[!UICONTROL Ouvrir la bibliothèque des offres]** pour afficher la liste des offres dans un nouvel onglet.
 
 ## Examiner et enregistrer la décision {#review}
 
@@ -401,6 +405,6 @@ Vous pouvez ainsi accéder à des informations détaillées sur cette décision.
 
 Découvrez comment créer des activités d’offre dans la gestion de décisions.
 
->[!VIDEO](https://video.tv.adobe.com/v/346693?quality=12&captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/329606?quality=12)
 
 
