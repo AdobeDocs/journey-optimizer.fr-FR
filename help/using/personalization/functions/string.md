@@ -6,10 +6,10 @@ topic: Personalization
 role: Data Engineer
 level: Experienced
 exl-id: 8674ef9e-261b-49d9-800e-367f9f7ef979
-source-git-commit: 8a1ec5acef067e3e1d971deaa4b10cffa6294d75
+source-git-commit: e255751e411d8b623a12780a52a54551b5d65182
 workflow-type: tm+mt
-source-wordcount: '1846'
-ht-degree: 100%
+source-wordcount: '1859'
+ht-degree: 98%
 
 ---
 
@@ -665,13 +665,34 @@ La fonction `replaceAll` permet de remplacer toutes les sous-chaînes d’un tex
 
 ## Supprimer à droite {#rightTrim}
 
-La fonction `rightTrim` est utilisée pour supprimer les espaces blancs de la fin d&#39;une chaîne.
+La fonction `rightTrim` supprime les espaces blancs de la fin d&#39;une chaîne.
 
 **Syntaxe**
 
 ```sql
 {%= rightTrim(string) %}
 ```
+
+## SHA256 {#sha256}
+
+La fonction `SHA256` calcule et renvoie le hachage sha256 d’une chaîne.
+
+**Syntaxe**
+
+```sql
+{{
+
+{%= sha256(string) %}
+: string}}
+```
+
+**Exemple**
+
+```sql
+{%= sha256("Eliechxh")%}
+```
+
+renvoie : `0b0b207880b999adaad6231026abf87caa30760b6f326b21727b61139332257d`
 
 ## Fractionner {#split}
 

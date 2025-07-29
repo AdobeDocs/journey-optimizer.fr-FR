@@ -7,9 +7,9 @@ feature: Release Notes
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 3896015ea63a1d25a16744940ffc622b977ff4ce
+source-git-commit: e255751e411d8b623a12780a52a54551b5d65182
 workflow-type: tm+mt
-source-wordcount: '941'
+source-wordcount: '968'
 ht-degree: 17%
 
 ---
@@ -222,4 +222,8 @@ Les améliorations de cette version sont présentées ci-dessous.
 
 - **Canal - InApp**
    - **Paires clé/valeur in-app** - Avec les messages in-app, vous pouvez définir des paires clé/valeur pour inclure des variables personnalisées dans la payload du message. Ces paires clé-valeur vous permettent de transmettre des données supplémentaires en fonction de votre configuration et de votre cas d’utilisation spécifiques.
+  <!-- [Read more](../FILE.md) -->
+
+- **Personnalisation**
+   - Une nouvelle fonction d’assistance, « SHA256 », a été ajoutée à l’éditeur de personnalisation. Cette fonction est utilisée pour calculer et renvoyer le hachage sha256 d’une chaîne.
   <!-- [Read more](../FILE.md) -->

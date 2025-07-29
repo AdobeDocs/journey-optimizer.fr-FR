@@ -6,10 +6,10 @@ topic: Personalization
 role: Data Engineer
 level: Experienced
 exl-id: 9b0b0d8e-a819-4d2e-a241-f3c4d104eab9
-source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
-workflow-type: ht
-source-wordcount: '2388'
-ht-degree: 100%
+source-git-commit: e255751e411d8b623a12780a52a54551b5d65182
+workflow-type: tm+mt
+source-wordcount: '2399'
+ht-degree: 99%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 100%
 
 Utilisez le langage de modèle [!DNL Journey Optimizer] pour effectuer des opérations sur les données, comme des calculs, une mise en forme ou des conversions des données, des conditions, et les manipuler dans le contexte de la personnalisation. Découvrez les instructions de syntaxe de personnalisation sur [cette page](../personalization-syntax.md).
 
-➡️ [Découvrez comment utiliser les fonctions d’assistance dans cette vidéo.](#video)
+➡️ [Découvrez comment utiliser les fonctions d’assistance dans cette vidéo](#video)
 
 Le langage de modèle est utilisé dans les fonctions d’assistance disponibles dans la liste déroulante de personnalisation de l’éditeur de personnalisation, comme indiqué ci-dessous :
 
@@ -166,7 +166,7 @@ Cliquez sur l’icône `...` pour afficher la description de la fonction et l’
         <td><a href="dates.md#format-date">Mettre en forme la date</a></td><td>Cette fonction permet de mettre en forme une valeur de date et d’heure.</td>
     </tr>
     <tr>
-        <td><a href="dates.md#format-date-locale">Formater la date avec la prise en charge des paramètres régionaux</a></td><td>Cette fonction permet de formater une valeur d’heure et de date au format de la langue correspondante, c’est-à-dire dans le paramètre régional souhaité.</td>
+        <td><a href="dates.md#format-date-locale">Formater la date avec la prise en charge des paramètres régionaux</a></td><td>Cette fonction permet de formater une valeur d’heure et de date au format de la langue correspondante, c’est-à-dire dans les paramètres régionaux souhaités.</td>
     </tr>
     <tr>
         <td><a href="dates.md#get-current-zoned-date-time">Obtenir la CurrentZonedDateTime</a></td><td>Cette fonction renvoie la date et l’heure actuelles avec les informations de fuseau horaire.</td>
@@ -378,6 +378,9 @@ Cliquez sur l’icône `...` pour afficher la description de la fonction et l’
         <td><a href="string.md#rightTrim">Supprimer à droite</a></td><td>Cette fonction supprime les espaces blancs à la fin d'une chaîne. </td>
     </tr>
     <tr>
+        <td><a href="string.md#sha256">SHA256</a></td><td>Cette fonction calcule et renvoie le hachage sha256 d’une chaîne.</td>
+    </tr>
+    <tr>
         <td><a href="string.md#split">Fractionner</a></td><td>Cette fonction est utilisée pour fractionner une chaîne selon un caractère donné.</td>
     </tr>
     <tr>
@@ -513,4 +516,4 @@ Les fonctions de comparaison sont utilisées pour comparer les différentes expr
 
 Découvrez comment transformer des valeurs de personnalisation à l&#39;aide de fonctions d&#39;assistance à la personnalisation et comprendre différents cas d&#39;utilisation des fonctions d&#39;assistance.
 
->[!VIDEO](https://video.tv.adobe.com/v/3416644?quality=12&captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/334244?quality=12)
