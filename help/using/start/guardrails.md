@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: 142e56ce36389da5c2e28bbafa1a1bf59be50d74
+source-git-commit: abd5f388a41cc85c710cdb8c8e51c7fe381714ad
 workflow-type: tm+mt
-source-wordcount: '2497'
-ht-degree: 97%
+source-wordcount: '2639'
+ht-degree: 93%
 
 ---
 
@@ -91,8 +91,14 @@ Les mécanismes de sécurisation et limitations s’appliquant à la délégatio
 
 Les mécanismes de sécurisation suivants s’appliquent aux [fragments](../content-management/fragments.md) :
 
+* Pour créer, modifier, archiver et publier des fragments, vous avez besoin des autorisations **[!DNL Manage library items]** et **[Publier le fragment]** incluses dans le profil de produit **[!DNL Content Library Manager]**. [En savoir plus](../administration/ootb-product-profiles.md#content-library-manager)
 * Les fragments visuels ne sont disponibles que pour le canal E-mail.
 * Les fragments d’expression ne sont pas disponibles pour les canaux In-app.
+* Les fragments visuels ne peuvent pas dépasser 100KB. Les fragments d’expression ne peuvent pas dépasser 200KB.
+* Pour utiliser un fragment dans un parcours ou une campagne, il doit avoir le statut **Actif**.
+* Les [attributs contextuels](../personalization/personalization-build-expressions.md) ne sont pas pris en charge dans les fragments.
+* Les fragments visuels ne sont pas compatibles entre les modes Utiliser des thèmes et Style manuel . Pour pouvoir utiliser un fragment dans un contenu auquel vous souhaitez appliquer un thème, ce fragment doit être créé en mode Utiliser des thèmes . [En savoir plus sur les thèmes](../email/apply-email-themes.md)
+* Lorsque le tracking est activé dans un parcours ou une campagne, si vous ajoutez des liens à un fragment et que ce fragment est utilisé dans un message, ces liens sont trackés comme tous les autres liens inclus dans le message. [En savoir plus sur les liens et le tracking](../email/message-tracking.md)
 
 ## Mécanismes de sécurisation des audiences {#audience}
 

@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 70e88ea0-f2b0-4c13-8693-619741762429
-source-git-commit: f8ee42f42849bec199bfa5203dc59112f98de99c
+source-git-commit: abd5f388a41cc85c710cdb8c8e51c7fe381714ad
 workflow-type: tm+mt
-source-wordcount: '511'
-ht-degree: 90%
+source-wordcount: '509'
+ht-degree: 88%
 
 ---
 
@@ -20,6 +20,8 @@ ht-degree: 90%
 Lors de la modification de contenu dans [!DNL Journey Optimizer], vous pouvez enregistrer tout ou une partie de votre contenu en tant que fragment pour une réutilisation ultérieure. Vous pouvez enregistrer du contenu en tant que fragment soit [depuis le concepteur d’e-mail](#save-as-visual-fragment), soit [depuis l’éditeur d’expression](#save-as-expression-fragment).
 
 >[!NOTE]
+>
+>Les [attributs contextuels](../personalization/personalization-build-expressions.md) ne sont pas pris en charge dans les fragments.
 >
 >Lorsque le tracking est activé dans un parcours ou une campagne, si des liens sont présents dans un fragment enregistré et si ce fragment est utilisé dans un message, ces liens sont suivis comme tous les autres liens inclus dans le message. [En savoir plus sur les liens et le tracking](../email/message-tracking.md)
 
@@ -37,7 +39,7 @@ Pour enregistrer le contenu du concepteur d’e-mail en tant que fragment, proc�
    >
    >Les fragments visuels ne peuvent pas dépasser 100KB.
 
-1. L’écran **[!UICONTROL Enregistrer en tant que fragment]** s’affiche. Sélectionnez ensuite les éléments à inclure dans votre fragment, notamment les champs de personnalisation et le contenu dynamique. Notez que les attributs contextuels ne sont pas pris en charge dans les fragments.
+1. L’écran **[!UICONTROL Enregistrer en tant que fragment]** s’affiche. Sélectionnez ensuite les éléments à inclure dans votre fragment, notamment les champs de personnalisation et le contenu dynamique.
 
    ![](assets/fragment-save-as-screen.png)
 

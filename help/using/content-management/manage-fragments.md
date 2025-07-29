@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 1fc708e1-a993-4a2a-809c-c5dc08a4bae1
-source-git-commit: 5c4d3f0b143313ecf761a93914150352e8a9f981
-workflow-type: ht
-source-wordcount: '1427'
-ht-degree: 100%
+source-git-commit: abd5f388a41cc85c710cdb8c8e51c7fe381714ad
+workflow-type: tm+mt
+source-wordcount: '1428'
+ht-degree: 97%
 
 ---
 
@@ -113,7 +113,7 @@ Les fragments peuvent avoir plusieurs statuts :
 
 >[!CAUTION]
 >
->Depuis que les statuts **Brouillon** et **Actif** ont été introduits avec la version de juin de Journey Optimizer, tous les fragments créés avant cette version ont le statut **Brouillon**, même s’ils sont utilisés dans un parcours ou une campagne. Si vous apportez des modifications à ces fragments, vous devez les publier pour les rendre **Actifs** et propager les modifications aux campagnes et parcours associés. Vous devez également créer une version de parcours/campagne et la publier. La publication requiert l’autorisation utilisateur [Publier un fragment](../administration/ootb-product-profiles.md#content-library-manager).
+>Depuis que les statuts **Brouillon** et **Actif** ont été introduits dans la version de juin 2024 de Journey Optimizer, tous les fragments créés avant cette version ont le statut **Brouillon**, même s’ils sont utilisés dans un parcours ou une campagne. Si vous apportez des modifications à ces fragments, vous devez les publier pour les rendre **Actifs** et propager les modifications aux campagnes et parcours associés. Vous devez également créer une version de parcours/campagne et la publier. La publication requiert l’autorisation utilisateur [Publier un fragment](../administration/ootb-product-profiles.md#content-library-manager).
 
 ## Modifier un fragment {#edit-fragments}
 
