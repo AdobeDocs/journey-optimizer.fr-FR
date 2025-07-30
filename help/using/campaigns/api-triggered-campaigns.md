@@ -2,17 +2,17 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Utiliser des campagnes déclenchées par API
-description: Découvrez comment déclencher des campagnes à l’aide des API Journey Optimizer.
+description: Découvrez comment déclencher des campagnes à l’aide des API Journey Optimizer.
 feature: Campaigns, API
 topic: Content Management
 role: Developer
 level: Experienced
-keywords: campagnes, déclenchées par l’API, REST, optimizer, messages
+keywords: campagnes, déclenchement par API, REST, optimizer, messages
 exl-id: 0ef03d33-da11-43fa-8e10-8e4b80c90acb
 source-git-commit: 15f5fdfde0e9f7c93739a624918838dbd6787833
 workflow-type: tm+mt
 source-wordcount: '233'
-ht-degree: 25%
+ht-degree: 100%
 
 ---
 
@@ -21,20 +21,20 @@ ht-degree: 25%
 
 >[!CONTEXTUALHELP]
 >id="campaigns_overview_api_triggered"
->title="Campagnes déclenchées par l’API"
->abstract="**Campagnes déclenchées par l’API transactionnelle**<br/> Déclencher des messages en temps réel par le biais d’appels d’API <br/><br/>**Messages marketing**<br/> Contenu promotionnel (nécessite un accord préalable, soumis aux règles de l’entreprise)<br/><br/>**Messages transactionnels**<br/> Contenu lié au service (confirmation, alertes, non soumis à un consentement marketing)<br/><br/>**Canaux disponibles**<br/> E-mail, SMS, notifications push"
+>title="Campagnes déclenchées par API"
+>abstract="**Campagnes transactionnelles déclenchées par API**<br/> Déclencher des messages en temps réel à l’aide d’appels API <br/><br/>**Messages marketing**<br/> Contenu promotionnel (nécessite un opt-in, soumis aux règles métier)<br/><br/>**Messages transactionnels**<br/> Contenu lié au service (confirmation, alertes, non soumis à un consentement marketing)<br/><br/>**Canaux disponibles**<br/> E-mail, SMS, notifications push"
 
 ## À propos des campagnes déclenchées par API {#about}
 
-Les campagnes déclenchées par API permettent aux communications marketing d’atteindre une audience au bon moment ou aux messages transactionnels/opérationnels d’être envoyés à une personne, comme la réinitialisation d’un mot de passe. La personnalisation de ces campagnes inclut l’attribut de profil, mais aussi les données contextuelles en temps réel dans le déclencheur, qui est une payload de l’API REST.
+Les campagnes déclenchées par API permettent aux communications marketing d’atteindre une audience au moment opportun ou aux messages transactionnels/opérationnels (comme la réinitialisation d’un mot de passe) d’être envoyés à un individu. Elles sont utilisées quand une personnalisation de ces campagnes est nécessaire en utilisant non seulement l’attribut de profil, mais aussi les données contextuelles en temps réel du déclencheur, qui est une payload d’API REST.
 
-Pour ce faire, vous devez d’abord créer une campagne déclenchée par une API dans Journey Optimizer, puis lancer son exécution par le biais d’un appel API à l’aide de l’API REST [ Exécution de message interactif ](https://developer.adobe.com/journey-optimizer-apis/references/messaging/#tag/execution).
+Pour ce faire, vous devez d’abord créer une campagne déclenchée par API dans Journey Optimizer, puis lancer son exécution via un appel API à l’aide de l’[API REST Interactive Message Execution](https://developer.adobe.com/journey-optimizer-apis/references/messaging/#tag/execution).
 
 Les canaux disponibles pour les campagnes déclenchées par API sont E-mail, SMS et les messages push.
 
 ➡️ [Découvrez cette fonctionnalité en vidéo.](#video)
 
-## Étapes clés de création de campagnes déclenchées par l’API {#steps}
+## Étapes clés de création de campagnes déclenchées par API {#steps}
 
 1. [Définir les propriétés de la campagne](api-triggered-campaign-properties.md)
 1. [Configurer l’action de campagne](api-triggered-campaign-action.md)
@@ -44,8 +44,8 @@ Les canaux disponibles pour les campagnes déclenchées par API sont E-mail, SMS
 1. [Vérifier et activer la campagne](review-activate-api-triggered-campaign.md)
 1. [Déclencher l’exécution de la campagne](trigger-campaigns.md)
 
-## Tutoriels vidéo {#video}
+## Vidéos pratiques {#video}
 
-Découvrez comment créer une campagne et la déclencher à partir d’un système externe en fonction des interactions des utilisateurs et utilisatrices, à l’aide de l’API REST d’exécution de message interactif.
+Découvrez comment créer une campagne et la déclencher à partir d’un système externe en fonction des interactions des utilisateurs et utilisatrices, à l’aide de l’API REST Interactive Message Execution.
 
->[!VIDEO](https://video.tv.adobe.com/v/3452727?quality=12&captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/3425358?quality=12)
