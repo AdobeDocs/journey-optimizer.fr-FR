@@ -1,34 +1,34 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Examiner et activer la campagne déclenchée par l’API
-description: Découvrez comment vérifier et activer une campagne déclenchée par l’API.
+title: Vérifier et activer la campagne déclenchée par API
+description: Découvrez comment vérifier et activer la campagne déclenchée par API.
 feature: Campaigns, API
 topic: Content Management
 role: Developer
 level: Experienced
-keywords: campagnes, déclenchées par l’API, REST, optimizer, messages
-source-git-commit: 1bdba8c5c1a9238d351b159551f6d3924935b339
-workflow-type: tm+mt
+keywords: campagnes, déclenchement par API, REST, optimizer, messages
+exl-id: 561f1215-d13d-4ffc-b6f1-396ae67774c8
+source-git-commit: 45c95d5682b35c8afb161b75c88942c010b36d1c
+workflow-type: ht
 source-wordcount: '286'
-ht-degree: 53%
+ht-degree: 100%
 
 ---
 
+# Vérifier et activer la campagne déclenchée par API {#api-review}
 
-# Examiner et activer la campagne déclenchée par l’API {#api-review}
-
-Une fois votre campagne d’action configurée, vous devez passer en revue son paramètre et son contenu avant de l’activer. Pour ce faire, procédez comme suit :
+Une fois votre campagne configurée, vous devez vérifier ses paramètres et son contenu avant de l’activer. Pour ce faire, procédez comme suit :
 
 >[!IMPORTANT]
 >
 > Si votre campagne est soumise à une politique d’approbation, vous devrez effectuer une demande d’approbation afin de pouvoir l’envoyer. [En savoir plus](../test-approve/gs-approval.md)
 
-1. Dans l’écran de configuration de la campagne, cliquez sur **[!UICONTROL Examiner pour activer]** pour afficher un résumé de la campagne.
+1. Dans l’écran de configuration de la campagne, cliquez sur **[!UICONTROL Vérifier pour activer]** pour afficher un résumé de la campagne.
 
    ![](assets/campaign-review.png)
 
-1. Un résumé de la configuration de la campagne s’affiche, vous permettant de vérifier si un paramètre est incorrect ou manquant et de modifier votre campagne si nécessaire.
+1. Un récapitulatif de la configuration de la campagne s’affiche, vous permettant de vérifier si un paramètre est incorrect ou manquant et de modifier votre campagne si nécessaire.
 
    En cas d’erreur, vous ne pouvez pas activer la campagne. Résolvez les erreurs avant de continuer.
 
@@ -36,9 +36,9 @@ Une fois votre campagne d’action configurée, vous devez passer en revue son p
 
 1. Vérifiez que votre campagne est correctement configurée, puis cliquez sur **[!UICONTROL Activer]**.
 
-1. La campagne est activée. Son statut est **[!UICONTROL Actif]** ou **[!UICONTROL Planifié]** si vous avez saisi une date de début.
+1. La campagne est activée. Son statut est soit **[!UICONTROL Actif]**, soit **[!UICONTROL Planifié]** si vous avez saisi une date de début.
 
-   Le statut **[!UICONTROL Terminé]** est automatiquement attribué à la campagne 3 jours après son activation ou à la date de fin de la campagne si son exécution est récurrente. [En savoir plus sur les statuts des campagnes](get-started-with-campaigns.md#statuses).
+   Le statut **[!UICONTROL Terminé]** est automatiquement affecté à une campagne 3 jours après son activation ou à la date de fin de la campagne si son exécution est récurrente. [Découvrez les statuts des campagnes](get-started-with-campaigns.md#statuses).
 
    Si aucune date de fin n’a été spécifiée, la campagne conserve le statut **[!UICONTROL Actif]**. Pour le modifier, vous devez arrêter manuellement la campagne. [Découvrez comment arrêter une campagne](modify-stop-campaign.md)
 

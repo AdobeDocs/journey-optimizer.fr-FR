@@ -2,7 +2,7 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Accéder aux campagnes et les gérer
-description: Découvrez comment accéder à vos campagnes et les gérer dans Journey Optimizer.
+description: Découvrez comment accéder à vos campagnes et les gérer dans Journey Optimizer.
 feature: Campaigns
 topic: Content Management
 role: User
@@ -10,9 +10,9 @@ level: Beginner
 keywords: gérer les campagnes, statut, planification, accès, optimizer
 exl-id: 1b88c84e-9d92-4cc1-b9bf-27a2f1d29569
 source-git-commit: 1bdba8c5c1a9238d351b159551f6d3924935b339
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '879'
-ht-degree: 81%
+ht-degree: 100%
 
 ---
 
@@ -31,17 +31,17 @@ Les campagnes sont accessibles à partir du menu **[!UICONTROL Campagnes]**.
 
 >[!TAB Campagnes d’action]
 
-Sélectionnez l’onglet **[!UICONTROL Action]** pour accéder à la liste des campagnes d’action.
+Sélectionnez l’onglet **[!UICONTROL Action]** pour accéder à la liste de toutes les campagnes d’action.
 
-Par défaut, toutes les campagnes dont le statut est **[!UICONTROL Brouillon]**, **[!UICONTROL Planifié]** et **[!UICONTROL Actif]** sont répertoriées. Pour afficher les campagnes arrêtées, terminées et archivées, vous devez supprimer le filtre.
+Par défaut, toutes les campagnes dont le statut est **[!UICONTROL Brouillon]**, **[!UICONTROL Planifié]** et **[!UICONTROL Actif]** sont répertoriées dans la liste. Pour afficher les campagnes arrêtées, terminées et archivées, vous devez supprimer le filtre.
 
 ![](assets/create-campaign-list.png)
 
->[!TAB  Campagnes déclenchées par l’API ]
+>[!TAB Campagnes déclenchées par API]
 
-Sélectionnez l’onglet **[!UICONTROL Déclenché par API]** pour accéder à la liste des campagnes déclenchées par API.
+Sélectionnez l’onglet **[!UICONTROL Déclenchement par API]** pour accéder à la liste des campagnes déclenchées par API.
 
-Par défaut, toutes les campagnes dont le statut est **[!UICONTROL Brouillon]**, **[!UICONTROL Planifié]** et **[!UICONTROL Actif]** sont répertoriées. Pour afficher les campagnes arrêtées, terminées et archivées, vous devez supprimer le filtre.
+Par défaut, toutes les campagnes dont le statut est **[!UICONTROL Brouillon]**, **[!UICONTROL Planifié]** et **[!UICONTROL Actif]** sont répertoriées dans la liste. Pour afficher les campagnes arrêtées, terminées et archivées, vous devez supprimer le filtre.
 
 ![](assets/api-triggered-list.png)
 
@@ -84,10 +84,10 @@ Les campagnes peuvent avoir plusieurs statuts :
 * **[!UICONTROL Brouillon]** : la campagne est en cours de modification et n’est pas active.
 * **[!UICONTROL Planifié]** : la campagne a été configurée pour être activée à une date de début spécifique.
 * **[!UICONTROL Actif]** : la campagne est active.
-* **[!UICONTROL En révision]** : la campagne a été soumise à validation afin d&#39;être publiée. [Découvrez comment utiliser les validations](../test-approve/gs-approval.md)
+* **[!UICONTROL En cours de vérification]** : la campagne a été soumise pour approbation afin d’être publiée. [Découvrir comment utiliser les approbations](../test-approve/gs-approval.md)
 * **[!UICONTROL Arrêté]** : la campagne a été arrêtée manuellement. Vous ne pouvez plus l’activer ni la réutiliser. [Découvrez comment arrêter une campagne.](modify-stop-campaign.md#stop)
 * **[!UICONTROL Terminé]** : la campagne est terminée. Ce statut est automatiquement attribué 3 jours après l’activation d’une campagne, ou à la date de fin de la campagne si son exécution est récurrente.
-* **[!UICONTROL Échec]** : l’exécution de la campagne a échoué. Vérifiez les journaux pour identifier le problème.
+* **[!UICONTROL Échec]** : l’exécution de la campagne a échoué. Vérifiez les journaux pour identifier le problème.
 * **[!UICONTROL Archivé]** : la campagne a été archivée. [Découvrez comment archiver des campagnes.](modify-stop-campaign.md#archive)
 
 >[!NOTE]
@@ -98,11 +98,11 @@ Lorsqu’une erreur se produit dans l’une de vos campagnes, une icône d’ave
 
 ![](assets/campaign-alerts.png)
 
-## Modification et arrêt des campagnes d’action récurrentes {#modify}
+## Modifier et arrêter des campagnes d’action récurrentes {#modify}
 
-### Modification d’une campagne d’action
+### Modifier une campagne d’action
 
-Pour modifier et créer une nouvelle version d’une campagne d’action récurrente, procédez comme suit :
+Pour modifier et créer une nouvelle version d’une campagne d’action récurrente, procédez comme suit :
 
 1. Ouvrez la campagne d’action, puis cliquez sur le bouton **[!UICONTROL Modifier la campagne]**.
 
@@ -120,7 +120,7 @@ Pour modifier et créer une nouvelle version d’une campagne d’action récurr
    >
    >L’activation du brouillon remplacera la version active de la campagne.
 
-### Arrêt d’une campagne d’action {#stop}
+### Arrêter une campagne d’action {#stop}
 
 Pour arrêter une campagne récurrente, ouvrez-la, puis cliquez sur le bouton **[!UICONTROL Arrêter la campagne]**.
 
@@ -130,7 +130,7 @@ Pour arrêter une campagne récurrente, ouvrez-la, puis cliquez sur le bouton **
 >
 >L’arrêt d’une campagne n’arrête pas un envoi continu, mais il arrête un envoi planifié ou les occurrences suivantes si l’envoi est déjà en cours.
 
-## Duplication d’une campagne {#duplicate}
+## Dupliquer une campagne {#duplicate}
 
 Vous pouvez dupliquer une campagne pour en créer une nouvelle. Pour ce faire, ouvrez la campagne, puis cliquez sur **[!UICONTROL Dupliquer]**.
 

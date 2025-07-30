@@ -1,23 +1,23 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Modifier le contenu de la campagne d’action
-description: Découvrez comment modifier le contenu de la campagne d’action.
+title: Modifier le contenu d’une campagne d’action
+description: Découvrez comment modifier le contenu d’une campagne d’action.
 feature: Campaigns
 topic: Content Management
 role: User
 level: Beginner
 mini-toc-levels: 1
 keywords: créer, optimizer, campagne, surface, messages
-source-git-commit: 1bdba8c5c1a9238d351b159551f6d3924935b339
-workflow-type: tm+mt
+exl-id: bcb7a5e4-440d-4548-b305-c320bafe6ee7
+source-git-commit: 45c95d5682b35c8afb161b75c88942c010b36d1c
+workflow-type: ht
 source-wordcount: '162'
-ht-degree: 58%
+ht-degree: 100%
 
 ---
 
-
-# Modifier le contenu de la campagne d’action {#action-campaign-content}
+# Modifier le contenu d’une campagne d’action {#action-campaign-content}
 
 Pour configurer le contenu du message, accédez à l’onglet **[!UICONTROL Contenu]** ou cliquez sur le bouton **[!UICONTROL Modifier le contenu]**.
 
@@ -25,12 +25,12 @@ Pour configurer le contenu du message, accédez à l’onglet **[!UICONTROL Cont
 
 ## Concevoir le contenu
 
-Le processus de création de contenu dépend du canal que vous avez sélectionné. Découvrez les étapes détaillées pour créer le contenu de votre message dans les pages suivantes :
+Le processus de création du contenu dépend du canal que vous avez sélectionné. Découvrez les étapes détaillées pour créer le contenu de votre message dans les pages suivantes :
 
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td><a href="../email/create-email.md"><img alt="E-mail" src="../channels/assets/do-not-localize/email.png"></a>
 <div align="center"><a href="../email/create-email.md"><strong>E-mail</strong></a></div></td>
-<td><a href="../sms/create-sms.md"><img alt="SMS" src="../channels/assets/do-not-localize/sms.png"></a>
+<td><a href="../sms/create-sms.md"><img alt="sms" src="../channels/assets/do-not-localize/sms.png"></a>
 <div align="center"><a href="../sms/create-sms.md"><strong>SMS</strong></a></div></td>
 <td><a href="../push/create-push.md"><img alt="Notification push" src="../channels/assets/do-not-localize/push.png"></a>
 <div align="center"><a href="../push/create-push.md"><strong>Notification push</strong></a></div></td>
@@ -49,11 +49,11 @@ Le processus de création de contenu dépend du canal que vous avez sélectionn�
 <div align="center"><a href="../content-card/create-content-card.md"><strong>Cartes de contenu</strong></a></div></td>
 </tr></table>
 
-## Test et vérification du contenu
+## Tester et vérifier votre contenu
 
-Une fois votre contenu défini, utilisez le bouton **[!UICONTROL Simuler le contenu]** pour prévisualiser et tester votre contenu avec des profils de test ou des exemples de données d’entrée chargés à partir d’un fichier CSV/JSON ou ajoutés manuellement. [Découvrir comment prévisualiser et tester votre contenu](../content-management/preview-test.md)
+Une fois votre contenu défini, utilisez le bouton **[!UICONTROL Simuler le contenu]** pour prévisualiser et tester votre contenu avec des profils de test ou des exemples de données d’entrée chargés à partir d’un fichier CSV/JSON ou ajoutés manuellement. [Découvrez comment prévisualiser et tester du contenu](../content-management/preview-test.md).
 
-Pour revenir à l’écran de création de campagne, cliquez sur la flèche vers la gauche.
+Pour revenir à l’écran de création de campagne, cliquez sur la flèche pointant vers la gauche.
 
 ![](assets/create-campaign-design.png)
 

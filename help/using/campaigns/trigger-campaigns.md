@@ -7,16 +7,16 @@ feature: Campaigns
 topic: Content Management
 role: User
 level: Intermediate
-keywords: campagne, révision, validation, activation, activer, optimizer
-source-git-commit: 1bdba8c5c1a9238d351b159551f6d3924935b339
-workflow-type: tm+mt
+keywords: campagne, vérification, validation, activation, activer, optimizer
+exl-id: 86f35987-f0b7-406e-9ae6-0e4a2e651610
+source-git-commit: 45c95d5682b35c8afb161b75c88942c010b36d1c
+workflow-type: ht
 source-wordcount: '154'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
-
-# Exécution d’une campagne déclenchée par API {#execute}
+# Exécuter une campagne déclenchée par API {#execute}
 
 Une fois votre campagne activée, vous devez récupérer l’exemple de requête cURL généré et l’utiliser dans l’API pour créer votre payload et déclencher la campagne.
 
