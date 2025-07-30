@@ -12,7 +12,7 @@ exl-id: e2506a43-e4f5-48af-bd14-ab76c54b7c90
 source-git-commit: 3be1b238962fa5d0e2f47b64f6fa5ab4337272a5
 workflow-type: tm+mt
 source-wordcount: '620'
-ht-degree: 69%
+ht-degree: 100%
 
 ---
 
@@ -62,15 +62,15 @@ Utilisez les campagnes de Journey Optimizer pour diffuser du contenu ponctuel s
 
 ![](assets/gs-campaigns.png)
 
-Vous pouvez créer différents types de campagnes dans Journey Optimizer :
+Vous pouvez créer différents types de campagnes dans Journey Optimizer :
 
 * **Campagnes d’action**
 
-  Les campagnes d’action (ou campagnes planifiées) permettent des communications par lots ad hoc simples pour des cas d’utilisation marketing tels que des offres promotionnelles, des campagnes d’engagement, des annonces, des informations juridiques ou des mises à jour de politiques.
+  Les campagnes d’action (ou campagnes planifiées) permettent des communications par lots ad hoc simples pour des cas d’utilisation marketing tels que des offres promotionnelles, des campagnes d’engagement, des annonces, des mentions légales ou des mises à jour de politiques.
 
-* **Campagnes déclenchées par l’API**
+* **Campagnes déclenchées par API**
 
-  Les campagnes déclenchées par API permettent aux communications marketing d’atteindre une audience au bon moment ou aux messages transactionnels/opérationnels d’être envoyés à une personne, comme la réinitialisation d’un mot de passe. La personnalisation de ces campagnes inclut l’attribut de profil, mais aussi les données contextuelles en temps réel dans le déclencheur, qui est une payload de l’API REST.
+  Les campagnes déclenchées par API permettent aux communications marketing d’atteindre une audience au moment opportun ou aux messages transactionnels/opérationnels (comme la réinitialisation d’un mot de passe) d’être envoyés à un individu. Elles sont utilisées quand une personnalisation de ces campagnes est nécessaire en utilisant non seulement l’attribut de profil, mais aussi les données contextuelles en temps réel du déclencheur, qui est une payload d’API REST.
 
 <!--* **Orchestrated campaigns**
 
@@ -80,9 +80,9 @@ Vous pouvez créer différents types de campagnes dans Journey Optimizer :
 
 ## Avant de commencer {#campaign-prerequisites}
 
-Vérifiez les conditions préalables suivantes avant de commencer à créer votre première campagne dans [!DNL Journey Optimizer] :
+Vérifiez les conditions préalables suivantes avant de commencer la création de votre première campagne dans [!DNL Journey Optimizer] :
 
-1. **Il vous faut les autorisations appropriées**. Les campagnes ne sont disponibles que pour les utilisateurs ayant accès à une campagne liée **[!UICONTROL profil de produit]** telle que l’administrateur de la campagne, l’approbateur de la campagne, le responsable de la campagne et/ou l’observateur de la campagne. Si vous ne pouvez pas accéder aux campagnes, vos autorisations doivent être étendues.
+1. **Vous avez besoin des autorisations appropriées**. Les campagnes ne sont disponibles que pour les utilisateurs et utilisatrices ayant accès à un **[!UICONTROL profil de produit]** associé à une campagne, tels que l’administrateur ou l’administratrice de campagne, l’approbateur ou l’approbatrice de campagne, le ou la responsable de campagne et/ou l’observateur ou observatrice de campagne. Si vous ne pouvez pas accéder aux campagnes, vos autorisations doivent être étendues.
 
    +++Découvrir comment attribuer un rôle lié à la campagne
 
@@ -96,19 +96,19 @@ Vérifiez les conditions préalables suivantes avant de commencer à créer votr
 
    La personne doit alors recevoir un e-mail la redirigeant vers votre instance.
 
-   +++
++++
 
-1. **Vous avez besoin d’une audience**. Les audiences doivent être disponibles avant de créer la campagne. [Prise en main des audiences](../audience/about-audiences.md).
+1. **Vous avez besoin d’une audience**. Les audiences doivent être disponibles avant de créer la campagne. [Commencer avec les audiences](../audience/about-audiences.md).
 
-1. **Il vous faut une configuration de canal**. Pour pouvoir sélectionner un canal, la configuration de canal correspondante (c’est-à-dire le paramètre prédéfini) doit être créée et disponible. [Découvrez comment configurer les canaux](../configuration/channel-surfaces.md).
+1. **Il vous faut une configuration de canal**. Pour pouvoir sélectionner un canal, la configuration de canal correspondante (c’est-à-dire le paramètre prédéfini) doit être créée et disponible. [Découvrez comment configurer des canaux](../configuration/channel-surfaces.md).
 
-## Explorons plus en détail
+## Explorons plus en détail.
 
-Maintenant que vous connaissez les campagnes dans [!DNL Journey Optimizer], il est temps d’examiner plus en détail ces sections de documentation pour commencer à créer vos premières campagnes.
+Maintenant que vous comprenez le principe des campagnes dans [!DNL Journey Optimizer], il est temps d’examiner plus en détail ces sections de la documentation pour commencer à créer vos premières campagnes.
 
 <table style="table-layout:fixed"><tr style="border: 0; text-align: center;">
 <td><a href="create-campaign.md"><img alt="campagnes d’action" src="assets/do-not-localize/gs-action-campaign.png" width="50%"></a><br/><a href="create-campaign.md">Campagnes d’action</a></td>
-<td><a href="api-triggered-campaigns.md"><img alt="sms" src="assets/do-not-localize/gs-api-triggered-campaign.png" width="50%"></a><br/><a href="api-triggered-campaigns.md">Campagnes déclenchées par l’API</a></td>
+<td><a href="api-triggered-campaigns.md"><img alt="sms" src="assets/do-not-localize/gs-api-triggered-campaign.png" width="50%"></a><br/><a href="api-triggered-campaigns.md">Campagnes déclenchées par API</a></td>
 </tr></table>
 
 <!--
