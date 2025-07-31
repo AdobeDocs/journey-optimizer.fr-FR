@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Notes de mise à jour d’Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 5eac1f0ce80d979766428d661addbeeb887cfac1
+source-git-commit: dcb2be7fef47e0d62fdd5a423799823ba4ef586c
 workflow-type: tm+mt
-source-wordcount: '1951'
-ht-degree: 70%
+source-wordcount: '2053'
+ht-degree: 69%
 
 ---
 
@@ -28,7 +28,7 @@ ht-degree: 70%
 <!--
 **Pre release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published at the release date.
 
-See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/fr/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
+See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
 
 **Date de publication** : mercredi 29 juillet 2025
 
@@ -185,24 +185,23 @@ Pour plus d’informations, consultez la <a href="../experience-decisioning/crea
 </table>
 -->
 
-<!--
 <table>
 <thead>
 <tr>
-<th><strong>Supplemental ID for journeys</strong><br/></th>
+<th><strong>ID supplémentaire pour parcours</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>You can now trigger journeys using a profile ID along with another identifier, such as an order ID, subscription ID, or prescription ID, allowing the same profile to be in the same journey multiple times at once. This enables scenarios like managing multiple orders or subscriptions in parallel, with each instance following its own path through the journey.</p>
-<p>Previously released in Limited Availability, the use of supplemental IDs in journeys is now available to all environments. With this General Availability release, the feature now includes support for Read audience journeys.</p>
+<p>Vous pouvez désormais déclencher des parcours à l’aide d’un identifiant de profil ainsi que d’un autre identifiant, tel qu’un identifiant de commande, d’abonnement ou de prescription, ce qui permet au même profil de se trouver plusieurs fois dans le même parcours à la fois. Cela permet des scénarios tels que la gestion de plusieurs commandes ou abonnements en parallèle, chaque instance suivant son propre chemin d’accès dans le parcours.</p>
+<p>Publiée précédemment en disponibilité limitée, l’utilisation d’identifiants supplémentaires dans les parcours est désormais disponible pour tous les environnements. Avec cette version de disponibilité générale, la fonctionnalité prend désormais en charge les parcours Lecture d’audience .</p>
 <p><img src="assets/do-not-localize/gif-supplemental.gif"/></p>
-<p>For more information, refer to the <a href="../building-journeys/supplemental-identifier.md">detailed documentation</a></p>
+<p>Pour plus d’informations, consultez la <a href="../building-journeys/supplemental-identifier.md">documentation détaillée</a></p>
 </td>
 </tr>
 </tbody>
-</table>-->
+</table>
 
 ### Modification des conditions du parcours {#ee-change@}
 
@@ -265,7 +264,7 @@ Les améliorations de cette version sont présentées ci-dessous.
 
 **Date de publication** : 18 juin 2025
 
-<!--See also [Adobe Experience Platform Pre Release Notes](https://experienceleague.adobe.com/fr/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
+<!--See also [Adobe Experience Platform Pre Release Notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
 
 ### Nouvelles fonctionnalités {#25-06-features}
 

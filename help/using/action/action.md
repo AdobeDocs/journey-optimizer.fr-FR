@@ -9,7 +9,7 @@ role: Data Engineer, Data Architect, Admin
 level: Experienced
 keywords: actions, parcours, messages, envoi, connexions
 exl-id: 7f0cda1d-daf0-4d4c-9978-ddef81473813
-source-git-commit: f5baa901c4f9d1061837528007b2c3f048ecbf2a
+source-git-commit: dcb2be7fef47e0d62fdd5a423799823ba4ef586c
 workflow-type: tm+mt
 source-wordcount: '285'
 ht-degree: 96%
@@ -24,7 +24,6 @@ ht-degree: 96%
 >abstract="Les actions sont des connexions par lesquelles vous proposez des expériences personnalisées et en temps réel aux clients ou aux clientes, telles que des notifications push, des e-mails, des SMS ou tout autre moyen d’engagement numérique utilisé dans votre entreprise."
 
 Les actions sont des connexions par lesquelles vous proposez des expériences personnalisées et en temps réel aux clients ou aux clientes, telles que des notifications push, des e-mails, des SMS ou tout autre moyen d’engagement numérique utilisé dans votre entreprise.
-
 
 ➡️ [Découvrez cette fonctionnalité en vidéo.](#video)
 
@@ -50,4 +49,4 @@ Découvrez comment dépanner une action personnalisée [sur cette page dédiée]
 
 Découvrez comment configurer des actions personnalisées.
 
->[!VIDEO](https://video.tv.adobe.com/v/3430274?quality=12&captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/3428396?quality=12)
