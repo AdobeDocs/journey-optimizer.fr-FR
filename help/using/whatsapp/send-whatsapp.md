@@ -7,28 +7,15 @@ feature: Whatsapp
 topic: Content Management
 role: User
 level: Beginner
-hide: true
-hidefromtoc: true
 exl-id: 31acb095-de90-495f-8e8c-43a78dedfa06
-source-git-commit: 7f507dc0113e85191429c2c48b873112b590e3ce
+source-git-commit: 623d9b15d1f7f4e7f73f26cf3e19516bed4c0f56
 workflow-type: tm+mt
-source-wordcount: '265'
+source-wordcount: '242'
 ht-degree: 100%
 
 ---
 
 # Vérifier et envoyer vos messages WhatsApp {#send-whatsapp}
-
->[!BEGINSHADEBOX]
-
-**Table des matières**
-
-* [Commencer avec les messages WhatsApp](get-started-whatsapp.md)
-* [Commencer la configuration WhatsApp ](whatsapp-configuration.md)
-* [Créer un message WhatsApp](create-whatsapp.md)
-* **[Vérifier et envoyer vos messages WhatsApp](send-whatsapp.md)**
-
->[!ENDSHADEBOX]
 
 ## Prévisualiser votre messages WhatsApp {#preview-whatsapp}
 

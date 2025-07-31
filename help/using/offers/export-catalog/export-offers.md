@@ -7,10 +7,10 @@ topic: Integrations
 role: User, Data Engineer
 level: Intermediate
 exl-id: c7f691aa-8f89-4f23-b897-53211863eb6d
-source-git-commit: 87f3da0a1d73f9aa26c7420d260778286bacdf0c
-workflow-type: ht
-source-wordcount: '1963'
-ht-degree: 100%
+source-git-commit: 2a5591617838e76e9cae99c0f97e8aff59311a69
+workflow-type: tm+mt
+source-wordcount: '1950'
+ht-degree: 95%
 
 ---
 
@@ -18,13 +18,13 @@ ht-degree: 100%
 
 Chaque fois qu&#39;une offre est modifiée, le jeu de données généré automatiquement pour les offres de contenu personnalisées est mis à jour.
 
-![](../assets/dataset-offers.png)
-
 Le lot le plus récent du jeu de données qui a réussi s&#39;affiche à droite. La vue hiérarchique du schéma du jeu de données s&#39;affiche dans le volet de gauche.
+
+![](../assets/dataset-offers.png)
 
 >[!NOTE]
 >
->Découvrez comment accéder aux jeux de données exportés pour chaque objet de votre bibliothèque des offres dans [cette section](../export-catalog/access-dataset.md).
+>Les offres personnalisées supprimées sont marquées comme archivées dans le jeu de données.
 
 Voici la liste de tous les champs qui peuvent être utilisés dans le jeu de données **[!UICONTROL Référentiel d&#39;objet de décision - Offres personnalisées]**.
 
@@ -97,7 +97,7 @@ Voici la liste de tous les champs qui peuvent être utilisés dans le jeu de don
 +++_experience > decisioning > contents > components
 
 **Champ :** composants
-**Description :** les composants du contenu représentant l&#39;option de décision, y compris toutes leurs variantes de langue. Les composants spécifiques sont identifiés par &quot;dx:format&quot;, &quot;dc:subject&quot; et &quot;dc:language&quot; ou une combinaison de ces composants. Ces métadonnées permettent de localiser ou de représenter le contenu associé à une offre et de l&#39;intégrer selon le contrat d’emplacement.
+**Description :** les composants du contenu représentant l&#39;option de décision, y compris toutes leurs variantes de langue. Les composants spécifiques sont identifiés par &#39;dx:format&#39;, &#39;dc:subject&#39; et &#39;dc:language&#39; ou une combinaison de ces composants. Ces métadonnées permettent de localiser ou de représenter le contenu associé à une offre et de l&#39;intégrer selon le contrat d’emplacement.
 **Type :** tableau
 **Obligatoire :** &quot;_type&quot;, &quot;_dc&quot; <!--TBC?-->
 
@@ -137,20 +137,20 @@ Voici la liste de tous les champs qui peuvent être utilisés dans le jeu de don
    * **identifiant**
 
      **Champ :** id
-     **Description :** identifiant unique facultatif permettant de référencer la ressource dans un référentiel de contenu. Lorsque les API de Platform sont utilisées pour récupérer la représentation, le client peut s&#39;attendre à ce qu&#39;une propriété \&quot;repo:resolveUrl\&quot; supplémentaire récupère la ressource.
+     **Description :** identifiant unique facultatif permettant de référencer la ressource dans un référentiel de contenu. Lorsque les API Platform sont utilisées pour récupérer la représentation, le client peut s&#39;attendre à ce qu&#39;une propriété supplémentaire \« repo:resolveUrl\ » récupère la ressource.
      **Type :** chaîne
      **Exemple :** &quot;urn:aaid:sc:US:6dc33479-13ca-4b19-b25d-c805eff8a69e&quot;
 
    * **name**
 
      **Champ :** nom
-     **Description :** conseils sur l&#39;emplacement du référentiel qui stocke la ressource externe par le \&quot;repo:id\&quot;.
+     **Description :** conseils sur l’emplacement du référentiel qui stocke la ressource externe par le \« repo:id\ ».
      **Type :** chaîne
 
    * **repositoryID**
 
      **Champ :** repositoryID
-     **Description :** identifiant unique facultatif permettant de référencer la ressource dans un référentiel de contenu. Lorsque les API de Platform sont utilisées pour récupérer la représentation, le client peut s&#39;attendre à ce qu&#39;une propriété \&quot;repo:resolveUrl\&quot; supplémentaire récupère la ressource.
+     **Description :** identifiant unique facultatif permettant de référencer la ressource dans un référentiel de contenu. Lorsque les API Platform sont utilisées pour récupérer la représentation, le client peut s&#39;attendre à ce qu&#39;une propriété supplémentaire \« repo:resolveUrl\ » récupère la ressource.
      **Type :** chaîne
      **Exemple :** &quot;C87932A55B06F7070A49412D@AdobeOrg&quot;
 

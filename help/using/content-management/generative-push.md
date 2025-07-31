@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: a9f9d8af-c762-4038-8bbc-bbd519e0ef3a
-source-git-commit: 9d87d133bb580ebed94a265beded5895f7fd0301
-workflow-type: ht
-source-wordcount: '1608'
-ht-degree: 100%
+source-git-commit: 1f7fd3468d85852931c6a753c2363ebe5a293b33
+workflow-type: tm+mt
+source-wordcount: '1759'
+ht-degree: 89%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 100%
 >[!IMPORTANT]
 >
 >Avant de commencer à utiliser cette fonctionnalité, lisez la section connexe [Mécanismes de sécurisation et limitations](gs-generative.md#generative-guardrails).
-></br>
+>></br>
 >
 >Vous devez accepter un [contrat d’utilisation](https://www.adobe.com/fr/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html) avant de pouvoir utiliser l’Assistant IA dans Journey Optimizer. Pour plus d’informations, contactez votre représentant ou représentante Adobe.
 
@@ -80,13 +80,21 @@ Procédez comme suit :
 
    ![](assets/push-genai-full-5.png){zoomable="yes"}
 
-1. Depuis le menu **[!UICONTROL Ressources de marque]**, cliquez sur **[!UICONTROL Charger une ressource de marque]** pour ajouter toute ressource de marque incluant du contenu pouvant fournir du contexte supplémentaire à l’Assistant IA ou sélectionnez-en une chargée précédemment.
+1. Depuis le menu **[!UICONTROL Ressources de marque]**, cliquez sur **[!UICONTROL Charger une ressource de marque]** pour ajouter toute ressource de marque incluant du contenu pouvant fournir du contexte supplémentaire à l’assistant IA ou sélectionnez-en une chargée précédemment.
 
    Les fichiers précédemment chargés sont disponibles dans la liste déroulante **[!UICONTROL Ressources de marque chargées]**. Il vous suffit d’activer/de désactiver les ressources que vous souhaitez inclure dans votre génération.
 
 1. Lorsque votre prompt est prêt, cliquez sur **[!UICONTROL Générer]**.
 
-1. Parcourez les **[!UICONTROL variations]** générées et cliquez sur **[!UICONTROL Prévisualisation]** pour afficher une version plein écran de la variation sélectionnée.
+1. Parcourez les **[!UICONTROL variations]** générées.
+
+   Cliquez sur **[!UICONTROL Aperçu]** pour afficher une version en plein écran de la variation sélectionnée ou cliquez sur **[!UICONTROL Appliquer]** pour remplacer votre contenu actuel.
+
+1. Cliquez sur l’icône de pourcentage pour afficher votre **[!UICONTROL score d’alignement des marques]** et identifier les alignements incorrects avec votre marque.
+
+   En savoir plus sur le [score d’alignement des marques](brands-score.md).
+
+   ![](assets/push-genai-full-4.png){zoomable="yes"}
 
 1. Naviguez vers l’option **[!UICONTROL Affiner]** dans la fenêtre **[!UICONTROL Aperçu]** pour accéder à d’autres fonctionnalités de personnalisation :
 
@@ -98,7 +106,9 @@ Procédez comme suit :
 
    Vous pouvez également modifier le **[!UICONTROL ton]** et la **[!UICONTROL stratégie de communication]** de votre texte.
 
-   ![](assets/push-genai-full-4.png){zoomable="yes"}
+   ![](assets/push-genai-full-6.png){zoomable="yes"}
+
+1. Ouvrez l’onglet **[!UICONTROL Alignement des marques]** pour voir comment votre contenu s’aligne sur vos [directives de marque](brands.md).
 
 1. Cliquez sur **[!UICONTROL Sélectionner]** une fois que vous avez trouvé le contenu approprié.
 
@@ -151,6 +161,14 @@ Dans cet exemple particulier, découvrez comment utiliser l’Assistant IA dans
 
 1. Lorsque votre prompt est prêt, cliquez sur **[!UICONTROL Générer]**.
 
+1. Parcourez les **[!UICONTROL variations]** générées.
+
+1. Cliquez sur l’icône de pourcentage pour afficher votre **[!UICONTROL score d’alignement des marques]** et identifier les alignements incorrects avec votre marque.
+
+   En savoir plus sur le [score d’alignement des marques](brands-score.md).
+
+   ![](assets/push-genai-5.png){zoomable="yes"}
+
 1. Naviguez vers l’option **[!UICONTROL Affiner]** dans la fenêtre **[!UICONTROL Aperçu]** pour accéder à d’autres fonctionnalités de personnalisation :
 
    * **[!UICONTROL Utiliser comme contenu de référence]** : la variante choisie servira de contenu de référence pour générer d’autres résultats.
@@ -159,13 +177,15 @@ Dans cet exemple particulier, découvrez comment utiliser l’Assistant IA dans
 
    * **[!UICONTROL Résumé]** : de longues informations peuvent embrouiller les personnes destinataires. Utilisez l’Assistant IA pour condenser des points clés en résumés clairs et concis qui attirent l’attention et incitent à poursuivre la lecture.
 
-   * **[!UICONTROL Reformuler]** : l’Assistant IA peut reformuler votre message de différentes manières en conservant une écriture soignée et attrayante pour diverses audiences.
+   * **[!UICONTROL Reformuler]**:The l’assistant d’IA peut reformuler votre message de différentes manières, ce qui vous permet d’écrire des textes frais et attrayants pour diverses audiences.
 
    * **[!UICONTROL Utiliser un langage simplifié]** : utilisez l’Assistant IA pour simplifier votre langage, garantissant ainsi clarté et accessibilité pour une audience plus large.
 
    Vous pouvez également modifier le **[!UICONTROL ton]** et la **[!UICONTROL stratégie de communication]** de votre texte.
 
-   ![](assets/push-genai-5.png){zoomable="yes"}
+   ![](assets/push-genai-6.png){zoomable="yes"}
+
+1. Ouvrez l’onglet **[!UICONTROL Alignement des marques]** pour voir comment votre contenu s’aligne sur vos [directives de marque](brands.md).
 
 1. Cliquez sur **[!UICONTROL Sélectionner]** une fois que vous avez trouvé le contenu approprié.
 
@@ -187,7 +207,7 @@ Lorsque vous avez défini le contenu, l’audience et le planning, vous pouvez p
 
 1. Accédez au menu **[!UICONTROL Ajouter un média]**.
 
-   ![](assets/push-gen-img.png){zoomable="yes"}
+   ![](assets/push-gen-img-1.png){zoomable="yes"}
 
 1. Activez l’option **[!UICONTROL Style de référence]** pour que l’Assistant IA personnalise le nouveau contenu en fonction du contenu de référence. Vous pouvez également charger une image pour ajouter du contexte à votre variation.
 
@@ -199,7 +219,7 @@ Lorsque vous avez défini le contenu, l’audience et le planning, vous pouvez p
 
    Si vous avez besoin d’aide pour concevoir votre invite, accédez à la **[!UICONTROL Bibliothèque d’invites]** qui offre un large éventail d’idées d’invites pour améliorer vos campagnes.
 
-   ![](assets/push-gen-img-1.png){zoomable="yes"}
+   ![](assets/push-gen-img.png){zoomable="yes"}
 
 1. Sélectionnez vos **[!UICONTROL paramètres d’image]** :
 
@@ -209,7 +229,7 @@ Lorsque vous avez défini le contenu, l’audience et le planning, vous pouvez p
    * **[!UICONTROL Éclairage]** : fait référence à l’éclairage présent dans une image qui forme son atmosphère et met en évidence des éléments spécifiques.
    * **[!UICONTROL Composition]** : fait référence à la disposition des éléments dans le cadre d’une image.
 
-1. Depuis le menu **[!UICONTROL Ressources de marque]**, cliquez sur **[!UICONTROL Charger une ressource de marque]** pour ajouter toute ressource de marque incluant du contenu pouvant fournir du contexte supplémentaire à l’Assistant IA ou sélectionnez-en une chargée précédemment.
+1. Depuis le menu **[!UICONTROL Ressources de marque]**, cliquez sur **[!UICONTROL Charger une ressource de marque]** pour ajouter toute ressource de marque incluant du contenu pouvant fournir du contexte supplémentaire à l’assistant IA ou sélectionnez-en une chargée précédemment.
 
    Les fichiers précédemment chargés sont disponibles dans la liste déroulante **[!UICONTROL Ressources de marque chargées]**. Il vous suffit d’activer/de désactiver les ressources que vous souhaitez inclure dans votre génération.
 
@@ -217,9 +237,22 @@ Lorsque vous avez défini le contenu, l’audience et le planning, vous pouvez p
 
 1. Parcourez les **[!UICONTROL variations]** générées.
 
+1. Cliquez sur l’icône de pourcentage pour afficher votre **[!UICONTROL score d’alignement des marques]** et identifier les alignements incorrects avec votre marque.
+
+   En savoir plus sur le [score d’alignement des marques](brands-score.md).
+
+1. Naviguez vers l’option **[!UICONTROL Affiner]** dans la fenêtre **[!UICONTROL Aperçu]** pour accéder à d’autres fonctionnalités de personnalisation :
+
+   * **[!UICONTROL Générer similaire]** pour afficher les images associées à cette variante.
+   * **[!UICONTROL Modifier dans Adobe Express]** pour personnaliser davantage votre ressource.
+
+[En savoir plus sur l’intégration d’Adobe Express](../integrations/express.md)
+
+   * **[!UICONTROL Enregistrer]** pour stocker les ressources en vue d’un accès ultérieur.
+
    ![](assets/push-gen-img-2.png){zoomable="yes"}
 
-1. Sélectionnez **[!UICONTROL Générer des résultats similaires]** pour afficher les variations d’image qui correspondent étroitement à l’option actuelle, fournissant des conceptions alternatives avec un thème cohérent.
+1. Ouvrez l’onglet **[!UICONTROL Alignement des marques]** pour voir comment votre contenu s’aligne sur vos [directives de marque](brands.md).
 
 1. Cliquez sur **[!UICONTROL Sélectionner]** une fois que vous avez trouvé le contenu approprié.
 

@@ -3,14 +3,13 @@ solution: Journey Optimizer
 product: journey optimizer
 title: Gérer la marque
 description: Découvrez comment créer et gérer les consignes relatives à votre marque.
-badge: label="Beta" type="Informative"
 topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: b1b7abbe-8600-4a8d-b0b5-0dbd49abc275
-source-git-commit: f9266d01610b92d8a55be8263da6bb808b3cc8ff
-workflow-type: ht
-source-wordcount: '1471'
+source-git-commit: 0a3e8a0eba6eaac125f508b8b81e2fab992eb978
+workflow-type: tm+mt
+source-wordcount: '1451'
 ht-degree: 100%
 
 ---
@@ -33,8 +32,6 @@ ht-degree: 100%
 >abstract="Sélectionnez votre marque pour vous assurer que votre contenu est conçu conformément à ses directives, standards et identités spécifiques, en préservant la cohérence et l’intégrité de la marque."
 
 >[!AVAILABILITY]
->
->Cette fonctionnalité est disponible en version Beta privée. Elle sera progressivement disponible pour l’ensemble de la clientèle dans les versions ultérieures.
 >
 >Vous devez accepter le [contrat d’utilisation](https://www.adobe.com/fr/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"} avant de pouvoir utiliser l’Assistant IA dans Adobe Journey Optimizer. Pour plus d’informations, contactez votre représentant ou représentante Adobe.
 

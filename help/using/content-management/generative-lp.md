@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: d38c3b44-9183-4537-a9dd-fd7761328cc1
-source-git-commit: 9d87d133bb580ebed94a265beded5895f7fd0301
-workflow-type: ht
-source-wordcount: '1524'
-ht-degree: 100%
+source-git-commit: 1f7fd3468d85852931c6a753c2363ebe5a293b33
+workflow-type: tm+mt
+source-wordcount: '1684'
+ht-degree: 85%
 
 ---
 
@@ -70,15 +70,21 @@ Dans l’exemple suivant, nous allons utiliser l’Assistant IA pour affiner un 
 
    ![](assets/lp-full-gen-4.png){zoomable="yes"}
 
-1. Depuis le menu **[!UICONTROL Ressources de marque]**, cliquez sur **[!UICONTROL Charger une ressource de marque]** pour ajouter toute ressource de marque incluant du contenu pouvant fournir du contexte supplémentaire à l’Assistant IA ou sélectionnez-en une chargée précédemment.
+1. Depuis le menu **[!UICONTROL Ressources de marque]**, cliquez sur **[!UICONTROL Charger une ressource de marque]** pour ajouter toute ressource de marque incluant du contenu pouvant fournir du contexte supplémentaire à l’assistant IA ou sélectionnez-en une chargée précédemment.
 
    Les fichiers précédemment chargés sont disponibles dans la liste déroulante **[!UICONTROL Ressources de marque chargées]**. Il vous suffit d’activer/de désactiver les ressources que vous souhaitez inclure dans votre génération.
 
-   ![](assets/lp-full-gen-5.png){zoomable="yes"}
-
 1. Lorsque votre prompt est prêt, cliquez sur **[!UICONTROL Générer]**.
 
-1. Parcourez les **[!UICONTROL variations]** générées et cliquez sur **[!UICONTROL Prévisualisation]** pour afficher une version plein écran de la variation sélectionnée.
+1. Parcourez les **[!UICONTROL variations]** générées.
+
+   Cliquez sur **[!UICONTROL Aperçu]** pour afficher une version en plein écran de la variation sélectionnée ou cliquez sur **[!UICONTROL Appliquer]** pour remplacer votre contenu actuel.
+
+1. Cliquez sur l’icône de pourcentage pour afficher votre **[!UICONTROL score d’alignement des marques]** et identifier les alignements incorrects avec votre marque.
+
+   En savoir plus sur le [score d’alignement des marques](brands-score.md).
+
+   ![](assets/lp-full-gen-5.png){zoomable="yes"}
 
 1. Naviguez vers l’option **[!UICONTROL Affiner]** dans la fenêtre **[!UICONTROL Aperçu]** pour accéder à d’autres fonctionnalités de personnalisation :
 
@@ -89,6 +95,8 @@ Dans l’exemple suivant, nous allons utiliser l’Assistant IA pour affiner un 
    Vous pouvez également modifier le **[!UICONTROL ton]** et la **[!UICONTROL stratégie de communication]** de votre texte.
 
    ![](assets/lp-full-gen-6.png){zoomable="yes"}
+
+1. Ouvrez l’onglet **[!UICONTROL Alignement des marques]** pour voir comment votre contenu s’aligne sur vos [directives de marque](brands.md).
 
 1. Cliquez sur **[!UICONTROL Sélectionner]** une fois que vous avez trouvé le contenu approprié.
 
@@ -129,11 +137,18 @@ Dans l’exemple suivant, nous allons utiliser l’Assistant IA pour améliorer 
 
    Les fichiers précédemment chargés sont disponibles dans la liste déroulante **[!UICONTROL Ressources de marque chargées]**. Il vous suffit d’activer/de désactiver les ressources que vous souhaitez inclure dans votre génération.
 
-   ![](assets/lp-text-gen-4.png){zoomable="yes"}
 
 1. Lorsque votre prompt est prêt, cliquez sur **[!UICONTROL Générer]**.
 
-1. Parcourez les **[!UICONTROL variations]** générées et cliquez sur **[!UICONTROL Prévisualisation]** pour afficher une version plein écran de la variation sélectionnée.
+1. Parcourez les **[!UICONTROL variations]** générées.
+
+   Cliquez sur **[!UICONTROL Aperçu]** pour afficher une version en plein écran de la variation sélectionnée ou cliquez sur **[!UICONTROL Appliquer]** pour remplacer votre contenu actuel.
+
+1. Cliquez sur l’icône de pourcentage pour afficher votre **[!UICONTROL score d’alignement des marques]** et identifier les alignements incorrects avec votre marque.
+
+   En savoir plus sur le [score d’alignement des marques](brands-score.md).
+
+   ![](assets/lp-text-gen-4.png){zoomable="yes"}
 
 1. Naviguez vers l’option **[!UICONTROL Affiner]** dans la fenêtre **[!UICONTROL Aperçu]** pour accéder à d’autres fonctionnalités de personnalisation :
 
@@ -143,13 +158,15 @@ Dans l’exemple suivant, nous allons utiliser l’Assistant IA pour améliorer 
 
    * **[!UICONTROL Résumer]** : des informations trop longues peuvent déconcerter les destinataires de la page de destination. Utilisez l’Assistant IA pour condenser des points clés en résumés clairs et concis qui attirent l’attention et incitent à poursuivre la lecture.
 
-   * **[!UICONTROL Reformuler]** : l’Assistant IA peut reformuler votre message de différentes manières en conservant une écriture soignée et attrayante pour diverses audiences.
+   * **[!UICONTROL Reformuler]**:The l’assistant d’IA peut reformuler votre message de différentes manières, ce qui vous permet d’écrire des textes frais et attrayants pour diverses audiences.
 
    * **[!UICONTROL Utiliser un langage simplifié]** : utilisez l’Assistant IA pour simplifier votre langage, garantissant ainsi clarté et accessibilité pour une audience plus large.
 
    Vous pouvez également modifier le **[!UICONTROL ton]** et la **[!UICONTROL stratégie de communication]** de votre texte.
 
    ![](assets/lp-text-gen-5.png){zoomable="yes"}
+
+1. Ouvrez l’onglet **[!UICONTROL Alignement des marques]** pour voir comment votre contenu s’aligne sur vos [directives de marque](brands.md).
 
 1. Cliquez sur **[!UICONTROL Sélectionner]** une fois que vous avez trouvé le contenu approprié.
 
@@ -181,7 +198,7 @@ Dans l’exemple ci-dessous, découvrez comment tirer parti de l’Assistant IA 
 
 1. Adaptez votre prompt avec l’option **[!UICONTROL Paramètres des images]** :
 
-   * **[!UICONTROL Format]** : déterminez la largeur et la hauteur de la ressource. Vous avez la possibilité de choisir parmi des formats courants tels que 16:9, 4:3, 3:2 ou 1:1, ou vous pouvez saisir une taille personnalisée.
+   * **[!UICONTROL Format]** : déterminez la largeur et la hauteur de la ressource. Vous avez la possibilité de choisir parmi les ratios courants, tels que 16:9, 4:3, 3:2 ou 1:1, ou de saisir une taille personnalisée.
    * **[!UICONTROL Type de contenu]** : cette propriété classe la nature de l’élément visuel en faisant la distinction entre les différentes formes de représentation visuelle, telles que les photos, les graphiques ou les illustrations.
    * **[!UICONTROL Intensité visuelle]** : vous pouvez contrôler l’impact de l’image en ajustant son intensité. Un paramètre inférieur (2) crée un aspect plus doux et plus modéré, tandis qu’un paramètre supérieur (10) rend l’image plus vivante et visuellement plus puissante.
    * **[!UICONTROL Couleur et ton]** : aspect général des couleurs dans une image et humeur ou ambiance qu’elles véhiculent.
@@ -190,19 +207,34 @@ Dans l’exemple ci-dessous, découvrez comment tirer parti de l’Assistant IA 
 
    ![](assets/lp-image-gen-3.png){zoomable="yes"}
 
-1. Depuis le menu **[!UICONTROL Ressources de marque]**, cliquez sur **[!UICONTROL Charger une ressource de marque]** pour ajouter toute ressource de marque incluant du contenu pouvant fournir du contexte supplémentaire à l’Assistant IA ou sélectionnez-en une chargée précédemment.
+1. Depuis le menu **[!UICONTROL Ressources de marque]**, cliquez sur **[!UICONTROL Charger une ressource de marque]** pour ajouter toute ressource de marque incluant du contenu pouvant fournir du contexte supplémentaire à l’assistant IA ou sélectionnez-en une chargée précédemment.
 
    Les fichiers précédemment chargés sont disponibles dans la liste déroulante **[!UICONTROL Ressources de marque chargées]**. Il vous suffit d’activer/de désactiver les ressources que vous souhaitez inclure dans votre génération.
 
-1. Quand la configuration de votre invite vous satisfait, cliquez sur **[!UICONTROL Générer]**.
+1. Quand la configuration de votre prompt vous satisfait, cliquez sur **[!UICONTROL Générer]**.
 
-1. Parcourez les **[!UICONTROL Suggestions de variation]** pour trouver la ressource souhaitée.
+1. Parcourez les **[!UICONTROL variations]** générées.
 
-   Cliquez sur **[!UICONTROL Aperçu]** pour afficher une version plein écran de la variation sélectionnée.
+   Cliquez sur **[!UICONTROL Aperçu]** pour afficher une version en plein écran de la variation sélectionnée ou cliquez sur **[!UICONTROL Appliquer]** pour remplacer votre contenu actuel.
 
-1. Choisissez **[!UICONTROL Générer des résultats similaires]** si vous souhaitez afficher les images associées à cette variante.
+1. Cliquez sur l’icône de pourcentage pour afficher votre **[!UICONTROL score d’alignement des marques]** et identifier les alignements incorrects avec votre marque.
+
+   En savoir plus sur le [score d’alignement des marques](brands-score.md).
 
    ![](assets/lp-image-gen-4.png){zoomable="yes"}
+
+1. Naviguez vers l’option **[!UICONTROL Affiner]** dans la fenêtre **[!UICONTROL Aperçu]** pour accéder à d’autres fonctionnalités de personnalisation :
+
+   * **[!UICONTROL Générer similaire]** pour afficher les images associées à cette variante.
+   * **[!UICONTROL Modifier dans Adobe Express]** pour personnaliser davantage votre ressource.
+
+[En savoir plus sur l’intégration d’Adobe Express](../integrations/express.md)
+
+   * **[!UICONTROL Enregistrer]** pour stocker les ressources en vue d’un accès ultérieur.
+
+   ![](assets/lp-image-gen-5.png){zoomable="yes"}
+
+1. Ouvrez l’onglet **[!UICONTROL Alignement des marques]** pour voir comment votre contenu s’aligne sur vos [directives de marque](brands.md).
 
 1. Cliquez sur **[!UICONTROL Sélectionner]** une fois que vous avez trouvé le contenu approprié.
 

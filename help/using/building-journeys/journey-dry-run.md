@@ -6,13 +6,12 @@ description: Découvrez comment publier un parcours en mode Test à blanc.
 feature: Journeys
 role: User
 level: Intermediate
-badge: label="Disponibilité limitée" type="Informative"
 keywords: publication, parcours, actif, validité, vérification
 exl-id: 58bcc8b8-5828-4ceb-9d34-8add9802b19d
-source-git-commit: 62525caa9b065538c090b98d38c15dbd960dafe7
+source-git-commit: 8c8fb70baf66d2b48c81c6344717be18993141f8
 workflow-type: tm+mt
-source-wordcount: '864'
-ht-degree: 97%
+source-wordcount: '1106'
+ht-degree: 58%
 
 ---
 
@@ -32,11 +31,6 @@ ht-degree: 97%
 Le test à blanc de parcours est un mode de publication de parcours spécial dans Adobe Journey Optimizer qui permet aux responsables des parcours de tester un parcours à l’aide de données de production réelles sans contacter de véritables clientes et clients ou sans mettre à jour les informations de profil.  Cette fonctionnalité permet aux responsables des parcours d’avoir confiance dans leur conception du parcours et leur ciblage d’audience avant de publier un parcours en ligne.
 
 
->[!AVAILABILITY]
->
->Cette fonctionnalité n’est disponible que pour un certain nombre d’organisations (disponibilité limitée) et sera proposée à l’ensemble des utilisateurs et utilisatrices dans une prochaine version.
-
-
 ## Avantages clés {#journey-dry-run-benefits}
 
 Le test à blanc de parcours améliore la confiance des responsables des parcours et la réussite des parcours en offrant des tests sûrs et pilotés par les données des parcours clients à l’aide de données de production réelles, sans risque de contacter les clientes et clients ou de modifier les informations de profil. Cette fonctionnalité permet aux responsables des parcours de valider la portée de l’audience et la logique des branches avant l’activation, en s’assurant que les parcours s’alignent sur les objectifs commerciaux prévus.
@@ -48,23 +42,31 @@ Enfin, cette fonctionnalité améliore le délai de rentabilisation et réduit l
 Le test à blanc de parcours apporte :
 
 1. **Environnement de test sécurisé** : les profils en mode Test à blanc ne sont pas contactés, ce qui élimine tout risque d’envoi de communications ou d’impact sur les données actives.
-1. **Informations sur l’audience** : les responsables des parcours peuvent prédire l’accessibilité de l’audience à divers nœuds du parcours, y compris les désinscriptions, les exclusions et d’autres conditions.
+1. **Informations sur l’audience** : les praticiens du Parcours peuvent prédire l’accessibilité de l’audience à divers nœuds du parcours, y compris les désinscriptions et les exclusions en fonction des conditions du Parcours.
 1. **Commentaires en temps réel** : les mesures s’affichent directement dans la zone de travail du parcours, comme les rapports en temps réel, ce qui permet aux responsables des parcours d’affiner leur conception du parcours.
 
-Lors du test à blanc, le parcours est exécuté avec les spécificités suivantes :
+## Logique d’exécution de l’essai {#journey-dry-run-exec}
 
-* Les nœuds **Action de canal**, y compris les e-mails, SMS ou notifications push ne sont pas exécutés.
+Lors de l’exécution d’essai, le parcours s’exécute en mode simulation, en appliquant les comportements spécifiques suivants à chaque activité de parcours sans déclencher d’actions réelles :
+
+* Les nœuds **Action de canal** notamment les e-mails, SMS ou notifications push ne sont pas exécutés.
 * Les **actions personnalisées** sont désactivées pendant le test à blanc et leurs réponses sont définies sur null.
-* Les **nœuds d’attente** sont ignorés lors du test à blanc.
-  <!--You can override the wait block timeouts, then if you have wait blocks duration longer than allowed dry run journey duration, then that branch will not execute completely.-->
-* Les **sources de données**, y compris les sources de données externes, sont exécutées par défaut.
+
+  Pour améliorer la lisibilité, les actions personnalisées et les activités de canal apparaissent grisées lors de l’exécution d’une exécution d’essai.
+
+  ![Activités d’action grisées dans un parcours d’exécution d’essai](assets/dry-run-greyed-activities.png){width="80%" align="left"}
+
+* Les activités **Sources de données**, y compris les sources de données externes, et **Attente** sont désactivées par défaut pendant l’exécution de l’essai. Vous pouvez toutefois modifier ce comportement [lors de l’activation du mode Exécution d’essai](#journey-dry-run-start).
+
+* Les nœuds **Reaction** ne sont pas exécutés : tous les profils qui y accèdent se ferment avec succès. Toutefois, les règles de priorité suivantes s’appliquent :
+   * Si un nœud **Reaction** est utilisé avec un ou plusieurs nœuds **événement unitaire** en parallèle, les profils passeront toujours par l’événement de réaction.
+   * Si un nœud **Reaction** est utilisé avec un ou plusieurs nœuds **événement de réaction** en parallèle, les profils passeront toujours par le premier dans la zone de travail (celui en haut).
 
 >[!CAUTION]
 >
->* Les autorisations de démarrage du test à blanc sont limitées aux utilisateurs et aux utilisatrices disposant de l’autorisation de haut niveau **[!DNL Publish journeys]**. Les autorisations d’arrêt du test à blanc sont limitées aux utilisateurs et utilisatrices disposant de l’autorisation de haut niveau **[!DNL Manage journeys]**. Pour en savoir plus sur la gestion des droits d’accès des utilisateurs et des utilisatrices [!DNL Journey Optimizer], consultez [cette section](../administration/permissions-overview.md).
+>* Les autorisations de démarrage d’une Exécution d’essai sont limitées aux utilisateurs disposant de l’autorisation de haut niveau **[!DNL Publish journeys]**. Les autorisations d’arrêt d’une Exécution d’essai sont limitées aux utilisateurs disposant de l’autorisation de haut niveau **[!DNL Manage journeys]**. Pour en savoir plus sur la gestion des droits d’accès des utilisateurs et des utilisatrices [!DNL Journey Optimizer], consultez [cette section](../administration/permissions-overview.md).
 >
 >* Avant de commencer à utiliser la fonctionnalité de test à blanc, [lisez la section sur les Mécanismes de sécurisation et les limitations](#journey-dry-run-limitations).
-
 
 ## Démarrer un test à blanc {#journey-dry-run-start}
 
@@ -77,11 +79,14 @@ Pour activer le test à blanc, procédez comme suit :
 
    ![Démarrer le test à blanc du parcours](assets/dry-run-button.png)
 
-1. Confirmez la publication.
+1. Sélectionnez si vous souhaitez activer ou désactiver les activités **Attente** et les appels **Sources de données externes**, puis confirmez la publication de l’exécution d’essai.
+
+   ![Confirmer la publication de l’essai de parcours ](assets/dry-run-publish.png){width="50%" align="left"}
 
    Un message de statut, **Activation du test à blanc**, s’affiche pendant que la transition est en cours.
 
 1. Une fois activé, le parcours passe en mode **Test à blanc**.
+
 
 ## Surveiller un test à blanc {#journey-dry-monitor}
 
@@ -90,7 +95,6 @@ Une fois la publication en mode Test à blanc lancée, vous pouvez visualiser l�
 Les mesures s’affichent directement dans la zone de travail du parcours. Pour en savoir plus sur les rapports et les mesures dynamiques du parcours, consultez la section [ Rapport dynamique dans la zone de travail du parcours ](report-journey.md).
 
 ![Surveiller l’exécution du test à blanc du parcours](assets/dry-run-metrics.png)
-
 
 Vous pouvez également accéder aux **Rapports sur les dernières 24 heures** et aux **Rapports sur la durée entière** pour le test à blanc. Pour accéder à ces rapports, cliquez sur le bouton **Afficher le rapport** dans le coin supérieur droit de la zone de travail du parcours.
 
@@ -103,21 +107,39 @@ Vous pouvez également accéder aux **Rapports sur les dernières 24 heures** e
 
 ## Arrêter un test à blanc {#journey-dry-run-stop}
 
-Les tests à blanc des parcours **doivent obligatoirement** être arrêtés manuellement.
+Après 14 jours, les parcours d’exécution d’essai passent automatiquement au statut **Brouillon**.
 
-Cliquez sur le bouton **Fermer** pour terminer le test, puis sur **Retour au brouillon** pour confirmer.
+Les parcours d’essai peuvent également être arrêtés manuellement. Pour désactiver le mode Exécution d’essai, procédez comme suit :
 
-<!-- After 14 days, Dry run journeys automatically transition to the **Draft** status.-->
+1. Ouvrez le parcours Exécution d’essai à arrêter.
+1. Sélectionnez le bouton **Fermer** pour terminer le test.
+Les liens vers les rapports des 24 dernières heures et à toute heure sont disponibles dans l’écran de confirmation.
+
+   ![Arrêter l’exécution de l’essai du parcours ](assets/dry-run-stop.png){width="50%" align="left"}
+
+1. Cliquez sur **Retour au brouillon** pour confirmer.
+
 
 ## Mécanismes de sécurisation et limitations {#journey-dry-run-limitations}
 
-* Le mode Test à blanc n’est pas disponible pour les parcours contenant des événements de réaction.
 * Les profils en mode Test à blanc sont comptabilisés dans les profils engageables.
 * Les parcours en mode Test à blanc sont comptabilisés dans le quota des parcours actifs.
 * Les parcours en mode Test à blanc n’ont aucune incidence sur les règles métier.
-* Lors de la création d’une version de parcours, si une version de parcours précédente est **active**, l’activation du test à blanc n’est pas autorisée sur la nouvelle version.
-* Un test à blanc de parcours génère des événements stepEvents. Ces événements stepEvents disposent d’un indicateur et d’un identifiant de test à blanc spécifiques :
-   * `_experience.journeyOrchestration.stepEvents.inDryRun` renvoie `true` si le test à blanc est activé et `false` dans le cas contraire.
-   * `_experience.journeyOrchestration.stepEvents.dryRunID` renvoie l’identifiant d’une instance de test à blanc.
+  <!--* When creating a new journey version, if a previous journey version is **Live**, then the Dry run activation is not allowed on the new version.-->
+* Les actions **Saut** ne sont pas activées dans l’exécution d’essai.
+Lorsqu’un parcours source déclenche un événement **Jump** vers un événement de destination, cet événement de saut ne s’applique pas à une version de parcours d’exécution d’essai. Par exemple, si la dernière version d’un parcours est en Exécution d’essai et que la version précédente est **En direct**, l’événement de saut ignorerait la version en Exécution d’essai et ne s’appliquerait qu’à la version **En direct**.
 
-* Lors de l’analyse des mesures de rapports de parcours à l’aide d’Adobe Experience Platform Query Service, les événements d’étape générés par le test à blanc doivent être exclus. Pour ce faire, définissez l’indicateur `inDryRun` sur `false`.
+## Événements d’étape de parcours et exécution d’essai {#journey-step-events}
+
+L’exécution d’essai de parcours génère **stepEvents**. Ces stepEvents ont un indicateur et un ID d’exécution d’essai spécifiques : `inDryRun` et `dryRunID`.
+
+![Attributs de schéma d’essai de Parcours ](assets/dry-run-attributes.png)
+
+* `_experience.journeyOrchestration.stepEvents.inDryRun` renvoie `true` si le test à blanc est activé et `false` dans le cas contraire.
+* `_experience.journeyOrchestration.stepEvents.dryRunID` renvoie l’identifiant d’une instance de test à blanc.
+
+
+Si vous exportez des données stepEvent vers des **systèmes externes**, vous pouvez filtrer les exécutions d’essai à l’aide de l’indicateur `inDryRun`.
+
+Lors de l’analyse de **mesures de rapports de parcours** à l’aide de Adobe Experience Platform Query Service, les événements d’étape générés par l’exécution d’essai doivent être exclus. Pour ce faire, définissez l’indicateur `inDryRun` sur `false`.
+

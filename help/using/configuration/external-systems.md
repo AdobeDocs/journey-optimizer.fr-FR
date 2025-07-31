@@ -8,9 +8,9 @@ role: User
 level: Beginner
 keywords: externe, API, optimizer, limitation
 exl-id: 27859689-dc61-4f7a-b942-431cdf244455
-source-git-commit: e3ed3d2d662d76c022a7820f3771289b14c8b8b8
-workflow-type: ht
-source-wordcount: '1374'
+source-git-commit: 0a6db9c9537563fea5d56289d78b9ed49d703734
+workflow-type: tm+mt
+source-wordcount: '1352'
 ht-degree: 100%
 
 ---
@@ -102,7 +102,7 @@ Prenons un exemple pour une temporisation de 5 secondes.
 
 **Comment configurer une règle de plafonnement ou de limitation ? Existe-t-il une règle par défaut ?**
 
-Pour créer des règles de limitation ou de ralentissement, reportez-vous à [cette section](../configuration/external-systems.md#capping). Par défaut, il n’y a aucune règle de ralentissement mais une limitation de 300 000 appels de plus d’une minute est définie pour toutes les actions personnalisées, par hôte et par sandbox. Cette limite a été définie en fonction de l’utilisation de la clientèle, afin de protéger les points d’entrée externes ciblés par des actions personnalisées. Vous devez prendre cela en compte dans vos parcours basés sur l’audience en définissant un taux de lecture approprié (5 000 profils/s lors de l’utilisation d’actions personnalisées). Si nécessaire, vous pouvez remplacer ce paramètre en définissant une limitation ou un ralentissement plus élevé via nos API de limitation/ralentissement.
+Pour créer des règles de limitation ou de ralentissement, reportez-vous à [cette section](../configuration/external-systems.md#capping). Par défaut, il n’y a aucune règle de ralentissement mais une limitation de 300 000 appels de plus d’une minute est définie pour toutes les actions personnalisées, par hôte et par sandbox. Cette limite a été définie en fonction de l’utilisation de la clientèle, afin de protéger les points d’entrée externes ciblés par des actions personnalisées. Si nécessaire, vous pouvez remplacer ce paramètre en définissant une limitation ou un ralentissement plus élevé via nos API de limitation/ralentissement.
 
 **Combien de reprises sont effectuées ? Puis-je modifier le nombre de reprises ou définir une période d&#39;attente minimale entre deux reprises ?**
 

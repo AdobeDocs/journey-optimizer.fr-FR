@@ -5,10 +5,10 @@ description: Découvrez comment utiliser Adobe Journey Optimizer.
 solution: Journey Optimizer
 product: journey optimizer
 exl-id: 3a1b6c61-82df-421c-98d8-2af4f2a5e0de
-source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
-workflow-type: ht
+source-git-commit: 78742ecf7253cdf750e48505e964d1d2504ef874
+workflow-type: tm+mt
 source-wordcount: '383'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -20,7 +20,7 @@ Découvrez les améliorations les plus récentes apportées au produit et à la 
 
 >[!BEGINTABS]
 
->[!TAB Version de juin 2025]
+>[!TAB Version du 25 juillet]
 
 La version de juin est désormais disponible. Consultez les notes de mise à jour pour découvrir les nouvelles fonctionnalités, modifications et améliorations.
 
@@ -43,7 +43,7 @@ L’intégration d’Adobe Express à Adobe Journey Optimizer vous permet d�
 
 Immerse yourself in a hands-on experience with our [AI Assistant](../help/using/content-management/gs-generative.md) live feature preview, designed to let you explore its features firsthand and fully understand its capabilities.
 
-[![learn more](using/assets/do-not-localize/try-it-button.svg)](https://experienceleague.adobe.com/fr/apps/journey-optimizer/ai-assistant-content-accelerator){target="_blank"}-->
+[![learn more](using/assets/do-not-localize/try-it-button.svg)](https://experienceleague.adobe.com/en/apps/journey-optimizer/ai-assistant-content-accelerator){target="_blank"}-->
 
 >[!TAB Fragment de contenu AEM]
 

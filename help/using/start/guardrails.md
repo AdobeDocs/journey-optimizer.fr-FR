@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: abd5f388a41cc85c710cdb8c8e51c7fe381714ad
+source-git-commit: 1a7ffacba9b90e2c018dde91814c7e321ba21135
 workflow-type: tm+mt
-source-wordcount: '2639'
+source-wordcount: '2621'
 ht-degree: 93%
 
 ---
@@ -149,7 +149,7 @@ Les mécanismes de sécurisation suivants s’appliquent aux [versions de parcou
 
 Les mécanismes de sécurisation suivants s’appliquent aux [actions personnalisées](../action/action.md) dans vos parcours :
 
-* Une limitation de 300 000 appels de plus d’une minute est définie pour toutes les actions personnalisées, par hôte et par sandbox. Consultez [cette page](../action/about-custom-action-configuration.md). Cette limite a été définie en fonction de l’utilisation de la clientèle, afin de protéger les points d’entrée externes ciblés par des actions personnalisées. Vous devez prendre cela en compte dans vos parcours basés sur l’audience en définissant un taux de lecture approprié (5 000 profils/s lors de l’utilisation d’actions personnalisées). Si nécessaire, vous pouvez remplacer ce paramètre en définissant une limitation ou un ralentissement plus élevé via nos API de limitation/ralentissement. Consultez [cette page](../configuration/external-systems.md).
+* Une limitation de 300 000 appels de plus d’une minute est définie pour toutes les actions personnalisées, par hôte et par sandbox. Consultez [cette page](../action/about-custom-action-configuration.md). Cette limite a été définie en fonction de l’utilisation de la clientèle, afin de protéger les points d’entrée externes ciblés par des actions personnalisées. Si nécessaire, vous pouvez remplacer ce paramètre en définissant une limitation ou un ralentissement plus élevé via nos API de limitation/ralentissement. Consultez [cette page](../configuration/external-systems.md).
 * L’URL de l’action personnalisée ne prend pas en charge les paramètres dynamiques.
 * Les méthodes d’appel POST, PUT et GET sont prises en charge.
 * Le nom du paramètre de la requête ou de l’en-tête ne doit pas commencer par « . » ou « $ »
@@ -211,6 +211,9 @@ Les mécanismes de sécurisation suivants s’appliquent à l’activité de par
 * Un parcours ne peut avoir qu’une seule activité **Lecture d’audience**.
 * Consultez également les recommandations sur l’utilisation de l’activité **Lecture d’audience** sur [cette page](../building-journeys/read-audience.md).
 * Les reprises sont appliquées par défaut sur les parcours déclenchés par l’audience (commençant par une **lecture d’audience** ou un **événement métier**) lors de la récupération du traitement d’export. Si une erreur se produit lors de la création du traitement d’export, des reprises sont effectuées toutes les 10 minutes, pendant 1 heure au maximum. Après cela, nous considérerons cela comme un échec. Ces types de parcours peuvent donc être exécutés jusqu’à 1 heure après l’heure planifiée.
+
+
+Voir aussi [cette page](../building-journeys/read-audience.md#must-read).
 
 ### Qualification de l’audience {#audience-qualif-g}
 
