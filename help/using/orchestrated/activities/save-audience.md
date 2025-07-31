@@ -7,9 +7,9 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: 7b5b03ba-fbb1-4916-8c72-10778752d8e4
-source-git-commit: 3be1b238962fa5d0e2f47b64f6fa5ab4337272a5
+source-git-commit: 458e0b19725147e0a3ad34891ca55b61f1ac44a8
 workflow-type: tm+mt
-source-wordcount: '480'
+source-wordcount: '479'
 ht-degree: 27%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 27%
 
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_save_audience"
->title="Activité Sauvegarde d’audience"
+>title="Activité Enregistrer l’audience"
 >abstract="L&#39;activité **Sauvegarde d&#39;audience** est une activité **Ciblage** qui permet de mettre à jour une audience existante ou d&#39;en créer une nouvelle à partir de la population générée précédemment dans la campagne orchestrée. Une fois créées, ces audiences sont ajoutées à la liste des audiences de l’application. Vous pouvez y accéder à partir du menu **Audiences**."
 
 
@@ -45,7 +45,7 @@ Le contenu de cette page n’est pas définitif et peut être modifié.
 
 L&#39;activité **[!UICONTROL Sauvegarde d&#39;audience]** est une activité **[!UICONTROL Ciblage]** utilisée pour créer une nouvelle audience ou mettre à jour une audience existante en fonction de la population générée précédemment dans la campagne orchestrée. Une fois enregistrée, l’audience est ajoutée à la liste des audiences de l’application et devient accessible à partir du menu **[!UICONTROL Audiences]**.
 
-Elle est généralement utilisée pour capturer des segments d’audience créés dans le même workflow de campagne, ce qui les rend disponibles pour réutilisation dans de futures campagnes. En règle générale, il est connecté à d’autres activités de ciblage, telles que **[!UICONTROL Créer une audience]** ou **[!UICONTROL Combiner]**, pour enregistrer la population ciblée finale.
+Elle est généralement utilisée pour capturer des segments d’audience créés dans la même campagne, ce qui les rend disponibles pour réutilisation dans de futures campagnes. En règle générale, il est connecté à d’autres activités de ciblage, telles que **[!UICONTROL Créer une audience]** ou **[!UICONTROL Combiner]**, pour enregistrer la population ciblée finale.
 
 ## Configurer l’activité Enregistrer l’audience {#save-audience-configuration}
 
