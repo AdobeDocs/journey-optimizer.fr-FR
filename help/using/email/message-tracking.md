@@ -9,16 +9,20 @@ role: User
 level: Beginner, Intermediate
 keywords: liens, tracking, surveillance, e-mail
 exl-id: 689e630a-00ca-4893-8bf5-6d1ec60c52e7
-source-git-commit: c3513c087a05f2258e00fd4d80fdb23bedfd9188
+source-git-commit: 65a6afddfbc53afb88c6e69449720ac67f8f8f39
 workflow-type: tm+mt
-source-wordcount: '1214'
-ht-degree: 98%
+source-wordcount: '1274'
+ht-degree: 92%
 
 ---
 
 # Ajouter des liens et suivre les messages {#tracking}
 
 Utilisez [!DNL Journey Optimizer] pour ajouter des liens à votre contenu et suivre les messages envoyés afin de surveiller le comportement de vos destinataires.
+
+>[!NOTE]
+>
+>Lorsque des liens sont inclus dans votre contenu, ils expirent **25 mois** après l’envoi du message, à l’exception des liens vers une page miroir, qui expirent après **90 jours**. Une fois ce délai écoulé, les liens ne sont plus disponibles.
 
 ## Activation du suivi {#enable-tracking}
 
@@ -79,7 +83,7 @@ Pour insérer des liens dans le contenu de votre e-mail, procédez comme suit :
    >
    >Pour l’interprétation des URL, [!DNL Journey Optimizer] est conforme à la syntaxe URI ([norme RFC 3986](https://datatracker.ietf.org/doc/html/rfc3986){target="_blank"}), ce qui désactive certains caractères internationaux spéciaux dans les URL. Lors de l’envoi du BAT ou de l’e-mail, si une erreur impliquant une URL ajoutée à votre contenu vous est renvoyée, vous pouvez encoder la chaîne comme solution de contournement.
 
-1. Vous pouvez personnaliser vos liens. [En savoir plus](../personalization/personalization-syntax.md#perso-urls).
+1. Vous pouvez personnaliser vos liens. [En savoir plus](../personalization/personalization-build-expressions.md).
 
 1. Enregistrez vos modifications.
 
@@ -91,6 +95,7 @@ Pour insérer des liens dans le contenu de votre e-mail, procédez comme suit :
 >
 >Les e-mails de type marketing doivent inclure un [lien d’exclusion](../privacy/opt-out.md#opt-out-management), qui n’est pas obligatoire pour les messages transactionnels. La catégorie du message (**[!UICONTROL Marketing]** ou **[!UICONTROL Transactionnel]**) est définie au niveau de la [configuration des canaux](../configuration/channel-surfaces.md#email-type), lors de la création du message.
 
+Une fois le message envoyé, la période de conservation d’un lien est de **25 mois**. Passé ce délai, le lien n’est plus disponible.
 
 ## Lien vers une page miroir {#mirror-page}
 
@@ -104,7 +109,7 @@ Pour ajouter un lien vers une page miroir dans votre e-mail, [insérez un lien](
 
 La page miroir est automatiquement créée. Une fois l&#39;e-mail envoyé, lorsque les destinataires cliquent sur le lien de la page miroir, le contenu de l’email s&#39;affiche dans leur navigateur web par défaut.
 
-La période de conservation d’une page miroir est de **60 jours**. Une fois ce délai écoulé, la page miroir n’est plus disponible.
+La période de conservation d’une page miroir est de **90 jours**. Une fois ce délai écoulé, la page miroir n’est plus disponible.
 
 >[!CAUTION]
 >
@@ -177,7 +182,7 @@ La création de rapports sur les ouvertures et les clics est disponible dans le 
 
 Le [tracking des URL](email-settings.md#url-tracking) est géré au niveau de la configuration et s’applique à toutes les URL incluses dans le contenu de votre message.
 
-Vous pouvez également [personnaliser des URL individuelles](../personalization/personalization-syntax.md#perso-urls) dans le concepteur d’e-mail. Pour ajouter des paramètres de tracking d’URL personnalisés à vos liens, procédez comme suit.
+Vous pouvez également personnaliser des URL individuelles dans le Designer Email. Pour ajouter des paramètres de tracking d’URL personnalisés à vos liens, procédez comme suit.
 
 1. Sélectionnez un lien et cliquez sur **[!UICONTROL Insérer un lien]** dans la barre d’outils contextuelle.
 
@@ -185,7 +190,7 @@ Vous pouvez également [personnaliser des URL individuelles](../personalization/
 
    ![](assets/message-tracking-insert-link-perso.png)
 
-1. Ajoutez le paramètre de suivi des URL et sélectionnez l’attribut de profil de votre choix dans l’éditeur de personnalisation.
+1. Ajoutez le paramètre de tracking des URL et sélectionnez l’attribut de profil de votre choix dans l’[éditeur de personnalisation](../personalization/personalization-build-expressions.md).
 
    ![](assets/message-tracking-perso-parameter.png)
 
