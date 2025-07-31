@@ -9,10 +9,10 @@ role: User, Developer, Data Engineer
 level: Experienced
 keywords: sandbox, parcours, copier, environnement
 exl-id: 356d56a5-9a90-4eba-9875-c7ba96967da9
-source-git-commit: c90189d4b064e00bd2f2bdde67230aeb84dd97f6
+source-git-commit: f8134fd1e030fb969747a37acd657f62fd398c75
 workflow-type: tm+mt
-source-wordcount: '1595'
-ht-degree: 80%
+source-wordcount: '1701'
+ht-degree: 75%
 
 ---
 
@@ -62,13 +62,8 @@ Journey Optimizer permet d’exporter des parcours, des actions personnalisées,
 
    * Lors de la copie d’un parcours dans un autre sandbox, si vous sélectionnez « Utiliser existant » pour une action personnalisée au cours du processus d’import, l’action personnalisée existante que vous sélectionnez doit être identique à l’action personnalisée source (c’est-à-dire la même configuration, les mêmes paramètres, etc.). Dans le cas contraire, la nouvelle copie de parcours contiendra des erreurs qui ne pourront pas être résolues dans la zone de travail.
 
-<!--* **Data sources, field groups and events** - When copying a journey that uses events, data sources, or field groups, the import process automatically checks whether components with the same name and type already exist in the target sandbox.
+* **Sources de données, groupes de champs et événements** - Lors de la copie d’un parcours qui utilise des événements, des sources de données ou des groupes de champs, le processus d’importation vérifie automatiquement si des composants portant le même nom et du même type existent déjà dans le sandbox cible. Par exemple, un événement unitaire sera remplacé par un événement unitaire dans le sandbox cible portant le même nom. Il en va de même pour les événements métier, les sources de données personnalisées et les groupes de champs basés sur des API et des schémas utilisés dans les parcours. Si un événement unitaire provenant du sandbox source porte le même nom qu’un sandbox de destination d’événement métier, il n’est ni copié ni créé - Cela s’applique également à tous les autres composants.
 
-   * If a match is found, the existing components in the target sandbox are reused by the imported journey.
-   * If no match is found, the system creates new components.
-
-   This ensures that journeys relying on these elements remain functional after import, with minimal manual adjustment.
--->
 +++
 
 +++ Campagnes
