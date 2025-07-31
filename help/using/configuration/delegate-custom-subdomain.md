@@ -11,10 +11,10 @@ keywords: sous-domaine, délégation, domaine, DNS
 hide: true
 hidefromtoc: true
 exl-id: 34af1329-f0c8-4fcd-a284-f8f4214611d4
-source-git-commit: 7854de133ebcd3b29ca59b747aa89fae242f2ea5
+source-git-commit: 0490045a763876d3518e3db92e8427691044f6aa
 workflow-type: tm+mt
-source-wordcount: '736'
-ht-degree: 30%
+source-wordcount: '748'
+ht-degree: 29%
 
 ---
 
@@ -88,6 +88,10 @@ Pour configurer un sous-domaine personnalisé, procédez comme suit.
 1. Cliquez sur **[!UICONTROL Télécharger la CSR]** et enregistrez le formulaire sur votre ordinateur local. Envoyez-le à l’autorité de certification pour obtenir votre certificat SSL.
 
 1. Une fois récupéré, cliquez sur **[!UICONTROL Télécharger le certificat SSL]** et téléchargez le certificat vers [!DNL Journey Optimizer] au format .pem.
+
+   >[!CAUTION]
+   >
+   >Les sous-domaines de données et de réseau CDN doivent être inclus dans le même certificat.
 
 ## Suivre les étapes de la boucle de commentaires {#feedback-loop-steps}
 
