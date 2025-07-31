@@ -57,7 +57,7 @@ Pour ajouter des cartes de contenu à un parcours, procédez comme suit :
       | Cycle de vie de l’application | Fermeture de l’application | Déclenchée lorsque l’application est fermée. |
       | Cycle de vie de l’application | Crash de l‘application | Déclenché lorsque l’application n’est pas mise en arrière-plan avant sa fermeture. L’événement est envoyé au démarrage de l’application après son crash. La création de rapports de crash d’Adobe Mobile n’implémente pas un gestionnaire global d’exceptions non interceptées. |
 
-+++
+      +++
 
    1. Choisissez la condition **[!UICONTROL Ou]** si vous souhaitez ajouter d’autres **[!UICONTROL Déclencheurs]** pour développer davantage votre règle.
 
@@ -82,7 +82,7 @@ Pour ajouter des cartes de contenu à un parcours, procédez comme suit :
       | Cycle de vie de l’application | Lancements | Déclenché lorsque le nombre spécifié de lancements est atteint. |
       | Cycle de vie de l’application | Heure | Déclenché lorsque l’heure spécifiée du jour est atteinte. |
 
-+++
+      +++
 
    1. Cliquez sur **[!UICONTROL Créer un groupe]** pour regrouper les déclencheurs.
 
@@ -140,7 +140,7 @@ Pour commencer à créer vos cartes de contenu par le biais d’une campagne, su
       | Cycle de vie de l’application | Fermeture de l’application | Déclenchée lorsque l’application est fermée. |
       | Cycle de vie de l’application | Crash de l‘application | Déclenché lorsque l’application n’est pas mise en arrière-plan avant sa fermeture. L’événement est envoyé au démarrage de l’application après son crash. La création de rapports de crash d’Adobe Mobile n’implémente pas un gestionnaire global d’exceptions non interceptées. |
 
-+++
+      +++
 
    1. Choisissez la condition **[!UICONTROL Ou]** si vous souhaitez ajouter d’autres **[!UICONTROL Déclencheurs]** pour développer davantage votre règle.
 
@@ -165,7 +165,7 @@ Pour commencer à créer vos cartes de contenu par le biais d’une campagne, su
       | Cycle de vie de l’application | Lancements | Déclenché lorsque le nombre spécifié de lancements est atteint. |
       | Cycle de vie de l’application | Heure | Déclenché lorsque l’heure spécifiée du jour est atteinte. |
 
-+++
+      +++
 
    1. Cliquez sur **[!UICONTROL Créer un groupe]** pour regrouper les déclencheurs.
 
