@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: liste de contrôle, contrôle, configuration
 exl-id: 0172f6bc-da8b-4a83-a0fc-4ed41324568f
-source-git-commit: 528e1a54dd64503e5de716e63013c4fc41fd98db
-workflow-type: ht
-source-wordcount: '959'
-ht-degree: 100%
+source-git-commit: 1cca05a4f7590f42c1ed5104cb530930e139b2b9
+workflow-type: tm+mt
+source-wordcount: '985'
+ht-degree: 97%
 
 ---
 
@@ -155,5 +155,7 @@ Maintenant que votre liste de contrôle est créée, vous pouvez l’utiliser da
 Désormais, chaque fois qu’un e-mail est envoyé à vos clientes et clients par le biais de cette campagne ou de ce parcours, les adresses e-mail de la liste de contrôle sélectionnée le reçoivent également dans les mêmes conditions, en même temps et avec le même contenu que les personnes destinataires ciblées.
 
 >[!NOTE]
+>
+>[Mode test](../building-journeys/testing-the-journey.md) les parcours n’envoient pas d’e-mails à la liste de contrôle. Pour vérifier le contenu de votre e-mail, utilisez la fonctionnalité [prévisualisation et test](../content-management/preview-test.md) avant d’envoyer votre message.
 >
 >Pour les parcours récurrents, la diffusion par e-mail est envoyée aux adresses de contrôle à chaque exécution du parcours, à condition qu’au moins un profil atteigne le nœud d’e-mail.
