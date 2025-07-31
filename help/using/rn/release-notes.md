@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Notes de mise à jour d’Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 45870255078af7b374cf4a63f72bc94d53581bcb
+source-git-commit: 382962876824058a7267143436c02d39dbc42b20
 workflow-type: tm+mt
-source-wordcount: '1888'
-ht-degree: 72%
+source-wordcount: '1957'
+ht-degree: 70%
 
 ---
 
@@ -28,7 +28,7 @@ ht-degree: 72%
 <!--
 **Pre release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published at the release date.
 
-See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/fr/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
+See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
 
 **Date de publication** : mercredi 29 juillet 2025
 
@@ -74,25 +74,22 @@ Les nouvelles fonctionnalités de cette version sont présentées ci-dessous.
 </tbody>
 </table>
 
-<!--
 <table>
 <thead>
 <tr>
-<th><strong>Use Experience Decisioning in email channel</strong><br/></th>
+<th><strong>Utilisation d’Experience Decisioning dans le canal e-mail</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>You can now add Decision policies into email journeys and campaigns. Decision policies are containers for your offers that leverage the Decisioning engine to dynamically return the best content to deliver for each audience member.</p>
-<p>This capability is currently unavailable for use with the Healthcare Shield, and with the Privacy and Security Shield (Limited Availability).</p>
-<p>img src="assets/do-not-localize/FILE.gif"/></p>
-For more information, refer to the <a href="../FILE.md">detailed documentation</a></p>
+<p>Vous pouvez désormais ajouter des politiques de décision dans des parcours et des campagnes par e-mail. Les politiques de décision sont des conteneurs pour vos offres qui s’appuient sur le moteur de prise de décision pour renvoyer de manière dynamique le meilleur contenu à diffuser pour chaque membre de l’audience.</p>
+<p>Cette fonctionnalité n’est actuellement pas disponible pour être utilisée avec Healthcare Shield et Privacy and Security Shield (disponibilité limitée).</p>
+Pour plus d’informations, consultez la <a href="../experience-decisioning/create-decision.md">documentation détaillée</a></p>
 </td>
 </tr>
 </tbody>
 </table>
--->
 
 <!--
 <table>
@@ -268,7 +265,7 @@ Les améliorations de cette version sont présentées ci-dessous.
 
 **Date de publication** : 18 juin 2025
 
-<!--See also [Adobe Experience Platform Pre Release Notes](https://experienceleague.adobe.com/fr/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
+<!--See also [Adobe Experience Platform Pre Release Notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
 
 ### Nouvelles fonctionnalités {#25-06-features}
 
