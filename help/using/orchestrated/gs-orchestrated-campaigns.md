@@ -7,10 +7,10 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: 611dd06d-aa18-4fa3-a477-8a910cec21d8
-source-git-commit: 3be1b238962fa5d0e2f47b64f6fa5ab4337272a5
+source-git-commit: 458e0b19725147e0a3ad34891ca55b61f1ac44a8
 workflow-type: tm+mt
 source-wordcount: '628'
-ht-degree: 11%
+ht-degree: 10%
 
 ---
 
@@ -81,14 +81,14 @@ Si vous ne parvenez pas à accéder aux fonctionnalités de Campaign orchestrée
 
 ➡️ [En savoir plus sur les profils de produit liés aux campagnes orchestrées](../administration/ootb-product-profiles.md)
 
-## Explorons plus en détail
+## Explorons plus en détail.
 
 Maintenant que vous avez une compréhension de ce que sont les campagnes orchestrées, il est temps d’examiner plus en détail ces sections de documentation pour commencer à utiliser la fonctionnalité.
 
 <table><tr style="border: 0; text-align: center;">
 <td>
 <a href="gs-campaign-creation.md">
-<img alt="Accéder et gérer des workflows" src="assets/do-not-localize/workflow-access.jpeg">
+<img alt="Accéder aux campagnes et les gérer" src="assets/do-not-localize/workflow-access.jpeg">
 </a>
 <div>
 <a href="gs-campaign-creation.md"><strong>Étapes de configuration</strong></a>

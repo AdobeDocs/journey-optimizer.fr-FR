@@ -7,10 +7,10 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: 0d5cfffe-bc6c-40bc-b3e1-5b44368ac76f
-source-git-commit: 3be1b238962fa5d0e2f47b64f6fa5ab4337272a5
+source-git-commit: 458e0b19725147e0a3ad34891ca55b61f1ac44a8
 workflow-type: tm+mt
-source-wordcount: '660'
-ht-degree: 83%
+source-wordcount: '654'
+ht-degree: 75%
 
 ---
 
@@ -73,8 +73,7 @@ La **[!UICONTROL Réconciliation]** nécessite que les enregistrements associés
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_reconciliation_rules"
 >title="Règles de réconciliation"
->abstract="Sélectionnez les règles de réconciliation à utiliser pour la déduplication. Pour utiliser des attributs, sélectionnez l’option **Attributs simples** et choisissez les champs source et de destination. Pour créer votre propre condition de réconciliation à l’aide du concepteur de requête, sélectionnez l’option **Conditions de réconciliation avancées**."
->additional-url="https://experienceleague.adobe.com/fr/docs/campaign-web/v8/query-database/query-modeler-overview" text="Utiliser le concepteur de requête"
+>abstract="Sélectionnez les règles de réconciliation à utiliser pour la déduplication. Pour utiliser des attributs, sélectionnez l’option **Attributs simples** et choisissez les champs source et de destination. Pour créer votre propre condition de réconciliation à l’aide du créateur de règles, sélectionnez l’option **Conditions avancées de réconciliation**."
 
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_reconciliation_targeting_selection"
@@ -94,7 +93,7 @@ La **[!UICONTROL Réconciliation]** nécessite que les enregistrements associés
 
 Pour configurer l’activité **[!UICONTROL Réconciliation]**, procédez comme suit :
 
-1. Ajoutez une activité **[!UICONTROL Réconciliation]** dans votre workflow.
+1. Ajoutez une activité **[!UICONTROL Réconciliation]** à la zone de travail.
 
 1. Choisissez une nouvelle dimension de ciblage pour définir les personnes à cibler, telles que les personnes destinataires ou abonnées.
 
@@ -114,9 +113,9 @@ Pour configurer l’activité **[!UICONTROL Réconciliation]**, procédez comme 
 
 1. Pour ajouter d’autres règles correspondantes, cliquez sur **[!UICONTROL Ajouter une règle]**. Toutes les conditions doivent être remplies pour qu’une correspondance soit trouvée.
 
-1. Pour les conditions plus complexes, choisissez **[!UICONTROL Conditions avancées de réconciliation]**. Utilisez le [concepteur de requête](../orchestrated-rule-builder.md) pour définir une logique personnalisée.
+1. Pour les conditions plus complexes, choisissez **[!UICONTROL Conditions avancées de réconciliation]**. Utilisez le [créateur de règles](../orchestrated-rule-builder.md) pour définir une logique personnalisée.
 
-1. Pour filtrer les données à réconcilier, cliquez sur **[!UICONTROL Créer un filtre]** et définissez votre condition dans le concepteur de requête.
+1. Pour filtrer les données à réconcilier, cliquez sur **[!UICONTROL Créer un filtre]** et définissez votre condition dans le créateur de règles.
 
 1. Par défaut, les enregistrements qui n’ont pas été mis en correspondance sont conservés dans la transition sortante et stockés dans la table de travail. Pour les supprimer, activez l’option **[!UICONTROL Conserver les données non réconciliées]**.
 
