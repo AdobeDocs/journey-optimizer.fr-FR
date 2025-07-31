@@ -10,9 +10,9 @@ role: Data Engineer
 level: Intermediate
 keywords: expression, éditeur
 exl-id: 2fc10fdd-ca9e-46f0-94ed-2d7ea4de5baf
-source-git-commit: 7e378cbda6ee2379a8bd795588c328cb14107aa4
-workflow-type: ht
-source-wordcount: '849'
+source-git-commit: 07e855b1a334a226c34223e5dd034f88733d6e2e
+workflow-type: tm+mt
+source-wordcount: '779'
 ht-degree: 100%
 
 ---
@@ -33,21 +33,6 @@ Avant de commencer, consultez les restrictions et les directives suivantes :
 
 * **Canaux pris en charge** : pour l’instant, cette fonctionnalité n’est disponible que pour une utilisation dans les canaux e-mail, SMS et courrier.
 * **Fragments** : pour le moment, la personnalisation de la recherche de jeux de données ne peut pas être placée dans des fragments d’expression ou visuels.
-
-### Prise de décision {#decisioning}
-
-La possibilité d’exploiter des jeux de données [!DNL Adobe Experience Platform] dans les formules et les règles de classement des Décisions pour les expériences sera bientôt disponible.
-
-En attendant, veuillez consulter les mécanismes de sécurisation actuels décrits ci-dessous :
-
-* Une politique de décision est limitée à 3 jeux de données.
-* Une règle de décision peut utiliser 3 jeux de données.
-* Une formule de classement peut utiliser 3 jeux de données.
-* Une politique de décision est limitée à 1 000 requêtes d’enregistrement.
-
->[!NOTE]
->
->Si vous souhaitez accéder à cette fonctionnalité, contactez votre représentant ou représentante de compte.
 
 ## Activer un jeu de données pour la recherche de données {#enable}
 
