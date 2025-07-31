@@ -120,7 +120,7 @@ Pour présenter la meilleure offre et la meilleure expérience dynamique aux des
 
 +++
 
-   +++Menu Email Designer **[!UICONTROL Prise de décision]**
+   Menu +++Email Designer **[!UICONTROL Prise de décision]**
 
    1. Sélectionnez un composant, cliquez sur l’icône **[!UICONTROL Prise de décision]** dans la barre d’outils ou le volet des propriétés, puis sélectionnez **[!UICONTROL Ajouter une nouvelle politique]**.
 
@@ -128,7 +128,7 @@ Pour présenter la meilleure offre et la meilleure expérience dynamique aux des
 
       ![](assets/decision-policy-email-designer.png)
 
-   +++
++++
 
 1. Attribuez un nom et sélectionnez un catalogue (actuellement limité au catalogue par défaut **[!UICONTROL Offres]**).
 
@@ -236,7 +236,7 @@ Offre 5 - 50
 
      Les offres classées sont désormais les suivantes : offre 5 , offre 3, offre 4, offre 2, offre 1 et offre 6.
 
-   +++
++++
 
 1. Cliquez sur **[!UICONTROL Suivant]**.
 
@@ -291,13 +291,13 @@ Une fois créée, la politique de décision et les attributs liés aux élément
 
    ![](assets/decision-policy-placement.png)
 
-   +++
++++
 
    +++Insérer le code de la politique de décision dans l’expérience basée sur le code
 
    ![](assets/decision-code-based-add-decision.png)
 
-   +++
++++
 
    >[!NOTE]
    >
@@ -314,7 +314,7 @@ Vous pouvez désormais ajouter tous les attributs de décision que vous souhaite
 >[!NOTE]
 >
 >Pour le suivi des éléments de la politique de décision, l’attribut `trackingToken` doit être ajouté comme suit pour le contenu de la politique de décision :
->&#x200B;>`trackingToken: {{item._experience.decisioning.decisionitem.trackingToken}}`
+>>`trackingToken: {{item._experience.decisioning.decisionitem.trackingToken}}`
 
 1. Cliquez sur chaque dossier pour le développer. Placez le curseur de votre souris à l’emplacement souhaité, puis cliquez sur l’icône + en regard de l’attribut à ajouter. Vous pouvez ajouter au code autant d’attributs que vous le souhaitez.
 
