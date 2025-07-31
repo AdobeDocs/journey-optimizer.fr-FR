@@ -5,10 +5,10 @@ user-guide-title: Guide de Journey Optimizer
 user-guide-description: Utilisez Journey Optimizer pour créer et proposer aux clients des expériences connectées, contextuelles et personnalisées
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 1e36871c2c975c81d018fabb3cff51d11c98962e
+source-git-commit: 29532b5ebd140f9609a29c1375ceedecf55d0dfb
 workflow-type: tm+mt
-source-wordcount: '2592'
-ht-degree: 95%
+source-wordcount: '2594'
+ht-degree: 97%
 
 ---
 
@@ -43,7 +43,7 @@ ht-degree: 95%
    + [Bonnes pratiques](using/start/best-practices.md)
 + Parcours {#orchestrate-journeys}
    + [Commencer les parcours](using/building-journeys/journey.md)
-   + Créer un parcours{#create-journey}
+   + Créer un parcours {#create-journey}
       + [Créer votre premier parcours](using/building-journeys/journey-gs.md)
       + [Définir les propriétés de votre parcours](using/building-journeys/journey-properties.md)
       + [Configurer et suivre les mesures de votre parcours](using/building-journeys/success-metrics.md)
@@ -53,7 +53,7 @@ ht-degree: 95%
       + [Publier votre parcours](using/building-journeys/publishing-the-journey.md)
       + [Mettre un parcours en pause](using/building-journeys/journey-pause.md)
       + [Rapport dynamique dans votre parcours](using/building-journeys/report-journey.md)
-   + Gérer vos parcours{#manage-journey}
+   + Gérer vos parcours {#manage-journey}
       + [Parcourir et filtrer vos parcours](using/building-journeys/journey-ui.md)
       + [Entrée de profil dans les parcours](using/building-journeys/entry-management.md)
       + [Identifiant supplémentaire dans les parcours déclenchés par un événement](using/building-journeys/supplemental-identifier.md)
@@ -191,7 +191,7 @@ ht-degree: 95%
       + [Définir l’audience de la campagne](using/campaigns/campaign-audience.md)
       + [Planifier la campagne](using/campaigns/campaign-schedule.md)
       + [Vérifier et activer une campagne d’action](using/campaigns/review-activate-campaign.md)
-   + Campagnes déclenchées par l’API {#api-triggered-campaigns}
+   + Campagnes déclenchées par API {#api-triggered-campaigns}
       + [Utiliser des campagnes déclenchées par API](using/campaigns/api-triggered-campaigns.md)
       + [Définir les propriétés de la campagne](using/campaigns/api-triggered-campaign-properties.md)
       + [Configurer l’action de campagne](using/campaigns/api-triggered-campaign-action.md)
@@ -452,7 +452,7 @@ Définissez les règles de limitation des messages et des parcours {#capping-rul
       + [Expérience de contenu avec l’IA](using/content-management/generative-experimentation.md)
       + [Page de destination avec I’lA](using/content-management/generative-lp.md)
       + [Cas d’utilisation de l’Assistant IA](using/content-management/generative-uc.md)
-      + Marques (version Beta){#brands}
+      + Marques {#brands}
          + [Créer et gérer vos marques](using/content-management/brands.md)
          + [Évaluer le score d’alignement de votre marque](using/content-management/brands-score.md)
    + Contenu multilingue{#content-multilingual}
@@ -585,6 +585,7 @@ Définissez les règles de limitation des messages et des parcours {#capping-rul
             + [Modèle dʼoptimisation automatique](using/experience-decisioning/ranking/auto-optimization-model.md)
             + [Modèle d’optimisation personnalisé](using/experience-decisioning/ranking/personalized-optimization-model.md)
             + [Créer des modèles d’IA](using/experience-decisioning/ranking/create-ai-models.md)
+      + [Utilisation des emplacements](using/experience-decisioning/placements.md)
       + Utiliser des données Adobe Experience Platform {#aep-data}
          + [Utiliser des données contextuelles](using/experience-decisioning/context-data.md)
          + [Utiliser Adobe Experience Platform pour la prise de décision](using/experience-decisioning/aep-data-exd.md)

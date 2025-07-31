@@ -9,10 +9,10 @@ role: User
 level: Beginner
 keywords: créer, e-mail, commencer, parcours, campagne
 exl-id: c77dc420-a375-4376-ad86-ac740e214c3c
-source-git-commit: 22a8742bf9000ed1cc8437d7ac89747276284dbf
-workflow-type: ht
-source-wordcount: '965'
-ht-degree: 100%
+source-git-commit: 29532b5ebd140f9609a29c1375ceedecf55d0dfb
+workflow-type: tm+mt
+source-wordcount: '1033'
+ht-degree: 89%
 
 ---
 
@@ -84,7 +84,17 @@ Pour plus d’informations sur la configuration d’une campagne, consultez cett
 
    ![](assets/email_campaign_edit_content.png)
 
-   Dans la section **[!UICONTROL En-tête]** de l’écran **[!UICONTROL Modifier le contenu]**, les champs **[!UICONTROL Nom de l’expéditeur ou de l’expéditrice]**, **[!UICONTROL E-mail de l’expéditeur ou de l’expéditrice]** et **[!UICONTROL Cci]** sont configurés dans la configuration de canal e-mail que vous avez sélectionnée. [En savoir plus](email-settings.md) <!--check if same for journey-->
+1. Activez le bouton **[!UICONTROL Activer la prise de décision]** si vous souhaitez ajouter des politiques de décision dans votre e-mail.
+
+   Les politiques de décision sont des conteneurs pour vos offres qui s’appuient sur le moteur de prise de décision pour renvoyer de manière dynamique le meilleur contenu à diffuser pour chaque membre de l’audience. [Découvrez comment ajouter une politique de décision dans un email](../experience-decisioning/create-decision.md#add)
+
+   ![](assets/../../experience-decisioning/assets/decision-policy-enable.png)
+
+   >[!AVAILABILITY]
+   >
+   >Pour l’instant, la création de politique de décision dans les e-mails n’est pas disponible pour les organisations qui ont acheté les offres complémentaires Adobe Healthcare Shield ou Privacy and Security Shield .
+
+1. Dans la section **[!UICONTROL En-tête]**, vérifiez les champs **[!UICONTROL Nom de l’expéditeur]**, **[!UICONTROL E-mail de l’expéditeur]** et **[!UICONTROL Cci]**. Ils sont configurés dans la configuration d’e-mail que vous avez sélectionnée. [En savoir plus](email-settings.md) <!--check if same for journey-->
 
    ![](assets/email_designer_edit_content_header.png)
 
@@ -92,9 +102,7 @@ Pour plus d’informations sur la configuration d’une campagne, consultez cett
 
    >[!NOTE]
    >
-   >* La ligne d’objet est obligatoire.
-   >
-   >* L’objet ne doit pas inclure de sauts de ligne.
+   >L’objet est obligatoire. Il ne doit pas inclure de sauts de ligne.
 
 1. Cliquez sur le bouton **[!UICONTROL Modifier le corps de l’e-mail]** pour accéder au Concepteur d’e-mail et commencer à créer votre contenu. [En savoir plus](get-started-email-design.md)
 

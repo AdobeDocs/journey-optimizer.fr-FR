@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 4c57dbf9-b2a4-42da-8aa3-5a1b3a475a32
-source-git-commit: 58f4fdf8ec3cdb609efebf5b8713f6b770ef5414
-workflow-type: ht
-source-wordcount: '516'
-ht-degree: 100%
+source-git-commit: 29532b5ebd140f9609a29c1375ceedecf55d0dfb
+workflow-type: tm+mt
+source-wordcount: '519'
+ht-degree: 93%
 
 ---
 
@@ -82,7 +82,7 @@ Les principales étapes pour utiliser la prise de décision sont les suivantes 
 
    ➡️ [Découvrez comment créer des stratégies de sélection](selection-strategies.md) dans l’interface d’utilisation (et dans la documentation de l’[API](api-reference/selection-strategies/create.md)).
 
-1. **Créez une politique de décision et incorporez-la dans votre campagne basée sur du code** : les politiques de décision combinent plusieurs stratégies de sélection pour déterminer les éléments de décision éligibles à afficher pour l’audience prévue.
+1. **Créez une politique de décision et incorporez-la dans votre parcours/campagne basé sur le code ou par e-mail** : les politiques de décision combinent plusieurs stratégies de sélection pour déterminer les éléments de décision éligibles à afficher à l’audience prévue.
 
    ➡️ [Découvrez comment utiliser les politiques de décision](create-decision.md)
 ➡️ Pour diffuser l’offre par l’intermédiaire du canal d’expérience basé sur du code, suivez les étapes d’implémentation de [cette section](../code-based/code-based-implementation-samples.md).
