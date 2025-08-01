@@ -8,9 +8,9 @@ role: Admin
 level: Intermediate
 exl-id: d6f74566-c913-4727-83b9-473a798a0158
 source-git-commit: 604af3a0ac9febb62f2e2b1705e2751b2c476e04
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '422'
+ht-degree: 100%
 
 ---
 
@@ -46,11 +46,11 @@ Après avoir créé et configuré vos informations d’identification de l’API
 
 Les messages RCS sont pris en charge dans Adobe Journey Optimizer via Twilio à l’aide de la fonctionnalité [Fournisseur de SMS personnalisé](sms-configuration-custom.md). Cela permet de diffuser des messages riches et interactifs par le biais de profils professionnels vérifiés, en incorporant des éléments tels que des carrousels, des boutons et du contenu multimédia.
 
-➡️ [Découvrez comment Twilio prend en charge RCS dans la documentation Twilio](https://www.twilio.com/docs/rcs)
+➡️ [Découvrez dans la documentation Twilio comment Twilio prend en charge RCS](https://www.twilio.com/docs/rcs)
 
 Pour activer la messagerie RCS avec Twilio, les nouvelles informations d’identification d’API doivent être configurées via un fournisseur de SMS personnalisé. Les informations d’identification SMS Twilio existantes ne sont pas compatibles, car RCS nécessite un format de payload distinct.
 
-Pour configurer RCS avec Twilio :
+Pour configurer RCS avec Twilio :
 
 1. **S’inscrire à la messagerie RCS dans Twilio**
 

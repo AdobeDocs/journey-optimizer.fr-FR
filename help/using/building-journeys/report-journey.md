@@ -10,15 +10,15 @@ level: Intermediate
 keywords: publication, parcours, dynamique, validité, vérifier
 exl-id: 186b061d-0941-48be-8917-bbdfff6dae90
 source-git-commit: 62525caa9b065538c090b98d38c15dbd960dafe7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '402'
-ht-degree: 70%
+ht-degree: 100%
 
 ---
 
 # Rapport dynamique dans la zone de travail du parcours {#report-journey}
 
-Une fois votre parcours publié, une fois le [mode d’exécution d’essai](journey-dry-run.md) activé, **Rapports dynamiques** fournit les mesures des dernières 24 heures, directement dans la zone de travail du parcours.
+Une fois votre parcours publié et une fois le [mode Test à blanc](journey-dry-run.md) activé, la fonction **Rapports dynamiques** fournit les mesures des dernières 24 heures, directement dans la zone de travail du parcours.
 
 
 >[!AVAILABILITY]
@@ -30,7 +30,7 @@ Les événements affichés se sont produits au cours des dernières 24 heures, 
 
 ![](assets/journey_live_report.png)
 
-Pour vos parcours en mode d’exécution Live ou [Dry](journey-dry-run.md), vous pouvez vérifier les éléments suivants :
+Pour vos parcours actifs ou en mode [Test à blanc](journey-dry-run.md), vous pouvez vérifier les éléments suivants :
 
 * **[!UICONTROL Profils entrés]** : nombre total de personnes ayant rejoint le parcours.
 * **[!UICONTROL Profils sortis]** : nombre total de personnes ayant quitté le parcours (y compris les erreurs).
@@ -42,18 +42,18 @@ Pour vos parcours en mode d’exécution Live ou [Dry](journey-dry-run.md), vous
    * Sur les parcours **récurrents**, un rejet est comptabilisé à chaque périodicité si la personne figure déjà dans le parcours et que la politique de rentrée n’est pas définie sur « Forcer une rentrée ».
    * Sur les activités **Lecture d’audience**, un rejet survient si aucune identité n’est définie pour la personne exportée ou si l’espace de noms d’identité reçu ne correspond pas à celui attendu pour le parcours.
 
-Pour chaque activité de chaque parcours en mode d’exécution actif ou [essai](journey-dry-run.md), vous avez accès aux éléments suivants :
+Pour chaque activité de chaque parcours actif ou en [mode Test à blanc](journey-dry-run.md), vous avez accès aux éléments suivants :
 
-* **[!UICONTROL Entrées]** : nombre total de personnes ayant participé à cette activité. Pour les activités **Action**, étant donné qu’elles ne sont pas exécutées en mode d’exécution d’essai, cette mesure indique le passage des profils.
-* **[!UICONTROL Sorti (satisfait aux critères de sortie)]** : nombre total de personnes ayant quitté le parcours de cette activité en raison d’un critère de sortie (y compris les erreurs).
+* **[!UICONTROL Entrées]** : nombre total de personnes qui ont atteint cette activité. Pour les activités **Action**, étant donné qu’elles ne sont pas exécutées en mode Test à blanc, cette mesure indique les profils qui passent par celles-ci.
+* **[!UICONTROL Sorties (critères de sortie remplis)]** : nombre total de personnes ayant quitté le parcours de cette activité en raison d’un critère de sortie (y compris les erreurs).
 * **[!UICONTROL Sorties (sorties forcées)]** : nombre total de personnes ayant quitté le parcours alors qu’il était en pause en raison d’une configuration opérée par la personne responsable du parcours. Cette mesure est toujours égale à zéro pour les parcours en mode Test à blanc.
 * **[!UICONTROL Erreur]** : nombre total de personnes ayant rencontré une erreur pour cette activité.
 
 
 >[!MORELIKETHIS]
 >
->* [Prise en main du reporting](../reports/gs-reports.md)
->* [Publier votre parcours ](publishing-the-journey.md)
->* [Exécution d’essai de Parcours ](journey-dry-run.md)
->* [Configurer et suivre les mesures de parcours ](success-metrics.md)
->* [ Rapports de parcours personnalisés ](../reports/sharing-overview.md)
+>* [Commencer la création de rapports](../reports/gs-reports.md)
+>* [Publier votre parcours](publishing-the-journey.md)
+>* [Test à blanc d’un parcours](journey-dry-run.md)
+>* [Configurer et suivre les mesures de votre parcours](success-metrics.md)
+>* [Rapports sur les parcours personnalisés](../reports/sharing-overview.md)

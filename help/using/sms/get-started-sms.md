@@ -9,9 +9,9 @@ role: User
 level: Beginner
 exl-id: c1027268-0bbe-4e35-a5a6-2aef78083dd3
 source-git-commit: b5ea41cec72fb80dd2fcc3aa467e80cd293fd239
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '266'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -68,26 +68,26 @@ Adobe Journey Optimizer envoie des messages texte par le biais de fournisseurs
 
 * La vidéo ci-dessous vous montre comment configurer, créer et inclure des SMS dans vos parcours clients.
 
-  +++Voir la vidéo
+  +++Regarder la vidéo
 
-  >[!VIDEO](https://video.tv.adobe.com/v/3422694?learn=on&captions=fre_fr)
+  >[!VIDEO](https://video.tv.adobe.com/v/3420509?learn=on)
 
-  +++
++++
 
 * La vidéo ci-dessous vous aide à mieux comprendre les fonctionnalités mobiles qu’Adobe Journey Optimizer propose aux personnes spécialisées dans le marketing.
 
 
-  +++Voir la vidéo
+  +++Regarder la vidéo
 
-  >[!VIDEO](https://video.tv.adobe.com/v/3430372?quality=12&learn=on&captions=fre_fr)
+  >[!VIDEO](https://video.tv.adobe.com/v/3426021?quality=12&learn=on)
 
-  +++
++++
 
-* La vidéo ci-dessous vous aide à configurer et à envoyer des messages RCS interactifs de marque dans Adobe Journey Optimizer à l’aide d’un fournisseur de SMS personnalisé.
+* La vidéo ci-dessous vous explique comment configurer et envoyer des messages RCS interactifs d’une marque dans Adobe Journey Optimizer à l’aide d’un fournisseur de SMS personnalisé.
 
 
-  +++Voir la vidéo
+  +++Regarder la vidéo
 
-  >[!VIDEO](https://video.tv.adobe.com/v/3464757?captions=fre_fr)
+  >[!VIDEO](https://video.tv.adobe.com/v/3464755)
 
-  +++
++++

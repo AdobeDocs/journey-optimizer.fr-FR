@@ -10,9 +10,9 @@ level: Experienced
 keywords: action, tiers, personnalisé, parcours, API
 exl-id: 4df2fc7c-85cb-410a-a31f-1bc1ece237bb
 source-git-commit: f5baa901c4f9d1061837528007b2c3f048ecbf2a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1704'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -190,4 +190,4 @@ Dans la configuration des champs, vous devez procédez comme suit :
 
 ## Résolution des problèmes
 
-Découvrez comment dépanner une action personnalisée [sur cette page dédiée](../action/troubleshoot-custom-action.md).
+Découvrez comment résoudre les problèmes liés à une action personnalisée [dans cette page dédiée](../action/troubleshoot-custom-action.md).

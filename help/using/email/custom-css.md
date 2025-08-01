@@ -10,9 +10,9 @@ level: Intermediate
 keywords: css, éditeur, résumé, e-mail
 exl-id: e4645bc7-fb99-4fcc-8d0e-bf8b9efc828e
 source-git-commit: 5593758448216efcc82971b1072b7fc8c9303572
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '733'
-ht-degree: 85%
+ht-degree: 100%
 
 ---
 
@@ -39,7 +39,7 @@ Pour ajouter un fichier CSS personnalisé au contenu de votre e-mail, procédez 
    >
    >La section **[!UICONTROL Styles CSS]** n’est disponible que lorsque du contenu est déjà présent dans l’éditeur.
 
-1. Cliquez sur le bouton **[!UICONTROL Ajouter un CSS personnalisé]**.
+1. Cliquez sur le bouton **[!UICONTROL Ajouter un fichier CSS personnalisé]**.
 
    >[!NOTE]
    >
@@ -51,7 +51,7 @@ Pour ajouter un fichier CSS personnalisé au contenu de votre e-mail, procédez 
 
    >[!NOTE]
    >
-   >Lors de l’utilisation d’un [modèle avec du contenu verrouillé](../content-management/content-locking.md#use), vous ne pouvez pas ajouter de CSS personnalisé à votre contenu. Le libellé du bouton se transforme en **[!UICONTROL Afficher le CSS personnalisé]** et tout CSS personnalisé déjà présent dans le contenu est en lecture seule.
+   >Lorsque vous utilisez un [modèle avec du contenu verrouillé](../content-management/content-locking.md#use), vous ne pouvez pas ajouter de CSS personnalisé à votre contenu. Le libellé du bouton se transforme en **[!UICONTROL Afficher le CSS personnalisé]** et tout CSS personnalisé déjà présent dans le contenu est en lecture seule.
 
 1. Enregistrez votre CSS personnalisé et vérifiez qu’il s’applique correctement à votre contenu. Si ce n’est pas le cas, consultez la section [Dépannage](#troubleshooting).
 
@@ -143,7 +143,7 @@ Vous trouverez ci-dessous des exemples de CSS valide.
 +++
 
 
-+++ Exemples de CSS non valides
++++ Exemples de CSS non valide
 
 Si le code CSS saisi n’est pas valide, un message d’erreur s’affiche, indiquant qu’il ne peut pas être enregistré. Vous trouverez ci-dessous des exemples de CSS non valides.
 
@@ -214,7 +214,7 @@ Votre CSS personnalisé est ajouté à la fin de la section `<head>` dans le cad
 
 Le CSS personnalisé n’est pas interprété ni validé par le volet **[!UICONTROL Paramètres]** du concepteur d’e-mail. Il est entièrement indépendant et ne peut être modifié que par l’intermédiaire de l’option **[!UICONTROL Ajouter un fichier CSS personnalisé]**.
 
-### Mécanismes de sécurisation - Contenu importé
+### Mécanismes de sécurisation : contenu importé
 
 Si vous souhaitez utiliser un CSS personnalisé avec du contenu importé dans le concepteur d’e-mail, tenez compte des points suivants :
 
@@ -231,9 +231,9 @@ Si votre CSS personnalisé n’est pas appliqué, consultez les options ci-desso
 
 * Vérifiez que votre CSS est valide et ne comporte pas d’erreurs de syntaxe (par exemple, des accolades manquantes ou des noms de propriété incorrects). [Voici comment procéder](#use-valid-css)
 
-* Assurez-vous que votre CSS est ajouté à la balise `<style>` avec l’attribut `data-name="global-custom"`.
+* Vérifiez que votre CSS est ajouté à la balise `<style>` avec l’attribut `data-name="global-custom"`.
 
-* Vérifiez si la balise de style de `global-custom` possède l’attribut `data-disabled` défini sur `true`. Si c’est le cas, le code CSS personnalisé n’est pas appliqué.
+* Vérifiez si l’attribut `data-disabled` de la balise de style `global-custom` est défini sur `true`. Si c’est le cas, le CSS personnalisé n’est pas appliqué.
 
 +++ Par exemple :
 
@@ -247,7 +247,7 @@ Si votre CSS personnalisé n’est pas appliqué, consultez les options ci-desso
 
    * Utilisez les outils de développement de votre navigateur pour inspecter le contenu et vérifier que votre CSS cible les sélecteurs appropriés.
 
-   * Pensez à ajouter des `!important` à vos déclarations pour vous assurer qu’elles sont prioritaires.
+   * Pensez à ajouter `!important` à vos déclarations pour vous assurer qu’elles sont prioritaires.
 
 +++ Par exemple :
 

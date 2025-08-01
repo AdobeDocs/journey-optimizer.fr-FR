@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Mettre un parcours en pause
+title: Suspendre un parcours
 description: Découvrez comment mettre en pause et reprendre un parcours actif.
 feature: Journeys
 role: User
@@ -10,13 +10,13 @@ badge: label="Disponibilité limitée" type="Informative"
 keywords: publication, parcours, actif, validité, vérification
 exl-id: a2892f0a-5407-497c-97af-927de81055ac
 source-git-commit: 9db476ff5b693bef91e982502c6dd37321610fc7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2169'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
-# Mettre un parcours en pause {#journey-pause}
+# Suspendre un parcours {#journey-pause}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_pause"
@@ -84,10 +84,10 @@ Lorsqu’un parcours est en pause, la gestion des profils et l’exécution des 
 | [Réaction](reaction-events.md) | Même comportement que dans un parcours actif. Cependant, si la réaction se situe après une activité <strong>Action</strong> et que l’utilisateur ou l’utilisatrice est mis en pause lors de cette action, l’événement de réaction est ignoré. |
 | [Attente](wait-activity.md) | Même comportement que dans un parcours actif. |
 | [Condition](condition-activity.md) | Même comportement que dans un parcours actif. |
-| [Décision de contenu](content-decision.md) | Les profils sont conservés ou ignorés en fonction de ce que l’utilisateur ou l’utilisatrice a choisi lorsque le parcours a été mis en pause. |
-| [Action de canal](journeys-message.md) | Les profils sont conservés ou ignorés en fonction de ce que l’utilisateur ou l’utilisatrice a choisi lorsque le parcours a été mis en pause. |
-| [Action personnalisée](../action/action.md) | Les profils sont conservés ou ignorés en fonction de ce que l’utilisateur ou l’utilisatrice a choisi lorsque le parcours a été mis en pause. |
-| [Mettre à jour le profil](update-profiles.md) et [Sauter](jump.md) | Les profils sont conservés ou ignorés en fonction de ce que l’utilisateur ou l’utilisatrice a choisi lorsque le parcours a été mis en pause. |
+| [Décision de contenu](content-decision.md) | Les profils sont conservés ou ignorés en fonction de ce que l’utilisateur ou l’utilisatrice a choisi lorsque le parcours a été suspendu. |
+| [Action de canal](journeys-message.md) | Les profils sont conservés ou ignorés en fonction de ce que l’utilisateur ou l’utilisatrice a choisi lorsque le parcours a été suspendu. |
+| [Action personnalisée](../action/action.md) | Les profils sont conservés ou ignorés en fonction de ce que l’utilisateur ou l’utilisatrice a choisi lorsque le parcours a été suspendu. |
+| [Mettre à jour le profil](update-profiles.md) et [Sauter](jump.md) | Les profils sont conservés ou ignorés en fonction de ce que l’utilisateur ou l’utilisatrice a choisi lorsque le parcours a été suspendu. |
 | [Source de données externe](../datasource/external-data-sources.md) | Même comportement que dans un parcours actif. |
 | [Critères de sortie](journey-properties.md#exit-criteria) | Même comportement que dans un parcours actif. |
 
@@ -152,7 +152,7 @@ Cette limite est vérifiée toutes les 30 minutes. Cela signifie que vous pouve
 
   Si vous reprenez les parcours pour ramener le nombre de profils conservés en dessous de la limite, le parcours reprend immédiatement, mais la mise à jour du nombre de profils peut prendre jusqu’à 30 minutes. Pendant ce temps, le système peut toujours considérer ces profils comme étant en pause.
 
-* Pour les parcours qui incluent des [activités entrantes](../channels/gs-channels.md#mobile-app-and-web-experiences) (par exemple, in-app, web, etc.), la suspension du parcours n’interrompt pas les communications qui ont déjà été déclenchées. Si un profil s’est qualifié pour une activité entrante avant la pause, le message correspondant sera toujours diffusé. Pour arrêter complètement toutes les communications entrantes, vous devez arrêter le parcours.
+* Pour les parcours qui incluent des [activités entrantes](../channels/gs-channels.md#mobile-app-and-web-experiences) (par exemple, in-app, web, etc.), la suspension du parcours n’interrompt pas les communications qui ont déjà été déclenchées. Si un profil s’est qualifié pour une activité entrante avant la suspension, le message correspondant sera toujours diffusé. Pour arrêter complètement toutes les communications entrantes, vous devez arrêter le parcours.
 * Les parcours en pause sont comptabilisés dans le quota des parcours actifs.
 * Les profils qui sont entrés dans le parcours mais ignorés pendant la pause sont toujours comptabilisés comme des profils engageables.
 * Les parcours en pause sont pris en compte dans toutes les règles métier, de la même manière que s’ils étaient actifs.
@@ -183,7 +183,7 @@ Lorsque vous mettez en pause ce parcours, vous choisissez si les profils sont **
 1. Activité **Attente** : les profils continuent à attendre normalement sur le nœud et le quitteront, même si le parcours est en pause.
 1. **Condition** : les profils continuent de passer par les conditions et se dirigent vers la bonne branche, en fonction de l’expression définie sur la condition.
 1. Activités **Push**/**E-mail** : lorsqu’un parcours est suspendu, les profils commencent à attendre ou sont ignorés (selon le choix effectué par l’utilisateur ou l’utilisatrice au moment de la suspension) sur le nœud d’action suivant. Les profils vont donc commencer à attendre ou seront ignorés.
-1. **Événements** après les nœuds **Action** : si un profil attend sur un nœud **Action** et qu’une activité **Event** le suit, si cet événement est déclenché, l’événement est ignoré.
+1. **Événements** après les nœuds **Action** : si un profil est en attente sur un nœud **Action** et qu’une activité **Événement** suit, si cet événement est déclenché, il est ignoré.
 
 Selon ce comportement, vous pouvez voir le nombre de profils augmenter sur le parcours en pause, principalement dans les activités précédant les activités **Action**. Dans cet exemple, l’activité **Attente** est toujours activée, ce qui augmente le nombre de profils qui passent par l’activité **Condition** lorsqu’ils la quittent.
 

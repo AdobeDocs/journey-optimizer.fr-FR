@@ -9,9 +9,9 @@ role: Data Engineer, Data Architect, Admin
 level: Experienced
 exl-id: 26ad12c3-0a2b-4f47-8f04-d25a6f037350
 source-git-commit: 967e5ed75a7a3d37b37749f464a3b96e10b1f35a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1500'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -25,7 +25,7 @@ Assurez-vous que les champs utilisés dans vos requêtes ont des valeurs associ�
 
 * ID : unique pour toutes les entrées d’événement d’étape. Deux événements d’étape différents ne peuvent pas avoir le même identifiant.
 * instanceID : instanceID est le même pour tous les événements d’étape associés à un profil lors de l’exécution d’un parcours. Si un profil entre de nouveau dans le parcours, un instanceID différent sera utilisé. Ce nouvel instanceID sera le même pour tous les événements d’étape de l’instance reprise (du début à la fin).
-* profileID : identité du profil correspondant à l’espace de noms du parcours.
+* profileID : identité du profil correspondant à l’espace de noms du parcours.
 
 >[!NOTE]
 >
@@ -662,7 +662,7 @@ Elle renvoie tous les événements de service liés à la version de parcours do
 Nous pouvons également détecter des problèmes tels que :
 
 * erreurs lors de la création d’un traitement d’export ou de rubrique (y compris les temporisations sur les appels API d’export d’audience)
-* tâches d’exportation pouvant être bloquées (dans le cas d’une version de parcours donnée, aucun événement n’est associé à la fin de la tâche d’exportation)
+* tâches d’export pouvant être bloquées (dans le cas d’une version de parcours donnée où aucun événement n’est associé à la fin de la tâche d’export)
 * problèmes secondaires, si nous avons reçu un événement de fin de tâche d&#39;exportation, mais pas de fin de traitement secondaire
 
 IMPORTANT : si aucun événement n&#39;est renvoyé par cette requête, cela peut être dû à l&#39;une des raisons suivantes :
