@@ -7,29 +7,16 @@ feature: Whatsapp
 topic: Content Management
 role: User
 level: Beginner
-hide: true
-hidefromtoc: true
 exl-id: cac6f675-59e0-431d-8c20-f24ef16d7bf2
-source-git-commit: 7f507dc0113e85191429c2c48b873112b590e3ce
+source-git-commit: 31e25c511d8873e54c7b92e65511108a77f84941
 workflow-type: tm+mt
-source-wordcount: '766'
-ht-degree: 96%
+source-wordcount: '842'
+ht-degree: 85%
 
 ---
 
 
 # Créer un message WhatsApp {#create-whatsapp}
-
->[!BEGINSHADEBOX]
-
-**Table des matières**
-
-* [Commencer avec les messages WhatsApp](get-started-whatsapp.md)
-* [Commencer la configuration WhatsApp ](whatsapp-configuration.md)
-* **[Créer un message WhatsApp](create-whatsapp.md)**
-* [Vérifier et envoyer vos messages WhatsApp](send-whatsapp.md)
-
->[!ENDSHADEBOX]
 
 Avec Adobe Journey Optimizer, vous pouvez concevoir et envoyer des messages attrayants sur WhatsApp. Ajoutez simplement une action WhatsApp à votre parcours ou campagne et créez le contenu de votre message comme décrit ci-dessous. Adobe Journey Optimizer vous permet également de tester vos messages WhatsApp avant de les envoyer, assurant ainsi un rendu parfait, une personnalisation précise et des paramètres correctement configurés.
 
@@ -55,7 +42,8 @@ L’option d’appel à l’action suivante est disponible pour vos messages Wha
 | Appel à l’action | Description |
 |-|-|
 | Visiter le site web | Un seul bouton est autorisé, avec les paramètres de variable inclus. |
-
+| Appel sur WhatsApp | Fournit un bouton qui ouvre un chat WhatsApp avec le numéro de téléphone spécifié directement à partir du message. |
+| Numéro de téléphone | Fournit un bouton qui lance un appel téléphonique au numéro spécifié lorsque l&#39;utilisateur appuie dessus. |
 
 +++
 
@@ -146,11 +134,15 @@ Notez que votre modèle WhatsApp doit d’abord être approuvé par Meta avant d
 
    ![](assets/whatsapp-design-2.png)
 
+1. Dans le champ **[!UICONTROL URL de l’image]**, ajoutez des URL de médias pour remplacer tous les espaces réservés dans votre modèle. Les médias de modèles des métadonnées ne sont que des espaces réservés. Pour afficher correctement des images, des données audio ou vidéo, vous devez utiliser des URL externes provenant de Adobe Experience Manager ou d’autres sources.
+
+   ![](assets/whatsapp-design-3.png)
+
 1. Utilisez l’éditeur de personnalisation pour personnaliser votre modèle. Vous pouvez utiliser n’importe quel attribut, comme par exemple le nom du profil ou la ville.
 
    Parcourez la page suivante pour en savoir plus sur la [personnalisation](../personalization/personalize.md).
 
-   ![](assets/whatsapp-design-3.png)
+   ![](assets/whatsapp-design-4.png)
 
 1. Cliquez sur le bouton **[!UICONTROL Simuler le contenu]** pour prévisualiser le contenu de votre message WhatsApp, les URL raccourcies et le contenu personnalisé. [En savoir plus](send-whatsapp.md)
 
@@ -195,3 +187,14 @@ Once you have performed your tests and validated the content, you can send your 
 
 >[!ENDTABS]
 -->
+
+
+## Vidéo pratique {#video}
+
+La vidéo ci-dessous montre comment créer un parcours WhatsApp à plusieurs étapes à l&#39;aide de Adobe Journey Optimizer.
+
++++ Voir la vidéo
+
+>[!VIDEO](https://video.tv.adobe.com/v/3470282/?learn=on")
+
++++

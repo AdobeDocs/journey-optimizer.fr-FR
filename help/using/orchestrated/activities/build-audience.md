@@ -7,10 +7,10 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: 3959b5fa-0c47-42a5-828f-4d7ca9b7e72d
-source-git-commit: 3be1b238962fa5d0e2f47b64f6fa5ab4337272a5
+source-git-commit: e71cbc5b29a31e2f23b408ae8c8b73379a44275d
 workflow-type: tm+mt
 source-wordcount: '409'
-ht-degree: 57%
+ht-degree: 53%
 
 ---
 
@@ -67,7 +67,7 @@ Pour configurer l’activité **[!UICONTROL Créer une audience]**, procédez co
 
 1. Cliquez sur **[!UICONTROL Continuer]**.
 
-1. Utilisez le concepteur de requêtes pour définir votre requête. [En savoir plus sur le concepteur de requêtes dans cette section](../orchestrated-rule-builder.md)
+1. Utilisez le créateur de règles pour définir votre requête. [En savoir plus sur le créateur de règles dans cette section](../orchestrated-rule-builder.md)
 
 1. Indiquez si une transition sortante doit être générée lorsque l’audience est vide.
 

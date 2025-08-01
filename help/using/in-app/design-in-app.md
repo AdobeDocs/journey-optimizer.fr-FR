@@ -7,10 +7,10 @@ role: User
 level: Beginner
 keywords: in-app, message, conception, mise en forme
 exl-id: 7d7aa721-96aa-4ebc-a51c-e693f893f34f
-source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
-workflow-type: ht
-source-wordcount: '1154'
-ht-degree: 100%
+source-git-commit: 61a30dcc93823dc5e8b647e683bfa2ebf5bfa01b
+workflow-type: tm+mt
+source-wordcount: '1222'
+ht-degree: 94%
 
 ---
 
@@ -240,6 +240,22 @@ Si le **[!UICONTROL Mode de formatage avancé]** est activé, vous pouvez person
 
 +++
 
+## Onglet Données {#data-tab}
+
+Dans l’onglet **Données**, vous pouvez définir une **[!UICONTROL Clé]**&#x200B; et **[!UICONTROL Valeur]** pour inclure des variables personnalisées dans la payload. Ces paires clé/valeur vous permettent de transmettre des données supplémentaires, selon votre configuration spécifique.
+
+Pour plus d’informations, consultez la [documentation destinée aux développeurs](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/in-app-message/tutorials/messaging-metadata/).
+
+1. Dans l’onglet **[!UICONTROL Données]**, sélectionnez **[!UICONTROL Ajouter une paire clé/valeur]**.
+
+   ![](assets/in-app-data-menu.png)
+
+1. Renseignez les champs **[!UICONTROL Clé]**&#x200B; et **[!UICONTROL Valeur]**.
+
+   ![](assets/in-app-data-menu-1.png)
+
+1. Cliquez sur ![](assets/do-not-localize/Smock_Delete_18_N.svg) pour supprimer toute paire nécessaire.
+
 **Rubriques connexes :**
 
 * [Créer un message in-app](create-in-app.md)
@@ -250,4 +266,4 @@ Si le **[!UICONTROL Mode de formatage avancé]** est activé, vous pouvez person
 
 La vidéo ci-dessous montre comment créer et tester vos messages in-app.
 
->[!VIDEO](https://video.tv.adobe.com/v/3422077?quality=12&learn=on&captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/3410471?quality=12&learn=on)

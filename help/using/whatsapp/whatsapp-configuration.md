@@ -6,28 +6,15 @@ description: Découvrez comment configurer votre environnement pour envoyer des 
 feature: Whatsapp, Channel Configuration
 role: Admin
 level: Intermediate
-hide: true
-hidefromtoc: true
 exl-id: d1f40cd8-f311-4df6-b401-8858095cef3e
-source-git-commit: 9af09d694f58d169dcf4448562129ed0b37f35df
+source-git-commit: 31e25c511d8873e54c7b92e65511108a77f84941
 workflow-type: tm+mt
-source-wordcount: '773'
-ht-degree: 63%
+source-wordcount: '823'
+ht-degree: 49%
 
 ---
 
 # Commencer la configuration WhatsApp  {#whatsapp-config}
-
->[!BEGINSHADEBOX]
-
-**Table des matières**
-
-* [Commencer avec les messages WhatsApp](get-started-whatsapp.md)
-* **[Commencer la configuration de WhatsApp](whatsapp-configuration.md)**
-* [Créer un message WhatsApp](create-whatsapp.md)
-* [Vérifier et envoyer vos messages WhatsApp](send-whatsapp.md)
-
->[!ENDSHADEBOX]
 
 Avant d’envoyer un message WhatsApp, vous devez configurer votre environnement Adobe Journey Optimizer et l’associer à votre compte WhatsApp. Pour ce faire, procédez comme suit :
 
@@ -43,14 +30,14 @@ Ces étapes doivent être exécutées par un [Administrateur ou une Administratr
 
 1. Configurez vos informations d’identification dʼAPI comme indiqué ci-dessous :
 
-   * **Jeton API** : saisissez votre jeton API. Pour en savoir plus, consultez la [documentation Meta](https://developers.facebook.com/docs/facebook-login/guides/access-tokens/).
+   * **Jeton API** : saisissez votre jeton API. Pour en savoir plus, consultez la [documentation Meta](https://developers.facebook.com/blog/post/2022/12/05/auth-tokens/).
    * **ID de compte professionnel** : saisissez le numéro unique associé à votre porfolio professionnel. Pour en savoir plus, consultez la [documentation Meta](https://www.facebook.com/business/help/1181250022022158?id=180505742745347).
 
    ![](assets/whatsapp-api.png)
 
 1. Cliquez sur **[!UICONTROL Continuer]**.
 
-1. Choisissez le **Compte professionnel** que vous souhaitez connecter à vos informations d’identification d’API WhatsApp.
+1. Choisissez le **compte professionnel WhatsApp** vous souhaitez vous connecter à vos identifiants d&#39;API WhatsApp.
 
    ![](assets/whatsapp-api-2.png)
 
@@ -69,7 +56,7 @@ Ces étapes doivent être exécutées par un [Administrateur ou une Administratr
 
 1. Cliquez sur **[!UICONTROL Envoyer]** lorsque vous avez terminé la configuration de vos informations d’identification d’API.
 
-Après avoir créé et configuré vos informations d’identification d’API, vous devez créer une configuration des canaux pour les messages WhatsApp. [En savoir plus](#whatsapp-configuration)
+Après avoir créé et configuré vos informations d’identification API, vous devez maintenant créer votre Webhook pour les messages WhatsApp. [En savoir plus](#whatsapp-webhook)
 
 ## Créer un webhook {#WhatsApp-webhook}
 
@@ -97,39 +84,54 @@ Après avoir créé et configuré vos informations d’identification d’API, v
 >
 >Sans mots-clés de souscription ou d’exclusion spécifiés, les messages de consentement standard ne sont pas activés.
 
-Une fois vos identifiants d&#39;API WhatsApp et vos Webhooks [Meta](https://developers.facebook.com/docs/whatsapp/webhooks/) créés, l&#39;étape suivante consiste à créer un webhook et à configurer vos paramètres entrants.
+Une fois vos informations d’identification d’API WhatsApp créées, l’étape suivante consiste à créer un webhook et à configurer vos paramètres entrants.
 
 1. Dans le rail de gauche, accédez à **[!UICONTROL Administration]** `>` **[!UICONTROL Canaux]**, sélectionnez le menu **[!UICONTROL WhatsApp Webhooks]** sous **[!UICONTROL Paramètres de WhatsApp]**, puis cliquez sur le bouton **[!UICONTROL Créer Webhook]**.
 
-1. Saisissez un [!UICONTROL Nom] pour votre webhook.
+   ![](assets/webhook-1.png)
 
-1. Dans la liste déroulante, sélectionnez les [ Informations d’identification de l’API ](#whatsapp-credentials) vous avez créées précédemment.
+1. Saisissez un **[!UICONTROL Nom]** pour votre webhook.
 
-1. Cliquez sur ![ajouter](assets/do-not-localize/Smock_AddCircle_18_N.svg) pour commencer à configurer une **[!UICONTROL catégorie de mots-clés entrante]** telle que :
+1. Dans la liste déroulante **[!UICONTROL Sélectionner la configuration]**, sélectionnez le [Informations d’identification de l’API](#whatsapp-credentials) que vous avez précédemment créé.
+
+   ![](assets/webhook-2.png)
+
+1. Choisissez votre **[!UICONTROL catégorie de mots-clés entrants]** par exemple :
 
    * **[!UICONTROL Mots-clés d’accord préalable]**
    * **[!UICONTROL Mots-clés de droit d’opposition]**
    * **[!UICONTROL Mots-clés d’aide]**
 
-1. Saisissez votre **[!UICONTROL Mot-clé]**.
+1. Saisissez vos **[!UICONTROL Mots-clés]** puis cliquez sur ![ajouter](assets/do-not-localize/Smock_AddCircle_18_N.svg).
 
-   Pour ajouter plusieurs mots-clés, cliquez sur ![ajouter](assets/do-not-localize/Smock_AddCircle_18_N.svg).
+   ![](assets/webhook-3.png)
 
-1. Spécifiez le **[!UICONTROL Message de réponse]** envoyer lorsqu’un mot-clé configuré est reçu.
+1. Dans le champ **[!UICONTROL Message de réponse]**, saisissez le message envoyé à la réception d’un mot-clé configuré ou sélectionnez une option prédéfinie dans le menu déroulant.
+
+   ![](assets/webhook-4.png)
 
 <!--
 1. Click **[!UICONTROL View payload editor]** to validate and customize your request payloads. 
     
     You can dynamically personalize your payload using profile attributes, and ensure accurate data is sent for processing and response generation with the help of built-in helper functions.
 -->
+1. Cliquez sur ![ajouter](assets/do-not-localize/Smock_AddCircle_18_N.svg) pour ajouter **[!UICONTROL mot-clé entrant]**.
 
 1. Cliquez sur **[!UICONTROL Soumettre]** lorsque vous avez terminé la configuration de votre Webhook WhatsApp.
 
 1. Dans le menu **[!UICONTROL Webhooks]**, cliquez sur l&#39;icône ![bin](assets/do-not-localize/Smock_Delete_18_N.svg) pour supprimer votre Webhook WhatsApp.
 
-1. Pour modifier la configuration existante, recherchez le webhook souhaité et cliquez sur l’option **[!UICONTROL Modifier]** pour apporter les modifications nécessaires.
+   ![](assets/webhook-5.png)
+
+1. Pour modifier la configuration existante et accéder à votre **[!UICONTROL URL Webhook]** ou **[!UICONTROL jeton de vérification Webhook]**, recherchez le Webhook souhaité, puis cliquez sur l’option **[!UICONTROL Modifier]** pour apporter les modifications nécessaires.
+
+1. Copiez votre **[!UICONTROL jeton de vérification Webhook]** généré ici, puis collez-le dans l’interface Meta dans le cadre de votre configuration Webhook.
+
+   Pour obtenir des instructions détaillées sur comment et où ajouter ce jeton de vérification, reportez-vous à la [documentation Meta](https://developers.facebook.com/docs/graph-api/webhooks/getting-started#configure-webhooks-product).
 
 1. Accédez à votre nouvelle **[!UICONTROL URL Webhook]** et copiez-la à partir de votre **[!UICONTROL Webhook WhatsApp]** précédemment envoyé.
+
+   ![](assets/webhook-6.png)
 
 Maintenant que votre Webhook est configuré, vous pouvez créer votre configuration WhatsApp.
 
@@ -155,7 +157,7 @@ Maintenant que votre Webhook est configuré, vous pouvez créer votre configurat
 
    ![](assets/whatsapp-config-3.png)
 
-1. Saisissez le **[!UICONTROL Numéro dʼexpéditeur]** à utiliser lors de vos communications.
+1. Saisissez le **[!UICONTROL Nom de l’expéditeur]** &#x200B; que vous souhaitez utiliser pour vos communications.
 
 1. Une fois tous les paramètres configurés, cliquez sur **[!UICONTROL Envoyer]** pour confirmer. Vous pouvez également enregistrer la configuration de canal en tant que brouillon et reprendre son paramétrage ultérieurement.
 
@@ -170,3 +172,14 @@ Maintenant que votre Webhook est configuré, vous pouvez créer votre configurat
 Une fois qu’il est configuré, vous pouvez tirer parti de toutes les fonctionnalités d’origine des canaux, telles que la création de messages, la personnalisation, le suivi des liens et la création de rapports.
 
 Vous pouvez maintenant commencer à envoyer des messages WhatsApp avec Journey Optimizer.
+
+
+## Vidéo pratique {#video}
+
+La vidéo ci-dessous montre comment configurer le canal WhatsApp dans Adobe Journey Optimizer.
+
++++ Voir la vidéo
+
+>[!VIDEO](https://video.tv.adobe.com/v/3470268/?learn=on)
+
++++

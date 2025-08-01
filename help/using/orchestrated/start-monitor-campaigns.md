@@ -6,10 +6,10 @@ description: Découvrez comment démarrer et surveiller les campagnes orchestré
 hide: true
 hidefromtoc: true
 exl-id: 5fc2d1d6-75c3-4b45-bb2b-09982b9bd5ed
-source-git-commit: 3be1b238962fa5d0e2f47b64f6fa5ab4337272a5
+source-git-commit: 5e52573689ab06084441390299b01e112e699244
 workflow-type: tm+mt
-source-wordcount: '810'
-ht-degree: 56%
+source-wordcount: '841'
+ht-degree: 54%
 
 ---
 
@@ -73,11 +73,7 @@ L’icône **[!UICONTROL Alertes]** / **[!UICONTROL Avertissement]** de la barre
 
 Vous pouvez également identifier rapidement les activités ayant échoué à l’aide des [indicateurs visuels de statut](#activities) affichés directement sur chaque activité. Pour une résolution détaillée des problèmes, ouvrez les [journaux de la campagne](#logs-tasks) qui fournissent des informations détaillées sur l’erreur et son contexte.
 
-<!--WAITING FOR PM's TEST TO UNHIDE
-
-If you have added channel activities in the canvas, you can preview and test the content of your messages using the **[!UICONTROL Simulate Content]** button. [Learn how to work with channel activities](activities/channels.md)
-
--->
+Si vous avez ajouté des activités de canal dans la zone de travail, vous pouvez prévisualiser et tester le contenu de vos messages à l’aide du bouton **[!UICONTROL Simuler le contenu]**. [Découvrez comment utiliser les activités des canaux](activities/channels.md)
 
 Une fois validée, la campagne peut être publiée.
 
