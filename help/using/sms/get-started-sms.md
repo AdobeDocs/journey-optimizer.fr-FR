@@ -70,7 +70,7 @@ Adobe Journey Optimizer envoie des messages texte par le biais de fournisseurs
 
   +++Regarder la vidéo
 
-  >[!VIDEO](https://video.tv.adobe.com/v/3420509?learn=on)
+  >[!VIDEO](https://video.tv.adobe.com/v/3422694?learn=on&captions=fre_fr)
 
 +++
 
@@ -79,7 +79,7 @@ Adobe Journey Optimizer envoie des messages texte par le biais de fournisseurs
 
   +++Regarder la vidéo
 
-  >[!VIDEO](https://video.tv.adobe.com/v/3426021?quality=12&learn=on)
+  >[!VIDEO](https://video.tv.adobe.com/v/3430372?quality=12&learn=on&captions=fre_fr)
 
 +++
 
@@ -88,6 +88,6 @@ Adobe Journey Optimizer envoie des messages texte par le biais de fournisseurs
 
   +++Regarder la vidéo
 
-  >[!VIDEO](https://video.tv.adobe.com/v/3464755)
+  >[!VIDEO](https://video.tv.adobe.com/v/3464757?captions=fre_fr)
 
 +++
