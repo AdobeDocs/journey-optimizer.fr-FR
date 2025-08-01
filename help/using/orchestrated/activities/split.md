@@ -7,10 +7,10 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: 986bc566-123a-451d-a4a6-bbf5a2798849
-source-git-commit: 3be1b238962fa5d0e2f47b64f6fa5ab4337272a5
+source-git-commit: e71cbc5b29a31e2f23b408ae8c8b73379a44275d
 workflow-type: tm+mt
 source-wordcount: '917'
-ht-degree: 81%
+ht-degree: 77%
 
 ---
 
@@ -55,7 +55,7 @@ L’activité **[!UICONTROL Partage]** est une activité de **[!UICONTROL ciblag
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_split_filter"
 >title="Filtre de l’activité Partage"
->abstract="Pour appliquer une condition de filtrage au sous-ensemble, cliquez sur **[!UICONTROL Créer un filtre]** et configurez la règle de filtrage souhaitée à l’aide du concepteur de requête. Par exemple, incluez les profils de la population entrante dont l’adresse e-mail existe dans la base de données."
+>abstract="Pour appliquer une condition de filtrage au sous-ensemble, cliquez sur **[!UICONTROL Créer un filtre]** et configurez la règle de filtrage de votre choix à l’aide du créateur de règles. Par exemple, incluez les profils de la population entrante dont l’adresse e-mail existe dans la base de données."
 
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_split_limit"
@@ -107,7 +107,7 @@ Pour configurer l’activité **[!UICONTROL Partage]**, procédez comme suit :
 
    1. Cliquez sur un sous-ensemble pour en ouvrir les paramètres.
 
-   1. Cliquez sur **[!UICONTROL Créer un filtre]** pour définir des règles de filtrage à l’aide du concepteur de requête, par exemple, pour sélectionner des profils avec une adresse e-mail valide.
+   1. Cliquez sur **[!UICONTROL Créer un filtre]** pour définir des règles de filtrage à l’aide du créateur de règles, par exemple, pour sélectionner des profils avec une adresse e-mail valide.
 
       ![](../assets/orchestrated-split-1.png)
 
