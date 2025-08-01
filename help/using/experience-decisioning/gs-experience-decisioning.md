@@ -56,7 +56,7 @@ Les principales étapes pour utiliser la prise de décision sont les suivantes 
 
    La personne doit alors recevoir un e-mail la redirigeant vers votre instance.
 
-+++
+   +++
 
 1. **Configurez des attributs personnalisés** : personnalisez le catalogue d’éléments selon vos besoins spécifiques en configurant des attributs personnalisés dans le schéma du catalogue.
 
