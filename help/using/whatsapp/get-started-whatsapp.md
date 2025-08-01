@@ -58,7 +58,7 @@ La vidéo ci-dessous montre comment intégrer WhatsApp en tant que canal natif d
 
 +++ Voir la vidéo
 
->[!VIDEO](https://video.tv.adobe.com/v/3470244?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3470246?learn=on&captions=fre_fr)
 
 +++
 
