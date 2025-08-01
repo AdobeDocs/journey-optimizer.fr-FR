@@ -10,7 +10,7 @@ exl-id: d1f40cd8-f311-4df6-b401-8858095cef3e
 source-git-commit: 31e25c511d8873e54c7b92e65511108a77f84941
 workflow-type: tm+mt
 source-wordcount: '823'
-ht-degree: 49%
+ht-degree: 62%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 49%
 Avant d’envoyer un message WhatsApp, vous devez configurer votre environnement Adobe Journey Optimizer et l’associer à votre compte WhatsApp. Pour ce faire, procédez comme suit :
 
 1. [Créez vos informations d’identification d’API WhatsApp.](#WhatsApp-credentials)
-1. [Créer vos Webhooks WhatsApp](#WhatsApp-webhook)
+1. [Créer vos webhooks WhatsApp](#WhatsApp-webhook)
 1. [Créez une configuration de WhatsApp.](#WhatsApp-configuration)
 
 Ces étapes doivent être exécutées par un [Administrateur ou une Administratrice système](../start/path/administrator.md) Adobe Journey Optimizer.
@@ -41,7 +41,7 @@ Ces étapes doivent être exécutées par un [Administrateur ou une Administratr
 
    ![](assets/whatsapp-api-2.png)
 
-1. Sélectionnez le **Nom de l’expéditeur** utilisé pour envoyer vos messages Whatsapp.
+1. Sélectionnez le **Nom de l’expéditeur ou de l’expéditrice** utilisé pour envoyer vos messages WhatsApp.
 
 1. Les paramètres de votre numéro de téléphone sont automatiquement renseignés :
 
@@ -82,15 +82,15 @@ Après avoir créé et configuré vos informations d’identification API, vous 
 
 >[!NOTE]
 >
->Sans mots-clés de souscription ou d’exclusion spécifiés, les messages de consentement standard ne sont pas activés.
+>Sans des mots-clés d’opt-in ou d’opt-out spécifiés, les messages de consentement standard ne sont pas activés.
 
 Une fois vos informations d’identification d’API WhatsApp créées, l’étape suivante consiste à créer un webhook et à configurer vos paramètres entrants.
 
-1. Dans le rail de gauche, accédez à **[!UICONTROL Administration]** `>` **[!UICONTROL Canaux]**, sélectionnez le menu **[!UICONTROL WhatsApp Webhooks]** sous **[!UICONTROL Paramètres de WhatsApp]**, puis cliquez sur le bouton **[!UICONTROL Créer Webhook]**.
+1. Dans le rail de gauche, accédez à **[!UICONTROL Administration]** `>` **[!UICONTROL Canaux]**, sélectionnez le menu **[!UICONTROL Webhooks WhatsApp]** dans **[!UICONTROL Paramètres WhatsApp]**, puis cliquez sur le bouton **[!UICONTROL Créer un webhook]**.
 
    ![](assets/webhook-1.png)
 
-1. Saisissez un **[!UICONTROL Nom]** pour votre webhook.
+1. Saisissez le **[!UICONTROL Nom]** de votre webhook.
 
 1. Dans la liste déroulante **[!UICONTROL Sélectionner la configuration]**, sélectionnez le [Informations d’identification de l’API](#whatsapp-credentials) que vous avez précédemment créé.
 
@@ -98,8 +98,8 @@ Une fois vos informations d’identification d’API WhatsApp créées, l’éta
 
 1. Choisissez votre **[!UICONTROL catégorie de mots-clés entrants]** par exemple :
 
-   * **[!UICONTROL Mots-clés d’accord préalable]**
-   * **[!UICONTROL Mots-clés de droit d’opposition]**
+   * **[!UICONTROL Mots-clés d’opt-in]**
+   * **[!UICONTROL Mots-clés d’opt-out]**
    * **[!UICONTROL Mots-clés d’aide]**
 
 1. Saisissez vos **[!UICONTROL Mots-clés]** puis cliquez sur ![ajouter](assets/do-not-localize/Smock_AddCircle_18_N.svg).
@@ -117,9 +117,9 @@ Une fois vos informations d’identification d’API WhatsApp créées, l’éta
 -->
 1. Cliquez sur ![ajouter](assets/do-not-localize/Smock_AddCircle_18_N.svg) pour ajouter **[!UICONTROL mot-clé entrant]**.
 
-1. Cliquez sur **[!UICONTROL Soumettre]** lorsque vous avez terminé la configuration de votre Webhook WhatsApp.
+1. Cliquez sur **[!UICONTROL Envoyer]** lorsque vous avez terminé la configuration de votre webhook WhatsApp.
 
-1. Dans le menu **[!UICONTROL Webhooks]**, cliquez sur l&#39;icône ![bin](assets/do-not-localize/Smock_Delete_18_N.svg) pour supprimer votre Webhook WhatsApp.
+1. Dans le menu **[!UICONTROL Webhooks]**, cliquez sur l’![icône de corbeille](assets/do-not-localize/Smock_Delete_18_N.svg) pour supprimer votre webhook WhatsApp.
 
    ![](assets/webhook-5.png)
 
@@ -129,7 +129,7 @@ Une fois vos informations d’identification d’API WhatsApp créées, l’éta
 
    Pour obtenir des instructions détaillées sur comment et où ajouter ce jeton de vérification, reportez-vous à la [documentation Meta](https://developers.facebook.com/docs/graph-api/webhooks/getting-started#configure-webhooks-product).
 
-1. Accédez à votre nouvelle **[!UICONTROL URL Webhook]** et copiez-la à partir de votre **[!UICONTROL Webhook WhatsApp]** précédemment envoyé.
+1. Accédez à la nouvelle **[!UICONTROL URL du webhook]** et copiez-la à partir du **[!UICONTROL webhook WhatsApp]** que vous avez précédemment envoyé.
 
    ![](assets/webhook-6.png)
 
@@ -180,6 +180,6 @@ La vidéo ci-dessous montre comment configurer le canal WhatsApp dans Adobe Jour
 
 +++ Voir la vidéo
 
->[!VIDEO](https://video.tv.adobe.com/v/3470270/?learn=on&captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/3470268/?learn=on)
 
 +++

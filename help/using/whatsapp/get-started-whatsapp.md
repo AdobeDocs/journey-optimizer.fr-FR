@@ -11,13 +11,13 @@ exl-id: 22df2bfa-4d86-464e-ad83-3aa457e3a747
 source-git-commit: 31e25c511d8873e54c7b92e65511108a77f84941
 workflow-type: tm+mt
 source-wordcount: '320'
-ht-degree: 44%
+ht-degree: 85%
 
 ---
 
 # Commencer avec les messages WhatsApp {#get-started-whatsapp}
 
-Vous pouvez désormais envoyer des messages WhatsApp directement via Journey Optimizer via l’API [Cloud](https://developers.facebook.com/docs/whatsapp/cloud-api/) de Meta. Cette fonctionnalité permet une intégration transparente de WhatsApp dans les parcours et les campagnes, ce qui améliore la communication et l’engagement avec les destinataires.
+Vous pouvez désormais envoyer des messages WhatsApp directement par le biais de Journey Optimizer via l’API [Cloud](https://developers.facebook.com/docs/whatsapp/cloud-api/) de Meta. Cette fonctionnalité permet d’intégrer WhatsApp de manière transparente dans les parcours et les campagnes afin d’améliorer la communication et l’engagement des destinataires.
 
 * Dans un **parcours**. Créez un parcours, ajoutez une activité **WhatsApp** et définissez les paramètres de base, puis accédez au volet de droite **[!UICONTROL Actions : WhatsApp]** pour créer le contenu du message WhatsApp. Découvrez comment créer un parcours sur [cette page](../building-journeys/journey-gs.md).
 
@@ -42,15 +42,15 @@ Vous devez également prendre connaissance des points suivants avant de procéde
 
 ## Limites {#limitations}
 
-Les restrictions suivantes s&#39;appliquent au canal WhatsApp :
+Les limites suivantes s’appliquent au canal WhatsApp :
 
-* Le canal WhatsApp de Adobe Journey Optimizer est conforme à la loi HIPAA, mais les fournisseurs tiers ne sont pas couverts par la loi Adobe. Les clients sont responsables de leur propre conformité et de la validation du fournisseur.
+* Le canal WhatsApp dans Adobe Journey Optimizer est conforme à la loi HIPAA, mais les fournisseurs tiers ne sont pas couverts par un accord de partenariat Adobe. Les clientes et les clients sont responsables de leur propre conformité et de la validation de leurs fournisseurs.
 
 * Notez que les messages de réponse automatisés ou prédéfinis ne sont pas encore pris en charge.
 
-* À compter d’avril 2025, la diffusion de tous les messages de modèle marketing aux utilisateurs de WhatsApp qui ont un numéro de téléphone aux États-Unis (un numéro composé d’un indicatif +1 et d’un indicatif régional des États-Unis) a été temporairement suspendue. [En savoir plus dans la documentation sur les métadonnées](https://developers.facebook.com/docs/whatsapp/cloud-api/guides/send-message-templates#per-user-marketing-template-message-limits)
+* Depuis avril 2025, la diffusion de tous les messages de modèles marketing aux utilisateurs et aux utilisatrices de WhatsApp qui possèdent un numéro de téléphone aux États-Unis (numéro composé d’un indicatif +1 et d’un indicatif régional des États-Unis) a été temporairement suspendue. [En savoir plus dans la documentation de Meta](https://developers.facebook.com/docs/whatsapp/cloud-api/guides/send-message-templates#per-user-marketing-template-message-limits)
 
-* La fonctionnalité d’intégration native ne permet pas l’intégration à un fournisseur de services professionnels (BSP) tiers.
+* La fonctionnalité d’intégration native ne permet pas l’intégration de prestataires de services professionnels (BSP) tiers.
 
 ## Vidéo pratique {#video}
 
@@ -58,7 +58,7 @@ La vidéo ci-dessous montre comment intégrer WhatsApp en tant que canal natif d
 
 +++ Voir la vidéo
 
->[!VIDEO](https://video.tv.adobe.com/v/3470246?learn=on&captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/3470244?learn=on)
 
 +++
 

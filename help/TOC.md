@@ -8,7 +8,7 @@ solution: Journey Optimizer
 source-git-commit: dcb2be7fef47e0d62fdd5a423799823ba4ef586c
 workflow-type: tm+mt
 source-wordcount: '2594'
-ht-degree: 96%
+ht-degree: 98%
 
 ---
 
@@ -49,9 +49,9 @@ ht-degree: 96%
       + [Configurer et suivre les mesures de votre parcours](using/building-journeys/success-metrics.md)
       + [Concevoir le parcours](using/building-journeys/using-the-journey-designer.md)
       + [Tester votre parcours](using/building-journeys/testing-the-journey.md)
-      + [Essai de parcours](using/building-journeys/journey-dry-run.md)
+      + [Test à blanc du parcours](using/building-journeys/journey-dry-run.md)
       + [Publier votre parcours](using/building-journeys/publishing-the-journey.md)
-      + [Mettre un parcours en pause](using/building-journeys/journey-pause.md)
+      + [Suspendre un parcours](using/building-journeys/journey-pause.md)
       + [Rapport dynamique dans votre parcours](using/building-journeys/report-journey.md)
    + Gérer vos parcours {#manage-journey}
       + [Parcourir et filtrer vos parcours](using/building-journeys/journey-ui.md)
@@ -175,11 +175,11 @@ ht-degree: 96%
       + [Limiter le débit avec des sources de données externes et des actions personnalisées](using/building-journeys/limit-throughput.md)
       + [Utiliser des actions personnalisées pour écrire des événements de parcours dans Experience Platform](using/building-journeys/custom-action-aep.md)
    + Résolution des problèmes {#troubleshoot-journey}
-      + [Résolution des problèmes liés aux parcours](using/building-journeys/gs-troubleshooting.md)
+      + [Résoudre les problèmes liés à vos parcours](using/building-journeys/gs-troubleshooting.md)
       + [Résoudre les erreurs de parcours](using/building-journeys/troubleshooting.md)
-      + [Résolution des problèmes d’exécution du parcours](using/building-journeys/troubleshooting-execution.md)
-      + [Résoudre les problèmes des actions entrantes](using/building-journeys/troubleshooting-inbound.md)
-      + [Résolution des problèmes liés aux actions personnalisées](using/action/troubleshoot-custom-action.md)
+      + [Résoudre les problèmes d’exécution d’un parcours](using/building-journeys/troubleshooting-execution.md)
+      + [Résoudre les problèmes liés aux actions entrantes](using/building-journeys/troubleshooting-inbound.md)
+      + [Résoudre les problèmes liés aux actions personnalisées](using/action/troubleshoot-custom-action.md)
 + Campagnes {#campaigns}
    + [Commencer avec les campagnes](using/campaigns/get-started-with-campaigns.md)
    + [Accéder aux campagnes et les gérer](using/campaigns/modify-stop-campaign.md)
@@ -202,10 +202,10 @@ ht-degree: 96%
       + [Déclencher l’exécution de la campagne](using/campaigns/trigger-campaigns.md)
    + Campagnes orchestrées {#orchestrated-campaigns}
       + [Prise en main des campagnes orchestrées](using/orchestrated/gs-orchestrated-campaigns.md)
-      + Gestion des schémas relationnels et des jeux de données {#schemas-datasets}
-         + [Prise en main des schémas et des jeux de données](using/orchestrated/gs-schemas.md)
+      + Gérer des schémas et des jeux de données relationnels {#schemas-datasets}
+         + [Commencer à utiliser des schémas et des jeux de données](using/orchestrated/gs-schemas.md)
          + [Schéma manuel](using/orchestrated/manual-schema.md)
-         + [Schéma de chargement de fichier](using/orchestrated/file-upload-schema.md)
+         + [Schéma de chargement de fichiers](using/orchestrated/file-upload-schema.md)
          + [Ingérer des données](using/orchestrated/ingest-data.md)
       + [Accéder aux campagnes orchestrées et les gérer](using/orchestrated/access-manage-orchestrated-campaigns.md)
       + [Création d’une dimension de ciblage](using/orchestrated/target-dimension.md)
@@ -278,7 +278,7 @@ Définissez les règles de limitation des messages et des parcours {#capping-rul
             + [Utiliser des fragments visuels](using/email/use-visual-fragments.md)
             + [Ajouter des liens et suivre les messages](using/email/message-tracking.md)
             + [Insérer des offres personnalisées](using/email/add-offers-email.md)
-            + [Générer la version texte](using/email/text-version-email.md)
+            + [Générer une version texte](using/email/text-version-email.md)
             + [Ajouter des métadonnées](using/email/email-metadata.md)
             + [Ajouter un CSS personnalisé](using/email/custom-css.md)
          + Modifier le style {#edit-style}
@@ -286,7 +286,7 @@ Définissez les règles de limitation des messages et des parcours {#capping-rul
             + [Modifier les paramètres d’arrière-plan](using/email/backgrounds.md)
             + [Ajuster l’alignement vertical et la marge intérieure](using/email/alignment-and-padding.md)
             + [Ajouter des attributs de style intégrés](using/email/inline-styling.md)
-            + [Définition du contenu en mode sombre](using/email/dark-mode.md)
+            + [Définir le contenu en mode sombre](using/email/dark-mode.md)
       + [Gérer les désinscriptions aux e-mails](using/email/email-opt-out.md)
       + Configurer le canal e-mail {#configure-email}
          + [Commencer la configuration du canal e-mail](using/email/get-started-email-config.md)
@@ -387,7 +387,7 @@ Définissez les règles de limitation des messages et des parcours {#capping-rul
       + [Réutiliser des fragments d’expression](using/personalization/use-expression-fragments.md)
       + [Utiliser les données Adobe Experience Platform pour la personnalisation (version Beta)](using/personalization/aep-data-perso.md)
       + Liste des fonctions d’assistance {#functions}
-         + [Prise en main des fonctions d’assistance](using/personalization/functions/functions.md)
+         + [Commencer avec les fonctions d’assistance](using/personalization/functions/functions.md)
          + [Assistant de recherche de données externes](using/personalization/external-data-lookup.md)
          + [Fonctions d’agrégation](using/personalization/functions/aggregation.md)
          + [Fonctions arithmétiques](using/personalization/functions/arithmetic-functions.md)

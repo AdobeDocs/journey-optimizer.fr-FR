@@ -11,7 +11,7 @@ exl-id: 58bcc8b8-5828-4ceb-9d34-8add9802b19d
 source-git-commit: 8c8fb70baf66d2b48c81c6344717be18993141f8
 workflow-type: tm+mt
 source-wordcount: '1106'
-ht-degree: 58%
+ht-degree: 60%
 
 ---
 
@@ -92,7 +92,7 @@ Pour activer le test à blanc, procédez comme suit :
 
 Une fois la publication en mode Test à blanc lancée, vous pouvez visualiser l’exécution du parcours et la progression des profils dans les branches et les nœuds du parcours.
 
-Les mesures s’affichent directement dans la zone de travail du parcours. Pour en savoir plus sur les rapports et les mesures dynamiques du parcours, consultez la section [ Rapport dynamique dans la zone de travail du parcours ](report-journey.md).
+Les mesures s’affichent directement dans la zone de travail du parcours. Pour en savoir plus sur les rapports dynamiques et les mesures des parcours, consultez la section [Rapports dynamiques dans la zone de travail du parcours](report-journey.md).
 
 ![Surveiller l’exécution du test à blanc du parcours](assets/dry-run-metrics.png)
 

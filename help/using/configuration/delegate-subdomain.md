@@ -12,7 +12,7 @@ exl-id: 8021f66e-7725-475b-8722-e6f8d74c9023
 source-git-commit: 142e56ce36389da5c2e28bbafa1a1bf59be50d74
 workflow-type: tm+mt
 source-wordcount: '1906'
-ht-degree: 76%
+ht-degree: 78%
 
 ---
 
@@ -133,7 +133,7 @@ Pour configurer un nouveau sous-domaine dans [!DNL Journey Optimizer], procédez
 
 1. Si vous configurez un sous-domaine avec des **CNAME**, accédez à [cette section](#cname-subdomain-setup).
 
-1. Cliquez sur **[!UICONTROL Envoyer]** pour que Adobe effectue les vérifications nécessaires. [En savoir plus](#submit-subdomain)
+1. Cliquez sur **[!UICONTROL Envoyer]** pour qu’Adobe effectue les vérifications nécessaires. [En savoir plus](#submit-subdomain)
 
 ## Configurer un sous-domaine avec des CNAME {#cname-subdomain-setup}
 
@@ -163,11 +163,11 @@ Pour configurer un sous-domaine à l’aide de CNAME, procédez comme suit.
 
    >[!NOTE]
    >
-   >Assurez-vous que tous les enregistrements sont correctement créés avant de continuer.
+   >Vérifiez que tous les enregistrements sont correctement créés avant de continuer.
 
-1. Adobe génère un enregistrement de validation dʼURL (avec protocole SSL sur réseau CDN). Copiez cet enregistrement de validation sur votre plateforme dʼhébergement. Si vous avez correctement créé cet enregistrement sur votre solution d&#39;hébergement, cochez la case « Je confirme... ».
+1. Adobe génère un enregistrement de validation dʼURL (avec protocole SSL sur réseau CDN). Copiez cet enregistrement de validation sur votre plateforme dʼhébergement. Si vous avez terminé la création de cet enregistrement sur votre solution dʼhébergement, cochez la case « Je confirme... ».
 
-1. Cliquez sur **[!UICONTROL Envoyer]** pour que Adobe effectue les vérifications nécessaires. [En savoir plus](#submit-subdomain)
+1. Cliquez sur **[!UICONTROL Envoyer]** pour qu’Adobe effectue les vérifications nécessaires. [En savoir plus](#submit-subdomain)
 
 ➡️ [Découvrez comment créer un sous-domaine à l’aide de CNAME pour pointer vers des enregistrements spécifiques à Adobe dans cette vidéo.](#video)
 
@@ -196,7 +196,7 @@ Pour terminer la délégation de sous-domaine, procédez comme suit.
 
    >[!NOTE]
    >
-   >Assurez-vous que tous les enregistrements sont correctement créés avant de continuer.
+   >Vérifiez que tous les enregistrements sont correctement créés avant de continuer.
 
 ### Validation de sous-domaine {#subdomain-validation}
 
@@ -273,4 +273,4 @@ Une fois que votre demande est gérée par Adobe, le domaine dont la délégatio
 
 Découvrez comment créer un sous-domaine à l&#39;aide de la méthode CNAME pour pointer vers des enregistrements spécifiques à Adobe.
 
->[!VIDEO](https://video.tv.adobe.com/v/342230?quality=12&captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/339484?quality=12)

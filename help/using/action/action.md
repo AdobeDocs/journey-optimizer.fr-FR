@@ -12,7 +12,7 @@ exl-id: 7f0cda1d-daf0-4d4c-9978-ddef81473813
 source-git-commit: dcb2be7fef47e0d62fdd5a423799823ba4ef586c
 workflow-type: tm+mt
 source-wordcount: '285'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -43,10 +43,10 @@ Pour afficher la liste des actions ou configurer une nouvelle action, sélection
 
 ![](assets/custom1.png)
 
-Découvrez comment dépanner une action personnalisée [sur cette page dédiée](../action/troubleshoot-custom-action.md).
+Découvrez comment résoudre les problèmes liés à une action personnalisée [dans cette page dédiée](../action/troubleshoot-custom-action.md).
 
 ## Vidéo pratique {#video}
 
 Découvrez comment configurer des actions personnalisées.
 
->[!VIDEO](https://video.tv.adobe.com/v/3430274?quality=12&captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/3428396?quality=12)

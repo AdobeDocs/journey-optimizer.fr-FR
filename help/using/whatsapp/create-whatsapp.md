@@ -11,7 +11,7 @@ exl-id: cac6f675-59e0-431d-8c20-f24ef16d7bf2
 source-git-commit: 31e25c511d8873e54c7b92e65511108a77f84941
 workflow-type: tm+mt
 source-wordcount: '842'
-ht-degree: 85%
+ht-degree: 88%
 
 ---
 
@@ -146,7 +146,7 @@ Notez que votre modèle WhatsApp doit d’abord être approuvé par Meta avant d
 
 1. Cliquez sur le bouton **[!UICONTROL Simuler le contenu]** pour prévisualiser le contenu de votre message WhatsApp, les URL raccourcies et le contenu personnalisé. [En savoir plus](send-whatsapp.md)
 
-Une fois que vous avez effectué vos tests et validé le contenu, vous pouvez [envoyer votre message WhatsApp](send-whatsapp.md) à votre audience et surveiller ses performances grâce à [reporting](../reports/campaign-global-report-cja.md).
+Une fois vos tests effectués et votre contenu validé, vous pouvez [envoyer votre message WhatsApp](send-whatsapp.md) à votre audience et surveiller ses performances à l’aide des [rapports](../reports/campaign-global-report-cja.md).
 
 <!--
 * **[!UICONTROL Template message]**: Predefined message imported from Meta into Journey Optimizer. These are intended for sending notifications, alerts, or updates to your customers.
@@ -195,6 +195,6 @@ La vidéo ci-dessous montre comment créer un parcours WhatsApp à plusieurs ét
 
 +++ Voir la vidéo
 
->[!VIDEO](https://video.tv.adobe.com/v/3470284/?learn=on&captions=fre_fr")
+>[!VIDEO](https://video.tv.adobe.com/v/3470282/?learn=on")
 
 +++
