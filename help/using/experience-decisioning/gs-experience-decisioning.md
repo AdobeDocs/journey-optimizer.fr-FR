@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 4c57dbf9-b2a4-42da-8aa3-5a1b3a475a32
-source-git-commit: 29532b5ebd140f9609a29c1375ceedecf55d0dfb
+source-git-commit: 41563414b2118ae1fcde65874c56f38daf4fa9ab
 workflow-type: tm+mt
-source-wordcount: '519'
-ht-degree: 93%
+source-wordcount: '521'
+ht-degree: 91%
 
 ---
 
@@ -28,7 +28,7 @@ Ces éléments de décision sont intégrés de manière transparente à un large
 
 >[!IMPORTANT]
 >
->Les politiques de décision, dans la prise de décisions, ne peuvent être utilisées que dans des campagnes d’expérience basée sur du code.
+>Les politiques de décision peuvent uniquement être utilisées dans une expérience basée sur du code et des campagnes par e-mail.
 
 ➡️ Un cas d’utilisation de bout en bout montrant comment créer des décisions et les utiliser dans des expériences de contenu avec le canal d’expérience basé sur du code est présenté dans [cette section](experience-decisioning-uc.md).
 
@@ -56,7 +56,7 @@ Les principales étapes pour utiliser la prise de décision sont les suivantes 
 
    La personne doit alors recevoir un e-mail la redirigeant vers votre instance.
 
-   +++
++++
 
 1. **Configurez des attributs personnalisés** : personnalisez le catalogue d’éléments selon vos besoins spécifiques en configurant des attributs personnalisés dans le schéma du catalogue.
 
