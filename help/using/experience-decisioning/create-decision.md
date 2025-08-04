@@ -6,9 +6,9 @@ topic: Integrations
 role: User
 level: Experienced
 exl-id: 63aa1763-2220-4726-a45d-3a3a8b8a55ec
-source-git-commit: 29532b5ebd140f9609a29c1375ceedecf55d0dfb
+source-git-commit: 229fb3d120727b51e011d8056f8d914c7968f2d0
 workflow-type: tm+mt
-source-wordcount: '2496'
+source-wordcount: '2495'
 ht-degree: 55%
 
 ---
@@ -67,7 +67,7 @@ Les principales étapes pour tirer parti des politiques de décision dans vos me
 * **Type de tracking et de liens** - Pour tracker les liens générés par la prise de décision, définissez-les dans le schéma comme « Assets de prise de décision ». Les liens basés sur les attributs ne sont pas traçables.
 * **Imbrication de politiques de décision dans des e-mails** - Vous ne pouvez pas imbriquer plusieurs politiques de décision dans un composant d’e-mail parent auquel est déjà associée une politique de décision.
 * **parcours/campagnes dupliqués avec prise de décision** - Si vous dupliquez un parcours ou une campagne qui inclut une politique de décision, la version dupliquée fait référence à l’e-mail ou à l’expérience basée sur du code d’origine, ce qui entraîne des erreurs. Reconfigurez toujours la politique de décision après la duplication.
-* **Politiques de consentement** - Les mises à jour des politiques de consentement peuvent prendre jusqu’à 24 heures. Si une politique de décision fait référence à un attribut lié à une politique de consentement récemment mise à jour, les modifications ne sont pas appliquées immédiatement.
+* **Politiques de consentement** - Les mises à jour des politiques de consentement prennent jusqu’à 48 heures. Si une politique de décision fait référence à un attribut lié à une politique de consentement récemment mise à jour, les modifications ne sont pas appliquées immédiatement.
 
   De même, si de nouveaux attributs de profil soumis à une politique de consentement sont ajoutés à une politique de décision, ils seront utilisables, mais la politique de consentement qui leur est associée ne sera pas appliquée tant que le délai ne sera pas écoulé.
 
@@ -120,7 +120,7 @@ Pour présenter la meilleure offre et la meilleure expérience dynamique aux des
 
 +++
 
-   +++Menu Email Designer **[!UICONTROL Prise de décision]**
+   Menu +++Email Designer **[!UICONTROL Prise de décision]**
 
    1. Sélectionnez un composant, cliquez sur l’icône **[!UICONTROL Prise de décision]** dans la barre d’outils ou le volet des propriétés, puis sélectionnez **[!UICONTROL Ajouter une nouvelle politique]**.
 
@@ -128,7 +128,7 @@ Pour présenter la meilleure offre et la meilleure expérience dynamique aux des
 
       ![](assets/decision-policy-email-designer.png)
 
-   +++
++++
 
 1. Attribuez un nom et sélectionnez un catalogue (actuellement limité au catalogue par défaut **[!UICONTROL Offres]**).
 
@@ -236,7 +236,7 @@ Offre 5 - 50
 
      Les offres classées sont désormais les suivantes : offre 5 , offre 3, offre 4, offre 2, offre 1 et offre 6.
 
-   +++
++++
 
 1. Cliquez sur **[!UICONTROL Suivant]**.
 
@@ -291,13 +291,13 @@ Une fois créée, la politique de décision et les attributs liés aux élément
 
    ![](assets/decision-policy-placement.png)
 
-   +++
++++
 
    +++Insérer le code de la politique de décision dans l’expérience basée sur le code
 
    ![](assets/decision-code-based-add-decision.png)
 
-   +++
++++
 
    >[!NOTE]
    >
@@ -314,7 +314,7 @@ Vous pouvez désormais ajouter tous les attributs de décision que vous souhaite
 >[!NOTE]
 >
 >Pour le suivi des éléments de la politique de décision, l’attribut `trackingToken` doit être ajouté comme suit pour le contenu de la politique de décision :
->&#x200B;>`trackingToken: {{item._experience.decisioning.decisionitem.trackingToken}}`
+>>`trackingToken: {{item._experience.decisioning.decisionitem.trackingToken}}`
 
 1. Cliquez sur chaque dossier pour le développer. Placez le curseur de votre souris à l’emplacement souhaité, puis cliquez sur l’icône + en regard de l’attribut à ajouter. Vous pouvez ajouter au code autant d’attributs que vous le souhaitez.
 
