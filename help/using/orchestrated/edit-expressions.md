@@ -10,7 +10,7 @@ exl-id: bf0a905f-00af-4ed7-9e4f-bf8cb0af9ea9
 source-git-commit: 3be1b238962fa5d0e2f47b64f6fa5ab4337272a5
 workflow-type: tm+mt
 source-wordcount: '2150'
-ht-degree: 97%
+ht-degree: 98%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 97%
 
 | Bienvenue dans les campagnes orchestrées | Lancement de votre première campagne orchestrée | Interroger la base de données | Activités de campagnes orchestrées |
 |---|---|---|---|
-| [Prise en main des campagnes orchestrées](gs-orchestrated-campaigns.md)<br/><br/>Création et gestion de schémas et de jeux de données relationnels :</br> <ul><li>[Prise en main des schémas et des jeux de données](gs-schemas.md)</li><li>[Schéma manuel](manual-schema.md)</li><li>[Schéma de chargement de fichier](file-upload-schema.md)</li><li>[ Ingérer des données ](ingest-data.md)</li></ul>[Accéder aux campagnes orchestrées et les gérer](access-manage-orchestrated-campaigns.md)<br/><br/>[Étapes clés pour créer une campagne orchestrée](gs-campaign-creation.md) | [Créer et planifier la campagne](create-orchestrated-campaign.md)<br/><br/>[Orchestrer les activités](orchestrate-activities.md)<br/><br/>[Démarrer et surveiller la campagne](start-monitor-campaigns.md)<br/><br/>[Reporting](reporting-campaigns.md) | [Utiliser le créateur de règles](orchestrated-rule-builder.md)<br/><br/>[Créer votre première requête](build-query.md)<br/><br/><b>[Modifier les expressions](edit-expressions.md)</b><br/><br/>[Reciblage](retarget.md) | [Commencer avec les activités](activities/about-activities.md)<br/><br/>Activités :<br/>[Rendez-vous](activities/and-join.md) - [Créer une audience](activities/build-audience.md) - [Changement de dimension](activities/change-dimension.md) - [Activités de canal](activities/channels.md) - [Combiner](activities/combine.md) - [Déduplication](activities/deduplication.md) - [Enrichissement](activities/enrichment.md) - [Branchement](activities/fork.md) - [Réconciliation](activities/reconciliation.md) - [Enregistrer l’audience](activities/save-audience.md) - [Partage](activities/split.md) - [Attente](activities/wait.md) |
+| [Prise en main des campagnes orchestrées](gs-orchestrated-campaigns.md)<br/><br/>Création et gestion de schémas et de jeux de données relationnels :</br> <ul><li>[Commencer avec des schémas et des jeux de données](gs-schemas.md)</li><li>[Schéma manuel](manual-schema.md)</li><li>[Schéma de chargement de fichier](file-upload-schema.md)</li><li>[Ingérer des données](ingest-data.md)</li></ul>[Accéder aux campagnes orchestrées et les gérer](access-manage-orchestrated-campaigns.md)<br/><br/>[Étapes clés pour créer une campagne orchestrée](gs-campaign-creation.md) | [Créer et planifier la campagne](create-orchestrated-campaign.md)<br/><br/>[Orchestrer les activités](orchestrate-activities.md)<br/><br/>[Démarrer et surveiller la campagne](start-monitor-campaigns.md)<br/><br/>[Reporting](reporting-campaigns.md) | [Utiliser le créateur de règles](orchestrated-rule-builder.md)<br/><br/>[Créer votre première requête](build-query.md)<br/><br/><b>[Modifier les expressions](edit-expressions.md)</b><br/><br/>[Reciblage](retarget.md) | [Commencer avec les activités](activities/about-activities.md)<br/><br/>Activités :<br/>[Rendez-vous](activities/and-join.md) - [Créer une audience](activities/build-audience.md) - [Changement de dimension](activities/change-dimension.md) - [Activités de canal](activities/channels.md) - [Combiner](activities/combine.md) - [Déduplication](activities/deduplication.md) - [Enrichissement](activities/enrichment.md) - [Branchement](activities/fork.md) - [Réconciliation](activities/reconciliation.md) - [Enregistrer l’audience](activities/save-audience.md) - [Partage](activities/split.md) - [Attente](activities/wait.md) |
 
 {style="table-layout:fixed"}
 
@@ -30,7 +30,7 @@ ht-degree: 97%
 
 >[!BEGINSHADEBOX]
 
-Le contenu de cette page n’est pas définitif et peut être modifié.
+Le contenu de cette page n’est pas définitif et est susceptible d’être modifié.
 
 >[!ENDSHADEBOX]
 
@@ -79,7 +79,7 @@ Les fonctions d’agrégat effectuent des calculs sur un jeu de valeurs.
 <td>Avg(&lt;valeur&gt;)</td>
 </tr>
 <tr>
-<td><strong>Nombre</strong></td>
+<td><strong>Number</strong></td>
 <td>Compte les valeurs non nulles d'une colonne</td>
 <td>Count(&lt;valeur&gt;)</td>
 </tr>
@@ -111,10 +111,10 @@ Les fonctions d’agrégat effectuent des calculs sur un jeu de valeurs.
 <tr>
 <td><strong>StringAgg</strong></td>
 <td>Renvoie la concaténation des valeurs d'une colonne de type chaîne, séparée par le caractère dans le deuxième argument</td>
-<td>StringAgg(&lt;Value&gt;,&lt;String&gt;)</td>
+<td>StringAgg(&lt;Valeur&gt;,&lt;Chaîne&gt;)</td>
 </tr>
 <tr>
-<td><strong>Somme</strong></td>
+<td><strong>Sum</strong></td>
 <td>Renvoie la somme des valeurs d'une colonne de type nombre, chaîne ou date</td>
 <td>Sum(&lt;valeur&gt;)</td>
 </tr>
@@ -165,7 +165,7 @@ Les fonctions de date manipulent les valeurs de date ou d’heure.
 <tr>
 <td><strong>ConvertNTZ</strong></td>
 <td>Convertit l’horodatage NTZ (horodatage sans fuseau horaire) en TZ (horodatage avec fuseau horaire) en application de la valeur TZ de session définie.</td>
-<td>ConvertNTZ(&lt;date+time&gt;)</td>
+<td>ConvertNTZ(&lt;date+heure&gt;)</td>
 </tr>
 <tr>
 <td><strong>DateCmp</strong></td>
@@ -178,7 +178,7 @@ Les fonctions de date manipulent les valeurs de date ou d’heure.
 <td>DateOnly(&lt;date&gt;)</td>
 </tr>
 <tr>
-<td><strong>Jour</strong></td>
+<td><strong>Day</strong></td>
 <td>Renvoie le nombre représentant le jour de la date.</td>
 <td>Day(&lt;date&gt;)</td>
 </tr>
@@ -213,7 +213,7 @@ Les fonctions de date manipulent les valeurs de date ou d’heure.
 <td>GetDate()</td>
 </tr>
 <tr>
-<td><strong>Heure</strong></td>
+<td><strong>Hour</strong></td>
 <td>Renvoie l’heure de la date</td>
 <td>Hour(&lt;date&gt;)</td>
 </tr>
@@ -233,7 +233,7 @@ Les fonctions de date manipulent les valeurs de date ou d’heure.
 <td>MinutesDiff(&lt;date de fin&gt;, &lt;date de début&gt;)</td>
 </tr>
 <tr>
-<td><strong>Mois</strong></td>
+<td><strong>Month</strong></td>
 <td>Renvoie le nombre représentant le mois de la date.</td>
 <td>Month(&lt;date&gt;)</td>
 </tr>
@@ -310,12 +310,12 @@ Les fonctions de date manipulent les valeurs de date ou d’heure.
 <tr>
 <td><strong>ToTimestamp</strong></td>
 <td>Convertir une chaîne en date et heure.</td>
-<td>ToTimestamp(&lt;string&gt;)</td>
+<td>ToTimestamp(&lt;chaîne&gt;)</td>
 </tr>
 <tr>
 <td><strong>ToTimeZone</strong></td>
 <td>Convertit une date et une heure en fuseau horaire</td>
-<td>ToTimeZone(&lt;date&gt;, &lt;time zone&gt;)</td>
+<td>ToTimeZone(&lt;date&gt;, &lt;fuseau horaire&gt;)</td>
 </tr>
 <tr>
 <td><strong>TruncDate</strong></td>
@@ -325,7 +325,7 @@ Les fonctions de date manipulent les valeurs de date ou d’heure.
 <tr>
 <td><strong>TruncDateTZ</strong></td>
 <td>Arrondit une date+heure à la seconde près</td>
-<td>TruncDateTZ(&lt;date&gt;, &lt;nombre de secondes&gt;, &lt;time zone&gt;)</td>
+<td>TruncDateTZ(&lt;date&gt;, &lt;nombre de secondes&gt;, &lt;fuseau horaire&gt;)</td>
 </tr>
 <tr>
 <td><strong>TruncQuarter</strong></td>
@@ -353,7 +353,7 @@ Les fonctions de date manipulent les valeurs de date ou d’heure.
 <td>WeekDay(&lt;date&gt;)</td>
 </tr>
 <tr>
-<td><strong>Année</strong></td>
+<td><strong>Year</strong></td>
 <td>Renvoie le nombre représentant l’année de la date.</td>
 <td>Year(&lt;date&gt;)</td>
 </tr>
@@ -502,7 +502,7 @@ Ce tableau contient les autres fonctions disponibles.
   <tr> 
    <td> <strong>AESEncrypt</strong><br /> </td> 
    <td> Chiffrer la chaîne fournie dans l’argument<br /> </td> 
-   <td> AESEncrypt(&lt;value&gt;)<br /> </td> 
+   <td> AESEncrypt(&lt;valeur&gt;)<br /> </td> 
   </tr>
   <tr> 
    <td> <strong>Case</strong><br /> </td> 
@@ -627,7 +627,7 @@ Les fonctions de chaîne sont utilisées pour manipuler un ensemble de chaînes.
   <tr> 
    <td> <strong>dataLength</strong><br /> </td> 
    <td> Renvoie la taille de la chaîne en octets <br /> </td> 
-   <td> dataLength(&lt;string&gt;)<br /></td> 
+   <td> dataLength(&lt;chaîne&gt;)<br /></td> 
   </tr> 
   <tr> 
    <td> <strong>GetLine</strong><br /> </td> 
@@ -652,7 +652,7 @@ Les fonctions de chaîne sont utilisées pour manipuler un ensemble de chaînes.
   <tr> 
    <td> <strong>JuxtWords3</strong><br /> </td> 
    <td> Concatène les chaînes passées en paramètres. Ajoute des espaces entre les chaînes si nécessaire.<br /> </td> 
-   <td> JuxtWords3(&lt;string&gt;, &lt;string&gt;, &lt;string&gt;)<br /></td>  
+   <td> JuxtWords3(&lt;chaîne&gt;, &lt;chaîne&gt;, &lt;chaîne&gt;)<br /></td>  
   </tr> 
   <tr> 
    <td> <strong>Left</strong><br /> </td> 
@@ -667,7 +667,7 @@ Les fonctions de chaîne sont utilisées pour manipuler un ensemble de chaînes.
   <tr> 
    <td> <strong>Line</strong><br /> </td> 
    <td> Extraire la ligne n de la chaîne<br /> </td> 
-   <td> Line(&lt;string&gt;,&lt;number&gt;)<br /></td> 
+   <td> Line(&lt;chaîne&gt;,&lt;nombre&gt;)<br /></td> 
   </tr>
   <tr> 
    <td> <strong>Lower</strong><br /> </td> 
@@ -677,7 +677,7 @@ Les fonctions de chaîne sont utilisées pour manipuler un ensemble de chaînes.
   <tr> 
    <td> <strong>LPad</strong><br /> </td> 
    <td> Renvoie la chaîne complétée à gauche<br /> </td> 
-   <td> LPad (&lt;String&gt;, &lt;Number&gt;, &lt;Char&gt;)<br /></td> 
+   <td> LPad (&lt;Chaîne&gt;, &lt;Nombre&gt;, &lt;Caractère&gt;)<br /></td> 
   </tr> 
   <tr> 
    <td> <strong>Ltrim</strong><br /> </td> 
@@ -697,12 +697,12 @@ Les fonctions de chaîne sont utilisées pour manipuler un ensemble de chaînes.
   <tr> 
    <td> <strong>NodeValue</strong><br /> </td> 
    <td> Extrait la valeur d’un champ XML de son XPath et des données de champ<br /> </td> 
-   <td> NodeValue (&lt;String&gt;, &lt;String&gt;)<br /></td> 
+   <td> NodeValue (&lt;Chaîne&gt;, &lt;Chaîne&gt;)<br /></td> 
   </tr> 
   <tr> 
    <td> <strong>Replace</strong><br /> </td> 
    <td> Remplace toutes les occurrences d’une valeur de chaîne spécifiée par une autre valeur de chaîne.<br /> </td> 
-   <td> Replace(&lt;String&gt;,&lt;String&gt;,&lt;String&gt;)<br /></td> 
+   <td> Replace(&lt;Chaîne&gt;,&lt;Chaîne&gt;,&lt;Chaîne&gt;)<br /></td> 
   </tr> 
   <tr> 
    <td> <strong>Right</strong><br /> </td> 
@@ -722,12 +722,12 @@ Les fonctions de chaîne sont utilisées pour manipuler un ensemble de chaînes.
   <tr> 
    <td> <strong>Sha256Digest</strong><br /> </td> 
    <td> Représentation hexadécimale de la clé SHA256 d’une chaîne.<br /> </td> 
-   <td> Sha256Digest (&lt;String&gt;)<br /> </td> 
+   <td> Sha256Digest (&lt;Chaîne&gt;)<br /> </td> 
   </tr> 
   <tr> 
    <td> <strong>Sha512Digest</strong><br /> </td> 
    <td> Représentation hexadécimale de la clé SHA512 d’une chaîne.<br /> </td> 
-   <td> Sha512Digest (&lt;String&gt;)<br /> </td> 
+   <td> Sha512Digest (&lt;Chaîne&gt;)<br /> </td> 
   </tr> 
   <tr> 
    <td> <strong>Smart</strong><br /> </td> 
@@ -774,7 +774,7 @@ Les fonctions de chaîne sont utilisées pour manipuler un ensemble de chaînes.
   <tr> 
    <td> <strong>_Over__</strong><br /> </td> 
    <td> Exécutez l’appel de fonction SQL saisi en tant que 1er paramètre, sur Partition ou Trier selon les champs saisis en tant que 2e paramètre.<br /> </td> 
-   <td> _Over_ (&lt;Value&gt;, &lt;Value&gt;)<br /> </td>  
+   <td> _Over_ (&lt;Valeur&gt;, &lt;Valeur&gt;)<br /> </td>  
   </tr> 
   <tr> 
    <td> <strong>Desc</strong><br /> </td> 
