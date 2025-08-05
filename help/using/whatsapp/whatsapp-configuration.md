@@ -10,7 +10,7 @@ exl-id: d1f40cd8-f311-4df6-b401-8858095cef3e
 source-git-commit: 31e25c511d8873e54c7b92e65511108a77f84941
 workflow-type: tm+mt
 source-wordcount: '823'
-ht-degree: 62%
+ht-degree: 75%
 
 ---
 
@@ -63,12 +63,12 @@ Après avoir créé et configuré vos informations d’identification API, vous 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_whatsapp_webhook_inbound_keyword_category"
 >title="Catégorie de mots-clés entrants"
->abstract="<b>Opt-in</b> : envoie votre réponse automatique définie lorsqu’un utilisateur s’abonne. <br/><b>Opt-out</b> : envoie votre réponse automatique définie lorsqu’un utilisateur se désabonne. <br/><b>Aide</b> : envoie votre réponse automatique définie lorsqu’un utilisateur demande de l’aide ou de l’assistance. <br/><b>Par défaut</b> : envoie votre réponse automatique de secours lorsqu’aucun mot-clé ne correspond."
+>abstract="<b>Opt-in</b> : envoie votre réponse automatique définie lorsqu’un utilisateur ou une utilisatrice s’abonne. <br/><b>Opt-out</b> : envoie votre réponse automatique définie lorsqu’un utilisateur ou une utilisatrice se désabonne. <br/><b>Aide</b> : envoie votre réponse automatique définie lorsqu’un utilisateur ou une utilisatrice demande de l’aide ou de l’assistance. <br/><b>Par défaut</b> : envoie votre réponse automatique de secours lorsqu’aucun mot-clé ne correspond."
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_whatsapp_webhook_inbound_keyword"
->title="Entrez vos mots-clés"
->abstract="Vous pouvez définir des mots-clés pour déclencher des réponses automatiques spécifiques en fonction du texte des utilisateurs. Les mots-clés ne sont pas sensibles à la casse ; par exemple, les arrêts et les arrêts sont traités de la même manière."
+>title="Saisir vos mots-clés"
+>abstract="Vous pouvez définir des mots-clés pour déclencher des réponses automatiques spécifiques en fonction du texte des utilisateurs et utilisatrices. Les mots-clés ne sont pas sensibles à la casse ; par exemple, arrêter et ARRÊTER sont traités de la même manière."
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_whatsapp_webhook_webhook_url"
@@ -77,7 +77,7 @@ Après avoir créé et configuré vos informations d’identification API, vous 
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_whatsapp_webhook_verify_token"
->title="Vérifier le jeton"
+>title="Jeton de vérification"
 >abstract="Jeton renvoyé par Meta pour confirmer et vérifier l’URL de rappel pendant le processus de vérification."
 
 >[!NOTE]
@@ -180,6 +180,6 @@ La vidéo ci-dessous montre comment configurer le canal WhatsApp dans Adobe Jour
 
 +++ Voir la vidéo
 
->[!VIDEO](https://video.tv.adobe.com/v/3470270/?learn=on&captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/3470268/?learn=on)
 
 +++

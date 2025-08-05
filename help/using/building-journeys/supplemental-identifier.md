@@ -1,15 +1,15 @@
 ---
-title: Utilisation d’identifiants supplémentaires dans les parcours
+title: Utiliser des identifiants supplémentaires dans les parcours
 description: Découvrez comment utiliser des identifiants supplémentaires dans les parcours.
 exl-id: f6ebd706-4402-448a-a538-e9a4c2cf0f8b
 source-git-commit: dcb2be7fef47e0d62fdd5a423799823ba4ef586c
 workflow-type: tm+mt
 source-wordcount: '1157'
-ht-degree: 72%
+ht-degree: 73%
 
 ---
 
-# Utilisation d’identifiants supplémentaires dans les parcours {#supplemental-id}
+# Utiliser des identifiants supplémentaires dans les parcours {#supplemental-id}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_parameters_supplemental_identifier"
@@ -244,4 +244,4 @@ Dans un tableau d’objets avec l’ID supplémentaire comme `bookingNum` et un 
 
 Découvrez comment activer et appliquer un identifiant supplémentaire dans [!DNL Adobe Journey Optimizer].
 
->[!VIDEO](https://video.tv.adobe.com/v/3464794?quality=12&captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/3464792?quality=12)
