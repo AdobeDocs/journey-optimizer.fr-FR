@@ -7,10 +7,10 @@ feature: Release Notes
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: e255751e411d8b623a12780a52a54551b5d65182
+source-git-commit: 3a44111345c1627610a6b026d7b19b281c4538d3
 workflow-type: tm+mt
-source-wordcount: '968'
-ht-degree: 17%
+source-wordcount: '591'
+ht-degree: 46%
 
 ---
 
@@ -21,92 +21,88 @@ ht-degree: 17%
 **Les notes de mise à jour préliminaires ci-dessous peuvent être modifiées sans préavis jusqu’à la date de disponibilité de la version**. Les liens, les copies d’écran et la documentation mise à jour sont publiés dans les [notes de mise à jour](release-notes.md) à la date de publication.
 
 
-## Notes de mise à jour préliminaires du 25 juillet {#25-7-rn}
-
+## Notes de mise à jour préliminaires du 25 août {#25-7-rn}
 
 **Les notes de mise à jour préliminaires ci-dessous peuvent être modifiées sans préavis jusqu’à la date de disponibilité de la version**. Les liens, les copies d’écran et la documentation mise à jour sont publiés à la date de publication.
 
-**Date de publication** : mercredi 29 juillet 2025
+Voir également les [notes de mise à jour préliminaires de Adobe Experience Platform](https://experienceleague.adobe.com/fr/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
+
+**Date de publication** : mercredi 19 août 2025
 
 
-### Nouvelles fonctionnalités {#25-7-features}
+### Nouvelles fonctionnalités {#Aug-25-8-features}
 
 Les nouvelles fonctionnalités de cette version sont présentées ci-dessous.
 
-#### Mises à jour des fonctionnalités
-
-
 <table>
 <thead>
 <tr>
-<th><strong>Canal WhatsApp</strong><br/></th>
+<th><strong>Suspendre et reprendre les parcours</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Journey Optimizer prend désormais en charge la messagerie WhatsApp directe, ce qui permet une intégration fluide dans vos parcours et campagnes pour une meilleure communication avec les destinataires et un meilleur engagement. Ce canal natif offre une intégration de modèle WhatsApp prête à l’emploi, la prévisualisation des messages, la personnalisation, les rapports de diffusion, les webhooks, la gestion du consentement pour l’opt-in et l’opt-out, etc.</p>
-<p>Publiée précédemment dans Beta, cette fonctionnalité est désormais disponible dans tous les environnements (disponibilité générale).</p>
-<p><img src="../whatsapp/assets/do-not-localize/WA-Animation.gif"/><p>
-<p><!--For more information, refer to the <a href="../FILE.md">detailed documentation</a>--></p>
+<p>Vous pouvez maintenant suspendre et reprendre les parcours. Cette fonctionnalité offre aux concepteurs et conceptrices du parcours un meilleur contrôle et une plus grande flexibilité en leur permettant de suspendre temporairement les parcours actifs sans perturber l’expérience client. Lorsque le parcours est suspendu, aucune communication n’est envoyée et les profils restent suspendus jusqu’à la reprise du parcours.</p>
+<p>Vous pouvez suspendre et reprendre un seul parcours ou un groupe de parcours par le biais d’opérations en bloc.</p>
+<p>En outre, vous pouvez appliquer des filtres globaux aux parcours suspendus afin d’exclure les profils en fonction de leurs attributs.</p>
+<img src="assets/do-not-localize/PauseResume.gif">
+<p>Auparavant disponible pour un nombre limité de clientes et clients (disponibilité limitée), cette fonctionnalité est désormais disponible dans tous les environnements (disponibilité générale).</p>
+<p>Pour plus d’informations, consultez la <a href="../building-journeys/journey-pause.md">documentation détaillée</a>.</p>
 </td>
 </tr>
 </tbody>
 </table>
 
+
+
 <table>
 <thead>
 <tr>
-<th><strong>Marques</strong><br/></th>
+<th><strong>Mode Calendrier</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Vous pouvez désormais créer et personnaliser vos propres marques pour définir clairement votre identité visuelle et verbale dans les communications. Grâce au score d’alignement de la marque, vous pouvez recevoir des commentaires en temps réel sur la manière dont votre contenu reflète le ton, le style et les directives de votre marque, ce qui vous permet de rester constamment en phase avec la marque pour chaque message envoyé.</p>
-<p>Publiée précédemment dans Beta, cette fonctionnalité est désormais disponible dans tous les environnements (disponibilité générale).</p>
-<p><!--img src="assets/do-not-localize/FILE.gif"/>--></p>
-<p><!--For more information, refer to the <a href="../FILE.md">detailed documentation</a>--></p>
+<p>Une vue Calendrier est désormais disponible dans les listes des parcours et des campagnes. Elle vous permet de visualiser toutes les activations de parcours et de campagnes dans les listes respectives.</p>
+<p>Auparavant disponible en disponibilité limitée, cette fonctionnalité est désormais disponible dans tous les environnements. Avec cette version de disponibilité générale, la fonctionnalité inclut :</p>
+<ul>
+<li>Améliorations de la conception pour la navigation dans les dates</li>
+<li>La possibilité de voir les brouillons de campagne si vous avez défini une date de début et de fin</li>
+<li>Nouveau paramètre permettant de masquer et d’afficher les éléments de calendrier s’exécutant depuis longtemps</li>
+</ul>
+<img src="assets/do-not-localize/calendar.gif">
+<p>Pour plus d’informations, consultez la <a href="../building-journeys/journey-ui.md#journeys-calendar">documentation détaillée</a></p>
 </td>
 </tr>
 </tbody>
 </table>
 
+
 <table>
 <thead>
 <tr>
-<th><strong>Utilisation d’Experience Decisioning dans le canal e-mail</strong><br/></th>
+<th><strong>Mode sombre dans le Concepteur d’e-mail</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Vous pouvez désormais ajouter des politiques de décision dans des parcours et des campagnes par e-mail. Les politiques de décision sont des conteneurs pour vos offres qui s’appuient sur le moteur de prise de décision pour renvoyer de manière dynamique le meilleur contenu à diffuser pour chaque membre de l’audience.</p>
-<p>Cette fonctionnalité n’est actuellement pas disponible pour être utilisée avec Healthcare Shield et Privacy and Security Shield (disponibilité limitée).</p>
-<p><!--img src="assets/do-not-localize/FILE.gif"/>--></p>
-<p><!--For more information, refer to the <a href="../FILE.md">detailed documentation</a>--></p>
+<p>Le Designer d’e-mail de Journey Optimizer permet désormais de passer en mode sombre, où vous pouvez définir des paramètres personnalisés spécifiques qui s’afficheront uniquement pour les destinataires qui lisent leurs e-mails en mode sombre.</p>
+<p>Prenez note des points suivants :</p>
+<ul>
+<li>Le rendu final en mode sombre peut varier et dépend du client de messagerie du destinataire.</li>
+<li>Les clients de messagerie ne prennent pas tous en charge le mode sombre personnalisé. De plus, certains clients de messagerie appliquent uniquement leur propre mode sombre par défaut pour tous les e-mails reçus. Dans les deux cas, le rendu des paramètres personnalisés que vous avez définis dans le Concepteur d’e-mail ne pourra pas être affiché.</li>
+</ul>
+<P>Cette fonctionnalité est actuellement en version Beta et disponible uniquement pour les clientes et clients Beta. Pour rejoindre le programme bêta, contactez votre représentant ou représentante Adobe.</p>
+<p><img src="assets/do-not-localize/dark-mode.gif"/></p>
+<p>Pour plus d’informations, consultez la <a href="../email/dark-mode.md">documentation détaillée</a>. </p>
 </td>
 </tr>
 </tbody>
 </table>
 
-<table>
-<thead>
-<tr>
-<th><strong>Activité Décision de contenu</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>Vous pouvez désormais inclure des offres personnalisées dans vos parcours par le biais d’une activité de décision de contenu dédiée dans la zone de travail de parcours et les utiliser dans des activités de parcours, y compris des conditions et des actions personnalisées.</p>
-<p>Publiée précédemment en disponibilité limitée, cette fonctionnalité est désormais disponible dans tous les environnements (disponibilité générale).</p>
-<p><!--img src="assets/do-not-localize/FILE.gif"/>--></p>
-<p><!--For more information, refer to the <a href="../FILE.md">detailed documentation</a>--></p>
-</td>
-</tr>
-</tbody>
-</table>
 
 <table>
 <thead>
@@ -120,110 +116,20 @@ Les nouvelles fonctionnalités de cette version sont présentées ci-dessous.
 <p>Journey Optimizer vous fournit désormais les outils nécessaires pour diffuser du contenu personnalisé et optimisé à l’audience de vos campagnes. Vous pouvez ainsi exécuter des expériences de contenu, créer un ciblage basé sur des règles et utiliser des combinaisons avancées des deux pour maximiser l’efficacité de vos campagnes.</p>
 <p>Avec l’optimisation, vous pouvez :</p>
 <ul>
-<li>Exécuter des expériences de contenu</li>
-<li>Utilisation des règles de ciblage</li>
-<li>Utilisez des combinaisons avancées d’expérimentation et de ciblage dans une seule campagne.</li></ul>
-<P>Une fois la campagne active, les profils sont évalués en fonction des critères définis. Ensuite, en fonction des critères correspondants, ils sont diffusés avec l’expérience ou le contenu approprié de la campagne.</p>
-<p><!--img src="assets/do-not-localize/FILE.gif"/>--></p>
-<p><!--For more information, refer to the <a href="../FILE.md">detailed documentation</a>--></p>
-</td>
-</tr>
-</tbody>
-</table>
-
-<table>
-<thead>
-<tr>
-<th><strong>Exécution d’essai de parcours</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>L’essai de parcours est un mode de publication de parcours spécial dans Adobe Journey Optimizer qui permet aux concepteurs et conceptrices de tester un parcours à l’aide de données de production réelles sans contacter les clients et clientes ni modifier les informations de profil. Cette fonctionnalité permet aux concepteurs et conceptrices du parcours de valider leur conception et leur ciblage d’audience avant de publier le parcours.</p>
-<p>Publiée précédemment en disponibilité limitée, cette fonctionnalité est désormais disponible dans tous les environnements (disponibilité générale).</p>
-<p><!--img src="assets/do-not-localize/FILE.gif"/>--></p>
-<p><!--For more information, refer to the <a href="../FILE.md">detailed documentation</a>--></p>
-</td>
-</tr>
-</tbody>
-</table>
-
-<table>
-<thead>
-<tr>
-<th><strong>Mode Calendrier</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>Auparavant disponible en disponibilité limitée, cette fonctionnalité est désormais disponible dans tous les environnements. Avec cette version de disponibilité générale, la fonctionnalité inclut :</p>
-<ul>
-<li>Améliorations de la conception pour la navigation dans les dates</li>
-<li>La possibilité de voir les brouillons de campagne si vous avez défini une date de début et de fin</li>
-<li>Nouveau paramètre permettant de masquer et d’afficher les éléments de calendrier s’exécutant depuis longtemps</li>
+<li>Testez plusieurs variations de contenu pour identifier le message le plus efficace.</li>
+<li>Diffusez du contenu personnalisé en fonction des attributs de l’utilisateur et des données contextuelles.</li>
+<li>Combinez le ciblage et l’expérimentation pour obtenir des stratégies de campagne avancées.</li>
+<li>Filtrez les utilisateurs qui ne correspondent pas aux critères de variante.</li>
+<li>Garantissez des mécanismes de secours pour maintenir l’interaction client.</li>
 </ul>
-<p><!--img src="assets/do-not-localize/FILE.gif"/>--></p>
-<p><!--For more information, refer to the <a href="../FILE.md">detailed documentation</a>--></p>
+<P>Une fois la campagne active, les profils sont évalués en fonction des critères définis. Ensuite, en fonction des critères correspondants, ils sont diffusés avec l’expérience ou le contenu approprié de la campagne.</p>
+<p><img src="assets/do-not-localize/campaign-optimization.gif"/></p>
+<!--p>For more information, refer to the <a href="../FILE.md">detailed documentation</a></p-->
 </td>
 </tr>
 </tbody>
 </table>
 
-<table>
-<thead>
-<tr>
-<th><strong>ID supplémentaire dans parcours</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>Publiée précédemment en disponibilité limitée, l’utilisation d’identifiants supplémentaires dans les parcours est désormais disponible pour tous les environnements. Avec cette version de disponibilité générale, la fonctionnalité prend désormais en charge les parcours Lecture d’audience .</p>
-<p><!--img src="assets/do-not-localize/FILE.gif"/>--></p>
-<p><!--For more information, refer to the <a href="../FILE.md">detailed documentation</a>--></p>
-</td>
-</tr>
-</tbody>
-</table>
-
-
-### Améliorations {#25-7-improv}
+### Améliorations {#Aug-25-8-improv}
 
 Les améliorations de cette version sont présentées ci-dessous.
-
-- **Concepteur d’e-mail**
-   - Le Designer d’e-mail de Journey Optimizer permet désormais de passer en mode sombre, où vous pouvez en outre définir des paramètres personnalisés spécifiques. Notez que le rendu final dépend du client de messagerie du destinataire. De plus, tous les clients de messagerie ne prennent pas en charge le mode sombre.
-  <!-- [Read more](../FILE.md) -->
-
-- **Campagnes**
-   - **Disqualification de campagne basée sur des règles** - Dans les cartes de contenu, lors de la modification de règles de diffusion supplémentaires, l’option Règles de diffusion précédente a été remplacée par trois types de règles distincts pour mieux contrôler la durée et la visibilité des messages :
-      - Afficher le message si : conditions qui déterminent à quel moment la carte de contenu est affichée.
-      - Ignorer le message si : conditions qui masquent temporairement la carte de contenu. Il peut réapparaître si les conditions d’affichage sont à nouveau remplies.
-      - Disqualifier le message si : conditions qui empêchent définitivement l’affichage de la carte de contenu.
-  <!-- [Read more](../FILE.md) -->
-
-   - **Plusieurs actions entrantes dans les campagnes** - Pour simplifier votre orchestration des campagnes, vous pouvez désormais définir plusieurs actions entrantes dans une seule campagne. Cette fonctionnalité vous permet de diffuser plusieurs expériences basées sur du code, messages in-app, cartes de contenu ou actions web à différents emplacements en même temps, chaque action contenant un contenu spécifique.
-  <!-- [Read more](../FILE.md) -->
-
-   - **Réorganisation de l’inventaire des campagnes** - Les campagnes planifiées et déclenchées par l’API sont désormais divisées en onglets distincts dans l’inventaire des campagnes pour une navigation et une gestion plus faciles.
-  <!-- [Read more](../FILE.md) -->
-
-- **Gestion des données**
-   - **Mise à jour des jeux de données du système de gestion des décisions** - Les offres personnalisées et de secours supprimées sont désormais marquées comme archivées dans les jeux de données « decision_object_repository_customized_offers » et « decision_object_repository_fallback_offers ». Les enregistrements existants du jeu de données ne sont pas modifiés.
-  <!-- [Read more](../FILE.md) -->
-
-- **Parcours**
-   - **Améliorations des outils de sandbox de Parcours** - Lors de la copie de parcours dans plusieurs sandbox à l’aide des fonctionnalités d’exportation et d’importation de package, les fonctionnalités suivantes sont désormais également disponibles :
-      - Copie sur un événement indépendamment d’un parcours
-      - Détecter les événements, les groupes de champs et les sources de données et les lier à la destination s’ils existent, en les créant dans le cas contraire.
-  <!-- [Read more](../FILE.md) -->
-
-- **Canal - InApp**
-   - **Paires clé/valeur in-app** - Avec les messages in-app, vous pouvez définir des paires clé/valeur pour inclure des variables personnalisées dans la payload du message. Ces paires clé-valeur vous permettent de transmettre des données supplémentaires en fonction de votre configuration et de votre cas d’utilisation spécifiques.
-  <!-- [Read more](../FILE.md) -->
-
-- **Personnalisation**
-   - Une nouvelle fonction d’assistance, « SHA256 », a été ajoutée à l’éditeur de personnalisation. Cette fonction est utilisée pour calculer et renvoyer le hachage sha256 d’une chaîne.
-  <!-- [Read more](../FILE.md) -->

@@ -7,11 +7,12 @@ feature: Journeys
 topic: Content Management
 role: User
 level: Intermediate
+mini-toc-levels: 1
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: bb3b07dc5dbb5ef50470caf52da2e10fcaf21a5e
+source-git-commit: 3a44111345c1627610a6b026d7b19b281c4538d3
 workflow-type: tm+mt
-source-wordcount: '2624'
-ht-degree: 92%
+source-wordcount: '2648'
+ht-degree: 91%
 
 ---
 
@@ -112,7 +113,6 @@ Les mécanismes de sécurisation et les limitations à garder à l’esprit lors
 
 * [Mécanismes de sécurisation et limitations de la prise de décisions](../experience-decisioning/decisioning-guardrails.md)
 * [Mécanismes de sécurisation et limitations de la gestion des décisions](../offers/decision-management-guardrails.md)
-
 
 ## Mécanismes de sécurisation des parcours {#journeys-guardrails}
 
@@ -259,3 +259,7 @@ Les mécanismes de sécurisation suivants s’appliquent aux activités **[!UICO
 
 * Les activités Adobe Campaign ne peuvent pas être utilisées avec une activité Lecture d’audience ou Qualification d’audience.
 * Les activités de campagne ne peuvent pas être utilisées avec les activités des autres canaux : Carte, Expérience basée sur du code, E-mail, Notification push, SMS, Messages in-app, Web.
+
+## Mécanismes de sécurisation de l’orchestration des campagnes {#orchestration-guardrails}
+
+Les mécanismes de sécurisation et les limitations à garder à l’esprit lorsque vous utilisez l’orchestration de Campaign sont détaillés dans cette section : [ Mécanismes de sécurisation et limitations de la gestion des décisions](../orchestrated/guardrails.md).

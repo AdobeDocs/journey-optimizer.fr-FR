@@ -3,38 +3,16 @@ solution: Journey Optimizer
 product: journey optimizer
 title: Création et planification de campagnes orchestrées avec Journey Optimizer
 description: Découvrez comment créer et planifier une campagne orchestrée avec Adobe Journey Optimizer
-badge: label="Alpha"
-hide: true
-hidefromtoc: true
 exl-id: 13da680d-fef8-4749-9190-8ca3d77b060a
-source-git-commit: 3be1b238962fa5d0e2f47b64f6fa5ab4337272a5
+source-git-commit: 3a44111345c1627610a6b026d7b19b281c4538d3
 workflow-type: tm+mt
-source-wordcount: '1232'
+source-wordcount: '1116'
 ht-degree: 68%
 
 ---
 
 
 # Créer et planifier une campagne orchestrée {#create-first-campaign}
-
-+++ Table des matières
-
-| Bienvenue dans les campagnes orchestrées | Lancement de votre première campagne orchestrée | Interroger la base de données | Activités de campagnes orchestrées |
-|---|---|---|---|
-| [Prise en main des campagnes orchestrées](gs-orchestrated-campaigns.md)<br/><br/>Création et gestion de schémas et de jeux de données relationnels :</br> <ul><li>[Commencer avec des schémas et des jeux de données](gs-schemas.md)</li><li>[Schéma manuel](manual-schema.md)</li><li>[Schéma de chargement de fichier](file-upload-schema.md)</li><li>[Ingérer des données](ingest-data.md)</li></ul>[Accéder aux campagnes orchestrées et les gérer](access-manage-orchestrated-campaigns.md)<br/><br/>[Étapes clés pour créer une campagne orchestrée](gs-campaign-creation.md) | <b>[Créer et planifier la campagne](create-orchestrated-campaign.md)</b><br/><br/>[Orchestrer les activités](orchestrate-activities.md)<br/><br/>[Démarrer et surveiller la campagne](start-monitor-campaigns.md)<br/><br/>[Reporting](reporting-campaigns.md) | [Utiliser le créateur de règles](orchestrated-rule-builder.md)<br/><br/>[Créer votre première requête](build-query.md)<br/><br/>[Modifier les expressions](edit-expressions.md)<br/><br/>[Reciblage](retarget.md) | [Commencer avec les activités](activities/about-activities.md)<br/><br/>Activités :<br/>[Rendez-vous](activities/and-join.md) - [Créer une audience](activities/build-audience.md) - [Changement de dimension](activities/change-dimension.md) - [Activités de canal](activities/channels.md) - [Combiner](activities/combine.md) - [Déduplication](activities/deduplication.md) - [Enrichissement](activities/enrichment.md) - [Branchement](activities/fork.md) - [Réconciliation](activities/reconciliation.md) - [Enregistrer l’audience](activities/save-audience.md) - [Partage](activities/split.md) - [Attente](activities/wait.md) |
-
-{style="table-layout:fixed"}
-
-+++
-<br/>
-
->[!BEGINSHADEBOX]
-
-</br>
-
-Le contenu de cette page n’est pas définitif et est susceptible d’être modifié.
-
->[!ENDSHADEBOX]
 
 Créez une campagne orchestrée dans [!DNL Adobe Journey Optimizer] et configurez son planning d’exécution pour contrôler le moment de son lancement et sa fréquence d’exécution. Vous pouvez lancer la campagne immédiatement, à une date et une heure spécifiques ou de manière récurrente à l’aide des options de planification flexibles telles que des fréquences quotidiennes, hebdomadaires ou mensuelles.
 
@@ -107,7 +85,7 @@ Pour configurer le planning de la campagne, procédez comme suit :
    * **[!UICONTROL Date]** : sélectionnez la date à laquelle la campagne doit être exécutée.
    * **[!UICONTROL Heure]** : sélectionnez l’heure spécifique à laquelle la campagne doit être exécutée.
 
-   +++
++++
 
    +++Tous les jours
 
@@ -121,7 +99,7 @@ Pour configurer le planning de la campagne, procédez comme suit :
 
    * **[!UICONTROL Heure de début]** : définissez l’heure à laquelle la campagne doit être exécutée chaque jour.
 
-   +++
++++
 
    +++Plusieurs fois par jour
 
@@ -130,7 +108,7 @@ Pour configurer le planning de la campagne, procédez comme suit :
    * **[!UICONTROL Heures sélectionnées]** : sélectionnez les heures spécifiques auxquelles la campagne doit être exécutée et configurez sa récurrence quotidienne (à exécuter tous les jours de la semaine ou certains jours).
    * **[!UICONTROL Périodique]** : choisissez d’exécuter la campagne toutes les X minutes ou toutes les X heures. Vous pouvez également définir la période de la journée pendant laquelle les exécutions sont autorisées.
 
-   +++
++++
 
    +++Toutes les semaines
 
@@ -141,7 +119,7 @@ Pour configurer le planning de la campagne, procédez comme suit :
    * **[!UICONTROL Récurrence quotidienne]** : sélectionnez les jours de la semaine où l’exécution doit avoir lieu (par exemple, tous les lundis et jeudis).
    * **[!UICONTROL Heure de début]** : définissez l’heure à laquelle la campagne doit être exécutée les jours sélectionnés.
 
-   +++
++++
 
    +++Tous les mois
 
@@ -157,7 +135,7 @@ Pour configurer le planning de la campagne, procédez comme suit :
 
    * **[!UICONTROL Heure de début]** : définissez l’heure d’exécution de la campagne.
 
-   +++
++++
 
 1. Utilisez le paramètre **[!UICONTROL Période de validité]** pour définir des dates de début et de fin spécifiques et limiter ainsi l’exécution de la campagne à une période limitée.
 

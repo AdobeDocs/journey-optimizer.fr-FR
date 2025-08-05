@@ -3,47 +3,36 @@ solution: Journey Optimizer
 product: journey optimizer
 title: Création de votre dimension de ciblage
 description: Découvrez comment mapper un schéma relationnel au profil client
-badge: label="Alpha"
-hide: true
-hidefromtoc: true
 exl-id: 2479c109-cd6f-407e-8a53-77e4477dc36f
-source-git-commit: 3be1b238962fa5d0e2f47b64f6fa5ab4337272a5
+source-git-commit: 3a44111345c1627610a6b026d7b19b281c4538d3
 workflow-type: tm+mt
-source-wordcount: '642'
-ht-degree: 9%
+source-wordcount: '713'
+ht-degree: 0%
 
 ---
 
+
 # Configuration d’une dimension de ciblage {#configuration}
 
-+++ Table des matières
+Grâce aux **[!UICONTROL Campagnes orchestrées]**, vous pouvez concevoir et diffuser des communications ciblées au niveau de l’entité, en exploitant les fonctionnalités du schéma relationnel de Adobe Experience Platform.
 
-| Bienvenue dans les campagnes orchestrées | Lancement de votre première campagne orchestrée | Interroger la base de données | Activités de campagnes orchestrées |
-|---|---|---|---|
-| [Prise en main des campagnes orchestrées](gs-orchestrated-campaigns.md)<br/><br/>Création et gestion de schémas et de jeux de données relationnels :</br> <ul><li>[Prise en main des schémas et des jeux de données](gs-schemas.md)</li><li>[Schéma manuel](manual-schema.md)</li><li>[Schéma de chargement de fichier](file-upload-schema.md)</li><li>[ Ingérer des données ](ingest-data.md)</li></ul>[Accéder aux campagnes orchestrées et les gérer](access-manage-orchestrated-campaigns.md)<br/><br/>[Étapes clés pour créer une campagne orchestrée](gs-campaign-creation.md)<br/><br/>[Configurer une dimension Target](target-dimension.md) | <b>[Créer et planifier la campagne](create-orchestrated-campaign.md)</b><br/><br/>[Orchestrer les activités](orchestrate-activities.md)<br/><br/>[Démarrer et surveiller la campagne](start-monitor-campaigns.md)<br/><br/>[Reporting](reporting-campaigns.md) | [Utiliser le créateur de règles](orchestrated-rule-builder.md)<br/><br/>[Créer votre première requête](build-query.md)<br/><br/>[Modifier les expressions](edit-expressions.md)<br/><br/>[Reciblage](retarget.md) | [Commencer avec les activités](activities/about-activities.md)<br/><br/>Activités :<br/>[Rendez-vous](activities/and-join.md) - [Créer une audience](activities/build-audience.md) - [Changement de dimension](activities/change-dimension.md) - [Activités de canal](activities/channels.md) - [Combiner](activities/combine.md) - [Déduplication](activities/deduplication.md) - [Enrichissement](activities/enrichment.md) - [Branchement](activities/fork.md) - [Réconciliation](activities/reconciliation.md) - [Enregistrer l’audience](activities/save-audience.md) - [Partage](activities/split.md) - [Attente](activities/wait.md) |
+Bien que la segmentation des **[!UICONTROL Campagnes orchestrées]** fonctionne principalement sur des schémas relationnels, la diffusion réelle des messages se produit toujours au niveau du **Profil**.
 
-{style="table-layout:fixed"}
+Lors de la configuration du ciblage, vous devez définir deux aspects essentiels :
 
-+++
+* **Schémas Cibles**
 
+  Vous spécifiez les schémas relationnels éligibles au ciblage. Par défaut, le schéma nommé `Recipient` est utilisé, mais vous pouvez configurer d’autres schémas tels que `Visitors`, `Customers`, etc.
 
-<br/>
+  >[!IMPORTANT]
+  >
+  > Le schéma cible doit avoir une relation 1:1 avec le schéma `Profile`. Par exemple, vous ne pouvez pas utiliser `Purchases` comme schéma cible, car il représente généralement une relation de type « un à plusieurs ».
 
->[!BEGINSHADEBOX]
+* **Liaison de profil**
 
-</br>
-
-Le contenu de cette page n’est pas définitif et peut être modifié.
-
->[!ENDSHADEBOX]
-
-Dans de nombreux cas, un seul profil client peut être lié à plusieurs entités associées, telles que des abonnements, des contrats de service ou des appareils, ayant chacun leur propre identifiant et leurs propres besoins en matière de communication.
-
-Grâce aux **Campagnes orchestrées**, vous pouvez désormais concevoir et diffuser des communications ciblées au niveau de l’entité, à l’aide des fonctionnalités de schéma relationnel de **Adobe Experience Platform**. Vous pouvez ainsi segmenter, personnaliser et générer des rapports par entité plutôt que par destinataire.
+  Le système doit comprendre comment le schéma cible est mappé au `Profile`. Pour ce faire, un champ d’identité partagé, qui existe à la fois dans le schéma cible et dans le schéma `Profile`, est configuré comme un espace de noms d’identité.
 
 ## Création de votre dimension de ciblage {#targeting-dimension}
-
-Un profil client unique peut être associé à plusieurs entités associées, telles que des contrats, des appareils ou des abonnements, chacune ayant son propre identifiant unique. Cette configuration vous permet de cibler, de segmenter et de générer des rapports sur chaque entité individuellement.
 
 Commencez par configurer l&#39;orchestration des campagnes en mappant un schéma relationnel au profil client.
 
@@ -55,21 +44,29 @@ Commencez par configurer l&#39;orchestration des campagnes en mappant un schéma
 
 1. Sélectionnez le [Schéma précédemment configuré](gs-schemas.md) &#x200B; dans la liste déroulante.
 
+   Bien que tous les schémas relationnels soient visibles, seuls les schémas ayant une relation d’identité directe avec le **Profil** peuvent être sélectionnés.
+
 1. Sélectionnez la **[!UICONTROL valeur d’identité]** qui représente l’entité à cibler.
 
    Dans cet exemple, le profil client est lié à plusieurs abonnements, chacun étant représenté par un `crmID` unique dans le schéma `Recipient`. En définissant le **[!UICONTROL Dimension cible]** pour utiliser le schéma `Recipient` et son identité `crmID`, vous pouvez envoyer des messages au niveau de l’abonnement, plutôt qu’au niveau du profil client principal, en vous assurant que chaque contrat ou ligne reçoit son propre message personnalisé.
 
-   [En savoir plus dans la documentation d’Adobe Experience Platform](https://experienceleague.adobe.com/fr/docs/experience-platform/xdm/schema/composition#identity)
+   [En savoir plus dans la documentation d’Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/composition#identity)
 
    ![](assets/target-dimension-2.png)
 
-1. Cliquez sur **[!UICONTROL Enregistrer]** pour terminer la configuration.
+1. Cliquez sur **[!UICONTROL Enregistrer]** pour terminer la configuration. Notez qu’une fois créée, une **[!UICONTROL dimension cible]** ne peut pas être supprimée ni modifiée.
 
 Après avoir configuré le **[!UICONTROL Dimension cible]**, procédez à la création et à la configuration de votre **[!UICONTROL Configuration de canal]** et définissez les **[!UICONTROL Détails d’exécution]** correspondants.
 
 ## Configuration de votre configuration de canal {#channel-configuration}
 
-Après avoir configuré votre **[!UICONTROL Dimension Target]**, vous devez configurer votre e-mail ou SMS **[!UICONTROL Configuration du canal]** et définir les **[!UICONTROL Détails d’exécution]** appropriés. Cela permet de s’assurer que les messages sont envoyés en utilisant la logique d’identité et de ciblage correcte.
+Après avoir configuré votre **[!UICONTROL Dimension Target]**, vous devez configurer votre e-mail ou SMS **[!UICONTROL Configuration du canal]** et définir les **[!UICONTROL Détails d’exécution]** appropriés. Vous pouvez ainsi définir :
+
+* **Niveau de diffusion des messages** : par exemple, l&#39;envoi d&#39;un message par destinataire, par exemple un seul e-mail par individu.
+
+* **Adresse d’exécution** : champ de contact spécifique à utiliser pour l’envoi, tel qu’une adresse e-mail ou un numéro de téléphone.
+
+Pour configurer la configuration de votre canal :
 
 1. Commencez par créer et configurer votre **[!UICONTROL configuration de canal]**.
 
@@ -93,15 +90,21 @@ Après avoir configuré votre **[!UICONTROL Dimension Target]**, vous devez conf
 
    ![](assets/target-dimension-4.png)
 
+1. Si vous avez sélectionné **[!UICONTROL Target + Dimension Secondaire]** comme méthode de diffusion, choisissez une **[!UICONTROL Dimension Secondaire]** pour définir le contexte de diffusion des messages.
+
 1. Dans la section **[!UICONTROL Adresse d’exécution]**, choisissez le **[!UICONTROL Source]** à utiliser pour récupérer l’adresse de diffusion, telle que l’adresse e-mail ou le numéro de téléphone :
 
    * **[!UICONTROL Profil]** : sélectionnez cette option si l’adresse de diffusion, par exemple l’adresse e-mail, est stockée directement dans le profil principal du client.
 
      Utile lors de l’envoi de messages au client principal, et non à une entité associée spécifique.
 
-   * **[!UICONTROL Dimension cible]** : choisissez cette option si l’adresse de diffusion est stockée dans l’entité associée, par exemple un destinataire ou un abonnement.
+   * **[!UICONTROL Dimension cible]** : choisissez cette option si l’adresse de diffusion est stockée dans l’entité principale, par exemple un destinataire.
 
      Utile lorsque chaque destinataire possède sa propre adresse de diffusion, telle qu’un e-mail ou un numéro de téléphone différent.
+
+   * **[!UICONTROL Dimension Secondaire]** : lorsque vous utilisez **[!UICONTROL Target + Dimension Secondaire]** comme méthode de diffusion, sélectionnez la **[!UICONTROL Dimension Secondaire appropriée]** que vous avez précédemment configurée.
+
+     Par exemple, si la dimension secondaire représente une réservation ou un abonnement, l’adresse d’exécution, telle qu’un e-mail, peut être extraite de ce niveau. Cela s’avère utile lorsque les profils utilisent des coordonnées différentes lors de la réservation ou de l’abonnement à un service.
 
 1. Dans le champ **[!UICONTROL Adresse de diffusion]**, cliquez sur ![icône de modification](assets/do-not-localize/edit.svg) pour choisir le champ spécifique à utiliser pour votre diffusion de messages.
 

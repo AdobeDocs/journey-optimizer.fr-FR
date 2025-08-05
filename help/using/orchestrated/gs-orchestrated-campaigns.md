@@ -3,16 +3,14 @@ solution: Journey Optimizer
 product: journey optimizer
 title: Commencer avec les campagnes orchestrées
 description: Découvrez comment commencer avec les campagnes orchestrées
-badge: label="Alpha"
-hide: true
-hidefromtoc: true
 exl-id: 611dd06d-aa18-4fa3-a477-8a910cec21d8
-source-git-commit: 458e0b19725147e0a3ad34891ca55b61f1ac44a8
+source-git-commit: 3a44111345c1627610a6b026d7b19b281c4538d3
 workflow-type: tm+mt
-source-wordcount: '628'
+source-wordcount: '579'
 ht-degree: 25%
 
 ---
+
 
 # Commencer avec les campagnes orchestrées {#orchestrated-camp}
 
@@ -20,26 +18,6 @@ ht-degree: 25%
 >id="campaigns_overview_orchestrated"
 >title="campaigns_overview_orchestrated"
 >abstract="<b>Orchestration de campagne</b><br/>Fractionner, combiner, enrichir et manipuler des jeux de données relationnelles pour définir votre audience<br/><br/> <b>Tirer parti des données multi-entités</b><br/>Découvrir comment les campagnes orchestrées peuvent tirer parti des jeux de données relationnelles pour enrichir les données pour la segmentation et la personnalisation.<br/><br/><b>Segmentation ad hoc et nombres exacts</b><br/>Créer votre segment étape par étape avec des nombres exacts<br/><br/><b>Canaux disponibles</b><br/>E-mail, SMS, Notifications push, Courrier"
-
-+++ Table des matières
-
-| Bienvenue dans les campagnes orchestrées | Lancement de votre première campagne orchestrée | Interroger la base de données | Activités de campagnes orchestrées |
-|---|---|---|---|
-| <b>[Prise en main des campagnes orchestrées](gs-orchestrated-campaigns.md)</b><br/><br/>Création et gestion de schémas et de jeux de données relationnels :</br> <ul><li>[Commencer avec des schémas et des jeux de données](gs-schemas.md)</li><li>[Schéma manuel](manual-schema.md)</li><li>[Schéma de chargement de fichier](file-upload-schema.md)</li><li>[Ingérer des données](ingest-data.md)</li></ul>[Accéder aux campagnes orchestrées et les gérer](access-manage-orchestrated-campaigns.md)<br/><br/>[Étapes clés pour créer une campagne orchestrée](gs-campaign-creation.md) | [Créer et planifier la campagne](create-orchestrated-campaign.md)<br/><br/>[Orchestrer les activités](orchestrate-activities.md)<br/><br/>[Démarrer et surveiller la campagne](start-monitor-campaigns.md)<br/><br/>[Reporting](reporting-campaigns.md) | [Utiliser le créateur de règles](orchestrated-rule-builder.md)<br/><br/>[Créer votre première requête](build-query.md)<br/><br/>[Modifier les expressions](edit-expressions.md)<br/><br/>[Reciblage](retarget.md) | [Commencer avec les activités](activities/about-activities.md)<br/><br/>Activités :<br/>[Rendez-vous](activities/and-join.md) - [Créer une audience](activities/build-audience.md) - [Changement de dimension](activities/change-dimension.md) - [Activités de canal](activities/channels.md) - [Combiner](activities/combine.md) - [Déduplication](activities/deduplication.md) - [Enrichissement](activities/enrichment.md) - [Branchement](activities/fork.md) - [Réconciliation](activities/reconciliation.md) - [Enregistrer l’audience](activities/save-audience.md) - [Partage](activities/split.md) - [Attente](activities/wait.md) |
-
-{style="table-layout:fixed"}
-
-+++
-
-<br/>
-
->[!BEGINSHADEBOX]
-
-</br>
-
-Le contenu de cette page n’est pas définitif et est susceptible d’être modifié.
-
->[!ENDSHADEBOX]
 
 L’orchestration des campagnes dans [!DNL Adobe Journey Optimizer] alimente des campagnes marketing sophistiquées et lancées par la marque sur l’ensemble des canaux, ce qui vous permet de stimuler l’engagement, le chiffre d’affaires et la fidélisation de la clientèle à grande échelle.
 
@@ -53,14 +31,14 @@ L’orchestration des campagnes repose sur quatre piliers principaux :
 
 <table style="table-layout:auto">
 <tr style="border: 0;">
-<td><img alt="Audiences à la demande" src="assets/do-not-localize/icon-audience.svg" width="50px"></a></td><td><b>Audiences à la demande</b><br/>Interrogez instantanément les jeux de données pour créer des segments d’audience à l’aide de n’importe quelle combinaison de types et de dimensions de données.</td></tr>
+<td><img alt="Audiences à la demande" src="assets/do-not-localize/icon-audience.svg" width="150px"></a></td><td><b>Audiences à la demande</b><br/>Interrogez instantanément les jeux de données pour créer des segments d’audience à l’aide de n’importe quelle combinaison de types et de dimensions de données.</td></tr>
 <tr style="border: 0;">
-<td><img alt="Segmentation et envoi d’entités multiples" src="assets/do-not-localize/icon-entity.svg" width="50px"></a></td><td><b>Segmentation et envoi d’entités multiples</b><br/>allez au-delà des campagnes basées sur les personnes : utilisez des entités telles que des catalogues de produits, des emplacements de magasin ou des données de service pour cibler avec précision.<br/><br/>
+<td><img alt="Segmentation et envoi d’entités multiples" src="assets/do-not-localize/icon-entity.svg" width="150px"></a></td><td><b>Segmentation et envoi d’entités multiples</b><br/>allez au-delà des campagnes basées sur les personnes : utilisez des entités telles que des catalogues de produits, des emplacements de magasin ou des données de service pour cibler avec précision.<br/><br/>
 Prise en charge de l’envoi à plusieurs niveaux, où un message est envoyé par profil et par entité secondaire associée. Ces entités secondaires peuvent inclure des adresses de contact, des réservations, des abonnements, des contrats ou d’autres données liées. Cela permet, par exemple, d’envoyer les campagnes à toutes les adresses connues d’un profil ou pour chaque réservation associée à ce profil.</td></tr>
 <tr style="border: 0;">
-<td><img alt="Visibilité et précision de la pré-envoi" src="assets/do-not-localize/icon-visibility.svg" width="50px"></a></td><td><b>Visibilité et précision de l’envoi préalable</b><br/>obtenez un nombre exact de segmentations et une portée complète de la campagne avant le lancement, pour garantir la précision et la confiance.</td></tr>
+<td><img alt="Visibilité et précision de la pré-envoi" src="assets/do-not-localize/icon-visibility.svg" width="150px"></a></td><td><b>Visibilité et précision de l’envoi préalable</b><br/>obtenez un nombre exact de segmentations et une portée complète de la campagne avant le lancement, pour garantir la précision et la confiance.</td></tr>
 <tr style="border: 0;">
-<td><img alt="Workflows de campagne à plusieurs étapes" src="assets/do-not-localize/icon-multistep.svg" width="50px"></a></td><td><b>Workflows de campagne à plusieurs étapes</b><br/>Concevez des campagnes à plusieurs étapes, des messages quotidiens aux campagnes complexes telles que les promotions saisonnières ou les lancements de produits majeurs.</td></tr>
+<td><img alt="Workflows de campagne à plusieurs étapes" src="assets/do-not-localize/icon-multistep.svg" width="150px"></a></td><td><b>Workflows de campagne à plusieurs étapes</b><br/>Concevez des campagnes à plusieurs étapes, des messages quotidiens aux campagnes complexes telles que les promotions saisonnières ou les lancements de produits majeurs.</td></tr>
 </table>
 
 ## Campagnes et parcours orchestrés
@@ -69,17 +47,25 @@ Même si la visualisation des campagnes orchestrées présente des similitudes a
 
 * **Parcours** - 1 à 1 canevas où chaque profil parcourt les différentes étapes à son propre rythme. L’état de chaque client est conservé dans son contexte pour déclencher des actions en temps réel.
 
-* **Campagnes orchestrées** - Contrairement aux parcours, les campagnes orchestrées fonctionnent à l’aide d’une zone de travail par lots qui calcule les segments. Tous les profils sont traités ensemble en même temps.
+* **Campagnes orchestrées** - Contrairement aux parcours, les campagnes orchestrées utilisent une zone de travail par lots qui calcule les segments. Tous les profils sont traités ensemble en même temps.
 
 Les deux zones de travail sont optimisées pour leurs cas d’utilisation respectifs : la zone de travail de Parcours publie les parcours qui ont tendance à vivre plus longtemps, tandis que la zone de travail de Campaign est conçue pour les exécutions itératives et incrémentielles d’une campagne par lots.
 
-## Conditions préalables
+## Que contient une campagne orchestrée ? {#gs-ms-campaign-inside}
 
-Avant d’utiliser des campagnes orchestrées, il est essentiel de vérifier que vous disposez des autorisations appropriées. L’accès aux campagnes orchestrées est limité aux utilisateurs affectés à un **[!UICONTROL profil de produit]** approprié, tel que l’administrateur de campagne orchestrée, l’approbateur de campagne orchestrée, le responsable de campagne orchestré ou la visionneuse de campagne orchestrée.
+La zone de travail de campagne orchestrée est une représentation de ce qui est censé se produire. Elle décrit les différentes tâches à effectuer et la manière dont elles sont liées.
 
-Si vous ne parvenez pas à accéder aux fonctionnalités de Campaign orchestrée, contactez votre administrateur pour demander les autorisations nécessaires.
+![image montrant une zone de travail de campagne orchestrée](assets/canvas-example.png)
 
-➡️ [En savoir plus sur les profils de produit liés aux campagnes orchestrées](../administration/ootb-product-profiles.md)
+Chaque campagne orchestrée contient :
+
+* des **Activités** : une activité est une tâche à effectuer. Les différentes activités disponibles sont représentées sur le diagramme par des icônes. Chaque activité possède des propriétés spécifiques et d’autres propriétés communes à toutes les activités.
+
+  Dans un diagramme de Campagne orchestrée, une même activité peut générer plusieurs tâches, notamment en cas de boucle ou d&#39;actions récurrentes.
+
+* **Transitions** : les transitions relient une activité source à une activité de destination et définissent leur ordre.
+
+* **Tables de travail** : la table de travail contient toutes les informations véhiculées par la transition. Chaque campagne orchestrée utilise plusieurs tables de travail. Les données transmises dans ces tableaux peuvent être utilisées tout au long du cycle de vie de la campagne orchestrée.
 
 ## Explorons plus en détail.
 

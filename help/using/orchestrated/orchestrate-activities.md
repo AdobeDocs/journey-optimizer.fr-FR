@@ -3,38 +3,16 @@ solution: Journey Optimizer
 product: journey optimizer
 title: Création de campagnes orchestrées avec Adobe Journey Optimizer
 description: Découvrez comment créer des campagnes orchestrées avec Adobe Journey Optimizer
-badge: label="Alpha"
-hide: true
-hidefromtoc: true
 exl-id: d1d64125-cf00-49c2-a71d-1494ede16f61
-source-git-commit: 3be1b238962fa5d0e2f47b64f6fa5ab4337272a5
+source-git-commit: 3a44111345c1627610a6b026d7b19b281c4538d3
 workflow-type: tm+mt
-source-wordcount: '998'
-ht-degree: 55%
+source-wordcount: '882'
+ht-degree: 56%
 
 ---
 
+
 # Activités de campagne orchestrée {#orchestrate}
-
-+++ Table des matières
-
-| Bienvenue dans les campagnes orchestrées | Lancement de votre première campagne orchestrée | Interroger la base de données | Activités de campagnes orchestrées |
-|---|---|---|---|
-| [Prise en main des campagnes orchestrées](gs-orchestrated-campaigns.md)<br/><br/>Création et gestion de schémas et de jeux de données relationnels :</br> <ul><li>[Prise en main des schémas et des jeux de données](gs-schemas.md)</li><li>[Schéma manuel](manual-schema.md)</li><li>[Schéma de chargement de fichier](file-upload-schema.md)</li><li>[ Ingérer des données ](ingest-data.md)</li></ul>[Accéder aux campagnes orchestrées et les gérer](access-manage-orchestrated-campaigns.md)<br/><br/>[Étapes clés pour créer une campagne orchestrée](gs-campaign-creation.md) | [Créer et planifier la campagne](create-orchestrated-campaign.md)<br/><br/><b>[Orchestrer les activités](orchestrate-activities.md)</b><br/><br/>[Démarrer et surveiller la campagne](start-monitor-campaigns.md)<br/><br/>[Reporting](reporting-campaigns.md) | [Utiliser le créateur de règles](orchestrated-rule-builder.md)<br/><br/>[Créer votre première requête](build-query.md)<br/><br/>[Modifier les expressions](edit-expressions.md)<br/><br/>[Reciblage](retarget.md) | [Commencer avec les activités](activities/about-activities.md)<br/><br/>Activités :<br/>[Rendez-vous](activities/and-join.md) - [Créer une audience](activities/build-audience.md) - [Changement de dimension](activities/change-dimension.md) - [Activités de canal](activities/channels.md) - [Combiner](activities/combine.md) - [Déduplication](activities/deduplication.md) - [Enrichissement](activities/enrichment.md) - [Branchement](activities/fork.md) - [Réconciliation](activities/reconciliation.md) - [Enregistrer l’audience](activities/save-audience.md) - [Partage](activities/split.md) - [Attente](activities/wait.md) |
-
-{style="table-layout:fixed"}
-
-+++
-
-<br/>
-
->[!BEGINSHADEBOX]
-
-</br>
-
-Le contenu de cette page n’est pas définitif et peut être modifié.
-
->[!ENDSHADEBOX]
 
 Une fois que vous avez [créé une campagne orchestrée](gs-campaign-creation.md), vous pouvez commencer à orchestrer les différentes tâches qu’elle exécutera. Pour ce faire, une zone de travail visuelle est fournie, vous permettant de créer un diagramme de campagne orchestré. Dans ce diagramme, vous pouvez ajouter différentes activités et les enchaîner dans un ordre séquentiel.
 
@@ -84,7 +62,7 @@ Lors de l’ajout d’activités, des boutons d’action sont disponibles dans l
 
 ![Pause icon](assets/do-not-localize/activity-pause.svg) ![Resume icon](assets/do-not-localize/activity-resume.svg) : suspendez/reprenez l’activité. Lorsque la campagne orchestrée est exécutée, elle se met en pause au niveau de l’activité en pause. La tâche correspondante, ainsi que toutes les suivantes dans le même chemin, ne sont pas exécutées.
 
-Vous pouvez utiliser n’importe quelle activité de la zone de travail comme point d’arrêt pour suspendre l’exécution de la campagne. Cela signifie que la campagne sera exécutée uniquement jusqu’à cette activité, puis que l’exécution sera suspendue. Pendant la suspension de l’exécution, le moteur de segmentation conserve les données temporaires à votre disposition pour la prévisualisation. Vous pouvez sélectionner la transition entrante juste avant l’activité en pause pour afficher les données transportées. En savoir plus sur cette section : [Surveillance visuelle du flux](../orchestrated/start-monitor-campaigns.md#flow).
+Vous pouvez utiliser n’importe quelle activité de la zone de travail comme point d’arrêt pour suspendre l’exécution de la campagne. Cela signifie que la campagne sera exécutée uniquement jusqu’à cette activité, puis que l’exécution sera suspendue. Pendant la suspension de l’exécution, le moteur de segmentation conserve les données temporaires à votre disposition pour la prévisualisation. Vous pouvez sélectionner la transition entrante juste avant l’activité en pause pour afficher les données transportées. En savoir plus sur cette section : [Surveillance visuelle du flux](../orchestrated/start-monitor-campaigns.md#flow)
 
 ![Copy icon](assets/do-not-localize/activity-copy.svg) : copiez l’activité. [Découvrez comment copier et coller les activités.](#copy)
 

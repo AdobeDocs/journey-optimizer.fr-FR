@@ -9,10 +9,10 @@ role: Admin, User
 level: Intermediate
 keywords: autorisations, création, messages
 exl-id: 5d014017-ca7c-4206-b783-989677ec0e1c
-source-git-commit: e20db7c39e751bf720cd0ae75b4e8f031de18eef
+source-git-commit: 3a44111345c1627610a6b026d7b19b281c4538d3
 workflow-type: tm+mt
-source-wordcount: '932'
-ht-degree: 100%
+source-wordcount: '987'
+ht-degree: 94%
 
 ---
 
@@ -40,6 +40,7 @@ Les autorisations intégrées représentent les différentes autorisations pouva
 | Règles Journey Optimizer | **[!DNL Manage frequency rules]** : accès, création, modification ou suppression des règles de fréquence des messages.</br>**[!DNL View frequency rules]** : accès en lecture seule aux règles. |
 | Parcours | **[!DNL Approve & publish Journeys]** : droit d’approuver et de publier des parcours lorsqu’une politique est appliquée. </br> **[!DNL Manage journeys]** : lecture, création, modification et suppression des parcours. Pour accéder aux parcours et les gérer, combinez cette autorisation à **[!DNL View journeys events, data sources and actions]**.</br>**[!DNL Manage journeys events, data sources and actions]** : lecture, création, modification et suppression des événements, des sources ou des actions.</br>**[!DNL Publish journeys]** : publication des parcours.</br>**[!DNL View journeys]** : accès en lecture seule aux parcours.</br>**[!DNL View journeys events, data sources and actions]** : accès en lecture seule aux événements de parcours, aux actions personnalisées de parcours et aux sources de données de parcours.</br>**[!DNL View journeys report]** : lecture et modification du rapport de parcours.</br> |
 | Messages | **[!DNL Manage messages]** : lecture, création, modification et suppression des messages. </br>**[!DNL Manage messages preview and test]** : droit d’approuver et de publier des messages lorsqu’une politique est appliquée.</br>**[!DNL Publish messages]** : droit de publier des messages.</br>**[!DNL View messages]** : accès en lecture seule aux messages.</br>**[!DNL View messages report]** : lecture et modification des rapports de message. |
+| Campagnes orchestrées | **[!DNL Manage orchestrated campaigns]** : la lecture, la création, la modification et la suppression des campagnes orchestrées </br>**[!DNL Manage orchestrated campaigns admin]**: la lecture, la création, la modification et la suppression des liens et des réconciliations entre les profils Adobe Experience Platform et les entités de magasin relationnel.</br>**[!DNL Publish orchestrated campaigns]** : publiez les campagnes orchestrées. </br>**[!DNL View orchestrated campaigns admin]**: la lecture et la modification des liens et des réconciliations entre les profils Adobe Experience Platform et les entités de magasin relationnel.</br>**[!DNL View orchestrated campaigns]** : la lecture et la modification des campagnes orchestrées </br>**[!DNL View orchestrated campaigns report]**: la lecture et la modification du rapport de campagnes orchestrées. |
 | Gestion des profils | **[!DNL Evaluate a segment to an audience]** : génération de profils pour une audience en évaluant une définition de segment.</br>**[!DNL Export audience segments]** : export d’un segment d’audience évalué vers un jeu de données.</br>**[!DNL Manage merge policies]** : lecture, création, modification et suppression des politiques de fusion.</br>**[!DNL Manage profiles]**: lecture, création, modification et suppression des jeux de données utilisés pour les profils de clients et clientes. Accès en lecture seule aux profils disponibles.</br>**[!DNL View merge policies]** : accès en lecture seule aux politiques de fusion disponibles.</br>**[!DNL View profiles]** : accès en lecture seule aux profils disponibles.</br>**[!DNL View segments]** : accès en lecture seule aux audiences disponibles. |
 | Query Service | **[!DNL Manage queries]** : lecture, création, modification et suppression des requêtes SQL structurées pour les données Platform.</br>**[!DNL Manage query service integration]** : création, mise à jour et suppression des informations dʼidentification sans date dʼexpiration pour lʼaccès à Query Service. |
 | Rapports | **[!DNL View channel reports]** : lecture et modification des rapports de canal. |
@@ -49,5 +50,3 @@ Les autorisations intégrées représentent les différentes autorisations pouva
 
 {style="table-layout:fixed"}
 
-<!--
-|Orchestrated campaigns|**[!DNL Manage orchestrated campaigns]**: read, create, edit, and delete orchestrated campaigns.</br>**[!DNL Publish orchestrated campaigns]**: publish orchestrated campaigns. </br>**[!DNL View orchestrated campaigns admin]**: XX. </br>**[!DNL Manage orchestrated campaigns admin]**: XX. </br>**[!DNL View orchestrated campaigns]**: read and edit orchestrated campaigns.</br>**[!DNL View orchestrated campaigns report]**: read and edit orchestrated campaigns report.|-->

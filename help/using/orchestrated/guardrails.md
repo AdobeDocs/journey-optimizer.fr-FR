@@ -3,97 +3,83 @@ solution: Journey Optimizer
 product: journey optimizer
 title: Mécanismes de sécurisation et limitations des campagnes orchestrées
 description: En savoir plus sur les mécanismes de sécurisation et les limitations des campagnes orchestrées
-hide: true
-hidefromtoc: true
 exl-id: 82744db7-7358-4cc6-a9dd-03001759fef7
-source-git-commit: 3be1b238962fa5d0e2f47b64f6fa5ab4337272a5
+source-git-commit: 3a44111345c1627610a6b026d7b19b281c4538d3
 workflow-type: tm+mt
-source-wordcount: '575'
-ht-degree: 10%
+source-wordcount: '432'
+ht-degree: 2%
 
 ---
 
+
 # Mécanismes de sécurisation et limitations {#guardrails}
 
-+++ Table des matières
+Vous trouverez ci-dessous des mécanismes de sécurisation et des limitations supplémentaires lors de l’utilisation de campagnes orchestrées.
 
-| Bienvenue dans les campagnes orchestrées | Lancement de votre première campagne orchestrée | Interroger la base de données | Activités de campagnes orchestrées |
-|---|---|---|---|
-| [Prise en main des campagnes orchestrées](gs-orchestrated-campaigns.md)<br/><br/>Création et gestion de schémas et de jeux de données relationnels :</br> <ul><li>[Prise en main des schémas et des jeux de données](gs-schemas.md)</li><li>[Schéma manuel](manual-schema.md)</li><li>[Schéma de chargement de fichier](file-upload-schema.md)</li><li>[ Ingérer des données ](ingest-data.md)</li></ul>[Accéder aux campagnes orchestrées et les gérer](access-manage-orchestrated-campaigns.md)<br/><br/>[Étapes clés pour créer une campagne orchestrée](gs-campaign-creation.md) | [Créer et planifier la campagne](create-orchestrated-campaign.md)<br/><br/>[Orchestrer les activités](orchestrate-activities.md)<br/><br/>[Démarrer et surveiller la campagne](start-monitor-campaigns.md)<br/><br/>[Reporting](reporting-campaigns.md) | [Utiliser le créateur de règles](orchestrated-rule-builder.md)<br/><br/>[Créer votre première requête](build-query.md)<br/><br/>[Modifier les expressions](edit-expressions.md)<br/><br/>[Reciblage](retarget.md) | [Commencer avec les activités](activities/about-activities.md)<br/><br/>Activités :<br/>[Rendez-vous](activities/and-join.md) - [Créer une audience](activities/build-audience.md) - [Changement de dimension](activities/change-dimension.md) - [Activités de canal](activities/channels.md) - [Combiner](activities/combine.md) - [Déduplication](activities/deduplication.md) - [Enrichissement](activities/enrichment.md) - [Branchement](activities/fork.md) - [Réconciliation](activities/reconciliation.md) - [Enregistrer l’audience](activities/save-audience.md) - [Partage](activities/split.md) - [Attente](activities/wait.md) |
+## Limites des flux de données
 
-{style="table-layout:fixed"}
+### Conception et stockage des données
 
-+++
+* Le magasin de données relationnel prend en charge **maximum 200 tables** (schémas).
 
-## Limites d’un flux de données à un jeu de données
+* Pour les campagnes orchestrées, la taille totale d’un schéma individuel **ne doit pas dépasser 100 Go**.
 
-Chaque jeu de données dans Adobe Experience Platform ne peut être associé qu’à un seul flux de données actif à la fois. Cette cardinalité 1:1 est strictement appliquée par la plateforme.
+* Les mises à jour quotidiennes d’un schéma doivent être **limitées à moins de 20 %** du nombre total d’enregistrements pour maintenir les performances et la stabilité.
 
-Si vous devez changer de source de données (par exemple, d’Amazon S3 vers Salesforce) :
+* Les données relationnelles sont le modèle principal pris en charge pour l’ingestion, la modélisation des données et les cas d’utilisation de segmentation.
 
-Vous devez supprimer le flux de données existant connecté au jeu de données.
+* Les schémas utilisés pour le ciblage doivent contenir au moins **un champ d’identité de type`String`**, mappé à un espace de noms d’identité défini.
 
-Créez ensuite un flux de données avec la nouvelle source mappée au même jeu de données.
-
-Cela garantit une ingestion de données fiable et est essentiel lors de l’utilisation de la capture de données modifiées (CDC), qui dépend d’une clé primaire et d’un attribut de version définis (par exemple, last modified) pour les mises à jour incrémentielles.
-
-
-## Schémas relationnels/limites d’ingestion des données
-
-* Jusqu’à 200 schémas relationnels (tables) sont pris en charge dans le magasin de données relationnelles.
-
-* La taille totale d’un schéma relationnel utilisé pour l’orchestration des campagnes ne doit pas dépasser 100 Go.
-
-* L’ingestion par lots pour l’orchestration des campagnes ne doit pas avoir lieu plus d’une fois toutes les 15 minutes.
-
-* Les modifications quotidiennes apportées à un schéma relationnel doivent rester inférieures à 20 % du nombre total d’enregistrements.
-
-## Modélisation des données
-
-* Le descripteur de version est obligatoire sur tous les schémas, y compris les tables de faits.
-
-* Une clé primaire est requise pour chaque table.
-
-* Le nom_table attribué lors de la création du jeu de données est utilisé dans l’interface utilisateur de segmentation et les fonctionnalités de personnalisation.
-
-  Ce nom est permanent et ne peut pas être modifié après sa création.
-
-* Les groupes de champs ne sont actuellement pas pris en charge.
-
-## Ingestion des données
+### Ingestion des données
 
 * Profil + ingestion de données relationnelles requise.
 
-* Un champ de type de modification est requis pour l’ingestion basée sur des fichiers, tandis que la journalisation des tables doit être activée pour l’ingestion de la base de données Cloud. Cela est nécessaire pour la capture des données modifiées (CDC).
+* Toute ingestion doit se faire via les sources **Modifier la capture de données** :
 
-* La latence entre l’ingestion et la disponibilité des données dans Snowflake varie de 15 minutes à 2 heures, selon le volume de données, la simultanéité et le type d’opérations (les insertions sont plus rapides que les mises à jour).
+   * Pour **Basé sur des fichiers** : `change_type` champ est obligatoire.
 
-* La surveillance des données dans Snowflake est en cours de développement. Il n’existe actuellement aucune confirmation native de réussite de l’ingestion.
+   * Pour **basé sur le cloud** : la journalisation des tables doit être activée.
 
-* Les mises à jour directes de Snowflake ou du jeu de données ne sont pas prises en charge. Toutes les modifications doivent transiter par les sources CDC.
+* **Les mises à jour directes de Snowflake ou de jeux de données ne sont pas prises en charge**. Le système est en lecture seule, toutes les modifications doivent être appliquées via la capture de données de modification.
 
-  Le service de requête est en lecture seule.
+* **Les processus ETL ne sont pas pris en charge**. Les données doivent être entièrement transformées au format requis avant l’ingestion.
 
-* ETL n’est pas pris en charge : les clients doivent fournir les données au format requis.
+* **Les mises à jour partielles ne sont pas autorisées**, chaque ligne doit être fournie en tant qu’enregistrement complet.
 
-* Les mises à jour partielles ne sont pas autorisées. Chaque ligne doit être fournie en tant qu’enregistrement complet.
+* L’ingestion par lots pour l’orchestration des campagnes est limitée à **toutes les 15 minutes**.
 
-* L’ingestion repose sur Query Service et Data Distiller.
+* La latence d’ingestion, le temps écoulé entre l’ingestion et la disponibilité dans Snowflake, varie généralement **de 15 minutes à 2 heures**, selon :
 
-## Segmentation
+   * Volume des données
 
-* La liste de valeurs et les énumérations sont actuellement disponibles.
+   * Simultanéité du système
 
-* Les audiences enregistrées sont des listes statiques dont le contenu reflète les données disponibles au moment de l’exécution de la campagne.
+   * Type d’opération : les insertions sont plus rapides que les mises à jour, par exemple.
 
-* L’ajout à une audience enregistrée n’est pas pris en charge. Les mises à jour nécessitent un remplacement complet.
+### Modélisation des données
 
-* Les audiences doivent consister uniquement en attributs scalaires ; les mappages et les tableaux ne sont pas pris en charge.
+* Tous les schémas, y compris les tableaux de faits, doivent inclure **un descripteur de version** pour garantir un contrôle et une traçabilité appropriés des versions.
 
-* La segmentation prend principalement en charge les données relationnelles. Bien que le mélange avec des données de profil soit autorisé, l’ajout de jeux de données de profil volumineux peut affecter les performances. Pour éviter cela :
+* Chaque table doit disposer d&#39;une **clé primaire** définie pour prendre en charge l&#39;intégrité des données et les opérations en aval.
 
-* Des mécanismes de sécurisation sont en place, comme la limitation du nombre d’attributs de profil sélectionnés dans les audiences par lots ou en flux continu.
+* Le `table_name` affecté lors de la création du jeu de données est permanent et est utilisé dans toutes les fonctionnalités de segmentation et de personnalisation.
 
-* Les audiences de lecture ne sont pas mises en cache : chaque exécution de campagne déclenche une lecture complète.
+* **Les groupes de champs ne sont pas pris en charge** dans le framework de modélisation des données actuel.
 
-  L’optimisation est nécessaire pour les audiences volumineuses ou complexes.
+## Limites des activités
+
+* Seuls les attributs **scalaires) sont pris en charge** dans les définitions d’audience. Les **mappages et tableaux ne sont pas autorisés**.
+
+* **Les activités de segmentation reposent principalement sur des données relationnelles**. Bien que les données de profil puissent être incluses, l’utilisation de jeux de données de profil volumineux peut avoir un impact sur les performances.
+
+* **Des limites sont appliquées au nombre d’attributs de profil** qui peuvent être utilisés dans les audiences par lots et en flux continu pour maintenir l’efficacité du système.
+
+* Les **listes de valeurs (LOV)** et **énumérations** sont entièrement prises en charge.
+
+* **Les audiences de lecture ne sont pas mises en cache**, chaque exécution de campagne déclenche une évaluation complète de l’audience à partir des données sous-jacentes.
+
+* **L’optimisation est vivement recommandée** lorsque vous utilisez des définitions d’audience volumineuses ou complexes afin d’assurer les performances.
+
+* **Les activités des audiences enregistrées sont statiques** elles reflètent les données disponibles au moment de l’exécution de la campagne.
+
+* **L’ajout à une activité Audience enregistrée n’est pas pris en charge**. Toute modification nécessite un remplacement complet de l’audience.

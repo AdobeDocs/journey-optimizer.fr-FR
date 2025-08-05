@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 925494b6-e08a-4bd3-8a2f-96a5d9cbc387
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
-workflow-type: ht
-source-wordcount: '3492'
-ht-degree: 100%
+source-git-commit: 3a44111345c1627610a6b026d7b19b281c4538d3
+workflow-type: tm+mt
+source-wordcount: '3521'
+ht-degree: 99%
 
 ---
 
@@ -35,6 +35,9 @@ La page **[!UICONTROL Rapport dynamique]** de la campagne s&#39;affiche avec les
 * [SMS](#sms-live)
 * [Web](#web-tab)
 * [Courrier](#direct-mail-tab)
+
+>[!AVAILABILITY]
+>Les campagnes orchestrées ne prennent en charge que les canaux SMS, E-mail et Push. Les autres canaux (in-app, web, courrier, etc.) ne sont pas disponibles dans les campagnes orchestrées et n’apparaissent pas dans les rapports.
 
 Le **[!UICONTROL rapport dyamique]** de campagne est divisé en différents widgets présentant le succès et les erreurs de votre campagne. Chaque widget peut être redimensionné et supprimé si nécessaire. Pour plus d&#39;informations à ce propos, consultez cette [section](../reports/live-report.md#modify-dashboard).
 

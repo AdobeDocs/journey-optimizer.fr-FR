@@ -3,38 +3,16 @@ solution: Journey Optimizer
 product: journey optimizer
 title: Créer votre première règle
 description: Découvrez comment créer des règles pour vos campagnes orchestrées
-badge: label="Alpha"
-hide: true
-hidefromtoc: true
 exl-id: 5e956a6a-0b89-4d78-8f16-fe9fceb25674
-source-git-commit: 3be1b238962fa5d0e2f47b64f6fa5ab4337272a5
+source-git-commit: 3a44111345c1627610a6b026d7b19b281c4538d3
 workflow-type: tm+mt
-source-wordcount: '1834'
-ht-degree: 95%
+source-wordcount: '1717'
+ht-degree: 97%
 
 ---
 
+
 # Créer votre première règle {#build-query}
-
-+++ Table des matières
-
-| Bienvenue dans les campagnes orchestrées | Lancement de votre première campagne orchestrée | Interroger la base de données | Activités de campagnes orchestrées |
-|---|---|---|---|
-| [Prise en main des campagnes orchestrées](gs-orchestrated-campaigns.md)<br/><br/>Création et gestion de schémas et de jeux de données relationnels :</br> <ul><li>[Prise en main des schémas et des jeux de données](gs-schemas.md)</li><li>[Schéma manuel](manual-schema.md)</li><li>[Schéma de chargement de fichier](file-upload-schema.md)</li><li>[ Ingérer des données ](ingest-data.md)</li></ul>[Accéder aux campagnes orchestrées et les gérer](access-manage-orchestrated-campaigns.md)<br/><br/>[Étapes clés pour créer une campagne orchestrée](gs-campaign-creation.md) | [Créer et planifier la campagne](create-orchestrated-campaign.md)<br/><br/>[Orchestrer les activités](orchestrate-activities.md)<br/><br/>[Démarrer et surveiller la campagne](start-monitor-campaigns.md)<br/><br/>[Reporting](reporting-campaigns.md) | [Utiliser le créateur de règles](orchestrated-rule-builder.md)<br/><br/><b>[Créer votre première requête](build-query.md)</b><br/><br/>[Modifier les expressions](edit-expressions.md)<br/><br/>[Reciblage](retarget.md) | [Commencer avec les activités](activities/about-activities.md)<br/><br/>Activités :<br/>[Rendez-vous](activities/and-join.md) - [Créer une audience](activities/build-audience.md) - [Changement de dimension](activities/change-dimension.md) - [Activités de canal](activities/channels.md) - [Combiner](activities/combine.md) - [Déduplication](activities/deduplication.md) - [Enrichissement](activities/enrichment.md) - [Branchement](activities/fork.md) - [Réconciliation](activities/reconciliation.md) - [Enregistrer l’audience](activities/save-audience.md) - [Partage](activities/split.md) - [Attente](activities/wait.md) |
-
-{style="table-layout:fixed"}
-
-+++
-
-<br/>
-
->[!BEGINSHADEBOX]
-
-</br>
-
-Le contenu de cette page n’est pas définitif et peut être modifié.
-
->[!ENDSHADEBOX]
 
 Les étapes principales pour créer des règles pour vos campagnes orchestrées sont les suivantes :
 
@@ -113,7 +91,7 @@ Pour ajouter des conditions à votre requête, procédez comme suit :
    | Comme | Quasiment identique à l’opérateur « Contient ». Il permet d’insérer un caractère générique « % » dans la valeur. | Nom (@lastName) comme « Jon%s ». Le caractère générique agit comme un « joker » pour trouver des noms tels que « Jones ». |
    | Pas comme | Quasiment identique à l’opérateur « Contient ». Il permet d’insérer un caractère générique « % » dans la valeur. | Nom (@lastName) pas comme « Smi%h ». Les personnes destinataires dont le nom est « Smith » ne seront pas renvoyées. |
 
-   +++
++++
 
 1. Dans le champ **Valeur**, définissez la valeur attendue. Vous pouvez également utiliser l’éditeur d’expression pour définir manuellement une expression à l’aide de champs de la base de données et de fonctions d’assistance. Pour ce faire, cliquez sur l’icône ![image affichant l’icône de l’éditeur d’expressions](assets/do-not-localize/rule-builder-icon-editor.svg). [Découvrez comment modifier des expressions](../orchestrated/edit-expressions.md)
 
@@ -123,7 +101,7 @@ Pour ajouter des conditions à votre requête, procédez comme suit :
 
    ![image affichant l’option de préréglage](assets/rule-builder-attribute-preset.png)
 
-   +++
++++
 
 ### Conditions personnalisées sur les tables liées (liens 1-1 et 1-N){#links}
 
@@ -230,8 +208,9 @@ Une fois que vous avez créé votre requête dans la zone de travail, vous pouve
 
 <br/>
 
-    >[!IMPORTANT]
-    >
-    >Sélectionnez un filtre prédéfini dans le volet Propriétés de la règle pour remplacer la règle qui a été créée dans la zone de travail avec le filtre sélectionné.
-
 Lorsque votre règle est prête, cliquez sur le bouton **[!UICONTROL Confirmer]** pour effectuer l’enregistrement.
+
+>[!IMPORTANT]
+>
+>La sélection d’un filtre prédéfini dans le volet Propriétés de la règle remplace la règle créée dans la zone de travail par le filtre sélectionné.
+

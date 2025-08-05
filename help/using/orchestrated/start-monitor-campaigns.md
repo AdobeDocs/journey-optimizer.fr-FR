@@ -3,15 +3,14 @@ solution: Journey Optimizer
 product: journey optimizer
 title: Démarrer et surveiller les campagnes orchestrées avec Adobe Journey Optimizer
 description: Découvrez comment démarrer et surveiller les campagnes orchestrées avec Adobe Journey Optimizer.
-hide: true
-hidefromtoc: true
 exl-id: 5fc2d1d6-75c3-4b45-bb2b-09982b9bd5ed
-source-git-commit: 5e52573689ab06084441390299b01e112e699244
+source-git-commit: 3a44111345c1627610a6b026d7b19b281c4538d3
 workflow-type: tm+mt
-source-wordcount: '841'
-ht-degree: 60%
+source-wordcount: '761'
+ht-degree: 55%
 
 ---
+
 
 # Démarrer et surveiller vos campagnes orchestrées {#start-monitor}
 
@@ -19,26 +18,6 @@ ht-degree: 60%
 >id="ajo_campaign_publication"
 >title="Publier une campagne orchestrée"
 >abstract="Pour lancer votre campagne, vous devez la publier. Assurez-vous que toutes les erreurs sont effacées avant la publication."
-
-+++ Table des matières
-
-| Bienvenue dans les campagnes orchestrées | Lancement de votre première campagne orchestrée | Interroger la base de données | Activités de campagnes orchestrées |
-|---|---|---|---|
-| [Prise en main des campagnes orchestrées](gs-orchestrated-campaigns.md)<br/><br/>Création et gestion de schémas et de jeux de données relationnels :</br> <ul><li>[Commencer avec des schémas et des jeux de données](gs-schemas.md)</li><li>[Schéma manuel](manual-schema.md)</li><li>[Schéma de chargement de fichier](file-upload-schema.md)</li><li>[Ingérer des données](ingest-data.md)</li></ul>[Accéder aux campagnes orchestrées et les gérer](access-manage-orchestrated-campaigns.md)<br/><br/>[Étapes clés pour créer une campagne orchestrée](gs-campaign-creation.md) | [Créer et planifier la campagne](create-orchestrated-campaign.md)<br/><br/>[Orchestrer les activités](orchestrate-activities.md)<br/><br/><b>[Démarrer et surveiller la campagne](start-monitor-campaigns.md)</b><br/><br/>[Reporting](reporting-campaigns.md) | [Utiliser le créateur de règles](orchestrated-rule-builder.md)<br/><br/>[Créer votre première requête](build-query.md)<br/><br/>[Modifier les expressions](edit-expressions.md)<br/><br/>[Reciblage](retarget.md) | [Commencer avec les activités](activities/about-activities.md)<br/><br/>Activités :<br/>[Rendez-vous](activities/and-join.md) - [Créer une audience](activities/build-audience.md) - [Changement de dimension](activities/change-dimension.md) - [Activités de canal](activities/channels.md) - [Combiner](activities/combine.md) - [Déduplication](activities/deduplication.md) - [Enrichissement](activities/enrichment.md) - [Branchement](activities/fork.md) - [Réconciliation](activities/reconciliation.md) - [Enregistrer l’audience](activities/save-audience.md) - [Partage](activities/split.md) - [Attente](activities/wait.md) |
-
-{style="table-layout:fixed"}
-
-+++
-
-<br/>
-
->[!BEGINSHADEBOX]
-
-</br>
-
-Le contenu de cette page n’est pas définitif et est susceptible d’être modifié.
-
->[!ENDSHADEBOX]
 
 Une fois que vous avez créé votre campagne orchestrée et conçu les tâches à effectuer dans la zone de travail, vous pouvez la publier et contrôler son exécution.
 
@@ -50,18 +29,13 @@ Vous pouvez également exécuter la campagne en mode test pour vérifier son ex�
 
 >[!IMPORTANT]
 >
->Toutes les activités de la zone de travail sont exécutées, à l’exception des activités **[!UICONTROL Sauvegarde d’audience]** et des activités de canal. Il n’y a aucun impact fonctionnel sur vos données ou votre audience.**
+>Toutes les activités de la zone de travail sont exécutées, à l’exception des activités **[!UICONTROL Sauvegarde d’audience]** et des activités de canal. L’opération n’a aucun impact fonctionnel sur vos données ou votre audience.
 
-Pour tester une campagne :
-
-1. Ouvrez la campagne orchestrée .
-2. Cliquez sur **[!UICONTROL Démarrer]**.
+Pour tester une campagne orchestrée, ouvrez la campagne et sélectionnez **[!UICONTROL Démarrer]**.
 
 ![](assets/campaign-start.png){zoomable="yes"}
 
-Chaque activité de la campagne est exécutée de manière séquentielle jusqu’à ce que la fin du diagramme soit atteinte.
-
-Pendant le test, vous pouvez contrôler l’exécution de la campagne à l’aide de la barre d’actions de la zone de travail. Plusieurs possibilités sʼoffrent alors à vous :
+Chaque activité de la campagne est exécutée de manière séquentielle jusqu’à la fin du diagramme. Pendant le test, vous pouvez contrôler l’exécution de la campagne à l’aide de la barre d’actions de la zone de travail. Plusieurs possibilités sʼoffrent alors à vous :
 
 * **Arrêtez** l’exécution à tout moment.
 * **Démarrez** l’exécution à nouveau.
@@ -104,7 +78,7 @@ Les données transportées d’une activité à l’autre via les transitions so
 1. Sélectionnez une transition.
 1. Dans le volet des propriétés, cliquez sur **[!UICONTROL Prévisualiser le schéma]** pour afficher le schéma de la table de travail. Sélectionnez **[!UICONTROL Prévisualiser les résultats]** pour afficher les données transportées.
 
-![](assets/transition.png){zoomable="yes"}
+   ![](assets/transition.png){zoomable="yes"}
 
 ### Indicateurs d’exécution d’une activité {#activities}
 
@@ -124,7 +98,9 @@ Les indicateurs visuels de statut vous aident à déterminer les performances de
 >title="Logs et tâches"
 >abstract="L’écran **Logs et tâches** fournit un historique de l’exécution de la campagne orchestrée : il consigne toutes les actions de l’utilisateur ou de l’utilisatrice, ainsi que les erreurs rencontrées."
 
-La surveillance des logs et des tâches est une étape essentielle pour analyser vos campagnes orchestrées et vérifier qu’elles s’exécutent correctement. Les journaux et les tâches sont accessibles à partir du bouton **[!UICONTROL Journaux]**, disponible dans les modes Test et Actif, dans la barre d’outils de la zone de travail ou dans le volet des propriétés de chaque activité.
+La surveillance des logs et des tâches est une étape essentielle pour analyser vos campagnes orchestrées et vérifier qu’elles s’exécutent correctement. Les journaux et les tâches sont accessibles à partir du bouton **[!UICONTROL Journaux]** disponible en mode test et actif dans la barre d’outils de la zone de travail.
+
+![](assets/logs-button.png){zoomable="yes"}
 
 L’écran **[!UICONTROL Journaux et tâches]** fournit un historique complet de l’exécution de votre campagne : il consigne toutes les actions de l’utilisateur ou de l’utilisatrice, ainsi que les erreurs rencontrées.
 
@@ -136,3 +112,7 @@ Deux types d’informations sont disponibles :
 * L’onglet **[!UICONTROL Tâches]** détaille la séquence d’exécution des activités, étape par étape.
 
 Sous les deux onglets, vous pouvez choisir les colonnes à afficher et leur ordre, appliquer des filtres et trouver rapidement des informations à l’aide du champ de recherche.
+
+## Étapes suivantes {#next}
+
+Après avoir démarré le diagramme de Campagne orchestrée, vous pouvez utiliser les fonctionnalités de création de rapports de Journey Optimizer pour obtenir des informations, telles que la compréhension du comportement de l’audience et la mesure des performances de chaque étape de votre parcours client. [En savoir plus sur le reporting des campagnes orchestrées](../orchestrated/reporting-campaigns.md)

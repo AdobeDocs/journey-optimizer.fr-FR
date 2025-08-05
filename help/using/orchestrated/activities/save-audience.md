@@ -3,16 +3,14 @@ solution: Journey Optimizer
 product: journey optimizer
 title: Utiliser l’activité Enregistrer l’audience
 description: Découvrez comment utiliser l’activité Enregistrer l’audience dans une campagne orchestrée
-badge: label="Alpha"
-hide: true
-hidefromtoc: true
 exl-id: 7b5b03ba-fbb1-4916-8c72-10778752d8e4
-source-git-commit: 458e0b19725147e0a3ad34891ca55b61f1ac44a8
+source-git-commit: 3a44111345c1627610a6b026d7b19b281c4538d3
 workflow-type: tm+mt
-source-wordcount: '479'
-ht-degree: 39%
+source-wordcount: '520'
+ht-degree: 23%
 
 ---
+
 
 # Enregistrer l’audience {#save-audience}
 
@@ -21,31 +19,10 @@ ht-degree: 39%
 >title="Activité Enregistrer l’audience"
 >abstract="L’activité **Enregistrer l’audience** est une activité de **Ciblage** qui permet de mettre à jour une audience existante ou d’en créer une nouvelle à partir de la population générée précédemment dans la campagne orchestrée. Une fois créées, ces audiences sont ajoutées à la liste des audiences de l’application. Vous pouvez y accéder à partir du menu **Audiences**."
 
-
-+++ Table des matières
-
-| Bienvenue dans les campagnes orchestrées | Lancement de votre première campagne orchestrée | Interroger la base de données | Activités de campagnes orchestrées |
-|---|---|---|---|
-| [Prise en main des campagnes orchestrées](../gs-orchestrated-campaigns.md)<br/><br/>Création et gestion de schémas et de jeux de données relationnels :</br> <ul><li>[Commencer avec des schémas et des jeux de données](../gs-schemas.md)</li><li>[Schéma manuel](../manual-schema.md)</li><li>[Schéma de chargement de fichier](../file-upload-schema.md)</li><li>[Ingérer des données](../ingest-data.md)</li></ul>[Accéder aux campagnes orchestrées et les gérer](../access-manage-orchestrated-campaigns.md) | [Étapes clés de création d’une campagne orchestrée](../gs-campaign-creation.md)<br/><br/>[Créez et planifiez la campagne](../create-orchestrated-campaign.md)<br/><br/>[Orchestrez les activités](../orchestrate-activities.md)<br/><br/>[Lancez et surveillez la campagne](../start-monitor-campaigns.md)<br/><br/>[Créez des rapports](../reporting-campaigns.md) | [Utiliser le créateur de règles](../orchestrated-rule-builder.md)<br/><br/>[Créer votre première requête](../build-query.md)<br/><br/>[Modifier les expressions](../edit-expressions.md)<br/><br/>[Reciblage](../retarget.md) | [Commencer avec les activités](about-activities.md)<br/><br/>Activités :<br/>[Rendez-vous](and-join.md) - [Créer une audience](build-audience.md) - [Changement de dimension](change-dimension.md) - [Activités de canal](channels.md) - [Combiner](combine.md) - [Déduplication](deduplication.md) - [Enrichissement](enrichment.md) - [Branchement](fork.md) - [Réconciliation](reconciliation.md) - <b>[Enregistrer l’audience](save-audience.md)</b> - [Partage](split.md) - [Attente](wait.md) |
-
-{style="table-layout:fixed"}
-
-+++
-
-
-<br/>
-
->[!BEGINSHADEBOX]
-
-</br>
-
-Le contenu de cette page n’est pas définitif et est susceptible d’être modifié.
-
->[!ENDSHADEBOX]
-
 L&#39;activité **[!UICONTROL Sauvegarde d&#39;audience]** est une activité **[!UICONTROL Ciblage]** utilisée pour créer une nouvelle audience ou mettre à jour une audience existante en fonction de la population générée précédemment dans la campagne orchestrée. Une fois enregistrée, l’audience est ajoutée à la liste des audiences de l’application et devient accessible à partir du menu **[!UICONTROL Audiences]**.
 
-Elle est généralement utilisée pour capturer des segments d’audience créés dans la même campagne, ce qui les rend disponibles pour réutilisation dans de futures campagnes. En règle générale, il est connecté à d’autres activités de ciblage, telles que **[!UICONTROL Créer une audience]** ou **[!UICONTROL Combiner]**, pour enregistrer la population ciblée finale.
+Elle est généralement utilisée pour capturer des segments d’audience créés dans le même workflow de campagne, ce qui les rend disponibles pour réutilisation dans de futures campagnes. En règle générale, il est connecté à d’autres activités de ciblage, telles que **[!UICONTROL Créer une audience]** ou **[!UICONTROL Combiner]**, pour enregistrer la population ciblée finale.
+Notez qu’avec l’activité **[!UICONTROL Enregistrer l’audience]** vous ne pouvez pas mettre à jour une audience existante. Vous pouvez uniquement créer une nouvelle audience ou remplacer une audience existante par une nouvelle définition.
 
 ## Configurer l’activité Enregistrer l’audience {#save-audience-configuration}
 
@@ -55,17 +32,27 @@ Pour configurer l’activité **[!UICONTROL Enregistrer l’audience]**, procéd
 
 1. Saisissez un **[!UICONTROL libellé d’audience]** qui identifiera l’audience enregistrée.
 
-1. Choisissez un **[!UICONTROL champ de mappage de profil&#x200B;]** à partir de votre dimension de ciblage de campagne.
+   >[!NOTE]
+   >
+   >L’audience **[!UICONTROL libellé]** doit être unique pour toutes les campagnes. Vous ne pouvez pas réutiliser un nom d’audience déjà utilisé dans l’activité **[!UICONTROL Enregistrer l’audience]** d’une autre campagne.
+
+1. Choisissez un **[!UICONTROL champ de mappage de profil&#x200B;]** à partir de votre dimension de ciblage de campagne. Ce mappage définit la manière dont les profils de l’**audience enregistrée** sont liés à la dimension cible de la campagne lors de l’exécution.
+
+   Seuls les mappings compatibles avec la dimension cible actuelle, c&#39;est-à-dire celui de la transition entrante, seront disponibles dans la liste déroulante pour assurer une réconciliation correcte entre l&#39;audience et le contexte de la campagne.
 
    ➡️ [Suivez les étapes présentées sur cette page pour créer votre dimension de ciblage de campagne](../target-dimension.md)
 
    ![](../assets/save-audience-1.png)
 
-1. Cliquez sur **[!UICONTROL Ajouter des mappages d’audience]** si vous souhaitez associer l’audience enregistrée à des champs d’identité supplémentaires.
+1. Cliquez sur **[!UICONTROL Ajouter des mappages d’audience]** pour inclure des données supplémentaires provenant d’attributs de la **[!UICONTROL dimension cible]** ou d’attributs **[!UICONTROL de profil]** enrichis.
+
+   Vous pouvez ainsi associer plus d’informations à l’activité **[!UICONTROL Audience enregistrée]** au-delà du mappage de profil principal, ce qui améliore le ciblage et les options de personnalisation.
 
    ![](../assets/save-audience-2.png)
 
 1. Finalisez votre configuration en enregistrant et en publiant la campagne orchestrée. Cette opération génère et stocke votre audience.
+
+1. Publiez la campagne pour l’audience à créer ou à remplacer, car l’activité **[!UICONTROL Enregistrer l’audience]** ne s’exécute pas lorsque la campagne est en **[!UICONTROL mode Brouillon]**.
 
 Le contenu de l’audience enregistrée est alors disponible dans la vue détaillée de l’audience. Elle est accessible à partir du menu **[!UICONTROL Audiences]** ou peut être sélectionnée lors du ciblage d’une audience, par exemple avec une activité **[!UICONTROL Lecture d’audience]**.
 

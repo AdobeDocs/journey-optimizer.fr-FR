@@ -1,25 +1,25 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Vérifier et activer une campagne d’action
-description: Découvrez comment vérifier et activer des campagnes d’action dans [!DNL Journey Optimizer].
+title: Vérification et activation d’une campagne d’action
+description: Découvrez comment vérifier et activer des campagnes d’action dans  [!DNL Journey Optimizer].
 feature: Campaigns
 topic: Content Management
 role: User
 level: Intermediate
 keywords: campagne, vérification, validation, activation, activer, optimizer
 exl-id: 7c4afc98-0d79-4e26-90f8-558bac037169
-source-git-commit: 1bdba8c5c1a9238d351b159551f6d3924935b339
-workflow-type: ht
+source-git-commit: 3a44111345c1627610a6b026d7b19b281c4538d3
+workflow-type: tm+mt
 source-wordcount: '283'
-ht-degree: 100%
+ht-degree: 86%
 
 ---
 
 
-# Vérifier et activer la campagne d’action {#action-campaign-review}
+# Examiner et activer la campagne d’action {#action-campaign-review}
 
-Une fois votre campagne configurée, vous devez vérifier ses paramètres et son contenu avant de l’activer. Pour ce faire, procédez comme suit :
+Une fois votre campagne d’action configurée, vous devez passer en revue son paramètre et son contenu avant de l’activer. Pour ce faire, procédez comme suit :
 
 >[!IMPORTANT]
 >

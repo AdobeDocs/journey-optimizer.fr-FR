@@ -3,39 +3,16 @@ solution: Journey Optimizer
 product: journey optimizer
 title: Étapes clés de création d’une campagne orchestrée
 description: Découvrez les principes fondamentaux de la création de campagnes orchestrées avec Adobe Journey Optimizer
-badge: label="Alpha"
-hide: true
-hidefromtoc: true
 exl-id: b04aa15a-71bf-4683-bcbf-f611c189ffe1
-source-git-commit: 3be1b238962fa5d0e2f47b64f6fa5ab4337272a5
+source-git-commit: 3a44111345c1627610a6b026d7b19b281c4538d3
 workflow-type: tm+mt
-source-wordcount: '399'
-ht-degree: 60%
+source-wordcount: '296'
+ht-degree: 62%
 
 ---
 
 
 # Étapes clés de création d’une campagne orchestrée {#orchestrated-campaign-creation}
-
-+++ Table des matières
-
-| Bienvenue dans les campagnes orchestrées | Lancement de votre première campagne orchestrée | Interroger la base de données | Activités de campagnes orchestrées |
-|---|---|---|---|
-| [Prise en main des campagnes orchestrées](gs-orchestrated-campaigns.md)<br/><br/>Création et gestion de schémas et de jeux de données relationnels :</br> <ul><li>[Prise en main des schémas et des jeux de données](gs-schemas.md)</li><li>[Schéma manuel](manual-schema.md)</li><li>[Schéma de chargement de fichier](file-upload-schema.md)</li><li>[ Ingérer des données ](ingest-data.md)</li></ul>[Accéder aux campagnes orchestrées et les gérer](access-manage-orchestrated-campaigns.md)<br/><br/><b>[Étapes clés pour créer une campagne orchestrée](gs-campaign-creation.md)</b> | [Créer et planifier la campagne](create-orchestrated-campaign.md)<br/><br/>[Orchestrer les activités](orchestrate-activities.md)<br/><br/>[Démarrer et surveiller la campagne](start-monitor-campaigns.md)<br/><br/>[Reporting](reporting-campaigns.md) | [Utiliser le créateur de règles](orchestrated-rule-builder.md)<br/><br/>[Créer votre première requête](build-query.md)<br/><br/>[Modifier les expressions](edit-expressions.md)<br/><br/>[Reciblage](retarget.md) | [Commencer avec les activités](activities/about-activities.md)<br/><br/>Activités :<br/>[Rendez-vous](activities/and-join.md) - [Créer une audience](activities/build-audience.md) - [Changement de dimension](activities/change-dimension.md) - [Activités de canal](activities/channels.md) - [Combiner](activities/combine.md) - [Déduplication](activities/deduplication.md) - [Enrichissement](activities/enrichment.md) - [Branchement](activities/fork.md) - [Réconciliation](activities/reconciliation.md) - [Enregistrer l’audience](activities/save-audience.md) - [Partage](activities/split.md) - [Attente](activities/wait.md) |
-
-{style="table-layout:fixed"}
-
-+++
-
-<br/>
-
->[!BEGINSHADEBOX]
-
-</br>
-
-Le contenu de cette page n’est pas définitif et peut être modifié.
-
->[!ENDSHADEBOX]
 
 Cette page vous guide tout au long des étapes essentielles pour créer et lancer une campagne orchestrée, depuis la configuration et la conception jusqu’à la surveillance et le reporting.
 
@@ -47,7 +24,9 @@ Cette page vous guide tout au long des étapes essentielles pour créer et lance
 <td><a href="#report"><img alt="Analyze & report on results" src="../../channels/assets/do-not-localize/push.png"></a><a href="#report"><strong>Analyze & report on results</strong></a></td>
 </tr></table>-->
 
-
+>[!IMPORTANT]
+>
+>Avant de créer votre campagne, vérifiez que vous avez consulté les conditions préalables générales de la campagne [campaign)](../campaigns/get-started-with-campaigns.md#prerequisites).
 
 ## Étape 1 : créer et planifier votre campagne {#create}
 

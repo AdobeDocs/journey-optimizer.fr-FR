@@ -5,9 +5,9 @@ user-guide-title: Guide de Journey Optimizer
 user-guide-description: Utilisez Journey Optimizer pour créer et proposer aux clients des expériences connectées, contextuelles et personnalisées
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: dcb2be7fef47e0d62fdd5a423799823ba4ef586c
+source-git-commit: 3a44111345c1627610a6b026d7b19b281c4538d3
 workflow-type: tm+mt
-source-wordcount: '2594'
+source-wordcount: '2591'
 ht-degree: 98%
 
 ---
@@ -56,7 +56,7 @@ ht-degree: 98%
    + Gérer vos parcours {#manage-journey}
       + [Parcourir et filtrer vos parcours](using/building-journeys/journey-ui.md)
       + [Entrée de profil dans les parcours](using/building-journeys/entry-management.md)
-      + [Utilisation d’identifiants supplémentaires dans les parcours](using/building-journeys/supplemental-identifier.md)
+      + [Utiliser des identifiants supplémentaires dans les parcours](using/building-journeys/supplemental-identifier.md)
       + [Gestion des fuseaux horaires](using/building-journeys/timezone-management.md)
       + [Optimisation de l’heure d’envoi](using/building-journeys/send-time-optimization.md)
       + [Fin de votre parcours](using/building-journeys/end-journey.md)
@@ -184,13 +184,13 @@ ht-degree: 98%
    + [Commencer avec les campagnes](using/campaigns/get-started-with-campaigns.md)
    + [Accéder aux campagnes et les gérer](using/campaigns/modify-stop-campaign.md)
    + Campagnes d’action {#action-campaigns}
-      + [Utiliser des campagnes d’action](using/campaigns/create-campaign.md)
+      + [Utiliser les campagnes d’action](using/campaigns/create-campaign.md)
       + [Définir les propriétés de la campagne](using/campaigns/campaign-properties.md)
       + [Configurer l’action de campagne](using/campaigns/campaign-action.md)
       + [Modifier le contenu de la campagne](using/campaigns/campaign-content.md)
       + [Définir l’audience de la campagne](using/campaigns/campaign-audience.md)
       + [Planifier la campagne](using/campaigns/campaign-schedule.md)
-      + [Vérifier et activer une campagne d’action](using/campaigns/review-activate-campaign.md)
+      + [Vérification et activation d’une campagne d’action](using/campaigns/review-activate-campaign.md)
    + Campagnes déclenchées par API {#api-triggered-campaigns}
       + [Utiliser des campagnes déclenchées par API](using/campaigns/api-triggered-campaigns.md)
       + [Définir les propriétés de la campagne](using/campaigns/api-triggered-campaign-properties.md)
@@ -201,15 +201,15 @@ ht-degree: 98%
       + [Vérifier et activer la campagne](using/campaigns/review-activate-api-triggered-campaign.md)
       + [Déclencher l’exécution de la campagne](using/campaigns/trigger-campaigns.md)
    + Campagnes orchestrées {#orchestrated-campaigns}
-      + [Prise en main des campagnes orchestrées](using/orchestrated/gs-orchestrated-campaigns.md)
-      + Gérer des schémas et des jeux de données relationnels {#schemas-datasets}
-         + [Commencer à utiliser des schémas et des jeux de données](using/orchestrated/gs-schemas.md)
-         + [Schéma manuel](using/orchestrated/manual-schema.md)
-         + [Schéma de chargement de fichiers](using/orchestrated/file-upload-schema.md)
-         + [Ingérer des données](using/orchestrated/ingest-data.md)
-      + [Accéder aux campagnes orchestrées et les gérer](using/orchestrated/access-manage-orchestrated-campaigns.md)
-      + [Création d’une dimension de ciblage](using/orchestrated/target-dimension.md)
+      + [Commencer avec les campagnes orchestrées](using/orchestrated/gs-orchestrated-campaigns.md)
       + [Mécanismes de sécurisation et limitations](using/orchestrated/guardrails.md)
+      + Configuration des données {#configuration}
+         + Gérer des schémas et des jeux de données relationnels {#schemas-datasets}
+            + [Commencer à utiliser des schémas et des jeux de données](using/orchestrated/gs-schemas.md)
+            + [Schéma manuel](using/orchestrated/manual-schema.md)
+            + [Schéma de chargement de fichiers](using/orchestrated/file-upload-schema.md)
+            + [Ingérer des données](using/orchestrated/ingest-data.md)
+         + [Création d’une dimension de ciblage](using/orchestrated/target-dimension.md)
       + Lancement de votre première campagne orchestrée{#launch}
          + [Étapes clés de création d’une campagne orchestrée](using/orchestrated/gs-campaign-creation.md)
          + [Créer et planifier la campagne](using/orchestrated/create-orchestrated-campaign.md)

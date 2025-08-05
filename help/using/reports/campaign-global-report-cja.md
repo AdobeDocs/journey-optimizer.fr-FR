@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: b74d3137-2dd9-4302-a56e-73503d318d18
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
-workflow-type: ht
-source-wordcount: '490'
-ht-degree: 100%
+source-git-commit: 3a44111345c1627610a6b026d7b19b281c4538d3
+workflow-type: tm+mt
+source-wordcount: '519'
+ht-degree: 94%
 
 ---
 
@@ -44,6 +44,9 @@ Les KPI varient en fonction des canaux utilisés dans votre campagne.
 * **[!UICONTROL Affichages]** : nombre de fois que le message a été ouvert.
 
 +++
+
+>[!AVAILABILITY]
+>Les campagnes orchestrées ne prennent en charge que les canaux SMS, E-mail et Push. Les autres canaux (in-app, web, courrier, etc.) ne sont pas disponibles dans les campagnes orchestrées et n’apparaissent pas dans les rapports.
 
 ### Vue d’ensemble de la campagne {#delivery-global}
 
