@@ -94,7 +94,7 @@ Tout schéma utilisé pour le ciblage doit inclure au moins un champ d’identit
 
 +++
 
-1. Attribuez les champs appropriés comme clé de Principal **** et **[!UICONTROL descripteur de version]**.
+1. Attribuez les champs appropriés comme clé de Principal **&#x200B;**&#x200B;et **[!UICONTROL descripteur de version]**.
 
    Lors de la création d’un schéma manuel, assurez-vous que les champs essentiels suivants sont inclus :
 
