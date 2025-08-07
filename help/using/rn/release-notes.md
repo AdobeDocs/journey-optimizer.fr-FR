@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Notes de mise à jour d’Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 3a44111345c1627610a6b026d7b19b281c4538d3
+source-git-commit: a53e94f0199cda211d32be55c8e9a52303dc3d25
 workflow-type: tm+mt
 source-wordcount: '1361'
-ht-degree: 32%
+ht-degree: 36%
 
 ---
 
@@ -65,7 +65,7 @@ Une toute nouvelle interface d’orchestration visuelle conçue spécialement po
 
 ### Schémas et jeux de données relationnels {#oc-relational}
 
-Adobe Experience Platform prend désormais en charge les entités relationnelles (par exemple, les produits, les magasins, les réservations, les contrats) liées à des profils basés sur des personnes. Cela permet la segmentation et la personnalisation sur des structures de données multidimensionnelles, en activant des cas d’utilisation tels que :
+Adobe Journey Optimizer prend désormais en charge les entités relationnelles (par exemple, les produits, les magasins, les réservations, les contrats) liées à des profils basés sur des personnes. Cela permet la segmentation et la personnalisation sur des structures de données multidimensionnelles, en activant des cas d’utilisation tels que :
 
 * Un message par réservation, abonnement ou contrat
 
@@ -86,7 +86,7 @@ Pour en savoir plus, consultez la [documentation de l’orchestration des campag
 
 **Pre release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published at the release date.
 
-See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/fr/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
+See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
 
 **Release date**: August 19, 2025
 
