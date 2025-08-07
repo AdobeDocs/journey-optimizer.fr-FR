@@ -5,10 +5,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 01e74670-7431-4791-b98c-12278e6d3332
-source-git-commit: 0a3e8a0eba6eaac125f508b8b81e2fab992eb978
+source-git-commit: 03699215020770d0636c77e9d197990ab5da0975
 workflow-type: tm+mt
-source-wordcount: '265'
-ht-degree: 100%
+source-wordcount: '292'
+ht-degree: 92%
 
 ---
 
@@ -69,3 +69,13 @@ Une fois [votre marque configurée et publiée](brands.md), évaluez son score d
 1. Modifiez votre contenu en fonction des recommandations pour améliorer l’alignement sur la marque.
 
 1. Réévaluez manuellement le contenu après avoir apporté des modifications pour actualiser votre score d’alignement.
+
+## Vidéo pratique {#video}
+
+La vidéo ci-dessous montre comment créer et personnaliser vos propres marques pour définir clairement votre identité visuelle et verbale dans les communications.
+
++++ Voir la vidéo
+
+>[!VIDEO](https://video.tv.adobe.com/v/3470544/?learn=on)
+
++++
