@@ -76,6 +76,6 @@ La vidéo ci-dessous montre comment créer et personnaliser vos propres marques 
 
 +++ Voir la vidéo
 
->[!VIDEO](https://video.tv.adobe.com/v/3470544/?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3470548/?learn=on&captions=fre_fr)
 
 +++
