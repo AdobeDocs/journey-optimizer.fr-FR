@@ -7,7 +7,7 @@ exl-id: 986bc566-123a-451d-a4a6-bbf5a2798849
 source-git-commit: 3a44111345c1627610a6b026d7b19b281c4538d3
 workflow-type: tm+mt
 source-wordcount: '801'
-ht-degree: 85%
+ht-degree: 88%
 
 ---
 
@@ -31,7 +31,7 @@ L’activité **[!UICONTROL Partage]** est une activité de **[!UICONTROL ciblag
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_split_filter"
 >title="Filtre de l’activité Partage"
->abstract="Pour appliquer une condition de filtrage au sous-ensemble, cliquez sur **[!UICONTROL Créer un filtre]** et configurez la règle de filtrage de votre choix à l’aide du créateur de règles. Par exemple, incluez les profils de la population entrante dont l’adresse e-mail existe dans la base de données."
+>abstract="Pour appliquer une condition de filtrage au sous-ensemble, cliquez sur **[!UICONTROL Créer un filtre]** et configurez la règle de filtrage souhaitée à l’aide du créateur de règles. Par exemple, incluez les profils de la population entrante dont l’adresse e-mail existe dans la base de données."
 
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_split_limit"
