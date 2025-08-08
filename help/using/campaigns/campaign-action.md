@@ -10,10 +10,10 @@ level: Beginner
 mini-toc-levels: 1
 keywords: créer, optimizer, campagne, surface, messages
 exl-id: fed96e48-2e54-4bd4-ae17-77434d1b90eb
-source-git-commit: 45c95d5682b35c8afb161b75c88942c010b36d1c
-workflow-type: ht
-source-wordcount: '528'
-ht-degree: 100%
+source-git-commit: 378ead41924496f52f22026b3f0e05a9c9c76f89
+workflow-type: tm+mt
+source-wordcount: '809'
+ht-degree: 57%
 
 ---
 
@@ -31,19 +31,25 @@ Utilisez l’onglet **[!UICONTROL Actions]** afin de sélectionner une configura
    >
    >Les canaux disponibles varient en fonction de votre modèle d’attribution de licence et de vos modules complémentaires.
 
+   Si vous sélectionnez un canal entrant (expérience basée sur le code, message in-app, carte de contenu ou action web), vous pouvez ajouter d’autres actions entrantes, pour un total de 10 actions au maximum dans une seule campagne. [Voici comment procéder](#multi-action)
+
 1. **Sélectionner une configuration de canal**
 
    Celle-ci est définie par une [équipe d’administration système](../start/path/administrator.md). Elle contient tous les paramètres techniques relatifs à l’envoi du message, tels que les paramètres d’en-tête, le sous-domaine, les applications mobiles, etc. [Découvrir comment configurer les canaux](../configuration/channel-surfaces.md)
 
    ![](assets/create-campaign-action.png)
 
-1. **Créer une expérience de contenu**
+1. **Optimisation de l’utilisation**
 
-   La section **[!UICONTROL Expérience de contenu]** permet de définir plusieurs traitements de diffusion afin de mesurer celui qui fonctionne le mieux pour votre audience cible. Cliquez sur le bouton **[!UICONTROL Créer une expérience]**, puis suivez les étapes détaillées dans cette section : [Créer une expérience de contenu](../content-management/content-experiment.md).
+   Utilisez la section **[!UICONTROL Optimisation des messages]** pour exécuter des expériences de contenu, tirer parti des règles de ciblage ou utiliser des combinaisons avancées d’expérimentation et de ciblage. Ces différentes options et les étapes à suivre sont présentées dans cette section : [Optimisation des campagnes](campaigns-message-optimization.md).
+<!--
+1. **Create a content experiment**
+
+    Use the **[!UICONTROL Content experiment]** section to define multiple delivery treatments in order to measure which one performs best for your target audience. Click the **[!UICONTROL Create experiment]** button then follow the steps detailed in this section: [Create a content experiment](../content-management/content-experiment.md).-->
 
 1. **Ajouter du contenu multilingue**
 
-   Utilisez la section **[!UICONTROL Langues]** pour créer du contenu dans plusieurs langues au sein de votre campagne. Pour ce faire, cliquez sur le bouton **[!UICONTROL Ajouter des langues]** et sélectionnez l’option **[!UICONTROL Paramètres de langue]** souhaitée. Vous trouverez des informations détaillées sur la configuration et l’utilisation des fonctionnalités multilingues dans cette section : [Prise en main du contenu multilingue](../content-management/multilingual-gs.md).
+   Utilisez la section **[!UICONTROL Langues]** pour créer du contenu dans plusieurs langues au sein de votre campagne. Pour ce faire, cliquez sur le bouton **[!UICONTROL Ajouter des langues]** et sélectionnez l’option **[!UICONTROL Paramètres de langue]** souhaitée. Vous trouverez des informations détaillées sur la configuration et l’utilisation des fonctionnalités multilingues dans cette section : [Prise en main du contenu multilingue](../content-management/multilingual-gs.md).
 
 Des paramètres supplémentaires sont disponibles en fonction du canal de communication sélectionné. Pour plus d’informations, développez les sections ci-dessous.
 
@@ -82,6 +88,37 @@ Pour les campagnes par cartes de contenu, vous pouvez activer des règles de dif
 Pour les messages in-app, vous pouvez utiliser le bouton **[!UICONTROL Modifier les déclencheurs]** pour choisir les événements et les critères qui déclenchent votre message. [Découvrir comment créer un message in-app](../in-app/create-in-app.md)
 
 +++
+
+## Ajouter plusieurs actions entrantes {#multi-action}
+
+>[!CONTEXTUALHELP]
+>id="ajo_multi_action"
+>title="Ajouter plusieurs actions entrantes"
+>abstract="Vous pouvez sélectionner plusieurs actions entrantes au sein d’une même campagne. Cette fonctionnalité vous permet de diffuser plusieurs expériences basées sur du code, messages in-app, cartes de contenu ou actions web à différents emplacements en même temps, chaque action contenant un contenu spécifique."
+
+Pour simplifier votre orchestration des campagnes, vous pouvez définir plusieurs actions entrantes au sein d’une seule campagne, chaque action contenant un contenu spécifique.
+
+>[!NOTE]
+>
+>Cette capacité n’est disponible que pour les canaux entrants. Actuellement, les canaux sortants tels que les e-mails ne sont pas pris en charge.
+
+Cette capacité vous permet de diffuser simultanément plusieurs expériences basées sur du code, messages in-app, cartes de contenu ou actions web à différents emplacements, sans avoir à créer plusieurs campagnes. Le déploiement de votre campagne en est facilité et les rapports sont plus fluides, toutes les données étant consolidées dans une seule campagne.
+
+Par exemple, vous pouvez envoyer une expérience basée sur du code à plusieurs points d’entrée avec des contenus légèrement différents. Pour ce faire, créez plusieurs actions basées sur du code dans la même campagne, chacune avec une configuration de point d’entrée différente.
+
+Pour définir plusieurs actions entrantes dans une campagne, procédez comme suit.
+
+1. Sélectionnez une action entrante (**Expérience basée sur du code**, **Message in-app**, **Carte de contenu** ou **Web**) dans la section **[!UICONTROL Actions]**.
+
+1. Sélectionnez la configuration du canal et définissez un contenu spécifique pour cette action.
+
+1. Utilisez le bouton **[!UICONTROL Ajouter une action]** pour sélectionner une autre action entrante dans la liste déroulante.
+
+   ![](assets/create-campaign-multi-action.png){width="80%"}
+
+1. Procédez de la même manière pour ajouter d’autres actions. Vous pouvez ajouter jusqu’à 10 actions entrantes dans une campagne.
+
+Une fois la campagne [en ligne](review-activate-campaign.md), toutes les actions sont activées simultanément.
 
 ## Étapes suivantes {#next}
 

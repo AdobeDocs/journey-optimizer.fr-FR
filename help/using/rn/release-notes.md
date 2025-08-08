@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Notes de mise à jour d’Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: a53e94f0199cda211d32be55c8e9a52303dc3d25
+source-git-commit: 378ead41924496f52f22026b3f0e05a9c9c76f89
 workflow-type: tm+mt
-source-wordcount: '1361'
-ht-degree: 36%
+source-wordcount: '1428'
+ht-degree: 33%
 
 ---
 
@@ -86,7 +86,7 @@ Pour en savoir plus, consultez la [documentation de l’orchestration des campag
 
 **Pre release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published at the release date.
 
-See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/fr/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
+See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
 
 **Release date**: August 19, 2025
 
@@ -100,6 +100,36 @@ New capabilities coming with this release are detailed below.
 Improvements coming with this release are listed below.
 -->
 
+## Mises à jour d’août 2025 {#25.8-rn}
+
+<table>
+<thead>
+<tr>
+<th><strong>Optimisation des campagnes</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Journey Optimizer vous fournit désormais les outils nécessaires pour diffuser du contenu personnalisé et optimisé à l’audience de vos campagnes. Vous pouvez ainsi exécuter des expériences de contenu, créer un ciblage basé sur des règles et utiliser des combinaisons avancées des deux pour maximiser l’efficacité de vos campagnes.</p>
+<p>Avec l’optimisation, vous pouvez :</p>
+<ul>
+<li>Testez plusieurs variations de contenu pour identifier le message le plus efficace.</li>
+<li>Diffusez du contenu personnalisé en fonction des attributs de l’utilisateur et des données contextuelles.</li>
+<li>Combinez le ciblage et l’expérimentation pour obtenir des stratégies de campagne avancées.</li>
+<li>Filtrez les utilisateurs qui ne correspondent pas aux critères de variante.</li>
+<li>Garantissez des mécanismes de secours pour maintenir l’interaction client.</li>
+</ul>
+<P>Une fois la campagne active, les profils sont évalués en fonction des critères définis. Ensuite, en fonction des critères correspondants, ils sont diffusés avec l’expérience ou le contenu approprié de la campagne.</p>
+<p><img src="assets/do-not-localize/campaign-optimization.gif"/></p>
+<p>Date de publication : 8 août 2025</p>
+<p>Pour plus d’informations, consultez la <a href="../campaigns/campaigns-message-optimization.md">documentation détaillée</a></p>
+</td>
+</tr>
+</tbody>
+</table>
+
+
 
 ## Notes de mise à jour du 25 juillet {#25-7-rn}
 
@@ -110,24 +140,6 @@ Improvements coming with this release are listed below.
 Les nouvelles fonctionnalités de cette version sont présentées ci-dessous.
 
 #### Fonctionnalités
-
-<table>
-<thead>
-<tr>
-<th><strong>Canal WhatsApp</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>Journey Optimizer prend désormais en charge la messagerie WhatsApp directe, ce qui permet une intégration fluide dans vos parcours et campagnes pour une meilleure communication avec les destinataires et un meilleur engagement. Ce canal natif offre une intégration de modèle WhatsApp prête à l’emploi, la prévisualisation des messages, la personnalisation, les rapports de diffusion, les webhooks, la gestion du consentement pour l’opt-in et l’opt-out, etc.</p>
-<p>Publiée précédemment dans Beta, cette fonctionnalité est désormais disponible dans tous les environnements (disponibilité générale).</p>
-<p><img src="../whatsapp/assets/do-not-localize/WA-Animation.gif"/><p>
-<p>Pour plus d’informations, consultez la <a href="../whatsapp/get-started-whatsapp.md">documentation détaillée</a>.</p>
-</td>
-</tr>
-</tbody>
-</table>
 
 <table>
 <thead>
@@ -179,36 +191,6 @@ Pour plus d’informations, consultez la <a href="../experience-decisioning/crea
 </tr>
 </tbody>
 </table>
-
-<!--
-<table>
-<thead>
-<tr>
-<th><strong>Optimization in campaigns</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>Journey Optimizer now empowers you with the tools to deliver personalized and optimized content to your campaigns' audience, allowing you to run content experiments, create rule-based targeting, and use advanced combinations of both, to maximize the effectiveness of your campaigns.</p>
-<p>With Optimization, you can:</p>
-<ul>
-<li>Test multiple content variations to identify the most effective messaging.</li>
-<li>Deliver personalized content based on user attributes and contextual data.</li>
-<li>Combine targeting and experimentation for advanced campaign strategies.</li>
-<li>Filter out users that do not match variant criteria.</li>
-<li>Ensure fallback mechanisms to maintain user engagement.</li>
-</ul>
-<P>Once the campaign is live, profiles are evaluated against the defined criteria, and based on matching criteria, they are delivered with the appropriate experience or content from the campaign.</p>
-<p><img src="assets/do-not-localize/campaign-optimization.gif"/></p>
-<p>For more information, refer to the <a href="../FILE.md">detailed documentation</a></p>
-</td>
-</tr>
-</tbody>
-</table>
--->
-
-
 
 <table>
 <thead>
@@ -275,7 +257,7 @@ Les améliorations de cette version sont présentées ci-dessous.
 * **Campagnes**
 
    * **Plusieurs actions entrantes dans les campagnes** - Pour simplifier votre orchestration des campagnes, vous pouvez désormais définir plusieurs actions entrantes dans une seule campagne. Cette fonctionnalité vous permet de diffuser plusieurs expériences basées sur du code, messages in-app, cartes de contenu ou actions web à différents emplacements en même temps, chaque action contenant un contenu spécifique.
-  <!-- [Read more](../FILE.md) -->
+     [En savoir plus](../campaigns/campaign-action.md#multi-action)
 
    * **Réorganisation de l’inventaire des campagnes** - Les campagnes planifiées et déclenchées par l’API sont désormais divisées en onglets distincts dans l’inventaire des campagnes pour une navigation et une gestion plus faciles.
 

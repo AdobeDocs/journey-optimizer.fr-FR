@@ -9,10 +9,10 @@ role: Developer
 level: Experienced
 keywords: campagnes, déclenchement par API, REST, optimizer, messages
 exl-id: 322e035c-7370-40c9-b1cb-3428bc26e874
-source-git-commit: 45c95d5682b35c8afb161b75c88942c010b36d1c
-workflow-type: ht
-source-wordcount: '425'
-ht-degree: 100%
+source-git-commit: 378ead41924496f52f22026b3f0e05a9c9c76f89
+workflow-type: tm+mt
+source-wordcount: '421'
+ht-degree: 90%
 
 ---
 
@@ -38,9 +38,13 @@ Utilisez l’onglet **[!UICONTROL Actions]** afin de sélectionner une configura
 
    ![](assets/create-campaign-action.png)
 
-1. **Créer une expérience de contenu**
+1. **Optimisation de l’utilisation**
 
-   La section **[!UICONTROL Expérience de contenu]** permet de définir plusieurs traitements de diffusion afin de mesurer celui qui fonctionne le mieux pour votre audience cible. Cliquez sur le bouton **[!UICONTROL Créer une expérience]**, puis suivez les étapes détaillées dans cette section : [Créer une expérience de contenu](../content-management/content-experiment.md).
+   Utilisez la section **[!UICONTROL Optimisation des messages]** pour exécuter des expériences de contenu, tirer parti des règles de ciblage ou utiliser des combinaisons avancées d’expérimentation et de ciblage. Ces différentes options et les étapes à suivre sont présentées dans cette section : [Optimisation des campagnes](campaigns-message-optimization.md).
+<!--
+1. **Create a content experiment**
+
+    Use the **[!UICONTROL Content experiment]** section to define multiple delivery treatments in order to measure which one performs best for your target audience. Click the **[!UICONTROL Create experiment]** button then follow the steps detailed in this section: [Create a content experiment](../content-management/content-experiment.md).-->
 
 1. **Ajouter du contenu multilingue**
 
