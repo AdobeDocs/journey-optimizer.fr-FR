@@ -4,9 +4,9 @@ product: journey optimizer
 title: Mécanismes de sécurisation et limitations des campagnes orchestrées
 description: En savoir plus sur les mécanismes de sécurisation et les limitations des campagnes orchestrées
 exl-id: 82744db7-7358-4cc6-a9dd-03001759fef7
-source-git-commit: 3a44111345c1627610a6b026d7b19b281c4538d3
+source-git-commit: a4f3dce91af978bdff2de5beb8b1472f7704bdf2
 workflow-type: tm+mt
-source-wordcount: '432'
+source-wordcount: '445'
 ht-degree: 2%
 
 ---
@@ -30,7 +30,7 @@ Vous trouverez ci-dessous des mécanismes de sécurisation et des limitations su
 
 * Les schémas utilisés pour le ciblage doivent contenir au moins **un champ d’identité de type`String`**, mappé à un espace de noms d’identité défini.
 
-### Ingestion des données
+### Ingestion de données
 
 * Profil + ingestion de données relationnelles requise.
 
@@ -83,3 +83,7 @@ Vous trouverez ci-dessous des mécanismes de sécurisation et des limitations su
 * **Les activités des audiences enregistrées sont statiques** elles reflètent les données disponibles au moment de l’exécution de la campagne.
 
 * **L’ajout à une activité Audience enregistrée n’est pas pris en charge**. Toute modification nécessite un remplacement complet de l’audience.
+
+## Limites de canal
+
+Seuls les canaux SMS, Push et E-mail sont pris en charge dans les campagnes orchestrées.

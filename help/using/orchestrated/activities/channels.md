@@ -4,10 +4,10 @@ product: journey optimizer
 title: Ajouter une activité de canal dans une campagne à plusieurs étapes
 description: Découvrir comment ajouter une activité de canal dans une campagne à plusieurs étapes
 exl-id: ffe1e77c-6c4f-4f23-9183-d715a4c7c402
-source-git-commit: 3a44111345c1627610a6b026d7b19b281c4538d3
+source-git-commit: a4f3dce91af978bdff2de5beb8b1472f7704bdf2
 workflow-type: tm+mt
-source-wordcount: '1097'
-ht-degree: 77%
+source-wordcount: '1108'
+ht-degree: 76%
 
 ---
 
@@ -52,11 +52,17 @@ UNUSED IDs in BJ
 [!DNL Adobe Journey Optimizer] vous permet d’automatiser et d’exécuter des campagnes marketing sur plusieurs canaux (e-mail, SMS et notifications push). Vous pouvez combiner ces activités de canal dans la zone de travail de campagne afin de créer des campagnes orchestrées cross-canal pouvant déclencher des actions en fonction du comportement du client et des données.
 
 Par exemple :
+
 * Envoyez une série de messages de bienvenue par e-mail, SMS et notification push.
 * Diffusez un e-mail de suivi après l’achat.
 * Envoyez des vœux d’anniversaire personnalisés par SMS.
 
 Grâce aux activités de canal, vous pouvez créer des campagnes personnalisées et complètes qui impliquent la clientèle sur plusieurs points de contact et génèrent des conversions.
+
+
+>[!CAUTION]
+>
+>Seuls les canaux SMS, Push et E-mail sont pris en charge dans les campagnes orchestrées.
 
 >[!PREREQUISITES]
 >
