@@ -8,7 +8,7 @@ solution: Journey Optimizer
 source-git-commit: 378ead41924496f52f22026b3f0e05a9c9c76f89
 workflow-type: tm+mt
 source-wordcount: '2598'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -184,14 +184,14 @@ ht-degree: 98%
    + [Commencer avec les campagnes](using/campaigns/get-started-with-campaigns.md)
    + [Accéder aux campagnes et les gérer](using/campaigns/modify-stop-campaign.md)
    + Campagnes d’action {#action-campaigns}
-      + [Utiliser les campagnes d’action](using/campaigns/create-campaign.md)
+      + [Utiliser des campagnes d’action](using/campaigns/create-campaign.md)
       + [Définir les propriétés de la campagne](using/campaigns/campaign-properties.md)
       + [Configurer l’action de campagne](using/campaigns/campaign-action.md)
       + [Optimiser les messages dans une campagne](using/campaigns/campaigns-message-optimization.md)
       + [Modifier le contenu de la campagne](using/campaigns/campaign-content.md)
       + [Définir l’audience de la campagne](using/campaigns/campaign-audience.md)
       + [Planifier la campagne](using/campaigns/campaign-schedule.md)
-      + [Vérification et activation d’une campagne d’action](using/campaigns/review-activate-campaign.md)
+      + [Vérifier et activer une campagne d’action](using/campaigns/review-activate-campaign.md)
    + Campagnes déclenchées par API {#api-triggered-campaigns}
       + [Utiliser des campagnes déclenchées par API](using/campaigns/api-triggered-campaigns.md)
       + [Définir les propriétés de la campagne](using/campaigns/api-triggered-campaign-properties.md)
@@ -201,7 +201,7 @@ ht-degree: 98%
       + [Planifier la campagne](using/campaigns/api-triggered-campaign-schedule.md)
       + [Vérifier et activer la campagne](using/campaigns/review-activate-api-triggered-campaign.md)
       + [Déclencher l’exécution de la campagne](using/campaigns/trigger-campaigns.md)
-   + Campagnes orchestrées {#orchestrated-campaigns}
+   + Campagnes orchestrées {#orchestrated-campaigns}
       + [Commencer avec les campagnes orchestrées](using/orchestrated/gs-orchestrated-campaigns.md)
       + [Mécanismes de sécurisation et limitations](using/orchestrated/guardrails.md)
       + [Questions fréquentes](using/orchestrated/orchestrated-campaigns-faq.md)
@@ -211,9 +211,9 @@ ht-degree: 98%
             + [Schéma manuel](using/orchestrated/manual-schema.md)
             + [Schéma de chargement de fichiers](using/orchestrated/file-upload-schema.md)
             + [Ingérer des données](using/orchestrated/ingest-data.md)
-         + [Création d’une dimension de ciblage](using/orchestrated/target-dimension.md)
-      + Lancement de votre première campagne orchestrée{#launch}
-         + [Étapes clés de création d’une campagne orchestrée](using/orchestrated/gs-campaign-creation.md)
+         + [Créer une dimension de ciblage](using/orchestrated/target-dimension.md)
+      + Lancer votre première campagne orchestrée{#launch}
+         + [Étapes clés pour créer une campagne orchestrée](using/orchestrated/gs-campaign-creation.md)
          + [Créer et planifier la campagne](using/orchestrated/create-orchestrated-campaign.md)
          + [Orchestrer les activités](using/orchestrated/orchestrate-activities.md)
          + [Démarrer et surveiller la campagne](using/orchestrated/start-monitor-campaigns.md)
@@ -587,7 +587,7 @@ Définissez les règles de limitation des messages et des parcours {#capping-rul
             + [Modèle dʼoptimisation automatique](using/experience-decisioning/ranking/auto-optimization-model.md)
             + [Modèle d’optimisation personnalisé](using/experience-decisioning/ranking/personalized-optimization-model.md)
             + [Créer des modèles d’IA](using/experience-decisioning/ranking/create-ai-models.md)
-      + [Utilisation des emplacements](using/experience-decisioning/placements.md)
+      + [Utiliser des placements](using/experience-decisioning/placements.md)
       + Utiliser des données Adobe Experience Platform {#aep-data}
          + [Utiliser des données contextuelles](using/experience-decisioning/context-data.md)
          + [Utiliser Adobe Experience Platform pour la prise de décision](using/experience-decisioning/aep-data-exd.md)
@@ -775,7 +775,7 @@ Définissez les règles de limitation des messages et des parcours {#capping-rul
       + [Exécuter le plan de préchauffage des adresses IP](using/configuration/ip-warmup-execution.md)
       + [Fichiers du plan de préchauffage des adresses IP](using/configuration/ip-warmup-plan-files.md)
    + Surveiller des adresses e-mail {#monitor-reputation}
-      + [Types d&#39;erreur e-mail](using/configuration/email-error-types.md)
+      + [Types d’erreur e-mail](using/configuration/email-error-types.md)
       + [Liste de suppression](using/configuration/manage-suppression-list.md)
       + [Reprises](using/configuration/retries.md)
       + [Liste autorisée](using/configuration/allow-list.md)
