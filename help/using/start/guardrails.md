@@ -10,9 +10,9 @@ level: Intermediate
 mini-toc-levels: 1
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
 source-git-commit: 3a44111345c1627610a6b026d7b19b281c4538d3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2648'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -86,7 +86,7 @@ Les mécanismes de sécurisation suivants s’appliquent aux [pages de destinati
 
 ## Mécanismes de sécurisation des sous-domaines {#subdomain-guardrails}
 
-Les mécanismes de sécurisation et limitations s’appliquant à la délégation de sous-domaines dans Journey Optimizer sont détaillés sur [cette page](../configuration/delegate-subdomain.md#guardrails).
+Les mécanismes de sécurisation et les limitations qui s’appliquent à la délégation de sous-domaines dans Journey Optimizer sont décrits dans [cette page](../configuration/delegate-subdomain.md#guardrails).
 
 ## Mécanismes de sécurisation des fragments {#fragments-guardrails}
 
@@ -95,11 +95,11 @@ Les mécanismes de sécurisation suivants s’appliquent aux [fragments](../cont
 * Pour créer, modifier, archiver et publier des fragments, vous avez besoin des autorisations **[!DNL Manage library items]** et **[Publier le fragment]** incluses dans le profil de produit **[!DNL Content Library Manager]**. [En savoir plus](../administration/ootb-product-profiles.md#content-library-manager)
 * Les fragments visuels ne sont disponibles que pour le canal E-mail.
 * Les fragments d’expression ne sont pas disponibles pour les canaux In-app.
-* Les fragments visuels ne peuvent pas dépasser 100KB. Les fragments d’expression ne peuvent pas dépasser 200KB.
-* Pour utiliser un fragment dans un parcours ou une campagne, il doit avoir le statut **Actif**.
+* Les fragments visuels ne doivent pas dépasser 100 Ko. Les fragments d’expression ne doivent pas dépasser 200 Ko.
+* Pour utiliser un fragment dans un parcours ou une campagne, son statut doit être **Actif**.
 * Les [attributs contextuels](../personalization/personalization-build-expressions.md) ne sont pas pris en charge dans les fragments.
-* Les fragments visuels ne sont pas compatibles entre les modes Utiliser des thèmes et Style manuel . Pour pouvoir utiliser un fragment dans un contenu auquel vous souhaitez appliquer un thème, ce fragment doit être créé en mode Utiliser des thèmes . [En savoir plus sur les thèmes](../email/apply-email-themes.md)
-* Lorsque le tracking est activé dans un parcours ou une campagne, si vous ajoutez des liens à un fragment et que ce fragment est utilisé dans un message, ces liens sont trackés comme tous les autres liens inclus dans le message. [En savoir plus sur les liens et le tracking](../email/message-tracking.md)
+* Les fragments visuels ne sont pas compatibles entre les modes Utiliser des thèmes et Style manuel. Pour pouvoir utiliser un fragment dans un contenu auquel vous souhaitez appliquer un thème, ce fragment doit être créé en mode Utiliser des thèmes. [En savoir plus sur les thèmes](../email/apply-email-themes.md)
+* Lorsque le suivi est activé dans un parcours ou une campagne, si vous ajoutez des liens à un fragment et que ce fragment est utilisé dans un message, ces liens font l’objet d’un suivi comme tous les autres liens inclus dans le message. [En savoir plus sur les liens et le suivi](../email/message-tracking.md)
 
 ## Mécanismes de sécurisation des audiences {#audience}
 
@@ -166,11 +166,11 @@ Les mécanismes de sécurisation suivants s’appliquent aux [actions personnali
 
 Les mécanismes de sécurisation suivants s’appliquent aux [événements](../event/about-events.md) dans vos parcours :
 
-* Pour chaque organisation, Journey Optimizer prend en charge un volume maximal de 5 000 événements de parcours entrants par seconde.
+* Pour chaque organisation, Journey Optimizer prend en charge un volume maximal de 5 000 événements de parcours entrants par seconde.
 * Les parcours déclenchés par un événement peuvent prendre jusqu’à 5 minutes pour traiter la première action du parcours.
 * En ce qui concerne les événements générés par le système, les données de diffusion en continu utilisées pour initier un parcours client doivent d’abord être configurées dans Journey Optimizer pour obtenir un identifiant d’orchestration unique. Cet identifiant d’orchestration doit être ajouté à la payload de diffusion en continu entrant dans Adobe Experience Platform. Cette limitation ne s’applique pas aux événements basés sur une règle.
 * Les événements métier ne peuvent pas être utilisés conjointement avec des événements unitaires ou des activités de qualification d’audience.
-* Les parcours unitaires (qui commencent par un événement ou une qualification d’audience) incluent un mécanisme de sécurisation qui empêche les parcours d’être déclenchés par erreur plusieurs fois pour le même événement. La rentrée du profil est temporairement bloquée par défaut pendant 5 minutes. Par exemple, si un événement déclenche un parcours à 12:01 pour un profil spécifique et qu’un autre arrive à 12:03 (qu’il s’agisse du même événement ou d’un autre déclenchant le même parcours), ce parcours ne redémarrera pas pour ce profil.
+* Les parcours unitaires (qui commencent par un événement ou une qualification d’audience) incluent un mécanisme de sécurisation qui empêche les parcours d’être déclenchés par erreur plusieurs fois pour le même événement. La rentrée du profil est temporairement bloquée par défaut pendant 5 minutes. Par exemple, si un événement déclenche un parcours à 12:01 pour un profil spécifique et qu’un autre événement se produit à 12:03 (qu’il s’agisse du même événement ou d’un autre déclenchant le même parcours), ce parcours ne reprendra pas pour ce profil.
 * Journey Optimizer exige que les événements soient diffusés en continu vers Data Collection Core Service (DCCS) pour pouvoir déclencher un parcours. Les événements ingérés par lot ou les événements provenant de jeux de données Journey Optimizer internes (commentaires des messages, tracking e-mail, etc.) ne peuvent pas être utilisés pour déclencher un parcours. Pour les cas d’utilisation où vous ne pouvez pas obtenir d’événements en flux continu, vous devez créer une audience basée sur ces événements et utiliser l’activité **Lecture d’audience** à la place. La qualification d’audience peut techniquement être utilisée. Cette méthode n’est toutefois pas recommandée, car elle peut entraîner des difficultés en aval en fonction des actions utilisées.
 
 ### Sources de données {#data-sources-g}
@@ -213,7 +213,7 @@ Les mécanismes de sécurisation suivants s’appliquent à l’activité de par
 * Les reprises sont appliquées par défaut sur les parcours déclenchés par l’audience (commençant par une **lecture d’audience** ou un **événement métier**) lors de la récupération du traitement d’export. Si une erreur se produit lors de la création du traitement d’export, des reprises sont effectuées toutes les 10 minutes, pendant 1 heure au maximum. Après cela, nous considérerons cela comme un échec. Ces types de parcours peuvent donc être exécutés jusqu’à 1 heure après l’heure planifiée.
 
 
-Voir aussi [cette page](../building-journeys/read-audience.md#must-read).
+Consultez également [cette page](../building-journeys/read-audience.md#must-read).
 
 ### Qualification de l’audience {#audience-qualif-g}
 
@@ -260,6 +260,6 @@ Les mécanismes de sécurisation suivants s’appliquent aux activités **[!UICO
 * Les activités Adobe Campaign ne peuvent pas être utilisées avec une activité Lecture d’audience ou Qualification d’audience.
 * Les activités de campagne ne peuvent pas être utilisées avec les activités des autres canaux : Carte, Expérience basée sur du code, E-mail, Notification push, SMS, Messages in-app, Web.
 
-## Mécanismes de sécurisation de l’orchestration des campagnes {#orchestration-guardrails}
+## Mécanismes de sécurisation de l’orchestration de campagne {#orchestration-guardrails}
 
-Les mécanismes de sécurisation et les limitations à garder à l’esprit lorsque vous utilisez l’orchestration de Campaign sont détaillés dans cette section : [ Mécanismes de sécurisation et limitations de la gestion des décisions](../orchestrated/guardrails.md).
+Les mécanismes de sécurisation et les limitations à garder à l’esprit lorsque vous utilisez l’orchestration de campagne sont décrits dans cette section : [Mécanismes de sécurisation et limitations de la gestion des décisions](../orchestrated/guardrails.md).

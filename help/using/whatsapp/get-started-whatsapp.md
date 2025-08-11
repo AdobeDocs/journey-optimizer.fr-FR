@@ -9,9 +9,9 @@ role: User
 level: Beginner
 exl-id: 22df2bfa-4d86-464e-ad83-3aa457e3a747
 source-git-commit: 31e25c511d8873e54c7b92e65511108a77f84941
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '320'
-ht-degree: 85%
+ht-degree: 100%
 
 ---
 
@@ -30,7 +30,7 @@ Vous pouvez désormais envoyer des messages WhatsApp directement par le biais de
 Pour intégrer WhatsApp à Journey Optimizer, vous avez besoin des éléments suivants :
 
 * Compte Meta Business Manager
-* [Compte professionnel WhatsApp avec nom d&#39;expéditeur et numéro de téléphone vérifiés](https://developers.facebook.com/docs/whatsapp/overview/business-accounts/)
+* [Compte professionnel WhatsApp avec nom d’expéditeur ou d’expéditrice et numéro de téléphone vérifiés](https://developers.facebook.com/docs/whatsapp/overview/business-accounts/)
 * [Jeton d’autorisation utilisateur avec les autorisations appropriées](https://developers.facebook.com/blog/post/2022/12/05/auth-tokens/)
 * [Modèles Meta approuvés](https://developers.facebook.com/docs/whatsapp/message-templates/guidelines/)
 
@@ -54,11 +54,11 @@ Les limites suivantes s’appliquent au canal WhatsApp :
 
 ## Vidéo pratique {#video}
 
-La vidéo ci-dessous montre comment intégrer WhatsApp en tant que canal natif dans Adobe Journey Optimizer pour diffuser des messages sécurisés, personnalisés et en temps réel à grande échelle.
+La vidéo ci-dessous montre comment intégrer WhatsApp en tant que canal natif dans Adobe Journey Optimizer pour diffuser des messages sécurisés, personnalisés et en temps réel à grande échelle.
 
-+++ Voir la vidéo
++++ Regarder la vidéo
 
->[!VIDEO](https://video.tv.adobe.com/v/3470246?learn=on&captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/3470244?learn=on)
 
 +++
 

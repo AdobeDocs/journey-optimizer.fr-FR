@@ -10,9 +10,9 @@ level: Beginner
 keywords: campagne, guide, commencer, optimizer
 exl-id: e2506a43-e4f5-48af-bd14-ab76c54b7c90
 source-git-commit: 3a44111345c1627610a6b026d7b19b281c4538d3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '708'
-ht-degree: 74%
+ht-degree: 100%
 
 ---
 
@@ -74,48 +74,48 @@ Vous pouvez créer différents types de campagnes dans Journey Optimizer :
 
 * **Campagnes orchestrées**
 
-  L’orchestration des campagnes dans Adobe Journey Optimizer alimente des campagnes marketing sophistiquées et lancées par la marque sur l’ensemble des canaux, ce qui vous permet de stimuler l’engagement, le chiffre d’affaires et la fidélisation de la clientèle à grande échelle.
+  L’orchestration de campagne dans Adobe Journey Optimizer alimente des campagnes marketing sophistiquées et lancées par la marque sur l’ensemble des canaux, ce qui permet de renforcer l’engagement, le chiffre d’affaires et la fidélisation de la clientèle à grande échelle.
 
-  Bien que le marketing cross-canal soit essentiel, les campagnes orchestrées le rendent transparent. Grâce à une interface visuelle par glisser-déposer, vous pouvez concevoir et automatiser des workflows marketing complexes, de la segmentation à la diffusion des messages, sur plusieurs canaux. Tout se passe dans un environnement intuitif, conçu pour la vitesse, le contrôle et l’efficacité.
+  Bien que le marketing cross-canal soit essentiel, les campagnes orchestrées le rendent transparent. Grâce à une interface visuelle par glisser-déposer, vous pouvez concevoir et automatiser des workflows marketing complexes, depuis la segmentation jusqu’à la diffusion des messages, sur plusieurs canaux. Tout se passe dans un environnement intuitif, conçu pour assurer vitesse, contrôle et efficacité.
 
 ## Conditions préalables {#prerequisites}
 
-Avant de créer votre campagne, vérifiez que vous avez examiné les conditions préalables ci-dessous.
+Avant de créer votre campagne, vérifiez que vous avez examiné les conditions préalables ci-après.
 
 ### Autorisations
 
-Les campagnes ne sont disponibles que pour les utilisateurs disposant des autorisations appropriées répertoriées ci-dessous. [En savoir plus sur les rôles intégrés de Journey Optimizer](../administration/ootb-product-profiles.md)
+Les campagnes ne sont disponibles que pour les utilisateurs et utilisatrices disposant des autorisations appropriées répertoriées ci-dessous. [En savoir plus sur les rôles intégrés de Journey Optimizer](../administration/ootb-product-profiles.md)
 
 >[!BEGINTABS]
 
 >[!TAB Campagnes d’action]
 
-Administrateur Campaign
-Approbateur de campagne
-Responsable de campagne
-Visionneuse Campaign
+Administrateur ou administratrice de Campaign
+Approbateur ou approbatrice de Campagin
+Responsable de Campaign
+Observateur ou observatrice de Campaign
 
 >[!TAB Campagnes déclenchées par API]
 
-Administrateur Campaign
-Approbateur de campagne
-Responsable de campagne
-Visionneuse Campaign
+Administrateur ou administratrice de Campaign
+Approbateur ou approbatrice de Campagin
+Responsable de Campaign
+Observateur ou observatrice de Campaign
 
 >[!TAB Campagnes orchestrées]
 
-Administrateur de campagne orchestré
-Approbateur de campagnes orchestrées
-Gestionnaire de campagne orchestré
-Visionneuse de campagnes orchestrée
+Administrateur ou administratrice de campagnes orchestrées
+Approbateur ou approbatrice de campagnes orchestrées
+Responsable de campagnes orchestrées
+Observateur ou observatrice de campagnes orchestrées
 
 >[!ENDTABS]
 
-Si vous ne parvenez pas à accéder aux fonctionnalités de Campaign, contactez votre administrateur pour demander les autorisations nécessaires.
+Si vous ne parvenez pas à accéder aux fonctionnalités des campagnes, contactez votre équipe d’administration pour demander les autorisations nécessaires.
 
 +++Découvrir comment attribuer un rôle lié à la campagne
 
-1. Pour attribuer un rôle à un utilisateur dans le produit [!DNL Permissions], accédez à l’onglet **[!UICONTROL Rôles]** et sélectionnez l’un des **[!UICONTROL Rôles]** intégrés liés à la campagne présentés ci-dessus.
+1. Pour attribuer un rôle à un utilisateur ou une utilisatrice dans le produit [!DNL Permissions], accédez à l’onglet **[!UICONTROL Rôles]** et sélectionnez l’un des **[!UICONTROL Rôles]** liés à la campagne intégrée précisés ci-dessous.
 
 1. Dans l’onglet **[!UICONTROL Utilisateurs]**, cliquez sur **[!UICONTROL Ajouter un utilisateur]**.
 
@@ -133,7 +133,7 @@ Les audiences doivent être disponibles avant de créer la campagne. [Commencer 
 
 ### Configuration des canaux
 
-Pour pouvoir sélectionner un canal, la configuration de canal correspondante (c’est-à-dire le paramètre prédéfini) doit être créée et disponible. [Découvrez comment configurer des canaux](../configuration/channel-surfaces.md).
+Pour pouvoir sélectionner un canal, la configuration de canal correspondante (c’est-à-dire le préréglage) doit être créée et disponible. [Découvrez comment configurer des canaux](../configuration/channel-surfaces.md).
 
 ## Explorons plus en détail.
 
@@ -142,5 +142,5 @@ Maintenant que vous comprenez le principe des campagnes dans [!DNL Journey Optim
 <table style="table-layout:fixed"><tr style="border: 0; text-align: center;">
 <td><a href="create-campaign.md"><img width="70%" alt="campagnes d’action" src="assets/do-not-localize/gs-action-campaign.png"></a><br/><a href="create-campaign.md">Campagnes d’action</a></td>
 <td><a href="api-triggered-campaigns.md"><img width="70%" alt="sms" src="assets/do-not-localize/gs-api-triggered-campaign.png"></a><br/><a href="api-triggered-campaigns.md">Campagnes déclenchées par API</a></td>
-<td><a href="../orchestrated/gs-orchestrated-campaigns.md"><img width="70%" alt="notification push" src="assets/do-not-localize/gs-orchestrated-campaign.png"></a><a href="../orchestrated/gs-orchestrated-campaigns.md">Campagnes orchestrées</a></td>
+<td><a href="../orchestrated/gs-orchestrated-campaigns.md"><img width="70%" alt="notification push" src="assets/do-not-localize/gs-orchestrated-campaign.png"></a><a href="../orchestrated/gs-orchestrated-campaigns.md">Campagnes orchestrées</a></td>
 </tr></table>

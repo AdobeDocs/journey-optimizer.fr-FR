@@ -6,9 +6,9 @@ solution: Journey Optimizer
 product: journey optimizer
 exl-id: 3a1b6c61-82df-421c-98d8-2af4f2a5e0de
 source-git-commit: 08408b987e5894912e357e78cacdb54bfb78a6a1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '394'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
@@ -20,15 +20,15 @@ Découvrez les améliorations les plus récentes apportées au produit et à la 
 
 >[!BEGINTABS]
 
->[!TAB Version du 25 juillet]
+>[!TAB Version de juillet 2025]
 
-La version de juillet est maintenant en ligne ! Consultez les notes de mise à jour pour découvrir les nouvelles fonctionnalités, modifications et améliorations.
+La version de juillet est désormais disponible. Consultez les notes de mise à jour pour découvrir les nouvelles fonctionnalités, modifications et améliorations.
 
 [![En savoir plus](using/assets/do-not-localize/learn-more-button.svg)](using/rn/release-notes.md)
 
->[!TAB Orchestration des campagnes]
+>[!TAB Orchestration de campagne]
 
-Journey Optimizer comprend désormais **Orchestration des campagnes**, une nouvelle fonctionnalité spécialement conçue pour les campagnes par lots lancées par la marque. Cette version présente une zone de travail d’orchestration des campagnes et une modélisation des données améliorée, qui fonctionnent ensemble pour permettre aux professionnels du marketing de planifier, cibler et diffuser des campagnes cross-canal personnalisées.
+Journey Optimizer comprend désormais l’**orchestration de campagne**, une nouvelle fonctionnalité spécialement conçue pour les campagnes par lots lancées par la marque. Cette version présente une zone de travail d’orchestration de campagne et une modélisation des données améliorée, qui fonctionnent ensemble pour permettre aux spécialistes marketing de planifier, de cibler et de diffuser des campagnes cross-canal personnalisées.
 
 [![En savoir plus](using/assets/do-not-localize/learn-more-button.svg)](using/orchestrated/gs-orchestrated-campaigns.md)
 
@@ -43,7 +43,7 @@ L’intégration d’Adobe Express à Adobe Journey Optimizer vous permet d�
 
 Immerse yourself in a hands-on experience with our [AI Assistant](../help/using/content-management/gs-generative.md) live feature preview, designed to let you explore its features firsthand and fully understand its capabilities.
 
-[![learn more](using/assets/do-not-localize/try-it-button.svg)](https://experienceleague.adobe.com/fr/apps/journey-optimizer/ai-assistant-content-accelerator){target="_blank"}-->
+[![learn more](using/assets/do-not-localize/try-it-button.svg)](https://experienceleague.adobe.com/en/apps/journey-optimizer/ai-assistant-content-accelerator){target="_blank"}-->
 
 >[!TAB Fragment de contenu AEM]
 

@@ -9,9 +9,9 @@ role: User
 level: Beginner, Intermediate
 exl-id: aa8c74de-748b-4947-a972-14703f6ab4a7
 source-git-commit: 3a44111345c1627610a6b026d7b19b281c4538d3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '4203'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -231,7 +231,7 @@ Les améliorations de cette version sont présentées ci-dessous.
 
    * **Copie de sandbox et prise de décision** (date de disponibilité : 3 juin 2025) : les objets de prise de décision peuvent désormais être copiés entre des sandbox, ce qui simplifie les workflows de test et de déploiement. [En savoir plus](../configuration/copy-objects-to-sandbox.md#decisioning)
 
-   * **Prise en charge des attributs d’élément de décision pour les règles de prise de décision** (date de disponibilité : 4 juin 2025) * Vous pouvez désormais tirer parti des attributs d’élément de décision pour créer des règles de prise de décision. [En savoir plus](../experience-decisioning/rules.md#create)
+   * **Prise en charge des attributs d’élément de décision pour les règles de prise de décision** (date de disponibilité : 4 juin 2025) * Vous pouvez désormais tirer profit des attributs d’élément de décision pour créer des règles de prise de décision. [En savoir plus](../experience-decisioning/rules.md#create)
 
 * **Mise à jour de l’API d’exécution de message interactif** - Date de disponibilité : 6 juin 2025
 

@@ -5,9 +5,9 @@ role: User
 level: Beginner
 exl-id: 9dc0cd89-d29a-42d2-a73f-d95f9c39c86e
 source-git-commit: 8146221975b7460bf1deaca9363d1624b719b480
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '629'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -35,7 +35,7 @@ Les **scores de priorité** vous aident à contrôler les campagnes ou les parco
 
 ### Jeux de règles
 
-Les jeux de règles vous permettent de **regrouper plusieurs règles en jeux de règles** et de les appliquer aux parcours et aux campagnes de votre choix. Cela permet d’obtenir une granularité améliorée afin de limiter la fréquence et le nombre de parcours qu’un client peut entrer au cours d’une certaine période ou de contrôler la fréquence à laquelle les utilisateurs et utilisatrices recevront un message selon le type de communication. [Découvrir comment utiliser les jeux de règles](../conflict-prioritization/rule-sets.md)
+Les jeux de règles vous permettent de **regrouper plusieurs règles en jeux de règles** et de les appliquer aux parcours et aux campagnes de votre choix. Cela permet d’améliorer la granularité afin de limiter la fréquence et le nombre de parcours qu’un client ou une cliente peut rejoindre au cours d’une certaine période ou de contrôler la fréquence à laquelle les utilisateurs et utilisatrices recevront un message selon le type de communication. [Découvrir comment utiliser les jeux de règles](../conflict-prioritization/rule-sets.md)
 
 * **Limitation et arbitrage des parcours**
 
