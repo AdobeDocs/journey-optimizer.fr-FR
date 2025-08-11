@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: publication, parcours, actif, validité, vérifier
 exl-id: 95d0267e-fab4-4057-8ab5-6f7c9c866b0f
-source-git-commit: f26083c222efa71176ce5c78f5f35f2c208240e6
+source-git-commit: 2da5443e6927d0696cefbedee4f56a397208bc1c
 workflow-type: tm+mt
 source-wordcount: '530'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
@@ -32,7 +32,7 @@ La liste des mesures varie en fonction des [groupes de champs](https://experienc
 
 Si votre jeu de données n’est pas configuré, seules les mesures suivantes seront disponibles : **[!UICONTROL Clic]**, **[!UICONTROL Clic unique]**, **[!UICONTROL Taux de clics]** et **[!UICONTROL Taux d’ouverture]**.
 
-Notez qu’avec une licence Customer Journey Analytics, vous pouvez créer des mesures de succès personnalisées. [En savoir plus](https://experienceleague.adobe.com/fr/docs/analytics-platform/using/cja-components/cja-calcmetrics/cm-workflow/participation-metric)
+Notez qu’avec une licence Customer Journey Analytics, vous pouvez créer des mesures de succès personnalisées. [En savoir plus](https://experienceleague.adobe.com/fr/docs/analytics-platform/using/cja-components/cja-calcmetrics/cm-workflow/participation-metric)
 
 
 | Mesures | Groupe de champs associé |

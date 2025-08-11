@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 mini-toc-levels: 1
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: 3a44111345c1627610a6b026d7b19b281c4538d3
-workflow-type: ht
+source-git-commit: 2da5443e6927d0696cefbedee4f56a397208bc1c
+workflow-type: tm+mt
 source-wordcount: '2648'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -69,7 +69,7 @@ Les mécanismes de sécurisation suivants s’appliquent au [canal SMS](../sms/g
 
 Les [!DNL Journey Optimizer] [campagnes web](../web/get-started-web.md) ciblent les nouveaux profils qui n’ont jamais été engagés sur d’autres canaux. Cela augmente le nombre total de profils engageables, ce qui peut avoir des implications de coût si le nombre contractuel de profils engageables que vous avez achetés est dépassé.
 
-Les mesures de licence de chaque package sont répertoriées à la page [Description du produit Journey Optimizer](https://helpx.adobe.com/fr/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}.
+Les mesures de licence de chaque package sont répertoriées sur la page Description du produit [Journey Optimizer](https://helpx.adobe.com/fr/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}.
 
 ### Mécanismes de sécurisation des canaux basés sur du code {#code-based-guardrails}
 
@@ -103,9 +103,9 @@ Les mécanismes de sécurisation suivants s’appliquent aux [fragments](../cont
 
 ## Mécanismes de sécurisation des audiences {#audience}
 
-Vous pouvez publier jusqu’à 10 audiences dans un sandbox donné. Si vous avez atteint ce seuil, vous devez supprimer une composition pour libérer de l’espace et en publier une nouvelle.
+Vous pouvez publier jusqu’à 10 compositions d’audiences dans un sandbox donné. Si vous avez atteint ce seuil, vous devez supprimer une composition pour libérer de l’espace et en publier une nouvelle.
 
-En savoir plus sur les compositions d’audience sur [cette page](../audience/get-started-audience-orchestration.md).
+En savoir plus sur les compositions d’audiences sur [cette page](../audience/get-started-audience-orchestration.md).
 
 ## Mécanismes de sécurisation des décisions et de la gestion des décisions {#decisioning-guardrails}
 
