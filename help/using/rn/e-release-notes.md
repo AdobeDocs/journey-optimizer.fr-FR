@@ -7,10 +7,10 @@ feature: Release Notes
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 6326e1e3056f41f1550ac785bcbf83af175b37cc
+source-git-commit: 1f53a578e91cd26e0e062c20b371a344ad709a8f
 workflow-type: tm+mt
-source-wordcount: '1059'
-ht-degree: 55%
+source-wordcount: '1030'
+ht-degree: 47%
 
 ---
 
@@ -18,12 +18,10 @@ ht-degree: 55%
 
 [!DNL Adobe Journey Optimizer] offre en permanence de nouvelles fonctionnalités, des améliorations des fonctionnalités existantes et des correctifs. Toutes les modifications sont consolidées à la fin de chaque mois dans les [notes de mise à jour](release-notes.md).
 
-**Les notes de mise à jour préliminaires ci-dessous peuvent être modifiées sans préavis jusqu’à la date de publication.** Les liens, les copies d’écran et la documentation mise à jour sont publiés dans les [notes de mise à jour](release-notes.md) à la date de publication.
 
+## Notes de mise à jour préliminaires du 25 août {#25-8-rn}
 
-## Notes de mise à jour préliminaires d’août 2025 {#25-7-rn}
-
-**Les notes de mise à jour préliminaires ci-dessous peuvent être modifiées sans préavis jusqu’à la date de publication**. Les liens, les copies d’écran et la documentation mise à jour sont publiés à la date de publication.
+**Les notes de version préliminaire ci-dessous peuvent être modifiées sans préavis jusqu’à la date de disponibilité de la version**. Les liens, les écrans et la documentation mise à jour sont publiés dans les notes de mise à jour, à la date de publication.
 
 Voir également les [Notes de mise à jour préliminaires d’Adobe Experience Platform](https://experienceleague.adobe.com/fr/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
 
@@ -64,9 +62,9 @@ Voir également les [Notes de mise à jour préliminaires d’Adobe Experience�
 <p>Une vue Calendrier est désormais disponible dans les listes des parcours et des campagnes. Elle vous permet de visualiser toutes les activations de parcours et de campagnes dans les listes respectives.</p>
 <p>Publiée précédemment en disponibilité limitée, cette fonctionnalité est désormais disponible dans tous les environnements. Avec cette version en disponibilité générale, la fonctionnalité inclut les points suivants :</p>
 <ul>
-<li>Améliorations de la conception pour la navigation dans les dates</li>
-<li>Possibilité de voir les brouillons de campagne si vous avez défini une date de début et une date de fin</li>
-<li>Nouveau paramètre permettant de masquer et d’afficher les éléments de calendrier s’exécutant sur une longue période</li>
+<li>Améliorations de la conception de la navigation dans les dates,</li>
+<li>La possibilité de voir les brouillons de campagne si vous avez défini une date de début et de fin,</li>
+<li>Nouveau paramètre permettant de masquer et d’afficher les éléments de calendrier s’exécutant depuis longtemps.</li>
 </ul>
 <p><!--img src="assets/do-not-localize/calendar.gif"/>--></p>
 <p><!--For more information, refer to the <a href="../building-journeys/journey-ui.md#journeys-calendar">detailed documentation</a>--></p>
@@ -110,7 +108,7 @@ Voir également les [Notes de mise à jour préliminaires d’Adobe Experience�
 <p>Exploitez les données d’Adobe Experience Platform dans l’éditeur de personnalisation pour personnaliser votre contenu. Pour ce faire, les jeux de données nécessaires à la personnalisation de la recherche doivent d’abord être activés par le biais d’un appel API. Une fois que vous avez terminé, vous pouvez utiliser leurs données pour personnaliser votre contenu dans [!DNL Journey Optimizer].</p>
 <p>Publiée précédemment en disponibilité limitée, cette fonctionnalité est désormais disponible dans tous les environnements. Les améliorations suivantes ont été apportées à cette version à disponibilité générale :</p>
 <ul>
-<li>Support des canaux entrants</li>
+<li>Prise en charge des canaux entrants,</li>
 <li>La fonction d’assistance « datasetLookup » peut désormais être utilisée dans les fragments d’expression et visuels pour personnaliser le contenu à l’aide des données des jeux de données Adobe Experience Platform.</li>
 <li>Une option du jeu de données vous permet désormais d’activer les jeux de données pour la personnalisation de la recherche, sans avoir à effectuer d’appel API.</li>
 </ul>
@@ -179,16 +177,15 @@ Voir également les [Notes de mise à jour préliminaires d’Adobe Experience�
 
 Les améliorations de cette version sont présentées ci-dessous.
 
-
-- **Campagnes**
-   - **Contrôle des taux dans les campagnes sortantes** - Vous pouvez désormais activer le contrôle des taux de limitation pour les campagnes sortantes (e-mail, SMS, notifications push), ce qui vous permet d’éviter la surcharge sur les systèmes en aval, tels que les pages de destination ou les plateformes d’assistance clientèle.
-   - **Planification de la campagne par action** - Les planificateurs quotidiens, hebdomadaires et mensuels de la campagne ont été mis à jour pour une meilleure granularité. Par exemple, vous pouvez maintenant définir le nombre de semaines/mois entre les plannings, définir le jour d’exécution et décider de s’arrêter après un nombre spécifique d’occurrences ou à une date spécifique.
-
 - **Administration**
    - **Alertes de surveillance de la configuration des canaux** - Vous pouvez désormais vous abonner pour recevoir des alertes système, par e-mail ou dans le centre de notifications Journey Optimizer, au cas où un échec de configuration du canal se produirait ou si un enregistrement DNS serait manquant.
 
+- **Campagnes**
+   - **Contrôle des taux dans les campagnes sortantes** - Vous pouvez désormais activer le contrôle des taux de limitation pour les campagnes sortantes (e-mail, SMS, notifications push), ce qui vous permet d’éviter la surcharge sur les systèmes en aval, tels que les pages de destination ou les plateformes d’assistance clientèle.
+   - **Planification de la campagne par action** - Les planificateurs quotidiens, hebdomadaires et mensuels de la campagne ont été mis à jour pour une meilleure granularité. Par exemple, vous pouvez désormais définir le nombre de semaines/mois entre les planifications, définir le jour de l’exécution et décider de l’arrêter après un nombre spécifique d’occurrences ou à une date spécifique.
+
 - **Canal - Push**
-   - **Date d’expiration des notifications push** - Vous pouvez désormais spécifier une date d’expiration pour chaque notification push, ce qui empêche l’envoi de messages sensibles au facteur temps (comme la vente Black Friday) après une certaine date et évite ainsi de fournir une mauvaise expérience à vos clients.
+   - **Date d’expiration des notifications push** - Vous pouvez désormais spécifier une date d’expiration pour chaque notification push, ce qui empêche l’envoi de messages sensibles au facteur temps (comme la vente Black Friday) après une certaine date, évite ainsi de fournir une mauvaise expérience à vos clients.
 
 - **Canal - Email**
    - **Pièces jointes PDF aux e-mails** - Vous pouvez désormais joindre des fichiers PDF statiques aux e-mails envoyés avec Journey Optimizer.
