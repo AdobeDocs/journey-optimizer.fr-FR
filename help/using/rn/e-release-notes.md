@@ -7,10 +7,10 @@ feature: Release Notes
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 3a44111345c1627610a6b026d7b19b281c4538d3
-workflow-type: ht
-source-wordcount: '591'
-ht-degree: 100%
+source-git-commit: 067b92c901bce0b0d14a7618aa41c705fe81b4c6
+workflow-type: tm+mt
+source-wordcount: '1059'
+ht-degree: 55%
 
 ---
 
@@ -32,8 +32,6 @@ Voir également les [Notes de mise à jour préliminaires d’Adobe Experience�
 
 ### Nouvelles fonctionnalités {#Aug-25-8-features}
 
-Les nouvelles fonctionnalités de cette version sont présentées ci-dessous.
-
 <table>
 <thead>
 <tr>
@@ -46,15 +44,13 @@ Les nouvelles fonctionnalités de cette version sont présentées ci-dessous.
 <p>Vous pouvez maintenant suspendre et reprendre les parcours. Cette fonctionnalité offre aux concepteurs et conceptrices du parcours un meilleur contrôle et une plus grande flexibilité en leur permettant de suspendre temporairement les parcours actifs sans perturber l’expérience client. Lorsque le parcours est suspendu, aucune communication n’est envoyée et les profils restent suspendus jusqu’à la reprise du parcours.</p>
 <p>Vous pouvez suspendre et reprendre un seul parcours ou un groupe de parcours par le biais d’opérations en bloc.</p>
 <p>En outre, vous pouvez appliquer des filtres globaux aux parcours suspendus afin d’exclure les profils en fonction de leurs attributs.</p>
-<img src="assets/do-not-localize/PauseResume.gif">
-<p>Auparavant disponible pour un nombre limité de clientes et clients (disponibilité limitée), cette fonctionnalité est désormais disponible dans tous les environnements (disponibilité générale).</p>
-<p>Pour plus d’informations, consultez la <a href="../building-journeys/journey-pause.md">documentation détaillée</a>.</p>
+<p><!--img src="assets/do-not-localize/PauseResume.gif"/>--></p>
+<p>Publiée précédemment en disponibilité limitée, cette fonctionnalité est désormais disponible dans tous les environnements (disponibilité générale).</p>
+<p><!--For more information, refer to the <a href="../building-journeys/journey-pause.md">detailed documentation</a>--></p>
 </td>
 </tr>
 </tbody>
 </table>
-
-
 
 <table>
 <thead>
@@ -72,13 +68,12 @@ Les nouvelles fonctionnalités de cette version sont présentées ci-dessous.
 <li>Possibilité de voir les brouillons de campagne si vous avez défini une date de début et une date de fin</li>
 <li>Nouveau paramètre permettant de masquer et d’afficher les éléments de calendrier s’exécutant sur une longue période</li>
 </ul>
-<img src="assets/do-not-localize/calendar.gif">
-<p>Pour plus d’informations, consultez la <a href="../building-journeys/journey-ui.md#journeys-calendar">documentation détaillée</a>.</p>
+<p><!--img src="assets/do-not-localize/calendar.gif"/>--></p>
+<p><!--For more information, refer to the <a href="../building-journeys/journey-ui.md#journeys-calendar">detailed documentation</a>--></p>
 </td>
 </tr>
 </tbody>
 </table>
-
 
 <table>
 <thead>
@@ -96,40 +91,114 @@ Les nouvelles fonctionnalités de cette version sont présentées ci-dessous.
 <li>Les clients de messagerie ne prennent pas tous en charge le mode sombre personnalisé. De plus, certains clients de messagerie appliquent uniquement leur propre mode sombre par défaut pour tous les e-mails reçus. Dans les deux cas, le rendu des paramètres personnalisés que vous avez définis dans le Concepteur d’e-mail ne pourra pas être affiché.</li>
 </ul>
 <P>Cette fonctionnalité est actuellement en version Beta et disponible uniquement pour les clientes et clients Beta. Pour rejoindre le programme bêta, contactez votre représentant ou représentante Adobe.</p>
-<p><img src="assets/do-not-localize/dark-mode.gif"/></p>
-<p>Pour plus d’informations, consultez la <a href="../email/dark-mode.md">documentation détaillée</a>. </p>
+<p><!--img src="assets/do-not-localize/dark-mode.gif"/>--></p>
+<p><!--For more information, refer to the <a href="../email/dark-mode.md">detailed documentation</a>--></p>
 </td>
 </tr>
 </tbody>
 </table>
 
-
 <table>
 <thead>
 <tr>
-<th><strong>Optimisation des campagnes</strong><br/></th>
+<th><strong>Utiliser des données Adobe Experience Platform à des fins de personnalisation</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Journey Optimizer vous fournit désormais les outils nécessaires pour diffuser du contenu personnalisé et optimisé à l’audience de vos campagnes. Vous pouvez ainsi exécuter des expériences de contenu, créer un ciblage basé sur des règles et utiliser des combinaisons avancées des deux pour optimiser l’efficacité de vos campagnes.</p>
-<p>Avec l’optimisation, vous pouvez réaliser les actions suivantes :</p>
+<p>Exploitez les données d’Adobe Experience Platform dans l’éditeur de personnalisation pour personnaliser votre contenu. Pour ce faire, les jeux de données nécessaires à la personnalisation de la recherche doivent d’abord être activés par le biais d’un appel API. Une fois que vous avez terminé, vous pouvez utiliser leurs données pour personnaliser votre contenu dans [!DNL Journey Optimizer].</p>
+<p>Publiée précédemment en disponibilité limitée, cette fonctionnalité est désormais disponible dans tous les environnements. Les améliorations suivantes ont été apportées à cette version à disponibilité générale :</p>
 <ul>
-<li>Tester plusieurs variations de contenu pour identifier le message le plus efficace.</li>
-<li>Diffuser du contenu personnalisé en fonction des attributs d’utilisation et des données contextuelles.</li>
-<li>Combiner le ciblage et l’expérimentation pour obtenir des stratégies de campagne avancées.</li>
-<li>Filtrer les utilisateurs et utilisatrices qui ne correspondent pas aux critères de variante.</li>
-<li>Garantir des mécanismes de secours pour maintenir l’interaction client.</li>
+<li>Support des canaux entrants</li>
+<li>La fonction d’assistance « datasetLookup » peut désormais être utilisée dans les fragments d’expression et visuels pour personnaliser le contenu à l’aide des données des jeux de données Adobe Experience Platform.</li>
+<li>Une option du jeu de données vous permet désormais d’activer les jeux de données pour la personnalisation de la recherche, sans avoir à effectuer d’appel API.</li>
 </ul>
-<P>Une fois la campagne active, les profils sont évalués en fonction des critères définis. Puis, en fonction des critères correspondants, ils sont diffusés avec l’expérience ou le contenu approprié de la campagne.</p>
-<p><img src="assets/do-not-localize/campaign-optimization.gif"/></p>
-<!--p>For more information, refer to the <a href="../FILE.md">detailed documentation</a></p-->
+<p><!--img src="assets/do-not-localize/FILE.gif"/>--></p>
+<p><!--For more information, refer to the <a href="../FILE.md">detailed documentation</a>--></p>
 </td>
 </tr>
 </tbody>
 </table>
 
+<table>
+<thead>
+<tr>
+<th><strong>Utiliser la prise de décision dans le canal e-mail</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Vous pouvez désormais ajouter des politiques de décision dans des parcours et des campagnes par e-mail. Les politiques de décision sont des conteneurs pour vos offres qui tirent profit du moteur de prise de décision afin d’effectuer un rendu dynamique du meilleur contenu à diffuser, pour chaque membre de l’audience.</p>
+<p>Publiée précédemment en disponibilité limitée, cette fonctionnalité est désormais disponible dans tous les environnements (disponibilité générale).</p>
+<p><!--img src="assets/do-not-localize/FILE.gif"/>--></p>
+<p><!--For more information, refer to the <a href="../FILE.md">detailed documentation</a>--></p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Formulaires personnalisés de la page de destination</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Journey Optimizer vous permet désormais de créer des formulaires personnalisés et de les exploiter dans des pages de destination pour capturer des attributs de profil dans le jeu de données défini pour chaque formulaire.</p>
+<p>Cette fonctionnalité est actuellement en version Beta et disponible uniquement pour les clientes et clients Beta. Pour rejoindre le programme bêta, contactez votre représentant ou représentante Adobe.</p>
+<p><!--img src="assets/do-not-localize/FILE.gif"/>--></p>
+<p><!--For more information, refer to the <a href="../FILE.md">detailed documentation</a>--></p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Optimisation du parcours</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Journey Optimizer vous fournit désormais les outils nécessaires pour optimiser vos parcours en utilisant l’IA et les frameworks d’expérimentation, tout en garantissant une convivialité transparente et une différenciation entre les fonctionnalités de condition et d’optimisation.</p>
+<p><!--img src="assets/do-not-localize/FILE.gif"/>--></p>
+<p><!--For more information, refer to the <a href="../FILE.md">detailed documentation</a>--></p>
+</td>
+</tr>
+</tbody>
+</table>
+
+
 ### Améliorations {#Aug-25-8-improv}
 
 Les améliorations de cette version sont présentées ci-dessous.
+
+
+- **Campagnes**
+   - **Contrôle des taux dans les campagnes sortantes** - Vous pouvez désormais activer le contrôle des taux de limitation pour les campagnes sortantes (e-mail, SMS, notifications push), ce qui vous permet d’éviter la surcharge sur les systèmes en aval, tels que les pages de destination ou les plateformes d’assistance clientèle.
+   - **Planification de la campagne par action** - Les planificateurs quotidiens, hebdomadaires et mensuels de la campagne ont été mis à jour pour une meilleure granularité. Par exemple, vous pouvez maintenant définir le nombre de semaines/mois entre les plannings, définir le jour d’exécution et décider de s’arrêter après un nombre spécifique d’occurrences ou à une date spécifique.
+
+- **Administration**
+   - **Alertes de surveillance de la configuration des canaux** - Vous pouvez désormais vous abonner pour recevoir des alertes système, par e-mail ou dans le centre de notifications Journey Optimizer, au cas où un échec de configuration du canal se produirait ou si un enregistrement DNS serait manquant.
+
+- **Canal - Push**
+   - **Date d’expiration des notifications push** - Vous pouvez désormais spécifier une date d’expiration pour chaque notification push, ce qui empêche l’envoi de messages sensibles au facteur temps (comme la vente Black Friday) après une certaine date et évite ainsi de fournir une mauvaise expérience à vos clients.
+
+- **Canal - Email**
+   - **Pièces jointes PDF aux e-mails** - Vous pouvez désormais joindre des fichiers PDF statiques aux e-mails envoyés avec Journey Optimizer.
+
+- **Configuration**
+   - **Prise en charge des domaines dynamiques** - Journey Optimizer prend désormais en charge la personnalisation du suivi des URL pour les domaines prédéfinis répertoriés au niveau de la configuration des canaux.
+   - **Prise en charge des attributs personnalisés avec l’URL de désabonnement en un clic** - Avec Journey Optimizer, si vous gérez le consentement en dehors d’Adobe, vous pouvez définir un point d’entrée personnalisé externe en définissant votre propre lien de désabonnement en un clic dans la configuration de l’e-mail. Lorsque vos destinataires cliquent sur le lien de désabonnement, Journey Optimizer ajoute certains paramètres par défaut spécifiques au profil à l’événement de mise à jour du consentement.
+
+     Pour personnaliser davantage votre lien de désabonnement en un clic, vous pouvez maintenant définir des attributs personnalisés qui seront ajoutés à l’événement de consentement.
+
+- **Parcours**
+   - **Activité d’action dans les parcours** - Journey Optimizer prend en charge une nouvelle activité d’action générique qui vous permet de configurer des actions sortantes à canal unique et multicanal, ce qui permet une configuration d’action rationalisée dans la zone de travail de parcours. Avec cette nouvelle activité, vous avez également la possibilité d’ajouter une optimisation du ciblage, des expériences et des variantes linguistiques multilingues à toute action de canal intégrée.
+   - **Opérations en bloc de Parcours** - Dans la liste de vos parcours, vous pouvez désormais sélectionner plusieurs éléments. Une fois sélectionné, vous pouvez suspendre ou reprendre jusqu’à 10 parcours à la fois.
