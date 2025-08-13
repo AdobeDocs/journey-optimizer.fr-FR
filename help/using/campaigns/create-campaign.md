@@ -13,12 +13,12 @@ exl-id: 617d623c-e038-4b5b-a367-5254116b7815
 source-git-commit: 3a44111345c1627610a6b026d7b19b281c4538d3
 workflow-type: tm+mt
 source-wordcount: '152'
-ht-degree: 59%
+ht-degree: 62%
 
 ---
 
 
-# Utiliser les campagnes d’action {#gs-action-campaigns}
+# Utiliser des campagnes d’action {#gs-action-campaigns}
 
 >[!CONTEXTUALHELP]
 >id="campaigns_overview_action"
@@ -48,4 +48,4 @@ Les campagnes d’action (ou campagnes planifiées) permettent des communication
 
 Découvrez comment créer une campagne d’action.
 
->[!VIDEO](https://video.tv.adobe.com/v/3412403?quality=12&captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/346680?quality=12)
