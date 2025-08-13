@@ -7,9 +7,9 @@ feature: Release Notes
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 8e0dff6082f5fec6768d1bf284936468fd19208d
+source-git-commit: b62f0325b8d7aa1e213a5c6273d0634a0e005a6e
 workflow-type: tm+mt
-source-wordcount: '967'
+source-wordcount: '1010'
 ht-degree: 32%
 
 ---
@@ -147,6 +147,7 @@ Voir également les [Notes de mise à jour préliminaires d’Adobe Experience�
 <tr>
 <td>
 <p>Journey Optimizer vous fournit désormais les outils nécessaires pour optimiser vos parcours en utilisant l’IA et les frameworks d’expérimentation, tout en garantissant une convivialité transparente et une différenciation entre les fonctionnalités de condition et d’optimisation.</p>
+<p>Cette fonctionnalité est en disponibilité limitée. Contactez votre représentant ou représentante Adobe pour obtenir l’accès.</p>
 <p><!--img src="assets/do-not-localize/FILE.gif"/>--></p>
 <p><!--For more information, refer to the <a href="../FILE.md">detailed documentation</a>--></p>
 </td>
@@ -231,6 +232,10 @@ Les améliorations de cette version sont présentées ci-dessous.
    * **Prise en charge des attributs personnalisés avec l’URL de désabonnement en un clic** - Avec Journey Optimizer, si vous gérez le consentement en dehors d’Adobe, vous pouvez définir un point d’entrée personnalisé externe en définissant votre propre lien de désabonnement en un clic dans la configuration de l’e-mail. Lorsque vos destinataires cliquent sur le lien de désabonnement, Journey Optimizer ajoute certains paramètres par défaut spécifiques au profil à l’événement de mise à jour du consentement.
 
      Pour personnaliser davantage votre lien de désabonnement en un clic, vous pouvez maintenant définir des attributs personnalisés qui seront ajoutés à l’événement de consentement.
+
+* **Prise de décision**
+
+   * **Joindre des fragments aux éléments de décision** - Journey Optimizer permet désormais de joindre des fragments aux éléments de décision qui peuvent être utilisés dans les campagnes d’expérience basées sur le code par le biais de politiques de décision.
 
 * **Parcours**
 
