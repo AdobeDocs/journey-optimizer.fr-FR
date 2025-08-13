@@ -1,0 +1,52 @@
+---
+solution: Journey Optimizer
+product: Journey Optimizer
+title: Collecter les données d’événement
+description: Collecter les données d’événement
+redpen-status: CREATED_||_2025-08-11_21-02-07
+source-git-commit: 79fdb9535703e961922dfcfaaad1b6731d2d88c0
+workflow-type: tm+mt
+source-wordcount: '198'
+ht-degree: 6%
+
+---
+
+
+# Collecter les données d’événement{#section-overview}
+
+La collecte de données d’événement dans Adobe Journey Optimizer vous permet d’effectuer le suivi d’interactions essentielles telles que les décisions, les impressions, les clics et les événements personnalisés, en veillant à ce que vos offres soient adaptées et efficaces. Ces données alimentent des processus critiques tels que la création de rapports, le capping de la fréquence et la création de modèles d’IA en s’intégrant de manière transparente à Adobe Experience Platform. Vous découvrirez comment différents types d’événements, qu’ils soient automatiquement déclenchés ou personnalisés, fonctionnent ensemble pour fournir des commentaires exploitables. De la création de jeux de données à la configuration de schémas, chaque étape jette les bases de la capture et de l’exploitation des informations, ce qui vous aide à prendre des décisions éclairées et à optimiser les expériences client en toute confiance.
+
+## Collecter des données d’événement
+
+:::: landing-cards-container
+:::
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
+
+Prise en main de la collecte de données de gestion des décisions
+
+Découvrez les principes de base de la collecte de données pour la gestion des décisions, y compris les types d’événements et la manière dont les données de commentaires sont envoyées à Adobe Experience Platform.
+
+[Lire l’article](../using/offers/data-collection/data-collection.md)
+:::
+
+:::
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+
+Création d’un jeu de données pour collecter des événements d’expérience
+
+Suivez les instructions détaillées afin de créer un jeu de données et un schéma pour la collecte d’événements d’expérience dans Adobe Journey Optimizer.
+
+[Commencer le tutoriel](../using/offers/data-collection/create-dataset.md)
+:::
+
+:::
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+
+Configuration de la capture de données d’événement pour la gestion des décisions
+
+Découvrez comment configurer des schémas pour capturer des événements d’impression, de clic et personnalisés pour la gestion des décisions dans Adobe Journey Optimizer.
+
+[Lire le guide](../using/offers/data-collection/schema-requirement.md)
+:::
+
+::::

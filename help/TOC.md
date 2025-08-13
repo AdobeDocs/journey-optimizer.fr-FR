@@ -5,20 +5,23 @@ user-guide-title: Guide de Journey Optimizer
 user-guide-description: Utilisez Journey Optimizer pour créer et proposer aux clients des expériences connectées, contextuelles et personnalisées
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 378ead41924496f52f22026b3f0e05a9c9c76f89
+source-git-commit: 0d9d5324a8ca2c02fd18c01808e45be83952cc91
 workflow-type: tm+mt
-source-wordcount: '2598'
-ht-degree: 100%
+source-wordcount: '2875'
+ht-degree: 99%
 
 ---
+
 
 # Aide d’Adobe Journey Optimizer {#using}
 
 + [Documentation Journey Optimizer](ajo-home.md)
 + Nouveautés {#whats-new}
+   + [Nouveautés](/help/rp_landing_pages/whats-new-landing-page.md)
    + [Notes de mise à jour anticipées](using/rn/e-release-notes.md)
    + [Dernières notes de mise à jour](using/rn/release-notes.md)
    + Notes de mise à jour précédentes {#previous-rn-new}
+      + [Notes de mise à jour précédentes](/help/rp_landing_pages/previous-rn-new-landing-page.md)
       + [2025](using/rn/release-notes-2025.md)
       + [2024](using/rn/release-notes-2024.md)
       + [2023](using/rn/release-notes-2023.md)
@@ -26,9 +29,13 @@ ht-degree: 100%
       + [2021](using/rn/release-notes-2021.md)
    + [Mises à jour de la documentation](using/rn/documentation-updates.md)
    + [Amélioration de la zone de travail de parcours](using/rn/new-canvas.md)
-+ Commencer{#get-started}
-   + [Présentation de Journey Optimizer](using/start/get-started.md)
-   + Guides de démarrage rapide{#quick-start}
++ Commencer {#get-started}
+   + [Commencer](/help/rp_landing_pages/get-started-landing-page.md)
+   + [Fonctionnalités principales](using/start/get-started.md)
+   + [Architecture](using/start/architecture-concepts-redpen.md)
+   + [Concepts de base](using/start/functional-areas-redpen.md)
+   + [Terminologie clé](using/start/terminology-md-redpen.md)
+   + Rôles et responsabilités {#quick-start}
       + [Vue d’ensemble](using/start/quick-start.md)
       + [Prise en main en tant que spécialiste marketing](using/start/path/marketer.md)
       + [Prise en main en tant qu’ingénieur de données](using/start/path/data-engineer.md)
@@ -36,14 +43,16 @@ ht-degree: 100%
       + [Prise en main en tant que développeur](using/start/path/developer.md)
    + [Interface d’utilisation](using/start/user-interface.md)
    + [Recherche, filtrage, catégorisation](using/start/search-filter-categorize.md)
-   + [Mécanismes de sécurisation](using/start/guardrails.md)
    + [Accessibilité](using/start/accessibility.md)
-   + [Playbooks de cas d’utilisation](using/start/playbooks.md)
    + [Utiliser l’Assistant IA](using/start/ai-assistant.md)
+   + [Mécanismes de sécurisation](using/start/guardrails.md)
    + [Bonnes pratiques](using/start/best-practices.md)
+   + [Playbooks](using/start/playbooks.md)
 + Parcours {#orchestrate-journeys}
+   + [Parcours](/help/rp_landing_pages/orchestrate-journeys-landing-page.md)
    + [Commencer les parcours](using/building-journeys/journey.md)
    + Créer un parcours {#create-journey}
+      + [Créer un parcours](/help/rp_landing_pages/create-journey-landing-page.md)
       + [Créer votre premier parcours](using/building-journeys/journey-gs.md)
       + [Définir les propriétés de votre parcours](using/building-journeys/journey-properties.md)
       + [Configurer et suivre les mesures de votre parcours](using/building-journeys/success-metrics.md)
@@ -54,6 +63,7 @@ ht-degree: 100%
       + [Suspendre un parcours](using/building-journeys/journey-pause.md)
       + [Rapport dynamique dans votre parcours](using/building-journeys/report-journey.md)
    + Gérer vos parcours {#manage-journey}
+      + [Gérer vos parcours](/help/rp_landing_pages/manage-journey-landing-page.md)
       + [Parcourir et filtrer vos parcours](using/building-journeys/journey-ui.md)
       + [Entrée de profil dans les parcours](using/building-journeys/entry-management.md)
       + [Utiliser des identifiants supplémentaires dans les parcours](using/building-journeys/supplemental-identifier.md)
@@ -63,6 +73,7 @@ ht-degree: 100%
       + [Copier un parcours dans un autre sandbox](using/building-journeys/copy-to-sandbox.md)
       + [Intégration aux services intelligents](using/building-journeys/ai-services-overview.md)
    + Activités {#about-journey-building}
+      + [Activités](/help/rp_landing_pages/about-journey-building-landing-page.md)
       + [Prise en main des activités de parcours](using/building-journeys/about-journey-activities.md)
       + [Événements généraux](using/building-journeys/general-events.md)
       + [Réaction](using/building-journeys/reaction-events.md)
@@ -78,8 +89,10 @@ ht-degree: 100%
       + [Saut](using/building-journeys/jump.md)
       + [Mettre à jour le profil](using/building-journeys/update-profiles.md)
    + Créer des expressions {#building-advanced-conditions-journeys}
+      + [Créer des expressions](/help/rp_landing_pages/building-advanced-conditions-journeys-landing-page.md)
       + [Utiliser l’éditeur d’expression avancé](using/building-journeys/expression/expressionadvanced.md)
       + Syntaxe {#syntax}
+         + [Syntaxe](/help/rp_landing_pages/syntax-landing-page.md)
          + [Syntaxe de l’éditeur d’expression avancé](using/building-journeys/expression/generalities.md)
          + [Instruction conditionnelle](using/building-journeys/expression/conditional-instruction.md)
          + [Types de données](using/building-journeys/expression/data-types.md)
@@ -89,10 +102,12 @@ ht-degree: 100%
          + [Propriétés du parcours](using/building-journeys/expression/journey-properties.md)
          + [Exemples](using/building-journeys/expression/advanced-editor-use-cases.md)
       + Fonctions {#main-functions-journey}
+         + [Fonctions](/help/rp_landing_pages/main-functions-journey-landing-page.md)
          + [Fonctions principales](using/building-journeys/expression/functions.md)
          + Adobe Experience Platform {#adobe-experience-platform}
             + [inAudience](using/building-journeys/functions/functioninaudience.md)
          + Agrégation {#aggregation}
+            + [Agrégation](/help/rp_landing_pages/aggregation-landing-page.md)
             + [avg](using/building-journeys/functions/functionavg.md)
             + [count](using/building-journeys/functions/functioncount.md)
             + [countOnlyNull](using/building-journeys/functions/functioncountonlynull.md)
@@ -103,6 +118,7 @@ ht-degree: 100%
             + [min](using/building-journeys/functions/functionmin.md)
             + [sum](using/building-journeys/functions/functionsum.md)
          + Conversion {#conversion}
+            + [Conversion](/help/rp_landing_pages/conversion-landing-page.md)
             + [toBool](using/building-journeys/functions/functiontobool.md)
             + [toDateOnly](using/building-journeys/functions/functiontodateonly.md)
             + [toDateTime](using/building-journeys/functions/functiontodatetime.md)
@@ -112,6 +128,7 @@ ht-degree: 100%
             + [toInteger](using/building-journeys/functions/functiontointeger.md)
             + [toString](using/building-journeys/functions/functiontostring.md)
          + Date {#date}
+            + [Date](/help/rp_landing_pages/date-landing-page.md)
             + [currentTime&#x200B;InMillis](using/building-journeys/functions/functioncurrenttimeinmillis.md)
             + [inLastDays](using/building-journeys/functions/functioninlastdays.md)
             + [inLastHours](using/building-journeys/functions/functioninlasthours.md)
@@ -127,6 +144,7 @@ ht-degree: 100%
             + [setDays](using/building-journeys/functions/functionsetdays.md)
             + [updateTimeZone](using/building-journeys/functions/functionupdatetimezone.md)
          + Liste {#list}
+            + [Liste](/help/rp_landing_pages/list-landing-page.md)
             + [distinct](using/building-journeys/functions/functiondistinct.md)
             + [distinctWithNull](using/building-journeys/functions/functiondistinctwithnull.md)
             + [filter](using/building-journeys/functions/functionfilter.md)
@@ -138,9 +156,11 @@ ht-degree: 100%
             + [serializeList](using/building-journeys/functions/functionserializelist.md)
             + [sort](using/building-journeys/functions/functionsort.md)
          + Math {#math}
+            + [Math](/help/rp_landing_pages/math-landing-page.md)
             + [random](using/building-journeys/functions/functionrandom.md)
             + [round](using/building-journeys/functions/functionround.md)
          + Chaîne {#string}
+            + [Chaîne](/help/rp_landing_pages/string-landing-page.md)
             + [concat](using/building-journeys/functions/functionconcat.md)
             + [contain](using/building-journeys/functions/functioncontain.md)
             + [containIgnoreCase](using/building-journeys/functions/functioncontainwithignorecase.md)
@@ -165,6 +185,7 @@ ht-degree: 100%
             + [upper](using/building-journeys/functions/functionupper.md)
             + [uuid](using/building-journeys/functions/functionuuid.md)
    + Cas d’utilisation {#journey-use-cases}
+      + [Cas d’utilisation](/help/rp_landing_pages/journey-use-cases-landing-page.md)
       + [Apprendre avec des cas d’utilisation](using/building-journeys/jo-use-cases.md)
       + [Rechercher des événements d’expérience](using/building-journeys/exp-event-lookup.md)
       + [Envoi de messages multi-canal](using/building-journeys/journeys-uc.md)
@@ -175,15 +196,17 @@ ht-degree: 100%
       + [Limiter le débit avec des sources de données externes et des actions personnalisées](using/building-journeys/limit-throughput.md)
       + [Utiliser des actions personnalisées pour écrire des événements de parcours dans Experience Platform](using/building-journeys/custom-action-aep.md)
    + Résolution des problèmes {#troubleshoot-journey}
-      + [Résoudre les problèmes liés à vos parcours](using/building-journeys/gs-troubleshooting.md)
+      + [Résolution des problèmes](/help/rp_landing_pages/troubleshoot-journey-landing-page.md)
       + [Résoudre les erreurs de parcours](using/building-journeys/troubleshooting.md)
       + [Résoudre les problèmes d’exécution d’un parcours](using/building-journeys/troubleshooting-execution.md)
       + [Résoudre les problèmes liés aux actions entrantes](using/building-journeys/troubleshooting-inbound.md)
       + [Résoudre les problèmes liés aux actions personnalisées](using/action/troubleshoot-custom-action.md)
 + Campagnes {#campaigns}
+   + [Campagnes](/help/rp_landing_pages/campaigns-landing-page.md)
    + [Commencer avec les campagnes](using/campaigns/get-started-with-campaigns.md)
    + [Accéder aux campagnes et les gérer](using/campaigns/modify-stop-campaign.md)
    + Campagnes d’action {#action-campaigns}
+      + [Campagnes d’action](/help/rp_landing_pages/action-campaigns-landing-page.md)
       + [Utiliser des campagnes d’action](using/campaigns/create-campaign.md)
       + [Définir les propriétés de la campagne](using/campaigns/campaign-properties.md)
       + [Configurer l’action de campagne](using/campaigns/campaign-action.md)
@@ -193,6 +216,7 @@ ht-degree: 100%
       + [Planifier la campagne](using/campaigns/campaign-schedule.md)
       + [Vérifier et activer une campagne d’action](using/campaigns/review-activate-campaign.md)
    + Campagnes déclenchées par API {#api-triggered-campaigns}
+      + [Campagnes déclenchées par API](/help/rp_landing_pages/api-triggered-campaigns-landing-page.md)
       + [Utiliser des campagnes déclenchées par API](using/campaigns/api-triggered-campaigns.md)
       + [Définir les propriétés de la campagne](using/campaigns/api-triggered-campaign-properties.md)
       + [Configurer l’action de campagne](using/campaigns/api-triggered-campaign-action.md)
@@ -202,28 +226,34 @@ ht-degree: 100%
       + [Vérifier et activer la campagne](using/campaigns/review-activate-api-triggered-campaign.md)
       + [Déclencher l’exécution de la campagne](using/campaigns/trigger-campaigns.md)
    + Campagnes orchestrées {#orchestrated-campaigns}
+      + [Campagnes orchestrées](/help/rp_landing_pages/orchestrated-campaigns-landing-page.md)
       + [Commencer avec les campagnes orchestrées](using/orchestrated/gs-orchestrated-campaigns.md)
       + [Mécanismes de sécurisation et limitations](using/orchestrated/guardrails.md)
       + [Questions fréquentes](using/orchestrated/orchestrated-campaigns-faq.md)
-      + Configuration des données {#configuration}
+      + Configuration des données {#data-configuration}
+         + [Configuration des données](/help/rp_landing_pages/data-configuration-landing-page.md)
          + Gérer des schémas et des jeux de données relationnels {#schemas-datasets}
+            + [Gérer des schémas et des jeux de données relationnels](/help/rp_landing_pages/schemas-datasets-landing-page.md)
             + [Commencer à utiliser des schémas et des jeux de données](using/orchestrated/gs-schemas.md)
             + [Schéma manuel](using/orchestrated/manual-schema.md)
             + [Schéma de chargement de fichiers](using/orchestrated/file-upload-schema.md)
             + [Ingérer des données](using/orchestrated/ingest-data.md)
          + [Créer une dimension de ciblage](using/orchestrated/target-dimension.md)
-      + Lancer votre première campagne orchestrée{#launch}
+      + Lancer votre première campagne orchestrée {#launch}
+         + [Lancer votre première campagne orchestrée](/help/rp_landing_pages/launch-landing-page.md)
          + [Étapes clés pour créer une campagne orchestrée](using/orchestrated/gs-campaign-creation.md)
          + [Créer et planifier la campagne](using/orchestrated/create-orchestrated-campaign.md)
          + [Orchestrer les activités](using/orchestrated/orchestrate-activities.md)
          + [Démarrer et surveiller la campagne](using/orchestrated/start-monitor-campaigns.md)
          + [Création de rapports](using/orchestrated/reporting-campaigns.md)
       + Interroger la base de données {#query-database}
+         + [Interroger la base de données](/help/rp_landing_pages/query-database-landing-page.md)
          + [Utiliser le créateur de règles](using/orchestrated/orchestrated-rule-builder.md)
          + [Créer votre première règle](using/orchestrated/build-query.md)
          + [Modifier les expressions](using/orchestrated/edit-expressions.md)
          + [Reciblage](using/orchestrated/retarget.md)
       + Activités de campagnes orchestrées {#design-campaigns}
+         + [Activités de campagnes orchestrées](/help/rp_landing_pages/design-campaigns-landing-page.md)
          + [Commencer les activités](using/orchestrated/activities/about-activities.md)
          + [Rendez-vous](using/orchestrated/activities/and-join.md)
          + [Créer une audience](using/orchestrated/activities/build-audience.md)
@@ -240,15 +270,19 @@ ht-degree: 100%
          + [Test](using/orchestrated/activities/test.md)
          + [Attente](using/orchestrated/activities/wait.md)
 + Gestion des conflits et hiérarchisation {#conflict-prioritization}
+   + [Gestion des conflits et hiérarchisation](/help/rp_landing_pages/conflict-prioritization-landing-page.md)
    + [Commencer avec la gestion et la hiérarchisation des conflits](using/conflict-prioritization/gs-conflict-prioritization.md)
    + [Identifier les conflits potentiels](using/conflict-prioritization/conflicts.md)
    + [Attribuer des scores de priorité](using/conflict-prioritization/priority-scores.md)
-Définissez les règles de limitation des messages et des parcours {#capping-rules}
+   + Définir les règles de limitation des messages et des parcours {#capping-rules}
+      + [Définir les règles de limitation des messages et des parcours](/help/rp_landing_pages/capping-rules-landing-page.md)
       + [Utiliser des jeux de règles](using/conflict-prioritization/rule-sets.md)
       + [Limitation et arbitrage des parcours](using/conflict-prioritization/journey-capping.md)
       + [Capping de la fréquence par canal et type de communication](using/conflict-prioritization/channel-capping.md)
 + Tester et approuver {#test}
+   + [Tester et approuver](/help/rp_landing_pages/test-landing-page.md)
    + Prévisualiser et tester le contenu {#preview-test}
+      + [Prévisualiser et tester le contenu](/help/rp_landing_pages/preview-test-landing-page.md)
       + [Commencer avec la prévisualisation et les tests](using/content-management/preview-test.md)
       + [Sélectionner des profils de test](using/content-management/test-profiles.md)
       + [Prévisualiser avec les profils de test](using/content-management/preview.md)
@@ -257,6 +291,7 @@ Définissez les règles de limitation des messages et des parcours {#capping-rul
       + [Simuler des variations de contenu](using/test-approve/simulate-sample-input.md)
       + [Envoyer le rapport sur les spams](using/content-management/spam-report.md)
    + Approuver les parcours et les campagnes {#approve}
+      + [Approuver les parcours et les campagnes](/help/rp_landing_pages/approve-landing-page.md)
       + [Commencer les approbations](using/test-approve/gs-approval.md)
       + [Créer et gérer des politiques d’approbation](using/test-approve/approval-policies.md)
       + [Demander l’approbation](using/test-approve/request-approval.md)
@@ -265,17 +300,20 @@ Définissez les règles de limitation des messages et des parcours {#capping-rul
 + Canaux de communication {#channels}
    + [Commencer avec les canaux de communication](using/channels/gs-channels.md)
    + Canal e-mail {#email}
-      + [Prise en main des e-mails](using/email/get-started-email.md)
+      + [Canal e-mail](/help/rp_landing_pages/email-landing-page.md)
       + [Créer un e-mail](using/email/create-email.md)
       + Concevoir le contenu de vos e-mails {#design-email}
+         + [Concevoir le contenu de vos e-mails](/help/rp_landing_pages/design-email-landing-page.md)
          + [Commencer la conception d’e-mails](using/email/get-started-email-design.md)
          + Commencer à créer du contenu {#start-creating-content}
+            + [Commencer à créer du contenu](/help/rp_landing_pages/start-creating-content-landing-page.md)
             + [Concevoir du contenu en partant de zéro](using/email/content-from-scratch.md)
             + [Importer votre contenu](using/email/existing-content.md)
             + [Coder votre propre contenu](using/email/code-content.md)
             + [Utiliser des modèles d’e-mail](using/email/use-email-templates.md)
             + [Utiliser les thèmes d’e-mail](using/email/apply-email-themes.md)
          + Concevoir du contenu {#add-content}
+            + [Concevoir du contenu](/help/rp_landing_pages/add-content-landing-page.md)
             + [Utiliser des composants de contenu](using/email/content-components.md)
             + [Utiliser des fragments visuels](using/email/use-visual-fragments.md)
             + [Ajouter des liens et suivre les messages](using/email/message-tracking.md)
@@ -284,13 +322,15 @@ Définissez les règles de limitation des messages et des parcours {#capping-rul
             + [Ajouter des métadonnées](using/email/email-metadata.md)
             + [Ajouter un CSS personnalisé](using/email/custom-css.md)
          + Modifier le style {#edit-style}
+            + [Modifier le style](/help/rp_landing_pages/edit-style-landing-page.md)
             + [Prise en main du style des e-mails](using/email/get-started-email-style.md)
             + [Modifier les paramètres d’arrière-plan](using/email/backgrounds.md)
             + [Ajuster l’alignement vertical et la marge intérieure](using/email/alignment-and-padding.md)
             + [Ajouter des attributs de style intégrés](using/email/inline-styling.md)
             + [Définir le contenu en mode sombre](using/email/dark-mode.md)
-      + [Gérer les désinscriptions aux e-mails](using/email/email-opt-out.md)
+      + [Gérer le processus d’opt-out aux e-mails](using/email/email-opt-out.md)
       + Configurer le canal e-mail {#configure-email}
+         + [Configurer le canal e-mail](/help/rp_landing_pages/configure-email-landing-page.md)
          + [Commencer la configuration du canal e-mail](using/email/get-started-email-config.md)
          + [Définir les paramètres de configuration du canal e-mail](using/email/email-settings.md)
          + [Activer le désabonnement de la liste](using/email/list-unsubscribe.md)
@@ -298,32 +338,36 @@ Définissez les règles de limitation des messages et des parcours {#capping-rul
          + [Tracking d’URL](using/email/url-tracking.md)
          + [Personnaliser la configuration du canal e-mail](using/email/surface-personalization.md)
       + Délivrabilité des e-mails {#deliverability}
+         + [Délivrabilité des e-mails](/help/rp_landing_pages/deliverability-landing-page.md)
          + [Commencer avec la délivrabilité](using/reports/deliverability.md)
          + [Présentation de la liste de suppression](using/reports/suppression-list.md)
          + [Nouvelle exigence DMARC](using/configuration/dmarc-record-update.md)
-   + Canal in-app{#in-app}
-      + [Commencer avec le canal in-app](using/in-app/get-started-in-app.md)
+   + Canal in-app {#in-app}
+      + [Canal in-app](/help/rp_landing_pages/in-app-landing-page.md)
       + [Conditions préalables pour le canal in-app](using/in-app/inapp-configuration.md)
       + [Créer un message mobile in-app](using/in-app/create-in-app.md)
       + [Créer un message web in-app](using/in-app/create-in-app-web.md)
       + [Concevoir votre contenu in-app](using/in-app/design-in-app.md)
       + [Vérifier et envoyer votre notification in-app](using/in-app/send-in-app.md)
-   + Canal des notifications push{#push}
-      + [Prise en main des notifications push](using/push/get-started-push.md)
+   + Canal des notifications push {#push}
+      + [Canal des notifications push](/help/rp_landing_pages/push-landing-page.md)
       + [Créer une notification push](using/push/create-push.md)
       + [Concevoir votre notification push](using/push/design-push.md)
       + [Vérifier et envoyer votre notification push](using/push/send-push.md)
-      + Configurer les notifications push{#push-config}
+      + Configurer les notifications push {#push-config}
+         + [Configurer les notifications push](/help/rp_landing_pages/push-config-landing-page.md)
          + [Flux de notification push](using/push/push-gs.md)
          + [Configurer le canal de notification push](using/push/push-configuration.md)
          + [Workflow de démarrage rapide de l’intégration mobile](using/push/mobile-onboarding-wf.md)
-   + Canal SMS/MMS/RCS{#sms}
+   + Canal SMS/MMS/RCS {#sms}
+      + [Canal SMS/MMS/RCS](/help/rp_landing_pages/sms-landing-page.md)
       + [Commencer avec les SMS](using/sms/get-started-sms.md)
       + [Créer un message SMS/MMS/RCS](using/sms/create-sms.md)
       + [Vérifier et envoyer vos messages texte](using/sms/send-sms.md)
-      + [Gérer les droits d’opposition pour les messages texte](using/sms/sms-opt-out.md)
+      + [Gérer le processus d&#39;opt-out des messages texte](using/sms/sms-opt-out.md)
       + [Configurer des sous-domaines SMS](using/sms/sms-subdomains.md)
-      + Configurer le canal SMS/MMS/RCS{#configure-sms}
+      + Configurer le canal SMS/MMS/RCS {#configure-sms}
+         + [Configurer le canal SMS/MMS/RCS](/help/rp_landing_pages/configure-sms-landing-page.md)
          + [Commencer avec la configuration des SMS/MMS/RCS](using/sms/sms-configuration.md)
          + [Configurer le fournisseur Sinch](using/sms/sms-configuration-sinch.md)
          + [Configurer le fournisseur Infobip](using/sms/sms-configuration-infobip.md)
@@ -331,64 +375,76 @@ Définissez les règles de limitation des messages et des parcours {#capping-rul
          + [Configurer un fournisseur personnalisé](using/sms/sms-configuration-custom.md)
          + [Créer une configuration de SMS/MMS/RCS](using/sms/sms-configuration-surface.md)
    + Courrier {#direct-mail}
+      + [Courrier](/help/rp_landing_pages/direct-mail-landing-page.md)
       + [Prise en main du courrier](using/direct-mail/get-started-direct-mail.md)
       + [Créer un courrier](using/direct-mail/create-direct-mail.md)
       + [Vérifier et envoyer un message de publipostage direct](using/direct-mail/test-send-direct-mail.md)
       + [Configurer le courrier](using/direct-mail/direct-mail-configuration.md)
       + [Envoyer des messages de publipostage direct avec les parcours](using/direct-mail/direct-mail-journeys.md)
    + Canal web {#web}
+      + [Canal web](/help/rp_landing_pages/web-landing-page.md)
       + [Commencer avec le canal web](using/web/get-started-web.md)
       + Configurer le canal web {#configure-web-channel}
+         + [Configurer le canal web](/help/rp_landing_pages/configure-web-channel-landing-page.md)
          + [Conditions préalables requises pour les canaux web](using/web/web-prerequisites.md)
          + [Configurer des sous-domaines web](using/web/web-delegated-subdomains.md)
          + [Créer une configuration de canal web](using/web/web-configuration.md)
       + [Créer des expériences web](using/web/create-web.md)
       + Créer des pages web {#author-web-pages}
+         + [Créer des pages web](/help/rp_landing_pages/author-web-pages-landing-page.md)
          + [Utiliser le concepteur web](using/web/web-visual-editor.md)
          + [Utiliser l’éditeur non visuel](using/web/web-non-visual-editor.md)
          + [Gérer les modifications](using/web/manage-web-modifications.md)
          + [Surveiller vos expériences web](using/web/monitor-web-experiences.md)
          + [Créer des applications monopage](using/web/web-spa.md)
    + Expérience basée sur du code {#code-based-experience}
+      + [Expérience basée sur du code](/help/rp_landing_pages/code-based-experience-landing-page.md)
       + [Commencer avec le canal basé sur du code](using/code-based/get-started-code-based.md)
       + Configurer le canal basé sur du code {#configure-code-based-channel}
+         + [Configurer le canal basé sur du code](/help/rp_landing_pages/configure-code-based-channel-landing-page.md)
          + [Mécanismes de sécurisation et conditions préalables](using/code-based/code-based-prerequisites.md)
          + [Surfaces d’expérience basée sur du code](using/code-based/code-based-surface.md)
          + [Exemples de méthodes de mise en œuvre](using/code-based/code-based-implementation-samples.md)
          + [Prise de décision dans les implémentations d’expérience basées sur du code](using/code-based/code-based-decisioning-implementations.md)
          + [Créer une configuration de l’expérience basée sur du code](using/code-based/code-based-configuration.md)
       + Créer des expériences basées sur du code {#create-code-based-experiences}
+         + [Créer des expériences basées sur du code](/help/rp_landing_pages/create-code-based-experiences-landing-page.md)
          + [Créer et composer des expériences basées sur du code](using/code-based/create-code-based.md)
          + [Utiliser des champs modifiables dans les expériences basées sur du code](using/code-based/code-based-form-fields.md)
          + [Tester des expériences basées sur du code](using/code-based/test-code-based.md)
          + [Gérer des expériences basées sur du code](using/code-based/publish-code-based.md)
-   + Cartes de contenu{#content-card}
-      + [Commencer avec les cartes de contenu](using/content-card/get-started-content-card.md)
+   + Cartes de contenu {#content-card}
+      + [Cartes de contenu](/help/rp_landing_pages/content-card-landing-page.md)
       + Configurer le canal des vignettes de contenu {#configure}
+         + [Configurer le canal des vignettes de contenu](/help/rp_landing_pages/configure-landing-page.md)
          + [Conditions préalables des cartes de contenu](using/content-card/content-card-configuration-prereq.md)
          + [Configurer le canal des vignettes de contenu dans Journey Optimizer](using/content-card/content-card-configuration.md)
          + [Configurer la prise en charge des cartes de contenu dans le SDK mobile](using/content-card/content-card-lp.md)
          + [Configurer la prise en charge des cartes de contenu dans le SDK web](using/content-card/content-card-configuration-sdk.md)
       + [Créer des cartes de contenu](using/content-card/create-content-card.md)
       + [Concevoir des cartes de contenu](using/content-card/design-content-card.md)
-   + WhatsApp{#whatsapp}
+   + WhatsApp {#whatsapp}
+      + [WhatsApp](/help/rp_landing_pages/whatsapp-landing-page.md)
       + [Commencer avec les messages WhatsApp](using/whatsapp/get-started-whatsapp.md)
       + [Configurer un canal WhatsApp dans Journey Optimizer](using/whatsapp/whatsapp-configuration.md)
       + [Créer un message WhatsApp](using/whatsapp/create-whatsapp.md)
       + [Vérifier et envoyer vos messages WhatsApp](using/whatsapp/send-whatsapp.md)
    + LINE {#line}
-      + [Commencer avec le canal LINE](using/line/get-started-line.md)
+      + [LINE](/help/rp_landing_pages/line-landing-page.md)
       + [Configurer le canal LINE dans Journey Optimizer](using/line/line-configuration.md)
       + [Créer un message LINE](using/line/create-line.md)
       + [Vérifier et envoyer des messages LINE](using/line/send-line.md)
 + Gestion de contenu {#content-management}
+   + [Gestion de contenu](/help/rp_landing_pages/content-management-landing-page.md)
    + Personnalisation {#personalization}
+      + [Personnalisation](/help/rp_landing_pages/personalization-landing-page.md)
       + [Prise en main de la personnalisation](using/personalization/personalize.md)
       + [Ajouter une personnalisation](using/personalization/personalization-build-expressions.md)
       + [Syntaxe de personnalisation](using/personalization/personalization-syntax.md)
-      + [Réutiliser des fragments d’expression](using/personalization/use-expression-fragments.md)
+      + [Réutilisation des fragments d’expression](using/personalization/use-expression-fragments.md)
       + [Utiliser les données Adobe Experience Platform pour la personnalisation (version Beta)](using/personalization/aep-data-perso.md)
       + Liste des fonctions d’assistance {#functions}
+         + [Liste des fonctions d’assistance](/help/rp_landing_pages/functions-landing-page.md)
          + [Commencer avec les fonctions d’assistance](using/personalization/functions/functions.md)
          + [Assistant de recherche de données externes](using/personalization/external-data-lookup.md)
          + [Fonctions d’agrégation](using/personalization/functions/aggregation.md)
@@ -401,25 +457,30 @@ Définissez les règles de limitation des messages et des parcours {#capping-rul
          + [Fonctions mathématiques](using/personalization/functions/math.md)
          + [Fonctions d’objet](using/personalization/functions/objects.md)
          + [Fonctions de chaîne](using/personalization/functions/string.md)
-      + Cas d’utilisation de la personnalisation{#personalization-use-cases}
+      + Cas d’utilisation de la personnalisation {#personalization-use-cases}
+         + [Cas d’utilisation de la personnalisation](/help/rp_landing_pages/personalization-use-cases-landing-page.md)
          + [Notification de statut de la commande](using/personalization/personalization-use-case.md)
          + [E-mail d’abandon de panier](using/personalization/personalization-use-case-helper-functions.md)
          + [E-mail d’ordonnances de programmes de santé](using/personalization/perso-uc-plan-prescriptions.md)
    + Pages de destination {#landing-pages}
+      + [Pages de destination](/help/rp_landing_pages/landing-pages-landing-page.md)
       + [Prise en main des pages de destination](using/landing-pages/get-started-lp.md)
       + [Créer une page de destination](using/landing-pages/create-lp.md)
       + [Gérer vos pages de destination](using/landing-pages/manage-lp.md)
       + Concevoir du contenu {#landing-pages-design}
+         + [Concevoir du contenu](/help/rp_landing_pages/landing-pages-design-landing-page.md)
          + [À propos de la conception d&#39;une page de destination](using/landing-pages/design-lp.md)
          + [Création du contenu de la page de destination](using/landing-pages/lp-content.md)
          + [Création de modèles](using/landing-pages/lp-templates.md)
          + [Ajout d’un code JavaScript personnalisé](using/landing-pages/lp-custom-js.md)
       + [Créer une liste dʼabonnements](using/landing-pages/subscription-list.md)
       + [Apprendre avec des cas d’utilisation](using/landing-pages/lp-use-cases.md)
-      + Configuration des pages de destination {#lp-configuration}
+      + Configuration des pages de destination   {#lp-configuration}
+         + [Configuration des pages de destination](/help/rp_landing_pages/lp-configuration-landing-page.md)
          + [Configurer les sous-domaines des pages de destination](using/landing-pages/lp-subdomains.md)
          + [Définir les préréglages de page de destination](using/landing-pages/lp-presets.md)
    + Modèles de contenu {#content-templates}
+      + [Modèles de contenu](/help/rp_landing_pages/content-templates-landing-page.md)
       + [Commencer avec les modèles de contenu](using/content-management/content-templates.md)
       + [Accéder aux modèles et les gérer](using/content-management/access-content-templates.md)
       + [Créer des modèles de contenu](using/content-management/create-content-templates.md)
@@ -427,16 +488,19 @@ Définissez les règles de limitation des messages et des parcours {#capping-rul
       + [Tester des modèles de contenu](using/content-management/test-content-templates.md)
       + [Utiliser des modèles de contenu](using/content-management/use-content-templates.md)
    + Fragments de contenu réutilisables {#fragments}
+      + [Fragments de contenu réutilisables](/help/rp_landing_pages/fragments-landing-page.md)
       + [Commencer avec les fragments](using/content-management/fragments.md)
       + [Créer un fragment](using/content-management/create-fragments.md)
       + [Enregistrer du contenu existant en tant que fragment](using/content-management/save-fragments.md)
       + [Fragments personnalisables](using/content-management/customizable-fragments.md)
       + [Gérer les fragments](using/content-management/manage-fragments.md)
    + Contenu dynamique {#dynamic}
+      + [Contenu dynamique](/help/rp_landing_pages/dynamic-landing-page.md)
       + [Commencer avec le contenu dynamique](using/personalization/get-started-dynamic-content.md)
       + [Créer des règles conditionnelles](using/personalization/create-conditions.md)
       + [Créer du contenu dynamique](using/personalization/dynamic-content.md)
    + Cas d’utilisation inter-solutions {#combine}
+      + [Cas d’utilisation inter-solutions](/help/rp_landing_pages/combine-landing-page.md)
       + [Combiner des solutions pour gérer votre contenu](using/integrations/content-integrations.md)
       + [Utiliser Experience Manager Assets](using/integrations/assets.md)
       + [Utiliser Adobe Stock](using/integrations/stock.md)
@@ -445,7 +509,8 @@ Définissez les règles de limitation des messages et des parcours {#capping-rul
       + [Utiliser les fragments de contenu Experience Manager](using/integrations/aem-fragments.md)
       + [Utiliser Dynamic Media](using/integrations/aem-dynamic.md)
       + [Utiliser GenStudio for Performance Marketing](using/integrations/genstudio.md)
-   + Assistant IA pour la génération de contenu{#ai-assistant}
+   + Assistant IA pour la génération de contenu {#ai-assistant}
+      + [Assistant IA pour la génération de contenu](/help/rp_landing_pages/ai-assistant-landing-page.md)
       + [Commencer avec l’Assistant IA](using/content-management/gs-generative.md)
       + [Génération d’e-mails avec l’IA](using/content-management/generative-email.md)
       + [Génération de notifications push avec l’IA](using/content-management/generative-push.md)
@@ -455,53 +520,65 @@ Définissez les règles de limitation des messages et des parcours {#capping-rul
       + [Page de destination avec I’lA](using/content-management/generative-lp.md)
       + [Cas d’utilisation de l’Assistant IA](using/content-management/generative-uc.md)
       + Marques {#brands}
+         + [Marques](/help/rp_landing_pages/brands-landing-page.md)
          + [Créer et gérer vos marques](using/content-management/brands.md)
          + [Évaluer le score d’alignement de votre marque](using/content-management/brands-score.md)
-   + Contenu multilingue{#content-multilingual}
+   + Contenu multilingue {#content-multilingual}
+      + [Contenu multilingue](/help/rp_landing_pages/content-multilingual-landing-page.md)
       + [Commencer avec le contenu multilingue](using/content-management/multilingual-gs.md)
       + [Créer des paramètres régionaux](using/content-management/multilingual-locale.md)
       + [Créer un fournisseur de langue](using/content-management/multilingual-provider.md)
       + [Créer du contenu multilingue avec traduction manuelle](using/content-management/multilingual-manual.md)
       + [Créer du contenu multilingue avec traduction automatisée](using/content-management/multilingual-automated.md)
    + Expérience de contenu {#content-experiment}
+      + [Expérience de contenu](/help/rp_landing_pages/content-experiment-landing-page.md)
       + [Prise en main de l’expérience de contenu](using/content-management/get-started-experiment.md)
       + [Créer une expérience de contenu](using/content-management/content-experiment.md)
       + Notes techniques {#technotes}
+         + [Notes techniques](/help/rp_landing_pages/technotes-landing-page.md)
          + [Présentation des calculs statistiques](using/content-management/experiment-calculations.md)
          + [Comprendre les calculs statistiques dans le rapport d’expérience](using/content-management/experiment-report-calculations.md)
-+ Audiences, profils et identité{#audiences-profiles-identities}
++ Audiences, profils et identité {#audiences-profiles-identities}
+   + [Audiences, profils et identité](/help/rp_landing_pages/audiences-profiles-identities-landing-page.md)
    + Audiences {#audiences}
+      + [Audiences](/help/rp_landing_pages/audiences-landing-page.md)
       + [Commencer avec les audiences](using/audience/about-audiences.md)
       + Créer des audiences {#create}
+         + [Créer des audiences](/help/rp_landing_pages/create-landing-page.md)
          + [Définitions de segment](using/audience/creating-a-segment-definition.md)
          + [Composition d’audiences](using/audience/get-started-audience-orchestration.md)
          + [Chargement personnalisé](using/audience/custom-upload.md)
          + [Composition d’audiences fédérées](using/audience/federated-audience-composition.md)
       + [Activation de l’audience dans les campagnes et les parcours](using/audience/target-audiences.md)
       + [Tirer profit des attributs d’enrichissement](using/audience/enrichment-attributes.md)
-   + Profils{#profiles}
+   + Profils {#profiles}
+      + [Profils](/help/rp_landing_pages/profiles-landing-page.md)
       + [Prise en main des profils](using/audience/get-started-profiles.md)
       + [Créer des profils de test](using/audience/creating-test-profiles.md)
       + [Utiliser des attributs calculés](using/audience/computed-attributes.md)
    + [Identités](using/audience/get-started-identity.md)
    + [Utilisation des licences](using/audience/license-usage.md)
 + Création de rapports {#reporting}
+   + [Création de rapports](/help/rp_landing_pages/reporting-landing-page.md)
    + [Commencer les rapports](using/reports/gs-reports.md)
    + Rapport dynamique {#live-report}
+      + [Rapport dynamique](/help/rp_landing_pages/live-report-landing-page.md)
       + [Commencer avec le rapport dynamique](using/reports/live-report.md)
       + [Liste de mesures](using/reports/live-report-components.md)
       + [Rapport dynamique sur les parcours](using/reports/journey-live-report.md)
       + [Rapport dynamique de campagne](using/reports/campaign-live-report.md)
       + [Rapport dynamique sur les pages de destination](using/reports/lp-report-live.md)
       + [Rapport dynamique sur les listes d’abonnements](using/reports/subscription-report-live.md)
-   + Rapport complet{#channel-report}
+   + Rapport complet {#channel-report}
+      + [Rapport complet](/help/rp_landing_pages/channel-report-landing-page.md)
       + [Commencer avec le rapport complet](using/reports/report-gs-cja.md)
       + [Liste de mesures](using/reports/global-report-components-cja.md)
       + [Configurer manuellement Customer Journey Analytics](using/reports/cja-ajo.md)
       + [Gérer vos rapports](using/reports/report-cja-manage.md)
       + [Conditions préalables à la création de rapports et à l’expérimentation](using/reports/reporting-configuration.md)
       + [Causes d’exclusion](using/reports/exclusion-list.md)
-      + Rapports de campagne{#reporting}
+      + Rapports de campagne {#campaign-reporting}
+         + [Rapports de campagne](/help/rp_landing_pages/campaign-reporting-landing-page.md)
          + [Rapport de campagne](using/reports/campaign-global-report-cja.md)
          + [Rapport de campagne basée sur le code](using/reports/campaign-global-report-cja-code.md)
          + [Rapport de campagne de carte de contenu](using/reports/campaign-global-report-cja-content.md)
@@ -512,7 +589,8 @@ Définissez les règles de limitation des messages et des parcours {#capping-rul
          + [Rapport de campagne de notifications push](using/reports/campaign-global-report-cja-push.md)
          + [Rapport de campagne par SMS](using/reports/campaign-global-report-cja-sms.md)
          + [Rapport de campagne web](using/reports/campaign-global-report-cja-web.md)
-      + Rapports de parcours{#reporting}
+      + Rapports de parcours {#journey-reporting}
+         + [Rapports de parcours](/help/rp_landing_pages/journey-reporting-landing-page.md)
          + [Rapport de parcours](using/reports/journey-global-report-cja.md)
          + [Rapport de parcours basé sur le code](using/reports/journey-global-report-cja-code.md)
          + [Rapport de parcours de carte de contenu](using/reports/journey-global-report-cja-content.md)
@@ -526,9 +604,11 @@ Définissez les règles de limitation des messages et des parcours {#capping-rul
       + [Rapport sur les pages de destination](using/reports/lp-report-global-cja.md)
       + [Rapport sur les listes d’abonnements](using/reports/subscription-report-global-cja.md)
    + Rapports sur les parcours personnalisés {#reports}
+      + [Rapports sur les parcours personnalisés](/help/rp_landing_pages/reports-landing-page.md)
       + [Créer des rapports de parcours](using/reports/sharing-overview.md)
       + [Liste des champs d’événement d’étape](using/reports/sharing-field-list.md)
       + Champs d’événement d’étape hérités {#legacy-step-event-fields}
+         + [Champs d’événement d’étape hérités](/help/rp_landing_pages/legacy-step-event-fields-landing-page.md)
          + [À propos des champs anciens](using/reports/sharing-legacy-fields.md)
          + [Champs du parcours](using/reports/sharing-journey-fields.md)
          + [Champs communs](using/reports/sharing-common-fields.md)
@@ -537,70 +617,79 @@ Définissez les règles de limitation des messages et des parcours {#capping-rul
          + [Champs d’identité](using/reports/sharing-identity-fields.md)
       + [Exemples de requêtes](using/reports/query-examples.md)
 + Fonctionnalités de décision {#decisioning}
+   + [Fonctionnalités de décision](/help/rp_landing_pages/decisioning-landing-page.md)
    + [Commencer avec les fonctionnalités de décision](using/experience-decisioning/gs-decision.md)
    + Décision {#experience-decisioning}
+      + [Décision](/help/rp_landing_pages/experience-decisioning-landing-page.md)
       + [Commencer avec la prise de décisions](using/experience-decisioning/gs-experience-decisioning.md)
       + [Mécanismes de sécurisation et limitations de la prise de décisions](using/experience-decisioning/decisioning-guardrails.md)
-      + Référence d’API{#api-reference}
+      + Référence d’API {#experience-decisioning-api-reference}
+         + [Référence d’API](/help/rp_landing_pages/experience-decisioning-api-reference-landing-page.md)
          + Créer et gérer des éléments d’offre {#create-manage}
-            + Éléments de décision{#decision-items}
+            + Éléments de décision {#decision-items}
                + [Créer des éléments de décision](using/experience-decisioning/api-reference/decisions-items/create.md)
                + [Liste d’éléments de décision](using/experience-decisioning/api-reference/decisions-items/decision-items-list.md)
                + [Supprimer des éléments de décision](using/experience-decisioning/api-reference/decisions-items/delete.md)
                + [Rechercher des éléments de décision](using/experience-decisioning/api-reference/decisions-items/lookup.md)
                + [Mettre à jour des éléments de décision](using/experience-decisioning/api-reference/decisions-items/update.md)
-            + Collections d’éléments{#items-collections}
+            + Collections d’éléments {#items-collections}
                + [Créer des collections d’éléments](using/experience-decisioning/api-reference/items-collections/create.md)
                + [Supprimer des collections d’éléments](using/experience-decisioning/api-reference/items-collections/delete.md)
                + [Liste de collections d’éléments](using/experience-decisioning/api-reference/items-collections/items-collections-list.md)
                + [Rechercher des collections d’éléments](using/experience-decisioning/api-reference/items-collections/lookup.md)
                + [Mettre à jour des collections d’éléments](using/experience-decisioning/api-reference/items-collections/update.md)
-            + Stratégies de sélection{#selection-strategies}
+            + Stratégies de sélection {#selection-strategies}
                + [Créer des stratégies de sélection](using/experience-decisioning/api-reference/selection-strategies/create.md)
                + [Supprimer des stratégies de sélection](using/experience-decisioning/api-reference/selection-strategies/delete.md)
                + [Rechercher des stratégies de sélection](using/experience-decisioning/api-reference/selection-strategies/lookup.md)
                + [Liste de stratégies de sélection](using/experience-decisioning/api-reference/selection-strategies/selection-strategies-list.md)
                + [Mettre à jour des stratégies de sélection](using/experience-decisioning/api-reference/selection-strategies/update.md)
-            + Formules de classement{#ranking-formulas}
+            + Formules de classement {#ranking-formulas}
                + [Créer des formules de classement](using/experience-decisioning/api-reference/ranking-formulas/create.md)
                + [Supprimer les formules de classement](using/experience-decisioning/api-reference/ranking-formulas/delete.md)
                + [Rechercher des formules de classement](using/experience-decisioning/api-reference/ranking-formulas/lookup.md)
                + [Sélectionner des formules de classement](using/experience-decisioning/api-reference/ranking-formulas/ranking-formulas-list.md)
                + [Mettre à jour les formules de classement](using/experience-decisioning/api-reference/ranking-formulas/update.md)
-            + Règles d’éligibilité{#eligibility-rules}
+            + Règles d’éligibilité {#eligibility-rules}
                + [Créer des règles d’éligibilité](using/experience-decisioning/api-reference/eligibility-rules/create.md)
                + [Supprimer des règles d’éligibilité](using/experience-decisioning/api-reference/eligibility-rules/delete.md)
                + [Rechercher des règles d’éligibilité](using/experience-decisioning/api-reference/eligibility-rules/lookup.md)
                + [Liste des règles d’éligibilité](using/experience-decisioning/api-reference/eligibility-rules/eligibility-rules-list.md)
                + [Mettre à jour des règles d’éligibilité](using/experience-decisioning/api-reference/eligibility-rules/update.md)
          + [Diffuser des offres à l’aide du canal d’expérience basée sur du code](using/experience-decisioning/api-reference/deliver.md)
-      + Gérer les éléments de décision {#decision-items}
+      + Gérer les éléments de décision {#manage-decision-items}
+         + [Gérer les éléments de décision](/help/rp_landing_pages/manage-decision-items-landing-page.md)
          + [Configurer le catalogue d’éléments](using/experience-decisioning/catalogs.md)
          + [Créer des éléments de décision](using/experience-decisioning/items.md)
          + [Gérer des collections d’éléments](using/experience-decisioning/collections.md)
       + [Créer des règles de décision](using/experience-decisioning/rules.md)
-      + Créer des classements {#rankings}
+      + Créer des classements {#experience-decisioning-rankings}
+         + [Créer des classements](/help/rp_landing_pages/experience-decisioning-rankings-landing-page.md)
          + [Créer des méthodes de classement](using/experience-decisioning/ranking/ranking.md)
          + [Utiliser le créateur de formules d’IA](using/experience-decisioning/ranking/ranking-formulas.md)
-         + Modèles d’IA {#ai-models}
+         + Modèles d’IA {#experience-decisioning-ai-models}
+            + [Modèles d’IA](/help/rp_landing_pages/experience-decisioning-ai-models-landing-page.md)
             + [À propos des modèles d’IA](using/experience-decisioning/ranking/ai-models.md)
             + [Modèle dʼoptimisation automatique](using/experience-decisioning/ranking/auto-optimization-model.md)
             + [Modèle d’optimisation personnalisé](using/experience-decisioning/ranking/personalized-optimization-model.md)
             + [Créer des modèles d’IA](using/experience-decisioning/ranking/create-ai-models.md)
       + [Utiliser des placements](using/experience-decisioning/placements.md)
       + Utiliser des données Adobe Experience Platform {#aep-data}
+         + [Utiliser des données Adobe Experience Platform](/help/rp_landing_pages/aep-data-landing-page.md)
          + [Utiliser des données contextuelles](using/experience-decisioning/context-data.md)
          + [Utiliser Adobe Experience Platform pour la prise de décision](using/experience-decisioning/aep-data-exd.md)
       + [Créer des stratégies de sélection](using/experience-decisioning/selection-strategies.md)
       + [Créer des politiques de décision](using/experience-decisioning/create-decision.md)
       + [Rapports sur la prise de décision](using/experience-decisioning/cja-reporting.md)
       + [Cas d’utilisation de prise de décision](using/experience-decisioning/experience-decisioning-uc.md)
-      + Collecter les données d’événement {#collect-event-data}
+      + Collecter les données d’événement {#experience-decisioning-collect-event-data}
          + [Prise en main de la collecte de données](using/experience-decisioning/data-collection/data-collection.md)
          + [Créer un jeu de données pour collecter des événements](using/experience-decisioning/data-collection/create-dataset.md)
          + [Configurer la capture d’événements](using/experience-decisioning/data-collection/schema-requirement.md)
    + Gestion des décisions {#offer-decisioning}
+      + [Gestion des décisions](/help/rp_landing_pages/offer-decisioning-landing-page.md)
       + Commencer la gestion des décisions {#get-started-decision}
+         + [Commencer la gestion des décisions](/help/rp_landing_pages/get-started-decision-landing-page.md)
          + [À propos de la gestion des décisions](using/offers/get-started/starting-offer-decisioning.md)
          + [Mécanismes de sécurisation et limitations de la gestion des prises de décision](using/offers/decision-management-guardrails.md)
          + [Interface d’utilisation](using/offers/get-started/user-interface.md)
@@ -608,41 +697,51 @@ Définissez les règles de limitation des messages et des parcours {#capping-rul
          + [Tirer profit des audiences de chargement personnalisées pour la prise de décision](using/offers/custom-upload-decisioning.md)
          + [Cas pratique : insertion d’offres dans un e-mail](using/offers/offers-e2e.md)
       + Créer des composants {#create-components}
+         + [Créer des composants](/help/rp_landing_pages/create-components-landing-page.md)
          + [Créer des emplacements](using/offers/offer-library/creating-placements.md)
          + [Créer des règles de décision](using/offers/offer-library/creating-decision-rules.md)
          + [Créer des qualificateurs de collection](using/offers/offer-library/creating-tags.md)
       + Créer des classements {#rankings}
+         + [Créer des classements](/help/rp_landing_pages/rankings-landing-page.md)
          + [Prise en main des classements](using/offers/ranking/get-started-rankings.md)
          + [Formules de classement](using/offers/ranking/create-ranking-formulas.md)
          + Modèles d’IA {#ai-models}
+            + [Modèles d’IA](/help/rp_landing_pages/ai-models-landing-page.md)
             + [À propos des modèles d’IA](using/offers/ranking/ai-models.md)
             + [Modèle dʼoptimisation automatique](using/offers/ranking/auto-optimization-model.md)
             + [Modèle d’optimisation personnalisé](using/offers/ranking/personalized-optimization-model.md)
             + [Créer des modèles d’IA](using/offers/ranking/create-ranking-strategies.md)
       + Créer et gérer des offres {#managing-offers-in-the-offer-library}
+         + [Créer et gérer des offres](/help/rp_landing_pages/managing-offers-in-the-offer-library-landing-page.md)
          + Configurer les offres {#configure-offers}
+            + [Configurer les offres](/help/rp_landing_pages/configure-offers-landing-page.md)
             + [Créer des offres personnalisées](using/offers/offer-library/creating-personalized-offers.md)
             + [Ajouter des représentations](using/offers/offer-library/add-representations.md)
             + [Ajouter des contraintes](using/offers/offer-library/add-constraints.md)
          + [Créer des offres de secours](using/offers/offer-library/creating-fallback-offers.md)
          + [Créer des collections](using/offers/offer-library/creating-collections.md)
       + Créer et gérer des décisions {#create-manage-activities}
+         + [Créer et gérer des décisions](/help/rp_landing_pages/create-manage-activities-landing-page.md)
          + [Création de décisions](using/offers/offer-activities/create-offer-activities.md)
          + [Configurer la sélection des offres dans les décisions](using/offers/offer-activities/configure-offer-selection.md)
          + [Création de simulations](using/offers/offer-activities/simulation.md)
       + [Utiliser la prise de décision par lots](using/offers/batch-delivery.md)
       + Collecter les données d’événement {#collect-event-data}
+         + [Collecter les données d’événement](/help/rp_landing_pages/collect-event-data-landing-page.md)
          + [Prise en main de la collecte de données](using/offers/data-collection/data-collection.md)
          + [Créer un jeu de données pour collecter des événements](using/offers/data-collection/create-dataset.md)
          + [Configurer la capture d’événements](using/offers/data-collection/schema-requirement.md)
       + Utiliser des données contextuelles {#context-data}
+         + [Utiliser des données contextuelles](/help/rp_landing_pages/context-data-landing-page.md)
          + [Commencer avec les données contextuelles](using/offers/context-data.md)
          + [Données contextuelles et requêtes Edge Decisioning](using/offers/context-data-edge.md)
          + [Données contextuelles et requêtes Decisioning](using/offers/context-data-decisioning.md)
       + Créer des rapports de gestion des décisions {#create-reports}
+         + [Créer des rapports de gestion des décisions](/help/rp_landing_pages/create-reports-landing-page.md)
          + [Utiliser les événements de gestion des décisions](using/offers/reports/get-started-events.md)
          + [Accéder aux champs XDM des événements](using/offers/reports/xdm-fields.md)
       + Exporter le catalogue d’offres {#export-catalog}
+         + [Exporter le catalogue d’offres](/help/rp_landing_pages/export-catalog-landing-page.md)
          + [Commencer à exporter des catalogues d’offres](using/offers/export-catalog/get-started-export.md)
          + [Accès au catalogue d’offres exporté](using/offers/export-catalog/access-dataset.md)
          + [Jeu de données d’offres personnalisées](using/offers/export-catalog/export-offers.md)
@@ -650,6 +749,7 @@ Définissez les règles de limitation des messages et des parcours {#capping-rul
          + [Jeu de données d’emplacements](using/offers/export-catalog/export-placements.md)
          + [Jeu de données de secours](using/offers/export-catalog/export-fallback.md)
       + Référence d’API {#api-reference}
+         + [Référence d’API](/help/rp_landing_pages/api-reference-landing-page.md)
          + [Commencer](using/offers/api-reference/getting-started.md)
          + Créer et gérer des offres à l’aide d’API {#offers-api}
             + Emplacements {#placements}
@@ -696,57 +796,60 @@ Définissez les règles de limitation des messages et des parcours {#capping-rul
                + [Suppression d’une décision](using/offers/api-reference/activities-api/activities/delete.md)
             + API héritées {#legacy-api}
                + [À propos des API héritées](using/offers/api-reference/offers-api/legacy-apis/about-legacy-apis.md)
-               + Emplacements {#placements}
+               + Emplacements {#legacy-api-placements}
                   + [Liste des emplacements](using/offers/api-reference/offers-api/legacy-apis/placements/placements-list.md)
                   + [Recherche d’un emplacement](using/offers/api-reference/offers-api/legacy-apis/placements/lookup.md)
                   + [Création d’un emplacement](using/offers/api-reference/offers-api/legacy-apis/placements/create.md)
                   + [Mise à jour d’un emplacement](using/offers/api-reference/offers-api/legacy-apis/placements/update.md)
                   + [Suppression d’un emplacement](using/offers/api-reference/offers-api/legacy-apis/placements/delete.md)
-               + Règles de décision {#decision-rules}
+               + Règles de décision {#legacy-api-decision-rules}
                   + [Liste des règles de décision](using/offers/api-reference/offers-api/legacy-apis/decision-rules/rules-list.md)
                   + [Recherche d’une règle de décision](using/offers/api-reference/offers-api/legacy-apis/decision-rules/lookup.md)
                   + [Créer une règle de décision](using/offers/api-reference/offers-api/legacy-apis/decision-rules/create.md)
                   + [Mise à jour d’une règle de décision](using/offers/api-reference/offers-api/legacy-apis/decision-rules/update.md)
                   + [Suppression d’une règle de décision](using/offers/api-reference/offers-api/legacy-apis/decision-rules/delete.md)
-               + Qualificateurs de collection {#tags}
+               + Qualificateurs de collection {#legacy-api-tags}
                   + [Répertorier les qualificateurs de collection](using/offers/api-reference/offers-api/legacy-apis/tags/tags-list.md)
                   + [Rechercher un qualificateur de collection](using/offers/api-reference/offers-api/legacy-apis/tags/lookup.md)
                   + [Créer un qualificateur de collection](using/offers/api-reference/offers-api/legacy-apis/tags/create.md)
                   + [Mettre à jour un qualificateur de collection](using/offers/api-reference/offers-api/legacy-apis/tags/update.md)
                   + [Supprimer un qualificateur de collection](using/offers/api-reference/offers-api/legacy-apis/tags/delete.md)
-               + Offres personnalisées {#personalized-offers}
+               + Offres personnalisées {#legacy-api-personalized-offers}
                   + [Liste des offres personnalisées](using/offers/api-reference/offers-api/legacy-apis/personalized-offers/offers-list.md)
                   + [Recherche d’une offre personnalisée](using/offers/api-reference/offers-api/legacy-apis/personalized-offers/lookup.md)
                   + [Création d’une offre personnalisée](using/offers/api-reference/offers-api/legacy-apis/personalized-offers/create.md)
                   + [Mise à jour d’une offre personnalisée](using/offers/api-reference/offers-api/legacy-apis/personalized-offers/update.md)
                   + [Suppression d’une offre personnalisée](using/offers/api-reference/offers-api/legacy-apis/personalized-offers/delete.md)
-               + Offres de secours {#fallback-offers}
+               + Offres de secours {#legacy-api-fallback-offers}
                   + [Liste des offres de secours](using/offers/api-reference/offers-api/legacy-apis/fallback-offers/fallback-list.md)
                   + [Recherche d’une offre de secours](using/offers/api-reference/offers-api/legacy-apis/fallback-offers/lookup.md)
                   + [Créer une offre de secours](using/offers/api-reference/offers-api/legacy-apis/fallback-offers/create.md)
                   + [Mise à jour d’une offre de secours](using/offers/api-reference/offers-api/legacy-apis/fallback-offers/update.md)
                   + [Suppression d’une offre de secours](using/offers/api-reference/offers-api/legacy-apis/fallback-offers/delete.md)
-               + Collections {#collections}
+               + Collections {#legacy-api-collections}
                   + [Liste des collections](using/offers/api-reference/offers-api/legacy-apis/collections/collections-list.md)
                   + [Recherche d’une collection](using/offers/api-reference/offers-api/legacy-apis/collections/lookup.md)
                   + [Création d’une collection](using/offers/api-reference/offers-api/legacy-apis/collections/create.md)
                   + [Mise à jour d’une collection](using/offers/api-reference/offers-api/legacy-apis/collections/update.md)
                   + [Suppression d’une collection](using/offers/api-reference/offers-api/legacy-apis/collections/delete.md)
-               + Décisions {#decisions-api}
+               + Décisions {#legacy-api-decisions-api}
                   + [Répertorier les décisions](using/offers/api-reference/offers-api/legacy-apis/activities-api/activities-list.md)
                   + [Recherche d’une décision](using/offers/api-reference/offers-api/legacy-apis/activities-api/lookup.md)
                   + [Création d’une décision](using/offers/api-reference/offers-api/legacy-apis/activities-api/create.md)
                   + [Mise à jour d’une décision](using/offers/api-reference/offers-api/legacy-apis/activities-api/update.md)
                   + [Suppression d’une décision](using/offers/api-reference/offers-api/legacy-apis/activities-api/delete.md)
          + Diffuser des offres à l’aide d’API {#offer-delivery-api}
+            + [Diffuser des offres à l’aide d’API](/help/rp_landing_pages/offer-delivery-api-landing-page.md)
             + [Commencer avec les API de diffusion d’offres](using/offers/api-reference/offer-delivery-api/start-offer-delivery-apis.md)
             + [API Decisioning](using/offers/api-reference/offer-delivery-api/decisioning-api.md)
             + [API Edge Decisioning](using/offers/api-reference/offer-delivery-api/edge-decisioning-api.md)
             + [API Batch Decisioning](using/offers/api-reference/offer-delivery-api/batch-decisioning-api.md)
 + Gestion des données {#data-management}
+   + [Gestion des données](/help/rp_landing_pages/data-management-landing-page.md)
    + [Commencer avec la gestion des données](using/data/gs-data.md)
    + [Utilisation des schémas](using/data/get-started-schemas.md)
    + Jeux de données Journey Optimizer {#datasets}
+      + [Jeux de données Journey Optimizer](/help/rp_landing_pages/datasets-landing-page.md)
       + [Commencer avec les jeux de données](using/data/get-started-datasets.md)
       + [Mécanismes de sécurisation de la durée de vie (TTL) des jeux de données](using/data/datasets-ttl.md)
       + [Exporter des jeux de données Journey Optimizer](using/data/export-datasets.md)
@@ -755,12 +858,15 @@ Définissez les règles de limitation des messages et des parcours {#capping-rul
    + [Utiliser des données Adobe Experience Platform](using/data/lookup-aep-data.md)
    + [Requêtes](using/data/get-started-queries.md)
 + Configuration des canaux {#configuration}
+   + [Configuration des canaux](/help/rp_landing_pages/configuration-landing-page.md)
    + [Commencer la configuration des canaux](using/configuration/get-started-configuration.md)
    + [Paramétrer des configurations de canal](using/configuration/channel-surfaces.md)
    + Configuration guidée des canaux {#guided-setup}
+      + [Configuration guidée des canaux](/help/rp_landing_pages/guided-setup-landing-page.md)
       + [Commencer la configuration guidée des canaux](using/configuration/set-mobile-config.md)
       + [Créer une configuration de canal](using/configuration/create-channel-set-up.md)
    + Déléguer les sous-domaines d’e-mail {#delegate-subdomains}
+      + [Déléguer les sous-domaines d’e-mail](/help/rp_landing_pages/delegate-subdomains-landing-page.md)
       + [Commencer avec la délégation de sous-domaines](using/configuration/about-subdomain-delegation.md)
       + [Délégation d’un sous-domaine](using/configuration/delegate-subdomain.md)
       + [Configurer un sous-domaine personnalisé](using/configuration/delegate-custom-subdomain.md)
@@ -769,12 +875,14 @@ Définissez les règles de limitation des messages et des parcours {#capping-rul
       + [Accéder aux enregistrements PTR et les modifier](using/configuration/ptr-records.md)
       + [Créer des groupes d’adresses IP](using/configuration/ip-pools.md)
    + Mettre en œuvre un plan de préchauffage d’adresses IP {#implement-ip-warmup-plan}
+      + [Mettre en œuvre un plan de préchauffage d’adresses IP](/help/rp_landing_pages/implement-ip-warmup-plan-landing-page.md)
       + [Commencer avec les plans de préchauffage d’adresses IP](using/configuration/ip-warmup-gs.md)
       + [Créer des campagnes de préchauffage d’adresses IP](using/configuration/ip-warmup-campaign.md)
       + [Créer un plan de préchauffage d’adresses IP](using/configuration/ip-warmup-plan.md)
       + [Exécuter le plan de préchauffage des adresses IP](using/configuration/ip-warmup-execution.md)
       + [Fichiers du plan de préchauffage des adresses IP](using/configuration/ip-warmup-plan-files.md)
    + Surveiller des adresses e-mail {#monitor-reputation}
+      + [Surveiller des adresses e-mail](/help/rp_landing_pages/monitor-reputation-landing-page.md)
       + [Types d’erreur e-mail](using/configuration/email-error-types.md)
       + [Liste de suppression](using/configuration/manage-suppression-list.md)
       + [Reprises](using/configuration/retries.md)
@@ -784,39 +892,48 @@ Définissez les règles de limitation des messages et des parcours {#capping-rul
    + [Modifier les adresses d’exécution](using/configuration/primary-email-addresses.md)
    + [Configurer des règles métier](using/configuration/frequency-rules.md)
 + Configuration de parcours {#configure-journeys}
+   + [Configuration de parcours](/help/rp_landing_pages/configure-journeys-landing-page.md)
    + [Commencer la configuration des parcours](using/configuration/about-data-sources-events-actions.md)
    + Configuration des événements {#events-journeys}
+      + [Configuration des événements](/help/rp_landing_pages/events-journeys-landing-page.md)
       + [Utiliser des événements de parcours](using/event/about-events.md)
       + [Configurer un événement unitaire](using/event/about-creating.md)
       + [À propos des schémas ExperienceEvent](using/event/experience-event-schema.md)
       + [Utiliser des données Adobe Analytics](using/event/about-analytics.md)
       + [Configuration d’un événement métier](using/event/about-creating-business.md)
       + [Étapes supplémentaires pour l’envoi d’événements](using/event/additional-steps-to-send-events-to-journey.md)
-   + Configuration des sources de données{#data-source-journeys}
+   + Configuration des sources de données {#data-source-journeys}
+      + [Configuration des sources de données](/help/rp_landing_pages/data-source-journeys-landing-page.md)
       + [Commencer avec les sources de données](using/datasource/about-data-sources.md)
       + [Configurer une source de données](using/datasource/configure-data-sources.md)
       + [Source de données Adobe Experience Platform](using/datasource/adobe-experience-platform-data-source.md)
       + [Sources de données externes](using/datasource/external-data-sources.md)
    + Configuration des actions {#action-journeys}
+      + [Configuration des actions](/help/rp_landing_pages/action-journeys-landing-page.md)
       + [Commencer avec les actions personnalisées](using/action/action.md)
       + [Configurer une action personnalisée](using/action/about-custom-action-configuration.md)
       + [Utiliser des réponses d’appel API dans des actions personnalisées](using/action/action-response.md)
 + Connecter vos systèmes et environnements {#connect-systems}
+   + [Connecter vos systèmes et environnements](/help/rp_landing_pages/connect-systems-landing-page.md)
    + [Intégration à d’autres solutions](using/integrations/ajo-integrations.md)
    + [Utiliser des API Journey Optimizer](using/configuration/ajo-apis.md)
    + Intégrer vos parcours à des systèmes externes {#external-systems}
+      + [Intégrer vos parcours à des systèmes externes](/help/rp_landing_pages/external-systems-landing-page.md)
       + [Intégration d’un parcours à des systèmes externes](using/configuration/external-systems.md)
       + [API de limitation](using/configuration/capping.md)
       + [API de limitation](using/configuration/throttling.md)
    + Envoyer avec les solutions Adobe {#adobe-solutions}
+      + [Envoyer avec les solutions Adobe](/help/rp_landing_pages/adobe-solutions-landing-page.md)
       + [Action Campaign Standard dans les parcours](using/action/acs-action.md)
       + [Action Campaign v7/v8 dans les parcours](using/action/acc-action.md)
       + [Action Marketo Engage dans les parcours](using/action/marketo-engage.md)
    + Gestion des sandbox {#sandbox}
+      + [Gestion des sandbox](/help/rp_landing_pages/sandbox-landing-page.md)
       + [Utiliser et attribuer des sandbox](using/administration/sandboxes.md)
       + [Exporter des objets vers un autre sandbox](using/configuration/copy-objects-to-sandbox.md)
    + [Configurer le connecteur Sources](using/start/get-started-sources.md)
 + Contrôle d’accès {#access-control}
+   + [Contrôle d’accès](/help/rp_landing_pages/access-control-landing-page.md)
    + [Commencer le contrôle d’accès](using/administration/permissions-overview.md)
    + [Gérer les utilisateurs et utilisatrices et les rôles](using/administration/permissions.md)
    + [Rôles intégrés](using/administration/ootb-product-profiles.md)
@@ -825,11 +942,13 @@ Définissez les règles de limitation des messages et des parcours {#capping-rul
    + [Contrôle d’accès basé sur les attributs](using/administration/attribute-based-access.md)
    + [Contrôle d’accès au niveau de l’objet](using/administration/object-based-access.md)
 + Confidentialité {#privacy}
+   + [Confidentialité](/help/rp_landing_pages/privacy-landing-page.md)
    + [Commencer avec la confidentialité](using/privacy/get-started-privacy.md)
    + [Demandes d’accès à des informations personnelles](using/privacy/requests.md)
    + [Actions d’audit sur les ressources ](using/privacy/audit-logs.md)
    + [Effectuer des opérations de cycle de vie des données](using/privacy/data-hygiene.md)
    + Gérer le consentement {#consent}
+      + [Gérer le consentement](/help/rp_landing_pages/consent-landing-page.md)
       + [Gérer le processus d’opt-out](using/privacy/opt-out.md)
       + [Utiliser les politiques de consentement](using/action/consent.md)
    + [Gouvernance des données](using/action/action-privacy.md)

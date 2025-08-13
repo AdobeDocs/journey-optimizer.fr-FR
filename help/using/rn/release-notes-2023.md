@@ -10,7 +10,7 @@ hidefromtoc: true
 role: User
 level: Beginner, Intermediate
 exl-id: 61e6291f-c063-44a0-950c-8bb76de693f2
-source-git-commit: 8ff4f970796218451996bd5ed1938d33fa818495
+source-git-commit: 4d7ad2c3ed71801298f1afe31d0e29d7bb1d5c7f
 workflow-type: tm+mt
 source-wordcount: '4377'
 ht-degree: 100%
@@ -68,7 +68,7 @@ Cette version est fournie avec les améliorations répertoriées ci-dessous.
 **Audiences**
 
 * Vous pouvez désormais cibler les audiences chargées à partir d’un fichier CSV dans les parcours et les campagnes. [En savoir plus](../audience/about-audiences.md#segments-in-journey-optimizer)
-* Vous pouvez désormais cibler les audiences créées par le biais de la composition de l’audience et utiliser les attributs d’enrichissement dans les parcours. [En savoir plus](../building-journeys/read-audience.md)
+* Vous pouvez désormais cibler les audiences créées par le biais de la composition d’audiences et utiliser les attributs d’enrichissement dans les parcours. [En savoir plus](../building-journeys/read-audience.md)
 
 >[!AVAILABILITY]
 >
@@ -330,7 +330,7 @@ A new option is available in the email surface settings to include email address
 <table>
 <thead>
 <tr>
-<th><strong>Composition de l’audience</strong><br/></th>
+<th><strong>Composition d’audiences</strong><br/></th>
 </tr>
 </thead>
 <tbody>
@@ -339,7 +339,7 @@ A new option is available in the email surface settings to include email address
 <p>Vous pouvez désormais créer des workflows de composition afin de combiner les audiences Adobe Experience Platform existantes dans une zone de travail visuelle et d’exploiter diverses activités (comme le partage, l’enrichissement…) pour créer de nouvelles audiences. Les audiences nouvellement créées sont réenregistrées dans Adobe Experience Platform avec les audiences existantes et peuvent être exploitées dans les campagnes Journey Optimizer pour cibler la clientèle.</p>
 <img src="assets/do-not-localize/gif-ao.gif"/>
 <p>Pour plus d’informations, consultez la <a href="../audience/get-started-audience-orchestration.md">documentation détaillée</a>.</p>
-<p>La composition de l’audience est entièrement intégrée au nouveau menu « Audiences » d’Adobe Experience Platform qui sert de portail centralisé vers les audiences. Vous pouvez désormais utiliser une page de navigation qui comprend un nouveau tableau de bord avec des tendances et des chevauchements de segments afin de trouver de nouvelles informations et d’explorer les outils d’organisation pour la création de dossiers et le balisage. Cette expérience s’accompagne de contrôles de gouvernance pour l’étiquetage normalisé des audiences ainsi que de fonctionnalités de gestion du cycle de vie des audiences afin de gérer les workflows d’activation. Grâce à cette nouvelle expérience de gestion, vous pouvez désormais gérer facilement et en toute sécurité les audiences depuis un seul emplacement. Pour plus d’informations, consultez la <a href="https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=fr" target="_blank">documentation Adobe Experience Platform</a>.</p></p>
+<p>La composition d’audiences est entièrement intégrée au nouveau menu « Audiences » d’Adobe Experience Platform qui sert de portail centralisé vers les audiences. Vous pouvez désormais utiliser une page de navigation qui comprend un nouveau tableau de bord avec des tendances et des chevauchements de segments afin de trouver de nouvelles informations et d’explorer les outils d’organisation pour la création de dossiers et le balisage. Cette expérience s’accompagne de contrôles de gouvernance pour l’étiquetage normalisé des audiences ainsi que de fonctionnalités de gestion du cycle de vie des audiences afin de gérer les workflows d’activation. Grâce à cette nouvelle expérience de gestion, vous pouvez désormais gérer facilement et en toute sécurité les audiences depuis un seul emplacement. Pour plus d’informations, consultez la <a href="https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=fr" target="_blank">documentation Adobe Experience Platform</a>.</p></p>
 </td>
 </tr>
 </tbody>
@@ -427,7 +427,7 @@ Les événements contextuels liés aux campagnes sont désormais disponibles dan
 
 **Audiences**
 
-Des améliorations ont été apportées au sélecteur d’audiences dans les parcours ou les campagnes, avec l’ajout de nouvelles colonnes indiquant l’origine et la fréquence de mise à jour des audiences. Avec la publication du portail de composition de l’audience, Adobe Experience Platform et Adobe Journey Optimizer ont mis à jour l’utilisation des « audiences » et des « segments » dans le système et la documentation.
+Des améliorations ont été apportées au sélecteur d’audiences dans les parcours ou les campagnes, avec l’ajout de nouvelles colonnes indiquant l’origine et la fréquence de mise à jour des audiences. Avec la publication du portail de composition d’audiences, Adobe Experience Platform et Adobe Journey Optimizer ont mis à jour l’utilisation des « audiences » et des « segments » dans le système et la documentation.
 
 * Audience : ensemble de personnes, de comptes, de foyers ou d’autres entités qui partagent des caractéristiques et des comportements communs.
 * Définition d’un segment : règles utilisées pour décrire les caractéristiques ou le comportement clés d’une audience cible dans Adobe Experience Platform. Ce terme était auparavant appelé « segment ».
@@ -746,7 +746,7 @@ Enhancements have been made to the audience picker in journeys or campaigns, wit
 <td>
 <p>Vous pouvez désormais envoyer des messages in-app personnalisés aux utilisateurs et utilisatrices de votre application dans une campagne. Utilisez Journey Optimizer pour concevoir des notifications et personnaliser la disposition, l’affichage, le texte et les boutons des messages afin de créer une expérience optimale.</p>
 <img src="assets/do-not-localize/in-app.gif"/>
-<p>Pour plus d’informations, consultez la <a href="../in-app/get-started-in-app.md">documentation détaillée</a>.</p>
+<p>Pour plus d’informations, consultez la <a href="../../rp_landing_pages/in-app-landing-page.md">documentation détaillée</a>.</p>
 </tr>
 </tbody>
 </table>
@@ -843,7 +843,7 @@ Enhancements have been made to the audience picker in journeys or campaigns, wit
 <p>Vous pouvez désormais envoyer des messages in-app personnalisés aux utilisateurs et utilisatrices de votre application dans une campagne. Utilisez Journey Optimizer pour concevoir des notifications et personnaliser la disposition, l’affichage, le texte et les boutons des messages afin de créer une expérience optimale.</p>
 <p><strong>Attention</strong> : cette fonctionnalité est actuellement en version bêta et disponible uniquement pour les clientes et clients bêta. Pour rejoindre le programme Beta, contactez l’assistance clientèle d’Adobe.</p>
 <img src="assets/do-not-localize/in-app.gif"/>
-<p>Pour plus d'informations, consultez la <a href="../in-app/get-started-in-app.md">documentation détaillée</a>.</p>
+<p>Pour plus d'informations, consultez la <a href="../../rp_landing_pages/in-app-landing-page.md">documentation détaillée</a>.</p>
 </td>
 </tr>
 </tbody>

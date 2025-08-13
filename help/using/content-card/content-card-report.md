@@ -7,8 +7,8 @@ role: User
 level: Beginner
 hide: true
 hidefromtoc: true
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
-workflow-type: ht
+source-git-commit: 4d7ad2c3ed71801298f1afe31d0e29d7bb1d5c7f
+workflow-type: tm+mt
 source-wordcount: '480'
 ht-degree: 100%
 
@@ -20,7 +20,7 @@ ht-degree: 100%
 
 **Table des matières**
 
-* [Commencer avec les cartes de contenu](get-started-content-card.md)
+* [Commencer avec les cartes de contenu](../../rp_landing_pages/content-card-landing-page.md)
 * [Conditions préalables des cartes de contenu](content-card-configuration-prereq.md)
 * [Configurer le canal des cartes de contenu dans Journey Optimizer](content-card-configuration.md)
 * [Créer des cartes de contenu](create-content-card.md)

@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: bae533c5-1bfc-48bf-9f8d-1145383c040c
-source-git-commit: 58f4fdf8ec3cdb609efebf5b8713f6b770ef5414
-workflow-type: ht
+source-git-commit: 4d7ad2c3ed71801298f1afe31d0e29d7bb1d5c7f
+workflow-type: tm+mt
 source-wordcount: '6783'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -374,7 +374,7 @@ Cette version apporte les nouvelles fonctionnalités détaillées ci-dessous.
 <td>
 <p>Les cartes de contenu sont une nouvelle fonctionnalité de messagerie numérique d’Adobe Journey Optimizer qui fournit du contenu personnalisé et attrayant, directement dans les applications mobiles et les sites web. Contrairement aux notifications push traditionnelles, les cartes de contenu s’intègrent de manière transparente à l’interface d’utilisation, en offrant des mises à jour persistantes et non intrusives qui améliorent l’interaction et l’expérience des utilisateurs et utilisatrices.</p>
 <p>Grâce à cette fonctionnalité, les spécialistes du marketing peuvent présenter du contenu multimédia pertinent aux utilisateurs et utilisatrices, augmenter l’engagement des personnes et veiller à ce que les messages importants soient affichés sans interrompre le parcours d’utilisation.</p>
-<p>Pour plus d’informations, consultez la <a href="../content-card/get-started-content-card.md">documentation détaillée</a>.</p>
+<p>Pour plus d’informations, consultez la <a href="../../rp_landing_pages/content-card-landing-page.md">documentation détaillée</a>.</p>
 <img src="assets/do-not-localize/content-card.gif"/>
 </td>
 </tr>
@@ -630,7 +630,7 @@ Cette version apporte les améliorations répertoriées ci-dessous.
 
 **Parcours**
 
-* Dans l’activité **Condition**, par défaut, la **[!UICONTROL Condition de temps]** est désormais définie par heure, de 00:00 à 12:00. [En savoir plus](../building-journeys/condition-activity.md#time_condition)
+* Dans l’activité **Condition**, par défaut, la **[!UICONTROL condition de temps]** est désormais définie par heure, de 00:00 à 12:00. [En savoir plus](../building-journeys/condition-activity.md#time_condition)
 * Lors de la création de vos parcours, les alertes s’affichent désormais à partir du bouton **Alertes**, afin de s’aligner sur d’autres alertes et d’offrir une expérience d’utilisation cohérente. [En savoir plus](../building-journeys/troubleshooting.md#checking-for-errors-before-testing)
 * Les options de zoom de la barre d’outils des parcours ont été améliorées : le pourcentage de zoom est désormais visible et vous pouvez facilement réinitialiser sa valeur.
 
@@ -1240,13 +1240,13 @@ Cette version est fournie avec les améliorations répertoriées ci-dessous.
 
 Antérieurement disponibles en version bêta, les améliorations suivantes sont désormais disponibles pour tous les utilisateurs et utilisatrices :
 
-* Vous pouvez désormais cibler les **audiences créées par le biais de la composition de l’audience** et utiliser les attributs d’enrichissement dans les parcours. [En savoir plus](../building-journeys/read-audience.md)
+* Vous pouvez désormais cibler les **audiences créées par le biais de la composition d’audiences** et utiliser les attributs d’enrichissement dans les parcours. [En savoir plus](../building-journeys/read-audience.md)
 
 * Vous pouvez désormais cibler les **audiences chargées à partir d’un fichier CSV** dans les parcours et les campagnes. [En savoir plus](../audience/about-audiences.md#segments-in-journey-optimizer)
 
   >[!AVAILABILITY]
   >
-  >* L’utilisation d’audiences et d’attributs provenant de la composition de l’audience et du chargement personnalisé (fichier CSV) n’est actuellement pas disponible avec Healthcare Shield ou Privacy and Security Shield.
+  >* L’utilisation d’audiences et d’attributs provenant de la composition d’audiences et du chargement personnalisé (fichier CSV) n’est actuellement pas disponible avec Healthcare Shield ou Privacy and Security Shield.
   >* L’amélioration du **chargement de l’audience à partir d’un fichier CSV** sera progressivement déployée dans les jours qui suivront la version initiale. Certains utilisateurs et utilisatrices ont un accès immédiat, mais d’autres peuvent rencontrer un retard avant que cela ne soit disponible dans leur environnement.
 
 **Parcours**

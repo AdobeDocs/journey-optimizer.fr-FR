@@ -9,8 +9,8 @@ role: User
 level: Intermediate
 keywords: attente, activité, parcours, suivant, zone de travail
 exl-id: 7268489a-38c1-44da-b043-f57aaa12d7d5
-source-git-commit: db3c87d10469550eb30224c932344ff1e3ae1767
-workflow-type: ht
+source-git-commit: 4d7ad2c3ed71801298f1afe31d0e29d7bb1d5c7f
+workflow-type: tm+mt
 source-wordcount: '649'
 ht-degree: 100%
 
@@ -53,7 +53,7 @@ En mode test, le paramètre **[!UICONTROL Durée d’attente en test]** vous per
 
 ### Attente et canaux mobiles {#wait-mobile-channels}
 
-Si vous souhaitez afficher un [message in-app](../in-app/create-in-app.md) peu après l’envoi d’une [notification push](../push/get-started-push.md), utilisez une activité **Attente** pour permettre à la payload du message in-app de se propager. En règle générale, une attente de 5 à 15 minutes est recommandée, mais les heures exactes peuvent varier en fonction de la complexité de la payload et des besoins de personnalisation.
+Si vous souhaitez afficher un [message in-app](../in-app/create-in-app.md) peu après l’envoi d’une [notification push](../../rp_landing_pages/push-landing-page.md), utilisez une activité **Attente** pour permettre à la payload du message in-app de se propager. En règle générale, une attente de 5 à 15 minutes est recommandée, mais les heures exactes peuvent varier en fonction de la complexité de la payload et des besoins de personnalisation.
 
 ## Configuration {#wait-configuration}
 

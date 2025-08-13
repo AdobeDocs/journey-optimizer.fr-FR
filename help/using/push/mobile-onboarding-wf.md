@@ -9,10 +9,10 @@ role: Admin
 level: Intermediate
 badge: label="Version bêta" type="Informative"
 exl-id: 364ef926-3f92-4297-acbd-a283668106ac
-source-git-commit: 47482adb84e05fe41eb1c50479a8b50e00469ec4
+source-git-commit: 4d7ad2c3ed71801298f1afe31d0e29d7bb1d5c7f
 workflow-type: tm+mt
 source-wordcount: '357'
-ht-degree: 100%
+ht-degree: 90%
 
 ---
 
@@ -33,8 +33,8 @@ Pour accéder au nouveau workflow de démarrage rapide de l’intégration mobil
 Voici quelques autres fonctionnalités :
 
 * Workflow simple en quatre étapes et interface utilisateur.
-* Fournit une configuration de base pour commencer à collecter en quelques minutes des données d’événement mobile via le [SDK mobile d’Adobe Experience Platform](https://developer.adobe.com/client-sdks/documentation/){target="_blank"}.
-* Permet de tester et de valider un événement push mobile de base à l’aide d’[Adobe Experience Platform Assurance](https://experienceleague.adobe.com/docs/experience-platform/assurance/home.html?lang=fr){target="_blank"}.
+* Fournit une configuration de base pour commencer à collecter en quelques minutes des données d’événement mobile via le [Adobe Experience Platform Mobile SDK](https://developer.adobe.com/client-sdks/documentation/){target="_blank"}.
+* Possibilité de tester et de valider un événement push mobile de base à l’aide d’[Adobe Experience Platform Assurance](https://experienceleague.adobe.com/docs/experience-platform/assurance/home.html?lang=fr){target="_blank"}.
 * Crée et configure automatiquement toutes les ressources de Journey Optimizer et de collecte de données nécessaires.
 * Donne des conseils et affiche des info-bulles sur le produit.
 * Fournit une transition naturelle pour une implémentation plus avancée, le cas échéant.
@@ -72,7 +72,7 @@ La configuration automatisée est terminée. Vous pouvez désormais accéder à 
 
 **Rubriques connexes**
 
-* [Prise en main des notifications push](get-started-push.md)
+* [Prise en main des notifications push](../../rp_landing_pages/push-landing-page.md)
 * [Flux de données et composants des notifications push](push-gs.md)
 * [Configuration du canal push](push-configuration.md)
 * [Rapport des notifications push](../reports/journey-global-report-cja-push.md#push-global)
