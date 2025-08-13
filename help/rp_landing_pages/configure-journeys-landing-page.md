@@ -20,7 +20,7 @@ La configuration de parcours dans Adobe Journey Optimizer vous permet de créer 
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=fr)
 
 Prise en main de la configuration de Parcours
 
@@ -30,7 +30,7 @@ Découvrez comment configurer les sources de données, les événements et les a
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=fr)
 
 Configuration d’événement dans Adobe Journey Optimizer
 
@@ -40,7 +40,7 @@ Découvrez comment configurer et gérer les événements qui déclenchent des pa
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=fr)
 
 Configuration de Source de données dans Adobe Journey Optimizer
 
@@ -50,7 +50,7 @@ comprendre et gérer les sources de données, y compris les types préconfiguré
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/screwdriver-wrench.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/screwdriver-wrench.svg?lang=fr)
 
 Configuration et utilisation des actions personnalisées
 

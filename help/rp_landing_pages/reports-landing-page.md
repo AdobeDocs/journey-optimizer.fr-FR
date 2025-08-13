@@ -20,7 +20,7 @@ Les rapports de parcours personnalisés dans Adobe Journey Optimizer vous permet
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=fr)
 
 Création et analyse de rapports de Parcours
 
@@ -30,7 +30,7 @@ Découvrez comment créer des rapports de parcours, comprendre les schémas et l
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=fr)
 
 Liste des champs d’événement d’étape
 
@@ -40,7 +40,7 @@ Explorez la liste complète des champs d’événement d’étape, classés et d
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=fr)
 
 Champs d’événement d’étape hérités
 
@@ -50,7 +50,7 @@ Découvrez les champs d’événement d’étape hérités utilisés dans Adobe 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=fr)
 
 Exemple de requêtes SQL pour l’analyse de données
 

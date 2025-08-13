@@ -20,7 +20,7 @@ La création de rapports dans Adobe Journey Optimizer consiste à transformer le
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=fr)
 
 Présentation du reporting
 
@@ -30,7 +30,7 @@ Découvrez les fonctionnalités de création de rapports de Adobe Journey Optimi
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=fr)
 
 Rapports dynamiques
 
@@ -40,7 +40,7 @@ Explorez les outils de création de rapports en temps réel pour mesurer et opti
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=fr)
 
 Rapports à tout moment
 
@@ -50,7 +50,7 @@ Découvrez les mesures, l’intégration à Customer Journey Analytics et les ou
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=fr)
 
 Rapports de Parcours personnalisés
 

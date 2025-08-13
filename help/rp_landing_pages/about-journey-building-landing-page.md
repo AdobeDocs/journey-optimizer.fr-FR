@@ -20,7 +20,7 @@ Les activités dans Adobe Journey Optimizer sont les blocs de création qui donn
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=fr)
 
 Présentation des activités de Parcours
 
@@ -30,7 +30,7 @@ Découvrez les activités d’événement, d’orchestration et d’action dans 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=fr)
 
 Utilisation d’événements généraux
 
@@ -40,7 +40,7 @@ Découvrez comment utiliser les événements généraux pour déclencher des par
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=fr)
 
 Configuration des événements de réaction
 
@@ -50,7 +50,7 @@ Découvrez comment réagir aux données de suivi telles que les clics ou les ouv
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=fr)
 
 Événements de qualification d’audience
 
@@ -60,7 +60,7 @@ Découvrez comment déclencher des actions et des conditions en fonction des sta
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=fr)
 
 Utilisation de l’activité de condition
 
@@ -70,7 +70,7 @@ Définissez plusieurs chemins d’accès dans un parcours en fonction de critèr
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/clock.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/clock.svg?lang=fr)
 
 Configuration de l’activité d’attente
 

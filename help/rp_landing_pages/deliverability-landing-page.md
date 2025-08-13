@@ -20,7 +20,7 @@ La délivrabilité des e-mails consiste à s’assurer que vos e-mails atteignen
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=fr)
 
 Présentation de la délivrabilité des e-mails
 
@@ -30,7 +30,7 @@ Découvrez les concepts, les bonnes pratiques et les outils pour optimiser la d�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=fr)
 
 Comprendre les listes de suppression
 
@@ -40,7 +40,7 @@ Découvrez comment les listes de suppression protègent la réputation des expé
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=fr)
 
 Se conformer aux nouvelles exigences de DMARC
 

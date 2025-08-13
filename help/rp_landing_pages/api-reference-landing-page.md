@@ -20,7 +20,7 @@ La section Référence d’API dans Adobe Journey Optimizer déverrouille les ou
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=fr)
 
 Prise en main de l’API de la bibliothèque des offres
 
@@ -30,7 +30,7 @@ Découvrez comment intégrer l&#39;API de la bibliothèque des offres pour la ge
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=fr)
 
 Diffuser des offres à l’aide des API Adobe Journey Optimizer
 

@@ -20,7 +20,7 @@ Les modèles de contenu dans Adobe Journey Optimizer sont des outils puissants c
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=fr)
 
 Commencer avec les modèles de contenu
 
@@ -30,7 +30,7 @@ Découvrez les principes de base de la création et de la gestion de modèles de
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=fr)
 
 Accéder aux modèles et les gérer
 
@@ -40,7 +40,7 @@ Découvrez comment accéder aux modèles de contenu, les organiser et les gérer
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=fr)
 
 Créer des modèles de contenu
 
@@ -50,7 +50,7 @@ Guide détaillé sur la création de modèles de contenu réutilisables à parti
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=fr)
 
 Verrouillage du contenu dans les modèles d’e-mail
 
@@ -60,7 +60,7 @@ Découvrez comment verrouiller des sections ou des modèles entiers pour empêch
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=fr)
 
 Tester des modèles de contenu
 
@@ -70,7 +70,7 @@ Validez les modèles d’e-mail en testant le rendu, les variations et les BAT a
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=fr)
 
 Utiliser des modèles de contenu
 

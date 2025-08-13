@@ -21,7 +21,7 @@ Lorsqu’un parcours client ne se comporte pas comme prévu, l’identification 
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=fr)
 
 Résolution des erreurs avant de tester ou de publier votre Parcours
 
@@ -31,7 +31,7 @@ Identifiez et résolvez les erreurs à l’échelle du parcours, les problèmes 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=fr)
 
 Dépannage de l’exécution de Parcours dynamiques dans Adobe Journey Optimizer
 
@@ -41,7 +41,7 @@ Diagnostiquer les problèmes de validation des événements, d’entrée de prof
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=fr)
 
 Résolution des problèmes liés aux actions entrantes dans les Parcours Adobe Journey Optimizer
 
@@ -51,7 +51,7 @@ Déboguer les problèmes d’action entrante, tels que le contenu manquant ou la
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=fr)
 
 Résolution des problèmes liés aux actions personnalisées dans Adobe Journey Optimizer
 
@@ -64,4 +64,4 @@ Validez et déboguez les actions personnalisées à l’aide de la fonctionnalit
 
 ### Ressources supplémentaires
 
-Consultez également [cet article de blog de la communauté Adobe](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/demystifying-adobe-journey-optimizer-error-codes-root-causes-and/ba-p/760884) qui détaille les codes d’erreur courants et la manière de les résoudre efficacement.
+Consultez également [cet article de blog de la communauté Adobe](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/demystifying-adobe-journey-optimizer-error-codes-root-causes-and/ba-p/760884?profile.language=fr) qui détaille les codes d’erreur courants et la manière de les résoudre efficacement.

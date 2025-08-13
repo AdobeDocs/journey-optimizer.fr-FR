@@ -20,7 +20,7 @@ La délégation de sous-domaines de messagerie dans Adobe Journey Optimizer perm
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=fr)
 
 Prise en main de la délégation de sous-domaines
 
@@ -30,7 +30,7 @@ Découvrez les avantages, les méthodes de configuration et les points à prendr
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=fr)
 
 Délégation d’un sous-domaine
 
@@ -40,7 +40,7 @@ Conseils détaillés sur la délégation de sous-domaines à Adobe, y compris la
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=fr)
 
 Configurer Des Enregistrements DMARC
 
@@ -50,7 +50,7 @@ Configurez les enregistrements DMARC pour améliorer la sécurité et la délivr
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=fr)
 
 Ajout d’un enregistrement TXT Google
 
@@ -60,7 +60,7 @@ Vérifiez les sous-domaines pour la délivrabilité de Gmail en ajoutant des enr
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=fr)
 
 Accéder aux enregistrements PTR et les modifier
 
@@ -70,7 +70,7 @@ Gérez les enregistrements PTR pour les sous-domaines délégués, y compris la 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=fr)
 
 Création de groupes d’adresses IP
 

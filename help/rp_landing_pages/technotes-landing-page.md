@@ -20,7 +20,7 @@ Les notes techniques de Adobe Journey Optimizer offrent un aperçu des méthodol
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=fr)
 
 Calculs statistiques utilisés dans les expériences Adobe Journey Optimizer
 
@@ -30,7 +30,7 @@ Découvrez les méthodologies statistiques avancées telles que les séquences d
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=fr)
 
 Comprendre les calculs statistiques dans les rapports d’expérience
 

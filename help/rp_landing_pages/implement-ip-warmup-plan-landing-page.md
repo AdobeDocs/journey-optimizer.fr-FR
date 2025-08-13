@@ -20,7 +20,7 @@ La mise en œuvre d’un plan de préchauffage des adresses IP dans Adobe Journe
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=fr)
 
 Prise en main des plans de préchauffage d’adresses IP
 
@@ -30,7 +30,7 @@ Découvrez l’objectif, les avantages et les étapes des plans de préchauffage
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=fr)
 
 Créer des campagnes de préchauffage d’adresses IP
 
@@ -40,7 +40,7 @@ Suivez les instructions étape par étape pour concevoir et activer des campagne
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=fr)
 
 Création et gestion d’un plan de préchauffage d’adresses IP
 
@@ -50,7 +50,7 @@ Découvrez comment créer, configurer et gérer votre plan de préchauffage d’
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=fr)
 
 Exécution et gestion de votre plan de préchauffage d’adresses IP
 

@@ -20,7 +20,7 @@ Dans Adobe Journey Optimizer, la création et la gestion des décisions vous per
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=fr)
 
 Création de décisions dans Adobe Journey Optimizer
 
@@ -30,7 +30,7 @@ Découvrez comment créer des décisions, définir des portées, définir des of
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=fr)
 
 Configuration Des Méthodes De Sélection Des Offres
 
@@ -40,7 +40,7 @@ Découvrez comment configurer des méthodes de classement pour les décisions, y
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=fr)
 
 Simuler Des Décisions D’Offre
 

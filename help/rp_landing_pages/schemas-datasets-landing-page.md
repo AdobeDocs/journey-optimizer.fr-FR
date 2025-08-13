@@ -20,7 +20,7 @@ La gestion des schémas relationnels et des jeux de données dans Adobe Journey 
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=fr)
 
 Prise en main des schémas relationnels et des jeux de données
 
@@ -30,7 +30,7 @@ Découvrez comment créer des schémas, configurer des jeux de données et ingé
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=fr)
 
 Configurer un schéma relationnel manuel
 
@@ -40,7 +40,7 @@ Cette section contient des instructions détaillées sur la création manuelle d
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=fr)
 
 Créer des schémas relationnels à l’aide d’un fichier DDL
 
@@ -50,7 +50,7 @@ Définissez des schémas en chargeant des fichiers DDL, en liant des tables et e
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=fr)
 
 Ingestion de données pour les campagnes Adobe Journey Optimizer
 

@@ -20,7 +20,7 @@ La gestion des règles de limitation des messages et des parcours dans Adobe Jou
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=fr)
 
 Utilisation d’ensembles de règles
 
@@ -30,7 +30,7 @@ Découvrez comment créer, gérer et activer des ensembles de règles pour contr
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=fr)
 
 Limitation et arbitrage des parcours
 
@@ -40,7 +40,7 @@ Découvrez comment définir des limites d’entrée de parcours et de simultané
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=fr)
 
 Capping de la fréquence par canal
 

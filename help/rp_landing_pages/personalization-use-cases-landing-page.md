@@ -20,7 +20,7 @@ Imaginez créer des communications si adaptées à votre audience qu’elles se 
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=fr)
 
 Tutoriel Personalization sur les notifications de statut de commande
 
@@ -30,7 +30,7 @@ Découvrez comment créer des notifications push personnalisées pour les mises 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=fr)
 
 Guide de Personalization des e-mails d’abandon de panier
 
@@ -40,7 +40,7 @@ Découvrez comment personnaliser les e-mails d’abandon de panier à l’aide d
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=fr)
 
 Exemple de Personalization d&#39;e-mail de prescription de plan d&#39;intégrité
 

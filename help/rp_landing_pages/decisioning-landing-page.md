@@ -20,7 +20,7 @@ Les fonctionnalités de décision de Journey Optimizer vous permettent de propos
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=fr)
 
 Présentation des fonctionnalités de décision
 
@@ -30,7 +30,7 @@ Découvrez les outils et les fonctionnalités de Adobe Journey Optimizer qui per
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=fr)
 
 Prise de décision dans Adobe Journey Optimizer
 
@@ -40,7 +40,7 @@ Découvrez comment créer, gérer et optimiser une diffusion de contenu personna
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=fr)
 
 Gestion des décisions dans Adobe Journey Optimizer
 

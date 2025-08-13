@@ -20,7 +20,7 @@ Les sources de données de Adobe Journey Optimizer vous permettent de vous conne
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=fr)
 
 Prise en main des sources de données
 
@@ -30,7 +30,7 @@ Découvrez les sources de données, leurs types, les cas d’utilisation et les 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=fr)
 
 Configuration d’une Source de données
 
@@ -40,7 +40,7 @@ Guide détaillé sur la configuration des sources de données et la gestion des 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=fr)
 
 Source de données Adobe Experience Platform
 
@@ -50,7 +50,7 @@ Découvrez comment configurer la source de données Adobe Experience Platform in
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=fr)
 
 Configuration des sources de données externes
 

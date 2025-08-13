@@ -20,7 +20,7 @@ L’intégration de vos parcours à des systèmes externes dans Adobe Journey Op
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=fr)
 
 Bonnes pratiques d’intégration du système externe
 
@@ -30,7 +30,7 @@ Découvrez les bonnes pratiques et les directives techniques pour l’intégrati
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=fr)
 
 Présentation de l’API de limitation et guide de mise en œuvre
 
@@ -40,7 +40,7 @@ Découvrez comment créer, configurer et gérer des paramètres de limitation po
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=fr)
 
 API de limitation : guide de configuration et de gestion
 

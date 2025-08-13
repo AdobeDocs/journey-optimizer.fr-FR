@@ -20,7 +20,7 @@ L’exportation de votre catalogue d’offres dans Adobe Journey Optimizer est s
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=fr)
 
 Guide d’exportation des catalogues d’offres
 
@@ -30,7 +30,7 @@ Découvrez comment exporter votre catalogue d&#39;offres sous forme de jeu de do
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=fr)
 
 Accès au catalogue d’offres exporté
 
@@ -40,7 +40,7 @@ Découvrez comment localiser et interagir avec le catalogue d’offres exporté 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=fr)
 
 Référence Du Jeu De Données D’Offres Personnalisées
 
@@ -50,7 +50,7 @@ Explorez les champs et le schéma hiérarchique du jeu de données pour les offr
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=fr)
 
 Présentation du jeu de données de décisions
 
@@ -60,7 +60,7 @@ Découvrez la structure hiérarchique, les définitions de champ et les métadon
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=fr)
 
 Détails du jeu de données d’emplacements
 
@@ -70,7 +70,7 @@ Découvrez les champs, le schéma et les métadonnées du jeu de données Emplac
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=fr)
 
 Documentation Du Jeu De Données D&#39;Offres De Secours
 

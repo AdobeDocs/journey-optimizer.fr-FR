@@ -20,7 +20,7 @@ Adobe Journey Optimizer vous permet de prendre des décisions plus intelligentes
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=fr)
 
 Utilisation des données contextuelles dans la prise de décision
 
@@ -30,7 +30,7 @@ Découvrez comment intégrer des données contextuelles de Adobe Experience Plat
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=fr)
 
 Utilisation des données Adobe Experience Platform pour la prise de décision
 

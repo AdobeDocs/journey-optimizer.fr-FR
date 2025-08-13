@@ -23,7 +23,7 @@ Grâce à cette fonctionnalité, les spécialistes du marketing peuvent présent
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=fr)
 
 Configurer le canal des cartes de contenu
 
@@ -33,7 +33,7 @@ Configurez et intégrez le canal Cartes de contenu pour les plateformes web, mob
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=fr)
 
 Création et configuration de cartes de contenu
 
@@ -43,7 +43,7 @@ Tutoriel détaillé sur la création, la personnalisation et l’implémentation
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=fr)
 
 Conception de cartes de contenu
 

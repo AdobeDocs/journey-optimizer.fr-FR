@@ -20,7 +20,7 @@ Les fonctions d’assistance de Adobe Journey Optimizer vous permettent de perso
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=fr)
 
 Prise en main des fonctions d’assistance
 
@@ -30,7 +30,7 @@ Découvrez comment utiliser les fonctions d’assistance pour la manipulation et
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=fr)
 
 Bibliothèque des fonctions d&#39;agrégation
 
@@ -40,7 +40,7 @@ Découvrez des fonctions permettant de résumer plusieurs valeurs en une seule v
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=fr)
 
 Bibliothèque des fonctions arithmétiques
 
@@ -50,7 +50,7 @@ Découvrez comment les fonctions arithmétiques effectuent des calculs tels que 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=fr)
 
 Référence des fonctions de tableau et de liste
 
@@ -60,7 +60,7 @@ Découvrez comment manipuler des tableaux et des listes avec des fonctions telle
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/calendar-alt.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/calendar-alt.svg?lang=fr)
 
 Bibliothèque des fonctions de date et d’heure
 
@@ -70,7 +70,7 @@ Utilisez les fonctions de date et d’heure pour manipuler et formater les dates
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=fr)
 
 Bibliothèque de fonctions booléennes et de comparaison
 

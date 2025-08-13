@@ -20,7 +20,7 @@ La fonctionnalité Prise de décision de Adobe Journey Optimizer vous permet de 
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=fr)
 
 Présentation de la prise de décisions
 
@@ -30,7 +30,7 @@ Découvrez les principes de base de la prise de décision dans Adobe Journey Opt
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=fr)
 
 Mécanismes de sécurisation et limites de la prise de décision
 
@@ -40,7 +40,7 @@ Découvrez les contraintes et les bonnes pratiques pour utiliser efficacement De
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=fr)
 
 Référence d’API : diffusion d’offres
 
@@ -50,7 +50,7 @@ Découvrez comment diffuser des offres à l’aide du canal d’expérience bas�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=fr)
 
 Gestion des éléments de décision et des catalogues
 
@@ -60,7 +60,7 @@ Configurez et gérez les éléments de décision, les catalogues et les collecti
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=fr)
 
 Création De Règles De Décision
 
@@ -70,7 +70,7 @@ Définissez des règles de décision pour cibler précisément les audiences à 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=fr)
 
 Créer des classements avec des modèles d’IA
 

@@ -20,7 +20,7 @@ Les jeux de données Adobe Journey Optimizer sont l’épine dorsale de la mani�
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=fr)
 
 Utilisation et gestion des jeux de données dans Adobe Journey Optimizer
 
@@ -30,7 +30,7 @@ Découvrez comment accéder aux jeux de données, les créer, les gérer et les 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=fr)
 
 Mécanismes de sécurisation de la durée de vie (TTL) des jeux de données
 
@@ -40,7 +40,7 @@ Découvrez les mécanismes de sécurisation de TTL appliqués aux jeux de donné
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=fr)
 
 Exporter des jeux de données Adobe Journey Optimizer
 
@@ -50,7 +50,7 @@ Découvrez comment exporter des jeux de données vers des destinations d’espac
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=fr)
 
 Adobe Journey Optimizer : exemples de requête de jeu de données
 

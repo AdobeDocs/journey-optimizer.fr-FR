@@ -20,7 +20,7 @@ Les rapports de campagne dans Adobe Journey Optimizer vous permettent de déverr
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=fr)
 
 Aperçu du rapport de campagne
 
@@ -30,7 +30,7 @@ Découvrez comment analyser les performances des campagnes à l’aide de mesure
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=fr)
 
 Rapport de campagne basé sur le code
 
@@ -40,7 +40,7 @@ Découvrez comment évaluer des expériences personnalisées et des stratégies 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=fr)
 
 Rapport de campagne des cartes de contenu
 
@@ -50,7 +50,7 @@ Analysez les campagnes de cartes de contenu avec des mesures telles que les tend
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=fr)
 
 Rapport de campagne sur le publipostage direct
 
@@ -60,7 +60,7 @@ Rapport de campagne sur le publipostage direct
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope-open-text.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope-open-text.svg?lang=fr)
 
 Rapport de campagne par e-mail
 
@@ -70,7 +70,7 @@ Obtenez des informations sur les mesures de performances des e-mails, les taux d
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/vial.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/vial.svg?lang=fr)
 
 Rapport de campagne d’expérimentation
 

@@ -20,7 +20,7 @@ Les notes de mise à jour de Adobe Journey Optimizer fournissent un instantané 
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=fr)
 
 Notes De Mise À Jour 2025 De Adobe Journey Optimizer
 
@@ -30,7 +30,7 @@ Découvrez toutes les fonctionnalités, mises à jour et améliorations introdui
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=fr)
 
 Notes De Mise À Jour De Adobe Journey Optimizer 2024
 

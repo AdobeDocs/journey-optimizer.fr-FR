@@ -20,7 +20,7 @@ Le contrôle d’accès dans Adobe Journey Optimizer permet aux administrateurs 
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=fr)
 
 Prise en main du contrôle d’accès
 
@@ -30,7 +30,7 @@ Découvrez les concepts et les processus de gestion des autorisations utilisateu
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=fr)
 
 Gestion des utilisateurs et des rôles
 
@@ -40,7 +40,7 @@ Cette section contient des instructions détaillées sur l’attribution, la mod
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=fr)
 
 Rôles intégrés
 
@@ -50,7 +50,7 @@ Découvrez les rôles prédéfinis et les autorisations associées pour gérer e
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=fr)
 
 Autorisations intégrées
 
@@ -60,7 +60,7 @@ Découvrez les autorisations disponibles et leurs fonctionnalités pour configur
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=fr)
 
 Niveaux d’autorisation
 
@@ -70,7 +70,7 @@ Découvrez les autorisations de haut niveau et de bas niveau, ainsi que la mani�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=fr)
 
 Contrôle d’accès basé sur les attributs
 

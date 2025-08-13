@@ -20,7 +20,7 @@ La configuration des pages de destination dans Adobe Journey Optimizer vous perm
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=fr)
 
 Configurer Des Sous-Domaines De Page De Destination
 
@@ -30,7 +30,7 @@ Découvrez comment configurer, gérer et annuler la délégation de sous-domaine
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=fr)
 
 Définir Les Préréglages De La Page De Destination
 

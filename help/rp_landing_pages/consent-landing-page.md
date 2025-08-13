@@ -20,7 +20,7 @@ La gestion du consentement est essentielle pour établir la confiance avec votre
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=fr)
 
 Gestion de la désinscription et du consentement Personalization
 
@@ -30,7 +30,7 @@ Découvrez comment gérer les préférences de désinscription et appliquer le c
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=fr)
 
 Utilisation des politiques de consentement
 

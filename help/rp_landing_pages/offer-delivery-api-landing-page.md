@@ -20,7 +20,7 @@ Les API de diffusion d’offres de Adobe Journey Optimizer vous permettent de di
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=fr)
 
 Prise en main des API de diffusion d’offres
 
@@ -30,7 +30,7 @@ Découvrez les API disponibles pour diffuser des offres personnalisées, notamme
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=fr)
 
 Diffuser des offres à l’aide de l’API Decisioning
 
@@ -40,7 +40,7 @@ Créez et diffusez des offres marketing personnalisées à l’aide de l’API D
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=fr)
 
 Diffuser des offres à l’aide de l’API Edge Decisioning
 
@@ -50,7 +50,7 @@ Mettez en œuvre une diffusion d’offres personnalisée à l’aide de Adobe Ex
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=fr)
 
 Utilisation de l’API Batch Decisioning pour diffuser des offres
 

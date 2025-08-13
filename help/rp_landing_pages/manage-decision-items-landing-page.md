@@ -20,7 +20,7 @@ La gestion des éléments de décision dans Adobe Journey Optimizer consiste à 
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=fr)
 
 Configurer le catalogue d&#39;articles
 
@@ -30,7 +30,7 @@ Découvrez comment configurer et gérer le catalogue d’éléments dans la fonc
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=fr)
 
 Création et gestion des éléments de décision
 
@@ -40,7 +40,7 @@ Découvrez comment créer, configurer et gérer des éléments de décision, not
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=fr)
 
 Gérer les collections d&#39;articles
 

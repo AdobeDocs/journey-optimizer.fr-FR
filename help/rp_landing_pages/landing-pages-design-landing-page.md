@@ -20,7 +20,7 @@ La conception de contenu dans Adobe Journey Optimizer vous permet de créer des 
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=fr)
 
 Concevoir une page de destination dans Adobe Journey Optimizer
 
@@ -30,7 +30,7 @@ Découvrez comment créer des pages de destination à partir de zéro, utiliser 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=fr)
 
 Création et personnalisation de contenu de page de destination
 
@@ -40,7 +40,7 @@ Ajoutez des composants tels que des formulaires, personnalisez leurs styles et u
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=fr)
 
 Utilisation de modèles de page de destination
 
@@ -50,7 +50,7 @@ Enregistrez les pages de destination en tant que modèles et réutilisez-les pou
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=fr)
 
 Utilisation de JavaScript personnalisés dans les pages de destination
 

@@ -20,7 +20,7 @@ La configuration des canaux dans Adobe Journey Optimizer vous permet de gérer l
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=fr)
 
 Prise en main de la configuration des canaux
 
@@ -30,7 +30,7 @@ Découvrez les étapes de configuration des canaux dans Adobe Journey Optimizer,
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=fr)
 
 Configuration et gestion des configurations de canal
 
@@ -40,7 +40,7 @@ Suivez un guide détaillé pour créer, modifier, désactiver et surveiller les 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=fr)
 
 Configuration de canal guidée
 
@@ -50,7 +50,7 @@ Configurez efficacement les canaux web et mobiles à l’aide des instructions d
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/screwdriver-wrench.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/screwdriver-wrench.svg?lang=fr)
 
 Déléguer et gérer des sous-domaines de messagerie
 
@@ -60,7 +60,7 @@ Découvrez comment déléguer et configurer des sous-domaines de messagerie pour
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=fr)
 
 Mise en œuvre d’un plan de préchauffage d’adresses IP
 
@@ -70,7 +70,7 @@ Créez et exécutez des plans de préchauffage d’adresses IP pour établir la 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=fr)
 
 Surveillance de la délivrabilité et de la réputation des e-mails
 

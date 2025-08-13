@@ -20,7 +20,7 @@ L’approbation des parcours et des campagnes dans Adobe Journey Optimizer garan
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=fr)
 
 Configurer et gérer la validation des Parcours et des campagnes
 
@@ -30,7 +30,7 @@ Découvrez comment configurer et gérer le processus de validation des parcours 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=fr)
 
 Création et gestion des politiques d’approbation
 
@@ -40,7 +40,7 @@ Guide détaillé sur la création, la configuration et la gestion des politiques
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=fr)
 
 Comment demander une approbation pour les Parcours et les campagnes
 
@@ -50,7 +50,7 @@ Découvrez comment demander la validation de parcours et de campagnes, y compris
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=fr)
 
 Vérifier et approuver les demandes de Parcours et de campagnes
 

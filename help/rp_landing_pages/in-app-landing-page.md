@@ -21,7 +21,7 @@ Le canal in-app de Adobe Journey Optimizer vous permet de vous connecter aux uti
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=fr)
 
 Configuration du canal in-app
 
@@ -31,7 +31,7 @@ Guide détaillé pour configurer les autorisations, les paramètres de diffusion
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=fr)
 
 Créer des messages in-app mobiles
 
@@ -41,7 +41,7 @@ Découvrez comment créer, configurer et publier des messages in-app mobiles à 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=fr)
 
 Créer des messages in-app web
 
@@ -51,7 +51,7 @@ Configurez et créez des campagnes de messagerie web in-app avec des déclencheu
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/paint-brush.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/paint-brush.svg?lang=fr)
 
 Conception et personnalisation de contenu in-app
 
@@ -61,7 +61,7 @@ Explorez les options de disposition, personnalisez le contenu et utilisez une mi
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/paper-plane.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/paper-plane.svg?lang=fr)
 
 Vérifier et envoyer votre notification in-app
 

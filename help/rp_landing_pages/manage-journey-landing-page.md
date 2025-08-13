@@ -20,7 +20,7 @@ La gestion de vos parcours dans Adobe Journey Optimizer consiste à vous donner 
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=fr)
 
 Parcourir et filtrer vos Parcours
 
@@ -30,7 +30,7 @@ Découvrez comment parcourir, filtrer et gérer les parcours efficacement, y com
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=fr)
 
 Entrée de profil dans Parcours
 
@@ -40,7 +40,7 @@ Découvrez comment les profils rejoignent des parcours, notamment les règles de
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=fr)
 
 Utilisation d’identifiants supplémentaires dans les Parcours
 
@@ -50,7 +50,7 @@ Découvrez comment tirer parti d’identifiants supplémentaires pour une person
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=fr)
 
 Gestion des fuseaux horaires
 
@@ -60,7 +60,7 @@ Découvrez comment configurer des fuseaux horaires fixes et définis par le prof
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=fr)
 
 Optimisation de l’heure d’envoi
 
@@ -70,7 +70,7 @@ Optimisez l’engagement des e-mails et des messages push en prédisant des heur
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=fr)
 
 Terminer le Parcours
 

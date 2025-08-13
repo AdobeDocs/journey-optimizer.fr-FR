@@ -20,7 +20,7 @@ Les classements dans Adobe Journey Optimizer vous permettent de définir les off
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=fr)
 
 Prise en main des classements
 
@@ -30,7 +30,7 @@ Découvrez les principes de base des classements dans Adobe Journey Optimizer, y
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=fr)
 
 Création et utilisation de formules de classement
 
@@ -40,7 +40,7 @@ Suivez les instructions étape par étape pour créer des formules de classement
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=fr)
 
 Modèles d’IA pour le classement des offres
 

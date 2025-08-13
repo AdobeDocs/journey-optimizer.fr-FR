@@ -20,7 +20,7 @@ Le publipostage direct dans Adobe Journey Optimizer vous permet d’atteindre vo
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=fr)
 
 Présentation des campagnes par publipostage direct
 
@@ -30,7 +30,7 @@ Découvrez les campagnes de publipostage direct dans Adobe Journey Optimizer, no
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=fr)
 
 Création d’une campagne par publipostage direct
 
@@ -40,7 +40,7 @@ Guide détaillé sur la création de campagnes par publipostage direct et la con
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=fr)
 
 Comment vérifier et envoyer une campagne par publipostage direct
 
@@ -50,7 +50,7 @@ Prévisualisez, validez, activez et gérez efficacement le consentement pour les
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=fr)
 
 Configurer le canal Courrier
 

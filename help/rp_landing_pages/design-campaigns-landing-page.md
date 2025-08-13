@@ -20,7 +20,7 @@ Les activités de campagne orchestrées dans Adobe Journey Optimizer vous permet
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=fr)
 
 Utiliser des activités de campagne orchestrées
 
@@ -30,7 +30,7 @@ Découvrez les activités de ciblage, de canal et de contrôle de flux pour conc
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=fr)
 
 Utilisation de l’activité AND-join
 
@@ -40,7 +40,7 @@ Synchronisez plusieurs branches d&#39;exécution en vous assurant que les tâche
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=fr)
 
 Activité Créer une audience
 
@@ -50,7 +50,7 @@ Définissez et configurez des segments d’audience pour vos campagnes à l’ai
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=fr)
 
 Activité Modifier la dimension
 
@@ -60,7 +60,7 @@ Améliorez le ciblage en passant d’une entité de données à l’autre dans v
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=fr)
 
 Activités des canaux
 
@@ -70,7 +70,7 @@ Configurez les e-mails, les SMS, les notifications push et le publipostage direc
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=fr)
 
 Combiner l’activité
 

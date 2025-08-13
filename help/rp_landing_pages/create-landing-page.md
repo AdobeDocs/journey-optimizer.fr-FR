@@ -20,7 +20,7 @@ La création d’audiences dans Adobe Journey Optimizer vous permet de définir,
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=fr)
 
 Création de définitions de segment dans Adobe Journey Optimizer
 
@@ -30,7 +30,7 @@ Découvrez comment définir les segments d’audience, y compris des instruction
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=fr)
 
 Prise en main de la composition de l’audience
 
@@ -40,7 +40,7 @@ Découvrez comment créer des workflows qui combinent, enrichissent et gèrent d
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/file-upload.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/file-upload.svg?lang=fr)
 
 Importation d’audiences à l’aide d’un téléchargement CSV personnalisé
 
@@ -50,7 +50,7 @@ Découvrez comment importer des audiences par le biais de fichiers CSV et mapper
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=fr)
 
 Composition d’audiences fédérées
 

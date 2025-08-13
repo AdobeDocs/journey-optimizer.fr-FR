@@ -20,7 +20,7 @@ Les canaux de communication de Adobe Journey Optimizer vous permettent d’entre
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=fr)
 
 Présentation des canaux de communication
 
@@ -30,7 +30,7 @@ Découvrez les canaux de communication entrants et sortants disponibles dans Ado
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=fr)
 
 Canal e-mail
 
@@ -40,7 +40,7 @@ Découvrez comment créer, configurer et optimiser des campagnes par e-mail, y c
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/mobile.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/mobile.svg?lang=fr)
 
 Messagerie in-app
 
@@ -50,7 +50,7 @@ Découvrez comment configurer, concevoir et personnaliser des notifications in-a
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bell.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bell.svg?lang=fr)
 
 Canal de notification push
 
@@ -60,7 +60,7 @@ Découvrez comment créer, configurer et envoyer des notifications push pour iOS
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/comment-dots.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/comment-dots.svg?lang=fr)
 
 Messagerie SMS/MMS/RCS
 
@@ -70,7 +70,7 @@ Découvrez comment créer, gérer et configurer des messages SMS, MMS et RCS à 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/mail-bulk.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/mail-bulk.svg?lang=fr)
 
 Campagnes de publipostage direct
 

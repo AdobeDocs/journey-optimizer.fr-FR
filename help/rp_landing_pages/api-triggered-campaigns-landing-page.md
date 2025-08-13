@@ -20,7 +20,7 @@ Les campagnes déclenchées par API dans Adobe Journey Optimizer vous permettent
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=fr)
 
 Créer et gérer des campagnes déclenchées par API
 
@@ -30,7 +30,7 @@ Découvrez comment créer, configurer et gérer des campagnes déclenchées par 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=fr)
 
 Définir les propriétés de la campagne déclenchée par l’API
 
@@ -40,7 +40,7 @@ Suivez les instructions détaillées pour définir les propriétés de la campag
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=fr)
 
 Configuration de l’action de campagne déclenchée par l’API
 
@@ -50,7 +50,7 @@ Découvrez comment configurer des actions, sélectionner des canaux de communica
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=fr)
 
 Modifier et personnaliser du contenu de campagne déclenché par l’API
 
@@ -60,7 +60,7 @@ Personnalisez le contenu d’une campagne à l’aide de données contextuelles.
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/users.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/users.svg?lang=fr)
 
 Définir l’audience de la campagne déclenchée par l’API
 
@@ -70,7 +70,7 @@ Configurez l’audience de la campagne en sélectionnant les profils, en configu
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/clock.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/clock.svg?lang=fr)
 
 Planifier une campagne déclenchée par API
 

@@ -20,7 +20,7 @@ La réussite de Adobe Journey Optimizer repose sur la collaboration d’une équ
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=fr)
 
 Présentation des rôles et des responsabilités
 
@@ -30,7 +30,7 @@ Découvrez les principaux rôles, responsabilités et dépendances requis pour r
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=fr)
 
 Prise en main en tant que spécialiste marketing
 
@@ -40,7 +40,7 @@ Conseils détaillés pour les professionnels du marketing sur la création d’a
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=fr)
 
 Prise en main en tant qu’ingénieur de données
 
@@ -50,7 +50,7 @@ Instructions détaillées pour que les ingénieurs de données préparent des sc
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=fr)
 
 Prise en main en tant qu’administrateur système
 

@@ -20,7 +20,7 @@ Parcours dans Adobe Journey Optimizer vous permet de créer des parcours clients
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=fr)
 
 Prise en main des Parcours Adobe Journey Optimizer
 
@@ -30,7 +30,7 @@ Découvrez comment créer des parcours clients en temps réel et à plusieurs é
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=fr)
 
 Guide complet de création et de gestion des Parcours
 
@@ -40,7 +40,7 @@ Conseils détaillés sur la conception, le test, la publication et le suivi des 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=fr)
 
 Guide complet de gestion des Parcours
 
@@ -50,7 +50,7 @@ Gérez efficacement les parcours des clients à l’aide d’outils de filtrage,
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=fr)
 
 Activités dans Adobe Journey Optimizer
 
@@ -60,7 +60,7 @@ Découvrez comment configurer et utiliser des activités telles que les déclenc
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=fr)
 
 Création d’expressions dans Adobe Journey Optimizer
 
@@ -70,7 +70,7 @@ Création d’expressions de Principal pour les workflows dynamiques, la manipul
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=fr)
 
 Cas pratiques d’utilisation de Adobe Journey Optimizer
 

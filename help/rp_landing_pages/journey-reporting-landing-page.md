@@ -20,7 +20,7 @@ Les rapports de parcours dans Adobe Journey Optimizer fournissent des outils pui
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=fr)
 
 Analyse des rapports de Parcours
 
@@ -30,7 +30,7 @@ Découvrez comment analyser et optimiser les performances du parcours à l’aid
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=fr)
 
 Rapports de Parcours basés sur le code
 
@@ -40,7 +40,7 @@ Comprenez et analysez les mesures d’engagement dans les expériences basées s
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=fr)
 
 Engagement de la carte de contenu
 
@@ -50,7 +50,7 @@ Découvrez comment mesurer et évaluer l’interaction client avec les cartes de
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=fr)
 
 Mesures de publipostage direct
 
@@ -60,7 +60,7 @@ Analysez et interprétez les mesures clés pour les campagnes par publipostage d
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope-open.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope-open.svg?lang=fr)
 
 Rapports sur le Parcours des e-mails
 
@@ -70,7 +70,7 @@ Obtenez des informations sur les performances des e-mails, l’engagement et les
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/mobile.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/mobile.svg?lang=fr)
 
 Informations sur la messagerie in-app
 

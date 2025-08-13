@@ -20,7 +20,7 @@ Les cas d’utilisation inter-solutions de Adobe Journey Optimizer vous permette
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=fr)
 
 Combinaison de solutions Adobe pour gérer le contenu
 
@@ -30,7 +30,7 @@ Découvrez comment intégrer Adobe Journey Optimizer à d’autres solutions Ado
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/screwdriver-wrench.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/screwdriver-wrench.svg?lang=fr)
 
 Utilisation d’Adobe Experience Manager Assets
 
@@ -40,7 +40,7 @@ Conseils détaillés sur l’intégration, le chargement et la gestion des resso
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/images.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/images.svg?lang=fr)
 
 Utiliser des images Adobe Stock
 
@@ -50,7 +50,7 @@ Découvrez comment sourcer, obtenir une licence et personnaliser des images Adob
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/pencil-ruler.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/pencil-ruler.svg?lang=fr)
 
 Modification De Votre Assets À L’Aide D’Adobe Express
 
@@ -60,7 +60,7 @@ Découvrez comment redimensionner, recadrer et supprimer l’arrière-plan des r
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=fr)
 
 Utiliser des fragments de contenu AEM
 
@@ -70,7 +70,7 @@ Cette section contient des instructions détaillées pour intégrer des fragment
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=fr)
 
 Utiliser Dynamic Media
 

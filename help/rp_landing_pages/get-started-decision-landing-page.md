@@ -20,7 +20,7 @@ La gestion des décisions de Adobe Journey Optimizer permet aux marketeurs de pr
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=fr)
 
 Présentation de la gestion des décisions
 
@@ -30,7 +30,7 @@ Découvrez la gestion des décisions dans Adobe Journey Optimizer, y compris ses
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=fr)
 
 Mécanismes de sécurisation et limitations de la gestion des décisions
 
@@ -40,7 +40,7 @@ Découvrez les contraintes opérationnelles et les seuils de performance de la g
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=fr)
 
 Guide De L’Interface Utilisateur De La Bibliothèque Des Offres
 
@@ -50,7 +50,7 @@ Explorez l&#39;interface et les fonctionnalités de la bibliothèque des offres 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=fr)
 
 Étapes clés de création et de gestion des offres
 
@@ -60,7 +60,7 @@ Suivez un guide détaillé pour créer, gérer et configurer des offres et des d
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=fr)
 
 Utilisation du chargement personnalisé d’audiences pour la prise de décision
 
@@ -70,7 +70,7 @@ Découvrez comment affiner les critères d’éligibilité et personnaliser les 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=fr)
 
 Utiliser des offres personnalisées dans un e-mail
 

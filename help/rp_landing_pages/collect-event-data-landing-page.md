@@ -20,7 +20,7 @@ La collecte de données d’événement dans Adobe Journey Optimizer vous permet
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=fr)
 
 Prise en main de la collecte de données de gestion des décisions
 
@@ -30,7 +30,7 @@ Découvrez les principes de base de la collecte de données pour la gestion des 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=fr)
 
 Création d’un jeu de données pour collecter des événements d’expérience
 
@@ -40,7 +40,7 @@ Suivez les instructions détaillées afin de créer un jeu de données et un sch
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=fr)
 
 Configuration de la capture de données d’événement pour la gestion des décisions
 

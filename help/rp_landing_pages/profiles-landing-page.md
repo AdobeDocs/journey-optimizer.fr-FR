@@ -20,7 +20,7 @@ Les profils dans Adobe Journey Optimizer vous permettent de créer des vues unif
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=fr)
 
 Présentation des profils
 
@@ -30,7 +30,7 @@ Découvrez comment créer, gérer et utiliser des profils dans Adobe Journey Opt
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=fr)
 
 Création de profils de test
 
@@ -40,7 +40,7 @@ Conseils détaillés sur la création de profils de test pour les tests de parco
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=fr)
 
 Utilisation des attributs calculés
 

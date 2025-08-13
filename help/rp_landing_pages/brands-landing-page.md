@@ -20,7 +20,7 @@ Dans Adobe Journey Optimizer, la fonctionnalité « Marques » vous permet de d�
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=fr)
 
 Création et gestion des directives relatives à la marque
 
@@ -30,7 +30,7 @@ Découvrez comment définir, personnaliser et gérer les directives de marque po
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=fr)
 
 Évaluation De Votre Score D’Alignement De Marque
 

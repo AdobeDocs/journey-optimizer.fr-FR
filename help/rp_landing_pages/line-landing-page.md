@@ -30,7 +30,7 @@ Avant de créer votre message LINE, configurez votre canal LINE avec Journey Op
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=fr)
 
 Configuration du canal LINE
 
@@ -40,7 +40,7 @@ Suivez les instructions étape par étape pour configurer manuellement le canal 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=fr)
 
 Création et configuration de messages LINE
 
@@ -50,7 +50,7 @@ Découvrez comment ajouter des messages LINE aux parcours et aux campagnes, pers
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=fr)
 
 Vérifier et envoyer des messages LINE
 

@@ -20,7 +20,7 @@ Les outils de confidentialité de Adobe Journey Optimizer vous permettent de gé
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=fr)
 
 Présentation de la gestion de la confidentialité
 
@@ -30,7 +30,7 @@ Découvrez comment gérer la confidentialité dans Adobe Journey Optimizer et Ad
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=fr)
 
 Gestion des demandes d&#39;accès à des informations personnelles
 
@@ -40,7 +40,7 @@ Suivez les instructions étape par étape pour créer et gérer les demandes d�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=fr)
 
 Journaux d’audit pour les actions utilisateur
 
@@ -50,7 +50,7 @@ Suivez et surveillez les actions effectuées sur les ressources Adobe Journey Op
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/screwdriver-wrench.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/screwdriver-wrench.svg?lang=fr)
 
 Exécution d’opérations relatives au cycle de vie des données
 
@@ -60,7 +60,7 @@ Découvrez comment gérer les tâches du cycle de vie des données, telles que l
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=fr)
 
 Gestion du consentement
 
@@ -70,7 +70,7 @@ Gérez les préférences et les politiques de consentement des destinataires pou
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=fr)
 
 Politiques de gouvernance des données
 

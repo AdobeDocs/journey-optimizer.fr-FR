@@ -20,7 +20,7 @@ La prévisualisation et le test du contenu dans Adobe Journey Optimizer garantis
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=fr)
 
 Prévisualiser et tester votre contenu dans Adobe Journey Optimizer
 
@@ -30,7 +30,7 @@ Découvrez comment utiliser des profils de test et des exemples de données d’
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=fr)
 
 Sélection de profils de test dans Adobe Journey Optimizer
 
@@ -40,7 +40,7 @@ Découvrez comment sélectionner et gérer des profils de test pour prévisualis
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=fr)
 
 Prévisualiser Votre Contenu À L’Aide De Profils De Test
 
@@ -50,7 +50,7 @@ Guide détaillé pour la prévisualisation de contenu personnalisé à l’aide 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=fr)
 
 Envoyer Des Bat À L’Aide Des Données De Profil De Test
 
@@ -60,7 +60,7 @@ Testez et validez vos e-mails en envoyant des BAT à l’aide des données de pr
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/eye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/eye.svg?lang=fr)
 
 Comment tester le rendu des e-mails avec Litmus dans Adobe Journey Optimizer
 
@@ -70,7 +70,7 @@ Intégrez Litmus pour prévisualiser le rendu des e-mails sur les principaux cli
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=fr)
 
 Simulation et test de variations de contenu dans Adobe Journey Optimizer
 

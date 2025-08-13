@@ -20,7 +20,7 @@ Les chaînes sont les blocs de création des données textuelles. Les fonctions 
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=fr)
 
 Concaténer la référence de fonction
 
@@ -30,7 +30,7 @@ Découvrez comment combiner des chaînes ou une liste de chaînes à l’aide de
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=fr)
 
 Utilisation de la fonction &#39;contain&#39;
 
@@ -40,7 +40,7 @@ Découvrez comment vérifier la présence d’une chaîne dans une autre chaîne
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=fr)
 
 containIgnoreCase, fonction
 
@@ -50,7 +50,7 @@ Découvrez comment effectuer des contrôles de confinement de chaînes non sensi
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=fr)
 
 endWith, fonction référence
 
@@ -60,7 +60,7 @@ Découvrez comment vérifier si une chaîne se termine par un suffixe spécifiqu
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=fr)
 
 endWithIgnoreCase, fonction
 
@@ -70,7 +70,7 @@ Vérifiez si une chaîne se termine par un suffixe, en ignorant la casse.
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=fr)
 
 equalIgnoreCase, fonction Référence
 

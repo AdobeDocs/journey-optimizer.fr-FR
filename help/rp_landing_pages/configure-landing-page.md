@@ -20,7 +20,7 @@ La section « Configurer le canal de carte de contenu » dans Adobe Journey Opti
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=fr)
 
 Conditions préalables de configuration du canal des cartes de contenu
 
@@ -30,7 +30,7 @@ Découvrez les configurations et paramètres nécessaires à l’activation du c
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=fr)
 
 Configuration du canal des cartes de contenu dans Journey Optimizer
 
@@ -40,7 +40,7 @@ Suivez les instructions détaillées pour définir des surfaces URI et créer de
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=fr)
 
 Configuration de la prise en charge des cartes de contenu dans Mobile SDK
 
@@ -50,7 +50,7 @@ Activez et personnalisez des cartes de contenu dans les applications mobiles à 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=fr)
 
 Configuration de la prise en charge des cartes de contenu dans Web SDK
 

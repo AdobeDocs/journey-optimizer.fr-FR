@@ -20,7 +20,7 @@ Le Designer d’e-mail de Adobe Journey Optimizer comprend de puissants outils d
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=fr)
 
 Personnalisation des styles d’e-mail
 
@@ -30,7 +30,7 @@ Découvrez comment ajuster les paramètres de style tels que le corps, la struct
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=fr)
 
 Personnaliser l’arrière-plan des e-mails
 
@@ -40,7 +40,7 @@ Découvrez comment définir les couleurs de fond et les images à différents ni
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=fr)
 
 Ajuster l’alignement vertical et la marge intérieure
 
@@ -50,7 +50,7 @@ Cette section contient des instructions détaillées pour modifier l’alignemen
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=fr)
 
 Ajout D’Attributs De Style Intégrés
 

@@ -20,7 +20,7 @@ Les fonctions de liste de Adobe Journey Optimizer vous permettent de manipuler e
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=fr)
 
 Utilisation de la fonction « distinct » dans Adobe Journey Optimizer
 
@@ -30,7 +30,7 @@ Découvrez comment utiliser la fonction « distinct » pour dédupliquer des lis
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=fr)
 
 distinctWithNull, fonction - Adobe Journey Optimizer
 
@@ -40,7 +40,7 @@ Découvrez comment utiliser « distinctWithNull » pour récupérer des valeurs 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=fr)
 
 Utilisation de la fonction &#39;filter&#39; dans Adobe Journey Optimizer
 
@@ -50,7 +50,7 @@ Découvrez comment appliquer des filtres à des listes d’objets en fonction de
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=fr)
 
 Utilisation de la fonction getListItem dans Adobe Journey Optimizer
 
@@ -60,7 +60,7 @@ Découvrez comment récupérer un élément d’une liste à un index spécifiqu
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=fr)
 
 Utilisation de la fonction &#39;in&#39; dans Adobe Journey Optimizer
 
@@ -70,7 +70,7 @@ Découvrez comment vérifier si une valeur existe dans une liste à l&#39;aide d
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=fr)
 
 Fonction Intersect dans Adobe Journey Optimizer
 
