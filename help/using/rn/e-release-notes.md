@@ -7,10 +7,10 @@ feature: Release Notes
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: b0901a86eaa1d9a0482caf689043a1029313f6c5
+source-git-commit: ef4488941837a7473d92633b600ea4574dc955bf
 workflow-type: tm+mt
-source-wordcount: '929'
-ht-degree: 34%
+source-wordcount: '956'
+ht-degree: 33%
 
 ---
 
@@ -219,6 +219,8 @@ Les améliorations de cette version sont présentées ci-dessous.
 * **Canal - SMS**
 
    * **Opt-out flou** - Lorsqu’elle est activée, l’option **Opt-out flou** détecte les messages entrants qui ressemblent étroitement aux mots-clés d’opt-out définis (par exemple, « CANCIL ») et envoie automatiquement une réponse de confirmation pour vérifier l’intention de désabonnement de l’utilisateur. Si l’utilisateur confirme via l’invite définie, il est désabonné.
+
+   * **Vérifier la connexion SMS** - Vous pouvez désormais facilement tester et vérifier vos informations d’identification d’API SMS dans Adobe Journey Optimizer en envoyant un exemple de message à un appareil désigné.
 
 * **Configuration**
 
