@@ -7,7 +7,7 @@ feature: SMS, Channel Configuration
 role: Admin
 level: Intermediate
 exl-id: 4dcd22ed-bf7e-4789-ab7b-33544c857db8
-source-git-commit: dc4c512ba48ab7de45ad9719eeb87056ee757dd6
+source-git-commit: c9b8ee427b2a7366a01e34f6d83439e0ea2f7653
 workflow-type: tm+mt
 source-wordcount: '411'
 ht-degree: 90%
@@ -40,7 +40,7 @@ ht-degree: 90%
 >[!CONTEXTUALHELP]
 >id="ajo_admin_fuzzy_opt_out"
 >title="Opt-out flou"
->abstract="« Lorsqu’elle est activée, la fonctionnalité d’opt-out flou détecte les messages entrants qui ressemblent beaucoup aux mots-clés d’opt-out définis (par exemple, « CANCIL ») et envoie automatiquement une réponse de confirmation pour vérifier l’intention de désabonnement de l’utilisateur. Si l’utilisateur confirme via l’invite définie, il est désabonné."
+>abstract="Lorsqu’elle est activée, la fonctionnalité d’opt-out flou détecte les messages entrants qui ressemblent beaucoup aux mots-clés d’opt-out définis (par exemple, « CANCIL ») et envoie automatiquement une réponse de confirmation pour vérifier l’intention de désabonnement de l’utilisateur. Si l’utilisateur confirme via l’invite définie, il est désabonné."
 
 Avant d’envoyer des messages SMS, MMS ou RCS, vous devez configurer votre environnement Adobe Journey Optimizer. Pour ce faire, procédez comme suit :
 
