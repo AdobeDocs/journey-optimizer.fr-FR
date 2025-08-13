@@ -9,7 +9,7 @@ exl-id: 5c866814-d79a-4a49-bfcb-7a767d802e90
 source-git-commit: b1de82a4fdba58880e21b114ec3d2b9c3c81df0c
 workflow-type: tm+mt
 source-wordcount: '1778'
-ht-degree: 98%
+ht-degree: 97%
 
 ---
 
@@ -67,7 +67,7 @@ Commencez par définir les attributs standard et personnalisés de l’élément
 
 Par défaut, tous les profils seront éligibles pour recevoir l’élément de décision; Vous pouvez toutefois utiliser des audiences ou des règles pour limiter l’élément à des profils spécifiques uniquement ; les deux solutions correspondant à différents usages. Pour plus d’informations, développez la section ci-dessous :
 
-+++Utiliser les audiences par rapport aux règles de décision
++++Utilisation des audiences par rapport aux règles de prise de décision
 
 Pour faire simple, la sortie d’une audience est une liste de profils, tandis qu’une règle de décision est une fonction exécutée à la demande sur un seul profil pendant le processus de prise de décision.
 
