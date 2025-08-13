@@ -7,7 +7,7 @@ feature: Release Notes
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 1be17ef27ca3ed7ff98d9df47cfa9066a89625f3
+source-git-commit: 7f9828c1781468155702d9f8fd475736a7656188
 workflow-type: tm+mt
 source-wordcount: '1046'
 ht-degree: 47%
@@ -216,3 +216,4 @@ Les améliorations de cette version sont présentées ci-dessous.
 
 - **Parcours**
    - **Opérations en bloc de Parcours** - Dans la liste de vos parcours, vous pouvez désormais sélectionner plusieurs éléments. Une fois sélectionné, vous pouvez suspendre ou reprendre jusqu’à 10 parcours à la fois.
+
