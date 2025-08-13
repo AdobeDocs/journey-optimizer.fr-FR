@@ -7,9 +7,9 @@ feature: Release Notes
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: b62f0325b8d7aa1e213a5c6273d0634a0e005a6e
+source-git-commit: da1562edb6ba8e98210c5c6add4fa16ca025d9f7
 workflow-type: tm+mt
-source-wordcount: '1010'
+source-wordcount: '1020'
 ht-degree: 32%
 
 ---
@@ -164,7 +164,12 @@ Voir également les [Notes de mise à jour préliminaires d’Adobe Experience�
 <tbody>
 <tr>
 <td>
-<p>Journey Optimizer prend en charge une nouvelle activité d’action générique qui vous permet de configurer des actions uniques et des actions sortantes multicanaux, ce qui permet une configuration d’action rationalisée dans la zone de travail de parcours. Avec cette nouvelle activité, vous avez également la possibilité d’ajouter une optimisation du ciblage, des expériences et des variantes linguistiques multilingues à toute action de canal intégrée.</p>
+<p>Journey Optimizer prend en charge une nouvelle activité d’action générique qui vous permet de configurer des actions uniques et des actions sortantes multicanaux, ce qui permet une configuration d’action rationalisée dans la zone de travail de parcours. Cette nouvelle fonctionnalité permet notamment :</p>
+<ul>
+<li>Configuration d’action native simplifiée dans la zone de travail de parcours.</li>
+<li>Capacité à créer des nœuds entrants à actions multiples.</li>
+<li>Possibilité d’ajouter une optimisation à toute action de canal intégrée.</li>
+</ul>
 <p>Cette fonctionnalité est en disponibilité limitée. Contactez votre représentant ou représentante Adobe pour obtenir l’accès.</p>
 <p><!--img src="assets/do-not-localize/FILE.gif"/>--></p>
 <p><!--For more information, refer to the <a href="../FILE.md">detailed documentation</a>--></p>
