@@ -7,9 +7,9 @@ feature: Release Notes
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 7f9828c1781468155702d9f8fd475736a7656188
+source-git-commit: 7df443d5bf64f862f4adce43a34f14d13fd36733
 workflow-type: tm+mt
-source-wordcount: '1046'
+source-wordcount: '1038'
 ht-degree: 47%
 
 ---
@@ -182,7 +182,8 @@ Voir également les [Notes de mise à jour préliminaires d’Adobe Experience�
 <tr>
 <td>
 <p>Journey Optimizer vous permet désormais de créer des formulaires personnalisés et de les exploiter dans des pages de destination pour capturer des attributs de profil dans le jeu de données défini pour chaque formulaire.</p>
-<p>Cette fonctionnalité est actuellement en version Beta et disponible uniquement pour les clientes et clients Beta. Pour rejoindre le programme bêta, contactez votre représentant ou représentante Adobe.</p>
+<p>Cette fonctionnalité est en disponibilité limitée. Contactez votre représentant ou représentante Adobe pour obtenir l’accès.</p>
+<p><!--This capability is currently in beta version and only available to beta customers. To join the beta program, contact your Adobe representative.--></p>
 <p><!--img src="assets/do-not-localize/FILE.gif"/>--></p>
 <p><!--For more information, refer to the <a href="../FILE.md">detailed documentation</a>--></p>
 </td>
@@ -216,4 +217,3 @@ Les améliorations de cette version sont présentées ci-dessous.
 
 - **Parcours**
    - **Opérations en bloc de Parcours** - Dans la liste de vos parcours, vous pouvez désormais sélectionner plusieurs éléments. Une fois sélectionné, vous pouvez suspendre ou reprendre jusqu’à 10 parcours à la fois.
-
