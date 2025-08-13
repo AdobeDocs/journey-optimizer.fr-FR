@@ -7,10 +7,10 @@ feature: Release Notes
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: dc4c512ba48ab7de45ad9719eeb87056ee757dd6
+source-git-commit: b0901a86eaa1d9a0482caf689043a1029313f6c5
 workflow-type: tm+mt
-source-wordcount: '906'
-ht-degree: 35%
+source-wordcount: '929'
+ht-degree: 34%
 
 ---
 
@@ -205,6 +205,8 @@ Les améliorations de cette version sont présentées ci-dessous.
    * **Contrôle des taux dans les campagnes sortantes** - Vous pouvez désormais activer le contrôle des taux de limitation pour les campagnes sortantes (e-mail, SMS, notifications push), ce qui vous permet d’éviter la surcharge sur les systèmes en aval, tels que les pages de destination ou les plateformes d’assistance clientèle.
 
    * **Planification de la campagne par action** - Les planificateurs quotidiens, hebdomadaires et mensuels de la campagne ont été mis à jour pour une meilleure granularité. Par exemple, vous pouvez désormais définir le nombre de semaines/mois entre les planifications, définir le jour de l’exécution et décider de l’arrêter après un nombre spécifique d’occurrences ou à une date spécifique.
+
+   * **Campagnes d’action transactionnelles planifiées** - Les campagnes d’action transactionnelles planifiées sont désormais disponibles pour l’envoi de communications transactionnelles par lots, basées sur l’audience, via des canaux e-mail, SMS et push.
 
 * **Canal - Push**
 
