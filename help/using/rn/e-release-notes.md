@@ -7,10 +7,10 @@ feature: Release Notes
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: ef4488941837a7473d92633b600ea4574dc955bf
+source-git-commit: 8e0dff6082f5fec6768d1bf284936468fd19208d
 workflow-type: tm+mt
-source-wordcount: '956'
-ht-degree: 33%
+source-wordcount: '967'
+ht-degree: 32%
 
 ---
 
@@ -219,6 +219,8 @@ Les améliorations de cette version sont présentées ci-dessous.
 * **Canal - SMS**
 
    * **Opt-out flou** - Lorsqu’elle est activée, l’option **Opt-out flou** détecte les messages entrants qui ressemblent étroitement aux mots-clés d’opt-out définis (par exemple, « CANCIL ») et envoie automatiquement une réponse de confirmation pour vérifier l’intention de désabonnement de l’utilisateur. Si l’utilisateur confirme via l’invite définie, il est désabonné.
+
+     Notez que la **désinscription floue** n’est disponible qu’avec Sinch et Infobip.
 
    * **Vérifier la connexion SMS** - Vous pouvez désormais facilement tester et vérifier vos informations d’identification d’API SMS dans Adobe Journey Optimizer en envoyant un exemple de message à un appareil désigné.
 
