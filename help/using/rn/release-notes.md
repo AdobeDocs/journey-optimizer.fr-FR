@@ -6,9 +6,9 @@ feature: Release Notes
 topic: Content Management
 description: Notes de mise à jour d’Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 74e91c6a491b95f8e3c804b74dcef0b1757c5edf
+source-git-commit: 2afc9c4eb2a0433a22f1b369824086db2f5618ec
 workflow-type: tm+mt
-source-wordcount: '1773'
+source-wordcount: '1776'
 ht-degree: 44%
 
 ---
@@ -180,7 +180,7 @@ Les nouvelles fonctionnalités de cette version sont présentées ci-dessous.
 <li>Possibilité d’ajouter des options d’expérimentation et multilingues à n’importe quelle action.</li>
 </ul>
 <p>Cette fonctionnalité est en disponibilité limitée. Contactez votre représentant ou représentante Adobe pour obtenir l’accès.</p>
-<p><!--img src="assets/do-not-localize/FILE.gif"/>--></p>
+<p><!--img src="assets/do-not-localize/pdf-attachments.gif"/>--></p>
 <p><!--For more information, refer to the <a href="../FILE.md">detailed documentation</a>--></p>
 </td>
 </tr>
@@ -196,9 +196,9 @@ Les nouvelles fonctionnalités de cette version sont présentées ci-dessous.
 <tbody>
 <tr>
 <td>
-<p>Vous pouvez désormais joindre des fichiers PDF statiques aux e-mails envoyés avec Journey Optimizer.</p>
+<p>Vous pouvez désormais joindre un fichier PDF statique à un e-mail envoyé avec Journey Optimizer.</p>
 <ul>
-<li>Vous pouvez ajouter jusqu’à 6 messages avec des pièces jointes PDF par profil et par an.</li>
+<li>Vous pouvez envoyer jusqu'à 6 messages avec une pièce jointe PDF par profil et par an.</li>
 <li>La taille de fichier maximale autorisée pour chaque pièce jointe est de 5 Mo.</li>
 <li>Pour toute taille ou volume supplémentaire, vous pouvez acheter un module complémentaire de pack de pièces jointes. Pour plus d’informations, contactez votre représentant Adobe.</li>
 </ul>
