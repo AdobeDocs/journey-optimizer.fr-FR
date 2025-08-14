@@ -6,9 +6,9 @@ feature: Release Notes
 topic: Content Management
 description: Notes de mise à jour d’Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: bc542a5ecd3e27a335fc60c0e060dc72c215757c
+source-git-commit: 74e91c6a491b95f8e3c804b74dcef0b1757c5edf
 workflow-type: tm+mt
-source-wordcount: '1781'
+source-wordcount: '1773'
 ht-degree: 44%
 
 ---
@@ -112,12 +112,13 @@ Les nouvelles fonctionnalités de cette version sont présentées ci-dessous.
 <tr>
 <td>
 <p>Tirez parti des données de [!DNL Adobe Experience Platform] dans l’éditeur de personnalisation pour personnaliser votre contenu et vos attributs de décision. Cela vous permet en particulier d’étendre la définition de vos attributs à des données supplémentaires dans les jeux de données pour les mises à jour en bloc qui changent périodiquement sans avoir à mettre à jour manuellement les attributs un par un.</p>
-<p>Publiée précédemment en disponibilité limitée, cette fonctionnalité est désormais disponible dans tous les environnements. Les améliorations suivantes ont été apportées à cette version à disponibilité générale :</p>
+<p>Les améliorations suivantes ont été apportées à cette version :</p>
 <ul>
 <li>Prise en charge des canaux entrants,</li>
 <li>La fonction d’assistance « datasetLookup » peut désormais être utilisée dans les fragments d’expression et visuels pour personnaliser le contenu à l’aide des données des jeux de données Adobe Experience Platform.</li>
 <li>Une option du jeu de données vous permet désormais d’activer les jeux de données pour la personnalisation de la recherche, sans avoir à effectuer d’appel API.</li>
 </ul>
+<p>Cette fonctionnalité est en disponibilité limitée. Contactez votre représentant ou représentante Adobe pour obtenir l’accès.</p>
 <p><!--img src="assets/do-not-localize/FILE.gif"/>--></p>
 <p><!--For more information, refer to the <a href="../FILE.md">detailed documentation</a>--></p>
 </td>
@@ -262,7 +263,7 @@ Les améliorations de cette version sont présentées ci-dessous.
 
 * **Administration**
 
-   * **Alertes de surveillance de la configuration des canaux** - Vous pouvez désormais vous abonner pour recevoir des alertes système, par e-mail ou dans le centre de notifications Journey Optimizer, au cas où un échec de configuration du canal se produirait ou si un enregistrement DNS serait manquant.
+   * **Alertes de surveillance de la configuration des canaux** - Vous pouvez désormais vous abonner pour recevoir des alertes système, par e-mail ou dans le centre de notifications Journey Optimizer, au cas où <!--a channel configuration failure happens or if -->un enregistrement DNS est manquant.
 
 * **Campagnes**
 
