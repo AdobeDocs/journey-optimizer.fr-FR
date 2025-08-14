@@ -5,10 +5,10 @@ user-guide-title: Guide de Journey Optimizer
 user-guide-description: Utilisez Journey Optimizer pour créer et proposer aux clients des expériences connectées, contextuelles et personnalisées
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 804dfd79ac48b0030213e9a3ba944146a4fe8c15
+source-git-commit: 9e76bfb65865ec7814493ad6e08834d367a9417a
 workflow-type: tm+mt
-source-wordcount: '2878'
-ht-degree: 99%
+source-wordcount: '2881'
+ht-degree: 98%
 
 ---
 
@@ -890,6 +890,7 @@ ht-degree: 99%
       + [Liste autorisée](using/configuration/allow-list.md)
    + [Utiliser des listes de contrôle](using/configuration/seed-lists.md)
    + [Prise en charge de l’archivage](using/configuration/archiving-support.md)
+   + [Exporter le contenu du message](using/configuration/message-export.md)
    + [Modifier les adresses d’exécution](using/configuration/primary-email-addresses.md)
    + [Configurer des règles métier](using/configuration/frequency-rules.md)
 + Configuration de parcours {#configure-journeys}
