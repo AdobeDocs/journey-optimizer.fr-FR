@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Notes de mise à jour d’Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: e8edafaff94ae9498f3d0eb3d696b38cd25e4c0a
+source-git-commit: c50553f5a591ae1f462f8162313999424bec533c
 workflow-type: tm+mt
-source-wordcount: '1662'
-ht-degree: 48%
+source-wordcount: '1715'
+ht-degree: 46%
 
 ---
 
@@ -244,7 +244,13 @@ Les améliorations de cette version sont présentées ci-dessous.
 
    * **Contrôle des taux dans les campagnes sortantes** - Vous pouvez désormais activer le contrôle des taux de limitation pour les campagnes sortantes (e-mail, SMS, notifications push), ce qui vous permet d’éviter la surcharge sur les systèmes en aval, tels que les pages de destination ou les plateformes d’assistance clientèle.
 
-   * **Planification de la campagne par action** - Les planificateurs quotidiens, hebdomadaires et mensuels de la campagne ont été mis à jour pour une meilleure granularité. Par exemple, vous pouvez désormais définir le nombre de semaines/mois entre les planifications, définir le jour de l’exécution et décider de l’arrêter après un nombre spécifique d’occurrences ou à une date spécifique.
+   * **Planification de campagne d’action** - Les planificateurs de campagne quotidiens, hebdomadaires et mensuels ont été mis à jour afin de fournir un contrôle plus détaillé des planifications récurrentes :
+
+      * **Périodicité hebdomadaire** : vous pouvez désormais choisir de répéter la campagne toutes les semaines ou toutes les deux semaines, et sélectionner le ou les jours de la semaine où elle doit s’exécuter.
+
+      * **Récurrence mensuelle** : vous pouvez désormais choisir de répéter la campagne tous les mois ou tous les deux mois, puis sélectionner le jour du mois où elle doit s’exécuter.
+
+      * **Plannings quotidiens, hebdomadaires ou mensuels** : vous pouvez indiquer si la planification récurrente doit s&#39;arrêter à une date spécifique ou après un certain nombre d&#39;occurrences.
 
    * **Campagnes d’action transactionnelles planifiées** - Les campagnes d’action transactionnelles planifiées sont désormais disponibles pour l’envoi de communications transactionnelles par lots, basées sur l’audience, via des canaux e-mail, SMS et push.
 
