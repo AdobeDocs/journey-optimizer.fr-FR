@@ -7,10 +7,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 3e777cc5-a935-4e68-9de7-60b241e78f63
-source-git-commit: 863d7c1d324e4f36afdb9673910c30b08182552f
-workflow-type: ht
+source-git-commit: 1b4ab451ed9e2315ffe4850c6ab4b8ad20223ac3
+workflow-type: tm+mt
 source-wordcount: '1074'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -86,7 +86,7 @@ Par exemple, à l’aide de la fonctionnalité d’expérimentation, vous pouvez
 
 >[!AVAILABILITY]
 >
->La **personnalisation de la superposition de texte** est uniquement disponible dans Dynamic Media en [mode Scene7](https://experienceleague.adobe.com/fr/docs/experience-manager-65/content/assets/dynamic/config-dms7){target="_blank"}. Comme le mode Scene7 n’est pas accessible pour les clientes et clients du secteur de la santé, le contenu est rendu à l’aide d’une copie binaire de l’image Journey Optimizer. Pour toute exception, veuillez contacter votre représentant ou représentante Adobe.
+>La **personnalisation de la superposition de texte** est uniquement disponible dans Dynamic Media en [mode Scene7](https://experienceleague.adobe.com/fr/docs/experience-manager-65/content/assets/dynamic/config-dms7){target="_blank"}. Comme le mode Scene7 n’est pas accessible pour les clientes et clients du secteur de la santé, le contenu est rendu à l’aide d’une copie binaire de l’image Journey Optimizer. Pour toute exception, contactez votre représentant Adobe.
 
 Pour personnaliser votre superposition de texte, procédez comme suit :
 
@@ -256,5 +256,5 @@ Découvrez comment intégrer Adobe Experience Manager Dynamic Media à Adobe
 
 Ce tutoriel explique comment modifier des images directement dans AJO, ajouter des superpositions de texte à l’aide du mode HTML, créer des modèles Dynamic Media dans AEM à des fins d’hyper-personnalisation et personnaliser des campagnes en adaptant le contenu à différents segments d’audience. Cette intégration permet aux spécialistes du marketing de créer efficacement des campagnes attrayantes et personnalisées sans passer d’une application à l’autre.
 
->[!VIDEO](https://video.tv.adobe.com/v/3463784/?learn=on&enablevpops=&autoplay=true&captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/3457695/?learn=on&enablevpops=&autoplay=true)
 
