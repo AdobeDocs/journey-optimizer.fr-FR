@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: aa8c74de-748b-4947-a972-14703f6ab4a7
-source-git-commit: 4d7ad2c3ed71801298f1afe31d0e29d7bb1d5c7f
+source-git-commit: 75c3db704853b8d2d8920ddd0086681d1fb02a93
 workflow-type: tm+mt
-source-wordcount: '4203'
+source-wordcount: '5119'
 ht-degree: 100%
 
 ---
@@ -18,6 +18,171 @@ ht-degree: 100%
 # Notes de mise à jour de 2025 {#release-notes-2025}
 
 Cette page répertorie toutes les fonctionnalités et améliorations pour [!DNL Journey Optimizer] publiées en 2025.
+
+## Notes de mise à jour de juillet 2025 {#25-7-rn}
+
+**Date de publication** : 29 juillet 2025
+
+### Nouvelles fonctionnalités {#features-25-7}
+
+Les nouvelles fonctionnalités de cette version sont présentées ci-dessous.
+
+#### Fonctionnalités
+
+<table>
+<thead>
+<tr>
+<th><strong>Marques</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Vous pouvez désormais créer et personnaliser vos propres marques pour définir clairement votre identité visuelle et verbale dans les communications. Grâce au score d’alignement de la marque, vous pouvez recevoir des commentaires en temps réel sur la cohérence de votre contenu avec le ton, le style et les directives de votre marque, ce qui vous permet de vous assurer que chaque message envoyé soit constamment en phase avec la marque.</p>
+<p>Publiée précédemment en version Beta, cette fonctionnalité est désormais disponible dans tous les environnements (disponibilité générale).</p>
+<p><img src="assets/do-not-localize/brand-score.gif"/></p>
+<p>Pour plus d’informations, consultez la <a href="../content-management/brands.md">documentation détaillée</a>.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Utiliser la prise de décision dans le canal e-mail</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Vous pouvez désormais ajouter des politiques de décision dans des parcours et des campagnes par e-mail. Les politiques de décision sont des conteneurs pour vos offres qui tirent profit du moteur de prise de décision afin d’effectuer un rendu dynamique du meilleur contenu à diffuser, pour chaque membre de l’audience.</p>
+<p>Cette fonctionnalité est en disponibilité limitée. Contactez votre représentant ou représentante Adobe pour obtenir l’accès.</p>
+Pour plus d’informations, consultez la <a href="../experience-decisioning/create-decision.md">documentation détaillée</a>.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Canal LINE</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Adobe Journey Optimizer a étendu ses fonctionnalités cross-canal afin d’inclure la prise en charge du canal LINE. Cette amélioration vous permet de créer, de modifier et de prévisualiser des expériences LINE offrant des interactions davantage personnalisées et plus attrayantes. Avec LINE, vous pouvez entrer en contact avec davantage de clientes et clients, envoyer du contenu pertinent et améliorer votre engagement.</p>
+<p>Auparavant disponible uniquement sur demande, le canal LINE est désormais disponible pour tous les utilisateurs et utilisatrices (disponibilité générale).</p>
+<p>Pour plus d’informations, consultez la <a href="../../rp_landing_pages/line-landing-page.md">documentation détaillée</a>.</p></td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Test à blanc du parcours</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>L’essai de parcours est un mode de publication de parcours spécial dans Adobe Journey Optimizer qui permet aux concepteurs et conceptrices de tester un parcours à l’aide de données de production réelles sans contacter les clients et clientes ni modifier les informations de profil. Cette fonctionnalité permet aux concepteurs et conceptrices du parcours de valider leur conception et leur ciblage d’audience avant de publier le parcours.</p>
+<img src="assets/do-not-localize/DryRun.gif">
+<p>Publiée précédemment en disponibilité limitée, cette fonctionnalité est désormais disponible dans tous les environnements (disponibilité générale).</p>
+<p>Pour plus d’informations, consultez la <a href="../building-journeys/journey-dry-run.md">documentation détaillée</a>.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+
+<table>
+<thead>
+<tr>
+<th><strong>ID supplémentaire pour les parcours</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Vous pouvez désormais déclencher des parcours à l’aide d’un identifiant de profil ainsi que d’un autre identifiant, tel qu’un identifiant de commande, d’abonnement ou de prescription, ce qui permet au même profil de se trouver plusieurs fois dans le même parcours à la fois. Cela permet des scénarios tels que la gestion de plusieurs commandes ou abonnements en parallèle, chaque instance suivant son propre chemin d’accès dans le parcours.</p>
+<p>Publiée précédemment en disponibilité limitée, l’utilisation d’ID supplémentaires dans les parcours est désormais disponible pour tous les environnements. Avec cette version en disponibilité générale, la fonctionnalité prend désormais en charge les parcours Lecture d’audience.</p>
+<p><img src="assets/do-not-localize/gif-supplemental.gif"/></p>
+<p>Pour plus d’informations, consultez la <a href="../building-journeys/supplemental-identifier.md">documentation détaillée</a>.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+### Alertes intégrées au produit
+
+Vous pouvez désormais vous abonner à des **alertes par e-mail et intégrées aux produits** pour connaître les mises à jour des produits Journey Optimizer.
+
+Pour vous abonner :
+
+* Accédez aux **préférences d’Adobe Experience Cloud**.
+* Sous **Notifications**, recherchez **Nouvelles versions de Journey Optimizer**.
+* Activer les notifications in-app et par e-mail
+
+![](assets/do-not-localize/pulse-notif.png){width="70%" align="left"}
+
+
+### Modification des conditions du parcours {#ee-change@}
+
+À compter du 8 juillet, dans les nouvelles organisations clients, la création d’expressions à l’aide d’événements d’expérience n’est plus prise en charge dans l’éditeur d’expression utilisé dans les conditions de parcours. Par conséquent, les événements d’expérience dans la [source de données Experience Platform](../datasource/adobe-experience-platform-data-source.md) ne peuvent pas être utilisés pour créer des expressions. Les autres approches et bonnes pratiques pour créer des expressions/logiques avec des événements d’expérience sont référencées [ici](../building-journeys/exp-event-lookup.md).
+
+L’accès aux données d’événement de contexte de parcours dans les parcours unitaires reste inchangé. Dans les éditeurs d’expression et de personnalisation, les utilisateurs et utilisatrices peuvent continuer à accéder aux données transmises avec l’événement de parcours initial.
+
+Pour en savoir plus, consultez [ces questions fréquentes](../building-journeys/exp-event-lookup.md#faq-ee).
+
+### Améliorations {#25-7-improv}
+
+Les améliorations de cette version sont présentées ci-dessous.
+
+* **Campagnes**
+
+   * **Plusieurs actions entrantes dans les campagnes** : pour simplifier l’orchestration de campagne, vous pouvez désormais définir plusieurs actions entrantes dans une seule campagne. Cette fonctionnalité permet de diffuser plusieurs expériences basées sur du code, messages in-app, cartes de contenu ou actions web à différents emplacements en même temps, chaque action comportant du contenu spécifique.
+     [En savoir plus](../campaigns/campaign-action.md#multi-action)
+
+   * **Réorganisation de l’inventaire des campagnes** : les campagnes planifiées et déclenchées par API sont désormais divisées en onglets distincts dans l’inventaire des campagnes pour une navigation et une gestion plus faciles.
+
+[En savoir plus](../campaigns/modify-stop-campaign.md)
+
+* **Gestion des données**
+   * **Mise à jour des jeux de données du système de gestion des décisions** : les offres personnalisées et de secours supprimées sont désormais marquées comme étant archivées dans les jeux de données « decision_object_repository_personalized_offers » et « decision_object_repository_fallback_offers ». Les enregistrements existants du jeu de données ne sont pas modifiés.
+
+[En savoir plus](../offers/export-catalog/access-dataset.md)
+
+* **Parcours**
+   * **Améliorations des outils de sandbox de parcours** : lors de la copie de parcours dans plusieurs sandbox à l’aide des fonctionnalités d’export et d’import de package, les fonctionnalités suivantes sont désormais également disponibles :
+      * Sélectionner un événement existant au niveau de la destination
+      * Copier sur un événement indépendamment d’un parcours
+      * Détecter des relations entre les groupes de champs et les sources de données, effectuer des liaisons vers ces dernières au niveau de la destination si elles existent, les créer si elles n’existent pas.
+
+[En savoir plus](../configuration/copy-objects-to-sandbox.md)
+
+* **Canal - In-app**
+   * **Paires clé/valeur in-app** : avec les messages in-app, vous pouvez définir des paires clé/valeur pour inclure des variables personnalisées dans la payload du message. Ces paires clé-valeur vous permettent de transmettre des données supplémentaires en fonction de votre configuration et de votre cas d’utilisation spécifiques. [En savoir plus](../in-app/design-in-app.md)
+
+* **Canal - Carte de contenu**
+
+   * **Disqualification de campagne basée sur des règles** : lors de la modification de règles de diffusion supplémentaires, l’option Règles de diffusion précédente a été remplacée par trois types de règles distincts pour mieux contrôler le timing et la visibilité des messages :
+      * Afficher le message si : conditions qui déterminent le moment auquel la carte de contenu est affichée.
+      * Ignorer le message si : conditions qui masquent temporairement la carte de contenu. Elle peut réapparaître si les conditions d’affichage sont à nouveau remplies.
+      * Disqualifier le message si : conditions qui empêchent définitivement l’affichage de la carte de contenu.
+
+[En savoir plus](../content-card/design-content-card.md)
+
+* **Prise de décision**
+   * **API d’outils de migration** : l’équipe Journey Optimizer travaille actuellement sur des API d’outils de migration pour migrer les entités de gestion de décision vers la prise de décision. Ces outils permettent une migration transparente entre les sandbox avec des fonctionnalités de résolution de dépendance et de restauration. Si cela vous intéresse, contactez votre représentant ou représentante Adobe.
+
+* **Personnalisation**
+   * Une nouvelle fonction d’assistance, « SHA256 », a été ajoutée à l’éditeur de personnalisation. Cette fonction est utilisée pour calculer et renvoyer le hachage sha256 d’une chaîne.
+
+[En savoir plus](../personalization/functions/string.md#sha256)
 
 
 ## Notes de mise à jour de juin 2025 {#25-6-rn}
