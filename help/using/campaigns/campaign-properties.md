@@ -11,15 +11,15 @@ mini-toc-levels: 1
 keywords: créer, optimizer, campagne, surface, messages
 exl-id: a7b03b71-0f2c-45ca-a2f7-38ddc64913c1
 source-git-commit: 3a44111345c1627610a6b026d7b19b281c4538d3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '165'
-ht-degree: 81%
+ht-degree: 100%
 
 ---
 
-# Définir les propriétés de la campagne Action {#action-campaign-properties}
+# Définir les propriétés de la campagne d’action {#action-campaign-properties}
 
-Pour créer une campagne d’action et définir ses propriétés, procédez comme suit :
+Pour créer une campagne d’action et définir ses propriétés, procédez comme suit :
 
 1. Accédez au menu **[!UICONTROL Campagnes]** et sélectionnez l’onglet **[!UICONTROL Action]**.
 

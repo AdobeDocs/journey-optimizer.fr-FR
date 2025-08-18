@@ -10,15 +10,15 @@ level: Experienced
 keywords: campagnes, déclenchement par API, REST, optimizer, messages
 exl-id: 561f1215-d13d-4ffc-b6f1-396ae67774c8
 source-git-commit: 3a44111345c1627610a6b026d7b19b281c4538d3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '286'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
 # Vérifier et activer la campagne déclenchée par API {#api-review}
 
-Une fois votre campagne d’action configurée, vous devez passer en revue son paramètre et son contenu avant de l’activer. Pour ce faire, procédez comme suit :
+Une fois votre campagne configurée, vous devez vérifier ses paramètres et son contenu avant de l’activer. Pour ce faire, procédez comme suit :
 
 >[!IMPORTANT]
 >

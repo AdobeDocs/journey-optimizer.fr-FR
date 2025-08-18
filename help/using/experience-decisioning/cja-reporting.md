@@ -7,18 +7,18 @@ role: User
 level: Experienced
 exl-id: 7c45cd8a-8e86-4646-ba0a-db393e92d9da
 source-git-commit: 29532b5ebd140f9609a29c1375ceedecf55d0dfb
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '227'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
 
 # Rapports sur la prise de décision {#decisioning-report}
 
-## Rapports de prise de décisions {#campaigns}
+## Rapports de prise de décision {#campaigns}
 
-Une fois que les expériences basées sur le code ou les e-mails avec des stratégies de sélection sont en ligne, vous pouvez accéder à des rapports dédiés pour surveiller les indicateurs de performance clés (KPI) de prise de décision.
+Une fois que les expériences basées sur du code ou les e-mails utilisant des stratégies de sélection sont actifs, vous pouvez accéder à des rapports dédiés pour suivre les indicateurs clés de performance de prise de décision (KPI).
 
 <!--Once code-based experiences are live, you can access dedicated reports to monitor Key Performance Indicators (KPIs) as an all-encompassing dashboard, delivering an analysis of essential metrics associated with your campaign.
 

@@ -10,9 +10,9 @@ level: Experienced
 keywords: sous-domaine, optimizer, délégation
 exl-id: 1b5ca4db-44d9-49e2-ab39-a1abba223ec7
 source-git-commit: 7854de133ebcd3b29ca59b747aa89fae242f2ea5
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '859'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
@@ -54,9 +54,9 @@ Bien que ces exigences soient gérées au moyen de composants hébergés à la f
 
 ## Méthodes de configuration de sous-domaine {#subdomain-delegation-methods}
 
-La configuration de sous-domaine vous permet de configurer une sous-section de votre domaine (techniquement, une « zone DNS ») à utiliser avec Adobe Campaign.
+La configuration de sous-domaine vous permet de configurer une sous-section de votre domaine (techniquement, une « zone DNS ») à utiliser avec Adobe Campaign.
 
-Les méthodes de configuration disponibles sont les suivantes.
+Les méthodes de configuration disponibles sont les suivantes :
 
 ### Déléguer entièrement un sous-domaine à Adobe (recommandé) {#full-subdomain-delegation}
 

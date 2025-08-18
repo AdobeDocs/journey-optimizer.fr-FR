@@ -10,9 +10,9 @@ level: Experienced
 keywords: sandbox, parcours, copier, environnement
 exl-id: 356d56a5-9a90-4eba-9875-c7ba96967da9
 source-git-commit: f8134fd1e030fb969747a37acd657f62fd398c75
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1701'
-ht-degree: 75%
+ht-degree: 100%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 75%
 
 Vous pouvez copier des objets tels que des parcours, des actions personnalisées, des modèles de contenu ou des fragments dans plusieurs sandbox en utilisant les fonctionnalités d’export et d’import de packages. Un package peut se composer d’un ou de plusieurs objets. Tous les objets inclus dans un package doivent provenir du même sandbox.
 
-Cette page décrit le cas d’utilisation de l’outil Sandbox dans le contexte de Journey Optimizer. Pour plus d’informations sur la fonctionnalité elle-même, reportez-vous au [guide d’utilisation des sandbox](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/sandbox-tooling.html?lang=fr#abobe-journey-optimizer-objects){target="_blank"} de Adobe Experience Platform.
+Cette page décrit le cas d’utilisation de l’outil Sandbox dans le contexte de Journey Optimizer. Pour plus d’informations sur la fonctionnalité elle-même, reportez-vous au [guide des outils Sandbox](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/sandbox-tooling.html?lang=fr#abobe-journey-optimizer-objects){target="_blank"} d’Adobe Experience Platform.
 
 >[!NOTE]
 >
@@ -28,13 +28,13 @@ Cette page décrit le cas d’utilisation de l’outil Sandbox dans le contexte 
 
 Le processus de copie est réalisé via un export de package et un import entre les sandbox source et cible. Les étapes générales pour copier un parcours d’un sandbox vers un autre sont les suivantes :
 
-1. [Ajoutez l’objet à exporter en tant que package dans le sandbox source](#export)
+1. [Ajouter l’objet à exporter en tant que package dans le sandbox source](#export)
 1. [Publier le package](#publish)
-1. [Importer le package vers le sandbox cible](#import)
+1. [Importer le package dans le sandbox cible](#import)
 
 ## Objets exportés et bonnes pratiques {#objects}
 
-Journey Optimizer permet d’exporter des parcours, des actions personnalisées, des modèles de contenu, des fragments et d’autres objets vers un autre sandbox. Les sections suivantes fournissent des informations et des bonnes pratiques pour chaque type d’objet.
+Journey Optimizer permet d’exporter des parcours, des actions personnalisées, des modèles de contenu, des fragments et d’autres objets vers un autre sandbox. Les sections suivantes fournissent des informations et des bonnes pratiques pour chaque type d’objet.
 
 ### Bonnes pratiques générales {#global}
 
@@ -46,13 +46,13 @@ Journey Optimizer permet d’exporter des parcours, des actions personnalisées,
 
 +++ Parcours
 
-* **Dépendances copiées** - Lors de l’exportation d’un parcours, Journey Optimizer copie, en plus du parcours lui-même, la plupart des objets dont dépend le parcours : audiences, actions personnalisées, schémas, événements et actions. Pour plus d’informations sur les objets copiés, reportez-vous au guide Adobe Experience Platform [Guide des outils de sandbox](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/sandbox-tooling.html?lang=fr#abobe-journey-optimizer-objects){target="_blank"}.
+* **Dépendances copiées** : lors de l’export d’un parcours, en plus du parcours lui-même, Journey Optimizer copie également la plupart des objets dont dépend le parcours : audiences, actions personnalisées, schémas, événements et actions. Pour plus d’informations sur les objets copiés, reportez-vous au [guide des outils Sandbox](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/sandbox-tooling.html?lang=fr#abobe-journey-optimizer-objects){target="_blank"} d’Adobe Experience Platform.
 
-* **Validation manuelle recommandée** - Nous ne garantissons pas que tous les éléments liés sont copiés dans le sandbox de destination. Nous vous recommandons vivement de vérifier la viabilité du parcours, avant sa publication par exemple. Vous pourrez ainsi identifier tout objet potentiellement manquant.
+* **Validation manuelle recommandée** : certains éléments associés peuvent ne pas être copiés dans le sandbox de destination. Nous vous recommandons vivement de vérifier la viabilité du parcours, avant sa publication par exemple. Vous pourrez ainsi identifier tout objet potentiellement manquant.
 
-* **Mode Brouillon et unicité** - Les objets copiés dans le sandbox cible sont uniques et il n’y a aucun risque de remplacer des éléments existants. Le parcours et tous les messages qu’il contient sont transférés en mode brouillon. Vous pouvez ainsi effectuer une validation approfondie du parcours avant sa publication sur le sandbox cible.
+* **Mode brouillon et unicité** : les objets copiés dans le sandbox cible sont uniques et il n’y a aucun risque de remplacer des éléments existants. Le parcours et tous les messages qu’il contient sont transférés en mode brouillon. Vous pouvez ainsi effectuer une validation approfondie du parcours avant sa publication sur le sandbox cible.
 
-* **Métadonnées** - Le processus de copie ne copie que les métadonnées relatives au parcours et aux objets de ce Parcours. Aucune donnée de profil ou de jeu de données n’est copiée dans le cadre de ce processus.
+* **Métadonnées** : le processus de copie ne copie que les métadonnées et les objets de ce parcours. Aucune donnée de profil ou de jeu de données n’est copiée dans le cadre de ce processus.
 
 * **Actions personnalisées**
 
@@ -62,7 +62,7 @@ Journey Optimizer permet d’exporter des parcours, des actions personnalisées,
 
    * Lors de la copie d’un parcours dans un autre sandbox, si vous sélectionnez « Utiliser existant » pour une action personnalisée au cours du processus d’import, l’action personnalisée existante que vous sélectionnez doit être identique à l’action personnalisée source (c’est-à-dire la même configuration, les mêmes paramètres, etc.). Dans le cas contraire, la nouvelle copie de parcours contiendra des erreurs qui ne pourront pas être résolues dans la zone de travail.
 
-* **Sources de données, groupes de champs et événements** - Lors de la copie d’un parcours qui utilise des événements, des sources de données ou des groupes de champs, le processus d’importation vérifie automatiquement si des composants portant le même nom et du même type existent déjà dans le sandbox cible. Par exemple, un événement unitaire sera remplacé par un événement unitaire dans le sandbox cible portant le même nom. Il en va de même pour les événements métier, les sources de données personnalisées et les groupes de champs basés sur des API et des schémas utilisés dans les parcours. Si un événement unitaire provenant du sandbox source porte le même nom qu’un sandbox de destination d’événement métier, il n’est ni copié ni créé - Cela s’applique également à tous les autres composants.
+* **Sources de données, groupes de champs et événements** : lors de la copie d’un parcours qui utilise des événements, des sources de données ou des groupes de champs, le processus d’import vérifie automatiquement si des composants portant le même nom et du même type existent déjà dans le sandbox cible. Par exemple, un événement unitaire sera remplacé par un événement unitaire dans le sandbox cible portant le même nom. Il en va de même pour les événements métier, les sources de données personnalisées et les groupes de champs basés sur des API et des schémas utilisés dans les parcours. Si un événement unitaire provenant du sandbox source porte le même nom qu’un sandbox de destination d’événement métier, il n’est ni copié ni créé. Cela s’applique également à tous les autres composants.
 
 +++
 
@@ -93,19 +93,19 @@ Lors de la copie de campagnes, assurez-vous que les objets répertoriés ci-dess
 
 * La copie de sandbox pour les formules de classement avec des modèles d’IA n’est actuellement pas prise en charge.
 
-* Lors de la copie d’une campagne, les éléments de décision (éléments d’offre) ne sont pas automatiquement copiés. Veillez à les copier individuellement à l&#39;aide de l&#39;option « Ajouter au package ».
+* Lors de la copie d’une campagne, les éléments de décision (éléments d’offre) ne sont pas automatiquement copiés. Veillez à les copier individuellement à l’aide de l’option « Ajouter au package ».
 
-* Si une politique de décision comporte une stratégie de sélection, les éléments de décision doivent être ajoutés séparément. S’il comporte des éléments de décision manuels/de secours, ils sont automatiquement ajoutés en tant que dépendances directes.
+* Si une politique de décision comporte une stratégie de sélection, les éléments de décision doivent être ajoutés séparément. Si elle comporte des éléments de décision manuels/de secours, ils sont automatiquement ajoutés en tant que dépendances directes.
 
 * Lors de la copie d’entités de prise de décisions, veillez à copier les éléments de décision **avant** tout autre objet. Par exemple, si vous copiez une collection en premier et qu’il n’existe aucune offre dans le nouveau sandbox, cette nouvelle collection reste vide.
 
-* Lors de la copie d’entités avec des dépendances (par exemple, un schéma, des segments), cliquez sur « Créer » en regard de l’entité pour la désélectionner et afficher l’option « Utiliser existant » pour les artefacts dépendants. D’autres dépendances peuvent nécessiter de répéter cette étape plus bas dans la hiérarchie.
+* Lors de la copie d’entités avec des dépendances (un schéma, des segments, par exemple), cliquez sur « Créer » en regard de l’entité pour la désélectionner et afficher l’option « Utiliser celui existant » pour les artefacts dépendants. D’autres dépendances peuvent nécessiter de répéter cette étape plus bas dans la hiérarchie.
 
-  Exemple : lors de l’import d’une campagne, pour réutiliser un schéma de train de données dans une règle, cliquez sur « Créer » par rapport à DECISIONING_STRATEGY, puis de nouveau sur DECISIONING_RULES, afin d’afficher l’option « Utiliser existant » pour le schéma de train de données.
+  Exemple : lors de l’import d’une campagne, pour réutiliser un schéma de train de données dans une règle, cliquez sur « Créer » pour DECISIONING_STRATEGY, puis de nouveau sur DECISIONING_RULES, afin d’afficher l’option « Utiliser celui existant » pour le schéma de train de données.
 
-* Pour les entités qui dépendent d’un schéma contextuel de flux de données, assurez-vous que le flux de données est créé au préalable et sélectionnez un schéma existant pour ce flux de données.
+* Pour les entités qui dépendent d’un schéma contextuel de train de données, vérifiez que le train de données est créé au préalable et sélectionnez un schéma existant pour celui-ci.
 
-* Si vous cliquez directement sur « Terminer » lors de l&#39;import, toutes les dépendances seront à nouveau créées.
+* Si vous cliquez directement sur « Terminer » lors de l’import, toutes les dépendances sont recréées.
 
 +++
 
@@ -160,7 +160,7 @@ Une fois votre package prêt à être exporté, procédez comme suit pour le pub
 
    ![](assets/journey-sandbox9.png)
 
-## Importer le package vers le sandbox cible {#import}
+## Importer le package dans le sandbox cible {#import}
 
 Une fois le package publié, vous devez l’importer vers le sandbox cible. Procédez comme suit :
 

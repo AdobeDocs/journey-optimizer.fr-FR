@@ -10,9 +10,9 @@ level: Intermediate
 keywords: activité, parcours, lecture, audience, platform
 exl-id: 7b27d42e-3bfe-45ab-8a37-c55b231052ee
 source-git-commit: 4dfa87c56f088cee51fd8b95e4e75da0dac7c456
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2333'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -87,13 +87,13 @@ Les étapes de configuration de l’activité Lecture d’audience sont les suiv
 
 * Les audiences [importées d’un fichier CSV](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=fr#import-audience) ou résultant de [workflows de composition](../audience/get-started-audience-orchestration.md) peuvent être sélectionnées dans l’activité **Lecture d’audience**. Ces audiences ne sont pas disponibles dans l’activité **Qualification de l’audience**.
 
-* Limite de lecture d’audience simultanée par organisation : chaque organisation peut exécuter jusqu’à cinq instances de lecture d’audience simultanées. Cela inclut les exécutions planifiées et celles déclenchées par des événements métier, sur tous les sandbox et parcours. Cette limite est appliquée afin d’assurer une répartition juste et équilibrée des ressources entre toutes les organisations.
+* Limite de lecture d’audience simultanée par organisation : chaque organisation peut exécuter jusqu’à cinq instances de lecture d’audience simultanées. Cela comprend les exécutions planifiées et celles déclenchées par des événements métier, sur tous les sandbox et parcours. Cette limite est appliquée afin d’assurer une répartition juste et équilibrée des ressources entre toutes les organisations.
 
-* Gestion du débit des sandbox : le système gère dynamiquement le débit de traitement par sandbox avec une limite maximale de 20 000 profils par seconde partagés sur toutes les activités Lecture d’audience. Les activités Individuelles Lecture d’audience peuvent être configurées avec un taux minimal de 500 profils par seconde. Les tâches peuvent être mises en file d’attente si les limites de débit au niveau du sandbox sont atteintes afin d’assurer une allocation équitable des ressources.
+* Gestion du débit des sandbox : le système gère dynamiquement le débit de traitement par sandbox avec une limite maximale de 20 000 profils par seconde partagés sur toutes les activités Lecture d’audience. Les activités individuelles Lecture d’audience peuvent être configurées avec un taux minimal de 500 profils par seconde. Les tâches peuvent être mises en file d’attente si les limites de débit au niveau du sandbox sont atteintes afin d’assurer une attribution équitable des ressources.
 
-* Délai de traitement des tâches : les tâches d’audience de lecture qui ne peuvent pas être traitées dans les 12 heures en raison des limites du mécanisme de sécurisation seront automatiquement nettoyées et ne s’exécuteront jamais. Cela empêche l&#39;accumulation d&#39;emplois et assure la stabilité du système.
+* Délai de traitement des tâches : les tâches de lecture d’audience qui ne peuvent pas être traitées dans les 12 heures en raison des limites du mécanisme de sécurisation seront automatiquement nettoyées et ne s’exécuteront jamais. Cela empêche l’accumulation des tâches et assure la stabilité du système.
 
-Les mécanismes de sécurisation liés à l’activité **Lecture d’audience** sont répertoriées sur [cette page](../start/guardrails.md#read-segment-g).
+Les mécanismes de sécurisation liés à l’activité **Lecture d’audience** sont répertoriées dans [cette page](../start/guardrails.md#read-segment-g).
 
 
 >[!CAUTION]
@@ -298,4 +298,4 @@ Les déclencheurs **Lecture d’audience** échoués sont capturés et affichés
 
 Comprenez les cas d’utilisation applicables pour un parcours déclenché par l’activité de lecture d’audience. Découvrez comment créer des parcours basés sur des lots et les bonnes pratiques à appliquer.
 
->[!VIDEO](https://video.tv.adobe.com/v/3430370?quality=12&captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/3424997?quality=12)

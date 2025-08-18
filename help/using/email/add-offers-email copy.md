@@ -10,9 +10,9 @@ level: Intermediate
 keywords: offres, décision, e-mails, personnalisation, décision
 exl-id: 1e648eca-b5ca-4767-b45d-c179243e347f
 source-git-commit: 29532b5ebd140f9609a29c1375ceedecf55d0dfb
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '621'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -29,7 +29,7 @@ Par exemple, vous pouvez ajouter une décision qui affichera dans votre e-mail u
 * Pour plus d’informations sur la façon de créer et gérer des offres, reportez-vous à [cette section](../offers/get-started/starting-offer-decisioning.md).
 * Pour obtenir un **exemple complet** montrant comment configurer des offres, les utiliser dans une décision et exploiter cette décision dans un e-mail, consultez [cette section](../offers/offers-e2e.md#insert-decision-in-email).
 
-➡️ [Découvrez comment ajouter des offres en tant que personnalisation dans cette vidéo](#video-offers)
+➡️ [Découvrez comment ajouter des offres en tant que personnalisation dans cette vidéo](#video-offers).
 
 ## Insertion d’une décision dans un e-mail {#insert-offers}
 
@@ -103,4 +103,4 @@ En savoir plus sur les étapes détaillées permettant de vérifier l’aperçu 
 
 Découvrez comment ajouter un composant de gestion des décisions aux messages dans [!DNL Journey Optimizer].
 
->[!VIDEO](https://video.tv.adobe.com/v/3415688?quality=12&captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/334088?quality=12)

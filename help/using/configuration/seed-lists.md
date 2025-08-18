@@ -10,9 +10,9 @@ level: Intermediate
 keywords: liste de contrôle, contrôle, configuration
 exl-id: 0172f6bc-da8b-4a83-a0fc-4ed41324568f
 source-git-commit: 1cca05a4f7590f42c1ed5104cb530930e139b2b9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '985'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -156,6 +156,6 @@ Désormais, chaque fois qu’un e-mail est envoyé à vos clientes et clients pa
 
 >[!NOTE]
 >
->[Mode test](../building-journeys/testing-the-journey.md) les parcours n’envoient pas d’e-mails à la liste de contrôle. Pour vérifier le contenu de votre e-mail, utilisez la fonctionnalité [prévisualisation et test](../content-management/preview-test.md) avant d’envoyer votre message.
+>Les parcours en [mode test](../building-journeys/testing-the-journey.md) n’envoient pas d’e-mails à la liste de contrôle. Pour vérifier le contenu de votre e-mail, utilisez la fonctionnalité [prévisualisation et test](../content-management/preview-test.md) avant d’envoyer votre message.
 >
->Pour les parcours récurrents, la diffusion par e-mail est envoyée aux adresses de contrôle à chaque exécution du parcours, à condition qu’au moins un profil atteigne le nœud d’e-mail.
+>Pour les parcours récurrents, la diffusion e-mail est envoyée aux adresses de contrôle à chaque exécution du parcours, à condition qu’au moins un profil atteigne le nœud d’e-mail.

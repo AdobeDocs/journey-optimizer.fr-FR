@@ -11,9 +11,9 @@ level: Beginner
 keywords: gérer les campagnes, statut, planification, accès, optimizer
 exl-id: 1b88c84e-9d92-4cc1-b9bf-27a2f1d29569
 source-git-commit: 3a44111345c1627610a6b026d7b19b281c4538d3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1475'
-ht-degree: 73%
+ht-degree: 100%
 
 ---
 
@@ -42,7 +42,7 @@ Les campagnes sont accessibles à partir du menu **[!UICONTROL Campagnes]**.
 
 >[!TAB Campagnes d’action]
 
-Sélectionnez l’onglet **[!UICONTROL Action]** pour accéder à la liste des campagnes d’action.
+Sélectionnez l’onglet **[!UICONTROL Action]** pour accéder à la liste de toutes les campagnes d’action.
 
 Par défaut, toutes les campagnes dont le statut est **[!UICONTROL Brouillon]**, **[!UICONTROL Planifié]** et **[!UICONTROL Actif]** sont répertoriées dans la liste. Pour afficher les campagnes arrêtées, terminées et archivées, vous devez supprimer le filtre.
 
@@ -56,32 +56,32 @@ Par défaut, toutes les campagnes dont le statut est **[!UICONTROL Brouillon]**,
 
 ![](assets/api-triggered-list.png)
 
->[!TAB Campagnes orchestrées]
+>[!TAB Campagnes orchestrées]
 
-Sélectionnez l’onglet **[!UICONTROL Orchestration]** pour accéder à la liste des campagnes orchestrées.
+Sélectionnez l’onglet **[!UICONTROL Orchestration]** pour accéder à la liste de toutes les campagnes orchestrées.
 
 ![image montrant l’inventaire des campagnes orchestrées](assets/inventory.png){zoomable="yes"}{zoomable="yes"}
 
-Chaque campagne orchestrée de la liste affiche des informations telles que le [statut](#status) actuel de la campagne, le canal et les balises associés ou la dernière fois qu’elle a été modifiée. Vous pouvez personnaliser les colonnes affichées en cliquant sur le bouton ![Configure layout button](assets/do-not-localize/inventory-configure-layout.svg).
+Chaque campagne orchestrée figurant dans la liste affiche des informations telles que le [statut](#status) actuel de la campagne, le canal et les balises associés ou la dernière fois qu’elle a été modifiée. Vous pouvez personnaliser les colonnes affichées en cliquant sur le bouton ![Configure layout button](assets/do-not-localize/inventory-configure-layout.svg).
 
 >[!ENDTABS]
 
-Une barre de recherche et des filtres sont également disponibles pour faciliter la recherche dans la liste. Par exemple, vous pouvez filtrer les campagnes pour n’afficher que celles associées à un canal ou à une balise donnée, ou celles créées au cours d’une période spécifique.
+Une barre de recherche et des filtres sont également disponibles pour faciliter la recherche dans la liste. Vous pouvez par exemple filtrer les campagnes afin de n’afficher que celles associées à un canal ou une balise en particulier ou celles créées au cours d’une période spécifique.
 
 Le bouton ![image showing the More actions button](assets/do-not-localize/rule-builder-icon-more.svg) dans l’inventaire des campagnes permet d’effectuer les différentes opérations présentées ci-dessous.
 
 ![image montrant l’inventaire des campagnes](assets/inventory-actions.png)
 
-* **[!UICONTROL Afficher le rapport à toute heure]** / **[!UICONTROL Afficher le rapport des dernières 24 heures]** - Accédez aux rapports pour mesurer et visualiser l’impact et les performances de vos campagnes.
-* **[!UICONTROL Modifier les balises]** - Modifiez les balises associées à la campagne.
-* **[!UICONTROL Dupliquer]** - Dans certains cas, vous devrez peut-être dupliquer une campagne, par exemple pour exécuter une campagne orchestrée qui a été arrêtée.
-* **[!UICONTROL Supprimer]** - Supprimez la campagne. Cette action est disponible uniquement pour les campagnes **[!UICONTROL brouillon]**.
+* **[!UICONTROL Afficher le rapport complet]**/**[!UICONTROL Afficher le rapport des dernières 24 heures]** : accédez aux rapports pour mesurer et visualiser l’impact et les performances de vos campagnes.
+* **[!UICONTROL Modifier les balises]** : modifiez les balises associées à la campagne.
+* **[!UICONTROL Dupliquer]** : dans certains cas, vous devrez peut-être dupliquer une campagne, par exemple pour exécuter une campagne orchestrée qui a été arrêtée.
+* **[!UICONTROL Supprimer]** : supprimez la campagne. Cette action est disponible uniquement pour les **[!UICONTROL brouillons]** de campagne.
 * **[!UICONTROL Archiver]** - Archivez la campagne. Toutes les campagnes archivées sont supprimées selon un nouveau planning progressif 30 jours après la date de leur dernière modification. Cette action est disponible pour toutes les campagnes, à l’exception des campagnes **[!UICONTROL brouillon]**.
 
-Pour les campagnes déclenchées par action et par API, les actions supplémentaires ci-dessous sont disponibles :
+Pour les campagnes déclenchées par une action et par une API, les actions supplémentaires ci-dessous sont disponibles :
 
-* **[!UICONTROL Ajouter au package]** - Ajoutez la campagne à un package pour l’exporter vers un autre sandbox. [Exporter des objets vers un autre sandbox](../configuration/copy-objects-to-sandbox.md)
-* **[!UICONTROL Ouvrir le brouillon]** - Si une nouvelle version de la campagne a été créée et n’a pas encore été activée, vous pouvez accéder à sa version brouillon à l’aide de cette action.
+* **[!UICONTROL Ajouter au package]** : ajoutez la campagne à un package pour l’exporter vers un autre sandbox. [Exporter des objets vers un autre sandbox](../configuration/copy-objects-to-sandbox.md)
+* **[!UICONTROL Ouvrir la version brouillon]** : si une nouvelle version de la campagne a été créée et n’a pas encore été activée, vous pouvez accéder à sa version brouillon à l’aide de cette action.
 
 ## Statuts et alertes des campagnes {#statuses}
 
@@ -91,7 +91,7 @@ Les campagnes peuvent avoir plusieurs statuts :
 
 >[!TAB Campagnes d’action]
 
-* **[!UICONTROL Brouillon]** : la campagne est en cours de modification et n’est pas active.
+* **[!UICONTROL Brouillon]** : la campagne est en cours de modification, elle n’a pas été activée.
 * **[!UICONTROL Planifié]** : la campagne a été configurée pour être activée à une date de début spécifique.
 * **[!UICONTROL Actif]** : la campagne est active.
 * **[!UICONTROL En cours de vérification]** : la campagne a été soumise pour approbation afin d’être publiée. [Découvrir comment utiliser les approbations](../test-approve/gs-approval.md)
@@ -102,11 +102,11 @@ Les campagnes peuvent avoir plusieurs statuts :
 
 >[!NOTE]
 >
->L’icône « Ouvrir le brouillon » en regard d’un statut **[!UICONTROL Actif]** ou **[!UICONTROL Planifié]** indique qu’une nouvelle version d’une campagne déclenchée par une action ou une API a été créée et n’a pas encore été activée.
+>L’icône « Ouvrir la version brouillon » en regard d’un statut **[!UICONTROL Actif]** ou **[!UICONTROL Planifié]** indique qu’une nouvelle version de la campagne déclenchée par une action ou une API a été créée et n’a pas encore été activée.
 
 >[!TAB Campagnes déclenchées par API]
 
-* **[!UICONTROL Brouillon]** : la campagne est en cours de modification et n’est pas active.
+* **[!UICONTROL Brouillon]** : la campagne est en cours de modification, elle n’a pas été activée.
 * **[!UICONTROL Planifié]** : la campagne a été configurée pour être activée à une date de début spécifique.
 * **[!UICONTROL Actif]** : la campagne est active.
 * **[!UICONTROL En cours de vérification]** : la campagne a été soumise pour approbation afin d’être publiée. [Découvrir comment utiliser les approbations](../test-approve/gs-approval.md)
@@ -117,18 +117,18 @@ Les campagnes peuvent avoir plusieurs statuts :
 
 >[!NOTE]
 >
->L’icône « Ouvrir le brouillon » en regard d’un statut **[!UICONTROL Actif]** ou **[!UICONTROL Planifié]** indique qu’une nouvelle version d’une campagne déclenchée par une action ou une API a été créée et n’a pas encore été activée.
+>L’icône « Ouvrir la version brouillon » en regard d’un statut **[!UICONTROL Actif]** ou **[!UICONTROL Planifié]** indique qu’une nouvelle version de la campagne déclenchée par une action ou une API a été créée et n’a pas encore été activée.
 
->[!TAB Campagnes orchestrées]
+>[!TAB Campagnes orchestrées]
 
-* **[!UICONTROL Brouillon]** : la campagne orchestrée a été créée. Elle n’a pas encore été publiée.
-* **[!UICONTROL Publication]** : la campagne orchestrée est en cours de publication.
-* **[!UICONTROL En direct]** : la campagne orchestrée a été publiée et est en cours d’exécution.
-* **[!UICONTROL Planifié]** : l’exécution de la campagne orchestrée a été planifiée.
-* **[!UICONTROL Terminé]** : l’exécution de la campagne orchestrée est terminée. Le statut Terminé est automatiquement attribué jusqu’à 3 jours après qu’une campagne a terminé l’envoi des messages sans erreur.
+* **[!UICONTROL Brouillon]** : la campagne orchestrée a été créée. Elle n’a pas encore été publiée.
+* **[!UICONTROL Publication]** : la campagne orchestrée est en cours de publication.
+* **[!UICONTROL Actif]** : la campagne orchestrée a été publiée et est en cours d’exécution.
+* **[!UICONTROL Planifié]** : l’exécution de la campagne orchestrée a été planifiée.
+* **[!UICONTROL Terminé]** : l’exécution de la campagne orchestrée est terminée. Le statut Terminé est automatiquement attribué jusqu’à 3 jours après qu’une campagne a terminé l’envoi des messages sans erreur.
 * **[!UICONTROL Fermé]** : ce statut s’affiche lorsqu’une campagne récurrente a été fermée. La campagne continue de s’exécuter jusqu’à ce que toutes ses activités soient terminées, mais plus aucun profil ne peut entrer dans la campagne.
-* **[!UICONTROL Archivé]** : la campagne orchestrée a été archivée. Toutes les campagnes archivées sont supprimées selon un nouveau planning progressif 30 jours après la date de la dernière modification. Si nécessaire, vous pouvez dupliquer une campagne archivée pour continuer à travailler dessus.
-* **[!UICONTROL Arrêté]** : l&#39;exécution de la campagne orchestrée a été arrêtée. Pour redémarrer la campagne, vous devez la dupliquer.
+* **[!UICONTROL Archivé]** : la campagne orchestrée a été archivée. Toutes les campagnes archivées sont supprimées selon un nouveau planning progressif 30 jours après la date de la dernière modification. Si nécessaire, vous pouvez dupliquer une campagne archivée pour continuer à travailler dessus.
+* **[!UICONTROL Arrêté]** : l’exécution de la campagne orchestrée a été arrêtée. Pour redémarrer la campagne, vous devez la dupliquer.
 
 >[!ENDTABS]
 
@@ -142,7 +142,7 @@ Outre la liste des campagnes, [!DNL Journey Optimizer] fournit une vue de calend
 
 >[!AVAILABILITY]
 >
->La vue Calendrier n’est actuellement disponible que pour les campagnes déclenchées par une action et une API pour un ensemble d’organisations (disponibilité limitée). Pour demander l’accès, utilisez [ce formulaire](https://forms.cloud.microsoft/r/FC49afuJVi){target=”_blank”}.
+>La vue de calendrier n’est actuellement disponible que pour les campagnes déclenchées par une action et une API pour un ensemble d’organisations (disponibilité limitée). Pour demander l’accès, utilisez [ce formulaire](https://forms.cloud.microsoft/r/FC49afuJVi){target=”_blank”}.
 >
 >Cette fonctionnalité est en développement actif. Pour soumettre vos commentaires et demandes, cliquez sur le bouton **[!UICONTROL Commentaires Beta]** situé dans le menu supérieur.
 
@@ -164,13 +164,13 @@ Pour afficher les détails d’une campagne spécifique, sélectionnez-la dans l
 
 ![liste des campagnes avec le volet d’informations ouvert](assets/campaign-rail.png)
 
-## Modification et arrêt des campagnes d’action récurrentes {#modify}
+## Modifier et arrêter des campagnes d’action récurrentes {#modify}
 
-### Modification d’une campagne d’action
+### Modifier une campagne d’action
 
-Pour modifier et créer une nouvelle version d’une campagne d’action récurrente, procédez comme suit :
+Pour modifier et créer une nouvelle version d’une campagne d’action récurrente, procédez comme suit :
 
-1. Ouvrez la Campagne d’action, puis cliquez sur le bouton **[!UICONTROL Modifier la campagne]**.
+1. Ouvrez la campagne d’action, puis cliquez sur le bouton **[!UICONTROL Modifier la campagne]**.
 
 1. Une nouvelle version de la campagne est créée. Vous pouvez vérifier la version active en cliquant sur **[!UICONTROL Ouvrir la version active]**.
 
@@ -186,7 +186,7 @@ Pour modifier et créer une nouvelle version d’une campagne d’action récurr
    >
    >L’activation du brouillon remplacera la version active de la campagne.
 
-### Arrêt d’une campagne Action {#stop}
+### Arrêter une campagne d’action {#stop}
 
 Pour arrêter une campagne récurrente, ouvrez-la, puis cliquez sur le bouton **[!UICONTROL Arrêter la campagne]**.
 

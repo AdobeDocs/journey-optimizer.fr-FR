@@ -13,9 +13,9 @@ hide: true
 hidefromtoc: true
 exl-id: 27442cb0-5027-4d9c-9d3c-9ec33af7c9ff
 source-git-commit: 23684c906d11c7f54eb28cac7c2697964e723a2e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1677'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -111,7 +111,7 @@ Pour accéder au mode sombre dans le Concepteur d’e-mail et prévisualiser les
 
    ![](assets/dark-mode-default.png)
 
-Par défaut, l’aperçu du mode sombre d’Email Designer applique le modèle de couleurs « inverser toutes les couleurs » à tous les éléments, à l’exception des images et des icônes.
+Par défaut, l’aperçu en mode sombre du Concepteur d’e-mail applique le modèle de couleurs « inversion complète des couleurs » à tous les éléments, à l’exception des images et des icônes.
 
 Cela signifie qu’il détecte les zones comportant des éléments clairs et sombres et les inverse, de sorte que les arrière-plans clairs deviennent sombres et que le texte sombre devient clair, tandis que les arrière-plans sombres deviennent clairs et que le texte clair devient sombre.
 
@@ -137,7 +137,7 @@ Pour tirer parti du style du mode sombre personnalisé du Concepteur d’e-mail,
 
 Pour définir les paramètres du mode sombre personnalisé, procédez comme suit.
 
-1. Veillez à passer à l’aperçu **[!UICONTROL Mode sombre]** dans le Designer d’e-mail. [Voici comment procéder](#preview-dark-mode)
+1. Veillez à basculer vers l’aperçu en **[!UICONTROL mode sombre]** dans le Concepteur d’e-mail. [Voici comment procéder](#preview-dark-mode)
 
 1. Modifiez les attributs de couleurs du style, tels que le texte, les arrière-plans, les boutons, etc.
 
@@ -155,7 +155,7 @@ Pour définir les paramètres du mode sombre personnalisé, procédez comme suit
    >
    >Le mode en direct est une prévisualisation générique conçue pour comparer l’aspect du rendu sur différentes tailles d’appareils. Le rendu final peut varier en fonction du client de messagerie de la personne destinataire.
 
-1. Une fois que vous êtes satisfait des modifications pour le mode sombre, cliquez sur **[!UICONTROL Simuler du contenu]**.
+1. Une fois que vous avez apporté les modifications souhaitées pour le mode sombre, cliquez sur **[!UICONTROL Simuler le contenu]**.
 
    ![](assets/dark-mode-simulate.png)
 
@@ -211,11 +211,11 @@ Inline CSS helps maintain more control over styling, as some clients strip exter
 
 ## Clients de messagerie prenant en charge le mode sombre {#supporting-email-clients}
 
-Vous trouverez ci-dessous une liste des principaux clients de messagerie prenant en charge le mode sombre.
+Vous trouverez ci-dessous la liste des principaux clients de messagerie prenant en charge le mode sombre.
 
 >[!NOTE]
 >
->Certaines versions de ces clients de messagerie ne prennent pas en charge le mode sombre. Par souci de clarté, elles sont donc également présentées dans ce tableau.
+>Certaines versions de ces clients de messagerie ne prennent pas en charge le mode sombre. Elles sont donc également présentées dans ce tableau par souci de clarté.
 
 | Clients de messagerie prenant en charge le mode sombre | Versions compatibles | *Versions non prises en charge* |
 |---------|----------|---------|
@@ -241,7 +241,7 @@ Vous trouverez ci-dessous une liste des principaux clients de messagerie prenant
 
 >[!WARNING]
 >
->Le rendu final en mode sombre dépend de chaque client de messagerie. Les résultats peuvent donc varier d&#39;un client à l&#39;autre.
+>Le rendu final en mode sombre dépend de chaque client de messagerie. Le résultat peut donc varier d’un client à l’autre.
 
 <!--
 * Check out the list of [email clients supporting dark mode](https://www.caniemail.com/search/?s=dark){target="_blank"}

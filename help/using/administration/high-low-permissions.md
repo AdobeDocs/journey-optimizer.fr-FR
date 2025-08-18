@@ -10,9 +10,9 @@ level: Experienced
 keywords: autorisation, haut niveau, bas niveau, profil, admin console
 exl-id: 1b286f9d-43ef-4b80-b4ee-136da857bb95
 source-git-commit: 3a44111345c1627610a6b026d7b19b281c4538d3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1301'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -523,9 +523,9 @@ The **[!DNL Manage web subdomain]** high-level permission allows users to read, 
 
 +++
 
-## Ressource de campagne orchestrée {#ai-orchestrated-campaign}
+## Ressource des campagnes orchestrées {#ai-orchestrated-campaign}
 
-* **[!DNL Manage orchestrated campaigns]** autorisation de haut niveau permet aux utilisateurs de créer des campagnes et de modifier/supprimer des campagnes orchestrées.
+* Lʼautorisation de haut niveau **[!DNL Manage orchestrated campaigns]** permet aux utilisateurs et aux utilisatrices de créer et de modifier/supprimer des campagnes orchestrées.
 
 +++ Elle comprend les autorisations de bas niveau suivantes :
 
@@ -557,7 +557,7 @@ The **[!DNL Manage web subdomain]** high-level permission allows users to read, 
 
 +++
 
-* **[!DNL Manage orchestrated campaigns admin]** autorisation de haut niveau permet aux utilisateurs et utilisatrices de créer et de modifier/supprimer des liens et des réconciliations entre les profils Adobe Experience Platform et les entités de magasin relationnel.
+* L’autorisation de haut niveau **[!DNL Manage orchestrated campaigns admin]** permet aux utilisateurs et aux utilisatrices de créer et de modifier/supprimer des liens et des réconciliations entre les profils Adobe Experience Platform et les entités de stockage relationnel.
 
 +++ Elle comprend les autorisations de bas niveau suivantes :
 
@@ -569,7 +569,7 @@ The **[!DNL Manage web subdomain]** high-level permission allows users to read, 
 
 +++
 
-* **[!DNL Publish orchestrated campaigns]** autorisation de haut niveau permet aux utilisateurs de publier des campagnes orchestrées.
+* Lʼautorisation de haut niveau **[!DNL Publish orchestrated campaigns]** permet aux utilisateurs et aux utilisatrices de publier des campagnes orchestrées.
 
 +++ Elle comprend les autorisations de bas niveau suivantes :
 
@@ -588,7 +588,7 @@ The **[!DNL Manage web subdomain]** high-level permission allows users to read, 
 
 +++
 
-* **[!DNL View orchestrated campaigns]** autorisation de haut niveau permet aux utilisateurs d’afficher la campagne orchestrée et son contenu.
+* L’autorisation de haut niveau **[!DNL View orchestrated campaigns]** permet aux utilisateurs et aux utilisatrices d’afficher la campagne orchestrée et son contenu.
 
 +++ Elle comprend les autorisations de bas niveau suivantes :
 
@@ -609,7 +609,7 @@ The **[!DNL Manage web subdomain]** high-level permission allows users to read, 
 
 +++
 
-* **[!DNL View orchestrated campaigns admin]** autorisation de haut niveau permet aux utilisateurs d’afficher les paramètres d’administration, mais ne peut pas les modifier.
+* L’autorisation de haut niveau **[!DNL View orchestrated campaigns admin]** permet aux utilisateurs et aux utilisatrices d’afficher les paramètres d’administration, mais sans pouvoir les modifier.
 
 +++ Elle comprend les autorisations de bas niveau suivantes :
 
@@ -619,7 +619,7 @@ The **[!DNL Manage web subdomain]** high-level permission allows users to read, 
 
 +++
 
-* **[!DNL View orchestrated campaigns report]** autorisation de haut niveau permet aux utilisateurs d’afficher les performances de campagnes orchestrées dans les rapports dynamiques et professionnels.
+* L’autorisation de haut niveau **[!DNL View orchestrated campaigns report]** permet aux utilisateurs et aux utilisatrices d’afficher les performances des campagnes orchestrées dans les rapports dynamiques et professionnels.
 
 +++ Elle comprend les autorisations de bas niveau suivantes :
 

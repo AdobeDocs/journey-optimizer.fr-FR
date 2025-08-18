@@ -7,9 +7,9 @@ role: User
 level: Experienced
 exl-id: 63aa1763-2220-4726-a45d-3a3a8b8a55ec
 source-git-commit: 229fb3d120727b51e011d8056f8d914c7968f2d0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2495'
-ht-degree: 55%
+ht-degree: 100%
 
 ---
 
@@ -42,38 +42,38 @@ ht-degree: 55%
 >title="Sélectionner des attributs de décision dans un catalogue"
 >abstract="Les attributs de décision sont stockés dans le schéma du catalogue. Sélectionnez un attribut que vous souhaitez utiliser ici dans le catalogue sélectionné."
 
-Les politiques de décision sont des conteneurs pour vos offres qui s’appuient sur le moteur de prise de décision pour renvoyer de manière dynamique le meilleur contenu à diffuser pour chaque membre de l’audience. Leur objectif est de sélectionner les meilleures offres pour chaque profil, tandis que la création de campagne et de parcours vous permet d’indiquer comment les éléments de décision sélectionnés doivent être présentés, y compris les attributs d’élément à inclure dans le message.
+Les politiques de décision sont des conteneurs pour vos offres qui tirent profit du moteur de prise de décision afin de renvoyer dynamiquement le meilleur contenu à diffuser pour chaque membre de l’audience. Leur objectif est de sélectionner les meilleures offres pour chaque profil, tandis que la création de campagne et de parcours vous permet d’indiquer comment les éléments de décision sélectionnés doivent être présentés, y compris les attributs d’élément à inclure dans le message.
 
 ## Principales étapes {#key}
 
-Les principales étapes pour tirer parti des politiques de décision dans vos messages sont les suivantes :
+Les principales étapes pour utiliser les politiques de décision dans vos messages sont les suivantes :
 
 1. [Créer une politique de décision dans un e-mail ou une expérience basée sur du code](#add-decision)
 
-   Configurez une politique de décision dans votre expérience par e-mail ou basée sur du code en choisissant le nombre d’éléments à renvoyer, en configurant des stratégies de sélection, des options de secours et l’ordre d’évaluation.
+   Configurez une politique de décision dans votre e-mail ou votre expérience basée sur du code en choisissant le nombre d’éléments à renvoyer, en configurant des stratégies de sélection, des options de secours et l’ordre d’évaluation.
 
-1. [Utilisation de la politique de décision dans votre contenu](#use-decision-policy)
+1. [Utiliser la politique de décision dans votre contenu](#use-decision-policy)
 
    Personnalisez votre contenu avec la sortie et les attributs de la politique de décision des éléments de décision que vous souhaitez afficher dans le message.
 
-1. [Créer des tableaux de bord de rapports](cja-reporting.md)
+1. [Créer des tableaux de bord de reporting](cja-reporting.md)
 
-   Créez des tableaux de bord Customer Journey Analytics personnalisés pour mesurer les performances et obtenir des informations sur la manière dont vos politiques de décision et vos offres sont diffusées et utilisées.
+   Créez des tableaux de bord Customer Journey Analytics personnalisés pour mesurer les performances et obtenir des informations sur la manière dont vos politiques de décision et vos offres sont diffusées et utilisées.
 
 ## Mécanismes de sécurisation et limitations
 
-* **Disponibilité limitée - Politique de décision dans les e-mails** - Pour l’instant, la création de politique de décision dans les e-mails est disponible en disponibilité limitée. Contactez votre représentant Adobe pour obtenir l’accès.
-* **Pages miroir** - Pour l’instant, les éléments de décision ne s’affichent pas dans les pages miroir des e-mails.
-* **Type de tracking et de liens** - Pour tracker les liens générés par la prise de décision, définissez-les dans le schéma comme « Assets de prise de décision ». Les liens basés sur les attributs ne sont pas traçables.
-* **Imbrication de politiques de décision dans des e-mails** - Vous ne pouvez pas imbriquer plusieurs politiques de décision dans un composant d’e-mail parent auquel est déjà associée une politique de décision.
-* **parcours/campagnes dupliqués avec prise de décision** - Si vous dupliquez un parcours ou une campagne qui inclut une politique de décision, la version dupliquée fait référence à l’e-mail ou à l’expérience basée sur du code d’origine, ce qui entraîne des erreurs. Reconfigurez toujours la politique de décision après la duplication.
-* **Politiques de consentement** - Les mises à jour des politiques de consentement prennent jusqu’à 48 heures. Si une politique de décision fait référence à un attribut lié à une politique de consentement récemment mise à jour, les modifications ne sont pas appliquées immédiatement.
+* **Disponibilité limitée - Politique de décision dans les e-mails** : pour l’instant, la création de politique de décision dans les e-mails est en disponibilité limitée. Contactez votre représentant ou représentante Adobe pour en obtenir l’accès.
+* **Pages miroir** : pour l’instant, les éléments de décision ne s’affichent pas dans les pages miroir des e-mails.
+* **Type de suivi et de liens** : pour suivre les liens générés par la prise de décision, définissez-les dans le schéma comme « Ressources de prise de décision ». Les liens basés sur les attributs ne pevent pas faire l’objet d’un suivi.
+* **Imbrication de politiques de décision dans des e-mails** : vous ne pouvez pas imbriquer plusieurs politiques de décision dans un composant d’e-mail parent auquel est déjà associée une politique de décision.
+* **Parcours ou campagnes dupliqués avec prise de décision** : si vous dupliquez un parcours ou une campagne qui inclut une politique de décision, la version dupliquée fait référence à l’e-mail ou à l’expérience basée sur du code d’origine, ce qui entraîne des erreurs. Reconfigurez toujours la politique de décision après la duplication.
+* **Politiques de consentement** – les mises à jour des politiques de consentement prennent jusqu’à 48 heures. Si une politique de décision fait référence à un attribut lié à une politique de consentement récemment mise à jour, les modifications ne sont pas appliquées immédiatement.
 
   De même, si de nouveaux attributs de profil soumis à une politique de consentement sont ajoutés à une politique de décision, ils seront utilisables, mais la politique de consentement qui leur est associée ne sera pas appliquée tant que le délai ne sera pas écoulé.
 
-  Les politiques de consentement ne sont disponibles que pour les organisations qui disposent du module complémentaire Adobe Healthcare Shield ou Privacy and Security Shield .
+  Les politiques de consentement ne sont actuellement disponibles que pour les organisations disposant des modules complémentaires Adobe Healthcare Shield et Privacy and Security Shield.
 
-* **Classement par l&#39;IA** - Pour l&#39;instant, le classement par l&#39;IA n&#39;est pas pris en charge pour le canal E-mail dans les parcours avec prise de décision.
+* **Classement AI** : pour l’instant, le classement AI n’est pas pris en charge pour le canal E-mail dans les parcours avec prise de décision.
 
 ## Créer une politique de décision dans un e-mail ou une expérience basée sur du code {#add-decision}
 
@@ -93,11 +93,11 @@ Les principales étapes pour tirer parti des politiques de décision dans vos me
 >abstract="La séquence de stratégies de sélection détermine la stratégie qui sera évaluée en premier. Au moins une stratégie est requise. Les éléments de décision des stratégies combinées seront évalués ensemble."
 >additional-url="https://experienceleague.adobe.com/fr/docs/journey-optimizer/using/decisioning/offer-decisioning/get-started-decision/starting-offer-decisioning" text="Créer des stratégies"
 
-Pour présenter la meilleure offre et la meilleure expérience dynamique aux destinataires et aux visiteurs de vos e-mails sur votre site web ou application mobile, ajoutez une politique de décision à un e-mail ou à une campagne ou un parcours basé sur du code. Pour ce faire, procédez comme suit.
+Pour présenter la meilleure offre dynamique et expérience aux personnes destinataires de vos e-mails et aux visiteurs et visiteuses de votre site web ou de votre application mobile, ajoutez une politique de décision à une campagne ou à un parcours basés sur des e-mails ou du code. Pour ce faire, procédez comme suit.
 
-### Création d’une politique de décision {#add}
+### Créer une politique de décision {#add}
 
-1. Dans un parcours ou une campagne, ajoutez une action **[!UICONTROL E-mail]** ou **[!UICONTROL Expérience basée sur le code]**.
+1. Dans un parcours ou une campagne, ajoutez une action **[!UICONTROL E-mail]** ou **[!UICONTROL Expérience basée sur du code]**.
 
 1. Pour les e-mails, activez **[!UICONTROL Activer la prise de décision]** dans l’écran de configuration.
 
@@ -109,18 +109,18 @@ Pour présenter la meilleure offre et la meilleure expérience dynamique aux des
    >
    >Notez qu’aucune politique de décision configurée dans l’e-mail ne sera enregistrée dans le modèle. Si vous appliquez le modèle à un autre e-mail, vous devez reconfigurer la politique.
 
-1. Il est possible de créer des politiques dans des expériences basées sur des e-mails et du code à l’aide de l’éditeur de personnalisation. Elles peuvent également être créées dans les e-mails à partir d&#39;un menu dédié dans le Designer Email. Pour plus d’informations, développez les sections ci-dessous.
+1. Il est possible de créer des politiques dans des expériences basées sur des e-mails et du code à l’aide de l’éditeur de personnalisation. Elles peuvent également être créées dans les e-mails à partir d’un menu dédié dans le Concepteur d’e-mail. Pour plus d’informations, développez les sections ci-dessous.
 
-   Éditeur Personalization
+   +++Éditeur de personnalisation
 
    1. Ouvrez l’éditeur de personnalisation et sélectionnez **[!UICONTROL Politique de décision]**.
-   1. Cliquez sur le bouton **[!UICONTROL Ajouter une politique de décision]** pour créer une politique.
+   1. Cliquez sur le bouton **[!UICONTROL Ajouter une politique de décision]** pour créer une nouvelle politique.
 
       ![](assets/decision-code-based-create.png)
 
 +++
 
-   +++Menu Email Designer **[!UICONTROL Prise de décision]**
+   +++Menu **[!UICONTROL Prise de décision]** du Concepteur d’e-mail
 
    1. Sélectionnez un composant, cliquez sur l’icône **[!UICONTROL Prise de décision]** dans la barre d’outils ou le volet des propriétés, puis sélectionnez **[!UICONTROL Ajouter une nouvelle politique]**.
 
@@ -128,7 +128,7 @@ Pour présenter la meilleure offre et la meilleure expérience dynamique aux des
 
       ![](assets/decision-policy-email-designer.png)
 
-   +++
++++
 
 1. Attribuez un nom et sélectionnez un catalogue (actuellement limité au catalogue par défaut **[!UICONTROL Offres]**).
 
@@ -140,13 +140,13 @@ Pour présenter la meilleure offre et la meilleure expérience dynamique aux des
 
 +++ Renvoyer plusieurs éléments de décision dans les e-mails
 
-   1. Faites glisser un composant **[!UICONTROL Répéter la grille]** sur la zone de travail et configurez-le selon vos besoins à l’aide du volet **[!UICONTROL Paramètres]**.
+   1. Placez un composant **[!UICONTROL Grille de répétition]** dans la zone de travail et configurez-le selon vos besoins à l’aide du volet **[!UICONTROL Paramètres]**.
 
       ![](assets/decision-policy-repeat.png)
 
    1. Cliquez sur l’icône **[!UICONTROL Prise de décision]** dans la barre d’outils de la zone de travail ou ouvrez le volet **[!UICONTROL Prise de décision]** et sélectionnez **[!UICONTROL Ajouter une politique de décision]**.
 
-   1. Indiquez le nombre d’éléments à renvoyer dans le champ **[!UICONTROL Nombre d’éléments]** puis configurez la politique de décision comme indiqué ci-dessous. Le nombre maximal d’éléments que vous pouvez sélectionner est limité par le nombre de mosaïques définies dans le composant **[!UICONTROL Répéter la grille]**.
+   1. Indiquez le nombre d’éléments à renvoyer dans le champ **[!UICONTROL Nombre d’éléments]**, puis configurez la politique de décision comme indiqué ci-dessous. Le nombre maximal d’éléments que vous pouvez sélectionner est limité par le nombre de tuiles définies dans le composant **[!UICONTROL Grille de répétition]**.
 
    ![](assets/decision-policy-repeat-number.png)
 
@@ -158,7 +158,7 @@ Pour présenter la meilleure offre et la meilleure expérience dynamique aux des
 
 La section **[!UICONTROL Séquence de stratégies]** vous permet de sélectionner les éléments de décision et les stratégies de sélection à inclure avec la politique de décision.
 
-1. Cliquez sur **[!UICONTROL Ajouter]** et sélectionnez le type d’objet à inclure dans la stratégie :
+1. Cliquez sur **[!UICONTROL Ajouter]**, puis sélectionnez le type d’objet à inclure dans la politique :
 
    * **[!UICONTROL Stratégie de sélection]** : ajoutez une ou plusieurs stratégies de sélection. Les stratégies de décision tirent parti des collections associées aux contraintes d’éligibilité et aux méthodes de classement pour déterminer les éléments à afficher. Vous pouvez sélectionner une stratégie de sélection existante ou en créer une à l’aide du bouton **[!UICONTROL Créer une stratégie de sélection]**. [Découvrir comment créer des stratégies de sélection](selection-strategies.md)
 
@@ -170,7 +170,7 @@ La section **[!UICONTROL Séquence de stratégies]** vous permet de sélectionne
    >
    >Une politique de décision prend en charge jusqu’à 10 stratégies de sélection et éléments de décision combinés. [En savoir plus sur les mécanismes de sécurisation et sur les limitations de la prise de décisions](gs-experience-decisioning.md#guardrails)
 
-1. Lorsque vous ajoutez plusieurs éléments et/ou stratégies de décision, ils sont évalués dans un ordre spécifique. Le premier objet ajouté à la séquence sera évalué en premier, et ainsi de suite. Pour modifier la séquence par défaut, faites glisser et déposez les objets et/ou les groupes pour les réorganiser selon vos besoins. Pour plus d’informations, développez la section ci-dessous.
+1. Lorsque vous ajoutez plusieurs éléments et/ou stratégies de décision, ils sont évalués dans un ordre spécifique. Le premier objet ajouté à la séquence sera évalué en premier, et ainsi de suite. Pour modifier la séquence par défaut, faites glisser et déposez les objets et/ou les groupes afin de les réorganiser selon vos besoins. Pour plus d’informations, développez la section ci-dessous.
 
    +++Gérer l’ordre d’évaluation dans une politique de décision
 
@@ -204,7 +204,7 @@ La section **[!UICONTROL Séquence de stratégies]** vous permet de sélectionne
 
    **Exemple avec plusieurs stratégies**
 
-   Prenons maintenant un exemple où vous avez plusieurs stratégies divisées en différents groupes. Vous avez défini trois stratégies. La stratégie 1 et la stratégie 2 sont combinées dans le groupe 1 et la stratégie 3 est indépendante (groupe 2). Les offres éligibles pour chaque stratégie et leur priorité (utilisée dans l’évaluation de la fonction de classement) sont les suivantes :
+   Prenons un exemple où plusieurs stratégies sont divisées en différents groupes. Vous avez défini trois stratégies. Les stratégies 1 et 2 sont combinées dans le groupe 1 et la stratégie 3 est indépendante (groupe 2). Les offres éligibles pour chaque stratégie et leur priorité (utilisée dans l’évaluation de la fonction de classement) sont les suivantes :
 
    * Groupe 1 :
       * Stratégie 1 - (offre 1, offre 2 et offre 3) - Priorité 1
@@ -236,13 +236,13 @@ Offre 5 - 50
 
      Les offres classées sont désormais les suivantes : offre 5 , offre 3, offre 4, offre 2, offre 1 et offre 6.
 
-   +++
++++
 
 1. Cliquez sur **[!UICONTROL Suivant]**.
 
-### Ajout d’offres de secours {#fallback}
+### Ajouter des offres de secours {#fallback}
 
-Une fois que vous avez sélectionné des éléments de décision et/ou des stratégies de sélection, vous pouvez ajouter des offres de secours à afficher si aucun des éléments ou des stratégies de sélection ci-dessus n’est qualifié.
+Une fois que vous avez sélectionné des éléments de décision et/ou des stratégies de sélection, vous pouvez ajouter des offres de secours qui s’afficheront si aucun des éléments ou aucune des stratégies de sélection ci-dessus n’est qualifié.
 
 Vous pouvez sélectionner n’importe quel élément de la liste, qui affiche tous les éléments de décision créés dans le sandbox actuel. Si aucune stratégie de sélection n’est qualifiée, l’offre de secours est affichée pour l’utilisateur ou utilisatrice, quelles que soient les dates et les contraintes d’éligibilité appliquées à l’élément sélectionné.<!--nor frequency capping when available - TO CLARIFY-->.
 
@@ -255,7 +255,7 @@ Vous pouvez sélectionner n’importe quel élément de la liste, qui affiche to
 
 Lorsque votre politique de décision est prête, enregistrez-la et cliquez sur **[!UICONTROL Créer]**.
 
-Pour les e-mails , vous devez définir un emplacement pour le composant associé à la politique de décision. Pour ce faire, cliquez sur le bouton **[!UICONTROL Prise de décision]** dans le volet des propriétés du composant et sélectionnez **[!UICONTROL Attribuer l&#39;emplacement]**. [Découvrez comment utiliser les emplacements](../experience-decisioning/placements.md)
+Pour les e-mails, vous devez définir un emplacement pour le composant associé à la politique de décision. Pour ce faire, cliquez sur le bouton **[!UICONTROL Prise de décision]** dans le volet des propriétés du composant et sélectionnez **[!UICONTROL Attribuer un emplacement]**. [En savoir plus sur l’utilisation des emplacements](../experience-decisioning/placements.md)
 
 ![](assets/decision-policy-rail.png)
 
@@ -273,9 +273,9 @@ Vous pouvez modifier ou supprimer une politique de décision à tout moment à l
 
 >[!ENDTABS]
 
-## Utilisation d’une politique de décision dans votre contenu {#use-decision-policy}
+## Utiliser une politique de décision dans votre contenu {#use-decision-policy}
 
-Une fois créée, la politique de décision et les attributs liés aux éléments de décision renvoyés peuvent être utilisés dans votre contenu pour personnaliser votre contenu. Pour ce faire, procédez comme suit.
+Après création, la politique de décision et les attributs liés aux éléments de décision renvoyés peuvent être utilisés dans votre contenu pour le personnaliser. Pour ce faire, procédez comme suit :
 
 ### Insérer le code de la politique de décision {#insert-code}
 
@@ -291,13 +291,13 @@ Une fois créée, la politique de décision et les attributs liés aux élément
 
    ![](assets/decision-policy-placement.png)
 
-   +++
++++
 
-   +++Insérer le code de la politique de décision dans l’expérience basée sur le code
+   +++Insérer le code de la politique de décision dans l’expérience basée sur du code
 
    ![](assets/decision-code-based-add-decision.png)
 
-   +++
++++
 
    >[!NOTE]
    >
@@ -305,7 +305,7 @@ Une fois créée, la politique de décision et les attributs liés aux élément
 
 1. Le code de la politique de décision est ajouté. Cette séquence sera répétée selon le nombre de renvoi de la politique de décision que vous choisissez. Par exemple, si vous avez choisi de renvoyer 2 éléments lors de la [création de la décision](#add-decision), la même séquence sera répétée deux fois.
 
-### Utiliser les attributs des éléments de décision {#attributes}
+### Utiliser des attributs d’éléments de décision {#attributes}
 
 Vous pouvez désormais ajouter tous les attributs de décision que vous souhaitez dans ce code. Les attributs disponibles sont stockés dans le schéma du catalogue **[!UICONTROL Offres]**. Les attributs personnalisés sont stockés dans le dossier **`_<imsOrg`>**, et les attributs standard dans le dossier **`_experience`**. [En savoir plus sur le schéma du catalogue Offres](catalogs.md)
 
@@ -314,7 +314,7 @@ Vous pouvez désormais ajouter tous les attributs de décision que vous souhaite
 >[!NOTE]
 >
 >Pour le suivi des éléments de la politique de décision, l’attribut `trackingToken` doit être ajouté comme suit pour le contenu de la politique de décision :
->&#x200B;>`trackingToken: {{item._experience.decisioning.decisionitem.trackingToken}}`
+>>`trackingToken: {{item._experience.decisioning.decisionitem.trackingToken}}`
 
 1. Cliquez sur chaque dossier pour le développer. Placez le curseur de votre souris à l’emplacement souhaité, puis cliquez sur l’icône + en regard de l’attribut à ajouter. Vous pouvez ajouter au code autant d’attributs que vous le souhaitez.
 
@@ -330,13 +330,13 @@ Vous pouvez désormais ajouter tous les attributs de décision que vous souhaite
 
 ## Dernières étapes {#final-steps}
 
-Une fois que votre contenu est prêt, passez en revue et publiez votre campagne ou votre parcours :
+Une fois que votre contenu est prêt, passez en revue et publiez votre campagne ou votre parcours :
 
 * [Publier un parcours](../building-journeys/publishing-the-journey.md)
-* [Vérification de l’activation d’une campagne](../campaigns/review-activate-campaign.md)
-* [Publication et activation d’une expérience basée sur du code](../code-based/publish-code-based.md)
+* [Vérifier et activer une campagne](../campaigns/review-activate-campaign.md)
+* [Publier et activer une expérience basée sur du code](../code-based/publish-code-based.md)
 
-Pour les expériences basées sur du code, dès que votre développeur effectue un appel API ou SDK pour récupérer du contenu pour la surface définie dans votre configuration de canal, les modifications sont appliquées à votre page web ou à votre application.
+Pour les expériences basées sur du code, dès que votre développeur ou développeuse effectue un appel d’API ou de SDK pour récupérer du contenu pour la surface définie dans votre configuration de canal, les modifications sont appliquées à votre page web ou votre application.
 
 >[!NOTE]
 >

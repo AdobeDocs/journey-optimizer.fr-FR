@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Création d’une campagne d’action
+title: Créer une campagne d’action
 description: Découvrez comment créer des campagnes dans [!DNL Journey Optimizer].
 feature: Campaigns
 topic: Content Management
@@ -11,9 +11,9 @@ mini-toc-levels: 1
 keywords: créer, optimizer, campagne, surface, messages
 exl-id: 617d623c-e038-4b5b-a367-5254116b7815
 source-git-commit: 3a44111345c1627610a6b026d7b19b281c4538d3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '152'
-ht-degree: 62%
+ht-degree: 100%
 
 ---
 
@@ -31,21 +31,21 @@ Les campagnes d’action (ou campagnes planifiées) permettent des communication
 
 ➡️ [Découvrez cette fonctionnalité en vidéo.](#video)
 
-## Étapes clés de la création de campagnes d’action {#steps}
+## Étapes clés de création de campagnes d’action {#steps}
 
-1. [Définir les propriétés de la campagne Action](campaign-properties.md)
+1. [Définir les propriétés de la campagne d’action](campaign-properties.md)
 1. [Configurer l’action de campagne](campaign-action.md)
-1. [Modifier le contenu de la campagne Action](campaign-content.md)
-1. [Définir l’audience de la campagne Action](campaign-audience.md)
+1. [Modifier le contenu d’une campagne d’action](campaign-content.md)
+1. [Définir l’audience d’une campagne d’action](campaign-audience.md)
 1. [Planifier la campagne d’action](campaign-schedule.md)
-1. [Examiner et activer la campagne Action](review-activate-campaign.md)
+1. [Vérifier et activer la campagne d’action](review-activate-campaign.md)
 
 >[!IMPORTANT]
 >
->Avant de créer votre campagne, vérifiez que vous avez consulté les conditions préalables générales de la campagne [campaign)](../campaigns/get-started-with-campaigns.md#prerequisites).
+>Avant de créer votre campagne, vérifiez que vous avez consulté les [conditions préalables de la campagne](../campaigns/get-started-with-campaigns.md#prerequisites).
 
 ## Vidéos pratiques {#video}
 
 Découvrez comment créer une campagne d’action.
 
->[!VIDEO](https://video.tv.adobe.com/v/3412403?quality=12&captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/346680?quality=12)

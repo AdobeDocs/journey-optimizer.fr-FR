@@ -8,9 +8,9 @@ role: User
 level: Intermediate
 exl-id: 7234a8e8-4ab0-4f17-a833-5e452fadac35
 source-git-commit: 923d9dfc4e281ea06ac1f5cd9c08d99a80617301
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2752'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -76,7 +76,7 @@ Par exemple, si vous définissez les contraintes suivantes :
 >title="À propos de l&#39;éligibilité de l&#39;offre"
 >abstract="Dans cette section, vous pouvez utiliser des règles de décision pour déterminer quels utilisateurs sont éligibles à l&#39;offre."
 
-<!--additional-url="https://video.tv.adobe.com/v/341367?captions=fre_fr" text="Watch demo video"-->
+<!--additional-url="https://video.tv.adobe.com/v/329373" text="Watch demo video"-->
 
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_total_profile_estimate"
@@ -258,7 +258,7 @@ Le champ **[!UICONTROL Réinitialiser la fréquence de limitation]** vous permet
 
 * Une fois que vous avez publié votre offre, vous ne pourrez plus modifier la période (mensuelle, hebdomadaire ou quotidienne) de la fréquence. Vous pouvez désormais modifier le capping de la fréquence si le statut de l’offre est **[!UICONTROL Brouillon]** et si l’offre n’a jamais été publiée auparavant avec le capping de la fréquence activé.
 
-* Une durée de mise en mémoire tampon maximale de 15 minutes peut être nécessaire avant que les événements ne soient comptabilisés dans les contraintes de limitation de la fréquence, soit lorsque l’offre est approuvée, soit lorsque la limitation est créée, selon ce qui se produit en dernier.
+* Une durée de mise en mémoire tampon maximale de 15 minutes peut être nécessaire avant que les événements ne soient comptabilisés dans les contraintes de capping de la fréquence, soit lorsque l’offre est approuvée, soit lorsque la limitation est créée, selon ce qui se produit en dernier.
 
 +++ **À lire : capping de la fréquence et API de gestion des décisions**
 

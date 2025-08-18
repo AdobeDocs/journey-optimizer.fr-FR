@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 exl-id: b74d3137-2dd9-4302-a56e-73503d318d18
 source-git-commit: 3a44111345c1627610a6b026d7b19b281c4538d3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '519'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -46,7 +46,7 @@ Les KPI varient en fonction des canaux utilisés dans votre campagne.
 +++
 
 >[!AVAILABILITY]
->Les campagnes orchestrées ne prennent en charge que les canaux SMS, E-mail et Push. Les autres canaux (in-app, web, courrier, etc.) ne sont pas disponibles dans les campagnes orchestrées et n’apparaissent pas dans les rapports.
+>Les campagnes orchestrées ne prennent en charge que les canaux SMS, E-mail et Notification push. Les autres canaux (In-app, Web, Courrier, etc.) ne sont pas disponibles dans les campagnes orchestrées et n’apparaissent pas dans les rapports.
 
 ### Vue d’ensemble de la campagne {#delivery-global}
 

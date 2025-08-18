@@ -11,9 +11,9 @@ level: Beginner, Intermediate
 keywords: Thèmes d’e-mail, modules, réutilisation, cohérence de la marque, conception d’e-mail, CSS personnalisé, optimisation mobile
 exl-id: e81d9634-bbff-44d0-8cd7-e86f85075c06
 source-git-commit: abd5f388a41cc85c710cdb8c8e51c7fe381714ad
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '832'
-ht-degree: 82%
+ht-degree: 100%
 
 ---
 
@@ -53,15 +53,15 @@ Key Benefits:
 
 * Lors de la création d’un e-mail en partant de zéro, vous pouvez choisir de commencer à créer votre contenu à l’aide d’un thème afin d’appliquer rapidement un style spécifique adapté à votre marque et à votre conception.
 
-  Si vous choisissez le mode Style manuel, vous ne pourrez appliquer aucun thème à moins de réinitialiser l’e-mail.
+  Si vous choisissez le mode Style manuel, vous ne pourrez appliquer aucun thème à moins de réinitialiser votre e-mail.
 
 * Les [fragments](../content-management/fragments.md) ne sont pas compatibles entre les modes Utiliser des thèmes et Style manuel.
 
-  Pour pouvoir utiliser un fragment dans un contenu auquel un thème est appliqué, ce fragment doit être créé en mode Utiliser des thèmes .
+  Pour pouvoir utiliser un fragment dans un contenu auquel un thème est appliqué, ce fragment doit être créé en mode Utiliser des thèmes.
 
 * Si vous utilisez du contenu créé en HTML, vous serez en [mode de compatibilité](existing-content.md) et vous ne pourrez pas appliquer de thèmes à ce contenu.
 
-  Pour tirer pleinement parti de toutes les fonctionnalités du Designer d’e-mail, y compris les thèmes, vous devez soit créer un nouveau contenu en mode Utiliser les thèmes , soit convertir le contenu HTML importé. [En savoir plus](existing-content.md)
+  Pour tirer pleinement parti de toutes les fonctionnalités du Concepteur d’e-mail, y compris les thèmes, vous devez soit créer du contenu en mode Utiliser des thèmes, soit convertir le contenu HTML importé. [En savoir plus](existing-content.md)
 
 <!--If using a content created in Manual Styling mode or HTML, you cannot apply themes to this content. You must create a new content in Use Themes mode.
 
@@ -127,15 +127,15 @@ Pour appliquer des thèmes de style par défaut ou personnalisés à un e-mail, 
 
    * Sélectionnez un [modèle d’e-mail](use-email-templates.md) intégré pour ouvrir le Concepteur d’e-mail. Un thème par défaut spécifique à chaque modèle est automatiquement appliqué.
 
-   * Créez un [nouveau contenu à partir de zéro](content-from-scratch.md) et sélectionnez **[!UICONTROL Utiliser le/les thème(s] pour commencer avec un thème de style prédéfini**.
+   * Créez du [contenu à partir de zéro](content-from-scratch.md) et sélectionnez **[!UICONTROL Utiliser un thème]** pour commencer avec un thème de style prédéfini.
 
      ![](assets/theme-from-scratch.png)
 
      >[!CAUTION]
      >
-     >Si vous choisissez le mode Style manuel, vous ne pourrez appliquer aucun thème à moins de réinitialiser l’e-mail.
+     >Si vous choisissez le mode Style manuel, vous ne pourrez appliquer aucun thème à moins de réinitialiser votre e-mail.
      >
-     >Pour utiliser un [fragment](../content-management/fragments.md) en mode Thèmes d’utilisation, ce fragment doit avoir été créé lui-même à l’aide du mode Thèmes d’utilisation.
+     >Pour utiliser un [fragment](../content-management/fragments.md) en mode Utiliser des thèmes, celui-ci doit avoir été créé lui-même à l’aide du mode Utiliser des thèmes.
 
 1. Une fois dans le Concepteur d’e-mail, cliquez sur le bouton **[!UICONTROL Thèmes]** sur le rail de droite. Le thème par défaut ou le thème du modèle s’affiche. Vous pouvez basculer entre les deux variantes de couleur de ce thème.
 

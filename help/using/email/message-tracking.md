@@ -10,9 +10,9 @@ level: Beginner, Intermediate
 keywords: liens, tracking, surveillance, e-mail
 exl-id: 689e630a-00ca-4893-8bf5-6d1ec60c52e7
 source-git-commit: 65a6afddfbc53afb88c6e69449720ac67f8f8f39
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1274'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -22,9 +22,9 @@ Utilisez [!DNL Journey Optimizer] pour ajouter des liens à votre contenu et sui
 
 >[!NOTE]
 >
->Lorsque des liens sont inclus dans votre contenu, ils expirent **25 mois** après l’envoi du message, à l’exception des liens vers une page miroir, qui expirent après **90 jours**. Une fois ce délai écoulé, les liens ne sont plus disponibles.
+>Lorsque des liens sont inclus dans votre contenu, ils expirent **25 mois** après l’envoi du message, à l’exception des liens vers une page miroir, qui expirent après **90 jours**. Après ce délai, les liens ne sont plus disponibles.
 
-## Activation du suivi {#enable-tracking}
+## Activer le suivi {#enable-tracking}
 
 Vous pouvez activer le suivi au niveau des e-mails en cochant les options **[!UICONTROL Ouvertures d’e-mails]** et/ou **[!UICONTROL Clics sur l’e-mail]** lorsque vous créez votre message dans un parcours ou une campagne, comme indiqué dans les onglets ci-dessous :
 
@@ -51,11 +51,11 @@ Lorsqu’elles sont activées, ces options effectuent le suivi du comportement d
 
 ## Insertion de liens {#insert-links}
 
-Lorsque le [suivi est activé](#enable-tracking), tous les liens inclus dans le contenu du message sont suivis.
+Lorsque le [suivi est activé](#enable-tracking), tous les liens inclus dans le contenu du message font l’objet d’un suivi.
 
 >[!NOTE]
 >
->Les liens des fragments utilisés dans un e-mail sont également suivis. [En savoir plus sur les fragments](../content-management/fragments.md)
+>Les liens des fragments utilisés dans un e-mail font également l’objet d’un suivi. [En savoir plus sur les fragments](../content-management/fragments.md)
 
 Pour insérer des liens dans le contenu de votre e-mail, procédez comme suit :
 
@@ -95,7 +95,7 @@ Pour insérer des liens dans le contenu de votre e-mail, procédez comme suit :
 >
 >Les e-mails de type marketing doivent inclure un [lien d’exclusion](../privacy/opt-out.md#opt-out-management), qui n’est pas obligatoire pour les messages transactionnels. La catégorie du message (**[!UICONTROL Marketing]** ou **[!UICONTROL Transactionnel]**) est définie au niveau de la [configuration des canaux](../configuration/channel-surfaces.md#email-type), lors de la création du message.
 
-Une fois le message envoyé, la période de conservation d’un lien est de **25 mois**. Passé ce délai, le lien n’est plus disponible.
+Une fois le message envoyé, la période de conservation d’un lien est de **25 mois**. Après ce délai, le lien n’est plus disponible.
 
 ## Lien vers une page miroir {#mirror-page}
 
@@ -182,7 +182,7 @@ La création de rapports sur les ouvertures et les clics est disponible dans le 
 
 Le [tracking des URL](email-settings.md#url-tracking) est géré au niveau de la configuration et s’applique à toutes les URL incluses dans le contenu de votre message.
 
-Vous pouvez également personnaliser des URL individuelles dans le Designer Email. Pour ajouter des paramètres de tracking d’URL personnalisés à vos liens, procédez comme suit.
+Vous pouvez également personnaliser des URL individuelles dans le Concepteur d’e-mail. Pour ajouter des paramètres de tracking d’URL personnalisés à vos liens, procédez comme suit.
 
 1. Sélectionnez un lien et cliquez sur **[!UICONTROL Insérer un lien]** dans la barre d’outils contextuelle.
 
@@ -190,7 +190,7 @@ Vous pouvez également personnaliser des URL individuelles dans le Designer Emai
 
    ![](assets/message-tracking-insert-link-perso.png)
 
-1. Ajoutez le paramètre de tracking des URL et sélectionnez l’attribut de profil de votre choix dans l’[éditeur de personnalisation](../personalization/personalization-build-expressions.md).
+1. Ajoutez le paramètre de suivi des URL et sélectionnez l’attribut de profil de votre choix dans l’[éditeur de personnalisation](../personalization/personalization-build-expressions.md).
 
    ![](assets/message-tracking-perso-parameter.png)
 

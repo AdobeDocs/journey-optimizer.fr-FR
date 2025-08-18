@@ -9,9 +9,9 @@ role: User
 level: Beginner
 exl-id: c47af613-0529-4922-bd0d-5ef4cc619305
 source-git-commit: 1f7fd3468d85852931c6a753c2363ebe5a293b33
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '247'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 95%
 >[!IMPORTANT]
 >
 >Avant de commencer à utiliser cette fonctionnalité, lisez la section connexe [Mécanismes de sécurisation et limitations](gs-generative.md#generative-guardrails).
->&#x200B;></br>
+>></br>
 >
 >Vous devez accepter un [contrat d’utilisation](https://www.adobe.com/fr/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html) avant de pouvoir utiliser l’Assistant IA dans Journey Optimizer. Pour plus d’informations, contactez votre représentant ou représentante Adobe.
 
@@ -44,7 +44,7 @@ Une fois que vous avez conçu et personnalisé vos messages, améliorez votre co
 
    ![](assets/experiment-genai-3.png)
 
-1. À partir de votre expérience de contenu, vous pouvez maintenant commencer à configurer votre expérience de contenu. [En savoir plus sur l’expérience de contenu](../content-management/content-experiment.md)
+1. À partir de votre expérience de contenu, vous pouvez maintenant commencer à configurer votre expérimentation de contenu. [En savoir plus sur l’expérience de contenu](../content-management/content-experiment.md)
 
 1. Lorsque votre expérience de contenu est prête, vous pouvez cliquer, depuis votre page de résumé de la campagne, sur **[!UICONTROL Examiner pour activer]** pour afficher un résumé de la campagne. Des alertes s’affichent si un paramètre est incorrect ou manquant. [En savoir plus](../content-management/content-experiment.md#treatment-experiment)
 

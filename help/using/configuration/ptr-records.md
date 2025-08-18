@@ -10,7 +10,7 @@ level: Experienced
 keywords: sous-domaine, PTR, enregistrements, DNS, domaine, courrier
 exl-id: 4c930792-0677-4ad5-a46c-8d40fc3c4d3a
 source-git-commit: 8b755351e25ecae9a2058e63919d6512ea0bf153
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '842'
 ht-degree: 100%
 

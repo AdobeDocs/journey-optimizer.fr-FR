@@ -9,9 +9,9 @@ role: User
 level: Beginner, Intermediate
 exl-id: da3ffe9c-a244-4246-b4b5-a3a1d0508676
 source-git-commit: abd5f388a41cc85c710cdb8c8e51c7fe381714ad
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '765'
-ht-degree: 85%
+ht-degree: 100%
 
 ---
 
@@ -67,7 +67,7 @@ Après avoir configuré les propriétés du fragment, le concepteur d’e-mail o
 >
 >Les [attributs contextuels](../personalization/personalization-build-expressions.md) ne sont pas pris en charge dans les fragments.
 >
->Lorsque le tracking est activé dans un parcours ou une campagne, si vous ajoutez des liens à un fragment et que ce fragment est utilisé dans un message, ces liens sont trackés comme tous les autres liens inclus dans le message. [En savoir plus sur les liens et le tracking](../email/message-tracking.md)
+>Lorsque le suivi est activé dans un parcours ou une campagne, si vous ajoutez des liens à un fragment et que ce fragment est utilisé dans un message, ces liens font l’objet d’un suivi comme tous les autres liens inclus dans le message. [En savoir plus sur les liens et le suivi](../email/message-tracking.md)
 
 * Pour les fragments visuels, modifiez votre contenu selon vos besoins, de la même manière que pour tout e-mail se trouvant dans un parcours ou une campagne. [En savoir plus](../email/get-started-email-design.md)
 
@@ -79,7 +79,7 @@ Après avoir configuré les propriétés du fragment, le concepteur d’e-mail o
 
   >[!CAUTION]
   >
-  >Les fragments ne sont pas compatibles entre les modes Utiliser des thèmes et Style manuel . Pour pouvoir utiliser un fragment dans un contenu auquel vous souhaitez appliquer un thème, ce fragment doit être créé en mode Utiliser des thèmes . [En savoir plus sur les thèmes](../email/apply-email-themes.md)
+  >Les fragments ne sont pas compatibles entre les modes Utiliser des thèmes et Style manuel. Pour pouvoir utiliser un fragment dans un contenu auquel vous souhaitez appliquer un thème, ce fragment doit être créé en mode Utiliser des thèmes. [En savoir plus sur les thèmes](../email/apply-email-themes.md)
 
 * Pour les fragments d’expression, utilisez l’éditeur de personnalisation de [!DNL Journey Optimizer] et toutes ses fonctionnalités de personnalisation et de création pour créer le contenu de votre fragment. [En savoir plus](../personalization/personalization-build-expressions.md)
 
@@ -89,7 +89,7 @@ Lorsque votre contenu est prêt, cliquez sur le bouton **[!UICONTROL Enregistrer
 
 >[!NOTE]
 >
->Les fragments visuels ne peuvent pas dépasser 100KB. Les fragments d’expression ne peuvent pas dépasser 200KB.
+>Les fragments visuels ne peuvent pas dépasser 100 Ko. Les fragments d’expression ne peuvent pas dépasser 200 Ko.
 
 Le fragment est créé et ajouté à la liste de fragments avec le statut **[!UICONTROL Brouillon]**. Vous pouvez le prévisualiser et le publier pour le rendre disponible dans les parcours et les campagnes.
 

@@ -7,9 +7,9 @@ role: User
 level: Intermediate
 exl-id: 4c57dbf9-b2a4-42da-8aa3-5a1b3a475a32
 source-git-commit: 41563414b2118ae1fcde65874c56f38daf4fa9ab
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '521'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -28,7 +28,7 @@ Ces éléments de décision sont intégrés de manière transparente à un large
 
 >[!IMPORTANT]
 >
->Les politiques de décision peuvent uniquement être utilisées dans une expérience basée sur du code et des campagnes par e-mail.
+>Les politiques de décision, dans la prise de décision, ne peuvent être utilisées que dans des campagnes d’expérience basée sur du code et des campagnes par e-mail.
 
 ➡️ Un cas d’utilisation de bout en bout montrant comment créer des décisions et les utiliser dans des expériences de contenu avec le canal d’expérience basé sur du code est présenté dans [cette section](experience-decisioning-uc.md).
 
@@ -56,7 +56,7 @@ Les principales étapes pour utiliser la prise de décision sont les suivantes 
 
    La personne doit alors recevoir un e-mail la redirigeant vers votre instance.
 
-   +++
++++
 
 1. **Configurez des attributs personnalisés** : personnalisez le catalogue d’éléments selon vos besoins spécifiques en configurant des attributs personnalisés dans le schéma du catalogue.
 
@@ -82,8 +82,8 @@ Les principales étapes pour utiliser la prise de décision sont les suivantes 
 
    ➡️ [Découvrez comment créer des stratégies de sélection](selection-strategies.md) dans l’interface d’utilisation (et dans la documentation de l’[API](api-reference/selection-strategies/create.md)).
 
-1. **Créez une politique de décision et incorporez-la dans votre parcours/campagne basé sur le code ou par e-mail** : les politiques de décision combinent plusieurs stratégies de sélection pour déterminer les éléments de décision éligibles à afficher à l’audience prévue.
+1. **Créez une politique de décision et incorporez-la dans votre parcours basé sur du code ou par e-mail ou votre campagne basée sur du code ou par e-mail** : les politiques de décision combinent plusieurs stratégies de sélection pour déterminer les éléments de décision éligibles à afficher pour l’audience prévue.
 
-   ➡️ [Découvrez comment utiliser les politiques de décision](create-decision.md)
-➡️ Pour diffuser l’offre par l’intermédiaire du canal d’expérience basé sur du code, suivez les étapes d’implémentation de [cette section](../code-based/code-based-implementation-samples.md).
+   ➡️ [Découvrez comment utiliser les politiques de décision](create-decision.md).
+➡️ Pour diffuser l’offre par l’intermédiaire du canal d’expérience basée sur du code, suivez les étapes d’implémentation de [cette section](../code-based/code-based-implementation-samples.md).
 

@@ -9,9 +9,9 @@ role: User
 level: Beginner, Intermediate
 exl-id: 70e88ea0-f2b0-4c13-8693-619741762429
 source-git-commit: abd5f388a41cc85c710cdb8c8e51c7fe381714ad
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '509'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
@@ -23,7 +23,7 @@ Lors de la modification de contenu dans [!DNL Journey Optimizer], vous pouvez en
 >
 >Les [attributs contextuels](../personalization/personalization-build-expressions.md) ne sont pas pris en charge dans les fragments.
 >
->Lorsque le tracking est activé dans un parcours ou une campagne, si des liens sont présents dans un fragment enregistré et si ce fragment est utilisé dans un message, ces liens sont suivis comme tous les autres liens inclus dans le message. [En savoir plus sur les liens et le tracking](../email/message-tracking.md)
+>Lorsque le suivi est activé dans un parcours ou une campagne, si des liens sont présents dans un fragment enregistré et si ce fragment est utilisé dans un message, ces liens font l’objet d’un suivi comme tous les autres liens inclus dans le message. [En savoir plus sur les liens et le suivi](../email/message-tracking.md)
 
 ## Enregistrer en tant que fragment visuel {#save-as-visual-fragment}
 
@@ -37,7 +37,7 @@ Pour enregistrer le contenu du concepteur d’e-mail en tant que fragment, proc�
 
    >[!NOTE]
    >
-   >Les fragments visuels ne peuvent pas dépasser 100KB.
+   >Les fragments visuels ne peuvent pas dépasser 100 Ko.
 
 1. L’écran **[!UICONTROL Enregistrer en tant que fragment]** s’affiche. Sélectionnez ensuite les éléments à inclure dans votre fragment, notamment les champs de personnalisation et le contenu dynamique.
 
@@ -49,7 +49,7 @@ Pour enregistrer le contenu du concepteur d’e-mail en tant que fragment, proc�
 
 1. Cliquez sur **[!UICONTROL Créer]** et renseignez le nom et la description du fragment (si nécessaire).
 
-1. Pour attribuer des libellés d’utilisation des données personnalisés ou de base au fragment, sélectionnez le bouton **[!UICONTROL Gérer l’accès]** dans la partie supérieure de l’écran. [En savoir plus sur le contrôle d’accès au niveau de l’objet (OLAC)](../administration/object-based-access.md)
+1. Pour attribuer des libellés d’utilisation des données personnalisés ou de base au fragment, cliquez sur le bouton **[!UICONTROL Gérer l’accès]** dans la partie supérieure de l’écran. [En savoir plus sur le contrôle d’accès au niveau de l’objet (OLAC)](../administration/object-based-access.md)
 
 1. Sélectionnez ou créez des balises Adobe Experience Platform à partir du champ **Balises** pour classer votre modèle en vue d’une recherche améliorée. [En savoir plus](../start/search-filter-categorize.md#tags)
 

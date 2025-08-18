@@ -10,9 +10,9 @@ level: Experienced
 keywords: paramètres, e-mail, configuration, sous-domaine
 exl-id: 1e004a76-5d6d-43a1-b198-5c9b41f5332c
 source-git-commit: c3513c087a05f2258e00fd4d80fdb23bedfd9188
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1171'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -128,7 +128,7 @@ Pour utiliser des variables personnalisées pour vos paramètres d’en-tête de
 
 Pour utiliser des paramètres personnalisés de tracking des URL, procédez comme suit.
 
-1. Accédez à la section **[!UICONTROL Paramètres de tracking d’URL]** de la configuration de votre canal e-mail. [En savoir plus](url-tracking.md)
+1. Accédez à la section **[!UICONTROL Paramètres de suivi des URL]** de la configuration du canal e-mail. [En savoir plus](url-tracking.md)
 
 1. Cliquez sur l’icône Modifier en regard de chaque champ. En plus des attributs contextuels, vous pouvez sélectionner des attributs de profil.
 

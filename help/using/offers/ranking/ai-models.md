@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 exl-id: 4f7f7d1d-a12a-4ff6-b0ff-1a1c3d305a9d
 source-git-commit: c79b860d4220b3125bbee2240e047552a04fe118
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '371'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -25,7 +25,7 @@ Vous pouvez par exemple sélectionner un modèle d’IA pour le canal e-mail et 
 
 >[!IMPORTANT]
 >
->Actuellement, les modèles d’IA ne sont pas pris en charge dans les canaux créés Journey Optimizer.
+>Pour l’instant, les modèles d’IA ne sont pas pris en charge dans les canaux créés par Journey Optimizer.
 
 ## Types de modèles d’IA {#ai-model-types}
 
@@ -53,6 +53,6 @@ Les principales étapes pour créer et utiliser des modèles d’IA sont les sui
 
    >[!IMPORTANT]
    >
-   >Les modèles d’IA nécessitent que des événements de commentaires soient envoyés en tant qu’événements d’expérience afin d’être collectés. [En savoir plus sur la collecte de données de la gestion des décisions](../data-collection/data-collection.md)
+   >Les modèles d’IA exigent que des événements de retour soient envoyés en tant qu’événements d’expérience afin d’être collectés. [En savoir plus sur la collecte de données de la gestion des décisions](../data-collection/data-collection.md)
 
 1. Affectez le modèle d’IA à un emplacement dans une décision de classement des offres éligibles. [En savoir plus](../offer-activities/configure-offer-selection.md)

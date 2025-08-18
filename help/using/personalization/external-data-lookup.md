@@ -10,9 +10,9 @@ hidefromtoc: true
 badge: label="Disponibilité limitée" type="Informative"
 exl-id: eae8a09a-5d27-4a80-b21f-7f795d800602
 source-git-commit: 5df643d2b0623d40779d155e406467d622d3d753
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1198'
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 
@@ -35,14 +35,14 @@ Une fois l’action définie, elle peut être utilisée à la fois :
 
 Reportez-vous également à la section Actions personnalisées dans Canaux, campagnes et parcours entrants[!DNL Journey Optimizer]#Mécanismes de sécurisation et directives.
 
-* **Délai d’expiration par défaut** - Par défaut, [!DNL Journey Optimizer] utilise un délai d’expiration de 300 ms lors de l’appel d’un point d’entrée externe. Contactez votre représentant Adobe pour augmenter ce délai d’expiration pour un point d’entrée.
-* **Exploration du schéma de réponse et validation des expressions** - Dans l’éditeur de personnalisation, vous ne pouvez pas parcourir le schéma de la réponse de point d’entrée lors de l’insertion d’expressions. [!DNL Journey Optimizer] ne valide pas les références aux attributs JSON de la réponse utilisée dans les expressions.
-* **Types de données pris en charge pour les paramètres** - Les types de données pris en charge pour les paramètres de variable de payload à remplacer via l’assistant externalDataLookup sont `String`, `Integer`, `Decimal`, `Boolean`, `listString`, `listInt`, `listInteger` et `listDecimal`.
-* **Actualisation automatique pour les actions mises à jour** - Les modifications apportées à une configuration d’action ne sont pas répercutées dans les appels externalDataLookup correspondants dans les campagnes et parcours dynamiques. Pour qu’une modification soit prise en compte, vous devez copier ou modifier les campagnes ou parcours actifs qui utilisent l’action dans un assistant externalDataLookup.
-* **Substitution de variable** - Pour l’instant, l’utilisation des variables n’est pas prise en charge dans les paramètres de l’assistant externalDataLookup.
-* **Chemin dynamique** - Pour l’instant, le chemin URL dynamique n’est pas pris en charge.
-* **Rendu en plusieurs passages** - Le rendu en plusieurs passages est pris en charge.
-* **Authentification** - Pour l’instant, les options d’authentification dans la configuration de l’action ne sont pas prises en charge par l’assistant externalDataLookup. En attendant, pour une authentification basée sur une clé API, ou d’autres clés d’autorisation en texte brut, vous pouvez les spécifier comme champs d’en-tête dans la configuration de l’action.
+* **Temporisation par défaut** : par défaut, [!DNL Journey Optimizer] utilise une temporisation de 300 ms lors de l’appel d’un point d’entrée externe. Contactez votre représentant ou représentante Adobe pour augmenter cette temporisation pour un point d’entrée.
+* **Exploration du schéma de réponse et validation des expressions** : dans l’éditeur de personnalisation, vous ne pouvez pas parcourir le schéma de la réponse du point d’entrée lors de l’insertion d’expressions. [!DNL Journey Optimizer] ne valide pas les références aux attributs JSON de la réponse utilisée dans les expressions.
+* **Types de données pris en charge pour les paramètres** : les types de données pris en charge pour les paramètres de variable de payload à remplacer via l’assistant externalDataLookup sont `String`, `Integer`, `Decimal`, `Boolean`, `listString`, `listInt`, `listInteger` et `listDecimal`.
+* **Actualisation automatique des actions mises à jour** : les modifications apportées à une configuration d’action ne sont pas prises en compte dans les appels externalDataLookup correspondants dans les campagnes et les parcours actifs. Pour qu’une modification soit prise en compte, vous devez copier ou modifier les campagnes ou parcours actifs qui utilisent l’action dans un assistant externalDataLookup.
+* **Remplacement des variables** : pour l’instant, l’utilisation des variables n’est pas prise en charge dans les paramètres de l’assistant externalDataLookup.
+* **Chemin dynamique** : pour l’instant, le chemin d’URL dynamique n’est pas pris en charge.
+* **Rendu à plusieurs passes** : le rendu à plusieurs passes est pris en charge.
+* **Authentification** : pour l’instant, les options d’authentification dans la configuration d’action ne sont pas prises en charge par l’assistant externalDataLookup. En attendant, pour une authentification basée sur une clé API, ou d’autres clés d’autorisation en texte brut, vous pouvez les spécifier comme champs d’en-tête dans la configuration de l’action.
 
 ## Configurer une action et utiliser l’assistant
 

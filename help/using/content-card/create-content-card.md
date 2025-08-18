@@ -7,9 +7,9 @@ role: User
 level: Beginner
 exl-id: a26bb3bd-d593-466b-9852-94e194d6d2b7
 source-git-commit: ee2e07353762a81aadd3d63580c528f617599623
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1369'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 94%
 
 >[!IMPORTANT]
 >
->Par défaut, le bouton Fermer masque la carte. Pour ajouter d’autres fonctionnalités, vous pouvez définir manuellement des règles de licenciement ou de disqualification.
+>Par défaut, le bouton Fermer masque la carte. Pour ajouter d’autres fonctionnalités, vous pouvez définir manuellement des règles de rejet ou de disqualification.
 
 >[!BEGINTABS]
 
@@ -37,7 +37,7 @@ Pour ajouter des cartes de contenu à un parcours, procédez comme suit :
 
 1. Vous pouvez maintenant commencer à concevoir votre contenu à l’aide du bouton **[!UICONTROL Modifier le contenu]**. [En savoir plus](design-content-card.md).
 
-1. Activez l’option **[!UICONTROL Activer des règles de diffusion supplémentaires]** puis sélectionnez **[!UICONTROL Modifier les règles]** pour définir à quel moment votre message doit être affiché, ignoré ou définitivement masqué.
+1. Activez l’option **[!UICONTROL Activer des règles de diffusion supplémentaires]**, puis sélectionnez **[!UICONTROL Modifier les règles]** pour définir à quel moment votre message doit être affiché, ignoré ou définitivement masqué.
 
    ![](assets/content-card-jo-3.png)
 
@@ -57,7 +57,7 @@ Pour ajouter des cartes de contenu à un parcours, procédez comme suit :
       | Cycle de vie de l’application | Fermeture de l’application | Déclenchée lorsque l’application est fermée. |
       | Cycle de vie de l’application | Crash de l‘application | Déclenché lorsque l’application n’est pas mise en arrière-plan avant sa fermeture. L’événement est envoyé au démarrage de l’application après son crash. La création de rapports de crash d’Adobe Mobile n’implémente pas un gestionnaire global d’exceptions non interceptées. |
 
-      +++
++++
 
    1. Choisissez la condition **[!UICONTROL Ou]** si vous souhaitez ajouter d’autres **[!UICONTROL Déclencheurs]** pour développer davantage votre règle.
 
@@ -82,7 +82,7 @@ Pour ajouter des cartes de contenu à un parcours, procédez comme suit :
       | Cycle de vie de l’application | Lancements | Déclenché lorsque le nombre spécifié de lancements est atteint. |
       | Cycle de vie de l’application | Heure | Déclenché lorsque l’heure spécifiée du jour est atteinte. |
 
-      +++
++++
 
    1. Cliquez sur **[!UICONTROL Créer un groupe]** pour regrouper les déclencheurs.
 
@@ -120,7 +120,7 @@ Pour commencer à créer vos cartes de contenu par le biais d’une campagne, su
 
 1. Pour tester le contenu de votre message, cliquez sur **[!UICONTROL Créer une expérience]**. Vous pouvez ainsi tester plusieurs variables d’une diffusion sur des échantillons de population afin de déterminer quel traitement a le plus d’impact sur l’audience ciblée. [En savoir plus sur l’expérience de contenu](../content-management/content-experiment.md).
 
-1. Activez l’option **[!UICONTROL Activer des règles de diffusion supplémentaires]** puis sélectionnez **[!UICONTROL Modifier les règles]** pour définir à quel moment votre message doit être affiché, ignoré ou définitivement masqué.
+1. Activez l’option **[!UICONTROL Activer des règles de diffusion supplémentaires]**, puis sélectionnez **[!UICONTROL Modifier les règles]** pour définir à quel moment votre message doit être affiché, ignoré ou définitivement masqué.
 
    Utilisez les créateurs de règles pour définir des conditions spécifiques qui déclenchent ces actions.
 
@@ -140,7 +140,7 @@ Pour commencer à créer vos cartes de contenu par le biais d’une campagne, su
       | Cycle de vie de l’application | Fermeture de l’application | Déclenchée lorsque l’application est fermée. |
       | Cycle de vie de l’application | Crash de l‘application | Déclenché lorsque l’application n’est pas mise en arrière-plan avant sa fermeture. L’événement est envoyé au démarrage de l’application après son crash. La création de rapports de crash d’Adobe Mobile n’implémente pas un gestionnaire global d’exceptions non interceptées. |
 
-      +++
++++
 
    1. Choisissez la condition **[!UICONTROL Ou]** si vous souhaitez ajouter d’autres **[!UICONTROL Déclencheurs]** pour développer davantage votre règle.
 
@@ -165,7 +165,7 @@ Pour commencer à créer vos cartes de contenu par le biais d’une campagne, su
       | Cycle de vie de l’application | Lancements | Déclenché lorsque le nombre spécifié de lancements est atteint. |
       | Cycle de vie de l’application | Heure | Déclenché lorsque l’heure spécifiée du jour est atteinte. |
 
-      +++
++++
 
    1. Cliquez sur **[!UICONTROL Créer un groupe]** pour regrouper les déclencheurs.
 

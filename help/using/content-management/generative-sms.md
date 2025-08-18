@@ -9,9 +9,9 @@ role: User
 level: Beginner
 exl-id: 5fd1cc3a-c023-4e8e-bfac-9a86bd33bbb3
 source-git-commit: 1f7fd3468d85852931c6a753c2363ebe5a293b33
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '577'
-ht-degree: 86%
+ht-degree: 100%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 86%
 >[!IMPORTANT]
 >
 >Avant de commencer à utiliser cette fonctionnalité, lisez la section connexe [Mécanismes de sécurisation et limitations](gs-generative.md#generative-guardrails).
->&#x200B;></br>
+>></br>
 >
 >Vous devez accepter un [contrat d’utilisation](https://www.adobe.com/fr/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html) avant de pouvoir utiliser l’Assistant IA dans Journey Optimizer. Pour plus d’informations, contactez votre représentant ou représentante Adobe.
 
@@ -69,9 +69,9 @@ Cette ressource offre des recommandations pertinentes pour affiner votre contenu
 
    Cliquez sur **[!UICONTROL Aperçu]** pour afficher une version en plein écran de la variation sélectionnée ou cliquez sur **[!UICONTROL Appliquer]** pour remplacer votre contenu actuel.
 
-1. Cliquez sur l’icône de pourcentage pour afficher votre **[!UICONTROL score d’alignement des marques]** et identifier les alignements incorrects avec votre marque.
+1. Cliquez sur l’icône de pourcentage pour afficher votre **[!UICONTROL score d’alignement sur la marque]** et identifier tout décalage avec votre marque.
 
-   En savoir plus sur le [score d’alignement des marques](brands-score.md).
+   En savoir plus sur le [score d’alignement sur la marque](brands-score.md).
 
    ![](assets/sms-genai-5.png){zoomable="yes"}
 
@@ -79,7 +79,7 @@ Cette ressource offre des recommandations pertinentes pour affiner votre contenu
 
    * **[!UICONTROL Utiliser comme contenu de référence]** : la variante choisie servira de contenu de référence pour générer d’autres résultats.
 
-   * **[!UICONTROL Reformuler]**:The l’assistant d’IA peut reformuler votre message de différentes manières, ce qui vous permet d’écrire des textes frais et attrayants pour diverses audiences.
+   * **[!UICONTROL Reformuler]**:The : l’Assistant IA peut reformuler votre message de différentes manières en conservant une écriture soignée et attrayante pour diverses audiences.
 
    * **[!UICONTROL Utiliser un langage simplifié]** : utilisez l’Assistant IA pour simplifier votre langage, garantissant ainsi clarté et accessibilité pour une audience plus large.
 
@@ -87,7 +87,7 @@ Cette ressource offre des recommandations pertinentes pour affiner votre contenu
 
    ![](assets/sms-genai-4.png){zoomable="yes"}
 
-1. Ouvrez l’onglet **[!UICONTROL Alignement des marques]** pour voir comment votre contenu s’aligne sur vos [directives de marque](brands.md).
+1. Ouvrez l’onglet **[!UICONTROL Alignement sur la marque]** pour voir comment votre contenu s’aligne sur vos [directives de marque](brands.md).
 
 1. Cliquez sur **[!UICONTROL Sélectionner]** une fois que vous avez trouvé le contenu approprié.
 

@@ -1,8 +1,8 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Définir l’audience de la campagne Action
-description: Découvrez comment définir l’audience de la campagne Action.
+title: Définir l’audience d’une campagne d’action
+description: Découvrez comment définir l’audience d’une campagne d’action.
 feature: Campaigns
 topic: Content Management
 role: User
@@ -11,13 +11,13 @@ mini-toc-levels: 1
 keywords: créer, optimizer, campagne, surface, messages
 exl-id: 5635ef04-c69d-4397-9762-7a6f1265d453
 source-git-commit: 3a44111345c1627610a6b026d7b19b281c4538d3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '196'
-ht-degree: 83%
+ht-degree: 100%
 
 ---
 
-# Définir l’audience de la campagne Action {#action-campaign-audience}
+# Définir l’audience d’une campagne d’action {#action-campaign-audience}
 
 Utilisez l’onglet **[!UICONTROL Audience]** pour définir l’audience de la campagne.
 
@@ -39,4 +39,4 @@ Utilisez l’onglet **[!UICONTROL Audience]** pour définir l’audience de la c
 
 ## Étapes suivantes {#next}
 
-Une fois que l’audience de votre campagne Action est prête, vous pouvez planifier la campagne. [En savoir plus](campaign-schedule.md)
+Une fois l’audience de votre campagne d’action prête, vous pouvez planifier la campagne. [En savoir plus](campaign-schedule.md)

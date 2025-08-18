@@ -7,9 +7,9 @@ role: Data Engineer
 level: Experienced
 exl-id: 8674ef9e-261b-49d9-800e-367f9f7ef979
 source-git-commit: 1f16b095b3b063f3fb881aee0b2a928644e19143
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1859'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -665,7 +665,7 @@ La fonction `replaceAll` permet de remplacer toutes les sous-chaînes d’un tex
 
 ## Supprimer à droite {#rightTrim}
 
-La fonction `rightTrim` supprime les espaces blancs de la fin d&#39;une chaîne.
+La fonction `rightTrim` est utilisée pour supprimer les espaces blancs de la fin d’une chaîne.
 
 **Syntaxe**
 
@@ -689,7 +689,7 @@ La fonction `SHA256` calcule et renvoie le hachage sha256 d’une chaîne.
 {%= sha256("Eliechxh")%}
 ```
 
-renvoie : `0b0b207880b999adaad6231026abf87caa30760b6f326b21727b61139332257d`
+renvoie : `0b0b207880b999adaad6231026abf87caa30760b6f326b21727b61139332257d`
 
 ## Fractionner {#split}
 

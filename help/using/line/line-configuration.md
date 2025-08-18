@@ -8,9 +8,9 @@ role: Admin
 level: Intermediate
 exl-id: 8ad0e57b-6bdc-43b0-9511-31e2ac1be1f9
 source-git-commit: bc734ed1249b1ec186eb5f479d605bafee8a1d06
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '351'
-ht-degree: 78%
+ht-degree: 100%
 
 ---
 
@@ -53,9 +53,9 @@ ht-degree: 78%
 
 Vous pouvez maintenant sélectionner votre configuration lors de la création du message LINE.
 
-## Configuration de l’API des paramètres du canal LINE {#line-api}
+## Configurer l’API des paramètres du canal LINE {#line-api}
 
-Cette API configure les paramètres de canal qui stockent les détails d&#39;autorisation et de configuration nécessaires pour la connexion à l&#39;API de messagerie LINE. Ces paramètres permettent à Adobe Journey Optimizer de s’authentifier et d’envoyer des messages via LINE à l’aide des informations d’identification fournies.
+Cette API configure les paramètres de canal qui stockent les détails d’autorisation et de configuration nécessaires pour la connexion à l’API LINE Messaging. Ces paramètres permettent à Adobe Journey Optimizer de s’authentifier et d’envoyer des messages via LINE à l’aide des informations d’identification fournies.
 
 **Point d’entrée**
 
@@ -65,9 +65,9 @@ POST https://platform.adobe.io/journey/imp/config/channel-settings
 
 | Nom de l’en-tête | Description |
 |-|-|
-| Autorisation | Jeton d&#39;utilisateur de votre compte technique |
-| x-api-key | Identifiant du client à partir de Adobe Developer Console |
-| x-gw-ims-org-id | Votre identifiant de l’organisation IMS |
+| Autorisation | Jeton de l’utilisateur ou l’utilisatrice de votre compte technique |
+| x-api-key | ID du client à partir d’Adobe Developer Console |
+| x-gw-ims-org-id | Votre ID d’organisation IMS |
 | x-sandbox-name | Nom du sandbox, par exemple prod |
 | Content-Type | Doit être application/json. |
 
