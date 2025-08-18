@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Notes de mise à jour d’Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 2afc9c4eb2a0433a22f1b369824086db2f5618ec
+source-git-commit: 5414f5a4c7bec643151f556375e0c58367d1c3bd
 workflow-type: tm+mt
-source-wordcount: '1776'
-ht-degree: 44%
+source-wordcount: '1749'
+ht-degree: 45%
 
 ---
 
@@ -153,10 +153,10 @@ Les nouvelles fonctionnalités de cette version sont présentées ci-dessous.
 <tbody>
 <tr>
 <td>
-<p>Journey Optimizer vous fournit désormais les outils nécessaires pour optimiser vos parcours en utilisant l’IA et les frameworks d’expérimentation, tout en garantissant une convivialité transparente et une différenciation entre les fonctionnalités de condition et d’optimisation.</p>
-<p>Utilisez l’optimisation des chemins d’accès pour cibler, expérimenter ou utiliser l’IA afin de déterminer le séquencement des communications, le temps écoulé entre les deux, les combinaisons de canaux et tout ce dont vous pouvez rêver sur la zone de travail du parcours.</p>
+<p><!--Journey Optimizer now empowers you with the tools to optimize your journeys by leveraging AI and experimentation frameworks while ensuring seamless usability and differentiation between condition and optimization functionalities.--></p>
+<p>Utilisez la nouvelle activité Optimiser pour cibler, expérimenter ou utiliser l’IA afin de déterminer le séquencement des communications, le temps écoulé entre les deux, les combinaisons de canaux et tout ce dont vous pouvez rêver sur la zone de travail du parcours.</p>
 <p>Cette fonctionnalité est en disponibilité limitée. Contactez votre représentant ou représentante Adobe pour obtenir l’accès.</p>
-<p><!--img src="assets/do-not-localize/FILE.gif"/>--></p>
+<p><!--img src="assets/do-not-localize/optimize.gif"/>--></p>
 <p><!--For more information, refer to the <a href="../FILE.md">detailed documentation</a>--></p>
 </td>
 </tr>
