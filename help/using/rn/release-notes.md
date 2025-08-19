@@ -9,7 +9,7 @@ exl-id: 06fa956a-b500-416e-9d42-b683c328e837
 source-git-commit: 5414f5a4c7bec643151f556375e0c58367d1c3bd
 workflow-type: tm+mt
 source-wordcount: '1749'
-ht-degree: 45%
+ht-degree: 98%
 
 ---
 
@@ -49,7 +49,7 @@ Les nouvelles fonctionnalités de cette version sont présentées ci-dessous.
 <p>Vous pouvez suspendre et reprendre un seul parcours ou un groupe de parcours par le biais d’opérations en bloc.</p>
 <p>En outre, vous pouvez appliquer des filtres globaux aux parcours suspendus afin d’exclure les profils en fonction de leurs attributs.</p>
 <p><!--img src="assets/do-not-localize/PauseResume.gif"/>--></p>
-<p>Publiée précédemment en disponibilité limitée, cette fonctionnalité est désormais disponible dans tous les environnements (disponibilité générale).</p>
+<p>Publiée précédemment en disponibilité limitée, cette fonctionnalité est désormais proposée dans tous les environnements (disponibilité générale).</p>
 <p><!--For more information, refer to the <a href="../building-journeys/journey-pause.md">detailed documentation</a>--></p>
 </td>
 </tr>
@@ -68,9 +68,9 @@ Les nouvelles fonctionnalités de cette version sont présentées ci-dessous.
 <p>Une vue Calendrier est désormais disponible dans les listes des parcours et des campagnes. Elle vous permet de visualiser toutes les activations de parcours et de campagnes dans les listes respectives.</p>
 <p>Publiée précédemment en disponibilité limitée, cette fonctionnalité est désormais disponible dans tous les environnements. Avec cette version en disponibilité générale, la fonctionnalité inclut les points suivants :</p>
 <ul>
-<li>Améliorations de la conception de la navigation dans les dates,</li>
-<li>La possibilité de voir les brouillons de campagne si vous avez défini une date de début et de fin,</li>
-<li>Nouveau paramètre permettant de masquer et d’afficher les éléments de calendrier s’exécutant depuis longtemps.</li>
+<li>Améliorations de la conception pour la navigation dans les dates</li>
+<li>Possibilité de voir les brouillons de campagne si vous avez défini une date de début et une date de fin</li>
+<li>Nouveau paramètre permettant de masquer et d’afficher les éléments de calendrier s’exécutant sur une longue période</li>
 </ul>
 <p><!--img src="assets/do-not-localize/calendar.gif"/>--></p>
 <p><!--For more information, refer to the <a href="../building-journeys/journey-ui.md#journeys-calendar">detailed documentation</a>--></p>
@@ -111,12 +111,12 @@ Les nouvelles fonctionnalités de cette version sont présentées ci-dessous.
 <tbody>
 <tr>
 <td>
-<p>Tirez parti des données de [!DNL Adobe Experience Platform] dans l’éditeur de personnalisation pour personnaliser votre contenu et vos attributs de décision. Cela vous permet en particulier d’étendre la définition de vos attributs à des données supplémentaires dans les jeux de données pour les mises à jour en bloc qui changent périodiquement sans avoir à mettre à jour manuellement les attributs un par un.</p>
-<p>Les améliorations suivantes ont été apportées à cette version :</p>
+<p>Tirez parti des données d’[!DNL Adobe Experience Platform] dans l’éditeur de personnalisation pour personnaliser votre contenu et vos attributs de décision. Vous pouvez notamment étendre la définition de vos attributs aux données supplémentaires des jeux de données pour les mises à jour en masse qui changent régulièrement sans avoir à mettre à jour manuellement les attributs un par un.</p>
+<p>Les améliorations suivantes ont été apportées à cette version :</p>
 <ul>
-<li>Prise en charge des canaux entrants,</li>
-<li>La fonction d’assistance « datasetLookup » peut désormais être utilisée dans les fragments d’expression et visuels pour personnaliser le contenu à l’aide des données des jeux de données Adobe Experience Platform.</li>
-<li>Une option du jeu de données vous permet désormais d’activer les jeux de données pour la personnalisation de la recherche, sans avoir à effectuer d’appel API.</li>
+<li>Prise en charge des canaux entrants</li>
+<li>La fonction d’assistance « datasetLookup » peut désormais être utilisée dans les fragments d’expression et fragments visuels pour personnaliser le contenu à l’aide de données des jeux de données Adobe Experience Platform.</li>
+<li>Une option du jeu de données vous permet désormais d’activer les jeux de données pour la personnalisation de la recherche, sans avoir à effectuer d’appel API.</li>
 </ul>
 <p>Cette fonctionnalité est en disponibilité limitée. Contactez votre représentant ou représentante Adobe pour obtenir l’accès.</p>
 <p><!--img src="assets/do-not-localize/FILE.gif"/>--></p>
@@ -147,7 +147,7 @@ Les nouvelles fonctionnalités de cette version sont présentées ci-dessous.
 <table>
 <thead>
 <tr>
-<th><strong>Optimisation du chemin d’accès au parcours</strong><br/></th>
+<th><strong>Optimisation des chemins de parcours</strong><br/></th>
 </tr>
 </thead>
 <tbody>
@@ -166,18 +166,18 @@ Les nouvelles fonctionnalités de cette version sont présentées ci-dessous.
 <table>
 <thead>
 <tr>
-<th><strong>Activité Action dans les parcours</strong><br/></th>
+<th><strong>Activité d’action dans les parcours</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Journey Optimizer prend en charge une nouvelle activité d’action générique qui vous permet de configurer des groupes d’actions entrants à action unique et à actions multiples, ce qui permet de rationaliser la configuration des actions dans la zone de travail de parcours. Cette nouvelle fonctionnalité permet notamment :</p>
+<p>Journey Optimizer prend en charge une nouvelle activité d’action générique qui vous permet de configurer des actions uniques et des groupes d’actions entrantes multiples, ce qui simplifie la configuration des actions dans la zone de travail de parcours. Cette nouvelle fonctionnalité permet notamment les opérations suivantes :</p>
 <ul>
-<li>Configuration d’action native simplifiée dans la zone de travail de parcours.</li>
-<li>Capacité à créer des nœuds entrants à actions multiples.</li>
-<li>Possibilité d’ajouter une optimisation à toute action de canal intégrée.</li>
-<li>Possibilité d’ajouter des options d’expérimentation et multilingues à n’importe quelle action.</li>
+<li>Configuration d’action native simplifiée dans la zone de travail de parcours</li>
+<li>Capacité à créer des nœuds entrants à actions multiples</li>
+<li>Possibilité d’ajouter une optimisation à toute action de canal intégrée</li>
+<li>Possibilité d’ajouter des options d’expérimentation et multilingues à n’importe quelle action</li>
 </ul>
 <p>Cette fonctionnalité est en disponibilité limitée. Contactez votre représentant ou représentante Adobe pour obtenir l’accès.</p>
 <p><!--img src="assets/do-not-localize/pdf-attachments.gif"/>--></p>
@@ -190,17 +190,17 @@ Les nouvelles fonctionnalités de cette version sont présentées ci-dessous.
 <table>
 <thead>
 <tr>
-<th><strong>Pièces jointes PDF aux e-mails</strong><br/></th>
+<th><strong>Pièces jointes PDF aux e-mails</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Vous pouvez désormais joindre un fichier PDF statique à un e-mail envoyé avec Journey Optimizer.</p>
+<p>Vous pouvez désormais joindre un fichier PDF statique à un e-mail envoyé avec Journey Optimizer.</p>
 <ul>
-<li>Vous pouvez envoyer jusqu'à 6 messages avec une pièce jointe PDF par profil et par an.</li>
-<li>La taille de fichier maximale autorisée pour chaque pièce jointe est de 5 Mo.</li>
-<li>Pour toute taille ou volume supplémentaire, vous pouvez acheter un module complémentaire de pack de pièces jointes. Pour plus d’informations, contactez votre représentant Adobe.</li>
+<li>Vous pouvez envoyer jusqu’à 6 messages avec une pièce jointe PDF par profil et par an.</li>
+<li>La taille maximale autorisée pour chaque fichier joint est de 5 Mo.</li>
+<li>Pour augmenter la taille ou le volume, vous pouvez acheter un module complémentaire de pack de pièces jointes. Pour plus d’informations, contactez votre représentant ou représentante Adobe.</li>
 </ul>
 <p>Cette fonctionnalité est en disponibilité limitée. Contactez votre représentant ou représentante Adobe pour obtenir l’accès.</p>
 <p><!--img src="assets/do-not-localize/FILE.gif"/>--></p>
@@ -220,7 +220,7 @@ Les nouvelles fonctionnalités de cette version sont présentées ci-dessous.
 <tr>
 <td>
 <p>Avec [!DNL Journey Optimizer], vous pouvez désormais capturer les attributs de profil via vos pages de destination.</p>
-<p>Créez, concevez et gérez des formulaires personnalisés adaptés à vos besoins en fonction d’un jeu de données spécifique. Vous pouvez ensuite exploiter ces formulaires dans les pages de destination pour ajouter les attributs de profil de votre choix au jeu de données défini pour chaque formulaire.</p>
+<p>Créez, concevez et gérez des formulaires personnalisés adaptés à vos besoins en fonction d’un jeu de données spécifique. Vous pouvez ensuite utiliser ces formulaires dans les pages de destination pour ajouter les attributs de profil de votre choix au jeu de données défini pour chaque formulaire.</p>
 <p>Cette fonctionnalité est en disponibilité limitée. Contactez votre représentant ou représentante Adobe pour obtenir l’accès.</p>
 <p><!--This capability is currently in beta version and only available to beta customers. To join the beta program, contact your Adobe representative.--></p>
 <p><!--img src="assets/do-not-localize/FILE.gif"/>--></p>
@@ -250,7 +250,7 @@ Les nouvelles fonctionnalités de cette version sont présentées ci-dessous.
 </ul>
 <P>Une fois la campagne active, les profils sont évalués en fonction des critères définis. Puis, en fonction des critères correspondants, ils sont diffusés avec l’expérience ou le contenu approprié de la campagne.</p>
 <p><img src="assets/do-not-localize/campaign-optimization.gif"/></p>
-<p>Date de publication : 8 août 2025</p>
+<p>Date de publication : 8 août 2025</p>
 <p>Pour plus d’informations, consultez la <a href="../campaigns/campaigns-message-optimization.md">documentation détaillée</a>.</p>
 </td>
 </tr>
@@ -263,55 +263,55 @@ Les améliorations de cette version sont présentées ci-dessous.
 
 * **Administration**
 
-   * **Alertes de surveillance de la configuration des canaux** - Vous pouvez désormais vous abonner pour recevoir des alertes système, par e-mail ou dans le centre de notifications Journey Optimizer, au cas où <!--a channel configuration failure happens or if -->un enregistrement DNS est manquant.
+   * **Alertes de surveillance de la configuration des canaux** : vous pouvez désormais vous abonner pour recevoir des alertes système, par e-mail ou dans le centre de notifications Journey Optimizer, au cas où <!--a channel configuration failure happens or if -->un enregistrement DNS est manquant.
 
 * **Campagnes**
 
-   * **Contrôle des taux dans les campagnes sortantes** - Vous pouvez désormais activer le contrôle des taux pour les campagnes sortantes (e-mail, SMS, notifications push), ce qui vous permet d’éviter la surcharge des systèmes en aval, tels que les pages de destination ou les plateformes d’assistance clientèle.
+   * **Contrôle des taux dans les campagnes sortantes** : vous pouvez désormais activer le contrôle des taux pour les campagnes sortantes (e-mail, SMS, notifications push), ce qui vous permet d’éviter la surcharge des systèmes en aval, tels que les pages de destination ou les plateformes d’assistance clientèle.
 
-   * **Planification de campagne d’action** - Les planificateurs de campagne quotidiens, hebdomadaires et mensuels ont été mis à jour afin de fournir un contrôle plus détaillé des planifications récurrentes :
+   * **Planification de campagnes d’action** : les planificateurs de campagnes quotidiens, hebdomadaires et mensuels ont été mis à jour afin d’assurer un contrôle plus détaillé des planifications récurrentes :
 
-      * **Périodicité hebdomadaire** : vous pouvez désormais choisir de répéter la campagne toutes les semaines ou toutes les deux semaines, et sélectionner le ou les jours de la semaine où elle doit s’exécuter.
+      * **Périodicité hebdomadaire** : vous pouvez désormais choisir de répéter la campagne toutes les semaines ou toutes les deux semaines, et sélectionner le ou les jours de la semaine où elle doit s’exécuter.
 
-      * **Récurrence mensuelle** : vous pouvez désormais choisir de répéter la campagne tous les mois ou tous les deux mois, puis sélectionner le jour du mois où elle doit s’exécuter.
+      * **Récurrence mensuelle** : vous pouvez désormais choisir de répéter la campagne tous les mois ou tous les deux mois, et sélectionner le jour du mois où elle doit s’exécuter.
 
-      * **Plannings quotidiens, hebdomadaires ou mensuels** : vous pouvez indiquer si la planification récurrente doit s&#39;arrêter à une date spécifique ou après un certain nombre d&#39;occurrences.
+      * **Plannings quotidiens, hebdomadaires ou mensuels** : vous pouvez indiquer si le planning récurrent doit s’arrêter à une date spécifique ou après un certain nombre d’occurrences.
 
-   * **Campagnes d’action transactionnelles planifiées** - Les campagnes d’action transactionnelles planifiées sont désormais disponibles pour l’envoi de communications transactionnelles par lots, basées sur l’audience, via des canaux e-mail, SMS et push.
+   * **Campagnes d’action transactionnelles planifiées** : les campagnes d’action transactionnelles planifiées sont désormais disponibles pour l’envoi de communications transactionnelles par lots, basées sur l’audience, via des canaux e-mail, SMS et push.
 
 * **Canal - Push**
 
-   * **Date d’expiration des notifications push** - Vous pouvez désormais spécifier une date d’expiration pour chaque notification push, ce qui empêche l’envoi de messages sensibles au facteur temps (comme la vente Black Friday) après une certaine date, évite ainsi de fournir une mauvaise expérience à vos clients.
+   * **Date d’expiration des notifications push** : vous pouvez désormais spécifier une date d’expiration pour chaque notification push. Cela empêche l’envoi de messages urgents (comme les soldes du Black Friday) après une certaine date, évitant ainsi une mauvaise expérience pour vos clientes et clients.
 
 * **Canal - SMS**
 
-   * **Opt-out flou** - Lorsqu’elle est activée, l’option **Opt-out flou** détecte les messages entrants qui ressemblent étroitement aux mots-clés d’opt-out définis (par exemple, « CANCIL ») et envoie automatiquement une réponse de confirmation pour vérifier l’intention de désabonnement de l’utilisateur. Si l’utilisateur confirme via l’invite définie, il est désabonné.
+   * **Opt-out en logique floue** : lorsqu’elle est activée, l’option **Opt-out en logique floue** détecte les messages entrants qui ressemblent fortement aux mots-clés d’opt-out définis (par exemple, « CANCIL ») et envoie automatiquement une réponse de confirmation pour vérifier l’intention de désabonnement de l’utilisateur ou l’utilisatrice. Si la personne confirme en utilisant l’invite définie, elle est désabonnée.
 
-     Notez que la **désinscription floue** n’est disponible qu’avec Sinch et Infobip.
+     Notez que l’**Opt-out en logique floue** n’est disponible qu’avec Sinch et Infobip.
 
-   * **Vérifier la connexion SMS** - Vous pouvez désormais facilement tester et vérifier vos informations d’identification d’API SMS dans Adobe Journey Optimizer en envoyant un exemple de message à un appareil désigné.
+   * **Vérifier la connexion SMS** : vous pouvez désormais facilement tester et vérifier vos informations d’identification d’API SMS dans Adobe Journey Optimizer en envoyant un exemple de message à un appareil désigné.
 
 * **Configuration**
 
-   * **Prise en charge des domaines dynamiques** - Journey Optimizer prend désormais en charge la personnalisation du suivi des URL pour les domaines prédéfinis répertoriés au niveau de la configuration des canaux.
+   * **Prise en charge des domaines dynamiques** : Journey Optimizer prend désormais en charge la personnalisation du suivi des URL pour les domaines prédéfinis répertoriés au niveau de la configuration des canaux.
 
-   * **Prise en charge des attributs personnalisés avec l’URL de désabonnement en un clic** - Avec Journey Optimizer, si vous gérez le consentement en dehors d’Adobe, vous pouvez définir un point d’entrée personnalisé externe en définissant votre propre lien de désabonnement en un clic dans la configuration de l’e-mail. Lorsque vos destinataires cliquent sur le lien de désabonnement, Journey Optimizer ajoute certains paramètres par défaut spécifiques au profil à l’événement de mise à jour du consentement.
+   * **Prise en charge des attributs personnalisés avec l’URL de désabonnement en un clic** : a-vec Journey Optimizer, si vous gérez le consentement en dehors d’Adobe, vous pouvez définir un point d’entrée personnalisé externe en définissant votre propre lien de désabonnement en un clic dans la configuration de l’e-mail. Lorsque les personnes destinataires cliquent sur le lien de désabonnement, Journey Optimizer ajoute certains paramètres par défaut, spécifiques au profil, à l’événement de mise à jour du consentement.
 
      Pour personnaliser davantage votre lien de désabonnement en un clic, vous pouvez maintenant définir des attributs personnalisés qui seront également ajoutés à l’événement de consentement.
 
 * **Prise de décision**
 
-   * **Joindre des fragments aux éléments de décision** - Journey Optimizer permet désormais de joindre des fragments aux éléments de décision qui peuvent être utilisés dans les campagnes d’expérience basées sur le code par le biais de politiques de décision.
+   * **Joindre des fragments aux éléments de décision** : Journey Optimizer permet désormais de joindre des fragments aux éléments de décision qui peuvent être utilisés dans les campagnes d’expérience basées sur du code par le biais de politiques de décision.
 
 * **Parcours**
 
-   * **Opérations en bloc de Parcours** - Dans la liste de vos parcours, vous pouvez désormais sélectionner plusieurs éléments. Une fois sélectionné, vous pouvez suspendre ou reprendre jusqu’à 10 parcours à la fois.
+   * **Opérations de parcours en masse** : dans la liste de vos parcours, vous pouvez désormais sélectionner plusieurs éléments. Une fois la sélection réalisée, vous pouvez suspendre ou reprendre jusqu’à 10 parcours à la fois.
 
-   * **Prise en charge de la redirection (302) dans les actions personnalisées** - Les actions personnalisées peuvent désormais gérer les redirections HTTP 302 par demande. Cela permet aux parcours de s’intégrer aux API qui redirigent les requêtes vers des URL localisées ou spécifiques à une région. Les redirections sont suivies automatiquement, en s’assurant que le contenu correct est diffusé sans configuration supplémentaire.
+   * **Prise en charge de la redirection (302) dans les actions personnalisées** : les actions personnalisées peuvent désormais gérer les redirections HTTP 302 requête par requête. Cela permet aux parcours de s’intégrer aux API qui redirigent les requêtes vers des URL localisées ou spécifiques à une région. Les redirections sont suivies automatiquement, ce qui garantit que le contenu diffusé est correct, sans configuration supplémentaire.
 
 * **Jeux de données**
 
-   * **Référentiel d’objets Experience Decisioning - Éléments d’offre personnalisés** - Le jeu de données d’exportation intégré capture désormais tous les attributs de l’offre et le statut du cycle de vie, ce qui permet une personnalisation et un reporting complets.
+   * **Référentiel d’objets de décisions pour les expériences - Éléments d’offre personnalisée** : le jeu de données d’export intégré capture désormais tous les attributs de l’offre et le statut du cycle de vie, ce qui permet une personnalisation et un reporting complets.
 
 ## Orchestration de campagne
 
@@ -321,7 +321,7 @@ Journey Optimizer comprend désormais l’**orchestration des campagnes**, une 
 
 >[!IMPORTANT]
 >
->Pour accéder à l’orchestration de Campaign, votre licence doit inclure le package **Journey Optimizer - Campagnes et Parcours** ou **Journey Optimizer - Campagnes**. Contactez votre représentant Adobe pour confirmer votre licence et effectuer une mise à jour si nécessaire.
+>Pour accéder à l’orchestration de campagne, votre licence doit inclure le package **Journey Optimizer - Campagnes et parcours** ou **Journey Optimizer - Campagnes**. Contactez votre représentant ou représentante Adobe pour confirmer votre licence et effectuer une mise à jour si nécessaire.
 
 ![GIF de l’orchestration de campagne](assets/do-not-localize/release.gif)
 
@@ -359,7 +359,7 @@ Une toute nouvelle interface d’orchestration visuelle, conçue spécialement p
 
 ### Jeux de données et schémas relationnels {#oc-relational}
 
-Adobe Journey Optimizer prend désormais en charge les entités relationnelles (par exemple, les produits, les magasins, les réservations, les contrats) liées à des profils basés sur des personnes. Cela permet la segmentation et la personnalisation sur des structures de données multidimensionnelles, en activant des cas d’utilisation tels que :
+Adobe Journey Optimizer prend désormais en charge les entités relationnelles (produits, magasins, réservations, contrats, etc.) liées à des profils basés sur des personnes. Cela permet la segmentation et la personnalisation sur des structures de données multidimensionnelles, en activant des cas d’utilisation tels que :
 
 * Un message par réservation, abonnement ou contrat
 
