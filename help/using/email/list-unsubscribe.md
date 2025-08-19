@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: paramètres, e-mail, configuration
 exl-id: c6c77975-ec9c-44c8-a8d8-50ca6231fea6
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
-workflow-type: ht
-source-wordcount: '1371'
-ht-degree: 100%
+source-git-commit: 56fae76fe83871875464203c01ea070ff1dbc173
+workflow-type: tm+mt
+source-wordcount: '1458'
+ht-degree: 89%
 
 ---
 
@@ -43,7 +43,7 @@ Selon le client de messagerie e-mail et les paramètres de désabonnement de la 
 >
 >Découvrez comment gérer les paramètres de désabonnement dans [cette section](#enable-list-unsubscribe) ci-dessous.
 
-Dans les deux cas, lorsqu’une personne destinataire clique sur le lien de désinscription, sa demande de désabonnement est traitée en conséquence. Le profil correspondant est immédiatement désinscrit et ce choix est mis à jour dans [Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/ui/user-guide.html?lang=fr#getting-started){target="_blank"}.
+Dans les deux cas, lorsqu’une personne destinataire clique sur le lien de désinscription, sa demande de désabonnement est traitée en conséquence. Le profil correspondant est immédiatement exclu et ce choix est mis à jour dans [Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/ui/user-guide.html?lang=fr#getting-started){target="_blank"}.
 
 >[!NOTE]
 >
@@ -93,7 +93,7 @@ Les fonctionnalités **[!UICONTROL Mailto (désabonnement)]** et **[!UICONTROL U
   >
   >Pour plus d’informations sur la gestion des fonctionnalités de désabonnement dans vos messages, consultez [cette section](../email/email-opt-out.md#unsubscribe-header).
 
-Dans [!DNL Journey Optimizer], le consentement est géré par le [Schéma de consentement](https://experienceleague.adobe.com/docs/experience-platform/xdm/field-groups/profile/consents.html?lang=fr){target="_blank"} d’Experience Platform. Par défaut, la valeur du champ de consentement est vide et traitée comme un consentement pour recevoir vos communications. Vous pouvez remplacer cette valeur par défaut lors de l’intégration par l’une des valeurs possibles répertoriées [ici](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/consents.html?lang=fr#choice-values){target="_blank"} ou utiliser des [politiques de consentement](../action/consent.md) pour remplacer la logique par défaut.
+Dans [!DNL Journey Optimizer], le consentement est géré par le [Schéma de consentement](https://experienceleague.adobe.com/docs/experience-platform/xdm/field-groups/profile/consents.html?lang=fr){target="_blank"} d’Experience Platform. Par défaut, la valeur du champ de consentement est vide et traitée comme un consentement pour recevoir vos communications. Vous pouvez modifier cette valeur par défaut lors de l’intégration à l’une des valeurs possibles répertoriées [ici](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/consents.html?lang=fr#choice-values){target="_blank"} ou utiliser [politiques de consentement](../action/consent.md) pour remplacer la logique par défaut.
 
 Actuellement, [!DNL Journey Optimizer] n’ajoute pas de balise spécifique aux événements de désabonnement déclenchés par la fonctionnalité Désabonnement des listes. Pour distinguer les clics de désabonnement de la liste des autres actions de désabonnement, vous devez implémenter le balisage personnalisé en externe ou utiliser une page de destination externe pour le suivi.
 
@@ -119,11 +119,17 @@ L’**[!UICONTROL URL de désabonnement en un clic]** doit être une URL POST.
 >
 >Si vous utilisez l’option **[!UICONTROL Géré par le client ou la cliente]**, Adobe ne stocke aucune donnée de désabonnement ou de consentement. Avec l’option **[!UICONTROL Géré par le client ou la cliente]**, les organisations choisissent d’utiliser un système externe et seront chargées de gérer leurs données de consentement dans celui-ci. Il n’existe pas de synchronisation automatique des données de consentement entre le système externe et [!DNL Journey Optimizer]. Toute synchronisation des données de consentement, qui provient du système externe pour mettre à jour les données de consentement d’utilisation dans [!DNL Journey Optimizer], doit être lancée par l’organisation sous la forme d’un transfert de données pour renvoyer les données de consentement vers [!DNL Journey Optimizer].
 
-### Configurer l’API de déchiffrement {#configure-decrypt-api}
+### Ajouter des attributs personnalisés à vos points d’entrée {#custom-attributes}
 
 Lorsque l’option **[!UICONTROL Géré par le client ou la cliente]** est sélectionnée, si vous saisissez des points d’entrée personnalisés et que vous les utilisez dans une campagne ou un parcours, [!DNL Journey Optimizer] ajoute des paramètres spécifiques au profil par défaut à l’événement de mise à jour du consentement <!--sent to the custom endpoint -->lorsque vos destinataires cliquent sur le lien de désabonnement.
 
-Ces paramètres sont envoyés au point d’entrée de manière chiffrée. Par conséquent, le système de consentement externe doit mettre en œuvre une API spécifique via [Adobe Developer](https://developer.adobe.com){target="_blank"} pour déchiffrer les paramètres envoyés par Adobe.
+Pour personnaliser davantage votre **[!UICONTROL URL de désabonnement en un clic]**, vous pouvez définir des attributs personnalisés qui seront également ajoutés à l’événement de consentement.
+
+Pour cela, utilisez la section **[!UICONTROL Paramètres de tracking des URL]**. Tous les paramètres de tracking d’URL que vous définissez dans la section correspondante seront ajoutés à la fin de votre URL de désabonnement en un clic personnalisée, en plus des paramètres par défaut. [Découvrez comment définir le tracking d’URL personnalisé](url-tracking.md)
+
+### Configurer l’API de déchiffrement {#configure-decrypt-api}
+
+Lorsque vos destinataires cliquent sur un lien de désabonnement personnalisé, les paramètres ajoutés à l’événement de mise à jour du consentement sont envoyés au point d’entrée de manière chiffrée. Par conséquent, le système de consentement externe doit mettre en œuvre une API spécifique via [Adobe Developer](https://developer.adobe.com){target="_blank"} pour déchiffrer les paramètres envoyés par Adobe.
 
 L’appel GET pour récupérer ces paramètres dépend de l’option de désabonnement de la liste que vous utilisez : **[!UICONTROL URL de désabonnement en un clic]** ou **[!UICONTROL Mailto (annuler l’abonnement)]**.
 
