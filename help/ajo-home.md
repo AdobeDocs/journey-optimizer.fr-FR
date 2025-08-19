@@ -20,7 +20,7 @@ Adobe Journey Optimizer permet aux équipes de concevoir et de diffuser des ex
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=fr)
 
 Nouveautés d’Adobe Journey Optimizer
 
@@ -30,7 +30,7 @@ Tenez-vous au courant des dernières notes de mise à jour, des nouvelles foncti
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=fr)
 
 Commencer avec Adobe Journey Optimizer
 
@@ -40,7 +40,7 @@ Découvrez les principes de base d’Adobe Journey Optimizer, notamment ses fo
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=fr)
 
 Guide complet des parcours
 
@@ -50,7 +50,7 @@ Concevez, orchestrez, gérez et optimisez des parcours clientèle personnalisés
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullhorn.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullhorn.svg?lang=fr)
 
 Comprendre et gérer les campagnes
 
@@ -60,7 +60,7 @@ Conseils détaillés pour la création, la gestion et l’optimisation de divers
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=fr)
 
 Canaux de communication
 
@@ -70,7 +70,7 @@ Configurez et gérez les e-mails, les SMS, les notifications push et d’autres
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/scale-balanced.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/scale-balanced.svg?lang=fr)
 
 Gestion et hiérarchisation des conflits
 
