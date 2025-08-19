@@ -6,9 +6,9 @@ user-guide-description: Utilisez Journey Optimizer pour créer et proposer aux 
 type: Documentation
 solution: Journey Optimizer
 source-git-commit: 9e76bfb65865ec7814493ad6e08834d367a9417a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2881'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -210,13 +210,13 @@ ht-degree: 98%
       + [Utiliser des campagnes d’action](using/campaigns/create-campaign.md)
       + [Définir les propriétés de la campagne](using/campaigns/campaign-properties.md)
       + [Configurer l’action de campagne](using/campaigns/campaign-action.md)
-      + [Optimiser les messages dans une campagne](using/campaigns/campaigns-message-optimization.md)
+      + [Utiliser l’optimisation des messages dans une campagne](using/campaigns/campaigns-message-optimization.md)
       + [Modifier le contenu de la campagne](using/campaigns/campaign-content.md)
       + [Définir l’audience de la campagne](using/campaigns/campaign-audience.md)
       + [Planifier la campagne](using/campaigns/campaign-schedule.md)
       + [Vérifier et activer une campagne d’action](using/campaigns/review-activate-campaign.md)
-   + Campagnes déclenchées par API {#api-triggered-campaigns}
-      + [Campagnes déclenchées par API](/help/rp_landing_pages/api-triggered-campaigns-landing-page.md)
+   + Campagnes déclenchées par API {#api-triggered-campaigns}
+      + [Campagnes déclenchées par API](/help/rp_landing_pages/api-triggered-campaigns-landing-page.md)
       + [Utiliser des campagnes déclenchées par API](using/campaigns/api-triggered-campaigns.md)
       + [Définir les propriétés de la campagne](using/campaigns/api-triggered-campaign-properties.md)
       + [Configurer l’action de campagne](using/campaigns/api-triggered-campaign-action.md)
@@ -232,8 +232,8 @@ ht-degree: 98%
       + [Questions fréquentes](using/orchestrated/orchestrated-campaigns-faq.md)
       + Configuration des données {#data-configuration}
          + [Configuration des données](/help/rp_landing_pages/data-configuration-landing-page.md)
-         + Gérer des schémas et des jeux de données relationnels {#schemas-datasets}
-            + [Gérer des schémas et des jeux de données relationnels](/help/rp_landing_pages/schemas-datasets-landing-page.md)
+         + Gérer des jeux de données et des schémas relationnels {#schemas-datasets}
+            + [Gérer des jeux de données et des schémas relationnels](/help/rp_landing_pages/schemas-datasets-landing-page.md)
             + [Commencer à utiliser des schémas et des jeux de données](using/orchestrated/gs-schemas.md)
             + [Schéma manuel](using/orchestrated/manual-schema.md)
             + [Schéma de chargement de fichiers](using/orchestrated/file-upload-schema.md)
@@ -328,7 +328,7 @@ ht-degree: 98%
             + [Ajuster l’alignement vertical et la marge intérieure](using/email/alignment-and-padding.md)
             + [Ajouter des attributs de style intégrés](using/email/inline-styling.md)
             + [Définir le contenu en mode sombre](using/email/dark-mode.md)
-      + [Gérer le processus d’opt-out aux e-mails](using/email/email-opt-out.md)
+      + [Gérer les opt-out pour les e-mails](using/email/email-opt-out.md)
       + Configurer le canal e-mail {#configure-email}
          + [Configurer le canal e-mail](/help/rp_landing_pages/configure-email-landing-page.md)
          + [Commencer la configuration du canal e-mail](using/email/get-started-email-config.md)
@@ -364,7 +364,7 @@ ht-degree: 98%
       + [Commencer avec les SMS](using/sms/get-started-sms.md)
       + [Créer un message SMS/MMS/RCS](using/sms/create-sms.md)
       + [Vérifier et envoyer vos messages texte](using/sms/send-sms.md)
-      + [Gérer le processus d&#39;opt-out des messages texte](using/sms/sms-opt-out.md)
+      + [Gérer les opt-out pour les messages texte](using/sms/sms-opt-out.md)
       + [Configurer des sous-domaines SMS](using/sms/sms-subdomains.md)
       + Configurer le canal SMS/MMS/RCS {#configure-sms}
          + [Configurer le canal SMS/MMS/RCS](/help/rp_landing_pages/configure-sms-landing-page.md)
@@ -415,8 +415,8 @@ ht-degree: 98%
          + [Gérer des expériences basées sur du code](using/code-based/publish-code-based.md)
    + Cartes de contenu {#content-card}
       + [Cartes de contenu](/help/rp_landing_pages/content-card-landing-page.md)
-      + Configurer le canal des vignettes de contenu {#configure}
-         + [Configurer le canal des vignettes de contenu](/help/rp_landing_pages/configure-landing-page.md)
+      + Configurer le canal des cartes de contenu {#configure}
+         + [Configurer le canal des cartes de contenu](/help/rp_landing_pages/configure-landing-page.md)
          + [Conditions préalables des cartes de contenu](using/content-card/content-card-configuration-prereq.md)
          + [Configurer le canal des vignettes de contenu dans Journey Optimizer](using/content-card/content-card-configuration.md)
          + [Configurer la prise en charge des cartes de contenu dans le SDK mobile](using/content-card/content-card-lp.md)
@@ -441,7 +441,7 @@ ht-degree: 98%
       + [Prise en main de la personnalisation](using/personalization/personalize.md)
       + [Ajouter une personnalisation](using/personalization/personalization-build-expressions.md)
       + [Syntaxe de personnalisation](using/personalization/personalization-syntax.md)
-      + [Réutilisation des fragments d’expression](using/personalization/use-expression-fragments.md)
+      + [Réutiliser des fragments d’expression](using/personalization/use-expression-fragments.md)
       + [Utiliser les données Adobe Experience Platform pour la personnalisation (version Beta)](using/personalization/aep-data-perso.md)
       + Liste des fonctions d’assistance {#functions}
          + [Liste des fonctions d’assistance](/help/rp_landing_pages/functions-landing-page.md)
@@ -457,8 +457,8 @@ ht-degree: 98%
          + [Fonctions mathématiques](using/personalization/functions/math.md)
          + [Fonctions d’objet](using/personalization/functions/objects.md)
          + [Fonctions de chaîne](using/personalization/functions/string.md)
-      + Cas d’utilisation de la personnalisation {#personalization-use-cases}
-         + [Cas d’utilisation de la personnalisation](/help/rp_landing_pages/personalization-use-cases-landing-page.md)
+      + Cas d’utilisation de personnalisation {#personalization-use-cases}
+         + [Cas d’utilisation de personnalisation](/help/rp_landing_pages/personalization-use-cases-landing-page.md)
          + [Notification de statut de la commande](using/personalization/personalization-use-case.md)
          + [E-mail d’abandon de panier](using/personalization/personalization-use-case-helper-functions.md)
          + [E-mail d’ordonnances de programmes de santé](using/personalization/perso-uc-plan-prescriptions.md)
@@ -475,8 +475,8 @@ ht-degree: 98%
          + [Ajout d’un code JavaScript personnalisé](using/landing-pages/lp-custom-js.md)
       + [Créer une liste dʼabonnements](using/landing-pages/subscription-list.md)
       + [Apprendre avec des cas d’utilisation](using/landing-pages/lp-use-cases.md)
-      + Configuration des pages de destination   {#lp-configuration}
-         + [Configuration des pages de destination](/help/rp_landing_pages/lp-configuration-landing-page.md)
+      + Configurer les pages de destination {#lp-configuration}
+         + [Configurer les pages de destination](/help/rp_landing_pages/lp-configuration-landing-page.md)
          + [Configurer les sous-domaines des pages de destination](using/landing-pages/lp-subdomains.md)
          + [Définir les préréglages de page de destination](using/landing-pages/lp-presets.md)
    + Modèles de contenu {#content-templates}
@@ -509,9 +509,9 @@ ht-degree: 98%
       + [Utiliser les fragments de contenu Experience Manager](using/integrations/aem-fragments.md)
       + [Utiliser Dynamic Media](using/integrations/aem-dynamic.md)
       + [Utiliser GenStudio for Performance Marketing](using/integrations/genstudio.md)
-      + [Utilisation des intégrations](using/integrations/external-sources.md)
-   + Assistant IA pour la génération de contenu {#ai-assistant}
-      + [Assistant IA pour la génération de contenu](/help/rp_landing_pages/ai-assistant-landing-page.md)
+      + [Utiliser des intégrations](using/integrations/external-sources.md)
+   + Assistant IA pour la génération de contenu {#ai-assistant}
+      + [Assistant IA pour la génération de contenu](/help/rp_landing_pages/ai-assistant-landing-page.md)
       + [Commencer avec l’Assistant IA](using/content-management/gs-generative.md)
       + [Génération d’e-mails avec l’IA](using/content-management/generative-email.md)
       + [Génération de notifications push avec l’IA](using/content-management/generative-push.md)
