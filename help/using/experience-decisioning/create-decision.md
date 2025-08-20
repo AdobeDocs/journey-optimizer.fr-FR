@@ -6,7 +6,7 @@ topic: Integrations
 role: User
 level: Experienced
 exl-id: 63aa1763-2220-4726-a45d-3a3a8b8a55ec
-source-git-commit: 3aa3203ae7763d81288cb70a2984d017b0006bb3
+source-git-commit: 56a7f3be7777e1c9f73a1c473bd6babf952333f1
 workflow-type: tm+mt
 source-wordcount: '2745'
 ht-degree: 89%
@@ -314,7 +314,7 @@ Vous pouvez désormais ajouter tous les attributs de décision que vous souhaite
 >[!NOTE]
 >
 >Pour le suivi des éléments de la politique de décision, l’attribut `trackingToken` doit être ajouté comme suit pour le contenu de la politique de décision :
->&#x200B;>`trackingToken: {{item._experience.decisioning.decisionitem.trackingToken}}`
+>>`trackingToken: {{item._experience.decisioning.decisionitem.trackingToken}}`
 
 1. Cliquez sur chaque dossier pour le développer. Placez le curseur de votre souris à l’emplacement souhaité, puis cliquez sur l’icône + en regard de l’attribut à ajouter. Vous pouvez ajouter au code autant d’attributs que vous le souhaitez.
 
@@ -346,7 +346,7 @@ Une fois cette opération terminée, vous pouvez utiliser l’une des méthodes 
 
 >[!TAB Insérer directement le code]
 
-Il vous suffit de copier-coller le bloc de code ci-dessous dans le code de la politique de décision. Remplacez `variable`par l’ID de fragment et `placement` par la clé de référence du fragment :
+Il vous suffit de copier-coller le bloc de code ci-dessous dans le code de la politique de décision. Remplacez `variable` par l’ID de fragment et `placement` par la clé de référence du fragment :
 
 ```
 {% let variable =  get(item._experience.decisioning.offeritem.contentReferencesMap, "placement").id %}
