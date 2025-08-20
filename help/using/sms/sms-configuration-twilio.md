@@ -7,10 +7,10 @@ feature: SMS, Channel Configuration
 role: Admin
 level: Intermediate
 exl-id: d6f74566-c913-4727-83b9-473a798a0158
-source-git-commit: 604af3a0ac9febb62f2e2b1705e2751b2c476e04
-workflow-type: ht
-source-wordcount: '422'
-ht-degree: 100%
+source-git-commit: 3aa3203ae7763d81288cb70a2984d017b0006bb3
+workflow-type: tm+mt
+source-wordcount: '471'
+ht-degree: 89%
 
 ---
 
@@ -39,6 +39,16 @@ Pour configurer Twilio avec Journey Optimizer, vous devez créer des informatio
 1. Dans le menu **[!UICONTROL Informations d’identification d’API]**, cliquez sur l’icône de corbeille pour supprimer vos informations d’identification d’API.
 
 1. Pour modifier les informations d’identification existantes, recherchez les informations d’identification d’API souhaitées et cliquez sur l’option **[!UICONTROL Modifier]** pour apporter les modifications nécessaires.
+
+1. Cliquez sur **[!UICONTROL Vérifier la connexion SMS]**, à partir de vos informations d’identification d’API existantes, pour tester et vérifier vos informations d’identification d’API SMS en envoyant un exemple de message à un appareil désigné.
+
+1. Renseignez les champs **Numéro** et **Message**, puis cliquez sur **[!UICONTROL Vérifier la connexion]**.
+
+   >[!IMPORTANT]
+   >
+   >Le message doit être structuré de manière à s’aligner sur le format de payload du fournisseur.
+
+   ![](assets/verify-connection.png)
 
 Après avoir créé et configuré vos informations d’identification de l’API, vous devez maintenant créer une configuration de canal pour les messages SMS et MMS. [En savoir plus](sms-configuration-surface.md)
 

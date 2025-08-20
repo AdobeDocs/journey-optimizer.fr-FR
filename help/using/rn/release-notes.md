@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Notes de mise à jour d’Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 6aac4c8aac9d1a7dbb3056b2e274927203ab6553
+source-git-commit: 3aa3203ae7763d81288cb70a2984d017b0006bb3
 workflow-type: tm+mt
-source-wordcount: '1759'
-ht-degree: 97%
+source-wordcount: '1462'
+ht-degree: 77%
 
 ---
 
@@ -23,14 +23,9 @@ ht-degree: 97%
 [!DNL Adobe Journey Optimizer] offre en permanence de nouvelles fonctionnalités, des améliorations des fonctionnalités existantes et des correctifs. Toutes les modifications sont consolidées la dernière semaine de chaque mois dans ces notes de mise à jour. [!DNL Adobe Journey Optimizer] est créée de manière native sur [!DNL Adobe Experience Platform] et hérite de ses dernières innovations et améliorations. En savoir plus sur ces modifications dans les [Notes de mise à jour d’Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=fr){target="_blank"}.
 
 
-## Notes de mise à jour préliminaires d’août 2025 {#25-8-rn}
-
-**Les notes de mise à jour préliminaires ci-dessous peuvent être modifiées sans préavis jusqu’à la date de publication**. Les liens, les copies d’écran et la documentation mise à jour sont publiés à la date de publication.
-
-Voir également les [Notes de mise à jour préliminaires d’Adobe Experience Platform](https://experienceleague.adobe.com/fr/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
+## Notes de mise à jour du 25 août {#25-8-rn}
 
 **Date de publication** : 19 août 2025
-
 
 ### Nouvelles fonctionnalités {#Aug-25-8-features}
 
@@ -48,9 +43,9 @@ Les nouvelles fonctionnalités de cette version sont présentées ci-dessous.
 <p>Vous pouvez maintenant suspendre et reprendre les parcours. Cette fonctionnalité offre aux concepteurs et conceptrices du parcours un meilleur contrôle et une plus grande flexibilité en leur permettant de suspendre temporairement les parcours actifs sans perturber l’expérience client. Lorsque le parcours est suspendu, aucune communication n’est envoyée et les profils restent suspendus jusqu’à la reprise du parcours.</p>
 <p>Vous pouvez suspendre et reprendre un seul parcours ou un groupe de parcours par le biais d’opérations en bloc.</p>
 <p>En outre, vous pouvez appliquer des filtres globaux aux parcours suspendus afin d’exclure les profils en fonction de leurs attributs.</p>
-<p><!--img src="assets/do-not-localize/PauseResume.gif"/>--></p>
+<p><img src="assets/do-not-localize/PauseResume.gif"/></p>
 <p>Publiée précédemment en disponibilité limitée, cette fonctionnalité est désormais proposée dans tous les environnements (disponibilité générale).</p>
-<p><!--For more information, refer to the <a href="../building-journeys/journey-pause.md">detailed documentation</a>--></p>
+<p>Pour plus d’informations, consultez la <a href="../building-journeys/journey-pause.md">documentation détaillée</a>.</p>
 </td>
 </tr>
 </tbody>
@@ -72,8 +67,8 @@ Les nouvelles fonctionnalités de cette version sont présentées ci-dessous.
 <li>Possibilité de voir les brouillons de campagne si vous avez défini une date de début et une date de fin</li>
 <li>Nouveau paramètre permettant de masquer et d’afficher les éléments de calendrier s’exécutant sur une longue période</li>
 </ul>
-<p><!--img src="assets/do-not-localize/calendar.gif"/>--></p>
-<p><!--For more information, refer to the <a href="../building-journeys/journey-ui.md#journeys-calendar">detailed documentation</a>--></p>
+<p><img src="assets/do-not-localize/calendar.gif"/></p>
+<p>Pour plus d’informations, consultez la <a href="../building-journeys/journey-ui.md#journeys-calendar">documentation détaillée</a>.</p>
 </td>
 </tr>
 </tbody>
@@ -102,29 +97,28 @@ Les nouvelles fonctionnalités de cette version sont présentées ci-dessous.
 </tbody>
 </table-->
 
-<table>
+<!--table>
 <thead>
 <tr>
-<th><strong>Utiliser des données Adobe Experience Platform à des fins de personnalisation</strong><br/></th>
+<th><strong>Use Adobe Experience Platform data for personalization</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Tirez parti des données d’[!DNL Adobe Experience Platform] dans l’éditeur de personnalisation pour personnaliser votre contenu et vos attributs de décision. Vous pouvez notamment étendre la définition de vos attributs aux données supplémentaires des jeux de données pour les mises à jour en masse qui changent régulièrement sans avoir à mettre à jour manuellement les attributs un par un.</p>
-<p>Les améliorations suivantes ont été apportées à cette version :</p>
+<p>Leverage data from [!DNL Adobe Experience Platform] in the personalization editor to personalize your content and decision attributes. In particular, this allows you to extend the definition of your attributes to additional data in datasets for bulk updates that change periodically without having to manually update the attributes one at a time.</p>
+<p>With this release, the following enhancements have been introduced:</p>
 <ul>
-<li>Prise en charge des canaux entrants</li>
-<li>La fonction d’assistance « datasetLookup » peut désormais être utilisée dans les fragments d’expression et fragments visuels pour personnaliser le contenu à l’aide de données des jeux de données Adobe Experience Platform.</li>
-<li>Une option du jeu de données vous permet désormais d’activer les jeux de données pour la personnalisation de la recherche, sans avoir à effectuer d’appel API.</li>
+<li>Support of inbound channels,</li>
+<li>The "datasetLookup" helper function can now be used within expression and visual fragments to personalize content using data from Adobe Experience Platform datasets,</li>
+<li>An option in the dataset now allows you to enable datasets for lookup personalization, without having to perform an API call.</li>
 </ul>
-<p>Cette fonctionnalité est en disponibilité limitée. Contactez votre représentant ou représentante Adobe pour obtenir l’accès.</p>
-<p><!--img src="assets/do-not-localize/FILE.gif"/>--></p>
-<p><!--For more information, refer to the <a href="../FILE.md">detailed documentation</a>--></p>
+<p>This capability is available in Limited Availability. Contact your Adobe representative to gain access.</p>
+<p>For more information, refer to the <a href="../personalization/aep-data-perso.md">detailed documentation</a></p>
 </td>
 </tr>
 </tbody>
-</table>
+</table-->
 
 <!--table>
 <thead>
@@ -144,48 +138,50 @@ Les nouvelles fonctionnalités de cette version sont présentées ci-dessous.
 </tbody>
 </table-->
 
-<table>
+<!--table>
 <thead>
 <tr>
-<th><strong>Optimisation des chemins de parcours</strong><br/></th>
+<th><strong>Journey path optimization</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Utilisez le nouveau nœud Optimiser pour cibler des audiences spécifiques ou exécuter des tests A/B afin de déterminer le meilleur moyen d’atteindre vos indicateurs de performance clés orientés métier.</p>
-<p>Cet outil vous permet de tester et de varier les communications, le séquencement et le timing afin d’atteindre au mieux vos clients.</p>
-<p>Cette fonctionnalité est en disponibilité limitée. Contactez votre représentant ou représentante Adobe pour obtenir l’accès.</p>
-<p><!--img src="assets/do-not-localize/optimize.gif"/>--></p>
-<p><!--For more information, refer to the <a href="../FILE.md">detailed documentation</a>--></p>
+<p>Use the new Optimize node to target specific audiences or run A/B tests to determine the best path to meet your business-centric KPIs.</p>
+<p>This tool allows you to test and vary, and customize communications, sequencing, and timing to best reach your customers.</p>
+<p>This capability is available in Limited Availability. Contact your Adobe representative to gain access.</p>
+<p><img src="assets/do-not-localize/optimize.gif"/></p>
+<p>For more information, refer to the detailed documentation</p>
 </td>
 </tr>
 </tbody>
-</table>
+</table-->
 
+<!--
 <table>
 <thead>
 <tr>
-<th><strong>Activité d’action dans les parcours</strong><br/></th>
+<th><strong>Action activity in journeys</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Journey Optimizer prend en charge une nouvelle activité d’action générique qui vous permet de configurer des actions uniques et des groupes d’actions entrantes multiples, ce qui simplifie la configuration des actions dans la zone de travail de parcours. Cette nouvelle fonctionnalité permet notamment les opérations suivantes :</p>
+<p>Journey Optimizer supports a new generic Action activity that enables you to configure both single actions and multi-action inbound action groups, allowing for streamlined action configuration within the journey canvas. In particular, this new feature allows for:</p>
 <ul>
-<li>Configuration d’action native simplifiée dans la zone de travail de parcours</li>
-<li>Capacité à créer des nœuds entrants à actions multiples</li>
-<li>Possibilité d’ajouter une optimisation à toute action de canal intégrée</li>
-<li>Possibilité d’ajouter des options d’expérimentation et multilingues à n’importe quelle action</li>
+<li>A simplified native action configuration within the journey canvas.</li>
+<li>The capacity to create multi-action inbound nodes.</li>
+<li>The ability to add optimization to any built-in channel action.</li>
+<li>The ability to add both experimentation and multi-lingual options to any action.</li>
 </ul>
-<p>Cette fonctionnalité est en disponibilité limitée. Contactez votre représentant ou représentante Adobe pour obtenir l’accès.</p>
-<p><!--img src="assets/do-not-localize/pdf-attachments.gif"/>--></p>
-<p><!--For more information, refer to the <a href="../FILE.md">detailed documentation</a>--></p>
+<p>This capability is available in Limited Availability. Contact your Adobe representative to gain access.</p>
+<p><img src="assets/do-not-localize/action-activity.gif"/></p>
+<p>For more information, refer to the <a href="../FILE.md">detailed documentation</a></p>
 </td>
 </tr>
 </tbody>
 </table>
+-->
 
 <table>
 <thead>
@@ -203,32 +199,33 @@ Les nouvelles fonctionnalités de cette version sont présentées ci-dessous.
 <li>Pour augmenter la taille ou le volume, vous pouvez acheter un module complémentaire de pack de pièces jointes. Pour plus d’informations, contactez votre représentant ou représentante Adobe.</li>
 </ul>
 <p>Cette fonctionnalité est en disponibilité limitée. Contactez votre représentant ou représentante Adobe pour obtenir l’accès.</p>
-<p><!--img src="assets/do-not-localize/FILE.gif"/>--></p>
-<p><!--For more information, refer to the <a href="../FILE.md">detailed documentation</a>--></p>
+<p><img src="assets/do-not-localize/pdf-attachments.gif"/></p>
+<p>Pour plus d’informations, consultez la <a href="../email/pdf-attachments.md">documentation détaillée</a>.</p>
 </td>
 </tr>
 </tbody>
 </table>
 
+<!--
 <table>
 <thead>
 <tr>
-<th><strong>Formulaires personnalisés de la page de destination</strong><br/></th>
+<th><strong>Landing page custom forms</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Avec [!DNL Journey Optimizer], vous pouvez désormais capturer les attributs de profil via vos pages de destination.</p>
-<p>Créez, concevez et gérez des formulaires personnalisés adaptés à vos besoins en fonction d’un jeu de données spécifique. Vous pouvez ensuite utiliser ces formulaires dans les pages de destination pour ajouter les attributs de profil de votre choix au jeu de données défini pour chaque formulaire.</p>
-<p>Cette fonctionnalité est en disponibilité limitée. Contactez votre représentant ou représentante Adobe pour obtenir l’accès.</p>
-<p><!--This capability is currently in beta version and only available to beta customers. To join the beta program, contact your Adobe representative.--></p>
-<p><!--img src="assets/do-not-localize/FILE.gif"/>--></p>
-<p><!--For more information, refer to the <a href="../FILE.md">detailed documentation</a>--></p>
+<p>With [!DNL Journey Optimizer], you can now capture profile attributes though your landing pages.</p>
+<p>Create, design and manage custom forms tailored to your needs based on a specific dataset. You can then leverage these forms in landing pages to add the profile attributes of your choice into the dataset defined for each form.</p>
+<p>This capability is currently in beta version and only available to beta customers. To join the beta program, contact your Adobe representative.</p>
+<p><img src="assets/do-not-localize/forms.gif"/></p>
+<p>For more information, refer to the <a href="../FILE.md">detailed documentation</a></p>
 </td>
 </tr>
 </tbody>
 </table>
+-->
 
 <table>
 <thead>
@@ -239,18 +236,18 @@ Les nouvelles fonctionnalités de cette version sont présentées ci-dessous.
 <tbody>
 <tr>
 <td>
-<p>Journey Optimizer vous fournit désormais les outils nécessaires pour diffuser du contenu personnalisé et optimisé à l’audience de vos campagnes. Vous pouvez ainsi exécuter des expériences de contenu, créer un ciblage basé sur des règles et utiliser des combinaisons avancées des deux pour optimiser l’efficacité de vos campagnes.</p>
+<p>Journey Optimizer vous fournit désormais les outils nécessaires pour diffuser du contenu personnalisé et optimisé à votre audience. Vous pouvez ainsi exécuter des expériences de contenu, créer un ciblage basé sur des règles et utiliser des combinaisons avancées des deux pour maximiser l’efficacité de vos campagnes<!-- and journeys-->.</p>
 <p>Avec l’optimisation, vous pouvez réaliser les actions suivantes :</p>
 <ul>
 <li>Tester plusieurs variations de contenu pour identifier le message le plus efficace.</li>
 <li>Diffuser du contenu personnalisé en fonction des attributs d’utilisation et des données contextuelles.</li>
-<li>Combiner le ciblage et l’expérimentation pour obtenir des stratégies de campagne avancées.</li>
+<li>Combinez le ciblage et l’expérimentation pour des stratégies avancées.</li>
 <li>Filtrer les utilisateurs et utilisatrices qui ne correspondent pas aux critères de variante.</li>
 <li>Garantir des mécanismes de secours pour maintenir l’interaction client.</li>
 </ul>
-<P>Une fois la campagne active, les profils sont évalués en fonction des critères définis. Puis, en fonction des critères correspondants, ils sont diffusés avec l’expérience ou le contenu approprié de la campagne.</p>
+<P>Une fois le parcours <!--/campaign is live--> les profils sont évalués en fonction des critères définis et en fonction des critères correspondants, ils sont diffusés avec l’expérience ou le contenu approprié.</p>
 <p><img src="assets/do-not-localize/campaign-optimization.gif"/></p>
-<p>Date de publication : 8 août 2025</p>
+<p><!--Previously released on August 8 in campaigns only, this capacity is now also available in journeys starting from August 19.-->Date de disponibilité : samedi 8 août 2025</p>
 <p>Pour plus d’informations, consultez la <a href="../campaigns/campaigns-message-optimization.md">documentation détaillée</a>.</p>
 </td>
 </tr>
@@ -263,11 +260,11 @@ Les améliorations de cette version sont présentées ci-dessous.
 
 * **Administration**
 
-   * **Alertes de surveillance de la configuration des canaux** : vous pouvez désormais vous abonner pour recevoir des alertes système, par e-mail ou dans le centre de notifications Journey Optimizer, au cas où <!--a channel configuration failure happens or if -->un enregistrement DNS est manquant.
+   * **Alertes de surveillance de la configuration des canaux** - Vous pouvez désormais vous abonner pour recevoir des alertes système, par e-mail ou dans le centre de notifications Journey Optimizer, au cas où <!--a channel configuration failure happens or if -->un enregistrement DNS est manquant. [En savoir plus](../reports/alerts.md#alert-dns-record-missing)
 
 * **Campagnes**
 
-   * **Contrôle des taux dans les campagnes sortantes** : vous pouvez désormais activer le contrôle des taux pour les campagnes sortantes (e-mail, SMS, notifications push), ce qui vous permet d’éviter la surcharge des systèmes en aval, tels que les pages de destination ou les plateformes d’assistance clientèle.
+   * **Contrôle des taux dans les campagnes sortantes** - Vous pouvez désormais activer le contrôle des taux pour les campagnes sortantes (e-mail, SMS, notifications push), ce qui vous permet d’éviter la surcharge des systèmes en aval, tels que les pages de destination ou les plateformes d’assistance clientèle. [En savoir plus](../campaigns/campaign-schedule.md#rate-control)
 
    * **Planification de campagnes d’action** : les planificateurs de campagnes quotidiens, hebdomadaires et mensuels ont été mis à jour afin d’assurer un contrôle plus détaillé des planifications récurrentes :
 
@@ -279,29 +276,35 @@ Les améliorations de cette version sont présentées ci-dessous.
 
    * **Campagnes d’action transactionnelles planifiées** : les campagnes d’action transactionnelles planifiées sont désormais disponibles pour l’envoi de communications transactionnelles par lots, basées sur l’audience, via des canaux e-mail, SMS et push.
 
+* **Canal - Cartes de contenu**
+
+   * **Modèles de disposition de carte de contenu** - Le canal de carte de contenu fournit désormais des dispositions de message prêtes à l’emploi qui rationaliseront votre expérience de création. Cette version comprend des modèles de disposition Petite image, Grande image et Image uniquement.
+
 * **Canal - Push**
 
    * **Date d’expiration des notifications push** : vous pouvez désormais spécifier une date d’expiration pour chaque notification push. Cela empêche l’envoi de messages urgents (comme les soldes du Black Friday) après une certaine date, évitant ainsi une mauvaise expérience pour vos clientes et clients.
 
 * **Canal - SMS**
 
-   * **Opt-out en logique floue** : lorsqu’elle est activée, l’option **Opt-out en logique floue** détecte les messages entrants qui ressemblent fortement aux mots-clés d’opt-out définis (par exemple, « CANCIL ») et envoie automatiquement une réponse de confirmation pour vérifier l’intention de désabonnement de l’utilisateur ou l’utilisatrice. Si la personne confirme en utilisant l’invite définie, elle est désabonnée.
+   * **Opt-out en logique floue** : lorsqu’elle est activée, l’option **Opt-out en logique floue** détecte les messages entrants qui ressemblent fortement aux mots-clés d’opt-out définis (par exemple, « CANCIL ») et envoie automatiquement une réponse de confirmation pour vérifier l’intention de désabonnement de l’utilisateur ou l’utilisatrice. Si l’utilisateur confirme via l’invite définie, il est désabonné. [En savoir plus](../sms/sms-configuration-sinch.md)
 
-     Notez que l’**Opt-out en logique floue** n’est disponible qu’avec Sinch et Infobip.
+     >[!NOTE]
+     >
+     >**Opt-out flou** est disponible uniquement avec Sinch et Infobip.
 
-   * **Vérifier la connexion SMS** : vous pouvez désormais facilement tester et vérifier vos informations d’identification d’API SMS dans Adobe Journey Optimizer en envoyant un exemple de message à un appareil désigné.
+   * **Vérifier la connexion SMS** - Vous pouvez désormais facilement tester et vérifier vos informations d’identification d’API SMS dans Adobe Journey Optimizer en envoyant un exemple de message à un appareil désigné. [En savoir plus](../sms/sms-configuration-sinch.md)
 
 * **Configuration**
 
-   * **Prise en charge des domaines dynamiques** : Journey Optimizer prend désormais en charge la personnalisation du suivi des URL pour les domaines prédéfinis répertoriés au niveau de la configuration des canaux.
+   * **Prise en charge des domaines dynamiques** - Journey Optimizer prend désormais en charge la personnalisation complète/de base des URL pour les domaines prédéfinis acceptés par Adobe. Cette fonctionnalité est disponible en disponibilité limitée pour un ensemble de clients et clientes. [En savoir plus](../personalization/personalization-build-expressions.md#where)
 
    * **Prise en charge des attributs personnalisés avec l’URL de désabonnement en un clic** : a-vec Journey Optimizer, si vous gérez le consentement en dehors d’Adobe, vous pouvez définir un point d’entrée personnalisé externe en définissant votre propre lien de désabonnement en un clic dans la configuration de l’e-mail. Lorsque les personnes destinataires cliquent sur le lien de désabonnement, Journey Optimizer ajoute certains paramètres par défaut, spécifiques au profil, à l’événement de mise à jour du consentement.
 
-     Pour personnaliser davantage votre lien de désabonnement en un clic, vous pouvez maintenant définir des attributs personnalisés qui seront également ajoutés à l’événement de consentement.
+     Pour personnaliser davantage votre lien de désabonnement en un clic, vous pouvez maintenant définir des attributs personnalisés qui seront également ajoutés à l’événement de consentement. [En savoir plus](../email/list-unsubscribe.md#custom-attributes)
 
 * **Prise de décision**
 
-   * **Joindre des fragments aux éléments de décision** : Journey Optimizer permet désormais de joindre des fragments aux éléments de décision qui peuvent être utilisés dans les campagnes d’expérience basées sur du code par le biais de politiques de décision.
+   * **Joindre des fragments aux éléments de décision** - Journey Optimizer permet désormais de joindre des fragments aux éléments de décision qui peuvent être utilisés dans les campagnes d’expérience basées sur le code par le biais de politiques de décision. Cette fonctionnalité est disponible en disponibilité limitée pour un ensemble de clients et clientes. [En savoir plus](../experience-decisioning/create-decision.md#fragments)
 
 * **Parcours**
 
@@ -311,7 +314,7 @@ Les améliorations de cette version sont présentées ci-dessous.
 
 * **Jeux de données**
 
-   * **Référentiel d’objets de décisions pour les expériences - Éléments d’offre personnalisée** : le jeu de données d’export intégré capture désormais tous les attributs de l’offre et le statut du cycle de vie, ce qui permet une personnalisation et un reporting complets.
+   * **Référentiel d’objets Experience Decisioning - Éléments d’offre personnalisés** - Le jeu de données d’exportation intégré capture désormais tous les attributs de l’offre et le statut du cycle de vie, ce qui permet une personnalisation et un reporting complets. [En savoir plus](../data/export-datasets.md)
 
 ## Orchestration de campagne
 

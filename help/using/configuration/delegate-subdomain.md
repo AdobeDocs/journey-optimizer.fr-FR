@@ -9,9 +9,9 @@ role: Admin
 level: Experienced
 keywords: sous-domaine, délégation, domaine, DNS
 exl-id: 8021f66e-7725-475b-8722-e6f8d74c9023
-source-git-commit: 142e56ce36389da5c2e28bbafa1a1bf59be50d74
-workflow-type: ht
-source-wordcount: '1906'
+source-git-commit: 3aa3203ae7763d81288cb70a2984d017b0006bb3
+workflow-type: tm+mt
+source-wordcount: '1891'
 ht-degree: 100%
 
 ---
@@ -176,11 +176,10 @@ Pour configurer un sous-domaine à l’aide de CNAME, procédez comme suit :
 Pour terminer la délégation de votre sous-domaine, procédez comme suit.
 
 1. Cliquez sur **[!UICONTROL Envoyer]**.
-
-   >[!NOTE]
-   >
-   >Si une erreur se produit lors de la tentative d’envoi d’un sous-domaine personnalisé, consultez [cette section](#check-list).
-
+<!--
+    >[!NOTE]
+    >
+    >If an error occurs while trying to submit a custom subdomain, refer to [this section](delegate-custom-subdomain.md#check-list).-->
 
 1. Vous pouvez créer les enregistrements et envoyer ultérieurement la configuration du sous-domaine à l’aide du bouton **[!UICONTROL Enregistrer en tant que brouillon]**.
 
@@ -273,4 +272,4 @@ Une fois que votre demande est gérée par Adobe, le domaine dont la délégatio
 
 Découvrez comment créer un sous-domaine à l&#39;aide de la méthode CNAME pour pointer vers des enregistrements spécifiques à Adobe.
 
->[!VIDEO](https://video.tv.adobe.com/v/342230?quality=12&captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/339484?quality=12)

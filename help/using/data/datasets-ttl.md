@@ -8,10 +8,10 @@ role: Data Engineer, Data Architect, Admin
 level: Experienced
 keywords: platform, lac de données, créer, lac, jeux de données, profil
 exl-id: 08633a79-5601-4e36-b8cf-080234956d99
-source-git-commit: b27ddcc88ca4b4209c9d29974a0b0d0dbe98cc94
-workflow-type: ht
-source-wordcount: '678'
-ht-degree: 100%
+source-git-commit: 3aa3203ae7763d81288cb70a2984d017b0006bb3
+workflow-type: tm+mt
+source-wordcount: '689'
+ht-degree: 91%
 
 ---
 
@@ -45,6 +45,7 @@ Le tableau ci-dessous répertorie tous les jeux de données affectés et leur du
 | Référentiel d’objets de décision - Offres de secours | 13 mois | S.O. |
 | Référentiel d’objets de décision - Emplacements | 13 mois | S.O. |
 | Référentiel d’objets de décision - Activités | 13 mois | S.O. |
+| Référentiel D’Objets Experience Decisioning - Éléments D’Offre Personnalisés | 13 mois | S.O. |
 | ODE DecisionEvents - Décisions de production | 13 mois | S.O. |
 
 ## Questions fréquentes {#faq}
@@ -63,13 +64,13 @@ Les données du jeu de données généré par le système dans le profil sont ig
 
 +++
 
-+++Si les données d’un jeu de données généré par le système sont transmises à [!DNL Customer Journey Analytics] (CJA), les données de CJA seront-elles également affectées par la durée de vie ?
++++Si des données de jeu de données générées par le système sont transmises à [!DNL Customer Journey Analytics] (CJA), les données de CJA seront-elles également affectées par la TTL ?
 
 Les données de [!DNL Customer Journey Analytics] restent synchronisées avec Experience Platform. Par conséquent, la suppression de données en raison d’une durée de vie sur les données de jeu de données généré par le système aura également un impact sur les données dans [!DNL Customer Journey Analytics].
 
 +++
 
-+++ La clientèle peut-elle augmenter la durée de vie des données du jeu de données système de [!DNL Journey Optimizer] dans la banque de profils ?
++++ La clientèle peut-elle augmenter la durée de vie des données du jeu de données système de [!DNL Journey Optimizer] dans la banque de profils ? 
 
 Les extensions de la durée de vie ne sont actuellement pas prises en charge. Cependant, il est prévu d’optimiser le processus de durée de vie afin de permettre ces demandes d’extension à partir de la seconde moitié de 2025.
 
@@ -79,13 +80,13 @@ Les extensions de la durée de vie ne sont actuellement pas prises en charge. Ce
 
 +++
 
-+++La clientèle peut-elle augmenter la durée de vie des données du jeu de données système de [!DNL Journey Optimizer] dans le lac de données ?
++++Les clients peuvent-ils augmenter la durée de vie des données [!DNL Journey Optimizer] jeu de données système dans le lac de données ? 
 
 Les extensions de la durée de vie ne sont actuellement pas prises en charge. Les clientes et clients peuvent exporter des données via les destinations pour conserver les données plus longtemps. [En savoir plus](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/export-datasets.html?lang=fr){target=&quot;_blank} En outre, les clientes et clients disposant de droits **[!DNL Data Distiller]** peuvent créer des jeux de données dérivés pour stocker les données dans le lac de données sans TTL. [En savoir plus](https://experienceleague.adobe.com/fr/docs/experience-platform/query/data-distiller/derived-datasets/overview){target=&quot;_blank}
 
 +++
 
-+++Les dures de vie auront-elles une incidence sur les fonctionnalités suivantes ?
++++Les fonctionnalités suivantes seront-elles affectées par les TTL ? 
 
 * **Recherche dans une banque** : non
 * **Limitation de parcours** : non
@@ -105,7 +106,7 @@ Les extensions de la durée de vie ne sont actuellement pas prises en charge. Le
 
 +++
 
-+++Quel horodatage est utilisé pour l’application de la durée de vie (par exemple, pour les cas d’utilisation de renvoi) ?
++++Quel horodatage est utilisé pour l’application de la TTL (par exemple, pour les cas d’utilisation de renvoi) ? 
 
 La date et l’heure de l’événement sont utilisées (et non la date d’ingestion).
 

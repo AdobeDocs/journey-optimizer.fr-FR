@@ -7,10 +7,10 @@ feature: SMS, Channel Configuration
 role: Admin
 level: Intermediate
 exl-id: 7b6dc89a-1a81-49c2-b2a7-bf24b9d215e3
-source-git-commit: 604af3a0ac9febb62f2e2b1705e2751b2c476e04
-workflow-type: ht
-source-wordcount: '762'
-ht-degree: 100%
+source-git-commit: 3aa3203ae7763d81288cb70a2984d017b0006bb3
+workflow-type: tm+mt
+source-wordcount: '879'
+ht-degree: 86%
 
 ---
 
@@ -36,7 +36,7 @@ Pour configurer Infobip avec Journey Optimizer, procédez comme suit :
 
 1. Configurez les informations d’identification pour l’API SMS, comme indiqué ci-dessous :
 
-+++ Liste des informations d’identification SMS pour la configuration
+   +++ Liste des informations d’identification SMS pour la configuration
 
    | Champs de configuration | Description |
    |---|---|    
@@ -49,7 +49,7 @@ Pour configurer Infobip avec Journey Optimizer, procédez comme suit :
    | Message d’opt-out | Saisissez la réponse personnalisée qui est automatiquement envoyée en tant que message d’opt-out. |
    | Mots-clés d’aide | Saisissez les mots-clés par défaut ou personnalisés qui déclencheront automatiquement votre **message d’aide**. Pour plusieurs mots-clés, utilisez des valeurs séparées par des virgules. |
    | Message d’aide | Saisissez la réponse personnalisée qui est automatiquement envoyée en tant que **message d’aide**. |
-   | Mots-clés de double opt-in | Saisissez les mots-clés qui déclenchent le processus de double opt-in. Si un profil d’utilisateur ou d’utilisatrice n’existe pas, il est créé lors de la confirmation. Pour plusieurs mots-clés, utilisez des valeurs séparées par des virgules. [En savoir plus sur le double opt-in des SMS](https://video.tv.adobe.com/v/3440276/?learn=on&captions=fre_fr). |
+   | Mots-clés de double opt-in | Saisissez les mots-clés qui déclenchent le processus de double opt-in. Si un profil d’utilisateur ou d’utilisatrice n’existe pas, il est créé lors de la confirmation. Pour plusieurs mots-clés, utilisez des valeurs séparées par des virgules. [En savoir plus sur le double opt-in des SMS](https://video.tv.adobe.com/v/3427129/?learn=on). |
    | Message de double opt-in | Saisissez la réponse personnalisée qui est automatiquement envoyée en réponse à la confirmation de double opt-in. |
    | Identifiant d’entité principale | Saisissez l’identifiant d’entité principale DLT qui vous a été attribué. |
    | Identifiant du modèle de contenu | Saisissez votre identifiant de modèle de contenu DLT enregistré. |
@@ -59,13 +59,27 @@ Pour configurer Infobip avec Journey Optimizer, procédez comme suit :
    | Mots-clés entrants personnalisés | Définissez des mots-clés uniques pour des actions spécifiques, par exemple REMISE, OFFRES, INSCRIRE. Ces mots-clés sont capturés et stockés en tant qu’attributs dans le profil, ce qui vous permet de déclencher une qualification de segment en continu dans le parcours et de fournir une réponse ou une action personnalisée. |
    | Message de réponse entrant par défaut | Saisissez la réponse par défaut envoyée lorsqu’un utilisateur final ou une utilisatrice finale envoie un SMS entrant qui ne correspond à aucun des mots-clés définis. |
 
-+++
+   +++
+
+1. Activez l’option **[!UICONTROL Opt-out flou]** pour détecter les messages ressemblant à des mots-clés d’opt-out (par exemple, « CANCIL ») et personnaliser la réponse de confirmation dans le champ **[!UICONTROL Réponse automatique floue]**.
+
+   **[!UICONTROL Opt-out flou]** identifie les messages SMS indiquant qu’un utilisateur souhaite se désabonner, même si le message ne correspond pas exactement à un mot-clé d’opt-out défini. Il peut détecter les expressions de désinscription courantes et certains termes offensants, ce qui permet de s’assurer que vos campagnes respectent les préférences des utilisateurs et utilisatrices et restent conformes.
 
 1. Cliquez sur **[!UICONTROL Envoyer]** lorsque vous avez terminé la configuration de vos informations d’identification d’API.
 
 1. Dans le menu **[!UICONTROL Informations d’identification d’API]**, cliquez sur l’icône de corbeille pour supprimer vos informations d’identification d’API.
 
 1. Pour modifier les informations d’identification existantes, recherchez les informations d’identification d’API souhaitées et cliquez sur l’option **[!UICONTROL Modifier]** pour apporter les modifications nécessaires.
+
+1. Cliquez sur **[!UICONTROL Vérifier la connexion SMS]**, à partir de vos informations d’identification d’API existantes, pour tester et vérifier vos informations d’identification d’API SMS en envoyant un exemple de message à un appareil désigné.
+
+1. Renseignez les champs **Numéro** et **Message**, puis cliquez sur **[!UICONTROL Vérifier la connexion]**.
+
+   >[!IMPORTANT]
+   >
+   >Le message doit être structuré de manière à s’aligner sur le format de payload du fournisseur.
+
+   ![](assets/verify-connection.png)
 
 Après avoir créé et configuré vos informations d’identification de l’API, vous devez maintenant créer une configuration de canal pour les messages SMS et MMS. [En savoir plus](sms-configuration-surface.md)
 

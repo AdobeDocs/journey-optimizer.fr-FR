@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: parcours, premier, commencer, démarrage rapide, audience, événement, action
 exl-id: 770bdbf2-560d-4127-bdb9-1f82495a566f
-source-git-commit: fa46397b87ae3a81cd016d95afd3e09bb002cfaa
-workflow-type: ht
-source-wordcount: '1175'
-ht-degree: 100%
+source-git-commit: 3aa3203ae7763d81288cb70a2984d017b0006bb3
+workflow-type: tm+mt
+source-wordcount: '1391'
+ht-degree: 86%
 
 ---
 
@@ -48,21 +48,11 @@ L’onglet **[!UICONTROL Parcourir]** affiche la liste des parcours existants. V
 
 ![Tableau de bord de parcours mettant en surbrillance l’onglet Parcourir](assets/journeys-browse.png)
 
+Dans la liste des parcours, toutes les versions de parcours sont accompagnées d’un numéro. Lorsque vous recherchez un parcours, les versions les plus récentes apparaissent en haut de la liste la première fois que vous ouvrez l&#39;application. Vous pouvez ensuite définir l&#39;ordre de tri souhaité ; l&#39;application le conservera en tant que préférence utilisateur. La version du parcours est également affichée en haut de l’interface d’édition des parcours, au-dessus de la zone de travail. En savoir plus sur la [gestion des versions des parcours](publishing-the-journey.md#journey-versions-journey-versions).
+
 ### Calendrier des parcours {#calendar}
 
 Outre la liste des parcours, [!DNL Journey Optimizer] fournit une vue de calendrier de vos parcours, ce qui apporte une représentation visuelle claire de leur planning.
-
->[!AVAILABILITY]
->
->La vue de calendrier n’est actuellement disponible que pour un ensemble d’organisations (disponibilité limitée). Pour demander l’accès, utilisez [ce formulaire](https://forms.cloud.microsoft/r/FC49afuJVi){target="_blank"}.
->
->Cette fonctionnalité est en développement actif. Pour soumettre vos commentaires et demandes, cliquez sur le bouton **[!UICONTROL Commentaires Beta]** situé dans le menu supérieur.
-
-Pour accéder à la vue de calendrier, ouvrez la liste des parcours et cliquez sur l’icône ![icône de calendrier](assets/do-not-localize/timeline-icon.svg).
-
-Le calendrier affiche tous les parcours planifiés pour la semaine en cours. Utilisez les boutons fléchés situés au-dessus du calendrier pour naviguer entre les semaines.
-
-![vue de calendrier affichant les parcours actifs](assets/timeline-journeys.png)
 
 Représentation des parcours :
 
@@ -72,10 +62,43 @@ Représentation des parcours :
 * Si aucune heure de début n’est spécifiée, l’heure d’activation manuelle la plus proche est utilisée pour la positionner dans le calendrier.
 * Les parcours s’affichent sous la forme de périodes d’une heure, ce qui ne reflète pas l’heure d’envoi ou d’achèvement réelle.
 
-Pour plus d’informations sur un parcours, cliquez sur son bloc visuel afin de l’ouvrir et d’en explorer les détails.
+Pour naviguer dans votre calendrier Parcours :
 
-Dans la liste des parcours, toutes les versions de parcours sont accompagnées d’un numéro. Lorsque vous recherchez un parcours, les versions les plus récentes apparaissent en haut de la liste la première fois que vous ouvrez l&#39;application. Vous pouvez ensuite définir l&#39;ordre de tri souhaité ; l&#39;application le conservera en tant que préférence utilisateur. La version du parcours est également affichée en haut de l’interface d’édition des parcours, au-dessus de la zone de travail. En savoir plus sur la [gestion des versions des parcours](publishing-the-journey.md#journey-versions-journey-versions).
+1. Pour accéder à la vue de calendrier, ouvrez la liste des parcours et cliquez sur l’icône ![icône de calendrier](assets/do-not-localize/timeline-icon.svg).
 
+1. Utilisez les boutons fléchés ou le sélecteur de date au-dessus du calendrier pour vous déplacer entre les semaines.
+
+   Le calendrier affiche tous les parcours planifiés pour la semaine en cours.
+
+   ![vue de calendrier affichant les parcours actifs](assets/timeline-journeys.png)
+
+1. Cliquez sur l’icône ![engrenage](assets/do-not-localize/Smock_Gears_18_N.png) pour activer ou désactiver l’affichage des éléments qui s’étendent sur plusieurs jours ou semaines.
+
+   ![vue de calendrier affichant les campagnes actives](assets/journey-calendar-1.png)
+
+1. Cliquez sur l&#39;icône ![ajouter un calendrier](assets/do-not-localize/Smock_CalendarAdd_18_N.svg) pour gérer et ajouter jusqu&#39;à trois calendriers externes.
+
+   ![vue calendrier affichant les calendriers externes](assets/journey-calendar-2.png)
+
+1. Effectuez un glisser-déposer de vos fichiers CSV contenant les noms des événements, les dates de début et les dates de fin.
+
+   Les événements chargés s’affichent pour tous les utilisateurs de votre organisation et sur les calendriers Parcours et Campaign.
+
+   +++Le format CSV doit être le suivant :
+
+   | Column1 | Column2 | Column3 |
+   |-|-|-|
+   | Nom de l’événement | Date de début au format mm/jj/aa | Date de fin au format mm/jj/aa |
+
+   +++
+
+1. Si nécessaire, vous pouvez masquer, afficher ou supprimer les calendriers externes ajoutés.
+
+   ![vue calendrier affichant les calendriers externes](assets/journey-calendar-3.png)
+
+1. Pour plus d’informations sur un parcours, cliquez sur son bloc visuel afin de l’ouvrir et d’en explorer les détails.
+
+   ![liste des campagnes avec le volet d’informations ouvert](assets/journey-calendar-4.png)
 
 
 ## Filtrer vos parcours {#journey-filter}
@@ -114,7 +137,7 @@ En savoir plus sur les types de parcours et la gestion des entrées associées s
 
 Le statut du parcours dépend de son cycle de vie. Il peut s’agir des éléments suivants :
 
-* **Fermé** : le parcours a été fermé à l’aide du bouton **Fermer aux nouvelles entrées**. Il n’est alors plus accessible aux nouveaux individus. En revanche, les personnes qui ont déjà intégré le parcours peuvent le terminer normalement.
+* **Fermé** : le parcours a été fermé à l’aide du bouton **Fermer aux nouvelles entrées**. Il n’est alors plus accessible aux nouvelles personnes. En revanche, les personnes qui ont déjà intégré le parcours peuvent le terminer normalement.
 * **Brouillon** : le parcours en est à sa première étape. Il n’a pas encore été publié.
 * **Brouillon (test)** : le mode test a été activé à l’aide du bouton **Mode test**.
 * **Terminé** : le parcours passe automatiquement à ce statut après la [temporisation globale](journey-properties.md#global_timeout) de 91 jours. Les profils de clientes et clients qui ont déjà intégré le parcours le terminent normalement. Les nouveaux profils ne peuvent plus rejoindre le parcours.
@@ -144,3 +167,19 @@ Pour ce faire, suivez les étapes ci-après :
    ![](assets/duplicate-jo2.png)
 
 1. Le nouveau parcours est créé et disponible dans la liste des parcours.
+
+
+## Opérations en bloc {#bulk-operations}
+
+Dans la liste de vos parcours, vous pouvez suspendre plusieurs parcours **en ligne**. Pour mettre en pause un groupe de parcours (_pause par lots_), sélectionnez-les dans la liste et cliquez sur le bouton **Mettre en pause** dans la barre bleue en bas de l’écran. Le bouton **Mettre en pause** n’est disponible que lorsque des parcours **actifs** sont sélectionnés.
+
+![Mettre en pause deux parcours actifs en même temps à partir de la barre inférieure](assets/bulk-pause-journeys.png)
+
+Vous pouvez également reprendre un ou plusieurs parcours **en pause**. Pour reprendre un groupe de parcours (_reprise par lots_), sélectionnez-les et cliquez sur le bouton **Reprendre** situé dans la barre bleue en bas de l’écran. Notez que le bouton **Reprendre** n’est disponible que lorsque des parcours **en pause** sont sélectionnés.
+
+[En savoir plus sur les parcours de pause/reprise](journey-pause.md).
+
+>[!NOTE]
+>
+>Vous pouvez suspendre/reprendre jusqu’à 10 parcours par opération.
+

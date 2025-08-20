@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: texte, e-mail, version, brut, éditeur
 exl-id: 4bb36810-65fb-4a9b-9bea-e56ed2c1eea3
-source-git-commit: cd8ce89dd6ed9c60d41e9f83ccfb080bdb4a19f9
+source-git-commit: 3aa3203ae7763d81288cb70a2984d017b0006bb3
 workflow-type: tm+mt
 source-wordcount: '172'
 ht-degree: 100%

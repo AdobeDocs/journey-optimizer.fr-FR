@@ -9,10 +9,10 @@ role: Data Engineer, Data Architect, Admin
 level: Experienced
 keywords: action, tiers, personnalisé, parcours, API
 exl-id: 4df2fc7c-85cb-410a-a31f-1bc1ece237bb
-source-git-commit: f5baa901c4f9d1061837528007b2c3f048ecbf2a
-workflow-type: ht
-source-wordcount: '1704'
-ht-degree: 100%
+source-git-commit: 3aa3203ae7763d81288cb70a2984d017b0006bb3
+workflow-type: tm+mt
+source-wordcount: '1720'
+ht-degree: 99%
 
 ---
 
@@ -116,6 +116,8 @@ Lors de la configuration d’une action personnalisée, vous devez définir les 
    >[!NOTE]
    >
    > Le méthode **DELETE** n’est pas prise en charge. Si vous devez mettre à jour une ressource existante, sélectionnez la méthode **PUT**.
+
+1. Gérer les redirections potentielles (réponses 302). Les **actions personnalisées** suivent automatiquement les redirections HTTP 302 sur une base par demande.
 
 1. Définissez les en-têtes et les paramètres de requête :
 

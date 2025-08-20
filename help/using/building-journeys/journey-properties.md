@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: parcours, configuration, propriétés
 exl-id: 6c21371c-6cbc-4d39-8fe6-39f1b8b13280
-source-git-commit: 7d5d27d9509dd80fece2e360d58437d26df7c4de
-workflow-type: ht
-source-wordcount: '2392'
-ht-degree: 100%
+source-git-commit: 3aa3203ae7763d81288cb70a2984d017b0006bb3
+workflow-type: tm+mt
+source-wordcount: '2733'
+ht-degree: 86%
 
 ---
 
@@ -127,7 +127,7 @@ Les parcours utilisent également une temporisation globale comme décrit ci-des
 
 En plus de la [temporisation](#timeout_and_error) utilisée dans les activités de parcours, une temporisation globale de parcours est appliquée. Elle ne s’affiche pas dans l’interface et ne peut pas être modifiée.
 
-Cette temporisation globale met fin à la progression des personnes dans le parcours **91 jours** après leur entrée. En d’autres termes, la durée du parcours d’une personne ne peut pas excéder 91 jours. Après cette période de temporisation, les données de cette personne sont supprimées. Les personnes qui sont encore actives dans le parcours au terme de cette période de temporisation seront arrêtées et ne seront pas prises en compte dans le cadre du reporting. Vous pouvez donc voir plus de personnes rejoindre le parcours que le quitter.
+Cette temporisation globale arrête la progression des personnes dans le parcours **91 jours** après leur entrée. En d’autres termes, la durée du parcours d’une personne ne peut pas excéder 91 jours. Après cette période de temporisation, les données de cette personne sont supprimées. Les personnes qui sont encore actives dans le parcours au terme de cette période de temporisation seront arrêtées et ne seront pas prises en compte dans le cadre du reporting. Vous pouvez donc voir plus de personnes rejoindre le parcours que le quitter.
 
 Compte tenu de la temporisation de 91 jours du parcours, lorsque la rentrée de celui-ci n’est pas autorisée, nous sommes dans l’impossibilité de garantir que le blocage de la rentrée fonctionnera plus de 91 jours. En effet, étant donné que nous supprimons toutes les informations sur les personnes qui ont rejoint le parcours 91 jours après leur entrée, rien ne nous permet de savoir qu’une personne l’a déjà rejoint il y a plus de 91 jours.
 
@@ -262,10 +262,10 @@ Pour en savoir plus sur les politiques de fusion, consultez la [documentation d�
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_exit_criterias"
->title="Critères de sortie de parcours"
->abstract="Cette section présente les options des critères de sortie. Vous pouvez créer une ou plusieurs règles de critères de sortie pour votre parcours."
+>title="Critères de sortie"
+>abstract="Cette section présente les options des critères de sortie. Vous pouvez créer une ou plusieurs règles et filtres de critères de sortie pour votre parcours."
 
-### Description {#exit-criteria-desc}
+### Critères de sortie du parcours {#exit-criteria-desc}
 
 En ajoutant des critères de sortie, vous faites quitter le parcours aux profils dès qu’un événement se produit (un achat, par exemple) ou qu’ils répondent aux critères d’une audience. Cela évite à l’utilisateur ou à l’utilisatrice de recevoir d’autres communications du parcours.
 
@@ -275,7 +275,7 @@ Vous pouvez supprimer des profils d’un parcours lorsqu’ils ne remplissent pl
 
 Une personne spécialiste du marketing dispose d’un parcours promotionnel avec une série de communications. Chacune de ces communications a pour but d’inciter le client ou la cliente à effectuer un achat. Dès que l’achat est effectué, le client ou la cliente ne doit pas recevoir le reste des messages de la série. En définissant un critère de sortie, tous les profils ayant effectué un achat sont supprimés du parcours.
 
-### Configuration et utilisation {#exit-criteria-config}
+#### Configuration et utilisation {#exit-criteria-config}
 
 Les critères de sortie sont définis au niveau du parcours. Un parcours peut comporter plusieurs critères de sortie. Lorsque plusieurs critères de sortie sont définis, l’évaluation se fait de haut en bas avec une logique `OR`. Ainsi, si vous disposez des critères de sortie A et B, ils seront évalués en tant que A **OU** B. Les critères sont évalués à chaque étape du parcours.
 
@@ -296,12 +296,39 @@ Vous pouvez ajouter plusieurs critères de sortie.
 
 ![](assets/exitcriteria-sample.png){width="40%" align="left"}
 
+
+### Critères de sortie basés sur les attributs de profil {#profile-exit-criteria}
+
+Les critères de sortie basés sur les attributs de profil vous donnent un meilleur contrôle sur les parcours en pause en vous permettant de définir des règles qui suppriment automatiquement des profils spécifiques avant la reprise du parcours. Vous pouvez définir des conditions de sortie en fonction des attributs de profil (tels que l’emplacement, le statut ou les préférences) afin de vous assurer que seuls les profils pertinents continuent dans le parcours après sa reprise.
+
+Par exemple, vous pouvez [mettre un parcours en pause](journey-pause.md), ajouter une condition de sortie pour supprimer tous les profils situés en France et reprendre le parcours en sachant que ces profils seront exclus à l’étape d’action suivante. Cette logique s’applique à la fois aux profils déjà présents dans le parcours et aux nouveaux profils qui remplissent les critères après la reprise du parcours.
+
+Cette fonctionnalité fonctionne avec la fonctionnalité Pause/Reprendre , ce qui vous permet de gérer les parcours de manière plus sécurisée et plus flexible. Il minimise les interventions manuelles, réduit le risque d’envoi de communications non pertinentes ou non conformes et maintient votre logique de parcours alignée sur les besoins actuels de l’entreprise.
+
+Reportez-vous à cette section pour savoir comment [utiliser les critères de sortie d’attribut de profil dans les parcours en pause](journey-pause.md#apply-a-global-filter-to-profiles-in-a-paused-journey).
+
 ### Mécanismes de sécurisation et limitations {#exit-criteria-guardrails}
 
-Les mécanismes de sécurisation et limitations suivants s’appliquent à la fonctionnalité de critère de sortie de parcours :
+Les mécanismes de sécurisation et limitations suivants s’appliquent à la fonctionnalité Critères de sortie de Parcours [](#exit-criteria-desc) :
 
 * Les critères de sortie sont définis en état de brouillon uniquement.
 * Cohérence de l’espace de noms de parcours entre les événements et les critères de sortie basés sur un événement
+
+Les mécanismes de sécurisation suivants s’appliquent lors de l’utilisation de la fonctionnalité [Critères de sortie basés sur les attributs de profil](#profile-exit-criteria) :
+
+* **Les critères de sortie s’appliquent au niveau de l’action**\
+  Les critères de sortie « Attribut de profil » sont évalués uniquement aux étapes d’action. Contrairement aux autres types de critères de sortie, ils ne s’appliquent pas globalement au parcours.\
+  Si vous reprenez un parcours et que certains profils remplissent la condition de sortie, ces profils seront exclus au nœud d’action suivant.\
+  Les nouveaux profils qui rejoignent le parcours après la reprise seront également évalués et exclus au niveau de leur premier nœud d’action, s’ils remplissent la condition.
+
+* **Une règle de sortie basée sur un profil par parcours**\
+  Vous pouvez définir un seul critère de sortie « Attribut de profil » par parcours. Cette limitation permet de maintenir la clarté et d’éviter les conflits dans la logique de parcours.
+
+* **Disponible uniquement dans les parcours en pause**\
+  Vous pouvez ajouter ou modifier des critères de sortie « Attribut de profil » uniquement lorsque le parcours est en pause.
+
+   * Dans un **brouillon de parcours**, l’option *Attribut de profil* apparaît désactivée (lecture seule), tandis que les options *Événement* et *Audience* restent actives.
+   * Dans un **parcours en pause**, l’option *Attribut de profil* devient modifiable et les options *Événement* et *Audience* deviennent en lecture seule.
 
 ## Planning du parcours {#schedule}
 

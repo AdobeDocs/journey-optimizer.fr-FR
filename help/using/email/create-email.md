@@ -9,10 +9,10 @@ role: User
 level: Beginner
 keywords: créer, e-mail, commencer, parcours, campagne
 exl-id: c77dc420-a375-4376-ad86-ac740e214c3c
-source-git-commit: 29532b5ebd140f9609a29c1375ceedecf55d0dfb
-workflow-type: ht
-source-wordcount: '1033'
-ht-degree: 100%
+source-git-commit: 3aa3203ae7763d81288cb70a2984d017b0006bb3
+workflow-type: tm+mt
+source-wordcount: '1026'
+ht-degree: 98%
 
 ---
 
@@ -92,7 +92,7 @@ Pour plus d’informations sur la configuration d’une campagne, consultez cett
 
    >[!AVAILABILITY]
    >
-   >Pour l’instant, la création de politique de décision dans les e-mails n’est pas disponible pour les organisations qui ont acheté les offres complémentaires Adobe Healthcare Shield et Privacy and Security Shield.
+   >Pour l’instant, la création de politique de décision dans les e-mails est disponible en disponibilité limitée. Contactez votre représentant ou représentante Adobe pour en obtenir l’accès.
 
 1. Dans la section **[!UICONTROL En-tête]**, vérifiez les champs **[!UICONTROL Nom de l’expéditeur ou de l’expéditrice]**, **[!UICONTROL E-mail de l’expéditeur ou de l’expéditrice]** et **[!UICONTROL Cci]**. Ils sont configurés dans la configuration du canal e-mail que vous avez sélectionnée. [En savoir plus](email-settings.md) <!--check if same for journey-->
 

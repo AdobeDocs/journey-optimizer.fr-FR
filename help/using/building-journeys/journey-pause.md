@@ -6,13 +6,12 @@ description: Découvrez comment mettre en pause et reprendre un parcours actif.
 feature: Journeys
 role: User
 level: Intermediate
-badge: label="Disponibilité limitée" type="Informative"
 keywords: publication, parcours, actif, validité, vérification
 exl-id: a2892f0a-5407-497c-97af-927de81055ac
-source-git-commit: 9db476ff5b693bef91e982502c6dd37321610fc7
-workflow-type: ht
-source-wordcount: '2169'
-ht-degree: 100%
+source-git-commit: 3aa3203ae7763d81288cb70a2984d017b0006bb3
+workflow-type: tm+mt
+source-wordcount: '2225'
+ht-degree: 89%
 
 ---
 
@@ -23,11 +22,8 @@ ht-degree: 100%
 >title="Mettre en pause votre parcours"
 >abstract="Mettez en pause un parcours actif pour empêcher de nouveaux profils de le rejoindre. Choisissez de supprimer ou de conserver les profils actuellement dans le parcours. S’ils sont conservés, ils reprendront l’exécution à l’activité d’action suivante lors de la reprise du parcours. Idéal pour les mises à jour ou les arrêts d’urgence, sans perte de la progression."
 
-Vous pouvez mettre en pause vos parcours actifs, effectuer toutes les modifications nécessaires, puis les reprendre à tout moment.<!--You can choose whether the journey is resumed at the end of the pause period, or whether it stops completely. --> Pendant la pause, vous pouvez [appliquer des filtres globaux](#journey-global-filters) pour exclure des profils en fonction de leurs attributs. Le parcours est automatiquement repris à l’issue de la période de pause. Vous pouvez également le [reprendre manuellement](#journey-resume-steps).
+Vous pouvez mettre en pause vos parcours actifs, effectuer toutes les modifications nécessaires, puis les reprendre à tout moment.<!--You can choose whether the journey is resumed at the end of the pause period, or whether it stops completely. --> Pendant la pause, vous pouvez [appliquer des critères de sortie d’attribut de profil](#journey-global-filters) pour exclure des profils en fonction de leurs attributs. Le parcours est automatiquement repris à l’issue de la période de pause. Vous pouvez également le [reprendre manuellement](#journey-resume-steps).
 
->[!AVAILABILITY]
->
->Cette fonctionnalité n’est disponible que pour un certain nombre d’organisations (disponibilité limitée) et sera proposée à l’ensemble des utilisateurs et utilisatrices dans une prochaine version.
 
 
 ## Avantages clés {#journey-pause-benefits}
@@ -65,11 +61,15 @@ Pour mettre en pause votre parcours, procédez comme suit :
 
 1. Cliquez sur le bouton **Mettre en pause** pour confirmer l’opération.
 
+Le nombre maximal de profils pouvant être conservés dans des parcours en pause pour votre organisation est visible dans l’inventaire des parcours. Il n’est visible que lorsqu’au moins un parcours est en pause. Cet indicateur affiche également le nombre total de parcours en pause. Elle est rafraîchie toutes les 30 minutes. En savoir plus dans la [Mécanismes de sécurisation et limitations](#guardrails-and-limitations).
+
+![Nombre de parcours et de profils en pause actuellement](assets/profiles-in-paused-journeys.png){width="50%" align="left"}
+
 Dans la liste de vos parcours, vous pouvez mettre en pause un ou plusieurs parcours **actifs**. Pour mettre en pause un groupe de parcours (_pause par lots_), sélectionnez-les dans la liste et cliquez sur le bouton **Mettre en pause** dans la barre bleue en bas de l’écran. Le bouton **Mettre en pause** n’est disponible que lorsque des parcours **actifs** sont sélectionnés.
 
 ![Mettre en pause deux parcours actifs en même temps à partir de la barre inférieure](assets/bulk-pause-journeys.png)
 
-### Comportement dans les parcours en pause
+## Logique d’exécution des parcours en pause {#journey-pause-exec}
 
 Lorsqu’un parcours est en pause, les nouvelles entrées sont toujours supprimées, quel que soit le mode choisi (mettre en pause/ignorer).
 
@@ -113,23 +113,23 @@ Pour reprendre un parcours en pause et recommencer à écouter les événements 
 Dans la liste de vos parcours, vous pouvez reprendre un ou plusieurs parcours **en pause**. Pour reprendre un groupe de parcours (_reprise par lots_), sélectionnez-les et cliquez sur le bouton **Reprendre** situé dans la barre bleue en bas de l’écran. Notez que le bouton **Reprendre** n’est disponible que lorsque des parcours **en pause** sont sélectionnés.
 
 
-## Appliquer un filtre global aux profils d’un parcours en pause {#journey-global-filters}
+## Application d’un critère de sortie dans un parcours en pause {#journey-global-filters}
 
-Lorsqu’un parcours est en pause, vous pouvez appliquer un filtre global basé sur des attributs de profil. Ce filtre permet d’exclure au moment de la reprise les profils qui correspondent à une expression définie. Une fois le filtre global défini, il est appliqué sur les nœuds d’action, même pour les nouvelles entrées de profils. Les profils existants correspondant aux critères et les nouveaux profils entrant dans le parcours seront exclus du parcours **sur le nœud d’action suivant** qu’ils rencontrent.
+Lorsqu’un parcours est en pause, vous pouvez appliquer un critère de sortie en fonction des attributs de profil. Ce filtre permet d’exclure au moment de la reprise les profils qui correspondent à une expression définie. Une fois que le critère de sortie basé sur les attributs de profil est défini, il est appliqué sur les nœuds d’action, même pour les nouvelles entrées de profils. Les profils existants correspondant aux critères et les nouveaux profils entrant dans le parcours seront exclus du parcours **sur le nœud d’action suivant** qu’ils rencontrent.
 
 Par exemple, pour exclure toutes les clientes et tous les clients français d’un parcours en pause, procédez comme suit :
 
 1. Accédez au parcours en pause que vous souhaitez modifier.
 
-1. Cliquez sur l’icône **Critères de sortie et filtre global**.
+1. Sélectionnez l’icône **Critères de sortie**.
 
-   ![Ajouter un filtre global à un parcours en pause](assets/add-global-filter.png)
+   ![Ajouter un critère de sortie d’attribut de profil à un parcours en pause](assets/add-global-filter.png)
 
-1. Dans les paramètres **Critères de sortie et filtre global**, cliquez sur **Ajouter un filtre global** pour définir un filtre en fonction des attributs de profil.
+1. Dans les paramètres **Critères de sortie**, cliquez sur **Ajouter des critères de sortie** pour définir un filtre en fonction des attributs de profil.
 
 1. Définissez l’expression pour exclure les profils dont l’attribut de pays est égal à « France ».
 
-   ![Ajouter un filtre global à un parcours en pause](assets/add-country-filter.png)
+   ![Ajouter un critère de sortie d’attribut de profil à un parcours en pause](assets/add-country-filter.png)
 
 1. Enregistrez votre filtre et cliquez sur le bouton **Mettre à jour le parcours** pour appliquer vos modifications.
 
@@ -137,13 +137,15 @@ Par exemple, pour exclure toutes les clientes et tous les clients français d’
 
    Au moment de la reprise, tous les profils dont l’attribut de pays est défini sur France seront automatiquement exclus du parcours au niveau du nœud d’action suivant. Tous les nouveaux profils dont l’attribut de pays est défini sur France qui tenteront d’entrer dans le parcours seront bloqués au nœud d’action suivant.
 
-N’oubliez pas que les exclusions de profils, pour les profils actuellement dans le parcours et pour les nouveaux profils, ne se produiront que lorsqu’ils atteindront un nœud d’action.
+Gardez à l’esprit que les exclusions de profil pour les profils actuellement dans le parcours et pour les nouveaux profils ne se produiront que **lorsqu’ils atteignent un nœud d’action**.
 
 >[!CAUTION]
 >
->* Vous ne pouvez définir qu’**un seul** filtre global par parcours.
+>* Vous ne pouvez définir qu’un seul critère de sortie basé sur **un** attribut de profil par parcours.
 >
->* Vous pouvez uniquement créer, mettre à jour ou supprimer un filtre global dans les parcours **en pause**.
+>* Vous pouvez uniquement créer, mettre à jour ou supprimer un critère de sortie basé sur les attributs de profil dans les parcours **En pause**.
+>
+>* En savoir plus sur les critères de sortie basés sur les attributs de profil [dans cette section](journey-properties.md#profile-exit-criteria).
 
 ## Mécanismes de sécurisation et limitations {#journey-pause-guardrails}
 
@@ -169,7 +171,8 @@ Cette limite est vérifiée toutes les 30 minutes. Cela signifie que vous pouve
    * Ignorer les événements métier pour **Lecture d’audience**
    * Les tâches de **Lecture d’audience** sont abandonnées en raison d’un parcours en pause
    * Événements ignorés lorsque l’activité **Événement** se situe après une activité d’action où le profil est en attente
-     <!--* There is a guardrail (at an org level) on the max number of profiles that can be held in paused journeys. This guardrail is per org, and is visible in the journey inventory on a new bar (only visible when there are paused journeys).-->
+
+
 
 ## Exemple de bout en bout {#journey-pause-sample}
 

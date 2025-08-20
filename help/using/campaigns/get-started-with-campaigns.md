@@ -9,10 +9,10 @@ role: User
 level: Beginner
 keywords: campagne, guide, commencer, optimizer
 exl-id: e2506a43-e4f5-48af-bd14-ab76c54b7c90
-source-git-commit: 3a44111345c1627610a6b026d7b19b281c4538d3
-workflow-type: ht
-source-wordcount: '708'
-ht-degree: 100%
+source-git-commit: 3aa3203ae7763d81288cb70a2984d017b0006bb3
+workflow-type: tm+mt
+source-wordcount: '735'
+ht-degree: 94%
 
 ---
 
@@ -40,8 +40,8 @@ ht-degree: 100%
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_throttling"
->title="Contrôle du taux de ralentissement"
->abstract="Contrôle du taux de ralentissement"
+>title="Contrôle des taux"
+>abstract="Définissez le contrôle des taux pour votre campagne en spécifiant les limites de taux souhaitées. Cette fonctionnalité est particulièrement utile pour éviter la surcharge sur les systèmes en aval, tels que les pages de destination ou les plateformes d’assistance clientèle."
 
 >[!CONTEXTUALHELP]
 >id="ajo_homepage_card3"
@@ -113,7 +113,7 @@ Observateur ou observatrice de campagnes orchestrées
 
 Si vous ne parvenez pas à accéder aux fonctionnalités des campagnes, contactez votre équipe d’administration pour demander les autorisations nécessaires.
 
-+++Découvrir comment attribuer un rôle lié à la campagne
++++Découvrez comment attribuer un rôle lié à la campagne
 
 1. Pour attribuer un rôle à un utilisateur ou une utilisatrice dans le produit [!DNL Permissions], accédez à l’onglet **[!UICONTROL Rôles]** et sélectionnez l’un des **[!UICONTROL Rôles]** liés à la campagne intégrée précisés ci-dessous.
 

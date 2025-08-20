@@ -8,46 +8,98 @@ topic: Administration
 role: User
 level: Intermediate
 exl-id: 0855ca5b-c7af-41c4-ad51-bed820ae5ecf
-source-git-commit: da2fb137a8af82a8487638dc3d762377dd5dc506
-workflow-type: ht
-source-wordcount: '654'
-ht-degree: 100%
+source-git-commit: 3aa3203ae7763d81288cb70a2984d017b0006bb3
+workflow-type: tm+mt
+source-wordcount: '977'
+ht-degree: 43%
 
 ---
 
 # Accéder et s’abonner aux alertes système {#alerts}
 
-Lors de la création de vos parcours et campagnes, utilisez le bouton **Alertes** pour vérifier et résoudre les erreurs avant de les exécuter ou de les publier. Découvrez comment résoudre les problèmes de vos parcours sur [cette page](../building-journeys/troubleshooting.md). Découvrez comment examiner vos campagnes sur [cette page](../campaigns/review-activate-campaign.md).
+Lors de la création de vos parcours et campagnes, utilisez le bouton **Alertes** pour vérifier et résoudre les erreurs avant de les exécuter ou de les publier :
 
-Vous pouvez également vous abonner à des alertes système Adobe Journey Optimizer, comme décrit sur cette page.
+* Découvrez comment résoudre les problèmes liés à vos parcours sur [cette page](../building-journeys/troubleshooting.md).
+* Découvrez comment examiner vos campagnes sur [cette page](../campaigns/review-activate-campaign.md).
 
-## Accéder et s’abonner aux alertes {#alerting-capabilities}
+Dans le menu dédié **[!UICONTROL Alertes]**, vous pouvez également vous abonner à [!DNL Adobe Journey Optimizer] alertes système, comme indiqué sur cette page.
 
-En cas d’échec, vous pouvez obtenir des alertes système dans le centre de notification de Journey Optimizer (alertes in-app) et/ou recevoir un e-mail.
+## Accéder aux alertes {#access-alerts}
 
-Dans le menu **Alertes**, vous pouvez afficher les alertes disponibles et vous y abonner. Lorsqu’un certain ensemble de conditions de vos opérations est atteint (par exemple, un problème potentiel lorsque le système dépasse un certain seuil), des messages d’alerte sont envoyés à l’ensemble des personnes de votre organisation qui s’y sont abonnées.
+En cas d’échec, vous pouvez recevoir des alertes système dans le centre de notifications Journey Optimizer (alertes in-app) et/ou recevoir un e-mail. Pour accéder à ces alertes, procédez comme suit.
 
 <!--These messages can repeat over a pre-defined time interval until the alert has been resolved.-->
 
-En savoir plus sur les alertes dans Adobe Experience Platform dans la [documentation d’Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/overview.html?lang=fr){target="_blank"}.
+>[!NOTE]
+>
+>En savoir plus sur les alertes dans Adobe Experience Platform dans la [documentation d’Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/overview.html?lang=fr){target="_blank"}.
 
-Dans le menu de gauche, sous **Administration**, cliquez sur **Alertes**. Deux alertes préconfigurées pour Journey Optimizer sont disponibles : l’alerte [Échec de l’action personnalisée du parcours](#alert-custom-actions) et l’alerte [Échec du déclenchement de la lecture d’audience](#alert-read-audiences). Ces alertes sont décrites ci-dessous.
+Dans le menu de gauche, sous **[!UICONTROL Administration]**, cliquez sur **[!UICONTROL Alertes]**. Plusieurs alertes préconfigurées pour Journey Optimizer sont disponibles.
 
-Vous pouvez vous abonner individuellement à chaque alerte depuis l’interface utilisateur en sélectionnant l’option **S’abonner** dans le tableau de bord **Alertes**. Utilisez la même méthode pour vous désabonner.
+Elles sont répertoriées comme suit et chaque alerte est détaillée ci-dessous.
 
-![](assets/alert-subscribe.png)
+* Alertes spécifiques aux parcours :
 
-Vous pouvez également vous abonner aux alertes par le biais des [notifications d’événements d’entrée/sortie](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/subscribe.html?lang=fr){target="_blank"}. Les règles d’alerte sont organisées en différents packages d’abonnement. Les abonnements aux événements correspondant aux alertes Journey Optimizer spécifiques sont présentés ci-dessous.
+   * l’alerte [Échec de l’action personnalisée de Parcours ](#alert-custom-actions)
+   * l’alerte [ Échec du déclenchement de la lecture d’audience ](#alert-read-audiences)
 
-Si un comportement inattendu se produit, une notification d’alerte est envoyée aux personnes abonnées. En fonction des préférences des personnes, les alertes sont envoyées par e-mail ou directement dans le centre de notification de Journey Optimizer, dans le coin supérieur droit de l’interface utilisateur. Par défaut, seules les alertes in-app sont activées. Pour activer les alertes par e-mail, consultez la [documentation d’Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/ui.html?lang=fr#enable-email-alerts){target="_blank"}.
+* Alertes spécifiques à la configuration des canaux :
+
+   * l’enregistrement DNS du domaine AJO [](#alert-dns-record-missing) est manquant
+  <!--* the [AJO channel configuration failure](#alert-channel-config-failure) alert
+   * the [AJO domain certificates renewal unsuccessful](#alert-certificates-renewal) alert-->
+
+## S’abonner aux alertes {#subscribe-alerts}
+
+1. Vous pouvez vous abonner à chaque alerte individuellement à partir de l’interface utilisateur en sélectionnant l’option **[!UICONTROL S’abonner]**.
+
+   ![](assets/alert-subscribe.png){width=80%}
+
+   >[!NOTE]
+   >
+   >L’abonnement s’applique uniquement à un sandbox spécifique. Vous devez vous abonner à des alertes pour chaque sandbox.
+
+1. Utilisez la même méthode pour **[!UICONTROL Unsubscribe]**.
+
+1. Vous pouvez également vous abonner aux alertes par le biais des [notifications d’événements d’entrée/sortie](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/subscribe.html?lang=fr){target="_blank"}. Les règles d’alerte sont organisées en différents packages d’abonnement. Les abonnements aux événements correspondant aux alertes Journey Optimizer spécifiques sont détaillés [ci-dessous](#journey-alerts).
+
+1. Si un comportement inattendu se produit et/ou qu’un certain ensemble de conditions de vos opérations est atteint (par exemple, un problème potentiel lorsque le système dépasse un seuil), des notifications d’alerte sont envoyées à tous les utilisateurs de votre organisation qui se sont abonnés à ces notifications.
+
+En fonction des préférences de l’abonné ou de l’abonnée, les alertes sont envoyées par e-mail et/ou directement dans le centre de notifications Journey Optimizer, dans le coin supérieur droit de l’interface utilisateur (notifications in-app). Sélectionnez le mode de réception de ces alertes dans les [!DNL Adobe Experience Cloud] **[!UICONTROL Préférences]**. [En savoir plus](../start/user-interface.md#in-product-alerts)
+
+>[!NOTE]
+>
+>Par défaut, seules les alertes in-app sont activées.
+
+<!--To enable email alerting, refer to [Adobe Experience Platform documentation](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/ui.html#enable-email-alerts){target="_blank"}.-->
 
 Lorsqu’une alerte est résolue, les personnes abonnées reçoivent une notification « Résolue ».
+
+## Gérer les alertes {#manage-alerts}
+
+Pour gérer les alertes, sélectionnez un élément et utilisez le bouton **[!UICONTROL Plus d’actions]**.
+
+![](assets/alert-more-actions.png){width=80%}
+
+Par défaut, toutes les alertes sont activées. Pour désactiver une alerte, sélectionnez l’option **[!UICONTROL Désactiver l’alerte]** dans le menu **[!UICONTROL Plus d’actions]**. Tous les abonnés à cette alerte ne recevront plus les notifications associées.
+
+Sélectionnez **[!UICONTROL Gérer les abonnés aux alertes]** pour afficher la liste des utilisateurs et utilisatrices qui se sont abonnés à l’alerte. Utilisez le champ vide pour ajouter d’autres abonnés.
+
+![](assets/alert-subscribers.png){width=80%}
+
+Les statuts possibles des alertes sont répertoriés ci-dessous :
+
+* **[!UICONTROL Activé]** - L’alerte est activée et contrôle actuellement la condition de déclencheur.
+* **[!UICONTROL Désactivé]** - L’alerte est désactivée et ne contrôle pas la condition de déclencheur. Vous ne recevrez aucune notification pour cette alerte.
+* **[!UICONTROL Déclenché]** - La condition de déclencheur de l’alerte est en cours de réalisation.
+
+## Alertes de parcours {#journey-alerts}
 
 >[!CAUTION]
 >
 >Les alertes spécifiques à Adobe Journey Optimizer s’appliquent uniquement aux parcours **dynamiques**. Les alertes ne seront pas déclenchées pour les parcours en mode test.
 
-## Échec de l’action personnalisée du parcours {#alert-custom-actions}
+### Échec de l’action personnalisée du parcours {#alert-custom-actions}
 
 Cette alerte vous avertit si une action personnalisée échoue. Nous considérons qu’il existe un échec quand plus de 1 % d’erreurs sont commises sur une action personnalisée spécifique au cours des 5 dernières minutes. Ces données sont évaluées toutes les 30 secondes.
 
@@ -60,26 +112,6 @@ Les alertes relatives aux actions personnalisées sont résolues lorsque, au cou
 * ou aucun profil n’a atteint cette action personnalisée.
 
 Le nom d’abonnement à l’événement d’E/S correspondant à l’alerte d’action personnalisée est **Échec de l’action personnalisée du parcours**.
-
-## Échec du déclenchement de la lecture d’audience {#alert-read-audiences}
-
-Cette alerte vous avertit si une activité **Lecture d’audience** n’a traité aucun profil 10 minutes après l’heure planifiée de l’exécution. Cet échec peut être dû à des problèmes techniques ou parce que l’audience est vide. Si cet échec est dû à des problèmes techniques, sachez que des reprises peuvent toujours se produire, selon le type de problème (par exemple : si la création du traitement d’export a échoué, nous allons réessayer toutes les 10 minutes pendant 1 h au maximum).
-
-![](assets/alerts1.png)
-
-Les alertes sur l’activité **Lecture d’audience** ne s’appliquent qu’aux parcours récurrents. Les activités **Lecture d’audience** dans des parcours dynamiques dont l’exécution est planifiée **Une fois** ou **Dès que possible** sont ignorées.
-
-Les alertes sur **Lecture d’audience** sont résolues lorsqu’un profil entre dans le nœud **Lecture d’audience**.
-
-Le nom d’abonnement à l’événement d’E/S correspondant à l’alerte **Échec du déclenchement de la lecture d’audience** est **Retards, échecs et erreurs dans la lecture d’audience du parcours**.
-
-## Résolution des problèmes {#alert-troubleshooting}
-
-Pour résoudre les alertes **Lecture d’audience**, vérifiez la taille de l’audience dans l’interface d’Experience Platform.
-
-![](assets/alert-troubleshooting-0.png)
-
-![](assets/alert-troubleshooting-1.png)
 
 Pour résoudre les alertes **Action personnalisée** :
 
@@ -94,3 +126,101 @@ Pour résoudre les alertes **Action personnalisée** :
 * Vérifiez vos événements stepEvents de parcours pour obtenir plus d’informations sur « failureReason ».
 
 * Vérifiez votre configuration d’action personnalisée et que l’authentification est toujours correcte. Effectuez un contrôle manuel avec Postman, par exemple.
+
+### Échec du déclenchement de la lecture d’audience {#alert-read-audiences}
+
+Cette alerte vous avertit si une activité **Lecture d’audience** n’a traité aucun profil 10 minutes après l’heure planifiée de l’exécution. Cet échec peut être dû à des problèmes techniques ou parce que l’audience est vide. Si cet échec est dû à des problèmes techniques, sachez que des reprises peuvent toujours se produire, selon le type de problème (par exemple : si la création du traitement d’export a échoué, nous allons réessayer toutes les 10 minutes pendant 1 h au maximum).
+
+![](assets/alerts1.png)
+
+Les alertes sur l’activité **Lecture d’audience** ne s’appliquent qu’aux parcours récurrents. Les activités **Lecture d’audience** dans des parcours dynamiques dont l’exécution est planifiée **Une fois** ou **Dès que possible** sont ignorées.
+
+Les alertes sur **Lecture d’audience** sont résolues lorsqu’un profil entre dans le nœud **Lecture d’audience**.
+
+Le nom d’abonnement à l’événement d’E/S correspondant à l’alerte **Échec du déclenchement de la lecture d’audience** est **Retards, échecs et erreurs dans la lecture d’audience du parcours**.
+
+Pour résoudre les alertes **Lecture d’audience**, vérifiez la taille de l’audience dans l’interface d’Experience Platform.
+
+![](assets/alert-troubleshooting-0.png)
+
+![](assets/alert-troubleshooting-1.png)
+
+## Alertes de configuration {#configuration-alerts}
+
+### Enregistrement DNS du domaine AJO manquant {#alert-dns-record-missing}
+
+Cette alerte vous avertit lorsque des enregistrements DNS critiques (NS ou CNAME) requis pour une configuration de délivrabilité appropriée sont manquants ou mal configurés. Sans ces enregistrements, la délivrabilité des e-mails peut être compromise.
+
+>[!NOTE]
+>
+>* Les enregistrements NS sont essentiels pour la délégation complète de sous-domaines à Adobe. [En savoir plus](../configuration/about-subdomain-delegation.md#full-subdomain-delegation)
+>
+>* Les enregistrements CNAME prennent en charge la configuration des sous-domaines CNAME. [En savoir plus](../configuration/about-subdomain-delegation.md#cname-subdomain-setup)
+
+L’alerte « **Enregistrement DNS du domaine AJO manquant** est déclenchée lorsque le système détecte que les enregistrements DNS ou CNAME requis sont absents ou ne correspondent pas aux normes de configuration.
+
+1. Cliquez sur l’alerte pour la diriger vers le [sous-domaine](../configuration/delegate-subdomain.md) concerné dans l’interface [!DNL Journey Optimizer].
+
+   <!--For guidance on editing delegated subdomains, see [this section](../configuration/delegate-subdomain.md).-->
+
+1. Corrigez la configuration DNS en définissant correctement les enregistrements et [soumettez à nouveau la délégation du sous-domaine](../configuration/delegate-subdomain.md#submit-subdomain).
+
+   >[!NOTE]
+   >
+   >Assurez-vous que tous les enregistrements sont correctement créés sur votre solution d’hébergement de domaine avant de continuer.
+
+1. Si vous n’êtes pas sûr des valeurs correctes, vous pouvez créer un nouveau sous-domaine dans [!DNL Journey Optimizer] avec le même nom que le sous-domaine concerné. [Découvrez comment configurer un nouveau sous-domaine](../configuration/delegate-subdomain.md#set-up-subdomain)
+
+Si les modifications ne permettent pas de résoudre le problème, la même alerte sera déclenchée à nouveau le lendemain.
+
+<!--The I/O event subscription name corresponding to this alert is xx. > Do we need to mention this?
+
+### AJO channel configuration failure {#alert-channel-config-failure}
+
+>[!IMPORTANT]
+>
+>This alert applies only to **email** channel configurations using the [custom subdomain](../configuration/delegate-custom-subdomain.md) delegation type. ///Other channel types (such as SMS, push, or in-app) are not covered by this alert.///
+
+This alert is triggered in case the system audit detects email channel configuration issues. These issues may include misconfigured channel settings, invalid DNS configuration, suppression list issue, IP inconsistency, or any other errors that can impact email delivery.
+
+If you receive such an alert, the resolution steps are listed below:
+
+1. Click the alert to be directed to the impacted [email channel configuration](../email/get-started-email-config.md) in the [!DNL Journey Optimizer] interface.
+
+   For guidance on editing channel configurations, see [this section](../configuration/channel-surfaces.md#edit-channel-surface).
+
+1. Review the configuration details and error messages provided. Common failure reasons include:
+
+   * SPF validation failed
+   * DKIM validation failed
+   * MX record validation failed
+   * Invalid DNS records
+
+   >[!NOTE]
+   >
+   >The possible configuration failure reasons are listed in [this section](../configuration/channel-surfaces.md).
+
+1. Resolve the issue:
+
+   * Update the channel configuration as needed.
+   * You may need to fix specific DNS issues mentioned in the alert.
+
+   >[!NOTE]
+   >
+   >As a single domain can be associated with multiple channel configurations, resolving DNS issues for one channel configuration may automatically fix related issues across several configurations.
+
+If the change does not resolve the issue, the same alert will be triggered again the next day.
+
+When resolving email configuration issues, keep in mind the best practices listed below:
+
+* Act promptly - Address configuration failures as soon as they are detected to avoid disruptions in email delivery.
+* Check all configurations - If the alert indicates multiple impacted email configurations, review and fix each of them.
+
+### AJO domain certificates renewal unsuccessful {#alert-certificates-renewal}
+
+This alert warns you if a domain certificate (CDN, tracking URL) renewal failed for a specific Journey Optimizer subdomain.-->
+
+
+
+
+

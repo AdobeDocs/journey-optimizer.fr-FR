@@ -10,10 +10,10 @@ level: Intermediate
 mini-toc-levels: 1
 keywords: expression, éditeur, à propos, commencer
 exl-id: 1ac2a376-a3a8-41ae-9b04-37886697f0fc
-source-git-commit: 3a44111345c1627610a6b026d7b19b281c4538d3
-workflow-type: ht
-source-wordcount: '1536'
-ht-degree: 100%
+source-git-commit: 3aa3203ae7763d81288cb70a2984d017b0006bb3
+workflow-type: tm+mt
+source-wordcount: '1560'
+ht-degree: 98%
 
 ---
 
@@ -30,7 +30,7 @@ Dans l’interface de l’éditeur de personnalisation, vous pouvez sélectionne
 
 ![](assets/perso_ee1.png)
 
-## Où puis-je ajouter une personnalisation ?
+## Où puis-je ajouter une personnalisation ? {#where}
 
 Dans **[!DNL Journey Optimizer]**, vous pouvez ajouter une personnalisation dans chaque champ à l’aide de l’icône ![icône d’ajout de personnalisation](assets/do-not-localize/add-perso-icon.svg). Pour plus d’informations, développez les sections ci-dessous.
 
@@ -46,7 +46,7 @@ Vous pouvez également l’ajouter à d’autres sections de votre contenu. Par 
 
 +++Concepteur d’e-mail
 
-Lorsque vous modifiez le contenu d’un e-mail dans le [Concepteur d’e-mail](../email/get-started-email-design.md), vous pouvez ajouter une personnalisation dans les blocs de texte et dans les URL à l’aide de l’icône de la barre d’outils contextuelle.
+Lorsque vous modifiez le contenu d’un e-mail dans le [Concepteur d’e-mail](../email/get-started-email-design.md), vous pouvez ajouter une personnalisation dans les blocs de texte et dans les URL à l’aide de l’icône de la barre d’outils contextuelle.
 
 ![](assets/perso_insert.png)
 
@@ -76,6 +76,18 @@ Exemples d’adresses URL personnalisées :
 >Lorsque vous modifiez une URL personnalisée dans l’éditeur de personnalisation, les fonctions d’assistance et l’appartenance aux audiences sont désactivées pour des raisons de sécurité.
 >
 >Les espaces ne sont pas pris en charge dans les jetons de personnalisation utilisés dans les URL.
+
+En disponibilité limitée, Journey Optimizer prend également en charge la personnalisation complète/de base des URL. Par exemple :
+
+```
+<a href="{{profile.social.link}}" />
+<a href="{{profile.social.baseUrl}}/profile" />
+<a href="https://{{profile.social.baseUrl}}/profile" />
+```
+
+>[!WARNING]
+>
+>La liste des domaines acceptés doit être fournie à Adobe au préalable.
 
 +++
 
