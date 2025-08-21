@@ -32,7 +32,7 @@ ht-degree: 13%
 
 **Exportation de messages** permet de transférer le contenu des e-mails et des SMS envoyés depuis [!DNL Journey Optimizer] vers votre propre stockage via des destinations [!DNL Adobe Experience Platform], qui permettent de diffuser des données provenant de [!DNL Experience Platform] vers des points d’entrée externes. [En savoir plus](https://experienceleague.adobe.com/fr/docs/experience-platform/destinations/home){target="_blank"}
 
-Grâce à cette fonctionnalité, le contenu des e-mails et des SMS envoyés par l’intermédiaire de [!DNL Journey Optimizer] marqués pour l’exportation est écrit dans le jeu de données d’exportation de messages AJO [!DNL Experience Platform]****.
+Grâce à cette fonctionnalité, le contenu des e-mails et des SMS envoyés par l’intermédiaire de [!DNL Journey Optimizer] marqués pour l’exportation est écrit dans le jeu de données d’exportation de messages AJO [!DNL Experience Platform]&#x200B;**&#x200B;**.
 
 Les enregistrements sont ensuite conservés dans le **jeu de données d&#39;exportation de messages AJO** pendant trois jours calendaires, au cours desquels vous pouvez les exporter vers le système externe de votre choix.
 <!--
