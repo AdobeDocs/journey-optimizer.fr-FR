@@ -7,7 +7,7 @@ role: User
 level: Beginner
 exl-id: e28c038b-49ed-4685-bfe6-514116eb0711
 source-git-commit: 528e1a54dd64503e5de716e63013c4fc41fd98db
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1543'
 ht-degree: 100%
 
@@ -27,7 +27,7 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="ajo_web_surface_rule"
 >title="Création d’une règle de correspondance de pages"
->abstract="Une règle de correspondance de pages permet de cibler plusieurs URL qui correspondent à la même règle, notamment si vous souhaitez appliquer les modifications à une bannière principale sur l’ensemble d’un site web ou ajouter une image principale qui s’affiche sur toutes les pages de produits d’un site web."
+>abstract="Une règle de correspondance de pages permet de cibler plusieurs URL qui correspondent à la même règle, notamment si vous souhaitez appliquer les modifications à une bannière principale sur l’ensemble d’un site web ou ajouter une image principale qui s’affiche sur toutes les pages produits d’un site web."
 
 Pour commencer à créer votre expérience web par le biais d’une campagne ou d’un parcours, suivez les étapes ci-dessous.
 
@@ -77,7 +77,7 @@ Pour commencer à créer votre expérience web par le biais d’une campagne, su
 
    * **Scheduled - Marketing** : permet d’exécuter la campagne immédiatement ou à une date spécifiée. Les campagnes planifiées visent à envoyer des messages marketing. Elles sont configurées et exécutées à partir de l’interface d’utilisation.
 
-   * **API-triggered - Marketing/Transactional** : permet d’exécuter la campagne à l’aide d’un appel API. Les campagnes déclenchées par API sont destinées à envoyer des messages marketing, ou transactionnels, c’est-à-dire des messages envoyés suite à une action effectuée par une personne : réinitialisation du mot de passe, achat du panier, etc. [Découvrir comment déclencher une campagne à l’aide d’API](../campaigns/api-triggered-campaigns.md)
+   * **Déclenchée par API - Marketing/Transactionnelle** : permet d’exécuter la campagne à l’aide d’un appel API. Les campagnes déclenchées par API sont destinées à envoyer des messages marketing, ou transactionnels, c’est-à-dire des messages envoyés suite à une action effectuée par une personne : réinitialisation du mot de passe, achat du panier, etc. [Découvrir comment déclencher une campagne à l’aide d’API](../campaigns/api-triggered-campaigns.md)
 
 1. Suivez les étapes de création d’une campagne web, telles que les propriétés de la campagne, l’[audience](../audience/about-audiences.md) et le [planning](../campaigns/create-campaign.md#schedule).
 
@@ -266,4 +266,4 @@ Lorsqu’une campagne ou est parcours web est en ligne, vous pouvez l’arrêter
 
 La vidéo ci-dessous montre comment créer une campagne web, configurer ses propriétés, la réviser et la publier.
 
->[!VIDEO](https://video.tv.adobe.com/v/3449983/?quality=12&learn=on&captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/3418800/?quality=12&learn=on)

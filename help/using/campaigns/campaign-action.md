@@ -13,7 +13,7 @@ exl-id: fed96e48-2e54-4bd4-ae17-77434d1b90eb
 source-git-commit: 378ead41924496f52f22026b3f0e05a9c9c76f89
 workflow-type: tm+mt
 source-wordcount: '809'
-ht-degree: 57%
+ht-degree: 63%
 
 ---
 
@@ -94,7 +94,7 @@ Pour les messages in-app, vous pouvez utiliser le bouton **[!UICONTROL Modifier 
 >[!CONTEXTUALHELP]
 >id="ajo_multi_action"
 >title="Ajouter plusieurs actions entrantes"
->abstract="Vous pouvez sélectionner plusieurs actions entrantes au sein d’une même campagne. Cette fonctionnalité vous permet de diffuser plusieurs expériences basées sur du code, messages in-app, cartes de contenu ou actions web à différents emplacements en même temps, chaque action contenant un contenu spécifique."
+>abstract="Vous pouvez sélectionner plusieurs actions entrantes au sein d’une même campagne. Cette fonctionnalité permet de diffuser plusieurs expériences basées sur du code, messages in-app, cartes de contenu ou actions web vers différents emplacements en même temps, chaque action comportant du contenu spécifique."
 
 Pour simplifier votre orchestration des campagnes, vous pouvez définir plusieurs actions entrantes au sein d’une seule campagne, chaque action contenant un contenu spécifique.
 
