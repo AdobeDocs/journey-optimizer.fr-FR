@@ -2,13 +2,13 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Commencer avec les campagnes orchestrées
-description: Découvrez comment commencer avec les campagnes orchestrées
-short-description: Découvrez les fonctionnalités clés et les cas pratiques des campagnes orchestrées.
+description: Découvrez comment commencer avec les campagnes orchestrées.
+short-description: Découvrez les fonctionnalités clés et les cas d’utilisation des campagnes orchestrées.
 exl-id: 611dd06d-aa18-4fa3-a477-8a910cec21d8
 source-git-commit: 4510cfde1579fbabe7deb1289f70f13ee21a3d4a
 workflow-type: tm+mt
 source-wordcount: '619'
-ht-degree: 30%
+ht-degree: 38%
 
 ---
 
@@ -24,7 +24,7 @@ L’orchestration des campagnes dans [!DNL Adobe Journey Optimizer] alimente des
 
 >[!IMPORTANT]
 >
->Pour accéder à l’orchestration de Campaign, votre licence doit inclure le package **Journey Optimizer - Campagnes et Parcours** ou **Journey Optimizer - Campagnes**. Contactez votre représentant Adobe pour confirmer votre licence et effectuer une mise à jour si nécessaire.
+>Pour accéder à l’orchestration de campagne, votre licence doit inclure le package **Journey Optimizer - Campagnes et parcours** ou **Journey Optimizer - Campagnes**. Contactez votre représentant ou représentante Adobe pour confirmer votre licence et effectuer une mise à jour si nécessaire.
 
 Bien que le marketing cross-canal soit essentiel, les campagnes orchestrées le rendent transparent. Grâce à une interface visuelle par glisser-déposer, vous pouvez concevoir et automatiser des workflows marketing complexes, depuis la segmentation jusqu’à la diffusion des messages, sur plusieurs canaux. Tout se passe dans un environnement intuitif, conçu pour assurer vitesse, contrôle et efficacité.
 
