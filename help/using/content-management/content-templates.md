@@ -9,7 +9,7 @@ role: User
 level: Beginner
 exl-id: 327de13a-1c99-4d5e-86cf-8180fb7aaf23
 source-git-commit: a9f2eae6398f92a40accb62b1d4544bda031559c
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '222'
 ht-degree: 100%
 
@@ -48,4 +48,4 @@ Pour créer, modifier et supprimer des modèles de contenu, vous devez disposer 
 
 Découvrez comment créer, modifier et utiliser des modèles de contenu dans [!DNL Journey Optimizer].
 
->[!VIDEO](https://video.tv.adobe.com/v/3418586/?quality=12&captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/3413743/?quality=12)

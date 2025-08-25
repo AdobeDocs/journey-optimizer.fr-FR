@@ -8,7 +8,7 @@ role: User
 level: Intermediate
 exl-id: 532392d6-3637-4381-984d-f5b630f6d32d
 source-git-commit: 18a1020971dc6a1101e4e35c1523d004f3fd4188
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '679'
 ht-degree: 100%
 
@@ -58,7 +58,7 @@ Pour créer un modèle d’IA, procédez comme suit :
 
    Ces événements sont automatiquement capturés à l’aide du SDK Web ou du SDK Mobile fourni. Pour plus d’informations, consultez la vue d’ensemble du [SDK Web Adobe Experience Platform](https://experienceleague.adobe.com//docs/experience-platform/edge/home.html?lang=fr).
 
-+++ Optimisation de modèles sur des mesures [!DNL Customer Journey Analytics] personnalisées
+   +++ Optimisation de modèles sur des mesures [!DNL Customer Journey Analytics] personnalisées
 
    >[!NOTE]
    >
@@ -82,7 +82,7 @@ Pour créer un modèle d’IA, procédez comme suit :
    >
    >Pour plus d’informations sur les modèles d’attribution disponibles et des conseils sur leur utilisation, consultez la [[!DNL Customer Journey Analytics] documentation](https://experienceleague.adobe.com/fr/docs/analytics-platform/using/cja-dataviews/component-settings/attribution){target="_blank"}.
 
-+++
+   +++
 
 1. Sélectionnez le ou les jeux de données dans lesquels les événements de conversion et d’impression sont collectés. Découvrez comment créer ce type de jeu de données dans [cette section](../data-collection/create-dataset.md).
 
@@ -117,4 +117,4 @@ Pour envoyer des types d’événement (offre affichée ou offre ayant fait l�
 
 Learn how to create a personalized optimization model and how to apply it to a decision.
 
->[!VIDEO](https://video.tv.adobe.com/v/3445953?quality=12&captions=fre_fr)-->
+>[!VIDEO](https://video.tv.adobe.com/v/3419954?quality=12)-->

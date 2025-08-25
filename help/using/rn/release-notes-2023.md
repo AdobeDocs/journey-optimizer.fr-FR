@@ -11,7 +11,7 @@ role: User
 level: Beginner, Intermediate
 exl-id: 61e6291f-c063-44a0-950c-8bb76de693f2
 source-git-commit: 4d7ad2c3ed71801298f1afe31d0e29d7bb1d5c7f
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '4377'
 ht-degree: 100%
 
@@ -72,7 +72,7 @@ Cette version est fournie avec les améliorations répertoriées ci-dessous.
 
 >[!AVAILABILITY]
 >
->Ces fonctionnalités sont actuellement disponibles en version bêta.
+>Ces fonctionnalités sont actuellement disponibles en version Beta.
 
 <!--
 **Spam scoring for emails**
@@ -310,7 +310,7 @@ A new option is available in the email surface settings to include email address
 
 **Parcours**
 
-* Vous pouvez désormais utiliser les réponses d’appel API dans des actions personnalisées et orchestrer votre parcours en fonction de ces réponses. Cette fonctionnalité est actuellement disponible en version bêta. [En savoir plus](../action/action-response.md).
+* Vous pouvez désormais utiliser les réponses d’appel API dans des actions personnalisées et orchestrer votre parcours en fonction de ces réponses. Cette fonctionnalité est actuellement disponible en version Beta. [En savoir plus](../action/action-response.md).
 * Introduction d’un nouveau type d’alerte système. Vous pouvez désormais recevoir une notification en cas d’échec d’une action personnalisée. [En savoir plus](../reports/alerts.md).
   <!--* When duplicating a journey, you can now define the name of the journey copy.-->
 
@@ -355,7 +355,7 @@ A new option is available in the email surface settings to include email address
 <tr>
 <td>
 <p>Vous pouvez désormais ajouter du courrier dans une campagne. Le courrier est un canal hors ligne qui vous permet de personnaliser et de générer les fichiers requis par les prestataires de services postaux pour envoyer du courrier à votre clientèle.</p>
-<p>Lorsque vous créez une diffusion par courrier, Journey Optimizer génère un fichier contenant tous les profils ciblés et les coordonnées sélectionnées (adresse postale, par exemple). Vous pourrez alors envoyer ce fichier à votre prestataire de services postaux qui prendra en charge l’envoi réel.</p>
+<p>Lorsque vous créez une diffusion par courrier, Journey Optimizer génère un fichier contenant tous les profils ciblés et les coordonnées sélectionnées (adresse postale, par exemple). Vous pourrez alors envoyer ce fichier à votre prestataire de publipostage direct qui prendra en charge l’envoi proprement dit.</p>
 <p>Pour l’instant, le canal Courrier n’est pas disponible pour les organisations qui ont acheté l’offre de module complémentaire Healthcare Shield d’Adobe.</p>
 <img src="assets/do-not-localize/gif-dm.gif"/>
 <p>Pour plus d’informations, consultez la <a href="../direct-mail/get-started-direct-mail.md">documentation détaillée</a>.</p>
@@ -441,7 +441,7 @@ La méthode JWT pour générer des jetons d’accès pour l’authentification d
 
 **Autres modifications**
 
-L’export des jeux de données Journey Optimizer vers les destinations d’espace de stockage est désormais disponible pour toute la clientèle en version bêta. Cette fonctionnalité vous permet d’établir une connexion active aux emplacements d’espace de stockage pour exporter le contenu de vos jeux de données. [En savoir plus](../data/export-datasets.md).
+L’export des jeux de données Journey Optimizer vers les destinations d’espace de stockage est désormais disponible pour toute la clientèle en version Beta. Cette fonctionnalité vous permet d’établir une connexion active aux emplacements d’espace de stockage pour exporter le contenu de vos jeux de données. [En savoir plus](../data/export-datasets.md).
 
 
 
@@ -777,7 +777,7 @@ Enhancements have been made to the audience picker in journeys or campaigns, wit
 <tbody>
 <tr>
 <td>
-<p>En tant qu’utilisateur ou utilisatrice de Journey Optimizer, vous pouvez désormais organiser vos objets commerciaux à l’aide de balises. Les balises constituent un moyen simple et rapide de classer des objets afin de faciliter leur recherche. Cette fonctionnalité est actuellement en version bêta et n’est disponible que pour les parcours.</p>
+<p>En tant qu’utilisateur ou utilisatrice de Journey Optimizer, vous pouvez désormais organiser vos objets commerciaux à l’aide de balises. Les balises constituent un moyen simple et rapide de classer des objets afin de faciliter leur recherche. Cette fonctionnalité est actuellement en version Beta et n’est disponible que pour les parcours.</p>
 <p>Pour plus d’informations, consultez la <a href="../start/search-filter-categorize.md#tags">documentation détaillée</a>.</p>
 </td>
 </tr>
@@ -841,7 +841,7 @@ Enhancements have been made to the audience picker in journeys or campaigns, wit
 <tr>
 <td>
 <p>Vous pouvez désormais envoyer des messages in-app personnalisés aux utilisateurs et utilisatrices de votre application dans une campagne. Utilisez Journey Optimizer pour concevoir des notifications et personnaliser la disposition, l’affichage, le texte et les boutons des messages afin de créer une expérience optimale.</p>
-<p><strong>Attention</strong> : cette fonctionnalité est actuellement en version bêta et disponible uniquement pour les clientes et clients bêta. Pour rejoindre le programme Beta, contactez l’assistance clientèle d’Adobe.</p>
+<p><strong>Attention</strong> : cette fonctionnalité est actuellement en version Beta et disponible uniquement pour les clientes et clients Beta. Pour rejoindre le programme Beta, contactez l’assistance clientèle d’Adobe.</p>
 <img src="assets/do-not-localize/in-app.gif"/>
 <p>Pour plus d'informations, consultez la <a href="../../rp_landing_pages/in-app-landing-page.md">documentation détaillée</a>.</p>
 </td>
@@ -859,7 +859,7 @@ Enhancements have been made to the audience picker in journeys or campaigns, wit
 <tr>
 <td>
 <p>Vous pouvez maintenant établir une connexion active aux emplacements d’espace de stockage pour exporter le contenu de vos jeux de données. Les destinations disponibles sont les suivantes : espace de stockage Amazon S3, Blob Azure, Azure Data Lake Gen 2, zone d’atterrissage des données, Google Cloud Storage, SFTP.</p>
-<p><strong>Attention</strong> : cette fonctionnalité est actuellement en version bêta et disponible uniquement pour les utilisateurs et utilisatrices d’Adobe Journey Optimizer. Contactez votre représentant ou représentante Adobe pour obtenir l’accès aux destinations si vous n’y avez pas déjà accès.</p>
+<p><strong>Attention</strong> : cette fonctionnalité est actuellement en version Beta et disponible uniquement pour les utilisateurs et utilisatrices d’Adobe Journey Optimizer. Contactez votre représentant ou représentante Adobe pour obtenir l’accès aux destinations si vous n’y avez pas déjà accès.</p>
 <img src="assets/do-not-localize/gif-destinations.gif"/>
 <p>Pour plus d’informations, consultez la <a href="../data/export-datasets.md">documentation détaillée</a>.</p>
 </td>

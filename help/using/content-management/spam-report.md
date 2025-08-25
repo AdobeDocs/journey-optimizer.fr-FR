@@ -6,9 +6,9 @@ role: User
 level: Beginner
 exl-id: 9ab43b14-41cf-49f1-bdcf-6fee58db5000
 source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '365'
-ht-degree: 100%
+ht-degree: 88%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 100%
 >title="Rapport de spam des e-mails"
 >abstract="Le rapport de spam vous permet de vérifier la notation de spam du contenu de vos e-mails. Cette note indique si les FAI ou les fournisseurs de messagerie considèrent votre message comme un spam ou non. Plus la note est faible, mieux c’est. Si la note du contenu de votre e-mail est supérieure à 2, envisagez de résoudre les problèmes qui provoquent l’échec des tests."
 
-Vous pouvez vérifier la note de spam du contenu de vos e-mails dans un rapport de spam dédié. À l’aide de [SpamAssassin](https://spamassassin.apache.org/){target="_blank"}, Adobe Journey Optimizer peut tester le contenu de votre e-mail et lui attribuer une note pour indiquer si les FAI ou les fournisseurs de messagerie le considèrent comme un spam ou non.
+Vous pouvez vérifier la note de spam du contenu de vos e-mails dans un rapport de spam dédié. À l’aide de [SpamAssassin](https://spamassassin.apache.org/){target="_blank"}, Adobe Journey Optimizer peut tester le contenu de votre email et lui attribuer un score indiquant si les FAI ou les fournisseurs de messagerie le considéreront comme du spam ou non.
 
 Lors de la modification ou de la prévisualisation du contenu de votre e-mail, le bouton **[!UICONTROL Rapport de spam]** fournit une notation et des conseils afin d’améliorer les notes de chaque élément répertorié.
 
@@ -47,7 +47,7 @@ Pour accéder à la fonctionnalité **[!UICONTROL Rapport de spam]**, suivez les
 
    >[!NOTE]
    >
-   >Le score de spam est dérivé via [SpamAssassin](https://spamassassin.apache.org/){target="_blank"} et les règles ne sont pas détenues par Adobe. Pour plus d’informations sur ces règles, consultez la documentation de SpamAssassin.
+   >Le score de spam est dérivé de [SpamAssassin](https://spamassassin.apache.org/){target="_blank"} et les règles ne sont pas la propriété d&#39;Adobe. Pour plus d’informations sur ces règles, consultez la documentation de SpamAssassin.
    >
 
 1. En fonction de cette note, si vous considérez que certains éléments peuvent être améliorés, modifiez votre contenu dans le [Concepteur d’e-mail](../email/content-from-scratch.md) et effectuez les mises à jour nécessaires.

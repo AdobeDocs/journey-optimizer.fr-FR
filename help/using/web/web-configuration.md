@@ -7,7 +7,7 @@ role: Admin
 level: Experienced
 exl-id: 2161baf0-38b7-4397-bffe-083929e8033a
 source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '935'
 ht-degree: 100%
 
@@ -63,7 +63,7 @@ Vous pouvez maintenant sélectionner cette configuration lorsque vous utilisez l
 
 Lors de la création d’une configuration d’expérience web ou [basée sur du code](../code-based/get-started-code-based.md), vous pouvez créer une **[!UICONTROL règle de correspondance de pages]** pour cibler plusieurs URL correspondant à la même règle. Vous pouvez donc appliquer les mêmes modifications de contenu à plusieurs pages à la fois.
 
-Par exemple, vous pouvez appliquer les modifications d’une bannière principale à l’ensemble d’un site web ou ajouter une image principale qui s’affiche sur toutes les pages de produits d’un site web.
+Par exemple, vous pouvez appliquer les modifications d’une bannière principale à l’ensemble d’un site web ou ajouter une image principale qui s’affiche sur toutes les pages produits d’un site web.
 
 1. Lors de la configuration de votre expérience [web](#web-configuration) ou [basée sur du code](../code-based/code-based-configuration.md), sélectionnez **[!UICONTROL Règle de correspondance de pages]**.
 
@@ -73,7 +73,7 @@ Par exemple, vous pouvez appliquer les modifications d’une bannière principal
    >
    >Consultez les opérateurs disponibles dans [cette section](#available-operators).
 
-   Par exemple, si vous souhaitez modifier des éléments qui s’affichent sur toutes les pages de produits pour femmes de votre site web Luma, sélectionnez **[!UICONTROL Domaine]** > **[!UICONTROL Commence par]** > `luma` et **[!UICONTROL Page]** > **[!UICONTROL Contient]** > `women`.
+   Par exemple, si vous souhaitez modifier des éléments qui s’affichent sur toutes les pages produits pour femmes de votre site web Luma, sélectionnez **[!UICONTROL Domaine]** > **[!UICONTROL Commence par]** > `luma` et **[!UICONTROL Page]** > **[!UICONTROL Contient]** > `women`.
 
    ![](assets/web_config_3.png)
 

@@ -10,7 +10,7 @@ level: Experienced
 keywords: actions, parcours, messages, envoi, connexions
 exl-id: 7f0cda1d-daf0-4d4c-9978-ddef81473813
 source-git-commit: dcb2be7fef47e0d62fdd5a423799823ba4ef586c
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '285'
 ht-degree: 100%
 
@@ -49,4 +49,4 @@ Découvrez comment résoudre les problèmes liés à une action personnalisée [
 
 Découvrez comment configurer des actions personnalisées.
 
->[!VIDEO](https://video.tv.adobe.com/v/3430274?quality=12&captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/3428396?quality=12)

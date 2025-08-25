@@ -5,9 +5,9 @@ title: Recherche d’événements d’expérience dans les parcours
 description: Découvrez comment utiliser la recherche d’événements d’expérience dans les parcours.
 exl-id: 35e2e347-0669-44a3-92ba-aee52e54c219
 source-git-commit: a587b8754e94781b7735f3d7d5abb9b9767a74a5
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '929'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
@@ -130,7 +130,7 @@ En savoir plus :
 
 L’utilisation d’événements d’expérience dans des expressions/conditions de parcours n’est plus prise en charge. Les éléments affectés sont répertoriés dans les questions fréquentes ci-dessous :
 
-+++Quelles fonctionnalités spécifiques sont affectées ?
++++Quelles fonctionnalités spécifiques sont affectées ? 
 
 Seule la recherche d’événements d’expérience dans l’éditeur d’expression est affectée. Les fonctionnalités suivantes **ne sont pas** affectées et restent les mêmes :
 
@@ -150,13 +150,13 @@ Seule la recherche d’événements d’expérience dans l’éditeur d’expres
 
 +++
 
-+++Mon organisation Adobe existante est-elle affectée par cette mise à jour ?
++++Mon organisation Adobe existante est-elle affectée par cette mise à jour ? 
 
 Votre organisation Adobe n’est affectée que si vous n’avez pas déjà utilisé la recherche d’événements d’expérience. Si vous utilisez déjà des événements d’expérience dans la [source de données Experience Platform](../datasource/adobe-experience-platform-data-source.md), votre organisation Adobe continue à prendre en charge la recherche d’événements d’expérience.
 
 +++
 
-+++J’ai une nouvelle organisation Adobe. Comment résoudre mon cas d’utilisation qui requiert des données d’événement d’expérience ?
++++J’ai une nouvelle organisation Adobe. Comment résoudre mon cas d’utilisation qui requiert des données d’événement d’expérience ? 
 
 D’autres approches et bonnes pratiques concernant les événements d’expérience sont disponibles ci-dessus pour mener à bien les cas d’utilisation souhaités.
 

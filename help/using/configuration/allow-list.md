@@ -10,7 +10,7 @@ level: Experienced
 keywords: liste autorisée, liste, sécurisé, configuration
 exl-id: 70ab8f57-c132-4de1-847b-11f0ab14f422
 source-git-commit: 2af0e9237bbcc79456a31042ed8e42233bbccac3
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1179'
 ht-degree: 100%
 
@@ -68,7 +68,7 @@ Pour activer la liste autorisée, procédez comme suit.
    >
    >Une fois la liste autorisée activée, elle prend effet dans vos parcours et campagnes après un délai de 10 minutes. De même, la mise à jour de la liste autorisée et de la liste de suppression peut prendre jusqu’à 10 minutes.
 
-La logique de liste autorisée s’applique lorsque la fonctionnalité est activée. En savoir plus dans [cette section](#logic).
+La logique de liste autorisée s’applique lorsque la fonctionnalité est active. En savoir plus dans [cette section](#logic).
 
 >[!NOTE]
 >
@@ -189,7 +189,7 @@ Pour exporter la liste autorisée au format CSV, suivez les étapes ci-dessous 
 >title="Gérer la liste autorisée"
 >abstract="Lorsque la liste autorisée est activée, seuls les destinataires inclus dans cette liste reçoivent des e-mails de ce sandbox. Lorsqu’elle est désactivée, tous les destinataires reçoivent des e-mails."
 
-Lorsque la liste autorisée est [activée](#enable-allow-list), la logique suivante s’applique :
+Lorsque la liste autorisée est [active](#enable-allow-list), la logique suivante s’applique :
 
 * Si la liste autorisée est **vide**, aucun e-mail ne sera envoyé.
 

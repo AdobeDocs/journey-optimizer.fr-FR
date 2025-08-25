@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Utiliser les données Adobe Experience Platform pour la personnalisation (version bêta)
+title: Utiliser les données Adobe Experience Platform pour la personnalisation (Beta)
 description: Découvrez comment utiliser des données Adobe Experience Platform pour la personnalisation.
 badge: label="Beta" type="Informative"
 feature: Personalization, Rules
@@ -11,9 +11,9 @@ level: Intermediate
 keywords: expression, éditeur
 exl-id: 2fc10fdd-ca9e-46f0-94ed-2d7ea4de5baf
 source-git-commit: 07e855b1a334a226c34223e5dd034f88733d6e2e
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '779'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 100%
 >
 >Cette fonctionnalité est actuellement disponible en version Beta publique pour l’ensemble des clientes et clients.
 >
->Pour utiliser cette fonctionnalité, vous devez d’abord accepter les termes de la version bêta pour votre entreprise qui s’affichent lors de l’ajout des nouvelles fonctions d’assistance « datasetLookup » dans l’éditeur de personnalisation.
+>Pour utiliser cette fonctionnalité, vous devez d’abord accepter les termes de la version Beta pour votre entreprise qui s’affichent lors de l’ajout des nouvelles fonctions d’assistance « datasetLookup » dans l’éditeur de personnalisation.
 
 Journey Optimizer vous permet d’utiliser les données d’Adobe Experience Platform dans l’éditeur de personnalisation pour [personnaliser votre contenu](../personalization/personalize.md). Pour ce faire, les jeux de données nécessaires à la personnalisation de la recherche doivent d’abord être activés par le biais d’un appel API, comme décrit ci-dessous. Une fois que vous avez terminé, vous pouvez utiliser leurs données pour personnaliser votre contenu dans [!DNL Journey Optimizer].
 
@@ -67,13 +67,13 @@ Une fois qu’un jeu de données a été activé pour la personnalisation de la 
 
    * **required=false** : si la valeur required est définie sur TRUE, le message n’est diffusé que si une clé correspondante est trouvée. Si la valeur required est définie sur FALSE, une clé correspondante n’est pas requise et le message peut toujours être diffusé. Notez que si la valeur required est définie sur FALSE, il est recommandé de tenir compte des valeurs de secours ou des valeurs par défaut dans le contenu de votre message.
 
-   +++Où récupérer un identifiant de jeu de données ?
+   +++Où récupérer un identifiant de jeu de données ?
 
    Les identifiants de jeu de données peuvent être récupérés dans l’interface d’utilisation d’Adobe Experience Platform. Découvrez comment utiliser des jeux de données dans la [documentation d’Adobe Experience Platform](https://experienceleague.adobe.com/fr/docs/experience-platform/catalog/datasets/user-guide#view-datasets){target="_blank"}.
 
    ![](assets/aep-data-dataset.png)
 
-+++
+   +++
 
 1. Adaptez la syntaxe à vos besoins. Dans cet exemple, nous allons récupérer les données relatives aux vols des passagères et passagers. La syntaxe se présente comme suit :
 
@@ -98,13 +98,13 @@ Une fois qu’un jeu de données a été activé pour la personnalisation de la 
    * **result** est la valeur que vous avez attribuée au paramètre **result** dans la fonction d’assistance **MultiEntity**. Dans cet exemple, « vol ».
    * **fieldID** est l’identifiant du champ à récupérer. Cet identifiant est visible dans l’interface d’utilisation d’[!DNL Adobe Experience Platform] lors de la navigation dans le schéma d’enregistrement associé à votre jeu de données :
 
-     +++Où récupérer un identifiant de champ ?
+     +++Où récupérer un identifiant de champ ?
 
      Les ID de champs peuvent être récupérés lors de la prévisualisation d’un jeu de données dans l’interface d’utilisation d’Adobe Experience Platform. Découvrez comment prévisualiser des jeux de données dans la [documentation d’Adobe Experience Platform](https://experienceleague.adobe.com/fr/docs/experience-platform/catalog/datasets/user-guide#preview){target="_blank"}.
 
      ![](assets/aep-data-field.png)
 
-+++
+     +++
 
    Dans cet exemple, nous allons utiliser des informations relatives à l’heure et à la porte d’embarquement des passagères et passagers. Nous ajoutons donc ces deux lignes :
 

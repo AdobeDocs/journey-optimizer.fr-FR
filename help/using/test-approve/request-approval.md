@@ -4,13 +4,13 @@ description: Découvrez comment demander une approbation avant de publier vos pa
 role: User
 level: Beginner
 feature: Approval
-source-git-commit: 509ebc377ac8c24db464728b7544eaa96e8e5da4
-workflow-type: ht
+exl-id: 75dafecd-805d-4aa2-86c6-99e6da4d378b
+source-git-commit: f5df65a0225754ab66fb2ffa33c5130f7137b644
+workflow-type: tm+mt
 source-wordcount: '466'
 ht-degree: 100%
 
 ---
-
 
 # Demander l’approbation {#request-approval}
 
@@ -55,6 +55,3 @@ Si les approbateurs et approbatrices demandent des modifications, vous recevez u
 ![](assets/changes-requested.png)
 
 Pour consulter la demande de modification, ouvrez-la à partir de l’e-mail ou de l’alerte pour accéder au parcours ou à la campagne et apporter les modifications demandées. Lorsque votre parcours ou votre campagne peut de nouveau faire l’objet d’une révision, envoyez une nouvelle demande d’approbation à l’aide du bouton **[!UICONTROL Demander l’approbation]**.
-
-
-

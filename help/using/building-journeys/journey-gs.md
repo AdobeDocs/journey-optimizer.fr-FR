@@ -10,7 +10,7 @@ level: Intermediate
 keywords: parcours, premier, commencer, démarrage rapide, audience, événement, action
 exl-id: d940191e-8f37-4956-8482-d2df0c4274aa
 source-git-commit: fa46397b87ae3a81cd016d95afd3e09bb002cfaa
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '768'
 ht-degree: 100%
 
@@ -54,7 +54,7 @@ Avant de commencer à créer votre parcours, vérifiez que les étapes de config
 
 <!--   ![](assets/jo-datasource.png)  -->
 
-* Journey Optimizer propose des fonctionnalités de [message prêts à l’emploi](../building-journeys/journeys-message.md). Si vous utilisez un système tiers pour envoyer vos messages, vous pouvez **créer une action personnalisée**. En savoir plus dans cette [section](../action/action.md).
+* Journey Optimizer propose des fonctionnalités de [message intégrées](../building-journeys/journeys-message.md). Si vous utilisez un système tiers pour envoyer vos messages, vous pouvez **créer une action personnalisée**. En savoir plus dans cette [section](../action/action.md).
 
 <!--    ![](assets/custom2.png)  -->
 

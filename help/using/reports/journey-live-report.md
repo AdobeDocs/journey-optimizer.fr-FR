@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 exl-id: e3781f79-7c8d-4512-b44f-835639b1471f
 source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '3712'
 ht-degree: 100%
 
@@ -548,7 +548,7 @@ Le widget **[!UICONTROL SMS – Performances par date]** offre une vue d’ensem
 
 ![](assets/journey_sms_bounce_reasons.png)
 
-Les graphes et le tableau **[!UICONTROL SMS – Causes de rebonds]** fournissent une vue d’ensemble complète des données relatives aux SMS ayant fait l’objet d’un rebond, fournissant des informations précieuses sur les causes spécifiques des rebonds de SMS au cours des dernières 24 heures.
+Les graphes et le tableau **[!UICONTROL SMS – Causes de rebonds]** fournissent une vue d’ensemble complète des données relatives aux SMS ayant fait l’objet d’un rebond, fournissant des informations précieuses sur les causes précises des rebonds de SMS au cours des dernières 24 heures.
 
 ### SMS – Causes d’erreur {#sms-error}
 

@@ -11,7 +11,7 @@ exl-id: 71c652ba-f38f-452c-9c1b-dcd728307baf
 source-git-commit: f99ba639b5d47fa334741b7e55e7bce83697626d
 workflow-type: tm+mt
 source-wordcount: '138'
-ht-degree: 100%
+ht-degree: 88%
 
 ---
 
@@ -27,8 +27,8 @@ Pendant le processus de chargement personnalisé, spécifiez l’attribut CSV �
 
 ![](assets/import-audience.png)
 
-Des informations détaillées sur l’import des audiences sont disponibles dans la [documentation du service de segmentation](https://experienceleague.adobe.com/fr/docs/experience-platform/segmentation/ui/audience-portal#import-audience) d’Adobe Experience Platform{target="_blank"}.
+Vous trouverez des informations détaillées sur l’importation d’audiences dans Adobe Experience Platform [documentation du service de segmentation](https://experienceleague.adobe.com/fr/docs/experience-platform/segmentation/ui/audience-portal#import-audience){target="_blank"}.
 
 Découvrez comment charger des audiences au format CSV dans cette vidéo :
 
->[!VIDEO](https://video.tv.adobe.com/v/3423356?quality=12&captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/3421714?quality=12)

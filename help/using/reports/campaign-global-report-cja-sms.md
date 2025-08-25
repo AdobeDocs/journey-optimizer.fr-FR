@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 exl-id: bd743a3b-0317-45d9-8e76-98d5cc258752
 source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '663'
 ht-degree: 100%
 
@@ -117,7 +117,7 @@ Le tableau **[!UICONTROL Fournisseurs de SMS]** fournit une vue d’ensemble com
 
 ## Raisons de rebond {#bounce-reasons-sms}
 
-Le tableau **[!UICONTROL Causes de rebonds]** fournit une vue d’ensemble complète des données relatives aux rebonds de SMS, fournissant des informations précieuses sur les raisons spécifiques à l’origine des rebonds des SMS.
+Le tableau **[!UICONTROL Causes des rebonds]** fournit une vue d’ensemble complète des données relatives aux rebonds des SMS, fournissant des informations précieuses sur les causes précises des rebonds de messages SMS.
 
 ## Raisons des erreurs {#error-reasons-sms}
 

@@ -9,7 +9,7 @@ role: User
 level: Beginner
 exl-id: 03136a25-b826-49e9-86c4-b3711913ee72
 source-git-commit: 9d87d133bb580ebed94a265beded5895f7fd0301
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '343'
 ht-degree: 100%
 
@@ -39,7 +39,7 @@ Dans Adobe Journey Optimizer, vous avez accès aux cas d’utilisation suivant
    * Comment créer une action personnalisée qui peut être utilisée dans des parcours Adobe Journey Optimizer ?
 
 
-* **Informations opérationnelles** dans les parcours (version bêta)
+* **Informations opérationnelles** dans les parcours (version Beta)
 
   Les questions relatives aux informations opérationnelles portent sur les objets de parcours du sandbox de votre entreprise. Voici quelques exemples de questions ou d’invites relatives aux informations opérationnelles :
 

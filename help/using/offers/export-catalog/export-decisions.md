@@ -8,9 +8,9 @@ role: User, Data Engineer
 level: Intermediate
 exl-id: 064762b7-9774-42eb-bcef-1d92bc94a988
 source-git-commit: 87f3da0a1d73f9aa26c7420d260778286bacdf0c
-workflow-type: ht
-source-wordcount: '1531'
-ht-degree: 100%
+workflow-type: tm+mt
+source-wordcount: '1530'
+ht-degree: 97%
 
 ---
 
@@ -71,7 +71,7 @@ Vous trouverez ci-dessous la liste de tous les champs qui peuvent être utilisé
 
 +++
 
-+++_experience > decisioning > criteria > optionSelection
++++_experience > prise de décisions > critères > optionSelection
 
 **Champ :** optionSelection
 **Titre :** sélection d&#39;options
@@ -96,7 +96,7 @@ Vous trouverez ci-dessous la liste de tous les champs qui peuvent être utilisé
 
   **Champ :** optionSelectionType
   **Titre :** type de contrainte de profil
-  **Description :** détermine si des contraintes sont actuellement définies et comment les contraintes sont exprimées. Cela peut se faire avec une requête de filtre ou avec une ou plusieurs appartenances à l’audience.
+  **Description :** détermine si des contraintes sont actuellement définies et comment les contraintes sont exprimées. Cela peut se faire avec une requête de filtre ou avec une ou plusieurs appartenances à des audiences.
   **Type :** chaîne
   **Valeurs possibles :** &quot;none&quot; (par défaut), &quot;directList&quot;, &quot;filter&quot;
 
@@ -111,7 +111,7 @@ Vous trouverez ci-dessous la liste de tous les champs qui peuvent être utilisé
 
 +++
 
-+++_experience > decisioning > criteria > placements
++++_experience > prise de décisions > critères > emplacements
 
 **Champ :** emplacements
 **Titre :** restrictions d&#39;emplacement 
@@ -126,7 +126,7 @@ Vous trouverez ci-dessous la liste de tous les champs qui peuvent être utilisé
 
 +++
 
-+++_experience > decisioning > criteria > profileConstraints
++++_experience > prise de décisions > critères > profileConstraints
 
 **Champ :** profileConstraints 
 **Titre :** contrainte de profil
@@ -135,7 +135,7 @@ Vous trouverez ci-dessous la liste de tous les champs qui peuvent être utilisé
 
 +++
 
-+++_experience > decisioning > criteria > profileConstraints > Description
++++_experience > prise de décisions > critères > profileConstraints > Description
 
 **Champ :** description
 **Titre :** description 
@@ -157,7 +157,7 @@ Vous trouverez ci-dessous la liste de tous les champs qui peuvent être utilisé
 
 **Champ :** profileConstraintType
 **Titre :** type de contrainte de profil
-**Description :** détermine si des contraintes sont actuellement définies et comment les contraintes sont exprimées. Cela peut se faire avec une règle ou avec une ou plusieurs appartenances à l’audience.
+**Description :** détermine si des contraintes sont actuellement définies et comment les contraintes sont exprimées. Cela peut se faire avec une règle ou avec une ou plusieurs appartenances à des audiences.
 **Type :** chaîne 
 **Valeurs possibles :**
 * &quot;none&quot; (par défaut)
@@ -206,16 +206,16 @@ Vous trouverez ci-dessous la liste de tous les champs qui peuvent être utilisé
 
 +++
 
-+++_experience > decisioning > criteria > ranking
++++_experience > prise de décisions > critères > classement
 
 **Champ :** classement
 **Titre :** Détails du classement
 **Description :** Rang (priorité). Définit comment la \&quot;meilleure option\&quot; est déterminée en fonction du contexte du critère de décision. Parmi toutes les options sélectionnées qui répondent aux contraintes de profil, le classement décide de la ou des options supérieures à proposer.
 **Type :** objet
 
-+++
++++ 
 
-+++_experience > decisioning > criteria > ranking > order
++++_experience > prise de décisions > critères > classement > ordre
 
 **Champ :** ordre
 **Titre :** évaluation de l&#39;ordre

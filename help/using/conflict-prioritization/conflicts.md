@@ -5,7 +5,7 @@ role: User
 level: Beginner
 exl-id: efbb5ac4-4c07-4c62-9460-39eb4fed129a
 source-git-commit: 6da1d9a3edb8a30b8f13fd0cb6a138f22459ad00
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '755'
 ht-degree: 100%
 
@@ -32,7 +32,7 @@ Vous trouverez ci-dessous un résumé de la manière dont Journey Optimizer ide
 * **Portée d’identification des conflits** : les conflits s’affichent uniquement pour les campagnes et les parcours en ligne ou planifiés.
 * **Parcours unitaires** : si le parcours sélectionné est unitaire, les autres parcours commençant par le même événement s’affichent, car cet événement déclenchera tous ces parcours.
 * Parcours **Qualification d’audience et Lecture d’audience/événement métier** : si le parcours sélectionné est un parcours Qualification d’audience ou Lecture d’audience/événement métier, tous les autres parcours du même type avec une audience valide sont affichés, car il peut y avoir des chevauchements entre les audiences.
-* **Campagnes** : comme toutes les campagnes ciblent des audiences et qu’il n’existe aucun concept d’événement, toutes les campagnes peuvent entrer en conflit avec des parcours déclenchés par un segment (en commençant par une activité Lecture d’audience).
+* **Campagnes** : étant donné que toutes les campagnes ciblent des audiences et qu’il n’existe aucun concept d’événement, toutes les campagnes peuvent entrer en conflit avec des parcours déclenchés par un segment (en commençant par une activité Lecture d’audience).
 * **Campagnes en ligne/planifiées** : les campagnes en ligne et planifiées peuvent entrer en conflit les unes avec les autres en raison d’un chevauchement d’audiences potentiel. Pour une campagne donnée, toutes les campagnes en ligne ou planifiées sont répertoriées dans la visionneuse de conflits.
 
 ## Afficher les conflits identifiés pour un parcours ou une campagne spécifique {#view}

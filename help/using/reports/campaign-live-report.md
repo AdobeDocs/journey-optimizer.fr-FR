@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 exl-id: 925494b6-e08a-4bd3-8a2f-96a5d9cbc387
 source-git-commit: 3a44111345c1627610a6b026d7b19b281c4538d3
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '3521'
 ht-degree: 100%
 
@@ -522,7 +522,7 @@ Les KPI **[!UICONTROL Performances web]** offrent des informations complètes su
 
 * **[!UICONTROL Interactions]** : nombre total d’engagements en lien avec votre page web. Il s’agit de toutes les actions entreprises par les personnes, telles que les clics ou toute autre interaction.
 
-+++
++++ 
 
 ### Résumé web {#web-summary}
 
@@ -541,7 +541,7 @@ Le graphe **[!UICONTROL Résumé web]** présente l’évolution de vos expérie
 
 * **[!UICONTROL Interactions]** : nombre total d’engagements en lien avec votre page web. Il s’agit de toutes les actions entreprises par les personnes, telles que les clics ou toute autre interaction.
 
-+++
++++ 
 
 ### Interactions par élément {#web-interactions}
 

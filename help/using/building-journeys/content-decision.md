@@ -13,7 +13,7 @@ exl-id: 6188644a-6a3b-4926-9ae9-0c6b42c96bae
 source-git-commit: 2ca37e17b788357f0b8f135c1a5889aa5145cb2f
 workflow-type: tm+mt
 source-wordcount: '1120'
-ht-degree: 91%
+ht-degree: 98%
 
 ---
 
@@ -81,7 +81,7 @@ Les mises à jour des politiques de consentement prennent jusqu’à 48 heures. 
 
 De même, si de nouveaux attributs de profil soumis à une politique de consentement sont ajoutés à une politique de décision, ils seront utilisables, mais la politique de consentement qui leur est associée ne sera pas appliquée tant que le délai ne sera pas écoulé.
 
-Les politiques de consentement ne sont disponibles que pour les organisations qui disposent du module complémentaire Adobe Healthcare Shield ou Privacy and Security Shield .
+Les politiques de consentement ne sont actuellement disponibles que pour les organisations disposant des modules complémentaires Adobe Healthcare Shield et Privacy and Security Shield.
 
 ## Utiliser la sortie de l’activité Décision de contenu {#use-content-decision-output}
 

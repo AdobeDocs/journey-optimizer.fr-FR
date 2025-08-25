@@ -10,7 +10,7 @@ level: Intermediate
 keywords: actions entrantes, dépannage, parcours, débogage, aide autonome, vérification, erreurs
 exl-id: 5c56786f-da22-4558-b2ae-01f762175a7f
 source-git-commit: d89eb9e569cb6de2edc5f20bdcf669972ccc8a8b
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1654'
 ht-degree: 100%
 
@@ -103,7 +103,7 @@ Cette étape permet de s’assurer qu’Edge Network renvoie le contenu entrant 
 
 Lorsqu’un profil rejoint une action entrante dans un parcours, il est automatiquement qualifié en segment d’audience spécial (dans l’espace de noms **joai**) correspondant à l’action de parcours entrante.
 
-Lorsqu’un client effectue une requête à Edge Network pour un profil et une surface donnés, le profil est qualifié pour recevoir du contenu pour les actions de parcours entrantes ciblant cette surface, uniquement si le profil est actuellement membre du segment **joai** correspondant.
+Lorsqu’un client ou une cliente effectue une requête à Edge Network pour un profil et une surface donnés, le profil est qualifié pour recevoir du contenu pour les actions de parcours entrantes ciblant cette surface, uniquement si le profil est actuellement membre du segment **joai** correspondant.
 
 Pour déboguer le comportement d’Edge Network, procédez comme suit.
 
@@ -127,9 +127,9 @@ Pour déboguer le comportement d’Edge Network, procédez comme suit.
 
    Vous pouvez vérifier si le segment **joai** est présent dans la vue du profil du serveur de diffusion Edge Network en ouvrant l’élément **segmentsMap** de la section Profil et en recherchant la présence de l’identifiant de segment **joai**.
 
-1. Si le serveur de diffusion Edge Network ne voit pas le profil comme se trouvant dans le segment **joai** approprié, passez à l’étape suivante.<!--use the Platform Profile viewer UI to check if the expected **joai** segment is in a realized state in the Edge profile. Learn more in the [Experience Platform Profile UI documentation](https://experienceleague.adobe.com/fr/docs/experience-platform/profile/ui/user-guide){target="_blank"}-->
+1. Si le serveur de diffusion Edge Network ne voit pas le profil comme se trouvant dans le segment **joai** approprié, passez à l’étape suivante.<!--use the Platform Profile viewer UI to check if the expected **joai** segment is in a realized state in the Edge profile. Learn more in the [Experience Platform Profile UI documentation](https://experienceleague.adobe.com/en/docs/experience-platform/profile/ui/user-guide){target="_blank"}-->
 
-### Étape 3 : vérifier si l’appartenance à l’audience « joai » s’est propagée à Edge Network {#step-3}
+### Étape 3 : vérifier si l’appartenance à l’audience « joai » s’est propagée à Edge Network {#step-3}
 
 Cette étape permet de vérifier que le profil Edge a été correctement mis à jour lorsque le profil a rejoint l’action de parcours entrante et qu’il a été qualifié dans le segment **joai** correspondant.
 
@@ -163,7 +163,7 @@ Pour vérifier la présence du segment **joai** dans l’attribut `segmentMember
 
 <!--The next step is to check whether the audience segment is present in the profile on the Hub.-->
 
-### Étape 4 : vérifier si l’appartenance à l’audience « joai » est présente dans le profil sur le Hub {#step-4}
+### Étape 4 : vérifier si l’appartenance à l’audience « joai » est présente dans le profil sur le Hub {#step-4}
 
 Cette étape permet de vérifier que le profil Hub a été correctement mis à jour lorsque le profil a rejoint l’action de parcours entrante et qu’il a été qualifié dans le segment **joai** correspondant.
 
@@ -215,8 +215,8 @@ Suivez les mêmes étapes de débogage que pour le [Scénario 1](#debugging-ste
 
 ## Reference Section {#reference-section}
 
-- [Assurance Setup Guide](https://experienceleague.adobe.com/fr/docs/experience-platform/assurance/tutorials/using-assurance)
+- [Assurance Setup Guide](https://experienceleague.adobe.com/en/docs/experience-platform/assurance/tutorials/using-assurance)
 - [Adobe Experience Platform Documentation](https://experienceleague.adobe.com/docs/experience-platform/home.html)
-- [Streaming Ingestion APIs Troubleshooting](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/troubleshooting.html?lang=fr)
+- [Streaming Ingestion APIs Troubleshooting](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/troubleshooting.html)
 
 -->

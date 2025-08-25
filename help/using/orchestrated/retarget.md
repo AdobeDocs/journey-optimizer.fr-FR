@@ -40,7 +40,7 @@ Grâce à ces données, vous pouvez définir des règles pour identifier les des
 
 1. Choisissez l’attribut **[!UICONTROL Statut des commentaires]** pour cibler les événements de diffusion des messages.
 
-+++ Détaillé pas à pas
+   +++ Détaillé pas à pas
 
    1. Ajoutez une autre condition liée à l&#39;attribut **[!UICONTROL Message feedback]**.
 
@@ -52,11 +52,11 @@ Grâce à ces données, vous pouvez définir des règles pour identifier les des
 
       ![](assets/retarget_4.png){zoomable="yes"}
 
-+++
+   +++
 
 1. Choisissez l’attribut **[!UICONTROL Nom de la campagne orchestrée]** pour cibler une campagne orchestrée spécifique.
 
-+++ Détaillé pas à pas
+   +++ Détaillé pas à pas
 
    1. Ajoutez une autre condition liée à l’attribut **[!UICONTROL Commentaires de message]**, recherchez **[!UICONTROL entité]** et accédez à :
 
@@ -68,11 +68,11 @@ Grâce à ces données, vous pouvez définir des règles pour identifier les des
 
    1. Dans le menu **[!UICONTROL Condition personnalisée]**, indiquez le nom de la campagne dans le champ **[!UICONTROL Valeur]**.
 
-+++
+   +++
 
 1. Sélectionnez l’attribut **[!UICONTROL Nom de l’action de campagne orchestrée]** pour cibler un message ou une activité spécifique dans une campagne orchestrée.
 
-+++ Détaillé pas à pas
+   +++ Détaillé pas à pas
 
    1. Ajoutez une autre condition liée à l’attribut **[!UICONTROL Commentaires de message]**, recherchez **[!UICONTROL entité]** et accédez à :
 
@@ -86,7 +86,7 @@ Grâce à ces données, vous pouvez définir des règles pour identifier les des
 
       Pour trouver les noms des actions, cliquez sur l’icône ![Informations](assets/do-not-localize/info-icon.svg) en regard du champ Libellé de votre activité.
 
-+++
+   +++
 
 1. Vous pouvez également filtrer selon l’**[!UICONTROL identifiant de campagne]** (UUID) qui se trouve dans vos propriétés Campaign.
 

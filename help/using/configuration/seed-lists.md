@@ -10,7 +10,7 @@ level: Intermediate
 keywords: liste de contrôle, contrôle, configuration
 exl-id: 0172f6bc-da8b-4a83-a0fc-4ed41324568f
 source-git-commit: 1cca05a4f7590f42c1ed5104cb530930e139b2b9
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '985'
 ht-degree: 100%
 
@@ -32,17 +32,17 @@ Les adresses de contrôle ne sont ni des profils réels ni des profils de test, 
 
   Par exemple :
 
-+++ Si vous êtes la personne responsable du marketing :
+  +++ Si vous êtes la personne responsable du marketing :
 
   Vous souhaitez que toutes les personnes membres de votre équipe reçoivent des copies des messages envoyés en même temps que vos clientes et clients. Ainsi, votre équipe peut s’assurer que les messages sont envoyés avec la disposition prévue et les URL actives, ou encore le bon texte et les bonnes images, c’est-à-dire comme prévu avant exécution.
 
-+++
+  +++
 
-+++ Si vous êtes la personne propriétaire d’un produit :
+  +++ Si vous êtes la personne propriétaire d’un produit :
 
   Vous devez effectuer le suivi des messages réels envoyés aux clientes et clients. En effet, votre équipe et votre direction peuvent s’intéresser à certaines campagnes et doivent être ajoutées sur une base ad hoc pour recevoir des copies du message au moment de la diffusion.
 
-+++
+  +++
 
 * Une autre raison d’utiliser les listes de contrôle est la protection de votre liste de publipostage. L’insertion d’adresses de contrôle dans votre liste de publipostage vous permet de savoir si elle est utilisée par une entité tierce. Les adresses de contrôle qu’elle contient recevront en effet les diffusions envoyées à votre liste de publipostage.
 

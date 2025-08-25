@@ -8,8 +8,8 @@ level: Experienced
 exl-id: e9bd7602-8945-4768-8a56-dc13ade32a0b
 source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
 workflow-type: tm+mt
-source-wordcount: '226'
-ht-degree: 100%
+source-wordcount: '225'
+ht-degree: 88%
 
 ---
 
@@ -48,7 +48,7 @@ curl -X GET \
 | --------- | ----------- | ------- |
 | `q` | Chaîne de requête facultative à rechercher dans les champs sélectionnés. La chaîne de requête doit être en minuscules et peut être entourée de guillemets doubles pour l&#39;empêcher d&#39;être divisée en symboles et pour échapper les caractères spéciaux. Les caractères `+ - = && \|\| > < ! ( ) { } [ ] ^ \" ~ * ? : \ /` ont une signification spéciale et doivent être précédés d&#39;une barre oblique inverse lorsqu&#39;ils apparaissent dans la chaîne de requête. | `default` |
 | `qop` | Applique l&#39;opérateur ET ou OU aux valeurs du paramètre de chaîne de requête q. | `AND` / `OR` |
-| `field` | Liste facultative des champs à laquelle limiter la recherche. Ce paramètre peut être répété comme suit : field=field1[,field=field2,...] et (les expressions du chemin se présentent sous la forme de chemins séparés par des points, tels que _instance.xdm:name). | `_instance.xdm:name` |
+| `field` | Liste facultative des champs à laquelle limiter la recherche. Ce paramètre peut être répété comme suit : field=field1[,field=field2,...] et (les expressions de chemin sont sous la forme de chemins séparés par des points tels que _instance.xdm:name) | `_instance.xdm:name` |
 | `orderBy` | Triez les résultats en fonction d&#39;une propriété spécifique. L&#39;ajout d&#39;un `-` devant le titre (`orderby=-title`) trie les éléments par titre dans l&#39;ordre décroissant (Z-A). | `-repo:createdDate` |
 | `limit` | Limite le nombre de décisions renvoyées. | `limit=5` |
 

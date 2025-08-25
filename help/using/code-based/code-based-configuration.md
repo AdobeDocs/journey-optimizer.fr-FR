@@ -7,7 +7,7 @@ role: Admin
 level: Experienced
 exl-id: 1aff2f6f-914c-4088-afd8-58bd9edfe07d
 source-git-commit: d3f15c09194a50b95107fb84d680606a468f8644
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1118'
 ht-degree: 100%
 
@@ -101,7 +101,7 @@ Pour définir les paramètres de configuration de l’expérience basée sur du 
 
      <!--This could be used to apply changes universally across a website, such as updating a hero banner across all pages or adding a top image to display on every product page.-->
 
-     Par exemple, si vous souhaitez modifier des éléments qui s’affichent sur toutes les pages de produits pour femmes de votre site web Luma, sélectionnez **[!UICONTROL Domaine]** > **[!UICONTROL Commence par]** > `luma` et **[!UICONTROL Page]** > **[!UICONTROL Contient]** > `women`.
+     Par exemple, si vous souhaitez modifier des éléments qui s’affichent sur toutes les pages produits pour femmes de votre site web Luma, sélectionnez **[!UICONTROL Domaine]** > **[!UICONTROL Commence par]** > `luma` et **[!UICONTROL Page]** > **[!UICONTROL Contient]** > `women`.
 
      ![](assets/code_config_matching_rules.png)
 
@@ -144,7 +144,7 @@ Pour définir les paramètres de configuration d’expérience basée sur du cod
 
    L’URL de prévisualisation est un lien profond configuré par le développeur ou la développeuse dans votre application. Cela garantit que toutes les URL correspondant au modèle de lien profond s’ouvriront dans l’application plutôt que dans un navigateur web mobile. Contactez le développeur ou la développeuse pour obtenir le schéma de lien profond configuré pour votre application.
 
-+++  Les ressources suivantes peuvent vous aider à configurer des liens profonds pour l’implémentation de votre application.
+   +++  Les ressources suivantes peuvent vous aider à configurer des liens profonds pour l’implémentation de votre application.
 
    * Pour Android :
 
@@ -156,7 +156,7 @@ Pour définir les paramètres de configuration d’expérience basée sur du cod
 
       * [Prendre en charge des liens universels dans votre application](https://developer.apple.com/documentation/xcode/supporting-universal-links-in-your-app)
 
-+++
+   +++
 
    >[!NOTE]
    >

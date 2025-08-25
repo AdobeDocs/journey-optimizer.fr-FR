@@ -9,7 +9,7 @@ role: User
 level: Beginner
 exl-id: 3ec496ba-7555-49e2-992c-403c33302a90
 source-git-commit: b6fe3fec0c64983fc2317027a5748a0d44c18469
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '512'
 ht-degree: 100%
 
@@ -39,7 +39,7 @@ Voici les actions que vous pouvez effectuer à l’aide des attributs d’enrich
 >
 >Pour utiliser les attributs d’enrichissement des audiences créées à l’aide de workflows de composition, assurez-vous qu’ils sont ajoutés à un groupe de champs dans la source de données « ExperiencePlatform ».
 >
->+++ Découvrez comment ajouter des attributs d’enrichissement à un groupe de champs.>
+>+++ Découvrez comment ajouter des attributs d’enrichissement à un groupe de champs.
 >
 >1. Accédez à « Administration » > « Configuration » > « Sources de données ».
 >1. Sélectionnez « Experience Platform » et créez ou modifiez un groupe de champs.
@@ -71,7 +71,7 @@ Les attributs d’enrichissement sont liés à une audience via une activité d�
 
 +++ Où puis-je utiliser les attributs d’enrichissement dans Journey Optimizer ?
 
-Les attributs d’enrichissement provenant de la composition de l’audience peuvent être utilisés dans les zones suivantes. [Découvrir comment utiliser les attributs d’enrichissement des audiences](#enrichment)
+Les attributs d’enrichissement provenant de la composition d’audiences peuvent être utilisés dans les zones suivantes. [Découvrir comment utiliser les attributs d’enrichissement des audiences](#enrichment)
 
 * Activité de condition (parcours)
 * Attributs d’action personnalisée (parcours)

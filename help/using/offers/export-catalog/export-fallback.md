@@ -8,9 +8,9 @@ role: User, Data Engineer
 level: Intermediate
 exl-id: 73bfdc24-28cf-4cfd-bac9-a4ff1ea543e3
 source-git-commit: 2a5591617838e76e9cae99c0f97e8aff59311a69
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1004'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -71,7 +71,7 @@ Vous trouverez ci-dessous la liste de tous les champs qui peuvent être utilisé
 
 +++
 
-+++_experience > decisioning > contents > components
++++_experience > prise de décisions > contenu > composants
 
 **Champ :** composants
 **Description :** composants du contenu représentant l’option de décision, y compris toutes leurs variantes linguistiques. Les composants spécifiques sont identifiés par « dx:format », « dc:subject » et « dc:language » ou une combinaison de ces éléments. Ces métadonnées permettent de localiser ou de représenter le contenu associé à une offre et de l&#39;intégrer selon le contrat d’emplacement.
@@ -82,7 +82,7 @@ Vous trouverez ci-dessous la liste de tous les champs qui peuvent être utilisé
 
   **Champ :** _type
   **Titre :** type du composant du contenu
-  **Description :** ensemble énuméré d&#39;URI où chaque valeur correspond à un type donné du composant de contenu. Certains consommateurs des représentations de contenu s&#39;attendent à ce que la valeur @type soit une référence au schéma qui décrit les propriétés supplémentaires du composant de contenu.
+  **Description** : ensemble énuméré d’URI où chaque valeur correspond à un type donné au composant de contenu. Certains consommateurs des représentations de contenu s&#39;attendent à ce que la valeur @type soit une référence au schéma qui décrit les propriétés supplémentaires du composant de contenu.
   **Type :** chaîne
 
 * **_experience > decisioning > contents > components > _dc**
@@ -168,7 +168,7 @@ Vous trouverez ci-dessous la liste de tous les champs qui peuvent être utilisé
 **Description :** emplacement à respecter. La valeur est l&#39;URI (@id) de l&#39;emplacement d&#39;offre qui est référencé. Voir le schéma https://ns.adobe.com/experience/decisioning/placement.
 **Type :** Chaîne
 
-+++
++++ 
 
 +++ _experience > decisioning > Lifecycle Status
 

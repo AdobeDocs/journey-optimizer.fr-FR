@@ -45,7 +45,7 @@ Elles sont répertoriées comme suit et chaque alerte est détaillée ci-dessous
 
 * Alertes spécifiques à la configuration des canaux :
 
-   * l’enregistrement DNS du domaine AJO [&#128279;](#alert-dns-record-missing) est manquant
+   * l’enregistrement DNS du domaine AJO [](#alert-dns-record-missing) est manquant
   <!--* the [AJO channel configuration failure](#alert-channel-config-failure) alert
    * the [AJO domain certificates renewal unsuccessful](#alert-certificates-renewal) alert-->
 
@@ -71,7 +71,7 @@ En fonction des préférences de l’abonné ou de l’abonnée, les alertes son
 >
 >Par défaut, seules les alertes in-app sont activées.
 
-<!--To enable email alerting, refer to [Adobe Experience Platform documentation](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/ui.html?lang=fr#enable-email-alerts){target="_blank"}.-->
+<!--To enable email alerting, refer to [Adobe Experience Platform documentation](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/ui.html#enable-email-alerts){target="_blank"}.-->
 
 Lorsqu’une alerte est résolue, les personnes abonnées reçoivent une notification « Résolue ».
 

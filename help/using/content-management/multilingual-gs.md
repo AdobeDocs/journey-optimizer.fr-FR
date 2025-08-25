@@ -10,7 +10,7 @@ level: Beginner
 keywords: commencer, démarrer, contenu, expérience
 exl-id: b57683b4-6dcc-4f6c-a8b2-4ba371d78d21
 source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '604'
 ht-degree: 100%
 
@@ -56,7 +56,7 @@ Pour le contenu multilingue, les paramètres suivants doivent être définis :
 
 * Pour commencer à créer du contenu multilingue, les utilisateurs et les utilisatrices doivent obtenir l’autorisation **[!UICONTROL Gérer les paramètres de langue]**. Pour un flux automatisé, les utilisateurs et les utilisatrices auront également besoin d’autorisations liées aux fonctionnalités du **[!UICONTROL service de traduction]**. [En savoir plus sur les autorisations](../administration/permissions.md)
 
-+++ Découvrez comment attribuer des autorisations multilingues.
+  +++ Découvrez comment attribuer des autorisations multilingues.
 
    1. Dans le produit **Autorisations**, accédez à l’onglet **Rôles** et sélectionnez le **Rôle** de votre choix.
 
@@ -76,11 +76,11 @@ Pour le contenu multilingue, les paramètres suivants doivent être définis :
 
    1. Si le profil de l’utilisateur ou de l’utilisatrice n’a pas été créé auparavant, consultez cette [documentation](https://experienceleague.adobe.com/fr/docs/experience-platform/access-control/abac/permissions-ui/users).
 
-+++
+  +++
 
 * Si vous ne parvenez pas à accéder à la page Traduction, vous devez activer la fonctionnalité Traduction et obtenir les autorisations associées au **[!UICONTROL service de traduction]**. [En savoir plus](../administration/ootb-permissions.md)
 
-+++ Découvrez comment activer la fonctionnalité « Traduction ».
+  +++ Découvrez comment activer la fonctionnalité « Traduction ».
 
    1. Si la page d’erreur suivante s’affiche, cela indique que la fonctionnalité **[!UICONTROL Traduction]** n’a pas encore été activée. Contactez votre organisation et l’administration Sandbox pour demander l’accès.
 
@@ -90,14 +90,14 @@ Pour le contenu multilingue, les paramètres suivants doivent être définis :
 
       Le système activera automatiquement la fonctionnalité « Traduction ».
 
-   1. Une fois la fonctionnalité activée, vous pourrez accéder à la page **[!UICONTROL Traduction]**, ainsi qu’aux onglets **[!UICONTROL Projets]**, **[!UICONTROL Fournisseurs]** et **[!UICONTROL Paramètre régional]**.
+   1. Une fois la fonctionnalité activée, vous pourrez accéder à la page **[!UICONTROL Traduction]**, ainsi qu’aux onglets **[!UICONTROL Projets]**, **[!UICONTROL Fournisseurs]** et **[!UICONTROL Paramètres régionaux]**.
 
    1. Si cette procédure a échoué, la même page d’erreur s’affiche toujours. Dans ce cas, contactez votre représentant ou représentante Adobe pour obtenir de l’aide.
 
-+++
+  +++
 
 ## Vidéo pratique {#video}
 
 Découvrez comment créer du contenu dans plusieurs langues au sein d’une campagne ou d’un parcours.
 
->[!VIDEO](https://video.tv.adobe.com/v/3452115?captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/3430921/)

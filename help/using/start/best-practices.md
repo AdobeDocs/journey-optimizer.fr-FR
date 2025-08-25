@@ -10,7 +10,7 @@ hide: true
 hidefromtoc: true
 exl-id: 271fb85d-5621-4a12-b3d1-65cf6021b174
 source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '983'
 ht-degree: 100%
 
@@ -66,7 +66,7 @@ Il existe un certain nombre de bonnes pratiques que vous pouvez adopter, qui vou
   ![](assets/journey-guardrails1.png)
 
 * Si votre parcours **Lecture d’audience** ne comporte qu’une seule action, aucune attente/décision ou optimisation de l’heure d’envoi, envisagez de le déplacer vers les campagnes Journey Optimizer. Les campagnes sont mieux adaptées à un engagement à une seule étape. L’une des principales différences entre une campagne et un parcours est de savoir s’il est important d’écouter activement l’interaction client afin de déterminer l’étape suivante et de lancer une autre action.
-* Pour réduire le nombre d’activités au sein d’un parcours, vérifiez les étapes des conditions. Il y aura de nombreux cas où vous pourrez déplacer les conditions dans la définition de segment ou la composition de l’audience.
+* Pour réduire le nombre d’activités au sein d’un parcours, vérifiez les étapes des conditions. Il y aura de nombreux cas où vous pourrez déplacer les conditions dans la définition de segment ou la composition d’audiences.
 * Si les mêmes conditions sont répétées sur plusieurs parcours (contrôles du consentement, suppressions), envisagez de les déplacer dans le cadre de la définition de segment. Par exemple, si vous avez une condition pour vérifier que « l’adresse e-mail n’est pas vide » sur plusieurs parcours, cette condition est incluse dans la définition de segment.
 * Si votre parcours comporte plusieurs conditions pour diviser l’audience afin d’afficher les nombres à chaque étape, pensez à utiliser Customer Journey Analytics ou d’autres solutions de création de rapports mieux adaptées à l’analyse.
 * Si vous approchez de la limite des nœuds sur la zone de travail, envisagez de consolider les actions avec des paramètres ou du contenu dynamiques pour servir le contenu approprié plutôt que des nœuds explicites.

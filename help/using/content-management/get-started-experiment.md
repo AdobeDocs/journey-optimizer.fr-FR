@@ -10,9 +10,9 @@ level: Beginner
 keywords: prise en main, commencer, contenu, expérience
 exl-id: 7fe4b24e-f60a-4107-a064-00010b0cbbfc
 source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
-workflow-type: ht
-source-wordcount: '2004'
-ht-degree: 100%
+workflow-type: tm+mt
+source-wordcount: '2002'
+ht-degree: 98%
 
 ---
 
@@ -24,7 +24,7 @@ Les expériences de contenu vous permettent d’optimiser le contenu pour les ac
 
 Les expériences sont un ensemble d’essais randomisés, ce qui, dans le cadre des tests en ligne, signifie que certains utilisateurs sélectionnés de manière aléatoire sont exposés à une variante donnée d’un message et un autre ensemble d’utilisateurs sélectionnés de manière aléatoire à un autre traitement. Après l’envoi du message, vous pouvez ensuite évaluer les mesures de résultats qui vous intéressent, par exemple les ouvertures d’e-mails ou les clics.
 
-➡️ Un cas d’utilisation de bout en bout montrant comment utiliser les expériences de contenu pour comparer les décisions avec le canal d’expérience basé sur le code est présenté dans [cette section](../experience-decisioning/experience-decisioning-uc.md).
+➡️ Un cas d’utilisation complet montrant comment utiliser des expériences de contenu pour comparer des décisions avec le canal d’expérience basé sur du code est présenté dans [cette section](../experience-decisioning/experience-decisioning-uc.md).
 
 ## Pourquoi exécuter des expériences ?
 
@@ -75,7 +75,7 @@ Adobe Journey Optimizer utilise ensuite des méthodes statistiques avancées «�
 
 Lors de l’exécution d’expériences, il est important de suivre certaines des bonnes pratiques. Voici quelques conseils pour exécuter ces expériences :
 
-+++Isolez les variables que vous essayez de tester.
++++Isolez les variables que vous essayez de tester
 
 Formulez une hypothèse que vous avez l’intention de tester et limitez cette hypothèse au minimum de modifications possibles afin de déterminer ce qui a eu un impact sur votre diffusion.
 
@@ -89,19 +89,19 @@ Déterminez la mesure que vous souhaitez cibler et si les modifications que vous
 Par exemple, il est peu probable que la modification du contenu du corps du message affecte les taux d’ouverture des e-mails.
 +++
 
-+++Effectuez votre test selon la bonne taille d’audience ou pour une durée suffisante.
++++Exécutez votre test sur la bonne taille d’audience ou pendant une durée suffisante.
 
 Si vous exécutez vos tests plus longtemps, vous pourrez détecter de plus petites différences dans la mesure d’objectif entre les traitements. Cependant, si la valeur de base de votre mesure d’objectif est faible, vous aurez besoin de tailles d’échantillon plus grandes.
 Le nombre d’utilisateurs qui doivent être inclus dans votre expérience dépend de la taille de l’effet que vous souhaitez détecter, de l&#39;écart ou de la propagation de votre mesure d’objectif, ainsi que de votre tolérance pour les erreurs Faux positifs et Faux négatifs. Dans les expériences classiques, vous pouvez utiliser une [calculatrice de taille d’échantillons](https://experienceleague.adobe.com/tools/calculator/testcalculator.html?lang=fr){_blank} pour déterminer la durée pendant laquelle vous devez exécuter votre test.
-+++
++++ 
 
-+++Comprenez l’incertitude statistique.
++++Comprendre l’incertitude statistique
 
 Si vous exécutez une expérience dans laquelle 1 000 utilisateurs ont vu un traitement et que le taux de conversion est défini à 5 %. S’agirait-il du taux de conversion réel si tous vos utilisateurs étaient inclus ? Quel serait le véritable taux de conversion ?
 Les méthodes statistiques nous permettent de formaliser cette incertitude. L’un des concepts les plus importants à comprendre lors de l’exécution d’expériences en ligne est que les taux de conversion observés soient cohérents avec une plage de taux de conversion réels sous-jacents, ce qui signifie que vous devez attendre que ces estimations soient suffisamment précises, avant d’essayer de tirer une conclusion. Les intervalles de confiance et le degré de confiance nous aident à quantifier cette incertitude.
 +++
 
-+++Formulez de nouvelles hypothèses et effectuez des tests continuellement
++++Formulez de nouvelles hypothèses et testez-les continuellement
 
 Pour obtenir de véritables informations d’entreprise, vous devez vous en tenir à une seule expérience. Au lieu de cela, poursuivez les expériences en formulant de nouvelles hypothèses et en effectuant de nouveaux tests avec différentes modifications, sur différentes audiences, et en examinant l’effet sur les différentes mesures.
 +++
@@ -123,13 +123,13 @@ Notez qu’une description complète des résultats doit tenir compte de toutes 
 
 Pour comprendre les calculs statistiques, reportez-vous à cette [page](../content-management/experiment-calculations.md).
 
-### 1. Comparer les mesures normalisées {#normalized-metrics}
+### &#x200B;1. Comparer les mesures normalisées {#normalized-metrics}
 
 Lorsque vous comparez les performances de deux traitements, vous devez toujours comparer les mesures normalisées afin de tenir compte des différences du nombre de profils exposés à chaque traitement.
 
 Par exemple, si l’objectif de l’expérience est défini sur **[!UICONTROL Ouvertures uniques]**, et qu’un traitement donné a été présenté à 10 000 profils avec 200 ouvertures uniques enregistrées, cela représente un **[!UICONTROL taux de conversion]** de 2 %. Pour les mesures non uniques, par exemple la mesure Ouvertures, la mesure normalisée s’affiche sous la forme d’un **[!UICONTROL Nombre par profil]**, tandis que pour les mesures continues telles que le Prix total, la mesure normalisée s’affiche sous la forme d’un **[!UICONTROL Total par profil]**.
 
-### 2. Se concentrer sur les intervalles de confiance {#confidence-intervals}
+### &#x200B;2. Se concentrer sur les intervalles de confiance {#confidence-intervals}
 
 Lorsque vous exécutez des expériences sur des échantillons de vos profils, le taux de conversion observé pour un traitement donné représente une estimation du taux de conversion sous-jacent réel.
 
@@ -141,17 +141,17 @@ Si les intervalles de confiance pour deux traitements se chevauchent à peine, c
 
 Adobe utilise des intervalles de confiance à 95 % valides à tout moment, ce qui signifie que les résultats peuvent être affichés en toute sécurité à tout moment pendant l’expérience.
 
-### 3. Comprendre l’effet élévateur {#understand-lift}
+### &#x200B;3. Comprendre l’effet élévateur {#understand-lift}
 
 Le résumé du rapport d’expérience affiche le rapport d’**[!UICONTROL Effet élévateur sur la ligne de base]**, qui est une mesure de l’amélioration en pourcentage du taux de conversion d’un traitement donné par rapport à la ligne de base. Plus précisément, il s’agit de la différence de performance entre un traitement donné et la ligne de base, divisée par la performance de la ligne de base, exprimée en pourcentage.
 
-### 3. Comprendre le degré de confiance {#understand-confidence}
+### &#x200B;3. Comprendre le degré de confiance {#understand-confidence}
 
 Bien que vous devriez principalement vous concentrer sur la variable **[!UICONTROL Intervalle de confiance]** pour ce qui est de la performance de chaque traitement, Adobe montre aussi le Degré de confiance, qui est une mesure probabiliste de la quantité de preuves démontrant qu’un traitement donné est le même que le traitement de la ligne de base. Un degré de confiance plus élevé indique que l’hypothèse selon laquelle les traitements de la ligne de base et ceux qui ne sont pas de la ligne de base aient des performances égales est moins probable. Plus précisément, le degré de confiance affiché est une probabilité (exprimée en pourcentage) que nous aurions observé une différence plus faible dans les taux de conversion entre un traitement donné et la ligne de base, si, en réalité, il n’y a aucune différence dans les taux de conversion sous-jacents réels. En termes de p-values, le degré de confiance affiché est 1 - p-value.
 
 Adobe utilise des degrés de confiance « valides à tout moment » et des p-values « valides à tout moment » qui sont conformes aux séquences de confiance décrites ci-dessus.
 
-### 4. Signification statistique
+### &#x200B;4. Signification statistique
 
 Lors de l’exécution d’expériences, un résultat est considéré comme statistiquement significatif s’il était très peu probable qu’il ait été observé, compte tenu d’une hypothèse nulle selon laquelle un traitement donné et la ligne de base ont des taux de conversion/performances réels sous-jacents identiques.
 

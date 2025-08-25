@@ -5,9 +5,9 @@ role: User
 level: Beginner
 exl-id: 4c0ee178-81fb-41ae-b7f5-22da995e6fc6
 source-git-commit: 6da1d9a3edb8a30b8f13fd0cb6a138f22459ad00
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '910'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -59,7 +59,7 @@ Pour créer une règle de limitation de parcours, procédez comme suit :
 
 1. Développez les sections ci-dessous pour découvrir comment configurer chaque type de limitation :
 
-   +++ Configuration d’une règle de limitation d’entrée de parcours
+   +++Configurer une règle de limitation d’entrée de parcours
 
    1. Dans le champ **[!UICONTROL Limitation]**, définissez le nombre maximal de parcours qu’un profil peut rejoindre.
    1. Dans le champ **[!UICONTROL Durée]**, définissez la période à prendre en compte. Veuillez noter que la durée est basée sur le fuseau horaire UTC. Par exemple, la limite quotidienne est réinitialisée à minuit UTC.
@@ -74,9 +74,9 @@ Pour créer une règle de limitation de parcours, procédez comme suit :
    >
    >Dans cet exemple, si la personne spécialiste marketing a déjà rejoint 4 parcours et qu’il y a un autre parcours planifié à venir ce mois-ci avec une priorité plus élevée, les personnes clientes seront alors supprimées de l’entrée au parcours de priorité plus faible.
 
-+++
+   +++
 
-   +++ Configuration d’une règle de limitation de la simultanéité des parcours
+   +++Configurer une règle de limitation de simultanéité de parcours 
 
    1. Dans le champ **[!UICONTROL Limitation]**, définissez le nombre maximal de parcours dans lesquels un profil peut être inscrit simultanément.
 
@@ -86,7 +86,7 @@ Pour créer une règle de limitation de parcours, procédez comme suit :
 
    ![](assets/journey-capping-concurrency-example.png){width="50%" zommable="yes"}
 
-+++
+   +++
 
 1. Répétez les étapes ci-dessus pour ajouter autant de règles que nécessaire au jeu de règles.
 
@@ -117,4 +117,4 @@ En outre, vous pouvez également utiliser le service **Query Service** d’Adobe
 
 ## Vidéo pratique {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/3447615?quality=12&captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/3435530?quality=12)

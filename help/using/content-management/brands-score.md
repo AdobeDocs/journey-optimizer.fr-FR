@@ -74,8 +74,8 @@ Une fois [votre marque configurée et publiée](brands.md), évaluez son score d
 
 La vidéo ci-dessous montre comment créer et personnaliser vos propres marques pour définir clairement votre identité visuelle et verbale dans les communications.
 
-+++ Voir la vidéo
++++ Regarder la vidéo
 
->[!VIDEO](https://video.tv.adobe.com/v/3470548/?learn=on&captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/3470544/?learn=on)
 
 +++

@@ -10,7 +10,7 @@ level: Experienced
 keywords: données, gouvernance, DULE, libellés, étiqueter, platform, politique
 exl-id: be3efd3b-35d5-4cf7-9015-29d1e305355d
 source-git-commit: fa46397b87ae3a81cd016d95afd3e09bb002cfaa
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1290'
 ht-degree: 100%
 
@@ -40,7 +40,7 @@ La première étape de l’application de la politique de gouvernance des donn�
 
 1. Dans le menu de gauche, sous **Confidentialité**, cliquez sur **Politiques**.
 
-1. Sélectionnez l’onglet **Étiquettes** et cliquez sur **Créer une étiquette**.
+1. Sélectionnez l’onglet **Libellés** et cliquez sur **Créer une libellé**.
 
 1. Définissez un nom et un nom convivial pour ce libellé. Par exemple : _ePHI1_.
 
@@ -54,7 +54,7 @@ La première étape de l’application de la politique de gouvernance des donn�
 
 ## Créer une politique de gouvernance des données {#policy}
 
-Maintenant que des libellés et des actions marketing ont été créés, vous pouvez les associer à des politiques de gouvernance des données. Sélectionnez l’onglet **Parcourir**, cliquez sur **Créer une politique** et sélectionnez **Politique de gouvernance des données**. Sélectionnez votre étiquette (_ePHI1_) et l’action marketing (_Action marketing Slack_).
+Maintenant que des libellés et des actions marketing ont été créés, vous pouvez les associer à des politiques de gouvernance des données. Sélectionnez l’onglet **Parcourir**, cliquez sur **Créer une politique** et sélectionnez **Politique de gouvernance des données**. Sélectionnez votre libellé (_ePHI1_) et l’action marketing (_Action marketing Slack_).
 
 ![](assets/action-privacy5.png)
 

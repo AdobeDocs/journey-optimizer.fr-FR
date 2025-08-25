@@ -11,8 +11,8 @@ keywords: contenu, éditeur, e-mail, commencer
 exl-id: 151594f2-85e4-4c79-9c15-334fbd3768c4
 source-git-commit: 50491d039f2baf8c30a6af0c1b59fe9041244ac7
 workflow-type: tm+mt
-source-wordcount: '674'
-ht-degree: 100%
+source-wordcount: '673'
+ht-degree: 97%
 
 ---
 
@@ -80,7 +80,7 @@ Pour commencer à créer votre contenu , procédez comme suit :
 
    ![](assets/email_designer_structure_components.png)
 
-   Sélectionnez le composant **[!UICONTROL n:n colonne]** pour définir le nombre de colonnes de votre choix (entre 3 et 10). Vous pouvez également définir la largeur des colonnes en déplaçant les flèches situées en bas de chacune d’elles.
+   Sélectionnez le composant **[!UICONTROL n:n colonne]** pour définir le nombre de colonnes de votre choix (entre 3 et 10). Vous pouvez également définir la largeur des colonnes en déplaçant les flèches situées en bas de chacune d’elles.
 
    >[!NOTE]
    >
@@ -98,7 +98,7 @@ Pour commencer à créer votre contenu , procédez comme suit :
 
    ![](assets/email_designer_asset_picker.png)
 
-1. Insérez des champs de personnalisation pour personnaliser votre contenu à partir des attributs de profil, des appartenances aux audiences, des attributs contextuels, etc. [En savoir plus sur la personnalisation de contenu](../personalization/personalize.md)
+1. Insérez des champs de personnalisation pour personnaliser votre contenu à partir des attributs de profil, des appartenances à des audiences, des attributs contextuels, etc. [En savoir plus sur la personnalisation de contenu](../personalization/personalize.md)
 
    ![](assets/email_designer_personalization.png)
 

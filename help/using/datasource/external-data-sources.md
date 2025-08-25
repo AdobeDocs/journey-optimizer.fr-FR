@@ -12,7 +12,7 @@ exl-id: f3cdc01a-9f1c-498b-b330-1feb1ba358af
 source-git-commit: 92247adabc56f369c9b11cdc519cdc7bf30c99f1
 workflow-type: tm+mt
 source-wordcount: '1677'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -69,7 +69,7 @@ Seuls les caractères alphanumériques et les traits de soulignement sont autori
 
    >[!CAUTION]
    >
-   >Nous vous recommandons vivement d&#39;utiliser le protocole HTTPS pour des raisons de sécurité. Notez également que nous n’autorisons pas l’utilisation d’adresses Adobe qui ne sont pas disponibles publiquement, ni d’adresses IP.
+   >Nous vous recommandons vivement d&#39;utiliser le protocole HTTPS pour des raisons de sécurité. Notez également que l’utilisation d’adresses Adobe qui ne sont pas publiquement disponibles et d’adresses IP n’est pas autorisée.
 
    ![](assets/journey27.png)
 

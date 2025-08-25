@@ -7,9 +7,9 @@ role: User
 level: Intermediate
 exl-id: 35d7488b-e7d8-402f-b337-28a0c869bff0
 source-git-commit: 58f4fdf8ec3cdb609efebf5b8713f6b770ef5414
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1342'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -156,13 +156,13 @@ Dans cet exemple, nous voulons augmenter la priorité de toutes les offres conte
 
 Pour utiliser des attributs liés à vos éléments de décision dans des formules, veillez à respecter la syntaxe correcte dans le code de votre formule de classement. Pour plus d’informations, développez chaque section :
 
-+++Utiliser des attributs standard d’éléments de décision
++++Utiliser les attributs standard des éléments de décision
 
 ![](../assets/formula-attribute.png)
 
 +++
 
-+++Utiliser des attributs personnalisés d’éléments de décision
++++Utiliser les attributs personnalisés des éléments de décision
 
 ![](../assets/formula-attribute-custom.png)
 
@@ -184,9 +184,9 @@ if( offer.characteristics.get("city") = homeAddress.city, offer.rank.priority * 
 
 +++
 
-+++Booster les offres dont la date de fin est dans moins de 24 heures
++++Booster les offres pour lesquelles la date de fin est inférieure à 24 heures
 
-**Formule de classement :**
+**Formule de classement:**
 
 ```
 if( offer.selectionConstraint.endDate occurs <= 24 hours after now, offer.rank.priority * 3, offer.rank.priority)
@@ -194,7 +194,7 @@ if( offer.selectionConstraint.endDate occurs <= 24 hours after now, offer.rank.p
 
 +++
 
-+++Booster les offres en fonction de la propension des clients et clientes à acheter le produit proposé
++++Booster les offres en fonction de la propension des clients à acheter le produit proposé
 
 Vous pouvez augmenter le score d’une offre en fonction d’un score de propension du client.
 
@@ -224,7 +224,7 @@ Ainsi, pour un profil tel que :
 
 +++
 
-+++Booster les offres basées sur des données contextuelles {#context-data}
++++Booster les offres en fonction des {#context-data} de données contextuelles
 
 [!DNL Journey Optimizer] permet de mettre en avant certaines offres en fonction des données contextuelles transmises dans l’appel. Par exemple, si la valeur `contextData.weather=hot` est transmise, la priorité de toutes les offres avec la valeur `attribute=hot` doit être augmentée.
 

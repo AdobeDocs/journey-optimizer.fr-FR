@@ -8,7 +8,7 @@ role: User
 level: Intermediate
 exl-id: 7234a8e8-4ab0-4f17-a833-5e452fadac35
 source-git-commit: 923d9dfc4e281ea06ac1f5cd9c08d99a80617301
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '2752'
 ht-degree: 100%
 
@@ -60,7 +60,7 @@ Par exemple, si vous définissez les contraintes suivantes :
 
 ![](../assets/offer-constraints-example.png)
 
-* L’offre sera prise en compte uniquement pour les utilisateurs qui correspondent à la règle de décision « Clients fidèles Gold ».
+* L’offre sera prise en compte uniquement pour les personnes qui correspondent à la règle de décision « Clients fidèles Gold ».
 * La priorité de l’offre est définie sur « 50 », ce qui signifie que l’offre sera présentée avant les offres dont la priorité est comprise entre 1 et 49, et après celles dont la priorité est d’au moins 51.
 * L’offre ne sera présentée qu’une seule fois par mois, pour chaque personne et à tous les emplacements.
 
@@ -76,7 +76,7 @@ Par exemple, si vous définissez les contraintes suivantes :
 >title="À propos de l&#39;éligibilité de l&#39;offre"
 >abstract="Dans cette section, vous pouvez utiliser des règles de décision pour déterminer quels utilisateurs sont éligibles à l&#39;offre."
 
-<!--additional-url="https://video.tv.adobe.com/v/341367?captions=fre_fr" text="Watch demo video"-->
+<!--additional-url="https://video.tv.adobe.com/v/329373" text="Watch demo video"-->
 
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_total_profile_estimate"
@@ -241,7 +241,7 @@ Le champ **[!UICONTROL Nombre de limitations]** vous permet d’indiquer le nomb
 >
 >Le nombre doit être un entier supérieur à 0.
 
-Par exemple, vous avez défini un événement de limitation personnalisé comme le nombre de passages en caisse pris en compte. Si vous saisissez « 10 » dans le champ **[!UICONTROL Limite du nombre de limitations]**, aucune autre offre ne sera envoyée après 10 passages en caisse.
+Par exemple, vous avez défini un événement de limitation personnalisé comme le nombre de passages en caisse pris en compte. Si vous saisissez « 10 » dans le champ **[!UICONTROL Limiter le nombre de limitations]**, aucune autre offre ne sera envoyée après 10 passages en caisse.
 
 ### Capping de la fréquence {#frequency-capping}
 

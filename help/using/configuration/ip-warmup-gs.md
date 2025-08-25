@@ -11,8 +11,8 @@ keywords: IP, délivrabilité
 exl-id: 393f051d-b86d-4b4f-b564-7a9ae3a5d4b8
 source-git-commit: 5e0d683bf52df4992773c6147b9e418241777e5d
 workflow-type: tm+mt
-source-wordcount: '246'
-ht-degree: 100%
+source-wordcount: '245'
+ht-degree: 94%
 
 ---
 
@@ -22,7 +22,7 @@ Avec [!DNL Journey Optimizer], vous pouvez facilement exécuter des workflows de
 
 Pour éviter que les e-mails soient marqués comme spam, vous pouvez augmenter progressivement le volume envoyé à l’aide de la fonctionnalité du plan de préchauffage d’adresses IP. Cette nouvelle option dans le menu **[!UICONTROL Administration]** vous permet de le faire plus facilement de manière consolidée au lieu de créer des parcours quotidiens complexes.
 
-➡️ [Découvrir comment créer et exécuter un plan de préchauffage d’adresses IP dans cette vidéo](#video)
+➡️ [Découvrez comment créer et exécuter un plan de préchauffage d’adresses IP dans cette vidéo](#video)
 
 >[!AVAILABILITY]
 >
@@ -52,7 +52,7 @@ Les étapes clés de la mise en œuvre d’un plan de préchauffage d’adresses
 
 Découvrez comment créer et exécuter un plan de préchauffage des adresses IP.
 
->[!VIDEO](https://video.tv.adobe.com/v/3453842/?learn=on&captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/3432637/?learn=on)
 
 >[!NOTE]
 >

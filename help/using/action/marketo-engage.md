@@ -10,7 +10,7 @@ level: Intermediate
 keywords: marketo, intégration marketo engage
 exl-id: 70d1ef5a-743b-4362-bb65-93a8c996209f
 source-git-commit: d92c280e40419d2e3ec62a7ba85cd492a0867fde
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '325'
 ht-degree: 100%
 

@@ -11,7 +11,7 @@ keywords: données, source, parcours, platform
 exl-id: e0cb261f-7cf7-42de-8e56-576492e3b5cc
 source-git-commit: d498f32a42b13bfdee20f32a589dd31c77d88fa8
 workflow-type: tm+mt
-source-wordcount: '344'
+source-wordcount: '343'
 ht-degree: 100%
 
 ---
@@ -30,7 +30,7 @@ Elle vous permet de définir une connexion à un système afin de récupérer de
 * [Définition d’une attente personnalisée](../building-journeys/wait-activity.md#custom)
 * [Définition d’un fuseau horaire](../building-journeys/timezone-management.md)
 
-➡️ [Découvrez cette fonctionnalité en vidéo](#video)
+➡️ [Découvrez cette fonctionnalité en vidéo.](#video)
 
 Cette configuration n’est pas requise si vos parcours utilisent uniquement les données locales provenant d’une payload d’événement. Par exemple, si votre parcours comprend un événement suivi d’une activité d’action de canal qui utilise uniquement les données de l’événement, il n’est pas nécessaire de configurer une source de données.
 
@@ -55,5 +55,5 @@ Pour plus d’informations sur la configuration d’une source de données Adobe
 
 Comprenez ce qu&#39;est une source de données. Découvrez également comment configurer des sources de données Experience Platform et externes.
 
->[!VIDEO](https://video.tv.adobe.com/v/3416634?quality=12&captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/334256?quality=12)
 

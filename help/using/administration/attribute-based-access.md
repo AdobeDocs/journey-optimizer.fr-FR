@@ -10,7 +10,7 @@ level: Intermediate
 keywords: abac, attribut, autorisations, données, accès, sensible, ressources
 exl-id: 162b0848-313a-447e-9237-5a6dbc8102c6
 source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1006'
 ht-degree: 100%
 
@@ -116,7 +116,7 @@ Le champ de votre schéma ne sera désormais visible et exploitable que par les 
 
 Après avoir libellé le nom de champ **Nationalité** dans un nouveau schéma et un nouveau rôle, vous pourrez observer l’impact de cette restriction dans Adobe Journey Optimizer. Dans cet exemple :
 
-* L’utilisateur ou l’utilisatrice X, ayant accès aux objets libellés C2, crée un parcours avec une condition ciblant le **[!UICONTROL nom de champ]** restreint.
+* L’utilisateur ou l’utilisatrice X, ayant accès aux objets étiquetés C2, crée un parcours avec une condition ciblant le **[!UICONTROL nom de champ]** restreint.
 * L’utilisateur ou l’utilisatrice Y, n’ayant pas accès aux objets libellés C2, tente de publier le parcours.
 
 

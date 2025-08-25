@@ -9,9 +9,9 @@ role: User
 level: Beginner
 exl-id: 956178c0-9985-4ff8-a29e-17dd367ce4d4
 source-git-commit: e758e4f3532d9f1abb7a564431993c11032804ba
-workflow-type: ht
-source-wordcount: '776'
-ht-degree: 100%
+workflow-type: tm+mt
+source-wordcount: '775'
+ht-degree: 95%
 
 ---
 
@@ -50,7 +50,7 @@ Les fonctionnalités principales sont les suivantes :
 
 * **Informations sur le client et engagement en temps réel** : un profil intégré fusionne les données actives de toutes les sources entre les points de contact des clients, y compris les données comportementales, transactionnelles, financières et opérationnelles afin d&#39;optimiser les expériences personnelles et contextuelles des clients en temps réel.
 
-* **Exécution et orchestration omnicanal modernes** : une zone de travail unique sur laquelle harmoniser et optimiser le parcours client pour l&#39;engagement client 1:1 et les activités marketing, afin d&#39;aider les marques à proposer une plus grande valeur ajoutée tout au long du cycle de vie du client. Les parcours client conçus dans [!DNL Adobe Journey Optimizer] peuvent être dynamiques et basés sur des événements afin d&#39;aider les marques à réagir aux signaux en temps réel et à associer ces interactions à des campagnes planifiées afin de pouvoir prendre les bonnes décisions concernant les communications à envoyer à un client, le moment et les canaux.
+* **Exécution et orchestration omnicanal modernes** : une zone de travail unique sur laquelle harmoniser et optimiser le parcours client pour 1:1 l’engagement client et la sensibilisation marketing, afin d’aider les marques à proposer une plus grande valeur ajoutée tout au long du cycle de vie du client. Les parcours client conçus dans [!DNL Adobe Journey Optimizer] peuvent être dynamiques et basés sur des événements afin d&#39;aider les marques à réagir aux signaux en temps réel et à associer ces interactions à des campagnes planifiées afin de pouvoir prendre les bonnes décisions concernant les communications à envoyer à un client, le moment et les canaux.
 
 * **Prise de décision et personnalisation intelligentes** : les marques peuvent appliquer une prise de décision centralisée et intégrer l’intelligence artificielle et le machine learning pour rechercher des informations prédictives tout au long de l’expérience du client ou de la cliente, ce qui facilite l’automatisation des décisions et l’optimisation de l’expérience à grande échelle. La prise de décisions alimente les offres centralisées sur tous les canaux à l’échelle via [!DNL Adobe Journey Optimizer].
 

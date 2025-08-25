@@ -10,9 +10,9 @@ level: Intermediate
 keywords: expression, éditeur, syntaxe, personnalisation
 exl-id: 5a562066-ece0-4a78-92a7-52bf3c3b2eea
 source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '572'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -45,7 +45,7 @@ où :
 
 * Dans Handlebars, les valeurs renvoyées par {{expression}} se caractérisent par un **échappement HTML.** Si l’expression contient `&`, la sortie avec échappement HTML renvoyée est générée sous la forme `&amp;`. Si vous ne souhaitez pas que Handlebars effectue l’échappement d’une valeur, utilisez trois accolades au lieu de deux.
 
-* En ce qui concerne les arguments de fonctions littérales, l’analyseur de langage de création de modèles ne prend pas en charge la barre oblique inversée sans échappement (`\`). Ce caractère doit avoir fait l’objet d’une séquence d’échappement avec une barre oblique inversée supplémentaire (`\`). Exemple :
+* En ce qui concerne les arguments de fonctions littérales, l’analyseur de langage de création de modèles ne prend pas en charge la barre oblique inverse sans échappement (`\`). Ce caractère doit avoir fait l’objet d’une séquence d’échappement avec une barre oblique inverse supplémentaire (`\`). Exemple :
 
   `{%= regexGroup("abc@xyz.com","@(\\w+)", 1)%}`
 
@@ -69,7 +69,7 @@ où :
    * `{{profile.homeAddress.city}}`
    * `{{profile.faxPhone.number}}`
 
-+++
+  +++
 
 * **Audience**
 
@@ -112,7 +112,7 @@ où :
 
      `offers.html.[offers:xcore:offer-placement:126f767d74b0da80].[xcore:offer-activity:125e2c6889798fd9].content`
 
-+++
+  +++
 
 ## Assistants{#helpers-all}
 

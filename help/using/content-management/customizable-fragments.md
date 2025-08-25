@@ -9,9 +9,9 @@ role: User
 level: Beginner, Intermediate
 exl-id: cd47ca1d-f707-4425-b865-14f3fbbe5fd1
 source-git-commit: 5bc467f7fd25dd4218470c0e73bc0dc87938e218
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1510'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -21,7 +21,7 @@ Lorsque des fragments sont utilisés dans une action de campagne ou de parcours,
 
 Avec les **fragments personnalisables**, des champs spécifiques d’un fragment peuvent être définis comme modifiables lorsque le fragment est ajouté à une action de campagne ou de parcours. Supposons, par exemple, que vous ayez un fragment avec une bannière, du texte et un bouton. Vous pouvez désigner comme modifiables certains champs, tels que l’image ou l’URL cible du bouton. Cela permet aux utilisateurs et utilisatrices de modifier ces éléments lorsqu’ils incorporent le fragment dans leur campagne ou leur parcours, ce qui offre une expérience personnalisée sans affecter le fragment d’origine.
 
-Les fragments personnalisables éliminent la nécessité de rompre l’héritage des fragments, ce qui empêchait auparavant la propagation des modifications centralisées au niveau des fragments vers les campagnes et les parcours. Cette approche permet d’ajuster les portions de contenu au moment de l’utilisation, ce qui offre la possibilité de remplacer les valeurs par défaut par des détails spécifiques au contexte.
+Grâce aux fragments personnalisables, il n’est plus nécessaire de rompre l’héritage des fragments, ce qui arrêtait auparavant la propagation des changements centralisés au niveau des fragments vers les campagnes et les parcours. Cette approche permet d’ajuster les portions de contenu au moment de l’utilisation, ce qui offre la possibilité de remplacer les valeurs par défaut par des détails spécifiques au contexte.
 
 En exploitant des fragments personnalisables, vous pouvez gérer et personnaliser efficacement votre contenu sans créer de blocs de contenu entièrement nouveaux ni interrompre l’héritage du fragment d’origine. Cela garantit que les modifications apportées au niveau du fragment sont toujours propagées, tout en permettant une personnalisation nécessaire au niveau de la campagne ou du parcours.
 
@@ -67,7 +67,7 @@ Supposons, par exemple, que vous souhaitiez créer un fragment à ajouter à vos
 
 Pour les composants HTML, seuls des éléments spécifiques peuvent devenir des champs modifiables. Pour plus d’informations, développez la section ci-dessous.
 
-+++Éléments modifiables dans les composants HTML :
++++Éléments modifiables dans les composants HTML :
 
 Les éléments ci-dessous peuvent devenir des champs modifiables dans un composant HTML :
 
@@ -194,4 +194,4 @@ Lorsqu’ils ajoutent le fragment au contenu de leur e-mail, les utilisateurs et
 
 Cette vidéo montre comment rendre les composants HTML d’un fragment modifiables, permettant ainsi des mises à jour dynamiques du contenu et du style.
 
->[!VIDEO](https://video.tv.adobe.com/v/3464370/?learn=on&#x26;enablevpops&captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/3464363/?learn=on&#x26;enablevpops)

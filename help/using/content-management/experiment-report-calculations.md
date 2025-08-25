@@ -6,9 +6,9 @@ role: User
 level: Experienced
 exl-id: 67ba8861-be6f-42ae-b9b8-96168d0dd15c
 source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
-workflow-type: ht
-source-wordcount: '951'
-ht-degree: 100%
+workflow-type: tm+mt
+source-wordcount: '950'
+ht-degree: 96%
 
 ---
 
@@ -71,7 +71,7 @@ où :
 
 Le degré de confiance utilisé par Adobe est un degré de confiance « valide à tout moment » qui est obtenu en inversant la séquence de confiance pour l’effet de traitement moyen.
 
-Pour être précis, dans un test entre deux échantillons *t* pour connaître la différence de moyennes entre deux variantes, il existe un mappage 1:1 entre la valeur-*p* pour ce test et l’intervalle de confiance pour la différence de moyennes. Par analogie, une valeur-*p* valide à tout moment peut être obtenue en inversant la séquence de confiance (valide à tout moment) de l’estimateur d’effet de traitement moyen :
+Pour être précis, dans un test à deux échantillons *t* pour connaître la différence de moyennes entre deux variantes, il existe une correspondance 1:1 entre la valeur *p* pour ce test et l’intervalle de confiance pour la différence de moyennes. Par analogie, une valeur-*p* valide à tout moment peut être obtenue en inversant la séquence de confiance (valide à tout moment) de l’estimateur d’effet de traitement moyen :
 
 ![](assets/statistical_6.png){width="200" align="center"}
 

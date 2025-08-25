@@ -10,7 +10,7 @@ level: Intermediate
 keywords: campaign, standard, intégration, limitation, action
 exl-id: 2f0218c9-e1b1-44ba-be51-15824b9fc6d2
 source-git-commit: d92c280e40419d2e3ec62a7ba85cd492a0867fde
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '437'
 ht-degree: 100%
 

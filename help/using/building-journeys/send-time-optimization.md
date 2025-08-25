@@ -12,7 +12,7 @@ exl-id: ec604e91-4c7f-459c-b6ff-d825919e7181
 source-git-commit: 78b8b4d6e8cf49ab39150b7bc412bef009bbad2b
 workflow-type: tm+mt
 source-wordcount: '1485'
-ht-degree: 100%
+ht-degree: 94%
 
 ---
 
@@ -98,7 +98,7 @@ Les heures d’envoi d’exploration sont sélectionnées de manière aléatoire
 
 ## Questions fréquentes {#faq-send-time}
 
-+++Combien de temps dois-je attendre avant d’utiliser l’optimisation de l’heure d’envoi ?
++++Combien de temps dois-je attendre avant d’utiliser l’optimisation de l’heure d’envoi ?
 
 Votre organisation doit utiliser l’action E-mail dans Journey Optimizer pendant au moins 30 jours avant d’utiliser l’optimisation de l’heure d’envoi dans les e-mails afin de permettre la collecte de certains événements d’envoi, d’ouverture et de clic d’e-mail.
 
@@ -108,14 +108,14 @@ Si votre organisation utilise déjà les types d’action E-mail et/ou Push depu
 
 +++
 
-+++Comment puis-je voir l’heure d’envoi à laquelle une personne spécifique recevra un message ?
++++Comment puis-je voir l’heure d’envoi à laquelle un utilisateur spécifique recevra un message ?
 
 Afin de minimiser l’impact du modèle sur la richesse des profils, les scores des modèles sont stockés compressés dans 3 attributs de profil stockés dans `_experience.intelligentServices.journeyAI.sendTimeOptimization` et ne sont pas conçus pour être lisibles par une personne.
 
 +++
 
 
-+++Quel est l’avantage moyen de l’optimisation de l’heure d’envoi ?
++++Quel est l’avantage moyen de l’optimisation de l’heure d’envoi ?
 
 L’optimisation de l’heure d’envoi peut augmenter le taux de clics sur les e-mails et le taux d’ouverture des notifications push entre environ 2 et 10 % pour tous les messages optimisés par une organisation.
 
@@ -132,7 +132,7 @@ Les organisations sont plus susceptibles de tirer de plus grands avantages de l�
 
 +++
 
-+++Je clique toujours sur les e-mails ou les messages push à 12 h. Pourquoi l’algorithme ne m’a-t-il pas envoyé de message à 12 h ?
++++Je clique toujours sur des emails ou des messages push à 12h, pourquoi l&#39;algorithme ne m&#39;a-t-il pas envoyé un message à 12h ?
 
 
 Cela peut se produire pour plusieurs raisons :
@@ -142,14 +142,14 @@ Cela peut se produire pour plusieurs raisons :
 
 +++
 
-+++Comment l’optimisation de l’heure d’envoi connaît-elle le fuseau horaire d’un utilisateur ou d’une utilisatrice ?
++++Comment l’optimisation de l’heure d’envoi connaît-elle le fuseau horaire d’un utilisateur ?
 
 L’optimisation de l’heure d’envoi utilise le champ de profil `timeZone` pour déterminer le fuseau horaire d’un utilisateur ou d’une utilisatrice. S’il n’est pas disponible pour cette personne, l’optimisation de l’heure d’envoi tente de déduire le fuseau horaire d’une personne à partir d’autres informations géographiques du profil de la personne, telles que le pays et l’État.
 
 +++
 
 
-+++L’optimisation de l’heure d’envoi enverra-t-elle des messages push aux utilisateurs et utilisatrices pendant la nuit dans leur fuseau horaire local ?
++++L’optimisation de l’heure d’envoi enverra-t-elle des messages push aux utilisateurs pendant la nuit dans leur fuseau horaire local ?
 
 L’optimisation de l’heure d’envoi peut envoyer des messages push aux utilisateurs et utilisatrices pendant la nuit dans leur fuseau horaire local dans les circonstances suivantes :
 

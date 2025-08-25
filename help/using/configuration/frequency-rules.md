@@ -14,9 +14,9 @@ googlebot: noindex
 keywords: message, fréquence, règles, pression
 exl-id: 49248fb6-5a91-45b2-9de8-2f078d59c0fc
 source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
-workflow-type: ht
-source-wordcount: '1267'
-ht-degree: 100%
+workflow-type: tm+mt
+source-wordcount: '1266'
+ht-degree: 98%
 
 ---
 
@@ -37,7 +37,7 @@ Par exemple, pour une marque, une règle peut être de ne pas envoyer plus de 4�
 >
 >Les règles métier sont différentes de la gestion d’opt-out, qui permet aux utilisateurs et utilisatrices de se désinscrire des communications envoyées par une marque. [En savoir plus](../privacy/opt-out.md#opt-out-management)
 
-➡️ [Découvrez cette fonctionnalité en vidéo](#video)
+➡️ [Découvrez cette fonctionnalité en vidéo.](#video)
 
 ## Accéder aux règles métier {#access-rules}
 
@@ -134,7 +134,7 @@ La limite de fréquence quotidienne est valable pour la journée jusqu’à 23:5
 
 >[!NOTE]
 >
->Pour garantir la précision des règles de capping de la fréquence quotidienne, nous vous recommandons d’utiliser la méthode [Segmentation en streaming](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/streaming-segmentation.html?lang=fr){target="_blank"}. En savoir plus sur les méthodes d’évaluation de l’audience dans [cette section](../audience/about-audiences.md#evaluation-method-in-journey-optimizer).
+>Pour garantir la précision des règles de capping de la fréquence quotidienne, l’utilisation de la [segmentation en flux continu](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/streaming-segmentation.html?lang=fr){target="_blank"} est recommandée. En savoir plus sur les méthodes d’évaluation de l’audience dans [cette section](../audience/about-audiences.md#evaluation-method-in-journey-optimizer).
 
 ## Activer une règle métier {#activate-rule}
 
@@ -239,4 +239,4 @@ Dans ce scénario, un profil individuel :
 
 Découvrez comment créer, activer, tester et générer des rapports sur les règles métier.
 
->[!VIDEO](https://video.tv.adobe.com/v/3411122?quality=12&captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/344451?quality=12)

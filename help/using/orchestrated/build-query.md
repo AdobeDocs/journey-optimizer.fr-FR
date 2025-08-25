@@ -7,7 +7,7 @@ exl-id: 5e956a6a-0b89-4d78-8f16-fe9fceb25674
 source-git-commit: 3a44111345c1627610a6b026d7b19b281c4538d3
 workflow-type: tm+mt
 source-wordcount: '1717'
-ht-degree: 97%
+ht-degree: 96%
 
 ---
 
@@ -42,7 +42,7 @@ Pour ajouter des conditions à votre requête, procédez comme suit :
 
 1. Cliquez sur le bouton ![image showing the More actions button](assets/do-not-localize/rule-builder-icon-more.svg) en regard d’un attribut pour accéder à ces options supplémentaires :
 
-+++ Répartition des valeurs
+   +++ Répartition des valeurs
 
    Analysez la répartition des valeurs pour un attribut donné dans le tableau. Cette fonctionnalité est particulièrement utile pour comprendre les valeurs disponibles, leur nombre et leur pourcentage. Cela permet également d’éviter des problèmes, par exemple en matière de majuscules ou d’orthographe, lors de la création de requêtes ou d’expressions.
 
@@ -50,9 +50,9 @@ Pour ajouter des conditions à votre requête, procédez comme suit :
 
    ![image affichant l’interface de Distribution des valeurs](assets/rule-builder-distribution-values.png)
 
-+++
+   +++
 
-+++ Ajout aux favoris
+   +++ Ajout aux favoris
 
    L’ajout de différents attributs à votre menu de favoris permet dʼaccéder rapidement aux attributs que vous utilisez le plus fréquemment. Vous pouvez ajouter jusqu’à 20 attributs aux favoris. Les attributs favoris et récents sont associés à chaque utilisateur et utilisatrice au sein d’une organisation, ce qui garantit l’accessibilité sur différents ordinateurs et offre une expérience fluide sur tous les appareils.
 
@@ -60,7 +60,7 @@ Pour ajouter des conditions à votre requête, procédez comme suit :
 
    ![image affichant l’interface des favoris](assets/rule-builder-favorites.png)
 
-+++
+   +++
 
 1. Cliquez sur **[!UICONTROL Confirmer]** pour ajouter l’attribut sélectionné à votre condition.
 
@@ -97,7 +97,7 @@ Pour ajouter des conditions à votre requête, procédez comme suit :
 
    Pour les attributs de type date, des valeurs prédéfinies sont disponibles à l’aide de l’option **[!UICONTROL Préréglages]**.
 
-   +++Voir exemple
+   +++Voir l’exemple
 
    ![image affichant l’option de préréglage](assets/rule-builder-attribute-preset.png)
 
@@ -127,13 +127,13 @@ Voici un exemple de requête dans laquelle un lien de table a été directement 
 
 ![Capture d’écran de la table des marques](assets/rule-builder-1-1-attribute-table.png)
 
-+++
++++ 
 
 Pour un **lien 1-N**, vous pouvez définir des sous-conditions afin d’affiner votre requête, comme illustré dans l’exemple ci-dessous.
 
 +++Exemple de requête
 
-Ici, la requête cible les personnes destinataires ayant effectué des achats liés au produit BrewMaster, pour un montant d’au moins 100 $.
+Ici, la requête cible les destinataires ayant effectué des achats liés au produit BrewMaster, pour un montant d’au moins 100 $.
 
 1. Sélectionnez la table **Achats** et confirmez.
 
@@ -145,7 +145,7 @@ Ici, la requête cible les personnes destinataires ayant effectué des achats li
 
    ![Capture d’écran de la table des achats](assets/rule-builder-1-n-collection.png)
 
-+++
++++ 
 
 ### Conditions personnalisées avec données agrégées {#aggregate}
 

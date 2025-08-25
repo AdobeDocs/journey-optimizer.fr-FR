@@ -7,7 +7,7 @@ exl-id: ffe1e77c-6c4f-4f23-9183-d715a4c7c402
 source-git-commit: a4f3dce91af978bdff2de5beb8b1472f7704bdf2
 workflow-type: tm+mt
 source-wordcount: '1108'
-ht-degree: 76%
+ht-degree: 77%
 
 ---
 
@@ -136,7 +136,7 @@ Lorsque vous accédez à l’éditeur de personnalisation à partir d’une camp
 
 * **[!UICONTROL Attributs de cible]** (spécifiques aux campagnes orchestrées)
 
-  Ce dossier est propre aux campagnes orchestrées. Il contient des attributs calculés directement dans la zone de travail de campagne. Il contient deux sous-dossiers :
+  Ce dossier est propre aux campagnes orchestrées. Il contient des attributs calculés directement dans la zone de travail de la campagne. Il contient deux sous-dossiers :
 
    * **`<Targeting dimension>`** (par exemple, « Destinataires », « Achats ») : contient tous les attributs liés à la dimension ciblée par votre campagne.
 

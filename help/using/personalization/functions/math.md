@@ -8,8 +8,8 @@ level: Experienced
 exl-id: b9149ad6-2be7-4bdf-82eb-7ab52780cb4e
 source-git-commit: 8a1ec5acef067e3e1d971deaa4b10cffa6294d75
 workflow-type: tm+mt
-source-wordcount: '243'
-ht-degree: 100%
+source-wordcount: '242'
+ht-degree: 93%
 
 ---
 
@@ -31,7 +31,7 @@ La fonction `absolute` est utilisée pour convertir un nombre dont la valeur est
 
 La fonction `formatNumber` sert à mettre en forme n’importe quel nombre dans sa représentation sensible à la langue.
 
-Elle accepte un nombre et une chaîne représentant le paramètre régional et renvoie une chaîne formatée du nombre dans le paramètre régional souhaité.
+Elle accepte un nombre et une chaîne représentant les paramètres régionaux et renvoie une chaîne formatée du nombre dans les paramètres régionaux souhaités.
 
 **Syntaxe**
 
@@ -39,7 +39,7 @@ Elle accepte un nombre et une chaîne représentant le paramètre régional et r
 {%= formatNumber(number/double,string) %}: string
 ```
 
-Vous pouvez utiliser la mise en forme et des paramètres régionaux valides comme indiqué dans la [Documentation Oracle](https://docs.oracle.com/javase/8/docs/api/java/util/Locale.html) et les [Paramètres régionaux pris en charge](https://www.oracle.com/java/technologies/javase/jdk11-suported-locales.html){_blank}
+Vous pouvez utiliser la mise en forme et des paramètres régionaux valides comme résumé dans la documentation [Oracle](https://docs.oracle.com/javase/8/docs/api/java/util/Locale.html) et [Paramètres régionaux pris en charge](https://www.oracle.com/java/technologies/javase/jdk11-suported-locales.html){_blank}
 
 **Exemple**
 

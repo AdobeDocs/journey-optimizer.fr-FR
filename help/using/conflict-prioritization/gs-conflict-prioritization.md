@@ -5,7 +5,7 @@ role: User
 level: Beginner
 exl-id: 9dc0cd89-d29a-42d2-a73f-d95f9c39c86e
 source-git-commit: 8146221975b7460bf1deaca9363d1624b719b480
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '629'
 ht-degree: 100%
 
@@ -67,4 +67,4 @@ Les jeux de règles vous permettent de **regrouper plusieurs règles en jeux de 
 
 * **Activations simultanées dans les parcours de qualification d’audience**
 
-  Lorsque plusieurs parcours de qualification d’audience sont activés par le même événement de qualification d’audience, les décomptes pour la limitation des entrées ne seront pas précis. Si les décomptes sont inférieurs au plafond, le parcours poursuivra l’arbitrage, mais il ne pourra pas obtenir les décomptes les plus récents avec des activations simultanées.
+  Lorsque plusieurs parcours de qualification d’audience sont activés par le même événement de qualification d’audience, les décomptes pour la limitation des entrées ne seront pas précis. Si les décomptes sont inférieurs à la limite, le parcours poursuivra l’arbitrage, mais il ne pourra pas obtenir les décomptes les plus récents avec des activations simultanées.

@@ -10,7 +10,7 @@ level: Intermediate
 keywords: pré-en-tête, éditeur, résumé, e-mail
 exl-id: 7ed52b2e-eabf-414f-b169-4b004733dea9
 source-git-commit: 0f3191a3d7c5c78e1d8fac2e587e26522f02f8f5
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '333'
 ht-degree: 100%
 
@@ -31,7 +31,7 @@ Lors de la conception de vos e-mails, vous pouvez définir des méta-attributs s
 
   >[!NOTE]
   >
-  >Les pré-titres ne sont pas pris en charge par tous les clients de messagerie. S’il n’est pas pris en charge, le pré-titre ne s’affiche pas.
+  >Les pré-en-têtes ne sont pas pris en charge par tous les clients de messagerie. Le pré-en-tête ne s’affiche pas s’il n’est pas pris en charge.
 
 * **[!UICONTROL Titre du document]** : ce champ, qui correspond à l’élément `<title>`, fournit des informations descriptives sur le contenu de votre e-mail, généralement affichées sous la forme d’une infobulle lorsque vous pointez dessus. Il peut aider les utilisateurs et utilisatrices en situation de handicap en fournissant un contexte supplémentaire et peut contribuer à une meilleure compréhension de votre contenu par les moteurs de recherche.
 

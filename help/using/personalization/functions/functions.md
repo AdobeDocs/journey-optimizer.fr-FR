@@ -7,7 +7,7 @@ role: Data Engineer
 level: Experienced
 exl-id: 9b0b0d8e-a819-4d2e-a241-f3c4d104eab9
 source-git-commit: e255751e411d8b623a12780a52a54551b5d65182
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '2399'
 ht-degree: 100%
 
@@ -516,4 +516,4 @@ Les fonctions de comparaison sont utilisées pour comparer les différentes expr
 
 Découvrez comment transformer des valeurs de personnalisation à l&#39;aide de fonctions d&#39;assistance à la personnalisation et comprendre différents cas d&#39;utilisation des fonctions d&#39;assistance.
 
->[!VIDEO](https://video.tv.adobe.com/v/3416644?quality=12&captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/334244?quality=12)

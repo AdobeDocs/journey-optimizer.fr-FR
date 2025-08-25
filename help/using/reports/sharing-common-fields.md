@@ -11,7 +11,7 @@ exl-id: 42aec986-2352-456a-a725-7f1585ae01f8
 source-git-commit: 0bf1636f527aeefe8ce54ee97389fe8658e716f0
 workflow-type: tm+mt
 source-wordcount: '634'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -37,7 +37,7 @@ Type : booléen
 
 Valeurs : Vrai/Faux
 
-## reentrance {#reentrance-field}
+## rentrée {#reentrance-field}
 
 Indique si l’utilisateur est entré de nouveau dans le parcours avec la même instance. S’il n’est pas présent, nous supposons que la valeur est false.
 
@@ -193,7 +193,7 @@ Valeurs : batch/unitary
 
 ## recurrenceIndex {#recurrenceindex-field}
 
-Indice de la récurrence si le parcours est &quot;batch&quot; et récurrent (pour la première exécution, recurrenceIndex = 1).
+Indice de la récurrence si le parcours est « batch » et récurrent (pour la première exécution, recurrenceIndex = 1).
 
 Type : long
 

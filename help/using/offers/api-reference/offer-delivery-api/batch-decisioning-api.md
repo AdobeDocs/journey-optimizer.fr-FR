@@ -7,7 +7,7 @@ role: Data Engineer
 level: Experienced
 exl-id: 1ed01a6b-5e42-47c8-a436-bdb388f50b4e
 source-git-commit: d629367413f106a00d0e940c90bd6d77e6f33a5c
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '729'
 ht-degree: 100%
 
@@ -30,7 +30,7 @@ Pour ce faire, l&#39;organisation :
 
 * Exporte le jeu de données vers l&#39;API du fournisseur de diffusion de messages.
 
-<!-- (Refer to the [export jobs endpoint documentation](https://experienceleague.adobe.com/docs/experience-platform/segmentation/api/export-jobs.html?lang=fr) to learn more about exporting audiences.) -->
+<!-- (Refer to the [export jobs endpoint documentation](https://experienceleague.adobe.com/docs/experience-platform/segmentation/api/export-jobs.html) to learn more about exporting audiences.) -->
 
 >[!NOTE]
 >
@@ -174,7 +174,7 @@ curl -X GET 'https://platform.adobe.io/data/core/dwm/workloads/decisions/f395ab1
 | `@id` | L’UUID généré par la gestion des décisions qui identifie une seule charge de travail. | `5d0ffb5e-dfc6-4280-99b6-0bf3131cb8b8` |
 | `xdm:imsOrgId` | L’ID de l’organisation | `9GTO98D5F@AdobeOrg` |
 | `ode:createDate` | L&#39;heure à laquelle la requête de charge de travail de décision a été créée. | `1648076994405` |
-| `ode:status` | L&#39;état de la charge de travail commence par « QUEUED » et passe à « PROCESSING », « INGESTING », « COMPLETED » ou « ERROR ». | `ode:status: "COMPLETED"` |
+| `ode:status` | Le statut de la charge de travail commence par « QUEUED » et passe à « PROCESSING », « INGESTING », « COMPLETED » ou « ERROR ». | `ode:status: "COMPLETED"` |
 | `ode:statusDetail` | Elle affiche plus de détails, tels que sparkJobId et batchID si l&#39;état est « PROCESSING » ou « INGESTING ». Elle affiche les détails de l’erreur si l&#39;état est « ERROR ». |  |
 
 ## Étapes suivantes {#next-steps}

@@ -12,7 +12,7 @@ exl-id: 6244d717-fbd6-468e-9164-60451d0d62f0
 source-git-commit: a009743e176f81cc0ad843c1c056983d66c5cc48
 workflow-type: tm+mt
 source-wordcount: '949'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
@@ -48,7 +48,7 @@ Dans cette section, vous pouvez définir vos différents paramètres régionaux 
 
 1. Sélectionnez les **[!UICONTROL Paramètres régionaux]** associés à ces paramètres. Vous pouvez ajouter 50 paramètres régionaux au maximum.
 
-   Si un **[!UICONTROL paramètre régional]** est manquant, vous pouvez le créer manuellement au préalable à partir du menu **[!UICONTROL Traduction]** ou par API. Voir [Créer un paramètre régional](multilingual-locale.md).
+   S’il manque des **[!UICONTROL paramètres régionaux]**, vous pouvez le créer manuellement au préalable à partir du menu **[!UICONTROL Traduction]** ou par API. Voir [Créer des paramètres régionaux](multilingual-locale.md).
 
    ![](assets/multilingual-settings-2.png)
 
@@ -65,7 +65,7 @@ Dans cette section, vous pouvez définir vos différents paramètres régionaux 
 
    ![](assets/multilingual-settings-3.png)
 
-1. Si vous sélectionnez **[!UICONTROL Créer des règles conditionnelles personnalisées]**, sélectionnez le paramètre régional pour lequel vous souhaitez créer des conditions. Créez ensuite des règles basées sur des facteurs tels que l’emplacement de l’utilisateur ou de l’utilisatrice, les préférences linguistiques ou d’autres éléments contextuels.
+1. Si vous sélectionnez **[!UICONTROL Créer des règles conditionnelles personnalisées]**, sélectionnez les paramètres régionaux pour lesquels vous souhaitez créer des conditions. Créez ensuite des règles basées sur des facteurs tels que l’emplacement de l’utilisateur ou de l’utilisatrice, les préférences linguistiques ou d’autres éléments contextuels.
 
    ![](assets/multilingual-settings-4.png)
 
@@ -85,7 +85,7 @@ Dans cette section, vous pouvez définir vos différents paramètres régionaux 
    >
    >Ces conditions préalables sont requises uniquement pour les canaux Cartes de contenu et In-app.
 
-   1. Dans la collecte de données Adobe Experience Platform, accédez au menu **[!UICONTROL Règles]** et créez une règle. Des informations détaillées sur la création de règles sont disponibles dans la [Documentation sur la collecte de données](https://experienceleague.adobe.com/fr/docs/experience-platform/collection/e2e#create-a-rule){target="_blank"} [!DNL Adobe Experience Platform].
+   1. Dans la collecte de données Adobe Experience Platform, accédez au menu **[!UICONTROL Règles]** et créez une règle. Vous trouverez des informations détaillées sur la création de règles dans [!DNL Adobe Experience Platform] documentation [Collecte de données](https://experienceleague.adobe.com/fr/docs/experience-platform/collection/e2e#create-a-rule){target="_blank"}
 
    2. Dans la section **[!UICONTROL SI]** de la règle, ajoutez un événement configuré comme ci-dessous :
 
@@ -118,11 +118,11 @@ Dans cette section, vous pouvez définir vos différents paramètres régionaux 
 
       * Cliquez sur le bouton **[!UICONTROL Conserver les modifications]** pour confirmer et enregistrer votre règle.
 
-+++
+   +++
 
 1. Faites glisser les paramètres régionaux pour les réorganiser et gérer leur priorité dans la liste.
 
-1. Pour supprimer un paramètre régional, cliquez sur l’icône de corbeille.
+1. Pour supprimer des paramètres régionaux, cliquez sur l’icône de la corbeille.
 
    ![](assets/multilingual-settings-5.png)
 
@@ -159,7 +159,7 @@ Après avoir configuré votre contenu multilingue, vous pouvez concevoir votre c
 
    ![](assets/multilingual-campaign-3.png)
 
-1. Choisissez le paramètre régional souhaité dans le menu déroulant à appliquer au contenu créé existant.
+1. Choisissez les paramètres régionaux souhaités dans le menu déroulant à appliquer au contenu créé existant.
 
 1. Accédez aux paramètres avancés du menu **[!UICONTROL Paramètres régionaux]** et sélectionnez **[!UICONTROL Copier vers tous les paramètres régionaux]**.
 

@@ -7,7 +7,7 @@ role: User
 level: Beginner
 keywords: in-app, message, création, commencer
 source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '681'
 ht-degree: 100%
 
@@ -134,7 +134,7 @@ ht-degree: 100%
 
    * Vous pouvez créer une règle pour cibler plusieurs URL qui suivent le même motif.
 
-+++ Création d’une règle de correspondance de pages.
+     +++ Création d’une règle de correspondance de pages.
 
       1. Sélectionnez **[!UICONTROL Règle de correspondance des pages]** comme configuration de l’application et saisissez votre **[!UICONTROL URL de page]**.
 
@@ -151,7 +151,7 @@ ht-degree: 100%
 
       1. Enregistrez vos modifications. La règle s’affiche dans l’écran **[!UICONTROL Créer une campagne]**.
 
-+++
+     +++
 
 1. Envoyez votre configuration web in-app.
 

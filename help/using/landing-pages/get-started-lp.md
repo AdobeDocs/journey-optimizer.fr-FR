@@ -10,9 +10,9 @@ level: Beginner
 keywords: destination, page de destination, commencer, prise en main
 exl-id: 0da96e32-52ad-4cc3-bac4-844b1f39ed16
 source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
-workflow-type: ht
-source-wordcount: '209'
-ht-degree: 100%
+workflow-type: tm+mt
+source-wordcount: '208'
+ht-degree: 94%
 
 ---
 
@@ -22,7 +22,7 @@ Une page de destination est une page web autonome sur laquelle l’utilisateur a
 
 [!DNL Journey Optimizer] vous permet de créer et de concevoir des pages de destination afin de diriger vos utilisateurs ou utilisatrices vers des formulaires en ligne, à partir desquels ils ou elles pourront donner leur opt-in ou opt-out pour lʼenvoi de vos communications, ainsi que s’abonner à un service spécifique, par exemple une newsletter.
 
-➡️ [Découvrez la configuration des abonnements et la création de pages de destination dans cette vidéo.](#video)
+➡️ [Pour en savoir plus sur la configuration des abonnements et la création de pages de destination, consultez cette vidéo](#video)
 
 * Tirez parti des fonctionnalités de conception de contenu de [!DNL Journey Optimizer] et créez en toute facilité des **pages de destination dynamiques**.
 * Configurez les **flux dʼopt-in et d&#39;opt-out** rapidement et sans effort.
@@ -71,4 +71,4 @@ Une page de destination est une page web autonome sur laquelle l’utilisateur a
 
 La vidéo ci-dessous montre comment créer une liste d’abonnements et configurer des pages de destination dans le but de proposer des abonnements ou des désabonnements à partir d’un service, intégrer l’option d’abonnement ou de désabonnement à un message et configurer les parcours pertinents.
 
->[!VIDEO](https://video.tv.adobe.com/v/344398?quality=12&learn=on&captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/341280?quality=12&learn=on)

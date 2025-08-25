@@ -10,7 +10,7 @@ level: Intermediate
 keywords: css, éditeur, résumé, e-mail
 exl-id: e4645bc7-fb99-4fcc-8d0e-bf8b9efc828e
 source-git-commit: 5593758448216efcc82971b1072b7fc8c9303572
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '733'
 ht-degree: 100%
 
@@ -174,7 +174,7 @@ body {
 
 Votre CSS personnalisé est ajouté à la fin de la section `<head>` dans le cadre d’une balise `<style>` avec l’attribut `data-name="global-custom"`, comme dans l’exemple ci-dessous. Cela permet de s’assurer que les styles personnalisés sont appliqués globalement au contenu.
 
-+++ Voir l’exemple
++++ Voir l’exemple 
 
 ```html
 <!DOCTYPE html>
@@ -235,13 +235,13 @@ Si votre CSS personnalisé n’est pas appliqué, consultez les options ci-desso
 
 * Vérifiez si l’attribut `data-disabled` de la balise de style `global-custom` est défini sur `true`. Si c’est le cas, le CSS personnalisé n’est pas appliqué.
 
-+++ Par exemple :
+  +++ Par exemple :
 
   ```html
   <style data-name="global-custom" type="text/css" data-disabled="true"> body: { color: red; } </style>
   ```
 
-+++
+  +++
 
 * Vérifiez que votre CSS n’est pas remplacé par d’autres règles CSS, ce qui inclut tout [thème](apply-email-themes.md) appliqué à votre contenu.
 
@@ -249,7 +249,7 @@ Si votre CSS personnalisé n’est pas appliqué, consultez les options ci-desso
 
    * Pensez à ajouter `!important` à vos déclarations pour vous assurer qu’elles sont prioritaires.
 
-+++ Par exemple :
+     +++ Par exemple :
 
      ```css
      .acr-Form {
@@ -257,4 +257,4 @@ Si votre CSS personnalisé n’est pas appliqué, consultez les options ci-desso
      }
      ```
 
-+++
+     +++

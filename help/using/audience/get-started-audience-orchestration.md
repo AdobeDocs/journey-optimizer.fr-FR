@@ -114,7 +114,7 @@ Une fois cette opération terminée, les **audiences obtenues** sont enregistré
 >
 >* Les attributs d’enrichissement ne sont pas encore intégrés au service d’application des politiques. Par conséquent, les libellés d’utilisation des données que vous appliquez à vos attributs d’enrichissement ne sont pas implémentés dans les campagnes et les parcours Journey Optimizer.
 
-La composition de l’audience est accessible à partir du menu **[!UICONTROL Audiences]** d’Adobe Journey Optimizer :
+La composition d’audiences est accessible à partir du menu **[!UICONTROL Audiences]** d’Adobe Journey Optimizer :
 
 ![](assets/audiences-browse.png)
 
@@ -179,4 +179,4 @@ Les compositions peuvent avoir plusieurs statuts :
 
 >[!NOTE]
 >
->La composition de l’audience n’est actuellement pas intégrée à la fonctionnalité de réinitialisation des sandbox. Avant de réinitialiser un sandbox, vous devez supprimer vos compositions manuellement pour vous assurer que les données d’audience associées sont correctement nettoyées. Des informations détaillées sont disponibles dans la [documentation sur les sandbox](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/user-guide.html?lang=fr#delete-audience-compositions) d’Adobe Experience Platform.
+>La composition d’audiences n’est actuellement pas intégrée à la fonctionnalité de réinitialisation des sandbox. Avant de réinitialiser un sandbox, vous devez supprimer vos compositions manuellement pour vous assurer que les données d’audience associées sont correctement nettoyées. Des informations détaillées sont disponibles dans la [documentation sur les sandbox](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/user-guide.html?lang=fr#delete-audience-compositions) d’Adobe Experience Platform.

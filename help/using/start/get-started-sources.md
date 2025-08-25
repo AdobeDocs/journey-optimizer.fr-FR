@@ -10,7 +10,7 @@ exl-id: 359ea3c6-7746-469e-8a24-624f9726f2d8
 source-git-commit: d4ecfecdc74c26890658d68d352c36b75f7c9039
 workflow-type: tm+mt
 source-wordcount: '104'
-ht-degree: 100%
+ht-degree: 83%
 
 ---
 
@@ -22,6 +22,6 @@ Adobe Journey Optimizer permet d’ingérer des données à partir de sources 
 
 Découvrez les connecteurs source et comment les configurer dans Journey Optimizer grâce à cette vidéo :
 
->[!VIDEO](https://video.tv.adobe.com/v/3422583?quality=12&captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/335919?quality=12)
 
-Découvrez comment ingérer des données provenant de sources externes avec des connecteurs source dans la [documentation Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/sources/home.html?lang=fr){target="_blank"}.
+Découvrez comment ingérer des données provenant de sources externes avec les connecteurs Source dans la documentation de [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/sources/home.html?lang=fr){target="_blank"}.

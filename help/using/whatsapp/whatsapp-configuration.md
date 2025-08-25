@@ -8,7 +8,7 @@ role: Admin
 level: Intermediate
 exl-id: d1f40cd8-f311-4df6-b401-8858095cef3e
 source-git-commit: 31e25c511d8873e54c7b92e65511108a77f84941
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '823'
 ht-degree: 100%
 
@@ -180,6 +180,6 @@ La vidéo ci-dessous montre comment configurer le canal WhatsApp dans Adobe Jou
 
 +++ Regarder la vidéo
 
->[!VIDEO](https://video.tv.adobe.com/v/3470270/?learn=on&captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/3470268/?learn=on)
 
 +++

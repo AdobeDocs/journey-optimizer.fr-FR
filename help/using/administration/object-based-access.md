@@ -73,11 +73,11 @@ Vous pouvez également créer des **[!UICONTROL libellés]** directement dans Jo
 
    ![Champs de configuration d’une étiquette](assets/olac_3.png)
 
-1. Cliquez sur **[!UICONTROL Créer]** pour enregistrer votre **[!UICONTROL Étiquette]**.
+1. Cliquez sur **[!UICONTROL Créer]** pour enregistrer votre **[!UICONTROL Libellé]**.
 
-Votre nouvelle **[!UICONTROL Étiquette]** est désormais disponible dans la liste. Si nécessaire, vous pouvez la modifier dans le produit [!DNL Permissions].
+Votre nouveau **[!UICONTROL Libellé]** est désormais disponible dans la liste. Si nécessaire, vous pouvez la modifier dans le produit [!DNL Permissions].
 
-## Attribuer des étiquettes {#assign-labels}
+## Attribuer des libellés {#assign-labels}
 
 Pour attribuer des étiquettes d’utilisation des données personnalisées ou de base à vos objets Journey Optimizer, procédez comme suit :
 
@@ -85,13 +85,13 @@ Pour attribuer des étiquettes d’utilisation des données personnalisées ou d
 
    ![Bouton Gérer l’accès dans Adobe Journey Optimizer](assets/olac_1.png)
 
-1. Dans la fenêtre **[!UICONTROL Gérer l’accès]**, sélectionnez votre ou vos étiquettes d’utilisation des données de base ou personnalisées pour gérer l’accès à cet objet.
+1. Dans la fenêtre **[!UICONTROL Gérer l’accès]**, sélectionnez votre ou vos libellés d’utilisation des données de base ou personnalisés pour gérer l’accès à cet objet.
 
-   Pour plus d’informations sur les étiquettes d’utilisation des données de base, reportez-vous à [cette page](https://experienceleague.adobe.com/docs/experience-platform/data-governance/labels/reference.html?lang=fr){target="_blank"}.
+   Pour plus d’informations sur les libellés d’utilisation des données de base, reportez-vous à [cette page](https://experienceleague.adobe.com/docs/experience-platform/data-governance/labels/reference.html?lang=fr){target="_blank"}.
 
    ![](assets/olac_4.png)
 
-1. Cliquez sur **[!UICONTROL Enregistrer]** pour appliquer cette restriction d’étiquette.
+1. Cliquez sur **[!UICONTROL Enregistrer]** pour appliquer cette restriction de libellé.
 
 Pour accéder à cet objet, les utilisateurs et les utilisatrices doivent disposer de l’**[!UICONTROL étiquette]** spécifique dans leur **[!UICONTROL rôle]**. Par exemple, un utilisateur ou une utilisatrice avec l’étiquette C1 n’aura accès qu’aux objets avec l’étiquette C1 ou sans étiquette.
 

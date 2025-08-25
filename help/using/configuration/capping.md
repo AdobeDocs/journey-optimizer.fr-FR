@@ -1,23 +1,23 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: API de plafonnement
-description: Découvrez comment utiliser l’API de plafonnement
+title: API Capping
+description: Découvrez comment utiliser l’API Capping
 feature: Journeys, API
 role: User
 level: Beginner
-keywords: externe, API, optimizer, plafonnement
+keywords: externe, API, optimizer, limitation
 exl-id: 377b2659-d26a-47c2-8967-28870bddf5c5
 source-git-commit: 9f801b1fdcab38bffff851675eca5e2fb61dfbf9
-workflow-type: ht
-source-wordcount: '736'
-ht-degree: 100%
+workflow-type: tm+mt
+source-wordcount: '735'
+ht-degree: 93%
 
 ---
 
-# Utiliser l’API de plafonnement {#work}
+# Utiliser l’API Capping {#work}
 
-L’API de plafonnement vous permet de créer, configurer et surveiller vos configurations de plafonnement.
+L’API Capping vous permet de créer, configurer et surveiller vos configurations de limitation.
 
 Cette section fournit des informations générales sur l’utilisation de l’API. Consultez la description détaillée de l’API dans la [Documentation des API Adobe Journey Optimizer](https://developer.adobe.com/journey-optimizer-apis/).
 
@@ -112,7 +112,7 @@ Les erreurs potentielles sont les suivantes :
 
 * **ERR_ENDPOINTCONFIG_100**: capping config: missing or invalid url
 * **ERR_ENDPOINTCONFIG_101**: capping config: malformed url
-* **ERR_ENDPOINTCONFIG_102**: capping config: malformed url: wildchar in url not allowed in host:port
+* **ERR_ENDPOINTCONFIG_102** : configuration de limitation : URL incorrecte : caractère générique dans l’URL non autorisé dans l’hôte:port
 * **ERR_ENDPOINTCONFIG_103**: capping config: missing HTTP methods
 * **ERR_ENDPOINTCONFIG_104**: capping config: no call rating defined
 * **ERR_ENDPOINTCONFIG_107**: capping config: invalid max calls count (maxCallsCount)
@@ -142,7 +142,7 @@ Appels API à utiliser :
 
 +++
 
-+++Mettre à jour et déployer une configuration de limitation (pas encore déployée)
++++Mise à jour et déploiement d’une configuration de limitation (pas encore déployée)
 
 Appels API à utiliser :
 
@@ -154,7 +154,7 @@ Appels API à utiliser :
 
 +++
 
-+++Annuler le déploiement et supprimer une configuration de throttling déployée
++++Annulation du déploiement et suppression d’une configuration de limitation déployée
 
 Appels API à utiliser :
 
@@ -175,7 +175,7 @@ Appels API à utiliser :
 
 +++
 
-+++Mettre à jour une configuration de limitation déployée
++++Mettre à jour une configuration de limitation déjà déployée
 
 >[!NOTE]
 >

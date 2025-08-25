@@ -7,9 +7,9 @@ role: Developer
 level: Experienced
 exl-id: f9477611-b792-4b28-8ec2-6bbea2fa3328
 source-git-commit: 57686b9684f9233c81bd46b67d12ec5f1e3544c5
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '378'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
@@ -78,7 +78,7 @@ Dans une requête Konductor, vous pouvez transmettre l’indicateur de déduplic
 }
 ```
 
-+++Exemple de requête de décision
++++Exemple de requête de prise de décision
 
 ```
 curl --location 'https://edge-int.adobedc.net/ee/v1/interact?configId=2f21d344-b69f-4a4f-98e8-000282fc9552' \
@@ -137,7 +137,7 @@ Supposons que vous ayez la même politique de décision avec l’emplacement de 
 
       * L’élément de décision de secours (également unique) ou un élément de décision vide est transmis pour la deuxième proposition.
 
-+++Exemple de réponse de décision (`allowDuplicateDecisionItems` = `true`)
++++Exemple de réponse Decisioning (`allowDuplicateDecisionItems` = `true`)
 
 ```
 {
@@ -213,7 +213,7 @@ Supposons que vous ayez la même politique de décision avec l’emplacement de 
 
 +++
 
-+++Exemple de réponse de décision (`allowDuplicateDecisionItems` = `false`)
++++Exemple de réponse Decisioning (`allowDuplicateDecisionItems` = `false`)
 
 ```
 {

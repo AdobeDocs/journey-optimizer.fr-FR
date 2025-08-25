@@ -10,14 +10,15 @@ level: Beginner
 keywords: intégration
 hide: true
 hidefromtoc: true
-source-git-commit: e8512ddab2548c8b2156331c335632cde8686f80
+exl-id: 104f283e-f6a5-431b-919a-d97b83d19632
+source-git-commit: ad5fdefed71d75470dc243310e74372e0b08ba2a
 workflow-type: tm+mt
 source-wordcount: '569'
 ht-degree: 1%
 
 ---
 
-# Utilisation des intégrations {#external-sources}
+# Utiliser des intégrations {#external-sources}
 
 ## Vue d’ensemble
 
@@ -131,7 +132,3 @@ En tant que spécialiste marketing, vous pouvez utiliser des intégrations confi
 Votre personnalisation d’intégration est maintenant appliquée avec succès à votre contenu, en veillant à ce que chaque destinataire reçoive une expérience adaptée et pertinente en fonction des attributs que vous avez configurés.
 
 ![](assets/external-integration-content-7.png)
-
-
-
-

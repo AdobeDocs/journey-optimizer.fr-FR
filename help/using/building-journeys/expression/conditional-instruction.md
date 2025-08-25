@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Instruction conditionnelle (if, then, else)
+title: Instruction conditionnelle (if, then, else/si, alors, sinon)
 description: En savoir plus sur l’instruction conditionnelle
 feature: Journeys
 role: Data Engineer, Architect
@@ -15,7 +15,7 @@ ht-degree: 100%
 
 ---
 
-# Instruction conditionnelle (if, then, else) {#conditional-instruction}
+# Instruction conditionnelle (if, then, else/si, alors, sinon) {#conditional-instruction}
 
 L’instruction conditionnelle (if, then, else) est prise en charge dans l’éditeur avancé. Elle permet de définir des expressions plus complexes. Elle se compose des éléments suivants :
 

@@ -10,8 +10,8 @@ level: Experienced
 exl-id: 29d6b881-35a3-4c62-9e7d-d0aeb206ea77
 source-git-commit: 47482adb84e05fe41eb1c50479a8b50e00469ec4
 workflow-type: tm+mt
-source-wordcount: '521'
-ht-degree: 100%
+source-wordcount: '520'
+ht-degree: 93%
 
 ---
 
@@ -63,12 +63,12 @@ Les listes des champs XDM transmis à Adobe Experience Platform sont détaill�
 
 ## Intégration à Customer Journey Analytics {#integration-cja}
 
-Les événements d’étape [!DNL Journey Optimizer] peuvent être liés à d’autres jeux de données dans [Adobe Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html?lang=fr){target="_blank"}.
+[!DNL Journey Optimizer] événements d’étape peuvent être liés à d’autres jeux de données dans [Adobe Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html?lang=fr){target="_blank"}.
 
 Le workflow général est le suivant :
 
 * [!DNL Customer Journey Analytics] ingère le jeu de données « Événement d&#39;étape du parcours ».
 * Le champ **profileID** dans le « schéma d&#39;événement d&#39;étape du parcours pour Journey Orchestration » associé est défini comme un champ d&#39;identité. Dans [!DNL Customer Journey Analytics], vous pouvez ensuite lier ce jeu de données à tout autre jeu de données ayant la même valeur que l&#39;identifiant basé sur la personne.
-* Pour utiliser ce jeu de données dans [!DNL Customer Journey Analytics], pour l&#39;analyse des parcours cross-canal, reportez-vous à la section [Documentation Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/cross-channel.html?lang=fr){target="_blank"}.
+* Pour utiliser ce jeu de données dans [!DNL Customer Journey Analytics], pour une analyse de parcours cross-canal, consultez la documentation de [Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/cross-channel.html?lang=fr){target="_blank"}.
 
-➡️ [Utiliser Customer Journey Analytics](cja-ajo.md){target="_blank"}
+➡️ [Utilisation de Customer Journey Analytics](cja-ajo.md){target="_blank"}

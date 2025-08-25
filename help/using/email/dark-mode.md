@@ -13,7 +13,7 @@ hide: true
 hidefromtoc: true
 exl-id: 27442cb0-5027-4d9c-9d3c-9ec33af7c9ff
 source-git-commit: 23684c906d11c7f54eb28cac7c2697964e723a2e
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1677'
 ht-degree: 100%
 
@@ -38,7 +38,7 @@ ht-degree: 100%
 
 >[!AVAILABILITY]
 >
->Cette fonctionnalité est actuellement en version Beta et disponible uniquement pour les clientes et clients Beta. Pour rejoindre le programme bêta, contactez votre représentant ou représentante Adobe.
+>Cette fonctionnalité est actuellement en version Beta et disponible uniquement pour les clientes et clients Beta. Pour rejoindre le programme Beta, contactez votre représentant ou représentante Adobe.
 
 Lorsque vous concevez vos e-mails, le [Concepteur d’e-mail](get-started-email-design.md) [!DNL Journey Optimizer] vous permet de passer en **[!UICONTROL mode sombre]**, dans lequel vous pouvez définir des paramètres personnalisés spécifiques. Lorsque le mode sombre est activé, les clients de messagerie pris en charge affichent les paramètres que vous avez définis pour ce mode.
 

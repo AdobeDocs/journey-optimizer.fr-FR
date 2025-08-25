@@ -9,8 +9,8 @@ keyword: direct, mail, configuration, direct-mail, provider
 exl-id: ae5cc885-ade1-4683-b97e-eda1f2142041
 source-git-commit: 2f7c620a712cfc104418bc985bd74e81da12147c
 workflow-type: tm+mt
-source-wordcount: '1365'
-ht-degree: 100%
+source-wordcount: '1364'
+ht-degree: 98%
 
 ---
 
@@ -89,7 +89,7 @@ Pour configurer le routage des fichiers, suivez les étapes ci-dessous.
 
 Si vous avez sélectionné **[!UICONTROL Amazon S3]** en tant que **[!UICONTROL type de serveur]**, renseignez les détails et les informations d’identification de votre serveur :
 
-* **Nom du compartiment AWS** : pour savoir où trouver votre nom du compartiment AWS, consultez [cette page](https://docs.aws.amazon.com/AmazonS3/latest/userguide/UsingBucket.html).
+* **nom du compartiment AWS**:To pour savoir où trouver votre nom de compartiment AWS, reportez-vous à [cette page](https://docs.aws.amazon.com/AmazonS3/latest/userguide/UsingBucket.html).
 
 * **Clé d’accès AWS** : pour savoir où trouver votre ID de la clé d’accès AWS, consultez [cette page](https://docs.aws.amazon.com/IAM/latest/UserGuide/security-creds.html#access-keys-and-secret-access-keys).
 

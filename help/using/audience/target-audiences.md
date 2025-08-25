@@ -9,7 +9,7 @@ role: User
 level: Beginner
 exl-id: 78b95ccd-bc28-46cd-937a-f68e3f34cc1e
 source-git-commit: 1ad534b7877f0ac6c1f50e29f41af708e83b34c9
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '636'
 ht-degree: 100%
 
@@ -51,7 +51,7 @@ Vous pouvez utiliser les audiences dans **[!DNL Journey Optimizer]** de différe
 
   >[!NOTE]
   >
-  >Tout parcours qui utilise une audience provenant de la composition d’audience ou du chargement personnalisé dans l’activité « Lecture d’audience » disposera d’attributs de profil aussi récents que la dernière évaluation par lots. Cela inclut le consentement/les suppressions dans le parcours.
+  >Tout parcours qui utilise une audience provenant de la composition d’audiences ou du chargement personnalisé dans l’activité « Lecture d’audience » disposera d’attributs de profil aussi récents que la dernière évaluation par lots. Cela inclut le consentement/les suppressions dans le parcours.
 
 * Utilisez l’activité **Condition** dans un parcours afin de créer des conditions basées sur l’appartenance à une audience. [Découvrez comment utiliser des audiences dans des conditions](../building-journeys/condition-activity.md#using-a-segment).
 

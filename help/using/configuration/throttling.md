@@ -6,12 +6,12 @@ description: Découvrez comment utiliser l’API de limitation.
 feature: Journeys, API
 role: User
 level: Beginner
-keywords: externe, API, optimizer, plafonnement
+keywords: externe, API, optimizer, limitation
 exl-id: b837145b-1727-43c0-a0e2-bf0e8a35347c
 source-git-commit: 60cb5e1ba2b5c8cfd0a306a589c85761be1cf657
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1025'
-ht-degree: 100%
+ht-degree: 96%
 
 ---
 
@@ -110,7 +110,7 @@ Lors de la création, de la suppression ou du déploiement d’une configuration
 * **THROTTLING_CONFIG_DEPLOY_ERROR: 1458** - « Impossible de déployer la configuration de limitation en raison d’une erreur inattendue. »
 * **THROTTLING_CONFIG_UNDEPLOY_ERROR: 1459** - « Impossible d’annuler le déploiement de la configuration de limitation en raison d’une erreur inattendue. »
 * **THROTTLING_CONFIG_GET_ERROR: 1460** - « Impossible d’obtenir la configuration de limitation en raison d’une erreur inattendue. »
-* **THROTTLING_CONFIG_UPDATE_NOT_ACTIVE_ERROR: 1461** - « Impossible de mettre à jour la configuration de limitation : la version d’exécution n’est pas active. »
+* **THROTTLING_CONFIG_UPDATE_NOT_ACTIVE_ERROR: 1461**, - « Impossible de mettre à jour la configuration de limitation : la version d’exécution n’est pas active. »
 * **THROTTLING_CONFIG_UPDATE_ERROR: 1462** - « Impossible de mettre à jour la configuration de limitation en raison d’une erreur inattendue. »
 * **THROTTLING_CONFIG_NON_PROD_SANDBOX_ERROR: 1463** - « Opération non autorisée sur la configuration de limitation : il ne s’agit pas d’une sandbox de production. »
 * **THROTTLING_CONFIG_CREATE_ERROR: 1464** - « Impossible de créer la configuration de limitation en raison d’une erreur inattendue. »
@@ -321,7 +321,7 @@ Appels API à utiliser :
 
 +++
 
-+++Mettre à jour et déployer une configuration de throttling (pas encore déployée)
++++Mise à jour et déploiement d’une configuration de limitation (pas encore déployée)
 
 Appels API à utiliser :
 
@@ -333,7 +333,7 @@ Appels API à utiliser :
 
 +++
 
-+++Annuler le déploiement et supprimer une configuration de limitation déployée
++++Annulez le déploiement et supprimez une configuration de limitation déployée
 
 Appels API à utiliser :
 
@@ -354,7 +354,7 @@ Appels API à utiliser :
 
 +++
 
-+++Mettre à jour une configuration de throttling déployée
++++Mettez à jour une configuration de limitation déjà déployée
 
 >[!NOTE]
 >

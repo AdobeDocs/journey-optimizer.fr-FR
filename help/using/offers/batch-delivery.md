@@ -7,7 +7,7 @@ role: User
 level: Intermediate
 exl-id: 810c05b3-2bae-4368-bf12-3ea8c2f31c01
 source-git-commit: 87f3da0a1d73f9aa26c7420d260778286bacdf0c
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '842'
 ht-degree: 100%
 
@@ -29,7 +29,7 @@ Avant de configurer une demande de traitement, assurez-vous d’avoir créé :
 
 * **Un jeu de données** dans Adobe Experience Platform. Ce jeu de données sera utilisé pour stocker le résultat de la décision à l’aide du schéma « ODE DecisionEvents ». Pour en savoir plus, consultez la [documentation relative aux jeux de données](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/overview.html?lang=fr).
 
-* **Une audience** dans Adobe Experience Platform. L’audience doit être évaluée, puis mise à jour. Découvrez comment mettre à jour l’évaluation de l’appartenance à l’audience dans la [documentation relative au service de segmentation](https://www.adobe.com/go/segmentation-overview-en_fr).
+* **Une audience** dans Adobe Experience Platform. L’audience doit être évaluée, puis mise à jour. Découvrez comment mettre à jour l’évaluation de l’appartenance à une audience dans la [documentation relative au service de segmentation](https://www.adobe.com/go/segmentation-overview-en_fr).
 
   >[!NOTE]
   >

@@ -9,8 +9,8 @@ keywords: setHours, fonction, expression, parcours
 exl-id: ed78c2a9-d83a-4fac-a2e9-7383da131a1f
 source-git-commit: 4e7c4e7e6fcf488f572ccf3e9037e597dde06510
 workflow-type: tm+mt
-source-wordcount: '108'
-ht-degree: 100%
+source-wordcount: '109'
+ht-degree: 71%
 
 ---
 
@@ -52,4 +52,4 @@ Renvoie 2023-12-12T04:11:00Z.
 
 `setHours(nowWithDelta(1, "days"), 20)`
 
-Renvoie demain à 20 h XY, XY représentant le nombre de minutes au moment de lʼévaluation de lʼheure en cours. Si lʼévaluation se produit à 2 h 45, lʼheure renvoyée sera 20 h 45.
+Retourne demain à 20h:XY, XY étant le procès-verbal au moment de l&#39;évaluation de l&#39;heure actuelle. Si l’évaluation a lieu à 2:45 h, l’heure renvoyée sera 20 :45.

@@ -1,6 +1,6 @@
 ---
 title: Créer une offre personnalisée
-description: Une offre personnalisée est un message marketing personnalisable basé sur des règles et des contraintes d’éligibilité.
+description: Une offre personnalisée est un message marketing personnalisable basé sur des contraintes et des règles d’éligibilité.
 feature: Decision Management, API
 topic: Integrations
 role: Data Engineer
@@ -15,7 +15,7 @@ ht-degree: 100%
 
 # Créer une offre personnalisée {#create-personalized-offer}
 
-Une offre personnalisée est un message marketing personnalisable basé sur des règles et des contraintes d’éligibilité.
+Une offre personnalisée est un message marketing personnalisable basé sur des contraintes et des règles d’éligibilité.
 
 Vous pouvez créer une offre personnalisée en adressant une requête POST à l’API [!DNL Offer Library], tout en fournissant votre identifiant de conteneur.
 

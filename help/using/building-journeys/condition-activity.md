@@ -10,9 +10,9 @@ level: Intermediate
 keywords: activité, condition, zone de travail, parcours
 exl-id: 496c7666-a133-4aeb-be8e-c37b3b9bf5f9
 source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1542'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -98,7 +98,7 @@ Utilisez une **[!UICONTROL Condition de temps]** pour effectuer des actions diff
 >
 >* Le fuseau horaire n’est plus spécifique à une condition et est désormais défini au niveau du parcours dans les propriétés de celui-ci. En savoir plus sur [cette page](../building-journeys/timezone-management.md).
 >
->* Par défaut, la **[!UICONTROL Condition de temps]** est définie par heure, de 00:00 à 12:00.
+>* Par défaut, la **[!UICONTROL condition de temps]** est définie par heure, de 00:00 à 12:00.
 
 ![](assets/journey51.png)
 

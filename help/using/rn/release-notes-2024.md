@@ -9,7 +9,7 @@ role: User
 level: Beginner, Intermediate
 exl-id: bae533c5-1bfc-48bf-9f8d-1145383c040c
 source-git-commit: 4d7ad2c3ed71801298f1afe31d0e29d7bb1d5c7f
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '6783'
 ht-degree: 100%
 
@@ -238,14 +238,14 @@ Auparavant disponibles pour un ensemble d’organisations (disponibilité limit�
 <table>
 <thead>
 <tr>
-<th><strong>Tester votre contenu à l’aide d’exemples de données d’entrée (version bêta)</strong><br/></th>
+<th><strong>Tester votre contenu à l’aide d’exemples de données d’entrée (Beta)</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
 <p>Désormais, Journey Optimizer vous permet de tester différentes variantes de votre contenu en le prévisualisant et en envoyant des BAT par e-mail à l’aide d’exemples de données d’entrée chargées à partir d’un fichier ou ajoutées manuellement. Tous les attributs de profil utilisés dans votre contenu pour la personnalisation sont automatiquement détectés par le système et peuvent être utilisés pour vos tests afin de créer plusieurs variantes.</p>
-<p>Cette fonctionnalité est actuellement disponible pour tous les clientes et clients en version bêta publique, pour les canaux E-mail, SMS et Notification Push.</p>
+<p>Cette fonctionnalité est actuellement disponible pour l’ensemble des clientes et clients en version Beta publique, pour les canaux E-mail, SMS et Notification Push.</p>
 <p>Pour plus d’informations, consultez la <a href="../test-approve/simulate-sample-input.md">documentation détaillée</a>.</p>
 <img src="assets/do-not-localize/gif-simulate.gif">
 </td>
@@ -257,14 +257,14 @@ Auparavant disponibles pour un ensemble d’organisations (disponibilité limit�
 <table>
 <thead>
 <tr>
-<th><strong>Utiliser les données Adobe Experience Platform pour la personnalisation (version bêta)</strong><br/></th>
+<th><strong>Utiliser les données Adobe Experience Platform pour la personnalisation (Beta)</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
 <p>Exploitez les données d’Adobe Experience Platform dans l’éditeur de personnalisation pour personnaliser votre contenu. Pour ce faire, les jeux de données nécessaires à la personnalisation de la recherche doivent d’abord être activés par le biais d’un appel API. Une fois que vous avez terminé, vous pouvez utiliser leurs données pour personnaliser votre contenu dans [!DNL Journey Optimizer].</p>
-<p>Cette fonctionnalité est actuellement disponible en version bêta publique pour l’ensemble des clientes et clients.</p>
+<p>Cette fonctionnalité est actuellement disponible en version Beta publique pour l’ensemble des clientes et clients.</p>
 <p>Pour plus d’informations, consultez la <a href="../personalization/aep-data-perso.md">documentation détaillée</a>.</p>
 </td>
 </tr>
@@ -663,7 +663,7 @@ Cette version apporte les nouvelles fonctionnalités répertoriées ci-dessous.
 <table>
 <thead>
 <tr>
-<th><strong>Canal SMS avec n’importe quel fournisseur (version bêta)</strong><br/></th>
+<th><strong>Canal SMS avec n’importe quel fournisseur (Beta)</strong><br/></th>
 </tr>
 </thead>
 <tbody>
@@ -979,7 +979,7 @@ Cette version est fournie avec les améliorations répertoriées ci-dessous.
 
 **Décisions pour les expériences** (Disponibilité limitée)
 
-De la version bêta à cette version, les améliorations suivantes ont été ajoutées :
+De la version Beta à cette version, les améliorations suivantes ont été ajoutées :
 
 * **Décisions pour les expériences + expériences basées sur le code** : vous pouvez désormais tirer profit de la fonctionnalité de prise de décision basée sur l’expérience pour utiliser des éléments de décision dans vos campagnes basées sur du code. Note : le canal Expérience basée sur le code et les décisions pour les expériences ne sont pas disponibles pour les organisations qui ont acheté les offres complémentaires Healthcare Shield et Privacy and Security Shield d’Adobe. [En savoir plus](../code-based/get-started-code-based.md)
 * **Données contextuelles** : vous pouvez désormais exploiter les données contextuelles d’Adobe Experience Platform dans vos règles de décision et formules de classement. [En savoir plus](../experience-decisioning/context-data.md)
@@ -1000,11 +1000,11 @@ De la version bêta à cette version, les améliorations suivantes ont été ajo
 * **List-unsubscribe** - Following on the recent Gmail and Yahoo announcements for bulk senders, Journey Optimizer supports the "post/1-click" List-Unsubscribe option. Refer to the following pages: [Email opt-out management](../email/email-opt-out.md#unsubscribe-header) and [Configure email settings](../email/email-settings.md#list-unsubscribe)
 -->
 
-* **Notation de spam** (version bêta) : vous pouvez désormais vérifier la notation de spam de votre contenu dans un rapport de spam dédié. Grâce à SpamAssassin, Adobe Journey Optimizer peut désormais tester le contenu de vos e-mails et lui attribuer un score pour indiquer si les FAI ou les fournisseurs de messagerie le considèrent comme un spam ou non. [En savoir plus](../content-management/spam-report.md)
+* **Notation de spam** (Beta) : vous pouvez désormais vérifier la notation de spam de votre contenu dans un rapport de spam dédié. Grâce à SpamAssassin, Adobe Journey Optimizer peut désormais tester le contenu de vos e-mails et lui attribuer un score pour indiquer si les FAI ou les fournisseurs de messagerie le considèrent comme un spam ou non. [En savoir plus](../content-management/spam-report.md)
 
   >[!AVAILABILITY]
   >
-  >Cette fonctionnalité est actuellement en version Beta et disponible uniquement pour les clientes et clients Beta. Pour rejoindre le programme bêta, contactez votre représentant ou représentante Adobe.
+  >Cette fonctionnalité est actuellement en version Beta et disponible uniquement pour les clientes et clients Beta. Pour rejoindre le programme Beta, contactez votre représentant ou représentante Adobe.
 
 <!--
 **Audiences**
@@ -1238,7 +1238,7 @@ Cette version est fournie avec les améliorations répertoriées ci-dessous.
 
 * **Listes de contrôle** : les variantes sont désormais prises en charge lors de l’utilisation de **listes de contrôle**. Les adresses de contrôle reçoivent une copie de toutes les variantes du même message (telles que les différents traitements d’une expérience de contenu). [En savoir plus](../configuration/seed-lists.md)
 
-Antérieurement disponibles en version bêta, les améliorations suivantes sont désormais disponibles pour tous les utilisateurs et utilisatrices :
+Auparavant disponibles en version Beta, les améliorations suivantes sont désormais disponibles pour l’ensemble des utilisateurs et utilisatrices :
 
 * Vous pouvez désormais cibler les **audiences créées par le biais de la composition d’audiences** et utiliser les attributs d’enrichissement dans les parcours. [En savoir plus](../building-journeys/read-audience.md)
 

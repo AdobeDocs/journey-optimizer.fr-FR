@@ -44,6 +44,6 @@ Pour configurer l’activité **[!UICONTROL Rendez-vous]**, procédez comme suit
 
 ## Exemple{#and-join-example}
 
-Cet exemple illustre deux branches de campagne coordonnées, chacune disposant d’une diffusion e-mail, l’une ciblant les membres Gold et l’autre les membres Silver. Le **[!UICONTROL Rendez-vous]** s’active une fois les deux transitions entrantes déclenchées. Le SMS ne sera envoyé qu’une fois les deux diffusions par e-mail terminées, après un délai de 7 jours.
+Cet exemple illustre deux branches de campagne coordonnées, chacune disposant d’une diffusion par e-mail, l’une ciblant les membres Gold et l’autre les membres Silver. Le **[!UICONTROL Rendez-vous]** s’active une fois les deux transitions entrantes déclenchées. Le SMS ne sera envoyé qu’une fois les deux diffusions par e-mail terminées, après un délai de 7 jours.
 
 ![](../assets/workflow-andjoin-example.png){zoomable="yes"}

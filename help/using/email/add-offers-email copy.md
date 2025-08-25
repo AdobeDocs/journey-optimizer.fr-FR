@@ -10,7 +10,7 @@ level: Intermediate
 keywords: offres, décision, e-mails, personnalisation, décision
 exl-id: 1e648eca-b5ca-4767-b45d-c179243e347f
 source-git-commit: 29532b5ebd140f9609a29c1375ceedecf55d0dfb
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '621'
 ht-degree: 100%
 
@@ -103,4 +103,4 @@ En savoir plus sur les étapes détaillées permettant de vérifier l’aperçu 
 
 Découvrez comment ajouter un composant de gestion des décisions aux messages dans [!DNL Journey Optimizer].
 
->[!VIDEO](https://video.tv.adobe.com/v/3415688?quality=12&captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/334088?quality=12)

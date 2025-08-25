@@ -51,7 +51,7 @@ Dans la capture d’écran ci-dessous, vous pouvez voir l’interface utilisateu
 
 ## Amélioration de la conception de la zone de travail de parcours
 
-Avec le nouveau modèle de parcours, nous introduisons une interface utilisateur de zone de travail de parcours **&#x200B;**&#x200B;nouvelle et améliorée, qui s’intègre de manière transparente dans l’écosystème des solutions et applications Adobe Experience Cloud, pour une expérience utilisateur intuitive et efficace. Tout parcours du nouveau modèle sera sur cette nouvelle conception.
+Avec le nouveau modèle de parcours, nous introduisons une interface utilisateur de zone de travail de parcours **** nouvelle et améliorée, qui s’intègre de manière transparente dans l’écosystème des solutions et applications Adobe Experience Cloud, pour une expérience utilisateur intuitive et efficace. Tout parcours du nouveau modèle sera sur cette nouvelle conception.
 
 ![](assets/new-canvas3.gif)
 

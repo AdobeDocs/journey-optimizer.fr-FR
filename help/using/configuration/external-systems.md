@@ -9,7 +9,7 @@ level: Beginner
 keywords: externe, API, optimizer, limitation
 exl-id: 27859689-dc61-4f7a-b942-431cdf244455
 source-git-commit: 0a6db9c9537563fea5d56289d78b9ed49d703734
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1352'
 ht-degree: 100%
 
@@ -57,7 +57,7 @@ Supposons, par exemple, que vous ayez défini une règle de plafonnement ou de l
 
 Pour plus d’informations sur l’utilisation des API, reportez-vous aux sections suivantes :
 
-* [API de plafonnement](capping.md)
+* [API Capping](capping.md)
 * [API de limitation](throttling.md)
 
 Consultez la description détaillée des API dans la [Documentation des API Adobe Journey Optimizer](https://developer.adobe.com/journey-optimizer-apis/references/journeys/).

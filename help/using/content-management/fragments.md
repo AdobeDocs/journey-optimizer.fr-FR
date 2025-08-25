@@ -9,7 +9,7 @@ role: User
 level: Beginner, Intermediate
 exl-id: 7131a953-baca-4e7c-a8df-97c0bd6ac567
 source-git-commit: abd5f388a41cc85c710cdb8c8e51c7fe381714ad
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '325'
 ht-degree: 100%
 
@@ -64,4 +64,4 @@ Découvrez comment gérer, créer et utiliser des **fragments visuels** dans [!D
 
 Découvrez comment gérer, créer et utiliser des **fragments d’expression** dans [!DNL Journey Optimizer].
 
->[!VIDEO](https://video.tv.adobe.com/v/3438919/?quality=12&captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/3424587/?quality=12)

@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 exl-id: 6d4b7669-7852-42f0-9347-399a3994011f
 source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '542'
 ht-degree: 100%
 
@@ -98,7 +98,7 @@ Le tableau **[!UICONTROL URL des liens de suivi]** fournit une vue d’ensemble 
 
 ## Raisons de rebond {#bounce-reasons-push}
 
-Le tableau **[!UICONTROL Causes de rebonds]** fournit une vue d’ensemble complète des données relatives aux rebonds de notifications push, fournissant des informations précieuses sur les raisons spécifiques à l’origine des rebonds des notifications push.
+Le tableau **[!UICONTROL Causes des rebonds]** fournit une vue d’ensemble complète des données relatives aux rebonds de notifications push, fournissant des informations précieuses sur les causes précises des rebonds des notifications push.
 
 ## Raisons des erreurs {#error-reasons-push}
 

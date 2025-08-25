@@ -31,7 +31,7 @@ Liste
 | Paramètre | Type | Description |
 |-----------|------------------|------------------|
 | listToProcess | listString, listBoolean, listInteger, listDecimal, listDuration, listDateTime, listDateTimeOnly, listDateOnly | Liste à convertir en chaîne. |
-| separator | Chaîne | Séparateur entre chaque élément de liste dans la chaîne de sortie. |
+| séparateur | Chaîne | Séparateur entre chaque élément de liste dans la chaîne de sortie. |
 | addQuotes | Booléen | Ce paramètre indique si chaque élément de la chaîne de sortie doit inclure des guillemets (true) ou non (false). |
 
 ## Signature et type renvoyé

@@ -10,7 +10,7 @@ level: Experienced
 keywords: IP, groupe, sous-domaines, délivrabilité
 exl-id: 752ffd7f-09c2-4aa3-a067-2dbe0634709c
 source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '2635'
 ht-degree: 100%
 
@@ -92,14 +92,14 @@ At phase level, system ensures that previously targeted + new profiles are picke
 
    1. Dans la section **[!UICONTROL Parcours d’exclusion de profils]**, sélectionnez les parcours dont vous souhaitez exclure les audiences de la phase actuelle.
 
-+++ Pour utiliser l’option Parcours d’exclusion de profils, vous devez établir une relation entre les schémas Événement de retour de message AJO et Enregistrement d’entité AJO.
+      +++ Pour utiliser l’option Parcours d’exclusion de profils, vous devez établir une relation entre les schémas Événement de retour de message AJO et Enregistrement d’entité AJO.
 
       1. Créez un **espace de noms** qui servira de type d’identité pour les étapes ci-dessous.
 
       1. Accédez à Adobe Experience Platform à partir du menu **Schémas**, sélectionnez **Schéma d’enregistrement d’entité AJO** et définissez le champ **_id** comme identité principale, puis sélectionnez l’espace de noms créé précédemment comme **Espace de noms d’identité**.
 
       1. Dans le menu **Schémas**, sélectionnez **Schéma d’événement de retour de message AJO**, puis accédez au champ **_messageID**. Sélectionnez **Ajouter une relation** et choisissez **Schéma d’enregistrement d’entité AJO** en tant que **Schéma de référence** et votre espace de noms créé précédemment en tant qu’**Espace de noms d’identité de référence**.
-+++
+      +++
 
    1. Dans la section **[!UICONTROL Profils ciblés dans les exécutions précédentes]**, vous pouvez constater que les profils des exécutions précédentes de cette phase sont toujours exclus. Par exemple, si dans la première exécution un profil est couvert dans les 4 800 premières personnes ciblées, le système s’assure automatiquement que le même profil ne reçoit pas l’e-mail dans la deuxième exécution.
 
@@ -218,7 +218,7 @@ At phase level, system ensures that previously targeted + new profiles are picke
 
 Pour activer une exécution, sélectionnez le bouton **[!UICONTROL Activer]**. Vous pouvez ensuite activer les prochaines exécutions quotidiennement.
 
-Lors de l’exécution simultanée de plusieurs plans de préchauffage des adresses IP, ciblant tous les mêmes domaines et groupes d’adresses IP, il est essentiel d’anticiper les conséquences potentielles. Par exemple, si un FAI applique une limite quotidienne de 100 e-mails, l’exécution de plusieurs plans ciblant les mêmes domaines peut dépasser ce seuil.
+Lors de l’exécution simultanée de plusieurs plans de préchauffage des adresses IP, ciblant tous les mêmes domaines et groupes d’adresses IP, il est essentiel d’anticiper les conséquences potentielles. Par exemple, si un FAI applique une limite quotidienne de 100 e-mails, l’exécution de plusieurs plans ciblant les mêmes domaines peut dépasser ce seuil.
 
 Assurez-vous d’avoir prévu suffisamment de temps pour permettre l’exécution de l’[évaluation de l’audience](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=fr#how-segmentation-works){target="_blank"}.
 
@@ -258,9 +258,9 @@ Lorsque vous activez une exécution, plusieurs audiences sont automatiquement cr
 
      >[!NOTE]
      >
-     >Une nouvelle composition d’audiences est créée pour chaque exécution. Avec une limite de 10, les utilisateurs et utilisatrices qui exécutent simultanément plusieurs campagnes, parcours et plans de préchauffage des adresses IP à l’aide de compositions d’audiences publiées doivent prévoir de respecter cette limite pour les opérations parallèles.
+     >Une nouvelle composition d’audiences est créée pour chaque exécution. Avec une limite de 10, les utilisateurs et utilisatrices qui exécutent simultanément plusieurs campagnes, parcours et plans de préchauffage des adresses IP à l’aide de compositions d’audiences publiées doivent prévoir de respecter cette limite pour les opérations parallèles.
      >
-     >La composition de l’audience (et donc l’audience de sortie) est nettoyée lorsque la prochaine itération est activée.
+     >La composition d’audiences (et donc l’audience de sortie) est nettoyée lorsque la prochaine itération est activée.
 
    * Une audience de sortie est créée avec la convention de nommage suivante : `IP Warmup Audience-<warmupName>-Phase<phaseNo>-Run<runNo>`.
 

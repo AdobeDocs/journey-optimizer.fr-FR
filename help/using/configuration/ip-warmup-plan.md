@@ -10,9 +10,9 @@ level: Experienced
 keywords: IP, groupe, sous-domaines, délivrabilité
 exl-id: c2434086-2ed4-4cd0-aecd-2eea8f0a55f6
 source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1760'
-ht-degree: 100%
+ht-degree: 84%
 
 ---
 
@@ -22,7 +22,7 @@ Une fois que vous avez créé une ou plusieurs [campagnes de préchauffage d’a
 
 Pour créer, modifier supprimer des plans de préchauffage d’adresses IP et y accéder, vous devez disposer des autorisations associées au rôle **[!UICONTROL Consultant en délivrabilité]** ou aux plans de préchauffage des adresses IP.
 
-+++Découvrez comment attribuer le rôle Consultant en délivrabilité, ou encore les autorisations associées aux plans de préchauffage des adresses IP.
++++Découvrez comment attribuer le rôle de consultant en délivrabilité pour les autorisations liées aux plans de préchauffage d’adresses IP
 
 Le contrôle d’accès au niveau de l’objet vous permet de protéger les données et d’accorder un accès spécifique pour afficher et gérer vos plans. Si aucun libellé n’est attribué à votre plan de préchauffage des adresses IP, les utilisateurs et utilisatrices pourront l’afficher et le modifier.
 
@@ -144,11 +144,11 @@ gmail.com;google.com;googlemail.com;googlemail.co.uk
 +++
 
 +++Microsoft
-hotmail.com.tr;live.de;live.ru;live.nl;windowslive.com;live.jp;mts.net;xbox.com;hotmail.fr;hotmail.cl;hotmail.jp;live.cl;live.at;live.com.au;hotmail.co.th;live.hk;hotmail.com.au;hotmail.com;live.com.my;hotmail.co.kr;live.ie;outlook.com.br;hotmail.co.il;hotmail.dk;live.co.kr;live.co.uk;live.com.mx;outlook.ie;live.cn;hotmail.co.uk;live.com.sg;hotmail.es;live.fr;live.no;live.dk;hotmail.it;msn.com;live.se;hotmail.co.jp;live.be;live.co.za;live.in;hotmail.se;live.com.pt;hotmail.ch;outlook.com;live.com;hotmail.gr;live.it;live.com.ar;hotmail.ca;hotmail.com.br;hotmail.com.ar;live.ca;hotmail.de
+hotmail.com.tr;live.de;live.ru;live.nl;windowslive.com;live.jp;mts.net;xbox.com;live.com.au;hotmail.fr;hotmail.cl;hotmail.jp;live.cl;live.at;hotmail.co.th;hotmail.com.au;live.hk;hotmail.com;live.com.my;hotmail.co.kr;outlook.com.br;hotmail.co.il;live.dk;live.co.kr;live.co.uk;hotmail.dk;live.com.mx;hotmail.co.uk;live.com.sg;msn.com;outlook.ie;live.cn;hotmail.co.jp;live.co.za;hotmail.fr;live.no;live.dk;hotmail.it;live.com.pt;live.se;outlook.com;live.be;live.com;live.in;hotmail.se hotmail.ch;live.com.ar;hotmail.com.br;hotmail.gr;live.it;hotmail.com.ar;hotmail.ca;;;;live.ca;hotmail.de
 +++
 
 +++Yahoo
-aol.fi;games.com;cs.com;yahoo.com.in;y7mail.com;yahoo.co.uk;yahoo.hu;yahoo.co.hu;yahoo.cn;yahoogroups.com.sg;yahoogroups.com.au;aol.es;yahoo.com.au;yahoo.com.vn;yahoo.ca;aol.hk;aol.co.nz;yahoo.com.br;aolpoland.pl;aolnorge.no;yahoo.ne.jp;yahoo.fi;ymail.com;netscape.com;yahoo.com.pe;yahoo.hr;aol.cz;yahoo.ee;aol.be;aolcom.tr;yahoo.si;yahoo.co.id;aol.it;citlink.net;wmconnect.com;yahoo.es;yahoo.dk;yahoogroups.ca;yahoo.com.jp;yahoo.com.hk;aol.kr;yahoo.ie;aol.jp;aol.com.br;yahoo.lt;yahoo.co.kr;aol.nl;yahoo.com.ar;yahoo.bg;ygm.com;yahoo.co.nz;aol.se;aol.com;yahoo.de;goowy.com;rocketmail.com;frontiernet.net;aim.com;yahoo.nl;yahoogroups.co.in;aol.dk;netscape.net;aol.cl;luckymail.com;yahoo.no;yahoo.co.jp;yahoo.com.kr;yahoo.cz;yahoo.co.za;yahoo.sk;verizon.net;yahoogroups.de;yahoo.gr;aol.com.ve;aol.com.ar;yahoo.ro;aol.com.co;wild4music.com;yahoo.at;yahoogroups.com.cn;yahoo.com.co;wow.com;aol.fr;yahoo.in;aol.in;yahoo.com;yahoo.rs;aol.de;yahooxtra.co.nz;yahoo.com.mx;yahoo.com.ph;sky.com;aol.com.mx;aol.com.au;yahoo.se;myaol.jp;aolchina.com;yahoo.pt;yahoo.com.net;yahoo.com.tw;yahoogrupper.dk;yahoo.fr;talk21.com;compuserve.com;aol.pl;yahoo.com.sg;yahoogroups.com.tw;aol.ch;yahoo.it;frontier.com;yahoo.co.in;aolpolcka.pl;yahoo.co.il;verizon.net.in;yahoogruppi.it;yahoo.com.tr;yahoo.cl;yahoogroups.com.hk;yahoogroups.co.uk;yahoo.com.biz;yahoo.com.hr;yahoo.be;aol.co.uk;ybb.ne.jp;aol.tw;yahoogroups.co.kr;yahoo.com.my;rogers.com;gte.net;yahoogroups.com;yahoo.co.th;yahoo.com.cn;love.com;bellatlantic.net;aol.ru;yahoo.com.ve;yahoo.com.ua;yahoo.lv;aolpolska.pl;aol.at;yahoo.pl
+aol.fi;games.com;cs.com;yahoo.com.in;y7mail.com;yahoo.co.uk;yahoo.hu;yahoo.co.hu;yahoo.cn;yahoogroups.com.sg;yahoogroups.com.au;yahoo.com.au;aol.es;yahoo.com.vn;aol.co.nz;yahoo.com.br;yahoo.ca;aol.hk;yahoo.ne.jp;ymail.com;aolpoland.pl;aolnorge.no;netscape.com;yahoo.fi;yahoo.com.pe;yahoo.co.id;citlink.net;yahoo.hr;ahoo.ee;aol.be;aolcom.tr;yahoo.si;wmconnect.com;aol.it;yahoo.com.jp;yahoo.com.hk;yahoo.es;yahoo o.dk;yahoogroups.ca;aol.com.br;yahoo.co.kr;aol.kr;yahoo.ie;aol.jp;yahoo.com.ar;yahoo.lt;ygm.com;aol.nl;yahoo.co.nz;yahoo.bg;aol.com;goowy.com;aol.se;rocketmail.com;yahoo.de;frontiernet.net;aim.com;yahoogroups.co.in;netscape.net;luckymail.com;yahoo.cz;yahoo.co.jp;ahoo.sk;yahoo.com.kr;yahoo.no;yahoo.co.za;verizon.net;yahoo.cz;aol.com.ve;yahoo.sk;yahoo groups.de;yahoo.gr;aol.com.ar;aol.com.co;yahoo.ro;wild4music.com;yahoogroups.com.cn;yahoo.at;yahoo.com.co;wow.com;yahoo.com;yahooxtra.co.nz;yahoo.com.mx;aol.fr;yahoo.in;aol.in;yahoo.com.ph;yahoo.rs;aol.de;sky.com;aol.com.mx;aol.com.au;aolchina.com;yahoo.com.net;yahoo.com.tw;talk21.com;compuserve.com;aol.pl;yahoo.com.sg;yahoogroups.com.tw;ahoo.ch;yahoo.dk;yahoo.fr;frontier.com;yahoo.co.in;aol.pl;yahoo.co.il;verizon.net.in;yahoo.com.tr;aol.ch;yahoo.it yahoogroups.com.hk;yahoogroups.co.uk;aolpolcka.pl;yahoo.com.biz;yahoo.com.hr;yahoogruppi.it;aol.co.uk;yahoo.cl;ybb.ne.jp;yahoogroups.co.kr;yahoo.com.my;rogers.com;gte.net;yahoogroups.com;yahoo.be;yahoo.co.th;yahoo.com.cn;aol.tw;love.com;bellatlantic.net;yahoo.com.ve;yahoo.com.ua;;;;;;;;;aol.ru;;;yahoo.lv;aolpolska.pl;aol.at;yahoo.pl
 +++
 
 +++Apple
@@ -188,7 +188,7 @@ docomo.ne.jp
 +++
 
 +++Softbank
-c.vodafone.ne.jp;jp-h.ne.jp;k.vodafone.ne.jp;jp-d.ne.jp;jp-c.ne.jp;t.vodafone.ne.jp;h.vodafone.ne.jp;r.vodafone.ne.jp;q.vodafone.ne.jp;jp-t.ne.jp;jp-q.ne.jp;s.vodafone.ne.jp;jp-s.ne.jp;jp-r.ne.jp;jp-k.ne.jp;n.vodafone.ne.jp;d.vodafone.ne.jp;softbank.ne.jp;jp-n.ne.jp
+c.vodafone.ne.jp;jp-h.ne.jp;k.vodafone.ne.jp;jp-d.ne.jp;jp-c.ne.jp;t.vodafone.ne.jp;h.vodafone.ne.jp;r.vodafone.ne.jp;q.vodafone.ne.jp;jp-t.ne.jp;jp-q.ne.jp;s.vodafone.ne.jp;jp-s.ne.jp;jp-r.ne.jp;jp-k.ne.jp;n.vodafone.ne.jp;d.vodafone.ne.jp;softbank.ne.jp jp-n.ne.jp
 +++
 
 +++KDDI

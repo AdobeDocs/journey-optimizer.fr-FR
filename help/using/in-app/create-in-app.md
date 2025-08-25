@@ -8,9 +8,9 @@ level: Beginner
 keywords: in-app, message, création, commencer
 exl-id: b3b79fe2-7db3-490d-9c3d-87267aa55eea
 source-git-commit: da7d895fcc724e6b1c0d6480f6a8693037a03752
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '2056'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -51,7 +51,7 @@ Pour ajouter un message in-app dans un parcours, procédez comme suit :
 
    1. Cliquez sur la liste déroulante d’événements pour modifier votre déclencheur si nécessaire.
 
-      +++Voir les déclencheurs disponibles.
+      +++Voir Triggers disponibles.
 
       | Package | Déclencheur | Définition |
       |---|---|---|
@@ -67,7 +67,7 @@ Pour ajouter un message in-app dans un parcours, procédez comme suit :
       | Places | Entrer dans le POI | Déclenché par le SDK Places lorsque votre client ou cliente accède au point ciblé (POI) configuré. |
       | Places | Quitter le POI | Déclenché par le SDK Places lorsque votre client ou cliente quitte le point ciblé (POI) configuré. |
 
-+++
+      +++
 
    1. Cliquez sur **[!UICONTROL Ajouter une condition]** si vous souhaitez que le déclencheur prenne en compte plusieurs événements ou critères.
 
@@ -77,7 +77,7 @@ Pour ajouter un message in-app dans un parcours, procédez comme suit :
 
    1. Choisissez la condition **[!UICONTROL Et]** si vous souhaitez ajouter des **[!UICONTROL caractéristiques]** et mieux affiner votre règle.
 
-      +++Voir les caractéristiques disponibles.
+      +++Afficher les caractéristiques disponibles.
 
       | Package | Caractéristiques | Définition |
       |---|---|---|
@@ -99,7 +99,7 @@ Pour ajouter un message in-app dans un parcours, procédez comme suit :
       | Places | Dernier point ciblé accédé | Déclenché par le SDK Places en fonction du dernier point ciblé accédé par votre cliente ou client. |
       | Places | Dernier point ciblé quitté | Déclenché par le SDK Places en fonction du dernier point ciblé quitté par votre cliente ou client. |
 
-+++
+      +++
 
       ![](assets/in_app_create_8.png)
 
@@ -133,7 +133,7 @@ Pour ajouter un message in-app dans une campagne, procédez comme suit :
 
    * **Scheduled - Marketing** : permet d’exécuter la campagne immédiatement ou à une date spécifiée. Les campagnes planifiées visent à envoyer des messages marketing. Elles sont configurées et exécutées à partir de l’interface d’utilisation.
 
-   * **API-triggered - Marketing/Transactional** : permet d’exécuter la campagne à l’aide d’un appel API. Les campagnes déclenchées par API sont destinées à envoyer des messages marketing, ou transactionnels, c’est-à-dire des messages envoyés suite à une action effectuée par une personne : réinitialisation du mot de passe, abandon de panier, etc.
+   * **Déclenchée par API - Marketing/Transactionnelle** : permet d’exécuter la campagne à l’aide d’un appel API. Les campagnes déclenchées par API sont destinées à envoyer des messages marketing, ou transactionnels, c’est-à-dire des messages envoyés suite à une action effectuée par une personne : réinitialisation du mot de passe, abandon de panier, etc.
 
 1. Dans la section **[!UICONTROL Propriétés]**, rédigez le **[!UICONTROL Titre]** et la **[!UICONTROL Description]**.
 
@@ -157,7 +157,7 @@ Pour ajouter un message in-app dans une campagne, procédez comme suit :
 
    1. Cliquez sur la liste déroulante d’événements pour modifier votre déclencheur si nécessaire.
 
-      +++Voir les déclencheurs disponibles.
+      +++Voir Triggers disponibles.
 
       | Package | Déclencheur | Définition |
       |---|---|---|
@@ -173,7 +173,7 @@ Pour ajouter un message in-app dans une campagne, procédez comme suit :
       | Places | Entrer dans le POI | Déclenché par le SDK Places lorsque votre client ou cliente accède au point ciblé (POI) configuré. |
       | Places | Quitter le POI | Déclenché par le SDK Places lorsque votre client ou cliente quitte le point ciblé (POI) configuré. |
 
-+++
+      +++
 
    1. Cliquez sur **[!UICONTROL Ajouter une condition]** si vous souhaitez que le déclencheur prenne en compte plusieurs événements ou critères.
 
@@ -183,7 +183,7 @@ Pour ajouter un message in-app dans une campagne, procédez comme suit :
 
    1. Choisissez la condition **[!UICONTROL Et]** si vous souhaitez ajouter des **[!UICONTROL caractéristiques]** et mieux affiner votre règle.
 
-      +++Voir les caractéristiques disponibles.
+      +++Afficher les caractéristiques disponibles.
 
       | Package | Caractéristiques | Définition |
       |---|---|---|
@@ -205,7 +205,7 @@ Pour ajouter un message in-app dans une campagne, procédez comme suit :
       | Places | Dernier point ciblé accédé | Déclenché par le SDK Places en fonction du dernier point ciblé accédé par votre cliente ou client. |
       | Places | Dernier point ciblé quitté | Déclenché par le SDK Places en fonction du dernier point ciblé quitté par votre cliente ou client. |
 
-+++
+      +++
 
       ![](assets/in_app_create_8.png)
 
@@ -234,27 +234,27 @@ Pour ajouter un message in-app dans une campagne, procédez comme suit :
 
 * La vidéo ci-dessous montre comment créer, configurer et publier des messages in-app dans vos campagnes.
 
-  +++Voir la vidéo
+  +++Regarder la vidéo
 
-  >[!VIDEO](https://video.tv.adobe.com/v/3451884?quality=12&learn=on&captions=fre_fr)
+  >[!VIDEO](https://video.tv.adobe.com/v/3410430?quality=12&learn=on)
 
-+++
+  +++
 
 * La vidéo ci-dessous montre comment configurer et analyser des expériences de contenu pour les messages in-app de test A/B.
 
-  +++Voir la vidéo
+  +++Regarder la vidéo
 
-  >[!VIDEO](https://video.tv.adobe.com/v/3445290/?learn=on&autoplay=true&captions=fre_fr)
+  >[!VIDEO](https://video.tv.adobe.com/v/3419898/?learn=on&autoplay=true)
 
-+++
+  +++
 
 * La vidéo ci-dessous montre comment créer un message in-app dans un parcours et comment tester et publier votre parcours.
 
-  +++Voir la vidéo
+  +++Regarder la vidéo
 
-  >[!VIDEO](https://video.tv.adobe.com/v/3451832/?learn=on&autoplay=true&captions=fre_fr)
+  >[!VIDEO](https://video.tv.adobe.com/v/3423077/?learn=on&autoplay=true)
 
-+++
+  +++
 
 **Rubriques connexes :**
 

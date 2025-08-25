@@ -8,7 +8,7 @@ level: Beginner
 keywords: publipostage direct, message, campagne
 exl-id: 6b438268-d983-4ab8-9276-c4b7de74e6bd
 source-git-commit: 9324de79b7a1e787c3a23338c4292cd4ff2bb6df
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '749'
 ht-degree: 100%
 
@@ -61,7 +61,7 @@ Pour créer une campagne par courrier, procédez comme suit :
 
 1. Les campagnes peuvent être planifiées pour une date spécifique ou définies pour être récurrentes à intervalles réguliers. Découvrez comment configurer le **[!UICONTROL Planning]** de votre campagne dans [cette section](../campaigns/create-campaign.md#schedule).
 
-Vous pouvez maintenant commencer à configurer le fichier d&#39;extraction à envoyer à votre opérateur de services postaux.
+Vous pouvez maintenant commencer à configurer le fichier d’extraction à envoyer à votre opérateur de publipostage direct.
 
 ## Configurer le fichier d’extraction {#extraction-file}
 

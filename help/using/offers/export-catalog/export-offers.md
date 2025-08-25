@@ -8,9 +8,9 @@ role: User, Data Engineer
 level: Intermediate
 exl-id: c7f691aa-8f89-4f23-b897-53211863eb6d
 source-git-commit: 2a5591617838e76e9cae99c0f97e8aff59311a69
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1950'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -53,7 +53,7 @@ Voici la liste de tous les champs qui peuvent être utilisés dans le jeu de don
 
 +++
 
-+++ _experience > decisioning > calendarConstraints
++++ _experience > decisioning > calendarConstraints 
 
 **Champ :** calendarConstraints 
 **Titre :** détails sur les contraintes de calendrier
@@ -94,7 +94,7 @@ Voici la liste de tous les champs qui peuvent être utilisés dans le jeu de don
 
 +++
 
-+++_experience > decisioning > contents > components
++++_experience > prise de décisions > contenu > composants
 
 **Champ :** composants
 **Description :** composants du contenu représentant l’option de décision, y compris toutes leurs variantes linguistiques. Les composants spécifiques sont identifiés par « dx:format », « dc:subject » et « dc:language » ou une combinaison de ces éléments. Ces métadonnées permettent de localiser ou de représenter le contenu associé à une offre et de l&#39;intégrer selon le contrat d’emplacement.
@@ -105,7 +105,7 @@ Voici la liste de tous les champs qui peuvent être utilisés dans le jeu de don
 
   **Champ :** _type
   **Titre :** type du composant du contenu
-  **Description :** Un ensemble énuméré d&#39;URI où chaque valeur correspond à un type donné au composant de contenu. Certains consommateurs des représentations de contenu s&#39;attendent à ce que la valeur @type soit une référence au schéma qui décrit les propriétés supplémentaires du composant de contenu.
+  **Description** : ensemble énuméré d’URI où chaque valeur correspond à un type donné au composant de contenu. Certains consommateurs des représentations de contenu s&#39;attendent à ce que la valeur @type soit une référence au schéma qui décrit les propriétés supplémentaires du composant de contenu.
   **Type :** chaîne
 
 * **_experience > decisioning > contents > components > _dc**
@@ -218,7 +218,7 @@ Voici la liste de tous les champs qui peuvent être utilisés dans le jeu de don
 
 +++
 
-+++_experience > decisioning > profileConstraints > Description
++++_experience > prise de décisions > profileConstraints > Description
 
 **Champ :** description
 **Titre :** description 
@@ -227,7 +227,7 @@ Voici la liste de tous les champs qui peuvent être utilisés dans le jeu de don
 
 +++
 
-+++_experience > decisioning > profileConstraints > Eligibility Rule
++++_experience > prise de décisions > profileConstraints > Règle d&#39;éligibilité
 
 **Champ :** eligibilityRule
 **Titre :**règle d&#39;éligibilité
@@ -236,11 +236,11 @@ Voici la liste de tous les champs qui peuvent être utilisés dans le jeu de don
 
 +++
 
-+++_experience > decisioning > profileConstraints > Profile Constraint Type
++++_experience > prise de décisions > profileConstraints > Type de contrainte de profil
 
 **Champ :** profileConstraintType
 **Titre :** type de contrainte de profil
-**Description :** détermine si des contraintes sont actuellement définies et comment les contraintes sont exprimées. Cela peut se faire avec une règle ou avec une ou plusieurs appartenances à l’audience.
+**Description :** détermine si des contraintes sont actuellement définies et comment les contraintes sont exprimées. Cela peut se faire avec une règle ou avec une ou plusieurs appartenances à des audiences.
 **Type :** chaîne 
 **Valeurs possibles :**
 * &quot;none&quot; (par défaut)
@@ -251,7 +251,7 @@ Voici la liste de tous les champs qui peuvent être utilisés dans le jeu de don
 
 +++
 
-+++_experience > decisioning > profileConstraints > Segment Identifiers
++++_experience > prise de décisions > profileConstraints > Identifiants de segments
 
 **Champ :** segmentIdentities
 **Titre :** identifiants de segment
@@ -298,7 +298,7 @@ Voici la liste de tous les champs qui peuvent être utilisés dans le jeu de don
 
 +++
 
-+++_experience > decisioning > ranking > Order Evaluation
++++_experience > prise de décisions > classement > Évaluation de l&#39;ordre
 
 **Champ :** ordre
 **Titre :** évaluation de l&#39;ordre
@@ -329,7 +329,7 @@ Voici la liste de tous les champs qui peuvent être utilisés dans le jeu de don
 
 +++
 
-+++_experience > decisioning > ranking > Priority
++++_experience > prise de décisions > classement > Priorité
 
 **Champ :** priorité
 **Titre :** priorité
@@ -356,7 +356,7 @@ Voici la liste de tous les champs qui peuvent être utilisés dans le jeu de don
 **Champ :** _repo 
 **Type :** objet
 
-+++
++++ 
 
 +++ _repo > Etag Option de décision
 

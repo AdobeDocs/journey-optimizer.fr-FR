@@ -8,9 +8,9 @@ role: User, Data Engineer
 level: Intermediate
 exl-id: 3e45f3cf-e17e-43a6-8424-98afef07aaa3
 source-git-commit: 87f3da0a1d73f9aa26c7420d260778286bacdf0c
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '366'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -64,9 +64,9 @@ Vous trouverez ci-dessous la liste de tous les champs qui peuvent être utilisé
 
 +++ _experience > decisioning > Content Component Type
 
-**Champ :** componentType
-**Titre :** type de composant de contenu
-**Description :** ensemble énuméré d&#39;URI où chaque valeur correspond à un type donné du composant de contenu. Certains consommateurs des représentations de contenu s&#39;attendent à ce que la valeur @type soit une référence au schéma qui décrit les propriétés supplémentaires du composant de contenu.
+**Champ** : componentType
+**Titre** : type de composant de contenu
+**Description** : ensemble énuméré d&#39;URI où chaque valeur correspond à un type donné au composant de contenu. Certains consommateurs des représentations de contenu s&#39;attendent à ce que la valeur @type soit une référence au schéma qui décrit les propriétés supplémentaires du composant de contenu.
 **Type :** chaîne
 
 +++
@@ -78,7 +78,7 @@ Vous trouverez ci-dessous la liste de tous les champs qui peuvent être utilisé
 
 +++
 
-+++_experience > decisioning > contentTypes > MIME Media Type
++++_experience > prise de décisions > contentTypes > Type de média MIME
 
 **Titre :** type de média MIME
 **Description :** contrainte pour le type de média des composants attendue à cet emplacement. Un composant peut avoir plusieurs types de média, par exemple différents formats d&#39;image.

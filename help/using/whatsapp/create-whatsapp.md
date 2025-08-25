@@ -11,7 +11,7 @@ exl-id: cac6f675-59e0-431d-8c20-f24ef16d7bf2
 source-git-commit: 03699215020770d0636c77e9d197990ab5da0975
 workflow-type: tm+mt
 source-wordcount: '842'
-ht-degree: 88%
+ht-degree: 98%
 
 ---
 
@@ -42,8 +42,8 @@ L’option d’appel à l’action suivante est disponible pour vos messages Wha
 | Appel à l’action | Description |
 |-|-|
 | Visiter le site web | Un seul bouton est autorisé, avec les paramètres de variable inclus. |
-| Appel sur WhatsApp | Fournit un bouton qui ouvre un chat WhatsApp avec le numéro de téléphone spécifié directement à partir du message. |
-| Numéro de téléphone | Fournit un bouton qui lance un appel téléphonique au numéro spécifié lorsque l&#39;utilisateur appuie dessus. |
+| Appeler sur WhatsApp | Fournit un bouton qui ouvre une conversation WhatsApp avec le numéro de téléphone spécifié directement à partir du message. |
+| Appeler le numéro de téléphone | Fournit un bouton qui déclenche un appel téléphonique vers le numéro spécifié lorsque l’utilisateur ou l’utilisatrice appuie dessus. |
 
 +++
 
@@ -134,7 +134,7 @@ Notez que votre modèle WhatsApp doit d’abord être approuvé par Meta avant d
 
    ![](assets/whatsapp-design-2.png)
 
-1. Dans le champ **[!UICONTROL URL de l’image]**, ajoutez des URL de médias pour remplacer tous les espaces réservés dans votre modèle. Les médias de modèles des métadonnées ne sont que des espaces réservés. Pour afficher correctement des images, des données audio ou vidéo, vous devez utiliser des URL externes provenant de Adobe Experience Manager ou d’autres sources.
+1. Dans le champ **[!UICONTROL URL de l’image]**, ajoutez des URL de médias pour remplacer tous les espaces réservés dans votre modèle. Les médias de modèles Meta ne sont que des espaces réservés. Pour afficher correctement des images, des données audio ou vidéo, vous devez utiliser des URL externes provenant d’Adobe Experience Manager ou d’autres sources.
 
    ![](assets/whatsapp-design-3.png)
 
@@ -193,8 +193,8 @@ Once you have performed your tests and validated the content, you can send your 
 
 La vidéo ci-dessous montre comment créer un parcours WhatsApp à plusieurs étapes à l&#39;aide de Adobe Journey Optimizer.
 
-+++ Voir la vidéo
++++ Regarder la vidéo
 
->[!VIDEO](https://video.tv.adobe.com/v/3470284/?learn=on&captions=fre_fr")
+>[!VIDEO](https://video.tv.adobe.com/v/3470282/?learn=on")
 
 +++

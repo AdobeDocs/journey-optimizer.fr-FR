@@ -196,4 +196,4 @@ Voici quelques exemples de modifications d’e-mails et de configurations de ver
 
 Découvrez comment verrouiller le contenu dans vos modèles d’e-mail.
 
->[!VIDEO](https://video.tv.adobe.com/v/3451609?quality=12&captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/3451591?quality=12)

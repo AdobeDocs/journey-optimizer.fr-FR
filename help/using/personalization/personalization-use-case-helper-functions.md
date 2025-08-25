@@ -11,8 +11,8 @@ keywords: expression, éditeur, aide, cas d’utilisation, personnalisation
 exl-id: 9c9598c0-6fb1-4e2f-b610-ccd1a80e516e
 source-git-commit: c9627cfd1d717d56744f0287738b1303194c23e1
 workflow-type: tm+mt
-source-wordcount: '1038'
-ht-degree: 100%
+source-wordcount: '1037'
+ht-degree: 97%
 
 ---
 
@@ -27,7 +27,7 @@ Vous utiliserez ces types de fonctions helper :
 * La fonction helper `if` permettant d’insérer une note spécifique au produit si le produit associé se trouve dans le panier. [En savoir plus](functions/helpers.md#if-function).
 <!-- **Context**: personalization based on contextual data from the journey -->
 
-➡️ [Découvrez comment utiliser les fonctions d&#39;assistance dans cette vidéo](#video)
+➡️ [Découvrez comment utiliser les fonctions d’assistance dans cette vidéo](#video).
 
 Avant de commencer, vérifiez que vous savez comment configurer ces éléments :
 
@@ -52,7 +52,7 @@ Le contenu du panier est une information contextuelle provenant du parcours. Par
 1. Créez un événement dont le schéma inclut le tableau `productListItems`.
 1. Définissez tous les champs de ce tableau comme champs de payload pour cet événement.
 
-   En savoir plus sur le type de données d’élément de liste de produit dans la [documentation d’Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/product-list-item.html?lang=fr){target="_blank"}.
+   En savoir plus sur le type de données d’élément de liste de produit dans la documentation de [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/product-list-item.html?lang=fr){target="_blank"}.
 
 1. Créez un parcours commençant par cet événement.
 1. Ajoutez une activité **E-mail** au parcours.
@@ -105,7 +105,7 @@ Le contenu du panier est une information contextuelle provenant du parcours. Par
 
       ![](assets/personalization-uc-helpers-5.png)
 
-      En savoir plus sur le type de données de nom de personne dans la [documentation d’Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/person-name.html?lang=fr){target="_blank"}.
+      En savoir plus sur le type de données de nom de personne dans la documentation d’[Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/person-name.html?lang=fr){target="_blank"}.
 
 1. Cliquez sur **[!UICONTROL Valider]**, puis sur **[!UICONTROL Enregistrer]**.
 
@@ -344,4 +344,4 @@ Le contenu du panier est une information contextuelle provenant du parcours. Par
 
 Découvrez comment utiliser les fonctions d’assistance.
 
->[!VIDEO](https://video.tv.adobe.com/v/3416644?quality=12&captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/334244?quality=12)

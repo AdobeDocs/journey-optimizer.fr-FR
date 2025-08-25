@@ -9,7 +9,7 @@ level: Experienced
 keywords: syntaxe, éditeur, parcours
 exl-id: c9434b28-2750-4a53-985e-c4a3f940472c
 source-git-commit: dbb1a4d649f29b763121c7856cecca16dcd2864f
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '249'
 ht-degree: 100%
 
@@ -48,4 +48,4 @@ Selon le contexte d’utilisation, l’éditeur d’expression peut renvoyer dif
 |--- |--- |
 | Condition (condition de source de données, condition de date) | booléen |
 | Retardateur personnalisé | dateTimeOnly |
-| Mappage des paramètres d’action | Tous |
+| Mapping des paramètres d’action | Tous |

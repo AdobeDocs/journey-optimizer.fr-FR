@@ -9,7 +9,7 @@ role: User
 level: Experienced
 exl-id: a85de6a9-ece2-43da-8789-e4f8b0e4a0e7
 source-git-commit: 87f3da0a1d73f9aa26c7420d260778286bacdf0c
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1359'
 ht-degree: 100%
 
@@ -72,7 +72,7 @@ L’optimisation automatique est conçue pour prendre en compte les récompenses
 
 ![](../assets/ai-ranking-beta-distribution.png)
 
-Comme nous l’avons expliqué ci-dessus, la fonction de Vraisemblance est modélisée par une loi binomiale, avec s succès (conversions) et f échecs (aucune conversion), et q est une [variable aléatoire](https://fr.wikipedia.org/wiki/Variable_aléatoire){target="_blank"} avec une [loi bêta](https://fr.wikipedia.org/wiki/Loi_bêta){target="_blank"}.
+Comme nous l’avons expliqué ci-dessus, la fonction de Vraisemblance est modélisée par une distribution binomiale, avec s succès (conversions) et f échecs (aucune conversion), et q est une [variable aléatoire](https://fr.wikipedia.org/wiki/Variable_aléatoire){target="_blank"} avec une [distribution Beta](https://fr.wikipedia.org/wiki/Loi_bêta){target="_blank"}.
 
 La loi a priori est modélisée par la loi Beta et la loi a posteriori se présente comme suit :
 

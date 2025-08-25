@@ -10,9 +10,9 @@ level: Beginner
 keywords: commencer, démarrer, contenu, expérience
 exl-id: 38e82eb2-67d9-4a7d-8c1f-77dab20bcec4
 source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '2045'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -68,7 +68,7 @@ Démarrez votre projet de traduction en spécifiant les paramètres régionaux c
 
 1. Saisissez un **[!UICONTROL nom]** et une **[!UICONTROL description]**.
 
-1. Sélectionnez le **[!UICONTROL paramètre régional source]**.
+1. Sélectionnez les **[!UICONTROL paramètres régionaux sources]**.
 
    ![](assets/translation_project_2.png)
 
@@ -77,9 +77,9 @@ Démarrez votre projet de traduction en spécifiant les paramètres régionaux c
    * **[!UICONTROL Publier automatiquement les traductions approuvées]** : une fois les traductions approuvées, elles sont automatiquement intégrées dans la campagne sans intervention manuelle.
    * **[!UICONTROL Activer le processus de révision]** : applicable uniquement aux paramètres régionaux avec traduction humaine. Cela permet à un réviseur ou à une réviseuse interne d’évaluer et d’approuver ou de rejeter efficacement le contenu traduit. [En savoir plus](#review-translation-project)
 
-1. Cliquez sur **[!UICONTROL Ajouter un paramètre régional]** pour accéder au menu et définir les langues de votre projet de traduction.
+1. Cliquez sur **[!UICONTROL Ajouter des paramètres régionaux]** pour accéder au menu et définir les langues de votre projet de traduction.
 
-   Si un **[!UICONTROL paramètre régional]** est manquant, vous pouvez le créer manuellement au préalable à partir du menu **[!UICONTROL Traduction]** ou par API. Voir [Créer un paramètre régional](#create-locale).
+   S’il manque des **[!UICONTROL paramètres régionaux]**, vous pouvez le créer manuellement au préalable à partir du menu **[!UICONTROL Traduction]** ou par API. Voir [Créer des paramètres régionaux](#create-locale).
 
    ![](assets/translation_project_3.png)
 
@@ -93,9 +93,9 @@ Démarrez votre projet de traduction en spécifiant les paramètres régionaux c
    >
    ></br>Le prestataire de services de traduction détient la propriété de la qualité du contenu traduit.
 
-1. Cliquez sur **[!UICONTROL Ajouter un paramètre régional]** lorsque vous avez terminé de lier votre paramètre régional cible au prestataire de services de traduction approprié. Cliquez ensuite sur **[!UICONTROL Enregistrer]**.
+1. Cliquez sur **[!UICONTROL Ajouter des paramètres régionaux]** lorsque vous avez terminé de lier vos paramètres régionaux cibles au prestataire de services de traduction approprié. Cliquez ensuite sur **[!UICONTROL Enregistrer]**.
 
-   Notez que si un fournisseur est grisé pour un paramètre régional cible, cela indique que le fournisseur ne prend pas en charge ce paramètre régional particulier.
+   Notez que si un fournisseur est grisé pour des paramètres régionaux cibles, cela indique que le fournisseur ne prend pas en charge ces paramètres régionaux spécifiques.
 
    ![](assets/translation_project_4.png)
 
@@ -144,7 +144,7 @@ Dans cette section, vous pouvez définir vos différents paramètres régionaux 
 
    ![](assets/multilingual-settings-3.png)
 
-1. Si vous sélectionnez **[!UICONTROL Créer des règles conditionnelles personnalisées]**, sélectionnez le paramètre régional pour lequel vous souhaitez créer des conditions. Créez ensuite des règles basées sur des facteurs tels que l’emplacement de l’utilisateur ou de l’utilisatrice, les préférences linguistiques ou d’autres éléments contextuels.
+1. Si vous sélectionnez **[!UICONTROL Créer des règles conditionnelles personnalisées]**, sélectionnez les paramètres régionaux pour lesquels vous souhaitez créer des conditions. Créez ensuite des règles basées sur des facteurs tels que l’emplacement de l’utilisateur ou de l’utilisatrice, les préférences linguistiques ou d’autres éléments contextuels.
 
    ![](assets/language_settings_3.png)
 
@@ -166,7 +166,7 @@ Dans cette section, vous pouvez définir vos différents paramètres régionaux 
 
    1. Dans la collecte de données Adobe Experience Platform, accédez à vos propriétés de balise.
 
-   1. Accédez au menu **[!UICONTROL Règles]** et créez une règle. Des informations détaillées sur la création de règles sont disponibles dans la [Documentation sur la collecte de données](https://experienceleague.adobe.com/fr/docs/experience-platform/collection/e2e#create-a-rule){target="_blank"} [!DNL Adobe Experience Platform].
+   1. Accédez au menu **[!UICONTROL Règles]** et créez une règle. Vous trouverez des informations détaillées sur la création de règles dans [!DNL Adobe Experience Platform] documentation [Collecte de données](https://experienceleague.adobe.com/fr/docs/experience-platform/collection/e2e#create-a-rule){target="_blank"}
 
    1. Dans la section **[!UICONTROL SI]** de la règle, ajoutez un événement configuré comme ci-dessous :
 
@@ -199,7 +199,7 @@ Dans cette section, vous pouvez définir vos différents paramètres régionaux 
 
       * Cliquez sur le bouton **[!UICONTROL Conserver les modifications]** pour confirmer et enregistrer votre règle.
 
-+++
+   +++
 
 1. Faites glisser les paramètres régionaux pour les réorganiser et gérer leur priorité dans la liste.
 

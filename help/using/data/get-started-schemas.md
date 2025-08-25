@@ -9,7 +9,7 @@ level: Experienced
 keywords: schémas, platform, données, structure
 exl-id: c2a8df2e-ff94-4f9a-a53e-bbf9f663cc81
 source-git-commit: 1a2c6e97fcd30245cff1bf08fd5771ce8bc84ddc
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '286'
 ht-degree: 100%
 
@@ -40,7 +40,7 @@ Consultez le [dictionnaire des schémas de Journey Optimizer](https://experienc
 
 Découvrez comment créer un schéma, ajouter des groupes de champs, et créer et configurer des groupes de champs personnalisés.
 
->[!VIDEO](https://video.tv.adobe.com/v/3416870?quality=12&captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/334461?quality=12)
 
 >[!MORELIKETHIS]
 >

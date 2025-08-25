@@ -10,7 +10,7 @@ level: Intermediate
 keywords: e-mail, importation, contenu, html, zip, css
 exl-id: 52011299-0c65-49c3-9edd-ba7bed5d7205
 source-git-commit: e35d18002fa32df8c1cfd9e0a609ce167df4641a
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '228'
 ht-degree: 100%
 
@@ -55,4 +55,4 @@ Pour importer un fichier avec du contenu HTML, procédez comme suit :
 
 Découvrez comment importer du contenu HTML existant, améliorer la conception et ajouter une page miroir et des liens de désabonnement. Apprenez également comment coder le contenu.
 
->[!VIDEO](https://video.tv.adobe.com/v/3421910?quality=12&captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/334102?quality=12)

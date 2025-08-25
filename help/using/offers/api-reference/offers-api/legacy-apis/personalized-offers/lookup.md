@@ -1,6 +1,6 @@
 ---
 title: Rechercher une offre personnalisée
-description: Une offre personnalisée est un message marketing personnalisable basé sur des règles et des contraintes d’éligibilité.
+description: Une offre personnalisée est un message marketing personnalisable basé sur des contraintes et des règles d’éligibilité.
 feature: Decision Management, API
 topic: Integrations
 role: Data Engineer
@@ -8,14 +8,14 @@ level: Experienced
 exl-id: 679f2229-19c6-47f9-b293-e1c3c8dcb61e
 source-git-commit: 4e7c4e7e6fcf488f572ccf3e9037e597dde06510
 workflow-type: tm+mt
-source-wordcount: '178'
-ht-degree: 100%
+source-wordcount: '177'
+ht-degree: 93%
 
 ---
 
 # Rechercher une offre personnalisée {#look-up-personalized-offer}
 
-Une offre personnalisée est un message marketing personnalisable basé sur des règles et des contraintes d’éligibilité.
+Une offre personnalisée est un message marketing personnalisable basé sur des contraintes et des règles d’éligibilité.
 
 Vous pouvez rechercher des offres personnalisées spécifiques en adressant une requête GET à l’API **Bibliothèque des offres** qui inclut soit l’offre personnalisée `@id`, soit le nom de l’offre personnalisée dans le chemin de la requête.
 
