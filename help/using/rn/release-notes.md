@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Notes de mise à jour d’Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 50317e37c536dc8f1a950172fda00590f8a9fa35
+source-git-commit: f59ee0ce2ad53717672d06519ce38141b69d4d90
 workflow-type: tm+mt
-source-wordcount: '1475'
-ht-degree: 76%
+source-wordcount: '1492'
+ht-degree: 75%
 
 ---
 
@@ -315,6 +315,8 @@ Les améliorations de cette version sont présentées ci-dessous.
 * **Jeux de données**
 
    * **Référentiel d’objets Experience Decisioning - Éléments d’offre personnalisés** - Le jeu de données d’exportation intégré capture désormais tous les attributs de l’offre et le statut du cycle de vie, ce qui permet une personnalisation et un reporting complets. [En savoir plus](../data/export-datasets.md)
+
+   * Ajout de la vérification des versions via le champ `etag` pour améliorer la cohérence et suivre les modifications afin d’offrir des articles plus facilement.
 
 ## Orchestration de campagne
 

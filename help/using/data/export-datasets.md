@@ -8,9 +8,9 @@ role: User
 level: Beginner
 keywords: platform, lac de données, créer, lac, jeux de données, profil
 exl-id: 66b5c691-ddc4-4e9b-9386-2ce6c307451c
-source-git-commit: 3aa3203ae7763d81288cb70a2984d017b0006bb3
+source-git-commit: f59ee0ce2ad53717672d06519ce38141b69d4d90
 workflow-type: tm+mt
-source-wordcount: '907'
+source-wordcount: '906'
 ht-degree: 97%
 
 ---
@@ -105,7 +105,7 @@ Découvrez dans le tableau ci-dessous les jeux de données Journey Optimizer qu
 | Référentiel d’objets de décision - Offres de secours | il s’agit du référentiel pour l’autre type d’offre créé par un utilisateur ou une utilisatrice. Plus précisément, s’ils ne sont pas éligibles pour voir une offre personnalisée et qu’ils doivent voir quelque chose, ils verront au moins l’offre de secours. Ce jeu de données contient les attributs de ce type d’offre. |
 | Référentiel d’objets de décision - Offres personnalisées | il s’agit du référentiel pour un type d’offre créé par un utilisateur ou une utilisatrice. Ce jeu de données contient donc les attributs relatifs à ce type d’offre. |
 | Référentiel d’objets de décision - Emplacements | il s’agit du référentiel d’objets qui définissent l’emplacement d’affichage d’une offre. |
-| Référentiel D’Objets Experience Decisioning - Éléments D’Offre Personnalisés | Stocke tous les éléments d’offre personnalisés, y compris tous les attributs et le statut du cycle de vie pour prendre en charge la personnalisation et le reporting cross-canal. |
+| Référentiel D’Objets Experience Decisioning - Éléments D’Offre Personnalisés | Stocke tous les éléments d’offre, y compris tous les attributs et le statut du cycle de vie pour prendre en charge la personnalisation et le reporting cross-canal. |
 | Événements d’étape de parcours | Capturent tous les événements d’expérience d’étape de parcours générés à partir de Journey Optimizer pour être utilisés par des services tels que la création de rapports. |
 | Parcours | Jeu de données de métadonnées contenant des informations sur chaque étape d’un parcours. |
 | ODE DecisionEvents - Décisions de production | Chaque fois que nous prenons une décision basée sur une demande, nous la comptabilisons comme un événement de décision. |
