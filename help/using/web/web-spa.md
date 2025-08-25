@@ -90,4 +90,4 @@ Cette vidéo explique comment :
 * Appliquer des modifications de site Web à plusieurs vues ou à toutes les vues découvertes
 * Effectuer des actions en bloc sur les modifications
 
->[!VIDEO](https://video.tv.adobe.com/v/3424536/?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3446887/?quality=12&learn=on&captions=fre_fr)

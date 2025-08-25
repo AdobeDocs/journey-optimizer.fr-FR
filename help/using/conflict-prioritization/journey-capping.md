@@ -117,4 +117,4 @@ En outre, vous pouvez également utiliser le service **Query Service** d’Adobe
 
 ## Vidéo pratique {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/3435530?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3447615?quality=12&captions=fre_fr)
