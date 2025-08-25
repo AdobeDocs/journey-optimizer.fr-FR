@@ -2,10 +2,10 @@
 title: Utiliser des identifiants supplémentaires dans les parcours
 description: Découvrez comment utiliser des identifiants supplémentaires dans les parcours.
 exl-id: f6ebd706-4402-448a-a538-e9a4c2cf0f8b
-source-git-commit: dcb2be7fef47e0d62fdd5a423799823ba4ef586c
-workflow-type: ht
-source-wordcount: '1157'
-ht-degree: 100%
+source-git-commit: efd39577a4836144c4ba41018e5750278e82c079
+workflow-type: tm+mt
+source-wordcount: '1236'
+ht-degree: 93%
 
 ---
 
@@ -66,6 +66,8 @@ En outre, Journey Optimizer vous permet d’utiliser les attributs de l’ident
 
    * Si le parcours ne prend pas en charge la rentrée, la même combinaison d’identifiant de profil + identifiant supplémentaire ne peut pas réintégrer le parcours.
    * Si le parcours prend en charge la rentrée avec une période, la même combinaison d’identifiant de profil + identifiant supplémentaire peut réintégrer après la période définie.
+
+* **Data Use Labeling and Enforcement (DULE)** - Aucune vérification de validation DULE n’est effectuée sur l’ID supplémentaire. Cela signifie que cet attribut ne sera pas pris en compte lorsque le parcours recherche des violations de la politique de gouvernance des données.
 
 * **Configuration des événements en aval**
 
@@ -138,6 +140,10 @@ Pour utiliser un identifiant supplémentaire dans un parcours de lecture d’aud
       >Veillez à ne pas marquer l’attribut comme **identité principale**.
 
    1. Sélectionnez l’espace de noms à associer à l’identifiant supplémentaire. Il doit s’agir d’un espace de noms d’identifiant qui ne porte pas sur une personne.
+
+      >[!NOTE]
+      >
+      >Après avoir appliqué l’espace de noms d’identité non-personne à un schéma, vous devez créer un événement (pour les parcours déclenchés par un événement) ou un nouveau groupe de champs (pour les parcours Lecture d’audience) afin d’utiliser l’identifiant supplémentaire. Les entités existantes ne peuvent pas être actualisées pour reconnaître le nouvel identifiant.
 
 <!--1. **Add the supplemental ID field to the data source**
 
@@ -244,4 +250,4 @@ Dans un tableau d’objets avec l’ID supplémentaire comme `bookingNum` et un 
 
 Découvrez comment activer et appliquer un identifiant supplémentaire dans [!DNL Adobe Journey Optimizer].
 
->[!VIDEO](https://video.tv.adobe.com/v/3464794?quality=12&captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/3464792?quality=12)
