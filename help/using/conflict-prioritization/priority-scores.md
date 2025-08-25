@@ -4,10 +4,10 @@ description: Découvrez comment attribuer des scores de priorité aux parcours e
 role: User
 level: Beginner
 exl-id: f33ca0a8-ed33-4964-a85c-8705a4ff728e
-source-git-commit: 6da1d9a3edb8a30b8f13fd0cb6a138f22459ad00
-workflow-type: ht
-source-wordcount: '375'
-ht-degree: 100%
+source-git-commit: 0334d0b6d2fc9665ee1fe407502117679cf220f2
+workflow-type: tm+mt
+source-wordcount: '461'
+ht-degree: 77%
 
 ---
 
@@ -16,12 +16,17 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_campaign_priority"
 >title="Priorité"
->abstract="Attribuez un score de priorité au parcours. La priorité est essentielle pour donner la priorité à un parcours en cas de contrainte imposée, telle qu’une limite de fréquence. Saisissez une valeur numérique (de 0 à 100). Notez que plus le nombre est élevé, plus la priorité l’est aussi. Dans les cas où deux parcours ont le même score de priorité, le parcours qui a été activé en premier s’affiche."
+>abstract="Attribuez un score de priorité à la campagne. La priorité est essentielle pour donner la priorité à une campagne en cas de contrainte imposée telle qu’une limitation de fréquence.</br>Entrez une valeur numérique (comprise entre 0 et 100). Notez que plus le nombre est élevé, plus la priorité l’est aussi. Si deux campagnes ont le même score de priorité, la campagne qui a été activée en premier s’affiche."
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_priority"
 >title="Priorité"
->abstract="Attribuez un score de priorité au parcours. La priorité est essentielle pour donner la priorité à un parcours en cas de contrainte imposée, telle qu’une limite de fréquence. Saisissez une valeur numérique (de 0 à 100). Notez que plus le nombre est élevé, plus la priorité est élevée."
+>abstract="Attribuez un score de priorité au parcours. La priorité est essentielle pour donner la priorité à un parcours en cas de contrainte imposée telle qu’une limitation de fréquence.</br>Entrez une valeur numérique (comprise entre 0 et 100). Notez que plus le nombre est élevé, plus la priorité l’est aussi. Dans les cas où deux parcours ont le même score de priorité, le parcours qui a été activé en premier s’affiche."
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_action_priority"
+>title="Priorité"
+>abstract="Attribuez un score de priorité à l’action de parcours. La priorité est essentielle pour donner la priorité à une action entrante lorsqu’il existe plusieurs actions ou campagnes de parcours utilisant la même configuration de canal.</br>Entrez une valeur numérique (comprise entre 0 et 100). Notez que plus le nombre est élevé, plus la priorité l’est aussi. Par défaut, le score de priorité de l’action est hérité du score de priorité global du parcours."
 
 Journey Optimizer vous permet d’attribuer un score de priorité à un parcours ou à une campagne. La priorité est essentielle pour donner la priorité à un parcours, à une campagne ou à une action lorsqu’une contrainte est imposée (par exemple, une limitation de la fréquence). Dans les cas où une personne est admissible pour plusieurs parcours, campagnes ou communications et que vous souhaitez choisir ceux qu’elle doit rejoindre et recevoir, vous devez utiliser ce champ.
 
@@ -43,4 +48,4 @@ Pour attribuer un score de priorité à un parcours ou à une campagne, saisisse
 
 ## Vidéo pratique {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/3445003?quality=12&captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/3435529?quality=12)
