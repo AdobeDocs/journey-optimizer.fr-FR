@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: parcours, message, notification push, sms, e-mail, in-app, web, carte de contenu, expérience basée sur du code
 exl-id: 4db07a9e-c3dd-4873-8bd9-ac34c860694c
-source-git-commit: db3c87d10469550eb30224c932344ff1e3ae1767
-workflow-type: ht
-source-wordcount: '496'
-ht-degree: 100%
+source-git-commit: 17ca5d47fbf20ee25c3728d85877adaccf82aea8
+workflow-type: tm+mt
+source-wordcount: '513'
+ht-degree: 97%
 
 ---
 
@@ -43,6 +43,7 @@ Pour ajouter une action de canal intégrée à un parcours, procédez comme suit
 
    ![](assets/journey-web-activity.png)
 
+1. Vous pouvez également sélectionner l’activité **[!UICONTROL Action]**, qui permet de sélectionner plusieurs actions entrantes. [En savoir plus](journey-action.md)
 
 1. Configurez votre activité. Des instructions de configuration détaillées sont disponibles dans les liens ci-dessous.
 
@@ -141,7 +142,7 @@ Si vous avez modifié des données contextuelles, le message d’erreur suivant 
 
 Si vous avez modifié des attributs de profil, le message d’erreur suivant s’affiche : `ERR_AUTHORING_JOURNEYVERSION_202`.
 
-Notez que pour l’activité in-app, des modifications peuvent être apportées au contenu pendant que le parcours est actif, mais les triggers in-app ne peuvent pas être modifiés.
+Notez que pour l’activité in-app, des modifications peuvent être apportées au contenu pendant que le parcours est actif, mais les déclencheurs in-app ne peuvent pas être modifiés.
 
 ## Envoi avec des actions personnalisées {#recommendation}
 

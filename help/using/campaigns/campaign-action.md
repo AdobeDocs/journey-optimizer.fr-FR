@@ -10,10 +10,10 @@ level: Beginner
 mini-toc-levels: 1
 keywords: créer, optimizer, campagne, surface, messages
 exl-id: fed96e48-2e54-4bd4-ae17-77434d1b90eb
-source-git-commit: 378ead41924496f52f22026b3f0e05a9c9c76f89
+source-git-commit: 17ca5d47fbf20ee25c3728d85877adaccf82aea8
 workflow-type: tm+mt
-source-wordcount: '809'
-ht-degree: 63%
+source-wordcount: '799'
+ht-degree: 60%
 
 ---
 
@@ -41,7 +41,7 @@ Utilisez l’onglet **[!UICONTROL Actions]** afin de sélectionner une configura
 
 1. **Optimisation de l’utilisation**
 
-   Utilisez la section **[!UICONTROL Optimisation des messages]** pour exécuter des expériences de contenu, tirer parti des règles de ciblage ou utiliser des combinaisons avancées d’expérimentation et de ciblage. Ces différentes options et les étapes à suivre sont présentées dans cette section : [Optimisation des campagnes](campaigns-message-optimization.md).
+   Utilisez la section **[!UICONTROL Optimisation]** pour exécuter des expériences de contenu, tirer parti des règles de ciblage ou utiliser des combinaisons avancées d’expérimentation et de ciblage. Ces différentes options et les étapes à suivre sont présentées en détail dans [cette section](campaigns-message-optimization.md).
 <!--
 1. **Create a content experiment**
 
@@ -49,7 +49,7 @@ Utilisez l’onglet **[!UICONTROL Actions]** afin de sélectionner une configura
 
 1. **Ajouter du contenu multilingue**
 
-   Utilisez la section **[!UICONTROL Langues]** pour créer du contenu dans plusieurs langues au sein de votre campagne. Pour ce faire, cliquez sur le bouton **[!UICONTROL Ajouter des langues]** et sélectionnez l’option **[!UICONTROL Paramètres de langue]** souhaitée. Vous trouverez des informations détaillées sur la configuration et l’utilisation des fonctionnalités multilingues dans cette section : [Prise en main du contenu multilingue](../content-management/multilingual-gs.md).
+   Utilisez la section **[!UICONTROL Langues]** pour créer du contenu dans plusieurs langues au sein de votre campagne. Pour ce faire, cliquez sur le bouton **[!UICONTROL Ajouter des langues]** et sélectionnez l’option **[!UICONTROL Paramètres de langue]** souhaitée. Vous trouverez des informations détaillées sur la configuration et l’utilisation des fonctionnalités multilingues dans [cette section](../content-management/multilingual-gs.md).
 
 Des paramètres supplémentaires sont disponibles en fonction du canal de communication sélectionné. Pour plus d’informations, développez les sections ci-dessous.
 
@@ -73,7 +73,7 @@ Le mode de diffusion rapide est un module complémentaire [!DNL Journey Optimize
 
 +++**Attribuer des scores de priorité** (web, in-app, basé sur du code)
 
-L’attribution d’un score de priorité à la campagne vous permet de donner la priorité à une campagne entrante en cas de contrainte imposée, par exemple un capping de fréquence. Saisissez une valeur numérique (comprise entre 0 et 100). Notez que plus le nombre est élevé, plus la priorité l’est aussi. [Découvrir comment attribuer des scores de priorité aux parcours et campagnes](../conflict-prioritization/priority-scores.md)
+L’attribution d’un score de priorité à la campagne vous permet de donner la priorité à une campagne entrante lorsqu’une contrainte telle qu’une limitation de fréquence est imposée. Saisissez une valeur numérique (comprise entre 0 et 100). Notez que plus le nombre est élevé, plus la priorité l’est aussi. [Découvrir comment attribuer des scores de priorité aux parcours et campagnes](../conflict-prioritization/priority-scores.md)
 
 +++
 
