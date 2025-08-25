@@ -4,7 +4,7 @@ product: journey optimizer
 title: Mécanismes de sécurisation et limitations des campagnes orchestrées
 description: En savoir plus sur les mécanismes de sécurisation et les limitations des campagnes orchestrées
 exl-id: 82744db7-7358-4cc6-a9dd-03001759fef7
-source-git-commit: a4f3dce91af978bdff2de5beb8b1472f7704bdf2
+source-git-commit: 4f262d4cbbe2241ec8356333d9a3191081f58a6a
 workflow-type: tm+mt
 source-wordcount: '445'
 ht-degree: 2%
@@ -36,7 +36,7 @@ Vous trouverez ci-dessous des mécanismes de sécurisation et des limitations su
 
 * Toute ingestion doit se faire via les sources **Modifier la capture de données** :
 
-   * Pour **Basé sur des fichiers** : `change_type` champ est obligatoire.
+   * Pour **Basé sur des fichiers** : `_change_request_type` champ est obligatoire.
 
    * Pour **basé sur le cloud** : la journalisation des tables doit être activée.
 

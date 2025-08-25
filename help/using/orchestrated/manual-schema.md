@@ -4,9 +4,9 @@ product: journey optimizer
 title: Étapes de configuration
 description: Découvrez comment créer des schémas relationnels directement via l’interface utilisateur.
 exl-id: 8c785431-9a00-46b8-ba54-54a10e288141
-source-git-commit: 3a44111345c1627610a6b026d7b19b281c4538d3
+source-git-commit: 4f262d4cbbe2241ec8356333d9a3191081f58a6a
 workflow-type: tm+mt
-source-wordcount: '832'
+source-wordcount: '853'
 ht-degree: 5%
 
 ---
@@ -79,7 +79,7 @@ Tout schéma utilisé pour le ciblage doit inclure au moins un champ d’identit
 
    Dans cet exemple, nous avons ajouté les attributs présentés dans le tableau ci-dessous au schéma **Abonnements aux programmes de fidélité**.
 
-+++ Exemples d’attributs
+   +++ Exemples d’attributs
 
    | Nom de l’attribut | Type de données | Attributs supplémentaires |
    |-|-|-|
@@ -92,15 +92,15 @@ Tout schéma utilisé pour le ciblage doit inclure au moins un champ d’identit
    | is_active | BOOLEAN | Obligatoire |
    | lastmodified | DATETIME | Obligatoire |
 
-+++
+   +++ 
 
-1. Attribuez les champs appropriés comme clé de Principal **&#x200B;**&#x200B;et **[!UICONTROL descripteur de version]**.
+1. Attribuez les champs appropriés comme clé de Principal **** et **[!UICONTROL descripteur de version]**.
 
    Lors de la création d’un schéma manuel, assurez-vous que les champs essentiels suivants sont inclus :
 
    * Au moins une clé primaire
    * Un identifiant de version, tel qu’un champ `lastmodified` de type `datetime` ou `number`.
-   * Pour l’ingestion Change Data Capture (CDC), une colonne spéciale nommée `_change_request_type` de type `String`, qui indique le type de modification des données (par exemple, insertion, mise à jour, suppression) et permet un traitement incrémentiel.
+   * Pour l’ingestion Change Data Capture (CDC), une colonne spéciale nommée `_change_request_type` de type `String`, qui indique le type de modification des données (par exemple, insertion, mise à jour, suppression) et permet un traitement incrémentiel. Notez que le `_change_request_type` ne doit pas faire partie du schéma de la table, il doit uniquement être ajouté au fichier de données lors de l’ingestion.
 
    ![](assets/schema_manual_2.png){zoomable="yes"}
 
