@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: parcours, message, notification push, sms, e-mail, in-app, web, carte de contenu, expérience basée sur du code
 exl-id: 0ed97ffa-8efc-45a2-99ae-7bcb872148d5
-source-git-commit: 0334d0b6d2fc9665ee1fe407502117679cf220f2
+source-git-commit: e74074702c82ede09dc311a16e0f67a84b931fa2
 workflow-type: tm+mt
 source-wordcount: '984'
 ht-degree: 39%
@@ -140,7 +140,7 @@ Pour définir plusieurs actions entrantes dans un seul nœud d’action de parco
 
 1. Vous accédez à l’onglet **[!UICONTROL Actions]** de l’écran de configuration de l’action de parcours.
 
-   ![](assets/journey-multi-action-configuration.png)
+   ![](assets/journey-multi-action-configuration.png){width="70%"}
 
 1. Sélectionnez une action entrante (**Expérience basée sur du code**, **Message in-app**, **Carte de contenu** ou **Web**) dans la section **[!UICONTROL Actions]**.
 
