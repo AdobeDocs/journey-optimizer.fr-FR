@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: d35a0e1c-2376-4cc5-88fc-5f8dfcfae666
-source-git-commit: 58f4fdf8ec3cdb609efebf5b8713f6b770ef5414
-workflow-type: ht
-source-wordcount: '869'
-ht-degree: 100%
+source-git-commit: f407c5d4c20aab50350588d89e9d7682f24f5c33
+workflow-type: tm+mt
+source-wordcount: '895'
+ht-degree: 97%
 
 ---
 
@@ -156,6 +156,10 @@ Les mesures clés affichées sont les suivantes :
 * **[!UICONTROL Clics]** : nombre total de fois où des utilisateurs et les utilisatrices ont cliqué sur des expériences personnalisées qui leur ont été présentées.
 
 * **[!UICONTROL Taux de conversion]** : pourcentage d’affichages qui ont généré des actions de l’utilisateur ou de l’utilisatrice (par exemple, des clics), indiquant la capacité du modèle à générer de l’engagement des utilisateurs et des utilisatrices.
+
+>[!NOTE]
+>
+>Actuellement, le rapport [Mesure de l’effet élévateur](../experience-decisioning/ranking/auto-optimization-model.md#lift) n’est disponible que pour le modèle d’IA [Optimisation personnalisée](../experience-decisioning/ranking/personalized-optimization-model.md). Si vous avez besoin de rapports sur la mesure de l’effet élévateur, utilisez plutôt le modèle d’optimisation personnalisée .
 
 ### Taux de conversion pour le trafic Exclusion et le trafic Piloté par modèle {#conversion-rate}
 

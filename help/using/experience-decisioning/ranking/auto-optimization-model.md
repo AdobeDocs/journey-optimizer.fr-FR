@@ -7,10 +7,10 @@ feature: Ranking, Decision Management
 role: User
 level: Experienced
 exl-id: 8a8b66cb-dd96-4373-bbe0-a67e0dc0b2c0
-source-git-commit: 18a1020971dc6a1101e4e35c1523d004f3fd4188
-workflow-type: ht
-source-wordcount: '1348'
-ht-degree: 100%
+source-git-commit: f407c5d4c20aab50350588d89e9d7682f24f5c33
+workflow-type: tm+mt
+source-wordcount: '1367'
+ht-degree: 98%
 
 ---
 
@@ -65,7 +65,7 @@ L’optimisation automatique est conçue pour prendre en compte les récompenses
 
 ![](../assets/ai-ranking-beta-distribution.png)
 
-Comme nous l’avons expliqué ci-dessus, la fonction de Vraisemblance est modélisée par une loi binomiale, avec s succès (conversions) et f échecs (aucune conversion), et q est une [variable aléatoire](https://fr.wikipedia.org/wiki/Variable_aléatoire){target="_blank"} avec une [loi bêta](https://fr.wikipedia.org/wiki/Loi_bêta){target="_blank"}.
+Comme nous l’avons expliqué ci-dessus, la fonction de Vraisemblance est modélisée par une distribution binomiale, avec s succès (conversions) et f échecs (aucune conversion), et q est une [variable aléatoire](https://fr.wikipedia.org/wiki/Variable_aléatoire){target="_blank"} avec une [distribution Beta](https://fr.wikipedia.org/wiki/Loi_bêta){target="_blank"}.
 
 La loi a priori est modélisée par la loi Beta et la loi a posteriori se présente comme suit :
 
@@ -98,3 +98,7 @@ Le problème du « démarrage à froid » se produit lorsqu’une nouvelle off
 Par exemple, si nous voulons mesurer les performances d’une stratégie d’échantillonnage de Thompson (TS) utilisée dans le service de classement et que le KPI est le taux de conversion (CVR), le « Lift » de la stratégie TS par rapport à la stratégie de base est défini comme suit :
 
 ![](../assets/ai-ranking-lift.png)
+
+>[!NOTE]
+>
+>Actuellement, le rapport de mesure de l’effet élévateur n’est disponible que pour le modèle d’IA [ Optimisation personnalisée ](personalized-optimization-model.md). [En savoir plus sur le reporting Decisioning](../../reports/campaign-global-report-cja-code.md#decisioning-reporting)

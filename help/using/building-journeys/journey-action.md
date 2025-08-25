@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: parcours, message, notification push, sms, e-mail, in-app, web, carte de contenu, expérience basée sur du code
 exl-id: 0ed97ffa-8efc-45a2-99ae-7bcb872148d5
-source-git-commit: 6ca732dc6f784897d76dabb605e398497b2ffdd6
+source-git-commit: f407c5d4c20aab50350588d89e9d7682f24f5c33
 workflow-type: tm+mt
 source-wordcount: '991'
-ht-degree: 37%
+ht-degree: 36%
 
 ---
 
