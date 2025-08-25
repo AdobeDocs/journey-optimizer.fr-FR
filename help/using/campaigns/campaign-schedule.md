@@ -10,10 +10,10 @@ level: Beginner
 mini-toc-levels: 1
 keywords: créer, optimizer, campagne, surface, messages
 exl-id: b183eeb8-606f-444d-9302-274f159c3847
-source-git-commit: 3aa3203ae7763d81288cb70a2984d017b0006bb3
+source-git-commit: 4417643cbf206b9ad112bae5c270cdfc746a9c5d
 workflow-type: tm+mt
-source-wordcount: '348'
-ht-degree: 65%
+source-wordcount: '350'
+ht-degree: 64%
 
 ---
 
@@ -39,7 +39,7 @@ L’option **[!UICONTROL Fin de la campagne]** vous permet de spécifier le mome
 
 Cette fonctionnalité est particulièrement utile pour éviter la surcharge sur les systèmes en aval, tels que les pages de destination ou les plateformes d’assistance clientèle. Par exemple, vous pouvez définir une limite de débit de 165 messages par seconde pour garantir une diffusion régulière sans surcharger les systèmes en aval.
 
-Pour définir le contrôle des taux, activez l’option **[!UICONTROL Ralentir la diffusion]** dans la section **[!UICONTROL Paramètres de diffusion]** et spécifiez le **[!UICONTROL Taux de diffusion]** souhaité.
+Pour définir le contrôle des taux, activez l’option **[!UICONTROL Ralentir la diffusion]** dans la section **[!UICONTROL Paramètres de diffusion]** et indiquez le **[!UICONTROL Taux de diffusion]** par seconde souhaité.
 
 ![](assets/throttling-rate-control.png)
 
