@@ -1,18 +1,18 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Ajouter une action de canal intégrée à un parcours
-description: Découvrir comment ajouter une action de canal intégrée à un parcours
+title: Utiliser l’activité parcours d’action
+description: Découvrez comment ajouter une activité Action générique pour configurer des actions uniques et des groupes d’actions entrants multiactions dans la zone de travail du parcours.
 feature: Journeys, Activities, Channels Activity
 topic: Content Management
 role: User
 level: Intermediate
 keywords: parcours, message, notification push, sms, e-mail, in-app, web, carte de contenu, expérience basée sur du code
 exl-id: 0ed97ffa-8efc-45a2-99ae-7bcb872148d5
-source-git-commit: e74074702c82ede09dc311a16e0f67a84b931fa2
+source-git-commit: 6ca732dc6f784897d76dabb605e398497b2ffdd6
 workflow-type: tm+mt
-source-wordcount: '984'
-ht-degree: 39%
+source-wordcount: '991'
+ht-degree: 37%
 
 ---
 
