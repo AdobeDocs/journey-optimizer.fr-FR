@@ -2,10 +2,10 @@
 title: Utiliser des identifiants supplémentaires dans les parcours
 description: Découvrez comment utiliser des identifiants supplémentaires dans les parcours.
 exl-id: f6ebd706-4402-448a-a538-e9a4c2cf0f8b
-source-git-commit: efd39577a4836144c4ba41018e5750278e82c079
+source-git-commit: c46ad0283eec025cbf6183bf1aac0e3808450e21
 workflow-type: tm+mt
-source-wordcount: '1236'
-ht-degree: 93%
+source-wordcount: '1257'
+ht-degree: 92%
 
 ---
 
@@ -101,6 +101,8 @@ Pour utiliser un identifiant supplémentaire dans un parcours déclenché par un
 
    1. Sélectionnez l’espace de noms à associer à l’identifiant supplémentaire. Il doit s’agir d’un espace de noms d’identifiant qui ne porte pas sur une personne.
 
+      Après avoir appliqué l’espace de noms d’identité non-personne à un schéma, vous devez créer un événement pour utiliser l’identifiant supplémentaire. Les entités existantes ne peuvent pas être actualisées pour reconnaître le nouvel identifiant.
+
 1. **Ajoutez l’ID supplémentaire à l’événement.**
 
    1. Créez ou modifiez l’événement souhaité. [Découvrez comment configurer un événement unitaire.](../event/about-creating.md)
@@ -141,9 +143,7 @@ Pour utiliser un identifiant supplémentaire dans un parcours de lecture d’aud
 
    1. Sélectionnez l’espace de noms à associer à l’identifiant supplémentaire. Il doit s’agir d’un espace de noms d’identifiant qui ne porte pas sur une personne.
 
-      >[!NOTE]
-      >
-      >Après avoir appliqué l’espace de noms d’identité non-personne à un schéma, vous devez créer un événement (pour les parcours déclenchés par un événement) ou un nouveau groupe de champs (pour les parcours Lecture d’audience) afin d’utiliser l’identifiant supplémentaire. Les entités existantes ne peuvent pas être actualisées pour reconnaître le nouvel identifiant.
+      Après avoir appliqué l’espace de noms d’identité non-personne à un schéma, vous devez créer un nouveau groupe de champs pour utiliser l’identifiant supplémentaire. Les entités existantes ne peuvent pas être actualisées pour reconnaître le nouvel identifiant.
 
 <!--1. **Add the supplemental ID field to the data source**
 
@@ -250,4 +250,4 @@ Dans un tableau d’objets avec l’ID supplémentaire comme `bookingNum` et un 
 
 Découvrez comment activer et appliquer un identifiant supplémentaire dans [!DNL Adobe Journey Optimizer].
 
->[!VIDEO](https://video.tv.adobe.com/v/3464794?quality=12&captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/3464792?quality=12)
