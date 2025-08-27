@@ -29,7 +29,7 @@ ht-degree: 5%
 
 L’activité **Optimiser** vous permet de définir la progression des individus dans votre parcours en créant plusieurs **chemins d’accès** en fonction de critères spécifiques, notamment l’expérimentation, le ciblage et des conditions spécifiques, afin d’assurer un engagement et une réussite optimaux pour la création de parcours hautement personnalisés et efficaces.
 
-Un chemin de parcours **&#x200B;**&#x200B;peut être constitué de l’un des éléments suivants :
+Un chemin de parcours **** peut être constitué de l’un des éléments suivants :
 
 * le séquencement des communications ;
 * temps intermédiaire ;
