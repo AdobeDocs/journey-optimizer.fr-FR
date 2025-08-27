@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 6e291ce3-f324-4e5d-975b-5229dea4d581
-source-git-commit: 9d87d133bb580ebed94a265beded5895f7fd0301
+source-git-commit: 50933d991c6a337e6d1739652d680778759ef0d5
 workflow-type: tm+mt
-source-wordcount: '835'
+source-wordcount: '807'
 ht-degree: 100%
 
 ---
@@ -81,7 +81,7 @@ La personne recevra un e-mail avec des instructions pour accéder à votre insta
 
 Vous trouverez ci-dessous des instructions générales concernant l’utilisation de l’assistant IA dans Adobe Journey Optimizer pour la génération d’e-mails :
 
-* La qualité du contenu généré est fortement influencée par l’objectif/le prompt marketing que vous définissez. Utilisez une invite bien définie pour que le modèle GenAI soit correctement interprété. 
+* La qualité du contenu généré est fortement influencée par l’objectif/le prompt marketing que vous définissez. Utilisez un prompt bien défini pour que le modèle GenAI soit correctement interprété. 
 * Chargez les ressources de marque pour disposer de contenu exact sur la marque. Sinon, le contenu est basé sur des informations disponibles publiquement. Le contenu chargé peut se présenter sous les formats suivants : fichiers PDF, JPEG, PNG ou ZIP (avec les formats de fichiers pris en charge).
 * La taille maximale des ressources de marque chargées est de 50 Mo. Des fichiers plus volumineux ou un grand nombre d’images peuvent être utilisés, mais le temps de traitement est plus long.
 * Utilisez un modèle personnalisé ou spécifique à la marque pour créer votre contenu d’e-mail à l’aide de l’Assistant IA dans Adobe Journey Optimizer. Il est recommandé d’utiliser un modèle d’e-mail contenant jusqu’à 8 à 10 images.
@@ -91,7 +91,6 @@ Vous trouverez ci-dessous des instructions générales concernant l’utilisatio
 
 Les restrictions suivantes s’appliquent à l’Assistant IA dans Adobe Journey Optimizer :
 
-* La langue prise en charge est uniquement l’anglais. Les entrées non anglaises peuvent produire des résultats incohérents ou erronés. Les questions découlant des réponses non anglaises ne seront pas traitées ni améliorées pour le moment.
 * Uniquement disponible pour les canaux e-mail, notification push et SMS.
 * Le contenu GenAI n’est peut-être pas toujours précis : partagez vos commentaires pour que nos ingénieures et ingénieurs puissent affiner les modèles.
 * Vous pouvez charger plusieurs ressources de marque, mais vous ne pouvez en utiliser qu’une seule pour une génération spécifique.

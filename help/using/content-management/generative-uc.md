@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 958ad2bb-b62e-431d-8ad6-7b294cbba544
-source-git-commit: 9d87d133bb580ebed94a265beded5895f7fd0301
+source-git-commit: 50933d991c6a337e6d1739652d680778759ef0d5
 workflow-type: tm+mt
-source-wordcount: '523'
-ht-degree: 100%
+source-wordcount: '607'
+ht-degree: 90%
 
 ---
 
@@ -110,5 +110,23 @@ Lorsque vous avez défini le contenu, l’audience et le planning, vous pouvez p
 1. Passez en revue les **[!UICONTROL suggestions de variation]** pour localiser la ressource que vous préférez.
 
 1. Sélectionnez **[!UICONTROL Prévisualisation]** pour afficher la variation choisie en mode plein écran.
+
+1. Une fois que vous avez trouvé le contenu approprié, cliquez sur **[!UICONTROL Sélectionner]**.
+
+## Générer du contenu dans plusieurs langues {#languages}
+
+![](assets/do-not-localize/gen-ai-language.gif)
+
+1. Une fois votre campagne définie et configurée, cliquez sur **[!UICONTROL Modifier le contenu]**.
+
+1. Ouvrez le menu **[!UICONTROL Assistant IA]**.
+
+1. Ajustez le contenu en saisissant la demande souhaitée dans la zone **[!UICONTROL Invite]** en français, espagnol, allemand, italien, japonais, suédois, néerlandais ou norvégien.
+
+1. Personnalisez votre invite à l’aide de l’option **[!UICONTROL Paramètres de texte]** et sélectionnez les **[!UICONTROL Langues]** de votre choix pour le contenu généré.
+
+1. Personnalisez davantage votre invite selon vos besoins, puis cliquez sur **[!UICONTROL Générer]**.
+
+1. Examinez les **[!UICONTROL suggestions de variation]** dans la langue sélectionnée.
 
 1. Une fois que vous avez trouvé le contenu approprié, cliquez sur **[!UICONTROL Sélectionner]**.
