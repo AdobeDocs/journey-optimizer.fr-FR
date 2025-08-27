@@ -9,9 +9,9 @@ role: User
 level: Beginner, Intermediate
 keywords: parcours, activités, commencer, événements, action
 exl-id: 239b3d72-3be0-4a82-84e6-f219e33ddca4
-source-git-commit: a770cbc1736e7add7e25f2cc8210d81bd8b2e375
+source-git-commit: 19130e9eb5a2144afccab9fa8e5632de67bc7157
 workflow-type: tm+mt
-source-wordcount: '690'
+source-wordcount: '689'
 ht-degree: 100%
 
 ---
@@ -42,7 +42,7 @@ Les activités d’orchestration sont des conditions différentes qui permettent
 
 Les activités d’orchestration ci-dessous sont disponibles dans la palette située dans la partie gauche de l’écran :
 
-* [Optimiser](optimize.md)
+<!--* [Optimize](optimize.md)-->
 * [Lecture d’audience](read-audience.md)
 * [Attente](wait-activity.md)
 * [Décision de contenu](content-decision.md)

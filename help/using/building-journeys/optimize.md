@@ -9,7 +9,10 @@ role: User
 level: Intermediate
 keywords: activité, condition, zone de travail, parcours, optimisation
 badge: label="Disponibilité limitée" type="Informative"
-source-git-commit: a770cbc1736e7add7e25f2cc8210d81bd8b2e375
+hidefromtoc: true
+hide: true
+exl-id: f6618de4-7861-488e-90c0-f299ef5897ca
+source-git-commit: 19130e9eb5a2144afccab9fa8e5632de67bc7157
 workflow-type: tm+mt
 source-wordcount: '1024'
 ht-degree: 5%
@@ -29,7 +32,7 @@ ht-degree: 5%
 
 L’activité **Optimiser** vous permet de définir la progression des individus dans votre parcours en créant plusieurs **chemins d’accès** en fonction de critères spécifiques, notamment l’expérimentation, le ciblage et des conditions spécifiques, afin d’assurer un engagement et une réussite optimaux pour la création de parcours hautement personnalisés et efficaces.
 
-Un chemin de parcours **&#x200B;**&#x200B;peut être constitué de l’un des éléments suivants :
+Un chemin de parcours **** peut être constitué de l’un des éléments suivants :
 
 * le séquencement des communications ;
 * temps intermédiaire ;
