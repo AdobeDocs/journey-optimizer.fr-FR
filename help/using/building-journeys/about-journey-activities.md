@@ -9,9 +9,9 @@ role: User
 level: Beginner, Intermediate
 keywords: parcours, activités, commencer, événements, action
 exl-id: 239b3d72-3be0-4a82-84e6-f219e33ddca4
-source-git-commit: 527a539272460aa6aa22de5bb3da2223521ee2a3
+source-git-commit: a770cbc1736e7add7e25f2cc8210d81bd8b2e375
 workflow-type: tm+mt
-source-wordcount: '688'
+source-wordcount: '690'
 ht-degree: 100%
 
 ---
@@ -42,11 +42,12 @@ Les activités d’orchestration sont des conditions différentes qui permettent
 
 Les activités d’orchestration ci-dessous sont disponibles dans la palette située dans la partie gauche de l’écran :
 
-* [Condition](../building-journeys/condition-activity.md)
-* [Attente](../building-journeys/wait-activity.md)
-* [Lecture d’audience](../building-journeys/read-audience.md)
+* [Optimiser](optimize.md)
+* [Lecture d’audience](read-audience.md)
+* [Attente](wait-activity.md)
+* [Décision de contenu](content-decision.md)
 
-![Palette des activités d’orchestration dans le concepteur de parcours](assets/journey49.png)
+![Palette des activités d’orchestration dans le concepteur de parcours](assets/journey-orchestration-activities.png)
 
 ## Activités d’action {#action-activities}
 

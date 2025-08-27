@@ -7,9 +7,9 @@ role: User
 level: Intermediate
 keywords: optimisation des campagnes, expérimentation, ciblage, tests A/B
 exl-id: 0f563d61-7a9e-46bf-adfb-5a26e63505b9
-source-git-commit: 270bc80cbd8cc1ebaba7449b344f32425759f66e
+source-git-commit: a770cbc1736e7add7e25f2cc8210d81bd8b2e375
 workflow-type: tm+mt
-source-wordcount: '1047'
+source-wordcount: '1045'
 ht-degree: 6%
 
 ---
@@ -113,7 +113,7 @@ Pour configurer l’expérimentation et déterminer le message qui génère le p
    >
    >Si vous vous trouvez dans un parcours, ajoutez une activité **[!UICONTROL Action]**, choisissez une activité de canal et sélectionnez **[!UICONTROL Configurer l’action]**. [En savoir plus](../building-journeys/journey-action.md#add-action)
 
-1. Dans l’onglet **[!UICONTROL Actions]**, sélectionnez au moins deux actions entrantes, par exemple [expérience basée sur du code](../code-based/get-started-code-based.md) et [In-app](../../rp_landing_pages/in-app-landing-page.md).
+1. Dans l’onglet **[!UICONTROL Actions]**, sélectionnez deux actions entrantes, par exemple [expérience basée sur du code](../code-based/get-started-code-based.md) et [In-app](../../rp_landing_pages/in-app-landing-page.md).
 
 1. Dans la section **[!UICONTROL Optimisation]**, sélectionnez **[!UICONTROL Créer une expérience]**.
 
@@ -181,4 +181,4 @@ E.g. explaining how a marketer can look at the report to determine which treatme
 
 Apprenez à tirer parti de l’optimisation des messages dans les campagnes déclenchées par des actions ou des API. Vous découvrirez comment cibler des sous-audiences, créer des variations de messages en fonction de la localisation, activer un contenu de secours et mener plusieurs expériences au sein d’une même campagne. Ce tutoriel explique également comment gérer des campagnes à plusieurs canaux, tout en maintenant la cohérence du message.
 
->[!VIDEO](https://video.tv.adobe.com/v/3470370?quality=12&captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/3470368?quality=12)
