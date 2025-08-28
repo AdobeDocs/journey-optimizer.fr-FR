@@ -8,10 +8,10 @@ role: Data Engineer, Data Architect, Admin
 level: Experienced
 keywords: platform, lac de données, créer, lac, jeux de données, profil
 exl-id: 08633a79-5601-4e36-b8cf-080234956d99
-source-git-commit: 3aa3203ae7763d81288cb70a2984d017b0006bb3
+source-git-commit: fbd0280d293cef3548b48c2992b4f9f2793a7e1f
 workflow-type: tm+mt
 source-wordcount: '689'
-ht-degree: 91%
+ht-degree: 89%
 
 ---
 
@@ -76,13 +76,13 @@ Les extensions de la durée de vie ne sont actuellement pas prises en charge. Ce
 
 >[!NOTE]
 >
->Les données stockées dans le profil sont soumises aux droits relatifs au volume total de données. Par conséquent, toute augmentation du stockage de données sur le profil suite à une extension de la durée de vie est comptabilisée dans les droits relatifs au volume total de données. [En savoir plus](https://experienceleague.adobe.com/docs/experience-platform/landing/license/total-data-volume.html?lang=fr){target=_blank}
+>Les données stockées dans le profil sont soumises aux droits relatifs au volume total de données. Par conséquent, toute augmentation du stockage de données sur le profil suite à une extension de la durée de vie est comptabilisée dans les droits relatifs au volume total de données. [En savoir plus](https://experienceleague.adobe.com/docs/experience-platform/landing/license/total-data-volume.html?lang=fr){target=&quot;_blank}
 
 +++
 
 +++Les clients peuvent-ils augmenter la durée de vie des données [!DNL Journey Optimizer] jeu de données système dans le lac de données ? 
 
-Les extensions de la durée de vie ne sont actuellement pas prises en charge. Les clientes et clients peuvent exporter des données via les destinations pour conserver les données plus longtemps. [En savoir plus](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/export-datasets.html?lang=fr){target=_blank} En outre, les clientes et clients disposant de droits **[!DNL Data Distiller]** peuvent créer des jeux de données dérivés pour stocker les données dans le lac de données sans TTL. [En savoir plus](https://experienceleague.adobe.com/fr/docs/experience-platform/query/data-distiller/derived-datasets/overview){target=_blank}
+Les extensions de la durée de vie ne sont actuellement pas prises en charge. Les clientes et clients peuvent exporter des données via les destinations pour conserver les données plus longtemps. [En savoir plus](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/export-datasets.html?lang=fr){target=&quot;_blank} En outre, les clientes et clients disposant de droits **[!DNL Data Distiller]** peuvent créer des jeux de données dérivés pour stocker les données dans le lac de données sans TTL. [En savoir plus](https://experienceleague.adobe.com/fr/docs/experience-platform/query/data-distiller/derived-datasets/overview){target=&quot;_blank}
 
 +++
 
@@ -99,7 +99,7 @@ Les extensions de la durée de vie ne sont actuellement pas prises en charge. Le
   >
   >Une durée de vie est déjà implémentée sur la connexion [!DNL Customer Journey Analytics] (CJA), ce qui réduit à 13 mois la période de recherche en amont maximale effective des données du jeu de données concerné.
 
-* **Source de données Experience Platform** : oui - la récupération de l’événement d’expérience est soumise à la durée de vie de 90 jours.
+* **Source de données Experience Platform** : sans objet - La récupération des événements d’expérience n’est pas prise en charge via les sources de données.
 * **Attributs calculés** : oui - le calcul du renvoi initial sera limité aux 90 derniers jours de données ; l’attribut calculé sera mis à jour en fonction des événements incrémentiels pour les mises à jour ultérieures. Dès que les mises à jour suivantes atteignent la période de recherche en amont (6 mois max.), la durée de vie n’affecte pratiquement plus l’attribut calculé. En savoir plus.
 * **Segmentation et reciblage** : oui - la segmentation dépend des données de la banque de profils. Par conséquent, la recherche en amont a été limitée à 90 jours sur les données des jeux de données affectés.
 * **Suivi** : oui - réduit à 90 jours la période de recherche en amont maximale effective des données du jeu de données concerné. Les données des jeux de données affectés résident pendant 13 mois dans le lac de données.
