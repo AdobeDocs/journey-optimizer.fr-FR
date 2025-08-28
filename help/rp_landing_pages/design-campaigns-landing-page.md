@@ -4,13 +4,13 @@ product: Journey Optimizer
 title: Activités de campagnes orchestrées
 description: Activités de campagnes orchestrées
 redpen-status: CREATED_||_2025-08-11_20-27-08
-source-git-commit: 5a8ef88cba254241933607ca59156d35e0e92926
+exl-id: d6635d58-b618-4d92-b60f-c6fc63e473a6
+source-git-commit: 4270fbfb191700704d161f472abf62f7af79c208
 workflow-type: tm+mt
 source-wordcount: '347'
-ht-degree: 8%
+ht-degree: 6%
 
 ---
-
 
 # Activités de campagnes orchestrées{#section-overview}
 
@@ -20,7 +20,7 @@ Les activités de campagne orchestrées dans Adobe Journey Optimizer vous permet
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
 
 Utiliser des activités de campagne orchestrées
 
@@ -30,7 +30,7 @@ Découvrez les activités de ciblage, de canal et de contrôle de flux pour conc
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Utilisation de l’activité AND-join
 
@@ -40,7 +40,7 @@ Synchronisez plusieurs branches d&#39;exécution en vous assurant que les tâche
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 Activité Créer une audience
 
@@ -50,7 +50,7 @@ Définissez et configurez des segments d’audience pour vos campagnes à l’ai
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 Activité Modifier la dimension
 
@@ -60,7 +60,7 @@ Améliorez le ciblage en passant d’une entité de données à l’autre dans v
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Activités des canaux
 
@@ -70,7 +70,7 @@ Configurez les e-mails, les SMS, les notifications push et le publipostage direc
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 Combiner l’activité
 
