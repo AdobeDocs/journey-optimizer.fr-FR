@@ -8,10 +8,10 @@ role: User
 level: Beginner
 keywords: externe, API, optimizer, limitation
 exl-id: 27859689-dc61-4f7a-b942-431cdf244455
-source-git-commit: 0a6db9c9537563fea5d56289d78b9ed49d703734
+source-git-commit: 967713938ab0e3eaaaad7a86054ed1270a9cc1ca
 workflow-type: tm+mt
-source-wordcount: '1352'
-ht-degree: 100%
+source-wordcount: '1499'
+ht-degree: 90%
 
 ---
 
@@ -76,7 +76,15 @@ Pour les **actions personnalisées**, vous devez évaluer la capacité de votre 
 >
 >Les réponses étant désormais prises en charge, vous devez utiliser des actions personnalisées au lieu de sources de données pour les cas d’utilisation de sources de données externes. Pour plus d’informations sur les réponses, voir [cette section](../action/action-response.md)
 
-## Temporisation et reprises{#timeout}
+## Points d’entrée avec un temps de réponse lent {#response-time}
+
+Lorsqu’un point d’entrée a un temps de réponse supérieur à 0,75 seconde, ses appels d’action personnalisée sont acheminés via un **service d’action personnalisée lent** dédié au lieu du service par défaut.
+
+Ce service d’action personnalisée lent applique une limite de limitation de 150 000 appels toutes les 30 secondes. La limite est appliquée à l’aide d’une fenêtre coulissante, qui peut commencer à n’importe quelle milliseconde au cours de cette période de 30 secondes. Une fois la fenêtre pleine, les appels supplémentaires sont rejetés avec des erreurs de limitation. Le système n’attend pas l’intervalle fixe suivant, mais commence la limitation immédiatement après l’atteinte du seuil de 30 secondes.
+
+Comme les points d’entrée lents peuvent entraîner des retards pour toutes les actions en file d’attente du pipeline, il est recommandé de ne pas configurer d’actions personnalisées avec des points d’entrée dont les temps de réponse sont lents. Le routage de ces actions vers le service lent permet de protéger les performances globales du système et d’éviter une latence supplémentaire pour d’autres actions personnalisées.
+
+## Temporisation et reprises {#timeout}
 
 Si la règle de plafonnement ou de limitation est remplie, la règle de temporisation est appliquée.
 

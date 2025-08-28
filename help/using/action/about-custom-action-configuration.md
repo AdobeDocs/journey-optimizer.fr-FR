@@ -9,10 +9,10 @@ role: Data Engineer, Data Architect, Admin
 level: Experienced
 keywords: action, tiers, personnalisé, parcours, API
 exl-id: 4df2fc7c-85cb-410a-a31f-1bc1ece237bb
-source-git-commit: 3aa3203ae7763d81288cb70a2984d017b0006bb3
+source-git-commit: 967713938ab0e3eaaaad7a86054ed1270a9cc1ca
 workflow-type: tm+mt
-source-wordcount: '1720'
-ht-degree: 99%
+source-wordcount: '1749'
+ht-degree: 97%
 
 ---
 
@@ -36,6 +36,11 @@ Dans les paramètres d’action personnalisée, vous pouvez transmettre une coll
 Notez également qu’un format spécifique est attendu pour les paramètres d’action personnalisés (par exemple : chaîne, décimal, etc.). Vous devez veiller au respect de cette exigence. En savoir plus sur ce [cas d’utilisation](../building-journeys/collections.md).
 
 Les actions personnalisées prennent en charge le format JSON uniquement lors de l’utilisation de [requêtes](../action/about-custom-action-configuration.md#define-the-message-parameters) ou de [payloads de réponse](../action/action-response.md).
+
+>[!NOTE]
+>
+>Lorsqu’un point d’entrée a un temps de réponse supérieur à 0,75 seconde, ses appels d’action personnalisés sont acheminés via un service lent [action personnalisée](../configuration/external-systems.md#response-time) dédié au lieu du service par défaut.
+
 
 ## Bonnes pratiques{#custom-action-enhancements-best-practices}
 
