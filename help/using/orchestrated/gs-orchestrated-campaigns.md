@@ -5,10 +5,10 @@ title: Commencer avec les campagnes orchestrées
 description: Découvrez comment commencer avec les campagnes orchestrées
 short-description: Découvrez les fonctionnalités clés et les cas d’utilisation des campagnes orchestrées.
 exl-id: 611dd06d-aa18-4fa3-a477-8a910cec21d8
-source-git-commit: 4510cfde1579fbabe7deb1289f70f13ee21a3d4a
+source-git-commit: 24e767d6f146036c8c0a34193ed6d36e5d43e6b2
 workflow-type: tm+mt
 source-wordcount: '619'
-ht-degree: 100%
+ht-degree: 94%
 
 ---
 
@@ -64,9 +64,9 @@ La zone de travail d’une campagne orchestrée est une représentation de ce qu
 
 Chaque campagne orchestrée contient :
 
-* des **Activités** : une activité est une tâche à effectuer. Les différentes activités disponibles sont représentées sur le diagramme par des icônes. Chaque activité possède des propriétés spécifiques et d’autres propriétés communes à toutes les activités.
+* des **Activités** : une activité est une tâche à effectuer. Les différentes activités sont représentées sur la zone de travail par des icônes. Chaque activité possède des propriétés spécifiques et d’autres propriétés communes à toutes les activités.
 
-  Dans un diagramme de campagne orchestrée, une même activité peut engendrer plusieurs tâches, notamment en cas de boucle ou d’actions récurrentes.
+  Dans une zone de travail de campagne orchestrée, une activité donnée peut générer plusieurs tâches, notamment en cas de boucle ou d’actions récurrentes.
 
 * **Transitions** : les transitions relient une activité source à une activité de destination et définissent leur ordre.
 

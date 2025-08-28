@@ -4,10 +4,10 @@ product: journey optimizer
 title: Démarrer et surveiller les campagnes orchestrées avec Adobe Journey Optimizer
 description: Découvrez comment démarrer et surveiller les campagnes orchestrées avec Adobe Journey Optimizer.
 exl-id: 5fc2d1d6-75c3-4b45-bb2b-09982b9bd5ed
-source-git-commit: 3a44111345c1627610a6b026d7b19b281c4538d3
+source-git-commit: 24e767d6f146036c8c0a34193ed6d36e5d43e6b2
 workflow-type: tm+mt
 source-wordcount: '761'
-ht-degree: 55%
+ht-degree: 53%
 
 ---
 
@@ -35,7 +35,7 @@ Pour tester une campagne orchestrée, ouvrez la campagne et sélectionnez **[!UI
 
 ![](assets/campaign-start.png){zoomable="yes"}
 
-Chaque activité de la campagne est exécutée de manière séquentielle jusqu’à la fin du diagramme. Pendant le test, vous pouvez contrôler l’exécution de la campagne à l’aide de la barre d’actions de la zone de travail. Plusieurs possibilités sʼoffrent alors à vous :
+Chaque activité de la campagne est exécutée de manière séquentielle jusqu’à ce que la fin de la zone de travail soit atteinte. Pendant le test, vous pouvez contrôler l’exécution de la campagne à l’aide de la barre d’actions de la zone de travail. Plusieurs possibilités sʼoffrent alors à vous :
 
 * **Arrêtez** l’exécution à tout moment.
 * **Démarrez** l’exécution à nouveau.
@@ -115,4 +115,4 @@ Sous les deux onglets, vous pouvez choisir les colonnes à afficher et leur ordr
 
 ## Étapes suivantes {#next}
 
-Après avoir démarré le diagramme de Campagne orchestrée, vous pouvez utiliser les fonctionnalités de création de rapports de Journey Optimizer pour obtenir des informations, telles que la compréhension du comportement de l’audience et la mesure des performances de chaque étape de votre parcours client. [En savoir plus sur le reporting des campagnes orchestrées](../orchestrated/reporting-campaigns.md)
+Après avoir démarré la zone de travail de campagne orchestrée, vous pouvez utiliser les fonctionnalités de création de rapports de Journey Optimizer pour obtenir des informations, telles que la compréhension du comportement de l’audience et la mesure des performances de chaque étape de votre parcours client. [En savoir plus sur le reporting des campagnes orchestrées](../orchestrated/reporting-campaigns.md)
