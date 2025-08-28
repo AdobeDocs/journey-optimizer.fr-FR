@@ -2,12 +2,12 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Étapes de configuration
-description: Découvrez comment importer des données dans Adobe Experience Platform à partir de sources prises en charge telles que le protocole SFTP, l’espace de stockage dans le cloud ou les bases de données.
+description: Découvrez comment insérer des données dans Adobe Experience Platform à partir de sources prises en charge telles que SFTP, l’espace de stockage dans le cloud ou des bases de données.
 exl-id: 7f1e7985-b68e-43d6-9c8f-fea2469f8af9
 source-git-commit: c1201025af216f8f3019e7696b6eb906962b681b
 workflow-type: tm+mt
 source-wordcount: '699'
-ht-degree: 22%
+ht-degree: 93%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 22%
 >
 >Pour modifier la source de données d’un jeu de données, vous devez d’abord supprimer le flux de données existant avant d’en créer un nouveau qui référence le même jeu de données et la nouvelle source.
 >
->Adobe Experience Platform applique une relation stricte et individuelle entre les flux de données et les jeux de données. Cela vous permet de maintenir la synchronisation entre la source et le jeu de données pour une ingestion incrémentielle précise.
+>Adobe Experience Platform applique une relation stricte de un-à-un entre les flux de données et les jeux de données. Cela vous permet de maintenir la synchronisation entre la source et le jeu de données pour une ingestion incrémentielle précise.
 
 Adobe Experience Platform permet d’ingérer des données à partir de sources externes tout en vous offrant la possibilité de structurer, d’étiqueter et d’améliorer les données entrantes à l’aide des services d’Experience Platform. Vous pouvez ingérer des données provenant de diverses sources telles que les applications Adobe, les stockages dans le cloud, les bases de données, etc.
 
@@ -26,7 +26,7 @@ Un jeu de données est une structure de stockage et de gestion pour une collecti
 
 ## Sources prises en charge pour les campagnes orchestrées {#supported}
 
-Les sources suivantes sont prises en charge pour une utilisation avec des campagnes orchestrées :
+Les sources suivantes sont prises en charge pour une utilisation dans des campagnes orchestrées :
 
 <table>
   <thead>
@@ -37,14 +37,14 @@ Les sources suivantes sont prises en charge pour une utilisation avec des campag
   </thead>
   <tbody>
     <tr>
-      <td rowspan="3">Stockage dans le cloud</td>
+      <td rowspan="3">Espace de stockage dans le cloud</td>
       <td><a href="https://experienceleague.adobe.com/fr/docs/experience-platform/sources/ui-tutorials/create/cloud-storage/s3">Amazon S3</a></td>
     </tr>
     <tr>
       <td><a href="https://experienceleague.adobe.com/fr/docs/experience-platform/sources/ui-tutorials/create/cloud-storage/google-cloud-storage">Google Cloud Storage</a></td>
     </tr>
     <tr>
-      <td><a href="https://experienceleague.adobe.com/fr/docs/experience-platform/sources/ui-tutorials/create/cloud-storage/sftp">SFTP</a></td>
+      <td><a href="https://experienceleague.adobe.com/en/docs/experience-platform/sources/ui-tutorials/create/cloud-storage/sftp">SFTP</a></td>
     </tr>
       <td rowspan="4">Entrepôts de données cloud</td>
       <td><a href="https://experienceleague.adobe.com/fr/docs/experience-platform/sources/ui-tutorials/create/databases/snowflake">Snowflake</a></td>
@@ -59,8 +59,8 @@ Les sources suivantes sont prises en charge pour une utilisation avec des campag
       <td><a href="https://experienceleague.adobe.com/fr/docs/experience-platform/sources/ui-tutorials/create/databases/databricks">Azure Databricks</a></td>
     </tr>
     <tr>
-      <td rowspan="3">Chargements Basés Sur Des Fichiers</td>
-      <td><a href="https://experienceleague.adobe.com/fr/docs/experience-platform/sources/ui-tutorials/create/local-system/local-file-upload">Chargement de fichier local<a></td>
+      <td rowspan="3">Chargements basés sur des fichiers</td>
+      <td><a href="https://experienceleague.adobe.com/fr/docs/experience-platform/sources/ui-tutorials/create/local-system/local-file-upload">Chargement de fichiers locaux<a></td>
     </tr>
 
 </tbody>
@@ -68,21 +68,21 @@ Les sources suivantes sont prises en charge pour une utilisation avec des campag
 
 ## Instructions relatives à l’hygiène des données des schémas relationnels {#cdc}
 
-Pour les jeux de données activés avec l’option **[!UICONTROL Modifier la capture de données]**, toutes les modifications de données, y compris les suppressions, sont automatiquement mises en miroir du système source vers Adobe Experience Platform.
+Pour les jeux de données avec l’option **[!UICONTROL Capture des données modifiées]** activée, toutes les modifications de données, y compris les suppressions, sont automatiquement répliquées dans Adobe Experience Platform à partir du système source.
 
-Comme les campagnes Adobe Journey Optimizer nécessitent que tous les jeux de données intégrés soient activés avec l’option **[!UICONTROL Modifier la capture de données]**, il est de la responsabilité du client de gérer les suppressions à la source. Tout enregistrement supprimé du système source est automatiquement supprimé du jeu de données correspondant dans Adobe Experience Platform.
+Étant donné que les campagnes Adobe Journey Optimizer nécessitent que tous les jeux de données intégrés aient l’option **[!UICONTROL Capture des données modifiées]** activée, il est de la responsabilité du client ou de la cliente de gérer les suppressions à la source. Tout enregistrement supprimé dans le système source est automatiquement supprimé du jeu de données correspondant dans Adobe Experience Platform.
 
-Pour supprimer des enregistrements par ingestion basée sur des fichiers, le fichier de données du client doit marquer l’enregistrement à l’aide d’une valeur `D` dans le champ `Change Request Type` . Cela indique que l’enregistrement doit être supprimé dans Adobe Experience Platform, en reflétant le système source.
+Pour supprimer des enregistrements par ingestion basée sur des fichiers, le fichier de données du client ou de la cliente doit marquer l’enregistrement à l’aide d’une valeur `D` dans le champ `Change Request Type`. Celle-ci indique que l’enregistrement doit être supprimé dans Adobe Experience Platform, reflétant ainsi le système source.
 
-Si le client ou la cliente souhaite supprimer uniquement des enregistrements de Adobe Experience Platform sans affecter les données source d’origine, les options suivantes sont disponibles :
+Si le client ou la cliente souhaite supprimer uniquement des enregistrements dans Adobe Experience Platform sans affecter les données source d’origine, les options suivantes peuvent être utilisées :
 
-* **Table proxy ou assainie pour la réplication de capture de données de modification**
+* **Table proxy ou table assainie pour la réplication de la capture des données modifiées**
 
-  Le client peut créer une table source proxy ou assainie pour contrôler les enregistrements répliqués dans Adobe Experience Platform. Les suppressions peuvent ensuite être gérées de manière sélective à partir de cette table intermédiaire.
+  Le client ou la cliente peut créer une table source proxy ou assainie pour contrôler quels enregistrements seront répliqués dans Adobe Experience Platform. Les suppressions peuvent ensuite être gérées de manière sélective à partir de cette table intermédiaire.
 
 * **Suppression via Data Distiller**
 
-  S’il dispose d’une licence, **Data Distiller** peut être utilisé pour prendre en charge les opérations de suppression directement dans Adobe Experience Platform, indépendamment du système source.
+  Si une licence est disponible, **Data Distiller** peut être utilisé pour prendre en charge les opérations de suppression directement dans Adobe Experience Platform, indépendamment du système source.
 
   [En savoir plus sur Data Distiller](https://experienceleague.adobe.com/fr/docs/experience-platform/query/data-distiller/overview)
 
@@ -92,11 +92,11 @@ Cet exemple montre comment configurer un flux de données qui ingère des donné
 
 1. Dans le menu **[!UICONTROL Connexions]**, accédez au menu **[!UICONTROL Sources]**.
 
-1. Choisissez votre source en fonction de la [Sources prises en charge pour les campagnes orchestrées](#supported).
+1. Choisissez votre source en fonction des [Sources prises en charge pour les campagnes orchestrées](#supported).
 
    ![](assets/admin_sources_1.png)
 
-1. Connectez votre compte d’espace de stockage ou d’espace de stockage Google si vous avez choisi des sources basées sur le cloud.
+1. Connectez votre compte d’espace de stockage dans le cloud ou d’espace de stockage dans le cloud Google si vous avez choisi des sources basées sur le cloud.
 
    ![](assets/admin_sources_2.png)
 
@@ -104,9 +104,9 @@ Cet exemple montre comment configurer un flux de données qui ingère des donné
 
    ![](assets/S3_config_1.png)
 
-1. Sur la page **[!UICONTROL Détails du jeu de données]**, cochez la case **[!UICONTROL Activer la capture de données Modifier]** pour afficher uniquement les jeux de données mappés à des schémas relationnels et incluant une clé primaire et un descripteur de version.
+1. Depuis la page **[!UICONTROL Détails du jeu de données]**, cochez **[!UICONTROL Activer la capture des données modifiées]** pour afficher uniquement les jeux de données mappés à des schémas relationnels et contenant à la fois une clé primaire et un descripteur de version.
 
-[En savoir plus sur les instructions d’hygiène des données des schémas relationnels](#cdc)
+[En savoir plus sur les directives relatives à l’hygiène des données des schémas relationnels](#cdc)
 
    >[!IMPORTANT]
    >
@@ -120,7 +120,7 @@ Cet exemple montre comment configurer un flux de données qui ingère des donné
 
 1. Si vous utilisez uniquement des sources basées sur des fichiers, dans la fenêtre **[!UICONTROL Sélectionner les données]**, chargez vos fichiers locaux et prévisualisez leur structure et leur contenu.
 
-   Notez que la taille maximale prise en charge est de 100MB.
+   Notez que la taille maximale prise en charge est de 100 Mo.
 
 1. Dans la fenêtre **[!UICONTROL Mappage]**, vérifiez que chaque attribut de fichier source est correctement mappé avec les champs correspondants dans le schéma cible. [Découvrez les dimensions de ciblage](target-dimension.md).
 

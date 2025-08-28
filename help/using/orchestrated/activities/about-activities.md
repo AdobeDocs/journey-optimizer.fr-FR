@@ -1,18 +1,18 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Utiliser des activités de campagne orchestrées
-description: Découvrez comment orchestrer des activités de campagne
+title: Utiliser des activités de campagnes orchestrées
+description: Découvrir comment utiliser des activités de campagne orchestrée
 exl-id: 02f986b2-8200-4e0e-8918-44e528a6a3ec
 source-git-commit: 2e04d3022ff6e8427e80a5a22cae367c4995730a
 workflow-type: tm+mt
 source-wordcount: '407'
-ht-degree: 66%
+ht-degree: 94%
 
 ---
 
 
-# À propos des activités de campagne orchestrées {#orchestrated-campaign-activities}
+# À propos des activités de campagne orchestrée {#orchestrated-campaign-activities}
 
 Les activités de campagnes orchestrées sont regroupées en trois catégories. Selon le contexte, les activités disponibles peuvent différer.
 
@@ -38,10 +38,10 @@ Ces activités sont spécifiques au ciblage. Elles permettent de construire une 
 Les activités de ciblage disponibles sont les suivantes :
 
 * [Créer une audience](build-audience.md) : définissez votre population cible. Vous pouvez sélectionner une audience existante ou utiliser le créateur de règles pour définir votre propre requête.
-* [Modifier la dimension](change-dimension.md) : modifiez la dimension de ciblage au fur et à mesure que vous créez votre campagne orchestrée.
+* [Changement de dimension](change-dimension.md) : changez la dimension de ciblage au fur et à mesure que vous créez votre campagne orchestrée.
 * [Combiner](combine.md) : effectuez une segmentation sur votre population entrante. Vous pouvez utiliser une union, une intersection ou une exclusion.
 * [Déduplication](deduplication.md) : supprimez les doublons dans le ou les résultats des activités entrantes.
-* [Enrichissement](enrichment.md) : définissez des données supplémentaires à traiter dans votre campagne orchestrée. Avec cette activité, vous pouvez utiliser la transition entrante et configurer l’activité pour ajouter des données supplémentaires à la transition sortante.
+* [Enrichissement](enrichment.md) : définissez des données supplémentaires à traiter dans votre campagne orchestrée. Avec cette activité, vous pouvez utiliser la transition entrante et configurer l’activité pour ajouter des données supplémentaires à la transition sortante.
 * [Réconciliation](reconciliation.md) : définissez le lien entre les données de Journey Optimizer et les données d’une table de travail, par exemple les données chargées à partir d’un fichier externe.
 * [Partage](split.md) : segmentez la population entrante en plusieurs sous-ensembles.
 
@@ -56,16 +56,16 @@ Adobe Journey Optimizer vous permet d’automatiser et d’exécuter des campa
 >title="Activité de fin"
 >abstract="L’activité **Fin** vous permet de marquer graphiquement la fin d’une campagne orchestrée. Cette activité n’a aucun impact fonctionnel et est donc facultative."
 
-Les activités suivantes sont spécifiques à l&#39;organisation et à l&#39;exécution de campagnes orchestrées. Leur principale tâche est de coordonner les autres activités.
+Les activités ci-après sont spécifiques à l’organisation et à l’exécution des campagnes orchestrées. Leur principale tâche est de coordonner les autres activités.
 
 ![Liste des activités de contrôle de flux](../assets/flow-control-activities.png){width="20%" align="left"}
 
 Les activités d’ordonnancement disponibles sont les suivantes :
 
-* [Rendez-vous](and-join.md) : synchronisez plusieurs branches d’exécution d’une campagne orchestrée.
+* [Rendez-vous](and-join.md) : synchronisez plusieurs branches d’exécution d’une campagne orchestrée.
 * [Branchement](fork.md) : créez des transitions sortantes afin de lancer plusieurs activités en parallèle.
-* [Attente](wait.md) : interrompt temporairement l’exécution d’une partie d’une campagne orchestrée.
+* [Attente](wait.md) : suspendez momentanément l’exécution d’une partie d’une campagne orchestrée.
   <!--* [Test](test.md): Enable transitions based on specified conditions.-->
 
 >[!NOTE]
->L’activité **Fin** marque graphiquement la fin d’une campagne orchestrée. Cette activité n’a aucun impact fonctionnel et est donc facultative.
+>L’activité **Fin** permet de marquer graphiquement la fin d’une campagne orchestrée. Cette activité n’a aucun impact fonctionnel et est donc facultative.

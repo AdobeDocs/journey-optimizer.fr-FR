@@ -13,7 +13,7 @@ exl-id: fed96e48-2e54-4bd4-ae17-77434d1b90eb
 source-git-commit: 17ca5d47fbf20ee25c3728d85877adaccf82aea8
 workflow-type: tm+mt
 source-wordcount: '799'
-ht-degree: 60%
+ht-degree: 90%
 
 ---
 
@@ -31,7 +31,7 @@ Utilisez l’onglet **[!UICONTROL Actions]** afin de sélectionner une configura
    >
    >Les canaux disponibles varient en fonction de votre modèle d’attribution de licence et de vos modules complémentaires.
 
-   Si vous sélectionnez un canal entrant (expérience basée sur le code, message in-app, carte de contenu ou action web), vous pouvez ajouter d’autres actions entrantes, pour un total de 10 actions au maximum dans une seule campagne. [Voici comment procéder](#multi-action)
+   Si vous sélectionnez un canal entrant (expérience basée sur du code, message in-app, carte de contenu ou action web), vous pouvez ajouter d’autres actions entrantes, pour un total de 10 actions au maximum dans une seule campagne. [Voici comment procéder](#multi-action)
 
 1. **Sélectionner une configuration de canal**
 
@@ -39,7 +39,7 @@ Utilisez l’onglet **[!UICONTROL Actions]** afin de sélectionner une configura
 
    ![](assets/create-campaign-action.png)
 
-1. **Optimisation de l’utilisation**
+1. **Utiliser l’optimisation**
 
    Utilisez la section **[!UICONTROL Optimisation]** pour exécuter des expériences de contenu, tirer parti des règles de ciblage ou utiliser des combinaisons avancées d’expérimentation et de ciblage. Ces différentes options et les étapes à suivre sont présentées en détail dans [cette section](campaigns-message-optimization.md).
 <!--
@@ -94,29 +94,29 @@ Pour les messages in-app, vous pouvez utiliser le bouton **[!UICONTROL Modifier 
 >[!CONTEXTUALHELP]
 >id="ajo_multi_action"
 >title="Ajouter plusieurs actions entrantes"
->abstract="Vous pouvez sélectionner plusieurs actions entrantes au sein d’une même campagne. Cette fonctionnalité permet de diffuser plusieurs expériences basées sur du code, messages in-app, cartes de contenu ou actions web vers différents emplacements en même temps, chaque action comportant du contenu spécifique."
+>abstract="Vous pouvez sélectionner plusieurs actions entrantes au sein d’une même campagne. Cette fonctionnalité permet de diffuser plusieurs expériences basées sur du code, messages in-app, cartes de contenu ou actions web à différents emplacements en même temps, chaque action comportant du contenu spécifique."
 
 Pour simplifier votre orchestration des campagnes, vous pouvez définir plusieurs actions entrantes au sein d’une seule campagne, chaque action contenant un contenu spécifique.
 
 >[!NOTE]
 >
->Cette capacité n’est disponible que pour les canaux entrants. Actuellement, les canaux sortants tels que les e-mails ne sont pas pris en charge.
+>Cette fonctionnalité est uniquement disponible pour les canaux entrants. Actuellement, les canaux sortants tels que les e-mails ne sont pas pris en charge.
 
-Cette capacité vous permet de diffuser simultanément plusieurs expériences basées sur du code, messages in-app, cartes de contenu ou actions web à différents emplacements, sans avoir à créer plusieurs campagnes. Le déploiement de votre campagne en est facilité et les rapports sont plus fluides, toutes les données étant consolidées dans une seule campagne.
+Cette fonctionnalité permet de diffuser plusieurs expériences basées sur du code, messages in-app, cartes de contenu ou actions web à différents emplacements en même temps, sans avoir besoin de créer plusieurs campagnes. Le déploiement de votre campagne en est facilité et les rapports sont plus fluides, toutes les données étant consolidées dans une seule campagne.
 
 Par exemple, vous pouvez envoyer une expérience basée sur du code à plusieurs points d’entrée avec des contenus légèrement différents. Pour ce faire, créez plusieurs actions basées sur du code dans la même campagne, chacune avec une configuration de point d’entrée différente.
 
 Pour définir plusieurs actions entrantes dans une campagne, procédez comme suit.
 
-1. Sélectionnez une action entrante (**Expérience basée sur du code**, **Message in-app**, **Carte de contenu** ou **Web**) dans la section **[!UICONTROL Actions]**.
+1. Sélectionnez une action entrante (**Expérience basée sur du code**, **message in-app**, **carte de contenu** ou **web**) dans la section **[!UICONTROL Actions]**.
 
-1. Sélectionnez la configuration du canal et définissez un contenu spécifique pour cette action.
+1. Sélectionnez la configuration des canaux et définissez un contenu spécifique pour cette action.
 
 1. Utilisez le bouton **[!UICONTROL Ajouter une action]** pour sélectionner une autre action entrante dans la liste déroulante.
 
    ![](assets/create-campaign-multi-action.png){width="80%"}
 
-1. Procédez de la même manière pour ajouter d’autres actions. Vous pouvez ajouter jusqu’à 10 actions entrantes dans une campagne.
+1. Procédez de la même manière pour ajouter d’autres actions. Vous pouvez ajouter jusqu’à 10 actions entrantes dans une campagne.
 
 Une fois la campagne [en ligne](review-activate-campaign.md), toutes les actions sont activées simultanément.
 

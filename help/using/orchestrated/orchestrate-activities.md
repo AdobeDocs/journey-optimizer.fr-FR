@@ -1,13 +1,13 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Création de campagnes orchestrées avec Adobe Journey Optimizer
-description: Découvrez comment créer des campagnes orchestrées avec Adobe Journey Optimizer
+title: Créer des campagnes orchestrées avec Adobe Journey Optimizer
+description: Découvrez comment créer des campagnes orchestrées à l’aide d’Adobe Journey Optimizer.
 exl-id: d1d64125-cf00-49c2-a71d-1494ede16f61
 source-git-commit: 24e767d6f146036c8c0a34193ed6d36e5d43e6b2
 workflow-type: tm+mt
 source-wordcount: '886'
-ht-degree: 50%
+ht-degree: 86%
 
 ---
 
@@ -20,7 +20,7 @@ Une fois que vous avez [créé une campagne orchestrée](gs-campaign-creation.md
 
 À ce stade de la configuration, la zone de travail de la campagne orchestrée s’affiche avec une icône de début, qui représente le début de votre campagne orchestrée. Pour ajouter votre première activité, cliquez sur le bouton **+** associé à l’icône de démarrage.
 
-La liste des activités pouvant être ajoutées à la zone de travail de campagne orchestrée s’affiche. Les activités disponibles dépendent de votre position dans la zone de travail de campagne orchestrée. Par exemple, lorsque vous ajoutez votre première activité, vous pouvez démarrer votre campagne orchestrée en ciblant une audience, en fractionnant le chemin de la campagne orchestrée ou en définissant une activité **Attente** pour retarder l’exécution de la campagne orchestrée. D’autre part, après une activité **Créer une audience**, vous pouvez affiner votre cible avec des activités de ciblage, envoyer une diffusion à votre audience avec des activités de canal ou organiser le processus de campagne orchestré avec des activités de contrôle de flux.
+La liste des activités pouvant être ajoutées à la zone de travail de campagne orchestrée s’affiche. Les activités disponibles dépendent de votre position dans la zone de travail de campagne orchestrée. Par exemple, lorsque vous ajoutez votre première activité pour démarrer votre campagne orchestrée en ciblant une audience, fractionner le chemin de campagne orchestrée ou définir une activité **Attente** pour retarder l’exécution de la campagne. D’autres choix s’offrent à vous après une activité **Créer une audience** : vous pouvez affiner votre cible avec des activités de ciblage, envoyer une diffusion à votre audience avec des activités de canal ou organiser le processus de la campagne orchestrée avec des activités de contrôle de flux.
 
 ![](assets/orchestrated-start.png){zoomable="yes"}
 
@@ -28,9 +28,9 @@ Une fois qu’une activité a été ajoutée à la zone de travail, un volet de 
 
 ![](assets/orchestrated-configure-activities.png){zoomable="yes"}
 
-Répétez ce processus pour ajouter autant d’activités que vous le souhaitez en fonction des tâches que vous souhaitez que votre campagne orchestrée effectue. Vous pouvez également insérer une nouvelle activité entre deux activités. Pour ce faire, cliquez sur le bouton **+** sur la transition entre les activités, puis sélectionnez l’activité souhaitée et configurez-la dans le volet de droite.
+Répétez ce processus pour ajouter autant d’activités que vous le souhaitez en fonction des tâches que votre campagne orchestrée doit exécuter. Vous pouvez également insérer une nouvelle activité entre deux activités. Pour ce faire, cliquez sur le bouton **+** sur la transition entre les activités, puis sélectionnez l’activité souhaitée et configurez-la dans le volet de droite.
 
-Vous avez la possibilité de personnaliser le nom des transitions entre chaque activité. Pour ce faire, sélectionnez la transition et modifiez son libellé dans le volet de droite.
+Vous pouvez personnaliser le nom des transitions entre chaque activité. Pour ce faire, sélectionnez la transition et modifiez son libellé dans le volet de droite.
 
 ![](assets/canvas-transition.png)
 
@@ -58,11 +58,11 @@ Lors de l’ajout d’activités, des boutons d’action sont disponibles dans l
 
 ![Delete icon](assets/do-not-localize/activity-delete.svg) : supprimez l’activité à partir de la zone de travail.
 
-![Disable icon](assets/do-not-localize/activity-disable.svg) ![Enable icon](assets/do-not-localize/activity-enable.svg) : désactivez/activez l’activité. Lorsque la campagne orchestrée est exécutée, les activités désactivées et les activités suivantes se trouvant sur le même chemin ne sont pas exécutées et la campagne orchestrée est arrêtée.
+![Disable icon](assets/do-not-localize/activity-disable.svg) ![Enable icon](assets/do-not-localize/activity-enable.svg) : désactivez/activez l’activité. Lorsque la campagne orchestrée est lancée, les activités désactivées ainsi que celles qui les suivent sur le même parcours ne sont pas exécutées, et l’orchestration de la campagne s’interrompt.
 
-![Pause icon](assets/do-not-localize/activity-pause.svg) ![Resume icon](assets/do-not-localize/activity-resume.svg) : suspendez/reprenez l’activité. Lorsque la campagne orchestrée est exécutée, elle se met en pause au niveau de l’activité en pause. La tâche correspondante, ainsi que toutes les suivantes dans le même chemin, ne sont pas exécutées.
+![Icône Pause](assets/do-not-localize/activity-pause.svg) ![Icône Reprendre](assets/do-not-localize/activity-resume.svg) : suspendez/reprenez l’activité. Lorsque la campagne orchestrée est exécutée, elle s’arrête quand l’activité est en pause. La tâche correspondante, ainsi que toutes les suivantes dans le même chemin, ne sont pas exécutées.
 
-Vous pouvez utiliser n’importe quelle activité de la zone de travail comme point d’arrêt pour suspendre l’exécution de la campagne. Cela signifie que la campagne sera exécutée uniquement jusqu’à cette activité, puis que l’exécution sera suspendue. Pendant la suspension de l’exécution, le moteur de segmentation conserve les données temporaires à votre disposition pour la prévisualisation. Vous pouvez sélectionner la transition entrante juste avant l’activité en pause pour afficher les données transportées. En savoir plus sur cette section : [Surveillance visuelle du flux](../orchestrated/start-monitor-campaigns.md#flow)
+Vous pouvez utiliser n’importe quelle activité de la zone de travail comme point d’arrêt pour suspendre l’exécution de la campagne. Cela signifie que la campagne sera exécutée uniquement jusqu’à cette activité, puis que l’exécution sera suspendue. Pendant la suspension de l’exécution, le moteur de segmentation conserve les données temporaires, accessibles pour la prévisualisation. Vous pouvez sélectionner la transition entrante juste avant l’activité en pause pour afficher les données transportées. En savoir plus sur cette section : [Surveillance visuelle des flux](../orchestrated/start-monitor-campaigns.md#flow)
 
 ![Copy icon](assets/do-not-localize/activity-copy.svg) : copiez l’activité. [Découvrez comment copier et coller les activités.](#copy)
 
@@ -72,7 +72,7 @@ Plusieurs activités de **Ciblage**, telles que **Combiner** ou **Déduplication
 
 ### Activités de copier-coller {#copy}
 
-Vous pouvez copier des activités et les coller dans n’importe quelle zone de travail de campagne orchestrée. La campagne de destination peut se trouver dans un autre onglet du navigateur.
+Vous pouvez copier des activités et les coller dans n’importe quelle zone de travail de la campagne orchestrée. La campagne de destination peut se trouver dans un autre onglet du navigateur.
 
 * Pour copier une activité, cliquez sur le bouton ![Copy icon](assets/do-not-localize/activity-copy.svg) dans le volet des propriétés de l’activité.
 * Pour copier plusieurs activités, cliquez sur l’icône ![Multiple selection mode icon](assets/do-not-localize/canvas-multiple.svg) dans la barre d’outils de la zone de travail.
@@ -87,7 +87,7 @@ Pour coller les activités, cliquez sur le bouton **+** sur une transition et s�
 
 ## Exemple de zone de travail {#example}
 
-Voici un exemple de campagne orchestrée conçue pour envoyer un e-mail à tous les clients qui ont effectué un achat d’au moins 100 $, tout en excluant tous les clients qui ont moins de 50 points de fidélité.
+Voici un exemple de campagne orchestrée conçue pour envoyer un e-mail aux clientes et aux clients qui ont effectué un achat d’au moins 100 $, tout en excluant celles et ceux qui ont moins de 50 points de fidélité.
 
 ![](assets/canvas-example-diagram.png){zoomable="yes"}
 
@@ -106,4 +106,4 @@ Dans le cadre de ce workflow, les activités suivantes ont été ajoutées :
 
 ## Étapes suivantes {#next}
 
-Une fois la zone de travail de la campagne orchestrée créée, vous pouvez l’exécuter et suivre l’avancement de ses différentes tâches. [Découvrez comment démarrer une campagne orchestrée et surveiller son exécution](start-monitor-campaigns.md)
+Une fois la zone de travail de la campagne orchestrée créée, vous pouvez l’exécuter et suivre l’avancement de ses différentes tâches. [Découvrez comment démarrer une campagne orchestrée et surveiller son exécution](start-monitor-campaigns.md).

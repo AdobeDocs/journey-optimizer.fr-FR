@@ -1,13 +1,13 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Démarrer et surveiller les campagnes orchestrées avec Adobe Journey Optimizer
-description: Découvrez comment démarrer et surveiller les campagnes orchestrées avec Adobe Journey Optimizer.
+title: Démarrer et surveiller les campagnes orchestrées avec Adobe Journey Optimizer
+description: Découvrez comment démarrer et surveiller des campagnes orchestrées avec Adobe Journey Optimizer.
 exl-id: 5fc2d1d6-75c3-4b45-bb2b-09982b9bd5ed
 source-git-commit: 24e767d6f146036c8c0a34193ed6d36e5d43e6b2
 workflow-type: tm+mt
 source-wordcount: '761'
-ht-degree: 53%
+ht-degree: 93%
 
 ---
 
@@ -25,29 +25,29 @@ Vous pouvez également exécuter la campagne en mode test pour vérifier son ex�
 
 ## Tester votre campagne avant la publication {#test}
 
-[!DNL Journey Optimizer] vous permet de tester les campagnes orchestrées avant la mise en ligne. Lorsqu’une campagne est créée, elle passe par défaut à l’état **Brouillon**. Dans cet état, vous pouvez exécuter la campagne manuellement pour tester le flux.
+[!DNL Journey Optimizer] vous permet de tester les campagnes orchestrées avant leur mise en ligne. Lorsqu’une campagne est créée, elle passe par défaut à l’état **Brouillon**. Dans cet état, vous pouvez exécuter la campagne manuellement pour tester le flux.
 
 >[!IMPORTANT]
 >
->Toutes les activités de la zone de travail sont exécutées, à l’exception des activités **[!UICONTROL Sauvegarde d’audience]** et des activités de canal. L’opération n’a aucun impact fonctionnel sur vos données ou votre audience.
+>Toutes les activités de la zone de travail sont exécutées, à l’exception des activités **[!UICONTROL Enregistrer l’audience]** et des activités de canal. L’opération n’a aucun impact fonctionnel sur vos données ou votre audience.
 
 Pour tester une campagne orchestrée, ouvrez la campagne et sélectionnez **[!UICONTROL Démarrer]**.
 
 ![](assets/campaign-start.png){zoomable="yes"}
 
-Chaque activité de la campagne est exécutée de manière séquentielle jusqu’à ce que la fin de la zone de travail soit atteinte. Pendant le test, vous pouvez contrôler l’exécution de la campagne à l’aide de la barre d’actions de la zone de travail. Plusieurs possibilités sʼoffrent alors à vous :
+Chaque activité de la campagne est exécutée de manière séquentielle jusqu’à ce que la fin de la zone de travail soit atteinte. Lors du test, vous pouvez contrôler l’exécution de la campagne à l’aide de la barre d’actions de la zone de travail. Plusieurs possibilités sʼoffrent alors à vous :
 
 * **Arrêtez** l’exécution à tout moment.
 * **Démarrez** l’exécution à nouveau.
-* **Reprendre** l’exécution si elle a été précédemment mise en pause.
+* **Reprenez** l’exécution si elle a été précédemment mise en pause.
 
-L’icône **[!UICONTROL Alertes]** / **[!UICONTROL Avertissement]** de la barre d’outils de la zone de travail vous informe des problèmes, notamment des avertissements qui peuvent apparaître de manière proactive avant l’exécution et des erreurs qui se produisent pendant ou après l’exécution.
+L’icône **[!UICONTROL Alertes]** / **[!UICONTROL Avertissement]** de la barre d’outils de la zone de travail vous informe des problèmes, notamment des avertissements qui peuvent apparaître de manière proactive avant l’exécution et des erreurs qui se produisent pendant ou après l’exécution.
 
 ![](assets/campaign-warning.png){zoomable="yes"}
 
 Vous pouvez également identifier rapidement les activités ayant échoué à l’aide des [indicateurs visuels de statut](#activities) affichés directement sur chaque activité. Pour une résolution détaillée des problèmes, ouvrez les [journaux de la campagne](#logs-tasks) qui fournissent des informations détaillées sur l’erreur et son contexte.
 
-Si vous avez ajouté des activités de canal dans la zone de travail, vous pouvez prévisualiser et tester le contenu de vos messages à l’aide du bouton **[!UICONTROL Simuler le contenu]**. [Découvrez comment utiliser les activités des canaux](activities/channels.md)
+Si vous avez ajouté des activités de canal dans la zone de travail, vous pouvez prévisualiser et tester le contenu de vos messages à l’aide du bouton **[!UICONTROL Simuler le contenu]**. [Découvrez comment utiliser les activités de canal](activities/channels.md)
 
 Une fois validée, la campagne peut être publiée.
 
@@ -63,7 +63,7 @@ Une fois votre campagne testée et prête, cliquez sur **[!UICONTROL Publier]** 
 
 Le flux visuel redémarre et les profils réels commencent à circuler dans le parcours en temps réel.
 
-Si l’action de publication échoue (en raison d’un contenu de message manquant, par exemple), vous êtes averti et devez résoudre le problème avant de réessayer. Une fois la publication terminée, la campagne commence à s’exécuter (immédiatement ou selon le calendrier), passe du statut **Brouillon** au statut **Actif** et devient « Lecture seule ».
+Si l’action de publication échoue (en raison d’un contenu de message manquant, par exemple), vous recevez un avertissement et vous devez résoudre le problème avant de réessayer. Une fois la publication terminée, la campagne commence à s’exécuter (immédiatement ou selon le planning), passe du statut **Brouillon** au statut **Active** et passe en « Lecture seule ».
 
 ## Surveiller l’exécution de la campagne {#monitor}
 
@@ -88,7 +88,7 @@ Les indicateurs visuels de statut vous aident à déterminer les performances de
 |-----|------------|
 | ![](assets/activity-status-pending.png){zoomable="yes"}{width="70%"} | L’activité est en cours d’exécution. |
 | ![](assets/activity-status-orange.png){zoomable="yes"}{width="70%"} | L’activité nécessite votre attention. Vous devez, par exemple, confirmer l’envoi d’une diffusion ou prendre une mesure nécessaire. |
-| ![](assets/activity-status-red.png){zoomable="yes"}{width="70%"} | L’activité a rencontré une erreur. Pour résoudre ce problème, ouvrez les journaux de campagne orchestrés pour plus d’informations. |
+| ![](assets/activity-status-red.png){zoomable="yes"}{width="70%"} | L’activité a rencontré une erreur. Pour résoudre ce problème et obtenir davantage d’informations, ouvrez les journaux de campagne orchestrée. |
 | ![](assets/activity-status-green.png){zoomable="yes"}{width="70%"} | L’activité a été exécutée correctement. |
 
 ### Logs et tâches {#logs-tasks}
@@ -98,7 +98,7 @@ Les indicateurs visuels de statut vous aident à déterminer les performances de
 >title="Logs et tâches"
 >abstract="L’écran **Logs et tâches** fournit un historique de l’exécution de la campagne orchestrée : il consigne toutes les actions de l’utilisateur ou de l’utilisatrice, ainsi que les erreurs rencontrées."
 
-La surveillance des logs et des tâches est une étape essentielle pour analyser vos campagnes orchestrées et vérifier qu’elles s’exécutent correctement. Les journaux et les tâches sont accessibles à partir du bouton **[!UICONTROL Journaux]** disponible en mode test et actif dans la barre d’outils de la zone de travail.
+La surveillance des journaux et des tâches est une étape essentielle pour analyser vos campagnes orchestrées et vérifier qu’elles s’exécutent correctement. Les journaux et les tâches sont accessibles à partir du bouton **[!UICONTROL Journaux]**, disponible dans les modes Test et Active, dans la barre d’outils de la zone de travail.
 
 ![](assets/logs-button.png){zoomable="yes"}
 
@@ -115,4 +115,4 @@ Sous les deux onglets, vous pouvez choisir les colonnes à afficher et leur ordr
 
 ## Étapes suivantes {#next}
 
-Après avoir démarré la zone de travail de campagne orchestrée, vous pouvez utiliser les fonctionnalités de création de rapports de Journey Optimizer pour obtenir des informations, telles que la compréhension du comportement de l’audience et la mesure des performances de chaque étape de votre parcours client. [En savoir plus sur le reporting des campagnes orchestrées](../orchestrated/reporting-campaigns.md)
+Après avoir démarré la zone de travail de campagne orchestrée, vous pouvez utiliser les fonctionnalités de création de rapports de Journey Optimizer pour obtenir des informations, telles que la compréhension du comportement de l’audience et la mesure des performances de chaque étape de votre parcours client. [En savoir plus sur la création de rapports des campagnes orchestrées](../orchestrated/reporting-campaigns.md)

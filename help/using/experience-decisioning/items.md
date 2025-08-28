@@ -85,7 +85,7 @@ Commencez par définir les attributs standard et personnalisés de l’élément
 
 Par défaut, tous les profils seront éligibles pour recevoir l’élément de décision; Vous pouvez toutefois utiliser des audiences ou des règles pour limiter l’élément à des profils spécifiques uniquement ; les deux solutions correspondant à différents usages. Pour plus d’informations, développez la section ci-dessous :
 
-+++Utilisation des audiences par rapport aux règles de prise de décision
++++Utiliser des audiences ou des règles de décision
 
 Pour faire simple, la sortie d’une audience est une liste de profils, tandis qu’une règle de décision est une fonction exécutée à la demande sur un seul profil pendant le processus de prise de décision.
 
@@ -125,7 +125,7 @@ Pour définir des règles de limitation pour l’élément de décision, cliquez
    * **[!UICONTROL Événement de décision]** (valeur par défaut) : nombre maximal de fois où une offre peut être présentée.
    * **[!UICONTROL Impression]** (canaux entrants uniquement) : nombre maximal de fois où l’offre peut être présentée à un utilisateur ou une utilisatrice.
    * **[!UICONTROL Clics]** : nombre maximal de fois où l’utilisateur ou l’utilisatrice peut cliquer sur un élément de décision.
-   * **[!UICONTROL Événement personnalisé]** : vous pouvez définir un événement personnalisé afin de limiter le nombre de fois où l’élément est envoyé. Par exemple, vous pouvez limiter la validité d’un bon à 10 000 utilisations ou jusqu’à ce qu’un profil donné l’ait utilisé 1 fois. Pour ce faire, utilisez les schémas [XDM d’Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=fr){target="_blank"} pour créer une règle d’événement personnalisé.
+   * **[!UICONTROL Événement personnalisé]** : vous pouvez définir un événement personnalisé afin de limiter le nombre de fois où l’élément est envoyé. Par exemple, vous pouvez limiter la validité d’un bon à 10 000 utilisations ou jusqu’à ce qu’un profil donné l’ait utilisé 1 fois. Pour ce faire, utilisez les schémas [XDM d’Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=fr-FR){target="_blank"} pour créer une règle d’événement personnalisé.
 
    >[!NOTE]
    >

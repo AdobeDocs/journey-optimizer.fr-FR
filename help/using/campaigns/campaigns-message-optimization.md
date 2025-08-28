@@ -5,12 +5,12 @@ title: Optimisation des messages
 description: Tirez parti de l’optimisation des messages pour créer des parcours et des campagnes marketing personnalisés et optimisés.
 role: User
 level: Intermediate
-keywords: optimisation des campagnes, expérimentation, ciblage, tests A/B
+keywords: optimisation de campagne, expérimentation, ciblage, tests A/B
 exl-id: 0f563d61-7a9e-46bf-adfb-5a26e63505b9
 source-git-commit: a770cbc1736e7add7e25f2cc8210d81bd8b2e375
 workflow-type: tm+mt
 source-wordcount: '1045'
-ht-degree: 6%
+ht-degree: 56%
 
 ---
 
@@ -20,34 +20,34 @@ L’optimisation vous donne les outils nécessaires pour diffuser du contenu per
 
 Avec l’optimisation, vous pouvez réaliser les actions suivantes :
 
-* Utilisation [ règles de ciblage ](#targeting)
-* Exécuter [expériences de contenu](#experimentation)
-* Utilisez des [combinaisons avancées](#combination) d’expérimentation et de ciblage dans une seule campagne
+* Exploiter les règles de [ciblage](#targeting)
+* Exécuter des [expériences de contenu](#experimentation)
+* Utiliser des [combinaisons avancées](#combination) d’expérimentation et de ciblage dans une seule campagne
 
 Une fois le parcours ou la campagne actif, les profils sont évalués en fonction des critères définis. S’ils correspondent aux critères, ils sont diffusés avec l’expérience ou le contenu approprié du parcours ou de la campagne.
 
-La différence entre les expériences et le ciblage peut être décrite comme suit :
+La différence entre les expériences et le ciblage peut être décrite comme suit :
 
-* L’expérimentation consiste en une répartition aléatoire dans la diffusion du contenu en fonction de l’affectation du trafic&#x200B;.
-* Le ciblage utilise des techniques déterministes pour diffuser du contenu en fonction du profil utilisateur, de l’appartenance à l’audience ou des règles contextuelles.
+* L’expérimentation consiste en une répartition aléatoire de la diffusion du contenu selon l’affectation du trafic.
+* Le ciblage utilise des techniques déterministes pour diffuser du contenu en fonction du profil de l’utilisateur ou de l’utilisatrice, de l’appartenance à une audience ou de règles contextuelles.
 
 ![](assets/msg-optimization-experiment-vs-targeting.png){width="110%" zoomable="yes"}
 
 ➡️ [Pour en savoir plus sur l’optimisation d’une campagne, regardez cette vidéo](#video)
 
-## Utiliser le ciblage {#targeting}
+## Exploiter le ciblage {#targeting}
 
-Le ciblage fournit du contenu personnalisé à des segments d’audience spécifiques en fonction d’attributs de profil utilisateur ou d’attributs contextuels.
+Le ciblage diffuse du contenu personnalisé vers des segments d’audience spécifiques en fonction d’attributs de profil utilisateur ou utilisatrice, ou d’attributs contextuels.
 
-Contrairement à l’expérimentation, qui consiste en une affectation aléatoire du contenu d’un message, le ciblage est déterministe en termes de diffusion du contenu à la bonne audience.
+Contrairement à l’expérimentation, qui correspond à une attribution aléatoire du contenu d’un message, le ciblage est déterministe en matière de diffusion du contenu à la bonne audience.
 
-Avec le ciblage, des règles spécifiques peuvent être définies en fonction des éléments suivants :
+Avec le ciblage, des règles spécifiques peuvent être définies en fonction des éléments suivants :
 
-* **Attributs de profil utilisateur** tels que l’emplacement (par exemple, le géociblage), l’âge ou les préférences. Par exemple, aux États-Unis, les utilisateurs voient une promotion « Golden Gate », tandis qu’en France, ils voient une promotion « Tour Eiffel ».
+* **Attributs du profil utilisateur**, tels que la localisation (par ex. le géociblage), l’âge ou les préférences. Par exemple, les utilisateurs ou utilisatrices aux États-Unis voient une promotion « Golden Gate », tandis que les utilisateurs ou utilisatrices en France voient une promotion « Tour Eiffel ».
 
-* **Données contextuelles** telles que le type d’appareil (par exemple, ciblage de l’appareil), l’heure de la journée ou les détails de la session. Par exemple, les utilisateurs d’ordinateurs de bureau reçoivent du contenu optimisé pour les ordinateurs de bureau, tandis que les utilisateurs mobiles reçoivent du contenu optimisé pour les appareils mobiles.
+* **Données contextuelles**, telles que le type d’appareil (par ex. ciblage de l’appareil), l’heure de la journée ou les détails de la session. Par exemple, les utilisateurs ou utilisatrices sur ordinateur reçoivent du contenu optimisé pour poste de travail, tandis que les utilisateurs ou utilisatrices sur mobile reçoivent du contenu optimisé pour mobile.
 
-* **Audiences** qui peuvent être utilisées pour inclure ou exclure les profils ayant une appartenance à une audience particulière.
+* **Audiences**, qui peuvent être utilisées pour inclure ou exclure des profils ayant une appartenance spécifique à une audience.
 
 Pour configurer le ciblage, procédez comme suit.
 
@@ -63,25 +63,25 @@ Pour configurer le ciblage, procédez comme suit.
 
    ![](assets/msg-optimization-select-targeting.png){width=85%}
 
-1. Utilisez le créateur de règles pour définir vos critères. Par exemple, définissez une règle pour les résidents des États-Unis, une règle pour les résidents de la France et une règle pour les résidents de l’Inde.
+1. Utilisez le créateur de règles pour définir vos critères. Par exemple, définissez une règle pour les personnes vivant aux États-Unis, une règle pour les personnes vivant en France et une règle pour les personnes vivant en Inde.
 
    ![](assets/msg-optimization-create-targeting.png){width=85%}
 
-1. Sélectionnez l’option **[!UICONTROL Activer le contenu de secours]** selon vos besoins. Le contenu de secours permet à votre audience de recevoir un contenu par défaut lorsqu’aucune règle de ciblage n’est qualifiée.
+1. Sélectionnez l’option **[!UICONTROL Activer le contenu de secours]** si nécessaire. Le contenu de secours permet à votre audience de recevoir un contenu par défaut lorsqu’aucune règle de ciblage n’est qualifiée.
 
    >[!NOTE]
    >
-   >Si vous ne sélectionnez pas cette option, toute audience qui ne remplit pas les critères d’une règle de ciblage définie ci-dessus ne recevra pas de contenu.
+   >Si cette option n’est pas sélectionnée, toute audience qui ne correspond pas à une règle de ciblage définie ci-dessus ne recevra aucun contenu.
 
 1. Enregistrez les paramètres de votre règle de ciblage.
 
 1. De retour dans l’onglet **[!UICONTROL Actions]**, sélectionnez **[!UICONTROL Modifier le contenu]**.
 
-1. Concevez le contenu approprié pour chaque groupe défini par les paramètres de vos règles de ciblage.
+1. Concevoir un contenu adapté pour chaque groupe défini par les paramètres de règle de ciblage
 
    ![](assets/msg-optimization-targeting-design.png){width=85%}
 
-   Dans cet exemple, concevez un contenu spécifique pour les résidents américains, un contenu différent pour les résidents français et un autre pour les résidents indiens.
+   Dans cet exemple, concevez un contenu spécifique pour les personnes vivant aux États-Unis, un contenu différent pour les personnes vivant en France et encore un autre pour les personnes vivant en Inde.
 
 1. [Activer](review-activate-campaign.md) votre parcours ou campagne.
 
@@ -95,15 +95,15 @@ Une fois le parcours/la campagne en ligne, le contenu adapté à chaque cible es
 
 ## Utiliser l’expérimentation {#experimentation}
 
-L’expérimentation vous permet de tester plusieurs versions de contenu afin de déterminer celle qui fonctionne le mieux en fonction de mesures de succès prédéfinies.
+L’expérimentation permet de tester plusieurs versions d’un contenu afin de déterminer celle qui offre les meilleures performances en fonction de mesures de succès prédéfinies.
 
 Pour configurer l’expérimentation, procédez comme suit.
 
-Supposons que vous souhaitiez tester les messages promotionnels suivants dans une campagne :
+Supposons que vous vouliez tester les messages promotionnels suivants dans une campagne :
 
-* **Traitement A** : « 20 % de réduction sur votre prochain achat »
-* **Traitement B** : « Livraison gratuite sur les commandes de plus de 50 $ »
-* **Traitement C** : « Obtenez votre carte-cadeau de 10 $ »
+* **Traitement A** : « 20 % de réduction sur votre prochain achat »
+* **Traitement B** : « Livraison gratuite sur les commandes de plus de 50 $ »
+* **Traitement C** : « Obtenez votre carte-cadeau de 10 $ »
 
 Pour configurer l’expérimentation et déterminer le message qui génère le plus d’achats, procédez comme suit.
 
@@ -131,7 +131,7 @@ Pour configurer l’expérimentation et déterminer le message qui génère le p
 
 1. [Activer](review-activate-campaign.md) votre parcours ou campagne.
 
-Une fois le parcours/la campagne actif, les utilisateurs sont affectés de manière aléatoire aux différentes variations de contenu. [!DNL Journey Optimizer] permet de suivre les variations qui génèrent le plus d’achats et fournit des informations exploitables.
+Une fois le parcours/la campagne actif, les utilisateurs sont affectés de manière aléatoire aux différentes variations de contenu. [!DNL Journey Optimizer] suit la variation qui génère le plus d’achats et fournit des informations exploitables.
 
 Suivez le succès de votre campagne avec les rapports [parcours ](../reports/journey-global-report-cja.md) et [campagne](../reports/campaign-global-report-cja-experimentation.md). <!--Link to Experimentation journey reportis missing-->
 
@@ -139,9 +139,9 @@ Suivez le succès de votre campagne avec les rapports [parcours ](../reports/jou
 
 Journey Optimizer vous permet également de combiner le ciblage et les expériences dans un seul parcours ou une seule campagne afin de créer des stratégies plus sophistiquées.
 
-En effet, vous pouvez utiliser le ciblage pour créer plusieurs variantes et, pour chaque variante, utiliser l’expérimentation pour optimiser davantage chaque contenu. Cela garantit que les expériences sont spécifiques à chaque règle de ciblage et ne s’étendent pas sur plusieurs variantes.
+En effet, il est possible d’utiliser le ciblage pour créer plusieurs variantes et, pour chacune d’elles, recourir à l’expérimentation afin d’optimiser davantage chaque contenu. Cela garantit que les expériences sont spécifiques à chaque règle de ciblage et ne s’étendent pas sur plusieurs variantes.
 
-Par exemple, vous pouvez tester une « promotion de 50 % » par rapport à une « carte cadeau de 50 $ » pour les clients situés aux États-Unis et exécuter un test différent pour les clients en Europe, tel que « livraison gratuite sur les commandes de plus de 50 € » par rapport à « 20 % de réduction sur leur prochain achat ».
+Par exemple, il est possible de tester une « promotion -50 % » par rapport à une « carte-cadeau de 50 $ » pour la clientèle américaine, et d’exécuter un test différent pour la clientèle européenne, comme « livraison gratuite pour toute commande supérieure à 50 € » par rapport à « 20 % de réduction sur l’achat suivant ».
 
 Pour combiner le ciblage et les expériences dans un parcours ou une campagne, procédez comme suit.
 
@@ -155,13 +155,13 @@ Pour combiner le ciblage et les expériences dans un parcours ou une campagne, p
 
    ![](assets/msg-optimization-targeting-with-experiment.png){width=85%}
 
-   Une fois l’expérimentation définie, elle s’applique uniquement à la première règle de ciblage.
+   Une fois l’expérience définie, elle s’applique uniquement à la première règle de ciblage.
 
 1. De retour dans l’onglet **[!UICONTROL Actions]**, sélectionnez **[!UICONTROL Modifier le contenu]**.
 
-1. Pour le groupe défini par votre première règle de ciblage, vous pouvez définir un contenu spécifique pour chaque variante de votre expérience.
+1. Pour le groupe défini par la première règle de ciblage, il est possible de définir un contenu spécifique pour chaque variante de l’expérience.
 
-   Si vous avez ajouté plusieurs actions entrantes à votre parcours ou campagne, la même combinaison de ciblage et d’expérience s’applique à chaque action. Cependant, vous devez définir un contenu spécifique pour chaque variante de chaque action.
+   Si vous avez ajouté plusieurs actions entrantes à votre parcours ou campagne, la même combinaison de ciblage et d’expérience s’applique à chaque action. Cependant, un contenu spécifique doit être défini pour chaque variante de chaque action.
 
    ![](assets/msg-optimization-targeting-experiment-design.png){width=85%}
 
@@ -181,4 +181,4 @@ E.g. explaining how a marketer can look at the report to determine which treatme
 
 Apprenez à tirer parti de l’optimisation des messages dans les campagnes déclenchées par des actions ou des API. Vous découvrirez comment cibler des sous-audiences, créer des variations de messages en fonction de la localisation, activer un contenu de secours et mener plusieurs expériences au sein d’une même campagne. Ce tutoriel explique également comment gérer des campagnes à plusieurs canaux, tout en maintenant la cohérence du message.
 
->[!VIDEO](https://video.tv.adobe.com/v/3470370?quality=12&captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/3470368?quality=12)
