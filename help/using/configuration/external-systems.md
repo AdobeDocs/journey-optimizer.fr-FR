@@ -8,10 +8,10 @@ role: User
 level: Beginner
 keywords: externe, API, optimizer, limitation
 exl-id: 27859689-dc61-4f7a-b942-431cdf244455
-source-git-commit: 967713938ab0e3eaaaad7a86054ed1270a9cc1ca
+source-git-commit: e7908a328a14b307f0ea6914d2d06c5325ceb211
 workflow-type: tm+mt
-source-wordcount: '1499'
-ht-degree: 90%
+source-wordcount: '1615'
+ht-degree: 83%
 
 ---
 
@@ -119,3 +119,14 @@ Pour un appel donné, trois reprises au maximum peuvent être effectuées jusqu&
 **Où puis-je configurer la temporisation ? Existe-t-il une valeur maximale ?**
 
 Dans chaque parcours, vous pouvez définir un délai de temporisation. Le délai de temporisation est configuré dans les propriétés d&#39;un parcours. Le délai de temporisation doit être compris entre 1 et 30 secondes. Consultez [cette section](../configuration/external-systems.md#timeout) et [cette page](../building-journeys/journey-properties.md#timeout_and_error).
+
+**Quel est le nombre maximal de connexions ouvertes par Journey Optimizer lorsque des actions personnalisées sont utilisées ?**
+
+Lorsque le proxy IP est activé et qu’une configuration de limitation est définie sur le point d’entrée ciblé, le nombre de connexions est basé sur le taux (il s’agit d’estimations, et non de nombres garantis) :
+
+* entre 200 et 2000 c/s : 50 connexions
+* entre 2000 et 3000: 75 connexions
+* entre 3000 et 4000: 100 connexions
+* entre 4000 et 5000: 125 connexions
+
+Si aucune configuration de limitation n’est définie sur un point d’entrée, le moteur Journey Optimizer est conçu pour être mis à l’échelle et atteindre un grand nombre de connexions (plus de 2 000). Pour obtenir un nombre limité de connexions, les clients doivent utiliser une configuration de limitation.
