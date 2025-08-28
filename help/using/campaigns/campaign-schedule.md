@@ -10,10 +10,10 @@ level: Beginner
 mini-toc-levels: 1
 keywords: créer, optimizer, campagne, surface, messages
 exl-id: b183eeb8-606f-444d-9302-274f159c3847
-source-git-commit: 4417643cbf206b9ad112bae5c270cdfc746a9c5d
+source-git-commit: eeacfacf3068f831afb7b7ad78214941a9259c93
 workflow-type: tm+mt
-source-wordcount: '350'
-ht-degree: 64%
+source-wordcount: '437'
+ht-degree: 51%
 
 ---
 
@@ -41,7 +41,14 @@ Cette fonctionnalité est particulièrement utile pour éviter la surcharge sur 
 
 Pour définir le contrôle des taux, activez l’option **[!UICONTROL Ralentir la diffusion]** dans la section **[!UICONTROL Paramètres de diffusion]** et indiquez le **[!UICONTROL Taux de diffusion]** par seconde souhaité.
 
+* Taux de diffusion minimum pris en charge : 1 par seconde.
+* Taux de diffusion maximal pris en charge : 2 000 par seconde lorsque l’option « Ralentir la diffusion » est activée.
+
 ![](assets/throttling-rate-control.png)
+
+>[!IMPORTANT]
+>
+>Lors de la définition d’un taux de diffusion, la durée maximale d’exécution de l’audience de la campagne est de 12 heures. Si le taux de diffusion est défini sur une valeur qui ne permet pas d’envoyer le message à toute l’audience dans le délai de 12 heures, les profils restants seront exclus de la campagne. Le nombre de ces profils exclus apparaît dans le rapport de campagne.
 
 ## Définir une fréquence d’exécution
 

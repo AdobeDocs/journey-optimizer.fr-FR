@@ -9,10 +9,10 @@ role: Developer
 level: Experienced
 keywords: campagnes, déclenchement par API, REST, optimizer, messages
 exl-id: e04b0d38-6b3d-4086-a0f0-c1b8f6d9634f
-source-git-commit: 3aa3203ae7763d81288cb70a2984d017b0006bb3
+source-git-commit: eeacfacf3068f831afb7b7ad78214941a9259c93
 workflow-type: tm+mt
-source-wordcount: '226'
-ht-degree: 64%
+source-wordcount: '315'
+ht-degree: 46%
 
 ---
 
@@ -38,9 +38,16 @@ L’option **[!UICONTROL Fin de la campagne]** vous permet de spécifier le mome
 
 Cette fonctionnalité est particulièrement utile pour éviter la surcharge sur les systèmes en aval, tels que les pages de destination ou les plateformes d’assistance clientèle. Par exemple, vous pouvez définir une limite de débit de 165 messages par seconde pour garantir une diffusion régulière sans surcharger les systèmes en aval.
 
-Pour définir le contrôle des taux, activez l’option **[!UICONTROL Ralentir la diffusion]** dans la section **[!UICONTROL Paramètres de diffusion]** et spécifiez le **[!UICONTROL Taux de diffusion]** souhaité.
+Pour définir le contrôle des taux, activez l’option **[!UICONTROL Ralentir la diffusion]** dans la section **[!UICONTROL Paramètres de diffusion]** et indiquez le **[!UICONTROL Taux de diffusion]** par seconde souhaité.
+
+* Taux de diffusion minimum pris en charge : 1 par seconde.
+* Taux de diffusion maximal pris en charge : 2 000 par seconde lorsque l’option « Ralentir la diffusion » est activée.
 
 ![](assets/throttling-rate-control.png)
+
+>[!IMPORTANT]
+>
+>Lors de la définition d’un taux de diffusion, la durée maximale d’exécution de l’audience de la campagne est de 12 heures. Si le taux de diffusion est défini sur une valeur qui ne permet pas d’envoyer le message à toute l’audience dans le délai de 12 heures, les profils restants seront exclus de la campagne. Le nombre de ces profils exclus apparaît dans le rapport de campagne.
 
 ## Étapes suivantes {#next}
 
