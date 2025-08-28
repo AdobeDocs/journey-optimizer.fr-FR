@@ -4,10 +4,10 @@ product: journey optimizer
 title: Utiliser des activités de campagne orchestrées
 description: Découvrez comment orchestrer des activités de campagne
 exl-id: 02f986b2-8200-4e0e-8918-44e528a6a3ec
-source-git-commit: 3a44111345c1627610a6b026d7b19b281c4538d3
+source-git-commit: c1201025af216f8f3019e7696b6eb906962b681b
 workflow-type: tm+mt
-source-wordcount: '384'
-ht-degree: 70%
+source-wordcount: '393'
+ht-degree: 68%
 
 ---
 
@@ -30,6 +30,8 @@ Ces activités sont spécifiques au ciblage. Elles permettent de construire une 
 
 ![Liste des activités de ciblage](../assets/targeting-activities.png){width="40%" align="left"}
 
+Les activités de ciblage disponibles sont les suivantes :
+
 * [Créer une audience](build-audience.md) : définissez votre population cible. Vous pouvez sélectionner une audience existante ou utiliser le créateur de règles pour définir votre propre requête.
 * [Modifier la dimension](change-dimension.md) : modifiez la dimension de ciblage au fur et à mesure que vous créez votre campagne orchestrée.
 * [Combiner](combine.md) : effectuez une segmentation sur votre population entrante. Vous pouvez utiliser une union, une intersection ou une exclusion.
@@ -49,9 +51,11 @@ Adobe Journey Optimizer vous permet d’automatiser et d’exécuter des campa
 >title="Activité de fin"
 >abstract="L’activité **Fin** vous permet de marquer graphiquement la fin d’une campagne orchestrée. Cette activité n’a aucun impact fonctionnel et est donc facultative."
 
-![Liste des activités de contrôle de flux](../assets/flow-control-activities.png){width="30%" align="left"}
+Les activités suivantes sont spécifiques à l&#39;organisation et à l&#39;exécution de campagnes orchestrées. Leur principale tâche est de coordonner les autres activités.
 
-Les activités suivantes sont spécifiques à l&#39;organisation et à l&#39;exécution de campagnes orchestrées. Leur principale tâche est de coordonner les autres activités :
+![Liste des activités de contrôle de flux](../assets/flow-control-activities.png){width="20%" align="left"}
+
+Les activités d’ordonnancement disponibles sont les suivantes :
 
 * [Rendez-vous](and-join.md) : synchronisez plusieurs branches d’exécution d’une campagne orchestrée.
 * [Branchement](fork.md) : créez des transitions sortantes afin de lancer plusieurs activités en parallèle.

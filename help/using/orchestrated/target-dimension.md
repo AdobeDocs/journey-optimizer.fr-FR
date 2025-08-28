@@ -4,17 +4,17 @@ product: journey optimizer
 title: Création de votre dimension de ciblage
 description: Découvrez comment mapper un schéma relationnel au profil client
 exl-id: 2479c109-cd6f-407e-8a53-77e4477dc36f
-source-git-commit: 3a44111345c1627610a6b026d7b19b281c4538d3
+source-git-commit: c1201025af216f8f3019e7696b6eb906962b681b
 workflow-type: tm+mt
-source-wordcount: '713'
-ht-degree: 0%
+source-wordcount: '745'
+ht-degree: 3%
 
 ---
 
 
 # Configuration d’une dimension de ciblage {#configuration}
 
-Grâce aux **[!UICONTROL Campagnes orchestrées]**, vous pouvez concevoir et diffuser des communications ciblées au niveau de l’entité, en exploitant les fonctionnalités du schéma relationnel de Adobe Experience Platform.
+Grâce aux **[!UICONTROL Campagnes orchestrées]**, vous pouvez concevoir et diffuser des communications ciblées au niveau de l’entité, en exploitant les fonctionnalités du schéma relationnel de Adobe Experience Platform. Experience Platform utilise des schémas pour décrire la structure des données de manière cohérente et réutilisable. Lorsque des données sont ingérées dans Experience Platform, elles sont structurées selon un schéma XDM.
 
 Bien que la segmentation des **[!UICONTROL Campagnes orchestrées]** fonctionne principalement sur des schémas relationnels, la diffusion réelle des messages se produit toujours au niveau du **Profil**.
 
@@ -30,7 +30,7 @@ Lors de la configuration du ciblage, vous devez définir deux aspects essentiels
 
 * **Liaison de profil**
 
-  Le système doit comprendre comment le schéma cible est mappé au `Profile`. Pour ce faire, un champ d’identité partagé, qui existe à la fois dans le schéma cible et dans le schéma `Profile`, est configuré comme un espace de noms d’identité.
+  Le système doit comprendre comment le schéma cible est mappé au schéma `Profile`. Pour ce faire, un champ d’identité partagé, qui existe à la fois dans le schéma cible et dans le schéma `Profile`, est configuré comme un espace de noms d’identité.
 
 ## Création de votre dimension de ciblage {#targeting-dimension}
 
@@ -50,7 +50,7 @@ Commencez par configurer l&#39;orchestration des campagnes en mappant un schéma
 
    Dans cet exemple, le profil client est lié à plusieurs abonnements, chacun étant représenté par un `crmID` unique dans le schéma `Recipient`. En définissant le **[!UICONTROL Dimension cible]** pour utiliser le schéma `Recipient` et son identité `crmID`, vous pouvez envoyer des messages au niveau de l’abonnement, plutôt qu’au niveau du profil client principal, en vous assurant que chaque contrat ou ligne reçoit son propre message personnalisé.
 
-   [En savoir plus dans la documentation d’Adobe Experience Platform](https://experienceleague.adobe.com/fr/docs/experience-platform/xdm/schema/composition#identity)
+   [En savoir plus dans la documentation d’Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/composition#identity)
 
    ![](assets/target-dimension-2.png)
 
