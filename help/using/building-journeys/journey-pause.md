@@ -8,7 +8,7 @@ role: User
 level: Intermediate
 keywords: publication, parcours, actif, validité, vérification
 exl-id: a2892f0a-5407-497c-97af-927de81055ac
-source-git-commit: 3aa3203ae7763d81288cb70a2984d017b0006bb3
+source-git-commit: 10a228a500ac1c89f9fc400d6e7606f4b1717052
 workflow-type: tm+mt
 source-wordcount: '2225'
 ht-degree: 89%
@@ -22,7 +22,7 @@ ht-degree: 89%
 >title="Mettre en pause votre parcours"
 >abstract="Mettez en pause un parcours actif pour empêcher de nouveaux profils de le rejoindre. Choisissez de supprimer ou de conserver les profils actuellement dans le parcours. S’ils sont conservés, ils reprendront l’exécution à l’activité d’action suivante lors de la reprise du parcours. Idéal pour les mises à jour ou les arrêts d’urgence, sans perte de la progression."
 
-Vous pouvez mettre en pause vos parcours actifs, effectuer toutes les modifications nécessaires, puis les reprendre à tout moment.<!--You can choose whether the journey is resumed at the end of the pause period, or whether it stops completely. --> Pendant la pause, vous pouvez [appliquer des critères de sortie d’attribut de profil](#journey-global-filters) pour exclure des profils en fonction de leurs attributs. Le parcours est automatiquement repris à l’issue de la période de pause. Vous pouvez également le [reprendre manuellement](#journey-resume-steps).
+Vous pouvez mettre en pause vos parcours actifs, effectuer toutes les modifications nécessaires, puis les reprendre à tout moment.<!--You can choose whether the journey is resumed at the end of the pause period, or whether it stops completely. --> Pendant la pause, vous pouvez [appliquer des critères de sortie d’attribut de profil](#journey-exit-criteria) pour exclure des profils en fonction de leurs attributs. Le parcours est automatiquement repris à l’issue de la période de pause. Vous pouvez également le [reprendre manuellement](#journey-resume-steps).
 
 
 
@@ -113,7 +113,7 @@ Pour reprendre un parcours en pause et recommencer à écouter les événements 
 Dans la liste de vos parcours, vous pouvez reprendre un ou plusieurs parcours **en pause**. Pour reprendre un groupe de parcours (_reprise par lots_), sélectionnez-les et cliquez sur le bouton **Reprendre** situé dans la barre bleue en bas de l’écran. Notez que le bouton **Reprendre** n’est disponible que lorsque des parcours **en pause** sont sélectionnés.
 
 
-## Application d’un critère de sortie dans un parcours en pause {#journey-global-filters}
+## Application d’un critère de sortie dans un parcours en pause {#journey-exit-criteria}
 
 Lorsqu’un parcours est en pause, vous pouvez appliquer un critère de sortie en fonction des attributs de profil. Ce filtre permet d’exclure au moment de la reprise les profils qui correspondent à une expression définie. Une fois que le critère de sortie basé sur les attributs de profil est défini, il est appliqué sur les nœuds d’action, même pour les nouvelles entrées de profils. Les profils existants correspondant aux critères et les nouveaux profils entrant dans le parcours seront exclus du parcours **sur le nœud d’action suivant** qu’ils rencontrent.
 
@@ -123,7 +123,7 @@ Par exemple, pour exclure toutes les clientes et tous les clients français d’
 
 1. Sélectionnez l’icône **Critères de sortie**.
 
-   ![Ajouter un critère de sortie d’attribut de profil à un parcours en pause](assets/add-global-filter.png)
+   ![Ajouter un critère de sortie d’attribut de profil à un parcours en pause](assets/add-exit-criteria.png)
 
 1. Dans les paramètres **Critères de sortie**, cliquez sur **Ajouter des critères de sortie** pour définir un filtre en fonction des attributs de profil.
 
