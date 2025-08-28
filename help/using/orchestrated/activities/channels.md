@@ -5,9 +5,9 @@ title: Ajouter une activité de canal dans une campagne à plusieurs étapes
 description: Découvrir comment ajouter une activité de canal dans une campagne à plusieurs étapes
 exl-id: ffe1e77c-6c4f-4f23-9183-d715a4c7c402
 source-git-commit: a4f3dce91af978bdff2de5beb8b1472f7704bdf2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1108'
-ht-degree: 77%
+ht-degree: 100%
 
 ---
 
@@ -49,7 +49,7 @@ UNUSED IDs in BJ
 >title="Activité Courrier"
 >abstract="L’activité Courrier facilite l’envoi de courrier depuis votre campagne orchestrée pour les messages ponctuels et récurrents. Elle permet d’automatiser le processus de génération du fichier d’extraction requis par les fournisseurs de services postaux. Vous pouvez combiner des activités de canal dans la zone de travail de campagne orchestrée afin de créer des campagnes cross-canal pouvant déclencher des actions en fonction du comportement de la clientèle et des données."
 
-[!DNL Adobe Journey Optimizer] vous permet d’automatiser et d’exécuter des campagnes marketing sur plusieurs canaux (e-mail, SMS et notifications push). Vous pouvez combiner ces activités de canal dans la zone de travail de campagne afin de créer des campagnes orchestrées cross-canal pouvant déclencher des actions en fonction du comportement du client et des données.
+[!DNL Adobe Journey Optimizer] vous permet d’automatiser et d’exécuter des campagnes marketing sur plusieurs canaux (e-mail, SMS et notifications push). Vous pouvez combiner ces activités de canal dans la zone de travail de la campagne orchestrée, afin de créer des campagnes orchestrées cross-canal pouvant déclencher des actions en fonction du comportement et des données de la clientèle.
 
 Par exemple :
 
@@ -92,13 +92,13 @@ Utilisez l’onglet **[!UICONTROL Actions]** afin de sélectionner une configura
 
 1. **Appliquer des règles de limitation**
 
-   Dans la liste déroulante **[!UICONTROL Jeu de règles]**, sélectionnez un jeu de règles de canal pour appliquer des règles de limitation à votre campagne. L’utilisation des jeux de règles de canal vous permet de définir un capping de fréquence par type de communication afin d’éviter d’envoyer trop de messages similaires aux clientes et aux clients. [Découvrir comment utiliser les jeux de règles](../../conflict-prioritization/rule-sets.md)
+   Dans la liste déroulante **[!UICONTROL Jeu de règles]**, sélectionnez un jeu de règles de canal pour appliquer des règles de limitation à la campagne. L’utilisation des jeux de règles de canal vous permet de définir un capping de fréquence par type de communication afin d’éviter d’envoyer trop de messages similaires aux clientes et aux clients. [Découvrir comment utiliser les jeux de règles](../../conflict-prioritization/rule-sets.md)
 
-1. **Suivi de l’engagement** (e-mails et SMS)
+1. **Suivre l’engagement** (pour les e-mails et les SMS).
 
    Utilisez la section **[!UICONTROL Suivi des actions]** pour suivre la réaction des personnes destinataires à vos diffusions e-mail ou SMS. Les résultats du suivi sont accessibles dans le rapport de la campagne, une fois celle-ci exécutée. [En savoir plus sur les rapports de campagne](../../reports/campaign-global-report-cja.md)
 
-1. **Activer le mode de diffusion rapide** (notification push)
+1. **Activer le mode de diffusion rapide** (notifications push).
 
    Le mode de diffusion rapide est un module complémentaire [!DNL Journey Optimizer] qui permet d’envoyer très rapidement des messages push en grandes quantités dans le cadre d’une campagne. Il est utilisé lorsque le retard dans la diffusion des messages est critique pour l’entreprise, quand vous souhaitez envoyer une alerte push urgente sur les téléphones mobiles, par exemple des nouvelles importantes destinées aux personnes qui ont installé votre application de canal d’actualités. Pour plus d’informations sur les performances lors de l’utilisation du mode de diffusion rapide, reportez-vous à la section [Description du produit Adobe Journey Optimizer](https://helpx.adobe.com/fr/legal/product-descriptions/adobe-journey-optimizer.html).
 
@@ -126,25 +126,25 @@ Passez à l’onglet **[!UICONTROL Contenu]** pour créer votre message. Les ét
 
 ## Ajouter une personnalisation
 
-Le fonctionnement de Personalization dans les campagnes orchestrées est similaire à celui d’autres campagnes ou parcours **[!UICONTROL Journey Optimizer]**, mais avec quelques différences importantes spécifiques à la zone de travail orchestrée.
+La personnalisation dans les campagnes orchestrées fonctionne de manière similaire aux campagnes ou parcours **[!UICONTROL Journey Optimizer]**, mais avec quelques différences clés propres à la zone de travail orchestrée.
 
-Lorsque vous accédez à l’éditeur de personnalisation à partir d’une campagne orchestrée, deux dossiers principaux contiennent des attributs disponibles pour la personnalisation détaillés ci-dessous.
+Lorsque vous accédez à l’éditeur de personnalisation depuis une campagne orchestrée, deux dossiers principaux contiennent des attributs disponibles pour la personnalisation, décrits ci-dessous.
 
 * **[!UICONTROL Attributs de profil]**
 
-  Ce dossier comprend toutes les données liées aux profils de [!DNL Adobe Experience Platform]. Il s’agit d’attributs standard tels que le nom, l’adresse e-mail, l’emplacement ou toute autre caractéristique capturée dans le profil utilisateur.
+  Ce dossier inclut toutes les données liées aux profils provenant d’[!DNL Adobe Experience Platform]. Il s’agit d’attributs standard tels que le nom, l’adresse e-mail, l’emplacement ou toute autre caractéristique capturée dans le profil de l’utilisateur ou de l’utilisatrice.
 
 * **[!UICONTROL Attributs de cible]** (spécifiques aux campagnes orchestrées)
 
-  Ce dossier est propre aux campagnes orchestrées. Il contient des attributs calculés directement dans la zone de travail de la campagne. Il contient deux sous-dossiers :
+  Ce dossier est propre aux campagnes orchestrées. Il contient des attributs calculés directement dans la zone de travail de la campagne. Il contient deux sous-dossiers :
 
-   * **`<Targeting dimension>`** (par exemple, « Destinataires », « Achats ») : contient tous les attributs liés à la dimension ciblée par votre campagne.
+   * **`<Targeting dimension>`** (par exemple, « Destinataires », « Achats ») : contient tous les attributs liés à la dimension ciblée par la campagne.
 
-   * **`Enrichment`** : inclut les données ajoutées via les activités **[!UICONTROL Enrichissement]** dans votre zone de travail. Vous pouvez ainsi personnaliser les messages en fonction de jeux de données externes ou d’une logique supplémentaire incorporée lors de l’orchestration. [Découvrez comment utiliser une activité d’enrichissement](../activities/enrichment.md)
+   * **`Enrichment`** : inclut les données ajoutées via des activités **[!UICONTROL Enrichissement]** dans la zone de travail. Cela permet de personnaliser les messages en fonction de jeux de données externes ou de logiques supplémentaires intégrées lors de l’orchestration. [Découvrez comment utiliser une activité d’enrichissement](../activities/enrichment.md)
 
-Pour une présentation détaillée de l’utilisation de l’éditeur de personnalisation, reportez-vous à la section [Prise en main de la personnalisation](../../personalization/personalize.md)
+Pour une présentation détaillée de l’utilisation de l’éditeur de personnalisation, reportez-vous à la section [Commencer avec la personnalisation](../../personalization/personalize.md)
 
-## Vérifier et tester votre contenu
+## Vérifier et tester le contenu
 
 Une fois votre contenu créé, utilisez le bouton **[!UICONTROL Simuler le contenu]** pour prévisualiser et tester votre contenu avec des profils de test ou des exemples de données d’entrée chargés à partir d’un fichier CSV/JSON ou ajoutés manuellement. [En savoir plus](../../content-management/preview-test.md)
 
@@ -152,7 +152,7 @@ Une fois votre contenu créé, utilisez le bouton **[!UICONTROL Simuler le conte
 
 ## Étapes suivantes {#next}
 
-Lorsque le contenu du message est prêt, revenez à votre campagne orchestrée à l’aide de la flèche **[!UICONTROL Précédent]**. Vous pouvez ensuite terminer l’orchestration des activités dans la zone de travail et publier la campagne pour commencer l’envoi des messages. [Découvrez comment démarrer et surveiller des campagnes orchestrées](../start-monitor-campaigns.md)
+Lorsque le contenu du message est prêt, revenez à votre campagne orchestrée à l’aide de la flèche **[!UICONTROL Retour]**. Vous pouvez ensuite terminer l’orchestration des activités dans la zone de travail et publier la campagne pour commencer l’envoi des messages. [Découvrez comment démarrer et surveiller des campagnes orchestrées](../start-monitor-campaigns.md)
 
 ![image montrant le bouton Retour](../assets/channel-back.png)
 

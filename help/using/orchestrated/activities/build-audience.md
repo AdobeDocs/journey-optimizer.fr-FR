@@ -2,12 +2,12 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Utiliser l’activité Créer une audience
-description: Découvrez comment utiliser l’activité Créer une audience dans une campagne orchestrée
+description: Découvrez comment utiliser l’activité Créer une audience dans une campagne orchestrée.
 exl-id: 3959b5fa-0c47-42a5-828f-4d7ca9b7e72d
 source-git-commit: 3a44111345c1627610a6b026d7b19b281c4538d3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '293'
-ht-degree: 74%
+ht-degree: 100%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 74%
 
 En tant que spécialiste marketing, vous pouvez créer des segments d’audience complexes par le biais d’une interface intuitive, ce qui vous permet de cibler les utilisateurs et les utilisatrices en fonction d’un large éventail de critères et de comportements, afin d’adapter plus efficacement vos campagnes.
 
-Pour ce faire, utilisez l’activité de ciblage **[!UICONTROL Créer une audience]**. Cette activité définit l’audience qui entre dans la campagne orchestrée. Lors de l’envoi de messages dans le cadre d’une campagne orchestrée, l’audience est définie dans l’activité **[!UICONTROL Créer une audience]**, et non dans la campagne orchestrée.
+Pour ce faire, utilisez l’activité de ciblage **[!UICONTROL Créer une audience]**. Cette activité définit l’audience qui entre dans la campagne orchestrée. Lors de l’envoi de messages dans le cadre d’une campagne orchestrée, l’audience est définie dans l’activité **[!UICONTROL Créer une audience]** et non dans la campagne orchestrée.
 
 ## Configurer l’activité Créer une audience {#build-audience-configuration}
 
@@ -50,6 +50,6 @@ Pour configurer l’activité **[!UICONTROL Créer une audience]**, procédez co
 
 ## Exemples{#build-audience-examples}
 
-Voici un exemple de campagne orchestrée avec deux activités **[!UICONTROL Créer une audience]**. La première cible les profils qui ont des articles dans leur panier, avec une diffusion par e-mail. La seconde cible les profils qui ont une liste de souhaits, avec une diffusion par SMS.
+Voici un exemple de campagne orchestrée comportant deux activités **[!UICONTROL Créer une audience]**. La première cible les profils qui ont des articles dans leur panier, avec une diffusion par e-mail. La seconde cible les profils qui ont une liste de souhaits, avec une diffusion par SMS.
 
 ![](../assets/build-audience-2.png)

@@ -1,13 +1,13 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Création et planification de campagnes orchestrées avec Journey Optimizer
-description: Découvrez comment créer et planifier une campagne orchestrée avec Adobe Journey Optimizer
+title: Créer et planifier des campagnes orchestrées avec Journey Optimizer
+description: Découvrez comment créer et planifier une campagne orchestrée avec Adobe Journey Optimizer
 exl-id: 13da680d-fef8-4749-9190-8ca3d77b060a
 source-git-commit: 3a44111345c1627610a6b026d7b19b281c4538d3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1116'
-ht-degree: 67%
+ht-degree: 100%
 
 ---
 
@@ -23,25 +23,25 @@ Créez une campagne orchestrée dans [!DNL Adobe Journey Optimizer] et configure
 >title="Liste des campagnes orchestrées"
 >abstract="L’onglet **Orchestration** répertorie toutes les campagnes orchestrées. Cliquez sur le nom d’une campagne orchestrée pour la modifier. Utilisez le bouton **Créer une campagne orchestrée** pour ajouter une nouvelle campagne orchestrée."
 
-Pour créer une campagne orchestrée, procédez comme suit :
+Pour créer une campagne orchestrée, procédez comme suit :
 
 1. Accédez au menu **[!UICONTROL Campagnes]** et sélectionnez l’onglet **[!UICONTROL Orchestration]**.
 
-1. Cliquez sur le bouton **[!UICONTROL Créer une campagne]** et sélectionnez le type de campagne **[!UICONTROL Orchestration - Marketing]**.
+1. Cliquez sur le bouton **[!UICONTROL Créer une campagne]** et sélectionnez le type de campagne **[!UICONTROL Orchestration - Marketing]**.
 
    ![](assets/create-modal.png)
 
-1. Définissez les propriétés de la campagne. Pour ce faire, cliquez sur le bouton ![Icône Paramètres de campagne](assets/do-not-localize/campaign-settings.svg) en regard du nom de la campagne.
+1. Définissez les propriétés de la campagne. Pour ce faire, cliquez sur l’![icône des paramètres de la campagne](assets/do-not-localize/campaign-settings.svg) en regard du nom de la campagne.
 
    ![](assets/inventory-create.png)
 
-   1. Saisissez un **[!UICONTROL Nom]** et un **[!UICONTROL Description]** pour la campagne.
+   1. Saisissez le **[!UICONTROL nom]** et la **[!UICONTROL description]** de la campagne.
 
    1. Sélectionnez une **[!UICONTROL politique de fusion]** pour votre campagne.
 
-      Dans [!DNL Adobe Experience Platform], chaque audience est liée à une politique de fusion spécifique, qui définit la manière dont les informations de profil sont combinées pour former un profil fusionné. Lorsque vous sélectionnez une politique de fusion dans l’activité Lecture d’audience , seules les audiences basées sur cette même politique de fusion sont disponibles. Par défaut, le système utilise la politique de fusion par défaut, mais vous pouvez la modifier si nécessaire. Pour plus d’informations sur les politiques de fusion, consultez la documentation de [Adobe Experience Platform](https://experienceleague.adobe.com/fr/docs/experience-platform/profile/merge-policies/overview){target="_blank"}.
+      Dans [!DNL Adobe Experience Platform], chaque audience est liée à une politique de fusion spécifique, qui définit la manière dont les informations de profil sont combinées pour former un profil fusionné. Lorsque vous sélectionnez une politique de fusion dans l’activité Lire l’audience, seules les audiences basées sur cette même politique de fusion sont disponibles. Par défaut, le système utilise la politique de fusion par défaut, mais vous pouvez la modifier si nécessaire. Pour plus d’informations sur les politiques de fusion, consultez la [documentation Adobe Experience Platform](https://experienceleague.adobe.com/fr/docs/experience-platform/profile/merge-policies/overview){target="_blank"}.
 
-   1. Utilisez le champ **[!UICONTROL Balises]** pour affecter des balises unifiées Adobe Experience Platform à votre campagne. Vous pouvez ainsi facilement les classer et améliorer la recherche à partir de la liste Campagnes orchestrées . [Découvrez comment utiliser les balises](../start/search-filter-categorize.md#tags).
+   1. Utilisez le champ **[!UICONTROL Balises]** pour affecter des balises unifiées Adobe Experience Platform à votre campagne. Vous pouvez ainsi facilement les classer et améliorer la recherche à partir de la liste des campagnes orchestrées. [Découvrez comment utiliser les balises](../start/search-filter-categorize.md#tags).
 
    1. Cliquez sur **[!UICONTROL Enregistrer]**.
 
@@ -62,13 +62,13 @@ Pour créer une campagne orchestrée, procédez comme suit :
 >title="Options du planificateur"
 >abstract="Définissez la fréquence du planificateur. Il peut être exécuté à un moment précis, ou encore une ou plusieurs fois par jour, semaine ou mois."
 
-Par défaut, les campagnes orchestrées démarrent lorsqu’elles sont activées manuellement et se terminent lorsque leurs activités associées ont été exécutées. Si vous préférez retarder l’exécution ou exécuter la campagne de manière récurrente, vous pouvez définir un planning pour la campagne.
+Par défaut, les campagnes orchestrées démarrent lorsqu’elles sont activées manuellement et se terminent lorsque leurs activités associées ont été exécutées. Si vous préférez retarder l’exécution ou lancer la campagne de manière récurrente, vous pouvez définir un planning.
 
-Tenez compte des bonnes pratiques suivantes lors de la planification de campagnes orchestrées afin de garantir des performances optimales et un comportement attendu :
+Tenez compte des bonnes pratiques suivantes lors de la planification de campagnes orchestrées afin de garantir des performances optimales et de vous assurer que le comportement soit tel qu’attendu :
 
-* Ne planifiez pas l’exécution d’une campagne orchestrée à une fréquence supérieure à toutes les 15 minutes, car cela peut nuire aux performances générales du système et créer des blocs dans la base de données.
-* Si vous souhaitez envoyer un message ponctuel dans votre campagne orchestrée, vous pouvez le définir pour qu’il s’exécute **Une fois**.
-* Si vous souhaitez envoyer un message récurrent dans votre campagne orchestrée, vous devez utiliser une option **Planification** et définir la fréquence d’exécution. L’activité de diffusion récurrente ne permet pas de définir de planning.
+* Ne planifiez pas l’exécution d’une campagne orchestrée à une fréquence supérieure à toutes les 15 minutes, car cela peut nuire aux performances générales du système et créer des blocages dans la base de données.
+* Si vous souhaitez envoyer un message ponctuel dans votre campagne orchestrée, vous pouvez le définir afin qu’il s’exécute **Une fois**.
+* Si vous souhaitez envoyer un message récurrent dans votre campagne orchestrée, vous devez utiliser une option de **Planification** et définir la fréquence d’exécution. L’activité de diffusion récurrente ne permet pas de définir de planning.
 
 Pour configurer le planning de la campagne, procédez comme suit :
 
@@ -145,7 +145,7 @@ Pour configurer le planning de la campagne, procédez comme suit :
 >
 >Lors de la planification de campagnes dans [!DNL Adobe Journey Optimizer], assurez-vous que la date/l’heure de début correspond à la première diffusion souhaitée. Pour les campagnes récurrentes, si l’heure planifiée initiale est déjà dépassée, les campagnes sont reportées au prochain créneau horaire disponible en fonction de leurs règles de périodicité.
 
-Dans l’exemple suivant, l’activité est configurée de sorte que la campagne orchestrée s’exécute deux fois par jour à 9 h et à 12 h, tous les jours de la semaine du 1er octobre 2025 au 1er janvier 2026.
+Dans l’exemple suivant, l’activité est configurée de sorte que la campagne orchestrée s’exécute deux fois par jour à 9 h 00 et à 12 h 00, tous les jours de la semaine du 1er octobre 2025 au 1er janvier 2026.
 
 ![Planificateur configuré pour exécuter la campagne deux fois par jour à 9 h et 12 h](assets/scheduler-sample.png){width="50%" align="left"}
 

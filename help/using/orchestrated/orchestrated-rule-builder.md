@@ -5,9 +5,9 @@ title: Utiliser le créateur de règles
 description: Découvrez comment créer des règles pour vos campagnes orchestrées
 exl-id: fb7a0eb2-b2ff-49fa-af1f-f1c10f219b00
 source-git-commit: 3a44111345c1627610a6b026d7b19b281c4538d3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '305'
-ht-degree: 76%
+ht-degree: 100%
 
 ---
 
@@ -20,13 +20,13 @@ En outre, il prend en charge les filtres prédéfinis dans les conditions, ce qu
 
 ## Accéder au créateur de règles
 
-Le créateur de règles est disponible dans tous les contextes où vous devez définir des règles pour filtrer les données.
+Le créateur de règles est disponible dans tout contexte où vous devez définir des règles pour filtrer les données.
 
 | Utilisation | Exemple |
 |  ---  |  ---  |
-| **Créer des audiences** : spécifiez la population que vous souhaitez cibler dans vos campagnes orchestrées à l’aide d’une activité **[!UICONTROL Créer une audience]** et créez facilement de nouvelles audiences adaptées à vos besoins. [Découvrir comment créer des audiences](../orchestrated/activities/build-audience.md) | ![Image montrant comment accéder à l’interface de création d’audience](assets/query-access-audience.png){width="200" align="center" zoomable="yes"} |
+| **Créer des audiences** : indiquez la population à cibler dans vos campagnes orchestrées à l’aide de l’activité **[!UICONTROL Créer une audience]**, et créez facilement de nouvelles audiences adaptées à vos besoins. [Découvrir comment créer des audiences](../orchestrated/activities/build-audience.md) | ![Image montrant comment accéder à l’interface de création d’audience](assets/query-access-audience.png){width="200" align="center" zoomable="yes"} |
 | **Créer une condition dans la zone de travail de la campagne** : appliquez les règles de la zone de travail de la campagne à l’aide d’une activité **[!UICONTROL Partage]**, pour répondre à vos besoins spécifiques. [Découvrir comment utiliser l’activité Partage](../orchestrated/activities/split.md) | ![Image montrant comment accéder aux options de personnalisation d’un workflow](assets/query-access-split.png){width="200" align="center" zoomable="yes"} |
-| **Créer des filtres avancés** : créez des règles pour filtrer les données affichées dans les listes telles que les logs de campagne ou les dimensions de ciblage. | ![Image montrant comment personnaliser les filtres de liste](assets/query-access-advanced-filters.png){width="200" align="center" zoomable="yes"} |
+| **Créer des filtres avancés** : créez des règles pour filtrer les données affichées dans les listes, telles que les journaux de campagne ou les dimensions de ciblage. | ![Image montrant comment personnaliser les filtres de liste](assets/query-access-advanced-filters.png){width="200" align="center" zoomable="yes"} |
 
 ## Interface du créateur de règles {#interface}
 

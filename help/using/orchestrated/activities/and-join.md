@@ -5,9 +5,9 @@ title: Utiliser l’activité Rendez-vous
 description: Découvrez comment utiliser l’activité Rendez-vous dans une campagne orchestrée
 exl-id: 1b99313e-f131-44f7-a129-f85e1977fb05
 source-git-commit: 3a44111345c1627610a6b026d7b19b281c4538d3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '257'
-ht-degree: 84%
+ht-degree: 100%
 
 ---
 
@@ -44,6 +44,6 @@ Pour configurer l’activité **[!UICONTROL Rendez-vous]**, procédez comme suit
 
 ## Exemple{#and-join-example}
 
-Cet exemple illustre deux branches de campagne coordonnées, chacune disposant d’une diffusion par e-mail, l’une ciblant les membres Gold et l’autre les membres Silver. Le **[!UICONTROL Rendez-vous]** s’active une fois les deux transitions entrantes déclenchées. Le SMS ne sera envoyé qu’une fois les deux diffusions par e-mail terminées, après un délai de 7 jours.
+Cet exemple illustre deux branches de campagne coordonnées, chacune disposant d’une diffusion e-mail, l’une ciblant les membres Gold et l’autre les membres Silver. Le **[!UICONTROL Rendez-vous]** s’active une fois les deux transitions entrantes déclenchées. Le SMS ne sera envoyé qu’une fois les deux diffusions par e-mail terminées, après un délai de 7 jours.
 
 ![](../assets/workflow-andjoin-example.png){zoomable="yes"}

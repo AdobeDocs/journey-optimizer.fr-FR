@@ -5,7 +5,7 @@ title: Utiliser l’activité Combiner
 description: Découvrir comment utiliser l’activité Combiner
 exl-id: af3c3a9c-8172-43b0-bba1-4a3d068b9a9e
 source-git-commit: 3a44111345c1627610a6b026d7b19b281c4538d3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1019'
 ht-degree: 100%
 
@@ -77,7 +77,7 @@ Dans l’exemple suivant, une activité **[!UICONTROL Combiner]** est utilisée 
 
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_intersection_reconciliation_options"
->title="Options de réconciliation des intersections"
+>title="Options de réconciliation des interactions"
 >abstract="Sélectionnez le **type de réconciliation** pour définir comment gérer les doublons. Par défaut, l’option **Clés** est activée, ce qui signifie que l’activité ne conserve qu’un élément lorsque des éléments provenant de différentes transitions entrantes ont la même clé. Utilisez l’option **Une sélection de colonnes** pour définir la liste des colonnes sur lesquelles est appliquée la réconciliation des données."
 
 Dans l’activité **[!UICONTROL Combiner]**, vous pouvez configurer une **[!UICONTROL intersection]**. Pour cela, suivez les étapes supplémentaires ci-dessous :

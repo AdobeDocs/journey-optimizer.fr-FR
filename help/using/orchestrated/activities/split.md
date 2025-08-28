@@ -2,12 +2,12 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Utiliser l’activité Partage
-description: Découvrez comment utiliser l’activité Partage dans une campagne orchestrée
+description: Découvrez comment utiliser l’activité Partage dans une campagne orchestrée.
 exl-id: 986bc566-123a-451d-a4a6-bbf5a2798849
 source-git-commit: 3a44111345c1627610a6b026d7b19b281c4538d3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '801'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
@@ -65,7 +65,7 @@ L’activité **[!UICONTROL Partage]** est une activité de **[!UICONTROL ciblag
 
 Pour configurer l’activité **[!UICONTROL Partage]**, procédez comme suit :
 
-1. Ajoutez une activité **[!UICONTROL Partage]** à votre campagne orchestrée.
+1. Ajoutez une activité **[!UICONTROL Partager]** à votre campagne orchestrée.
 
 1. Le volet de configuration des activités s’ouvre avec un sous-ensemble par défaut. Cliquez sur le bouton **[!UICONTROL Ajouter un segment]** pour ajouter autant de sous-ensembles que vous le souhaitez pour segmenter la population entrante.
 
@@ -75,9 +75,9 @@ Pour configurer l’activité **[!UICONTROL Partage]**, procédez comme suit :
    >
    >L’activité **Partage** traite les sous-ensembles dans l’ordre dans lequel ils sont ajoutés. Par exemple, si le premier sous-ensemble capture 70 % de la population, le suivant applique ses critères aux 30 % restants.
    >
-   >Avant d’exécuter votre campagne orchestrée, assurez-vous que les sous-ensembles sont triés comme prévu. Utilisez les boutons fléchés pour ajuster leur position.
+   >Avant d’exécuter votre campagne orchestrée, assurez-vous que les sous-ensembles sont ordonnés comme prévu. Utilisez les boutons fléchés pour ajuster leur position.
 
-1. Une fois les sous-ensembles ajoutés, l’activité propose autant de transitions sortante que de sous-ensembles : Nous vous recommandons vivement de modifier le libellé de chaque sous-ensemble pour les identifier facilement dans la zone de travail de campagne orchestrée.
+1. Une fois les sous-ensembles ajoutés, l’activité propose autant de transitions sortante que de sous-ensembles : Nous vous recommandons vivement de modifier le libellé de chaque sous-ensemble afin de les identifier facilement dans la zone de travail de la campagne orchestrée.
 
 1. Configurez les filtres pour chaque sous-ensemble :
 
@@ -103,7 +103,7 @@ Pour configurer l’activité **[!UICONTROL Partage]**, procédez comme suit :
 
    * **Si cette option est cochée** les profils peuvent être inclus dans plusieurs sous-ensembles s’ils répondent aux critères de chacun d’eux.
 
-L’activité est désormais configurée. Lors de l&#39;exécution de la campagne orchestrée, la population sera segmentée en différents sous-ensembles, dans l&#39;ordre dans lequel ils ont été ajoutés à l&#39;activité.
+L’activité est désormais configurée. Lors de l’exécution de la campagne orchestrée, la population sera segmentée dans les différents sous-ensembles, dans l’ordre dans lequel ils ont été ajoutés à l’activité.
 
 ## Exemple{#split-example}
 

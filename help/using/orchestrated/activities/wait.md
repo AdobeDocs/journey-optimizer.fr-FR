@@ -1,13 +1,13 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Utiliser l’activité Attente dans les campagnes orchestrées
-description: Découvrez comment utiliser l’activité Attente dans les campagnes orchestrées
+title: Utiliser l’activité Attente dans des campagnes orchestrées
+description: Découvrez comment utiliser l’activité Attente dans les campagnes orchestrées.
 exl-id: 11ef095b-77ec-4e2e-ab4d-49a248354f08
 source-git-commit: 3a44111345c1627610a6b026d7b19b281c4538d3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '196'
-ht-degree: 77%
+ht-degree: 100%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 77%
 >title="Activité Attente"
 >abstract="L’activité **Attente** est utilisée pour retarder la transition d’une activité à une autre."
 
-L’activité **[!UICONTROL Attente]** est un composant **[!UICONTROL Contrôle de flux]** utilisé pour introduire un délai entre deux activités d’une campagne orchestrée. Elle permet de vous assurer que vos activités de suivi arrivent à un meilleur moment et sont plus pertinentes pour l’interaction client.
+L’activité **[!UICONTROL Attente]** est un composant de **[!UICONTROL Contrôle du flux]** utilisé pour introduire un délai entre deux activités dans une campagne orchestrée. Elle permet de vous assurer que vos activités de suivi arrivent à un meilleur moment et sont plus pertinentes pour l’interaction client.
 
 Par exemple, vous pouvez attendre quelques jours après une diffusion e-mail pour suivre les ouvertures et les clics avant d’envoyer un message de relance.
 

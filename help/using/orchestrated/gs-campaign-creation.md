@@ -2,19 +2,19 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Étapes clés pour créer une campagne orchestrée
-description: Découvrez les principes fondamentaux de la création de campagnes orchestrées avec Adobe Journey Optimizer
+description: Découvrir les principes fondamentaux de la création de campagnes orchestrées avec Adobe Journey Optimizer
 exl-id: b04aa15a-71bf-4683-bcbf-f611c189ffe1
 source-git-commit: 3a44111345c1627610a6b026d7b19b281c4538d3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '296'
-ht-degree: 71%
+ht-degree: 100%
 
 ---
 
 
 # Étapes clés pour créer une campagne orchestrée {#orchestrated-campaign-creation}
 
-Cette page vous guide tout au long des étapes essentielles pour créer et lancer une campagne orchestrée, depuis la configuration et la conception jusqu’à la surveillance et le reporting.
+Cette page vous guide tout au long des étapes essentielles pour créer et lancer une campagne orchestrée, de la configuration et la conception à la surveillance et le reporting.
 
 <!--
 <table style="table-layout:fixed"><tr style="border: 0; text-align: center;" >
@@ -30,7 +30,7 @@ Cette page vous guide tout au long des étapes essentielles pour créer et lance
 
 ## Étape 1 : créer et planifier votre campagne {#create}
 
-Avant toute autre chose, vous devez créer votre campagne orchestrée et définir *quand* elle doit s’exécuter. Qu’il s’agisse d’une notification push unique ou d’une campagne multicanal récurrente, vous aurez un contrôle total sur le timing et la fréquence.
+Avant toute autre chose, vous devez créer votre campagne orchestrée et définir *quand* elle doit s’exécuter. Qu’il s’agisse d’une campagne push unique ou multicanal récurrente, vous aurez un contrôle total sur le timing et la fréquence.
 
 ➡️ [Découvrez comment créer et exécuter une campagne](../orchestrated/create-orchestrated-campaign.md).
 
@@ -42,7 +42,7 @@ Une fois la campagne créée, il est temps de concevoir la logique qui la sous-t
 
 ## Étape 3 : démarrer et surveiller votre campagne {#start}
 
-Vous y êtes presque ! Exécutez d’abord votre campagne en mode test pour détecter tous les problèmes. Ensuite, publiez-la et surveillez l’exécution en direct en temps réel : suivez la progression, recherchez les erreurs et voyez comment les profils passent par chaque étape.
+Vous y êtes presque. Exécutez d’abord votre campagne en mode test pour détecter tous les problèmes. Ensuite, publiez-la et surveillez l’exécution en direct en temps réel : suivez la progression, recherchez les erreurs et voyez comment les profils passent par chaque étape.
 
 ➡️ [Découvrez comment démarrer et surveiller une campagne.](../orchestrated/start-monitor-campaigns.md)
 

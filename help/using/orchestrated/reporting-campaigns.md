@@ -1,13 +1,13 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Création de rapports pour les campagnes orchestrées avec Adobe Journey Optimizer
-description: Découvrez comment accéder aux rapports sur les campagnes orchestrées avec Adobe Journey Optimizer
+title: Créer des rapports pour les campagnes orchestrées avec Adobe Journey Optimizer
+description: Découvrez comment accéder aux rapports sur les campagnes orchestrées avec Adobe Journey Optimizer
 exl-id: 8cb569a2-a4a0-45a5-b7f9-f5a591e44335
 source-git-commit: 3a44111345c1627610a6b026d7b19b281c4538d3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '182'
-ht-degree: 64%
+ht-degree: 100%
 
 ---
 
@@ -25,7 +25,7 @@ Une campagne orchestrée vous fournit des informations exploitables grâce à se
     <tr>
       <td><a href="../reports/live-report.md"><img alt="Rapport dynamique" src="assets/last-24hours.png"></a></td>
       <td>
-        Utilisez le <b>Rapport dynamique</b> pour mesurer et visualiser en temps réel l’impact et les performances de vos campagnes orchestrées dans un tableau de bord intégré. Les données sont disponibles dans le <b>Rapport dynamique</b> dès que votre campagne orchestrée est exécutée dans le menu <b>Afficher le rapport des dernières 24 heures</b>. En savoir plus sur les rapports en temps réel dans <a href="../reports/live-report.md">cette section</a>.
+        Utilisez le <b>rapport dynamique</b> pour mesurer et visualiser en temps réel l’impact et les performances de vos campagnes orchestrées dans un tableau de bord intégré. Les données sont disponibles dans le <b>rapport dynamique</b> dès que votre campagne orchestrée est exécutée dans le menu <b>Afficher le rapport des dernières 24 heures</b>. En savoir plus sur les rapports en temps réel dans <a href="../reports/live-report.md">cette section</a>.
       </td>
         </br>
     </tr>

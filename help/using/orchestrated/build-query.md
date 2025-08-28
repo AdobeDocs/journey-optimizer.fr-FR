@@ -5,16 +5,16 @@ title: Créer votre première règle
 description: Découvrez comment créer des règles pour vos campagnes orchestrées
 exl-id: 5e956a6a-0b89-4d78-8f16-fe9fceb25674
 source-git-commit: 3a44111345c1627610a6b026d7b19b281c4538d3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1717'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
 
 # Créer votre première règle {#build-query}
 
-Les étapes principales pour créer des règles pour vos campagnes orchestrées sont les suivantes :
+Les principales étapes pour créer des règles pour vos campagnes orchestrées sont les suivantes :
 
 1. **Ajouter des conditions** - Créez des conditions personnalisées pour filtrer votre requête en créant votre propre condition avec des attributs de la base de données et des expressions avancées.
 1. **Combiner des conditions** - Organisez les conditions dans la zone de travail à l’aide de groupes et d’opérateurs logiques.
@@ -133,7 +133,7 @@ Pour un **lien 1-N**, vous pouvez définir des sous-conditions afin d’affiner 
 
 +++Exemple de requête
 
-Ici, la requête cible les destinataires ayant effectué des achats liés au produit BrewMaster, pour un montant d’au moins 100 $.
+Ici, la requête cible les personnes destinataires ayant effectué des achats liés au produit BrewMaster, pour un montant d’au moins 100 $.
 
 1. Sélectionnez la table **Achats** et confirmez.
 
@@ -212,5 +212,5 @@ Lorsque votre règle est prête, cliquez sur le bouton **[!UICONTROL Confirmer]*
 
 >[!IMPORTANT]
 >
->La sélection d’un filtre prédéfini dans le volet Propriétés de la règle remplace la règle créée dans la zone de travail par le filtre sélectionné.
+>Sélectionner un filtre prédéfini dans le volet propriétés de la règle remplace la règle qui a été créée dans la zone de travail par le filtre sélectionné.
 

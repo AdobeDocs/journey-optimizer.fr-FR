@@ -5,9 +5,9 @@ title: Utiliser l’activité Test dans vos campagnes orchestrées
 description: Découvrir comment utiliser l’activité Test
 exl-id: edd70849-0a21-45f2-91f3-4774a0cad9dd
 source-git-commit: 3a44111345c1627610a6b026d7b19b281c4538d3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '375'
-ht-degree: 83%
+ht-degree: 100%
 
 ---
 
@@ -36,13 +36,13 @@ Pour configurer l’activité **[!UICONTROL Test]**, procédez comme suit :
 
 1. Pour configurer la condition associée à une transition, cliquez sur l’icône **[!UICONTROL Ouvrir la boîte de dialogue de personnalisation]**. Utilisez l’éditeur d’expression pour définir les règles d’activation de cette transition. Vous pouvez également utiliser des variables d’événement, des conditions et des fonctions de date/heure.
 
-   De plus, vous pouvez modifier le champ **[!UICONTROL Libellé]** pour personnaliser le nom de la transition sur la zone de travail de la campagne orchestrée.
+   En outre, vous pouvez modifier le champ **[!UICONTROL Libellé]** pour personnaliser le nom de la transition dans la zone de travail de la campagne orchestrée.
 
    ![](../assets/workflow-test-default.png)
 
 1. Vous pouvez ajouter plusieurs transitions de sortie à une activité **[!UICONTROL Test]**. Pour ce faire, cliquez sur le bouton **[!UICONTROL Ajouter une condition]** et configurez le libellé et la condition associée pour chaque transition.
 v
-1. Lors de l’exécution d’une campagne orchestrée, chaque condition est testée de manière séquentielle jusqu’à ce que l’une d’elles soit remplie. Si aucune des conditions n’est remplie, les campagnes orchestrées continuent sur le chemin de la **[!UICONTROL condition par défaut]**. Si aucune condition par défaut n’est activée, la campagne s’arrête à ce stade.
+1. Lors de l’exécution d’une campagne orchestrée, chaque condition est testée de manière séquentielle jusqu’à ce que l’une d’elles soit remplie. Si aucune des conditions n’est remplie, les campagnes orchestrées se poursuivent selon le chemin de la **[!UICONTROL Condition par défaut]**. Si aucune condition par défaut n’est activée, la campagne orchestrée s’arrête à ce stade.
 
 ## Exemple {#example}
 

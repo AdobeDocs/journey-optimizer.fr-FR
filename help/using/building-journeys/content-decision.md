@@ -11,9 +11,9 @@ badge: label="Disponibilité limitée" type="Informative"
 keywords: activité, prise de décision, décision de contenu, politique de décision, zone de travail, parcours
 exl-id: 6188644a-6a3b-4926-9ae9-0c6b42c96bae
 source-git-commit: 2ca37e17b788357f0b8f135c1a5889aa5145cb2f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1120'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -77,7 +77,7 @@ Vous êtes maintenant en mesure d’utiliser la sortie de cette activité Décis
 
 **Politiques de consentement**
 
-Les mises à jour des politiques de consentement prennent jusqu’à 48 heures. Si une politique de décision fait référence à un attribut lié à une politique de consentement récemment mise à jour, les modifications ne sont pas appliquées immédiatement.
+Les mises à jour des politiques de consentement prennent jusqu’à 48 heures. Si une politique de décision fait référence à un attribut lié à une politique de consentement récemment mise à jour, les modifications ne sont pas appliquées immédiatement.
 
 De même, si de nouveaux attributs de profil soumis à une politique de consentement sont ajoutés à une politique de décision, ils seront utilisables, mais la politique de consentement qui leur est associée ne sera pas appliquée tant que le délai ne sera pas écoulé.
 

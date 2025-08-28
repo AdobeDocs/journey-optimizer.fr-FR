@@ -2,21 +2,21 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Étapes de configuration
-description: Découvrez comment créer un schéma relationnel dans Adobe Experience Platform en chargeant un fichier DDL
+description: Découvrez comment créer un schéma relationnel dans Adobe Experience Platform en chargeant un fichier DDL.
 exl-id: 88eb1438-0fe5-4a19-bfb6-2968a427e9e8
 source-git-commit: 3a44111345c1627610a6b026d7b19b281c4538d3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '985'
-ht-degree: 59%
+ht-degree: 100%
 
 ---
 
 
 # Créer des schémas relationnels à l’aide d’un fichier DDL {#file-upload-schema}
 
-Définissez le modèle de données relationnelles requis pour les campagnes orchestrées en créant des schémas tels que **Loyalty Memberships**, **Loyalty Transactions** et **Loyalty Rewards**. Chaque schéma doit inclure une clé primaire, un attribut de contrôle de version et des relations appropriées pour référencer des entités telles que **Destinataires** ou **Marques**.
+Définissez le modèle de données relationnelles requis pour les campagnes orchestrées en créant des schémas tels que **Membres du programme de fidélité**, **Transactions de fidélité** et **Récompenses de fidélité**. Chaque schéma doit inclure une clé primaire, un attribut de contrôle de version et des relations appropriées pour référencer des entités telles que les **Destinataires** ou les **Marques**.
 
-Les schémas peuvent être créés manuellement par le biais de l’interface ou importés en bloc à l’aide d’un fichier DDL.
+Les schémas peuvent être créés manuellement par le biais de l’interface ou importés en masse à l’aide d’un fichier DDL.
 
 Cette section fournit des instructions détaillées sur la création d’un schéma relationnel dans Adobe Experience Platform en chargeant un fichier DDL (Data Definition Language). L’utilisation d’un fichier DDL permet de définir à l’avance la structure de votre modèle de données, y compris les tables, les attributs, les clés et les relations.
 
@@ -24,32 +24,32 @@ Cette section fournit des instructions détaillées sur la création d’un sch�
 
 1. [Définissez des relations](#relationships) entre les tables de votre modèle de données.
 
-1. [Lier des schémas](#link-schema) pour connecter vos données relationnelles à des entités de profil existantes telles que des destinataires ou des marques.
+1. [Liez des schémas](#link-schema) pour connecter vos données relationnelles à des entités de profil existantes telles que les Destinataires ou les Marques.
 
 1. [Ingérez des données](ingest-data.md) dans votre jeu de données à partir de sources prises en charge.
 
 ## Charger un fichier DDL{#ddl-upload}
 
-En chargeant un fichier DDL, vous pouvez définir à l’avance la structure de votre modèle de données, y compris les tables, les attributs, les clés et les relations.
+En chargeant un fichier DDL, vous pouvez définir à l’avance la structure de votre modèle de données, y compris les tables, les attributs, les clés et les relations.
 
-Les chargements de fichiers de schéma basés sur Excel sont pris en charge. Téléchargez le [modèle fourni](assets/template.zip) pour préparer facilement vos définitions de schéma.
+Les chargements de fichiers de schéma basés sur le format Excel sont pris en charge. Téléchargez le [modèle fourni](assets/template.zip) pour préparer facilement vos définitions de schéma.
 
-+++Les fonctions suivantes sont prises en charge lors de la création de schémas relationnels dans Adobe Experience Platform
++++Les fonctions suivantes sont prises en charge lors de la création de schémas relationnels dans Adobe Experience Platform.
 
 * **ENUM**\
-  Les champs ENUM sont pris en charge lors de la création de schémas manuelle et basée sur DDL, ce qui vous permet de définir des attributs avec un ensemble fixe de valeurs autorisées.
+  Les champs ENUM sont pris en charge pour la création de schémas manuelle ou basée sur un fichier DDL, ce qui vous permet de définir des attributs avec un ensemble fixe de valeurs autorisées.
 
-* **libellé de schéma pour la gouvernance des données**\
-  L’étiquetage est pris en charge au niveau du champ de schéma pour appliquer des politiques de gouvernance des données telles que le contrôle d’accès et les restrictions d’utilisation. Pour plus d’informations, consultez la [documentation Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=fr).
+* **Étiquette de schéma pour la gouvernance des données**\
+  La création d’étiquettes est prise en charge au niveau du champ de schéma pour appliquer les politiques de gouvernance des données, telles que le contrôle d’accès et les restrictions d’utilisation. Pour plus d’informations, consultez la [documentation Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=fr-FR).
 
 * **Clé composite**\
-  Les clés primaires composites sont prises en charge dans les définitions de schéma relationnel, ce qui permet d’utiliser plusieurs champs ensemble pour identifier les enregistrements de manière unique.
+  Les clés primaires composites sont prises en charge dans les définitions de schéma relationnel, ce qui permet d’utiliser plusieurs champs ensemble pour identifier des enregistrements de manière unique.
 
 +++
 
 1. Connectez-vous à Adobe Experience Platform.
 
-1. Accédez au menu **Gestion des données** > **Schéma**.
+1. Accédez au menu **Gestion des données** > **Schéma**.
 
 1. Cliquez sur **Créer un schéma**.
 
@@ -62,17 +62,17 @@ Les chargements de fichiers de schéma basés sur Excel sont pris en charge. Té
    La structure de la table doit contenir :
    * Au moins une clé primaire
    * Un identifiant de version, tel qu’un champ `lastmodified` de type `datetime` ou `number`.
-   * Pour l’ingestion Change Data Capture (CDC), une colonne spéciale nommée `_change_request_type` de type `String`, qui indique le type de modification des données (par exemple, insertion, mise à jour, suppression) et permet un traitement incrémentiel
+   * Pour l’ingestion Change Data Capture (CDC), une colonne spéciale nommée `_change_request_type` de type `String`, qui indique le type de modification des données (par exemple, insertion, mise à jour, suppression) et permet un traitement incrémentiel.
 
 
    >[!IMPORTANT]
    >
    > Tout schéma utilisé pour le ciblage doit inclure au moins un champ d’identité de type `String` avec un **espace de noms d’identité** associé.\
-   >Cela garantit la compatibilité avec les fonctionnalités de ciblage et de résolution d’identité de Adobe Journey Optimizer.
+   >Cela garantit la compatibilité avec les fonctionnalités de ciblage et de résolution des identités d’Adobe Journey Optimizer.
 
 1. Faites glisser et déposez votre fichier DDL, puis cliquez sur **[!UICONTROL Suivant]**.
 
-   Notez que la taille maximale prise en charge pour un fichier DDL est de 10 Mo.
+   Notez que la taille maximale prise en charge pour un fichier DDL est de 10 Mo.
 
 1. Saisissez le **[!UICONTROL nom de votre schéma]**.
 
@@ -86,7 +86,7 @@ Les chargements de fichiers de schéma basés sur Excel sont pris en charge. Té
 
 Vous pouvez maintenant vérifier les définitions de table et de champ dans la zone de travail. [En savoir plus dans la section ci-dessous](#entities)
 
-## Définition des relations {#relationships}
+## Définir des relations {#relationships}
 
 Pour définir des connexions logiques entre les tables de votre schéma, procédez comme suit.
 
@@ -132,7 +132,7 @@ Pour définir des connexions logiques entre les tables de votre schéma, procéd
 
 1. Cliquez sur **[!UICONTROL Ouvrir les traitements]** pour surveiller la progression du traitement de création. Ce processus peut prendre quelques minutes, selon le nombre de tables définies dans le fichier DDL.
 
-   Vous pouvez également accéder à vos tâches relationnelles en ouvrant la fenêtre **[!UICONTROL Charger un fichier DDL]** et en sélectionnant **[!UICONTROL Afficher toutes les tâches relationnelles]**.
+   Vous pouvez également accéder à vos traitements relationnels en ouvrant la fenêtre **[!UICONTROL Charger un fichier DDL]** et en sélectionnant **[!UICONTROL Afficher tous les traitements relationnels]**.
 
    ![](assets/admin_schema_4.png)
 

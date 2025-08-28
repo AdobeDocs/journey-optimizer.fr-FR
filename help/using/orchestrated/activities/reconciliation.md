@@ -2,12 +2,12 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Utiliser l’activité Réconciliation
-description: Découvrez comment utiliser l’activité Réconciliation dans une campagne orchestrée
+description: Découvrez comment utiliser l’activité Réconciliation dans une campagne orchestrée.
 exl-id: 0d5cfffe-bc6c-40bc-b3e1-5b44368ac76f
 source-git-commit: 3a44111345c1627610a6b026d7b19b281c4538d3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '538'
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 
