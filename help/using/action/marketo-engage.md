@@ -9,7 +9,7 @@ role: Data Engineer, Data Architect, Admin
 level: Intermediate
 keywords: marketo, intégration marketo engage
 exl-id: 70d1ef5a-743b-4362-bb65-93a8c996209f
-source-git-commit: 1592c3ae28f1f7a5465c8fb236790a460e9afb25
+source-git-commit: aafd172fe24a4ecb300f5f4cf5561f38dfeadfc7
 workflow-type: tm+mt
 source-wordcount: '325'
 ht-degree: 94%
@@ -39,14 +39,10 @@ Dans Journey Optimizer, vous devez configurer une action personnalisée pour Mar
 1. Sélectionnez **[!UICONTROL Configurations]** dans la section du menu ADMINISTRATION.
 1. Dans la section **[!UICONTROL Actions]**, cliquez sur **[!UICONTROL Créer une action]**. Le volet de configuration des actions s’ouvre sur le côté droit de l’écran.
 1. Saisissez le nom et la description, puis sélectionnez **Adobe Marketo Engage** comme **type d’action**.
-
-![](assets/engage-customaction-creation.png){width="40%" align="left"}
-
+   ![](assets/engage-customaction-creation.png){width="40%" align="left"}
 1. Cliquez sur **Modifier la payload** pour les payloads **Requête** et **Réponse**.
 1. Dans les deux cas, composez votre payload et collez-la dans la fenêtre contextuelle dédiée.
-
-![](assets/engage-customaction-payload.png){width="70%" align="left"}
-
+   ![](assets/engage-customaction-payload.png){width="70%" align="left"}
 1. Inspection et configuration des valeurs de payload
 
 Remarque : pour transmettre des valeurs de manière dynamique, modifiez **Constante** en **Variable** pour chaque champ.
