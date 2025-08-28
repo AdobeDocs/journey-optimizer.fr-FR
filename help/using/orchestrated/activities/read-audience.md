@@ -4,16 +4,15 @@ product: journey optimizer
 title: À propos de l’activité Lecture d’audience
 description: Découvrez comment utiliser l’activité Lecture d’audience dans une campagne orchestrée.
 exl-id: ef8eba57-cd33-4746-8eb4-5214ef9cbe2f
-source-git-commit: 3a44111345c1627610a6b026d7b19b281c4538d3
-workflow-type: ht
-source-wordcount: '465'
-ht-degree: 100%
+source-git-commit: 63ca1aab5190c58031dbab13651639bba4363964
+workflow-type: tm+mt
+source-wordcount: '650'
+ht-degree: 71%
 
 ---
 
 
 # Lecture d’audience {#read-audience}
-
 
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_read_audience"
@@ -23,6 +22,20 @@ ht-degree: 100%
 L’activité **[!UICONTROL Lecture d’audience]** permet de récupérer une audience existante - préalablement enregistrée ou importée - et de la réutiliser dans une campagne orchestrée. Cette activité est particulièrement utile pour cibler un ensemble prédéfini de profils sans avoir à exécuter un nouveau processus de segmentation.
 
 Une fois l’audience chargée, vous pouvez éventuellement l’affiner en sélectionnant un champ d’identité unique et en enrichissant l’audience avec des attributs de profil supplémentaires à des fins de ciblage, de personnalisation ou de création de rapports.
+
+## Cache d’audience de lecture {#cache}
+
+Lors du test d’une campagne orchestrée, l’activité **[!UICONTROL Lecture d’audience]** prend généralement un certain temps pour récupérer les données, ce qui peut rendre les exécutions de test plus longues. Pour accélérer le processus, un cache **[!UICONTROL Lecture d’audience]** est disponible.
+
+Le cache stocke l’audience avec les attributs sélectionnés pendant **deux heures maximum**. Pendant ce temps, toute exécution de test ultérieure peut utiliser les résultats mis en cache, évitant ainsi d’avoir à récupérer à nouveau les données. Une fois la **période de deux heures** passée, les données doivent être récupérées à nouveau.
+
+Le cache est enregistré pour chaque campagne orchestrée, et non pour l’audience elle-même. Si la même audience est utilisée dans une activité **[!UICONTROL Lecture d’audience]** au sein d’une autre campagne orchestrée, le système devra toujours récupérer les données.
+
+Le cache n&#39;est pas conservé dans les cas suivants :
+
+* Lorsque l’activité **[!UICONTROL Lecture d’audience]** est mise à jour avec de nouveaux attributs, le cache est actualisé avec les nouvelles données d’attributs. Par conséquent, la première exécution de test après la mise à jour prendra plus de temps, car les données doivent être récupérées à nouveau.
+
+* Lorsque la campagne orchestrée est publiée, les dernières données sont récupérées lors de l’exécution de la campagne orchestrée active.
 
 ## Configurer l’activité Lecture d’audience {#read-audience-configuration}
 
@@ -48,7 +61,7 @@ Pour configurer l’activité **[!UICONTROL Lecture d’audience]**, procédez c
 
    ![](../assets/read-audience-3.png)
 
-1. Sélectionnez [!UICONTROL Ajouter un attribut] pour enrichir votre audience sélectionnée avec des données supplémentaires. Cette étape vous permet d’ajouter des attributs de profil à l’audience, ce qui entraîne une liste de destinataires enrichie de ces attributs.
+1. Sélectionnez **[!UICONTROL Ajouter un attribut]** pour enrichir votre audience sélectionnée avec des données supplémentaires. Cette étape vous permet d’ajouter des attributs de profil à l’audience, ce qui entraîne une liste de destinataires enrichie de ces attributs.
 
 1. Sélectionnez les **[!UICONTROL Attributs]** à ajouter à votre audience. Le sélecteur d’attributs affiche les champs du **Schéma de profil d’union** :
 
