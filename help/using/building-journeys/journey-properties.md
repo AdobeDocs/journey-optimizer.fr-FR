@@ -12,7 +12,7 @@ exl-id: 6c21371c-6cbc-4d39-8fe6-39f1b8b13280
 source-git-commit: 3aa3203ae7763d81288cb70a2984d017b0006bb3
 workflow-type: tm+mt
 source-wordcount: '2733'
-ht-degree: 86%
+ht-degree: 87%
 
 ---
 
@@ -263,7 +263,7 @@ Pour en savoir plus sur les politiques de fusion, consultez la [documentation d�
 >[!CONTEXTUALHELP]
 >id="ajo_journey_exit_criterias"
 >title="Critères de sortie"
->abstract="Cette section présente les options des critères de sortie. Vous pouvez créer une ou plusieurs règles et filtres de critères de sortie pour votre parcours."
+>abstract="Cette section présente les options des critères de sortie. Vous pouvez créer une ou plusieurs règles et un ou plusieurs filtres de critères de sortie pour votre parcours."
 
 ### Critères de sortie du parcours {#exit-criteria-desc}
 
@@ -309,7 +309,7 @@ Reportez-vous à cette section pour savoir comment [utiliser les critères de so
 
 ### Mécanismes de sécurisation et limitations {#exit-criteria-guardrails}
 
-Les mécanismes de sécurisation et limitations suivants s’appliquent à la fonctionnalité Critères de sortie de Parcours [&#128279;](#exit-criteria-desc) :
+Les mécanismes de sécurisation et limitations suivants s’appliquent à la fonctionnalité Critères de sortie de Parcours [](#exit-criteria-desc) :
 
 * Les critères de sortie sont définis en état de brouillon uniquement.
 * Cohérence de l’espace de noms de parcours entre les événements et les critères de sortie basés sur un événement

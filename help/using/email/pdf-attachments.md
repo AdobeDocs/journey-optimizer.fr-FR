@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Joindre un fichier PDF à un e-mail
+title: Joindre un fichier PDF à un e-mail
 description: Découvrez comment joindre des fichiers PDF statiques à un email
 feature: Email Design
 topic: Content Management
@@ -12,16 +12,16 @@ exl-id: 71e218d0-5b3b-4db5-8b7b-d08df8f088c4
 source-git-commit: 2e394ea4ba6f3a46df997d48331cbe6ea09f0eb5
 workflow-type: tm+mt
 source-wordcount: '353'
-ht-degree: 25%
+ht-degree: 41%
 
 ---
 
-# Joindre un fichier PDF à un e-mail {#pdf-attachments}
+# Joindre un fichier PDF à un e-mail {#pdf-attachments}
 
 >[!CONTEXTUALHELP]
 >id="ajo_pdf_attachments"
->title="Ajouter une pièce jointe PDF"
->abstract="Recherchez un fichier PDF à joindre à votre e-mail.</br>Vous pouvez envoyer jusqu&#39;à 6 messages avec une pièce jointe PDF par profil et par an. La taille maximale autorisée pour chaque fichier joint est de 5 Mo.</br>Pour toute taille ou volume supplémentaire, vous pouvez acheter un module complémentaire de pack de pièces jointes. Pour plus d’informations, contactez votre représentant ou représentante Adobe."
+>title="Ajouter une pièce jointe PDF"
+>abstract="Recherchez un fichier PDF à joindre à votre e-mail.</br>Vous pouvez envoyer jusqu’à 6 messages avec un PDF en pièce jointe par profil et par an. La taille maximale autorisée pour chaque fichier joint est de 5 Mo.</br>Pour augmenter la taille ou le volume, vous pouvez acheter un module complémentaire de pack de pièces jointes. Pour plus d’informations, contactez votre représentant ou représentante Adobe."
 
 >[!AVAILABILITY]
 >
