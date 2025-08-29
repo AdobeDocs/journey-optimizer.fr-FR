@@ -9,7 +9,7 @@ role: Data Engineer, Data Architect, Admin
 level: Intermediate
 keywords: marketo, intégration marketo engage
 exl-id: 70d1ef5a-743b-4362-bb65-93a8c996209f
-source-git-commit: aafd172fe24a4ecb300f5f4cf5561f38dfeadfc7
+source-git-commit: dec575162b6db7e7d4f32f5f170de9673b979e5c
 workflow-type: tm+mt
 source-wordcount: '325'
 ht-degree: 94%
@@ -45,9 +45,9 @@ Dans Journey Optimizer, vous devez configurer une action personnalisée pour Mar
    ![](assets/engage-customaction-payload.png){width="70%" align="left"}
 1. Inspection et configuration des valeurs de payload
 
-Remarque : pour transmettre des valeurs de manière dynamique, modifiez **Constante** en **Variable** pour chaque champ.
+   Remarque : pour transmettre des valeurs de manière dynamique, modifiez **Constante** en **Variable** pour chaque champ.
 
-![](assets/engage-customaction-payload-fields.png){width="70%" align="left"}
+   ![](assets/engage-customaction-payload-fields.png){width="70%" align="left"}
 
 1. Cliquez sur **Enregistrer** dans l’écran de configuration du champ, puis sur **Enregistrer** pour votre action personnalisée.
 
