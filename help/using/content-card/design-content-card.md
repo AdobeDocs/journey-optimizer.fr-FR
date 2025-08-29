@@ -6,10 +6,10 @@ feature: Content Cards
 role: User
 level: Beginner
 exl-id: b83bdade-7275-4eef-9c49-fc1d157cee0d
-source-git-commit: ff3511e55eb56d8d5448df6d5de92dfd29ea8718
+source-git-commit: dccaaa0588b504c1c00ce25fd6bbb4f34652ec91
 workflow-type: tm+mt
-source-wordcount: '510'
-ht-degree: 74%
+source-wordcount: '555'
+ht-degree: 66%
 
 ---
 
@@ -27,9 +27,15 @@ Dans la section **[!UICONTROL Disposition de la carte de contenu]**, choisissez 
 
 * **[!UICONTROL Petite image]** : affiche une image compacte à côté du texte, idéale pour les messages dont le contenu a la priorité sur les visuels.
 
+  Pour en savoir plus, consultez la documentation Adobe Developer [pour iOS](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/content-card-ui/iOS/templates/smallimage-template/) et [pour Android](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/content-card-ui/Android/public-classes/state/smallimagecarduistate/).
+
 * **[!UICONTROL Grande image]** : présente une image bien en vue au-dessus ou à côté du texte, ce qui fait des visuels le point central de votre message.
 
+  Pour en savoir plus, consultez la documentation Adobe Developer [pour iOS](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/content-card-ui/iOS/templates/largeimage-template/) et [pour Android](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/content-card-ui/Android/public-classes/state/largeimagecarduistate/).
+
 * **[!UICONTROL Image uniquement]** : affiche l’image sans texte d’accompagnement, idéal pour les messages visuels ou les images autonomes.
+
+  Pour en savoir plus, consultez la documentation Adobe Developer [pour iOS](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/content-card-ui/iOS/templates/imageonly-template/) et [pour Android](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/content-card-ui/Android/public-classes/state/imageonlycarduistate/).
 
 ## Onglet Contenu {#content-tab}
 
@@ -37,17 +43,17 @@ Dans l’onglet **[!UICONTROL Contenu]**, vous pouvez personnaliser vos cartes d
 
 ### Contenu texte {#title-body}
 
-Pour composer votre message, saisissez votre texte dans les champs **[!UICONTROL Titre]** et **[!UICONTROL Corps]**.
-
 ![](assets/content-card-design-2.png)
+
+Pour composer votre message, saisissez votre texte dans les champs **[!UICONTROL Titre]** et **[!UICONTROL Corps]**.
 
 Si vous souhaitez personnaliser davantage votre message, utilisez l’icône **[!UICONTROL Personalisation]** pour ajouter des éléments personnalisés. Pour plus d’informations sur l’utilisation des fonctionnalités de personnalisation, consultez [cette section](../personalization/personalize.md).
 
 ### Média {#add-media}
 
-Le champ **[!UICONTROL Média]** vous permet d’améliorer vos cartes de contenu en ajoutant des médias, ce qui peut renforcer l’engagement de votre présentation pour les utilisateurs et utilisatrices finaux.
-
 ![](assets/content-card-design-3.png)
+
+Le champ **[!UICONTROL Média]** vous permet d’améliorer vos cartes de contenu en ajoutant des médias, ce qui peut renforcer l’engagement de votre présentation pour les utilisateurs et utilisatrices finaux.
 
 Pour inclure un média, saisissez l’URL du média à utiliser ou cliquez sur l’icône **[!UICONTROL Sélectionner des ressources]** pour choisir parmi les ressources stockées dans votre bibliothèque de ressources. [En savoir plus sur la gestion des ressources](../integrations/assets.md).
 
@@ -57,11 +63,38 @@ Si le **[!UICONTROL Mode de formatage avancé]** est activé, vous pouvez ajoute
 
 +++
 
-### Bouton Fermer {#close-button}
+### Boutons {#add-buttons}
+
+![](assets/content-card-design-4.png)
+
+Ajoutez des boutons pour que les utilisateurs et utilisatrices puissent interagir avec vos cartes de contenu.
+
+1. Cliquez sur **[!UICONTROL Ajouter un bouton]** pour créer un bouton d’action.
+
+1. Modifiez le champ **[!UICONTROL Titre]** du bouton pour spécifier le libellé qui s’affichera sur le bouton.
+
+1. Sélectionnez un **[!UICONTROL événement d’interaction]** pour définir l’action qui sera déclenchée lorsque les utilisateurs et utilisatrices cliqueront ou interagiront avec le bouton.
+
+1. Dans le champ **[!UICONTROL Cible]**, saisissez l’URL web ou le lien profond vers lequel les utilisateurs et utilisatrices seront redirigés après avoir interagi avec le bouton.
+
+<!--
++++More options with advanced formatting
+
+If the **[!UICONTROL Advanced formatting mode]** is switched on, you can choose for your **[!UICONTROL Buttons]**:
+
+* the **[!UICONTROL Font]**
+* the **[!UICONTROL Pt size]**
+* the **[!UICONTROL Font Color]**
+* the **[!UICONTROL Alignment]**
+
++++
+-->
+
+### Bouton Ignorer {#close-button}
 
 ![](assets/content-card-design-1.png)
 
-Sélectionnez le **[!UICONTROL style]** de votre **[!UICONTROL bouton Fermer]** pour personnaliser son aspect.
+Sélectionnez le **[!UICONTROL Style]** de votre **[!UICONTROL bouton Ignorer]** pour personnaliser son aspect.
 
 Vous avez le choix parmi les styles suivants :
 
@@ -84,33 +117,6 @@ If the **[!UICONTROL Advanced formatting mode]** is switched on, you can choose 
 -->
 
 
-
-### Boutons {#add-buttons}
-
-Ajoutez des boutons pour que les utilisateurs et utilisatrices puissent interagir avec vos cartes de contenu.
-
-![](assets/content-card-design-4.png)
-
-1. Cliquez sur **[!UICONTROL Ajouter un bouton]** pour créer un bouton d’action.
-
-1. Modifiez le champ **[!UICONTROL Titre]** du bouton pour spécifier le libellé qui s’affichera sur le bouton.
-
-1. Sélectionnez un **[!UICONTROL événement d’interaction]** pour définir l’action qui sera déclenchée lorsque les utilisateurs et utilisatrices cliqueront ou interagiront avec le bouton.
-
-1. Dans le champ **[!UICONTROL Cible]**, saisissez l’URL web ou le lien profond vers lequel les utilisateurs et utilisatrices seront redirigés après avoir interagi avec le bouton.
-
-<!--
-+++More options with advanced formatting
-
-If the **[!UICONTROL Advanced formatting mode]** is switched on, you can choose for your **[!UICONTROL Buttons]**:
-
-* the **[!UICONTROL Font]**
-* the **[!UICONTROL Pt size]**
-* the **[!UICONTROL Font Color]**
-* the **[!UICONTROL Alignment]**
-
-+++
--->
 
 ### Comportement en cas de clic
 
