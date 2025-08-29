@@ -4,10 +4,10 @@ product: journey optimizer
 title: Créer et planifier des campagnes orchestrées avec Journey Optimizer
 description: Découvrez comment créer et planifier une campagne orchestrée avec Adobe Journey Optimizer
 exl-id: 13da680d-fef8-4749-9190-8ca3d77b060a
-source-git-commit: 3a44111345c1627610a6b026d7b19b281c4538d3
-workflow-type: ht
-source-wordcount: '1116'
-ht-degree: 100%
+source-git-commit: a58d71b3cdb5e83f80b064673f0a6d087b7c191d
+workflow-type: tm+mt
+source-wordcount: '1122'
+ht-degree: 97%
 
 ---
 
@@ -31,9 +31,7 @@ Pour créer une campagne orchestrée, procédez comme suit :
 
    ![](assets/create-modal.png)
 
-1. Définissez les propriétés de la campagne. Pour ce faire, cliquez sur l’![icône des paramètres de la campagne](assets/do-not-localize/campaign-settings.svg) en regard du nom de la campagne.
-
-   ![](assets/inventory-create.png)
+1. Définissez les propriétés de la campagne.
 
    1. Saisissez le **[!UICONTROL nom]** et la **[!UICONTROL description]** de la campagne.
 
@@ -44,6 +42,11 @@ Pour créer une campagne orchestrée, procédez comme suit :
    1. Utilisez le champ **[!UICONTROL Balises]** pour affecter des balises unifiées Adobe Experience Platform à votre campagne. Vous pouvez ainsi facilement les classer et améliorer la recherche à partir de la liste des campagnes orchestrées. [Découvrez comment utiliser les balises](../start/search-filter-categorize.md#tags).
 
    1. Cliquez sur **[!UICONTROL Enregistrer]**.
+
+
+   Vous pouvez accéder à tout moment aux propriétés de la campagne à l’aide du bouton ![icône des paramètres de la campagne](assets/do-not-localize/campaign-settings.svg) situé en regard du nom de la campagne.
+
+   ![](assets/inventory-create.png)
 
 ## Planifier la campagne {#schedule}
 
