@@ -9,9 +9,9 @@ role: Data Engineer, Data Architect, Admin
 level: Intermediate, Experienced
 keywords: événements, événement, parcours, définition, commencer
 exl-id: fb3e51b5-4cbb-4949-8992-1075959da67d
-source-git-commit: e4ea791dbc4362bff1d822f0b36add829e7a259d
+source-git-commit: 3764d7eebbe304e0773fa329db2755342ce64c85
 workflow-type: tm+mt
-source-wordcount: '1079'
+source-wordcount: '1084'
 ht-degree: 100%
 
 ---
@@ -73,7 +73,11 @@ Après avoir transité par les API d’ingestion en flux continu, les événemen
 
 Pour les événements générés par le système, le service Pipeline filtre les événements disposant d’une payload contenant des [!DNL Journey Optimizer] eventID (reportez-vous au processus de création d’événements ci-dessous) fournis par [!DNL Journey Optimizer] et contenus dans une payload d’événement. Pour les événements basés sur des règles, le système identifie l’événement à l’aide de la condition eventID. Ces événements sont écoutés par [!DNL Journey Optimizer] et le parcours correspondant est déclenché.
 
-## Mise à jour et suppression d’un événement
+## Mise à jour et suppression d’un événement {#update-event}
+
+
+## Mise à jour et suppression d’un événement {#update-event}
+
 
 Afin d’éviter d’interrompre les parcours existants, lorsque vous modifiez un événement utilisé dans un parcours actif, brouillon ou terminé, vous pouvez uniquement en modifier le nom ou la description, ou ajouter des champs de payload.
 
@@ -83,8 +87,8 @@ Les événements utilisés dans des parcours actifs, brouillons ou fermés ne pe
 
 Découvrez comment configurer un événement, spécifier le point dʼentrée du flux en continu et la payload dʼun événement.
 
->[!VIDEO](https://video.tv.adobe.com/v/3431514?quality=12&captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/336253?quality=12)
 
 Comprendre les cas d’utilisation applicables pour les événements métier. Découvrez comment créer un parcours à l’aide d’un événement métier et les bonnes pratiques à appliquer.
 
->[!VIDEO](https://video.tv.adobe.com/v/3416325?quality=12&captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/334234?quality=12)
