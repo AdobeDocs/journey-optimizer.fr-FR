@@ -9,10 +9,10 @@ role: Data Engineer, Data Architect, Admin
 level: Intermediate, Experienced
 keywords: événements, événement, parcours, définition, commencer
 exl-id: fb3e51b5-4cbb-4949-8992-1075959da67d
-source-git-commit: 461bf985a890d0f2f2723241846df0666248eea0
+source-git-commit: 13bc5f91e0e47bf36b9b9921fa926f8a5e2a50d6
 workflow-type: tm+mt
 source-wordcount: '1079'
-ht-degree: 100%
+ht-degree: 96%
 
 ---
 
@@ -30,7 +30,6 @@ Dans la configuration des événements, vous configurez les événements attendu
 La configuration de l’événement est **obligatoire** et doit être effectuée par un ingénieur ou une ingénieure de données.
 
 Vous pouvez configurer deux types d’événements : des **événements unitaires** et des **événements métier**.
-
 
 ➡️ [Découvrez cette fonctionnalité en vidéo.](#video)
 
@@ -76,16 +75,16 @@ Pour les événements générés par le système, le service Pipeline filtre les
 ## Mise à jour et suppression d’un événement {#update-event}
 
 
-Afin d’éviter d’interrompre les parcours existants, lorsque vous modifiez un événement utilisé dans un parcours actif, brouillon ou terminé, vous pouvez uniquement en modifier le nom ou la description, ou ajouter des champs de payload.
+Pour éviter de rompre des parcours existants, lorsque vous modifiez un événement utilisé dans un parcours **Brouillon**, **En ligne** ou **Fermé**, vous pouvez uniquement modifier le nom, la description ou ajouter des champs de payload.
 
-Les événements utilisés dans des parcours actifs, brouillons ou fermés ne peuvent pas être supprimés. Pour supprimer un événement utilisé, vous devez arrêter les parcours qui l’utilisent et/ou le supprimer des brouillons de parcours. Vous pouvez cocher le champ **[!UICONTROL Utilisé dans]**. Il affiche le nombre de parcours qui utilisent cet événement particulier. Vous pouvez cliquer sur le bouton **[!UICONTROL Afficher les parcours]** pour faire apparaître la liste des parcours correspondants.
+Les événements utilisés dans les parcours **En ligne**, **Brouillon** ou **Fermé** ne peuvent pas être supprimés. Pour supprimer un événement utilisé, vous devez arrêter les parcours qui l’utilisent et/ou le supprimer des brouillons de parcours. Vous pouvez cocher le champ **[!UICONTROL Utilisé dans]**. Il affiche le nombre de parcours qui utilisent cet événement particulier. Vous pouvez cliquer sur le bouton **[!UICONTROL Afficher les parcours]** pour faire apparaître la liste des parcours correspondants.
 
 ## Tutoriels vidéo {#video}
 
 Découvrez comment configurer un événement, spécifier le point dʼentrée du flux en continu et la payload dʼun événement.
 
->[!VIDEO](https://video.tv.adobe.com/v/3431514?quality=12&captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/336253?quality=12)
 
 Comprendre les cas d’utilisation applicables pour les événements métier. Découvrez comment créer un parcours à l’aide d’un événement métier et les bonnes pratiques à appliquer.
 
->[!VIDEO](https://video.tv.adobe.com/v/3416325?quality=12&captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/334234?quality=12)
