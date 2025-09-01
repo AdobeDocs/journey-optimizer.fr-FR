@@ -5,10 +5,10 @@ title: Commencer avec les campagnes orchestrées
 description: Découvrez comment commencer avec les campagnes orchestrées
 short-description: Découvrez les fonctionnalités clés et les cas d’utilisation des campagnes orchestrées.
 exl-id: 611dd06d-aa18-4fa3-a477-8a910cec21d8
-source-git-commit: 24e767d6f146036c8c0a34193ed6d36e5d43e6b2
+source-git-commit: 94c7594e9a12b0bc91bb01989b5dd25afb662cfe
 workflow-type: tm+mt
-source-wordcount: '619'
-ht-degree: 94%
+source-wordcount: '635'
+ht-degree: 92%
 
 ---
 
@@ -29,6 +29,8 @@ L’orchestration de campagne dans [!DNL Adobe Journey Optimizer] alimente des c
 Bien que le marketing cross-canal soit essentiel, les campagnes orchestrées le rendent transparent. Grâce à une interface visuelle par glisser-déposer, vous pouvez concevoir et automatiser des workflows marketing complexes, depuis la segmentation jusqu’à la diffusion des messages, sur plusieurs canaux. Tout se passe dans un environnement intuitif, conçu pour assurer vitesse, contrôle et efficacité.
 
 ![](assets/canvas-example-diagram.png){zoomable="yes"}
+
+➡️ [Découvrir les campagnes orchestrées en vidéo](#video-oc)
 
 ## Fonctionnalités principales
 
@@ -71,6 +73,15 @@ Chaque campagne orchestrée contient :
 * **Transitions** : les transitions relient une activité source à une activité de destination et définissent leur ordre.
 
 * **Tables de travail** : la table de travail contient toutes les informations véhiculées par la transition. Chaque campagne orchestrée utilise plusieurs tables de travail. Les données transmises dans ces tableaux peuvent être utilisées tout au long du cycle de vie de la campagne orchestrée.
+
+
+## Vidéo d’introduction {#video-oc}
+
+Découvrez les concepts et fonctionnalités clés disponibles dans les campagnes orchestrées.
+
+
+>[!VIDEO](https://video.tv.adobe.com/v/3471538/?learn=on&enablevpops)
+
 
 ## Explorons plus en détail.
 
