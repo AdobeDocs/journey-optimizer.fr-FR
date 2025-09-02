@@ -317,11 +317,11 @@ Consultez [cette page](exclusion-list.md) pour obtenir la liste complète des ca
 >[!CONTEXTUALHELP]
 >id="ajo_journey_email_best_recipient_live"
 >title="E-mail – Meilleur domaine de la personne destinataire"
->abstract="Le tableau et le graphique E-mail - Meilleur domaine de destinataire fournissent une ventilation détaillée des domaines que les personnes destinataires utilisent le plus souvent pour ouvrir l’e-mail, offrant des informations précieuses sur le comportement des personnes destinataires, depuis les dernières 24 heures."
+>abstract="Le tableau et le graphique E-mail - Meilleur domaine de destinataire fournissent une répartition détaillée des domaines que les personnes destinataires utilisent le plus souvent pour ouvrir l’e-mail, offrant des informations précieuses sur le comportement des personnes destinataires, depuis les dernières 24 heures."
 
 ![](assets/journey_live_email_best_recipient.png)
 
-Le graphe et le tableau **[!UICONTROL E-mail – Meilleur domaine de la personne destinataire]** présentent une ventilation détaillée des domaines que les profils ont utilisé le plus souvent pour ouvrir vos e-mails au cours des dernières 24 heures. Vous obtenez ainsi des informations précieuses sur le comportement des profils, ce qui vous permet de connaître les plateformes préférées.
+Le graphique et le tableau **[!UICONTROL E-mail – Meilleur domaine de la personne destinataire]** présentent une répartition détaillée des domaines que les profils ont utilisé le plus souvent pour ouvrir vos e-mails au cours des dernières 24 heures. Vous obtenez ainsi des informations précieuses sur le comportement des profils, ce qui vous permet de connaître les plateformes préférées.
 
 ### E-mail – Offres {#email-offers}
 

@@ -219,7 +219,7 @@ Consultez [cette page](exclusion-list.md) pour obtenir la liste complète des ca
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_live_email_best_recipient"
 >title="E-mail – Meilleur domaine de la personne destinataire"
->abstract="Le tableau et le graphique E-mail - Meilleur domaine de destinataire fournissent une ventilation détaillée des domaines que les personnes destinataires utilisent le plus souvent pour ouvrir l’e-mail, offrant des informations précieuses sur le comportement des personnes destinataires, depuis les dernières 24 heures."
+>abstract="Le tableau et le graphique E-mail - Meilleur domaine de destinataire fournissent une répartition détaillée des domaines que les personnes destinataires utilisent le plus souvent pour ouvrir l’e-mail, offrant des informations précieuses sur le comportement des personnes destinataires, depuis les dernières 24 heures."
 
 ![](assets/campaign_email_live_recipient.png)
 
