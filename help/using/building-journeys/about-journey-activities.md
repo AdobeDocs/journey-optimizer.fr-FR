@@ -9,10 +9,10 @@ role: User
 level: Beginner, Intermediate
 keywords: parcours, activités, commencer, événements, action
 exl-id: 239b3d72-3be0-4a82-84e6-f219e33ddca4
-source-git-commit: 19130e9eb5a2144afccab9fa8e5632de67bc7157
+source-git-commit: c39a71da901b888ff440a1488658b577ff72cc32
 workflow-type: tm+mt
-source-wordcount: '689'
-ht-degree: 100%
+source-wordcount: '716'
+ht-degree: 94%
 
 ---
 
@@ -91,13 +91,19 @@ La plupart des activités affichent un certain nombre de paramètres avancés et
 
 ![Champs de paramètres avancés dans les propriétés de l’activité de parcours](assets/journey-advanced-parameters.png)
 
-Pour une meilleure lisibilité, masquez ces paramètres à l’aide du bouton **[!UICONTROL Masquer les champs en lecture seule]**.
+Pour une meilleure lisibilité, masquez ces paramètres à l’aide du bouton **[!UICONTROL Masquer les champs en lecture seule]** situé en haut du volet de droite.
 
 ![Icône Masquer les champs en lecture seule dans les propriétés de l’activité de parcours](assets/journey-hide-read-only-fields.png)
 
 Dans certains contextes précis, vous pouvez remplacer les valeurs de ces paramètres pour une utilisation spécifique. Pour forcer une valeur, cliquez sur l’icône **[!UICONTROL Activer le remplacement du paramètre]** à droite du champ. [En savoir plus](../configuration/primary-email-addresses.md#journey-parameters).
 
 ![Option Activer la substitution de paramètre dans les propriétés de l’activité E-mail](assets/journey-enable-parameter-override.png)
+
+>[!NOTE]
+>
+>Si les paramètres avancés sont masqués, cliquez sur le bouton **[!UICONTROL Afficher les champs en lecture seule]**
+>
+>![Afficher l’icône des champs en lecture seule dans les propriétés de l’activité de parcours ](assets/journey-show-read-only-fields.png){width=60%}
 
 ### Ajouter un chemin d’accès alternatif
 

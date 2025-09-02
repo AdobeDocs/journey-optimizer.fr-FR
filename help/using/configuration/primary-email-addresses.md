@@ -9,10 +9,10 @@ role: Admin
 level: Intermediate
 keywords: principal, exécution, e-mail, cible, profil, optimizer
 exl-id: fe2f6516-7790-4501-a3a1-3d7cb94d7874
-source-git-commit: 5b6543fd98b0457652374a34712e91501ace898c
+source-git-commit: c39a71da901b888ff440a1488658b577ff72cc32
 workflow-type: tm+mt
-source-wordcount: '483'
-ht-degree: 100%
+source-wordcount: '522'
+ht-degree: 84%
 
 ---
 
@@ -68,6 +68,12 @@ Le champ d&#39;exécution est mis à jour et sera désormais utilisé comme adre
 
 ## Remplacer le champ d’exécution par défaut {#override-default-execution-address}
 
+>[!CONTEXTUALHELP]
+>id="ajo_journey_execution_address"
+>title="Définition d’une valeur personnalisée"
+>abstract="Dans certains cas spécifiques, vous pouvez remplacer l’adresse d’exécution par défaut. Utilisez l’icône **Activer le remplacement de paramètre** à droite du champ pour définir une adresse principale personnalisée."
+>additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/configuration/primary-email-addresses#journey-parameters" text="À propos de l’adresse d’exécution"
+
 Pour des cas d’utilisation spécifiques, vous pouvez remplacer le champ d’exécution défini globalement et définir une valeur différente au niveau de la configuration du canal e-mail ou au niveau du parcours.
 
 Par exemple, cette valeur peut être utile pour effectuer les actions suivantes :
@@ -83,9 +89,9 @@ Lorsqu’une adresse d’exécution est définie dans la configuration du canal 
 
 ### Dans les paramètres du parcours {#journey-parameters}
 
-Lors de l’ajout d’une action **[!UICONTROL E-mail]** à un [parcours](../email/create-email.md#create-email-journey-campaign), l’adresse e-mail principale s’affiche sous les paramètres avancés du parcours.
+Lors de l’ajout d’une action **[!UICONTROL E-mail]** ou **[!UICONTROL SMS]** à un parcours [](../email/create-email.md#create-email-journey-campaign), l’adresse e-mail principale s’affiche sous les paramètres avancés du parcours.
 
-Dans certains contextes spécifiques, vous pouvez remplacer cette valeur en cliquant sur l’icône **[!UICONTROL Activer le remplacement du paramètre]** à droite du champ **[!UICONTROL Adresse]**.
+Dans certains contextes spécifiques, vous pouvez remplacer cette valeur à l’aide de l’icône **[!UICONTROL Activer le remplacement du paramètre]** située à droite du champ.
 
 ![](assets/journey-enable-parameter-override.png)
 

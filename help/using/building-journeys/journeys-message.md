@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: parcours, message, notification push, sms, e-mail, in-app, web, carte de contenu, expérience basée sur du code
 exl-id: 4db07a9e-c3dd-4873-8bd9-ac34c860694c
-source-git-commit: 17ca5d47fbf20ee25c3728d85877adaccf82aea8
+source-git-commit: c39a71da901b888ff440a1488658b577ff72cc32
 workflow-type: tm+mt
-source-wordcount: '513'
-ht-degree: 97%
+source-wordcount: '557'
+ht-degree: 89%
 
 ---
 
@@ -120,13 +120,17 @@ Pour ajouter une action de canal intégrée à un parcours, procédez comme suit
       </tr>
       </table>
 
->[!NOTE]
->
->* Chaque activité d’expérience entrante est accompagnée d’une activité **Attente** de 3 jours. [En savoir plus](wait-activity.md#auto-wait-node)
->
->* Pour les notifications push et les e-mails, vous pouvez activer l’optimisation de l’heure d’envoi. [En savoir plus](send-time-optimization.md)
+   >[!NOTE]
+   >
+   >* Chaque activité d’expérience entrante est accompagnée d’une activité **Attente** de 3 jours. [En savoir plus](wait-activity.md#auto-wait-node)
+   >
+   >* Pour les notifications push et les e-mails, vous pouvez activer l’optimisation de l’heure d’envoi. [En savoir plus](send-time-optimization.md)
 
+1. Selon l’activité, vous pouvez afficher des paramètres avancés spécifiques au canal sélectionné et remplacer certaines valeurs par défaut telles que l’adresse d’exécution. [En savoir plus](../about-journey-activities.md#advanced-parameters)
 
+   >[!NOTE]
+   >
+   >Si les paramètres avancés sont masqués, cliquez sur le bouton **[!UICONTROL Afficher les champs en lecture seule]** en haut du volet de droite.
 
 ## Mise à jour du contenu dynamique {#update-live-content}
 
