@@ -12,7 +12,7 @@ keywords: mode sombre, e-mail, couleur, éditeur
 hide: true
 hidefromtoc: true
 exl-id: 27442cb0-5027-4d9c-9d3c-9ec33af7c9ff
-source-git-commit: 23684c906d11c7f54eb28cac7c2697964e723a2e
+source-git-commit: 95e50386d4190d0b967d133a327c25ab1681b5c1
 workflow-type: tm+mt
 source-wordcount: '1677'
 ht-degree: 100%
@@ -186,6 +186,10 @@ Le mode sombre peut modifier les couleurs, les arrière-plans et les images, par
 * Évitez de vous fier uniquement aux couleurs d’arrière-plan pour du contenu important. Certains clients remplacent les couleurs d’arrière-plan en mode sombre ; veillez donc à ce que les informations clés soient toujours visibles.
 
 **Concevoir du contenu accessible en mode sombre**
+
+<!--KEEP dark mode accessibility best practices IN ONE SINGLE LOCATION - for now listed on this page.
+If needed, it can be moved to the Design accessible content page:
+The best practices for designing accesible content in dark mode are listed in [this section](accessible-content.md#dark-mode).-->
 
 * Utilisez des combinaisons de couleurs faciles à distinguer pour les personnes atteintes de daltonisme.
 
