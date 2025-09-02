@@ -10,7 +10,7 @@ level: Beginner, Intermediate
 keywords: e-mail, conception, accessibilité
 hide: true
 hidefromtoc: true
-source-git-commit: 95e50386d4190d0b967d133a327c25ab1681b5c1
+source-git-commit: be87e47f7c3303575c2784af7ce76c138cb03154
 workflow-type: tm+mt
 source-wordcount: '1612'
 ht-degree: 2%
@@ -33,7 +33,6 @@ Le [!DNL Journey Optimizer] [Designer des e-mails](content-from-scratch.md), qui
 
 <!--You can adjust a number of styling parameters and attributes from the Email Designer **[!UICONTROL Styles]** pane.-->
  
-
 ## Garantir la lisibilité du texte {#text-readability}
 
 Utilisez l’onglet **[!UICONTROL Styles]** du composant **[!UICONTROL Texte]** pour vous assurer que votre texte est lisible, par exemple en utilisant un contraste de couleur approprié et des polices simples. [En savoir plus](content-components.md#text)
@@ -325,7 +324,9 @@ Les lecteurs d’écran lisent :
 >
 >Always ensure link text is discernible (visible) and descriptive (clear about purpose). Avoid vague labels like 'here' or 'more'.-->
 
-## Fourniture de de navigation au clavier et de prise en charge du focus {#keyboard}
+## Prise en charge de la navigation au clavier et de la sélection {#keyboard}
+
+<!--for landing pages-->
 
 La prise en charge de la navigation au clavier et du focus permet aux personnes qui ne peuvent pas utiliser de souris d’accéder au contenu et d’interagir avec celui-ci. Elle améliore également la convivialité globale en offrant à tous les utilisateurs et utilisatrices un moyen clair et cohérent de parcourir les informations.
 
