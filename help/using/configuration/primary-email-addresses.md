@@ -89,7 +89,7 @@ Lorsqu’une adresse d’exécution est définie dans la configuration du canal 
 
 ### Dans les paramètres du parcours {#journey-parameters}
 
-Lors de l’ajout d’une action **[!UICONTROL E-mail]** ou **[!UICONTROL SMS]** à un parcours [](../email/create-email.md#create-email-journey-campaign), l’adresse e-mail principale s’affiche sous les paramètres avancés du parcours.
+Lors de l’ajout d’une action **[!UICONTROL E-mail]** ou **[!UICONTROL SMS]** à un parcours [&#128279;](../email/create-email.md#create-email-journey-campaign), l’adresse e-mail principale s’affiche sous les paramètres avancés du parcours.
 
 Dans certains contextes spécifiques, vous pouvez remplacer cette valeur à l’aide de l’icône **[!UICONTROL Activer le remplacement du paramètre]** située à droite du champ.
 
