@@ -72,7 +72,7 @@ Le champ d&#39;exécution est mis à jour et sera désormais utilisé comme adre
 >id="ajo_journey_execution_address"
 >title="Définition d’une valeur personnalisée"
 >abstract="Dans certains cas spécifiques, vous pouvez remplacer l’adresse d’exécution par défaut. Utilisez l’icône **Activer le remplacement de paramètre** à droite du champ pour définir une adresse principale personnalisée."
->additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/configuration/primary-email-addresses#journey-parameters" text="À propos de l’adresse d’exécution"
+>additional-url="https://experienceleague.adobe.com/fr/docs/journey-optimizer/using/configuration/primary-email-addresses#journey-parameters" text="À propos de l’adresse d’exécution"
 
 Pour des cas d’utilisation spécifiques, vous pouvez remplacer le champ d’exécution défini globalement et définir une valeur différente au niveau de la configuration du canal e-mail ou au niveau du parcours.
 
