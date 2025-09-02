@@ -325,7 +325,7 @@ Les lecteurs d’écran lisent :
 >
 >Always ensure link text is discernible (visible) and descriptive (clear about purpose). Avoid vague labels like 'here' or 'more'.-->
 
-## Fourniture de <!--for landing pages--> {#keyboard} de navigation au clavier et de prise en charge du focus
+## Fourniture de de navigation au clavier et de prise en charge du focus {#keyboard}
 
 La prise en charge de la navigation au clavier et du focus permet aux personnes qui ne peuvent pas utiliser de souris d’accéder au contenu et d’interagir avec celui-ci. Elle améliore également la convivialité globale en offrant à tous les utilisateurs et utilisatrices un moyen clair et cohérent de parcourir les informations.
 
