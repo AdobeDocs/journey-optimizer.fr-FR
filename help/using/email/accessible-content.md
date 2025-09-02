@@ -8,32 +8,29 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 keywords: e-mail, conception, accessibilité
-source-git-commit: fff37a5325eb99a5a484cad93c391cb92fef7526
+source-git-commit: 09a6ec5bf04a1252fea8724d587b46f688842906
 workflow-type: tm+mt
-source-wordcount: '1642'
+source-wordcount: '1610'
 ht-degree: 2%
 
 ---
 
 # Conception de contenu accessible {#accessible-content}
 
+La [loi européenne sur l&#39;accessibilité](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32019L0882){target="_blank"} est une directive visant à renforcer le marché intérieur des produits et services accessibles en éliminant les obstacles dus aux différences entre les règles nationales des États membres.
+
+Ce règlement stipule que toutes les communications numériques, y compris les courriels, les bulletins d&#39;information, les fichiers PDF et le contenu téléchargeable, doivent être accessibles. Lors de la création de contenu pour vos destinataires, vous devez donc suivre des directives spécifiques, telles que l’utilisation de polices accessibles, de formats lisibles et de fournir un texte secondaire pour les images.
+
+Le [!DNL Journey Optimizer] [Designer des e-mails](content-from-scratch.md), qui permet aux marketeurs de créer du contenu pour les **e-mails** et les **pages de destination**, vous permet de vous conformer facilement à cette directive, en fonction des directives d’accessibilité du contenu web (WCAG) 2.1, niveau AA.
+
+En conséquence, les bonnes pratiques pour concevoir un contenu accessible avec [!DNL Journey Optimizer] sont répertoriées ci-dessous.
+
 >[!NOTE]
 >
 >Cette page a pour but de rendre votre contenu accessible à tous vos destinataires, afin que les personnes en situation de handicap puissent lire, comprendre et interagir avec vos e-mails et vos pages de destination conçues avec [!DNL Journey Optimizer].
 >
->L’accessibilité de l’interface [!DNL Journey Optimizer] elle-même est détaillée dans [cette section](../start/accessibility.md).
-
-La [loi européenne sur l&#39;accessibilité](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32019L0882){target="_blank"} est une directive visant à renforcer le marché intérieur des produits et services accessibles en éliminant les obstacles dus aux différences entre les règles nationales des États membres.
-
-Lors de la création de contenu pour vos **e-mails** et **landing pages** dans [!DNL Journey Optimizer], les bonnes pratiques en matière d’accessibilité pour les spécialistes du marketing par e-mail répertoriés sur cette page peuvent vous aider à vous conformer à cette directive. Elles sont basées sur les directives d’accessibilité du contenu web (WCAG) 2.1, niveau AA.
-
-La loi européenne sur l’accessibilité stipule que toutes les communications numériques, y compris les e-mails, les newsletters, les fichiers PDF et le contenu téléchargeable, doivent être accessibles. Vous devez donc suivre des instructions spécifiques, telles que l’utilisation de polices accessibles, de formats lisibles et de textes alternatifs pour les images.
-
-Le [!DNL Journey Optimizer] [Designer des e-mails](content-from-scratch.md), qui permet aux marketeurs de créer du contenu pour les e-mails et les landing pages, vous permet de suivre facilement ces directives. Les bonnes pratiques pour concevoir du contenu accessible avec [!DNL Journey Optimizer] sont répertoriées ci-dessous.
-
-<!--You can adjust a number of styling parameters and attributes from the Email Designer **[!UICONTROL Styles]** pane.-->
- 
-
+>D’un autre côté, l’accessibilité de l’interface [!DNL Journey Optimizer] elle-même est détaillée dans [cette section](../start/accessibility.md).
+> 
 ## Garantir la lisibilité du texte {#text-readability}
 
 Utilisez l’onglet **[!UICONTROL Styles]** du composant **[!UICONTROL Texte]** pour vous assurer que votre texte est lisible, par exemple en utilisant un contraste de couleur approprié et des polices simples. [En savoir plus](content-components.md#text)
@@ -83,7 +80,7 @@ Par exemple, vous pouvez mettre à jour le [arrière-plan](backgrounds.md) ou mo
 
 De plus, le Designer d’e-mail [!DNL Journey Optimizer] vous permet de prévisualiser et d’optimiser la conception pour différents appareils et tailles d’écran. Vous pouvez à tout moment **[!UICONTROL Basculer vers la vue en direct]** afin de vérifier comment votre contenu peut s’afficher sur différentes tailles d’appareil.
 
-![](assets/accessible-live-view.png){width="70%"}
+![](assets/accessible-live-view.png){width="80%"}
 
 >[!CAUTION]
 >
@@ -138,7 +135,7 @@ Pour vérifier l’accessibilité de votre contenu, vous pouvez utiliser les fon
 
 Pour vérifier de manière plus cohérente si votre contenu est accessible de manière fiable, recherchez des outils externes spécifiques tels que :
 
-* Le [vérificateur de contraste WebAim](https://webaim.org/resources/contrastchecker/){target="_blank"} et l’[outil d’évaluation de l’accessibilité web WAVE](https://wave.webaim.org/){target="_blank"} pour évaluer le contraste et la conformité.
+* Le [vérificateur de contraste WebAim](https://webaim.org/resources/contrastchecker/){target="_blank"} et l’[outil d’évaluation de l’accessibilité web WAVE](https://wave.webaim.org/){target="_blank"} pour évaluer le contraste et la conformité ;
 
 * Les technologies d’assistance comme les lecteurs d’écran (par exemple : [NVDA](https://www.nvaccess.org/download/){target="_blank"} ou [VoiceOver](https://support.apple.com/en-ie/guide/iphone/iph3e2e415f/ios){target="_blank"} sur iPhone) pour consulter les e-mails du point de vue des utilisateurs souffrant de déficience visuelle.
 
@@ -146,7 +143,7 @@ Pour vérifier de manière plus cohérente si votre contenu est accessible de ma
 
 <!--TO PUBLISH WHEN DARK MODE IS RELEASED-->
 
-Le mode sombre améliore l’accessibilité visuelle pour les utilisateurs et utilisatrices sensibles à la lumière ou ayant des déficiences visuelles, pour une expérience de visionnage améliorée.
+Le mode sombre améliore l’accessibilité visuelle pour les utilisateurs et utilisatrices sensibles à la lumière ou ayant une déficience visuelle, pour une expérience de visionnage améliorée.
 
 ![](assets/accessible-dark-mode.png){width="90%"}
 
@@ -154,11 +151,11 @@ Parmi les bonnes pratiques pour concevoir du contenu en mode sombre, utilisez de
 
 Les bonnes pratiques détaillées spécifiques au mode sombre, y compris les directives pour assurer l’accessibilité, sont répertoriées dans [cette section](dark-mode.md#best-practices). <!--KEEP dark mode accessibility best practices IN ONE SINGLE LOCATION - for now listed on the Dark mode page.-->
 
-## Utiliser des attributs spécifiques pour les e-mails accessibles {#attributes}
+## Utilisation d’attributs spécifiques pour l’accessibilité {#attributes}
 
-### `lang` et `dir` attributs
+### Attributs de langue {#language}
 
-Lors de la création d’emails accessibles, incluez les attributs `lang` (langue) et `dir` (direction du texte) dans le corps de l’email. Ces attributs aident les technologies d’assistance telles que les lecteurs d’écran à interpréter et présenter votre contenu d’une manière appropriée.
+Lors de la création de conceptions, incluez les attributs `lang` (langue) et `dir` (direction du texte) dans le corps du contenu. Ces attributs aident les technologies d’assistance telles que les lecteurs d’écran à interpréter et présenter votre contenu d’une manière appropriée.
 
 * L’attribut `lang` indique la langue de l’e-mail aux technologies d’assistance, en veillant à ce que les mots soient prononcés correctement.
 
@@ -202,13 +199,13 @@ Les lecteurs d’écran s’appuient sur l’attribut `lang` pour appliquer les 
 >
 >Si votre e-mail contient plusieurs langues, attribuez les attributs de langue appropriés à des sections spécifiques (comme des blocs de `<table>` ou de `<td>`) pour vous assurer que chaque partie est lue correctement.
 
-### Tableaux et `role="presentation"` de disposition
+### Tableaux {#tables}
 
-Dans les e-mails HTML, les tableaux sont souvent utilisés pour la mise en page. Par défaut, les lecteurs d’écran traitent chaque `<table>` comme un tableau de données, annonçant les lignes, les colonnes et la structure. Cela peut prêter à confusion si le tableau n’est utilisé que pour la mise en forme.
+Dans les contenus HTML, les tableaux sont souvent utilisés pour la mise en page. Par défaut, les lecteurs d’écran traitent chaque `<table>` comme un tableau de données, annonçant les lignes, les colonnes et la structure. Cela peut prêter à confusion si le tableau n’est utilisé que pour la mise en forme.
 
 Ajoutez des `role="presentation"` (ou des `role="none"`) aux tableaux de disposition pour vous assurer que les technologies d’assistance ignorent leur structure et se concentrent uniquement sur le contenu réel.
 
-+++Exemple - Tableau de disposition (avec role=« presentation ») : 
++++Exemple - Tableau de disposition (avec `role="presentation"`)
 
 ```
 <table role="presentation" border="0" cellpadding="0" cellspacing="0" width="100%"> 
@@ -229,11 +226,11 @@ Ajoutez des `role="presentation"` (ou des `role="none"`) aux tableaux de disposi
 ```
 
 Les lecteurs d’écran lisent :
-« Bonjour le monde. Bienvenue dans notre newsletter. » *(Aucune mention de lignes, colonnes ou tableau.)*
+« Bonjour le monde. Bienvenue dans notre newsletter. » *(aucune mention de lignes, colonnes ou tableau)*
 
 +++
 
-+++Exemple - Tableau de données (sans role=« presentation ») : 
++++Exemple - Tableau de données (sans `role="presentation"`)
 
 ```
 <table border="1" cellpadding="5" cellspacing="0"> 
@@ -268,25 +265,21 @@ Les lecteurs d’écran lisent :
 Les lecteurs d’écran lisent :
 « Tableau avec 2 colonnes et 3 lignes. »
 
-« Nom, Alice. »
+« Nom, Alice. Score, 95. »
 
-« Score, 95. »
-
-« Nom, Bob. »
-
-« Score, 88. »
+« Nom, Bob. Score, 88. »
 
 +++
 
 >[!TIP]
 >
->Utilisez `role="presentation"` exclusivement pour les tableaux de disposition. Pour les tableaux de données, conservez la structure sémantique`<table>` afin que les lecteurs d’écran puissent correctement annoncer les en-têtes et les relations.
+>Utilisez `role="presentation"` exclusivement pour les tableaux de disposition. Pour les tableaux de données, conservez la structure de `<table>` sémantique afin que les lecteurs d’écran puissent correctement annoncer les en-têtes et les relations.
 
-### Texte perceptible et descriptif pour les liens
+### Texte des liens {#links}
 
-Les lecteurs d’écran lisent les liens à l’aide de leur texte. Si un lien est libellé uniquement « Cliquez ici » ou « En savoir plus », les utilisateurs et utilisatrices de technologies d’assistance ne connaîtront pas la destination.
+Les lecteurs d’écran lisent les liens à l’aide de leur texte. Si un lien est libellé uniquement « Cliquez ici » ou « En savoir plus », les utilisateurs et utilisatrices de technologies d’assistance ne connaîtront pas la destination. Pour garantir leur accessibilité, ils ont besoin d’un texte descriptif qui indique clairement la cible ou l’action.
 
-Pour garantir l’accessibilité, écrivez un texte descriptif qui indique clairement la cible ou l’action. Utilisez le Designer d’e-mail pour [ajouter un lien](message-tracking.md#insert-links) à votre contenu et modifier le libellé afin de le rendre perceptible (visible) et descriptif (clarifier l’objectif). Évitez les libellés vagues tels que « ici » ou « plus ».
+Utilisez le Designer d’e-mail pour [ajouter un lien](message-tracking.md#insert-links) à votre contenu et modifier le libellé afin de le rendre perceptible (visible) et descriptif (clarifier l’objectif). Évitez les libellés vagues tels que « ici » ou « plus ».
 
 ![](assets/accessible-link.png){width="70%"}
 
@@ -305,7 +298,7 @@ Les lecteurs d’écran lisent :
 
 +++
 
-+++Exemple - Lien incorrect (non descriptif) : 
++++Exemple - Lien incorrect (non descriptif)
 
 ```
 <p>Learn more about our new features.  
@@ -316,7 +309,7 @@ Les lecteurs d’écran lisent :
 ```
 
 Les lecteurs d’écran lisent :
-« Lien, cliquez ici. » *(ne fournit aucun contexte en dehors de l’ordre de lecture.)*
+« Lien, cliquez ici. » *(ne fournit aucun contexte en dehors de l’ordre de lecture)*
 
 +++
 
@@ -331,7 +324,7 @@ Les lecteurs d’écran lisent :
 
 La prise en charge de la navigation au clavier et du focus permet aux personnes qui ne peuvent pas utiliser de souris d’accéder au contenu et d’interagir avec celui-ci. Elle améliore également la convivialité globale en offrant à tous les utilisateurs et utilisatrices un moyen clair et cohérent de parcourir les informations.
 
-* Activer la sélection à l’aide du clavier (touches tabulation/flèche)
+* Focus via le clavier
 
    * Assurez-vous que tous les éléments interactifs (tels que les boutons, cases à cocher, liens) ont des `tabindex="0"` afin qu’ils soient inclus dans l’ordre de tabulation naturel.
 
@@ -341,7 +334,7 @@ La prise en charge de la navigation au clavier et du focus permet aux personnes 
 
    * Appliquez des styles clairs et distinctifs pour vous concentrer sur les éléments exploitables :
 
-     +++Exemple (CSS) :
+     +++Exemple (CSS)
 
      ```
      [tabindex="0"] : focus { 
