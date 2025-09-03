@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Notes de mise à jour d’Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: ff3511e55eb56d8d5448df6d5de92dfd29ea8718
+source-git-commit: d69b04be97951a5a57228ea839cb9b9c274a92c2
 workflow-type: tm+mt
-source-wordcount: '1702'
-ht-degree: 72%
+source-wordcount: '1817'
+ht-degree: 68%
 
 ---
 
@@ -22,6 +22,28 @@ ht-degree: 72%
 
 [!DNL Adobe Journey Optimizer] offre en permanence de nouvelles fonctionnalités, des améliorations des fonctionnalités existantes et des correctifs. Toutes les modifications sont consolidées la dernière semaine de chaque mois dans ces notes de mise à jour. [!DNL Adobe Journey Optimizer] est créée de manière native sur [!DNL Adobe Experience Platform] et hérite de ses dernières innovations et améliorations. En savoir plus sur ces modifications dans les [Notes de mise à jour d’Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=fr){target="_blank"}.
 
+## Mises à jour du 25 septembre {#sep-updates}
+
+<table>
+<thead>
+<tr>
+<th><strong>Utilisation des données Adobe Experience Platform pour la personnalisation et la prise de décision - Disponibilité limitée</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Publiée précédemment en version bêta publique, cette fonctionnalité est désormais disponible dans tous les environnements en disponibilité limitée. Les améliorations suivantes ont été apportées à cette version :</p>
+<ul><li>Prise en charge de la personnalisation de la recherche de jeux de données dans les canaux entrants.</li>
+<li>La fonction d’assistance « datasetLookup » peut désormais être utilisée dans les fragments d’expression.</li>
+<li>Une option de l’interface de gestion des jeux de données vous permet désormais d’activer les jeux de données basés sur des enregistrements pour la personnalisation de la recherche, sans avoir à effectuer d’appel API.</li>
+<li>Surveillance améliorée pour suivre le statut d’ingestion des données et savoir quand les jeux de données sont prêts pour la recherche.</li>
+<li>Mise à jour des instructions d’utilisation et des mécanismes de sécurisation pour garantir des performances et une fiabilité optimales.</li></ul></p>
+<p>Pour plus d’informations, consultez la <a href="../data/lookup-aep-data.md">documentation détaillée</a>.</p>
+</td>
+</tr>
+</tbody>
+</table>
 
 ## Notes de mise à jour du 25 août {#25-8-rn}
 
