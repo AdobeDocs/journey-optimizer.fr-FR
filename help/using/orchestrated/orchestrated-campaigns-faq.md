@@ -6,9 +6,9 @@ description: Questions fréquentes sur les campagnes orchestrées Journey Optimi
 hide: true
 hidefromtoc: true
 exl-id: 6a660605-5f75-4c0c-af84-9c19d82d30a0
-source-git-commit: b7c1da838c7e87a9d8bc3ddf5ef09fa756d853b8
+source-git-commit: b7851997ee9e3ffaa6455888924b4dcd1c7ff10d
 workflow-type: tm+mt
-source-wordcount: '991'
+source-wordcount: '979'
 ht-degree: 3%
 
 ---
@@ -99,7 +99,7 @@ Les campagnes utilisent une **base de données relationnelle**. Vous pouvez ains
 
 ## Puis-je personnaliser les messages avec ces données ? {#personalization}
 
-Oui. Vous pouvez utiliser les profils client ainsi que les données liées (comme les achats ou les abonnements) pour personnaliser le contenu sur tous les canaux pris en charge.
+Oui. Dans Campaign Orchestration, un profil de destinataire appelé « Entité de personnes » peut être mis à jour et ces données sont utilisées pour la personnalisation. En outre, les données enrichies des entités liées dans la base de données relationnelle peuvent également être utilisées pour la personnalisation. Vous pouvez utiliser les profils client ainsi que les données liées (comme les achats ou les abonnements) pour personnaliser le contenu sur tous les canaux pris en charge.
 
 >[!BEGINSHADEBOX]
 
@@ -145,10 +145,6 @@ Dans l’orchestration de Campaign, nous appelons la segmentation ad hoc « segm
 * Validez le nombre d’audiences avant l’activation pour éviter un envoi insuffisant ou excessif.
 
 >[!ENDSHADEBOX]
-
-## Les données de la base de données relationnelle peuvent-elles être utilisées pour la personnalisation des messages ? {#relational-personalization}
-
-Oui. Dans Campaign Orchestration, un profil de destinataire appelé « Entité de personnes » peut être mis à jour et ces données sont utilisées pour la personnalisation. En outre, les données enrichies des entités liées dans la base de données relationnelle peuvent également être utilisées pour la personnalisation.
 
 
 ## Cela permet-il de prendre des décisions ? {#decisioning}
