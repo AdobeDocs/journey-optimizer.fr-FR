@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 6e291ce3-f324-4e5d-975b-5229dea4d581
-source-git-commit: 6e602312371934726370c3ae10cd13080459f6db
+source-git-commit: 076de3f8cec65ebf864131d2e405ead7596b2514
 workflow-type: tm+mt
 source-wordcount: '830'
 ht-degree: 93%
@@ -42,27 +42,28 @@ L’Assistant IA dans Adobe Journey Optimizer, optimisé par Microsoft Azure
 
 L’assistant d’IA prend en charge la génération **dans plusieurs langues** ce qui vous permet d’atteindre et d’impliquer diverses audiences internationales. L’assistant AI est disponible dans les langues suivantes :
 
-<table style="table-layout:fixed; border: 0; text-align: center; background-color: #FFFFFF;">
-  <tr>
-    <td>
-      <ul>
-        <li>Français</li>
-        <li>Espagnol</li>
-        <li>Allemand</li>
-        <li>Italien</li>
-      </ul>
-    </td>
-    <td>
-      <ul>
-        <li>Japonais</li>
-        <li>Suédois</li>
-        <li>Néerlandais</li>
-        <li>Norvégien</li>
-      </ul>
-    </td>
-  </tr>
+<table style="table-layout:auto; border-collapse: collapse;">
+  <tbody>
+    <tr style="background-color: #FFFFFF;">
+      <td>
+        <ul>
+          <li>Français</li>
+          <li>Espagnol</li>
+          <li>Allemand</li>
+          <li>Italien</li>
+        </ul>
+      </td>
+      <td>
+        <ul>
+          <li>Japonais</li>
+          <li>Suédois</li>
+          <li>Néerlandais</li>
+          <li>Norvégien</li>
+        </ul>
+      </td>
+    </tr>
+  </tbody>
 </table>
-
 
 Utilisez l’assistant IA dans Adobe Journey Optimizer pour optimiser l’impact de vos messages en testant plusieurs images et titres. Générez plusieurs variantes et créez une expérience pour les comparer. Grâce à **Journey Optimizer Content Experience**, vous pouvez définir plusieurs traitements de messages afin de mesurer celui qui fonctionne le mieux pour votre audience cible. Vous pouvez choisir de varier le contenu ou l’objet de la diffusion. L’audience du message est attribuée de manière aléatoire à chaque traitement afin de déterminer laquelle fonctionne le mieux avec la mesure spécifiée. En savoir plus sur l’expérience de contenu dans [cette section](../content-management/content-experiment.md).
 
