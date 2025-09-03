@@ -6,16 +6,16 @@ description: Questions fréquentes sur les campagnes orchestrées Journey Optimi
 hide: true
 hidefromtoc: true
 exl-id: 6a660605-5f75-4c0c-af84-9c19d82d30a0
-source-git-commit: f850cb5573c321d479fe956e8c9b9bf377e78dfc
+source-git-commit: 6a0b4f7da2794f6ffd9af51440f1bca8aa5e7fb1
 workflow-type: tm+mt
 source-wordcount: '1010'
-ht-degree: 3%
+ht-degree: 4%
 
 ---
 
 # Questions fréquentes {#faq-oc}
 
-Vous trouverez ci-dessous les questions fréquentes sur les campagnes orchestrées par Adobe Journey Optimizer.
+Vous trouverez ci-dessous les questions fréquentes sur les campagnes orchestrées Adobe Journey Optimizer.
 
 Vous avez besoin de plus d’informations ? Utilisez les options de commentaires au bas de cette page pour soulever votre question.
 
@@ -50,6 +50,7 @@ Les fonctionnalités principales sont les suivantes :
 
 Les campagnes orchestrées prennent en charge **e-mails, SMS et notifications push**.
 
+
 >[!BEGINSHADEBOX]
 
 **Recommandations**
@@ -59,6 +60,7 @@ Les campagnes orchestrées prennent en charge **e-mails, SMS et notifications pu
 * Testez le rendu des messages sur plusieurs appareils et clients pour garantir une expérience cohérente.
 
 >[!ENDSHADEBOX]
+
 
 ## En quoi les campagnes orchestrées sont-elles différentes des Parcours ? {#oc-vs-journeys}
 
@@ -155,7 +157,7 @@ Actuellement, la prise de décision n’utilise pas les données relationnelles 
 
 ## Comment fonctionne le déploiement dans les environnements ? {#deployment}
 
-Les objets créés dans des campagnes orchestrées (par exemple, des audiences, des workflows) sont liés au sandbox dans lequel ils sont créés. Les workflows de package et de déploiement standard dans les environnements (de développement, d’évaluation et de production) ne sont actuellement pas disponibles pour les campagnes orchestrées.
+Les objets créés dans des campagnes orchestrées (audiences, workflows, etc.) sont liés au sandbox dans lequel ils sont créés. Les workflows de package et de déploiement standard dans les environnements (de développement, d’évaluation et de production) ne sont actuellement pas disponibles pour les campagnes orchestrées.
 
 >[!BEGINSHADEBOX]
 
