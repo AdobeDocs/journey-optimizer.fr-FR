@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 6e291ce3-f324-4e5d-975b-5229dea4d581
-source-git-commit: 39508e605479344a42bff0e5ce82b714f6bcff48
+source-git-commit: 01fa6efc5c5717e15e1dbb618f5d65feb7ffaed6
 workflow-type: tm+mt
 source-wordcount: '830'
 ht-degree: 93%
@@ -42,7 +42,7 @@ L’Assistant IA dans Adobe Journey Optimizer, optimisé par Microsoft Azure
 
 L’assistant d’IA prend en charge la génération **dans plusieurs langues** ce qui vous permet d’atteindre et d’impliquer diverses audiences internationales. L’assistant AI est disponible dans les langues suivantes :
 
-<table style="table-layout:fixed"><table style="table-layout:fixed"><tr style="border: 0; text-align: center;background-color: #FFFFFF;">
+<table style="table-layout:fixed"><tr style="border: 0; text-align: center;background-color: #FFFFFF;">
   <tr>
     <td><ul><li>Français</li><li>Espagnol</li><li>Allemand</li><li>Italien</li></ul></td>
     <td><ul><li>Japonais</li><li>Suédois</li><li>Néerlandais</li><li>Norvégien</li></ul></td>
