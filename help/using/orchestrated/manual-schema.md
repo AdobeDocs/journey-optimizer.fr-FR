@@ -4,10 +4,10 @@ product: journey optimizer
 title: Étapes de configuration
 description: Découvrez comment créer des schémas relationnels directement via l’interface utilisateur.
 exl-id: 8c785431-9a00-46b8-ba54-54a10e288141
-source-git-commit: 4f262d4cbbe2241ec8356333d9a3191081f58a6a
+source-git-commit: 9984863e2c3f7fb8f74cefacfc026b70d27bddd7
 workflow-type: tm+mt
-source-wordcount: '853'
-ht-degree: 94%
+source-wordcount: '868'
+ht-degree: 92%
 
 ---
 
@@ -149,6 +149,8 @@ Vous devez maintenant activer votre jeu de données pour orchestrer des campagne
 ## Activer le jeu de données pour les campagnes orchestrées {#enable}
 
 Après avoir créé votre jeu de données, vous devez l’activer explicitement pour les campagnes orchestrées. Cette étape permet de s’assurer que votre jeu de données est disponible pour l’orchestration et la personnalisation en temps réel dans Adobe Journey Optimizer.
+
+Consultez la [documentation Adobe Developer](https://developer.adobe.com/journey-optimizer-apis/references/orchestrated-campaign-dataset/#tag/DatasetEnablement) pour valider ou activer l’extension Orchestrated Campaign sur le jeu de données.
 
 1. Recherchez votre jeu de données dans la liste **[!UICONTROL Jeux de données]**.
 
