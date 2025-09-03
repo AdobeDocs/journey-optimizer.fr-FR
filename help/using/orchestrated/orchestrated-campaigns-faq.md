@@ -6,9 +6,9 @@ description: Questions fréquentes sur les campagnes orchestrées Journey Optimi
 hide: true
 hidefromtoc: true
 exl-id: 6a660605-5f75-4c0c-af84-9c19d82d30a0
-source-git-commit: b7851997ee9e3ffaa6455888924b4dcd1c7ff10d
+source-git-commit: f850cb5573c321d479fe956e8c9b9bf377e78dfc
 workflow-type: tm+mt
-source-wordcount: '979'
+source-wordcount: '1010'
 ht-degree: 3%
 
 ---
@@ -114,8 +114,10 @@ Oui. Dans Campaign Orchestration, un profil de destinataire appelé « Entité d
 
 ## S’intègre-t-il à d’autres solutions Adobe ? {#integrations}
 
+Oui. L’orchestration des campagnes est intégrée nativement à :
+
 * **Customer Journey Analytics** : les rapports d&#39;orchestration de Campaign sont disponibles.
-* **Real-Time CDP** : les audiences créées dans les campagnes peuvent être lues dans CDP.
+* **Real-Time CDP** : les audiences créées dans les campagnes peuvent être lues dans Real-Time CDP.
 * **Composition d’audience fédérée (FAC)** : disponible sous la forme d’un module complémentaire.
 
 ## Qu’en est-il des autorisations et du consentement ? {#permissions}
@@ -175,3 +177,11 @@ Oui, suivez les bonnes pratiques ci-dessous :
 * Établissez une **routine de surveillance** : suivez les logs de diffusion, les taux d’erreur et les désinscriptions après chaque envoi.
 * Exécutez **analyse post-campagne** dans Customer Journey Analytics pour affiner le ciblage et l’orchestration pour le cycle suivant.
 
+
+
+>[!MORELIKETHIS]
+>
+>* [Mécanismes de sécurisation et limitations des campagnes orchestrées](../orchestrated/guardrails.md)
+>* [Prise en main des schémas et des jeux de données dans les campagnes orchestrées](../orchestrated/gs-schemas.md)
+>* [Créer votre première campagne orchestrée](../orchestrated/gs-campaign-creation.md)
+>* Description du produit [Journey Optimizer](https://helpx.adobe.com/fr/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}
