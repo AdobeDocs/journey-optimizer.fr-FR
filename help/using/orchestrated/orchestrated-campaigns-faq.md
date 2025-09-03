@@ -6,7 +6,7 @@ description: Questions fréquentes sur les campagnes orchestrées Journey Optimi
 hide: true
 hidefromtoc: true
 exl-id: 6a660605-5f75-4c0c-af84-9c19d82d30a0
-source-git-commit: 6a0b4f7da2794f6ffd9af51440f1bca8aa5e7fb1
+source-git-commit: e63fd5dc50100000a810e2dfcb8c8e8827628b0c
 workflow-type: tm+mt
 source-wordcount: '1010'
 ht-degree: 4%
@@ -80,7 +80,7 @@ raffiné.
 
 >[!BEGINSHADEBOX]
 
-**Exemple** - Ciblez tous les destinataires dont les abonnements expirent au cours des 3ad-h0 prochains jours : dans l’orchestration Campaign, la requête peut commencer par le schéma Abonnements , recherchez uniquement la colonne date d’expiration de ce schéma et renvoyez tous les abonnements dont le délai d’expiration est prévu, puis cumulez les données des destinataires liées à ces identifiants d’abonnement spécifiques et renvoyez les résultats plus rapidement et plus efficacement que les modèles de données qui commencent chaque requête au niveau du destinataire.
+**Exemple** - Ciblez tous les destinataires dont les abonnements expirent au cours des 30 prochains jours. Dans Campaign Orchestration, la requête peut commencer par le schéma Abonnements , rechercher uniquement la colonne Date d’expiration de ce schéma et renvoyer tous les abonnements dont l’expiration est prévue, puis cumuler les données des destinataires liées à ces identifiants d’abonnements spécifiques et renvoyer les résultats plus rapidement et plus efficacement que les modèles de données qui lancent chaque requête au niveau du destinataire.
 
 >[!ENDSHADEBOX]
 
