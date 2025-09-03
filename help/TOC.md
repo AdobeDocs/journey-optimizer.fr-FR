@@ -5,9 +5,9 @@ user-guide-title: Guide de Journey Optimizer
 user-guide-description: Utilisez Journey Optimizer pour créer et proposer aux clients des expériences connectées, contextuelles et personnalisées
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 95e50386d4190d0b967d133a327c25ab1681b5c1
+source-git-commit: 61a8d887b6dc81e21dfd3810684fd9c01db487a6
 workflow-type: tm+mt
-source-wordcount: '2892'
+source-wordcount: '2891'
 ht-degree: 99%
 
 ---
@@ -535,6 +535,7 @@ ht-degree: 99%
       + [Créer un fournisseur de langue](using/content-management/multilingual-provider.md)
       + [Créer du contenu multilingue avec traduction manuelle](using/content-management/multilingual-manual.md)
       + [Créer du contenu multilingue avec traduction automatisée](using/content-management/multilingual-automated.md)
+   + [Optimisation des messages](using/campaigns/campaigns-message-optimization.md)
    + Expérience de contenu {#content-experiment}
       + [Expérience de contenu](/help/rp_landing_pages/content-experiment-landing-page.md)
       + [Prise en main de l’expérience de contenu](using/content-management/get-started-experiment.md)
@@ -543,7 +544,6 @@ ht-degree: 99%
          + [Notes techniques](/help/rp_landing_pages/technotes-landing-page.md)
          + [Présentation des calculs statistiques](using/content-management/experiment-calculations.md)
          + [Comprendre les calculs statistiques dans le rapport d’expérience](using/content-management/experiment-report-calculations.md)
-   + [Tirer parti de l’optimisation des messages](using/campaigns/campaigns-message-optimization.md)
 + Audiences, profils et identité {#audiences-profiles-identities}
    + [Audiences, profils et identité](/help/rp_landing_pages/audiences-profiles-identities-landing-page.md)
    + Audiences {#audiences}
