@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 6e291ce3-f324-4e5d-975b-5229dea4d581
-source-git-commit: d910b90bbc2bd4276ea197e7caf7854b7e3aa953
+source-git-commit: c5cd0708f8b39fca5de14b1c24be1dd3a6b3fd87
 workflow-type: tm+mt
-source-wordcount: '824'
-ht-degree: 92%
+source-wordcount: '830'
+ht-degree: 93%
 
 ---
 
@@ -40,7 +40,14 @@ ht-degree: 92%
 
 L’Assistant IA dans Adobe Journey Optimizer, optimisé par Microsoft Azure OpenAI et Adobe Firefly, offre des suggestions de variations de contenu proactives pour le texte et les images. Cette nouvelle fonctionnalité fournit une **génération d’images et de texte basée sur des invites**. La génération d’images est gérée avec Adobe Firefly.
 
-AI Assistant prend en charge la génération **en plusieurs langues**, notamment le français, l’espagnol, l’allemand, l’italien, le japonais, le suédois, le néerlandais ou le norvégien, ce qui vous permet d’atteindre et d’impliquer diverses audiences internationales.
+L’assistant d’IA prend en charge la génération **dans plusieurs langues** ce qui vous permet d’atteindre et d’impliquer diverses audiences internationales. L’assistant AI est disponible dans les langues suivantes :
+
+<table style="table-layout:fixed"><tr style="border: 0;">
+  <tr>
+    <td><ul><li>Français</li><li>Espagnol</li><li>Allemand</li><li>Italien</li></ul></td>
+    <td><ul><li>Japonais</li><li>Suédois</li><li>Néerlandais</li><li>Norvégien</li></ul></td>
+  </tr>
+</table>
 
 Utilisez l’assistant IA dans Adobe Journey Optimizer pour optimiser l’impact de vos messages en testant plusieurs images et titres. Générez plusieurs variantes et créez une expérience pour les comparer. Grâce à **Journey Optimizer Content Experience**, vous pouvez définir plusieurs traitements de messages afin de mesurer celui qui fonctionne le mieux pour votre audience cible. Vous pouvez choisir de varier le contenu ou l’objet de la diffusion. L’audience du message est attribuée de manière aléatoire à chaque traitement afin de déterminer laquelle fonctionne le mieux avec la mesure spécifiée. En savoir plus sur l’expérience de contenu dans [cette section](../content-management/content-experiment.md).
 
