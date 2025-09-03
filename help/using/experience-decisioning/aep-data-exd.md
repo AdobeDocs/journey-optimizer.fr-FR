@@ -1,19 +1,19 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Utiliser les données Adobe Experience Platform pour la prise de décision (version Beta)
+title: Utiliser des données Adobe Experience Platform à des fins de prise de décision
 description: Découvrez comment utiliser les données Adobe Experience Platform pour la prise de décision.
-badge: label="Beta" type="Informative"
+badge: label="Disponibilité limitée" type="Informative"
 feature: Personalization, Rules
 topic: Personalization
 role: Data Engineer
 level: Intermediate
 keywords: expression, éditeur
 exl-id: 46d868b3-01d2-49fa-852b-8c2e2f54292f
-source-git-commit: cf700f4097883c875c74196317f6494f74f9bc7c
+source-git-commit: 42f231a9b0b34a63d1601dcae653462f6321caed
 workflow-type: tm+mt
-source-wordcount: '836'
-ht-degree: 100%
+source-wordcount: '812'
+ht-degree: 95%
 
 ---
 
@@ -31,9 +31,11 @@ ht-degree: 100%
 
 >[!AVAILABILITY]
 >
->Cette fonctionnalité est actuellement disponible en version Beta publique pour l’ensemble des clientes et clients. Contactez votre représentant ou représentante de compte si vous souhaitez y accéder.
+>Cette fonctionnalité est actuellement disponible pour tous les clients sous la forme d’une version à disponibilité limitée.
 
 [!DNL Journey Optimizer] vous permet d’exploiter les données d’[!DNL Adobe Experience Platform] pour la prise de décision. Vous pouvez ainsi étendre la définition des attributs de décision aux données supplémentaires des jeux de données pour les mises à jour en masse qui changent régulièrement sans avoir à mettre à jour manuellement les attributs un par un. Par exemple, la disponibilité, les temps d’attente, etc.
+
+Avant de commencer, les jeux de données nécessaires à la personnalisation de la recherche doivent d’abord être activés pour la recherche. Vous trouverez des informations détaillées dans cette section : [Utilisation des données Adobe Experience Platform](../data/lookup-aep-data.md).
 
 ## Mécanismes de sécurisation et limitations {#guidelines}
 
@@ -43,10 +45,6 @@ Avant de commencer, consultez les restrictions et les directives suivantes :
 * Une règle de décision peut utiliser 3 jeux de données.
 * Une formule de classement peut utiliser 3 jeux de données.
 * Lorsqu’une politique de décision est évaluée, le système exécute jusqu’à 1 000 requêtes (recherches) de jeux de données au total. Chaque mappage de jeu de données utilisé par un élément de décision compte comme une requête. Exemple : si un élément de décision utilise 2 jeux de données, l’évaluation de cette offre compte comme 2 requêtes dans la limite des 1 000 requêtes.
-
-## Activer un jeu de données pour la recherche de données {#enable}
-
-Pour utiliser les données d’un jeu de données [!DNL Adobe Experience Platform] pour la prise de décision, vous devez d’abord l’activer pour la recherche via un appel API. Pour obtenir des instructions détaillées, consultez cette section : [Utiliser des jeux de données Adobe Experience Platform dans Journey Optimizer](../data/lookup-aep-data.md).
 
 ## Utiliser des données Adobe Experience Platform {#leverage-aep-data}
 

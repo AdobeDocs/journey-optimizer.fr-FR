@@ -1,46 +1,31 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Utiliser les données Adobe Experience Platform pour la personnalisation (Beta)
+title: Utiliser des données Adobe Experience Platform à des fins de personnalisation
 description: Découvrez comment utiliser des données Adobe Experience Platform pour la personnalisation.
-badge: label="Beta" type="Informative"
+badge: label="Disponibilité limitée" type="Informative"
 feature: Personalization, Rules
 topic: Personalization
 role: Data Engineer
 level: Intermediate
 keywords: expression, éditeur
 exl-id: 2fc10fdd-ca9e-46f0-94ed-2d7ea4de5baf
-source-git-commit: 07e855b1a334a226c34223e5dd034f88733d6e2e
+source-git-commit: 42f231a9b0b34a63d1601dcae653462f6321caed
 workflow-type: tm+mt
-source-wordcount: '779'
-ht-degree: 98%
+source-wordcount: '648'
+ht-degree: 86%
 
 ---
 
-# Utiliser des données Adobe Experience Platform à des fins de personnalisation{#aep-data}
+# Utiliser des données Adobe Experience Platform à des fins de personnalisation {#aep-data}
 
 >[!AVAILABILITY]
 >
->Cette fonctionnalité est actuellement disponible en version Beta publique pour l’ensemble des clientes et clients.
->
->Pour utiliser cette fonctionnalité, vous devez d’abord accepter les termes de la version Beta pour votre entreprise qui s’affichent lors de l’ajout des nouvelles fonctions d’assistance « datasetLookup » dans l’éditeur de personnalisation.
+>Cette fonctionnalité est actuellement disponible pour tous les clients sous la forme d’une version à disponibilité limitée.
 
-Journey Optimizer vous permet d’utiliser les données d’Adobe Experience Platform dans l’éditeur de personnalisation pour [personnaliser votre contenu](../personalization/personalize.md). Pour ce faire, les jeux de données nécessaires à la personnalisation de la recherche doivent d’abord être activés par le biais d’un appel API, comme décrit ci-dessous. Une fois que vous avez terminé, vous pouvez utiliser leurs données pour personnaliser votre contenu dans [!DNL Journey Optimizer].
+Journey Optimizer vous permet d’exploiter les données des jeux de données d’enregistrement Adobe Experience Platform dans l’éditeur de personnalisation pour [personnaliser votre contenu](../personalization/personalize.md). Avant de commencer, les jeux de données nécessaires à la personnalisation de la recherche doivent d’abord être activés pour la recherche. Vous trouverez des informations détaillées dans cette section : [Utilisation des données Adobe Experience Platform](../data/lookup-aep-data.md).
 
-## Restrictions et directives de la version Beta {#guidelines}
-
-Avant de commencer, consultez les restrictions et les directives suivantes :
-
-* **Canaux pris en charge** : pour l’instant, cette fonctionnalité n’est disponible que pour une utilisation dans les canaux e-mail, SMS et courrier.
-* **Fragments** : pour le moment, la personnalisation de la recherche de jeux de données ne peut pas être placée dans des fragments d’expression ou visuels.
-
-## Activer un jeu de données pour la recherche de données {#enable}
-
-Afin d’exploiter les données de votre jeu de données pour la personnalisation, vous devez utiliser un appel API pour récupérer son statut et activer le service de recherche. Vous trouverez des informations détaillées dans cette section : [Utiliser des jeux de données Adobe Experience Platform dans [!DNL Journey Optimizer]](../data/lookup-aep-data.md)
-
-## Exploiter un jeu de données pour la personnalisation {#leverage}
-
-Une fois qu’un jeu de données a été activé pour la personnalisation de la recherche à l’aide d’un appel API, vous pouvez utiliser ses données pour personnaliser votre contenu dans [!DNL Journey Optimizer].
+Une fois qu’un jeu de données a été activé pour la personnalisation de la recherche, vous pouvez utiliser ses données pour personnaliser votre contenu en [!DNL Journey Optimizer].
 
 1. Ouvrez l’éditeur de personnalisation, disponible dans tout contexte où vous pouvez définir une personnalisation, tel que les messages. [Découvrir comment utiliser l’éditeur de personnalisation](../personalization/personalization-build-expressions.md)
 
