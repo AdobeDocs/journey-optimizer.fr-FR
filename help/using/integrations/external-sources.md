@@ -11,10 +11,10 @@ keywords: Intégration
 hide: true
 hidefromtoc: true
 exl-id: 104f283e-f6a5-431b-919a-d97b83d19632
-source-git-commit: ad5fdefed71d75470dc243310e74372e0b08ba2a
-workflow-type: ht
-source-wordcount: '569'
-ht-degree: 100%
+source-git-commit: 26f0bdd9f67648d0a382fd67c296bf44f0ea42df
+workflow-type: tm+mt
+source-wordcount: '629'
+ht-degree: 90%
 
 ---
 
@@ -30,6 +30,18 @@ Vous pouvez utiliser cette fonctionnalité pour accéder à des données externe
 * **Informations sur les prix** pour les produits.
 * **Recommandations de produits** à partir des moteurs de recommandation.
 * **Mises à jour logistiques** comme le statut de la diffusion.
+
+## Limites de la version Beta {#limitations}
+
+La version bêta présente les limites suivantes :
+
+* Les canaux sortants ne sont pris en charge que.
+
+* Seul le format JSON est pris en charge pour les réponses d’appel API. Les sorties HTML et d’images binaires brutes ne sont pas disponibles.
+
+* Seules les API de récupération ciblant un contenu spécifique sont prises en charge. Les API de liste ne sont pas disponibles.
+
+* La fonctionnalité Intégrations est disponible pour les Parcours et les campagnes , mais n’est pas prise en charge dans les fragments.
 
 ## Configurer votre intégration {#configure}
 
