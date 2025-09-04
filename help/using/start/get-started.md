@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 956178c0-9985-4ff8-a29e-17dd367ce4d4
-source-git-commit: e758e4f3532d9f1abb7a564431993c11032804ba
+source-git-commit: ab23386f22e6b585df412ccab039576a51a3ce20
 workflow-type: tm+mt
-source-wordcount: '775'
-ht-degree: 95%
+source-wordcount: '847'
+ht-degree: 87%
 
 ---
 
@@ -62,8 +62,6 @@ Les fonctionnalités principales sont les suivantes :
 >* Les lignes directrices et procédures générales d&#39;Adobe Experience Cloud sur la protection des données personnelles s&#39;appliquent à [!DNL Journey Optimizer]. [En savoir plus sur la confidentialité d&#39;Adobe Experience Cloud](https://www.adobe.com/fr/privacy/experience-cloud.html){target="_blank"}.
 
 
-
-
 ## Architecture {#architecture}
 
 Découvrez l’architecture de base d’[!DNL Adobe Journey Optimizer], les points d’intégration et la relation entre [!DNL Journey Optimizer] et [!DNL Experience Platform], dans le diagramme ci-dessous.
@@ -79,6 +77,12 @@ Les fonctionnalités et services principaux de Journey Optimizer fonctionnent �
 ![](assets/ajo-architecture-diagram.png){width="70%" zoomable="yes"}
 
 
+### Plans directeurs Adobe Journey Optimizer
+
+Les plans directeurs d’expérience digitale fournissent des diagrammes d’architecture du système et des flux de données pour aider à mieux comprendre comment Adobe Experience Platform et les applications sont intégrées et mises en œuvre. Les plans directeurs fournissent une représentation visuelle des données et des flux de contenu entre les systèmes et les composants, de la séquence des opérations et des dépendances afin de contribuer à la conception des cas d’utilisation et à l’architecture de Adobe Experience Platform et des applications.
+
+Voir [Plans directeurs Adobe Journey Optimizer](https://experienceleague.adobe.com/en/docs/blueprints-learn/architecture/customer-journeys/journey-optimizer/journey-optimizer-overview){target="_blank"}.
+
 
 >[!MORELIKETHIS]
 >
@@ -86,3 +90,4 @@ Les fonctionnalités et services principaux de Journey Optimizer fonctionnent �
 >* [Concevoir des parcours et envoyer des messages](../building-journeys/journey-gs.md)
 >* [Rapports dynamiques](../reports/live-report.md)
 >* [Vue d’ensemble de la sécurité de Journey Optimizer](https://www.adobe.com/content/dam/cc/en/security/pdfs/AJO_SecurityOverview.pdf) (PDF)
+>* Description du produit [Journey Optimizer](https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer.htm){target="_blank"}

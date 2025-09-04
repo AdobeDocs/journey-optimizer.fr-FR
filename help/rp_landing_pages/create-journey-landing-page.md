@@ -4,13 +4,14 @@ product: Journey Optimizer
 title: Créer un parcours
 description: Créer un parcours
 redpen-status: CREATED_||_2025-08-11_20-07-02
-source-git-commit: 5a8ef88cba254241933607ca59156d35e0e92926
+version: Journey Orchestration
+exl-id: d08e8c3a-7ade-4c38-93f6-c552a44d6209
+source-git-commit: 3eadf569fd98ac1b51a62e95f399c04f47fc5071
 workflow-type: tm+mt
 source-wordcount: '293'
-ht-degree: 6%
+ht-degree: 7%
 
 ---
-
 
 # Créer un parcours{#section-overview}
 
@@ -20,7 +21,7 @@ La création d’un parcours dans Adobe Journey Optimizer vous permet de concevo
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Création de votre premier Parcours client
 
@@ -30,7 +31,7 @@ Découvrez comment créer, concevoir, tester et publier votre premier parcours c
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 Définition et gestion des propriétés de Parcours
 
@@ -40,7 +41,7 @@ Configurez les règles d’entrée, les paramètres temporels, la gestion des ac
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 Conception de votre Parcours
 
@@ -50,7 +51,7 @@ Utilisez l’interface glisser-déposer pour concevoir des parcours marketing pe
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Comment tester votre Parcours
 
@@ -60,7 +61,7 @@ Testez vos parcours avec des profils simulés et détectez les erreurs avant la 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/screwdriver-wrench.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/screwdriver-wrench.svg)
 
 Test des Parcours en mode Exécution d’essai
 
@@ -70,7 +71,7 @@ Validez vos parcours avec des données de production réelles sans contacter les
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Publication d’un Parcours
 
