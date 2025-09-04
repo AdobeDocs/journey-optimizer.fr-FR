@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: parcours, configuration, propriétés
 exl-id: 6c21371c-6cbc-4d39-8fe6-39f1b8b13280
-source-git-commit: 3aa3203ae7763d81288cb70a2984d017b0006bb3
+source-git-commit: 3ab8957d0aec6f30853de5537e03f0e7bec2017c
 workflow-type: tm+mt
 source-wordcount: '2733'
 ht-degree: 87%
@@ -138,6 +138,7 @@ Une personne ne peut entrer dans une activité d’attente que si elle dispose d
 À compter de la version de juin 2024 d’Adobe Journey Optimizer, la temporisation globale du parcours est passée de 30 à 91 jours. Les éléments affectés sont répertoriés dans les questions fréquentes ci-dessous :
 
 **Pour les parcours unitaires**
+
 <table style="table-layout:auto">
   <tr style="border: 1;">
     <td>
@@ -309,7 +310,7 @@ Reportez-vous à cette section pour savoir comment [utiliser les critères de so
 
 ### Mécanismes de sécurisation et limitations {#exit-criteria-guardrails}
 
-Les mécanismes de sécurisation et limitations suivants s’appliquent à la fonctionnalité Critères de sortie de Parcours [&#128279;](#exit-criteria-desc) :
+Les mécanismes de sécurisation et limitations suivants s’appliquent à la fonctionnalité Critères de sortie de Parcours [](#exit-criteria-desc) :
 
 * Les critères de sortie sont définis en état de brouillon uniquement.
 * Cohérence de l’espace de noms de parcours entre les événements et les critères de sortie basés sur un événement
