@@ -8,17 +8,19 @@ topic: Administration
 role: Admin
 level: Experienced
 keywords: sous-domaine, délégation, domaine, DNS
-hide: true
-hidefromtoc: true
 exl-id: 34af1329-f0c8-4fcd-a284-f8f4214611d4
-source-git-commit: 0490045a763876d3518e3db92e8427691044f6aa
+source-git-commit: 1746efa82611d232b5af07b271739417b4e36e8c
 workflow-type: tm+mt
-source-wordcount: '748'
-ht-degree: 100%
+source-wordcount: '925'
+ht-degree: 79%
 
 ---
 
 # Configurer un sous-domaine personnalisé {#delegate-custom-subdomain}
+
+>[!AVAILABILITY]
+>
+>Cette fonctionnalité est en disponibilité limitée. Contactez votre représentant ou représentante Adobe pour obtenir l’accès.
 
 Au lieu des méthodes [Délégation complète](about-subdomain-delegation.md#full-subdomain-delegation) et [Configuration CNAME](about-subdomain-delegation.md#cname-subdomain-delegation), la méthode **Délégation personnalisée** vous permet d’obtenir la propriété de vos sous-domaines dans Journey Optimizer et de disposer d’un contrôle total sur les certificats générés.
 
@@ -66,8 +68,8 @@ Pour configurer un sous-domaine personnalisé, procédez comme suit.
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_subdomain_key_length"
->title="xxx"
->abstract=""
+>title="Sélectionner une longueur de clé"
+>abstract="La longueur de la clé peut être de 2 048 ou 4 096 bits uniquement. Elle ne peut plus être modifiée une fois le sous-domaine envoyé."
 
 1. Dans la section **[!UICONTROL Certificat SSL]**, cliquez sur **[!UICONTROL Générer une demande de signature de certificat]**.
 
@@ -85,13 +87,35 @@ Pour configurer un sous-domaine personnalisé, procédez comme suit.
    >
    >La longueur de la clé peut être de 2 048 ou 4 096 bits uniquement. Elle ne peut plus être modifiée une fois le sous-domaine envoyé.
 
-1. Cliquez sur **[!UICONTROL Télécharger la demande de signature de certificat]** et enregistrez le formulaire sur votre ordinateur local. Envoyez-le à l’autorité de certification pour obtenir votre certificat SSL.
+1. Cliquez sur **[!UICONTROL Télécharger la CSR]** et enregistrez le formulaire sur votre ordinateur local.
 
-1. Une fois celui-ci récupéré, cliquez sur **[!UICONTROL Charger le certificat SSL]** et chargez le certificat dans [!DNL Journey Optimizer] au format .pem.
+1. Envoyez-le à l’autorité de certification (CA) pour obtenir votre certificat SSL. Avant d’envoyer cette demande de signature de certificat à votre autorité de certification pour signature, prenez en compte quelques points importants :
 
-   >[!CAUTION]
-   >
-   >Les sous-domaines de données et de réseau CDN doivent être inclus dans le même certificat.
+   * La CSR téléchargée à l’étape 3 est réservée à data.subdomain.com.
+
+   * Cependant, le certificat doit couvrir à la fois data.subdomain.com et cdn.subdomain.com en tant qu’entrées de noms alternatifs de l’objet (SAN) dans un seul certificat. Par exemple, si vous déléguez example.adobe.com, alors data.subdomain.com correspond à data.example.adobe.com et cdn.subdomain.com correspond à cdn.example.adobe.com.
+
+   * Les sous-domaines de données (data.example.adobe.com) et de réseau CDN (cdn.example.adobe.com) doivent être ajoutés en tant qu’entrées d’homologue dans le même certificat.
+
+   * La plupart des autorités de certification vous permettent d’ajouter des SAN supplémentaires (tels que le sous-domaine du réseau CDN) pendant le processus de signature
+
+      * Par le biais du portail CA (recommandé, le cas échéant), ou
+      * En le demandant manuellement à leur équipe d’assistance si l’option de portail n’est pas disponible.
+
+   * Une fois signée, l’autorité de certification émettra un certificat unique couvrant à la fois le domaine de données et le sous-domaine du réseau CDN.
+
+1. Une fois récupéré, cliquez sur **[!UICONTROL Télécharger le certificat SSL]** et téléchargez le certificat vers [!DNL Journey Optimizer] au format .pem avec la chaîne de certificats complète. Voici un exemple de format de fichier .pem :
+
+   ```
+   -----BEGIN CERTIFICATE-----
+   MIIDXTCCAkWgAwIBAgIJALc3... (base64 encoded data)
+   -----END CERTIFICATE-----
+   ```
+
+   <!--
+    >[!CAUTION]
+    >
+    >Both Data and CDN subdomains must be included in the same certificate.-->
 
 ## Suivre les étapes de la boucle de commentaires {#feedback-loop-steps}
 
