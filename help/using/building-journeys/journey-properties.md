@@ -310,7 +310,7 @@ Reportez-vous à cette section pour savoir comment [utiliser les critères de so
 
 ### Mécanismes de sécurisation et limitations {#exit-criteria-guardrails}
 
-Les mécanismes de sécurisation et limitations suivants s’appliquent à la fonctionnalité Critères de sortie de Parcours [](#exit-criteria-desc) :
+Les mécanismes de sécurisation et limitations suivants s’appliquent à la fonctionnalité Critères de sortie de Parcours [&#128279;](#exit-criteria-desc) :
 
 * Les critères de sortie sont définis en état de brouillon uniquement.
 * Cohérence de l’espace de noms de parcours entre les événements et les critères de sortie basés sur un événement

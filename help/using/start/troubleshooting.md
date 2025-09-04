@@ -216,7 +216,7 @@ Reportez-vous à [cet article de dépannage](https://experienceleague.adobe.com/
 
 En savoir plus sur les événements [sur cette page](../event/about-events.md).
 
-Consultez également la section Mécanismes de sécurisation des événements de Parcours [](../start/guardrails.md#events).
+Consultez également la section Mécanismes de sécurisation des événements de Parcours [&#128279;](../start/guardrails.md#events).
 
 +++
 
