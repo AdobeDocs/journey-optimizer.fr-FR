@@ -13,10 +13,10 @@ hidefromtoc: true
 hide: true
 exl-id: f6618de4-7861-488e-90c0-f299ef5897ca
 version: Journey Orchestration
-source-git-commit: 62783c5731a8b78a8171fdadb1da8a680d249efd
+source-git-commit: 7d57767fcfacbba3a4ec2d1279937ca63ffb8c48
 workflow-type: tm+mt
-source-wordcount: '1197'
-ht-degree: 8%
+source-wordcount: '1226'
+ht-degree: 7%
 
 ---
 
@@ -33,18 +33,13 @@ ht-degree: 8%
 
 L’activité **Optimiser** vous permet de définir la progression des individus dans votre parcours en créant plusieurs **chemins d’accès** en fonction de critères spécifiques, notamment l’expérimentation, le ciblage et des conditions spécifiques, afin d’assurer un engagement et une réussite optimaux pour la création de parcours hautement personnalisés et efficaces.
 
-Un chemin de parcours **&#x200B;**&#x200B;peut être constitué de l’un des éléments suivants :
+Un parcours **chemin** peut être constitué de l’un des éléments suivants : séquencement des communications, temps écoulé entre les deux, nombre de communications ou toute combinaison de ces trois variables.
 
-* le séquencement des communications ;
-* temps intermédiaire ;
-* le nombre de communications ;
-* ou toute combinaison de ces trois variables.
-
-Par exemple, un chemin peut contenir un e-mail, un autre peut contenir deux SMS et un troisième peut contenir un e-mail, un nœud [Attente](wait-activity.md) de deux heures, puis un SMS.
+Par exemple, un chemin peut contenir un e-mail, un autre peut contenir deux SMS et un troisième peut contenir un e-mail, un nœud Attente de deux heures, puis un SMS.
 
 <!--With this feature, [!DNL Journey Optimizer] empowers you with the tools to deliver personalized and optimized paths to your audience, ensuring maximum engagement and success to create highly customized and effective journeys.-->
 
-Grâce à l’activité **Optimiser**, vous pouvez :
+Grâce à l’activité **Optimiser**, vous pouvez effectuer les actions suivantes sur les chemins résultants :
 
 * Exécutez [expériences de chemin](#experimentation)
 * Utilisation des règles [de ciblage](#targeting) dans chaque chemin de parcours
@@ -85,20 +80,17 @@ Supposons que vous souhaitiez comparer trois chemins :
     Consider adding an example in this step: For this example, select this metric to test xxx.
     -->
 
-   ![](assets/journey-optimize-experiment-metrics.png){width=70%}
+   ![](assets/journey-optimize-experiment-metrics.png){width=80%}
 
-<!--1. Change the **[!UICONTROL Title]** of your treatment to better differentiate them.-->
-
-1. Vous pouvez choisir d’ajouter un groupe d’exclusion **[!UICONTROL à votre diffusion]** Ce groupe ne recevra aucun contenu de cette expérience.
+1. Vous pouvez choisir d’ajouter un groupe d’exclusion **[!UICONTROL à votre diffusion]** Ce groupe n’entre dans aucun chemin à partir de cette expérience.
 
    >[!NOTE]
    >
    >Activer la barre de bascule retirera automatiquement 10 % de votre population. Vous pouvez ajuster ce pourcentage si nécessaire.
 
    <!--
-    [!IMPORTANT]
-    >
-    >DOES THIS APPLY TO PATH EXPERIMENT? When a holdout group is used in an action for path experimentation, the holdout assignment only applies to that specific action. After the action is completed, profiles in the holdout group will continue down the journey path and can receive messages from other actions. Therefore, ensure that any subsequent messages do not rely on the receipt of a message by a profile that might be in a holdout group. If they do, you may need to remove the holdout assignment.-->
+    DOES THIS APPLY TO PATH EXPERIMENT?
+    IMPORTANT: When a holdout group is used in an action for path experimentation, the holdout assignment only applies to that specific action. After the action is completed, profiles in the holdout group will continue down the journey path and can receive messages from other actions. Therefore, ensure that any subsequent messages do not rely on the receipt of a message by a profile that might be in a holdout group. If they do, you may need to remove the holdout assignment.-->
 
 1. Vous pouvez attribuer un pourcentage précis à chaque **[!UICONTROL Traitement]** ou simplement activer la barre de bascule **[!UICONTROL Répartir proportionnellement]**.
 
@@ -122,7 +114,7 @@ Supposons que vous souhaitiez comparer trois chemins :
 
    ![](assets/journey-optimize-experiment-edit-content.png){width=70%}
 
-1. À partir de là, dans le volet de gauche, vous pouvez naviguer entre les différents contenus de chaque action de votre expérience. Concevez tous les contenus selon les besoins.
+1. À partir de là, dans le volet de gauche, vous pouvez naviguer entre les différents contenus de chaque action de votre expérience. Sélectionnez chaque contenu et concevez-le selon vos besoins.
 
    ![](assets/journey-optimize-experiment-content.png){width=100%}
 
@@ -130,7 +122,7 @@ Supposons que vous souhaitiez comparer trois chemins :
 
 Une fois le parcours actif, les utilisateurs sont affectés de manière aléatoire à suivre différents chemins. [!DNL Journey Optimizer] permet de déterminer le chemin le plus performant et fournit des informations exploitables.
 
-Suivez la réussite de votre parcours avec le rapport de parcours Optimiser/Expérimenter [&#128279;](../reports/journey-global-report-cja.md). <!--Need a doc page on reporting specific to path experimentation in journey - [Path experimentation journey report](../xxx) such as what we have for [Experimentation campaign report](../reports/campaign-global-report-cja-experimentation.md)-->
+Suivez la réussite de votre parcours avec le rapport d’expérience de chemin de Parcours.<!--Reporting page on Journey Path Experimentation to be created - such as what we have for [Experimentation campaign report](../reports/campaign-global-report-cja-experimentation.md)-->
 
 ### Cas d’utilisation d’expérience {#uc-experiment}
 
@@ -140,17 +132,17 @@ Les exemples suivants montrent comment utiliser l’activité **[!UICONTROL Opti
 
 Tester si l’envoi du premier message par e-mail ou SMS entraîne des conversions plus élevées.
 
-* Utilisez le taux de conversion comme mesure d’optimisation (par exemple : achats, inscriptions).
+➡️ Utilisez le taux de conversion comme mesure d’optimisation (par exemple : achats, inscriptions).
 
-<!--![](assets/journey-optimize-experiment-uc.png)-->
+![](assets/journey-optimize-experiment-uc.png)
 
 +++
 
 +++Fréquence des messages
 
-Exécutez une expérience pour vérifier si l’envoi d’un e-mail plutôt que de trois e-mails sur une semaine entraîne plus d’achats.
+➡️ Exécutez une expérience pour vérifier si l’envoi d’un e-mail plutôt que de trois e-mails sur une semaine entraîne plus d’achats.
 
-* Utilisez les achats ou le taux de désabonnement comme mesure d’optimisation.
+Utilisez les achats ou le taux de désabonnement comme mesure d’optimisation.
 
 +++
 
@@ -158,13 +150,13 @@ Exécutez une expérience pour vérifier si l’envoi d’un e-mail plutôt que 
 
 Comparez une attente de 24 heures à une attente de 72 heures avant un suivi afin de déterminer quel délai maximise l&#39;engagement.
 
-* Utilisez le taux de clic publicitaire ou le chiffre d’affaires comme mesure d’optimisation.
+➡️ Utilisez le taux de clic publicitaire ou le chiffre d’affaires comme mesure d’optimisation.
 
 +++
 
 ## Exploiter le ciblage {#targeting}
 
-Le ciblage vous permet de déterminer les règles ou qualifications spécifiques qui doivent être remplies pour qu’un client soit éligible pour accéder à l’un des chemins de parcours, en fonction de segments d’audience spécifiques<!-- depending on profile attributes or contextual attributes-->.
+Les règles de ciblage vous permettent de déterminer les règles ou qualifications spécifiques qui doivent être remplies pour qu’un client soit éligible pour accéder à l’un des chemins de parcours, en fonction de segments d’audience spécifiques<!-- depending on profile attributes or contextual attributes-->.
 
 Contrairement à l’expérimentation, qui est une affectation aléatoire d’un chemin donné, le ciblage est déterministe en termes de garantie que l’audience ou le profil approprié accède au chemin spécifié.
 
@@ -184,7 +176,7 @@ Pour configurer le ciblage dans un parcours, procédez comme suit.
 
 1. Sélectionnez **[!UICONTROL Règle de ciblage]** dans la liste déroulante **[!UICONTROL Méthode]**.
 
-   ![](assets/journey-optimize-targeting.png){width=75%}
+   ![](assets/journey-optimize-targeting.png){width=70%}
 
 1. Cliquez sur **[!UICONTROL Créer une règle de ciblage]**.
 
@@ -194,7 +186,7 @@ Pour configurer le ciblage dans un parcours, procédez comme suit.
 
 1. Sélectionnez l’option **[!UICONTROL Activer le contenu de secours]** si nécessaire. Le contenu de secours permet à votre audience de recevoir un contenu par défaut lorsqu’aucune règle de ciblage n’est qualifiée. Si vous ne sélectionnez pas cette option, toute audience qui ne remplit pas les critères d’une règle de ciblage définie ci-dessus n’accédera pas à un chemin de secours.
 
-1. Enregistrez les paramètres de votre règle de ciblage.
+1. Cliquez sur **[!UICONTROL Créer]** pour enregistrer les paramètres de votre règle de ciblage.
 
 1. De retour dans le parcours, déposez des actions spécifiques pour personnaliser chaque chemin. Par exemple, créez un e-mail contenant des offres personnalisées pour les membres du programme de fidélité Gold et un rappel SMS pour tous les autres membres.
 
@@ -202,7 +194,7 @@ Pour configurer le ciblage dans un parcours, procédez comme suit.
 
 1. Vous pouvez éventuellement utiliser l’**[!UICONTROL Ajouter un itinéraire alternatif en cas de temporisation ou d’erreur]** pour définir une action de remplacement. [En savoir plus](using-the-journey-designer.md#paths)
 
-1. Concevez le contenu approprié pour chaque action correspondant à un groupe défini par les paramètres de vos règles de ciblage. Vous pouvez naviguer facilement entre les différents contenus de chaque action.
+1. Concevez le contenu approprié pour chaque action correspondant à chaque groupe défini par les paramètres de vos règles de ciblage. Vous pouvez naviguer facilement entre les différents contenus de chaque action.
 
    ![](assets/journey-targeting-design.png)
 
@@ -212,17 +204,19 @@ Pour configurer le ciblage dans un parcours, procédez comme suit.
 
 Une fois le parcours actif, le chemin d’accès spécifié pour chaque segment est traité afin que les membres Gold rejoignent le chemin d’accès avec les offres par e-mail, tandis que les autres membres rejoignent le chemin d’accès avec le rappel SMS.
 
-### Cas d’utilisation de ciblage {#uc-targeting}
+Suivez la réussite de votre parcours avec le rapport Ciblage des chemins de Parcours <!--Reporting page on Journey Path Targeting to be created - such as what we have for [Experimentation campaign report](../reports/campaign-global-report-cja-experimentation.md)-->.
 
-Les exemples suivants montrent comment utiliser l&#39;activité **[!UICONTROL Optimize]** avec la méthode **[!UICONTROL Targeting]** afin de personnaliser les chemins d&#39;accès pour différentes sous-audiences.
+### Cas d’utilisation des règles de ciblage {#uc-targeting}
+
+Les exemples suivants montrent comment utiliser l&#39;activité **[!UICONTROL Optimize]** avec la méthode **[!UICONTROL Règle de ciblage]** afin de personnaliser les chemins d&#39;accès pour différentes sous-audiences.
 
 +++Canaux spécifiques au segment
 
 Les membres fidèles au statut Gold peuvent recevoir des offres personnalisées par e-mail, tandis que tous les autres membres sont redirigés vers des rappels par SMS.
 
-* Utilisez le chiffre d’affaires par profil ou le taux de conversion comme mesure d’optimisation.
+➡️ Utilisez le chiffre d’affaires par profil ou le taux de conversion comme mesure d’optimisation.
 
-<!--![](assets/journey-optimize-targeting-uc.png)-->
+![](assets/journey-optimize-targeting-uc.png)
 
 +++
 
@@ -230,7 +224,7 @@ Les membres fidèles au statut Gold peuvent recevoir des offres personnalisées 
 
 Les clients qui ont ouvert un e-mail mais n’ont pas cliqué peuvent recevoir une notification push, tandis que ceux qui ne l’ont pas ouvert du tout reçoivent un SMS.
 
-* Utilisez le taux de clic publicitaire ou les conversions en aval comme mesure d’optimisation.
+➡️ Utilisez le taux de clic publicitaire ou les conversions en aval comme mesure d’optimisation.
 
 +++
 
@@ -238,7 +232,7 @@ Les clients qui ont ouvert un e-mail mais n’ont pas cliqué peuvent recevoir u
 
 Les clients qui ont récemment acheté des produits peuvent choisir un chemin court « Merci + vente croisée », tandis que ceux qui n’ont pas d’historique d’achat rejoignent un parcours de maturation plus long.
 
-* Utilisez le taux d’achat de répétition ou le taux d’engagement comme mesure d’optimisation.
+➡️ Utilisez le taux d’achat de répétition ou le taux d’engagement comme mesure d’optimisation.
 
 +++
 
