@@ -11,10 +11,10 @@ level: Intermediate
 keywords: expression, éditeur
 mini-toc-levels: 1
 exl-id: 44a8bc87-5ab0-45cb-baef-e9cd75432bde
-source-git-commit: 42f231a9b0b34a63d1601dcae653462f6321caed
+source-git-commit: ea40a13765be5ff603dd848df4fb02a4dbb9a426
 workflow-type: tm+mt
-source-wordcount: '791'
-ht-degree: 17%
+source-wordcount: '806'
+ht-degree: 16%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 17%
 >[!CONTEXTUALHELP]
 >id="lookup-aep-data"
 >title="Activer pour la recherche"
->abstract="Activer pour la recherche"
+>abstract="Activer un jeu de données pour la recherche permet d’exploiter ses données avec les fonctionnalités de personnalisation et de prise de décision de Journey Optimizer."
 
 >[!AVAILABILITY]
 >
