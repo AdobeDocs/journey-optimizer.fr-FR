@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: dépannage, résolution des problèmes, parcours, vérification, erreurs
 exl-id: 03fbc4f4-b0a8-46d5-91f9-620685b11493
-source-git-commit: 61498b61f7f05e0553fe575c980fd1bee08500a3
+source-git-commit: 27ae100873fee1a790c7e1e757248f9c3af8e24a
 workflow-type: tm+mt
 source-wordcount: '456'
-ht-degree: 100%
+ht-degree: 95%
 
 ---
 
@@ -52,6 +52,6 @@ Les erreurs et les avertissements globaux du parcours apparaissent en tête de l
 
 ## Ajouter un chemin d’accès alternatif {#canvas-add-path}
 
-Vous pouvez définir une action de remplacement en cas d’erreur pour les activités de parcours suivantes : **[!UICONTROL Condition]** et **[!UICONTROL Action]**.
+Vous pouvez définir une action de remplacement en cas d’erreur pour les activités de parcours suivantes : **[!UICONTROL Optimiser]** et **[!UICONTROL Action]**.
 
 Lorsqu’une erreur se produit dans une action ou une condition, le parcours d’une personne s’arrête. La seule façon pour qu’il continue consiste à résoudre le problème. Pour éviter d’interrompre le parcours, vous pouvez également cocher l’option **[!UICONTROL Ajouter un chemin alternatif en cas de dépassement de délai ou d’erreur]** dans les propriétés de l’activité. En savoir plus dans [cette section](../building-journeys/using-the-journey-designer.md#paths).
