@@ -9,7 +9,8 @@ role: User
 level: Intermediate
 keywords: publication, parcours, dynamique, validité, vérifier
 exl-id: e0ca8aef-4f1d-4631-8c34-1692d96e8b51
-source-git-commit: fa46397b87ae3a81cd016d95afd3e09bb002cfaa
+version: Journey Orchestration
+source-git-commit: 62783c5731a8b78a8171fdadb1da8a680d249efd
 workflow-type: tm+mt
 source-wordcount: '600'
 ht-degree: 100%
@@ -87,4 +88,4 @@ Lorsque vous publiez une nouvelle version d&#39;un parcours, la version précéd
 
 Découvrez comment publier un parcours dans cette vidéo :
 
->[!VIDEO](https://video.tv.adobe.com/v/3427934?quality=12&captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/3424998?quality=12)

@@ -9,7 +9,8 @@ role: User
 level: Intermediate
 keywords: publication, parcours, dynamique, validité, vérifier
 exl-id: 186b061d-0941-48be-8917-bbdfff6dae90
-source-git-commit: 62525caa9b065538c090b98d38c15dbd960dafe7
+version: Journey Orchestration
+source-git-commit: 62783c5731a8b78a8171fdadb1da8a680d249efd
 workflow-type: tm+mt
 source-wordcount: '402'
 ht-degree: 100%

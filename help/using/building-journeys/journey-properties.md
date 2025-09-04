@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 keywords: parcours, configuration, propriétés
-version: Journey Orchestration
 exl-id: 6c21371c-6cbc-4d39-8fe6-39f1b8b13280
-source-git-commit: 3eadf569fd98ac1b51a62e95f399c04f47fc5071
+version: Journey Orchestration
+source-git-commit: 62783c5731a8b78a8171fdadb1da8a680d249efd
 workflow-type: tm+mt
 source-wordcount: '2733'
 ht-degree: 87%
@@ -311,7 +311,7 @@ Reportez-vous à cette section pour savoir comment [utiliser les critères de so
 
 ### Mécanismes de sécurisation et limitations {#exit-criteria-guardrails}
 
-Les mécanismes de sécurisation et limitations suivants s’appliquent à la fonctionnalité Critères de sortie de Parcours [&#128279;](#exit-criteria-desc) :
+Les mécanismes de sécurisation et limitations suivants s’appliquent à la fonctionnalité Critères de sortie de Parcours [](#exit-criteria-desc) :
 
 * Les critères de sortie sont définis en état de brouillon uniquement.
 * Cohérence de l’espace de noms de parcours entre les événements et les critères de sortie basés sur un événement

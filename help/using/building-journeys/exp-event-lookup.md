@@ -4,7 +4,8 @@ product: journey optimizer
 title: Recherche d’événements d’expérience dans les parcours
 description: Découvrez comment utiliser la recherche d’événements d’expérience dans les parcours.
 exl-id: 35e2e347-0669-44a3-92ba-aee52e54c219
-source-git-commit: a587b8754e94781b7735f3d7d5abb9b9767a74a5
+version: Journey Orchestration
+source-git-commit: 62783c5731a8b78a8171fdadb1da8a680d249efd
 workflow-type: tm+mt
 source-wordcount: '929'
 ht-degree: 97%

@@ -7,7 +7,8 @@ role: Data Engineer, Architect
 level: Experienced
 keywords: equalIgnoreCase, fonction, expression, parcours
 exl-id: b74ef5c9-0202-4a69-8870-77004a4397e0
-source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
+version: Journey Orchestration
+source-git-commit: 62783c5731a8b78a8171fdadb1da8a680d249efd
 workflow-type: tm+mt
 source-wordcount: '40'
 ht-degree: 90%

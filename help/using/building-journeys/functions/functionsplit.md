@@ -7,7 +7,8 @@ role: Data Engineer, Architect
 level: Experienced
 keywords: split, fonction, expression, parcours
 exl-id: 37bcdf98-203c-4f82-8d8a-be2b2c45c4e7
-source-git-commit: cb1fed2460ddbf3b226fe191b9695008970937c1
+version: Journey Orchestration
+source-git-commit: 62783c5731a8b78a8171fdadb1da8a680d249efd
 workflow-type: tm+mt
 source-wordcount: '69'
 ht-degree: 100%

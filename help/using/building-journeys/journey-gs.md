@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 keywords: parcours, premier, commencer, démarrage rapide, audience, événement, action
-version: Journey Orchestration
 exl-id: d940191e-8f37-4956-8482-d2df0c4274aa
-source-git-commit: 3eadf569fd98ac1b51a62e95f399c04f47fc5071
+version: Journey Orchestration
+source-git-commit: 62783c5731a8b78a8171fdadb1da8a680d249efd
 workflow-type: tm+mt
 source-wordcount: '768'
 ht-degree: 100%

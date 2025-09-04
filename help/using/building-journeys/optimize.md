@@ -12,7 +12,8 @@ badge: label="Disponibilité limitée" type="Informative"
 hidefromtoc: true
 hide: true
 exl-id: f6618de4-7861-488e-90c0-f299ef5897ca
-source-git-commit: 27ae100873fee1a790c7e1e757248f9c3af8e24a
+version: Journey Orchestration
+source-git-commit: 62783c5731a8b78a8171fdadb1da8a680d249efd
 workflow-type: tm+mt
 source-wordcount: '1197'
 ht-degree: 8%
@@ -32,7 +33,7 @@ ht-degree: 8%
 
 L’activité **Optimiser** vous permet de définir la progression des individus dans votre parcours en créant plusieurs **chemins d’accès** en fonction de critères spécifiques, notamment l’expérimentation, le ciblage et des conditions spécifiques, afin d’assurer un engagement et une réussite optimaux pour la création de parcours hautement personnalisés et efficaces.
 
-Un chemin de parcours **&#x200B;**&#x200B;peut être constitué de l’un des éléments suivants :
+Un chemin de parcours **** peut être constitué de l’un des éléments suivants :
 
 * le séquencement des communications ;
 * temps intermédiaire ;
@@ -129,7 +130,7 @@ Supposons que vous souhaitiez comparer trois chemins :
 
 Une fois le parcours actif, les utilisateurs sont affectés de manière aléatoire à suivre différents chemins. [!DNL Journey Optimizer] permet de déterminer le chemin le plus performant et fournit des informations exploitables.
 
-Suivez la réussite de votre parcours avec le rapport de parcours Optimiser/Expérimenter [&#128279;](../reports/journey-global-report-cja.md). <!--Need a doc page on reporting specific to path experimentation in journey - [Path experimentation journey report](../xxx) such as what we have for [Experimentation campaign report](../reports/campaign-global-report-cja-experimentation.md)-->
+Suivez la réussite de votre parcours avec le rapport de parcours Optimiser/Expérimenter [](../reports/journey-global-report-cja.md). <!--Need a doc page on reporting specific to path experimentation in journey - [Path experimentation journey report](../xxx) such as what we have for [Experimentation campaign report](../reports/campaign-global-report-cja-experimentation.md)-->
 
 ### Cas d’utilisation d’expérience {#uc-experiment}
 

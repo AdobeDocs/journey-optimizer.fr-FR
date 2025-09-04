@@ -8,7 +8,8 @@ role: User
 level: Intermediate
 keywords: publication, parcours, actif, validité, vérification
 exl-id: a2892f0a-5407-497c-97af-927de81055ac
-source-git-commit: 10a228a500ac1c89f9fc400d6e7606f4b1717052
+version: Journey Orchestration
+source-git-commit: 62783c5731a8b78a8171fdadb1da8a680d249efd
 workflow-type: tm+mt
 source-wordcount: '2225'
 ht-degree: 89%
