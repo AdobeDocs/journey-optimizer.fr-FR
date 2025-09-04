@@ -13,9 +13,9 @@ hidefromtoc: true
 hide: true
 exl-id: f6618de4-7861-488e-90c0-f299ef5897ca
 version: Journey Orchestration
-source-git-commit: 3cda7aad46e6961c7d19706bad060565b92d7b19
+source-git-commit: cc657dced3e7069cb3700d75f67b3cfb4f6da1e0
 workflow-type: tm+mt
-source-wordcount: '1202'
+source-wordcount: '1219'
 ht-degree: 7%
 
 ---
@@ -50,6 +50,11 @@ Grâce à l’activité **Optimiser**, vous pouvez effectuer les actions suivant
 Une fois le parcours actif, les profils sont évalués en fonction des critères définis. Ensuite, en fonction des critères correspondants, ils sont envoyés vers le chemin approprié à partir du parcours.
 
 ## Utiliser l’expérimentation {#experimentation}
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaigns_path_experiment_success_metric"
+>title="Mesure de succès"
+>abstract="La mesure de succès est utilisée pour suivre et évaluer le traitement le plus performant dans une expérience."
 
 L’expérimentation vous permet de tester différents chemins en fonction d’une répartition aléatoire afin de déterminer celui qui fonctionne le mieux en fonction de mesures de succès prédéfinies.
 
