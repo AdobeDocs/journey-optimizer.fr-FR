@@ -4,7 +4,8 @@ product: journey optimizer
 title: Étapes de configuration
 description: Découvrez comment insérer des données dans Adobe Experience Platform à partir de sources prises en charge telles que SFTP, l’espace de stockage dans le cloud ou des bases de données.
 exl-id: 7f1e7985-b68e-43d6-9c8f-fea2469f8af9
-source-git-commit: c1201025af216f8f3019e7696b6eb906962b681b
+version: Campaign Orchestration
+source-git-commit: 07ec28f7d64296bdc2020a77f50c49fa92074a83
 workflow-type: tm+mt
 source-wordcount: '699'
 ht-degree: 93%
@@ -44,7 +45,7 @@ Les sources suivantes sont prises en charge pour une utilisation dans des campag
       <td><a href="https://experienceleague.adobe.com/fr/docs/experience-platform/sources/ui-tutorials/create/cloud-storage/google-cloud-storage">Google Cloud Storage</a></td>
     </tr>
     <tr>
-      <td><a href="https://experienceleague.adobe.com/fr/docs/experience-platform/sources/ui-tutorials/create/cloud-storage/sftp">SFTP</a></td>
+      <td><a href="https://experienceleague.adobe.com/en/docs/experience-platform/sources/ui-tutorials/create/cloud-storage/sftp">SFTP</a></td>
     </tr>
       <td rowspan="4">Entrepôts de données cloud</td>
       <td><a href="https://experienceleague.adobe.com/fr/docs/experience-platform/sources/ui-tutorials/create/databases/snowflake">Snowflake</a></td>

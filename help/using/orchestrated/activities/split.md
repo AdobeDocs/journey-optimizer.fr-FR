@@ -4,8 +4,9 @@ product: journey optimizer
 title: Utiliser l’activité Partage
 description: Découvrez comment utiliser l’activité Partage dans une campagne orchestrée.
 exl-id: 986bc566-123a-451d-a4a6-bbf5a2798849
-source-git-commit: 3a44111345c1627610a6b026d7b19b281c4538d3
-workflow-type: ht
+version: Campaign Orchestration
+source-git-commit: 07ec28f7d64296bdc2020a77f50c49fa92074a83
+workflow-type: tm+mt
 source-wordcount: '801'
 ht-degree: 100%
 

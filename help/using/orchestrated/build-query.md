@@ -4,8 +4,9 @@ product: journey optimizer
 title: Créer votre première règle
 description: Découvrez comment créer des règles pour vos campagnes orchestrées
 exl-id: 5e956a6a-0b89-4d78-8f16-fe9fceb25674
-source-git-commit: 3a44111345c1627610a6b026d7b19b281c4538d3
-workflow-type: ht
+version: Campaign Orchestration
+source-git-commit: 07ec28f7d64296bdc2020a77f50c49fa92074a83
+workflow-type: tm+mt
 source-wordcount: '1717'
 ht-degree: 100%
 
@@ -133,7 +134,7 @@ Pour un **lien 1-N**, vous pouvez définir des sous-conditions afin d’affiner 
 
 +++Exemple de requête
 
-Ici, la requête cible les personnes destinataires ayant effectué des achats liés au produit BrewMaster, pour un montant d’au moins 100 $.
+Ici, la requête cible les destinataires ayant effectué des achats liés au produit BrewMaster, pour un montant d’au moins 100 $.
 
 1. Sélectionnez la table **Achats** et confirmez.
 

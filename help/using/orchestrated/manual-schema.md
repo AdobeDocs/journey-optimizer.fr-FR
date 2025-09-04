@@ -4,7 +4,8 @@ product: journey optimizer
 title: Étapes de configuration
 description: Découvrez comment créer des schémas relationnels directement via l’interface utilisateur.
 exl-id: 8c785431-9a00-46b8-ba54-54a10e288141
-source-git-commit: 9984863e2c3f7fb8f74cefacfc026b70d27bddd7
+version: Campaign Orchestration
+source-git-commit: 07ec28f7d64296bdc2020a77f50c49fa92074a83
 workflow-type: tm+mt
 source-wordcount: '868'
 ht-degree: 92%

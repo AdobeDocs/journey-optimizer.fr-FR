@@ -4,8 +4,9 @@ product: journey optimizer
 title: Étapes de configuration
 description: Découvrez comment créer un schéma relationnel dans Adobe Experience Platform en chargeant un fichier DDL.
 exl-id: 88eb1438-0fe5-4a19-bfb6-2968a427e9e8
-source-git-commit: 3a44111345c1627610a6b026d7b19b281c4538d3
-workflow-type: ht
+version: Campaign Orchestration
+source-git-commit: 07ec28f7d64296bdc2020a77f50c49fa92074a83
+workflow-type: tm+mt
 source-wordcount: '985'
 ht-degree: 100%
 
@@ -39,7 +40,7 @@ Les chargements de fichiers de schéma basés sur le format Excel sont pris en c
 * **ENUM**\
   Les champs ENUM sont pris en charge pour la création de schémas manuelle ou basée sur un fichier DDL, ce qui vous permet de définir des attributs avec un ensemble fixe de valeurs autorisées.
 
-* **Étiquette de schéma pour la gouvernance des données**\
+* **Libellé de schéma pour la gouvernance des données**\
   La création d’étiquettes est prise en charge au niveau du champ de schéma pour appliquer les politiques de gouvernance des données, telles que le contrôle d’accès et les restrictions d’utilisation. Pour plus d’informations, consultez la [documentation Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=fr-FR).
 
 * **Clé composite**\
@@ -49,7 +50,7 @@ Les chargements de fichiers de schéma basés sur le format Excel sont pris en c
 
 1. Connectez-vous à Adobe Experience Platform.
 
-1. Accédez au menu **Gestion des données** > **Schéma**.
+1. Accédez au menu **Gestion des données** > **Schéma**.
 
 1. Cliquez sur **Créer un schéma**.
 

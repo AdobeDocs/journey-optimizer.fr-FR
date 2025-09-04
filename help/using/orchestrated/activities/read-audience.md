@@ -4,7 +4,8 @@ product: journey optimizer
 title: À propos de l’activité Lecture d’audience
 description: Découvrez comment utiliser l’activité Lecture d’audience dans une campagne orchestrée.
 exl-id: ef8eba57-cd33-4746-8eb4-5214ef9cbe2f
-source-git-commit: 63ca1aab5190c58031dbab13651639bba4363964
+version: Campaign Orchestration
+source-git-commit: 07ec28f7d64296bdc2020a77f50c49fa92074a83
 workflow-type: tm+mt
 source-wordcount: '650'
 ht-degree: 71%

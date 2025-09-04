@@ -4,8 +4,9 @@ product: journey optimizer
 title: Ajouter une activité de canal dans une campagne à plusieurs étapes
 description: Découvrir comment ajouter une activité de canal dans une campagne à plusieurs étapes
 exl-id: ffe1e77c-6c4f-4f23-9183-d715a4c7c402
-source-git-commit: a4f3dce91af978bdff2de5beb8b1472f7704bdf2
-workflow-type: ht
+version: Campaign Orchestration
+source-git-commit: 07ec28f7d64296bdc2020a77f50c49fa92074a83
+workflow-type: tm+mt
 source-wordcount: '1108'
 ht-degree: 100%
 

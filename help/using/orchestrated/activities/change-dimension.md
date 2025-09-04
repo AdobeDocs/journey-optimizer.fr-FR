@@ -4,8 +4,9 @@ product: journey optimizer
 title: Utiliser l’activité Changement de dimension
 description: Découvrir comment utiliser l’activité « Changement de dimension »
 exl-id: 83e66f10-93dd-4759-840c-2c83abc42a28
-source-git-commit: 3a44111345c1627610a6b026d7b19b281c4538d3
-workflow-type: ht
+version: Campaign Orchestration
+source-git-commit: 07ec28f7d64296bdc2020a77f50c49fa92074a83
+workflow-type: tm+mt
 source-wordcount: '260'
 ht-degree: 100%
 

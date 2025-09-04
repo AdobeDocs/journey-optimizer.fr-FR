@@ -4,7 +4,8 @@ product: journey optimizer
 title: Mécanismes de sécurisation et limitations des campagnes orchestrées
 description: En savoir plus sur les mécanismes de sécurisation et les limitations des campagnes orchestrées
 exl-id: 82744db7-7358-4cc6-a9dd-03001759fef7
-source-git-commit: 4f262d4cbbe2241ec8356333d9a3191081f58a6a
+version: Campaign Orchestration
+source-git-commit: 07ec28f7d64296bdc2020a77f50c49fa92074a83
 workflow-type: tm+mt
 source-wordcount: '445'
 ht-degree: 100%
