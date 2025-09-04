@@ -21,7 +21,7 @@ La création d’un parcours dans Adobe Journey Optimizer vous permet de concevo
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=fr)
 
 Création de votre premier Parcours client
 
@@ -31,7 +31,7 @@ Découvrez comment créer, concevoir, tester et publier votre premier parcours c
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=fr)
 
 Définition et gestion des propriétés de Parcours
 
@@ -41,7 +41,7 @@ Configurez les règles d’entrée, les paramètres temporels, la gestion des ac
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=fr)
 
 Conception de votre Parcours
 
@@ -51,7 +51,7 @@ Utilisez l’interface glisser-déposer pour concevoir des parcours marketing pe
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=fr)
 
 Comment tester votre Parcours
 
@@ -61,7 +61,7 @@ Testez vos parcours avec des profils simulés et détectez les erreurs avant la 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/screwdriver-wrench.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/screwdriver-wrench.svg?lang=fr)
 
 Test des Parcours en mode Exécution d’essai
 
@@ -71,7 +71,7 @@ Validez vos parcours avec des données de production réelles sans contacter les
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=fr)
 
 Publication d’un Parcours
 

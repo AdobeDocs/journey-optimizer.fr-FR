@@ -81,7 +81,7 @@ Les fonctionnalités et services principaux de Journey Optimizer fonctionnent �
 
 Les plans directeurs d’expérience digitale fournissent des diagrammes d’architecture du système et des flux de données pour aider à mieux comprendre comment Adobe Experience Platform et les applications sont intégrées et mises en œuvre. Les plans directeurs fournissent une représentation visuelle des données et des flux de contenu entre les systèmes et les composants, de la séquence des opérations et des dépendances afin de contribuer à la conception des cas d’utilisation et à l’architecture de Adobe Experience Platform et des applications.
 
-Voir [Plans directeurs Adobe Journey Optimizer](https://experienceleague.adobe.com/en/docs/blueprints-learn/architecture/customer-journeys/journey-optimizer/journey-optimizer-overview){target="_blank"}.
+Voir [Plans directeurs Adobe Journey Optimizer](https://experienceleague.adobe.com/fr/docs/blueprints-learn/architecture/customer-journeys/journey-optimizer/journey-optimizer-overview){target="_blank"}.
 
 
 >[!MORELIKETHIS]
