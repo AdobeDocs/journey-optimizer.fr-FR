@@ -10,10 +10,10 @@ level: Intermediate
 keywords: activité, parcours, lecture, audience, platform
 exl-id: 7b27d42e-3bfe-45ab-8a37-c55b231052ee
 version: Journey Orchestration
-source-git-commit: 62783c5731a8b78a8171fdadb1da8a680d249efd
+source-git-commit: de338bcbd73b94ac004ee39106e50fe707afb19a
 workflow-type: tm+mt
-source-wordcount: '2333'
-ht-degree: 100%
+source-wordcount: '2400'
+ht-degree: 97%
 
 ---
 
@@ -93,6 +93,10 @@ Les étapes de configuration de l’activité Lecture d’audience sont les suiv
 * Gestion du débit des sandbox : le système gère dynamiquement le débit de traitement par sandbox avec une limite maximale de 20 000 profils par seconde partagés sur toutes les activités Lecture d’audience. Les activités individuelles Lecture d’audience peuvent être configurées avec un taux minimal de 500 profils par seconde. Les tâches peuvent être mises en file d’attente si les limites de débit au niveau du sandbox sont atteintes afin d’assurer une attribution équitable des ressources.
 
 * Délai de traitement des tâches : les tâches de lecture d’audience qui ne peuvent pas être traitées dans les 12 heures en raison des limites du mécanisme de sécurisation seront automatiquement nettoyées et ne s’exécuteront jamais. Cela empêche l’accumulation des tâches et assure la stabilité du système.
+
+* Lors de l’utilisation de segments par lot, assurez-vous que l’ingestion et les mises à jour quotidiennes des instantanés se terminent bien avant le début du parcours. Envisagez une période d’attente supplémentaire si les segments doivent refléter les données ingérées le même jour. Si l’actualisation immédiate du profil est essentielle, envisagez d’utiliser un cas d’utilisation basé sur un événement ou sur la diffusion en continu au lieu d’une approche par lots quotidienne, ou insérez un mécanisme d’attente supplémentaire pour permettre aux données mises à jour de se propager avant l’évaluation du parcours.
+
+
 
 Les mécanismes de sécurisation liés à l’activité **Lecture d’audience** sont répertoriées dans [cette page](../start/guardrails.md#read-segment-g).
 
