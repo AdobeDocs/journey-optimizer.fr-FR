@@ -7,10 +7,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 7234a8e8-4ab0-4f17-a833-5e452fadac35
-source-git-commit: 923d9dfc4e281ea06ac1f5cd9c08d99a80617301
+source-git-commit: ef042e3a93dccc29d66eb9ab7d837f7914a8959d
 workflow-type: tm+mt
-source-wordcount: '2752'
-ht-degree: 100%
+source-wordcount: '2753'
+ht-degree: 99%
 
 ---
 
@@ -76,7 +76,7 @@ Par exemple, si vous définissez les contraintes suivantes :
 >title="À propos de l&#39;éligibilité de l&#39;offre"
 >abstract="Dans cette section, vous pouvez utiliser des règles de décision pour déterminer quels utilisateurs sont éligibles à l&#39;offre."
 
-<!--additional-url="https://video.tv.adobe.com/v/341367?captions=fre_fr" text="Watch demo video"-->
+<!--additional-url="https://video.tv.adobe.com/v/329373" text="Watch demo video"-->
 
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_total_profile_estimate"
@@ -273,7 +273,7 @@ Par exemple, la région de hub de votre organisation est *NLD2* et vous envoyez 
 
 >[!NOTE]
 >
->Lorsque les compteurs sont propagés de régions edge vers hub ou hub vers edge, un délai de quelques minutes peut s’appliquer.
+>Lorsque les compteurs se propagent d’un bord à l’autre ou d’un moyeu à l’autre, un délai de 30 minutes peut s’appliquer.
 
 Pour plus d’informations sur les régions hub et edge associées à votre organisation, contactez votre représentant ou représentante Adobe.
 
