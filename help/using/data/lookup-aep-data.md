@@ -11,9 +11,9 @@ level: Intermediate
 keywords: expression, éditeur
 mini-toc-levels: 1
 exl-id: 44a8bc87-5ab0-45cb-baef-e9cd75432bde
-source-git-commit: ea40a13765be5ff603dd848df4fb02a4dbb9a426
+source-git-commit: 248aae7b2841086ef5a0ea73936c245963e8eae2
 workflow-type: tm+mt
-source-wordcount: '806'
+source-wordcount: '804'
 ht-degree: 16%
 
 ---
@@ -44,7 +44,7 @@ Avant de commencer, consultez les restrictions et les directives suivantes :
 
 ### Droit pour le service de recherche
 
-| Composant de fonction | Limite du sandbox de production | Notes |
+| Composant de fonction | Limites | Notes |
 | ------- | ------- | ------- |
 | Jeux de données de recherche activés | 10 max. par organisation | Nombre maximal de jeux de données pouvant être configurés pour la recherche à un moment donné. Cette limite s’applique au nombre total combiné de jeux de données de recherche dans les sandbox de production et de développement au sein de l’instance client. |
 | Nombre d’enregistrements du jeu de données | Jusqu’à 2 millions d’enregistrements par jeu de données | Nombre maximal d’enregistrements autorisés dans un seul jeu de données, calculé comme le nombre total sur tous les lots de ce jeu de données. |
