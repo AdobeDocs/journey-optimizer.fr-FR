@@ -8,10 +8,10 @@ topic: Administration
 role: User
 level: Intermediate
 exl-id: 0855ca5b-c7af-41c4-ad51-bed820ae5ecf
-source-git-commit: 3aa3203ae7763d81288cb70a2984d017b0006bb3
+source-git-commit: 13623d28ba7b852f7267b5f800f2c9a3afda4a62
 workflow-type: tm+mt
-source-wordcount: '977'
-ht-degree: 43%
+source-wordcount: '1216'
+ht-degree: 34%
 
 ---
 
@@ -45,7 +45,7 @@ Elles sont répertoriées comme suit et chaque alerte est détaillée ci-dessous
 
 * Alertes spécifiques à la configuration des canaux :
 
-   * l’enregistrement DNS du domaine AJO [&#128279;](#alert-dns-record-missing) est manquant
+   * l’enregistrement DNS du domaine AJO [](#alert-dns-record-missing) est manquant
   <!--* the [AJO channel configuration failure](#alert-channel-config-failure) alert
    * the [AJO domain certificates renewal unsuccessful](#alert-certificates-renewal) alert-->
 
@@ -71,7 +71,7 @@ En fonction des préférences de l’abonné ou de l’abonnée, les alertes son
 >
 >Par défaut, seules les alertes in-app sont activées.
 
-<!--To enable email alerting, refer to [Adobe Experience Platform documentation](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/ui.html?lang=fr#enable-email-alerts){target="_blank"}.-->
+<!--To enable email alerting, refer to [Adobe Experience Platform documentation](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/ui.html#enable-email-alerts){target="_blank"}.-->
 
 Lorsqu’une alerte est résolue, les personnes abonnées reçoivent une notification « Résolue ».
 
@@ -173,50 +173,50 @@ L’alerte « **Enregistrement DNS du domaine AJO manquant** est déclenchée lo
 
 Si les modifications ne permettent pas de résoudre le problème, la même alerte sera déclenchée à nouveau le lendemain.
 
-<!--The I/O event subscription name corresponding to this alert is xx. > Do we need to mention this?
+<!--The I/O event subscription name corresponding to this alert is xx. > Do we need to mention this?-->
 
-### AJO channel configuration failure {#alert-channel-config-failure}
+### Échec de configuration du canal AJO {#alert-channel-config-failure}
 
 >[!IMPORTANT]
 >
->This alert applies only to **email** channel configurations using the [custom subdomain](../configuration/delegate-custom-subdomain.md) delegation type. ///Other channel types (such as SMS, push, or in-app) are not covered by this alert.///
+>Cette alerte s’applique uniquement aux configurations de canal **e-mail** utilisant le type de délégation [sous-domaine personnalisé](../configuration/delegate-custom-subdomain.md). <!--Other channel types (such as SMS, push, or in-app) are not covered by this alert.-->
 
-This alert is triggered in case the system audit detects email channel configuration issues. These issues may include misconfigured channel settings, invalid DNS configuration, suppression list issue, IP inconsistency, or any other errors that can impact email delivery.
+Cette alerte est déclenchée au cas où l’audit du système détecterait des problèmes de configuration du canal e-mail. Ces problèmes peuvent inclure des paramètres de canal mal configurés, une configuration DNS non valide, un problème de liste de suppression, une incohérence d’adresse IP ou toute autre erreur pouvant avoir un impact sur la diffusion des e-mails.
 
-If you receive such an alert, the resolution steps are listed below:
+Si vous recevez une telle alerte, les étapes de résolution sont répertoriées ci-dessous :
 
-1. Click the alert to be directed to the impacted [email channel configuration](../email/get-started-email-config.md) in the [!DNL Journey Optimizer] interface.
+1. Cliquez sur l’alerte pour être redirigé vers la [configuration du canal e-mail](../email/get-started-email-config.md) affectée dans l’interface [!DNL Journey Optimizer].
 
-   For guidance on editing channel configurations, see [this section](../configuration/channel-surfaces.md#edit-channel-surface).
+   Pour obtenir des conseils sur la modification des configurations de canal, voir [cette section](../configuration/channel-surfaces.md#edit-channel-surface).
 
-1. Review the configuration details and error messages provided. Common failure reasons include:
+1. Vérifiez les détails de configuration et les messages d’erreur fournis. Les raisons courantes d’échec sont les suivantes :
 
-   * SPF validation failed
-   * DKIM validation failed
-   * MX record validation failed
-   * Invalid DNS records
-
-   >[!NOTE]
-   >
-   >The possible configuration failure reasons are listed in [this section](../configuration/channel-surfaces.md).
-
-1. Resolve the issue:
-
-   * Update the channel configuration as needed.
-   * You may need to fix specific DNS issues mentioned in the alert.
+   * Échec de la validation SPF
+   * Échec de la validation de DKIM
+   * Échec de la validation de l’enregistrement MX
+   * Enregistrements DNS non valides
 
    >[!NOTE]
    >
-   >As a single domain can be associated with multiple channel configurations, resolving DNS issues for one channel configuration may automatically fix related issues across several configurations.
+   >Les raisons possibles d’échec de la configuration sont répertoriées dans [cette section](../configuration/channel-surfaces.md).
 
-If the change does not resolve the issue, the same alert will be triggered again the next day.
+1. Résolvez le problème :
 
-When resolving email configuration issues, keep in mind the best practices listed below:
+   * Mettez à jour la configuration du canal si nécessaire.
+   * Vous devrez peut-être résoudre des problèmes DNS spécifiques mentionnés dans l’alerte.
 
-* Act promptly - Address configuration failures as soon as they are detected to avoid disruptions in email delivery.
-* Check all configurations - If the alert indicates multiple impacted email configurations, review and fix each of them.
+   >[!NOTE]
+   >
+   >Comme un seul domaine peut être associé à plusieurs configurations de canal, la résolution de problèmes DNS pour une configuration de canal peut résoudre automatiquement les problèmes liés à plusieurs configurations.
 
-### AJO domain certificates renewal unsuccessful {#alert-certificates-renewal}
+Si la modification ne résout pas le problème, la même alerte sera déclenchée à nouveau le lendemain.
+
+Lors de la résolution des problèmes de configuration du canal e-mail, gardez à l&#39;esprit les bonnes pratiques répertoriées ci-dessous :
+
+* Agissez rapidement - Corrigez les échecs de configuration dès qu’ils sont détectés afin d’éviter toute interruption de la diffusion des e-mails.
+* Vérifier toutes les configurations - Si l’alerte indique plusieurs configurations d’e-mail affectées, examinez et corrigez chacune d’elles.
+
+<!--### AJO domain certificates renewal unsuccessful {#alert-certificates-renewal}
 
 This alert warns you if a domain certificate (CDN, tracking URL) renewal failed for a specific Journey Optimizer subdomain.-->
 
