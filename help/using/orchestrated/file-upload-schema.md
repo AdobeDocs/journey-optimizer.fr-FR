@@ -5,10 +5,10 @@ title: Étapes de configuration
 description: Découvrez comment créer un schéma relationnel dans Adobe Experience Platform en chargeant un fichier DDL.
 exl-id: 88eb1438-0fe5-4a19-bfb6-2968a427e9e8
 version: Campaign Orchestration
-source-git-commit: 07ec28f7d64296bdc2020a77f50c49fa92074a83
+source-git-commit: 35cd3aac01467b42d0cba22de507f11546f4feb9
 workflow-type: tm+mt
-source-wordcount: '985'
-ht-degree: 100%
+source-wordcount: '1041'
+ht-degree: 89%
 
 ---
 
@@ -38,7 +38,20 @@ Les chargements de fichiers de schéma basés sur le format Excel sont pris en c
 +++Les fonctions suivantes sont prises en charge lors de la création de schémas relationnels dans Adobe Experience Platform.
 
 * **ENUM**\
-  Les champs ENUM sont pris en charge pour la création de schémas manuelle ou basée sur un fichier DDL, ce qui vous permet de définir des attributs avec un ensemble fixe de valeurs autorisées.
+  Les champs ENUM sont pris en charge lors de la création de schémas manuelle et basée sur DDL, ce qui vous permet de définir des attributs avec un ensemble fixe de valeurs autorisées.
+Voici un exemple :
+
+  ```
+  CREATE TABLE orders (
+  order_id     INT NOT NULL,
+  product_id   INT NOT NULL,
+  order_date   DATE NOT NULL,
+  customer_id  INT NOT NULL,
+  quantity     INT NOT NULL,
+  order_status enum ('PENDING', 'SHIPPED', 'DELIVERED', 'CANCELLED'),
+  PRIMARY KEY (order_id, product_id)
+  );
+  ```
 
 * **Libellé de schéma pour la gouvernance des données**\
   La création d’étiquettes est prise en charge au niveau du champ de schéma pour appliquer les politiques de gouvernance des données, telles que le contrôle d’accès et les restrictions d’utilisation. Pour plus d’informations, consultez la [documentation Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=fr-FR).
@@ -61,9 +74,10 @@ Les chargements de fichiers de schéma basés sur le format Excel sont pris en c
 1. Sélectionnez **[!UICONTROL Charger un fichier DDL]** pour définir un diagramme de relations d’entités et créer des schémas.
 
    La structure de la table doit contenir :
-   * Au moins une clé primaire
+   * Au moins une clé primaire.
    * Un identifiant de version, tel qu’un champ `lastmodified` de type `datetime` ou `number`.
-   * Pour l’ingestion Change Data Capture (CDC), une colonne spéciale nommée `_change_request_type` de type `String`, qui indique le type de modification des données (par exemple, insertion, mise à jour, suppression) et permet un traitement incrémentiel.
+   * Pour l’ingestion Capture des données modifiées (CDC), une colonne spéciale nommée `_change_request_type` de type `String`, qui indique le type de modification des données (par exemple, insertion, mise à jour, suppression) et permet un traitement incrémentiel.
+   * Le fichier DDL ne doit pas définir plus de 200 tables.
 
 
    >[!IMPORTANT]
@@ -79,9 +93,13 @@ Les chargements de fichiers de schéma basés sur le format Excel sont pris en c
 
 1. Configurez chaque schéma et ses colonnes en veillant à spécifier une clé primaire.
 
-   Un attribut, tel que `lastmodified`, doit être désigné comme descripteur de version. Cet attribut, généralement de type `datetime`, `long` ou `int`, est essentiel pour que les processus d’ingestion s’assurent que le jeu de données est mis à jour avec la dernière version des données.
+   Un attribut, tel que `lastmodified`, doit être désigné comme descripteur de version (type `datetime`, `long` ou `int`) pour s’assurer que les jeux de données sont mis à jour avec les données les plus récentes. Les utilisateurs et utilisatrices peuvent modifier le descripteur de version, qui devient obligatoire une fois défini. Un attribut ne peut pas être à la fois une clé primaire (PK) et un descripteur de version.
 
    ![](assets/admin_schema_2.png)
+
+1. Marquez un attribut comme `identity` et mappez-le à un espace de noms d’identité défini.
+
+1. Renommez, supprimez ou ajoutez une description à chaque table.
 
 1. Cliquez sur **[!UICONTROL Terminé]** une fois l’opération terminée.
 
@@ -94,6 +112,10 @@ Pour définir des connexions logiques entre les tables de votre schéma, procéd
 1. Accédez à la vue Zone de travail de votre modèle de données et sélectionnez les deux tables à lier.
 
 1. Cliquez sur le bouton ![](assets/do-not-localize/Smock_AddCircle_18_N.svg) en regard de la jointure Source, puis faites glisser la flèche vers la jointure cible pour établir la connexion.
+
+   >[!NOTE]
+   >
+   >Les clés composites sont prises en charge si elles sont définies dans le fichier DDL.
 
    ![](assets/admin_schema_5.png)
 

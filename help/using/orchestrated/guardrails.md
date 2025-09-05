@@ -5,10 +5,10 @@ title: Mécanismes de sécurisation et limitations des campagnes orchestrées
 description: En savoir plus sur les mécanismes de sécurisation et les limitations des campagnes orchestrées
 exl-id: 82744db7-7358-4cc6-a9dd-03001759fef7
 version: Campaign Orchestration
-source-git-commit: 07ec28f7d64296bdc2020a77f50c49fa92074a83
+source-git-commit: 35cd3aac01467b42d0cba22de507f11546f4feb9
 workflow-type: tm+mt
-source-wordcount: '445'
-ht-degree: 100%
+source-wordcount: '460'
+ht-degree: 78%
 
 ---
 
@@ -31,31 +31,31 @@ Vous trouverez ci-dessous des mécanismes de sécurisation et des limitations su
 
 * Les schémas utilisés pour le ciblage doivent contenir au moins **un champ d’identité de type`String`**, mappé à un espace de noms d’identité défini.
 
+* Le nombre moyen d’attributs par schéma **ne doit pas dépasser 50 colonnes** afin de maintenir la facilité de gestion et les performances.
+
 ### Ingestion de données
 
 * L’ingestion de données de profil et relationnelles est requise.
 
 * Toute ingestion doit se faire via des sources **Capture des données modifiées** :
 
-   * Pour **basé sur des fichiers**, le champ `_change_request_type` est requis.
+   * Pour **Basé sur des fichiers** : `_change_request_type` champ est obligatoire. Les valeurs prises en charge sont `U` (upsert) ou `D` (delete).
 
    * Pour **basé sur le cloud**, la journalisation des tables doit être activée.
 
-* **Les mises à jour directes vers Snowflake ou les jeux de données ne sont pas prises en charge**. Le système est en lecture seule, toutes les modifications doivent être appliquées via la capture des données modifiées.
-
-* **Les processus ETL ne sont pas pris en charge**. Les données doivent être entièrement transformées au format requis avant l’ingestion.
-
-* **Les mises à jour partielles ne sont pas autorisées**, chaque ligne doit être fournie en tant qu’enregistrement complet.
+* **Les mises à jour d’enregistrement partielles ne sont pas autorisées**, chaque ligne doit être fournie en tant qu’enregistrement complet.
 
 * L’ingestion par lots pour l’orchestration de campagne est limitée à **une fois toutes les 15 minutes**.
 
-* La latence d’ingestion, c’est-à-dire le délai entre l’ingestion et la disponibilité dans Snowflake, varie généralement **de 15 minutes à 2 heures**, selon :
+* La latence d’ingestion, en magasin relationnel, varie généralement **de 15 minutes à 2 heures**, selon :
 
    * Le volume des données
 
    * La concurrence du système
 
    * Le type d’opération, par ex. les insertions sont plus rapides que les mises à jour
+
+* **La relation entre le flux de données et le jeu de données est 1-1**. Cela signifie qu’une seule source peut alimenter un jeu de données à la fois. Pour changer de source, le flux de données existant doit être supprimé et un nouveau flux de données créé avec la nouvelle source.
 
 ### Modélisation des données
 
@@ -75,7 +75,7 @@ Vous trouverez ci-dessous des mécanismes de sécurisation et des limitations su
 
 * **Des limites sont appliquées au nombre d’attributs de profil** pouvant être utilisés dans les audiences par lots et en streaming afin de maintenir l’efficacité du système.
 
-* **Les listes de valeurs (LOV)** et **les énumérations** sont entièrement prises en charge.
+* Les **énumérations** sont entièrement prises en charge.
 
 * **Les audiences en lecture ne sont pas mises en cache** ; chaque exécution de campagne déclenche une évaluation complète de l’audience à partir des données sous-jacentes.
 
