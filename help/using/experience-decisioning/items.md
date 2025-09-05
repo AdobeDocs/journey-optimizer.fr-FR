@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 5c866814-d79a-4a49-bfcb-7a767d802e90
-source-git-commit: 3aa3203ae7763d81288cb70a2984d017b0006bb3
+source-git-commit: f494b30608c7413e1b7fc8d6c38d46d60821ee1c
 workflow-type: tm+mt
-source-wordcount: '1907'
-ht-degree: 93%
+source-wordcount: '2125'
+ht-degree: 82%
 
 ---
 
@@ -109,7 +109,7 @@ Lorsque vous sélectionnez des audiences ou des règles de décision, vous pouve
 
 ## Configurer les règles de limitation {#capping}
 
-La limitation est utilisée comme contrainte pour définir le nombre maximal de fois où une offre peut être présentée. Limiter le nombre de fois où les personnes reçoivent des offres spécifiques vous permet d’éviter de sur-solliciter votre clientèle et donc d’optimiser chaque point de contact avec la meilleure offre. Vous pouvez créer jusqu’à 10 limitations pour un élément de décision donné.
+La limitation est utilisée comme contrainte pour définir le nombre maximal de fois où un élément d&#39;offre peut être présenté. Limiter le nombre de fois où les personnes reçoivent des offres spécifiques vous permet d’éviter de sur-solliciter votre clientèle et donc d’optimiser chaque point de contact avec la meilleure offre. Vous pouvez créer jusqu’à 10 limitations pour un élément de décision donné.
 
 ![](assets/item-capping.png)
 
@@ -118,7 +118,17 @@ La limitation est utilisée comme contrainte pour définir le nombre maximal de 
 >
 >La mise à jour de la valeur du compteur de limitations peut prendre jusqu’à 3 secondes. Prenons l’exemple suivant : vous présentez une offre sur la bannière web de votre site web. Si une personne accède à la page suivante de votre site web en moins de 3 secondes, la valeur du compteur ne sera pas incrémentée pour cette personne.
 
-Pour définir des règles de limitation pour l’élément de décision, cliquez sur le bouton **[!UICONTROL Créer une limitation]**, puis procédez comme suit :
+Lors de la configuration des règles de limitation, vous pouvez référencer des attributs stockés dans les jeux de données Adobe Experience Platform pour définir des seuils. Pour utiliser un jeu de données, sélectionnez-le dans la section **[!UICONTROL Jeu de données]**.
+
+![](assets/exd-lookup-capping.png)
+
+>[!NOTE]
+>
+>Cette fonctionnalité est actuellement disponible en disponibilité limitée pour tous les utilisateurs. Vous trouverez des informations détaillées sur son utilisation dans cette section : [Utilisation des données Adobe Experience Platform pour la prise de décision](../experience-decisioning/aep-data-exd.md)
+
+Pour définir des règles de limitation pour l’élément de décision, cliquez sur le bouton **[!UICONTROL Créer une limitation]** puis suivez les étapes détaillées ci-dessous.
+
+![](assets/item-capping-create.png)
 
 1. Définissez l’**[!UICONTROL événement de limitation]** à prendre en compte pour augmenter le compteur.
 
@@ -139,9 +149,31 @@ Pour définir des règles de limitation pour l’élément de décision, cliquez
 
    * Sélectionnez **[!UICONTROL Par profil]** pour définir le nombre de fois où l’offre peut être proposée à la même personne. Par exemple, si vous êtes une banque avec une offre « Carte de crédit Platinum », vous ne souhaitez pas que cette offre soit présentée plus de 5 fois par profil. En effet, vous pensez que si l’utilisateur ou l’utilisatrice a vu l’offre 5 fois sans réagir à celle-ci, il ou elle sera plus susceptible de passer à l’action lors de la meilleure offre suivante.
 
-1. Dans le champ **[!UICONTROL Limiter le nombre de limitations]**, indiquez le nombre de fois où l’offre peut être présentée à l’ensemble des utilisateurs et utilisatrices ou à chaque profil, en fonction du type de limitation sélectionné. Le nombre doit être un entier supérieur à 0.
+1. Définissez le seuil de limitation. Pour ce faire, vous pouvez saisir une valeur statique ou calculer le seuil à l’aide d’une expression. Pour plus d’informations, développez les sections ci-dessous.
+
+   +++Seuil statique
+
+   Dans le champ **[!UICONTROL Limiter le nombre de limitations]**, indiquez le nombre de fois où l’offre peut être présentée à l’ensemble des utilisateurs et utilisatrices ou à chaque profil, en fonction du type de limitation sélectionné. Le nombre doit être un entier supérieur à 0.
 
    Par exemple, vous avez défini un événement de limitation personnalisé comme le nombre de passages en caisse pris en compte. Si vous saisissez « 10 » dans le champ **[!UICONTROL Limiter le nombre de limitations]**, aucune autre offre ne sera envoyée après 10 passages en caisse.
+
+   +++
+
+   +++Seuil d’expression
+
+   Au lieu d’utiliser une valeur statique pour le seuil de limitation, vous pouvez définir votre propre expression. Vous pouvez ainsi calculer le seuil de manière dynamique à l’aide d’attributs de décision et/ou d’attributs externes d’un jeu de données Adobe Experience Platform.
+
+   Par exemple, un spécialiste marketing peut décider d’ajouter un multiplicateur pour ajuster l’exposition. Par exemple, ils peuvent multiplier l’inventaire disponible par deux, ce qui permet à l’offre d’être présentée à deux fois plus de clients que d’unités disponibles. Cette approche prévoit que tous les clients ne convertiront pas, assurant ainsi une meilleure portée sans vente excessive.
+
+   >[!NOTE]
+   >
+   >Les règles de limitation **expressions** sont actuellement disponibles en tant que disponibilité limitée pour tous les utilisateurs. Elles ne sont prises en charge que pour le type de limitation **[!UICONTROL Au total]**.
+
+   Pour utiliser une expression, activez l’option **[!UICONTROL Expression]**, puis modifiez l’expression selon vos besoins.
+
+   ![](assets/exd-lookup-capping-expression.png)
+
+   +++
 
 1. Dans la liste déroulante **[!UICONTROL Réinitialiser la fréquence de limitation]**, définissez la fréquence à laquelle le compteur de limitation est réinitialisé. Pour ce faire, définissez la période du comptage (tous les jours, toutes les semaines ou tous les mois) et saisissez le nombre de jours, semaines ou mois de votre choix. Par exemple, si vous souhaitez que le nombre de limitations soit réinitialisé toutes les 2 semaines, sélectionnez **[!UICONTROL Hebdomadaire]** dans la liste déroulante correspondante et saisissez **2** dans l’autre champ.
 
@@ -188,3 +220,4 @@ Sélectionner un élément de décision ou cliquer sur le bouton représentant d
   ![](assets/item-undo.png)
 
 * **[!UICONTROL Archiver]** : définit le statut de l’élément de décision sur **[!UICONTROL Archivé]**. L’élément de décision est toujours disponible dans la liste, mais vous ne pouvez pas redéfinir son statut sur **[!UICONTROL Brouillon]** ou sur **[!UICONTROL Approuvé]**. Vous pouvez uniquement le dupliquer ou le supprimer.
+

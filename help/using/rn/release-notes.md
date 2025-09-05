@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Notes de mise à jour d’Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: c6179566226331d2169c3abc50a069262db80d85
+source-git-commit: f494b30608c7413e1b7fc8d6c38d46d60821ee1c
 workflow-type: tm+mt
-source-wordcount: '2011'
-ht-degree: 68%
+source-wordcount: '2051'
+ht-degree: 67%
 
 ---
 
@@ -23,6 +23,8 @@ ht-degree: 68%
 [!DNL Adobe Journey Optimizer] offre en permanence de nouvelles fonctionnalités, des améliorations des fonctionnalités existantes et des correctifs. Toutes les modifications sont consolidées la dernière semaine de chaque mois dans ces notes de mise à jour. [!DNL Adobe Journey Optimizer] est créée de manière native sur [!DNL Adobe Experience Platform] et hérite de ses dernières innovations et améliorations. En savoir plus sur ces modifications dans les [Notes de mise à jour d’Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=fr){target="_blank"}.
 
 ## Mises à jour du 25 septembre {#sep-updates}
+
+### Nouvelles fonctionnalités {#Sep-25-features}
 
 <table>
 <thead>
@@ -76,7 +78,8 @@ ht-degree: 68%
 <li>La fonction d’assistance « datasetLookup » peut désormais être utilisée dans les fragments d’expression.</li>
 <li>Une option de l’interface de gestion des jeux de données vous permet désormais d’activer les jeux de données basés sur des enregistrements pour la personnalisation de la recherche, sans avoir à effectuer d’appel API.</li>
 <li>Surveillance améliorée pour suivre le statut d’ingestion des données et savoir quand les jeux de données sont prêts pour la recherche.</li>
-<li>Mise à jour des instructions d’utilisation et des mécanismes de sécurisation pour garantir des performances et une fiabilité optimales.</li></ul></p>
+<li>Mise à jour des instructions d’utilisation et des mécanismes de sécurisation pour garantir des performances et une fiabilité optimales.</li>
+<li>Les jeux de données Adobe Experience Platform peuvent désormais être utilisés dans les règles de limitation de prise de décision.</li></ul></p>
 <p>Pour plus d’informations, consultez la <a href="../data/lookup-aep-data.md">documentation détaillée</a>.</p>
 <p>Date de disponibilité : 1er septembre 2025</p>
 </td>
@@ -84,7 +87,9 @@ ht-degree: 68%
 </tbody>
 </table>
 
-### Améliorations {#Sept-25-8-improv}
+### Améliorations {#Sep-25-improv}
+
+* **Expression pour les règles de limitation de prise de décision** - Vous pouvez désormais créer vos propres expressions pour définir le seuil d’une règle de limitation pour un élément de décision. [En savoir plus](../experience-decisioning/items.md#capping)
 
 * **Administration**
 
