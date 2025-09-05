@@ -45,7 +45,7 @@ Elles sont répertoriées comme suit et chaque alerte est détaillée ci-dessous
 
 * Alertes spécifiques à la configuration des canaux :
 
-   * l’enregistrement DNS du domaine AJO [](#alert-dns-record-missing) est manquant
+   * l’enregistrement DNS du domaine AJO [&#128279;](#alert-dns-record-missing) est manquant
   <!--* the [AJO channel configuration failure](#alert-channel-config-failure) alert
    * the [AJO domain certificates renewal unsuccessful](#alert-certificates-renewal) alert-->
 
