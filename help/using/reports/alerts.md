@@ -71,7 +71,7 @@ En fonction des préférences de l’abonné ou de l’abonnée, les alertes son
 >
 >Par défaut, seules les alertes in-app sont activées.
 
-<!--To enable email alerting, refer to [Adobe Experience Platform documentation](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/ui.html#enable-email-alerts){target="_blank"}.-->
+<!--To enable email alerting, refer to [Adobe Experience Platform documentation](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/ui.html?lang=fr#enable-email-alerts){target="_blank"}.-->
 
 Lorsqu’une alerte est résolue, les personnes abonnées reçoivent une notification « Résolue ».
 
