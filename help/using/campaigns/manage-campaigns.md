@@ -10,10 +10,10 @@ mini-toc-levels: 1
 level: Beginner
 keywords: gérer les campagnes, statut, planification, accès, optimizer
 exl-id: 1b88c84e-9d92-4cc1-b9bf-27a2f1d29569
-source-git-commit: 311dbb72079b91d3faa1c60c38a66a806d80da42
+source-git-commit: 21d3fd6a182fe8ecce13b4216e03f93348955c14
 workflow-type: tm+mt
-source-wordcount: '1742'
-ht-degree: 79%
+source-wordcount: '1772'
+ht-degree: 77%
 
 ---
 
@@ -23,7 +23,7 @@ Avant de commencer une campagne, vérifiez les conditions préalables suivantes 
 
 * **Accédez aux campagnes**. Vous pouvez accéder aux campagnes à partir de la [liste des campagnes](#access) ou du [calendrier des campagnes](#calendar).
 
-* **Créer la campagne**. Les étapes de création dépendent du [type de campagne](get-started-with-campaigns.md#get-started-with-campaigns) que vous créez. Découvrez comment créer une [campagne d’action](../campaigns/create-campaign.md), une [campagne déclenchée par l’API](../campaigns/api-triggered-campaigns.md) ou une [campagne orchestrée](../orchestrated/create-orchestrated-campaign.md).
+* **Créer la campagne**. Les étapes de création dépendent du [ type de campagne ](get-started-with-campaigns.md#get-started-with-campaigns). Découvrez comment créer une [campagne d’action](../campaigns/create-campaign.md), une [campagne déclenchée par l’API](../campaigns/api-triggered-campaigns.md) ou une [campagne orchestrée](../orchestrated/create-orchestrated-campaign.md).
 
 * **Définissez les propriétés de la campagne**. Découvrez comment définir des propriétés pour une [campagne d’action](../campaigns/campaign-properties.md), pour une [campagne déclenchée par l’API](../campaigns/api-triggered-campaign-properties.md) ou une [campagne orchestrée](../orchestrated/create-orchestrated-campaign.md).
 
@@ -53,7 +53,7 @@ Voir tous les statuts et alertes de campagne [dans cette section](#statuses).
 >title="Action"
 >abstract="Cette section répertorie toutes les actions utilisées dans la campagne orchestrée."
 
-Les campagnes sont accessibles à partir du menu **[!UICONTROL Campagnes]**.
+Les campagnes sont accessibles à partir du menu **[!UICONTROL Campagnes]**. Utilisez les onglets pour parcourir les campagnes, par type : campagnes **Action**, campagnes **déclenchées par l’API** et campagnes **orchestrées**. En savoir plus sur le [ type de campagne ](get-started-with-campaigns.md#get-started-with-campaigns). Les types disponibles dépendent de votre contrat de licence et de vos autorisations.
 
 >[!BEGINTABS]
 
