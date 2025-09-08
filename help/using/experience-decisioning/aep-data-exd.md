@@ -10,10 +10,10 @@ role: Data Engineer
 level: Intermediate
 keywords: expression, éditeur
 exl-id: 46d868b3-01d2-49fa-852b-8c2e2f54292f
-source-git-commit: 58389860e5e0b07f32dd62b95a508e80579aaa73
+source-git-commit: e411778cc873a24e4846e7acbe439222dd6e4c82
 workflow-type: tm+mt
-source-wordcount: '1132'
-ht-degree: 36%
+source-wordcount: '1161'
+ht-degree: 35%
 
 ---
 
@@ -22,12 +22,12 @@ ht-degree: 36%
 >[!CONTEXTUALHELP]
 >id="ajo_exd_catalogs_dataset"
 >title="Recherche de jeu de données"
->abstract=In order to use attributes from Adobe Experience Platform for decisioning, you need to create a mapping to define how the Adobe Experience Platform dataset joins with data in [!DNL Journey Optimizer].”
+>abstract="Pour utiliser des attributs de Adobe Experience Platform pour la prise de décision, vous devez créer un mappage pour définir la manière dont le jeu de données Adobe Experience Platform se joint aux données dans [!DNL Journey Optimizer]."
 
 >[!CONTEXTUALHELP]
 >id="ajo_exd_catalogs_dataset_create"
 >title="Recherche de jeu de données"
->abstract="Sélectionnez le jeu de données avec les attributs dont vous avez besoin parmi tous les jeux de données Adobe Experience Platform qui ont été activés pour la recherche, puis sélectionnez une clé de mappage (par exemple, numéro de vol ou ID de client) qui existe à la fois dans les attributs d’élément de décision et dans le jeu de données. »"
+>abstract="Sélectionnez le jeu de données avec les attributs dont vous avez besoin parmi tous les jeux de données Adobe Experience Platform qui ont été activés pour la recherche, puis sélectionnez une clé de mappage (par exemple, numéro de vol ou ID de client) qui existe à la fois dans les attributs d’élément de décision et dans le jeu de données."
 
 >[!CONTEXTUALHELP]
 >id="ajo_exd_rules_dataset_lookup"
@@ -41,8 +41,8 @@ ht-degree: 36%
 
 >[!CONTEXTUALHELP]
 >id="ajo_exd_item_capping_dataset"
->title="Ajouter un jeu de données »"
->abstract="Utilisez des attributs de jeux de données [!DNL Adobe Experience Platform] pour définir des critères de limitation en fonction d’attributs dynamiques externes. Cliquez sur **[!UICONTROL Ajouter un jeu de données]** pour sélectionner le jeu de données Adobe Experience Platform avec les attributs dont vous avez besoin. Si le jeu de données ne s’affiche pas dans la liste, assurez-vous de l’avoir activé pour la recherche et d’avoir créé un mappage de recherche de jeu de données. »"
+>title="Ajouter un jeu de données"
+>abstract="Utilisez des attributs de jeux de données [!DNL Adobe Experience Platform] pour définir des critères de limitation en fonction d’attributs dynamiques externes. Cliquez sur **[!UICONTROL Ajouter un jeu de données]** pour sélectionner le jeu de données Adobe Experience Platform avec les attributs dont vous avez besoin. Si le jeu de données ne s’affiche pas dans la liste, assurez-vous de l’avoir activé pour la recherche et d’avoir créé un mappage de recherche de jeu de données."
 
 >[!AVAILABILITY]
 >
