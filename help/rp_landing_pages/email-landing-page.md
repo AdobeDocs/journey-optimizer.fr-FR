@@ -32,7 +32,7 @@ Les diffusions d’e-mails peuvent être créées :
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=fr)
 
 Création d’un e-mail
 
@@ -42,7 +42,7 @@ Guide détaillé sur l’ajout, la configuration et le test d’actions d’e-ma
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=fr)
 
 Conception et optimisation du contenu des e-mails
 
@@ -52,7 +52,7 @@ Explorez les outils et les bonnes pratiques pour concevoir un contenu d’e-mail
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=fr)
 
 Gérer le processus d’opt-out des e-mails
 
@@ -62,7 +62,7 @@ Configurez des mécanismes de désinscription en un clic ou en deux étapes pour
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=fr)
 
 Configurer le canal e-mail
 
@@ -72,7 +72,7 @@ Configurez et gérez les configurations d’e-mail telles que la délégation de
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=fr)
 
 Maîtriser la délivrabilité des e-mails
 
