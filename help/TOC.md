@@ -5,9 +5,9 @@ user-guide-title: Guide de Journey Optimizer
 user-guide-description: Utilisez Journey Optimizer pour créer et proposer aux clients des expériences connectées, contextuelles et personnalisées
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: d7a291fc8e203b2e5b77969b406591544882b26e
+source-git-commit: cbb96e60b5f3f18499380829c909ad5c4fb6bb37
 workflow-type: tm+mt
-source-wordcount: '2903'
+source-wordcount: '2913'
 ht-degree: 99%
 
 ---
@@ -357,6 +357,7 @@ ht-degree: 99%
       + [Vérifier et envoyer votre notification in-app](using/in-app/send-in-app.md)
    + Canal des notifications push {#push}
       + [Canal des notifications push](/help/rp_landing_pages/push-landing-page.md)
+      + [Commencer avec les notifications push](using/push/get-started-push.md)
       + [Créer une notification push](using/push/create-push.md)
       + [Concevoir votre notification push](using/push/design-push.md)
       + [Vérifier et envoyer votre notification push](using/push/send-push.md)
@@ -437,6 +438,7 @@ ht-degree: 99%
       + [Vérifier et envoyer vos messages WhatsApp](using/whatsapp/send-whatsapp.md)
    + LINE {#line}
       + [LINE](/help/rp_landing_pages/line-landing-page.md)
+      + [Commencer avec le canal LINE](using/line/get-started-line.md)
       + [Configurer le canal LINE dans Journey Optimizer](using/line/line-configuration.md)
       + [Créer un message LINE](using/line/create-line.md)
       + [Vérifier et envoyer des messages LINE](using/line/send-line.md)
