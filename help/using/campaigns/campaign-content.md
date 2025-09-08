@@ -10,7 +10,7 @@ level: Beginner
 mini-toc-levels: 1
 keywords: créer, optimizer, campagne, surface, messages
 exl-id: bcb7a5e4-440d-4548-b305-c320bafe6ee7
-source-git-commit: 3a44111345c1627610a6b026d7b19b281c4538d3
+source-git-commit: 8701afe345f0eeed1503e4765d4715398823b102
 workflow-type: tm+mt
 source-wordcount: '162'
 ht-degree: 100%
@@ -23,7 +23,7 @@ Pour configurer le contenu du message, accédez à l’onglet **[!UICONTROL Cont
 
 ![](assets/campaign-content.png)
 
-## Concevoir le contenu
+## Concevoir le contenu {#action-campaign-channels}
 
 Le processus de création du contenu dépend du canal que vous avez sélectionné. Découvrez les étapes détaillées pour créer le contenu de votre message dans les pages suivantes :
 
