@@ -9,7 +9,7 @@ role: Admin
 level: Experienced
 keywords: sous-domaine, délégation, domaine, DNS
 exl-id: 8021f66e-7725-475b-8722-e6f8d74c9023
-source-git-commit: 1746efa82611d232b5af07b271739417b4e36e8c
+source-git-commit: 311dbb72079b91d3faa1c60c38a66a806d80da42
 workflow-type: tm+mt
 source-wordcount: '1906'
 ht-degree: 99%
@@ -253,7 +253,7 @@ Tout d’abord, effectuez les étapes suivantes dans [!DNL Journey Optimizer] :
 
    Vous devez envoyer une demande pour chaque sous-domaine de [page de destination](../landing-pages/lp-subdomains.md#undelegate-subdomain), de [SMS](../sms/sms-subdomains.md#undelegate-subdomain) ou [web](../web/web-delegated-subdomains.md#undelegate-subdomain).
 
-1. Arrêtez les campagnes actives associées aux sous-domaines. [Voici comment procéder](../campaigns/modify-stop-campaign.md#stop)
+1. Arrêtez les campagnes actives associées aux sous-domaines. [Voici comment procéder](../campaigns/manage-campaigns.md#stop)
 
 1. Arrêtez les parcours actifs associés aux sous-domaines. [Voici comment procéder](../building-journeys/end-journey.md#stop-journey)
 
@@ -276,4 +276,4 @@ Une fois que votre demande est gérée par Adobe, le domaine dont la délégatio
 
 Découvrez comment créer un sous-domaine à l&#39;aide de la méthode CNAME pour pointer vers des enregistrements spécifiques à Adobe.
 
->[!VIDEO](https://video.tv.adobe.com/v/342230?quality=12&captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/339484?quality=12)

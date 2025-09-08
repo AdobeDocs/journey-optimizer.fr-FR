@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 925494b6-e08a-4bd3-8a2f-96a5d9cbc387
-source-git-commit: 3a44111345c1627610a6b026d7b19b281c4538d3
+source-git-commit: 311dbb72079b91d3faa1c60c38a66a806d80da42
 workflow-type: tm+mt
 source-wordcount: '3521'
 ht-degree: 100%
@@ -608,5 +608,5 @@ Consultez [cette page](exclusion-list.md) pour la liste complète des causes d�
 * [Commencer avec les campagnes](../campaigns/get-started-with-campaigns.md)
 * [Création d’une campagne](../campaigns/create-campaign.md)
 * [Créer des campagnes déclenchées par API](../campaigns/api-triggered-campaigns.md)
-* [Modification ou arrêt d’une campagne](../campaigns/modify-stop-campaign.md)
+* [Modification ou arrêt d’une campagne](../campaigns/manage-campaigns.md)
 * [Rapport de campagne](campaign-global-report-cja.md)

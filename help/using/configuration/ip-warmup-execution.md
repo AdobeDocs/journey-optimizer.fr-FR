@@ -9,7 +9,7 @@ role: Admin
 level: Experienced
 keywords: IP, groupe, sous-domaines, délivrabilité
 exl-id: 752ffd7f-09c2-4aa3-a067-2dbe0634709c
-source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
+source-git-commit: 311dbb72079b91d3faa1c60c38a66a806d80da42
 workflow-type: tm+mt
 source-wordcount: '2635'
 ht-degree: 100%
@@ -294,7 +294,7 @@ Une exécution peut avoir les statuts suivants :
 
 * **[!UICONTROL Brouillon]** : chaque fois qu’une exécution est créée, soit lors de la [création d’un plan](ip-warmup-plan.md) ou de l’[ajout d’une exécution](#define-runs) à partir de l’interface utilisateur, son statut est **[!UICONTROL Brouillon]**.
 * **[!UICONTROL Actif]** : chaque fois que vous activez une exécution, son statut est **[!UICONTROL Actif]**. Cela signifie que le système a accepté la demande de planification de l’exécution, et non que l’envoi a commencé. À ce stade, vous pouvez observer le statut de l’exécution active en cliquant sur le bouton **[!UICONTROL Afficher le statut]** dans le tableau. Vous pouvez ainsi suivre le nombre de profils ciblés réellement qualifiés.
-* **[!UICONTROL Terminé]** : l’exécution de la campagne pour cette exécution est terminée. Vous pouvez accéder à un rapport d’exécution détaillé en cliquant sur le bouton **[!UICONTROL Afficher le rapport]** dans le tableau. Cette option vous permet de suivre le statut de diffusion par e-mail de l’exécution, y compris les ventilations spécifiques aux groupes de domaines pour une surveillance améliorée. Notez que le statut « Arrêté » sera attribué à la campagne.[En savoir plus](#reports)
+* **[!UICONTROL Terminé]** : l’exécution de la campagne pour cette exécution est terminée. Vous pouvez accéder à un rapport d’exécution détaillé en cliquant sur le bouton **[!UICONTROL Afficher le rapport]** dans le tableau. Cette option vous permet de suivre le statut de diffusion par e-mail de l’exécution, y compris les répartitions spécifiques aux groupes de domaines pour une surveillance améliorée. Notez que le statut « Arrêté » sera attribué à la campagne.[En savoir plus](#reports)
 * **[!UICONTROL Annulée]** : une exécution **[!UICONTROL Active]** a été annulée à l’aide du bouton **[!UICONTROL Annuler]**.[En savoir plus](#define-runs)
 * **[!UICONTROL Échec]** : une erreur a été rencontrée par le système ou la campagne utilisée pour la phase en cours a été arrêtée, ou vous avez activé l’option **[!UICONTROL Annuler les exécutions activées en cas d’erreurs]** et une erreur s’est produite. Si une exécution échoue, vous pouvez en planifier une autre pour le jour suivant.
 
@@ -304,7 +304,7 @@ Plus généralement, pour mesurer l’impact de votre plan, vous pouvez vérifie
 
 ![](assets/ip-warmup-plan-reports.png)
 
-Vous pouvez également accéder aux rapports à partir du [menu Campagnes](../campaigns/modify-stop-campaign.md#access), car votre plan peut utiliser différentes campagnes.
+Vous pouvez également accéder aux rapports à partir du [menu Campagnes](../campaigns/manage-campaigns.md#access), car votre plan peut utiliser différentes campagnes.
 
 
 ## Gérer votre plan {#manage-plan}
