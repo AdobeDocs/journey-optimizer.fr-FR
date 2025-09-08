@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 099d1439-34f7-47fe-9181-0e9ce2032a01
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+source-git-commit: 7ecabe24cfb7e81e6760c9841c97353921c374bb
 workflow-type: tm+mt
-source-wordcount: '384'
-ht-degree: 100%
+source-wordcount: '518'
+ht-degree: 72%
 
 ---
 
@@ -43,7 +43,16 @@ Pour créer une collection, procédez comme suit :
 1. Ajoutez une ou plusieurs règles pour déterminer les éléments à inclure dans la collection. Pour ce faire :
 
    1. Sélectionnez un attribut d’élément à utiliser comme critère. La liste d’attributs comprend tous les attributs standard et personnalisés définis dans le schéma de catalogue. [En savoir plus sur le catalogue des éléments](catalogs.md)
-   1. Sélectionnez l’opérateur souhaité et saisissez la valeur sur laquelle filtrer les données.
+   1. Sélectionnez l’opérateur de votre choix et saisissez la valeur sur laquelle effectuer le filtrage. Choisissez explicitement chaque nom d’offre ou créez et attribuez une balise « luma-Summer » à chaque offre.
+
+      >[!NOTE]
+      >
+      >L’opérateur **CONTAINS** ne prend pas en charge les correspondances partielles ou par caractère générique. Elle fonctionne comme un opérateur **IN**, ce qui signifie que vous devez fournir un tableau de valeurs exactes pour l’attribut.
+      >
+      >Supposons, par exemple, que vous souhaitiez inclure plusieurs offres d’été dans une collection : *« luma-Summer-yoga »*, *« luma-Summer-fitness »* et *« luma-Summer-running »*. Pour inclure ces éléments, vous devez définir une règle telle que « Nom de l’offre » CONTIENT « luma-été-yoga », « luma-été-fitness », « luma-été-running ». Cette règle renvoie uniquement les offres qui correspondent exactement à l’un des noms de la liste.
+      >
+      >Si vous avez besoin d’une correspondance partielle (par exemple, toutes les offres contenant *« luma-Summer »*), cela n’est actuellement pas pris en charge. Vous devez spécifier explicitement le nom de chaque offre ou attribuer une balise *« luma-Summer »* à chaque offre et utiliser cette balise dans votre règle.
+
    1. Répétez ces étapes pour ajouter autant de règles que nécessaire. Lorsque plusieurs règles sont ajoutées, vous pouvez choisir parmi les opérateurs **Et** et **Ou** pour les combiner. Pour cela, cliquez sur le badge de l’opérateur pour basculer entre les deux choix.
    1. Cliquez sur le bouton **[!UICONTROL Prévisualiser la collection]** pour afficher les éléments qui respectent les règles que vous avez définies.
 
