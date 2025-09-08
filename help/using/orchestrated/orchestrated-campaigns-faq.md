@@ -7,9 +7,9 @@ hide: true
 hidefromtoc: true
 version: Campaign Orchestration
 exl-id: 6a660605-5f75-4c0c-af84-9c19d82d30a0
-source-git-commit: a72ad0289df18df123832c5b83c301e539ebce60
+source-git-commit: 9d1e9f22c7841f9d17e857f652d94dbd6a068c06
 workflow-type: tm+mt
-source-wordcount: '1091'
+source-wordcount: '1102'
 ht-degree: 7%
 
 ---
@@ -71,12 +71,12 @@ Vous pouvez créer des campagnes orchestrées pour envoyer des **e-mails**, **SM
 
 ## En quoi les campagnes orchestrées sont-elles différentes des Parcours ? {#oc-vs-journeys}
 
-* **Campagnes orchestrées** : idéal pour les campagnes **par lots, de type « un à plusieurs »**. Des audiences entières se déplacent à travers la zone de travail de campagne.
+* **Campagnes orchestrées** : idéal pour les campagnes **par lots, de type « un à plusieurs »**. Les audiences progressent en bloc, selon un planning.
 * **Parcours** : idéal pour l’engagement **en temps réel, individuel**. Chaque client ou cliente passe par le parcours à son propre rythme, déclenché par un comportement ou des événements.
 
 >[!BEGINSHADEBOX]
 
-**Conseil** - De nombreuses entreprises utilisent **les deux ensemble** : des Parcours pour les expériences déclenchées et réactives, ainsi que des campagnes orchestrées pour les initiatives planifiées basées sur un calendrier.
+**Bonne pratique** : utilisez-les ensemble : Parcours pour les expériences déclenchées et réactives, et campagnes orchestrées pour les initiatives planifiées basées sur un calendrier.
 
 >[!ENDSHADEBOX]
 
@@ -160,7 +160,7 @@ Dans l’orchestration de Campaign, nous appelons la segmentation ad hoc « segm
 
 ## Cela permet-il de prendre des décisions ? {#decisioning}
 
-Actuellement, la prise de décision n’utilise pas les données relationnelles des campagnes orchestrées.
+Oui. Decisioning peut utiliser des données relationnelles provenant de campagnes orchestrées. Une fois le schéma relationnel connecté aux schémas XDM, les données XDM peuvent être utilisées dans la prise de décision.
 
 ## Comment fonctionne le déploiement dans les environnements ? {#deployment}
 
