@@ -9,10 +9,10 @@ role: Developer
 level: Experienced
 keywords: campagnes, déclenchement par API, REST, optimizer, messages
 exl-id: 322e035c-7370-40c9-b1cb-3428bc26e874
-source-git-commit: 378ead41924496f52f22026b3f0e05a9c9c76f89
-workflow-type: ht
-source-wordcount: '421'
-ht-degree: 100%
+source-git-commit: d4765f9084efac1fd241404dff365a66027ce5af
+workflow-type: tm+mt
+source-wordcount: '417'
+ht-degree: 97%
 
 ---
 
@@ -28,9 +28,9 @@ Utilisez l’onglet **[!UICONTROL Actions]** afin de sélectionner une configura
 
    >[!NOTE]
    >
-   >Les canaux disponibles varient en fonction de votre modèle d’attribution de licence et de vos modules complémentaires.
+   >Les canaux pris en charge sont les suivants : [E-mail](../email/get-started-email.md), [SMS/MMS/RCS](../sms/get-started-sms.md), [Notifications push](../push/get-started-push.md).
    >
-   >Pour les campagnes déclenchées par API, seuls les canaux E-mail, SMS et Notification push sont disponibles.
+   >Les canaux disponibles varient en fonction de votre modèle d’attribution de licence et de vos modules complémentaires.
 
 1. **Sélectionner une configuration de canal**
 

@@ -6,10 +6,10 @@ description: Découvrez comment commencer avec les campagnes orchestrées
 short-description: Découvrez les fonctionnalités clés et les cas d’utilisation des campagnes orchestrées.
 exl-id: 611dd06d-aa18-4fa3-a477-8a910cec21d8
 version: Campaign Orchestration
-source-git-commit: 07ec28f7d64296bdc2020a77f50c49fa92074a83
+source-git-commit: d4765f9084efac1fd241404dff365a66027ce5af
 workflow-type: tm+mt
-source-wordcount: '635'
-ht-degree: 92%
+source-wordcount: '654'
+ht-degree: 91%
 
 ---
 
@@ -48,6 +48,13 @@ Prise en charge de l’envoi à plusieurs niveaux, qui permet d’envoyer un mes
 <tr style="border: 0;">
 <td><img alt="Workflows de campagne à plusieurs étapes" src="assets/do-not-localize/icon-multistep.svg" width="150px"></a></td><td><b>Workflows de campagne à plusieurs étapes</b><br/>Concevez des campagnes à plusieurs étapes, des messages quotidiens aux campagnes complexes réalisées lors des promotions saisonnières ou des lancements de produits majeurs.</td></tr>
 </table>
+
+
+>[!NOTE]
+>
+>Les canaux pris en charge sont les suivants : [E-mail](../email/get-started-email.md), [SMS/MMS/RCS](../sms/get-started-sms.md), [Notifications push](../push/get-started-push.md).
+>
+>Les canaux disponibles varient en fonction de votre modèle d’attribution de licence et de vos modules complémentaires.
 
 ## Campagnes orchestrées et parcours
 

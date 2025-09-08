@@ -9,10 +9,10 @@ role: User
 level: Beginner
 keywords: campagne, guide, commencer, optimizer
 exl-id: e2506a43-e4f5-48af-bd14-ab76c54b7c90
-source-git-commit: d07d4c2001bd9e9d08539788073757bc1034c9ec
+source-git-commit: d4765f9084efac1fd241404dff365a66027ce5af
 workflow-type: tm+mt
-source-wordcount: '750'
-ht-degree: 89%
+source-wordcount: '753'
+ht-degree: 85%
 
 ---
 
@@ -66,7 +66,7 @@ Vous pouvez créer différents types de campagnes dans Journey Optimizer :
 
 * **Campagnes d’action**
 
-  Les campagnes d’action (ou campagnes planifiées) permettent des communications par lots ad hoc simples pour des cas d’utilisation marketing tels que des offres promotionnelles, des campagnes d’engagement, des annonces, des mentions légales ou des mises à jour de politiques.
+  Les campagnes d’action (ou campagnes planifiées) permettent des communications par lots ad hoc simples pour des cas d’utilisation marketing tels que des offres promotionnelles, des campagnes d’engagement, des annonces, des informations juridiques ou des mises à jour de politiques. Les canaux pris en charge sont les suivants :
 
 * **Campagnes déclenchées par API**
 
