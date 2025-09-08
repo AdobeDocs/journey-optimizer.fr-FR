@@ -10,24 +10,39 @@ role: Data Engineer
 level: Intermediate
 keywords: expression, éditeur
 exl-id: 46d868b3-01d2-49fa-852b-8c2e2f54292f
-source-git-commit: 825cffb38c366a7a93cd58da9d2439ff530c60e9
+source-git-commit: 58389860e5e0b07f32dd62b95a508e80579aaa73
 workflow-type: tm+mt
-source-wordcount: '1070'
-ht-degree: 50%
+source-wordcount: '1132'
+ht-degree: 36%
 
 ---
 
 # Utiliser des données Adobe Experience Platform à des fins de prise de décision {#aep-data}
 
 >[!CONTEXTUALHELP]
+>id="ajo_exd_catalogs_dataset"
+>title="Recherche de jeu de données
+>abstract=In order to use attributes from Adobe Experience Platform for decisioning, you need to create a mapping to define how the Adobe Experience Platform dataset joins with data in [!DNL Journey Optimizer].”
+
+>[!CONTEXTUALHELP]
+>id="ajo_exd_catalogs_dataset_create"
+>title="Recherche de jeu de données"
+>abstract="Sélectionnez le jeu de données avec les attributs dont vous avez besoin parmi tous les jeux de données Adobe Experience Platform qui ont été activés pour la recherche, puis sélectionnez une clé de mappage (par exemple, numéro de vol ou ID de client) qui existe à la fois dans les attributs d’élément de décision et dans le jeu de données. »
+
+>[!CONTEXTUALHELP]
 >id="ajo_exd_rules_dataset_lookup"
 >title="Recherche de jeu de données"
->abstract="L’utilisation des données Adobe Experience Platform dans les règles de décision vous permet de définir des critères d’éligibilité en fonction d’attributs externes dynamiques, en veillant à ce que les éléments de décision ne soient affichés que lorsque cela est pertinent. Créez un mappage pour définir la manière dont le jeu de données Adobe Experience Platform se joint aux données dans [!DNL Journey Optimizer]. Sélectionnez le jeu de données avec les attributs dont vous avez besoin et choisissez une clé de jointure qui existe à la fois dans les attributs d’élément de décision et dans le jeu de données."
+>abstract="Sélectionnez le jeu de données Adobe Experience Platform avec les attributs dont vous avez besoin. Si le jeu de données ne s’affiche pas dans la liste, assurez-vous de l’avoir activé pour la recherche et d’avoir créé un mappage de recherche de jeu de données."
 
 >[!CONTEXTUALHELP]
 >id="ajo_exd_formula_dataset_lookup"
 >title="Recherche de jeu de données"
->abstract="Les formules de classement définissent la priorité des éléments de décision. En utilisant des attributs de jeu de données [!DNL Adobe Experience Platform], vous pouvez ajuster dynamiquement la logique de classement pour refléter des conditions réelles. Créez un mappage pour définir la manière dont le jeu de données Adobe Experience Platform se joint aux données dans [!DNL Journey Optimizer]. Sélectionnez le jeu de données avec les attributs dont vous avez besoin et choisissez une clé de jointure qui existe à la fois dans les attributs d’élément de décision et dans le jeu de données."
+>abstract="Utilisez des attributs de jeux de données [!DNL Adobe Experience Platform] pour ajuster dynamiquement la logique de classement afin de refléter des conditions réelles. Cliquez sur **[!UICONTROL Ajouter un jeu de données]** pour sélectionner le jeu de données Adobe Experience Platform avec les attributs dont vous avez besoin. Si le jeu de données ne s’affiche pas dans la liste, assurez-vous de l’avoir activé pour la recherche et d’avoir créé un mappage de recherche de jeu de données."
+
+>[!CONTEXTUALHELP]
+>id="ajo_exd_item_capping_dataset"
+>title="Ajouter un jeu de données »
+>abstract="Utilisez des attributs de jeux de données [!DNL Adobe Experience Platform] pour définir des critères de limitation en fonction d’attributs dynamiques externes. Cliquez sur **[!UICONTROL Ajouter un jeu de données]** pour sélectionner le jeu de données Adobe Experience Platform avec les attributs dont vous avez besoin. Si le jeu de données ne s’affiche pas dans la liste, assurez-vous de l’avoir activé pour la recherche et d’avoir créé un mappage de recherche de jeu de données. »
 
 >[!AVAILABILITY]
 >
@@ -55,7 +70,7 @@ Pour utiliser des attributs de Adobe Experience Platform pour la prise de décis
 
 1. Configurez le mappage :
 
-   1. Cliquez sur **[!UICONTROL Sélectionner un jeu de données]** pour afficher tous les Adobe Experience Platform qui ont été activés pour la recherche. Sélectionnez le jeu de données avec les attributs dont vous avez besoin.
+   1. Cliquez sur **[!UICONTROL Sélectionner un jeu de données]** pour afficher tous les jeux de données Adobe Experience Platform qui ont été activés pour la recherche. Sélectionnez le jeu de données avec les attributs dont vous avez besoin.
 
    1. Cliquez sur **[!UICONTROL Sélectionner la clé]** pour choisir une clé de jointure (par exemple, numéro de vol ou ID client) qui existe à la fois dans les attributs d&#39;élément de décision et dans le jeu de données.
 
