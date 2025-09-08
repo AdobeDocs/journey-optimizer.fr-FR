@@ -5,9 +5,9 @@ user-guide-title: Guide de Journey Optimizer
 user-guide-description: Utilisez Journey Optimizer pour créer et proposer aux clients des expériences connectées, contextuelles et personnalisées
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: cbb96e60b5f3f18499380829c909ad5c4fb6bb37
+source-git-commit: b4ed25390e9f499a12649713eb963799de55caa5
 workflow-type: tm+mt
-source-wordcount: '2913'
+source-wordcount: '2917'
 ht-degree: 99%
 
 ---
@@ -350,6 +350,7 @@ ht-degree: 99%
          + [Nouvelle exigence DMARC](using/configuration/dmarc-record-update.md)
    + Canal in-app {#in-app}
       + [Canal in-app](/help/rp_landing_pages/in-app-landing-page.md)
+      + [Prise en main d’In-app](using/in-app/get-started-in-app.md)
       + [Conditions préalables pour le canal in-app](using/in-app/inapp-configuration.md)
       + [Créer un message mobile in-app](using/in-app/create-in-app.md)
       + [Créer un message web in-app](using/in-app/create-in-app-web.md)
