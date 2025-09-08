@@ -94,7 +94,7 @@ Une fois la configuration de votre **[!UICONTROL hypothèse]** terminée, vous o
 
 Le widget **[!UICONTROL Effet d’expérience]** fournit une vue détaillée de la manière dont votre expérience a influencé les segments d’audience ciblés. Il présente des indicateurs clés de performance qui vous aident à évaluer l’engagement et le comportement, notamment :
 
-* **[!UICONTROL Mesure de succès]** de Journey Optimizer ou la mesure de Principal **** d’Adobe Target en fonction de ce qui a été configuré lors de la création de l’expérience.
+* **[!UICONTROL Mesure de succès]** de Journey Optimizer ou la mesure de Principal **&#x200B;**&#x200B;d’Adobe Target en fonction de ce qui a été configuré lors de la création de l’expérience.
 
 * **[!UICONTROL Visiteurs]** : nombre total de visiteurs et visiteuses uniques exposés à l’expérience.
 
@@ -104,11 +104,11 @@ Vous pouvez également afficher un instantané en temps réel des performances d
 
 * **[!UICONTROL Effet élévateur sur la ligne de base]** : mesure l’amélioration en pourcentage du traitement principal par rapport au contrôle ou à la ligne de base.
 
-* **[!UICONTROL Mesure de succès]** de Journey Optimizer ou la mesure de Principal **** d’Adobe Target en fonction de ce qui a été configuré lors de la création de l’expérience.
+* **[!UICONTROL Mesure de succès]** de Journey Optimizer ou la mesure de Principal **&#x200B;**&#x200B;d’Adobe Target en fonction de ce qui a été configuré lors de la création de l’expérience.
 
 Au bas du widget, vous trouverez un résumé concis de la configuration de votre expérience, notamment :
 
-* **[!UICONTROL Mesure de succès]** de Journey Optimizer ou la mesure de Principal **** d’Adobe Target en fonction de ce qui a été configuré lors de la création de l’expérience.
+* **[!UICONTROL Mesure de succès]** de Journey Optimizer ou la mesure de Principal **&#x200B;**&#x200B;d’Adobe Target en fonction de ce qui a été configuré lors de la création de l’expérience.
 
 * **[!UICONTROL Nombre de traitements]** : nombre total de variations testées.
 
@@ -162,7 +162,7 @@ Le tableau **[!UICONTROL Résultats]** fournit une répartition détaillée des 
 
 * **[!UICONTROL Personnes]** : nombre de profils d’utilisateurs et d’utilisatrices qui sont qualifiés en tant que profils cibles pour vos messages.
 
-* **[!UICONTROL Mesure de succès]** de Journey Optimizer ou la mesure de Principal **** d’Adobe Target en fonction de ce qui a été configuré lors de la création de l’expérience.
+* **[!UICONTROL Mesure de succès]** de Journey Optimizer ou la mesure de Principal **&#x200B;**&#x200B;d’Adobe Target en fonction de ce qui a été configuré lors de la création de l’expérience.
 
 * **[!UICONTROL Effet élévateur]** : mesure de l’amélioration en pourcentage du taux de conversion d’un traitement donné par rapport à la ligne de base.
 
