@@ -15,7 +15,7 @@ version: Journey Orchestration
 source-git-commit: 62783c5731a8b78a8171fdadb1da8a680d249efd
 workflow-type: tm+mt
 source-wordcount: '1601'
-ht-degree: 82%
+ht-degree: 83%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 82%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_conditions"
 >title="Conditions"
->abstract="Les conditions vous permettent de définir la progression des individus dans votre parcours en créant plusieurs chemins d’accès en fonction de critères spécifiques. Vous pouvez également configurer un autre chemin pour gérer les temporisations ou les erreurs, assurant ainsi une expérience fluide."
+>abstract="Les conditions permettent de définir la progression des personnes dans votre parcours en créant plusieurs chemins basés sur des critères spécifiques. Vous pouvez également configurer un autre chemin pour gérer les temporisations ou les erreurs, assurant ainsi une expérience fluide."
 
 Avec **conditions** vous pouvez définir la progression des individus dans votre parcours en créant plusieurs chemins d’accès en fonction de critères spécifiques. Vous pouvez également configurer un autre chemin pour gérer les temporisations ou les erreurs, assurant ainsi une expérience fluide.
 
@@ -55,7 +55,7 @@ Pour ajouter une condition à votre parcours, procédez comme suit.
    * [Limite de profils](#profile_cap)
    * Vous pouvez également utiliser une audience dans une condition de parcours. [En savoir plus](#using-a-segment)
 
-## Gérer les chemins d’accès aux conditions {#condition_paths}
+## Gérer les chemins des conditions {#condition_paths}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_expression_simple2"

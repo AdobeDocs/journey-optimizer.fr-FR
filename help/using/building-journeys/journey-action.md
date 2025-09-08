@@ -13,7 +13,7 @@ version: Journey Orchestration
 source-git-commit: 62783c5731a8b78a8171fdadb1da8a680d249efd
 workflow-type: tm+mt
 source-wordcount: '976'
-ht-degree: 32%
+ht-degree: 39%
 
 ---
 
@@ -21,8 +21,8 @@ ht-degree: 32%
 
 >[!CONTEXTUALHELP]
 >id="ajo_action_activity"
->title="Activité d&#39;action"
->abstract="L’activité générique **Action** vous permet de configurer une action de canal native unique et plusieurs activités entrantes, tout en ajoutant une optimisation à toute action de canal intégrée."
+>title="Activité Action"
+>abstract="L’activité générique **Action** vous permet de configurer une action de canal native unique et plusieurs activités entrantes, tout en optimisant toute action de canal intégrée."
 
 >[!AVAILABILITY]
 >
@@ -137,7 +137,7 @@ Pour les messages in-app, vous pouvez utiliser le bouton **[!UICONTROL Modifier 
 >[!CONTEXTUALHELP]
 >id="ajo_multi_action_journey"
 >title="Ajouter plusieurs actions entrantes"
->abstract="Vous pouvez sélectionner plusieurs actions entrantes dans un seul parcours. Cette fonctionnalité permet de diffuser plusieurs expériences basées sur du code, messages in-app, cartes de contenu ou actions web à différents emplacements en même temps, chaque action comportant du contenu spécifique."
+>abstract="Vous pouvez sélectionner plusieurs actions entrantes au sein d’un même parcours. Cette fonctionnalité permet de diffuser plusieurs expériences basées sur du code, messages in-app, cartes de contenu ou actions web à différents emplacements en même temps, chaque action comportant du contenu spécifique."
 
 Pour simplifier votre orchestration des parcours, vous pouvez définir plusieurs actions entrantes dans une seule action de parcours.
 
