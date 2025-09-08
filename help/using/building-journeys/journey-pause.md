@@ -9,10 +9,10 @@ level: Intermediate
 keywords: publication, parcours, actif, validité, vérification
 exl-id: a2892f0a-5407-497c-97af-927de81055ac
 version: Journey Orchestration
-source-git-commit: 62783c5731a8b78a8171fdadb1da8a680d249efd
+source-git-commit: 18611c721dfd1b189a9272f9c49a2c2e778584cc
 workflow-type: tm+mt
-source-wordcount: '2225'
-ht-degree: 89%
+source-wordcount: '2429'
+ht-degree: 82%
 
 ---
 
@@ -24,8 +24,6 @@ ht-degree: 89%
 >abstract="Mettez en pause un parcours actif pour empêcher de nouveaux profils de le rejoindre. Choisissez de supprimer ou de conserver les profils actuellement dans le parcours. S’ils sont conservés, ils reprendront l’exécution à l’activité d’action suivante lors de la reprise du parcours. Idéal pour les mises à jour ou les arrêts d’urgence, sans perte de la progression."
 
 Vous pouvez mettre en pause vos parcours actifs, effectuer toutes les modifications nécessaires, puis les reprendre à tout moment.<!--You can choose whether the journey is resumed at the end of the pause period, or whether it stops completely. --> Pendant la pause, vous pouvez [appliquer des critères de sortie d’attribut de profil](#journey-exit-criteria) pour exclure des profils en fonction de leurs attributs. Le parcours est automatiquement repris à l’issue de la période de pause. Vous pouvez également le [reprendre manuellement](#journey-resume-steps).
-
-
 
 ## Avantages clés {#journey-pause-benefits}
 
@@ -91,6 +89,9 @@ Lorsqu’un parcours est en pause, la gestion des profils et l’exécution des 
 | [Mettre à jour le profil](update-profiles.md) et [Sauter](jump.md) | Les profils sont conservés ou ignorés en fonction de ce que l’utilisateur ou l’utilisatrice a choisi lorsque le parcours a été suspendu. |
 | [Source de données externe](../datasource/external-data-sources.md) | Même comportement que dans un parcours actif. |
 | [Critères de sortie](journey-properties.md#exit-criteria) | Même comportement que dans un parcours actif. |
+
+
+Découvrez comment résoudre les problèmes liés aux abandons dans [cette section](#discards-troubleshoot).
 
 ## Reprise d’un parcours en pause {#journey-resume-steps}
 
@@ -195,3 +196,50 @@ Lorsque vous reprenez ce parcours :
 
 1. Les entrées du parcours débutent en l’espace d’une minute.
 1. Les profils qui étaient en attente dans le parcours sur les activités **Action** sont rétablis à un taux de 5 000 tps. Ils peuvent alors entrer dans l’activité **Action** pour laquelle ils attendaient et continuer le parcours.
+
+## Résolution des problèmes liés aux abandons de profil dans les parcours en pause  {#discards-troubleshoot}
+
+Vous pouvez utiliser le [Adobe Experience Platform Query Service](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html?lang=fr){target="_blank"} pour interroger les événements d’étape, ce qui peut fournir plus d’informations sur les abandons de profil, selon le moment où ils se sont produits.
+
+* Pour les abandons qui se produisent avant que le profil n’entre dans le parcours, utilisez le code suivant :
+
+  ```sql
+  SELECT
+  TIMESTAMP,
+  _experience.journeyOrchestration.profile.ID,
+  to_json(_experience.journeyOrchestration)
+  FROM
+  journey_step_events
+  WHERE
+  _experience.journeyOrchestration.serviceEvents.dispatcher.eventType = 'PAUSED_JOURNEY_VERSION'
+  AND _experience.journeyOrchestration.journey.versionID=<jvId>  
+  ```
+
+  Cette opération répertorie les abandons qui se sont produits au point d&#39;entrée du parcours :
+
+   1. Lorsqu’un parcours d’audience est en cours d’exécution et que le premier nœud est toujours en cours de traitement, si le parcours est suspendu, tous les profils non traités sont ignorés.
+
+   1. Lorsqu’un nouvel événement unitaire arrive pour le nœud de début (pour déclencher une entrée) alors que le parcours est en pause, l’événement est ignoré.
+
+* Pour les abandons qui se produisent lorsque le profil est déjà dans le parcours, utilisez le code suivant :
+
+  ```sql
+  SELECT
+  TIMESTAMP,
+  _experience.journeyOrchestration.profile.ID,
+  to_json(_experience.journeyOrchestration)
+  FROM
+  journey_step_events
+  WHERE
+  _experience.journeyOrchestration.serviceEvents.stateMachine.eventType = 'JOURNEY_IN_PAUSED_STATE'
+  AND _experience.journeyOrchestration.journey.versionID=<jvId> 
+  ```
+
+  Cette commande répertorie les abandons qui se produisent lorsque les profils se trouvent dans un parcours :
+
+   1. Si le parcours est suspendu avec l’option Ignorer activée et qu’un profil a déjà été saisi avant la mise en pause, ce profil sera ignoré lorsqu’il atteindra le nœud d’action suivant.
+
+   1. Si le parcours a été suspendu avec l’option de conservation sélectionnée, mais que les profils ont été ignorés en raison d’un dépassement du quota de 10 millions, ces profils seront toujours ignorés lorsqu’ils atteignent le nœud d’action suivant.
+
+
+
