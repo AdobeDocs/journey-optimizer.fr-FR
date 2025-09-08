@@ -10,10 +10,10 @@ level: Beginner
 keywords: contenu, expérience, multiple, audience, traitement
 hide: true
 hidefromtoc: true
-source-git-commit: b52a0206e336185a8c630b7a6eace1fed14b1b66
+source-git-commit: e4d5631701c5c270af7aec931f6b98a567b4ed29
 workflow-type: tm+mt
-source-wordcount: '964'
-ht-degree: 2%
+source-wordcount: '960'
+ht-degree: 3%
 
 ---
 
@@ -67,13 +67,13 @@ Notez que les utilisateurs disposant uniquement d’une licence Target peuvent y
 </tr></table>
 -->
 
-## Qu’Est-Ce Qu’Un Test A/B ?
+## Qu’est-ce que le test A/B ?
 
 Les tests A/B sont le processus consistant à comparer plusieurs versions d’un élément afin de déterminer laquelle est la plus performante par rapport à un objectif défini.
 
 Les participants sont affectés de manière aléatoire à une version, connue sous le nom de variante, et leur comportement est suivi. Les résultats montrent si une version est statistiquement plus performante que les autres.
 
-## Terminologie Clé
+## Terminologie clé
 
 | Terme | Définition |
 |-|-|
@@ -119,7 +119,7 @@ Exemple : _Nous pensons que la modification de X augmentera Y en raison de Z._
 
   Conservez un enregistrement clair de ce qui a été testé, des raisons et de ce que vous avez appris. Cela permet de renforcer les connaissances institutionnelles et d&#39;éviter les erreurs répétées.
 
-## Mesures courantes et ce qu’elles indiquent
+## Mesures courantes
 
 | Mesure | Ce Qu’Il Mesure | Quand l’utiliser |
 |-|-|-|
@@ -136,11 +136,11 @@ Exemple : _Nous pensons que la modification de X augmentera Y en raison de Z._
 Une bonne expérience ne produit pas seulement une victoire, elle produit un apprentissage clair et exploitable.
 Voici ce qu’il faut rechercher :
 
-&check; **Confiance statistique** : il est peu probable que la différence entre les variantes soit due au hasard.
-&check; **Alignement avec les objectifs** : la mesure principale reflète une progression significative vers un objectif commercial.
-&check; **Impact Secondaire** : aucun effet secondaire négatif significatif sur les mesures associées.
-&check; **Évolutivité** : le résultat peut éclairer les décisions futures ou être généralisé à d’autres domaines.
-&check; **Clarté** : la cause du résultat est raisonnablement isolée et comprise.
+&amp;check; **Confiance statistique** : il est peu probable que la différence entre les variantes soit due au hasard.
+&amp;check; **Alignement avec les objectifs** : la mesure principale reflète une progression significative vers un objectif commercial.
+&amp;check; **Impact Secondaire** : aucun effet secondaire négatif significatif sur les mesures associées.
+&amp;check; **Évolutivité** : le résultat peut éclairer les décisions futures ou être généralisé à d’autres domaines.
+&amp;check; **Clarté** : la cause du résultat est raisonnablement isolée et comprise.
 
 L’expérimentation ne consiste pas seulement à trouver la « meilleure » version, mais également à acquérir des connaissances par le biais de tests et d’itérations. Lorsqu’elles sont bien menées, les expériences révèlent des informations qui permettent de prendre des décisions plus intelligentes, d’offrir de meilleures expériences utilisateur et de meilleurs résultats.
 
