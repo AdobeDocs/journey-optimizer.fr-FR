@@ -10,10 +10,10 @@ mini-toc-levels: 1
 level: Beginner
 keywords: gérer les campagnes, statut, planification, accès, optimizer
 exl-id: 1b88c84e-9d92-4cc1-b9bf-27a2f1d29569
-source-git-commit: 21d3fd6a182fe8ecce13b4216e03f93348955c14
+source-git-commit: 1215c7c2de090db7bcdb7943cc96599d9809972d
 workflow-type: tm+mt
-source-wordcount: '1772'
-ht-degree: 77%
+source-wordcount: '1863'
+ht-degree: 69%
 
 ---
 
@@ -37,11 +37,6 @@ Voir tous les statuts et alertes de campagne [dans cette section](#statuses).
 
 
 ## Accéder aux campagnes {#access}
-
->[!CONTEXTUALHELP]
->id="ajo_campaigns_view"
->title="Vues Liste et Calendrier des campagnes"
->abstract="Outre la liste des campagnes, [!DNL Journey Optimizer] fournit une vue Calendrier de vos campagnes, ce qui apporte une représentation visuelle claire de leurs plannings. Vous pouvez basculer entre les vues Liste et Calendrier à tout moment à l’aide de ces boutons."
 
 >[!CONTEXTUALHELP]
 >id="ajo_targeting_workflow_list"
@@ -89,15 +84,15 @@ Le bouton ![image showing the More actions button](assets/do-not-localize/rule-b
 
 ![image montrant l’inventaire des campagnes](assets/inventory-actions.png)
 
-* **[!UICONTROL Afficher le rapport complet]**/**[!UICONTROL Afficher le rapport des dernières 24 heures]** : accédez aux rapports pour mesurer et visualiser l’impact et les performances de vos campagnes.
-* **[!UICONTROL Modifier les balises]** : modifiez les balises associées à la campagne.
-* **[!UICONTROL Dupliquer]** : dans certains cas, vous devrez peut-être dupliquer une campagne, par exemple pour exécuter une campagne orchestrée qui a été arrêtée.
-* **[!UICONTROL Supprimer]** : supprimez la campagne. Cette action est disponible uniquement pour les **[!UICONTROL brouillons]** de campagne.
-* **[!UICONTROL Archiver]** - Archivez la campagne. Toutes les campagnes archivées sont supprimées selon un nouveau planning progressif 30 jours après la date de leur dernière modification. Cette action est disponible pour toutes les campagnes, à l’exception des campagnes **[!UICONTROL brouillon]**.
+* **[!UICONTROL Afficher le rapport à toute heure]** / **[!UICONTROL Afficher le rapport des dernières 24 heures]** - Accédez aux rapports pour mesurer et visualiser l’impact et les performances de vos campagnes. En savoir plus sur les [rapports de campagne](../reports/campaign-global-report-cja.md).
+* **[!UICONTROL Modifier les balises]** - Modifiez les balises associées à la campagne. Découvrez comment [utiliser des balises dans vos campagnes](../start/search-filter-categorize.md#add-tags-to-an-object)
+* **[!UICONTROL Dupliquer]** - Utilisez cette option pour dupliquer une campagne, par exemple pour exécuter une campagne orchestrée qui a été arrêtée. [En savoir plus](#duplicate-a-campaign)
+* **[!UICONTROL Supprimer]** - Utilisez cette option pour supprimer une campagne. [En savoir plus](#delete-a-campaign)
+* **[!UICONTROL Archiver]** - Archivez la campagne. Toutes les campagnes archivées sont supprimées selon un nouveau planning progressif 30 jours après la date de leur dernière modification. Cette action est disponible pour toutes les campagnes, à l’exception des campagnes **[!UICONTROL Brouillon]**. En savoir plus sur l’[archivage des campagnes](#archive-a-campaign).
 
 Pour les campagnes déclenchées par une action et par une API, les actions supplémentaires ci-dessous sont disponibles :
 
-* **[!UICONTROL Ajouter au package]** : ajoutez la campagne à un package pour l’exporter vers un autre sandbox. [Exporter des objets vers un autre sandbox](../configuration/copy-objects-to-sandbox.md)
+* **[!UICONTROL Ajouter au package]** : ajoutez la campagne à un package pour l’exporter vers un autre sandbox. Découvrez comment [exporter des objets vers un autre sandbox](../configuration/copy-objects-to-sandbox.md)
 * **[!UICONTROL Ouvrir la version brouillon]** : si une nouvelle version de la campagne a été créée et n’a pas encore été activée, vous pouvez accéder à sa version brouillon à l’aide de cette action.
 
 ## Cycle de vie de Campaign {#statuses}
@@ -154,6 +149,11 @@ Lorsqu’une erreur se produit dans l’une de vos campagnes, une icône d’ave
 ![](assets/campaign-alerts.png)
 
 ## Calendrier des campagnes {#calendar}
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaigns_view"
+>title="Vues Liste et Calendrier des campagnes"
+>abstract="Outre la liste des campagnes, [!DNL Journey Optimizer] fournit une vue Calendrier de vos campagnes, ce qui apporte une représentation visuelle claire de leurs plannings. Vous pouvez basculer entre les vues Liste et Calendrier à tout moment à l’aide de ces boutons."
 
 Outre la liste des campagnes, [!DNL Journey Optimizer] fournit une vue de calendrier de vos campagnes, ce qui apporte une représentation visuelle claire de leur planning.
 
@@ -244,3 +244,23 @@ Pour éviter cela, vous pouvez archiver les campagnes terminées et arrêtées d
 ![](assets/create-campaign-archive.png)
 
 Les campagnes archivées peuvent ensuite être récupérées à l’aide du filtre dédié dans la liste.
+
+
+## Suprimer une campagne {#delete}
+
+Pour supprimer une campagne, utilisez les points de suspension ![image illustrant le bouton Autres actions](assets/do-not-localize/rule-builder-icon-more.svg) puis sélectionnez **[!UICONTROL Supprimer]**.
+
+![](assets/delete-a-campaign.png){width="70%" align="left"}
+
+>[!IMPORTANT]
+>
+>Cette option est disponible uniquement pour les campagnes **[!UICONTROL Brouillon]**.
+
+
+## Dupliquer une campagne {#duplicate}
+
+Pour dupliquer une campagne, par exemple si elle a été arrêtée, utilisez les points de suspension ![image illustrant le bouton Autres actions](assets/do-not-localize/rule-builder-icon-more.svg) et sélectionnez **[!UICONTROL Dupliquer]**.
+
+Saisissez le nom de la campagne et confirmez.
+
+La campagne est créée et ajoutée à la liste des campagnes.
