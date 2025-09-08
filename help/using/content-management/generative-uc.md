@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 958ad2bb-b62e-431d-8ad6-7b294cbba544
-source-git-commit: 17e3c3e123415b6fb464fbf5de1ab3882a3ad73e
+source-git-commit: 36bef8f07645b1e9a5a010e3f1b4044f2099b002
 workflow-type: tm+mt
 source-wordcount: '608'
 ht-degree: 89%
@@ -71,7 +71,7 @@ Lorsque vous avez défini le contenu, l’audience et le planning, vous pouvez p
 
 ## Générer une image similaire
 
-<!--![](assets/do-not-localize/uc-image-similar.gif)-->
+![](assets/do-not-localize/uc-image-similar.gif)
 
 1. Après avoir configuré votre campagne, sélectionnez **[!UICONTROL Modifier le contenu]**.
 
