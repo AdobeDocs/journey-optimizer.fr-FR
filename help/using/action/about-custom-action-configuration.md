@@ -10,9 +10,9 @@ level: Experienced
 keywords: action, tiers, personnalisé, parcours, API
 exl-id: 4df2fc7c-85cb-410a-a31f-1bc1ece237bb
 source-git-commit: 967713938ab0e3eaaaad7a86054ed1270a9cc1ca
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1749'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -39,7 +39,7 @@ Les actions personnalisées prennent en charge le format JSON uniquement lors d
 
 >[!NOTE]
 >
->Lorsqu’un point d’entrée a un temps de réponse supérieur à 0,75 seconde, ses appels d’action personnalisés sont acheminés via un service lent [action personnalisée](../configuration/external-systems.md#response-time) dédié au lieu du service par défaut.
+>Lorsqu’un point d’entrée a un temps de réponse supérieur à 0,75 seconde, ses appels d’action personnalisée sont acheminés via un [service d’action personnalisée](../configuration/external-systems.md#response-time) lent dédié à la place du service par défaut.
 
 
 ## Bonnes pratiques{#custom-action-enhancements-best-practices}
@@ -122,7 +122,7 @@ Lors de la configuration d’une action personnalisée, vous devez définir les 
    >
    > Le méthode **DELETE** n’est pas prise en charge. Si vous devez mettre à jour une ressource existante, sélectionnez la méthode **PUT**.
 
-1. Gérer les redirections potentielles (réponses 302). Les **actions personnalisées** suivent automatiquement les redirections HTTP 302 sur une base par demande.
+1. Gérer les redirections potentielles (réponses 302). Les **actions personnalisées** suivent automatiquement les redirections HTTP 302, demande par demande.
 
 1. Définissez les en-têtes et les paramètres de requête :
 

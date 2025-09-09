@@ -8,9 +8,9 @@ role: User
 level: Experienced
 exl-id: 8a8b66cb-dd96-4373-bbe0-a67e0dc0b2c0
 source-git-commit: f407c5d4c20aab50350588d89e9d7682f24f5c33
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1367'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -101,4 +101,4 @@ Par exemple, si nous voulons mesurer les performances d’une stratégie d’éc
 
 >[!NOTE]
 >
->Actuellement, le rapport de mesure de l’effet élévateur n’est disponible que pour le modèle d’IA [ Optimisation personnalisée ](personalized-optimization-model.md). [En savoir plus sur le reporting Decisioning](../../reports/campaign-global-report-cja-code.md#decisioning-reporting)
+>Actuellement, le rapport Mesure de l’effet élévateur n’est disponible que pour le modèle d’IA [Optimisation personnalisée](personalized-optimization-model.md). [En savoir plus sur les rapports relatifs à la prise de décisions](../../reports/campaign-global-report-cja-code.md#decisioning-reporting)

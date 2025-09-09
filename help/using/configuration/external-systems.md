@@ -9,9 +9,9 @@ level: Beginner
 keywords: externe, API, optimizer, limitation
 exl-id: 27859689-dc61-4f7a-b942-431cdf244455
 source-git-commit: e7908a328a14b307f0ea6914d2d06c5325ceb211
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1615'
-ht-degree: 83%
+ht-degree: 100%
 
 ---
 
@@ -76,11 +76,11 @@ Pour les **actions personnalisées**, vous devez évaluer la capacité de votre 
 >
 >Les réponses étant désormais prises en charge, vous devez utiliser des actions personnalisées au lieu de sources de données pour les cas d’utilisation de sources de données externes. Pour plus d’informations sur les réponses, voir [cette section](../action/action-response.md)
 
-## Points d’entrée avec un temps de réponse lent {#response-time}
+## Points d’entrée avec un temps de réponse allongé {#response-time}
 
-Lorsqu’un point d’entrée a un temps de réponse supérieur à 0,75 seconde, ses appels d’action personnalisée sont acheminés via un **service d’action personnalisée lent** dédié au lieu du service par défaut.
+Lorsqu’un point d’entrée a un temps de réponse supérieur à 0,75 seconde, ses appels d’action personnalisée sont acheminés via un **service d’action personnalisée lent** dédié au lieu du service par défaut.
 
-Ce service d’action personnalisée lent applique une limite de limitation de 150 000 appels toutes les 30 secondes. La limite est appliquée à l’aide d’une fenêtre coulissante, qui peut commencer à n’importe quelle milliseconde au cours de cette période de 30 secondes. Une fois la fenêtre pleine, les appels supplémentaires sont rejetés avec des erreurs de limitation. Le système n’attend pas l’intervalle fixe suivant, mais commence la limitation immédiatement après l’atteinte du seuil de 30 secondes.
+Ce service d’action personnalisée lent applique une limite de capping de 150 000 appels toutes les 30 secondes. La limite est appliquée à l’aide d’une fenêtre glissante, qui peut commencer à n’importe quelle milliseconde au cours de cette période de 30 secondes. Une fois la fenêtre pleine, les appels supplémentaires sont refusés, au moyen d’erreurs de capping. Le système n’attend pas l’intervalle fixe suivant, mais commence le capping juste après avoir atteint le seuil de 30 secondes.
 
 Comme les points d’entrée lents peuvent entraîner des retards pour toutes les actions en file d’attente du pipeline, il est recommandé de ne pas configurer d’actions personnalisées avec des points d’entrée dont les temps de réponse sont lents. Le routage de ces actions vers le service lent permet de protéger les performances globales du système et d’éviter une latence supplémentaire pour d’autres actions personnalisées.
 
@@ -120,13 +120,13 @@ Pour un appel donné, trois reprises au maximum peuvent être effectuées jusqu&
 
 Dans chaque parcours, vous pouvez définir un délai de temporisation. Le délai de temporisation est configuré dans les propriétés d&#39;un parcours. Le délai de temporisation doit être compris entre 1 et 30 secondes. Consultez [cette section](../configuration/external-systems.md#timeout) et [cette page](../building-journeys/journey-properties.md#timeout_and_error).
 
-**Quel est le nombre maximal de connexions ouvertes par Journey Optimizer lorsque des actions personnalisées sont utilisées ?**
+**Quel est le nombre maximal de connexions ouvertes par Journey Optimizer lorsque des actions personnalisées sont utilisées ?**
 
-Lorsque le proxy IP est activé et qu’une configuration de limitation est définie sur le point d’entrée ciblé, le nombre de connexions est basé sur le taux (il s’agit d’estimations, et non de nombres garantis) :
+Lorsque le proxy IP est activé et qu’une configuration de limitation est définie sur le point d’entrée ciblé, le nombre de connexions est basé sur le taux (il s’agit d’estimations, et non de nombres garantis) :
 
-* entre 200 et 2000 c/s : 50 connexions
-* entre 2000 et 3000: 75 connexions
-* entre 3000 et 4000: 100 connexions
-* entre 4000 et 5000: 125 connexions
+* entre 200 c/s et 2 000 c/s : 50 connexions
+* entre 2 000 et 3 000 : 75 connexions
+* entre 3 000 et 4 000 : 100 connexions
+* entre 4 000 et 5 000 : 125 connexions
 
-Si aucune configuration de limitation n’est définie sur un point d’entrée, le moteur Journey Optimizer est conçu pour être mis à l’échelle et atteindre un grand nombre de connexions (plus de 2 000). Pour obtenir un nombre limité de connexions, les clients doivent utiliser une configuration de limitation.
+Si aucune configuration de limitation n’est définie sur un point d’entrée, le moteur de Journey Optimizer est conçu pour être augmenté et peut atteindre un grand nombre de connexions (plus de 2 000). Pour obtenir un nombre limité de connexions, les clientes et clients doivent utiliser une configuration de limitation.

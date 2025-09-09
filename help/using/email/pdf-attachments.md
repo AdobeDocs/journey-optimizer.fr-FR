@@ -2,7 +2,7 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Joindre un fichier PDF à un e-mail
-description: Découvrez comment joindre des fichiers PDF statiques à un email
+description: Découvrez comment joindre des fichiers PDF statiques à un e-mail.
 feature: Email Design
 topic: Content Management
 role: User
@@ -10,9 +10,9 @@ level: Beginner
 keywords: e-mail, message, pièce jointe, pdf, éditeur
 exl-id: 71e218d0-5b3b-4db5-8b7b-d08df8f088c4
 source-git-commit: 2e394ea4ba6f3a46df997d48331cbe6ea09f0eb5
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '353'
-ht-degree: 41%
+ht-degree: 100%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 41%
 
 >[!AVAILABILITY]
 >
->Cette fonctionnalité est en disponibilité limitée. Contactez votre représentant ou représentante Adobe pour obtenir l’accès.
+>Cette fonctionnalité est en disponibilité limitée. Contactez votre représentant ou représentante Adobe pour en obtenir l’accès.
 
 Vous pouvez joindre un fichier PDF statique aux e-mails que vous envoyez avec [!DNL Journey Optimizer].
 
@@ -39,17 +39,17 @@ Vous pouvez joindre un fichier PDF statique aux e-mails que vous envoyez avec [!
 
 Pour joindre un fichier PDF à un e-mail, procédez comme suit.
 
-1. Création d’un email dans un parcours ou une campagne. [En savoir plus](create-email.md)
+1. Créez un e-mail dans un parcours ou une campagne. [En savoir plus](create-email.md)
 
-1. Dans l’onglet parcours ou campagne **[!UICONTROL Contenu]**, sélectionnez **[!UICONTROL Ajouter une ressource]** dans la section **[!UICONTROL Pièce jointe]**.
+1. Dans l’onglet **[!UICONTROL Contenu]** du parcours ou de la campagne, sélectionnez **[!UICONTROL Ajouter une ressource]** dans la section **[!UICONTROL Pièce jointe]**.
 
    ![](assets/email-select-pdf.png)
 
-1. Le référentiel Assets Essentials s’affiche.
+1. Le référentiel Assets Essentials s’affiche.
 
    >[!NOTE]
    >
-   >Lors de la conception de messages, vous accédez au référentiel Assets Essentials directement depuis l’interface de Journey Optimizer. Pour en savoir plus sur l&#39;interface utilisateur [!DNL Assets Essentials] intégrée, consultez la documentation de [Experience Manager Assets Essentials](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/introduction.html?lang=fr){target="_blank"}.
+   >Lors de la conception de messages, vous accédez au référentiel Assets Essentials directement depuis l’interface de Journey Optimizer. Pour en savoir plus sur l’interface d’utilisation [!DNL Assets Essentials] intégrée, consultez la documentation d’[Experience Manager Assets Essentials](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/introduction.html?lang=fr){target="_blank"}.
 
 1. Utilisez le filtre **[!UICONTROL PDF]** de la section **[!UICONTROL Type MIME]** pour limiter la sélection au format de fichier approprié.
 
@@ -61,7 +61,7 @@ Pour joindre un fichier PDF à un e-mail, procédez comme suit.
 
 1. Sélectionnez le fichier de votre choix.
 
-   * Vous ne pouvez sélectionner qu’un seul fichier à la fois.
+   * Vous pouvez sélectionner un seul fichier à la fois.
    * La taille maximale autorisée pour chaque fichier joint est de 5 Mo.
 
 1. Une fois cette opération terminée, le nom et la taille du fichier sélectionné s’affichent dans la section **[!UICONTROL Pièce jointe]**.
@@ -72,4 +72,4 @@ Pour joindre un fichier PDF à un e-mail, procédez comme suit.
 
 >[!NOTE]
 >
->Lorsque vous enregistrez votre message en tant que [ modèle de contenu ](../content-management/create-content-templates.md), la pièce jointe PDF n’est pas conservée avec le modèle. Si vous créez un e-mail à partir du modèle de contenu enregistré, vous devez joindre à nouveau le fichier.
+>Lorsque vous enregistrez votre message en tant que [modèle de contenu](../content-management/create-content-templates.md), la pièce jointe PDF n’est pas conservée avec le modèle. Si vous créez un e-mail à partir du modèle de contenu enregistré, vous devez joindre à nouveau le fichier.

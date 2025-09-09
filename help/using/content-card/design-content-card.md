@@ -7,9 +7,9 @@ role: User
 level: Beginner
 exl-id: b83bdade-7275-4eef-9c49-fc1d157cee0d
 source-git-commit: dccaaa0588b504c1c00ce25fd6bbb4f34652ec91
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '555'
-ht-degree: 66%
+ht-degree: 100%
 
 ---
 
@@ -23,25 +23,25 @@ Une fois votre contenu défini et personnalisé, vous pouvez le consulter et l�
 
 ![](assets/content-card-image.png)
 
-Dans la section **[!UICONTROL Disposition de la carte de contenu]**, choisissez l’une des trois options de disposition d’image en fonction de vos besoins en matière de messagerie.
+Dans la section **[!UICONTROL Disposition de la carte de contenu]**, choisissez l’une des trois options de disposition d’image en fonction de vos besoins en matière de messages.
 
-* **[!UICONTROL Petite image]** : affiche une image compacte à côté du texte, idéale pour les messages dont le contenu a la priorité sur les visuels.
+* **[!UICONTROL Petite image]** : affiche une image compacte à côté du texte. Idéale pour les messages dont le contenu est plus important que les visuels.
 
-  Pour en savoir plus, consultez la documentation Adobe Developer [pour iOS](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/content-card-ui/iOS/templates/smallimage-template/) et [pour Android](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/content-card-ui/Android/public-classes/state/smallimagecarduistate/).
+  Pour en savoir plus, consultez la documentation Adobe Developer [pour iOS](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/content-card-ui/iOS/templates/smallimage-template/) et [pour Android](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/content-card-ui/Android/public-classes/state/smallimagecarduistate/).
 
-* **[!UICONTROL Grande image]** : présente une image bien en vue au-dessus ou à côté du texte, ce qui fait des visuels le point central de votre message.
+* **[!UICONTROL Grande image]** : présente une image bien en vue au-dessus ou à côté du texte, ce qui fait des visuels l’élement central de votre message.
 
-  Pour en savoir plus, consultez la documentation Adobe Developer [pour iOS](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/content-card-ui/iOS/templates/largeimage-template/) et [pour Android](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/content-card-ui/Android/public-classes/state/largeimagecarduistate/).
+  Pour en savoir plus, consultez la documentation Adobe Developer [pour iOS](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/content-card-ui/iOS/templates/largeimage-template/) et [pour Android](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/content-card-ui/Android/public-classes/state/largeimagecarduistate/).
 
-* **[!UICONTROL Image uniquement]** : affiche l’image sans texte d’accompagnement, idéal pour les messages visuels ou les images autonomes.
+* **[!UICONTROL Image seule]** : affiche l’image sans texte d’accompagnement. Idéale pour les messages visuels ou les images isolées.
 
-  Pour en savoir plus, consultez la documentation Adobe Developer [pour iOS](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/content-card-ui/iOS/templates/imageonly-template/) et [pour Android](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/content-card-ui/Android/public-classes/state/imageonlycarduistate/).
+  Pour en savoir plus, consultez la documentation Adobe Developer [pour iOS](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/content-card-ui/iOS/templates/imageonly-template/) et [pour Android](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/content-card-ui/Android/public-classes/state/imageonlycarduistate/).
 
 ## Onglet Contenu {#content-tab}
 
-Dans l’onglet **[!UICONTROL Contenu]**, vous pouvez personnaliser vos cartes de contenu en définissant le contenu et en ajoutant des boutons de média et d’action directement à partir de cet onglet.
+Dans l’onglet **[!UICONTROL Contenu]**, vous pouvez personnaliser vos cartes de contenu en définissant le contenu et en ajoutant des médias et des boutons d’action directement à partir de cet onglet.
 
-### Contenu texte {#title-body}
+### Contenu textuel {#title-body}
 
 ![](assets/content-card-design-2.png)
 
@@ -57,9 +57,9 @@ Le champ **[!UICONTROL Média]** vous permet d’améliorer vos cartes de conten
 
 Pour inclure un média, saisissez l’URL du média à utiliser ou cliquez sur l’icône **[!UICONTROL Sélectionner des ressources]** pour choisir parmi les ressources stockées dans votre bibliothèque de ressources. [En savoir plus sur la gestion des ressources](../integrations/assets.md).
 
-+++Plus d’options avec formatage avancé
++++Plus d’options avec le Formatage avancé
 
-Si le **[!UICONTROL Mode de formatage avancé]** est activé, vous pouvez ajouter un **[!UICONTROL Texte secondaire]** pour les applications de lecture d’écran et une autre ressource dans le champ **[!UICONTROL URL du média en mode sombre]**.
+Si le **[!UICONTROL mode Formatage avancé]** est activé, vous pouvez ajouter un **[!UICONTROL texte secondaire]** pour les applications de lecture d’écran et une autre ressource dans le champ **[!UICONTROL URL du média en mode sombre]**.
 
 +++
 
@@ -94,7 +94,7 @@ If the **[!UICONTROL Advanced formatting mode]** is switched on, you can choose 
 
 ![](assets/content-card-design-1.png)
 
-Sélectionnez le **[!UICONTROL Style]** de votre **[!UICONTROL bouton Ignorer]** pour personnaliser son aspect.
+Sélectionnez le **[!UICONTROL style]** de votre **[!UICONTROL bouton Ignorer]** pour personnaliser son aspect.
 
 Vous avez le choix parmi les styles suivants :
 

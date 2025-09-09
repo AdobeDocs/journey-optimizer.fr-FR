@@ -9,9 +9,9 @@ role: User
 level: Beginner
 exl-id: a93d4dc9-f0e9-400c-b9a4-6cdac84390fd
 source-git-commit: 12dbe0031e9037d879e0d2309c7c26cc3c00cc4e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '648'
-ht-degree: 86%
+ht-degree: 100%
 
 ---
 
@@ -78,17 +78,17 @@ Vous pouvez maintenant commencer à concevoir le contenu de votre message texte 
 
 ## Définir votre contenu LINE{#line-content}
 
-Adobe Journey Optimizer prend en charge les types de messages LINE suivants :
+Adobe Journey Optimizer prend en charge les types de messages suivants pour LINE :
 
-* **Texte** : envoyez des messages de texte brut ou formaté.
-* **Autocollants** : Incorporez les autocollants natifs de LINE pour ajouter du caractère et de l&#39;expressivité.
-* **Images** : joignez des images pour améliorer l’attrait visuel.
-* **Vidéos** : partagez du contenu vidéo pour une communication dynamique.
-* **Emplacements** : envoyez des informations d’emplacement avec des cartes.
-* **Modèles** : utilisez des modèles prédéfinis pour une messagerie cohérente.
-* **Messages Flex** : créez des dispositions complexes avec du contenu riche à l’aide de messages Flex basés sur JSON.
+* **Texte** : envoyez des messages texte bruts ou mis en forme.
+* **Autocollants** : incorporez les autocollants natifs de LINE pour ajouter du caractère et de l’expressivité.
+* **Images** : joignez des images pour améliorer l’attrait visuel.
+* **Vidéos** : partagez du contenu vidéo pour une communication dynamique.
+* **Emplacements** : envoyez des informations d’emplacement avec des cartes.
+* **Modèles** : utilisez des modèles prédéfinis pour des messages cohérents.
+* **Messages Flex** : créez des dispositions complexes avec du contenu riche à l’aide de messages Flex basés sur JSON.
 
-Ces types de message peuvent être configurés en modifiant directement le contenu JSON, ce qui permet d’utiliser des stratégies de messagerie dynamiques et personnalisées.
+Ces types de messages peuvent être configurés en modifiant directement le contenu JSON, ce qui permet d’utiliser des stratégies de messages dynamiques et personnalisées.
 
 Pour configurer votre contenu LINE, procédez comme suit.
 

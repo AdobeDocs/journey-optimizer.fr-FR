@@ -7,9 +7,9 @@ role: User
 level: Experienced
 exl-id: 63aa1763-2220-4726-a45d-3a3a8b8a55ec
 source-git-commit: 56a7f3be7777e1c9f73a1c473bd6babf952333f1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2745'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
@@ -111,7 +111,7 @@ Pour présenter la meilleure offre dynamique et expérience aux personnes destin
 
 1. Il est possible de créer des politiques dans des expériences basées sur des e-mails et du code à l’aide de l’éditeur de personnalisation. Elles peuvent également être créées dans les e-mails à partir d’un menu dédié dans le Concepteur d’e-mail. Pour plus d’informations, développez les sections ci-dessous.
 
-   +++Éditeur Personalization
+   +++Éditeur de personnalisation
 
    1. Ouvrez l’éditeur de personnalisation et sélectionnez **[!UICONTROL Politique de décision]**.
    1. Cliquez sur le bouton **[!UICONTROL Ajouter une politique de décision]** pour créer une nouvelle politique.
@@ -120,7 +120,7 @@ Pour présenter la meilleure offre dynamique et expérience aux personnes destin
 
    +++
 
-   +++Menu Designer d’e-mail **[!UICONTROL prise de décision]**
+   +++Menu **[!UICONTROL Prise de décision]** du Concepteur d’e-mail
 
    1. Sélectionnez un composant, cliquez sur l’icône **[!UICONTROL Prise de décision]** dans la barre d’outils ou le volet des propriétés, puis sélectionnez **[!UICONTROL Ajouter une nouvelle politique]**.
 
@@ -283,7 +283,7 @@ Après création, la politique de décision et les attributs liés aux élément
 
 1. Pour les e-mails, cliquez sur **[!UICONTROL Insérer une syntaxe]** pour ajouter le code correspondant à la politique de décision. Pour les expériences basées sur du code, cliquez sur **[!UICONTROL Insérer une politique]**.
 
-   +++Insertion du code de la politique de décision dans les e-mails
+   +++Insérer le code de la politique de décision dans les e-mails
 
    ![](assets/decision-policy-add.png)
 
@@ -293,7 +293,7 @@ Après création, la politique de décision et les attributs liés aux élément
 
    +++
 
-   +++Insertion du code de la politique de décision dans l’expérience basée sur le code
+   +++Insérer le code de la politique de décision dans l’expérience basée sur du code
 
    ![](assets/decision-code-based-add-decision.png)
 
@@ -314,7 +314,7 @@ Vous pouvez désormais ajouter tous les attributs de décision que vous souhaite
 >[!NOTE]
 >
 >Pour le suivi des éléments de la politique de décision, l’attribut `trackingToken` doit être ajouté comme suit pour le contenu de la politique de décision :
->&#x200B;>`trackingToken: {{item._experience.decisioning.decisionitem.trackingToken}}`
+>>`trackingToken: {{item._experience.decisioning.decisionitem.trackingToken}}`
 
 1. Cliquez sur chaque dossier pour le développer. Placez le curseur de votre souris à l’emplacement souhaité, puis cliquez sur l’icône + en regard de l’attribut à ajouter. Vous pouvez ajouter au code autant d’attributs que vous le souhaitez.
 
@@ -328,38 +328,38 @@ Vous pouvez désormais ajouter tous les attributs de décision que vous souhaite
 
    ![](assets/decision-code-based-decision-profile-attribute.png)
 
-### Utiliser les fragments {#fragments}
+### Utiliser des fragments {#fragments}
 
-Si votre politique de décision contient des éléments de décision, y compris des fragments, vous pouvez exploiter ces fragments dans le code de la politique de décision. [En savoir plus sur les fragments](../content-management/fragments.md)
+Si votre politique de décision contient des éléments de décision, y compris des fragments, vous pouvez utiliser ces fragments dans le code de la politique de décision. [En savoir plus sur les fragments](../content-management/fragments.md)
 
 >[!AVAILABILITY]
 >
->Actuellement, cette fonctionnalité n’est disponible que pour un ensemble d’organisations (disponibilité limitée). Pour plus d’informations, contactez votre représentant ou représentante Adobe.
+>Cette fonctionnalité n’est actuellement disponible que pour un ensemble d’organisations (disponibilité limitée). Pour plus d’informations, contactez votre représentant ou représentante Adobe.
 
-Supposons, par exemple, que vous souhaitiez afficher différents contenus pour plusieurs modèles d’appareils mobiles. Veillez à ajouter des fragments correspondant à ces appareils à l’élément de décision que vous utilisez dans la politique de décision. [Découvrez comment procéder](items.md#attributes).
+Supposons, par exemple, que vous souhaitiez afficher différents contenus pour plusieurs modèles d’appareils mobiles. Assurez-vous d’avoir ajouté les fragments correspondant à ces appareils à l’élément de décision que vous utilisez dans la politique de décision. [Découvrez comment procéder](items.md#attributes).
 
 ![](assets/item-fragments.png){width=70%}
 
-Une fois cette opération terminée, vous pouvez utiliser l’une des méthodes suivantes :
+Une fois cette opération terminée, vous pouvez utiliser l’une des méthodes suivantes :
 
 >[!BEGINTABS]
 
 >[!TAB Insérer directement le code]
 
-Il vous suffit de copier-coller le bloc de code ci-dessous dans le code de la politique de décision. Remplacez `variable` par l’ID de fragment et `placement` par la clé de référence du fragment :
+Il vous suffit de copier-coller le bloc de code ci-dessous dans le code de la politique de décision. Remplacez `variable` par l’ID de fragment et `placement` par la clé de référence du fragment :
 
 ```
 {% let variable =  get(item._experience.decisioning.offeritem.contentReferencesMap, "placement").id %}
 {{fragment id = variable}}
 ```
 
->[!TAB Suivez les étapes détaillées ]
+>[!TAB Suivre les étapes détaillées]
 
-1. Accédez à la **[!UICONTROL Fonctions d’assistance]** et ajoutez la fonction **Let** `{% let variable = expression %} {{variable}}` au volet de code, où vous pouvez déclarer la variable pour votre fragment.
+1. Accédez aux **[!UICONTROL Fonctions d’assistance]** et ajoutez la fonction **Let** `{% let variable = expression %} {{variable}}` au volet de code, où vous pouvez déclarer la variable pour votre fragment.
 
    ![](assets/decision-let-function.png)
 
-1. Utilisez la **de fonction** Map **>** Get`{%= get(map, string) %}` pour créer votre expression. La carte est le fragment référencé dans l’élément de décision et la chaîne peut être le modèle d’appareil que vous avez saisi dans l’élément de décision en tant que **[!UICONTROL clé de référence du fragment]**.
+1. Utilisez la fonction **Map** > **Get** `{%= get(map, string) %}`pour créer votre expression. La carte est le fragment référencé dans l’élément de décision et la chaîne peut être le modèle d’appareil que vous avez saisi dans l’élément de décision en tant que **[!UICONTROL clé de référence du fragment]**.
 
    ![](assets/decision-map-function.png)
 
@@ -373,11 +373,11 @@ Il vous suffit de copier-coller le bloc de code ci-dessous dans le code de la po
 
 >[!ENDTABS]
 
-L’identifiant du fragment et la clé de référence sont sélectionnés dans la section **[!UICONTROL Fragments]** de l’élément de décision.
+L’ID de fragment et la clé de référence sont sélectionnés dans la section **[!UICONTROL Fragments]** de l’élément de décision.
 
 >[!WARNING]
 >
->Si la clé du fragment est incorrecte ou si le contenu du fragment n’est pas valide, le rendu échoue, ce qui entraîne une erreur dans l’appel Edge.
+>Si la clé de fragment est incorrecte ou si le contenu du fragment n’est pas valide, le rendu échoue, ce qui entraîne une erreur dans l’appel Edge.
 
 ## Dernières étapes {#final-steps}
 

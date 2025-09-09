@@ -9,9 +9,9 @@ level: Experienced
 keywords: platform, lac de données, créer, lac, jeux de données, profil
 exl-id: 08633a79-5601-4e36-b8cf-080234956d99
 source-git-commit: fbd0280d293cef3548b48c2992b4f9f2793a7e1f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '689'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
@@ -45,7 +45,7 @@ Le tableau ci-dessous répertorie tous les jeux de données affectés et leur du
 | Référentiel d’objets de décision - Offres de secours | 13 mois | S.O. |
 | Référentiel d’objets de décision - Emplacements | 13 mois | S.O. |
 | Référentiel d’objets de décision - Activités | 13 mois | S.O. |
-| Référentiel D’Objets Experience Decisioning - Éléments D’Offre Personnalisés | 13 mois | S.O. |
+| Référentiel d’objets de décisions pour les expériences - Éléments d’offres personnalisées | 13 mois | S.O. |
 | ODE DecisionEvents - Décisions de production | 13 mois | S.O. |
 
 ## Questions fréquentes {#faq}
@@ -64,7 +64,7 @@ Les données du jeu de données généré par le système dans le profil sont ig
 
 +++
 
-+++Si des données de jeu de données générées par le système sont transmises à [!DNL Customer Journey Analytics] (CJA), les données de CJA seront-elles également affectées par la TTL ?
++++Si les données d’un jeu de données généré par le système sont transmises à [!DNL Customer Journey Analytics] (CJA), les données de CJA seront-elles également affectées par la durée de vie ?
 
 Les données de [!DNL Customer Journey Analytics] restent synchronisées avec Experience Platform. Par conséquent, la suppression de données en raison d’une durée de vie sur les données de jeu de données généré par le système aura également un impact sur les données dans [!DNL Customer Journey Analytics].
 
@@ -76,17 +76,17 @@ Les extensions de la durée de vie ne sont actuellement pas prises en charge. Ce
 
 >[!NOTE]
 >
->Les données stockées dans le profil sont soumises aux droits relatifs au volume total de données. Par conséquent, toute augmentation du stockage de données sur le profil suite à une extension de la durée de vie est comptabilisée dans les droits relatifs au volume total de données. [En savoir plus](https://experienceleague.adobe.com/docs/experience-platform/landing/license/total-data-volume.html?lang=fr){target=_blank}
+>Les données stockées dans le profil sont soumises aux droits relatifs au volume total de données. Par conséquent, toute augmentation du stockage de données sur le profil suite à une extension de la durée de vie est comptabilisée dans les droits relatifs au volume total de données. [En savoir plus](https://experienceleague.adobe.com/docs/experience-platform/landing/license/total-data-volume.html?lang=fr){target=&quot;_blank}
 
 +++
 
-+++Les clients peuvent-ils augmenter la durée de vie des données [!DNL Journey Optimizer] jeu de données système dans le lac de données ? 
++++La clientèle peut-elle augmenter la durée de vie des données du jeu de données système de [!DNL Journey Optimizer] dans le lac de données ? 
 
-Les extensions de la durée de vie ne sont actuellement pas prises en charge. Les clientes et clients peuvent exporter des données via les destinations pour conserver les données plus longtemps. [En savoir plus](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/export-datasets.html?lang=fr){target=_blank} En outre, les clientes et clients disposant de droits **[!DNL Data Distiller]** peuvent créer des jeux de données dérivés pour stocker les données dans le lac de données sans TTL. [En savoir plus](https://experienceleague.adobe.com/fr/docs/experience-platform/query/data-distiller/derived-datasets/overview){target=_blank}
+Les extensions de la durée de vie ne sont actuellement pas prises en charge. Les clientes et clients peuvent exporter des données via les destinations pour conserver les données plus longtemps. [En savoir plus](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/export-datasets.html?lang=fr){target=&quot;_blank} En outre, les clientes et clients disposant de droits **[!DNL Data Distiller]** peuvent créer des jeux de données dérivés pour stocker les données dans le lac de données sans TTL. [En savoir plus](https://experienceleague.adobe.com/fr/docs/experience-platform/query/data-distiller/derived-datasets/overview){target=&quot;_blank}
 
 +++
 
-+++Les fonctionnalités suivantes seront-elles affectées par les TTL ? 
++++Les durées de vie auront-elles une incidence sur les fonctionnalités suivantes ? 
 
 * **Recherche dans une banque** : non
 * **Limitation de parcours** : non
@@ -99,14 +99,14 @@ Les extensions de la durée de vie ne sont actuellement pas prises en charge. Le
   >
   >Une durée de vie est déjà implémentée sur la connexion [!DNL Customer Journey Analytics] (CJA), ce qui réduit à 13 mois la période de recherche en amont maximale effective des données du jeu de données concerné.
 
-* **Source de données Experience Platform** : sans objet - La récupération des événements d’expérience n’est pas prise en charge via les sources de données.
+* **Source de données Experience Platform** : sans objet - La récupération des événements d’expérience n’est pas prise en charge via les sources de données.
 * **Attributs calculés** : oui - le calcul du renvoi initial sera limité aux 90 derniers jours de données ; l’attribut calculé sera mis à jour en fonction des événements incrémentiels pour les mises à jour ultérieures. Dès que les mises à jour suivantes atteignent la période de recherche en amont (6 mois max.), la durée de vie n’affecte pratiquement plus l’attribut calculé. En savoir plus.
 * **Segmentation et reciblage** : oui - la segmentation dépend des données de la banque de profils. Par conséquent, la recherche en amont a été limitée à 90 jours sur les données des jeux de données affectés.
 * **Suivi** : oui - réduit à 90 jours la période de recherche en amont maximale effective des données du jeu de données concerné. Les données des jeux de données affectés résident pendant 13 mois dans le lac de données.
 
 +++
 
-+++Quel horodatage est utilisé pour l’application de la TTL (par exemple, pour les cas d’utilisation de renvoi) ? 
++++Quelles dates est heures sont utilisées pour l’application de la durée de vie (par exemple, pour les cas d’utilisation de renvoi) ? 
 
 La date et l’heure de l’événement sont utilisées (et non la date d’ingestion).
 

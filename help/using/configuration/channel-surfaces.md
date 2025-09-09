@@ -10,9 +10,9 @@ level: Experienced
 keywords: canal, surface, technique, paramètres, optimizer
 exl-id: 9038528f-3da0-4e0e-9b82-b72c67b42391
 source-git-commit: 3aa3203ae7763d81288cb70a2984d017b0006bb3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1804'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -141,11 +141,11 @@ Une fois créées, les configurations de canaux peuvent avoir les statuts suivan
 * **[!UICONTROL Échec]** : une ou plusieurs vérifications ont échoué lors de la vérification de la configuration de canal.
 * **[!UICONTROL Désactivé]** : la configuration de canal est désactivée. Elle ne peut pas être utilisée pour créer des messages.
 
-### Raisons de l’échec de la configuration du canal {#channel-config-failure}
+### Raisons de l’échec de la configuration des canaux {#channel-config-failure}
 
 En cas d’échec de la création d’une configuration de canal, les détails de chaque raison d’échec possible sont décrits ci-dessous.
 
-Si l’une de ces erreurs se produit, contactez l’[Assistance clientèle d’Adobe](https://helpx.adobe.com/fr/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){target="_blank"} pour obtenir de l’aide.
+Si l’une de ces erreurs se produit, contactez l’[assistance clientèle d’Adobe](https://helpx.adobe.com/fr/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){target="_blank"} pour obtenir de l’aide.
 
 * **Échec de la validation SPF** : SPF (Sender Policy Framework) est un protocole d’authentification d’e-mail qui permet de spécifier des adresses IP autorisées pouvant envoyer des e-mails à partir d’un sous-domaine donné. L’échec de validation SPF signifie que les adresses IP contenues dans l’enregistrement SPF ne correspondent pas aux adresses IP utilisées pour envoyer les e-mails aux fournisseurs de messagerie.
 

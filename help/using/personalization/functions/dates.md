@@ -7,9 +7,9 @@ role: Data Engineer
 level: Experienced
 exl-id: edc040de-dfb3-4ebc-91b4-239e10c2260b
 source-git-commit: ed4d50cbc488fb396c4fffec21d3f0062d3fc20a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1032'
-ht-degree: 86%
+ht-degree: 100%
 
 ---
 
@@ -170,7 +170,7 @@ La fonction `ageInMonths` calcule l’ancienneté d’une date donnée en mois, 
 
 +++Exemple
 
-currentDate = 2025-01-07T12:22:46.993748+05:30(Asie/Kolkata)
+currentDate = 2025-01-07T12:22:46.993748+05:30(Asie/Calcutta)
 
 * Entrée : `{%=ageInMonths(stringToDate("2024-01-01T00:00:00Z"))%}`
 * Sortie : `12`
@@ -410,7 +410,7 @@ Où la première chaîne correspond à l’attribut date et la seconde à la man
 >
 > Si un modèle de date n’est pas valide, la date revient au format ISO standard.
 >
-> Vous pouvez utiliser des fonctions de formatage des dates Java comme résumé dans la documentation [Oracle](https://docs.oracle.com/javase/8/docs/api/java/time/format/DateTimeFormatter.html){_blank}
+> Vous pouvez utiliser des fonctions de mise en forme des dates de Java, tel que cela est résumé dans la [documentation Oracle](https://docs.oracle.com/javase/8/docs/api/java/time/format/DateTimeFormatter.html){_blank}.
 
 **Exemple**
 
@@ -442,7 +442,7 @@ Lorsque la première chaîne correspond à l’attribut de date, la seconde vale
 
 **Exemple**
 
-L’opération suivante renvoie la date au format suivant : MM/jj/AA, dans le paramètre régional FRANCE.
+L’opération ci-dessous renvoie la date au format suivant : MM/jj/AA, dans les paramètres régionaux FRANCE.
 
 ```sql
 {%= formatDate(profile.timeSeriesEvents._mobile.hotelBookingDetails.bookingDate, "MM/dd/YY", "fr_FR") %}
@@ -595,7 +595,7 @@ The following operation gets all the values for the map `identityMap`.
 
 ## Tronquer au début de la journée {#truncate-day}
 
-La fonction `truncateToStartOfDay` est utilisée pour modifier une date-heure donnée en la définissant sur le début de la journée avec l&#39;heure définie sur 00:00.
+La fonction `truncateToStartOfDay` modifie une date-heure donnée en la définissant sur le début de la journée et sur 00:00.
 
 **Syntaxe**
 
@@ -612,7 +612,7 @@ La fonction `truncateToStartOfDay` est utilisée pour modifier une date-heure do
 
 ## truncateToStartOfQuarter {#truncate-quarter}
 
-La fonction `truncateToStartOfQuarter` est utilisée pour tronquer une date-heure au premier jour de son trimestre (par exemple, 1er janvier, 1er avril, 1er juillet, 1er octobre) à 00:00.
+La fonction `truncateToStartOfQuarter` tronque une date-heure au premier jour de son trimestre (par exemple, 1er janvier, 1er avril, 1er juillet, 1er octobre) à 00:00.
 
 **Syntaxe**
 
@@ -646,7 +646,7 @@ La fonction `truncateToStartOfWeek` modifie une date-heure donnée en la défini
 
 ## truncateToStartOfYear {#truncate-year}
 
-La fonction `truncateToStartOfYear` est utilisée pour modifier une date-heure donnée en la tronquant au premier jour de l&#39;année (1er janvier) à 00:00.
+La fonction `truncateToStartOfYear` modifie une date-heure donnée en la tronquant au premier jour de l’année (1er janvier) à 00:00.
 
 **Syntaxe**
 

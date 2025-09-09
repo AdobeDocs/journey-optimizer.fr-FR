@@ -2,21 +2,21 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Optimisation des messages
-description: Tirez parti de l’optimisation des messages pour créer des parcours et des campagnes marketing personnalisés et optimisés.
+description: Tirez profit de l’optimisation des messages pour créer des campagnes et des parcours marketing personnalisés et optimisés.
 role: User
 level: Intermediate
-keywords: optimisation de campagne, expérimentation, ciblage, tests A/B
+keywords: optimisation de campagne, expérimentation, ciblage, test A/B
 exl-id: 0f563d61-7a9e-46bf-adfb-5a26e63505b9
 source-git-commit: a770cbc1736e7add7e25f2cc8210d81bd8b2e375
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1045'
-ht-degree: 56%
+ht-degree: 100%
 
 ---
 
 # Optimisation des campagnes et des parcours {#message-optimization}
 
-L’optimisation vous donne les outils nécessaires pour diffuser du contenu personnalisé et optimisé à votre audience, <!--based on marketer-defined advanced decision configurations. This ensures that the right message reaches the right audience at the right time in order to maximize the effectiveness of your campaigns. (Removed for now as Decisioning is not yet supported)-->en garantissant un engagement et une réussite optimaux pour créer des parcours et des campagnes hautement <!--customized and --> efficaces.
+L’optimisation fournit les outils nécessaires pour diffuser du contenu personnalisé et optimisé auprès de votre audience, <!--based on marketer-defined advanced decision configurations. This ensures that the right message reaches the right audience at the right time in order to maximize the effectiveness of your campaigns. (Removed for now as Decisioning is not yet supported)-->garantissant ainsi un engagement et un succès optimaux afin de créer des campagnes et des parcours hautement efficaces<!--customized and -->.
 
 Avec l’optimisation, vous pouvez réaliser les actions suivantes :
 
@@ -24,7 +24,7 @@ Avec l’optimisation, vous pouvez réaliser les actions suivantes :
 * Exécuter des [expériences de contenu](#experimentation)
 * Utiliser des [combinaisons avancées](#combination) d’expérimentation et de ciblage dans une seule campagne
 
-Une fois le parcours ou la campagne actif, les profils sont évalués en fonction des critères définis. S’ils correspondent aux critères, ils sont diffusés avec l’expérience ou le contenu approprié du parcours ou de la campagne.
+Une fois la campagne ou le parcours actif, les profils sont évalués en fonction des critères définis. Puis, en fonction des critères correspondants, ils sont diffusés avec l’expérience ou le contenu approprié de la campagne ou du parcours.
 
 La différence entre les expériences et le ciblage peut être décrite comme suit :
 
@@ -33,9 +33,9 @@ La différence entre les expériences et le ciblage peut être décrite comme su
 
 ![](assets/msg-optimization-experiment-vs-targeting.png){width="110%" zoomable="yes"}
 
-➡️ [Pour en savoir plus sur l’optimisation d’une campagne, regardez cette vidéo](#video)
+➡️ [En savoir plus sur l’optimisation d’une campagne dans cette vidéo](#video)
 
-## Exploiter le ciblage {#targeting}
+## Tirer profit du ciblage {#targeting}
 
 Le ciblage diffuse du contenu personnalisé vers des segments d’audience spécifiques en fonction d’attributs de profil utilisateur ou utilisatrice, ou d’attributs contextuels.
 
@@ -49,9 +49,9 @@ Avec le ciblage, des règles spécifiques peuvent être définies en fonction de
 
 * **Audiences**, qui peuvent être utilisées pour inclure ou exclure des profils ayant une appartenance spécifique à une audience.
 
-Pour configurer le ciblage, procédez comme suit.
+Pour configurer le ciblage, suivez les étapes ci-dessous.
 
-1. Créez un [parcours ](../building-journeys/journey-gs.md#jo-build) ou une [campagne](../campaigns/create-campaign.md).
+1. Créez un [parcours](../building-journeys/journey-gs.md#jo-build) ou une [campagne](../campaigns/create-campaign.md).
 
    >[!NOTE]
    >
@@ -67,7 +67,7 @@ Pour configurer le ciblage, procédez comme suit.
 
    ![](assets/msg-optimization-create-targeting.png){width=85%}
 
-1. Sélectionnez l’option **[!UICONTROL Activer le contenu de secours]** si nécessaire. Le contenu de secours permet à votre audience de recevoir un contenu par défaut lorsqu’aucune règle de ciblage n’est qualifiée.
+1. Sélectionnez l’option **[!UICONTROL Activer le contenu de secours]** si nécessaire. Le contenu de secours permet à votre audience de recevoir un contenu par défaut lorsqu’aucune règle de ciblage n’est applicable.
 
    >[!NOTE]
    >
@@ -83,9 +83,9 @@ Pour configurer le ciblage, procédez comme suit.
 
    Dans cet exemple, concevez un contenu spécifique pour les personnes vivant aux États-Unis, un contenu différent pour les personnes vivant en France et encore un autre pour les personnes vivant en Inde.
 
-1. [Activer](review-activate-campaign.md) votre parcours ou campagne.
+1. [Activez](review-activate-campaign.md) votre parcours ou campagne.
 
-Une fois le parcours/la campagne en ligne, le contenu adapté à chaque cible est envoyé afin que les résidents des États-Unis reçoivent un message spécifique, les résidents de la France un message différent, etc.
+Une fois la campagne ou le parcours actif, le contenu adapté à chaque cible est envoyé : les personnes vivant aux États-Unis reçoivent un message spécifique, les personnes vivant en France un message différent, et ainsi de suite.
 
 <!--Default content:
 
@@ -97,7 +97,7 @@ Une fois le parcours/la campagne en ligne, le contenu adapté à chaque cible es
 
 L’expérimentation permet de tester plusieurs versions d’un contenu afin de déterminer celle qui offre les meilleures performances en fonction de mesures de succès prédéfinies.
 
-Pour configurer l’expérimentation, procédez comme suit.
+Pour configurer l’expérimentation, suivez les étapes ci-dessous.
 
 Supposons que vous vouliez tester les messages promotionnels suivants dans une campagne :
 
@@ -107,13 +107,13 @@ Supposons que vous vouliez tester les messages promotionnels suivants dans une c
 
 Pour configurer l’expérimentation et déterminer le message qui génère le plus d’achats, procédez comme suit.
 
-1. Créez un [parcours ](../building-journeys/journey-gs.md#jo-build) ou une [campagne](../campaigns/create-campaign.md).
+1. Créez un [parcours](../building-journeys/journey-gs.md#jo-build) ou une [campagne](../campaigns/create-campaign.md).
 
    >[!NOTE]
    >
    >Si vous vous trouvez dans un parcours, ajoutez une activité **[!UICONTROL Action]**, choisissez une activité de canal et sélectionnez **[!UICONTROL Configurer l’action]**. [En savoir plus](../building-journeys/journey-action.md#add-action)
 
-1. Dans l’onglet **[!UICONTROL Actions]**, sélectionnez deux actions entrantes, par exemple [expérience basée sur du code](../code-based/get-started-code-based.md) et [In-app](../../rp_landing_pages/in-app-landing-page.md).
+1. Dans l’onglet **[!UICONTROL Actions]**, sélectionnez au moins deux actions entrantes, par exemple [expérience basée sur du code](../code-based/get-started-code-based.md) et [in-app](../../rp_landing_pages/in-app-landing-page.md).
 
 1. Dans la section **[!UICONTROL Optimisation]**, sélectionnez **[!UICONTROL Créer une expérience]**.
 
@@ -123,29 +123,29 @@ Pour configurer l’expérimentation et déterminer le message qui génère le p
 
    ![](assets/msg-optimization-create-experiment.png){width=85%}
 
-   Une fois l’expérience définie, elle s’applique à toutes les actions insérées dans cette campagne ou par le biais de l’activité de parcours **[!UICONTROL Action]**, ce qui signifie que les mêmes clients voient les mêmes offres sur toutes les surfaces.
+   Une fois l’expérience définie, elle s’applique à toutes les actions insérées dans la campagne ou par le biais de l’activité **[!UICONTROL Action]** du parcours, ce qui signifie que les mêmes clients et clientes voient les mêmes offres sur l’ensemble des surfaces.
 
    >[!NOTE]
    >
-   >Vous pouvez sélectionner d’autres actions : l’expérimentation s’applique à toutes les actions ajoutées à la campagne ou à l’action de parcours.
+   >Vous pouvez sélectionner d’autres actions : l’expérimentation s’applique à toutes les actions ajoutées à la campagne ou au parcours.
 
-1. [Activer](review-activate-campaign.md) votre parcours ou campagne.
+1. [Activez](review-activate-campaign.md) votre parcours ou campagne.
 
-Une fois le parcours/la campagne actif, les utilisateurs sont affectés de manière aléatoire aux différentes variations de contenu. [!DNL Journey Optimizer] suit la variation qui génère le plus d’achats et fournit des informations exploitables.
+Une fois la campagne ou le parcours actif, les utilisateurs et utilisatrices se voient attribuer aléatoirement les différentes variations de contenu. [!DNL Journey Optimizer] suit la variation qui génère le plus d’achats et fournit des informations exploitables.
 
-Suivez le succès de votre campagne avec les rapports [parcours ](../reports/journey-global-report-cja.md) et [campagne](../reports/campaign-global-report-cja-experimentation.md). <!--Link to Experimentation journey reportis missing-->
+Suivez le succès de votre campagne avec les rapports de [parcours](../reports/journey-global-report-cja.md) et de [campagne](../reports/campaign-global-report-cja-experimentation.md). <!--Link to Experimentation journey reportis missing-->
 
 ## Combiner ciblage et expérimentation {#combination}
 
-Journey Optimizer vous permet également de combiner le ciblage et les expériences dans un seul parcours ou une seule campagne afin de créer des stratégies plus sophistiquées.
+Journey Optimizer permet également de combiner le ciblage et les expériences au sein d’un seul parcours ou d’une seule campagne afin de créer des stratégies plus sophistiquées.
 
-En effet, il est possible d’utiliser le ciblage pour créer plusieurs variantes et, pour chacune d’elles, recourir à l’expérimentation afin d’optimiser davantage chaque contenu. Cela garantit que les expériences sont spécifiques à chaque règle de ciblage et ne s’étendent pas sur plusieurs variantes.
+En effet, il est possible d’utiliser le ciblage pour créer plusieurs variantes et, pour chacune d’elles, de recourir à l’expérimentation afin d’optimiser davantage chaque contenu. Cela garantit que les expériences sont propres à chaque règle de ciblage et ne s’étendent pas aux variantes.
 
 Par exemple, il est possible de tester une « promotion -50 % » par rapport à une « carte-cadeau de 50 $ » pour la clientèle américaine, et d’exécuter un test différent pour la clientèle européenne, comme « livraison gratuite pour toute commande supérieure à 50 € » par rapport à « 20 % de réduction sur l’achat suivant ».
 
-Pour combiner le ciblage et les expériences dans un parcours ou une campagne, procédez comme suit.
+Pour combiner le ciblage et les expériences dans un parcours ou une campagne, suivez les étapes ci-dessous.
 
-1. Créez un parcours ou une opération dans laquelle vous définissez plusieurs règles de ciblage. [Voici comment procéder](#targeting)
+1. Créez un parcours ou une campagne où plusieurs règles de ciblage sont définies. [Voici comment procéder](#targeting)
 
    ![](assets/msg-optimization-create-targeting.png){width=85%}
 
@@ -159,17 +159,17 @@ Pour combiner le ciblage et les expériences dans un parcours ou une campagne, p
 
 1. De retour dans l’onglet **[!UICONTROL Actions]**, sélectionnez **[!UICONTROL Modifier le contenu]**.
 
-1. Pour le groupe défini par la première règle de ciblage, il est possible de définir un contenu spécifique pour chaque variante de l’expérience.
+1. Pour le groupe défini par la première règle de ciblage, il est possible de définir du contenu spécifique pour chaque variante de l’expérience.
 
-   Si vous avez ajouté plusieurs actions entrantes à votre parcours ou campagne, la même combinaison de ciblage et d’expérience s’applique à chaque action. Cependant, un contenu spécifique doit être défini pour chaque variante de chaque action.
+   Si plusieurs actions entrantes sont ajoutées au parcours ou à la campagne, la même combinaison de ciblage et d’expérience s’applique à chaque action. Cependant, un contenu spécifique doit être défini pour chaque variante de chaque action.
 
    ![](assets/msg-optimization-targeting-experiment-design.png){width=85%}
 
 1. Procédez de la même manière pour les autres règles de ciblage et concevez le contenu correspondant pour chaque variante.
 
-1. Enregistrez vos modifications et [activez](review-activate-campaign.md) votre parcours ou votre campagne.
+1. Enregistrez vos modifications et [activez](review-activate-campaign.md) votre parcours ou campagne.
 
-Une fois le parcours/la campagne en ligne, les utilisateurs de chaque groupe ciblé se voient attribuer de manière aléatoire les différentes variations de contenu définies pour le groupe auquel ils appartiennent.
+Une fois la campagne ou le parcours actif, les utilisateurs et utilisatrices de chaque groupe ciblé se voient attribuer aléatoirement les différentes variations de contenu définies pour leur groupe respectif.
 
 <!--
 ## Reporting on Message optimization
@@ -181,4 +181,4 @@ E.g. explaining how a marketer can look at the report to determine which treatme
 
 Apprenez à tirer parti de l’optimisation des messages dans les campagnes déclenchées par des actions ou des API. Vous découvrirez comment cibler des sous-audiences, créer des variations de messages en fonction de la localisation, activer un contenu de secours et mener plusieurs expériences au sein d’une même campagne. Ce tutoriel explique également comment gérer des campagnes à plusieurs canaux, tout en maintenant la cohérence du message.
 
->[!VIDEO](https://video.tv.adobe.com/v/3470370?quality=12&captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/3470368?quality=12)

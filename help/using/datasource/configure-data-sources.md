@@ -10,9 +10,9 @@ level: Intermediate, Experienced
 keywords: données, source, configuration, champ
 exl-id: 9b0dcffb-f543-4066-850c-67ec33f74a31
 source-git-commit: 521b643dfea095c2e9499db60038dc7202fc8648
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '615'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
@@ -58,11 +58,11 @@ Le nombre de parcours qui font appel à un groupe de champs est affiché dans le
 
 ## Cycle de vie du groupe de champs {#field-group-lifecycle}
 
-Vous pouvez ajouter des champs à un groupe qui n’est utilisé dans aucun parcours actif ou dans un état de brouillon, ou en supprimer.
+Vous pouvez ajouter ou supprimer des champs d‘un groupe de champs qui n’est utilisé dans aucun parcours actif ou à l’état de brouillon.
 
-Si le groupe de champs est utilisé dans un ou plusieurs parcours actifs ou dans un état de brouillon, vous pouvez ajouter de nouveaux champs de manière incrémentielle à partir du schéma sélectionné, mais vous ne pouvez pas désélectionner/supprimer/modifier des champs qui ont déjà été sélectionnés. Les mises à jour apportées à un groupe de champs ne sont pas autorisées si des champs existants d’un schéma déjà utilisé par des parcours en version brouillon ou en ligne sont modifiés, par exemple, si vous modifiez le type de données d’un champ. Cela évitera de rompre les parcours
+Si le groupe de champs est utilisé dans un ou plusieurs parcours actifs ou à l’état de brouillon, vous pouvez ajouter de nouveaux champs de manière incrémentielle à partir du schéma sélectionné, mais vous ne pouvez pas désélectionner/supprimer/modifier des champs qui ont déjà été sélectionnés. Il est impossible de mettre à jour un groupe de champs si des champs existants d’un schéma déjà utilisé par des parcours actifs ou à l’état de brouillon sont modifiés, par exemple, si vous modifiez le type de données d’un champ. Cela permet d’éviter l’interruption des parcours.
 
-Pour supprimer un champ d’un groupe utilisé dans un ou plusieurs parcours, procédez comme suit. Prenons l’exemple d’un groupe de champs appelé « Groupe de champs A ».
+Pour supprimer un champ d’un groupe de champs utilisé dans un ou plusieurs parcours, procédez comme suit. Prenons l’exemple d’un groupe de champs appelé « Groupe de champs A ».
 
 1. Dans la liste des groupes de champs, placez le curseur sur « Groupe de champs A » et cliquez ensuite sur l’icône **[!UICONTROL Dupliquer]** située à droite. Appelez le groupe de champs dupliqué « Groupe de champs B », par exemple.
 1. Dans « Groupe de champs B », supprimez les champs dont vous n’avez plus besoin.
