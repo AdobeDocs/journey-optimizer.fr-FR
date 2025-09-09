@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Notes de mise à jour d’Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 831db9b83f1b7011cdd26f957195592b06160837
+source-git-commit: 6d603641a3565b1f1465fa881383f4d48611c786
 workflow-type: tm+mt
-source-wordcount: '2063'
-ht-degree: 90%
+source-wordcount: '2082'
+ht-degree: 89%
 
 ---
 
@@ -75,7 +75,7 @@ ht-degree: 90%
 <td>
 <p>Publiée précédemment en version bêta publique, cette fonctionnalité est désormais disponible dans tous les environnements en disponibilité limitée. Les améliorations suivantes ont été apportées à cette version :</p>
 <ul><li>Prise en charge de la personnalisation de la recherche de jeux de données dans les canaux entrants.</li>
-<li>La fonction d’assistance « datasetLookup » peut désormais être utilisée dans les fragments d’expression.</li>
+<li>La fonction d’assistance « datasetLookup » peut désormais être utilisée dans les fragments d’expression. Pour l’instant, cette fonctionnalité est disponible pour un nombre limité de clientes et clients. Pour en bénéficier, contactez votre représentant ou représentante Adobe.</li>
 <li>Une option de l’interface de gestion des jeux de données vous permet désormais d’activer les jeux de données basés sur des enregistrements pour la personnalisation de la recherche, sans avoir à effectuer d’appel API.</li>
 <li>Surveillance améliorée pour suivre le statut d’ingestion des données et savoir quand les jeux de données sont prêts pour la recherche.</li>
 <li>Mise à jour des instructions d’utilisation et des mécanismes de sécurisation pour garantir des performances et une fiabilité optimales.</li>
