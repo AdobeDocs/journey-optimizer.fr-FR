@@ -8,10 +8,10 @@ feature: Ranking, Decision Management
 role: User
 level: Intermediate
 exl-id: 4f7f7d1d-a12a-4ff6-b0ff-1a1c3d305a9d
-source-git-commit: c79b860d4220b3125bbee2240e047552a04fe118
+source-git-commit: 58a5737a1eb56ab88aa71ba0a740dd51258e5248
 workflow-type: tm+mt
-source-wordcount: '371'
-ht-degree: 100%
+source-wordcount: '396'
+ht-degree: 95%
 
 ---
 
@@ -26,6 +26,8 @@ Vous pouvez par exemple sélectionner un modèle d’IA pour le canal e-mail et 
 >[!IMPORTANT]
 >
 >Pour l’instant, les modèles d’IA ne sont pas pris en charge dans les canaux créés par Journey Optimizer.
+
+➡️ [Découvrez cette fonctionnalité en vidéo.](#video)
 
 ## Types de modèles d’IA {#ai-model-types}
 
@@ -56,3 +58,9 @@ Les principales étapes pour créer et utiliser des modèles d’IA sont les sui
    >Les modèles d’IA exigent que des événements de retour soient envoyés en tant qu’événements d’expérience afin d’être collectés. [En savoir plus sur la collecte de données de la gestion des décisions](../data-collection/data-collection.md)
 
 1. Affectez le modèle d’IA à un emplacement dans une décision de classement des offres éligibles. [En savoir plus](../offer-activities/configure-offer-selection.md)
+
+## Vidéo pratique {#video}
+
+Découvrez comment créer un modèle d’IA pour Offer Decisioning et l’appliquer à une décision.
+
+>[!VIDEO](https://video.tv.adobe.com/v/3419959?quality=12)
